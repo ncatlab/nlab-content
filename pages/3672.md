@@ -36,9 +36,10 @@ This is based on the fact that in certain dimensions, [[spin group]] [[represent
 [[!include exceptional spinors and division algebras -- table]]
 
 
-## Applications 
+The structure of the [[normed division algebras]] also governs the existence of the _[[brane scan]]_ and the super-[[∞-Lie algebras]] such as the [[supergravity Lie 3-algebra]]. By the [[D'Auria-Fre formulation of supergravity]] the [[∞-Lie algebra valued forms]] with values in these constitute the field content of (11-dimensional) [[supergravity]].
 
-The structure of the [[normed division algebra]]s governs the existence of the _[[brane scan]]_ and the super-[[∞-Lie algebras]] such as the [[supergravity Lie 3-algebra]]. By the [[D'Auria-Fre formulation of supergravity]] the [[∞-Lie algebra valued forms]] with values in these constitute the field content of (11-dimensional) [[supergravity]].
+Combining this, one finds that [[supergravity]] coupled to [[super Yang-Mills theory]] (super [[Einstein-Yang-Mills theories]]) are parameterized by triples of real normed division algebras, forming a "[[magic pyramid]]".
+
 
 ## Related concepts
 
