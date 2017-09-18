@@ -42,7 +42,7 @@ The [[nerve]] of a permutative category is an [[E-infinity space]], and therefor
 
 An original account is in
 
-* [[John Isbell]], _On coherent algebras and strict algebras_, J. Pure Appl. Algebra 13 (1969)
+* [[John Isbell]], _On coherent algebras and strict algebras_, J. Algebra 13 (1969)
 
 Discussion in relation to [[symmetric spectra]] is in
 
