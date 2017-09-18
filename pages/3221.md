@@ -57,7 +57,9 @@ The Serre-Swan theorem serves to relate [[topological K-theory]] with [[algebrai
 
 * [[Gelfand duality]]
 
-* [[operator K-theory]]
+* [[operator K-theory]] 
+
+* [[Quillen-Suslin theorem]] 
 
 [[!include Isbell duality - table]]
 
