@@ -113,7 +113,14 @@ A solid mathematical formulation of perturbation theory has been given in
 The argument that the perturbation series of realistic [[quantum field theories]] such as [[QED]] necessarily diverges goes back to 
 
 * {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum
-electrodynamics_, Phys. Rev. 85, 631 (1952)
+electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
+
+  **Abstract**: _An argument is presented which leads tentatively to the conclusion that all the power-series expansions currently in use in quantum electrodynamics are divergent after the renormalization of mass and charge. The divergence in no way restricts the accuracy of practical calculations that can be made with the theory, but raises important questions of principle concerning the nature of the physical concepts upon which the theory is built._
+
+See also for instance 
+
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
+
 
 A general introduction on divergence of perturbation theory, asymptotic series and [[non-perturbative effects]] is for instance on the first pages of
 
