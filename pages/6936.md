@@ -26,7 +26,7 @@
 
 While HITs are already useful in [[extensional type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of [[cell complexes]], [[homotopy colimits]], [[n-truncated|truncations]], [[Bousfield localization of model categories|localizations]], and many other objects from classical [[homotopy theory]].
 
-Defining what a HIT is "in general" is an open research problem.  One mostly precise proposal may be found in ([ShulmanLumsdaine16](#ShulmanLumsdaine16)).  A more syntactic description of a class of HITs may be found in ([Brunerie16](#Brunerie16)).
+Defining what a HIT is "in general" is an open research problem.  One mostly precise proposal may be found in ([ShulmanLumsdaine16](#ShulmanLumsdaine16)).  A more syntactic description of a class of HITs may be found in ([Brunerie16](#Brunerie16)). A solution to this problem should determine how to define the concept of an [[elementary (∞,1)-topos]].
 
 ## Examples
 
