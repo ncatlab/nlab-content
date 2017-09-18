@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _causal propagator_ or _Pauli-Jordan distribution_ is a [[distribution]] which encodes the [[Poisson bracket]] on the [[covariant phase space]] of a [[free field|free]] [[local field theory]] (also known as the _[[Peierls bracket]]_).
+The _causal propagator_ or _Pauli-Jordan distribution_ ([Jordan-Pauli 27](#JordanPauli27)) is a [[distribution]] which gives the [[integral kernel]] for the [[Poisson bracket]] on the [[covariant phase space]] of a [[free field|free]] [[local field theory]] (also known as the _[[Peierls bracket]]_).
 
 Specifcally for the [[free field|free]] [[scalar field]] on a [[spacetime]] $\Sigma$, its [[phase space]] is the space $ker(\Box + m^2) \hookrightarrow C^\infty(\Sigma)$ of solutions of the [[Klein-Gordon equation]] (the [[wave equation]] for vanishing [[mass]] $m$). For any  point $x \in \Sigma$ we denote by $\phi(x) \colon ker(\Box + m^2) \to \mathbb{R}$ the point [[evaluation]] [[functional]] which sends $\Phi \in C^\infty(\Sigma)$ to $\Phi(x)$. An [[observable]] of the scalar field is then a [[functional]] of the form $\phi(b) \coloneqq \int b(x) \phi(x) dvol(x)$, for $b$ a [[bump function]] on $\Sigma$. On the algebra of these observables there is a canonical [[Poisson bracket]] pairing defined (also known as the _[[Peierls bracket]]_ see at _[[scalar field]]_ for details), taking $\phi(b_1)$ and $\phi(b_2)$ to a new observable denoted $\{\phi(b_1), \phi(b_2)\}$. While a priori this Poisson bracket is defined only on the "smeared" observables $\phi(b)$, not on the point observables $\phi(x)$, nevertheless it has a [[distributional density|distributional]] [[integral kernel]] $\{\phi(x), \phi(y)\}$ such that
 
@@ -38,9 +38,9 @@ $$
   \Delta(x,y) \coloneqq \{\phi(x), \phi(y)\}
 $$ 
 
-is the _causal propagator_ or _Pauli-Jordan distribution_ (also "commutator function"). This happens to be a [[fundamental solution]]/[[Green function]] to the [[Klein-Gordon operator]] $\Box + m^2$, whence a "[[propagator]]".
+is the _causal propagator_ or _Pauli-Jordan distribution_ (also "commutator function", see [this prop.](scalar+field#IntegralKernelForPoissonBracketOfFreeScalarFieldOnMinkowskiSpacetime)). This happens to be a [[fundamental solution]]/[[Green function]] to the [[Klein-Gordon operator]] $\Box + m^2$, whence a "[[propagator]]".
 
-For other [[free fields]] [[field (physics)|fields]] the [[integral kernel]] of their [[Poisson bracket]] is a more complicated expression, but it is typically still an expression in terms of the causal propagator of the scalar field.
+For other [[free fields|free]] [[field (physics)|fields]] the [[integral kernel]] of their [[Poisson bracket]] is a more complicated expression, but it is typically still an expression in terms of the causal propagator of the scalar field.
 
 What is _causal_ about the causal propagator is that (on [[globally hyperbolic spacetimes]] such as [[Minkowski spacetime]]) its [[support of a distribution|support as a distribution]], is, for one of the two arguments fixed, the union of the [[past causal cone]] and the [[future causal cone]] of that point. On [[globally hyperbolic spacetimes]] the propagator splits, as a distribution, as a sum
 
@@ -52,7 +52,163 @@ where the [[retarded propagator]] $\Delta_R$ and the [[advanced propagator]] $\D
 
 ## Definition
 
-### On Minowski spacetime
+### On Minkowski spacetime
+
+Let $p \in \mathbb{N}$ and let $\mathbb{R}^{p,1}$ be $(p+1)$-dimensional [[Minkowski spacetime]].
+
++-- {: .num_defn #CausalPropagatorOnMinkowskiSpacetime}
+###### Definition
+**(causal propagator on Minkowski spacetime)
+
+The _causal propagator_ or _Pauli-Jordan distribution_ on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ is the [[distribution]]
+
+$$
+  \Delta \in \mathcal{D}'(\mathbb{R}^{p,1} \times \mathbb{R}^{p,1})
+$$
+
+which as a [[generalized function]] is given by
+
+$$
+  \begin{aligned}
+    \Delta(x,y)
+     & \coloneqq
+      -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+     \\
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime}
+###### Proposition
+**(equivalent expressions for causal propagator on Minkowski spacetime)**
+
+The causal propagator on Minkowski spacetime from def. \ref{CausalPropagatorOnMinkowskiSpacetime} has the following equivalent expressions
+
+
+$$
+  \begin{aligned}
+    \Delta(x,y)
+     & \coloneqq
+      -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+     \\
+     & = 
+     -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left( 
+      e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)}
+      -
+      e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} 
+    \right) d^p \vec k
+    \\
+     & = 
+     - i
+     (2\pi)^{-p}
+     \frac{1}{E(\vec k)} sin(E(\vec k) (x-y)^0 ) e^{ - i \vec k \cdot (\vec x - \vec y)}
+     d^p \vec k
+     \\
+  \end{aligned}
+  \,,
+$$
+
+where
+
+$$
+  E(\vec k) \coloneqq \sqrt{\vec k^2 + m^2}
+$$
+
+and where in the last expression the integral is to be understood as the weak limit of integrals up to ${\vert \vec k\vert}$ as ${\vert k \vert} \to \infty$ ([Scharf 95 (2.3.8)](#Scharf95)).
+
+Moreover, this is equal to 
+
+$$
+  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction}
+  \Delta(x,y)
+  \;=\;
+  (2 \pi)^{p-2}
+  sgn((x-y)^0)
+  \left(
+    \delta( -{\vert x-y\vert}^2 )
+    -
+    \Theta( -{\vert x-y\vert}^2 )
+    \frac{m}{2 \sqrt{-{\vert x-y\vert}^2} }
+    J_1\left( 
+      m \sqrt{-{\vert x-y\vert}^2}
+    \right)
+  \right)
+  \,,
+$$
+
+where $J_1$ denotes the [[Bessel function]] of order 1.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statements, decompose the original integral into its contributions from $k_0 \geq 0$ and from $k_0 \leq 0$ and then apply the [[changes of integration variables]]  $k_0 = \sqrt{h}$ for $k_0 \geq 0$ and $k_0 = -\sqrt{h}$ for $k_0 \leq 0$.
+
+
+$$
+  \begin{aligned}
+    -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+     & = 
+     -i (2\pi)^{-p} \int \int_0^\infty \delta( -k_0^2 + \vec k^2 + m^2 ) e^{ - i k_0 x^0 - i \vec k \cdot \vec x} d k_0 \, d^p \vec k
+     \\
+     & \phantom{=} 
+     + i (2\pi)^{-p} \int \int_{-\infty}^0 \delta( -k_0^2 + \vec k^2 + m^2 )  e^{ -i k_0 x^0 - i \vec k \cdot vec x } d k_0 \, d^{p} \vec k
+     \\
+     & = 
+     -i (2\pi)^{-p} \int \int_0^\infty \frac{1}{2 \sqrt{h}} \delta( -h + E(\vec k)^2 ) e^{ - i \sqrt{h} (x-y)^0 - i \vec k \cdot \vec x } d h \, d^{p} \vec k
+     \\
+     & \phantom{=} 
+     + i (2\pi)^{-p} \int \int_0^\infty \delta( -h + E(\vec k)^2 ) e^{ + i E(\vec k) (x-y)^0 - i \vec k \cdot \vec x }  d h \, d^{p} \vec k
+     \\
+     & = 
+     -i (2\pi)^{-p} \int \frac{1}{2 E(\vec k)} e^{ - i E(\vec k) (x-y)^0 - i \vec k \cdot \vec x}  d^{p} \vec k
+     \\
+     & \phantom{=} 
+     + i (2\pi)^{-p} \int \frac{1}{2 E(\vec k)} e^{ + i E(\vec k) (x-y)^0 - i \vec k \cdot \vec x }  d^{p} \vec k
+     \\
+     & = -i (2 \pi)^{-p} \int \frac{1}{2 E(\vec k)} 
+      e^{-i \vec k \cdot (\vec x - \vec y)} 
+      \left(
+         e^{i E(\vec k) (x-y)^0} - e^{i E(\vec k) (x-y)^0}
+      \right)
+    \\
+     & = -i (2 \pi)^{-p} \int \frac{1}{E(\vec k)} 
+      e^{-i \vec k \cdot (\vec x - \vec y)} 
+      sin(E(\vec k)(x-y)^0)
+  \end{aligned}
+$$
+
+For the last statement see [Scharf 95 (2.3.8) to (2.3.18)](#Scharf95)
+
+=--
+
++-- {: .num_cor #CausalSupportOfTheCausalPropagatorOnMinkowskiSpacetime}
+###### Corollary
+**(causal support of the causal propagator)**
+
+The [[distributional support]] of the causal propagator $\Delta$ on Minkowski spacetime (def. \ref{CausalPropagatorOnMinkowskiSpacetime}) is in the [[causal cone]]:
+
+$$
+  supp(\Delta)
+  \subset
+  \left\{
+    (x,y) \;\vert\; -{\vert x-y\vert}^2 \geq 0
+  \right\}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the equivalent expression (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction)  in prop. \ref{EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime}.
+
+=--
+
 
 ### On general globally hyperbolic spacetimes
 
@@ -94,13 +250,13 @@ $$
   \,.
 $$
 
-The differene
+The difference
 
 $$
-  E \;\coloneqq\; E^A - E^R
+  E \;\coloneqq\; E^R - E^A
 $$
 
-is called the _causal propagator_ or the _Jordan-Pauli distribution_ ([Jordan-Pauli 27](#JordanPauli27)).
+is the _causal propagator_ on the given spacetime.
 
 [[!include propagators - table]]
 
@@ -128,7 +284,7 @@ Textbook discussion for [[free fields]] in [[Minkowski spacetime]] is in
 
 * {#Scharf95} [[Günter Scharf]],  section 2.3 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Springer 1995
 
-* [[Günter Scharf]], section 1 of  _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+* {#Scharf01} [[Günter Scharf]], section 1 of  _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
 (there denoted "$-i D_m(x-y)$" and called the "Jordan-Pauli function").
 
