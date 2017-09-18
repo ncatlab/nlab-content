@@ -84,6 +84,8 @@ See at _[homotopy pullback -- concrete constructions -- In homotopy type theory]
 
 * [[linear equation]]
 
+* [[algebraic equation]]
+
 * [[Diophantine equation]]
 
 * [[differential equation]]
