@@ -65,7 +65,7 @@ That this process was at least one source of baryogenesis in the early universe 
 
 The original article stating the _Sakharov conditions_ is
 
-* {#Sakharov67} Sakharov 1967
+* {#Sakharov67} [[Andrei Sakharov]], 1967
 
 The derivation that [[instantons]] lead to baryon number violation is due to
 
