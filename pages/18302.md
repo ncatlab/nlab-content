@@ -32,7 +32,7 @@ Via [[direct sum of vector bundles]] and [[tensor product of vector bundles]] th
 
 For $X$ a [[compact Hausdorff space]] then the [[Grothendieck group]] of $Vect(X)$ is the [[topological K-theory]] group $K(X)$.
 
-## Relation to other catgeories
+## Relation to other categories
 
 ### Vector spaces
 
@@ -46,7 +46,7 @@ $$
 
 ### Higher vector bundles
 
-An analog in [[homotopy theory]]/[[higher categegory theory]] is the [[(infinity,1)-category]] of [[(infinity,1)-module bundles]].
+An analog in [[homotopy theory]]/[[higher category theory]] is the [[(infinity,1)-category]] of [[(infinity,1)-module bundles]].
 
 [[!redirects VectBund]]
 [[!redirects VectBund(X)]]
