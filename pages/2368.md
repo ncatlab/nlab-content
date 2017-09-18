@@ -1789,7 +1789,7 @@ $$
   [\mathcal{C},Top^{\ast/}_{cg}](X \otimes_{Day} Y, Z) 
     \simeq 
   [\mathcal{C}\times \mathcal{C},Top^{\ast/}_{cg}](
-    X \overline{\wedge} Y,\; Z \circ \wedge
+    X \overline{\wedge} Y,\; Z \circ \otimes
   )
   \,,
 $$
