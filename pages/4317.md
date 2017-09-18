@@ -43,9 +43,27 @@ While a rig can have the [[extra property]] of being [[commutative ring|commutat
 
 ## Examples
 
-Rig categories are part of the hierarchy of [[distributivity for monoidal structures]].  If $\oplus$ is the categorical [[coproduct]] and $\otimes$ is the categorical [[product]], then we have the notion of a [[distributive category]], which is a special case of a rig category.  For example, $Set$ (or any [[topos]]) is a distributive category, hence a rig category with $\times$ and $+$.
+Rig categories are part of the hierarchy of [[distributivity for monoidal structures]].  
 
-In between, we have the notion of [[distributive monoidal category]], where $\oplus$ is the coproduct but $\otimes$ is an abstract monoidal structure.  Examples of this sort include [[Ab]], $R$[[Mod]], and [[Vect]].
+### Distributive categories
+
+If $\oplus$ is the categorical [[coproduct]] and $\otimes$ is the categorical [[product]], then we have the notion of a [[distributive category]], which is a special case of a rig category.  For example, the category [[Set]] of [[sets]], as well as any [[topos]], is a distributive category, hence a rig category with $\times$ and $+$.
+
+### Distributive monoidal categories
+ {#DistributiveMonoidalCategories}
+
+In between, we have the notion of [[distributive monoidal category]], where $\oplus$ is the coproduct but $\otimes$ is an abstract monoidal structure.  Examples of this sort include [[Ab]], $R$[[Mod]], [[Vect]] and [[Vect(X)]]:
+
+* [[Ab]], the category of [[abelian groups]] equipped with the [[tensor product of abelian groups]]
+
+* $R$[[Mod]], the category of [[modules]] over a [[commutative ring]] $R$, equipped  with the [[tensor product of modules]]
+
+* $k$[[Vect]] = $k$[[Mod]], the category of [[vector space]] over some [[field]] $k$, equipped with the [[tensor product of vector spaces]],
+
+* $k$[[Vect(X)]], the category of ([[topological vector bundles|topological]]) [[vector bundles]] for $X$ some ([[topological space|topological]]) [[space]], equipped with the [[tensor product of vector bundles]].
+
+In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct sum of vector bundles]] in the last case).
+
 
 ## Baez's conjecture
 
