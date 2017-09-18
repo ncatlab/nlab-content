@@ -21,7 +21,7 @@ This page collects material related to the textbook
 
   ([web](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)) (ps and dvi only - note that section and theorem etc numbers differ from the published version!)
 
-on [[simplicial homotopy theory]].
+on [[simplicial homotopy theory]] via the [[classical model structure on simplicial sets]].
 
 
 
