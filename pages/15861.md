@@ -28,7 +28,7 @@ In a [[co-Heyting algebra]] it is possible to define an equivalent to the [[boun
 
 ## Definition
 
-Let $a$ be an element of a [[co-Heyting algebra]] $L$ with subtraction $\backslash$ and _co-Heyting negation_ $\sim$. The **(co-Heyting) boundary** of $a$ is defined as $\partial a :=a\wedge\sim a$.
+Let $a$ be an element of a [[co-Heyting algebra]] $L$ with subtraction $\backslash$ and [[co-Heyting negation]] $\sim$. The **(co-Heyting) boundary** of $a$ is defined as $\partial a :=a\wedge\sim a$.
 
 ## Properties
 
@@ -38,7 +38,7 @@ Let $a$ be an element of a [[co-Heyting algebra]] $L$ with subtraction $\backsla
 
 * $\partial (a\vee b)\vee\partial (a\wedge b) =\partial a\vee\partial b\quad$.
 
-* The boundaries $x=\partial a$ can be characterized as those $x$ with $\partial x = x$ (in particular, $\partial^2=\partial$), or, alternatively, those $x$ with $\sim x=1$, showing that boundary parts are precisely the (intuitively) _thin parts_.
+* The boundaries $x=\partial a$ can be characterized as those $x$ with $\partial x = x$ (in particular, $\partial^2=\partial$), or, alternatively, those $x$ with $\sim x=1$, showing that boundary parts are precisely the (intuitively) **thin parts**.
 
 * Every part is the sum of its _regular core_ and its boundary: $a=\sim\sim a\vee\partial a$. This suggests to view $\partial a$ as the _irregular_ part of $a$.
 
@@ -52,6 +52,7 @@ As the lattice of [[subtopos|subtoposes]] of a given [[topos]] $\mathcal{E}$ com
 ## Related entries
 
 * [[boundary]]
+* [[co-Heyting negation]]
 * [[co-Heyting algebra]]
 * [[Heyting algebra]]
 * [[Heyting category]]
