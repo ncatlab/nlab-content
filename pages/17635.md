@@ -69,7 +69,7 @@ Here $B_{n-1}$ is a ring such that... ([Stapleton 13, p. 3](#Stapleton13))
 
 * {#Stapleton13} [[Nathaniel Stapleton]], _Transchromatic twisted character maps_ ([arXiv:1304.5194](https://arxiv.org/abs/1304.5194))
 
-* [[Nathaniel Stapleton]], _Transchromatic generalized character maps (and more!)_ ([pdf](https://math.berkeley.edu/~aaron/saft/stapleton.pdf))
+* [[Nathaniel Stapleton]], _Transchromatic generalized character maps (and more!)_ ([pdf](http://etale.site/livetex/saft/stapleton.pdf))
 
 * [[Tomer Schlank]], [[Nathaniel Stapleton]], _A transchromatic proof of Strickland's theorem_ ([arXiv:1404.0717](http://arxiv.org/abs/1404.0717))
 
