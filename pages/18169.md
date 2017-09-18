@@ -156,6 +156,10 @@ is still open and disjoint from the remaining $V_k$, hence disjoint from all of 
 
 ## Related statement
 
+* [[metric spaces are paracompact]]
+
+* [[locally compact and sigma-compact spaces are paracompact]]
+
 * [[second-countable regular spaces are paracompact]]
 
 * [[regular Lindelöf spaces are paracompact]]
@@ -166,9 +170,9 @@ is still open and disjoint from the remaining $V_k$, hence disjoint from all of 
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
-* [[a CW-complex is a Hausdorff space]]
+* [[CW-complexes are paracompact Hausdorff spaces]]
 
-* [[Hausdorff implies sober]]
+* [[Hausdorff spaces are sober]]
 
 * [[maps from compact spaces to Hausdorff spaces are closed and proper]]
 
