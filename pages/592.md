@@ -165,6 +165,54 @@ Note that the concept of pushout is dual to the concept of [[pullback]]: that is
 
 See [[pullback]] for more details.
 
+## Properties
+
+### General
+
+* [[pasting law]]
+
+### In a quasitopos
+
++-- {: .num_prop #PushoutOfStrongMonomorphismInQuasitopos}
+###### Proposition
+**pushout of [[strong monomorphism]] in [[quasitopos]]**
+
+Suppose that $(\mathrm{T},\mathcal{C})$ is either
+
+* ([[monomorphism]],[[topos]]), or
+* ([[strong monomorphism]],[[quasitopos]])
+
+Suppose that 
+$$\array{
+O_{0,1} & \to & O_{1,1} \\
+\downarrow m &&\downarrow h  \\
+O_{0,0} & \to & O_{1,0}
+}$$
+is a [[commutative diagram]] in $\mathcal{C}$ such that 
+
+* * $m$ is $\mathrm{T}$ in $\mathcal{C}$
+* * the diagram is a pushout in $\mathcal{C}$
+
+
+Then 
+
+* * $h$ is $\mathrm{T}$ in $\mathcal{C}$
+* * the diagram is a pullback in $\mathcal{C}$
+
+=--
+
+See at _[[quasitopos]]_ [this lemma](quasitopos#PushoutOfStrongMonos). Note that the result for quasitoposes immediately implies the result for toposes, since all monomorphisms $i: A \to B$ in a topos are [[regular monomorphism|regular]] ($i$ being the equalizer of the arrows $\chi_i, t \circ !: B \to \Omega$ in 
+
+$$\array{
+ & & 1 \\ 
+ & \mathllap{!} \nearrow & \downarrow \mathrlap{t} \\ 
+B & \underset{\chi_i}{\to} & \Omega
+}$$ 
+
+where $\chi_i$ is the classifying map of $i$) and therefore strong. 
+
+
+
 ## Examples
 
 ...
