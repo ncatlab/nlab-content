@@ -1146,6 +1146,23 @@ The fourth statement follows with similar reasoning.
 
 =--
 
++-- {: .num_remark #SpectrificationForCWSpectra}
+###### Remark
+
+In the case that $X$ is a [[CW-spectrum]] (def. \ref{CWSpectrum}) then the sequence of resolutions in the definition of [[spectrification]] in def. \ref{SpectrificationForTopologicalSequentialSpectra} is not necessary, and one may simply consider
+
+$$
+  (Q_{CW} X)_n 
+    \;\coloneqq\;
+  \underset{\longrightarrow}{\lim}_k
+  \Omega^k X_{n+k}
+  \,.
+$$
+
+See for instance ([Lewis-May-Steinberger 86, p. 3](spectrification#LewisMaySteinberger86)) and ([Weibel 94, 10.9.6 and topology exercise 10.9.2](spectrification#Weibel94)).
+
+=--
+
 
 
 
@@ -2184,6 +2201,13 @@ A [[sequential spectrum]] $X$ (def. \ref{SequentialSpectra}) is called a **[[cel
 1. all structure maps $\sigma_n \colon S^1 \wedge X_n \longrightarrow X_{n+1}$ are [[relative cell complex]] inclusions.
 
 A **[[CW-spectrum]]** is a [[cell spectrum]] such that all component spaces $X_n$ are [[CW-complexes]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)).
+
+=--
+
++-- {: .num_example #SuspensionSpectrumOnCWComplexIsCWSpectrum}
+###### Example
+
+The [[suspension spectrum]] $\Sigma^\infty X$ (example \ref{SuspensionSpectrum}) for $X \in Top^{\ast/}_{cg}$ a [[CW-complex]] is a [[CW-spectrum]] (def. \ref{CWSpectrum}).
 
 =--
 
@@ -3837,6 +3861,8 @@ By definition of $Q$-equivalence that resulting homotopy pullback square has the
 
 
 =--
+
+
 
 
 
@@ -5602,6 +5628,7 @@ for concatenation of loops. This is where we use that we have the standard model
 
 +-- {: .num_example #ForASpectrumXGeneralizedECohomology}
 ###### Example
+**(generalized cohomology groups)**
 
 Let $E \in SeqSpec(Top_{cg})$ be an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) and let $X\in Top^{\ast/}_{cg}$ be a [[pointed topological space]] with $\Sigma^\infty X$ its [[suspension spectrum]] (example \ref{SuspensionSpectrum}). Then the [[graded abelian group]] (by prop. \ref{StableHomotopyCategoryIsAbEnriched})
 
@@ -5635,7 +5662,61 @@ $$
 
 (on the right the hom in in the [[classical homotopy category]] $Ho(Top^{\ast/})$ of [[pointed topological spaces]]) is manifestly the definition of [[reduced cohomology|reduced]] [[generalized (Eilenberg-Steenrod) cohomology]] as discussed in [[Introduction to Stable homotopy theory -- S|part S]] in the [section on the Brown representability theorem](Introduction+to+Stable+homotopy+theory+--+S#BrownRepresentabilityTheorem).
 
-More generally, there is now $E$-cohomology not only for spaces, but also for spectra: for $X \in Ho(Spectra)$ be any spectrum, then
+Suppose $E$ here is not necessarily given as an [[Omega-spectrum]]. In general the hom-groups $[X,E] = [X,E]_{stable}$ in the [[stable homotopy category]]  are given by the naive homotopy classes of maps out of a cofibrant resolution of $X$ into a fibrant resolution of $E$ (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)). By theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} a fibrant replacement of $E$ is given by  Omega-[[spectrification]] $Q E$ (def. \ref{SpectrificationForTopologicalSequentialSpectra}). Since the stable model structure of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is a left [[Bousfield localization of model categories|Bousfield localization]] of the strict model structure from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, and since for the latter all objects are fibrant, it follows that
+
+$$
+  [X,E]_{stable} \simeq [X,Q E]_{strict}
+  \,,
+$$
+
+and hence
+
+$$
+  \begin{aligned}
+    E^0(X)
+    &\coloneqq
+    [\Sigma^\infty X, E]_{stable}
+    \\
+    & \simeq
+    [\Sigma^\infty X, Q E]_{strict}
+    \\
+    & \simeq
+    [X, \Omega^\infty Q E]_\ast
+    \\
+    & =
+    [X, (Q E)_0]_\ast
+  \end{aligned}
+  \,,
+$$
+
+where the last two hom-sets are again those of the [[classical homotopy category]]. Now if $E$ happens to be a [[CW-spectrum]], then by remark \ref{SpectrificationForCWSpectra} its Omega-spectrification is given simply by $(Q E)_n \simeq \underset{\longrightarrow}{\lim}_k \Omega^k E_{n+k})$ and hence in this case
+
+$$
+  E^0(X)
+  \simeq 
+  [X, \underset{\longrightarrow}{\lim}_k \Omega^k E_k]_\ast
+  \,.
+$$
+
+If $X$ here is moreover a [[compact topological space]], then it may be taken inside the colimit (e.g. [Weibel 94, topology exercise 10.9.2](spectrification#Weibel94)), and using the $(\Sigma \dashv \Omega)$-adjunction this is rewritten as
+
+$$
+  \begin{aligned}
+    E^0(X)
+    & \simeq
+    \underset{\longrightarrow}{\lim}_k [X, \Omega^k E_k]_\ast
+    \\
+    &
+    \simeq
+    \underset{\longrightarrow}{\lim}_k [\Sigma^k X, E_k]_\ast
+  \end{aligned}
+  \,.
+$$
+
+This last expression is sometimes used to define cohomology with coefficients in an arbitrary spectrum. For examples see in the [[Introduction to Stable homotopy theory -- S|part S]] the section _[Orientation in generalized cohomology](Introduction+to+Stable+homotopy+theory+--+S#OrientationAndFiberIntegration)_.
+
+
+More generally, it is immediate now that there is a concept of $E$-cohomology not only for spaces and their [[suspension spectra]], but also for general spectra: for $X \in Ho(Spectra)$ be any spectrum, then
 
 $$
   \tilde E^\bullet(X)
@@ -5643,8 +5724,7 @@ $$
   [X,\Sigma^\bullet E]
 $$
 
-is called the reduced $E$-cohomology of the spectrum $X$. For examples see in the [[Introduction to Stable homotopy theory -- S|part S]] the section _[Orientation in generalized cohomology](Introduction+to+Stable+homotopy+theory+--+S#OrientationAndFiberIntegration)_.
-
+is called the reduced $E$-cohomology of the spectrum $X$. 
 
 =--
 
