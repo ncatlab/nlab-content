@@ -26,7 +26,7 @@ Let $ \otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ be a funct
 +-- {: .num_defn}
 ###### Definition
 
-For $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_2$, the **pushout product** morphism is the morphism
+For $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_2$, the **pushout product** $f \Box g$ morphism is the morphism
 
 $$
   A \otimes Y \coprod_{A \otimes X} B \otimes X
@@ -47,6 +47,27 @@ $$
   }
   \,.
 $$
+
+=--
+
+## Examples
+
++-- {: .num_example #PushoutProductOfSpheresInclusionsIntoDisks}
+###### Example
+
+For $n \in \mathbb{N}$, let
+
+$$
+  i_n \;\colon\; S^{n-1}\hookrightarrow D^n
+$$
+
+be the canonical [[sphere]] inclusions in [[Top]] (the generating cofibrations of the [[classical model structure on topological spaces]]). Their pushout product (with respect to [[Cartesian product]] of topological spaces) is given by addition of indices:
+
+$$
+  i_{n_1} \Box i_{n_2} \simeq i_{n_1 + n_2}
+  \,.
+$$
+
 
 =--
 
