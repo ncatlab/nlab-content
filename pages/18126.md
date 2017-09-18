@@ -11242,10 +11242,10 @@ Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$
 * a [[set]] $\{f_i\}_{i \in I}$ of [[continuous functions]]
 
   $$
-    f_i \;\colon\; U_i \longrightarrow [0,1]
+    f_i \;\colon\; X \longrightarrow [0,1]
   $$
 
-  (where $U_i \subset X$ and $[0,1] \subset \mathbb{R}$ are equipped with their [[subspace topology]], the [[real numbers]] $\mathbb{R}$ is regarded as the 1-dimensional [[Euclidean space]] equipped with its [[metric topology]]);
+  (where  $[0,1] \subset \mathbb{R}$ is equipped with the [[subspace topology]] of the [[real numbers]] $\mathbb{R}$ regarded as the 1-dimensional [[Euclidean space]] equipped with its [[metric topology]]);
 
 such that with
 
@@ -11303,7 +11303,7 @@ $$
 It follows that for each $i \in I$ we have two disjoint [[closed subsets]], namely the [[topological closure]] $Cl(W_i)$ and the [[complement]] $X \setminus V_i$
 
 $$
-  Cl(W_i) \cap X\setminus V_i = \emptyset
+  Cl(W_i) \cap (X\setminus V_i) = \emptyset
   \,.
 $$
 
@@ -11330,14 +11330,15 @@ $$
   \,.
 $$
 
-By construction, the set of function $\{h_i\}_{i \in I}$ already satisfies two of the three conditions on a partition of unity subordinate to $\{U_i \subset X\}_{i \in I}$ from def. \ref{PartitionOfUnity}.
+By construction, the set of function $\{h_i\}_{i \in I}$ already 
+satisfies conditions 1) and 2) on a partition of unity subordinate to $\{U_i \subset X\}_{i \in I}$ from def. \ref{PartitionOfUnity}.
 It just remains to normalize these functions so that they indeed sum to unity. To that end, consider the continuous function
 
 $$
   h \;\colon\; X \longrightarrow [0,1]
 $$
 
-defined on $x \in X$
+defined on $x \in X$ by
 
 $$
   h(x) \coloneqq \underset{i \in I}{\sum} h_i(x)
@@ -11346,11 +11347,18 @@ $$
 
 Notice that the [[sum]] on the right has only a [[finite number]] of non-zero summands, due to the local finiteness of the cover, so that this is well-defined.
 
-
-Then set
+Moreover, notice that
 
 $$
-  f_i \;\coloneqq\;  g_i/g
+  \underset{x \in X}{\forall} \left(  h(x) \neq 0  \right)
+$$
+
+because $\{Cl(W_i) \subset X\}_{i \in I}$ is a cover so that there is $i_x \in I$ with $x \in Cl(W_{i_x})$, and since $h_i(Cl(W_{i_x})) = \{1\}$, by the above.
+
+Hence it makes sense to define
+
+$$
+  f_i \;\coloneqq\;  h_i/h
   \,.
 $$
 
