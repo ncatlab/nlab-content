@@ -46,7 +46,7 @@ $$
 
 ## Related concepts
 
-* [[monad (computer science)]]
+* [[monad (in computer science)]]
 
 
 [[!redirects co-Kleisli categories]]
@@ -54,3 +54,6 @@ $$
 [[!redirects coKleisli categories]]
 [[!redirects Kleisli category of a comonad]] 
 [[!redirects Kleisli category for a comonad]] 
+
+[[!redirects co-Kleisli morphism]]
+[[!redirects co-Kleisli morphisms]]
