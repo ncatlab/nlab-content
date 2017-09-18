@@ -24,7 +24,7 @@ For $X$ a [[space]] and $G$ a [[group]] [[action|acting]] on it, then the _Borel
 
 Since a standard way to model the [[homotopy quotient]] is the _[[Borel construction]]_, this is called _Borel equivariant cohomology_.
 
-This is the special case of genuine [[equivariant cohomology]] where the [[action]] on the [[coefficienty]] is trivial.
+This is the special case of genuine [[equivariant cohomology]] where the [[action]] on the coefficients is trivial.
 
 ## Related concepts
 
