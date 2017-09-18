@@ -63,7 +63,7 @@ Other contributions to the issue include the following
 
 * [[Leonard Susskind]], _Black Hole Complementarity and the Harlow-Hayden Conjecture_  2013 ([arXiv:1301.4505](http://arxiv.org/abs/1301.4505))
 
-* [[Daniel Harlow]], [[Patrick Hayden]], _Quantum Computation vs. Firewalls_ 2013 ([arXiv:1301.4504](http://arxiv.org/abs/1301.4504))
+* [[Daniel Harlow]], [[Patrick Hayden]], _Quantum Computation vs. Firewalls_ 2013 ([arXiv:1301.4504](http://arxiv.org/abs/1301.4504)) -- points out the significance of the so-called "overlap criterion," and suggests a way around the firewall paradox by arguing that the criterion should be relaxed.
 
 * S. H. Shenker, D. Stanford, _Black holes and the butterfly effect_ 2013 ([arXiv:1306.0622](http://arxiv.org/abs/1306.0622))
 
