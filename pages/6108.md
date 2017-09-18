@@ -19,7 +19,7 @@
 
 ## Idea
 
-Originally, the _Ginzburg-Laundau model_ is a [[model (physics)|model]] in [[solid state physics]] for [[superconductivity]].
+Originally, the _Ginzburg-Landau model_ is a [[model (physics)|model]] in [[solid state physics]] for [[superconductivity]].
 
 Roughly this type of model has then been used as models for 2d [[quantum field theory]] in [[string theory]].
 There, a _Landau-Ginzburg model_ (LG-model) is a 2-[[dimension|dimensional]] [[supersymmetry|supersymmetric]] [[sigma model]] [[QFT]] characterized by the fact that its [[Lagrangian]] contains a [[potential]] term: given a [[complex manifold|complex]] [[Riemannian manifold|Riemannian]] [[target space]] $(X,g)$, the [[action functional]] of the LG-model is schematically of the form
