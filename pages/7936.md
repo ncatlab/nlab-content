@@ -35,6 +35,8 @@ For details see at _[geometric quantization -- Space of quantum states](geometri
 
 * [[quantum operator (in geometric quantization)]]
 
+* [[collapse of the wave function]]
+
 [[!include Isbell duality - table]]
 
 [[!include holographic principle -- table]]
