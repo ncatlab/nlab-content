@@ -176,7 +176,7 @@ The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential
 
 A survey of the corresponding [[string phenomenology]] is in
 
-* [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
+* {#Acharya12} [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
 
 the [[hierarchy problem]] is discussed in
 
