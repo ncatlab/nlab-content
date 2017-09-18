@@ -1,4 +1,4 @@
-We meet every Monday from 10 until lunch in Sitzungzimmer.  To enroll, visit [Studip](https://www.studip.uni-goettingen.de/dispatch.php/course/overview?cid=e830fe84232de54d1e504a031fa62ae7)
+We meet every Monday from 12:15 until 14:00 in Sitzungzimmer.  To enroll, visit [Studip](https://www.studip.uni-goettingen.de/dispatch.php/course/overview?cid=e830fe84232de54d1e504a031fa62ae7)
 
 This semester, we'll try to study again the theory about the symmetries in deformation quantization. We start with reviewing Kontsevich's original paper and its physics background, then go into the algebraic/topologic profile of this theory. Hopefully, we may land in associators and their symmetries in the middle of the semester. 
 
