@@ -372,3 +372,6 @@ Discussion of structured 2-groups (e.g. smooth 2-groups) is in sections 2.6.5 an
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 [[!redirects 2-groups]]
+
+[[!redirects weak 2-group]]
+[[!redirects weak 2-groups]]
