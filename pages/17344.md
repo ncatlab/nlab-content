@@ -53,11 +53,115 @@ Main page: _[[Introduction to Stable homotopy theory]]_.
 We now set up [[stable homotopy theory]].
  
 **Literature.** For a decent quick idea see ([Malkiewich 14](#Malkiewich14)).
-For a little more details the original lecture ([Adams 74, part III sections 2-7](#Adams74)) is still recommendable (except where it considers the [[stable homotopy category]] in its incarnation as the [[Adams category]], better to consider the [[homotopy category]] of the [[Bousfield-Friedlander model structure]]; we go through this [below](#Spectra)). A genuine textbook account is ([Schwede 12](#Schwede12)).
+For a little more details the original lecture ([Adams 74, part III sections 2-7](#Adams74)) is still recommendable (except where it considers the [[stable homotopy category]] in its incarnation as the [[Adams category]], better to consider the [[homotopy category]] of the [[Bousfield-Friedlander model structure]]; we go through this [below](#Spectra)). A detailed modern account is ([Schwede 12](#Schwede12)).
 
 $\,$
 
-The [[stable homotopy category]] is to be the proper [[stabilization]] of the  [[classical homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the [[classical homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
++-- {: .num_prop #ReducedSuspensionBySmashProductWithCircle}
+###### Proposition
+
+In [[pointed topological spaces]] $Top^{\ast/}$, 
+
+* the [[reduced suspension]] objects ([def.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopSpaceObject)) for [[cylinder object]] the standard reduced cylinder $(-)\wedge (I_+)$ are isomorphic to the [[smash product]] with the [[1-sphere]] 
+
+  $$
+    \Sigma X \simeq X \wedge S^1
+    \,,
+  $$
+
+dually, 
+
+* the [[loop space objects]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopSpaceObject)) induced from the standard path space object $(-)^{I_+}$  are isomorphic to the pointed [[mapping space]] with the 1-sphere
+
+  $$
+    \Omega X \simeq X^{S^1}
+    \,.
+  $$
+
+Moreover, by the [[exponential object]]-property of the [[mapping space]] construction ([prop.](Introduction+to+Stable+homotopy+theory+--+P#MappingTopologicalSpaceIsExponentialObject)) these form [[adjoint functors]]
+
+$$
+  ((-)\wedge S^1 \dashv (-)^{S^1})
+  \;\colon\;
+  Top^{\ast/}
+  \longrightarrow 
+  Top^{\ast}
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By immediate inspection. For instance the fiber of $X^{I_+} \longrightarrow X\times X$ is clearly the subspace of the unpointed mapping space $X^I$ on elements that take the endpoints of $I$ to the basepoint of $X$.
+
+The adjunction follows from general principles:
+
+$$
+  \begin{aligned}
+     Hom_{Top^{\ast/}}(X, Y^{S^1})
+     & =
+     Hom_{Top^{\ast/}}(X, fib(Y^{I_+} \to Y \times Y))
+     \\
+     & \simeq
+     fib( Hom_{Top^{\ast/}}( X, Y^{I_+}) \to Hom_{Top_{CW}^{\ast/}}(X, Y \times Y) )
+     \\
+     & \simeq
+     fib( Hom_{Top^{\ast/}}( X \wedge I_+, Y ) \to Hom_{Top_{CW}^{\ast/}}(X\vee X, Y) )
+     \\
+     & \simeq
+     Hom_{Top^{\ast/}}( cofib( X \vee X \to X \wedge I_+), Y )     
+     \\
+     & \simeq 
+     Hom_{Top}^{\ast/}(X \wedge S^1, Y)
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop #SuspensionAndLoopAreAdjointOnHomotopyCategory}
+###### Proposition
+
+The [[loop space]] functor $\Omega$ and [[reduced suspension]] functor $\Sigma$ on the [[classical homotopy category]] of [[pointed topological spaces]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
+
+$$
+  (\Sigma \dashv \Omega)
+  \;\colon\;
+  Ho(Top_{Quillen}^{\ast/})
+   \longrightarrow
+  Ho(Top_{Quillen}^{\ast/})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the universal property of the homotopy category ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) and by the fact that every topological space is weakly equivalent to a [[CW-complex]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#EveryTopologicalSpaceWeaklyEquivalentToACWComplex)) we may consider $\Omega$ and $\Sigma$ on the category $Top_{CW}^{\ast/}$ of pointed CW-complexes and homotopy classes of continuous functions between them.
+
+By the statement of their existence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) we may represent $\Sigma$ and $\Omega$ by any choice of good [[cylinder objects]] and [[path space objects]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory)). Since we are restricted to CW-complexes, the standard topological cylinder $(-)\times I$ is a good cylinder object ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCylinderOnCWComplexIsGoodCylinderObject)) and, generally, the standard topological path space $(-)^I$ is a good path space object ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalPathSpaceIsGoodPathSpaceObject)).
+
+Now the adjunction of prop. \ref{ReducedSuspensionBySmashProductWithCircle} gives an adjunction
+
+$$
+  (\Sigma \dashv \Omega) 
+  \;\colon\;
+  Top_{CW}^{\ast/}
+  \longrightarrow
+  Top_{CW}^{\ast/}
+  \,.
+$$
+
+
+Hence it remains to see that this adjunction is compatible with passing to homotopy equivalence classes of functions. Hence let $X \wedge I_+ \to \Omega Y$ be a [[left homotopy]]. By prop. \ref{ReducedSuspensionBySmashProductWithCircle} its [[adjunct]] is $(X \wedge I_+) \wedge S^1\simeq (X\wedge S^1)\wedge I_+ \simeq (\Sigma X)\wedge I_+$.
+
+=--
+
+The _[[stable homotopy category]]_ is to be the result of stabilizing the adjunction in prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory}, forcing it to become an [[equivalence of categories]].
 
 $$
   \array{
@@ -98,19 +202,11 @@ As one moves down this list, the objects modelling the spectra become richer. Th
 
 We start with plain sequential spectra [below](#SequentialSpectra) as a transparent means to see the [[stable homotopy category]]. When we get to the discussion of [[ring spectra]] [eventually](#RingSpectra) with the basic applications in mind, it is convenient to pass to the richer model of [[symmetric spectra]], [further below](#SymmetricSpectra).
 
-But first we now consider some facts in plain ("un-stable") [[algebraic topology]]/[[homotopy theory]] that serve to motivate the passeage to [[stable homotopy theory]] in the first place.
 
 ### Motivating theorems
 
-The 0th approximation to making [[Ho(Top)]] become more like an [[abelian category]] is passage to [[pointed topological spaces]], and [[pointed objects|pointed]] [[simplicial sets]]:
+But first we now consider some facts in plain ("un-stable") [[algebraic topology]]/[[homotopy theory]] that serve to motivate the passeage to [[stable homotopy theory]] in the first place.
 
-every category of [[pointed objects]] has 
-
-1. a [[zero object]] (the point) and [[zero morphisms]] (those factoring through the point);
-
-1. a canonical non-Cartesian [[tensor product]], the _[[smash product]]_ $\wedge$.
-
-Given the base point, there is the [[loop space]]-construction $\Omega(-) \simeq [S^1,-]$ on that base point. It has a [[left adjoint]], the [[reduced suspension]] operation $\Sigma(-) \simeq S^1 \wedge (-)$.
 
 Motivation for stabilization under $(\Sigma \dashv \Omega)$:
 
