@@ -12,4 +12,4 @@ A **submonoid** of a [[monoid]] $M$ with unit $1$ is a subset $N$ of $M$ contain
 
 * Given a group $G$, any subgroup is a submonoid.
 * Given a category $C$ and a subcategory $D$, an object $X$ in both, the monoid $\Hom_D(X,X)$ is a submonoid of $\Hom_C(X,X)$.
-* A [[commutative]] monoid $M$ is a submonoid of its [[Grothendieck group]] $G(M)$.
+* A [[commutative]] and [[cancellative]] monoid $M$ is a submonoid of its [[Grothendieck group]] $G(M)$.
