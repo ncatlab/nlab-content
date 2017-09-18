@@ -15,6 +15,8 @@
 
 ## Idea
 
+A kind of [[cofibration]] of [[topological spaces]].
+
 A [[continuous function]] is a _Hurewicz cofibration_ if it satisfies the [[homotopy extension property]] for all spaces and with respect to the standard notion of [[left homotopy]] of topological spaces given by the standard topological [[interval object]]/[[cylinder object]].
 
 More generally, one may speak of morphisms in any [[category with weak equivalences]] having the [[homotopy extension property]] with respect to a chosen [[cylinder object]], one speaks of _h-cofibrations_.
