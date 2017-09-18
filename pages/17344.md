@@ -84,7 +84,7 @@ $$
 +-- {: .num_prop #SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}
 ###### Proposition
 
-With respect to the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory))
+With respect to the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces $(Top^{\ast/}_{cg})_{Quillen}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory))
 
 1. the adjunction in def. \ref{SuspensionAndLoopingOnPointedTopologicalSpaces} is a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction))
 
@@ -1466,74 +1466,86 @@ where $Sing$ denotes the [[singular simplicial complex]] functor.
  {#StableModelStructureOnSequentialSpectra}
 
 
-In order to do [[stable homotopy theory]] with [[sequential spectra]], we need to equip the [[category]] of sequential [[pre-spectra]] of def. \ref{SequentialSpectra} with a [[model category]] structure whose weak equivalences are the [[stable weak homotopy equivalences]] of def. \ref{StableWeakEquivalenceOfSequentialTopologicalSpectra}. This class contains the degreewise weak homotopy equivalences of the strict model structure of def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} but is strictly larger. There are then different choices for the fibrations and cofibrations, but it is particularly convenient to keep the cofibrations those of the strict model structure, for then we are in the situation of [[Bousfield localization of model categories]]:
+The actual spectrum objects of interest in [[stable homotopy theory]] are not the pre-spectra of def. \ref{SequentialSpectra}, but the [[Omega-spectra]] of def. \ref{OmegaSpectrum} among them.  Hence we need to equip the [[category]] of sequential [[pre-spectra]] of def. \ref{SequentialSpectra} with a [[model category]] structure whose fibrant-cofibrant objects are, in particular [[Omega-spectra]]. More in detail, it is plausible to require that every fibrant-cofibrant object is equivalent to one that is both an [[Omega-spectrum]] and a [[CW-spectrum]] as in def. \ref{CWSpectrum}. By prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra} this suggests to construct a model category structure on $SeqSpec(Top_{cg})$ that has the same cofibrations as the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, but more weak equivalences (and less fibrations), such as to make every sequential pre-spectrum weakly equivalent to an cellular Omega-spectrum.
+
+Such a situation is called a [[left Bousfield localization of model categories]]:
 
 +-- {: .num_defn #BousfieldLocalizationOfModelCategories}
 ###### Definition
 
 
-A _left [[Bousfield localization of model categories|Bousfield localization]]_ $C_{loc}$ of a [[model category]] $C$ is another model category structure on the same underlying category with the same cofibrations, 
+A _[[left Bousfield localization of model categories|left Bousfield localization]]_ $\mathcal{C}_{loc}$ of a [[model category]] $\mathcal{C}$ is another model category structure on the same underlying category with the same cofibrations, 
 
 $$
-  cof_{C_{loc}} = cof_c
+  Cof_{loc} = Cof
 $$
 
 but more weak equivalences
 
 $$
-  W_{C_{loc}} \supset W_C
+  W_{loc} \supset W
   \,.
 $$
 
 =--
 
-While that's a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences.
+While that is a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences.
 
-+-- {: .num_remark }
-###### Remark 
++-- {: .num_prop }
+###### Proposition
 
-In def. \ref{BousfieldLocalizationOfModelCategories} it follows directly that 
+Given a [[left Bousfield localization of model categories|left Bousfield localization]] $\mathcal{C}_{loc}$ of $\mathcal{C}$ as in def. \ref{BousfieldLocalizationOfModelCategories},then
 
-* $C_{loc}$ has as fibrations a subset of fibrations of $C$
+1. $Fib_{loc} \subset Fib$
 
-  $$
-    fib_{C_{loc}} = rlp(cof_{C_{loc}} \cap W_{C_{loc}})
-    \subset rlp(cof_{C_{loc}} \cap W_C) = fib_{C}
-    \,.
-  $$
 
-* $C_{loc}$ has the same acyclic fibrations as $C$
+* $W_{loc} \cap Cof_{loc} = W \cap Cof$
 
-  $$
-    fib_{C_{loc}} \cap W_{C_{loc}}
-    =
-    rlp(cof_{C_{loc}}) = rlp(cof_C) = fib_C \cap W_C
-    \,.
-  $$
+1. The identity functors constitute a [[Quillen adjunction]]
 
-* on the underlying categories
+   $$
+     \mathcal{C}_{loc}
+       \underoverset
+         {\underset{id}{\longrightarrow}}
+         {\overset{id}{\longleftarrow}}
+         {\bot}
+     \mathcal{C}
+     \,.
+   $$
 
-  * the identity functor $Id : C \to C_{loc}$ preserves cofibrations and weak equivalences
+=--
 
-  * the identity functor $Id : C_{loc} \to C$ preserves fibrations and acyclic fibrations
++-- {: .proof}
+###### Proof
 
-  so that this pair of functors is a [[Quillen adjunction]]
+This is immediate from the definitions:
 
-  $$
-    C_{loc} \stackrel{\leftarrow}{\to} C
-    \,,
-  $$
-
-The category $C^\circ$ _modeled_ by a model category $C$ is its [[full subcategory]] on fibrant-cofibrant objects. Under left Bousfield localization the fibrant-cofibrant objects of $C_{loc}$ are a subcollection of those of $C$, so that we have the full subcategory
+For the first two points we have
 
 $$
-  (C_{loc})^\circ \subset C^\circ
-  \,.
+  Fib_{loc} 
+    = 
+  (Cof_{loc} \cap W_{loc})Inh
+    \subset 
+  (Cof_{loc} \cap W)Inj 
+    = 
+  Fib
 $$
 
-Moreover, as we shall see, every object in $C$ is weakly equivalent in $C_{loc}$ to one in $C_{loc}$: it _reflects into $C_{loc}$_ .
+and
 
-Hence Bousfield localization is a model category version of reflecting onto a [[reflective subcategory]].
+$$
+  Fib_{loc} \cap W_{loc}
+  =
+  Cof_{loc} Inj 
+  = 
+  Cof Inj 
+  = 
+ Fib \cap W
+ \,.
+$$
+
+Finally, by construction $id \colon \mathcal{C}_{loc}\to \mathcal{C}$ preserves cofibrations and acyclic cofibrations.  
 
 =--
 
@@ -1544,7 +1556,7 @@ We now apply to this localize $SeqSpec(Top)_{strict}$ at "stable weak equivalenc
 
 Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(Top)$, def. \ref{SequentialSpectra} is
 
-* a **stable weak equivalence** if for all [[Omega-spectra]] $X$ the morphism $[f,E]_{strict}$ is a [[bijection]] (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category of a model category|homotopy category]] of the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+* a **stable weak equivalence** if for all [[Omega-spectra]] $X$ the morphism $[f,E]_{strict}$ is a [[bijection]] (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{strict})$ of the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 
 * a **stable cofibration** if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
 
@@ -1993,8 +2005,8 @@ $$
   \;\colon\;
   Ho(\mathcal{C})
    \underoverset
-     {\overset{\Sigma}{\longleftarrow}}
      {\underset{\Omega}{\longrightarrow}}
+     {\overset{\Sigma}{\longleftarrow}}
      {\simeq}
   Ho(\mathcal{C})
   \,.
@@ -2007,14 +2019,14 @@ In order to prove that this is the case for $SeqSpec(Top_{cg})$ we first relate 
 +-- {: .num_lemma #IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}
 ###### Lemma
 
-There is a [[natural isomorphism]] in the [[stable homotopy category]]  between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}):
+There is a [[natural isomorphism]] in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}):
 
 $$
   \Sigma (-)
-  \simeq
+   \; \simeq \;
   (-) \wedge S^1
-  \;\;\;
-  \in Ho(SeqSpec(Top))
+  \;\;\;\;\;
+  \in Ho(SeqSpec(Top_{cg})_{stable})
 $$
 
 =--
@@ -2116,11 +2128,11 @@ $$
   \;\colon\;
   (Top_{cg}^{\ast/})_{Quillen}
     \longrightarrow
-  (Top_{cg}^{\ast/})
+  (Top_{cg}^{\ast/})_{Quillen}
 $$
 
-on the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). Since in this model structure all objects are fibrants, [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)) implies says that with $\tilde^X_{n}$ a weak homotopy equivalence, so is
-$\tilde^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
+on the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). Since in this model structure all objects are fibrants, [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)) implies says that with $\tilde \sigma^X_n$ a [[weak homotopy equivalence]], so is
+$\tilde \sigma^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
 
 Regarding the second statement: 
 
@@ -2129,9 +2141,9 @@ By prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequenti
 Therefore with $f$ a stable equivalence and $Y$ any Omega-spectrum, then
 
 $$
-  Hom_{Ho(SeqSpec(Top_{cg})_{strict})}(\Sigma f,Y)
+  [\Sigma f,Y]_{strict}
   =
-  Hom_{Ho(SeqSpec(Top_{cg})_{strict})}(f,\Omega Y)
+  [f,\Omega Y]_{strict}
 $$
 
 is an isomorphism by the first statement above, and hence $\Sigma f$ is a stable equivalence.
@@ -2266,6 +2278,31 @@ and remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}, th
 
 =--
 
+
+
++-- {: .num_lemma #StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension}
+###### Lemma
+
+The canonical suspension functor on the [[homotopy category of a model category|homotopy category]] of any [[model category]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) in the case of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) $Ho(Spectra) = Ho(SeqSpec(Top_{cg})_{stable})$ is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that via [[CW-approximation]], every object in the stable homotopy category is represented by a [[CW-spectrum]]. For instance by the [[Quillen equivalence]] to the stable [[Bousfield-Friedlander model structure]] $SeqSpec(sSet)_{stable}$ (prop. \ref{QuillenEquivalenceToStableBFModelStructure}) every topological sequential spectrum $X$ is stably equivalent to the [[CW-spectrum]] which is degreewise the [[geometric realization]] of a BF-cofibrant replacement of its degreewise [[singular simplicial complex]]
+
+$$
+  {\vert Q Sing X \vert}
+  \overset{\in W_{stable}}{\longrightarrow}
+  X
+  \,.
+$$
+
+By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] the canonical suspension functor on the homotopy category (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}. 
+
+=---
+
 +-- {: .num_theorem #StableModelStructureOnSequentiaSpectraIsStableModelCategory}
 ###### Theorem
 
@@ -2286,7 +2323,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] (def. \ref{CWSpectrum}) the canonical suspension functor is given by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}. By prop. \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory} however, this is naturally isomorphic -- on the level of the homotopy category -- to the alternative suspension operation of def. \ref{SequentialSpectrumFakeSuspension}. Therefore the claim follows with prop. \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories}.
+By lemma \ref{StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension}, the canonical suspension functor is represented, on fibrant-cofibrant objects, by the standard suspension functor of def. \ref{SequentialSpectrumRealSuspension}.
+By prop. \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory} however, this is naturally isomorphic -- on the level of the homotopy category -- to the alternative suspension operation of def. \ref{SequentialSpectrumFakeSuspension}. Therefore the claim follows with prop. \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories}.
 
 =--
 
@@ -2302,7 +2340,7 @@ $$
     \underoverset
      {\underset{\Omega}{\longrightarrow}}
      {\overset{\Sigma}{\longrightarrow}}
-     {\bot_{\mathrlap{Qu.equiv.}}}
+     {\simeq_{\mathrlap{Q}}}
   SeqSpec(Top_{cg})_{stable}
   \,.
 $$
@@ -2355,7 +2393,7 @@ $$
      &
      \underoverset
        {\underset{\Omega}{\longrightarrow}}
-       {\overset{\Sigma}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
        {\simeq_{\mathrlap{Q}}}
      &
      SeqSpec(Top_{cg})_{stable}
@@ -2376,7 +2414,7 @@ $$
         {\overset{\Sigma}{\longleftarrow}}
         {\bot}
     &
-    Ho(Top^{\ast}_{cg})
+    Ho(Top^{\ast/})
     \\
     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
     &&
@@ -2391,8 +2429,11 @@ $$
     &
     Ho(Spectra)
   }
-  \,.
+  \,,
 $$
+
+and here the horizontal adjunctions are the canonically induced (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) suspension/looping functors by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory} and by lemma \ref{StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension} and theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}.
+
 
 =--
 
