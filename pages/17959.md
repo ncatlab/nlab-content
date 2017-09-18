@@ -4,6 +4,8 @@
 
 ## related $n$Lab entries
 
+* [[minimal fibration]]
+
 * [[KS-model]]
 
 * [[circle action]]
