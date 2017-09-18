@@ -23,30 +23,103 @@ This is the [[pullback bundle]] of the map $S^2 \to B U(1) \simeq B^2 \mathbb{Z}
 
 Beware that this basic line bundle is sometimes called the "canonical line bundle on the 2-sphere", but it is  _not_ [[isomorphism|isomorphic]] to what in complex geometry is called the [[canonical bundle]] of the 2-sphere regarded as a [[Riemann surface]]. Instead it is "one half" of the latter, its [[theta characteristic]]. See also at _[[geometric quantization of the 2-sphere]]_.
 
+## Defintion
+
+The [[classifying space]] for [[circle principal bundles]], or equivalently (via forming [[associated bundles]]) that of [[complex line bundles]] is $B U(1)$, which as a [[Grassmannian]] is the infinite [[complex projective space]] $\mathbb{C}P^\infty$. The [[homotopy type]] of this space is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$. This means that $K(\mathbb{Z},2)$ is in particular [[path-connected topological space|path-connected]] and has second [[homotopy group]] the [[integers]]: $\pi_2(K(\mathbb{Z},2)) \simeq \mathbb{Z}$.
+
+It being the [[classifying space]] for complex line bundles means that 
+
+$$
+  \left\{
+     \array{ 
+        \text{isomorphism classes of}
+        \\
+        \text{complex line bundles}
+        \\
+        \text{on}\,\, S^2 
+     }
+  \right\}
+  \;\simeq\;
+  \left\{
+    \array{
+      \text{continuous functions}
+      \\
+      S^2 \longrightarrow K(\mathbb{Z},2)
+      \\
+      \text{up to homotopy}
+    }
+  \right\}
+  \;\simeq\;
+  \pi_2(K(\mathbb{Z},2))
+  \;\simeq\;
+  \mathbb{Z}
+  \,.
+$$
+
+The ([[isomorphism class]]) of the complex line bundle which corresponds to $+1 \in \mathbb{Z}$ under this sequence of [[isomorphisms]] is called the _basic complex line bundle on the 2-sphere_.
+
+Notice that there is a non-trivial [[automorphism]] of $\mathbb{Z}$ as an [[abelian group]] given by $n \mapsto -n$. This means that there is an ambiguity in the definition of the basic line bundle on the 2-sphere. 
+
 ## Properties
+
++-- {: .num_lemma #ClutchingConstructionOfBasicLineBundle}
+###### Lemma
+**([[clutching construction]] of the basic line bundle)
+
+Under the [[clutching construction]] of [[vector bundles]] on the [[2-sphere]], the basic complex line bundle on the 2-sphere is given by the [[transition function]]
+
+$$
+  \mathbb{C} \supset \, S^1 \longrightarrow GL(1,\mathbb{C}) \, \subset \mathbb{C}
+$$
+
+from the [[Euclidean space|Euclidean]] [[circle]] $S^1 \subset \mathbb{R}^2 \simeq \mathbb{C}$ to the complex [[general linear group]] in 1-dimension, which is $GL(1,\mathbb{C}) \simeq \mathbb{C} \setminus \{0\}$ given simply by
+
+$$
+  z \mapsto z
+  \,,
+$$
+
+Alternatively, due to the sign ambiguity in the definition of the basic bundle, its clutching transition function is given by
+
+$$
+  z \mapsto - z
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Under the [[clutching construction]] the [[isomorphism class]] of a complex line bundle corresponds to the [[homotopy class]] of its clutching transition function
+
+$$
+  S^1 \to GL(1, \mathbb{C}) \simeq \mathbb{C} \setminus \{0\}
+$$
+
+hence to an element of the [[fundamental group]] $\pi_1(\mathbb{C} \setminus \{0\}) \simeq \mathbb{Z}$. Hence by definition, the basic bundle has clutching transition function corresponding to $\pm 1  \in \mathbb{Z} \simeq [S^1, GL(1,\mathbb{Z})]$ and this element is represented by the function $z \mapsto \pm z$.
+
+=--
+
+
 
 +-- {: .num_prop #TensorRelationForBasicLineBundleOn2Sphere}
 ###### Proposition
+**(fundamental tensor/sum relation of the basic complex line bundle)**
 
-Under [[direct sum of vector bundles]] and [[tensor product of vector bundles]], the basic complex line bundle on the 2-sphere
-
-$$
-  H \longrightarrow S^2
-$$
-
-satisfies the following relation
+Under [[direct sum of vector bundles]] $\oplus_{S^2}$ and [[tensor product of vector bundles]] $\otimes_{S^2}$, the basic line bundle on the 2-sphere $H \to S^2$ satisfies the following relation
 
 $$
+  H \oplus_{S^2} H
+    \;\simeq\;
   \left(
     H \otimes_{S^2} H
   \right)
     \oplus_{S^2}
-  (S^2 \times \mathbb{C})
-  \;\simeq\;
-  H \oplus_{S^2} H
+  1_{S^2}
 $$
 
-(where $S^2 \times \mathbb{C}$ is the [[trivial vector bundle]] [[complex line bundle]] on the 2-sphere).
+(where $1_{S^2}$ denotes the [[trivial vector bundle]] [[complex line bundle]] on the 2-sphere).
 
 =--
 
@@ -55,7 +128,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Via the standard [[clutching construction]] there is a single [[transition function]] of the form
+Via the [[clutching construction]] there is a single [[transition function]] of the form
 
 $$
   S^1 \longrightarrow GL(n,\mathbb{C})
@@ -63,21 +136,31 @@ $$
 
 that characterizes all the bundles involved. With $S^1 \hookrightarrow \mathbb{C}$ identified with the [[topological subspace]] of [[complex numbers]] of unit [[absolute value]], the standard choice for these functions is
 
-* for $S^2 \times \mathbb{C}$: $f_1 \colon z \mapsto \left( 1 \right)$;
+* for the [[trivial vector bundle|trivial]] [[line bundle]] $1_{S^2}$ we may choose
 
-* for $H$: $f_H \colon z \mapsto \left( z\right)$
+  $f_1 \colon z \mapsto \left( 1 \right)$;
 
-and hence
+* for the basic line bundle we may choose (by lemma \ref{ClutchingConstructionOfBasicLineBundle}) 
 
-* for $H \otimes H \oplus (X \times \mathbb{C})$: $z \mapsto \left( \array{ z^2 & 0 \\ 0 & 1 }\right)$
+  $f_H \colon z \mapsto \left( z\right)$ 
 
-* for $H \oplus H$: $z \mapsto \left( \array{ z & 0 \\ 0 & z }  \right)$.
+This yields
 
-Since the complex [[general linear group]] $Gl(n,\mathbb{C})$ is [[path-connected topological space|path-connected]], there exists a [[continuous function]]
+* for $H \otimes H \oplus 1_{S^2}$ the clutching function 
+   
+  $z \mapsto \left( \array{ z^2 & 0 \\ 0 & 1 }\right)$
+
+* for $H \oplus H$ the clutching function
+
+  $z \mapsto \left( \array{ z & 0 \\ 0 & z }  \right)$.
+
+Since the complex [[general linear group]] $Gl(n,\mathbb{C})$ is [[path-connected topological space|path-connected]] (by [this prop.](general+linear+group#ConnectednessOfGeneralLinearGroup)), there exists a [[continuous function]]
 
 $$
   \gamma \colon [0,1] \longrightarrow GL(2,\mathbb{C})
 $$
+
+connecting the identity matrix on $mathbb{C}^2$ with the one that swaps the two entries, i.e.
 
 with $\gamma(0) = \left( \array{ 1 & 0 \\ 0 & 1 }  \right)$
 
@@ -95,33 +178,78 @@ $$
   }
 $$
 
-(with [[matrix multiplication]] on the right)
-
-is a [[left homotopy]] from $f_{H \oplus H}$ to 
-$f_{H \otimes H \oplus 1}$.
+(with [[matrix multiplication]] on the right) is a [[left homotopy]] from $f_{H \oplus H}$ to $f_{H \otimes H \oplus 1}$.
 
 
 =--
 
++-- {: .num_remark}
+###### Remark
+**([[fundamental product theorem in topological K-theory]])**
 
-[[fundamental product theorem in K-theory]]
-
-$$
-  K(X)[h]/(h-1)^2 \overset{\simeq}{\longrightarrow} K(X \times S^2)
-$$
-
-([Hatcher, theorem 2.2](#Hatcher))
-
-more generally:
+Under the map
 
 $$
-  K(X)[h]/((h-1)(l h -1))
-   \simeq
-  K(P(1 \oplus L))
+  Vect(S^2)_{/\sim} \longrightarrow K(X)
 $$
 
-([Wirthmuller 12, p. 17](#Wirthmuller12))
+that sends [[complex vector bundles]] to their class in the [[topological K-theory]] ring $K(X)$, the fundamental tensor/sum relation of prop. \ref{TensorRelationForBasicLineBundleOn2Sphere} says that the K-theory class $H$ of the basic line bundle in $K(X)$ satisfies the relation
 
+$$
+  \begin{aligned}
+    (H - 1)^2 
+    & = 
+    H^2  + 1 - \underset{= H^2 + 1}{\underbrace{2 H}}
+    \\
+    = &   0
+  \end{aligned}  
+$$
+
+in $K(X)$. 
+
+(Notice that $H-1$ is the image of $[H]$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)).)
+
+It follows that there is a [[ring homomorphism]] of the form
+
+$$
+  \array{
+    \mathbb{Z}[h]/\left( (h-1)^2 \right)
+      &\overset{}{\longrightarrow}&
+    K(S^2)
+    \\
+    h &\overset{\phantom{AAA}}{\mapsto}& H
+  }
+$$
+
+from the [[polynomial ring]] in one abstract generator, [[quotient ring|quotiented]] by this relation, to the [[topological K-theory]] ring.
+
+It turns out that this homomorphism is in fact an [[isomorphism]], hence that the relation $(H-1)^2 = 0$ from prop. \ref{TensorRelationForBasicLineBundleOn2Sphere} is the _only_ relation satisfied by the basic complex line bundle in topological K-theory.
+
+More generally, for $X$ a [[topological space]], then there is a composite ring homomorphism
+
+$$
+  \array{
+    K(X) \otimes \mathbb{Z}[h]/((h-1)^2)
+      & \longrightarrow & 
+    K(X) \times K(S^2)
+      & \longrightarrow &
+    K(X \times S^2)
+    \\
+    (E, h)
+      &\overset{\phantom{AAA} }{\mapsto}&
+    (E,H)
+      &\overset{\phantom{AAA}}{\mapsto}&
+    (\pi_{X}^\ast E) \cdot (\pi_{S^2}^\ast H) 
+  }
+$$
+
+to the topological K-theory ring of the [[product topological space]] $X \times S^^2$, where the second map is the [[external tensor product]] of vector bundles.
+
+This composite is an [[isomorphism]] if $X$ is a [[compact Hausdorff space]] (for $X = \ast$ the [[point space]] this reduces to the previous statement).
+
+This is called the _[[fundamental product theorem in topological K-theory]]_. It is the main ingredient in the [[proof]] of [[Bott periodicity]] in complex topological K-theory.
+
+=--
 
 ## References
 
