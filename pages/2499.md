@@ -850,3 +850,4 @@ Discussion in this formalism of the [[Green-Schwarz action functional]] for the 
 
 [[!redirects rheonomy]]
 [[!redirects D'Auria-Fré formulation of supergravity]]
+[[!redirects Auria-Fre formulation of supergravity]]
