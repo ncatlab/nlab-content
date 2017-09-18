@@ -1,5 +1,5 @@
 
-> See also _[[exponential map]]_.
+> This entry is about the concept in [[category theory]]. For exponential functions see at _[[exponential map]]_.
 
 ***
 
