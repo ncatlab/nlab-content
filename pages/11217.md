@@ -1,6 +1,6 @@
 
 
-**[[analysis]]** ([[calculus]], [[functional analysis]], [[topology]])
+**[[analysis]]** ([[differential calculus|differential]]/[[integral calculus|integral]] [[calculus]], [[functional analysis]], [[topology]])
 
 [[epsilontic analysis]]
 
