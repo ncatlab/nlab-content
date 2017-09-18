@@ -31,6 +31,8 @@ More generally, see at _[[infinitesimal disk bundle]]_.
 
 * [[infinitesimal singular simplicial complex]]
 
+* [[infinitesimal neighborhood]]
+
 ## References
 
 * {#Hennion13}  [[Benjamin Hennion]], _Tangent Lie algebra of derived Artin stacks_ ([arXiv:1312.3167](http://arxiv.org/abs/1312.3167))
