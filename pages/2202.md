@@ -59,7 +59,7 @@ given by
 $$ x \otimes y \stackrel{1 \otimes e_y}{\longrightarrow} x \otimes I \stackrel{r_x}{\longrightarrow} x $$
 and
 $$ x \otimes y \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes y \stackrel{\ell_y}{\longrightarrow} y $$
-respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem is probably in Eilenberg and Kelly's paper on closed categories, but they may not have been the first to note it.) 
+respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem has been observed by Eilenberg and Kelly ([1966](#EilKel66), p.551), but they may not have been the first to note it.) 
 
 Alternatively, suppose that $(C, \otimes, I)$ is a monoidal category equipped with monoidal natural transformations $e_x : x \to I$ and $\Delta_x: x \to x \otimes x$ such that 
 $$ x \stackrel{\Delta_x}{\longrightarrow} x \otimes x \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes x \stackrel{\ell_x}{\longrightarrow} x $$
@@ -92,6 +92,11 @@ The notion of [[semicartesian operad]] is a type of [[generalized multicategory]
 * [[cartesian monoidal category]]
 
 * A [[relevance monoidal category]] is the "dual" of a semicartesian monoidal category, with diagonals but not projections.
+
+## Reference
+
+* {#EilKel66} [[Samuel Eilenberg|S. Eilenberg]], [[Max Kelly|M. G. Kelly]], _Closed Categories_ , pp.421-562 in Eilenberg et al. (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
+
 
 [[!redirects semicartesian category]]
 [[!redirects semi-cartesian category]]
