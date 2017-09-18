@@ -1527,8 +1527,7 @@ $\,$
 The following examples illustrate how all these ingredients and construction principles
 may be combined.
 
-The following example we will examine in more detail below in example \ref{Homeomorphism
-BetweenTopologicalAndCombinatorialCircle},
+The following example examines in more detail below in example \ref{HomeomorphismBetweenTopologicalAndCombinatorialCircle},
 after we have introduced the concept of _[[homeomorphisms]]_ [below](#Homeomorphisms).
 
 +-- {: .num_example }
@@ -9155,7 +9154,7 @@ $$
 two paths with $\gamma_1(0) = x$, $\gamma_1(1) = \gamma_2(0) = y$ and $\gamma_2(1) = z$
 
 $$
-  \gamma_1(x) \overset{\gamma_1}{\righsquigarrow} \gamma_1(1) = \gamma_2(0) \overset{ \gamma_2 }{\rightsquigarrow} \gamma_2(1)
+  \gamma_1(x) \overset{\pahntom{A}\gamma_1\phantom{A}}{\rightsquigarrow} \gamma_1(1) = \gamma_2(0) \overset{ \phantom{A}\gamma_2\phantom{A} }{\rightsquigarrow} \gamma_2(1)
 $$
 
 consider the function
@@ -9481,6 +9480,36 @@ This is called a _closed embedding_ if the [[image]] $f(X) \subset Y$ is a [[clo
 ###### Proof
 
 If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]]. Moreover, it is still continuous with respect to the subspace topology on $f(X)$ (example \ref{ImageFactorization}). Now a bijective continuous function is a homeomorphism precisely if it is an [[open map]] or a [[closed map]] prop. \ref{HomeoContinuousOpenBijection} . But the image projection of $f$ has this property, respectively, if $f$ does, by prop \ref{OpenClosedImageProjection}.
+
+=--
+
++-- {: .num_prop #InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}
+###### Proposition
+**([[injective proper maps to locally compact spaces are equivalently the closed embeddings]])**
+
+Let
+
+1. $X$ be a [[topological space]]
+
+1. $Y$ a [[locally compact topological space]]
+
+1. $f \colon X \to Y$ be a [[continuous function]].
+
+Then the following are equivalent
+
+1. $f$ is an [[injective function|injective]] [[proper map]],
+
+1. $f$ is a closed [[embedding of topological spaces]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, if $f$ is an injective proper map,
+then since [[proper maps to locally compact spaces are closed]], it follows that $f$ is also  [[closed map]]. The claim then follows since [[closed injections are embeddings]], and since the image of a closed map is closed.
+
+Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image is just the intersection $f^{-1}(C) \simeq C \cap f(X)$. By the nature of the [[subspace topology]], this is compact if $C$ is.
 
 =--
 
@@ -11268,7 +11297,7 @@ $$
   \,.
 $$
 
-Since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}), it follows that $K_x \subset X$ is a closed subset. This implies that the [[topological closure]] of its interior as a subset of $X$ is still contained in $K_x$ (since the topological closure is the smallest closed subset containing the given subset, by def. \ref{def. \ref{ClosedSubset}}): $Cl(Int(K_x)) \subset K_x$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace}), $Cl(Int(K_x))$ is also closed as a subset of the compact subspace $K_x$.
+Since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}), it follows that $K_x \subset X$ is a closed subset. This implies that the [[topological closure]] of its interior as a subset of $X$ is still contained in $K_x$ (since the topological closure is the smallest closed subset containing the given subset, by def. \ref{ClosedSubset}): $Cl(Int(K_x)) \subset K_x$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace}), $Cl(Int(K_x))$ is also closed as a subset of the compact subspace $K_x$.
 Now since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), it follows that this closure is also compact as a subspace of $K_x$, and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}), it finally follows that it is also compact as a subspace of $X$:
 
 $$
@@ -13293,11 +13322,11 @@ denoting the [[support]] of $f_i$ (the [[topological closure]] of the subset of 
 +-- {: .num_remark #RemarkPartitionOfUnity}
 ###### Remark
 
-Regarding the definition of [[partition of unity]] (def. \ref{PartitionOnfUnity}) observe that:
+Regarding the definition of [[partition of unity]] (def. \ref{PartitionOfUnity}) observe that:
 
 1. Due to the second clause in def. \ref{PartitionOfUnity}, the [[sum]] in the third clause involves only a [[finite number]] of elements not equal to zero, and therefore is well defined.
 
-1. Due to the third clause, the interiors of the supports $\left\{ h_i{-1}( (0,1] )  \subset X \right\}_[i \in I}$
+1. Due to the third clause, the interiors of the supports $\left \{ h_i^{-1}( (0,1] ) \subset X \right\}_{i \in I}$
    constitute a [[locally finite cover|locally finite]] [[open cover]]:
 
    1. they are open, since they are the [[pre-images]] under the [[continuous functions]] $f_i$ of the open subset $(0,1] \subset [0,1]$,
@@ -14487,7 +14516,7 @@ $$
 for any $\epsilon \in (0,2\pi/6)$.
 
 
-Define a [[Cech cohomology]] cocycle (remark \ref{CechCoycleCondition}) on this cover by
+Define a [[Cech cohomology]] cocycle (remark \ref{CocycleCech}) on this cover by
 
 $$
   g_{n_1 n_2} =
@@ -15577,7 +15606,7 @@ By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in 
 has a subcover
 
 $$
-  \{ \mathbb{R}^n \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}
+  \{ \mathbb{R}^{n_{j}} \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}
 $$
 
 with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have
@@ -15661,7 +15690,7 @@ A _topological manifold is a [[topological space]] which is
 
 1. [[paracompact Hausdorff topological space|paracompact Hausdorff]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{ParacompactSpace}).
 
-If the [[Euclidean spaces|Euclidean]] [[neighbourhoods]] $\mathbb{R}^n \overset{\simeq}{\to} U_x \subset X$ 
+If the [[Euclidean spaces|Euclidean]] [[neighbourhoods]] $\mathbb{R}^n \overset{\simeq}{\to} U_x \subset X$
 of the points $x \in X$ are all of [[dimension]] $n$
 for some $n \in \mathbb{N}$, then the topological manifold is said to be of dimension $n$, too.
 Sometimes one also speaks of an "$n$-fold" in this case.
@@ -15714,7 +15743,7 @@ Given an $n$-dimensional [[topological manifold]] $X$ (def. \ref{TopologicalMani
 </div>
 
 
-1. An [[open subset]] $U \subset X$ and a [[homeomorphism]] $\phi \colon \mathbb{R}^n \overset{\phantom{A}\simeq\phantom{A}}{\to} U$ 
+1. An [[open subset]] $U \subset X$ and a [[homeomorphism]] $\phi \colon \mathbb{R}^n \overset{\phantom{A}\simeq\phantom{A}}{\to} U$
    from the $n$-dimensional [[Euclidean space]] is also called a _[[local coordinate chart]]_ of $X$.
 
 1. An [[open cover]] of $X$ by local charts $\left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U \subset X \right\}_{i \in I}$ is called an _[[atlas]]_ of the topological manifold.
@@ -15984,7 +16013,7 @@ $$
     U_i \cap V_j \overset{\psi_j^{-1}}{\longrightarrow} \psi_j^{-1}(U_i \cap V_j) \; \subset \mathbb{R}^n
 $$
 
-showing their analogy to the glueing functions within a single atlas spring.
+showing their analogy to the gluing functions within a single atlas (def. \ref{Charts}).
 
 Hence diffeomorphsm induces an [[equivalence relation]] on the set of
 smooth atlases that exist on a given [[topological manifold]] $X$. An [[equivalence class]]
@@ -17129,8 +17158,8 @@ Let $X$ and $Y$ be [[smooth manifolds]], and let $f \colon X \to Y$ be a [[smoot
 +-- {: .proof}
 ###### Proof
 
-Since topological manifolds are [[locally compact topological spaces]] (remark \ref{TopologicalManifoldsAreLocallyCompact}),
-this follows directly since [injective proper maps into locally compact spaces are equivalently closed embeddings by prop. \ref{InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}.
+Since topological manifolds are [[locally compact topological spaces]] (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace}),
+this follows directly since [[injective proper maps into locally compact spaces are equivalently closed embeddings]] by prop. \ref{InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}.
 
 =--
 
