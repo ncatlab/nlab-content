@@ -128,7 +128,7 @@ that (by definition of $Stab(S)$) factors through $S \hookrightarrow G$; this gi
 
 Now we prove the reverse inequality. Writing $n = p^k m$, we have 
 
-$${|P_k|} = \binom{p^k m}{p^k} = m \prod_{j = 0}^{p^k - 1} \frac{p^k m - j}{p^k - j}$$ 
+$${|P_k|} = \binom{p^k m}{p^k} = m \prod_{j = 1}^{p^k - 1} \frac{p^k m - j}{p^k - j}$$ 
 
 where the product after $m$ on the right is easily seen to be prime to $p$ (any power of $p$ that divides one of the numerators $p^k m - j$ also divides the denominator $p^k - j$, so that powers of $p$ in the product are canceled). Therefore $ord_p({|P_k|}) = ord_p(m)$; let $r$ be this number. Writing out the class equation 
 
