@@ -1,5 +1,5 @@
 
-> This entry is about the notion in [[order theory]]. For a related but different notion in [[homotopy theory]] see at _[[interval object]]_. 
+> This entry is about the notion in [[order theory]]. For the related concept in [[topology]] see at _[[topological interval]]_, and for  concept in [[homotopy theory]] see at _[[interval object]]_. 
 
 ***
 
@@ -62,7 +62,7 @@ Intervals of [[real numbers]] are important in [[analysis]] and [[topology]].  T
 
 The interval in the reals has a [[universal property|universal]] characterization: it [is the terminal coalgebra](http://ncatlab.org/nlab/show/terminal+coalgebra+of+an+endofunctor#UnitInterval) of the [[endofunctor]] on the category of all intervales that glues an interval end-to-end to itself.
 
-The __unit interval__ $[0,1]$ is primary in [[homotopy theory]]; a __[[homotopy]]__ from $f$ to $g$ (themselves continuous maps from $A$ to $B$) is a continuous map $h: A \times [0,1] \to B$ such that $h(x,0) = f(x)$ and $h(x,1) = g(x)$ always.  This generalises to the notion of [[interval object]] in an arbitrary category.
+The __unit interval__ $[0,1]$ is primary in [[homotopy theory]]; specifically in [[topological homotopy theory]] a __[[left homotopy]]__ from a [[continuous function]] $f$ to a continuous function $g$ is a continuous function  $h \colon A \times I \to B$ out of the [[product topological space]] with the [[topological interval]] $I = [0,1]$ such that $h(x,0) = f(x)$ and $h(x,1) = g(x)$. More generally this is the concept of left homotopy for an [[interval object]] in a suitable ([[model category|model]]) [[category]].
 
 The usual [[integral]] in ordinary calculus is done over an interval in the real line, a compact interval for a 'proper' integral, or any interval for an 'improper' integral.  The theory of [[Lebesgue measure]] removes this restriction and allows integrals over any [[measurable subset]] of the real line.  Still, the Lebesgue measure on intervals (even compact intervals) generates all of the rest.
 
