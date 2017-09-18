@@ -458,7 +458,7 @@ is a [[natural isomorphism]].
 
 ([Snaith 81, theorem 2.12](#Snaith81), [Hopkins-Mathew](#HopkinsMathew))
 
-That (before localization) the map is an epimorphism is due to ([Segal 73, prop. 1](complex+projective+space#Segal73)), see [this prop.](complex+projective+space#HGroupRingSpectrumSurjectsOntoTopologicalKTheory). The analog of this statement for [[real projective space]] $\mathbb{R}P^\infty \simeq B \mathbb{Z}/2$ instead of [[complex projective space]] $\mathbb{C}P^\infty \simeq B U(1)$ is the [[Kahn-Priddy theorem]].
+That (before localization) the map is an epimorphism is due to ([Segal 73, prop. 1](#Segal73)), see [this prop.](complex+projective+space#HGroupRingSpectrumSurjectsOntoTopologicalKTheory). The analog of this statement for [[real projective space]] $\mathbb{R}P^\infty \simeq B \mathbb{Z}/2$ instead of [[complex projective space]] $\mathbb{C}P^\infty \simeq B U(1)$ is the [[Kahn-Priddy theorem]].
 
 
 
@@ -546,6 +546,11 @@ with a simpler proof given in
 
 * {#Snaith81} [[Victor Snaith]], _Localized stable homotopy of some classifying spaces_, Math. Proc. Cambridge Philos. Soc. 89 (1981), no. 2,
 325-330. MR 600247 (82g:55006) ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0305004100058205))
+
+using results from
+
+* {#Segal73} [[Graeme Segal]], _The stable homotopy of complex of projective space_, The quarterly journal of mathematics (1973) 24 (1): 1-5. ([[Segal72.pdf:file]], [doi:10.1093/qmath/24.1.1]( https://doi.org/10.1093/qmath/24.1.1))
+
 
 Another proof due to [[Mike Hopkins]] is in
 
