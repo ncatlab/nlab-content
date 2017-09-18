@@ -83,10 +83,11 @@ See also
 
 Orbifolds in [[string theory]]:
 
-* [[orientifold]]
-
 * [[fractional D-brane]]
 
+* [[ADE singularity]]
+
+* [[orientifold]]
 
 ## References
 
@@ -103,6 +104,7 @@ Original sources on orbifolds include
  {#Thurston} which in completed and revised form is available as his book: _The Geometry and Topology of Three-Manifolds;_ in particular the orbifold discussion is in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf).
 
 Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
+
 
 * {#Moerdijk} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_ ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
  
