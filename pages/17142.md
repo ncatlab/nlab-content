@@ -65,7 +65,7 @@ $$
 
 of its [[normal bundle]]. 
 
-Let now $\mathcal{B}$ be a [[(B,f)-structure]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#BfStructure)).  Then for $X \overset{i}{\hookrightarrow}\mathbb{R}^k$ any embedded manifold with $\mathcal{B}$-structure $\hat g \colon X \to B_{k-n}$ on its [[normal bundle]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#ManifoldWithBfStructure)), define its **negative** or **oientation reversal**  $-(X,i,\hat g)$ of $(X,i, \hat g)$ to be the restriction of the structured manifold
+Let now $\mathcal{B}$ be a [[(B,f)-structure]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#BfStructure)).  Then for $X \overset{i}{\hookrightarrow}\mathbb{R}^k$ any embedded manifold with $\mathcal{B}$-structure $\hat g \colon X \to B_{k-n}$ on its [[normal bundle]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#ManifoldWithBfStructure)), define its **negative** or **orientation reversal**  $-(X,i,\hat g)$ of $(X,i, \hat g)$ to be the restriction of the structured manifold
 
 $$
   (X \times I \overset{(i,e)}{\hookrightarrow} \mathbb{R}^{k+2}, \hat g \times fr)
