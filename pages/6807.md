@@ -40,6 +40,7 @@ There is also the [[IKKT matrix model]], which takes this one step further by re
 
 * [[membrane matrix model]]
 
+* [[Myers effect]]
 
 ## References
 
