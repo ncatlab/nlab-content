@@ -1,0 +1,11 @@
+[webpage](https://www.tcs.ifi.lmu.de/people/ulrich-schoepp)
+
+## Related entries
+
+* [[continuation-passing style]]
+* [[Geometry of Interaction]]
+* [[traced monoidal category]]
+
+category: people
+
+category: computer science
