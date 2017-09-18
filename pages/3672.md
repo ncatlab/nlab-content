@@ -21,7 +21,7 @@
 
 There is a close relationship between 
 
-* the four [[normed division algebras]] 
+* the four real [[normed division algebras]] 
 
 * [[spin geometry]] and real (Majorana) [[spin representations]];
 
