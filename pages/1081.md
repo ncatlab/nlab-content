@@ -127,11 +127,11 @@ where on the right we have the [[smash product of spectra]] with the [[suspensio
 The corresponding [[homology group]]s are the [[homotopy group]]s of this spectrum:
 
 $$
-  E_n(X,A) := \pi_n(X \wedge A) := [\Sigma^n S, X \wedge A ]
+  E_n(X,A) := \pi_n(X \wedge A) := [\Sigma^n \mathbb{S}, X \wedge A ]
   \,.
 $$
 
-For more see [[generalized homology]].
+where $\mathbb{S}$ is the [[sphere spectrum]]. For more see [[generalized homology]].
 
 ## Examples
 
