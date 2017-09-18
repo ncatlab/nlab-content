@@ -195,31 +195,44 @@ contain $x$.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #T2InTermsOfClosedDiagonal}
 ###### Proposition
 **($T_2$ in terms of topological closures)**
 
 A [[topological space]] $(X,\tau_X)$ is $T_2$=[[Hausdorff topological space|Hausdorff]] 
-precisely if the [[diagonal]] function $\Delta_X \colon (X, \tau_X) \longrightarrow (X \times X, \tau_{X \times X})$ 
- is a [[closed map]].
+precisely if the [[image]] of the [[diagonal]] 
+
+$$
+  \array{
+     X &\overset{\Delta_X}{\longrightarrow}& X \times X
+     \\
+     x &\overset{\phantom{AAA}}{\mapsto}& (x,x)
+  }
+$$ 
+
+is a [[closed subset]] in the [[product topological space]]
+$(X \times X, \tau_{X \times X})$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-If $(X,\tau_X)$ is Hausdorff, then by definition for every pair of distinct points $x \neq y \in X$ there exists open neighbourhoods
-$U_x, U_y \in \tau_X$ such that $U_x \cap U_y = \emptyset$. In terms of the [[product topology]]
-this means that every point $(x,y) \in X \times X$ which is not on the diagonal has an open neighbourhood $U_x \times U_y$ which
-still does not contain the diagonal. By definition, this means that in fact every [[subset]] of the diagonal is a 
-[[closed subset]] of $X \times X$, hence in particular those that are in the image under $\Delta_X$ of closed subsets of $X$.
-Hence $\Delta_X$ is a closed map.
+The Hausdorff condition, that for $x \neq y \in X$ then there exist disjoint open neighbourhood $U_x, U_y \subset X$, is equivalently rephrased in terms of the product topology as: Every point $(x,y) \in X$ which is not on the diagonal has an open neighbourhood $U_x \times U_y$ which still does not intersect the diagonal.
 
-Conversely, if $\Delta_X$ is a closed map, then the full diagonal (i.e. the image of $X$ under $\Delta_X$) is closed in $X \times X$,
-and hence this means that every points $(x,y) \in X \times X$ not on the diagonal has an open neighbourhood $U_x \times U_y$
-not containing the diagonal, i.e. such that $U_x \cap U_y = \emptyset$. Hence $X$ is Hausdorff.
+Hence if $X$ is Hausdorff, then the diagonal $\Delta_X(X) \subset X \times X$ is the complement of a union of such open sets, and hence is closed. 
+
+Conversely, if the diagonal is closed, then (by [this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure)) every point $(x,y)$ not on the diagonal, hence with $x \neq y$, has an open neighbourhood $U_x \times U_y$ still not intersecting the diagonal, hence so that $U_x \cap U_y = \emptyset$. Thus $(X,\tau)$ is Hausdorff.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+The characterization of the Hausdorff separation condition via the closure of the diagonal in prop. \ref{T2InTermsOfClosedDiagonal} is the basis for the definition of _[[separated scheme]]_.
+
+=--
+
 
 +-- {: .num_prop #T3InTermsOfTopologicalClosures}
 ###### Proposition
