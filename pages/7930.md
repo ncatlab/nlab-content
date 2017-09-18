@@ -1136,14 +1136,14 @@ $$
 given by
 
 $$
-  A \mapsto A^{-1}(-)A
+  A \mapsto A(-)A^\dagger
   \,.
 $$
 
-This preserves the [[determinant]], and hence the Lorentz form, by the multiplicative property of the determinant
+This preserves the [[determinant]], and hence the Lorentz form, by the multiplicative property of the determinant:
 
 $$
-  det(A^{-1}(-)A) = det(A)^{-1} det(-) det(A) = det(-)
+  det(A(-)A^\dagger) = \underset{=1}{\underbrace{det(A)}} det(-) \underset{= 1}{\underbrace{det(A)}}^\ast = det(-)
   \,.
 $$
 
