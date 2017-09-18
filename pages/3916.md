@@ -194,6 +194,8 @@ By the fact that the space of [[tubular neighbourhood]]s (see there for details)
 
 * {#Milnor65} [[John Milnor]], section 7 of _Topology -- From the differentiable viewpoint_, 1965 ([pdf](http://teachingdm.unito.it/paginepersonali/sergio.console/Dispense/Milnor%20Topology%20from%20%23681EA.pdf))
 
+* {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and MO_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
+
 
 An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf#page=15) 
 
@@ -214,7 +216,9 @@ and is in section 10 of
 
 with an emphases on [[parameterized spectra]].
 
+[[!redirects Pontrjagin-Thom construction]]
 [[!redirects Pontryagin-Thom construction]]
+
 [[!redirects Pontryagin-Thom collaps map]]
 [[!redirects Pontrjagin-Thom collaps map]]
 [[!redirects Pontrjagin-Thom collapse map]]
@@ -230,3 +234,5 @@ with an emphases on [[parameterized spectra]].
 
 [[!redirects Pontryagin-Thom collapse maps]]
 [[!redirects Pontrjagin-Thom collapse maps]]
+
+
