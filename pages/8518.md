@@ -39,9 +39,34 @@ This section may duplicate/contradict other nLab accounts of similar lemmas. Thi
 
 [[five lemma]]
 
-### lemmas on pushouts 
+### lemmas on pullbacks and pushouts
 
-A pushout implying a pullback via [[monomorphism]] (resp. [[strong monomorphism]]), in [[topos]] (resp. [[quasitopos]])
+**Closedness of pullback squares under composition.**
+
+* The composition of two pullback squares is a pullback square
+
+**Outer square being a pullback implies left-hand square being a pullback, in the presence of a jointly monic span.**
+
+If 
+
+
+$$\array{
+O_{0,1} & \overset{f_{1,1}}{\to} & O_{1,1} & \overset{f_{2,1}}{\to} & O_{2,1} &  & &  & \\
+\downarrow h_0 &&\downarrow h_1 &&\downarrow h_2 &&  &&  \\
+O_{0,0} & \overset{f_{1,0}}{\to} & O_{1,0} & \overset{f_{2,0}}{\to} & O_{2,0}  & &  & 
+}$$
+
+is a commutative diagram in any category $\mathcal{C}$ such that 
+
+*  the square consisting of $h_0$, $h_2$, $f_{2,1}\circ f_{1,1}$,  $f_{2,0}\circ f_{1,0}$ is a pullback in $\mathcal{C}$
+* for all morphisms $g_1$ and $g_2$ with $cod(g_i)=O_{1,1}$: 
+* * ( $f_{2,1}\circ g_1 = f_{2,1}\circ g_2$ and  $h_1\circ g_1 = h_1 \circ g_2$) implies ($g_1=g_2$) 
+
+Then 
+
+* the square consisting of $h_0$, $h_1$, $f_{1,0}$, $f_{1,1}$ is a pullback in $\mathcal{C}$
+
+**A pushout implying a pullback via [[monomorphism]] (resp. [[strong monomorphism]]), in [[topos]] (resp. [[quasitopos]]).**
 
 Suppose that $(\mathrm{T},\mathrm{C})$ is either
 
@@ -70,7 +95,7 @@ Then
 (cf. [[quasitopos]], Section "Properties")
 ### lemmas on equalizers 
 
-An equalizer diagram implying an equalizer diagram, via monos and a pullback square. 
+**An equalizer diagram implying an equalizer diagram, via monos and a pullback square.**
 
 Suppose $\mathcal{C}$ is any category with equalizers. 
 Suppose 
