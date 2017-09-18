@@ -65,11 +65,11 @@ Finally, a **unit** in an allegory is an object $U$ such that $1_U$ is the great
 Thus, regular categories are equivalent to unital (or unitary) tabular allegories.  For more details, see [[Categories, Allegories]], the [[Elephant]], or [[toddtrimble:Theory of units and tabulations in allegories]].
 
 
-## Division allegories and power allegories
+## Division allegories 
 
 A **distributive allegory** is an allegory whose hom-posets have finite joins that are preserved by composition.  Thus a distributive allegory is locally a [[lattice]].  The category of maps in a unitary tabular distributive allegory is a [[pre-logos]], and conversely the bicategory of relations in a pre-logos is a unitary tabular distributive allegory.
 
-A **division allegory** is a distributive allegory in which composition on one (and therefore the other) side has a right adjoint (left or right division). That is: given $r \colon A \to B$ and $s \colon A \to C$, there exists $r/s \colon B \to C$ such that
+A **division allegory** is a distributive allegory in which composition on one (and therefore the other) side has a right adjoint (left or right division). That is: given $r: A \to B$ and $s \colon A \to C$, there exists $r/s: B \to C$ such that
 
 $$t \leq s/r \in \hom(B, C) \Leftrightarrow t \circ r \leq s \in \hom(A, C)$$ 
 
@@ -85,33 +85,21 @@ where $r(a, b)$ is shorthand for "$(a, b)$ belongs to $r$".
 
 The category of maps (functional relations) of a unitary/unital tabular division allegory is a [[logos]], and conversely the bicategory of relations in a logos is a unitary tabular division allegory. ([[Categories, Allegories]], 2.32, page 227.) 
 
-A **power allegory** is an allegory $\mathcal{A}$ such that the inclusion functor $Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. The counit at an object $B$ may be written 
+## Power allegories 
 
-$$\ni_B \colon P(B) \to B$$ 
+A **power allegory** is, more or less, an allegory $\mathcal{A}$ such that the inclusion functor $i: Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. The idea is that $P$ assigns to an object $A$ a power object $P(A)$, as in topos theory; if we summarize the notion of topos as a regular category $\mathbf{E}$ for which the inclusion $i: \mathbf{E} \to Rel(\mathbf{E})$ has a right adjoint $P$, then it becomes apparent that the notion of power allegory is similar except that it takes the "relation side" as primary and derives the "function side" as $Map(\mathcal{A})$, whereas in topos theory it's just the other way around. But in either case the adjunction $i \dashv P$ is fundamental. 
 
-and we have the [[comprehension axiom]] that to each $r \colon A \to B$ there is a unique map $\chi_r \colon A \to P(B)$ such that $r = \ni_B \circ \chi_r$. 
+Since the inclusion $i$ is the identity on objects, the counit of the adjunction $i \dashv P$ at an object $B$ may be written 
 
-+-- {: .num_theorem} 
-###### Theorem 
-A power allegory with coproducts is a division allegory. 
-=-- 
+$$\ni_B: P(B) \to B$$ 
 
-+-- {: .proof} 
-###### Proof (sketch) 
-Let $r: A \to C$ and $s: B \to C$ be morphisms; we construct a right Kan lift $s \backslash r$ of $r$ through $s$. This means that for all $t \colon A \to B$ we have $s \circ t \leq r$ if and only if $t \leq s \backslash r$. 
+and we have a kind of [[comprehension scheme]] that to each $r: A \to B$ there is a unique map $\chi_r: A \to P(B)$, the *characteristic map* of $r$, such that $r = \ni_B \circ \chi_r$. (If $A$ and $B$ are related by a property $r$, then for each $a$ there is a subobject $\chi_r(a)$ of $B$ consisting of elements $b$ so related to $a$.) In the case $r = 1_A: A \to A$, the characteristic map $\chi_{1_A}: A \to P(A)$ is called the *singleton map* of $A$, and more general $\chi_r$ may be defined as $P(r) \sigma_A$. 
 
-We construct $s \backslash r$ as $\chi_s^o [\Leftarrow] \chi_r$ where $[\Leftarrow]: P(C) \to P(C)$ is a relation opposite to the internalization $[\Rightarrow]$ of the external order. One way to define $[\Rightarrow]$ is 
+### Freyd-Scedrov definition 
 
-$$[\leq] = (P(C) \stackrel{\ni^o}{\to} P P(C) \stackrel{\bigcup}{\to} P(C)$$ 
+The exact definition of power allegory is a matter for consideration. One can get a certain distance just by adopting the naive definition suggested above, that a power allegory is nothing more than an allegory for which the inclusion $Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. (Below we introduce a similar notion that we call a $P$-allegory.) But it seems hard to develop a theory from the naive notion that rises to a level comparable to topos theory. 
 
-where $\bigcup \colon P P(C) \to P(C)$ internalizes the union operation, and is defined to be $P(\ni_C)$; alternatively, as the map that classifies the composite 
-
-$$P P(C) \stackrel{\ni_{P(C)}}{\to} P(C) \stackrel{\ni_C}{\to} C.$$
-
-Full details may be found [here](https://ncatlab.org/toddtrimble/published/Note+on+power+allegories). 
-=--
-
-Freyd and Scedrov proceed a bit differently. For them, a power allegory is defined to be a division allegory which associates to each object $B$ a morphism $\ni_B \colon P(B) \to B$ such that for all $r \colon A \to B$
+Freyd and Scedrov start with a structure of division allegory (thus packing in a good amount of internal logic from the start) and introduce the fundamental adjunction $i \dashv P$ in terms of that structure. For them, a *power allegory* is defined to be a division allegory which associates to each object $B$ a morphism $\ni_B \colon P(B) \to B$ such that for all $r \colon A \to B$
 
 * $1_A \leq (r \backslash \ni_B) \circ (\ni_B \backslash r)$ 
 
@@ -119,7 +107,7 @@ which expresses the truth of the formula $\forall_{a \colon A} \exists_{S: P(B)}
 
 * $(\ni_B \backslash \ni_B) \wedge (\ni_B \backslash \ni_B)^o \leq 1_{P(B)}$ 
 
-which internalizes an axiom of extensionality, which reads $\forall_{b \colon B} (S \ni_B b) \Leftrightarrow (T \ni_B b) \vdash S = T$. Given those axioms, and given $r \colon A \to B$, one may define
+which internalizes an axiom of extensionality, which reads $\forall_{b \colon B} (S \ni_B b) \Leftrightarrow (T \ni_B b) \vdash S = T$. Given those axioms, and given $r: A \to B$, one may define
 
 $$\chi_r \coloneqq (\ni_B \backslash r) \wedge (r\backslash \ni_B)^o,$$ 
 
@@ -127,6 +115,50 @@ which internalizes the formula-definition $\chi_r(a, S) \coloneqq \forall_b S \n
 
 The bicategory of relations in a [[topos]] is a power allegory; conversely, the category of maps in a unitary tabular power allegory is a topos. 
 
+### Variant notion  
+
+Nevertheless, the spare elegance of the naive definition gives one something to shoot for. It appears that quite a decent theory can be developed just by adding the assumption of coproducts in an allegory: a reasonable and fairly mild assumption. (Most allegories don't admit many colimits; for example having coequalizers is pretty rare. But the standard examples do have finite coproducts, coinciding with coproducts on the maps/functional side.) 
+
++-- {: .num_defn} 
+###### Definition 
+A $P$-allegory is an allegory $\mathcal{A}$ with finite coproducts for which the inclusion $i: Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. 
+=-- 
+
+As before, the counit is denoted $\ni: i P \to 1_{\mathcal{A}}$. It is perhaps surprising that the notion of $P$-allegory is at least as strong as power allegory in the Freyd-Scedrov sense: 
+
++-- {: .num_theorem} 
+###### Theorem 
+Any $P$-allegory is a division allegory in which the Freyd-Scedrov conditions on $\ni$ are satisfied. 
+=-- 
+
++-- {: .proof} 
+###### Proof (sketch) 
+For now we content ourselves with a description of the division structure. 
+Let $r: A \to C$ and $s: B \to C$ be morphisms; we construct a right Kan lift $s \backslash r$ of $r$ through $s$. This means that for all $t: A \to B$ we have $s \circ t \leq r$ if and only if $t \leq s \backslash r$. We begin by constructing the right Kan lift for the case $r = s = \ni_C: P C \to C$. 
+
+Define the internal union $\bigcup_C$ by $\bigcup_C = P(\ni_C): P P C \to P C$, and define an internal order relation $[\Rightarrow]_C: P C \to P C$ by $P C \stackrel{\in_{P C}}{\to} P P C \stackrel{\bigcup_C}{\to} P C$. (Here $\in \coloneqq \ni^o$.) Define $[\Leftarrow]_C \coloneqq [\Rightarrow]_C^o$. 
+
+We now show $[\Leftarrow]_C = \ni_C \backslash \ni_C$. That is, for $R: P C \to P C$, we show $\ni_C R \leq \ni_C$ is equivalent to $R \leq [\Leftarrow]$. The backward implication is easy; for the forward implication, one may prove it first for *reflexive* $R$ where we have an actual equation $\ni_C R = \ni_C$. It follows that $P(\ni_C) P(R) = P(\ni_C)$, whence $P(R) \leq \bigcup_C^o \bigcup_C$. A short calculation then yields $R = \ni_C P(R) \sigma_{P C} = \ni_C \bigcup_C^o \bigcup_C \sigma_{P C} = \ni_C \bigcup_C^o = [\Leftarrow]$. The case for general $R$ reduces to the reflexive case: form the reflexive completion $1 \vee R$ as the composite 
+
+$$C \stackrel{\langle 1_{P C}, R \rangle}{\to} C + C \stackrel{\nabla}{\to} C$$ 
+
+which is where coproducts come in; here $\nabla$ is the codiagonal and we use the fact that $C + C$ in an allegory is a biproduct to form the pairing for the first arrow. It is easy to show that $\ni_C(1 \vee R) = \ni_C \vee \ni_C R = \ni_C$, and then we derive $R \leq 1 \vee R \leq [\Leftarrow]$ from before. Thus we have shown $[\Leftarrow]_C = \ni_C \backslash \ni_C$. 
+
+For general $r: A \to C, s: B \to C$, we claim the right Kan lift $s \backslash r: A \to B$ is given by $\chi_s^o (\ni_C \backslash \ni_C) \chi_r$. For, we have $r = \ni_C \chi_r$, whence 
+
+$$\array{
+s t \leq r & iff & \ni_C \chi_s t \leq \ni_C \chi_r \\ 
+ & iff & \ni_C \chi_s t \chi_r^o \leq \ni_C \\ 
+ & iff & \chi_s t \chi_r^o \leq \ni_C \backslash \ni_C \\ 
+ & iff & t \leq \chi_s^o (\ni_C \backslash \ni_C) \chi_r
+}$$ 
+
+thus proving the claim. 
+
+Further details may be found [here](https://ncatlab.org/toddtrimble/published/Note+on+power+allegories). 
+=--
+
+Thus the notion of $P$-category is just as strong as the Freyd-Scedrov notion of power allegory, and one can then piggy-back on their further developments. 
 
 ## Syntactic allegories
 
