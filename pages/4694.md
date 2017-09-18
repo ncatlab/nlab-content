@@ -25,9 +25,33 @@ A **monoidal adjunction** is an [[adjunction]] between [[monoidal categories]] w
 
 Actually, since there are several types of [[monoidal functors]] (lax, colax, and strong) there are several types of "adjunctions between monoidal categories which respect the monoidal structure."  Namely, we could have:
 
-* An adjunction in the [[2-category]] $MonCat$ of monoidal categories and strong monoidal functors.  In this case both the left and right adjoint are strong.  We call this a **strong monoidal adjunction**.
+* An adjunction in the [[2-category]] $MonCat$ of monoidal categories and strong monoidal functors.  In this case both the left and right adjoint are strong.  
 
-* An adjunction in the 2-category $MonCat_\ell$ of monoidal categories and lax monoidal functors.  In this case the right adjoint is lax, while the left adjoint is necessarily strong (by [[doctrinal adjunction]]; see [here](/nlab/show/doctrinal+adjunction#strength)).  This version, which is one of the most frequently occurring, is often called simply a **monoidal adjunction**.
+  $$
+    \array{
+      \underoverset
+        {\underset{R \, \text{strong monoidal}}{\longrightarrow}}
+        {\overset{L \, \text{strong monoidal}}{\longleftarrow}}
+        {}
+    }
+  $$  
+
+  We call this a **strong monoidal adjunction**.
+
+* An adjunction in the 2-category $MonCat_\ell$ of monoidal categories and lax monoidal functors.  In this case the right adjoint is lax, while the left adjoint is necessarily strong (by [[doctrinal adjunction]]; see [here](/nlab/show/doctrinal+adjunction#strength)).  
+
+  $$
+    \array{
+      \underoverset
+        {\underset{R \, \text{lax monoidal}}{\longrightarrow}}
+        {\overset{L \, \text{strong monoidal}}{\longleftarrow}}
+        {}
+    }
+  $$  
+
+  In fact, since the [[right adjoint]] of an [[oplax monoidal functor]] is necessarily a [[lax monoidal functor]] ([this prop.](oplax+monoidal+functor#OplaxAdjointToLax)), it is sufficient to demand that $L$ be strong monoidal.
+
+  This version, which is one of the most frequently occurring, is often called simply a **monoidal adjunction**.
 
 * The dual: an adjunction in the 2-category $MonCat_c$ of monoidal categories and colax monoidal functors, in which case the left adjoint is colax and the right adjoint is strong.  One might call this an **opmonoidal adjunction**.
 
