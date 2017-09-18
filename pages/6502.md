@@ -301,7 +301,7 @@ More generally, [[G-structures]] equipped with compatible principal connections 
 Let $H \to GL(\mathbb{R}^n)$ be a [[Lie group]] [[homomorphism]], so that [[reduction of the structure group]] of the [[frame bundle]] of a manifold of [[dimension]] $n$ along this map is an [[G-structure|H-structure]] on the manifold. Then write
 
 $$
-   G \colon \mathbb{R}^n \rtimes H
+   G \coloneqq \mathbb{R}^n \rtimes H
 $$
 
 for the [[semidirect product]] of $H$ with the [[translation group]] $\mathbb{R}^n$, given via the induced [[action]] of $H$ on $\mathbb{R}^n$ via the canonical action of the [[general linear group]] $GL(\mathbb{R}^n)$.
