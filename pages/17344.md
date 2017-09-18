@@ -1168,6 +1168,317 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 =--
 
+#### Looping and suspension
+
+The following defines [[tensoring]] and [[powering]] of sequential spectra over [[pointed topological spaces]]/[[pointed simplicial sets]].
+
++-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
+###### Definition
+
+Let $X$ be a sequential spectrum and $K$ a [[pointed topological space]]/[[pointed simplicial set]]. Then
+
+1. $X \wedge K$ is the sequential spectrum with 
+
+   * $(X \wedge K)_n \coloneqq X_n \wedge K$ ([[smash product]])
+
+   * $\sigma_n^{X\wedge K} \coloneqq \sigma_n^{X} \wedge id_{K}$.
+
+1. $X^K$ is the sequential spectrum with
+
+   * $(X^K)_n \coloneqq (X_n)^K$ ([[pointed mapping space]])
+
+   * $\sigma_n^{(X^k)} \colon S^1 \wedge X_n^K \to (S^1 \wedge X_n)^K \overset{(\sigma_n)^K}{\longrightarrow} (X_{n+1})^K$.
+ 
+=--
+
+
++-- {: .num_defn #ShiftedSpectrum}
+###### Definition
+
+For $X$ a [[sequential spectrum]] (def. \ref{SequentialSpectra}) and $k \in \mathbb{Z}$, the $k$-fold **shifted spectrum** of $X$ is the sequential spectrum denoted $X[k]$ given by
+
+* $(X[k])_n \coloneqq \left\{ \array{X_{n+k} & for \; n+k \geq 0 \\ \ast & otherwise } \right. $;
+
+* $\sigma_n^{X[k]} \coloneqq \left\{ \array{ \sigma^X_{n+k} & for \; n+k \geq 0 \\ 0 & otherwise} \right. $.
+
+=--
+
+
++-- {: .num_defn #SequentialSpectrumRealSuspension}
+###### Definition
+
+For $X$ a sequential spectrum, then
+
+1. the **real suspension** of $X$ is $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
+
+1. the **real looping** of $X$ is $X^{S^1}$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+
+=--
+
++-- {: .num_defn #SequentialSpectrumFakeSuspension}
+###### Definition
+
+For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
+
+1. the **fake suspension** of $X$ is the sequential spectrum $\Sigma X$ with
+
+   1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$
+
+   1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma_n)$.
+
+1. the **fake looping** of $X$ is the sequential spectrum $\Omega X$ with
+
+   1. $(\Omega X)_n \coloneqq (X_n)^{S^1}$;
+
+   1. $\tilde \sigma_n^{\Omega X} \coloneqq (\sigma_n)^{S^1}$.  
+
+Here $\tilde \Sigma_n$ denotes the $(\Sigma\dashv \Omega)$-[[adjunct]] of $\sigma_n$.
+
+=--
+
+e.g. ([Jardine 15, section 10.4](sequential+spectrum#Jardine15)).
+
++-- {: .num_defn #ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}
+###### Remark
+
+The looping and suspension operations in def. \ref{SequentialSpectrumRealSuspension} and def. \ref{SequentialSpectrumFakeSuspension} commute with shifting, def. \ref{ShiftedSpectrum}. Therefore in expressions like $\Sigma (X[1])$ etc. we may omit the parenthesis.
+
+=--
+
++-- {: .num_prop #AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
+###### Proposition
+
+The constructions from def. \ref{ShiftedSpectrum}, def. \ref{SequentialSpectrumRealSuspension} and def. \ref{SequentialSpectrumFakeSuspension} form pairs of [[adjoint functors]] $SeqSpec \to SeqSpec$ like so:
+
+1. $(-)[1] \;\dashv\; (-)[-1] \;\dashv\; (-)[1] \;\dashv\; \cdots $;
+
+1. $(-)\wedge S^1 \dashv (-)^{S^1}$;
+
+1. $\Sigma \dashv \Omega$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first is immediate from the definition. 
+
+The second is just degreewise the adjunction [[smash product]]$\dashv$[[pointed mapping space]] (discussed [here](pointed+object#ClosedMonoidalStructure)), since by definition the smash product and mapping spaces here do not interact non-trivially with the structure maps.
+
+The third follows by applying the [[smash product]]$\dashv$[[pointed mapping space]]-adjunction isomorphism twice, like so:
+
+Morphisms $f\colon \Sigma X \to Y$ are in components given by commuting diagrams of this form:
+
+$$
+  \array{  
+    S^1 \wedge S^1 \wedge X_{n} 
+      &\overset{S^1 \wedge f_{n}}{\longrightarrow}&
+    S^1 \wedge Y_{n}
+    \\
+    {}^{\mathllap{S^1 \wedge \sigma_n^X}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{\sigma^Y_n}}
+    \\
+    S^1 \wedge X_{n+1} &\underset{f_{n+1}}{\longrightarrow}& Y_{n+1}
+  }
+  \,.
+$$
+
+Applying the adjunction isomorphism diagonally gives a bijection to diagrams of this form:
+
+$$
+  \array{
+   S^1 \wedge X_n &\overset{f_n}{\longrightarrow}& Y_n
+   \\
+   {}^{\mathllap{\sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
+   \\
+   X_{n+1} &\underset{\tilde f_{n+1}}{\longrightarrow}& (Y_{n+1})^{S^1}
+  }
+  \,.
+$$
+
+Then applying the same isomorphism diagonally once more gives a further bijection to  commuting diagrams of this form:
+
+$$
+  \array{
+    X_n &\overset{\tilde f_n}{\longrightarrow}& (Y_n)^{S^1}
+    \\
+    {}^{\mathllap{\tilde \sigma_n}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{(\tilde \sigma^Y_n)^{S^1}}}
+    \\
+    (X_{n+1})^{S^1}
+    &\underset{(\tilde f_n)^{S^1}}{\longrightarrow}&
+    \left((Y_{n+1})^{S^1}\right)^{S^1}
+  }
+  \,.
+$$
+
+This finally equivalently exhibits morphisms of the form
+
+$$
+  X \longrightarrow \Omega Y
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #FakeLoopingPreservesOmegaSpectra}
+###### Proposition
+
+With $\Sigma$ and $\Omega$ the fake suspension and fake looping functors from def. \ref{SequentialSpectrumFakeSuspension}:
+
+1. $\Omega$ preserves [[Omega-spectra]] (def. \ref{OmegaSpectrum});
+
+1. $\Sigma$ preserves stable equivalences (def. \ref{StableWeakEquivalenceOfSequentialsTopologicalSpectra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is clear. Moreover it is clear that $\Omega$ preserves strict fibrations and strict acyclic fibrations (since this is equivalently degreewise the statement that $(-)^{S^1} \colon Top^{\ast/}_{Quillen}\to Top^{\ast/}_{Quillen}$ does so). Therefore the adjunction $(\Sigma \dashv \Omega)$ from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} is a [[Quillen adjunction]] on $SeqSpec(Top)_{strict}$, hence passes to an adjunction on the [[homotopy category of a model category|homotopy category]]. 
+
+Therefore with $f$ a stable equivalence and $Y$ any Omega-spectrum, then
+
+$$
+  [\Sigma f,Y]_{strict}
+  =
+  [f,\Omega Y]_{strict}
+$$
+
+is an isomorphism, and hence $\Sigma f$ is a stable equivalence.
+
+=--
+
+
++-- {: .num_prop #CounitOfFakeSuspensionAndShiftIsStableEquivalence}
+###### Proposition
+
+For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra} to suppress parenthesis)
+
+1. the structure maps constitute a homomorphism
+
+   $$
+     \Sigma X[-1]
+     \longrightarrow
+     X
+   $$
+
+   and this is a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra})
+
+1. the adjunct structure maps constitute a homomorphism
+
+   $$
+     X
+     \longrightarrow
+     \Omega X[1]
+     \,.
+   $$
+
+   If $X$ is an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) then this is a weak equivalence in the strict model structure (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}), hence in particular a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The diagrams that need to commute for the structure maps to give a homomorphism as claimed are in degree 0 this one
+
+$$
+  \array{
+    S^1 \wedge S^1 \wedge \ast &\overset{0}{\longrightarrow}& X_0
+    \\
+    {}^{\mathllap{S^1 \wedge 0}}\downarrow && \downarrow^{\mathrlap{\sigma_0}}
+    \\
+    S^1 \wedge X_0 &\underset{\sigma_0}{\longrightarrow}& X_1
+  }
+$$
+
+and in degree $n \geq 1$ these:
+
+$$
+  \array{
+     S^1 \wedge S^1 \wedge X_{n-1} 
+        &\overset{S^1 \wedge \sigma_{n-1}}{\longrightarrow}& 
+     X_n
+     \\
+     {}^{\mathllap{S^1 \wedge \sigma_{n-1}}}\downarrow
+       &&
+     \downarrow^{\mathrlap{\sigma_n}}
+     \\
+     S^1 \wedge X_{n} 
+       &\underset{\sigma_n}{\longrightarrow}& 
+     X_{n+1}
+  }
+  \,.
+$$
+
+But in all these cases commutativity it trivially satisfied. 
+
+Now as in the proof of prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}, under applying the $(S^1\wedge (-)) \dashv (-)^{S^1}$-adjunction isomorphism twice, these diagrams are in bijection to diagrams for $n \geq 1$ of the form
+
+$$
+  \array{
+    X_{n-1} &\overset{\tilde \sigma_{n-1}}{\longrightarrow}& (X_n)^{S^1}
+    \\
+    {}^{\mathllap{\tilde \sigma_{n-1}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\tilde \sigma_n}}
+    \\
+    (X_n)^{S^1}
+      &\underset{(\tilde \sigma_n)^{S^1}}{\longrightarrow}&
+    \left((X_n)^{S^1}\right)^{S^1}
+  }
+  \,.
+$$
+
+This gives the claimed morphism $X \to \Omega X[-1]$.
+
+If $X$ is an [[Omega-spectrum]], then by definition this last morphism is already a weak equivalence in the strict model structure, hence in particular a weak equivalence in the stable model structure.
+
+From this it follows that also the first morphism is a stable equivalence, because for every [[Omega-spectrum]] $Y$ then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
+
+$$
+  \array{
+     [X, Y]_{strict} &\overset{}{\longrightarrow}& [\Sigma X[-1],Y]_{strict}
+     \\
+     {}^{\mathllap{id}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+     \\
+     [X,Y]_{strict}  &\underset{\simeq}{\longrightarrow}& [X, \Omega Y[1]]_{strict}
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #FakeSuspensionInducesEquivalenceOfHomotopyCategories}
+###### Proposition
+
+The total [[derived functor]] of the fake suspension $\Sigma$ (def. \ref{SequentialSpectrumFakeSuspension}) exists and constitutes an [[equivalence of categories]] from the [[stable homotopy category]] to itself:
+
+$$
+  \Sigma
+  \;\colon\;
+  Ho(SeqSpec(Top)_{stable})
+   \overset{\simeq}{\longrightarrow}
+  Ho(SeqSpec(Top)_{stable})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The total derived functor of $\Sigma$ exists because by prop. \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves stable equivalences. Also the shift functor $[-1]$ from def. \ref{ShiftedSpectrum} clearly preserves stable equivalences, hence both descend to the homotopy category. 
+
+There, by prop. \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}
+and remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}, they are inverses of each other, up to isomorphism.
+
+=--
+
 
 
 
@@ -3950,8 +4261,6 @@ is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
 
 
 =--
-
-## References
 
 ## References
  {#References}
