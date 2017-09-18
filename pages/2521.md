@@ -151,3 +151,12 @@ Discussion of [[classical field theory]] with [[fermions]] as taking place on su
 
 * {#Sardanashvily16} [[Gennadi Sardanashvily]], _Noether's Theorems: Applications in Mechanics and Field Theory_, Studies in Variational Geometry, 2016
 
+
+[[!redirects supergeometries]]
+
+[[!redirects super-geometry]]
+[[!redirects super-geometries]]
+
+[[!redirects super geometry]]
+[[!redirects super geometries]]
+
