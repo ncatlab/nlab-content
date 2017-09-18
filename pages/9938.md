@@ -85,14 +85,14 @@ recalled e.g. as [Ravenel, theorem 1.4.2](#Ravenel)
 
 The original article is
 
-* [[Edgar Brown]], F. P. Peterson, _A spectrum whose $\mathbb{Z}/p$ cohomology is the algebra of reduced $p$-th powers_, Topology 5 (1966) 149.
- {#BrownPeterson66}
-
+* {#BrownPeterson66} [[Edgar Brown]], F. P. Peterson, _A spectrum whose $\mathbb{Z}/p$ cohomology is the algebra of reduced $p$-th powers_, Topology 5 (1966) 149.
+ 
+* [[Frank Adams]], part II.16 of _[[Stable homotopy and generalised homology]]_,1974
 
 A textbook account is in section 4 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf)) of
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
- {#Ravenel}
+* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
+ 
 
 The truncated version is discussed in
 
