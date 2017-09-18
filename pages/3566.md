@@ -26,7 +26,7 @@ There are also a notions of (homotopy) monomorphism in [[model categories]] and 
 
 ## Definition
 
-For $C$ an [[(∞,1)-category]], a [[morphism]] $f : Y \to Z$ is a **monomorphism** if regarded as an object in the [[over quasi-category|(∞,1)-overcategory]] $X_{/Z}$ it is a [[n-truncated object in an (∞,1)-category|(-1)-truncated object]].
+For $C$ an [[(∞,1)-category]], a [[morphism]] $f : Y \to Z$ is a **monomorphism** if regarded as an object in the [[over quasi-category|(∞,1)-overcategory]] $C_{/Z}$ it is a [[n-truncated object in an (∞,1)-category|(-1)-truncated object]].
 
 Equivalently this means that the projection
 
@@ -34,7 +34,7 @@ $$
   C_{/f} \to C_{/Z}
 $$
 
-is a [[full and faithful (∞,1)-functor]]. This is in [Higher Topos Theory](#ref) after Example 5..5.6.13.
+is a [[full and faithful (∞,1)-functor]]. This is in [Higher Topos Theory](#ref) after Example 5.5.6.13.
 
 Equivalently this means that for every object $X \in C$ the induced morphism
 
