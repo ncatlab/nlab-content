@@ -5062,6 +5062,7 @@ and here the horizontal adjunctions are the canonically induced (via [this prop.
 
 
 ##### Cofibrant generation
+ {#CofibrantGeneration}
 
 We show that the stable model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)). 
 
@@ -5586,6 +5587,7 @@ The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherit
 
 
 ##### Additivity
+ {#Additivity}
 
 
 +-- {: .num_lemma #StableHomotopyCategoryHasCoproducts}
@@ -6015,41 +6017,97 @@ With respect to this operation, [[composition]] is [[bilinear map|bilinear]].
 +-- {: .proof}
 ###### Proof
 
-The [[associativity]] and commutativity of $+$ follows directly from the corresponding properties of $\oplus$. Bilinearity of composition follows from [[natural transformation|naturality]] of the [[diagonal]] $\Delta_X$ and [[codiagonal]] $\nabla_X$.
+The [[associativity]] and commutativity of $+$ follows directly from the corresponding properties of $\oplus$. Bilinearity of composition follows from [[natural transformation|naturality]] of the [[diagonal]] $\Delta_X$ and [[codiagonal]] $\nabla_X$:
+
+$$
+  \array{
+    W 
+      &\overset{\Delta_W}{\longrightarrow}& 
+    W \times W
+      &\overset{\simeq}{\longrightarrow}&
+    W \oplus W
+    \\
+    \downarrow^{\mathrlap{e}}
+      &&
+    \downarrow^{\mathrlap{e \times e}} 
+      && 
+    \downarrow^{\mathrlap{e \oplus e}}
+    \\
+    X 
+      &\overset{\Delta_X}{\to}& 
+    X \times X
+      &\simeq&
+    X \oplus X
+      &\overset{f \oplus g}{\longrightarrow}&
+    Y \oplus Y
+      &\simeq&
+    Y \sqcup Y
+      &\overset{\nabla_X}{\to}&
+    Y
+    \\
+      &&
+      &&
+      &&
+    \downarrow^{\mathrlap{h \oplus h}}
+      &&
+    \downarrow^{\mathrlap{h \sqcup h}}
+      &&
+    \downarrow^{\mathrlap{h}}
+    \\
+      && 
+      &&
+      &&
+    Z \oplus Z
+      &\simeq&
+    Z \sqcup Z
+      &\overset{\nabla_Z}{\to}&
+    Z
+  }
+$$
 
 =--
 
 +-- {: .num_prop #SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment}
 ###### Proposition
 
-Given an [[additive category]] according to def. \ref{AdditiveCategory}, then the enrichement in [[commutative monoids]] which is induced on it via prop. \ref{ProductsAreBiproducts} and prop. \ref{SemiAdditivityInducesAbelianMonoidEnrichment} from its underlying [[semiadditive category]] structure coincides with the original enrichment.
+Given an additive category according to def. \ref{AdditiveCategory}, then the enrichement in [[commutative monoids]] which is induced on it via prop. \ref{ProductsAreBiproducts} and prop. \ref{SemiAdditivityInducesAbelianMonoidEnrichment} from its underlying [[semiadditive category]] structure coincides with the original enrichment.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-We may write the formula for the addition of two morphisms induced by semiadditve structure equivalently as
+By the proof of prop. \ref{ProductsAreBiproducts}, the [[codiagonal]] on any object in an additive category is the sum of the two projections:
 
 $$
-  f+g \;\colon\; 
-  X \overset{\Delta_X}{\to} X \times X
-  \overset{(f,g)}{\longrightarrow}
-  Y \times Y
-  \overset{p_1 + p_2}{\longrightarrow}
-  Y
+  \nabla_X \;\colon\; X \oplus X \overset{p_1 + p_2}{\longrightarrow} X
+  \,.
 $$
 
-where the last morphism is identified as the sum of the two projections as in the proof of prop. \ref{ProductsAreBiproducts}. This implies the claim.
+Therefore (checking on [[generalized elements]], as in the proof of prop. \ref{ProductsAreBiproducts}) for all morphisms $f,g \colon X \to Y$ we have [[commuting squares]] of the form
+
+$$
+  \array{
+    X &\overset{f+g}{\longrightarrow}& Y
+    \\
+    {}^{\mathllap{\Delta_X}}\downarrow && \uparrow^{\mathrlap{\nabla_Y =}}_{\mathrlap{p_1 + p_2}}
+    \\
+    X \oplus X 
+      &\underset{f \oplus g}{\longrightarrow}& 
+   Y\oplus Y
+  }
+  \,.
+$$
 
 =--
 
-+-- {: .num_remark #AdditiveCategoryIsProperty}
++-- {: .num_remark}
 ###### Remark
 
-Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says that being an [[additive category]] is an extra [[property]] on a category, not extra [[structure]]. We may ask whether a given category is additive or not, without specifying beforehand with respect to which abelian group structure on the hom-sets.
+Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says that being an [[additive category]] is an extra [[property]] on a category, not extra [[structure]]. We may ask whether a given category is additive or not, without specifying with respect to which abelian group structure on the hom-sets.
 
 =--
+
 
 In conclusion we have:
 
@@ -6112,21 +6170,22 @@ represents an [[isomorphism]] in the [[stable homotopy category]].
 +-- {: .proof}
 ###### Proof
 
-We may represent both $X$ and $Y$ by [[CW-spectra]] in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism 
+By prop. \ref{CWApproximationForSequentialSpectra}, we may represent both $X$ and $Y$ by [[CW-spectra]] (def. \ref{CWSpectrum}) in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism 
 
 $$
   i_X \colon X \longrightarrow X \vee Y
 $$
 
-is a stable cofibration, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
+is a cofibration according to theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
 
-Hence its ordinary cofiber, which is $Y$,  is its homotopy cofiber, hence we have a homotopy cofiber sequence
+Hence its ordinary [[cofiber]], which is $Y$,  is its [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), and so we have a [[homotopy cofiber sequence]]
 
 $$
   X \longrightarrow X \vee Y \longrightarrow Y
+  \,.
 $$
 
-moreover, under forming [[stable homotopy groups]], the the inclusion map evidently gives an injection, and the projection map gives a surjection. Hence the [[long exact sequence of homotopy groups]] gives a [[short exact sequence]]
+Moreover, under forming [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}), the inclusion map evidently gives an [[injection]], and the projection map gives a [[surjection]]. Hence the [[long exact sequence of homotopy groups]] gives the [[short exact sequence]]
 
 $$
   0 \to
@@ -6146,6 +6205,10 @@ $$
   \pi_k(X \vee Y)  
   \overset{\simeq}{\longrightarrow}
   \pi_k(X)\oplus \pi_k(Y)
+   \simeq
+  \pi_k(X) \times \pi_k(Y)
+   \simeq
+  \pi_k(X\times Y)
 $$
 
 for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable weak homotopy equivalence]].
