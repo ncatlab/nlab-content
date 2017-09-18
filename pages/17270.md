@@ -224,7 +224,7 @@ a morphism $f\colon X \to Y$ is a $Q$-fibration precisely if
 
 The [[Bousfield-Friedlander model structure]] $SeqSpectra_{stable}$ on [[sequential spectra]] (in any [[proper model category|proper]], [[pointed category|pointed]] [[simplicial model category]]), modelling [[stable homotopy theory]], arises via the Bousfield-Friedlander theorem from localizing the strict model structure $SeqSpectra_{strict}$ [[transferred model structure|transferred]] from the model structure on sequences (in the [[classical model structure on simplicial sets]]/[[classical model structure on topological spaces|on topological spaces]]) at $Q$ being the [[spectrification]] endofunctor.
 
-(For pre-spectra the [[classical model structure on simplicial sets]], [[spectrification]] is readily defined, more generally one needs to prooceed as in [Schwede 97, section 2.1](spectrification#Schwede97).)
+(For pre-spectra in the [[classical model structure on simplicial sets]], [[spectrification]] is readily defined, more generally one needs to prooceed as in [Schwede 97, section 2.1](spectrification#Schwede97).)
 
 
 ## References
