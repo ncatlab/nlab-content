@@ -1,4 +1,8 @@
 
-* [Wiikipedia entry](http://en.wikipedia.org/wiki/Norman_Steenrod)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Norman_Steenrod)
+
+* [[cohomology operations]]
+* [[Steenrod algebra]]
+* [[Steenrod squares]]
 
 category: people
