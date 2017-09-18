@@ -37,7 +37,7 @@ A **$V$-enriched model category** is
 
 * such that 
 
-  * for every cofibration $i \colon A \to B$ in $V_0$ and every fibration $p \colon X \to Y$ in $C_0$ the pullback-powering morphism (dual to the [[pushout product]]) with respect to the powering in $V$ 
+  * for every cofibration $i \colon A \to B$ in $V_0$ and every fibration $p \colon X \to Y$ in $C_0$ the [[pullback powering]] morphism (dual to the [[pushout product]]) with respect to the powering in $V$ 
 
     $$
       C(B,X) \stackrel{(i^* , p_*)}{\to} C(A,X) \times_{C(A,Y)} C(B,Y)
