@@ -3,6 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Monoidal categories
+##### Fusion categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
@@ -53,7 +54,7 @@ A $G$-grading is a map $\operatorname{deg}\colon \Lambda_\mathcal{C} \to G$ such
 * Every fusion category has the trivial grading from the trivial group.
 * $G$-graded vector spaces for a finite group $G$ are naturally a graded fusion category.
 * The universal grading, see below.
-* [[Braided $G$-crossed fusion categories]] are a [[categorification]] of [[crossed module]]s, and therefore carry a grading as part of the data.
+* [[$G$-crossed braided fusion categories]] are a (kind of) [[categorification]] of [[crossed module]]s, and therefore carry a grading as part of the data.
 
 ## Universal grading
 
@@ -81,3 +82,5 @@ It has the following properties:
 * Shlomo Gelaki, Dmitri Nikshych, [Nilpotent fusion categories](https://arxiv.org/abs/math/0610726)
 * [[Pavel Etingof]], Dmitri Nikshych, Victor Ostrik, with an appendix by Ehud Meir, [Fusion categories and homotopy theory](https://arxiv.org/abs/0909.3140v2)
 * Vladimir Drinfeld, Shlomo Gelaki, Dmitri Nikshych, Victor Ostrik, [On braided fusion categories I](https://arxiv.org/abs/0906.0620)
+
+[[!redirects graded fusion categories]]
