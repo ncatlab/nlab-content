@@ -291,6 +291,108 @@ Since here on the right the first Chern classes $x_i$ appear as the [[roots]] of
 
 See also at _[splitting principle -- Examples -- Complex vector bundles and their Chern roots](splitting+principle#ComplexVectorBundleAndTheirChernRoots)_.
 
+(e.g. [Kochmann 96, theorem 2.3.2](#Kochmann96))
+
++-- {: .proof}
+###### Proof
+
+The [[classifying space]] $B U(1)$ is equivalently the infinite [[complex projective space]] $\mathbb{C}P^\infty$. Its [[ordinary cohomology]] is the [[polynomial ring]] on a single generator $c_1$, the [[first Chern class]] ([prop.](complex projective space#OrdinaryCohomologyOfComplexProjectiveSpace))
+
+$$
+  H^\bullet(B U(1))
+    \simeq
+  \mathbb{Z}[ c_1 ]
+  \,.
+$$
+
+Hence by the [[Künneth theorem]] for ordinary cohomology ([prop.](K%C3%BCnneth%20theorem#KunnethInOrdinaryCohomology)) the cohomology of the [[Cartesian product]] of $n$ copies of $B U(1)$ is the [[polynomial ring]] in $n$ generators
+
+$$
+  H^\bullet(B U(1)^n)
+  \simeq
+  \mathbb{Z}[(c_1)_1, \cdots, (c_1)_n]
+  \,.
+$$
+
+Consider the canonical morphism 
+
+$$
+  \mu_n
+   \;\colon\;
+  B U(1)^n
+   \longrightarrow
+  B U(n)
+$$
+
+and the induced pullback operation in cohomology
+
+$$
+  \mu_n^\ast
+    \;\colon\;
+  H^\bullet( B U(n) )
+    \longrightarrow
+  H^\bullet( B U(1)^n)
+  \,.
+$$
+
+By prop. \ref{GeneratorsOfCohomologyOfBunChernClasses} the domain is the [[polynomial ring]] in the Chern classes $\{c_i\}$, by the above the codomain is the polynomial ring on $n$ copies of the first Chern class
+
+$$
+  \mu_n^\ast
+    \;\colon\;
+   \mathbb{Z}[ c_1, \cdots, c_n ]
+     \longrightarrow
+   \mathbb{Z}[ (c_1)_1, \cdots, (c_1)_n ]
+  \,.
+$$
+
+The hard part of the proof now is to show that:
+
+$\mu_n^\ast$ is a [[monomorphism]] (e.g. [Kochmann 96, p. 40](#Kochmann96)).
+
+This allows to compute $\mu_n^\ast(c_k)$ by [[induction]].
+
+First observe that for $n = 1$ then $\mu_1 = id$ is the identity and so $c_1 = (c_1)_1 = \sigma_1((c_1)_1)$, as it should be.
+
+Hence consider $n \geq 2$ and assume that $\mu^\ast_{n-1}(c_k) = \sigma_k((c_1)_1, \cdots, (c_1)_{(n-1)})$. We need to show that then also $\mu_n^\ast(c_k) = \sigma_k((c_1)_1,\cdots, (c_1)_n)$.
+
+Consider then the [[commuting diagram]]
+
+$$
+  \array{
+    B U(1)^{n-1}
+      &\mu'_{n-1}&
+    B U(n)
+    \\
+    {J'_t}^{\mathllap}\downarrow
+      &&
+    \downarrow
+    \\
+    B U(1)^n
+     &\underset{\mu_n}{\longrightarrow}&
+    B U(n)
+  }
+$$
+
+where the left vertical morphism is the inclusion that omits the $t$th factor of $U(1)$, and the top horizontal morphism is the composite of $J'_t$ with with the map $B U(1)^n \to B U(1)^{n-1} \overset{\mu_{n-1}}{\longrightarrow} B U(n-1)$, where the first map projects out the last copy of $U(1)$.
+
+Since by inductoin assumption pullback along the right vertical morphism is an isomorphism on the classes $c_{k \leq n-1}$, the diagram gives for these that
+
+$$
+  \mu_n^\ast(c_{k \lt n})
+   \simeq
+   \sigma_{k\lt n}((c_1)_1, \cdots, \widehat{(c_n)_t}, \cdots, (c_1)_n)
+   \;\;
+   mod (c_1)_t
+  \,.
+$$
+
+This implies the claim for $k \lt n$. 
+
+For the case $k = n$...
+
+=--
+
 
 ## Related concepts 
 
