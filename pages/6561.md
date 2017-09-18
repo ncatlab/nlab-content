@@ -197,3 +197,6 @@ April 07, 2014 - April 11, 2014](https://www.msri.org/workshops/689)_ ([web vide
 
 [[!redirects 6d (2,0)-susy QFT]]
 [[!redirects 6d (2,0)-superconformal QFT]]
+
+[[!redirects 6d (2,0)-superconformal field theory]]
+[[!redirects 6d (2,0)-superconformal field theories]]
