@@ -41,6 +41,10 @@ For more see for instance at [[Stacks Project]], _[10.106 Epimorphisms of rings]
 
 * [[CRing]]
 
+* [[Rng]]
+
+* [[Mon]], [[CMon]]
+
 ## References
 
 * [[Stacks Project]], _[10.106 Epimorphisms of rings](http://stacks.math.columbia.edu/tag/04VM)_
