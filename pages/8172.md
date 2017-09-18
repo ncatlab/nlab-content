@@ -261,6 +261,7 @@ First we recall
 
 for the general case of filtered objects in suitable [[stable (∞,1)-categories]]. Then we consider the specialization of that to the
 
+
 * [Homotopy groups of cosimplicial totalizations filtered by coskeleta](#HomotopyGroupsOfOfTotalizationsFilteredByCoskeleta).
 
 Finally we consider specifically the examples of such given by
@@ -685,7 +686,7 @@ and is reproduced in
 
 * {#Hopkins99} [[Mike Hopkins]], section 5 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
-* [[Nersés Aramian]], _The Adams spectral sequence_ ([pdf](http://www.math.uiuc.edu/~bertg/Aramian_ASS.pdf))
+* {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
 Traditional reviews include
 
