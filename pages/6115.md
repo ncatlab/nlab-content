@@ -66,6 +66,8 @@ In [[twisted cohomology]].
 
 ## Related concepts
 
+* [[ex-space]]
+
 * [[sheaf of spectra]]
 
 ## References
