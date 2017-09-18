@@ -9,10 +9,34 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A [[manifold]] inside another manifold.
+A _submanifold_ is a [[manifold]] inside another manifold.
 
-See also [[embedding]].
+## Definition
+
+For a homomorphism of [[differentiable manifolds]]
+
+$$
+  X \hookrightarrow Y
+$$
+
+to qualify as a submanifold inclusion it is usually required to be an [[embedding of differentiable manifolds]], hence
+
+1. an [[embedding of topological spaces]];
+
+1. an [[immersion of differentiable manifolds]].
+
+
+## References
+
+See also
+
+* Wikipedia, _[Submanifold](https://en.wikipedia.org/wiki/Submanifold)_
+
 
 [[!redirects submanifolds]]
