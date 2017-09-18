@@ -98,7 +98,7 @@ $$
   }
 $$
 
-where each hook is a [[fiber sequence]] (e.g. a [[Postnikov tower]] or [[Adams tower]]). Then the induced [[long exact sequences of homotopy groups]]
+where each hook is a [[fiber sequence]] (i.e. a [[tower of homotopy fibers]], e.g. a [[Postnikov tower]] or [[Adams tower]]). Then the induced [[long exact sequences of homotopy groups]]
 
 $$
   \cdots
@@ -180,7 +180,7 @@ An early lecture note account is in
  
 More recent and more introductory accounts are
 
-* {#McCleary01} [[John McCleary]], _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
+* {#McCleary01} [[John McCleary]], section 2.2 (from p. 37 on) in _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
 
 * [[Charles Weibel]], section 5.9 _[[An Introduction to Homological Algebra]]_
 
