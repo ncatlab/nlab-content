@@ -84,7 +84,7 @@ $$
 
 where the bottom map is the canonical one ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)).
 
-The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical such maps 
+The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical multiplication maps ([def.](classifying+space#WhitneySumMapOnClassifyingSpaces))
 
 $$
   \array{
