@@ -15,6 +15,10 @@
 * table of contents
 {: toc}
 
+## Idea
+
+A [[functor]] is said to _reflect_ [[limits]] of a given shape if a [[cone]] is limiting whenever its image under $F$ is.
+
 ## Definition
 
 Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** limits of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $F(\eta)$ is a [[limit]] of $F\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
