@@ -28,12 +28,12 @@ The Gelfand--Naimark--Segal (GNS) construction establishes a correspondence betw
 
 ## The nPOV
 
-The GNS construction (as outlined above) is a special case of a more general construction of Ghez, Lima and Roberts applied to $C^\ast$-categories (horizontal categorification of $C\ast$-algebras).
+The GNS construction (as outlined above) is a special case of a more general construction of Ghez, Lima and Roberts applied to $C^\ast$-categories (horizontal categorification of $C^\ast$-algebras).
 
 +--{: .un_theorem}
 ###### Theorem
 
-Let $\mathcal{C}$ be a $C*$-category. Fix an object $A \in \operatorname{Ob}\mathcal{C}$ and let $\sigma$ be a state on the $C*$-algebra $\mathcal{C}(A,A)$. Then there exists a $*$-representation
+Let $\mathcal{C}$ be a $C^\ast$-category. Fix an object $A \in \operatorname{Ob}\mathcal{C}$ and let $\sigma$ be a state on the $C^\ast$-algebra $\mathcal{C}(A,A)$. Then there exists a $*$-representation
 $$
 \rho_\sigma \colon \mathcal{C} \to \mathbf{Hilb}
 $$
@@ -53,7 +53,7 @@ $$
 
 ## The Classical Case
 
-A $C*$-algebra $A$ is a $C*$-category $\mathcal{A}$ with one object $\bullet$, where we make the identification $A = \mathcal{A}(\bullet,\bullet)$. In this case the theorem reduces to the classical GNS construction.
+A $C*$-algebra $A$ is a $C^\ast$-category $\mathcal{A}$ with one object $\bullet$, where we make the identification $A = \mathcal{A}(\bullet,\bullet)$. In this case the theorem reduces to the classical GNS construction.
 
 +-- {: .un_theorem}
 ###### Theorem
