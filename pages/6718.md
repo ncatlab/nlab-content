@@ -31,6 +31,8 @@ Theoretically, the observer outside an event horizon will observe [[Bekenstein-H
 
 * [[generalized second law of thermodynamics]]
 
+* [[near-horizon geometry]]
+
 ## References
 
 Discussion of event horizons of [[black holes]] in terms of [[AdS/CFT]] is in
