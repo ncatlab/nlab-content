@@ -58,8 +58,8 @@ In general the only practicable way to carry out such computations is by doing t
 
 We begin with recalling basics of [[ordinary cohomology|ordinary]] _[[relative homology]]_ and then seamlessly derive the notion of _[[spectral sequences]]_ from that as the natural way of computing the ordinary cohomology of a [[CW-complex]] stagewise from the relative cohomology of its [[simplicial skeleton|skeleta]]. This is meant as motivation and warmup. What we are mostly going to use further below are spectral sequences induced by [[filtered spectra]], this we turn to [next](#SpectralSequencesForFilteredSpectra).
 
-$\,$
 
+#### Ordinary homology
 
 Let $X$ be a [[topological space]] and $A \hookrightarrow X$ a [[topological subspace]]. Write $C_\bullet(X)$ for the [[chain complex]] of [[singular homology]] on $X$ and $C_\bullet(A) \hookrightarrow C_\bullet(X)$ for the [[chain map]] induced by the subspace inclusion.
 
@@ -435,6 +435,8 @@ $$
 
 The proof of this is spelled out at _[Relative homology -- relation to quotient topological spaces](relative%20homology#RelationToQuotientTopologicalSpaces)_. It needs the proof of the _[Excision property](http://ncatlab.org/nlab/show/relative%20homology#Excision)_ of relative homology. While important, here we will not further dwell on this. The interested reader can find more information behind the above links.
 
+#### Cellular homology
+
 With the general definition of relative homology in hand, we now consider the basic _cells_ such that _[[nLab:cell complexes]]_ built from such cells have tractable relative homology groups. Actually, up to [[nLab:weak homotopy equivalence]], _every_ [[nLab:Hausdorff topological space]] is given by such a [[nLab:cell complex]] and hence its relative homology, then called _[[nLab:cellular homology]]_, is a good tool for computing singular homology rather generally.
 
 +-- {: .num_defn }
@@ -779,6 +781,8 @@ This means that
 This kind of situation -- chains that are cycles only up to lower filtering degree and boundaries that come from specified higher filtering degree -- has an evident generalization to higher relative filtering degrees. And in this greater generality the concept is of great practical relevance. Therefore before discussing cellular homology further now, we consider this more general "higher-order relative homology" that it suggests (namely the formalism of [[nLab:spectral sequences]]). After establishing a few fundamental facts about that we will come back in prop. \ref{SpectralSequenceOfCWComplex} below to analyse the above cellular situation using this conceptual tool.
 
 First we abstract the structure on chain complexes that in the above example was induced by the CW-complex structure on the [[nLab:singular chain complex]].
+
+#### Filtered chain complexes
 
 +-- {: .num_defn #FilteredChainComplex}
 ###### Definition
@@ -1260,7 +1264,7 @@ This defines a [[nLab:filtered object|filtering]] $F_\bullet H_\bullet(C)$ of th
 +-- {: .num_prop #ConvergingToGenuineHomology}
 ###### Proposition
 
-If the [[nLab:spectral sequence of a filtered complex]] $F_\bullet C_\bullet$ of prop. \ref{ExplicitDefIsIndeedSpectralSequ} has a limit term, def. \ref{LimitTerm} then it converges, def. \ref{Convergence}, to the chain homology of $C_\bullet$
+If the [[spectral sequence of a filtered complex]] $F_\bullet C_\bullet$ of prop. \ref{ExplicitDefIsIndeedSpectralSequ} has a limit term, def. \ref{LimitTerm} then it converges, def. \ref{Convergence}, to the chain homology of $C_\bullet$
 
 $$
   E^r_{p,q} \Rightarrow H_{p+q}(C_\bullet)
@@ -1329,8 +1333,9 @@ There is, in general, a decisive difference between the homology of the associat
 
 =--
 
+#### Comparing cellular and singular homology
 
-These general facts now allow us, as a first simple example for the application of [[nLab:spectral sequences]] to see transparently that the [[nLab:cellular homology]] of a CW complex, def. \ref{CellularChainComplex}, coincides with its genuine [[nLab:singular homology]].
+These general facts now allow us, as a first simple example for the application of [[nLab:spectral sequences]] to see transparently that the [[cellular homology]] of a CW complex, def. \ref{CellularChainComplex}, coincides with its genuine [[singular homology]].
 
 First notice that of course the structure of a [[nLab:CW-complex]] on a [[nLab:topological space]] $X$, def. \ref{CWComplex} naturally induces on its [[nLab:singular simplicial complex]] $C_\bullet(X)$ the structure of a [[nLab:filtered chain complex]], def. \ref{FilteredChainComplex}:
 
