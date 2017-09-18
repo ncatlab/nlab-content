@@ -12,5 +12,6 @@ which treats the set level case. This makes progress over earlier work in standa
 ### References ###
 
 * Peter Dybjer, _Internal type theory_, Types for Proofs and Programs (1996): 120-134. [PDF](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf)
+* Alexandre Buisse and Peter Dybjer, _Towards Formalizing Categorical Models of Type Theory in Type Theory_ (2008). [PDF](http://publications.lib.chalmers.se/records/fulltext/212424/local_212424.pdf)
 * James Chapman, _Type theory should eat itself_, Electronic Notes in Theoretical Computer Science 228 (2009): 21-36, [html](http://www.sciencedirect.com/science/article/pii/S157106610800577X).
 * {#AltenkirchKaprosi} [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, POPL17, 2017 [PDF](http://www.cs.nott.ac.uk/~psztxa/publ/tt-in-tt.pdf)
