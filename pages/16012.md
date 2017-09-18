@@ -6,6 +6,7 @@
 
 * [[heteromorphism]]
 
+* [[partition logic]]
 
 
 category: people
