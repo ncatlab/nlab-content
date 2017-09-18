@@ -26,7 +26,7 @@ In terms of [[mixed quantum states]] represented by [[density matrices]], a quan
 
 In the context of _[[interpretation of quantum mechanics]]_it is common to speak of the "measurement problem" when referring to the tension between regarding [[quantum physics]] as a [[probability theory|probabilistic]] theory and the idea of realism.
 
-Namely by the [above](#Definition) a quantum measurement is formally reflected in a change of [[probability|probabilities]]. But since in any given [[measurement]] [[experiment]] one definite outcome is observed, one may wonder how that particular outcome was actually chosen, given that the theory only gives its probability.
+Namely by the [above](#Definition) a quantum measurement is formally reflected in a change of [[probabilities]]. But since in any given [[measurement]] [[experiment]] one definite outcome is observed, one may wonder how that particular outcome was actually chosen, given that the theory only gives its probability.
 
 
 ## Related concepts
