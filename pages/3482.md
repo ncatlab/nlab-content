@@ -31,7 +31,7 @@ Precisely, $WISC$ is the statement that for any [[set]] $X$, the [[full subcateg
 
 * A [[ΠW-pretopos]] satisfying WISC is a _[[predicative topos]]_.
 
-* Since Rathjen proves that [[SVC]] implies [[AMC]] (at least in [[ZF]]), SVC therefore also implies WISC.
+* Since [[Michael Rathjen]] proves that [[SVC]] implies [[AMC]] (at least in [[ZF]]), SVC therefore also implies WISC.
 
 * WISC also follows from the assertion that the [[free exact completion]] of $Set$ is [[well-powered category|well-powered]], which in turn follows from assertion that $Set$ has a [[generic proof]] (so that $Set_{ex/lex}$ is a [[topos]]).  Both of these can also be regarded as saying that choice is only violated "in a small way."
 
