@@ -137,6 +137,7 @@ I am writing an irregular column at [PhysicsForums](https://www.physicsforums.co
 
 * _[Why supersymmetry? Because of Deligne's theorem](https://www.physicsforums.com/insights/supersymmetry-delignes-theorem/)_
 
+* _[11d Gravity from just the Torsion Constraint](https://www.physicsforums.com/insights/11d-gravity-just-torsion-constraint/)_
 
 ## more on the web
 
