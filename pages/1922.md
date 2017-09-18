@@ -1,17 +1,28 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # Regular spaces
 * table of contents
 {: toc}
 
-## Idea
+## Idea#
 
-A regular space is a [[topological space]] (or variation) that has, in a certain sense, enough regular open subsets.  The condition of regularity is one the [[separation axioms]] satsified by every [[metric space]] (in this case, by every pseudometric space).
+A _regular space_ is a [[topological space]] (or variation, such as a [[locale]]) that has, in a certain sense, enough regular [[open subsets]].  The condition of regularity is one the [[separation axioms]] satsified by every [[metric space]] (in this case, by every pseudometric space).
 
+[[!include main separation axioms -- table]]
 
 ## Definitions
 
 Fix a [[topological space]] $X$.
-
 
 The classical definition is this: that if a point and a closed set are disjoint, then they are separated by neighbourhoods.  In detail, this means:
 +-- {: .num_defn #classical}
@@ -97,6 +108,107 @@ A bit stronger than regularity is _complete regularity_; a bit stronger than $T_
 
 For locales, there is also a weaker notion called [[weakly regular locale|weak regularity]], which uses the notion of [[fiberwise closed sublocale]] instead of ordinary closed [[sublocales]].
 
+
+## Examples 
+ {#Examples}
+
++-- {: .num_example}
+###### Example
+
+Let $(X,d)$ be a [[metric space]] regarded as a [[topological space]]
+via its [[metric topology]]. Then this is a [[normal Hausdorff space]], in particular hence a regular Hausdorff space.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show is that given two [[disjoint subsets|disjoint]] [[closed subsets]] $C_1, C_2 \subset X$
+then their exists [[disjoint subset|disjoint]] [[open neighbourhoods]] $U_{C_1} \subset C_1$
+and $U_{C_2} \supset C_2$.
+
+Consider the function
+
+$$
+  d(S,-) \colon X \to \mathbb{R}
+$$
+
+
+which computes [[distances]] from a subset $S \subset X$, by forming the [[infimum]] of the distances to all its points:
+
+$$
+  d(S,x) \coloneqq inf\left\{ d(s,x) \vert s \in S \right\}
+  \,.
+$$
+
+Then the
+[[unions]] of [[open balls]]
+
+$$
+  U_{C_1}
+    \coloneqq
+  \underset{x_1 \in C_1}{\cup} B^\circ_{x_1}( d(C_2,x_1) )
+$$
+
+and
+
+$$
+  U_{C_2}
+    \coloneqq
+  \underset{x_2 \in C_2}{\cup} B^\circ_{x_2}( d(C_1,x_2) )
+  \,.
+$$
+
+have the required properties.
+
+=--
+
+
++-- {: .num_example }
+###### Counter-Example
+
+The [[real numbers]] equipped with their [[K-topology]] $\mathbb{R}_K$ are a [[Hausdorff topological space]] which is not a [[regular Hausdorff space]] (hence in particular not a [[normal Hausdorff space]]).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By construction the K-topology is [[finer topology|finer]] than the usual [[Euclidean space|euclidean]] [[metric topology]]. Since the latter is Hausdorff, so is $\mathbb{R}_K$. It remains to see that $\mathbb{R}_K$ contains a point and a [[disjoint subset|disjoint]] closed subset such that do not have dijoint [[open neighbourhoods]].
+
+But this is the case essentially by construction: Observe that 
+
+$$
+  \mathbb{R} \backslash K
+  \;=\;
+  (-\infty,-1/2)
+    \cup
+  \left( 
+    (-1,1) \backslash K
+  \right)
+    \cup
+  (1/2, \infty)
+$$
+
+is an open subset in $\mathbb{R}_K$, whence
+
+$$
+  K = \mathbb{R} \backslash ( \mathbb{R} \backslash K  )
+$$
+
+is a [[closed subset]] of $\mathbb{R}_K$. 
+
+
+But every [[open neighbourhood]] of $\{0\}$ contains at least $(-\epsilon, \epsilon) \backslash K$ for some positive real number $\epsilon$. There exists then $n \in \mathbb{N}_{\geq 0}$ with $1/n \lt \epsilon$ and $1/n \in K$. An open neighbourhood of $K$ needs to contain an open interval around $1/n$, and hence will have non-trivial intersection with $(-\epsilon, \epsilon)$. Therefore $\{0\}$ and $K$ may not be separated by disjoint open neighbourhoods, and so $\mathbb{R}_K$ is not normal.
+
+
+
+=-- 
+
+
+
+
+
 ## Related concepts
 
 A [[uniform space]] is automatically regular and even completely regular, at least in [[classical mathematics]].  In [[constructive mathematics]] this may not be true, and there is an intermediate notion of interest called [[uniform regularity]].
@@ -104,6 +216,8 @@ A [[uniform space]] is automatically regular and even completely regular, at lea
 Every regular space comes with a naturally defined (point-point) [[apartness relation]]: we say $x # y$ if there is an open set containing $x$ but not $y$.  This can be defined for any topological space and is obviously irreflexive, but in a regular space it is symmetric and a [[comparison]], hence an apartness.  For symmetry, if $x\in U$ and $y\notin U$, let $V$ be an open set containing $x$ and $G$ an open set such that $V\cap G = \emptyset$ and $G\cup U = X$; then $y\in G$ (since $y\notin U$) while $x\notin G$ (since $x\in V$).  With the same notation, to prove comparison, for any $z$ we have either $z\in G$, in which case $z # x$, or $z\in U$, in which case $z # y$.  Note that this argument is valid constructively; indeed, classically, the much weaker $R_0$ [[separation axiom]] is enough to make this relation symmetric, and it is a comparison on any topological space whatsoever.
 
 Note that if a space is [[Hausdorff space|localically strongly Hausdorff]] (a weaker condition than regularity), then it has an apartness relation defined by $x \# y$ if there are disjoint open sets containing $x$ and $y$.  If $X$ is regular, then this coincides with the above-defined apartness.
+
+
 
 [[!redirects regular space]]
 [[!redirects regular spaces]]
