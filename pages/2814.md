@@ -157,9 +157,9 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 ## Related concepts
 
-* **monoidal functor**
+* **monoidal functor**, **strong monoidal functor**
 
-* **strong monoidal functor**
+* [[module over a monoidal functor]]
 
 * [[monoidal adjunction]]
 
