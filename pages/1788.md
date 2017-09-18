@@ -1,37 +1,94 @@
-First let $\hat X_0 \longrightarrow X_0$ be a CW-approximation of the component space in degree 0, via prop. \ref{CWApproximationForContinuousFunctions}. Then proceed by [[induction]]: suppose that for $n \in \mathbb{N}$ a [[CW-approximation]] $\phi_{k \leq n} \colon  \hat X_{k \leq n} \to X_{k \leq n}$ has been found such that all the structure maps are respected. Consider then the continuous function
+
++-- {: .num_defn #SequentialSpectra}
+###### Definition
+
+For $X \in SeqSpec(Top_{cg})$ then the [[adjunction unit]]
 
 $$
-  S^1 \wedge \hat X_n 
-    \overset{S^1 \wedge \phi_n}{\longrightarrow} 
-  S^1 \wedge X_n 
-    \overset{\sigma_n}{\longrightarrow} 
-  X_{n+1}
-  \,.
+  \eta_X 
+  \;\colon\;
+  X \longrightarrow Maps(S^1, S^1 \wedge X)_\ast
 $$
 
-Applying prop. \ref{CWApproximationForContinuousFunctions} to this function factors it as
+(of the adjunction from prop. \ref{AdjunctionBetweenSmashTensoringAndPowering})
+is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the proof of prop. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}, on component spaces the adjunction is the corresponding adjunction of topological spaces from prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}. Hence the morphism of directed systems of groups that enter the defininition of stable homotopy groups in def. \ref{StableHomotopyGroups} looks as follows
 
 $$
-  S^1 \wedge \hat X_n 
-    \hookrightarrow 
-  \hat X_{n+1} 
-    \overset{\phi_{n+1}}{\longrightarrow} 
-  X_{n+1}
-  \,.
-$$
-
-Hence we have obtained the next stage of the CW-approximation. The respect for the structure maps is just this factorization property:
-
-$$
-  \array{  
-    S^1 \wedge \hat X_n 
-      &\overset{S^1 \wedge \phi_n}{\longrightarrow}& 
-    S^1 \wedge X_n
+  \array{
+    \cdots 
+      &\to&
+    [S^{q+k},X_k]_\ast
+      &\overset{(S^1\wedge(-))_{S^{q+k},X_k}}{\longrightarrow}&
+    [S^{q+k+1}, S^1 \wedge X_k]_\ast
+      &\overset{[S^{q+k+1}, \sigma_k]}{\longrightarrow}&
+    [S^{q+k+1}, X_{k+1}]_\ast
+      &\to&
+    \cdots
     \\
-    {}^{incl}\downarrow && \downarrow^{\mathrlap{\sigma_n}}
+    &&
+    {}^{\mathllap{[S^{q+k},\eta_{X_k}]_\ast }}\downarrow
+    && 
+    \downarrow
+    &&
+    \downarrow
     \\
-    \hat X_{n+1} &\underset{\phi_{n+1}}{\longrightarrow}& X_{n+1}
+    \cdots
+      &\to&
+    [S^{q+k},Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
+      &\overset{}{\longrightarrow}&
+    [S^{q+k+1}, S^1 \wedge Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
+      &\overset{}{\longrightarrow}&
+    [S^{q+k+1}, Maps(S^1, S^1 \wedge X_{k+1})_\ast]_\ast    
+      &\to&
+    \cdots 
   }
   \,.
 $$
 
+Observe then that the adjunction isomorphism $[S^{q+k+1}, S^1 \wedge X_k]_\ast \overset{\simeq}{\to} [S^{q+k},Maps(S^1, S^1 \wedge X_k)_\ast]_\ast$ fits into a commuting triangle
+
+$$
+  \array{
+    [S^{q+k},X_k]_\ast
+      &\overset{(S^1\wedge(-))_{S^{q+k},X_k}}{\longrightarrow}&
+    [S^{q+k+1}, S^1 \wedge X_k]_\ast
+    \\
+    {}^{\mathllap{[S^{q+k},\eta_{X_k}]_\ast }}\downarrow
+      & \swarrow_{\mathrlap{\simeq}}
+    \\
+    [S^{q+k},Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
+  }
+  \,.
+$$
+
+To see this in detail, consider for any $\alpha \in [S^{q+k},X_k]$ the adjunction naturality square
+
+$$
+  \array{
+    [S^1 \wedge X_k, S^1 \wedge X_k]_\ast
+      &\overset{\simeq}{\longrightarrow}&
+    [X_k, Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
+    \\
+    {}^{\mathllap{S^1 \wedge \alpha \circ (-) \circ id}}\downarrow 
+    &&
+    \downarrow^{\mathrlap{\alpha \circ (-) \circ Maps(S^1, id)_\ast}}
+    \\
+    [S^{q+k+1}, S^1 \wedge X_k]
+      &\underset{\simeq}{\longrightarrow}&
+    [S^{q+k}, Maps(S^1, S^1 \wedge X_k)]
+  }
+$$
+
+and chase $id_{S^1 \wedge X_k}$ both ways from top left to bottom right.
+
+These diagonal isomorphism imply that under taking the [[colimit]] over the horizontal sequences, the vertical morphisms induce an isomorphism.
+
+
+=--
