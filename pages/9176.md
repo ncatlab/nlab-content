@@ -1,7 +1,20 @@
-__Hyperdeterminant__ (or Cayley determinant) is a generalization of the [[determinant]] to multidimensional matrices. It is introduced by [[Cayley]].
-	
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The concept of __Hyperdeterminant__ (or Cayley determinant) is a generalization of the concent of [[determinant]] to multidimensional matrices ([[hypermatrices]], i.e. [[tensors]]). 
+
+## References
+
+The concept originates with [[Cayley]].	
+
 * [[Israel Gelfand|Israel M. Gelfand]], [[Mikhail Kapranov]], [[Andrei Zelevinsky]], _Discriminants, Resultants, and Multidimensional Determinants [gBooks](http://books.google.fr/books?id=n6ZxAKevSbsC&lpg=PP1&hl=fr&pg=PP1#v=onepage&q&f=false)
+
 * wikipedia [hyperdeterminant](http://en.wikipedia.org/wiki/Hyperdeterminant) (lists also the original references)
+
 * Giorgio Ottaviani, _Introduction to the hyperdeterminant and to the rank of multidimensional matrices_, [arxiv/1301.0472](http://arxiv.org/abs/1301.0472)
 
 [[!redirects hyperdeterminants]]
