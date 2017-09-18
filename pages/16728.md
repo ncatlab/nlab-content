@@ -58,6 +58,11 @@ with $f\cdot g=f\cdot h$ , then $y=P(f)(x)$ for a unique $x\in P(C)$.
 
 For the proof see Mac Lane-Moerdijk ([1994](#MM94), pp.126f).
 
++-- {: .num_remark}
+###### Remark
+It is possible to define the atomic topology $J_{at}$ on arbitrary categories $\mathcal{C}$ as the smallest topology containing all non-empty sieves. Then  observation \ref{atomic_dense} implies that $J_d\subseteq J_{at}$, and accordingly, $Sh(\mathcal{C},J_{at})\subseteq Sh(\mathcal{C},J_d)$ . But $J_d=J_{at}$ precisely if $\mathcal{C}$ satisfies the Ore condition (for details see at [[atomic site]]).
+=--
+
 The next result warrants the importance of the dense topology:
 
 +-- {: .num_prop}
