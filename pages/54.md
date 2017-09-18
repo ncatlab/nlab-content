@@ -5,13 +5,15 @@
 
 **AlgTop II and Seminar**
 
-* _[[Introduction to Stable homotopy theory|lecture and seminar webpage]]_
+* _[[Introduction to Stable homotopy theory|lecture and seminar webpage]]_, 
 
-* organizational meeting for the Seminar:
+  see there for topics, literature and, eventually, lecture notes
+
+* organizational meeting for the seminar:
 
   Friday Feb 19, 12:00
 
-  room: tba
+  Endenicher Allee 60, room N0.003
 
 =--
 
@@ -74,7 +76,7 @@ In summer 2016 I am teaching a master course
 
 * _[[Introduction to Stable homotopy theory|Stable Homotopy Theory]]_.
 
-A list of notes prepared for other seminars that I taught in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
+A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
 
 
 ## publications
