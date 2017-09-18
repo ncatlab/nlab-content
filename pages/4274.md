@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-In the construction from [[string theory|string physics]] this map is interpeted as sending a [[target space|target]] [[spacetime]] $X$ of the [[superstring]] to the function $w_X(q) = w_X(e^{2 \pi i \tau})$ which to each modulus $\tau \in \mathbb{C}$ characterizing a toroidal [[Riemann surface]] assigns the [[partition function]] of the [[superstring]] with [[worldsheet]] the [[torus]] $\mathbb{C}/(\mathbb{Z} + \mathbb{Z}\tau)$ and propagating on [[target space]] $X$.
+In the construction from [[string theory|string physics]] this map is interpreted as sending a [[target space|target]] [[spacetime]] $X$ of the [[superstring]] to the function $w_X(q) = w_X(e^{2 \pi i \tau})$ which to each modulus $\tau \in \mathbb{C}$ characterizing a toroidal [[Riemann surface]] assigns the [[partition function]] of the [[superstring]] with [[worldsheet]] the [[torus]] $\mathbb{C}/(\mathbb{Z} + \mathbb{Z}\tau)$ and propagating on [[target space]] $X$.
 
 On manifolds with [[spin structure]] the genus refines to integral power series (via the integrality of the [[A-hat genus]] ([Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88), [Kreck-Stolz 93](#KreckStolz93), [Hovey 91](#Hovey91)). Moreover on manifolds with rational string structure it takes values in [[modular forms]] ([Zagier 86](#Zagier86)) and crucially, on manifolds with [[string structure]] it takes values in [[topological modular forms]] 
 
@@ -226,7 +226,7 @@ Therefore the Witten genus may also be used as a generating function for BPS sta
 
 ### Relation to Cayley plane bundles
 
-The rational Witten genus vanishes on total spaces of [[Cayley plane]]-[[fiber bundles]], and is indeed chcracterized by this property ([McTague 10](#McTague10), [McTague 11](#McTague11)).
+The rational Witten genus vanishes on total spaces of [[Cayley plane]]-[[fiber bundles]], and is indeed characterized by this property ([McTague 10](#McTague10), [McTague 11](#McTague11)).
 
 
 ## Related concepts
