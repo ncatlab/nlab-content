@@ -30,9 +30,17 @@ The collection of module categories over a monoidal category forms a [[2-categor
 
 ## Related concepts
 
+* [[bimodule category]]
+
 * [[module]]
 
 * [[module 2-category]]
+
+## References
+
+For instance
+
+* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
 
 [[!redirects module categories]]
 
