@@ -323,6 +323,8 @@ This and much more history is recalled in
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1--3. 
 
+* [[Saunders MacLane]], _[[Lectures on category theory]], Bowdoin Summer School 1969, Notes taken by [[Ellis Cooper]] 
+
 * [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd ed. 
 
 * [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], _Abstract and concrete categories: the joy of cats_ ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
