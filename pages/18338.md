@@ -76,15 +76,60 @@ In [Brandenburg2013](#Brandenburg2013), _pointwise isomorphic_ is being recommen
 
 
 ## Examples
- 
-#### A-forteriori-examples.
 
-Any of the isomorphisms between a vector space and its dual obtained in the usual way after choosing a basis. Here, naturality is impossible a forteriori because of unequal variances. 
+Many of these examples are based on [MathOverflow2013](#MathOverflow2013), please see there for the authors. For readability, no separate attributions to persons are made here. 
 
-#### Non-a-forteriori example . 
+### Examples ordered by context
 
-(cf. [this MO answer](#Brandenburg2013)) Two functors from the [[interval category]], $I$, to a category $C$ are naturally isomorphic only if the morphisms they land on are isomorphic in $C$'s arrow category. But they will be unnaturally isomorphic if they land on any parallel pair of arrows. 
 
+#### The minimal example
+
+(under construction)
+
+
+#### The vector-space-dual-example
+
+Arguably, this is the most well known example.
+In a sense, this a doubly-unnatural isomorphism: there is both an issue of non-canonicity and of non-functoriality, ther latter failing for a particularly strong reasons: unequal variances. 
+
+(rest todo)
+
+#### The arrow-category-vs-functor-category-on-interval-category-example
+
+
+(under construction) 
+
+#### The species-of-permutations-vs-species-of-linear-orders example 
+
+(under construction) 
+
+#### The barycentric-subdivision-example
+
+(under construction)
+
+#### Examples involving torsion in abelian groups
+
+(under construction)
+
+####
+
+
+## Examples ordered by reason for failure of naturality
+
+(under construction)
+
+### Covariance versus contravariance
+
+(under construction)
+
+### Additional algebraic structure used for deriving contradictions
+
+(under construction)
+
+[[naturalitysquare000.pdf:file]]
+
+
+[[naturalitysquare001.pdf:file]]
 
 ### Notational remarks
 
