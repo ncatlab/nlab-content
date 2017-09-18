@@ -200,7 +200,7 @@ $$
   d^v_X + (-1)^\bullet d_X^h 
 $$
 
-bla bla
+bla bla  (please someone explain this "bla bla")
 
 $$
   tot_{\prod}^k = \prod_{m+n=k} X_{n,m}
