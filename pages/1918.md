@@ -544,10 +544,11 @@ Lecture notes include
 
 * {#Naik} [[Vipul Naik]], _Topology: The journey into separation axioms_ ([pdf](http://www.cmi.ac.in/~vipul/mathjourneys/contytopologysep.pdf))
 
-See also
+See also the entry
 
 * Wikipedia, _[Separation axiom](http://secure.wikimedia.org/wikipedia/en/wiki/Separation_axiom)_
 
+(One of the main authors of the present entry, [[Toby Bartels]], is also one of the main authors of the Wikipedia entry.)
 
 [[!redirects topologically distinct points]]
 [[!redirects topologically disjoint sets]]
