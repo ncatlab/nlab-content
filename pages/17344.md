@@ -575,6 +575,7 @@ $$
 
 
 ##### Omega-spectra
+ {#OmegaSpectra}
 
 In order to motivate [[Omega-spectra]] consider the following shadow of the structure they will carry:
 
@@ -2919,6 +2920,8 @@ The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructur
 
 This model structure is mentioned without proof in ([Bousfield-Friedlander 78](#BousfieldFriedlander78)). A full proof appears, generalized to a unified proof of model structures in [[highly structured spectra]] in ([Mandell-May-Schwede-Shipley 01](#MMSS00)), which we follow here. We give the proof [below](#ProofOfTheStableModelStructureOnSequentialSpectra), after a few lemmas.
 
+##### Proof of the model structure
+
 +-- {: .num_lemma #CorepresentationOfAdjunctStructureMaps}
 ###### Lemma
 
@@ -3036,7 +3039,7 @@ $$
 =--
 
 
-+-- {: .num_lemma #StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences}
++-- {: .num_lemma #StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalencesForSequentialSpectra}
 ###### Lemma
 
 1. Every weak equivalence with respect to the strict model structure (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}) is a stable weak equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}): $W_{strict} \subset W_{stable}$
@@ -3061,7 +3064,7 @@ is a [[bijection]]. Therefore the pre-image of $[id_X] \in [X,X]_{strict}$ is an
 =--
 
 
-+-- {: .num_lemma #ElementsOfKAreStableEquivalencesAndStrictCofibrations}
++-- {: .num_lemma #ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}
 ###### Lemma
 
 Every element in $J_{SeqSpec}^{stable}$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}) is both:
@@ -3160,7 +3163,7 @@ By theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, lift
 =--
 
 
-+-- {: .num_lemma #KInjectiveStableEquivalencesAreStrictEquivalences}
++-- {: .num_lemma #KInjectiveStableEquivalencesAreStrictEquivalencesForSequentialSpectra}
 ###### Lemma
 
 A morphism in $SeqSpec(Top)$ which is both 
@@ -3177,22 +3180,55 @@ A morphism in $SeqSpec(Top)$ which is both
 +-- {: .proof}
 ###### Proof
 
-Let $f\colon E \to B$ be both a stable equivalence as well as a $J_{SeqSpec}^{stable}$-injective morphism. Since $J_{SeqSpec}^{stable}$ contains the generating acyclic cofibrations for the strict model structure, $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the [[fiber]] $F$ of $f$ is its [[homotopy fiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) in the strict model structure. This implies for any $E$ that with $[f,E]_{strict}$ a bijection, by assumption also $[\ast,E]_{strict} \to [F,E]_{strict}$ is a bijection, hence that $F\to \ast$ is also a stable weak equivalence. 
+Let $f \colon X \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains the generating acyclic cofibrations for the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}), $f$ is in particular a strict fibration, hence a degreewise fibration. 
 
-Observe also that $F$, being the pullback of a $J_{SeqSpec}^{stable}$-injective morphisms (by the [closure properties](injective+or+projective+morphism#ClosureProperties) [prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)) is a $J_{SeqSpec}^{stable}$-[[injective object]], so that by lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} $F$ is an [[Omega-spectrum]]. Together this implies with lemma \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+Consider the fiber $F$ of $f$, hence the morphism $F \to \ast$ which is the pullback of $f$ along $\ast \to B$. We claim that 
 
-To infer from this the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that, by assumption of $J_{SeqSpec}^{stable}$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} gives that $f_n$ is a [[homotopy pullback]] (in $(Top_{cg}^{\ast/})_{Quillen}$) of $\Omega (f_{n+1})$. But, by the above, $\Omega (f_{n+1})$ is a weak homotopy equivalence, since $\pi_\bullet(\Omega(-)) = \pi_{\bullet+1}(-)$. Therefore $f_n$ is the homotopy pullback of a weak homotopy equivalence and hence itself a weak homotopy equivalence.
+1. $F$ is an Omega-spectrum;
+
+1. $F\to \ast$ is a stable weak equivalence. 
+
+The first item follows since $F$, being the pullback of a $K$-injective morphisms, is a $K$-[[injective object]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ it is an Omega-spectrum. 
+
+For the second item: Choose a strict cofibrant replacement $\hat F$ of $f$. Then choose a factorization $\hat F \overset{\in Cof_{strict}}{\longrightarrow} \hat X \overset{\in W_{strict}}{\longrightarrow} X$ and then a factorization $\hat X \overset{\in Cof_{strict}}{\longrightarrow} \hat B \overset{\in W_{strict}}{\longrightarrow} B$. Let $X$ be any Omega-spectrum and consider the diagram
+
+$$
+  \array{
+    && E
+    \\
+    &{}^{\mathllap{\phi}}\nearrow& 
+    \\
+    \hat F &\overset{\in Cof_{strict}}{\longrightarrow}& \hat X 
+    \\
+    {}^{\mathllap{\in W_{strict}}}\downarrow && {}^{\mathllap{\in W_{strict}}}\downarrow & \searrow^{\mathrlap{\in W_{stable}}}
+    \\
+    F &\longrightarrow& X & & \hat B
+    \\
+    \downarrow && {}^{\mathllap{\in W_{stable}}}\downarrow & \swarrow_{\mathrlap{\in W_{strict}}}
+    \\
+    \ast &\longrightarrow& B
+  }
+  \,,
+$$
+
+where $\phi$ is any map and where we used [[two-out-of-three]] to find that $\hat X \to \hat B$ is a stable weak equivalence. Observe that every object in $SeqSpec(Top_{cg})_{strict}$ is fibrant, so that $\phi$ represents an element in $[F,E]_{strict}$, similarly for all the [[extensions]] that we consider now: $\phi$ extends first to $\hat X$, by the extending morphism being a cofibration, and then it extends to $B$, by the vertical composite being a stable equivalence. This shows that $\phi$ factors through the point, hence that $\hat F \to \ast$ and therefore, by [[two-out-of-three]], $F \to \ast$ is a stable weak equivalence by the existence of the [[classical model structure on topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces)).
+
+Now with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalencesForSequentialSpectra} these two properties imply that $F \to \ast$ is already a weak equivalence in the strict model structure. From this the [[long exact sequence of homotopy groups]] ([exmpl.](Introduction+to+Stable+homotopy+theory+-+P#LongExactSequeceOfHomotopyGroups)) implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+
+To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that by assumption of $K$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} gives that $f_0$ is the pullback (in topological spaces) of $\Omega (f_{1})$. But by the above $\Omega f_{1}$ is a weak homotopy equivalence, and since $\Omega = Maps(S^1,-)_\ast$ is a  right Quillen functor (prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}) it is also a Serre fibration. Therefore $f_0$ is the pullback of an acyclic Serre fibration and hence itself a weak homotopy equivalence.
 
 =--
 
-+-- {: .num_lemma #RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations}
++-- {: .num_lemma #RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrationsForSequentialSpectra}
 ###### Lemma
 
-The [[retracts]] of $J_{SeqSpec}^{stable}$-[[relative cell complexes]] are precisely the morphisms which are
+The [[retracts]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of $J_{SeqSpec}^{stable}$-[[relative cell complexes]] are precisely the morphisms which are
 
-1. stable equivalences, 
+1. stable weak equivalences, 
 
-1. as well as strict cofibrations.
+1. as well as strict, hence stable, cofibrations
+
+hence which are the stable acyclic cofibrations according to def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}.
 
 =--
 
@@ -3200,9 +3236,9 @@ The [[retracts]] of $J_{SeqSpec}^{stable}$-[[relative cell complexes]] are preci
 +-- {: .proof}
 ###### Proof
 
-Since all elements of $J_{SeqSpec}^{stable}$ are stable equivalences and strict cofibrations by lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrations}, it follows that every retract of relative $J_{SeqSpec}^{stable}$-cell complex has the same property.
+Since all elements of $J_{SeqSpec}^{stable}$ are stable equivalences and strict cofibrations by  lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}, it follows that every retract of relative $J_{SeqSpec}^{stable}$-cell complex has the same property.
 
-In the other direction, if $f$ is a stable equivalence and strict cofibration, by the [[small object argument]] it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $J_{SeqSpec}^{stable}$-cell complex $i$ followed by a $J_{SeqSpec}^{stable}$-[[injective morphism]] $p$. By the previous statement $i$ is a stable equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] implies that $f$ is a retract of the relative $\{k_n \Box i_+\}$-cell complex $i$.
+In the other direction, if $f$ is a stable equivalence and strict cofibration, by the [[small object argument]] it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $J_{SeqSpec}^{stable}$-cell complex $i$ followed by a $J_{SeqSpec}^{stable}$-[[injective morphism]] $p$. By the previous statement $i$ is a stable equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalencesForSequentialSpectra} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) implies that $f$ is a retract of the relative $\{k_n \Box i_+\}$-cell complex $i$.
 
 
 =--
@@ -3222,7 +3258,7 @@ are precisely those which are
 
 A morphism in $SeqSpec(Top)$ is both
 
-1. a stable weak equivalence 
+1. a stable weak equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra});
 
 1. [[injective morphism|injective]] with respect to the cofibrations of the strict model structure that are also stable equivalences;
 
@@ -3234,9 +3270,9 @@ precisely if it is an acylic fibration in the strict model structure.
 +-- {: .proof}
 ###### Proof
 
-Every acyclic fibration in the strict model structure is injective with respect to strict cofibrations by the strict model structure; and it is a stable equivalence by item 1 of lemma \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences}.
+Every acyclic fibration in the strict model structure is injective with respect to strict cofibrations by the strict model structure; and it is a stable equivalence by item 1 of lemma \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalencesForSequentialSpectra}.
 
-Conversely, a morphism injective with respect to strict cofibrations that are stable equivalences is a $\{k_n \Box i_+\}$-[[injective morphism]] by corollary \ref{KInjectivesAreIndeedTheStableFibrations}, and hence if it is also a stable equivalence then by lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} it is a strict acylic fibration.
+Conversely, a morphism injective with respect to strict cofibrations that are stable equivalences is a $\{k_n \Box i_+\}$-[[injective morphism]] by corollary \ref{KInjectivesAreIndeedTheStableFibrations}, and hence if it is also a stable equivalence then by lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalencesForSequentialSpectra} it is a strict acylic fibration.
 
 =--
 
@@ -3246,25 +3282,27 @@ Conversely, a morphism injective with respect to strict cofibrations that are st
 
 For the existence of the model structure, the non-trivial points to check are the two [[weak factorization systems]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakFactorizationSystem)).
 
-That $(Cof_{stable}\cap W_{stable} \;,\; Fib_{stable})$ is a weak factorization system follows from lemma \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations} and the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)). 
+That $(Cof_{stable}\cap W_{stable} \;,\; Fib_{stable})$ is a weak factorization system follows from lemma \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrationsForSequentialSpectra} and the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)). 
 
 By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the stable acyclic fibrations are equivalently the strict acyclic fibrations and hence the weak factorization system $(Cof_{stable} \;,\; Fib_{stable} \cap W_{stable})$ is identified with that of the strict model structure $(Cof_{strict} \;,\; Fib_{strict} \cap W_{strict})$.
 
 With this, the statement of the Quillen adjunction to the strict model structure is immediate. The statement about the cofibrant generation holds by construction of the above factorizations. 
 
-The cofibrant generation then implies that the fibrant objects are precisely the Omega-spectra: because corollary \ref{KInjectivesObjectsAreOmegaSpectra} says that the Omega-spectrum property is equivalent to being ${k_n \Box i_+}$-injective, and since being $J^{strict}_{SeqSpec}$-injective is no condition on topological sequential spectra (as all topological spaces are fibrant).
+The cofibrant generation then implies that the fibrant objects are precisely the Omega-spectra: because lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} says that the Omega-spectrum property is equivalent to being ${k_n \Box i_+}$-injective, and since being $J^{strict}_{SeqSpec}$-injective is no condition on topological sequential spectra (as all topological spaces are fibrant).
 
 =--
 
 
 ##### Stable equivalences
 
+In the discussion of [[Omega-spectra]] [above](#OmegaSpectra) we had motivated finding a model structure for which the weak equivalences are the [[stable weak homotopy equivalences]] of def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}. But in def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} we then considered "stable weak equivalences", which a priori look like a different concept. Here we show that the two concepts in fact agree. 
+
 +-- {: .num_theorem}
 ###### Theorem
 
 The classes of morphisms of sequential spectra
 
-1. stable weak equivalences (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}) 
+1. stable weak equivalences (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}), 
 
 1. [[stable weak homotopy equivalences]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra})
 
@@ -3272,7 +3310,7 @@ agree.
 
 =--
 
-This is the statement of propositions \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} and \ref{StableEquivalenceInSeqSpecIsStableWeakHomotopyEquivalence} below.
+This is the statement of propositions \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} and \ref{StableEquivalenceInSeqSpecIsStableWeakHomotopyEquivalence} below, which we prove after considering a few lemmas.
 
 
 +-- {: .num_lemma #FakeLoopingPreservesOmegaSpectra}
@@ -7286,7 +7324,7 @@ In the case $Dia \in \{Top^{\ast/}, Orth, Seq\}$, hence for [[sequential spectra
 +-- {: .proof}
 ###### Proof idea
 
-By theorem ref. \ref{StableModelStructuresOnDiagramSpectra}, and by lemmas  \ref{KInjectiveStableEquivalencesAreStrictEquivalences} and \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations}, every stable weak equivalence factors as a $K$-[[relative cell complex]] followed by weak equivalence in the strict model structure. Since the latter is degreewise a [[weak homotopy equivalence]] it is in particular a [[stable weak homotopy equivalence]]. Hence we are reduced to showing that every $K$-[[relative cell complex]] is a stable weak homotopy equivalence.
+By theorem ref. \ref{StableModelStructuresOnDiagramSpectra}, and by lemmas  \ref{KInjectiveStableEquivalencesAreStrictEquivalences} and \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrationsForSequentialSpectra}, every stable weak equivalence factors as a $K$-[[relative cell complex]] followed by weak equivalence in the strict model structure. Since the latter is degreewise a [[weak homotopy equivalence]] it is in particular a [[stable weak homotopy equivalence]]. Hence we are reduced to showing that every $K$-[[relative cell complex]] is a stable weak homotopy equivalence.
 
 Observe now that we know this to be true for the elements of $K$ itself (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}): first of all, the elements in $F J$ are [[retracts]] of [[deformation retracts]] and therefore stable weak homotopy equivalences. Second, the morphisms denoted $k_n$ in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}, which resolve the maps $\lambda_n$ from def. \ref{CorepresentationOfAdjunctsOfStructureMaps}, as stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}.  This implies that so are their pushout products $k_n \Box i$. 
 
@@ -7498,11 +7536,43 @@ is an acyclic fibration in the stric model structure, prop. \ref{StrictModelStru
 +-- {: .proof}
 ###### Proof
 
-Let $f\colon E \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains the generating acyclic cofibrations for the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}), $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the fiber $F$ of $f$ is its [[homotopy fiber]] in the strict model structure. This implies that for any $E$ that with $[f,E]_{strict}$ a bijection, by assumption also $[\ast,E]_{strict} \to [F,E]_{strict}$ is a bijection, hence that $F\to \ast$ is also a stable weak equivalence. 
+Let $f \colon X \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains the generating acyclic cofibrations for the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}), $f$ is in particular a strict fibration, hence a degreewise fibration. 
 
-Observe also that $F$, being the pullback of a $K$-injective morphisms is a $K$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Together this implies with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] imply that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+Consider the fiber $F$ of $f$, hence the morphism $F \to \ast$ which is the pullback of $f$ along $\ast \to B$. We claim that 
 
-To infer from this the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that by assumption of $K$-injectivity lemma \ref{KInjectivesAreAcyclicCofibrations} gives that $f_n$ is a homotopy pullback (in topological spaces) of $\Omega (f_{n+1})$. But by the above $\Omega (f_{n+1})$ is a weak homotopy equivalence, since $\pi_\bullet(\Omega(-)) = \pi_{\bullet+1}(-)$. Therefore $f_n$ is the homotopy pullback of a weak homotopy equivalence and hence itself a weak homotopy equivalence.
+1. $F$ is an Omega-spectrum;
+
+1. $F\to \ast$ is a stable weak equivalence. 
+
+The first item follows since $F$, being the pullback of a $K$-injective morphisms, is a $K$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ it is an Omega-spectrum. 
+
+For the second, choose a strict cofibrant replacement $\hat F$ of $f$. Then choose a factorization $\hat F \overset{\in Cof_{strict}}{\longrightarrow} \hat X \overset{\in W_{strict}}{\longrightarrow} X$ and then a factorization $\hat X \overset{\in Cof_{strict}}{\longrightarrow} \hat B \overset{\in W_{strict}}{\longrightarrow} B$. Let $X$ be any Omega-spectrum and consider the diagram
+
+$$
+  \array{
+    && E
+    \\
+    &{}^{\mathllap{\phi}}\nearrow& 
+    \\
+    \hat F &\overset{\in Cof_{strict}}{\longrightarrow}& \hat X 
+    \\
+    {}^{\mathllap{\in W_{strict}}}\downarrow && {}^{\mathllap{\in W_{strict}}}\downarrow & \searrow^{\mathrlap{\in W_{stable}}}
+    \\
+    F &\longrightarrow& X & & \hat B
+    \\
+    \downarrow && \downarrow & \swarrow_{\mathrlap{\in W_{strict}}}
+    \\
+    \ast &\longrightarrow& B
+  }
+  \,,
+$$
+
+where $\phi$ is any map. Observe that every object in $SeqSpec(Top_{cg})_{strict}$ is fibrant, so that $\phi$ represents an element in $[F,E]_{strict}$, similarly for all the extensions that we consider now: $\phi$ extends first to $\hat X$, by the extending morphism being a cofibration, and then it extends to $B$, by the vertical composite being a stable equivalence. This shows that $\phi$ factors through the point, hence that $\hat F \to \ast$ and hence $F \to \ast$ is a stable weak equivalence.
+
+Now with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} these two properties imply that $F \to \ast$ is already a weak equivalence in the strict model structure. From this the [[long exact sequence of homotopy groups]] ([exmpl.](Introduction+to+Stable+homotopy+theory+-+P#LongExactSequeceOfHomotopyGroups)) implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+
+To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that by assumption of $K$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} gives that $f_0$ is the pullback (in topological spaces) of $\Omega (f_{1})$. But by the above $\Omega f_{1}$ is a weak homotopy equivalence, and since $\Omega = Maps(S^1,-)_\ast$ is a  right Quillen functor (prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}) it is also a Serre fibration. Therefore $f_0$ is the pullback of an acyclic Serre fibration and hence itself a weak homotopy equivalence.
+
 
 =--
 
@@ -7525,7 +7595,7 @@ For $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpect
 
 Since all elements of $K$ are stable equivalences and strict cofibrations by lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrations}, it follows that every retract of relative $K$-cell complex has the same property.
 
-In the other direction, if $f$ is a stable equivalence and strict cofibration, by the [[small object argument]] it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $K$-cell complex $i$ followed by a $K$-[[injective morphism]] $p$. By the previous statement $i$ is a stable equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] implies that $f$ is a retract of the relative $K$-cell complex $i$.
+In the other direction, if $f$ is a stable equivalence and strict cofibration, by the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $K$-cell complex $i$ followed by a $K$-[[injective morphism]] $p$. By the previous statement $i$ is a stable equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] implies that $f$ is a retract of the relative $K$-cell complex $i$.
 
 
 =--
