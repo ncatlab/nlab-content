@@ -203,6 +203,8 @@ For a more detailed account of the relationship of Frobenius-, [[Verschiebung mo
 
 * [[shtuka]]
 
+* [[cyclotomic spectrum]]
+
 ## References
 
 * {#Frobenius68} [[Ferdinand Georg Frobenius]], Vol 2, around p. 719 of _Gesammelte Abhandlungen_, Springer-Verlag, Berlin, 1968.
