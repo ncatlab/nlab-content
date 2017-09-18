@@ -132,7 +132,7 @@ $$
   }
 $$
 
-Such a diagram is also called a *pullback diagram** or a [[cospan]].  If the [[limit]] exists, we obtain a commutative square
+Such a diagram is also called a **pullback diagram** or a [[cospan]].  If the [[limit]] exists, we obtain a commutative square
 
 $$
   \array{
