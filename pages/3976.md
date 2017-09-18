@@ -24,7 +24,7 @@ The **[[circle]] [[group]]** $\mathbb{T}$ is equivalently ([[isomorphism|isomorp
 
 * the [[special orthogonal group]] $SO(2)$;
 
-* the [[subgroup]] of the group $\mathbb{C}^\times$ of units  of the [[field]] of [[complex numbers]] given by those of any fixed positive modulus (standardly $1$).
+* the [[subgroup]] of the [[group of units]] $\mathbb{C}^\times$  of the [[field]] of [[complex numbers]] (its [[multiplicative group]]) given by those of any fixed positive modulus (standardly $1$).
 
 
 ## Properties
