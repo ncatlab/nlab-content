@@ -175,7 +175,7 @@ such that
        & {}_{\mathllap{\ell}}\searrow 
        & \downarrow^{\mathrlap{\rho}} 
        \\
-       && A
+       && N
      }
      \,,
    $$
