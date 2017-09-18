@@ -18,7 +18,7 @@
 
 ## In inner product spaces
 
-Two elements $x,y$ in an [[inner product space]] $V, \langle -,-\rangle$ are **orthogonal** to each other, $x \perp y,$ if $\langle x,y\rangle = 0$
+Two elements $x,y$ in an [[inner product space]], $(V, \langle -,-\rangle)$, are **orthogonal** to each other, $x \perp y,$ if $\langle x,y\rangle = 0$
 
 ## In category theory
 
