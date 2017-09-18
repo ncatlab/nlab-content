@@ -207,3 +207,5 @@ See also
 * [[Suresh Govindarajan]], [[Burt Ovrut]], _A geometric interpretation for the torsion constrains of $(2,0)$-heterotic worldhseet supergravity_, Mod. Phys. Lett. A6(1991), 3341. ([pdf](http://www.physics.iitm.ac.in/~suresh/sgtalk/talk_html/torsion.pdf))
 
 [[!redirects supergravity torsion constraints]]
+
+[[!redirects torsion constraints of supergravity]]
