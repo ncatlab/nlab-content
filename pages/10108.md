@@ -42,4 +42,9 @@ Notes reviewing more technical details of the problem are in
 
 * Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
 
+The quantization as [[perturbative quantum field theory]] is carried out rigorously via [[causal perturbation theory]] in 
+
+* {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
+
 [[!redirects mass gap problem]]
