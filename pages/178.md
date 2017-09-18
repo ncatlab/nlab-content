@@ -423,6 +423,10 @@ and the generalization to classification of smooth [[principal 2-bundle]]s is in
 * [[Thomas Nikolaus]], [[Konrad Waldorf]], _Four Equivalent Versions of Non-Abelian Gerbes_ ([arXiv:1103.4815](http://arxiv.org/abs/1103.4815))
  {#NikolausWaldorf}
 
+Further discussion of the [[shape modality]] on smooth $\infty$-groupoids is in 
+
+* {#Carchedi15} [[David Carchedi]], _On The Homotopy Type of Higher Orbifolds and Haefliger Classifying Spaces_ ([arXiv:1504.02394](http://arxiv.org/abs/1504.02394))
+
 
 [[!redirects Smooth∞Grpd]]
 
