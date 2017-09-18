@@ -58,9 +58,11 @@ which take a more nPOV of automata theory.
 
 ## References
 
-* [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+* [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 
 * [[Mark V. Lawson]], _[Finite automata](http://www.ma.hw.ac.uk/~markl/books.html)_, CRC Press, see also [here](http://www.ma.hw.ac.uk/~markl/teaching/AUTOMATA/kleene.pdf).
+
+* Liang-Ting Chen, Henning Urbat, _A fibrational approach to automata theory_, [arxiv/1504.02692](http://arxiv.org/abs/1504.02692)
 
 category:computer science
 
