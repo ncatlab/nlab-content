@@ -738,6 +738,108 @@ $$
   \,.
 $$
 
+#### Cohomology of super-Minkowski spacetime
+
+Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d|N}$ underlying the super translation group. Then the [[left-invariant 1-forms|left invariant]] [[super differential forms|super-differential 1-forms]] are
+
+* $\psi^\alpha = \mathbf{d} \theta^\alpha$.
+
+* $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta$.
+
+This means that there is one non-trivial differential on these:
+
+$$ 
+  \begin{aligned}
+    \mathbf{d} e^a & = \mathbf{d} (\mathbf{d} x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta)
+    \\
+    & = \frac{i}{2} \mathbf{d} \overline{\theta}\Gamma^a \mathbf{d} \theta
+    \\
+    & = \frac{i}{2} \overline{\psi}\Gamma^a \psi
+  \end{aligned}
+  \,.
+$$
+
+
+
+More generally the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{siso}(d-1,1))$ is generated on 
+
+* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
+
+* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
+
+with the differential defined by
+
+$$
+  d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+$$
+
+$$
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
+$$
+
+$$
+  d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  \,.
+$$
+
++-- {: .num_remark }
+###### Remark
+
+The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *[[supertorsion]]* of the [[super-vielbein]] $e$, because the defining equation
+
+$$
+  d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \frac{i}{2}\bar \psi \Gamma^a \psi
+$$
+
+may be read as saying that $e$ is [[torsion]]-free except for that term. Notice that this term is the only one that appears when the differential is applied to "Lorentz scalars", hence to object in $CE(\mathfrak{siso})$ which have "all indices contracted". (See also at _[[torsion constraints in supergravity]]_.)
+
+Notably we have 
+
+$$
+  d \left( 
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
+  \right)
+  \propto
+  \left(
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_{p-1}}
+  \right)
+  \wedge
+  \left(
+    \overline{\Psi} \wedge \Gamma_{a_p} \Psi
+  \right)
+  \,.
+$$
+
+This remaining operation "$e \mapsto \Psi^2$" of the differential acting on Loretz scalars is sometimes denoted "$t_0$", e.g. in ([Bossard-Howe-Stelle 09, equation (8)](#BossardHoweStelle09)).
+
+This relation is what govers all of the exceptional super Lie algebra cocycles that appear as WZW terms for the Green-Schwarz action below: for some combinations of $(D,p)$ a [[Fierz identity]] implies that the term
+
+$$
+  \left(
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_{p-1}}
+  \right)
+  \wedge
+  \left(
+    \overline{\Psi} \wedge \Gamma_{a_p} \Psi
+  \right)
+$$
+
+vanishes identically, and hence in these dimensions the term
+
+$$
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
+$$
+
+is a [[cocycle]]. See also the [brane scan](#BraneScan) table below.
+
+=--
+
+
+
 #### The curved case
  {#TheCurvedCase}
 
