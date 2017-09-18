@@ -1,18 +1,82 @@
++-- {: .num_lemma #HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}
+###### Lemma
+
+For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, and for $P, Q$ fibrant/cofibrant replacement functors as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, then the morphism
+
+$$
+ Hom_{Ho(\mathcal{C})}(P X,Q Y)
+  =
+ Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
+   \overset{Hom_{\mathcal{C}}(j_X, p_Y)}{\longrightarrow}
+ Hom_{\mathcal{C}}(X,Y)/_{\sim}
+$$
+
+(on [[homotopy classes]] of morphisms, well defined by prop. \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations}) is a [[natural bijection]].
+
+=--
+
+([Quillen 67, I.1 lemma 7](#Quillen67))
+
++-- {: .proof}
+###### Proof
+
+We may factor the morphism in question as the composite
+
+$$
+  Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
+    \overset{Hom_{\mathcal{C}}(id_{P X}, p_Y)/_\sim }{\longrightarrow}
+  Hom_{\mathcal{C}}(P X, Y)/_{\sim}
+    \overset{Hom_{\mathcal{C}}(j_X, id_Y)/_\sim}{\longrightarrow}
+  Hom_{\mathcal{C}}(X,Y)/_{\sim}
+  \,.
+$$
+
+This shows that it is sufficient to see that for $X$ cofibrant and $Y$ fibrant, then 
+
+$$
+  Hom_{\mathcal{C}}(id_X, p_Y)/_\sim
+   \;\colon\; 
+  Hom_{\mathcal{C}}(X, Q Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
+$$
+
+is an isomorphism, and dually that
+
+$$
+  Hom_{\mathcal{C}}(j_X, id_Y)/_\sim 
+  \;\colon\;
+  Hom_{\mathcal{C}}(P X, Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
+$$
+
+is an isomorphism. We discuss this for the former; the second is [[formal dual|formally dual]]:
+
+First, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is surjective is the [[lifting property]] in 
+
 $$
   \array{
-     && L Q R (\Sigma X)
-       &\underoverset{\in W_{st}}{L Q \tau}{\longrightarrow}&
-     L Q R (X\wedge S^1)
-     \\
-     &{}^{\mathllap{\in W_{st}}}
-       \swarrow & \downarrow && \downarrow & 
-       \searrow^{\mathrlap{\in W_{st}}}
-     \\
-     \Sigma X
-     &\longleftarrow& L R (\Sigma X) 
-     & \underoverset{\in Iso \subset W_{st}}{L\tau}{\longrightarrow} &
-     L R (X \wedge S^1)
-     &\longrightarrow&
-     X \wedge S^1
+    \emptyset &\longrightarrow& Q Y
+    \\
+    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{p_Y}}_{\mathrlap{\in W \cap Fib}}
+    \\
+    X &\overset{f}{\longrightarrow}& Y
   }
+  \,,
 $$
+
+which says that any morphism $f \colon X \to Y$ comes from a morphism $\hat f \colon X \to Q Y$ under postcomposition with $Q Y \overset{p_Y}{\to} Y$.
+
+Second, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is injective is the lifting property in 
+
+$$
+  \array{
+    X \sqcup X &\overset{(f,g)}{\longrightarrow}& Q Y
+    \\
+    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{p_Y}}_{\mathrlap{\in W \cap Fib}}
+    \\
+    Cyl(X) &\underset{\eta}{\longrightarrow}& Y
+  }
+  \,,
+$$
+
+which says that if two morphisms $f, g \colon X \to Q Y$ become homotopic after postcomposition with $p_Y \colon Q X \to Y$, then they were already homotopic before.
+
+=--
