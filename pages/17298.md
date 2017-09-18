@@ -299,7 +299,13 @@ Hence we may read prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} as
 +-- {: .num_defn #SymmetricSmashProductOfDiagramSpectra}
 ###### Definition
 
-By remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects} the categories $\mathbb{S}_{Sym} Mod_r$, $\mathbb{S}_{Orth} Mod_r$ and $\mathbb{S}_{Orth} Mod_r$ are [[categories of modules]] over a [[commutative monoid object]] and as such they inherit [[symmetric monoidal category]] structure themselves.  Via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} this is equivalently symmetric monoidal product structure 
+By remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects} the categories $\mathbb{S}_{Sym} Mod_r$, $\mathbb{S}_{Orth} Mod_r$ and $\mathbb{S}_{Orth} Mod_r$ are [[categories of modules]] over a [[commutative monoid object]] and as such they inherit [[symmetric monoidal category]] structure 
+
+$$
+  (\mathb{S}_{dia} Mod, \wedge_{\mathbb{S}_{dia}})
+$$
+
+Via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} this is equivalently symmetric monoidal product structure 
 
 $$
   (SymSpec(Top), \wedge)
@@ -1676,7 +1682,8 @@ Since both adjoints in the present case preserve [[colimits]], [[tensoring]] wit
 ### 11.-16.) Model structures on ring spectra and module spectra
  {#ModelStructuresOnRingSpectraAndModuleSpectra}
 
-(...)
+#### Monoidal model structure
+
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -1695,7 +1702,7 @@ $$
   \mathbb{S}_{Sym} Mod_r \simeq SymSpec(Top)
 $$
 
-are compatible with their [[monoidal category]] structure given by the [[symmetric monoidal smash product of spectra]] $\wedge$ of def. \ref{SymmetricSmashProductOfDiagramSpectra}, in that $(\mathbb{S}_{dia} Mod_{stable}, \wedge)$ in these cases
+are compatible with their [[monoidal category]] structure given by the [[symmetric monoidal smash product of spectra]] $\wedge$ of def. \ref{SymmetricSmashProductOfDiagramSpectra}, in that $(\mathbb{S}_{dia} Mod_{stable}, \wedge_{\mathbb{S}_{dia}})$ in these cases
 
 1. is a [[stable model category]];
 
@@ -1705,7 +1712,57 @@ are compatible with their [[monoidal category]] structure given by the [[symmetr
 
 ([MMSS 00, theorem 12.1 (iii) with prop. 12.3](#MMSS00))
 
++-- {: .num_lemma }
+###### Lemma
+
+Let $Y \in \mathbb{S}_{dia} Mod_{stable}$ be cofibrant.
+Then the [[smash product of spectra]]-[[functor]] (def. \ref{SymmetricSmashProductOfDiagramSpectra})
+
+$$
+  X \wedge_{\mathbb{S}_{dia}}(-)
+    \;\colon\;
+  \mathbb{S}_{dia} Mod
+    \longrightarrow
+  \mathbb{S}_{dia} Mod
+$$
+
+preserves [[stable weak homotopy equivalences]] as well as stable equivalences (def. \ref{StableEquivalencesForDiagramSpectra}).
+
+=--
+
+([MMSS 00, prop. 12.3](#MMSS00))
+
++-- {: .num_lemma }
+###### Lemma
+
+The functor
+
+$$
+  X \wedge_{\mathbb{S}_{dia}}(-)
+    \;\colon\;
+  \mathbb{S}_{dia} Mod
+    \longrightarrow
+  \mathbb{S}_{dia} Mod
+$$
+
+sends acylic cofibrations in the stable model structure to morphisms that are stable equivalences and [[h-cofibrations]].
+
+=--
+
+([MMSS 00, prop. 12.5](#MMSS00))
+
++-- {: .num_prop }
+###### Proposition
+
+The smash product $\wedge_{\mathbb{S}_{dia}}$ on $\mathbb{S}_{dia} Mod_{stable}$ satisfies the [[pushout-product axiom]].
+
+=--
+
+([MMSS 00, prop. 12.6](#MMSS00))
+
 (...)
+
+
 
 ### 17.-18.) Relation to $\Gamma$-spaces
 
