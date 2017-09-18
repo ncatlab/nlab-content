@@ -3,4 +3,10 @@
 
 * [wikipedia entry](http://de.wikipedia.org/wiki/Werner_Nahm)
 
+## Related $n$Lab entries
+
+* [[supersymmetry]]
+
+* _[[Supersymmetries and their Representations]]_
+
 category: people
