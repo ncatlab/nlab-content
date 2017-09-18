@@ -24,7 +24,8 @@ There are two reasons for referring to this research as "algebraic set theory": 
 
 The second reason is that we believe the locution "algebraic logic" should properly refer to categorical logic rather than just the logic of Boole and his modern proponents, since categorical logic subsumes such lattice theoretic methods and not the other way around. Hence the term "algebraic set theory" rather than "categorical set theory". This is in keeping with the use of "algebraic" to mean, essentially, "functorial" in modern algebraic topology, algebraic geometry, etc. (Awodey, [Why "algebraic set theory"?](http://www.phil.cmu.edu/projects/ast/whyast.html))
 
-
+### Stack semantics
+[[michaelshulman:stack semantics]] provides a structural and somewhat more uniform way of treating "classes" in [[topos]] theory.
 
 ## References
 
