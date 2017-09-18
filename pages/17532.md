@@ -1,3 +1,5 @@
+[[!redirects category of G sets]]
+[[!redirects category of G sets]]
 [[!redirects category-of-G-sets]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -38,6 +40,126 @@ Let $G$ be a topological group, and $X$ be a set with a $G$ action $\mu: G \time
 See [[G-sets#ContinuousCharacterization|G-sets]].
 =--
 
+
+## Properties
+
++-- {: .num_defn}
+###### Notation
+For a topological group $G$, we write $G^\delta$ for the discrete version of $G$. Every $G$-set can be viewed as a $G^\delta$ set in the obvious way.
+=--
+
++-- {: .num_prop}
+###### Proposition
+The inclusion $i_G: G Set \to G^\delta Set$ has a left adjoint $r_G: G^\delta \to G Set$.
+=--
+
++-- {: .proof}
+###### Proof
+This follows from the observation that if $f: X \to Y$ is a $G$-invariant function between $G$-sets, then for each $x \in X$, the stabilizer of $f(x)$ includes the stabilizer of $x$.
+=--
+
++-- {: .num_prop}
+###### Proposition
+The forgetful functor $U: G^\delta Set \to Set$ creates all [[small limit|small]] [[limits]] and [[colimits]].
+=--
+
++-- {: .proof}
+###### Proof
+This follows from the general fact that limits and colimits in [[presheaf categories]] are computed pointwise.
+
+Alternatively, there is an obvious $G$-action we can put on the limits or colimits of the underlying sets of the $G$-sets.
+
+The creating limits part also comes from the fact that the forgetful functor is [[monadic]].
+=--
+
++-- {: .num_prop}
+###### Proposition
+The inclusion $i_G: G Set \to G^\delta Set$ creates all finite limits and all colimits.
+=--
+
++-- {: .proof}
+###### Proof
+This follows from the observation that the finite limits and colimits created by $U: G^\delta Set \to Set$ have a continuous action if each factor has a continuous action, using the fact that finite intersections and arbitrary unions of open sets are open.
+=--
+
++-- {: .num_cor}
+###### Corollary
+The category $G Set$ has all finite limits and arbitrary colimits.
+=--
+
++-- {: .num_cor}
+###### Corollary
+The adjunction $i_G \dashv r_G$ is a geometric morphism.
+=--
+
++-- {: .num_cor}
+###### Corollary
+A map in $G Set$ is a [[monomorphism]] if and only if it is injective; [[epimorphism]] if and only if it is surjective.
+=--
+
++-- {: .proof}
+###### Proof
+A map is monic if and only if its kernel pair is an isomoprhism, and similarly for epic, and the forgetful functor to $Set$ preserves all finite limits and colimits.
+=--
+
++-- {: .num_cor}
+###### Corollary
+The [[subobject classifier]] of $G Set$ is $\Omega = 2$, the two-point set
+with the trivial $G$-action.
+=--
+
++-- {: .num_prop}
+###### Proposition
+The [[exponential object]] in $G^\delta Set$ is defined by $Y^X = \{\text{functions}\;X \to Y\}$, with the $G^\delta$-action given by
+$$
+  g \cdot f = g \circ f \circ g^{-1}.
+$$
+The exponential object $Y^X$ in $G Set$ is given by the subset of the functions $X \to Y$ that have an open stabilizer, ie.
+$$
+  Y^X = r_G(i_G(Y)^{i_G(X)}).
+$$
+=--
+
++-- {: .proof}
+###### Proof
+Let $A, X, Y$ be $G^\delta$-sets. Given a map $f:A \times X \to Y$, we obtain $\hat{f}:A \to Y^X$ by
+$$
+  \hat{f}(a)(x) = f(a, x).
+$$
+We now check that $\hat{f}$ is $G^\delta$-invariant --- we have
+$$
+  (g \cdot \hat{f}(a))(x) = g \cdot \hat{f}(a)(g^{-1}\cdot x) = g \cdot f(a, g^{-1}x) = f(g \cdot a, x) = \hat{f}(g \cdot a)(x).
+$$
+So we get
+$$
+  g \cdot \hat{f}(a) = \hat{f}(g \cdot a).
+$$
+Conversely, given a $\hat{f}: A \to Y^X$, we obtain $f: A \times X \to Y$ by $f(a, x) = \hat{f}(a)(x)$, and we have
+$$
+  g \cdot f(a, x) = g \cdot \hat{f}(a)(x) = (g \cdot \hat{f}(a))(g\cdot x) = \hat{f}(g \cdot a)(g \cdot x) = f(g \cdot a, g \cdot x).
+$$
+So $f$ is $G^\delta$-invariant. It is clear that these operations are inverses to each other, and straightforward computations show that this is natural in $A$, $X$ and $Y$.
+
+Then in general, if $A, X, Y$ are in fact $G$-sets, then we can compute
+$$\begin{aligned}
+  G Set\left(A, r_G(i_G(Y)^{i_G(X)})\right) &= G^\delta Set \left(i_G(A), i_G(Y)^{i_G(X)}\right)\\
+  &= G^\delta Set\left(i_G(A) \times i_G(X), i_G(Y)\right)\\
+  &= G^\delta Set\left(i_G(A \times X), i_G(Y)\right)\\
+  &= G Set\left(A \times X, Y\right),
+\end{aligned}$$
+using the fact that $r_G(i_G(X)) = X$ for all $X \in G Set$.
+=--
+
++-- {: .num_cor}
+###### Corollary
+The [[power object]] of $X \in G Set$ is given by the subsets of $X$ that have an open stabilizer.
+=--
+
++-- {: .num_theorem}
+###### Theorem
+The category $G Set$ is an [[elementary topos]].
+=--
+
 ## Equivalent characterizations
 
 ### As a Grothendieck topos
@@ -60,6 +182,33 @@ To be included.
 ### As a classifying topos
 To be included.
 
+## Internal group actions
+
+The same construction works for an internal group in an arbitrary topos, and the resulting category is also a topos, by the same proof. In this case, for a group $G$ in a topos $\mathcal{E}$, we write the resulting topos as $G\mathcal{E}$.
+
+A particular interesting case is when we consider an internal group in the topos $G Set$. For $G$ a discrete group, an internal group in $G Set$ is a group $H$ with a homomorphism $G \to \Aut(H)$. This allows us to form the [[semidirect product group|semidirect product]] $H \rtimes G$.
+
++-- {: .num_prop}
+###### Proposition
+Let $G$ be a discrete group, and let $H$ be a group object in $G Set$. Then the category $H (G Set)$ is [[equivalence of categories|equivalent]] to $(H \rtimes G) Set$. 
+=--
+
++-- {: .proof}
+###### Proof sketch
+This is a straightforward computation. Given an $X \in H (G Set)$, we write $\mu: H \times X \to X$ for the action map, and the action of $G$ merely by a dot. Then we define the action of $H \rtimes G$ is given by
+$$
+  ((h, g), x) \mapsto \mu(h, g \cdot x).
+$$
+Conversely, given an object $X$ with an $H \rtimes G$ action, we give it a $G$ action by $g \cdot x = (e, g) \cdot x$, and an $H$-action by $\mu(h, x) = (h, e) \cdot x$.
+=--
+
+The case of topological groups is more complicated, because an internal topology $T$ on a space $X$ is an internally complete lattice $T \subseteq P(X)$, which is not necessarily closed under infinite external unions. However if we do the rather unnatural (?) thing of closing it under all external unions, then we make $X$ an external topological space. Then we have the following result:
++-- {: .num_prop}
+###### Proposition
+Let $G$ be a topological group, and let $H$ be a topological group object in $G Set$. Then $H (G Set)$ is equivalent to $(H \rtimes G) Set$, where $H \rtimes G$ is given the product topology.
+=--
+Proof is a straightforward check that the continuity conditions match up.
+
 ## Related Concepts
 * [[G-set]]
 * [[topological G-space]]
@@ -70,11 +219,11 @@ Some elementary properties of continuous $G$-sets can be found in books such as
 
 * {#MaclaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]
 
-The formal correspondence between models of [[ZFA]] and toposes of continuous $G$-sets can be found in
+The formal correspondence between permutation models of [[ZFA]] and toposes of continuous $G$-sets can be found in
 
 * [[Michael Fourman]], _Sheaf models for set theory_ ([pdf](http://www.sciencedirect.com/science/article/pii/0022404980900961/pdf?md5=0de18da810657bf1ba9de7399d224ec5&pid=1-s2.0-0022404980900961-main.pdf))
 
-[[!redirects category of G-sets]]
+[[!redirects category of G sets]]
 [[!redirects category of G set]]
 [[!redirects category of G-set]]
 [[!redirects categories of G-sets]]
@@ -89,3 +238,11 @@ The formal correspondence between models of [[ZFA]] and toposes of continuous $G
 [[!redirects categories of continuous G sets]]
 [[!redirects categories of continuous G-set]]
 [[!redirects categories of continuous G set]]
+[[!redirects topos of G-sets]]
+[[!redirects topos of G sets]]
+[[!redirects topos of G-set]]
+[[!redirects topos of G set]]
+[[!redirects topos of continuous G sets]]
+[[!redirects topos of continuous G-sets]]
+[[!redirects topos of continuous G set]]
+[[!redirects topos of continuous G-set]]
