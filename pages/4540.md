@@ -380,6 +380,12 @@ Discussion of extensions of [[super L-∞ algebras]] based on the [[super Poinca
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
 
+The hypercohomology of the Chevalley-Eilenberg-de Rham complex of a Lie algebroid
+L over a scheme with coefficients in an L-module can be expressed as a derived functor
+as shown in 
+
+* [[Ugo Bruzzo]], _Lie algebroid cohomology as a derived functor_, [arxiv/1606.02487](http://arxiv.org/abs/1606.02487)
+ 
 
 [[!redirects ∞-Lie algebra cohomology]]
 [[!redirects L-∞-algebra cohomology]]
