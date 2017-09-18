@@ -43,7 +43,7 @@ See at _[electromagnetic field -- charge quantization](electromagnetic+field#Dir
 
 The name of the concept is due to
 
-* [[P.A.M. Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
+* {#Dirac31} [[P.A.M. Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
 
 A review is for instance in
 
