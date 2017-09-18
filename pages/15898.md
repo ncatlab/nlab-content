@@ -1,0 +1,11 @@
+
+
+* [page on HoTT website](http://homotopytypetheory.org/author/favonia/)
+
+## related $n$Lab entries
+
+* [[homotopy type theory]]
+
+* [[Blakers-Massey theorem]]
+
+category: people
