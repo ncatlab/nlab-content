@@ -3,7 +3,7 @@
 Formally, a cotopology of a topological space $X$ is a coarser topological space $^*X$ on the same set $X$ that does not forget too many sets.
 Some topologically concepts, like complete metrizability, can be formulated in terms of cotopology.
 The approach was introduced by Johannes de Groot.
-He argued that cocompact spaces are a better generalization of the completeness property of metric spaces than uniform structures.
+He argued that cocompact spaces are a better generalization of the [[complete space|completeness property]] of metric spaces than [[uniform space|uniform structures]].
 
 
 ## Definitions
@@ -11,26 +11,26 @@ He argued that cocompact spaces are a better generalization of the completeness 
 +-- {: .num_defn}
 ###### Definition
 Let $X$ be a topological space and set $\mathcal{O} = Op(X)$.
-A topology $^*\mathcal{O}$ on $X$ is called a **cotopology** of $\mathcal{O}$--and $^*X = (X, ^*\mathcal{O})$ is called a **cospace** of $X$ if
+A topology $^*\mathcal{O}$ on $X$ is called a **cotopology** of $\mathcal{O}$---and $^*X = (X, ^*\mathcal{O})$ is called a **cospace** of $X$---if
 
 1. $^*\mathcal{O}$ is coarser than $\mathcal{O}$, i.e., $^*\mathcal{O} \subseteq \mathcal{O}$; 
 1. for each point $x$ and each closed neighborhood $V$ of $x$ in $X$ there exists a neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$ and $U$ is closed in $^*X$.
 =--
 
-For regular spaces the last condition can be replaced by
+For [[regular space|regular spaces]] the last condition can be replaced by
 
 * Each point $x$ has a neighborhood base in $X$ the elements of which are closed in $^*X$.
 
 
 +-- {: .num_defn}
 ###### Definition
-A topological space $X$ is called **cocompact** if there is a cospace $^*X$ of $X$ which is compact.
+A topological space $X$ is called **cocompact** if there is a cospace $^*X$ of $X$ which is [[compact space|compact]].
 
 =--
 
 ## Properties
 
-Every cocompact [[regular space]] is a [[Baire space]]. A metrizable space is [[topologically complete space|topologically complete]] if and only if it is cocompact.
+Every cocompact [[regular space]] is a [[Baire space]]. A [[metrisable topological space|metrisable space]] is [[topologically complete space|topologically complete]] if and only if it is cocompact.
 
 A space that admits only Hausdorff cospaces is equivalently an H-closed space, i.e. it (is Hausdorff and) is not a proper dense subspace of another space.
 
