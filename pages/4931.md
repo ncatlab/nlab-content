@@ -214,7 +214,14 @@ $$
 
 =--
 
-(Thanks to [[Todd Trimble]].)
+(Thanks to [[Todd Trimble]].) One way to think about it is that $I(\Delta^n)$ is the positive orthant of an open $n$-ball in $l^1$ norm, so that in the opposite direction we have a chain of invertible maps 
+
+$$\array{
+\mathbb{R}^n & \stackrel{\exp^n}{\to} & \mathbb{R}_+^n & \to & I(\Delta^n) \\ 
+ & & \vec{x} & \mapsto & \vec{x}/(1 + {\|\vec{x}\|}_1) 
+}$$ 
+
+which we simply invert to get the map $f$ above. 
 
 
 ### Good covers by balls
