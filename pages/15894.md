@@ -86,9 +86,9 @@ There are various possible [[foundations of mathematics]]. One may wonder whethe
 
 In this vein, it is noteworthy that traditional [[set theory]] (such as [[ZFC]], but also [[ETCS]] etc.) rests on something more foundational, namely on [[first-order logic]]. Beneath the theory of sets in, say [[ZFC]], there is already the [[deductive system]] of [[propositions]] in terms of which the [[axioms]] for sets are stated. This deductive system is already a bit of infrastructure in itself, involving [[type formation|formation]] rules for propositions (such as for [[logical conjunction]], [[logical disjunction]], [[implication]]), and their [[introduction rules]] and [[elimination rules]].
 
-Now [[type theory]] is a foundational system that is at that same "lower" level of foundations as [[first-order logic]]. Type theory is _not based on_ first-order logic; instead it is variant of first-order logic itself. Type theories indeed are [[deductive systems]] based on the same kind of [[type formation|formation]]- [[term introduction|introduction]]- and [[term elimination|elimination]] rules as first-order logic: where in first-order logic forms [[logical conjunction]], [[logical disjunction]], [[implication]], in type theory this is formation of [[product types]], [[sum types]], and [[function types]], respectively.
+Now [[type theory]] is a foundational system that is at that same "lower" level of foundations as [[first-order logic]]. Type theory is not based on first-order logic; instead it is variant of first-order logic itself. Type theories indeed are [[deductive systems]] based on the same kind of [[type formation|formation]]- [[term introduction|introduction]]- and [[term elimination|elimination]] rules as first-order logic: where in first-order logic forms [[logical conjunction]], [[logical disjunction]], [[implication]], in type theory this is formation of [[product types]], [[sum types]], and [[function types]], respectively.
 
-In this way type theory contains first-order logic without being based on it. First order logic is recovered inside type theory as the sub-system of those [[types]] which have unique [[terms]], see at _[[propositions as types]]_ for more on this key idea.
+In this way type theory contains first-order logic without being based on it. First order logic is recovered inside type theory as the sub-system of those [[types]] which have unique [[terms]], see at _[[propositions as types]]_ for more on this key idea (details are [here](predicate+logic#ReferencesFromTypeTheory)).
 
 Moreover, this actually means that type theory is even a little more foundational than first-order logic. Because one obtains first-order logic from type theory by adding an [[axiom]], namely that all types are propositions. In type theory this axioms in not present (but may be imposed if desired). In this sense is type theory more foundational than first-order logic, which in turn is more foundational than set theory.
 
@@ -121,7 +121,7 @@ $$
   }
 $$
 
-But in fact the situation with homotopy type theory is even better still. While first-order logic is contained in homotopy type theory as shown above, one does not actually need to formalize the axioms of set theory inside first-order-logic inside (homotopy-)type theory. Rather, sets may themselves be found in type theory in just the same way that propositions are found inside type theory. Sets ("[[h-sets]]") are precisely those types whose identity types are propositions. 
+But in fact the situation with homotopy type theory is even better still. While first-order logic is contained in homotopy type theory as shown above, one does not actually need to formalize the axioms of set theory inside first-order-logic inside (homotopy-)type theory. Rather, sets may themselves be found in type theory with ([[higher inductive type|higher]]) [[inductive types]] in just the same way that propositions are found inside type theory. Sets ("[[h-sets]]") are precisely those types whose identity types are propositions (details are [here](http://ncatlab.org/nlab/show/set+theory#ReferencesInHomotopyTypeTheory)). 
 
 Hence apart from being "more foundational" than set theory, in the above sense, homotopy type theory also offers the following more immediate route to sets, which makes sets-in-type-theory appear at a "lower foundational level" than 
 sets-in-first-order-logic:
@@ -132,7 +132,7 @@ $$
      \\
      \uparrow^{\mathrlap{add\;axiom:\;all\;identity\;types\;are\;propositions}}
      \\
-     \homotopy\;type\;theory
+     \homotopy\;type\;theory \; with \; (higher) \; inductive \; types
   }
   \,.
 $$
