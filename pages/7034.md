@@ -145,4 +145,6 @@ Discussion of this in the more general context of truncations is in
 [[!redirects bracket types]]
 [[!redirects propositions as some types]]
 
+[[!redirects propositional truncation]]
+[[!redirects squash type]]
 [[!redirects isInhab]]
