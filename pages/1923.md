@@ -19,7 +19,7 @@ A _symmetric monoidal functor_ is a [[functor]] $F : C \to D$ between [[symmetri
 
 ## Defnition
 
-A [[monoidal functor]] $F : (C,\otimes) \to (D, \otimes)$ between [[symmetric monoidal categories]] is **symmetric** of for all $A,B \in C$ the diagram
+A [[monoidal functor]] $F : (C,\otimes) \to (D, \otimes)$ between [[symmetric monoidal categories]] is **symmetric** if for all $A,B \in C$ the diagram
 
 $$
   \array{
