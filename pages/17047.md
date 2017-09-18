@@ -7,7 +7,7 @@ Another example is the family of finite types, indexed by the natural numbers.
 Inductive families were defined in [Dybjer](#Dybjer) and simultaneously studied by [Coquand and Paulin](#CoquandPaulin).
 [Dybjer and Setzer](#DybjerSetzer) distinguish two kinds of inductive families, _restricted_ and _general_ ones. The identity type as an example of the latter, but not of the former.
 
-[[Lean]] implements the reduction of (general) inductive families to recursors.
+Inductive families are part of the axiomatic foundation in [[Coq]] and [[agda]]. Instead, [[Lean]] does not have fix-point expressions, match expressions, or a termination checker in the kernel. Instead, recursive definitions and pattern matching are compiled into eliminators outside of the kernel.
 
 ## Semantics
 Standard inductive types, [[W-types]] can be interpreted in any topos with [[natural numbers object]] (Moerdijk-Palmgren). Gambino and Hyland construct initial algebras for dependent [[polynomial functors]]. Indexed containers are the same as indexed polynomial functors [indexed containers](#AGHMM).
