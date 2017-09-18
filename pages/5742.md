@@ -88,6 +88,8 @@ Given any log-scheme $X$ over $\mathbb{C}$, then the underlying [[topological sp
 
 * [[logarithmic connection]]
 
+* [[logarithmic motivic homotopy theory]]
+
 * [exponential sequence in logarithmic geometry](exponential+exact+sequence#InLogarithmicGeometry)
 
 ## References
