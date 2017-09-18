@@ -4122,6 +4122,7 @@ $$
 
 while $r$ has components given by the structure maps conjugated by the [[braiding]] in $Top^{\ast/}_{cg}$ and the [[permutation]] [[action]] $\chi_{p,1}$ (that [[shuffle|shuffles]] the element on the right to the left)
 
+{#ShuffleActionInCoequalizerForSmashProductOfSpectra}
 $$
   X_p \wedge S^1 \wedge X_q
     \overset{\tau_{X_p,S^1} \wedge id}{\longrightarrow}
@@ -4152,7 +4153,7 @@ $$
 Under the identification of prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the explicit [[smash product of spectra]] in def. \ref{SmashProductOfSymmetricSpectra} is equivalent to the abstractly defined tensor product in def. \ref{SsymModuleSymmetricSpectra}:
 
 $$
-  \wedge \simeq \otimes_{\mathbb{S}_{sym}}
+  \wedge \simeq \otimes_{\mathbb{S}_{orth}}
   \,.
 $$
 
@@ -4161,21 +4162,21 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the tensor product of two $\mathbb{S}_{sym}$-modules $X$ and $Y$ is the [[coequalizer]] 
+By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the tensor product of two $\mathbb{S}_{orth}$-modules $X$ and $Y$ is the [[coequalizer]] 
 
 $$
-  X \otimes_{Day} \mathbb{S}_{sym} \otimes_{Day} Y
+  X \otimes_{Day} \mathbb{S}_{orth} \otimes_{Day} Y
   \underoverset
-    {\underset{\rho_{1}\circ (\tau_{X, \mathbb{S}_{sym}} \otimes Y)}{\longrightarrow}}
+    {\underset{\rho_{1}\circ (\tau^{Day}_{X, \mathbb{S}_{orth}} \otimes id)}{\longrightarrow}}
     {\overset{X \otimes \rho_2}{\longrightarrow}}
     {\phantom{AAAA}}
   X \otimes Y
     \overset{coeq}{\longrightarrow}
-  X \otimes_{\mathbb{S}_{seq}} Y
+  X \otimes_{\mathbb{S}_{orth}} Y
   \,.
 $$
 
-The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By example \ref{CoendGivesQuotientByDiagonalGroupAction} and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the symmetric group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
+The [[Day convolution]] product appearing here is over the category $Orth$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By example \ref{CoendGivesQuotientByDiagonalGroupAction} and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the orthogonal group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
 
 $$
   \begin{aligned}
@@ -4185,13 +4186,13 @@ $$
      \underset{
       = \left\{
           \array{
-             \Sigma_{n_1 + n_2} & if \; n_1+n_2 = n 
+             O(n_1 + n_2,n)_+ & if \; n_1+n_2 = n 
              \\
-             \emptyset & otherwise
+             \ast & otherwise
            }
       \right.
      }{
-       \underbrace{Sym(n_1 + n_2, n)}
+       \underbrace{O(n_1 + n_2, n)}
      }_+
       \wedge
      A_{n_1}
@@ -4200,8 +4201,8 @@ $$
     \\
     & \simeq
     \underset{n_1 + n_2 = n}{\bigvee}
-     (\Sigma_{n_1+n_2})_+
-     \underset{\Sigma_{n_1}\times \Sigma_{n_2}}{\wedge}     
+     O(n_1+n_2)_+
+     \underset{O(n_1) \times O(n_2) }{\wedge}     
      \left(
        A_{n_1}
          \wedge
@@ -4211,15 +4212,54 @@ $$
   \,.
 $$
 
-This gives the form of the coequalizer and the nature of the morphism $\ell$. To see that the morphism $r$ involves conjugation by the braiding $\tau^{Top^{\ast/}_{cg}}$ in $Top^{\ast/}_{cg}$ and the symmetric group action, which by def. \ref{TopologicalDiagramCategoriesForSpectra} is the braiding $\tau^{Sym}_{n_1,n_2}$ in $Sym$, use the formula for the braiding of the Day convolution tensor product from prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
+This gives the form of the coequalizer and the nature of the morphism $\ell$. To see that the morphism $r$ involves the braiding $\tau^{Top^{\ast/}_{cg}}$ and the permutation action $\tau^{Orth}$ as shown [above](#ShuffleActionInCoequalizerForSmashProductOfSpectra) use the formula for the braiding of the Day convolution tensor product from the proof of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
+
 
 $$
-  \tau_{A,B}(n)
+  \tau^{Day}_{A,B}(n)
   =
   \overset{n_1,n_2}{\int}
-   Sym( \tau^{Sym}_{n_1,n_2}, n )
+   Orth( \tau^{Orth}_{n_1,n_2}, n )
     \wedge 
    \tau^{Top^{\ast/}_{cg}}_{A_{n_1}, B_{n_2}}
+$$
+
+and translate it to the components of the precomposition
+
+$$
+  X \otimes_{Day} \mathbb{S}_{orth}
+   \overset{\tau^{Day}_{X,\mathbb{S}_{orth}}}{\longrightarrow}
+  \mathbb{S}_{orth} \otimes_{Day} X
+  \overset{}{\longrightarrow}
+  X
+$$
+
+via the formula from the proof of prop. \ref{TopologicalLeftKanExtensionBCoend} for the [[left Kan extension]] $\otimes_{Day}\simeq Lan_{\otimes}\overline{\wedge}$ (prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}):
+
+$$
+  \begin{aligned}
+    [Orth, Top^{\ast/}_{cg}]( \tau^{Day}_{X,\mathbb{S}_{orth}}, X)
+    &
+    \simeq
+    \underset{n}{\int}
+    Maps( 
+      \overset{n_1, n_2}{\int}
+      Orth( \tau^{orth}_{n_1,n_2}, n )
+       \wedge 
+      \tau^{Top^{\ast/}_{cg}}_{X_{n_1}, S^{n_2}}
+      ,
+      X(n)
+    )_\ast
+    \\
+    &
+    \simeq
+    \underset{n_1,n_2}{\int}
+    Maps(
+      \tau_{X_{n_1}, S^{n_2} }^{Top^{\ast/}_{cg}}
+      ,
+      X( \tau^{orth}_{n_1,n_2} )
+    )_\ast
+  \end{aligned}
   \,.
 $$
 
@@ -7541,6 +7581,10 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 [[!include homological and higher algebra -- table]]
 
 (...)
+
+
+
+
 
 
 
