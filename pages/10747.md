@@ -95,7 +95,7 @@ $$
   \pi_n(X) = \underset{\longrightarrow}{\lim}_k \pi_{k+n}(X_k)
 $$
 
-does _not_ in general come out in the homotopy correct way; instead one needs to replace by a "semistable symmetric spectrum" first, which however is hard to control ([Schwede 12, chapter I, sections 2 and 6 and 8](#Schwede12)), survey includes ([Malkiewich 14, section 2.3](#Malkiewich14)). 
+does _not_ in general come out in the homotopy correct way; instead one needs to replace by a "semistable symmetric spectrum" first, which however is hard to control ([Hovey-Shipley-Smith 00, section 3.1](#HoveyShipleySmith00), [Schwede 12, chapter I, sections 2 and 6 and 8](#Schwede12)), survey includes ([Malkiewich 14, section 2.3](#Malkiewich14)). 
 
 Among the various (now) common models for [[spectra]], this issue is unique to symmetric spectra, see also the comment in ([Mandell-May-Schwede-Shipley 01, p. 3](#MandellMaySchwedeShipley01)).
 
