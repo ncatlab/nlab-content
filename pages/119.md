@@ -101,3 +101,6 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 [[!redirects preordered sets]]
 [[!redirects pre-ordered set]]
 [[!redirects pre-ordered sets]]
+
+[[!redirects preordering]]
+[[!redirects preorderings]]
