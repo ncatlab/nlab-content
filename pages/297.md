@@ -189,7 +189,7 @@ $$
   U(t_1,t_2)
   =
   \exp\left(
-     \tfrac{i}{\hbar} (t_2-t_2) H 
+     \tfrac{i}{\hbar} (t_2-t_1) H 
   \right)
   \,.
 $$
