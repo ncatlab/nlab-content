@@ -14,9 +14,11 @@
 
 ## Idea
 
-The _one-point compactification_ of a [[topological space]] is a new [[compact space]] obtained by adding a single new point to the original space.
+The _one-point compactification_ of a [[topological space]] $X$ is a new [[compact space]] $X^+ = X \cup \{\infty\}$ obtained by adding a single new point "$\infty$" to the original space and declaring in $X^+$ the [[complements]] of the original [[closed subspace|closed]] [[compact space|compact]] [[subspaces]] to be [[open subspace|open]].
 
-This is also known as the _Alexandroff compactification_ after a 1924 paper by [[Pavel Aleksandrov|Павел Сергеевич Александров]] (then transliterated 'P.S. Aleksandroff').
+One may think of the new point added as the "point at infinity" of the original space. A [[continuous function]] on $X$ _[[vanishing at infinity|vanishes at infinity]]_ precisely if it extends to a continuous function on $X^+$ and literally takes the value zero at the point "$\infty$".
+
+This one-point compactification is also known as the _Alexandroff compactification_ after a 1924 paper by [[Pavel Aleksandrov|Павел Сергеевич Александров]] (then transliterated 'P.S. Aleksandroff'). 
 
 The one-point compactification is usually applied to a non-[[compact space|compact]] [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] space.  In the more general situation, it may not really be a [[compactification]] and hence is called the _one-point extension_ or _Alexandroff extension_.
 
