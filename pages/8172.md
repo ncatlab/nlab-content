@@ -1752,7 +1752,7 @@ such that
 
    1.  $\epsilon \circ \eta_L = \epsilon \circ \eta_R = id_A$;
 
-   1. $(id_\Gamma\otimes_A\epsilon) \circ \Delta  = (\epsilon \otimes_A id_\Gamma) \circ \Delta = id_\Gamma$;
+   1. $(id_\Gamma\otimes_A\epsilon) \circ \Psi  = (\epsilon \otimes_A id_\Gamma) \circ \Psi = id_\Gamma$;
 
 1. (co-[[associativity]]) $(id_\Gamma \otimes_A \Psi) \circ \Psi = (\Psi \otimes_A id_\Gamma) \circ \Psi$;
 
@@ -2182,7 +2182,28 @@ In computing the second page of $E$-[[Adams spectral sequences]], the second sta
 ##### Universal coefficient theorem
 
 
-The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited by morphisms in $E$-homology from morphisms of spectra.
+The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited by morphisms in $E$-homology from morphisms of spectra. Namely forming $E$-homology $f_\ast \colon E_\bullet(X) \to E_\bullet(Y)$ of a morphism of a spectra $f \colon X \to Y$ does not just produce a morphism of $E$-homology groups
+
+$$
+  \phi_{UC}
+    \;\colon\;
+  [X,Y]_\bullet 
+    \longrightarrow 
+  Hom_{Ab^{\mathbb{Z}}}(E_\bullet(X), E_\bullet(Y))
+$$
+
+but in fact produces homomorphisms of comodules over the dual $E$-Steenrod algebra
+
+$$
+  [X,Y]_\bullet
+    \longrightarrow
+  Hom_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
+  \,.
+$$
+
+This is the statement of lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} below. The point is that $E_\bullet(E)$-comodule homomorphism are much more rigid than general abelian group homomorphisms and hence closer to reflecting the underlying morphism of spectra $f \colon X \to Y$. 
+
+In good cases such an approximation of _homotopy_ by _homology_ is in fact accurate, in that $\phi_{UC}$ above is an [[isomorphism]]. In such a case ([Adams 74, part III, section 13](#Adams74)) speaks of a "[[universal coefficient theorem]]" (the [[coefficients]] here being $E$.)
 
 +-- {: .num_lemma #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
 ###### Lemma
@@ -2194,7 +2215,7 @@ $$
     \;\colon\;
   [X,Y]_\bullet
     \longrightarrow
-  Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(Y))
+  Hom^\bullet_{Ab^{\mathbb{Z}}}(E_\bullet(X), E_\bullet(Y))
 $$
 
 $$
@@ -2281,7 +2302,6 @@ But that this diagram commutes is simply the [[functor|functoriality]] of the de
 =--
 
 
-In order to put all this together, we need to invoke a [[universal coefficient theorem]] in the following form.
 
 +-- {: .num_prop #AdamsUCT}
 ###### Proposition
@@ -2295,7 +2315,7 @@ If at least one of the following conditions is met
 then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$ the morphism of $\mathbb{Z}$-[[graded abelian groups]]
 
 $$
-  [X,N]_\bullet 
+  [X, E \wedge Y]_\bullet 
     \stackrel{\phi \mapsto \rho \circ (id\wedge \phi)}{\longrightarrow}
   Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(X), \pi_\bullet(N))_\bullet
 $$
