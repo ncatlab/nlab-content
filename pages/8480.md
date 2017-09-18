@@ -214,7 +214,7 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 
 * {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]], _Accessible Categories: The Foundations of Categorical Model Theory_, Contemporary Mathematics 104, AMS (1989). 
 
-* Wikipedia, _[Fixed point (mathematics)](https://en.wikipedia.org/wiki/Fixed_point_(mathematics)_
+* Wikipedia, _[Fixed point (mathematics)](https://en.wikipedia.org/wiki/Fixed_point_(mathematics%29)_
 
 
 [[!redirects fixed points]]
