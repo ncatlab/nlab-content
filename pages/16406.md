@@ -396,7 +396,7 @@ A [[smooth function]] $f \colon X \longrightarrow Y$
 between [[smooth manifolds]] is a _local diffeomorphism_ if for all points $x\in X$ its [[derivatives]] at that point induce an [[isomorphism]] of [[tangent bundle|tangent]] [[vector spaces]]
 
 $$
-  \underset{x \in X}{\forall}  d f \;\colon\; T_x X \stackrel{\simeq}{\longrightarrow} T_{f(x)}Y
+  \underset{x \in X}{\forall} \;\; d f \;\colon\; T_x X \stackrel{\simeq}{\longrightarrow} T_{f(x)}Y
   \,.
 $$
 
@@ -1088,7 +1088,7 @@ $$
     \\
     G \times G &\stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}& G
     &\stackrel{}{\longrightarrow}&
-    \ImG
+    \Im G
   }
 $$
 
