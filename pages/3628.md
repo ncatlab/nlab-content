@@ -88,6 +88,8 @@ is called the _Dyson series_.
 
 The idea generalizes to [[quantum field theory]] in [[Lorentzian manifold|Lorentzian]] spacetime if due care is exercised (including [[adiabatic switching]] and [[point-extension of distributions|point extension]] of [[operator-valued distributions]]). Here the "time ordering" is generalized to a [[causal locality|causal ordering]], this is the content of the construction of the [[S-matrix]] and the [[interacting field algebra]] in _[[causal perturbation theory]]_. 
 
+See at _[[S-matrix]]_ for details.
+
 ## Related concepts
 
 * [[path integral]]
