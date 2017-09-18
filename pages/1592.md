@@ -14,7 +14,83 @@
 * table of contents
 {:toc}
 
-## Standard definition
+## Definition
+ {#Definition}
+
+The following is the elementary discussion of universal covering spaces in [[point-set topology]].
+
++-- {: .num_prop #SimplyConnectedCoveringUniqueness}
+###### Proposition
+**([[essentially unique|essential uniqueness]] of simply connected covering spaces)**
+
+Let $X$ be a [[topological space]] which is
+
+1. [[path-connected topological space|path-connected]],
+
+1. [[locally path-connected topological space|locally path connected]].
+
+Then if $E_i \overset{p_i}{\to} X$ are two [[covering spaces]]
+over $X$, $i \in \{1,2\}$, which are both [[path-connected topological space|path-connected]] and [[simply connected topological space|simply connected]], then they are [[isomorphism|isomorphic]] as covering spaces.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since both $E_1$ and $E_2$ are simply connected, the assumption of the lifting theorem for covering spaces is satisfied ([this prop.](covering+space#TheTheoremLifting)). This says that there are horizontal continuous function making the following diagrams commute:
+
+$$
+  \array{
+    E_1 && \overset{f}{\longrightarrow} && E_2
+    \\
+    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+    \\
+    && X
+  }
+$$
+
+$$
+  \array{
+    E_2 && \overset{g}{\longrightarrow} && E_1
+    \\
+    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+    \\
+    && X
+  }
+$$
+
+$$
+  \array{
+    E_i && \overset{id}{\longrightarrow} && E_i
+    \\
+    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+    \\
+    && X
+  }
+$$
+
+and that these are _unique_ once we specify the image of a single point, which we may freely do (in the given fiber).
+
+So if we pick any point $x \in X$ and $\hat x_1 \in E_1$ with $p(\hat x = x)$ and $\hat x_2 \in E_2$ with $p(\hat x_2) = x$ and specify that $f(\hat x_1) = \hat x_2$ and $g(\hat x_2) = \hat x_1$ then uniqueness applied to the composites implies $f \circ g = id_{E_{2}}$ and $g \circ f = id_{E_1}$. 
+
+=--
+
++-- {: .num_defn #CoveringUniversal}
+###### Definition
+**(universal covering space)**
+
+Let $X$ be a [[topological space]] which is
+
+1. [[path-connected topological space|path-connected]],
+
+1. [[locally path-connected topological space|locally path connected]].
+
+Then a [[path-connected topological space|path-connected]] and [[simply connected topological space|simply connected]] [[covering space]], is called [[generalized the|the]] _universal covering space_ of $X$. This is well-defined, if it exists, up to [[isomorphism]], by prop. \ref{SimplyConnectedCoveringUniqueness}.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
 
 Let $X$ be a topological space which is _[[well-connected space|well-connected]]_ in that it is
 
@@ -24,15 +100,25 @@ Let $X$ be a topological space which is _[[well-connected space|well-connected]]
 
 * and [[semi-locally simply-connected space|semi-locally simply-connected]] 
 
-Then there is a connected and [[simply connected space|simply connected]] [[covering space]] $X^{(1)} \to X$ with the [[universal property]] that for any other [[covering space]] $\widetilde{X} \to X$ there is a map of covering spaces $X^{(1)} \to \widetilde{X}$.
+Then a universal covering space of $X$ (def. \ref{CoveringUniversal}) exists.
 
-There is a functorial construction of a universal covering space of a pointed space
+=--
+
++-- {: .proof}
+###### Proof
+
+By [this prop.](covering+space#CoveringConnectivityViaMonodromy) the covering space is connected and simply connected precisely if its [[monodromy]] representation is free and transitive. By the [[fundamental theorem of covering spaces]] every [[permutation representation]] of the [[fundamental groupoid]] $\Pi_1(X)$ arises as the monodromy of some covering space. Hence it remains to see that a free and transitive representation of $\Pi_1(X)$ exists. Let $x \in X$ be any point, then $Hom_{\Pi_1(X)}(x,-)$ is such a representation. 
+
+=--
+
+
+This is a  functorial construction of a universal covering spaces
 
 $$
-  Top_*^{wc} \to Cov_*
+  Top_*^{wc} \longrightarrow Cov_*
 $$
 
-where $Top_*^{wc}$ is the full subcategory of $Top_*$ with objects the well-connected spaces and $Cov$ is the subcategory of $Top_*^2$ of pointed maps of spaces with objects the covering space maps.
+where $Top_*^{wc}$ denotes the [[full subcategory]] of [[pointed topological spaces]] $Top_*$ on the well-connected spaces and $Cov$ is the subcategory of $Top_*^2$ of pointed maps of spaces with objects the covering space maps.
 
 Specifically, if $X$ is a space with basepoint $x_0$, we define $X^{(1)}$ to be the space whose points are homotopy classes of paths in $X$ starting at $x_0$, with the projection $X^{(1)}\to X$ projecting to the endpoint of a path.  We can equip this set $X^{(1)}\to X$ with a topology coming from $X$ so that it becomes a universal covering space as above.  As described at [[covering space]], under the correspondence between covering spaces and $\Pi_1(X)$-actions, the space $X^{(1)}$ corresponds to the "regular representation" of $\Pi_1(X)$.
 
