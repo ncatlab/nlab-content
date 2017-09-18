@@ -81,7 +81,7 @@ Lawvere's work on the petit-gros topos distinction ([Lawvere 1976](#Law76)) star
 
 Whereas the second one of _reflexive graphs_ is given by the actions of the [[graphic monoid]] $\Delta _1=\{1,\partial_0,\partial_1\}$ with $\partial_i\partial_j=\partial_i$ for $i,j=0,1$. $\Delta _1$ is [[Morita equivalence|Morita equivalent]] to the diagram category $E\stackrel{\leftrightarrows}{\leftarrow} V$ and consists entirely of [[idempotents]]. Its topos of actions is gros and when taken over $FinSet$ satisfies the axioms for a (sufficiently) [[cohesive topos]]. The 'abelianization' of $\Delta _1$ is $\mathbb{F}_1=\{1,e\}$, the multiplicative monoid with a generic (nontrivial) idempotent $e$ which incidentally is also the monoid underlying the [[blueprint]] for the [[field with one element]].
 
-As observed in ([Lawvere 1989](#Law89), p.277) $\mathcal{S}^{\mathbb{F}_1^{op}}$ is a quality type over $\mathcal{S}$. It was probably the first one to arise and its status of being neither petit nor gros being commented on.
+As observed in ([Lawvere 1989](#Law89), p.277) $\mathcal{S}^{\mathbb{F}_1^{op}}$ is a quality type over $\mathcal{S}$. It was probably the first one to arise and its status of being neither petit nor gros being commented on. Some of the details are spelled out in the following section.
 
 The surjective homomorphism $q:\Delta_1\to\mathbb{F}_1$ induces an adjoint string $q_!\dashv q^*\dashv q_*:\mathcal{S}^{\Delta_1^{op}}\to\mathcal{S}^{\mathbb{F}_1^{op}}$ with $q_*$ discarding all non-loops in a reflexive graph.
 
@@ -98,7 +98,7 @@ Let $\mathcal{C}$ be a finitely complete category. An [[level|essential localiza
 
 A trivial example of a quintessential localization is provided by $id_\mathcal{C}$.
 
-Another simple _example_ of a quintessential localization is given by the category $\mathcal{C}$ with objects pairs $(X, e)$ where $X$ is set and $e=e^2$ an idempotent map $X\to X$. A morphism $f:(X_1, e_1)\to(X_2, e_2)$ is a function $f:X_1\to X_2$ with $f\cdot e_1=e_2\cdot f$. Then the fixpoint set functor $r:\mathcal{C}\to Set$ with $r(X, e)=\{x\in X | e(x)=x \}$ is left as well as right adjoint to $i(X)=(X, id_X)$. Of course, $\mathcal{C}$ is up to equivalence just the category $\mathcal{S}^{\mathbb{F}_1^{op}}$ from above!
+Another simple _example_ of a quintessential localization is given by the category $\mathcal{C}$ with objects pairs $(X, e)$ where $X$ is a set and $e=e^2$ an idempotent map $X\to X$. A morphism $f:(X_1, e_1)\to (X_2, e_2)$ is a function $f:X_1\to X_2$ with $f\cdot e_1=e_2\cdot f$. These equivariant morphisms are bound to preserve fixpoints: when $e_1(x)=x$ then $f(e_1(x))=f(x)=e_2(f(x))$. Then the fixpoint set functor $r:\mathcal{C}\to Set$ with $r(X, e)=\{x\in X | e(x)=x \}$ is left as well as right adjoint to $i(X)=(X, id_X)$ since an equivariant morphism $f:(X,e)\to (Y,id_Y)$ is uniquely determined by its restriction to the fixpoints of $e$ and its values are given by $f(e(x))$. The [[adjoint modalities]] $i\cdot r\dashv i\cdot r:\mathcal{C}\to\mathcal{C}$ corresponding to $i\dashv r\dashv i:Set\to\mathcal{C}$ map $(X,e)$ to $(r(X),id_{r(X)})$. Of course, $\mathcal{C}$ is up to equivalence just the category $\mathcal{S}^{\mathbb{F}_1^{op}}$ from above!
 
 To say that $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ is a quintessential localization amounts to say that $i:\mathcal{L}\to\mathcal{C}$ exhibits $\mathcal{C}$ as a quality type over $\mathcal{L}$ with $r$ providing the right adjoint to $i\simeq l$ (provided $\mathcal{L}$, $\mathcal{C}$ are extensive).
 
