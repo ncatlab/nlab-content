@@ -72,7 +72,9 @@ One problem with the notion of Reedy category is that it is [[evil]]: it is not 
 
 * [[generalized Reedy category]],
 
-due to [[Clemens Berger]] and [[Ieke Moerdijk]], avoids these problems.  There is a similar generalization due to [[Denis-Charles Cisinski]].
+due to [[Clemens Berger]] and [[Ieke Moerdijk]], avoids these problems.  There is a similar generalization due to [[Denis-Charles Cisinski]].  A further generalization which allows noninvertible level morphisms is a
+
+* [[c-Reedy category]].
 
 ### Elegant Reedy categories
 
