@@ -42,9 +42,6 @@ Precisely, $WISC$ is the statement that for any [[set]] $X$, the [[full subcateg
 
 ## Relation to local smallness of anafunctor categories
 
-+--{: .query}
-[[David Roberts]]: Some of the terms may need to be considered in terms of the bicategory of small categories and anafunctors, rather than the 2-category of small categories and functors, for example 'essential smallness'.
-=--
 
 +-- {: .num_prop} 
 ######Proposition
@@ -82,6 +79,13 @@ This definition is called _external_ because it refers to an external category o
 Assuming AC for $Set$, the category $Top$ with any of its usual pretopologies satisfies \'internal WISC\'.  Consider, for instance, the pretopology in which the covers are the maps admitting local sections, i.e. those $p\colon Y\to X$ such that for any $x\in X$ there exist an open set $U\ni x$ such that $p^{-1}(U)\to U$ is split epic.  If $Set$ satisfies AC, then a weakly initial set in $Top/_{cov}X$ is given by the set of all maps $\coprod_{U\in \mathcal{U}} U \to X$ where $\mathcal{U}\subset \mathcal{P}(X)$ is an open cover of $X$.  For if $p\colon Y\to X$ admits local sections, then for each $x\in X$ we can choose an $U_x \ni x$ over which $p$ has a section, resulting in an open cover $\mathcal{U} = \{U_x \mid x\in X\}$ of $X$ for which $\coprod_{U\in \mathcal{U}} U \to X$ factors through $p$.  (If $Set$ merely satisfies WISC itself, then a more involved argument is required.)
 =--
 
+And now a non-example
+
++-- {: .num_example}
+###### Example
+The category of [[affine schemes]] can be equipped with the [[fpqc topology]] (so this is the [[fpqc site]] over $Spec(\mathbb{Z})$). This does not satisfy WISC. Namely, given any set of fpqc covers of $Spec(R)$, there is a surjective fpqc map which is refined by none of the given covering families ([Stacks Project Tag 0BBK](#Stacks0BBK)).
+=--
+
 More generally, for a non-singleton pretopology on $C$, we can reformulate WISC along the lines of \'there is a set of covering families weakly initial in the category of all covering families of any object\'.
 
 Given a site $(C,J)$ with $J$ subcanonical, and $C$ finitely complete, we can define a (weak) 2-category $Ana(C,J)$ of internal categories, anafunctors and transformations. If WISC holds for $(C,J)$, then $Ana(C,J)$ is locally essentially small.
@@ -106,7 +110,20 @@ In
 
 WISC is called the "axiom of multiple choice".
 
-* Asaf Karagila, *Embedding Orders Into Cardinals With $DC_\kappa$*, [arXiv:1212.4396](http://arxiv.org/abs/1212.4396).{#Karagila}
+The following two papers give models of set theory (without large cardinals) in which WISC fails
+
+* Asaf Karagila, *Embedding Orders Into Cardinals With $DC_\kappa$*, Fund. Math. 226 (2014), 143-156, doi:[10.4064/fm226-2-4](http://dx.doi.org/10.4064/fm226-2-4), [arXiv:1212.4396](http://arxiv.org/abs/1212.4396).
+{#Karagila}
+
+
+* [[David Roberts]], _The weak choice principle WISC may fail in the category of sets_, Studia Logica (2015) doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). 
+
+The Stacks Project shows how to construct a counterexample to WISC from any set of fpqc covers of an affine scheme.
+
+* [[The Stacks Project]], [Tag 0BBK](http://stacks.math.columbia.edu/tag/0BBK)
+{#Stacks0BBK}
+
+
 
 category: foundational axiom
 
