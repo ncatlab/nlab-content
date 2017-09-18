@@ -144,7 +144,7 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 
 The relation of plain polynomial functors to [[trees]] is discussed in
 
-* [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](http://arxiv.org/abs/0807.2874)=
+* [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](http://arxiv.org/abs/0807.2874))
  {#Kock}
 
 Dependent (multivariate) polynomial functors are considered in 
