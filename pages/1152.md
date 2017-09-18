@@ -1,24 +1,2 @@
 
-#Contents#
-* table of contents
-{:toc}
-
-
-## Definition
-
-For $\mathcal{C}$ [[topologically enriched category]] or a similar category "of spaces" (such as [[SSet]] or [[Infinity-Grpd]]), the [[hom-object]] $\mathcal{C}(X,Y)$ for any two [[objects]] $X$ and $Y$ is called the **hom-space**. 
-
-For enrichment in [[Set]], a discrete hom-space is an ordinary [[hom-set]].
-
-## Related concepts
-
-* [[hom-object]]
-
-* [[hom-set]]
-
-* [[hom-category]]
-
-* **hom-space**, [[derived hom-space]]
-
-
-[[!redirects hom space]]
+> see _[[hom-object]]_
