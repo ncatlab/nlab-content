@@ -27,18 +27,18 @@ $$
   \,.
 $$
 
-The _cup product_ is an operation on cocycles with coefficients $A_1$ and $A_2$ that is induced from a pairing morphism
+The _cup product_ is an operation on cocycles with coefficients $A_1$ and $A_2$ that is induced from a pairing of coefficients given by some morphism
 
 $$
-  A_1 \times A_2 \to A_3
+  A_1 \times A_2 \longrightarrow A_3
 $$
 
-in $\mathbf{H}$. In applications this is often a pairing operation with $A_1 = A_2$, i.e. $A \times A \to A'$, and typically it is the product morphism $A \times A \to A$ for a [[ring object]] structure on the [[coefficients]] $A$.
+in $\mathbf{H}$. In applications this is often a pairing operation with $A_1 = A_2$, i.e. $A \times A \to A'$, and typically it is the product morphism $A \times A \to A$ for a [[ring object]] structure on the [[coefficients]] $A$. (See at _[[multiplicative cohomology theory]]_).
 
 If $g_1 : X \to A_1$ and $g_2 : X \to A_2$ are two cocycles in $\mathbf{H}(X,A_1)$ and $\mathbf{H}(X,A_2)$, respectively, then their cup product with respect to this pairing is the cocycle
 
 $$
-  g_1 \cdot g_2 : X \stackrel{Id \times Id}{\to}
+  g_1 \cdot g_2 : X \stackrel{(id,id)}{\longrightarrow}
   X \times X
   \stackrel{g_1 \times g_2}{\to}
   A_1 \times A_2
@@ -46,7 +46,7 @@ $$
   A_3
 $$
 
-in $\mathbf{H}(X,A_3)$.
+in $\mathbf{H}(X,A_3)$ obtained by combining the pairing with precomposition by the [[diagonal]] map $\Delta_X = (id_X, id_X)$.
 
 ## Examples
 
