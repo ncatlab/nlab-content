@@ -21,7 +21,7 @@
 
 ## Idea
 
-A variant of [[étale morphism of schemes]] where the finitess conditions on [[étale morphisms]] are relaxed.
+A variant of [[étale morphism of schemes]] where the finiteness conditions on [[étale morphisms]] are relaxed.
 
 Used in the definition of _[[pro-étale site]]_ and _[[pro-étale cohomology]]_.
 
