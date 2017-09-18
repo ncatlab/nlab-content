@@ -99,6 +99,10 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 ### General
 
+Textbooks include
+
+* [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_, 1973
+
 The theory of gravity based on the standard [[Einstein-Hilbert action]] may be regarded as just an [[effective quantum field theory]], which makes some of its notorious problems be non-problems:
 
 * John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
