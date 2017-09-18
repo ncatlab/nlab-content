@@ -1,2 +1,1 @@
-huh? love
-
+[[!redirects metavariable]]
