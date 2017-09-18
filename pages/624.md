@@ -209,6 +209,7 @@ A large number of further examples can be found in
 The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to section 2.3 of
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+ {#Lurie}
 
 
 [[!redirects dual object]]
