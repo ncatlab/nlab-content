@@ -39,7 +39,7 @@ For definiteness, in the following by _[[vector space]]_ we mean _[[real vector 
 
 +-- {: .num_defn #TopologicalVectorBundleInTermsOfSliceCategories}
 ###### Definition
-**(topological vector bundles in terms of slices categories)**
+**(topological vector bundles in terms of slice categories)**
 
 Write [[Top]] for the [[category]] of [[topological spaces]], and for $X \in Top$ a space, write $Top_{/X}$ for its [[slice category]] over $X$. The [[Cartesian product]] in $Top_{/X}$ is the [[fiber product]] over $X$ in $Top$, which we denote by $(-) \times_X (-)$.
 
@@ -57,7 +57,7 @@ A _topological vector bundle_ over $X \in Top$ is
 
 such that 
 
-* (local triviality) there exists 
+* ([[local trivialization|local triviality]]) there exists 
 
   1. an [[open cover]] $\{U_i \subset X\}_{i \in I}$, regarded via the [[disjoint union space]] $U \coloneqq \underset{i \in I}{\sqcup} U_i$ of the patches as the object $ [U \to X] \in Top_{/X}$,
 
@@ -120,22 +120,38 @@ such that there exists
      \phi_i \;\colon\; U_i \times \mathbb{R}^n \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
    $$
 
-   from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that this is a [[linear map]] in each fiber
+   from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that 
 
-   $$
-     \underset{x \in U_i \cap U_j}{\forall}
-     \left(
-       \phi_i(x) \;\colon\; 
-          \mathbb{R}^n \overset{\text{linear}}{\longrightarrow}
-         E_x = \pi^{-1}(\{x\})
-     \right)
-   $$
+   1. $\phi_i$ is a map over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times \mathbb{R}^n) \subset \pi^{-1}(\{x\})$
+
+   1. $\phi_i$ is a [[linear map]] in each fiber in that
+
+      $$
+        \underset{x \in U_i \cap U_j}{\forall}
+        \left(
+          \phi_i(x) \;\colon\; 
+             \mathbb{R}^n \overset{\text{linear}}{\longrightarrow}
+            E_x = \pi^{-1}(\{x\})
+        \right)
+        \,.
+      $$
+
+For $[E_1 \overset{\pi_1}{\to} X]$ and $[E_2 \overset{\phi_2}{\to} X]$ two topological vector bundles over the same base space, then a _[[homomorphism]]_ 
+between them is
+
+* a [[continuous function]] $f \colon E_1 \longrightarrow E_2$
+
+such that 
+
+1. $f$ respects the [[projections]]: $\pi_2 \circ f = \pi_1$;
+
+1. for each $x \in X$ we have that $f|_x \colon (E_1)_x \to (E_2)_x$ is a [[linear map]].
 
 =--
 
 +-- {: .num_example #TrivialTopologicalVectorBundle}
 ###### Example
-**(trivial topological vector bundle)**
+**(trivial topological vector bundle and (local) trivialization)**
 
 For $X$ any [[topological space]], and $n \in \mathbb{N}$,
 we have that the [[product topological space]]
@@ -146,20 +162,33 @@ $$
 
 canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). This is called the _trivial vector bundle_ of [[rank]] $n$ over $X$.
 
-Acordngly, the local triviality condition in the definition of topological vector bundles (def. \ref{TopologicalVectorBundle}) says that they are locally isomorphic to the trivial vector bundle.
+Given any topological vector bundle $E \to X$, then a choice of [[isomorphism]] to w trivial bundle (if it exists)
+
+$$
+  E \overset{\simeq}{\longrightarrow} X \times \mathbb{R}^n
+$$
+
+is called a _trivialization_ of $E$.
+
+Accordingly, the [[local trivialization|local triviality]] condition in the definition of topological vector bundles (def. \ref{TopologicalVectorBundle}) says that they are locally isomorphic to the trivial vector bundle. One also says that the data consisting of an open cover $\{U_i \subset X\}_{i \in I}$ and the [[homeomorphisms]]
+
+$$
+  \left\{
+     U_i \times \mathbb{R}^n
+       \overset{\simeq}{\to}
+     E|_{U_i}
+  \right\}_{i \in I}
+$$
+
+as in def. \ref{TopologicalVectorBundle} constitute a _[[local trivialization]]_ of $E$.
 
 =--
 
++-- {: .num_defn #TransitionFunctions}
+###### Definition
+**([[transition functions]])
 
-## Properties
-
-### Transition functions and Cech  cocycles
-
-+-- {: .num_remark}
-###### Remark
-**(transition functions)**
-
-Given a topological vector bundle as in def. \ref{TopologicalVectorBundle}, then the local trivialization isomorphisms induce [[continuous function|continuous]] _[[transition functions]]_
+Given a topological vector bundle $E \to X$ as in def. \ref{TopologicalVectorBundle} and a choice of local trivialization isomorphisms $\{\phi_i \colon U_i \times \mathbb{R}^n \overset{\simeq}{\to} E|_{U_i}\}$ (example \ref{TrivialTopologicalVectorBundle}) induce [[continuous functions]] 
 
 $$
   \left\{
@@ -180,26 +209,148 @@ $$
   \,.
 $$ 
 
-By construction these satisfy the [[cocycle]] condition
+These are called the _[[transition functions]]_ for the given local trivialization.
+
+=--
+
++-- {: .num_remark #CechCoycleCondition}
+###### Remark
+**(Cech cocycle condition)**
+
+Let $E \to X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}) and let $\{U_i \subset X\}_{i \in I}$, $\{\phi_i \colon U_i \times \mathbb{R}^n \overset{\simeq}{\to} E|_{U_{i}}\}_{i \in I}$ be a local trivialization (example \ref{TrivialTopologicalVectorBundle}).
+
+Then the induced [[transition functions]] $\{g_{i j} \colon U_i \cap U_j \to GL(n)\}$ (def. \ref{TransitionFunctions}) satisfy for all $i,j,k \in I$ the conditions
 
 $$
+  g_{i i} = id
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
   g_{i j} \circ g_{j k} 
     = 
   g_{i k} 
   \phantom{AA}
-  \text{and}
-  \phantom{AA}
-  g_{i i} = id
+  \text{on}\, U_i \cap U_j \cap U_k
+  \,.
 $$
 
-of [[Cech cohomology]] on $X$ in degree 1.
+These are the condition of a [[cocycle]] in degree 1 in [[Cech cohomology]] on $X$ with [[coefficients]] in the [[sheaf]] $\underline{GL(n)}$ of $GL(n)$-valued [[continuous functions]].
 
+=--
 
-In the converse direction, given such a collection $g_{i j}: U_{i} \cap U_j \to GL(V)$ satisfying the 1-cocycle conditions, there is a vector bundle obtained by pasting local trivial bundles together along the $g_{i j}$, namely the [[coequalizer]] of a pair 
+Conversely:
+
++-- {: .num_example #TopologicalVectorBundleFromCechCocycle}
+###### Example
+**(topological vector bundle from a Cech coycle)
+
+Let $X$ be a [[topological space]] and let $n \in \mathbb{N}$ be a [[natural number]]. Consider an [[open cover]] of $X$
+
+$$
+  \{U_i \subset X\}_{i \in I}
+$$
+
+and on each double intersection a [[continuous function]] with values in the [[general linear group]] $GL(n)$
+
+$$
+  \left\{
+    g_{i j} 
+      \;\colon\;
+    U_i \cap U_j
+      \to
+    GL(n)
+  \right\}
+$$
+
+such that for all $i,j,k \in I$ the conditions
+
+$$
+  g_{i i} = id
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  g_{i j} \circ g_{j k} 
+    = 
+  g_{i k} 
+  \phantom{AA}
+  \text{on}\, U_i \cap U_j \cap U_k
+$$
+
+hold (hence consider a [[Cech cohomology]] 1-[[cocycle]] on $X$ with [[coefficients]] in $\underline{GL(n)}$, remark \ref{CechCoycleCondition}).
+
+This induces an [[equivalence relation]] on the [[product topological space]]
+
+$$
+  \left(
+    \underset{i \in I}{\sqcup} U_i
+  \right)
+  \times
+  \mathbb{R}^n
+$$
+
+(of the [[disjoint union space]] of the patches $U_i \subset X$ regarded as [[topological subspaces]] with the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]) given by
+
+$$
+  \big(
+    ((x,i), v)
+     \;\sim\;
+    ((x,j), w)
+  \big)
+   \;\Leftrightarrow\;
+  \left(
+     g_{i j}(x)(v) = w
+  \right)
+  \,.
+$$
+
+Write
+
+$$
+  E 
+   \;\coloneqq\;
+  \left(
+    \left(
+      \underset{i \in I}{\sqcup} U_i
+    \right)
+      \times
+    \mathbb{R}^n
+  \right)
+  /
+  \left(
+     \left\{
+        g_{i j}
+     \right\}_{i,j \in I}
+  \right)
+$$
+
+for the resulting [[quotient topological space]]. This comes with the evident projection
+
+$$
+  \array{
+    E &\overset{\phantom{AA}\pi \phantom{AA}}{\longrightarrow}& X
+    \\
+    ((x,i,),v) &\overset{\phantom{AAA}}{\mapsto}& x
+  }
+$$
+
+which is a [[continuous function]] (by the [[universal property]] of the [[quotient topological space]] construction, since this [[function]] respects the equivalence relation). Moreover, each [[fiber]] of this map is identified with $\mathbb{R}^n$, and hence canonicaly carries the structure of a [[vector space]].
+
+Finally, a local trivialization of $E$ exists over the original cover, by construction.
+
+Therefore this is a topological vector bundle (def. \ref{TopologicalVectorBundle}). We say it is the topological vector bundle _glued from the transition functions_.
+
+In fact extracting transition functions from a vector bundle by def. \ref{TransitionFunctions} and constructing a vector bundle from Cech coycle data as above are operations that are inverse to each other, up to [[isomorphism]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Stated more [[category theory|category theoretically]], the constructure of a topological vector bundle from Cech cocycle data in example \ref{TopologicalVectorBundleFromCechCocycle} is a [universal construction in topological spaces](Top#UniversalConstructions), namely the [[coequalizer]] of the two morphisms
 
 $$i, \mu: \underset{i j}{\sqcup} (U_i \cap U_j) \times V \overset{\to}{\to} \underset{i}{\sqcup} U_i \times V$$ 
 
-in the category of vector space objects in $Top/X$. Here the restriction of $i$ to the coproduct summands is induced by inclusion: 
+in the category of vector space objects in the slice category $Top/X$. Here the restriction of $i$ to the coproduct summands is induced by inclusion: 
 
 $$(U_i \cap U_j) \times V \hookrightarrow U_i \times V \hookrightarrow \underset{i}{\sqcup} U_i \times V$$ 
 
@@ -210,6 +361,9 @@ $$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to
 
 =--
 
+
+
+## Properties
 
 
 ### On compact Hausdorff spaces
@@ -270,7 +424,7 @@ For $X$ a [[topological space]], then for every topological vector bundle $E \to
 +-- {: .proof}
 ###### Proof
 
-By local trvializability of the vector bundle, there exists an open cover $\{V_j \subset X \times I\}_{j \in J}$ over which the bundle trivializes. For each point $x \in X$ this induces a cover of $\{x\} \times [0,1]$. This is a [[compact topological space]] (for instance by the [[Heine-Borel theorem]]) and hence there exists a [[finite set|finite]] [[subset]] $J_x \subset I$ such that $\{V_i \subset X\}_{i \in J_x}$ still covers $\{x\} \times [0,1]$. 
+By [[local trivialization|local trvializability]] of the vector bundle, there exists an open cover $\{V_j \subset X \times I\}_{j \in J}$ over which the bundle trivializes. For each point $x \in X$ this induces a cover of $\{x\} \times [0,1]$. This is a [[compact topological space]] (for instance by the [[Heine-Borel theorem]]) and hence there exists a [[finite set|finite]] [[subset]] $J_x \subset I$ such that $\{V_i \subset X\}_{i \in J_x}$ still covers $\{x\} \times [0,1]$. 
 
 By finiteness of $J_x$, the [[intersection]]
 
