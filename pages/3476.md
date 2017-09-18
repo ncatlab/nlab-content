@@ -197,4 +197,6 @@ Discussion of W-types in [[homotopy type theory]], or rather in [[model categori
 * [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
  {#vdBergMoerdijk13}
 
+W-types in [[Coq]] [wiki](https://coq.inria.fr/cocorico/WTypeInsteadOfInductiveTypes)
+
 [[!redirects W-types]]
