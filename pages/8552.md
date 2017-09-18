@@ -4,6 +4,7 @@
 * [St. Andrews History entry](http://www-history.mcs.st-and.ac.uk/Biographies/Russell.html)
 
 * [Stanford  Encyclopedia of Philosophy](http://plato.stanford.edu/entries/russell/)
+*  The Bertrand Russell society, Russell's texts online, [html](http://users.drew.edu/~jlenz/brtexts.html)
 
 ## Texts
  
