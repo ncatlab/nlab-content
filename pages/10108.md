@@ -29,22 +29,30 @@ and notably
 
 ## References
 
+### Non-perturbative theory and mass gap
+
 A survey and problem description is in
 
-* [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
+* {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
 
-A report from 2004
+and a report on the progress (esseentially none) is in 
 
-* [[Michael Douglas]], _Report on the Status of the Yang-Mills
-Millenium Prize Problem_ ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
+* {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills
+Millenium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
 
 Notes reviewing more technical details of the problem are in 
 
 * Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
 
+### Perturbation theory
+
 The quantization as [[perturbative quantum field theory]] is carried out rigorously via [[causal perturbation theory]] in 
 
 * {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
+The [[locally covariant perturbative quantum field theory]] of Yang-Mill on curved spacetimes is constructed in 
+
+* {#Hollands07} [[Stefan Hollands]], _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
 
 [[!redirects mass gap problem]]
