@@ -45,7 +45,10 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### A1.3 Regular categories
 
-* [[regular categories]]
+* [[regular category]]
+ 
+  * [[regular epimorphism]]
+
 * [[exact category]]
 * [[regular and exact completion]]
 
