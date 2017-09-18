@@ -6,7 +6,13 @@ Leonhard Euler was a major Swiss mathematician of 18th century, working most of 
 
 * [[Euler number]]
 
+* [[Euler formula]]
+
+* [[Euler product]]
+
 * [[Euler characteristic]], [[Euler beta function]]
+
+* [[Euler-Lagrange equation]]
 
 category: people
 
