@@ -9,6 +9,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 Given a [[group]] $G$ and a [[representation]] $V$ of $G$, then any [[subgroup]] inclusion $H\hookrightarrow G$ makes also $H$ [[action|act]] on $G$, this is the _restricted representation_. 
 
@@ -17,6 +22,10 @@ Given an [[irreducible representation]] of $G$, then its decomposition as a [[di
 More generally, for any group [[homomorphism]] $H \to G$ representations of $G$ "pull back" to representations of $G$.
 
 The [[left adjoint]] to this construction is the operation of forming _[[induced representations]]_, the [[right adjoint]] that of _[[coinduced representations]]_.
+
+## Examples
+
+* [[supermultiplet]]
 
 ## References
 
