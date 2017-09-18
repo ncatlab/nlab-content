@@ -756,7 +756,7 @@ hence itself a [[non-unital ring|non-unital]] [[commutative ring]].
 ###### Example
 **(topological K-theory ring of the [[point space]])**
 
-We have already see in example \ref{KGroupOfThePoint} that 
+We have already seen in example \ref{KGroupOfThePoint} that
 
 $$
   K(\ast) \simeq \mathbb{Z}
@@ -771,16 +771,16 @@ $$
 
 Since the complex [[general linear group]] $GL(n,\mathbb{C})$ is [[path-connected topological space|path-connected]]
 ([this prop.](general+linear+group#ConnectednessOfGeneralLinearGroup)) and hence the [[classifying space]]
-$B GL(n,\mathbb{C})$ is [[simply connected topological space|simply]]-connected, hence its 
+$B GL(n,\mathbb{C})$ is [[simply connected topological space|simply]]-connected, hence its
 [[fundamental group]] is trivial $\pi_1(B GL(n,\mathbb{C})) \simeq [S^1, B GL(n,\mathbb{C})] = 1$.
 Accordingly, all [[complex vector bundles]] on $S^1$ are [[isomorphism|isomorphic]] toa [[trivial vector bundle]].
 
-It follows that 
+It follows that
 
 $$
   K_{\mathbb{C}}(S^1) \simeq \mathbb{Z}
   \phantom{AA} \text{and} \phantom{AA}
-  \tilde K_{ \mathbb{C} } \simeq 0 
+  \tilde K_{ \mathbb{C} } \simeq 0
   \,.
 $$
 
@@ -831,6 +831,113 @@ $$
 
 ## Properties
 
+### Exact sequences
+
++-- {: .num_prop}
+###### Proposition
+
+Let
+
+* $X$ be a [[compact Hausdorff space]];
+
+* $A \subset X$ a [[closed subset|closed]] [[subspace]]
+
+Denote the [[continuous functions]] of subspace inclusion and of  [[quotient space]] coprojection  by
+
+$$
+  A
+    \overset{i}{\longrightarrow}
+  X
+    \overset{q}{\longrightarrow}
+  X/A
+  \,.
+$$
+
+Then the induced sequence of [[reduced K-theory]] groups (by functoriality, remark \ref{FunctorialityOfKGroup})
+
+$$
+  \tilde K_{\mathbb{C}}(X/A)
+    \overset{q^\ast}{\longrightarrow}
+  \tilde K_{\mathbb{C}}(X)
+    \overset{i^\ast}{\longrightarrow}
+  \tilde K_{\mathbb{C}}(A)
+$$
+
+is [[exact sequence|exact]], meaning that they induce an [[isomorphism]]
+
+$$
+  im(q^\ast) \simeq ker(i^\ast)
+$$
+
+between the [[image]] of $g^\ast$ and the [[kernel]] of $i^\ast$.
+
+=--
+
+(e.g. [Hatcher, prop. 2.9](#Hatcher))
+
+
++-- {: .num_cor}
+###### Corollary
+
+For $X$ a [[compact Hausdorff space]] and for $A \subset X$ a [[closed subset|closed]] [[subspace]] inclusion,
+there is a [[long exact sequence]] of [[reduced K-theory]] groups of the form
+
+$$
+  \cdots
+    \longrightarrow
+  \tilde K_{\mathbb{C}}(\Sigma X/A)
+    \longrightarrow
+  \tilde K_{\mathbb{C}}(\Sigma X)
+    \longrightarrow
+  tilde K_{\mathbb{C}}( \Sigma A )
+    \longrightarrow
+  \tilde K_{\mathbb{C}}(X/A)
+   \longrightarrow
+  \tilde K_{\mathbb{C}}(X)
+    \longrightarrow
+  \tilde K_{\mathbb{C}}(A)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The sequence is induced by functoriality from the long [[cofiber sequence]]
+
+$$
+  A
+    \overset{i}{\longrightarrow}
+  X
+    \longrightarrow
+  X \cup Cone(A)
+    \longrightarrow
+  (X \cup Cone(A)) \cup Cone(X)
+    \longrightarrow
+  ((X \cup Cone(A)) \cup Cone(X)) \cup (X \cup Cone(A))
+    \longrightarrow
+  \cdots
+$$
+
+obtained by consecutively forming [[mapping cones]]. Since a [[cone]] is a [[contractible topological space]]
+and since vector bundles over the [[quotient space]] by a contractible space are equivalent to
+bundles over the original space [this prop.](topological+vector+bundle#VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace)
+and since quotienting out the cone in a mapping cone is equivalent toquotienting out its base, we get
+
+$$
+  Vect(X \cup Cone(A)) \simeq Vect(X / A)
+$$
+
+etc. This yields the claim.
+
+
+
+=--
+
+
+
+
+
 ### Fundamental product theorem
 
 For $S^2 \subset \mathbb{R}^3$ the [[2-sphere]] with its [[Euclidean space|Euclidean]] [[subspace topology]],
@@ -878,7 +985,7 @@ $$
   }
 $$
 
-to the topological K-theory ring of the [[product topological space]] $X \times S^^2$, where the second map is the [[external tensor product of vector bundles]].
+to the topological K-theory ring of the [[product topological space]] $X \times S^2$, where the second map is the [[external tensor product of vector bundles]].
 
 +-- {: .num_prop #FundamentalProductTheorem}
 ###### Proposition
