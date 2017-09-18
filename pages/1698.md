@@ -768,6 +768,9 @@ $$
 
 being a fibration sequence. The corresponding long exact sequence in cohomology (as discussed above) is what is traditionally called the Mayer-Vietoris sequence of the cover of $X$ by $U$ and $V$ in $A$-cohomology.
 
+## Related concepts
+
+* [[tower of homotopy fibers]]
 
 ## References
 
