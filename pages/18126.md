@@ -1718,7 +1718,7 @@ Often it is useful to reformulate def. \ref{ClosedSubset} of [[closed subsets]] 
 
 +-- {: .num_lemma #UnionOfOpensGivesClosure}
 ###### Lemma
-**(alternative characterization of closed subsets)**
+**(alternative characterization of topological closures)**
 
 Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] of its underlying
 set. Then a point $x \in X$ is contained in the [[topological closure]] $Cl(S)$ (def. \ref{ClosedSubset})
@@ -1745,7 +1745,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In view of prop. \ref{deMorgan} we may rephrase the definition of the [[topological closure]]
+Due to [[de Morgan duality]] (prop. \ref{deMorgan}) we may rephrase the definition of the [[topological closure]]
 as follows:
 
 $$
@@ -1767,8 +1767,60 @@ $$
 $$
 
 
+=--
+
++-- {: .num_prop #ClosureOfAFiniteUnionIsUnionOfTheClosures}
+###### Proposition
+**(closure of a finite union is the union of the closures)**
+
+For $I$ a [[finite set]] and $\{U_i \subset X\}_{i \in I}$ is a finite set of subsets of a topological space, then
+
+$$
+  Cl(\underset{i \in I}{\cup}U_i)
+  =
+  \underset{i \in I}{\cup} Cl(U_i)
+  \,.
+$$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{UnionOfOpensGivesClosure} we use that a point is in the closure of a set precisely if every open neighbourhood of the point intersects the set.
+
+Hence in one direction
+
+$$
+  \underset{i \in I}{\cup} Cl(U_i)
+  \subset
+  Cl(\underset{i \in I}{\cup}U_i)
+$$
+
+because if every neighbourhood of a point intersects all the $U_i$, then every neighbourhood intersects their union.
+
+The other direction
+
+$$
+  Cl(\underset{i \in I}{\cup}U_i)
+  \subset
+  \underset{i \in I}{\cup} Cl(U_i)
+$$
+
+is equivalent by [[de Morgan duality]] to
+
+$$
+  X \setminus
+  \underset{i \in I}{\cup} Cl(U_i)
+  \subset
+  X \setminus
+  Cl(\underset{i \in I}{\cup}U_i)
+$$
+
+On left now we have the point for which there exists for each $i \in I$ a neighbourhood $U_{x,i}$ which does not intersect $U_i$. Since $I$ is finite, the intersection $\underset{i \in I}{\cap} U_{x,i}$ is still an open neighbourhood of $x$, and such that it intersects none of the $U_i$, hence such that it does not intersect their union. This implis that the given point is contained in the set on the right.
+
+=--
+
 
 
 +-- {: .num_defn #IntSubset}
@@ -10423,8 +10475,8 @@ of $\mathcal{U}$.
 
 =--
 
-We consider now three important classes of examples of paracompact spaces whose proof of 
-paracompactness requires a little work.
+We consider now three important classes of examples of paracompact spaces whose proof of
+paracompactness is non-trivial:
 
 * [[CW-complexes]] (example \ref{ParacompactHausdorffCWComplexes});
 
@@ -10506,8 +10558,8 @@ For $n \in \mathbb{N}$ the _[[general linear group]]_ $GL(n, \mathbb{R})$ is the
      \right)
    $$
 
-   with group operation given by [[matrix multiplication]]. 
-   
+   with group operation given by [[matrix multiplication]].
+
    This becomes a [[topological group]] (def. \ref{TopologicalGroup})
    by taking the [[topological space|topology]] on $GL_(n,\mathbb{R})$ to be the
    [[subspace topology]] (def. \ref{SubspaceTopology}) as a subspace of the [[Euclidean space]] (example \ref{EuclideanNorm}) of [[matrices]]
@@ -10585,7 +10637,7 @@ by prop. \ref{ParacompactLocallyCompactTopologicalGroups}.
 
 $\,$
 
-In identifying [[paracompact Hausdorff spaces]] it is often useful 
+In identifying [[paracompact Hausdorff spaces]] it is often useful
 (as witnessed for instance by prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} and prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} below) to consider two closely
 related properties of topological spaces:
 
@@ -10620,11 +10672,11 @@ A [[countable set]] of [[topological base|base open subsets]] is given by the [[
 
 To see that this is still a [[base for a topology|base]], it is sufficient to see that every point inside very
 [[open ball]] in $\mathbb{R}^n$ is contains in an open  ball of rational radius with rational coordinates of its
-center that is still itself contained in the original open ball. 
+center that is still itself contained in the original open ball.
 
-To that end, let $x$ be a point inside an [[open ball]] 
-and let $d \in \mathbb{R}_{\gt 0}$ be its [[distance]] from the [[boundary]] of the ball. 
-By the fact that the rational numbers are a [[dense subset]] of $\mathbb{R}$, we may find $\epilon \in \mathbb{Q}$ such that 
+To that end, let $x$ be a point inside an [[open ball]]
+and let $d \in \mathbb{R}_{\gt 0}$ be its [[distance]] from the [[boundary]] of the ball.
+By the fact that the rational numbers are a [[dense subset]] of $\mathbb{R}$, we may find $\epilon \in \mathbb{Q}$ such that
 $0 \lt \epsilon \lt d/2$ and then we may find $x' \in \mathbb{Q}^n \subset \mathbb{R}^n$ such that $x' \in B_x^\circ(d/2)$.
 This open ball contains $x$ and is contained in the original open ball.
 
@@ -10666,7 +10718,12 @@ $$
 $$
 
 be the [[closed ball]] (def. \ref{OpenBalls}) of [[radius]] $k$. By the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}) these
-are [[compact topological space|compact]] [[subspaces]]. Clearly they exhaust $\mathbb{R}^n$.
+are [[compact topological space|compact]] [[subspaces]]. Clearly they exhaust $\mathbb{R}^n$:
+
+$$
+  \mathbb{R}^n = \underset{k \in \mathbb{N}}{\cup} B_0(k)
+  \,.
+$$
 
 =--
 
@@ -10730,21 +10787,23 @@ $$
 $$
 
 is an open neighbourhood of $Q_n$, hence in particular of $Cl(U_n)$. Moreover, since finite unions of compact
-spaces are compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}), the closure of $U_{n+1}$ is compact:
+spaces are compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}), 
+and since the closure of a finite union is the union of the closures (prop. \ref{ClosureOfAFiniteUnionIsUnionOfTheClosures}) 
+the closure of $U_{n+1}$ is compact:
 
 $$
   \begin{aligned}
     Cl(U_{n+1})
     &=
-    Cl\left(  \underset{x\in J}{\cup} V_x \right)
+    Cl\left(  \underset{x\in J_n}{\cup} V_x \right)
     \\
     & =
-    \underset{x \in J}{\cup} \underset{\text{compact}}{Cl( V_x )}
+    \underset{x \in J_n}{\cup} \underset{\text{compact}}{Cl( V_x )}
   \end{aligned}
   \,.
 $$
 
-This produces by [[induction]] a set $\{U_n \subset X\}_{i \in \mathbb{N}}$ with $Cl(U_i)$ compact and $Cl(U_i) \subset U_{i+1}$ for all $i \in \mathbb{N}$. It remains to see that this is a cover. This follows since by construction each $U_{n+1}$ is an open neighbourhood not just of $Cl(U_{n})$ but in fact of $Q_n$, hence in particular of $K_n$, and since the $K_n$ form a cover by assumption:
+In conclusion, by [[induction]] we have produced  a set $\{U_n \subset X\}_{i \in \mathbb{N}}$ with $Cl(U_i)$ compact and $Cl(U_i) \subset U_{i+1}$ for all $i \in \mathbb{N}$. It remains to see that this is a cover. This follows since by construction each $U_{n+1}$ is an open neighbourhood not just of $Cl(U_{n})$ but in fact of $Q_n$, hence in particular of $K_n$, and since the $K_n$ form a cover by assumption:
 
 $$
   \underset{i \in \mathbb{N}}{\cup} U_i
@@ -10859,13 +10918,13 @@ $\,$
 
 Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] (def. \ref{OpenCover}), and let $\{V_j \subset X\}_{j \in J}$, be a [[refinement]] (def. \ref{RefinementOfOpenCovers}) to a [[locally finite cover]] (def. \ref{LocallyFiniteCover}).
 
-By definition of [[refinement]] we may [[axiom of choice|choose]] a [[function]] 
+By definition of [[refinement]] we may [[axiom of choice|choose]] a [[function]]
 
 $$
   \phi \colon J \to I
 $$
 
-such that 
+such that
 
 $$
   \underset{j \in J}{\forall}\left( V_j \subset U_{\phi(j)} \right)
@@ -11387,7 +11446,7 @@ $$
   \,.
 $$
 
-By construction, the set of function $\{h_i\}_{i \in I}$ already 
+By construction, the set of function $\{h_i\}_{i \in I}$ already
 satisfies conditions 1) and 2) on a partition of unity subordinate to $\{U_i \subset X\}_{i \in I}$ from def. \ref{PartitionOfUnity}.
 It just remains to normalize these functions so that they indeed sum to unity. To that end, consider the continuous function
 
