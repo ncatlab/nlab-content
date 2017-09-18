@@ -10,7 +10,7 @@
 
 ## Formalism
 
-There are various ways to formulate [[quantum mechanics]] mathematically, but the following elements are fairly common:
+There are various ways to formulate [[quantum mechanics]] mathematically, but the following elements are fairly common (see also at _[[JBW-algebraic quantum mechanics]]_):
 
 *  There is an algebra $A$ of [[observables]]; some or all of the elements of this algebra correspond to physically observable quantities.
 *  There is a space $S$ of [[states]], by which we mean [[mixed states]] in general.
