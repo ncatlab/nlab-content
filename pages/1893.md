@@ -390,7 +390,7 @@ The $\lambda$-ring structure on [[equivariant elliptic cohomology]] is due to
 * {#Ganter07} [[Nora Ganter]], _Stringy power operations in Tate K-theory_, Homology, Homotopy, Appl., 2013; arXiv:math/0701565
 
 
-* {#Ganter13} [[Nora Ganter]], \Power operations in orbifold Tate K-theory"; arXiv:1301.2754
+* {#Ganter13} [[Nora Ganter]], Power operations in orbifold Tate K-theory"; arXiv:1301.2754
 
 Discussion in the context of [[Borger's absolute geometry]] is in
 
