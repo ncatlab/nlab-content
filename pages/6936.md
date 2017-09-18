@@ -148,7 +148,7 @@ The first constructor gives a map from `X` to `localize X`, while the other four
 
 ### Spectrification
 
-A [[prespectrum]] is a sequence of [[pointed object|pointed types]] $X_n$ with pointed maps $X_n \to \Omega X_n$:
+A [[prespectrum]] is a sequence of [[pointed object|pointed types]] $X_n$ with pointed maps $X_n \to \Omega X_{n+1}$:
 
     Definition prespectrum :=
       {X : nat -> Type & 
