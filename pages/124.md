@@ -267,6 +267,8 @@ For various applications one uses toposes that have [[stuff, structure, property
 
   [[monoidal topos]]
 
+  [[isotropy group of a topos]]
+
 * [[(∞,1)-topos]] 
 
   * [[model topos]]
