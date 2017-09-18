@@ -964,14 +964,14 @@ This appears as ([ChristensenHovey, prop. 2.5](#ChristensenHovey)).
 
 For $R$ any ring, there is the [[Eilenberg-MacLane spectrum]] $H R$. This is an [[algebra spectrum]], hence there is a notion of $H R$-[[module spectra]]. These are [[Quillen equivalence|Quillen equivalent]] to chain complexes of $R$-modules. See [[module spectrum]] for details.
 
-## Examples
 
-### On dg-modules
-
-* [[model structure on dg-modules]].
 
 
 ## Related concepts
+
+* [[model structure on dg-modules]]
+
+* [[model structure on dg-algebras]]
 
 * [[stable model category]]
 
