@@ -1,13 +1,25 @@
 
 * [webpage](http://rejzner.com/)
 
-Thesis: _Batalin-Vilkovisky formalism in locally covariant field theory_ ([arXiv:1111.5130](http://arxiv.org/abs/1111.5130)) on [[BV-BRST formalism]] in [[AQFT]].
+## Writings
+
+* Thesis: _Batalin-Vilkovisky formalism in locally covariant field theory_ ([arXiv:1111.5130](http://arxiv.org/abs/1111.5130)) 
+
+  on [[BV-BRST formalism]] on [[perturbative AQFT]].
+
+
+* textbook: _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+
+  on [[locally covariant perturbative AQFT]]
+
 
 ## Related $n$Lab entries
 
 * [[locally covariant perturbative quantum field theory]]
 
 * [[deformation quantization]]
+
+* [[BRST-BV formalism]]
 
 
 category: people
