@@ -97,7 +97,7 @@ $\not\not$ is the unique largest topology in $\mathcal{E}$ for which $0\rightarr
 
 For a proof see ([Johnstone (1977)](#Johnstone77), p.140).
 
-Both of the preceeding results imply in particular that **$0$ is always a $\not\not$-sheaf**, i.e. $\mathcal{E}_{\not\not}$ is always a [[dense subtopos]].  In fact, we have:
+Both of the preceding results imply in particular that **$0$ is always a $\not\not$-sheaf**, i.e. $\mathcal{E}_{\not\not}$ is always a [[dense subtopos]].  In fact, we have:
 
 +-- {: .num_prop #boolean_subtopos}
 ###### Proposition
