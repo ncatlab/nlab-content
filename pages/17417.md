@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -41,55 +52,88 @@ Since $g*y = y$ for all $y \in X$, therefore $g = 1$ by the assumption that $G$ 
 * If one views a [[combinatorial map]] $M$ as the transitive action of a certain group of permutations, then $M$ represents a _regular map_ ([Siran 2006](#SiranSurvey)) just in case this action is regular.  For example, the five [[Platonic solids]] may be represented as regular combinatorial maps.
 
 ##In homotopy type theory
+ {#InHomotopyTypeTheory}
 
-Since doing group [representation theory](representation+theory#in_homotopy_type_theory) corresponds to working in the context of a [[delooped group]] in [[homotopy type theory]], the regularity of an action is naturally expressed there. Transitivity ensures that all the points in the homotopy quotient are connected by equivalences, while freeness means that the space of equivalences between two points is itself contractible. Hence if $\ast: \mathbf{B} G \vdash X(\ast): Type$ corresponds to a regular action, then the quotient $\sum_{\ast: \mathbf{B} G} X(\ast)$ is contractible.
+We discuss regular actions via [[homotopy type theory]].
 
-Restriction to 1-groups is unnecessary here, and we may speak of a regular [[infinity-action]] by an [[infinity-group]] as one with contractible homotopy quotient.
+Since doing group [representation theory in homotopy type theory](representation+theory#InHomotopyTypeTheory) corresponds to working in the [[context]] of a [[delooped group]] in [[homotopy type theory]], the regularity of an action is naturally expressed there. Transitivity ensures that all the points in the [[homotopy quotient]] are connected by equivalences, while freeness means that the space of equivalences between two points is itself [[contractible space|contractible]]. Hence if $\ast \colon \mathbf{B} G \vdash X(\ast): Type$ corresponds to a regular action, then the quotient $\sum_{\ast: \mathbf{B} G} X(\ast)$ is contractible.
 
-For any $G$-action $X : BG \to U$, we define
+Restriction to 1-groups is unnecessary here, and we say
+
++-- {: .num_defn #RegularInfinityAction}
+###### Definition
+
+An [[∞-action]] of an [[∞-group]] is a **regular $\infty$-action** if its [[homotopy quotient]] is [[contractible type|contractible]].
+
+=--
+
+
+For any $G$-action ([[∞-action]]) $X \colon BG \to U$, its [[automorphism group]] is (see at [automorphism ∞-group in HoTT](automorphism+infinity-group#InHomotopyTypeTheory))
+
 $$
-BAut_G(X) := \sum_{(P:BG \to U)} \|P=X\|
+  B Aut_G(X) \coloneqq \sum_{(P:BG \to U)} \|P=X\|
 $$
+
 and 
-$$\tilde{X} : BAut_G(X) \to U$$ 
-by $\tilde{X}(P,-) := P(\ast)$.
+
+$$
+   \tilde{X} \colon B Aut_G(X) \to U
+$$ 
+
+by $\tilde{X}(P,-) \coloneqq P(\ast)$.
 
 +-- {: .num_prop}
 ###### Proposition
+
 If $X$ is regular, then $\tilde{X}$ is regular.
+
 =--
 
 +-- {: .proof} 
 ###### Proof
-First, we need to argue that $X(\ast)$ is merely inhabited. Since $X$ is regular, we have $\sum_{(b:BG)} X(b)$ contractible. This gives a center of contraction $(b,x)$. Now, since $BG$ is connected, it follows that $\|b=\ast\|$. Since we are proving the mere proposition $\|X(\ast)\|$, we get to use $b=\ast$. Now we obtain $\|X(\ast)\|$ . 
 
-Next, to show that $\tilde{X}$ is regular we need to show that $\tilde{X}$ has a contractible total space. The type $\sum_{(b : BAut_G(X))} \tilde{X}(b)$ is equivalent to $\sum_{(P:BG \to U)} \|P=X\| \times P(\ast)$. Contractibility is a mere proposition, and we have $\|X(\ast)\|$, so we get to use a point $x:X(\ast)$. This gives us a center of contraction $(X,refl,x)$ of the total space of $\tilde{X}$. 
+First, we need to argue that $X(\ast)$ is [[mere proposition|merely]] [[inhabited type|inhabited]]. Since $X$ is regular, we have $\sum_{(b:BG)} X(b)$ [[contractible type|contractible]]. This gives a center of contraction $(b,x)$. Now, since $B G$ is connected, it follows that $\|b=\ast\|$. Since we are proving the [[mere proposition]] $\|X(\ast)\|$, we get to use $b=\ast$. Now we obtain $\|X(\ast)\|$. 
 
-Now let $P : BG \to U$, let $ \| P = X \|$, let $p_0 : P(\ast)$. To show regularity, it suffices to find a term of type
+Next, to show that $\tilde{X}$ is regular we need to show that $\tilde{X}$ has a contractible total space. The [[dependent sum]] type $\sum_{(b : BAut_G(X))} \tilde{X}(b)$ is equivalent to $\sum_{(P:BG \to U)} \|P=X\| \times P(\ast)$. Contractibility is a [[mere proposition]], and we have $\|X(\ast)\|$, so we get to use a point $x:X(\ast)$. This gives us a center of contraction $(X,refl,x)$ of the total space of $\tilde{X}$. 
 
-$\sum_{\alpha : P = X} \mathrm{trans}(\alpha)(p_0) = x$
+Now let $P : BG \to U$, let $ \| P = X \|$, let $p_0 : P(\ast)$. To show regularity, it suffices to find a [[term]] of type
+
+$$
+  \sum_{\alpha : P = X} \mathrm{trans}(\alpha)(p_0) = x
+  \,.
+$$
 
 This type is equivalent to showing that there are
 
-$K : \prod_{b:BG} P(b) \simeq X(b)$, and
-$K(*,p_0) = x_0$
+$$
+  K : \prod_{b:BG} P(b) \simeq X(b)
+  \;\;\;\;
+  \text{and}
+  \;\;\;\;\;
+  K(*,p_0) = x_0
+  \,.
+$$
 
 Now we use that $X(b)$ is equivalent to $b=\ast$ (we get this fact from regularity, together with a point $x:X(\ast)$). 
-Since we need this particular fiberwise equivalence, it suffices to show that
+Since we need this particular fiberwise [[equivalence in homotopy type theory|equivalence]], it suffices to show that
 
 $\sum_{b:BG} P(b)$
 
-is contractible. Now this is a mere proposition, so we can eliminate $t : \| P = X \|$ to obtain the proof.
+is [[contractible type|contractible]]. Now this is a [[mere proposition]], so we can eliminate $t : \| P = X \|$ to obtain the proof.
+
 =--
 
 +-- {: .num_prop}
 ###### Proposition
+
 If $X$ is a principal homogeneous space on $G$, in the sense that the type $\sum_{(g:G)} g_\ast(x)=y$ is contractible for all $x,y:X(\ast)$, and $\tilde{X}$ is regular, then $X$ is regular.
+
 =--
 
 +-- {: .proof}
 ###### Proof
-Again, we first show that $X(\ast)$ is merely inhabited. The total space of $\tilde{X}$ has center of contraction $(P,p_0)$. Since $\|P=X\|$ and since we are proving a mere proposition, we get to use $P=X$. Now $\|X(\ast)\|$ follows from $p_0:P(\ast)$. The regularity of $X$ is a mere proposition, so we get to use $x_0:X(\ast)$. This gives us the center of contraction $(\ast,x_0)$. It remains to show that
+
+Again, we first show that $X(\ast)$ is [[mere proposition|merely]] [[inhabited type|inhabited]]. The total space of $\tilde{X}$ has center of contraction $(P,p_0)$. Since $\|P=X\|$ and since we are proving a [[mere proposition]], we get to use $P=X$. Now $\|X(\ast)\|$ follows from $p_0:P(\ast)$. The regularity of $X$ is a mere proposition, so we get to use $x_0:X(\ast)$. This gives us the center of contraction $(\ast,x_0)$. It remains to show that
 
 $\prod_{(b:BG)} \prod_{(x:X(b))} \sum_{(\alpha : b=\ast)} \mathrm{trans}(\alpha,x) = x_0$.
 
@@ -119,3 +163,8 @@ This holds by assumption.
 [[!redirects regular actions]]
 [[!redirects regular group action]]
 [[!redirects regular group actions]]
+
+[[!redirects regular infinity-action]]
+[[!redirects regular ∞-action]]
+[[!redirects regular infinity-actions]]
+[[!redirects regular ∞-actions]]
