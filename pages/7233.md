@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _$G_2$-structure_ on a [[manifold]] $X$ of [[dimension]] 7 is a choice of [[G-structure]] on $X$, for $G$ the [[exceptional Lie group]] [[G2]]. Hence it is a reduction of the structure group]] of the [[frame bundle]] of $X$ along the canonical (the defining) inclusion $G_2 \hookrightarrow GL(\mathbb{R}^7)$ into the [[general linear group]].
+A _$G_2$-structure_ on a [[manifold]] $X$ of [[dimension]] 7 is a choice of [[G-structure]] on $X$, for $G$ the [[exceptional Lie group]] [[G2]]. Hence it is a reduction of the [[structure group]] of the [[frame bundle]] of $X$ along the canonical (the defining) inclusion $G_2 \hookrightarrow GL(\mathbb{R}^7)$ into the [[general linear group]].
 
 Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Cartesian space]] $\mathbb{R}^7$ which preserves the [[associative 3-form]] on $\mathbb{R}^7$, a $G_2$ structre is a higher analog of an  [[almost symplectic structure]] under lifting from [[symplectic geometry]] to [[2-plectic geometry]] ([Ibort](#Ibort)).
 
