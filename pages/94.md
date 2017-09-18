@@ -40,25 +40,24 @@ An **$L_\infty$-algebra** is an [[algebra over an operad]] in the [[category of 
 
 In the following we spell out in detail what this means in components.
 
-### Original definition in terms of lots of brackets ###
+### Original definition in terms of lots of brackets 
 
 Originally $L_\infty$-algebras were defined as follows:
 
 an $L_\infty$-algebra is an $\mathbb{N}_+$-[[graded vector space]] $\mathfrak{g} = V$ together with for each $n \in \mathbb{N}_+$ a list of graded-symmetric linear maps
 
 $$
-  l_n(\cdots) := [-,-, \cdots, -] : V^{\wedge n} \to V
+  l_n(\cdots) \coloneqq [-,-, \cdots, -] : V^{\wedge n} \to V
 $$
 
 of degree -1, that satisfy a generalized [[Jacobi identity]] of the form
 
 \[
  \label{LInfinityJacobiIdentity}
-  \sum_{i+j = n+1} 
+  \sum_{i+j = n} 
   \sum_{\sigma \in UnShuff(i,j)}
-
   (-1)^{sgn(\sigma)} 
-   l_i \left(
+   l_{i+1} \left(
      l_j \left( v_{\sigma(1)}, \cdots, v_{\sigma(j)} \right),
      v_{\sigma(j+1)} , \cdots , v_{\sigma(n)}
    \right)
@@ -459,6 +458,7 @@ Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9
 
 A quick web entry is:
 
+
 * Marilyn Daily, [$L_\infty$-structures](http://www.aei.mpg.de/~md/hl.html).
 
 See also
@@ -467,13 +467,14 @@ See also
 
 A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
 
-* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
- {#KrizMay}
+* {#KrizMay} [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
+ 
 
 See also for instance section 3.1 of:
 
-* [[Alberto Cattaneo]], [[Florian Schätz]], _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
- {#CattaneoSchaetz}
+* {#CattaneoSchaetz} [[Alberto Cattaneo]], [[Florian Schätz]], _Equivalences of higher derived brackets_ ([arXiv:0704.1403](http://arxiv.org/abs/0704.1403))
+ 
+
 A detailed reference for Lie 2-algebras is:
 
 * [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv](http://arxiv.org/abs/math/0307263))
