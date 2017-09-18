@@ -93,7 +93,9 @@ More generally, for the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for a
 
 (These conditions are not entirely set in stone, they are being varied according to application (see e.g. [this MO comment](http://mathoverflow.net/a/66598/381))).
 
-In particular one considers subspaces of "[[unramified]]" such functions, namely those which are in addition trivial on the subgroup of $GL_n$ of the [[integral adeles]] $\mathcal{O}_F$ ([Goldfeld-Hundley 11, def. 2.1.12](#GoldfeldHundley11)). This means that that unramified automorphic representations are spaces of functions on a double [[coset]] of the form
+In particular one considers subspaces of "[[unramified]]" such functions, namely those which are in addition trivial on the subgroup of $GL_n$ of the [[integral adeles]] $\mathcal{O}_F$ ([Goldfeld-Hundley 11, def. 2.1.12](#GoldfeldHundley11)). This means that that unramified automorphic representations are spaces of functions on a [[double 
+
+coset]] of the form
 
 $$
   GL_n(F)\backslash GL_n(\mathbb{A}_F) / GL_n(\mathcal{O}_F)
