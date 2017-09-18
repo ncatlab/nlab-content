@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[1-morphism]] in a [[2-category]] is an _[[equivalence]]_ if there exists another 1-morphism the other way around, such that both are [[inverses]] up to invertible [[2-morphisms]].
+A [[1-morphism]] in a [[2-category]] is an _[[equivalence]]_ if there exists another 1-morphism the other way around, such that both are [[inverses]] up to invertible [[2-morphisms]]. 1-equivalence is a synonym to an equivalence in a 2-category.
 
 ## Examples
 
@@ -34,4 +34,5 @@ A [[1-morphism]] in a [[2-category]] is an _[[equivalence]]_ if there exists ano
 
 [[!redirects equivalences in a 2-category]]
 [[!redirects equivalences in 2-categories]]
+[[!redirects 1-equivalence]]
 
