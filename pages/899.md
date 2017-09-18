@@ -119,7 +119,7 @@ $$
 
 Finally, as indicated in the proof of Lemma \ref{OpenSubgroupOfTopologicalGroupIsClosed}, the cosets of the open subgroup $H$ are all open and partition $G$ as a [[disjoint union space]] ([[coproduct]] in [[Top]]) of these open cosets. From this we may draw the following conclusions. 
 
-* In the particular case where $G$ is connected, then there is just one such coset, namely $H$ itself. The argument above thus shows that a connected locally compact topological group is $\sigma$-compact and therefore (because it is locally compact) also paracompact. 
+* In the particular case where $G$ is connected, then there is just one such coset, namely $H$ itself. The argument above thus shows that a connected locally compact topological group is $\sigma$-compact and (by local compactness) also paracompact.
 
 * In the general case, all the cosets are homeomorphic to $H$ which we have just shown to be a paracompact group. Thus $G$ is a [[disjoint union space]] of paracompact spaces. This is again paracompact (by [this prop.](paracompact+topological+space#ParacompactnessPreservedByDisjointUnion)).
 
