@@ -35,7 +35,7 @@ In the nineteenth century, syllogism became seen to be insufficiently expressive
 A proposal for formalization of syllogisms within [[linear logic]] is in 
 
 
-* Ruggero Pagnan, _Syllogisms in Rudimentary Linear Logic, Diagrammatically_ ([arXiv:1302.7111](http://arxiv.org/abs/1302.7111))
+* {#Pagnan13} Ruggero Pagnan, _Syllogisms in Rudimentary Linear Logic, Diagrammatically_ ([arXiv:1302.7111](http://arxiv.org/abs/1302.7111))
 
 
 [[!redirects syllogisms]]
