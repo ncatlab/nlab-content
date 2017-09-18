@@ -40,6 +40,10 @@ The most familiar example is the category [[Set]], where the objects are sets an
 
 * **morphism**, [[mutlimorphism]]
 
+  * [[inverse morphism]]
+
+  * [[adjoint morphism]]
+
 * [[2-morphism]]
 
 * [[3-morphism]]
