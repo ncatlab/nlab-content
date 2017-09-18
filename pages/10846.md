@@ -21,11 +21,13 @@
 
 ## Idea
 
-The refinement of the notion of [[complex analytic space]] from [[geometry]] to [[higher geometry]]/[[higher algebra]].
+Complex [[derived analytic geometry]] is the refinement of the notion of [[complex analytic space]] from [[geometry]] to [[higher geometry]]/[[higher algebra]].
 
 ## Related concepts
 
 * [[higher complex analytic geometry]]
+
+* [[derived analytic geometry]]
 
 ## References
 
@@ -35,7 +37,7 @@ The refinement of the notion of [[complex analytic space]] from [[geometry]] to 
 
 * [[Mauro Porta]], _[[Derived Analytic Rings]]_ (preprint including a good theory of modules over analytic rings)
 
-* [[Frédéric Paugam]], _[[Overconvergent global analytic geometry]]_ (a theory over a general base Banach ring that specializes to an overconvergent definition of derived complex analytic spaces, adapted to motivic homotopy constructions)
+* [[Frédéric Paugam]], _[[Overconvergent global analytic geometry]]_ (a theory over a general base Banach ring that specializes to an overconvergent definition of derived complex analytic spaces)
 
 [[!redirects derived complex analytic spaces]]
 
