@@ -662,13 +662,13 @@ Keeping that in mind, we do list some special cases and special classes of examp
 ## References
  {#References}
 
-The idea of adjoint functors goes back to 
+Though the definition of an [[adjoint equivalence]] appears in [[Grothendieck|Grothendieck's]] [[Tohoku]] paper, the idea of adjoint functors in general goes back to 
 
 * [[Daniel Kan]], _Adjoint functors_, Transactions of the American Mathematical Society Vol. 87, No. 2 (Mar., 1958), pp. 294-329 ([jstor](http://www.jstor.org/stable/1993102))
 
 and was popularized by
 
-* {#Freyd66} [[Peter Freyd]], _Abelian categories -- An introduction to the theory of functors_, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freydab.pdf))
+* {#Freyd66} [[Peter Freyd]], _Abelian categories -- An introduction to the theory of functors_, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freydab.pdf)).
 
 For other textbook reference see any of the references listed at _[[category theory]]_, for instance 
 
