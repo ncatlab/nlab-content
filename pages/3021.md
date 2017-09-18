@@ -1,7 +1,7 @@
 
 Nicola Gambino is associate professor of [[mathematics]] at Leeds.
 
-* [website](http://www.math.unipa.it/~ngambino/)
+* [website](http://www1.maths.leeds.ac.uk/~pmtng/)
 
 # related $n$Lab entries #
 
