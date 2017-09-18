@@ -68,7 +68,7 @@ $$
 $$
 
 
-An _[[n-point function]]_, is an  $n$th [[moment]] of this Gaussian distribution:
+An _[[n-point function]]_ $\langle \phi_{x_1} \phi_{x_2} \cdots \phi_{x_n}\rangle$ is an  $n$th [[moment]] of this Gaussian distribution:
 
 $$
   \begin{aligned}
@@ -99,7 +99,7 @@ In order to compute these conveniently, pass to the [[generating function]] obta
 $$
   \begin{aligned}
   Z(J)
-  & =
+  & \coloneqq
   \int( \exp(- S_{kin}(\phi) + J \cdot\phi) ) D\phi
   \\
   & \coloneqq
@@ -111,12 +111,12 @@ $$
   d\phi_{1} \cdots d\phi_{k}
   \\
     & =
-    Z_0 \exp(\tfrac{1}{2} J_x A^{-1}_{x,y} J_y)
+    Z_0 \exp(\tfrac{1}{2} \sum_{x = 1}^k J_x A^{-1}_{x,y} J_y)
   \end{aligned}
   \,,
 $$
 
-where $A^{-1} = (A^{-1}_{x,y})$ is the [[inverse matrix]] of $A$. In applications to field theory this $A^{-1}$ is called the _[[Feynman propagator]]_. Notice that in "[[Schwinger parameterization]]" $A^{-1}_{x,y} = \int_0^\infty \exp(- \tau A_{x,y}) d\tau$ and we may think of $\exp(-\tau A_{x,y})$ is the propagator for a scalar along its [[worldline]] of length $\tau$ from $x$ to $y$ ("[[worldline formalism]]").
+where $A^{-1} = (A^{-1}_{x,y})$ is the [[inverse matrix]] of $A$, which appears by computing the integral via [[completing the square]] in the exponent. In applications to field theory this $A^{-1}$ is called the _[[Feynman propagator]]_. Notice that in "[[Schwinger parameterization]]" $A^{-1}_{x,y} = \int_0^\infty \exp(- \tau A_{x,y}) d\tau$ and we may think of $\exp(-\tau A_{x,y})$ is the propagator for a scalar along its [[worldline]] of length $\tau$ from $x$ to $y$ ("[[worldline formalism]]").
 
 By construction, the $n$-point function is then equal to the [[partial derivatives]] of the [[generating function]] with respect to the [[source]] [[variable]] $J$ and evaluated at $J = 0$:
 
@@ -124,36 +124,43 @@ $$
   \begin{aligned}
     \langle \phi_{x_1} \cdots \phi_{x_n}  \rangle
     &=
+    \frac{1}{Z_0}
     \left(
     \frac{\partial}{\partial J_{x_1}}
     \cdots
     \frac{\partial}{\partial J_{x_n}}
     Z(J)
-    \right)_{J = 0}
+    \right)_{\vert J = 0}
     \\
     & =
+   \frac{1}{Z_0}
    \left(
    \frac{\partial}{\partial J_{x_1}}
    \cdots
    \frac{\partial}{\partial J_{x_n}}
-   \exp(\tfrac{1}{2} J_{x} A^{-1}_{x y} J_y)
-   \right)_{J = 0}
+   \exp(\tfrac{1}{2} \sum_{x = 1}^k J_{x} A^{-1}_{x y} J_y)
+   \right)_{\vert J = 0}
    \\
    & = 
-   \underset{pairings}{\sum} A^{-1}_{x_{k_1} x_{k_2}} \cdot A^{-1}_{x_{k_3} x_{k_4}} \cdots A^{-1}_{x_{k_{n-1}}x_{k_n}}
+   \underset{pairings}{\sum}  A^{-1}_{x_{j_1} x_{j_2}} \cdot A^{-1}_{x_{j_3} x_{j_4}} \cdots A^{-1}_{x_{j_{n-1}}x_{j_n}}
   \end{aligned}
 $$
 
 where the last [[equality]] is known as [[Wick's theorem]]. This is the source of all Feynman digrammatics.
 
-Now consider a [[polynomial]] $V(\phi)$ of degree $\geq 3$.  In applications to field theory this represents the [[potential energy]] or (self)[[interaction]] of the field configuration. The difference of the [[kinetic action]] and the [[interaction]] is called the [[action]]
+Now consider a [[polynomial]] $V(\phi)$ of degree $\geq 3$.  In applications to field theory this represents the [[potential energy]] or (self)[[interaction]] of the field configuration. The difference of the [[kinetic energy]] and the [[potential energy]] is called the (here: "Wick rotated"/"Euclidean") [[action]]
 
 $$
-  S = \tfrac{1}{2} \sum_{x,y = 1}^k \phi_x A_{x y} \phi_y + g V(\phi)
+  \begin{aligned}
+    S & =  S_{kin} + S_{int} 
+    \\
+    & = \tfrac{1}{2} \sum_{x,y = 1}^k \phi_x A_{x y} \phi_y - g V(\phi)
+  \end{aligned}
   \,.
 $$
 
 The prefactor $g$ is called the _[[coupling constant]]_.
+
 
 Putting everything together, the integral over the full [[action]] may be expressed as a [[power series]] in the [[coupling constant]] $g$ of the moments with respect to the kinetic action of the powers of the interaction term:
 
@@ -187,22 +194,32 @@ $$
 then 
 
 $$
-  \langle V(\phi)^2 \rangle
-  = 
-  prefactor
-  \;
-  A^{-1}_{x_1 x_1} A^{-1}_{x_1 x_2} A^{-1}_{x_2 x_2}
-  +
-  prefactor
-  \;
-  A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2}
+  \begin{aligned}
+    \langle V(\phi)^2 \rangle
+    &\coloneqq
+    \langle (\sum_{x= 1}^k)(\phi_x)^3 \rangle
+    \\
+    & = \sum_{x_1, x_2 = 1}^k
+    \langle \phi_{x_1}\phi_{x_1} \phi_{x_1}\phi_{x_2}\phi_{x_2}\phi_{x_2}\rangle
+    \\ 
+    & =
+    prefactor
+    \;
+    \sum_{x_1,x_2 = 1}^k 
+    \underset{theta\, diagram}{\underbrace{A^{-1}_{x_1 x_1} A^{-1}_{x_1 x_2} A^{-1}_{x_2 x_2}}}
+    +
+    prefactor
+    \;
+    \sum_{x_1, x_2 = 1}^k 
+    \underset{dumbbell\, diagram}{\underbrace{A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2}}}
+  \end{aligned}
 $$
 
-Here the first summand corresponds to the Feynman diagram 
+Here the first "theta diagram" summand corresponds to the Feynman diagram 
 
 <img src="http://ncatlab.org/nlab/files/dumbbellFeynmanDiagramm.png" width="200" > 
 
-and the second to the Feynman diagram of the form
+and the second "dumbbell duagram" summand coresponds to the Feynman diagram of the form
 
 <img src="http://ncatlab.org/nlab/files/thetaFeynmanDiagramm.png" width="200">.
 
