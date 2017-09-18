@@ -122,7 +122,7 @@ Orbifolds of defects are studied in
 
 * Nils Carqueville, Ingo Runkel, _Orbifold completion of defect bicategories_, ([arXiv:1210.6363](http://arxiv.org/abs/1210.6363))
 
-* Ilka Brunner, Nils Carqueville, Daniel Plencner, _Orbifolds and topological defects_, Math. Phys. 332 (2014), 669-712, ([arXiv:1307.3141](http://arxiv.org/abs/1307.3141))
+* Ilka Brunner, Nils Carqueville, Daniel Plencner, _Orbifolds and topological defects_, Comm. Math. Phys. 332 (2014), 669-712, ([arXiv:1307.3141](http://arxiv.org/abs/1307.3141))
 
 * Ilka Brunner, Nils Carqueville, Daniel Plencner, _Discrete torsion defects_, Comm. Math. Phys. 337 (2015), 429-453, ([arXiv:1404.7497](http://arxiv.org/abs/1404.7497))
 
