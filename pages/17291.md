@@ -4,7 +4,7 @@
 
 ## Idea 
 
-To say a family of subsets of a set is independent means that there are no trivial Boolean combinations that can be formed from them. 
+To say a family of subsets of a set is independent means that there are no trivial Boolean combinations that can be formed from them except tautologically trivial ones. 
 
 ## Definition 
 
@@ -37,7 +37,7 @@ $$A_{S_1} \cap \ldots \cap A_{S_m} \cap \neg A_{T_1} \cap \ldots \cap \neg A_{T_
 
 is inhabited; this is equivalent to the claim that for pairwise distinct $S_1, \ldots, S_m, T_1, \ldots, T_n \in 2^X$ there exists $\phi \in Bool(X)$ such that $\langle \phi, S_i \rangle = 1$ and $\langle \phi, T_j \rangle = 0$. To prove this, note that $\phi \mapsto \langle \phi, - \rangle$ is an isomorphism $Bool(X) \to CH(2^X, 2)$ by [[Stone duality]], where $CH(2^X, 2)$ is isomorphic to the Boolean algebra of [[clopens]], and there exists a clopen separating the set of points $\{S_1,\ldots, S_m\}$ from the set of points $\{T_1, \ldots, T_n\}$ (a proof may be based on the lemma [here](/nlab/show/compact+Hausdorff+rings+are+profinite#compopen), taking $V$ to be the complement of $\{T_1, \ldots, T_n\}$). 
 
-By transport along a [[bijection]] $X \cong |Bool(X)|$, this result implies there is an independent family $\{A_S\}_{S \in 2^\kappa}$ of subsets of $X$ that has size $2^\kappa$, or in other words there is an injective Boolean algebra map $Bool(2^\kappa) \to P X$ sending $S \in 2^\kappa$ to $A_S$. We finish by observing that given a Boolean algebra injection $i: A \to B$, any Boolean algebra map $f: A \to 2$ extends to a Boolean algebra map $g: B \to 2$; this follows from the [[ultrafilter principle]] since the ultrafilter $f^{-1}(1) \subset A$ in $A$ generates a [[filter]] in $B$ by injectivity of $i$, which may then be extended to an ultrafilter in $B$. (See also [here](/nlab/show/injective+object#in_boolean_algebras): $2$ is an injective object.) From this observation, the induced map 
+By transport along a [[bijection]] $X \cong |Bool(X)|$, this result implies there is an independent family $\{A_S\}_{S \in 2^\kappa}$ of subsets of $X$ that has size $2^\kappa$, or in other words there is an injective Boolean algebra map $Bool(2^\kappa) \to P X$ sending $S \in 2^\kappa$ to $A_S$. We finish by observing that given a Boolean algebra injection $i: A \to B$, any Boolean algebra map $f: A \to 2$ extends to a Boolean algebra map $g: B \to 2$; this follows from the [[ultrafilter principle]] as the ultrafilter $f^{-1}(1) \subset A$ in $A$ generates a proper [[filter]] in $B$ by injectivity of $i$, which may then be extended to an ultrafilter in $B$. (See also [here](/nlab/show/injective+object#in_boolean_algebras): $2$ is an injective object.) From this observation, the induced map 
 
 $$Bool(P X, 2) \to Bool(Bool(2^\kappa), 2) \cong 2^{2^\kappa}$$ 
 
