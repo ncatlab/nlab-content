@@ -1,0 +1,65 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In a context $\mathbf{H}$ of [[differential cohesion]] with $\Im$ the [[infinitesimal shape modality]], then for any object $X\in \mathbf{H}$ the [[base change]] [[comonad]] 
+
+$$
+  Jet_X \coloneqq i^\ast i_\ast
+$$
+
+for base change along the $X$-component of the [[unit of a monad|unit]] of $\Im$ 
+
+$$
+  \mathbf{H}_{/X}
+  \stackrel{\overset{i^\ast}{\longleftarrow}}{\underset{i_\ast}{\longrightarrow}}
+  \mathbf{H}_{/\Im(X)}
+  \,,
+$$
+
+may be interpreted as seding any [[bundle]] over $X$ to its [[jet bundle]]. 
+
+## Properties
+
+The [[Eilenberg-Moore category]] of [[coalgebras]] over the Jet comonad has the interpretation of the category of [[partial differential equations]] with [[variables]]  in $X$. The [[co-Kleisli category]] of the Jet comonad has the interpretation as being the category of bundles over $X$ with [[differential operators]] between them as morphisms ([Marvan 86](#Marvan86), [Marvan 89](#Marvan89)).
+
+## References
+
+In the context of [[differential geometry]] the comonad structure on the jet bundle construction, as well as the interpretation of its EM-category as that of partial differential equations, is due to
+
+* {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
+
+  (notice that prop. 1.3 there is wrong, the correct version is in the thesis of the author)
+
+* {#Marvan89} [[Michal Marvan]] section 1.1 of _On the horizontal cohomology with general coefficients_, 1989 ([web announcement](http://old.math.slu.cz/People/MichalMarvan/Annotations/horizontal.php), [web archive](http://dml.cz/dmlcz/701469))
+
+
+In the conext of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in 
+
+* {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
+
+For more references see at _[[jet bundle]]_.
+
+[[!redirects jet comonads]]
