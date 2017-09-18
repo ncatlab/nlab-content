@@ -187,7 +187,7 @@ $$
   \,.
 $$
 
-(For instance ([Anderson 89, p. 10](#Anderson89)).)
+([Anderson 89, p. 10](#Anderson89)). 
 
 =--
 
@@ -297,6 +297,8 @@ for the projection of $(n,s)$-forms to the image of the "interior Euler operator
 
 +-- {: .num_prop #ELComplexHasSameCohomologyAsDeRhamComplex}
 ###### Proposition
+**(Takens acyclicity theorem)**
+
 
 The [[cochain cohomology]] of the [[Euler-Lagrange complex]]
 
@@ -322,7 +324,9 @@ is [[isomorphism|isomorphic]] to the [[de Rham cohomology]] of the total space $
 
 =--
 
-([Anderson 89, theorem 5.9](#Anderson89)).
+For smooth functions of locally bounded jet order this is due to ([Takens 79](#Takens79)). A proof is also in ([Anderson 89, theorem 5.9](#Anderson89)).
+
+For smooth functions of globally bounded order and going up to the Euler-Lagrange operator $E$, this is also shown in ([Deligne 99, vol 1, p.188](#Deligne99)).
 
 ### The fundamental variational formula
 
@@ -717,6 +721,8 @@ The variational bicomplex was introduced independently in
 Also 
 
 * {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_ J. Diff. Geom. 14 (1979) 543-562
+
+* {#Deligne99} [[Pierre Deligne]] et al. _[[Quantum Fields and Strings]]_
 
 An introduction is in 
 
