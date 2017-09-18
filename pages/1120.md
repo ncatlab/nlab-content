@@ -1,3 +1,9 @@
 A **category of fractions** is a [[localization]] that is constructed using a [[calculus of fractions]].
 
 For a generalisation, see [[bicategory of fractions]].
+
+## References
+
+* [[Frank Adams]], part III, section 14 of _[[Stable homotopy and generalised homology]]_, 1974
+
+[[!redirects categories of fractions]]
