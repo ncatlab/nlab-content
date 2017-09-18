@@ -459,7 +459,7 @@ Details on this higher categorical semantics of [[homotopy type theory]] are in
 
 with lecture notes in 
 
-* [[Mike Shulman]], _Categorical models of homotopy type theory_, April 13, 2012 ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/03models.pdf))
+* [[Mike Shulman]], _Categorical models of homotopy type theory_, April 13, 2012 ([pdf](https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf))
 
 * {#Joyal11} [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
 
