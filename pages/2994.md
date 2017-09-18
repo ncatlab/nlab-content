@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,9 +36,21 @@ It should also be noticed that such endofunctions $[p/q]$ on $\mathbb{P}^1(k)$ a
 
 ## Properties
 
+### As continuous functions
+
+[[rational functions are continuous]] on their domain of definition
+
 ### Function field analogy
 
 [[!include function field analogy -- table]]
+
+
+## Related concepts
+
+* [[polynomial]]
+
+* [[power series]]
+
 
 [[!redirects rational functions]]
 
