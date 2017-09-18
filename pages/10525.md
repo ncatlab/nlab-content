@@ -120,6 +120,11 @@ Since every $JB$-algebra $A$ is [[formally real algebra|formally real]], it come
 
 The [[order-theoretic structure in quantum mechanics]] fixes the JB-algebra structure of a $C^*$-algebra, but not the JLB-algebra structure.
 
+## Related concepts
+
+* [[JBW-algebraic quantum mechanics]]
+
+
 ## References
 
 Basic stuff is at
