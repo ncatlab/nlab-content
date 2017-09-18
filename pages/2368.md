@@ -2628,7 +2628,7 @@ It is fairly straightforward to see that, under the above identifications, funct
 Write 
 
 $$
-  \iota_{fin}\;\colon\; Top^{\ast}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}
+  \iota_{fin}\;\colon\; Top^{\ast/}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}
 $$ 
 
 for the [[full subcategory]] of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#Top)) on those that admit the structure of a [[finite CW-complex]] (a [[CW-complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)) with a [[finite number]] of cells). 
