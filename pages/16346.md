@@ -84,7 +84,7 @@ we put this together and discuss supermanifolds equipped with super Cartan geome
  {#CoordinareSystemsSuperCartesianSpaces}
 
 
-Recall the following from the discussion at _[[geometry of physics -- smooth sets]]_. We will set up [[supergeometry]] in direct analogy to this formulation of plain [[differential geometry]].
+Recall the following from the discussion at _[[geometry of physics -- smooth sets]]_. We will set up [[supergeometry]] in direct analogy to this formulation of plain [[differential geometry]]. See also at _[[geometry of physics -- manifolds and orbifolds]]_ and _[[geometry of physics -- supergeometry]]_.
 
 
 +-- {: .num_defn #SiteCartSp}
