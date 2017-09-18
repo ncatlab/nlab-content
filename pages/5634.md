@@ -25,6 +25,10 @@ What is known in the literature as _discrete torsion_ are phenomena of [[equivar
 
 ## References
 
+Discussion of classification includes
+
+* [[Maximilian Kreuzer]], [[A. N. Schellekens]], _Simple currents versus orbifolds with discrete torsion -- a complete classification_,  	Nucl.Phys. B411 (1994) 97-121 ([arXiv:hep-th/9306145](https://arxiv.org/abs/hep-th/9306145))
+
 The identification of "discrete torsion" in [[type II string theory]] as a choice of [[orbifold]] equivariance on a [[principal 2-bundle]]/[[bundle gerbe]] is due to
 
 * [[Eric Sharpe]], 
