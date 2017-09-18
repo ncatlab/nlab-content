@@ -800,6 +800,7 @@ This means that whether or not Kan extension corresponds geometrically to pushfo
 
   * [[dependent sum type]], [[dependent product type]]
 
+* [[internal (co-)limit]]
 
 ## References
 
