@@ -25,10 +25,12 @@ One can define this literally for [[topological spaces]], or in terms of [[conve
 If you know what a [[compact space]] is and what a [[Hausdorff space]] is, then you know what a compact Hausdorff space is, so let\'s be fancy. (Full justifications will be provided in section on [compacta as algebras](http://ncatlab.org/nlab/show/compactum#algebras).) 
 
 Given a [[set]] $S$, let $\beta S$ be the set of [[ultrafilters]] on $S$.  Note that $\beta$ is an [[endofunctor]] on [[Set]]; every [[function]] $f: S \to T$ induces a function $\beta f: \beta S \to \beta T$ using the usual application of functions to [[filters]].  In fact, $\beta$ is a [[monad]]; it comes with a [[natural transformation|natural]] (in $S$) unit $\eta_S: S \to \beta S$, which maps a point $x$ to the [[principal ultrafilter]] that $x$ generates, and multiplication $\mu_S: \beta \beta S \to \beta S$, which maps an ultrafilter $U$ on ultrafilters to the ultrafilter of sets whose principal ultrafilters of ultrafilters belong to $U$.  That is,
+
 *  $ A \in \eta x \;\Leftrightarrow\; x \in A $, so $ \eta x = \{ A \subseteq S \;|\; x \in A \} $;
 *  $ A \in \mu U \;\Leftrightarrow\; \{ F \in \beta S \;|\; A \in F \} \in U $.
 
 Then a __compactum__ is simply an [[algebra for a monad|algebra]] for this monad; that is, a set $X$ together with a function $\lim: \beta X \to X$, such that
+
 *  each point $x$ is the limit ($\lim$) of the principal ultrafilter $\eta x$, and
 *  given an ultrafilter $U$ on ultrafilters, the limit of $\mu U$ is the limit of $(\beta \lim) U$.
 
