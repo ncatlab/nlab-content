@@ -78,6 +78,7 @@ Hence Urysohn's lemma shows that a topological space being normal is _equivalent
 =--
 
 ## Proof
+ {#Proof}
 
 +-- {: .proof}
 ###### Proof
@@ -181,19 +182,67 @@ Here the [[limit of a net|limit]] is over the [[directed set]] of those $U_r$ th
 
 
 This function clearly has the property that $f(A) = \{0\}$  and $f(B) = \{1\}$. It only remains to see that it is continuous.
-For this it is sufficient to see that for $\alpha \in [0,1]$ then the [[pre-images]] $f^{-1}((\alpha, 1])$ and $f^{-1}([0,\alpha))$ are open
 
-We claim that 
+To this end, first observe that 
 
-1. $f^{-1}([0,\alpha)) = \underset{r \lt \alpha}{\cup} U_r$;
+$$
+  (\star)
+  \phantom{AA}
+  ( x \in Cl(U_r) )
+  \,\Leftrightarrow\,
+  \left(
+     f(x) \leq r
+  \right)
+  \,.
+$$
 
-1. $f^{-1}((\alpha, 1]) = \underset{r \gt \alpha}{\cup} X\backslash C_r$.
+To see this, observe that it is immediate from the definition that $(x \in U_r) \Rightarrow (f(x) \leq r)$ and that $(f(x) \lt r) \Rightarrow (x \in U_r \subset Cl(U_r))$. For the remaining implications, it is sufficient to observe the case that
+ 
+$$
+  (x \in \partial U_r) \Rightarrow (f(x) = r)
+  \,,
+$$
 
-Regarding the first point: If $x \in X$ is such that $f(x) \coloneqq\underset{U_r \supset \{x\}}{\lim} r \,\lt \alpha$ this means  that there exists a positive real number $\epsilon$ such that $( f(x)-\epsilon, f(x)+ \epsilon ) \lt \alpha$ and hence, by definition of [[limit of a net]], that there exists $r \in \mathbb{Q}_{dy}$ such that $x \in U_r$ and  $r \lt f(x)+ \epsilon \lt \alpha$, hence such that $r \lt \alpha$.
+where $\partial U_r \coloneqq Cl(U_r) \backslash U_r$ is the [[boundary]] of $U_r$.
 
-Regarding the second point: ...
+This holds because the [[dyadic numbers]] are [[dense subset|dense]] in $\mathbb{R}$. (And this would fail if we stopped the above decomposition into $U_{a/2^n}$-s at some finite $n$.) Namely if $x \in \partial U_r$ then for every small positive real number $\epsilon$ there exists a dyadic rational number $r'$ with $r \lt r' \lt r + \epsilon$, and since $x \in U_{r'}$ it follows that $\underset{U_r \supset \{x\}}{\lim} = r$.
+
+Now we claim that for all $\alpha \in [0,1]$ then
+
+1. $f^{-1}((\alpha, 1])$ is open.
+
+1. $f^{-1}([0,\alpha))$ is open;
+
+Regarding the first point: By $(\star)$ we have
+
+$$
+  f^{-1}( (\alpha,1] )
+    =
+  \underset{r \leq \alpha}{\cup} X \backslash Cl(U_r)
+  \,.
+$$
+
+Since the closures $Cl(U_r)$ are closed, the complements $X \backslash Cl(U_r)$ are open, and hence this is a union of open subsets, hence open.
 
 
+Regarding the second point: By $(\star)$ we have
+
+$$
+  f^{1}( [0,\alpha) ) = \underset{r \lt \alpha}{\cup} Cl(U_r)
+  \,.
+$$
+
+To see why this is open, observe that if $r \lt \alpha$ then, again because the [[dyadic numbers]] within $0$ and $1$ are [[dense subset|dense]] in $[0,1]$, there exists $r'$ with $r \lt r' \lt \alpha$, and hence by construction of the $U_r$ we then have $Cl(U_r) \subset U_{r'} \subset Cl(U_{r'})$. This means that in the above union we may omit the closures, to obtain
+
+$$
+  f^{1}( [0,\alpha) ) = \underset{r \lt \alpha}{\cup} U_r
+  \,.
+$$
+
+This now is open because unions of open subsets are open.
+
+Now since the subsets $\{ [0,\alpha), (\alpha,1]\}_{\alpha \in [0,1]}$
+form a [[topological subbase|sub-base]] for the Euclidean metric topology on $[0,1]$, it follows that all pre-images of $f$ are open, hence that $f$ is continuous.
 
 
 
