@@ -135,7 +135,7 @@ A detailed discussion of the map from quasi-categories to $SSet$-categories is i
 
 More along these lines is in 
 
-* [[Emily Riehl]], _On the structure of simplicial categories associated to quasi-categories_ ([pdf](http://www.math.uchicago.edu/~eriehl/necklace.pdf))
+* [[Emily Riehl]], _On the structure of simplicial categories associated to quasi-categories_ ([pdf](http://www.math.harvard.edu/~eriehl/necklace.pdf))
 
 See also
 
