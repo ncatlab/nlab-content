@@ -291,7 +291,7 @@ In the language of [[∞-actions]] (as discussed there), the space $Top_{O(n)}(\
 
 $$
   \array{
-     X && \longrigtharrow && \tilde X//O(n)
+     X && \longrigtarrow && \tilde X//O(n)
      \\
      & \searrow && \swarrow
      \\
@@ -344,7 +344,8 @@ Now the [[codomain]] of this [[natural transformation]] sends [[(∞,1)-colimits
 =--
 
 
-We consider some special cases of this general definition
+
+We consider now some special cases of the general definition of local structure-topological field theory
 
 
 #### For framed cobordisms in a topological space 
@@ -590,6 +591,15 @@ $$
 
 This is ([Lurie, prop. 3.2.8](#Lurie)).
 
++-- {: .num_remark}
+###### Remark
+
+Via the interpretation of local field theories with coefficients in 
+$Corr_n(\mathbf{H}_{/Phases})^{\otimes_{phased}}$ as [[schreiber:Local prequantum field theory]], the statement of prop. \ref{ExchangingFieldsForStructures} translates in quantum field theory jargon to the statement that "All background structures are fields." This is essentially the slogan of [[general covariance]].
+
+=--
+
+
 +-- {: .num_cor #UnorientedLocalPrequantumFieldTheory}
 ###### Corollary
 
@@ -667,6 +677,8 @@ $$
 
 
 =--
+
+By the discussion at _[[schreiber:Local prequantum field theory]]_, these statements hold also for fields with moduli spaces in more general $(\infty,1)$-toposes $\mathbf{H}$ (one sufficient condition is that $\mathbf{H}$ has an [[(infinity,1)-site]] of definition all whose objects are [[etale homotopy theory|etale contractible]]).
 
 Some examples are discussed at _[[prequantum field theory]]_ in the section _[Higher Chern-Simons field theory -- Levels](prequantum+field+theory#HigherChern-SimonsLocalPrequantumFieldTheoryLevels)_.
 
