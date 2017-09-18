@@ -99,7 +99,9 @@ $$
 
 They parametrize the essential localizations of the associated presheaf topos $Set^{M^{op}}$. The dimension theory that comes with this is detailed in [Kelly-Lawvere (1989)](#Kl89) and [Lawvere (1989)](#Law89b). In the present case, the result is that $Set^{M^{op}}$ is three-dimensional.
 
-This motivates also the culinary allusion in the name, where the essential localization corresponding to $\mathcal{B}$ is seen as providing the two-dimensional 'sides' via its reflective and coreflective inclusions around the three-dimensional 'filling' $\mathcal{A}$. Of course, the one-dimensional pieces $l,q,r$ corresponding to $\mathcal{C}$ find their place on the sandwich as well. For a picture of the taco and further details see [Lawvere (1989)](#Law89b).
+This motivates also the culinary allusion in the name, where the essential localization corresponding to $\mathcal{B}$ is seen as providing the two-dimensional 'sides' via its reflective and coreflective inclusions around the three-dimensional 'filling' $\mathcal{A}$. Of course, the one-dimensional pieces $l,q,r$ corresponding to $\mathcal{C}$ find their place on the sandwich as well. The following picture of the taco appears in [Lawvere (1989)](#Law89b), where further details may be found.
+
+[[Hegel_taco.png:pic]]
 
 Let us point out that $M$ can be viewed as 'cubical generalization' of the three-element graphic monoid $\Delta_1$ that underlies the (one-dimensional) presheaf topos of [[reflexive graph|reflexive graphs]] (for a detailed description of $\Delta_1$ and its topos see at [[graphic category]]). $\Delta_1$ encapsulates the diagram
 
