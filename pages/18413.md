@@ -122,15 +122,24 @@ $$
 
 ### Freyd's characterization 
 
-The topological interval $[0, 1]$ may be characterized by a [[coalgebra for an endofunctor|coalgebraic]] definition first identified by [[Freyd]]. Let $Top_{\ast, \ast}$ be the category of topological spaces $X$ equipped with a pair $x_0, x_1$ of distinct points, for example $I = ([0, 1]; 0, 1)$. Let $F: Top_{\ast, \ast} \to Top_{\ast, \ast}$ be the [[functor]] defined on objects by $F(X; x_0, x_1) = (X \vee X, y_0, y_1)$, where $X \vee X$ is the quotient of $X \sqcup X$ formed by identifying the element $x_1$ of the first copy of $X$ with $x_0$ of the second copy of $X$, where $y_0$ is identified with $x_0$ of the first copy, and $y_1$ is identified with $x_1$ of the second copy. 
+The topological interval $[0, 1]$ may be characterized by a [[coalgebra for an endofunctor|coalgebraic]] definition first identified by [[Freyd]]: 
 
-For $I = ([0, 1]; 0, 1)$ there is an evident identification $F(I) = ([0, 2]; 0, 2)$, and moreover there is an $F$-coalgebra structure $I \to F(I)$ given by "multiplication by $2$". 
+Let $Top_{\ast, \ast}$ be the [[category]] of [[topological spaces]] $X$ equipped with a [[pair]] $x_0, x_1$ of distinct points, for example $I = ([0, 1]; 0, 1)$. Let $F \colon Top_{\ast, \ast} \to Top_{\ast, \ast}$ be the [[functor]] defined on [[objects]] by 
+
+$$
+  F(X; x_0, x_1) = (X \vee X, y_0, y_1)
+  \,,
+$$ 
+
+where $X \vee X$ denotes the [[quotient space]] of the [[disjoint union space]] $X \sqcup X$ formed by identifying the element $x_1$ of the first copy of $X$ with $x_0$ of the second copy of $X$, where $y_0$ is identified with $x_0$ of the first copy, and $y_1$ is identified with $x_1$ of the second copy. 
+
+For $I = ([0, 1]; 0, 1)$ there is an evident identification $F(I) = ([0, 2]; 0, 2)$, and moreover there is an $F$-[[coalgebra of an endofunctor|coalgebra]] structure $I \to F(I)$ given by "multiplication by $2$". 
 
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Freyd)** 
 
-$I = ([0, 1], 0, 1)$ is the terminal $F$-[[terminal coalgebra of an endofunctor|coalgebra]]. 
+The topological interval $I = ([0, 1], 0, 1)$ is the [[terminal coalgebra of an endofunctor|terminal F-coalgebra]]. 
 
 
 =-- 
