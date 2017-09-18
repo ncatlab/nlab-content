@@ -90,17 +90,17 @@ For a slightly more formal but still pathetically easy introduction, try:
 
 For a free introductory text on $n$-categories that's <i>full of pictures</i>, try this:
 
-* Eugenia Cheng and Aaron Lauda, [Higher-Dimensional Categories: An Illustrated Guidebook](http://cheng.staff.shef.ac.uk/guidebook/index.html).
+* [[Eugenia Cheng]], [[Aaron Lauda]], [Higher-Dimensional Categories: An Illustrated Guidebook](http://cheng.staff.shef.ac.uk/guidebook/index.html).
 
 [[Tom Leinster]] has written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
 
-* Tom Leinster, _A Survey of Definitions of n-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188))
+* [[Tom Leinster]], _A Survey of Definitions of n-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188))
 
-* Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
+* [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
-For a [[syntax|syntactic]] definition in terms of [[opetopic type theory]] see there.
+A [[syntax|syntactic]] definition is given by [[Eric Finster]] in terms of [[opetopic type theory]], see there for details
 
-
+[[!redirects infinity-categories]]
 
 [[!redirects $infinity$-category]]
 [[!redirects $infinity$-categories]]
