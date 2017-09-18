@@ -37,9 +37,9 @@ in [[simplicial sets]], not however with a symmetric monoidal smash product, is 
 
 with its analogue in [[topological spaces]], the
 
-* [[classical model structure on topological sequential spectra]].
+* [[model structure on topological sequential spectra]].
 
-Thes are related by a [[zig-zag]] of [[Quillen equivalences]] to the 
+These are related by a [[zig-zag]] of [[Quillen equivalences]] to the 
 
 * _[[model structure on combinatorial spectra]]_.
 
