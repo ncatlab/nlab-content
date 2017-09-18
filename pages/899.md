@@ -77,7 +77,7 @@ The set of $H$-[[cosets]] is a [[cover]] of $G$ by [[disjoint subsets|disjoint]]
 
 Every [[connected topological space|connected]] [[locally compact topological space|locally compact]] topological group is [[sigma-compact topological space|sigma-compact]].
 
-Hence every [[locally connected topological group|locally connected]] topological group is [[paracompact topoogical space|paracompact]].
+Hence every [[locally connected topological group|locally connected]] topological group is [[paracompact topological space|paracompact]].
 
 =--
 
@@ -90,14 +90,14 @@ First consider the case that $G$ is [[connected topological space]].
 
 By assumption of local compactness, there exists a [[compact topological space|compact]] [[neighbourhood]] $C_e \subset G$ of the [[neutral element]]. We may assume without restriction of generality that with $g \in C_e$ any element, then also the [[inverse element]] $g^{-1} \in C_e$.
 
-For if this is not the case, then we may enlarge $C_e$ by including its inverse elements, and the result is still a compact neighbourhood of the neutral element: Since taking [[inverse elements]] $(-)^{-1} \colon G \to G$ is a [[continuous function]], and since [[continuous images of compact spaces are compact]], it follows that also the set of inverse elements to elements in $C_e$ is compact, and the union of two compact subspaces is still compact (obviously, otherwise see [this prop](compact space#UnionsAndIntersectionOfCompactSubspaces)). 
+For if this is not the case, then we may enlarge $C_e$ by including its inverse elements, and the result is still a compact neighbourhood of the neutral element: Since taking [[inverse elements]] $(-)^{-1} \colon G \to G$ is a [[continuous function]], and since [[continuous images of compact spaces are compact]], it follows that also the set of inverse elements to elements in $C_e$ is compact, and the union of two compact subspaces is still compact (obviously, otherwise see [this prop](compact+space#UnionsAndIntersectionOfCompactSubspaces)). 
 
 Now for $n \in \mathbb{N}$, write $C_e^n  \subset G$ for the [[image]] of $\underset{k \in \{1, \cdots n\}}{\prod} C_e \subset \underset{k \in \{1, \cdots, n\}}{\prod} G$ under the iterated group product operation $\underset{k \in \{1, \cdots, n\}}{\prod} G \longrightarrow G$.
 
 Then 
 
 $$
-  H \coloneqq \underset[n \in \mathbb{N}}{\cup} C_e^n
+  H \coloneqq \underset{n \in \mathbb{N}}{\cup} C_e^n
     \;\subset\; 
   G
 $$ 
@@ -121,7 +121,7 @@ $$
 
 as a countable union of compact subspaces. This means that $G$ is [[sigma-compact]]. Since [[locally compact and sigma-compact spaces are paracompact]], this implies in particular that $G$ is paracompact.
 
-Finally, if $G$ is not connected, the by its group structure all [[connected components]] are [[homeomophism|homeomorphic]], hence then the above gives that it is a [[disjoint union space]] of paracompact spaces. These are again paracmpact (by [this prop.](paracompact+topological+space#ParacompactnessPreservedByDisjointUnion)).
+Finally, in the case where $G$ is not connected, local connectedness of $G$ guarantees that it is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its connected components, all cosets of (hence homeomorphic to) the connected component of the identity which we have just shown to be a paracompact group. Thus $G$ is a [[disjoint union space]] of paracompact spaces. This is again paracompact (by [this prop.](paracompact+topological+space#ParacompactnessPreservedByDisjointUnion)).
 
 =--
 
