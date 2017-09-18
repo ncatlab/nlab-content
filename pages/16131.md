@@ -1,0 +1,6 @@
+
+* [webpage](http://www.math.muni.cz/~kolar/)
+
+category: people
+
+[[!redirects Ivan Kolar]]
