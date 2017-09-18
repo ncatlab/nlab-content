@@ -303,6 +303,22 @@ This appears as ([Dugger, prop. A.5](#Dugger)).
 
 ## Examples ##
 
+### On simplicial sets
+
+The [classical model category structure on simplicial sets](https://ncatlab.org/nlab/show/model+structure+on+simplicial+sets) is cofibrantly generated:
+
++-- {: .num_prop}
+###### Proposition
+
+$sSet_{Quillen}$ is a cofibrantly generated model category with
+
+* generating cofibrations the [[boundary]] inclusions $\partial \Delta[n] \to \Delta[n]$;
+
+* generating acyclic cofibrations the [[horn]] inclusions $\Lambda^i[n] \to \Delta[n]$.
+
+=--
+
+
 ### On topological spaces
 
 The category of (based, compactly generated) topological spaces has a cofibrantly generated model structure (the [[classical model structure on pointed topological spaces]]) in which the set of cells is 
@@ -342,7 +358,7 @@ $$
 
 The _stable model structure_ has the same cells, but more acyclic cells, which in turn guarantees that the fibrant spectra are the $\Omega$-spectra.
 
-### On structured spectrd
+### On structured spectra
 
 The categories of [[symmetric spectra]] and [[orthogonal spectra]] have similar cofibrantly generated level and stable model structures ([[model structure on symmetric spectra]], [[model structure on orthogonal spectra]]).
 
