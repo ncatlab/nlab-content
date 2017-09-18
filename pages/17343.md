@@ -4463,9 +4463,14 @@ for the classes of these morphisms, respectively.
 =--
 
 
-We first prove now that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satisfy the conditions for a [[model category]] structure, def. \ref{ModelCategory} (after some lemmas, this is theorem \ref{TopQuillenModelStructure} below). Then we discuss the resulting [[classical homotopy category]] ([below](#TheClassicalHomotopyCategory)) as well as some further related phenomena.
+We first prove now that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satisfy the conditions for a [[model category]] structure, def. \ref{ModelCategory} (after some lemmas, this is theorem \ref{TopQuillenModelStructure} below). Then we discuss the resulting [[classical homotopy category]] ([below](#TheClassicalHomotopyCategory)) and then a few variant model structures whose proof follows immediately along the line of the proof of $Top_{Quillen}$:
 
-**Literature** ([Hirschhorn 15](#Hirschhorn15))
+* [The model structure on pointed topological spaces](#ModelstructureOnPointedTopologicalSpaces) $Top^{\ast/}_{Quillen}$;
+
+* [The model structure on compactly generated topological spaces](#ModelStructureOnCompactlyGeneratedTopologicalSpaces) $(Top_{cg})_{Quillen}$ and $(Top^{\ast/}_{cg})_{Quillen}$;
+
+* [The model structure on topologically enriched functors](#ModelStructureOnTopEnrichedFunctors) $[\mathcal{C}, (Top_{cg})_{Quillen}]_{proj}$ and $[\mathcal{C},(Top^{\ast}_{cg})_{Quillen}]_{proj}$.
+
 
 $\,$
 
@@ -4961,6 +4966,7 @@ Inspection of the component maps shows that the left vertical morphism here is t
 =--
 
 ##### Model structure on pointed topological spaces
+ {#ModelstructureOnPointedTopologicalSpaces}
 
 A _[[pointed object]]_ $(X,x)$ is of course an [[object]] $X$ equipped with a [[point]] $x \colon \ast \to X$, and a morphism of pointed objects $(X,x) \longrightarrow (Y,y)$ is a morphism $X \longrightarrow Y$ that takes $x$ to $y$. Trivial as this is in itself, it is good to record some basic facts, which we do here. 
 
@@ -5048,7 +5054,7 @@ In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \r
 +-- {: .proof}
 ###### Proof
 
-The model strcuture as claimed is immediate by inspection.
+The model strcuture as claimed is immediate by inspection. spring
 
 =--
 
@@ -5439,12 +5445,12 @@ The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhi
 +-- {: .proof}
 ###### Proof
 
-The proof proceeds exactly as that of theorem \ref{TopQuillenModelStructure}, with $I_{Top}$ replaced by $I_{Top^{\ast/}}$ and $J_{Top}$ replaced by $J_{Top^{\ast/}}$.
+Due to the fact that in $J_{Top^{\ast/}}$ a basepoint is freely adjoined, lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} goes through verbatim for the pointed case, with $J_{Top}$ replaced by $J_{Top^{\ast/}}$, as do the other two lemmas above that depend on point-set topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences}. With this, the rest of the proof follows by the same general abstract reasoning as [above](#TheClassicalModelStructureOfTopologicalSpaces) in the proof of theorem \ref{TopQuillenModelStructure}.
 
 =--
 
-
 ##### Model structure on compactly generated topological spaces
+ {#ModelStructureOnCompactlyGeneratedTopologicalSpaces}
 
 The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) exist only for $Y$ a [[locally compact topological space]] but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it ensures that
 
@@ -5525,9 +5531,9 @@ $$
 which means equivalently that the functor $k$ (def. \ref{kfication}) together with the inclusion from def. \ref{kTop} forms an pair of [[adjoint functors]]
 
 $$
-  Top
-    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
   Top_{cg}
+    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
+  Top
   \,.
 $$
 
@@ -5541,26 +5547,6 @@ $$
 Hence [[colimits]] in $Top_{cg}$ exists and are computed as in [[Top]]. Also [[limits]] in $Top_{cg}$ exists, these are obtained by computing the limit in [[Top]] and then applying the functor $k$ to the result.
 
 =--
-
-+-- {: .num_example #ExamplesOfCompactlyGeneratedTopologiclSpaces}
-###### Example
-
-Examples of [[compactly generated topological spaces]], def. \ref{kTop}, include
-
-* every [[compact space]];
-
-* every [[locally compact space]];
-
-* every [[topological manifold]];
-
-* every [[CW-complex]] (def. \ref{TopologicalCellComplex}); 
-
-* every [[first countable space]]
-
-=--
-
-
-
 
 +-- {: .num_defn #CompactlyGeneratedMappingSpaces}
 ###### Definition
@@ -5593,12 +5579,86 @@ $$
 
 e.g. ([Strickland 09, prop. 2.12](#Strickland09))
 
-Moreover:
+Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know many conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it.
+
++-- {: .num_example CWComplexIsCompactlyGenerated}
+###### Example
+
+Every [[CW-complex]] is [[compactly generated topological space|compactly generated]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[a CW-complex is a Hausdorff space]], by prop. \ref{HausdorffImpliessWeaklyHausdorff} and  prop. \ref{CharacterizationOfCompactClosedSetsInWeaklyHausdorffSpace} its $k$-closed subsets are precisely those whose intersection with every [[compact subspace]] is closed. 
+
+Since a CW-complex $X$ is a [[colimit]] in [[Top]] over attachments of standard [[n-disks]] $D^{n_i}$ (its cells), by the characterization of colimits in $Top$ ([prop.](Top#DescriptionOfLimitsAndColimitsInTop)) a subset of $X$ is open or closed precisely if its restriction to each cell is open or closed, respectively. Since the $n$-disks are compact, this implies one direction: if a subset $A$ of $X$ intersected with all compact subsets is closed, then $A$ is closed. 
+
+For the converse direction, since [[a CW-complex is a Hausdorff space]] and since [[compact subspaces of Hausdorff spaces are closed]], the intersection of a closed subset with a compact subset is closed.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The category $Top_{cg}$ of [[compactly generated topological spaces]] includes
+
+1. all [[locally compact topological spaces]]
+
+1. all [[first-countable topological spaces]]
+
+   hence in particular
+
+   1. all [[metrizable topological spaces]]
+
+   1. all [[discrete topological spaces]]
+
+   1. all [[codiscrete topological spaces]]
+
+=--
+
+([Lewis 78, p. 148](#Lewis78))
+
+Recall that by corollary \ref{kTopIsCoreflectiveSubcategory}, all [[colimits]] of compactly generated spaces are again compactly generated.
+
++-- {: .num_example #CWComplexIsCompactlyGenerated}
+###### Example
+
+The [[product topological space]] of a [[CW-complex]] with a [[compact topological space|compact]] CW-complex is [[compactly generated topological space|compactly generated]].
+
+=--
+
+([Hatcher "Topology of cell complexes", theorem A.6](CW+complex#HatcherTopologyOfCellComplexes))
+
+
++-- {: .num_theorem } 
+###### Theorem
+
+The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]]
+
+$$
+  Top_{cg, Quillen}
+    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
+  Top_{Quillen}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{CWComplexIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual point-set topology,  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$.
+
+=--
+
+The use of compactly generated topological spaces also improves the behaviour of pointed topological spaces:
 
 +-- {: .num_prop}
 ###### Proposition
 
-Write $Top_{cg}^{\ast/}$ for the category of [[pointed topological space|pointed]] [[compactly generated topological spaces]] (def. \ref{kTop}). Then the [[smash product]]
+Write $Top_{cg}^{\ast/}$ for the category of [[pointed topological space|pointed]] [[compactly generated topological spaces]] (def. \ref{kTop}). Then the [[smash product]] (def. \ref{SmashProductOfPointedObjects})
 
 $$
   (-)\wedge (-)
@@ -5610,7 +5670,7 @@ $$
   Top_{cg}^{\ast/}
 $$
 
-is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it, hence $(Top_{cg}^{\ast/}, \wedge, S^0)$ is a [[symmetric monoidal category]].
+is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it (hence $(Top_{cg}^{\ast/}, \wedge, S^0)$ is a [[symmetric monoidal category]]).
 
 Moreover together with the [[pointed mapping space]] version $(-)_\ast^X$ of the compactly generated mapping space of def. \ref{CompactlyGeneratedMappingSpaces}, $Top_{cg}^{\ast}$ becomes a [[closed monoidal category]]: 
 
@@ -5656,8 +5716,61 @@ The analogous reasoning applies to yield also $X \wedge (Y\wedge Z) \simeq \frac
 
 
 
+While the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} does satisfy the requirement that it gives a [[cartesian closed category]] with all [[limits]] and [[colimits]] and containing all [[CW-complexes]], one may ask for yet smaller subcategories that still share all these properties but potentially exhibit further convenient properties still.
 
-##### Model structure on topological functors
+A popular choice introduced in ([McCord 69](weakly+Hausdorff+topological+space#McCord69)) is to add the further restriction to topopological spaces which are not only compactly generated but also [[weakly Hausdorff topological space|weakly Hausdorff]]. This was motivated from ([Steenrod 67](compactly+generated+topological+space#Steenrod67)) where compactly generated Hausdorff spaces were used by the observation (([McCord 69, section 2](weakly+Hausdorff+topological+space#McCord69))) that Hausdorffness is not preserved my many colimit operations, notably not by forming [[quotient spaces]]. 
+
+On the other hand, in above we wouldn't have imposed Hausdorffness in the first place. More intrinsic advantages of $Top_{cgwH}$ over $Top_{cg}$ are the following:
+
+* every [[pushout]] of a morphism in $Top_{cgwH} \hookrightarrow Top$ along a [[closed subspace]] inclusion in $Top$ is again in $Top_{cgwH}$ 
+
+* in $Top_{cgwH}$ quotient spaces are not only preserved by [[cartesian products]] (as is the case for all compactly generated spaces due to $X\times (-)$ being a left adjoint, according to cor. \ref{kTopIsCoreflectiveSubcategory}) but by all [[pullbacks]] 
+
+* in $Top_{cgwH}$ the [[regular monomorphisms]] are the [[closed subspace]] inclusions 
+
+We will not need this here or in the following sections, but we briefly mention it for completenes:
+
++-- {: .num_defn #WeaklyHausdorff}
+###### Definition
+
+A [[topological space]] $X$ is called **[[weakly Hausdorff topological space|weakly Hausdorff]]** if for every [[continuous function]]
+
+$$
+  f \;\colon\; K \longrightarrow X
+$$
+
+out of a [[compact topological space|compact]] [[Hausdorff space]] $K$, its [[image]] $f(K) \subset X$  is a [[closed subset]] of $X$.
+
+=--
+
++-- {: .num_prop #HausdorffImpliessWeaklyHausdorff}
+###### Proposition
+
+Every [[Hausdorff space]] is a [[weakly Hausdorff space]], def. \ref{WeaklyHausdorff}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[compact subspaces of Hausdorff spaces are closed]].
+
+=--
+
+
++-- {: .num_prop #CharacterizationOfCompactClosedSetsInWeaklyHausdorffSpace}
+###### Proposition
+
+For $X$ a [[weakly Hausdorff topological space]], def. \ref{WeaklyHausdorff}, then a subset $A \subset X$ is $k$-closed, def. \ref{kTop}, precisely if for every subset $K \subset X$ that is [[compact subspace|compact]] [[Hausdorff space|Hausdorff]] with respect to the [[subspace topology]], then the [[intersection]] $K \cap A$ is a [[closed subset]] of $X$.
+
+=--
+
+e.g. ([Strickland 09, lemma 1.4 (c)](#Strickland09))
+
+
+
+
+##### Model structure on (pointed) topological functors
 
 With classical topological homotopy theory in hand, it is straightforward now to generalize this to a homotopy theory of _topological diagrams_. This is going to be the basis for the [[stable homotopy theory]] of [[spectra]], for spectra may be identified with certain topological diagrams.
 
@@ -9278,10 +9391,11 @@ For the [[classical model structure on simplicial sets]] and its [[Quillen equiv
 
 * {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]], _An introduction to simplicial homotopy theory_, 2005  ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
 
-For the restriction to the [[convenient category of topological spaces|convenient category]] of [[compactly generated topological spaces]] a good source is still
+For the restriction to the [[convenient category of topological spaces|convenient category]] of [[compactly generated topological spaces]] good sources are
 
 * {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
 
+* {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
 
 For section **1) Stable homotopy theory** we follow the modern picture of the stable homotopy category in the style of the exposition
 
