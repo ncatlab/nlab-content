@@ -115,7 +115,7 @@ $$
 +-- {: .num_defn #StableHomotopyGroup}
 ###### Definition
 
-Given an orthongal spectrum $X$, def. \ref{OrthogonalSpectrum}, then for $k \in \mathbb{Z}$ its $k$th _stable [[homotopy group]]_ is the [[colimit]]
+Given an orthogonal spectrum $X$, def. \ref{OrthogonalSpectrum}, then for $k \in \mathbb{Z}$ its $k$th _stable [[homotopy group]]_ is the [[colimit]]
 
 $$
   \pi_k X 
@@ -288,7 +288,7 @@ $$
   \mathbb{S}_n = S^n
 $$
 
-the [[representation sphere]] of the definition [[linear representation]] of $O(n)$ on $\mathbb{R}^n$, and as structure maps the canonical [[smash product]] [[isomorphisms]] ([[homeomorphisms]])
+the [[representation sphere]] of the defining [[linear representation]] of $O(n)$ on $\mathbb{R}^n$, and as structure maps the canonical [[smash product]] [[isomorphisms]] ([[homeomorphisms]])
 
 $$
   S^p \wedge S^1  \longrightarrow S^{p+1}
@@ -342,6 +342,7 @@ Lecture notes include
 
 * {#Schwede14} [[Stefan Schwede]], section 1 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2014 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
+and ([Schwede 15](#Schwede15)) (take throught $\mathcal{F} = \{1\}$ there to be the trivial family to restrict to the non-equivariant case).
 
 Orthogonal spectra were introduced around
 
