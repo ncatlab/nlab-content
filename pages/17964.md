@@ -152,6 +152,7 @@ In particular, every [[dg-module]] has a minimal KS-model (def. \ref{KSFactoriza
 
 * {#Halperin83} [[Steve Halperin]], _Lectures on minimal models_, Mem. Soc. Math. Franc. no 9/10 (1983) ([web](https://eudml.org/doc/94833))
 
+* {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
 
 [[!redirects Hirsch extension]]
 [[!redirects Hirsch extensions]]
