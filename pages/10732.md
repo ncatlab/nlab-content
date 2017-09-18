@@ -20,7 +20,7 @@ with the [[variable]] $t_i$ in degree $2 i$.
 
 =--
 
-A proof is spelled out in ([Hopkins 99, section 2](#Hopkins99)), reviewed in ([Mathew 12](#Mathew12), [Wilson 13](#Wilson13)). Also ([Lurie lect 2, theorem 4](#LurieLect2)).
+A proof is spelled out in ([Hopkins 99, section 2](#Hopkins99)), reviewed in ([Mathew 12](#Mathew12), [Wilson 13](#Wilson13)). Also ([Lurie 10, lecture 2, theorem 4](#LurieLect2)) and [Lurie 10, lecture 3](#LurieLect3).
 
 ## Related theorem
 
@@ -42,5 +42,5 @@ A proof is spelled out in ([Hopkins 99, section 2](#Hopkins99)), reviewed in ([M
 * {#LurieLect2} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
  
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010,  Lecture 3 _Lazard's theorem (continued)_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture3.pdf))
+* {#LurieLect3} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010,  Lecture 3 _Lazard's theorem (continued)_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture3.pdf))
 
