@@ -499,7 +499,24 @@ $$
   }
 $$
 
-its **page** is the [[graded object|graded]] [[chain complex]]
+observe that the composite
+
+$$
+  d \coloneqq j \circ k
+$$ 
+
+is a [[differential]] in that it squares to 0, due to the exactness of the exact couple:
+
+$$
+  \begin{aligned}
+    d \circ d & = j \circ \underset{= 0}{\underbrace{k \circ j}} \circ k
+    \\
+    & = 0
+  \end{aligned}
+  \,.
+$$
+
+One says that the **page** of the exact couple is the [[graded object|graded]] [[chain complex]]
 
 $$
   (\mathcal{E}^{\bullet,\bullet}, d \coloneqq j \circ  k)
@@ -559,6 +576,29 @@ By direct inspection one checks that:
 
 The derived exact couple in def. \ref{DerivedExactCouple}
 is well defined and is itself an exact couple, def. \ref{ExactCouple}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the maps are well-defined.
+
+It is clear that $\tilde i$ is well-defined.
+
+That $\tilde j$ lands in $ker(d)$: it lands in the image of $j$ which is in the kernel of $k$, hence of $d$, by exactness. 
+
+That $\tile j$ is indepenent of the choice of preimage: For any $x \in \tilde {\mathcal{D}} = im(i)$, let $y, y' \in \mathcal{D}$ be two preimages under $i$, hence $i(y) = i(y') = x$. This means that $i(y'-y) = 0$, hence $y'-y \in ker(i)$, hence $y'-y \in im(k)$, hence there exists $z \in \mathcal{E}$ such that $y' = y + k(z)$, hence $j(y') = j(y) +  j(k(z)) = j(y) + d(z)$, but $d(z) = 0$ in \tilde{\mathcal{E}}.
+
+That $\tilde k$ vanishes on $im(d)$: because $im(d) \subset im(j)$ and hence by exactness.
+
+That $\tilde k$ lands in $im(i)$: since it is defined on $ker(d) = ker(j \circ k)$ it lands in $ker(j)$. By exactness this is $im(i)$.
+
+That the sequence of maps is again exact:
+
+The kernel of $\tilde x$ is those $x \in \im(i)$ such that their preimage $i^{-1}(x)$ is still in $im(x)$ (by exactness of the original exact couple) hence such that $x \in im(i|_{im(i)})$, hence such that $x \in im(\tilde i)$.
+
+The kernel of $\tilde k$ is the image of $j$ in the kernel of $d$...
 
 =--
 
