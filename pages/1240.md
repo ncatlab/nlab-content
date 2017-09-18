@@ -102,15 +102,15 @@ Now, whenever you see any sort of 'forgetful' process, you should wonder if it h
 
 Endowed with this heuristic, as soon as you see there's a rather obvious 'forgetful' process that takes a $G$-equivariant vector bundle over $M$ and gives a representation of $H$ on the fiber over $x \in M$, you will seek the 'reverse' process --- and then you'll rediscover the induced bundle construction!
 
-And why is this so great?  Well, there's also a process that takes any representation of $G$ and restricts it to a representation of $H$:
+And why is this so great?  Well, there's also a process that takes any representation of $G$ and [[restricted representation|restricts]] it to a representation of $H$:
 
 $$R': Rep(G) \to Rep(H) $$
 
-And this too, has a left adjoint:
+And this too, has a [[left adjoint]]:
 
 $$L' : Rep(H) \to Rep(G) $$
 
-which is called the <b>induced representation</b> trick.
+which is called the _induced representation_.
 
 
 
@@ -176,7 +176,7 @@ $$
 
 Here
 
-* the [[inverse image]]/[[(∞,1)-pullback]] functor $f^*$ produces the "restricted" $\infty$-representations along $f$;
+* the [[inverse image]]/[[(∞,1)-pullback]] functor $f^*$ produces the "[[restricted representation|restricted]]" $\infty$-representations along $f$;
 
 * the [[dependent sum]] $\sum_f$ is the _induced representation_ ∞-functor;
 
