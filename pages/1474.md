@@ -383,6 +383,7 @@ If the locale product $X\times X$ does not coincide with the spatial product, th
 
 * [[Kolmogorov topological space]]
 
+* [[nice topological space]]
 
 ## References
 
@@ -424,7 +425,7 @@ Comments on the relation to [[topos theory]] are for instance in
 [[!redirects reciprocal spaces]]
 
 [[!redirects Hausdorffication]]
-[[!redirects Hausdorffications]]su
+[[!redirects Hausdorffications]]
 
 [[!redirects Hausdorffification]]
 [[!redirects Hausdorffifications]]
