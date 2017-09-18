@@ -90,7 +90,7 @@ Note that, if $X$ is thought of a submanifold of itself, then it has a natural p
 To integrate on *unoriented* submanifolds of arbitrary dimension, use [[absolute differential forms]].  To integrate *nonlinear* differential forms, use [[cogerm differential forms]].
 
 
-### Integration on more general domains
+### Integration on other domains
 
 One often sees the definition of integration given for *parametrised* submanifolds, that is submanifolds where $U$ is an open subset of $\mathbf{R}^p$.  This amounts to a combination of the concepts above, with the two uses of $U$ (as a coordinate patch in $X$ or as the source of a submanifold of $X$) identified.  The theorem that the integral of an $n$-pseudoform on $X$ is independent of the coordinates chosen now becomes a theorem that the integral of a parametrised submanifold is independent of the parametrisation (up to some details about orientation), which in the end returns the result that one can integrate forms over arbitrary submanifolds (given an orientation or pseudoorientation as above).
 
