@@ -47,6 +47,8 @@ This is the twisted $\infty$-bundle classified by $\sigma$
 
 ## Examples
 
+* [[projective representation]]
+
 * [[twisted bundle]]
 
 * [[Jandl gerbe]]
