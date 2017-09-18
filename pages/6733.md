@@ -251,6 +251,11 @@ The M5 was maybe first found as a [[black brane]] of [[11-dimensional supergravi
 
 * R. Gueven, _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49.
 
+The history as of the 1990 is reviewed in 
+
+* {#Duff99} [[Mike Duff]], chapter II of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
+
 Reviews and general accounts include
 
 * [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
