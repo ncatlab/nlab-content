@@ -9096,6 +9096,7 @@ $$
 =--
 
 #### Homotopy pullbacks
+ {#HomotopyPullbacks}
 
 The concept of [[homotopy fibers]] of def. \ref{HomotopyFiber} is a special case of the more general concept of [[homotopy pullbacks]]. 
 
@@ -9729,11 +9730,11 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    ker(f) &\longrightarrow& \ast
+    hofib(f) &\longrightarrow& \ast
     \\
     \downarrow^{\mathrlap{g}} && \downarrow
     \\
-    A &\stackrel{f}{\longrightarrow}& B
+    X &\stackrel{f}{\longrightarrow}& Y
     \\
     \uparrow && \uparrow
     \\
@@ -9742,7 +9743,7 @@ $$
   \right)
   \stackrel{\underset{\longleftarrow}{\holim}}{\mapsto}
   \left(
-    \Omega A \stackrel{\Omega f}{\longrightarrow} \Omega B
+    \Omega X \stackrel{\Omega f}{\longrightarrow} \Omega X
   \right)
   \,.
 $$
