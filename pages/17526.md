@@ -1,0 +1,8 @@
+
+* [webpage](https://www.math.rochester.edu/people/faculty/jnei/)
+
+## related $n$Lab entries
+
+* [[localization of a ring]]
+
+category: people
