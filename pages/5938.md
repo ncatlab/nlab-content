@@ -22,7 +22,7 @@ $$
 pro(C)(GY',X) \cong pro(D)(Y',y(F)X)
 $$
 
-[[natural isomorphism|natural]] in $X$ and $Y'$, where $y:C\hookrightarrow pro(C)$ is the [[Yoneda embedding]] into the category of proobjects $pro(C)\subset Set^{C^{op}}$. Equivalently, for every [[prorepresentable functor]] $X:C'^{op}\to Set$, the functor $X\mapsto X\circ F$ is also prorepresentable.
+[[natural isomorphism|natural]] in $X$ and $Y'$, where $y:{C^{op}}\hookrightarrow pro(C)$ is the [[Yoneda embedding]] into the category of proobjects $pro(C)\subset (Set^{C})^{op}$. Equivalently, for every [[prorepresentable functor]] $X:D\to Set$, the functor $X\mapsto X\circ F$ is also prorepresentable.
 
 ## Examples
 
