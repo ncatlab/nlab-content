@@ -193,7 +193,7 @@ Part of the reason for the importance of simple graphs is that many "topological
 ## Lawvere's remarks on graph theory 
 
 
-At the [[Como]] conference in 1990, [[William Lawvere]] gave a videotaped lecture, in which he makes thoughtful remarks, relevant to the present article and section: 
+At the [[Como]] conference in 1990, [[William Lawvere]] gave a videotaped lecture including the following remarks:
 
 
 > {#LawvreOnGraphTheory} I have great problems reading books on graph theory, books and papers on graph theory, because they never tell you exactly what they are talking about. Sometimes the graphs are [word inaudible, even when played slower], sometimes they are absolutely reflexive, sometimes they are not. 
