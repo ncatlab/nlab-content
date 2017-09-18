@@ -4,6 +4,8 @@ Physicist
 
 ## related $n$Lab entries
 
+* [[perturbative quantum field theory]]
+
 * [[Dyson series]]
 
 * [[stability of matter]]
@@ -15,3 +17,5 @@ electrodynamics_, Phys. Rev. 85, 631 (1952)
 
 
 category: people
+
+[[!redirects Dyson]]
