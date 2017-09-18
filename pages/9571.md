@@ -19,7 +19,7 @@ GT Lie algebra appears as the tangent Lie algebra to the GT group.
 
 Drinfel'd defined it more explicitly as follows. 
 
-Let $\mathrak{lie}_n$ be the degree completion of the [[free Lie algebra]] on $n$-generators over a fixed ground field $K$ of characteristic $0$. 
+Let $\mathfrak{lie}_n$ be the degree completion of the [[free Lie algebra]] on $n$-generators over a fixed ground field $K$ of characteristic $0$. 
 Let $\mathfrak{der}_n$ be the space of $K$-linear derivations $\mathfrak{lie}_n\to
 \mathfrak{lie}_n$. A derivation $u\in\mathfrak{der}_n$ is __tangential__ if there exist
 $a_i\in\mathfrak{lie}_n$ for $i=1,\ldots,n$, such that $u(x_i)=[x_i,a_i]$. In particular, $u$ is determined by elements $a_1,\ldots,a_n$ and is below denoted
