@@ -1,0 +1,91 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a sequence 
+
+$$
+  X_\bullet
+  =
+  \left(
+  X_0 
+   \overset{f_0}{\longrightarrow}
+  X_1
+   \overset{f_1}{\longrightarrow}
+  X_2
+   \overset{f_2}{\longrightarrow}
+  \cdots
+  \right)
+$$
+
+of ([[pointed topological space|pointed]]) [[topological spaces]], then its _mapping telescope_ is the result of forming the (reduced) [[mapping cylinder]] $Cyl(f_n)$ for each $n$ and then attaching all these cylinder to each other in the canonical way
+
+
+At least if all the $f_n$ are inclusions, this is the sequential attachment of ever "larger" cylinders, whence the name "telescope".
+
+The mapping telescope is a representation for the [[homotopy colimit]] over $X_\bullet$. It is used for instance for discussion of [[lim^1 and Milnor sequences]] (and that's maybe the origin of the concept?).
+
+## Definition
+
++-- {: .num_defn #SheavesOnCartSp}
+###### Definition
+
+For
+
+$$
+  X_\bullet
+  =
+  \left(
+  X_0 
+   \overset{f_0}{\longrightarrow}
+  X_1
+   \overset{f_1}{\longrightarrow}
+  X_2
+   \overset{f_2}{\longrightarrow}
+  \cdots
+  \right)
+$$
+
+a sequence ([[cotower]]) in [[Top]], its **mapping telescope** is the [[quotient topological space]] of the [[disjoint union]] of [[product topological spaces]]
+
+$$
+  Tel(X_\bullet)
+  \coloneqq
+  \left(
+  \underset{n \in \mathbb{N}}{sqcup}  
+  \left(
+    X_n \times [n,n+1]
+  \right)
+  \right)/_\sim
+$$
+
+where the [[equivalence relation]] quotiented out is
+
+$$
+  (x_n, n) \sim (f(x_n), n+1)
+$$
+
+for all $n\in \mathbb{N}$ and $x_n \in X_n$.
+
+Analogously for $X_\bullet$ a sequence of [[pointed topological spaces]] then use [[reduced cylinders]] to set
+
+$$
+  Tel(X_\bullet)
+  \coloneqq
+  \left(
+  \underset{n \in \mathbb{N}}{sqcup}  
+  \left(
+    X_n \wedge [n,n+1]_+
+  \right)
+  \right)/_\sim
+  \,.
+$$
+
+=--
+
+## Related concepts
+
+* [[mapping cone]]
