@@ -379,10 +379,6 @@ See for instance ([Kiersz, prop. 3](#Kiersz)).
 
 [[!include structure on algebras and their module categories - table]]
   
-### Tiny objects
- {#TinyObjects}
-
-The only [[tiny object]] in the category of modules over a ring is the zero module, see. For details see at _[tiny object -- Examples -- In categories of modules over rings](tiny+object#InCategoriesOfModulesOverRings)_.
 
 ## Related concepts
 
@@ -399,6 +395,7 @@ The only [[tiny object]] in the category of modules over a ring is the zero modu
 ## References
 
 Discussion of $R Mod$ in $(Ab, \otimes)$ being an [[abelian category]] is for instance in 
+
 
 * Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-mod_and_Abelian_Categories.pdf))
 
