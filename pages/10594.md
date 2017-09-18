@@ -25,6 +25,10 @@
 
 * [[p-adic physics]]
 
+  * [[p-adic string theory]]
+
+  * [[p-adic AdS-CFT]]
+
 ## References
 
 The relation between [[string theory]] with its [[scattering amplitudes]] on [[Riemann surfaces]] and the theory of [[automorphic forms]] was maybe first highlighted in 
