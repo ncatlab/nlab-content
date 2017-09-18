@@ -4641,7 +4641,7 @@ For an attempt to generalize Deligne's theorem to positive characteristic, see
 
 * [[Victor Ostrik]], _On symmetric fusion categories in positive characteristic_, ([arXiv:1503.01492](https://arxiv.org/abs/1503.01492))
 
-Discussion relating to [[2-rings]] and the [[spin-satistics theorem]] is in
+Discussion relating to [[2-rings]] and the [[spin-statistics theorem]] is in
 
 * {#JohnsonFreyd15} [[Theo Johnson-Freyd]], _Spin, statistics, orientations, unitarity_, Algebraic and Geometric Topology ([arXiv:1507.06297](https://arxiv.org/abs/1507.06297))
 
