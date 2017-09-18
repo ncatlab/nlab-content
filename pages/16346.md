@@ -83,7 +83,8 @@ we put this together and discuss supermanifolds equipped with super Cartan geome
 #### Coordinate systems: super Cartesian spaces
  {#CoordinareSystemsSuperCartesianSpaces}
 
-Recall the following from the discussion at _[[geometry of physics -- smooth sets]]_.
+
+Recall the following from the discussion at _[[geometry of physics -- smooth sets]]_. We will set up [[supergeometry]] in direct analogy to this formulation of plain [[differential geometry]].
 
 
 +-- {: .num_defn #SiteCartSp}
@@ -222,7 +223,15 @@ Write $SuperCAlg_{\mathbb{R}}$ for the [[category]] of commutative superalgebras
 +-- {: .num_defn #SuperCartesianSpace}
 ###### Definition
 
-For $q\in \mathbb{N}$, the real [[Grassmann algebra]] $C^\infty(\mathbb{R}^{0|q})$ is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^1$ subject to the relation 
+For $q\in \mathbb{N}$, the real [[Grassmann algebra]] 
+
+$$
+  C^\infty(\mathbb{R}^{0|q})
+  \coloneqq
+  \wedge^\bullet \langle \theta^1, \cdots, \theta^q\rangle
+$$ 
+
+is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^1$ subject to the relation 
 
 $$
   \theta^i \theta^j = - \theta^j \theta^i
@@ -237,7 +246,7 @@ $\mathbb{Z}/2\mathbb{Z}$-[[graded vector space]] is
 $$
   C^\infty(\mathbb{R}^{p|q})
   \coloneqq
-  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \langle\theta^1, \cdots, \theta^q\rangle 
+  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \wedge^\bullet\langle\theta^1, \cdots, \theta^q\rangle 
 $$
 
 with the product given by the relations
@@ -293,7 +302,7 @@ This is the [[topos]] that hosts traditional [[supergeometry]]. However for our 
 
 The even-degree part $C^\infty(\mathbb{R}^{p|q})_{even}$ is an ordinary [[commutative algebra]], but if $q \geq 1$ then it is not the algebra of functions on any [[smooth manifold]], because it has a non-trivial [[nilpotent ideal]]. Instead, a nilpotent element of an [[algebra of functions]] may be thought of as a function depending on an _infinitesimal direction_.
 
-For instance $C^\infty(\mathbb{R}^{0|2})_{even}$ is isomorphic to what is known as the [[ring of dual numbers]] $(\mathbb{R}\oplus \epsilon \mathbb{R})/(\epsilon^2)$ with $\epsilon = \theta^1 \theta^2$.
+For instance $C^\infty(\mathbb{R}^{0|2})_{even}$ is isomorphic to what is known as the [[algebra of dual numbers]] $(\mathbb{R}\oplus \epsilon \mathbb{R})/(\epsilon^2)$ with $\epsilon = \theta^1 \theta^2$.
 
 This is traditionally more familiar from the theory of [[formal schemes]], but the same kind of general abstract theory goes through in the context of [[differential geometry]], a point of view known as _[[synthetic differential geometry]]_.
  
@@ -357,7 +366,7 @@ which are the identity after restricton along $\mathbb{R}^n \to \mathbb{R}^n \ti
 
 
 $$
-  C^\infty(\mathbb{R}^n)\otimes_{\mathbb{R}} \langle \epsilon\rangle
+  (C^\infty(\mathbb{R}^n)\otimes_{\mathbb{R}} \wedge^\bullet \langle \epsilon\rangle
   \longleftarrow
   C^\infty(\mathbb{R}^n)
 $$
@@ -531,11 +540,11 @@ For the first adjoint quadruple on the left this is the statement that [[smooth 
 
 For the second adjoint quadruple this is the statement that the [[Cahiers topos]] has [[differential cohesion]] relative to that of [[smooth spaces]], as discussed at _[[formal smooth infinity-groupoids]]_.
 
-For the third adjoint quadruple this is the statement that [[super formal smooth infinity-groupoids]] exhibits [[graded differential cohesion]] over formal smooth $\infty$-groupoids.
+For the third adjoint quadruple this is the statement that [[super formal smooth infinity-groupoids|super formal smooth spaces]] exhibits [[graded differential cohesion]] over formal smooth spaces.
 
 =--
 
-For brevity we now set
+For convenience, from now on we notationally abbreviate:
 
 $$
   \mathbf{H} \coloneqq SuperFormalSmooth0Type
@@ -556,13 +565,13 @@ $$
 induces an [[idempotent monad]] on $\mathbf{H}$, i.e. an [[endofunctor]]
 
 $$
-  \bigcirc \;\coloneqq\; i \circ L \colon \mathbf{H} \longrightarrow \mathbf{H}
+  \bigcirc \;\coloneqq\; i \circ L \;\colon\; \mathbf{H} \longrightarrow \mathbf{H}
 $$
 
 equipped with a [[natural transformation]]
 
 $$
-  \epsilon_X \colon X \longrightarrow \bigcirc X
+  \epsilon_X \;\colon\; X \longrightarrow \bigcirc X
 $$
 
 such that applying $\bigcirc$ again to that transformation it becomes an [[isomorphism]].
@@ -578,7 +587,7 @@ $$
 induces an [[idempotent comonad]]
 
 $$
-  \Box \;\coloneqq\; i \circ R \colon \mathbf{H} \longrightarrow \mathbf{H}
+  \Box \;\coloneqq\; i \circ R \;\colon\; \mathbf{H} \longrightarrow \mathbf{H}
   \,.
 $$
 
@@ -685,11 +694,11 @@ We pronounce the operations in corollary \ref{SystemOfModalities} as follows.
 
 * [[solidity]]
 
-  * **[[fermionic modality]] $\e$** -- the spaces it sends to the point are purely fermionic, the [[odd line]]
+  * **[[fermionic modality]] $\e$** -- the spaces it sends to the point are purely fermionic, the [[odd line]];
 
   * **[[bosonic modality]] $\rightsquigarrow$** -- sends a super-space to the underlying bosonic space;
 
-  * **[[rheonomy modality]] $\R$**
+  * **[[rheonomy modality]] $\R$**;
 
 * [[elasticity]]
 
@@ -697,7 +706,7 @@ We pronounce the operations in corollary \ref{SystemOfModalities} as follows.
  
   * **[[infinitesimal shape modality]] $\Im$** -- sends a space to its [[de Rham space]];
 
-  * **[[infinitesimal flat modality]] $\&$**
+  * **[[infinitesimal flat modality]] $\&$**;
 
 * [[cohesion]]
   
@@ -705,7 +714,7 @@ We pronounce the operations in corollary \ref{SystemOfModalities} as follows.
 
   * **[[flat modality]] $\flat$** -- sends a space to the [[discrete space]] formed by its points;
 
-  * **[[sharp modality]] $\sharp$**
+  * **[[sharp modality]] $\sharp$**.
 
 
 
@@ -740,7 +749,7 @@ $$
   \,.
 $$
 
-Given a point $x\colon  \ast \to X$, then the [[infinitesimal neighbourhood]] 
+Given a point $x \;\colon\;  \ast \to X$, then the [[infinitesimal neighbourhood]] 
 $\ast \to \mathbb{D}_x \to X$ of that point is the further [[pullback]] of the infinitesimal disk bundle to this point:
 
 $$
@@ -789,9 +798,9 @@ There are some further relations between the modalities to take note of:
 +-- {: .num_prop #Sublations}
 ###### Proposition
  
-We have the following [[sublation]]-relations:
+We have the following [[Aufhebung]]-relations:
 
-* $\sharp \emptyset \simeq \emptyset$;
+* $\sharp \emptyset \simeq \emptyset$ (the [[codiscrete objects]] form a [[dense subtopos]])
 
 * $\rightsquigarrow \Im \simeq \Im$.
 
@@ -883,7 +892,7 @@ geometry.
 +-- {: .num_defn #LocalDiffeomorphisms}
 ###### Definition
 
-Given $X,Y\in \mathbf{H}$ then a morphism $f \colon X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if its naturality square of the [[infinitesimal shape modality]]
+Given $X,Y\in \mathbf{H}$ then a morphism $f \;\colon\; X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if its naturality square of the [[infinitesimal shape modality]]
 
 $$
   \array{
@@ -950,7 +959,7 @@ with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphi
 +-- {: .num_prop}
 ###### Proposition
 
-If $f\colon X \longrightarrow Y$ is a [[local diffeomorphism]],
+If $f \;\colon\; X \longrightarrow Y$ is a [[local diffeomorphism]],
 def. \ref{LocalDiffeomorphisms}, then so is image
 $\stackrel{\rightsquigarrow}{f}\colon \stackrel{\rightsquigarrow}{X} \longrightarrow \stackrel{\rightsquigarrow}{Y}$ under the [[bosonic modality]].
 
@@ -1648,9 +1657,11 @@ is a [[cocycle]].
 
 #### Definite super-froms
 
+(...)
 
 [[definite form]], [[super p-brane]], [[parameteriedz WZW model]]
 
+(...)
 
 
 ## References
@@ -1672,6 +1683,8 @@ Traditional literature that involves super-Cartan geometry more or less explicit
 * {#FigueroaOFarrill08} [[José Figueroa-O'Farrill]], _The homogeneity conjecture for supergravity backgrounds_, J.Phys.Conf.Ser.175:012002, 2009 ([arXiv:0812.1258](http://arxiv.org/abs/0812.1258))
 
 * {#EgeilehChami13} [[Michel Egeileh]], [[Fida El Chami]], _Some remarks on the geometry of superspace supergravity_, J.Geom.Phys. 62 (2012) 53-60 ([spire](http://inspirehep.net/record/1333125))
+
+For references on [[supergeometry]] and [[supermanifolds]] as such, see there. For references on [[supergravity]] as such, see there.
 
 The formalization as discussed above is from
 
