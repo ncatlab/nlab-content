@@ -107,7 +107,7 @@ to the definition of combinatorial map, then the resulting class of permutations
 
 gives a way of representing arbitrary [[triangulations]] of oriented surfaces.  Analogous to what we saw above in the case of the edge involution $\alpha$, dropping the condition that $\sigma$ or $\phi$ be fixed point free also allows for the possibility of degenerate vertices/faces of degree 1.
 
-More generally, we can say (following [Jones and Singerman 94](#JonesSingerman94)) that a hypermap has type $(p,q,r)$ if the permutations $\sigma$, $\alpha$, and $\phi$ have [[order#in_the_sense_of_group_theory|order]]s $p$, $q$, and $r$ respectively.
+More generally, we can say (following [Jones and Singerman 94](#JonesSingerman94)) that a hypermap has type $(p,q,r)$ if the permutations $\sigma$, $\alpha$, and $\phi$ have [[order#in_the_sense_of_group_theory|order]]s $p$, $q$, and $r$ respectively.  This algebraic condition translates to the topological condition that $p$, $q$, and $r$ are the [[least common multiple]]s of the degrees of the hypervertices, hyperedges, and hyperfaces, respectively.
 
 ## The category of oriented maps
 
@@ -117,7 +117,7 @@ In this section we will adopt the more liberal notion of combinatorial map descr
 ###### Definition
 The category of combinatorial maps $CM$ is defined as follows:
 
-* objects are pairs of a set $D$ together with a triple of permutations $(\sigma,\alpha,\phi)$ on $D$ such that $\langle\sigma,\alpha,\rho\rangle$ acts transitively on $D$, $\phi\alpha\sigma = id$, and $\alpha$ is an involution.
+* objects are pairs of a set $D$ together with a triple of permutations $(\sigma,\alpha,\phi)$ on $D$ such that $\langle\sigma,\alpha,\rho\rangle$ acts transitively on $D$ and $\alpha^2 = \phi\alpha\sigma = id$.
 
 * morphisms $(D,(\sigma,\alpha,\phi)) \to (D',(\sigma',\alpha',\phi'))$ are functions $h : D \to D'$ such that $h\sigma = \sigma' h$, $h\alpha = \alpha' h$, and $h\phi = \phi' h$.
 =--
