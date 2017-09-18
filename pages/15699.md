@@ -26,7 +26,7 @@ More generally, the Mellin transform appears as a stage in the expression of [[z
 
 ### 1-loop vacuum amplitudes
 
-[[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _Schwinger parameter_ and the Mellin transform turns the [[worldline formalism]]-picture into the [[Feynman propagator]]-picture.
+[[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _[[Schwinger parameter]]_ and the Mellin transform turns the [[worldline formalism]]-picture into the [[Feynman propagator]]-picture.
 
 $$ Tr H^{-s} = \int_0^\infty t^{s-1} Tr\, \exp(- t H) \, d t \,. $$ 
 
@@ -44,6 +44,8 @@ $$ Tr H^{-s} = \int_0^\infty t^{s-1} Tr\, \exp(- t H) \, d t \,. $$
 
 * [[Fourier transform]]
 
+* the generalization of Mellin transforms from [[automorphic forms]] to [[automorphic representation]] is the concept of [[automorphic L-function]]
+
 ## References
 
 * Wikipedia, _[Mellin transform](http://en.wikipedia.org/wiki/Mellin_transform)_
@@ -54,7 +56,7 @@ For [[function fields]]:
 
 * [[David Goss]], _A formal Mellin transform in the arithmetic of function fields_, Transactions of the AMS, volume 327, Number 2, October 1991 ([pdf](http://www.ams.org/journals/tran/1991-327-02/S0002-9947-1991-1041048-5/S0002-9947-1991-1041048-5.pdf))
 
-For the appearance in  [[physics]] as integrals over Schwinger parameters producing [[Feynman propagators]] see
+For the appearance in  [[physics]] as integrals over [[Schwinger parameters]] producing [[Feynman propagators]] see
 
 * [[Joel Shapiro]], _Schwinger trick and Feynman parameters_ ([pdf](https://www.physics.rutgers.edu/grad/613/615lects/schwingertrick.pdf))
 
@@ -63,3 +65,4 @@ For the appearance in  [[physics]] as integrals over Schwinger parameters produc
 [[!redirects Mellin transforms]]
 
 [[!redirects Schwinger parameter]]
+[[!redirects Schwinger parameters]]
