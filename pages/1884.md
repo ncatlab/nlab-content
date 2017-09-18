@@ -773,11 +773,11 @@ $$
 
 =--
 
-+-- {: .num_example #BottElement} 
++-- {: .num_example #BottElement}
 ###### Example
 **([[Bott element]])**
 
-For $S^2$ the [[Euclidean space|Euclidean]] [[2-sphere]], write 
+For $S^2$ the [[Euclidean space|Euclidean]] [[2-sphere]], write
 
 $$
   h \in Vect_{\\mathbb{C}}(S^2) \ongrightarrow K_{\mathbb{C}}(S^2)
@@ -785,7 +785,7 @@ $$
 
 for the complex topological K-theory class of the [[basic complex line bundle on the 2-sphere]].
 By prop. \ref{KGrupDirectSummandReducedKGroup} its image in [[reduced K-theory]]
-is the [[virtual vector bundle]] 
+is the [[virtual vector bundle]]
 
 $$
   \beta \;\coloneqq \; h-1 \in \tilde K_{\mathbb{C}}(S^2)
@@ -1796,12 +1796,12 @@ and hence on these element this component vanishes.
 
 ### Fundamental product theorem
 
-In order to compute K-classes, one needs the computation of some basic cases, such as that of the K-theory groups 
+In order to compute K-classes, one needs the computation of some basic cases, such as that of the K-theory groups
 of [[n-spheres]] and of [[product spaces]] with $n$-spheres. The _[[fundamental product theorem in K-theory]]_
 determines these K-theory grous. Its result is most succinctly summarized by the statement of _[[Bott periodicity]]_,
 to which we turn [below](#BottPeriodicities).
 
-Before discussing the product theorem, it is useful to recall the analogous 
+Before discussing the product theorem, it is useful to recall the analogous
 situation in [[ordinary cohomology]] $H^\bullet(-) \coloneqq H^\bullet(\mathbb{Z})$.
 Here it is immediate to determine the cohomology groups of the [[n-spheres]], in particular one finds that
 for the [[2-sphere]] is $H^\bullet(S^2) = \mathbb{Z}\langle e\rangle \oplus \mathbb{Z}\langle h\rangle $,
@@ -1818,7 +1818,7 @@ $$
 $$
 
 Notice that in ordinary cohomology $h$ is also the generator of the [[reduced cohomology]] group $\tilde H^\bullet(S^2) \simeq \mathbb{Z}\langle h\rangle$.
-Now as an element of $K_{\athbb{C}}(S^2)$ the [[basic complex line bundle on the 2-sphere]] is not reduced, but its image in 
+Now as an element of $K_{\athbb{C}}(S^2)$ the [[basic complex line bundle on the 2-sphere]] is not reduced, but its image in
 [[reduced K-theory]] is the [[Bott element]] [[virtual vector bundle]] $\beta = h-1$ (def. \ref{BottElement}).
 The [[fundamental product theorem in topological K-theory]] says, in particular, that the complex topological K-theory
 of the 2-sphere behaves in just the same way as the ordinary cohomology, if only one replaces the generator $h$ by $\beta = h-1$.
@@ -1840,7 +1840,7 @@ $$
 
 =--
 
-A **proof** of this may be obtained by analysis of the 
+A **proof** of this may be obtained by analysis of the
 relevant [[clutching function]], see _[here](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)_.
 
 Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)). This element
@@ -2490,12 +2490,17 @@ $$
 
 Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, topological K-theory is represented by a [[spectrum]]: the _[[K-theory spectrum]]_.
 
+e.g. [Switzer 75, p. 216](#Switzer75)
+
 The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topological $K$-theory is modeled in particular by the space $Fred$ of [[Fredholm operator]]s.
 
 ### Ring spectrum
 
-The [[classifying space]] $B U \times \mathbb{Z}$ for (complex) topological K-theory is an [[H-ring]]
-(p. 205 (213 of 251) in _[[A Concise Course in Algebraic Topology]]_.)
+This [[K-theory]] spectrum has the structure of a [[ring spectrum]]
+
+(e.g. [Switzer 75, section 13.90, around p. 300](#Switzer75),
+
+see also p. 205 (213 of 251) in _[[A Concise Course in Algebraic Topology]]_)
 
 (...)
 
@@ -2579,6 +2584,8 @@ Early lecture notes on topological K-theory in a general context of [[stable hom
 Textbook accounts on topological K-theory include
 
 * {#Atiyah67} [[M. F. Atiyah]], _K-theory_, Benjamin New-York, 1967, ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahk.pdf))
+
+* {#Switzer75} [[Robert Switzer]], sections 11 and 13.90 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975.
 
 * {#Karoubi} [[Max Karoubi]], _K-theory: an introduction_, Grundlehren der Math. Wissen. 226 Springer 1978, Reprinted in Classics in Mathematics (2008)
 
