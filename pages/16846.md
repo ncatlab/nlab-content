@@ -49,7 +49,9 @@ Although the bornological topos can be regarded as a cohesive category of "space
 
 * [[bornology]]
 
-* [[Johnstone's topological topos]]
+* [[Johnstone's topological topos|topological topos]]
+
+* [[topos of recursive sets|recursive topos]]
 
 * [[cohesion]]
 
