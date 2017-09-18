@@ -79,7 +79,7 @@ $$
 
 where on the right we have the $G$-equivariant [[mapping spectrum]] from the (equivariant) [[suspension spectrum]] of the [[orbit]] $G/H$ to $E$.
 
-(e.g. [Guillou-May 11, remark 2.5](#GuillouMay11)) (see also e.g. [Schwede 15, p. 16](#Schwede 15))
+(e.g. [Guillou-May 11, remark 2.5](#GuillouMay11)) (see also [Schwede 15, p. 16 for restriction and section 4 culminating on p. 37 for transfer and compatibility](#Schwede 15))
 
 (...)
 
