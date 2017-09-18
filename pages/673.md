@@ -1,8 +1,8 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="225" width="150" src="http://ncatlab.org/davidroberts/files/DavidRoberts2012.jpg" alt="David Roberts - image (c) Peter Fisher, used with permission" title="David Roberts - image (c) Peter Fisher, used with permission"/></div>
 
-I am currently a visiting fellow in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the [University of Adelaide](http://www.maths.adelaide.edu.au/).
+I am currently a visiting fellow at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
 
- I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]]. I have a particular interest in constructing examples in (low-dimensional) [[higher geometry]].
+I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]]. I have a particular interest in constructing examples in (low-dimensional) [[higher geometry]].
 
 
 I was a research associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015.
