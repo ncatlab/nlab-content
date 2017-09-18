@@ -1,4 +1,4 @@
-A (proper) **vertex coloring** of a [[graph]] is a labelling of its vertices with the property that no two vertices sharing an edge have the same label.  A vertex coloring which uses at most $n$ labels is called a **$n$-coloring**.  A $n$-coloring of a graph $G$ is the same thing as a graph homomorphism $G \to K_n$ into the complete graph on $n$ vertices.
+A (proper) **vertex coloring** of a [[graph]] is a labelling of its vertices with the property that no two vertices sharing an edge have the same label.  A vertex coloring which uses at most $n$ labels is called a **$n$-coloring**.  A $n$-coloring of a graph $G$ is the same thing as a graph homomorphism $G \to K_n$ into the complete graph on $n$ vertices, and is dual to the notion of $n$-[[clique]] (which corresponds to a homomorphism $K_n \to G$).
 
 ## Related concepts
 
