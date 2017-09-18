@@ -1,3 +1,7 @@
+> This entry is meant to be a **disambiguation page**, plus some commentary that would not fit well on either of the pages [[digraph]] and [[quiver]]. 
+The term "directed graph" is somewhat intermediate between two rather precisely delineated terms: [[digraph]] and [[quiver]].
+In a sense, "directed graph" is an undefined term, but the latter two both are defined. 
+Each digraph is a quiver, not every quiver is a digraph (sensu stricto).
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -14,48 +18,42 @@
 * table of contents
 {:toc}
 
-## Terminology
+## Commentary
 
-The term _directed graph_ is used in both [[graph theory]] and [[category theory]] and the precise definition varies depending on the particular reference under consideration---even within one of the two theories.
+The term _directed graph_ is used in both [[graph theory]] and [[category theory]].
+The definition varies---even within *one* of the two theories.
 
-In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) usually means a [[simple directed graph]], and [[category theory]], _directed graph_ or _digraph_ usually means a [[quiver]], which may have multiple edges and loops; the basic *difference* being that (according to one *widespread convention*), the word *digraph* implies that there are neither loops nor *parallel* arcs (while directed cycles of length two *are* allowed in a digraph; cf. e.g. [Section 1.2](#DG2nd)). 
+In [[graph theory]], _directed graph_ (often abbreviated to the contraction _digraph_) usually means [[simple directed graph]], and in [[category theory]], _directed graph_ or _digraph_ usually means [[quiver]], hence may have multiple edges and loops. 
+The basic *difference* is (according to one *widespread convention*) to have *digraphs* imply that there be neither any loop nor any *parallel* arc (directed cycles of length two *are* allowed in a digraph; cf. e.g. [Section 1.2](#DG2nd)). 
 
-From a category-theoretic point of view, it is not superfluous to state the obvious fact that this is somewhat orthogonal to how the underlying [[quiver]] of a category looks like: that quiver *always* has a loop at each vertex, and, usually, many parallel arcs. In particular, the *underlying quiver of a category is never a digraph* (in the sense of, e..g,[BJG2009](#DG2nd)).
+From a category-theoretic point of view, it is not superfluous to state the obvious fact that this is somewhat orthogonal to how the underlying [[quiver]] of a category looks like: _such_ a quiver *always* has a loop at each vertex, and, usually, many parallel arcs. 
+In particular, the *underlying quiver of a category is never a digraph* (in the sense of, e..g,[BJG2009](#DG2nd)).
+
+There is an influential (in that it made some authors use the term "irreflexive" within the composite "irreflexive graph" even though sensu stricto the term is wrong, at least when taken in the same sense as in "irreflexive binary relation") of [[William Lawvere]], very relevant to the above: in [p. 272](#GeneralizedGraphs) one reads
+
+
+> [..] the elementary "parallel process" $E= \bullet\overset{\rightarrow}{\rightarrow}\bullet$ is a reflexive graph which happens to admit only one definition of composition making it into a category $\mathbf{P}$. [..] Its actions $S^{\mathbf{P}^{\mathrm{op}}}$ are the **irreflexive** graphs (the negative is in a way appropriate even for those objects which happen to have loops at some point $p$, for morphisms are allowed to interchange *any* two such loops).
+
+[Editorial note: the author of the above passage drew a box around the (diagram of) the category E, but this is not done here, for technical reasons.]
+
+
+An example of a use of digraph theory *sensu stricto* in category theory is giving a rigorous justification of the  notational practice of [[pasting diagrams]]. 
+This was achieved in the late 1980s (cf. e.g. [Johnson87](#Johnson1987), [Johnson89](#Johnson1989), [Power90](#Power1990)). 
+In this approach, parallel arcs or loops are of secondary importance. 
+
+
 
 From a graph-theoretical point of view, it is not superfluous to emphasize the obvious fact that *every digraph is a quiver*, but *not every quiver is a digraph* (again, in the sense of [BJG2009](#DG2nd)).
-
-Unsurprisingly, a generous disregard to issues around allowing loops or not, and sometimes even to allowing parallel arcs, is common in the literature. Because of the additional information given by directions, digraph theory tends to have more technical terms than the theory of undirected graphs, in particular, some systematic prefix-constructions (like *in-neighbor*).
-
-We here list a few, calibrating our conventions according to [BJG2009](#DG2nd), but only in so far as they are fundamental and potentially useful in category theory.[^1] For concision and robustness, we mostly use words.
-
-
-**arc**: directed edge
-
-**in-neighbour of $v$**: vertex from which there is one (and  because of the prohibition of parallel arcs, only one) arc into $v$ 
-
-**out-neighbour of $v$**: vertex for which there is one (and because of the prohibition of parallel arcs, only one) arc from $v$ to it 
-
-**walk**: [[sequence]] alternating between vertices and (zero or more) arcs, *always* starting with a vertex, each arc pointing towards the next vertex, and either ending it a vertex, or countably infinite 
-
-**trail**: walk without any repeated arcs 
-
-**path**: trail without any repeated vertices 
-
-**cycle**: finite trail with precisely one repetition: the last component of the sequence (necessarily a vertex) being [[equal]] to its first component 
-
-Remarks. For the definitions of _trail_ and _path_, which in particular involve negations, to be sensical, both the vertex [[set]] and the arc [[set]] of the digraph need to have an [[equality]] relation, and one has to work with a logic which allows negating equality.
-
-
-[^1]: One example of a use of digraph theory *sensu stricto* in category theory is giving a rigorous justification of the  notational practice of [[pasting diagrams]], which was achieved in the late 1980s (cf. e.g. [Johnson87](#Johnson1987), [Johnson89](#Johnson1989), [Power90](#Power1990) ). 
-There, parallel arcs or loops are of secondary importance. 
 
 
 
 ## Related concepts
 
+  * [[digraph]] (briefly, _a_ usual meaning of this term is a rather strict one: quiver with*out* any loop and with*out* any parallel edges)
+
   * [[graph]]
 
-  * [[quiver]]
+  * [[quiver]] (briefly, _the_ usual meaning of this term is _presheaf on the finite, two-object, four-morphism category with two parallel non-endomorphisms_, aka "the walking quiver" or "the elementary parallel process")
 
   * [[n-quiver]]
 
@@ -75,13 +73,14 @@ There, parallel arcs or loops are of secondary importance.
 {#Johnson1989}
 
 
+* [[William Lawvere]]: _Qualitative Distinctions Between Some Toposes of Generalized Graphs_, Contemporary Mathematics 92 (1989) 
+{#GeneralizedGraphs}
+
 * [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra 129 (1990) 
 {#Power1990}
 
 
 [[!redirects directed graph]]
 [[!redirects directed graphs]]
-[[!redirects digraph]]
-[[!redirects digraphs]]
 [[!redirects Directed graph]]
 [[!redirects Directed graphs]]
