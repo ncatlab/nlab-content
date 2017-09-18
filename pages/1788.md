@@ -1,13 +1,32 @@
-cardy_condition.jpg , screen captured from [Lauda & Pfeiffer 2006](http://arxiv.org/abs/math/0606331)
-
-[[cardy_condition.jpg:pic]]
-
-tada?
-
-| ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
-|--|--|--|--|--|
-|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
-| A flat connection $\nabla$ on $X$ is a rule for sending paths $(x \stackrel{\gamma}{\to} y) \in \Pi X$ to group elements, respecting composition. | $transport(\nabla) \colon \underset{x,y \colon \Pi X}{\sum} \left( x \rightsquigarrow y \right) \to \underset{*,*' \colon \mathbf{B}G}{\sum} (* \rightsquigarrow *')  $  |  $\frac{\Pi(X) \stackrel{transport(\nabla)}{\to} \mathbf{B}G}{X \stackrel{\nabla}{\to} \flat \mathbf{B}G}$.| The [[higher parallel transport]] $trans(\nabla)$ of a [[flat connection]] $\nabla$: a ([[higher gauge theory|higher]]) [[gauge field]] with vanishing [[field strength]]. | _[Flat connections](#FlatConnections)_ | 
-| A closed differential form $\omega$ is a flat connection $\nabla$ and a trivialization of the underlying bundle. |  $\begin{aligned} & \flat_{dR} \mathbf{B} G  \coloneqq  \\ & \sum_{\nabla \colon \flat \mathbf{B}G} (UnderlyingBundle(\nabla) \simeq *) \end{aligned}$ | $\begin{matrix} \flat_{dR}\mathbf{B}G  & \stackrel{UnderlyingConnection}{\begin{svg} [[!include SVG rightarrow]]\end{svg}}& \flat \mathbf{B}G \\ \begin{svg}[[!include SVG downarrow]]\end{svg} & \mathclap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} & \space{10}{0}{30} \\ \space{10}{30}{1} & \swArrow}} & \begin{svg}[[!include SVG downarrow]]\end{svg}{}^{\mathrlap{Underlying \atop Bundle}} \\ * &\stackrel{}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}& \mathbf{B}G \end{matrix}$  | The [[coefficients]] for [[de Rham cohomology|de Rham]] [[hypercohomology]] -- flat [[∞-Lie algebra valued differential forms]]. | _[de Rham coefficients](#deRhamCoefficients)_ |
-| A general connection $\nabla$ is the equivalence between the curvature $curv(\mathbf{c})$ of a bundle $\mathbf{c}$ and a closed differential form $\omega$. | $\nabla \colon \underset{{\mathbf{c} \colon \mathbf{B}^n \mathbb{G}} \atop { \omega \colon \Omega^{n+1}_{cl} }}\sum \left( curv\left(\mathbf{c}\right) = \omega\right) $ | $ \begin{matrix} \mathbf{B}^n \mathbb{G}_{conn}  & \stackrel{F_{(-)}}{\begin{svg} [[!include SVG rightarrow]]\end{svg}}& \Omega^{n+1}_{cl} \\ \begin{svg}[[!include SVG downarrow]]\end{svg} & \mathclap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} & \space{10}{0}{30} \\ \space{10}{30}{1} & \swArrow}} & \begin{svg}[[!include SVG downarrow]]\end{svg} \\ \mathbf{B}^n \mathbb{G} &\stackrel{curv}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}& \flat_{dR} \mathbf{B}^{n+1}\mathbb{G} \end{matrix} $  | The [[coefficients]] for smooth [[differential cohomology]]: abelian ([[higher gauge theory|higher]]) [[gauge fields]]. | _[Circle principal n-connections](CirclePrincipalConnections)_ |
-| There is a cohesive function from $G$-gauge fields to higher $\mathbb{G}$-gauge fields. | $\vdash \; \exp(i S) \colon \mathbf{B}G_{conn} \to \mathbf{B}^n \mathbb{G}_{conn}$ | A [[differential cohomology|differential]] [[universal characteristic class]]. | An extended [[action functional]]/[[prequantum circle n-bundle|prequantum n-bundle]] for extended [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons-type]] [[gauge theory]].   |  |
+I want to touch two points concerning Lawvere's concept of [[Aufhebung]]:
+ 
+Let us briefly recall the definition given in the entry. Given a topos $\mathcal{B}$ define a level $i$ as an essential subtopos that is $i_!\dashv i^ *\dashv i_*:\mathcal{A}\to\mathcal{B}$ with $i_*$ fully faithful. This yields an [[adjoint modality]] $\lozenge_i\dashv \Box_i$ via $\lozenge_i := i_!i^*$ and $\Box_i :=i_*i^*$. A level $j$ is higher iff 
+ 
+$$
+  \array{
+             \lozenge_j & \dashv & \Box_j\\
+                               \cup &  & \cup\\
+                               \lozenge_i & \dashv & \Box_i
+} $$
+ 
+$j$ resolves $i$ if furthermore $ \Box_j\lozenge_i = \lozenge_i$ and $j$ is the _Aufhebung_ (term taken from Hegel) of $j$ if every other level $k$ that resolves $i$ is higher than $j$.
+ 
+1. The first point which suggests that there might be something wrong here (at least in my understanding) is that this appears to imply that a quintessential localization aka [[quality type]] where $i_!\simeq i_*$ is his own Aufhebung as then $\lozenge_i\simeq\Box_i$ whence $\Box_i\lozenge_i=\lozenge_i\lozenge_i=\lozenge_i$. 
+ 
+  This is somewhat puzzling because Lawvere in (1991, p.10) asks for the Aufhebung of a level that is an quality type and also the Aufhebung operator computed in Kennett-Riehl-Roy-Zaks for some homotopical cats does have no fix points implying e.g. that sSet has no quintessential localizations. So there probably is a bug here!?
+ 
+ 
+2. The second point is related to Mike's quest in a recent thread to deconstruct the modalities internally. Taking a look at Urs' table for [[differential cohesion]] and rearranging a bit :
+$$
+   \array{
+      \Re&\dashv&\int_{inf}&\dashv&\flat_{inf} &     &
+      \\
+      &       & \cup  &                &\cup        &           &
+      \\  
+      &        &\int &\dashv      & \flat       &\dashv   &\sharp
+      \\
+      &        &        &              & \cup         &            & \cup
+      \\
+      &         &       &              &  \empty     & \dashv & \ast
+   }$$
+This suggests to read the $\cup$ as Aufhebung with the left-peripheral $\Re ,\int$ just there to ensure that the Aufhebung exists at the preceding level so that we start with $\empty\dashv\ast$ at the bottom, lift with carry-over $\int$, lift once more with final carry-over $\Re$. As Aufhebung consists intuitively basically in shifting the 'negative' part $\lozenge$ to the 'positive' right $\Box$ at a higher level (in particular, the Aufhebung of a $\lozenge$ can be viewed as a stand-in for a left adjoint which transforms $\lozenge\to\Box'$ already at the same level) this could be viewed as a repeated _rectification_ of $\empty$ - non-being. So the idea would be to put aside the base and the thickened topos and try to characterize the adjunctions in the table via the existence of the appropriate Aufhebungen. In order to find out whether this story holds water it would be necessary to check that the $\cup$ are indeed Aufhebungen and then that the carry-overs actually can be connected to these Aufhebungen, also the implicit quantification over all levels is potentially nasty from an internal point of view.
