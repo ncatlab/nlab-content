@@ -1,0 +1,7 @@
+
+
+* [webpage](https://www.math.ucdavis.edu/~schwarz/)
+
+* [My life in science](https://www.math.ucdavis.edu/~schwarz/bion.pdf)
+
+category: people
