@@ -988,7 +988,7 @@ For $C = sSet_{Quillen}$ the standard [[model structure on simplicial sets]], th
 ### Homotopy type theory formulation
  {#HomotopyTypeTheoryFormulation}
 
-For $\mathbf{H}$ an [[(∞,1)-topos]], another way of saying that we have an internal category object in $\mathbf{H}$ should be to say that we formulate it in the [[internal language]] of $\mathbf{H}$, which is a [[homotopy type theory]].
+For $\mathbf{H}$ an [[(∞,1)-topos]], another way of saying that we have an internal category object in $\mathbf{H}$ should be to say that we formulate it in the [[internal language]] of $\mathbf{H}$, which is a [[homotopy type theory]]. (For more see at _[[internal category in homotopy type theory]]_.)
 
 However, at the time of this writing little is known for how to speak of _non-finite_ [[diagrams]] fully internally. To appreciate the issue, notice that the "internal" formulation of categories by [[simplicial objects in an (∞,1)-category]] as [above](#Definition) is in fact not fully internal to the ambient $(\infty,1)$-category $\mathcal{C}$, but assumes that it is known what externally an [[(∞,1)-functor]] $\Delta^{op} \to \mathcal{C}$ is. When we speak in [[homotopy type theory]] this is not an option and we have to genuinely stick to internal reasoning.
 
@@ -1512,10 +1512,10 @@ Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Cl
 ### Formalization in homotopy type theory
  {#ReferencesFormalizationInHomotopyTypeTheory}
 
-A formalization of internal 1-categories and 1-category theory in [[homotopy type theory]] is discussed in 
+A formalization of [[1-categories]] internal to [[homotopy type theory]] (see _[[internal categories in homotopy type theory]]_) is discussed in 
 
-* Benedikt Ahrens, [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
-  {#AKS}
+* {#AKS} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
+  
 
 [[!redirects category object in an (∞,1)-category]]
 
