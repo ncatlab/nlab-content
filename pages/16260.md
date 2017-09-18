@@ -22,10 +22,16 @@
 In classical [[gravity]] ([[general relativity]]) the _positive energy theorem_ (formerly the _positive mass conjecture_) states that under reasonable assumptions ([[dominant energy condition]]) on the nature of the [[matter]] content (i.e. on the non-gravitational [[stress-energy tensor]]) then the [[ADM mass]] of any [[asymptotically flat spacetime]] solving the [[Einstein equations]] is non-negative, and zero precisely only for [[Minkowski spacetime]] (the [[vacuum]]).
 
 
+## Related concepts
+
+* [[BPS state]]
 
 ## References
 
 * Wikipedia, _[Positive energy theorem](http://en.wikipedia.org/wiki/Positive_energy_theorem)_
+
+* {#Hull83} [[Chris Hull]], _The positivity of gravitational energy and global supersymmetry_, Comm. Math. Phys. Volume 90, Number 4 (1983), 545-561 ([Euclid](https://projecteuclid.org/euclid.cmp/1103940417))
+
 
 * Maung Min-Oo, _Scalar curvature rigidity of certain symmetric spaces_, 1995 ([pdf](http://ms.mcmaster.ca/minoo/mypapers/crm.pdf))
 
