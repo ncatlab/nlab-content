@@ -37,8 +37,8 @@ A **near-ring** is a set $R$ equipped with
 If $(R,+,0)$ is only a monoid or semigroup, we say instead that $R$ is a **near-rig** or a **near-semiring**.  (Of course, now it is possible to have distributivity on both sides without making addition commutative, since addition need not always cancel.)
 
 There is also a weaker notion, of __loop near ring__, where in the 
-axioms above the group structure on $(R,+,0)$ is weakened to an [[algebraic loop]]
-structure (i.e. the associativity of addition is dropped).
+axioms above the group structure on $(R,+,0)$ is weakened to a [[loop (algebra)|loop]]
+algebraic structure (i.e. the associativity of addition is dropped).
 
 ## Internalization
 
@@ -47,6 +47,11 @@ Of course, near-rings can be defined [[internalization|internally]] to any [[car
 ## References
 
 * [wikipedia](en.wikipedia.org/wiki/Nearring)
+
+For loop near rings see
+
+* D. Ramakotaiah, C. Santhakumari. On loop near-rings.
+Bull. Austral. Math. Soc. 19(3):417{435, 1978.
 
 Loop near rings appear in topology:
 
