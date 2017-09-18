@@ -737,6 +737,7 @@ Cohomological spectral sequences are compatible with [[cup product]] structure o
 
 * [[edge morphism]]
 
+* [[multiplicative spectral sequence]]
 
 ## References
 
