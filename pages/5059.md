@@ -108,13 +108,13 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *supertorsion* of the [[super-vielbein]] $e$, because the defining equation
+The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *[[supertorsion]]* of the [[super-vielbein]] $e$, because the defining equation
 
 $$
   d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \frac{i}{2}\bar \psi \Gamma^a \psi
 $$
 
-may be read as saying that $e$ is [[torsion]]-free except for that term. Notice that this term is the only one that appears when the differential is applied to "Lorentz scalars", hence to object in $CE(\mathfrak{siso})$ which have "all indices contracted". 
+may be read as saying that $e$ is [[torsion]]-free except for that term. Notice that this term is the only one that appears when the differential is applied to "Lorentz scalars", hence to object in $CE(\mathfrak{siso})$ which have "all indices contracted". (See also at _[[torsion constraints in supergravity]]_.)
 
 Notably we have 
 
