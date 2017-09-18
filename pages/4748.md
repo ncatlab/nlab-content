@@ -673,6 +673,10 @@ The description of [[connections on a 2-bundle]] in terms of such parallel 2-tra
 
 * {#SWIII} [[Urs Schreiber]], [[Konrad Waldorf]] _Connections on nonabelian gerbes and their holonomy_, Theory Appl. Categ., Vol. 28, 2013, No. 17, pp 476-540 ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923), [TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)) 
 
+Applications are discussed in
+
+* [[Arthur Parzygnat]], _Gauge invariant surface holonomy and monopoles_, Theory and Applications of Categories, Vol. 30, 2015, No. 42, pp 1319-1428 ([TAC](http://www.tac.mta.ca/tac/volumes/30/42/30-42abs.html))
+
 
 Parallel transport for [[circle n-bundles with connection]] is discussed generally in 
 
@@ -686,7 +690,7 @@ Parallel transport with [[coefficients]] in [[crossed complexes]]/[[strict infin
 
 * {#Kapranov15} [[Mikhail Kapranov]], _Membranes and higher groupoids_ ([arXiv:1502.06166](http://arxiv.org/abs/1502.06166))
 
-The integration of flat differential forms with values in chain complexes toflat $\infty$-parallel transport on $\infty$-vector bundles is in 
+The integration of flat differential forms with values in chain complexes to flat $\infty$-parallel transport on $\infty$-vector bundles is in 
 
 * {#AbadSchaetz} [[Camilo Arias Abad]], [[Florian Schaetz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv](http://arxiv.org/abs/1011.4693))
 
@@ -720,4 +724,3 @@ Remarks on $\infty$-parallel transport in [[Top]] are in
 
 [[!redirects higher volume holonomy]]
 [[!redirects higher volume holonomies]]
-
