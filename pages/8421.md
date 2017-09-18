@@ -50,7 +50,7 @@ The introduction and elimination rules must fit together in an appropriate way, 
 Similarly, in a system of [[type theory]], the relevant judgments are typing judgments of the form $a:A$, meaning that the [[term]] $a$ belongs to the [[type]] $A$.  In this case, an analogous constructor might be the cartesian [[product type]], whose rules are analogous, but keeping track of the specific terms involved (see [[propositions as types]]):
 $$ \frac{a:A \qquad b:B}{(a,b):A\times B}$$
 and
-$$ \frac{p:A\times B}{\pi_1(p):A} \qquad \frac{p:A\times B}{\pi_2(p)B}.$$
+$$ \frac{p:A\times B}{\pi_1(p):A} \qquad \frac{p:A\times B}{\pi_2(p):B}.$$
 
 ### Formation and computation
 
