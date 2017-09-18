@@ -57,6 +57,8 @@ The __[[topological interior|interior]]__ of any subspace $A$ is the largest ope
 
 * [[closed subset]], [[clopen subset]]
 
+* [[open point]]
+
 * [[open cover]]
 
 * [[open map]]
