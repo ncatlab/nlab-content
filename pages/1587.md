@@ -80,6 +80,123 @@ Every covering space (even in the more general sense not requiring any connected
 * even if the the stalks of the etale space are finite, it need not be locally trivial. For instance the disjoint union $\coprod_i Ui$ of a collecton of open subsets of a space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is etale, but does not have a typical fiber: the fiber over a given point has cardinality the number of open sets $U_i$ that contain this particular point.
 
 
+### Lifting properties
+
++-- {: .num_lemma #CoveringSpacePathLifting}
+###### Lemma
+**(path lifting property)**
+
+Let $p \colon E \to X$ be any [[covering space]].  Given 
+
+1. $\gamma \colon [0,1] \to X$ a [[path]] in $X$, 
+
+1. $\hat x_0 \in E$ be a lift of its starting point, hence such that $p(\hat x_0) = \gamma(0)$
+
+then there exists a unique path $\hat \gamma \colon [0,1] \to E$ such that
+
+1. it is a lift of the original path: $p \circ \hat \gamma = \gamma$;
+
+1. it starts at the given lifted point: $\hat \gamma(0) = \hat x_0$.
+
+In other words, every [[commuting diagram]] in [[Top]] of the form
+
+$$
+  \array{
+    \{0\} &\overset{\hat x_0}{\longrightarrow}& E
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] &\underset{\gamma}{\longrightarrow}& X
+  }
+$$
+
+has a unique [[lift]]:
+
+$$
+  \array{
+    \{0\} &\overset{\hat x_0}{\longrightarrow}& E
+    \\
+    \downarrow &{}^{\mathllap{\hat \gamma}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] &\underset{\gamma}{\longrightarrow}& X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider the case that the covering space is trival, hence of the [[Cartesian product]] form 
+
+$$
+  pr_1 \;\colon\;  X \times Disc(S) \longrightarrow X
+  \,.
+$$
+
+By the [[universal property]] of the [[product topological spaces]] 
+in this case a lift $\hat \gamma \colon [0,1] \to X \times Disc(S)$ is equivalently a [[pair]] of continuous functions
+
+$$
+  pr_1(\hat \gamma) \colon [0,1] \to X  \phantom{AAAA} pr_2(\hat \gamma) \colon [0,1] \to Disc(S)
+  \,,
+$$
+
+Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. Moreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
+
+This shows the statement for the case of trivial covering spaces.
+
+Now consider any covering space $p \colon E \to X$. By definition of covering spaces, there exists for every point $x \in X$ a [[open neighbourhood]] $U_x \subset X$ such that the restriction of $E$ to $U_x$ becomes a trivial covering space:
+
+$$
+  p^{-1}(U_x) \simeq U_x \times Disc(p^{-1}(x))
+  \,.
+$$
+
+Consider such a choice 
+
+$$
+  \{U_x \subset X\}_{x \in X}
+  \,.
+$$
+
+This is an [[open cover]] of $X$. Accordingly, the [[pre-images]]
+
+$$
+  \left\{
+    \gamma^{-1}(U_x)
+    \subset 
+    [0,1]
+  \right\}_{x \in X}
+$$
+
+constitute an open cover of the [[topological interval]] $[0,1]$. 
+
+Now $[0,1]$ is a [[sequentially compact topological space|compact]] [[metric space]] and therefore the [[Lebesgue number lemma]] implies that there is a [[positive number]] $\epsilon \in (0,\infty)$ and cover of $[0,1]$ by [[open intervals]] of the form $(-\epsilon + x , x  + \epsilon) \cap [0,1] \subset [0,1]$ which [[refinement|refines]] this cover. Again since $[0,1]$ is a [[compact topological space]] there is a [[finite set]] of such intervals which covers $[0,1]$. This means that we find a [[finite number]] of points 
+
+$$
+  t_0 \lt t_1 \lt \cdots \lt_{n+1} \in [0,1]
+$$ 
+
+with $t_0 = 0$ and $t_{n+1} = 1$ such that for all $0 \lt j \leg n$ there is $x_j \in X$ such that the corresponding path segment
+
+$$
+  \gamma([t_j, t_{j+1}]) \subset X
+$$
+
+is contained in $U_{x_j}$ from above. 
+
+Now assume that $\hat \gamma\vert_{[0,t_j]}$ has been found. Then by the triviality of the covering space over $U_{x_j}$ and the first argument above, there is a unique lift of $\gamma\vert_{[t_j, t_{j+1}]}$ to a continuous function $\hat \gamma|_{[t_j,t_{j+1}]}$ with starting point $\hat \gamma(t_j)$. Since $[0,t_{j+1}]$ is the [[pushout]] $[0,t_j] \underset{\{t_j\}}{\sqcup} [t_j,t_{j+1}]$ ([this example](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself)), it follows that $\hat \gamma|_{[0,t_j]}$ and $\hat \gamma\vert_{[t_j,t_{j+1}]}$ uniquely glue to a continuous function $\hat \gamma\vert_{[0,t_{j+1}]}$ which lifts $\gamma\vert_{[0,t_{j+1}]}$.
+
+By [[induction]] over $j$, this yields the required lift $\hat \gamma$.
+
+Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\vert_{[t_j, t_{j+1}]}$ are uniquely fixed by the above inductive argument. Therefore also the total lift is unique.
+
+
+=--
+
+
 
 
 ### Fundamental theorem of covering spaces
