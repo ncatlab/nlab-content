@@ -178,7 +178,7 @@ of $0 \in \mathbb{R}$ and consider the derivatives of the functions
 $$
   \gamma_i^{\phi}
   \;\coloneqq\;
-  (\phi\vert_{U_{i j}} \circ \gamma_i\vert|_{V}) \;\colon\; V \longrightarrow \phi^{-1}(U_{i j}) \subset \mathbb{R}^n
+  (\phi\vert_{U_{i j}} \circ \gamma_i\vert_{V}) \;\colon\; V \longrightarrow \phi^{-1}(U_{i j}) \subset \mathbb{R}^n
 $$
 
 and
@@ -186,7 +186,7 @@ and
 $$
   \gamma_i^{\psi}
   \;\coloneqq\;
-  (\psi\vert_{U_{i j}} \circ \gamma_i\vert|_{V}) \;\colon\; V \longrightarrow \psi^{-1}(U_{i j}) \subset \mathbb{R}^n
+  (\psi\vert_{U_{i j}} \circ \gamma_i \vert _{V}) \;\colon\; V \longrightarrow \psi^{-1}(U_{i j}) \subset \mathbb{R}^n
   \,.
 $$
 
@@ -222,16 +222,16 @@ Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms 
 
 $$
   \left(
-   \frac{d}{d t}(\gamma_1)^\phi = \frac{d}{d t}(\gamma_2)^\phi
+   \frac{d}{d t}(\gamma_1)^\phi = \frac{d}{d t}(\gamma_2^\phi)
   \right)
     \;\Leftrightarrow\;
   \left(
-   \frac{d}{d t}(\gamma_1)^\psi = \frac{d}{d t}(\gamma_2)^\psi
+   \frac{d}{d t}(\gamma_1)^\psi = \frac{d}{d t}(\gamma_2^\psi)
   \right)
   \,.
 $$
 
-Finally that either relation is an equivalence relation is immediate.
+Finally, that either relation is an equivalence relation is immediate.
 
 
 =--
@@ -252,10 +252,9 @@ The set of all tangent vectors at $x \in X$ is denoted $T_x X$.
 ###### Lemma
 **([[real vector space]] structure on the [[tangent space]])**
 
-For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point, 
-and let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$ be a [[chart]] with $x \in U_i$.
+For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point,  let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$ be a [[chart]] with $x \in U_i$.
 
-Then there is a [[bijection]] of sets
+Then there is induced a [[bijection]] of sets
 
 $$
   \mathbb{R}^n \overset{\simeq}{\longrightarrow}  T_x X 
@@ -289,6 +288,44 @@ Moreover, the structure of a [[real vector space]] inherited by $T_x X$ from $\m
 ###### Proof
 
 The bijectivity of the map is immediate from the fact that the first derivative of $\gamma_{\vec v}^\phi$ is $\vec v$. The independency from the choice of chart follows as in the proof of lemma \ref{TangencyIsEquivalenceRelation}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(notation for tangent vectors in a chart)**
+
+Under the bijection of lemma \ref{LinearTangentSpace} one often denotes the tangent vector  corresponding to the the $i$-th canonical [[linear basis|basis]] vector of $\mathbb{R}^n$ by
+
+$$
+  \frac{\partial}{\partial x^i}
+  \phantom{AA} \text{or just } \phantom{AA}
+  \partial_i
+$$ 
+
+because under the identification of tangent vectors with [[derivations]] on the algebra of [[differentiable functions]] on $X$ as [above](#AlgebraicDefinition) then it acts as the operation of taking the $i$th [[partial derivative]]. The general tangent vector corresponding to $v \in \mathbb{R}^n$ is then denoted by
+
+$$
+  \underoverset{i = 1}{n}{\sum}
+  v^i
+  \frac{\partial}{\partial x^i}
+  \phantom{AA} \text{or just } \phantom{AA}
+  \underoverset{i = 1}{n}{\sum} v^i \partial_i
+  \,.
+$$ 
+
+
+Notice that this identification depends on the choice of [[chart]], which is left implicit in this notation.
+
+Sometimes, notably in texts on [[thermodynamics]], one augments this notation to indicate the chart being used by listing the remaining coordinate functions as subscripts. For instance if two functions $f,g$ on a 2-dimensional manifold are used as coordinate functions for a local chart (i.e. so that $x^1 = f$ and $x^2 = g$ ), then one write
+
+$$
+  (\partial/\partial f)_g 
+  \phantom{AA}
+  (\partial/\partial g)_f
+$$
+
+for the tangent vectors $\frac{\partial}{\partial x^1}$ and $\frac{\partial}{\partial x^2}$, respectively.
 
 =--
 
@@ -360,8 +397,9 @@ this is called the _tangent bundle_ of $X$.
 
 =--
 
-+-- {: .num_lemma}
-###### Lemma
++-- {: .num_prop}
+###### Proposition
+**(tangent bundle is differentiable vector bundle)**
 
 The total space of the tangent bundle def. \ref{TangentBundle} is a [[differentiable manifold]] in that
 
@@ -371,26 +409,17 @@ The total space of the tangent bundle def. \ref{TangentBundle} is a [[differenti
 
 Moreover, the function $p_X \colon T X \to X$ is [[continuous function|continuous]] and of the same degree of [[differentiable function|differentiability]] as the differentiable structure on $X$.
 
+Finally, this makes the tangent bundle into a real [[vector bundle]] over $X$.
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-To see that $(T X, \tau_{T X})$ is Hausdorff:
-
-First consider two distinct point of the form $(x,v_1), (x,v_2)$ with $v_1 \neq v_2 \in T_x \simeq \mathbb{R}^n$.
-
-(...)  
+(...) pretty straightforward (...)
 
 =--
 
-A particularly important case is when $c$ is a level curve in some system of local coordinates $(x^1,\ldots,x^n)$ at $a$; that is, $c^i(t)$ is the point whose $i$th coordinate is $t$ and whose other coordinates are the same as at $a$.  The local tangent vector field given by these curves may be written $\partial/\partial{x^i}$ or $\partial_i$ (note the placement of the scripts).  This is because, if a function $f$ defined on that coordinate patch is identified with a function $f(x^1,\ldots,x^n)$ of $n$ real variables, then $\partial_i f$ becomes identified with the partial derivative $\partial{f(x^1,\ldots,x^n)}/\partial{x^i}$.  In general, a local vector field $v$ on such a coordinate patch can be written
-$$ v = \sum_i v^i\, \partial_i .$$
-This fact can also be turned into a definition of tangent vector.
-
-(Yet another possible definition comes from the duality with the [[cotangent bundle]]; of course, then you have to pick a definition of *that* that doesn\'t use duality.)
-
-Note that $\partial/\partial{f}$ doesn\'t make sense for an arbitrary function $f$; it only makes sense when $f$ is given as one component $x^i$ of a coordinate system.  That is, if $(f,g)$ and $(f,h)$ are both coordinate systems, then the two meanings of $\partial/\partial{f}$ need not be the same, because constant $g$ and constant $h$ aren\'t the same condition.  However, we can use the more complicated notation $(\partial/\partial{f})_g$ or $(\partial/\partial{f})_h$; this is common when $X$ is a [[phase space]] in [[thermodynamics]].  Of course, if a coordinate system is fixed by convention, then there is no ambiguity.
 
 ### Definition by gluing construction
  {#DefinitionByGluing}
