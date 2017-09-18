@@ -56,7 +56,7 @@ The recursive topos was introduced in
 
 A comparison with the [[effective topos]] is in chapter 6 of
 
-* [[Giuseppe Rosolini|G. Rosolini]], _Continuity and Effectiveness in Topoi_ , PhD thesis University of Oxford 1986. ([ps](ftp://ftp.disi.unige.it/pub/person/RosoliniG/papers/coneit.ps.gz))
+* [[Giuseppe Rosolini]], _Continuity and Effectiveness in Topoi_ , PhD thesis University of Oxford 1986. ([ps](ftp://ftp.disi.unige.it/pub/person/RosoliniG/papers/coneit.ps.gz))
 
 See also
 
