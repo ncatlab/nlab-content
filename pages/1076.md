@@ -235,7 +235,7 @@ $$
 
 is an [[equivalence of categories]].
 
-In this case $(Ho(\mathcal{C}),\Sigma)$ is a triangulated category. (e.g. [Schwede, section 2](#Schwede)).
+In this case $(Ho(\mathcal{C}),\Sigma)$ is a triangulated category. ([Hovey 99, section 7](#Hovey99), for review see also [Schwede, section 2](#Schwede)).
 
 ## Examples
 
@@ -290,6 +290,10 @@ Similar axioms were already given in
 A comprehensive monograph is 
 
 * [[Amnon Neeman]], _Triangulated Categories_ , Princeton University Press (2001)
+
+Discussion of the relation to [[stable model categories]] originates in 
+
+* {#Hovey99} [[Mark Hovey]], section 7 of _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 
 Other surveys include
