@@ -2,7 +2,7 @@
 
 Toda-Smith complexes are [[finite spectra]] characterized by having a particularly simple homology, and are used in stable homotopy theory.
 
-Toda-Smith complexes provided examples of [[periodic maps]]. Thus, they led to the construction of the [[nilpotent and periodicity theorems]], which provided the first organization of the [[stable homotopy groups of spheres]] into families of maps localized at a prime.
+Toda-Smith complexes provided examples of [[periodic map]]s. Thus, they led to the construction of the [[nilpotent and periodicity theorems]], which provided the first organization of the [[stable homotopy groups of spheres]] (localized at a prime) into families of maps via [[chromatic homotopy theory]].
 
 ## Mathematical Context ##
 The story begins with the degree p map on $S^1$  (as a circle in the complex plane):
