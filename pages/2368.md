@@ -23,6 +23,8 @@
 
 ## Idea
 
+A _symmetric smash product of spectra_ is a realization of the [[smash product of spectra]] such as to make a [[symmetric monoidal category|symmetric]] [[monoidal model category]] [[presentable (infinity,1)-category|presentation]] of the [[symmetric monoidal (infinity,1)-category of spectra]]. 
+
 In [[higher algebra]] and [[stable homotopy theory]] one is interested in [[monoid in a monoidal (∞,1)-category|monoid objects]] in the [[stable (∞,1)-category of spectra]] -- called $A_\infty$-[[A-∞-ring|rings]] -- and [[commutative monoid in an (infinity,1)-category|commutative monoid objects]] -- called $E_\infty$-[[E-∞-ring|rings]]. These monoid objects satisfy associativity, uniticity and, in the $E_\infty$-case, commutativity up to [[coherence|coherent]] [[higher homotopies]]. 
 
 For concretely working with these objects, it is often useful to have concrete  [[category theory|1-categorical]] algebraic models for these intricate [[higher category theory|higher categorical]]/homotopical entities. The _symmetric monoidal smash product of spectra_ is a structure that allows to model [[A-infinity rings]] as ordinary [[monoids]] and [[E-infinity rings]] as ordinary [[commutative monoids]] in a suitable ordinary [[category]].
@@ -47,13 +49,13 @@ $$
 $$
 but for the most part these functors were neither associative nor unital nor commutative at the level of the 1-category $\mathcal{S}$.  In fact ([Lewis 91](#Lewis91)) proved a theorem that there could be *no* symmetric monoidal category $\mathcal{S}$ modeling the stable homotopy category and satisfying a couple of other natural requirements.
 
-However, in the 1990s it was realized that by dropping one or another of Lewis' other requirements, symmetric monoidal categories of spectra could be produced.  The first such category was the category of **[[S-module]]s** described by [Elmendorf-Kriz-Mandell-May 97](#ElmendorfKrizMandellMay97), but others soon followed, including **[[symmetric spectrum|symmetric spectra]]** and **[[orthogonal spectrum|orthogonal spectra]]**.  All of these form symmetric [[monoidal model categories]] which are symmetric-monoidally Quillen equivalent.
+However, in the 1990s it was realized that by dropping one or another of Lewis' other requirements, symmetric monoidal categories of spectra could be produced.  The first such category was the category of **[[S-module]]s** described by [Elmendorf-Kriz-Mandell-May 97](#ElmendorfKrizMandellMay97), but others soon followed, including **[[symmetric spectra]]** and **[[orthogonal spectra]]**.  All of these form symmetric [[monoidal model categories]] which are symmetric-monoidally [[Quillen equivalence|Quillen equivalent]].
 
 Moreover, in all of these cases, the monoidal structure on the model category $\mathcal{S}$ absorbs all the higher coherent homotopies that used to be supplied by the action of an $A_\infty$ or $E_\infty$ operad.  Thus, honest (commutative) monoids in $\mathcal{S}$ model the same "(commutative) ring objects up to all coherent higher homotopies" that are modeled by the classical $A_\infty$ and $E_\infty$ ring spectra, and for this reason they are often still referred to as $A_\infty$ or $E_\infty$ ring spectra, respectively.
 
 ### $S$-modules
 
-The construction of $S$-modules by EKMM begins with the notion of [[coordinate-free spectrum|coordinate free Lewis-May spectra]].  Using the [[linear isometries operad]], one can construct a [[monad]] $\mathbb{L}$ on the category $\mathcal{S}$ of such spectra, and the category of $\mathbb{L}$-algebras is a well-behaved model for the stable homotopy category, and moreover admits a smash product which is associative up to isomorphism, but unital only up to weak equivalence.  However, the subcategory of the $\mathbb{L}$-algebras for which the unit transformations are isomorphisms is again a well-behaved model for $Ho \mathbb{S}$, which is moreover symmetric monoidal.
+The construction of [[S-modules]] by EKMM begins with the notion of [[coordinate-free spectrum|coordinate free Lewis-May spectra]].  Using the [[linear isometries operad]], one can construct a [[monad]] $\mathbb{L}$ on the category $\mathcal{S}$ of such spectra, and the category of $\mathbb{L}$-algebras is a well-behaved model for the stable homotopy category, and moreover admits a smash product which is associative up to isomorphism, but unital only up to weak equivalence.  However, the subcategory of the $\mathbb{L}$-algebras for which the unit transformations are isomorphisms is again a well-behaved model for $Ho \mathbb{S}$, which is moreover symmetric monoidal.
 
 Since the unit transformation is of the form $S\wedge E \to E$, where $S$ is the [[sphere spectrum]], and this map looks like the action of a ring on a module, the objects of this subcategory are called **$S$-modules** and the category is called $Mod_S$.  The intuition is that just as an abelian group is a [[module]] over the archetypical ring $\mathbb{Z}$ of [[integer|integers]], a spectrum should be regarded as a module over the archetypal ring spectrum, namely the sphere spectrum.
 
@@ -120,22 +122,13 @@ See also
 * wikipedia [highly structured ring spectrum](http://en.wikipedia.org/wiki/Highly_structured_ring_spectrum)
 
 
-[[!redirects S-module]]
-[[!redirects S-modules]]
-[[!redirects symmetric spectrum]]
-[[!redirects symmetric spectra]]
+[[!redirects symmetric monoidal category of spectra]]
+[[!redirects symmetric monoidal categories of spectra]]
 
-[[!redirects smash product of spectra]]
 
 [[!redirects structured ring spectrum]]
 [[!redirects structured ring spectra]]
 
 [[!redirects symmetric monoidal smash product of spectra]]
 
-[[!redirects monoidal category of symmetric spectra]]
-[[!redirects category of symmetric spectra]]
-[[!redirects monoidal categories of symmetric spectra]]
-[[!redirects categories of symmetric spectra]]
 
-[[!redirects symmetric monoidal category of spectra]]
-[[!redirects symmetric monoidal categories of spectra]]
