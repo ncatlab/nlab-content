@@ -22,7 +22,9 @@ Whiskering from the left with an [[equivalence]] and from the right with an inve
  
 ## Examples
 
-For instance in [[Cat]] whiskering is the [[composition]] of a [[functor]] with a [[natural transformation]] to produce a natural transformation.
+Arguably the most important use of whiskering is the usual definition of [[adjoint functor]]s via the [[triangle identities]]: in [[Cat]] whiskering is the [[composition]] of a [[functor]] with a [[natural transformation]] to produce a natural transformation.
+
+
 If we identify a functor or 1-morphism with its [[identity natural transformation]] or [[identity 2-morphism]], then whiskering is a special case of [[horizontal composition]], and composition of 1-morphisms is a special case of whiskering.
 
 In detail:
