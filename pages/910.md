@@ -138,7 +138,7 @@ Compactly generated spaces are discussed by J. L. Kelley in his book
 
 An early textbook account is in
 
-* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], chapter III.4 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], sections I.1.5.3 and III.2 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
 
 A lectue note careful about the (weakly) Hausdorff assumptions when needed/wanted is in the lecture notes
 
