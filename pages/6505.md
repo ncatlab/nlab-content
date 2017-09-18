@@ -203,7 +203,7 @@ and so $\tilde \mu$ is a Lie homomorphism.
 
 The values of the moment map for each given Lie algebra generator may be regarded as the [[conserved current|conserved currents]] given by a _Hamiltonian [[Noether theorem]]_.
 
-Specifically if $(X,\omega)$ is a [[symplectic manifold]] equipped with a "time evolution" [[Hamiltonian action]] $\mathbb{R} \to \mathfrak{Poisson}(X,\omega)$ given by a [[Hamiltonian]] $G$ and if $\mathfrak{g} \to \mathfrak{Poisson}(X,\omega)$ is some [[Hamiltonian action]] with moment $\Phi(\xi)$ for $\xi \in \mathfrak{g}$ which preserves the Hamiltonian in that the [[Poisson bracket]] vanishes
+Specifically if $(X,\omega)$ is a [[symplectic manifold]] equipped with a "time evolution" [[Hamiltonian action]] $\mathbb{R} \to \mathfrak{Poisson}(X,\omega)$ given by a [[Hamiltonian]] $H$ and if $\mathfrak{g} \to \mathfrak{Poisson}(X,\omega)$ is some [[Hamiltonian action]] with moment $\Phi(\xi)$ for $\xi \in \mathfrak{g}$ which preserves the Hamiltonian in that the [[Poisson bracket]] vanishes
 
 $$
   \{\Phi^\xi, H\} = 0
