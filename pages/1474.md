@@ -244,7 +244,7 @@ Some readers may find the following a more direct way of constructing the Hausdo
 ###### Proposition
 
 For $(Y,\tau_Y)$ a [[topological space]], write $r_Y \subset Y \times Y$
-for the [[transitive relation|transitive closure]] of tthe [[relation]] given by the [[topological closure]] $Cl(\Delta_Y)$ of the [[image]] of the [[diagonal]] $\Delta_Y \colon Y \hookrightarrow Y \times Y$.
+for the [[transitive relation|transitive closure]] of the [[relation]] given by the [[topological closure]] $Cl(\Delta_Y)$ of the [[image]] of the [[diagonal]] $\Delta_Y \colon Y \hookrightarrow Y \times Y$.
 
 $$
   r_Y \coloneqq Trans(Cl(Delta_Y))
