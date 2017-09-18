@@ -363,9 +363,14 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[n-excisive (∞,1)-functor]]
 
+* [[n-reduced (∞,1)-functor]]
+
+* [[n-homogeneous (∞,1)-functor]]
+
+
 #### 7.1.2 Taylor Tower
 
-* [[Taylor tower]]
+* [[Goodwillie-Taylor tower]]
 
 #### 7.1.6 Norm maps
 
