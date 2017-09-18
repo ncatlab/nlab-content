@@ -31,6 +31,8 @@ is the [[zero morphism]].
 
 The existence of phantom maps implies that despite the [[Brown representability theorem]], there is a subtle difference between [[generalized (Eilenberg-Steenrod) cohomology]] theories and the [[spectra]] which represent them: the latter contain in general more information. (This is fixed by retaining not just cohomology groups $E_\bullet(X) = \pi_\bullet(E \wedge X)$ but full homotopy types $\Omega^\infty(E\wedge X)$, see at _[excisive functor -- Examples -- Spectrum objects](excisive+functor#SpectrumObjects)_).
 
+In even more classical context, a continuous map $f$ from a [[CW-complex]] $X$ to a topological space $Y$ is a phantom map if it is not homotopic to a constant but for every finite CW-subcomplex $Z\subset X$ the restriction $f|_Z:Z\to Y$ is homotopic to a constant.
+
 ## Properties
 
 ### Between Landweber-exact spectra
