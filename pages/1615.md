@@ -83,7 +83,7 @@ Many _auxiliary_ [[linear operator|operators]] in [[quantum field theory]] do _n
 ### Extra axioms
 
 #### Einstein locality 
- {#EinsteinLocality}
+ {#EinsteinLocalities}
 
 Commutativity of spacelike separated observables can be argued to capture only part of [[causal locality]]. 
 
@@ -110,8 +110,8 @@ are _independent_ in that the algebra $\mathcal{A}(X_1) \vee \mathcal{A}(X_2) \i
 
 This appears as ([BrunettiFredenhagen, 5.3.1, axiom 4](#BrunettiFredenhagen)).
 
-+-- {: .num_observation}
-###### Observation
++-- {: .num_remark}
+###### Remark
 
 A local net  is Einstein local precisely if it is a [[monoidal functor]]
 
@@ -153,7 +153,7 @@ In ([Nuiten 11](#Nuiten11)) the following variant of [[causal locality]] was con
 +-- {: .num_defn #StrongLocality}
 ###### Definition
 
-A net of observables is **strongly local** if it is microlocal in that algebras $A_1 = A(O_1)$ and $A_2 = A(O_2)$ associated with  spacelike separated regions commute with each other, and in addition for all commutative subalgebras $C_1 \subset A_1$ and $C_2 \subset A_2$ the algebra $C_1 \vee C_2 \subset A(O_1 \vee O_2)$ satisfy
+A net of observables is **strongly local** if it is microlocal in that algebras $A_1 = A(O_1)$ and $A_2 = A(O_2)$ associated with  spacelike separated regions commute with each other, and in addition for all commutative subalgebras $C_1 \subset A_1$ and $C_2 \subset A_2$ the algebra $C_1 \vee C_2 \subset A(O_1 \vee O_2)$ satisfies
 
 1. $(C_1 \vee C_2) \cap A_1 = C_1$
 
@@ -161,7 +161,7 @@ A net of observables is **strongly local** if it is microlocal in that algebras 
 
 =--
 
-This is ([Nuiten 11, def 14](#Nuiten11)).
+This is ([Nuiten 11, def. 14](#Nuiten11)).
 
 +-- {: .num_remark }
 ###### Remark
@@ -273,12 +273,11 @@ A comprehensive review, with plenty of background information, is in
 
 Discussion of Einstein locality of a net of observables equivalently as a [[descent]] condition on the system of [[Bohr toposes]] induced by the [[algebras of observables]] is in 
 
-* [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets of observables]]_, Bachelor thesis 2011
-  {#Nuiten11}
+* {#Nuiten11} [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets of observables]]_, Proceedings of [QPL 2011](http://qpl.science.ru.nl/), [EPTCS 95, 2012](http://rvg.web.cse.unsw.edu.au/eptcs/content.cgi?QPL2011), pp. 211-218 ([arXiv:1109.1397](http://arxiv.org/abs/1109.1397))  
 
 A review of this with some further discussion is in section 6 of 
 
-* {#Wolters13} Sander Wolters, _Quantum toposophy_, PhD Thesis 2013
+* {#Wolters13} Sander Wolters, _Quantum toposophy_, PhD Thesis 2013 ([pdf](http://www.math.ru.nl/~landsman/Wolters.pdf))
   
 
 Discussion of properly co-stacky nets of local observables in [[gauge theory]] is in 
