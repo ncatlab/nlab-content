@@ -96,7 +96,7 @@ The topos of [[canonical topology|canonical]] sheaves on a [[Boolean algebra]] i
 
 If $\mathcal{E}$ is any topos, the category of [[sheaf|sheaves]] for the [[double negation|double-negation topology]] is a Boolean [[subtopos]] of $\mathcal{E}$. 
 
-Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R. Diaconescu; see [[excluded middle]] for a brief discussion. 
+Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R. Diaconescu ([1975](#Diaconescu75)); see [[excluded middle]] for a brief discussion. 
 
 [[Barr's theorem]] implies that any topos $\mathcal{E}$ can be covered by a Boolean topos $\mathcal{F}$, in the sense of there being a [[surjective geometric morphism]] $f \colon \mathcal{F} \to \mathcal{E}$. 
 
@@ -115,14 +115,16 @@ Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#
 
 * [[Andreas Blass]], Andrej Scedrov, _Boolean Classifying Topoi_ , JPAA **28** (1983) pp.15-30.
 
+* {#Diaconescu75}Radu Diaconescu, _Axiom of Choice and Complementation_ , Trans. AMS **51** no.1 (1975) pp.176-178. ([pdf](http://www.ams.org/journals/proc/1975-051-01/S0002-9939-1975-0373893-X/S0002-9939-1975-0373893-X.pdf))
+
+* {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014.  ([pdf](http://www.math.jussieu.fr/~henrys/Thesis.pdf))
+
+* {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006. ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
+
 * {#Johnstone79}[[Peter Johnstone]], _Automorphisms of $\Omega$_ , Algebra Universalis **9** (1979) pp.1-7.
 
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vols. I,II_, Oxford UP 2002. (A4.5.22, D3.4, D4.5)
  
-* {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006. ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
-
-* {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014.  ([pdf](http://www.math.jussieu.fr/~henrys/Thesis.pdf))
-
 
 [[!redirects Boolean topos]]
 [[!redirects boolean topos]]
