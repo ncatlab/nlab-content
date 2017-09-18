@@ -53,7 +53,7 @@ $$
   \,.
 $$
 
-for the [[fixed point]] ([[invariants]]) fucntor and
+for the [[fixed point]] ([[invariants]]) [[functor]] and
 
 $$
   (-)/Q \;\colon\; Spectra(G Top) \longrightarrow Spectra
