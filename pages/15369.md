@@ -29,3 +29,6 @@ A topological space whose topology is the metric topology for some [[metric spac
 ## Related concepts
 
 * [[continuous function]]
+
+
+[[!redirects metric topologies]]
