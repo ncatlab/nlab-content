@@ -1,0 +1,7 @@
+
+
+## related $n$Lab entries
+
+* [[Freund-Rubin compactification]], [[ADE classification]]
+
+category: people
