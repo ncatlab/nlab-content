@@ -31,19 +31,34 @@ A sieve $S$ is in $J_d(Y)$ iff for all $f:X\to Y$ there exists a $g:Z\to X$ such
 
 ## Properties
 
-Recall that a category $\mathcal{C}$ satisfies the [[Ore condition]] if every diagram $X\rightarrow W\leftarrow Y$ can be completed to a commutative square. When this happens, the dense topology has a simpler description as the collection of all nonempty sieves and is called the [[atomic site|atomic topology]] $J_{at}$ on $\mathcal{C}$:
+Recall that a category $\mathcal{C}$ satisfies the [[Ore condition]] if every diagram $X\rightarrow W\leftarrow Y$ can be completed to a commutative square. In this case the dense topology has a simpler description as the collection of all nonempty sieves and is called the [[atomic site|atomic topology]] $J_{at}$ on $\mathcal{C}$ :
 
 +-- {: .num_prop #atomic_dense}
 ###### Proposition
 Let $\mathcal{C}$ be a [[category]] satisfying the [[Ore condition]]. Then the dense topology $J_d$ coincides with the atomic topology $J_{at}$. 
 =--
 
-For the (easy) argument see at [[atomic site]]. One direction relies on the following straight forward observation:
+For the (easy) argument see at [[atomic site]]. One direction relies on the following straight forward
 
 +-- {: .num_prop #atomic_dense}
-###### Proposition
+###### Observation
 If $S\in J_d$ then $S\neq \emptyset$ . $\qed$
 =--
+
+Note that the coincidence with the atomic topology on categories satisfying the Ore condition affords for the sheaves of $J_d$ the following simple description in such cases:
+
++-- {: .num_prop #atomic_sheaf}
+###### Proposition
+Let $(\mathcal{C}, J_{d})$ be a site such that $\mathcal{C}$ satisfies the Ore condition. A presheaf $P\in Set^{\mathcal{C}^{op}}$ is a sheaf for $J_{d}$ iff for any morphism $f:D\to C$ and any $y\in P(D)$ , if $P(g)(y)=P(h)(y)$ for all diagrams
+$$
+E\overset{g}{\underset{h}{\rightrightarrows}} D\overset{f}{\to} C
+$$
+with $f\cdot g=f\cdot h$ , then $y=P(f)(x)$ for a unique $x\in P(C)$.
+=--
+
+For the proof see Mac Lane-Moerdijk ([1994](#MM94), pp.126f).
+
+The next result warrants the importance of the dense topology:
 
 +-- {: .num_prop}
 ###### Proposition
