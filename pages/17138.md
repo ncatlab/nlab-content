@@ -4716,8 +4716,32 @@ $$
 
 ## **Part 2) Adams spectral sequences**
 
-We follow ([Hopkins 99, section 5](#Hopkins99),  [Aramian](#Aramian)).
 
+**Literature** We follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in ([Aramian](#Aramian)). See also ([Adams 74, part III.15](#Adams74)).
+
+The basic invariants of [[stable homotopy theory]], the [[stable homotopy groups]], are as rich and interesting as they are, in general, hard to compute. The archetypical example for this phenonemon are the [[stable homotopy groups of spheres]] $\pi_\bullet(\mathbb{S})$. More generally one is interested in the stable homotopy groups of [[mapping spectra]] $\pi_\bullet[Y,X] \simeq X^\bullet(Y)$ which are [[generalized cohomology]] [[cohomology group|groups]] of $Y$ with [[coefficients]] in $X$. As discussed above in _[Interlude: Spectral sequences](#SpectralSequences)_ the tool of choice to break such problems up into stages are [[spectral sequences]].
+
+Where the [[Atiyah-Hirzebruch spectral sequence]] ([here](#SerreAtiyahHirzebruchSpectralSequence)) approximates $\pi_\bullet[Y,X]$ via the [[ordinary cohomology]] $\pi_\bullet(Y,H X_\bullet)$, the idea of the [[Adams spectral sequence]] is to make use of an auxiliary [[ring spectrum]] $E$ and approximate maps of spectra $Y \to X$ via their image $E_\bullet(Y) \to E_\bullet(X)$ in $E$-[[generalized homology]]. 
+
+But in order for maps of homology groups to have a chance to retain enough information, they should be forced to be equivariant with respect to extra structure inherited by forming $E$-homology. 
+
+For instance if $E = $ $H \mathbb{F}_2$ then the [[dual Steenrod algebra]] $\mathcal{A}$ (co-)acts on $E_\bullet(X) = H_\bullet(X,\mathbb{F}_2)$ and a necessary condition for a morphism of homology groups to come from a morphism of spectra is that it is a [[homomorphism]] with respect to this (co-action).  The classical [[Adams spectral sequence]], accordingly, approximates $[Y,X]_\bullet$ by $Hom_{\mathcal{A}}(H_\bullet(Y,\mathbb{F}_2), H_\bullet(X,\mathbb{F}_2))$. (...)
+
+More generally, since spectra are equivalently [[module spectra]] over the [[sphere spectrum]] $\mathbb{S}$, the operation of forming $E$-homology spectra $X \mapsto E \wedge S$ is equivalently the [[extension of scalars]] along the ring unit $\mathbb{S}\longrightarrow E$. This means that the extra structure inherited by $E$-homology groups contains the information given by the further extensions along the [[cosimplicial object|cosimplicial]] diagram
+
+$$
+  \mathbb{S} \longrightarrow E \stackrel{\longrightarrow}{\longrightarrow} E \wedge E \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+  E \wedge E \wedge E
+  \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
+  \cdots
+ \,.
+$$
+
+This gives $E_\bullet(X)$ the structure of a [[module]] over the [[Hopf algebroid]] $\pi_\bullet(E \wedge E) = E_\bullet(E) \stackrel{\longleftarrow}{\longleftarrow} E_\bullet$. Accordingly the general $E$-[[Adams spectral sequence]] (or: [[Adams-Novikov spectral sequence]]) approximates $\pi_\bullet[Y,X]$ by $Hom_{E_\bullet(E)}(E_\bullet(Y),E_\bullet(X))$.
+
+Fully abstractly, the [[spectral sequence]] which constitutes such an approximation is the [[Bousfield-Kan spectral sequence]] of the [[totalization]]-[[tower of homotopy fibers|tower]] of the cosimplicial spectrum $[Y, E^{\wedge^\bullet} X]$. Below we give a semi-classical construction, following ([Hopkins 99, section 5](#Hopkins99)).
+
+(...)
 
 #### $E$-Adams resolutions
 
@@ -5217,6 +5241,7 @@ We need this for instance for the computation of [[Conner-Floyd Chern classes]] 
 
 
 #### Serre-Atiyah-Hirzebruch spectral sequence
+ {#SerreAtiyahHirzebruchSpectralSequence}
 
 **Idea.** Another important tool for computing [[generalized cohomology]] is to reduce it to the computation of [[ordinary cohomology]] with [[coefficients]]. Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of $F$-[[fiber bundles]] over a [[simplicial complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in the generalized cohomology $E^\bullet(F)$ of the fiber. For $E = $ [[HA]] this is known as the _[[Serre spectral sequence]]_.
 
