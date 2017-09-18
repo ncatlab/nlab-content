@@ -38,6 +38,8 @@ which may be written $Aut(x)$ if the category $C$ is understood.  Up to equivale
 
   * [[outer automorphism group]]
 
+  * [[automorphism Lie group]]
+
 * [[automorphism 2-group]]
 
 * [[automorphism ∞-group]]
