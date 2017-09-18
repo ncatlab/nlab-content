@@ -44,11 +44,11 @@ Note that graphs and their morphisms can also be understood in functorial langua
 
 * $d_0: X(2) \stackrel{X(\ast \mapsto s)}{\to} X(1)$ (source map), 
 
-* $d_1 = X(2) \stackrel{X(\ast \mapsto t)}{\to} X(1)$ (target map), 
+* $d_1: X(2) \stackrel{X(\ast \mapsto t)}{\to} X(1)$ (target map), 
 
-* $i: X(1) \stackrel{X(s, t \mapsto \ast)}{\to} X(2)$ (cf. reflexivity), 
+* $i: X(1) \stackrel{X(s, t \mapsto \ast)}{\to} X(2)$ (reflexive map), 
 
-* $\sigma: X(2) \stackrel{X(s \mapsto t, t \mapsto s)}{\to} X(2)$ (cf. symmetry). 
+* $\sigma: X(2) \stackrel{X(s \mapsto t, t \mapsto s)}{\to} X(2)$ (symmetry map). 
 
 satisfying appropriate identities imposed by equations in $C$. Simple graphs can then be regarded [[equivalence|equivalently]] as such presheaves where the map 
 
@@ -209,7 +209,7 @@ SimpGph.StrongEmbedding,
 
 SimpGph.IsometricEmbedding.
 
-It suffices to specify hom-sets of each, _because_ closedness under composition of the three subclasses of $\mathrm{Mor}(SimpGph)$ is be evident from the the respective definitions. 
+It suffices to specify hom-sets of each, _because_ closedness under composition of the three subclasses of $\mathrm{Mor}(SimpGph)$ will be evident from the respective definitions. 
 
 SimpGph.WeakEmbeddings($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is  injective, as a set-map $\}$
 
