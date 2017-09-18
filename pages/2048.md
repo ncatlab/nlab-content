@@ -108,7 +108,7 @@ First works on coherent sheaves in complex analytic geometry. Serre adapted thei
 
 * [[J-P. Serre]], _[[Faisceaux algébriques cohérents]]_, Ann. of Math. (2) __61__,  (1955) 197--278, [doi](http://dx.doi.org/10.2307/1969915).
 
-* H. Grauert, R. Reinhold, _Coherent analytic sheaves_, Grundlehren der Math. Wissenschaften __265__, Springer 1984. xviii+249 pp.
+* H. Grauert, R. Remmert, _Coherent analytic sheaves_, Grundlehren der Math. Wissenschaften __265__, Springer 1984. xviii+249 pp.
 
 * M. M. [[Kapranov]], _On the derived categories of coherent sheaves on some homogeneous spaces_,  Invent. Math.  92  (1988),  no. 3, 479--508, [doi](http://dx.doi.org/10.1007/BF01393744). 
 
