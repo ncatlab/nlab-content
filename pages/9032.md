@@ -16,6 +16,8 @@
 ## Related concepts
 
 * [[Kähler manifold]], [[hyper-Kähler manifold]]
+
+[[!include special holonomy table]]
  
 [[!redirects quternionic-Kähler manifold]]
 [[!redirects quternionic-Kähler manifolds]]
