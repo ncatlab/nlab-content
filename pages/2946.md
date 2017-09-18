@@ -153,7 +153,7 @@ The fact that directed colimits suffice to obtain all filtered ones may be regar
 
 Let $C$ be a small category. A functor $F: C \to Set$ is **[[flat functor|flat]]** if it is a filtered colimit of [[representable functor]]s. 
 
-Equivalently, a [[module]] $F: C \to Set$ is flat if and only if the [[tensor product]] 
+Equivalently, a [[module]] $F: C \to Set$ is flat if and only if the [[tensor product of functors|tensor product]] 
 
 $$- \otimes_C F: Set^{C^{op}} \to Set$$ 
 
