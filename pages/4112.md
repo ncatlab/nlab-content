@@ -65,7 +65,9 @@ In either case, the idea is:
 
 *  An open corresponds to a union of intervals, each of which is given by approximating a number in base $3$ to a finite number of digits, using only the digits $0$ and $2$.
 
-One sometimes speaks of the __Cantor set__ to stress that one is considering Cantor space as a subspace of the real line.
+One sometimes speaks of the __Cantor set__ to stress that one is considering Cantor space as a subspace of the real line. 
+
+As we can also consider Cantor space as a product space $(\mathbb{Z}/2)^n$ of countably many copies of $\mathbb{Z}/(2)$, which carries a group structure, we can view Cantor space $C$ as a [[topological group]]. In particular, it is a [[homogeneous space]] (its group of self-homeomorphisms acts transitively on the space). 
 
 
 ## Properties
@@ -91,12 +93,12 @@ This result is sometimes called Brouwer's theorem. It can be seen from the persp
 
 +-- {: .num_cor} 
 ###### Corollary 
-The one-point compactification $\widebar{X}$ of a space $X$ that is second-countable locally compact Hausdorff, totally disconnected and perfect, is homeomorphic to Cantor space (provided $X$ is not itself compact). 
+The one-point [[compactification]] $\widebar{X}$ of a space $X$ that is [[second-countable space|second-countable]] [[local compactum|locally compact]] Hausdorff, totally disconnected and perfect, is homeomorphic to Cantor space (provided $X$ is not itself compact). 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-$\widebar{X}$ is also second-countable, compact Hausdorff and therefore compact regular, and so by the [[Urysohn metrization theorem]] it is compact metrizable. The point $p$ at infinity is not isolated since we assume $X$ is not compact, so $\widebar{X}$ is perfect. If $V$ is any open neighborhood of $p$, so $V = \neg K$ for some compact $K$, then we claim there exists a clopen containing $K$; in that case $V$ contains a clopen whence $\{p\}$ is the quasi-component of $p$ (hence also the connected component since we're in a compact Hausdorff space). The claim follows from the argument [here](/nlab/show/compact+Hausdorff+rings+are+profinite#compopen): for each $x \in K$ there is a clopen contained in $\neg \{p\}$; finitely many of these clopens cover $K$, and the claim follows by considering their union. 
+$\widebar{X}$ is also second-countable, compact Hausdorff and therefore compact regular, and so by the [[Urysohn metrization theorem]] it is compact metrizable. The point $p$ at infinity is not isolated since we assume $X$ is not compact, so $\widebar{X}$ is perfect. If $V$ is any open neighborhood of $p$, so $V = \neg K$ for some compact $K \subset X$, then we claim there exists a clopen that contains $K$; in that case $V$ contains a clopen whence $\{p\}$ is the quasi-component of $p$ (hence also the connected component since we're in a compact Hausdorff space). But the argument [here](/nlab/show/compact+Hausdorff+rings+are+profinite#compopen) shows that for each $x \in K$ there is a clopen neighborhood of $x$ contained in $\neg \{p\}$; finitely many of these clopens cover $K$, and the claim follows by considering their union. 
 =-- 
 
 It follows from this result that all such spaces $X$ are homeomorphic: they all have Cantor space as their one-point compactifications, and so they are all homeomorphic to the space obtained obtained by removing a single point from Cantor space. This applies for example to spaces obtained by removing a finite number $n \geq 1$ of points from Cantor space. 
