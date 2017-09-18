@@ -44,7 +44,7 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 
 ### On contructivism and computable analysis
 
-* [[computable analysis]]
+* [[constructive analysis]], [[computable analysis]]
 
 
 ## Related concepts
