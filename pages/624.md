@@ -22,13 +22,15 @@
 A (left/right) _dual_ to an [[object]] in a [[monoidal category]] $\mathcal{C}$ is a [[left adjoint|left]]/[[right adjoint|right]] [[adjoint]] to the object regarded as a [[morphism]] in the [[delooping]] [[2-category]] $\mathbf{B}\mathcal{C}$. If a dual exists, the object is called _dualizable_.
 
 
-Being *dualizable* may often be thought of as a [[category theory|category-theoretic]] notion of *finiteness* for [[objects]] in a [[monoidal category]].  For instance, a [[vector space]] is dualizable in [[Vect]] with its standard [[tensor product]] just when it is a [[finite-dimensional vector space]]; and a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] just when it is a [[finite spectrum]].
+Being *dualizable* may often be thought of as a [[category theory|category-theoretic]] notion of *finiteness* for [[objects]] in a [[monoidal category]].  For instance, a [[vector space]] is dualizable in [[Vect]] with its standard [[tensor product]] precisly if it is a [[finite-dimensional vector space]]; and a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] precisely if it is a [[finite spectrum]].
 
-A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the stable homotopy category are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[SupLat]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
+A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the [[stable homotopy category]] are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[SupLat]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
 
 +-- {: .num_remark}
-###### Warning
-There are other notions of "dual object", distinct from this one. See for example [[dual object in a closed category]], and also the discussion at [[category with duals]].
+###### Remark
+
+Bewaare that there are other notions of "dual object", distinct from this one. See for example _[[dual object in a closed category]]_, and also the discussion at _[[category with duals]]_.
+
 =--
 
 
@@ -39,11 +41,74 @@ There are other notions of "dual object", distinct from this one. See for exampl
 +-- {: .num_defn #DualizableObject}
 ###### Definition
 
-An object $A$ in a [[monoidal category]] $C$ is **dualizable** if it has an [[adjunction|adjoint]] when regarded as a [[morphism]] in the one-object [[delooping]] [[bicategory]] $\mathbf{B}C$ corresponding to $C$.  Its adjoint in $\mathbf{B}C$ is called its **dual** in $C$ and often written as $A^*$.
+An object $A$ in a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ is **dualizable** if it has an [[adjunction|adjoint]] when regarded as a [[morphism]] in the one-object [[delooping]] [[bicategory]] $\mathbf{B}\mathcal{C}$ corresponding to $\mathcal{C}$.  Its adjoint in $\mathbf{B}\mathcal{C}$ is called its **dual** in $C$ and often written as $A^*$.
+
+If $C$ is [[braided monoidal category|braided]] then left and right adjoints in $\mathbf{B}C$ are equivalent; otherwise one speaks of $A$ being **left dualizable** or **right dualizable**.  
+
+Explicitly this means the following:
+
+A right **[[duality]]** between objects $A, A^\ast \in (\mathcal{C}, \otimes, 1)$
+
+consists of
+
+1. a [[morphism]] of the form
+
+   $$
+     ev_A\;\colon\;A^\ast \otimes A \longrightarrow 1
+   $$
+
+   called the _counit_ of the duality, or the _[[evaluation]] map_;
+
+1. a [[morphism]] of the form
+
+   $$
+     i_A \;\colon\; 1 \longrightarrow A \otimes A^\ast
+   $$
+
+   called the _unit_ or _coevaluation map_
+
+such that
+
+* ([[triangle identity]]) the following [[commuting diagram|diagrams commute]]
+
+  $$
+    \array{
+       A^\ast \otimes (A \otimes A \ast)
+         &\overset{id_{A^\ast} \otimes i_A}{\longleftarrow}&
+       A^\ast \otimes 1
+       \\
+       {}^{\mathllap{\alpha^{-1}_{A^\ast,A, A^\ast}}}_{\mathllap{\simeq}}\downarrow
+       &&
+       \downarrow^{\mathrlap{\ell^{-1}_A \circ r_A}}_{\mathrlap{\simeq}}
+       \\
+       (A^\ast \otimes A) \otimes A^\ast
+         &\underset{ev_A \otimes id_{A^\ast}}{\longrightarrow}&
+       1 \otimes A^\ast
+    }
+  $$
+
+  and
+
+  $$
+    \array{
+       (A \otimes A^\ast)  \otimes A
+         &\overset{i_A \otimes id_A}{\longleftarrow}&
+       1 \otimes A
+       \\
+       {}^{\mathllap{\alpha_{A,A^\ast, A}}}_{\mathllap{\simeq}}\downarrow
+       &&
+       \downarrow^{\mathrlap{r_A^{-1}\circ \ell_A}}_{\mathrlap{\simeq}}
+       \\
+       A \otimes (A^\ast \otimes A)
+         &\underset{id_A \otimes ev_A}{\longrightarrow}&
+       A \otimes 1
+    }
+  $$
+
+  where $\alpha$ denotes the [[associator]] of the [[monoidal category]] $\mathcal{C}$, and $\ell$ and $r$ denote the left and right [[unitors]], respectively.
 
 =--
 
-If $C$ is [[braided monoidal category|braided]] then left and right adjoints in $\mathbf{B}C$ are equivalent; otherwise one speaks of $A$ being **left dualizable** or **right dualizable**.  
 
 +-- {: .num_remark}
 ###### Remark
@@ -52,7 +117,7 @@ Unfortunately, conventions on left and right vary and sometimes contradict their
 $$i: I \to A \otimes A^* $$
 and **counit** (or *[[evaluation]]*)
 $$e : A^* \otimes A \to I $$
-satisfying the 'triangle identities' familiar from the concept of [[adjunction]].  With this convention, if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in [[diagrammatic order]], then right duals in $C$ are the same as right adjoints in $\mathbf{B}C$ --- whereas if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in classical 'Leibnizian' order, then right duals in $C$ are the same as *left* adjoints in $\mathbf{B} C$.
+satisfying the '[[triangle identities]]' familiar from the concept of [[adjunction]].  With this convention, if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in [[diagrammatic order]], then right duals in $C$ are the same as right adjoints in $\mathbf{B}C$ --- whereas if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in classical 'Leibnizian' order, then right duals in $C$ are the same as *left* adjoints in $\mathbf{B} C$.
 
 Of course, in a [[symmetric monoidal category]], there is no difference between left and right duals.
 
@@ -94,7 +159,7 @@ is the one obtained by $f$ by composing the duality unit, the counit and the [[b
 +-- {: .num_example}
 ###### Example
 
-Let $V$ be a [[finite-dimensional vector space]] over a [[field]] $k$, and let $V^* = Hom(V,k)$ be its usual [[dual vector space]].  We can define $\varepsilon\colon V^* \otimes V \to k$ to be the obvious pairing.  If we also choose a finite basis $\{v_i\}$ of $V$, and let $\{v_i^*\}$ be the [[dual basis]] of $V^*$, then we can define $\eta\colon k \to V\otimes V^*$ by sending $1$ to $\sum_i v_i \otimes v_i^*$.  It is easy to check the triangle identities, so $V^*$ is a dual of $V$ in $Vect_k$.
+Let $V$ be a [[finite-dimensional vector space]] over a [[field]] $k$, and let $V^* = Hom(V,k)$ be its usual [[dual vector space]].  We can define $\varepsilon\colon V^* \otimes V \to k$ to be the obvious pairing.  If we also choose a finite basis $\{v_i\}$ of $V$, and let $\{v_i^*\}$ be the [[dual basis]] of $V^*$, then we can define $\eta\colon k \to V\otimes V^*$ by sending $1$ to $\sum_i v_i \otimes v_i^*$.  It is easy to check the [[triangle identities]], so $V^*$ is a dual of $V$ in $Vect_k$.
 
 =--
 
