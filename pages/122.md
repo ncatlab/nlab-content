@@ -16,7 +16,7 @@
 
 ## Idea 
 
-Just as a [[functor|functor]] is a [[morphism]] between [[category|categories]], a natural transformations is a [[2-morphism]] between two functors.
+Just as a [[functor|functor]] is a [[morphism]] between [[category|categories]], a natural transformation is a [[2-morphism]] between two functors.
 
 Natural transformations are the [[2-morphism]]s in the [[2-category]] [[Cat]].
 
