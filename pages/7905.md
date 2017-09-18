@@ -16,6 +16,8 @@
 
 ## Classes of bundles
 
+* [[covering space]]
+
 * [[fiber bundle]], [[fiber ∞-bundle]]
 
   [[numerable bundle]]
@@ -34,11 +36,11 @@
 
 * [[vector bundle]], [[(∞,1)-vector bundle]]
 
+  * [[topological vector bundle]], [[differentiable vector bundle]], [[algebraic vector bundle]]
+
   * [[Chern-Weil theory]]
 
   * [[topological K-theory]]
-
-  * [[topological vector bundle]], [[differentiable vector bundle]], [[algebraic vector bundle]]
 
   * [[tensor category]] [[Vect(X)|of vector bundles]]
 
