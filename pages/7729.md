@@ -74,7 +74,7 @@ This observation opens the door to a widened interpretation of "interpretation" 
 
 Standard textbook accounts include
 
-* [[Wilfrid Hodges]], section 1 of _A shorted model theory_, Cambridge University Press (1997)
+* [[Wilfrid Hodges]], section 1 of _A shorter model theory_, Cambridge University Press (1997)
 
 * Chen Chung Chang, H. Jerome Keisler, _Model Theory. Studies in Logic and the Foundations of Mathematics_. 1973, 1990, Elsevier. 
 
