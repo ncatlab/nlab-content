@@ -20,3 +20,5 @@ Hilbert's [[Nullstellensatz]] (German: "zero locus theorem") characterizes joint
 * [[moment map]], [[Hamiltonian]]
 
 [[!redirects zero loci]]
+[[!redirects zero set]] 
+[[!redirects zero sets]] 
