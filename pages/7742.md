@@ -46,7 +46,7 @@ This is ([Hrushovski 2006, Th.3.2](#Hrushovski)).
 
 ## Related concepts
 
-* [[definable set]]
+* [[definability]]
 
 ## References
 
