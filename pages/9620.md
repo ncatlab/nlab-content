@@ -78,7 +78,7 @@ Let $T$ be a theory. The following are equivalent:
 
 1. $T$ eliminates quantifiers.
 
-2. If $M$ is a proper supermodel of a substructure $A$ and $N$ $|M|^+$-[[type (in model theory)|saturated]] such that there is an embedding $i : A \to N$, then there exists a proper superstructure $A \subseteq A' \subseteq M$ along with an embedding $i' : A' \to N$ extending $i$.
+2. For every $M$ and $N$ models of $T$ such that $N$ is $|M|^+$-[[type (in model theory)|saturated]] and every proper substructure $A \subseteq M$ such that there is an embedding $i \colon A \to N$, there exists a proper intermediate substructure $A'$, $A \subsetneq A' \subseteq M$ and an extension $i' \colon A' \to N$ of $i$ to $A'$.
 
 =--
 
