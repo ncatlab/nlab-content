@@ -45,7 +45,7 @@ $$
 is [[contractible]]. We may think of this as the groupoid $INN(G) \subset AUT(G)$ of [[inner automorphism]]s inside the [[automorphism 2-group]] of $G$. But it is also simply isomorphic to the [[codiscrete groupoid]] on the set underlying $G$. In this latter form the 2-group structure on $\mathbf{E}G$ is manifest, which corresponds to the 
 [[crossed module]] $(G \stackrel{Id}{\to} G)$ .
 
-Als manifest is then that this fits with the one-object [[delooping]] groupoid $\mathbf{B}G$ of $G$ into a sequence
+It is also manifest then that this fits with the one-object [[delooping]] groupoid $\mathbf{B}G$ of $G$ into a sequence
 
 $$
   G \to \mathbf{E}G \to \mathbf{B}G
