@@ -27,15 +27,15 @@ Note that there is also a notion of [[divisible group]].
 +-- {: .num_defn}
 ###### Definition
 
-Fix a [[prime number]] $p$, a [[natural number|positive integer]] $h$, and a [[commutative ring]] $R$.
+Fix a [[prime number]] $p$, a [[natural number|positive integer]] $h$, and a [[commutative ring]] $R$. Consider the group schemes $G$ over 
 
 A **$p$-divisible group of height $h$ over $R$** is a [[codirected limit|codirected diagram]] $(G_\nu, i_\nu)_{\nu \in \mathbb{N}}$ where each $G_\nu$ is a finite commutative [[group scheme]] over $R$ of [[order of a group|order]] $p^{\nu h}$ that also satisfies the property that
 
 $$0\to G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}\stackrel{p^\nu}{\to} G_{\nu +1}$$
 
- is [[exact sequence|exact]]. In other words, the maps of the system identify $G_\nu$ with the [[kernel]] of multiplication by $p^\nu$ in $G_{\nu +1}$.
+is [[exact sequence|exact]]. In other words, the maps of the system identify $G_\nu$ with the [[kernel]] of multiplication by $p^\nu$ in $G_{\nu +1}$.
 
-Some authors refer to the $p$-divisible group as the [[colimit]] of the system $colim G_\nu$. Note that if everything is [[affine scheme|affine]], $G_\nu=\mathrm{Spec}(A_\nu)$ and the [[limit]] $colim G_\nu =\mathrm{Spec}(lim A_\nu)=\mathrm{Spf}(A)$.
+Some authors refer to $colim_\nu G_\nu$ (instead of the diagram itself) as the $p$-divisible group.
 =--
 
 It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutative [[formal group]] $G$ for which $p\colon G \to G$ is an [[isogeny]].
@@ -48,6 +48,8 @@ It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutati
 ###### Example
 
 The kernel of raising to the $p^\nu$ power on $\mathbb{G}_m$ (sometimes called [[p-torsion]]) is a [[group scheme]] $\mu_{p^\nu}$. The limit $\lim_{\to} \mu_{p^\nu}=\mu_{p^\infty}$ is a $p$-divisible group of height $1$.
+
+see Lipnowski [pg.2, example (b)](http://math.stanford.edu/~malipnow/expository/pdiv.pdf)
 
 =--
 
@@ -134,7 +136,7 @@ For references concerning [[Witt rings]] and [[Dieudonné modules]] see there.
 
 * Stephen Shatz, Group Schemes, Formal Groups, and $p$-Divisible Groups in the book Arithmetic Geometry Ed. Gary Cornell and Joseph Silverman, 1986
 
-* Tate, John T. (1967), "p-divisible groups.", in Springer, Tonny A., Proc. Conf. Local Fields( Driebergen, 1966), Berlin, New York: Springer-Verlag, MR 0231827 {#Tate}
+* Tate, John T. (1967), "p-divisible groups." [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.295.7566&rep=rep1&type=pdf), in Springer, Tonny A., Proc. Conf. Local Fields( Driebergen, 1966), Berlin, New York: Springer-Verlag, MR 0231827 {#Tate}
 
 
 
