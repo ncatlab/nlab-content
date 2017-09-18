@@ -164,7 +164,7 @@ $$
   x : A \vdash C(x) : Type
 $$
 
-and read " _for each $x$ of type $A$ there is a type C(x)_ " or " _for each $x$ of type A there is a $C(x)$ of type $Type$_ ". 
+and read "_for each $x$ of type $A$ there is a type $C(x)$_" or "_for each $x$ of type $A$ there is a $C(x)$ of type $Type$_." 
 
 Here the variable $x$ is again a placeholder for [[generalized element]]s, but now the $\vdash$ denotes not postcomposition with a morphism, but [[pullback]] along a morphism: for every [[generalized element]] $U \stackrel{x}{\to} A$, we have the [[pullback]] $x^* C := C(x)$ in 
 
