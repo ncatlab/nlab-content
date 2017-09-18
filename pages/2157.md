@@ -39,7 +39,7 @@ The definition of affine space can be made precise in various (equivalent) ways.
 *  An affine space over the field $k$ is an inhabited set $A$ together with, for every [[natural number]] $n \geq 0$ and every $(n+1)$-tuple $(r_0,\dots,r_n)$ of elements of $k$ such that $r_0 + \dots + r_n = 1$, a function $\gamma_{r_0,\ldots,r_n}\colon A^{n+1}\to A$ (thought of as $\gamma_{r_0,\ldots,r_n}(x_0,\ldots,x_n) \coloneqq r_0 x_0 + \cdots + r_n x_n$), satisfying some equations; an affine linear map is a function that preserves these operations (the "[[unbiased]]" definition).
 
 +-- {: .query}
-[[Mike Shulman]]: I think there should also be a definition of the form "an affine space is a [[projective space]]" with a distinguished line called "infinity," and an affine linear map is a projective morphism which preserves infinity.  But I'm not going to put that in the list until I'm sure.
+[[Mike Shulman]]: I think there should also be a definition of the form "an affine space is a [[projective space]]" with a distinguished line called "infinity", which should also be equivalent to a "synthetic" description involving points and lines and incidence axioms.  This definition would not fix the field $k$ at the outset, but rather recover it synthetically using cross-ratios.  Accordingly, it ought to define an equivalent groupoid to the groupoid of pairs $(k,A)$ where $k$ is a field and $A$ is an affine space over $A$.  I don't know how one could recover the non-invertible affine transformations from it directly.
 =--
 
 +-- {: .query}
