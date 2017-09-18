@@ -902,6 +902,219 @@ The second of the two equivalent versions of the component morphisms in def. \re
 
 =--
 
+##### As topological diagrams
+
+The following is an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). 
+
+
++-- {: .num_defn #CategoriesOfStandardSpheres}
+###### Definition
+
+Write 
+
+$$
+  \iota \;\colon\; StdSpheres \longrightarrow Top_{cg}^{\ast/}
+$$
+
+for the non-full [[topologically enriched category|topologically enriched]] [[subcategory]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) of that of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopkAsATopologicallyEnrichedCategory)):
+
+* [[objects]] are the standard [[n-spheres]] $S^n$, for $n \in \mathbb{N}$, identified as the [[smash product]] powers $S^n \coloneqq (S^1)^{\wedge^n}$ of the standard circle;
+
+* [[hom-spaces]] are
+
+  $$
+    StdSpheres(S^{n}, S^{k+n})
+      \coloneqq
+    \left\{
+      \array{
+        \ast & for & k \lt 0
+        \\
+        S^k 
+        & otherwise
+      }
+    \right.
+  $$
+
+* [[composition]] is induced from composition in $Top^{\ast/}_{cg}$ by regarding the [[hom-space]] $S^k$ above as its [[image]] in $Maps({S^n},S^{k+n})_\ast$ under the [[adjunct]]
+
+$$
+  S^{k} \stackrel{}{\to} Maps({S^n},S^{k+n})_\ast
+$$
+
+of the canonical isomorphism
+
+$$
+  S^k \wedge S^n \overset{\simeq}{\longrightarrow} S^{k+n}
+  \,.
+$$
+
+This induces the category 
+
+$$
+  [StdSpheres, Top^{\ast/}_{cg}]
+$$
+
+of [[topologically enriched functors]] on $StdSpheres$ with values in $Top_{cg}^{\ast/}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)).
+
+=--
+
+
++-- {: .num_prop #SequentialSpectraAsDiagramSpectra}
+###### Proposition
+
+There is an [[equivalence of categories]]
+
+$$
+  (-)^seq
+    \;\colon\;
+  [StdSpheres,Top_{cg}^{\ast/}]
+    \overset{\simeq}{\longrightarrow}
+  SeqSpec(Top_{cg})
+$$
+
+from the category of [[topologically enriched functors]] on the category of standard spheres of def. \ref{CategoriesOfStandardSpheres} to the category of topological sequential spectra, def. \ref{SequentialSpectra}, which is given on objects by sending $X \in [StdSpheres,Top^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
+
+$$
+  X^{seq}_n \coloneqq X(S^n)
+$$
+
+and with structure maps
+
+$$
+  \frac{
+    S^1 \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n
+  }{
+    S^1 \longrightarrow Maps(X^{seq}_n, X^{seq}_{n+1})_\ast
+  }
+$$
+
+given by
+
+$$
+  S^1
+    \stackrel{\widetilde{id}}{\longrightarrow}
+  Maps(S^n,S^{n+1})_\ast
+    \stackrel{X_{S^n, S^{n+1}}}{\longrightarrow}
+  Maps(X^{seq}_n, X^{seq}_{n+1})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The action of a given topological functor $X$ on hom-spaces between spheres of consecutive dimension 
+
+$$
+  X_{S^n, S^{n+1}}
+    \;\colon\;
+  S^1 
+    \longrightarrow
+  Maps(X(S^n), X(S^{n+1}))_\ast
+$$
+
+is naturally identified with its [[adjunct]]
+
+$$
+  \widetilde {X_{S^n, S^{n+1}}}
+    \;\colon\;
+  S^1 \wedge X(S^n) \longrightarrow S^{n+1}
+  \,.
+$$
+
+This gives the structure maps. It only remains to see that from these maps the functor is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the smash product of the hom-spaces between the consecutive spheres, 
+
+$$
+  \array{
+    S^1 \wedge S^1 & = & StdSpheres(S^n, S^{n+1}) \wedge StdSpheres(S^{n+1}, S^{n+2})
+    \\
+    {}^{\mathllap{\simeq}}\downarrow 
+      && 
+    {}^{\mathllap{\simeq}}\downarrow^{\circ}
+    \\
+    S^2 & = & StdSpheres(S^n , S^{n+2})
+  }
+  \,,
+$$
+
+and so functoriality completely fixes the former by the latter:
+
+
+=--
+
+Further [below](#StrictModelStructureOnSequentialSpectra) we use prop. \ref{SequentialSpectraAsDiagramSpectra} to naturally induce a model  structure on the category of topological sequential spectra.
+
++-- {: .num_prop #LimitsAndColimitsOfSequentialSpectra}
+###### Proposition
+
+The category $SeqSpec(Top_{cq})$ of sequential spectra (def. \ref{SequentialSpectra}) has all [[limits]] and [[colimits]], and they are computed objectwise: 
+
+Given
+
+$$
+  X_\bullet
+    \;\colon\;
+  I
+    \longrightarrow
+  SeqSpec(Top_{cg})
+$$
+
+a [[diagram]] of sequential spectra, then:
+
+1. its colimiting spectrum has component spaces the colimit of the component spaces formed in $Top_{cg}$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop) and [this corollary](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)):
+
+   $$
+     (\underset{\longrightarrow}{\lim}_i X(i))_n
+     \simeq
+      \underset{\longrightarrow}{\lim}_i X(i)_n
+      \,,
+   $$
+
+1. its limiting spectrum has component spaces the limit of the component spaces formed in $Top_{cg}$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop) and [this corollary](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)):
+
+   $$
+     (\underset{\longleftarrow}{\lim}_i X(i))_n
+     \simeq
+      \underset{\longleftarrow}{\lim}_i X(i)_n
+      \,;
+   $$
+
+moreover:
+
+1. the colimiting spectrum has structure maps in the sense of def. \ref{SequentialSpectra} given by
+
+   $$
+     S^1 \wedge (\underset{\longrightarrow}{\lim}_i X(i)_n)
+     \simeq
+     \underset{\longrightarrow}{\lim}_i ( S^1 \wedge X(i)_n )
+     \overset{\underset{\longrightarrow}{\lim}_i \sigma_n^{X(i)}}{\longrightarrow}
+     \underset{\longrightarrow}{\lim}_i X(i)_{n+1}
+   $$
+
+   where the first isomorphism exhibits that $S^1 \wedge(-)$ preserves all colimits, since it is a [[left adjoint]] by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory};
+
+1. the limiting spectrum has adjunct structure maps in the sense of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} given by
+
+   $$
+     \underset{\longleftarrow}{\lim}_i X(i)_n
+      \overset{\underset{\longleftarrow}{\lim}_i \tilde \sigma_n^{X(i)}}{\longrightarrow}
+     \underset{\longleftarrow}{\lim}_i Maps(S^1, X(i)_n)_\ast 
+     \simeq
+     Maps(S^1, \underset{\longleftarrow}{\lim}_i X(i)_n)_\ast
+   $$
+
+   where the last isomorphism exhibits that $Maps(S^1,-)_\ast$ preserves all limits, since it is a [[right adjoint]] by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the limits and colimits exist and are computed objectwise follows via prop. \ref{SequentialSpectraAsDiagramSpectra} from the general statement for categories of topological functors ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits)). But it is also immediate to directly check the [[universal property]].
+
+=--
+
 
 ##### Suspension and looping
 
@@ -916,7 +1129,7 @@ For $X$ a sequential spectrum, then
 
 1. the **standard looping** of $X$ is the [[powering]] $Maps(S^1,X)_\ast$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
 
-The standard suspension is equivalently the [[cofiber]] of the canonical inclusion of boundaries into the standard [[cylinder spectrum]]  $X \wedge (I_+)$ of example \ref{StandardCylinderSpectrumSequential}:
+The standard suspension is equivalently the [[cofiber]] (formed via prop. \ref{LimitsAndColimitsOfSequentialSpectra}) of the canonical inclusion of boundaries into the standard [[cylinder spectrum]]  $X \wedge (I_+)$ of example \ref{StandardCylinderSpectrumSequential}:
 
 $$
   X \wedge S^1 
@@ -927,7 +1140,7 @@ $$
   \,.
 $$
 
-The standard looping is equivalently the [[fiber]] of the canonical projection from the standard path space spectrum $Maps(I_+,X)_\ast$ (example \ref{StandardPathSpaceSpectrumSequential}):
+The standard looping is equivalently the [[fiber]] (formed via prop. \ref{LimitsAndColimitsOfSequentialSpectra}) of the canonical projection from the standard path space spectrum $Maps(I_+,X)_\ast$ (example \ref{StandardPathSpaceSpectrumSequential}):
 
 $$
   Maps(S^1,X)_\ast 
@@ -941,7 +1154,7 @@ $$
 
 =--
 
-There are two other models for suspension and looping of spectra, which will turn out to be isomorphic in the [[stable homotopy category]], but which are often useful for computations:
+There are two other models for suspension and looping of spectra, which are not isomorphic in $SeqSpec(Top_{cg})$, but which will turn out to be isomorphic in the [[stable homotopy category]], and which will be useful for computations:
 
 
 +-- {: .num_defn #ShiftedSpectrum}
@@ -961,19 +1174,21 @@ For $X$ a [[sequential spectrum]] (def. \ref{SequentialSpectra}) and $k \in \mat
 
 For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
 
-1. the **alternative suspension** of $X$ is the sequential spectrum $\Sigma X$ with
+1. the **alternative suspension** of $X$ is the sequential spectrum $\Sigma X$ with 
 
    1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$ ([[smash product]] on the left ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)))
 
    1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma_n)$.
 
+   in the sense of def. \ref{SequentialSpectra};
+
 1. the **alternative looping** of $X$ is the sequential spectrum $\Omega X$ with
 
    1. $(\Omega X)_n \coloneqq Maps(S^1,X_n)_\ast$;
 
-   1. $\tilde \sigma_n^{\Omega X} \coloneqq Maps(S^1,\sigma_n)_\ast$.  
+   1. $\tilde \sigma_n^{\Omega X} \coloneqq Maps(S^1,\tilde \sigma_n)_\ast$
 
-Here $\tilde \sigma_n$ denotes the $(\Sigma\dashv \Omega)$-[[adjunct]] of $\sigma_n$.
+   in the sense of def. \ref{SequentialSpectrumViaAdjunctStructureMaps}.
 
 =--
 
@@ -1184,135 +1399,9 @@ $$
 =--
 
 
-##### As topological diagrams
-
-The following is an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). 
-
-
-+-- {: .num_defn #CategoriesOfStandardSpheres}
-###### Definition
-
-Write 
-
-$$
-  \iota \;\colon\; StdSpheres \longrightarrow Top_{cg}^{\ast/}
-$$
-
-for the non-full [[topologically enriched category|topologically enriched]] [[subcategory]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) of that of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopkAsATopologicallyEnrichedCategory)):
-
-* [[objects]] are the standard [[n-spheres]] $S^n$, for $n \in \mathbb{N}$, identified as the [[smash product]] powers $S^n \coloneqq (S^1)^{\wedge^n}$ of the standard circle;
-
-* [[hom-spaces]] are
-
-  $$
-    StdSpheres(S^{n}, S^{k+n})
-      \coloneqq
-    \left\{
-      \array{
-        \ast & for & k \lt 0
-        \\
-        S^k 
-        & otherwise
-      }
-    \right.
-  $$
-
-* [[composition]] is induced from composition in $Top^{\ast/}_{cg}$ by regarding the [[hom-space]] $S^k$ above as its [[image]] in $Maps({S^n},S^{k+n})_\ast$ under the [[adjunct]]
-
-$$
-  S^{k} \stackrel{}{\to} Maps({S^n},S^{k+n})_\ast
-$$
-
-of the canonical isomorphism
-
-$$
-  S^k \wedge S^n \overset{\simeq}{\longrightarrow} S^{k+n}
-  \,.
-$$
-
-This induces the category 
-
-$$
-  [StdSpheres, Top^{\ast/}_{cg}]
-$$
-
-of [[topologically enriched functors]] on $StdSpheres$ with values in $Top_{cg}^{\ast/}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)).
-
-=--
-
-
-+-- {: .num_prop #SequentialSpectraAsDiagramSpectra}
-###### Proposition
-
-There is an [[equivalence of categories]]
-
-$$
-  (-)^seq
-    \;\colon\;
-  [StdSpheres,Top_{cg}^{\ast/}]
-    \overset{\simeq}{\longrightarrow}
-  SeqSpec(Top_{cg})
-$$
-
-from the category of [[topologically enriched functors]] on the category of standard spheres of def. \ref{CategoriesOfStandardSpheres} to the category of topological sequential spectra, def. \ref{SequentialSpectra}, which is given on objects by sending $X \in [StdSpheres,Top^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
-
-$$
-  X^{seq}_n \coloneqq X(S^n)
-$$
-
-and with structure maps
-
-$$
-  \frac{
-    S^1 \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n
-  }{
-    S^1 \longrightarrow Maps(X^{seq}_n, X^{seq}_{n+1})_\ast
-  }
-$$
-
-given by
-
-$$
-  S^1
-    \stackrel{\widetilde{id}}{\longrightarrow}
-  Maps(S^n,S^{n+1})_\ast
-    \stackrel{X_{S^n, S^{n+1}}}{\longrightarrow}
-  Maps(X^{seq}_n, X^{seq}_{n+1})
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The action of a given topological functor $X$ on hom-spaces between spheres of consecutive dimension 
-
-$$
-  X_{S^n, S^{n+1}}
-    \;\colon\;
-  S^1 
-    \longrightarrow
-  Maps(X(S^n), X(S^{n+1}))_\ast
-$$
-
-is naturally identified with its [[adjunct]]
-
-$$
-  \widetilde {X_{S^n, S^{n+1}}}
-    \;\colon\;
-  S^1 \wedge X(S^n) \longrightarrow S^{n+1}
-  \,.
-$$
-
-This gives the structure maps. It only remains to see that from these maps the functor is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the smash product of the hom-spaces between the consecutive spheres, and functoriality completely fixes the formed by the latter.
-
-
-=--
-
-We now use prop. \ref{SequentialSpectraAsDiagramSpectra} to naturally induce a model  structure on the category of topological sequential spectra.
 
 #### The strict model structure on sequential spectra
+ {#StrictModelStructureOnSequentialSpectra}
 
 The [[model category]] structure on [[sequential spectra]] which [[presentable (infinity,1)-category|presents]] [[stable homotopy theory]] is the "stable model structure" discussed [below](#TheStableModelStructure). Its fibrant-cofibrant objects are (in particular) [[Omega-spectra]], hence are the proper [[spectrum objects]] among the pre-spectrum objects.
 
