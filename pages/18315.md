@@ -16,8 +16,9 @@ Tautological examples:
 
 Non-tautological example: 
 
+ * the category of subobjects of a given object in any category 
  * the category of fields (with ring homomorphisms as the morphisms)
- * the full subcategory of any given slice category consisting only of the monos of the category sliced (aka the category of subobjects)
+
 
 ## Related concepts
 
