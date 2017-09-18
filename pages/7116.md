@@ -47,7 +47,7 @@ If the last triangle inequality is strengthened to
 
 * ${\vert x + y \vert} \leq max({\vert x \vert}, {\vert y \vert})$ 
 
-then ${\vert {-} \vert}$ is called an [[ultrametric]] or **non-archimedean** absolute value, since then for any $x, y \in k$ with $\vert x \vert \lt \vert y \vert$ then for all natural numbers $n$, $\vert n x \vert \leq \vert x \vert \lt \vert y \vert$. Otherwise it is called **archimedean**.
+then ${\vert {-} \vert}$ is called an [[ultrametric]] or **non-archimedean** absolute value, since then for any $x, y \in k$ with $\vert x \vert \lt \vert y \vert$ then for all natural numbers $n$, $\vert n x \vert \leq \vert x \vert \lt \vert y \vert$.  If the opposite holds, that whenever $\vert x \vert \lt \vert y \vert$ (and $x\neq 0$) there exists a natural number $n$ with $\vert n x \vert \gt \vert y \vert$, then it is called **archimedean**.
 
 Two absolute values ${\vert {-} \vert}_1$ and ${\vert {-} \vert}_2$ are called _equivalent_ if for all $x \in k$
 
