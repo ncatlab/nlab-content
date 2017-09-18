@@ -156,9 +156,12 @@ In other words, an incoherent idempotent can be fully coherentified as soon as i
 
 Section 4.4.5 of
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+ 
 
+Formalization in [[homotopy type theory]]:
+
+* {#Shulman14} [[Mike Shulman]], _[Splitting idempotents](http://homotopytypetheory.org/2014/12/08/splitting-idempotents/)_ 2014
 
 [[!redirects idempotent complete (∞,1)-category]]
 [[!redirects idempotent-complete (infinity,1)-category]]
@@ -169,4 +172,3 @@ Section 4.4.5 of
 
 [[!redirects idempotent-completion of an (∞,1)-category]]
 [[!redirects idempotent-completion of an (infinity,1)-category]]
-
