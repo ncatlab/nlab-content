@@ -39,7 +39,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is true because $C^\infty(\mathbb{R}^n)$ satisfies the [[Hadamard lemma]].
+This is true because $C^\infty(\mathbb{R}^n)$ satisfies the [[Hadamard lemma]]. More in detail:
 
 By the existence of [[partitions of unity]] we may restrict to the situation for $X = \mathbb{R}^n$ a [[Cartesian space]].
 By the [[Hadamard lemma]] every [[smooth function]] $f \in C^\infty(\mathbb{R}^n)$ may be written as
