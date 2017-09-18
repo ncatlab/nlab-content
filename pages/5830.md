@@ -482,6 +482,6 @@ More is in the repositories of various authors:
 [[!redirects (∞,1)-type theory]]
 [[!redirects (infinity,1)-type theory]]
 [[!redirects univalent foundations]]
-
+[[!redirects Homotopy type theory]]
 [[!redirects HoTT]]
 [[!redirects internal language of an (∞,1)-topos]]
