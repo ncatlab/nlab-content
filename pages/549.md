@@ -84,7 +84,7 @@ where
 +-- {: .un_remark }
 ###### Remark
 
-One sometimes says (e.g. _ModLoc_ ) that a collection $I$ of morphisms **admits a small object argument** if all domains are small relative to transfinite composites of pushouts of elements of $I$.
+One sometimes says (e.g. [Hirschhorn](#ModLoc)) that a collection $I$ of morphisms **admits a small object argument** if all domains are small relative to transfinite composites of pushouts of elements of $I$.
 
 =--
 
@@ -223,7 +223,7 @@ theorem 2.1.14 in
 
 or section 10.5 in
 
-* [[Philip Hirschhorn]], _Model categories and their localization_, volume 99 of Mathematical Surveys and Monographs, American Mathematical Society, cited here as **ModLoc** 
+* {#ModLoc} [[Philip Hirschhorn]], _Model categories and their localization_, volume 99 of Mathematical Surveys and Monographs, American Mathematical Society 
 
 A reference with an eye towards [[combinatorial model category|combinatorial model categories]] and [[Smith's theorem]] is
 
