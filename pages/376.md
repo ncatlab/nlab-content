@@ -101,7 +101,7 @@ $$ [\langle E \stackrel{f}{\to} X \rangle, \langle F \stackrel{g}{\to} X \rangle
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #DependentProductInTermsOfSliceInternalHom}
 ###### Proposition
 
 If for a [[category]] $\mathcal{C}$ every [[slice category]] is a [[cartesian closed category]], then for every morphism $f : X \to Y$ in $\mathcal{C}$ the [[dependent product]] $\prod_f$ exists and is given on an object $E \stackrel{p}{\to} X$ by the [[pullback]]
