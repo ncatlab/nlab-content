@@ -45,6 +45,10 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### A1.3 Regular categories
 
+* [[strong epimorphism]]
+
+* [[conservative functor]]
+
 * [[regular category]]
  
   * [[regular epimorphism]]
