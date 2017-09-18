@@ -19,14 +19,19 @@
 
 ## Idea
 
-For $\mathcal{A}$ an [[abelian category]], a [[dg-algebra]] in $\mathcal{A}$ is a [[monoid]] in the [[category of chain complexes]] $Ch(\mathcal{A})$. 
+The category of [[dg-modules]] over a [[dg-algebra]], or more generally a [[dg-category]], admits dg-[[enriched model category|enriched]] [[model structures]] which present the [[(infinity,1)-category]] or [[dg-category]] of [[dg-modules]].
 
-Equivalently this is an [[algebra over an operad]] over the [[associative operad]] in $Ch(\mathcal{A})$.
+In the case of [[dg-algebras]] in an [[abelian category]] $\mathcal{A}$, [[dg-modules]] are the same as [[module over an algebra over an operad|modules]] over [[algebra over an operad|algebras]] over the [[associative operad]] in $Ch(\mathcal{A})$. These admit model structures as described in [[model structure on modules over an algebra over an operad]], [[transferred model structure|transferred]] from the [[model structures on chain complexes]] in $\mathcal{A}$.
 
-For $A$ a fixed dg-algebra, a dg-module is then a [[module]] in $Ch(\mathcal{A})$ over $A$: a [[module over an algebra over an operad]]. Correspondingly the category $A Mod_{\mathcal{A}}$ of all $A$-modules carries a [[model structure on modules over an algebra over an operad]]. This is a model structure on dg-modules
+More generally there are [[model structures]] on [[dg-modules]] over a [[dg-category]], analogous to [[model structures on simplicial presheaves]].
+
+## Definition
+
+There is a projective [[model structure]] on the category of [[dg-modules]], where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[fibrations]] are object-wise [[epimorphisms]].  This model structure is compatible with the canonical dg-[[enriched category|enrichment]] and presents the [[derived (infinity,1)-category of dg-modules]].
 
 ## Properties
  {#Properties}
+
 Let $k$ be a [[field]] of [[characteristic]] 0.
 
 Write $Ch^\bullet(k)$ for the [[category of chain complexes]]. 
@@ -93,6 +98,8 @@ The [[homotopy category]] and [[triangulated category]] of dg-modules is discuss
 
 * Joseph Bernstein, _DG-modules and equivariant cohomology_ ([pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/luntz_ESF/4-dg-modules-and-equivariant-cohomology.pdf)).
 {#Bernstein}
+
+[[!redirects model structures on dg-modules]]
 
 [[!redirects category of dg-modules]]
 [[!redirects categories of dg-modules]]
