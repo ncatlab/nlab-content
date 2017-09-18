@@ -17,7 +17,7 @@
 
 A mechanism in the context of [[string theory]]:
 
-before [[gauge fixing]], the [[worldsheet]] [[QFT]] describing the first-quantized [[string]] (see also at _[What is a particle?](particle#WhatIsAParticle)_ for conceptual background is a [[2d quantum gravity]] coupled to [[scalar fields]] (the embedding fields that say how the string sits in [[target space|target]] [[spacetime]]). Being [[quantum gravity]], evn if in the comparatively extremely simple case of only two dimensions, one may ask if this arises as the [[effective field theory]]/[[second quantization]] of _another_ kind of string, one whose target spacetime is the [[worldsheet]] of the original string.
+before [[gauge fixing]], the [[worldsheet]] [[QFT]] describing the first-quantized [[string]] (see also at _[What is a particle?](particle#WhatIsAParticle)_ for conceptual background is a [[2d quantum gravity]] coupled to [[scalar fields]] (the embedding fields that say how the string sits in [[target space|target]] [[spacetime]]). Being [[quantum gravity]], even if in the comparatively extremely simple case of only two dimensions, one may ask if this arises as the [[effective field theory]]/[[second quantization]] of _another_ kind of string, one whose target spacetime is the [[worldsheet]] of the original string.
 
 This idea is known as "world sheets for world sheets", going back to ([Green87](#Green87)).
 
