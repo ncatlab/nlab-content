@@ -270,6 +270,8 @@ A good notion of geometric [[homotopy groups in an (∞,1)-topos]] exist in a [[
 
 * Applying the [[Hurewicz theorem]] stagewise to a [[Whitehead tower]] yields an method for computing the [[homotopy groups]] of the original [[space]]. This process, or rather the refinement thereof for Whitehead towers generalized to [[Adams resolutions]], is formalized by the _[[Adams spectral sequence]]_, see there for more.
 
+* _[symmetric group -- Whitehead tower](https://ncatlab.org/nlab/show/permutation#WhietheadTowerAndSupersymmetry)_
+
 [[!include Lurie spectral sequences -- table]]
 
 ## References 
