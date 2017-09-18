@@ -539,9 +539,9 @@ and
 
 The original references are:
 
-* [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
+* {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
 
-* [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
+* {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_, Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
 A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
 
