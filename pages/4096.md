@@ -2,12 +2,19 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;-moz-border-radius:10px;background:#ffe;"}
 {:mynumprop: .num_prop style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;-moz-border-radius:10px;background:#eff;"}
 
-<div class="rightHandSide toc" style="background-color:#fff;">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
 [[!include functional analysis - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
-* autoamtic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
