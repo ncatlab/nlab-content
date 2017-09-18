@@ -1,0 +1,12 @@
+
+* [webpage](https://www.math.purdue.edu/~mcclurej/)
+
+## related $n$Lab entries
+
+* [[ring spectrum]]
+
+* [[H-infinity ring spectrum]]
+
+* [[KU]]
+
+category: people
