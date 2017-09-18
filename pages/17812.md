@@ -33,7 +33,7 @@ in parallel to the discussion of ordinary [[differential geometry]] in _[[geomet
 Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the
 [[observable universe]] is fundamentally described by
 [[supergeometry]]. Namely the [[Pauli exclusion principle]], in its refined form of the
-[[spin-statistics theorem]] implies that the [[phase space]] of a [[field theory]]
+[[spin-statistics theorem]], implies that the [[phase space]] of a [[field theory]]
 (already of a [[classical field theory]]) with [[fermion]] [[field (physics)|fields]] (such as that of [[electrons]] and [[quarks]])
 is a [[superspace]] whose even-graded [[coordinates]] are the configurations of the [[boson]] fields, while the
 odd-graded coordinates correspond to the configurations of the [[fermion]] fields. It is impossible to have an
@@ -57,7 +57,7 @@ odd-graded coordinates correspond to the configurations of the [[fermion]] field
  $$
    \psi_1 \psi_2 = - \psi_2 \psi_1
  $$
- (which course immediately implies that [[Pauli exclusion principle]]).
+ (which course immediately implies the [[Pauli exclusion principle]]).
  This is the celebrated _[[spin-statistics theorem]]_, whose formulation goes back to
  [Fierz in 1939](#Fierz39) and [Pauli in 1940](#Pauli40).
 
@@ -133,13 +133,13 @@ $$
 These serve as our "abstract super-coordinate systems" that define [[supergeometry]] in direct analogy to how ordinary [[Cartesian spaces]] serve as the abstract coordinate systems that define [[differential geometry]] as found at
 _[[geometry of physics -- coordinate systems]]_  and_[[geometry of physics -- smooth sets]]_.
 
-This means that a general superspace is modeled as a [[sheaf]] on the category of super Cartesian spaces,
+Then a general superspace is modeled as a [[sheaf]] on the category of super Cartesian spaces,
 possibly satisfying some suitable properties. see remark \ref{ASheafAsASpace} below for explanation of this perspective.
 
 
-We follow the perspective of "**[[functorial geometry]]**" due to ([Grothendieck 65](#Grothendieck65)),
+This means that we follow the perspective of "**[[functorial geometry]]**" due to ([Grothendieck 65](#Grothendieck65)),
 where a [[scheme]] is regarded as a [[sheaf]] over the category of [[affine schemes]] (its "[[functor of points]]")
-satisfying the condition that it is covered by ([[representable functor|representables]] of) offines, via [[open maps]].
+satisfying the condition that it is covered by ([[representable functor|representables]] of) offines, via [[formally étale morphism]].
 
 Beware that -- despite the urging in [Grothendieck 73](#Grothendieck73) that the definition of [[schemes]] as
 [[locally ringed spaces]] should be abandoned in favour of the perspective of [[functorial geometry]] -- most textbooks on [[supergeometry]]
@@ -151,7 +151,14 @@ An exception is the approach propagated in [Schwarz 84](#Schwarz84), [Molotkov 8
 of which a clean account is given in [Sachse 08](#Sachse08). These authors consider (pre-)sheaves on the category of
 [[superpoints]]. This gives the "super" in "super-geometry" a functorial interpretation, but the
 (smooth) "geometry" still needs to be added in by hand. Hence this approach satisfies [Grothendieck's urging](#Grothendieck73)
-only half-way. Here we go all the way.
+half-way. 
+
+The full application of the perspective of [[functorial geometry]] to [[supergeometry]] is mostly known as 
+_[[synthetic differential supergeometry]]_, where one considers sheaves over the full category of formal 
+[[super Cartesian spaces]] ([Yetter 88, section 3](#Yetter88)). This is essentially the perspective which we adopt here.
+We do however not refer to the (super-)[[Kock-Lawvere axioms]] for [[synthetic differential geometry]] but instead 
+use the axiomatics of "[[differential cohesion]]" ([Schreiber 13](#Schreiber)). This we explain [below](#SuperSmoothSets). 
+
 
 
 
@@ -464,7 +471,7 @@ This kind of construction is traditionally more familiar from the theory of [[fo
 The crucial property of [[infinitesimally thickened points]] (def. \ref{FormalCartSp}) is that they co-represent
 [[tangent vectors]] and [[jets]]:
 
-+-- {: .num_prop}
++-- {: .num_prop #HomsOutOfFirstOrderInfinitesimalLine}
 ###### Proposition
 
 Write $\mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))$ for the [[formal dual]] of the [[algebra of dual numbers]].
@@ -1036,6 +1043,7 @@ In analogy with def. \ref{Smooth0Type} we say that
 =--
 
 The category of formal smooth sets from def. \ref{FormalSmoothSets} is often known as the _[[Cahiers topos]]_. It was introduced in ([Dubuc 79](Cahiers+topos#Dubuc79) as a well-adapted model for the [[Kock-Lawvere axioms]] for [[synthetic differential geometry]].
+The category of super formal smooth sets from def. \ref{FormalSmoothSets} was considered in [Yetter 88](#Yetter88), called the _super Dubuc topos_ there.
 
 We have now defined four sites
 and considered the corresponding [[categories of sheaves]] (noticing that $Sh(\ast) = $ [[Set]])
@@ -1411,7 +1419,7 @@ $$
   SuperFormalSmoothSet
 $$
 
-from def. \ref{ProgressionOfIdempotentEndofunctors}. By prop. prop. \ref{SuperSmoothSetsSystemOfAdjunctions} and prop. \ref{CartSpCoreflectiveInclusion} we know that $\Re$ sends a (formal) [[super Cartesian space]] to its underlying
+from def. \ref{ProgressionOfIdempotentEndofunctors}. By prop. \ref{SuperSmoothSetsSystemOfAdjunctions} and prop. \ref{CartSpCoreflectiveInclusion} we know that $\Re$ sends a (formal) [[super Cartesian space]] to its underlying
 reduced ordinary [[Cartesian space]]. For instance
 
 $$
@@ -1479,7 +1487,7 @@ finie smooth shapes as $X$ does, but every _infinitesimal_ curve or shape inside
 A good way to think kabout this (which is also the precise way to thinkk about it, if we speak in the [[internal language]]
 of the [[sheaf topos]]) is that $\Im X$ is the result obtained from $X$ by **identifying all infinitesimally close points**
 with each other. In [[algebraic geometry]] this construction is often known as forming the _[[de Rham shape]]_ of $X$
-([simpson 96](#de+Rham+space#Simpson96)). Here we will say **[[infinitesimal shape]]**.
+([Simpson 96](#de+Rham+space#Simpson96)). Here we will say **[[infinitesimal shape]]**.
 
 Another good perspective on $\Im X$ is the following:
 
@@ -1506,7 +1514,7 @@ over that point
 
 $$
   \array{
-    \mathbb{D}_x &\longrightarrow& T^\infty X &\lngrightarrow& X
+    \mathbb{D}_x &\longrightarrow& T^\infty X &\longrightarrow& X
     \\
     \downarrow &\stackrel{(pb)}{}& {}^{\mathllap{p}}\downarrow &\stackrel{(pb)}{}& \downarrow^{\mathrlap{\eta_X}}
     \\
@@ -1524,8 +1532,7 @@ $$
 +-- {: .num_defn #LocalDiffeomorphisms}
 ###### Definition
 
-Given $X,Y\in SuperFormalSmoothSet$ then a morphism $f \;\colon\; X\longrightarrow Y$ is called a _[[local diffeomorphism]]_
-or _[[formally étale morphism]]_ if its
+Given $X,Y\in SuperFormalSmoothSet$ then a morphism $f \;\colon\; X\longrightarrow Y$ is called a _[[formally étale morphism]]_ if its
 [[natural transformation|naturality square]] of the [[infinitesimal shape modality]] (prop. \ref{ImAction})
 
 $$
@@ -1556,10 +1563,34 @@ $$
 
 =--
 
-+-- {: .num_remark}
+We unwind definitio \ref{LocalDiffeomorphisms} a little:
+
++-- {: .num_remark #FormallyEtaleUnwinding}
 ###### Remark
 
-The abstract definition \ref{LocalDiffeomorphisms} comes down to being the appropriate [[synthetic differential supergeometry]]-version  of the traditional statement that $f$ is a [[local diffeomorphism]] if the diagram of [[tangent bundles]]
+Let $\mathbb{D}$ be an [[infinitesimally thickened point]]. This means that its reduction is the actual point,
+$\Re \mathbb{D} \simeq \ast$. By the [[adjunction]] $\Re \dashv \Im$ from def. \ref{ProgressionOfIdempotentEndofunctors}
+it follows that the image of the naturality square in def. \ref{LocalDiffeomorphisms} under forming the 
+[[internal hom]] (def. \ref{InternalHom}) out of $\mathbbf{D}$ is 
+
+$$
+  \array{
+    X^{\mathbb{D}} &\longrightarrow& X
+    \\
+    \downarrow^{\mathrlap{f^\mathbb{D}}} && \downarrow^f
+    \\
+    Y^{\mathbb{D}} &\longrightarrow& Y    
+  }
+$$
+
+Since the internal hom preserves [[limits]] in its second argument (being [[right adjoint]] to $\mathbb{D} \times (-)$)
+this is a [[pullback]] square if $f$ is a [[formally étale morphism]] according to def. \ref{LocalDiffeomorphisms}.
+In this form the condition appears in [Yetter 88, def. 3.3.1](#Yetter88).
+
+If here we specify $\mathbb{D} = Spec(\mathbb{R}[\epsilon]/\epsilon^2)$ to be the [[formal dual]] of the [[ring of dual numbers]],
+then $X^{\mathbb{D}}$, $Y^{\mathbb{D}}$ are the respective [[tangent bundles]] by prop. \ref{HomsOutOfFirstOrderInfinitesimalLine}.
+Hence in this case the condition that $f$ is a [[formally étale morphism]] according to def. \ref{LocalDiffeomorphisms}
+implies that the square
 
 $$
   \array{
@@ -1571,14 +1602,33 @@ $$
   }
 $$
 
-To see this, notice by the discussion at _[[synthetic differential geometry]]_ that for $D$ an [[infinitesimally thickened point]], then for any $X \in \mathbf{H}$ the [[mapping space]] $[D,X]$ is the [[jet bundle]] of $X$ with jets of order as encoded by the infinitesimal order of $D$. In particular if $\mathbb{D}^1(1)$ is the first order infinitesimal interval defined by the fact that its [[algebra of functions]] is the [[algebra of dual numbers]] $C^\infty(\mathbb{D}^1(1)) = (\mathbb{R} \oplus \epsilon \mathbb{R})/(\epsilon^2)$, and $X$ is a [[smooth manifold]], then
+is a pullback square. For $X,Y$ ordinary smooth manifolds via remark \ref{ASheafAsASpace}, this condition
+is the traditional definition that $f$ be a [[local diffeomorphism]].
 
-$$
-  [\mathbb{D}^1(1), X]\simeq T X
-$$
+=--
 
-is the ordinary [[tangent bundle]] of $X$. Now use that the [[internal hom]] $[D,-]$ preserves [[limits]] in its second argument, and that, by the hom-adjunction, $\mathbf{H}(U, [D,X]) \simeq \mathbf{H}(U \times D, X)$ and finally use that $\mathbf{H}(U \times D, \Im X)\simeq \mathbf{H}(\Re(U \times D), X)\simeq \mathbf{H}(U,X)$.
++-- {: .num_prop}
+###### Proposition
 
+For $X,Y \in SuperFormalSmoothSet$ two ordinary [[smooth manifolds]] via remark \ref{ASheafAsASpace}, then 
+a morphism between them is a [[formally étale morphism]] according to def. \ref{LocalDiffeomorphisms}
+precisely if it is a [[local diffeomorphism]] in the traditional sense.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By remark \ref{FormallyEtaleUnwinding} the condition of 
+def. \ref{LocalDiffeomorphisms} on morphisms between smooth manifolds is equivalent 
+to the traditional condition of being locally diffeo already when seen just under
+the internal hom out of $Spec(\mathbb{R}[\epsilon](\epsilon^2))$.
+
+But, as the name suggests, a [[local diffeomorphism]] of smooth manifolds is in particular 
+also a [[local homeomorphism]]. This means that around each point of $X$ there is 
+actually an [[open neighbourhood]] such that $f$ restrricts to a [[diffeomorphism]]
+on that neighbourhood. This implies that the full condition  in def. \ref{LocalDiffeomorphisms}
+holds, by an argument as in example \ref{ProjectioonOutOfCoproductIsFormllyEtale}.
 
 =--
 
@@ -1628,7 +1678,7 @@ $$
   \array{
     \underset{i \in I}{\coprod}V_i  &\longrightarrow& \underset{i \in I}{\coprod} \Im V
     \\
-    \downarrow^{\mathrlap{(id_i)_{i \in I}}} &(pb)& \downarrow^{\mathrlap{(id_i)_{i \in I}}}
+    {}^{{\mathllap{(id_i)_{i \in I}}}}\downarrow &(pb)& \downarrow^{\mathrlap{(id_i)_{i \in I}}}
     \\
     V &\underset{\eta_V}{\longrightarrow}& \Im V
   }
@@ -1688,7 +1738,6 @@ $$
   }
 $$
 
-
 =--
 
 +-- {: .num_remark}
@@ -1704,7 +1753,7 @@ But later on the choice affects for instance the concept of [[torsion of a G-str
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #OddTangentBundle}
 ###### Example
 
 Let $X$ be a [[smooth manifold]] of [[dimension]] $n$ and $E \to X$ a smooth [[vector bundle]] over $X$ of [[rank]]
@@ -1862,6 +1911,15 @@ a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-
 =--
 
 
+
+
+
+
+
+
+
+
+
 ## Super mapping spaces
 
 We now discuss [[mapping spaces]] in [[supergeometry]]. These are interesting in two ways:
@@ -1888,7 +1946,7 @@ $$
   Hom( Z \times X, Y ) \stackrel{\simeq}{\longrightarrow} Hom(Z, Y^X) 
 $$ 
 
-between functions of two [[vaiables]] into $Y$ and functions of one variable into $Y^X$. This is given by sending 
+between functions of two [[variables]] into $Y$ and functions of one variable into $Y^X$. This is given by sending 
 any function $f(-,-)$ of two variables to the function $\tilde f$ which sends any $z$ to the function
 $x \mapsto f(z,x)$. Hence this simply reinterprets "taking two arguments at once" by "taking two arguments consecutively".
 
@@ -1919,9 +1977,9 @@ for all [[objects]] $X,Y,Z \in \mathcal{C}$.
 
 =--
 
-The class of example that we are interested in is the following
+The class of examples that we are interested in is the following
 
-+-- {: .num_prop}
++-- {: .num_prop #SheavesHomInternal}
 ###### Proposition
 
 Let $\mathcal{C} = Sh(\mathcal{S})$ be a [[category of sheaves]] over some [[site]] $\mathcal{S}$.
@@ -1935,8 +1993,8 @@ $$
 
 for $U \in \mathcal{S}$.
 
-Moreover, an [[internal hom]]-functor according to def. \ref{InternalHom} exist. It sends
-any two [[sheaves]] $X,Y \in Sh(\mathcal{S})$ to the sheaf 
+Moreover, an [[internal hom]]-functor according to def. \ref{InternalHom} exists ("generalized [[mapping space]]"). 
+It sends any two [[sheaves]] $X,Y \in Sh(\mathcal{S})$ to the sheaf 
 
 $$
   [X,Y] \;\colon\; \mathcal{S}^{op} \longrightarrow Set
@@ -1945,7 +2003,7 @@ $$
 given by
 
 $$
-  U \mapsto Hom_{Sh(\mathcal{S})( X \times y(U), Y )
+  U \mapsto Hom_{Sh(\mathcal{S})}( X \times y(U), Y )
   \,,
 $$
 
@@ -1953,13 +2011,40 @@ where $y \colon \mathcal{S} \hookrightarrow Sh(\mathcal{S})$ is the [[Yoneda emb
 
 =--
 
+For the **proof** see at _[[closed monoidal structure on presheaves]]_.
 
-(...)
++-- {: .num_example}
+###### Example
+
+Let $\Sigma$ be a [[closed manifold|closed]] [[smooth manifold]] and let $X$ be any [[smooth manifold]].
+Then set of [[smooth functions]] $C^\infty(\Sigma,X)$ carries the structure of an 
+[[infinite-dimensional manifold|infinite dimensional]] [[Frechet manifold]]. 
+This [[representable functor|represents]] the [[internal hom]] according to prop,. \ref{SheavesHomInternal}.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $X$ be any [[smooth manifold]]. Then the [[internal hom]] in $SuperFormalSmoothSet$ out of the 
+[[superpoint]] $\mathbb{R}^{0\vert 1}$ into $X$, according to prop. \ref{SheavesHomInternal},
+is the [[odd tangent bundle]] from def. \ref{OddTangentBundle}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By unwinding the definitions and then using prop. \ref{HomsOutOfFirstOrderInfinitesimalLine}.
+
+=--
 
 
 ## Super differential forms
  {#DeRhamComplexOfSuperDifferentialForms}
 
+We discuss the super-geometric analog of [[differential forms]] on [[supermanifolds]], first with 
+[[coefficients]] in $\mathbb{R}$, then with coefficients in a [[super Lie algebra]].
 
 Recall from def. \ref{SuperCartesianSpace}:
 
@@ -2536,9 +2621,14 @@ Further amplification of Grothendieck's amplification may be found in the short 
 
 * {#Lawvere03} [[William Lawvere]], _Grothendieck's 1973 Buffalo Colloquium_, posting to the mailing list _categories@mta.ca_, March 2003 ([gmane archive](http://permalink.gmane.org/gmane.science.mathematics.categories/2228))
 
-The differential geometry formulation via the axioms of [[differential cohesion]] that we use here follows
+The application of this perspective to supergeometry is sometimes known as [[synthetic differential supergeometry]]:
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+* {#Yetter88} [[David Yetter]], _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1988__29_2_87_0))
+
+
+The formulation via the axioms of [[differential cohesion]] that we use here follows
+
+* {#Schreiber} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
 ### For classical field theories with fermions
