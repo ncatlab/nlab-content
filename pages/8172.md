@@ -1212,14 +1212,14 @@ is an [[isomorphism]].
 
 =--
 
-This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)).
+This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and see at _[Kronecker pairing -- Universal coefficient theorem](Kronecker+pairing#UniversalCoefficientTheorem)_.
 
 With this we finally get the following statement, which serves to identity maps of certain spectra with their induced maps on $E$-homology:
 
 +-- {: .num_prop}
 ###### Proposition
 
-If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} in the form
+If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} of the form
 
 $$
  \pi_\bullet(E\wedge (-))
@@ -1281,7 +1281,7 @@ In conclusion:
 +-- {: .num_prop #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
 ###### Proposition
 
-For $X, Y$ [[spectra]], and for $E$ a [[commutative ring spectrum]] from the list in example \ref{ExamplesOfFlatRingSpectra}, then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$, induced by of the standard $E$-Adams resolution for $X$, example \ref{StandardEResolution}, is of the form
+For $X, Y$ [[spectra]], and for $E$ a [[commutative ring spectrum]] from the list in example \ref{ExamplesOfFlatRingSpectra}, then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$, induced by the standard $E$-[[Adams resolution]] for $X$ from example \ref{StandardEResolution}, is of the form
 
 $$
   0 
