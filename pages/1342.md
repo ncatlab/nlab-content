@@ -17,8 +17,7 @@
 
 
 ## Idea
-
-In its categorical meaning _descent_ is the study of generalizations of the [[sheaf]] condition on [[presheaf|presheaves]] to presheaves with values in [[higher category theory|higher categories]]. Those higher presheaves that satisfy descent are called [[infinity-stack]]s.
+From the point of view of infinity category theory (nPOV), _descent_ is the study of generalizations of the [[sheaf]] condition on [[presheaf|presheaves]] to presheaves with values in [[higher category theory|higher categories]]. Those higher presheaves that satisfy descent are called [[infinity-stack]]s.
 
 More generally,
 **descent theory** studies existence and (non)uniqueness of an object $u$ in a (possibly higher) category $C_X$ provided some "inverse image" functor $f^*:C_X\to C_Y$ which applied to $u$ produces an object in some (possibly higher) category $C_Y$ (or a collection of inverse image functors $f^*_\alpha(u)$ in $D_\alpha$ is given). In favourable cases, the nonuniqueness is parametrized by equipping the object $f^*(u)$ with additional "gluing" data $\xi$. The pair $(f^*(u),\xi)$ is called a __descent datum__, the existence of a reconstruction procedure of $u$ from $(f^*(u),\xi)$ is also called a descent, and it describes the property that the (higher) category of descent data in $C_Y$ is equivalent to the category $C_X$, or at least that it embeds via a canonical fully faithful functor. Descent theory in 1-categorical context has been first formulated by Grothendieck in FGA using pseudofunctors and in [[SGA1]] using fibered categories.
