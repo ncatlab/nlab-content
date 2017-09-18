@@ -27,7 +27,7 @@ Syntactically, if $x$ is a tuple of variables, an _$x$-type_ is a finitely consi
 
 By [[Stone duality]], the set of all complete $x$-types of a theory $T$ inherits a Stone topology, and is called the _Stone space_ $S_x(T)$ of the theory $T$.
 
-There are some extension of this notion of type beyond first order, for example the notion of [[Galois type]]s in [[infinitary logic]], which is particularly important i the study of [[abstract elementary class]]es.  
+There are some extension of this notion of type beyond first order, for example the notion of [[Galois type]]s in [[infinitary logic]], which is particularly important in the study of [[abstract elementary class]]es.  
 
 An important method toward classification of theories is study of the number of nonisomorphic models in each cardinality; its study is related to the study of types, 
 and the phenomenon of [[forking]] in model theory; that aspect is studied in [[stability theory]]. 
