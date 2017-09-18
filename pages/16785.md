@@ -1,0 +1,7 @@
+
+
+* [webpage](http://users.math.yale.edu/public_html/People/nse5.html)
+
+* _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
+
+category: people
