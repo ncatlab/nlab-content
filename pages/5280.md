@@ -61,15 +61,15 @@ $$\phi = \neg_X \exists_g \neg_Y \exists_f: P X \to P X$$
 is order-preserving, and so has a fixed point $A$ by the Knaster-Tarski lemma. Now define $h: X \to Y$ by the rule 
 
 $$\array{
-h(x) & = & f(x) & \text{ if } x \in A \\
-h(x) & = & g^{-1}(x) & \text{ if } x \notin A 
+h(x) & = & f(x) & \text{ if }\; x \in A \\
+h(x) & = & g^{-1}(x) & \text{ if }\; x \notin A 
 }$$ 
 
 (the multi-line definition is where we use the Boolean condition). The second line makes sense because $\neg A$ is in the image of $g$. The inverse of $h$ is 
 
 $$\array{
-j(y) & = & f^{-1}(y) & \ if y \in \exists_f(A) \\
-j(y) & = & g(y) & \ if y \notin \exists_f(A)
+j(y) & = & f^{-1}(y) & \; \text{if} \; y \in \exists_f(A) \\
+j(y) & = & g(y) & \; \text{if} \; y \notin \exists_f(A)
 }$$
 
 That $j$ is inverse to $h$ uses the fact that $\neg S = \exists_g \neg \exists_f(S)$. The rest is obvious. 
