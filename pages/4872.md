@@ -5,6 +5,7 @@
 * [[knot diagram]]
   * [[isotopy]]
   * [[Reidemeister move]]
+  * [[Gauss code]]
 
 * [[knot invariants]]
   * [[crossing number]]
