@@ -1,0 +1,9 @@
+
+
+* [webpage](http://kiso.phys.se.tmu.ac.jp/~ketov/ketov.htm)
+
+## related $n$Lab entries
+
+* [[Starobinsky model of cosmic inflation]]
+
+category: people
