@@ -222,7 +222,7 @@ Composing this with the counit $f^* f_* \Rightarrow Id$ produces the transformat
 
 ### Etale geometric morphisms
 
-For any morphism $f\colon A\to B$ in a topos $E$, the induced geometric morphism $f\colon E/A \to E/B$ of [[overcategory]] [[topos]]es is essential. 
+For any morphism $f\colon A\to B$ in a topos $E$, the induced geometric morphism $f\colon E/A \to E/B$ of [[overcategory]] [[topos]]es is essential. It has the further property that $f^*$ is a [[logical functor]].
 
 For the case $B = *$ the [[terminal object]], the geometric morphism
 
@@ -230,7 +230,10 @@ $$
   \pi : E/A \to E
 $$
 
-is also called an [[etale geometric morphism]].
+is also called an [[etale geometric morphism]]. In particular, the [[inverse image]] $\pi^*$ is a [[logical functor]] as well.
+
+Conversely, a [[logical functor]] $\pi^*: E\to F$ with a left adjoint $\pi_!$ has automatically a right adjoint $\pi_*$, hence is the inverse image part of an essential geometric morphism $F\to E$.  Provided that $\pi_!$ preserves equalizers, there is furthermore some object $A$ in $E$ such that $\pi^*$ arises up to equivalence as the inverse image part of an [[etale geometric morphism]] $E/A\to E$ (cf. [Johnstone (1977, p.37)](#JTT77)).
+
 
 ### Locally connected toposes
 
@@ -279,7 +282,7 @@ As many other things, it all started as an exercise in
 
 Speaking of exercises, consider the results of Roos reported in exercise 7.3 of
 
-* [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014, pp.254f)
+* {#JTT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014, pp.254f)
 
 The case of sheaves valued in [[FinSet]] is considered in
 
