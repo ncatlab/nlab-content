@@ -364,6 +364,7 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 
 * [[product of distributions]]
 
+* [[Fourier transform of distributions]]
 
 ## References
 
