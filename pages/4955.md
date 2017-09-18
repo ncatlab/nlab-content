@@ -119,6 +119,15 @@ this is an oversimplification.  Upon choosing an independent variable, it is pos
 [^invertibility]:  Well, either may be chosen as long as their differentials are nowhere zero, which is exactly what must be true for (1) to make sense.  More precisely, given that $x$ works as an independent variable, the Chain Rule tells us that $u$ works just as well so long as $\mathrm{d}u$ (as defined using $x$) is nowhere zero.  This may be related to the easy but wrong proof of the Chain Rule that founders on a division by zero in exactly the same place (where $\mathrm{d}u$ would be), although I don\'t see a direct connection.
 
 
+## References
+
+* Wikipedia, _[Chain rule](https://en.wikipedia.org/wiki/Chain_rule)_
+
+On the chain rule in [[Goodwillie calculus]]:
+
+* John R. Klein, [[John Rognes]], _A chain rule in the calculus of homotopy functors_, Geom. Topol. 6 (2002) 853-887 ([arXiv:math/0301079](http://arxiv.org/abs/math/0301079))
+
+
 [[!redirects chain rule]]
 [[!redirects chain law]]
 [[!redirects Cauchy's invariant rule]]
