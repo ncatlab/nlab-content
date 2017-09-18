@@ -105,6 +105,8 @@ More in detail, this yields the following identifications:
   * [[Kazhdan-Lusztig theory]]
   * [[Dirac induction]]
 
+* [[Verma module]], [[BGG resolution]]
+
 * [[Grothendieck group]], [[lambda-ring]], [[symmetric function]], [[formal group]]
 
 * [[principal bundle]], [[torsor]], [[vector bundle]], [[Atiyah Lie algebroid]]
