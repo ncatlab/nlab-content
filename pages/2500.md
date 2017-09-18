@@ -229,12 +229,13 @@ In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spi
 
 * [[special geometry]]
 
-* [[torsion constaints in supergravity]]
+* [[torsion constraints of supergravity]]
 
 * [[D'Auria-Fre formulation of supergravity]]
 
 * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
+* [[cosmic inflation]] and [[supersymmetry breaking]] via [[higher curvature corrections]] of supergravity are discussed in the context of the [[Starobinsky model of cosmic inflation]]
 
 [[!include table of branes]]
 
