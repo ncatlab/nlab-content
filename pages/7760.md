@@ -73,7 +73,8 @@ For an infinite cardinal $\kappa$, the theory $\mathbf{T}$ is _$\kappa$-stable_ 
 
 * [[M. Makkai]], _A survey of basic stability theory, with particular emphasis on orthogonality and regular types_, Israel J. Math. __49__, n.1-3 (1984), 181-238, [doi](http://dx.doi.org/10.1007/BF02760649)
 
-* John T. Baldwin, _Fundamentals of stability theory_, Perspectives in Math. Logic, Springer 1988
+* John T. Baldwin, _Fundamentals of stability theory_, Perspectives in Math. Logic vol. 12 Springer Heidelberg 1988. ([toc](http://projecteuclid.org/euclid.pl/1235414194#toc))
+
+* Steven Buechler, _Essential Stability Theory_ , Perspectives in Math. Logic vol. 4  Springer Heidelberg 1996. ([toc](http://projecteuclid.org/euclid.pl/1235420888#toc))
 
 * Gregory L. Cherlin, Review of _Fundamentals of stability theory_, Bull. AMS, Vol. 20 No. 2 (April 1989), 185-190. 
-
