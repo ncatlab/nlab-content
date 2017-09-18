@@ -98,6 +98,8 @@ Let $\mathcal{C}$ be a finitely complete category. An [[level|essential localiza
 
 A trivial example of a quintessential localization is provided by $id_\mathcal{C}$.
 
+Another simple _example_ of a quintessential localization is given by the category $\mathcal{C}$ with objects pairs $(X, e)$ where $X$ is set and $e=e^2$ an idempotent map $X\to X$. A morphism $f:(X_1, e_1)\to(X_2, e_2)$ is a function $f:X_1\to X_2$ with $f\cdot e_1=e_2\cdot f$. Then the fixpoint set functor $r:\mathcal{C}\to Set$ with $r(X, e)=\{x\in X | e(x)=x \}$ is left as well as right adjoint to $i(X)=(X, id_X)$. Of course, $\mathcal{C}$ is up to equivalence just the category $\mathcal{S}^{\mathbb{F}_1^{op}}$ from above!
+
 To say that $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ is a quintessential localization amounts to say that $i:\mathcal{L}\to\mathcal{C}$ exhibits $\mathcal{C}$ as a quality type over $\mathcal{L}$ with $r$ providing the right adjoint to $i\simeq l$ (provided $\mathcal{L}$, $\mathcal{C}$ are extensive).
 
 Note that a quintessential subtopos is [[dense subtopos|dense]] since $i$ is up to natural isomorphism a left adjoint whence preserves all colimits and the initial object in particular!
@@ -149,7 +151,7 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 
 * {#JS11} [[Peter Johnstone|P. Johnstone]], _Remarks on Punctual Local Connectedness_ , TAC **25** no.3 (2011) pp.51-63. ([pdf](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 
-* {#J02} [[Peter Johnstone|P. Johnstone]], _Sketches of an Elephant vol. 1_ , Cambridge UP 2002.
+* {#J02} [[Peter Johnstone|P. Johnstone]], _Sketches of an Elephant vol. 1_ , Cambridge UP 2002. (pp.202,380)
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
