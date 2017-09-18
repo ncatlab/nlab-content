@@ -109,7 +109,7 @@ $$
   S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})
 $$
 
-as the [[unit sphere]] inside the [[direct sum]] (as [[real vector spaces]]) of the [[real numbers]] with the [[quaternions]]. This induces a [[circle action]] on $S^4$ via the canonical circle action by multiplication with quaternions from the lft via $S^1 ) U(1) \hookrightarrow SU(2) \hookrightarrow \mathbb{H}$.
+as the [[unit sphere]] inside the [[direct sum]] (as [[real vector spaces]]) of the [[real numbers]] with the [[quaternions]]. This induces a [[circle action]] on $S^4$ via the canonical circle action by multiplication with quaternions from the left via $S^1 \simeq U(1) \hookrightarrow SU(2) \hookrightarrow \mathbb{H}$.
 
 =--
 
