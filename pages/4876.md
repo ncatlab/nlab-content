@@ -420,3 +420,6 @@ The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] 
 
 [[!redirects WZW gerbe]]
 [[!redirects WZW gerbes]]
+
+[[!redirects Wess-Zumino-Witten sigma model]]
+[[!redirects Wess-Zumino-Witten sigma models]]
