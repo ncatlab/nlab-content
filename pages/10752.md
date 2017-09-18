@@ -39,9 +39,12 @@ See at the following entries:
 
 ## References
 
-* A. Elmendorf, [[Igor Kriz]], [[Peter May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
-* A. Elmendorf, [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], *Rings, modules and algebras in stable homotopy theory* (aka "EKMM")
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], *Rings, modules and algebras in stable homotopy theory* (aka "EKMM")
+
+* {#Schwede12} [[Stefan Schwede]], p.214-216 of _[[Symmetric spectra]]_ (2012)
+
 
 [[!redirects highly structured spectra]]
 
