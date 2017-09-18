@@ -7,10 +7,10 @@ formalization of [[mathematics]] without [[foundations|foundational]] prejudice.
 
 ## References
 
-[The Automath Archive](http://www.win.tue.nl/automath/)
+* [The Automath Archive](http://www.win.tue.nl/automath/)
 
-[Automath Restaurant](https://cs.ru.nl/~freek/zfc-etc/) has examples of different foundations of mathematics encoded in Automath.
+* [Automath Restaurant](https://cs.ru.nl/~freek/zfc-etc/) has examples of different foundations of mathematics encoded in Automath.
 
-[`aut`](http://www.cs.ru.nl/~freek/aut/) An implementation in ANSI C.
+* [`aut`](http://www.cs.ru.nl/~freek/aut/) - An implementation in ANSI C.
 
 category: software
