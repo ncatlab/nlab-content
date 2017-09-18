@@ -5,7 +5,7 @@
 
 ## Definition
 
-There are two different meansing of the term _coefficient_ in mathematics, one
+There are two different meanings of the term _coefficient_ in mathematics, one
 
 * [In algebra and analysis](#InAlgebraAndAnalysis)
 
@@ -13,7 +13,7 @@ and one
 
 * [In cohomology and homology](#InCohomologyAndHomology).
 
-The two notion do however conincide for [[ordinary homology]]/[[ordinary cohomology]] expressed as [[singular homology]]/[[singular cohomology]]. See remark \ref{RelationInSingularCoHomology} below.
+The two notion do however coincide for [[ordinary homology]]/[[ordinary cohomology]] expressed as [[singular homology]]/[[singular cohomology]]. See remark \ref{RelationInSingularCoHomology} below.
 
 
 
