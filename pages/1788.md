@@ -1,0 +1,48 @@
+
+$$
+  \array{
+    \overline{E}^{s+1}
+      &\overset{i}{\longrightarrow}&
+    \overline{E}^s
+      &\longrightarrow&
+    E \wedge \overline{E}^s
+      &\longrightarrow&
+    \Sigma \overline{E}^{s+1}
+    \\
+    {}^{\mathllap{=}}\downarrow
+      &&
+    \downarrow^{\mathrlap{i^s}}
+      &&
+    \downarrow^{\mathrlap{u}}
+      &&
+    \downarrow
+    \\
+    \overline{E}^{s+1}
+      &\longrightarrow& 
+    \mathbb{S}
+      &\longrightarrow&
+    \overline{E}_s
+      &\longrightarrow&
+    \Sigma \overline{E}^{s+1}
+    \\
+    &&
+    \downarrow 
+      &&
+    \downarrow^{\mathrlap{v}}
+    \\
+      &&
+    \overline{E}_{s-1}
+      &\overset{\simeq}{\longrightarrow}&
+    \overline{E}_{s-1}
+    \\
+    &&
+    \downarrow 
+      &&
+    \downarrow
+    \\
+      &&
+    \Sigma \overline{E}^s
+      &\longrightarrow&
+     \Sigma E \wedge \overline{E}^s
+  }
+$$
