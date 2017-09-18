@@ -2011,12 +2011,12 @@ $$
   f \;\colon\; X \longrightarrow Y
 $$
 
-be a [[continuous function]] which is a [[homotopy equivalence]]. Then 
+be a [[continuous function]] which is a [[homotopy equivalence]]. Then
 pullback along $f$ constitutes a [[bijection]] on sets of isomorphism classes
 of topological vector bundles:
 
 $$
-  f^\ast  
+  f^\ast
    \;\colon\;
   Vect(Y)/_\sim
     \overset{\simeq}{\longrightarrow}
@@ -2126,12 +2126,12 @@ of the vector bundles restricted to $U$.
 +-- {: .proof}
 ###### Proof
 
-A bundle isomorphism $E_1\vert_A \simeq E_2\vert_A$ is equivalently a trivializing section 
-(example \ref{FiberwiseLinearlyIndependentSectionsTrivialize}) of the 
+A bundle isomorphism $E_1\vert_A \simeq E_2\vert_A$ is equivalently a trivializing section
+(example \ref{FiberwiseLinearlyIndependentSectionsTrivialize}) of the
 [[tensor product of vector bundles]] $(E_1\vert_A)^\ast \otimes_A E_2\vert_A$ of $E_2\vert A$ with with the [[dual vector bundle]] $(E_2\vert_A)^\ast$.
 (by [this prop.](tensor+product+of+vector+bundles#FinitrRankBundleHomomorphismIsSectionOfTensorProductWithDual)).
 
-Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$ over which this tensor product bundle trivializes with 
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$ over which this tensor product bundle trivializes with
 trivializations
 
 $$
@@ -2145,7 +2145,7 @@ $$
 
 By compactness of $X$, we may assume that $I$ is a [[finite set]].
 Then a trivializing section $\sigma \in \Gamma_A( (E_1\vert_A)^\ast \otimes_A E_2 \vert_A )$ as above is on each $U_i \cap A$
-a [[continuous function]] 
+a [[continuous function]]
 
 $$
  \sigma_i
@@ -2160,7 +2160,7 @@ $$
   \,.
 $$
 
-Regarded as a function 
+Regarded as a function
 to the $n \times n$ [[matrices]], this is a set of $n^2$ [[continuous function]] $((\sigma_i)_{a b})$
 
 Since [[compact Hausdorff spaces are normal]] the [[Tietze extension theorem]] applies to these component functions and yields
@@ -2186,15 +2186,15 @@ $$
 Summing these up yields a single section $\hat \sigma$ of $E_1^\ast \otimes_X E_2$
 
 $$
-  \sigma 
-    \coloneqq 
-  \sum_{i \in I} 
+  \sigma
+    \coloneqq
+  \sum_{i \in I}
   \phi_i^{-1}(f_i \cdot \hat \sigma_i)
-  \in 
-  \Gamma_X(E_1^\ast \otimes_X E_2)  
+  \in
+  \Gamma_X(E_1^\ast \otimes_X E_2)
 $$
 
-which by construction is an [[extension]] of the original section, in that 
+which by construction is an [[extension]] of the original section, in that
 
 $$
   \hat \sigma\vert_A = \sigma
@@ -2211,21 +2211,22 @@ $$
 $$
 
 is hence an open subset containing $A$ such that $(E_1^\ast \otimes_X E_2)\vert_U$ has a trivializing section,
-extending $\sigma$, hence such that there is an isomorphism $E_1\vert_U \simeq E_2 \vert_U$ extending the 
-original isomorphism on $A$. 
+extending $\sigma$, hence such that there is an isomorphism $E_1\vert_U \simeq E_2 \vert_U$ extending the
+original isomorphism on $A$.
 
 
 =--
 
+As a consequence:
 
 +-- {: .num_prop #VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace}
 ###### Proposition
-**(vector bundle trivial over closed subspace of compact Hausdorff space is pullback of bundle on quotient space)**
+**([[vector bundle]] [[trivial vector bundle|trivial]] over [[closed subspace]] of [[compact Hausdorff space]] is [[pullback bundle|pullback]] of bundle on [[quotient space]])**
 
 Let $X$ be a [[compact Hausdorff space]] and let $A \subset X$ be a [[closed subspace]].
 
 If a topological vector bundle $E \overset{p}{\to} X$ is such that its restriction $E\vert_A$
-is [[trivializable vector bundle|trivializable]], then $E$ is [[isomorphism|isomorphic]] to 
+is [[trivializable vector bundle|trivializable]], then $E$ is [[isomorphism|isomorphic]] to
 the [[pullback bundle]] $q^\ast E'$ of a topological vector bundle $E' \to X/A$
 over the [[quotient space]]..
 
@@ -2234,16 +2235,16 @@ over the [[quotient space]]..
 +-- {: .proof}
 ###### Proof
 
-Let 
+Let
 
 $$
   A \times k^n
     \overset{\phi}{\longrightarrow}
-  E\vert_A 
+  E\vert_A
 $$
 
 be an isomorphism of vector bundles over $A$, which exists by assumption.
-Consider then on the total space $E\vert_A$ the [[equivalence relation]] given by 
+Consider then on the total space $E\vert_A$ the [[equivalence relation]] given by
 
 $$
   \phi(x,v) \sim \phi(x',v)
@@ -2255,13 +2256,13 @@ $$
   E' \coloneqq E/\sim
 $$
 
-be the corresponding [[quotient topological space]]. Since the composite continuous function 
+be the corresponding [[quotient topological space]]. Since the composite continuous function
 
 $$
   E \overset{p}{\longrightarrow} X \overset{q}{\longrightarrow} X/A
-$$ 
+$$
 
-respects the equivalence relation (in that it sends any two equivalent points to the same image point) 
+respects the equivalence relation (in that it sends any two equivalent points to the same image point)
 the [[universal property]] of the quotient space yields
 a continuous function
 
@@ -2278,7 +2279,7 @@ $$
     {}^{\mathllap{p}}\downarrow && \downarrow^{\mathrlap{p'}}
     \\
     X &\overset{q}{\longrightarrow}& X/A
-  }  
+  }
   \,.
 $$
 
@@ -2288,14 +2289,14 @@ Hence it only remains to see that $E' \overset{p'}{\longrightarrow} X/A$ is a ve
 fiberwise linearity is clear, we need to show that it is locally trivializable.
 
 To that end, let $\{U_i \subset X\}_{i \in I}$ be an open cover over which $E \overset{p}{\to} X$
-has a local trivialization. Since $A \subset X$ is assumed to be closed, it follows that 
+has a local trivialization. Since $A \subset X$ is assumed to be closed, it follows that
 
 $$
   \left\{ U_i \setminus A \subset X \setminus A\right\}_{i \jn I}
 $$
 
-is an open cover of the complement of $A$ in $X$. By the nature of the [[quotient space topology]], this 
-induces an open cover of $X\setminus A$ if we adjoin the quotient $U/A$  of an open neighbourhood $U \subset X$ of $A$ in $X$, 
+is an open cover of the complement of $A$ in $X$. By the nature of the [[quotient space topology]], this
+induces an open cover of $X\setminus A$ if we adjoin the quotient $U/A$  of an open neighbourhood $U \subset X$ of $A$ in $X$,
 then
 
 $$
@@ -2304,8 +2305,18 @@ $$
 
 is an open cover of $X/A$. Moreover, by the construction of $E' \overset{p'}{\to} X/A$ it is clear that
 this bundle has a local trivialization over $U_i$, since $E \overset{p}{\to} X$ does,
-and similarly $E''$ trivializes over $U/A$ if $X$ trivializes over $U$. But such a $U$ does indeed exist by 
+and similarly $E''$ trivializes over $U/A$ if $X$ trivializes over $U$. But such a $U$ does indeed exist by
 lemma \ref{IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtendsToOpenNeighbourhoods}.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+Prop \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace} is the reason why [[reduced K-theory|reduced]] [[topological K-theory]]
+satisfies the [[long exact sequences in cohomology]] that make it a [[generalized (Eilenberg-Steenrod) cohomology theory]].
+See at _[[topological K-theory]]_
 
 =--
 
@@ -2333,7 +2344,7 @@ is an [[isomorphism]].
 ###### Proof
 
 By example \ref{TopologicalVectorBundleOverContractibleSpaceIsTrivializable} every vector bundle
-$E \overset{p}{\to} X$ is trivializable over the contractible subspace $A$. 
+$E \overset{p}{\to} X$ is trivializable over the contractible subspace $A$.
 Therefore prop. \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace}
 implies that it is in the image of the pullback bundle map $q^\ast$. This says that $q^\ast$
 is surjective. Finally, it is clear that it is injective. Therefore it is bijective.
