@@ -125,6 +125,8 @@ This is a semi-norm on $V$.
 
 ## References
 
+* Wikipedia, _[Normed vector space](https://en.wikipedia.org/wiki/Normed_vector_space)_
+
 * {#BoschGuntzerRemmert84} [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
 
 
