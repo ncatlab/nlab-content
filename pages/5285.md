@@ -25,6 +25,8 @@ a **singular $n$-[[chain]]** on $X$ is a [[formal linear combination]] of [[sing
 
 Singular homology of a topological space conincide with its [[ordinary homology]] as defined more abstractly (see at [[generalized homology theory]]).
 
+(Here "singular" refers to the contrast with [[cellular homology]], referring to the fact that a [[simplex]] $\Delta_{top} \to X$ in the [[singular simplicial complex]] is not required to be a [[topological embedding]], but may be a "singular map", such as for instance a [[constant function]].)
+
 ## Definition
  {#Definition}
 
@@ -643,6 +645,8 @@ Singular homology computes the [[generalized homology]] with coefficients in the
 * The analogous notion in [[algebraic geometry]] is given by [[Chow groups]].
 
 * [[Kan-Thurston theorem]]
+
+* [[Borel-Moore homology]]
 
 ## References
 
