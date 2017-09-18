@@ -160,6 +160,11 @@ $$Kl(\beta)^{op} \to C$$
 
 where $Kl(\beta)$ is the [[Kleisli category]] (or the full category of compact Hausdorff spaces whose objects are of the form $\beta S$). 
 
+## Number of ultrafilters 
+
+If $X$ is a [[finite set]], then all ultrafilters on $X$ are principal and the number of them is the cardinality of $X$. 
+
+If $X$ is an [[infinite set]] of cardinality $\kappa$, then the number of ultrafilters on $X$ is $2^{2^\kappa}$. A proof may be found at [[independent family of sets]]. 
 
 ## References 
 
