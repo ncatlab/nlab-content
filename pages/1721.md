@@ -79,7 +79,7 @@ For these reasons, in the following we stick to two points of views: where we di
 
 Throughout, write [[Top]]${}_{CW}$ for the category of [[topological spaces]] [[homeomorphism|homeomorphic]] to [[CW-complexes]]. Write $Top^{\ast/}_{CW}$ for the corresponding category of [[pointed topological spaces]]. 
 
-Recall that [[colimits]] in $Top^{\ast/}$ are computed as colimits in $Top$ after adjoining the base point and its inclusion maps top the given diagram
+Recall that [[colimits]] in $Top^{\ast/}$ are computed as colimits in $Top$ after adjoining the base point and its inclusion maps to the given diagram
 
 +-- {: .num_example #WedgeSumAsCoproduct}
 ###### Example
@@ -157,15 +157,15 @@ such that:
 
 We say $\tilde E^\bullet$ is **additive** if in addition
 
-* **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
+* **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical comparison morphism
 
   $$
     \tilde E^\bullet(\vee_{i \in I} X_i) 
-    \longrightarrow
+     \longrightarrow
     \prod_{i \in I} \tilde E^\bullet(X_i)
   $$
 
-  from the functor applied to their [[wedge sum]], example \ref{WedgeSumAsCoproduct}, to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
+  is an [[isomorphism]], from the functor applied to their [[wedge sum]], example \ref{WedgeSumAsCoproduct}, to the [[product]] of its values on the wedge summands, .
 
 We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$ is concentrated in degree 0:
 
@@ -351,7 +351,13 @@ such that:
 
 We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[products]]:
 
-* **(additivity)** If $ (X, U) = \coprod_i (X_i, U_i)$, then the canonical comparison morphism gives $E^n(X, U) \simeq \prod_i E^n(X_i, U_i)$.
+* **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism 
+
+  $$
+    E^n(X, A) \overset{\simeq}{\longrightarrow} \prod_i E^n(X_i, A_i)
+  $$
+
+  is an [[isomorphism]] from the value on $(X,A)$ to the [[product]] of values on the summands.
 
 We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in degree 0
 
