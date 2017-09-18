@@ -127,11 +127,11 @@ $$
   }
 $$
 
-and then lifting in 
+and then lifting (here: [[extension|extending]]) in 
 
 $$
   \array{ 
-    Q X &\longrightarrow& R Q Y
+    Q X &\overset{j_{Q Y} \circ Q f}{\longrightarrow}& R Q Y
     \\
     {}^{\mathllap{j_{Q X}}}\downarrow &{}^{R Q f}\nearrow& \downarrow^{\mathrlap{q_{Q Y}}}
     \\
@@ -144,8 +144,8 @@ $$
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_lemma #ConstructionOfLocalizationFunctorForModelCategoryIsWellDefined}
+###### Lemma
 
 The construction in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} is indeed well defined.
 
@@ -177,15 +177,63 @@ $$
   \array{
     Q X \sqcup Q X &\stackrel{((Q f)_1, (Q f)_2 )}{\longrightarrow}& Q Y
     \\
-    \downarrow && \downarrow^{\mathrlap{p_{Y}}}
+    {}^{\mathllap{\in W \cap Cof}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{p_{Y}}}_{\mathrlap{\in Fib}}
     \\
     Cyl(Q X)
     &\underset{f \circ p_{X} \circ \sigma_{Q X}}{\longrightarrow}& 
     Y
   }
+  \,.
 $$
 
-(...)
+Hence also the composites $j_{Q Y}\circ (Q_f)_i $ are [[left homotopy|left homotopic]] to each other, and since their domain is cofibrant, they are also [[right homotopy|right homotopic]] (via [this](homotopy+in+a+model+category#LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually) lemma) by a right homotopy $\kappa$. This implies finally, by lifting in
+
+$$
+  \array{
+    Q X &\overset{\kappa}{\longrightarrow}& Path(R Q Y)
+    \\
+    {}^{\mathllap{\in W \cap Cof}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{\in Fib}}
+    \\
+    R Q X &\underset{(R (Q f)_1, R (Q f)_2)}{\longrightarrow}&
+    R Q Y \times R Q Y
+  }
+$$
+
+that also $R (Q f)_1$ and $R (Q f)_2$ are right homotopic, hence that indeed $R Q f$ represents a well-defined [[homotopy class]].
+
+Finally to see that the assignment is indeed [[functor|functorial]] observe that the commutativity of the lifting diagrams for $Q f$ and $R Q f$ imply that also the following diagram commutes
+
+$$
+  \array{
+    X &\overset{p_X}{\longleftarrow}& Q X &\overset{j_{Q X}}{\longrightarrow}& R Q X
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{R Q f}}
+    \\
+    Y &\underset{p_y}{\longleftarrow}& Q Y &\underset{j_{Q Y}}{\longrightarrow}& Q Y
+  }
+$$
+
+and hence that the [[pasting]] composite commutes
+
+$$
+  \array{
+    X &\overset{p_X}{\longleftarrow}& Q X &\overset{j_{Q X}}{\longrightarrow}& R Q X
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{R Q f}}
+    \\
+    Y &\underset{p_Y}{\longleftarrow}& Q Y &\underset{j_{Q Y}}{\longrightarrow}& Q Y
+    \\
+    {}^{\mathllap{g}}\downarrow && \downarrow^{\mathrlap{Q g}} && \downarrow^{\mathrlap{R Q g}}
+    \\
+    Z &\underset{p_Z}{\longleftarrow}& Q Z &\underset{j_{Q Z}}{\longrightarrow}& Q Z
+  }
+  \,.
+$$
+
 
 =--
 
@@ -196,7 +244,40 @@ For $\mathcal{C}$ a [[model category]], the functor in def. \ref{FibrantCofibran
 
 =--
 
-(...)
++-- {: .proof}
+###### Proof
+
+First to see that that $\gamma$ indeed takes weak equivalences to isomorphisms, observe that by [[two-out-of-three]] applied to the [[commuting diagrams]] shown in the proof of lemma \ref{ConstructionOfLocalizationFunctorForModelCategoryIsWellDefined} that $R Q f$ is a weak equivalence if $f$ is:
+
+$$
+  \array{
+    X &\underoverset{\simeq}{p_X}{\longleftarrow}& Q X &\underoverset{\simeq}{j_{Q X}}{\longrightarrow}& R Q X
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{R Q f}}
+    \\
+    Y &\underoverset{p_y}{\simeq}{\longleftarrow}& Q Y &\underoverset{j_{Q Y}}{\simeq}{\longrightarrow}& Q Y
+  }
+$$
+
+With this the "Whitehead theorem for model categories", prop. \ref{WhiteheadTheoremInModelCategories} implies that $R Q f$ represents an isomorphism in $Ho(\mathcal{C})$.
+
+Now let $F \colon \mathcal{C}\longrightarrow D$ be any other functor that sends weak equivalences to isomorphisms. Inspection shows that it factors uniquely as $F \simeq \tilde F\circ \gamma_{R, Q} $ for $\tilde F(f)$ given by
+
+$$
+  \array{
+    X &\overset{F(p_X)^{-1}}{\longrightarrow}& X &\overset{F(j_{Q X})}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\tilde F(f)}}\downarrow && && \downarrow^{\mathrlap{F(f)}}
+    \\
+    Y &\underset{F(p_y)}{\longleftarrow}& Y &\underset{F(j_{Q Y})^{-1}}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+
+
+=--
+
 
 ## References
 
