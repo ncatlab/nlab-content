@@ -28,7 +28,7 @@ The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifo
 
 [[!include N=1 susy compactifications -- table]]
 
-In order for this to yield [[phenomenology|phenomenologically]] interesting effective physics the compactification space must be an [[orbifold]] (hence an orbifold of [[special holonomy]]), its [[stabilizer groups]] will encode the [[nonabelian group|nonabelian]] [[gauge group]] of the effective theory by "[[geometric engineering of quantum field theory]]" ([Acharya 98](#Acharya98), [Atiyah-Witten 01, section 6](#AtiyahWitten01)). Specifically for discussion of [[string phenomenology]] obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
+In order for this to yield [[phenomenology|phenomenologically]] interesting effective physics the compactification space must be a [[G2-orbifold]] (hence an orbifold of [[special holonomy]]), its [[stabilizer groups]] will encode the [[nonabelian group|nonabelian]] [[gauge group]] of the effective theory by "[[geometric engineering of quantum field theory]]" ([Acharya 98](#Acharya98), [Atiyah-Witten 01, section 6](#AtiyahWitten01)), see [below](#EnhancedGaugeGroups). Specifically for discussion of [[string phenomenology]] obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
 
 ## Details
  {#G2Manifolds}
