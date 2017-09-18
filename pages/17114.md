@@ -40,6 +40,30 @@ Similarly the [[symmetric smash product of spectra]] on the [[model structure fo
 
 See also at _[[functor with smash products]]_.
 
+## Properties
+
+### Graded commutativity
+
+The smash product of spectra exhibits a certain graded commutativity akin to, but more subtle than, the graded commutativity in the [[tensor product of chain complexes]] (in fact, under the [[stable Dold-Kan correspondence]] the latter maps to the former).
+
+This comes down to the following basic fact about the [[smash product]] of [[pointed topological spaces]]:
+
+under a fixed identification $S^2 \simeq S^1 \wedge S^1$ then the symmetry [[homeomorphism]] $\tau \colon S^1 \wedge S^1 \longrightarrow S^1 \wedge S^1$ is identified with a map $S^2 \longrightarrow S^2$ of [[degree of a continuous function|degree]] $-1$
+
+$$
+  \array{
+    S^1 \wedge S^1 \stackrel{\tau}{\longrightarrow} S^1 \wedge S^1
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    S^2 &\stackrel{-1}{\longrightarrow} & S^2 
+  }
+  \,.
+$$
+
+
+
+
 ## Definitions
 
 * _[smash product of excisive functors](model+structure+for+excisive+functors#SmashProduct)_
