@@ -300,9 +300,8 @@ then $\mathcal{C}_Q$, def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuill
 
 =--
 
-([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01))
+([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01), [Goerss-Jardine 96, lemma 4.5, lemma 4.6](#GoerssJardine96))
 
-Warning: this proof assumes that $\mathcal{C}$ admits [[functorial factorization]].
 
 +-- {: .proof}
 ###### Proof
@@ -312,63 +311,107 @@ The [[two-out-of-three]] poperty for $Q$-weak equivalences is an immediate conse
 
 Moreover, according to lemma \ref{FirstLemmaForBousfieldFriedlander} the pair of classes $(Cof_{Q}, W_Q \cap Fib_Q)$ equals the pair $(Cof, W \cap Fib)$, and this is a [[weak factorization system]] by the model structure $\mathcal{C}$.
 
-Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]].
+Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]]. The lifting property here holds by definition of $Fib_Q$. We conclude by showing the existence of factorizations:
 
-Regarding factorization:
+First we consider the case of morphisms of the form $f \colon Q(Y) \to Q(Y)$. This may be factored with respect to $\mathcal{C}$ as
 
-Let $f \colon X \longrightarrow Y$ be any morphism. Application of functorial fibrant replacement to $Q(f) \to \widehat{Q(f)}$ and composition with $\eta_f$ yields a diagram 
+$$
+  f 
+  \;\colon\;
+  Q(X)
+    \underoverset{\in W \cap Cof}{\in i}{\longrightarrow}
+  Z
+    \underoverset{\in Fib}{p}{\longrightarrow}
+  Q(Y)
+  \,.
+$$
+
+Here $i$ is already a $Q$-acyclic $Q$-cofibration. Now apply $Q$ to obtain
 
 $$
   \array{
-     X &\underoverset{}{\eta_X}{\longrightarrow}& Q(X) &\underoverset{W\cap Cof}{u}{\longrightarrow}& \widehat{Q(X)}
-     \\
-     \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{Q(f)}} && \downarrow^{\mathrlap{{\widehat{Q(f)} \atop {\in Fib}}}}
-     \\
-     Y &\underoverset{}{\eta_Y}{\longrightarrow}& Q(Y) &\underoverset{W\cap Cof}{v}{\longrightarrow}& \widehat{Q(Y)}
+  f 
+  \colon
+  &
+  Q(X)
+    &\underoverset{\in W \cap Cof}{i}{\longrightarrow}&
+  Z
+    &\underoverset{\in Fib}{p}{\longrightarrow}&
+  Q(Y)
+  \\
+  &
+  \downarrow^{\mathrlap{\eta_{Q(X)}}}_{\mathrlap{\in W}} 
+    && 
+  \downarrow^{\mathrlap{\eta_Z}} 
+    && 
+  \downarrow^{\mathrlap{\eta_{Q(Y)}}}_{\mathrlap{\in W}}
+  \\
+  &
+  Q(Q(X))
+    &\underoverset{Q(i)}{\in W}{\longrightarrow}&
+  Z
+    &\underset{}{\longrightarrow}&
+  Q(Y)
   }
+  \,,
+$$
+
+where $\eta_{Q(X)}$ and $\eta_{Q(Y)}$ are weak equivalences by idempotency, and $Q(i)$ is a weak equivalence since $Q$ preserves weak equivalences. Hence by [[two-out-of-three]] also $\eta_Z$ is a weak equivalence. Therefore lemma \ref{SecondLemmaForBousfieldFriedlander} gives that $p$ is a $Q$-fibration, and hence the above factorization is already as desired
+
+$$
+  f 
+  \;\colon\;
+  Q(X)
+    \underoverset{\in W_Q \cap Cof_Q}{\in i}{\longrightarrow}
+  Z
+    \underoverset{\in Fib_Q}{p}{\longrightarrow}
+  Q(Y)
   \,.
 $$
 
-Since $u$ is a weak equivalence, using the weak idempotency of $Q$ and [[two-out-of-three]] in the naturality square of $\eta$ on $u$ gives that $\eta_{\widehat{Q(X)}}$ is a weak equivalence. By the same argument $\eta_{\widehat{Q(Y)}}$ is a weak equivalence. From this, lemma \ref{SecondLemmaForBousfieldFriedlander} gives that $\widehat{Q(f)}$ is a $Q$-fibration.
-
-Next, observe that the total bottom morphism $v \circ \eta_X$ is a $Q$-equivalence by the first two conditions on $Q$. Hence the third condition on $Q$ says that the pullback $\widehat{Q(f)}^\ast(v \circ \eta_X) \colon E \to \widehat{Q(X)}$ is also a $Q$-equivalence
+Now for $g$ an arbitrary morphism $g \colon X \to Y$, form a factorization of $Q(g)$ as above and then decompose the naturality square for $\eta$ on $f$ into the pullback of the resulting $Q$-fibration along $\eta_Y$:
 
 $$
   \array{
-     E &\underoverset{\in W_Q}{}{\longrightarrow}& \widehat{Q(X)}
-     \\
-     {}^{\mathllap{g \atop {\in Fib_Q}}}\downarrow &(pb)& \downarrow^{\mathrlap{\widehat{Q(f)}}}
-     \\
-     Y &\underset{v \circ \eta_X}{\longrightarrow}& \widehat{Q(Y)}
-  }
-  \,.
-$$
-
-Then by [[two-out-of-three]] for $Q$-weak equivalences, the induced morphism $X \to E$ is a $Q$-weak equivalence, so by the previous factorization statement it factors as
-
-$$
-  X 
-    \overset{W_Q \cap Cof_Q}{\longrightarrow} 
-  D
-    \stackrel{W_Q \cap Fib_Q}{\longrightarrow} 
-  E
-  \,.
-$$
-
-The resulting composite
-
-$$
-  f  
-    \;\colon\;
+    g \colon
+    & 
     X 
-      \overset{W_Q \cap Cof_Q}{\longrightarrow} 
-    D
-      \stackrel{W_Q \cap Fib_Q}{\longrightarrow} 
-      \underoverset{g}{Fib_Q}{\longrightarrow}
+      &\overset{\tilde i}{\longrightarrow}&
+    Z \underset{Q(Y)}{\times} Y
+      &\overset{\tilde p}{\longrightarrow}&
     Y
+    \\
+    &
+    {}^{\mathllap{\eta_X}}_{\mathllap{\in W_Q}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\eta'}}_{\mathrlap{}} 
+      &(pb)& 
+    \downarrow^{\mathrlap{\eta_Y}}_{\mathrlap{\in W_Q}}
+    \\
+    Q(g)
+    \colon
+    &
+    Q(Y)
+      &\underoverset{i}{\in W_Q}{\longrightarrow}& 
+    Z
+      &\underoverset{p}{\in Fib_Q}{\longrightarrow}&
+    Q(Y)
+  }
+  \,.
 $$
 
-is the desired factorization.
+This exhibits $\eta'$ as the pullback of a $Q$-weak equivalence along a $Q$-fibration, and hence itself as a $Q$-weak equivalence. This way, [[two-out-of-three]] implies that $\tilde i$ is a $Q$-weak equivalence.
+
+Finally, apply factorization in $(Cof,\; W\cap Fib)$ to $\tilde i$ to obtain the desired factorization
+
+$$
+  f 
+    \;\colon\;
+  \overset{W_Q \cap Cof}{\longrightarrow}
+  \overset{W \cap Fib = W_Q \cap Fib_Q}{\longrightarrow}
+  \overset{Fib_Q}{\longrightarrow}
+  \,.
+$$
 
 =--
 
