@@ -15,7 +15,7 @@ is also in $\mathcal{F}$ (i.e. $\mathcal{F}$ is a [[uniform filter]]) and if $J\
 
 The ordering is the reverse inclusion, thus the intersection is the supremum. The intersection of topologizing filters is topologizing, the lattice is complete and the product is the [[Gabriel multiplication]]
 
-$$\mathcal{F}\bullet \mathcal{G} = \{ K\in I_r R\,|\,\exists L\in\mathcal{G}, \forall r\in R, (I:r)\in\mathcal{F}\} $$
+$$\mathcal{F}\bullet \mathcal{G} = \{ K\in I_r R\,|\,\exists L\in\mathcal{G}, L\subset K, \forall r\in R, (K:r)\in\mathcal{F}\} $$
 
 The operation $\bullet$ preserves arbitrary intersections in the right variable. 
 
