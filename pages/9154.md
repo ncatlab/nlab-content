@@ -12,13 +12,13 @@ For $V$ a [[vector space]] and $r$ a [[cardinal number]] (generally taken to be 
 
 For $n \in \mathbb{N}$, write $O(n)$ for the [[orthogonal group]] acting on $\mathbb{R}^n$. More generally, say that a [[Euclidean space|Euclidean]] [[vector space]] $V$ is an [[inner product space]] such that there exists a [[linear map|linear]] [[isometry]] $V \overset{\simeq}{\to} \mathbb{R}^n$ to $\mathbb{R}^n$ equipped with its canonical inner product. Then write $O(V)$ for the group of linear isometric [[automorphisms]] of $V$. For the following we regard these groups as [[topological groups]] in the canonical way.
 
-+-- {: .num_defn}
++-- {: .num_defn #RealAndComplexGrassmannian}
 ###### Definition
 
 For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **Grassmannian** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
 
 $$
-  Gr_n(k) \coloneqq O(k)/(O(n) \times O(k-n))
+  Gr_n(\mathbb{R}^k) \coloneqq O(k)/(O(n) \times O(k-n))
   \,,
 $$
 
@@ -62,6 +62,31 @@ $$
 
 is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(k)\times_{O(n)} \mathbb{R}^n$ a [[vector bundle]] of [[rank]] $n$. In the limit ([[colimit]]) that $k \to \infty$ is this gives a presentation of the $O(n)$-[[universal principal bundle]] and of the [[universal vector bundle]] of rank $n$, respectively.. The base space $Gr_n(\infty)\simeq_{whe} B O(n)$ is the [[classifying space]] for $O(n)$-[[principal bundles]] and rank $n$ vector bundles.
 
+### CW-complex structure
+
++-- {: .num_prop #CWComplexStructure}
+###### Proposition
+
+The real Grassmannians $Gr_n(\mathbb{R}^k)$ and the complex Grassmannians $Gr_n(\mathbb{C}^k)$ admit the structure of [[CW-complexes]]. Moreover the canonical inclusions
+
+$$
+  Gr_n(\mathbb{R}^k)
+  \hookrightarrow
+  Gr_n(\mathbb{R}^{k+1})
+$$
+
+are subcomplex incusion (hence [[relative cell complex]] inclusions).
+
+Accordingly there is an induced CW-complex structure on the [[classifying space]]
+
+$$
+  B O(n) \simeq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
+  \,.
+$$
+
+=--
+
+A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](#Hatcher)).
 
 
 ## Examples
@@ -98,6 +123,8 @@ If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines
 Textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* {#Hatcher} [[Alan Hatcher]], section 1.2 of _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
 category: geometry, algebra
 
