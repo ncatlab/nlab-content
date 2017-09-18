@@ -18,10 +18,10 @@
 An [[action]]
 
 $$
-  \rho : G \times X \to X
+  * : G \times X \to X
 $$
 
-of a group $G$ on a set $X$ is **regular** if it is both [[transitive action|transitive]] and [[free action|free]], that is, if for any pair of elements $x,y \in X$, there is _exactly one_ group element $g \in G$ such that $g x = y$.
+of a group $G$ on a set $X$ is **regular** if it is both [[transitive action|transitive]] and [[free action|free]], that is, if for any pair of elements $x,y \in X$, there is _exactly one_ group element $g \in G$ such that $g * x = y$.
 
 ## Properties
 
