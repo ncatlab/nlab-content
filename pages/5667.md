@@ -548,7 +548,7 @@ $KK(A,B) \simeq Ext^1(A,B)$
 
 to a suitable group of suitable [[extensions]] of $A$ by $B$. ([Kasparov 80](#Kasparov80), reviewed in [Inassaridze](#Inassaridze)).
 
-### Triangulated sructure and $KU$-module structure
+### Triangulated structure and $KU$-module structure
  {#TriangulatedAndSpectrumEnrichedStructure}
 
 +-- {: .num_prop }
