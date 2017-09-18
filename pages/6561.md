@@ -59,6 +59,8 @@ Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can
 
 ## Related entries
 
+* [[little string theory]]
+
 * [[2d (2,0)-superconformal QFT]]
 
 [[!include gauge theory from AdS-CFT -- table]]
