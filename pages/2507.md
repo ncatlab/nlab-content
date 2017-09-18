@@ -72,7 +72,7 @@ $$
   \,.
 $$
 
-Removing the terms involving $\omega$ here this is the [[super translation algebra]].
+Discarding the terms involving $\omega$ here this is the CE algebra of the [[super translation algebra]] underlying super Minkowski spacetime.
 
 =--
 
