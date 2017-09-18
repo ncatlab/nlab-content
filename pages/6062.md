@@ -453,10 +453,10 @@ Let $\Lambda$ be a [[commutative ring]] which is
 Write 
 
 $$
-  ArtCAlg_{\Lambda} 
+  ArtAlg_{\Lambda} 
 $$
 
-for the [[category]] of commutative [[local Artin algebras]] over $\Lambda$ whose residue field is also $k$.
+for the [[category]] of [[local Artin algebras]] over $\Lambda$ whose residue field is also $k$.
 
 =--
 
@@ -484,7 +484,7 @@ In all of the following this is assumed to be the case, with $k$ of [[characteri
 Write 
 
 $$
-  dgArtCAlg_k \in Cat
+  dgcArtAlg_k \in Cat
 $$
 
 for the [[category]] of $\mathbb{Z}$-graded graded-commutative [[Artin algebra|Artin]] [[dg-algebras]] over $k$ with [[residue field]] $k$.
@@ -492,13 +492,13 @@ for the [[category]] of $\mathbb{Z}$-graded graded-commutative [[Artin algebra|A
 Write
 
 $$
-  Pro(dgArtCAlg_k) \in Cat
+  Pro(dgcArtAlg_k) \in Cat
 $$
 
 for its category of [[pro-objects]] and write
 
 $$
-  dgFormalSpace \coloneqq Pro(dgArtCAlg_k)^{op}
+  dgFormalSpace \coloneqq Pro(dgcArtAlg_k)^{op}
 $$
 
 for the [[opposite category]] of that.
