@@ -171,7 +171,7 @@ thus realizing $F$ as equivalent to the [[closed subtopos]] ([[Elephant]], A.4.5
 
 The sheaves in $\mathbf{Gl}(f)$ corresponding to the open resp. closed subtoposes can be described explicitly. Recall that the objects of $\mathbf{Gl}(f)$ have the form $(X, Y, u:Y\to f(X))$: then the open copy of $E$ corresponds to the subcategory on those objects $(X, Y, u:Y\to f(X))$ with $u$ an isomorphism in $E$ and the closed copy of $F$  to the subcategory with objects $(X, Y, u:Y\to f(X))$ such that $X\simeq 1$ in $F$.
 
-The [[open subtopos]] corresponding to $E$ is [[dense subtopos|dense]] in $\mathbf{Gl}(f)$ precisely if $f:E\to F$ preserves the initial object since this is simply the fringe functor $j^\ast\cdot i_\ast$ in which the [[reflector]] always preserves $0$ and $i_\ast$ preserves $0$ by definition just in case the associated subtopos is dense.
+The [[open subtopos]] corresponding to $E$ is [[dense subtopos|dense]] in $\mathbf{Gl}(f)$ precisely if $f:E\to F$ preserves the initial object since $(0,0,0\to f(0))$ is the initial object in $\mathbf{Gl}(f)$ and $0\to f(0)$ is an isomorphism precisely if $f$ preserves $0$. 
 
 To summarize: given a left exact $f:E\to F$ we get a closed inclusion of $F$ into $\mathbf{Gl}(f)$ with
 
@@ -187,13 +187,7 @@ $$ i^\ast:\mathbf{Gl}(f)\to E \qquad (X,Y,u)\mapsto X$$
 
 $$ i_{!} :E\to \mathbf{Gl}(f) \qquad X\mapsto (X,0,0\to f(X)) \quad .$$
 
-**Remarks:** 
-
-* Artin gluing for toposes carries over in some slight extra generality, replacing left exact functors $f$ by pullback-preserving functors. 
-
-* Artin gluing applies also to other [[doctrine|doctrines]]: regular categories, pretoposes, quasitoposes, etc. See [Carboni-Johnstone](#CJ).
-
-## Examples 
+### Examples 
 
 Examples of the gluing construction abound. Here are a few:  
 
@@ -202,6 +196,13 @@ Examples of the gluing construction abound. Here are a few:
 * If $E$ is a Grothendieck topos and $\Delta \colon Set \to E$ is the (essentially unique) left exact left adjoint, then we have a gluing construction $E \downarrow \Delta$. This gluing may be regarded as the result of attaching a generic open point to $E$. 
 
 * A concrete instance of the constructions in both the preceding examples is the [[Sierpinski topos]] $Set^{\to}$ corresponding e.g. to $Set\downarrow id_{Set}$: its objects are functions $X\to Y$ between sets $X,Y$ and the closed copy of $Set$ sits on the objects of the form $X\to 1$ and the open copy on the objects $X\overset{\simeq}{\to}Y$.
+
+### Remarks
+
+* Artin gluing for toposes carries over in some slight extra generality, replacing left exact functors $f$ by pullback-preserving functors. 
+
+* Artin gluing applies also to other [[doctrine|doctrines]]: regular categories, pretoposes, [[quasitopos|quasitoposes]], etc. See [Carboni-Johnstone](#CJ).
+
 
 ## Related entries
 
