@@ -120,6 +120,14 @@ Every covering space (even in the more general sense not requiring any connected
 ### Lifting properties
  {#LiftingProperties}
 
+We discuss [[left lifting properties]] satisfied by covering spaces.
+
+1. [path-lifting property](#CoveringSpacePathLifting),
+
+1. [homotopy-lifting propery](#CoveringSpacesHomotopyLifting),
+
+1. the [lifting theorem](#TheTheoremLifting).
+
 +-- {: .num_lemma #CoveringSpacePathLifting}
 ###### Lemma
 **(path lifting property)**
@@ -238,7 +246,9 @@ Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\ve
 ###### Proposition
 **([[homotopy lifting property]] of [[covering spaces]])**
 
-Let $p \colon E \to X$ be a [[covering space]]. Then commuting squares of the form
+Let $p \colon E \to X$ be a [[covering space]]. Then given a [[homotopy]] relative the starting point between two [[paths]] in $X$, there is for every lift of these two paths to paths in $E$ with the same starting point a unique homotopy between the lifted paths that lifts the given homotopy:
+
+For [[commuting squares]] of the form
 
 $$
   \array{
@@ -250,14 +260,17 @@ $$
       &\overset{}{\longrightarrow}&
     E
     \\
-    {}^{\mathllap{}}\downarrow && \downarrow^{\mathrlap{p}}
+    {}^{\mathllap{}}\downarrow 
+      &{}^{\mathllap{\hat \eta}}\nearrow& 
+    \downarrow^{\mathrlap{p}}
     \\
-    [0,1] \times [0,1] &\underset{\gamma}{\longrightarrow}& X
+    [0,1] \times [0,1] &\underset{\eta}{\longrightarrow}& X
   }
 $$
 
-have a unique lift in the lower diagram.
+there is a unique diagonal [[lift]] in the lower diagram, as shown.
 
+Moreover if the homotopy $\eta$ also fixes the endpoint, then so does the lifted homotopy $\hat \eta$.
 
 
 =--
@@ -265,7 +278,9 @@ have a unique lift in the lower diagram.
 +-- {: .proof}
 ###### Proof
 
-The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: The [[Lebesgue number lemma]] gives a partition of $[0,1] \times [0,1]$ into a finite number of squares such that the image of each under $\gamma$ lands in an open subset over which the covering space trivializes. Then there is [[induction|inductively]] a unique appropriate lift over each of these squares
+The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: The [[Lebesgue number lemma]] gives a partition of $[0,1] \times [0,1]$ into a [[finite number]] of squares such that the image of each under $\gamma$ lands in an open subset over which the covering space trivializes. Then there is [[induction|inductively]] a unique appropriate lift over each of these squares.
+
+Finally, if the homotopy in $X$ is constant also at the endpoint, hence on $\{1\} \times [0,1]$, then the function constant on $\hat \eta(1,1)$ is clearly a lift of the path $eta\vert_{\{1\}\times [0,1]}$ and by uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) this means that also $\hat \eta$ is constant on $\{1\} \times [0,1]$.
 
 =--
 
@@ -308,7 +323,7 @@ and lifting the homotopy $\eta_X$. Since $\eta_X$ in addition fixes the endpoint
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #TheTheoremLifting}
 ###### Proposition
 **(lifting theorem)**
 
