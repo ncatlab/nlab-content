@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $V$ a [[vector space]], the **general linear Lie algebra** or **endomrphism Lie algebra** $\mathfrak{gl}(V)$ of $V$ is the [[Lie algebra]] whose elements are [[linear map|linear]] [[endomorphism]]s $V \to V$ and whose Lie bracket is given by the [[commutator]] of endomorphisms.
+For $V$ a [[vector space]], the **general linear Lie algebra** or **[[endomorphism Lie algebra]]** $\mathfrak{gl}(V)$ of $V$ is the [[Lie algebra]] whose elements are [[linear map|linear]] [[endomorphisms]] $V \to V$ and whose Lie bracket is given by the [[commutator]] of endomorphisms.
 
 This is also the [[endomorphism L-∞ algebra]] of $V$
 
