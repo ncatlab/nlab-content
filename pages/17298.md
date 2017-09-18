@@ -1625,7 +1625,20 @@ is an acyclic fibration in the strict model structure of prop. \ref{StrictModelS
 +-- {: .proof}
 ###### Proof
 
-Let $f\colon E \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains, by prop. \ref{CofibrantGenerationOfStrictModelStructure}, the generating acyclic cofibrations for the strict model structure of prop. \ref{StrictModelStructureOnDiagramSpectra}, $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the fiber $F$ of $f$ is its [[homotopy fiber]] in the strict model structure. This implies that for any $E$ that with $[f,E]_{strict}$ a bijection, by assumption also $[\ast,E]_{strict} \to [F,E]_{strict}$ is a bijection, hence that $F\to \ast$ is also a stable weak equivalence. 
+Let $f\colon X \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains, by prop. \ref{CofibrantGenerationOfStrictModelStructure}, the generating acyclic cofibrations for the strict model structure of prop. \ref{StrictModelStructureOnDiagramSpectra}, $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the fiber $F$ of $f$ is its [[homotopy fiber]] in the strict model structure. 
+
+> Now the idea is to check by elementary means that for $F \to X \to B$ a homotopy fiber sequence in $(\mathbb{S}_{dia} Mod)_{strict}$, and for $E$ an Omega-spectrum, then the induced sequence $\cdots \to [B,E]_{strict} \to [X,E]_{strict}\to [F,E]_{strict} \to \cdots$ of hom-groups in the homotopy category of the strict model structure is exact. 
+
+> Of course this would follow immediately if we already knew that a) the stable model structure $\mathbb{S}_{dia}Mod_{stable}$ is a left Bousfield localization of the strict model structure with fibrant objects precisely the Omega-spectra, and b) that it is indeed a [[stable model category]], hence with its homotopy category being a [[triangulated category]].
+
+> Unfortunately, this is what we are in the process of proving. In ([MMSS 00](#MMSS00)) it is suggested (one sees this by chasing pointers first to the proof of theorem 8.12 (vi), from there to the proof of theorem 7.4 (vi) and from there to [Lewis-May-Steinberger 86](equivariant%20stable%20homotopy%20theory#LewisMaySteinberger86)) to use lemma III 2.1 in [Lewis-May-Steinberger 86,](equivariant%20stable%20homotopy%20theory#LewisMaySteinberger86) (or maybe one is supposed to use lemma III 2.3 ?). Lemma 2.1 however uses stability of the homotopy category (and 2.3 does, too, hidden in "use the desuspension theorem", and in addition lemma 2.3 uses that one knows that homotopy-commutative cubes induce homotopy commutative squares of homotopy fibers). 
+
+> Of course, it should be possible to construct all this, but it will be a lot of work, work that the model structure on $\mathbb{S}_{dia}Mod_{stable}$ is supposed to do for us. So it's maybe at least a bit unsatisfactory to have this step in the proof. Or maybe I am missing something. Anyway, if we use this then...
+
+
+... by the exactness of $\cdots \to [B,E]_{strict} \overset{[f,E]_{strict}}{\to} [X,E]_{strict}\to [F,E]_{strict} \to \cdots $ and since $[f,E]$ is an isomorphism by assumption on $f$, then $[F,E]_{strict} \simeq \ast \simeq [\ast,E]$, for all Omega-spectra $E$. Hence $F\to \ast$ is a stable weak equivalence.
+
+> Actually this argument also needs that with $f$ a stable equivalence, then also $\Omega f$ is. This follows (only?) once we know that homs in the strict homotopy category into Omega-spectra is equivalently homs in the stable homotopy catgeory. 
 
 Observe also that $F$, being the pullback of a $K$-injective morphisms (by the standard [closure properties](injective+or+projective+morphism#ClosureProperties)) is a $K$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Together this implies with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
 
