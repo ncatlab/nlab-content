@@ -1456,9 +1456,9 @@ $$
   f
   \;\colon\;
   X 
-    \stackrel{cofib}{\longrightarrow}
+    \stackrel{\in Cof}{\longrightarrow}
   \hat X
-    \stackrel{fib_{we}}{\longrightarrow}
+    \stackrel{\in W \cap Fib}{\longrightarrow}
   Y
   \,.
 $$
@@ -1476,14 +1476,14 @@ $$
   f 
   \;\colon\;
   X 
-   \stackrel{\in cofib}{\longrightarrow}
+   \stackrel{\in Cof}{\longrightarrow}
   \hat X
-   \stackrel{\in I_{top} fib}{\longrightarrow}
+   \stackrel{\in I_{top} Inj}{\longrightarrow}
   Y
   \,.
 $$
 
-By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to X$ is both a weak equivalence as well as a Serre fibration.
+By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to Y$ is both a weak equivalence as well as a Serre fibration.
 
 =--
 
@@ -1496,9 +1496,9 @@ $$
   f
   \;\colon\;
   X 
-    \stackrel{cofib_{we}}{\longrightarrow}
+    \stackrel{\in W \cap Cof}{\longrightarrow}
   \hat X
-    \stackrel{fib}{\longrightarrow}
+    \stackrel{\in Fib}{\longrightarrow}
   Y
   \,.
 $$
@@ -1518,14 +1518,14 @@ $$
   f
   \;\colon\;
   X 
-   \stackrel{J_{Top} cell}{\longrightarrow}
+   \stackrel{\in J_{Top} Cell}{\longrightarrow}
   \hat X
-    \stackrel{J_{Top} fib}{\longrightarrow}
-  X
+    \stackrel{\in J_{Top} Inj}{\longrightarrow}
+  Y
   \,.
 $$
 
-By definition this makes $\hat X \to X$ a [[Serre fibration]], hence a fibration.
+By definition this makes $\hat X \to Y$ a [[Serre fibration]], hence a fibration.
 
 By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex and hence $X \to \hat X$ is a cofibration.
 
@@ -1543,7 +1543,7 @@ $$
   \array{
     &\longrightarrow&
     \\
-    {}^{\mathllap{{g \in} \atop { cof}}}\downarrow && \downarrow^{\mathrlap{{f \in }\atop fib}}
+    {}^{\mathllap{{g \in} \atop { Cof}}}\downarrow && \downarrow^{\mathrlap{{f \in }\atop Fib}}
     \\
     &\longrightarrow&
   }
@@ -1562,11 +1562,43 @@ admits a [[lift]] as soon as one of the two is also a weak equivalence.
 **B)** If the cofibration $g$ on the left is also a weak equivalence, consider any factorization into a relative $J_{Top}$-cell complex, def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCCellComplex}, followed by a fibration,
 
 $$
-  g \;\colon\; \stackrel{J_{Top} cell}{\longrightarrow} \stackrel{fib}{\longrightarrow}
+  g \;\colon\; \stackrel{\in J_{Top} Cell}{\longrightarrow} \stackrel{\in Fib}{\longrightarrow}
   \,,
 $$
 
 as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. Now by [[two-out-of-three]], prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}, the factorizing fibration is actually an acyclic fibration. By case A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so the [[retract argument]], lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally lemma \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
+
+=--
+
+Finally:
+
++-- {: .num_prop #LiftingExhausted}
+###### Proposition
+
+The systems $(Cof , W \cap Fib)$ and $(\W \cap Cof, Fib)$ are [[weak factorization systems]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have already seen the factorization and the lifting property, it remains to see that the given left/right classes exhaust the class of morphisms with the given lifting property. 
+
+For the fibrations this is by definition, for the the acyclic fibrations this is by lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
+
+The remaining statement for $Cof$ and $W\cap Cof$ follows from a general argument ([here](cofibrantly+generated+model+category#RetractsOfCellComplexesExchaustLLPOfRLP)) for [[cofibrantly generated model categories]]:
+
+So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract of a relative cell complex. To that end, apply the [[small object]] argument to factor $f$ as 
+
+$$
+  f \;\colon \; X \overset{}{\longrightarrow} \hat Y \overset{\in I Inj}{\longrightarrow} Y
+  \,.
+$$
+
+It follows that $f$ has the left lefting property again $\hat Y \to Y$, and hence by the [[retract argument]] it is a retract of $X \to \hat Y$, which proves the claim for $Cof$.
+
+The argument for $W \cap Cof$ is analogous, using the [[small object argument]] now for $J_{Top}$.
+
 
 =--
 
