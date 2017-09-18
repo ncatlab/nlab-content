@@ -72,7 +72,7 @@ $u:p(x')\to p(x_1)$ such that $p(h) = p(f) u$, there exists a unique $v:x'\to x_
 
 $$
   \array{
-    \exists x'
+    \forall x'
     \\
     \downarrow^{\mathrlap{\exists! v}} & \searrow^{\mathrlap{\forall h}}
     \\
