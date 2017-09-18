@@ -327,11 +327,11 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 
 ### As manifolds modeld on Grassmann algebras
 
-* [[Bryce DeWitt]], _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1992
-  {#DeWitt92}
+* {#DeWitt92} [[Bryce DeWitt]], _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1992
+  
 
-* Alice Rogers
- {#Rogers}
+* {#Rogers} [[Alice Rogers]]
+ 
 
 ### Other
 
