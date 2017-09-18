@@ -47,6 +47,8 @@
 
   * **5d Chern-Simons theory**
 
+    * [[5d supergravity]]
+
   * [[6d Chern-Simons theory]]
 
   * [[7d Chern-Simons theory]]
