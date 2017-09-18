@@ -12,7 +12,8 @@ This page is a detailed introduction to basic [[topology]].
 Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
 it first develops standard [[point-set topology]] ([[topological spaces]]).
 In passing, some basics of [[category theory]] make an informal appearance,
-used to transparently summarize some conceptually important aspects of the theory, such as the [[reflective subcategory|reflection]] into
+used to transparently summarize some conceptually important aspects of the theory, such as 
+[[initial topology|initial]] and [[final topologies]] and the [[reflective subcategory|reflection]] into
 [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
 and ends with their first application to the classification of [[covering spaces]].
@@ -215,7 +216,7 @@ A _[[normed vector space]]_ is
 1. a [[function]] (the _[[norm]]_)
 
    $$
-     {\Vert {-} \Vert} \colon V \longrightarrow \mathbb{R}
+     {\Vert {-} \Vert} \;\colon\; V \longrightarrow \mathbb{R}
    $$
 
    from the underlying [[set]] of $V$ to the [[real numbers]],
@@ -289,7 +290,7 @@ Via prop. \ref{MetricSpaceFromNormedVectorSpace} this gives $\mathbb{R}^n$ the s
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vector-p-Norms_qtl1.svg/220px-Vector-p-Norms_qtl1.svg.png" width="200">
 </div>
 
-More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the _[[p-norm]]_
+More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{R}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the _[[p-norm]]_
 
    $$
      {\Vert \vec x \Vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}}
@@ -298,7 +299,7 @@ More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then
 One also sets
 
 $$
-  {\Vert \vec x \Vert}_\infty \coloneqq \underset{i \in I}{max} {\vert x_i \vert}
+  {\Vert \vec x \Vert}_\infty \coloneqq \underset{i \in I}{max} \, {\vert x_i \vert}
 $$
 
 and calls this the _[[supremum norm]]_.
@@ -316,7 +317,7 @@ the [[p-norm]] generalizes to non-[[finite dimensional vector spaces]] such as [
 ### Continuity
  {#ContinuityInAnalysis}
 
-The following now is the fairly obvious definition of continuity for functions between metric spaces.
+The following is now the fairly obvious definition of continuity for functions between metric spaces.
 
 +-- {: .num_defn #EpsilonDeltaDefinitionOfContinuity}
 ###### Definition
@@ -333,21 +334,31 @@ $$
 $$
 
 is said to be _continuous at a point $x \in X$_ if for 
-every [[positive number|positive]] [[real number]] $\epsilon \gt 0$ 
-there exists a [[positive number|positive]] [[real number]] $\delta\gt 0$ such that
-for all $y \in Y$
+every [[positive number|positive]] [[real number]] $\epsilon$ 
+there exists a [[positive number|positive]] [[real number]] $\delta$ such that
+for all $x' \in X$ that are a distance $\lt \delta$ from $x$ then their image $f(x')$
+is a distance at most $\epsilon$ from $f(x)$:
 
 $$
-  d_X(x,y) \lt \delta \;\;\Rightarrow\;\; d_Y(\,f(x), f(y)\,) \lt \epsilon
+  \left(
+    f\,\, \text{continuous at}\, x
+  \right)
+  \;\coloneqq\;
+  \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
+  \left(
+    \underset{{\epsilon \in \mathbb{R}} \atop {\delta \gt 0}}{\exists}
+      \left(
+        \left(
+          d_X(x,x') \lt \delta
+        \right)
+           \;\;\Rightarrow\;\; 
+        \left(
+          d_Y(\,f(x), f(x')\,) \lt \epsilon
+        \right)
+      \right)
+  \right)
+  \,.
 $$
-
-or equivalently such that
-
-$$
-  f(\;B_x^\circ(\delta)\;) \;\subset\; B^\circ_{f(x)}(\epsilon)
-$$
-
-where $B^\circ$ denotes the [[open ball]] (definition \ref{OpenBalls}).
 
 The function $f$ is said to be _continuous_ if it is continuous at every point $x \in X$.
 
@@ -391,8 +402,7 @@ Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 
 1. An _[[open subset]]_ of $X$ is a [[subset]] $U \subset X$ such that for every $x \in U$ it also contains an [[open ball]] around $x$ (def. \ref{OpenBalls}).
 
-1. An _[[open neighbourhood]]_ of a point $x \in X$ is a [[neighbourhood]] $U_x$ of $x$ which is also an open subset, hence  
-   equivalently this is any open subset of $X$ that contains $x$.
+1. An _[[open neighbourhood]]_ of a point $x \in X$ is a [[neighbourhood]] $U_x$ of $x$ which is also an open subset, hence equivalently this is any open subset of $X$ that contains $x$.
 
 =--
 
@@ -425,13 +435,13 @@ and the middle two are called _[[half-open intervals]]_.
 
 Similarly for $a,b \in \mathbb{R}$ one considers
 
-1. $(-\infty,b) \coloneqq \left\{ x \in \mathbb{R} \vert x \lt b  \right\}$ (*unbounded open interval*)
+1. $(-\infty,b) \coloneqq \left\{ x \in \mathbb{R} \vert x \lt b  \right\}$ $\phantom{AA}$ (*unbounded open interval*)
 
-1. $(a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x  \right\}$ (*unbounded open interval*)
+1. $(a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x  \right\}$ $\phantom{AA}$ $\,\,$ (*unbounded open interval*)
 
-1. $(-\infty,b] \coloneqq \left\{ x \in \mathbb{R} \vert x \leq b  \right\}$ (*unbounded half-open interval*)
+1. $(-\infty,b] \coloneqq \left\{ x \in \mathbb{R} \vert x \leq b  \right\}$ $\phantom{AA}$ (*unbounded half-open interval*)
 
-1. $[a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x  \right\}$ (*unbounded half-open interval*)
+1. $[a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x  \right\}$ $\phantom{AA}$ $\,\,$ (*unbounded half-open interval*)
 
 The first two of these are open subsets, the last two are not.
 
@@ -445,20 +455,41 @@ which are both open, according to def. \ref{TopologicalSpace}.
 
 =--
 
-We may now reprase the analytic definition of continuity entirely in terms of open subsets (def. \ref{OpenSubsetsOfAMetricSpace}).
+We may now rephrase the analytic definition of continuity entirely in terms of open subsets (def. \ref{OpenSubsetsOfAMetricSpace}):
 
 +-- {: .num_prop #ContinuityBetweenMetricSpacesInTermsOfOpenSets}
 ###### Proposition
 **(rephrasing continuity in terms of open sets)**
 
-A [[function]] $f \colon X \to Y$ between [[metric spaces]] (def. \ref{MetricSpace}) is [[continuous function|continuous]] in the [[epsilontic analysis|epsilontic]] sense of def. \ref{EpsilonDeltaDefinitionOfContinuity} precisely if it has the property that its [[pre-images]] of [[open subsets]] of $Y$ (in the sense of def. \ref{OpenSubsetsOfAMetricSpace}) are open subsets of $X$.
+Let $(X,d_X)$ and $(Y,d_Y)$ be two [[metric space]] (def. \ref{MetricSpace}).
+Then a [[function]] $f \colon X \to Y$ is [[continuous function|continuous]] in the [[epsilontic analysis|epsilontic]] sense of def. \ref{EpsilonDeltaDefinitionOfContinuity} precisely if it has the property that its [[pre-images]] of [[open subsets]] of $Y$ (in the sense of def. \ref{OpenSubsetsOfAMetricSpace}) are open subsets of $X$:
+
+$$
+  \left( 
+    f \,\, \text{continuous}
+  \right)
+    \;\;\Leftrightarrow\;\;
+  \left(
+    \left(
+      O_Y \subset Y \,\, \text{open}
+    \right)
+      \,\Rightarrow\,
+    \left(
+      f^{-1}(O_Y) \subset X \,\, \text{open}
+    \right)
+  \right)
+  \,.
+$$
 
 =--
+
+
+$\,$
 
 +-- {: principle}
 **principle of continuity**
 
-$\,$ $\,$ _Pre-Images of open subsets are open._
+$\,$ $\,$ _Continuous pre-Images of open subsets are open._
 
 =--
 
@@ -466,9 +497,56 @@ $\,$ $\,$ _Pre-Images of open subsets are open._
 +-- {: .proof}
 ###### Proof
 
-First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subset Y$ any [[open subset]] and $x \in f^{-1}(O_Y)$ any point in the pre-image, we need to show that there exists a [[neighbourhood]] of $x$ in $f^{-1}(O_Y)$. But by assumption there exists an [[open ball]] $B_x^\circ(\epsilon)$ with $f(B_x^\circ(\epsilon)) \subset O_Y$. Since this is true for all $x$, by definition this means that $f^{-1}(O_Y)$ is open in $X$.
+Observe, by direct unwinding the definitions, 
+that the epsilontic definition of continuity (def. \ref{EpsilonDeltaDefinitionOfContinuity}) says equivalently in
+terms of [[open balls]] (def. \ref{OpenBalls}) that
+$f$ is continous at $x$ precisely if for every open ball $B^\circ_{f(x)}(\epsilon)$ around an image
+point, there exists an open ball $B^\circ_x(\delta)$ around the corresponding pre-image
+point which maps into it:
 
-Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for every $x \in X$ and $B_{f(x)}^\circ(\epsilon)$ an [[open ball]] around its image, we need to produce an open ball $B_x^\circ(\delta)$ in its pre-image. But by assumption $f^{-1}(B_{f(x)}^\circ(\epsilon))$ contains a [[neighbourhood]] of $x$ which by definition means that it contains such an open ball around $x$.
+$$
+  \array{
+    \left(
+      f \,\,\text{continuous at}\,\, x
+    \right)
+    & \Leftrightarrow \;
+    \underset{\epsilon \gt 0}{\forall}  
+    \left(
+      \underset{\delta \gt 0}{\exists}
+      \left(
+        f(\;B_x^\circ(\delta)\;) \;\subset\; B^\circ_{f(x)}(\epsilon)
+      \right)
+    \right)
+    \\
+    & \Leftrightarrow \;
+    \underset{\epsilon \gt 0}{\forall}
+    \left(
+      \underset{\delta \gt 0}{\exists}
+      \left(
+        B^\circ_x(\delta) \subset f^{-1}\left( B^\circ_{f(x)}(\epsilon) \right)
+      \right)
+    \right)
+  }
+  \,.
+$$
+
+With this observation the proof immediate. For the record, we spell it out:
+
+First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subset Y$ any [[open subset]] and $x \in f^{-1}(O_Y)$ any point in the pre-image, we need to show that there exists an [[open neighbourhood]] of $x$ in $f^{-1}(O_Y)$. 
+
+That $O_Y$ is open in $Y$ means by definition that there exists an [[open ball]] $B^\circ_{f(x)}(\epsilon)$ in $O_Y$ around $f(x)$
+for some radius $\epsilon$. By the assumption that $f$ is continuous and using the above observation, this implies that there exists an 
+open ball $B^\circ_x(\delta)$ in $X$ such that $f(B^\circ_x(\delta)) \subset B^\circ_{f(x)}(\epsilon) \subset Y$,
+hence such that $B^\circ_x(\delta) \subset f^{-1}\left(B^{\circ}_{f(x)}(\epsilon)\right) \subset f^{-1}(O_Y)$.
+Hence this is an open ball of the required kind.
+
+Conversely, assume that the pre-image function $f^{-1}$ takes open subsets to open subsets. Then for every $x \in X$ and $B_{f(x)}^\circ(\epsilon) \subset Y$ an [[open ball]] around its image, we need to produce an open ball $B_x^\circ(\delta) \subset X$ around $x$
+such that $f(B_x^\circ(\delta)) \subset B^\circ_{f(x)}(\epsilon)$. 
+
+But by definition of open subsets, $B^\circ_{f(x)}(\epsilon) \subset Y$ is open, and therefore by assumption on $f$
+its pre-image $f^{-1}(B^\circ_{f(x)}(\epsilon)) \subset X$ is also an open subset of $X$. Again by definition of 
+open subsets, this implies that it contains an open ball as required.
+
 
 =--
 
@@ -483,18 +561,19 @@ Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for ev
 Consider $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) and consider the [[step function]]
 
 $$
-  H \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
-$$
-
-$$
-  H \colon x \mapsto
-  \left\{
-    \array{
-      0 & \vert \, x \leq 0
-      \\
-      1 & \vert \, x \gt 0
-    }
-  \right.
+  \array{
+    \mathbb{R} &\overset{H}{\longrightarrow}& \mathbb{R}
+    \\
+    x 
+      &\mapsto&
+    \left\{
+      \array{
+        0 & \vert \, x \leq 0
+        \\
+        1 & \vert \, x \gt 0
+      }
+    \right.
+  }
   \,.
 $$
 
@@ -502,30 +581,31 @@ $$
 
 Consider then for $a \lt b \in \mathbb{R}$ the [[open interval]] $(a,b) \subset \mathbb{R}$,
 an [[open subset]] according to example \ref{OpenAndClosedIntervals}.
-The [[preimage]] of this open subset is
+The [[preimage]] $H^{-1}(a,b)$ of this open subset is
 
 $$
   H^{-1} \;\colon\;
   (a,b)
     \mapsto
   \left\{
-    \array{
-      \emptyset & \vert \,  a \gt 1 \;\;\text{or} \;\; b \lt 0
-      \\
-      \mathbb{R} & \vert \, a \lt 0 \;\;\text{and}\;\; b \gt 1
-      \\
-      \emptyset & \vert \, a \geq 0 \;\;\text{and}\;\; b \leq 1
-      \\
-      (0,\infty) & \vert \, 0 \leq a \lt 1 \;\;\text{and}\;\; b \gt 1
-      \\
-      (-\infty, 0] & \vert \, a \lt 0 \;\;\text{and}\;\; b \leq 1
-      \\
+     \array{
+       \emptyset & \vert \,  a \geq 1 \;\;\text{or} \;\; b \leq 0
+       \\
+       \mathbb{R} & \vert \, a \lt 0 \;\;\text{and}\;\; b \gt 1
+       \\
+       \emptyset & \vert \, a \geq 0 \;\;\text{and}\;\; b \leq 1
+       \\
+       (0,\infty) & \vert \, 0 \leq a \lt 1 \;\;\text{and}\;\; b \gt 1
+       \\
+       (-\infty, 0] & \vert \, a \lt 0 \;\;\text{and}\;\; b \leq 1
     }
   \right.
   \,.
 $$
 
-By example \ref{OpenAndClosedIntervals}, the last of these preimages listed is not an open subset.
+By example \ref{OpenAndClosedIntervals}, all except the last of these pre-images listed is not an open subset.
+
+This witnesses that the step function is not continuous at $x = 0$.
 
 =--
 
@@ -1584,7 +1664,7 @@ statement of prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}:
 +-- {: principle}
 **principle of continuity**
 
-$\,$ $\,$ _Pre-Images of open subsets are open._
+$\,$ $\,$ _Continuous pre-Images of open subsets are open._
 
 =--
 
