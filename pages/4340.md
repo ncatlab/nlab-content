@@ -64,6 +64,8 @@ In this sense, the object $true$ in [[Set]] or [[∞Grpd]] may canonically be th
 
 ## Related concepts
 
+* [[correspondence theory of truth]]
+
 [[!include homotopy n-types - table]]
 
 
