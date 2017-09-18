@@ -23,7 +23,13 @@ Double dimensional reduction for the super-$p$-[[branes]] in $D$ dimensions whic
 
 [[branescan.gif:pic]]
 
-In particular the [[superstring]] appears as the double dimensional reduction of the [[M2-brane]] in the [[KK-compactification]] from [[11-dimensional supergravity]]/[[M-theory]] down to 10-dimensional [[type II supergravity]]/[[type II string theory]]. Similarly the [[D4-brane]] appears as the double dimensional reduction of the [[M5-brane]] under this process
+In particular 
+
+* the [[superstring]] of [[type IIA string theory]] appears as the double dimensional reduction of the [[M2-brane]] in the [[KK-compactification]] from [[11-dimensional supergravity]]/[[M-theory]] down to 10-dimensional [[type II supergravity]]/[[type II string theory]]. 
+
+* the [[D4-brane]] appears as the double dimensional reduction of the [[M5-brane]] under this process;
+
+* the double dimensional reduction of the [[super 2-brane in 4d]] is [[super 1-brane in 3d]] (see there).
 
 ## References
 
