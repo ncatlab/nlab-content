@@ -31,6 +31,8 @@ The concept of _inner product on vector bundles_ is the evident generalization o
 
 Let 
 
+1. $k$ be a [[topological field]] (such as the [[real numbers]] or [[complex numbers]] with their [[Euclidean space|Euclidean]] [[metric topology]] ),
+
 1. $X$ be a [[topological space]],
 
 1. $E \to X$ a [[topological vector bundle]] over $X$ (over $\mathbb{R}$, say).
