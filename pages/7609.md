@@ -99,7 +99,7 @@ In the third case, there is a [[coherence]] issue: syntactic substitution in the
 
 Let $\mathcal{C}$ be a suitable ambient [[category]] in which we are [[categorical semantics|interpreting]] [[logic]]/[[type theory]].
 
-Suppose $X$ any $Y$ are [[types]], hence interpreted as [[objects]] of $\mathcal{C}$. Then a [[term]] of [[function type]] $f : X \to Y$ is interpreted by a [[morphism]], going by the same symbols.
+Suppose $X$ and $Y$ are [[types]], hence interpreted as [[objects]] of $\mathcal{C}$. Then a [[term]] of [[function type]] $f : X \to Y$ is interpreted by a [[morphism]], going by the same symbols.
 
 Now a [[proposition]] about [[terms]] of [[type]] $Y$
 
