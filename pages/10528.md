@@ -1,4 +1,14 @@
-[[!redirects jet (∞,1)-category]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Goodwillie calculus
++--{: .hide}
+[[!include Goodwillie calculus - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -27,4 +37,8 @@ Section 7.1 of
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
+[[!redirects jet (infinity,1)-categories]]
+
+[[!redirects jet (∞,1)-category]]
 [[!redirects jet (∞,1)-categories]]
+
