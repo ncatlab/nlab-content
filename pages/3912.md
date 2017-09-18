@@ -86,7 +86,7 @@ $$
   E \coloneqq D(V)/_B S(V)
 $$
 
-of the inclusion of the unit sphere bundle into the unit disk bundle of $V$ ([def.](Thom+space#ThomSpace)).
+of the inclusion of the [[unit sphere]] bundle into the unit disk bundle of $V$ ([def.](Thom+space#ThomSpace)).
 
 $$
   \array{
