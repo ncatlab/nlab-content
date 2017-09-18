@@ -1,8 +1,10 @@
 **Affine logic** is a [[substructural logic]] which omits the [[contraction rule]]. 
 
-Categorically, affine logic is modeled either by (symmetric) [[monoidal categories]] whose tensorial unit $I$ is terminal, or --- slightly more generally --- by (symmetric) monoidal categories equipped with a family $A\to I$ of arrows (for all objects $A$), which is natural in $A$.
+Categorically, affine logic is modeled by (symmetric) [[monoidal categories]] whose tensorial unit $I$ is terminal.
 
-The existence of such a family of arrows does not force the tensorial unit to be terminal, as can be seen by the category [[Rel]] of relations, with cartesian product as tensor product (i.e., with $Rel$ as [[cartesian bicategory]]). Here a natural family of relations $A\to I$ is given by picking empty relations everywhere.  However, it is a theorem that if the specified arrow $I\to I$ is the [[identity morphism]], then $I$ must indeed be terminal.
+A more general notion of model would be given by monoidal categories equipped with a natural (in $A$) family $A\to I$ of arrows implementing "weakening" at each object. However, such an interpretation is in general badly behaved, unless we additionally require the natural transformation given by the maps $A\to I$ to be *monoidal*, and it can be shown that this additional requirement already forces the tensorial unit to be terminal (specifically, this follows from the component at $I$ being the identity).
+
+An example of the badly behaved case -- where the transformation is not monoidal, and the the tensorial unit is not terminal -- is given by the category [[Rel]] of relations, with cartesian product as tensor product (i.e., with $Rel$ as [[cartesian bicategory]]). Here a natural family of relations $A\to I$ is given by picking empty relations everywhere.  In the corresponding interpretation of affine logic, any weakening yields an empty relation, which contradicts intuitive principles like for example that "adding a dummy variable to a proof and then substituting a closed term" should not change the semantics.
 
 ###Related concept
 
