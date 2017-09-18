@@ -13,14 +13,13 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 In "synthetic" approaches to the formulation of [[theories]] in [[mathematics]] the emphasis is on [[axioms]] that directly capture the core aspects of the intended [[structures]], in contrast to more traditional "analytic" approaches where axioms are used to encode some basic substrate out of which everything else is then built [[analytic and synthetic|analytically]].
-
 
 | analytic | synthetic |
 |-----------|---------|
@@ -43,14 +42,15 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
 * [[synthetic topology]]
 
+
 ## Relation to constructivism 
 
-Synthetic approaches are naturally compatible with [[constructive mathematics]]/[[intuitionistic mathematics]], but synthetic mathematics is about a different issue than constructivism. For instance even most constructive [[proof assistants]] in existence have in their libraries defined basic mathematics concepts, such as manifolds, in the traditional analytic way.
+Synthetic approaches are naturally compatible with [[constructive mathematics]]/[[intuitionistic mathematics]], but synthetic mathematics is about a different issue than constructivism. For instance even most constructive [[proof assistants]] in existence have in their libraries defined basic mathematics concepts, such as topological spaces, in the traditional analytic way.
+
 
 ## Relation to computer science
 
 There is at least some similarity between synthetic mathematics and [[domain specific embedded programming languages]], see for instance ([Hudak 98, section 3.2](http://ncatlab.org/nlab/show/domain+specific+embedded+programming+language#Hudak98)). In ([Hudak 98, figure 2](http://ncatlab.org/nlab/show/domain+specific+embedded+programming+language#Hudak98)) this shows aspects of a real-world DSL for "geometric region analysis" embedded in [[Haskell]] which under the [[relation between type theory and category theory]]/[[computational trinitarianism]] one immediately recognizes as a fragment of [[synthetic geometry]].
-
 
 
 [[!redirects synthetic homotopy theory]]
