@@ -98,25 +98,6 @@ if you have `git` installed on your system.  You can then pull in updates by run
 
 You can set up a [cronjob](https://help.ubuntu.com/community/CronHowto) to do this every day, for example.
 
-### Alternative instructions
-
-In case you do not trust GitHub or for any other reason, you can follow the following alternative instructions.
-
-First send an e-mail to our admin [[Adeel Khan]] with your SSH public key (follow [these instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)). 
-
-Once Adeel grants you access, you will then be able to clone the git repository from `nlab-git@saunders.phil.cmu.edu:nlab-content`.  To save server resources you should download a "bare" version of the repository with
-
-    git clone --bare nlab-git@saunders.phil.cmu.edu:nlab-content
-
-and then run
-
-    git clone nlab-content.git nlab-content
-    rm nlab-content.git
-    cd nlab-content
-    git remote set-url origin nlab-git@saunders.phil.cmu.edu:nlab-content
-
-to get a "normal" repository with a working tree.  As above you can pull in updates with `git pull` and you can set up a cronjob to do this automatically.
-
 # Getting Started #
 
 ##How to use a Wiki##
