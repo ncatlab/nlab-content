@@ -67,6 +67,8 @@ Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]
 
 * {#FreedMoore12} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]] to classify free fermion gapped phases with symmetry)
 
+* Juven Wang, Zheng-Cheng Gu, [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, [arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [Phys. Rev. Lett. 114, 031601 (2015)](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)
+
 * {#Freed14} [[Daniel Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
 
 * Guo Chuan Thiang, _On the K-theoretic classification of topological phases of matter_,
