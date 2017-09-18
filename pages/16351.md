@@ -15,7 +15,7 @@
 
 ## Statement
 
-+-- {: .num_theorem}
++-- {: .num_theorem #Embedding}
 ###### Theorem
 
 The [[functor]]
@@ -24,7 +24,7 @@ $$
   C^\infty(-) \colon SmoothMfd \longrightarrow Alg_{\mathbb{R}}^{op}
 $$
 
-which sends a [[smooth manifold]] to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
+which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
 
 
 In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the algebra homomorphisms $C^\infty(X)\leftarrow C^\infty(Y)$.
@@ -37,7 +37,14 @@ In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijectio
 +-- {: .num_remark}
 ###### Remark
 
-This statement serves as the stepping-stone for generalizations of [[differential geometry]] such as to [[supergeometry]]. On the other hand, for transporting various applications familiar from [[algebraic geometry]] to [[differential geometry]] (such as [[Kähler differentials]], see there) the above embedding is insufficient, and instead of just remembering the [[associative algebra]] structure, one needs to remember the _[[smooth algebra]]_-structure on algebras of smooth functions. See also at _[[synthetic differential geometry]]_.
+The statement of theorem \ref{Embedding} serves as the stepping-stone for generalizations of [[differential geometry]] such as to [[supergeometry]]. On the other hand, for transporting various applications familiar from [[algebraic geometry]] to [[differential geometry]] (such as [[Kähler differentials]], see there) the above embedding is insufficient, and instead of just remembering the [[associative algebra]] structure, one needs to remember the _[[smooth algebra]]_-structure on algebras of smooth functions. See also at _[[synthetic differential geometry]]_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If one drops standard regularity assumptions on manifolds then theorem \ref{Embedding} may break. For instance allowing [[countable set|uncountably]] many connected comoponents, then there are counterexamples ([MO discussion](http://mathoverflow.net/a/91445)).
 
 =--
 
@@ -50,6 +57,11 @@ This statement serves as the stepping-stone for generalizations of [[differentia
 * the [[Whitney extension theorem]]
 
 * the [[Steenrod-Wockel approximation theorem]]
+
+* [[derivations of smooth functions are vector fields]]
+
+* [[derivations of smooth functions are vector fields]]
+
 
 
 ## References
