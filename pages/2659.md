@@ -212,16 +212,18 @@ Nonabelian Hodge theory is closely related to the [[geometric Langlands correspo
 
 ## References
 
-Lecture notes on [[geometric Langlands duality]] and nonabelian Hodge theory include
+Lecture notes on nonabelian Hodge theory include:
 
 * [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands
 conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
 
-Corlette's nonabelian Hodge theorem is in
+* [[Alberto García Raboso]], [[Steven Rayan]], _Introduction to Nonabelian Hodge Theory: flat connections, Higgs bundles, and complex variations of Hodge structure_,  Fields Inst. Monogr. 34 (2015), 131--171 ([arXiv](https://arxiv.org/abs/1406.1693)) ([Springer](http://link.springer.com/chapter/10.1007/978-1-4939-2830-9_5))
 
-* {#Corlette88} K. Corlette, _Flat $G$-bundles with canonical metric_ J. Diff Geometry 28 (1988)
+Corlette's nonabelian Hodge theorem can be found in:
+
+* {#Corlette88} K. Corlette, _Flat $G$-bundles with canonical metric_, J. Diff Geometry 28 (1988)
  
-Work by [[Carlos Simpson]] on nonabelian Hodge theory includes
+Works by [[Carlos Simpson]] on nonabelian Hodge theory include:
 
 * {#Simpson92} [[Carlos Simpson]], _Higgs bundles and local systems_, Inst. Hautes Etudes Sci. Publ. Math. (1992), no. 75, 5{95. MR 1179076 (94d:32027) ([numdam](http://www.numdam.org/item?id=PMIHES_1992__75__5_0))
 
@@ -235,7 +237,7 @@ Work by [[Carlos Simpson]] on nonabelian Hodge theory includes
 
 * [[Carlos Simpson]], [[Tony Pantev]], [[Ludmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv](http://arxiv.org/abs/math/0006213))
 
-The nonabelian Hodge theorem of ([Simpson 92](#Simpson92)) is generalized to [[twisted bundles]] in 
+The nonabelian Hodge theorem of ([Simpson 92](#Simpson92)) is generalized to [[twisted bundles]] in: 
 
 * {#Raboso14} [[Alberto García Raboso]], _A twisted nonabelian Hodge correspondence_, PhD thesis 2014 ([arXiv:1501.05872](http://arxiv.org/abs/1501.05872), [pdf slides](http://www.math.toronto.edu/agraboso/files/TwistedNAHT_Talk_Handout.pdf))
 
