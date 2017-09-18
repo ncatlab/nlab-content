@@ -16,8 +16,8 @@
 
 ## Idea
 
-_Exact couples_ are a tool for constructing [[spectral sequences]].
-
+_Exact couples_ are a way to encode data that makes a [[spectral sequence]], specially adapted to the case that the underlying filtering along which the spectral sequence proceeds is induced from a tower of [[homotopy fibers]], such as a [[Postnikov tower]] or [[Adams tower]] (see also at _[[Adams spectral sequence]]_).
+ 
 ## Definition
 
 ### Exact couples
@@ -29,7 +29,7 @@ _Exact couples_ are a tool for constructing [[spectral sequences]].
 Given an [[abelian category]] $\mathcal{C}$, an **[[exact couple]]** in $\mathcal{C}$ is a cyclic [[exact sequence]] of three [[morphisms]] among two [[objects]] of the form
 
 $$ 
-  \cdots \stackrel{k}{\to} E \overset{j}{\to} D \overset{\varphi}{\to} D \overset{k}{\to} E \overset{j}{\to} \cdots 
+  \cdots \stackrel{k}{\longrightarrow} E \overset{j}{\to} D \overset{\varphi}{\longrightarrow} D \overset{k}{\to} E \overset{j}{\longrightarrow} \cdots 
   \,.
 $$
 
@@ -53,54 +53,7 @@ $$
 
 =--
 
-The archetypical example from which this and the following definition draw their meaning is the following.
-
-
-+-- {: .num_example}
-###### Example
-
-Let $X$ be a [[topological space]] or [[chain complex]] or [[spectrum]] or similar, and assume that it is equipped with a resolution of the form
-
-$$
-  \array{
-    X = X_0 &\stackrel{g_0}{\leftarrow}&  X_1 &\stackrel{g_1}{\leftarrow}& X_2 &\stackrel{g_2}{\leftarrow}& X_3 &\stackrel{}{\leftarrow}& \cdots
-    \\
-    \downarrow^{\mathrlap{f_0}} && \downarrow^{\mathrlap{f_1}} && \downarrow^{\mathrlap{f_2}} && \downarrow^{\mathrlap{f_3}} &&
-    \\
-    K_0 && K_1 && K_2 && K_3
-  }
-$$
-
-where each hook is a [[fiber sequence]]. Then the induced [[long exact sequences of homotopy groups]]
-
-$$
-  \cdots
-  \pi_\bullet(X_{s+1}) 
-  \longrightarrow
-  \pi_\bullet(X_s)
-  \longrightarrow
-  \pi_\bullet(K_s)
-  \longrightarrow
-  \cdots
-$$
-
-for all $s$ give an exact couple by taking $E$ and $D$ to be the [[bigraded object|bigraded]] [[abelian groups]]
-
-$$
-  D \coloneqq \pi_\bullet(X_\bullet)
-$$
-
-$$
-  E \coloneqq \pi_\bullet(K_\bullet)
-  \,.
-$$
-
-and taking $\phi$ and $k$ to be given by the [[functor|functoriality]] of the [[homotopy groups]] $\pi_{\bullet}$ and finally taking $j$ to be given by the [[connecting homomorphism]]. 
-
-For instance for the original [[diagram]] an [[Adams resolution]] then this [[spectral sequence]] is the [[Adams spectral sequence]].
-
-=--
-
+The archetypical example from which this and the following definition draw their meaning is example \ref{ExactCoupleOfATower} below.
 
 
 ### Spectral sequences from exact couples
@@ -130,11 +83,72 @@ The exact couple recipe for spectral sequences is notable in that it doesn't men
 
 ## Examples
 
-Examples of exact couples can be constructed in a number of ways.  Importantly, any short exact sequence involving two distinct chain complexes provides an exact couple among their total homology complexes, via the 
-[[Mayer-Vietoris long exact sequence]]; in particular, applying this procedure to the relative homology of a filtered complex gives precisely the [[spectral sequence of a filtered complex]].  
++-- {: .num_example #ExactCoupleOfATower}
+###### Example
 
-For another example, choosing a chain complex of flat modules $(C^\dot,d)$, tensoring with the short exact sequence
-$$ \mathbb{Z}/p\mathbb{Z} \to \mathbb{Z}/p^2\mathbb{Z} \to \mathbb{Z}/p\mathbb{Z} $$
+Let $X$ be a [[topological space]] or [[chain complex]] or [[spectrum]] or similar, and assume that it is equipped with a resolution of the form
+
+$$
+  \array{
+    X & =&  X_0 &\stackrel{g_0}{\leftarrow}&  X_1 &\stackrel{g_1}{\leftarrow}& X_2 &\stackrel{g_2}{\leftarrow}& X_3 &\stackrel{}{\leftarrow}& \cdots
+    \\
+    && \downarrow^{\mathrlap{f_0}} && \downarrow^{\mathrlap{f_1}} && \downarrow^{\mathrlap{f_2}} && \downarrow^{\mathrlap{f_3}} &&
+    \\
+    && K_0 && K_1 && K_2 && K_3
+  }
+$$
+
+where each hook is a [[fiber sequence]] (e.g. a [[Postnikov tower]] or [[Adams tower]]). Then the induced [[long exact sequences of homotopy groups]]
+
+$$
+  \cdots
+  \pi_\bullet(X_{s+1}) 
+  \longrightarrow
+  \pi_\bullet(X_s)
+  \longrightarrow
+  \pi_\bullet(K_s)
+  \longrightarrow
+  \cdots
+$$
+
+for all $s$ give an exact couple by taking $E$ and $D$ to be the [[bigraded object|bigraded]] [[abelian groups]]
+
+$$
+  D \coloneqq \pi_\bullet(X_\bullet)
+$$
+
+$$
+  E \coloneqq \pi_\bullet(K_\bullet)
+  \,.
+$$
+
+and taking $\phi$ and $k$ to be given by the [[functor|functoriality]] of the [[homotopy groups]] $\pi_{\bullet}$ and finally taking $j$ to be given by the [[connecting homomorphism]]. 
+
+For instance for the original [[diagram]] an [[Adams resolution]] then this [[spectral sequence]] is the [[Adams spectral sequence]].
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Any [[short exact sequence]] of [[chain complexes]] induces an exact couple among their total homology complexes, via the 
+[[Mayer-Vietoris long exact sequence]].
+
+In particular, applying this procedure to the relative homology of a [[filtered complex]] gives precisely the [[spectral sequence of a filtered complex]].  
+
+=--
+
++-- {: .num_example }
+###### Example
+
+
+Given a [[chain complex]] of [[flat modules]] $(C^\dot,d)$, [[tensor product of modules|tensoring]] with the [[short exact sequence]]
+
+$$ 
+   \mathbb{Z}/p\mathbb{Z} \to \mathbb{Z}/p^2\mathbb{Z} \to \mathbb{Z}/p\mathbb{Z} 
+
+$$
+
 gives the exact couple
 
 $$ 
@@ -146,7 +160,9 @@ $$
    \overset{p}{\to}H^\bullet(d,\mathbb{Z}/p^2\mathbb{Z})\cdots
 $$
 
-in which $\beta$ is the _mod-$p$ Bockstein_ homomorphism.
+in which $\beta$ is the _mod-$p$ [[Bockstein homomorphism]]_.
+
+=--
 
 ## References
 
