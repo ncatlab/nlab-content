@@ -1,0 +1,9 @@
+## References
+
+* [[Louis Kauffman]], Virtual Knot Theory, _European Journal of Combinatorics_ (1999) 20, 663-691. [pdf](http://homepages.math.uic.edu/~kauffman/VKT.pdf)
+
+* [[Louis Kauffman]], Introduction to Virtual Knot Theory. [arXiv](http://arxiv.org/abs/1101.0665)
+
+
+
+
