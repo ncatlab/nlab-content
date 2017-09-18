@@ -17,6 +17,7 @@
 {:toc}
 
 ## Idea 
+ {#Idea}
 
 There are various different perspectives on the notion of _topos_.  
 One is that a topos is a [[category]] that looks like a category of [[space]]s that sit by [[local homeomorphism]]s over a given base [[space]]: all spaces that are _locally modeled on_ a given base space.
