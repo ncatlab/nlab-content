@@ -91,6 +91,11 @@ The degeneration locus of the elliptic fibration -- where the [[discriminant]] $
 
 Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
 
+### F-brane scan
+ {#Fbranescan}
+
+[[!include F-branes -- table]]
+
 ### S-duality operation on $(p,q)$-branes
 
 The F-theory picture gives a geometric interpretation of the [[S-duality]] expected in [[type II string theory]], by which all branes carry _two_ integer charges $(p,q)$ acted on by $SL(2,\mathbb{Z})$. For instance the fundamental string ([[F1-brane]]) and the [[D1-brane]] combine to the $(p,q)$-string, and similarly the [[NS5-brane]] and the [[D5-brane]] combine to a $(p,q)$-5-brane.
