@@ -589,7 +589,7 @@ The second statement appears for instance as ([Kelly, prop. 4.23](#Kelly)).
 +-- {: .proof}
 ###### Proof
 
-For the first statement, using the [[coend]] formula for the left Kan extension we have naturally in $d' \in D$ the expression
+For the first statement, using the [[coend]] formula for the left Kan extension [above](#PointwiseByCoEnds) we have naturally in $d' \in D$ the expression
 
 $$
   \begin{aligned}
