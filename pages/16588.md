@@ -1,0 +1,9 @@
+
+
+* [webpage](http://people.physics.tamu.edu/dimitri/)
+
+## related $n$Lab entries
+
+* [[Starobinsky model of cosmic inflation]]
+
+category: people
