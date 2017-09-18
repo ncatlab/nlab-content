@@ -16,6 +16,8 @@
 
 ## Idea
 
+A _basis in functional analysis_ is a [[linear basis]] that is compatible with the [[topological space|topology]] of the underlying [[topological vector space]]. Therefore this is sometimes also referred to as a "topological basis", but beware that this term is also used for referring to the unrelated concept of a  "[[basis for the topology]]".
+ 
 [[basis|Bases]] in [[linear algebra]] are extremely useful tools for analysing problems.  Using a basis, one can often rephrase a complicated abstract problem in concrete terms, perhaps even suitable for a computer to work with.  A basis provides a way of describing a [[vector space]] in a way that:
 
 1. Is complete: every point in the space can be described in this fashion.
