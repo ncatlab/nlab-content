@@ -1535,6 +1535,7 @@ Often it is useful to reformulate def. \ref{ClosedSubset} of [[closed subsets]] 
 
 +-- {: .num_lemma #UnionOfOpensGivesClosure}
 ###### Lemma
+**(alternative characterization of closed subsets)**
 
 Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] of its underlying
 set. Then a point $x \in X$ is contained in the [[topological closure]] $Cl(S)$ (def. \ref{ClosedSubset})
@@ -3875,27 +3876,33 @@ contain $x$.
 ###### Proposition
 **($T_2$ in terms of topological closures)**
 
-A [[topological space]] $(X,\tau_X)$ is $T_2$=[[Hausdorff topological space|Hausdorff]] (def. \ref{HausdorffTopologicalSpace})
-precisely if the [[diagonal]] function $\Delta_X \colon (X, \tau_X) \longrightarrow (X \times X, \tau_{X \times X})$
-(example \ref{Diagonal}) is a [[closed map]] (def. \ref{OpenMap}).
+A [[topological space]] $(X,\tau_X)$ is $T_2$=[[Hausdorff topological space|Hausdorff]]
+precisely if the [[image]] of the [[diagonal]]
+
+$$
+  \array{
+     X &\overset{\Delta_X}{\longrightarrow}& X \times X
+     \\
+     x &\overset{\phantom{AAA}}{\mapsto}& (x,x)
+  }
+$$
+
+is a [[closed subset]] in the [[product topological space]]
+$(X \times X, \tau_{X \times X})$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-If $(X,\tau_X)$ is Hausdorff, then by definition for every pair of distinct points $x \neq y \in X$ there exists open neighbourhoods
-$U_x, U_y \in \tau_X$ such that $U_x \cap U_y = \emptyset$. In terms of the [[product topology]] (example \ref{BinaryProductTopologicalSpace})
-this means that every point $(x,y) \in X \times X$ which is not on the diagonal has an open neighbourhood $U_x \times U_y$ which
-still does not contain the diagonal. By definition this means that in fact every [[subset]] of the diagonal is a
-[[closed subset]] of $X \times X$, hence in particular those that are in the image under $\Delta_X$ of closed subsets of $X$.
-Hence $\Delta_X$ is a closed map.
+The Hausdorff condition, that for $x \neq y \in X$ then there exist disjoint open neighbourhood $U_x, U_y \subset X$, is equivalently rephrased in terms of the product topology as: Every point $(x,y) \in X$ which is not on the diagonal has an open neighbourhood $U_x \times U_y$ which still does not intersect the diagonal.
 
-Conversely, if $\Delta_X$ is a closed map, then the full diagonal (i.e. the image of $X$ under $\Delta_X$) is closed in $X \times X$,
-and hence this means that every points $(x,y) \in X \times X$ not on the diagonal has an open neighbourhood $U_x \times U_y$
-not containing the diagonal, i.e. such that $U_x \cap U_y = \emptyset$. Hence $X$ is Hausdorff.
+Hence if $X$ is Hausdorff, then the diagonal $\Delta_X(X) \subset X \times X$ is the complement of a union of such open sets, and hence is closed.
+
+Conversely, if the diagonal is closed, then (by [this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure)) every point $(x,y)$ not on the diagonal, hence with $x \neq y$, has an open neighbourhood $U_x \times U_y$ still not intersecting the diagonal, hence so that $U_x \cap U_y = \emptyset$. Thus $(X,\tau)$ is Hausdorff.
 
 =--
+
 
 $\,$
 
@@ -4016,8 +4023,8 @@ the proof of prop. \ref{ImplicationsAmongTheSeparationAxioms} even more trivial.
 
 The following shows that not every $T_2$-space/Hausdorff space is $T_3$/regular
 
-+-- {: .num_defn #KTopology}
-###### Definition
++-- {: .num_example #KTopology}
+###### Example
 **(K-topology)**
 
 Write
@@ -6410,6 +6417,20 @@ does not apply.
  {#ParacompactSpaces}
 
 
+The concept of [[compact topological space|compactness]] in topology ([above](#CompactSpaces))
+has several evident weakenings of interest. One is that of _[[paracompact topological space|paracompactness]]_
+(def. \ref{ParacompactSpace} below). This property is important in applications to [[algebraic topology]],
+where it guarantees notably that the [[abelian sheaf cohomology]] of a topological space may be computed in terms of 
+[[Cech cohomology]].
+
+A key fact is that [[paracompact topological spaces]] and [[normal topological space|normal]]
+spaces are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unit]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
+each of which is [[support|supported]] in only one patch of the cover, but whose [[sum]] is the unit function. 
+Existence of such partitions imply that structures on topological spaces which are glued together via [[linear maps]]
+(such as [[vector bundles]]) are well behaved.
+
+
+
 +-- {: .num_defn #LocallyFiniteCover}
 ###### Definition
 **([[locally finite cover]])**
@@ -6417,25 +6438,6 @@ does not apply.
 Let $(X,\tau)$ be a [[topological space]].
 
 An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all point $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
-
-=--
-
-+-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
-###### Lemma
-**([[shrinking lemma]])**
-
-Let $X$ be a [[topological space]] which is [[normal topological space|normal]] (def. \ref{NormalSpace}) and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]] (def. \ref{LocallyFiniteCover}).
-
-Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ (hence with the same index set)
-such that the [[topological closure]] $Cl(V_i)$ of its elements (def. \ref{ClosedSubset}) is contained in the original patches:
-
-$$
-  \underset{i \in I}{\forall}
-  \left(
-     V_i \subset Cl(V_i) \subset U_i
-  \right)
-  \,.
-$$
 
 =--
 
@@ -6460,7 +6462,15 @@ A [[topological space]] $(X,\tau)$ is called _[[paracompact topological space|pa
 
 =--
 
-The following says that if there exists a [[locally finite cover|locally finite]] [[refinement]] of a cover, then in fact there exists one with the same index set as the original cover. This will be useful in some of the proofs that follow.
+$\,$
+
+
+We consider a couple of technical lemmas related to [[locally finite covers]]
+which will be needed in the proof of prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity} below:
+
+1. [every locally finite refinement induces one with the original index set](#LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet)
+
+1. [every locally finite cover of a normal space contains the closure of one with smaller patches](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained) ("[[shrinking lemma]]")
 
 +-- {: .num_lemma #LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}
 ###### Lemma
@@ -6504,10 +6514,235 @@ $$
 
 Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows that $\{W_i \subset X\}_{i \in I}$ is locally finite.
 
+=--
+
+
++-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
+###### Lemma
+**([[shrinking lemma]] for locally finite covers)**
+
+Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]].
+
+Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is cotained in the original patches:
+
+$$
+  \underset{i \in I}{\forall}
+  \left(
+     V_i \subset Cl(V_i) \subset U_i
+  \right)
+  \,.
+$$
+
+=--
+
+We now prove this in  increasing generality, for  binary open covers (lemma \ref{ShrinkingLemmaForBinaryCover} below), then for finite covers (lemma \ref{ShrinkinglemmaForFiniteCovers}), then for locally finite countable covers (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}), and finally for general locally finite covers (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}, proof [below](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained)). The last statement needs the [[axiom of choice]].
+
++-- {: .num_lemma #ShrinkingLemmaForBinaryCover}
+###### Lemma
+**([[shrinking lemma]] for binary covers)**
+
+Let $(X,\tau)$ be a [[normal topological space]] and let $\{U \subset X\}_{i \in \{1,2\}}$ an [[open cover]] by two [[open subsets]].
+
+Then there exists an open set $V_1 \subset X$ whose [[topological closure]] is contained in $U_1$
+
+$$
+  V_1 \subset Cl(V_1) \subset U_1
+$$
+
+and such that $\{V_1,U_2\}$ is still an open cover of $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $U_1 \cup U_2 = X$ it follows (by [[de Morgan's law]]) that their [[complements]] $X \backslash U_i$ are [[disjoint subset|disjoint]] [[closed subsets]]. Hence by normality of $(X,\tau)$ there exist disjoint open subsets
+
+$$
+  V_1 \supset X \backslash U_2
+  \phantom{AAA}
+  V_2 \supset X \backslash U_1
+  \,.
+$$
+
+By their disjointness, we have the following inclusions:
+
+$$
+  V_1 \subset X \backslash V_2 \subset U_1
+  \,.
+$$
+
+In particular, since $X \backslash V_2$ is closed, this means that $Cl(V_1) \subset X \backslash(V_2)$.
+
+Hence it only remains to observe that $V_1 \cup U_2 = X$, by definition of $V_1$.
+
+
+=--
+
++-- {: .num_lemma #ShrinkinglemmaForFiniteCovers}
+###### Lemma
+**([[shrinking lemma]] for finite covers)**
+
+Let $(X,\tau)$ be a [[normal topological space]], and let $\{U_i \subset X\}_{i \in \{1, \cdots, n\}}$ be an [[open cover]] with a [[finite number]] $n \in \mathbb{N}$ of patches. Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that $Cl(V_i) \subset U_i$ for all $i \in I$.
 
 =--
 
 
++-- {: .proof}
+###### Proof
+
+By [[induction]] using lemma \ref{ShrinkingLemmaForBinaryCover}.
+
+To begin with, consider $\{ U_1, \underoverset{i = 2}{n}{\cup} U_i\}$. This is a binary open cover, and hence lemma \ref{ShrinkingLemmaForBinaryCover} gives an open subset $V_1 \subset X$ with $V_1 \subset Cl(V_1) \subset U_1$ such that $\{V_1, \underoverset{i = 2}{n}{\cup} U_i\}$ is still an open cover, and accordingly so is
+
+$$
+  \{ V_1  \} \cup \left\{ U_i \right\}_{i \in \{2, \cdots, n\}}
+  \,.
+$$
+
+Similarly we next find an open subset $V_2 \subset X$ with $V_2 \subset Cl(V_2) \subset U_2$ and such that
+
+$$
+  \{ V_1, ,V_2  \} \cup \left\{ U_i \right\}_{i \in \{3, \cdots, n\}}
+$$
+
+is an open cover. After $n$ such steps we are left with an open cover $\{V_i \subset X\}_{i \in \{1, \cdots, n\}}$ as required.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Beware that the [[induction]] in lemma \ref{ShrinkinglemmaForFiniteCovers} does _not_ give the statement for infinite [[countable covers]]. The issue is that it is not guaranteed that $\underset{i \in \mathbb{N}}{\cup} V_i$ is a cover.
+
+And in fact, assuming the [[axiom of choice]], then there exists a  counter-example of a countable cover on a normal spaces for which the shrinking lemma fails (a [[Dowker space]] due to [Beslagic 85](#Beslagic85)).
+
+=--
+
+This issue is evaded if we consider [[locally finite covers]]:
+
++-- {: .num_lemma #ShrinkingLemmaForLocallyFiniteCountableCovers}
+###### Lemma
+**([shrinking lemma]] for locally finite countable covers)**
+
+Let $(X,\tau)$ be a [[normal topological space]] and $\{U_i \subset X\}_{i \in \mathbb{N}}$ a [[locally finite cover|locally finite]] [[countable cover]]. Then there exists [[open subsets]] $V_i \subset X$ for $i \in \mathbb{N}$ such that $V_i \subset Cl(V_i) \subset U_i$ and such that $\{V_i \subset X\}_{i \in \mathbb{N}}$ is still a cover.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As in the proof of lemma \ref{ShrinkinglemmaForFiniteCovers}, there exist $V_i$ for $i \in \mathbb{N}$ such that $V_i \subset Cl(V_i) \subset U_i$ and such that for every finite number, hence every $n \in \mathbb{N}$, then
+
+$$
+  \underoverset{i = 0}{n}{\cup} V_i
+  \;=\;
+  \underoverset{i = 0}{n}{\cup} U_i
+  \,.
+$$
+
+Now the extra assumption that $\{U_i \subset X\}_{i \in I}$ is [[locally finite cover|locally finite]] implies that every $x \in X$ is contained in only finitely many of the  $U_i$, hence that for every $x \in X$ there exists $n_x \in \mathbb{N}$ such that
+
+$$
+  x \in \underoverset{i = 0}{n_x}{\cup} U_i
+  \,.
+$$
+
+This implies that for every $x$ then
+
+$$
+  x \in \underoverset{i = 0}{n_x}{\cup} V_i
+  \subset \underset{i \in \mathbb{N}}{\cup} V_i
+$$
+
+hence that $\{V_i \subset X\}_{i \in \mathbb{N}}$ is indeed a cover of $X$.
+
+=--
+
+We now invoke [[Zorn's lemma]] to generalize the shrinking lemma for finitely many patches (lemma \ref{ShrinkinglemmaForFiniteCovers}) to arbitrary sets of patches:
+
++-- {: .proof}
+###### Proof
+of the general [[shrinking lemma]] \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
+
+Let $\{U_i \subset X\}_{i \in I}$ be the given locally finite cover of the normal space $(X,\tau)$. Consider the set $S$ of [[pairs]] $(J, \mathcal{V})$ consisting of
+
+1. a [[subset]] $J \subset I$;
+
+1. an $I$-indexed set of open subsets $\mathcal{V} = \{V_i \subset X\}_{i \in I}$
+
+with the property that
+
+1. $(i \in J \subset I) \Rightarrow ( Cl(V_i) \subset U_i )$;
+
+1. $(i \in I \backslash J) \Rightarrow ( V_i = U_i )$.
+
+1. $\{V_i \subset X\}_{i \in I}$ is an open cover of $X$.
+
+Equip the set $S$ with a [[partial order]] by setting
+
+$$
+  \left(
+    (J_1, \mathcal{V})
+    \leq
+    (J_2, \mathcal{V})
+  \right)
+    \Leftrightarrow
+  \left(
+    \left(
+      J_1 \subset J_2
+    \right)
+    \,\text{and}\,
+    \left(
+      \underset{i \in J_1}{\forall}
+      \left(
+         V_i = W_i
+      \right)
+    \right)
+  \right)
+  \,.
+$$
+
+By definition, an element of $S$ with $J = I$ is an open cover of the required form.
+
+We claim now that a [[maximal element]] $(J, \mathcal{V})$ of $(S,\leq)$ has $J = I$.
+
+For assume on the contrary that there were $i \in I \backslash J$. Then we could apply the construction in lemma \ref{ShrinkingLemmaForBinaryCover} to replace that single $V_i$ with a smaller open subset $V'_i$ to obtain $\mathcal{V}'$ such that $Cl(V'_i) \subset V_i$ and such $\mathcal{V}'$ is still an open cover. But that would mean that $(J,\mathcal{V}) \lt (J \cup \{i\}, \mathcal{V}')$, contradicting the assumption that $(J,\mathcal{V})$ is maximal. This [[proof by contradiction|proves by contradiction]] that a maximal element of $(S,\leq)$ has $J = I$ and hence is an open cover as required.
+
+We are reduced now to showing that a maximal element of $(S,\leq)$ exists. To achieve this we invoke [[Zorn's lemma]]. Hence we have to check that every [[chain]] in $(S,\leq)$, hence every [[total order|totally ordered]] [[subset]] has an [[upper bound]].
+
+So let $T \subset S$ be a [[total order|totally ordered]] subset. Consider the union of all the index sets appearing in pairs in this subset:
+
+$$
+  K
+    \;\coloneqq\;
+  \underset{(J,\mathcal{V}) \in T  }{\cup} J
+  \,.
+$$
+
+Now define open subsets $\mathcal{W}_i$ for $i \in K$ picking any $(J,\mathcal{V})$ in $T$ with $i \in J$ and setting
+
+$$
+  W_i \coloneqq V_i \phantom{AAA} i \in K
+  \,.
+$$
+
+This is independent of the choice of $(J,\mathcal{V})$, hence well defined, by the assumption that $(T,\leq)$ is totally ordered.
+
+Moreover, for $i \in I\backslash K$ define
+
+$$
+  W_i \coloneqq U_i  \phantom{AAA} i \in I \backslash K
+  \,.
+$$
+
+We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \backslash J_x) \Rightarrow (i \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$.
+
+This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by construction that it is an upper bound for $(T ,\leq )$. Hence we have shown that every [[chain]] in $(S,\leq)$ has an upper bound, and so Zorn's lemma implies the claim.
+
+
+
+=--
 
 
 
@@ -6555,10 +6790,11 @@ Due to the second clause in def. \ref{PartitionOfUnity}, the [[sum]] in the thir
 
 +-- {: .num_prop #ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
 ###### Proposition
+**([[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]])**
 
 Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 
-1. $(X,\tau)$ is a [[paracompact Hausdorff space]].
+1. $(X,\tau)$ is a [[paracompact Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{ParacompactSpace}).
 
 1. Every [[open cover]] of $(X,\tau)$ admits a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
 
@@ -6572,7 +6808,7 @@ One direction is immediate: Assume that every open cover $\{U_i \subset X\}_{i \
 
 We need to show the converse: If $(X,\tau)$ is a [[paracompact topological space]], then for every [[open cover]] $\{U_i \subset X\}_{i \in I}$ there is a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
 
-To that end, first apply lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet small open cover  $\{W_i \subset X\}_{i \in I}$, so that now
+To that end, first apply the [[shrinking lemma]] \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet small open cover  $\{W_i \subset X\}_{i \in I}$, so that now
 
 $$
   \underset{i \in I}{\forall}
@@ -7559,24 +7795,19 @@ A canonical compendium is
 
 Introductory textbooks include
 
+* {#Kelley55} [[John Kelley]] _General Topology_, Graduate Texts in Mathematics, Springer (1955)
+
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
 
 * {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
-
-See also
-
-* [[Alan Hatcher]], _[Algebraic Topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
-
-and see also the references at _[[algebraic topology]]_.
 
 Lecture notes include
 
 * {#Waldhausen} [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
-Disucssion of [[sober topological spaces]] is in
+See also the references at _[[algebraic topology]]_.
+
+Discussion of [[sober topological spaces]] is in
 
 * {#Johnstone82} [[Peter Johnstone]], section II 1. of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
 
-See also
-
-* [[Topospaces]], a Wiki with basic material on topology.
