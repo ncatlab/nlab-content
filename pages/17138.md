@@ -1,0 +1,396 @@
+
+> This entry contains one chapter of _[[geometry of physics]]_, see there for context and background.
+
+> previous chapters: _[[geometry of physics -- homotopy types|homotopy types]]_, _[[geometry of physics -- smooth homotopy types]]_
+
+> next chapters: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- geometric quantization with KU-coefficients|geometric quantization with KU-coefficients]]_
+
+***
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Introduction
+
+We discuss [[spectra]] in the sense of [[algebraic topology]]: the proper generalization of [[abelian groups]] to [[homotopy theory]]. Since these are universally characterized as being the [[stabilization]] of plain [[homotopy types]] under [[looping and delooping]], one speaks of _[[stable homotopy theory]]_.
+
+$$
+  homotopy\;types
+  \underoverset{stabilization}{(linearization)}{\mapsto}
+  spectra
+$$
+
+Since spectra are considerably richer than abelian groups, stable homotopy is much concerned with "[[fracture theorem|fracturing]]" stable homotopy types into more tractable components:
+
+From the point of view of [[arithmetic geometry]], an [[abelian group]] $A$ is equivalently a [[quasicoherent sheaf]] over [[Spec(Z)]]. This point of view generalizes to homotopy theory and turns out to be very fruitful there. The analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S}$, and this is naturally the [[initial object in an (infinity,1)-category|initial]] [[commutative ring spectrum]] ("[[E-∞ ring]]"), just as $\mathbb{Z}$ is the [[initial object|initial]] [[commutative ring]]. The [[formal dual]]  [[Spec(S)]] of $\mathbb{S}$ is hence the [[terminal object in an (infinity,1)-category|terminal]] [[space]] in [[E-∞ arithmetic geometry]] ("[[spectral geometry]]") and [[spectra]] are equivalently the [[quasicoherent ∞-stacks]] over $Spec(\mathbb{S})$
+
+$$
+  Spectra \simeq QCoh(Spec(\mathbb{S}))
+  \,.
+$$
+
+Therefore the study of spectra "[[fracture theorem|fractures]]" into the various [[localizations]] and [[formal completions]] of $Spec(S)$. Since this is like the white light of $Spec(S)$ decomposing into various wavelengths, one speaks of _[[chromatic homotopy theory]]_. 
+
+In particular, any  [[E-∞ ring]] $E$ is [[formal dual|dually]] a morphism of $E_\infty$-algebraic spaces $Spec(E) \longrightarrow Spec(\mathbb{S})$ and under good conditions the [[1-image]] of this map is the [[formal dual]] of the [[Bousfield localization of spectra]] of $\mathbb{S}$ at $E$:
+
+$$
+  Spec(E) \stackrel{epi_1}{\longrightarrow} Spec(L_E \mathbb{S}) \stackrel{mono_1}{\longrightarrow} Spec(\mathbb{S})
+ \,.
+$$
+
+This means that $Spec(E) \longrightarrow Spec(L_E \mathbb{S})$ is a [[cover]] and that hence $E$-local spectra are equivalently [[quasicoherent ∞-stacks]] on $Spec(E)$ equipped with [[descent data]]: [[formal dual|dually]] they are [[∞-modules]] over $E$ equipped with [[comodule]] structure over the [[Hopf coalgebroid] ([[Sweedler coring]]) $E \otimes_{\mathbb{S}} E$.
+
+The computation of [[homotopy groups]] of spectra that make use of their decomposition this way into $E$-[[∞-modules]] equipped with [[descent]] data is the _$E$-[[Adams spectral sequence]]_, a central tool of the theory.
+
+For this reason special importance is carried by those [[E-∞ rings]] such that $Spec(E) \to Spec(\mathbb{S})$ is already a [[covering]], for these the $E$-[[∞-modules]] equipped with descent data give an equivalent, but in general more tractable, incarnation of the stable homotopy theory of spectra.
+
+Curiously, a good bit of [[differential geometry]] and of structures known from [[physics]] arises within the abstract stable homotopy theory this way: the archetypical $Spec(E)$ which covers $Spec(\mathbb{S})$ is $E = $ [[MU]], the [[Thom spectrum]] for [[complex vector bundles]].
+ 
+
+## **1)** Stable homotopy theory
+ 
+### Spectra
+
+### Ring spectra
+
+### Module spectra
+
+
+## **2)** Adams-Novikov spectral sequences
+
+Write $HoSpectra$ for the [[stable homotopy category]] and write 
+
+$$
+  [-,-] \;\colon\; HoSpectra^{op} \times HoSpectra \longrightarrow Ab
+$$
+
+for the [[hom-functor]] with values in [[abelian groups]].
+
++-- {: .num_defn #HomotopyFunctor}
+###### Definition
+
+For $S \in HoSpectra$, the _homotopy functor it represents_ it to me the [[representable functor]]
+
+$$
+  [S,-] \;\colon\; HoSpectra \longrightarrow Ab
+$$
+
+(as opposed to the other, contravariant, functor).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $S = \Sigma^\infty S^n \simeq \Sigma^n \mathbb{N}$ then 
+
+$$
+  [\Sigma^\infty S^n ,- ]\simeq \pi_n
+$$
+
+is the $n$th [[homotopy group]]-functor.
+
+=--
+
+
+Throughout, let $E$ be a [[ring spectrum]]. 
+
+
+
+#### $E$-Injective spectra
+
+First we consider a concept of of $E$-[[injective objects]] in [[Spectra]].
+
+
++-- {: .num_defn #ExactSequences}
+###### Definition
+
+Say that 
+
+1. a sequence of spectra
+
+   $$
+     A_1 \longrightarrow A_2 \longrightarrow \cdots \longrightarrow A_n
+   $$
+
+   is 
+
+   1. a (long) _exact sequence_ if the induced sequence of homotopy functors, def. \ref{HomotopyFunctor}, is a [[long exact sequence]] in $[HoSpectra,Ab]$;
+
+   2. (for $n = 2$) a _short exact sequence_ if
+
+      $$
+        0 \longrightarrow A_1 \longrightarrow A_2 \longrightarrow A_3 \longrightarrow 0
+      $$
+
+      is (long) exact;
+
+
+1. a morphism $A \longrightarrow B$  is 
+
+   1. a _monomorphism_ if $0 \longrightarrow A \longrightarrow B$ is an exact sequence;
+
+   1. an _epimorphism_ if $A \longrightarrow B \longrightarrow 0$ is an exact sequence.
+
+For $E$ a [[ring spectrum]], then a sequence of spectra is (long/short) _$E$-exact_ and a morphism is epi/mono, respectively, if becomes long/short exact or epi/mono, respectively, after taking [[smash product of spectra|smash product]] with $E$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Every [[homotopy cofiber sequence]] of spectra is exact in the sense of def. \ref{ExactSequences}. 
+
+=--
+
++-- {: .num_remark}
+###### Remark/Warning
+
+Consecutive morphisms in an $E$-exact sequence according to def. \ref{ExactSequences} in general need not compose up to homotopy, to the [[zero morphism]]. But this does become true for sequences of $E$-injective objects, defined below in def. \ref{EInjective}.
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+1. If $f \colon B\longrightarrow A$ is a monomorphism in the sense of def. \ref{ExactSequences}, then there exists a morphism $g \colon C \longrrightarrow A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
+
+   $$
+     f \vee g \;\colon\; B \wedge C \stackrel{\simeq}{\longrightarrow} A
+     \,.
+   $$
+
+1. If $f \colon A \longrightarrow B$ is an epimorpimsm in the sense of def. \ref{ExactSequences}, then there exists a homotopy [[section]] $s \colon B\to A$, i.e. $f\circ s\simeq Id$, together with a morphism $g \colon C \to A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
+
+   $$
+     s \vee f \colon B\vee C \stackrel{\simeq}{\longrightarrow} A
+     \,.
+   $$
+
+=--
+
++-- {: .num_defn #EInjective}
+###### Definition
+
+For $E$ a [[ring spectrum]], say that a spectrum $S$ is _$E$-injective_ if for each morphism $A \longrightarrow S$ and  each $E$-monomorphism $f \colon A \longrightarrow S$ in the sense of def. \ref{ExactSequences}, there is a [[diagram]] in [[HoSpectra]] of the form
+
+$$
+  \array{
+    A &\longrightarrow & S 
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists}}
+    \\
+    B
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+If $S$ is $E$-injective in the sense of def. \ref{EInjective}, then there exists a spectrum $X$ such that $S$ is a [[retract]] in [[HoSpectra]] of $E \wedge X$.
+
+=--
+
+#### $E$-Adams resolutions
+
++-- {: .num_defn #EAdamsResolution}
+###### Definition
+
+For $E$ a [[ring spectrum]], then an _$E$-Adams resolution_ of an spectrum $S$ is a long exact sequence, in the sense of def. \ref{ExactSequences}, of the form
+
+
+$$
+  0 \longrightarrow S \longrightarrow I_0 \longrightarrow I_1 \longrightarrow I_2 \longrightarrow \cdots
+$$
+
+such that each $I_j$ is $E$-injective, def. \ref{EInjective}.
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+Any two consecutive maps in an $E$-Adams resolution compose to the [[zero morphism]].
+
+=--
+
+
++-- {: .num_lemma}
+###### Lemma
+
+For $X \to X_\bullet$ an $E$-Adams resolution, def. \ref{EAdamsResolution}, and for $X \longrightarrow Y$ any morphism, then there exists an $E$-Adams resolution $Y \to J_\bullet$ and a [[commuting diagram]]
+
+$$
+  \array{
+     X &\longrightarrow& I_\bullet
+     \\
+     \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g_\bullet}}
+     \\
+     Y &\longrightarrow& J_\bullet
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+**(standatd resolution)**
+
+Consider the augmented [[cosimplicial object|cosimplicial]] which is the $\mathbb{S} \to E$-[[Amitsur complex]] [[smash product of spectra|smashed]] with $X$:
+
+$$
+  X \longrightarrow E \wedge X \stackrel{\longrightarrow}{\longrightarrow} E \wedge E \wedge X \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+  E \wedge E \wedge E \wedge X
+ \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
+ \cdots
+  \,.
+$$
+
+Its corresponding [[Moore complex]] (the sequence whose maps are the alternating sum of the above coface maps) is an $E$-Adams resolution, def. \ref{EAdamsResolution}.
+
+=--
+
+#### $E$-Adams towers
+
++-- {: .num_defn #EAdamsTower}
+###### Definition
+
+An _$E$-Adams tower_ of a spectrum $X$ is a [[commuting diagram]] in [[HoSpectra]] of the form
+
+$$
+  \array{
+    && \vdots
+    \\
+    && \downarrow^{\mathrlap{p_2}}
+    \\
+    && X_2 &\stackrel{\kappa_2}{\longrightarrow}& \Omega^2 I_3
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_1}}
+    \\
+    && X_1 &\stackrel{\kappa_1}{\longrightarrow}& \Omega I_2
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_0}}
+    \\
+    X 
+    &\underset{}{\longrightarrow}&
+    X_0 = I_0
+    &\stackrel{\kappa_0}{\longrightarrow}&
+    I_1
+  }
+$$
+
+such that 
+
+1. each hook is a [[homotopy fiber sequence]];
+
+1. the [[composition]] of the $(\Sigma \dashv \Omega)$-[[adjuncts]] of $\Sigma_{p_{n-1}}$ with $\Sigma^n \kappa_n$
+
+   $$
+     i_{n+1} \;\colon\; I_n \stackrel{\widetilde {\Sigma p_{n-1}}}{\longrightarrow}
+     \Sigma^n X_n \stackrel{\Sigma^{n}\kappa_n}{\longrightarrow} I_{n+1}
+   $$
+
+   constitute an $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}:
+
+   $$
+     0 \to X \stackrel{i_0}{\to} I_0 \stackrel{i_2}{\to} I_2 \stackrel{}{\to} \cdots
+     \,.
+   $$
+
+Call this the _associated $E$-Adams resolution_ of the $E$-Adams tower.
+
+The _associated inverse sequence_ is
+
+$$
+  X = X_0 \stackrel{\gamma_0}{\longleftarrow} \Omega C_1 \stackrel{\gamma_1}{\longleftarrow} C_2 \longleftarrow \cdots
+$$
+
+where $C_{k+1} \coloneqq hocofib(i_k)$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In ([Ravenel](#Ravenel)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
+
+=--
++-- {: .num_example}
+###### Example
+
+Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-Adams tower, def. \ref{EAdamsTower} of which it is the associated $E$-Adams resolution.
+
+=--
+
+#### $E$-Adams spectral sequence
+
++-- {: .num_defn}
+###### Definition
+
+Given an $E$-Adams tower as in  def. \ref{EAdamsTower}, the associated [[exact couple]] is
+
+$$
+  \array{
+    \mathcal{D} && \stackrel{p}{\longrightarrow} &&  \mathcal{D}
+    \\
+    & {}_{\mathllap{\partial}}\nwarrow && \swarrow_{\mathrlap{\kappa}} 
+    \\
+    && \mathcal{E}    
+  }
+$$
+
+with 
+
+$$
+  \mathcal{D} \coloneqq
+  \oplus_{s,t} \mathcal{D}^{s,t}
+  \coloneqq
+  \oplus_{s,t} \pi_{t-s}(X_s)
+$$
+
+$$
+  \mathcal{E} \coloneqq 
+  \oplus_{s,t} \mathcal{E}^{s+1,t}
+  \coloneqq
+  \oplus_{s,t} \pi_{t-s}(\Omega^s I_{s+1})
+$$
+
+and
+
+$$
+  p \colon \pi_{t-s}(X_{s+1})\stackrel{\pi_{t-s}(p_s)}{\longrightarrow}
+   X_{t-s}(X_s)
+$$
+
+$$
+  \kappa \colon \pi_{t-s}(X_s)
+  \stackrel{\pi_{t-s}(\kappa_s)}{\longrightarrow} \pi_{t-s}(\Omega^s I_{s+1})
+$$
+
+$$
+  \partial \colon \pi_{t-s}(\Omega^s I_{s+1})
+  \stackrel{\pi_{t-s}(\partial_s)}{\longrightarrow}
+  \pi_{t-s}(\Sigma X_{s+1})
+  \,.
+$$
+
+
+
+=--
+
+
+
+## **3)** Geometry over $Spec(\mathbb{S})$
+
+
+## References
+
+
+
