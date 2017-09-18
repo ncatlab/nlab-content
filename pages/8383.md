@@ -20,7 +20,7 @@
 
 ## Definition
 
-### Index monoidal category
+### Indexed monoidal category
 
 An **indexed monoidal category** is a kind of [[indexed category]], consisting of a base [[category]] $S$ and a [[pseudofunctor]] $S^{op} \to MonCat$ to the [[2-category]] of [[monoidal categories]] and [[strong monoidal functors]] between them. We write this as $A\mapsto (C^A, \otimes_A, I_A)$.  
 
