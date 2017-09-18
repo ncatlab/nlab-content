@@ -1,0 +1,8 @@
+
+* [webpage](http://www-users.york.ac.uk/~cjf3/)
+
+## related $n$Lab entries
+
+* [[AQFT on curved spacetimes]]
+
+category: people
