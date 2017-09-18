@@ -145,7 +145,9 @@ $$
 
 ## Related concepts
 
-The Boardman-Vogt tensor product extends from operads to a tensor product on [[dendroidal sets]]. See there for more details.
+* The Boardman-Vogt tensor product extends from operads to a tensor product on [[dendroidal sets]]. See there for more details.
+
+* [[tensor product of monads]]
 
 ## References
 
@@ -155,8 +157,8 @@ The original reference is
 
 A review is in
 
-* [[Ittay Weiss]], _From Operads to Dendroidal Sets_, in _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS (2011) ([arXiv:1012.4315](http://arxiv.org/abs/1012.4315))
-  {#Weiss}
+* {#Weiss} [[Ittay Weiss]], _From Operads to Dendroidal Sets_, in _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS (2011) ([arXiv:1012.4315](http://arxiv.org/abs/1012.4315))
+  
 
 see around def. 2.21 there.
 
