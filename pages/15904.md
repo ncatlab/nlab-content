@@ -83,5 +83,11 @@ is genuine data: this is a choice of [[orthogonal structure]]/[[vielbein]] on $\
 
 An analogous situation is obtained for any inclusion of a [[maximal compact subgroup]] into a given [[Lie group]] and the corresponding notion of [[G-structure]]. All $G$-structures arising this way are invisible to classifying maps, but are seen by modulating maps. See at _[[twisted differential c-structure]]_ for a list of further examples
 
+## References
+
+The terminology "modulating" in the context of "moduli stacks" would seem to be inevitable but is not used much in practice. One place where it is used consistently is 
+
+* {#BenZvi} [[David Ben-Zvi]], _Moduli Spaces_ ([pdf](https://www.ma.utexas.edu/users/benzvi/math/pcm0178.pdf))
+
 [[!redirects modulates]]
 [[!redirects modulating]]
