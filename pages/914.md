@@ -29,7 +29,7 @@ For example [[sequentially compact metric spaces are equivalently compact metric
 
 Inspection of these counter-examples reveals that the problem is that sequences indexed by the [[natural numbers]] may be "too short" in that they cannot go deep enough into uncountable territory, and they are "too slim" in that they proceed to their potential limiting point only from one direction, instead of from many at once. The use of general [[directed sets]] for nets in place of just the [[natural numbers]] for sequences fixes these two issues. 
 
-While the concept of nets is similar to that of sequences, one gets a cleaner theory still by considering not the nets themselves but their "[[filters]] of subsets which they eventually meet" (def. \ref{EventuallyAndFrequently} below), called their _[[eventuality filters]]_ (def. \ref{EventualityFilter} below). For example equivalent filters are equal (in contrast to nets) and (unless in [[predicative mathematics]]) the set of filters on a set $X$ is [[small set|small]] (not a proper class).
+While the concept of nets is similar to that of sequences, one gets a cleaner theory still by considering not the nets themselves but their "[[filters]] of [[subsets]] which they eventually meet" (def. \ref{EventuallyAndFrequently} below), called their _[[eventuality filters]]_ (def. \ref{EventualityFilter} below). For example equivalent filters are equal (in contrast to nets) and (unless in [[predicative mathematics]]) the set of filters on a set $X$ is [[small set|small]] (not a proper class).
 
 
 ## Definitions
@@ -144,9 +144,9 @@ We say that the net $\nu$
 
 ### Subnets
 
-The definition of the concept of _sub-nets_ of a net requires some care. The point of the definition is to ensure that prop \ref{...} below becomes true, which characterizes [[compact topological spaces]] as those in which every net has a sub-net that [[convergence|converges]] (def. \ref{Convergence}).
+The definition of the concept of _[[sub-nets]]_ of a net requires some care. The point of the definition is to ensure that prop \ref{...} below becomes true, which states that [[compact spaces equivalently have converging subnet of every net|compact spaces are equivalently those for which every net has a converging subnet]].
 
-There are several different definitions of 'subnet' in the literature, all of which intend to generalise the concept of subsequences.  We state them now in order of increasing generality.  Note that it is Definition \ref{AA} which is correct in that it corresponds precisely to refinement of filters.  However, the other two definitions (def. \ref{Willard}, def. \ref{Kelley}) are sufficient (in a sense made precise by theorem \ref{EquivalenceOfDefinitionsOfSubnets} below) and may be easier to work with.
+There are several different definitions of '[[subnet]]' in the literature, all of which intend to generalise the concept of subsequences.  We state them now in order of increasing generality.  Note that it is Definition \ref{AA} which is correct in that it corresponds precisely to refinement of filters.  However, the other two definitions (def. \ref{Willard}, def. \ref{Kelley}) are sufficient (in a sense made precise by theorem \ref{EquivalenceOfDefinitionsOfSubnets} below) and may be easier to work with.
 
 
 +-- {.num_defn #Willard}
@@ -434,5 +434,3 @@ Lecture notes include
 [[!redirects net]]
 [[!redirects nets]]
 
-[[!redirects subnet]]
-[[!redirects subnets]]
