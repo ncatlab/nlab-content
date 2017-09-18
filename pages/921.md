@@ -30,7 +30,7 @@ Exactly how to define or characterise real numbers is still important in [[const
 There are two basic approaches possible: to define what a __real number__ is as a mathematical object, or to define the __real line__ as a specific object in some previously known [[category]].
 
 
-### Dedekind cuts
+### Dedekind cuts {#Dedekind}
 
 Consider two [[inhabited set|inhabited]] subsets, $L$ and $U$, of $\mathbb{Q}$ (the set of [[rational numbers]]) such that:
 
