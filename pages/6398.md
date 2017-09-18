@@ -87,7 +87,7 @@ Volume 178, Issues 2-3, 2 October 1986, Pages 207-210
 * I. Bars, D. Nemschansky and S. Yankielowicz, SLACPub-
 3758.
 
-This involves the relation between the [[octonion]] algebra an [[spinor]]s in 2+8 dimensions (see also [[division algebra and supersymmetry]]):
+This involves the relation between the [[octonion]] algebra and [[spinor]]s in 2+8 dimensions (see also [[division algebra and supersymmetry]]):
 
 * H. Tachibana, K. Imeda, _Octonions, superstrings and ten-dimensional spinors_ , Il nuovo cimento, Vol 104 B N.1
 
