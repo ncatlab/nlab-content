@@ -1,7 +1,13 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-When interpreting the [[Frobenius morphisms]] that appear in the [[Artin L-functions]] geometrically as flows (as discussed at _[Borger's arithmetic geometry -- Motivation](Borger's+absolute+geometry#Motivation)_) then this induces an evident analog of _[[zeta function]] of a [[dynamical system]]_. The archetypal example is the _Ruelle zeta function_.
+When interpreting the [[Frobenius morphisms]] that appear in the [[Artin L-functions]] geometrically as flows (as discussed at _[Borger's arithmetic geometry -- Motivation](Borger's+absolute+geometry#Motivation)_) then this induces an evident analog of _[[zeta function]] of a [[dynamical system]]_. The archetypal example is the _Ruelle zeta function_. 
+
+For the moment see at _[[Selberg zeta function]]_ for more.
 
 
 
