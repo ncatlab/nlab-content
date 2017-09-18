@@ -66,6 +66,7 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
 ## Related concepts
 
+
 * [[connection on a bundle]]
 
   * [[connection on a 2-bundle]], [[connection on an infinity-bundle]]
@@ -76,7 +77,7 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
   * [[holonomy group]]
 
-  * **special holonomy**, [[reduction of structure groups]], [[G-structure]],  [[exceptional geometry]]
+  * **special holonomy**, [[reduction of structure groups]], [[G-structure]],  [[exceptional geometry]], [[Walker coordinates]]
 
 ## References
 
