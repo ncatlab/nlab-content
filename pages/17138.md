@@ -3419,13 +3419,6 @@ Further motivation which is the subject of the [seminar](#ComplexOrientedCohomol
 
   [[Thom's theorem]]
 
-
-
-
-### The stable homotopy category
- {#Spectra}
-
-
 The [[stable homotopy category]] is to be the proper [[stabilization]] of the classical [[homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the classical [[homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
 
 $$
@@ -3468,12 +3461,17 @@ As one moves down this list, the objects modelling the spectra become richer. Th
 We start with plain sequential spectra here as a transparent means to see the [[stable homotopy category]]. When we get to the discussion of [[ring spectra]] [below](#RingSpectra) with the basic applications in mind, it is convenient to pass to the richer model of [[symmetric spectra]].
 
 
-+-- {: .num_defn #SequentialSpectrum}
+
+### **1.1)** Sequential spectra
+
+#### Sequential pre-spectra
+
++-- {: .num_defn #SequentialSpectra}
 ###### Definition
 
-A _[[sequential spectrum|sequential]]_ [[pre-spectrum]] in [[simplicial sets]], is an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
+A _[[spectrum]]_ $X$ in the following means a [[sequential spectrum|sequential]] [[pre-spectrum]] in [[simplicial sets]], hence an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
 
-A [[homomorphism]] $f \colon X \to Y$ of sequential prespectra is a collection $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
+ A [[homomorphism]] $f \colon X \to Y$ of spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
 
 $$
   \array{
@@ -3487,20 +3485,20 @@ $$
 
 [[commuting diagram|commute]].
 
-This gives a [[category]] $SeqPreSpec(sSet)$ of sequential prespectra.
+Write $SeqSpec(sSet)$ for this [[category]] of spectra.
 
 =--
 
 +-- {: .num_example #SmashProductOfSpectrumWithSimplicialSet}
 ###### Example
 
-For $X \in SeqPreSpec(sSet)$ and $K \in $ [[sSet]], hence $K_+ \in sSet^{\ast/}$ then $X \wedge K_+$ is the spectrum which is degreewise given by the [[smash product]] of [[pointed objects]]
+For $X \in SeqSpec(sSet)$ and $K \in $ [[sSet]], hence $K_+ \in sSet^{\ast/}$ then $X \wedge K_+$ is the sequential spectrum degreewise given by the [[smash product]] of pointed objects
 
 $$
   (X \wedge K_+)_n \coloneqq (X_n \wedge K_+)
 $$
 
-and whose structure maps are given by
+and with structure maps given by
 
 $$
   S^1 \wedge (X_n \wedge K_+) \simeq (S^1 \wedge X_n) \wedge K_+ \stackrel{\sigma_n \wedge K_+}{\longrightarrow} X_{n+1}\wedge K_+
@@ -3512,19 +3510,57 @@ $$
 +-- {: .num_prop #SimplicialEnrichment}
 ###### Proposition
 
-The category $SeqPreSpec$ of def. \ref{SequentialSpectrum} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
+The category $SeqSpec$ of def. \ref{SequentialSpectra} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
 
 $$
-  [X,Y]_n \coloneqq Hom_{SeqPreSpec(sSet)}(X\wedge \Delta[n]_+,Y)
+  [X,Y]_n \coloneqq Hom_{SeqSpec(sSet)}(X\wedge \Delta[n]_+,Y)
   \,.
 $$
 
 =--
 
++-- {: .num_defn #StableHomotopyGroups}
+###### Definition
+
+The [[stable homotopy groups]] of a [[sequential spectrum]] $X$, def. \ref{SequentialSpectra}, is the $\mathbb{Z}$-[[graded abelian groups]] given by the [[colimit]] of [[homotopy groups]] of [[geometric realizations]] of the component spaces
+
+$$
+  \pi_\bullet(X)
+  \coloneqq
+  \underset{\longrightarrow}{\lim}_k
+  \pi_{\bullet+k}({\vert X_n \vert})
+  \,.
+$$
+
+This constitutes a [[functor]]
+
+$$
+  \pi_\bullet \;\colon\; SeqSpec(sSet) \longrightarrow Ab^{\mathbb{Z}}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #StableWeakEquivalenceOfSequentialsSetSpectra}
+###### Definition
+
+A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a [[stable weak homotopy equivalence]], if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
+
+$$
+  \pi_\bullet(f) \;\colon\; \pi_\bullet(X) \longrightarrow \pi_\bullet(Y)
+  \,.
+$$
+
+=--
+
+
+
+#### Omega-spectra
+
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-An _[[Omega-spectrum]]_ in the following is a sequential prespectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahsv$pointed-hom [[adjuncts]]
+A _[[Omega-spectrum]]_ is a sequential spectrum $X$, def. \ref{SequentialSpectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] the pointed-hom [[adjuncts]]
 
 $$
   {\vert X_n\vert} \stackrel{}{\longrightarrow} {\vert X^{n+1}\vert}^{{\vert S^1\vert}}
@@ -3534,34 +3570,33 @@ of the structure maps ${\vert \sigma_n\vert}$ are [[weak homotopy equivalences]]
 
 =--
 
++-- {: .num_remark #StableHomotopyGroupsOfOmegaSpectrum}
+###### Remark
 
-
-+-- {: .num_defn #StableHomotopyGroups}
-###### Definition
-
-The [[stable homotopy groups]] of a spectrum $X$, def. \ref{Spectra}, is the $\mathbb{Z}$-[[graded abelian groups]] given by the [[colimit]] of [[simplicial homotopy groups]]
-
-$$
-  \pi_\bullet(X)
-  \coloneqq
-  \underset{\longrightarrow}{\lim}_k
-  \pi_{\bullet+k}(X_n)
-  \,.
-$$
-
-This constitutes a [[functor]]
+If a [[sequential spectrum]] $X$ is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, 
+then its colimiting [[stable homotopy groups]], def. \ref{StableHomotopyGroups}, are attained as the actual homotopy groups of its components:
 
 $$
-  \pi_\bullet \;\colon\; SeqPreSpec(sSet) \longrightarrow Ab^{\mathbb{Z}}
+  \pi_k(X) \simeq 
+  \simeq
+  \left\{
+    \array{
+      \pi_k {\vert X_0 \vert} & if\; k \geq 0
+      \\
+      \pi_0 {\vert X_k \vert} & if \; k \lt 0
+    }
+  \right.
   \,.
 $$
 
 =--
 
+
+
 +-- {: .num_defn #Spectrification}
 ###### Definition
 
-The canonical _$\Omega$-[[spectrification]]_ $Q X$ of a spectrum $X$ is given by forming degreewise the [[colimit]] of higher [[loop space objects]] $\Omega(-)\coloneqq (-)^{S^1}$
+The canonical _$\Omega$-[[spectrification]]_ $Q X$ of a [[sequential spectrum]] $X$ of [[simplicial sets]], def. \ref{SequentialSpectra}, is the operation of forming degreewise the [[colimit]] of higher [[loop space objects]] $\Omega(-)\coloneqq (-)^{S^1}$
 
 $$
   (Q X)_n
@@ -3573,35 +3608,69 @@ $$
 
 where $Sing$ denotes the [[singular simplicial complex]] functor.
 
-This constitutes a functor
+This constitutes an [[endofunctor]]
 
 $$
-  Q \;\colon\;  SeqPreSpec(sSet) \longrightarrow Spectra
+  Q \;\colon\;  SeqSpec(sSet) \longrightarrow SeqSpec(sSet)
+  \,.
+$$
+
+Write
+
+$$
+ \eta \;\colon\; id \longrightarrow Q
+$$
+
+for the [[natural transformation]] given in degree $n$ by the $({\vert-\vert}\dashv Sing)$-[[adjunction unit]] followed the 0-th component map of the colimiting [[cocone]]:
+
+$$
+  (\eta_X)_n 
+    \;\colon\; 
+  X_n 
+    \longrightarrow
+  Sing{\vert X_n\vert}
+    \stackrel{\iota_0}{\longrightarrow}
+  \underset{\longrightarrow}{\lim}_{k }
+  Sing \Omega^k {\vert X_{n+k}\vert }
   \,.
 $$
 
 
 =--
 
-+-- {: .num_example}
-###### Example
++-- {: .num_prop #PropertiesOfStandardSpectrification}
+###### Proposition
 
-...
+The [[spectrification]] of def. \ref{Spectrification} satisfies 
 
- [[suspension spectrum]], [[sphere spectrum]]
+1. $Q X$ is an [[Omega-spectrum]], def. \ref{OmegaSpectrum};
 
-...
+1. $\eta_X \colon X \longrightarrow Q X$ is a [[stable weak homotopy equivalence]], def. \ref{StableWeakEquivalenceOfSequentialsSetSpectra};
+
+1. if for a homomorphims of sequential spectra $f \colon X \longrightarrow Y$ each $f_n$ is a [[weak homotopy equivalence]], then also each $(Q X)_n$ is a weak homotopy equivalence;
+
+1. $(Q\eta_X)$ is degreewise a weak homotopy equivalence.
 
 =--
+
++-- {: .num_cor #StableWeakHomotopyEquivalencesofSeqsSetSpectraIsDegreewsieWeakHomotopyEquivalencesOfSpectrification}
+###### Corollary
+
+A homomorphism of [[sequential spectra]], def. \ref{SequentialSpectra}, is a [[stable weak homotopy equivalence]], def. \ref{StableWeakEquivalenceOfSequentialsSetSpectra}, precisely if its [[spectrification]] $Q f$ , def. \ref{PropertiesOfStandardSpectrification}, is degreewise a [[weak homotopy equivalence]].
+
+=--
+
+#### The model structure $SeqSpec_{stable}$
+
 
 +-- {: .num_defn #ClassesOfMorphisms}
 ###### Definition
 
-Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqPreSpec(sSet)$, def. \ref{Spectra} is
+Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(sSet)$, def. \ref{SequentialSpectra} is
 
-* a _stable weak equivalence_ if it is a stable [[weak homotopy equivalence]], hence if it induces an [[isomorphism]] under passage to [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}) $\pi_\bullet(f) \colon \pi_\bullet(X)\stackrel{\simeq}{\to}\pi_\bullet(Y)$;
+* a **stable weak equivalence** if it is a [[stable weak homotopy equivalence]], def. \ref{StableWeakEquivalenceOfSequentialsSetSpectra};
 
-* a _stable cofibration_ if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$ 
+* a **stable cofibration** if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
 
   $$
     X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
@@ -3611,7 +3680,7 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 
   are cofibrations of simplicial sets in the standard [[model structure on simplicial sets]] (i.e.: [[monomorphisms]] of simplicial sets);
 
-* a _stable fibration_ if it is degreewise a fibration of simplicial sets, hence degreewise a [[Kan fibration]], and if in addition the naturality squares of the [[spectrification]], def. \ref{Spectrification},
+* a **stable fibration** if it is degreewise a fibration of simplicial sets, hence degreewise a [[Kan fibration]], and if in addition the naturality squares of the [[spectrification]], def. \ref{Spectrification},
 
   $$
     \array{
@@ -3630,7 +3699,9 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 +-- {: .num_prop #IsModelCategory}
 ###### Proposition
 
-The classes of morphisms in def. \ref{ClassesOfMorphisms} give the structure of a [[model category]] on $SeqPreSpec(sSet)$ which is
+The classes of morphisms in def. \ref{ClassesOfMorphisms} give the structure of a [[model category]] $SeqSpec(sSet)_{stable}$, called the **stable model structure** on sequential spectra.
+
+Moreover, this is
 
 * a [[proper model category]];
 
@@ -3640,43 +3711,58 @@ The classes of morphisms in def. \ref{ClassesOfMorphisms} give the structure of 
 
 ([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78)).
 
-Write $SeqPreSpec(sSet)_{BF}$ for this model category.
++-- {: .proof}
+###### Proof
+
+Write $sSet^{\mathbb{N}}$ for the category of $\mathbb{N}$-sequences of simplicial sets. This may be thought of as the category of [[simplicial presheaves]] on the [[discrete category]] $\mathbb{N}^{op}$, and as such it carries the projective [[model structure on functors]]/[[model structure on simplicial presheaves]] $sSet^{\mathbb{N}}_{proj}$.
+
+Consider then the [[free-forgetful adjunction]]
+
+$$
+  SeqSpectra(sSet)
+  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
+  sSet^{\mathbb{N}}
+$$
+
+and the corresponding [[transferred model structure]] $SeqSpectra(sSet)_{strict}$,
+
+$$
+  SeqSpectra(sSet)_{strict}
+  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
+  sSet^{\mathbb{N}}_{proj}
+  \,.
+$$
+
+By corollary \ref{StableWeakHomotopyEquivalencesofSeqsSetSpectraIsDegreewsieWeakHomotopyEquivalencesOfSpectrification}, the stable model structure $SeqSpectra(sSet)_{stable}$ is, if indeed it exists, the [[left Bousfield localization]] of this strict model structure at the morphisms that become weak equivalences under the [[spectrification]] functor $Q \colon SeqSpectra(sSet) \longrightarrow SeqSpectra(sSet)$, def. \ref{Spectrification}. By prop. \ref{PropertiesOfStandardSpectrification}  $Q$ satisfies the conditions of the [[Bousfield-Friedlander theorem]], and this implies the claim.
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
 
-A spectrum $X \in SeqPreSpec(sSet)_{BF}$ is 
+A spectrum $X \in SeqSpec(sSet)_{stable}$ is
 
-* fibrant precisely if it is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, and each $X_n$ is a [[Kan complex]]; 
+* fibrant precisely if it is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, and each $X_n$ is a [[Kan complex]];
 
-* cofibrant precisely if all the structure maps $S^1 \wedge X_n \to X_{n+1}$ are cofibrations of simplicial sets, i.e. [[monomorphisms]] 
+* cofibrant precisely if all the structure maps $S^1 \wedge X_n \to X_{n+1}$ are cofibrations of simplicial sets, i.e. [[monomorphisms]].
 
 =--
 
-...
 
-* [[stable homotopy category]]
-
-* [[triangulated category]]
-
-...
-
-### Higher algebra
- {#RingSpectra}
+### **1.2)** Symmetric spectra
 
 **Literature.** ([Schwede 12](#Schwede12))
 
 $\,$
 
-Given that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]] we now discuss algebra (the theory of [[rings]] and their [[modules]]) [[internalization|internal]] to spectra. This "[[higher algebra]]" accordingly is the theory of [[ring spectra]] and [[module spectra]].
+Given that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]], we would like to consider algebra (the theory of [[rings]] and their [[modules]]) [[internalization|internal]] to spectra. This "[[higher algebra]]" ([below](#HigherAlgebra)) accordingly is the theory of [[ring spectra]] and [[module spectra]].
 
-| [[algebra]] | [[higher algebra]] |
-|-------------|--------------------|
-| [[abelian group]] | [[spectrum]] |
-| [[ring]]    | [[ring spectrum]] |
-| [[module]]  | [[module spectrum]]|
+[[!include homological and higher algebra -- table]]
 
 Hence where a [[ring]] is equivalently a [[monoid]] with respect to the the [[tensor product of abelian groups]], we are after a corresponding [[tensor product]] of [[spectra]]. This is to be the [[smash product of spectra]], induced by the [[smash product]] on [[pointed topological spaces]]/[[pointed object|pointed]] [[simplicial sets]].
+
+#### Graded-commutativity
 
 There is a key point to be dealt with here: the [[smash product of spectra]] has to exhibit a certain _graded commutativity_. Informally, there are two ways to see this:
 
@@ -3782,6 +3868,8 @@ then there should be a possibly non-trivial [[action]] of the [[symmetric group]
 
 This is of course just a heuristics, but it turns out to be the right one. More fundamentally one may understand this phenomnon from the concept of [[excisive functors]] and their [[model structure for excisive functors]]. Here we will not further dwell on this but just take the above heuristics as motivation for the following variant of def. \ref{SequentialSpectrum}.
 
+#### Symmetric pre-spectra
+
 +-- {: .num_defn #SymmetricSpectrum}
 ###### Definition
 
@@ -3826,6 +3914,7 @@ such that
 
 =--
 
+#### Symmetric smash product of spectra
 
 [[smash product of spectra]]
 
@@ -3839,11 +3928,26 @@ such that
 
 [[symmetric spectra]]
 
+#### The model structure $SymSpec_{stable}$
+
+* [[model structure on symmetric spectra]]
+
+### **1.3)** Higher algebra
+ {#HigherAlgebra}
+
+
+[[!include homological and higher algebra -- table]]
+
+#### Ring spectra
+ {#RingSpectra}
+
 [[ring spectra]]
 
 * [[monoid object]], [[commutative monoid object]], 
 
 * [[functor with smash products]]
+
+#### Module spectra
 
 [[module spectra]]
 
@@ -3851,7 +3955,7 @@ such that
 
 
 
-### Examples: $HA, KO, KU, \cdots, MO, MU\, (BP), S$
+#### Examples: $HA, KO, KU, \cdots, MO, MU\, (BP), S$
  {#Examples}
 
 [[HA]], [[KO]], [[KU]], [[MO]], ... [[MU]] ([[BP]]), [[S]]
@@ -3863,7 +3967,7 @@ such that
 
 [[Bousfield localization of spectra]]
 
-[[fracture theorem]], 
+[[fracture theorem]]
 
 [[Bousfield-Kan spectral sequence]]
 
