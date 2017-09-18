@@ -1,0 +1,25 @@
+
+## Idea
+
+A [[model category]] structure on [[sequential spectra]].
+
+For sequential spectra in [[sSet]]:
+
+* [[Bousfield-Friedlander model structure]]
+
+## Related concepts
+
+[[model structure on spectra]]
+
+* [[sequential spectrum]], **model structure on sequential spectra**
+
+with [[symmetric monoidal smash product of spectra]]
+
+* [[symmetric spectrum]], [[model structure on symmetric spectra]]
+
+* [[orthogonal spectrum]], [[model structure on orthogonal spectra]]
+
+* [[S-module]], [[model structure on S-modules]]
+
+* [[excisive functor]], [[model structure on excisive functors]]
+
