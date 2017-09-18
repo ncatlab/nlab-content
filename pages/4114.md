@@ -16,7 +16,7 @@
 
 ## Idea
 
-A locally finite cover is a [[cover]] which is locally a [[finite cover]].
+A _locally finite cover_ is a [[cover]] which in a suitable sense looks _locally_ like a [[finite cover]].
 
 ## Definition
 
@@ -26,16 +26,15 @@ A locally finite cover is a [[cover]] which is locally a [[finite cover]].
 
 Let $(X,\tau)$ be a [[topological space]].
 
-An [[cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all points $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
+A [[cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ 
+if it is a [[locally finite set of subsets]], hence
+if for all points $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only [[finite number|finitely many]] elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
 
 If $\{U_i \subset X\}_{i \in I}$ is an [[open cover]], then it is called a _locally finite open cover_.
 
 =--
 
 ## Properties
-
-
-Any open cover defined by a (generalized) [[partition of unity]] has a locally finite shrinking.  (...details...)
 
 
 The following says that if there exists a [[locally finite cover|locally finite]] [[refinement]] of a cover, then in fact there exists one with the same index set as the original cover.
@@ -88,11 +87,12 @@ Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows th
 
 +-- {: .num_lemma}
 ###### Lemma
+**([[shrinking lemma]])**
 
 Let $(X,\tau)$ be a [[normal topological space]], and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]]. Then there exists a shrinking to a locally finite open cover $\{V_i \subset X\}_{i \in I}$ whose [[topological closure|closures]] $Cl(-)$ are still contained in the original cover:
 
 $$
-  V_i \suubset Cl(V_i) \subset U_i
+  V_i \subset Cl(V_i) \subset U_i
   \,.
 $$
 
