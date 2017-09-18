@@ -118,6 +118,8 @@ Actually, the WKL as stated above is stronger than another result that goes by t
 
 ## References
 
-* Wikipedia, _[compactness theorem](https://en.wikipedia.org/wiki/Compactness_theorem)_
+* Wikipedia, _[compactness theorem](https://en.wikipedia.org/wiki/Compactness_theorem)_ 
+
+[[!redirects compactness theorems]] 
 
 
