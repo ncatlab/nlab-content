@@ -1,6 +1,3 @@
-[[!redirects CW-complexes are Hausdorff spaces]]
-[[!redirects CW-complexes are Hausdorff]]
-[[!redirects a CW-complex is a Hausdorff space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -28,19 +25,86 @@ Every [[CW-complex]] is a [[paracompact Hausdorff space]].
 
 e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90)
 
-+-- {: .num_lemma #CellAttachmentParacompactJausdorff}
+
+
++-- {: .num_lemma #CellAttachmentToHausdorffSpaceIsHausdorff}
 ###### Lemma
-**(cell attachment to a paracompact Hausdorff space is paracompact Hausdorff)**
+**(cell attachment to Hausdorff space is still Hausdorff)**
+
+Let $X$ be a [[Hausdorff space]] and let 
+
+$$
+  f \;\colon\; S^{n-1} \longrightarrow  X
+$$
+
+be a [[continuous function]]. Then also the [[attachment space]]
+
+$$
+  \array{
+    S^{n-1} &\overset{f}{\longrightarrow}& X
+    \\
+    \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
+    \\
+    D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
+  }
+$$
+
+is Hausdorff.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First we fix a way to extend open subsets of $S^{n-1}$ to open subsets of $D^n$. To that end, pick some real number $\epsilon$ with $0 \lt \epsilon \lt 1/2$. Then for $V \subset S^{n-1}$ an open subset of the sphere, let $C_\epsilon(V) \subset D^n$ be its open cone of height $\epsilon$ into the bulk of the $n$-disk, i.e. the set of points in $D^n$ of radial distance $\lt \epsilon$ from $V \subset S^{n-1} \subset D^n$. 
+
+Observe 
+
+1. A base of open neighbourhoods of $X \cup_f D^n$ is given by
+
+   1. the images under $i_{D^n}$ of the open subsets of $D^n \setminus S^{n-1}$;
+
+   1. the images under $i_X$ of the open subsets of $X \setminus f(S^{n-1})$;
+
+   1. for $x \in S^{n-1}$ the union of the image under $i_X$ of an open neighbourhood $U_{f(x)} \subset X$ with the image under $i_{D^n}$ of the cone $C_\epsilon( f^{-1}(U_{f(x)}))$.
+
+   These sets are open because their pre-images under $i_{D^n}$ and $i_X$ are open, by construction. They form a base because, again by construction, every point has a neighbourhood in this collection.
+
+1. For every point $x \in X \setminus f(X) \subset X \subset X \cup_f D^n$ there exist disjoint open neighbourhoods around $f(S^{n-1})$ and $x$. 
+
+   To see this, first find such open neighbourhoods in $X$. These exist because $S^{n-1}$ is a [[compact topological space]] (for instance by [[Heine-Borel theorem]]), since [[continuous images of compact spaces are compact]] whence $f(S^{n-1}) \subset X$ is compact, and finally since [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]]. Now form the union of the open nighbourhood of $f(S^{n-1})$ in $X$ with $C_\epsilon(S^{n-1})$ to obatain an open neighbourhood in $X \cup_f D^{n-1}$, still disjoint from that of the point.
+
+Now we discuss separation of distinct points in $X \cup_f D^{n}$ by case distinction:
+
+1. If $x \neq y \in D^n \setminus S^{n-1}$ then by the Hausdorffness of $D^n \setminus S^{n-1}$ there are disjoint open neighbourhoods $V_{x}, V_y \subset D^n \setminus S^{n-1}$ and their images under $i_{D^n}$ are still open and disjoint.
+
+1. If $x \neq y \in X \setminus f(S^{n-1})$, then by the Hausdorffness of $X$ there are disjoint open neighbourhoods $U_x, U_y \subset X$. By the second observation above we may moreover find open neighbourhoods $U'_x, U'_y \subset X$ that separate these points from $f(X)$. Hence $U_x \cap U'_x$ and $U_y \cap U'_y$ are disjoint open neighbourhoods in $X \setminus f(S^{n-1})$ whose image under $i_X$ remain disjoint open subsets in $X \cup_f D^{n-1}$.
+
+1. If $x \neq y \in S^{n-1}$ with $f(x) \neq f(y)$ then pick disjoint open neighbourhoods $U_x$, $U_y$ in $X$, which exist by the Hausdorffness of $X$. Their unions with $C_\epsilon(f^{-1}(U_x))$ and $C_\epsilon(f^{-1}(U_y))$, respectively, are disjoint open neighbourhoods in $X \cup_f D^n$.
+
+1. If $x \in D^n \setminus S^{n-1}$ and $y \in X \setminus f(S^{n-1})$ under $i_X$ we may find an open ball around $x$ which does not intersect $S^{n-1}$ and, by the second observation above, an open neighbourhood of $y$ which does not intersect $f(X)$. The images of these in $X \cup_f D^n$ are of the required form. 
+
+1. If $x \in S^{n-1}$ and $y \in X \setminus f(S^{n-1})$,  then by the second observation above we find disjoint open neighbourhoods of $f(S^{n-1})$ and of $y$ in $X$. The union of the former with $C_\epsilon(S^{n-1})$ gives disjoint open neighbourhoods in $X \cup_f D^n$ as required.
+
+1. If $x \in D^n \setminus S^{n-1}$ and $y \in S^{n-1}$ let $d$ be the distance of the former to the boundary $S^{n-1}$ of $D^n$, pick the open ball of radius $d/2$ around that point. Then pick the enire rim of width $d/2$ as a neighbourhood for the point on the boundary. These are disjoint open neighbourhoods inside $D^n$ and by forming the union of the latter with all of $X$ they become disjoint open neighbourhoods in $X \cup_f D^n$.
+
+
+=--
+
+
++-- {: .num_lemma #CellAttachmentToParacompactHausdorffIsStillParacompactHausdorff}
+###### Lemma
+**(cell attachment to paracompact Hausdorff is still paracompact Hausdorff)**
 
 Let $X$ be a [[paracompact Hausdorff space]] and let 
 
 $$
   \array{
-     \underset{i \in I}{S^{n-1}} &\overset{f}{\longrightarrow}& X
+     S^{n-1} &\overset{f}{\longrightarrow}& X
      \\
      \downarrow &(po)& \downarrow
      \\
-     \underset{i \in I}{\coprod} D^n &\longrightarrow& X \cup_f D^n
+     D^n &\longrightarrow& X \cup_f D^n
   }
 $$
 
@@ -48,7 +112,26 @@ be a [[cell attachment]]. Then also $X \cup_f D^n$ is paracompact Hausdorff.
 
 =--
 
-(...)
++-- {: .proof}
+###### Proof
+
+Hausdorffness is the statement of lemma \ref{CellAttachmentToHausdorffSpaceIsHausdorff}. We need to discuss paracompactness.
+
+First we claim that both inclusion maps $D^n \to X \cup_f D^n$ and $X \to X \cup_f D^n$ are [[closed maps]]. To see this, we use that a subset of $X \cup_f D^n$ is closed precisely if its pre-images under both $i_X$ and $i_{D^n}$ are closed.
+
+1. For $i_{D^n}$ it is sufficient to test on a base of closed subsets given by intersections of $D^n$ with other closed balls inside an ambient Euclidean space $\mathbb{R}^n$. If these intersections fall into the interior of the given $D^n$ then it is clear that their image is also closed. If instead they intersec the boundary $S^{n-1}$ then they do so in a closed point or a closed interval, in any case a compact subspace. We need to see that the image of that in $X$ is also closed in $X$. But this follows since [[continuous images of compact spaces are compact]] and since [[compact subspaces of Hausdorff spaces are closed]].
+
+1. For  $i_X$ consider a closed subset in $X$. Its image in $X \cup_f D^n$ has closed pre-image under $f$ in $S^{n-1}$ since $f$ is continuous. Now since $S^{n-1} \subset D^n$ is a closed subspace and since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] if follows that this pre-image is also closed in $D^n$, hence it is closed in $X \cup_f D^n$. 
+
+Now let $\{ U_i \subset X \cup_f D^n \}_{i \in I}$ be any open cover of the attachment space. We need to produce a locally finite refinement.
+
+The pre-images of these open subsets in $D^n$ and in $X$ yield open covers of these spaces, and by their paracompactness we find locally finite refinements there. Since [[paracompact Hausdorff spaces are normal]] we may apply the [[shrinking lemma]] to the resulting locally finite refinements to get smaller locally finite refinements the [[topological closures]] of whose patches are still contained in the original locally finite patches. Since the two inclusion maps are closed, by the above observation, [this lemma](saturated+subset#FindSatureatedOpenInsideOpenNeighbourhood) says that we may find a locally finite cover intermediate to these two consisting of open [[saturated subsets]]. Their images in $X \cup_f D^n$ are therefore still open (by the nature of the [[final topology]])still locally finite (being composed of two locally finite sts of subsets) and are still a cover by construction of the attachment space. Hence this is a locally finite refinement as required.
+
+=--
+
+A direct corollary of lemma \ref{CellAttachmentToParacompactHausdorffIsStillParacompactHausdorff} is that _finite_ CW-complexes are paracompact Hausdorff, and similarly that finite relative CW-complexes relative to paracompact Hausdorff spaces are paracompact Hausdorff.
+
+For the non-finite case one needs a bit more...
 
 ## Related statements
 
@@ -71,3 +154,8 @@ be a [[cell attachment]]. Then also $X \cup_f D^n$ is paracompact Hausdorff.
 
 [[!redirects every CW-complex is a Hausdorff space]]
 [[!redirects every CW-complex is a Hausdorff topological space]]
+
+[[!redirects CW-complexes are Hausdorff spaces]]
+[[!redirects CW-complexes are Hausdorff]]
+[[!redirects a CW-complex is a Hausdorff space]]
+
