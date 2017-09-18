@@ -38,11 +38,11 @@ A **monoidal category** is a [[category]] $M$ equipped with a [[functor]]
 $$ \otimes : M \times M \to M $$
 called the **[[tensor product]]**, an object
 $$ 1 \in M $$
-called the **[[unit object]]** or **[[tensor unit]]**, a [[natural isomorphism]]
+called the **[[unit object]]** or **[[tensor unit]]**, a [[natural isomorphism]] with components of the form 
 $$ a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) $$
-called the **[[associator]]**, a natural isomorphism
+called the **[[associator]]**, a natural isomorphism with components of the form 
 $$ \lambda_x : 1 \otimes x \to x $$
-called the **[[left unitor]]**, and a natural isomorphism 
+called the **[[left unitor]]**, and a natural isomorphism with components of the form 
 $$  \rho_x : x \otimes 1 \to x $$
 called the **[[right unitor]]**, which must make two diagrams commute: the famous **[[pentagon identity]]** (or **pentagon equation**):
 
@@ -76,7 +76,8 @@ The original list of [[coherence law|coherence axioms]] for monoidal categories 
 In the proofs below, monoidal product symbols $\otimes$ will be suppressed, to save space. 
 
 +-- {: .num_lemma #kel1} 
-###### Lemma ([Kelly](#Kelly)) 
+###### Lemma 
+**([Kelly](#Kelly))** 
 In a monoidal category, the equation $\lambda_x y = \lambda_{x y} \circ \alpha_{1, x, y}$ holds, i.e., the diagram 
 
 $$\array{
@@ -112,7 +113,8 @@ which uses the pentagon coherence condition, naturality of $\alpha$, and a unit 
 =-- 
 
 +-- {: .num_lemma} 
-###### Lemma (Kelly) 
+###### Lemma 
+**(Kelly)** 
 The equation $\lambda_1 = \rho_1 \colon 1 \otimes 1 \to 1$ holds in a monoidal category. 
 =-- 
 
