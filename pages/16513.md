@@ -1,0 +1,20 @@
+We meet every Monday from 10 until lunch in Sitzungzimmer.  To enroll, visit [Studip](https://www.studip.uni-goettingen.de/dispatch.php/course/overview?cid=e830fe84232de54d1e504a031fa62ae7)
+
+This semester, we'll try to study again the theory about the symmetries in deformation quantization. We start with reviewing Kontsevich's original paper and its physics background, then go into the algebraic/topologic profile of this theory. Hopefully, we may land in associators and their symmetries in the middle of the semester. 
+
+
+A very tentative plan: 
+
+***
+
+*26.04: Chenchang on Cattaneo-Felder's approach to Kontsevich's quantization formula, reference  arXiv:math/9902090.
+
+*04.05: Chenchang on Kontsevich's quantization, reference  arXiv:q-alg/9709040
+
+*11.05: Malte on Algebraic/topological profile of deformation quantization, e.g. Deligne conjecture, reference 
+
+*18.05: Xiaoyi on homotopy BV algebra and formality conjecture, reference 
+
+*25.05: David on Etingof-Kazhdan theory on deformation quantization on Lie bialgebras, reference
+
+*01.05: Dennis on arithmetric topology. 
