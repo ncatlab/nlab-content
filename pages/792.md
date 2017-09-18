@@ -83,7 +83,7 @@ The concept was introduced on the level of differential form data in
 
 In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way.  The formalization with the above data originates in 
 
-* {#BunkeSchick05} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev.Math.Phys.17:77-112,2005, ([arXiv:math/0405132](https://arxiv.org/abs/math/0405132))
+* {#BunkeSchick04} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_, Rev.Math.Phys.17:77-112,2005, ([arXiv:math/0405132](https://arxiv.org/abs/math/0405132))
 
 * {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. 18, 1103 (2006). ([arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487))
 
