@@ -59,7 +59,11 @@ $$
 
 (up to prefactors) with $G_7 = \star G_4$.
 
-## Properties
+
+### Via Calabi-Yau compactification of M-theory
+
+([Hull-Townsend 95, p.30-31](#HullTownsend95), [Ferrara-Khuria-Minasian 96](#FerraraKhuriaMinasian96))
+
 
 ### U-duality
 
@@ -86,11 +90,11 @@ $$
 
 ### General
 
-Discussion in [[D'Auria-Fre formulation of supergravity]] is in
+Basic discussion includes
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.5 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-Other discussion includes
+  (in [[D'Auria-Fre formulation of supergravity]])
 
 * W. D. Linch III, Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys.Rev.D68:025008,2003 ([arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060))
 
@@ -98,11 +102,15 @@ Other discussion includes
 
 * [[Eric Bergshoeff]], Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, [[Antoine Van Proeyen]], _$N=2$ supergravity in five dimensions revisited_ ([arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045))
 
+### Via M-theory on Calabi-Yau 3-folds
+
+Discussion via [[KK-compactification]] as [[M-theory on Calabi-Yau manifolds]] includes
+
+* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], pages 30 and 31 od _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167))
+
+* {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], Ramzi R. Khuria,  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys.Lett.B375:81-88,1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
+
 Further discussion of the [[5d Chern-Simons theory|5d Chern-Simons term]] includes
-
-* [[Sergio Ferrara]], Ramzi R. Khuria,  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys.Lett.B375:81-88,1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
-
-(from [[M-theory on Calabi-Yau manifolds]])
 
 * {#BonettiGrimmHohenegger13} Federico Bonetti, [[Thomas Grimm]], [[Stefan Hohenegger]], _One-loop Chern-Simons terms in five dimensions_ ([arXiv:1302.2918](http://arxiv.org/abs/1302.2918)) 
 
