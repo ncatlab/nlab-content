@@ -211,9 +211,11 @@ $$
   \end{aligned}
 $$
 
-is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}.
+is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}. 
 
-If for each bidegree $(s,t)$ there exists $R \gg 1$ such that for all $r \geq R$ 
+(As before in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple}, the notation $g^{-n}$ with $n \in \mathbb{N}$ denotes the function given by choosing, on representatives, a [[preimage]] under $g^n = \underset{n\;times}{\underbrace{g \circ \cdots \circ g \circ g}}$, with the implicit claim that all possible choices represent the same equivalence class.)
+
+If for every bidegree $(s,t)$ there exists $R_{s,t} \gg 1$ such that for all $r \geq R_{s,t}$ 
 
 1. $g \colon D^{s+R,t-R} \stackrel {\simeq}{\longrightarrow} D^{s+R -1, t-R-1}$;
 
@@ -239,12 +241,14 @@ $$
 
 =--
 
+(e.g. [Kochmann 96, lemma 2.6.2](#Kochmann96))
+
 +-- {: .proof}
 ###### Proof
 
 We check the claimed form of the $E_\infty$-page:
 
-By exactness of the exact couple, the kernel
+Since $ker(h) = im(g)$ in the exact couple, the kernel
 
 $$
   ker(d_{r-1}) \coloneqq ker(h \circ g^{-r+2} \circ f)
@@ -253,13 +257,15 @@ $$
 consists of those elements $x$ such that $g^{-r+2} (f(x)) = g(y)$, for some $y$, hence 
 
 $$
-  ker(d_{r-1}) = f^{-1}(g^{r-1}(D^{s+r-1,t-r+1}))
+  ker(d_{r-1})^{s,t} \simeq f^{-1}(g^{r-1}(D^{s+r-1,t-r+1}))
   \,.
 $$
 
-By assumption there is for each $(s,t)$ an $R$ such that for all $r \geq R$ then $ker(d_{r-1})$ is independent of $r$. 
+By assumption there is for each $(s,t)$ an $R_{s,t}$ such that for all $r \geq R_{s,t}$ then $ker(d_{r-1})^{s,t}$ is independent of $r$. 
 
-Moreover, $im(d_{r-1})$ consists of the image under $h$ of those $x$ such that $g^{r-2}(x)$ is in the image of $f$, hence (by exactness of the exact couple) such that $g^{r-2}(x)$ is in the kernel of $g$, hence such that $x$ is in the kernel of $g^{r-1}$. If $r \gt R$ then by assumption $g^{r-1} = 0$ and so then $im(d_{r-1}) = im(h)$.
+Moreover, $im(d_{r-1})$ consists of the image under $h$ of those $x \in D^{s-1,t}$ such that $g^{r-2}(x)$ is in the image of $f$, hence (since $im(f) = ker(g)$ by exactness of the exact couple) such that $g^{r-2}(x)$ is in the kernel of $g$, hence such that $x$ is in the kernel of $g^{r-1}$. If $r \gt R$ then by assumption $g^{r-1}|_{D^{s-1,t}} = 0$ and so then $im(d_{r-1}) = im(h)$.
+
+(Beware this subtlety: while $g^{R_{s,t}}|_{D^{s-1,t}}$ vanishes by the convergence assumption, the expression $g^{R_{s,t}}|_{D^{s+r-1,t-r+1}}$ need not vanish yet. Only the higher power $g^{R_{s,t}+ R_{s+1,t+2}+2}|_{D^{s+r-1,t-r+1}}$ is again guaranteed to vanish. ) 
 
 It follows that
 
@@ -274,7 +280,7 @@ $$
     f^{-1}(im(g^{R-1}))/im(h)
     \\
     &
-    \simeq
+    \underoverset{\simeq}{f}{\longrightarrow}
     im(g^{R-1}) \cap im(f)
     \\
     & 
@@ -285,7 +291,9 @@ $$
 
 where in last two steps we used once more the exactness of the exact couple.
 
-The last group is that of elements $x \in G^n$ which map to zero in $D^{p-1,n-p+1}$ and where two such are identified if they agree in $D^{p,n-p}$, hence indeed 
+{#InfinityPageIsSubgroupOfImageOfFirstPageUnderf}(Notice that the above equation means in particular that the $E_\infty$-page is a sub-group of the image of the $E_1$-page under $f$.)
+
+The last group above is that of elements $x \in G^n$ which map to zero in $D^{p-1,n-p+1}$ and where two such are identified if they agree in $D^{p,n-p}$, hence indeed 
 
 $$
   E_\infty^{p,n-p} \simeq F^p G^n / F^{p+1} G^n
