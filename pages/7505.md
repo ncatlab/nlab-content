@@ -17,7 +17,8 @@
 
 In [[type theory]], a **positive type** is one whose *constructors* are regarded as primary.  Its eliminators are derived from these by the rule that "to use an element of a positive type, it is necessary and sufficient to specify what should be done for all possible ways that element could have been constructed".
 
-The opposite notion is a [[negative type]].
+The opposite notion is a [[negative type]], forming two [[polarity in type theory|polarities]].
+
 
 In [[categorical semantics]] of type theory, positive types correspond to "from the left" universal properties (i.e. for mapping out).
 
