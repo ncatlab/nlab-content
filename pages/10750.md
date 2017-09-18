@@ -1170,6 +1170,71 @@ Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
 
 =--
 
++-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
+###### Proposition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}},1_{\mathcal{D}})$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}) and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them.
+
+Then for $(A,\mu_A,e_A)$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), its image $F(A) \in \mathcal{D}$ becomes a monoid $(F(A), \mu_{F(A)}, e_{F(A)})$ by setting
+
+$$
+  \mu_{F(A)}
+   \;\colon\;
+  F(A) \otimes_{\mathcal{C}} F(A)
+    \overset{}{\longrightarrow}
+  F(A \otimes_{\mathcal{C}} A)
+    \overset{F(\mu_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where the first morphism is the structure morphism of $F$) and setting 
+
+$$
+  e_{F(A)}
+    \;\colon\;
+  1_{\mathcal{D}}
+    \longrightarrow
+  F(1_{\mathcal{C}})
+    \overset{F(e_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where again the first morphism is the corresponding structure morphism of $F$).
+
+This construction extends to a functor
+
+$$
+  Mon(F)
+   \;\colon\;
+  Mon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  Mon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+$$
+
+from the [[category of monoids]] of $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) to that of $\mathcal{D}$.
+
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative momoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor
+
+$$
+  CMon(F)
+   \;\colon\;
+  CMon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  CMon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+  \,.
+$$
+
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows immediately from combining the associativity and unitality (and symmetry) constraints of $F$ with those of $A$.
+
+=--
+
 In a [[closed monoidal category]], the adjunction isomorphism between [[tensor product]] and [[internal hom]] even holds internally:
 
 +-- {: .num_prop #TensorHomAdjunctionIsoInternally}
@@ -1396,7 +1461,7 @@ $$
   \,.
 $$
 
-Write $Mon(\mathcal{C}, \otimes,1)$ for the [[category of monoids]] in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
+Write $Mon(\mathcal{C}, \otimes,1)$ for the **[[category of monoids]]** in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
 
 
 =--
@@ -2646,6 +2711,70 @@ In the literature the term "monoidal functor" often refers by default to what in
 If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
 
 =--
+
++-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
+###### Proposition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}},1_{\mathcal{D}})$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}) and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them.
+
+Then for $(A,\mu_A,e_A)$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), its image $F(A) \in \mathcal{D}$ becomes a monoid $(F(A), \mu_{F(A)}, e_{F(A)})$ by setting
+
+$$
+  \mu_{F(A)}
+   \;\colon\;
+  F(A) \otimes_{\mathcal{C}} F(A)
+    \overset{}{\longrightarrow}
+  F(A \otimes_{\mathcal{C}} A)
+    \overset{F(\mu_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where the first morphism is the structure morphism of $F$) and setting 
+
+$$
+  e_{F(A)}
+    \;\colon\;
+  1_{\mathcal{D}}
+    \longrightarrow
+  F(1_{\mathcal{C}})
+    \overset{F(e_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where again the first morphism is the corresponding structure morphism of $F$).
+
+This construction extends to a functor
+
+$$
+  Mon(F)
+   \;\colon\;
+  Mon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  Mon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+$$
+
+from the [[category of monoids]] of $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) to that of $\mathcal{D}$.
+
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative momoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor
+
+$$
+  CMon(F)
+   \;\colon\;
+  CMon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  CMon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows immediately from combining the associativity and unitality (and symmetry) constraints of $F$ with those of $A$.
+
+=--
+
 
 +-- {: .num_defn #ModuleOverAMonoidalFunctor}
 ###### Definition
