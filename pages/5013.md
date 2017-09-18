@@ -70,10 +70,10 @@ A survey is in
 
 The original results by McCord are in
 
-* M.C. McCord. _Homotopy type comparison of a space with complexes associated with its open covers_ . Proc. Amer. Math. Soc. 18 (1967), 705-708.
+* [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its open covers_ . Proc. Amer. Math. Soc. 18 (1967), 705-708, [copy](http://www.maths.ed.ac.uk/~aar/papers/mccord2.pdf)
 {#McCord}
 
-* M.C. McCord. _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525)) 
+* Michael C. McCord. _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525)) 
 
 [^fine]: Any topological meet-semilattice $L$ with a bottom element $\bot$, for which there exists a continuous path $\alpha \colon I \to L$ connecting $\bot$ to the top element $\top$, is in fact contractible. The contracting homotopy is given by the composite $I \times L \stackrel{\alpha \times 1}{\to} L \times L \stackrel{\wedge}{\to} L$. 
  
