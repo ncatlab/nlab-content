@@ -664,7 +664,7 @@ Reviews of the interpretation of _[[forcing]]_ as the passge to classifying topo
 
 * [[Andreas Blass]], Andrej Skedrov, _Classifying topoi and finite forcing_ ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/25225/0000666.pdf;jsessionid=8D65C672D70D8E24A5ACD366C1815921?sequence=1))
 
-* Andrej Skedrov, _Forcing and classifying topoi_
+* Andrej Skedrov, _Forcing and classifying topoi_, Memoirs of the American Mathematical Society 1984; 93 pp
 
 For more see
 
