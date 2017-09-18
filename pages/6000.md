@@ -11,12 +11,25 @@ $$
   \rho : G \times X \to X
 $$
 
-of a group $G$ on a set $X$ is _transitive_ if it has a single [[orbit]], i.e., if for every two points $x,x'$ there exists $g\in G$ such that $x' = g x$.  A set equipped with a transitive action of $G$ (and which is [[inhabited]]) is the same thing as a [[connected object]] in the category $G Set$.
+of a group $G$ on a set $X$ is **transitive** if it has a single [[orbit]], i.e., if for every two points $x,x'$ there exists $g\in G$ such that $x' = \rho(g,x)$.  A set equipped with a transitive action of $G$ (and which is [[inhabited]]) is the same thing as a [[connected object]] in the category $G Set$.
+
+More generally, an action of $G$ on $X$ is said to be _$k$-transitive_ if the 
+componentwise-action of $G$ on $X^k$ is transitive.  For example, $\rho$ is said to be 3-transitive if for any two ordered triples $(x_1,x_2,x_3)$ and $(x_1',x_2',x_3')$, there exists $g \in G$ such that $x_1' = \rho(g,x_1)$ and $x_2' = \rho(g,x_2)$ and $x_3' = \rho(g,x_3)$.
+
+## Examples
+
+The [[alternating group]] $A_n$ acts transitively on $\{1,\dots,n\}$ for any $n \gt 2$, but not for $n = 2$ (in fact, $A_n$ acts $(n-2)$-transitively on $\{1,\dots,n\}$).
+
+The [[projective general linear group]] $PGL(2,\mathbb{C})$ acts 3-transitively on the [[Riemann sphere]] $\mathbb{P}^1(\mathbb{C})$.
 
 ## Related concepts
 
 * [[homogeneous space]]
 
 * [[torsor]]
+
+## References
+
+* Helmut Wielandt.  _Finite Permutation Groups_.  Academic Press, 1964.
 
 [[!redirects transitive]]
