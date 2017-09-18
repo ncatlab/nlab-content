@@ -21,7 +21,7 @@
 
 * [[observable universe]]
 
-* [[LHC]], [[BICEP2]]
+* [[LHC]], [[LIGO]]
 
 * [[standard model of particle physics]], [[standard model of cosmology]]
 
