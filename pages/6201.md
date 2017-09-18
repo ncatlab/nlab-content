@@ -41,7 +41,7 @@ We discuss the general abstract
 We discuss the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Homotopy">intrinsic fundamental ∞-groupoid</a> construction realized in $Smooth \infty Grpd$.
 
 
-+-- {: .un_prop #UnderlyingSimplicialTopologicalSpace}
++-- {: .num_prop #UnderlyingSimplicialTopologicalSpace}
 ###### Proposition
 
 If $X \in Smooth\infty Grpd$ is presented by 
@@ -107,7 +107,7 @@ The claim then follows for general simplicial spaces by observing that $X_\bulle
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Corollary
 
 If $X \in Smooth\infty Grpd$ is presented by 
@@ -146,7 +146,7 @@ By a [proposition above](#UnderlyingETopologicalInftyGroupoids) the functor $\Pi
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Corollary
 
 The $\Pi : \mathrm{Smooth}\infty\mathrm{Grpd} \to \infty \mathrm{Grpd}$
@@ -221,7 +221,7 @@ $$
 
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The object $\mathbf{Sing} X \in [CartSp^{op}, sSet]$ presents the abstractly defined [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\mathbf{\Pi}(X)$.
@@ -264,7 +264,7 @@ Write $\mathbf{B}G \in Smooth \infty Grpd$ for the corresponding
 [[delooping]] object.
 
 
-+-- {: .un_prop #DeloopedLieGroup}
++-- {: .num_prop #DeloopedLieGroup}
 ###### Proposition
 
 A fibrant presentation of the [[delooping]] object $\mathbf{B}G$
@@ -324,7 +324,7 @@ as discussed at [[universal principal ∞-bundle]].
 Let now $G = \Xi[G_2 \to G_1]$ be a strict [[Lie 2-group]] coming from a smooth  [[crossed module]] $G_2 \stackrel{\delta}{\to} G_1 $ with action $\alpha : G_1 \to Aut(G_2)$.
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 A fibrant representative of $\mathbf{B}G$ in $[CartSp^{op}, sSet]_{proj,cov}$ is given by the [[crossed complex]]
@@ -375,7 +375,7 @@ for the [[chain complex]] of sheaves concentrated in degree $n$ on $U(1)$.
 
 Recall the right Quillen functor $\Xi : [CartSp^{op}, Ch_\bullet^+] \to [CartSp^{op}, sSet]$ from [above](#DoldKanInclusion).
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The [[simplicial presheaf]] $\Xi(U(1)[n]) \in [CartSp^{op}, sSet]$ is a fibrant representative in $[CartSp^{op},sSet]_{proj,loc}$
@@ -459,7 +459,7 @@ So we have that $\Xi(U(1)[n])(U)$ and $[CartSp^{op}, sSet](C(\{U_i\}), \Xi U(1)[
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 In the equivalent presentation of $Smooth\infty Grpd$ by simplicial presheaves on all of [[SmoothMfd]] the objects $\Xi U(1)[n]$ are far from being locally fibrant. Instead, their local fibrant replacements are given by the $n$-stacks of [[circle n-bundle with connection|circle n-bundle]]s.
@@ -487,7 +487,7 @@ We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2
 #### Cohomology with constant coefficients
   {#CohomologyWithConstantCoefficients}
 
-+-- {: .un_def }
++-- {: num_defn }
 ###### Definition
 
 Let $A \in $ [[∞Grpd]] be any [[discrete ∞-groupoid]]. Write $|A| \in $ [[Top]] for its [[geometric realization]]. For $X$ any [[topological space]], the [[nonabelian cohomology]] of $X$ with coefficients in $A$ is the set of [[homotopy]] classes of maps $X \to |A|$
@@ -510,7 +510,7 @@ for the intrinsic [[cohomology]] of $Smooth \infty Grpd$ on $X$ with coefficient
 =--
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Let $A \in $ [[∞Grpd]], write $Disc A \in Smooth \infty Grpd$ for the corresponding [[discrete ∞-groupoid|discrete smooth ∞-groupoid]]. Let $X \in SmoothMfd \stackrel{i}{\hookrightarrow} Smooth \infty Grpd$ be a [[paracompact topological space]] regarded as a 0-[[truncated]] 
@@ -588,7 +588,7 @@ $$
 
 The following proposition asserts that the general definition of [[principal ∞-bundle]]s in an [[(∞,1)-topos]] $\mathbf{H}$ applied to the coefficient object $\mathbf{B}G$ in $\mathbf{H} = \infty LieGrpd$ for $G$ a [[Lie group]] does reprpduce the ordinary notion of $G$-[[principal bundle]]s.
 
-+-- {: .un_prop }
++-- {: num_prop }
 ###### Proposition
 
 Let $X$ be a [[paracompact space|paracompact]] [[smooth manifold]]. The ordinary first [[nonabelian cohomology]] of $X$ with coefficients in $G$ coincided with the intrinsic [[cohomology]] of $\infty Lie Grpd$
@@ -709,7 +709,7 @@ $$
 
 We discuss how this relates to other definitions of <a href="http://ncatlab.org/nlab/show/group+cohomology#LieGroupcohomology">Lie group cohomology</a> in the literature.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(naive Lie group cohomology)**
 
@@ -731,7 +731,7 @@ Written this way it is evident that this definition misses to take into account 
 A more refined definition of cohomology of Lie groups has been given by ([Segal](#Segal)), which was later rediscovered by ([Brylinski](#Brylinski)), following ([Blanc](#Blanc)). A review is in section 4 of ([Schommer-Pries](#SchommerPries)).
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 
 ###### Definition
 **(differential Lie group cohomology)**
@@ -777,7 +777,7 @@ This is ([Brylinski, definition 1.1](#Brylinski)).
 As discussed there, this is equivalent to other definitions, notably to a definition given earlier in ([Segal](#Segal)). 
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 There is a natural map
@@ -792,7 +792,7 @@ obtained by pulling back globally defined cocycles and coboundaries to good cove
 
 We can understand this differentiable Lie group cohomology in terms of maps out of a certain resolution of $\mathbf{B}G$ in $sPSh(CartSp)_{proj,cov}$:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\{U^\bullet_{i_\bullet}\}$ a system of [[good open cover]]s as above, we obtain a simplicial diagram of [[Cech nerve]]s 
@@ -823,7 +823,7 @@ $$
 
 The proof of this will also show the following
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Write $H^\bullet(G,A) := \pi_0 Sh_{(\infty,1)}(CartSp)(\mathbf{B}G, \mathbf{B}^n A)$ for the intrinsic cohomology of $\mathbf{B}G$ regarded as an object of the $(\infty,1)$-topos of $\infty$-Lie groupoids.
@@ -973,7 +973,7 @@ Setting here $K_\bullet = \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})$ and using the
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $G$ a [[Lie group]] and $A$ either 
@@ -1023,7 +1023,7 @@ The last statement follows then from the observation ([Brylinski](#Brylinski)) t
 #### Smooth principal 1-bundles and 2-bundles
  {#SmoothPrincipal1And2Bundles}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $G$ be a [[Lie group]] and $\mathbf{B}G \in \mathbf{H} := \infty LieGrpd$ its [[delooping]] as discussed [above](LieGroups). Let $X$ be a [[paracompact space|paracompact]] [[smooth manifold]]. Then
@@ -1206,7 +1206,7 @@ Let $O$ denote the [[orthogonal group]], regarded as a [[Lie group]]. We discuss
 
 ##### First Stiefel-Whitney class
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A lift of the first [[Stiefel-Whitney class]] $w_1 : \mathcal{B}O \to K(\mathbb{Z}_2 ,1) \in Top \simeq \infty Grpd$ to $\infty LieGrpd$ is given by the morphism
@@ -1285,7 +1285,7 @@ $$
 Let $\mu_3 \in CE(\mathfrak{so}(n))$ be the [[Lie algebra cohomology|Lie algebra 3-cocycle]] 
 $\langle -,[-,-]\rangle$ normalized such its left-invariant continuation to a differential 3-form on $Spin(n)$ is the image in [[deRham cohomology]] of a generator of $H^3(Spin, \mathbb{Z})$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [integration of this cocycle](#IntegrationOfCocycles)
@@ -1321,7 +1321,7 @@ $$
 
 is a smooth model of the [[string group]]. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -1438,7 +1438,7 @@ Let $\mathbf{B}^n U(1)$ be the circle $(n+1)$-Lie group
 as discussed [above](#CircleLienGroup). Recall the notation and 
 model category presentations as discussed there.
 
-+-- {: .un_prop #FlatCohomologyWithCoeffsInCircle}
++-- {: .num_prop #FlatCohomologyWithCoeffsInCircle}
 ###### Proposition
 
 For $n \geq 1$ a fibration presentation in $[CartSp^{op}, sSet]_{proj}$ of the 
@@ -1484,7 +1484,7 @@ Recall the fibrant presentation
 $\mathbf{B}G_c \in [CartSp_{smooth}^{op}, sSet]_{proj,loc}$ from 
 [above](#DeloopedLieGroup).
 
-+-- {: .un_prop #LieGroupFibrantFlatInclusion}
++-- {: .num_prop #LieGroupFibrantFlatInclusion}
 ###### Proposition
 
 The object 
@@ -1510,7 +1510,7 @@ in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This means that a $U$-parameterized family of objects of 
@@ -1564,7 +1564,7 @@ Let $\mathbf{B}^n U(1)$ be the circle Lie $(n+1)$-group, as
 discussed [above](#CircleLienGroup). Recall the notation and 
 model category presentations from the discussion there.
 
-+-- {: .un_prop #OrdinaryDeRham}
++-- {: .num_prop #OrdinaryDeRham}
 ###### Proposition
 
 A fibrant representative in $[CartSp^{op}, sSet]_{proj,loc}$ of 
@@ -1631,7 +1631,7 @@ $SmoothMfd \hookrightarrow Smooth \infty Grpd$.
 Write $H^n_{dR}(X)$ for the ordinary [[de Rham cohomology]]
 of $X$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $n \in \mathbb{N}$ we have isomorphisms
@@ -1744,7 +1744,7 @@ are necessarily themselves of the form $(\lambda_i, \lambda_{i j}, \cdots) =  (\
 
 
 
-+-- {: .un_prop #DeRhamBnU1}
++-- {: .num_prop #DeRhamBnU1}
 ###### Proposition
 
 For $n \geq 1$ we have that the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic de Rham cohomology</a> of the <a href="BnU1">circle n-groupoid</a> $\mathbf{B}^n U(1)$ in $\mathbf{H} = \infty LieGrpd$ is concentrated in degree $(n+1)$, where it is  $\mathbb{R}$:
@@ -1763,7 +1763,7 @@ $$
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 By the discussion at [circle n-group -- differential coefficients](#DifferentialBnU1) above, we have that $\mathbf{\flat}_{dR} \mathbf{B}^k U(1) \simeq \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}$, reflecting the familiar fact that since $Lie(U(1)) \simeq Lie(\mathbb{R})$ we have that $Lie(U(1))$-valued forms are naturally identified with plain $\mathbb{R} = Lie(\mathbb{R})$-valued forms. Therefore the above may equivalently be restated as
@@ -2056,7 +2056,7 @@ Let $G$ be a [[Lie group]]. Write $\mathfrak{g}$ for its
 [[Lie algebra]].
 
 
-+-- {: .un_prop #LieGroupDeRhamCoefficients}
++-- {: .num_prop #LieGroupDeRhamCoefficients}
 ###### Proposition
 
 The object $\mathbf{\flat}_{dR}\mathbf{B}G \in Smooth \infty Grpd$
@@ -2101,7 +2101,7 @@ The resulting simplicial presheaf is fibrant in $[CartSp^{op}, sSet]_{proj,loc}$
 =--
 
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 Writing $T U$ for the [[tangent Lie algebroid]] of $U$ 
@@ -2123,7 +2123,7 @@ $$
 =--
 
 
-+-- {: .un_prop #LieGroupDeRhamCohomology}
++-- {: .num_prop #LieGroupDeRhamCohomology}
 ###### Corollary
 
 For $X \in $ [[SmoothMfd]] $\hookrightarrow Smooth \infty Grpd$ we find
@@ -2152,7 +2152,7 @@ Let $\Xi : CrsdCplx \to KanCplx$ now denote the inclusion of [[crossed complex]]
 
 Write $[\mathfrak{g}_2 \stackrel{\delta_*}{\to} \mathfrak{g}_1]$ for the corresponding [[differential crossed module]] with action $\alpha_* : \mathfrak{g}_1 \to der(\mathfrak{g}_2)$ corresponding to the Lie [[strict 2-group]] [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$ with action $\alpha : G_1 \to Aut(G_2)$. 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The Lie [[2-groupoid]] $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} G_1]$ is represented in $[CartSp^{op}, sSet]$ by the Lie [[2-groupoid]] which on $U \in CartSp$ s the following 2-groupoid:
@@ -2239,7 +2239,7 @@ and composition is defined as follows
 This is the [[2-groupoid of Lie 2-algebra valued forms]] as described in [definition 2.11](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v3.pdf#page=27) of [SchrWalII](http://arxiv.org/abs/0802.0663). There are many possible conventions. The above is supposed to describe the _bidual_ [[opposite 2-category]] of the 2-groupoid as defined in that article, with the direction of 1- and 2-morphisms reversed. 
 
 
-+-- {: .un_cor }
++-- {: .num_cor }
 ###### Corollary
 
 The 2-groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is as the one above, discarding the piece $C^\infty(-,G_1)$ in the 1-morphisms and the piece f$C^\infty(-,G_2)$ in the 2-morphismms.
@@ -2262,7 +2262,7 @@ We discuss here the  <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infi
 
 #### Lie integration {#LieIntegration}
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Write [[dgAlg]] for the [[category]] of [[dg-algebra]]s over 
@@ -2281,7 +2281,7 @@ for the [[full subcategory]] of the [[opposite category]] on the graded-commutat
 We describe a presentation of the exponentiation an [[L-∞ algebra]] to a smooth $\infty$-group. The following somewhat technical definition serves to control the smooth structure on these exponentiated objects.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $k \in \mathbb{N}$ regard the $k$-[[simplex]] $\Delta^k$ as a [[smooth manifold|smooth]] [[manifold with corners]] in the standard way. We think of this embedded into the [[Cartesian space]] $\mathbb{R}^k$ in the standard way with maximal rotation symmetry about the center of the simplex, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
@@ -2305,7 +2305,7 @@ $$
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $\mathfrak{g} \in L_\infty$ write $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ for the [[simplicial presheaf]] defined over $U \in $ [[CartSp]] and 
@@ -2324,7 +2324,7 @@ with the evident structure maps given by pullback of [[differential form]]s.
 
 For references related to this definition see _[[Lie integration]]_ .
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The objects $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ are 
@@ -2363,7 +2363,7 @@ provides fillers for all [[horn]]s over all $U \in $ [[CartSp]].
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition
 
 We say that the [[loop space object]] $\Omega \exp(\mathfrak{g})$ is the **smooth $\infty$-group** exponentiating $\mathfrak{g}$.
@@ -2372,7 +2372,7 @@ We say that the [[loop space object]] $\Omega \exp(\mathfrak{g})$ is the **smoot
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The objects $\exp(\mathfrak{g}) \in Smooth \infty Grpd$ are
@@ -2521,7 +2521,7 @@ And since $\Pi$ preserves the [[homotopy colimit]] $\exp(\mathfrak{g}) \simeq \m
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 We may think of $\Omega \exp(\mathfrak{g})$ as the smooth 
@@ -2544,7 +2544,7 @@ Let $\mathfrak{g} \in L_\infty$ be an ordinary (finite dimensional) [[Lie algebr
 With $G$ regarded as a [smooth ∞-group](#LieGroups) write $\mathbf{B}G \in Smooth\infty Grpd$ for its [[delooping]]. Recall from [above](#LieGroups) the standard presentation of this by a simplicial presheaf $\mathbf{B}G_c \in [CartSp_{smooth}^{op}, sSet]$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The operation of [[parallel transport]] $P \exp(\int -) : \Omega^1([0,1], \mathfrak{g}) \to G$ yields a weak equivalence (in $[CartSp^{op}, sSet]_{proj}$)
@@ -2569,7 +2569,7 @@ The proof is spelled out at [[Lie integration]]. In the section <a href="http://
 
 Let $n \in \mathbb{N}$, $n \geq 1$.
 
-+-- {: .un_def #LineLieNAlgebra}
++-- {: .num_defn #LineLieNAlgebra}
 ###### Definition
 
 Write 
@@ -2584,7 +2584,7 @@ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a si
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 The [[discrete ∞-groupoid]] underlying $\exp(b^{n-1} \mathbb{R})$ is given by the [[Kan complex]] that in degree $k$ has the set of closed differential $n$-forms (with sitting instants) on the $k$-[[simplex]]
@@ -2597,7 +2597,7 @@ $$
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 We write equivalently
@@ -2611,7 +2611,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 We have that $\mathbf{B}^n \mathbb{R}_{smp}$ is a presentation of the [smooth line n-group](#CircleLienGroup) $\mathbf{B}^{n} \mathbb{R}$.
@@ -2639,7 +2639,7 @@ We consider now the [flat coefficient objects](#StrucFlat)
 $\mathbf{\flat} \exp(\mathfrak{g})$ of [exponentiated ∞-Lie algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
 
 
-+-- {: .un_def #FlatCoefficientsForLieNGroupSimplicial}
++-- {: .num_defn #FlatCoefficientsForLieNGroupSimplicial}
 ###### Definition
 
 Write $\mathbf{\flat}\exp(\mathfrak{g})_{smp}$ for the simplicial presheaf given by
@@ -2654,7 +2654,7 @@ $$
 
 =--
 
-+-- {: .un_prop #FactorizatonForExponentiatedFlatInclusion}
++-- {: .num_prop #FactorizatonForExponentiatedFlatInclusion}
 ###### Proposition
 
 The canonical morphism 
@@ -2679,7 +2679,7 @@ fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$.
 We discuss the two morphisms in the composite separately in two
 lemmas.
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 The canonical inclusion
@@ -2851,7 +2851,7 @@ with the desired properties: at $u = 0$ the homotopy that we constructed is cons
 
 =--
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 The canonical morphism
@@ -3110,7 +3110,7 @@ $$
 
 that sends a closed $n$-form $\omega \in \Omega^n_{cl}(U \times \Delta^k)$ to $(-1)^{k+1}$ times  its [[fiber integration]] $\int_{\Delta^k} \omega$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 This map yields a morphism of simplicial presheaves
@@ -3177,7 +3177,7 @@ We now consider the [de Rham coefficient object](#StrucDeRham)
 $\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ of [exponentiated L-∞ algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
 
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 For $\mathfrak{g} \in L_\infty$ a representive in $[CartSp^{op}, sSet]_{proj}$ of the object de Rham coefficient object
@@ -3246,7 +3246,7 @@ $$
 
 that sends a closed $n$-form $\omega \in \Omega^n_{cl}(U \times \Delta^k)$ to $(-1)^{k+1}$ times  its [[fiber integration]] $\int_{\Delta^k} \omega$.
 
-+-- {: .un_prop #FiberIntegrationAsWeakEquivalenceForDeRhamCoefficientPresentations}
++-- {: .num_prop #FiberIntegrationAsWeakEquivalenceForDeRhamCoefficientPresentations}
 ###### Proposition
 
 This map yields a morphism of simplicial presheaves
@@ -3332,7 +3332,7 @@ Let $G$ be a [[Lie group]]. Write $\mathfrak{g}$ for
 its [[Lie algebra]].
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Under the identification
@@ -3465,7 +3465,7 @@ Recall the discussion of $\mathbf{B}^n U(1)$ and of
 $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ from 
 [above](#StrucDeRham).
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $n \in \mathbb{N}$ define the simplicial presheaf
@@ -3491,7 +3491,7 @@ $$
 =--
 
 
-+-- {: .un_prop #CurvatureCharOnBnU1}
++-- {: .num_prop #CurvatureCharOnBnU1}
 ###### Proposition
 
 The evident projection
@@ -3715,7 +3715,7 @@ Notice that the evident forgetful morphism $\mathbf{B}^n U(1) \stackrel{}{\lefta
 In the section on [de Rham coefficients for exponentiated Lie algebras](#DifferentialCoefficientsOfLieInt) we had discussed an equivalent presentation of most of the objects above. We now formulate the curvature characteristic in this alternative form.
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Observation
 
 We may write the [[simplicial presheaf]] $\mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}$ from [above](#DifferentialCoefficientsOfLieInt) equivalently as follows
@@ -3745,7 +3745,7 @@ where on the right we have the set of [[commuting diagram]]s in [[dgAlg]] of the
 
 =--
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 Write $W(b^{n-1}\mathbb{R}) \in $ [[dgAlg]] for the [[Weil algebra]] of the 
@@ -3753,7 +3753,7 @@ Write $W(b^{n-1}\mathbb{R}) \in $ [[dgAlg]] for the [[Weil algebra]] of the
 
 =--
 
-+-- {: .un_prop #PropertiesOfWeilAlgebraOfLineLienAlgebra}
++-- {: .num_prop #PropertiesOfWeilAlgebraOfLineLienAlgebra}
 ###### Observation
 
 We have the following properties of $\mathrm{W}(b^{n-1}\mathbb{R})$
@@ -3791,7 +3791,7 @@ We have the following properties of $\mathrm{W}(b^{n-1}\mathbb{R})$
 
 =--
 
-+-- {: .un_def #DiffSmpForLineLienAlgebra}
++-- {: .num_defn #DiffSmpForLineLienAlgebra}
 ###### Definition
 
 
@@ -3820,15 +3820,15 @@ as indicated.
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 This means that an element of $\mathbf{B}^n \mathbb{R}_{diff,smp}(U)[k]$ is a smooth $n$-form $A$ (with sitting instants) on $U \times \Delta^k$ such that its [[curvature]] $(n+1)$-form $d A$ vanishes when restricted in all arguments to [[vector field]]s tangent to $\Delta^k$. We may write this condition as $d A \in \Omega^{\bullet \geq 1, \bullet}_{si}(U \times \Delta^k)$.
 
 =--
 
-+-- {: .un_observation }
-###### Observation
++-- {: .num_remark }
+###### Remark
 
 There are canonical morphisms 
 
@@ -3885,7 +3885,7 @@ $$
 
 =--
 
-+-- {: .un_prop #CurvSmp}
++-- {: .num_prop #CurvSmp}
 ###### Proposition 
 
 This span is a presentation in $[CartSp_{smooth}^{op}, sSet]$ of the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">universal curvature characteristics</a> $curv : \mathbf{B}^n \mathbb{R} \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}$ in $Smooth \infty Grpd$.
@@ -4435,7 +4435,7 @@ By the [[nLab:Poincare lemma]] applied to each [[nLab:Cartesian space]], this is
 In the [next section](#AbGerbesConnection) we give the proof of this (simple) claim. Here in the warmup phase we instead want to discuss the geometric interpretation of this resolution, along the lines of the section <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+survey#CurvatureCharacteristicsI">curvature characteristics of 1-bundles</a> in the [[schreiber:differential cohomology in an (∞,1)-topos -- survey|survey-part]].
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 We have the following geometric interpretation of the above models:
@@ -4548,7 +4548,7 @@ $$
 
 (because the bottom vertical morphism is a fibration, by the fact that our model for $\mathbf{B}_{diff} U(1) \to \flat_{dR}\mathbf{B}^2 U(1)$ is a fibration, that $C(\{U_i\})$ is cofibrant and using the axioms of the [[nLab:sSet]]-[[nLab:enriched model category]] $[CartSp^{op}, sSet]_{proj}$).
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observations
 
 A cocycle in $[CartSp^{op},sSet](C(\{U_i\}), \mathbf{B}_{diff}U(1))$ is
@@ -4799,7 +4799,7 @@ $$
 
 in [[∞Grpd]], where the morphism on the right picks one base point in each connected component.
 
-+-- {: .un_theorem #DeligneCohomologyTheorem}
++-- {: .num_theorem #DeligneCohomologyTheorem}
 ###### Theorem
 
 For $X \in SmoothMfd \hookrightarrow Smooth \infty Grpd$ 
@@ -4838,7 +4838,7 @@ $$
 $$
 
 
-+-- {: .un_theorem }
++-- {: num_theorem }
 ###### Theorem
 
 For $X \in SmoothMfd \hookrightarrow Smooth \infty Grpd$ 
@@ -4899,7 +4899,7 @@ This is the complex of sheaves that defines [[Deligne cohomology]] in degree $(n
 
 We discuss how the general abstract definition of differential cohomology in $Smooth \infty Grpd$ reproduces on general grounds the abstract properties of the traditional definition of [[ordinary differential cohomology]].
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 For $X$ a [[smooth manifold]], the cohomology classes $H'_{diff}(X, \mathbf{B}^n U(1))$ of the cocycle $\infty$-groupoid $\mathbf{H}'_{diff}(X, \mathbf{B}^n U(1))$ defined by the [[homotopy pullback]]
@@ -4976,7 +4976,7 @@ Then use prop. \ref{FlatCohomologyAndWithConstantCoefficients}, which says that 
 
 (...)
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The morphism given by [[fiber integration]] of differential forms over the simplex factor fits into a diagram
@@ -4999,7 +4999,7 @@ where the vertical morphisms are weak equivalences.
 
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Fiber integration induces a weak equivalence
@@ -5031,14 +5031,14 @@ This forgetful morphism is evidently a fibration (because it is a degreewise sur
 
 
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 Write $\mathbf{B}^n U(1)_{conn,simp} \hookrightarrow \mathbf{B}^n U(1)_{diff,simp}$ for the sub-presheaf which over $(U,[k])$ is the set of those forms $\omega$ on $U \times \Delta^k$ such that the [[curvature]] $d \omega$ has no leg along $\Delta^k$.
 
 =--
 
-+-- {: .un_cor }
++-- {: .num_cor }
 ###### Corollary
 
 Under fiber integration over simplices, $\mathbf{B}^n U(1)_{conn,simp}$ is [[quasi-isomorphism|quasi-isomorphic]] to the [[Deligne cohomology]]-complex.
@@ -5251,7 +5251,7 @@ We discuss presentations for the differential characteristic classes in the imag
 Let $\mathfrak{g} \in L_\infty \stackrel{CE}{\hookrightarrow} dgAlg^{op}$ be an [[L-∞ algebra]].
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A [[L-∞ algebra cohomology|L-∞ algebra cocycle]] on $\mathfrak{g}$ in degree $n$ is a morphism
@@ -5264,7 +5264,7 @@ to the [line Lie n-algebra](#LineLieNAlgebra).
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 Every $L_\infty$-algebra cocycle induces canonically a morphism of [[simplicial presheaves]] of 
@@ -5295,7 +5295,7 @@ $$
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The **[[Weil algebra]]** $W(\mathfrak{g}) \in dgAlg$ is the unique 
@@ -5308,7 +5308,7 @@ $$
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $\mathfrak{g} \in L_\infty$ define the [[simplicial presheaf]] $\exp(\mathfrak{g})_{diff} \in [CartSp_{smooth}^{op}, sSet]$ by
@@ -5337,7 +5337,7 @@ where on the left we have the set of [[commuting diagram]]s in [[dgAlg]] as indi
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 For $\mathfrak{g} = b^{n-1}\mathbb{R}$ the [[line Lie n-algebra]],
@@ -5345,7 +5345,7 @@ this subsumes the [previous definition](#DiffSmpForLineLienAlgebra).
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The canonical projection
@@ -5420,7 +5420,7 @@ $$
 =--
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $G \in Smooth \infty Grpd$ be an [[∞-group|n-group]] given by [Lie integration](#LieIntegration) of an [[L-∞ algebra]] $\mathfrak{g}$, in that the [[delooping]] object $\mathbf{B}G$ is presented by the $(n+1)$-[[simplicial skeleton|coskeleton]] [[simplicial presheaf]] 
@@ -5444,7 +5444,7 @@ the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernWei
 
 Let still $\mathfrak{g} \in _\infty \stackrel{CE(-)}{\hookrightarrow} dgAlg^{op}$ be an [[L-∞ algebra]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An **[[invariant polynomial]]** on $\mathfrak{g}$ is an element 
@@ -5457,7 +5457,7 @@ Write $inv(\mathfrak{g}) \hookrightarrow W(\mathfrak{g})$ for the sub-dg-algebra
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 For the [[line Lie n-algebra]] we have 
@@ -5479,7 +5479,7 @@ in [[dgAlg]].
 =--
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 We say an invariant polynomial $\langle - \rangle$ on $\mathfrak{g}$ is **in transgression** with an [[∞-Lie algebra cohomology|L-∞ algebra cocycle]] $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ if 
@@ -5512,7 +5512,7 @@ if it is in transgression with some invariant polynomial.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 We have
@@ -5568,7 +5568,7 @@ This is by construction in transgression with $\langle - \rangle$.
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Define the [[simplicial presheaf]] $\exp(\mathfrak{g})_{ChW} \in [CartSp_{smooth}^{op}, sSet]$
@@ -5633,7 +5633,7 @@ transgressive [[∞-Lie algebra cohomology|L-∞ algebra cocycles]].
 
 
 
-+-- {: .un_prop #CharacterizationOfexpChW}
++-- {: .num_prop #CharacterizationOfexpChW}
 ###### Observation
 
 We have that $\exp(\mathfrak{g})_{ChW}$ is the 
@@ -5718,7 +5718,7 @@ $\Omega^\bullet(U) \to \Omega^\bullet_{si}(U \times \Delta^k)$.
 
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This shows that $\exp(\mathfrak{g})_{ChW}$ serves as a convenient
