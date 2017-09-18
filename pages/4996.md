@@ -68,7 +68,7 @@ In detail this means that $C$ is
 +-- {: .num_remark}
 ###### Remark
 
-These conditions are stronger than for a [[cohesive site]], which only guarantees cohesiveness of the 1-topos over it.
+These conditions are stronger than for a [[cohesive site]], as the latter only guarantees cohesiveness of the 1-topos over it.
 
 This definition is supposed to model the following ideas:
 
