@@ -20,7 +20,7 @@ A _line Lie $n$-algebra_ over a ground [[field]] $k$ is the [[Lie n-algebra]] an
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $n \in \mathbb{N}, n \geq 1$ the **line Lie $n$-algebra** 
@@ -44,6 +44,15 @@ $$
 $$
 
 =--
+
+
++-- {: .num_example}
+###### Example
+
+For $n = 2$ then the _line Lie 2-algebra_ is the [[Lie 2-algebra]] that comes from the [[differential crossed module]] $(\mathbb{R} \to 0)$.
+
+=--
+
 
 ## Properties
 
@@ -76,3 +85,4 @@ $$
 [[!redirects line Lie n-algebras]]
 
 [[!redirects line Lie algebra]]
+[[!redirects line Lie 2-algebra]]
