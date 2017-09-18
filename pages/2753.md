@@ -82,6 +82,8 @@ In particular
 
 * the Lie--Rinehart pair corresponding to a [[Poisson Lie algebroid]] on a [[Poisson manifold]] $X$ is $(C^\infty(X), MultVect(X))$, where the [[Lie algebra]] is the the space of [[multivector fields]] on $X$ equipped with the [[Schouten bracket]]. 
 
+In [open-closed string field theory](string%20field%20theory#OpenClosedStringFieldTheory) one finds at least one half of the axioms of homotopy Lie-Rinehart pairs.
+
 
 ## Generalizations 
 
