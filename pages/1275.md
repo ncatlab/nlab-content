@@ -130,6 +130,25 @@ If both $N_1$ and $N_2$ are left comodules, then their cotensor product is the c
 e.g. ([Ravenel 86, def. A1.1.4](#Ravenel86)).
 
 
++-- {: .num_example #PrimitiveElementInAComodule}
+###### Example
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, ([def.](commutative+Hopf+algebroid#CommutativeHopfAlgebroidDefinitionInExplicitComponents)), and given $N$ a left $\Gamma$-comodule ([def.](commutative+Hopf+algebroid#CommutativeHopfAlgebroidComodule)). Regard $A$ itself canonically as a right $\Gamma$-comodule Then the cotensor product 
+
+$$
+  Prim(N) \coloneqq A \Box_\Gamma N
+$$
+
+is called the **[[primitive elements]]** of $N$:
+
+$$
+  Prim(N) = \{ n \in N \;\vert\; \Psi_N(n) = 1 \otimes n \}
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_prop}
 ###### Proposition
 
