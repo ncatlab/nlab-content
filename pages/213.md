@@ -206,3 +206,9 @@ category: category
 [[!redirects CartesianSpaces]]
 [[!redirects Cartesian Spaces]]
 
+[[!redirects SmoothCartSp]]
+
+
+[[!redirects smooth Cartesian space]]
+[[!redirects smooth Cartesian spaces]]
+
