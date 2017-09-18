@@ -30,7 +30,8 @@ This is one of the [[parallelizable manifold|parallelizable]] spheres, as such c
 
 
 
-### Hopf fibration
+### Quaternionic Hopf fibration
+ {#QuaternionicHopfFibration}
 
 The 7-sphere participates in the [[quaternionic Hopf fibration]], the analog of the complex [[Hopf fibration]] with the field of [[complex numbers]] replaced by the division ring of [[quaternions]] or Hamiltonian numbers $\mathbb{H}$.
 
@@ -45,6 +46,8 @@ $$
 $$
 
 Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {|x|}^2 + {|y|}^2 = 1\}$, with $p$ mapping $(x, y)$ to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \cong S^4$, with each [[fiber]] a [[torsor]] parametrized by quaternionic [[scalars]] $\lambda$ of unit [[norm]] (so $\lambda \in S^3$).  This canonical $S^3$-bundle (or $SU(2)$-bundle) is classified by a map $S^4 \to \mathbf{B} SU(2)$. 
+
+
 
 ## Smooth structures 
 
@@ -81,12 +84,10 @@ Discussion of [[exotic smooth structures]] on 7-spheres includes
 
 The explicit construction of exotic 7-spheres by intersecting algebraic varieties with spheres is described in 
 
-* J. Milnor, "Singular points of complex hypersurfaces" , Princeton Univ. Press (1968). 
- {#Mil2}
+* {#Mil2} [[John Milnor]], "Singular points of complex hypersurfaces" , Princeton Univ. Press (1968). 
+ 
 
 [[!redirects 7-spheres]]
 
 [[!redirects seven sphere]]
 [[!redirects seven spheres]]
-
-[[!redirects quaternionic Hopf fibration]]
