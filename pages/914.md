@@ -547,7 +547,7 @@ $$
 
 In particular every [[neighbourhood]] $U_x$ of $x$ intersects each of the $Cl(S_a)$, and hence also each of the $S_a$. By definition of the $S_a$, this means that for every $a \in A$ there exists $b \geq a$ such that $\nu_b \in U_x$, hence that $x$ is a [[cluster point]] (def \ref{Convergence}) of the net.
 
-We will not produce a [[sub-net]] 
+We will now produce a [[sub-net]] 
 
 $$
   \array{
@@ -684,6 +684,7 @@ A similar logic is satisfied by '[[almost everywhere]]' and its dual ('not almos
 
 * [[limit of a net]]
 
+* [Tychonoff theorem -- Proof via net convergence](Tychonoff+theorem#ProofViaNets)
 
 ## References
 
