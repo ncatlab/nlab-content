@@ -71,7 +71,7 @@ $$
   \,,
 $$
 
-where $\mathbb{A}_{\mathbb{Z}}$ are the [[integral adeles]]. (The double coset on the right is analogous to that which appears in the [[Weil uniformization theorem]], see the discussion there and at _[[geometric Langlands correspondence]]_ for more on this analogy.)
+where $\mathbb{A}_{\mathbb{Z}}$ are the [[integral adeles]]. (The [[double coset]] on the right is analogous to that which appears in the [[Weil uniformization theorem]], see the discussion there and at _[[geometric Langlands correspondence]]_ for more on this analogy.)
 
 This leads to the more general concept of _adelic automorphic forms_ [below](#InNumberTheory).
 
