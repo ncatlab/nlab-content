@@ -54,6 +54,7 @@ In this context the [[topology]] of [[manifolds]] is often referred to as _rubbe
 
 
 #### Rubber-sheet analogy of gravity
+ {#RubberSheetAnalogyOfGravity}
 
 
 Moreover, these modalities [above](#InCategoricalLogic) induce an axiomatizatioon of [[Cartan geometry]], hence in particular of [[pseudo-Riemannian geometry]] and hence of [[gravity]] ("[[general relativity]]") on these manifolds. 
@@ -67,7 +68,7 @@ This seems to go back to the technical result of ([Sakharov 67](#Sakharov67)), w
 
 > gravity is "an elasticity of space that arises from particle physics"
 
-Further discussion of the analogy between the mathematical theory of elasticity and that of gravity include ([Tartaglia 95](#Tartaglia95),[Middleton-Langston 13](#MiddletonLangston13)).
+Further discussion of the analogy between the mathematical theory of elasticity and that of gravity include ([Tartaglia 95](#Tartaglia95),[Middleton-Langston 13](#MiddletonLangston13), [Wikipedia](#WikipediaRubberSheetModelForGravity)).
 
 In order to think of not just [[topology]] but [[Riemannian geometry]] in the [above](#RubberSheetGeometry) context of elasticity, the _rigidity_ mentioned [further above](#RelativelyStiffElasticity) seems advisable. A _rigidly elastic_ body is to be expected to produce sound when struck. This is a common imagery in Riemannian geometry, as in "[[hearing the shape of a drum]]".
 
@@ -102,13 +103,14 @@ as saying that gravity is "an elasticity of space that arises from particle phys
 The mathematical similarity between gravity and the physics of elasticity is discussed further in 
 
 
-
 * {#Tartaglia95} A. Tartaglia, _Four Dimensional Elasticity and General Relativity_ ([arXiv:gr-qc/9509043](http://arxiv.org/abs/gr-qc/9509043))
 
 * {#MiddletonLangston13} Chad A. Middleton, Michael Langston, _Circular orbits on a warped spandex fabric_ ([arXiv:1312.3893](http://arxiv.org/abs/1312.3893), [talk video](https://www.youtube.com/watch?v=F80HIolrsoc))
 
 
 The analogy is mentioned for expositional purpose for instance in 
+
+* {#WikipediaRubberSheetModelForGravity} Wikipedia, _[Gravity well -- The rubber-sheet model](http://en.wikipedia.org/wiki/Gravity_well#The_rubber-sheet_model)_
 
 * {#Gabor} Gabor, _[Gravity: Space as a rubber sheet](http://theory.uwinnipeg.ca/users/gabor/black_holes/slide5.html)_
 
