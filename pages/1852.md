@@ -212,6 +212,8 @@ In fact the Tietze extension theorem can serve as a basis of a [[category theory
 
 Although normal spaces are "nice" spaces (being for example [[Tychonoff spaces]], by [[Urysohn's lemma]]), the [[category]] of normal topological spaces with [[continuous maps]] between them seems not to be very well-behaved. (Cf. the rule of thumb expressed in [[dichotomy between nice objects and nice categories]].) It admits [[equalizers]] of pairs of maps $f, g: X \rightrightarrows Y$ (computed as in $Top$ or $Haus$; one uses the easy fact that closed subspaces of normal spaces are normal). However it curiously does not have [[products]] -- or at least it is not closed under products in $Top$, as shown by Counter-Example \ref{Morse}. It follows that this category is not a [[reflective subcategory]] of $Top$, as $Haus$ is. 
 
+More at the page [[colimits of normal spaces]]. 
+
 
 ## References
 
