@@ -21,7 +21,7 @@
 ## Idea
 **Arithmetic differential geometry** is an approach to [[arithmetic]] which looks to find analogs of constructions in [[differential geometry]], for example, [[arithmetic jet spaces]]. It has been developed primarily by [[Alexandru Buium]].
 
-According to this approach, the classical derivatives of differential geometry are replaced by $p$-derivations for prime $p$, 
+According to this approach, the classical derivatives of differential geometry are replaced by [[p-derivations]] for prime $p$, such as the [[Fermat quotient]]
 
 $$
 \delta_p: \mathbb{Z} \to \mathbb{Z}, a \mapsto \delta_p a = \frac{a - a^p}{p}.
@@ -30,6 +30,7 @@ $$
 ## Related pages
 
 * [[arithmetic jet space]]
+
 * [[Borger's absolute geometry]]
 
 * [[D-geometry]]
