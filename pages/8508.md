@@ -39,6 +39,9 @@ A _super Riemann surface_ is the analog of a [[Riemann surface]] in [[supergeome
 
 ## References
 
+* S. B. Giddings and P. Nelson, _The Geometry of super Riemann surfaces_, Commun.
+Math. Phys., 116, (1988), 607
+
 * [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
 
 * [[Ron Donagi]], [[Edward Witten]], _Supermoduli Space Is Not Projected_ ([arXiv:1304.7798](http://arxiv.org/abs/1304.7798))
