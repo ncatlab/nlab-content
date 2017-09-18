@@ -1143,7 +1143,7 @@ which picks any point and sends $n \in \mathbb{Z}$ to the loop based at that poi
 ###### Definition
 
 Given two morphisms of groupoids 
-$X \stackrel{f}{\leftarrow} B \stackrel{g}{\to} Y$
+$X \stackrel{f}{\to} B \stackrel{g}{\leftarrow} Y$
 their _[[homotopy fiber product]]_
 
 $$
@@ -1199,7 +1199,7 @@ $$
 ###### Example
 
 For $X$ a [[groupoid]], $G$ a [[group]] and $X \to \mathbf{B}G$ a map into its [[delooping]], the [[pullback]] $P \to X$ of the $G$-[[universal principal bundle]] of example \ref{BGGroupoidAsActionGroupoid}
-is equivalently the [[homotopy fiber product]] of $X$ with the point over $\matrhbf{B}G$:
+is equivalently the [[homotopy fiber product]] of $X$ with the point over $\mathbf{B}G$:
 
 $$
   P \simeq X \underset{\mathbf{B}G}{\times} \ast
