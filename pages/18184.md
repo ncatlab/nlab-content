@@ -1,0 +1,69 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+<div style="float:right;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="400"></div>
+
+In [[topology]] an _attaching space_ is [[topological spaces]], denoted $X \cup_{f} Y$, which is constructed by "attaching" or "gluing" two topological spaces $X$ and $Y$ along a [[topological subspace]] $A \subset X$ by means of a [[continuous function]] $f \colon A \to Y$. The function $f$ is then also called the _attaching map_.
+ 
+More [[category theory|abstractly]], attaching spaces are [[pushouts]] along [[monomorphisms]] in the [[category]] [[Top]] of all [[topological spaces]]. The [[formal dual|formally dual]] concept is that of [[fiber]] spaces or more generally of [[fiber products]] of topological spaces.
+
+## Definition
+
+The attaching space may be realized as the [[quotient topological space]] of the [[disjoint union space]] $X \sqcup Y$ by the [[equivalence relation]] which identifies a point $x \in A \subset X$ with its [[image]] $f(x) \in Y$:
+
+
+$$
+  A \cup_f B 
+  \;\simeq\;
+  \left(
+    X \sqcup Y
+  \right)/\sim
+  \,.
+$$
+
+More [[category theory|category theoretically]], the attaching space is the [[pushout]] in the [[category]] [[Top]] of [[topological spaces]] of the subspace inclusion $i \colon A \hookrightarrow X$ along $f$, i.e. the topological space which is [[universal property|universal]] with the property that it makes the following [[commuting square|square commute]]:
+
+$$
+  \array{
+    A &\overset{\phantom{A}i\phantom{A}}{\hookrightarrow}& Y
+    \\
+    {}^{\mathllap{f}}\downarrow &(po)& \downarrow
+    \\
+    X &\longrightarrow& X \cup_f Y
+  }
+  \,.
+$$
+
+For more on this see at _[Top -- Universal constructions](Top#UniversalConstructions)_.
+
+## Examples
+
+* In forming topological [[cell complexes]] such as [[CW-complexes]], one consecutively forms attaching spaces along [[n-sphere]] inclusions as [[boundaries]] of [[n-disks]].
+
+## References
+
+* Wikipedia, _[Adjunction space](https://en.wikipedia.org/wiki/Adjunction_space)_
+
+[[!redirects attaching spaces]]
+
+[[!redirects attaching map]]
+[[!redirects attaching maps]]
+
+[[!redirects adjunction space]]
+[[!redirects adjunction spaces]]
+
