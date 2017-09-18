@@ -3,7 +3,7 @@
 
   _Categories for the Working Mathematician_
 
-  Graduate texts in mathematics, Springer
+  Graduate texts in mathematics, Springer, 1971
 
 is a classical textbook on [[category theory]]. See also
 
