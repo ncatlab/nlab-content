@@ -1,22 +1,19 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
-
 
 The __complement__ of a [[subset]] $S$ of a set $X$ is the set
 $$
@@ -34,9 +31,11 @@ In another direction, the __complement__ of a [[complemented subobject]] $S$ of 
 
 The complement of a [[truth value]] (seen as a subset of the [[point]]) is called its _[[negation]]_.
 
+
 ## Related concepts
 
 * [[orthocomplemented lattice]]
+
 
 [[!redirects complement]]
 [[!redirects complements]]
@@ -44,5 +43,3 @@ The complement of a [[truth value]] (seen as a subset of the [[point]]) is calle
 
 [[!redirects pseudocomplement]]
 [[!redirects pseudocomplements]]
-
-[[!redirects exterior]]
