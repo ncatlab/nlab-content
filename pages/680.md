@@ -202,9 +202,9 @@ with respect to the standard [[model structure on simplicial sets]] [[model stru
 
 The structures of categories with weak equivalences have standard refinements to [[model category]] structures:
 
-* the _projective_ [[model structure on chain complexes]] $Ch_\bullet$ has as weak equivalences the [[quasi-isomorphism]]s and as fibrations the chain maps that are surjections in each positive degree;
+* the _projective_ [[model structure on chain complexes]] $Ch_\bullet$ has as fibrations the chain maps that are surjections in each positive degree;
 
-* the _[[model structure on simplicial T-algebras|model structure on simplicial abelian groups]]_ has as weak equivalences and fibrations those whose underlying morphisms in [[sSet]] are fibrations ([[Kan fibrations]]) with respect to the standard [[model structure on simplicial sets]].
+* the _[[model structure on simplicial T-algebras|model structure on simplicial abelian groups]]_ has as fibrations those whose underlying morphisms in [[sSet]] are fibrations ([[Kan fibrations]]) with respect to the standard [[model structure on simplicial sets]].
 
 +-- {: .num_prop }
 ###### Proposition
