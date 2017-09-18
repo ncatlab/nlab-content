@@ -156,7 +156,7 @@ Then there is a model category structure on non-negatively graded cochain comple
 
 * $f$ is a cofibration if it is $\mathcal{G}$-monic in positive degree;
 
-* $f$ is a fibration if it is degreewise a [[split epimorphism]] with $\mathcal{G}$-injective kernel.
+* $f$ is a fibration if it is degreewise a [[split epimorphism]] with degreewise $\mathcal{G}$-injective kernel.
  
 =--
 
