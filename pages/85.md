@@ -60,7 +60,7 @@ $$
   \;\colon\;
   c \mapsto
   \int^{c_1, c_2 \in \mathcal{C}}
-  X(c_1) \otimes X(c_2) \otimes [c_1 \otimes c_2, c]
+  X(c_1) \otimes Y(c_2) \otimes [c_1 \otimes c_2, c]
   \,.
 $$
 
@@ -109,7 +109,7 @@ This perspective is highlighted in ([MMSS 00, p. 60](#MMSS00)).
 +-- {: .proof}
 ###### Proof
 
-The general formula for pointwise Kan extension via coents ([here](https://ncatlab.org/nlab/show/Kan%20extension#PointwiseByCoEnds)) says that left Kan extension of any $F \colon \mathcal{D} \to V$ along some $p \colon \mathcal{D} \to \mathcal{E}$ is given by 
+The general formula for pointwise Kan extension via coends ([here](https://ncatlab.org/nlab/show/Kan%20extension#PointwiseByCoEnds)) says that left Kan extension of any $F \colon \mathcal{D} \to V$ along some $p \colon \mathcal{D} \to \mathcal{E}$ is given by 
 
 $$
   Lan_p F \;\colon\; e \mapsto \int^{d\in \mathcal{D}} \mathcal{E}(p(d), e) \otimes F(d)
