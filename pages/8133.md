@@ -23,20 +23,21 @@ Banach coalgebras (or cogebras) are like [[Banach algebras]], but [[coalgebras]]
 A __Banach coalgebra__, or __Banach cogebra__, is a [[comonoid object]] in the [[monoidal category]] $Ban$ of [[Banach spaces]] with [[short linear maps]] and the [[projective tensor product]].  (Recall that a [[Banach algebra]] is a [[monoid object]] in $Ban$.)
 
 Explicitly, we have:
+
 1.  a [[Banach space]] $A$
-2.  a [[short linear map]], the __comultiplication__:
-    $$ \Delta\colon A \to A {\displaystyle\hat{\otimes}_\pi} A $$
-    to the [[projective tensor product]];
-3.  a short [[linear functional]], the __counit__:
+1.  a [[short linear map]], the __comultiplication__:
+$$ \Delta\colon A \to A {\displaystyle\hat{\otimes}_\pi} A $$
+to the [[projective tensor product]];
+1.  a short [[linear functional]], the __counit__:
     $$ \epsilon\colon A \to K ,$$
     where $K$ is the [[ground field]];
-4.  an [[equation]], the __coassociativity__:
+1.  an [[equation]], the __coassociativity__:
     $$ (\Delta {\displaystyle\hat{\otimes}_\pi} \id_A) \Delta x = (\id_A {\displaystyle\hat{\otimes}_\pi} \Delta) \Delta x \in (A {\displaystyle\hat{\otimes}_\pi} A) {\displaystyle\hat{\otimes}_\pi} A \cong A {\displaystyle\hat{\otimes}_\pi} (A {\displaystyle\hat{\otimes}_\pi} A)$$
     for each $x\colon A$;
-5.  an equation, the __left coidentity__:
+1.  an equation, the __left coidentity__:
     $$ (\epsilon {\displaystyle\hat{\otimes}_\pi} \id_A) \Delta x = x \in K {\displaystyle\hat{\otimes}_\pi} A \cong A $$
     for each $x\colon A$;
-6.  and an equation, the __right coidentity__:
+1.  and an equation, the __right coidentity__:
     $$ (\id_A {\displaystyle\hat{\otimes}_\pi} \epsilon) \Delta x = x \in A {\displaystyle\hat{\otimes}_\pi} K \cong K $$
     for each $x\colon A$.
 
