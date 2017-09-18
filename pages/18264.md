@@ -22,6 +22,8 @@
 ###### Proposition
 **(a countable union of countable sets is countable)**
 
+Assuming the [[axiom of countable choice]] then:
+
 Let $I$ be a [[countable set]] and let 
 $\{S_i\}_{i \in I}$ be an $I$-[[dependent type|dependent set]] of [[countable sets]] $S_i$. Then the [[disjoint union]]
 
