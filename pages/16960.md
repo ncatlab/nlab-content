@@ -32,7 +32,7 @@ A key general statement of the theory is that rationally the [[homotopy theory]]
 ### Splitting into Mackey functors
  {#SplittingIntoMackeyFunctors}
 
-Let $G$ be a [[finite group]]. For $X$ a [[G-spectrum]], write $\pi_\bullet(X) \in \mathcal{M}[G]$ for its [[Mackey functor]], the one which sends $G/H$ to the $H$-equivariant homotopy groups of $X$. For $X,Y$ two $G$-spectra, there is a canonical morphism
+Let $G$ be a [[finite group]]. For $X$ a [[G-spectrum]], write $\pi_\bullet(X) \in \mathcal{M}[G]$ for its [[Mackey functor]], the one which sends $G/H$ to the $H$-[[equivariant homotopy groups]] of $X$. For $X,Y$ two $G$-spectra, there is a canonical morphism
 
 $$
   [X,Y]_G \longrightarrow \underset{n}{\prod} Hom_{\mathcal{M}[G]}(\pi_n(X),\pi_n(Y))
