@@ -55,7 +55,9 @@ See [[too simple to be simple]] for general theory.
 
 * [[discrete space]]
 
+* [[empty set]], [[empty category]], [[empty diagram]]
 
+* [[nothing]]
 
 
 [[!redirects empty space]]
