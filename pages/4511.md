@@ -15,10 +15,9 @@
 
 ## Idea
 
-In the context of [[homological algebra]], the _$Tor$-functor_ is the  
-[[left derived functor]] of the [[tensor product]] of $R$-[[modules]], for $R$ a [[commutative ring]].
+In the context of [[homological algebra]], the _$Tor$-functor_ is the [[derived tensor product]]: the [[left derived functor]] of the [[tensor product of modules|tensor product of]] $R$-[[modules]], for $R$ a [[commutative ring]].
 
-Together with the [[Ext-functor]] it constitutes one of the central operations of interest in homological algebra.
+Together with the [[Ext-functor]] it constitutes one of the central operations of interest in [[homological algebra]].
 
 ## Definition
 
