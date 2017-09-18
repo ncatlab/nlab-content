@@ -193,6 +193,14 @@ its weak equivalences are those morphisms whose dual was a weak equivalence in $
 
 =--
 
+### Homotopy and Homotopy category
+
+See at 
+
+* [[homotopy in a model category]]
+
+* [[homotopy category of a model category]]
+
 ## Examples
 
 Every category with limits and colimits carries the [[trivial model structure]] whose weak equivalences are the [[isomorphism]]s and all morphisms are cofibrations and fibrations.
