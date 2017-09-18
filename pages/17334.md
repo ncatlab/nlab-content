@@ -34,3 +34,8 @@ An attempt to bring both views together in a theory of [[type refinement]]:
 
 * [[Frank Pfenning]], _Church and Curry: Combining Intrinsic
 and Extrinsic Typing_, [pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf)
+
+[[!redirects intrinsic type]]
+[[!redirects extrinsic type]]
+[[!redirects intrinsic types]]
+[[!redirects extrinsic types]]
