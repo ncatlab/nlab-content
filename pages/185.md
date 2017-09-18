@@ -331,7 +331,7 @@ Local smooth algebras are precisely the "local Archimedian" algebras (...).
 
 =--
 
-This is ([BungeDubuc, prop. 2.1](#BungeDubuc)).
+This is ([Bunge-Dubuc, prop. 2.1](#BungeDubuc)).
 
 ## Examples
 
