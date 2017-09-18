@@ -307,7 +307,7 @@ of the [[ordinary homology]] group of $\Sigma$ with [[coefficients]] in the [[in
 If here one replaces the integers by a [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$ then one obtains what is called a
 _[[level structure on an elliptic curve|level-n structure on an elliptic curve]]_. Level-$n$ structures on elliptic curves may also be defined over general rings. 
 
-These structures are useful in that the [[moduli stack]] of [[elliptic curves with level-n structure]] (a _[[modular curve]]_ in the case over the complex numbers) orivides a finite [[covering]] of the full [[moduli stack of elliptic curves]].
+These structures are useful in that the [[moduli stack]] of [[elliptic curves with level-n structure]] (a _[[modular curve]]_ in the case over the complex numbers) provides a finite [[covering]] of the full [[moduli stack of elliptic curves]].
 
 ## Properties
 
