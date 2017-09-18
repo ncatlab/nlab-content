@@ -57,6 +57,11 @@ and for [[Yang-Mills theory]], [[quantum chromodynamics]] and perturbative [[qua
 
 * {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
+This construction has been shown to be equivalent to the ([[Fedosov  deformation quantization|Fedosov]]) [[formal deformation quantization]] of the [[covariant phase space]] of the field theory in
+
+* {#Collini16} [[Giovanni Collini]], _Fedosov Quantization and Perturbative Quantum Field Theory_ ([arXiv:1603.09626](https://arxiv.org/abs/1603.09626))
+
+
 For more see the references at _[[perturbative algebraic quantum field theory]]_.
 
 The relation of the construction via [[causal perturbation theory]] to the [[Feynman perturbation series]] in terms of [[Feynman diagrams]] was understood in 
