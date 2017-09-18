@@ -60,7 +60,7 @@ A topogenous relation is called **perfect** if $A \;\delta\; B$ implies there ex
 
 A **syntopogeny** (or **syntopogenous structure**) on a set $X$ is a [[filter]] $\mathcal{O}$ of topogenous relations (or an [[ideal]] if we are working with $\bowtie$ or $\ll$) such that
 
-* For any $\delta\in \mathcal{O}$, there exists a $\delta'\in\mathcal{O}$ such that if $A,B\subseteq X$ have the property that whenever $C\cup D = X$, either $A\;\delta'\; C$ or $B\;\delta'\; D$, then $A\;\delta\; B$.
+* For any $\delta\in \mathcal{O}$, there exists a $\delta'\in\mathcal{O}$ such that if $A,B\subseteq X$ have the property that whenever $C\cup D = X$, either $A\;\delta'\; C$ or $D\;\delta'\; B$, then $A\;\delta\; B$.
 
 If we have been working with the lattice of topogenies rather than topogenous relations, then we must explicitly state here that every topogeny in $\mathcal{O}$ satisfies (1).  This requirement actually joins with the requirement above to form an [[unbiased definition]] that is nicely expressed in terms of topogenous orders $\ll$ (and tacitly using isotony to show the equivalence):
 
