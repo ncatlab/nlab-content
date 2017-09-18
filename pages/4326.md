@@ -21,6 +21,13 @@ For $n$ a [[natural number]],  the **special unitary group** $SU(n)$ is the [[gr
 
 More generally, for $V$ any complex [[vector space]] equipped with a nondegenerate [[Hermitian form]] $Q$, $SU(V,Q)$ is the group of isometries of $V$ which preserve the volume form derived from $Q$.  One may write $SU(V)$ if $Q$ is obvious, so that $SU(n)$ is the same as $SU(\mathbb{C}^n)$.  By $SU(p,q)$, we mean $SU(\mathbb{C}^{p+q},Q)$, where $Q$ has $p$ positive [[eigenvalue]]s and $q$ negative ones.
 
+## Properties
+
+### As part of the ADE pattern
+
+[[!include ADE -- table]]
+
+
 ## Examples
 
 ### $SU(2)$
