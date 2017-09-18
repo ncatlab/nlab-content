@@ -21,7 +21,7 @@ The [[formal duality|formally dual]] concept is that of _[[epimorphism]]_, which
  
 ## Definition
 
-A [[morphism]] $f \colon X \to Y$ in some [[category]] is called a _monomorphism_ if for every [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Z \to X$ then
+A [[morphism]] $f \colon X \to Y$ in some [[category]] is called a _monomorphism_ (sometimes abbrieviated to _mono_), or described as being _monic_, if for every [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Z \to X$ then
 
 $$
   \left(
@@ -130,13 +130,13 @@ At [epimorphism](/nlab/show/epimorphism#Variations) there is a long list of vari
 * [[strong monomorphism]] = a monomorphism [[orthogonality|right orthogonal]] to [[epimorphisms]]
 * monomorphism
 
-Frequently, regular and strong monics coincide.  For instance, this is the case in any [[quasitopos]], and also in [[Top]], where they are the subspace inclusions (the plain monomorphisms are the injective functions).
+Frequently, regular and strong monos coincide.  For instance, this is the case in any [[quasitopos]], and also in [[Top]], where they are the subspace inclusions (the plain monomorphisms are the injective functions).
 
 Sometimes, all monomorphisms are regular---this seems to happen a bit more frequently than for epimorphisms.  For instance, this is the case in any [[pretopos]] (including any [[topos]], such as [[Set]]), but also in any [[abelian category]], and also in the category [[Grp]].
 
-In [[Ab]] and in any [[abelian category]], all monomorphisms are normal.  But this is not so in [[Grp]], where (despite the fact that all monomorphisms are regular), the normal monics are the inclusions of [[normal subgroups]] (hence the name).  In any [[Ab-enriched category]], all regular monics are normal, but not all monics need be regular.
+In [[Ab]] and in any [[abelian category]], all monomorphisms are normal.  But this is not so in [[Grp]], where (despite the fact that all monomorphisms are regular), the normal monos are the inclusions of [[normal subgroups]] (hence the name).  In any [[Ab-enriched category]], all regular monos are normal, but not all monos need be regular.
 
-In a [[Boolean topos]], such as [[Set]] (in [[classical mathematics]]), any monomorphism with [[inhabited set|inhabited]] domain is split.  Of course, no monic with empty domain and inhabited codomain can be split (in contrast to the dual case, where it can happen that all epimorphisms split -- the [[axiom of choice]]).
+In a [[Boolean topos]], such as [[Set]] (in [[classical mathematics]]), any monomorphism with [[inhabited set|inhabited]] domain is split.  Of course, no mono with empty domain and inhabited codomain can be split (in contrast to the dual case, where it can happen that all epimorphisms split -- the [[axiom of choice]]).
 
 
 ## Related concepts 
