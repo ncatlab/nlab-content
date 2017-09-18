@@ -93,9 +93,11 @@ Various monads are _definable_ in terms of the the standard type-forming operati
 
 * The [[continuation monad]] for a given type $S$ acts by $X \mapsto [[X,S],S]$.
 
-* A number of further monads are similarly *definable* in terms of standard type-forming operations, such as the [[reader monad]] and the [[writer monad]].
+* A number of further monads are similarly *definable* in terms of standard type-forming operations, such as the [[reader monad]] and the [[writer comonad]].
 
-  Given a [[type]] $W$, then the [[reader monad]] is the operation of forming the [[function type]] $[W,-] = (W\to (-))$. 
+  Given a [[type]] $W$, then the [[reader monad]] is the operation of forming the [[function type]] $[W,-] = (W\to (-))$; the [[writer comonad]] is the operation of forming the [[product type]] $W\times (-)$ and the composite of writer followed by reader is the [[state monad]] $[W, W \times (-)]$.
+
+  When $W$ carries the structure of a [[monoid object]] then writer also inherits the structure of a monad (on top of being a comonad) and converse for reader.
 
 Other monads may be supplied "axiomatically" by the programming language, 
 This includes
@@ -163,6 +165,7 @@ Generalization from [[monads]] to [[relative monads]] is discussed in
 * [[Thorsten Altenkirch]], James Chapman, Tarmo Uustalu, _Monads need not be endofunctors_ ([pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf))
 
 Discussion of [[comonads]] in this context includes
+
 
 * {#Overton14} David Overton, _Comonads in Haskell_, 2014 ([web](https://speakerdeck.com/dmoverton/comonads-in-haskell))
 
