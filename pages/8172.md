@@ -74,8 +74,7 @@ The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mat
 A streamlined discussion of $E$-[[Adams resolutions]] in close analogy to [[injective resolutions]] in [[homological algebra]] was given in ([Miller 81](#Miller81)), advertized in ([Hopkins 99](#Hopkins99)) and worked out in more detail in ([Aramian](#Aramian)).
 
 
-Notice that the standard concept of [[exact sequences]] and [[injective objects]] makes sense in [[abelian categories]], but not in the [[stable homotopy theory]] of [[spectra]]; for instance the true homotopy theoretic analog of exact sequences are [[homotopy fiber sequences]]. But for computational purposes we may consider a variant (due to [Miller 81](#Miller81)), where a sequence of spectra $X_\bullet$ is regarded as exact if the [[homotopical functor]] to abelian groups that it represents sends objects to standard exact sequences.  
-
+Notice that the standard concept of [[exact sequences]] and [[injective objects]] makes sense in [[abelian categories]], but not in the [[stable homotopy category]] of [[spectra]], as the latter is only an [[additive category]]. Of course this is because the [[stable homotopy theory|stable homotopy theoretic]] analog of what are [[exact sequences]] in abelian categories are [[homotopy fiber sequences]] of spectra. But for computational purposes it turns out useful to consider a blend between these two concepts (due to [Miller 81](#Miller81)), where a sequence of spectra $X_\bullet$ is regarded as exact if the [[homotopical functor]] to the abelian category of [[abelian groups]] that it [[representable functor|represents]] takes values in [[exact sequences]]. With respect to this hybrid concept, $E$-Adams resolutions in the [[stable homotopy category]] are the direct analog of [[injective resolutions]] in an [[abelian category]].
 
 
 
@@ -161,7 +160,7 @@ The [[suspension]] functor $\Sigma \colon Ho(Spectra) \to Ho(Spectra)$ preserves
 +-- {: .proof}
 ###### Proof
 
-By the [[adjunction]]-[[isomorphism]] $[\Sigma A_\bullet, -]\simeq [A_\bullet, \Omega(-)]$ and so the statement follows from the assumption that $A_\bullet$ is long exact.
+By the suspension/looping [[adjunction]]-[[isomorphism]] $[\Sigma A_\bullet, -]\simeq [A_\bullet, \Omega(-)]$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#AlternativeLoopingAndSuspensionIsQuillenEquivalenceOnStableModelStructure)) and so the statement follows from the assumption that $A_\bullet$ is long exact.
 
 =--
 
@@ -204,7 +203,7 @@ example  \ref{HomotopyRetractionsAreMonomorphismsOfSpectra}.
 +-- {: .num_remark}
 ###### Remark/Warning
 
-Consecutive morphisms in an $E$-exact sequence according to def. \ref{ExactSequences} in general need not compose up to homotopy, to the [[zero morphism]]. But this does become true for sequences of $E$-injective objects, defined below in def. \ref{EInjective}.
+Consecutive morphisms in an $E$-exact sequence according to def. \ref{ExactSequences} in general need not compose up to homotopy, to the [[zero morphism]]. But this does become true (lemma \ref{ConsecutiveMapsInEAdamsResolutionComposeToZero} below) for sequences of $E$-injective objects, defined below in def. \ref{EInjective}. 
 
 =--
 
@@ -389,7 +388,7 @@ such that each $I_j$ is $E$-injective, def. \ref{EInjective}.
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #ConsecutiveMapsInEAdamsResolutionComposeToZero}
 ###### Lemma
 
 Any two consecutive maps in an $E$-Adams resolution, def. \ref{EAdamsResolution}, compose to the [[zero morphism]].
@@ -416,10 +415,61 @@ $$
 
 =--
 
+There are two $E$-Adams resolutions that we will consider. Following ([Hopkins 99](#Hopkins99)) we call them the "normalized resolution" and the "standard resolution". But beware that what all the traditional literature ([Adams 74](#Adams74), [Bousfield 79](#Bousfield79), [Ravenel 86](#Ravenel86), ...) considers (and somewhat implicitly) is the "normalized" resolution, not the standard resolution. The standard resolution is standard only from the more recent perspective of [[E-∞ geometry]]: it is the [[Amitsur complex]] of the $\mathbb{S}$-algebra $E$, exhibiting the formal dual of the [[Cech nerve]] of $Spec(E) \to Spec(\mathbb{S})$.
+
++-- {: .num_example #NormalizedEResolution}
+###### Example
+**(normalized $E$-Adams resolution)**
+
+Let $\overline{E}$ denote the [[homotopy cofiber]] of the unit of the ring spectrum $E$, fitting into a [[homotopy fiber sequence]]
+
+$$
+  \mathbb{S}
+    \overset{e}{\longrightarrow}
+  E
+    \longrightarrow  
+  \overline{E}
+  \,.
+$$
+
+For $X$ a spectrum, its **normalized $E$-Adams resolution** is the top row of
+
+$$
+  \array{
+    X 
+      &\overset{(e,id)}{\longrightarrow}& 
+    E \wedge X 
+      && \longrightarrow  && 
+    E \wedge \overline{E} \wedge X
+      && \longrightarrow &&
+    E \wedge \overline{E} \wedge \overline{E} \wedge X
+      && \longrightarrow &&
+    \cdots
+    \\
+    && & \searrow && \nearrow_{\mathrlap{(e,id)}}
+    &&    \searrow && \nearrow_{\mathrlap{(e,id)}}
+    \\
+    && && \overline{E}\wedge X
+    &&&&  \overline{E} \wedge \overline{E} \wedge X
+  }
+$$
+
+=---
+
+(e.g. [Hopkins 99, corollary 5.3](#Hopkins99)).
+
+
++-- {: .num_remark}
+###### Remark
+
+Beware that some authors (e.g. [Bousfield 79](#Bousfield79)) denote by $\overline{E}$ not the homotopy cofiber (as in def. \ref{NormalizedEResolution}) but the homotopy fiber of $\mathbb{S} \to E$. The two conventions are related by suspension/looping.
+
+=--
+
 
 +-- {: .num_example #StandardEResolution}
 ###### Example
-**(standard resolution)**
+**(standard $E$-Adams resolution)**
 
 Any [[ring spectrum]] $E$ gives rise to an [[augmentation|augmented]] [[cosimplicial object|cosimplicial]] [[spectrum]]  (its _[[bar construction]]_)
 
@@ -517,7 +567,7 @@ Moreover, the terms in the sequence are all $E$-injective by lemma \ref{EInjecti
 +-- {: .num_defn #EAdamsTower}
 ###### Definition
 
-An _$E$-Adams tower_ of a spectrum $X$ is a [[commuting diagram]] in [[HoSpectra]] of the form
+An _$E$-Adams tower_ of a spectrum $X$ is a [[commuting diagram]] in the [[stable homotopy category]] of the form
 
 $$
   \array{
@@ -561,7 +611,82 @@ such that
 
 Call this the **associated $E$-Adams resolution** of the $E$-Adams tower.
 
-Moreover, the sequence 
+=--
+
+([Hopkins 99, def. 4.10](#Hopkins99))
+
+The following is the main statement of the above little theory of $E$-injective spectra.
+
++-- {: .num_prop #RelationBetweenEAdamsTowersAndEAdamsResolutions}
+###### Proposition
+
+Every $E$-Adams resolution $X \to I_\bullet$ (def. \ref{EAdamsResolution}) induces an $E$-Adams tower, def. \ref{EAdamsTower} of which it is the associated $E$-Adams resolution.
+
+=--
+
++-- {: .proof}
+###### Proof idea
+
+Given an $E$-Adams resolution
+
+$$
+  X \overset{i_0}{\longrightarrow} I_0 \overset{i_1}{\longrightarrow} I_1 \longrightarrow \cdots
+$$
+
+consider the induced diagram
+
+$$
+  \array{
+    && && C_1 && && && && C_3
+    \\
+    && & {}^{\mathllap{\rho_1}}\nearrow && \searrow^{\mathrlap{\sigma_1}} 
+    && && && {}^{\mathllap{\rho_3}}\nearrow
+    \\
+    && 
+    I_0 
+    && 
+     \underset{i_1}{\longrightarrow} 
+    &&
+    I_1 
+    &&
+      \overset{i_2}{\longrightarrow}
+    &&
+    I_2
+    &&
+      \underset{i_3}{\longrightarrow}
+    & 
+    \cdots
+    \\
+    & {}^{\mathllap{\sigma_0 \coloneqq i_0}}\nearrow
+    && && && {}_{\mathllap{\rho_2}}\searrow
+    && \nearrow_{\mathrlap{\sigma_2}}
+    \\
+    X && && && && C_2
+  }
+$$
+
+constructed [[induction|inductively]] as follows:
+
+To start with, $\rho_1$ is the [[homotopy cofiber]] of $i_0$, and $\sigma_1$ is the morphism universally induced from this by the fact that $i_1 \circ i_0 \simeq 0$, by lemma \ref{ConsecutiveMapsInEAdamsResolutionComposeToZero}. Observe that  $\sigma_1$ is an $E$-monomorphism and $\rho_1$ is an $E$-epimorphism in the sense of def. \ref{ExactSequences}.
+
+Then assume that an $E$-epi/mono factorization 
+
+$$
+  i_n \colon I_{n_1} \overset{\rho_n}{\longrightarrow} C_n \overset{\sigma_n}{\to} I_n
+$$ 
+
+has been constructed. Let now $\rho_{n+1}$ be its homotopy cofiber.  Since $\rho_{n}$ is $E$-epi, the equivalence $0 \simeq i_{n+1} \circ i_n = i_{n+1}\circ \sigma_n \circ \rho_n$ from lemma \ref{ConsecutiveMapsInEAdamsResolutionComposeToZero} implies that already $i_{n+1} \circ \sigma_n \simeq 0$. With this, the universal property of the homotopy cofiber induces a morphism $\sigma_{n+1}\colon C_{n+1}\to I_{n+1}$. As before, $\rho_{n+1}$ is $E$-epi and $\sigma_{n+1}$ is $E$-mono, and so the induction proceeds.
+
+Using this, we now construct an $E$-Adams tower as follows (...).
+
+=--
+
+There is another tower associated with an $E$-Adams resolutions:
+
++-- {: .num_defn #AssociatedInverseSequence}
+###### Definition
+
+Given an $E$-Adams resolutions $X \to I_\bullet$ (def. \ref{EAdamsResolution}), its **associated inverse sequence** is 
 
 $$
   X 
@@ -575,52 +700,22 @@ $$
   \cdots
 $$
 
-(where $C_{k+1}$ is...) we call the **associated inverse sequence** of the $E$-Adams tower 
+with the $C_i$ as in the proof of prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions} and 
+$\gamma_n \coloneqq \Sigma^{-1} hofib(\sigma_n)$.
+
+
 
 =--
+
+
 
 +-- {: .num_remark}
 ###### Remark
 
-In ([Ravenel 86, def. 2.21](#Ravenel86)) it is the associated inverse sequence (def. \ref{EAdamsTower}) that is called an $E$-Adams resolution.
+In ([Ravenel 86, def. 2.21](#Ravenel86)) it is the associated inverse sequence (of def. \ref{EAdamsTower}) that is called an $E$-Adams resolution.
 
 =--
 
-Finally, the following is the main statement of the above little theory of $E$-injective spectra.
-
-+-- {: .num_prop #RelationBetweenEAdamsTowersAndEAdamsResolutions}
-###### Proposition
-
-Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-Adams tower, def. \ref{EAdamsTower} of which it is the associated $E$-Adams resolution.
-
-=--
-
-+-- {: .proof}
-###### Proof idea
-
-Given an $E$-Adams resolution
-
-$$
-  X \to I_0 \to I_1 \to \cdots
-$$
-
-the associated $E$-Adams tower starts out as
-
-$$
-  \array{
-    X_1 \coloneqq fib(I_0 \to I_1)
-    \\
-    \downarrow
-    \\
-    X_0 \coloneqq I_0
-  }
-  \,.
-$$
-
-From there one one proceeds
-carefully by [[induction]]. This takes a bit of work, crucially using properties of $E$-injectives.
-
-=--
 
 
 +-- {: .num_defn #EAdamsSpectralSequence}
