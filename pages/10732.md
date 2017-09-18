@@ -33,6 +33,8 @@ A proof is spelled out in ([Hopkins 99, section 2](#Hopkins99)), reviewed in ([M
 
 ## References
 
+* [[Frank Adams]], part II.7 of _[[Stable homotopy and generalised homology]]_, 1974
+
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 * {#Mathew12} [[Akhil Mathew]], _[Lazard's theorem II](http://amathew.wordpress.com/2012/05/27/lazards-theorem-ii/)_, 2012
