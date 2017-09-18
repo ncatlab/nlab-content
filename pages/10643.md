@@ -41,6 +41,8 @@ A survey is for instance in the introduction of
 
 * [[Takeshi Torii]], _Milnor operations and the generalized Chern character_, Geom. Topol. Monogr. 10 (2007) 383-421 ([arXiv:0903.4708](http://arxiv.org/abs/0903.4708))
 
+* [[Takeshi Torii]], _HKR characters, p-divisible groups and the generalized Chern character_, ([pdf](http://www.ams.org/journals/tran/2010-362-11/S0002-9947-2010-05194-3/S0002-9947-2010-05194-3.pdf))
+
 
 [[!redirects higher chromatic Chern characters]]
 
