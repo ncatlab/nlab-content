@@ -18,7 +18,7 @@ $$
 \frac{\Gamma,x: U \vdash t: U}{\Gamma \vdash \lambda x.t:U}
 $$
 
-Now, these rules can be seen as defining a family of sets of terms indexed only by the _size_ of the context.  Together with the $\beta$ axiom and substitution, this family of sets can then be considered as a cartesian [[operad]] defining an [[algebraic theory]] of [[pure lambda calculus]] terms.
+Now, these rules can be seen as defining a family of sets of terms indexed only by the _length_ of the context (corresponding to the number of free variables).  Together with the action of substitution and after quotienting by the $\beta$ axiom, this family of sets can then be considered as a cartesian [[operad]] defining an [[algebraic theory]] of [[pure lambda calculus]] terms.
 
 ## Definition
 
