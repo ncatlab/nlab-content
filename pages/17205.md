@@ -1,0 +1,8 @@
+
+	
+
+An object $X$ of an abelian category has **finite length** if it has a (finite) [[composition series]]: i.e., a chain of subobjects
+
+$$0= X_0 \lt X_1 \lt\ldots  \lt X_{n-1} \lt X_n = X$$
+
+such that $X_i / X_{i-1}$ is simple for $1\leq i\leq n$.
