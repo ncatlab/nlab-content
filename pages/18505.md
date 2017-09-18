@@ -5,9 +5,11 @@
 
 ##Idea
 
-Given a [[group]] $G$ and two [[subgroups]] $H$ and $K$, then the set of **double cosets**, $H \backslash G/K$, is composed of [[equivalence classes]] of elements of $G$ where two elements are regarded as equivalent if they differ by left multiplication with an element in $H$ and right multiplication with an element of $K$.
+Given a [[group]] $G$ and two [[subgroups]] $H$ and $K$, then the set of **double cosets**, $H \backslash G/K$, is composed of [[equivalence classes]] of elements of $G$, where two elements are regarded as equivalent if they differ by left multiplication with an element in $H$ and right multiplication with an element of $K$.
 
-This construction generalises to [[topological groups]] and [[Lie groups]], where it is called a **double coset space**.
+This construction generalises to [[topological groups]] and [[Lie groups]], where it is called a **double coset space**. The double coset space for $G$ a compact Lie group and $H$ and $K$ closed connected subgroups, with $H$ acting freely on $G/K$, is also known as a **biquotient** (but note that this term is also used, e.g., [here](rational+topological+space#biquotient_spaces), in a more general situation for the orbit space where $H$ is a closed subgroup of $G \times G$, and acts via $(h_1, h_2) g = h_1 g h_2^{-1}$).
+
+From the [[nPOV]], a weak form of the double coset construction is often more natural, $H \backslash \backslash G//K$, and can be defined as the [[homotopy pullback]] of $\mathbf{B} H \to \mathbf{B} G$ and $\mathbf{B} K \to \mathbf{B} G$. This holds more generally for any three [[∞-groups]], with any homomorphisms $H \to G$ and $K \to G$.
 
 ##Related concepts
 
