@@ -200,7 +200,7 @@ $$
 
 and hence the combination $j \coloneqq \alpha - \iota_{\delta\phi} \mathbf{L}$ (a _[[Hamiltonian form]]_ for $\delta \phi$ with respect to $\omega$) is conserved on trajectories in the kernel of the [[n-plectic form]] $\omega$ (which are indeed the classical trajectories of $\mathbf{L}$, see ([Azcarraga-Izquierdo 95 (8.1.14)](#AzcarragaIzquierdo95))). 
 
-This is the first stage in the [[Poisson bracket Lie n-algebra]]...
+This is the first stage in the [[Poisson bracket Lie n-algebra]], the _[[current algebra]]_ (see there at _[As a homotopy Lie algebra](current%20algebra#AsAHomotopyLieAlgebra)_).
 
 ## Examples
 
