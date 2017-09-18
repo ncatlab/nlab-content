@@ -24,7 +24,7 @@ Of particular interest are [[vacuum amplitudes]] which are scattering amplitudes
 
 * [[scattering]]
 
-* [[quantum field theory]]
+* [[perturbative quantum field theory]]
 
 * [[S-matrix]], [[n-point function]], [[correlator]]
 
