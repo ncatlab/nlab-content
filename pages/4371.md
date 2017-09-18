@@ -142,6 +142,7 @@ In a presheaf topos (on a small category) the notions of *$\neg\neg$-topology* a
 
 
 ## In higher topos theory
+ {#InHigherToposTheory}
 
 [[classical logic|Classically]] the double negation modality is equivalent to the [[n-truncation modality]] for $n = -1$ (the [[bracket type]]).  In general, it\'s still true that double negation takes any type (object in the higher topos) to a $(-1)$-type, but the bracket type ${\|A\|_{-1}}$ only entails the double negation $\neg(\neg{A})$:
 
@@ -156,12 +157,17 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 ## References
 
+In [[topos theory]]:
+
 * {#Johnstone77} [[Peter Johnstone]], _Topos Theory_ , Academic Press 1977 (Dover reprint 2014). (pp.139-140) 
 
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] I_, Oxford UP 2002. (pp.211,219-220)
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (chap. VI, in particular sec.VI.1)
 
+In [[homotopy type theory]]:
+
+* [[Univalent Foundations Project]], section 3.4 of  _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 
 [[!redirects double negation]]
