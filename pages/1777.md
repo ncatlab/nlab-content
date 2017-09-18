@@ -49,7 +49,7 @@ $$
 
 Moreover
 
-* if $A \to B$ is a [[monomorphism]] then so is $ker(f) \to ker(g)$
+* if $A' \to B'$ is a [[monomorphism]] then so is $ker(f) \to ker(g)$
 
 * if $B \to C$ is an [[epimorphism]], then so is $coker(g) \to coker(h)$.
 
