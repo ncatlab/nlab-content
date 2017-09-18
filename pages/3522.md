@@ -11,6 +11,10 @@
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
 =--
+#### Goodwillie calculus
++--{: .hide}
+[[!include Goodwillie calculus - contents]]
+=--
 =--
 =--
 
@@ -38,7 +42,7 @@ $$
 F \to \cdots \to P_n F \to P_{n-1} F \to \cdots\to P_0 F
 $$
 
-with $P_n F$ being the universal *n-excisive* approximation to $F$. (A functor is [[n-excisive (∞,1)-functor|n-excisive]] if it takes any $n + 1$-dimensional cube with homotopy pushout squares for faces to a homotopy cartesian cube.) For 'analytic' $F$, this tower converges for sufficiently highly connected $X$, that is
+with $P_n F$ being the universal *n-excisive* approximation to $F$. (A functor is [[n-excisive (∞,1)-functor|n-excisive]] if it takes any $n + 1$-dimensional cube with homotopy pushout squares for faces to a homotopy cartesian cube.) For '[[analytic (∞,1)-functors]]' $F$, this tower converges for sufficiently highly connected $X$, that is
 
 $$
 F(X) \simeq \underset{n}{holim} P_n F(X).
