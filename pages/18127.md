@@ -2433,6 +2433,12 @@ def. \ref{EquivalenceOfGroupoids}.
 ## Covering spaces
  {#CoveringSpaces}
 
+A _covering space_ (def. \ref{CoveringSpace} below) is 
+a "continuous [[fiber bundle]] of sets" over a topological space, in just the same way as
+a [[tpological vector bundle]] is a "continuous [[fiber bundle]] of vector spaces".
+
+$\,$
+
 +-- {: .num_defn #CoveringSpace}
 ###### Definition
 **([[covering space]])**
@@ -2487,6 +2493,39 @@ This defines a [[category]] $Cov(X)$, the _[[category of covering spaces]]_ over
 * [[morphisms]] are the homomorphisms between these.
 
 =--
+
++-- {: .num_example #TrivialCoveringSpace}
+###### Example
+**(trivial covering space)**
+
+For $X$ a [[topological space]] and $S$ a [[set]] with $Disc(S)$ the [[discrete topological space]]
+on that set, then the [[projection]] out of the [[poduct topological space]]
+
+$$
+  pr_1 \;\colon\; X \times Disc(S) \longrightarrow X
+$$
+
+is a [[covering space]], called the _trivial covering space_ over $X$ with [[fiber]] $Disc(S)$.
+
+If $E \overset{p}{\longrightarrow} X$ is any covering space, then an [[isomorphism]] of covering spaces
+of the form
+
+$$
+  \array{
+    E && \overset{\simeq}{\longrightarrow} && X \times Disc(S)
+    \\
+    & {}_{\mathllap{p}}\searrow && \swarrow_{\mathrlap{pr_2}}
+    \\
+    && X
+  }
+$$
+
+is called a _trivialization_ of $E \overset{p}{\to} X$. 
+
+It is in this sense that evry coverin space $E$ is, by definition, locally trvializable.
+
+=--
+
 
 +-- {: .num_example #kForlCovringOfCircle}
 ###### Example
@@ -2671,13 +2710,118 @@ $\,$
 
 ### Lifting properties
 
-We discuss [[left lifting properties]] satisfied by covering spaces.
+If $E \overset{p}{\longrightarrow} X$ is any [[continuous function]]
+(possibly a [[covering space]] or a [[topological vector bundle]]) then a _[[section]]_ is 
+a continuous function $\sigma \colon  X \to E$ which sends each point in the base
+to a point in the [[fiber]] above it, hence which makes this [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    && E
+    \\
+    &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    X &=& X
+  }
+  \,.
+$$
+
+We may think of this as "lifting" each point in the base to point in the fibers "through" the 
+projection map $p$. More generally if $Y \hookrightarrow X$ is a subspace,
+we may consider such lifts only over $Y$
+
+$$
+  \array{
+    && E
+    \\
+    &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    Y &\hookrightarrow& X
+  }
+$$
+
+sometimes called a "local section". But this suggests that for $Y \overset{f}{\longrightarrow} X$
+any continuous function, we consider "lifting its image through $p$" 
+
+$$
+  \array{
+    && E
+    \\
+    &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    Y &\underset{f}{\longrightarrow}& X
+  }
+  \,.
+$$
+
+For example if $Y = [0,1]$ is the [[topological interval]], then $f \colon [0,1] \to X$
+is a [[path]] in the base space $X$, and a lift through $p$ of this is a path in the total 
+space which "runs above" the given path. Such lifts of paths through covering projections
+is the topic of _[[monodromy]]_ [below](#Monodromy).
+
+Here it is usually of interest to consider the lifting problem subject to some constraint.
+For instance we will want to consider lifts of paths $\gamma \colon [0,1] \to X$
+through a covering projection, subject to the condition that the 
+starting point $\gamma(0)$ is lifted to a prescribed point $p \in E$.
+
+Since such a point is equivalently a continuous function $const_p \colon \ast \to X$,
+this is the same as asking for a continuous function $\sigma$ that makes both triangles in the 
+following [[diagram]] [[commuting diagram|commute]]:
+
+$$
+  \array{
+    \ast &\overset{const_p}{\longrightarrow}& E
+    \\
+    {}^{\mathllap{const_0}}\downarrow &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] &\underset{\gamma}{\longrightarrow}& X
+  }
+  \,.
+$$
+
+This is an example of a general situation which plays a central role in 
+[[homotopy theory]]: We say that a square [[commuting diagram]]
+
+$$
+  \array{
+    A &\longrightarrow& E
+    \\
+    {}^{\mathllap{i}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    B &\longrightarrow& X
+  }
+$$
+
+is a _[[lifting problem]]_ and that a diagonal morphism
+
+$$
+  \array{
+    A &\longrightarrow& E
+    \\
+    {}^{\mathllap{i}}\downarrow &\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    B &\longrightarrow& X
+  }
+$$
+
+such that both resulting triangles commute is a _[[lift]]_. If such a lift exists for 
+$i$ taken from some [[class]] of morphisms, then one says that $p$ has the _[[right lifting property]]_
+against this class. 
+
+
+We now discuss some [[right lifting properties]] satisfied by covering spaces:
 
 1. [path-lifting property](#CoveringSpacePathLifting),
 
 1. [homotopy-lifting propery](#CoveringSpacesHomotopyLifting),
 
 1. the [lifting theorem](#TheTheoremLifting).
+
+These lifting properties will be used in [below](#Examples) for the computation of [[fundamental groups]]
+of some topological spaces.
+
+
+$\,$
 
 
 +-- {: .num_lemma #LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}
@@ -2746,6 +2890,48 @@ Moreover, the assumption that the functions $\hat f_1$ and $\hat f_2$ agree in a
 
 =--
 
++-- {: .num_lemma #PathLiftingCoveringOfTrivialCoveringSpaces}
+###### Lemma
+**(path lifting property of trivial covering spaces)
+
+Let $X$ be a [[topological space]], let $S$ be a [[set]] with [[discrete toplogical space]]
+denoted $Disc(S)$, and consider the trivial covering space (example \ref{TrivialCoveringSpace})
+
+$$
+  X \times Disc(S) \overset{pr_1}{\longrightarrow} X
+  \,.
+$$
+
+Given
+
+1. $\gamma \colon [0,1] \to X$ a [[path]] in $X$,
+
+1. $\hat x_0 \in X \times Disc(S)$ be a lift of its starting point, hence such that $pr_1(\hat x_0) = \gamma(0)$
+
+then there exists a unique path $\hat \gamma \colon [0,1] \to X \times Disc(S)$ such that
+
+1. it is a lift of the original path: $pr_1 \circ \hat \gamma = \gamma$;
+
+1. it starts at the given lifted point: $\hat \gamma(0) = \hat x_0$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[universal property]] of the [[product topological spaces]]
+a lift $\hat \gamma \colon [0,1] \to X \times Disc(S)$ is equivalently a [[pair]] of continuous functions of the form
+
+$$
+  pr_1(\hat \gamma) \;\colon\; [0,1] \to X  \phantom{AAA}\text{and}\phantom{AAA} pr_2(\hat \gamma) \;\colon\; [0,1] \to Disc(S)
+  \,,
+$$
+
+Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. Moreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
+
+
+=--
+
 
 +-- {: .num_lemma #CoveringSpacePathLifting}
 ###### Lemma
@@ -2793,26 +2979,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-First consider the case that the covering space is trival, hence of the [[Cartesian product]] form
-
-$$
-  pr_1 \;\colon\;  X \times Disc(S) \longrightarrow X
-  \,.
-$$
-
-By the [[universal property]] of the [[product topological spaces]]
-in this case a lift $\hat \gamma \colon [0,1] \to X \times Disc(S)$ is equivalently a [[pair]] of continuous functions
-
-$$
-  pr_1(\hat \gamma) \;\colon\; [0,1] \to X  \phantom{AAAA} pr_2(\hat \gamma) \;\colon\; [0,1] \to Disc(S)
-  \,,
-$$
-
-Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. Moreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
-
-This shows the statement for the case of trivial covering spaces.
-
-Now consider any covering space $p \colon E \to X$. By definition of covering spaces, there exists for every point $x \in X$ a [[open neighbourhood]] $U_x \subset X$ such that the restriction of $E$ to $U_x$ becomes a trivial covering space:
+By definition of covering spaces, there exists for every point $x \in X$ a [[open neighbourhood]] $U_x \subset X$ such that the restriction of $E$ to $U_x$ becomes a trivial covering space (example \ref{TrivialCoveringSpace}):
 
 $$
   p^{-1}(U_x) \simeq U_x \times Disc(p^{-1}(x))
@@ -2854,7 +3021,8 @@ $$
 
 is contained in $U_{x_j}$ from above.
 
-Now assume that $\hat \gamma\vert_{[0,t_j]}$ has been found. Then by the triviality of the covering space over $U_{x_j}$ and the first argument above, there is a unique lift of $\gamma\vert_{[t_j, t_{j+1}]}$ to a continuous function $\hat \gamma|_{[t_j,t_{j+1}]}$ with starting point $\hat \gamma(t_j)$. Since $[0,t_{j+1}]$ is the [[pushout]] $[0,t_j] \underset{\{t_j\}}{\sqcup} [t_j,t_{j+1}]$ ([this example](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself)), it follows that $\hat \gamma|_{[0,t_j]}$ and $\hat \gamma\vert_{[t_j,t_{j+1}]}$ uniquely glue to a continuous function $\hat \gamma\vert_{[0,t_{j+1}]}$ which lifts $\gamma\vert_{[0,t_{j+1}]}$.
+Now assume that $\hat \gamma\vert_{[0,t_j]}$ has been found. Then by the triviality of the covering space over $U_{x_j}$ 
+lemma \ref{PathLiftingCoveringOfTrivialCoveringSpaces} implies that there is a unique lift of $\gamma\vert_{[t_j, t_{j+1}]}$ to a continuous function $\hat \gamma|_{[t_j,t_{j+1}]}$ with starting point $\hat \gamma(t_j)$. Since $[0,t_{j+1}]$ is the [[pushout]] $[0,t_j] \underset{\{t_j\}}{\sqcup} [t_j,t_{j+1}]$ ([this example](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself)), it follows that $\hat \gamma|_{[0,t_j]}$ and $\hat \gamma\vert_{[t_j,t_{j+1}]}$ uniquely glue to a continuous function $\hat \gamma\vert_{[0,t_{j+1}]}$ which lifts $\gamma\vert_{[0,t_{j+1}]}$.
 
 By [[induction]] over $j$, this yields the required lift $\hat \gamma$.
 
@@ -3147,6 +3315,7 @@ is unique is the statement of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpac
 
 
 ### Monodromy
+ {#Monodromy}
 
 Since the lift of a path through a [[covering space]] [[projection]] is unique once the lift of the
 starting point is chosen, (lemma \ref{CoveringSpacePathLifting}) every path in the base space
