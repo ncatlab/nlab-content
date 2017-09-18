@@ -52,7 +52,7 @@ A **crossed module** is
   $$
     G_1 \stackrel{\alpha}{\to} Aut(G_2)
   $$ 
-  (which below we will conceive of as a map $\alpha : G_1 \times G_2 \to G_2$ analogous the adjoint action $Ad : G \times G \to G$ of a group on itself)
+  (which below we will conceive of as a map $\alpha : G_1 \times G_2 \to G_2$ analogously to  the adjoint action $Ad : G \times G \to G$ of a group on itself)
 
 * such that 
 $$
