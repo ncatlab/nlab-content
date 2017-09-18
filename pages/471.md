@@ -16,7 +16,7 @@
 
 ## Idea
  
-An _interval object_ $I$ in a [[category]] $C$ is an [[object]] that behaves in $C$ roughly like the standard [[topological interbal]] $I \coloneqq [0,1]$ with its two boundary point inclusions 
+An _interval object_ $I$ in a [[category]] $C$ is an [[object]] that behaves in $C$ roughly like the standard [[topological interval]] $I \coloneqq [0,1]$ with its two boundary point inclusions 
 
 $$
   {*}\amalg {*} \stackrel{[0, 1]}{\to}
