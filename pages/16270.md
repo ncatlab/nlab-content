@@ -21,7 +21,7 @@ This page collects material related to
 
   ([plain text](http://www.sacred-texts.com/cla/plato/parmeni.htm))
 
-one of the dialogues by [[Plato]]. Its first part concerns the [[doctrine of ideas]], the second part concerns a [[dialectic]] between "the one" and "the many", and is commonly perceived as being mysterious. It concludes as follows:
+Named after the Eleatic philosopher, the **Parmenides** is one of the later and most influential dialogues of [[Plato]]. The first part concerns the [[doctrine of ideas]], the second part concerns a [[dialectic]] between "the one" and "the many", and is commonly perceived as being mysterious (for a dialetheic interpretation see [Priest 2012](#Priest12)). It concludes as follows:
 
 > $[$...$]$ whether one is or is not, one and the others in
 relation to themselves and one another, all of them, in every way, are
@@ -45,13 +45,13 @@ The Parmenides dialogue has influenced, and its topics (and mysterious style) ha
 
 * Wikipedia _[Parmenides (dialogue)](http://en.wikipedia.org/wiki/Parmenides_%28dialogue%29)_
 
-* Stanford Endcyclopedia of Philosophy, _[Plato's Parmenides](http://plato.stanford.edu/entries/plato-parmenides/)_
+* Stanford Encyclopedia of Philosophy, _[Plato's Parmenides](http://plato.stanford.edu/entries/plato-parmenides/)_
 
 * {#HegelWdL} [[Georg Hegel]], _[[Science of Logic]]_
 
 * {#deLaurentiis04} A. de Laurentiis, _On Hegel's reading of Plato's Parmenides_, 2004 
 
-
+* {#Priest12} G. Priest , _The Parmenides: a Dialetheic Interpretation_ ,  Plato J.Int. Plato Soc.**12** (2012)([link](http://gramata.univ-paris1.fr/Plato/article120.html))
 
 [[!redirects Parmenides]]
 
