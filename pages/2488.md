@@ -134,7 +134,7 @@ This is [[Higher Topos Theory|HTT, prop 6.5.1.7]].
 +-- {: .num_remark}
 ###### Remark
 
-Notice that this expected statement does require the assumption that $X$ is $k$-truncated for some $k$. Without any _a priori_ truncation assumption on $X$, there is no comparable statement about the relaton to categorical homotopy groups. See [[Higher Topos Theory|HTT, remark 6.5.1.8]].
+Notice that this expected statement does require the assumption that $X$ is $k$-truncated for some $k$. Without any _a priori_ truncation assumption on $X$, there is no comparable statement about the relation to categorical homotopy groups. See [[Higher Topos Theory|HTT, remark 6.5.1.8]].
 
 =--
 
