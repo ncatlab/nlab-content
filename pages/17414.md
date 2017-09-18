@@ -25,7 +25,7 @@
 +-- {: .num_defn #CellSpectrum}
 ###### Definition
 
-A **cell spectrum** is a topologicl [[sequential spectrum]] $X$ realized as the [[colimit]] over a sequence of spectra $\ast = X_0 \to X_1 \to X_2 \to X_3 \to \cdots$ such that there are morphisms
+A **cell spectrum** is a topological [[sequential spectrum]] $X$ realized as the [[colimit]] over a sequence of spectra $\ast = X_0 \to X_1 \to X_2 \to X_3 \to \cdots$ such that there are morphisms
 
 $$
   j_n 
