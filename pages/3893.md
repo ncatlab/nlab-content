@@ -37,6 +37,8 @@ A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See ther
 
 * [[Cartan geometry, Supergravity and Branes]]
 
+* [[G-structure]], [[homothety]]
+
 ## References
 
 The original article is
