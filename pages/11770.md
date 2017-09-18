@@ -29,7 +29,7 @@ Therefore a polarized variety together with a choice of [[Theta characteristic]]
 
 ## Definition
 
-A _polarization_ of an [[algebraic variety]] $X$ over an [[algebraically closed field]] $k$ is a choice of [[ample sheaf|ample]] element in its [[Néron-Severi group]] $Pic_X/Pic_X^0$. In other words, a polarization is the choice of an [[equivalence class]] of an [[ample sheaf|ample]] alegbraic [[line bundle]] over $X$ (e.g. [[holomorphic line bundles]] if $k$ is the [[complex numbers]]) where two such are regarded as equivalent if they differ by tensoring with one whose underlying topological [[Chern class]] is trivial.
+A _polarization_ of an [[algebraic variety]] $X$ over an [[algebraically closed field]] $k$ is a choice of [[ample sheaf|ample]] element in its [[Néron-Severi group]] $Pic_X/Pic_X^0$. In other words, a polarization is the choice of an [[equivalence class]] of an [[ample sheaf|ample]] algebraic [[line bundle]] over $X$ (e.g. [[holomorphic line bundles]] if $k$ is the [[complex numbers]]) where two such are regarded as equivalent if they differ by tensoring with one whose underlying topological [[Chern class]] is trivial.
 
 The polarization is called _principal_ if it is of [[degree of a coherent sheaf|degree]] 1.
 
