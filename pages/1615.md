@@ -344,3 +344,6 @@ which was however mostly ignored and forgotten. It is taken up again in
 [[!redirects causal nets]]
 [[!redirects causal net of algebras]]
 [[!redirects causal nets of algebras]]
+
+[[!redirects causally local net]]
+[[!redirects causally local nets]]
