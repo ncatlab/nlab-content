@@ -7,7 +7,7 @@ Not offering a maths degree is one thing, but it seems that they don\'t even hav
 
 In the UK, there are several universities that do not have mathematics departments and in which engineers, computer scientists, physicists and chemists do not get any theoretically based mathematics to speak of. Biologists have traditionally received no mathematics training after the age of 16. (Sometimes it shows and is the bane of the statisticians detailed to teach biology students statistics, and don't mention psychology students! Note also that quite a few of the so called 'financial  experts' in the UK have little or no maths. Some do, and I am not saying that they were any better in the causes of the recent crisis!) 
 
-In Bangor, it is even worse. Not only is there no mathematics department. There are no mathematicians _per se_, employed as full time members of staff.  There are mathematically competent people in some departments who do teach their undergraduates mathematics.  I, of course, do not think that is as good.
+In Bangor, it is even worse. Not only is there no mathematics department. There are very few mathematicians _per se_, employed as full time members of staff and they are not employed as mathematicians as such.  There are some mathematically competent people in some departments who do teach their undergraduates some mathematics.  I, of course, do not think that is as good.
 
 -[[Tim Porter|Tim]]
 
