@@ -95,9 +95,7 @@ _Toby_: Yes, I\'m happy now for now.
 
 ## Related concepts
 
-* [[inhabited type]]
-
-  * **inhabited object**, [[inhabited set]]
+* [[inhabited set]]
 
 
 [[!redirects well-supported object]]
