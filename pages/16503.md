@@ -37,11 +37,17 @@ of $f$ against the [[probability measure]], i.e. the average value of the random
 
 There is at least some similarity of the concept of random variables to usage of the [[function monad]] ("[[reader monad]]") in the context of [[monad (in computer science)|monads in computer science]]. 
 
-This point of view is expressed for instance in ([Toronto-McCarthy 10, p. 24](#TorontoMcCarthy10)).
-
 In [Verdier 14](#Verdier14) it says:
 
 > The intuition behind the Reader monad, for a mathematician, is perhaps stochastic variables. A stochastic variable is a function from a probability space to some other space. So we see a stochastic variable as a monadic value.
+
+and in [Toronto-McCarthy 10b, slide 35](#TorontoMcCarthy10b):
+
+> you could interpret this by regarding random variables as reader monad computations. 
+
+See also ([Toronto-McCarthy 10b, slide 24](#TorontoMcCarthy10b)). [Toronto-McCarthy 10a, 2.2](#TorontoMcCarthy10a) calls the [[function monad]] the _random variable idiom_.
+
+
 
 ## Related concepts
 
@@ -63,7 +69,10 @@ Surveys and lecture notes include
 
 Discussion from a point of view of [[type theory]]/[[computer science]] includes
 
-* {#TorontoMcCarthy10} Neil Toronto, Jay McCarthy, _From Bayesian Notation to Pure Racket_, 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
+* {#TorontoMcCarthy10a} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian notation to pure Racket, via measuretheoretic probability_, in _Implementation and Application of Functional Languages_, 2010 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.298.4274))
+
+* {#TorontoMcCarthy10b} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian Notation to Pure Racket_, talk notes 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
+
 
 * {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
 
