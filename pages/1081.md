@@ -162,6 +162,7 @@ The ingredients of homology and cohomology:
 [[!include chains and cochains - table]]
 
 
+[[!redirects homologies]]
 [[!redirects homology group]]
 [[!redirects homology groups]]
 
