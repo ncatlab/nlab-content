@@ -1,4 +1,8 @@
 
+> This entry is about resolutions in the sense of [[homotopy theory]]. For resolutions of [[singularities]] see at _[[resolution of singularities]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
