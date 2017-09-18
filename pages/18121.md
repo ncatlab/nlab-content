@@ -67,7 +67,7 @@ closed and $f$-saturated subsets to closed subsets.
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #FindSatureatedOpenInsideOpenNeighbourhood}
 ###### Lemma
 
 Let
