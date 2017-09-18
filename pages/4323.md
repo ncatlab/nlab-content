@@ -58,7 +58,7 @@ All these Thom spectra happen to naturally have the structure of [[E-∞ rings]]
 +-- {: .num_prop #SuspensionOfThomSpaces}
 ###### Proposiiton
 
-For $V \to X$ a [[vector bundle]], there is a [[weak homotopy equivalence]]
+For $V \to X$ a [[vector bundle]], there is a [[homeomorphism]]
 
 $$
   Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) = \Sigma^n Th(V)
