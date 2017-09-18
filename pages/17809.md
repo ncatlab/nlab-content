@@ -97,6 +97,7 @@ we discuss in
 Using the properties of real [[spin representations]] thus established, it is then immediate to
 construct spacetime [[supersymmetry]] [[super Lie algebras]] and [[supergroups]]. This we discuss in
 
+
 * _[Spacetime supersymmetry](#Supersymmetry)_
 
 (...)
@@ -2617,6 +2618,7 @@ We follow the streamlined discussion in [Baez-Huerta 09](#BaezHuerta09) and [Bae
 
 ### Real normed division algebras
 
+To amplify the following pattern and to fix our notation for algebra generators, recall these definitions:
 
 +-- {: .num_defn #TheComplexNumbers}
 ###### Definition
@@ -2666,16 +2668,20 @@ The _[[octonions]]_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[re
 
    $(e_i)^2 = -1$
 
-1. for $e_i \to e_j \to e_k$ an edge or circle in the following diagram (a labeled version of the [[Fano plane]]) then
+1. for $e_i \to e_j \to e_k$ an edge or circle in the diagram shown (a labeled version of the [[Fano plane]]) then
 
    1. $e_i e_j  = e_k$
 
    1. $e_j e_i  = -e_k$
+   
+   and all relations obtained by cyclic [[permutation]] of these hold.
 
 
 > (graphics grabbed from [Baez 02](#Baez02))
 
 =--
+
+
 
 We define the following operations on these real algebras:
 
@@ -2695,10 +2701,11 @@ $$
 be the [[antihomomorphism]] of real algebras
 
 $$
-  (r a)^\ast = r a^\ast \;\;\;\;\,, \text{for}\;\; r \in \mathbb{R}, a \in \mathbb{K}
-$$
-$$
-  (a b)^\ast = b^\ast a^\ast\;\;\;\;\;\;\,,\text{for}\;\; a,b \in \mathbb{K}
+  \begin{aligned}
+    (r a)^\ast  = r a^\ast &, \text{for}\;\; r \in \mathbb{R}, a \in \mathbb{K}
+    \\
+   (a b)^\ast = b^\ast a^\ast &,\text{for}\;\; a,b \in \mathbb{K}
+  \end{aligned}
 $$
 
 given on the generators generators of def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions}
@@ -2774,14 +2781,34 @@ This norm operation clearly satisfies the following properties (for all $a,b \in
 
 and hence makes $\mathbb{K}$ a [[normed algebra]].
 
-These relations immediately imply that $\mathbb{K}$ is a [[division algebra]], in that
+Since $\mathbb{R}$ is a [[division algebra]], these relations immediately imply that each $\mathbb{K}$ is a [[division algebra]], in that
 
 $$
   a b = 0 \;\;\;\;\;\; \Rightarrow \;\;\;\;\;\; a = 0 \;\; \text{or} \;\; b = 0
   \,.
 $$
 
-Hence the conjugation operation makes $\mathbb{K}$ a real [[normed division algebra]].
+Hence the conjugation operation makes $\mathbb{K}$ a [[real numbers|real]] [[normed division algebra]].
+
+=--
+
++-- {: .num_remark #SequenceOfInclusionsOfRealNormedDivisionAlgebras}
+###### Remark
+
+Sending each generator in def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} and def. \ref{TheOctonions}
+to the generator of the same name in the next larger algebra constitutes a sequence of real [[star-algebra]] 
+[[homomorphisms]]
+
+$$
+  \mathbb{R}
+    \hookrightarrow
+  \mathbb{C}
+    \hookrightarrow
+  \mathbb{H}
+    \hookrightarrow
+  \mathbb{O}
+  \,.
+$$
 
 =--
 
@@ -2797,8 +2824,165 @@ are, up to [[isomorphism]], the _only_ real normed division algebras that exist.
 
 =--
 
++-- {: .num_remark}
+###### Remark
 
-We will be looking at [[linear algebra]] over these four [[normed division algebras]].
+While hence the sequence from remark \ref{SequenceOfInclusionsOfRealNormedDivisionAlgebras}
+
+$$
+  \mathbb{R}
+    \hookrightarrow
+  \mathbb{C}
+    \hookrightarrow
+  \mathbb{H}
+    \hookrightarrow
+  \mathbb{O}
+$$
+
+is maximal in the [[category]] of real normed non-associative [[division algebras]], there is a pattern that does
+continue if one disregards the division algebra property. Namely each step in this sequence is given by 
+a construction called _forming the [[Cayley-Dickson double algebra]]_. This continues to an unbounded sequence of 
+real nonassociative star-algebras
+
+$$
+  \mathbb{R}
+    \hookrightarrow
+  \mathbb{C}
+    \hookrightarrow
+  \mathbb{H}
+    \hookrightarrow
+  \mathbb{O}
+    \hookrightarrow 
+  \mathbb{S}
+    \hookrightarrow
+  \cdots
+$$
+
+where the next algebra $\mathbb{S}$ is called the _[[sedenions]]_.
+
+=--
+
+What actually matters for the following relation of the real normed division algebras to [[real spin representations]]
+is that they are also [[alternative algebras]]:
+
++-- {: .num_defn #AlternativeAlgebra}
+###### Definition
+
+Given any [[non-associative algebra]] $A$, then the trilinear map
+
+$$
+  [-,-,-] \;-\; A \otimes A \otimes A \longrightarrow A
+$$
+
+given on any elements $a,b,c \in A$ by
+
+$$
+  [a,b,c] \coloneqq (a b) c - a (b c)
+$$
+
+is called the _[[associator]]_ (in analogy with the _[[commutator]]_ $[a,b] \coloneqq a b - b a$ ).
+
+If the associator is completely antisymmetric (in that for any [[permutation]] $\sigma$ of three elements then $[a_{\sigma_1}, a_{\sigma_2}, a_{\sigma_3}] = (-1)^{\vert \sigma\vert} [a_1, a_2, a_3]$ for $\vert \sigma \vert$ the [[signature of a permutation|signature of the permutation]]) then $A$ is called an _[[alternative algebra]]_.
+
+If the [[characteristic]] of the [[ground field]] is different from 2, then alternativity is 
+readily seen to be equivalent to the conditions that for all $a,b \in A$ then
+
+$$
+  (a a)b = a (a b) 
+   \;\;\;\;\;
+     \text{and}
+   \;\;\;\;\;
+   (a b) b = a (b b)
+   \,.
+$$
+
+=--
+
+It is immediate to check that:
+
++-- {: .num_prop}
+###### Proposition
+
+The real algebras of [[real numbers]], [[complex numbers]],  def. \ref{TheComplexNumbers}, [quaternions]] def. \ref{TheQuaternions} and 
+[[octonions]] def. \ref{TheOctonions} are [[alternative algebras]] (def. \ref{AlternativeAlgebra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the [[real numbers]], [[complex numbers]] and [[quaternions]] are [[associative algebras]],
+their [[associator]] vanishes identically. It only remains to see that the associator of the 
+[[octonions]] is skew-symmetric. By linearity it is sufficient to check this on generators.
+So let $e_i \to e_j \to e_k$ be a circle or a cyclic permutation of an edge in the [[Fano plane]].
+Then by definition of the octonuion multiplication we have
+
+$$
+  \begin{aligned}
+    (e_i e_j) e_j
+    &= 
+    e_k e_j
+    \\
+    &=
+    - e_j e_k
+    \\
+    & = 
+    -e_i
+    \\
+    & =
+    e_i (e_j e_j)
+  \end{aligned}
+$$
+
+and similarly
+
+$$
+  \begin{aligned}
+    (e_i e_i ) e_j
+    &=
+    - e_j
+    \\
+    &=
+    - e_k e_i
+    \\
+    &=
+    e_i e_k
+    \\
+    &=
+    e_i (e_i e_j)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+The analog of the [[Hurwitz theorem]] (prop. \ref{HurwitzTheorem}) is now this:
+
++-- {: .num_prop #ZornTheorem}
+###### Proposition
+
+The only [[division algebras]] over the [[real numbers]] which are also [[alternative algebras]] spring are the [[real numbers]] themselves, the [[complex numbers]], the [[quaternions]] and the [[octonions]].
+
+=--
+
+This is due to ([Zorn 30](#Zorn30)).
+
+
+For the following, the key point of alternative algebras is this equivalent characterization:
+
++-- {: .num_prop #ArtinTheorem}
+###### Proposition
+
+A [[nonassociative algebra]] is alternative, def. \ref{AlternativeAlgebra},  precisely if the [[subalgebra]] generated by any two elements is an [[associative algebra]].
+
+=--
+
+This is due to [[Emil Artin]], see for instance ([Schafer 95, p. 18](alternative+algebra#Schafer95)).
+
+Proposition \ref{ArtinTheorem} is what allows to carry over a minimum of [[linear algebra]] also to the [[octonions]]
+such as to yield a representation of the [[Clifford algebra]] on $\mathbb{R}^{9,1}$. This is proposition ... below.
+
+So we will be looking at a fragment of [[linear algebra]] over these four [[normed division algebras]].
 To that end, fix the following notation and terminology:
 
 +-- {: .num_defn #MatrixNotation}
@@ -2806,21 +2990,27 @@ To that end, fix the following notation and terminology:
 
 Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
 
-1. Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a _[[hermitian matrix]]_ if the [[transpose matrix]] equals the [[complex conjugation|conjugated]] (def. \ref{Conjugation}) matrix:
+1. Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a _[[hermitian matrix]]_ if the [[transpose matrix]] $(A^t)_{i j} \coloneqq A_{j i}$ equals the componentwise [[complex conjugation|conjugated]] matrix (def. \ref{Conjugation}):
 
    $$
      A^t = A^\ast
      \,.
    $$
 
-   Hence with $(-)^\dagger \coloneqq ((-)^t)^\ast$ then $A$ is a [[hermitian matrix]] precisely if
+   Hence with the notation 
+   
+   $$
+     (-)^\dagger \coloneqq ((-)^t)^\ast
+   $$ 
+   
+   then $A$ is a [[hermitian matrix]] precisely if
 
    $$
      A = A^\dagger
-     \,;
+     \,.
    $$
 
-   write $Mat_{2 \times 2}^{her}(\mathbb{K})$ for the [[real vector space]] of hermitian matrices,
+   We write $Mat_{2 \times 2}^{her}(\mathbb{K})$ for the [[real vector space]] of hermitian matrices.
 
 
 1. write
@@ -2851,7 +3041,7 @@ Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop.
 
 
 
-### Real spinors in dimensions 3,4,6 and 10
+### Real spinors in dimensions 3, 4, 6 and 10
  {#InTermsOfNormedDivisionAlgebraInDimension3To10}
 
 Throughout, let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
