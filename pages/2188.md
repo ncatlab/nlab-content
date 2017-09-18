@@ -11,7 +11,7 @@ In one variable, a holomorphic function $f$, locally holomorphic around $z_0$, c
 
 The Weierstrass preparation theorem and related facts (Weierstrass division theorem and Weierstrass formula) provide the most basic relations between [[polynomial]]s and holomorphic functions.
 
-Let $n\geq 2$; then we separate the first $(n-1)$ complex coordinates $z = (z_1,\ldots,z_{n-1})$ and the $n$-th coordinate which will be denoted by $w$. We consider an analytic function $f = f(z_1,\ldots, z_{n-1},w)$ vanishing at origin $f(0,\ldots, 0)=0$, and such that it is not identically zero on the $w$-axis. Let $\mathcal{O}_{n,a}$ be the [[local ring]] of [[germs]] of holomorphic functions at $a\in\mathbb{C}^n$ and $\mathcal{O}_n:=\mathcal{O}_{n,0}$.
+Let $n\geq 2$; then we separate the first $(n-1)$ complex coordinates $z = (z_1,\ldots,z_{n-1})$ and the $n$-th coordinate which will be denoted by $w$. We consider an analytic function $f = f(z_1,\ldots, z_{n-1},w)$ vanishing at origin $f(0,\ldots, 0)=0$, and such that it is not identically zero on the $w$-axis. 
 
 
 ##Weierstrass polynomial##
@@ -36,7 +36,7 @@ where $P$ is a Weierstrass polynomial of degree $d$ of $w$ and $h(0) \neq 0$.
 
 ##Weierstrass division theorem##
 
-Let $g=g(z,w)\in\mathcal{O}_{n-1}[w]$ be a Weierstrass polynomial of degree $k$ of $w$. Then every holomorphic function $f\in\mathcal{O}_n$ can be represented as 
+Let $\mathcal{O}_{n,a}$ be the [[local ring]] of [[germs]] of holomorphic functions at $a\in\mathbb{C}^n$ and $\mathcal{O}_n:=\mathcal{O}_{n,0}$. Let $g=g(z,w)\in\mathcal{O}_{n-1}[w]$ be a Weierstrass polynomial of degree $k$ of $w$. Then every holomorphic function $f\in\mathcal{O}_n$ can be represented as 
 $$
 f = g\cdot h+r
 $$
