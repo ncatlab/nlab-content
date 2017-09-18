@@ -105,7 +105,7 @@ The necessity of the first condition holds in any category with binary coproduct
 
 +-- {: .proof}
 ###### Proof of theorem \ref{Freyd}: necessity
-For a category $C$ with binary coproducts and 1, the natural numbers object can be equivalently described as an [[initial algebra]] structure $(0, s): 1 + \mathbb{N} \to \mathbb{N}$ for the endofunctor $F(c) = 1 + c$ defined on $C$. Then condition 1 is a special case of [[initial algebra|Lambek's theorem]], that the algebra structure map of an initial algebra is an isomorphism. 
+For a category $C$ with binary coproducts and 1, the natural numbers object can be equivalently described as an [[initial algebra]] structure $(0, s): 1 + \mathbb{N} \to \mathbb{N}$ for the endofunctor $F(c) = 1 + c$ defined on $C$. Then condition 1 is a special case of [[initial algebra of an endofunctor|Lambek's theorem]], that the algebra structure map of an initial algebra is an isomorphism. 
 
 As for condition 2, given $f: \mathbb{N} \to X$ such that $f = f \circ s$, the claim is that $f$ factors as 
 
