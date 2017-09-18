@@ -479,7 +479,7 @@ This shows that the coproduct of the $i_s$ has the left lifting property against
 ###### Remark
 
 Beware, in the situation of prop. \ref{ClosuredPropertiesOfWeakFactorizationSystem},
-that $\mathcal{L}$ is not in general closed under all [[colimits]] in $\mathcal{C}^{\Delta[1]}$, and similarly $\mathcal{R}$ is not in general closed under all [[limits]] in $\mathcal{C}^{\Delta[1]}$. Also $$\mathcal{L} not in general closed under formng [[coequalizers]] in $\mathcal{C}$, and $\mathcal{R}$ is not in general closed under forming [[equalizers]] in $\mathcal{C}$. However, if $(\mathcal{L},\mathcal{R})$ is an [[orthogonal factoization system]], def. \ref{OrthogonalFactorizationSystem}, then $\mathcal{L}$ is closed under all colimits and $\mathcal{R}$ is closed under all limits.
+that $\mathcal{L}$ is not in general closed under all [[colimits]] in $\mathcal{C}^{\Delta[1]}$, and similarly $\mathcal{R}$ is not in general closed under all [[limits]] in $\mathcal{C}^{\Delta[1]}$. Also $\mathcal{L}$ is not in general closed under forming [[coequalizers]] in $\mathcal{C}$, and $\mathcal{R}$ is not in general closed under forming [[equalizers]] in $\mathcal{C}$. However, if $(\mathcal{L},\mathcal{R})$ is an [[orthogonal factorization system]], def. \ref{OrthogonalFactorizationSystem}, then $\mathcal{L}$ is closed under all colimits and $\mathcal{R}$ is closed under all limits.
 
 =--
 
