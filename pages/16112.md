@@ -1,0 +1,17 @@
+
+
+
+## References
+
+* Wikipedia, _[CR manifold](https://en.wikipedia.org/wiki/CR_manifold)_
+
+On spherical CR manifolds locally modeled on the [[Heisenberg group]]:
+
+
+* Robert R. Miner, _Quasiconformal equivalence of spherical manifolds_, Annales Academiae Scientiarium Fennicae, Series A. I. Mathematica, Volumen 19, 1994, 83-93 ([pdf](http://www.acadsci.fi/mathematica/Vol19/miner.pdf))
+
+[[!redirects CR manifolds]]
+
+[[!redirects spherical CR manifold]]
+[[!redirects spherical CR manifolds]]
+
