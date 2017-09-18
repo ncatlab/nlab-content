@@ -507,9 +507,9 @@ based on
  
 See also
 
-* {#ErlerKonopkaSach13} Theodore Erler, Sebastian Konopka, [[Ivo Sachs]], _Resolving Witten's Superstring Field Theory_, JHEP04(2014)150 ([arXiv:1312.2948](http://arxiv.org/abs/1312.2948))
+* {#ErlerKonopkaSach13} [[Theodore Erler]], Sebastian Konopka, [[Ivo Sachs]], _Resolving Witten's Superstring Field Theory_, JHEP04(2014)150 ([arXiv:1312.2948](http://arxiv.org/abs/1312.2948))
 
-* {#ErlerKonopkaSach14} Theodore Erler, Sebastian Konopka, [[Ivo Sachs]], _NS-NS Sector of Closed Superstring Field Theory_, JHEP08(2014)158 ([arXiv:1403.0940](http://arxiv.org/abs/1403.0940))
+* {#ErlerKonopkaSach14} [[Theodore Erler]], Sebastian Konopka, [[Ivo Sachs]], _NS-NS Sector of Closed Superstring Field Theory_, JHEP08(2014)158 ([arXiv:1403.0940](http://arxiv.org/abs/1403.0940))
 
 
 
@@ -599,7 +599,7 @@ It appears in print in
 
 See also at _[[L-infinity algebras in physics]]_.
 
-The [[A-infinity algebra]] structure of bosnonic open string field theory in 
+The [[A-infinity algebra]] structure of bosonic open string field theory in 
 
 * [[Matthias Gaberdiel]], [[Barton Zwiebach]], _Tensor Constructions of Open String Theories I: Foundations_ ([arXiv:hep-th/9705038](http://arxiv.org/abs/hep-th/9705038))
 
@@ -720,7 +720,7 @@ Analogous discussion including also brane/[[anti-brane]] pairs in [[superstring]
 
 * L. Bonora, N. Bouatta, C. Maccaferri, _Towards open-closed string duality: Closed Strings as Open String Fields_ ([arXiv:hep-th/0609182](http://arxiv.org/abs/hep-th/0609182))
 
-* Theodore Erler, _Tachyon Vacuum in Cubic Superstring Field Theory_, JHEP 0801:013,2008 ([arXiv:0707.4591](http://arxiv.org/abs/0707.4591))
+* [[Theodore Erler]], _Tachyon Vacuum in Cubic Superstring Field Theory_, JHEP 0801:013,2008 ([arXiv:0707.4591](http://arxiv.org/abs/0707.4591))
 
 [[!redirects String field theory]]
 
