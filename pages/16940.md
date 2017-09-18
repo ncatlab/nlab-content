@@ -1,0 +1,11 @@
+
+## Related concepts
+
+* [[quadratic form]]
+
+* [[Gaussian integral]]
+
+##  References
+
+* Wikipedia, _[Completing the square](https://en.wikipedia.org/wiki/Completing_the_square)_
+
