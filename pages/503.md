@@ -522,7 +522,7 @@ $$\frac{\frac{S \to q(c)}{S \to q \circ_C C(-, c)}}{\frac{p \circ_{\mathbf{1}} S
 
 and maps in the bottom line are in bijection with maps $S \to Set^{C^{op}}(p, C(-, c))$. Therefore we have a natural bijection 
 
-$$\frac{S \to q(c)}{S \to Set^{C^{op}}}$$ 
+$$\frac{S \to q(c)}{S \to Set^{C^{op}}(p, C(-, c))}$$ 
 
 and this proves $q(c) \cong Set^{C^{op}}(p, C(-, c))$. 
 
