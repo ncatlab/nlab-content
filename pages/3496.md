@@ -82,7 +82,7 @@ from the [[2-category]] [[Cat]]${}_{small}$ with [[2-morphism]]s reversed) to th
 $$
   (f_! \dashv f^* \dashv f_!) : 
   [C,Set]
-    \stackrel{\overset{f_! := Lan_f}{\to}}{\stackrel{\overset{f^* := (-) \circ f}{\leftarrow}}{\underset{f^* := Ran_f}{\to}}}
+    \stackrel{\overset{f_! := Lan_f}{\to}}{\stackrel{\overset{f^* := (-) \circ f}{\leftarrow}}{\underset{f_* := Ran_f}{\to}}}
   [D,Set]
   \,,
 $$
