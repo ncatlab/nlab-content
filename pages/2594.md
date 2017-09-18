@@ -61,6 +61,13 @@ Furthermore, these coefficients are uniquely determined.
 
 =--
 
++-- {: .proof}
+###### Proof
+
+See _[[affine line#InternalFormulation]]_.
+
+=--
+
 +-- {: .num_remark}
 ###### Remark
 
