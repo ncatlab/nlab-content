@@ -150,6 +150,13 @@ The category of Alexandroff locales is equivalent to that of [[completely distri
 This appears as ([Caramello, remark 4.3](#Caramello)).
 
 
+## Related concepts
+
+* [[order topology]]
+
+* [[Scott topology]]
+
+
 ## References
 
 * Wikipedia (English), [Alexandrov topology](http://en.wikipedia.org/wiki/Alexandrov_topology)
