@@ -1,8 +1,8 @@
-For $k$ a [[natural number]] and $x$ an element of a (unital) [[ring]], the **falling factorial** $(x)_k$ (also sometimes written $x^{\underline{k}}$) is defined by
+For $k$ a [[natural number]] and $x$ an element of a (unital) [[ring]], the **falling factorial** $x^{\underline{k}}$ (also sometimes written $(x)_k$) is defined by
 
-$$(x)_k = x(x-1)\ldots (x-k+1).$$ 
+$$x^{\underline{k}} = x(x-1)\ldots (x-k+1).$$ 
 
-If $X$ and $Y$ are two [[finite sets]] of [[cardinalities]] $|X| = k$ and $|Y| = n$, then the falling factorial $(n)_k$ counts the number of [[injections]] from $X$ to $Y$. Dividing by the action of the permutation group of $X$ with $k!$ elements and counting the orbits, the expression $\frac{(n)_k}{k!} = \binom{n}{k}$ counts the number of subsets of $Y$ of cardinality $k$. 
+If $X$ and $Y$ are two [[finite sets]] of [[cardinalities]] $|X| = k$ and $|Y| = n$, then the falling factorial $n^{\underline{k}}$ counts the number of [[injections]] from $X$ to $Y$. Dividing by the action of the permutation group of $X$ with $k!$ elements and counting the orbits, the expression $\frac{n^{\underline{k}}}{k!} = \binom{n}{k}$ counts the number of subsets of $Y$ of cardinality $k$. 
 
 
 
@@ -12,19 +12,19 @@ In the calculus of finite differences, where an analogy is set up between the or
 
 $$(\Delta f)(x) \coloneqq f(x+1) - f(x),$$ 
 
-it is the falling factorial $(x)_k$ that plays a role analogous to the ordinary power $x^k$. For example, we have $\Delta (x)_k = k (x)_{k-1}$. Compare the formula $\Delta \frac{(x)_k}{k!} = \frac{(x)_{k-1}}{(k-1)!}$ which interpolates the Pascal triangle recurrence 
+it is the falling factorial $x^{\underline{k}}$ that plays a role analogous to the ordinary power $x^k$. For example, we have $\Delta x^{\underline{k}} = k x^{\underline{k-1}}$. Compare the formula $\Delta \frac{x^{\underline{k}}}{k!} = \frac{x^{\underline{k-1}}}{(k-1)!}$ which interpolates the Pascal triangle recurrence 
 
 $$\binom{n+1}{k} - \binom{n}{k} = \binom{n-1}{k}.$$ 
 
 The discrete analogue of the identity $x^k x^l = x^{k+l}$ is the identity 
 
-$$(x)_k (x-k)_l = (x)_{k+l}.$$ 
+$$x^{\underline{k}} (x-k)^{\underline{l}} = x^{\underline{k+l}}.$$ 
 
-This may be used to motivate the definition of $(x)_k$ for all [[integers]] $k$. For $k$ a natural number, define 
+This may be used to motivate the definition of $x^{\underline{k}}$ for all [[integers]] $k$. For $k$ a natural number, define 
 
-$$(x)_{-k} \coloneqq \frac1{(x+k)_k} = \frac1{(x+k)(x+k-1) \ldots (x+1)}.$$ 
+$$x^{\underline{-k}} \coloneqq \frac1{(x+k)^{\underline{k}}} = \frac1{(x+k)(x+k-1) \ldots (x+1)}.$$ 
 
-Then the difference formula $\Delta (x)_k = k (x)_{k-1}$ and the multiplicative identity $(x)_k (x-k)_l = (x)_{k+l}$ continue to hold for all integers $k, l$. These facts have numerous applications throughout discrete mathematics. 
+Then the difference formula $\Delta x^{\underline{k}} = k x^{\underline{k-1}}$ and the multiplicative identity $x^{\underline{k}} (x-k)^{\underline{l}} = x^{\underline{k+l}}$ continue to hold for all integers $k, l$. These facts have numerous applications throughout discrete mathematics. 
 
 ## Related entries 
 
@@ -34,4 +34,4 @@ Then the difference formula $\Delta (x)_k = k (x)_{k-1}$ and the multiplicative 
 
 * [Falling Factorial](http://mathworld.wolfram.com/FallingFactorial.html) on Wolfram MathWorld. 
 
-* Ronald Graham, Donald Knuth, and Oren Patashnik, _Concrete Mathematics_, 2$^nd} edition, Addison-Wesley (1994). 
+* Ronald Graham, Donald Knuth, and Oren Patashnik, _Concrete Mathematics_, 2$^{nd}$ edition, Addison-Wesley (1994). 
