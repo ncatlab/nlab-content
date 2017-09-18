@@ -1,3 +1,5 @@
+[[!redirects norm residue isomoprhism theorem]]
+[[!redirects norm residue isomoprhism theorem]]
 [[!redirects Bloch-Kato conjecture]]
 
 
