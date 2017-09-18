@@ -183,16 +183,16 @@ Nor can one have internal existence of an isomorphism between $X$ and $Y$ in thi
 
 ## In other categories
 
-The CSB property holds in many other [[categories]] of interest. For example: 
+The CSB property holds in some other [[categories]] of interest (but arguably fails in many more). Some examples follow: 
 
 +-- {: .num_example #model} 
 ###### Example 
-The CSB property holds in the category of [[vector spaces]] and in the category of [[algebraically closed field]]s. See also this [MO post](http://mathoverflow.net/questions/1058/when-does-cantor-bernstein-hold) by John Goodrick, where model-theoretic criteria come into play, sometimes under strengthenings of the notion of monomorphism (e.g., [[elementary embedding]], [[split monomorphism]]) Some slides by Goodrick [here](http://settheory.mathtalks.org/wp-content/uploads/2012/06/jonh_goodrick.pdf) go into more detail. 
+The CSB property holds in the category of [[vector spaces]] and in the category of [[algebraically closed field]]s. See also this [MO post](http://mathoverflow.net/questions/1058/when-does-cantor-bernstein-hold) by John Goodrick, where model-theoretic criteria come into play, sometimes under strengthenings of the notion of monomorphism (e.g., [[elementary embedding]], [[split monomorphism]]) Some slides by Goodrick [here](http://settheory.mathtalks.org/wp-content/uploads/2012/06/jonh_goodrick.pdf) go into more detail, giving connections between CSB and [[stability theory|stable theories]] in the sense of [[Shelah]]. 
 =-- 
 
 +-- {: .num_example #counterexample2} 
 ###### Counterexample 
-On the other hand, the CSB property obviously fails in [[Top]], since we have [[embeddings]] $\mathbb{R} \cong (0,1) \to [0,1] \to \mathbb{R}$, yet $[0,1] \ncong \mathbb{R}$. 
+On the other hand, the CSB property obviously fails in [[Top]], since we have [[embeddings]] $\mathbb{R} \cong (0,1) \to [0,1] \to \mathbb{R}$, yet $[0,1] \ncong \mathbb{R}$. It fails in [[Grp]] (e.g., the free group on countably many generators embeds in the free group on two generators). 
 =-- 
 
 More examples and discussion can be found at this Secret Blogging Seminar [post](http://sbseminar.wordpress.com/2007/10/30/theme-and-variations-schroeder-bernstein/). 
