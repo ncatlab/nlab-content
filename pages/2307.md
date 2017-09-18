@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Manifolds and cobordisms
+#### Cobordism theory
 +--{: .hide}
-[[!include manifolds and cobordisms - contents]]
+[[!include cobordism theory -- contents]]
 =--
 #### Cohomology
 +--{: .hide}
