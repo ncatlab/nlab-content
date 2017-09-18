@@ -1,0 +1,5 @@
+An informal term, usually synonymous with [[operation]], and useful to avoid terms like [[function]] or [[map]] which are 
+
+* usually precisely defined within a given context, 
+
+* sometimes not what one means to say.
