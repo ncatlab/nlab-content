@@ -5317,10 +5317,43 @@ We consider this here just for the special case of [[homotopy fibers]] and [[hom
 
 #### Pointed objects
 
+Since a _[[fiber]]_ is a fiber over some point, for the discussion of sequences of fibers it is most convenient to work with pointed objects. A _[[pointed object]]_ $(X,x)$ is of course an [[object]] $X$ equipped with a [[point]] $x \colon \ast \to X$, and a morphism of pointed objects $(X,x) \longrightarrow (Y,y)$ is a morphism $X \longrightarrow Y$ that takes $x$ to $y$. Trivial as this is in itself, it is good to record some basic facts, which we do here. 
+
+Passing to pointed objects is also the first step in linearizing classical homotopy theory to [[stable homotopy theory]]. In particular, every category of pointed objects has a [[zero object]], hence has [[zero morphisms]]. And crucially, if the original category had [[Cartesian products]], then its pointed objects canonically inherit a non-cartesian [[tensor product]]: the [[smash product]]. These ingredients will be key below in [Part 1)](#StableHomotopyTheory).
+
++-- {: .num_defn #SliceCategory}
+###### Definition
+
+Let $\mathcal{C}$ be a [[category]] and let $X \in \mathcal{C}$ be an [[object]]. 
+
+The _[[slice category]]_ $\mathcal{C}_{/X}$ is the category whose 
+
+* objects are morphisms $\array{A \\ \downarrow \\ X}$ in $\mathcal{C}$;
+
+* morphisms are [[commuting diagram|commuting triangles]] $\array{ A && \longrightarrow && B \\ & {}_{}\searrow && \swarrow \\ && X}$ in $\mathcal{C}$.
+
+Dually, the _[[coslice category]]_ $\mathcal{C}^{X/}$ is the category whose
+
+* objects are morphisms $\array{X \\ \downarrow \\ A}$ in $\mathcal{C}$;
+
+* morphisms are [[commuting diagram|commuting triangles]] $\array{ && X \\ & \swarrow && \searrow \\ A && \longrightarrow && B }$ in $\mathcal{C}$.
+
+There is the canonical [[forgetful functor]]
+
+$$
+  U \;\colon \; \mathcal{C}_{/X}, \mathcal{C}^{X/} \longrightarrow \mathcal{C}
+$$
+
+given by forgetting the morphisms to/from $X$.
+
+=--
+
+We here focus on this class of examples:
+
 +-- {: .num_defn #CategoryOfPointedObjects}
 ###### Definition
 
-For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, write $\mathcal{C}^{\ast/}$ for the corresponding _[[category of pointed objects]]_: its
+For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, the [[coslice category]] (def. \ref{SliceCategory}) $\mathcal{C}^{\ast/}$ is the corresponding _[[category of pointed objects]]_: its
 
 * objects are morphisms in $\mathcal{C}$ of the form $\ast \overset{x}{\to} X$ (hence an object $X$ equipped with a choice of point; i.e. a _[[pointed object]]_);
 
@@ -5347,7 +5380,38 @@ In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOf
 
 In this situation one says that $\ast$ is a _[[zero object]]_ and that $\mathcal{C}^{\ast/}$ is a _[[pointed category]]_. 
 
+It follows that also all [[hom-sets]] $\mathcal{C}^{\ast/}(X,Y)$ of $\mathcal{C}^{\ast/}$ are canonically [[pointed sets]], pointed by the _[[zero morphism]]_
+
+$$
+  0 
+    \;\colon\;
+  X \overset{\exists!}{\longrightarrow} 0 \overset{\exists}{\longrightarrow} Y
+  \,.
+$$
+
 =--
+
++-- {: .num_prop #ModelStructureOnSliceCategory}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]] and let $X \in \mathcal{C}$ be an [[object]]. Then both the [[slice category]] $\mathcal{C}_{/X}$ as well as the [[coslice category]] $\mathcal{C}^{X/}$, def. \ref{SliceCategory}, carry model structures themselves -- the **[[model structure on a slice category|model structure on a (co-)slice category]]**,  where a morphism is a weak equivalence, fibration or cofibration iff its image under the [[forgetful functor]] $U$ is so in $\mathcal{C}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate by inspection.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$.
+
+=--
+
 
 +-- {: .num_defn }
 ###### Definition
@@ -5371,6 +5435,13 @@ Moreover:
 1. the limits are the limits of the underlying diagrams in $\mathcal{C}$, with the base point of the limit induced by its universal property in $\mathcal{C}$;
 
 1. the colimits are the limits in $\mathcal{C}$ of the diagrams _with the basepoint adjoined_.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is immediate to check the relevant [[universal property]]. For details see at _[slice category -- limits and colimits](overcategory#LimitsAndColimits)_.
 
 =--
 
@@ -5475,7 +5546,7 @@ Given a morphism $f \colon X \longrightarrow Y$ in a [[category of pointed objec
 +-- {: .num_remark }
 ###### Remark
 
-In the situation of def. \ref{FiberAndCofiberInPointedObjects}, both the pullback as well as the pushout are equivalently computed in $\mathcal{C}$. For the pullback this is the first clause of prop. \ref{LimitsAndColimitsOfPointedObjects}. The second clause says that for computing the pushout in $\mathcal{C}$ first the point is to be adjoined to the diagram, and then the colimit over the larger diagram
+In the situation of def. \ref{FiberAndCofiberInPointedObjects}, both the pullback as well as the pushout are equivalently computed in $\mathcal{C}$. For the pullback this is the first clause of prop. \ref{LimitsAndColimitsOfPointedObjects}. The second clause says that for computing the pushout in $\mathcal{C}$, first the point is to be adjoined to the diagram, and then the colimit over the larger diagram
 
 $$
   \array{
@@ -5491,7 +5562,7 @@ $$
    }
 $$
 
-be computed, but one readily checks that in this special case this does not affect the result.
+be computed. But one readily checks that in this special case this does not affect the result. (The technical jargon is that the inclusion of the smaller diagram into the larger one in this case happens to be a [[final functor]].)
 
 =--
 
@@ -6142,8 +6213,7 @@ that are right inverse to some acyclic fibration
 $v : B \stackrel{\in W \cap F}{\to} B'$
 map to a weak equivalence under pullback along a fibration.
 
-Given such $u$ with right inverse $v$, 
-consider the pullback diagram
+Given such $u$ with right inverse $v$, consider the pullback diagram
 
 $$
   \array{
@@ -6169,14 +6239,9 @@ $$
   \,.
 $$
 
-Notice that the indicated universal morphism 
-$p \times Id \colon E \stackrel{\in W}{\to} E_1$ 
-into the pullback is a weak equivalence
-by [[two-out-of-three]].
+Notice that the indicated universal morphism  $p \times Id \colon E \stackrel{\in W}{\to} E_1$  into the pullback is a weak equivalence by [[two-out-of-three]].
 
-The previous lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} says that weak equivalences between fibrations over $B$
-are themselves preserved by base extension along
-$u \colon B' \to B$. In total this yields the following diagram
+The previous lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} says that weak equivalences between fibrations over $B$ are themselves preserved by base extension along $u \colon B' \to B$. In total this yields the following diagram
 
 $$
   \array{
@@ -6208,21 +6273,41 @@ $$
   }
 $$
 
-so that with $p \times Id  : E \to E_1$ a
-weak equivalence also $u^* (p \times Id)$ 
-is a weak equivalence, as indicated.
+so that with $p \times Id  : E \to E_1$ a weak equivalence also $u^* (p \times Id)$ is a weak equivalence, as indicated.
 
-Notice that $u^* E = B' \times_B E \to E$ is the morphism that we want to show is a weak equivalence.
-By 2-out-of-3 for that it is now sufficient to 
-show that $u^* E_1  \to E_1$ is a weak equivalence.
+Notice that $u^* E = B' \times_B E \to E$ is the morphism that we want to show is a weak equivalence. By 2-out-of-3 for that it is now sufficient to show that $u^* E_1  \to E_1$ is a weak equivalence.
 
-That finally follows now since by assumption the
-total bottom horizontal morphism is the identity.
-Hence so is the top horizontal morphism. Hence
-$u^* E_1  \to E_1$ is right inverse to a weak
-equivalence, hence is a weak equivalence.
+That finally follows now since by assumption the total bottom horizontal morphism is the identity. Hence so is the top horizontal morphism. Hence $u^\ast E_1  \to E_1$ is right inverse to a weak equivalence, hence is a weak equivalence.
 
 =--
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $\mathcal{C}^{\ast/}$ be the [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, of a [[model structure on pointed objects]], prop. \ref{ModelStructureOnSliceCategory}. Given any [[commuting diagram]] in $\mathcal{C}^{\ast/}$ of the form
+
+$$
+  \array{
+    X'_1 &\overset{t}{\longrightarrow}& X_1 &\stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}& X_2
+    \\
+    && \donwarrow^{\mathrlap{p_1}}_{\mathrlap{\in Fib}} 
+      && 
+    \downarrow^{\mathrlap{p_2}}_{\in Fib}
+    \\
+    & C &\overset{u}{\longrightarrow}& C
+  }
+$$
+
+(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon \mathcal{C}^{\ast/}\to Ho(\mathcal{C}^{\ast/})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) takes $f$ and $g$ to the same morphism:
+
+$$
+  \gamma(f) = \gamma(g)
+  \,.
+$$
+
+=--
+
+([Brown 73, section 4, lemma 4](#Brown73))
 
 
 
@@ -6307,9 +6392,7 @@ $$
 
 Here $f^\ast X_2 \to X_2$ is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} and with this $X_1 \to f^\ast X_2$ is a weak equivalence by assumption and [[two-out-of-three]].
 
-Moreover, this diagram exhibits $fib(f_1)\to fib(\phi)$ as the base change (along $\ast \to Y_2$) of $X_1 \to f^\ast X_2$. 
-
-Hence it is now sufficient to observe that in category of fibrant objects, base change preserves weak equivalences (...).
+Moreover, this diagram exhibits $fib(f_1)\to fib(\phi)$ as the base change (along $\ast \to Y_2$) of $X_1 \to f^\ast X_2$. Therefore the claim now follows with lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences}.
 
 =--
 
