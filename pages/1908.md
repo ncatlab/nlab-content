@@ -55,6 +55,15 @@ $$
 
 Therefore one way to think of [[vertical categorification]] is as a [[right inverse]] to decategorification.
 
+## Decategorification of a 2-category ##
+
+A precise way to define the decategorification of a 2-category in the above sense is to identify all 1-arrows which are 2-isomorphic (note that this defines an equivalence relation on 1-arrows and respects composition), and to discard the 2-arrows.
+
+## Example ##
+
+The decategorification, in the above sense, of the 2-category of (small) groupoids is equivalent to the (homotopy) category of [[homotopy 1-types]].
+
+The decategorification in the same sense of the 2-category of (small) categories is equivalent to the full [[homotopy category of topological spaces|homotopy category]].
 
 ## Extra structure ##
 
