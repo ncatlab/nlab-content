@@ -88,6 +88,12 @@ $\,$
 
 $\,$
 
+$\,$
+
+$\,$
+
+$\,$
+
 #Contents#
 * table of contents
 {:toc}
@@ -252,9 +258,9 @@ $$
   \,.
 $$
 
-A **[[limit]]** over the diagram is a universal cone, denoted $\underset{\longrightarrow}{\lim}_{i \in I} X_i$, a cone such that every other cone uniquely factors through it $Q \longrightarrow \underset{\longrightarrow}{\lim}_{i \in I} X_i$, making all the resulting triangles commute.
+A **[[limit]]** over the diagram is a universal cone, denoted $\underset{\longleftarrow}{\lim}_{i \in I} X_i$, that is: a cone such that every other cone uniquely factors through it $Q \longrightarrow \underset{\longleftarrow}{\lim}_{i \in I} X_i$, making all the resulting triangles commute.
 
-Dually, a **[[colimit]]** over the diagram is a universal cocone, denoted $\underset{\longrightarrow}{\lim}_{i \in I} X_i$.
+Dually, a **[[colimit]]** over the diagram is a universal co-cone, denoted $\underset{\longrightarrow}{\lim}_{i \in I} X_i$.
 
 =--
 
@@ -338,9 +344,9 @@ Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$
    Hence
 
    $$
-     \underset{\longleftarrow}{\lim}_{i \in I} X_i  
+     \underset{\longrightarrow}{\lim}_{i \in I} X_i  
      \simeq
-     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
+     \left(\underset{\longrightarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
    $$
 
 =--
@@ -437,7 +443,7 @@ $$
   coeq(f,g)
 $$
 
-(hence the [[quotient set]] by the [[equivalence relation]] $f(x) \sim g(y)$)  and equipped with the [[quotient topology]], example \ref{QuotientTopology}.
+(hence the [[quotient set]] by the [[equivalence relation]] $f(x) \sim g(x)$)  and equipped with the [[quotient topology]], example \ref{QuotientTopology}.
 
 =--
 
@@ -470,7 +476,7 @@ $$
   \,.
 $$
 
-(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also write $X \cup_f Y$ and calls this the _attaching space_.
+(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also writes $X \cup_f Y$ and calls this the _attaching space_.
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
 
@@ -534,17 +540,15 @@ be the canonical inclusion of the standard [[n-sphere|(n-1)-sphere]] as the [[bo
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"></div>
 
-Then the colimit in [[Top]] under the diagram, i.e. the [[pushout]] of $i_n$ along itself,
+Then the colimit in [[Top]] under the diagram
 
 $$
-  \left\{
      D^n \overset{i_n}{\longleftarrow} S^{n-1} \overset{i_n}{\longrightarrow}
      D^n
-  \right\}
   \,,
 $$
 
-is the [[n-sphere]] $S^n$:
+i.e. the [[pushout]] of $i_n$ along itself, is the [[n-sphere]] $S^n$:
 
 $$
   \array{
@@ -572,7 +576,7 @@ A _[[partial order]]_ is a [[set]] $S$ equipped with a [[relation]] $\leq$ such 
 
 2) ([[transitive relation|transitivity]]) if $a \leq b$ and $b \leq c$ then $a \leq c$;
 
-3) ([[antisymmetric relation|antisymmetry]]) if a $a\leq b$ and $\b \leq a$ then $a = b$. 
+3) ([[antisymmetric relation|antisymmetry]]) if $a\leq b$ and $\b \leq a$ then $a = b$. 
 
 This we may and will equivalently think of as a [[category]] with [[objects]] the elements of $S$ and a unique morphism $a \to b$ precisely if $a\leq b$. In particular an order-preserving function between partially ordered sets is equivalently a [[functor]] between their corresponding categories.
 
@@ -650,7 +654,7 @@ $$
 =--
 
 
-We now turn to the discussion of [[mapping spaces]]/[[exponential objects]]
+We now turn to the discussion of [[mapping spaces]]/[[exponential objects]].
 
 +-- {: .num_defn #CompactOpenTopology}
 ###### Definition
@@ -692,7 +696,7 @@ Accordingly this is called the _[[compact-open topology]]_ on the set of functio
 The construction extends to a [[functor]] 
 
 $$
-  (-)^{(-)} \;\colon\; Top_{lcH}^{op} \times Top \longrightarrow Top
+  (-)^{(-)} \;\colon\; Top_{lc}^{op} \times Top \longrightarrow Top
   \,.
 $$
 
@@ -711,8 +715,8 @@ between continuous functions out of any [[product topological space]] of $Y$ wit
 
 =--
 
-A proof is spelled out [here](compact-open+topology#GivesExponentialObject). 
-(or see e.g. [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02))
+A proof is spelled out [here](compact-open+topology#GivesExponentialObject) 
+(or see e.g. [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02)).
 
 +-- {: .num_remark #UseOfHausdorffnessInCOTopology}
 ###### Remark
