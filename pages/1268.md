@@ -67,7 +67,7 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 ### Six operations yoga
  {#SixOperationsYoga}
 
-Discussion of [[six operations yoga]] for pull-push of ([[coherent D-module|coherent]], [[holonomic D-module|holonomic]]) D-modules is in ([Bernstein, around p. 18](#Bernstein)). This is  reviewed for instance in ([Etingof](#Etingof), [Ben-Ziv & Nadler 09](#BenZviNadler09)).
+Discussion of [[six operations yoga]] for pull-push of ([[coherent D-module|coherent]], [[holonomic D-module|holonomic]]) D-modules is in ([Bernstein, around p. 18](#Bernstein)). This is  reviewed for instance in ([Etingof](#Etingof), [Ben-Zvi & Nadler 09](#BenZviNadler09)).
 
 ### Relation to geometric representation theory
  {#RelationToGeometricRepresentationTheory}
