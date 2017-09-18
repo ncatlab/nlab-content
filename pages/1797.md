@@ -42,7 +42,7 @@ We work in any 2-category.  First, we observe:
 If $(f,g,\eta,\varepsilon)$ is an adjoint equivalence, then so is $(g,f,\varepsilon^{-1},\eta^{-1})$.
 =--
 
-Therefore, in an adjoint equivalence, each functor is both the left and the right adjoint of the other (i.e. it is an [[ambijunction]]).
+Therefore, in an adjoint equivalence, each functor is both the left and the right adjoint of the other (i.e. it is an [[ambidextrous adjunction]]).
 
 The definition as given above is also redundant:
 
