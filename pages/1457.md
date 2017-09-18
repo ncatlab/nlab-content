@@ -15,7 +15,7 @@
 
 ## Idea 
 
-A **metric space** is a [[set]] which comes equipped with a [[function]] which measures _distance_ between points, called a _metric_. The metric can be used to generate a [[topology]] on the set, and a [[topological space]] whose topology comes from some metric is said to be _metrizable_. 
+A **metric space** is a [[set]] which comes equipped with a [[function]] which measures _distance_ between points, called a _metric_. The metric may be used to generate a [[topology]] on the set, the _[[metric topology]]_, and a [[topological space]] whose topology comes from some metric is said to be _[[metrizable]]_. 
 
 
 ## Definitions
@@ -190,17 +190,6 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 [[!redirects Lawvere metric space]]
 [[!redirects Lawvere metric spaces]]
 
-[[!redirects metrizable space]]
-[[!redirects metrizable spaces]]
-
-[[!redirects metrizable topological space]]
-[[!redirects metrizable topological spaces]]
-
-
-[[!redirects metrisable space]]
-[[!redirects metrisable spaces]]
-[[!redirects metrizable]]
-[[!redirects metrisable]]
 
 [[!redirects distance]]
 [[!redirects distances]]
