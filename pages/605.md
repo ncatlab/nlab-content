@@ -74,6 +74,9 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 
 * Wikipedia, _[Cobordism](http://en.wikipedia.org/wiki/Cobordism)_
 
+* {#Ston68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+
+
 [[!redirects cobordisms]]
 
 [[!redirects cobordism theory]]
