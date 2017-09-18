@@ -29,9 +29,9 @@ What is called _global equivariant stable homotopy theory_ is a variant of [[equ
 Often this is referred to just as "global stable homotopy theory" or even just "global homotopy theory". But there is also _unstable_ _[[global equivariant homotopy theory]]_.
 
 
-More precisely, given an [[orthogonal spectrum]] $X$, then every [[representation]] $\rho \colon G \to O(n)$ of a [[compact Lie group]] on the [[Cartesian space]] $\mathbb{R}^n$ by [[orthogonal group]] [[actions]] induces a $G$-[[equivariant spectrum]] and hence a notion of $G$-equivariant [[homotopy groups]]. 
+More precisely, given an [[orthogonal spectrum]] $X$, then every [[representation]] $\rho \colon G \to O(n)$ of a [[compact Lie group]] on the [[Cartesian space]] $\mathbb{R}^n$ by [[orthogonal group]] [[actions]] induces a $G$-[[equivariant spectrum]] and hence a notion of $G$-[[equivariant homotopy groups]]. 
 
-One says that a morphism of [[orthogonal spectra]] is a **global equivariant equivalence** if it induces [[isomorphisms]] on all $G$-equivariant [[homotopy groups]], for all $G$, this way. (This definition appears for instance as ([Schwede 13, def. 2.9](#Schwede13)), there referred to just as "global equivalence".)
+One says that a morphism of [[orthogonal spectra]] is a **global equivariant equivalence** if it induces [[isomorphisms]] on all $G$- [[equivariant homotopy groups]], for all $G$, this way. (This definition appears for instance as ([Schwede 13, def. 2.9](#Schwede13)), there referred to just as "global equivalence". See also at _[[equivariant Whitehead theorem]]_.)
 
 The **global equivariant stable homotopy category** $\mathcal{GH}$ is the ([[simplicial localization|simplicial]]) [[localization]] of the [[category]] of [[orthogonal spectra]] at these global equivariant equivalences (this is a [[stable (infinity,1)-category]]/[[triangulated category]].)
 
