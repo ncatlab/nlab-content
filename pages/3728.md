@@ -37,6 +37,8 @@ Equivalently, $f$ is an equivalence if it is the image of a functor of quasi-cat
 
 * [[weak equivalence]]
 
+* [[equivalence in a 2-category]]
+
 * [[homotopy equivalence]], [[weak homotopy equivalence]]
 
 * **equivalence in an (∞,1)-category**
