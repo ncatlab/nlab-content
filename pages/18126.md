@@ -1438,7 +1438,7 @@ Notice that
 
 The following important class of [[topological spaces]] form the foundation of [[algebraic geometry]]:
 
-+-- {: .num_example}
++-- {: .num_example #ZariskiTopologyOnAffineSpace}
 ###### Example
 **([[Zariski topology]] on [[affine space]])**
 
@@ -1491,7 +1491,7 @@ is also called the $n$-dimensional _[[affine space]]_ over $k$.
 
 More generally
 
-+-- {: .num_example}
++-- {: .num_example #ZariskiTopologyOnPrimeSpectrum}
 ###### Example
 **([[Zariski topology]] on the [[prime spectrum of a commutative ring]])**
 
@@ -5346,6 +5346,25 @@ That neither class is contained in the other is shown by the following counter-e
 
 =--
 
+Finally, soberity is indeed strictly weaker that Hausdorffness:
+
+
++-- {: .num_example}
+###### Example
+**([[schemes are sober]])**
+
+The [[Zariski topology]] on an [[affine space]] (example \ref{ZariskiTopologyOnAffineSpace}) or 
+more generally on the [[prime spectrum of a commutative ring]] (example \ref{ZariskiTopologyOnPrimeSpectrum})
+is 
+
+1. [[sober topological space|sober]] (def \ref{Sober});
+
+1. in general not [[Hausdorff space|Hausdorff]] (def. \ref{HausdorffTopologicalSpace}).
+
+For details see at _[[Zariski topology]]_ [this prop](Zariski+topology#ZariskiTopologyIsSober)
+and [this example](Zariski+topology#AffineSpaceOverInfiniteFieldNotHausdorff).
+
+=--
 
 
 
