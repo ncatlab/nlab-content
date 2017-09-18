@@ -131,6 +131,8 @@ By the [[Riemann existence theorem]], every connected compact [[Riemann surface]
 
 ## Related concepts
 
+* [[annulus]], [[2-sphere]], [[trinion]]
+
 * [[Teichmüller space]]
 
 * [[moduli space of Riemann surfaces]]
