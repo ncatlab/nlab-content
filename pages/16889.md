@@ -45,6 +45,7 @@ To see what can be done with _Globular_, look at these example proofs:
 * **Swallowtail comes for free** ([http://globular.science/1512.006](http://globular.science/1512.006)). In a monoidal 2-category, a weakly-dual pair of objects gives rise to a strongly-dual pair, satisfying the swallowtail equations.
 * **Pentagon and triangle implies $\lambda_I = \rho_I$** ([http://globular.science/1512.002](http://globular.science/1512.002)). In a monoidal 2-category, if a pseudomonoid object satisfies pentagon and triangle equations, then it satisfies $\lambda_I = \rho_I$.
 * **The antipode is an algebra homomorphism** ([http://globular.science/1512.011](http://globular.science/1512.011)). For a Hopf algebra structure in a braided monoidal category, the antipode is an algebra homomorphism. (Thanks to [Dominic Verdon](https://www.cs.ox.ac.uk/people/dominic.verdon/) for formalizing this.)
+* **The Perko knots are isotopic** ([http://globular.science/1512.012](http://globular.science/1512.012)). The [Perko knots](http://mathforum.org/mathimages/index.php/Perko_pair_knots) are a pair of 10-crossing knots stated by Little in 1899 to be distinct, but proven by Perko in 1974 to be isotopic. Here we give the isotopy proof. A nice feature is that the second and third Reidemeister moves do not have to be entered, since they are already implied by the 3-category axioms.
 
 ## Basic functionality
 
