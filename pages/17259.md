@@ -1,0 +1,10 @@
+
+* [webpage](http://www.mi.ras.ru/~buchstab/)
+
+## related $n$Lab entries
+
+* [[cobordism theory]]
+
+* [[bordism ring]]
+
+category: people
