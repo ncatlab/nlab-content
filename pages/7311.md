@@ -94,7 +94,10 @@ If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham sp
 
 ## Related entries
 
+
 * [[shape]]
+
+* [[shape via cohesive path ∞-groupoid]]
 
 * [[reflective subuniverse]]
 
