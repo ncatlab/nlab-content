@@ -3,4 +3,13 @@
 
 Thesis: _Batalin-Vilkovisky formalism in locally covariant field theory_ ([arXiv:1111.5130](http://arxiv.org/abs/1111.5130)) on [[BV-BRST formalism]] in [[AQFT]].
 
+## Related $n$Lab entries
+
+* [[locally covariant perturbative quantum field theory]]
+
+* [[deformation quantization]]
+
+
 category: people
+
+[[!redirects Kasia Rejzner]]
