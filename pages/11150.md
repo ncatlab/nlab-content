@@ -52,5 +52,11 @@ The relation to [[quantum Teichmüller theory]] is discussed/reviewed in
 
 * {#Teschner14} [[Jörg Teschner]], _Quantization of moduli spaces of flat connections and Liouville theory_, proceedings of the International Congress of Mathematics 2014 ([arXiv:1405.0359](http://arxiv.org/abs/1405.0359))
 
+Relation to the $SL(2,\mathbb{R})$-[[WZW-model]] and [[analytically continued Wess-Zumino-Witten theory]] is discussed in
+
+* Nobuyuki Ishibashi, _Extra Observables in Gauged WZW Models_, Nucl.Phys. B379 (1992) 199-219 ([arXiv:hep-th/9110071](http://arxiv.org/abs/hep-th/9110071))
+
+* Jian-Feng Wu, Yang Zhou, _From Liouville to Chern-Simons, Alternative Realization of Wilson Loop Operators in AGT Duality_ ([arXiv:0911.1922](http://arxiv.org/abs/0911.1922))
+
 
 [[!redirects Liouville field theory]]
