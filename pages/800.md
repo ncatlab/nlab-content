@@ -111,9 +111,11 @@ Two [[strict categories]] $C$ and $D$ are __isomorphic__ if there exist [[strict
 
 If you think of $Cat$ as the category of (strict) categories and functors, then this is the usual notion of [[isomorphism]] in a category.  This is the most obvious notion of equivalence of categories and the first to be considered, but it is simply too strong for the purposes to which [[category theory]] is put.
 
-+-- {: .query}
-Give an intuitively clear counterexample here.
-=--
+#### Example why strict isomorphism is too strong. 
+
+Let $\mathsf{C}_0:= \bullet\downarrow\mathsf{Sets}$ denote the [[coslice category]] ($=$ [[undercategory]]) of the category of sets under a terminal object. This is also known as the category of  _pointed sets_. 
+Let $\mathsf{C}_1$ denote the full subcategory of the category of [[span]]s in $\mathsf{Sets}$ consisting of precisely those spans at least one of whose legs is an inclusion. This is often interpreted as the category of [[partial functions]] of sets.
+
 
 
 ### Strong equivalence {#StrongEquivalence}
