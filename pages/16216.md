@@ -4,9 +4,9 @@ The _categorical geometric Langlands conjecture_ is a categorical version of the
 
 and
 
-* [[quasi-coherent sheaves]] on the [[derived stack]] of $G^\vee$-equivariant [[local systems]] on $X$,
+* [[ind-coherent sheaves]] on the [[derived stack]] of $G^\vee$-equivariant [[local systems]] on $X$,
 
-where $X$ is a smooth complete [[curve]] over a [[field]] of [[characteristic zero]], and $G$ is a [[reductive group]] and $G^\vee$ is its [[Langlands dual]].  (More precisely, the latter category should be replaced by some appropriate category of [[ind-coherent sheaves]].)
+where $X$ is a smooth complete [[curve]] over a [[field]] of [[characteristic zero]], and $G$ is a [[reductive group]] and $G^\vee$ is its [[Langlands dual]].
 
 ## References
 
