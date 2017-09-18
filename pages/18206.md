@@ -46,7 +46,7 @@ with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]],
 
 +-- {: .num_prop #OpenClosedContinuousInjectionsAreEmbeddings}
 ###### Proposition
-**(open/closed continuous injections are embeddings)**
+**([[closed injections are embeddings|open/closed continuous injections are embeddings]])**
 
 A [[continuous function]] $f \colon (X, \tau_X) \to (Y,\tau_Y)$
 which is
