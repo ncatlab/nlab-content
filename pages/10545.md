@@ -27,7 +27,7 @@ For $p$ a [[prime number]], the _Steenrod algebra_ $\mathcal{A}$ is the [[associ
 
 For any prime $p$, the mod-$p$ Steenrod algebra furthermore has the structure of a [[Hopf algebra]] over $\mathbb{F}_p$, non-commutative but co-commutative. Under forming [[linear duals]] this gives the _dual Steenrod algebra_, traditionally denoted $\mathcal{A}_\ast$ instead of $\mathcal{A}^\ast$. This is a [[Hopf algebra]] over $\mathbb{F}_p$ that is commutative, but non-co-commutative.
 
-The dual $\mathbb{F}_o$ Steenrod algebra is a special case of a [[commutative Hopf algebroid]] structure canonically induced on the self [[generalized homology]] $E_\bullet(E)$ of any [[ring spectrum]] $E$ for which $E_\bullet \to E_\bullet(E)$ is a [[flat morphisms]]. Therefore in this general case one sometimes speaks of "dual $E$-Steenrod algebras".
+The dual $\mathbb{F}_p$ Steenrod algebra is a special case of a [[commutative Hopf algebroid]] structure canonically induced on the self [[generalized homology]] $E_\bullet(E)$ of any [[ring spectrum]] $E$ for which $E_\bullet \to E_\bullet(E)$ is a [[flat morphisms]]. Therefore in this general case one sometimes speaks of "dual $E$-Steenrod algebras".
 
 The [[Ext]]-groups between [[comodules]] for these [[commutative Hopf algebroids]] $E_\bullet(E)$ prominently appear on the second page of the $E$-[[Adams spectral sequence]], see there for more.
 
