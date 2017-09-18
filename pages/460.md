@@ -369,7 +369,9 @@ The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the
 
 This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the spaces of points of some [[locale]], and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]]. 
 
-Recall the [[point]] topological space $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$.
+We now say this in detail.
+
+Recall again the [[point]] topological space $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$.
 
 
 +-- {: .num_defn #SoberificationConstruction}
@@ -383,7 +385,7 @@ $$
   S X \coloneqq Hom_{Frame}( \tau_X, \tau_\ast )
 $$
 
-of [[frame]] [[homomorphisms]] from the [[frame of opens]] of $X$ to that of the point. Define a topology $\tau_{S X} \subset P(S X)$ on this set by declaring it to have one element $\tilde U$ for each element $U \in \tau_X$ and given by
+of [[frame]] [[homomorphisms]] from the [[frame of opens]] of $X$ to that of the point. Define a [[topological space|topology]] $\tau_{S X} \subset P(S X)$ on this set by declaring it to have one element $\tilde U$ for each element $U \in \tau_X$ and given by
 
 $$
   \tilde U
@@ -421,53 +423,178 @@ $$
 
 =--
 
-+-- {: .proof}
++-- {: .proof #ProofOfSoberificationConstructionWellDefined}
 ###### Proof
 
+To see that $\tau_{S X} \subset P(S X)$ is closed under arbitrary unions and finite intersections, observe that the function
+
+$$
+  \array{
+    \tau_X &\overset{\widetilde{(-)}}{\longrightarrow}& \tau_{S X}
+    \\
+    U &\mapsto& \tilde U
+  }
+$$
+
+in fact preserves arbitrary unions and finite intersections. Whith this the statement follows by the fact that $\tau_X$ is closed under these operations.
+
+To see that $\widetilde{(-)}$ indeed preserves unions, observe that (e.g. [Johnstone 82, II 1.3 Lemma](#Johnstone82))
+
+$$
+  \begin{aligned}
+    p \in \underset{i \in I}{\cup} \widetilde{U_i} \;
+    & \Leftrightarrow
+    \underset{i \in I}{\exists} p(U_i) = \{1\}
+    \\
+    & \Leftrightarrow \underset{i \in I}{\cup} p(U_i) = \{1\}
+    \\
+    & \Leftrightarrow p\left(\underset{i \in I}{\cup} U_i\right) = \{1\}
+    \\
+    & \Leftrightarrow p \in \widetilde{ \underset{i \in I}{\cup} U_i }
+  \end{aligned}
+  \,,
+$$
+
+where we used that the frame homomorphism $p \colon \tau_X \to \tau_\ast$ preserves unions. Similarly for intersections, now with $I$ a [[finite set]]:
+
+$$
+  \begin{aligned}
+    p \in \underset{i \in I}{\cap} \widetilde{U_i} \;
+    & \Leftrightarrow
+    \underset{i \in I}{\forall} p(U_i) = \{1\}
+    \\
+    & \Leftrightarrow \underset{i \in I}{\cap} p(U_i) = \{1\}
+    \\
+    & \Leftrightarrow p\left(\underset{i \in I}{\cap} U_i\right) = \{1\}
+    \\
+    & \Leftrightarrow p \in \widetilde{ \underset{i \in I}{\cap} U_i }
+  \end{aligned}
+  \,,
+$$
+
+where now we used that the frame homomorphism $p$ preserves finite intersections. 
 
 To see that $s_X$ is continuous, observe that $s_X^{-1}(\tilde U) = U$, by construction.
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_lemma #UnitIntoSXDetectsT0AndSoberity}
+###### Lemma
 
-Hence $s_X$ is 
+For $(X, \tau_X)$ a [[topological space]],
+the function $s_X \colon X \to S X$ from def. \ref{SoberificationConstruction} is
 
-* an [[injection]] precisely if $X$ is [[separation axiom|T0]];
+1. an [[injection]] precisely if $X$ is [[separation axiom|T0]];
 
-* a [[bijection]] precisely if $X$ is sober. 
+1. a [[bijection]] precisely if $X$ is sober. 
+
+   In this case $s_X$ is in fact a [[homeomorphism]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Observe that by lemma \ref{FrameHomomorphismsToPointAreIrrClSub} there is an identification $S X \simeq IrrClSub(X)$ and under this identification $s_X$ is identified with the map $x \mapsto Cl(\{x\})$. 
+By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} there is an identification $S X \simeq IrrClSub(X)$ and via this $s_X$ is identified with the map $x \mapsto Cl(\{x\})$. 
 
-Hence the second statement follows by definition, and the first statement by [this prop.](separation+axioms#T0InTermsOfClosureOfPoints)
+Hence the second statement follows by definition, and the first statement by [this prop.](separation+axioms#T0InTermsOfClosureOfPoints).
+
+That in the second case $s_X$ is in fact a homeomorphism follows from the definition of the opens $\tilde U$: they are identified with the opens $U$ in this case (...expand...).
 
 =--
 
-+-- {: .num_lemma}
-###### Lemma
 
++-- {: .num_lemma #SoberificationIsIndeedSober}
+###### Lemma
 
 For $(X,\tau)$ a [[topological space]], then the topological space $(S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined} is sober. 
 
 =--
 
-(e.g. [Johnstone, lemma II 1.7](#Johnstone))
+(e.g. [Johnstone 82, lemma II 1.7](#Johnstone82))
 
 +-- {: .proof}
 ###### Proof
 
 Let $S X \backslash \tilde U$ be an [[irreducible closed subspace]] of $(S X, \tau_{S X})$. We need to show that it is the [[topological closure]] of a unique element $\phi \in S X$.
 
-Observe then that also $X \backslash U$ is irreducible. To see this use [this prop.](irreducible closed subspace#OpenSubsetVersionOfClosedIrreducible), saying that irreducibility of $X \backslash U$ is equivalent to $U_1 \cap U_2 \subset U \Rightarrow (U_1 \subset U) or (U_2 \subset U)$. But if $U_1 \cap U_2 \subset U$ then also $\tilde U_1 \cap \tilde U_2 \subset \tilde U$ (because...) and hence by assumption in $\tilde U$ it follows that $\tilde U_1 \subset \tilde U$ or $\tilde U_2 \subset \tilde U$. This in turn implies $U_1 \subset U$ or $U_2 \subset U$ (??)
+Observe first that also $X \backslash U$ is irreducible. 
+
+To see this use [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible), saying that irreducibility of $X \backslash U$ is equivalent to $U_1 \cap U_2 \subset U \Rightarrow (U_1 \subset U) or (U_2 \subset U)$. But if $U_1 \cap U_2 \subset U$ then also $\tilde U_1 \cap \tilde U_2 \subset \tilde U$ (as in the [proof](#ProofOfSoberificationConstructionWellDefined) of lemma \ref{SoberificationConstructionWellDefined}) and hence by assumption on $\tilde U$ it follows that $\tilde U_1 \subset \tilde U$ or $\tilde U_2 \subset \tilde U$. By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this in turn implies $U_1 \subset U$ or $U_2 \subset U$.  In conclusion, this shows that also $X \backslash U$ is irreducible . 
+
+By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this irreducible closed subspace corresponds to a point $p \in S X$. By that same lemma, this frame homomorphism $p \colon \tau_X \to \tau_\ast$ takes the value $\emptyset$ on all those opens which are inside $U$. This means that the [[topological closure]] of this point is just $S X \backslash \tilde U$. 
+
+This shows that there exists at least one point of which $X \backslash \tilde U$ is the topological closure. It remains to see that there is no other such point.
+
+So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exists $U \in \tau_X$ with $p_1(U) \neq p_2(U)$. Equivalently this says that $\tilde U$ contains one of the two points, but not the other. This means that $(S X, \tau_{S X})$ is [[separation axiom|T0]]. By [this prop.](separation+axioms#T0InTermsOfClosureOfPoints) this is equivalent to there being no two points with the same topological closure.
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the soberification $s_X \colon (X, \tau_X) \longrigtharrow (S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
+
+$$
+  \array{
+    (X, \tau_X) &\overset{f}{\longrightarrow}& (Y, \tau_Y^{sob})
+    \\
+    {}^{\mathllap{s_X}}\downarrow & \nearrow_{\exists !}
+    \\
+    (S X , \tau_{S X})
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the construction in def. \ref{SoberificationConstruction}, we the outer part of the following square [[commuting square|commutes]]:
+
+$$
+  \array{
+    (X, \tau_X) &\overset{f}{\longrightarrow}& (Y, \tau^{sob}_Y)
+    \\
+    {}^{\mathllap{s_X}}\downarrow & \nearrow& \downarrow^{\mathrlap{s_{S X}}}
+    \\
+    (S X, \tau_{S X})
+     &\underset{S f}{\longrightarrow}&
+    (S S X, \tau_{S S X})
+  }
+  \,.
+$$
+
+By lemma \ref{SoberificationIsIndeedSober} and lemma \ref{UnitIntoSXDetectsT0AndSoberity}, the right vertical morphism $s_{S X}$ is an isomorphism (a [[homeomorphism]]), hence has an [[inverse morphism]]. This defines the diagonal morphism, which is the desired factorization.
+
+To see that this factorization is unique, consider two factorizations $\tilde f, \overline{f} \colon \colon (S X, \tau_{S X}) \to (Y, \tau_Y^{sob})$ and apply the soberification construction once more to the triangles
+
+$$
+  \array{
+    (X, \tau_X) &\overset{f}{\longrightarrow}& (Y, \tau_Y^{sob})
+    \\
+    {}^{\mathllap{s_X}}\downarrow & \nearrow_{ \tilde f, \overline{f}}
+    \\
+    (S X , \tau_{S X})
+  }
+  \phantom{AAA}
+    \mapsto
+  \phantom{AAA}
+  \array{
+    (S X, \tau_{S X}) &\overset{S f}{\longrightarrow}& (Y, \tau_Y^{sob})
+    \\
+    {}^{\simeq}\downarrow & \nearrow_{ \tilde f, \overline{f}}
+    \\
+    (S X , \tau_{S X})
+  }
+  \,.
+$$
+
+Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to find that the vertical morphism is an isomorphism, and that $\tilde f$ and $\overline{f}$ do not change under soberification, as they already map between sober spaces. But now that the left vertical morphism is an isomorphism, the commutativity of this triangle for both $\tilde f$ and $\overline{f}$ implies that $\tilde f = \overline{f}$.
+
+=--
 
 ### Enough points
 
@@ -503,7 +630,8 @@ The following non-example shows that sobriety is not a hereditary separation pro
 
 ## References
 
-* {#Johnstone} [[Peter Johnstone]], section II.1, from II.1 on in _[[Stone Spaces]]_
+* {#Johnstone82} [[Peter Johnstone]], section II.1, from II.1 on in _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+
 
 * {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], around definition IX.3.2 in _[[Sheaves in Geometry and Logic]]_
 
@@ -523,3 +651,4 @@ The following non-example shows that sobriety is not a hereditary separation pro
 
 [[!redirects topological space with enough points]]
 [[!redirects topological spaces with enough points]]
+H
