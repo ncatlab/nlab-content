@@ -10,7 +10,7 @@ The basic idea behind Borsuk's shape theory is explained in the entry on [[shape
 Any compact metric space can be embedded in the [[Hilbert cube]], so it is sufficient to consider just compact subspaces of that space.
 
 ##Some details##
-Let $s= \prod_{n=1}^\infty (\frac{1}{n},\frac{1}{n})$ be the _pseudo-interior_ of the [[Hilbert cube]], $Q= \prod_{n=1}^\infty [\frac{1}{n},\frac{1}{n}]$. 
+Let $s= \prod_{n=1}^\infty (-\frac{1}{n},\frac{1}{n})$ be the _pseudo-interior_ of the [[Hilbert cube]], $Q= \prod_{n=1}^\infty [-\frac{1}{n},\frac{1}{n}]$. 
 
 We will define (a category equivalent to) the *Borsuk Shape category*, $Shape_B$, to have compact subsets of $s$ as objects and some morphisms that need a bit of explaining.
 
