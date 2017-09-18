@@ -395,11 +395,9 @@ $$
   \underset{}{\int} \exp(i k \, S_{CS}(\nabla)) (D\nabla)
     \;\stackrel{k \to  \infty}{\longrightarrow}\;
   \underset{[\nabla_{fl}]}{\sum}
-  \left(
      \exp\left(i k S_{CS}\left(\nabla_{fl}\right)\right) 
      \exp\left(i \pi \eta\left(\nabla_{fl}\right) \right)
      T\left(g,\nabla_{fl}\right)
-  \right)
   \,.
 $$
 
