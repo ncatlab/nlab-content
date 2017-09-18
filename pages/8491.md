@@ -170,12 +170,11 @@ These kinds of extensions are known traditionally form [[current algebras]].
 
 ## Related concepts
 
-* There are other higher-ary generalizations of Poisson bracktes, see
-
-  * [[higher Poisson structure]]
+* [[higher Poisson structure]]
 
   * [[Poisson n-algebra]]
 
+  * [[Nambu bracket]]
 
 * [[current algebra]]
 
