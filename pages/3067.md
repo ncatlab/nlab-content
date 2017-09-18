@@ -1,8 +1,13 @@
+##Idea##
 A **pseudomonoid** in a [[monoidal 2-category]] is a [[categorification]] of the notion of a [[monoid object]] in a [[monoidal category]].
 
-A pseudomonoid in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]] is precisely a [[monoidal category]].  The general definition can be extracted from this special case in a straightforward way.
+##Definition## 
+A pseudomonoid in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]] is precisely a [[monoidal category]].  The general definition can be extracted from this special case in a straightforward way. The precise definition can be found in Section 3 of the paper of Day and Street referenced below. 
 
 Just as a monoid in a monoidal category $C$ can be equivalently defined as a [[monad]] in the corresponding one-object [[2-category]] $\mathbf{B}C$ (the [[delooping]] of $C$), so a pseudomonoid in a monoidal 2-category $C$ can equivalently be defined as a [[pseudomonad]] in the corresponding one-object [[3-category]] $\mathbf{B}C$.
+
+##References##
+*Ross Street and Brian Day, [Monoidal Bicategories and Hopf Algebroids](http://www.sciencedirect.com/science/article/pii/S0001870897916492). 
 
 [[!redirects pseudomonoid]]
 [[!redirects pseudomonoids]]
