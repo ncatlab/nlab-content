@@ -28,7 +28,7 @@
 
 A _topological vector bundle_ is a [[vector bundle]] in the context of _[[topology]]_: a continuously varying collection of [[vector space]] over a given [[topological space]].
 
-For more survey and motivation see at _[[vector bundle]]_. Here we discuss the details of the general concept in [[topology]]. 
+For more survey and motivation see at _[[vector bundle]]_. Here we discuss the details of the general concept in [[topology]].
 See also _[[differentiable vector bundle]]_ and _[[algebraic vector bundle]]_.
 
 
@@ -38,14 +38,14 @@ See also _[[differentiable vector bundle]]_ and _[[algebraic vector bundle]]_.
 We first give the more abstract definiton
 in terms of slice categories (def. \ref{TopologicalVectorBundleInTermsOfSliceCategories} below) and then unwind this to the traditional definition (def \ref{TopologicalVectorBundle} below).
 
-In the following 
+In the following
 
 * $k$ is either the [[topological field]]
 
   * $k = \mathbb{R}$ of [[real numbers]]
-  
+
   * or $k = \mathbb{C}$ of [[complex numbers]]
-  
+
   equipped with the [[Euclidean space|Euclidean]] [[metric topology]].
 
 * _[[vector space]]_ means _[[finite dimensional vector space]]_.
@@ -199,7 +199,7 @@ For $k = \mathbb{R}$ one speaks of _[[real vector bundles]]_.
 
 For $k = \mathbb{C}$ one speaks of _[[complex vector bundles]]_.
 
-For $n = 1$ one speaks of _[[line bundles]]_, 
+For $n = 1$ one speaks of _[[line bundles]]_,
 in particular of _[[real line bundles]]_ and of _[[complex line bundles]]_.
 
 
@@ -319,198 +319,7 @@ $$
 =--
 
 
-## Examples
-
-+-- {: .num_example}
-###### Example
-**([[cylinder]])**
-
-Let
-
-$$
-  S^1
-    =
-  \left\{
-    (x,y)
-     \;\vert\;
-     x^2 + y^2 = 1
-  \right\}
-  \;\subset\,
-  \mathbb{R}^2
-$$
-
-be the [[circle]] with its  [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/cylinder.jpg" width="190">
-</div>
-
-Then the [[trivial vector bundle]] [[real vector bundle|real]] [[line bundle]] on the circle is the the [[cylinder]]
-
-$$
-  S^1 \times \mathbb{R}
-$$
-
-
-=--
-
-+-- {: .num_example #MoebiusStrip}
-###### Example
-**([[Moebius strip]])**
-
-Let 
-
-$$
-  S^1 
-    = 
-  \left\{
-    (x,y)
-     \;\vert\;
-     x^2 + y^2 = 1
-  \right\}
-  \;\subset\,
-  \mathbb{R}^2
-$$
-
-be the [[circle]] with its  [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
-Consider the [[open cover]] 
-
-$$
-  \left\{ 
-    U_i \subset S^1
-  \right\}_{i \in \{+,-\}}
-$$
-
-whose two elements are the [[complements]] of two antipodal points
-
-$$
-  U_\pm \coloneqq S^1 \setminus \{(\pm 1,0)\}
-  \,.
-$$
-
-Define a [[Cech cohomology]] cocycle (remark \ref{CechCoycleCondition}) on this cover by
-
-$$
-  \array{
-    U_+ \cap U_- &\overset{ g_{\pm \mp} }{\longrightarrow}& GL(1,\mathbb{R})
-    \\
-    x &\mapsto& -id
-  }
-$$
-
-
-Since there are no non-trivial triple intersections, the only cocycle condition is
-
-$$
-  g_{\mp \pm} g_{\pm \mp} = g_{\pm \pm} = id
-$$
-
-which is clearly satisfied.
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/moebiusstrip.jpg" width="200">
-</div>
-
-Accordingly by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
-
-This is the _[[Moebius strip]]_
-
-=--
-
-+-- {: .num_example }
-###### Example
-**([[basic complex line bundle on the 2-sphere]])**
-
-Let 
-
-$$
-  S^2 
-    \coloneqq
-  \left\{
-    (x,y,z)
-    \;\vert\;
-    x^2 + y^2 + z^2 = 1
-  \right\}
-    \subset 
-  \mathbb{R}^3
-$$
-
-be the [[2-sphere]] with its [[Euclidean space|Euclidean]] [[subspace]] [[metric ropology]].
-Let 
-
-$$
-  \left\{ 
-    U_{i} \subset S^2
-  \right\}_{i \in \{+,-\}}
-$$
-
-be the two [[complements]] of antipodal points
-
-$$
-  U_\pm \coloneqq S^2 \setminus \{(0, 0, \pm 1)\}
-  \,.
-$$
-
-Define continuous functions
-
-$$
-  \array{
-    U_+ \cap U_-
-      &\overset{g_{\pm \mp}}{\longrightarrow}&
-    GL(1,\mathbb{C})
-    \\
-    ( \sqrt{1-z^2} cos(\alpha), \sqrt{1-z^2} sin(\alpha), z)
-      &\mapsto&
-    \exp(\pm 2\pi i \alpha)
-  }
-  \,.
-$$
-
-Since there are no non-trivial triple intersections, the only cocycle condition is
-
-$$
-  g_{\mp \pm} g_{\pm \mp} = g_{\pm \pm} = id
-$$
-
-which is clearly satisfied.
-
-The [[complex line bundle]] this defined is called the _[[basic complex line bundle on the 2-sphere]]_.
-
-=--
-
-+-- {: .num_example #ClutchingConstruction}
-###### Example
-**([[clutching construction]])**
-
-Generally, for $n \in \mathbb{N}$, $n \geq 1$ then the [[n-sphere]]
-$S^n$ may be covered by two open [[hemispheres]] intersecting in an
-[[equator]] of the form $S^{n-1} \times (-\epsilon, \epsilon)$.
-A vector bundle is then defined by specifying a single function
-
-$$
-  g_{+-}
-  \;\colon\;
-  S^{n-1} \longrightarrow GL(n,k)
-  \,.
-$$
-
-This is called the _[[clutching construction]]_ of vector bundles over [[n-spheres]].
-
-=--
-
-+-- {: .num_example}
-###### Example
-**([[tangent bundle]])**
-
-For $X$ the [[topological space]] underlying a [[differentiable manifold]] then its [[tangent bundle]]
-is a topological vector bundle over $X$.
-
-=--
-
-
-## Properties
-
-### Transition functions 
+### Transition functions
  {#TransitionFunctionsAndCechCohomology}
 
 We discuss how topological vector bundles are equivalently given by [[cocycles]] in [[Cech cohomology]]
@@ -814,6 +623,235 @@ Therefore also the union $f(O) = \underset{i \in I}{\cup} \phi_i(O_i)$ is open.
 =--
 
 
+## Examples
+ {#Examples}
+
++-- {: .num_example #TautologicalLineBundle}
+###### Example
+**([[tautological line bundle]])**
+
+For $n \in \mathbb{N}$ then the [[projective space]] $k P^n$
+carries the _[[tautological line bundle]]_ whose fiber over the $k$-line $[v] \in k P^n$
+is that $k$-line.
+
+For details see [there](tautological+line+bundle#AsAtopologicalLieBundle)
+
+=--
+
+
++-- {: .num_example}
+###### Example
+**([[cylinder]])**
+
+Let
+
+$$
+  S^1
+    =
+  \left\{
+    (x,y)
+     \;\vert\;
+     x^2 + y^2 = 1
+  \right\}
+  \;\subset\,
+  \mathbb{R}^2
+$$
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/cylinder.jpg" width="190">
+</div>
+
+be the [[circle]] with its  [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
+
+Then the [[trivial vector bundle|trivial]] [[real vector bundle|real]] [[line bundle]] on the circle is the the [[cylinder]]
+
+$$
+  S^1 \times \mathbb{R}
+$$
+
+
+=--
+
++-- {: .num_example #MoebiusStrip}
+###### Example
+**([[Moebius strip]])**
+
+Let
+
+$$
+  S^1
+    =
+  \left\{
+    (x,y)
+     \;\vert\;
+     x^2 + y^2 = 1
+  \right\}
+  \;\subset\,
+  \mathbb{R}^2
+$$
+
+be the [[circle]] with its  [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
+Consider the [[open cover]]
+
+$$
+  \left\{
+    U_i \subset S^1
+  \right\}_{i \in \{+,-\}}
+$$
+
+whose two elements are the [[complements]] of two antipodal points
+
+$$
+  U_\pm \coloneqq S^1 \setminus \{(\pm 1,0)\}
+  \,.
+$$
+
+Define a [[Cech cohomology]] cocycle (remark \ref{CechCoycleCondition}) on this cover by
+
+$$
+  \array{
+    U_+ \cap U_- &\overset{ g_{\pm \mp} }{\longrightarrow}& GL(1,\mathbb{R})
+    \\
+    x &\mapsto& -id
+  }
+$$
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/moebiusstrip.jpg" width="200">
+</div>
+
+Since there are no non-trivial triple intersections, the only cocycle condition is
+
+$$
+  g_{\mp \pm} g_{\pm \mp} = g_{\pm \pm} = id
+$$
+
+which is clearly satisfied.
+
+
+Accordingly by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
+
+This is the _[[Moebius strip]]_
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[basic complex line bundle on the 2-sphere]])**
+
+Let
+
+$$
+  S^2
+    \coloneqq
+  \left\{
+    (x,y,z)
+    \;\vert\;
+    x^2 + y^2 + z^2 = 1
+  \right\}
+    \subset
+  \mathbb{R}^3
+$$
+
+be the [[2-sphere]] with its [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
+Let
+
+$$
+  \left\{
+    U_{i} \subset S^2
+  \right\}_{i \in \{+,-\}}
+$$
+
+be the two [[complements]] of antipodal points
+
+$$
+  U_\pm \coloneqq S^2 \setminus \{(0, 0, \pm 1)\}
+  \,.
+$$
+
+Define continuous functions
+
+$$
+  \array{
+    U_+ \cap U_-
+      &\overset{g_{\pm \mp}}{\longrightarrow}&
+    GL(1,\mathbb{C})
+    \\
+    ( \sqrt{1-z^2} \, cos(\alpha), \sqrt{1-z^2} \, sin(\alpha), z)
+      &\mapsto&
+    \exp(\pm 2\pi i \alpha)
+  }
+  \,.
+$$
+
+Since there are no non-trivial triple intersections, the only cocycle condition is
+
+$$
+  g_{\mp \pm} g_{\pm \mp} = g_{\pm \pm} = id
+$$
+
+which is clearly satisfied.
+
+The [[complex line bundle]] this defined is called the _[[basic complex line bundle on the 2-sphere]]_.
+
+With the 2-sphere identified with the [[complex projective space]] $\mathbb{C} P^1$
+(the [[Riemann sphere]]), 
+the basic complex line bundle is the [[tautological line bundle]] (example \ref{TautologicalLineBundle}) on $\mathbb{C}P^1$.
+
+=--
+
++-- {: .num_example #ClutchingConstruction}
+###### Example
+**([[clutching construction]])**
+
+Generally, for $n \in \mathbb{N}$, $n \geq 1$ then the [[n-sphere]]
+$S^n$ may be covered by two open [[hemispheres]] intersecting in an
+[[equator]] of the form $S^{n-1} \times (-\epsilon, \epsilon)$.
+A vector bundle is then defined by specifying a single function
+
+$$
+  g_{+-}
+  \;\colon\;
+  S^{n-1} \longrightarrow GL(n,k)
+  \,.
+$$
+
+This is called the _[[clutching construction]]_ of vector bundles over [[n-spheres]].
+
+=--
+
+
++-- {: .num_example}
+###### Example
+**([[tangent bundle]])**
+
+For $X$ the [[topological space]] underlyithe ng a [[differentiable manifold]] then its [[tangent bundle]]
+$T X$ is a [[real vector bundle]] over $X$ whose [[rank of a vector bundle|rank]] is the [[dimension]] of $X$.
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[normal bundle]])**
+
+For $i X \hookrightarrow Y$ an [[embedding of differentiable manifolds]], then
+the _[[normal bundle]]_
+
+$$
+  N_i X \coloneqq T Y/T X
+$$
+
+is the real vector bundle over $Y$ whose [[fiber]] at $x \in X$ is the [[quotient vector space]]
+$(N_i X)_x \coloneqq T_{i(x)} Y / T_x X$.
+
+=--
+
+
+## Properties
+
+
+
 ### Basic properties
  {#BasicProperties}
 
@@ -921,8 +959,9 @@ linearity the functions $\tilde h_i$ in fact take values in the [[general linear
 
 $$
   GL(n,k) \subset Maps(k^n, k^n)
-  \,.
 $$
+
+and this inclusion is a [[homeomorphism]] onto its image (by [this prop.](general+linear+group#AsSubspaceOfTheMappingSpace)).
 
 Since passing to [[inverse matrices]]
 
@@ -1496,8 +1535,7 @@ Textbook accounts include
 
 * Glenys Luke, Alexander S. Mishchenko, _Vector bundles and their applications_, Math. and its Appl. __447__, Kluwer 1998. viii+254 pp. [MR99m:55019](http://www.ams.org/mathscinet-getitem?mr=99m:55019)
 
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-CohomologyInvariant]]_, 
-  Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
+* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 Discussion with an eye towards [[topological K-theory]] is in
 
