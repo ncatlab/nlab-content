@@ -21,8 +21,8 @@
 
 The **Elementary Theory of the Category of Sets** ([Lawvere 65](#Lawvere65)), or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]].  Supplemented with an axiomatization for categories it could be viewed as an approach to [[foundations]].[^Law]
 
-[^Law]: It appears that Lawvere had intended ETCS more as a practical tool taking over the role of material sets in real mathematics i.e. a lightweight axiomatics providing _sets for mathematics_. Given his views on foundations (cf. [[practical foundations of mathematics]]) this claim is somewhat delicate to establish definitely but in general
-foundational loads lie rather with his axiomatics [[ETCC]] for the [[CAT|category of category]] and in the context of his theory of [[cohesion]] he occasionally stresses the point that the base topos of structureless sets could actually be viewed as derived from within the cohesive [[gros topos]] thereby turning 'foundations' upside down. In any case, it seems useful to view ETCS not only as a competitor to ZFC foundations but also from a more relaxed vantage point as a regional axiomatics for (naive) set theory akin to e.g. [[Lawvere theories]] as categorified [[universal algebra]], that makes manifest the _structural side_ present in set theory since Cantor as suggested in ([Lawvere 94](#law94)).
+[^Law]: It appears that Lawvere had intended ETCS more as a practical tool taking over the role of [[material set theory|material sets]] in real mathematics i.e. a lightweight axiomatics providing _sets for mathematics_. Given his views on foundations (cf. [[practical foundations of mathematics]]) this claim is somewhat delicate to establish definitely but, in general,
+foundational loads lie rather with his axiomatics [[ETCC]] for the [[CAT|category of category]] and in the context of his theory of [[cohesion]] he occasionally stresses the point that the base topos of structureless sets could actually be viewed as derived from within the cohesive [[gros topos]] thereby turning 'foundations' upside down. In any case, it seems useful to view ETCS not only as a competitor to ZFC foundations but also from a more relaxed angle as a regional axiomatics for (naive) set theory akin to e.g. [[Lawvere theories]] as categorified [[universal algebra]], that makes manifest the [[structural set theory|structural side]] present in set theory since Cantor as suggested in ([Lawvere 94](#law94)).
 
 More in detail, ETCS is a [[first-order theory]] axiomatizing [[elementary toposes]] and specifically those which are [[well-pointed topos|well-pointed]], have a [[natural numbers object]] and satisfy the [[axiom of choice]]. The idea is, first of all, that traditional mathematics naturally takes place "[[internal logic|inside]]" such a topos, and second that by varying the axioms much of mathematics may be done inside more general toposes: for instance omitting the [[well-pointed topos|well-pointedness]] and the [[axiom of choice]] but adding the [[Kock-Lawvere axiom]] gives a [[smooth topos]] inside which [[synthetic differential geometry]] takes place.
 
@@ -78,6 +78,8 @@ $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] wi
 * [[structural set theory]]
 * [[ZFC|Zermelo Fraenkel set theory]]
 * [[ETCC]]
+* [[practical foundations of mathematics]]
+* [[foundations of mathematics]]
 
 ## References
 
