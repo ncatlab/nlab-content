@@ -233,3 +233,5 @@ As a [[cohesive topos]] smooth spaces are discuss in sections 1.2, 1.3 and 3.3 i
 
 [[!redirects smooth set]]
 [[!redirects smooth sets]]
+
+[[!redirects SmoothSet]]
