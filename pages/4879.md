@@ -29,7 +29,7 @@ An [[internalization|internalized]] version of this definition can be given in a
 
 Back in the 1960s, J. Gray characterized fibrations as the functors $p\colon E\to B$ 
 where for every $a \in E$ the [[slice functor]] $p/a \colon E/a \to B/p(a)$ has a [[right
-adjoint]] [[right inverse]] $c_a$. One avoids evilness if one just requires that $c_a$ is
+adjoint]] [[right inverse]] $c_a$. One avoids violating the [[principle of equivalence]] if one just requires that $c_a$ is
 [[fully faithful functor|full and faithful]], i.e. the [[counit of the adjunction]] $p/a \dashv c_a$ is an isomorphism. Explicating this condition in elementary terms, one arrives at the above definition.
 
 A simpler version of this characterization is the following.
@@ -85,13 +85,13 @@ Thus, the existence of a right adjoint to $i$ means precisely that for each morp
 
 ### Other definitions
 
-Most other characterizations of Grothendieck fibrations can also be given in a "non-evil" version to characterize Street fibrations.
+Most other characterizations of Grothendieck fibrations can also be given in a way which does not violate the [[principle of equivalence]] to characterize Street fibrations.
 
 ## Comparison to Grothendieck fibrations
 
 Every Grothendieck fibration is a Street fibration, as is every [[equivalence of categories]] (the latter are not in general Grothendieck fibrations).  Since Street fibrations are closed under composition, any functor equivalent to a Street fibration is also a Street fibration (this is the "covariance" property).  As remarked above, however, almost all functors in [[Cat]] which one wants to treat as "fibrations" are actually Grothendieck fibrations.  Moreover, in $Cat$ every Street fibration is the composite of an equivalence with a Grothendieck fibration: the latter can be taken to be a [[fibrant replacement]] of it in the [[canonical model structure]] on Cat.  (In fact, a Street fibration is a Grothendieck fibration precisely when it is also a [[isofibration]].)
 
-For these reasons, Street fibrations in $Cat$ are little-studied.  The fact that they exist, and that any Street fibration is equivalent to a Grothendieck one, can be useful in assuaging philosophical worries about the "[[evil|evilness]]" of the notion of Grothendieck fibration, but in practice in $Cat$ one usually wants to use Grothendieck fibrations.
+For these reasons, Street fibrations in $Cat$ are little-studied.  The fact that they exist, and that any Street fibration is equivalent to a Grothendieck one, can be useful in assuaging philosophical worries about violation of the [[principle of equivalence]] in the notion of Grothendieck fibration, but in practice in $Cat$ one usually wants to use Grothendieck fibrations.
 
 However, when internalizing in other 2-categories, covariance becomes more important.  This is most obvious when the 2-category in which one wishes to internalize is only a weak 2-category (a [[bicategory]]), in which it does not even make much sense to internalize the notion of Grothendieck fibration.  (This is even the case in [[Cat]] if we define it using [[anafunctors]], as is often important to do in the absence of the [[axiom of choice]].)  However, even when internalizing in a [[strict 2-category]], if the strict 2-category itself is "only defined up to [[biequivalence]]," then one is again compelled to use internal Street fibrations, since they are "covariant under biequivalence" of the containing bicategory, whereas Grothendieck fibrations are not.
 
