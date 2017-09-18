@@ -76,6 +76,10 @@ current version generated using Graphviz from [[lctvs dot source]]):
 
 * [[stereotype space]]
 
+## Related concepts
+
+* [[topology of uniform convergence]]
+
 
 ## References
 
