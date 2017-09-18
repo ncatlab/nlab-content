@@ -42,11 +42,13 @@ Some examples are discussed at
 
 ## References
 
-Review include
+Review includes
 
 * Martin Weidner, _Gauged Supergravities in Various Spacetime Dimensions_, Fortsch.Phys.55:843-945,2007 ([arXiv:hep-th/0702084](http://arxiv.org/abs/hep-th/0702084))
 
 * {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
+
+* Mario Trigiante, _Gauged Supergravities_ ([arXiv:1609.09745](https://arxiv.org/abs/1609.09745))
 
 Discussion of the origin in [[KK-compactification]] of [[11-dimensional supergravity]]/[[M-theory]] is in
 
