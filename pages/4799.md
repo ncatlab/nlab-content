@@ -45,6 +45,9 @@ If we categorify *and* oidify, then we get the concept of [[2-category]].  Again
 
 An $n$-[[n-category|category]] has $n$ kinds of opposites.  See (or write) [[opposite n-category]].  A [[monoidal n-category]] has $n + 1$ kinds of opposites.
 
+## Related concepts
+
+* under [[delooping]] a [[monoid]] to a pointed one-object [[category]], passing to the opposite monoid corresponds to passing to the [[opposite category]].
 
 [[!redirects opposite magma]]
 [[!redirects opposite magmas]]
