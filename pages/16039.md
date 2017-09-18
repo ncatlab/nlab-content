@@ -80,3 +80,6 @@ This means that we are choosing (for $n=1$), for every classical derived loop $g
 $$L^d_{GL_n}X\leftarrow L^{dc}_{GL_n}(X)\to L^c_{GL_n}(X)$$
 that may be used to define a correspondence between modules on the generalized higher derived loop space and on the classical derived loop space.
 
+## Related entry
+
+[[overconvergent derived loop spaces]]
