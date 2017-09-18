@@ -63,7 +63,7 @@ A collection of functions $\mathcal{U} = \{u_i : X \to [0,1]\}$ such that every 
 Let $\{u_i\}_J$ be a non-point finite partition of unity. Then there is a locally finite partition of unity $\{v_i\}_{i\in J}$ such that the induced cover of the latter is a refinement of the induced cover of the former.
 =--
 
-(For a proof, see p.354 of Dold's Lectures on algebraic topology.)
+(For a proof, see p.354 of Dold's Lectures on algebraic topology. [Google books link to page 354](https://books.google.com.au/books?id=4AmzD9XhGDkC&lpg=PA354&vq=locally%20finite%20oartition%20unity&pg=PA354#v=onepage&q&f=false), which may or may not be visible)
 
 This implies that (loc. finite) [[numerable covers]] are cofinal in induced covers arising from collections of functions as in the definition. In particular, given the [[Milnor classifying space]] $\mathcal{B}^M G$ of a [[topological group]] $G$, which comes with a countable family of 'coordinate functions' $\mathcal{B}^M G \to [0,1]$, has a numerable cover. This is shown by Dold to be a trivialising cover for the universal bundle constructed by Milnor, and so the universal bundle is [[numerable bundle|numerable]].
 
