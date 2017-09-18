@@ -353,7 +353,7 @@ where $[-,-]$ is the [[internal hom]] in the [[slice (∞,1)-topos]] $\mathbf{H}
 
 For $V \in Act(G)$ any other representation, there is a canonical [[∞-action]] of $Hecke(E,i)$ on $\underset{\mathbf{B}G}{\prod} \left[\underset{\mathbf{B}i}{\sum} E , V \right]$. If here $E$ is the trivial representation then by adjointness this is the [[invariants]] $V^G$ of $V$ and hence the Hecke algebra acts on the invariants. (See for instance ([Woit, def. 2](#Woit))). This is sometimes called the _Hecke algebra action on the Iwahori fixed vectors_ ([e.g. here, p. 9](#http://sporadic.stanford.edu/bump/bbf.pdf))
 
-### Zuckerman functors: Coinduction on Harish-Chanfra modules
+### Zuckerman functors: Coinduction on Harish-Chandra modules
 
 Coinduction on [[Harish-Chandra modules]] is referred to as
 _[[Zuckerman induction]]_. See there for more details.
