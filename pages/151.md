@@ -111,9 +111,6 @@ Again, adjunctions and specifically [[dual adjunctions]] ("[[Galois connections]
 
 
 
-
-
-
 ## Dualizing objects
 
 Of particular interest are concrete dualities between [[concrete categories]] $C, D$, i.e. categories equipped with faithful functors
@@ -132,6 +129,8 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 * [[duality in physics]]
 
 * [[fixed point of an adjunction]]
+
+* [[mysterious duality]]
 
 ## References
 
