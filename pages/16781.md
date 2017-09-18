@@ -15,22 +15,57 @@
 
 ## Idea
 
-The full _octahedral group_, a [[finite group]], is the group of [[symmetries]] of an [[octahedron]].
+The _octahedral group_, a [[finite group]], is the group of [[symmetries]] of an [[octahedron]].
 
+As a symmetry group of one of the [[Platonic solids]], the octahedral group participates in one of the three exceptional entries cases of the _ADE pattern_:
+
+[[!include ADE -- table]]
+
+
+More in detail, there are variants of the octahedral group corresponding to the stages of the [Whitehead tower of O(3)](Whitehead+tower#OfTheOrthogonalGroup):
+
+* the full octahedral group is the [[subgroup]] of [[orthogonal group|O(3)]] 
+
+  $$
+    O_h \hookrightarrow O(3)
+  $$
+
+  which is the [[stabilizer subgroup|stabilizer]] of the standard equistant embedding of the [[octahedron]] into [[Cartesian space]] $\mathbb{R}^3$;
+
+* the _rotational octahedral group_ $O \hookrightarrow SO(3)$ is the restriction to [[orientation]]-preserving symmetries, hence to [[special orthogonal group|SO(3)]]; this is [[isomorphism|isomorphic]] to the [[symmetric group]] $S_4$;
+
+* finally the _binary octahedral group_ is the [[double cover]], hence the lift of $I$ to [[spin group|Spin(3)]]$\simeq$ [[special unitary group|SU(2)]];
+
+* next there is a [[string 2-group]] lift $String_{2O} \hookrightarrow String_{SU(2)}$ of the octahedral group ([Epa 10](#Epa10), [Epa-Ganter 16](#EpaGanter16))
+
+$$
+  \array{
+     String_{2O} &\hookrightarrow& String_{SU(2)}
+     \\
+     \downarrow && \downarrow
+     \\
+     2 O &\hookrightarrow & Spin(3) \simeq SU(2)
+     \\
+     \downarrow && \downarrow
+     \\
+     O \simeq S_4 &\hookrightarrow&  SO(3)
+     \\
+     \downarrow && \downarrow
+     \\
+     O_h \simeq S_4 \times \mathbb{Z}/2 &\hookrightarrow & O(3)
+  }
+$$
 
 ## Properties
 
 ### Isomorphisms
 
-The [[subgroup]] of the octahedral group on the [[orientation]]-preserving symmetries is [[isomorphism|isomorphic]] to the [[symmetric group]] $S_4$. (This also happens to be the full [[tetrahedral group]].)
+The [[subgroup]] of the octahedral group on the [[orientation]]-preserving symmetries is [[isomorphism|isomorphic]] to the [[symmetric group]] $S_4$. This also happens to be the full [[tetrahedral group]].
 
 ### Group cohomology
 
 The [[group cohomology]] of the orientation-preserving octahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
 
-### As part of the ADE pattern
-
-[[!include ADE -- table]]
 
 ## References
 
@@ -40,5 +75,13 @@ The [[group cohomology]] of the orientation-preserving octahedral group is discu
 
 * {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
 
+* {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
+
+* {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, in preparation
+
+
 
 [[!redirects octahedral groups]]
+
+[[!redirects octahedral symmetry]]
+[[!redirects octahedral symmetry group]]
