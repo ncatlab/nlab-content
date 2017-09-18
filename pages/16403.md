@@ -1282,7 +1282,7 @@ A standard model for general homotopy types is given by [[topological spaces]]. 
 
 * _[Topological and abstract homotopy theory](#TopologicalAndAbstractHomotopyTheory)_
 
-Similarly there is a [[model category]] that reflects the homotopy theory of [[Kan complexes]], called _[[simplicial homotopy theory]]_. 
+Similarly there is a [[model category]] that reflects the homotopy theory of [[Kan complexes]], called _[[simplicial homotopy theory]]_.
 This we look into below in
 
 * _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
@@ -1370,12 +1370,11 @@ For $X$ a [[set]], it becomes a groupoid by taking $X$ to be the set of objects 
 $$
   \left(
     X
-    \stackrel
-    {\overset{id}{\longrightarrow}}
-    {
-      \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
-    }
-   X
+     \underoverset
+        {\underset{id}{\longrightarrow}}
+        {\overset{id}{\longrightarrow}}
+        { \overset{id}{\longleftarrow} }
+     X
   \right)
   \,.
 $$
@@ -10357,8 +10356,8 @@ B)$ is a filtered colimit of direct sums of torsion groups. This is itself a tor
 
 Above we saw some first models for [[homotopy types]] as well as some basic constructions on them.
 Another model for [[homotopy types]] are [[topological spaces]].
-In order to turn these models into a full blown _[[homotopy theory]]_ one needs some 
-further tools. One of these toolsets is _[[model category]]_ theory. Here we introduce the 
+In order to turn these models into a full blown _[[homotopy theory]]_ one needs some
+further tools. One of these toolsets is _[[model category]]_ theory. Here we introduce the
 classical homotopy theory of topological spaces and along with it the concept of [[model categories]].
 
 This section is at _[[Introduction to Stable homotopy theory -- P|Introduction to classical homotopy theory]]_ ([[IntroductionToStableHomotopyTheory-P-161227.pdf:file]]).
