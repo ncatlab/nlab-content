@@ -94,7 +94,7 @@ $$
 
 is called [[super Minkowski spacetime]] (equipped with its [[super translation Lie algebra]] structure).
 
-From this, a super-Cartan geometry is defined in direct analogy to the Cartan formulation of Riemannian geometry
+From this, a [[super-Cartan geometry]] is defined in direct analogy to the Cartan formulation of Riemannian geometry
 
 
 | ([[higher Cartan geometry|higher]]-)[[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
@@ -343,6 +343,10 @@ in  ([Dalianis-Farakos 15](#DalianisFarakos15)) it is argued that the [[Starobin
 ## References
 
 ### General
+
+An early survey is 
+
+* {#Nieuwenhuizen81} [[Peter van Nieuwenhuizen]], _Supergravity_, Physics Reports, Vol. 68, p. 189 - 398, 1981
 
 Textbook accounts include
 
