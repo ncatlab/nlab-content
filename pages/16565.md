@@ -272,7 +272,7 @@ The canonical [[precomposition action|precomposition]] [[∞-action]] of the [[a
 Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$ there are the following concepts in [[schreiber:Higher geometric prequantum theory|higher geometric prequantum theory]].
 
 
-1. The **[[quantomorphism ∞-group]]**is the [[stabilizer ∞-group]] of $\nabla \in \mathbb{G}\mathbf{Conn}(X)$, def. \ref{DifferentialConcretification}, under the $\mathbf{Aut}(X)$-action of \ref{PrecompositionActionOnGConn};
+1. The **[[quantomorphism ∞-group]]** is the [[stabilizer ∞-group]] of $\nabla \in \mathbb{G}\mathbf{Conn}(X)$, def. \ref{DifferentialConcretification}, under the $\mathbf{Aut}(X)$-action of \ref{PrecompositionActionOnGConn};
 
    $$
      \mathbf{QuantMorph}(X,\nabla)
@@ -316,7 +316,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
 +-- {: .num_example }
 ###### Example
 
-For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mathbf{H}$ a [[smooth manifold]] and for $\nabla$ a [[prequantum line bundle]] on $X$, then $\mathbf{QuantMorph}(X,\nabla)$ is Soriau's [[quantomorphism group]] covering the [[Hamiltonian diffeomorphism]] group. In the case that $(X, F_\nabla)$ is a [[symplectic vector space]] regarded as a linear symplectic manifold with Hamiltonian action on itself by translation, then $\mathbf{Heis}_{V}(X,\nabla)$ is the traditional [[Heisenberg group]].
+For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mathbf{H}$ a [[smooth manifold]] and for $\nabla$ a [[prequantum line bundle]] on $X$, then $\mathbf{QuantMorph}(X,\nabla)$ is Soriau's [[quantomorphism group]] covering the [[Hamiltonian diffeomorphism]] group. In the case that $(X, F_\nabla)$ is a [[symplectic vector space]] $X = V$ regarded as a linear symplectic manifold with Hamiltonian action on itself by translation, then $\mathbf{Heis}_{V}(X,\nabla)$ is the traditional [[Heisenberg group]].
 
 =--
 
@@ -324,7 +324,7 @@ For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mat
 +-- {: .num_remark }
 ###### Remark
 
-Since $\mathbf{HamSymp}(X,\nabla)\hookrightarrow \mathbf{Aut}(X)$ is by construction a [[1-monomorphism]], then given any $G$-action $\rho \colon G \longrightarrow \mathbf{Aut}(X)$ on $X$, not necessarily Hamiltonian, then the homotopy pullback $\rho^\ast \mathbf{QuantMorph}(X,\nabla)$ is the Heisenberg ∞-group of the maximal sub-$\infty$-group of $G$ which does act via Hamiltonian symplectomorphisms. Therefore we will also write $\mathbf{Heis}_G(X,\nabla)$ in this case.
+Since $\mathbf{HamSymp}(X,\nabla)\hookrightarrow \mathbf{Aut}(X)$ is by construction a [[1-monomorphism]], given any $G$-action $\rho \colon G \longrightarrow \mathbf{Aut}(X)$ on $X$, not necessarily Hamiltonian, then the homotopy pullback $\rho^\ast \mathbf{QuantMorph}(X,\nabla)$ is the Heisenberg ∞-group of the maximal sub-$\infty$-group of $G$ which does act via Hamiltonian symplectomorphisms. Therefore we will also write $\mathbf{Heis}_G(X,\nabla)$ in this case.
 
 
 =--
@@ -334,7 +334,7 @@ The following is the refinement of the [[Kostant-Souriau extension]] to [[higher
 +-- {: .num_prop #TheQuantomorphismGroupExtension}
 ###### Proposition
 
-Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, the there is a [[homotopy fiber sequence]] of the form
+Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, there is a [[homotopy fiber sequence]] of the form
 
 1. if $\mathbb{G}$ is [[0-truncated]] then
 
@@ -365,7 +365,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
         \\
         && \mathbf{HamSymp}(X,\nabla)
         &\stackrel{\mathbf{KS}}{\longrightarrow}&
-        \mathbf{B} ((\Omega \mathbb{G})\mathbf{Conn}(X))
+        \mathbf{B} ((\Omega \mathbb{G})\mathbf{FlatConn}(X))
     }
    $$
 
@@ -378,7 +378,7 @@ exhibiting the [[quantomorphism ∞-group]] as an [[∞-group extension]] of the
 +-- {: .num_example }
 ###### Example
 
-In $\mathbf{H} = $ [[Smooth∞Grpd]], let $\mathbb{G} = \mathbf{B}^p U(1)$ be the [[circle n-group|circle (p+2)-group]] and let $X \in SmoothMfd \hookrightarrow Smooth \infty Grpd$ be [[n-connected topological space|(p+1)-connected]], then $(\mathbf{B}^p U(1))\mathbf{FlatConn}(X)\simeq \mathbf{B}^{p+1}U(1)$. Hence here prop. \ref{TheQuantomorphismGroupExtension} gives
+In $\mathbf{H} = $ [[Smooth∞Grpd]], let $\mathbb{G} = \mathbf{B}^p U(1)$ be the [[circle n-group|circle (p+1)-group]] and let $X \in SmoothMfd \hookrightarrow Smooth \infty Grpd$ be [[n-connected topological space|p-connected]], then $(\Omega\mathbf{B}^p U(1))\mathbf{FlatConn}(X)\simeq \mathbf{B}^{p}U(1)$. Hence here prop. \ref{TheQuantomorphismGroupExtension} gives
 
    $$
      \array{
@@ -400,7 +400,7 @@ In $\mathbf{H} = $ [[Smooth∞Grpd]], let $\mathbb{G} = \mathbf{B}^p U(1)$ be th
 +-- {: .num_cor #KSExtensionForHeis}
 ###### Corollary
 
-Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, and for $\rho \colon G \longrightarrow$ a $G$-[[Hamiltonian action]], then there is a [[homotopy fiber sequence]]
+Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, and for $\rho \colon G \longrightarrow \mathbf{HamSymp}(X,\nabla)$ a $G$-[[Hamiltonian action]], then there is a [[homotopy fiber sequence]]
 
 1. if $\mathbb{G}$ is [[0-truncated]] then
 
@@ -412,7 +412,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
         \\
         && \downarrow
         \\
-        && \mathbf{HamSymp}(X,\nabla)
+        && G
         &\stackrel{\mathbf{KS}(\rho)}{\longrightarrow}&
         \mathbf{B} (\mathbb{G}\mathbf{ConstFunct}(X))
     }
@@ -429,13 +429,13 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
         \\
         && \downarrow
         \\
-        && \mathbf{HamSymp}(X,\nabla)
+        && G
         &\stackrel{\mathbf{KS}(\rho)}{\longrightarrow}&
-        \mathbf{B} ((\Omega \mathbb{G})\mathbf{Conn}(X))
+        \mathbf{B} ((\Omega \mathbb{G})\mathbf{FlatConn}(X))
     }
    $$
 
-exhibiting the [[Heisenberg ∞-group]] as an [[∞-group extension]] of the [[Hamiltonian symplectomorphism ∞-group]] by the [[moduli stack]] of $\Omega \mathbb{G}-$[[flat ∞-connections]], classified by a [[cocycle]] $\mathbf{KS}(\rho)$.
+exhibiting the [[Heisenberg ∞-group]] as an [[∞-group extension]] of the $G$ by the [[moduli stack]] of $\Omega \mathbb{G}-$[[flat ∞-connections]], classified by a [[cocycle]] $\mathbf{KS}(\rho)$.
 
 
 The class of the [[cocycle]] $\mathbf{KS}(\rho)$ is the [[obstruction]] to prequantizing $\rho$ to a [[moment map]] (the _[[classical anomaly]]_ of $\rho$); and the the [[Heisenberg ∞-group]] [[∞-group extension|extension]] of $G$ is the universal cancellation of this anomaly.
@@ -453,7 +453,7 @@ The concept of extending a closed [[differential form]] defined on a [[Cartesian
 +-- {: .num_prop #FunctionsOnTotalSpacesAreSectionsOfFunctionBundle}
 ###### Proposition
 
-Given a a $V$-[[fiber ∞-bundle]] $E$ over $X$, def. \ref{FiberBundle}, and given any [[coefficient]] $A$, there is a [[natural equivalence]] beween 
+Given a $V$-[[fiber ∞-bundle]] $E$ over $X$, def. \ref{FiberBundle}, and given any [[coefficient]] $A$, there is a [[natural equivalence]] beween 
 
 
 * morphisms $E \longrightarrow A$;
@@ -465,7 +465,7 @@ Given a a $V$-[[fiber ∞-bundle]] $E$ over $X$, def. \ref{FiberBundle}, and giv
 +-- {: .num_defn #DefiniteSection}
 ###### Definition
 
-Given an $F$-[[fiber ∞-bundle]] $E$ over $X$, and a [[global element]] $x\colon \ast \to F$ then a [[section]] $\sigma$ of $E$ is _definite on $x$ if
+Given an $V$-[[fiber ∞-bundle]] $E$ over $X$, and a [[global element]] $x\colon \ast \to V$ then a [[section]] $\sigma$ of $E$ is _definite on $x$ if
 
 $$
   \array{
@@ -473,11 +473,11 @@ $$
     \\
     & \nearrow & \downarrow^{\mathrlap{x}}
     \\
-    X & \stackrel{\sigma}{\longrightarrow} & F/\mathbf{Aut}(F)
+    X & \stackrel{\sigma}{\longrightarrow} & V/\mathbf{Aut}(V)
     \\
     & \searrow & \downarrow
     \\
-    && \mathbf{B}\mathbf{Aut}(F)
+    && \mathbf{B}\mathbf{Aut}(V)
   }
 $$
 
@@ -486,7 +486,7 @@ $$
 +-- {: .num_prop #DefiniteSectionsAndReductionOfStructureGroup}
 ###### Proposition
 
-Choices of sections definite on $x$ are equivalent to [[reduction of structure groups|reductions of the structure group]], def. \ref{ReductionLiftOfStructureGroup}, along the [[stabilizer group]] map $Stab_\mathbf{Aut}(V)(x)\longrightarrow \mathbf{Aut}(V)$.
+Choices of sections definite on $x$ are equivalent to [[reduction of structure groups|reductions of the structure group]], def. \ref{ReductionLiftOfStructureGroup}, along the [[stabilizer group]] map $Stab_\mathbf{Aut(V)}(x)\longrightarrow \mathbf{Aut}(V)$.
 
 
 =--
@@ -512,7 +512,7 @@ For $V$ an [[∞-group]], $\mathbf{L}\colon V \longrightarrow \mathbf{B}\mathbb{
 
   for $\mathbb{D}^V$ [[generalized the|the]] [[infinitesimal disk]] in $V$;
 
-1. an $\mathbf{L}^X \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$ such that its pullback $T_{inf} X \to X \stackrel{\mathbf{L}^X}{\longrightarrow} \mathbf{B} \mathb{G}_{conn}$ to the [[infinitesimal disk bundle]] of $X$ is definite, def. \ref{DefiniteParameterization}, on $\mathbf{L}|_{\mathbb{D}^V} \in \mathbb{G}\mathbf{Conn}(\mathbb{D}^V)$, def. \ref{DifferentialConcretification}.
+1. an $\mathbf{L}^X \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$ such that its pullback $T_{inf} X \to X \stackrel{\mathbf{L}^X}{\longrightarrow} \mathbf{B} \mathbb{G}_{conn}$ to the [[infinitesimal disk bundle]] of $X$ is definite, def. \ref{DefiniteParameterization}, on $\mathbf{L}|_{\mathbb{D}^V} \in \mathbb{G}\mathbf{Conn}(\mathbb{D}^V)$, def. \ref{DifferentialConcretification}.
 
 Since, according to prop. \ref{DefiniteSectionsAndReductionOfStructureGroup}, the second item in def. \ref{DefiniteGlobalization} implies a [[reduction of the structure group|lift/reduction of the structure group]] to $\mathbf{QuantMorph}(\mathbf{L}|_{\mathbb{D}^V})$, in total this requires a reduction/lift to the [[Heisenberg ∞-group]]
 
@@ -537,6 +537,7 @@ Let $\mathbf{H} = $ [[Smooth∞Grpd]].
 
 1. For $\mathbf{L}\colon T^\ast \mathbb{R}^n \to \mathbf{B}U(1)_{conn}$ the [[Liouville-Poincaré 1-form]] $\theta = \sum_{i = 1}^n p_i d q^i$ (regarded as a [[principal connection]] on the trivial [[circle bundle]]), then a definite globalization of $\mathbf{L}$ is a [[symplectic manifold]] equipped with a [[prequantum line bundle]].
 
+
 1. for $\mathbf{L}\colon \mathbb{R}^7 \longrightarrow \mathbf{B}^3 U(1)_{conn}$ a potential for the [[associative 3-form]], then a definite globalization is a manifold with [[G2-structure]] $(X,\omega_3)$ equipped with a [[bundle gerbe with connection]] whose 3-form curvature is $\omega_3$.
 
 =--
@@ -551,7 +552,7 @@ This means that a choice of definite globalization of $\mathbf{L}_{string}$ over
 
 The condition that this [[G-structure]] be first-order integrable with respect to the canonical left-invariant framing of [[super Minkowski spacetime]] then means that the [[supertorsion]] of this orthogonal structure vanishes.
 
-For $d = 1$ this is the [[torsion constraint of supergravity]]. By ([Howe 97](torsion+constraints+in+supergravity#Howe97)) this implies that the above graviton and gravitino field satisfy the [[Einstein equations]] for bosonic backgrounds of [[11-dimensional supergravity]].
+For $d = 1$ this is the [[torsion constraint of supergravity]]. By ([Candiello-Lechner 93](torsion+constraints+in+supergravity#CandielloLechner93), [Howe 97](torsion+constraints+in+supergravity#Howe97)) this implies that the above graviton and gravitino field satisfy the [[Einstein equations]] for bosonic backgrounds of [[11-dimensional supergravity]].
 
 This in turn implies in particular that the [[curvature]] of the WZW term $\mathbf{L}$ is the fermionic component of the [[supergravity C-field]] [[field strength]]. This finally means that $\mathbf{L}$ itself is a consistent choice of [[prequantization]] of this hence a genuinely globally defined WZW term for the [[Green-Schwarz sigma model]] for the [[M2-brane]] with [[target space]] $X$.
 
@@ -562,7 +563,7 @@ This in turn implies in particular that the [[curvature]] of the WZW term $\math
 
 ### BPS Charges
 
-Once a $V$-manifold $X$ is equipped with a definite globalization $\mathbf{L}^X$ of a WZW term $\mathbf{L}$, according to \ref{DefiniteGlobalization}, and hence also with a [[G-structure]] $\mathbf{g}$ for $G$ the suitable [[homotopy stabilizer group]] of $\mathbf{L}$ on [[infinitesimal disks]], then the [[automorphism ∞-group]] $\mathbf{Aut}(X)$ is naturally "[[spontaneously broken symmetry|broken]]" to the [[homotopy stabilizer group]] of this extra data. The stabilizer of the $G$-structure itself yields the [[isometry group]] $\mathbf{Iso}(X,\mathbf{g})$, but since the higher WZW term has in general [[higher gauge symmetries]], the total homotopy stabilizer of the triple $(X,\mathbf{g},\mathbf{L}^{X})$ is a [[Heisenberg ∞-group]] [[∞-group extension]] of that. Since for the case of applications to [[supergravity]] (examples \ref{11dSugreEquationsOfMotionFromDefiniteGlobalization}, \ref{M5ChargeExtensions} below) the [[0-truncated|0-truncation]] of this [[∞-group extension]] turns out to be the extension by [[BPS charges]], we here speak, for lack of any other established term, generally of _BPS charge groups_ for homotopy stabilizers of definitely globalized higher WZW terms. 
+Once a $V$-manifold $X$ is equipped with a definite globalization $\mathbf{L}^X$ of a WZW term $\mathbf{L}$, according to \ref{DefiniteGlobalization}, and hence also with a [[G-structure]] $\mathbf{g}$ for $G$ the suitable [[homotopy stabilizer group]] of $\mathbf{L}$ on [[infinitesimal disks]], then the [[automorphism ∞-group]] $\mathbf{Aut}(X)$ is naturally "[[spontaneously broken symmetry|broken]]" to the [[homotopy stabilizer group]] of this extra data. The stabilizer of the $G$-structure itself yields the [[isometry group]] $\mathbf{Iso}(X,\mathbf{g})$, but since the higher WZW term has in general [[higher gauge symmetries]], the total homotopy stabilizer of the triple $(X,\mathbf{g},\mathbf{L}^{X})$ is a [[Heisenberg ∞-group|Heisenberg]] [[∞-group extension]] of that. Since for the case of applications to [[supergravity]] (examples \ref{11dSugreEquationsOfMotionFromDefiniteGlobalization}, \ref{M5ChargeExtensions} below) the [[0-truncated|0-truncation]] of this [[∞-group extension]] turns out to be the extension by [[BPS charges]], we here speak, for lack of any other established term, generally of _BPS charge groups_ for homotopy stabilizers of definitely globalized higher WZW terms. 
 
 #### For a single $p$-brane species
 
@@ -726,7 +727,7 @@ and given a define globalization,
 def. \ref{DefiniteGlobalization}, of $\mathbf{L}_1$ over a $V$-manifold $X$ 
 then 
 
-1. the isometry action canonically lifts from $X$ to to the extended spacetime
+1. the isometry action canonically lifts from $X$ to to the extended spacetime $\widetilde{\hat X}$
 
   $$
     \array{
@@ -766,7 +767,7 @@ $$
 The _BPS charge $\infty$-group_ of this setup is
 
 $$
-  BPS(X,\mathbf{g}, \mathbf{L}_1^X, \mathbf{L}_2^X)
+  \mathbf{BPS}(X,\mathbf{g}, \mathbf{L}_1^X, \mathbf{L}_2^X)
   \coloneqq
   \mathbf{Heis}_{\mathbf{Iso}(X,\mathbf{g})}(\widetilde {\hat X},\mathbf{L}_2^X)
   \,.
