@@ -56,6 +56,7 @@ See also
 
 * [[K-theory of a bipermutative category]]
 
+* [[multiplicative spectral sequence]]
 
 ## References
 
