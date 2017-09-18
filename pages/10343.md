@@ -27,6 +27,8 @@
 
 As opposed to ordinary [[Minkowski spacetime]], [[super Minkowski spacetime]] has, when regarded as the [[super translation Lie algebra]], exceptional [[cocycles]]. The [[super L-infinity algebra]] extensions classified by these serve as _extended super-spacetimes_ which are [[target spaces]] for super $p$-[[branes]].
 
+Notably the [[supergravity Lie 3-algebra]] is the extended Minkowski spacetime on which [[superspacetimes]] of [[11-dimensional supergravity]] are modeled.
+
 ## Related concepts
 
 * [[extended supersymmetry]]
