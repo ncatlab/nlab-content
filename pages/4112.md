@@ -214,7 +214,7 @@ X & \stackrel{y}{\hookrightarrow} & I^\mathbb{N}
 
 we see that to produce a continuous surjection $C \to X$, it suffices to exhibit a continuous surjection $C \to K$. 
 
-In fact, every closed subspace $K \hookrightarrow C$ admits a retraction. There is a clever trick for seeing this: represent Cantor space $C$ instead as the subspace of $[0, 1]$ whose points, when written in base $6$, have just $0$\'s and $5$\'s in their representation. This subspace has the geometric property that if $x, y \in C$, then $\frac{x+y}{2} \notin C$. As a result, for $x, y, z \in C$ we have $d(x, y) = d(x, z)$ only if $y = z$ and so: given a closed subspace $K$ of $C$, there is for each $x \in C$ a *unique* element $k_x \in K$ such that $d(x, k_x) = d(x, K)$. The assignment $x \mapsto k_x$ is continuous and provides the desired retraction. 
+In fact, every closed subspace $K \hookrightarrow C$ admits a retraction. There is a clever trick for seeing this: represent Cantor space $C$ instead as the subspace of $[0, 1]$ whose points, when written in base $6$, have just $0$\'s and $5$\'s in their representation. This subspace has the geometric property that if $x, y \in C$, then $\frac{x+y}{2} \notin C$. As a result, for $x, y, z \in C$ we have $d(x, y) = d(x, z)$ only if $y = z$ and so: given a closed subspace $K$ of $C$, there is for each $x \in C$ a *unique* element $k_x \in K$ such that $d(x, k_x) = d(x, K)$. The assignment $x \mapsto k_x$ is continuous (in fact a [[locally constant function]]) and provides the desired retraction. 
 =-- 
 
 ## Related concepts
