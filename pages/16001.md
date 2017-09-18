@@ -67,20 +67,46 @@ $$
 ## A natural class of ind-seminormed rig categories
 
 One may define a natural class of ind-seminormed rig categories by using ind-Banach rings given by algebras of functions $\mathcal{O}^\dagger(R)$ on non-strict compact rational domains
-$R=D(f_0,\rho_0|f_1,\rho_1,\dots,f_n,\rho_n)$ in the affine space $A^{n,an}_\Z$,
+$R=D(f_0,\rho_0|f_1,\rho_1,\dots,f_n,\rho_n)$ in the affine space $\mathbb{A}^{n,an}_\mathbb{Z}$,
 given by all (Artin-type) multiplicative seminorms on the polynomial ring.
 We will work with the associated ind-seminormed topological rig categories.
 
-In addition to the above rig categories, we will also use the valuation rig categories $\mathcal{V}^\dagger(R)$ of algebras of functions $\mathcal{O}^\dagger(R)$ on non-strict non-compact rational domains
-$R=D(f_0,\rho_0|f_1,\rho_1,\dots,f_n,\rho_n)$ in the affine space $A^{n,an}_\mathbb{Z}$
-that project surjectively on an interval
+In addition to the above rig categories, we may also use the valuation rig categories $\mathcal{V}^\dagger(R)$ of algebras of functions $\mathcal{O}^\dagger(R)$ on non-strict (not necessarily compact) rational domains
+$R=D(f_0,\rho_0|f_1,\rho_1,\dots,f_n,\rho_n)$ in the (Artin type) affine space $\mathbb{A}^{n,an}_\mathbb{Z}$
+such that the fiber $R_{(\mathbb{Z},|\cdot|_\infty)}$ is compact.
+These domains are either bounded on the archimedean branch of $\mathcal{M}(\mathbb{Z})$ or project surjectively on an interval
 $$\{|2|\geq 2^t\}\cong[|\cdot|_\infty^t,|\cdot|_\infty^\infty[$$
-of the archimedean branch of $\mathcal{M}(\mathbb{Z})$ and such that the fiber $R_{(\mathbb{Z},|\cdot|^t_\infty)}$ is compact. The valuation rig category
-$\mathcal{V}^\dagger(R)$ is defined concretely as the sub-rig category of $\mathcal{O}^\dagger(R)$ given by functions $f$ such that for every $x\in \mathcal{M}(FMod(\mathcal{O}^\dagger(R)))$, $|f(x)|\leq 1$. Here, we use the set of seminorms on free modules that are continuous and bounded on $\End(\mathbb{1})$ by the given seminorms on $\mathcal{O}^\dagger(R)$.
+of the archimedean branch of $\mathcal{M}(\mathbb{Z})$.
+The valuation rig category $\mathcal{V}^\dagger(R)$ is defined concretely as the sub-rig category of $\mathcal{O}^\dagger(R_{(\mathbb{Z},|\cdot|_\infty)})$ given by functions $f$ such that for every $x\in \mathcal{M}(FMod(\mathcal{O}^\dagger(R_{(\mathbb{Z},|\cdot|_\infty)})))$, $|f(x)|\leq 1$. Here, we use the set of seminorms on free modules that are continuous and bounded on $\End(\mathbb{1})$ by the given seminorms on $\mathcal{O}^\dagger(R_{(\mathbb{Z},|\cdot|_\infty)})$.
+
+It would be nice to check that $\bar{R}:=\mathcal{M}(\mathcal{V}^\dagger(R))$ is a natural compactification of $R\cong \mathcal{M}(\mathcal{O}^\dagger(R))$.
+
+## Analytic geometry over $\mathbb{F}_{\{\pm 1\}}$
 
 One defines rational embeddings $R\to S$ of usual rational domains as usual,
-and this defines also the notion of rational embedding morphisms
-$\mathcal{M}(\mathcal{V}^\dagger(R))\to \mathcal{M}(\mathcal{V}^\dagger(S))$.
+and this defines also the notion of rational embedding
+$\bar{R}\to \bar{S}$.
+We consider the category $\mathcal{T}$ whose objects are of the form $R$ or $\bar{R}$ (remark that there may exist $S$ such that $S\cong \bar{R}$; one may make an easy example with $\mathbb{Q}_p$), and whose morphisms correspond to morphisms of topological ind-seminormed rig $\infty$-categories. One may try to show that it defines a pre-geometry in the sense of Lurie, with admissible morphisms given by rational embeddings. One may think of $\mathcal{T}$-schemes as analytic spaces over $\mathcal{M}(\mathbb{F}_{\{\pm 1\}})$, where
+$$\mathbb{F}_{\{\pm 1\}}:=\mathcal{V}^\dagger(\{|2|\leq 2\})$$
+(with $\{|2|\leq 2\}\subset \mathcal{M}(FMod(\mathbb{Z}))$)
+is in some sense the initial valuation rig category.
+
+In this new category $\An^\dagger_{\mathbb{F}_{\{\pm 1\}}}$, we may define,
+for example
+$$
+\overline{\mathcal{M}(\mathbb{Z})}:=
+\overline{\{|2|\geq 3/2\}}\coprod_{\{2\geq |2|\geq 3/2\}}\{2\geq |2|\},
+$$
+where all rational domains are from $\mathcal{M}(\mathbb{Z})$.
+
+One may define $D^1_\overline{\mathcal{M}(\mathbb{Z})}$ (resp. more generally $R_\overline{\mathcal{M}(\mathbb{Z})}$ for $R$ a rational domain over $(\mathbb{Z},|\cdot|_\infty)$) exactly by the same formula but with rational domains from $D^1$ (resp. from $R$). If we start from a strict analytic space, this compactification process will be called the arithmetic compactification.
+The gives a category $An^{\dagger,s}_\overline{\mathcal{M}(\mathbb{Z})}$ of Arakelov-type varieties, whose base extension to $(\mathbb{Z},|\cdot|_0)$ give schemes. It seems reasonable to conjecture that the base extension functor
+$$
+An^{\dagger,s}_\overline{\mathcal{M}(\mathbb{Z})}\longrightarrow
+An^{\dagger,s}_{(\mathbb{Z},|\cdot|_\infty)}
+$$
+is an equivalence of categories.
+
 
 ## References
 
