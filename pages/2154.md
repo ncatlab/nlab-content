@@ -11,7 +11,7 @@ A Euclidean space is a formulation in modern terms of the spaces that [[Euclid]]
 
 A __Euclidean space__ is an [[affine space|affine]] [[inner product space]].  That is, it is an affine space $E$ modelled on a [[vector space]] $V$ which has an inner product.
 
-One generally takes the inner product to be positive-definite; otherwise, we say that $E$ is only a __pseudo-Euclidean space__.  Also, one generally takes the [[dimension]] to be finite; Euclid himself only considered dimensions up to $3$.  For an infinite-dimensional Euclidean space, you would probably want $V$ to be a [[Hilbert space]].
+One generally takes the inner product to be positive-definite (corresponding to the [[Euclidean norm]]); otherwise, we say that $E$ is only a __pseudo-Euclidean space__.  Also, one generally takes the [[dimension]] to be finite; Euclid himself only considered dimensions up to $3$.  For an infinite-dimensional Euclidean space, you would probably want $V$ to be a [[Hilbert space]].
 
 
 ## Remarks on terminology
