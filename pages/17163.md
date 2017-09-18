@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Goodwillie calculus
++--{: .hide}
+[[!include Goodwillie calculus - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Weiss topology_ is a type of [[Grothendieck topology]] that provides a [[site]] of definition for [[(infinity,1)-toposes]] as they appear in [[Goodwillie calculus]] (see at _[n-excisive sub-toposes](https://ncatlab.org/nlab/show/n-excisive+%28∞%2C1%29-functor#nExcisiveApproximation)_), [[orthogonal calculus]], [[manifold calculus]] and elsewhere.
+
 ## Related concepts
 
 * [[Goodwillie calculus]]
@@ -6,7 +25,7 @@
 
 ## References
 
-* Pedro Boavida de Brito, Michael S. Weiss, _Manifold calculus and homotopy sheaves_ ([arXiv:1202.1305](http://arxiv.org/abs/1202.1305))
+* Pedro Boavida de Brito, [[Michael Weiss]], _Manifold calculus and homotopy sheaves_ ([arXiv:1202.1305](http://arxiv.org/abs/1202.1305))
 
 
 * [MO discussion](http://mathoverflow.net/a/230293/381)
