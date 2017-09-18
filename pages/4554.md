@@ -87,7 +87,7 @@ An entirely analogous argument demonstrates that $d_{1}$ is a weak equivalence.
 +-- {: .num_lemma #FibrantResolution}
 ###### Lemma
 **(Fibrant resolution of a morphism).**
-Let $f : X \to Y$ a morphism in $\mathcal{C}$.  There exists a canonical [[fibration]] $g : X \times_Y Y^I \twoheadrightarrow Y$ which factors through a [[trivial fibration]] $s: X \times_Y Y^I \stackrel{\sim}{\twoheadrightarrow} X$.
+Let $f : X \to Y$ a morphism in $\mathcal{C}$.  There exists a canonical [[fibration]] $g : X \times_Y Y^I \twoheadrightarrow Y$ which factors through $f$ via a [[trivial fibration]] $s: X \times_Y Y^I \stackrel{\sim}{\twoheadrightarrow} X$.
 Here $Y^I$ is a [[path space object]] for $Y$.
 
 $$
