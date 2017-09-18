@@ -66,11 +66,23 @@ Discussion of the experimentally observed tiny cosmological constant and the iss
 
 * Joan Sola, _Cosmological constant and vacuum energy: old and new ideas_, J.Phys.Conf.Ser. 453 (2013) 012015 ([arXiv:1306.1527](https://arxiv.org/abs/1306.1527))
  
-Early discussion from the point of view of [[string theory]] includes
+### In string theory
+
+Discussion from the point of view of [[string theory]] includes
 
 * {#Witten00} [[Edward Witten]], _The Cosmological Constant From The Viewpoint Of String Theory_ ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
 
 Shortly afterwards it became popular to invoke the [[landscape of string theory vacua]] in order to "solve" this state of affairs.
+
+See also
+
+* [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod.Phys.Lett.A10:2153-2156,1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
+
+for discussion in terms of the [[M-theory]]/[[type IIA string theory|type IIA]] relation [[KK-compactification|KK-compactified]] to a 4d/3d scenrio, where the 3d physics is weakly coupled and the 4d physics strongly coupled. (Recall the [[super 2-brane in 4d]].)  
+
+This discussion was later supplemented by 
+
+* [[Edward Witten]], section 3 of _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
 
 [[!redirects dark energy]]
 
