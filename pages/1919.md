@@ -44,3 +44,5 @@ To internalize the characterization in terms of internal disjoint unions is hard
 [[!redirects disjoint sets]]
 [[!redirects disjoint subset]]
 [[!redirects disjoint subsets]]
+
+[[!redirects disjoint]]
