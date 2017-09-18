@@ -1,5 +1,17 @@
-[[!redirects universal complex orientation of MU]]
-[[!redirects MU and complex orientations]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cobordism theory
++--{: .hide}
+[[!include cobordism theory -- contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -9,10 +21,13 @@
 
 For $E$ a [[commutative ring spectrum]]/[[E-infinity ring]], there is a bijection between [[complex oriented cohomology theory|complex orientation]] on $E$ and ring spectrum homomorphism $MU \longrightarrow E$ from [[MU]].
 
+Hence $MU$ is the universal [[complex oriented cohomology theory]].
+
+
 (e.g [Lurie 10, lect. 6, theorem 8](#LurieLect6), [Ravenel, chapter 4, lemma 4.1.13](#Ravenel))
 
-
-Hence $MU$ is the universal [[complex oriented cohomology theory]].
+**Proof strategy:** Use that for each $n \in \mathbb{N}$ the $n$-th $E$-[[generalized Chern class]], thought of as an $E$-[[Thom class]] represented by $c_n \in E^\bullet(M U(n))$, corresponds to a morphism $\phi_n \colon M U(n) \longrightarrow E$. Check that these maps are compatible under restriction. Then unse the [[Milnor exact sequence]] and observe the vanishing of its [[lim^1]]-term to conclude a total map $\phi \colon M U \simeq \underset{\longrightarrow}{\lim}_n M U(n) \longrightarrow E$.
+This component-wise construction of $\phi$ then also serves to show that it is a morphism of [[ring spectra]] and, via the [[splitting principle]], that this is essentially unique.
 
 ## Related concepts
 
@@ -41,3 +56,6 @@ Review includes
 
 [[!redirects complex orientation and MU]]
 [[!redirects complex orientations and MU]]
+
+[[!redirects universal complex orientation of MU]]
+[[!redirects MU and complex orientations]]
