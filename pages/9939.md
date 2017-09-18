@@ -315,7 +315,7 @@ $$
 
 equivalently exhibits a null-homotopy of the top morphism. Hence the $(A \to Cone(A))$-[[injective objects]] in $Ho(Spectra)$ are precisely those spectra $X$ for which $[A,X]_\bullet \simeq 0$.
 
-Moreover, due to the degreewise nature of the smash tensoring $Cone(A) = A \wedge I$, the inclusion morphism $A \to Cone(A)$ is degreewise the inclusion of a [[CW-complex]] into its standard cone, which is a [[relative cell complex]] inclusion ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCylinderOnCWComplexIsGoodCylinderObject)).
+Moreover, due to the degreewise nature of the smash tensoring $Cone(A) = A \wedge I$ ([def](Introduction+to+Stable+homotopy+theory+--+1-1#TensoringAndPoweringOfSequentialSpectra)), the inclusion morphism $A \to Cone(A)$ is degreewise the inclusion of a [[CW-complex]] into its standard cone, which is a [[relative cell complex]] inclusion ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCylinderOnCWComplexIsGoodCylinderObject)).
 
 By [this lemma](Introduction+to+Stable+homotopy+theory+--+1-1#kappaCellSpectrumIsKappaSmall) the $\kappa$-[[cell spectrum]] $A$ is _$\kappa$-small object_ ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassOfMorphismsWithSmallDomains)) with respect to morphisms of spectra which are degreewise [[relative cell complex]] inclusion  [[small object argument]] . 
 
