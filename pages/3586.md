@@ -16,7 +16,7 @@
 
 ## Idea
 
-Microlocal analysis studies functions, equations and operators involving (or using auxiliary objects involving) not only points of the underlying space/manifold but also the cotangent vectors attached to the points which are in the domain of the studied quantities, especially when dealing with singular objects (e.g. singular integrals, distributions, characteristic subvarieties, asymptotic solutions). While local refers to points and their neighborhoods, microlocal refers to the points of cotangent bundles and their neighborhoods as domains of the functions, distributions, operators, relations and so on. 
+Microlocal analysis studies functions, equations and operators involving (or using auxiliary objects involving) not only points of the underlying space/manifold but also the [[cotangent vectors]] attached to the points which are in the domain of the studied quantities, especially when dealing with singular objects (e.g. singular integrals, distributions, characteristic subvarieties, asymptotic solutions). While local refers to points and their neighborhoods, microlocal refers to the points of cotangent bundles and their neighborhoods as domains of the functions, distributions, operators, relations and so on. 
 
 ## Overview
 
