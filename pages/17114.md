@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,5 +24,10 @@ The [[smash product]] on [[pointed topological spaces]] induces a smash product 
 
 This is the canonical [[tensor product]] in the [[symmetric monoidal (infinity,1)-category of spectra]]. There are various [[model category]] [[presentable (infinity,1)-category|presentations]] for which which are symmetric [[monoidal model categories]] (such as that of [[S-modules]], of [[symmetric spectra]] and of [[orthogonal spectra]]). See at _[[symmetric monoidal category of spectra]]_ for more on this.
 
+## Definitions
+
+* _[smash product of orthogonal spectra](orthogonal+spectrum#SmashProduct)_
+
+* ...
 
 [[!redirects smash products of spectra]]
