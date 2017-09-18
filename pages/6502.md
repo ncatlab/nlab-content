@@ -279,6 +279,7 @@ We discuss here some weakining of the above definition of Cartan connection that
 
 [[!include local and global geometry - table]]
 
+
 ### (pseudo-)Riemannian geometry
 
 Let $G = Iso(d,1)$ be the [[Poincare group]] and $H \subset G$ the [[orthogonal group]] $O(d,1)$. Then the quotient
@@ -291,6 +292,25 @@ $$
 is [[Lorentzian spacetime]]. Therefore an $(O(d,1)\hookrightarrow Iso(d,1))$-Cartan connection is equivalently an $O(d,1)$-connection on a manifold whose [[tangent space]]s look like [[Minkowski spacetime]]: this is  equivalently a [[pseudo-Riemannian manifold]] from the perspective discussed at [[first-order formulation of gravity]]:
 
 the $\mathbb{R}^{d+1}$-valued part of the connection is the [[vielbein]]. 
+
+### $G$-Structures
+ {#ExampleGStructures}
+
+More generally, [[G-structures]] equipped with compatible principal connections are given by Cartan connections. (We will speak of "$H$-structure" here, since the reudced structure will correspond to the group denoted $H$ above, while what is denoted $G$ above will be the semidirect product of $H$ with the [[translation group]]).
+
+Let $H \to GL(\mathbb{R}^n)$ be a [[Lie group]] [[homomorphism]], so that [[reduction of the structure group]] of the [[frame bundle]] of a manifold of [[dimension]] $n$ along this map is an [[G-structure|H-structure]] on the manifold. Then write
+
+$$
+   G \colon \mathbb{R}^n \rtimes H
+$$
+
+for the [[semidirect product]] of $H$ with the [[translation group]] $\mathbb{R}^n$, given via the induced [[action]] of $H$ on $\mathbb{R}^n$ via the canonical action of the [[general linear group]] $GL(\mathbb{R}^n)$.
+
+With this an $(H \hookrightarrow G)= (H \hookrightarrow \mathbb{R}^n \rtimes H)$-Cartan connection is equivalently an [[G-structure|H-structure]] equipped with a [[vielbein field]] and with an $H$-[[principal connection]].
+
+([CapSlovak 09, section 1.3.6 and 1.6.1](#CapSlovak09))
+
+With this identification the [[torsion of a Cartan connection]] maps into the [[torsion of a G-structure]].
 
 ## Related concepts
 
