@@ -1,26 +1,29 @@
 $$
-  \array{
-    Ho(Top^{\ast/})
-    &
-      \underoverset
-        {\underset{\Omega}{\longrightarrow}}
-        {\overset{\Sigma}{\longleftarrow}}
-        {\bot}
-    &
-    Ho(Top^{\ast}_{cg})
-    \\
-    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
-    &&
-    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
-    \\
-    Ho(Spectra)
-    &
-      \underoverset
-        {\underset{\Omega}{\longrightarrow}}
-        {\overset{\Sigma}{\longleftarrow}}
-        {\simeq}
-    &
-    Ho(Spectra)
-  }
-  \,.
+      Top_{cg}^{\ast/}
+         \underoverset
+         {
+           \underset{Maps(X,-)_\ast}{\longrightarrow}
+         }
+         {
+           \overset{X \wedge (-)}{\longleftarrow}
+         }
+         {\phantom{\longrightarrow}}
+      Top_{cg}^{\ast/}
+    $$
+
+$$
+      Top_{cg}^{\ast/}
+         \underoverset
+         {
+           \underset{Maps(X,-)_\ast}{\longrightarrow}
+         }
+         {
+           \overset{X \wedge (-)}{\longleftarrow}
+         }
+         {\bot}
+      Top_{cg}^{\ast/}
+    $$
+
+$$
+ A\phantom{ABCD}D
 $$
