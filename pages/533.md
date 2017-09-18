@@ -285,6 +285,8 @@ A strict 1-category is just a [[category]].
 
 * [[(∞,n)-category]]
 
+* [[strict category]]
+
 ## References
 
 With an eye towards the generalization to [[(∞,n)-categories]], strict $n$-categories are discussed in 
