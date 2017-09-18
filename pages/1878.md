@@ -332,6 +332,8 @@ $$
   I = \{F_d S^{n-1}_+ \rightarrow F_d D^n_+\}_{d,n\geq 0}
 $$ 
 
+([[free spectra]] formed on the standard cells of the [[classical model structure on pointed topological spaces]])
+
 and the set of acyclic cells is 
 
 $$
