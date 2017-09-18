@@ -48,6 +48,8 @@ $$
 
 ## References
 
+Named after [[Karl Weierstrass]].
+
 An introductory review is in 
 
 * {#Hain08} Richard Hain, section 5.1 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
