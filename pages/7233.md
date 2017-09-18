@@ -290,11 +290,19 @@ The space of second order torsion invariants of $G_2$-structures is for instance
 =--
 
 
+### Variants and weakenings
 
-### Weak $G_2$-holonomy
+There are several variants of the definition of $G_2$-manifolds,
+def.\ref{G2manifold}, given by imposing other constraints on the [[torsion of a Cartan connection|torsion]].
+
+#### With skew-symmetric torsion
+
+Discussion for totally skew symmetric [[torsion of a Cartan connection]] includes ([Friedrich-Ivanov 01, theorem 4.7, theorem 4.8](#FriedrichIvanov01))
+
+
+#### Weak $G_2$-holonomy
  {#WeakG2Holonomy}
 
-There is a weakened notion of $G_2$-holonomy. 
 
 +-- {: .num_defn #WeakG2Holonomy}
 ###### Definition
@@ -405,13 +413,18 @@ Disucssion of the more general concept of Riemannian manifolds equipped with [[c
 
 * Hong Van Le , _Geometric structures associated with a simple Cartan 3-form_, Journal of Geometry and Physics (2013) ([arXiv:1103.1201](http://arxiv.org/abs/1103.1201))
 
+### Relation to Killing spinors
+
+Discussion of $G_2$-structures in view of the existence of [[Killing spinors]] includes
+
+* {#FriedrichIvanov01} [[Thomas Friedrich]], Stefan Ivanov, _Parallel spinors and connections with skew-symmetric torsion in string theory_, AsianJ.Math.6:303-336,2002 ([arXiv:math/0102142](http://arxiv.org/abs/math/0102142))
 
 ### Application in supergravity
 
 The following references discuss the role of $G_2$-manifolds in [[M-theory on G2-manifolds]]:
 
-* [[Mike Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
- {#Duff}
+* {#Duff} [[Mike Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
+ 
 
 A survey of the corresponding [[string phenomenology]] for [[M-theory on G2-manifolds]] (see there for more) is in
 
@@ -423,14 +436,16 @@ See also
 
 Weak $G_2$-holonomy is discussed in
 
-* [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
- {#BilalDerendingerSfetsos}
+* {#BilalDerendingerSfetsos} [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
+ 
 
 * {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Compact weak $G_2$-manifolds with conical singularities_ ([arXiv:hep-th/0302021](http://arxiv.org/abs/hep-th/0302021))
 
 * {#HouseMicu04} Thomas House, Andrei Micu, _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
 
 For more on this see at _[[M-theory on G2-manifolds]]_
+
+
 
 [[!redirects G2 manifolds]]
 [[!redirects G2-manifold]]
