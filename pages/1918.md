@@ -156,7 +156,7 @@ Conversely, assume that $\left( Cl\{x\} = Cl\{y\}\right) \Rightarrow \left( x = 
 Hence by [[contraposition]] $\mathrm{Cl}(\{x\}) \neq \mathrm{Cl}(\{y\})$. We need to show that there exists
 an open set which contains one of the two points, but not the other.
 
-Assume there were no such open subset. By lemma \ref{UnionOfOpensGivesClosure} this would mean
+Assume there were no such open subset. By lemma [this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure) this would mean
 that $x \in \mathrm{Cl}(\{y\})$ and that $y \in \mathrm{Cl}(\{x\})$. But this would imply that
 $Cl(\{x\}) \subset \mathrm{Cl}(\{y\})$ and that $\mathrm{Cl}(\{y\}) \subset \mathrm{Cl}(\{x\})$,
 hence that $\mathrm{Cl}(\{x\}) = \mathrm{Cl}(\{y\})$. This is a [[proof by contradiction]].
