@@ -33,7 +33,7 @@ The _monoid axiom_ is an extra condition on a [[monoidal model category]] that h
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #MonoidAxiom}
 ###### Definition
 
 We say a [[monoidal model category]] satisfies the **monoid axiom** if every morphism that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] of acyclic cofibrations with any object is a weak equivalence.
@@ -41,6 +41,15 @@ We say a [[monoidal model category]] satisfies the **monoid axiom** if every mor
 =--
 
 ([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley)).
+
++-- {: .num_remark}
+###### Remark
+
+In particular, the axiom in def. \ref{MonoidAxiom} says that for every object $X$ the functor $X \otimes (-)$ sends acyclic cofibrations to weak equivalences.
+
+=--
+
+
 
 ## Properties 
 
@@ -114,5 +123,7 @@ and with respect to a [[symmetric monoidal smash product of spectra]]:
 
 [[!redirects model structure on monoids]]
 
+
+[[!redirects monoid axiom]]
 
 
