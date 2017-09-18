@@ -40,7 +40,7 @@ $$
   V
 $$ 
 
-is manifestly $G$-equivariant, with its inverse exhibiting $S^V$ as the one-point compactification of $V$, hence
+is manifestly $G$-equivariant, with its inverse exhibiting $S(\mathbb{R}\oplus V)$ as the one-point compactification of $V$, hence
 
 $$
   S^V \simeq_G S(\mathbb{R}\oplus V)
