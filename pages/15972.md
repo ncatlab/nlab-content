@@ -9,9 +9,10 @@ Derived microlocalization is an adaptation of the theory of microlocalization to
 
 In non-smooth situations, the usual normal and conormal bundle used in classical microlocalization is not well behaved, and one needs to take derived versions of them. Moreover, to study [[global analytic index theory]], one needs a formulation of the theory of microlocalization in terms of derived loop stacks, in order to work out a cyclic and Hochshild version of index theorems (similar to the one developed by Kashiwara and Schapira in the [[microlocal formulation of index theory]]) that works on an arbitrary (e.g. integral) basis.
 
-## Construction of derived microlocalization
+## Loop space and deformation to the normal bundle
 
-[[Microlocalization]] in derived geometry involves the proper definition of the deformation to the normal bundle of a closed embedding $Y\subset X$ of global analytic spaces (or even stacks), which is given by the following simple construction.
+[[Microlocalization]] in derived geometry involves the proper definition of the deformation to the normal bundle of a closed embedding $Y\subset X$ of global analytic spaces (or even stacks). One needs to consider a loop space approach to this construction because it allows to avoid the use of denominators in the definition of the [[Chern character]] (following Connes-Loday-Toen-Vezzosi) and in the development of more general [[global analytic index theory]] with integral coefficients.
+
 The space of paths on $X$ based on $Y$ is the groupoid acting on $Y$ given by
 $$P_Y X:=\{f\in \Hom(\Delta^1,X),\;f(0)\in Y,\;f(1)\in Y\}.$$
 More concretely, this is given by the homotopy pullback
@@ -50,10 +51,28 @@ $$
     Y\times Y\times \Hom(\Delta^1\times U(1),(X\backslash Y))\times (X\backslash Y) &\stackrel{i\times j\times k}{\to}& X\times X\times \Hom(\Delta^1\times U(1),X)
 \times X}
 $$
-It has an evident natural projection $t:\widetilde{L_Y X}\to D^1$, and a natural projection $\widetilde{P_Y X}\to Y\times Y$ that makes it a family of groupoids parametrized by $D^1$ and acting on $Y$. There is also a natural projection
-$p:\widetilde{L_Y X}\to X$ given by $f\mapsto f(-,1)$.
+It has an evident natural projection $t:\widetilde{P_Y X}\to D^1$, and a natural projection $\widetilde{P_Y X}\to Y\times Y$ that makes it a family of groupoids parametrized by $D^1$ and acting on $Y$. There is also a natural projection
+$p:\widetilde{P_Y X}\to X$ given by $f\mapsto f(-,1)$. We will denote $s:P_Y X\to \widetilde{P_Y X}$ the fiber $t^{-1}(0)$.
 
-One may complete $\widetilde{P_Y X}$ along the unit of its groupoid structures, to get a formal groupoid $\widehat{P_Y X}$ fibered over $D^1$, whose fiber at $0$ will be the formal loop space $\hat{P}_Y X$ obtained by completing the path groupoid $P_Y X$ acting on $Y$ along its identity morphism, and whose fiber at $1$ will be the formal completion $\hat{X}_Y$ of $X$ along $Y$. In the particular case of the diagonal embedding $Y=M\hookrightarrow M\times M=X$ over a field of characteristic $0$, the quotient of $X$ by this family of groupoids gives back (modulo a convenient [[HKR]] theorem) exactly Simpson's non-abelian Hodge structure, that gives a family of formal stacks over $D^1$ whose fiber at $0$ is the tangent space $TX$ (seen as a formal groupoid acting trivially on $X$) and whose fiber at $1$ is the so-called de Rham space $X_{dR}$ of $X$.
+One may complete $\widetilde{P_Y X}$ along the unit of its groupoid structures, to get a family of formal groupoids $\widehat{P_Y X}$ parametrized by $D^1$, whose fiber at $0$ will be the formal loop space $\hat{P}_Y X$ obtained by completing the path groupoid $P_Y X$ acting on $Y$ along its identity morphism, and whose fiber at $1$ will be the formal completion $\hat{X}_Y$ of $X$ along $Y$. There is a natural action of $S^1$ on $\widehat{P_Y X}$. We will still denote $t:\widehat{P_Y X}\to D^1$ the natural projection, $s:\widehat{P}_Y X\to \widehat{P_Y X}$ the fiber $t^{-1}(0)$, and $p:\widehat{P_Y X}\to X$ the natural projection (evaluation at $(-,1)$).
+
+In the particular case of the diagonal embedding $Y=M\hookrightarrow M\times M=X$ over a field of characteristic $0$, the quotient of $X$ by this family of formal groupoids gives back (modulo a convenient [[HKR]] theorem) exactly Simpson's non-abelian Hodge structure, that gives a family of formal stacks over $D^1$ whose fiber at $0$ is the tangent space $TX$ (seen as the quotient of $X$ by the trivial action of $T[-1]X$) and whose fiber at $1$ is the so-called de Rham space $X_{dR}$ of $X$.
+
+## A derived analog of microlocalization
+
+We now work on an arbitrary derived Artin stack $M$, such that the diagonal $Y=M\to M\times M=X$ is an affine closed embedding.
+
+The usual theory of [[microlocalization]] may be adapted to the derived global analytic setting by replacing the deformation to the normal bundle $\widetilde{T_Y X}\to \mathbb{A}^1$ by the formal deformation to the normal bundle $\widehat{P_Y X}\to D^1$.
+
+The derived specialization functor is given on $F\in D^b(X)$ by
+$$\nu_Y(F):=s^*p^*F\in D^b(\hat{P}_Y X).$$
+
+The derived Fourier-Sato transformation is given on $F\in D^b(\hat{P}_Y X)$ by
+$$\Phi(F):=?.$$
+
+The derived microlocalization functor is given on $F\in D^b(M)$ by
+$$\mu(F):=\Phi(\nu_Y(F))$$
+for $Y=M\hookrightarrow M\times M=X$.
 
 ## References
 
