@@ -42,6 +42,11 @@ A _relative $\mathcal{I}$-cell complex_ (relative to any object $A$) is any morp
 
 * A [[cell spectrum]] is a cell complex in the category of topological [[sequential spectra]].
 
+## Related concepts
+
+[[!include universal constructions of topological spaces -- table]]
+
+
 ## References
 
 A discussion in the context of [[algebraic model categories]] is in 
