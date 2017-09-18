@@ -1,0 +1,9 @@
+A current is a generalized function/distribution with values in differential forms on a manifold. 
+
+See [[current]] and [[conserved current]] about other notions of currents.
+
+* wikipedia <a href="https://en.wikipedia.org/wiki/Current_%28mathematics%29">current (mathematics)</a>
+* V. Guillemin, S. Sternberg, _Geometric asymptotics_
+* Herbert Federer, _Geometric measure theory_
+* Frank Morgan, _Geometric measure theory: a beginner's guide_
+* S. G. Krantz, _Geometric integration theory_, [pdf](http://www.math.wustl.edu/~sk/books/root.pdf)
