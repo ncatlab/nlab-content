@@ -267,7 +267,7 @@ Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be
 
 =--
 
-+-- {: .num_example #ProductTopologicalSpace} 
++-- {: .num_example #ProductTopologicalSpace}
 ###### Example
 **(product topological space)**
 
@@ -414,7 +414,18 @@ So we need to check that $\tilde f$ has a continuous inverse function. Clearly t
 
 =--
 
+Similarly:
 
+The [[square]] $[0,1]^2$ with two of its sides identified is the [[cylinder]], and with also the other two sides
+identified is the [[torus]]:
+
+<img src="https://ncatlab.org/nlab/files/TorusAsQuotientOfSquare.png" width="500">
+
+If the sides are identified with opposite orientation, the result is the _[[Möbius strip]]_:
+
+<img src="https://ncatlab.org/nlab/files/MoebiusStripAsQuotientOfSquare.png" width="400">
+
+> graphics grabbed from [Lawson 03](#Lawson03)
 
 Important examples of pairs of spaces that are _not_ homeomorphic include the following:
 
@@ -431,7 +442,7 @@ More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to a
 
 =--
 
-The proof of theorem \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from a field called _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]]). 
+The proof of theorem \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from a field called _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]]).
 
 We showcase some basic tools of [[algebraic topology]] now and demonstrate the nature of their usage by proving two very simple special cases of the [[topological invariance of dimension]] (prop. \ref{TopologicalInvarianceOfDimensionFirstSimpleCase} and prop. \ref{topologicalInvarianceOfDimensionSecondSimpleCase} below).
 
@@ -454,7 +465,7 @@ Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientab
 
 We have seen above that for $n \geq 1$  then the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ is _not_ [[homeomorphic]] to, notably, the point $\ast = \mathbb{R}^0$ (example \ref{OpenBallsHomeomorphicToRn}, theorem \ref{TopologicalInvarianceOfDimension}). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
 
-This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]] 
+This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]]
 (example \ref{ProductTopologicalSpace}) with the closed [[interval]]
 
 $$
@@ -508,7 +519,7 @@ $$
 $$
 
 
-out of the [[product topological space]] (example \ref{ProductTopologicalSpace}) 
+out of the [[product topological space]] (example \ref{ProductTopologicalSpace})
 with the standard interval, such that this fits into a [[commuting diagram]] of the form
 
 <div style="float:right;margin:0 10px 10px 0;">
@@ -742,14 +753,28 @@ Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then wri
 
 Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]] (a "[[monoid]]"). Under reversion of groups it becomes in fact a [[group]]. This is called the [[fundamental group]] of $X$ at $x$.
 
-A topological space $X$ for which $\pi_0(X) \simeq \ast$ ([[path-connected topological space|path connected]], def. \ref{pi0}) and  
+A topological space $X$ for which $\pi_0(X) \simeq \ast$ ([[path-connected topological space|path connected]], def. \ref{pi0}) and
 for which the [[fundamental group]] is [[trivial group|trivial]], $\pi_1(X,x) = 1$, is called
 _[[simply connected topological space|simply connected]]_.
 
 =--
 
-Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$ whose [[objects]] are 
-topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous maps]] 
++-- {: .num_example}
+###### Example
+
+The following picture indicates the four non-equivalent non-trivial generators of the [[fundamental group]] of the 
+oriented [[surface]] of [[genus of a surface|genus]] 2:
+
+<img src="https://ncatlab.org/nlab/files/FundamentalGroupOfGenus2Surface.png" width="500">
+
+> graphics grabbed from [Lawson 03](#Lawson03)
+
+
+=--
+
+
+Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$ whose [[objects]] are
+topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous maps]]
 $f \colon X \to Y$ that take the chosen basepoint of $X$ to that of $Y$:
 
 $$
@@ -757,7 +782,7 @@ $$
   \,.
 $$
 
-As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use this to prove a simple case of the theorem of the [[topological invariance of dimension]]: 
+As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use this to prove a simple case of the theorem of the [[topological invariance of dimension]]:
 
 
 +-- {: .num_prop #topologicalInvarianceOfDimensionSecondSimpleCase}
@@ -779,7 +804,7 @@ and $f(0)$ from $\mathbb{R}^3$. But these spaces have different [[fundamental gr
 1. The fundamental group of $\mathbb{R}^{2} - \{0\}$ is $\mathbb{Z}$ (counting the winding of loops around the removed point).
 We discuss this further below in example \ref{FundamentalGroupOfTheCircle}.
 
-1. The fundamental group of $\mathbb{R}^3 - \{f(0)\]$ is trivial: because the single removed point is 
+1. The fundamental group of $\mathbb{R}^3 - \{f(0)\]$ is trivial: because the single removed point is
 no obstruction to sliding loops past it and contracting them.
 
 But since passing to fundamental groups is [[functor|functorial]], the same argument
@@ -795,15 +820,22 @@ We now discuss a "dual incarnation" of fundamental groups, which often helps to 
 ###### Definition
 **(covering space)**
 
-A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]] $\pi \colon E \to X$ such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$ 
-to the [[product topological space]] (example \ref{ProductTopologicalSpace}) of $U_i$ 
+A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]] 
+
+$$
+  p \colon E \to X
+$$
+
+such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted 
+to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$
+to the [[product topological space]] (example \ref{ProductTopologicalSpace}) of $U_i$
 with the [[discrete topological space]] (example \ref{DiscreteTopologicalSpace}) on a [[set]] $F_i$
 
 $$
   \array{
     \underset{i}{\sqcup} U_i \times F_i &\longrightarrow&  E
     \\
-    \downarrow &(pb)& \downarrow^{\mathrlap{\pi}}
+    \downarrow &(pb)& \downarrow^{\mathrlap{p}}
     \\
     \underset{i}{\sqcup} U_i &\underset{}{\longrightarrow}& X
   }
@@ -819,11 +851,11 @@ For $x \in U_i \subset X$ a point, then the elements in $F_x  = F_i$ are called 
 **(covering of circle by circle)**
 
 <div style="float:left;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/pFoldCoveringOfCircleB.png" width="200">
+<img src="https://ncatlab.org/nlab/files/pFoldCoveringOfCircleB.png" width="180">
 </div>
 
 Regard the [[circle]] $S^1 = \{ z \in \mathbb{C}  \;\vert\; {\vert z\vert} = 1 \}$ as the [[topological subspace]]
-of elements of unit [[absolute value]] in the [[complex plane]]. 
+of elements of unit [[absolute value]] in the [[complex plane]].
 For $k \in \mathbb{N}$, consider the continuous function
 
 $$
@@ -844,13 +876,17 @@ Precisely, for $k \geq 1$ this is a [[covering space]]
 ###### Example
 **(covering of circle by real line)**
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/UniversalCoveringOfCircle.png" width="150">
+</div>
+
 Consider the [[continuous function]]
 
 $$
   \exp(2 \pi i(-)) \;\colon\; \mathbb{R}^1 \longrightarrow S^1
 $$
 
-from the [[real line]] to the [[circle]], 
+from the [[real line]] to the [[circle]],
 which with the circle regarded as the unit circle in the [[complex plane]] $\mathbb{C}$ is given by
 
 $$
@@ -865,7 +901,7 @@ $$
 $$
 
 We may think of this as the result of "winding the line around the circle ad infinitum".
-Precisely, this is a [[covering space]] (def. \ref{CoveringSpace}) with the [[leaves]] at each point forming the 
+Precisely, this is a [[covering space]] (def. \ref{CoveringSpace}) with the [[leaves]] at each point forming the
 set $\mathbb{Z}$ of [[natural numbers]].
 
 =--
@@ -877,9 +913,9 @@ set $\mathbb{Z}$ of [[natural numbers]].
 
 Let $E \overset{\pi}{\longrightarrow} X$ be a [[covering space]] (def. \ref{CoveringSpace})
 
-Then for $x \in X$ any point, and any choice of element $e \in F_x$ of the leav space over $x$, 
+Then for $x \in X$ any point, and any choice of element $e \in F_x$ of the leav space over $x$,
 there is, up to [[homotopy]], a unique way to lift a representative
-path in $X$ of an element $\gamma$ of the the [[fundamental group]] $\pi_1(X,x)$ (def. \ref{FundamentalGroup}) to a 
+path in $X$ of an element $\gamma$ of the the [[fundamental group]] $\pi_1(X,x)$ (def. \ref{FundamentalGroup}) to a
 continuous path in $E$ that starts at $e$. This path necessarily ends at some (other) point $\rho_\gama(e) \in F_x$
 in the same [[fiber]]. This construction provides a [[function]]
 
@@ -907,7 +943,7 @@ $$
   \array{
     \text{the neutral element,}
     \\
-    \text{i.e. the constant loop,} 
+    \text{i.e. the constant loop,}
     \\
     \text{acts trivially}
   }
@@ -944,7 +980,7 @@ $$
 One says that $\rho$ is an _[[action]]_ or _[[permutation representation]]_ of $\pi_1(X,x)$ on $F_x$.
 
 For $G$ any [[group]], then there is a [[category]] $G Set$ whose [[objects]] are [[sets]]
-equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function]] which respect 
+equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function]] which respect
 these actions. The above construction yields a [[functor]]
 
 $$
@@ -971,14 +1007,14 @@ Their corresponding [[permutation actions]] may be seen from the pictures on the
 =--
 
 We are now ready to state the main theorem about the [[fundamental group]]. Except that it
-does require the following slightly technical condition on the base topological space. 
+does require the following slightly technical condition on the base topological space.
 This condition is satisfied for all "reasonable" topological spaces:
 
 +-- {: .num_defn #SemiLocallySimplyConnected}
 ###### Definition
 **(semi-locally simply connected)**
 
-A [[topological space]] $X$ is called 
+A [[topological space]] $X$ is called
 
 1. _[[locally path-connected]]_ if for every point $x \in X$ and for every [[neighbourhood]] $x \in U \subset X$ there
    exists a neighbourhood $x \in V \subset U$ such that $V$ is [[path-connected topological space|path-connected]] (def. \ref{pi0});
@@ -995,8 +1031,8 @@ A [[topological space]] $X$ is called
 
 Let $X$ be a [[topological space]] which is [[connected topological space|path-connected]] (def. \ref{pi0}),
 [[locally path-connected topological space|locally path connected]] (def. \ref{SemiLocallySimplyConnected})
-and [[semi-locally simply connected topological space|semi-locally simply connected]] (def. \ref{SemiLocallySimplyConnected}). Then 
-for any $x \in X$ the functor 
+and [[semi-locally simply connected topological space|semi-locally simply connected]] (def. \ref{SemiLocallySimplyConnected}). Then
+for any $x \in X$ the functor
 $$
   Fib_x \;\colon\; Cov(X) \overset{}{\longrightarrow} \pi_1(X,x) Set
   \,.
@@ -1012,7 +1048,7 @@ has the following property:
    $$
      Fib_x \;\colon\; Hom_{Cov(X)}(E_1, E_2) \longrightarrow Hom( Fib_x(E_1), Fib_x(E_2) )
    $$
-   
+
    is a [[bijection]] (one says the functor is a _[[fully faithful functor]]_ ).
 
 
@@ -1029,8 +1065,8 @@ This has some interesting implications:
 
 Every sufficiently nice topological space $X$ as above has a covering which is [[simply connected topological space|simply connected]]
 (def. \ref{FundamentalGroup}). This is the covering corresponding, under the [[fundamental theorem of covering spaces]]
-(theorem \ref{FundamentalTheoremOfCoveringSpaces}) to the action of $\pi_1(X)$ on itself. 
-This is called the _[[universal covering space]]_ $\hat X \to X$. The above theorem implies that the 
+(theorem \ref{FundamentalTheoremOfCoveringSpaces}) to the action of $\pi_1(X)$ on itself.
+This is called the _[[universal covering space]]_ $\hat X \to X$. The above theorem implies that the
 [[fundamental group]] itself may be recovered as the [[automorphisms]] of the universal covering space:
 
 $$
@@ -1045,17 +1081,17 @@ $$
 
 The covering $\exp(2\pi i(-)) \;\colon\; \mathbb{R}^1 \to S^1$ from example \ref{CoveringOfCircleByRealLine}
 is [[simply connected topological space|simply connected]], hence must be the [[universal covering space]],
-up to [[homeomorphism]]. 
+up to [[homeomorphism]].
 
 It is fairly straightforward to see that the only [[homeomorphisms]] from $\mathbb{R}^1$ to itself
 over $S^1$ are given by [[integer]] translations by $n \in \mathbb{N} \hookrightarrow \mathbb{R}$:
 
 $$
   \array{
-    \mathbb{R}^1 
-      &&  
+    \mathbb{R}^1
+      &&
         \underoverset{\simeq}{t \mapsto t + n}{\longrightarrow}
-      && 
+      &&
     \mathbb{R}^1
     \\
     & {}_{\mathllap{\exp(2 \pi i(-))}}\searrow && \swarrow_{\mathrlap{\exp(2 \pi i(-))}}
@@ -1065,7 +1101,7 @@ $$
   \,.
 $$
 
-Hence 
+Hence
 
 $$
   Aut_{Cov_{/S^1}}(\hat S^1, \hat S^1) \simeq \mathbb{Z}
@@ -1121,7 +1157,7 @@ See also [[examples in topology]].
 
 * [[low-dimensional topology]], [[3-manifold]]
 
-### Algebraic topology and homotopy theory 
+### Algebraic topology and homotopy theory
 
 * [[homotopy]], [[homotopy inverse]], [[homotopy theory]], [[homotopy equivalence]], [[rational homotopy theory]]
 * [[shape theory]], [[algebraic topology]], [[basic problems of algebraic topology]]
@@ -1207,7 +1243,7 @@ Introductions to topology include:
 
 * [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
-* Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+* {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
 * Alex Kuronya, _Introduction to topology_, 2010 ([pdf](https://www.uni-
 frankfurt.de/64271720/TopNotes_Spring10.pdf))
