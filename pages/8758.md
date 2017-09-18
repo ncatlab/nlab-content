@@ -9,6 +9,8 @@
 
 * [[quiver]], [[n-quiver]]
 
+[[category of simple graphs]]
+
 ### Extra properties
 
 * [[reflexive graph|reflexive]], [[directed graph|directed]]
