@@ -219,7 +219,7 @@ $$
 $$
 
 
-Next, any stuff on objects of $C$ that respects the [[principle of equialence]] is given by a functor from $C_iso$ to $Grpd_iso$.  Here $Grpd_iso$ should be taken to be the $2$-[[2-groupoid|groupoid]] whose objects are groupoids, whose morphisms are equivalences, and whose $2$-morphisms are [[natural isomorphism]]s; similarly, the functor $P: C_iso \to Grpd_iso$ should be taken in the weakest sense (often called a [[pseudofunctor]]).  Then the [[Grothendieck construction]] turns $P$ into a category $C_P$ equipped with a functor to $C$; again, the essential fiber converts any functor $F: D \to C$ into such a $P$ (although really you must take the core of the essential fiber to get a groupoid).
+Next, any stuff on objects of $C$ that respects the [[principle of equivalence]] is given by a functor from $C_iso$ to $Grpd_iso$.  Here $Grpd_iso$ should be taken to be the $2$-[[2-groupoid|groupoid]] whose objects are groupoids, whose morphisms are equivalences, and whose $2$-morphisms are [[natural isomorphism]]s; similarly, the functor $P: C_iso \to Grpd_iso$ should be taken in the weakest sense (often called a [[pseudofunctor]]).  Then the [[Grothendieck construction]] turns $P$ into a category $C_P$ equipped with a functor to $C$; again, the essential fiber converts any functor $F: D \to C$ into such a $P$ (although really you must take the core of the essential fiber to get a groupoid).
 
 Diagrammatically this may be phrased as saying that every functor $D \to C$ arises as a [[2-limit|weak pullback]] of the $3$-subobject classifier (as described at [[generalized universal bundle]] )
 
