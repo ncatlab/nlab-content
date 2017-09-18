@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
 #Contents#
 * table of contents
 {:toc}
@@ -19,3 +28,4 @@ For formalization of this in terms of [[hyperdoctrines]]/[[dependent type theory
 
 * Stanford Encyclopedia of Mathematics, _[Modal Logic -- Possible words semantics](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
 
+[[!redirects possible worlds]]
