@@ -130,7 +130,7 @@ Lecture notes on [[G-spectra]] modeled as [[orthogonal spectra]] with $G$-action
 
 A textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]] is in 
 
-* [[L. Gaunce Lewis]], [[Peter May]], and M. Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_ Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and M. Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_ Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
 
 and a more modern version taking into account the theory of [[symmetric monoidal categories of spectra]] is in
 
