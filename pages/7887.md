@@ -6,4 +6,9 @@
 
 * [[minimal dendroidal fibration]]
 
+* [[minimal Hirsch cofibration]]
+
 [[!redirects minimal fibrations]]
+
+[[!redirects minimal cofibration]]
+[[!redirects minimal cofibrations]]
