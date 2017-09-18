@@ -41,7 +41,7 @@ Generalized Eilenberg-Steenrod cohomology is
 
 =--
 
-## Classical formulation 
+## Definition
  {#TheEilenbergSteenrodAxioms}
 
 This sections states the classical formulation of the Eilenberg-Steenrod axioms due to ([Eilenberg-Steenrod 52, I.3](#EilenbergSteenrod52)) in terms of concepts from classical [[algebraic topology]], such as [[CW-pairs]] and [[mapping cones]]. 
@@ -288,7 +288,7 @@ By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGener
 ### Unreduced cohomology
  {#UnreducedCohomology}
 
-In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topological spaces]] ([[CW-complexes]])  $U \hookrightarrow X$.  Whenever only one space is mentioned, the subspace is assumed to be the [[empty set]] $(X, \emptyset)$. Write $Top_{CW}^{\hookrightarrow}$ for the category of such pairs (the [[full subcategory]] of the [[arrow category]] of $Top_{CW}$ on the inclusions). We identify $Top_{CW} \hookrightarrow Top_{CW}^{\hookrightarrow}$ by $X \mapsto (X,\emptyset)$.
+In the following a _pair_ $(X,A)$ refers to a [[subspace]] inclusion of [[topological spaces]] ([[CW-complexes]])  $A \hookrightarrow X$.  Whenever only one space is mentioned, the subspace is assumed to be the [[empty set]] $(X, \emptyset)$. Write $Top_{CW}^{\hookrightarrow}$ for the category of such pairs (the [[full subcategory]] of the [[arrow category]] of $Top_{CW}$ on the inclusions). We identify $Top_{CW} \hookrightarrow Top_{CW}^{\hookrightarrow}$ by $X \mapsto (X,\emptyset)$.
 
 
 +-- {: .num_defn #GeneralizedCohomologyTheory}
@@ -640,8 +640,7 @@ This is the _[[suspension isomorphism]]_ extracted from the unreduced cohomology
 
 
 
-
-### Relation between reduced and unreduced cohomology
+## Relation between reduced and unreduced cohomology
  {#RelationBetweenReducedAndUnreduced}
 
 +-- {: .num_defn #FromUnreducedToReducedCohomology}
