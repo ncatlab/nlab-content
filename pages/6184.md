@@ -1,4 +1,14 @@
-There are two cases, one in algebraic geometry (proved by Faltings) and a related one in the theory of [[vertex operator algebra]]s (proved only in very special cases). 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Generally, a _Verlinde formula_ gives the [[dimension]] of a [[space of states]] of [[Chern-Simons theory]] for a given [[gauge group]] $G$. Depending on which one of various different algebraic means to expresses these spaces is used, the Verlinde formula equivalently computes the dimension of spaces of non-abelian [[theta functions]], the dimension of objects in a [[modular tensor category]] and so forth.
+
+
+There are also Verlinde formulas in algebraic geometry (proved by Faltings) and a related one in the theory of [[vertex operator algebra]]s (proved only in very special cases). 
 
 
 ## References
@@ -8,3 +18,5 @@ Faltings
 Mukai moduli space book
 
 Dowker, _On Verlinde's formula for the dimensions of vector bundles on moduli spaces_, [iopscience](http://iopscience.iop.org/0305-4470/25/9/033)
+
+[[!redirects Verlinde formulas]]
