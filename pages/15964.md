@@ -86,7 +86,7 @@ in the topos $\mathbf{H}$ is called a __standard function__, precisely if
 
 We will furthermore consider __smooth standard functions__, meaning standard functions that satisfy the internalized ordinary definition of [[smooth function]] (i.e. $C^\infty$).
 
-We define an [[equivalence relation]] on $\mathbb{R}_D^n$ by taking to elements to be equivalent if there are smooth standard functions taking them into each other:
+We define an [[equivalence relation]] on $\mathbb{R}_D^n$ by taking two elements to be equivalent if there are smooth standard functions taking them into each other:
 
 $$
   \vdash 
@@ -147,11 +147,11 @@ Note that any function constant at a Cauchy real is standard.  Therefore, every 
 +-- {: .num_example}
 ###### Example
 ([Fourman 75, example 4.3 1](#Fourman75))
-Let $X$ be a [[smooth manifold]] of [[dimension]] $n$, with [[sheaf topos]] $\mathb{H} \coloneqq Sh(X)$.  As shown at [[real numbers object]], $\mathbb{R}_D$ is then the sheaf of *continuous* real-valued functions on $X$.
+Let $X$ be a [[smooth manifold]] of [[dimension]] $n$, with [[sheaf topos]] $\mathbf{H} \coloneqq Sh(X)$.  As shown at [[real numbers object]], $\mathbb{R}_D$ is then the sheaf of *continuous* real-valued functions on $X$.
 
 Let $S\subseteq \mathbb{R}_D^n$ be the sheaf of local [[coordinate systems]], i.e. $S(U)$ is the set of real-valued functions $U\to \mathbb{R}^n$ that are smooth and are locally diffeomorphisms onto their images.  Then $S$ is a smooth structure on $Sh(X)$ of dimension $n$, according to def. \ref{SmoothStructureDimN}.
 
-The corresponding object $\mathbb{R}_S$ of smooth reals is the sheaf of \emph{smooth} real-valued functions $X\to \mathbb{R}$.  Note that since $X$ is locally connected, the Cauchy real numbers object $\mathbb{R}_C$ in $Sh(X)$ is the sheaf of locally constant real-valued functions, so $\mathbb{R}_S$ sits strictly in between $\mathbb{R}_C$ and $\mathbb{R}_D$.
+The corresponding object $\mathbb{R}_S$ of smooth reals is the sheaf of *smooth* real-valued functions $X\to \mathbb{R}$.  Note that since $X$ is locally connected, the Cauchy real numbers object $\mathbb{R}_C$ in $Sh(X)$ is the sheaf of locally constant real-valued functions, so $\mathbb{R}_S$ sits strictly in between $\mathbb{R}_C$ and $\mathbb{R}_D$.
 
 =--
 
