@@ -125,3 +125,6 @@ and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.
 
 
 [[!redirects Haefliger groupoids]]
+
+[[!redirects Haefliger stack]]
+[[!redirects Haefliger stacks]]
