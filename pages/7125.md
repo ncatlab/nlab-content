@@ -183,6 +183,10 @@ Examples of the gluing construction abound. Here are a few:
 
 * If $E$ is a Grothendieck topos and $\Delta \colon Set \to E$ is the (essentially unique) left exact left adjoint, then we have a gluing construction $E \downarrow \Delta$. This gluing may be regarded as the result of attaching a generic open point to $E$. 
 
+## Related entries
+
+* [[Freyd cover]]
+
 ## References 
 
 * [[Gavin Wraith]], _Artin Glueing_ , JPAA **4** (1974) pp.345-358.
