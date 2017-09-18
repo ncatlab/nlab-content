@@ -43,6 +43,7 @@ This is a $1/2$-[[BPS state]] of 11-dimensional supergravity.
 
 The [[near horizon geometry]] of this spacetime is [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere|S4]]. For more on this see at _[[AdS-CFT]]_.
 
+[[!include black branes in supergravity -- table]]
 
 
 ## Properties
