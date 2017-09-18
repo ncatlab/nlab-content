@@ -300,6 +300,8 @@ Basic textbook accounts include
 
 * Brayton Gray, _Homotopy Theory: An Introduction to Algebraic Topology_, Academic Press, New York (1975). 
 
+* [[George Whitehead]], chapter II of _Elements of homotopy theory_, 1978
+
 * {#May} [[Peter May]], _[[A Concise Course in Algebraic Topology]]_, U. Chicago Press (1999) 
 
 * {#Hatcher} [[Allen Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002
