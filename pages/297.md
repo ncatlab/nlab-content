@@ -1991,7 +1991,7 @@ In conclusion, [[1-dimensional Dijkgraaf-Witten theory]] as a prequantum field t
 
 
 
-### Quantum mechanics with interactions and Feynman diagram
+### Quantum mechanics with interactions and Feynman diagrams
  {#QMWithInteractionAndFeynmanDiagrams}
 
 We saw above that [[symmetric monoidal category]] theory naturally captures all the key aspects of basic [[quantum mechanics]].
@@ -2116,7 +2116,7 @@ In physics speak $B$ is the space of states for the topological _[[closed string
 Or rather, it is _some_ topological string model, but not the one originally obtained by [[topological twist]] from the [[2d (2,0)-superconformal QFT]] which is commonly what is understood as the "[[topological string]]" in [[string theory]] ([[A-model]]/[[B-model]]).
 
 
-#### Local 2d TQFT -- The A/B-model topological String  
+#### Cohomological 2d TQFT -- The A/B-model topological String  
  {#Local2dTQFT}
 
 Curiously, the above does _not_ capture the original motivating examples for [[2d TQFT]] that came from physics, namely it does not capture the "[[cohomological quantum field theory]]" due to [[Edward Witten]], such as the [[topological string]] in its incarnation as the [[A-model]] and [[B-model]] and the [[Landau-Ginzburg model]].
@@ -2135,13 +2135,32 @@ Examples come from twisting the [[2d (2,0)-CFT]] induced from a [[Calabi-Yau man
 
 remember space of [[diffeomorphism]]
 
-* Getzler, Segal: [[TCFT]]
+* Getzler, Segal: "[[TCFT]]"
 
 classification by ([Costello 04](#Costello04)) sums it up:
 
-[[Calabi-Yau A-∞ category]] is equivalent to non-compact open topological string with coefficients in $Ch(Vect)$. The [[objects]] of the category are the [[D-branes]], [[hom-spaces]] are the spaces of quantum states of open strings stretching between these. The close string [[bulk field theory]] sector is given by forming [[Hochschild homology]]. Given a [[Calabi-Yau manifold]], then the [[A-∞ category]] refinement (see at _[[enhanced triangulated category]]_) of its [[derived category of coherent sheaves]] is an example. (...)
+[[Calabi-Yau A-∞ category]] is equivalent to non-compact open topological string with coefficients in $Ch(Vect)$. The [[objects]] of the category are the [[D-branes]], [[hom-spaces]] are the spaces of quantum states of open strings stretching between these. The closed string [[bulk field theory]] sector is given by forming [[Hochschild homology]]. Given a [[Calabi-Yau manifold]], then the [[A-∞ category]] refinement (see at _[[enhanced triangulated category]]_) of its [[derived category of coherent sheaves]] is an example. 
 
 
+#### Local 2d TQFT -- D-Brane states as quantum 2-states
+
+Given an [[associative algebra]] $A$ then its [[category of modules]] $A Mod$
+behaves much like a higher analog of a [[module]]/[[vector space]].
+
+Given an $A$-$B$ [[bimodule]] $N$ then $(-)\otimes_A N \colon A Mod \to B Mod$ behaves like a higher dimensional [[linear operator]].
+
+This is the [[Eilenberg-Watts theorem]].
+
+Hence we speak of a [[2-module]].
+
+Notice that every algebra $A$ is canonically an $A$-$A$-bimodule. This way we see that the above construction naturally localizes
+
+|  | [[cohomological QFT]] | [[local QFT]] |
+|--|-----------------------|---------------|
+| [[open string]] $\mapsto$ | open string algebra $A$ | open string [[bimodule]] ${}_{A} A_{A}$ |
+| point $\mapsto$ |   |  [[2-module]] $A Mod$ |
+
+We motivate this further [below](#IntroductionGeneralFormulation). First to record the classification results:
 
 [[!include 2d TQFT -- table]]
 
@@ -2179,9 +2198,11 @@ One way to understand from the point of view of [[physics]] why the 1-functorial
 
 The standard [[Lagrangian]]-data ("[[prequantum field theory]]") from which [[topological quantum field theories]] are supposed to arise under [[quantization]] do not enforce such a splitting as indeed they are [[general covariance|generally covariant]]. Accordingly, a [[local Lagrangian]] should, after [[quantization]], give rise to a [[local quantum field theory]] that is still "generally covariant" in that it does not require or depend on such a splitting. In physics this plays a crucial role for instance in considerations related to [[quantum gravity]].
 
-#### Cobordisms by higher handle attachment
+#### Higher dimensional local evolution and Directed homotopy types
 
-(...)
+We saw [above](#CorrespondencesOfGroupoids) how 1-dimensional ([[prequantum field theory|prequantum]]) field theory is encoded by [[correspondences]] of [[groupoids]] 
+
+For instance the process of a particle and its antiparticle appearing out of the vacuum is given by
 
 $$
   \array{
@@ -2193,6 +2214,8 @@ $$
   }
 $$
 
+and the referse process of them disappearing is given by
+
 $$
   \array{
     && \mathbf{Fields}
@@ -2202,6 +2225,8 @@ $$
     \mathbf{Fields} \times \mathbf{Fields}  && &&  \ast
   }
 $$
+
+A particle tracing out a circle is equivalently the composition (via [[homotopy fiber product]]) of these two process.
 
 $$
   \array{
@@ -2217,6 +2242,8 @@ $$
   }
 $$
 
+Then we saw [above](#Local2dTQFT) for [[2d TQFT]] that in higher dimensional general such a circle in turn may appear
+
 $$
   \array{
      && [\Pi(S^1), \mathbf{Fields}]
@@ -2231,6 +2258,8 @@ $$
   }
 $$
 
+and disappear
+
 $$
   \array{
      && \ast
@@ -2244,12 +2273,16 @@ $$
      && [\Pi(S^1), \mathbf{Fields}]
   }
 $$
+
+The 2-dimensional composition of such processes, again by [[homotopy fiber product]] yields values on all higher spheres
 
 $$
   \mathbf{Fields} \underset{[\Pi(S^n)]}{\times} \mathbf{Fields}
   \simeq
   [\Pi(S^{n+1}), \mathbf{Fields}]
 $$
+
+and in fact all [[homotopy types]] of [[smooth manifolds]]. For instance the  [[trinion]] process is represented by this correspondence-of-correspondences:
 
 $$
   \array{
@@ -2265,16 +2298,92 @@ $$
   }
 $$
 
+To describe local propagation in higher dimensional field theory this way, evidently we need a higher dimensional calculus that deals both with the [[homotopy theory]] ([[gauge theory]]) involves as well as with the directionality of these processes.
+
+We already saw the first hint of how this works: [[groupoids]] above appeared in two different guises, on the one hand as [[homotopy 1-types]], on the other as special kinds of [[categories]] with directed morphisms.
+
+Now [[homotopy 1-types]] have a classical generalization to general [[homotopy types]], traditionally taken to be represented by [[topological spaces]] regarded up to [[weak homotopy equivalence]]. 
+
+A crucial fact is that one may pair this full homotopy-theoretic aspect with the category-theoretic aspect to get [[(∞,1)-categories|∞-categories]]
+
+$$
+  \array{
+    && groupoids
+    \\
+    & \swarrow && \searrow
+    \\
+    categories && && \infty\text{-}groupoids
+    \\
+    & \searrow && \swarrow
+    \\
+    && \infty\text{-}categories
+  }
+$$
+
+$n$-fold $\infty$-categories $\longrightarrow$ [[(∞,n)-categories]]
+
+[[k-morphisms]] for all $k$, such that for $k \gt n$ they are invertible
+
+$$
+\array{\arrayopts{\rowalign{center}}
+O(\Delta^0) = & \{ 0\} \\
+O(\Delta^1) = & \left\{ 0 \to 1\right\} \\
+O(\Delta^2) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta2]]
+\end{svg}}
+\right\}\\
+O(\Delta^3) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta3]]
+\end{svg}}\right\}\\
+O(\Delta^4) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta4]]
+\end{svg}}
+\right\}
+}
+$$
+
+in particular
+
+* [[(∞,n)-category of cobordisms]] $Bord_n$
+
+* [[(∞,n)-category of correspondences]] $Corr_n$
+
+* [[(∞,n)-category of (∞,n)-modules]] $Mod_n$
+
+
+
 #### Formalization in higher monoidal category theory
 
-... [[(infinity,n)-category of cobordisms]]...
+These are [[symmetric monoidal (∞,n)-categories]], hence one may consider
 
-... [[symmetric monoidal (infinity,n)-category]]...
+ [[monoidal (∞,n)-functors]]
 
-... [[fully dualizable object]]...
+[[schreiber:Local prequantum field theory]]
 
-... [[cobordism hypothesis]]...
+$$
+  Bord_n^\sqcup
+  \longrightarrow
+  Corr_n(\mathbf{H}_{/Phases})^{\otimes_{phased}}
+$$
 
+[[local quantum field theory]]
+
+$$
+  Bord_n^\sqcup \longrightarrow Mod_n^\otimes
+$$
+
+The classification theory of these, the _[[cobordism theorem]]_ says roughly that such local topological field theories assign [[fully dualizable objects]] $V$ to the point and are entirely determined by this assignment in that every higher dimensional manifold is sent to the [[higher dimensional trace]] on the identity on that object, i.e. the higher codimension analogs of the [[partition function]].
+
+$$
+  \Sigma \mapsto tr_\Sigma(id_V)
+  \,.
+$$
+
+
+(...)
 
 ### 3d TQFT
  {#Global3dTQFT}
@@ -2283,6 +2392,7 @@ $$
 #### Chern-Simons theory
 
 ...[[fusion category]]...
+
 
 ...[[Turaev-Viro construction]]...
 
