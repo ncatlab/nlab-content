@@ -661,6 +661,7 @@ $$
 
 ([MMSS 00, section 10](#MMSS00))
 
+
 #### Proof of the stable model structure
  {#ProofOfTheStableModelStructure}
 
@@ -999,16 +1000,6 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 =--
 
-#### Proof of the Quillen equivalence of all stable model structures
-
-+-- {: .num_prop }
-###### Proposition
-
-(...)
-
-=--
-
-
 #### Relating stable equivalences and stable weak homotopy equivalences
  {#RelatingStableEquivalencesAndStableWeakHomotopyEquivalences}
 
@@ -1285,6 +1276,65 @@ The other two follow from inspection of the explicit form of the map according t
 
 
 (...)
+
+
+
+
+
+#### Proof of the Quillen equivalence of all stable model structures
+
++-- {: .num_lemma #AdjunctionsBetweenDiagramSpectraAreStableQuillenAdjunctions}
+###### Lemma
+
+The sequence of adjunctions between the categories $\mathbb{S}_{dia}Mod$ from prop. \ref{SystemOfAdjunctionsForDiagramSpectra} are [[Quillen adjunctions]] with respect to the stable model structures of theorem \ref{StableModelStructuresOnDiagramSpectra}
+
+$$
+ \array{
+   && OrthSpec(Top)_{stable} && SymSpec(Top)_{stable} && SeqSpec(Top)_{stable}
+   \\
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_{stable}
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underoverset{orth^\ast}{\simeq_{Qu}}{\longrightarrow}}&
+   \mathbb{S}_{Orth} Mod_{stable}
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underoverset{sym^\ast}{\simeq_{Qu}}{\longrightarrow}}&
+   \mathbb{S}_{Sym} Mod_{stable}
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underoverset{seq^\ast}{\simeq_{Qu}}{\longrightarrow}}&
+   \mathbb{S}_{Seq} Mod_{stable}
+ }
+ \,.
+$$
+
+
+=--
+
+([MMSS 00, lemma 10.1](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations} the stable fibrations are equivalently the $K$-[[injective morphisms]].
+By lemma \ref{KInjectivesAreAcyclicCofibrations} these are characterized by data that is preserved by right Quillen functors with respect to the strict model structure. Moreover by lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the stable acyclic fibrations are equivalently the strict acyclic fibrations, which are of course also preserved by right Quillen functors for the strict model structure. Therefore the statement follows with prop. \ref{StrictModelStructureOnDiagramSpectra}.
+
+=--
+
++-- {: .proof}
+###### Proof idea
+(of theorem \ref{QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra})
+
+With lemma \ref{AdjunctionsBetweenDiagramSpectraAreStableQuillenAdjunctions} it is sufficient to show that all the total [[derived functors]] are [[adjoint equivalences]]. By [[two-out-of-three]] for Quillen equivalences, it is sufficient to show this for all the (composite) adjunctions whose right adjoint does _not_ point to $\mathbb{S}_{Sym}Mod$.
+
+In these cases, theorem \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} implies that the right adjoint functor preserves and reflects weak equivalence (a morphism in its domain is a stable equivalence precisely if its image is).
+
+In such a case, for checking a Quillen equivalence it is sufficient to check that the [[adjunction unit]] is a weak equivalence on all cofibrant objects (...citation...).
+
+Since both adjoints in the presnt case preserve [[colimits]], [[tensoring]] with $Top^{\ast/}$ and the [[homotopy lifting property]], and since (...)
+
+(...)
+
+=--
 
 
 
