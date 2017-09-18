@@ -591,13 +591,18 @@ Said heuristically: the [[Jones polynomial]] of the knot $K$ can be understood a
 
 The beautiful thing about Chern--Simons theory is that Witten was able use the _locality_ property of the [[path integral]] to give a _nonperturbative_ way to actually compute it. In this way Chern--Simons theory has become the 'poster-child' of [[extended topological quantum field theory]] since it exemplifies the main idea: take advantage of the higher gluing laws in order to compute geometric quantities. 
 
-One of the major mathematical projects around Chern--Simons theory has therefore been to try and understand it rigorously as a 3-2-1-0 [[extended topological quantum field theory]]. For the abelian case the major paper in this regard is [Topological quantum field theories from Compact Lie Groups](http://arxiv.org/abs/0905.0731) by [[Dan Freed|Freed]], [[Mike Hopkins|Hopkins]], [[Jacob Lurie|Lurie]] and Teleman. No-one has yet made rigorous sense of the nonabelian theory as an extended [[TQFT]]. However, the invariants that the theory assigns to closed [[manifold]]s of dimension 0,1,2 and 3 are heuristically expected to be:
+One of the major mathematical projects around Chern--Simons theory has therefore been to try and understand it rigorously as a 3-2-1-0 [[extended topological quantum field theory]]. 
+
+For the abelian case the major paper in this regard is _[[Topological Quantum Field Theories from Compact Lie Groups]]_ by [[Dan Freed|Freed]], [[Mike Hopkins|Hopkins]], [[Jacob Lurie|Lurie]] and [[Constantin Teleman|Teleman]]. No-one has yet made rigorous sense of the nonabelian theory as an extended [[TQFT]]. However, the invariants that the theory assigns to closed [[manifolds]] of dimension 0,1,2 and 3 are heuristically expected to be:
+
+Proposals by other authors include ([Henriques 15](#Henriques15)).
+
 
 A closed 3-manifold $M$ $\mapsto$ the path integral given above (a number).
 
 A closed 2-manifold $\Sigma$ $\mapsto$ the space of sections of the line bundle over the moduli space of flat [[connection on a bundle|connection]]s on $\Sigma$ (a finite-dimensional [[vector space]]).  (Reshetikhin and Turaev give an alternate quantum-groupy description of this space).
 
-A circle $S^1$ $\mapsto$ the [[category]] of [[positive-energy representation]]s of the [[loop group]] $\Omega_k (G)$ at level $k$ (a [[linear category]]).
+A circle $S^1$ $\mapsto$ the [[category]] of [[positive energy representation]]s of the [[loop group]] $\Omega_k (G)$ at level $k$ (a [[linear category]]).
 
 +-- {: .query}
 The R-T construction sticks on the circle the [[modular tensor category]] of representations of a [[quantum group]] at a root of unity, modulo "unphysical representations."  Are these supposed to be the same?  Is this just the Kazhdan-Lusztig equivalence?
@@ -1000,6 +1005,8 @@ Discussion as a (relative) 3-2-1-0 [[extended TQFT]] is in
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
+
+* {#Henriques15} [[André Henriques]], _What Chern-Simons theory assigns to a point_ ([arXiv:1503.06254](http://arxiv.org/abs/1503.06254))
 
 A gentle introduction leading up to one proposal for what Chern-Simons theory assigns to a point (a category of [[positive energy representations]] of the based [[loop group]]) is in
 
