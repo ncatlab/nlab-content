@@ -16,7 +16,7 @@
 
 ##Idea and definition##
 
-A polyhedron (beware remark \ref{RemarkOnTerminology}) is a [[topological space]] made up of very simple bits 'glued' together. The 'bits' are **[[simplices]]** of different [[dimensions]]. An abstract _simplicial complex_ is a neat combinatorial way of giving the corresponding 'gluing' instructions, a bit like to plan of a construction kit!
+A polyhedron (beware remark \ref{RemarkOnTerminology}) is a [[topological space]] made up of very simple bits 'glued' together. The 'bits' are **[[simplices]]** of different [[dimensions]]. An abstract _simplicial complex_ is a neat combinatorial way of giving the corresponding 'gluing' instructions, a bit like the plan of a construction kit!
 
 +--{: .num_defn}
 ######Definition#######
@@ -49,7 +49,7 @@ The word 'polyhedron' is used here as it is often used by [[algebraic topology|a
 
 
 ##Examples##
-1. Any (undirected simple) graph gives a simplicial complex. The usual definition of graph is that it is an ordered pair $(V,E)$ where $V$ is a set of vertices, and $E$ a set of (unordered) pairs of vertices. This is the simplest form of graph; it is undirected, edges do not have a 'start' and 'finish', (or 'head' and 'tail') and 'simple', in as much as there can be at most one edge between a given pair of vertices. (The case of a 'multigraph' where there can be multiple edges between vertices, and perhaps loops at a vertex, does not correspond to a simplicial complex, but does give a [[simplicial set]].)  A graph is a 1-dimensional simplicial complex.
+1. Recall that a 'simple' graph is an undirected [[graph]] with no loops or multiple edges. Any simple graph may be [[graph#undirected_graphs_as_1complexes_barycentric_subdivision|interpreted as a 1-dimensional simplicial complex, and vice versa]]. (The case of a 'multigraph' where there can be multiple edges between vertices, and perhaps loops at a vertex, does not correspond to a simplicial complex, but does give a [[simplicial set]].)
 
 1. Given a space and an [[open cover]], the nerve of the cover is a simplicial complex (see [[Čech methods]] and the discussion there). The [[Vietoris complex]] is another given by a related method.
 
