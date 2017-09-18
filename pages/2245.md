@@ -27,7 +27,7 @@ Any algebraic group contains a unique normal linear algebraic subgroup $H$ such 
 
 ### Linear algebraic group
 
-An algebraic $k$-group is *linear* if it is a [[Zariski topology|Zariski]]-closed subgroup of the [[general linear group]] $GL(n,k)$ for some $n$.
+An algebraic $k$-group is [[linear algebraic group|linear]] if it is a [[Zariski topology|Zariski]]-closed subgroup of the [[general linear group]] $GL(n,k)$ for some $n$.
 
 An algebraic group is linear iff it is affine.
 
