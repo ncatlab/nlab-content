@@ -46,7 +46,7 @@ There is also the [[IKKT matrix model]], which takes this one step further by re
 
 The original article is
 
-* {#BanksFischlerShenkerSusskind96} [[Tom Banks]], W. Fischler, S.H. Shenker and [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043)).
+* {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], S.H. Shenker and [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043)).
 
 The interpretation of the BFSS model as a regularized [[M2-brane]] [[worldvolume]] theory is discussed in
 
