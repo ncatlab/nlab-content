@@ -43,7 +43,7 @@ _[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]
 _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_ ([[IntroductionToStableHomotopyTheory-2-161227.pdf:file]], 54 pages)
 <br/>
 <br/>
-_[[Introduction to Stable homotopy theory -- S|Seminar -- Complex oriented cohomology]]_ ([[IntroductionToStableHomotopyTheory-S-161227.pdf:file]], 76 pages)
+_[[Introduction to Cobordism and Complex Oriented Cohomology]]_ ([[IntroductionToStableHomotopyTheory-S-161227.pdf:file]], 76 pages)
 <br/>
 <br/>
 _[[schreiber:Introduction to Homological algebra|Background -- Introduction to Homological algebra]]_ ([[IntroductionToHomologicalAlgebra-161227.pdf:file]], 83 pages)
