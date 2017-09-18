@@ -21,7 +21,7 @@
 
 A [[differential graded algebra]] is __semifree__ (or semi-free) if the underlying [[graded algebra]] is free: if after forgetting the differential, it is isomorphic as a graded algebra to a (polynomial) [[tensor algebra]] of some ([[super vector space|super]])[[graded vector space]]. 
 
-A differential **graded-commutative** algebra is __semifree__ (or semi-free) if the underlying graded-commutative algebra is free: if after forgetting the differential, it is isomorphic as a graded-commutative algebra to a [[Grassmann algebra]] of some [[graded vector space]] . 
+A [[differential graded-commutative algebra]] is __semifree__ (or semi-free) if the underlying graded-commutative algebra is free: if after forgetting the differential, it is isomorphic as a graded-commutative algebra to a [[Grassmann algebra]] of some [[graded vector space]] . 
 
 
 ## Roiter's theorem 
@@ -84,3 +84,6 @@ Sometimes semi-free DGAs are called _quasi-free_, but this is in collision with 
 
 [[!redirects semifree dg-algebra]]
 [[!redirects semifree dg-algebras]]
+
+[[!redirects semifree differential graded-commutative algebra]]
+[[!redirects semifree differential graded-commutative algebras]]
