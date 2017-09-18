@@ -62,7 +62,7 @@ The more familiar two-sorted 'signature' for reflexive graphs, obtains from the 
 
 * It follows that a commutative graphic monoid is the same as a [[semilattice]], or equivalently, a commutative monoid where every element is idempotent.
 
-* The _free graphic monoid_ on a set $X$ is the set of totally ordered finite subsets of $X$, where the product of finite subsets $S$ and $T$ is the union $S \cup T$ ordered in such a way that the inclusions $S \hookrightarrow S\cup T$, $T \hookrightarrow S\cup T$ are order-preserving and all the elements of $T$ not in $S$ are greater than all elements of $S$.  This is easy to understand from an example.  Consider the free graphic monoid on $X = \{a,b\}$.  This contains:
+* The _free graphic monoid_ on a set $X$ is the set of totally ordered finite subsets of $X$, where the product of finite subsets $S$ and $T$ is the union $S \cup T$ ordered in such a way that the inclusion $S \hookrightarrow S\cup T$ is order-preserving, the inclusion $T \hookrightarrow S\cup T$ is order-preserving for all elements of $T$ not in $S$, and all the elements of $T$ not in $S$ are greater than all elements of $S$.  This is easy to understand from an example.  Consider the free graphic monoid on $X = \{a,b\}$.  This contains:
 
   1 (corresponding to the empty subset of $X$), 
 
