@@ -457,6 +457,9 @@ $$
     -
     e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)}
   \right) d^p \vec k
+    \\
+    = 
+   -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
     \,.
   \end{aligned}
 $$
@@ -625,7 +628,7 @@ $$
 $$
 
 With the Poisson bracket kernel $\{\phi(\vec x), \phi(\vec y)\} = \delta(\vec x - \vec y)$ from example \ref{PoissonBracketsOverMinkowskiSpacetime} (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime),
-it follow that the  (integral kernel for the) Poisson bracket of these mode functionals is 
+it follow that the  (integral kernel for the) Poisson bracket of these mode functionals is
 that of the [[canonical commutation relations]]:
 
 $$
@@ -705,7 +708,7 @@ $$
   & =
   + i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
   \\
-  & = 
+  & =
   + i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( -k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
   \\
   \end{aligned}
@@ -717,7 +720,7 @@ In particular this says that
 $$
   \{ \phi^{(+)}(x), \phi^{(-)}(y) \}
   =
-  - \omega(y,x) 
+  - \omega(y,x)
   \coloneqq
   -
   \{ \phi^{(-)}(y), \phi^{(+)}(x) \}
@@ -742,14 +745,14 @@ $$
   & =
   \omega(x,y) - \omega(y,x)
   \\
-  & = 
-  -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left( 
+  & =
+  -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left(
     e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)}
     -
-    e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} 
+    e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)}
   \right) d^p \vec k
   \\
-  & = 
+  & =
   -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
  \,.
   \end{aligned}
