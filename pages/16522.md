@@ -1,7 +1,9 @@
 
 ## Related concepts
 
-* [[atom physics]]
+* [[chemistry]]
+
+* [[molecule]]
 
 ## References
 
