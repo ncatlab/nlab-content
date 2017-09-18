@@ -213,7 +213,9 @@ Thus, a $G$-torsor in a category with products can be tautologically interpreted
 * [[principal ∞-bundle]] / [[associated ∞-bundle]]
 * [[descent along a torsor]], [[Schneider's descent theorem]]
 * [[Hopf-Galois extension]], [[quantum homogeneous space]],
-[[noncommutative principal bundle]], [[quantum heap]]
+* [[noncommutative principal bundle]], [[quantum heap]]
+
+* [[physical unit]]
 
 ## References 
 
