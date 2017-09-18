@@ -14,5 +14,5 @@ Annals of Math. (2) 69 1959 223--246.
 
 V. A. Smirnov, Simplicial and operadic methods in algebraic topology, Translations of mathematical monographs 198, AMS, Providence, Rhode Island 2001. 
 
-Lefevre-Hasegawa thesis (Paris) 
+K. Lefevre-Hasegawa [thesis](http://arxiv.org/pdf/math/0310337v1.pdf) (Paris, 2003). 
 
