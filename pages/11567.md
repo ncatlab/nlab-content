@@ -69,16 +69,46 @@ This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#
 
 More generally:
 
++-- {: .num_theorem #HRAlgerasAreRdgAlgebras}
+###### Theorem
+
+For $R$ a [[commutative ring]], then there is a [[zig-zag]] of [[Quillen equivalences]] between a [[model structure for ring spectra]] over $H R$ and [[model structure on dg-algebras]] over $R$. 
+
+In particular the induced [[total derived functors]] constitute an [[equivalence of categories|equivalence]] of [[homotopy categories]]:
+
+
+$$
+  H R AlgSpec
+   \underoverset
+     {\underset{\Theta}{\longrightarrow}}
+     {\overset{H}{\longleftarrow}}
+     {\simeq}
+  dgAlg_R
+$$
+
+=--
+
+([Shipley 02, theorem 1.1](#Shipley02))
+
+
 +-- {: .num_theorem}
 ###### Theorem
 
 For $A$ any [[dg-algebra]], then there is a [[Quillen equivalence]]
 
 $$
-  H A Mod \simeq A Mod
+  (H A) ModSpec \simeq_{Quillen} A Mod
 $$
 
 between $H A$-[[module spectra]] and [[dg-modules]] over $A$.
+
+Dually, for $E$ an $H \mathbb{Z}$-[[algebra spectrum]], then there is a [[Quillen equivalence]]
+
+$$
+  E ModSpec \simeq_{Quillen} (\Theta E) Mod
+$$
+
+where $H(-)$ and $\Theta(-)$ are from theorem \ref{HRAlgerasAreRdgAlgebras}.
 
 =--
 
