@@ -4,9 +4,87 @@ $$
   hofib(f)
   = 
   \left\{
-    (x, f(x) \rightsquigarrow \ast)
+    (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast)
   \right\}
 $$
 
 indicating that these elements are pairs consisting of an element $x$ of $X$ and a "path" (an element of the given path space object) from $f(x)$ to the basepoint.
+
+This way the canonical map $hofib(f) \to X$ is $(x, f(x) \rightsquigarrow \ast) \mapsto x$. Hence in this notation the homotopy fiber of the homotopy fiber reads
+
+$$
+  hofib(hofib(f))
+  = 
+  \left\{
+    ( (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast), 
+            x \overset{\gamma_2}{\rightsquigarrow} \ast  )
+  \right\}
+  \,.
+$$
+
+This identifies with $\Omega Y$ by forming the loops
+
+$$
+  \gamma_1 \cdot f(\overline{\gamma_2})
+  \,,
+$$
+
+where the overline denotes reversal and the dot denotes concatenation.
+
+Then consider the next homotopy fiber
+
+$$
+  hofib(hofib(hofib(f)))
+  =
+  \left\{
+    \left(
+      ( (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast), x \overset{\gamma_2}{\rightsquigarrow} \ast  ),
+      \left(
+      \array{
+         x && \overset{\gamma_3}{\rightsquigarrow} && \ast
+         \\
+         f(x) &&\overset{f(\gamma_3)}{\rightsquigarrow}&& \ast
+         \\
+         & {}_{\mathllap{\gamma_1}}\searrow & \Downarrow & \swarrow_{\mathllap{}}
+         \\
+         && \ast
+      }    
+      \right)
+    \right)
+  \right\}
+  \,,
+$$
+
+where on the right we have a path in $hofib(f)$ from $(x, f(x)\overset{\gamma_1}{\rightsquigarrow} \ast)$ to the basepoint element. This is a path $\gamma_3$ together with a path-of-paths $f(\gamma_3) \simeq \gamma_2$. 
+
+By the above convention this is identified with the loop in $X$ which is
+
+$$
+  \gamma_2 \cdot (\overline{\gamma}_3)
+  \,.
+$$
+
+But the map to $hofib(hofib(f))$ sends this datat to $( (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast), x \overset{\gamma_2}{\rightsquigarrow} \ast  )$, hence to the loop
+
+$$
+  \begin{aligned}
+    \gamma_1 \cdot f( \overline{\gamma_2} )
+    & \simeq
+    f(\gamma_3) \cdot f(\overline{\gamma_2})
+    \\
+    & =
+    f( \gamma_3 \cdot \overline{\gamma_2} )
+    \\
+    & =
+    f ( \overline{\gamma_2 \cdot \overline{\gamma}_3} )
+    \\
+    & =
+    \overline{f(\gamma_2 \cdot \overline{\gamma}_3) }
+  \end{aligned}
+  \,,
+$$
+
+hence to the reveral of the image under $f$ of the loop in $X$.
+
+
 
