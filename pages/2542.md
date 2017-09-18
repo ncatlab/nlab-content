@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Topos Theory
+#### Synthetic differential geometry
 +-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
