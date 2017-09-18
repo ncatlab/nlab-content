@@ -253,6 +253,8 @@ Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#Malda
 
 * [[anti D-brane]]
 
+* [[Myers effect]]
+
 [[!include table of branes]]
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
@@ -388,8 +390,8 @@ For more see at _[[Freed-Witten anomaly cancellation]]_.
 
 ### Relation to Dirac structures
 
-* Tsuguhiko Asakawa, Shuhei Sasa, Satoshi Watamura, _D-branes in Generalized Geometry and Dirac-Born-Infeld Action_ ([arXiv:1206.6964](http://arxiv.org/abs/1206.6964))
- {#AsakawaSasaWatamura}
+* {#AsakawaSasaWatamura} Tsuguhiko Asakawa, Shuhei Sasa, Satoshi Watamura, _D-branes in Generalized Geometry and Dirac-Born-Infeld Action_ ([arXiv:1206.6964](http://arxiv.org/abs/1206.6964))
+ 
 
 
 
