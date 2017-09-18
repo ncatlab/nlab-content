@@ -1,4 +1,72 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $n \in \mathbb{N}$, write $O(n)$ for the [[orthogonal group]] acting on $\mathbb{R}^n$. For the following we regard these groups as [[topological groups]] in the canonical way.
+
++-- {: .num_defn}
+###### Definition
+
+For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **Stiefel manifold** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
+
+$$
+  V_n(k) \coloneqq O(k)/O(n)
+  \,,
+$$
+
+where the [[action]] of $O(n)$ is via its canonical embedding $O(n)\hookrightarrow O(k)$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The group $O(k)$ [[transitive action|acts transitively]] on the set of $n$-dimensional [[linear subspaces]] equipped with an [[orthonormal basis]], and given any such, then its [[stabilizer subgroup]] in $O(k)$ is isomorphic to $O(k-n)$. In this way the underlying set of $V_n(k)$ is in [[natural bijection]] to the set of $n$-dimensional linear subspaces in $\mathbb{R}^k$ and equipped with orthonormal basis. The realization as a [[coset]] as above serves to euqip this set naturally with a [[topology|topological space]].
+
+=--
+
+
+## Properties
+
+### Homotopy groups
+
++-- {: .num_prop}
+###### Proposition
+
+The Stiefel manifold $V_n(k)$ is [[n-connected topological space|(n-1)-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+tomorrow.
+
+=--
+
+
+### Relation to Grassmannians and universal bundles
+
+Similarly, the _[[Grassmannian manifold]]_ is the [[coset]]
+
+$$
+  Gr_n(k) \coloneqq O(k)/(O(n)\times O(k-n))
+  \,.
+$$
+
+The [[quotient]] [[projection]]
+
+$$
+  V_{k-n}(k)\longrightarrow Gr_n(k)
+$$
+
+is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(k)\times_{O(n)} \mathbb{R}^n$ a [[vector bundle]] of [[rank]] $n$. In the limit ([[colimit]]) that $k \to \infty$ is this gives a presentation of the $O(n)$-[[universal principal bundle]] and of the [[universal vector bundle]] of rank $n$, respectively.. The base space $Gr_n(\infty)\simeq_{whe} B O(n)$ is the [[classifying space]] for $O(n)$-[[principal bundles]] and rank $n$ vector bundles.
+
+
+
 ## Related concepts
 
 * [[Grassmannian manifold]]
