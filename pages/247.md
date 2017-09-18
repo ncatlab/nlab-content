@@ -5,6 +5,7 @@ I have recently been deeply involved in [[homotopy type theory]].  I am also int
 [Personal area](http://ncatlab.org/michaelshulman/show/HomePage)
 
 For my own reference: some pages that I was once planning to do some work on:
+
 * [[theory]]
 * [[lax 2-adjunction]]
 * [[structured (infinity,1)-topos]] and [[classifying topos]]
