@@ -107,3 +107,7 @@ A summary of the basics is in
 Discussion in the context of [[simplicial presheaves]] is  section 3 of 
 
 * [[Rick Jardine]], _Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
+See also
+
+* Sean Moss, _Another approach to the Kan-Quillen model structure_ ([arXiv:1506.04887](http://arxiv.org/abs/1506.04887))
