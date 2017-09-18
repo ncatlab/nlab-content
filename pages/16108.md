@@ -18,7 +18,11 @@ The problem of what this actually _means_ is analogous to that of working with a
 Why is this then different from the situation with the 'presentation', $( a : a = 1)$?  To get around that mess, the 
 free group on the generators, $F(X)$, was introduced and, of course, in $F(\{a\})$, $a^3$ is not 1. The relation is thus thought of as being a piece of data that is giving the instruction to rewrite that element to 1.
 
- An analogous algebraic device, namely [[free crossed module]]s on the presentation can be introduced  to handle the 
+ An analogous free algebraic device, namely [[free crossed module]]s on the presentation can be introduced  to handle the 
 identities. 
 
+
+##References:
+
+* [[R. Brown]] and [[J. Huebschmann]],  _Identities among relations_, in R.Brown and T.L.Thickstun, eds., Low Dimensional Topology, London Math. Soc Lecture Notes, Cambridge University Press, (1982).
 [[!redirects identities among relations]] 
