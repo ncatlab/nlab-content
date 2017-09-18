@@ -2,4 +2,6 @@ Haskell Curry (b. September 12, 1900; d. September 1, 1982) was an American math
 
 * [Wikipedia article](https://en.wikipedia.org/wiki/Haskell_Curry) 
 
+category:people
+
 [[!redirects Haskell Brooks Curry]]
