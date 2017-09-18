@@ -103,11 +103,11 @@ Complex orientation in the [above](#Definition) sense is indeed universal [[MU]]
 +-- {: .num_prop #ComplexOrientationIsMUAlgebraStructure}
 ###### Proposition
 
-For $E$ a homotopy [[commutative ring spectrum]] then there is a [[bijection]] between [[equivalence classes]] of complex orientations of $E$-cohomology and homotopy [[commutative ring spectrum]]-[[homomorphisms]] $MU \longrightarrow E$ out of [[MU]].
+For $E$ a  [[homotopy commutative ring spectrum]] then there is a [[bijection]] between complex orientations of $E$-cohomology and  [[homotopy commutative ring spectrum]]-[[homomorphisms]] $MU \longrightarrow E$ out of [[MU]].
 
 =--
 
-([Hopkins 99, section 4](#Hopkins99), [Lurie, lecture 6, theorem 8](#LurieLecture))
+([Hopkins 99, section 4](#Hopkins99), [Lurie, lecture 6, theorem 8](#LurieLecture)) See at _[[universal complex orientation on MU]]_.
 
 See also at _[[orientation in generalized cohomology]]_ the section _[universal orientation of vector bundles](orientation+in+generalized+cohomology#UniversalOrientationOfVectorBundles)_.
 
