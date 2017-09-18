@@ -111,6 +111,10 @@ Pointed objects are the [[algebras over a monad]] of the [[monad]] $X \mapsto X 
 
 Notice that if sufficient [[colimits]] exist in the first place, then this functor is trivially an [[accessible functor]], hence an [[accessible monad]]. This makes categories of pointed objects inherit good properties from the ambient category, see at _[accessible monad -- Categories of algebras](accessible+monad#CategoryOfAlgebras)_.
 
+### Classifying topos
+
+The [[classifying topos]] for pointed object is the [[presheaf topos]] $PSh((FinSet_\ast)^{op})$ on the [[opposite category]] of pointed [[finite sets]]. See at _[[classifying topos for the theory of objects]]_ for more on this.
+
 ## Related concepts
 
 * [[bi-pointed object]]
