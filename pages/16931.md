@@ -1,7 +1,7 @@
 
-**[[black hole]] [[spacetimes]]**
 
-| | vanishing [[angular momentum]] | positive [[angular momentum]] |
+
+| **[[black hole]] [[spacetimes]]** | vanishing [[angular momentum]] | positive [[angular momentum]] |
 |-|--------------------------------|-------------------------------|
-| vanishing [[charge]] | [[Schwarzschild spacetime]] | [[Kerr spacetime]] | 
-| positive [[charge]] | [[Reissner-Nordstrom spacetime]] | [[Kerr-Newman spacetime]] |
+| **vanishing [[charge]]** | [[Schwarzschild spacetime]] | [[Kerr spacetime]] | 
+| **positive [[charge]]** | [[Reissner-Nordstrom spacetime]] | [[Kerr-Newman spacetime]] |
