@@ -32,6 +32,8 @@ The above is sometimes referred to as the unstable general linear group, whilst 
 
 ## Related concepts
 
+* [[translation group]], [[affine group]]
+
 * [[Gauss decomposition]], 
 
 * [[special linear group]], [[projective linear group]]
