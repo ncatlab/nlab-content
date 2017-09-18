@@ -32,9 +32,9 @@ Much of the description below is taken from [(Harper)](#Harper).
 The sentences of a logical framework are called [[judgments]].  It turns out that in deductive systems, there are two kinds of non-basic forms that arise very commonly, which we may call
 
 * *[[hypothetical judgments]]*: one judgment is a logical consequence of some others.
-* *generic judgments*: a judgment that is made generally for all values of some parameters, each ranging over a "domain" or "[[syntactic category]]".
+* *generic judgments*: a judgment that is made generally for all values of some parameters, each ranging over a "domain" or "syntactic category".  (Note that a "syntactic category" in this sense is unrelated to the notion of [[syntactic category]] that is a [[category]] built out of syntax; here we mean "category" in its informal sense of a subgrouping, so that for instance we have one syntactic category of "types" and another of "terms".)
 
-These two forms turn out to have many parallel features, e.g. [[reflexivity]] and [[transitivity]] of hypothetical judgments correspond to [[variable]]-use and [[substitution]] in generic judgments.  Appealing to the [[propositions as types]] principle, therefore, it is convenient to describe a system in which they are actually both instances of the same thing.  That is, we identify the notion of *evidence for a judgment* with the notion of *[[object]] of a [[syntactic category]]*.
+These two forms turn out to have many parallel features, e.g. [[reflexivity]] and [[transitivity]] of hypothetical judgments correspond to [[variable]]-use and [[substitution]] in generic judgments.  Appealing to the [[propositions as types]] principle, therefore, it is convenient to describe a system in which they are actually both instances of the same thing.  That is, we identify the notion of *evidence for a judgment* with the notion of *object of a syntactic category*.
 
 This leads to a notion that we will call an _LF-type_.  Thus we will have types such as
 
