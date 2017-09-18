@@ -32,6 +32,8 @@ The [[T-duality|T-dual]] version of the D1/D5-bound states are D0/D6-bound state
 
 ## Related concepts
 
+* [[black ring]]
+
 * [[black brane]]
 
   * [[black hole]]
