@@ -1,5 +1,7 @@
 
 
+$\mathcal{\Gamma}$
+
 [[adamstypedifferentials.jpg:file]]
 
 <img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="300" >
