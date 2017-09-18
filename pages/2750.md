@@ -32,7 +32,7 @@ it is straightforward (using the [[axiom of extensionality]]) to prove that \eqr
 $$ (a,b) \coloneqq \big\{a, \{a,b\}\,\big\} ;$$
 but now the [[axiom of foundation]] is also needed to prove \eqref{basic}, so the first form is usually preferred.  To prove that the cartesian product of two sets is a set, one may use the axiom of separation ([[bounded separation]] is enough) to construct $X \times Y$ as a [[subset]] of the [[power set]] of the power set of the [[union]] of $X$ and $Y$, or else use the axiom of replacement ([[restricted replacement]] is enough) to construct it directly, since its elements are indexed by the sets $X$ and $Y$. 
 
-+-- {: .num_remark} 
++-- {: .num_remark #class} 
 ###### Remark 
 Again in the context of material set theory, there are other options for defining ordered pairs that may offer technical advantages. For example, assuming we have the natural numbers $\mathbb{N}$, and given a set $x$, let $\varphi(x)$ be the set $(x \setminus \mathbb{N}) \cup \{n+1: n \in x \cap \mathbb{N}\}$. Then define 
 
