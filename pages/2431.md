@@ -143,15 +143,17 @@ and a strengthening in
 
 * {#Adams71} [[John Frank Adams]], _A variant of E. H. Brown's representability theorem_, Topology, 10:185-198, 1971
 
-A proof following this one is also given in
-
-* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
-
-Further review includes
+Textbook accounts include 
 
 * {#Adams74} [[Frank Adams]], part III, section 6 of _[[Stable homotopy and generalised homology]]_, 1974
 
+* {#Switzer75} [[Robert Switzer]], theorem 8.42, theorem 9.27 in _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
 * {#Kochmann96} [[Stanley Kochmann]], section 3.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+Quick surveys include
 
 * {#Muro10} [[Fernando Muro]], _Representability of cohomology theories_, 2010 ([pdf](http://personal.us.es/fmuro/praha.pdf))
 
