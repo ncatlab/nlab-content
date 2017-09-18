@@ -74,14 +74,14 @@ For each session, there will be one-hour long presentation given by the leader/s
 | ------------- | --------------------| ---------------- |
 | 12:40 - 13:40   |    Xiaoyi Cui    | Geometric context for quantum BV formalism.                                 |
 | 13:40 - 14:10   |    tea time                                                     ||
-| 14:10 - 15:10   |    Dmitri Pavlov              |     1)$1\vert 1$-dimensional field theories and K-theory and/or 2)bundle n-gerbes with connection as field theories.     |
+| 14:10 - 15:10   |    Dmitri Pavlov              |    $1\vert 1$-dimensional field theories and K-theory.      |
 | 15:10 - 18:00[^1]   |    tea time                                               ||
 
 * Session 2 @ Sitzungssaal
 
 | March 5             |    Leader                        |    Topic                   | 
 | ------------- | --------------------| ---------------- |
-| 13:00 - 14:00   |    Jan Jitse Venselaar     |                                |
+| 13:00 - 14:00   |    Jan Jitse Venselaar     |     Factorization algebras for noncommutative geometry.                           |
 | 14:00 - 14:30   |    tea time                                                     ||
 | 14:30 - 15:30   |    Vadim Alekseev         |                                |
 | 15:30 - 18:00[^1]   |    tea time                                               ||
@@ -92,7 +92,7 @@ For each session, there will be one-hour long presentation given by the leader/s
 | ------------- | --------------------| ---------------- |
 | 13:00 - 14:00   |    David Buecher            |                                |
 | 14:00 - 14:30   |    tea time                                                     ||
-| 14:30 - 15:30   |    TBD                            |                                |
+| 14:30 - 15:30   |    Dmitri Pavlov               |        Bundle n-gerbes with connection as field theories.                        |
 | 15:30 - 18:00[^1]   |    tea time                                               ||
 
 [^1]: The room has been reserved till 18:00 to allow for further discussion.
