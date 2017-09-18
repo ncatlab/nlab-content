@@ -29,7 +29,7 @@ $$
 which is covariantly constant in that
 
 $$
-  \nabla_{(\mu K_{\alpha_1, \cdots, \alpha_k}) = 0
+  \nabla_{(\mu} K_{\alpha_1, \cdots, \alpha_k)} = 0
   \,.
 $$
 
