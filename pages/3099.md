@@ -18,6 +18,8 @@
 
 A **(combinatorial) species** is a [[presheaf]] or [[higher category theory|higher categorical]] presheaf on the [[groupoid]] [[core]]([[FinSet]]).
 
+A species is a _[[symmetric sequence]]_ by another name. Meaning: they are categorically equivalent notions. 
+
 
 ## Definition
 
