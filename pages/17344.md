@@ -9982,18 +9982,10 @@ In the next section we work out what these symmetric monoidal categories of orth
 ##### Symmetric and orthogonal spectra
  {#SymmetricSpectra}
 
-**Literature.** ([Schwede 12](#Schwede12)) 
 
-$\,$
+We now define [[symmetric spectra]] and [[orthogonal spectra]] and their symmetric monoidal smash product. We proceed by giving the explicit definitions and then checking that these are equivalent to the abstract definition \ref{SsymModuleSymmetricSpectra} from above.
 
-In order to accomodate the graded commutativity phenomenon of spheres in prop. \ref{GradedCommutativityOfSmashOfSpheres}, we enrich the model of [[stable homotopy theory]] based on [[sequential spectra]], def. \ref{SequentialSpectra}, by adding in [[mathematical structure|structure]] which captures the fact that the $n$th component $X_n$ of a sequential spectrum $X$ is to be thought of as the evaluation on the [[n-sphere]] and thus ought to be [[action|acted]] on by the [[automorphisms]] of the $n$-sphere. 
-
-Taking into account just the automorphisms by [[coordinate]] [[permutations]] on $S^n \simeq (S^1)^{\wedge^n}$ yields the concept of _[[symmetric spectra]]_.
-Taking into account the automorphisms by [[orthogonal group|orthogonal transformations]] on $S^n \simeq (\mathbb{R}^n)^+$ yields the concept of _[[orthogonal spectra]]_. Using _all_ automorphisms yields the concept of _pre-[[excisive functors]]_.
-
-To contrast these more structured models for spectra with the plain [[sequential spectra]], they are sometimes referred to as _[[highly structured spectra]]_.
-
-Below in _[S-modules](#SModules)_ we give a unified discussion of all four models of spectra thus obtained (sequential, symmetric, orthogonal, excisive). Further below in _[The stable model structures](#TheStableModelStructures)_ we use this to construct and understand the [[model structures on spectra]] that present [[stable homotopy theory]].
+**Literature.** ([Schwede 12, chapter I](#Schwede12)) 
 
 $\,$
 
@@ -10004,21 +9996,30 @@ A topological **[[symmetric spectrum]]** $X$  is
 
 1. a sequence $\{X_n  \in Top_{cg}^{\ast/}\;\vert\; n \in \mathbb{N}\}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]];
 
-1. a basepoint preserving continuous left [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
+1. a basepoint preserving continuous right [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
 
-1. a sequence of morphisms  $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ 
+1. a sequence of morphisms  $\sigma_n \colon S^1 \wedge X_n  \longrightarrow X_{n+1}$ 
 
 such that
 
 * for all $n, k \in \mathbb{N}$ the [[composition|composite]]
 
   $$
-    X_n \wedge S^{k} \stackrel{\sigma_n \wedge id}{\longrightarrow} X_{n+1} \wedge S^{k-1} \stackrel{\sigma_{n+1}\wedge id}{\longrightarrow} \cdots \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
+    S^{k} \wedge X_n 
+     \simeq
+    S^{k-1} \wedge S^1 \wedge X_n
+      \stackrel{id \wedge \sigma_n }{\longrightarrow} 
+    S^{k-1} \wedge X_{n+1} 
+      \simeq
+    S^{k-2}\wedge S^1 \wedge X_{n+2}
+      \stackrel{id \wedge \sigma_{n+1}}{\longrightarrow} 
+    \cdots 
+    \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
   $$
 
-  [[intertwiner|intertwines]] the $\Sigma_{n+k}$-[[action]].
+  [[intertwiner|intertwines]] the $\Sigma_{n} \times \Sigma_k$-[[action]].
 
-A [[morphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
+A [[homomorphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
 * a sequence of maps $f_n \colon X_n \longrightarrow Y_n$
 
@@ -10030,7 +10031,9 @@ such that
 
    $$
      \array{
-        X_n \wedge S^1 &\stackrel{f_n \wedge id}{\longrightarrow}& Y_n \wedge S^1
+        S^1 \wedge X_n  
+          &\stackrel{f_n \wedge id}{\longrightarrow}& 
+        S^1 \wedge Y_n 
         \\
         \downarrow^{\mathrlap{\sigma^X_n}} && \downarrow^{\mathrlap{\sigma^Y_n}}
         \\
@@ -10043,56 +10046,231 @@ We write $SymSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra
 
 =--
 
+(e.g. [Schwede 12, def. 1.1](#Schwede12))
+
+
 +-- {: .num_defn #OrthogonalSpectrum}
 ###### Definition
 
-An _[[orthogonal spectrum]]_ $X$ consists of for each $n \in \mathbb{N}$
+A topological **[[orthogonal spectrum]]** $X$  is
 
-1. a sequence of [[pointed topological spaces]] $X_n \in Top_{cg}^{\ast/}$ (the _$n$th level_);
+1. a sequence $\{X_n  \in Top_{cg}^{\ast/}\;\vert\; n \in \mathbb{N}\}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]];
 
-1. a base-point preserving [[continuous function|continuous]] [[action]] of the [[topological group|topological]] [[orthogonal group]] $O(n)$ on $X_n$;
+1. a basepoint preserving continuous right [[action]] of the [[orthogonal group]] $O(n)$ on $X_n$;
 
-1. based-point preserving [[continuous functions]] $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ from the [[smash product]] with the [[1-sphere]] (the _$n$th structure map_)
+1. a sequence of morphisms  $\sigma_n \colon S^1 \wedge X_n  \longrightarrow X_{n+1}$ 
 
-such that for all $n,k \in \mathbb{N}$ with $k \geq 1$
+such that
 
-* the [[continuous functions]] $\sigma^k \colon X_n \wedge S^k \longrightarrow X_{n+k}$ given as the [[compositions]]
+* for all $n, k \in \mathbb{N}$ the [[composition|composite]]
 
   $$
-    \sigma^k \colon
-    X_n \wedge S^k  
-     \stackrel{\sigma_n \wedge S^{k-1}}{\longrightarrow}
-    X_{n+1} \wedge S^{k-1}
-     \stackrel{\sigma_{n-1} \wedge S^{k-2}}{\longrightarrow}
-    X_{n+2} \wedge S^{k-2}
-     \stackrel{\sigma_{n-2} \wedge S^{k-3}}{\longrightarrow}
-     \cdots
-     \stackrel{\sigma_{n+k-2} \wedge S^{1}}{\longrightarrow}
-   X_{n+k-1} \wedge S^1
-     \stackrel{\sigma_{n+k-1} }{\longrightarrow}
-    X_{n+k}  
+    S^{k} \wedge X_n 
+     \simeq
+    S^{k-1} \wedge S^1 \wedge X_n
+      \stackrel{id \wedge \sigma_n }{\longrightarrow} 
+    S^{k-1} \wedge X_{n+1} 
+      \simeq
+    S^{k-2}\wedge S^1 \wedge X_{n+2}
+      \stackrel{id \wedge \sigma_{n+1}}{\longrightarrow} 
+    \cdots 
+    \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
   $$
 
-  is $O(n) \times O(k)$-equivariant
+  [[intertwiner|intertwines]] the $O(n) \times Ok()$-[[action]].
 
-  (with respect to the $O(k)$-[[action]] on $S^k$ regarded as the [[representation sphere]] of the defining action on $\mathbb{R}^k$ and via the diagonal embedding $O(n)\times O(k) \hookrightarrow O(n+k)$).
+A [[homomorphism]] of orthogonal spectra $f\colon X \longrightarrow Y$ is
 
-A [[homomorphism]] $f \colon X \longrightarrow Y$ of orthogonal spectra is a sequence of $O(n)$-equivariant based continuous functions $f_n \colon X_n \longrightarrow Y_n$ [[commuting diagram|commuting]] with the structure maps
+* a sequence of maps $f_n \colon X_n \longrightarrow Y_n$
+
+such that
+
+1. each $f_n$ [[intertwiner|intetwines]] the $O(n)$-[[action]];
+
+1. the following [[commuting diagram|diagrams commute]]
+
+   $$
+     \array{
+        S^1 \wedge X_n  
+          &\stackrel{f_n \wedge id}{\longrightarrow}& 
+        S^1 \wedge Y_n 
+        \\
+        \downarrow^{\mathrlap{\sigma^X_n}} && \downarrow^{\mathrlap{\sigma^Y_n}}
+        \\
+        X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
+     }
+     \,.
+   $$
+
+We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra.
+
+=--
+
+
++-- {: .num_prop #DiagramSpectraGiveSymmetricAndOrthogonalSpectra}
+###### Proposition
+
+Definitions \ref{SymmetricSpectrum} and \ref{OrthogonalSpectrum}
+are indeed equivalent to def. \ref{SsymModuleSymmetricSpectra}:
 
 $$
-  \array{
-    X_n \wedge S^1 & \stackrel{\sigma_n^X}{\longrightarrow} & X_{n+1}  
-    \\
-    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
-    \\
-    Y_n \wedge S^1 & \stackrel{\sigma_n^Y}{\longrightarrow} & Y_{n+1}      
-  }
+  OrthSpec(Top_{cg})
+   \simeq
+  \mathbb{S}_{orth} Mod
+$$
+
+and
+
+$$
+  SymSpec(Top_{cg})
+   \simeq
+  \mathbb{S}_{sym} Mod
   \,.
 $$
 
-We write $OrthSpec(Top_{cg})$ for the [[category]] of orthogonal spectra with homomorphisms between them.
+=--
+
++-- {: .num_defn #SmashProductOfSymmetricSpectra}
+###### Definition
+
+Given $X,Y \in SymSpec(Top_{cg})$ two [[symmetric spectra]], def. \ref{SymmetricSpectrum}, then their **[[smash product of spectra]]** is the symmetric spectrum
+
+$$
+  X \wedge Y \in SymSpec(Top_{cg})
+$$
+
+with component spaces the [[coequalizer]]
+
+$$
+  \underset{p+1+q = n}{\bigvee}
+  (\Sigma_{p+1+q})_+ 
+    \underset{\Sigma_p \times \Sigma_1 \times \Sigma_q}{\wedge}
+  X_p \wedge S^1 \wedge X_q
+  \underoverset
+   {\underset{r}{\longrightarrow}}
+   {\overset{\ell}{\longrightarrow}}
+   {\phantom{AAAA}}
+  \underset{p+q=n}{\bigvee}
+   (\Sigma_{p+q})_+
+   \underset{\Sigma_p \times \Sigma_q}{\wedge}
+   X_p \wedge X_q
+  \overset{coequ}{\longrightarrow}
+  (X \wedge Y)(n)
+$$
+
+where $\ell$ has components given by the structure maps
+
+$$
+  X_p \wedge S^1 \wedge X_q
+    \overset{id \wedge \sigma_q}{\longrightarrow}
+  X_p \wedge X_q
+$$
+
+while $r$ has components given by the structure maps conjugated by the [[braiding]] in $Top^{\ast/}_{cg}$ and the [[permutation]] [[action]] $\chi_{p,1}$ (that [[shuffle|shuffles]] the element on the right to the left)
+
+$$
+  X_p \wedge S^1 \wedge X_q
+    \overset{\tau_{X_p,S^1} \wedge id}{\longrightarrow}
+  S^1 \wedge X_p \wedge X_q
+    \overset{\sigma_p\wedge id}{\longrightarrow}
+  X_{p+1} \wedge X_q
+    \overset{\chi_{p,1} \wedge id}{\longrightarrow}
+  X_{1+p} \wedge X_q
+  \,.
+$$
+
+The structure maps of $X \wedge Y$ are those induced under the coequalizer by
+
+$$
+  S^1 \wedge X_p \wedge X_q
+   \overset{\sigma_p\wedge id}{\longrightarrow}
+  X_{p+1} \wedge X_q
+  \,.
+$$
 
 =--
+
+(e.g. [Schwede 12, p. 82](#Schwede12))
+
++-- {: .num_prop #AbstractFormulaGivesSmashProductOfSymmetricSpectra}
+###### Proposition
+
+Under the identification of prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the explicit [[smash product of spectra]] in def. \ref{SmashProductOfSymmetricSpectra} is equivalent to the abstractly defined tensor product in def. \ref{SsymModuleSymmetricSpectra}:
+
+$$
+  \wedge \simeq \otimes_{\mathbb{S}_{sym}}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the tensor product of two $\mathbb{S}_{sym}$-modules $X$ and $Y$ is the [[coequalizer]] 
+
+$$
+  X \otimes_{Day} \mathbb{S}_{sym} \otimes_{Day} Y
+  \underoverset
+    {\underset{\rho_{1}\circ (\tau_{X, \mathbb{S}_{sym}} \otimes Y)}{\longrightarrow}}
+    {\overset{X \otimes \rho_2}{\longrightarrow}}
+    {\phantom{AAAA}}
+  X \otimes Y
+    \overset{coequ}{\longrightarrow}
+  X \otimes_{\mathbb{S}_{seq}} Y
+  \,.
+$$
+
+The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra} and hence for any two symmetric spectra $A$ and $B$ this is
+
+$$
+  \begin{aligned}
+    (A \otimes_{Day} B)(n)
+    & =
+    \overset{n_1,n_2}{\int}
+     \underset{
+      = \left\{
+          \array{
+             \Sigma_{n_1 + n_2} & if \; n_1+n_2 = n 
+             \\
+             \emptyset & otherwise
+           }
+      \right.
+     }{
+       \underbrace{Sym(n_1 + n_2, n)}
+     }_+
+      \wedge
+     A_{n_1}
+      \wedge
+     B_{n_1}
+    \\
+    & \simeq
+    \underset{n_1 + n_2 = n}{\bigvee}
+     (\Sigma_{n_1+n_2})_+
+     \underset{\Sigma_{n_1}\times \Sigma_{n_2}}{\wedge}     
+     \left(
+       A_{n_1}
+         \wedge
+       B_{n_2}
+     \right)
+  \end{aligned}
+  \,.
+$$
+
+This gives the form of the coequalizer and the nature of the morphism $\ell$. To see that the morphism $r$ involves conjugation by the braiding $\tau^{Top^{\ast/}_{cg}}$ in $Top^{\ast/}_{cg}$ and the symmetric group action, which by def. \ref{TopologicalDiagramCategoriesForSpectra} is the braiding $\tau^{Sym}_{n_1,n_2}$ in $Sym$, use the formula for the braiding of the Day convolution tensor product from prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
+
+$$
+  \tau_{A,B}(n)
+  =
+  \overset{n_1,n_2}{\int}
+   Sym( \tau^{Sym}_{n_1,n_2}, n )
+    \wedge 
+   \tau^{Top^{\ast/}_{cg}}_{A_{n_1}, B_{n_2}}
+  \,.
+$$
+
+=--
+
 
 
 ##### Free spectra
@@ -10706,7 +10884,7 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
 
 #### The strict model structure on diagram spectra
 
-In the discussion [above](#StrictModelStructureOnSequentialSpectra) we had obtained the strict/level [[model structure on topological sequential spectra]] by identifying the category $SeqSpec(Top_{cg})$ of sequential spectra with a category of [[topologically enriched functors]] with values in $Top^{\ast/}_{cg}$ and then invoking the genral existence of the [[projective model stucture on enriched functors]].
+In the discussion [above](#StrictModelStructureOnSequentialSpectra) we had obtained the strict/level [[model structure on topological sequential spectra]] by identifying the category $SeqSpec(Top_{cg})$ of sequential spectra with a category of [[topologically enriched functors]] with values in $Top^{\ast/}_{cg}$ and then invoking the genral existence of the [[projective model stucture on functors]].
 
 Now we discuss that the analogous construction also works for more general diagram spectra.
 
