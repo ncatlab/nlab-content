@@ -70,7 +70,11 @@ Lecture notes include
 
 * [[Helga Baum]], _Conformal Killing spinors and the holonomy problem in Lorentzian geometry_ ([pdf](http://www.mathematik.hu-berlin.de/~baum/publikationen-fr/Publikationen-ps-dvi/IMA06-neu.pdf))
 
-Discussion relating to [[Killing vectors]] in [[supergeometry]] ([[superisometries]]) originates around
+Discussion relating to [[Killing vectors]] in [[supergeometry]] ([[superisometries]]) is in
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], pages 1198-1199 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+and later in
 
 * [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
 
