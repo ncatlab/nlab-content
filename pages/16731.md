@@ -45,11 +45,15 @@ Xiongwei Cai (University of Luxembourg)
 
 Xiaojun Chen (Sichuan University)
 
+Youming Chen (Sichuan University)
+
 Zhuo Chen (Tshinghua University)
 
 Nicola Ciccoli (University of Perugia)
 
 Lu Ding (Chinese Academy of Science)
+
+Farkhod Eshmatov (Sichuan University)
 
 Samuel Evens (University of Notre Dame)
 
@@ -123,9 +127,15 @@ Ke Wu (Capital Normal University)
 
 Zhiwei Wu (Ningbo University)
 
+Yirui Xiong (Sichuan University)
+
 Ping Xu (Penn State University)
 
 Xiaomeng Xu (University of Geneva)
+
+Song Yang (Sichuan University)
+
+Xiangdong Yang (Sichuan University)
 
 Yijun Yao (Fudan University)
 
@@ -134,6 +144,10 @@ Yanbin Yin (Henan University)
 Tao Zhang (Henan Normal University)
 
 Weiping Zhang (Nankai University)
+
+Suo Zhao (Sichuan University)
+
+Jieheng Zeng (Sichuan University)
 
 Deshou Zhong (China Youth University of Political Studies)
 
