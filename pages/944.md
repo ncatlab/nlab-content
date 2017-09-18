@@ -57,6 +57,8 @@ Dually, it classifies [[open subsets]] in that any open subspace $A$ is $\chi_A^
 
 * [[Stone duality]]
 
+* In [[synthetic topology]], an analogue of the Sierpinski space is called a [[dominance]].
+
 ## References
 
 * [[Paul Taylor]],  _Foundations for computable topology -- 7 The Sierpinski space_ ([html](http://www.paultaylor.eu/ASD/foufct/sierpinski.html))
