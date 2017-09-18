@@ -17,17 +17,63 @@
 * table of contents
 {: toc}
 
-## Definitions
+## Idea
 
 A [[subset]] $C$ of a [[topological space]] (or more generally a [[convergence space]]) $X$ is _closed_ if its [[complement]] is an [[open subset]], or equivalently if it contains all its [[limit points]]. When equipped with the [[subspace topology]], we may call $C$ (or its inclusion $C \hookrightarrow X$) a *closed subspace*. More abstractly, a [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is a [[closed map]]. 
 
-The collection of closed subsets of a space $X$ is closed under arbitrary [[intersections]]. If $A \subseteq X$, then the intersection of all closed subsets containing $A$ is the smallest closed subset that contains $A$, called the _[[closure]]_ of $A$, and variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. It follows that $A \subseteq B$ implies $Cl(A) \subseteq Cl(B)$ and $Cl(Cl(A)) = Cl(A)$, so that $A \mapsto Cl(A)$ forms a [[Moore closure]] operator on the power set $P(X)$. 
+The collection of closed subsets of a space $X$ is closed under arbitrary [[intersections]]. If $A \subseteq X$, then the intersection of all closed subsets containing $A$ is the smallest closed subset that contains $A$, called the _[[topological closure]]_ of $A$, and variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. It follows that $A \subseteq B$ implies $Cl(A) \subseteq Cl(B)$ and $Cl(Cl(A)) = Cl(A)$, so that $A \mapsto Cl(A)$ forms a [[Moore closure]] operator on the power set $P(X)$. 
 
 Since closed subsets are closed with respect to finite unions, we have $Cl(A \cup B) = Cl(A) \cup Cl(B)$. 
 
 A _topological closure operator_ is a Moore closure operator $Cl: P(X) \to P(X)$ that preserves finite unions ($Cl(0) = 0$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$). It is easy to see that all such closure operators come from a topology whose closed sets are the fixed points of $Cl$. 
 
 (There is a lot more to say, about [[convergence spaces]], [[smooth spaces]], [[schemes]], etc.)
+
+## Definition
+
++-- {: .num_defn #ClosedSubset}
+###### Definition
+**([[closed subsets]])**
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ClosedAndOpenSubsets.png" width="300">
+</div>
+
+Let $(X,\tau)$ be a [[topological space]].
+
+
+1. A [[subset]] $S \subset X$ is called a _closed subset_ if its [[complement]] $X \setminus S$ is an  _[[open subset]]_:
+
+   $$
+     \left(
+       S \subset X\,\, \text{is closed}
+     \right)
+     \phantom{AA}
+       \Leftrightarrow
+     \phantom{AA}
+     \left(
+       X\setminus S \, \subset X \,\, \text{is open}
+     \right)
+     \,.
+   $$
+
+   > graphics grabbed from [Vickers 89](#Vickers89)
+
+1. If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that $x$ is a _closed point_ of $X$.
+
+1. Given any subset $S \subset X$, then its _topological closure_ $Cl(S)$ is the smallest closed subset containing $S$:
+
+   $$
+     Cl(S)
+       \;\coloneqq\;
+     \underset{ {C \subset X\, \text{closed}  }   \atop {S \subset C }  }{\cap} \left( C \right)
+     \,.
+   $$
+
+1. A subset $S \subset X$ such that $Cl(S) = X$ is called a _[[dense subset]]_ of $(X,\tau)$.
+
+=--
+
 
 
 ## Properties
@@ -39,6 +85,61 @@ A _topological closure operator_ is a Moore closure operator $Cl: P(X) \to P(X)$
 ###### Proposition
 
 [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]
+
+=--
+
+
++-- {: .num_lemma #UnionOfOpensGivesClosure}
+###### Lemma
+**(alternative characterization of topological cosures)**
+
+Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] of its underlying
+set. Then a point $x \in X$ is contained in the topological closure $Cl(S)$ (def. \ref{ClosedSubset})
+precisely if every [[open neighbourhood]] $U_x \subset X$ of $x$ [[intersection|intersects]] $S$:
+
+$$
+  \left(
+     x \in Cl(S)
+  \right)
+   \phantom{AA}
+     \Leftrightarrow
+   \phantom{AA}
+   \not\left(
+     \underset{ {U \subset X \setminus S}  \atop  { U \subset X \, \text{open}  } }{\exists}
+      \left(
+        x \in U
+      \right)
+   \right)
+   \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Due to [[de Morgan duality]] we may rephrase the definition of the [[topological closure]]
+as follows:
+
+$$
+  \begin{aligned}
+    Cl(S)
+    & \coloneqq
+    \underset{ {S \subset C }  \atop { C \subset X\,\text{closed} } }{\cap}
+    \left(C \right)
+    \\
+    & =
+    \underset{ { U \subset X \setminus S } \atop {U \subset X\, \text{open}}  }{\cap} \left( X \setminus U \right)
+    \\
+    & = X \setminus
+    \left(
+       \underset{ {U \subset X \setminus S} \atop { U \subset X\, \text{open} }}{\cup} U
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+
 
 =--
 
@@ -60,7 +161,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Use that a point is in th closure of a set precisely if every open neighbourhood of the point intersects the set.
+By lemma \ref{UnionOfOpensGivesClosure} we use that a point is in the closure of a set precisely if every open neighbourhood of the point intersects the set.
 
 Hence in one direction
 
