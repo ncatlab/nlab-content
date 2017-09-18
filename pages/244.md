@@ -204,7 +204,11 @@ The [[internal logic]] of ([[closed monoidal category|closed]]) symmetric monoid
 
 ## References
 
-For a survey of definitions of symmetric monoidal categories, [[symmetric monoidal functor]]s and [[symmetric monoidal natural transformation]]s, see for instance
+* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 2 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
+))
+
+
+A survey of definitions of symmetric monoidal categories, [[symmetric monoidal functor]]s and [[symmetric monoidal natural transformation]]s, is also in
 
 * [[John Baez]], _[Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf)_
 
