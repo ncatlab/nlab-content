@@ -1464,7 +1464,7 @@ The representability result applied degreewise to an additive reduced cohomology
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-An **[[Omega-spectrum]]** $X$ ([def.](Introduction+to+Stable+homotopy+theory+--+1#OmegaSpectrum)) is 
+An **[[Omega-spectrum]]** $X$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum)) is 
 
 1. a sequence $\{X_n\}_{n \in \mathbb{N}}$ of [[pointed topological spaces]] $X_n \in Top^{\ast/}$ 
 
@@ -1597,7 +1597,7 @@ The [exactnes](#ReducedExactnessAxiom) follows from the [[long exact sequences]]
 +-- {: .num_remark}
 ###### Remark
 
-If we consider the [[stable homotopy category]] $Ho(Spectra)$ of [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#TheStableHomotopyCategory)) and consider any [[topological space]] $X$ in terms of its [[suspension spectrum]] $\Sigma^\infty X \in Ho(Spectra)$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1#SuspensionSpectrum)), then the statement of prop. \ref{SpectrumRepresentsCohomologyTheoryDegreewise} is more succinctly summarized by saying that the [[graded abelian group|graded]] reduced cohomology groups of a topological space $X$ represented by an [[Omega-spectrum]] $E$ are the hom-groups
+If we consider the [[stable homotopy category]] $Ho(Spectra)$ of [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)) and consider any [[topological space]] $X$ in terms of its [[suspension spectrum]] $\Sigma^\infty X \in Ho(Spectra)$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-1#SuspensionSpectrum)), then the statement of prop. \ref{SpectrumRepresentsCohomologyTheoryDegreewise} is more succinctly summarized by saying that the [[graded abelian group|graded]] reduced cohomology groups of a topological space $X$ represented by an [[Omega-spectrum]] $E$ are the hom-groups
 
 $$
   \tilde E^\bullet(X)
@@ -1605,7 +1605,7 @@ $$
   [\Sigma^\infty X, \Sigma^\bullet E]
 $$
 
-in the [[stable homotopy category]], into all the [[suspensions]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1#StableModelStructureOnSequentiaSpectraIsStableModelCategory)) of $E$.
+in the [[stable homotopy category]], into all the [[suspensions]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentiaSpectraIsStableModelCategory)) of $E$.
 
 This means that more generally, for $X \in Ho(Spectra)$ any spectrum, it makes sense to consider
 
@@ -1617,7 +1617,7 @@ $$
 
 to be the graded reduced generalized $E$-cohomology groups of the spectrum $X$.
 
-See also in  _[[Introduction to Stable homotopy theory -- 1|part 1]]_ [this example](Introduction+to+Stable+homotopy+theory+--+1#ForASpectrumXGeneralizedECohomology).
+See also in  _[[Introduction to Stable homotopy theory -- 1|part 1]]_ [this example](Introduction+to+Stable+homotopy+theory+--+1-1#ForASpectrumXGeneralizedECohomology).
 
 =--
 
@@ -5247,7 +5247,7 @@ To see this, remember that we work in the category $Top_{cg}$ of [[compactly gen
 +-- {: .num_defn #UniversalThomSpectrum}
 ###### Definition
 
-The **universal real [[Thom spectrum]]** $M O$ is the [[spectrum]], which is represented by the [[sequential prespectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra)) whose $n$th component space is the [[Thom space]] (def. \ref{ThomSpace})
+The **universal real [[Thom spectrum]]** $M O$ is the [[spectrum]], which is represented by the [[sequential prespectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectra)) whose $n$th component space is the [[Thom space]] (def. \ref{ThomSpace})
 
 $$
   (M O)_n \coloneqq Th(E O(n)\underset{O(n)}{\times}\mathbb{R}^n)
@@ -5392,7 +5392,7 @@ $$
   \,.
 $$
 
-Similarly for an $S^k-(B,f)$-structure indexed on every $k$th natural number (such as [[almost complex structure]], [[almost quaternionic structure]], example \ref{ExamplesOfBfStructures}), there is the corresponding Thom spectrum as a sequential $S^k$ spectrum ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialTSpectra)).
+Similarly for an $S^k-(B,f)$-structure indexed on every $k$th natural number (such as [[almost complex structure]], [[almost quaternionic structure]], example \ref{ExamplesOfBfStructures}), there is the corresponding Thom spectrum as a sequential $S^k$ spectrum ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialTSpectra)).
 
 If $B_n = B G_n$ for some natural system of groups $G_n \to O(n)$, then one usually writes $M G$ for $M \mathcal{B}$. For instance $M SO$, [[MSpin]], [[MU]], [[MSp]] etc.
 
@@ -5436,7 +5436,7 @@ by remark \ref{ThomSpaceForRankZeroBundle}.
 +-- {: .num_example}
 ###### Example
 
-The universal [[Thom spectrum]] (def. \ref{UniversalThomSpectrumForBfStructure}) for _[[framing]] structure_ ([exmpl.](G-structure#ExamplesOfBfStructures)) is equivalently the [[sphere spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#StandardSphereSpectrum))
+The universal [[Thom spectrum]] (def. \ref{UniversalThomSpectrumForBfStructure}) for _[[framing]] structure_ ([exmpl.](G-structure#ExamplesOfBfStructures)) is equivalently the [[sphere spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StandardSphereSpectrum))
 
 $$
   M 1 \simeq \mathbb{S}
@@ -5563,7 +5563,7 @@ $$
   \pi_{n} M O
 $$
 
-in the $n$th [[stable homotopy group]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#StableHomotopyGroups)) of the [[Thom spectrum]] $M O$ (def. \ref{UniversalThomSpectrum}).
+in the $n$th [[stable homotopy group]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) of the [[Thom spectrum]] $M O$ (def. \ref{UniversalThomSpectrum}).
 
 More generally, for $X$ a smooth manifold with normal [[(B,f)-structure]] $(X,i,\hat g_i)$ according to def. \ref{ManifoldWithBfStructure}, then its Pontrjagin-Thom construction is the composite
 
@@ -5715,7 +5715,7 @@ $$
   Th(V^{\mathcal{B}}_{k_1+k_2 - n})
 $$
 
-This manifestly identifies $\alpha_{k_2}$ as being the image of $\alpha$ under the component map in the sequential colimit that defines the stable homotopy groups ([def.](Introduction+to+Stable+homotopy+theory+--+1#StableHomotopyGroups)). Therefore $\alpha$ and $\alpha_{k_2}$, for all $k_2 \in \mathbb{N}$, represent the same element in $\pi_{\bullet}(M \mathcal{B})$.
+This manifestly identifies $\alpha_{k_2}$ as being the image of $\alpha$ under the component map in the sequential colimit that defines the stable homotopy groups ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)). Therefore $\alpha$ and $\alpha_{k_2}$, for all $k_2 \in \mathbb{N}$, represent the same element in $\pi_{\bullet}(M \mathcal{B})$.
 
 =--
 
@@ -6648,7 +6648,7 @@ from the universal $\mathcal{B}$-[[Thom spectrum]] to a spectrum which via the [
 +-- {: .proof}
 ###### Proof
 
-The [[Thom spectrum]] $M\mathcal{B}$ has a standard structure of a [[CW-spectrum]]. Let now $E$ denote a [[sequential spectrum|sequential]] [[Omega-spectrum]] representing the multiplicative cohomology theory of the same name. Since, in the standard [[model structure on topological sequential spectra]], [[CW-spectra]] are cofibrant ([prop.](Introduction+to+Stable+homotopy+theory+--+1#CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra)) and Omega-spectra are fibrant ([thm.](Introduction+to+Stable+homotopy+theory+--+1#StableModelStructureOnSequentialSpectraIsModelCategory)) we may represent all morphisms in the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#TheStableHomotopyCategory)) by actual morphisms 
+The [[Thom spectrum]] $M\mathcal{B}$ has a standard structure of a [[CW-spectrum]]. Let now $E$ denote a [[sequential spectrum|sequential]] [[Omega-spectrum]] representing the multiplicative cohomology theory of the same name. Since, in the standard [[model structure on topological sequential spectra]], [[CW-spectra]] are cofibrant ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra)) and Omega-spectra are fibrant ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) we may represent all morphisms in the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)) by actual morphisms 
 
 $$
   \xi
@@ -6660,7 +6660,7 @@ $$
 
 of sequential spectra (due to [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)).
 
-Now by definition ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra)) such a homomorphism is precissely a sequence of base-point preserving [[continuous functions]]
+Now by definition ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectra)) such a homomorphism is precissely a sequence of base-point preserving [[continuous functions]]
 
 $$
   \xi_n 
@@ -6726,7 +6726,7 @@ $$
 
 under the [[suspension isomorphism]]. Hence the [[commutative square|commutativity]] of the above squares is equivalently the first compatibility condition from def. \ref{EOrientationOfABfStructure}: $\xi_n \simeq \phi_n^\ast \xi_{n+1}$ in $\tilde E^{n+1}(Th(\mathbb{R}\oplus V_n^{\mathcal{B}}))$ 
 
-Next,  $\xi$ being a homomorphism of [[ring spectra]] means equivalently (we should be modelling $M\mathcal{B}$ and $E$ as [[structured spectra]] ([here.](Introduction+to+Stable+homotopy+theory+--+1#DiagramSpectra)) to be more precise on this point, but the conclusion is the same) that for all $n_1, n_2\in \mathbb{N}$ then
+Next,  $\xi$ being a homomorphism of [[ring spectra]] means equivalently (we should be modelling $M\mathcal{B}$ and $E$ as [[structured spectra]] ([here.](Introduction+to+Stable+homotopy+theory+--+1-1#DiagramSpectra)) to be more precise on this point, but the conclusion is the same) that for all $n_1, n_2\in \mathbb{N}$ then
 
 $$
   \array{
