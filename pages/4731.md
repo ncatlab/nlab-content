@@ -74,7 +74,7 @@ $$
 $$
   d_{CE(\mathfrak{g})} b^i = -\alpha^i_{a j} t^a \wedge b^j  
     - 
-    r_{a b c} t^a \wedge t^b \wedge t^c
+    r^i{}_{a b c} t^a \wedge t^b \wedge t^c
   \,,
 $$
 
@@ -126,7 +126,7 @@ $$
    +
    \alpha^i{}_{a j} A^a \wedge B^j
    +
-   r_{a b c} A^a \wedge A^b \wedge A^c
+   r^i{}_{a b c} A^a \wedge A^b \wedge A^c
   \,.
 $$
 
