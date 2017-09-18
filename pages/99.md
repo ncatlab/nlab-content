@@ -86,7 +86,7 @@ $$
 
 between the [[category]] [[dgAlg]] of [[dg-algebra]]s and the category of $\mathbb{Z}$-graded [[vector space]]s (all over some fixed [[field]]). Notice that a free object is unique _up to [[isomorphism]]_ .
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The **Weil algebra** $W(\mathfrak{g})$ is the unique representative of the [[free functor|free]] [[dg-algebra]] on $\wedge^1 \mathfrak{g}^*$ for which the projection of graded vector spaces $\wedge^1(\mathfrak{g}^* \oplus \mathfrak{g}^*[1]) \to \wedge^1 \mathfrak{g}^*$ extended to a [[dg-algebra]] [[homomorphism]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$
@@ -95,7 +95,7 @@ The **Weil algebra** $W(\mathfrak{g})$ is the unique representative of the [[fre
 
 We discuss below in the [Properties](#Properties) section that this is equivalent to the following component-wise definition
 
-+-- {: .un_defn #WeilForLInfinitityAlgebra}
++-- {: .num_defn #WeilForLInfinitityAlgebra}
 ###### Definition
 
 The **Weil algebra** $W(\mathfrak{g})$ is the [[semi-free dga]] whose underlying graded-commutative algebra is the [[exterior algebra]]
@@ -198,7 +198,7 @@ $$
 $$
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The **Weil algebra** $W(\mathfrak{a})$ of the $L_\infty$-algebroid $\mathfrak{a}$ is the Chevalley-Eilenberg algebra of the $L_\infty$-algebroid defined as follows
@@ -265,7 +265,7 @@ $$
 
 This implies the following universal [[free functor|freeness property]]:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\mathfrak{g}$ be an $L_\infty$-algebra. Morphisms of $dg$-algebras $W(\mathfrak{g}) \to A$ are in natural bijection to morphisms of [[graded vector space]]s $\mathfrak{g}^* \to A$.
@@ -317,7 +317,7 @@ $$
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 For $A=CE(\mathfrak{g})$ the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$, the inclusion $\mathfrak{g}^*\hookrightarrow CE(\mathfrak{g})$ induces a canonical surjective dgca morphism $W(\mathfrak{g})\to CE(\mathfrak{g})$. This is the identity on the unshifted generators, and 0 on the shifted generators.
@@ -325,7 +325,7 @@ For $A=CE(\mathfrak{g})$ the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$, 
 =--
 
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 
@@ -353,7 +353,7 @@ A morphism $W(\mathfrak{g}) \to \Omega^\bullet(X)$ encodes a collection of _flat
 
 The freeness property of the Weil algebra can be made more explicit by exhibiting a concrete [[isomorphism]] to the free dg-algebra on $\mathfrak{g}^*$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 The _canonical free dg-algebra_ on $\mathfrak{g}^*$ is
@@ -385,7 +385,7 @@ $$
 
 Notice the evident
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 The [[cochain cohomology]] of $F(\mathfrak{g})$ vanishes in positive degree.
@@ -403,7 +403,7 @@ and hence for any $\omega \in F(\mathfrak{g})$ such that $d_{F(\mathfrak{g})} \o
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Lemma
 
 
@@ -445,7 +445,7 @@ Note that the isomorphism $f$ is precisely the dgca isomorphism induced between 
 
 
 
-+-- {: .un_cor}
++-- {: .nun_cor}
 ###### Corollary
 
 
@@ -453,7 +453,7 @@ The [[cochain cohomology]] of the Weil algebra of an $L_\infty$-algebra is trivi
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -461,13 +461,19 @@ This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is t
 
 =--
 
+### Relation to Cartan model for equivariant de Rham cohomology
+
+The Weil algebra may be identified with the 
+[[Cartan model]] for [[equivariant de Rham cohomology]] for the special 
+case of the Lie group $G$ acting on itself by right multiplication. Concersely, the [[Cartan models]] form a generalization of the Weil algebra. See at _[equivariant de Rham cohomology -- Cartan model](equivariant+de+Rham+cohomology#TheCartanModel)_ for more.
+
 ## As the CE-algebra of the $L_\infty$-algebra of inner derivations {#AsInnerDer}
 
 By the discussion at [[∞-Lie algebra]] and [[Chevalley-Eilenberg algebra]], we may _identify_ the [[full subcategory]] of the [[opposite category]] [[dgAlg]] on commutative [[semi-free dga]]s in non-negative degree with that of [[∞-Lie algebra]]s/[[∞-Lie algebroid]]s.
 
 That means that the Weil algebra $W(\mathfrak{g})$ of some [[L-∞ algebra]] $\mathfrak{g}$ is the Chevalley-Eilenberg algebra of _another_ $\infty$-Lie algebra. 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For any $\infty$-Lie algebra $\mathfrak{g}$ write $inn(\mathfrak{g})$ for the $\infty$-Lie algebra whose CE-algebra is $W(\mathfrak{g})$:
@@ -484,7 +490,7 @@ In the following we discuss these _inner automorphism $\infty$-Lie algebras_ in 
 ### For an ordinary Lie algebra
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 For $\mathfrak{g}$ an ordinary [[Lie algebra]] the [[inner derivation Lie 2-algebra]] is the [[strict Lie 2-algebra]] given by the [[dg-Lie algebra]]
@@ -742,7 +748,7 @@ For instance for $T$=[[CartSp]] the theory of [[smooth algebra]]s, any [[smooth 
 [[L-∞ algebroid]] is a 0-Lie algebroid with $CE(X) = C^\infty(X)$ the [[smooth algebra]] of [[smooth function]]s on $X$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 The Weil algebra of a 0-Lie algebroid $X$ is the [[Kähler differential|Kähler]] [[de Rham complex]] of $A = CE(X)$:
