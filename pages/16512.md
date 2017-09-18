@@ -41,4 +41,4 @@ of both $M_1$ and $M_2$.
 
 ## References
 
-* {#CS} [[Bruce Corrigan-Salter]], _Right delocalization of model categories_, arXiv:1504.04545v1.
+* {#CS} [[Bruce Corrigan-Salter]], _Right delocalization of model categories_, [arXiv:1504.04545](http://arxiv.org/abs/1504.04545).
