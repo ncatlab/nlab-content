@@ -28,12 +28,27 @@
 
 A _topological vector bundle_ is a [[vector bundle]] in the context of _[[topology]]_: a continuously varying collection of [[vector space]] over a given [[topological space]].
 
+For more survey and motivation see at _[[vector bundle]]_. Here we discuss the details of the general concept in [[topology]]. 
+See also _[[differentiable vector bundle]]_ and _[[algebraic vector bundle]]_.
+
+
+
 ## Definition
 
 We first give the more abstract definiton
 in terms of slice categories (def. \ref{TopologicalVectorBundleInTermsOfSliceCategories} below) and then unwind this to the traditional definition (def \ref{TopologicalVectorBundle} below).
 
-For definiteness, in the following by _[[vector space]]_ we mean _[[real vector space|real]] [[finite dimensional vector space]]_. The generalization to other [[topological fields|topological]] [[ground field]] such as the [[complex numbers]] is immediate.
+In the following 
+
+* $k$ be a [[topological field]], most commonly
+
+  * $k = \mathbb{R}$ the [[real numbers]]
+  
+  * or $k = \mathbb{C}$ the [[complex numbers]]
+  
+  equipped with their [[Euclidean space|Euclidean]] [[metric topology]].
+
+* _[[vector space]]_ means _[[finite dimensional vector space]]_.
 
 
 
@@ -47,11 +62,11 @@ A _topological vector bundle_ over $X \in Top$ is
 
 1. an [[object ]] $[E \overset{\pi}{\to} X]$ of $Top_{/X}$
 
-1. with the [[structure]] of a [[vector space]]-object [[internalization|interal]] to $Top_{/X}$, hence
+1. with the [[structure]] of an $X \times k$-[[vector space]]-object [[internalization|interal]] to $Top_{/X}$, hence
 
    1. a [[morphism]] $ (-)+(-) \;\colon\; E \times_X E \to E$
 
-   1. a morphism $(-)\cdot(-) \;\colon\; \mathbb{R} \times E \to E$
+   1. a morphism $(-)\cdot(-) \;\colon\;  k \times E \to E$
 
    which satisfy the vector space axioms
 
@@ -70,7 +85,7 @@ such that
        \,,
      $$
 
-     for some $n \in \mathbb{N}$, where  $[U \times \mathbb{R}^n \overset{pr_1}{\to} X]$ and $[U \times_X E \overset{pr_1}{\to} U]$ are regarded as a vector space objects in $Top_{U}$ in the canonical way.
+     for some $n \in \mathbb{N}$, where  $[U \times k^n \overset{pr_1}{\to} X]$ and $[U \times_X E \overset{pr_1}{\to} U]$ are regarded as a vector space objects in $Top_{U}$ in the canonical way.
 
 It follows that $n \in \mathbb{N}$ is constant on [[connected components]]. Often this is required to be constant on all of $X$ and then called the _[[rank]]_ of the vector bundle.
 
@@ -84,7 +99,7 @@ Notice that viewed in [[Top]], the last condition means that there is a [[diagra
 
 $$
   \array{
-    U \times \mathbb{R}^n
+    U \times k^n
       &\overset{\simeq}{\longrightarrow}&
     U \times_X E
       &\overset{}{\longrightarrow}&
@@ -121,12 +136,12 @@ such that there exists
 1. for each $i \in I$ a [[homeomorphism]]
 
    $$
-     \phi_i \;\colon\; U_i \times \mathbb{R}^n \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
+     \phi_i \;\colon\; U_i \times k^n \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
    $$
 
    from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that
 
-   1. $\phi_i$ is a map over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times \mathbb{R}^n) \subset \pi^{-1}(\{x\})$
+   1. $\phi_i$ is a map over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times k^n) \subset \pi^{-1}(\{x\})$
 
    1. $\phi_i$ is a [[linear map]] in each fiber in that
 
@@ -134,7 +149,7 @@ such that there exists
         \underset{x \in U_i \cap U_j}{\forall}
         \left(
           \phi_i(x) \;\colon\;
-             \mathbb{R}^n \overset{\text{linear}}{\longrightarrow}
+             k^n \overset{\text{linear}}{\longrightarrow}
             E_x = \pi^{-1}(\{x\})
         \right)
         \,.
@@ -174,7 +189,7 @@ For $X$ any [[topological space]], and $n \in \mathbb{N}$,
 we have that the [[product topological space]]
 
 $$
-  X \times \mathbb{R}^n \overset{pr_1}{\to} X
+  X \times k^n \overset{pr_1}{\to} X
 $$
 
 canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). This is called the _[[trivial vector bundle]]_ of [[rank]] $n$ over $X$.
@@ -182,7 +197,7 @@ canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalV
 Given any topological vector bundle $E \to X$, then a choice of [[isomorphism]] to a trivial bundle (if it exists)
 
 $$
-  E \overset{\simeq}{\longrightarrow} X \times \mathbb{R}^n
+  E \overset{\simeq}{\longrightarrow} X \times k^n
 $$
 
 is called a _trivialization_ of $E$.
@@ -191,7 +206,7 @@ Accordingly, the [[local trivialization|local triviality]] condition in the defi
 
 $$
   \left\{
-     U_i \times \mathbb{R}^n
+     U_i \times k^n
        \overset{\simeq}{\to}
      E|_{U_i}
   \right\}_{i \in I}
@@ -227,21 +242,21 @@ $$
 ###### Definition
 **([[transition functions]])
 
-Given a topological vector bundle $E \to X$ as in def. \ref{TopologicalVectorBundle} and a choice of local trivialization isomorphisms $\{\phi_i \colon U_i \times \mathbb{R}^n \overset{\simeq}{\to} E|_{U_i}\}$ (example \ref{TrivialTopologicalVectorBundle}) induce [[continuous functions]]
+Given a topological vector bundle $E \to X$ as in def. \ref{TopologicalVectorBundle} and a choice of local trivialization isomorphisms $\{\phi_i \colon U_i \times k^n \overset{\simeq}{\to} E|_{U_i}\}$ (example \ref{TrivialTopologicalVectorBundle}) induce [[continuous functions]]
 
 $$
   \left\{
-    g_{i j} \;\colon\; (U_i \cap U_j) \longrightarrow GL(n, \mathbb{R})
+    g_{i j} \;\colon\; (U_i \cap U_j) \longrightarrow GL(n, k)
   \right\}_{i,j \in I}
 $$
 
-with values in the [[general linear group]] $GL(n, \mathbb{R})$
+with values in the [[general linear group]] $GL(n, k)$
 
 $$
   \array{
-    (U_i \cap U_j) \times \mathbb{R}^n
+    (U_i \cap U_j) \times k^n
       &\overset{\phi_j \circ \phi_i^{-1}}{\longrightarrow}&
-    (U_i \cap U_j) \times \mathbb{R}^n
+    (U_i \cap U_j) \times k^n
     \\
     (x,v) &\overset{\phantom{AAA}}{\mapsto}& (x, g_{i j}(x)(v))
   }
@@ -256,7 +271,7 @@ These are called the _[[transition functions]]_ for the given local trivializati
 ###### Remark
 **(Cech cocycle condition)**
 
-Let $E \to X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}) and let $\{U_i \subset X\}_{i \in I}$, $\{\phi_i \colon U_i \times \mathbb{R}^n \overset{\simeq}{\to} E|_{U_{i}}\}_{i \in I}$ be a local trivialization (example \ref{TrivialTopologicalVectorBundle}).
+Let $E \to X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}) and let $\{U_i \subset X\}_{i \in I}$, $\{\phi_i \colon U_i \times k^n \overset{\simeq}{\to} E|_{U_{i}}\}_{i \in I}$ be a local trivialization (example \ref{TrivialTopologicalVectorBundle}).
 
 Then the induced [[transition functions]] $\{g_{i j} \colon U_i \cap U_j \to GL(n)\}$ (def. \ref{TransitionFunctions}) satisfy for all $i,j,k \in I$ the conditions
 
@@ -324,10 +339,10 @@ $$
     \underset{i \in I}{\sqcup} U_i
   \right)
   \times
-  \mathbb{R}^n
+  k^n
 $$
 
-(of the [[disjoint union space]] of the patches $U_i \subset X$ regarded as [[topological subspaces]] with the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]) given by
+(of the [[disjoint union space]] of the patches $U_i \subset X$ regarded as [[topological subspaces]] with the [[Euclidean space]] $k^n$ with its [[metric topology]]) given by
 
 $$
   \big(
@@ -352,7 +367,7 @@ $$
       \underset{i \in I}{\sqcup} U_i
     \right)
       \times
-    \mathbb{R}^n
+    k^n
   \right)
   /
   \left(
@@ -372,7 +387,7 @@ $$
   }
 $$
 
-which is a [[continuous function]] (by the [[universal property]] of the [[quotient topological space]] construction, since this [[function]] respects the equivalence relation). Moreover, each [[fiber]] of this map is identified with $\mathbb{R}^n$, and hence canonicaly carries the structure of a [[vector space]].
+which is a [[continuous function]] (by the [[universal property]] of the [[quotient topological space]] construction, since this [[function]] respects the equivalence relation). Moreover, each [[fiber]] of this map is identified with $k^n$, and hence canonicaly carries the structure of a [[vector space]].
 
 Finally, a local trivialization of $E$ exists over the original cover, by construction.
 
@@ -441,7 +456,7 @@ $$
   \;\colon\;
   E \oplus_X E
     \longrightarrow
-  X \times \mathbb{R}
+  X \times k
 $$
 
 (by [this prop.](inner+product+of+vector+bundles#ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces)). This defines at each $x \in X$ the [[orthogonal complement]] $(E'_x)^\perp \subset E_x$ of $E'_x \hookrightarrow E$. The [[subspace]] of these orthogonal complements is readily checked to be a [[topological vector bundle]] $(E')^\perp \to X$. Hence by construction we have
@@ -464,12 +479,12 @@ Let
 
 1. $E \to X$ a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}).
 
-Then there exists another topological vector bundle $\tilde E \to X$ such that the [[direct sum of vector bundles]] of the two is a [[trivial vector bundle]] $X \times \mathbb{R}^n$:
+Then there exists another topological vector bundle $\tilde E \to X$ such that the [[direct sum of vector bundles]] of the two is a [[trivial vector bundle]] $X \times k^n$:
 
 $$
   E \oplus \tilde E
    \;\simeq\;
-  X \times \mathbb{R}^n
+  X \times k^n
   \,.
 $$
 
@@ -486,7 +501,7 @@ $$
   \left\{
     \phi_i
       \;\colon\;
-     U_i \times \mathbb{R}^n
+     U_i \times k^n
        \overset{\simeq}{\longrightarrow}
      E\vert_{U_i}
   \right\}_{i \in I}
@@ -515,7 +530,7 @@ $$
   \array{
     E\vert_{U_i}
      &\overset{\phantom{AAAA}}{\longrightarrow}&
-    U_i \times \mathbb{R}^n
+    U_i \times k^n
     \\
     v
        &\overset{\phantom{AAA}}{\mapsto}&
@@ -530,7 +545,7 @@ $$
   \;\colon\;
   E
     \longrightarrow
-  X \times \mathbb{R}^n
+  X \times k^n
   \,.
 $$
 
@@ -544,10 +559,10 @@ $$
     \longrightarrow
   X \times \left(
     \underset{i \in J}{\oplus}
-       \mathbb{R}^n
+       k^n
   \right)
   \simeq
-  X \times \mathbb{R}^{n \dot {\vert J\vert}}
+  X \times k^{n \dot {\vert J\vert}}
   \,.
 $$
 
@@ -827,10 +842,10 @@ $$
   \,.
 $$
 
-By cor \ref{PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic} it follows that for 
+By cor \ref{PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic} it follows that for
 $E \to X$ any topological vector bundle that there is an isomorphism between
-$id^\ast E = E$ and the result of first restricting the bundle to the point, and then 
-forming the [[pullback bundle]] along $X \to \ast$. But the latter operation precisely produces 
+$id^\ast E = E$ and the result of first restricting the bundle to the point, and then
+forming the [[pullback bundle]] along $X \to \ast$. But the latter operation precisely produces
 the [[trivial vector bundles]] over $X$.
 
 =--
@@ -868,6 +883,8 @@ is trivializable over the contractible subspace $A$.
 
 * [[differentiable vector bundle]]
 
+* [[topological K-theory]]
+
 ## References
 
 Textbook accounts include
@@ -877,8 +894,7 @@ Textbook accounts include
 
 Discussion with an eye towards [[topological K-theory]] is in
 
-* [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
-
+* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 * {#Hatcher} [[Allen Hatcher]], chapter 1 of _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
