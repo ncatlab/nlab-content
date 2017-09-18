@@ -46,6 +46,7 @@ Standard inductive types, [[W-types]] can be interpreted in any topos with [[nat
 [Indexed containers](#AGHMM) are claimed to form a foundation for inductive families.
 
 ## Higher categorical version/ homotopy type theory
+[van den Berg and Moerdijk]{#vdBergMoerdijk13} show that (standard) W-types can be interpreted in certain [[model categories]].
 [Sattler](#Sattler) claims to have a generalization of the reduction from indexed W-types to W-types to higher categories/[[homotopy type theory]].
 
 ## References {#References} 
@@ -62,6 +63,7 @@ Proof Theory in Computer Science, 93-113
 * {#AGHMM}Thorsten Altenkirch, Neil Ghani, Peter Hancock, Conor McBride, and Peter Morris, _Indexed containers_ [PDF](http://strictlypositive.org/indexed-containers.pdf)
 * {#DybjerSetzer} Peter Dybjer and Anton Setzer, _Indexed induction-recursion_, Journal of Logic and Algebraic Programming, volume 66, Issue 1, January 2006, Pages 1-49. [PDF](http://www.cse.chalmers.se/~peterd/papers/Indexed_IR.pdf)
 * Nicola Gambino and Martin Hyland, Wellfounded Trees and Dependent Polynomial Functors. [PDF](http://www1.maths.leeds.ac.uk/~pmtng/Research/Papers/gambino-hyland.pdf)
+* [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765)) {#vdBergMoerdijk13}
 * {#Sattler} Christian Sattler, _slides_ [slides](http://cs.ioc.ee/types15/slides/sattler-slides.pdf)
 
 [[!redirects inductive families]]
