@@ -119,9 +119,14 @@ See also
 
 ### Interpretation as entanglement entropy
 
-Discussions of the interpreation of BH entropy as [[entanglement entropy]] include
+Discussions of the interpreation of BH entropy as [[holographic entanglement entropy]] include
 
 * Alejandro Satz, [[Ted Jacobson]], _Black hole entropy and the renormalization group_ ([arXiv:1301.3171](http://arxiv.org/abs/1301.3171))
+
+
+Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
+
+* Jun Nian, Xinyu Zhang, _Entanglement Entropy of ABJM Theory and Entropy of Topological Black Hole_ ([arXiv:1705.01896](https://arxiv.org/abs/1705.01896))
 
 [[!redirects black hole entropy]]
 [[!redirects BH entropy]]
