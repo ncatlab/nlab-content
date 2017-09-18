@@ -71,7 +71,7 @@ $$
   \,,
 $$
 
-of the two projections out of the formal neighbourhood of the diagonal.
+of the two projections out of the [[formal neighbourhood of the diagonal]].
 
 =--
 
