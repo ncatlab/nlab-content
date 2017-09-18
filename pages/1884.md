@@ -22,13 +22,7 @@
 
 What is called _topological_ [[K-theory]] is a collection of  [[generalized (Eilenberg-Steenrod) cohomology]] theories whose cocycles in degree 0 on a space $X$ can be represented by pairs of [[vector bundle]]s, real or complex ones, on $X$ modulo a certain equivalence relation.
 
-Notice that "ordinary cohomology" is the [[generalized (Eilenberg-Steenrod) cohomology]] that is represented by the [[Eilenberg-MacLane spectrum]] which, as a stably abelian [[infinity-groupoid]] is just the additive [[group]] 
-
-$$
-  \mathbb{Z}
-$$ 
-
-of integers.
+Notice that "ordinary cohomology" is the [[generalized (Eilenberg-Steenrod) cohomology]] that is represented by the [[Eilenberg-MacLane spectrum]] which, as a stably abelian [[infinity-groupoid]] is just the additive [[group]]  $\mathbb{Z}$ of integers.
 
 To a large extent K-theory is the [[cohomology]] theory obtained by [[vertical categorification|categorifying]] this   once:
 
@@ -66,6 +60,7 @@ $$
 
 It is equivalent to the [[nonabelian cohomology]] with coefficients the [[delooping]] $\mathbf{B} U$ of the stable unitary group $U := colim_n U(n)$.
 
+Note: Topological complex K-theory is defined on pairs of spaces $K(X,U)$, such that the section of the complex bundle over $U$ is trivial (we might choose a trivialization). If no second space is listed, we assumed that K-theory of our manifold $X$ is taken with respect to the empty set -- $K(X) \equiv K(X, \emptyset)$ -- in this case, the bundle can be nowhere trivial. 
 
 ### K-theory as a groupoidification of $\mathbf{Vect}$ ###
 
