@@ -7,6 +7,10 @@
 
 * [[parabolic geometry]]
 
+  * [[conformal geometry]]
+
+  * [[CR geometry]]
+
 * [[Cartan connection]]
 
 * [[twistor space]]
