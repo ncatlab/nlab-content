@@ -611,7 +611,7 @@ for all $d \in C$.
 
 This is essentially [[Higher Topos Theory|HTT, corollary 4.4.4.9]].
 
-+-- {: .num_corollary}
++-- {: .num_cor #EveryInfinityGroupoidIsHomotopyColimitOfConstantFunctorOverItself}
 ###### Corollary
 
 Every [[∞-groupoid]] $S$ is the $(\infty,1)$-colimit in [[∞Grpd]] of the constant diagram on the [[point]] over itself:
