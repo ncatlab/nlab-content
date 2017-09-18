@@ -48,9 +48,12 @@ Concepts which relate to (non-degenerate) bilinear forms from the [[nPOV]] and/o
 
 * [[quadratic form]], [[polarization identity]]
 
+* [[sesquilinear form]]
+
+* [[symplectic form]], [[Kähler form]], [[Hermitian form]]
+
 * [[characteristic element of a bilinear form]]
 
-* [[symplectic form]], [[Kähler form]]
 
 * [[Riemannian metric]]
 
