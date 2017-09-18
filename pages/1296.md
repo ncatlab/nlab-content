@@ -19,11 +19,18 @@
 
 ## Definition
 
-A (nonempty) [[full subcategory]] $T$ of an [[abelian category]] $_{A}Mod$ of (say left) modules over a [[ring]] $A$ is a __Serre subcategory__ if for any [[exact sequence]]
+A (nonempty) [[full subcategory]] $T$ of an [[abelian category]] $A$ (so  for the moment of (say left) modules over a [[ring]] $R$) is a __Serre subcategory__ if for any [[exact sequence]]
 $$
 0\to M\to M'\to M''\to 0
 $$
 $M'$ is in $T$ iff $M$ and $M''$ are in $T$. 
+
+
+##Terminology:
+ 
+This notion in general is called a [[thick subcategory]] in Gabriel's thesis, [[Des Catégories Abéliennes]]. The terminology is a minefield as there are variants that occur in the literature, see [[thick subcategory]], and also the [Stack's Project section on this](http://stacks.math.columbia.edu/tag/02MN). Some of these variants are mentioned below.
+
+##Serre quotient
 
 Following Serre, one then defines the category $A/T$ whose objects are the objects of $A$ and where the morphisms in $A/T$ are defined by 
 $$\mathrm{Hom}_{A/T}(X,Y) := \mathrm{colim}\, \mathrm{Hom}_A(X',Y/Y'),$$
