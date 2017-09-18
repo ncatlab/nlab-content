@@ -206,7 +206,7 @@ Similarly:
 ###### Proposition
 **([[oplax monoidal functors]] sends [[comonoids]] to comonoids)**
 
-For $(C,\otimes)$ a [[monoidal category]] write $\mathbf{B}C$ for the correspinding [[delooping]] [[2-category]].
+For $(C,\otimes)$ a [[monoidal category]] write $\mathbf{B}C$ for the corresponding [[delooping]] [[2-category]].
 
 Lax monoidal functor $f : C \to D$ correspond to [[lax 2-functor]] 
 
