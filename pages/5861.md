@@ -2495,6 +2495,7 @@ See at _[[differential cohesion and idelic structure]]_.
 ## Examples
 
 * [[formal smooth ∞-groupoid]]
+* [[infinitesimally thickened Sierpinski topos]]
 
 
 ## Related concepts
