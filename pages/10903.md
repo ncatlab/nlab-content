@@ -289,7 +289,7 @@ A _semantics for linear homotopy type theory_ is
 
 such that
 
-1. each $Mod(X)$ is [[symmetric monoidal (∞,1)-category|symmetric]] closed (with [[internal hom]] to be denoted $[-,-]$);
+1. each $Mod(X)$ is [[symmetric monoidal (∞,1)-category|symmetric]] [[closed monoidal (infinity,1)-category|closed]] (with [[internal hom]] to be denoted $[-,-]$);
 
 1. for each $[f] \colon [\Gamma_1] \to [\Gamma_2]$ in $Mor(\mathcal{C})$ the assigned [[(∞,1)-functor]] $f^\ast \colon Mod([\Gamma_2]) \to Mod([\Gamma_1])$ has a [[left adjoint]] $f_!$ and a [[right adjoint]] $f_\ast$;
 
