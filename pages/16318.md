@@ -19,7 +19,7 @@ In [[physics]], the _exclusion principle_ states that no two [[fermions]] may in
 
 Mathematically this is the statement that fermion [[field (physics)|fields]] are the odd-graded elements of a [[superalgebra]] of functions in [[supergeometry]].
 
-The Pauli explucsion principle is a consequence of the _[[spin-statistics theorem]]_.
+The Pauli exclusion principle is a consequence of the _[[spin-statistics theorem]]_.
 
 The Pauli exclusion principle implies that [[fermions]], as opposed to [[bosons]], may form [[solidity|solid bodies]] that do not necessarily collapse under their own [[gravity]] (as opposed to bosonic [[condensates]]): the exclusion principle induces an outward [[pressure]], the _[[degeneracy pressure]]_ (see also at _[[Fermi sea]]_ and _[[neutron star]]_).
 
