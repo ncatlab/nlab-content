@@ -61,6 +61,8 @@ This is due to ([ChristodoulouKlainerman 1993](#ChristodoulouKlainerman)).
 
 ## References
 
+Named after [[Herrmann Minkowski]].
+
 Gravitational stability of Minkowski space is proven in
 
 * Demetrios Christodoulou, Sergiu Klainerman, _The global nonlinear stability of the Minkowski space_ Princeton University Press (1993)
