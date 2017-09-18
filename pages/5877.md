@@ -41,7 +41,8 @@ Hence a projection is a component of a [[limit|limiting]] _[[cone]]_ over a give
 
 In fact, in older literature the [[filtered category|filtered diagrams]] of spaces or algebraic systems (usually in fact indexed by a codirected set) were called [[projective systems]] (or [[inverse systems]]).
 
-Dually, for colimits the corresponding maps in the opposite direction are sometimes caled _co-projectioons_.
+Dually, for colimits the corresponding maps in the opposite direction are sometimes caled _[[coprojection]]s_.
+
 
 ### In linear algebra
 
@@ -59,9 +60,11 @@ In [[linear algebra]] an [[idempotent]] [[linear operator]] $P:V\to V$ is called
 
   _A projector is a projection followed by an inclusion_.
 
+
 ## Related concepts
 
 A different concept of a similar name is _[[projection formula]]_.
+
 
 [[!redirects projection]]
 [[!redirects projections]]
