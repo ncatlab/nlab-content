@@ -122,7 +122,7 @@ $$
   \,.
 $$
 
-This perspective on framings is made explicit in ([Bunke-Naumann, section 2.3](#BunkeNaumann)). It is mentioned for instance also in ([Freed, slide 5](#Freed)).
+This perspective on framings is made explicit in ([Bunke-Naumann, section 2.3](#BunkeNaumann)). It is mentioned for instance also in ([Freed, page 6, slide 5](#Freed08)).
 
 
 
@@ -151,7 +151,7 @@ reviewed for instance in
 
 * [[Daniel Freed]], Robert Gompf, _Computer calculation of Witten's 3-Manifold invariant_, Commun. Math. Phys. 141,79-117 (1991) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freedgompf.pdf))
 
-* {#Freed} [[Daniel Freed]], _Remarks on Chern-Simons theory_ ([pdf slides])
+* {#Freed08} [[Daniel Freed]], _Remarks on Chern-Simons theory_ ([arXiv:0808.2507](http://arxiv.org/abs/0808.2507), [pdf slides](http://www.ma.utexas.edu/users/dafr/MSRI_25.pdf))
  
 
 and for discussion in the context of the [[M2-brane]] from p. 7 on in 
