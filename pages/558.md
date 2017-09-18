@@ -495,7 +495,7 @@ For more on this see at _[[Simpson's conjecture]]_.
 
 ### For stratified spaces
 
-See [Ayala-Francis-Rozonblyum](#AFR15).
+See [Ayala-Francis-Rozenblyum](#AFR15).
 
 
 ## References
@@ -556,4 +556,4 @@ groupoids_, EMS Tracts in Mathematics Vol. 15, 703 pages. (August
 
 A version for [[stratified spaces]] is discussed in
 
-* David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+* {#AFR15} [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
