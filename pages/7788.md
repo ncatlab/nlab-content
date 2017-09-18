@@ -147,7 +147,9 @@ Further developments of the proposed $E_{11}$ formulation of [[M-theory]] includ
 
 * [[Fabio Riccioni]], Duncan Steele, [[Peter West]], _The E(11) origin of all maximal supergravities - the hierarchy of field-strengths_, 	JHEP 0909:095 (2009) ([arXiv:0906.1177](http://arxiv.org/abs/0906.1177))
 
-* E. Bergshoeff, I. De Baetselier, T. Nutma, _E(11) and the Embedding Tensor_ ([arXiv:0705.1304](http://arxiv.org/abs/0705.1304), [poster](http://mms.technologynetworks.net/posters/0364.pdf))
+* [[Eric Bergshoeff]], I. De Baetselier, T. Nutma, _E(11) and the Embedding Tensor_ ([arXiv:0705.1304](http://arxiv.org/abs/0705.1304), [poster](http://mms.technologynetworks.net/posters/0364.pdf))
+
+* Guillaume Bossard, [[Axel Kleinschmidt]], Jakob Palmkvist, [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_ ([arXiv:1703.01305](https://arxiv.org/abs/1703.01305))
 
 Discussion of the [[semidirect product]] of $E_{11}$ with its $l_1$-[[representation]], and arguments that the [[charges]] of the [[M-theory super Lie algebra]] and in fact further brane charges may be identified inside $l_1$ originate in
 
