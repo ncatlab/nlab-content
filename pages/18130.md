@@ -43,10 +43,39 @@ This construction is the reflector exhibiting Kolmogorov spaces as a [[reflectiv
 
 * Wikipedia, _[Kolmogorov space](https://en.wikipedia.org/wiki/Kolmogorov_space)_
 
-[[!redirects Kolmogorov topological spaces]]
+
+[[!redirects T0]]
+[[!redirects T_0]]
 
 [[!redirects Kolmogorov space]]
 [[!redirects Kolmogorov spaces]]
+[[!redirects T0 space]]
+[[!redirects T0 spaces]]
+[[!redirects T0-space]]
+[[!redirects T0-spaces]]
+[[!redirects T_0 space]]
+[[!redirects T_0 spaces]]
+[[!redirects T_0-space]]
+[[!redirects T_0-spaces]]
+
+[[!redirects Kolmogorov topological space]]
+[[!redirects Kolmogorov topological spaces]]
+[[!redirects T0 topological space]]
+[[!redirects T0 topological spaces]]
+[[!redirects T_0 topological space]]
+[[!redirects T_0 topological spaces]]
+[[!redirects T0-topological space]]
+[[!redirects T0-topological spaces]]
+[[!redirects T_0-topological space]]
+[[!redirects T_0-topological spaces]]
 
 [[!redirects Kolmogorov quotient]]
 [[!redirects Kolmogorov quotients]]
+[[!redirects T0 quotient]]
+[[!redirects T0 quotients]]
+[[!redirects T0-quotient]]
+[[!redirects T0-quotients]]
+[[!redirects T_0 quotient]]
+[[!redirects T_0 quotients]]
+[[!redirects T_0-quotient]]
+[[!redirects T_0-quotients]]
