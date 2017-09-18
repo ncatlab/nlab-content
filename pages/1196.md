@@ -27,8 +27,15 @@ Intuitionistic logic is most easily described as [[classical logic]] without the
 
 ## Properties
 
+### Double negation
+ {#DoubleNegation}
+
+The [[double negation translation]] says that a [[proposition]] $P$ is provable in [[classical logic]] precisely if its [[double negation]] $\not \not P$ is provable in constructive logic
+
+### Disjunction property
+
 Unlike classical logic, intuitionistic logic has the
-_[[disjunction property|disjunction]]_ and _[[existence property|existence]]_ properties: any proof of
+_[[disjunction property|disjunction]]_ and _[[existence property|existence]]_ properties: any [[proof]] of
 $\vdash A \vee B$ must contain a proof of either $\vdash A$ or
 $\vdash B$, and similarly any proof of $\vdash \exists x.\,F(x)$ must
 construct a term $t$ and a proof of $\vdash F(t)$.  These
