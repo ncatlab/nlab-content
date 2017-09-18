@@ -344,7 +344,7 @@ $$
   \array{
     hfib_b(f) &\longrightarrow& A &\stackrel{f}{\longrightarrow}& B
     \\
-    \downarrow^{\mathrlap{\simeq}}  && \downarrow && \downarrow
+    \downarrow^{\mathrlap{\simeq}}  && \downarrow && \downarrow^{\mathrlap{p}}
     \\
     hfib_{p(b)}(g) &\longrightarrow& C &\stackrel{g}{\longrightarrow}& D
   }
@@ -354,7 +354,7 @@ for all elements $b \in B$.
 
 =--
 
- (e.g. [CPS 05, 5.2](#CPS05))
+ (e.g. [CPS 05, 5.2](#CPS05), [MO](http://mathoverflow.net/a/192303/381))
 
 +-- {: .num_remark }
 ###### Remark
