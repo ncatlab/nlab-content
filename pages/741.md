@@ -90,6 +90,8 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 
 * For more see also at _[[finite abelian group]]_.
 
+[[!include ADE -- table]]
+
 ## Related concepts
 
 * [[finite abelian group]]
