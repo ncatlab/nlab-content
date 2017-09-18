@@ -193,7 +193,7 @@ $$
 $$
 
 
-and hence the combination $\alpha - \iota_{\delta\phi} \mathbf{L}$ is conserved on trajectories in the kernel of the [[n-plectic form]] $\omega$ (which are indeed the classical trajectories of $\mathbf{L}$, see e.g. at [[schreiber:infinity-Chern-Simons theory -- covariant phase space]]). (Notice that here $\mathbf{L}$ being directly a [[differential form]] on the space of fields (instead of on a [[jet bundle]] of a [[field bundle]]) means that it depends on the derivatives of the fields exclusively via de Rham differentials, and hence the contraction $\iota_{\delta \phi}\mathbf{L}$ corresponds indeed to the variation $\frac{\delta L}{\delta \dot\phi} \delta \phi$ as it appears in the traditional statement of [[Noether's theorem]]).
+and hence the combination $j \coloneqq \alpha - \iota_{\delta\phi} \mathbf{L}$ (a _[[Hamiltonian form]]_ for $\delta \phi$ with respect to $\omega$) is conserved on trajectories in the kernel of the [[n-plectic form]] $\omega$ (which are indeed the classical trajectories of $\mathbf{L}$, see e.g. at [[schreiber:infinity-Chern-Simons theory -- covariant phase space]]). (Notice that here $\mathbf{L}$ being directly a [[differential form]] on the space of fields (instead of on a [[jet bundle]] of a [[field bundle]]) means that it depends on the derivatives of the fields exclusively via de Rham differentials, and hence the contraction $\iota_{\delta \phi}\mathbf{L}$ corresponds indeed to the variation $\frac{\delta L}{\delta \dot\phi} \delta \phi$ as it appears in the traditional statement of [[Noether's theorem]]).
 
 ## Examples
 
