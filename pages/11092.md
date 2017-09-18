@@ -5,3 +5,4 @@
 category: people
 
 [[!redirects Kolmogorov]]
+[[!redirects A. N. Kolmogorov]]
