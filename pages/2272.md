@@ -48,7 +48,11 @@ Every manifold admits the _trivial Poisson structure_ for which the [[Poisson br
 +-- {: .num_example}
 ###### Example
 
-Every [[symplectic manifold]] carries a natural Poisson structure see [below](PresymplecticManifolds) for more; however, such Poisson manifolds are very special. It is a basic theorem that Poisson structures on a manifold are equivalent to the smooth [[foliations]] of the underlying manifold such that each leaf is a symplectic manifold.
+Every [[symplectic manifold]] carries a natural Poisson structure. Given a smooth function $f: X \to \mathbb{R}$, the symplectic form $\omega$ induces [[Hamiltonian vector field]] $H_f: X \to T X$. We can then define the Poisson bracket as
+$$
+  \{f, g\} = H_f g = \omega(H_f, H_g).
+$$
+See [below](PresymplecticManifolds) for more. However, such Poisson manifolds are very special. It is a basic theorem that Poisson structures on a manifold are equivalent to the smooth [[foliations]] of the underlying manifold such that each leaf is a symplectic manifold.
 
 =--
 
