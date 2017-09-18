@@ -31,7 +31,7 @@ Conventions differ regarding which type of duals are which.  One convention is a
 
 Note that this definition only asserts the existence of the dual objects. It does _not_ assert that specific duals have been chosen. However, the choice of duals is unique up to unique isomorphism, justifying reference to '[[the]]' dual of an object; in fact, this extends to a [[contravariant functor|contravariant]] [[anafunctor]] ${}^*\colon M \to M$.  (Using the [[axiom of choice]] to pick duals for every object at once, we can make this into a [[strict functor]].)
 
-Nor does this definition assert that the right dual of an object is isomorphic to its left dual: this need not be the case in general, though it is true in a [[braided monoidal category]], and thus automatically also in a [[symmetric monoidal category]].  (A rigid monoidal category which is also symmetric is sometimes called [[compact closed category|compact closed]] or simply "compact".)
+Nor does this definition assert that the right dual of an object is isomorphic to its left dual: this need not be the case in general, though it is true in a [[braided monoidal category]], and thus automatically also in a [[symmetric monoidal category]] (this last fact can be considered an algebraic form of the "Whitney trick" for knots; see this [MO discussion](http://mathoverflow.net/questions/162677/why-is-a-braided-left-autonomous-category-also-right-autonomous/162693#162693)). Note that a rigid monoidal category which is also symmetric is sometimes called [[compact closed category|compact closed]], or simply "compact".
 
 In practice, algebraic geometers are the most frequent users of the term 'rigid', and they focus on the symmetric monoidal case, so they ignore the difference between right and left duals.
 
