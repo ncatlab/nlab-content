@@ -1522,6 +1522,7 @@ $$
 Next we use these operations to identify within all generalized superspaces those that are [[supermanifolds]].
 
 ## Supermanifolds
+ {#Supermanifolds}
 
 We now define and then discuss the analog of [[smooth manifolds]] in [[supergeometry]] -- [[supermanifolds]].
 In the spirit of the entire presentation, we do so by applying a [[general abstract]] definition of
