@@ -45,7 +45,7 @@ Among all [[∞-groupoids]] the [[strict ∞-groupoids]] correspond to [[crossed
 
 A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, 
 
-* which says that all [[horns]] of the simplicial set have _fillers_/extend to [[simplices]];
+* which says that all [[horns]] of the simplicial set have [[filler]]s (that is, extend to [[simplices]]);
 
 * which means equivalently that the unique homomorphism $S \to pt$ from $S$ to the [[point]] (the [[terminal object|terminal]] [[simplicial set]]) is a [[Kan fibration]];
 
@@ -131,7 +131,7 @@ See at _[[internal ∞-groupoid]]_ for more.
 
 Some special cases of def. \ref{KanComplexes} go by their own terminology:
 
-* a Kan complex such that for every $k \gt n+1$ every $k$-[[boundary]] $\partial \Delta$ has a unique filler is called $(n+1)$-[[simplicial skeleton|coskeletal]];
+* a Kan complex such that for every $k \gt n+1$ every $k$-[[boundary]] $\partial \Delta$ has a unique [[filler]] is called $(n+1)$-[[simplicial skeleton|coskeletal]];
 
 * a Kan complex that is $(n+1)$-[[coskeleton|coskeletal]] such that in addition the $(n+1)$-[[horns]] and $(n+2)$-[[horns]] have a unique filler are also called _[[hypergroupoid|n-hypergroupoids]]_.
 
@@ -174,7 +174,7 @@ The horn filling condition from this point of view is read as guaranteeing that:
 
 for all collection of $(k-1)$ composable [[k-morphisms]] (given by a horn $\Lambda^k[n]$) there exists a [[k-morphism]] -- their _composite_ -- and an $(n+1)$-morphism connecting the original $(n-1)$ $n$-cells with their composite. Depending on $k$, this interpretation in terms of composition implies that one thinks of all cells as being reversible. 
 
-For illustrations of the horn-filler conditions see also at [[Kan fibration]].
+For illustrations of the horn-[[filler]] conditions see also at [[Kan fibration]].
 
 
 =--
