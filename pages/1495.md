@@ -73,6 +73,8 @@ Some related MO questions:
 
 * [why-is-this-not-an-algebraic-space](http://mathoverflow.net/questions/9043/why-is-this-not-an-algebraic-space), 
 
-* [Can an algebraic space fail to have a unviersal map to a scheme?](http://mathoverflow.net/questions/4587/can-an-algebraic-space-fail-to-have-a-unviersal-map-to-a-scheme)...
+* [Can an algebraic space fail to have a universal map to a scheme?](http://mathoverflow.net/questions/4587/can-an-algebraic-space-fail-to-have-a-unviersal-map-to-a-scheme)
+
+* [What are the Benefits of Using Algebraic Spaces over Schemes?](http://mathoverflow.net/q/3194/447)
 
 [[!redirects algebraic spaces]]
