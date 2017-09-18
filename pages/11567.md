@@ -47,6 +47,7 @@ See the section _[stable Dold-Kan correspondence](module+spectrum#StableDoldKanC
 at _[[module spectrum]]_.
 
 ### In terms of EM-module spectra
+ {#InTermsOfEMModuleSpectra}
 
 For $R$ an ordinary [[ring]], write $H R$ for the corresponding [[Eilenberg-MacLane spectrum]]. 
 
