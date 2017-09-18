@@ -12,7 +12,7 @@ The generalization of [[∞-group]] [[∞-actions]] to $\infty$-actions of [[gro
 +-- {: .num_defn #GroupoidAction}
 ###### Definition
 
-For $\mathcal{G}_\bullet \in Grpd_\infty(\mathbf{H})$ a [[groupoid object in an (∞,1)-category|groupoid object]], $P \in \mathbf{H}$ any object equipped with a morphsim $a \colon P \to \mathcal{G}_0$ to the object of objects of $\mathcal{G}$, a **$\mathcal{G}_\bullet$-[[groupoid ∞-action]]** on $X$ with **anchor** $a$ is a [[groupoid object in an (∞,1)-category|groupoid]] $(X//\mathcal{G})_\bullet$ over $\mathcal{G}_\bullet$ of the form
+For $\mathcal{G}_\bullet \in Grpd_\infty(\mathbf{H})$ a [[groupoid object in an (∞,1)-category|groupoid object]], $P \in \mathbf{H}$ any object equipped with a morphism $a \colon P \to \mathcal{G}_0$ to the object of objects of $\mathcal{G}$, a **$\mathcal{G}_\bullet$-[[groupoid ∞-action]]** on $X$ with **anchor** $a$ is a [[groupoid object in an (∞,1)-category|groupoid]] $(X//\mathcal{G})_\bullet$ over $\mathcal{G}_\bullet$ of the form
 
 $$
   \array{  
