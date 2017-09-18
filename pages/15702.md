@@ -103,7 +103,7 @@ The [[Frobenius morphism]] $Frob_p$ giving an element in the [[Galois group]] me
 
 Under this interpretation, a [[Galois connection]] corresponds to a [[flat connection]] ([[local system of coefficients]]) on an arithmetic curve, and its Artin L-function is a product of [[characteristic polynomials]] of the [[monodromies]]/[[holonomies]] of that flat connection.
 
-Now, in [[differential geometry]], given a suitable [[hyperbolic manifold]] equipped with an actual [[flat bundle]] over it, then associated with it is the _[[Selberg zeta function]]_ / [[Ruelle zeta function]]. While this was originally defined differently, it turns out that this is also an [[Euler product]] of [[characteristic polynomials]] of [[monodromies]]/[[holonomies]]. See at _[Selberg zeta function -- Analogy with Artin L-function](Selberg+zeta+function#AnalogyWithArtinLFunction)_ for more on this.
+Now, in [[differential geometry]], given a suitable odd-dimensional [[hyperbolic manifold]] equipped with an actual [[flat bundle]] over it, then associated with it is the _[[Selberg zeta function]]_ and _[[Ruelle zeta function]]_. Both are (by definition in the latter case and by theorems in the former) [[Euler product]] of [[characteristic polynomials]] of [[monodromies]]/[[holonomies]]. See at _[Selberg zeta function -- Analogy with Artin L-function](Selberg+zeta+function#AnalogyWithArtinLFunction)_ and at _[Ruelle zeta function -- Analogy with Artin L-function](Ruelle+zeta+function#AnalogyToTheArtinLFunction)_ for more on this.
 
 See also ([Brown 09, page 6](#Brown09), [Morishita 12, remark 12.7](#Morishita12)).
 
