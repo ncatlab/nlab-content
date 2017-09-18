@@ -21,7 +21,7 @@
 
 ## Idea
 
-What are called _Fierz identities_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentzain spacetime dimension 4,5,6, 11, then the following identity holds
+What are called _Fierz identities_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentzian spacetime dimension 4,5,7,11, then the following identity holds
 
 $$
   \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right)
@@ -80,7 +80,7 @@ where the symbols refer to [[Young diagrams]] canonically labeling representatio
 
 Given a fixed [[real spin representation]] $N$, then the
 the odd coordinates $\{\theta^\alpha\}_{\alpha = 1}^{dim_{\mathbb{R}}(N) }$ of the [[super Minkowski spacetime]]
-$\mathbb{R}^{d-1,1\vert N}$ span by construction precisely that representation space, and hence so to the
+$\mathbb{R}^{d-1,1\vert N}$ span by construction precisely that representation space, and hence so too the
 spinorial component of the super-[[vielbein]] form
 
 $$
@@ -105,7 +105,7 @@ in the [[super vielbein]]. For example the elements in $CE(\mathbb{R}^{d-1,1\ver
 $$
   \begin{aligned}
     \overline{\psi} \wedge \Gamma_a \psi
-    &=
+    & =
     \left(C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}{\beta}\right) \psi^\alpha \wedge \psi^{\beta}
     \\
     & =
@@ -186,7 +186,7 @@ In components this projection must be of the form
 
 
 $$
-  (\psi \wedge \overline{\psi})^{\alpha{}_{\beta}
+  (\psi \wedge \overline{\psi})^{\alpha}{}_{\beta}
      \;\mapsto\;
   \propto
   \tfrac{1}{dim_{\mathbb{R}}}(n)
