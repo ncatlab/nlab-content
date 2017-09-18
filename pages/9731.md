@@ -45,6 +45,8 @@ There are relatively few examples of unbounded toposes.
 
     ([[David Roberts|DR]]: I think this result has since been improved, see the paper J. Adamek, V. Koubek and V. Trnkova, "How large are left exact functors?" in [TAC](http://www.tac.mta.ca/tac/volumes/8/n13/8-13abs.html). I will have to sort out whether what they are saying applies)
 
+* Any topos that is not locally small, relative to some fixed topos $set$ of sets, when such a setting is properly defined, is not bounded over $set$.
+
 * More coming soon!
 
 
