@@ -1531,7 +1531,7 @@ which we considered earlier in def. \ref{VanishingIdeal}.
 
 We may now use the abstract theory of Galois connections to verify that Zariski closed subsets form a [[topological space|topology]]:
 
-+-- {: .num_prop }
++-- {: .num_prop #ZariskiTopologyOnAffineSpaceViaGaloisConnectionWellDefined}
 ###### Proposition
 **(Zariski topology is well defined)**
 
@@ -1595,27 +1595,85 @@ In the other direction, to prove $V(I \cdot I') \subseteq V_E(I) \cup V(I')$, su
 =--
 
 
++-- {: .num_example #ZariskiTopologyOnMaximalIdealsOfPolynomialRingViaGaloisConnection}
+###### Example
+
+Let $k$ be a [[field]], let $n \in \mathbb{N}$ and write $k[X_1, \cdots, X_n]$ for the [[polynomial ring]] over $k$ in $n$ [[variables]], and $MaxIdl(k[X_1, \cdots, X_n])$ for the [[set]] of [[maximal ideals]] in this ring. 
+
+Define then a [[relation]] 
+
+$$
+  E \hookrightarrow k[x_1, \ldots, x_n] \times MaxIdeal(k[x_1, \ldots, x_n])
+$$ 
+
+by 
+
+$$
+  E(f, M) \Leftrightarrow (f \in M)
+  \,.
+$$
+
+For a subset $T \subseteq MaxIdl(k[x_1, \ldots, x_n])$ we calculate 
+
+$$
+  I_E(T) = \{f \in k[x_1, ldots, x_n]: \forall_{\mathfrak{m} \in MaxIdl} M \in S \Rightarrow f \in \mathfrak{m}\} = \bigcap_{\mathfrak{m} \in S} \mathfrak{m}
+$$ 
+
+which is an ideal, since the intersection of any collection of ideals is again an ideal. (However, not all ideals are given as intersections of maximal ideals, a point to which we will return in a moment.) 
+
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+This is a slight generalization of example \ref{ZariskiClosedSubsetsInaffineViaGalois} since each point $a = (a_1, \ldots, a_n)$ induces a maximal ideal 
+
+$$
+  \mathfrak{m}_a \coloneqq \langle x_1 - a_1, \ldots, x_n - a_n \rangle
+  \,,
+$$
+
+i.e. the [[kernel]] of the function 
+
+$$
+  \array{
+    k[x_1, \ldots, x_n] &\longrightarrow& k
+    \\
+    f &\mapsto& f(a)
+  }
+$$ 
+
+which evaluates polynomials $f$ at the point $a$, where we have $f(a) = 0$ iff $f \in \mathfrak{m}_a$. 
+
+Of course it need not be the case that all maximal ideals $\mathfrak{m}$ are given by points in this way; for example, the ideal $(x^2 + 1)$ is maximal in $\mathbb{R}[x]$ but is not given by evaluation at a point because $x^2 + 1$ does not vanish at any real point. However, if the [[ground field]] $k$ is [[algebraically closed field|algebraically closed]], then every maximal ideal of $k[x_1, \ldots, x_n]$ is given by evaluation at a point $a = (a_1, \ldots, a_n)$. This result is not completely obvious; it is sometimes called the "weak [[Nullstellensatz]]". 
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The set $S \subseteq k^n$ that are closed under the operator $V_E \circ I_E: P(k^n) \to P(k^n)$ in example \ref{ZariskiTopologyOnMaximalIdealsOfPolynomialRingViaGaloisConnection} form a [[topology]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The proof is virtually the same as in the proof of prop. \ref{ZariskiTopologyOnAffineSpaceViaGaloisConnectionWellDefined}: they are closed under arbitrary intersections by our earlier generalities, and they are closed under finite unions by the similar reasoning: $V_E(S) = V_E(I)$ where $I = I_E \circ V_E(S)$ is an ideal, so there is no loss of generality in considering $V_E(I)$ for ideals $I$, and $V_E(I) \cup V_E(I') = V_E(I \cdot I')$. If $\mathfrak{m} \in V_E(I \cdot I')$ (meaning $I \cdot I' \subseteq M$) but $\mthfrak{m}$ *doesn't* belong to $V_E(I)$, i.e., $f \notin \mathfrak{m}$ for some $f \in I$, then for every $g \in I'$ we have $f \cdot g \in \mathfrak{m}$. Taking the [[quotient]] map $\pi: R \to R/\mathfrak{m}$ to the field $R/\mathfrak{m}$, we have $\pi(f \cdot g) = \pi(f)\cdot \pi(g) = 0$, and since $\pi(f) \neq 0$ we have $\pi(g) = 0$ for every $g \in I'$, hence $\mathfrak{m} \in V_E(I')$. 
+
+=--
+
+Thus the fixed elements of $V_E \circ I_E$ on one side of the Galois correspondence are the closed sets of a topology. The fixed elements of $I_E \circ V_E$ on the other side are a matter of interest; in the case where $k$ is [[algebraically closed field|algebraically closed]], they are the *[[radical ideals]]* of $k[X_1, \ldots, X_n]$ according to the "strong [[Nullstellensatz]]. 
+
+
 
 ### Applied to affine schemes
  {#GaloisAppliedToAffineSchemes}
 
 We now redo the discussion of the Zariski topology on the [[prime spectrum of a commutative ring]] from [above](#OnAffineVarieties) as a special case of the general considerations of [[Galois connections]].
-
-
-
-* Again let $k$ be a field, and define a relation $E \hookrightarrow k[x_1, \ldots, x_n] \times MaxIdeal(k[x_1, \ldots, x_n])$ by $E(f, M)$ iff $f \in M$. This is a slight generalization of the previous example since each point $a = (a_1, \ldots, a_n)$ induces a maximal ideal $M = \langle x_1 - a_1, \ldots, x_n - a_n \rangle$, i.e. the kernel of the map $k[x_1, \ldots, x_n] \to k: f \mapsto f(a)$ which evaluates polynomials $f$ at the point $a$, where we have $f(a) = 0$ iff $f \in M$.
-
-Of course it need not be the case that all maximal ideals $M$ are given by points in this way; for example, the ideal $(x^2 + 1)$ is maximal in $\mathbb{R}[x]$ but is not given by evaluation at a point because $x^2 + 1$ doesn't vanish at any real point. However, if the ground field $k$ is [[algebraically closed field|algebraically closed]], then every maximal ideal of $k[x_1, \ldots, x_n]$ is given by evaluation at a point $a = (a_1, \ldots, a_n)$. This result is not completely obvious; it is sometimes called the "weak [[Nullstellensatz]]".
-
-Looking a little more closely at this example, for a subset $T \subset MaxIdeal(k[x_1, \ldots, x_n])$ we calculate
-
-$$I_E(T) = \{f \in k[x_1, ldots, x_n]: \forall_{M \in MaxIdeal} M \in S \Rightarrow f \in M\} = \bigcap_{M \in S} M$$
-
-which is an ideal, since the intersection of any collection of ideals is again an ideal. (However, not all ideals are given as intersections of maximal ideals, a point to which we will return in a moment.)
-
-As in the previous example, sets $S \subset k^n$ that are closed under the operator $V_E \circ I_E: P(k^n) \to P(k^n)$ form a topology. The proof is virtually exactly the same as before: they are closed under arbitrary intersections by our earlier generalities, and they are closed under finite unions by the similar reasoning: $V_E(S) = V_E(I)$ where $I = I_E \circ V_E(S)$ is an ideal, so there is no loss of generality in considering $V_E(I)$ for ideals $I$, and $V_E(I) \cup V_E(I') = V_E(I \cdot I')$. If $M \in V_E(I \cdot I')$ (meaning $I \cdot I' \subset M$) but $M$ *doesn't* belong to $V_E(I)$, i.e., $f \notin M$ for some $f \in I$, then for every $g \in I'$ we have $f g \in M$. Taking the quotient map $\pi: R \to R/M$ to the field $R/M$, we have $\pi(f g) = \pi(f)\pi(g) = 0$, and since $\pi(f) \neq 0$ we have $\pi(g) = 0$ for every $g \in I'$, hence $M \in V_E(I')$.
-
-Thus the fixed elements of $V_E \circ I_E$ on one side of the Galois correspondence are the closed sets of a topology. The fixed elements of $I_E \circ V_E$ on the other side are a matter of interest; in the case where $k$ is algebraically closed, they are the *radical ideals* of $k[x_1, \ldots, x_n]$ according to the "strong [[Nullstellensatz]].
 
 
 ## Related concepts
