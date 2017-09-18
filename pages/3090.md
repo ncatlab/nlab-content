@@ -118,7 +118,7 @@ The converse is false:
 ###### Example
 **(Serre fibrations which are not Hurewicz fibrations)**
 
-An example of a [[covering space]] which is a Serre fibration but not a Hurewicz fibration is given by Jeremy Brazas [here](https://mathoverflow.net/a/241597/381).
+An example of a generalized [[covering space]] which is a Serre fibration but not a Hurewicz fibration is given by Jeremy Brazas [here](https://mathoverflow.net/a/241597/381).
 
 =--
 
@@ -310,10 +310,18 @@ The commutativity of the outer square says that $f_\ast \alpha'$ is constant, he
 
 
 ## Examples
+ {#Examples}
 
 Every locally trivial topological [[fiber bundle]] is in particular a Serre fibration.
 
-In particular every [[covering space]] ([[discrete space]] topological fiber bundle) is a Serre fibration [this prop.](covering+space#HomotopyLiftingPropertyOfCoveringSpaces)
+
+In particular every 
+
++-- {: .num_example #CoveringSpaceIsSerreFibration}
+###### Example
+**([[covering space]] projectin is Serre fibration)**
+
+Every [[covering space]] projection is a Serre fibration, in fact a [[Hurewicz fibration]] (by [this prop.](covering+space#HomotopyLiftingPropertyOfCoveringSpaces)).
 
 
 
