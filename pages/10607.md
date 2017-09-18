@@ -369,6 +369,7 @@ For an overview of the role of adjunctions in modal logic see:
 [[!redirects opposites]]
 
 [[!redirects unity of opposites]]
+[[!redirects unities of opposites]]
 [[!redirects unity and identity of opposites]]
 
 [[!redirects dialectic]]
