@@ -1191,7 +1191,7 @@ which we will use:
 
 +-- {: .num_prop #HomotopyFibersOfLInfinityCocycles}
 ###### Proposition
-**([Fiorenza-Sati-Schreiber 13, prop. 3.5](#FSS13))**
+**([Fiorenza-Sati-Schreiber 13, theorem 3.5](#FSS13))**
 
 Write
 
@@ -3737,7 +3737,7 @@ $$
 
 This is the [[WZW term]] for the [[Green-Schwarz superstring]] ([Green-Schwarz 84](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#GreenSchwarz84)).
 
-The maximal invariant 4-cocycle on [[super Minkowski spacetime]] is
+The maximal invariant 4-cocycle on 11d [[super Minkowski spacetime]] is
 
 $$
   \mu_{M2} = \tfrac{i}{2} \left(\overline{\psi} \wedge \Gamma_{a b} \psi \right) \wedge e^a \wedge e^b
@@ -7638,9 +7638,9 @@ prop. \ref{GeneralReduction}:
 
 $\,$
 
-+-- {: .num_prop #DimensionalReduction}
++-- {: .num_prop #ddReduction}
 ###### Proposition
-**([Fiorenza-Sati-Schreiber 16b, prop. 3.5](#FSS16b))**
+**([Fiorenza-Sati-Schreiber 16b, prop. 3.8](#FSS16b))**
 
 Let
 
@@ -7692,7 +7692,7 @@ $$
 hence a [[dg-algebra]] homomorphism
 
 $$
-  \phi^\ast  
+  \phi^\ast
     \;\colon\;
   CE(\mathfrak{h})
      \longrightarrow
@@ -7713,7 +7713,7 @@ which, in the notation of def. \ref{Cyclification}, is given dually by
 
 $$
   \tilde \phi^\ast
-  \colon 
+  \colon
   \left\{
     \array{
       \alpha & \mapsto (\phi^\ast \alpha)|_{\mathfrak{g}}
@@ -7788,8 +7788,8 @@ the canonical 2-cocycle on the cyclification is taken to the 2-cocycle classifyi
 +-- {: .num_remark}
 ###### Remark
 
-If $CE(\mathfrak{h})$ in prop. \ref{DimensionalReduction} has generators in degree 1, then 
-the operation $\tilde \phi^\ast$ involves sending generators in degree 0 to multiples of the 
+If $CE(\mathfrak{h})$ in prop. \ref{DimensionalReduction} has generators in degree 1, then
+the operation $\tilde \phi^\ast$ involves sending generators in degree 0 to multiples of the
 ground field. This makes $\tilde \phi$ a "[[curved L-∞ algebra|curved]]" $L_\infty$-homomorphism.
 Hence for prop. \ref{DimensionalReduction} to give a pair of [[adjoint functors]] we need to regard it
 in the category of $L_\infty$-algebras with curved morphisms between them. But in applications
