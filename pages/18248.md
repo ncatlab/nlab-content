@@ -32,7 +32,7 @@ for the $n$-fold [[composition]] of $f_c$ with itself ($f_c^0 \coloneqq id_{\mat
 
 Starting with value $0 \in \mathbb{C}$, this defines a [[sequence]] of points in the complex plane $(f_c^n(0))_{i \in \mathbb{C}}$ for each [[complex number]] $c \in \mathbb{C}$.
 
-The _Mandelbrod set_ $Mdlbrt \subset \mathcal{C}$ is the [[subset]] of the [[complex plane]] on those values of $c$ for which the corresponding [[sequence]] $(f_c^n)_{n \in \mathbb{B}}$ is [[bounded set|bounded]]
+The _Mandelbrot set_ $Mdlbrt \subset \mathcal{C}$ is the [[subset]] of the [[complex plane]] on those values of $c$ for which the corresponding [[sequence]] $(f_c^n)_{n \in \mathbb{B}}$ is [[bounded set|bounded]]
 
 $$
   Mdlbrt 
@@ -62,7 +62,7 @@ Globally, at low resolution, the Mandelbrot set looks like this:
 Regard the Mandelbrot set as a [[topological space]] 
 
 $$
-  (Mndlbrt, \tau_{sub})
+  (Mdlbrt, \tau_{sub})
 $$
 
 via the [[subspace topology]] $\tau_{sub}$ inherited from the [[Euclidean space|Euclidean]] [[metric topology]] of $\mathbb{C} \simeq \mathbb{R}^2$. 
@@ -72,7 +72,7 @@ via the [[subspace topology]] $\tau_{sub}$ inherited from the [[Euclidean space|
 +-- {: .num_prop #MndlbrtIsCompact}
 ###### Proposition
 
-The Mandelbrot space $(Mndlbrot, \tau_{sub})$ (def. \ref{MandelbrotSpace}) is a [[compact topological space]].
+The Mandelbrot space $(Mdlbrot, \tau_{sub})$ (def. \ref{MandelbrotSpace}) is a [[compact topological space]].
 
 =--
 
@@ -180,7 +180,7 @@ By lemma \ref{EscapeRadius} the Mandelbrot set is a [[bounded subset]] of 2d [[E
 
 The subset is closed if for every point $c \in \mathbb{C} \backslash Mdlbrt$ not contained in the Mandelbrot set there is an [[open neighbourhood]] of $c$ which still does not intersect the Mandelbrot set.
 
-Now that $c \notin Mndlbrt \subset \mathbb{R}^2$ means by definition that for every positive real number $r$ there is an $n \in \mathbb{N}$ such that $\vert f_c^n(0)\vert \gt r$. 
+Now that $c \notin Mdlbrt \subset \mathbb{R}^2$ means by definition that for every positive real number $r$ there is an $n \in \mathbb{N}$ such that $\vert f_c^n(0)\vert \gt r$. 
 
 Pick such an $n$ for $r = 2$. Let then
 
