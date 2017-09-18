@@ -1583,25 +1583,40 @@ In various references the "alternative suspension" from def. \ref{SequentialSpec
 +-- {: .num_remark #StandardAndAlternativeSuspensionAreNotDirectlyComparable}
 ###### Remark
 
-There is no direct comparison morphism between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial graded commutativity of smash products of spheres: 
+There is no direct [[natural isomorphism]] between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial graded commutativity ([[braiding]]) of smash products of spheres. (We discuss braiding of the smash product more in detail in [[Introduction to Stable homotopy theory -- 1-2|Part 1.2]], [this example](Introduction+to+Stable+homotopy+theory+--+1-2#PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory)). 
 
-namely a comparison isomorphism $\Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way around) would have to make the following diagrams commute:
+Namely a [[natural isomorphism]] $\phi \colon \Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way around) would have to make the following diagrams commute:
 
 $$
   \array{
-     S^1 \wedge S^1 \wedge X_n &\longrightarrow& S^1 \wedge X_n \wedge S^1
+     S^1 \wedge S^1 \wedge X_n 
+       &\overset{id_{S^1} \wedge \phi_n}{\longrightarrow}& 
+     S^1 \wedge X_n \wedge S^1
      \\
      {}^{\mathllap{S^1 \wedge \sigma_n}}\downarrow 
        &(nc)& 
      \downarrow^{\mathrlap{\sigma_n \wedge S^1}}
      \\
-     S^1 \wedge X_{n+1} &\longrightarrow& X_{n+1} \wedge S^1
+     S^1 \wedge X_{n+1} 
+       &\underset{\phi_{n+1}}{\longrightarrow}& 
+     X_{n+1} \wedge S^1
   }
 $$
 
 and [[natural transformation|naturally]] so in $X$.
 
-Clearly the only way to go about achieving this is to have the horizontal morphisms be the [[braiding]] homomorphisms of the [[smash product]]. To see this more clearly, consider labeling the two copies of the circle appearing here as $S^1_a$ and $S^1_b$. Then the diagram we are dealing with looks like this:
+The only evident option is to have $\phi$ be the [[braiding]] homomorphisms of the [[smash product]]
+
+$$
+  \phi_n = \tau_{S^1, X_n} 
+    \;\colon\; 
+   S^1 \wedge X_{n} 
+     \overset{\simeq}{\to}
+   X_{n} \wedge S^1
+  \,.
+$$
+
+It may superficially look like this makes the above diagram commute, but it does not. To make this explicit, consider labeling the two copies of the circle appearing here as $S^1_a$ and $S^1_b$. Then the diagram we are dealing with looks like this:
 
 $$
   \array{
@@ -1613,11 +1628,11 @@ $$
        &(nc)& 
      \downarrow^{\mathrlap{\sigma_n \wedge S^1_b}}
      \\
-     S_a^1 \wedge X_{n+1} &\longrightarrow& X_{n+1} \wedge S_b^1
+     S_a^1 \wedge X_{n+1} &\underset{}{\longrightarrow}& X_{n+1} \wedge S_b^1
   }
 $$
 
-If we had $S^1_a \wedge \sigma_n$ on the left and $\sigma_n \wedge S^1_a$ on the right, then the [[natural transformation|naturality]] of the [[braiding]] would give a commuting diagram. But since this is not the case, the only way to achieve this would be by exchanging in the top left
+If we had $S^1_a \wedge \sigma_n$ on the left and $\sigma_n \wedge S^1_a$ on the right, then the [[natural transformation|naturality]] of the [[braiding]] would indeed give a commuting diagram. But since this is not the case, the only way to achieve this would be by exchanging in the top left
 
 $$
   S^1_a \wedge S^1_b \longrightarrow S^1_b \wedge S^1_a
@@ -1626,13 +1641,15 @@ $$
 
 However, this map is non-trivial. It represents $-1$ in $[S^2, S^2]_\ast = \pi_2(S^2) = \mathbb{Z}$. Hence inserting this map in the top of the previous diagram still does not make it commute.
 
-But this technical problem points to its own solutions: if we were to restrict to spectra which had structure maps only of the form $S^2 \wedge X_n \to X_{n+2}$, then the braiding required to make the two models of suspension comparable would be
+But this technical problem points to its own solutions: if we were to restrict to the homotopy category of spectra which had structure maps only of the form $S^2 \wedge X_n \to X_{n+2}$, then the braiding required to make the two models of suspension comparable would be
 
 $$
   S^2_a \wedge S^1_b \longrightarrow S^1_b \wedge S^2_a
 $$
 
-and this map is indeed trivial. This we turn to in def. \ref{SequentialS2Spectra} below. More generally, the kind of issue encountered here is taken care of by the concept of [[symmetric spectra]], to which we turn [further below](#SymmetricSpectra).
+and this map is indeed trivial, up to homotopy. This we make precise as lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory} below. 
+
+More generally, the kind of issue encountered here is taken care of by the concept of _[[symmetric spectra]]_, to which we turn in _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2]]_.
 
 =--
 
@@ -4589,7 +4606,7 @@ With this in hand, we now finally state the comparison between standard and alte
 +-- {: .num_lemma #IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}
 ###### Lemma
 
-There is a [[natural isomorphism]] in the [[homotopy category of a model category|homotopy category]] Ho(SeqSpec(Top_{cg})_{stable})$$ of the stable model structure, between the total [[derived functors]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) of the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and of the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}):
+There is a [[natural isomorphism]] in the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{stable})$ of the stable model structure, between the total [[derived functors]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) of the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and of the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}):
 
 $$
   \Sigma (-)
@@ -4599,9 +4616,20 @@ $$
   \in Ho(SeqSpec(Top_{cg})_{stable})
 $$
 
+Notice that we agreed in [[Introduction to Stable homotopy theory -- P|Part P]] to suppress the notation $\mathbb{L}$ for [[left derived functors]] of the suspension functor, not to clutter the notation. If we re-instantiate this then the above says that there is a natural isomorphism
+
+$$
+  \mathbb{L} \Sigma
+   \; \simeq \;
+  \mathbb{L}((-) \wedge S^1)
+  \,.
+$$
+
 =--
 
 ([Jardine 15, corollary 10.42, prop. 10.53](#Jardine15))
+
+
 
 +-- {: .proof}
 ###### Proof
