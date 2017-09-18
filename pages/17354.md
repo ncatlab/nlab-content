@@ -11,5 +11,6 @@ For Croatian version see [link](https://ncatlab.org/zoranskoda/show/aksiomi+plan
 * A. Kolmogorov
 * George D. Birkhoff, A set of postulates for plane geometry, Annals of Mathematics 33: pp. 329-345 (1932)
 * [[Hermann Weyl]], _Raum, Zeit, Materie_, 1918; engl. transl. Space Time Matter 1922, reprinted 1952
+* Gustave Choquet, _Geometry in a modern setting_
 
 [[!redirects aksiomi planimetrije]]
