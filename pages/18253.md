@@ -16,6 +16,66 @@
 
 ## Statement
 
++-- {: .num_lemma}
+###### Lemma
+
+Let $X$ be a [[topological space]] such that 
+
+1. $X$ is [[Hausdorff topological space|Hausdorff]],
+
+1.  every [[open cover]] of $X$ has a [[refinement]] by a [[locally finite closed cover]].
+
+Then $X$ is [[paracompact topological space|paracompact]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $X$ be a [[topological space]] such that
+
+1. $X$ is [[regular topological space|regular]];
+
+1. every [[open cover]] of $X$ has a [[refinement]] by a [[locally finite cover]] (not necessarily [[open cover|open]]).
+
+Then $X$ is [[paracompact topological space]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Let $X$ be a [[topological space]] such that
+
+1. $X$ is [[regular topological space|regular]];
+
+1. every [[open cover]] of $X$ has a refinement by a union of a [[countable set]] of locally finite sets of subsets. 
+
+Then $X$ is [[paracompact topological space]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+
+=--
+
+
 +-- {: .num_prop }
 ###### Proposition
 **(second-countable regular spaces are paracompact)**
