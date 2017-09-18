@@ -143,7 +143,7 @@ The formalization of orthogonal bases in $\dagger$-compact categories is in
 
 The role of [[complex numbers]] in general $\dagger$-compact categories is discussed in
 
-* {#Vicary} [[Jamie Vicary]], _Completeness and the complex numbers_ ([arXiv:0807.2927](http://arxiv.org/abs/0807.2927)) 
+* {#Vicary} [[Jamie Vicary]], _Completeness of $\dagger$-categories and the complex numbers_ ([arXiv:0807.2927](http://arxiv.org/abs/0807.2927)) 
 
 
 [[quantum operation|Completely positive maps]] in terms of $\dagger$-categories are discussed in
