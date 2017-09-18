@@ -52,6 +52,9 @@ $$
 
 * Wikipedia, _[Gravitational instanton](http://en.wikipedia.org/wiki/Gravitational_instanton)_
 
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+
+
 [[!redirects Taub-NUT spacetimes]]
 
 [[!redirects Taub-NUT space]]
