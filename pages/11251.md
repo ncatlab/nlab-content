@@ -51,7 +51,7 @@ The book states seven "propositions" (with sub-propositions):
 
 ## Formal Logic
 
-Wittgenstein suggest a new formal language that he puts in contrast to Russell's type theoretic system elaborated in the famous [Principia Mathematica](#Russell10), which he criticizes.
+Wittgenstein suggest a new formal language that he puts in contrast to Russell's type theoretic system elaborated in the famous [[Principia Mathematica]], which he criticizes.
 Russell in turn took Wittgenstein's suggestions serious giving an interpretation of them, first, in his introduction to the English translation of the Tractatus, which in the Anglo-Saxon reception has become almost a part of early Wittgenstein's magnum opus itself, and, second, in an appendix to a later edition of the Principia Mathematica.
 
 The meaning of Wittgenstein's formal system remains disputed to this day, e.g. ([Wehmeier11](#Wehmeier11)).
@@ -76,7 +76,7 @@ A side-by-side version of the German original and the Ogden/Ramsey and Pears/McG
 
 * Brian McGuinnes, _Approaches to Wittgenstein_, 2002
 
-* {#Russell10}Bertrand Russell, _Principia Mathematica_, 1910
+* {#Russell10}Bertrand Russell, _[[Principia Mathematica]]_, 1910
 
 * {#Wehmeier11}Wehmeier, Vortrag _The First-Order Logic of the Tractatus_, [Video](https://www.youtube.com/watch?v=e75U1fgBC6g)
 
