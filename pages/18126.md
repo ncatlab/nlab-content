@@ -17,6 +17,8 @@ In passing, some basics of [[category theory]] make an informal appearance,
 used to transparently summarize some conceptually important aspects of the theory, such as
 [[initial topology|initial]] and [[final topologies]] and the [[reflective subcategory|reflection]] into
 [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
+We close with discussion of the basics of [[topological manifolds]] and [[differentiable manifolds]], 
+laying the foundations for [[differential geometry]].
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
 and ends with their first application to the classification of [[covering spaces]].
 
@@ -2619,7 +2621,7 @@ says that
 
 1. the [[point space]] $\ast$ is the _[[terminal object]]_
 
-in the [[category]] [[Top]] of topological spaces.
+in the [[category]] [[Top]] of topological spaces. We come back to this below in example \ref{TerminalInitialObject}.
 
 =--
 
@@ -6045,7 +6047,7 @@ A _[[free diagram]]_ $X_\bullet$ of [[sets]] or of [[topological spaces]] is
 1. a [[set]] $\{ X_i \}_{i \in I}$ of [[sets]] or of [[topological spaces]], respectively;
 
 1. for every [[pair]] $(i,j) \in I \times I$ of labels, a [[set]]
-   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[functions]] or [[continuous functions]], respectively, between these.
+   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[functions]] of of [[continuous functions]], respectively, between these.
 
 =--
 
@@ -6054,22 +6056,8 @@ A _[[free diagram]]_ $X_\bullet$ of [[sets]] or of [[topological spaces]] is
 ###### Example
 **([[discrete category|discrete]] [[diagram]] and [[empty diagram]])**
 
-Let $I$ be any [[set]], and for each $(i,j) \in I \times I$ let $I_{i,j}$
-either by the [[empty set]] if the indices do not agree, or else [[generalized the|the]]
-[[singleton set]], whose unique element we denote by $id_i$:
-
-$$
-  I_{i,j}
-    \coloneqq
-  \left\{
-    \array{
-      \emptyset & \vert & i \neq j
-      \\
-      \{id_i\} & \vert & I = j
-    }
-  \right.
-  \,.
-$$
+Let $I$ be any [[set]], and for each $(i,j) \in I \times I$ let $I_{i,j} = \emptyset$
+be the [[empty set]].
 
 The corresponding [[free diagrams]] (def. \ref{Diagram})
 are simply a set of sets/topological spaces with no specified (continuous) functions between them.
@@ -6099,17 +6087,15 @@ $$
     \;\coloneqq\;
   \left\{
     \array{
-      \{id_i\} & \vert & i = j
-      \\
       \{ 1,2 \} & \vert & (i = a) \,\text{and}\, (j = b)
       \\
-      \emptyset & \vert & (i=b) \,\text{and}\, (j = a)
+      \emptyset & \vert & \text{otherwise}
     }
   \right\}
   \,.
 $$
 
-The corresponding [[free diagrams]] (def. \ref{Diagram}) are called _pairs of [[parallel morphisms]]_.
+The corresponding [[free diagrams]] (def. \ref{Diagram}) are called _[[pairs of  parallel morphisms]]_.
 They may be depicted like so:
 
 $$
@@ -6129,15 +6115,13 @@ $$
 ###### Example
 **([[span]] and [[cospan]] [[diagram]])**
 
-Let $I = \{a,b,c\}$ and
+Let $I = \{a,b,c\}$ the set with three elements, and set
 
 $$
   I_{i ,j}
    =
   \left\{
     \array{
-      \{id_i\} & \vert \, i = j
-      \\
       \{f_1\} & \vert \, (i = c) \,\text{and}\, (j = a)
       \\
       \{f_2\} & \vert \, (i = c) \,\text{and}\, (j = b)
@@ -6160,7 +6144,7 @@ $$
   \,.
 $$
 
-This is called a _[[span]] [[diagram]]_.
+These are called _[[span]] [[diagrams]]_.
 
 Similary, there is the _[[cospan]]_ diagram of the form
 
@@ -6188,9 +6172,9 @@ $$
    \;\coloneqq\;
   \left\{
     \array{
-      \{f_{i,j}\} & \vert \, i \leq j
+      \{f_{i,j}\} & \vert & i \leq j
       \\
-      \emptyset & \vert \, \text{otherwise}
+      \emptyset & \vert & \text{otherwise}
     }
   \right.
 $$
@@ -6201,11 +6185,11 @@ They look as follows:
 
 $$
    X_0
-     \overset{f_{0,1}}{\longrightarrow}
+     \overset{\phantom{A}f_{0,1} \phantom{A} }{\longrightarrow}
    X_1
-     \overset{f_{1,2}}{\longrightarrow}
+     \overset{\phantom{A} f_{1,2} \phantom{A} }{\longrightarrow}
    X_2
-     \overset{f_{2,3}}{\longrightarrow}
+     \overset{\phantom{A} f_{2,3} \phantom{A} }{\longrightarrow}
    X_3
      \overset{}{\longrightarrow}
    \cdots
@@ -6217,11 +6201,11 @@ Similarly there are co-tower diagram
 
 $$
    X_0
-     \overset{f_{0,1}}{\longleftarrow}
+     \overset{\phantom{A} f_{0,1} \phantom{A} }{\longleftarrow}
    X_1
-     \overset{f_{1,2}}{\longleftarrow}
+     \overset{\phantom{A} f_{1,2} \phantom{A}}{\longleftarrow}
    X_2
-     \overset{f_{2,3}}{\longleftarrow}
+     \overset{\phantom{A} f_{2,3} \phantom{A}}{\longleftarrow}
    X_3
      \overset{}{\longleftarrow}
    \cdots
@@ -6232,6 +6216,7 @@ $$
 =--
 
 
+$\,$
 
 +-- {: .num_defn #Cone}
 ###### Definition
@@ -6252,7 +6237,7 @@ Then
 
 1. a _[[cone]]_ over this diagram is
 
-   1. a [[set]] or [[topological space]] $\tilde X$;
+   1. a [[set]] or [[topological space]] $\tilde X$ (called the _tip_ of the cone);
 
    1. for each $i \in I$ a [[function]] or [[continuous function]] $\tilde X \overset{p_i}{\longrightarrow} X_i$
 
@@ -6280,7 +6265,7 @@ Then
 
 1. a _[[co-cone]]_ over this diagram is
 
-   1. a set or topological space $\tilde X$;
+   1. a set or topological space $\tilde X$ (called the _tip_ of the co-cone);
 
    1. for each $i \in I$ a function or continuous function $q_i \colon X_i \longrightarrow \tilde X$;
 
@@ -6312,7 +6297,7 @@ Then
 ###### Example
 **([[solutions]] to [[equations]] are [[cones]])**
 
-Let $f,g \colon \mathbb{R} \to \mathbb{R}$ two [[functions]] from the [[real numbers]] to themselves, and consider the
+Let $f,g \colon \mathbb{R} \to \mathbb{R}$ be two [[functions]] from the [[real numbers]] to themselves, and consider the
 corresponding [[parallel morphism]] [[diagram]] of sets (example \ref{ParallelMorphisms}):
 
 $$
@@ -6325,7 +6310,7 @@ $$
   \,.
 $$
 
-Then a [[cone]] (def. \ref{Cone}) over this feee diagram with tip the [[singleton]] set $\ast$ is a _[[solution]]_ to
+Then a [[cone]] (def. \ref{Cone}) over this free diagram with tip the [[singleton]] set $\ast$ is a _[[solution]]_ to
 the [[equation]] $f(x) = g(x)$
 
 $$
@@ -6379,13 +6364,13 @@ $$
 
 Then
 
-1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short, also "[[inverse limit]]" for historical reasons) is
+1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short, also "[[inverse limit]]", for historical reasons) is
    [[generalized the|the]] [[cone]]
 
    $$
      \left\{
      \array{
-       && \underset{\longleftarrow}{\lim}_i X_i
+       && \underset{\longleftarrow}{\lim}_k X_k
        \\
        & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
        \\
@@ -6431,7 +6416,7 @@ Then
      \array{
        \tilde X
        \\
-       {}^{\mathllap{\phi}}\downarrow & \searrow^{\mathrlap{p_i}}
+       {}^{\mathllap{ \exists !\, \phi}}\downarrow & \searrow^{\mathrlap{p'_i}}
        \\
        \underset{\longrightarrow}{\lim}_i X_i
        &\underset{p_i}{\longrightarrow}&
@@ -6494,9 +6479,9 @@ Then
        &\overset{q_i}{\longrightarrow}&
        \underset{\longrightarrow}{\lim}_i X_i
        \\
-       {}^{\mathllap{\phi}}\downarrow & \swarrow^{\mathrlap{q'_i}}
+       & {}_{q'_i}\searrow & \downarrow^{\mathrlap{\exists ! \phi}}
        \\
-       \tilde X
+       && \tilde X
      }
    $$
 
@@ -6506,7 +6491,6 @@ $\,$
 
 All the limits and colimits over the free diagram in the above list of examples have special names:
 
-$\,$
 
 
 [[!include free diagrams -- table]]
@@ -6518,11 +6502,11 @@ $\,$
 Consider the [[empty diagram]] (def. \ref{DiscreteDiagram}).
 
 1. A [[cone]] over the empty diagram is just an object $X$, with no further structure or condition.
-The [[universal property]] of the [[limit]] ``$\ast$'' over the empty diagram is hence that 
+The [[universal property]] of the [[limit]] "$\ast$" over the empty diagram is hence that
 for every object $X$, there is a unique map of the form $X \to \ast$. Such an object $\ast$ is called a _[[terminal object]]_.
 
-1. A [[co.cone]] over the empty diagram is just an object $X$, with no further structure or condition.
-The [[universal property]] of the [[colimit]] ``$0$'' over the empty diagram is hence that
+1. A [[co-cone]] over the empty diagram is just an object $X$, with no further structure or condition.
+The [[universal property]] of the [[colimit]] "$0$" over the empty diagram is hence that
 for every object $X$, there is a unique map of the form $0 \to X$. Such an object $\ast$ is called a _[[initial object]]_.
 
 =--
@@ -6623,7 +6607,7 @@ $$
      \\
      && \downarrow^{\mathrlap{f}}
      \\
-     X 
+     X
        &\underset{g}{\longrightarrow}&
      Z
   }
@@ -6631,13 +6615,13 @@ $$
 $$
 
 The [[limit]] over this diagram is also called the _[[fiber product]]_ of $X$ with $Y$ over $Z$, and denoted
-$X \underset{Z}{\times}Y$. Thought of as equipped with the projection map to $X$, this is also called the 
+$X \underset{Z}{\times}Y$. Thought of as equipped with the projection map to $X$, this is also called the
 _[[pullback]]_ of $f$ along $g$
 
 $$
   \array{
-     X \underset{X}{\times} Z 
-       &\longrightarrow& 
+     X \underset{X}{\times} Z
+       &\longrightarrow&
      Y
      \\
      \downarrow &(pb)& \downarrow^{\mathrlap{f}}
@@ -6653,8 +6637,8 @@ $$
 
 $$
   \array{
-    Z 
-      &\overset{g}{\longrightarrow}& 
+    Z
+      &\overset{g}{\longrightarrow}&
     Y
     \\
     {}^{\mathllap{f}}\downarrow
@@ -6693,11 +6677,15 @@ Here is a more explicit description of the limiting cone over a diagram of sets:
 ###### Proposition
 **([limits and colimits of sets](limits+and+colimits+by+example#limcoliminset))**
 
-Let $\left\{ X_i \overset{f_\alpha}{\longrightarrow} X_j \right\}_{i,j \in I, \alpha \in I_{i,j}}$
+Let 
+
+$$
+  \left\{ X_i \overset{f_\alpha}{\longrightarrow} X_j \right\}_{i,j \in I, \alpha \in I_{i,j}}
+$$
+
 be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
 
-1. its [[limit|limit cone]] (def. \ref{LimitingCone}) is given by
-   the following [[subset]] of the [[Cartesian product]]
+1. its [[limit|limit cone]] (def. \ref{LimitingCone}) is given by the following [[subset]] of the [[Cartesian product]]
    $\underset{i \in I}{\prod} X_i$
    of all the [[sets]] $X_i$ appearing in the diagram
 
@@ -6766,7 +6754,7 @@ be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
 
 We dicuss the proof of the first case. The second is directly analogous.
 
-First observe that indeed, by consturction, the projection maps $p_i$ as given do make a cone over the free diagram,
+First observe that indeed, by construction, the projection maps $p_i$ as given do make a cone over the free diagram,
 by the very nature of the relation that is imposed on the tuples:
 
 $$
@@ -6788,8 +6776,8 @@ $$
   \,.
 $$
 
-We need to show that this is universal, in that any other cone over the free diagram factors universally
-through it. First consider the case that the tip of a give cone is a singleton:
+We need to show that this is universal, in that every other cone over the free diagram factors universally
+through this one. First consider the case that the tip of a given cone is a singleton:
 
 $$
   \array{
@@ -6801,10 +6789,21 @@ $$
       && \underset{f_\alpha}{\longrightarrow} &&
     X_j
   }
+  \;\;\;\;\; =
+  \;\;\;\;\;
+  \array{
+    && \ast
+    \\
+    & {}^{\mathllap{const_{x'_i}}}\swarrow && \searrow^{\mathrlap{const_{x'_j}}}
+    \\
+    X_i
+      && \underset{f_\alpha}{\longrightarrow} &&
+    X_j
+  }
   \,.
 $$
 
-This is hence equivalently for each $i \in I$ an element $x'_i \in X_i$, such that for all $i, j \in I$ and $\alpha \in I_{i,j}$
+As shown on the right, the data in such a cone is equivantly for each $i \in I$ an element $x'_i \in X_i$, such that for all $i, j \in I$ and $\alpha \in I_{i,j}$
 then $f_\alpha(x'_i) = x'_j$. But this is precisely the relation used in the construction of the limit above and hence there
 is a unique map
 
@@ -6866,7 +6865,7 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological s
     \{S \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S_i \}_{i \in I}
   $$
 
-  a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the 
+  a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the
   [[coarse topology|coarsest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I})) \longrightarrow X_i$ are [[continuous function|continuous]].
 
 * For
@@ -6875,7 +6874,7 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological s
     \{S_i \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S\}_{i \in I}
   $$
 
-  a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the 
+  a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the
   [[fine topology|finest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $f_i \colon X_i \longrightarrow (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
 
 Other terminology used is shown in this table:
@@ -7271,7 +7270,7 @@ of sets is _not_ the naive generalization of the binary product topology, but in
 Consider an arbitrary [[discrete category|discrete]] [[diagram]] of topological spaces (def. \ref{DiscreteDiagram}),
 hence a [[set]] $\{X_i\}_{i \in I}$ of topological spaces, indexed by any [[set]] $I$, not necessarily a [[finite set]].
 
-The [[limit]] over this diagram (a _[[Cartesian product]]_, example \ref{CoProduct}) 
+The [[limit]] over this diagram (a _[[Cartesian product]]_, example \ref{CoProduct})
 is called the _[[product topological space]]_ of the spaces in the diagram, and denoted
 
 $$
@@ -7374,15 +7373,16 @@ $$
   S_Y
 $$
 
-(hence the largets subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{SubspaceTopology}.
+(hence the largest subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{SubspaceTopology}.
 
 =--
 
 
 +-- {: .num_example #CoequalizerInTop}
 ###### Example
+**([[coequalizer]] of [[continuous functions]])**
 
-The [[coequalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets
+The [[coequalizer]]  of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets
 
 $$
   S_X
@@ -7419,7 +7419,7 @@ $$
   \array{
      A &\overset{g}{\longrightarrow}& Y
      \\
-     {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{g_\ast f}}
+     {}^{\mathllap{f}}\downarrow &(po)& \downarrow^{\mathrlap{g_\ast f}}
      \\
      X &\longrightarrow& X \sqcup_A Y
      \,.
