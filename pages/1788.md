@@ -1,8 +1,49 @@
+***
+
+> Sandbox rules appear to be:
+ Do not touch an existing section.
+Sections are made with a sizeable number of #-symbols juxtaposed.
+You may make new sections, though, on the top of the section-`stack'.
+Finally, erase what you have entered once you do not need it anymore (the content is allowed to linger for quite some time though, no rush).
 
 ***
 
-> It's all yours.
 
-***
+### Section : test 01
+Diagrammatically put: at _least one_ of the diagrams in the set-indexed set of diagrams
 
 
+$\Biggl\{$ 
+
+$$\array{
+F_0(O_0) & \overset{\mathrm{id}=F_0(\mathrm{id})}{\longrightarrow} & F_1(O_0) \\
+\Phi_0\downarrow & & \downarrow \Phi_1 \\ 
+F_1(O_0) & \overset{\mathrm{id}=F_1(\mathrm{id})}{\longrightarrow}& F_1(O_1)
+}$$ 
+
+$\Biggl\}$ 
+
+$\bigcup$
+
+$\Biggl\{$ 
+
+$$\array{
+F_0(O_0) & \overset{F_0(f)}{\longrightarrow} & F_1(O_0) \\
+\Phi_0\downarrow & & \downarrow \Phi_1 \\ 
+F_1(O_1) & \overset{\mathrm{id}=F_1(\mathrm{id})}{\longrightarrow}& F_1(O_1)
+}$$ 
+
+:
+
+$f$ ranging over all non-identity endomorphisms $f$ of $O_0$
+
+$\Biggl\}$ 
+
+
+does _not_ commute.
+
+### Section: test 
+
+
+| **identifier of the example** | endofunctors? | algebraic contradiction derived? | loc finitely pres | localization theorem | | 
+|--|--|--|--|--|--|
