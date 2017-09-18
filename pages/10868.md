@@ -5,6 +5,8 @@ Classically, the theory of [[stacks]] was motivated by the study of [[moduli pro
 ## See also
 
 * [[stack]]
+* [[n-stack]]
+* [[infinity-stack]]
 * [[derived stack]]
 * [[derived algebraic geometry]]
 
@@ -15,5 +17,3 @@ Classically, the theory of [[stacks]] was motivated by the study of [[moduli pro
 * [[André Hirschowitz]], [[Carlos Simpson]], _Descente pour les n-champs (Descent for n-stacks)_, 1998, [arXiv:math/9807049](http://arxiv.org/abs/math/9807049).
 
 [[!redirects higher stacks]]
-[[!redirects n-stack]]
-[[!redirects n-stacks]]
