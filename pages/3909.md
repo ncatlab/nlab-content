@@ -25,7 +25,7 @@ _Twistor space_ in the original sense of ([Penrose 67](#Penrose67)) is a [[compl
 
 This _Penrose transform_ is exhibited by a [[correspondence]] of [[coset spaces]]/[[flag varieties]]/[[Grassmannians]] which is a special case of general such [[correspondences]] as they are studied in [[Schubert calculus]], [[geometric representation theory]], [[parabolic geometry]]. Therefore one can consider "generalized twistors" to be elements of certain [[flag varieties]] and "generalized Penrose transforms" to be those induced by the relevant [[correspondences]]. ([Baston-Eastwood 89](#BastonEastwood89), [Cap 01](#Cap01)). 
 
-In this generality given a [[semisimple Lie group]] $G$ and two [[parabolic subgroups]] $P_1$ and $P_2$ with [[intersection]] $P_1 \cap P_2$, then the _twistor correspondence_ is the [[correspondence]] (see alsoat [Schubert calculus -- Correspondences](http://ncatlab.org/nlab/show/Schubert+calculus#Correspondences) and at _[[horocycle correspondence]]_) of the form
+In this generality given a [[semisimple Lie group]] $G$ and two [[parabolic subgroups]] $P_1$ and $P_2$ with [[intersection]] $P_1 \cap P_2$, then the _twistor correspondence_ is the [[correspondence]] (see also at _[Schubert calculus -- Correspondences](http://ncatlab.org/nlab/show/Schubert+calculus#Correspondences)_ and at _[[horocycle correspondence]]_) of the form
 
 $$
   \array{
@@ -329,6 +329,8 @@ Introductions and surveys include
 
 * Liana David, _The Penrose transform and its applications_, 2001 ([pdf](http://www.maths.ed.ac.uk/pg/thesis/david.pdf))
 
+* {#Dunajski09} Maciej Dunajski, _Twistor Theory and Differential Equations_ ([arXiv:0902.0274](http://arxiv.org/abs/0902.0274))
+
 See also 
 
 * Wikipedia, _[Twistor theory](http://en.wikipedia.org/wiki/Twistor_theory)_
@@ -374,13 +376,13 @@ A general discussion of Penrose-Ward-type transforms sending [[circle 2-bundles]
 * L. J. Mason, R. A. Reid-Edwards, A. Taghavi-Chabert, appendix of _Conformal Field Theories in Six-Dimensional Twistor Space_, J. Geom. Phys. 62 (2012), no. 12, 2353-2375 ([arXiv:1111.2585](http://arxiv.org/abs/1111.2585))
  {#MREIC11}
 
-* [[Christian Saemann]], Martin Wolf, _On Twistors and Conformal Field Theories from Six Dimensions_, J. Math. Phys. 54:013507, 2013  ([arXiv.1111.2539](http://arxiv.org/abs/1111.2539))
+* [[Christian Saemann]], [[Martin Wolf]], _On Twistors and Conformal Field Theories from Six Dimensions_, J. Math. Phys. 54:013507, 2013  ([arXiv.1111.2539](http://arxiv.org/abs/1111.2539))
 
 More generally, there are arguments that the [[worldvolume]] theory of several coincident [[M5-branes]] carries not just an abelian but a nonabelian [[higher gauge field]] given by a [[principal 2-bundle]] [[principal 2-connection]].
 
 The idea of generalizing the Penrose-Ward transform to one that takes nonabelian [[principal 2-bundles]] to [[self-dual higher gauge field|self-dual]] [[principal 2-connections]] is explored in 
 
-* [[Christian Saemann]], Martin Wolf, _Six-Dimensional Superconformal Field Theories from Principal 3-Bundles over Twistor Space_ ([arXiv:1305.4870](http://arxiv.org/abs/1305.4870))
+* [[Christian Saemann]], [[Martin Wolf]], _Six-Dimensional Superconformal Field Theories from Principal 3-Bundles over Twistor Space_ ([arXiv:1305.4870](http://arxiv.org/abs/1305.4870))
 
 
 
