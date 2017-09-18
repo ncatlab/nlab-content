@@ -112,6 +112,7 @@ See also
 
 ## Chapter 2. Setting up the Adams Spectral sequence
 
+
 ### 1. The classical Adams spectral sequence
 
 * [[exact couple]]
@@ -139,6 +140,7 @@ See also
 
 ## Chapter 3. The Classical Adams Spectral Sequence
 
+* [[classical Adams spectral sequence]]
 
 ### 1. The Steenrod algebra and some easy calculuation
 
@@ -154,6 +156,8 @@ See also
 
 ### 3. The Lambda Algebra
 
+* [[Lambda algebra]]
+
 * [[EHP spectral sequence]]
 
 ### 4. Some general properties of $Ext$
@@ -163,6 +167,8 @@ See also
 ### 5. Survey and further reading
 
 ## Chapter 4. $B P$-Theory and the Adams-Novikov Spectral Sequence 
+
+* [[Adams-Novikov spectral sequence]]
 
 ### 1. Quillen's theorem and the structure of $BP_\bullet(BP)$
 
@@ -226,13 +232,15 @@ See also
 
 * [[module]], [[comodule]]
 
+* [[cotensor product]]
+
 * [[change of rings theorem]]
 
 ### 2. Homological algebra
 
 * [[derived functor]]
 
-* [[Ext]] for [[comodules]]
+* [[Ext]] and [[Cotor]] for [[comodules]]
 
 
 ### 3. Some spectral sequences
@@ -249,7 +257,7 @@ See also
 
 ### 5. Algebraic Steenrod operations
 
-* [[Steenrod algebra]] on co[[Tor]]-groups of [[comodules]] over [[commutative Hopf algebroids]]
+* [[Steenrod algebra]] on [[Cotor]]-groups of [[comodules]] over [[commutative Hopf algebroids]]
 
 ## Appendix 2. Formal Group Laws
 
