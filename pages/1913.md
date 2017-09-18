@@ -305,6 +305,7 @@ The equivalence between differential forms and smooth functors on the [[path gro
 * Schreiber & Waldorf, _Smooth Functors vs. Differential Forms_ ([arXiv](http://arxiv.org/abs/0802.0663))
 
 Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]], about whether integration of forms or pseudoforms is most fundamental (and about whether twisted forms in general are useful and interesting geometric objects or the bastard spawn of hell) may be found in [this giant Usenet thread](https://groups.google.com/group/sci.physics.research/browse_thread/thread/6a231426b3a313c0/2888a120a9b1f5ad).  More specifically:
+
 *  [John\'s alter ego the Wizard](https://groups.google.com/group/sci.physics.research/msg/3c6a1a7237b66c8c?dmode=source) explains why $n$-pseudoforms are the most natural things to integrate on an $n$-dimensional manifold;
 *  [applications of pseudoforms](https://groups.google.com/group/sci.physics.research/msg/2774cbbc982e200e?dmode=source) to classical contexts where absolute values appear;
 *  [the general notion of form](https://groups.google.com/group/sci.physics.research/msg/47bbd29289f208f8?dmode=source) corresponding to an arbitrary representation of the [[general linear group]] (towards the end of the post);
