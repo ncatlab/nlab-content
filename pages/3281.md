@@ -49,6 +49,11 @@ A **stable model category** $\mathcal{C}$ is
 
 ## Properties
 
+### Triangulated homotopy category
+
+The [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$ of a stable model category, equipped with the [[reduced suspension]] functor $\Sigma \colon Ho(\mathcal{C})\overset{\simeq}{\to} Ho(\mathcal{C})$ is a [[triangulated category]] ([Hovey 99, section 7](#Hovey99)).
+
+
 ### Relation to stable $\infty$-categories
 
 Stabilization of model categories is a model for the abstractly defined [[stabilization]] in [[(infinity,1)-category theory]] ([Robalo 12, prop. 4.15](#Robalo12)).
@@ -135,6 +140,11 @@ This is ([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03)).
 
 
 ## References
+
+The concept originates with
+
+* {#Hovey99} [[Mark Hovey]], section 7 of _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
+
 
 The classification theorems are due to
 
