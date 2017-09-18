@@ -35,9 +35,9 @@ and the two requirements are equivalent.
 
 ## References
 
-page 89 (20 of 49) at
 
-* MIT course on Lie groups ([pdf 2](http://ocw.mit.edu/courses/mathematics/18-755-introduction-to-lie-groups-fall-2004/lecture-notes/chap2_topic8to14.pdf))
+
+* page 89 (20 of 49) at MIT course on Lie groups ([pdf 2](http://ocw.mit.edu/courses/mathematics/18-755-introduction-to-lie-groups-fall-2004/lecture-notes/chap2_topic8to14.pdf))
 * [[Sigurdur Helgason]], _Differential geometry, Lie groups and symmetric spaces_
 * F. Bruhat, _Lectures on Lie groups and representations of locally compact groups_, notes by S. Ramanan, TATA Bombay 1958, 1968, [pdf](http://www.math.tifr.res.in/~publ/ln/tifr14.pdf)
 
@@ -62,4 +62,19 @@ page 89 (20 of 49) at
 [[!redirects left-invariant 1-forms]]
 [[!redirects left invariant 1-form]]
 [[!redirects left invariant 1-forms]]
+[[!redirects left-invariant differential 1-form]]
+[[!redirects left-invariant differential 1-forms]]
+[[!redirects left invariant differential 1-form]]
+[[!redirects left invariant differential 1-forms]]
+
+
+[[!redirects left-invariant 2-form]]
+[[!redirects left-invariant 2-forms]]
+[[!redirects left invariant 2-form]]
+[[!redirects left invariant 2-forms]]
+[[!redirects left-invariant differential 2-form]]
+[[!redirects left-invariant differential 2-forms]]
+[[!redirects left invariant differential 2-form]]
+[[!redirects left invariant differential 2-forms]]
+
 
