@@ -70,7 +70,7 @@ Finally we discuss how under this relation [[linear representations]] of groups 
 
 
 
-### Tensor products and Tensor categories
+### Tensor products and Super vector spaces
  {#TensorProductsAndMonoidalCategories}
 
 +-- {: .num_defn #VectorSpaces}
@@ -104,6 +104,7 @@ Let $\mathcal{C}$ be a [[category]].
 =--
 
 We also make the following definition of $k$-linear category, but notice that conventions differ as to which extra properties beyond [[Vect]]-[[enriched category|enrichment]] to require on a linear category:
+
 
 +-- {: .num_defn #LinearCategory}
 ###### Definition
@@ -731,9 +732,9 @@ $$
   \,.
 $$
 
-Therefore for classifying just the symmetric braidings, it is sufficient to restrict the [[hom-spaces]] in $Line(Vect^{\mathbb{Z}/2})$ from being either $k$ or empty, to [[hom-sets]] being $\mathbb{Z}/2 = \{+1-1\} \hookrightarrow k$ or empty. Write $\widetilde{Line}(sVect)$ for the resulting [[2-group]].
+Therefore for classifying just the symmetric braidings, it is sufficient to restrict the [[hom-spaces]] in $Line(Vect^{\mathbb{Z}/2})$ from being either $k$ or empty, to [[hom-sets]] being $\mathbb{Z}/2 = \{+1-1\} \hookrightarrow k$ or empty. Write $\widetilde{Line}(Vect^{\mathbb{Z}/2})$ for the resulting [[2-group]].
 
-In conclusion then the [[equivalence classes]] of possible [[k-invariants]] of $B^3 Line(sVect)$, hence the possible symmetric braiding on $Line(Vect^{\mathbb{Z}/2})$ are in the degree-4 [[ordinary cohomology]] of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}/2,3)$ with [[coefficients]] in $\mathbb{Z}/2$. One finds (...)
+In conclusion then the [[equivalence classes]] of possible [[k-invariants]] of $B^3 Line(Vect^{\mathbb{Z}/2})$, hence the possible symmetric braiding on $Line(Vect^{\mathbb{Z}/2})$ are in the degree-4 [[ordinary cohomology]] of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}/2,3)$ with [[coefficients]] in $\mathbb{Z}/2$. One finds (...)
 
 
 $$
@@ -747,6 +748,23 @@ $$
 =--
 
 
++-- {: .num_defn #CategoryOfSuperVectorSpaces}
+###### Definition
+
+The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
+
+* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
+
+* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
+
+$$
+  sVect_k
+    \;\coloneqq\;
+  (Vect_k^{\mathbb{Z}/2}, \otimes = \otimes_k, 1 = k, \tau = \tau^{super} )
+  \,.
+$$
+
+=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -778,23 +796,7 @@ It has been suggested (in [Kapranov 15](super+algebra#Kapranov15)) that this and
 
 =--
 
-+-- {: .num_defn #CategoryOfSuperVectorSpaces}
-###### Definition
 
-The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
-
-* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
-
-* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
-
-$$
-  sVect_k
-    \;\coloneqq\;
-  (Vect_k^{\mathbb{Z}/2}, \otimes = \otimes_k, 1 = k, \tau = \tau^{super} )
-  \,.
-$$
-
-=--
 
 The following is evident but important
 
@@ -813,7 +815,6 @@ regarding a vector space as a super-vector space concentrated in even degree,
 extends to a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}).
 
 =--
-
 
 +-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
@@ -1615,7 +1616,6 @@ $$
 
 
 
-
 ### Commutative algebra in tensor categories and Affine super-spaces
  {#CommutativeAlgebraInTensorCategories}
 
@@ -1766,41 +1766,11 @@ Write $Mon(\mathcal{C}, \otimes,1)$ for the **[[category of monoids]]** in $\mat
 
 =--
 
-It is useful to introduce the following [[formal dual|formally dual]] perspective:
-
-+-- {: .num_defn #Affines}
-###### Definition
-
-For $\mathcal{C}$ a [[symmetric monoidal category]], then we write
-
-$$
-  Aff(\mathcal{C}) \coloneqq CMon(\mathcal{C})^{op}
-$$
-
-for the [[opposite category]] of the [[category of commutative monoids]] in $\mathcal{C}$, according to def. \ref{MonoidsInMonoidalCategory}.
-
-For $R \in CMon(\mathcal{C})$ we write
-
-$$
-  Spec(A)
-  \in
-  Aff(\mathcal{C})
-$$
-
-for the same object, regarded in the opposite category. We also call this the **[[affine scheme]]** of $A$. Conversely, for $X \in Aff(\mathcal{C})$, we write
-
-$$
-  \mathcal{O}(X) \in CMon(\mathcal{C})
-$$
-
-for the same object, regarded in the category of commutative monoids. We also call this the **[[algebra of functions]]** on $X$.
-
-=--
 
 +-- {: .num_example #MonoidsInVectAreAssociativeAlgebras}
 ###### Example
 
-A [[monoid object]] according to def. \ref{MonoidsInMonoidalCategory} in the [[monoidal category]] of [[vector spaces]] from from example \ref{TensorProductOfVectorSpaces} is equivalently an ordinary [[associative algebra]] over the given [[ground field]]. Similarly a [[commutative monoid]] in $Vect$ is an ordinary [[commutative algebra]]. Moreover, in both cases the [[homomorphisms]] of monoids agree with usual algebra homomorphisms. Hence there are [[equivalences of categories]].
+A [[monoid object]] according to def. \ref{MonoidsInMonoidalCategory} in the [[monoidal category]] of [[vector spaces]] from example \ref{TensorProductOfVectorSpaces} is equivalently an ordinary [[associative algebra]] over the given [[ground field]]. Similarly a [[commutative monoid]] in $Vect$ is an ordinary [[commutative algebra]]. Moreover, in both cases the [[homomorphisms]] of monoids agree with usual algebra homomorphisms. Hence there are [[equivalences of categories]].
 
 $$
   Mon(Vect_k) \simeq Alg_k
@@ -1847,7 +1817,7 @@ Example \ref{MonoidsInVectAreAssociativeAlgebras} motivates the following defini
 A **[[supercommutative superalgebra]]** is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) in the [[symmetric monoidal category|symmetric monoidal]] [[category of super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}). We write $sCAlg_k$ for the [[category]] of [[supercommutative superalgebras]] with the induced [[homomorphisms]] between them:
 
 $$
-  sCalg_k \;\coloneqq\; CMon(sVct_k)
+  sCAlg_k \;\coloneqq\; CMon(sVect_k)
   \,.
 $$
 
@@ -1861,26 +1831,6 @@ Unwinding what this means, then a [[supercommutative superalgebra]] $A$ is
      a b \; = \; (-1)^{deg(a) deg(b)}\, b a
      \,.
    $$
-
-The [[formal dual]] $Spec(A)$ of a supercommutative superalgebra $A$, according to def. \ref{Affines}, we call an **affine [[super scheme]]**.
-
-=--
-
-+-- {: .num_example #GrassmannAlgebra}
-###### Example
-
-The [[supercommutative superalgebra]] which is [[free construction|freely generated]] over $k$ from $n$ generators
-$\{\theta_i\}_{i = 1}^n$ is the [[quotient]] of the [[tensor algebra]] $T^\bullet \mathbb{R}^n$ by the ideal generated by the
-relations
-
-$$
-  \theta_i \theta_j = - \theta_j \theta_i
-$$
-
-for all $i,h \in \{1, \cdots, n\}$.
-
-This is also called a _[[Grassmann algebra]]_, in honor of ([Grassmann 1844](#Grassmann1844)), who introduced and
-studied the super-sign rule in def. \ref{SupercommutativeSuperalgebra} a century ahead of his time.
 
 =--
 
@@ -1902,6 +1852,274 @@ $$
 $$
 
 Hence the heart of [[superalgebra]] is _[[supercommutative superalgebra|super-commutativity]]_.
+
+=--
+
+
++-- {: .num_example #GrassmannAlgebra}
+###### Example
+
+The [[supercommutative superalgebra]] which is [[free construction|freely generated]] over $k$ from $n$ generators
+$\{\theta_i\}_{i = 1}^n$ is the [[quotient]] of the [[tensor algebra]] $T^\bullet \mathbb{R}^n$,
+with the generators $\theta_i$ in odd degree, by the ideal generated by the
+relations
+
+$$
+  \theta_i \theta_j = - \theta_j \theta_i
+$$
+
+for all $i,j \in \{1, \cdots, n\}$.
+
+This is also called a _[[Grassmann algebra]]_, in honor of ([Grassmann 1844](#Grassmann1844)), who introduced and
+studied the super-sign rule in def. \ref{SupercommutativeSuperalgebra} a century ahead of his time.
+
+We also denote this algebra by
+
+$$
+  \wedge^\bullet_{\mathbb{R}}(\mathbb{R}^n)
+    \;\in\;
+   sCAlg_{\mathbb{R}}
+   \,.
+$$
+
+=--
+
++-- {: .num_example #HomotopyCommutativeRingSpectrum}
+###### Example
+
+Given a [[homotopy commutative ring spectrum]] $E$ (i.e., via the [[Brown representability theorem]], a [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]), then its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a super-commutative ring.
+
+See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
+
+=--
+
+The following is an elementary but fundamental fact about the relation between
+commutative algbra and supercommutative superalgebra. It is implicit in much of the
+literature, but maybe the only place where it has been made explicit before is
+([Carchedi-Roytenberg 12, example 3.18](#CarchediRoytenberg12)).
+
+
++-- {: .num_prop #InclusionOfCAlgIntosCAlg}
+###### Proposition
+
+There is a [[full subcategory]] inclusion
+
+$$
+  \array{
+     CAlg_k &\hookrightarrow& sCAlg_k
+     \\
+     = && =
+     \\
+     CMon(Vect_k) &\hookrightarrow& CMon(sVect_k)
+  }
+$$
+
+of [[commutative algebras]] (example \ref{MonoidsInVectAreAssociativeAlgebras})
+into [[supercommutative superalgebras]] (def. \ref{SupercommutativeSuperalgebra})
+induced via prop. \ref{MonoidsPreservedByLaxMonoidalFunctor} from the full inclusion
+
+$$
+  i \;\colon\; Vectk \hookrightarrow sVect_k
+$$
+
+of [[vector spaces]] (def. \ref{VectorSpaces}) into [[super vector spaces]]
+(def. \ref{CategoryOfSuperVectorSpaces}), which is a [[braided monoidal functor]]
+by prop. \ref{InclusionOfVectorSpacesIntoSupervectorSpaces}. Hence this regards a
+commutative algebra as a superalgebra concentrated in even degree.
+
+This inclusion functor has both a [[left adjoint|left]] [[adjoint functor]] and a [[right adjoint|right]] [[adjoint functor]] ,
+(an [[adjoint triple]] exibiting a [[reflective subcategory]] and [[coreflective subcategory]] inclusion, an "[[adjoint cylinder]]"):
+
+$$
+  CAlg_k
+    \underoverset
+      {\underset{(-)_{even}}{\longleftarrow}}
+      {\overset{(-)/(-)_{odd}}{\longleftarrow}}
+      {\hookrightarrow}
+  sCAlg_k
+  \,.
+$$
+
+Here
+
+1. the [[right adjoint]] $(-)_{even}$ sends a supercommutative superalgebra to its even part $A \mapsto A_{even}$;
+
+1. the [[left adjoint]] $(-)/(-)_{even}$ sends a supercommutative superalgebra to the [[quotient]] by the ideal which is generated by its odd part $A \mapsto A/(A_{odd})$ (hence it sets all elements to zero which may be written as a product such that at least one factor is odd-graded).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The full inclusion $i$ is evident. To see the [[adjunctions]] observe their characteristic
+[[natural bijections]] between [[hom-sets]]:
+If $A_{ordinary}$ is an ordinary commutative algebra regarded as a superalgeba $i(A_{ordinary})$ concentrated in even degree,
+and if $B$ is any superalgebra,
+
+1. then every super-algebra homomorphism of the form $A_{ordinary} \to B$ must factor
+   through $B_{even}$, simply because super-algebra homomorpism by definition respect the $\mathbb{Z}/2$-grading. This gives a natual bijection
+
+   $$
+     Hom_{sCAlg_k}(i(A_{ordinary}), B) \simeq Hom_{CAlg_k}(A_{ordinary,B_{even}})
+     \,,
+   $$
+
+1. every super-algebra homomorphism of the form $B \to i(A_{ordinary})$ must send every odd element of $B$ to 0, again because homomorphism have to respect the $\mathbb{Z}/2$-grading, and since homomorphism of course also preserve products, this means that the entire ideal generated by $B_{odd}$ must be sent to zero, hence the homomorphism must facto through the [[projection]] $B \to B/B_{odd}$, which gives a natural bijection
+
+   $$
+     Hom_{sCalg_k}(B, i(A_{ordinary}))
+       \simeq
+     Hom_{Alg_k}(B/B_{odd}, A_{ordinary})
+     \,.
+   $$
+
+=--
+
+
+It is useful to make explicit the following [[formal dual|formally dual]] perspective on [[supercommutative superalgebras]]:
+
++-- {: .num_defn #Affines}
+###### Definition
+
+For $\mathcal{C}$ a [[symmetric monoidal category]], then we write
+
+$$
+  Aff(\mathcal{C}) \coloneqq CMon(\mathcal{C})^{op}
+$$
+
+for the [[opposite category]] of the [[category of commutative monoids]] in $\mathcal{C}$, according to def. \ref{MonoidsInMonoidalCategory}.
+
+For $R \in CMon(\mathcal{C})$ we write
+
+$$
+  Spec(A)
+  \in
+  Aff(\mathcal{C})
+$$
+
+for the same object, regarded in the opposite category. We also call this the **[[affine scheme]]** of $A$. Conversely, for $X \in Aff(\mathcal{C})$, we write
+
+$$
+  \mathcal{O}(X) \in CMon(\mathcal{C})
+$$
+
+for the same object, regarded in the category of commutative monoids. We also call this the **[[algebra of functions]]** on $X$.
+
+=--
+
++-- {: .num_defn #AffineSuperSchemes}
+###### Definition
+
+For the special case that $\mathal{C} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces})
+in def. \ref{Affines}, then we say that the objects in
+
+$$
+  Aff(sVect_k) = scAlg_k^{op} =  CMon(sVect_k)^{op}
+$$
+
+are **affine [[super schemes]]** over $k$.
+
+=--
+
++-- {: .num_example #OrdinaryCAlgAssCAlg}
+###### Example
+
+For $A \in CAlg_{\mathbb{R}}$ an ordinary [[commutative algebra]] over $\mathbb{R}$,
+then of course this becomes a [[supercommutative superalgebra]] by regarding it
+as being concentrated in even degrees. Accordingly, via def. \ref{Affines}, ordinary [[affine schemes]]
+[[full subcategory|fully embed]] into affine [[super schemes]] (def. \ref{AffineSuperSchemes})
+
+$$
+  Aff(Vect_k)
+    \hookrightarrow
+  Aff(sVect_k)
+  \,.
+$$
+
+In particular for $\mathbb{R}^p$ an ordinary [[Cartesian space]], this becomes
+an affine [[superscheme]] in even degree, under the above embedding. As such, it is usually
+written
+
+$$
+  \mathbb{R}^{p \vert 0}
+    \in
+  Aff(sVect_k)
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_example #Superpoint}
+###### Example
+
+The formal dual space, according to def. \ref{Affines} (example \ref{Affines}) to a [[Grassmann algebra]] $\wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)$
+(example \ref{GrassmannAlgebra}) is to be thought of as a space which is "so tiny" that
+the coefficients of the [[Taylor expansion]] of any real-valued function on it
+become "so very small" as to be actually equal to zero, at least after the $q$-th power.
+
+For instance for $q = 2$ then a general element of $\wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)$
+is of the form
+
+$$
+  f = a_0 + a_1 \theta_1 + a_2 \theta_2 + a_{12} \theta_1 \theta_2
+  \;\;\;\in
+  \wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)
+  \,.
+$$
+
+for $a_1,a_2, a_{12} \in \mathbb{R}$,
+to be compared with the [[Taylor expansion]] of a [[smooth function]] $g \colon \mathbb{R}^2 \to \mathbb{R}$,
+which is of the form
+
+$$
+  g(x_1, x_2) =
+  g(0) + \frac{\partial g}{\partial x_1}(0)\, x_1 + \frac{\partial g}{\partial x_2}(0)\, x_2
+    +
+    \frac{\partial^2 g}{\partial x_1 \partial x_2}(0) \, x_1 x_2
+     +
+      \cdots
+  \,.
+$$
+
+Therefore the [[formal dual]] [[space]] to a [[Grassmann algebra]] behaves like an infinitesimal neighbourhood of a point.
+Hence these are also called **[[superpoints]]** and one writes
+
+$$
+  \mathbb{R}^{0\vert q}
+    \coloneqq
+  Spec(\wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q))
+  \,.
+$$
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Combining example \ref{OrdinaryCAlgAssCAlg} with example \ref{Superpoint},
+and using prop. \ref{ProductsInAff}, we obtain the affine [[super schemes]]
+
+$$
+  \mathbb{R}^{p \vert q}
+    \coloneqq
+  \mathbb{R}^{p\vert 0}
+    \times
+  \mathbb{R}^{0\vert q}
+    \simeq
+  Spec\left(
+     \underbrace{C^\infty(\mathbb{R}^p)}
+       \otimes_{\mathbb{R}}
+     \wedge^\bullet_{\mathbb{R}} \mathbb{R}^q
+  \right)
+  \,.
+$$
+
+These may be called the **[[super Cartesian spaces]]**.
+The play the same role in the theory of [[supermanifolds]] as the ordinary
+[[Cartesian spaces]] do for [[smooth manifolds]]. See at _[[geometry of physics -- supergeometry]]_ for more on this.
 
 =--
 
@@ -2991,6 +3209,8 @@ and then [[extension of scalars]] according to prop. \ref{ExtensionOfScalars} co
 
 
 
+
+
 ### Super-Groups as super-commutative Hopf algebras
  {#GroupsAsHopfAlgebras}
 
@@ -3617,7 +3837,7 @@ See ([this prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOver
 
 
 
-## Super Fiber functors and their automorphism supergroups
+### Super Fiber functors and their automorphism supergroups
  {#FiberFunctors}
 
 The first step in exhibiting a given [[tensor category]] $\mathcal{A}$ as being a [[category of representations]] is to exhibit its objects as having an [[forgetful functor|underlying]] representation space of sorts, and then an [[action]] represented on that space. Hence a necessary condition on $\mathcal{A}$ is that there exists a [[forgetful functor]]
