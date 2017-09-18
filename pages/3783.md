@@ -22,13 +22,15 @@
 
 The **Kerr spacetime** is the unique stationary axially symmetric [[asymptotically flat]] vacuum (family of) solution(s) to the [[Einstein field equations]]. Informally, it describes an eternal, rotating [[black hole]] inside an otherwise empty universe. It is thought to closely approximate the gravitational field outside of compact rotating objects, to the point that astrophysical black holes are often described as "Kerr".
 
+These balck holes are characterized by their [[mass]] and their [[angular momentum]].
+
 
 ## Abstract ##
 The definition states the components of the metric tensor in a specific coordinate system, the Boyer-Lindquist coordinates, and compares those to the Minkowski and Schwartzschild metrics. Some properties can be read off directly from the metric tensor, which is done in the properties paragraph.
 
 ## Boyer-Lindquist Description ##
 
-Spacetimes in the Kerr family are distinguished by two (real) parameters, $m$ and $a$, respectively interpreted as the hole's mass and angular momentum per unit mass. Indeed as $a \to 0$ the geometry approaches that of a mass $m$ "nonrotating" [[Schwartzchild spacetime]].
+Spacetimes in the Kerr family are distinguished by two (real) parameters, $m$ and $a$, respectively interpreted as the hole's [[mass]] and [[angular momentum]] per unit mass. Indeed as $a \to 0$ the geometry approaches that of a mass $m$ "nonrotating" [[Schwartzchild spacetime]].
 
 As in the Schwartzchild spacetime, the observations of distant observers can be described using spherical coordinates $r, \phi, \theta$ on the "space" $\mathbb{R}^3$ and a time coordinate $t \in \mathbb{R}$. These coordinates are called **Boyer-Lindquist coordinates** in the context of the Kerr geometry. They limit to Schwartzchild coordinates with $a \to 0$.
 
@@ -171,6 +173,8 @@ The Boyer-Lindquist block III is vicious, that is for any two events $p, q$ in I
 
 The maximum [[angular momentum]] $J$ of a black hole with [[mass]] $M$ is $J = M^2$.
 
+([[naked singularity]])
+
 One considers the quotient $q \coloneqq J/M^2$. Spinning black holes exist for $q \lt 1$.
 
 ### Formation
@@ -197,8 +201,10 @@ Another possibility is that if the rotation is fast enough the black hole is nev
 
 The Kerr spactime admits an extra [[Killing tensor]] and [[Killing-Yano tensor]] (...) See for instance ([JL](#JL)).
 
-## Examples ##
-...
+
+## Related concepts
+
+[[!include charged and rotating black holes -- table]]
 
 ## References ##
 
@@ -208,7 +214,7 @@ Most textbooks about [[General Relativity]] have chapter about the Kerr spacetim
 
 A good survey is also in
 
-Project F, _The spinning black hole_ ([pdf](http://www.eftaylor.com/pub/SpinNEW.pdf))
+* Project F, _The spinning black hole_ ([pdf](http://www.eftaylor.com/pub/SpinNEW.pdf))
 
 See also
 
