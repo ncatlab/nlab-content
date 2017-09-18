@@ -39,7 +39,7 @@ More explicitly, it is a group equipped with a topology such that the multiplica
 
 ### Uniform structure
 
-A topological group $G$ carries two canonical [[uniform space|uniformities]]: a right and left uniformity. The **left uniformity** consists of entourages $\sim_{l, U}$ where $x \sim_{l, U} y$ if $x y^{-1} \in U$; here $U$ ranges over neighborhoods of the identity that are symmetric: $g \in U \Leftrightarrow g^{-1} \in U$. The **right uniformity** similarly consists of entourages $\sim_{r, U}$ where $x \sim_{r, U} y$ if $x^{-1} y \in U$. The uniform topology for either coincides with the topology of $G$. 
+A topological group $G$ carries two canonical [[uniform space|uniformities]]: a right and left uniformity. The **right uniformity** consists of entourages $\sim_{l, U}$ where $x \sim_{l, U} y$ if $x y^{-1} \in U$; here $U$ ranges over neighborhoods of the identity that are symmetric: $g \in U \Leftrightarrow g^{-1} \in U$. The **left uniformity** similarly consists of entourages $\sim_{r, U}$ where $x \sim_{r, U} y$ if $x^{-1} y \in U$. The uniform topology for either coincides with the topology of $G$. 
 
 Obviously when $G$ is commutative, the left and right uniformities coincide. They also coincide if $G$ is compact Hausdorff, since in that case there is only one uniformity whose uniform topology reproduces the given topology. 
 
@@ -67,7 +67,7 @@ Since $f$ is a homomorphism, it follows immediately from cancellation that $f(U)
 
 $$x y^{-1} \in U \Rightarrow f(x) f(y)^{-1} = f(x y^{-1}) \in V$$ 
 
-in other words such that $x \sim_U y \Rightarrow f(x) \sim_V f(y)$. Hence $f$ is uniformly continuous with respect to the left uniformities. By similar reasoning, $f$ is uniformly continuous with respect to the right uniformities.
+in other words such that $x \sim_U y \Rightarrow f(x) \sim_V f(y)$. Hence $f$ is uniformly continuous with respect to the right uniformity. By similar reasoning, $f$ is uniformly continuous with respect to the right uniformity.
 =--
 
 
