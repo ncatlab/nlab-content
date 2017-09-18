@@ -145,7 +145,7 @@ When $X$ is a [[sphere]] that is an $H$-space, namely, one of the [[groups]] $S^
 1. $S^0 \hookrightarrow S^1 \to S^1 $ -- [[real Hopf fibration]]
 1. $ S^1 \hookrightarrow S^3 \to S^2 $ -- complex Hopf fibration
 1. $ S^3 \hookrightarrow S^7 \to S^4 $ -- [[quaternionic Hopf fibration]]
-1. $ S^7 \hookrightarrow S^{15} \to S^8 $
+1. $ S^7 \hookrightarrow S^{15} \to S^8 $ -- [[octonionic Hopf fibration]]
 
 
 ## Applications
