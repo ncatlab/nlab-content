@@ -1,4 +1,4 @@
-A [[series]] is called __divergent__ if it is not convergent in the usual strong senses of pointwise or, sometimes, uniform convergence. In asymptotic analysis, physics etc. often a divergent series is still a very useful concept as a sum of some such series can be defined in various weaker senses, like Borel summability.
+A [[series]] is called __divergent__ if it is not [[convergence|convergent]] in the usual strong senses of pointwise or, sometimes, uniform convergence. In asymptotic analysis, physics etc. often a divergent series is still a very useful concept as a sum of some such series can be defined in various weaker senses, like Borel summability.
 
 * related $n$Lab entries include [[resummation]], [[regular summation method]], [[renormalization]], [[Borel summability]]
 * [[G. H. Hardy]], _Divergent series_, Clarendon Press, Oxford, 1949.
