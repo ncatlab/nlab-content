@@ -16,7 +16,7 @@
 
 ## Definition
 
-A __pointed set__ is a [[set]] $S$ equipped with a chosen element $s$ of $S$. (Compare [[inhabited set]], where the element is not specified.)
+A __pointed set__ is a [[pointed object]] in [[Set]], hence a [[set]] $S$ equipped with a chosen element $s$ of $S$. (Compare [[inhabited set]], where the element is not specified.)
 
 Since we can identify a (set-theoretic) element of $S$ with a (category-theoretic) [[global element]] (a morphism $s: 1 \to S$), we see that a pointed set is an object of the [[under category]] $\pt \downarrow \Set$, or coslice category $1/\Set$, of objects under the [[singleton]] $\{\bullet\}$.
 
@@ -59,6 +59,8 @@ Equipped with the [[smash product]] $\otimes := \wedge$ of pointed set, $(Set_*,
 The [[internal hom]] $Set_*(X,Y)$ is the [[hom-set]] in $*/Set$ pointed by the morphism $X \to Y$ that sends everything to the basepoint in $Y$.
 
 =--
+
+See at _[[pointed object]]_ for more details.
 
 
 
@@ -121,6 +123,16 @@ It was David Roberts who pointed out in
 the relation between these higher classifiers and higher [[generalized universal bundle]]s, motivated by the observations on principal universal 1- and 2-bundles in 
 
 * David Roberts, Urs Schreiber, _The inner automorphism 3-group of a strict 2-group_, Journal of Homotopy and Related Structures, Vol. 3(2008), No. 1, pp. 193-244, ([arXiv](http://arxiv.org/abs/0708.1741v2)).
+
+## Related concepts
+
+* [[pointed object]]
+
+* [[pointed topological space]]
+
+* [[pointed simplicial set]]
+
+* [[pointed homotopy type]]
 
 [[!redirects pointed sets]]
 
