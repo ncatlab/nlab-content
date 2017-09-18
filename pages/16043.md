@@ -21,6 +21,7 @@ A _prime geodesic_ is a primitive closed [[geodesic]] in a [[hyperbolic manifold
 ## Properties
 
 ### Analogy with prime numbers
+ {#AnalogyWithPrimeNumbers}
 
 Prime geodesics in hyperbolic geometry are in several ways [[analogy|analogous]] to [[prime numbers]] and [[prime ideals]] in [[arithmetic geometry]]. 
 
