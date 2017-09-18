@@ -38,6 +38,8 @@ The pictures are named after those physicists who first used or popularised thes
 
 * [[S-matrix]]
 
+* [[interacting field algebra]]
+
 ## References
 
 For instance 
