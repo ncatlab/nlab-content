@@ -258,6 +258,8 @@ Introductions and surveys include
 
 * M.A. Shifman et al., _ABC of instantons_, Fortschr.Phys. 32,11 (1984) 585
 
+* {#Tong05} [[David Tong]], _TASI Lectures on Solitons_ ([arXiv:hep-th/0509216](https://arxiv.org/abs/hep-th/0509216)), _Lecture 1: Instantons_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/instanton.pdf))
+
 For a fairly comprehensive list of literature see the bibliography of 
 
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
