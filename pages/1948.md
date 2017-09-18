@@ -249,6 +249,14 @@ Examples of cofibrant objects in the projective model structure are discussed at
 
 ## References
 
+The projective model structure on $Top_{Quillen}$-enriched functors is discussed in
+
+* {#Piacenza91} [[Robert Piacenza]]  section 5 of _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([[Piazenza91.pdf:file]])
+
+  also chapter VI of [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
+
+General review and discussion includes
+
 * [[Philip Hirschhorn]], section 11.6 in _Model categories and their localizations_, 2003 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
 * {#Lurie} [[Jacob Lurie]],  sections A.2.8 (unenriched) and section A.3.3 (enriched) of _[[Higher Topos Theory]]_, 2009
