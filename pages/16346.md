@@ -2168,28 +2168,103 @@ with $N$-[[supersymmetries]].
 
 #### Definite super-froms
 
-In order to extend these [[super p-brane]] [[sigma models]]
-not just on [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ but on a
-$\mathfrak{so}(\mathbb{R}^{d-1,1|N})\hookrightarrow 
-\mathfrak{Iso}(\mathbb{R}^{d-1,1|N})$-super Cartan geometry,
-the corresponding cocycle form from the [[brane scan]]
-above needs to be extended as a [[definite form]] over this spacetime.
+A rich source of traditional [[Cartan geometry]] comes from [[special holonomy]] induced by [[definite forms]]. We discuss here the analogous phenomenon for super-differential forms which are definite on one of the exceptional closed forms appearing in the [[brane scan]] as discussed above.
 
-This is a direct supergeometry analog of how a [[G2-manifold]]
-is a 7-manifold equipped with a [[definite form]] that is definite
-on the [[associative 3-form]] on $\mathbb{R}^7$.
+First consider the traditional situation
 
++-- {: .num_defn #DefiniteForm}
+###### Definition
+
+Consider a real [[vector space]] $V$ and a form $\phi \in \wedge^{p+2} V^\ast$ regarded as a constant [[differential form]] $\phi \in \Omega^{p+2}(V)$ on the [[smooth manifold]] underlying $V$.
+
+Consider then a $V$-[[manifold]] $X$, i.e. a [[smooth manifold]] of [[dimension]] $d = dim(V)$. A [[differential form]] $\omega \in \Omega^{p+2}(X)$ is a _[[definite form]]_ on $\phi$ if its restriction to each [[tangent space]] $T_x X \simeq V$ is in the [[orbit]] of $\phi$ under the natural [[action]] of the [[general linear group]] $GL(V)$ by [[pullback of differential forms]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+A choice of [[definite form]], def. \ref{DefiniteForm}, on a $V$-manifold $X$, definite on some $\phi$ is equivalent to a choice of [[G-structure]] on $X$ for $G = Stab_{GL(V)}(\phi) \hookrightarrow GL(V)$ the [[stabilizer group]] of $\phi$ under $GL(V)$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $V = \mathbb{R}^{2n}$ and $\phi$ the canonical [[symplectic form]], then is [[stabilizer group]] is the [[symplectic group]] and a [[G-structure]] in this case is [[almost symplectic structure]].
+
+For $V = \mathbb{R}^7$ and $\phi$ the [[associative 3-form]], then its [[stabilizer group]] is [[G2]] and a [[G-structure]] in this case is a [[G2-structure]].
+
+=--
+
+Now the [[super differential forms]] $\phi = \overline{\psi} \wedge E^{a_1} \wedge \cdots E^{a_p}\wedge \psi$ on [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ in the [[brane scane]] serve as [[curvature]] forms for the [[Green-Schwarz super p-brane]] [[sigma models]] on super-Minkowki spacetime. The globalization of these [[sigma models]] to curved [[superspacetimes]] $X$ requires, in particular, that these $\phi$ are extended as [[definite forms|definite]] [[super differential forms]] over $X$. 
+
++-- {: .num_example}
+###### Side Remark
+
+This is discussed further at _[Green-Schwarz action functional -- On curved target spacetime](Green-Schwarz+action+functional#OnCurvedSpacetime)_.
 In fact this is just a necessary condition, giving the 
 globalization of the [[curvature]] of the [[WZW term]].
 The full [[WZW term]] is a higher [[Super Gerbes]] which is a
 [[higher prequantization]] of this cocycle, and 
 hence its definition requires the lift of the definite cocycle form
 to a [[parameterized WZW model]] over superspacetime.
-
 Discussion of this [[classical anomaly]]-cancellation problem 
 for [[super p-branes]] on curved supergravity targets
 is the content at _[[schreiber:Higher Cartan Geometry]]_.
 
+=--
+
+Since the cocycles in the [[brane scan]] are not just closed forms, but are also [[super Lie algebra]] [[Lie algebra cohomology|cocycles]], it is natural to ask not for the [[stabilizer subgroup]] under the action of the whole [[general linear group]] $GL(\mathbb{R}^{d-1,1|N})$, but just under the [[automorphism group]] of the super-[[Lie bracket]], i.e. to ask for stabilization both of the [[cocycle]] form as well as the bracket.
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathbb{R}^{d-1,1,N}$ be [[super Minkowski spacetime]] in [[dimension]] $d \in \{3,4,6,10\}$ and let $\phi \in \Omega^{3}(\mathbb{R}^{d-1,1|N})$ the corresponding 3-form characterizing the [[super p-brane|super-1-brane]] ([[superstring]]) in this dimension, according to the [[brane scan]] . Then the [[stabilizer subgroup]] of both the super Lie bracket and the cocycle is the [[Spin group]] $Spin(d-1,1)$:
+
+$$
+  Stab_{GL(\mathbb{R}^{d-1,1|N})}([-,-], \phi)
+  \simeq
+  Spin(d-1,1) \hookrightarrow GL(\mathbb{R}^{d-1,1|N})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear that the [[spin group]] fixes the cocycle, and by the discussion at [[spin representation]] it preserves the bracket. Therefore it remains to be seen that the Spin group already exhausts the stabiizer group of bracket and cocycle. For that observe that the 3-cocycle is
+
+$$
+  (\psi,\phi, v) \mapsto \eta( [\psi,\phi], v )
+  \,,
+$$
+
+where $\eta(-,-)$ is the given [[Minkowski metric]], and that the bilinear map
+
+$$
+  [-,-]\colon S \otimes S\to V
+$$
+
+is surjective. This imples that if $g \in GL(\mathbb{R}^{d-1,1|N})$ preserves both the bracket and the cocycle for all $\psi, \phi \in S$ and $v \in V$
+
+$$
+  \eta( [g(\psi),g(\phi)], g(v) )
+  =
+  \eta( g([\psi,\phi]), g(v) )
+  = 
+  \eta( [\psi,\phi], v )
+$$
+
+then it preserves the Minkowski metric for all $w,v$
+
+$$
+  \eta(g(w), g(v)) = \eta(w,v)
+  \,.
+$$
+
+=--
 
 
 ## References
