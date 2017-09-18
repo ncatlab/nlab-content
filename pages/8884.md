@@ -15,10 +15,30 @@
 
 ## Idea
 
-**ZFA** is a variant of the [[material set theory]] [[ZF]] which allows for objects, called _atoms_ or _[[urelements]]_, which may be members of [[sets]], but which themselves have no members (and are not the [[empty set]] either). There is a version ZFCA (analogous to [[ZFC]]) which includes the [[axiom of choice]] (AC). ZFA featured in early independence proofs, notably Fraenkel--Mostowski permutation models, for example showing AC is independent of the rest of the axioms of ZFA.
+**ZFA** is a variant of the [[material set theory]] [[ZF]] which allows for objects, called _atoms_ or _[[urelements]]_, which may be members of [[sets]], but are not made up of other elements. ZFA featured in early independence proofs, notably Fraenkel--Mostowski permutation models, for example showing AC is independent of the rest of the axioms of ZFA.
 
 [[Zermelo]]'s original 1908 axiomatisation of set theory included atoms, but they were soon discarded as a foundational approach as they could be modeled inside of atomless set theory.
 
+## Definition
+
+There are two possible approaches to formulating ZFA. In both cases, we can further require that the [[axiom of choice]] is satisfied, and obtain ZFCA.
+
+### Empty atoms
+The atoms can have no elements, and the [[axiom of extension]] is relaxed to only require that non-empty sets are extensional. The axioms of ZFA are thus the usual axioms of ZF where extension is modified to say
+$$
+  \forall x \forall y ((\forall z, z \in x \Leftrightarrow z \in y) \wedge (\exists z, z \in x)) \Rightarrow x = y.
+$$
+
+### Reflexive/Quine atoms
+We can give up on the [[axiom of foundation]], and introduce the urelements as [[reflexive sets]], ie. sets $x$ such that $x = \{x\}$. In place of the axiom of foundation, we can have an axiom of _weak_ foundation, where we require the existence of a set A such that every element of A is reflexive, and the [[cumulative hierarchy]] built up from $A$ is the whole universe. In other words, if we define
+
+ * $R(0) = A$,
+
+ * $R(\alpha + 1) = P(R(\alpha))$ for any ordinal $\alpha$,
+
+ * $R(\lambda) = \bigcup_{\gamma \lt \lambda} R(\gamma)$ for $\lambda$ a limit ordinal,
+
+then $V = \bigcup_\alpha R(\alpha)$.
 
 ## Category-theoretic approach
 
