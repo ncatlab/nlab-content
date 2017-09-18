@@ -1277,7 +1277,10 @@ following
 
 * {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
-where in section 4.1.2 a fully general abstract account is given.
+where in section 4.1.2 a fully general abstract account is given. This in turn follows
+
+* {#Schreiber09} [[Urs Schreiber]], _[[schreiber:Background fields in twisted differential nonabelian cohomology]]_, talk at Oberwolfach Workshop Strings, Fields, Topology (2009), Oberwolfach Report No. 28/2009 ([pdf](https://www.mfo.de/document/0924/OWR_2009_28.pdf))
+
 
 Surveys/expositions of this include
 
