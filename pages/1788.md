@@ -1,38 +1,63 @@
++-- {: .num_prop #FiberOfFibrationIsCompatibleWithWeakEquivalences}
+###### Proposition
+
+In the [[category of fibrant objects]] $(\mathcal{C}^{\ast/})_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, of a [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) consider a morphism of [[fiber]]-diagrams, hence a [[commuting diagram]] of the form
 
 $$
   \array{
-    Path(f)
-     &\underoverset{\in Fib}{(f,id)^\ast(p_1,p_0)}{\longrightarrow}& 
-     X \times Y 
-     &\stackrel{p_1}{\to}& 
-     X
-     \\
-     \downarrow && \downarrow^{\mathrlap{(f, Id)}} && \downarrow^\mathrlap{f}
-     \\
-     Y^I &\overset{(p_1,p_0) \in Fib }{\longrightarrow}&
-     Y \times Y &\stackrel{p_1}{\longrightarrow}&
-     Y
-     \\
-     {}^{\mathllap{p_0}}\downarrow & \swarrow_{\mathrlap{p_2}}
-     \\
-     Y
+    fib(p_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{p_1}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{h}} && \downarrow^{\mathrlap{g}} 
+    && \downarrow^{\mathrlap{f}}
+    \\
+    fib(p_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{p_2}{\longrightarrow}& Y_2
   }
   \,.
 $$
 
-Both squares are pullback squares. Since pullbacks of fibrations are fibrations by prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}, the morphism $Path(f) \to X \times Y$ is a fibration.
-Similarly, since $X$ is fibrant, also the [[projection]] map $X \times Y \to Y$ is a fibration (being the pullback of $X \to \ast$ along $Y \to \ast$).
+If $f$ and $g$ weak equivalences, then so is $h$.
 
-Since the vertical composite is thereby exhibited as the composite of two fibrations
+=--
+
++-- {: .proof}
+###### Proof
+
+Factor the diagram in question through the pullback of $p_2$ along $f$
 
 $$
-   Path(f) 
-     \overset{(f,id)^\ast(p_1,p_0)}{\longrightarrow} 
-   X \times Y
-     \stackrel{p_2 \circ (f ,Id) = p_2}{\longrightarrow}
-  Y
-  \,,
+  \array{
+    fib(p_1) 
+      &\longrightarrow& 
+    X_1 
+    \\
+    \downarrow^{\mathrlap{h}} 
+      && 
+    {}^{\mathllap{\in W}}\downarrow 
+      &
+      \searrow^{\mathrlap{p_1}}
+      & 
+    \\
+    fib(f^\ast p_2) 
+      &\longrightarrow& 
+    f^\ast X_2 
+      &\underoverset{\in Fib}{f^\ast p_2}{\longrightarrow}& 
+    Y_1
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}    
+    \\
+    fib(p_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{p_2}{\longrightarrow}& Y_2
+  }
 $$
 
-it is itself a fibration.
+and observe that 
+
+1. $fib(f^\ast p_2) = pt^\ast f^\ast p_2 = pt^\ast p_2 = fib(p_2)$;
+
+1. $f^\ast X_2 \to X_2$ is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences};
+
+1. $X_1 \to f^\ast X_2$ is a weak equivalence by assumption and by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences});
+
+Moreover, this diagram exhibits $fib(f_1)\to fib(f^\ast p_2) = fib(p_2)$ as the base change (along $\ast \to Y_1$) of $X_1 \to f^\ast X_2$. Therefore the claim now follows with lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences}.
+
+=--
 
