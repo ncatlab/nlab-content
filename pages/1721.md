@@ -175,6 +175,94 @@ We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$
 
 (e.g. [AGP 02, def. 12.1.4](#AguilarGitlerPrieto02))
 
+We may rephrase this more intrinsically and more generally:
+
++-- {: .num_defn #GeneralizedCohomologyOnGeneralInfinityCategory}
+###### Definition
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[(∞,1)-pushouts]], and with a [[zero object]] $0 \in \mathcal{C}$. Write $\Sigma \colon \mathcal{C} \to \mathcal{C}\colon X\mapsto 0 \underset{X}{\sqcup} 0$ for the corresponding [[suspension]] [[(∞,1)-functor]].
+
+A **reduced generalized cohomology theory** on $\mathcal{C}$ is 
+
+1. a [[functor]]
+
+   $$
+     E^\bullet \;\colon \; Ho(\mathcal{C})^{op} \longrightarrow Ab^{\mathbb{Z}}
+   $$
+
+   (from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ into $\mathbb{Z}$-[[graded abelian groups]]);
+
+1. a [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
+
+   $$
+     \sigma \; \colon \; H^\bullet \longrightarrow H^{\bullet+1} \circ \Sigma
+   $$
+
+such that $H^\bullet$
+
+1. takes small [[coproducts]] to [[products]];
+
+1. takes [[homotopy cofiber sequences]] to [[exact sequences]].
+
+=--
+
++-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
+###### Definition
+
+Given a generalized cohomology theory $(H^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
+
+$$
+  X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z
+  \stackrel{coker(g)}{\longrightarrow}
+  \Sigma X
+  \,,
+$$
+
+then the corresponding **[[connecting homomorphism]]** is the composite
+
+$$
+  \partial 
+    \;\colon\; 
+  E^\bullet(X)
+   \stackrel{\sigma}{\longrightarrow}
+  E^{\bullet+1}(\Sigma X)
+   \stackrel{coker(g)^\ast}{\longrightarrow}
+  E^{\bullet+1}(Z)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}
+###### Proposition
+
+The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory} are parts of [[long exact sequences]]
+
+$$
+  \cdots
+   \stackrel{\partial}{\longrightarrow}
+  E^{\bullet}(Z) 
+    \longrightarrow 
+  E^\bullet(Y) 
+    \longrightarrow 
+  E^\bullet(X)
+    \stackrel{\partial}{\longrightarrow}
+  E^{\bullet+1}(Z)
+   \to \cdots
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\sigma$ is by definition an isomorphism.
+
+=--
+
+
 
 ### Unreduced cohomology
  {#UnreducedCohomology}
@@ -230,7 +318,15 @@ such that:
 
    is a [[long exact sequence]] of [[abelian groups]].
 
-1. **([[excision]])** For $S \hookrightarrow U \hookrightarrow X$. the natural inclusion of the pair $i \colon (X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
+1. **([[excision]])** For $U \hookrightarrow A \hookrightarrow X$ such that $\overline{U} \subset Int(A)$, then the natural inclusion of the pair $i \colon (X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism 
+
+   $$
+     E^\bullet(i) 
+      \;\colon\; 
+     E^n(X, A)
+      \overset{\simeq}{\longrightarrow}
+     E^n(X-U, A-U)  
+   $$
 
 We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[products]]:
 
@@ -245,10 +341,85 @@ We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in 
 e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)). 
 
 
+The following lemma shows that the dependence in pairs of spaces in a generalized cohomology theory is really a stand-in for evaluation on [[homotopy cofibers]] of inclusions.
+
++-- {: .num_lemma #EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}
+###### Lemma
+
+Let $E^\bullet$ be an cohomology theory, def. \ref{GeneralizedCohomologyTheory}, and let $A \hookrightarrow X$. Then there is an isomorphism 
+
+$$
+  E^\bullet(X,A)
+    \stackrel{\simeq}{\longrightarrow}
+  E^\bullet(X \cup Cone(A), \ast)
+$$
+
+between the value of $E^\bullet$ on the pair $(X,A)$ and its value on the [[mapping cone]] of the inclusion, relative to a basepoint.
+
+If moreover $A \hookrightarrow X$ is (the [[retract]] of) a [[relative cell complex]] inclusion, then also morphism in cohomology induced from the [[quotient]] map $p \;\colon\; (X,A)\longrightarrow (X/A, \ast)$ is an [[isomorphism]]:
+
+$$
+  E^\bullet(p)
+    \;\colon\; 
+  E^\bullet(X/A,\ast)
+    \longrightarrow
+  E^\bullet(X,A)
+  \,.
+$$
+
+=--
+
+(e.g [AGP 02, corollary 12.1.10](#AguilarGitlerPrieto02))
+
+
++-- {: .proof}
+###### Proof
+
+Consider $U \coloneqq (Cone(A)-A \times \{0\}) \hookrightarrow Cone(A)$, the cone on $A$ minus the base $A$. We have
+
+$$
+  ( X\cup Cone(A)-U, Cone(A)-U) \simeq (X,A)
+$$
+
+and hence the first isomorphism in the statement is given by the excision axiom.
+
+Next consider the quotient of the [[mapping cone]] of the inclusion:
+
+$$
+  ( X\cup Cone(A), Cone(A) ) \longrightarrow (X/A,\ast)
+  \,.
+$$
+
+If $A \hookrightarrow X$ is a cofibration, then this is a [[homotopy equivalence]] since $Cone(A)$ is contractible and since by the dual [[factorization lemma]] $X \cup Cone(A)\to X/A$ is a weak homotopy equivalence, hence a homotopy equivalence on CW-complexes.
+
+Hence now we get a composite isomorphism
+
+$$
+  E^\bullet(X/A,\ast)
+    \overset{\simeq}{\longrightarrow}
+  E^\bullet( X\cup Cone(A), Cone(A) )
+    \overset{\simeq}{\longrightarrow}
+  E^\bullet(X,A)
+  \,.
+$$
+
+
+=--
+
 +-- {: .num_example #GeneralizedCohomologyOnHomotopyQuotientMaps}
 ###### Example
 
-Let $E^\bullet$ be a generalized cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Let $(X,x)$ be a [[pointed topological space]]. For $p\colon (Cone(X), X) \to (\Sigma X,\{x\})$ the quotient map from the reduced cone to the [[reduced suspension]], then $E^\bullet(p)$ is an isomorphism.
+As an important special case of : Let $(X,x)$ be a [[pointed topological space|pointed]] [[CW-complex]]. For $p\colon (Cone(X), X) \to (\Sigma X,\{x\})$ the quotient map from the reduced cone on $X$ to the [[reduced suspension]], then 
+
+$$
+  E^\bullet(p)
+  \;\colon\;
+  E^\bullet(Cone(X),X)
+   \overset{\simeq}{\longrightarrow}
+  E^\bullet(\Sigma X, \{x\})
+$$ 
+
+is an isomorphism.
 
 =--
 
@@ -354,6 +525,7 @@ This is the _[[suspension isomorphism]]_ extracted from the unreduced cohomology
 
 +-- {: .num_defn #FromUnreducedToReducedCohomology}
 ###### Definition
+**(unreduced to reduced cohomology)**
 
 Let $E^\bullet$ be an unreduced cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Define a reduced cohomology theory, def. \ref{ReducedGeneralizedCohomology} $(\tilde E^\bullet, \sigma)$ as follows.
 
@@ -391,7 +563,76 @@ The construction in def. \ref{FromUnreducedToReducedCohomology} indeed gives a r
 
 =--
 
-(e.g [AGP 02, theorem 12.1.12](#AguilarGitlerPrieto02))
+(e.g [Switzer 75, 7.34](#Switzer75))
+
++-- {: .proof}
+###### Proof
+
+We need to check the exactness axiom given any $A\hookrightarrow X$. By lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient} we have an isomorphism
+
+$$
+  \tilde E^\bullet(X \cup Cone(A))
+  =
+  E^\bullet(X \cup Cone(A), \{\ast\})
+    \overset{\simeq}{\longrightarrow}
+  E^\bullet(X,A)
+  \,.
+$$
+
+Unwinding the constructions shows that this makes the following [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+     \tilde E^\bullet(X\cup Cone(A)) 
+        &\overset{\simeq}{\longrightarrow}&
+     E^\bullet(X,A)
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde E^\bullet(X) &=& E^\bullet(X,\{x\})
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde E^\bullet(A) &=& E^\bullet(A,\{a\})
+  }
+  \,,
+$$
+
+where the vertical sequence on the right is exact by prop. \ref{ExactSequenceOfATriple}. Hence the left vertical sequence is exact.
+
+=--
+
+
++-- {: .num_defn #ReducedToUnreducedGeneralizedCohomology}
+###### Definition
+**(reduced to unreduced cohomology)**
+
+Let $(\tilde E^\bullet, \sigma)$ be a reduced cohomology theory, def. \ref{ReducedGeneralizedCohomology}. Define an unreduced cohomolog theory $E^\bullet$, def. \ref{GeneralizedCohomologyTheory}, by 
+
+$$
+  E^\bullet(X,A)
+  \coloneqq
+  \tilde E^\bullet( X_+ \cup Cone(A_+))
+$$
+
+and let the connecting homomorphism be as in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}.
+
+=--
++-- {: .num_prop}
+###### Proposition
+
+The construction in def. \ref{ReducedToUnreducedGeneralizedCohomology} indeed yields an unreduced cohomology theory.
+
+=--
+
+e.g. ([Switzer 75, 7.35](#Switzer75))
+
++-- {: .proof}
+###### Proof
+
+Exactness holds by prop. \ref{LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}. For excision...
+
+=--
 
 +-- {: .num_prop #UnreducedCohomologyIsReducedPlusPointValue}
 ###### Proposition
@@ -453,95 +694,9 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 
 
-## Abstract homotopy theoretic formulation
- {#AbstractFormulation}
-
-This section gives a more abstract discussion in terms of "abstract homotopy theory" ([[(∞,1)-category theory]]).
-
-### Reduced cohomology
-
-+-- {: .num_defn #GeneralizedCohomologyOnGeneralInfinityCategory}
-###### Definition
-
-Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[(∞,1)-pushouts]], and with a [[zero object]] $0 \in \mathcal{C}$. Write $\Sigma \colon \mathcal{C} \to \mathcal{C}\colon X\mapsto 0 \underset{X}{\sqcup} 0$ for the corresponding [[suspension]] [[(∞,1)-functor]].
-
-A **reduced generalized cohomology theory** on $\mathcal{C}$ is 
-
-1. a [[functor]]
-
-   $$
-     H^\bullet \;\colon \; Ho(\mathcal{C})^{op} \longrightarrow Ab^{\mathbb{Z}}
-   $$
-
-   (from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy categiry]] of $\mathcal{C}$ into $\mathbb{Z}$-[[graded abelian groups]]);
-
-1. a [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
-
-   $$
-     \delta \; \colon \; H^\bullet \longrightarrow H^{\bullet+1} \circ \Sigma
-   $$
-
-such that $H^\bullet$
-
-1. takes small [[coproducts]] to [[products]];
-
-1. takes [[homotopy cofiber sequences]] to [[exact sequences]].
-
-=--
-
-+-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
-###### Definition
-
-Given a generalized cohomology theory $(H^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
-
-$$
-  X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z
-  \stackrel{coker(g)}{\longrightarrow}
-  \Sigma X
-  \,,
-$$
-
-then the corresponding **[[connecting homomorphism]]** is the composite
-
-$$
-  \partial 
-    \;\colon\; 
-  H^\bullet(X)
-   \stackrel{\delta}{\longrightarrow}
-  H^{\bullet+1}(\Sigma X)
-   \stackrel{coker(g)^\ast}{\longrightarrow}
-  H^{\bullet+1}(Z)
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop #LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}
-###### Proposition
-
-The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory} are parts of [[long exact sequences]]
-
-$$
-  \cdots
-   \stackrel{\partial}{\longrightarrow}
-  H^{\bullet}(Z) \longrightarrow H^\bullet(Y) \longrightarrow H^\bullet(X)
-  \stackrel{\partial}{\longrightarrow}
-  H^{\bullet+1}(Z)
-   \to \cdots
-  \,.
-$$
-
-=--
 
 
-+-- {: .proof}
-###### Proof
-
-By the defining exactness of $H^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\delta$ is by definition an isomorphism.
-
-=--
-
-### Brown functoriality
+## Brown functoriality
 
 +-- {: .num_prop }
 ###### Proposition
