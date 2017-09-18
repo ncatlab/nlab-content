@@ -95,18 +95,22 @@ If $l\vdash r\vdash i$ is an essential localization then $l$ is also full and fa
 
 It is a result in Lawvere-Kelly (1989) that the essential subtoposes of a topos form a complete lattice. A subtopos of $\mathcal{B}$ is referred to as a _level_ of $\mathcal{B}$ and levels are denoted by small letters $i,j,\dots$ .
 
-An adjoint string $i_!\vdash i^*\vdash i_*$ yields two [[adjoint modalities]] on $\mathcal{B}$, namely $\Box_i :=i_*i^*$ and $\Diamond_i := i_!i^*$.
+An adjoint string $i_!\vdash i^*\vdash i_*$ yields two [[adjoint modalities]] $\diamond _i\vdash\Box _i$ on $\mathcal{B}$, namely $\Diamond_i := i_!i^*$ and $\Box_i :=i_*i^*$ .
+
+The modalities yield notions of _i-sheaf_, namely those $X\in\mathcal{B}$ with $\Box _i X\simeq X$, and _i-skeleton_ : $\lozenge_i X\simeq X$.
 
 +-- {: .num_defn #Aufhebung}
 ###### Definition 
 ([Lawvere 1989b](Law89b)).
-Let $i,j$ be levels of a topos $\mathcal{A}$ we say the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\Box _j\diamond_i=\diamond_i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
+Let $i,j$ be levels of a topos $\mathcal{A}$ we say that the level $i$ is _lower_ than level $j$ (written $i\leq j$) when every i-sheaf is a j-sheaf and every i-skeleton is a j-skeleton.
+
+Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\Box _j\lozenge_i=\diamond_i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
 
 =--
 
 **Remark**
 
-The Aufhebung of a level is hence the smallest level that resolves its opposites or contradictions. Such a level need not exist in general. The Aufhebungs relation is called the _jump operator_ in [Lawvere (2009)](#Law09).
+The condition $\Box _j\lozenge_i=\diamond_i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general. The Aufhebungs relation is called the _jump operator_ in [Lawvere (2009)](#Law09).
 
 ##Related pages
 
