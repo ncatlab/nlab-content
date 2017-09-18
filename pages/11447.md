@@ -20,7 +20,7 @@ The [[B-field]] over [[orientifold]] background of the [[bosonic string]]  is a 
 
 A detailed model ("Jandl gerbes") for [[ordinary differential cohomology|differential]] $HZR$-theory in degree 3 ("[[orientifold]] [[B-fields]]") is in
 
-* [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_, Communications in Mathematical Physics August 2007, Volume 274, Issue 1, pp 31-64 ([arXiv](http://arxiv.org/abs/hep-th/0512283))
+* {#SSW05} [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_, Communications in Mathematical Physics August 2007, Volume 274, Issue 1, pp 31-64 ([arXiv:hep-th/0512283](http://arxiv.org/abs/hep-th/0512283))
  
 * {#GawedzkiSuszekWaldorf08} [[Krzysztof Gawedzki]], Rafal R. Suszek,  [[Konrad Waldorf]], _Bundle Gerbes for Orientifold Sigma Models_ Adv. Theor. Math. Phys. 15(3), 621-688 (2011) ([arXiv:0809.5125](http://arxiv.org/abs/0809.5125))
 
