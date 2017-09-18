@@ -44,7 +44,7 @@ This is a special case of MC elements for [[L-∞ algebras]], which we discuss n
 ### In $L_\infty$-algebras
  {#InLInfinityAlgebras}
 
-For $\mathfrak{g}$ an [[L-∞ algebra]] with brackets $\{[-,\cdots,-]_k\}_k$, a Maurer-Cartan element is an element $a \in \mathfrak{g}$ such that
+For $\mathfrak{g}$ an [[L-∞ algebra]] with brackets $[-,\cdots,-]_k$, a Maurer-Cartan element is an element $a \in \mathfrak{g}$ such that
 
 $$
   \sum_{k = 0}^\infty \frac{1}{k!} [a, \cdots, a]_k
