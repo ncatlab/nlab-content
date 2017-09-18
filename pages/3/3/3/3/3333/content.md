@@ -7,7 +7,7 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
-#### Stabe homotopy theory
+#### Stable homotopy theory
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
 =--
@@ -178,6 +178,50 @@ $$
 which builds based loops on $X$ from two consecutive paths, the first starting at the basepoint $x$, the second ending there. This is weakly equivalent $\Omega_x X = \Omega^I_x X \stackrel{\simeq}{\to} \Omega^{I \vee I} X$ to the based [[loop space object]] $\Omega_x X$ built from just the path space object $X^I$ with a single copy of $I$, by standard arguments as for instance form page 12 on in 
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_ .
+
+### Action on objects of the slice
+ {#SliceAction}
+
+The free loop space object $\mathcal{L} X$ is a [[group object]] in the [[slice (∞,1)-category]] $C/X$, and has a canonical [[action]] on all objects of $C/X$.
+
+Intuitively, the group structure comes from composition and inversion of loops.  When the free loop space is expressed as a [[power]] $X^{S^1}$, this group structure comes from the canonical [[cogroup]] structure on $S^1$.  In [[homotopy type theory]], it is literally concatenation of paths.  And when $\mathcal{L}X$ is expressed as the pullback $X\times_{X\times X} X$, the group multiplication can be obtained by considering the following pasting square:
+
+$$\array{
+\mathcal{L}X \times_X \mathcal{L}X & \to & \mathcal{L} X & \to & X\\
+\downarrow && \downarrow && \downarrow \\
+\mathcal{L} X & \to & X & \to & X\times X \\
+\downarrow && \downarrow && \downarrow^{id} \\
+X & \to & X\times X & \xrightarrow{id} & X\times X
+}$$
+
+Here the bottom-left and top-right squares are the pullback defining $\mathcal{L}X$, the top-left square is the pullback defining $\mathcal{L}X \times_X\mathcal{L}X$, and the bottom-right square commutes but is not a pullback.  By the universal property of the pullback square defining $\mathcal{L}X$, this square factors through it uniquely, giving the composition map $\mathcal{L}X \times_X \mathcal{L}X\to \mathcal{L}X$.  Similarly but more simply, the inversion map $\mathcal{L}X\to \mathcal{L}X$ comes from transposing its defining pullback square and factoring it through itself.
+
+To extend this to a coherent $\infty$-group structure, ...
+
+Now consider $Y\to X$ an object of $C/X$.  There is a canonical projection $\mathcal{L}X \times_X Y \to Y$, which is not the action of $\mathcal{L}X$ on $Y$, but it almost is.  In fact since this projection is a morphism in the "homotopy" slice $C/X$, it consists not just of a morphism in $C$ but a homotopy witnessing that a certain triangle commutes, which is equivalently the homotopy in the left-hand commutative square below (which is the pullback defining $\mathcal{L}X \times_X Y$):
+
+$$\array{ \mathcal{L}X \times_X Y & \to & \mathcal{L} X & \xrightarrow{id} & \mathcal{L}X \\
+\downarrow && \downarrow && \downarrow \\
+Y & \to & X & \xrightarrow{id} & X}
+$$
+
+Pasting this with the right-hand commutative square, which is the canonical automorphism of the projection $\mathcal{L}X\to X$, we obtain a different homotopy witnessing a  different morphism $\mathcal{L}X \times_X Y \to Y$ in $C/X$ (with the same underlying morphism in $C$), and *this* is the action of $\mathcal{L}X$ on $Y$.
+
+The definitiong of the right-hand commutative square above may not be obvious.  It is clear when we write $\mathcal{L}X = X^{S^1}$; when we write $\mathcal{L}X = X\times_{X\times X} X$ it can be obtained as the following pasting square, where $p$ and $q$ are the two projections in the defining pullback of $\mathcal{L}X$:
+
+$$ \array{
+\mathcal{L}X & \xrightarrow{p} & X & \to & X\times X & \xrightarrow{\pi_1} & X\\
+^{id}\downarrow && && \downarrow^{id} && \downarrow \\
+\mathcal{L}X & \xrightarrow{q} & X & \to & X\times X & \xrightarrow{\pi_1} & X\\
+^{id}\downarrow && \downarrow^{id} && && \downarrow \\
+\mathcal{L}X & \xrightarrow{q} & X & \to & X\times X & \xrightarrow{\pi_2} & X\\
+^{id}\downarrow && && \downarrow^{id} && \downarrow \\
+\mathcal{L}X & \xrightarrow{p} & X & \to & X\times X & \xrightarrow{\pi_2} & X\\
+^{id}\downarrow && \downarrow^{id} && && \downarrow \\
+\mathcal{L}X & \xrightarrow{p} & X & \to & X\times X & \xrightarrow{\pi_1} & X
+}$$
+
+To extend this action to a coherent $\infty$-action, ...
 
 ### In an $(\infty,1)$-topos {#InATopos}
 
