@@ -638,6 +638,9 @@ The following non-example shows that sobriety is not a hereditary separation pro
 
 ## References
 
+* [[Francis Borceux]], volume 3, section 1.9  of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+
+
 * {#Johnstone82} [[Peter Johnstone]], section II.1, from II.1 on in _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
 
 
@@ -646,7 +649,7 @@ The following non-example shows that sobriety is not a hereditary separation pro
 
 * Sober spaces in the [$\pi$-base](http://topology.jdabbs.com/properties/73).
 
-[[!redirects sober]]l
+[[!redirects sober]]
 [[!redirects sober topological space]]
 [[!redirects sober topological spaces]]
 [[!redirects sober topology]]
