@@ -103,10 +103,10 @@ $$
   \begin{aligned}
     P_1 \star_\omega P_2
     & \coloneqq
-    prod \circ \exp \left( \tfrac{\hbar}{2}\underoverset{k_1, k_2 = 1}{2 n}{\sum}\omega^{a b} \partial_a \otimes  \partial_b \right)  (P_1 \otimes P_2)
+    prod \circ \exp \left( \hbar\underoverset{k_1, k_2 = 1}{2 n}{\sum}\omega^{a b} \partial_a \otimes  \partial_b \right)  (P_1 \otimes P_2)
     \\
     & =
-    P_1 \cdot P_2 + \tfrac{\hbar}{2} \underoverset{k_1, k_2 = 1}{2n}{\sum}\omega^{k_1 k_2}(\partial_{k_1} P_1) \cdot (\partial_{k_2} P_2)
+    P_1 \cdot P_2 + \hbar \underoverset{k_1, k_2 = 1}{2n}{\sum}\omega^{k_1 k_2}(\partial_{k_1} P_1) \cdot (\partial_{k_2} P_2)
     + \cdots
   \end{aligned}
 $$
@@ -114,7 +114,7 @@ $$
 given by the bilinear form
 
 $$
-  \omega \coloneqq i \sigma + g
+  \omega \coloneqq \tfrac{i}{2} \sigma + \tfrac{1}{2} g
   \,.
 $$
 
@@ -703,7 +703,7 @@ $$
   prod 
    \circ 
   \exp\left(
-    \int_{X^2} \omega(x_1, x_2) \frac{\delta}{\delta \phi(x_1)}
+    \int_{X^2} \hbar \omega(x_1, x_2) \frac{\delta}{\delta \phi(x_1)}
     \otimes \frac{\delta}{\delta \phi(x_2)} dvol_g
   \right)
   (P_1 \otimes P_2)
