@@ -223,7 +223,7 @@ $$
 
 is an [[isomorphism]], and one checks that it sends Thom classes to Thom classes.
 
-([MO discussion](http://mathoverflow.net/a/54116/381))
+For a fully detailed account see ([Pedrotti 16](#Pedrotti16)).
 
 ### Abstractly
 
@@ -271,6 +271,8 @@ Lecture notes include
 * {#Ebert12} [[Johannes Ebert]], sections 2.3, 2.4 of _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf))
 
 * {#Freed13} [[Dan Freed]], lecture 8 of _Bordism: old and new_, 2013 ([pdf](http://www.ma.utexas.edu/users/dafr/bordism.pdf))
+
+* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
 
 
 A discussion in [[differential geometry]] with fiberwise compactly supported differential forms is around theorem 6.17 of 
