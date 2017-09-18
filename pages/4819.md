@@ -65,6 +65,8 @@ For $d= 4$ EM-duality is the special abelian case of [[S-duality]] for [[Yang-Mi
 
 * In [[heterotic string theory]] one considers 1-dimensional objects in $d=10$-dimensional spaces electrically charged (under the [[Kalb-Ramond field]]). Their magnetic duals are 5-dimensional objects (fivebranes), studied in [[dual heterotic string theory]].
 
+* [[!include electric-magnetic duality -- table]]
+
 ## Related concepts
 
 [[duality in physics]], [[duality in string theory]]
