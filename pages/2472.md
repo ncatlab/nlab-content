@@ -48,6 +48,10 @@ complex-analytic case).
 
 * [[analytification]]
 
+* [[global analytic geometry]]
+
+* [[overconvergent global analytic geometry]]
+
 ## References
 
 An original article is
