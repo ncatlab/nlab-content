@@ -9,7 +9,7 @@ on [[infinitesimal analysis]]/[[epsilontic analysis]].
 
 ## Related entries
 
-* [[Cauchy's mistake]]
+* [[Cauchy sum theorem]]
 
 ## References
 
