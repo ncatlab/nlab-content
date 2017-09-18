@@ -1,16 +1,3 @@
-$$
-  \array{
-    && E_1
-    \\
-     & {}^{\mathllap{\phi^1_i \circ f_i^{-1}}}\nearrow 
-     &
-       \uparrow^{\mathrlap{f^{-1}}}
-     & \nwarrow^{\mathrlap{ \phi^1_j \circ f_j^{-1} }}
-    \\
-    U_i \times k^n
-      &\underset{\phi^2_i}{\longrightarrow}& 
-    (E_2)\vert_{U_i \cap U_i}
-      &\underset{\phi^2_j^{-1}}{\longrightarrow}&
-    U_i \times k^n
-  }
-$$
+* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
+Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
+
