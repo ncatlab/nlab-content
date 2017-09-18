@@ -3,10 +3,11 @@
 ## Idea
 
 [[Microlocalization]] is a tool to study the propagation of singularities of solutions of partial differential systems, in order to study pullbacks of solutions of differential systems (which generalize products of distributions) and prove [[index theorems]].
+Derived microlocalization is an adaptation of the theory of microlocalization to the setting of derived [[global analytic geometry]].
 
 ## Motivation for a derived notion of microlocalization
 
-In non-smooth situations, the usual normal and conormal bundle used in classical microlocalization is not well behaved, and one needs to take derived versions of them. Moreover, to study [[global analytic index theory]], one needs a formulation of the theory of microlocalization in terms of derived loop stacks, in order to work out a cyclic and Hochshild version of index theorems (similar to the one developed by Kashiwara and Schapira in the Hochshild context) that works on an arbitrary (e.g. integral) basis.
+In non-smooth situations, the usual normal and conormal bundle used in classical microlocalization is not well behaved, and one needs to take derived versions of them. Moreover, to study [[global analytic index theory]], one needs a formulation of the theory of microlocalization in terms of derived loop stacks, in order to work out a cyclic and Hochshild version of index theorems (similar to the one developed by Kashiwara and Schapira in the [[microlocal formulation of index theory]]) that works on an arbitrary (e.g. integral) basis.
 
 ## Construction of derived microlocalization
 
@@ -45,3 +46,7 @@ $$
 }
 $$
 It has an evident natural projection $t:\widetilde{L_Y X}\to D^1$.
+
+## References
+
+Calaque, Caldararu and Tu: _PBW for an inclusion of Lie algebras_ [arXiv](http://arxiv.org/abs/1010.0985).
