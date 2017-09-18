@@ -2036,7 +2036,7 @@ of $\mathcal{C}$ with the [[category of modules]] over its tensor unit.
 +-- {: .num_example #RingsAreMonoidsInAb}
 ###### Example
 
-The topic of general [[algebra]], not necessarily over [[ground fields]], is the above general concepts of mnoids and their modules spcialized to the ambient [[symmetric monoidal category]] being the category [[Ab]] of  [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ (whose [[tensor unit]] is the additive group of [[integers]] $\mathbb{Z}$):
+The topic of general [[algebra]], not necessarily over [[ground fields]], is the above general concepts of monoids and their modules spcialized to the ambient [[symmetric monoidal category]] being the category [[Ab]] of  [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ (whose [[tensor unit]] is the additive group of [[integers]] $\mathbb{Z}$):
 
 1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]]. 
 
@@ -2392,6 +2392,37 @@ where the top left triangle is the [unitality](#UnitalityMonoid) condition and t
 
 =--
 
+When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
+
+
++-- {: .num_prop #CoproductsInCMon}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[symmetric monoidal category]] such that 
+
+1. it has [[reflexive coequalizers]]
+
+1. that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
+
+Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with the [[tensor product]] in the monoidal category $A$[[Mod]] (according to prop. \ref{MonoidalCategoryOfModules}):
+
+$$
+  U(B \coprod_A C) \simeq  B \otimes_A C 
+  \,.
+$$
+
+Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
+
+Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]]:
+
+$$
+  Spec(A_1) \times Spec(A_2) \simeq Spec(A_1 \otimes_R A_2)
+  \,.
+$$
+
+=--
+
+This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
 
 
 +-- {: .num_defn #AAlgebra}
@@ -2635,7 +2666,7 @@ $$
   A_1 Mod(\mathcal{C})
    \underoverset
      {\underset{U}{\longleftarrow}}
-     {\overset{F}{\longleftarrow}}
+     {\overset{F}{\longrightarrow}}
      {}
   A_2 Mod( (A_1 Mod, \otimes_{A_1}, A_1) ) 
 $$
@@ -2644,39 +2675,26 @@ and hence the statement follows with prop. \ref{MonoidModuleOverItself}.
 
 =--
 
-When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
++-- {: .num_remark} 
+###### Remark
 
-
-+-- {: .num_prop #CoproductsInCMon}
-###### Proposition
-
-Suppose that $\mathcal{C}$ is 
-
-* a [[symmetric monoidal category]];
-
-* with [[reflexive coequalizers]]
-
-* that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
-
-Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[modules]]
+In the dual interpretation of $R$-[[modules]] as generalized [[vector bundles]] (namely: [[quasicoherent sheaves]]) over $Spec(R)$ (def. \ref{Affines}) then $\phi \colon A_1 \to A_2$ becomes a map of spaces
 
 $$
-  U(B \coprod_A C) \simeq  B \otimes_A C 
-  \,.
+  Spec(\phi)
+   \colon
+  Spec(A_2)
+    \longrightarrow
+  Spec(A_1)
 $$
 
-Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
-
-Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]]:
-
-$$
-  Spec(A_1) \times Spec(A_2) \simeq Spec(A_1 \otimes_R A_2)
-  \,.
-$$
+and then [[extension of scalars]] according to prop. \ref{ExtensionOfScalars} corresponds to the [[pullback]] of vector bundles from $Spec(A_1)$ to $Spec(A_2)$.
 
 =--
 
-This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
+
+
+
 
 
 
@@ -3993,6 +4011,10 @@ Tannaka duality for ordinary compact groups regarded as supergroups (hence equip
 * {#Mueger06} [[Michael Müger]], _Abstract Duality Theory for Symmetric Tensor $*$-Categories_ appendix ([pdf](http://www.math.ru.nl/~mueger/PDF/16.pdf)), in [[Hans Halvorson]],  _Algebraic quantum field theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)), in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_ 
 
 as a proof of [[Doplicher-Roberts reconstruction]]
+
+Some of the general statements above about algebra in monoidal categories are discussed in the following:
+
+* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014 
 
 [[!redirects Deligne theorem on tensor categories]]
 
