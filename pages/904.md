@@ -195,7 +195,7 @@ $\pi_1(-) :$ [[Top]] ${}^{*/} \to$ [[Grp]].
 ### Relation to singular homology
  {#RelationToSingularHomology}
 
-The fundamental group is in general non-abelian (i.e. is not an [[abelian group]]), the the [Examples](#Examples) below. For a connected topological space $X$, its _[[abelianization]]_ is equivalent to the first [[singular homology]] group
+The fundamental group is in general non-abelian (i.e. is not an [[abelian group]]), the  [Examples](#Examples) below. For a connected topological space $X$, its _[[abelianization]]_ is equivalent to the first [[singular homology]] group
 
 $$
   \pi_1(X,x)^{ab} \simeq H_1(X)
