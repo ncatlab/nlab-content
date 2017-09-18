@@ -159,7 +159,9 @@ To justify the step $(*)$, note that both sides are equivalent to some subcatego
 
 ### Colimits
 
-Above we remarked that the forgetful functor $Pr(\infty,1)Cat \to (\infty,1)Cat$ preserves limits.  It does not preserve colimits, and while $Pr(\infty,1)Cat$ has colimits they are in general not explicit.  However, there are some cases in which they can be described explicitly, such as when they coincide with limits.  For instance:
+Above we remarked that the forgetful functor $Pr(\infty,1)Cat \to (\infty,1)Cat$ preserves limits.  It does not preserve colimits, but $Pr(\infty,1)Cat$ does have colimits; they are constructed by passing to right adjoints and taking the limit there.
+
+In particular, this implies there are some cases in which colimits coincide with limits.  For instance:
 
 +--{: .num_prop}
 ###### Proposition
