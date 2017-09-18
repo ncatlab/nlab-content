@@ -2,4 +2,10 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Giuseppe_Peano)
 
+## related $n$Lab entries
+
+* [[Peano arithmetic]]
+
+* [[Borel's theorem on power series]]
+
 category: people
