@@ -171,7 +171,7 @@ and this:
 
 A classic of the trade is this one:
 
-* Bogolyubov, Logunov, Oksak, Todorov: _General principles of quantum field theory_ (Mathematical Physics and Applied Mathematics, 10. Dordrecht etc.: Kluwer Academic Publishers, 1990)
+* [[Nikolay Bogolyubov]], Logunov, Oksak, Todorov: _General principles of quantum field theory_ (Mathematical Physics and Applied Mathematics, 10. Dordrecht etc.: Kluwer Academic Publishers, 1990)
 
 
 ### Reviews
