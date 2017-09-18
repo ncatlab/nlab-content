@@ -23,6 +23,8 @@ As ordinary [[algebraic geometry]] studies spaces -- [[scheme]]s -- that locally
 
 From the point of view of [[noncommutative geometry]], the supergeometry is a very mild special case of noncommutativity in geometry: some coordinates commute, some anticommute.
 
+For more see at _[[geometry of physics -- supergeometry]]_.
+
 ## Related concepts
 
 * [[signs in supergeometry]]
@@ -31,7 +33,10 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 
 * [[super ∞-groupoid]], [[smooth super ∞-groupoid]], [[super smooth ∞-groupoid]]
 
-* [[supermanifold]]
+* [[superspace]]
+
+  * [[supermanifold]], [[super scheme]]
+
 
 * [[supersymmetry]]
 
