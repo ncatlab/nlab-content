@@ -1,4 +1,4 @@
-_Structural Complexity of Proofs_ (1974) is the title of a Ph.D. thesis by Richard Statman, who was a student of [[Georg Kreisel]] at Stanford University.  Among other contributions, the thesis is notable for defining a notion of "[[genus]] of a proof", as a global measure of complexity more interesting than (but analogous to) number of inferences, depth of the proof tree, etc.
+_Structural Complexity of Proofs_ (1974) is the title of a Ph.D. thesis by [[Richard Statman]], who was a student of [[Georg Kreisel]] at Stanford University.  Among other contributions, the thesis is notable for defining a notion of "[[genus]] of a proof", as a global measure of complexity more interesting than (but analogous to) number of inferences, depth of the proof tree, etc.
 
 ## Chapters
 
