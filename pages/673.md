@@ -99,7 +99,19 @@ Appears in: Bulletin of the Australian Mathematical Society, Vol. 41 (2014) No. 
 
 * _Bundle gerbe Yang-Mills_, Erwin Schrodinger Institute, May 2006.
 
-## Teaching ##
+## Students
+
+#### Undergraduate projects
+
+* Jayden Redden - _Explicit formulas for connections_, Summer 2014/15
+
+* Diclehan Erdal - _Coequalisers from minimal ETCS axioms_, Summer 2014/15
+
+## Teaching 
+
+* 2015
+
+  * Summer Semester : Maths 1B, Lecturer
 
 * 2014
 
