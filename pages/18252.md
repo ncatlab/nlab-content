@@ -18,8 +18,93 @@
 
 The canonical [[line bundle]] over a [[projective space]] is sometimes called its "tautological line bundle". For more see at _[[classifying space]]_.
 
-## Examples
+## Definition
 
-* The [[basic complex line bundle on the 2-sphere]] is the tautological [[complex line bundle]] over the [[complex projective space]] $\mathbb{C}P^1 \simeq S^2$ (the [[Riemann sphere]])
+### As a topological line bundle
+
+We discuss the tautological line bundle as a [[topological vector bundle]]. Hence let $k$ be the [[topological field]] either
+
+* $k = \mathbb{R}$ the [[real numbers]]
+
+* or $k = \mathbb{C}$ the [[complex numbers]]
+
+equipped with their [[Euclidean space|Euclidean]] [[metric topology]]
+
++-- {: .num_defn}
+###### Definition
+
+Let $n \in \mathbb{C}$. Consider the[[Euclidean space]] $k^{n+1}$ equipped with its [[metric topology]], let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
+
+$$
+  (\vec x_1 \sim \vec x_2)
+   \;\Leftrightarrow\;
+  \left(
+    \underset{c \in k}{\exists}
+    ( \vec x_2 = c \vec x_1 )
+  \right)
+  \,.
+$$
+
+The [[equivalence class]] $[\vec x]$ is traditionally denoted
+
+$$
+  [x_1 : x_2 : \cdots : x_{n+1}]
+  \,.
+$$
+
+
+Then the _[[projective space]]_ $k P^n$ is the corresponding [[quotient topological space]] 
+
+$$
+  k P^n \;\coloneqq\; \left(k^{n+1} \setminus \{0\}\right) / \sim
+  \,.
+$$
+
+
+
+=--
+
++-- {: .num_defn #SheavesOnCartSp}
+###### Definition
+
+For $n \in \mathbb{N}$ the _standard open cover_ of the projective space $k P^n$ is 
+
+$$
+  \left\{
+    U_i \subset k P^n
+  \right\}_{i \in \{1, \cdots, n+1\}}
+$$
+
+with 
+
+$$
+  U_i 
+    \coloneqq 
+  \left\{ 
+    [x_1 : \cdots x_{n+1}] \in k P^n
+    \;\vert\;
+    \vec x \in k^{n+1}
+    \;\text{with}\;
+    x_i \neq 0
+  \right\}
+  \,.
+$$
+
+These subsets are open in the [[quotient topology]], since their [[pre-image]] under the qutient co-projection $k^{n+1} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$.
+
+=--
+
+## * The [[basic complex line bundle on the 2-sphere]] is the tautological [[complex line bundle]] over the [[complex projective space]] $\mathbb{C}P^1 \simeq S^2$ (the [[Riemann sphere]])
+
+## References
+
+Lecture notes include
+
+* {#Wirthmuller12} [[Klaus Wirthmüller]], section 2 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+
+
+See also
+
+* Wikipedia, _[Tautological bundle](https://en.wikipedia.org/wiki/Tautological_bundle)_
 
 [[!redirects tautological line bundles]]
