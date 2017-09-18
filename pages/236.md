@@ -22,7 +22,7 @@
 
 Given an [[action]] $\rho$ of a [[group]] $G$ on a [[set]] $S$, the action groupoid $S//G$ is a bit like the quotient set $S/G$ (the set of $G$-orbits).  But, instead of taking elements of $S$ in the same $G$-orbit as being [[equality|equal]] in $S/G$, in the action groupoid they are just [[isomorphism|isomorphic]].  We may think of the action groupoid as a [[homological resolution|resolution]] of the usual quotient.  When the action of $G$ on $S$ fails to be free, the action groupoid is generally better-behaved than the quotient set.
 
-The action groupoid also goes by other names, including '[[weak quotient]]'.  It is a special case of a '[[pseudo colimit]]', as explained below. It is also called a "[[semidirect product]]" and then written $S \rtimes G$. The advantage of this is that it accords with the generalisation to the action of a group $G$ on a groupoid $S$, which is relevant to orbit space considerations, since if $G$ acts on a space $X$ it also acts on the fundamental groupoid of $X$ (see "Topology and Groupoids", Chapter 11). 
+The action groupoid also goes by other names, including '[[weak quotient]]'.  It is a special case of a '[[pseudo colimit]]', as explained below. It is also called a "[[semidirect product]]" and then written $S \rtimes G$. The advantage of this is that it accords with the generalisation to the action of a group $G$ on a groupoid $S$, which is relevant to orbit space considerations, since if $G$ acts on a space $X$ it also acts on the fundamental groupoid of $X$; this is fully developed in  "Topology and Groupoids", Chapter 11. 
 
 ## Definition
 
@@ -254,7 +254,8 @@ The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\inf
 * P.J. Higgins, 1971, "Categories and Groupoids", van
 Nostrand, {New   York}. Reprints in Theory and Applications of Categories, 7 (2005) pp 1--195.
 
-* R. Brown, "Topology and groupoids", Booksurge, 2006. 
+* R. Brown, "Topology and groupoids", Booksurge, 2006, available from amazon. [details ](http://groupoids.org.uk/topgpds.html}
+
 
 * John Armstrong's article, [Groupoids (and more group actions)](http://unapologetic.wordpress.com/2007/06/09/groupoids-and-more-group-actions/)
 
