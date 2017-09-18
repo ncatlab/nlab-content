@@ -30,13 +30,15 @@ The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. 
 
 ## Related concepts
 
-* [[black hole]]
+* [[black brane]]
 
-* [[black string]]
+  * [[black hole]]
 
-* [[black membrane]]
+  * [[black string]]
 
-* [[black fivebrane]]
+  * [[black membrane]]
+
+  * [[black fivebrane]]
 
 * [[AdS/CFT correspondence]]
 
