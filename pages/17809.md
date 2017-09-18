@@ -4819,7 +4819,7 @@ $$
 $$
 
 with the [[super vielbein]] $(e^a, \psi^\alpha)$ as before, and with $\omega^{a b}$ the
-[[dual basis]] of the induced [[linear basis]] for vectro space of skew-symmetric matricces
+[[dual basis]] of the induced [[linear basis]] for the vector space of skew-symmetric matrices
 underlying the [[special orthogonal Lie algebra]]. The commutation relations are as before,
 together with the relation that the generators $\omega^{a b}$ anti-commute with every generator.
 Finally the [[differential]] $d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})}$ acts on
@@ -5045,9 +5045,9 @@ $$
   \,.
 $$
 
-This remaining operation "$e \mapsto \Psi^2$" of the differential acting on Loretz scalars is sometimes denoted "$t_0$", e.g. in ([Bossard-Howe-Stelle 09, equation (8)](super+Minkowski+spacetime#BossardHoweStelle09)).
+This remaining operation "$e \mapsto \Psi^2$" of the differential acting on Lorentz scalars is sometimes denoted "$t_0$", e.g. in ([Bossard-Howe-Stelle 09, equation (8)](super+Minkowski+spacetime#BossardHoweStelle09)).
 
-This relation is what govers all of the exceptional super Lie algebra cocycles that appear [below](#TheOldBraneScan): for some combinations of $(d,p,N)$ a [[Fierz identity]] implies that the term
+This relation is what governs all of the exceptional super Lie algebra cocycles that appear [below](#TheOldBraneScan): for some combinations of $(d,p,N)$ a [[Fierz identity]] implies that the term
 
 $$
   \left(
