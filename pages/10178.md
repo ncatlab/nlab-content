@@ -1596,7 +1596,7 @@ We give a summary of the central steps of motivic quantization of local prequant
 
   This encodes the [[gauge principle]].
 
-* **(QFT 1)** _Phases and action functionals_: The [[homotopy type theory]] $\mathbf{H}$ is [[differential cohesion|differentially]] [[cohesive]], hence equipped with [[higher modalities]]  $(\Pi \dashv \flat \dashv \sharp)$ ([[shape modality]], [[flat modality]], [[sharp modality]]) and $(Red \dashv \Pi_{inf} \dashv \flat_{ingf})$ ([[reduction modality]], [[infinitesimal shape modality]], [[infinitesimal flat modality]]). 
+* **(QFT 1)** _Phases and action functionals_: The [[homotopy type theory]] $\mathbf{H}$ is [[differential cohesion|differentially]] [[cohesive]], hence equipped with [[higher modalities]]  $(\Pi \dashv \flat \dashv \sharp)$ ([[shape modality]], [[flat modality]], [[sharp modality]]) and $(\Re \dashv \Im \dashv \&)$ ([[reduction modality]], [[infinitesimal shape modality]], [[infinitesimal flat modality]]). 
 
   This induces for every choice of [[abelian ∞-group]] $\mathbb{G}$ the [[moduli ∞-stack|universal moduli]] $\mathbf{B}\mathbb{G}_{conn}$ of $\mathbb{G}$-[[principal ∞-connections]].
 
