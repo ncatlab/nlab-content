@@ -73,7 +73,7 @@ For $p \colon \mathcal{C} \to \mathcal{D}$ a morphism of [[simplicial sets]] suc
 
 1. it is an [[inner fibration]];
 
-1. it is an "[[isofibration]]": for everey [[equivalence in an (∞,1)-category|equivalence]] in $\mathcal{D}$ and a lift of its [[domain]] through $p$, there is also a lift of the whole equivalence through $p$ to an equivalence in $\mathcal{C}$.
+1. it is an "[[isofibration]]": for every [[equivalence in an (∞,1)-category|equivalence]] in $\mathcal{D}$ and a lift of its [[domain]] through $p$, there is also a lift of the whole equivalence through $p$ to an equivalence in $\mathcal{C}$.
 
 =--
 
