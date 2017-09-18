@@ -18,6 +18,12 @@
 
 The _axion_ is hypothetical type of [[field (physics)|field]]/[[fundamental particle]] related to the [[strong CP problem]].
 
+(..)
+
+The key point of the Peccei-Quinn axion solution to the strong CP problem
+is that the minimum of the axion potential is automatically at
+$\theta$. This follows from [Vafa-Witten 84](#VafaWitten84)
+
 ## In string theory
 
 In [[string theory]] axion fields naturally arise in various ways [Svrcek-Witten 06](#SvrcekWitten06):
@@ -42,11 +48,13 @@ In [[heterotic string theory]] [[KK-compactification|KK-compactified]] to 4d, th
 
 * Wikipedia _[Axion](http://en.wikipedia.org/wiki/Axion)_
 
-### Experimental signature
+* {#VafaWitten84} [[Cumrun Vafa]], [[Edward Witten]], _Parity Conservation in Quantum Chromodynamics_ Phys. Rev. Lett. 53, 535 (1984) ([publisher](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.53.535))
 
-* Joseph P. Conlon, M.C. David Marsh, _Searching for a 0.1-1 keV Cosmic Axion Background_ ([arXiv:1305.3603](http://arxiv.org/abs/1305.3603))
+Reformulation in terms of [[Chern-Simons forms]]:
 
-  > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
+* [[Gia Dvali]], _Three-Form Gauging of axion Symmetries and Gravity_ ([arXiv:hep-th/0507215](https://arxiv.org/abs/hep-th/0507215))
+
+### In string theory
 
 In [[string theory]] 
 
@@ -56,6 +64,14 @@ In [[string theory]]
 and specifically in [[F-theory]]
 
 * {#Grimm14} Thomas Grimm, _Axion Inflation in F-theory_ ([arXiv:1404.4268](http://arxiv.org/abs/1404.4268))
+
+
+### Experimental signature
+
+* Joseph P. Conlon, M.C. David Marsh, _Searching for a 0.1-1 keV Cosmic Axion Background_ ([arXiv:1305.3603](http://arxiv.org/abs/1305.3603))
+
+  > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
+
 
 As a candidate for [[dark matter]]:
 
