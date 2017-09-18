@@ -1,11 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* automatic table of contents goes here 
+* table of contents
 {:toc}
 
 ## Idea 
 
-**Surreal numbers** (or Conway numbers, after John H. Conway) originally arose in the context of [[Conway game|combinatorial games]], as a kind of generalized quantity for measuring strength of positions. The class of surreal numbers forms an ordered field in which any small ordered field may be embedded, so that the field of surreal numbers forms a universal field for expressing any set-bounded degree of infinite and infinitesimal quantities. Any ordinal number may be construed as a surreal number, and new surreal numbers may be defined from old ones by generalizing the notion of Dedekind cut. Surreal numbers are a very large extension of real numbers, where one may make sense of fanciful quantities such as 
+**Surreal numbers** (or Conway numbers, after John H. Conway) are a kind of [[numbers]] that originally arose in the context of [[Conway game|combinatorial games]], as a kind of generalized quantity for measuring strength of positions. The class of surreal numbers forms an ordered field in which any small ordered field may be embedded, so that the field of surreal numbers forms a universal field for expressing any set-bounded degree of infinite and infinitesimal quantities. Any ordinal number may be construed as a surreal number, and new surreal numbers may be defined from old ones by generalizing the notion of Dedekind cut. Surreal numbers are a very large extension of real numbers, where one may make sense of fanciful quantities such as 
 
 $$(\omega^2 + 5\omega - 13)^{\frac1{3} - \frac{2}{\omega}} + \pi$$
 
