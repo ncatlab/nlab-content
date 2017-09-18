@@ -315,15 +315,15 @@ The commutativity of the outer square says that $f_\ast \alpha'$ is constant, he
 Every locally trivial topological [[fiber bundle]] is in particular a Serre fibration.
 
 
-In particular every 
+In particular,
 
 +-- {: .num_example #CoveringSpaceIsSerreFibration}
 ###### Example
-**([[covering space]] projectin is Serre fibration)**
+**([[covering space]] projection is Serre fibration)**
 
 Every [[covering space]] projection is a Serre fibration, in fact a [[Hurewicz fibration]] (by [this prop.](covering+space#HomotopyLiftingPropertyOfCoveringSpaces)).
 
-
+=--
 
 ## Related concepts
 
