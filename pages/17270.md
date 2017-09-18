@@ -313,7 +313,7 @@ Moreover, according to lemma \ref{FirstLemmaForBousfieldFriedlander} the pair of
 
 Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]]. The lifting property here holds by definition of $Fib_Q$. We conclude by showing the existence of factorizations:
 
-First we consider the case of morphisms of the form $f \colon Q(Y) \to Q(Y)$. This may be factored with respect to $\mathcal{C}$ as
+First we consider the case of a morphism of the form $f \colon Q(Y) \to Q(Y)$. This may be factored with respect to $\mathcal{C}$ as
 
 $$
   f 
@@ -416,17 +416,16 @@ $$
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #CharacterizationOfFibrationsInBFModelStructures}
 ###### Proposition
 
 For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
 a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
-then in the model structure $\mathcal{C}_Q$ from prop. \ref{BousfieldFriedlanderTheorem},
-a morphism $f\colon X \to Y$ is a $Q$-fibration precisely if 
+then a morphism $f \colon X \to Y$ in $\mathcal{C}$ is a $Q$-fibration (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) precisely if 
 
 1. $f$ is a fibration;
 
-1. the $\eta$-naturality square on $f$ exhibits a [[homotopy pullback]]
+1. the $\eta$-naturality square on $f$ 
 
    $$
      \array{
@@ -436,8 +435,163 @@ a morphism $f\colon X \to Y$ is a $Q$-fibration precisely if
        \\
        Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
      }
-     \,.
    $$
+
+   exhibits a [[homotopy pullback]] in $\mathcal{C}$, in that for any factorization of $Q(f)$ trough a weak equivalence followed by a fibration $p$, then the universally induced morphism
+
+  $$
+    X \longrightarrow p^\ast Y
+  $$
+
+  is weak equivalence (in $\mathcal{C}$).
+
+=--
+
+(e.g. [Goerss-Jardine 96, theorem 4.8](#GoerssJardine96))
+
++-- {: .proof}
+###### Proof
+
+First consider the case that $f$ is a fibration and that the square is a homotopy pullback. We need to show that then $f$ is a $Q$-fibration.
+
+Factor $Q(f)$ as
+
+$$
+  Q(f) 
+    \;\colon\;
+  Q(X)
+    \underoverset{\in W \cap Cof}{i}{\longrightarrow}
+  Z
+    \underoverset{\in Fib}{p}{\longrightarrow}
+  Q(Y)  
+  \,.
+$$
+
+By the proof of prop. \ref{BousfieldFriedlanderTheorem} the morphism $p$ is also a $Q$-fibration. Hence by the existence of the $Q$-local model structure due to prop. \ref{BousfieldFriedlanderTheorem}, its pullback is also a $Q$-fibration
+
+$$
+  \array{
+    X &\overset{\eta_X}{\longrightarrow}& Q(X)
+    \\
+    {}^{\mathllap{\tilde i}}_{\mathllap{\in W}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{i}}_{\mathrlap{\in W}}
+    \\
+    Y \underset{Q(Y)}{\times} Z 
+      &\overset{p^\ast \eta_Y}{\longrightarrow}&
+    Z
+    \\
+    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib_Q}}
+    \\
+    Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
+  }
+  \,.
+$$
+
+Here $\tilde i$ is a weak equivalence by assumption that the diagram exhibits a homotopy pullback. Hence it factors as
+
+$$
+  \tilde i
+  \;\colon\;
+  X 
+    \underoverset{\in W \cap Cof}{j}{\longrightarrow}
+  W
+    \underoverset{\in W \cap Fib = W_Q \cap Fib_Q}{\pi}{\longrightarrow}
+  Y \underset{Q(Y)}{\times} Z
+  \,.
+$$
+
+This yields the situation
+
+$$
+  \array{
+    X &\overset{=}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{j}}_{\mathllap{\in W \cap Cof}}\downarrow 
+      &{}^{\mathllap{\exists}}\nearrow& 
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}
+    \\
+    W 
+      &\underoverset{\tilde p \circ \pi}{\in Fib_Q}{\longrightarrow}&
+    Y
+  }
+$$
+
+As in the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) this is seen to exhibit $f$ as a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of the $Q$-fibration $\tilde p \circ \pi$. Hence by the existence of the $Q$-model structure and the closure properties for fibrations ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), also $f$ is a $Q$-fibration.
+
+Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$ it is immediate that $f$ is also a fibration. We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
+
+So factor $Q(f)$ as before, and consider the pasting composite of the factorization of the given square with the naturality squares of $\eta$:
+
+$$
+  \array{
+     &&
+    Q(X) 
+      &\underoverset{\in W}{\eta_{Q(X)}}{\longrightarrow}&
+    Q(Q(X))
+    \\
+      && 
+    {}^{\mathllap{i}}_{\mathllap{\in W}}\downarrow
+      && 
+    \downarrow^{\mathrlap{Q(i)}}_{\mathrlap{\in W}}
+    \\
+    Y \underset{Q(Y)}{\times} Z 
+      &\underoverset{\in W_Q}{p^\ast \eta_Y}{\longrightarrow}&
+    Z
+      &\underoverset{\in W}{\eta_Z}{\longrightarrow}&
+    Q(Z)
+    \\
+    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
+      &(pb)& 
+    \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib_Q}}
+      &&
+    \downarrow^{\mathrlap{Q(p)}}
+    \\
+    Y 
+      &\underoverset{\eta_Y}{\in W_Q}{\longrightarrow}& 
+    Q(Y)
+      &\underoverset{\eta_{Q(Y)}}{\in W}{\longrightarrow}&
+    Q(Q(Y))
+  }
+  \,.
+$$
+
+The top and bottom horizontal weak equivalences are by the idempotency of $Q$, and $Q(i)$ is a weak equivalence since $Q$ preserves weak equivalences. Hence by [[two-out-of-three]] also $\eta_Z$ is a weak equivalence. Finally $p^\ast \eta_Y$ is a $Q$-weak equivalence since it is the pullback of a $Q$-weak equivalence along a fibration between objects whose $\eta$ is a weak equivalence, via the third clause in def. \ref{QuillenIdempotentMonad}.
+
+In particular, therefore the bottom right square is a homotopy pullback, and since the left square is even a genuine pullback, hence a homotopy pullback, the total bottom rectangle here exhibits a homotopy pullback.
+
+Now by [[natural transformation|naturality]] of $\eta$, that total rectangle is the same as
+
+$$
+  \array{
+    Y \underset{Q(Y)}{\times} Z 
+      &\overset{\eta_{\left(Q \underset{Q(Y)}{\times} Z\right)}}{\longrightarrow}&
+    Q(Y \underset{Q(Y)}{\times} Z)
+      &\underoverset{\in W}{Q(p^\ast \eta_Y)}{\longrightarrow}&
+    Q(Z)
+    \\
+    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{Q(\tilde p)}}_{\mathrlap{\in Fib_Q}}
+      &&
+    \downarrow^{\mathrlap{Q(p)}}
+    \\
+    Y 
+      &\underset{\eta_Y}{\longrightarrow}& 
+    Q(Y)
+      &\underoverset{Q(\eta_Y)}{\in W}{\longrightarrow}&
+    Q(Q(Y))
+  }
+  \,,
+$$
+
+where now $Q(p^\ast \eta_Y) \in W$ since $p^\ast \eta_Y \in W_Q$, by the previous remark. This means that the right square is again a homotopy pullback, and since the total rectangle still is, so is now also the left square.
+
+To conclude, use the observation from the first part of the proof that $f$ is a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of $\tilde p \circ \pi$, where $\pi$ is an acyclic fibration. Notice that the $\eta$-naturality square of a weak equivalence is a homotopy pullback ($Q$ preserves the weak equivalence) and that the composite of two morphisms with this property still has this property. Therefore $f$ is the retract of a morphism with this property, 
+
+Hence the $\eta$-naturality square of $f$ is the retract of a homotopy pullback square, and so it is itself a homotopy pullback square.
 
 =--
 
