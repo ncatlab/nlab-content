@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -53,7 +55,7 @@ See at _[Artin L-function -- Analogy with Selberg/Ruelle zeta function](Artin%20
 
 ### Relation to volume and analytic torsion
 
-The poles of $R_\rho$ at the origin encode 
+The [[special values of L-functions|special value]] of $R_\rho$ at the origin encodes 
 
 * the [[Reidemeister torsion]] ([Fried 86, theorem 1](#Fried86));
 
