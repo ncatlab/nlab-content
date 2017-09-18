@@ -41,7 +41,7 @@ Freyd introduces some baseline assumptions on the categories in question:
 
 * Presence of pushouts for [[kernel pair]]s
 
-Each of these assumptions obviously obtains in any [[abelian category]] and in any [[pretopos]]. 
+Each of these assumptions obviously hold in any [[abelian category]] and in any [[pretopos]]. 
 
 +-- {: .num_remark} 
 ###### Remarks 
