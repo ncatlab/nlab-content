@@ -1143,6 +1143,7 @@ As a first application, [[Eilenberg-MacLane spectra]] representing [[ordinary co
 
 
 ##### Traditional discussion
+ {#BrownRepresentabilityTraditional}
 
 
 Write $Top_{CW,cn}^{\ast} \hookrightarrow Top_{CW}^{\ast} \hookrightarrow Top^{\ast/}$ for the category of pointed and _connected_ topological spaces homeomorphic to a [[CW-complex]].
@@ -1167,7 +1168,7 @@ such that
 +-- {: .num_prop #EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor}
 ###### Proposition
 
-For every additive [[reduced cohomology theory]] $\tilde E^\bullet(-)$ (def. \ref{ReducedGeneralizedCohomology}), each degree $\tilde E^n(-)$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
+For every [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet(-)$ (def. \ref{ReducedGeneralizedCohomology}), each degree $\tilde E^n(-)$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
 
 =--
 
@@ -1203,7 +1204,7 @@ See also example \ref{TheClassicalPointedConnectedHomotopyCategoryAsDomainForThe
 
 =--
 
-Theorem \ref{BrownRepresentabilityTraditional} with prop. \ref{EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor} give that every degree $\tilde E^n$ of an additive [[reduced cohomology theory]] $\tilde E^\bullet$ is [[representable functor|representable]] on pointed connected CW-complexes. But moreover, by definition these degrees are related by [suspension isomorphisms](#SuspensionIsomorphismForReducedGeneralizedCohomology). This implies that the representing sequence of topological spaces carries extra structure relating the spaces in different degree:
+Theorem \ref{BrownRepresentabilityTraditional} with prop. \ref{EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor} give that every degree $\tilde E^n$ of an [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet$ is [[representable functor|representable]] on pointed connected CW-complexes. But moreover, by definition these degrees are related by [suspension isomorphisms](#SuspensionIsomorphismForReducedGeneralizedCohomology). This implies that the representing sequence of topological spaces carries extra structure relating the spaces in different degree:
 
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
@@ -1220,10 +1221,10 @@ for each $n \in \mathbb{N}$.
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum}
 ###### Proposition
 
-Every additive [[reduced cohomology theory]] $\tilde E^\bullet(-) \colon (Top_{CW}^\ast)^{op} \longrightarrow Ab^{\mathbb{Z}}$ according to def. \ref{ReducedGeneralizedCohomology}, when restricted to [[connected topological space|connected]] spaces is [[representable functor|represented]] by an [[Omega-spectrum]] $E$ (def. \ref{OmegaSpectrum}) in that in each degree $n \in \mathbb{N}$
+Every [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet(-) \colon (Top_{CW}^\ast)^{op} \longrightarrow Ab^{\mathbb{Z}}$ according to def. \ref{ReducedGeneralizedCohomology}, when restricted to [[connected topological space|connected]] spaces is [[representable functor|represented]] by an [[Omega-spectrum]] $E$ (def. \ref{OmegaSpectrum}) in that in each degree $n \in \mathbb{N}$
 
 1. $\tilde E^n(-)$ is represented by $E_n \in Top$;
 
@@ -1257,6 +1258,47 @@ Every additive [[reduced cohomology theory]] $\tilde E^\bullet(-) \colon (Top_{C
 ###### Proof
 
 Theorem \ref{BrownRepresentabilityTraditional} with prop. \ref{EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor} gives the existence of the $\{E_n\}_{n \in \mathbb{N}}$. The remaining statement follows with the [[Yoneda lemma]], which says that morphisms between [[representable functors]] are in [[natural bijection]] with the morphisms of objects that represent them.
+
+=--
+
+Conversely:
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[Omega-spectrum]] $E$, def. \ref{OmegaSpectrum}, represents an [additive](#WedgeAxiom) [[reduced cohomology theory]] def. \ref{ReducedGeneralizedCohomology} $\tilde E^\bullet$ by
+
+$$
+  \tilde E^n(X)
+    \coloneqq
+  [X,E_n]_\ast
+$$
+
+with [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) given by
+
+$$
+  \sigma_n
+    \;\colon\;
+  \tilde E^n(X)
+    =
+  [X,E_n]_\ast
+    \overset{[X,\tilde \sigma_n]}{\longrightarrow}
+  [X, \Omega E_{n+1}]_\ast
+    \overset{\simeq}{\to}
+  [\Sigma X, E_{n+1}]
+    =
+  \tilde E^{n+1}(\Sigma X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [additivity](#WedgeAxiom) is immediate from the construction. 
+
+The [exactnes](#ReducedExactnessAxiom) follows from the [[long exact sequences]] of [[homotopy cofiber sequences]] given by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence).
 
 =--
 
