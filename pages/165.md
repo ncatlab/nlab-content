@@ -24,6 +24,8 @@ In parts of the literature the fundamental groupoid, and more generally the [[fu
 
 The **fundamental groupoid** $\Pi_1(X)$ of a topological space $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphisms from $x$ to $y$ are the homotopy-classes $[\gamma]$ of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$ (which the homotopies are required to fix). Composition is by concatenation (and reparametrization) of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associative and unital composition with respect to which every morphism has an inverse; hence $\Pi_1(X)$ is a groupoid.
 
+The use of the fundamental groupoid of a manifold for discussion of the monodromy principle on the extension of local morphisms is discussed in the paper by Brown/Mucuk listed below. 
+
 
 ## Remarks
 
@@ -34,7 +36,7 @@ $$
   \pi_1(X,x) = Aut_{\Pi_1(X)}(x)
   \,.
 $$
-So the fundamental groupoid is an improvement on the idea of the fundamental group, which gets rid of the choice of basepoint. The set of connected components of $\Pi_1(X)$ is precisely the set $\Pi_0(X)$ of path-components of $X$.  (This is not to be confused with the set of connected components of $X$, sometimes denoted by the same symbol.  Of course they are the same when $X$ is locally path-connected.)
+So the fundamental groupoid gets rid of the choice of basepoint for the fundamental group, and this is valuable for some applications. The set of connected components of $\Pi_1(X)$ is precisely the set $\Pi_0(X)$ of path-components of $X$.  (This is not to be confused with the set of connected components of $X$, sometimes denoted by the same symbol.  Of course they are the same when $X$ is locally path-connected.)
 
 
 ### Topologizing the fundamental groupoid
@@ -45,9 +47,13 @@ This construction is closely linked with the construction of a [[universal cover
 +-- {: .query}
 [[Mike Shulman]]: Could you say something about what topology you have in mind here?  Is the space of objects just $X$ with its original topology?
 
-[[David Roberts]]: The short answer is that it is propositions 4.17 and 4.18 in my [[davidroberts:HomePage|thesis]], but I will put it here soon.
+[[David Roberts]]: The short answer is that it is propositions 4.17 and 4.18 in my [[davidroberts:HomePage|thesis]], but I will put it here soon. 
+
+
 
 Regarding topology on the fundamental groupoid for a general space; it inherits a topology from the path space $X^I$, but there is also a topology (unless I've missed some subtlety) as given in 4.17 mentioned above, but the extant literature on the topological fundamental group uses the first one.
+
+[[Ronnie Brown]]: See the account in "Topology and Groupoids" referred to below. But there is also an account using path spaces in Proposition 6.2 of Mackenzie's 1987  book  "Lie groupoids and Lie algebroids in differential geometry".  
 =--
 
 When $X$ is not semi-locally simply connected, the arrows of the fundamental groupoid inherits the [[quotient space|quotient topology]] from the path space such that the fibres of $(s,t):Mor(\Pi_1(X)) \to X\times X$ are not discrete, which is an obstruction to the above-mentioned source fibre\'s being a covering space. However the composition is no longer continuous. When $X$ is not locally path-connected, $\Pi_0(X)$ also inherits a non-discrete topology (the quotient topology of $X$ by the relation of path connections).
@@ -57,16 +63,17 @@ In circumstances like these more sophisticated methods are appropriate, such as 
 
 ### $\Pi_1(X)$ with a chosen set of basepoints
 
-An improvement on this relevant to the [[van Kampen theorem]] for computing the fundamental group or groupoid is to take $\Pi_1(X,A)$, defined to be the full subgroupoid of $\Pi_1(X)$ on a set $A$ of base points, chosen according to the geometry at hand. Thus if $X$ is the union of two open sets $U,V$ with intersection $W$ then we can take $A$ large enough to meet each path-component of $U,V,W$. If $X$ has an action of a group $G$ then $G$ acts on $\Pi_1(X,A)$ if $A$ is a union of orbits of the action.
+An improvement on the fundamental group and the total fundamental groupoid  relevant to the [[van Kampen theorem]] for computing the fundamental group or groupoid is to use $\Pi_1(X,A)$, defined to be the full subgroupoid of $\Pi_1(X)$ on a set $A$ of base points, chosen according to the geometry at hand. Thus if $X$ is the union of two open sets $U,V$ with intersection $W$ then we can take $A$ large enough to meet each path-component of $U,V,W$. If $X$ has an action of a group $G$ then $G$ acts on $\Pi_1(X,A)$ if $A$ is a union of orbits of the action. 
 
-[[Ronnie Brown]] is a big booster of $\Pi_1(X,A)$. The notion was introduced in 1967 to give a version of the Seifert-van Kampen Theorem which allowed the determination  of the fundamental group of the union of non-connected spaces, and in particular of the  circle, a space  which is, after all, THE basic example in topology.
-Grothendieck writes in his 1984 [[Esquisse d'un Programme]] (Englisn translation)
+ The notion of $\Pi_1(X,A)$ was introduced in 1967 by [[Ronnie Brown]]  to give a version of the Seifert-van Kampen Theorem which allowed the determination  of the fundamental group of the union of non-connected spaces, and in particular of the  circle, a space  which is, after all, THE basic example in topology.
+
+Grothendieck writes in his 1984 [[Esquisse d'un Programme]] (English translation):
 
 " ..,people still obstinately persist,  when calculating with fundamental groups, in fixing a single base point, instead of cleverly choosing a whole packet of points which is invariant under  the symmetries of the situation, which thus get lost on the way.  In certain situations (such as descent theorems for fundamental groups \`a la van  Kampen) it is much more elegant,  even indispensable for understanding  something, to work with fundamental groupoids with respect to a suitable    packet of base points,..". 
 
 Notice that $\Pi_1(X,X)$ recovers the full fundamental groupoid, while $\Pi_1(X,\{a\})$ is simply  the [[fundamental group]] $\pi_1(X,a)$. 
 
- Basically, $\Pi_1(X,A)$  allows for the computation of homotopy 1-types; the theory was developed in  _Elements of Modern Topology_ (1968), now available as _Topology and Groupoids_ (2006). These show  the use of groupoids in 1-dimensional   [[homotopy theory]], for example for covering spaces,  and, in the latter,  orbit spaces.  
+ Basically, $\Pi_1(X,A)$  allows for the computation of homotopy 1-types; the theory was developed in  _Elements of Modern Topology_ (1968), now available as _Topology and Groupoids_ (2006). These accounts show  the use of the algebra of  groupoids in 1-dimensional   [[homotopy theory]], for example for [[covering space]]s,  and, in the latter edition,  for [[orbit space]]s.  
 
 
 
@@ -85,9 +92,15 @@ See [[fundamental ∞-groupoid]].
 
 ## References
 
+* R. Brown, Groupoids and Van Kampen's theorem, _Proc. London
+Math. Soc_. (3)   17 (1967) 385-401.
+
 * R. Brown and G. Danesh-Naruie,  The fundamental groupoid as a
 topological groupoid, _Proc. Edinburgh Math. Soc._ 19 (1975)
 237-244.
+
+* R. Brown and O. Mucuk,  The monodromy groupoid of a Lie
+groupoid, _Cah. Top. G\'eom. Diff. Cat_. 36 (1995) 345-369.
 
 * R. Brown, _Topology and Groupoids_, Booksurge (2006). (See particularly 10.5.8, using lifted topologies to topologise $(\pi_1 X)/N$ where $N$ is a normal, totally disconnected subgroupoid of $\pi_1 X$, and $X$ admits a universal cover). ([more info] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
@@ -95,6 +108,12 @@ Discussion from the point of view of [[Galois theory]] is in
 
 * [[Luis Javier Hernández-Paricio]], _Fundamental pro-groupoids and covering projections_, Fund. Math. (1998), ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm156/fm15611.pdf))
 
+* The use of many base points has a discussion at  this ([mathoverflow] (http://mathoverflow.net/questions/40945/compelling-evidence-that-two-basepoints-are-better-than-one)).
+
+* A recent paper which uses  fundamental groupoids on many base points in the area of dynamical systems  is:
+
+ Paul, E. and Ramis, J.-P.
+Dynamics on Wild Character Varieties, _SIGMA_ 11 (2015), 068, 21 pages}  arXiv:1508.03122. 
 
 [[!redirects fundamental groupoid]]
 [[!redirects fundamental groupoids]]
