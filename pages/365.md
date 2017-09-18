@@ -201,6 +201,8 @@ The commutativity of the diagrams that we have established so far shows that the
 
 * [[retract argument]] 
 
+* [[injective and projective morphisms]]
+
 
 ## References
 
