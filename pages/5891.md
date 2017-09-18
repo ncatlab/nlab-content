@@ -102,7 +102,7 @@ We give now rules for choices "$[x y z]$" that associate with every string "$x y
 
 #### Terms
 
-Assume for a context $\Gamma$ and a judgement $\Gamma \vdash : A : Type$ we have already chosen an interpretation  $[\Gamma, x : A] \stackrel{[\Gamma \vdash A : Type]}{\to} [\Gamma]$ as above.
+Assume for a context $\Gamma$ and a judgement $\Gamma \vdash A : Type$ we have already chosen an interpretation  $[\Gamma, x : A] \stackrel{[\Gamma \vdash A : Type]}{\to} [\Gamma]$ as above.
 
 A judgement of the form $\Gamma \vdash a : A$ (a [[term]] of [[type]] $A$) is to be interpreted as a [[section]] of this morphism, equivalently as a morphism in $\mathcal{C}_{/\Gamma}$ 
 
