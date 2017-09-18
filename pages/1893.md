@@ -2,6 +2,17 @@
 > There is also a notion of [[special lambda-ring]]. But in most cases by ''$\lambda$-ring'' is meant ''special $\lambda$-ring''.
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # $\Lambda$-rings
 * table of contents
 {: toc}
@@ -12,7 +23,7 @@
 
 A _$\lambda$-ring_ is a [[commutative ring]] which is in addition equipped with operations that behave as the operations of forming [[exterior powers]] (of [[vector spaces]]/[[representations]]) in a [[representation ring]]. The name derives from the common symbol $\Lambda^n$ for the $n$th [[exterior power]]. Hence $\lambda$-rings are one incarnation of the [[representation theory]] of the [[symmetric groups]].
 
-Equivalently, it turns out ([Wilkerson 82](#Wilkerson82)) that a $\lambda$-ring is a commutative ring equipped with an [[endomorphism]] that lifts the [[Frobenius endomorphism]] after reduction mod $p$ at each [[prime number]] $p$. As such $\lambda$-rings appear in [[Borger's absolute geometry]] and are related, in some way, to [[power operations]] (see there for more) in [[stable homotopy theory]].
+Equivalently, it turns out ([Wilkerson 82](#Wilkerson82)) that a $\lambda$-ring is a commutative ring equipped with an [[endomorphism]] that lifts the [[Frobenius endomorphism]] after reduction mod $p$ at each [[prime number]] $p$. As such, $\lambda$-rings appear in [[Borger's absolute geometry]] and are related, in some way, to [[power operations]] (see there for more) in [[stable homotopy theory]].
 
 ### Motivation from representation theory
 
