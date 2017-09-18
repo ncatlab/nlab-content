@@ -95,7 +95,7 @@ From this law for the variation of the Lagrangian, one derives both the [[Euler-
     \,.
    $$
 
-1. On the other hand, assuming that for given $\delta \phi$ the variation $\delta L $ vanishes when these equations of motion hold -- hence assuming that $\delta \phi$ is an _on-shell [[symmetry]]_ of $L$ -- is equivalent to assuming that the above expression is zero even without the left term, hence that
+1. On the other hand, assuming that for given $\delta \phi$ the variation $\delta L $ vanishes when these equations of motion hold -- hence assuming that $\delta \phi$ is an _[[on-shell]] [[symmetry]]_ of $L$ -- is equivalent to assuming that the above expression is zero even without the left term, hence that
 
   $$
     \nabla \cdot 
@@ -112,7 +112,7 @@ From this law for the variation of the Lagrangian, one derives both the [[Euler-
     \left(\frac{\delta }{\delta \nabla \phi} L\right) \delta \phi
   $$
 
-  (here $p_\phi$ is the [[canonical momentum]] of the [[field (physics)|field]] $\phi$) is called the _[[Noether current]]_ and the above says that this is (on-shell) a  [[conserved current]] precisely if $\delta \phi$ is a symmetry of the Lagrangian.
+  (here $p_\phi$ is the [[canonical momentum]] of the [[field (physics)|field]] $\phi$) is called the _[[Noether current]]_ and the above says that this is ([[on-shell]]) a  [[conserved current]] precisely if $\delta \phi$ is a symmetry of the Lagrangian.
 
 This is at least the way that Noether's theorem has been introduced and is often considered. But this formulation is more restrictive than is natural. Namely it is unnatural to demand of a symmetry that it leaves the Lagrangian entirely invariant, $\delta L = 0$:
  
@@ -162,7 +162,7 @@ such that $\mathbf{E}$ is a [[source form]] -- the [[Euler-Lagrange form]] of $\
 +-- {: .num_defn}
 ###### Definition
 
-The _dynamical shell_ $\mathcal{E} \hookrightarrow Jet(E)$ is the [[zero locus]] of $\mathbf{E}$ together with its differential consequences.
+The _dynamical [[shell]]_ $\mathcal{E} \hookrightarrow Jet(E)$ is the [[zero locus]] of $\mathbf{E}$ together with its differential consequences.
 
 The [[covariant phase space]] of the Lagrangian is the [[zero locus]]
 
