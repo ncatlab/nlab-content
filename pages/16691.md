@@ -1,0 +1,8 @@
+
+## Related concepts
+
+* [[doublet-triplet splitting problem]]
+
+## References
+
+* Wikipedia, _[Proton decay](https://en.wikipedia.org/wiki/Proton_decay)_
