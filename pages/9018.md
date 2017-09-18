@@ -65,13 +65,15 @@ But when $Y$ is a $G_2$-[[orbifold]] then:
 
 1. at a [[conifold singularity]] [[chiral fermions]] appear ([Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)).
 
-In the absence of a proper microscopic definition of M-theory, the first point is argued for indirectly in two ways: 
+In the absence of a proper microscopic definition of M-theory, the first point is argued for indirectly in at least these three ways: 
 
 1. The expected [[duality in string theory|duality]] between M-theory compactified on [[K3]] and [[heterotic string theory]] on a 3-torus. Here it is fairly well understood that at the degenertion points of the K3-[[moduli space]] enhanced nonabelian gauge symmetry appears. This comes down ([Intriligator-Seiberg 96](ALE+space#IntriligatorSeiberg96)) to the fact that an [[ADE singularity]] $\mathbb{C}^2/\Gamma$ generically constitutes a point in the [[moduli space]] of [[vacua]] in the [Higgs branch](N%3D2+D%3D4+super+Yang-Mills+theory#ModuliSpacesOfVacua) of a super Yang-Mills theory.
 
 1. <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" /></div> The [[blow-up]] of an [[ADE-singularity]] happens to be a union of [[2-spheres]] touching pairwise in one point, such as to form the [[Dynkin diagram]] of the [[simple Lie group]] which under the [[ADE classification]] corresponds to the given [[orbifold]] isotropy group. [[M2-branes]] may [[wrapped brane|wrap]] these 2-cycles and since before blow-up they are of vanishing size, this corresponds to [[double dimensional reduction]] under which the M2-branes become [[strings]] stretching between coincident [[D-branes]]. These are well-understood to be the quanta of nonabelian gauge [[Chan-Paton gauge fields]] located on the D-branes, and hence these same nonabelian degrees of freedom have had to be present already at the level of the M2-branes.  
 
-But notice that at least the $SU(N)$-enhancement of the [[effective field theory]] at $\mathbb{Z}_k$-singularities matches the $SU(N)$-enhancement of the [[worldvolume]] theory of $N$-coincident [[M2-branes]] sitting at the orbifold singularity: this is the statement of the [[ABJM model]].
+1. In the [[F-theory]] description the ADE singularity maps to the locus where the F-theory [[elliptic fibration]] degenerates with 2-cycles in the elliptic fibers shrinking to 0. Via [[double dimensional reduction]] this manifestly takes the [[M2-brane]] [[wrapped brane|wrapping]] these elliptic fibers to an [[open string]] stretching between [[D7-branes]]. This yields at least $SU(N)$ gauge symmetry by the usual string theory argument about [[Chan-Paton gauge fields]].
+
+Also notice that at least the $SU(N)$-enhancement of the [[effective field theory]] at $\mathbb{Z}_k$-singularities matches the $SU(N)$-enhancement of the [[worldvolume]] theory of $N$-coincident [[M2-branes]] sitting at the orbifold singularity: this is the statement of the [[ABJM model]].
 
 
 
