@@ -28,7 +28,7 @@ Here $1$ is a [[terminal category]] (exactly one object and exactly one morphism
 
   $\Delta_d \Rightarrow F$ 
 
-  from a constant functor into $F$ is precisely a [[cone]] over $F$. Similarly are natural transformation
+  from a constant functor into $F$ is precisely a [[cone]] over $F$. Similarly a natural transformation
   
   $F \Rightarrow \Delta_d$
 
