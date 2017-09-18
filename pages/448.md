@@ -49,7 +49,7 @@ The word 'polyhedron' is used here as it is often used by [[algebraic topology|a
 
 
 ##Examples##
-1. Recall that a 'simple' graph is an undirected [[graph]] with no loops or multiple edges. Any simple graph may be [[graph#undirected_graphs_as_1complexes_barycentric_subdivision|interpreted as a 1-dimensional simplicial complex, and vice versa]]. (The case of a 'multigraph' where there can be multiple edges between vertices, and perhaps loops at a vertex, does not correspond to a simplicial complex, but does give a [[simplicial set]].)
+1. Recall that a 'simple' graph is an undirected [[graph]] with no loops or multiple edges. A simple graph is essentially the same thing as a 1-dimensional simple complex, by interpreting edges as simplices and vice versa (see [[graph#undirected_graphs_as_1complexes_barycentric_subdivision|undirected graphs as 1-complexes]]). (On the other hand, a 1-dimensional [[simplicial set]] is essentially the same thing as a 'directed multigraph', i.e., a [[quiver]].)
 
 1. Given a space and an [[open cover]], the nerve of the cover is a simplicial complex (see [[Čech methods]] and the discussion there). The [[Vietoris complex]] is another given by a related method.
 
