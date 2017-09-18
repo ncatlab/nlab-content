@@ -182,6 +182,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[Atiyah-Hirzebruch spectral sequence]], [[multiplicative spectral sequence|multiplicative]]
 
+* [[Kronecker pairing]]
+
 ### 4.3 MU characteristic classes
 
 * [[complex oriented cohomology]]
