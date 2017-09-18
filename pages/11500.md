@@ -1,9 +1,11 @@
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Analysis
-+-- {: .hide}
-[[!include analysis - contents]]
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
 =--
 #### Complex geometry
 +--{: .hide}
@@ -12,16 +14,24 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Statement
 
-For $U$ an open subset of the complex line $\mathbb{C}$ and $C$ a [[Jordan curve]] in $U$, a holomorphic function $f$ of $U$ sends a point $\zeta$ interior to $C$ to the [[contour integral]]
-$$ \frac{1}{2\pi\mathrm{i}}\oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z.$$
+For $U \subset \mathbb{C}$ an [[open subset]] of the [[complex plane]] $\mathbb{C}$ and for $C$ a [[Jordan curve]] in $U$, a [[holomorphic function]] $f$ of $U$ sends a point $\zeta$ enclosed by $C$ to the [[contour integral]]
+
+$$ 
+  \frac{1}{2\pi\mathrm{i}}\oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z.
+$$
 
 ## Proof in sythetic differential geometry
 
-Here is a proof of written in [[synthetic differential geometry]]: 
+Here is a proof written in terms of [[synthetic mathematics|synthetic]] [[infinitesimals]] as in [[synthetic differential geometry]]: 
 
-Let $\epsilon$ be a nilpotent. Let $S_\epsilon$ denote the circle of radius $\epsilon$ centered at $\zeta$. By the holomorphicity of $f$, the differential form $f(z)/(z-\zeta) \,\mathrm{d}z$ is closed in the region bounded by $C$ and $S_\epsilon$. By the Stokes theorem,  
+Let $\epsilon$ be a nilpotent. Let $S_\epsilon$ denote the [[circle]] of [[radius]] $\epsilon$ centered at $\zeta$. By the holomorphicity of $f$, the [[differential 1-form]] $f(z)/(z-\zeta) \,\mathrm{d}z$ is [[closed differential form|closed]] in the region bounded by $C$ and $S_\epsilon$. By the [[Stokes theorem]],  
 $$\frac{1}{2\pi\mathrm{i}}\oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z = \frac{1}{2\pi\mathrm{i}}\oint_{S_\epsilon} \frac{f(z)}{z - \zeta} \,\mathrm{d}z.$$
 Parametrize $S_\epsilon$ by 
 $(t\mapsto \zeta + \epsilon \,\exp(2\pi\mathrm{i}t))$ 
