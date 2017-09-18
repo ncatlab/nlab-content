@@ -202,6 +202,7 @@ Notice that $\omega \in \Omega^\bullet(\Delta^n)$ having sitting instants does n
 For the following definition recall the [[presentable (∞,1)-category|presentation]] of [[smooth ∞-groupoid]]s by the [[model structure on simplicial presheaves]] over the [[site]] [[CartSp]]${}_{smooth}$. 
 
 +-- {: .num_defn}
+
 ###### Definition
 
 For $\mathfrak{a}$ an [[L-∞ algebra]] of [[finite type]] with [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ define the [[simplicial presheaf]] $\exp(\mathfrak{a}) : CartSp_{smooth}^{op} \to sSet$ by
@@ -527,7 +528,7 @@ Then $\mathbf{cosk}_3 \exp(\mathfrak{g}_\mu)$ is equivalent to the [[2-groupoid]
 
 * whose 2-morphisms are equivalence class of pairs $(\Sigma,c)$, where 
 
-  * $\Sigma : D^2_*  \to D$ is a smooth based map (where we use a [[homeomorphism]] $D^2 \simeq \Delta^2$ which away from the corners is smooth, so that forms with sitting instants there do not see any non-smoothness, and the basepoint of $D^2_*$ is the 0-vertex of $\Delta^2$) 
+  * $\Sigma : D^2_*  \to G$ is a smooth based map (where we use a [[homeomorphism]] $D^2 \simeq \Delta^2$ which away from the corners is smooth, so that forms with sitting instants there do not see any non-smoothness, and the basepoint of $D^2_*$ is the 0-vertex of $\Delta^2$) 
 
   * and $c \in U(1)$, and where two such are equivalent if the maps coincides at their boundary and if for any 3-ball $\phi : D^3 \to G$ filling them the labels $c_1, c_2 \in U(1)$ differ by the integral $\int_{D^3} \phi^* \mu(\theta) \;\; mod \;\; \mathbb{Z}$,,
 
