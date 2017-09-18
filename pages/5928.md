@@ -166,6 +166,8 @@ Section VIII.6 of
 
 * [[The Stacks Project]], chapter 33 _Topologies on Schemes_
 
+* Nick Duncan, _Gros and Petit Toposes_, talk notes, [88th Peripatetic Seminar on Sheaves and Logic](http://cheng.staff.shef.ac.uk/pssl88/), [pdf](http://cheng.staff.shef.ac.uk/pssl88/pssl88-duncan.pdf).
+
 category: algebraic geometry
 [[!redirects Zariski topology]]
 [[!redirects Zariski topos]]
