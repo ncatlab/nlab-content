@@ -42,7 +42,7 @@ This proposal is [[predicative mathematics|predicative]], but could be made impr
 
 Related discussion is in 
 
-* [[André Joyal]], _What is an elementary higher topos?_, talk at _[Reimagining The Foundations Of Algebraic Topology](https://www.msri.org/workshops/689)_ April 07, 2014 - April 11, 2014_ [web video](https://www.msri.org/workshops/689/schedules/18227) [PDF](https://www.msri.org/workshops/689/schedules/18227/documents/2046/assets/20468)
+* {#Joyal14} [[André Joyal]], _What is an elementary higher topos?_, talk at _[Reimagining The Foundations Of Algebraic Topology](https://www.msri.org/workshops/689)_ April 07, 2014 - April 11, 2014_ [web video](https://www.msri.org/workshops/689/schedules/18227) [PDF](https://www.msri.org/workshops/689/schedules/18227/documents/2046/assets/20468)
 
 See maybe also the comments at
 
@@ -52,3 +52,6 @@ See maybe also the comments at
 
 [[!redirects elementary (∞,1)-toposes]]
 [[!redirects elementary (infinity,1)-toposes]]
+
+[[!redirects elementary infinity-topos]]
+[[!redirects elementary infinity-toposes]]
