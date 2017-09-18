@@ -113,7 +113,7 @@ It is a **near-ring** if the additive bimonoid structure is a [[Hopf monoid]], a
 
 Of course, this all makes sense in particular in a braided monoidal category regarded as duoidal.  In particular, in a [[cartesian monoidal category]], it reduces to the obvious internal definition of (near-)rigs and (near-)rings (since every object of a cartesian monoidal category is a comonoid in a unique way).
 
-On the other hand, if the coaddition is cocommutative (perhaps this is even automatic?), then the bimonoid $(R,add,\Delta)$ can equivalently be regarded as a monoid in the *cartesian* monoidal category $CComon_\star(C)$ of cocommutative comonoids in $(C, \star, J)$.  In this case, the above definitions coincide with the definitions of (near-)ri(n)gs in the [[colax-distributive rig category]] induced by $\diamond$ and the cartesian structure of $CComon_\star(C)$.
+One can show that for near-rings, cocommutativity is automatic, in which case the Hopf monoid $(R,add,\Delta)$ can equivalently be regarded as a Hopf monoid in the *cartesian* monoidal category $CComon_\star(C)$ of cocommutative comonoids in $(C, \star, J)$.  In this case, the above definitions coincide with the definitions of (near-)rings in the [[colax-distributive rig category]] induced by $\diamond$ and the cartesian structure of $CComon_\star(C)$.
 
 ### Commutative monoids
 
