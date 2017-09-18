@@ -58,13 +58,9 @@ But a whole tower of higher and generalized gauge theories became visible with t
 * The [[RR-field]] is a cocycle in [[differential K-theory]].
 
 
-### Gravity as a gauge theory
+### Gravity as a (non-)gauge theory
 
-There are various models that realize gravity also as a gauge theory.
-
-* [Chern-Simons Actions for (Super)-Gravities](http://golem.ph.utexas.edu/category/2008/03/chernsimons_actions_for_superg.html)
-
-In particular [[supergravity]] theories have interpretations as higher gauge theories as described at [[D'Auria-Fre formulation of supergravity]].
+In the [[first order formulation of gravity]] also the theory of [[gravity]] looks a little like a gauge theory. However, there is a crucial difference. What really happens here is _[[Cartan geometry]]_: the field of gravity may be encoded in a [[vielbein]] field, namelely an [[orthogonal structure]] on the [[tangent bundle]], hence as an example of a [[G-structure]], and the [[torsion of a G-structure|torsion freedom]] of this G-structure may be encoded by an auxiliary [[connection on a bundle|connection]], namely a [[Cartan connection]], often called the "[[spin connection]]" in this context. Hence while in the formulation of [[Cartan geometry]] gravity is described by many of the ingredients from [[differential geometry]] that also govern pure gauge theory, it's not quite the same. In particular there is a constraint on a [[Cartan connection]], which in terms of [[vielbein]] fields is the contraint that the vielbein (which is part of the Cartan connection) is non-degenerate, and hence really a "[[soldering form]]". Such a constraint is absent in a "genuine" gauge theory such as [[Yang-Mills theory]] or [[Chern-Simons theory]].
 
 ## Properties
 
