@@ -24,7 +24,7 @@ A _module spectrum_ is a [[module]] over a [[ring spectrum]]. As for [[ring spec
 
 A _homotopy module spectrum_ over a [[homotopy commutative ring spectrum]] is a [[module object]] in the [[stable homotopy category]] equipped with its derived [[smash product of spectra]].
 
-On the other hand if "ring spectrum" means [[E-∞ ring]] (or [[A-∞ ring]]) then a module over a ring specturm is  a [[module over an algebra over an (∞,1)-operad]] for the [[commutative operad]]:
+On the other hand if "ring spectrum" means [[E-∞ ring]] (or [[A-∞ ring]]) then a module over a ring spectrum is  a [[module over an algebra over an (∞,1)-operad]] for the [[commutative operad]]:
 
 for $R$ an [[E-∞ ring]] (an [[algebra over an (∞,1)-operad|∞-algebra]] over [[Comm]]), an $R$-module spectrum is a [[spectrum]] equipped with an $R$-[[action]].
 
