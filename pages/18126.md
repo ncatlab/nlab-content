@@ -9839,7 +9839,7 @@ For the first statement, we need to show that if $C \subset X$ is a [[closed sub
 
 Now
 
-1. since [[closed subsets of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) it follows that $C \subset X$ is also compact;
+1. since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) it follows that $C \subset X$ is also compact;
 
 1. since [[continuous images of compact spaces are compact]] (cor. \ref{ContinuousImageOfACompactSpaceIsCompact}) it then follows that $f(C) \subset Y$ is compact;
 
@@ -9853,7 +9853,7 @@ Now
 
 1. since [[pre-images]] under continuous functions of closed subsets are closed (prop. \ref{ClosedSubsetContinuity}), also $f^{-1}(C) \subset X$ is closed;
 
-1. since [[closed subsets of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), it follows that $f^{-1}(C)$ is compact.
+1. since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), it follows that $f^{-1}(C)$ is compact.
 
 =--
 
@@ -10057,7 +10057,7 @@ which are disjoint, $U_{y_1} \cap U_{y_2} = \emptyset$.
 
 First notice that the [[singleton]] subsets $\{x\}, \{y\} \in Y$ are closed. This is because they are images
 of singleton subsets in $X$, by surjectivity of $f$, and because singletons in a Hausdorff space are closed
-by prop, \ref{TnImplications} and prop. \ref{T1InTermsOfTopologicalClosure}, and because images under $f$ of 
+by prop, \ref{TnImplications} and prop. \ref{T1InTermsOfTopologicalClosure}, and because images under $f$ of
 closed subsets are closed, by the assumption that $f$ is a closed map.
 
 It follows that the [[pre-images]]
@@ -10973,6 +10973,62 @@ This way differential and smooth manifolds are the basis for much of [[different
 
 $\,$
 
+In the discussion of [[locally Euclidean spaces]] (def. \ref{LocallyEuclideanSpace} below), as well as in other contexts,
+a definition of local compactness that is slightly weaker
+than def. \ref{LocallyCompactSpace} is useful:
+
+
++-- {: .num_defn #LocalCompactnessViaCompactNeighbourhoodBase}
+###### Definition
+**(local compactness via compact neighbourhood base)**
+
+A [[topological space]] is _[[locally compact topological space|locally compact]]_ if for
+for every point $x \in X$ every [[open neighbourhood]] $U_x \supset \{x\}$ contains a [[compact topological space|compact]] [[neighbourhood]] $K_x \subset U_x$.
+
+=--
+
++-- {: .num_prop #InHausdorffSpacesDefinitionsOfLocalCompactnessAgree}
+###### Proposition
+**(equivalence of definitions of local compactness for Hausdorff spaces)**
+
+If $X$ is a [[Hausdorff topological space]], then the two definitions of [[locally compact topological space|local compactness]]
+of $X$
+
+1.  definition \ref{LocalCompactnessViaCompactNeighbourhoodBase} (every open neighbourhood contains a compact neighbourhood)
+
+1. definition \ref{LocallyCompactSpace} (every open neighbourhood contains a compact neighbourhood that is the topological closure of an open neighbourhood)
+
+are equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Generally definition \ref{LocallyCompactSpace} implies definition \ref{LocalCompactnessViaCompactNeighbourhoodBase}. We need to show that Hausdorffness implies the converse.
+
+Hence assume that for every point $x \in X$ then every open neighbourhood $U_x \supset \{x\}$ contains a compact neighbourhood. We need to show that it then also contains the closure $Cl(V_x)$ of a smaller open neighbourhood and such that this closure is compact.
+
+So let $K_x \subset U_x$ be a compact neighbourhood. Being a neighbourhood, it has a non-trivial [[interior]] which is an open neighbouhood
+
+$$
+  \{x\} \subset Int(K_x) \subset K_x \subset U_x \subset X
+  \,.
+$$
+
+Since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}), it follows that $K_x \subset X$ is a closed subset. This implies that the [[topological closure]] of its interior as a subset of $X$ is still contained in $K_x$ (since the topological closure is the smallest closed subset containing the given subset, by def. \ref{def. \ref{ClosedSubset}}): $Cl(Int(K_x)) \subset K_x$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace}), $Cl(Int(K_x))$ is also closed as a subset of the compact subspace $K_x$.
+Now since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), it follows that this closure is also compact as a subspace of $K_x$, and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}), it finally follows that it is also compact as a subspace of $X$:
+
+$$
+  \{x\} \subset Int(K_x) \subset \underset{\text{compact}}{Cl(Int(K_x))} \subset \underset{}{K_x} \subset U_x \subset X
+  \,.
+$$
+
+
+=--
+
+
+
 +-- {: .num_defn #LocallyEuclideanSpace}
 ###### Definition
 **([[locally Euclidean topological space]])**
@@ -10993,21 +11049,36 @@ $$
 
 The "local" [[topological properties]] of Euclidean space are inherited by locally Euclidean spaces:
 
+The "local" [[topological properties]] of Euclidean space are inherited by locally Euclidean spaces:
+
 +-- {: .num_prop}
 ###### Proposition
-**([[locally Euclidean spaces]] are $T_1$)**
+**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|seprated]] and [[locally compact topological space|locally compact]])**
 
-Every [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) satisfies the $T_1$ [[separation axiom]];
+Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then
+
+1. $X$ satisfies the $T_1$ [[separation axiom]] (def. \ref{HausdorffTopologicalSpace});
+
+1. $X$ is [[locally compact topological space|locally compact]] according to def. \ref{LocalCompactnessViaCompactNeighbourhoodBase}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
+Regarding the first statement:
 
 Let $x \neq y$ be two distinct points in the locally Euclidean space. We need to show that there is an open neighbourhood $U_x$ around $x$ that does not contain $y$.
 
-By definition there is a Euclidean open neighbourhood $E_x$ around $y$. If this does not contain $y$, then we may choose $U_x \coloneqq E_x$. If it does, then $x \neq y$ are equivalently two distinct point in this Euclidean space $E_x \simeq \mathbb{R}^n$. But Euclidean space, as every [[metric space]], is $T_1$, and hence we may find an open neighbourhood $U_x \subset E_x$ not intersecting $y$.
+By definition, there is a Euclidean open neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_x \subset X$ around $x$. If $U_x$ does not contain $y$, then it already is an open neighbourhood as required. If $U_x$ does contain $y$, then $\phi^{-1}(x) \neq \phi^{-1}(y)$ are equivalently two distinct points in $\mathbb{R}^n$. But Euclidean space, as every [[metric space]], is $T_1$ (example \ref{HausdorffMetricSpace}, prop. \ref{TnImplications}), and hence we may find an open neighbourhood $V_{\phi^{-1}(x)} \subset \mathbb{R}^n $ not containing $\phi^{-1}(y)$. By the nature of the [[subspace topology]], $\phi(V_{\phi^{-1}(x)}) \subset X$ is an open neighbourhood as required.
+
+Regarding the second statement:
+
+Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. We need to find a compact nighbourhood $K_x \subset U_x$.
+
+By assumption there exists a Euclidean open neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$. By definition of the [[subspace topology]] the intersection $U_x \cap V_x$ is still open as a subspace of $V_x$ and hence $\phi^{-1}(U_x \cap V_x)$ is an open neighbourhood of $\phi^{-1}(x)  \in \mathbb{R}^n$.
+
+Since Euclidean spaces are locally compact, there exists a compact neighbourhood $K_{\phi^{-1}(x)} \subset \mathbb{R}^n$ (for instance a sufficiently small [[closed ball]] around $x$, which is compact by the [[Heine-Borel theorem]]). Now since [[continuous images of compact spaces are compact]], it follows that also $\phi(K) \subset X$ is a compact neighbourhood.
 
 =--
 
