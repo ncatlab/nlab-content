@@ -336,7 +336,7 @@ Observe that the [[forgetful functor]] $U\colon R Mod \to AbGp$ has both a [[lef
 +-- {: .num_prop}
 ###### Proposition
 
-For $R = k$ a [[field]], hence $R$[[Mod]] = $k$[[Vect]], ever object is both injective as well as [[projective object|projective]].
+For $R = k$ a [[field]], hence $R$[[Mod]] = $k$[[Vect]], every object is both injective as well as [[projective object|projective]].
 
 =--
 
