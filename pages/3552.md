@@ -316,7 +316,7 @@ This appears for instance as corollary 1.26 in
 ###### Corollary
 
 
-It follows that if $(\wedge^^\bullet V^{*}, d)$ is a minimal Sullivan model for $X$, then the rational homotopy groups of $X$ can be read off from the generators $V$:
+It follows that if $(\wedge^\bullet V^{*}, d)$ is a minimal Sullivan model for $X$, then the rational homotopy groups of $X$ can be read off from the generators $V$:
 
 $$
   \pi_\bullet(X) \otimes \mathbb{Q} \simeq V
