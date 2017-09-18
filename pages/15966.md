@@ -49,9 +49,13 @@ that the theory of $D$-modules without denominators, or in characteristic $p$,
 lacks of a good notion of de Rham cohomology: the usual definition of it gives
 etale cohomology with $k$-coefficients on an algebraically closed field $k$ of characteristic $p$ (Ogus' article on the infinitesimal site). There is also not yet a
 clear idea of what the analog of $\mathbb{R}$-constructible coefficients could
-be on a general global analytic space. For example, if one mimicks the approach of Kashiwara and Schapira in the characteristic $p$ setting, one has to replace
+be on a general global analytic space.
+
+For example, if one mimicks the approach of Kashiwara and Schapira in the characteristic $p$ setting, one has to replace
 $\mathbb{C}/\mathbb{R}$ by $\bar{\mathbb{F}}_p/\mathbb{F}_p$, which is an infinite extension. The natural analog in this situation of the elliptic pair
 $(\mathcal{O}_X,\mathbb{C}_M)$ associated to $M/\mathbb{R}$, for $M/\mathbb{F}_p$ a projective smooth variety, has de Rham cohomology an $\bar{\mathbb{F}}_p$-module that doesn't seem to be finite dimensional.
+
+Two approaches to $\mathcal{D}$-modules in characteristic $p$ were developed by Berthelot and Mebkhout-Narvaez-Macarro. One may try to extend this last approach (using weak formal schemes over $\mathbb{Z}_p$) to a global base.
 
 ## Pursuing global analytic trace kernels
 
