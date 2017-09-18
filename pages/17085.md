@@ -29,7 +29,7 @@ A [[homomorphism]] $f \colon E_1 \longrightarrow E_2$ between two [[G-spectra]],
 
 1. For each $V\in \mathcal{U}$ the component map $f_V \colon f$ induces ordinary [[weak homotopy equivalences]] $(E_1)_V^H \to (E_2)_V^H$ on all [[fixed point]] spaces for all closed [[subgroups]] $H \hookrightarrow G$.
 
-1. For each $n \in \mathbb{Z}$ and each closed subgroup $H \hookrightarrpw G$ the morphism $f$ induces an [[isomorphism]] of [[Mackey functors]] of [[equivariant homotopy groups]] $\pi_n^H(E_1) \stackrel{\simeq}{\longrightarrow} \pi_n^H(E_2)$.
+1. For each $n \in \mathbb{Z}$ and each closed subgroup $H \hookrightarrow G$ the morphism $f$ induces an [[isomorphism]] of [[Mackey functors]] of [[equivariant homotopy groups]] $\pi_n^H(E_1) \stackrel{\simeq}{\longrightarrow} \pi_n^H(E_2)$.
 
 The $G$-equivariant stable homotopy category is the [[homotopy category]] of [[G-spectra]] with respect to these weak equivalences.
 
