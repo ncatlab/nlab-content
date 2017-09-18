@@ -15,59 +15,36 @@
 * table of contents
 {:toc}
 
-## Statement
+## Statement and Proof
 
 +-- {: .num_prop }
 ###### Proposition
 
-Every [[CW-complex]] is a [[paracompact Hausdorff space]].
+Every [[CW-complex]] is a *paracompactum*, i.e., a [[paracompact Hausdorff space]].
 
 =--
 
-For a textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90). Below we describe a somewhat more categorically minded approach. 
-
-### Points are closed in CW-complexes 
-
-+-- {: .num_lemma #CWComplexesAreT1}
-###### Lemma 
-
-Every [[CW-complex]] $X$ satisfies the $T_1$ [[separation property]] that [[singletons]] are [[closed subsets]]. 
-
-=--
+For one textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90). Below we give a somewhat more categorically minded proof, linking to relevant results elsewhere in the [[nLab]]. 
 
 +-- {: .proof} 
 ###### Proof 
-Let $X_n$ denote the $n^{th}$ skeleton of $X$. We argue by [[induction]] that each skeleton is $T_1$. Vacuously $X_{-1} = \emptyset$ is $T_1$. If $X_{n-1}$ is $T_1$, and $X_n$ is formed as an [[attachment space]] along a map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, so 
+Let $X_n$ denote the $n^{th}$ skeleton of $X$. We argue by [[induction]] that each skeleton is a paracompactum. Vacuously $X_{-1} = \emptyset$ is a paracompactum. Now suppose $X_{n-1}$ is a paracompactum, and suppose $X_n$ is formed as an [[attachment space]] with attaching map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, so that 
 
 $$\array{
-\sum_{i \in I} S_i^{n-1} \hookrightarrow \sum_{i \in I} D_i^{n-1} \\ 
+\sum_{i \in I} S_i^{n-1} & \stackrel{h}{\hookrightarrow} & \sum_{i \in I} D_i^{n-1} \\ 
 \mathllap{f} \downarrow & po & \downarrow \mathrlap{g} \\ 
-X_{n-1} & \hookrightarrow & X_n
+X_{n-1} & \underset{k}{\hookrightarrow} & X_n
 }$$ 
 
-is a pushout square, then any point $x$ of $X_n$ either belongs to the closed subspace $X_{n-1}$ and is closed there by inductive hypothesis, and so is closed in $X_n$, or else $g^{-1}(x)$ is a singleton in the $T_1$ space $\sum_{i \in I} D_i^n$, so that $g^{-1}(x)$ is closed, making $\{x\}$ closed by definition of the [[pushout]] (as a [[quotient space]]). 
+is a pushout square. The embedding $h$ is a closed embedding, and so its pushout along $f$ [is a closed embedding](/nlab/show/subspace+topology#pushout) $k$. Furthermore, the spheres $S_i^{n-1}$ and disks $D_i^n$ are paracompacta since they are compact Hausdorff, and [coproducts of paracompacta are again paracompacta](https://ncatlab.org/nlab/show/paracompact+topological+space#ParacompactnessPreservedByDisjointUnion), making $h$ is a closed embedding of paracompact Hausdorff spaces. By the result on [pushouts of closed embeddings of paracompacta](/nlab/show/colimits+of+paracompact+Hausdorff+spaces#ClosedEmbeddingsOfParacompactaClosedUnderPushout), it now follows that $X_n$ is a paracompactum. 
 
-Then if $X = \bigcup_n X_n$ with the [[colimit]] topology and $x \in X$, each intersection $\{x\} \cap X_n$ is closed in $X_n$, so $\{x\}$ is closed in $X$ by definition of the colimit topology. 
+Thus the CW-complex $X$ is a colimit of a sequence of closed embeddings 
+
+$$X_{-1} \hookrightarrow X_0 \hookrightarrow X_1 \hookrightarrow \ldots$$ 
+
+between paracompacta. [It follows that this colimit is a paracompactum](/nlab/show/colimits+of+paracompact+Hausdorff+spaces#ColimitsOfSequencesOfParacompacta). 
 =-- 
 
-### CW-complexes are paracompact
-
-
-+-- {: .num_prop #CWComplexesAreParacompact}
-###### Proposition
-
-CW-complexes are [[paracompact topological space|paracompact]] and [[Hausdorff space|Hausdorff]].
-
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-First one proves that each $n$-skeleton $X_n$ is paracompact and Hausdorff, by an inductive argument. Here are the ingredients: 
-
-* Spheres $S^{n-1}$ and disks $D^n$ are paracompact and Hausdorff since they are compact and Hausdorff, and coproducts of paracompact Hausdorff spaces are paracompact and Hausdorff. Hence 
-
-More details can be found at [[colimits of paracompact spaces]]. 
-=--
 
 ## Related statements
 
