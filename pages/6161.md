@@ -375,7 +375,12 @@ Section 4.2 in
 
 ### In generalized (co)homology
 
-See the corresponding references at _[[universal coefficient theorem]]_,
+See the corresponding references at _[[universal coefficient theorem]]_.
+
+In the context of [[parameterized spectra]]
+
+* {#MaySigurdsson06} [[Peter May]], J. Sigurdsson, section 22.7 of _[[Parametrized Homotopy Theory]]_, 2006
+
 
 
 [[!redirects Künneth formula]]
