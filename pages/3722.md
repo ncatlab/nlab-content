@@ -35,7 +35,65 @@ A _topological closure operator_ is a Moore closure operator $Cl: P(X) \to P(X)$
 
 ### Basic properties
 
-* [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]
++-- {: .num_prop }
+###### Proposition
+
+[[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]
+
+=--
+
++-- {: .num_prop #ClosureOfAFiniteUnionIsUnionOfTheClosures}
+###### Proposition
+**(closure of a finite union is the union of the closures)**
+
+For $I$ a [[finite set]] and $\{U_i \subset X\}_{i \in I}$ is a finite set of subsets of a topological space, then
+
+$$
+  Cl(\underset{i \in I}{\cup}U_i)
+  =
+  \underset{i \in I}{\cup} Cl(U_i)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use that a point is in th closure of a set precisely if every open neighbourhood of the point intersects the set.
+
+Hence in one direction
+
+$$
+  \underset{i \in I}{\cup} Cl(U_i)
+  \subset
+  Cl(\underset{i \in I}{\cup}U_i)
+$$
+
+because if every neighbourhood of a point intersects all the $U_i$, then every neighbourhood intersects their union.
+
+The other direction
+
+$$
+  Cl(\underset{i \in I}{\cup}U_i)
+  \subset
+  \underset{i \in I}{\cup} Cl(U_i)
+$$
+
+is equivalent by [[de Morgan duality]] to
+
+$$
+  X \setminus 
+  \underset{i \in I}{\cup} Cl(U_i)
+  \subset
+  X \setminus
+  Cl(\underset{i \in I}{\cup}U_i)
+$$
+
+On left now we have the point for which there exists for each $i \in I$ a neighbourhood $U_{x,i}$ which does not intersect $U_i$. Since $I$ is finite, the intersection $\underset{i \in I}{\cap} U_{x,i}$ is still an open neighbourhood of $x$, and such that it intersects none of the $U_i$, hence such that it does not intersect their union. This implis that the given point is contained in the set on the right.
+
+=--
+
 
 
 ### In metric spaces
