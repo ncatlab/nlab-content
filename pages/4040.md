@@ -77,6 +77,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[loop space]], [[path space]]
 
+* [[Zariski topology]]
+
 * [[Cantor space]], [[Sierpinski space]]
 
 * [[long line]], [[line with two origins]]
