@@ -10,16 +10,16 @@
 For a complex variable $x\neq -1,-2,\ldots$, we define $\Gamma(x)$ by the formula 
 
 $$
-\Gamma(x) = \lim_{k\to \infty} \frac{k! k^{x-1}}{(x)^k}
+\Gamma(x) = \lim_{k\to \infty} \frac{k! k^{x-1}}{(x)_k}
 $$
 
-where $(x)^0 =1$ and for positive integer $k = 1,2,\ldots$,
+where $(x)_0 =1$ and for positive integer $k = 1,2,\ldots$,
 
 $$
-(x)^k = x (x+1) (x+2)\cdots (x+ k-1)
+(x)_k = x (x+1) (x+2)\cdots (x+ k-1)
 $$
 
-is the rising factorial. It easily follows that $\Gamma(n+1) = n!$ for natural numbers $n = 0, 1, 2, \ldots$. 
+is the "Pochhammer symbol" (or rising factorial). It easily follows that $\Gamma(n+1) = n!$ for natural numbers $n = 0, 1, 2, \ldots$. 
 
 ## Properties 
 
