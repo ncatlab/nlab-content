@@ -1,13 +1,15 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="225" width="150" src="http://ncatlab.org/davidroberts/files/DavidRoberts2012.jpg" alt="David Roberts - image (c) Peter Fisher, used with permission" title="David Roberts - image (c) Peter Fisher, used with permission"/></div>
 
+I am currently a visiting fellow in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the [University of Adelaide](http://www.maths.adelaide.edu.au/).
 
  I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]]. I have a particular interest in constructing examples in (low-dimensional) [[higher geometry]].
 
-I was a postdoctoral fellow at the [University of Adelaide](http://www.maths.adelaide.edu.au/) from October 2013 to April 2015.
+
+I was a research associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015.
 
 If you need it, here is my email: 
 
-droberts.[fifth and largest-known Fermat prime]@gmail.blahblah
+droberts.[fifth and largest-known [[Fermat prime]] ]@gmail.blahblah
 
 You may also find me on
 
