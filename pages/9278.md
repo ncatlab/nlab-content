@@ -20,9 +20,11 @@
 
 ## Idea
 
-For $\mathfrak{g}$ a [[Lie algebra]] the underlying [[dual vector space]] $\mathfrak{g}^*$ canonically inherits the structure of a [[Poisson manifold]] whose Poisson [[Lie bracket]] reduces on linear functions $\mathfrak{g} \hookrightarrow C^\infty(\mathfrak{g}^*)$ to the original Lie bracket on $\mathfrak{g}$. This is the **Lie-Poisson structure** on $\mathfrak{g}^*$.
+For $\mathfrak{g}$ a [[Lie algebra]] the underlying [[dual vector space]] $\mathfrak{g}^*$ canonically inherits the structure of a [[Poisson manifold]] whose Poisson [[Lie bracket]] reduces on linear functions $\mathfrak{g} \hookrightarrow C^\infty(\mathfrak{g}^*)$ to the original Lie bracket on $\mathfrak{g}$. This is the **Lie-Poisson structure** on $\mathfrak{g}^*$. 
 
 More generally, for $\mathfrak{a}$ a [[Lie algebroid]] the fiberwise dual $\mathfrak{a}^*$ inherits such a Poisson manifold structure.
+
+[[Poisson manifold]] structures of this form are also called _[[linear Poisson structures]]_.
 
 ## Definition
 
@@ -222,6 +224,10 @@ $$
 $$
 
 =--
+
+### Poisson Lie group structure
+
+Under addition a Lie-Poisson manifold becomes a _[[Poisson Lie group]]_, see there for more.
 
 ## Related concepts
 
