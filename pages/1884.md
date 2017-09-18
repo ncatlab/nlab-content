@@ -387,12 +387,12 @@ In summary this says that the assignment of K-groups to topological spaces is a 
 $$
   K(-)
    \;\colon\;
-  Top
+  Top^{op}
     \longrightarrow
   CRing
 $$
 
-from the [[category]] [[Top]] of [[topological space]] to the category [[CRing]] of [[commutative rings]].
+from the [[opposite category]] of the [[category]] [[Top]] of [[topological space]] to the category [[CRing]] of [[commutative rings]].
 
 =--
 
@@ -541,8 +541,9 @@ By the functoriality of the K-groups (remark \ref{FunctorialityOfKGroup}) this i
 
 $$
   const_x^\ast \;\colon\; K(X) \longrightarrow K(\ast)
-  \,.
 $$
+
+given by restricting a virtual vector bundle to the basepoint.
 
 The [[kernel]] of this map is called the _[[reduced K-theory]] group_ of $(X,x)$, denoted
 
@@ -552,6 +553,8 @@ $$
 $$
 
 =--
+
+
 
 +-- {: .num_example #ExpressingPlainKTHeoryGroupInTermsOfReducedKTheoryGroup}
 ###### Example
@@ -595,6 +598,95 @@ By example \ref{KGroupOfThePoint} we have that
    $$
 
 =--
+
+
++-- {: .num_defn #VanishingAtInfinity}
+###### Remark
+**([[vanishing at infinity]])
+
+If $X$ is a [[locally compact topological space|locally compact]] [[Hausdorff space]], then a [[continuous function]]
+
+$$
+  f \;\colon\; X \longrightarrow \mathbb{R}
+$$
+
+is said to [[vanishing at infinity|vanish at infinity]] if it [[extension|extends]] by zero 
+to the [[one-point compactification]] $X^* \coloneqq (X \sqcup \{\infty\}, \tau_{cpt})$
+
+$$
+  \array{
+    X &\overset{f}{\longrightarrow}& \mathbb{R}
+    \\
+    \downarrow & \nearrow_{\mathrlap{ x \mapsto \left\{ \array{ f(x) &\vert& x \in X \\ 0 &\vert& x = \infty }  \right. }}
+    \\
+    X^\ast
+  }
+$$
+
+Now the [[one-point compactification]] $X^\ast$ is a [[compact Hausdorff space]]
+(by [this prop. ](one-point+compactification#OnePointExtensionIsCompact) and [this prop.](one-point+compactification#HausdorffOnePointCompactification))
+and canonically a [[pointed topological space]] with basepoint the element $\infty \in X^\ast$.
+
+Moreover, every [[compact Hausdorff space]] $X$ arises this way as the [[one-point compactification]]
+of the [[complement]] [[subspace]] of any of its points: $X \simeq (X \setminus \{x\})^\ast$ 
+(by [this remark](one-point+compactification#CompactHausdorffSpaceIsCompactificationOfComplementOfAnyPoint)).
+
+Since [[open subspaces of compact Hausdorff spaces are locally compact]],
+this complement [[subspace]] $X \setminus \{x\} \subset X$ is a [[locally compact topological space|locally compact]]
+[[Hausdorff space]], and every locally compact Hausdorff spaces arises 
+this way (by [this prop.](one-point+compactification#InclusionIntoOnePointExtensionIsOpenEmbedding)).
+
+Therefore one may think of the [[reduced K-groups]] $\tilde K(X)$ (def. \ref{KernelReducedKGroup})
+of compact Hausdorff spaces as the those K-groups of locally compact Hausdorff spaces which
+"vanish at infinity".
+
+=--
+
+
++-- {: .num_remark #FunctorialityOfReducedKGroups}
+###### Remark
+**([[functor|functoriality]] of the reduced K-groups)**
+
+By the functoriality of the unreduced K-groups (remark \ref{FunctorialityOfKGroup})
+on (the [[opposite category|opposite]] of) the [[category]] [[Top]] of all topological spaces,
+the reduced K-groups (def. \ref{KernelReducedKGroup}) becomes functorial 
+on the category $Top^{\ast/}$ of _[[pointed topological spaces]]_
+(whose [[morphisms]] are the [[continuous functions]] that preserve the base-point):
+
+$$
+  \tilde K \;\colon\; (Top^{\ast/})^{op} \longrightarrow Ab
+  \,.
+$$
+
+This follows by the functoriality of the [[kernel]] construction
+(which in turn follows by the [[universal property]] of the kernel):
+
+For $(X,x)$ and $(Y,y)$ [[pointed topological spaces]]
+and  $f \colon X \lngrightarrow Y$ a continuous function which preserves basepoints
+$f(x) = y$ then
+
+$$
+  \array{
+     ker(const_x^\ast)
+       &\longrightarrow&
+     K(X)
+       &\overset{const_x^\ast}{\longrightarrow}&
+     K(\{x\})
+     \\
+     \uparrow && \uparrow^{\mathrlap{f^\ast}} && \uparrow^{\mathrlap{f^\ast}}
+     \\     
+     ker(const_y^\ast)
+       &\longrightarrow&
+     K(Y)
+       &\overset{const_x^\ast}{\longrightarrow}&
+     K(\{y\})
+  }
+  \,.
+$$
+
+=--
+
+
 
 
 +-- {: .num_prop #KGrupDirectSummandReducedKGroup}
@@ -656,6 +748,7 @@ $$
 $$
 
 =--
+
 
 In order to describe $\tilde K(X)$ itself as an equivalence class, we consider the followign refinement
 of [[stable equivalence of vector bundles]] (def. \ref{StableEquivalenceOfVectorBundles}):
@@ -863,7 +956,7 @@ The groups are collected to the _graded K-groups_, which are the [[direct sums]]
 
 $$
   \tilde K^\bullet(X)
-    \coloneqq 
+    \coloneqq
   \tilde K^0(X) \oplus \tilde K^1(X)
 $$
 
@@ -881,8 +974,8 @@ regarded as $\mathbb{Z}/2$-graded groups.
 
 
 
-Recall from 
-example \ref{ExpressingPlainKTHeoryGroupInTermsOfReducedKTheoryGroup} 
+Recall from
+example \ref{ExpressingPlainKTHeoryGroupInTermsOfReducedKTheoryGroup}
 and from example \ref{RelatveKTheoryReducesToBareKTheoryAndToReducedKTheory} the identifications
 of plain, reduced and relative K-groups, which with the degree-zero notation from def. \ref{GradedKGroups}
 read:
@@ -1042,7 +1135,7 @@ $$
   \,.
 $$
 
-Then the induced sequence of [[reduced K-theory]] groups (by functoriality, remark \ref{FunctorialityOfKGroup})
+Then the induced sequence of [[reduced K-theory]] groups (by functoriality, remark \ref{FunctorialityOfReducedKGroups})
 
 $$
   \tilde K_{\mathbb{C}}(X/A)
@@ -1106,7 +1199,7 @@ where $\Sigma(-)$ denotes [[reduced suspension]].
 +-- {: .proof}
 ###### Proof
 
-The sequence is induced by functoriality (remark \ref{FunctorialityOfKGroup}) from the long [[cofiber sequence]]
+The sequence is induced by functoriality (remark \ref{FunctorialityOfReducedKGroups}) from the long [[cofiber sequence]]
 
 $$
   A
@@ -1144,7 +1237,7 @@ We discuss some useful consequences of the [[long exact sequences in cohomology]
 ###### Proposition
 **([[direct sum]] decomposition of K-theory groups over [[retractions]])**
 
-Let $X$ be a ([[pointed topological space|pointed]]) [[compact topological space]] 
+Let $X$ be a ([[pointed topological space|pointed]]) [[compact topological space]]
 and $A \subset X$ a ([[pointed topological space|pointed]]) [[closed subspace]], such that the
 [[subspace]] inclusion $A \overset{i}{\to}$ X as a [[retraction]], i.e. a [[continuous function]]
 $r \colon X \to A$ such that the [[composition|composite]]
@@ -1152,7 +1245,7 @@ $r \colon X \to A$ such that the [[composition|composite]]
 $$
   id_A
     \;\colon\;
-  A 
+  A
     \overset{i}{\longrightarrow}
   X
     \overset{r}{\longrightarrow}
@@ -1188,7 +1281,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The long exact sequence from cor \ref{LongExactSequenceInReducedTopologicalKTheory} together 
+The long exact sequence from cor \ref{LongExactSequenceInReducedTopologicalKTheory} together
 with the retraction yields
 
 $$
@@ -1316,7 +1409,7 @@ $$
   \,.
 $$
 
-By functoriality (remark \ref{FunctorialityOfKGroup}) this implies that similarly
+By functoriality (remark \ref{FunctorialityOfReducedKGroups}) this implies that similarly
 
 $$
   id_{\tilde K(X)}
@@ -1374,7 +1467,7 @@ $$
 induces on K-groups an _external product_
 
 $$
-  \boxtimes  
+  \boxtimes
     \;\colon\;
   K(X) \oplus K(Y)
     \longrightarrow
@@ -1384,7 +1477,7 @@ $$
 
 =--
 
-We want to see that this restricts to an operation on [[reduced K-theory]]. 
+We want to see that this restricts to an operation on [[reduced K-theory]].
 To this end we need the following proposition:
 
 
@@ -1512,7 +1605,7 @@ It follows that:
 ###### Proposition
 **(external product on reduced K-groups)**
 
-Let $X$ and $Y$ be [[pointed topological space|pointed]] [[compact Hausdorff spaces]]. 
+Let $X$ and $Y$ be [[pointed topological space|pointed]] [[compact Hausdorff spaces]].
 Then the external product on K-groups (def. \ref{ExternalTensorProductInKTheory})
 restricts to [[reduced K-groups]] under the inclusion $\tilde K(-) \hookrightarrow K(-)$
 from prop. \ref{KGrupDirectSummandReducedKGroup} and the inclusion $\tilde K(-\wedge -) \hookrightarrow K(-\times -)$
@@ -1538,7 +1631,7 @@ $$
 ###### Proof
 
 By prop. \ref{KGrupDirectSummandReducedKGroup} the elements in $\tilde K(X)$ and $\tilde K(Y)$
-are represented by [[virtual vector bundles]] which vanish when restricted to the base points 
+are represented by [[virtual vector bundles]] which vanish when restricted to the base points
 $x \in X$ and $y \in Y$, respectively. But this implies that their [[external tensor product of vector bundles]]
 vanishes over $X \times \{y\}$ and $\{x\} \times Y$. From the proof of prop. \ref{ReducedKTheoryOfProductSpace}
 it is the restriction of the product to to these subspaces that gives the map
@@ -1546,9 +1639,9 @@ it is the restriction of the product to to these subspaces that gives the map
 
 $$
   K(X \times Y) \simeq \tilde K(X \times Y) \oplus \tilde K(X) \oplus \tilde K(Y)
-    \longrightarrow 
+    \longrightarrow
   \tilde K(X) \oplus \tilde K(Y)
-$$ 
+$$
 
 and hence on these element this component vanishes.
 
@@ -1611,7 +1704,7 @@ $$
   }
 $$
 
-to the topological K-theory ring of the [[product topological space]] $X \times S^2$, 
+to the topological K-theory ring of the [[product topological space]] $X \times S^2$,
 where the second map $\boxtimes$ is the external product from def. \ref{ExternalTensorProductInKTheory}.
 
 +-- {: .num_prop #FundamentalProductTheorem}
@@ -1648,7 +1741,7 @@ For $X = \ast$ the product theorem prop. \ref{FundamentalProductTheorem} says in
 ###### Corollary
 **([[external product theorem in topological K-theory]])**
 
-For $X$ a [[compact Hausdorff space]] we have that the external product in K-theory $\boxtimes$ (def. \ref{ExternalTensorProductInKTheory}) 
+For $X$ a [[compact Hausdorff space]] we have that the external product in K-theory $\boxtimes$ (def. \ref{ExternalTensorProductInKTheory})
 with vector bundles on the [[2-sphere]]
 
 $$
@@ -1676,7 +1769,7 @@ When restricted to [[reduced K-theory]] then the external product theorem (cor. 
 
 Let $X$ be a  [[pointed topological space|pointed]] [[compact Hausdorff space]].
 
-Then the external product $\tilde X$ in reduced K-theory (prop. \ref{ExternalTensorProductInKTheory}) 
+Then the external product $\tilde X$ in reduced K-theory (prop. \ref{ExternalTensorProductInKTheory})
 with the image of the [[basic line bundle on the 2-sphere]] in reduced K-theory yields an [[isomorphism]] of [[reduced K-groups]]
 
 $$
@@ -1887,7 +1980,7 @@ We discuss how the [[classifying space]] for $\tilde K^0$ is the [[delooping]] o
 +-- {: .num_defn #BUn}
 ###### Definition
 
-For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ and $O(n)$ for the [[orthogonal group]] 
+For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ and $O(n)$ for the [[orthogonal group]]
 in dimension $n$, both regarded as [[topological groups]] in the standard way. Write $B U(n) , B O(n)\in$ [[Top]] $ for the corresponding [[classifying space]].
 
 Write
