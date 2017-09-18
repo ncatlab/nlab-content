@@ -897,8 +897,8 @@ Given any object $X$ with a base point $x \colon \ast \to X$, then the [[loop sp
 
 
 
-+-- {: .num_remark}
-###### Theorem
++-- {: .num_prop}
+###### Proposition
 
 The [[looping]] operation of example \ref{LoopSpaceObjectAsGroupObject} constitutes an [[equivalence of (∞,1)-categories]]
 
