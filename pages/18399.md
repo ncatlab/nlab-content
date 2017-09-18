@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Manifolds and cobordisms
++-- {: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[differential topology]] the _connected sum_ of two [[manifolds]] equipped with a common [[submanifold]] is the result of gluing them along their [[boundaries]] of the [[tubular neighbourhoods]] of this submanifold.
+
+Often this concept is considered by default for the case that the given submanifold is the [[point space]]. In this case the correspinding neighbourhoods are [[balls]] with [[boundary]] [[n-spheres]] along which the two manifolds are being glued.
+
+## Related entries
+
+* [[exotic smooth structure]]
+
+[[!redirects connected sums]]
