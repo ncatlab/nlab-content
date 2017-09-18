@@ -20,7 +20,7 @@ The groups arising this way are called the groups of ADE-type:
 
 ## Related concepts
 
-* [[Johannes Kepler]], [[Music of the Spheres]]
+* [[Johannes Kepler]], _[[Music of the Spheres]]_
 
 * Plato's [[Timaeus]]
 
@@ -41,5 +41,8 @@ See also
 
 [[!redirects Platonic solids]]
 
+[[!redirects Platonic solids]]
+
 [[!redirects platonic solid]]
 [[!redirects platonic solids]]
+
