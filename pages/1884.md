@@ -553,6 +553,29 @@ $$
 
 =--
 
++-- {: .num_example #ExpressingPlainKTHeoryGroupInTermsOfReducedKTheoryGroup}
+###### Example
+**(expressing plain K-groups as reduced K-groups)**
+
+Let $X$ be a [[topological space]]. Write  $X_* \coloneqq X \sqcup \ast$ for its [[disjoint union space]]
+with the [[point space]], and regard this as a [[pointed topological space]] with base point the adjoined point.
+
+Then the reduced K-theory of $X_+$ is the plain K-theory of $X$:
+
+$$
+  \tilde K(X_+)
+    \simeq
+  K(X)
+  \,.
+$$
+
+Because every [[topological vector bundle]] on $X \sqcup \ast$ is the [[direct sum of vector bundles]]
+of one that has [[rank of a vector bundle|rank]] zero on $\ast$
+and one that has rank zero on $X$ ([this example.](direct+sum+of+vector+bundles#DirectSumOnDisjointUnionSpace))
+
+=--
+
+
 +-- {: .num_remark #RestrictionInKTheoryToPointComputesVirtualRank}
 ###### Remark
 **(restriction in K-theory to the point computes virtual rank)**
@@ -748,27 +771,6 @@ hence itself a [[non-unital ring|non-unital]] [[commutative ring]].
 
 =--
 
-+-- {: .num_example #ExpressingPlainKTHeoryGroupInTermsOfReducedKTheoryGroup}
-###### Example
-**(expressing plain K-groups as reduced K-groups)**
-
-Let $X$ be a [[topological space]]. Write  $X_* \coloneqq X \sqcup \ast$ for its [[disjoint union space]]
-with the [[point space]], and regard this as a [[pointed topological space]] with base point the adjoined point.
-
-Then the reduced K-theory of $X_+$ is the plain K-theory of $X$:
-
-$$
-  \tilde K(X_+)
-    \simeq
-  K(X)
-  \,.
-$$
-
-Because every [[topological vector bundle]] on $X \sqcup \ast$ is the [[direct sum of vector bundles]]
-of one that has [[rank of a vector bundle|rank]] zero on $\ast$ 
-and one that has rank zero on $X$ ([this example.](direct+sum+of+vector+bundles#DirectSumOnDisjointUnionSpace))
-
-=--
 
 
 ### The relative K-group
@@ -824,11 +826,11 @@ The (reduced) K-theory groups of reduced suspensions of pointed space are called
 ###### Definition
 **(graded K-groups)**
 
-For $X$ a [[pointed topologicsl space]] wrtite
+For $X$ a [[pointed topological space]] write
 
 $$
   \tilde K^1(X)
-    \;\coloneq\;
+    \;\colneqq\;
   \tilde K(\Sigma X)
 $$
 
@@ -872,7 +874,7 @@ $$
   K^0(X,A) \oplus K^1(X.A)
 $$
 
-regarded as $\mathbb{Z}/2$-[[graded groups]].
+regarded as $\mathbb{Z}/2$-graded groups.
 
 =--
 
@@ -1349,8 +1351,43 @@ which are [[split exact sequences|split exact]]. This implies the claim.
 
 =--
 
-+-- {: .num_example #ReducedKTheoryOfProductSpace}
-###### Example
+
+### External product
+
++-- {: .num_defn #ExternalTensorProductInKTheory}
+###### Definition
+**(external product in K-theory)**
+
+Let $X$ and $Y$ be [[topological spaces]]. Then the [[external tensor product of vector bundles|external tensor product]]
+of [[topological vector bundles]] over $X$ and $Y$
+
+$$
+  \boxtimes
+    \;\colon\;
+  Vect(X) \times Vect(Y)
+    \longrightarrow
+  Vect(X \times Y)
+$$
+
+induces on K-groups an _external product_
+
+$$
+  \boxtimes  
+    \;\colon\;
+  K(X) \oplus K(Y)
+    \longrightarrow
+  K(X \times Y)
+$$
+
+
+=--
+
+We want to see that this restricts to an operation on [[reduced K-theory]]. 
+To this end we need the following proposition:
+
+
++-- {: .num_prop #ReducedKTheoryOfProductSpace}
+###### Proposition
 **(reduced K-theory of product space)**
 
 Let $(X,x_0)$ $(Y,y_0)$ be two [[pointed topological space|pointed]] [[compact Hausdorff spaces]] with
@@ -1373,7 +1410,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Be definition, the smash product is the [[quotient topological space]] of the [[product topological space]]
+Be definition, the [[smash product]] is the [[quotient topological space]] of the [[product topological space]]
 by the [[wedge sum]]:
 
 $$
@@ -1422,7 +1459,7 @@ reduced topological K-theory of a wedge sum are direct sums of the reduced K-the
 $$
   \tilde K(\Sigma(X \times Y))
     \overset{\Sigma i^\ast}{\longrightarrow}
-  \tilde K(\Sigma X) \plus \tilde K(\Sigma Y)
+  \tilde K(\Sigma X) \oplus \tilde K(\Sigma Y)
     \longrightarrow
   \tilde K( X \wedge Y )
     \longrightarrow
@@ -1467,6 +1504,53 @@ which moreover are [[split exact sequence|split exact]]. This yields the claim.
 
 =--
 
+It follows that:
+
++-- {: .num_prop #ExternalTensorProductOnReducedKGroups}
+###### Proposition
+**(external product on reduced K-groups)**
+
+Let $X$ and $Y$ be [[pointed topological space|pointed]] [[compact Hausdorff spaces]]. 
+Then the external product on K-groups (def. \ref{ExternalTensorProductInKTheory})
+restricts to [[reduced K-groups]] under the inclusion $\tilde K(-) \hookrightarrow K(-)$
+from prop. \ref{KGrupDirectSummandReducedKGroup} and the incusion $\tilde K(-\wedge -) \hookrightarrow K(-\times -)$
+from prop. \ref{ReducedKTheoryOfProductSpace}, in that there is a morphism $\tilde \boxtimes$
+that makes the following [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    \tilde K(X) \oplus \tilde K(Y)
+      &\hookrightarrow&
+    K(X) \oplus K(Y)
+    \\
+    {}^{\mathllap{\tilde \boxtimes}}\downarrow && \downarrow^{\mathrlap{\boxtimes}}
+    \\
+    \tilde K(X \wedge Y) &\hookrightarrow& K(X \times Y)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{KGrupDirectSummandReducedKGroup} the elements in $\tilde K(X)$ and $\tilde K(Y)$
+are represented by [[virtual vector bundles]] which vanish when restricted to the base points 
+$x \in X$ and $y \in Y$, respectively. But this implies that their [[external tensor product of vector bundles]]
+vanishes over $X \times \{y\}$ and $\{x\} \times Y$. From the proof of prop. \ref{ReducedKTheoryOfProductSpace}
+it is the restriction of the product to to these subspaces that gives the map
+
+
+$$
+  K(X \times Y) \simeq \tilde K(X \times Y) \oplus \tilde K(X) \oplus \tilde K(Y)
+    \longrightarrow 
+  \tilde K(X) \oplus \tilde K(Y)
+$$ 
+
+and hence on these element this component vanishes.
+
+=--
 
 
 
@@ -1524,7 +1608,8 @@ $$
   }
 $$
 
-to the topological K-theory ring of the [[product topological space]] $X \times S^2$, where the second map $\boxtimes$ is the [[external tensor product of vector bundles]].
+to the topological K-theory ring of the [[product topological space]] $X \times S^2$, 
+where the second map $\boxtimes$ is the external product from def. \ref{ExternalTensorProductInKTheory}.
 
 +-- {: .num_prop #FundamentalProductTheorem}
 ###### Proposition
@@ -1560,7 +1645,8 @@ For $X = \ast$ the product theorem prop. \ref{FundamentalProductTheorem} says in
 ###### Corollary
 **([[external product theorem in topological K-theory]])**
 
-For $X$ a [[compact Hausdorff space]] we have that the [[external tensor product of vector bundles]] with vector bundles on the [[2-sphere]]
+For $X$ a [[compact Hausdorff space]] we have that the external product in K-theory $\boxtimes$ (def. \ref{ExternalTensorProductInKTheory}) 
+with vector bundles on the [[2-sphere]]
 
 $$
   \boxtimes
@@ -1587,7 +1673,8 @@ When restricted to [[reduced K-theory]] then the external product theorem (cor. 
 
 Let $X$ be a  [[pointed topological space|pointed]] [[compact Hausdorff space]].
 
-Then there is an [[isomorphism]] of [[reduced K-theory]]
+Then the external product $\tilde X$ in reduced K-theory (prop. \ref{ExternalTensorProductInKTheory}) 
+with the image of the [[basic line bundle on the 2-sphere]] in reduced K-theory yields an [[isomorphism]] of [[reduced K-groups]]
 
 $$
   (h-1)
@@ -1601,7 +1688,7 @@ from that of $X$ to that of its double [[suspension]] $\Sigma^2 X$.
 
 =--
 
-[e.g. Wirthmuller 12, p. 34 (36 f 67)](#Wirthmuller12)
+[e.g. Wirthmuller 12, p. 34 (36 of 67)](#Wirthmuller12)
 
 +-- {: .proof}
 ###### Proof
@@ -1721,7 +1808,8 @@ We discuss how the [[classifying space]] for $\tilde K^0$ is the [[delooping]] o
 +-- {: .num_defn #BUn}
 ###### Definition
 
-For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ and $O(n)$ for the [[orthogonal group]] in dimension $n$, both regarded as [[topological group]]s in the standard way. Write $B U(n) , B O(n)\in$ [[Top]] $ for the corresponding [[classifying space]].
+For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ and $O(n)$ for the [[orthogonal group]] 
+in dimension $n$, both regarded as [[topological groups]] in the standard way. Write $B U(n) , B O(n)\in$ [[Top]] $ for the corresponding [[classifying space]].
 
 Write
 
