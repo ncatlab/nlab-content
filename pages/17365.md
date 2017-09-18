@@ -467,15 +467,15 @@ For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
 
    1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$
 
-   1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma_n)$.
+   1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma^X_n)$.
 
 1. the **alternative looping** of $X$ is the sequential spectrum $\Omega X$ with
 
    1. $(\Omega X)_n \coloneqq Maps(S^1,X_n)_\ast$;
 
-   1. $\tilde \sigma_n^{\Omega X} \coloneqq Maps(S^1,\sigma_n)_\ast$.  
+   1. $\tilde \sigma_n^{\Omega X} \coloneqq Maps(S^1,\tilde \sigma^X_n)_\ast$.  
 
-Here $\tilde \Sigma_n$ denotes the $(\Sigma\dashv \Omega)$-[[adjunct]] of $\sigma_n$.
+Here $\tilde \sigma_n$ denotes the [[adjunct]] of $\sigma_n$.
 
 =--
 
