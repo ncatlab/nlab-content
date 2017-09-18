@@ -25,11 +25,12 @@
 
 _Rational [[equivariant stable homotopy theory]]_ is the study of [[equivariant spectra]] just on the level of their [[rationalization]], hence concerning only their non-[[torsion subgroup|torsion]] [[homotopy groups]]. This is the [[equivariant cohomology|equivariant]] and [[stable homotopy theory|stable]] version of [[rational homotopy theory]].
 
-A key general statement of the theory is that rationally the [[homotopy theory]] of $G$-equivariant spectra is equivalently given by [[homological algebra]] of [[Mackey functors]] (even for non-[[finite group|finite]] $G$). At the more refined level of [[equivalence of categories|equivalences]] of [[homotopy categories]] this was established by [[John Greenlees]], at the level of [[zig-zags]] of [[Quillen equivalences]] of [[model categories]] this was established by his students, [[David Barnes]] and [[Magdalena Kedziorek]].
+A key general statement of the theory is that rationally the [[homotopy theory]] of $G$-equivariant spectra is equivalently given by [[homological algebra]] of [[Mackey functors]] (even for non-[[finite group|finite]] $G$). At the level of [[equivalence of categories|equivalences]] of [[homotopy categories]] this was established by [[John Greenlees]], at the level of [[zig-zags]] of [[Quillen equivalences]] of [[model categories]] this was established Greenlees and by his students, [[David Barnes]] and [[Magdalena Kedziorek]].
 
 ## Properties
 
 ### Splitting into Mackey functors
+ {#SplittingIntoMackeyFunctors}
 
 Let $G$ be a [[finite group]]. For $X$ a [[G-spectrum]], write $\pi_\bullet(X) \in \mathcal{M}[G]$ for its [[Mackey functor]], the one which sends $G/H$ to the $H$-equivariant homotopy groups of $X$. For $X,Y$ two $G$-spectra, there is a canonical morphism
 
