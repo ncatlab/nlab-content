@@ -50,7 +50,7 @@ $$
     \underoverset
       {\underset{Fib}{\longrightarrow}}
       {\overset{Rec}{\longleftarrow}}
-      {}
+      {\simeq}
   Set^{\Pi_1(X)}
 $$
 
@@ -61,6 +61,8 @@ between the [[category of covering spaces]], and the category  of [[permutation 
 
 +-- {: .proof}
 ###### Proof
+
+With the standard definitions of the two functors, both are infact inverse [[isomorphisms]] of categories instead of just [[equivalences of categories]] (meaning that the required [[natural isomorphisms]] from the composites of the two functors to the [[identity functor]] are componentwise [[equalities]]), which establishes the claim right away. For definiteness, we make this explicit:
 
 Given $\rho \in Set^{\Pi_1(X)}$ a [[permutation representation]],
 we need to exhibit a [[natural isomorphism]] of permutation representations.
@@ -79,7 +81,7 @@ $$
   \,.
 $$
 
-To similarly understand the value of $Fib(Rec(\rho))$ on morphisms $[\gamma] \in \Pi_1(X)$, let $\gamma \colon [0,1] \to X$ be a representing [[path]] in $X$. We find, by the [[Lebesgue number lemma]] as in the proof of [this lemma](covering space#CoveringSpacePathLifting), a [[finite number]] of paths $\{\gamma_i\}_{i \in \{1,n\}}$ such that 
+To similarly understand the value of $Fib(Rec(\rho))$ on morphisms $[\gamma] \in \Pi_1(X)$, let $\gamma \colon [0,1] \to X$ be a representing [[path]] in $X$. As in the proof of the path lifting lemma for covering spaces ([this lemma](covering+space#CoveringSpacePathLifting)) we find a [[finite number]] of paths $\{\gamma_i\}_{i \in \{1,n\}}$ such that 
 
 1. regarded as morphisms $[\gamma_i]$ in $\Pi_1(X)$ they [[composition|compose]] to $[\gamma]$:
 
@@ -104,6 +106,41 @@ $$
 
 to be the above identification, then this is a [[natural transformation]] and hence in a particular a natural isomorphism, as required.
 
+It remains to see that these morphisms $\eta_\rho$ are themselves natural in $\rho$, hence that for each morphism $\phi \colon \rho \to \rho'$ the diagram
+
+
+$$
+  \array{
+    \rho &\overset{\phi}{\longrightarrow}& \rho'
+    \\
+    {}^{\mathllap{eta_\rho}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\eta_{\rho'}}}
+    \\
+    Fib(Rec(\rho))
+    &\underset{Fib(Rec(\phi))}{\longrightarrow}&
+    Fib(Rec(\rho'))
+  }
+$$
+
+commutes as a diagram in $Rep(\Pi_1(X), Set)$. Since these morphisms are themselves groupoid homotopies (natural isomorphisms) this is the case precisely if for all $x \in X$ the corresponding component diagram commutes. But by the above this is 
+
+
+$$
+  \array{
+    \rho(x) &\overset{\phi(x)}{\longrightarrow}& \rho'(x)
+    \\
+    {}^{\mathllap{=}}\downarrow && \downarrow^{\mathrlap{=}}
+    \\
+    Fib(Rec(\rho))(x)
+    &\underset{Fib(Rec(\phi))(x) }{\longrightarrow}&
+    Fib(Rec(\rho'))(x)
+  }
+$$
+
+and hence this means that the top and bottom horizontal morphism are in fact equal. Directz unwiinding of the definitions shows that this is indeed the case.
+
+
 Conversely, given $E \in Cov(X)$ a covering space, we need to exhibit a natural isomorphism of covering spaces of the form
 
 $$
@@ -117,9 +154,10 @@ Again by [this def.](reconstruction+of+covering+spaces+from+monodromy#Elementary
 
 By the assumption that $X$ is [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply connected topological space|semi-locally simply connected]], it is sufficient to check for $U\subset X$ an open path-connected subset and $x \in X$ a point with the property that $\pi_1(U,x) \to \pi_1(X,x)$ lands is constant on the trivial element, that the open subsets of $E$ of the form $U \times \{\hat x\} \subset p^{-1}(U)$ form a basis for the topology of $Rec(Fib(E))$. But this is the case by definition of $Rec$. 
 
-This proves the equivalence. 
+It remains to see that $\epsilon_E$ is itself natural in $E$. But as for the converse direction, since the components of $\epsilon_E$ are in fact equalities, this follows by direct unwinding of the definitions.
 
-(Notice that the assumption of local path-connectedness and semi-local simply-connectedness of $X$ is used only to guarantee that the functor $Rec$ exists in the first place.)
+This establishes an equivalence as required In fact this is an [[adjoint equivalence]].
+
 
 
 =--
