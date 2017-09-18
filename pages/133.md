@@ -170,7 +170,7 @@ Relation to [[cohomology]] is discussed in
 
 Discussion in [[homotopy type theory]]:
 
-* [[Univalent Foundations Project]], section 3.8 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+* {#HoTTBook} [[Univalent Foundations Project]], section 3.8 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 
 
