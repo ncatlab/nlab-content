@@ -1,116 +1,48 @@
-
 $$
-  \begin{aligned}
-    d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})} \; \psi^\alpha
-      & \coloneqq
-      \left(\tfrac{1}{4}\omega^{a b} \Gamma_{a b} \psi \right)^\alpha
-      \\
-      & \coloneqq
-      \left(\tfrac{1}{4} (\Gamma_{a b})^\alpha{}_{\beta} \right) \omega^{a b} \wedge \psi^\beta
+  \array{
+    & \mathbf{\text{Whitehead tower}}
     \\
-    d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})} \; e^a 
-      & \coloneqq \overline{\psi} \wedge \Gamma^a \psi - \omega^a{}_b \wedge e^b
+    &\vdots
     \\
-    & \coloneqq   
-       \left(
-           C_{\alpha \alpha'} {\Gamma^a}^{\alpha'}{}_\beta
-       \right)  
-       \psi^\alpha \wedge \psi^\beta - \omega^a{}_b \wedge e^b
+    & B Fivebrane &\to& \cdots &\to& *
     \\
-  \end{aligned}
-    \,,
+    & \downarrow && && \downarrow
+    \\
+    \mathbf{\text{second frac Pontr. class}} & B String &\to& \cdots &\stackrel{\tfrac{1}{6}p_2}{\to}&  B^8 \mathbb{Z}
+    &\to& * 
+    \\
+    & \downarrow && && \downarrow && \downarrow
+    \\
+    \mathbf{\text{first frac Pontr. class}} & B Spin && && &\stackrel{\tfrac{1}{2}p_1}{\to}& B^4 \mathbb{Z} &\to & * 
+    \\
+    & \downarrow && && \downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{\text{second SW class}} & B S O 
+    &\to&
+    \cdots
+    &\to&
+    &\to&
+    & \stackrel{w_2}{\to} &
+    \mathbf{B}^2 \mathbb{Z}_2
+    &\to&
+    *
+    \\
+    & \downarrow && && \downarrow && \downarrow &&  \downarrow && \downarrow
+    \\
+    \mathbf{\text{first SW class}} & B O 
+    &\to&
+    \cdots
+    &\to&
+    \tau_{\leq 8 } B O
+    &\to&
+    \tau_{\leq 4 } B O
+    &\to&
+    \tau_{\leq 2 } B O
+    &\stackrel{w_1}{\to}&
+    \tau_{\leq 1 } B O
+    \simeq
+    B \mathbb{Z}_2
+    &
+    \mathbf{\text{Postnikov tower}}
+  }
 $$
-
-
-$$
-  \begin{aligned}
-    d_{\mathbb{R}^{d-1,1\vert N}} \; \psi^\alpha & 
-      \coloneqq 
-      0
-    \\
-    d_{\mathbb{R}^{d-1,1\vert N}} \; e^a 
-      & \coloneqq \overline{\psi} \wedge \Gamma^a \psi
-    \\
-    & \coloneqq   \left(C_{\alpha \alpha'} (\Gamma^a)^{\alpha'}{}_\beta\right)  \psi^\alpha \wedge \psi^\beta
-  \end{aligned}
-    \,,
-$$
-
-
-[[TheMTheoryAmoeba.jpg:file]]
-
-[[ComputationWithYoungTableaux.jpg:file]]
-
-[[OldBraneScan.jpg:file]]
-
-$$
-  \begin{aligned}
-    \frac{15}{7}
-    \delta^{a_1 a_6}
-    \delta_{a_6 [a_1}
-    X^{(\mathbf{330})}_{a_2 \cdots a_5]}
-    & =
-    \frac{15}{7}  
-    \delta^{a_1}{}_{[a_1} X^{(\mathbf{330})}_{a_2 \cdots a_5]}
-    \\
-    & =
-    \frac{15}{7}
-    \frac{1}{5!}
-    \sum_{ \left\{\sigma \atop { {\text{permutation of}} \atop {\{1,\cdots , 5\}} } \right\}}
-    (-1)^{\vert \sigma\vert }
-    \delta^{a_1}{}_{a_{\sigma(1)}}
-    X_{a_{\sigma(2)} \cdots a_{(\sigma(5))}}
-    \\
-    & =
-    \frac{15}{7}
-    \frac{1}{5!}
-    \sum_{\left\{\sigma \atop { {\text{permutation of}} \atop {\{1,\cdots , 4\}} } \right\} }
-    (-1)^{\vert \sigma\vert } 
-    \left(  
-      \underset{= 11}{\underbrace{\delta^{a_1}_{a_1}}}
-      X^{(\mathbf{330})}_{a_{\sigma(1)}\cdots a_{\sigma(4)}}
-      -
-      4
-      \delta^{a_1}{}_{a_{\sigma(1)}}
-      X_{a_1 a_{\sigma(2)} \cdots a_{\sigma(4)}}
-    \right) 
-   \\
-   & =
-    \frac{15}{7}
-    (11-4)
-    \frac{1}{5}
-    \underset{X^{(\mathbf{330})}_{a_1\cdots a_4}}{
-    \underbrace{
-    \frac{1}{4!}
-    \sum_{ \left\{ \sigma \atop { {\text{permutation of}} \atop {\{1,\cdots , 4\}} } \right\} }
-    X^{(\mathbf{330})}_{a_{\sigma(1)}\cdots a_{\sigma(4)}}
-    }
-    }
-    \\
-    & =
-    3 X^{(\mathbf{330})}_{a_{\sigma(1)} \cdots a_{\sigma(4)}}
-  \end{aligned}
-$$
-
-
-
-| Name | Condition for nearness | Condition for apartness | Condition for proximal neighbourhoods | Condition for proximal unions |
-| - | - | - | - | - |
-| Isotony (left) | If $A \supseteq B \;\delta\; C$, then $A \;\delta\; C$ | If $A \subseteq B \bowtie C$, then $A \bowtie C$ | If $A \subseteq B \ll C$, then $A \ll C$ | If $A\subseteq B$ and $A\Cup C = X$, then $B\Cup C = X$ |
-| Isotony (right) | If $B \;\delta\; C \subseteq D$, then $B \;\delta\; D$ | If $B \bowtie C \supseteq D$, then $B \bowtie D$ | If $B \ll C \subseteq D$, then $B \ll D$ | If $B\subseteq C$ and $A\Cup B = X$, then $A\Cup C = X$ |
-| Additivity (left, nullary) | It is false that $\emptyset \;\delta\; A$ | $\emptyset \bowtie A$ | $\emptyset \ll A$ | $X\Cup A = X$ |
-| Additivity (right, nullary) | It is false that $A \;\delta\; \emptyset$ | $A \bowtie \emptyset$ | $A \ll X$ | $A \Cup X = X$ |
-| Additivity (left, binary) | If $A \cup B \;\delta\; C$, then $A \;\delta\; C$ or $B \;\delta\; C$ | If $A \bowtie C$ and $B \bowtie C$, then $A \cup B \bowtie C$ | If $A \ll C$ and $B \ll C$, then $A \cup B \ll C$ | If $A\Cup C = X$ and $B\Cup C = X$, then $(A\cap B)\Cup C = X$ |
-| Additivity (right, binary) | If $A \;\delta\; B \cup C$, then $A \;\delta\; B$ or $A \;\delta\; C$ | If $A \bowtie B$ and $A \bowtie C$, then $A \bowtie B \cup C$ | If $A \ll B$ and $A \ll C$, then $A \ll B \cap C$ | If $A\Cup B = X$ and $A\Cup C = X$, then $A\Cup (B\cap C) = X$ |
-| Reflexivity (general) | If $A$ meets $B$ (their [[intersection]] is [[inhabited subset|inhabited]]), then $A \;\delta\; B$ | If $A \bowtie B$, then $A$ and $B$ are [[disjoint set|disjoint]] | If $A \ll B$, then $A \subseteq B$ | If $A\Cup B = X$, then $A\cup B = X$ |
-| Reflexivity (for singletons) | $\{x\} \;\delta\; \{x\}$ | It is false that $\{x\} \bowtie \{x\}$ | If $\{x\} \ll A$, then $x \in A$ | If $\{x\}^{\mathsf{c}} \Cup A = X$, then $x\in A$ |
-| Transitivity | If for every $D \subseteq X$, either $A \;\delta\; D^{\mathsf{c}}$ or $D \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D \subseteq X$, both $A \bowtie D^{\mathsf{c}}$ and $D \bowtie B$ | If $A \ll B$, then for some $D \subseteq X$, both $A \ll D$ and $D \ll B$ | |
-| Symmetry (weak) | if $A \;\delta\; B$ then $B \;\delta\; A$ | if $A \bowtie B$ then $B \bowtie A$ | if $A \ll B$ then $B^{\mathsf{c}} \ll A^{\mathsf{c}}$ | if $A\Cup B = X$ then $B\Cup A = X$ |
-| Symmetry (strong) | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | $A \ll B$ iff $B^{\mathsf{c}} \ll A^{\mathsf{c}}$ | $A\Cup B = X$ iff $B\Cup A = X$ |
-| Regularity | If for all $C$ and $D$ such that $B^{\mathsf{c}}\cup C = X$, either $\{x\} \;\delta\; D$ or $D^{\mathsf{c}}\;\delta\; C$, then $\{x\}\;\delta\; B$ | If $\{x\}\bowtie B$, then for some $C$ and $D$, $D^{\mathsf{c}}\bowtie C$, $B^{\mathsf{c}}\cup C = X$, and $\{x\} \bowtie D$ | If $\{x\}\ll A$, then for some $C$ and $D$, $C\ll D$, $A\cup C = X$, and $\{x\}\ll D^{\mathsf{c}}$ | |
-| Complete Regularity | | If $A\bowtie B$, then for some $C$ and $D$, $A\bowtie D$, $C\bowtie B$, and $C\cup D = X$. | If $A\ll B$, then for some $C$ and $D$, $A\ll C$, $D\ll B$, and $C^{\mathsf{c}}\cup D = X$. | If $A\Cup B = X$, then for some $C$ and $D$, $A\Cup C = X$, $D\Cup B = X$, and $C\cap D = \emptyset$. |
-| Separation | If $\{x\} \delta \{y\}$, then $x = y$ | Unless $\{x\} \bowtie \{y\}$, then $x = y$ | $x = y$ if, for all $A$, $y \in A$ whenever $\{x\} \ll A$ | |
-| Perfection (left) | If $A \;\delta\; B$, then $\{x\} \;\delta\; B$ for some $x \in A$ | $A \bowtie B$ if $\{x\} \bowtie B$ for all $x \in A$ | $A \ll B$ if $\{x\} \ll B$ for all $x \in A$ | |
-| Perfection (right) | If $A \;\delta\; B$, then $A \;\delta\; \{y\}$ for some $y \in B$ | If $A \bowtie \{y\}$ for all $y \in B$, then $A \bowtie B$ | If $A \ll C_i$ for all $i$, then $A \ll \bigcap_i C_i$ | |
-
-Reflexivity for $\Cup$ doesn't follow from its singleton version constructively.
