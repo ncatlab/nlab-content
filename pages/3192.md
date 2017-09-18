@@ -102,11 +102,23 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 ## Related concepts
 
-* 
+
+
+* [[Fredholm module]], 
+
+* [[Fredholm determinant]], 
+
+* [[Dirac operator]], 
+
+* [[Toeplitz operator]]
+
+* [[K-theory]], [[KK-theory]]
+
+* [[index theory]] 
+
 
 ## References
 
-Related $n$Lab entries: [[Fredholm module]], [[Fredholm determinant]], [[Dirac operator]], [[K-theory]], [[KK-theory]]
 
 * [wikipedia:Fredholm operator](http://en.wikipedia.org/wiki/Fredholm_operator)
 
