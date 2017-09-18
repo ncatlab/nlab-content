@@ -591,7 +591,7 @@ For $Y$ a [[Kan complex]], def. \ref{KanComplexes}, and $X$ any [[simplicial set
 regarded as a [[relation]]
 
 $$
-  (f\sim g) \Leftrightarrow (f \stackrel{\exists}{\Righrarrow} g)
+  (f\sim g) \Leftrightarrow (f \stackrel{\exists}{\Rightarrow} g)
 $$
 
 on the [[hom set]] $Hom_{sSet}(X,Y)$, is an [[equivalence relation]].
