@@ -10,7 +10,7 @@ This can be unpacked the following way:
 
 * A morphism $f:(q:Y\leftrightarrow I:t)\to(p:X\leftrightarrow I:s)$ is any morphism $f:Y\to X$ such that $p\circ f= q$ and $f\circ t=s$. 
 
-By the construction, the category $Pt_I(C)$ of points over $I$ is [[pointed category|pointed]] and [[finitely complete category|finitely complete]]; moreover the __[[inverse image]] functor__ $v^*:Pt_I(C)\to Pt_J(C)$ induced by $v:J\to I$ is a [[left exact functor]].
+By the construction, the category $Pt_I(C)$ of points over $I$ is [[pointed category|pointed]] and if the category $C$ has finite limits, then [[finitely complete category|finitely complete]]; moreover the __[[inverse image]] functor__ $v^*:Pt_I(C)\to Pt_J(C)$ induced by $v:J\to I$ is a [[left exact functor]].
 
 The __category $Pt(C)$ of points of $C$__ has objects $Ob(Pt(C))=\coprod_I Ob(Pt_I(C))$. In other words, the objects are the split epimorphisms $p:X\to I$ of $C$ with a choice of a splitting, or equivalently the [[retracts]] in $C$. At the level of morphisms it is just a bit more complex than the morphisms in each $Pt_I(C)$, namely the slice and coslice triangles become squares. More precisely, a morphism $(u,v): (q:Y\leftrightarrow J:t)\to (p:X\leftrightarrow I:s)$ is a pair of morphisms $u:Y\to X$, $v:J\to I$ in $C$ such that $u\circ t = s\circ v$ and $v\circ q =p\circ u$.
 
