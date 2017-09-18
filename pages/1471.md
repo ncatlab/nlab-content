@@ -114,7 +114,7 @@ Foundations are in
 
 * [[David Carchedi]], _Categorical properties of topological and differentiable stacks_, PhD thesis 2001 ([pdf](http://people.mpim-bonn.mpg.de/carchedi/Thesis_David_Carchedi.pdf))
 
-* [[David Carchedi]], _Compactly Generated Stacks: A Cartesian Closed Theory of Topological Stacks_ ([arXiv:0907.3925](http://arxiv.org/abs/0907.3925))
+* [[David Carchedi]], _Compactly Generated Stacks: A Cartesian Closed Theory of Topological Stacks_, Advances in Mathematics, Vol.229(6) (2012) 3339-3397, doi:[10.1016/j.aim.2012.02.006](http://dx.doi.org/10.1016/j.aim.2012.02.006), ([arXiv:0907.3925](http://arxiv.org/abs/0907.3925))
 
 The [[mapping stacks]] of [[topological stacks]] are discussed in 
 
