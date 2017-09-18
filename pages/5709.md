@@ -51,7 +51,7 @@ analyticity, [[perturbative unitarity]], [[cluster decomposition]] and the assum
 
 =--
 
-This is due to ([Weinberg 1979](#Weinberg79)) and ([Leutweyler94](#Leutwyler94)).
+This is due to ([Weinberg 1979](#Weinberg79)) and ([Leutwyler94](#Leutwyler94)).
 
 Based on this fact, one obtains an effective approximation to a given more fundamental theory (which may or may not be actually known) by
 
