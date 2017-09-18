@@ -3,7 +3,7 @@ This entry is about the book
 * [[Lisbeth Fajstrup]], [[Eric Goubault]], [[Emmanuel Haucourt]], [[Samuel Mimram]], [[Martin Raussen]], __Directed Algebraic Topology and Concurrency__, Springer International Publishing
  2016 (xi+167 pages)
 
-which presents applications [[directed space]]s and [[directed homotopy theory]] to concurrent programs in computer science.
+which presents applications of [[directed space]]s and [[directed homotopy theory]] to concurrent programs in computer science.
 
 It is [available from the editor](http://www.springer.com/book/9783319153971).
 
