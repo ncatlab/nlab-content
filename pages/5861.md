@@ -195,7 +195,7 @@ $$
   \,.
 $$
 
-We also consider the [[(∞,1)-monads]]/comoands induced from these reflections:
+We also consider the [[(∞,1)-monads]]/comonads induced from these reflections:
 
 1. the [[reduction modality]] $\Re \coloneqq i_! i^\ast$ ;
 
