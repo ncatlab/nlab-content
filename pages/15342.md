@@ -8,6 +8,7 @@ It is probably the oldest 'result' in model theory, as it goes back to _Alessand
 
 ##Related Concepts
 
+* [[definability]]
 * [[first-order logic]]
 * [[conceptual completeness]]
 * [[Robinson consistency theorem]]
