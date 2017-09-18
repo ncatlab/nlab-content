@@ -56,4 +56,12 @@ Discussion of [[standard model of particle physics|standard model]] [[phenomenol
 
 * [[Harold Steinacker]], Jochen Zahn, _An extended standard model and its Higgs geometry from the matrix model_, PTEP 2014 (2014) 8, 083B03 ([arXiv:1401.2020](http://arxiv.org/abs/1401.2020))
 
+There are claims that numerical computer simulations show that the IKKT model predicts a spontanously generated spacetime where exactly 3+1 dimensions become macroscopic
+
+* {#KimNishimuraTsuchiya12} S.-W. Kim, J. Nishimura, and A. Tsuchiya, _Expanding (3+1)-dimensional universe from a Lorentzian matrix model for superstring theory in (9+1)-dimensions_, Phys. Rev. Lett. 108, 011601 (2012), ([arXiv:1108.1540](https://arxiv.org/abs/1108.1540)).
+
+* S.-W. Kim, J. Nishimura, and A. Tsuchiya, _Late time behaviors of the expanding universe in the IIB matrix model_, JHEP 10, 147 (2012), ([arXiv:1208.0711](https://arxiv.org/abs/1208.0711)).
+
+
+
 [[!redirects IIB matrix model]]
