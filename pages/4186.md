@@ -100,6 +100,7 @@ and in terms of actual [[local nets]] in
 * {#CHKL09} [[Sebastiano Carpi]], Robin Hillier, [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Spectral triples and the super-Virasoro algebra_, Commun.Math.Phys.295:71-97 (2010) ([arXiv:0811.4128](http://arxiv.org/abs/0811.4128))
 
 ### Classification
+ {#ReferencesClassification}
 
 
 * [[Yasuyuki Kawahigashi]], _Classification of operator algebraic conformal field theories in dimensions one and two_ ([arXiv:math-ph/0308029](http://arxiv.org/abs/math-ph/0308029))
