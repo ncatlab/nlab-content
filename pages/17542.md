@@ -1,0 +1,50 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+##Idea##
+
+A **generalized graph** in the sense of ([HRY](#HRY)) is a generalization of the notion of a pseudograph given at [[graph]] (see in particular [Definition in terms action on a set of half edges](https://ncatlab.org/nlab/show/graph#definition_in_terms_of_action_on_a_set_of_halfedges)) and of [[directed pseudograph]]. What differentiates a generalized graph from a [[directed pseudograph]] is its "exceptional cell," which should be thought of as a set of half edges which have no vertices. 
+
+A generalized graph can be visualized as a set of vertices with outputs and inputs, a rule for attaching outputs to inputs to glue the vertices together into a quiver, and potentially some outputs and inputs that are not associated to any vertex at all. For instance, a particularly simple generalized graph is one with no vertices and one directed edge (thought of as a single output and input). Notice that by including vertices with outputs or inputs that do not go to other vertices at all but rather "leave the graph," we can talk about a generalized graph itself having outputs and inputs. As such, generalized graphs end up being useful in defining [[PROP|PROPs]] and [[properad|properads]] (as in [HRY](#HRY) and [Kock](#kock)). 
+
+Assume we have fixed an infinite set $\mathcal{S}$ for the remainder of this entry.
+
+## Definition ##
+
+A generalized graph $G$ is a finite set $Flag(G)\subseteq \mathcal{S}$ with:
+
+* a partition $Flag(G)=\coprod_{\alpha\in A} F_\alpha$ with $A$ finite,
+
+* a distinguished partition subset $F_\epsilon$ called the **exceptional cell**,
+
+* an involution $\iota$ satisfying $\iota F_\epsilon\subseteq F_\epsilon$,
+
+* and a free involution $\pi$ on the set of $\iota$-fixed points of $F_\epsilon$. 
+
+
+
+
+
+
+
+## Related concepts
+
+* [[graph]]
+
+* [[quiver]]
+
+## References
+
+
+
+
+* Philip Hackney, Marcy Robertson and Donald Yau _Infinity Properads and Infinity Wheeled Properads_,  Lecture Notes in Mathematics, 2147. Springer, Cham, 2015. [(arxiv version)](http://arxiv.org/pdf/1410.6716v2.pdf)
+{#HRY} 
+
+* Joachim Kock. _Graphs, hypergraphs, and properads_, [arXiv:1407.3744](https://arxiv.org/pdf/1407.3744v3.pdf). 
+{#kock}
+
+
+
