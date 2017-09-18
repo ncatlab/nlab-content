@@ -1,4 +1,3 @@
-
 **[[∞-Lie theory]]** ([[higher geometry]])
 
 ## Background
