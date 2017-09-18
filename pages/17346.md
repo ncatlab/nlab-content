@@ -922,6 +922,41 @@ $$
 
 ([Adams 74, theorem 15.1 page 318](#Adams74))
 
++-- {: .num_remark}
+###### Remark
+
+The morphism
+
+$$
+  [X,g_k]
+  \;\colon\;
+  [X,Y_k]_\bullet
+    \overset{[X,e \wedge id_{Y_k}]  }{\longrightarrow}
+  [X, E \wedge Y_k]_\bullet
+$$
+
+in def. \ref{AdamsEAdamsSpectralSequence} is sometimes called the **[[Boardman homomorphism]]** ([Adams 74, p. 58](#Adams74)).
+
+For $X = \mathbb{S}$ the [[sphere spectrum]] it reduces to a canonical morphism from stable homotopy to [[generalized homology]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)))
+
+$$
+ \pi_\bullet(g_k)
+    \;\colon\;
+  \pi_\bullet(Y_k)
+    \longrightarrow
+  E_\bullet(Y_k)
+  \,.
+$$
+
+For $E = $ [[HA]] an [[Eilenberg-MacLane spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#ReducedALinearizationOfnSphere)) this in turn reduces to the **[[Hurewicz homomorphism]]** for spectra.
+
+This way one may think of the $E$-Adams filtration on $Y$ in def. \ref{AdamsEAdamsSpectralSequence} as the result of filtering any spectrum $Y$ by iteratively projecting out all its $E$-homology. 
+
+This idea was historically the original motivation for the construction of the [[classical Adams spectral sequence]] by [[John Frank Adams]], see the first pages of ([Bruner 09](#Adams+spectral+sequence#Bruner09)) for a historical approach.
+
+=--
+
+
 It is convenient to adopt the following notation for $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence}):
 
 +-- {: .num_defn #HomotopyFiberOfUnitOfCommutativeRingSpectrum}
@@ -953,7 +988,10 @@ $$
 
 =--
 
-([Adams 74, theorem 15.1 page 319](#Adams74))
+
+([Adams 74, theorem 15.1 page 319](#Adams74)) Beware that for instance ([Hopkins 99, proof of corollary 5.3](#Hopkins99)) uses "$\overline{E}$" not for the [[homotopy fiber]] of $\mathbb{S} \overset{e}{\to} E$ but for its [[homotopy cofiber]], hence for what is $\Sigma \overline{E}$ according to ([Adams 74](#Adams74)).
+
+
 
 +-- {: .num_lemma #Wp}
 ###### Lemma
@@ -1167,7 +1205,8 @@ First of all, that the given pairing is a well defined homomorphism (descends fr
 
 We discuss that it is an isomorphism when $E_\bullet(E)$ is flat over $\pi_\bullet(E)$:
 
-First consider the case that $X \simeq \Sigma^{n} \mathbb{S}$ is a suspension of the [[sphere spectrum]]. Then 
+First consider the case that $X \simeq \Sigma^{n} \mathbb{S}$ is a suspension of the [[sphere spectrum]]. Then (by [this example](Introduction+to+Stable+homotopy+theory+--+1-2#SuspendedSphereSpectrumHomology), using the [[tensor triangulated category|tensor triangulated]] stucture on the [[stable homotopy category]] ([prop.] (Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)))
+
 
 $$
   E_\bullet(X) = E_\bullet(\Sigma^n X) \simeq \pi_{\bullet-n}(E)
@@ -1527,7 +1566,7 @@ Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod a
 
 
 
-The dual $E$-[[Steenrod algebras]] of def. \ref{HopfAlgebroidStructureOnDualEOperations} evidently carry a lot of structure. In concept organizing this is that of_[[commutative Hopf algebroids]]_.
+The dual $E$-[[Steenrod algebras]] of def. \ref{HopfAlgebroidStructureOnDualEOperations} evidently carry a lot of structure. The concept organizing this is that of_[[commutative Hopf algebroids]]_.
 
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
@@ -1569,7 +1608,7 @@ $$
 
 acting as assigning [[inverses]] with respect to $\circ$.
 
-The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+The key basic fact to use in order to express this equivalently in terms of algebra is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
 
 $$
   Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2) 
@@ -1739,7 +1778,7 @@ It is now striaghtforward, if somewhat tedious, to check that:
 ###### Proposition
 
 Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}, then the dual $E$-[[Steenrod algebra]] $ (E_\bullet(E), \pi_\bullet(E))$ with the
-structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebroidStructureOnDualEOperations} is a graded commutative Hopf algebroid accoring to def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}.
+structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebroidStructureOnDualEOperations} is a graded commutative Hopf algebroid according to def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}.
 
 =--
 
@@ -1749,7 +1788,7 @@ structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebro
 +-- {: .num_remark}
 ###### Remark
 
-In ([Adams 69, lecture 3, page 60](#Adams69)) the terminology used is "Hopf algebra in a fully satisfactory sense" with emphasis that the left and right module structure may differ. Accoring to ([Ravenel 86, first page of appendix A1](#Ravenel86)) the terminology "Hopf algebroid" for this situation is due to [[Haynes Miller]].
+In ([Adams 69, lecture 3, page 60](#Adams69)) the terminology used is "Hopf algebra in a fully satisfactory sense" with emphasis that the left and right module structure may differ. According to ([Ravenel 86, first page of appendix A1](#Ravenel86)) the terminology "Hopf algebroid" for this situation is due to [[Haynes Miller]].
 
 =--
 
@@ -2675,6 +2714,9 @@ $$
 =--
 
 ([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
+
+
+
 
 
 
