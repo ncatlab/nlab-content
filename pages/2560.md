@@ -69,7 +69,7 @@ For a linear tree this reproduces the above definition of spines of simplices.
 +-- {: .num_prop}
 ###### Proposition
 
-A [[simplicial set]] $X$ is the [[nerve]] of a [[category]] precisely if for all $n \in \mathbb{N}$ all the morphisms induced from the spin inclusion
+A [[simplicial set]] $X$ is the [[nerve]] of a [[category]] precisely if for all $n \in \mathbb{N}$ all the morphisms induced from the spine inclusion
 
 $$
   X^{Sp[n] \hookrightarrow \Delta[n]} : X_n \to X_1 \times_{X_0} \cdots \times_{X_0} X_1
