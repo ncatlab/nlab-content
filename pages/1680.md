@@ -95,7 +95,7 @@ For $A$ a [[countable set|countable]] [[abelian group]], then the [[orthogonal s
     (H A)_n = A[S^n]_\ast
   $$
 
-* $O(n)$-[[action]] on $A[S^n]_\ast$ induced from the canonical $O(n)$-action on $S^V$ ([[representation sphere]]);
+* $O(V)$-[[action]] on $A[S^V]_\ast$ induced from the canonical $O(V)$-action on $S^V$ ([[representation sphere]]);
 
 * structure maps 
 
