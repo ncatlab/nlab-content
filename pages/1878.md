@@ -60,7 +60,7 @@ A [[model category]] $\mathcal{C}$ is **cofibrantly generated** if there are sma
 
 Since $I$ and $J$ are assumed to admit the [[small object argument]] the collection of cofibrations and acyclic cofibrations has the following simpler characterization:
 
-+-- {: .num_proposition}
++-- {: .num_prop #RetractsOfCellComplexesExchaustLLPOfRLP}
 ###### Proposition
 
 In a cofibrantly generated model category we have
