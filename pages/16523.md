@@ -1,0 +1,46 @@
+[[!redirects type II super Lie algebra]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[super Lie algebra]] which is a [polyvector](super+Poincare+Lie+algebra#PolyvectorExtensions) [[Lie algebra extension|extension]] of the [[super Poincaré Lie algebra]] ([[supersymmetry]]) in $D = 9+1$ for  $N=(2,0)$ or $N = (1,1)$ [[supersymmetry]] by [[charges]] corresponding to the [[type II superstring]], the [[D-branes]] and the [[NS5-brane]] ("[[extended supersymmetry]]").
+
+
+## Related concepts
+
+* [[M-theory super Lie algebra]]
+
+* [[type II supergravity Lie 2-algebra]]
+
+* [[BPS state]]
+
+## References
+
+* [[Chris Hull]], section 2 of _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
+
+* Tatsuya Ueno, _BPS States in 10+2 Dimensions_, JHEP 0012:006,2000 ([arXiv:hep-th/9909007](http://arxiv.org/abs/hep-th/9909007))
+
+
