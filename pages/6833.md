@@ -19,6 +19,12 @@ The [[D-brane]] in [[type IIB string theory]] of [[dimension]] $7+1$.
 
 In [[F-theory]] these are the degenration loci of the [[axio-dilaton]] [[elliptic fibration]], where the [[discriminant]] $\Delta$ of the [[elliptic curve]] fibers vanishes and the fiber degenrates to the [[nodal curve]] (e.g. [Sen 97](#Sen97), [Blumenhagen 10, (11)](#Blumenhagen10)).
 
+## Relation to other branes
+
+The D7-branes arise from the [[D6-branes]] in [[type IIA string theory]] under [[T-duality]].
+
+[[!include F-branes -- table]]
+
 ## Related concepts
 
 [[!include table of branes]]
