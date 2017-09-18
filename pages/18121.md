@@ -36,6 +36,8 @@ $$
   \,.
 $$
 
+If $S$ is not necessarily $f$-saturated, then $f^{-f}(f(S))$ is called its _saturation_. Notice that $S \subset f^{-1}(f(S))$.
+
 =--
 
 ## Properties
