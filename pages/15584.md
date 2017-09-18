@@ -17,7 +17,7 @@ A simple class of finite [[monoids]] and [[categories]] that permit an effective
 
 
 ##Definition
-A finite monoid $M$ is called _graphic_ if all $x,y\in M$ satisfy the so called _graphic identity_ $xyx=xy$. A finite category $\mathcal{G}$ is called _graphic_ if the endomorphism monoid $End(x)$ is a graphic monoid for all objects $x$.
+A finite monoid $M$ is called _graphic_ if all $x,y\in M$ satisfy the so called _graphic identity_ $x y x=x y$. A finite category $\mathcal{G}$ is called _graphic_ if the endomorphism monoid $End(x)$ is a graphic monoid for all objects $x$.
 
 ##Example
 
@@ -28,6 +28,11 @@ A finite monoid $M$ is called _graphic_ if all $x,y\in M$ satisfy the so called 
 * Lawvere (1989b, p.53) calls the graphic identity _'the least common generalization of constant (x=c) and identity (x=1)_'.
 
 * In a graphic monoid every element is [[idempotent]] as can be directly seen from the graphic identity with $y=1$.
+
+* It follows that a commutative graphic monoid is the same as a [[semilattice]], or equivalently, a commutative monoid where every element is idempotent.
+
+* A graphic monoid is the same as a **unital left shelf**, meaning a set equipped with a binary operation that distributes over itself and has an element $1$ serving as a left and right unit.  For a proof see the [n-Cafe](https://golem.ph.utexas.edu/category/2015/05/the_origin_of_the_word_quandle.html#c049149); for the concept of shelf see [[rack]].
+
 
 ##Related Pages
 
