@@ -283,6 +283,8 @@ A [[categorification]] of the Heisenberg algebra is considered in
 
 * [[Mikhail Khovanov]], _Heisenberg algebra and a graphical calculus_ ([arXiv:1009.3295](http://arxiv.org/abs/1009.3295))
 
+* [[Owen Gwilliam]], [[Rune Haugseng]], _Linear Batalin-Vilkovisky quantization as a functor of ∞-categories_ ([arXiv:1608.01290](https://arxiv.org/abs/1608.01290))
+
 An $n$-fold categorification of the Lie algebra underlying the [[Poisson algebra]] (and hence including the Weil algebra) for all $n$ to a [[Lie n-algebra]] is considered in [[n-plectic geometry]],
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
