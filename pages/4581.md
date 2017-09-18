@@ -19,18 +19,19 @@
 
 ## Idea
 
-For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] (in [[physics]] called the _[[field bundle]]_) with [[jet bundle]] $j_\infty E \to X$, the **variational bicomplex** is essentially the [[de Rham complex]] $(\Omega^\bullet(j_\infty E),\mathbf{d})$ of $j_\infty E$ with [[differential forms]] $\Omega^n(j_\infty E) = \bigoplus_{h+v=n} \Omega^{h,v}(E)$ bigraded by [[horizontal differential form|horizontal]] degree $h$ (with respect to $X$) and vertical degree $v$ (along the [[fiber]]s of $j_\infty E$)). Accordingly the [[differential]] decomposes as
+For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] (in [[physics]] called the _[[field bundle]]_) with [[jet bundle]] $Jet(E) \to X$, the **variational bicomplex** is essentially the [[de Rham complex]] $(\Omega^\bullet(Jet( E)),\mathbf{d})$ of $Jet(E)$ with [[differential forms]] $\Omega^n(Jet(E)) = \bigoplus_{h+v=n} \Omega^{h,v}(E)$ bigraded by [[horizontal differential form|horizontal]] degree $h$ (with respect to $X$) and vertical degree $v$ (along the [[fiber]]s of $j_\infty E$)). Accordingly the [[differential]] decomposes as
 
 $$
   \mathbf{d} = d + \delta
   \,,
 $$
 
-where $\mathbf{d}$ is the [[de Rham differential]] on $j_\infty E$, $d$ is called the **horizontal differential** and $\delta$ is called the **vertical differential**.
+where $\mathbf{d}$ is the [[de Rham differential]] on $Jet(E)$, $d$ is called the **horizontal differential** and $\delta$ is called the **vertical differential**.
 
-Vector fields on $J^\infty E$ also split into a direct sum of **vertical** and **horizontal** ones, respectively being annihilated by contraction with any horizontal $1$-forms or with any vertical $1$-forms, $\mathfrak{X}(J^\infty E) = \mathfrak{X}_H(J^\infty E) \oplus \mathfrak{X}_V(J^\infty E)$. A special kind of vertical vector field $v \in \mathfrak{X}_V(J^\infty E)$ is called **evolutionary** provided it satisfies $\mathcal{L}_v d = d \mathcal{L}_v$ and $\mathcal{L}_v = \iota_v \delta + \delta \iota_v$, we denote the subspace of evolutionary vector fields as $\mathfrak{X}_{ev}(J^\infty E) \subset \mathfrak{X}_V(J^\infty E)$.
+With $E \to X$ thought of as a [[field bundle]] over [[spacetime]]/[[worldvolume]], then $d$ is a measure for how quantities change over spacetime, while $\delta$ is the [[variational calculus|variational]] differential that measures how quantities change as the field configurations are varied.
 
-Much of [[classical mechanics]] and [[classical field theory]] on $X$ is formalized in terms of the variational bicomplex. For instance 
+
+Accordingly, much of [[classical mechanics]] and [[classical field theory]] on $X$ is formalized in terms of the variational bicomplex. For instance 
 
 * a field configuration is a [[section]] of $E$;
 
@@ -45,7 +46,7 @@ Much of [[classical mechanics]] and [[classical field theory]] on $X$ is formali
   of the form
 
   $$
-    S(\phi) = \int_X L(j_\infty \phi)
+    S(\phi) = \int_X L(j^\infty \phi)
     \,,
   $$
 
@@ -59,7 +60,7 @@ Much of [[classical mechanics]] and [[classical field theory]] on $X$ is formali
 
   $$
     \{
-     \phi \in \Gamma(E) | E(L)(j_\infty \phi) = 0
+     \phi \in \Gamma(E) | E(L)(j^\infty \phi) = 0
    \}
   $$
 
@@ -80,9 +81,11 @@ Much of [[classical mechanics]] and [[classical field theory]] on $X$ is formali
 
 ## Definition
 
-Let $X$ be a [[smooth manifold]] and $p : E \to X$ some smooth [[bundle]] over $X$. Write $j_\infty E \to X$ for the corresponding [[jet bundle]].
+Let $X$ be a [[smooth manifold]] and $p : E \to X$ some smooth [[bundle]] over $X$. Write $Jet(E) \to X$ for the corresponding [[jet bundle]].
 
-The spaces of [[section]]s $\Gamma(E)$ and $\Gamma(j_\infty E)$ canonically inherit a generalized smooth structure that makes them [[diffeological space]]s: we have a [[pullback]] [[diagram]] of diffeological spaces
+### The bicomplex
+
+The spaces of [[sections]] $\Gamma(E)$ and $\Gamma(Jet(E))$ canonically inherit a generalized smooth structure that makes them [[diffeological space]]s: we have a [[pullback]] [[diagram]] of diffeological spaces
 
 $$
   \array{
@@ -105,17 +108,17 @@ $$
 and composed with the jet prolongation
 
 $$
-  j_\infty : \Gamma(E)  \to \Gamma(j_\infty E)
+  j^\infty : \Gamma(E)  \to \Gamma(Jet(E))
 $$
 
 it yields a smooth map ([[homomorphism]] of [[diffeological space]]s) 
 
 \[
   \label{EProlongation}
-  e_\infty : X \times \Gamma(E) \stackrel{(id,j_\infty)}{\to}
-   X \times \Gamma(j_\infty E)
+  e_\infty : X \times \Gamma(E) \stackrel{(id,j^\infty)}{\to}
+   X \times \Gamma(Jet(E))
    \stackrel{ev}{\to}
-  j_\infty E
+  Jet(E)
   \,.
 \]
 
@@ -141,7 +144,7 @@ where the $\mathbf{d}$, $d$ and $\delta$, are the [[de Rham differential]]s of $
 The **variational bicomplex** of $E \to X$ is the sub--bi-complex of $\Omega^{\bullet, \bullet}(X \times \Gamma(E))$ that is the [[image]] of the pullback of forms along the map $e_\infty$ (eq:EProlongation):
 
 $$
-  e_\infty^* : \Omega^{\bullet}(j_\infty E) \to 
+  e_\infty^* : \Omega^{\bullet}(Jet(E)) \to 
    \Omega^\bullet(X \times \Gamma(E))
   \,.
 $$
@@ -160,10 +163,12 @@ and speak of the bicomplex of **local forms** on sections on $E$.
 
 The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([Olver 86](#Olver86)) to ([Takens](#Takens)). The above formulation as the image of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to ([Zuckerman, p. 5](#Zuckerman)).
 
+### More on the horizontal differential
+
 +-- {: .num_remark #CharacterizationOfHorizontalDifferential}
 ###### Remark
 
-In terms of a [[coordinate chart]] $(x^i, u^\alpha,u^\alpha_i,u^\alpha_{i j},\cdots)$ of $E$ covering a coordinate chart $(X^i)$ of $X$, the action of the horizontal differential on functions $f \in C^\infty(j_\infty E)$ is given by the formula for the total derivative operation, but with concrete differentials substituted by the respective jet coordinates:
+In terms of a [[coordinate chart]] $(x^i, u^\alpha,u^\alpha_i,u^\alpha_{i j},\cdots)$ of $E$ covering a coordinate chart $(X^i)$ of $X$, the action of the horizontal differential on functions $f \in C^\infty(Jet(E))$ is given by the formula for the total derivative operation, but with concrete differentials substituted by the respective jet coordinates:
 
 $$
   d f = 
@@ -183,17 +188,88 @@ $$
 
 (For instance ([Anderson 89, p. 10](#Anderson89)).)
 
-More abstractly, the horizontal differential is characterized by the fact that it takes horizontal forms to horizontal forms, and that for all sections $\phi \in \Gamma(E)$ it respects [[pullback of differential forms]] along the jet prolongation $j_\infty \phi \in \Gamma(j_\infty E)$
+More abstractly, the horizontal differential is characterized by the fact that it takes horizontal forms to horizontal forms, and that for all sections $\phi \in \Gamma(E)$ it respects [[pullback of differential forms]] along the jet prolongation $j_\infty \phi \in \Gamma(Jet(E))$
 
 $$
-  (j_\infty \phi)^\ast \circ d = d \circ (j_\infty \phi)^\ast
+  (j_\infty \phi)^\ast \circ d = d \circ (j^\infty \phi)^\ast
 $$
 
 (where on the right we have the ordinary de Rham differential on the base space).
 
 
+=--
+
+More abstractly, the horizontal complex may be understood in terms of [[differential operators]] and the [[jet comonad]] as follows.
+
++-- {: .num_remark }
+###### Remark
+
+A horizontal differential $n$-form $\alpha$ on $Jet(E) \to X$ is equivalently a homomorphism of [[bundles]] over $X$ 
+
+$$
+  \alpha \colon Jet(E) \longrightarrow \wedge^n T^\ast X
+$$
+
+from the [[jet bundle]] $Jet(E)$ to the [[exterior bundle]] $\wedge^n T^\ast X$. This in turn is, by the discussion there, equivalently a [[differential operator]] $\alpha \colon E \to \wedge^n T^\ast X$.
+
+Now of course also the [[de Rham differential]] $d_X$ on $X$ is a differential operator $\wedge^n T^\ast X \to \wedge^n T^\ast X$. In view of this, the horizontal differential of the variational bicomplex is just the [[composition]] operation of differential operators, with horizontal forms regarded as differential operators as above.
+
+By the fact that differential operators are the [[co-Kleisli morphisms]] of the [[Jet comonad]], this means that the horizontal differential is
+
+$$
+  d_H \alpha
+  \colon
+  Jet(F)
+  \longrightarrow
+  Jet(Jet(F))
+  \stackrel{Jet(\alpha)}{\longrightarrow}
+  Jet(\wedge^n T^\ast X)
+  \stackrel{\tilde d_X}{\longrightarrow}
+  \wedge^n T^\ast X
+  \,.
+$$
 
 =--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Evolutionary vector fields
+
+Vector fields on $J^\infty E$ also split into a direct sum of **vertical** and **horizontal** ones, respectively being annihilated by contraction with any horizontal $1$-forms or with any vertical $1$-forms, $\mathfrak{X}(J^\infty E) = \mathfrak{X}_H(J^\infty E) \oplus \mathfrak{X}_V(J^\infty E)$. A special kind of vertical vector field $v \in \mathfrak{X}_V(J^\infty E)$ is called an **[[evolutionary vector field]]** provided it satisfies $\mathcal{L}_v d = d \mathcal{L}_v$ and $\mathcal{L}_v = \iota_v \delta + \delta \iota_v$, we denote the subspace of evolutionary vector fields as $\mathfrak{X}_{ev}(J^\infty E) \subset \mathfrak{X}_V(J^\infty E)$.
 
 
 ## Properties
