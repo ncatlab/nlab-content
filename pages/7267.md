@@ -19,8 +19,7 @@
 
 ## Idea
 
-__Affine Lie algebras__ are the most important class of [[Kac-Moody Lie algebras]].
-They should be viewed as tangent Lie algebras to the [[loop groups]], with a correction term which is sometimes related to quantization/quantum anomaly. 
+__Affine Lie algebras__ (sometimes: _[[current algebras]]_) are the most important class of [[Kac-Moody Lie algebras]]. They should be viewed as tangent Lie algebras to the [[loop groups]], with a correction term which is sometimes related to quantization/quantum anomaly. 
 
 These affine Lie algebras appear in [[quantum field theory]] as the [[current algebras]] in the [[WZW model]] as well as in its "chiral halfs", as such for instance in the [[heterotic string]] [[2d CFT]].
 
