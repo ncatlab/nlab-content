@@ -68,7 +68,7 @@ See also
 
 * Lecture 11 _[[formal groups|Formal groups]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
 
-* Lecture 12 _Heights and formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture12.pdf))
+* Lecture 12 _[[height of a formal group|Heights and formal groups]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture12.pdf))
 
 * Lecture 13 _The stratification of $\mathcal{M}_{FG}$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture13.pdf))
 
@@ -76,15 +76,15 @@ See also
 
 * Lecture 15 _Flat modules over $\mathcal{M}_{FG}$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture15.pdf))
 
-* Lecture 16 _The Landweber exact functor theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture16.pdf))
+* Lecture 16 _The [[Landweber exact functor theorem]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture16.pdf))
 
-* Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf))
+* Lecture 17 _[[phantom maps|Phantom maps]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf))
 
 * Lecture 18 _Even periodic cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture18.pdf))
 
-* Lecture 19 _Morava stabilizer groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture19.pdf))
+* Lecture 19 _[[Morava stabilizer groups]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture19.pdf))
 
-* Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
+* Lecture 20 _[[Bousfield localization of spectra|Bousfield localization]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
 
 * Lecture 21 _Lubin-Tate theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf))
 
