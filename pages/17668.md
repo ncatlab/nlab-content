@@ -5,7 +5,7 @@
 
 ## Idea
 
-**Arithmetic Chern-Simons theory** names the attempt to apply constructions from [[Chern-Simons theory]] to the field of [[arithmetic]]. In particular, the papers ([Kim1](#Kim1), [Kim2](#Kim2)) apply ideas of [[Dijkgraaf-Witten theory]] on 2+1 dimensional [[topological quantum field theory]] to [[arithmetic curves]], that is, the [[ring spectrum|spectra]] of rings of [[algebraic integer|integers]] in [[algebraic number fields]].
+**Arithmetic Chern-Simons theory** names the attempt to apply constructions from [[Chern-Simons theory]] to the field of [[arithmetic]], in view of patterns in the [[function field analogy]]. In particular, the papers ([Kim1](#Kim1), [Kim2](#Kim2)) apply ideas of [[Dijkgraaf-Witten theory]] on 2+1 dimensional [[topological quantum field theory]] to [[arithmetic curves]], that is, the [[ring spectrum|spectra]] of rings of [[algebraic integer|integers]] in [[algebraic number fields]].
 
 This theory pursues the surprising analogies between 3-dimensional topology and number theory, where knots embedded in a 3-manifold behave like prime ideals in a ring of algebraic integers, known as [[arithmetic topology]]. 
 
