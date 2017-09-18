@@ -477,6 +477,96 @@ bundle on the moduli space has the structure of a $K((q))$-[[∞-module]], hence
 
 (...)
 
+### Relation to the Chern-Simons $\infty$-line bundle on $\mathbf{B}G$
+ {#RelationToLineBundleOnBSpin}
+
+Given an [[E-∞ ring]] $A$ with an oriented [[derived elliptic curve]] $\Sigma \to Spec(A)$ there are a priori two different $A$-[[∞-line bundles]] on $B Spin$.
+
+On the one hand there is the bundle classified by
+
+$$
+  J_A
+  \;\colon\;
+  B Spin 
+  \stackrel{}{\longrightarrow}
+  B O
+  \stackrel{J}{\longrightarrow}
+  B GL_1(\mathbb{S})
+  \longrightarrow
+  B GL_1(A)
+  \,,
+$$
+
+where $\mathbb{S}$ is the [[sphere spectrum]], $GL_1(-)$ the [[∞-group of units]]-construction and $J$ the [[J-homomorphism]].  (This is what appears as $\mathcal{A}_s$ in [Lurie, middle of p.38](#Lurie)). Notice that by ([Ando-Blumberg-Gepner 10, section 8](#AndoBlumbergGepner10)), for the case $A = $ [[tmf]] this is equivalently the $A$-[[∞-line bundle]] [[associated ∞-bundle|associated]] to the [[universal Chern-Simons line 3-bundle]]
+
+$$
+  A(\tfrac{1}{2}p_1)
+  \;\colon\;
+  B Spin
+  \stackrel{\tfrac{1}{2}p_1}{\longrightarrow}
+  B^4 \mathbb{Z}
+  \stackrel{\tilde \sigma}{\longrightarrow}
+  B GL_1(A)
+  \,,
+$$
+
+where $\tfrac{1}{2}p_1$ is the [[first fractional Pontryagin class]] and $\tilde \sigma$ is an [[adjunct]] of the [[string orientation of tmf]].
+
+In addition, by equivariant elliptic cohomology there is the [[theta line-bundle]]
+
+$$
+  \theta \;\colon\; Loc_{Spin}(\Sigma) \longrightarrow \mathbf{B} \mathbb{G}_m
+$$
+
+on the derived [[moduli stack of flat connections]] $Loc_{Spin}(\Sigma)$
+(where in ([Lurie](#Lurie)) $Loc_{Spin}(\Sigma)$ is denoted $M_{Spin}$). Evaluating this bundle on [[global points]] yields the $A$-[[∞-line bundle]]
+
+$$
+  \Gamma_{Spec(A)}(\theta) \;\colon\; \Gamma_{Spec(A)}(Loc_{Spin}(\Sigma))
+  \longrightarrow B GL_1(A)
+  \,.
+$$
+
+So there are a priori two $A$-$\infty$-oine bundles on bare homotopy types here. But (by 2-equivariance, [Lurie, bottom of p. 38](#Lurie)) there is a canonical map between their base spaces
+
+$$
+   \phi \;\colon\; B Spin \longrightarrow \Gamma_{Spec(A)}(Loc_{Spin}(\Sigma))
+  \,.
+$$
+
+Heuristically, this is the map that includes the trivial $Spin$-local system and its [[gauge transformations]] into the (points of the) [[moduli stack]] of all local systems.
+
+Hence the pullback of $\Gamma_{Spec(A)}(Loc_{Spin}(\Sigma))$ yields another $A$-line bundle $\phi^\ast \Gamma_{Spec(A)}(\theta)$ over $B Spin$.
+
+These are equivalent
+
+$$
+  J_A \simeq  \phi^\ast \Gamma_{Spec(A)}(\theta)
+  \,.
+$$
+
+This is ([Lurie, theorem 5.2](#Lurie)).
+
+
+$$
+  \array{
+    && Loc_{Spin}(\ast)
+    \\
+    & \swarrow && \searrow^{\mathrlap{\phi}}
+    \\
+    Loc_{Spin}(\ast)
+    && 
+     \swArrow_{\simeq}
+    &&
+    Loc_{Spin}(\Sigma)
+    \\
+    & {}_{\mathllap{J_A}}\searrow && \swarrow_{\mathrlap{\theta}}
+    \\
+    && B GL_1(A)
+  }
+$$
+
+
 ## Related concepts
 
 * [[equivariant elliptic genus]]
@@ -498,8 +588,8 @@ a set of axioms was proposed that an equivariant elliptic cohomology theory shou
 
 In 
 
-* [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, PhD thesis, University of Illinois at Urbana-Champaign, 2005.
- {#Gepner05}
+* {#Gepner05} [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, PhD thesis, University of Illinois at Urbana-Champaign, 2005.
+ 
 
 
 the proposal of [Ginzburg-Kapranov-Vasserot 95](#GinzburgKapranovVasserot95) was formalized in terms of [[geometric morphisms]] of [[(infinity,1)-toposes]].
@@ -538,8 +628,11 @@ and was then further refined in section 5.2 of ([Lurie](#Lurie)) and in ([Gepner
 
 More is in 
 
-* [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
- {#Ganter12}
+* {#Ganter12} [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
+
+### Relation to $\infty$-line bundles
+
+* {#AndoBlumbergGepner10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004)) 
 
 ### Relation to superstrings and the Witten genus
 
@@ -567,52 +660,6 @@ based on
 A proposal for realizing this via [[(2,1)-dimensional Euclidean field theories and tmf]] is in
 
 * {#StolzTeichner11} [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 
