@@ -23,7 +23,7 @@ An __unparametrised path__ is an [[equivalence class]] of paths, such that $f$ a
 
 If $P$ is a path, then its __reverse path__[^1], denoted $P^-$, is defined to be the composite $P \circ ( t\mapsto 1-t )$.
 
-[^1]: Cf. e.g. [Section 2.1](#tomDieck2008); beware that that reference uses $a$ and $b$ for the endpoints of the _interval_, not the endpoints of the paths in the space $X$, and that the 2008 edition has a typo: " $w(1-t)$ " in loc. cit., when   *inverse path* gets defined, should be $u(1-t)$.
+[^1]: Cf. e.g. [Section 2.1](#tomDieck2008); beware that that reference, like many others, uses the synonym "inverse path", even though there is no "canonical" group in which $P^-$ would be a *strict* inverse, and that it uses $a$ and $b$ for the endpoints of the _interval_, not the endpoints of the paths in the space $X$, and that the 2008 edition has a typo: " $w(1-t)$ " in loc. cit., when   *inverse path* gets defined, should be $u(1-t)$.
 
 A __Moore path__ is defined like a path, except for having another domain: replace $[0,1]$ with the interval $[0,n]$ for some [[natural number]] (or, more commonly, any non-negative [[real number]]) $n$.  All of these variations can be combined, of course.  (For unoriented paths, one usually says 'between $a$ and $b$' instead of 'from $a$ to $b$'.  Also, a Moore path from $a$ to $b$ has $f(n) = b$ instead of $f(1) = b$.  Finally, there is not much difference between unparametrised paths and unparametrised Moore paths, since we may interpret $(t \mapsto n t)$ as a reparametrisation $\phi$.)
 
