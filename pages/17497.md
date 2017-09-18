@@ -718,7 +718,7 @@ such that
        \\
        & {}_{\mathllap{\ell}}\searrow 
        & \downarrow^{\mathrlap{\mu}} &
-       & \swarrow_{\mathrlap{r}}
+       \swarrow_{\mathrlap{r}}
        \\
        && A
      }
