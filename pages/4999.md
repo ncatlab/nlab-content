@@ -49,7 +49,7 @@ Modal logics have [[semantics]] in terms of sets with [[relations]], called _[[K
 {#modal+language}
 
 Modal logics are built on **modal languages**, that is the usual propositional language plus those extra modalities. (Note that modalities may also be added to predicate logic, see [[first-order modal logic]].) The way the modalities work has to be laid down in an axiom system for the logic in question, for instance, for the temporal logic we might require an axiom saying
-'If $F F\phi$ is true, then $F\phi$ is true', which will read a 'if it is going be true in the future that $\phi$ is going to be true in the future, then ...', see [[temporal logic]].  (Is this going to be something what we might want in 'provability logic'; is it the case that we should expect that if it is provable that something is provable then that something must be itself provable. This concentrates the modelling process on exactly how we wish to have our 'context' to behave.) In this way the relational nature of a context that we are looking at can get encoded into the logic.
+'If $F F\phi$ is true, then $F\phi$ is true', which will read a 'if it is going be true in the future that $\phi$ is going to be true in the future, then ...', see [[temporal logic]].  (Is this going to be something what we might want in '[[provability logic]]'; is it the case that we should expect that if it is provable that something is provable then that something must be itself provable. This concentrates the modelling process on exactly how we wish to have our 'context' to behave.) In this way the relational nature of a context that we are looking at can get encoded into the logic.
 
 
 Modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ into the usual [[propositional logics]]. (For the moment, we will keep things fairly simple so assume these to  be unary operators and we will not be considering operators that have more than one input, for the moment at least. The general case will be considered later on, but in any case is discussed in detail in some of the books on modal logic listed below.)
@@ -182,7 +182,7 @@ Here is a brief list of flavors of modal logic. More details are discussed below
 
 *  [[provability logics]]
 
-
+   * [[Löb's axiom]] ([[incompleteness theorem]])
 
 
 
