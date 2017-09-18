@@ -10,3 +10,5 @@
 * [[tmf]]
 
 category: people
+
+[[!redirects amg]]
