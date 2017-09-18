@@ -65,7 +65,7 @@ $$
 
 be the pointwise [[tensor product of vector spaces]] of these transition functions
 
-Then the _tensor product bundle_ $E_1 \oplus E_2$ is the one glued from this direct sum of the transition functions (by [this construction](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)):
+Then the _tensor product bundle_ $E_1 \otimes E_2$ is the one glued from this tensor product of the transition functions (by [this construction](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)):
 
 $$
   E_1 \otimes E_2
