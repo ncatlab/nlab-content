@@ -148,6 +148,10 @@ Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "wi
  
 * {#HouseMicu04} Thomas House, Andrei Micu, _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
 
+Further discussion of [[membrane instantons]] in this context includes
+
+* [[Gottfried Curio]], _Superpotentials for M-theory on a G_2 holonomy manifold and Triality symmetry_, JHEP 0303:024,2003 ([arXiv:hep-th/0212211](http://arxiv.org/abs/hep-th/0212211))
+
 
 Survey and further discussion includes
 
