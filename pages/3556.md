@@ -23,13 +23,15 @@ A first-order hyperdoctrine is a [[hyperdoctrine]] with respect to  [[lattices]]
 
 ## Definition
 
+We denote by $HeytAlg_{AdjCyl}$ the category whose objects are [[Heyting algebras]], and whose
+morphisms are Heyting algebra morphisms having both [[left adjoint|left]] and [[right adjoint]]s. (The adjoints are not required to be Heyting algebra morphisms, but can be arbitrary monotone maps.)
+
 A **first-order hyperdoctrine** consists of a [[category]] with [[finite products]] $C_T$, along with a [[functor]] 
 
 $$
   P \colon C_T^{op} \to HeytAlg_{AdjCyl}
 $$ 
-
-(where $HeytAlg_{AdjCyl}$ is the [[subcategory]] of [[HeytAlg|the category of Heyting algebras]] containing only those [[morphism]]s with [[left adjoint|left]] and [[right adjoint]]s) such that the following [[Beck-Chevalley condition]] is satisfied: for every [[object]] $A$, the [[left adjoint]]s to $P(\pi)$ for the [[projection]]s $\pi : A \times - \to -$ comprise a [[natural transformation]] from $P(A \times -)$ to $P(-)$, and so do the right adjoints. This expresses the Beck-Chevalley condition for pullback squares of the form 
+such that the following [[Beck-Chevalley condition]] is satisfied: for every [[object]] $A$, the [[left adjoint]]s to $P(\pi)$ for the [[projection]]s $\pi : A \times - \to -$ comprise a [[natural transformation]] from $P(A \times -)$ to $P(-)$, and so do the right adjoints. This expresses the Beck-Chevalley condition for pullback squares of the form 
 
 $$\array{
 A \times B & \stackrel{\pi_B}{\to} & B \\
@@ -46,13 +48,12 @@ $$\exists(\delta_A)(\top_{P(A)}) \in P(A \times A)$$
 where for any morphism $f$ in $C_T$, we use $\exists (f)$ to denote the left adjoint of $P(f)$, and $\top_H$ denotes the top element in a Heyting algebra $H$. However, to get good properties for equality, we need to assume a little more. A **first-order hyperdoctrine with [[equality]]** is a first-order hyperdoctrine such that the Beck-Chevalley condition is also satisfied for pullback diagrams of the form  
 
 $$\array{
-A & \stackrel{\delta_A}{\to} & A \times A \\
- ^\mathllap{\delta_A} \downarrow & & \downarrow^\mathrlap{1_A \times \delta_A} \\
-A \times A & \underset{\delta_A \times 1_A}{\to} & A \times A \times A
-}$$ 
+A\times B & \stackrel{A\times f}{\to} & A \times C \\
+ ^\mathllap{\delta_A\times B} \downarrow & & \downarrow^\mathrlap{\delta_A \times C} \\
+A \times A \times B& \underset{A\times A\times f}{\to} & A \times A \times C
+}.$$ 
 
-This says $P(1_A \times \delta_A) \circ \exists (\delta_A \times 1_A) = \exists (\delta_A) \circ P(\delta_A)$; this equation is also known as a [Frobenius law](http://ncatlab.org/nlab/show/Frobenius+reciprocity#frobenius_laws_and_frobenius_reciprocity_11). By taking right adjoints, a similar equation holds for $\forall (f)$ in place of $\exists (f)$, where $P(f) \dashv \forall (f)$. 
-
+This says $P(A\times A \times f) \circ \exists (\delta_A \times B) = \exists (\delta_A \times C) \circ P(A\times f)$.
 
 ### Interpretation
 
