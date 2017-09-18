@@ -68,6 +68,163 @@ The classical Adams spectral sequence is the special case with $Y = X = \mathbb{
 
 The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mathbb{S}$ and $E = $ [[MU]], discussed [below](#TheAdamsNovikovSpectralSequence).
 
+#### $E$-Adams spectral sequences
+
+
++-- {: .num_defn #EAdamsSpectralSequence}
+###### Definition
+
+Let $X,Y \in Ho(Spectra)$ be two [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)), and let $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)). Then the **$E$-[[Adams spectral sequence]]** for the computation of the [[graded abelian group]] $[X,Y]_\bullet$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a tower of fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the tower
+
+$$
+  \array{
+    & \vdots
+    \\
+    & \downarrow
+    \\
+    & Y_3 &\overset{f_3}{\longrightarrow}& E \wedge Y_3 = W_3
+    \\
+    & \downarrow
+    \\
+    & Y_2 &\overset{f_2}{\longrightarrow}& E \wedge Y_2 = W_2
+    \\
+    & \downarrow
+    \\
+    & Y_1 &\overset{f_1}{\longrightarrow}& E \wedge Y_1 = W_1
+    \\
+    & \downarrow
+    \\
+    Y = & Y_0 &\overset{f_0}{\longrightarrow}& E \wedge Y_0  = W_0
+  }
+  \,,
+$$
+
+where each hook is a [[homotopy fiber sequence]] (equivalently a [[homotopy cofiber sequence]], [prop](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)), hence where each 
+
+$$
+  Y_{n+1} \longrightarrow Y_n \longrightarrow W_n \longrightarrow \Sigma Y_{n+1}
+$$
+
+is an exact triangle ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)), where 
+
+$$
+  W_n \coloneqq E \wedge Y_n
+  \,,
+$$ 
+
+and where
+
+$$
+  f_n
+  \;\colon\;
+  Y_n 
+    \underoverset{\simeq}{\ell^{-1}_{Y_n}}{\longrightarrow} 
+  \mathbb{S} \wedge Y_n
+    \overset{e \wedge id}{\longrightarrow}
+  E \wedge Y_{n}
+$$
+
+is the composition of the inverse derived [[unitor]] on $Y_n$ with the smash product of the unit $e$ of $E$ and the identity on $Y_n$.
+
+=--
+
+([Adams 74, theorem 15.1 page 318](#Adams74))
+
++-- {: .num_defn #HomotopyFiberOfUnitOfCommutativeRingSpectrum}
+###### Definition
+
+For $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)), write $\bar E$ for the [[homotopy fiber]] of its unit $e \colon \mathbb{S}\to E$, i.e. such that there is a [[homotopy fiber sequence]] (equivalently a [[homotopy cofiber sequence]], [prop](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)) in the [[stable homotopy category]] $Ho(Spectra)$ of the form
+
+$$
+  \bar E 
+    \longrightarrow 
+  \mathbb{S}
+    \overset{e}{\longrightarrow}
+  E
+$$
+
+hence an exact triangle ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)), 
+
+$$
+  \overline{E} 
+    \longrightarrow 
+  \mathbb{S}
+    \overset{e}{\longrightarrow}
+  E
+    \longrightarrow
+  \Sigma \overline{E}
+  \,.
+$$
+
+=--
+
+([Adams 74, theorem 15.1 page 319](#Adams74))
+
++-- {: .num_lemma}
+###### Lemma
+
+The spectra entering the definition of the $E$-[[Adams spectral sequence]] in def. \ref{EAdamsSpectralSequence} are equivalently
+
+$$
+  Y_p 
+    \;\simeq\; 
+  \overline{E}^p \wedge Y 
+$$
+
+and
+
+$$
+  W_p
+    \;\simeq\;
+  E \wedge \overline{E}^p \wedge Y
+  \,.
+$$
+
+where we writw
+
+$$
+  \overline{E}^p
+  \coloneqq 
+  \underset{
+    p\; factors
+  }{
+    \underbrace{
+      \overline{E} \wedge \cdots \wedge \overline{E}
+  }} \wedge Y
+  \,.
+$$
+
+=---
+
+([Adams 74, theorem 15.1 page 319](#Adams74))
+
+
++-- {: .proof}
+###### Proof
+
+By definition the statement holds for $p = 0$. Assume then by [[induction]] that it holds for some $p \geq 0$. Since the [[smash product of spectra]]-functor $\overline{E}^p \wedge Y \wedge (-)$ preserves [[homotopy cofiber sequences]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers)), its application to the homtopy cofiber sequence 
+
+$$
+  \overline{E}
+    \longrightarrow
+  \mathbb{S}
+    \overset{e}{\longrightarrow}
+  E
+$$
+
+from def. \ref{HomotopyFiberOfUnitOfCommutativeRingSpectrum} yields a homotopy cofiber sequence of the form
+
+$$
+  \overline{E}^{p+1} \wedge Y
+    \longrightarrow
+  \overline{E}^p \wedge Y
+    \longrightarrow
+  E \wedge \overline{E}^p \wedge Y
+$$
+
+where by induction assumption the morphism on the right is $f_p$. Hence it follows that $Y_{p+1} \simeq \overline{E}^{p+1} \wedge Y$.
+
+=--
 
 #### $E$-Adams resolutions
 
