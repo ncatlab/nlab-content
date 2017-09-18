@@ -23,7 +23,7 @@ A long list of mathematical structures happens to have a classification that is 
 
 * [[quiver representations]]
 
-* [[simple singularities]]
+* [[simple singularities]] (see [[ADE singularity]])
 
 * certain [[2d CFTs]]
 
@@ -35,7 +35,7 @@ and many more.
 
 The obvious question for what might be the conceptual origin of this joint classification is attributed to ([Arnold 76](#Arnold76)). 
 
-Starting with ([Douglas-Moore 96](#DouglasMoore96)) is the observation that many of these structures are naturally aspects of the description of [[string theory]] [[KK-compactification|KK-compactified]] on _ADE-[[orbifolds]]_ of the form $\mathbb{C}^n //\Gamma$ for $\Gamma$ a [[finite group|finite]] [[subgroup]] of $SL_2(\mathbb{C})$.
+Starting with ([Douglas-Moore 96](#DouglasMoore96)) is the observation that many of these structures are naturally aspects of the description of [[string theory]] [[KK-compactification|KK-compactified]] on _[[orbifolds]] with [[ADE singularities]]_ of the form $\mathbb{C}^n //\Gamma$ for $\Gamma$ a [[finite group|finite]] [[subgroup]] of $SL_2(\mathbb{C})$.
 
 ## Related concepts
 
