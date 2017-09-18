@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Katsumi_Nomizu)
+
+## related $n$Lab entries
+
+* [[differential geometry]]
+
+* [[G-structure]]
+
+category: people
