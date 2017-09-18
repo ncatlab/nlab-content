@@ -33,7 +33,7 @@ $$
   S \in Rep(Spin(d-1,1))
 $$
 
-be a [[spin representation]] with the property that there exists a [[linear map]]
+be a real [[spin representation]] ([[Majorana spinor]]), which has the property ([def.](Majorana+spinor#SpinorToVectorBilinearPairing), [prop.](Majorana+spinor#SpinorToVectorPairing)) that there exists a [[linear map]]
 
 $$
   \Gamma \;\colon\; S \otimes S \longrightarrow \mathbb{R}^{d-1,1}
@@ -349,3 +349,6 @@ For more on this see at _[[division algebra and supersymmetry]]_.
 
 [[!redirects super Poincaré Lie algebra]]
 [[!redirects super Poincaré Lie algebras]]
+
+[[!redirects super Poincaré super Lie algebra]]
+[[!redirects super-Poincaré Lie algebra]]
