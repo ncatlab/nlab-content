@@ -5,4 +5,6 @@
 
 * [[localization of a ring]]
 
+* [[rational homotopy theory]], [[nilpotent topological space]]
+
 category: people
