@@ -67,11 +67,16 @@ algebras are also equivalent.
 
 ## References
 
-[[Koki Nishizawa]], [[John Power]].
-_Lawvere theories enriched over a general base_. Journal of Pure and Applied Algebra **213**, Issue 3, March 2009, Pages 377--386.
+* [[John Power]], _Enriched Lawvere theories_, [tac](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html)
+
+* [[Koki Nishizawa]], [[John Power]], _Lawvere theories enriched over a general base_. Journal of Pure and Applied Algebra **213**, Issue 3, March 2009, Pages 377--386. ([pdf](http://cfv.jp/cvs/introduction/pdf/PS2005-005.pdf)), 
 MR2477057, Zbl:1158.18003,
 doi:[10.1016/j.jpaa.2008.07.009](http://dx.doi.org/10.1016/j.jpaa.2008.07.009).
 
-Rory B. B. Lucyshyn-Wright.
-_Enriched algebraic theories and monads for a system of arities_.
-[arXiv:1511.02920v2](http://arxiv.org/abs/1511.02920v2).
+* [[Sam Stanton]], _Freyd categories are
+enriched Lawvere theories_, [pdf](http://www.cs.ox.ac.uk/people/samuel.staton/papers/freyd-lawvere-2014.pdf)
+
+* Rory B. B. Lucyshyn-Wright, _Enriched algebraic theories and monads for a system of arities_.
+[arXiv:1511.02920](https://arxiv.org/abs/1511.02920).
+
+* [[Stephen Lack]], [[John Power]], _Gabriel-Ulmer Duality and Lawvere Theories Enriched over a General Base_, [pdf](http://maths.mq.edu.au/~slack/papers/jfp.pdf)
