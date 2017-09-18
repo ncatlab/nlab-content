@@ -226,7 +226,7 @@ Details are in
 
 * {#ShulmanLumsdaine12} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics of higher inductive types_, 2012 ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semantics.pdf/410646692/semantics.pdf))
 
-* {#ShulmanLumsdaine16} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics and syntax of higher inductive types_, 2016, ([slides]((http://home.sandiego.edu/~shulman/papers/stthits.pdf))
+* {#ShulmanLumsdaine16} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics and syntax of higher inductive types_, 2016, ([slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf))
 
 * {#Brunerie16} [[Guillaume Brunerie]], _Implementation of higher inductive types in HoTT-Agda_, 2016, [github](https://github.com/HoTT/HoTT-Agda/blob/master/core/lib/types/HIT_README.txt)
 
