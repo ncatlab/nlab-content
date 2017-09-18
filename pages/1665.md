@@ -103,7 +103,7 @@ $$\forall_{d: D} r(d, c) \Rightarrow s(d, b)$$
 
 * adjunctions in a 2-category can be defined in terms of Kan lifts: a 1-cell $u\colon A \to B$ has a left adjoint iff $\mathop{Lift}_u 1_B$ exists and is absolute; in this case putting $(f,\iota) = \mathop{Lift}_u 1_B$ we have $f \dashv u$ with unit $\iota \colon 1_B \Rightarrow u f$. The universal property of the left Kan lift plus absoluteness are enough to construct the counit and to verify the triangular equations. There's of course a dual definition in terms of absolute right Kan lifts.
 
-* relative adjoints can also be expressed as absolute kan lifts; in fact, they are the same thing. See [[relative adjoint]] for a precise statement in the $\mathbf{Cat}$ setting.
+* relative adjoints in $\mathbf{Cat}$ can also be expressed as absolute kan lifts; see [[relative adjoint]] for a precise statement.
 
 * representably fully faithful 1-cells, meaning those for which $B(X,f)$ is fully faithful in $\mathbf{Cat}$ for every object $X\colon B$, are those for which $(1_A, 1_f) = \mathop{Lift}_f f$, and this lifting is absolute.
 
