@@ -59,6 +59,118 @@ This implies in particular that
 
    is symmetric in its arguments, reflecting the fact that this is the integral kernel for [[time-ordered products]] away from the [[diagonal]].
 
+## Properties
+
+
+$$
+  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfFeynmanIntegrand}
+  \Delta_A(x,y)
+  \;=\;
+  (2\pi)^{-p}
+  \int
+    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + m^2 - i k_0 \epsilon/2 }
+  d^4 k
+$$
+
+Consider the abbreviation
+
+$$
+  E_\epsilon(\vec k) 
+    \coloneqq 
+  \sqrt{ 
+    \vec k^2 + m^2 - \epsilon^2
+  }
+ \,.
+$$
+
+With this we compute:
+
+$$
+  \begin{aligned}
+    \underset{\epsilon \to 0^+}{\lim}
+    \int
+     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 - i k_0 \epsilon /2 }
+    d^{p+1} k
+    & =
+    \underset{\epsilon \to 0^+}{\lim}
+    \int
+    \int
+      \frac{
+        e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
+      }{
+        - (k_0 + i \epsilon )^2 + E_\epsilon(\vec k)^2 
+      } 
+    d k_0
+    d^p \vec k 
+    \\
+    & =
+    \underset{\epsilon \to 0^+}{\lim}
+    \int
+      \frac{
+        e^{-i k_0 (x-y)^0} e^{- i \vec k \cdot (\vec x - \vec y)}
+      }{
+        ( E_\epsilon(\vec k) + (k_0 + i \epsilon) )
+        ( E_\epsilon(\vec k) - (k_0 + i \epsilon) )
+      } 
+    d k_0
+    d^p \vec k
+    \\
+    & = 
+    \left\{
+      \array{
+        2\pi i
+        \int
+        \frac{
+          e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
+        }
+        {
+          2 E(\vec k)
+        }
+        -
+        \frac{
+          e^{ + i E(\vec k)(x-y)^2} e^{-i \vec k \cdot (\vec x - \vec y)}
+        }{
+          2 E(\vec k)
+        }
+        & \vert & x^0 \gt 0
+        \\
+        0 & \vert & x^0 \lt 0
+      }
+    \right.
+    \\
+    & = 
+    \pi i
+    \Theta(x^0)
+    \int
+      \frac{1}{E(\vec k)}
+      sin\left( E(\vec k)(x-y)^0 \right)
+      e^{-i \vec k \cdot (\vec x - \vec y)}
+     d^p \vec k
+     \,,
+  \end{aligned}
+$$
+
+where the key step is the third: To obtain this in the case $x \gt 0$ we 
+
+1. decompose the integral over $k_0$ as 
+
+   $$
+     \begin{aligned}
+       \int_{-\infty}^\infty d k_0 
+       & = \phantom{+} 
+         \int_{-\infty}^0 d k_0 + \int_{0}^{- i \infty} 
+       \\
+       & = + \int_{-i \infty}^0 + \int_0^\infty d k_0
+     \end{aligned}
+   $$;
+
+1. complete this to a sum of two [[contour integrals]], the first going clockwise around the [[pole]] at $- E_\epsilon(\vec k) - i \epsilon \in \mathbb{C}$ in the [[lower half plane]], the second going clockwise around $+ E_\epsilon(\vec k) + i$;
+
+1. apply [[Cauchy's integral formula]] to find the sum of the [[residues]] at these two [[poles]].
+
+For $x \lt 0$ one proceeds analogously, now completing to contours in the upper half plane. These do not enclose the two [[poles]] and hence in this case [[Cauchy's integral formula]] says that the result vanishes.
+
+
 ## Related concepts
 
 [[!include propagators - table]]
