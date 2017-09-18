@@ -84,7 +84,7 @@ For the first statement, we use the fact that any manifold $M$ can be realized a
 
 For the second statement, assume that the origin $0$ is a fixed point of $p$, and let $T_0(U) \cong \mathbb{R}^n$ be its tangent space (observe the presence of a _canonical_ isomorphism to $\mathbb{R}^n$). Thus we have idempotent linear maps $d p(0), Id-d p(0): T_0(U) \to T_0(U)$ where the latter factors through the inclusion $\ker \; d p(0) \hookrightarrow T_0(U)$ via a projection map $\pi: T_0(U) \to \ker \; d p(0)$. We have a map $f: U \to \mathbb{R}^n$ that takes $x \in U$ to $x - p(x)$; let $g$ denote the composite 
 
-$$U \stackrel{f}{\to} \mathbb{R}^n \cong T_0(U) \stackrel{\pi}{\to} \ker\; d p(0).$$ 
+$$U \stackrel{f}{\longrightarrow} \mathbb{R}^n \cong T_0(U) \stackrel{\pi}{\longrightarrow} \ker\; d p(0).$$ 
 
 Now we make some easy observations: 
 
@@ -217,13 +217,13 @@ Define a functor $Diff \to LocRep(CartSp)$ by sending each smooth manifold to th
 For that we need to show that
 
 $$
-  \coprod_{i, j} U_i \times_X U_j \stackrel{\to}{\to} \coprod_i U_i \to X
+  \coprod_{i, j} U_i \times_X U_j \stackrel{\longrightarrow}{\longrightarrow} \coprod_i U_i \to X
 $$
 
 is a [[coequalizer]] diagram in $Sh(CartSp)$ (that the [[Cech groupoid]] of the cover is equivalent to $X$.). Notice that the [[fiber product]] here is just the intersection in $X$ $U_i \times_X U_j \simeq U_i \cap U_j$. By the fact that the [[sheaf topos]] $Sh(CartSp)$ is by definition a [[reflective subcategory]] of the [[presheaf topos]] $PSh(CartSp)$ we have that [[colimit]]s in $Sh(CartSp)$ are computed as the [[sheafification]] of the corresponding colimit in $PSh(CartSp)$. The colimit in $PSh(CartSp)$ in turn is computed objectwise. Using this, we see that that we have a coequalizer diagram
 
 $$
-  \coprod_{i, j} U_i \times_X U_j \stackrel{\to}{\to} \coprod_i U_i \to S(\{U_i\})
+  \coprod_{i, j} U_i \times_X U_j \stackrel{\longrightarrow}{\longrightarrow} \coprod_i U_i \to S(\{U_i\})
 $$
 
 in $PSh(CartSp)$, where $S(\{U_i\})$ is the [[sieve]] corresponding to the cover: the [[subfunctor]] $S(\{U_i\}) \hookrightarrow X$ of the functor $X : CartSp^{op} \to Set $ which assigns to $V \in CartSp$ the set of [[smooth function]]s $V \to X$ that have the property that they factor through any one of the $U_i$.
@@ -233,7 +233,7 @@ Essentially by the definition of the [[coverage]] on $CartSp$, it follows that [
 Conversely, suppose that for $X \in Conc(Sh(CartSp)) \hookrightarrow Sh(CartSp)$ there is a family of open embeddings $\{U_i \hookrightarrow X\}$ such that we have a coequalizer diagram
 
 $$
-  \coprod_{i, j} U_i \times_X U_j \stackrel{\to}{\to} \coprod_{i} U_i \to X
+  \coprod_{i, j} U_i \times_X U_j \stackrel{\longrightarrow}{\longrightarrow} \coprod_{i} U_i \to X
 $$
 
 in $Sh(CartSp)$, which is the sheafification of the corresponding coequalizer in $PSh(CartSp)$. By evaluating this on the point, we find that the underlying set of $X$ is the coequalizer of the underlying set of the $U_i$ in $Set$. Since every plot of $X$ factors locally through one of the $U_i$ it follows that $X$ is a [[diffeological space]].  
