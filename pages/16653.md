@@ -46,6 +46,11 @@ and so by [[unique factorization domain|unique factorization]] of polynomials, f
 
 The construction of a splitting field of a polynomial may be easily modified to construct a splitting field of any set of polynomials, and indeed of the set of all monic polynomials over $k$ (viz., an [[algebraic closure]] of $k$), and the proof of uniqueness up to isomorphism above is also easily modified so as to apply at this level of generality. 
 
++-- {: .num_remark} 
+###### Remark 
+The implicit use of Zorn's lemma here is a sledgehammer and, arguably, somewhat ridiculous overkill in the case of a splitting field for a *single* polynomial; here we are really dealing with finite-dimensional extensions and no choice principle is actually required (i.e., existence and uniqueness up to isomorphism are provable in ZF). The case for splitting fields of arbitrary sets of polynomials is more interesting: actually the [[ultrafilter theorem|ultrafilter principle]], which is strictly weaker than [[Zorn's lemma]], is enough as a choice principle. Basically one may apply model-theoretic arguments based ultimately on the Compactness Theorem for first-order logic (whose set-theoretic underpinning requires only the ultrafilter principle), as explained in a [MathOverflow answer](http://mathoverflow.net/a/46729/2926) by Joel David Hamkins. However, the proofs given above are quick and easy to understand, and the proof of uniqueness does carry the seed of an amalgamation argument lying at the heart of the model-theoretic considerations. 
+=-- 
+
 ## References 
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Algebraic_closure#Existence_of_an_algebraic_closure_and_splitting_fields) 
