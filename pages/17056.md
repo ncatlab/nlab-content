@@ -13,7 +13,7 @@
 
   * [[jet (∞,1)-category]]
 
-  * [[polynomial (∞,1)-functor]]
+  * [[polynomial (∞,1)-functor]], [[n-reduced (∞,1)-functor]], [[n-homogeneous (∞,1)-functor]]
 
 * [[Goodwillie-Taylor tower]]
 
