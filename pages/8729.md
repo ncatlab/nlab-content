@@ -24,7 +24,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A _sylleptic 3-group_ is a [[3-group]] eqipped with the following equivalent [[structure]]:
+A _sylleptic 3-group_ is a [[3-group]] equipped with the following equivalent [[structure]]:
 
 1. Regarded as a [[monoidal 2-category]], $G$ is a [[sylleptic monoidal 2-category]].
 
