@@ -20,7 +20,7 @@
 
 ## Idea
 
-The classical _Brown representability theorem_ ([Brown 62](#Brown62)) says that certain contravariant [[functors]] on the [[homotopy category]] are [[representable functor|representable]].  This is used, for instance, to show that any [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]] is representable by a [[spectrum]].
+The classical _Brown representability theorem_ ([Brown 62](#Brown62)) says that certain contravariant [[functors]] on the [[homotopy category]] are [[representable functor|representable]].  This is used, for instance, to show that every [[generalized (Eilenberg-Steenrod) cohomology]] theory is representable by a [[spectrum]]. (But beware that the cohomology theory in general contains less information than the spectrum, due to [[phantom maps]]. (see also [MO discussion](http://mathoverflow.net/q/117684/381)))
 
 There are various generalizations, such as to homotopy categories of other [[model category|model categories]] ([Brown 65](#Brown65)) and to [[triangulated category|triangulated categories]].  Note, however, that all of these generalizations require either
 
