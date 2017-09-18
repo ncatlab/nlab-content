@@ -12,9 +12,13 @@
 
 ## Related entries
 
+* [[doctrine of ideas]]
+
 * [[idealism]]
 
   * [[objective idealism]]
+
+  * [[absolute idealism]]
 
 ## References
 
