@@ -46,7 +46,7 @@ Standard inductive types, [[W-types]] can be interpreted in any topos with [[nat
 [Indexed containers](#AGHMM) are claimed to form a foundation for inductive families.
 
 ## Higher categorical version/ homotopy type theory
-[van den Berg and Moerdijk]{#vdBergMoerdijk13} show that (standard) W-types can be interpreted in certain [[model categories]].
+[van den Berg and Moerdijk](#vdBergMoerdijk13) show that (standard) W-types can be interpreted in certain [[model categories]].
 [Sattler](#Sattler) claims to have a generalization of the reduction from indexed W-types to W-types to higher categories/[[homotopy type theory]].
 
 ## References {#References} 
