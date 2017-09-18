@@ -320,6 +320,8 @@ The relation to [[self-dual Yang-Mills theory]] is due to
 
 Introductions and surveys include
 
+* [[Yuri Manin]], chapter 1 of _[[Gauge Field Theory and Complex Geometry]], Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
+
 * Fedja Hadrovich, _Twistor primer_ ([html](http://users.ox.ac.uk/~tweb/00004/), [pdf](http://henry.pha.jhu.edu/twistors.pdf))
 
 * Paul Bair, _Introduction to twistors_ ([pdf](http://www.math.jussieu.fr/~helein/encyclopaedia/baird-twistors.pdf))
