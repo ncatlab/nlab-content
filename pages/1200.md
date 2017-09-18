@@ -81,3 +81,10 @@ One important use of ordinals is to index transfinite constructions, such as:
 [[!redirects von Neumann ordinal numbers]]
 [[!redirects Von Neumann ordinal number]]
 [[!redirects Von Neumann ordinal numbers]]
+
+[[!redirects limit ordinal]]
+[[!redirects limit ordinals]]
+
+[[!redirects limiting ordinal]]
+[[!redirects limiting ordinals]]
+
