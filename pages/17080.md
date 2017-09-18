@@ -1,0 +1,14 @@
+
+## Idea
+
+...regular [[polyhedron]]...
+
+## Examples
+
+* [[Platonic solid]]
+
+## References
+
+* Wikipedia, _[Regular polyhedron](https://en.wikipedia.org/wiki/Regular_polyhedron)_
+
+[[!redirects regular polyhedra]]
