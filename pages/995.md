@@ -17,6 +17,7 @@
 
 A _filter_ is [[duality|dual]] to an [[ideal]].
 
+A [[proper filter]] is equivalently the [[eventuality filter]] of a [[net]].
 
 ## Definitions
 
