@@ -58,7 +58,7 @@ for $S^0$ regarded as equipped with the (necessarily) trivial $G$-action. It fol
 
 ### Equivariant homotopy groups and fixed point spectra
 
-The [[equivariant homotopy groups]] and the [[fixed point spectra]] of equivariant suspension spectra $\Sigma^\infty-G$ decompose into the naive [[fixed points]] of the $G$-action on $X$. This is the _[[tom Dieck splitting]]_, see there for details.
+The [[equivariant homotopy groups]] and the [[fixed point spectra]] of equivariant suspension spectra $\Sigma^\infty_G X$ decompose into the naive [[fixed points]] of the $G$-action on $X$. This is the _[[tom Dieck splitting]]_, see there for details.
 
 ## References
 
