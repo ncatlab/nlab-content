@@ -40,7 +40,7 @@ Although the ultrafilter theorem is weaker than the axiom of choice, it can be u
 
 * existence of non-trivial [[ultraproducts]], 
 
-* Compactness theorem and completeness theorem for [[first-order logic]] (see below) 
+* [[compactness theorem]] and completeness theorem for [[first-order logic]] (see below) 
 
 as a partial list. An enlightening discussion of the things one might expect to be able to prove using the ultrafilter theorem is given [here at MO](http://mathoverflow.net/questions/202458/how-do-i-apply-the-boolean-prime-ideal-theorem). 
 
