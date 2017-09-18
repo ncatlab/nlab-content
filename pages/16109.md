@@ -63,4 +63,5 @@ There is no question that the trigonometric functions are rich in significance; 
 
 * Wikipedia, _[Trigonometric function](https://en.wikipedia.org/wiki/Trigonometric_functions)_
 
+* Springer [[eom]]: V.I. Bityutskov, [Trigonometric functions](http://www.encyclopediaofmath.org/index.php?title=Trigonometric_functions&oldid=14919)
 [[!redirects trigonometric functions]]
