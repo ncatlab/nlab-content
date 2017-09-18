@@ -1,5 +1,7 @@
 * [website](http://www.dima.unige.it/~grandis/)
 
+* [list of publications](http://www.dima.unige.it/~grandis/rec.public_grandis.html)
+
 #Related entries#
 
 * [[directed space]]
