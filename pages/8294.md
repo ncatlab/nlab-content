@@ -88,6 +88,8 @@ See at _[homotopy pullback -- concrete constructions -- In homotopy type theory]
 
 * [[Diophantine equation]]
 
+* [[trigonometric identity]]
+
 * [[differential equation]]
 
 * [[Euler-Lagrange equation]], [[equation of motion]]
