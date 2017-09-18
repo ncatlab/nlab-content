@@ -350,6 +350,8 @@ For more details see [[semilattice of commutative subalgebras]].
 
 * [[Jordan-Lie-Banach algebra]]
 
+* [[JBW-algebraic quantum mechanics]]
+
 * [[order-theoretic structure in quantum mechanics]]
 
   * [[Alfsen-Shultz theorem]]
