@@ -38,7 +38,7 @@ and the obvious six pentagon equations and four triangle equations that make the
 
 These extra associators are sometimes called "distributors", and should not be confused with [[profunctors]].  The term is a pun on the distributivity of multiplication over addition, but "linearized" so that each variable only appears once in the result.
 
-**Warning:** a linearly distributive category *cannot* be a [[distributive category]], unless it is a partial order.
+**Warning:** a [[distributive category]] *cannot* be made into a linearly distributive category with $\otimes = \times$ and $\bullet = +$ unless it is a [[partial order]] (but every [[distributive lattice]] is indeed a linearly distributive category).  See [Cockett-Seely](#CockettSeely97) for a proof.  This mistake is easy to make and even appears in print in one or two places.
 
 ## Related structures
 
@@ -148,6 +148,9 @@ Linearly distributive categories have now been used as the substrate for a numbe
 
 * Willem Heijltjes, [[Robin Houston]], _No proof nets for MLL with units: proof equivalence in MLL is PSPACE-complete_, CSL-LICS '14 Proceedings of the Joint Meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic (CSL) and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS), Article No. 50. ([web](http://dl.acm.org/citation.cfm?id=2603126)) 
  {#HH} 
+
+* M.E. Szabo, *Polycategories*, Comm. Algebra 3 (1975) 663-689.  [DOI](http://www.tandfonline.com/doi/abs/10.1080/00927877508822067)
+ {#Szabo}
 
 Frobenius algebras in linearly distributive categories are discussed in
 
