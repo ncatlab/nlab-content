@@ -236,6 +236,9 @@ For instance the automorphisms of the [[supergravity Lie 3-algebra]] gives the "
 
 ### General
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.1 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+
 The seminal classification result of simple supersymmetry algebras is due to 
 
 * [[Werner Nahm]], _Supersymmetries and their Representations_, Nucl.Phys. B135 (1978) 149 ([spire](http://inspirehep.net/record/120988?ln=en))
