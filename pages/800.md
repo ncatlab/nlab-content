@@ -14,7 +14,7 @@
 =--
 
 # Equivalence of categories
-* table of contents
+* table of contentshttps://ncatlab.org/nlab/edit/equivalence+of+categories
 {: toc}
 
 ## Idea
@@ -54,13 +54,13 @@ An **equivalence** between two [[categories]] $\mathcal{C}$ and $\mathcal{D}$ is
 1. [[natural isomorphisms]]
 
    $$
-     F \circ G \cong Id_D
+     F \circ G \cong Id_{\mathcal{D}}
    $$
 
    and 
 
    $$
-     G \circ F \cong Id_C
+     G \circ F \cong Id_{\mathcal{C}}
      \,.
    $$
 
@@ -111,10 +111,16 @@ Two [[strict categories]] $C$ and $D$ are __isomorphic__ if there exist [[strict
 
 If you think of $Cat$ as the category of (strict) categories and functors, then this is the usual notion of [[isomorphism]] in a category.  This is the most obvious notion of equivalence of categories and the first to be considered, but it is simply too strong for the purposes to which [[category theory]] is put.
 
-#### Example why strict isomorphism is too strong. 
+#### Basic examples why strict isomorphism is too strong. 
 
-Let $\mathsf{C}_0:= \bullet\downarrow\mathsf{Sets}$ denote the [[coslice category]] ($=$ [[undercategory]]) of the category of sets under a terminal object. This is also known as the category of  _pointed sets_. 
-Let $\mathsf{C}_1$ denote the full subcategory of the category of [[span]]s in $\mathsf{Sets}$ consisting of precisely those spans at least one of whose legs is an inclusion. This is often interpreted as the category of [[partial functions]] of sets.
+Generally, (and to repeat what was said above), the reason to avoid isomorphisms in favor of equivalences of categories is the flexibility gained by replacing strict equations by isomorphism. 
+
+Specifically, a basic example is this: it is widely known that, given a field $K$, to most intents and purposes the abstract concept of a $2$-dimensional $K$-vector space (together with all $K$-linear maps between them) is equivalent to the concrete concept of the _dimension_ $d$ itself (together with all $2\times 2$ matrices over $K$). The functor $F$ which sends an abstract $2$-dimensional $K$-vector spaces to the _dimension_ $2$ itself (and does the usual thing to the linear maps) can be fitted into an _equivalence_ of categories, but not into an isomorphism of categories, essentially for _size_ reasons alone: the target category is a [[small category]] (and if the field is finite, even a [[finite category]]), while the source category is a [[large category]]. The source category (of all $K$-vector spaces) is large even if $K$ is a finite field, but for an inessential reason: in the usual contemporary implementation of mathematics, you are absolutely free how to set-theoretically implement your vector space (you may declare any set, no matter how large, to serve as your first basis vector, for example), but these implementation choices are essentially irrelevant. 
+So the single number $2$ gets sent a proper class of objects, and when defining the functor $G$ (in the notation above) you both (0) have to make an arbitrary choice among a class of objects, and (1) cannot make that choice so as to have $G\circ F=Id_{\mathcal{C}}$ strictly.
+
+ This should not be a reason not to regard these two concepts to be equivalent, though, and [[category theory]]  offers a precise instrument how to do so: whatever choice you make, you do get $G\circ F\cong Id_C$, since any two $K$-vector spaces of the same dimension are isomorphic. (Incidentally, this equivalence between a large category and a finite category also is, in a sense,  a half-isomorphism of categories: whichever of the choices you make, you _do_ get $F\circ G=Id_{\mathcal{D}}$ strictly.)
+
+Another usual example is $\mathcal{C}:= \bullet\downarrow\mathsf{Sets}$ $=$ the [[coslice category]] ($=$ [[undercategory]]) of the category of sets under a terminal object. This is also known as the category of  _pointed sets_ and $\mathcal{D}$ the full subcategory of the category of [[span]]s in $\mathsf{Sets}$ consisting of precisely those spans at least one of whose legs is an injection. This is often interpreted as the category of [[partial functions]] of sets. See the section "The category of sets and partial functions" in [[partial function]] for this equivalence.
 
 
 
