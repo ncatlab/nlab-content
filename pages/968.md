@@ -63,6 +63,8 @@ $S^1$-[[equivariant homotopy theory]] ([Spalinski 95](#Spalinski95), [Blumberg 0
 
 * [[skew-simplicial set]], [[symmetric set]], [[simplicial set]]
 
+* [[cyclotomic spectrum]]
+
 ## References
 
 The definition is originally due to 
@@ -92,5 +94,9 @@ The [[homotopy theory]] of cyclic sets and its relation to $S^1$-[[equivariant h
 An old query is archived in $n$Forum [here](http://nforum.mathforge.org/discussion/5822/cyclic-set/?Focus=46240#Comment_46240).
 
 There are fairly recent slides by Spalinski on the subject [here](http://www.mimuw.edu.pl/~cat09/slides/Spalinski.pdf), which also discuss relationships with [[dihedral sets]] and [[quaternionic set]]s, as studied by [[Loday]].
+
+See also 
+
+* {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](http://math.uiuc.edu/~cmalkiew/ytm_2015.pdf))
 
 [[!redirects cyclic sets]]
