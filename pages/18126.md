@@ -1256,7 +1256,7 @@ commutes with taking unions and with taking intersections.
 <img src="https://ncatlab.org/nlab/files/ProductTopology.png" width="300">
 </div>
 
-For $(X_1,\tau_{X_1})$ and $(X_2, \tau_{X_2})$ two [[topological spaces]], then their _[[product topological space|binary product topological space]]_ 
+For $(X_1,\tau_{X_1})$ and $(X_2, \tau_{X_2})$ two [[topological spaces]], then their _[[product topological space|binary product topological space]]_
 has as underlying set the [[Cartesian product]] $X_1 \times X_2$ of the corresponding two underlying sets,
 and its topology is generated from the [[basis for a topology|basis]] (def. \ref{TopologyBase})
 given by the Cartesian products $U_1 \times U_2$ of the opens $U_i \in \tau_i$.
@@ -1270,7 +1270,7 @@ of [[limits]] in the [[category of topological spaces]].
 =--
 
 The following example illustrates how all these ingredients and construction principles
-may be combined. 
+may be combined.
 We will examine this example in more detail below in example \ref{HomeomorphismBetweenTopologicalAndCombinatorialCircle},
 after we have introduced the concept of _[[homeomorphisms]]_ [below](#Homeomorphisms).
 
@@ -1349,7 +1349,7 @@ $$
 
 > graphics grabbed from [Vickers 89](#Vickers89)
 
-If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that _$x$ is a closed point of $X$_.
+If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that $x$ is a _closed point_ of $X$.
 
 Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the smallest closed subset containing $S$:
 
@@ -1362,23 +1362,6 @@ $$
 
 =--
 
-
-+-- {: .num_example }
-###### Example
-
-Regard the [[real numbers]] as the 1-dimensional [[Euclidean space]] and equipped with the
-corresponding [[metric topology]]. Let $a \lt b \in \mathbb{R}$. Then the [[topological closure]]
-(def. \ref{ClosedSubset}) of the [[open interval]] $(a,b) \subset \maathbb{R}$
-(example \ref{OpenAndClosedIntervals}) is the [[closed interval]] $[a,b] \subset \mathbb{R}$:
-
-$$
-  Cl\left(\,(a,b)\,\right)
-  \,=\,
-  [a,b]
-  \,.
-$$
-
-=--
 
 
 +-- {: .num_remark #deMorgan}
@@ -1458,7 +1441,7 @@ $$
      \Leftrightarrow
    \phantom{AA}
    \not\left(
-     \underset{ {U \subset X \backslash S, \text{open}}  \atop  { U \subset X\backslash  } }{\exists}
+     \underset{ {U \subset X \backslash S}  \atop  { U \subset X \, \text{open}  } }{\exists}
       \left(
         x \in U
       \right)
@@ -1512,23 +1495,6 @@ $$
 
 =--
 
-+-- {: .num_example }
-###### Example
-
-Regard the [[real numbers]] as the 1-dimensional [[Euclidean space]] and equipped with the
-corresponding [[metric topology]]. Let $a \lt b \in \mathbb{R}$. Then the [[topological interior]]
-(def. \ref{IntSubset}) of the [[closed interval]] $[a,b] \subset \maathbb{R}$
-(example \ref{OpenAndClosedIntervals}) is the [[open interval]] $(a,b) \subset \mathbb{R}$:
-
-$$
-  Int\left(\,[a,b]\,\right)
-  \,=\,
-  (a,b)
-  \,.
-$$
-
-=--
-
 
 +-- {: .num_lemma #RelationClAndInt}
 ###### Lemma
@@ -1549,7 +1515,7 @@ and conversely
 $$
   X \backslash Cl(S)
   \, = \,
-  Int(\, X \backslash S \,)  
+  Int(\, X \backslash S \,)
   \,.
 $$
 
@@ -1572,6 +1538,42 @@ $$
     \\
     & = Cl(X \backslash S)
   \end{aligned}
+$$
+
+Similarly for the other case.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Regard the [[real numbers]] as the 1-dimensional [[Euclidean space]] and equipped with the
+corresponding [[metric topology]]. Let $a \lt b \in \mathbb{R}$. Then the [[topological interior]]
+(def. \ref{IntSubset}) of the [[closed interval]] $[a,b] \subset \mathbb{R}$
+(example \ref{OpenAndClosedIntervals}) is the [[open interval]] $(a,b) \subset \mathbb{R}$,
+moreover the closed interval is its own [[topological closure]] (def. \ref{ClosedSubset})
+and the converse holds (by lemma \ref{RelationClAndInt}):
+
+$$
+  \array{
+    Cl\left( \,(a,b)\, \right)
+     \,=\,
+    [a,b]
+    &&
+    Int\left( \, (a,b) \,  \right)
+    \,=\,
+    (a,b)
+    \\
+    \\
+    Cl\left( \,[a,b]\, \right)
+     \,=\,
+    [a,b]
+    &&
+    Int\left(\,[a,b]\,\right)
+    \,=\,
+    (a,b)
+  }
+  \,.
 $$
 
 =--
@@ -1647,7 +1649,30 @@ is [[irreducible closed subset|irreducible]] (def. \ref{ClosedIrreducible}).
 
 =--
 
-Sometimes it is useful to re-express the condition of irreducibility of closed subspaces
++-- {: .num_example }
+###### Example
+**(no nontrivial closed irreducibles in metric spaces)**
+
+Let $(X,d)$ be a [[metric space]], regarded as a [[topological space]] via its [[metric topology]] (example \ref{MetricTopology}).
+Then every point $x \in X$ is closed (def \ref{ClosedSubset}), 
+hence every singleton subset $\{x\} \subset X$ is irreducible according to def. \ref{IrreducibleClosureOfPoint}.
+
+Let $\mathbb{R}$ be the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm})
+with its [[metric topology]] (example \ref{MetricTopology}). Then for $a \lt c \subset \mathbb{R}$
+the closed interval $[a,c] \subset \mathbb{R}$ (example \ref{OpenAndClosedIntervals} ) is _not_ 
+irreducible, since for any $b \in \mathbb{R}$ with $a \lt b \lt c$ it is the union of two smaller closed subintervals:
+
+$$
+  [a,c] \,=\, [a, b] \cup [b, c]  
+  \,.
+$$
+
+In fact we will see below (prop. \ref{SoberFromHausdorff}) that in a metric space the singleton subsets are precisely the only
+irreducible closed subsets. 
+
+=--
+
+Often it is useful to re-express the condition of irreducibility of closed subspaces
 in terms of complementary open subsets:
 
 +-- {: .num_prop #OpenSubsetVersionOfClosedIrreducible}
@@ -2168,7 +2193,12 @@ $\,$
 ### Examples
  {#ContinuousFunctionsExamples}
 
-We discuss some basic examples of [[continuous functions]] (def. \ref{ContinuousMaps}) between [[topological spaces]] (def. \ref{TopologicalSpace}).
+We discuss here some basic examples of [[continuous functions]] (def. \ref{ContinuousMaps}) between [[topological spaces]] (def. \ref{TopologicalSpace}) to get a feeling for the nature of the concept. 
+But as with topological spaces themselves, continuous functions between them 
+are ubiquituous in mathematics, and no list will exhaust all classes of examples. Below in the section
+_[Universal constructions](#UniversalConstructions)_ we dicuss a general principle that serves to 
+produce examples of continuous functions with prescribed "[[universal properties]]".
+
 
 +-- {: .num_example #TerminalityOfThePoint}
 ###### Example
@@ -3718,7 +3748,7 @@ By prop. \ref{T0InTermsOfClosureOfPoints}.
 
 +-- {: .num_prop #SoberFromHausdorff}
 ###### Proposition
-**([[Hausdorff implies sober]])**
+**([[Hausdorff spaces are sober]])**
 
 Every [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}) is
 a [[sober topological space]] (def. \ref{Sober}).
@@ -3726,6 +3756,9 @@ a [[sober topological space]] (def. \ref{Sober}).
 More specifically, in a Hausdorff topological space
 the [[irreducible closed subspaces]] (def. \ref{ClosedIrreducible})
 are precisely the [[singleton]] [[subspaces]] (def. \ref{TopologicalSubspace}).
+
+Hence, by example \ref{HausdorffMetricSpace}, in particular 
+every [[metric space]] with its [[metric topology]] (example \ref{MetricTopology}) is sober.
 
 =--
 
