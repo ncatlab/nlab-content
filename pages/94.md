@@ -40,54 +40,136 @@ An **$L_\infty$-algebra** is an [[algebra over an operad]] in the [[category of 
 
 In the following we spell out in detail what this means in components.
 
-### Original definition in terms of lots of brackets 
+### Definition in terms of higher brackets 
+ {#DefinitionViaHigherBrackets}
 
-Originally $L_\infty$-algebras were defined as follows:
+For $V$ a [[graded vector space]], for $v_i \in V_{\vert v_i\vert}$ homogenously graded elements, and for $\sigma$ a [[permutation]] of $n$ elements, write
+$\chi(\sigma, v_1, \cdots, v_n)\in \{-1,+1\}$ for the product of the [[signature of a permutation|signature of the permutation]] with a factor of $(-1)^{\vert v_i \vert \vert v_j \vert}$ for each interchange of neighbours $(\cdots v_i,v_j, \cdots )$ to $(\cdots v_j,v_i, \cdots )$ involved in the permutation.
 
-an $L_\infty$-algebra is an $\mathbb{N}_+$-[[graded vector space]] $\mathfrak{g} = V$ together with for each $n \in \mathbb{N}_+$ a list of graded-symmetric linear maps
+
++-- {: .num_defn #LInfinityDefinitionViaGeneralizedJacobiIdentity}
+###### Definition
+
+An $L_\infty$-algebra is 
+
+1. a [[graded vector space]] $V$;
+
+1. for each $n \in \mathbb{N}$ a [[multilinear map]] called the _$n$-ary bracket_
+
+   $l_n(\cdots) \coloneqq [-,-, \cdots, -] \colon V^{\wedge n} \to V$
+  
+   of degree $n-2$
+  
+such that 
+
+1. each $l_n$ is graded antisymmetric, in that for every [[permutation]] $\sigma$ and homogeneously graded elements $v_i \in V_{\vert v_i \vert}$ then
+
+   $$
+     l_n(v_{\sigma(1)}, v_{\sigma(2)},\cdots ,v_{\sigma(n)}) 
+     = 
+     \chi(\sigma,v_1,\cdots, v_n) \cdot l_n(v_1, v_2, \cdots v_n)
+   $$
+
+1. the _generalized [[Jacobi identity]]_ holds:
+
+   \[
+     \label{LInfinityJacobiIdentity}
+     \sum_{i+j = n+1} 
+     \sum_{\sigma \in UnShuff(i,n-i)}
+     \chi(\sigma,v_1, \cdots, v_m)
+     (-1)^{i(j-1)}
+      l_{j} \left(
+        l_i \left( v_{\sigma(1)}, \cdots, v_{\sigma(i)} \right),
+        v_{\sigma(i+1)} , \cdots , v_{\sigma(n)}
+      \right)
+     = 0
+     \,,
+   \]
+
+   for all $n$, all and homogeneously graded elements $v_i \in V_i$ (here the inner sum runs over all $(i,j)$-[[unshuffles]] $\sigma$).
+
+=--
+
+There are various different conventions on the gradings possible, which lead to similar formulas with different signs.
+
+
++-- {: .num_example }
+###### Example
+
+In lowest degrees the generalized Jacobi identity says that
+
+1. for $n = 1$: the unary map $\partial \coloneqq l_1$ squares to 0:
+
+   $$
+     \partial (\partial(v_1)) = 0
+   $$
+
+1: for $n = 2$: the unary map $\partial$ is a graded [[derivation]] of the binary map
+
+   $$
+     - [\partial v_1, v_2] 
+     - (-1)^{\vert v_1 \vert \vert v_2 \vert}
+     [\partial v_2, v_1]
+     +
+     \partial [v_1, v_2]
+     =
+     0
+   $$
+
+   hence
+ 
+   $$
+     \partial [v_1, v_2] =  [\partial v_1, v_2] + (-1)^{\vert v_1 \vert}[v_1, \partial v_2]
+     \,.
+   $$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+When all higher brackets vanish, $l_{k \gt 2}= 0$ then for $n = 3$: 
 
 $$
-  l_n(\cdots) \coloneqq [-,-, \cdots, -] : V^{\wedge n} \to V
-$$
-
-of degree -1, that satisfy a generalized [[Jacobi identity]] of the form
-
-\[
- \label{LInfinityJacobiIdentity}
-  \sum_{i+j = n} 
-  \sum_{\sigma \in UnShuff(i,j)}
-  (-1)^{sgn(\sigma)} 
-   l_{i+1} \left(
-     l_j \left( v_{\sigma(1)}, \cdots, v_{\sigma(j)} \right),
-     v_{\sigma(j+1)} , \cdots , v_{\sigma(n)}
-   \right)
-  = 0
-  \,,
-\]
-
-for all elements $(v_i) \in V^{\otimes n}$, where the inner sum runs over all $(i,j)$-[[unshuffle]]s $\sigma$ and where $(-1)^{sgn(\sigma)}$ is the Koszul-[[signature]] of the [[permutation]] $\sigma$: the sign picked up by "unshuffling" $t^{a_1} \wedge \cdots \wedge t^{a_{k+l-1}}$ according to $\sigma$.
-
-In this form this appears for instance as ([CattaneoSchaetz, (1)](#CattaneoSchaetz)). Notice that there are different conventions on the gradings possible, which lead to similar formulas with different sign factors.
-
-Notably for $n = 4$ this says that the binary bracket $l_2 = [-,-]$, the trinary bracket $l_3 = [-,-,-]$ and the unary "bracket" $l_1$ are related by
-
-$$
-  [[v_1,v_2],v_3] \pm  
+  [[v_1,v_2],v_3] 
+  +
+  (-1)^{\vert v_1 \vert (\vert v_2 \vert + \vert v_3 \vert)}
   [[v_2,v_3],v_1]
-  \pm 
-  [[v_3,v_1],v_2]
+  +
+  (-1)^{\vert v_2 \vert (\vert v_1 \vert + \vert v_3 \vert)}
+  [[v_1,v_3],v_2]
   =
-  l_1 ([v_1, v_2, v_3])
+  0
+$$
+
+this is the graded [[Jacobi identity]]. So in this case the $L_\infty$-algebra
+is equivalently a [[dg-Lie algebra]].
+
+=--
+
++-- {: .num_example }
+###### Example
+
+When $l_3$ is possibly non-vanishing, then on elements $x_i$ on which $\partial = l_1$ vanishes then the generalized Jacobi identity for $n = 3$ gives
+
+$$
+  [[v_1,v_2],v_3] 
+  +
+  (-1)^{\vert v_1 \vert (\vert v_2 \vert + \vert v_3 \vert)}
+  [[v_2,v_3],v_1]
+  +
+  (-1)^{\vert v_2 \vert (\vert v_1 \vert + \vert v_3 \vert)}
+  [[v_1,v_3],v_2]
+  =
+  - \partial [v_1, v_2, v_3]
   \,.
 $$
 
-> (Exercise for the reader: put in the right signs, depending on the degree of the $v_i$).
+This shows that the Jacobi identity holds up to an "exact" term, hence up to homotopy.
 
-If the right hand side were 0, this would be the Jacobi identity of an ordinary [[Lie algebra]] (or [[super Lie algebra]], rather). So the image under $l_1$ of the trinary bracket $[-,-,-]$ in the $L_\infty$-algebra is a measure for how the ordinary Jacobi identity _fails_ in an $L_\infty$-algebra.
+=--
 
-But the point is that it does not _just_ fail: it fails by the specific homotopy expressed by $l_3$, and this homotopy itself is _[[coherence law|coherent]]_, in that it satisfies suitable relatins itself, obtained by evaluating the above sum expression for $n \gt 4$.
-
-### Reformulation in terms of semifree differential coalgebra ###
+### Reformulation in terms of semifree differential coalgebra
 
 A little later it was realized that the above huge sum expressions above just expresses the fact that the differential $D$ in a semifree [[dg-coalgebra]] squares to 0, $D^2 = 0$:
 
