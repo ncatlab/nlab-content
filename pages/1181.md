@@ -228,6 +228,7 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 
 * [[natural numbers]], [[natural numbers type]]
 
+* [[Peano arithmetic]]
 
 ## References
 
