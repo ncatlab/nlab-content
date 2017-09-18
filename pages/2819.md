@@ -69,6 +69,9 @@ A map is a Hurewicz fibration precisely if it admits a [[Hurewicz connection]]. 
 
 There is a [[Quillen model category]] structure on [[Top]] where fibrations are Hurewicz fibrations, cofibrations are closed [[Hurewicz cofibrations]] and weak equivalences are [[homotopy equivalences]]; see [[model structure on topological spaces]] and [[Strøm's model category]]. There is a version of Hurewicz fibrations for [[pointed spaces]], as well as in the [[slice category]] $Top/B_0$ where $B_0$ is a fixed base.
 
+## Abstract Hurewicz fibrations
+
+[Warren](#Warren) gives a general definition of a Hurewicz fibration based on an [[interval object]].
 
 ## References
 
@@ -76,7 +79,7 @@ The historical paper of Hurewicz is
 
 * [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
 
-A decent review of Hurewicz fibrations, [[Hurewicz connections]] and related issues isin 
+A decent review of Hurewicz fibrations, [[Hurewicz connections]] and related issues is in 
 
 * [[James Eells]], Jr., _Fibring spaces of maps_, in Richard Anderson (ed.) _Symposium on infinite-dimensional topology_
 
@@ -84,9 +87,9 @@ A textbook account of the [[homotopy lifting property]] is for instance in
 
 * [[Alan Hatcher]], from p. 61 on in _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
 
-
 See also the textbooks on algebraic topology by Whitehead and Spanier. 
 
+* Michael Warren, _Homotopy theoretic aspects of constructive type theory_,[PDF](http://mawarren.net/papers/phd.pdf){#Warren}
 
 [[!redirects Hurewicz fibration]]
 [[!redirects Hurewicz fibrations]]
