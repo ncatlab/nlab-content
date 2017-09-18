@@ -353,7 +353,7 @@ $$
 
 over all points $* \stackrel{x}{\to} e^*(X)$. Since in [[Set]] every object $S$ is a [[coproduct]] of the point indexed over $S$, $S \simeq \coprod_S *$ and using [[universal colimits]] in $S$, we have that if $x^* e^*(f)$ is an isomorphism for all $x \in e^*(X)$ then $e^*(f)$ was already an isomorphism.
 
-The claim the follows with the assumption that $\mathcal{E}$ has enough points.
+The claim then follows with the assumption that $\mathcal{E}$ has enough points.
 
 =--
 
