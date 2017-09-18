@@ -144,9 +144,8 @@ Below in _[Dold-Kan correspondence](#DoldKanCorrespondence)_ we see that this la
 +-- {: .num_defn #TopologicalSimplex}
 ###### Definition
 
-For $n \in \mathbb{N}$, the **[topological n-simplex](http://ncatlab.org/nlab/show/simplex#TopologicalSimplex)** is, 
-up to [[nLab:homeomorphism]], the [[nLab:topological space]] whose underlying set is
-the subset
+For $n \in \mathbb{N}$, the **[topological n-simplex](simplex#TopologicalSimplex)** is, 
+up to [[nLab:homeomorphism]], the [[nLab:topological space]] whose underlying set is the subset
 
 $$
   \Delta^n \coloneqq 
@@ -160,6 +159,13 @@ $$
 $$
 
 of the [[nLab:Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[nLab:subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[coordinate]] expression in def. \ref{TopologicalSimplex} -- also known as _[barycentric coordinates](simplex#BarycentricCoordinates)_ -- is evidently just one of many possible ways to present topological $n$-simplices. Another common choice are what are called _[Cartesian coordinates](simplex#CartesianCoordinates)_. Of course nothing of relevance will depend on which choice of coordinate presentation is used, but some are more convenient in some situations than others. 
 
 =--
 
@@ -237,7 +243,7 @@ $$
   \sigma_k : \Delta^{n} \to \Delta^{n-1}
 $$
 
-induced under the barycentric coordinates of def. \ref{TopologicalSimplex} under the surjection
+induced under the [barycentric coordinates](simplex#BarycentricCoordinates) of def. \ref{TopologicalSimplex} under the surjection
 
 $$
   \mathbb{R}^{n+1} \to \mathbb{R}^n
@@ -5071,7 +5077,7 @@ There is a host of classical diagram-chasing lemmas that relate far-away entries
 
 With [[groupoids]] and [[chain complexes]] we have seen two kinds of objects which support concepts of [[homotopy theory]], such as a concept of [[homotopy equivalence]] between them ([[equivalence of groupoids]] on the one hand, and [[quasi-isomorphism]]) on the other. In some sense these two cases are opposite extremes in the more general context of [[homotopy theory]]: 
 
-* [[chain complexes]] have homotopical structure (e.g. [[chain homology]]) in arbitrary high degree, i.e. they may be [[homptopy n-types]] for arbitrary $n$, but they are fully _abelian_ in that there is never any [[nonabelian group]] structure in a chain complex, not is there any non-trivial [[action]] of the homology groups of a chain complex on each other;
+* [[chain complexes]] have homotopical structure (e.g. [[chain homology]]) in arbitrary high degree, i.e. they may be [[homotopy n-types]] for arbitrary $n$, but they are fully _abelian_ in that there is never any [[nonabelian group]] structure in a chain complex, not is there any non-trivial [[action]] of the homology groups of a chain complex on each other;
 
 * [[groupoids]] have more general non-abelian structure, for every ([[nonabelian group|nonabelian]]) [[group]] there is a groupoid which has this as its [[fundamental group]], but this fundamental group (in degree 1) is already the highest homotopical structure they carry, groupoids are necessarily [[homotopy 1-types]].
 
@@ -5225,7 +5231,7 @@ The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $
 
 ##### Definition 
 
-Let 
+Recall the definition of [[simplicial sets]] from [above](#SingularSimplicialSet). Let 
 
 $$
   \Delta[n] = \mathbf{\Delta}( -, [n]) \in  Simp Set
