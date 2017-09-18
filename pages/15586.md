@@ -9,11 +9,6 @@
 #### Topos Theory
 +-- {: .hide}
 [[!include topos theory - contents]]
-
-The **elementary theory of the 2-category of categories**, or _ETCC_ for short, is the [[first order logic|first order]] [[theory|axiomatics]] proposed by [[William Lawvere|F.W. Lawvere]] in 1963 for describing the [[Cat|(2-)category of categories]], in view of a categorical [[foundation of mathematics|foundation for mathematics]].
-
-##  Overview
-
 =--
 =--
 =--
