@@ -1,0 +1,62 @@
+##  Poisson Geometry and Mathematical Physics##
+
+***
+Jan. 4-8, Tianjin at [Chern Institute, Nankai University]( http://www.nim.nankai.edu.cn/nim_e/index.htm) 
+
+Registration: Jan. 3
+
+***
+
+####Organizers####
+[Chengming Bai](http://www.nim.nankai.edu.cn/about_us/member/baicm.htm)  (Chern Institute, Nankai University)
+
+ [[Zhuo Chen]] (Tsinghua Universtiy)
+
+[Yunhe Sheng](http://math.jlu.edu.cn/?mod=teacher&act=view&id=184) (Jilin University)
+
+***
+
+#### Scientific Committee ####
+
+[Zhangju Liu](http://www.math.pku.edu.cn/static/interface/people.htm?uid=liuzj)(Peking University)
+
+[Jianghua Lu](http://hkumath.hku.hk/~jhlu/)(The University of Hong Kong)
+
+[Ping Xu](https://www.math.psu.edu/ping/)(Penn State University)
+
+[Weiping Zhang](http://www.nim.nankai.edu.cn/nim_e/members/weiping.htm)(Chern Institute, Nankai University)
+
+***
+####Speakers####
+
+[Jianghua Lu](http://hkumath.hku.hk/~jhlu/)(The University of Hong Kong)
+
+***
+
+####Participants####
+
+Zhangju Liu (Beijing University)
+
+Chengming Bai (Chern Institute, Nankai University)
+
+Zhujun Zheng (South China University of Technology)
+
+Yanhui Bi (Nanchang University)
+
+Yunhe Sheng (Jilin University)
+
+Tao Zhang (Henan Normal University)
+
+Deshou Zhong (China Youth University of Political Studies)
+
+\*-to be confirmed
+
+***
+
+###Schedule (TBA)###
+
+|        |            |        |
+|-----|----|-----|
+| Time | Speaker|Title| 
+| ?|  ?| ?| 
+         
