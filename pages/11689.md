@@ -98,6 +98,7 @@ between the [[homotopy category]] of the [[dg-category]] of complexes of holomor
 
 * [[Donaldson-Uhlenbeck-Yau theorem]]
 
+* [[Kobayashi-Hitchin correspondence]]
 
 ## References
 
