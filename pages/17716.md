@@ -7,7 +7,7 @@
 
 This entry relates to a series of papers by [[Clark Barwick]] and colleagues which aim to provide common foundations for several different parts of [[homotopy theory]], among which [[equivariant homotopy theory]], [[parametrized homotopy theory]], [[global homotopy theory]] and [[Goodwillie calculus]].
 
-An important ingredient of this program is the concept of an _atomic orbital $\infty$-category_ which is defined in terms of important properties of the [[orbit category]] of a finite group $G$:
+For $G$ a finite group, various equivariant concepts are defined in terms of the [[orbit category]], such as $G$-$\infty$-category and $G$-spectrum. An important ingredient of this program is the concept of an _atomic orbital $\infty$-category_ which is defined in terms of two important properties of the orbit category of $G$:
 {#AtomicOrbital}
 
 1. **Orbital**: Fiber products of representable presheaves are finite disjoint unions of representable presheaves (a restatement of the fact that the category of finite $G$-sets has pullbacks ([Mackey decomposition](double+coset#MackeyFormula)), so a version of the [[Beck-Chevalley condition]]);
@@ -16,7 +16,7 @@ An important ingredient of this program is the concept of an _atomic orbital $\i
 
 Examples of such $(\infty, 1)$-categories satisfying these two properties include: [[orbit categories]] of finite groups, and more generally, orbit categories of profinite groups (where the stabilizers are required to be open) and locally finite groups (where the stabilizers are required to be finite); any $\infty$-groupoid; the cyclonic orbit 2-category; the 2-category of finite connected groupoids and covering maps; the category of finite sets of cardinality $\leq n$ and surjective maps; the topological categories of finite-dimensional inner product spaces (over $\mathbb{R}$ and $\mathbb{C}$) of dimension $\leq n$ and orthogonal projections.
 
-The program looks to generate results which hold for all atomic orbital $\infty$-categories, for any instance of which, $T$, there are the associated concepts of $T$-space and $T$-spectrum. 
+The program looks to generate results which hold for all atomic orbital $\infty$-categories, for any instance of which, $T$, there are the associated concepts of $T$-$\infty$-category, $T$-space and $T$-spectrum. 
 
 
 ##Papers
