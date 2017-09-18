@@ -88,6 +88,9 @@ The higher dimensional string diagrams ("zoom complexes" ([Kock-Joyal-Batanin-Ma
 
 * [[Eric Finster]], _Opetopic Diagrams 2 - Geometry_ ([video](http://www.youtube.com/watch?v=E7OvuA1jRKM))
 
+### Software
+
+* [[Globular]] is a web-based proof assistant for finitely-presented semistrict globular higher categories. It allows one to formalize higher-categorical proofs in finitely-presented n-categories and visualize them as string diagrams. 
 
 ### Original articles 
  {#OriginalArticles}
@@ -130,6 +133,8 @@ For more on the history of the notion see the bibliography in ([Selinger 09](#Se
 * [[Ross Street]], [Low dimensional topology and higher-order categories](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps) -- talks about surface diagrams and includes some pictures (PS version only).
 
 * Ross Street, "Categorical structures" -- discusses string diagrams for bicategories.
+
+* Some philosophical discussion is given in section 10.4 of [[David Corfield]], _Towards a Philosophy of Real Mathematics_, CUP, 2003.
 
 
 ### Details
