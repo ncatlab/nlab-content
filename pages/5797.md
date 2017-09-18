@@ -19,12 +19,16 @@
 
 ## Idea
 
-A _super $L_\infty$-algebra_ is an [[L-∞ algebra]] in the context of [[superalgebra]]: the [[higher category theory|higher category theoretical]]/[[homotopy theory|homotopy theoretical]] version of a [[super Lie algebra]].
+A _super $L_\infty$-algebra_ is an [[L-∞ algebra]] in the context of [[superalgebra]]: the [[higher category theory|higher category theoretical]]/[[homotopy theory|homotopy theoretical]] version of a [[super Lie algebra]]. For more background see at _[[geometry of physics -- superalgebra]]_.
 
-In the [[supergravity]] literature the [[formal dual]] of super $L_\infty$-algebras of [[finite type]] came to be known as "FDA"s (see remark \ref{SuperLInfintiyAsFDA} below), a decade before plain [[L-∞ algebras]] were discussed in the mathematical literature.
+
+In the [[supergravity]] literature the [[formal dual]] of super $L_\infty$-algebras of [[finite type]] came to be known as "[[FDA]]"s (see remark \ref{SuperLInfintiyAsFDA} below), a decade before plain [[L-∞ algebras]] were discussed in the mathematical literature. The key example in this context are [[extended super Minkowski spacetimes]], which are [[super L-∞ algebras]] obtained by iterated higher central extension from the [[super Minkowski spacetime]] [[super Lie algebra]]. The super-[[L-∞ algebra cohomology]] of these (called "[[tau-cohomology]]" in the physics literature) turns out to classify [[super p-branes]] and serves as a tool for the construction of [[supergravity]] theories in the [[D'Auria-Fré formulation of supergravity]]. For more background on this see at _[[geometry of physics -- fundamental super p-branes]]_.
+
 
 ## Definition
  {#Definition}
+
+Abstractly, the definition is immediate:
 
 +-- {: .num_defn #SuperLInfinityAlgebra}
 ###### Definition
@@ -33,7 +37,7 @@ A **super $L_\infty$-algebra** is an [[L-∞ algebra]] [[internalization|interna
 
 =-- 
 
-Explicitly this means the following:
+Explicitly this equivalently comes down to the following definition in components:
 
 +-- {: .num_defn #SuperGradedSignatureOfPermutation}
 ###### Definition
@@ -134,6 +138,8 @@ A _strong homotopy homomorphism_ ("sh map") of super $L_\infty$-algebras is some
 
 =--
 
+In order to define the correct homomorphisms between super $L_\infty$-algebras ("sh-maps") as well as their super-[[L-∞ algebra cohomology]], consider the following dualization of the above definition:
+
 +-- {: .num_defn #SuperLInfinityCEAlgebra}
 ###### Definition
 
@@ -204,6 +210,15 @@ $$
 
 of the [[opposite category]] of [[dg-algebras]] on those that are CE-algebras as above.
 
+Finally, the [[cochain cohomology]] of the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ of a super $L_\infty$ algebra of [[finite type]] is its _[[L-∞ algebra cohomology]]_ with [[coefficients]] in $\mathbb{R}$:
+
+$$
+  H^\bullet(\mathfrak{g}, \mathbb{R})
+   \;=\;
+  H^\bullet(CE(\mathfrak{g}))
+  \,.
+$$
+
 =--
 
 +-- {: .num_remark #SuperLInfintiyAsFDA}
@@ -220,7 +235,7 @@ The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergrav
 
 ## Properties
 
-* Every super $L_\infty$-Lie algebra has a [[Lie integration]] to a [[super ∞-groupoid]] and a [[smooth super ∞-groupoid]]. See there for more.
+* Every super $L_\infty$-Lie algebra has a [[Lie integration]] to a [[super ∞-groupoid]] and a [[smooth super ∞-groupoid]]. See at _[[Lie integration]]_ for more on this.
 
 ## Examples
 
