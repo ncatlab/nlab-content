@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Kiiti_Morita)
+
+## related $n$Lab entries
+
+* [[Morita equivalence]]
+
+category: people
+
+[[!redirects Morita]]
