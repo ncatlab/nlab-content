@@ -4,7 +4,7 @@
 ###Context###
 #### Topology
 +--{: .hide}
-[[!include topology - contents]]h
+[[!include topology - contents]]
 =--
 #### Algebra
 +--{: .hide}
@@ -46,11 +46,11 @@ It is clear that the vanishing set such a set of polynomials depends only on the
 
 In particular one finds that the [[irreducible closed subsets]] of the Zariski topology correspond to the [[prime ideals]] in the polynomial ring (prop. \ref{PrimeVanishingIdealOfIrreducibleZariskiClosed} and prop. \ref{PrimeIdealClosedsubspaceBijection} below), and that the [[closed points]] correspond to the [[maximal ideals]] among these (prop. \ref{MaximalIdealsAreClosedPoints}).
 
-This motivates the modern refinement of the concept of the Zariski topology, where one considers any [[commutative ring]] $R$ and equips its set of [[prime ideals]] with a topology, by direct analogy with the previously naive affine space $k^n$, which is recovered with $R$ a polynomial ring and restricting attention to the maximal ideals (example \ref{AffinSpaceA# AsPrimeSpectrum} below). 
+This motivates the modern refinement of the concept of the Zariski topology, where one considers any [[commutative ring]] $R$ and equips its set of [[prime ideals]] with a topology, by direct analogy with the previously naive affine space $k^n$, which is recovered with $R$ a polynomial ring and restricting attention to the maximal ideals (example \ref{AffinSpaceA# AsPrimeSpectrum} below).
 
 These sets of prime ideals of a ring $R$ equipped with the Zariski topology are called the (topological spaces underlying) the _[[prime spectrum of a commutative ring]]_, denoted $Spec(R)$.
 
-The Zariski topology is in general not [[Hausdorff topological space|Hausdorff]] (example \ref{AffineSpaceOverInfiniteFieldNotHausdorff} below) which makes it sometimes be regarded as an "exotic" type of topology. But it is in fact [[sober topological space|sober]] (prop. \ref{ZariskiTopologyIsSober} below) and hence as well-behaved in this respect as general [[locales]] are. 
+The Zariski topology is in general not [[Hausdorff topological space|Hausdorff]] (example \ref{AffineSpaceOverInfiniteFieldNotHausdorff} below) which makes it sometimes be regarded as an "exotic" type of topology. But it is in fact [[sober topological space|sober]] (prop. \ref{ZariskiTopologyIsSober} below) and hence as well-behaved in this respect as general [[locales]] are.
 
 
 ## On affine space
@@ -69,8 +69,8 @@ Let $k$ be a [[field]], let $n \in \mathbb{N}$, and write $k[X_1, \cdots, X_n]$ 
 For $\mathcal{F} \subset k[X_1, \cdots, X_n]$ a subset of polynomials, let the  subset $V(\mathcal{P}) \subset k^n$ of the $n$-fold [[Cartesian product]] of the underlying set of $k$ (the _vanishing set_ of $\mathcal{F}$) be the subset of points on which all these polynomials jointly vanish:
 
 $$
-  V(\mathcal{F}) 
-    \coloneqq 
+  V(\mathcal{F})
+    \coloneqq
   \left\{
      (a_1, \cdots, a_n) \in k^n
      \,\vert\,
@@ -95,7 +95,7 @@ $$
 
 for the set of [[complements]] of subsets the Zariski closed subsets. These are called the _Zariski [[open subsets]]_ of $k^n$.
 
- 
+
 =--
 
 +-- {: .num_prop #VerifyingZariskiTopologyOnAffineSpace}
@@ -127,7 +127,7 @@ We need to show for $\{\mathcal{F}_i \subset k[X_1, \cdots, X_n]\}_{i \in I}$ a 
 
 1. if $I$ is [[finite set|finite]] then $\underset{i \in I}{\cap} \left( k^n \backslash V(\mathcal{F}_{\cap})\right) = k^n \backslash \mathcal{F}_\cap$ for some $\mathcal{F}_{\cap} \subset k[X_1, \cdots, X_n]$.
 
-By [[de Morgan's law]] for [[complements]] (and using [[excluded middle]]) this is equivalent to 
+By [[de Morgan's law]] for [[complements]] (and using [[excluded middle]]) this is equivalent to
 
 1.  $\underset{i \in I}{\cap} V(\mathcal{F}_i) = V(\mathcal{F}_\cup)$ for some $\mathcal{F}_\cup \subset k[X_1, \cdots, X_n]$;
 
@@ -150,15 +150,15 @@ $$
     \Leftrightarrow\;
      &
      \underset{i \in I}{\forall}
-     \left( 
+     \left(
         (a_1, \cdots, a_n) \in V(\mathcal{F}_i)
      \right)
      \\
      \Leftrightarrow\;
     &
-     \underset{i \in I}{\forall} 
+     \underset{i \in I}{\forall}
      \left(
-       \underset{f \in \mathcal{F}_i}{\forall} 
+       \underset{f \in \mathcal{F}_i}{\forall}
        \left(
          f(a_1, \cdots, a_n) = 0
        \right)
@@ -174,7 +174,7 @@ $$
     \Leftrightarrow\;
     &
     (a_1, \cdots, a_n)
-    \in 
+    \in
     V\left(
       \underset{i \in I}{\cup} \mathcal{F}_i
     \right)
@@ -185,7 +185,7 @@ Regarding the second point, in one direction we have the immediate implication
 
 $$
   \begin{aligned}
-    & 
+    &
     (a_1, \cdots, a_n) \in \underset{i \in I}{\cup} V(\mathcal{F}_i)
     \\
     \Leftrightarrow\;
@@ -198,7 +198,7 @@ $$
       \right)
     \right)
     \\
-    \Rightarrow \;   
+    \Rightarrow \;
     &
     \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i}{\forall}
     \left(
@@ -211,7 +211,7 @@ $$
     \in
     V\left(
       \underset{i \in I}{\prod} \mathcal{F}_i
-    \right) 
+    \right)
     \,.
   \end{aligned}
 $$
@@ -224,18 +224,18 @@ $$
     \in
       V\left(
         \underset{i \in I}{\prod} \mathcal{F}_i
-      \right) 
+      \right)
    \right)
      \;\Rightarrow\;
    \left(
      (a_1, \cdots, a_n)
-     \in 
-     \underset{i \in I}{\cup} V(\mathcal{F}_1)   
+     \in
+     \underset{i \in I}{\cup} V(\mathcal{F}_1)
    \right)
   \,.
 $$
 
-hence that 
+hence that
 
 $$
   \left(
@@ -317,7 +317,7 @@ $$
 
 We compute as follows:
 
-$$  
+$$
   \begin{aligned}
     Cl(S)
      & \coloneqq
@@ -331,7 +331,7 @@ $$
        { S \subset V(\mathcal{F}) }
     }{\cap} V(\mathcal{F})
     \\
-    & = 
+    & =
     V\left(
       \underset{
          { \mathcal{F} \subset k[X_1, \cdots, X_n] }
@@ -340,7 +340,7 @@ $$
       }{\cup} \mathcal{F}
       \right)
     \\
-    & = 
+    & =
     V \left(
       \left\{
         f \in k[X_1, \cdots, X_2]
@@ -363,7 +363,7 @@ In every [[topological space]] the [[irreducible closed subsets]] play a special
 
 +-- {: .num_defn #VanishingIdeal}
 ###### Definition
-**([[vanishing ideal]] of Zariski closed subset)**# 
+**([[vanishing ideal]] of Zariski closed subset)**#
 
 Let $k$ be a [[field]], and let $n \in \mathbb{N}$. Then for $V(\mathcal{F}) \subset k^n$ a Zariski closed subset, according to def. \ref{ZariskiOpenSubsetsOnAffineSpace}, hence for $\mathcal{F} \subset k[X_1, \cdots, X_n]$ a set of polynomials, write
 
@@ -408,11 +408,11 @@ Let $k$ be a [[field]], let $n \in \mathbb{N}$, and let $V(\mathcal{F}) \subset 
 
 In one direction, assume that $V(\mathcal{F})$ is irreducible and consider $f,g \in k[X_1, \cdots, X_n]$ with $f \cdot g \in I(V(\mathcal{F}))$. We need to show that then already $f \in I(V(\mathcal{F}))$ or $g \in I(V(\mathcal{F}))$.
 
-Now since $k$ is a field, we have 
+Now since $k$ is a field, we have
 
 $$
   \left(
-    f(a_1, \cdots a_n) \cdot g(a_1, \cdots, a_n) = 0  
+    f(a_1, \cdots a_n) \cdot g(a_1, \cdots, a_n) = 0
   \right)
   \Rightarrow
   \left(
@@ -425,20 +425,20 @@ $$
   \,.
 $$
 
-This implies that 
+This implies that
 
 $$
   V(\mathcal{F}) \subset V(\{f\}) \cup V(\{g\})
 $$
 
-and hence that 
+and hence that
 
 $$
   V(\mathcal{F})
-   = 
+   =
   (V(\mathcal{F}) \cap F(\{f\}))
   \,\,\cup\,\,
-  (V(\mathcal{F}) \cap F(\{g\}) ) 
+  (V(\mathcal{F}) \cap F(\{g\}) )
   \,.
 $$
 
@@ -498,7 +498,7 @@ Now for the converse, assume that $I(V(\mathcal{F}))$ is a prime ideal, and that
 
 Assume on the contrary, that there existed elements
 
-$$ 
+$$
   (a_1, \cdots, a_n) \in V(\mathcal{F}_1) \backslash V(\mathcal{F}_2)
   \;\text{and}\;
   (b_1, \cdots, b_n) \in V(\mathcal{F}_2) \backslash V(\mathcal{F}_1)
@@ -521,7 +521,7 @@ $$
   \right)
 $$
 
-and hence there were polynomials 
+and hence there were polynomials
 
 $$
   f\in I(V(\mathcal{F}_1)) \backslash I(V(\mathcal{F}_2))
@@ -530,7 +530,7 @@ $$
   \,.
 $$
 
-But since a product of polynomials vanishes at some point once one of the factors vanishes at that point, it would follows that 
+But since a product of polynomials vanishes at some point once one of the factors vanishes at that point, it would follows that
 
 $$
   f \cdot g \in I(V(\mathcal{F}_1)) \cap I(V(\mathcal{F}_2)) = I(V(\mathcal{F}))
@@ -604,10 +604,10 @@ Prop \ref{ZariskiClosedSubsetsInSpecR} suggests to consider the set of [[prime i
 +-- {: .num_example #AffineSpaceOverInfiniteFieldNotHausdorff}
 ###### Example
 
-If the [[field]] $k$ is _not_ a [[finite field]], then the 
+If the [[field]] $k$ is _not_ a [[finite field]], then the
 Zariski topology on affine space (def. \ref{ZariskiOpenSubsetsOnAffineSpace}) is _not_ [[Hausdorff topological space|Hausdorff]].
 
-This is because the solution set to a system of [[polynomials]] over an infinite polynomial is always a [[finite set]]. This means that in this case all the Zariski closed subsets $V(\mathcal{F})$ are [[finite sets]]. This in turn implies that the [[intersection]] of _every_ pair of [[inhabited set|non-empty]] Zariski open subsets is [[inhabited|non-empty]]. 
+This is because the solution set to a system of [[polynomials]] over an infinite polynomial is always a [[finite set]]. This means that in this case all the Zariski closed subsets $V(\mathcal{F})$ are [[finite sets]]. This in turn implies that the [[intersection]] of _every_ pair of [[inhabited set|non-empty]] Zariski open subsets is [[inhabited|non-empty]].
 
 But the Zariski topology is always [[sober topological space|sober]], see prop. \ref{ZariskiTopologyIsSober} below.
 
@@ -636,7 +636,7 @@ $$
   \,.
 $$
 
-These are called the _Zariski [[closed subsets]]_ of $PrimeIdl(R)$. Their [[complements]] are called the _Zariski open subsets_. 
+These are called the _Zariski [[closed subsets]]_ of $PrimeIdl(R)$. Their [[complements]] are called the _Zariski open subsets_.
 
 
 =--
@@ -655,11 +655,11 @@ $$
 
 satisfies the axioms of a [[topological space|topology]], the _Zariski topology_.
 
-This [[topological space]] 
+This [[topological space]]
 
 $$
   Spec(R) \coloneqq (PrimeIdl(R), \tau_{Spec(R)})
-$$  
+$$
 
 is called (the space underlying) the _[[prime spectrum of a commutative ring|prime spectrum of the commutative ring]]_.
 
@@ -682,7 +682,7 @@ So let $\{F_i \in Idl(R)\}_{i \in I}$ be a set of ideals in $R$ and let $\{V(\ma
 
 1. if $I$ is [[finite set]] then $\underset{i \in I}{\cup} V(\mathcal{F}_i) = V(\mathcal{F}_\cap)$.
 
-We claim that 
+We claim that
 
 * $\mathcal{F}_{\cup} = \underset{i \in I}{\sum} \mathcal{F}_i \coloneqq \left\{ \underset{i \in I}{\sum} f_i  \,, \in R\;\vert\; f_i \in \mathcal{F}_i \right\}$
 
@@ -699,7 +699,7 @@ $$
     \\
     \Leftrightarrow\;
     &
-    \underset{i \in I}{\forall} 
+    \underset{i \in I}{\forall}
     \left(
       p \in V(\mathcal{F}_i)
     \right)
@@ -731,7 +731,7 @@ Regarding the second point, in one direction we have the immediate implication
 
 $$
   \begin{aligned}
-    & 
+    &
     p \in \underset{i \in I}{\cup} V(\mathcal{F}_i)
     \\
     \Leftrightarrow\;
@@ -741,7 +741,7 @@ $$
       \mathcal{F}_i \subset p
     \right)
     \\
-    \Rightarrow \;   
+    \Rightarrow \;
     &
     \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i}{\forall}
     \left(
@@ -754,7 +754,7 @@ $$
     \in
     V\left(
       \underset{i \in I}{\prod} \mathcal{F}_i
-    \right) 
+    \right)
     \,.
   \end{aligned}
 $$
@@ -767,18 +767,18 @@ $$
     \in
       V\left(
         \underset{i \in I}{\prod} \mathcal{F}_i
-      \right) 
+      \right)
    \right)
      \;\Rightarrow\;
    \left(
      p
-     \in 
-     \underset{i \in I}{\cup} V(\mathcal{F}_1)   
+     \in
+     \underset{i \in I}{\cup} V(\mathcal{F}_1)
    \right)
   \,.
 $$
 
-hence that 
+hence that
 
 $$
   \left(
@@ -820,7 +820,7 @@ $$
     \left(
       \underset{i \in I}{\prod} f_i \in p
     \right)
-  \right)is 
+  \right)is
   \,.
 $$
 
@@ -864,7 +864,7 @@ $$
     & q \in Cl(\{q\})
     \\
     \Leftrightarrow\; &
-    q \in 
+    q \in
     \underset{ {I \in Idl(R)} \atop { p \in V(I) }   }{\cap} V(I)
     \\
     \Leftrightarrow\;
@@ -971,16 +971,16 @@ Let $R$ be a [[commutative ring]], and let $\mathcal{F} \subset R$ be an ideal i
 +-- {: .proof}
 ###### Proof
 
-In one direction, assume that $V(\mathcal{F})$ is irreducible, and that $f,g \in R$ with $f \cdot g \in \mathcal{F}$. We need to show that then already $f \in \mathcal{F}$ or $g \in \mathcal{F}$. 
+In one direction, assume that $V(\mathcal{F})$ is irreducible, and that $f,g \in R$ with $f \cdot g \in \mathcal{F}$. We need to show that then already $f \in \mathcal{F}$ or $g \in \mathcal{F}$.
 
-To this end, first observe that 
+To this end, first observe that
 
 $$
   V(\mathcal{F}) \subset V((f)) \cup V((g))
   \,.
 $$
 
-This is because 
+This is because
 
 $$
   \begin{aligned}
@@ -1011,7 +1011,7 @@ $$
     \right)
     \,\text{or}\,
     \left(
-      p \in V(f) 
+      p \in V(f)
     \right)
     \\
     \Leftrightarrow\;
@@ -1021,13 +1021,13 @@ $$
   \end{aligned}
 $$
 
-where the implication in the middle uses that $p$ is a prime ideal. 
+where the implication in the middle uses that $p$ is a prime ideal.
 
 It follows that
 
 $$
   V(\mathcal{F})
-  \;=\; 
+  \;=\;
   \left(
     V(f) \cap V(\mathcal{F})
   \right)
@@ -1038,12 +1038,12 @@ $$
   \,.
 $$
 
-This is a decomposition of $V(\mathcal{F})$ as a union of closed subsets, 
+This is a decomposition of $V(\mathcal{F})$ as a union of closed subsets,
 hence the assumption that $V(\mathcal{F})$ is irreducible implies that
 
 $$
   \begin{aligned}
-     & 
+     &
      \left(
        V(\mathcal{F}) = V(f) \cap V(\mathcal{F})
      \right)
@@ -1078,8 +1078,8 @@ $$
 $$
 
 
-Now for the converse. Assume that $\mathcal{F}$ is a prime ideal and that $V(\mathcal{F}) = V(\mathcal{F}_1) \cup V(\mathcal{F}_2)$. Observe (as in the [proof](#WellDefinedZariskiTopologyOnSpecRProof) of prop. \ref{WellDefinedZariskiTopologyOnSpecR}) that this means equivalently that $\mathcal{F} = \mathcal{F}_1 \cdot \mathcal{F}_2$. 
-We need to show 
+Now for the converse. Assume that $\mathcal{F}$ is a prime ideal and that $V(\mathcal{F}) = V(\mathcal{F}_1) \cup V(\mathcal{F}_2)$. Observe (as in the [proof](#WellDefinedZariskiTopologyOnSpecRProof) of prop. \ref{WellDefinedZariskiTopologyOnSpecR}) that this means equivalently that $\mathcal{F} = \mathcal{F}_1 \cdot \mathcal{F}_2$.
+We need to show
 that then $V(\mathcal{F}) = V(\mathcal{F}_1)$ or that $V(\mathcal{F} = V(\mathcal{F}_2))$.
 
 Suppose on the contrary that neither $\mathcal{F}_1$ nor $\mathcal{F}_2$ coincided with $\mathcal{F}$. This means that there were elements $f \in \mathcal{F}_1 \backslash \mathcal{F}$ and $g \in \mathcal{F}_2 \backslash \mathcal{F}$ such that still $f \cdot g \in \mathcal{F}$, in contradiction to the assumption. Hence we have a [[proof by contradiction]].
@@ -1129,9 +1129,9 @@ By lemma \ref{ZariskiClorsuredOfPont} this function is given by sending a [[prim
 
 Reconsider the case where $R = k[X_1,\cdots, X_n]$
 is a [[polynomial ring]], for $k$ a [[field]], as in the discussion of the naive affine space $k^n$
-[above](#OnAffineSpace). 
+[above](#OnAffineSpace).
 
-Observe that, by \ref{MaximalIdealsAreClosedPoints}, the [[closed points]] in the [[prime spectrum of a commutative ring|prime spectrum]] $Spec(k[X_1, \cdots, X_n])$ correspond to the [[maximal ideals]] in the [[polynomial ring]]. These are of the form 
+Observe that, by \ref{MaximalIdealsAreClosedPoints}, the [[closed points]] in the [[prime spectrum of a commutative ring|prime spectrum]] $Spec(k[X_1, \cdots, X_n])$ correspond to the [[maximal ideals]] in the [[polynomial ring]]. These are of the form
 
 $$
   (a_1, \cdots, a_n)
@@ -1158,7 +1158,7 @@ There is however also [[prime ideals]] in $k[X_1, \cdots, X_n]$ which are not ma
 
 Let $R = \mathbb{Z}$ be the [[commutative ring]] of [[integers]]. Consider the corresponding Zariski [[prime spectrum of a commutative ring|prime spectrum]] (prop. \ref{WellDefinedZariskiTopologyOnSpecR}) $Spec(\mathbb{Z})$.
 
-The [[prime ideals]] of the ring of integers are 
+The [[prime ideals]] of the ring of integers are
 
 1. the ideals $(p)$ generated by [[prime numbers]] $p$ (this special case is what motivates the terminology "prime ideal");
 
@@ -1173,9 +1173,9 @@ $$
   \,.
 $$
 
-All the prime ideals $p \geq 2$ are [[maximal ideals]]. Hence by prop. \ref{MaximalIdealsAreClosedPoints} these are [[closed points]] of $Spec(\mathbb{Z})$. 
+All the prime ideals $p \geq 2$ are [[maximal ideals]]. Hence by prop. \ref{MaximalIdealsAreClosedPoints} these are [[closed points]] of $Spec(\mathbb{Z})$.
 
-Only the prime ideal $(0)$ is not maximal, hence the point $(0)$ is not closed. 
+Only the prime ideal $(0)$ is not maximal, hence the point $(0)$ is not closed.
 Its closure is the entire space
 
 $$
@@ -1210,7 +1210,7 @@ $$
   \,.
 $$
 
- 
+
 =--
 
 ## In terms of Galois connections
@@ -1235,45 +1235,45 @@ $$
   \,.
 $$
 
-Define two [[functions]] between their [[power sets]] $P(X), P(Y)$, as follows. 
+Define two [[functions]] between their [[power sets]] $P(X), P(Y)$, as follows.
 (In the following we write $E(x, y)$ to abbreviate the formula $(x, y) \in E$.)
 
 
-1. Define 
+1. Define
 
    $$
-     V_E 
-       \;\colon\; 
-     P(X) 
-       \longrightarrow 
+     V_E
+       \;\colon\;
+     P(X)
+       \longrightarrow
      P(Y)
-   $$ 
+   $$
 
-   by 
+   by
 
    $$
-     V_E(S) 
-       \coloneqq 
+     V_E(S)
+       \coloneqq
      \left\{
        y \in Y \vert  \underset{x \in  X}{\forall} \left( \left(x \in S\right) \Rightarrow E(x, y)
     \right) \right\}
    $$
- 
+
 1. Define
 
    $$
-     I_E 
-       \;\colon\; 
-     P(Y) 
+     I_E
+       \;\colon\;
+     P(Y)
        \longrightarrow
      P(X)
-   $$ 
+   $$
 
-   by 
-  
+   by
+
    $$
      I_E(T) \coloneqq \left\{x \in X \vert \underset{y \in Y}{\forall} \left( \left(y \in T \right) \Rightarrow E(x, y)  \right)\right\}
-   $$ 
+   $$
 
 =--
 
@@ -1282,17 +1282,21 @@ Define two [[functions]] between their [[power sets]] $P(X), P(Y)$, as follows.
 
 The construction in def. \ref{GaloisConnection} has the following properties:
 
-1. $V_E$ and $I_E$ are [[contravariant functor|contravariant]] order-preserving: , if $S \subseteq S'$, then $V_E(S') \subseteq V_E(S)$. 
+1. $V_E$ and $I_E$ are [[contravariant functor|contravariant]] order-preserving in that
+
+   1. if $S \subset S'$, then $V_E(S') \subset V_E(S)$;
+
+   1. if $T \subset T'$, then $I_E(T') \subset I_E(T)$
 
 
 1. The _[[adjunction]] law_ holds:
    $
-     \left( 
-        T \subseteq V_E(S) 
-     \right) 
-       \,\Rightarrow\, 
      \left(
-       S \subseteq I_E(T)
+        T \subset V_E(S)
+     \right)
+       \,\Rightarrow\,
+     \left(
+       S \subset I_E(T)
      \right)
    $
 
@@ -1311,22 +1315,22 @@ The construction in def. \ref{GaloisConnection} has the following properties:
 +-- {: .proof}
 ###### Proof
 
-Regarding the first point: the larger $S$ is, the more conditions that are placed on $y$ in order to belong to $V_E(S)$, and so the smaller $V_E(S)$ will be. 
+Regarding the first point: the larger $S$ is, the more conditions that are placed on $y$ in order to belong to $V_E(S)$, and so the smaller $V_E(S)$ will be.
 
-Regarding the second point:  This is because both these conditions are equivalent to the condition $S \times T \subseteq E$. 
+Regarding the second point:  This is because both these conditions are equivalent to the condition $S \times T \subset E$.
 
 Regarding the third point: Observe that in a poset such as $P(Y)$, we have that $A = B$ iff for all $C$, $C \leq A$ iff $C \leq B$ (this is the [[Yoneda lemma]] applied to posets). It follows that
 
 $$
   \array{
-    T \subseteq V_E(\bigcup_{i \in I} S_i) & iff & \bigcup_{i: I} S_i \subseteq I_E(T) \\ 
-    & iff & \forall_{i: I} S_i \subseteq I_E(T) \\ 
-    & iff & \forall_{i: I} T \subseteq V_E(S_i) \\ 
-    & iff & T \subseteq \bigcap_{i: I} V_E(S_i)
+    T \subset V_E(\bigcup_{i \in I} S_i) & iff & \bigcup_{i: I} S_i \subset I_E(T) \\
+    & iff & \forall_{i: I} S_i \subset I_E(T) \\
+    & iff & \forall_{i: I} T \subset V_E(S_i) \\
+    & iff & T \subset \bigcap_{i: I} V_E(S_i)
 }
-$$ 
+$$
 
-and we conclude $V_E(\bigcup_{i: I} S_i) = \bigcap_{i: I} V_E(S_i)$ by the [[Yoneda lemma]]. 
+and we conclude $V_E(\bigcup_{i: I} S_i) = \bigcap_{i: I} V_E(S_i)$ by the [[Yoneda lemma]].
 
 
 =--
@@ -1351,20 +1355,24 @@ $$
 
 These satisfy:
 
-1. For all $S \in P(X)$ then  $S \subseteq I_E \circ V_E(S)$.
+1. For all $S \in P(X)$ then  $S \subset I_E \circ V_E(S)$.
+
+1. For all $S \in P(X)$ then $V_E \circ I_E \circ V_E (S)  =  V_E(S)
 
 1. $I_E \circ V_E$ is [[idempotent]] and [[covariant functor|covariant]].
 
 
 and
 
-1. For all $T \in P(Y)$ then $T \subseteq V_E \circ I_E(T)$.
+1. For all $T \in P(Y)$ then $T \subset V_E \circ I_E(T)$.
+
+1. For all $T \in P(Y)$ then $I_E \circ V_E \circ I_E (T) = I_E(T)$.
 
 1. $V_E \circ I_E$ is [[idempotent]] and [[covariant functor|covariant]].
 
 
 
-This is summarized by saying that 
+This is summarized by saying that
 $I_E \circ V_E$ and $V_E \circ I_E$ are _[[closure operators]]_ ([[idempotent monads]]).
 
 
@@ -1375,22 +1383,10 @@ $I_E \circ V_E$ and $V_E \circ I_E$ are _[[closure operators]]_ ([[idempotent mo
 
 The first statement is immediate from the adjunction law (prop. \ref{GaloisConnectionAsAdjunction}).
 
-Regarding the second statement, observe that for all $S \in P(X)$ then
+Regarding the second statement:
+This holds  because applied to sets $S$ of the form $I_E(T)$, we see $I_E(T) \subset I_E \circ V_E \circ I_E(T)$. But applying the contravariant map $I_E$ to the inclusion $T \subset V_E \circ I_E(T)$, we also have $I_E \circ V_E \circ I_E(T) \subset I_E(T)$.
 
-$$
-  V_E \circ I_E \circ V_E (S)  =  V_E(S)
-$$
-
-and for all $T \in P(Y)$ then
-
-$$
-  I_E \circ V_E \circ I_E (T) = I_E(T)
-  \,.
-$$
-
-This is because applied to sets $S$ of the form $I_E(T)$, we see $I_E(T) \subseteq I_E \circ V_E \circ I_E(T)$. But applying the contravariant map $I_E$ to the inclusion $T \subseteq V_E \circ I_E(T)$, we also have $I_E \circ V_E \circ I_E(T) \subseteq I_E(T)$. 
-
-This implies that the function $I_E \circ V_E$. is idempotent. 
+This directly implies that the function $I_E \circ V_E$. is idempotent, hence the third statement.
 
 The argument for $V_E \circ I_E$ is directly analogous.
 
@@ -1402,7 +1398,7 @@ In view of prop. \ref{GaloisClosureOperator} we say that:
 ###### Definition
 **(closed elements)**
 
-Given a [[Galois connection]] as in def. \ref{GaloisConnection}, then 
+Given a [[Galois connection]] as in def. \ref{GaloisConnection}, then
 
 1. $S \in P(X)$ is called *closed* if $I_E \circ V_E(S) = S$;
 
@@ -1462,7 +1458,7 @@ Given a [[Galois connection]] as in def. \ref{GaloisConnection}, then the sets o
 ###### Proof
 
 
-If $\{T_i \in P(Y)\}_{i: I}$ is a collection of elements closed under the operator $K = V_E \circ I_E$, then by the first item in prop. \ref{GaloisClosureOperator} it is automatic that $\bigcap_{i: I} T_i \subseteq K(\bigcap_{i: I} T_i)$, so it suffices to prove the reverse inclusion. But since $\bigcap_{i: I} T_i \subseteq T_i$ for all $i$ and $K$ is covariant and $T_i$ is closed, we have $K(\bigcap_{i: I} T_i) \subseteq K(T_i) \subseteq T_i$ for all $i$, and $K(\bigcap_{i: I} T_i) \subseteq \bigcap_{i: I} T_i$ follows. 
+If $\{T_i \in P(Y)\}_{i: I}$ is a collection of elements closed under the operator $K = V_E \circ I_E$, then by the first item in prop. \ref{GaloisClosureOperator} it is automatic that $\bigcap_{i: I} T_i \subset K(\bigcap_{i: I} T_i)$, so it suffices to prove the reverse inclusion. But since $\bigcap_{i: I} T_i \subset T_i$ for all $i$ and $K$ is covariant and $T_i$ is closed, we have $K(\bigcap_{i: I} T_i) \subset K(T_i) \subset T_i$ for all $i$, and $K(\bigcap_{i: I} T_i) \subset \bigcap_{i: I} T_i$ follows.
 
 =--
 
@@ -1472,16 +1468,133 @@ If $\{T_i \in P(Y)\}_{i: I}$ is a collection of elements closed under the operat
 
 We now redo the discussion of the Zariski topology on the affine space $k^n$ from [above](#OnAffineSpace) as a special case of the general considerations of [[Galois connections]].
 
-* Let $k$ be a field, and define a relation $E \hookrightarrow k[x_1, \ldots, x_n] \times k^n$ by $E(f, x)$ iff $f(x) = 0$. We get a function $V_E: P(k[x_1, \ldots, x_n]) \to P(k^n)$ which sends a set of polynomials $S$ to its corresponding *variety*, $V_E(S) = \{x \in k^n: \forall_{f: k[x_1, \ldots, x_n]} \; f \in S \Rightarrow f(x) = 0\}$. In the other direction, $I_E: P(k^n) \to P(k[x_1, \ldots, x_n]) \to P(k^n)$ sends a set of points $T \subseteq k^n$ to its corresponding *ideal* $I_E(T) = \{f \in k[x_1, \ldots, x_n]: \forall_{x: k^n} \; x \in T \Rightarrow f(x) = 0\}$. 
 
-Of course we already know a lot about varieties $V = V_E(S)$ just on the basis of the preceding generalities; for example, varieties are closed under arbitrary intersections. We get a little more in this specific case by exploiting the ring structure of $k[x_1, \ldots, x_n]$: we can prove that varieties are also closed under finite unions (making them the closed sets of a topology). Namely, the empty union $\emptyset$ is $V(1)$ (the variety associated with the constant polynomial $1$), and for binary unions $V_E(S) \cup V_E(S')$, we can use 2. above to replace the sets $S$ and $S'$ by the ideals $I = I_E \circ V_E(S)$ and $I' = I_E \circ V_E(S')$, and then we claim $V_E(I) \cup V_E(I') = V(I \cdot I')$ where $I \cdot I'$ is the ideal consisting of finite sums of elements of the form $f g$ with $f \in I$ and $g \in I'$. 
++-- {: .num_example #ZariskiClosedSubsetsInaffineViaGalois}
+###### Example
+**(Zariski closed subsets in affine space via Galois connection)**
 
-+-- {: .proof} 
-###### Proof 
-Applying the contravariant operator $V_E$ to the inclusions $I \cdot I' \subseteq I$ and $I \cdot I' subseteq I'$ (which are clear since $I, I'$ are ideals), we derive $V_E(I) \subseteq V_E(I \cdot I')$ and $V_E(I') \subseteq V(I \cdot I')$, so the inclusion $V_E(I) \cup V_E(I') \subseteq V(I \cdot I')$ is automatic. 
 
-In the other direction, to prove $V(I \cdot I') \subseteq V_E(I) \cup V(I')$, suppose $x \in V(I \cdot I')$ and that $x$ *doesn't* belong to $V(I)$. Then $f(x) \neq 0$ for some $f \in I$. For every $g \in I'$, we have $f(x)g(x) = (f \cdot g)(x) = 0$ since $f \cdot g \in I \cdot I'$ and $x \in V_E(I \cdot I')$. Now divide by $f(x)$ to get $g(x) = 0$ for every $g \in I'$, so that $x \in V_E(I')$. 
-=-- 
+Let $k$ be a [[field]] and let $n \in \mathbb{N}$, and write $k[X_1, \cdots, X_n]$ for the [[polynomial ring]] over $k$  in $n$ [[variables]].  Define a [[relation]]
+
+$$
+  E \hookrightarrow k[x_1, \ldots, x_n] \times k^n
+$$
+
+by
+
+$$
+  E(f, x)\coloneqq \left( f(x) = 0\right)
+  \,.
+$$
+
+By def. \ref{GaloisConnection} and prop. \ref{GaloisConnectionAsAdjunction} we obtain the corresponding [[Galois connection]] of the form
+
+$$
+  P(k[X_1, \cdots, X_n])
+     \underoverset{\underset{V_E}{\longrightarrow}}{\overset{I_E}{\longleftarrow}}{\bot}
+  P(k^n)^{op}
+$$
+
+(where now $k[X_1, \cdots, X_n]$ and $k^n$ denote their underlying sets).
+
+Here by def. \ref{GaloisConnection} the function
+
+$$
+  V_E \;\colon\; P(k[x_1, \ldots, x_n]) \longrightarrow P(k^n)
+$$
+
+sends a set $\mathcal{F}$ of [[polynomials]]  to its corresponding *[[variety]]*,
+
+$$
+  V_E(\mathcal{F}) = \{\vec x \in k^n \,\vert\, \forall_{f \in k[x_1, \ldots, x_n]} \; (f \in \mathcal{F}) \Rightarrow (f(x) = 0)\}
+  \,.
+$$
+
+These are just the Zariski closed subsets from def. \ref{ZariskiOpenSubsetsOnAffineSpace}.
+
+In the other direction,
+
+$$
+  I_E \;\colon\; P(k^n) \longrightarrow P(k[x_1, \ldots, x_n])
+$$
+
+sends a set of points $T \subseteq k^n$ to its corresponding *[[vanishing ideal]]*
+
+$$
+  I_E(T) = \{f \in k[x_1, \ldots, x_n] \,\vert\, \forall_{x: k^n} \; x \in T \Rightarrow f(x) = 0\}
+$$
+
+which we considered earlier in def. \ref{VanishingIdeal}.
+
+
+=--
+
+We may now use the abstract theory of Galois connections to verify that Zariski closed subsets form a [[topological space|topology]]:
+
++-- {: .num_prop }
+###### Proposition
+**(Zariski topology is well defined)**
+
+Using [[excluded middle]], then:
+
+The set of Zariski closed subsets of $k^n$ from example \ref{ZariskiClosedSubsetsInaffineViaGalois} constitutes a [[topological space|topology]] in that it is closed under
+
+1. arbitrary intersections;
+
+1. finite untions.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first point: From prop. \ref{GaloisConnectionAsAdjunction} we know that $V_E$ takes unions to intersections, hence that
+
+$$
+  \underset{i \in I}{\cap} V_E(\mathcal{F}_i)
+  \;=\;
+  V_E\left(
+    \underset{i \in I}{\cup} \mathcal{F}_i
+  \right)
+  \,.
+$$
+
+Regarding the second point, we exploit the [[commutative ring]] structure of $k[x_1, \ldots, x_n]$. It is sufficient to show that the set of Zariski closed sets is closed under the empty union and under binary unions.
+
+The empty union is the entire space $k^n$, which is $V(1)$ (the variety associated with the constant polynomial $1$),
+
+Hence it only remains to see closure under binary unions.
+
+To this end, recall from prop. \ref{GaloisClosureOperator} that we may replace $\mathcal{F}$ with the corresponding ideal
+
+$$
+  I \coloneqq I_E \circ V_E(\mathcal{F})
+$$
+
+without changing the variety:
+
+$$
+  V_E(I) = V_E(\mathcal{F})
+  \,.
+$$
+
+With this it is sufficient to show that
+
+$$
+  V_E(I) \cup V_E(I') = V(I \cdot I')
+$$
+
+where $I \cdot I'$ is the ideal consisting of finite sums of elements of the form $f g$ with $f \in I$ and $g \in I'$.
+
+We conclude by proving this statement:
+
+Applying the contravariant operator $V_E$ to the inclusions $I \cdot I' \subseteq I$ and $I \cdot I' subseteq I'$ (which are clear since $I, I'$ are ideals), we derive $V_E(I) \subseteq V_E(I \cdot I')$ and $V_E(I') \subseteq V(I \cdot I')$, so the inclusion $V_E(I) \cup V_E(I') \subseteq V(I \cdot I')$ is automatic.
+
+In the other direction, to prove $V(I \cdot I') \subseteq V_E(I) \cup V(I')$, suppose $x \in V(I \cdot I')$ and that $x$ *doesn't* belong to $V(I)$. Then $f(x) \neq 0$ for some $f \in I$. For every $g \in I'$, we have $f(x)g(x) = (f \cdot g)(x) = 0$ since $f \cdot g \in I \cdot I'$ and $x \in V_E(I \cdot I')$. Now divide by $f(x)$ to get $g(x) = 0$ for every $g \in I'$, so that $x \in V_E(I')$.
+
+=--
+
+
 
 ### Applied to affine schemes
  {#GaloisAppliedToAffineSchemes}
@@ -1490,19 +1603,19 @@ We now redo the discussion of the Zariski topology on the [[prime spectrum of a 
 
 
 
-* Again let $k$ be a field, and define a relation $E \hookrightarrow k[x_1, \ldots, x_n] \times MaxIdeal(k[x_1, \ldots, x_n])$ by $E(f, M)$ iff $f \in M$. This is a slight generalization of the previous example since each point $a = (a_1, \ldots, a_n)$ induces a maximal ideal $M = \langle x_1 - a_1, \ldots, x_n - a_n \rangle$, i.e. the kernel of the map $k[x_1, \ldots, x_n] \to k: f \mapsto f(a)$ which evaluates polynomials $f$ at the point $a$, where we have $f(a) = 0$ iff $f \in M$. 
+* Again let $k$ be a field, and define a relation $E \hookrightarrow k[x_1, \ldots, x_n] \times MaxIdeal(k[x_1, \ldots, x_n])$ by $E(f, M)$ iff $f \in M$. This is a slight generalization of the previous example since each point $a = (a_1, \ldots, a_n)$ induces a maximal ideal $M = \langle x_1 - a_1, \ldots, x_n - a_n \rangle$, i.e. the kernel of the map $k[x_1, \ldots, x_n] \to k: f \mapsto f(a)$ which evaluates polynomials $f$ at the point $a$, where we have $f(a) = 0$ iff $f \in M$.
 
-Of course it need not be the case that all maximal ideals $M$ are given by points in this way; for example, the ideal $(x^2 + 1)$ is maximal in $\mathbb{R}[x]$ but is not given by evaluation at a point because $x^2 + 1$ doesn't vanish at any real point. However, if the ground field $k$ is [[algebraically closed field|algebraically closed]], then every maximal ideal of $k[x_1, \ldots, x_n]$ is given by evaluation at a point $a = (a_1, \ldots, a_n)$. This result is not completely obvious; it is sometimes called the "weak [[Nullstellensatz]]". 
+Of course it need not be the case that all maximal ideals $M$ are given by points in this way; for example, the ideal $(x^2 + 1)$ is maximal in $\mathbb{R}[x]$ but is not given by evaluation at a point because $x^2 + 1$ doesn't vanish at any real point. However, if the ground field $k$ is [[algebraically closed field|algebraically closed]], then every maximal ideal of $k[x_1, \ldots, x_n]$ is given by evaluation at a point $a = (a_1, \ldots, a_n)$. This result is not completely obvious; it is sometimes called the "weak [[Nullstellensatz]]".
 
-Looking a little more closely at this example, for a subset $T \subseteq MaxIdeal(k[x_1, \ldots, x_n])$ we calculate 
+Looking a little more closely at this example, for a subset $T \subset MaxIdeal(k[x_1, \ldots, x_n])$ we calculate
 
-$$I_E(T) = \{f \in k[x_1, ldots, x_n]: \forall_{M \in MaxIdeal} M \in S \Rightarrow f \in M\} = \bigcap_{M \in S} M$$ 
+$$I_E(T) = \{f \in k[x_1, ldots, x_n]: \forall_{M \in MaxIdeal} M \in S \Rightarrow f \in M\} = \bigcap_{M \in S} M$$
 
-which is an ideal, since the intersection of any collection of ideals is again an ideal. (However, not all ideals are given as intersections of maximal ideals, a point to which we will return in a moment.) 
+which is an ideal, since the intersection of any collection of ideals is again an ideal. (However, not all ideals are given as intersections of maximal ideals, a point to which we will return in a moment.)
 
-As in the previous example, sets $S \subseteq k^n$ that are closed under the operator $V_E \circ I_E: P(k^n) \to P(k^n)$ form a topology. The proof is virtually exactly the same as before: they are closed under arbitrary intersections by our earlier generalities, and they are closed under finite unions by the similar reasoning: $V_E(S) = V_E(I)$ where $I = I_E \circ V_E(S)$ is an ideal, so there is no loss of generality in considering $V_E(I)$ for ideals $I$, and $V_E(I) \cup V_E(I') = V_E(I \cdot I')$. If $M \in V_E(I \cdot I')$ (meaning $I \cdot I' \subseteq M$) but $M$ *doesn't* belong to $V_E(I)$, i.e., $f \notin M$ for some $f \in I$, then for every $g \in I'$ we have $f g \in M$. Taking the quotient map $\pi: R \to R/M$ to the field $R/M$, we have $\pi(f g) = \pi(f)\pi(g) = 0$, and since $\pi(f) \neq 0$ we have $\pi(g) = 0$ for every $g \in I'$, hence $M \in V_E(I')$. 
+As in the previous example, sets $S \subset k^n$ that are closed under the operator $V_E \circ I_E: P(k^n) \to P(k^n)$ form a topology. The proof is virtually exactly the same as before: they are closed under arbitrary intersections by our earlier generalities, and they are closed under finite unions by the similar reasoning: $V_E(S) = V_E(I)$ where $I = I_E \circ V_E(S)$ is an ideal, so there is no loss of generality in considering $V_E(I)$ for ideals $I$, and $V_E(I) \cup V_E(I') = V_E(I \cdot I')$. If $M \in V_E(I \cdot I')$ (meaning $I \cdot I' \subset M$) but $M$ *doesn't* belong to $V_E(I)$, i.e., $f \notin M$ for some $f \in I$, then for every $g \in I'$ we have $f g \in M$. Taking the quotient map $\pi: R \to R/M$ to the field $R/M$, we have $\pi(f g) = \pi(f)\pi(g) = 0$, and since $\pi(f) \neq 0$ we have $\pi(g) = 0$ for every $g \in I'$, hence $M \in V_E(I')$.
 
-Thus the fixed elements of $V_E \circ I_E$ on one side of the Galois correspondence are the closed sets of a topology. The fixed elements of $I_E \circ V_E$ on the other side are a matter of interest; in the case where $k$ is algebraically closed, they are the *radical ideals* of $k[x_1, \ldots, x_n]$ according to the "strong [[Nullstellensatz]]. 
+Thus the fixed elements of $V_E \circ I_E$ on one side of the Galois correspondence are the closed sets of a topology. The fixed elements of $I_E \circ V_E$ on the other side are a matter of interest; in the case where $k$ is algebraically closed, they are the *radical ideals* of $k[x_1, \ldots, x_n]$ according to the "strong [[Nullstellensatz]].
 
 
 ## Related concepts
