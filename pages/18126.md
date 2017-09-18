@@ -3381,7 +3381,17 @@ More generally, an [[open subset]] in $\mathbb{R}^{n_1}$ is never homeomorphic t
 
 =--
 
-The proof of theorem \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from the field of _[[algebraic topology]]_ (for example [[ordinary cohomology]], [[Brouwer's fixed point theorem]] or [[topological K-theory]]).
+The proofs of theorem \ref{TopologicalInvarianceOfDimension} are not elementary, in contrast to how obvious the statement seems to be intuitively.
+One approach is to use tools from _[[algebraic topology]]_:
+One assigns [[topological invariants]] to topological spaces, notably classes in [[ordinary cohomology]]  or in [[topological K-theory]]),
+quantities that are [[invariant]] under [[homeomorphism]],
+and then shows that these classes coincide for $\mathbb{R}^{n_1} - \{0\}$ and for $\mathbb{R}^{n_2} - \{0\}$ precisely only
+if $n_1 = n_2$.
+
+One indication that [[topological invariance of dimension]] is not an _elementary_ consequence of the axioms of topological spaces
+is that a related "intuitively obvious" statement is in fact false: One might think that there is no
+_[[surjective function|surjective]]_ [[contiuous function]] $\mathbb{R}^{n_1} \to  \mathbb{R}^{n_2}$ if $n_1 \lt n_2$.
+But there are: these are called the _[[Peano curves]]_.
 
 
 
@@ -3721,7 +3731,7 @@ if every point $y \neq x$ is member of at least one open subset not containing $
 
 Conversely, assume that for all $x \in X$ then $Cl(\{x\}) = \{x\}$. Then for $x \neq y \in X$ two
 distinct points we need to produce an open subset of $y$ that does not contain $x$. But as before,
-since $Cl(\{x\})$ is the complement of the union of all open subsets that do not contain $x$, 
+since $Cl(\{x\})$ is the complement of the union of all open subsets that do not contain $x$,
 the assumption $Cl\{x\} = \{x\}$ means that $y$ is member of one of these open subsets that do not
 contain $x$.
 
@@ -3899,7 +3909,7 @@ $$
 
 Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ is called the _$T_n$-reflection_ of $X$.
 
-* For $n = 0$ this is known as the _[[Kolmogorov quotient]]_ construction (see prop. \ref{KolmogorovQuotient} below). 
+* For $n = 0$ this is known as the _[[Kolmogorov quotient]]_ construction (see prop. \ref{KolmogorovQuotient} below).
 
 * For $n = 2$
 this is known as _[[Hausdorff reflection]]_ or _Hausdorffication_ or similar.
@@ -4014,8 +4024,20 @@ prop. \ref{TiSubspaces} also $f(X)$ is a $T_n$-topological space if $Y$ is.
 It follows by definition of $t_n(X)$ that the factorization exists at the level of sets as stated,
 since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then
 by definition they have the same image under all continuous surjective functions to a $T_n$-space, hence in particular
-under $X \to f(X)$. This means that $\tilde f$ as above is well defined.
-Moreover, by the nature of the quotient topology, $\tilde f$ is continuous.
+under $X \to f(X)$. This means that $\tilde f$ as above is well defined. 
+Moreover, it is clear that this is the unique factorization.
+
+To see that $\tilde f$ is continuous, consider $U \in Y$ an open subset. We need to show that $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[topological quotient space|quotient topology]], this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
+
+$$
+  (t_n(X))^{-1}(\tilde f^{-1}(U))
+  =
+  ( \tilde f \circ t_n(X) )^{-1}(U)
+  =
+  f(U)
+$$
+
+is open in $X$. But this is the case by the assumption that $f$ is continuous.
 
 What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space.
 Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to produce open neighbourhoods
