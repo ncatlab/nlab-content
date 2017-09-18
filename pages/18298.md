@@ -1061,48 +1061,47 @@ $$
   \mathbb{R}^2
 $$
 
-be the [[circle]] with its  [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
+be the  [[circle]] with its  [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
 Consider the [[open cover]]
 
 $$
   \left\{
-    U_i \subset S^1
-  \right\}_{i \in \{+,-\}}
+    U_n \subset S^1
+  \right\}_{n \in \{0,1,2\}}
 $$
 
-whose two elements are the [[complements]] of two antipodal points
+with
 
 $$
-  U_\pm \coloneqq S^1 \setminus \{(\pm 1,0)\}
-  \,.
+  U_n \coloneqq \left\{ (cos(\alpha), sin(\beta)) \;\vert\; n \frac{2 \pi }{3} - \epsilon \lt \alpha \lt (n+1) \frac{2\pi }{3} + \epsilon  \right\}
 $$
+
+for any $\epsilon \in (0,2\pi/6)$.
+
 
 Define a [[Cech cohomology]] cocycle (remark \ref{CechCoycleCondition}) on this cover by
 
 $$
-  \array{
-    U_+ \cap U_- &\overset{ g_{\pm \mp} }{\longrightarrow}& GL(1,\mathbb{R})
-    \\
-    x &\mapsto& -id
-  }
+  g_{n_1 n_2} = 
+  \left\{
+    \array{
+      const_{-1} & \vert & (n_1,n_2) = (0,2)
+      \\
+      const_{-1} &\vert& (n_1,n_2) = (2,0)
+      \\
+      const_1 &\vert& \text{otherwise}
+    }
+  \right.
 $$
-
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/moebiusstrip.jpg" width="200">
 </div>
 
-Since there are no non-trivial triple intersections, the only cocycle condition is
-
-$$
-  g_{\mp \pm} g_{\pm \mp} = g_{\pm \pm} = id
-$$
-
-which is clearly satisfied.
-
+Since there are no non-trivial triple intersections, all cocycle conditions are 
+evidently satisfied.
 
 Accordingly by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
-
 This is the _[[Moebius strip]]_
 
 =--
