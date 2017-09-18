@@ -69,6 +69,9 @@ The [[M5-brane]] was maybe first found as a black brane of [[11-dimensional supe
 
 Review includes,
 
+* {#Duff99} [[Mike Duff]], chapter 5 of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
+
 * {#Stelle98} [[Kellogg Stelle]], around section 3.3. of _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
 
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, section 1.3 of _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
