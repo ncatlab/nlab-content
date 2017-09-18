@@ -40,3 +40,5 @@ Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
  {#Constable}
 
 [[!redirects NuPrl]]
+
+[[!redirects Nuprl]]
