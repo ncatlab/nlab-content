@@ -37,6 +37,10 @@ for any $\delta$-fine partition $P$.  If such an $I$ exists, we say that $f$ is 
 
 If we require a gauge to be a [[constant function]], then we recover the definition of the [[Riemann integral]].
 
+The Henstock integral may be seen as a non-uniform generalization of the Riemann integral.  Whereas specifying a constant $\delta$ is tantamount to picking an [[entourage]] on $[a,b]$, specifying a gauge $\delta$ is tantamount to assigning a [[neighbourhood]] to each point in $[a,b]$.  (Indeed, with either definition of integral, it would be equivalent to replace $\delta$ in the definition with an entourage or an assignment of neighbourhoods.)  Similarly, the definition of [[uniformly continuous function]] becomes that of [[continuous function]] if you change $\delta$ from a constant to a gauge.
+
+In [[constructive mathematics]], we must allow a gauge to take [[lower real number|lower semicontinuous]] values.  Otherwise, there may not be enough gauges, since these are rarely continuous.  (This is not necessary with the Riemann integral.)  On the other hand, one could explicitly require gauges to be [[lower semicontinuous function|lower semicontinuous]] with no loss of generality.  (The definition could also be made constructive by explicitly referring to an assignment of neighbourhoods to points or by replacing $\delta$ with an [[entire relation]].  Again compare the change from the definition of uniformly continuous to pointwise-continuous function.)
+
 
 ## Properties
 
