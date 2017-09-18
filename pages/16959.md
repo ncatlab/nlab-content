@@ -18,7 +18,7 @@
 +-- {: .num_defn #SuspensionJoin}
 ###### Definition
 
-Write $I \coloneqq [0,1]$ for the unit interval, regarded as a [[topological space]].
+Write $I \coloneqq [0,1]$ for the unit [[interval]], regarded as a [[topological space]].
 
 For $X,Y $ two [[topological spaces]], the [[join]] $X \ast Y$ is the [[quotient space]] 
 
@@ -35,7 +35,7 @@ $$
 
 =-- 
 
-In other words, the join is the pushout in [[Top]] of the diagram 
+In other words, the join is the [[pushout]] in [[Top]] of the [[diagram]]
 
 $$\array{
  & & X \times Y & & & & X \times Y & & \\
