@@ -2107,7 +2107,7 @@ $$
 $$
 
 For $* \to A$ any [[pointed object]] in $\mathbf{H}$, write 
-$\mathbf{\flat}_{dR} A : * \prod_A \mathbf{\flat}A$ for the [[(∞,1)-pullback]]
+$\mathbf{\flat}_{dR} A := * \prod_A \mathbf{\flat}A$ for the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -2296,7 +2296,7 @@ $$
   \,.
 $$
 
-A [[cocycle]] $\omega : X \to \mathbf{\flat}_{dR}A$ we call an **flat $A$-valued differential form** on $X$.
+A [[cocycle]] $\omega : X \to \mathbf{\flat}_{dR}A$ we call a **flat $A$-valued differential form** on $X$.
 
 We say that $H_{dR}(X,A) {:=} \pi_0 \mathbf{H}_{dR}(X,A)$
 is the **de Rham cohomology** of $X$ with coefficients in $A$.
@@ -2312,7 +2312,7 @@ $$
   \omega : \mathbf{\Pi}_{dR}X \to A
 $$
 
-is precisely a [flat ∞-connetion](#FlatDifferentialCohomology) on a _trivializable_ $A$-principal $\infty$-bundle. More precisely, $\mathbf{H}_{dR}(X,A)$ is the [[homotopy fiber]] of the [[forgetful functor]] from $\infty$-bundles with flat $\infty$-connection to $\infty$-bundles: we have an [[(∞,1)-pullback]]
+is precisely a [flat ∞-connection](#FlatDifferentialCohomology) on a _trivializable_ $A$-principal $\infty$-bundle. More precisely, $\mathbf{H}_{dR}(X,A)$ is the [[homotopy fiber]] of the [[forgetful functor]] from $\infty$-bundles with flat $\infty$-connection to $\infty$-bundles: we have an [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -2476,20 +2476,20 @@ In summary this means that in a cohesive $(\infty,1)$-topos the objects $\mathbf
 
 In the [Examples](#Examples) we will see that, indeed, the intrinsic de Rham cohomology $H_{dR}(X, A) {:=} \pi_0 \mathbf{H}(\mathbf{\Pi}_{dR} X, A)$ reproduces ordinary de Rham cohomology in degree $d\gt 1$.
 
-In degree 0 the intrinsic de Rham cohomology is necessrily trivial, while in degree 1 we find that it reproduces closed 1-forms, not divided out by exact forms. This difference to ordinary de Rham cohomology in the lowest two degrees may be interpreted in terms of the obstruction-theoretic meaning of de Rham cohomology by which we essentially characterized it above: we have that the intrinsic $H_{dR}^n(X,K)$ is the home for the obstructions to flatness of $\mathbf{B}^{n-2}K$-[[principal ∞-bundle]]s. For $n = 1$ this are groupoid-principal bundles over the _groupoid_ with $K$ as its space of objects. But the 1-form curvatures of groupoid bundles are not to be regarded modulo exact forms. More details on this are at [[circle n-bundle with connection]].
+In degree 0 the intrinsic de Rham cohomology is necessarily trivial, while in degree 1 we find that it reproduces closed 1-forms, not divided out by exact forms. This difference to ordinary de Rham cohomology in the lowest two degrees may be interpreted in terms of the obstruction-theoretic meaning of de Rham cohomology by which we essentially characterized it above: we have that the intrinsic $H_{dR}^n(X,K)$ is the home for the obstructions to flatness of $\mathbf{B}^{n-2}K$-[[principal ∞-bundle]]s. For $n = 1$ this are groupoid-principal bundles over the _groupoid_ with $K$ as its space of objects. But the 1-form curvatures of groupoid bundles are not to be regarded modulo exact forms. More details on this are at [[circle n-bundle with connection]].
 
 =--
 
 ### Integration of differential forms and Stokes lemma
  {#IntegrationOfDifferentialForms}
 
-See at _[integration of differential forms -- In cohosive homotopy-type theory](integration%20of%20differential%20forms#InCohesiveHomotopyTypeTheory)_
+See at _[integration of differential forms -- In cohesive homotopy-type theory](integration%20of%20differential%20forms#InCohesiveHomotopyTypeTheory)_
 
 ### Exponentiated $\infty$-Lie algebras 
  {#LieAlgebras}
 
 We now use the intrinsic non-abelian  de Rham cohomology in the cohesive $(\infty,1)$-topos
-$\mathbf{H}$ discussed [above](#deRhamCohomology) to see that there is also an intrinsic notion of _exponentiated higher [[Lie algebra]] objects_ in $\mathbf{H}$. (The fact that for $\mathbf{H} = $ [[Smooth∞Grpd]] these abstractly defined objects are indeed presented by [[L-∞ algebras]] is disucssed at _[[smooth ∞-groupoid -- structures]]_.)
+$\mathbf{H}$ discussed [above](#deRhamCohomology) to see that there is also an intrinsic notion of _exponentiated higher [[Lie algebra]] objects_ in $\mathbf{H}$. (The fact that for $\mathbf{H} = $ [[Smooth∞Grpd]] these abstractly defined objects are indeed presented by [[L-∞ algebras]] is discussed at _[[smooth ∞-groupoid -- structures]]_.)
 
 The idea is that for $G \in Grp(\mathbf{H})$ an [[∞-group]], a $G$-valued differential form on some $X \in \mathbf{H}$, which by the above is given by a morphism
 
@@ -2497,7 +2497,7 @@ $$
   A : \mathbf{\Pi}_{dR}(X) \to \mathbf{B}G
 $$ 
 
-maps "infitesimal paths" to elements of $G$, and hence only hits "infinitesimal elements" in $G$. Therefore the object that such forms universally factor through we write $\mathbf{B} \exp(\mathfrak{g})$ and think of as the formal [[Lie integration]] of the $\infty$-Lie algebra of $G$.
+maps "infinitesimal paths" to elements of $G$, and hence only hits "infinitesimal elements" in $G$. Therefore the object that such forms universally factor through we write $\mathbf{B} \exp(\mathfrak{g})$ and think of as the formal [[Lie integration]] of the $\infty$-Lie algebra of $G$.
 
 The reader should note here that all this is formulated without an explicit ("synthetic") notion of infinitesimals. Instead, it is infinitesimal in the same sense that $\mathbf{\Pi}_{dR}(X)$ is the _[[schematic homotopy type|schematic de Rham homotopy type]]_ of $X$, as discussed above. But if we add a bit more structure to the cohesive $(\infty,1)$-topos $\mathbf{H}$, then these infinitesimals can be realized also synthetically. That extra structure is that of _[[cohesive (infinity,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]]_. See there for more details.
 
@@ -2585,7 +2585,7 @@ $$
   \,,
 $$
 
-where we used that in the [[∞-connected (∞,1)-topos|∞-connected]] $\mathbf{H}$ the functor $Disc$ is[[full and faithful (∞,1)-functor|full and faithful]].
+where we used that in the [[∞-connected (∞,1)-topos|∞-connected]] $\mathbf{H}$ the functor $Disc$ is [[full and faithful (∞,1)-functor|full and faithful]].
 
 =--
 
@@ -2624,7 +2624,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universality of the counit</a> of $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ we have that $\omega$ factors through the [[unit of an adjunction|counit]9 
+By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universality of the counit</a> of $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$ we have that $\omega$ factors through the [[unit of an adjunction|counit]] 
 $\exp Lie \mathbf{B}G \to \mathbf{B}G$. 
 
 =--
