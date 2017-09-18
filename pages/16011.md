@@ -1,0 +1,57 @@
+[[!redirects heteromorphisms]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The term _heteromorphism_ ([Ellerman 07](#Ellerman07)) is used for the concept of a [[morphism]] not (necessarily) between two [[objects]] in the same [[category]], but between objects in two different categories that are related by a [[functor]], and typically by an [[adjoint functor]]. Indeed, sets of heteromorphism may be used to characterize [[adjunctions]]. Generally, the set of heteromorphisms is that assigned by the corresponding [[profunctor]] to the pair of objects.
+
+The concept is also known as the _[[cograph of a functor]]_. While in traditional [[category theory]] literature the concept is maybe somewhat neglected, it serves for instance as the very definition of [[adjoint (infinity,1)-functors]] in the context of [[quasi-categories]] in ([Lurie 06](#Lurie06)) (without using the term "heteromorphism" there).
+
+## Definition
+
+Given two [[categories]] $\mathcal{C}$ and $\mathcal{D}$ and a [[functor]] $L \colon \mathcal{C} \to \mathcal{D}$, then for $c\in \mathcal{C}$ and $d \in \mathcal{D}$ two [[objects]], the set of _heteromorphisms_ between them is the [[hom set]]
+
+$$
+  Het(c,d) \coloneqq \mathcal{D}(L(c),d)
+  \,.
+$$
+
+When $L$ has a [[right adjoint]] $R \colon \mathcal{D}\to \mathcal{C}$ then this is of course equivalent to 
+
+$$
+  Het(c,d) \coloneqq \mathcal{C}(c,R(d))
+  \,.
+$$
+
+More generally, for $Het \colon \mathcal{C}^{op}\times \mathcal{D}\to Set$ a [[profunctor]] from $\mathcal{C}$ to $\mathcal{D}$, then $Het(c,d)$ may be called its set of heteromorphisms.
+
+## Properties
+
+### Characterization of adjunctions
+
+Heteromorphisms may be used to express/characterize [[adjunctions]]. For more on this see at
+
+* [adjoint functor -- In terms of cographs/heteromorphisms](adjoint+functor#InTermsOfCographsHeteromorphisms)
+
+* _[adjoint (infinity,1)-functor -- In terms of cographs/Heteromorphisms](adjoint+%28infinity%2C1%29-functor#InTermsOfCographsHeteromorphisms)_
+## References
+
+* {#Ellerman07} [[David Ellerman]], _Adjoint Functors and Heteromorphisms_ ([arXiv:0704.2207](http://arxiv.org/abs/0704.2207))
+
+* {#Lurie06} [[Jacob Lurie]], _[[Higher Topos Theory]]_ ([arXiv:0608040](http://arxiv.org/abs/math/0608040))
+
