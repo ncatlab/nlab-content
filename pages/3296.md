@@ -176,9 +176,13 @@ $$
 
 ## References
 
-A standard textbook is
+Textbook accounts include
+
 
 * [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press (1974)
+
+* {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 
 A concise introduction is in chapter 23
 
