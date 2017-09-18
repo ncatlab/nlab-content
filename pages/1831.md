@@ -291,7 +291,7 @@ There are also the "categorical fibrations", the fibrations in the Joyal [[model
 +-- {: .un_prop}
 ###### Proposition 
 
-Every Cartesian $p : X \to Y$ in [[sSet]] is a fibration with respect to the [[Andre Joyal|Joyal]] [[model structure for quasi-categories]] on [[sSet]].
+Every Cartesian fibration $p : X \to Y$ in [[sSet]] is a fibration with respect to the [[Andre Joyal|Joyal]] [[model structure for quasi-categories]] on [[sSet]].
 
 =--
 
