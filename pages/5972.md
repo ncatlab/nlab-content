@@ -25,7 +25,7 @@
 * MathOverflow: [kontsevichs-conjectures-on-the-grothendieck-teichmuller-group](http://mathoverflow.net/questions/42148/kontsevichs-conjectures-on-the-grothendieck-teichmuller-group)
 * [Alain Bruguieres](http://www.math.univ-montp2.fr/~bruguieres/recherche.html), _On a [[Tannaka duality|tannakian]] result due to Nori_, [dvi](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.dvi), [ps](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.ps), [pdf](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.pdf), [djvu](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.djvu)
 * Jonas von Wangenheim, _Nori-Motive und Tannaka-Theorie_, [arxiv/1111.5146](http://arxiv.org/abs/1111.5146)
-* Isamu Iwanari, _Tannakization in derived algebraic geometry_, [arxiv/1112.1761](http://arxiv.org/abs/1112.1761)
+* [[Isamu Iwanari]], _Tannakization in derived algebraic geometry_, [arxiv/1112.1761](http://arxiv.org/abs/1112.1761)
 
 * J. Ayoub, L. Barbieri-Viale, _Nori 1-motives_ ([arXiv:1206.5923](http://arxiv.org/abs/1206.5923))
 
