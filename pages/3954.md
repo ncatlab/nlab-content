@@ -19,7 +19,9 @@
 
 ## Idea
 
-In [[set theory]], **forcing** is a way of "adjoining indeterminate objects" to a [[model]] in order to make certain [[axioms]] [[true]] or [[false]] in a resulting new model.  The language of forcing is generally used in [[material set theory]], but it is more or less equivalent to the construction of [[categories of sheaves]] in [[topos theory]] and [[structural set theory]].
+In [[set theory]], **forcing** is a way of "adjoining indeterminate objects" to a [[model]] in order to make certain [[axioms]] [[true]] or [[false]] in a resulting new model.  
+
+The language of forcing is generally used in [[material set theory]]. From the point of view of [[structural set theory]]/[[categorical logic]] it is more or less equivalent to the construction of [[categories of sheaves]] in [[topos theory]] and [[structural set theory]]: here a [[classifying topos]] of a [[theory]] is a "category of sets" that is  "forced" to contain a generic model of the theory.
 
 
 ## An analogy to polynomial rings
@@ -52,7 +54,10 @@ Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C
 
 ## References
 
+A good introduction is in [Schoenfield 71](#Schoenfield71)
+
 ### General
+
 
 * [[Paul Cohen]], _Set theory and the [[continuum hypothesis]]_, Benjamin, New York 1966
 
@@ -62,7 +67,7 @@ Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C
 
 * Jon Barwise ed. _Handbook of mathematical logic_, 1977, in chapters by Macintyre, Burgess and Keisler
 
-* J. R. Schoenfield, _Unramified forcing_, pp. 383--395 in: Axiomatic set theory, vol. 1, ed. D. S. Scott, Proc. Symp. Pure Math. __13__ (1971)
+* {#Schoenfield71} J. R. Schoenfield, _Unramified forcing_, pp. 383--395 in: Axiomatic set theory, vol. 1, ed. D. S. Scott, Proc. Symp. Pure Math. __13__ (1971) (([pdf](https://www.math.ucsd.edu/~sbuss/CourseWeb/Math260_2012F2013W/Shoenfield_UnramifiedForcing.pdf)))
 
 * S. Shelah, _Proper and Improper Forcing_ , Perspectives in Math. Logic vol. 5 Springer Heidelberg 1998. ([toc](http://projecteuclid.org/euclid.pl/1235419814#toc))
 
