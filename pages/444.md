@@ -144,7 +144,7 @@ $$
 
 being
 
-* for $n = 0$ the functions that remembers the $k$th object;
+* for $n = 0$, $d_0= target:arr(\mathcal{C})\to ob(\mathcal{C})$, whilst $d_1$ is similarly the domain /  source function; 
 
 * for $n \geq 1$ 
 
@@ -191,7 +191,7 @@ $$
   f_{i-1,i+1} \coloneqq f_{i,i+1} \circ f_{i-1,i}
 $$
 
-for the comosition of the two morphism that share the $i$th vertex. 
+for the composition of the two morphism that share the $i$th vertex. 
 
 With this, face map $d_k$ acts simply by "removing the index $k$":
 
@@ -262,7 +262,7 @@ $$
 $$
 
 for the identity morphism on the object $x_k$, 
-then the degenarcy map acts by "repeating the $k$th index"
+then the degeneracy map acts by "repeating the $k$th index"
 
 $$
   s_k
@@ -611,7 +611,7 @@ For a [[2-category]], regarded as a [[Cat]]-[[internal category]] one can apply 
 
 ### Nerve of an $\omega$-category ###
 
-* For [[strict omega-category|strict omega-categories]] there is a nerve induced by the [[orientals]]. see [[omega-nerve]].
+* For [[strict omega-category|strict omega-categories]] there is a nerve induced by the [[orientals]]; see [[omega-nerve]].
 
 
 ### Nerve of chain complexes ###
