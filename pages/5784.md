@@ -70,6 +70,8 @@ A [[super translation Lie algebra]] and hence [[super Minkowski spacetime]], is 
 
 * [[super Cartan geometry]]
 
+* [spectral superpoint](spectral+super-scheme#SpectralSuperpoint)
+
 ## References
 
 For instance 
