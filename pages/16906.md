@@ -1,0 +1,17 @@
+A __right semiquantale__ is a [[complete lattice]] $Q$ with an associative binary operation $\bullet$ satisfying
+
+$$ a\bullet  \Vee_\alpha b_\alpha = \Vee_\alpha (a \bullet b_\alpha),\,\,\,\,\,a, b_\alpha\in Q.$$
+
+Symmetrically, a left semiquantale is a complete lattice $P$ with an associative binary operation $\bullet$ satisfying
+
+$$  \left(\Vee_\alpha b_\alpha\right)\bullet c= \Vee_\alpha (b_\alpha \bullet c),\,\,\,\,\,c, b_\alpha\in P.$$
+
+The main example of a right semiquantale is the lattice of the [[topologizing filter]]s of right (or left) ideals. The ordering is the reverse inclusion, thus the intersection is the supremum. The intersection of topologizing filters is topologizing, the lattice is complete and the product is the [[Gabriel multiplication]]
+
+$$\mathcal{F}\bullet \mathcal{G} = \{ K\in I_r R\,|\,\exists L\in\mathcal{G}, \forall r\in R, (I:r)\in\mathcal{F}\} $$
+
+The operation $\bullet$ preserves arbitrary intersections in the right variable. 
+
+[[!redirects semiquantales]]
+[[!redirects right semiquantale]]
+[[!redirects left semiquantale]]
