@@ -269,7 +269,7 @@ For $X \in [C^{op}, sSet]$ a presheaf, write
 
 * $\bar \pi_n(X) \to \bar \pi_0(X)$ for the [[sheafification]] of these presheaves.
 
-Then thes $\bar \pi_n(X) \to \bar \pi_0(X)$ are the sheaves of categorical homotopy groups of the object represented by $X$.
+Then these $\bar \pi_n(X) \to \bar \pi_0(X)$ are the sheaves of categorical homotopy groups of the object represented by $X$.
 
 This definition of homotopy sheaves of [[simplicial presheaves]] is familiar from the Joyal-Jardine [[local model structure on simplicial presheaves]]. See for instance [page 4](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=4) of [Jard07](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf).
 
