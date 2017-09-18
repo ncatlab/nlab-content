@@ -5145,7 +5145,7 @@ $\,$
 **Abstract.** _The [[(infinity,1)-category|category]] of [[generalized cohomology theories]] equipped with a universal "[[complex oriented cohomology theory|complex]] [[orientation in generalized cohomology|orientation]]" happens to unify within it the abstract structure theory of [[stable homotopy theory]] with the concrete richness of the [[differential topology]] of [[cobordism theory]] and of the [[arithmetic geometry]] of [[formal group laws]] (of [[higher Jacobians]]), such as [[elliptic curves]]. In the seminar we work through classical results in [[algebraic topology]], organized such as to give in the end a first glimpse of the modern picture of [[chromatic homotopy theory]]._
 
 
-**Literature.** ([Kochmann 96](#Kochmann96)).
+**Literature.** ([Kochman 96](#Kochman96)).
 
 
 **Outline.** We start with two classical topics of [[algebraic topology]] that first run independently in parallel:
@@ -5172,7 +5172,7 @@ $$
 
 from (sufficiently nice) [[topological spaces]] to $\mathbb{Z}$-[[graded abelian groups]], such that a few key properties of the [[homotopy types]] of topological spaces is preserved as one passes them from [[Ho(Top)]] to the much more tractable [[abelian category]] [[Ab]].
 
-**Literature.** ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4, 4.2](#Kochmann96)) 
+**Literature.** ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02), [Kochman 96, 3.4, 4.2](#Kochman96), [Schwede 12, II.6](#Schwede12)) 
 
 
 #### Generalized cohomology functors
@@ -5182,7 +5182,7 @@ from (sufficiently nice) [[topological spaces]] to $\mathbb{Z}$-[[graded abelian
 
 An important example of a generalised cohomology theory other than [[ordinary cohomology]] is [[topological K-theory]]. The other two examples of key relevance below are [[cobordism cohomology]] and [[stable cohomotopy]].
 
-**Literature.** ([Aguilar-Gitler-Prieto 02, section 12 and section 9](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96)).
+**Literature.** ([Aguilar-Gitler-Prieto 02, section 12 and section 9](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96)).
 
 
 
@@ -5202,7 +5202,7 @@ In applications and modern theory, it is mostly the spectra that matter, and hen
 
 There is a slight refinement of the concept of generalized homology functors to that of "[[excisive ∞-functors]]". These are fully equivalent to spectra.
 
-**Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
+**Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96))
 
 
 #### Milnor exact sequence
@@ -5213,7 +5213,7 @@ There is a slight refinement of the concept of generalized homology functors to 
 
 We need this for instance for the computation of [[Conner-Floyd Chern classes]] [below](#ConnerFloydChernClasses).
 
-**Literature.** ([Goerss-Jardine 96, section VI.2](#GoerssJardine96), [Kochmann 96, section 4.2](#Kochmann96))
+**Literature.** ([Goerss-Jardine 96, section VI.2](#GoerssJardine96), [Kochman 96, section 4.2](#Kochman96))
 
 
 #### Serre-Atiyah-Hirzebruch spectral sequence
@@ -5225,7 +5225,7 @@ The [[Atiyah-Hirzebruch spectral sequence]] in turn is a consequence of the "[[C
 We need the AHSS for instance for the computation of [[Conner-Floyd Chern classes]] [below](#ConnerFloydChernClasses).
 
 
-**Literature.** ([Kochmann 96, section 2.2 and 4.2](#Kochmann96))
+**Literature.** ([Kochman 96, section 2.2 and 4.2](#Kochman96))
 
 $\,$
 
@@ -5572,7 +5572,7 @@ A strong manifestation of this phenomenon comes about in [[complex oriented coho
 
 Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The seminal result of [[Thom's theorem]] says that the [[stable homotopy groups]] of [[MO]] form the [[cobordism ring]] of [[cobordism]]-[[equivalence classes]] of [[manifolds]]. In the course of discussing this _[[cobordism theory]]_ one encounters various phenomena whose complex version also governs the complex oriented cohomology theory that we are interested in [below](#ComplexOrientedCohomologyTheory).
 
-**Literature.** ([Kochmann 96, chapter I and sections II.2, II6](Kochmann96)). A quick efficient account is in ([Malkiewich 11](#Malkiewich11)). See also ([Aguilar-Gitler-Prieto 02, section 11](#AguilarGitlerPrieto02)).
+**Literature.** ([Kochman 96, chapter I and sections II.2, II6](Kochman96)). A quick efficient account is in ([Malkiewich 11](#Malkiewich11)). See also ([Aguilar-Gitler-Prieto 02, section 11](#AguilarGitlerPrieto02)).
 
 
 #### Classifying spaces, $G$-Structure and Bordism
@@ -5594,7 +5594,7 @@ for instance an [[orientation]] for the inclusion $SO(n) \hookrightarrow O(n)$ o
 
 All this generalizes, for instance from tangent bundles to [[normal bundles]] with respect to any [[embedding]]. It also behaves well with respect to passing to the [[boundary]] of manifolds, hence to [[bordism]]-classes of manifolds. This is what appears in [[Thom's theorem]] [below](#ThomTheorem).
 
-**Literature.** ([Kochmann 96, 1.3-1.4](#Kochmann96))
+**Literature.** ([Kochman 96, 1.3-1.4](#Kochman96))
 
 
 #### Thom spectra
@@ -5608,7 +5608,7 @@ This curious construction turns out to have excellent formal properties: as the 
 
 Moreover, via [[Whitney sum]] of [[vector bundle]] the [[Thom spectrum]] naturally is a [[ring spectrum]], and under the Pontryagin-Thom collapse the [[Cartesian product]] of manifolds is compatible with this ring structure.
 
-**Literature.** ([Kochmann 96, 1.5](#Kochmann96))
+**Literature.** ([Kochman 96, 1.5](#Kochman96))
 
 
 #### Thom's theorem
@@ -5629,7 +5629,7 @@ $$
 
 [[Thom's theorem]] states that this homomorphism is an [[isomorphism]].
 
-**Literature.** ([Kochmann 96, 1.5](#Kochmann96))
+**Literature.** ([Kochman 96, 1.5](#Kochman96))
 
 
 #### Thom isomorphism
@@ -5652,7 +5652,7 @@ We need this below to compute (co)homology of universal Thom spectra $M U$ in te
 Composed with pullback along the [[Pontryagin-Thom collapse map]], the Thom isomorphism produces maps in cohomology that covariantly follow the underlying maps of spaces. These "[[Umkehr maps]]" have the interpretation of [[fiber integration]] against the Thom class.
 
 
-**Literature.** ([Kochmann 96, 2.6](#Kochmann96))
+**Literature.** ([Kochman 96, 2.6](#Kochman96))
 
 
 
@@ -5664,7 +5664,7 @@ Composed with pullback along the [[Pontryagin-Thom collapse map]], the Thom isom
 
 An important application is given by taking $E = $ [[KU]] to be [[topological K-theory]]. Then [[orientation in generalized cohomology|orientation]] is [[spin structure]] and fiber integration with coefficients in $E$ is [[fiber integration in K-theory]]. This is classical _[[index theory]]_.
 
-**Literature.** ([Kochmann 96, section 4.3](#Kochmann96), [Adams 74, part III, section 10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
+**Literature.** ([Kochman 96, section 4.3](#Kochman96), [Adams 74, part III, section 10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
 
 $\,$
@@ -5682,7 +5682,7 @@ It turns out that a complex orientation on a generalized cohomology theory $E$ i
 
 Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply additive under [[tensor product]] of [[complex line bundles]], one finds that the composite of generalized first Chern classes is instead governed by more general commutative [[formal group laws]]. This phenomenon governs much of the theory to follow.
 
-**Literature.** ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 1-10](#Lurie10), [Adams 74, Part I, Part II](#Adams74)).
+**Literature.** ([Kochman 96, section 4.3](#Kochman96), [Lurie 10, lectures 1-10](#Lurie10), [Adams 74, Part I, Part II](#Adams74)).
 
 
 #### Chern classes
@@ -5702,7 +5702,7 @@ the [[Thom-Gysin exact sequence]], a special case of the [[Serre spectral sequen
 
 Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B U(n)$ identifies them with the [[symmetric polynomials]] in the [[first Chern class]] in $H^2(B U(1))$. This is the _[[splitting principle]]_.
 
-**Literature.** ([Kochmann 96, section 2.2 and 2.3](#Kochmann96), [Switzer 75, section 15.3](#Switzer75) [Lurie 10, lecture 5, prop. 6](#Lurie10))
+**Literature.** ([Kochman 96, section 2.2 and 2.3](#Kochman96), [Switzer 75, section 15.3](#Switzer75) [Lurie 10, lecture 5, prop. 6](#Lurie10))
 
 $\,$
 
@@ -5742,7 +5742,7 @@ $$
 
 =--
 
-(e.g. [Switzer 75, section 15.30](#Switzer75), [Kochman 96, corollary 2.2.6](#Kochmann96))
+(e.g. [Switzer 75, section 15.30](#Switzer75), [Kochman 96, corollary 2.2.6](#Kochman96))
 
 +-- {: .proof}
 ###### Proof
@@ -5947,7 +5947,7 @@ Combining the [[Atiyah-Hirzebruch spectral sequence]] with the [[splitting princ
 
 Finally one checks that Conner-Floyd classes canonically serve as [[Thom classes]] for $E$-cohomology of the [[universal complex vector bundle]], therby showing that [[complex oriented cohomology theories]] are indeed canonically [[orientation in generalized cohomology|oriented]] on ([[spherical fibrations]] of) [[complex vector bundles]]. 
  
-**Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part I.4, part II.2 II.4, part III.10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
+**Literature.** ([Kochman 96, section 4.3](#Kochman96) [Adams 74, part I.4, part II.2 II.4, part III.10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
 
 #### Formal group laws of first CF-Chern classes
@@ -5959,7 +5959,7 @@ On abstract grounds it follows that there exists a commutative ring $L$ and a un
 
 Further below this has profound implications on the structure theory for complex oriented cohomology. The [[Milnor-Quillen theorem on MU]] identifies the Lazard ring as the cohomology ring of the [[Thom spectrum]] [[MU]], and then the [[Landweber exact functor theorem]], implies that there are lots of complex oriented cohomology theories.
 
-**Literature.** ([Kochmann 96, section 4.4](#Kochmann96), [Lurie 10, lectures 1 and 2](#Lurie10))
+**Literature.** ([Kochman 96, section 4.4](#Kochman96), [Lurie 10, lectures 1 and 2](#Lurie10))
 
 
 #### Complex cobordism
@@ -5976,7 +5976,7 @@ $$
 
 Hence [[complex oriented cohomology theory]] is just [[higher algebra]] over [[MU]]. Equivalently: affine [[spectral geometry]] over $Spec(MU)$.
 
-**Literature.** ([Kochmann 96, section 1.4, 1.5, 4.4](#Kochmann96),[Lurie 10, lectures 5 and 6](#Lurie10))
+**Literature.** ([Kochman 96, section 1.4, 1.5, 4.4](#Kochman96),[Lurie 10, lectures 5 and 6](#Lurie10))
 
 
 #### Homology of $M U$
@@ -5984,7 +5984,7 @@ Hence [[complex oriented cohomology theory]] is just [[higher algebra]] over [[M
 
 **Idea.** Since, by the above, every [[complex oriented cohomology theory]] $E$ is indeed [[orientation in generalized cohomology|oriented]] over [[complex vector bundles]], there is a [[Thom isomorphism]] which reduces the computation of the $E$-[[homology of MU]], $E_\bullet(M U)$ to that of the [[classifying space]] $B U$. The [[Atiyah-Hirzebruch spectral sequence]] allows to compute this. Via the [[Hurewicz homomorphism]]/[[Boardman homomorphism]] this gives a first approximation to the [[homotopy groups]] of [[MU]].
 
-**Literature.** ([Kochmann 96, section 2.4, 4.3](#Kochmann96), [Lurie 10, lecture 7](#Lurie10))
+**Literature.** ([Kochman 96, section 2.4, 4.3](#Kochman96), [Lurie 10, lecture 7](#Lurie10))
 
 
 #### Quillen's theorem on $M U$
@@ -5992,7 +5992,7 @@ Hence [[complex oriented cohomology theory]] is just [[higher algebra]] over [[M
 
 **Idea.** From the computation of the [[homology of MU]] [above](#HomologyOfMU) and applying the [[Boardman homomorphism]], one deduces that the [[stable homotopy groups]] $\pi_\bullet(MU)$ of [[MU]] are finitely generated. This implies that it is suffient to compute them over the [[p-adic integers]] for all primes $p$. Using the [[change of rings theorem]], this finally is obtained from inspection of the filtration in the $H\mathbb{F}_p$-[[Adams spectral sequence]] for $MU$. This is Milnor's theorem wich together with [[Lazard's theorem]] shows that there is an isomorphism of rings $L \simeq \pi_\bullet(M U)$ with the [[Lazard ring]]. Finally [[Quillen's theorem on MU]] says that this isomorphism is exhibited by the universal ring homomorphism $L \longrightarrow \pi_\bullet(M U)$ which classifies the universal complex orientation on $M U$.
 
-**Literature.** ([Kochmann 96, section 4.4](#Kochmann96), [Lurie, lecture 10](#Lurie10))
+**Literature.** ([Kochman 96, section 4.4](#Kochman96), [Lurie, lecture 10](#Lurie10))
 
 
 #### Landweber exact functor theorem
@@ -6016,7 +6016,7 @@ The grand conclusion of [[Quillen's theorem on MU]] ([above](#QuillenTheoremOnMU
 
 (...)
 
-**Literature.** ([Kochmann 96, sections 4.5-4.7 and section 5](Kochmann96), [Lurie 10, lectures 12-14](#Lurie10))
+**Literature.** ([Kochman 96, sections 4.5-4.7 and section 5](#Kochman96), [Lurie 10, lectures 12-14](#Lurie10))
 
 
 
@@ -6063,7 +6063,7 @@ For **2) Adams spectral sequence** we follow ([Hopkins 99, section 5](#Hopkins99
 
 For the **Seminar on Complex oriented cohomology** an excellent textbook to hold on to is
 
-* {#Kochmann96} [[Stanley Kochmann]], chapters I - IV of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], chapters I - IV of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 While this gives detailed proofs, some standard steps used are made more explicit for instance in 
 
@@ -6079,9 +6079,9 @@ For **S2) Cobordism theory** an efficient collection of the highlights is in
 
 * {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
-except that it omits proof of the [[Leray-Hirsch theorem]]/[[Serre spectral sequence]] and that of the [[Thom isomorphism]], but see the references there and see ([Kochmann 96](#Kochmann96), [Aguilar-Gitler-Prieto 02, section 11.7](#AguilarGitlerPrieto02)) for details.
+except that it omits proof of the [[Leray-Hirsch theorem]]/[[Serre spectral sequence]] and that of the [[Thom isomorphism]], but see the references there and see ([Kochman 96](#Kochman96), [Aguilar-Gitler-Prieto 02, section 11.7](#AguilarGitlerPrieto02)) for details.
  
-For **S3) Complex oriented cohomology** besides ([Kochmann 96, chapter 4](#Kochmann96)) have a look at part II of 
+For **S3) Complex oriented cohomology** besides ([Kochman 96, chapter 4](#Kochman96)) have a look at part II of 
 
 * {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
