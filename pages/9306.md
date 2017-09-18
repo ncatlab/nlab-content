@@ -117,6 +117,6 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 
 * [[Jacob Lurie]] _Moduli problems for ring spectra_ ICM 2010 proceedings contribution [pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf)
 
-* [[Mauro Porta]], _Derived formal moduli problems_, master thesis, [pdf](http://algant.eu/documents/theses/porta.pdf).
+* [[Mauro Porta]], _Derived formal moduli problems_, master thesis 2013, [pdf](http://algant.eu/documents/theses/porta.pdf).
 
 [[!redirects formal moduli problems]]
