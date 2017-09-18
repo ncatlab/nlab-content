@@ -559,28 +559,9 @@ $$
 for the [[full subcategory]] of the [[category of modules]] over $R$ on those that are [[free modules]]. Hence the [[objects]] of $R FreeMod$ are those of $\mathcal{C}$ and the [[hom-objects]] are
 
 $$
-  \begin{aligned}
     R FreeMod(c_1,c_2)
-      & \coloneqq
+      \;\coloneqq\;
     R Mod( y(c_1) \otimes_{Day} R , y(c_2) \otimes_{Day} R)
-    \\
-      & \simeq
-    [\mathcal{C},V](y(c_1), y(c_2) \otimes_{Day} R)
-    \\
-      & \simeq
-    (y(c_2) \otimes_{Day} R)(c_1)
-    \\
-      & \simeq
-     \overset{c_3,c_4}{\int}
-       \mathcal{C}(c_3 \otimes c_4,c_1)
-         \otimes_V
-       \mathcal{C}(c_2, c_3) \otimes_V R(c_4)
-     \\
-     & \simeq 
-     \overset{c_4}{\int}
-       \mathcal{C}(c_2 \otimes c_4,c_1)
-       \otimes_V R(c_4)
-  \end{aligned} 
   \,.
 $$
 
@@ -589,13 +570,13 @@ $$
 +-- {: .num_prop #ModulesInDayConvolutionAreFunctorsOnFreeModulesOp}
 ###### Proposition
 
-For $(\mathcal{C},\otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $\mathcal{C}$, then there is an [[equivalence of categories]]
+For $(\mathcal{C},\otimes, I)$ a [[small category|small]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $\mathcal{C}$, then there is an [[equivalence of categories]]
 
 $$
-  R Mod \simeq [R FreeMod^{op}, V]
+  Mod_R \simeq [R FreeMod^{op}, V]
 $$
 
-between the [[category of modules]] over $R$ and the [[enriched functor category]] out of the [[opposite category]] of that of free $R$-modules from def. \ref{FreeModulesOverAMonoidInDayConvolution}.
+between the [[category of modules|category of right modules]] over $R$ and the [[enriched functor category]] out of the [[opposite category]] of that of free $R$-modules from def. \ref{FreeModulesOverAMonoidInDayConvolution}.
 
 =--
 
@@ -604,34 +585,67 @@ between the [[category of modules]] over $R$ and the [[enriched functor category
 +-- {: .proof}
 ###### Proof idea
 
-Use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $R$ with a [[lax monoidal functor]] and of any $R$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
+First observe that the hom-objects in $R FreeMod$ are equivalently rewritten as follows
+
+$$
+  \begin{aligned}
+    R FreeMod(c_2,c_1)
+      & =
+    R Mod( y(c_2) \otimes_{Day} R , y(c_1) \otimes_{Day} R)
+    \\
+      & \simeq
+    [\mathcal{C},V](y(c_2), y(c_1) \otimes_{Day} R)
+    \\
+      & \simeq
+    (y(c_1) \otimes_{Day} R)(c_2)
+    \\
+      & \simeq
+     \overset{c_3,c_4}{\int}
+       \mathcal{C}(c_3 \otimes c_4,c_2)
+         \otimes_V
+       \mathcal{C}(c_1, c_3) \otimes_V R(c_4)
+     \\
+     & \simeq 
+     \overset{c_4}{\int}
+       \mathcal{C}(c_1 \otimes c_4,c_2)
+       \otimes_V R(c_4)
+  \end{aligned}
+  \,.
+$$
+
+Then use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $R$ with a [[lax monoidal functor]] and of any $R$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
 
 $$
   N(c_1) \otimes R(c_2) \longrightarrow N(c_1 \otimes c_2)
   \,.
 $$
 
-These transformations have just the same structure as those of the [[enriched functor|enriched functoriality]] of $N$ of the form
+Notice that these transformations have just the same structure as those of the [[enriched functor|enriched functoriality]] of $N$ of the form
 
 $$
-  N(c_1) \otimes \mathcal{C}(c_1,c_2) \longrightarrow N(c_2)
+  \mathcal{C}(c_1,c_2) \otimes N(c_1) \longrightarrow N(c_2)
   \,.
 $$
 
 Hence we may unify these two kinds of transformations into a single kind of the form
 
 $$
-  N(c_1) \otimes ( \mathcal{C}(c_1, c_3) \otimes R(c_4))
-  \longrightarrow
-  N(c_2)
-  \;\;\;
-  for c_2 = c_3 \otimes c_4
+   \mathcal{C}(c_1 \otimes c_4, c_2) 
+        \otimes 
+      R(c_4)
+      \otimes
+    N(c_1)   
+      \longrightarrow
+    \mathcal{C}(c_1 \otimes c_4, c_2) 
+      \otimes
+    N(c_1 \otimes c_4)    
+      \longrightarrow
+    N(c_2)
 $$
 
 and subject to certain identifications.
 
-By comparison with def. \ref{FreeModulesOverAMonoidInDayConvolution}, this is just the form of the functoriality of an enriched functor
-over $R FreeMod^{op}$.
+It remains to see that this identification is compatible with the various conditions.
 
 =--
 
@@ -645,7 +659,6 @@ over $R FreeMod^{op}$.
 ###### Example
 
 Let $C$ be a [[discrete category]] over a set, which is hence a [[monoid]] (for instance a [[group]]) with product $\cdot$. 
-
 
 Then the Day convolution product is
 
