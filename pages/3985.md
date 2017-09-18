@@ -608,7 +608,7 @@ Extra conditions on a reflective sub-$(\infty,1)$-category of relevance are
 The following proposition characterizes when a reflective subcategory of an [[accessible (∞,1)-category]] $C$ is accessible
 
 
-+-- {: .num_prop}
++-- {: .num_prop #LocalizationAndAccessibility}
 ###### Proposition
 
 Let $C$ be an [[accessible (∞,1)-category]] and 
