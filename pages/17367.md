@@ -2,7 +2,7 @@
 * table of contents
 {: toc}
 
-## A relation on $n$-cubes with trivial boundary of a cubical set
+## A relation on the $n$-cubes with trivial boundary of a cubical set
 
 We make use of the notation established at [[cubical set]] and [[category of cubes]].
 
@@ -16,7 +16,7 @@ We denote by $Z_{n}(X,x)$ the set of $n$-cubes $\sigma : \square^{n} \rightarrow
 $$
    \array{
       \square^{n-1} & \overset{p}{\rightarrow}        & \square^{0} \\
-  y(I^{i-1} \otimes i_{\epsilon} \otimes I^{n-i}) \downarrow &                                   & \downarrow x \\
+  \mathllap{y(I^{i-1} \otimes i_{\epsilon} \otimes I^{n-i})} \downarrow &                                   & \downarrow \mathrlap{x} \\
    \square^{n} & \underset{\sigma}{\rightarrow} & X                                                                               
    }
 $$
@@ -49,7 +49,7 @@ and such that the following diagram in $\mathsf{Set}^{\square^{op}}$ commutes fo
 $$
    \array{
       \square^{n} & \overset{p}{\rightarrow}        & \square^{0} \\
-  y(I^{i-1} \otimes i_{\epsilon} \otimes I^{n+1-i}) \downarrow &                                   & \downarrow x \\
+  \mathllap{y(I^{i-1} \otimes i_{\epsilon} \otimes I^{n+1-i})} \downarrow &                                   & \downarrow \mathrlap{x} \\
   \square^{n+1} & \underset{\sigma}{\rightarrow} & X                                                                         
    }
 $$
@@ -82,11 +82,17 @@ We take $h$ to be the arrow $\sigma \circ \big( \square^{n} \otimes y(p) \big) :
 +-- {: .num_defn}
 ###### Proposition
 
-Let $\sigma_{0}$ and $\sigma_{1}$ be $n$-cubes of $X$ which belong to $Z_{n}(X,x)$. Suppose that $\sigma_{0} \sim \sigma_{1}$. Then $\sigma_{1} \sim \sigma_{0}$. 
+Let $X$ be equipped with the structure of a cubical Kan complex. Let $\sigma_{0}$ and $\sigma_{1}$ be $n$-cubes of $X$ which belong to $Z_{n}(X,x)$. Suppose that $\sigma_{0} \sim \sigma_{1}$. Then $\sigma_{1} \sim \sigma_{0}$. 
 
 =--
 
-## Homotopy groups of a cubical set
++-- {: .proof}
+
+
+
+=--
+
+## Homotopy groups of a cubical Kan complex
 
 +-- {: .num_defn}
 ###### Notation
