@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 # Positive numbers
 * table of contents
 {: toc}
@@ -26,6 +38,9 @@ The set of (say real) positive numbers may be denoted $\dot{\mathbb{R}}^+$, $]0,
 
 [[Karl Weierstrass|Karl Weierstraß]]\'s [[epsilontic analysis]] relies on repeatedly [[quantification|quantifying]] over the (strictly) positive real numbers.  These positive numbers are typically denoted $\epsilon$ and $\delta$, hence the term 'epsilontics'.  This quantification replaces the use of (individual) positive [[infinitesimal numbers]] in intuitive pre-epsilontic analysis (or in rigorous post-epsilontic [[nonstandard analysis]]).  In [[predicative mathematics]], one may prefer to quantify over positive [[rational numbers]], or even over the numbers $1/n$ for $n$ a positive [[integer]], instead.  (The important thing is to have a [[small set]] of positive numbers whose [[topological closure]] includes [[zero]].)
 
+## Related concepts
+
+* [[even number]], [[odd number]]
 
 [[!redirects positive number]]
 [[!redirects positive numbers]]
@@ -45,3 +60,6 @@ The set of (say real) positive numbers may be denoted $\dot{\mathbb{R}}^+$, $]0,
 [[!redirects positive real numbers]]
 [[!redirects positive real]]
 [[!redirects positive reals]]
+
+[[!redirects negative number]]
+[[!redirects negative numbers]]
