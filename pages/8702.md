@@ -128,6 +128,47 @@ etc.
 
 ## Examples
 
++-- {: .num_example #ProductWithDiscreteFiniteTopologicalSpace}
+###### Example
+
+Let $X$ be any [[topological space]] and write $Disc(\{1,2\})$ for the [[discrete topological space]] on a set with two elements. Then there is a [[homeomorphism]]
+
+$$
+  X \times Disc(\{0,1\})
+    \;\simeq\;
+  X \sqcup X
+$$
+
+between the product space of $X$ with $Disc(\{1,2\})$ and the [[disjoint union space]] of $X$ with itself.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of [[disjoint union]] there is a [[bijection]] of underlying sets 
+$X \sqcup X \simeq X \times \{1,2\}$.
+
+By unwinding the definitions 
+
+1. the open subsets of $X \times Disc(\{0,1\})$ are unions of those of the form $U \times S$, where $U \subset X$ is an open subset and $S \subset \{1,2\}$ is any subset
+
+1. the open subsets of $X \sqcup X$ are of the form $U \sqcup V$ with $U,V \subset X$ open.
+
+Under the above bijection the we have 
+
+$$
+  U \sqcup V = \left(U \times \{1\}\right) \cup \left( V \times \{2\}\right)
+  \,.
+$$
+
+Conversely, every union of elements of the form $U' \times \{1\}$, $V' \times \{2\}$ and $W \times \{1,2\} = W \times \{1\} \cup W \times \{2\}$ is of the form $U \times \{1\} \cup V \times \{2\}$. 
+
+This shows that the above bijection of underlying sets induces a bijection of the corresponding open subsets, hence is a homeomorphism.
+
+=--
+
+
 +-- {: .num_example}
 ###### Example
 
