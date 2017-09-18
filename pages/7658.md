@@ -51,7 +51,7 @@ $$
   \,.
 $$
 
-One may identify this with the bundle that over eachh [[neighbourhood]] $x \in U \subset X$ of a point $x$ has as fibers the two different choices of [[volume forms]] up to positive rescaling (the two different choices of orientation).
+One may identify this with the bundle that over each [[neighbourhood]] $x \in U \subset X$ of a point $x$ has as fibers the two different choices of [[volume forms]] up to positive rescaling (the two different choices of orientation).
 
 More generally, for $E \to X$ any [[orthogonal group]]-[[principal bundle]] classified by a morphism $E : X \to \mathbf{B} O$, the corresponding orientation double cover is the $\mathbb{Z}_2$-bundle classified by
 
