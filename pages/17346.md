@@ -6919,7 +6919,8 @@ The full answer in this range turns out to be this:
 
 | $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | $\cdots$ | 
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-| $\pi_k(\mathbb{S}) = $ | $\mathbb{Z}$  | $\mathbb{Z}_2$  |  $\mathbb{Z}_2$ |  $\mathbb{Z}_{24}$ |  $0$ |  $0$ | $\mathbb{Z}_2$ |   $\mathbb{Z}_{240}$ | $(\mathbb{Z}_2)^2$ |  $(\mathbb{Z}_2)^3$ | $\mathbb{Z}_6$ | $\mathbb{Z}_{504}$ | $0$ | $\mathbb{Z}_3$ | $(\mathbb{Z}_2)^2$ | $\mathbb{Z}_{480} \oplus \mathbb{Z}_2$ | $\cdots$ |
+| $\pi_k(\mathbb{S}) = $ | $\mathbb{Z}$  | $\mathbb{Z}/2$  |  $\mathbb{Z}/2$ |  $\mathbb{Z}/{24}$ |  $0$ |  $0$ | $\mathbb{Z}/2$ |   $\mathbb{Z}/{240}$ | $(\mathbb{Z}/2)^2$ |  $(\mathbb{Z}/2)^3$ | $\mathbb{Z}/6$ | $\mathbb{Z}/{504}$ | $0$ | $\mathbb{Z}/3$ | $(\mathbb{Z}/2)^2$ | $\mathbb{Z}/{480} \oplus \mathbb{Z}/2$ | $\cdots$ |
+
 
 And expanding the range yields this :
 
