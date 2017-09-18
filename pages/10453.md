@@ -8,6 +8,7 @@
 =--
 =--
 =--
+
 # Contents
 * table of contents
 {: toc}
@@ -20,7 +21,7 @@ $$
   v \mapsto \langle v, A v\rangle
 $$
 
-for $v \in H$ is positive.
+for $v \in H$ is [[positive quadratic form|positive]].
 
 +-- {: .num_prop}
 ###### Proposition
@@ -38,8 +39,7 @@ More generally:
 
 +-- {: .un_defn}
 ###### Definition
-An element $A$ of an (abstract) [[C*-algebra]] is called **positive** if it is [[self-adjoint operator|self-adjoint]] and its [[spectrum of an operator|spectrum]] is contained in $[0, \infinity)$. 
-
+An element $A$ of an (abstract) [[C*-algebra]] is called **positive** if it is [[self-adjoint operator|self-adjoint]] and its [[spectrum of an operator|spectrum]] is contained in $[0, \infinity)$.
 =--
 
 Here, 'positive' means positive semidefinite; see at [[inner product]] for the family of variations of this notion.  (The relevant inner product here is that associated with the quadratic form above: $v, w \mapsto \langle v, A w\rangle$.)
