@@ -15395,7 +15395,7 @@ $$
 $$
 
 This is because their linear independence at each point means precisely that this
-morphism of vector bundles is a fiber-wise linear isomorphsm
+morphism of vector bundles is a fiber-wise linear isomorphism
 and therefore an isomorphism of vector bundles by lemma \ref{FiberwiseIsoisIsomorphismOfVectorBundles}.
 
 =--
@@ -16015,23 +16015,30 @@ $$
 
 showing their analogy to the gluing functions within a single atlas (def. \ref{Charts}).
 
-Hence diffeomorphsm induces an [[equivalence relation]] on the set of
+Hence diffeomorphism induces an [[equivalence relation]] on the set of
 smooth atlases that exist on a given [[topological manifold]] $X$. An [[equivalence class]]
 with respect to this equivalence relation is called a _[[smooth structure]]_ on $X$.
 
 =--
 
+$\,$
+
+Now w finally discuss **examples of manifolds**.
+
 +-- {: .num_example #DifferentiableManifoldCartesianSpace}
 ###### Example
 **([[Cartesian space]] as a [[smooth manifold]])
 
-For $n \in \mathbb{N}$ then the [[Cartesian space]] $\mathbb{R}^n$ equipped with the [[atlas]] consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
+For $n \in \mathbb{N}$ then the [[Cartesian space]] $\mathbb{R}^n$ equipped with the [[atlas]] consisting of the single [[chart]] 
+$$
+  \left\{ 
+     \mathbb{R}^n \overset{id}{\to} \mathbb{R}^n
+  \right\}
+$$
 
-Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped with the atlas whose single chart is the [[homeomorphism]] $\mathbb{R}^n \to D^n$.
+is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
 
-This defines a [[smooth structure]] (def.  \ref{SmoothStructure}) on $\mathbb{R}^n$ and $D^n$.
-Strikingly, precisely for $n = 4$ there are _other_ smooth structures on $\mathbb{R}^4$,
-hence called _[[exotic smooth structures]]_.
+Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped with the atlas whose single chart is the [[homeomorphism]] $\mathbb{R}^n \to D^n$. from example \ref{OpenBallsHomeomorphicToRn}.
 
 =--
 
@@ -16059,6 +16066,44 @@ Moreover, [[Euclidean space]], like any [[metric space]], is Hausdorff (example 
 and [[subspaces]] of Hausdorff spaces are Hausdorff;
 
 1. The $n$-sphere has the structure of a [[CW-complex]] (example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}) and [[CW-complexes are paracompact Hausdorff spaces]] (example \ref{ParacompactHausdorffCWComplexes}).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**([[exotic smooth structure]])**
+
+The constructions in example \ref{DifferentiableManifoldCartesianSpace} and \ref{SmoothManifoldnSphere}
+define [[smooth structures]] (def. \ref{SmoothStructure}) on the [[topological spaces]]
+underlying the [[Euclidean spaces]] $\mathbb{R}^n$ and the [[n-spheres]] $S^n$.
+These are clearly the _standard smooth structures_ that are used by default whenever these
+spaces are used in [[differential geometry]], since the beginning of the topic in the work by 
+[Gauss 1827](differential+geometry#Gauss1827).
+
+But since being a _[[smooth manifold]]_ is _[[extra structure]]_ on a topological space
+(as opposed to being a [[topological manifold]], which is just [[extra property]])
+it makes sense to ask whether $\mathbb{R}^n$ and $S^n$ admit _other_ [[smooth structures]]
+besides these standard ones.
+Remarkably, they do, for special values of the [[dimension]] $n$. These are called
+_[[exotic smooth structures]]_. Here are some results:
+
+In dimension $\leq 3$ there are no exotic smooth structures: Two smooth manifolds
+of dimension $\leq 3$ are [[diffeomorphism|diffeomorphic]] (def. \ref{Diffeomorphism})
+as soon as their underlying [[topological space]] are [[homeomorphic]] (def. \ref{Homeomorphism}).
+
+For $n \in \mathbb{N}$ with $n \neq 4$ there is a _unique_ [[smooth structure]] on 
+the [[Euclidean space]] $\mathbb{R}^n$ (the standard one from example \ref{DifferentiableManifoldCartesianSpace}).
+
+There are uncountably many exotic smooth structures on Euclidean 4-space $\mathbb{R}^4$.
+
+For each $n \in \mathbb{N}$, $n \geq 5$ there is a [[finite set]] of smooth structures on the [[n-sphere]] $S^n$.
+
+It is still unknown whether there is an exotic smooth structure on the [[4-sphere]] $S^4$.
+
+The only [[n-spheres]] with no exotic smooth structure in the range $5 \leq n \leq 61$ are
+$S^5$, $S^6$, $S^{12}$, $S^{56}$ and $S^{61}$. 
+
+For more on all of this see at _[[exotic smooth structure]]_.
 
 =--
 
