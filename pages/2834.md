@@ -25,7 +25,7 @@ A **quasifibration** is a kind of [[fibration]], a [[morphism]] in [[homotopy th
 For variations on the definition and some history, see 
 
 * [[Tom Goodwillie]], email to Don Davis and others, 16 May 2001 
-  ([txt](www.lehigh.edu/~dmd1/tg516.txt))
+  ([txt](http://www.lehigh.edu/~dmd1/tg516.txt))
 
 Also see 
 
