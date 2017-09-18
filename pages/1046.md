@@ -21,7 +21,7 @@ It is also the archetypical [[(∞,1)-topos]].
 
 ### As an $sSet$-category
 
-As an [[simplicially enriched category]] $\infty Grpd$ is the full [[SSet]]-[[enriched category|enriched subcategory]] of [[SSet]] on [[Kan complex]]es.
+As a [[simplicially enriched category]] $\infty Grpd$ is the full [[SSet]]-[[enriched category|enriched subcategory]] of [[SSet]] on [[Kan complex]]es.
 
 ### As an enriched model category
 
