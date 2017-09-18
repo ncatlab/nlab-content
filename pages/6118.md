@@ -423,29 +423,44 @@ $$\forall_{U \in \mathcal{O}_x} \pi_2^{-1}(U) \subseteq \pi_1^{-1}(\hat{U}).$$
 But a pair $(F, y)$ belongs to $\pi_2^{-1}(U)$ if $F \rightsquigarrow_\xi y$ and $y \in U$; we want to show this implies $F = \pi_1(F, y)$ belongs to $\hat{U}$, or in other words that $U \in F$. But this is tautological, given how $conv(\mathcal{O})$ is defined in terms of a topology $\mathcal{O}$. 
 =-- 
 
-The next theorem establishes the converse of the preceding theorem; the two theorems together establish the Main Theorem. First we need a lemma. 
+The next theorem establishes the converse of the preceding theorem; the two theorems together establish the Main Theorem. First we need a remark and a lemma. 
+
++-- {: .num_remark #closed0} 
+###### Remark 
+Given any relation $\xi: Rel(\beta S, S)$ and $A \subseteq S$, then $A$ is closed wrt the topology $\tau(\xi)$ if and only if for all $x \in S$, 
+
+$$(\exists_{F: \beta S} A \in F \; \wedge \; F \rightsquigarrow_\xi x) \implies x \in A$$
+
+This follows by inverting the definition of the open sets in $\tau(\xi)$.
+=-- 
 
 +-- {: .num_lemma #closed} 
 ###### Lemma 
-Given any relation $\xi: Rel(\beta S, S)$ and $x: S$, $A \subseteq S$, we have that $x$ belongs to the closure $\bar{A}$ wrt the topology $\tau(\xi)$ if and only if $\exists_{F: \beta S} A \in F \; \wedge \; F \rightsquigarrow_\xi x$. 
+If a relation $\xi: Rel(\beta S, S)$ satisfies the inequalities of (eq:rel1) and $x: S$, $A \subseteq S$, we have that $x$ belongs to the closure $\bar{A}$ wrt the topology $\tau(\xi)$ if and only if $\exists_{F: \beta S} A \in F \; \wedge \; F \rightsquigarrow_\xi x$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-As usual, let $\neg A$ denote the complement of a subset $A$. By definition of the topology $\tau(\xi)$, we have that $\neg A$ is a neighborhood of $x$ if $\forall_{F: \beta S} F \rightsquigarrow_\xi x \; \Rightarrow \; \neg A \in F$. In other words, 
+For any $A \subseteq S$, denote $A^+ = \{x \mid \exists_{F: \beta S} A \in F \; \wedge \; F \rightsquigarrow_\xi x\}$; we want to show that $A^+ = \bar{A}$. It suffices to show that $A \subseteq A^+ \subseteq \bar{A}$ and that $A^+$ is closed.
 
-$$\array{
-x \in int(\neg A) & \Leftrightarrow & \forall_{F: \beta S} \; F \rightsquigarrow_\xi x \; \Rightarrow \; \neg A \in F \\
- & \Leftrightarrow & \forall_{F: \beta S} \; \neg ((A \in F) \; \wedge \; (F \rightsquigarrow_\xi x))
-}$$ 
+That $A^+ \subseteq \bar{A}$ is clear from the characterization of closed sets given in Remark \ref{closed0}; $A^+$ is in some sense the "one-step closure" of $A$. That $A \subseteq A^+$ follows from the lax unit condition for relational $\beta$-modules: if $x \in A$, then $prin(x) \rightsquigarrow_\xi$ and $A \in prin(x)$.
 
-since in an ultrafilter $F$, we have $\neg (A \in F)$ iff $(\neg A) \in F$. Negating both sides of this bi-implication gives 
+It's clear from the characterization of closed sets given in Remark \ref{closed0} that a set $A$ is closed if and only if $A = A^+$. We will establish that $A^+$ is closed by showing that $(A^+)^+ = A^+$. By the previous paragraph we know that $A^+ \subseteq (A^+)^+$ so we just need the reverse containment. So suppose that $x \in (A^+)^+$, and pick an ultrafilter $F \in \beta S$ with $A^+ \in F$ and $F \rightsquigarrow_\xi x$. In order to show that $x \in A^+$, we need to produce an ultrafilter $F' \in \beta S$ with $A \in F'$ such that $F' \rightsquigarrow_\xi x$. We will do this by applying the lax associativity condition, using an appropriate ultrafilter $\mathcal{G} \in \beta R$.  In fact, we claim that any $\mathcal{G}$ extending the following [filterbase](http://ncatlab.org/nlab/show/filter#filterbases) on $R$:
 
-$$\array{ 
-x \in \bar{A} & \Leftrightarrow & \exists_{F: \beta S} \; A \in F \; \wedge \; F \rightsquigarrow_\xi x
-}$$ 
+$$\mathcal{G}_0 = \{\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U)\} \mid U \in F\}$$
 
-as desired. 
+will fit the bill. First let us verify that such an ultrafilter $\mathcal{G}$ exists. By the ultrafilter principle, it suffices to verify that $\mathcal{G}_0$ generates a proper filter. It's clear that $\mathcal{G}_0$ is closed under finite intersection. So the filter it generates is proper iff $\mathcal{G}_0$ is proper, i.e. doesn't contain the empty set. Now, a typical element of $\mathcal{G}_0$ is of the form $\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U) = \{(G \in \beta S, \; y \in U) \mid A \in G, G \rightsquigarrow_\xi y\}$ for some $U \in F$. Since $U \in F$ and $A^+ \in F$, we can pick $y \in U \cap A^+$. Since $y \in A^+$, there is $G \in F$ with $A \in G$ such that $G \rightsquigarrow_\xi y$ as desired.
+
+So we can pick a $\mathcal{G} \in \beta R$ extending $\mathcal{G}_0$. We want to establish that
+
+1. $\beta \pi_2(\mathcal{G}) \rightsquigarrow_\xi x$
+2. $A \in F':= m_S(\beta \pi_1(\mathcal{G}))$
+
+From (1) it follows that $F' \rightsquigarrow_\xi x$ by lax associativity. Then (2), along with the fact that $F' \rightsquigarrow_\xi x$, implies that $x \in A^+$, as desired. 
+
+For (1) we show that $\beta \pi_2(\mathcal{G}) = F$; this suffices since $F \rightsquigarrow_\xi x$ by hypothesis. Since both sides of the equations are ultrafilters, It further suffices to show that $F \subseteq \beta \pi_2(\mathcal{G})$. So suppose that $U \in F$. We want to show that $U \in \beta \pi_2(\mathcal{G})$ i.e. that $\pi_2^{-1}(U) \in \mathcal{G}$. This is true because $\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U) \in \mathcal{G}$ and the fact that $\mathcal{G}$ is upward closed.
+
+For (2) we want to show that $A \in m_S(\beta \pi_1(\mathcal{G}))$ i.e. that $\hat{A} \in \beta \pi_1(\mathcal{G})$, i.e. that $\pi_1^{-1}(\hat{A}) \in \mathcal{G}$. This is true because $\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U) \in \mathcal{G}$ and the fact that $\mathcal{G}$ is upward closed.
 =-- 
 
 +-- {: .num_theorem} 
