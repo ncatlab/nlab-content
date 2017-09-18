@@ -47,6 +47,10 @@ $$\frac{\Gamma \vdash A, \Delta \; \; \; \Pi, A \vdash \Lambda}{\Pi, \Gamma \vda
 
 In the [[categorical semantics]] where each [[sequent]] here is interpreted as a [[morphism]] in a [[category]], the cut rule asserts the existence of [[composition]] of morphisms.
 
+## Cut elimination
+
+> "A logic without cut elimination is like a car without an engine" -- Jean-Yves Girard
+
 The _cut-elimination theorem_ ("[[Gerhard Gentzen]]'s [[Gentzen's Hauptsatz|Hauptsatz]]") asserts that every [[judgement]] which has a [[proof]] using the cut-rule also has a proof not using it (a "cut-free proof").  While Gentzen\'s original theorem was for a few particular sequent calculi that he was considering, it is true of many other sequent calculi and is generally seen as desirable.  (That said, there are some useful sequent calculi in which it fails.) 
 
 Intuitively, the problem in deciding whether a formula $B$ follows from a formula $A$, i.e., deriving $A \vdash B$, is that there could be very complicated steps in the middle, i.e., in typical mathematical arguments one puts together steps $A \vdash C$ and $C \vdash B$ where $C$ is potentially a complicated or large formula. For an automated theorem prover, the search space for such $C$ is potentially infinite. By establishing a cut-elimination theorem for formal systems, one circumvents this problem, and it is quite typical that cut-free proofs build up complex sequents from less complex sequents (cf. [[subformula property]]), so that one can decide whether a sequent is provable or derivable by following an inductive procedure. 
