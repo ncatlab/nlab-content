@@ -66,3 +66,6 @@ A precise global definition of [[T-folds]] as [[principal 2-bundles]] for the [[
 
 [[!redirects super T-fold]]
 [[!redirects super T-folds]]
+
+[[!redirects doubled geometry]]
+[[!redirects doubled geometries]]
