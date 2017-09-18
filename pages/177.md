@@ -33,9 +33,9 @@ There is an of [[William Lawvere]] which is very relevant to the above:
 
 > [..] the elementary "parallel process" $E= \bullet\overset{\rightarrow}{\rightarrow}\bullet$ is a reflexive graph which happens to admit only one definition of composition making it into a category $\mathbf{P}$. [..] Its actions $S^{\mathbf{P}^{\mathrm{op}}}$ are the **irreflexive** graphs (the negative is in a way appropriate even for those objects which happen to have loops at some point $p$, for morphisms are allowed to interchange *any* two such loops).
 
-[p. 272](#GeneralizedGraphs) [1^]
+[p. 272](#GeneralizedGraphs) [^1]
 
-[1^]: Technical note: the author of the above passage drew a box around the (diagram of) the category E. This is missing for technical reasons. 
+[^1]: Technical note: the author of the above passage drew a box around the (diagram of) the category E. This is missing for technical reasons. 
 
 
 
