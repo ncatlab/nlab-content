@@ -35,9 +35,11 @@ As stated, the [[target]] of such a function depends on the argument, which is n
 In traditional forms of [[set theory]], one can also take the target of $f$ to be the [[union]] $\bigcup_i A_i$ or even the class of all objects (equivalently, leave it unspecified).
 
 
-## Special cases 
+## Examples
 
-Given sets $A$ and $B$, the cartesian product of the binary family $(A,B)$ is written $A \times B$; its elements $(a,b)$ are called __[[ordered pairs]]__.  (In [[set theory]], one often makes a special definition for this case, defining
+### Products of sets
+
+Given [[sets]] $A$ and $B$, the cartesian product of the binary family $(A,B)$ is written $A \times B$; its elements $(a,b)$ are called __[[ordered pairs]]__.  (In [[set theory]], one often makes a special definition for this case, defining
 $$ (a,b) = \{\{a\},\{a,b\}\} $$
 rather than as a function so that ordered pairs can then be used in the definition of function.  From a structural perspective, however, this is unnecessary.)
 
@@ -48,6 +50,12 @@ Given sets $A_1$, $A_2$, etc, the cartesian product of the countably infinitary 
 Given a set $A$, the cartesian product of the unary family $(A)$ may be identified with $A$ itself; that is, we identify the __ordered [[singleton]]__ $(a)$ with $a$.
 
 The cartesian product of the empty family $()$ is the [[point]], a set whose only element is the __[[empty list]]__ $()$; we often call this set $1$ (or $\pt$, when we\'re Urs) and write its element as $*$.
+
+### Further examples
+
+* [[product topological space]]
+
+* [[direct product group]]
 
 
 ## Foundational status
