@@ -5608,7 +5608,7 @@ This curious construction turns out to have excellent formal properties: as the 
 
 Moreover, via [[Whitney sum]] of [[vector bundle]] the [[Thom spectrum]] naturally is a [[ring spectrum]], and under the Pontryagin-Thom collapse the [[Cartesian product]] of manifolds is compatible with this ring structure.
 
-**Literature.** ([Kochman 96, 1.5](#Kochman96))
+**Literature.** ([Kochman 96, 1.5](#Kochman96), [Schwede 12, chapter I exaple 1.16](#Schwede12))
 
 
 #### Thom's theorem
@@ -5976,7 +5976,7 @@ $$
 
 Hence [[complex oriented cohomology theory]] is just [[higher algebra]] over [[MU]]. Equivalently: affine [[spectral geometry]] over $Spec(MU)$.
 
-**Literature.** ([Kochman 96, section 1.4, 1.5, 4.4](#Kochman96),[Lurie 10, lectures 5 and 6](#Lurie10))
+**Literature.** ([Schwede 12, example 1.18](#Schwede12), [Kochman 96, section 1.4, 1.5, 4.4](#Kochman96),[Lurie 10, lectures 5 and 6](#Lurie10))
 
 
 #### Homology of $M U$
