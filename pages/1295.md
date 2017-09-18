@@ -368,6 +368,145 @@ Here $p \colon \mathbf{B}G \to \ast$ denotes the terminal morphism and $p_! \das
 See also at _[[double dimensional reduction]]_ for more on this.
 
 
+### Along $V/G \to \mathbf{B}G$
+
+More generally:
+
++-- {: .num_prop #RightBaseChangeAlongUniversalFiberBundleProjection}
+###### Proposition
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]] and $G \in Grp(\mathbf{H})$ an [[∞-group]].
+
+Let moreover $V \in \mathbf{H}$ be an object equipped with a $G$-[[∞-action]] $\rho$, equivalently (by the discussion there) a [[homotopy fiber sequence]] of the form
+
+$$
+  \array{
+    V
+    \\
+    \downarrow
+    \\
+    V/G & \overset{p_\rho}{\longrightarrow}& \mathbf{B}G
+  }
+$$
+
+Then 
+
+1. pullback along $p_\rho$ is the operation that assigns to a morphism $c \colon X \to \mathbf{B}G$ the $V$-[[fiber ∞-bundle]] which is [[associated ∞-bundle|associated]] via $\rho$ to the $G$-[[principal ∞-bundle]] $P_c$ classified by $c$:
+
+   $$
+     (p_\rho)^\ast \;\colon\; c \mapsto P_c \times_G V
+   $$
+
+1. the right base change along $p_\rho$ is given on objects of the form $X \times (V/G)$ by
+
+   $$
+     (p_\rho)_\ast \;\colon\; X \times (V/G) \;\mapsto\;  [V,X]/G 
+   $$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The first statement is [NSS 12, prop. 4.6](https://ncatlab.org/schreiber/show/Principal+%E2%88%9E-bundles+--+theory%2C+presentations+and+applications).
+
+
+The second statement follows as in the proof of prop. \ref{CyclicLoopSpace}: Let 
+
+$$
+  \left(
+    \array{
+      Y
+      \\
+      \downarrow^{\mathrlap{c}}
+      \\
+      \mathbf{B}G
+    }
+  \right)
+  \;\in\;
+  \mathbf{H}_{/\mathbf{B}G}
+$$
+
+be any object, then there is the following sequence of [[natural equivalences]]
+
+$$
+  \begin{aligned}
+   \mathbf{H}_{/\mathbf{B}G}(Y, [V,X]/G)
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(Y, [V/G, X \times \mathbf{B}G]_{\mathbf{B}G})
+   \\
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(
+     Y \times_{\mathbf{B}G} (V/G),
+     \underset{p^\ast X}{\underbrace{X \times \mathbf{B}G }}
+  )
+  \\
+  & \simeq
+  \mathbf{H}_{/\mathbf{B}G}
+  (
+    (p_\rho)_!( P_c \times_G (V/G) ),
+    p^\ast X
+  )
+  \\
+  & \simeq
+     \mathbf{H}_{/(V/G)}
+     (
+       P_c \times_G V, (p_\rho)^\ast p^\ast X
+     )
+  \\
+  & 
+  \simeq
+    \mathbf{H}_{/(V/G)}(P_c \times_G V, X \times (V/G))
+  \end{aligned}
+$$
+
+where again
+
+$$
+  p \colon \mathbf{B}G \to \ast
+  \,.
+$$
+
+=--
+
++-- {: .num_example #SymmetricPowers}
+###### Example
+**(symmetric powers)**
+
+Let 
+
+$$
+  G = \Sigma(n) \in Grp(Set) \hookrightarrow Grp(\infty Grpd) \overset{LConst}{\longrightarrow} \mathbf{H}
+$$ 
+
+be the [[symmetric group]] on $n$ elements, and 
+
+$$
+  V = \{1, \cdots, n\} \in Set \hookrightarrow \infty Grpd \overset{LConst}{\longrightarrow} \mathbf{H}
+$$
+
+the $n$-element [[set]] ([[h-set]]) equipped with the canonical $\Sigma(n)$-[[action]]. Then prop. \ref{RightBaseChangeAlongUniversalFiberBundleProjection} says that right base change of any $p_\rho^\ast p^\ast X$ along
+
+$$
+  \{1, \cdots, n\}/\Sigma(n)
+    \longrightarrow
+  \mathbf{B}\Sigma(n)
+$$
+
+is equivalently the $n$th [[symmetric power]] of $X$
+
+$$
+ [\{1,\cdots, n\},X]/\Sigma(n)
+  \simeq 
+  (X^n)/\Sigma(n)
+  \,.
+$$
+
+=--
+
+
 
 ## Related concepts
 
