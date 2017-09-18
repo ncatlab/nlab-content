@@ -9,6 +9,8 @@ The _translation group_ in [[dimension]] $n$ is the [[Cartesian space]] $\mathbb
 
 ## Related concepts
 
+* [[rotation]], [[boost]]
+
 * [[circle group]]
 
 * [[translation Lie algebra]]
@@ -25,3 +27,6 @@ The _translation group_ in [[dimension]] $n$ is the [[Cartesian space]] $\mathbb
 
 [[!redirects translation Lie group]]
 [[!redirects translation Lie groups]]
+
+[[!redirects translation]]
+[[!redirects translations]]
