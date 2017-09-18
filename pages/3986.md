@@ -1,10 +1,26 @@
-A trigonometric identity is (formally) a [[commutative diagram]] in the [[category]] of [[cartesian spaces]] and [[partial functions]] whose edges are labelled by [[rational functions]] and [[trigonometric function]]s. 
 
-Slightly more precisely: each rational function $p(x_1, \ldots, x_n) \in \mathbb{R}(x_1, \ldots, x_n)$ is interpreted as a [[partial function]] $\mathbb{R}^n \hookleftarrow D \stackrel{f}{\to} \mathbb{R}^n$ where $D$ is the "natural domain" of $p$ (see [[rational function]] for more discussion); these are partial [[analytic functions]]. The basic trigonometric functions $\sin, \cos$ are (total) analytic functions $\mathbb{R} \to \mathbb{R}$. All of these may be interpreted as partial functions $\mathbb{R}^n \rightharpoonup \mathbb{R}^n$, and generate a class of functions by applying the [[monoidal category]] structure on the category of partial functions that is induced by the [[cartesian product]] on cartesian spaces. A trigonometric identity is then (formally) an equality of morphisms in the monoidal category thus generated. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Equality and Equivalence
++-- {: .hide}
+[[!include equality and equivalence - contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
 
-In practice, a trigonometric identity usually involves functions obtained by substituting trigonometric functions into rational functions, or substituting rational _linear_ (affine) functions into trigonometric functions: the class of functions considered is usually fairly limited in scope. Virtually all trigonometric identities can be seen as arising from suitable exponential function identities on _[[complex numbers]]_ such as 
 
-* $\exp(i t) = \cos(t) + i\sin(t)$ ([[Euler]]'s identity); see [[exponential function]],  
+A trigonometric identity is (formally) a [[commutative diagram]] in the [[category]] of [[cartesian spaces]] and [[partial functions]] whose edges are labelled by [[rational functions]] and [[trigonometric functions]]. 
+
+Slightly more precisely: each rational function $p(x_1, \ldots, x_n) \in \mathbb{R}(x_1, \ldots, x_n)$ is interpreted as a [[partial function]] $\mathbb{R}^n \hookleftarrow D \stackrel{f}{\to} \mathbb{R}^n$ where $D$ is the "natural domain" of $p$ (see [[rational function]] for more discussion); these are partial [[analytic functions]]. The basic trigonometric functions $\sin, \cos$ are (total) analytic functions $\mathbb{R} \to \mathbb{R}$. All of these may be interpreted as partial functions $\mathbb{R}^n \rightharpoonup \mathbb{R}^n$, and generate a class of functions by applying the [[monoidal category]] structure on the category of partial functions that is induced by the [[cartesian product]] on cartesian spaces. A trigonometric identity is then (formally) an [[equality]] of morphisms in the monoidal category thus generated. 
+
+In practice, a trigonometric identity usually involves functions obtained by substituting trigonometric functions into rational functions, or substituting rational _linear_ (affine) functions into trigonometric functions: the class of functions considered is usually fairly limited in scope. Virtually all trigonometric identities can be seen as arising from suitable [[exponential function]] identities on _[[complex numbers]]_ such as 
+
+* $\exp(i t) = \cos(t) + i\sin(t)$ ([[Euler's formula]]); 
 
 * $\exp(z + w) = \exp(z)\exp(w)$,
 
