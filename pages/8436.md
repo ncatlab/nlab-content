@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[physics]] of condensed [[matter]].
+The [[physics]] of condensed [[matter]] ([[fermions]], due to the [[Pauli exclusion principle]]).
 
 ## Related concepts
 
