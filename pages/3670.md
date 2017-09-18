@@ -8,6 +8,7 @@ Pontrjagin was a full member of the (Soviet) Academy of Sciences. He was blind s
 category: people
 
 [[!redirects Lev Pontrjagin]]
+[[!redirects L. S. Pontrjagin]]
 [[!redirects Lev Pontryagin]]
 [[!redirects Lev Pontrâgin]]
 [[!redirects Лев Понтрягин]]
