@@ -5,4 +5,6 @@
 
 * [[monad (in computer science)]]
 
+* [[adjoint logic]]
+
 category: people
