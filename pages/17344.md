@@ -330,6 +330,16 @@ $$
 
 =--
 
++-- {: .num_example #ThomSpectra}
+###### Example
+
+A fundamental example of a spectrum that is not just a [[suspension spectrum]] is the universal real [[Thom spectrum]], denoted [[MO]]. For details on this see  _[Part S -- Thom spectra](Introduction+to+Stable+homotopy+theory%20--%20S#ThomSpectra)_. 
+
+There are are also the universal complex [[Thom spectrum]] denoted [[MU]], and the universal symplectic Thom spectrum denoted [[MSp]]. Their standard construction first yields an example of a "sequential $S^2$-spectrum"; which we introduce below in def. \ref{SequentialTSpectra}; and then there is an [[adjunction]] (prop. \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}) that canonically turns this into an ordinary sequential spectrum.
+
+=--
+
+
 +-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
 ###### Definition
 
@@ -4042,9 +4052,17 @@ for the resulting category of sequential $T \wedge S^k$-spectra.
 
 =--
 
++-- {: .num_example }
+###### Example
 
-+-- {: .num_lemma #AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}
-###### Lemma
+The standard construction of the universal complex [[Thom spectrum]] first yields an $S^2$-spectrum see  _[Part S -- Thom spectra](Introduction+to+Stable+homotopy+theory%20--%20S#ThomSpectra)_. This is then turned into an $S^1$-spectrum by the following construction, prop. \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}.
+
+=--
+
+
+
++-- {: .num_prop #AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}
+###### Proposition
 
 For $k \in \mathbb{N}$, $k \geq 1$, there is a pair of [[adjoint functors]]
 
@@ -4233,7 +4251,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Consider the adjunction $(L_2 \dashv R_2) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ from lemma \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}.
+Consider the adjunction $(L_2 \dashv R_2) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ from prop. \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}.
 
 We claim that there is a [[natural isomorphism]]
 
@@ -4244,7 +4262,7 @@ $$
 
 in $Ho(Seq_{S^2}Spec(Top_{cg})_{stable})$.
 
-This implies the statement, since by lemma \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra} the [[adjunction unit]] is a stable weak equivalence, so that we get natural isomorphisms
+This implies the statement, since by prop. \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra} the [[adjunction unit]] is a stable weak equivalence, so that we get natural isomorphisms
 
 $$
   \Sigma X
