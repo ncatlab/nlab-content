@@ -1,6 +1,14 @@
 
 * [webpage](http://fisteo.uv.es/directori.php3?unom=azcarrag)
 
+## related $n$Lab entries
+
+* [[Green-Schwarz sigma-model]]
+
+* [[extended super Minkowski spacetime]]
+
+* [[gauged WZW model]]
+
 category: people
 
 [[!redirects Jose de Azcarraga]]
