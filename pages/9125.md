@@ -150,7 +150,7 @@ $$
   \tau_X \;\colon\; X \to \mathbf{B}GL(n)
 $$ 
 
-be the map that modulates its [[tangent bundle]] (discussed at _[geometry of physics - tangent bundle](geometry of physics#TangentBundle)_). Consider then the following diagram, which shows lifts of this map to the  [[classifying spaces]]/[[moduli stacks]] for various other groups (this is the _[[Whitehead tower]]_ of $\mathbf{B}O(n)$):
+be the map that modulates its [[tangent bundle]] (discussed at [_geometry of physics - tangent bundle_](geometry of physics#TangentBundle)). Consider then the following diagram, which shows lifts of this map to the  [[classifying spaces]]/[[moduli stacks]] for various other groups (this is the _[[Whitehead tower]]_ of $\mathbf{B}O(n)$):
 
 $$
   \array{
