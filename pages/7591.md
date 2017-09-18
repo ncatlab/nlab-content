@@ -189,7 +189,7 @@ $$
 
 which is indeed [[left adjoint]] to forming the ordinary [[group of units]] of a ring.
 
-We might call $\mathbb{S}[A]$ the spring **[[∞-group ∞-ring]]** of $A$ over the [[sphere spectrum]].
+We might call $\mathbb{S}[A]$ the **[[∞-group ∞-ring]]** of $A$ over the [[sphere spectrum]].
 
 =--
 
