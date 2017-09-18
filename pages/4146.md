@@ -55,7 +55,7 @@ This example also makes clear why we define exactness only relative to pointwise
 
 ### Fully faithful functors
 
-If $u\colon A\to B$ is a [[fully faithful functor]], then the square
+A functor $u\colon A\to B$ is a [[fully faithful functor]] if and only if the square
 $$\array{A & \overset{id}{\to} & A\\
   ^{id}\downarrow && \downarrow^u\\
   A & \underset{u}{\to} & B}$$
@@ -69,6 +69,17 @@ $$\array{A & \overset{u}{\to} & B\\
   *& \underset{}{\to} & *}$$
 is exact.  Exactness of this square says that for $F\colon B\to M$, the canonical map $colim_A u^*F \to colim_B F$ is an isomorphism, which is one equivalent definition of when $u$ is final.
 
+### Adjunctions
+
+A functor $f: A \to B$ is left adjoint to $u: B \to A$ with unit $\eta: 1_A \implies uf$ if and only if the square
+$$\array{A & \overset{id}{\to} & A \\
+  ^f\downarrow & ^\eta\swArrow & \downarrow^{id}\\
+  B& \underset{u}{\to} & D}$$
+is exact. Dually, $f \dashv u$ with counit $\varepsilon: fu \implies 1_B$ if and only if the square
+$$\array{B & \overset{u}{\to} & A\\
+  ^{id}\downarrow & ^\varepsilon \swArrow & \downarrow^f\\
+  B& \underset{id}{\to} & B}$$
+is exact.
 
 ## Characterization
 
