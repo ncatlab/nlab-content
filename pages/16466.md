@@ -1484,7 +1484,35 @@ $$
 ### Commutative algebra in tensor categories and Affine super-spaces
  {#CommutativeAlgebraInTensorCategories}
 
-The key idea of [[supercommutative superalgebra]] is that it is nothing but plain [[commutative algebra]] but "[[internalization|internalized]]" not in ordinary [[vector spaces]], but in [[super vector spaces]]. This is made precise by the following concept.
+The key idea of [[supercommutative superalgebra]] is that it is nothing but plain [[commutative algebra]] but "[[internalization|internalized]]" not in ordinary [[vector spaces]], but in [[super vector spaces]]. This is made precise by def. \ref{MonoidsInMonoidalCategory} and ef. \ref{SupercommutativeSuperalgebra} below.
+
+The key idea then of [[supergeometry]] is to define super-[[spaces]] to be spaces whose [[algebras of functions]] are [[supercommutative superalgebras]]. This is not the case for any "ordinary" space such as a [[topological space]] or a [[smooth manifold]]. But these spaces may be _characterized_ via their algebras of functions, and hence it makes sense to generalize the latter.
+
+For [[smooth manifolds]] the statement is the following
+
++-- {: .num_prop} 
+###### Proposition
+**([[embedding of smooth manifolds into formal duals of R-algebras]])**
+
+The [[functor]]
+
+$$
+  C^\infty(-) \;\colon\; SmoothMfd \longrightarrow Alg_{\mathbb{R}}^{op}
+$$
+
+which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
+
+In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the $\mathbb{R}$-[[associative algebra|algebra]] [[homomorphisms]] $C^\infty(X)\leftarrow C^\infty(Y)$.
+
+=--
+
+A **proof** is for instance in ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](embedding+of+smooth+manifolds+into+formal+duals+of+R-algebras#KolarSlovakMichor93)).
+
+This says that we may _identify_ [[smooth manifolds]] as the  "[[formal duals]]" of certain [[associative algebras]], namely those in the image of the above full embedding. Accordingly then, any larger class of associative algebras than this may be thought of as the class of [[formal duals]] to a generalized kind of manifold, defines thereby. Given any associative algebra $A$, then we think of as representing a space which is such that it has $A$ as its algebra of functions.
+
+The [[duality]] between certain  [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] (between [[topological spaces]] and [[C*-algebras]]) which served as motivation for the very definition of [[algebraic geometry]], where [[affine schemes]] are nothing but the [[formal duals]] of [[commutative rings]]/[[commutative algebras]]. Passing to [[non-commutative algebras]] here yields [[non-commutative geometry]], and so forth. In great generality this duality betwee spaces and their function algebras appears as "[[Isbell duality]]" between [[presheaves]] and [[copresheaves]]. 
+
+In [[supergeometry]] we are concerned with spaces that are formally dual to associative algebras which are "very mildly" non-commutative, namely [[supercommutative superalgebras]], which are in fact [[commutative algebras]] when viewed internal to [[super vector spaces]]. The corresponding [[formal dual]] spaces are, depending on some technical details _[[super schemes]]_ or _[[supermanifolds]]_. In the [[physics]] literature, such spaces are usually just called _[[superspace]]_.
 
 +-- {: .num_defn #MonoidsInMonoidalCategory}
 ###### Definition
@@ -1683,6 +1711,7 @@ $$
 $$
 
 =--
+
 
 
 Here are more general and more abstract examples of commutative monoids, which will be useful to make explicit:
@@ -1887,7 +1916,7 @@ of $\mathcal{C}$ with the [[category of modules]] over its tensor unit.
 +-- {: .num_example #RingsAreMonoidsInAb}
 ###### Example
 
-The topic of general [[algebra]], not necessarily over [[ground fields]], is the above general concepts of mnoids and their modules spcialized to the ambient [[symmetric monoidal category]] being the category [[Ab]] of  [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ (whose [[tensor unti]] is the additive group of [[integers]] $\mathbb{Z}$):
+The topic of general [[algebra]], not necessarily over [[ground fields]], is the above general concepts of mnoids and their modules spcialized to the ambient [[symmetric monoidal category]] being the category [[Ab]] of  [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ (whose [[tensor unit]] is the additive group of [[integers]] $\mathbb{Z}$):
 
 1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]]. 
 
@@ -2419,6 +2448,18 @@ Finally one checks that these two constructions are inverses to each other, up t
 
 =--
 
+When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
+
++-- {: .num_prop #CoproductsInCMon}
+###### Proposition
+
+Let $\mathcal{A}$ be a [[tensor category]] and let $R \in CMon(\mathcal{A})$ be a [[commutative monoid]] in $\mathcal{A}$, def. \ref{MonoidsInMonoidalCategory}. Then $CMon(\matcal{A})$ has binary [[coproducts]] and these are given by the [[tensor product of modules]] of the underlying $R$-modules.
+
+Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]].
+
+=--
+
+
 
 
 
@@ -2456,7 +2497,6 @@ such that
 
 But here we need to consider groups with more general geometric structure. The key to the generalization is to regard [[spaces]] dually via their [[algebras of functions]].
 
-The [[duality]] between (local) [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] which served as motivation for the very definition of [[algebraic geometry]]. In great generality it appears as "[[Isbell duality]]".
 
 In the above example, write $C^\infty(X)$ for the [[smooth algebra]] of [[smooth functions]] on a [[smooth manifold]] $X$. The assignment
 
@@ -2473,11 +2513,11 @@ $$
 any [[smooth function]], then precomposition of smooth functions on $Y$ with $f$ yields a homomorphism of smooth algebras going the other way around
 
 $$
-  C^\infty(X) \longleftarrow C \infty(Y) \;\colon\; f^\ast
+  C^\infty(X) \longleftarrow C^\infty(Y) \;\colon\; f^\ast
 $$
 
 and the associatioon $f \mapsto f^\ast$ is a [[natural bijection]].
-Of course, for any two composable smooth functions $f,g$ then $(g \circ f )^\ast = f^\ast \circ g^\ast$ and if $f = id$ is the identity smooth function, then f^\ast = id$ is the identity homomomorphism of smooth algebras.
+Of course, for any two composable smooth functions $f,g$ then $(g \circ f )^\ast = f^\ast \circ g^\ast$ and if $f = id$ is the identity smooth function, then $f^\ast = id$ is the identity homomomorphism of smooth algebras.
 
 Moreover, the functor $C^\infty(-)$ sends [[Cartesian products]] of smooth manifolds to "completed tensor products" $\otimes^c$ of function algebras (namely to the [[coproduct]] of [[smooth algebras]], see there)
 
@@ -2499,19 +2539,6 @@ $$
 
 Now the [[associativity]] of the group product translates into a corresponding dual property of its dual, called "[[co-associativity]]", and so forth. The resulting algebraic structure is called a **[[Hopf algebra]]**.
  
-What actually appears in the main theorem \ref{TheTheorem} below are "affine algebraic super-groups". One way to say this is that they are [[super-scheme|super-]][[group schemes]] whose underlying [[super-scheme]] is a [[super-scheme|super-]][[affine variety]]. Some of these are [[super Lie groups]], namely [[group objects]] in [[supermanifolds]].  But by their affine-ness, affine algebraic supergroups have a direct algebraic, description as [[Hopf algebras]], and we make this explicit now. 
-
-(...) monoids in monoidal categories (...)
-
-+-- {: .num_prop #CoproductsInCMon}
-###### Proposition
-
-Let $\mathcal{A}$ be a [[tensor category]]and let $R \in CMon(\mathcal{A})$ be a [[commutative monoid]] in $\mathcal{A}$, def. \ref{spring}. Then $CMon(\matcal{A})$ has binary [[coproducts]] and these are given by the [[tensor product of modules]] of the underlying $R$-modules.
-
-Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]].
-
-=--
-
 
 While the explicit definition of a _[[Hopf algebra]]_ may look involved at first sight. But Hopf algebras are simply [[formal duals]] of [[groups]]. Since this perspective is straightforward, we may just as well consider it in the generality of [[groupoids]]:
 
