@@ -604,7 +604,7 @@ $$
 
 Consider the case $\mathbb{K} = \mathbb{R}$ of [[real numbers]]. 
 
-Now $V= Mat_{2\times 2}(\mathbb{R})^{symm}$ is the space of symmetric 2x2-matrices with real numbers. 
+Now $V= Mat^{symm}_{2\times 2}(\mathbb{R})$ is the space of symmetric 2x2-matrices with real numbers. 
 
 $$
   V = 
@@ -699,7 +699,7 @@ $$
   \right\}
 $$
 
-Hence the Minowski metric of prop. \ref{DeterminantGivesMinkowskiMetric} in this basis has the components
+Hence the Minkowski metric of prop. \ref{DeterminantGivesMinkowskiMetric} in this basis has the components
 
 $$
   \eta 
