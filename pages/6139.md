@@ -405,9 +405,9 @@ This is [[Ek-Algebras|EkAlg, theorem 1.3.16.]]
 For $k = 1$ we have a looping/delooping equivalence
 
 $$
-  \mathbf{H}_*
-   \stackrel{\overset{\mathbf{B}}{\leftarrow}}{\underset{\Omega}{\to}}
-  \infty Grpd(\mathbf{H})
+  Grp(\mathbf{H})
+  \stackrel{\overset{\Omega}{\longleftarrow}}{\underset{\mathbf{B}}{\longrightarrow}}
+  \mathbf{H}_{\geq 1}^{\ast /}
 $$
 
 between pointed connected objects in $\mathbf{H}$ and grouplike [[A-∞ algebra]] objects in $\mathbf{H}$: [[∞-group]] objects in $\mathbf{H}$.
