@@ -65,7 +65,7 @@ The corresponding _adinkra_ is the [[bipartite graph]] which expresses these per
 
 The topology of an adinkra graph together with its edge coloring in $\{1,2, \cdots, N\}$ is called its _chromotopology_.
 
-The set of adinkra chromotopologies is equivalent to the set of colored $N$-cubs modulo doubly even length-$N$ [[linear codes]] ([Doran-Fauxg-Gates-Hubsch-Iga-Landweber-Miller 11](#DoranFauxgatesHubschIgaLandweberMiller11))
+The set of adinkra chromotopologies is equivalent to the set of colored $N$-cubs modulo doubly even length-$N$ [[linear codes]] ([Doran-Faux-Gates-Hubsch-Iga-Landweber-Miller 11](#DoranFauxgatesHubschIgaLandweberMiller11))
 
 
 (A [[linear code]] of length $N$ is a [[linear subspace]] of $(\mathbb{F}_2)^N$ for $\mathbb{F}_2$ the [[prime field]] with two elements and it is _doubly even_ if every element has weight a multiple of 4. )
