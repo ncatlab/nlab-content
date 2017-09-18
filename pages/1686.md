@@ -337,7 +337,7 @@ $$
 
 But in general this need not be the case. 
 
-One sufficient condition that these exact sequences split is that they consist of homomorphisms of $R$-[[modules]], for some $R$, and that $E_\infty^{p,\bullet}$ are [[projective modules]] (for instance [[free modules]]) over $R$. Because then the [[Ext]]-group $Ext^1(E_\infty^{p,\bullet},-)$ vanishes, and hence all extensions are trivial, hence split.
+One sufficient condition that these exact sequences split is that they consist of homomorphisms of $R$-[[modules]], for some $R$, and that $E_\infty^{p,\bullet}$ are [[projective modules]] (for instance [[free modules]]) over $R$. Because then the [[Ext]]-group $Ext^1_R(E_\infty^{p,\bullet},-)$ vanishes, and hence all extensions are trivial, hence split.
 
 So for instance for every spectral sequence in [[vector spaces]] the extension problem is trivial (since every vector space is a free module).
 
@@ -566,9 +566,11 @@ $$
   $$
 is again an exact couple.
 
-The sequence of complexes $(E,d),(E',d'),\dots$ is a spectral sequence, by construction.
+The sequence of complexes $(E,d),(E',d'),\dots$ is a spectral sequence, by construction. For more see at _[exact couple -- Spectral sequences from exact couples](exact+couple#SpectralSequencesFromExactCouples)_
 
-Examples of exact couples can be constructed in a number of ways.  Importantly, any short exact sequence involving two distinct chain complexes provides an exact couple among their total homology complexes, via the Mayer-Vietoris long exact sequence; in particular, applying this procedure to the relative homology of a filtered complex gives precisely the spectral sequence of the filtered complex described (???) somewhere else on this page.  For another example, choosing a chain complex of flat modules $(C^\dot,d)$, tensoring with the short exact sequence
+Examples of exact couples can be constructed in a number of ways. Notably there are naturally [exact couples of towers of (co-)fibrations](exact+couple#ExactCoupleOfATowerOfFibrations). For instance [[Adams spectral sequences]] are usually produced this way (from towers which are [[Adams resolutions]]). For a list of examples in this class see [below](#SpectralSequencesInducedFromTowersOfSpectra).
+
+Importantly, any short exact sequence involving two distinct chain complexes provides an exact couple among their total homology complexes, via the Mayer-Vietoris long exact sequence; in particular, applying this procedure to the relative homology of a filtered complex gives precisely the spectral sequence of the filtered complex described (???) somewhere else on this page.  For another example, choosing a chain complex of flat modules $(C^\dot,d)$, tensoring with the short exact sequence
 $$ \mathbb{Z}/p\mathbb{Z} \to \mathbb{Z}/p^2\mathbb{Z} \to \mathbb{Z}/p\mathbb{Z} $$
 gives the exact couple
 
@@ -589,11 +591,9 @@ The exact couple recipe for spectral sequences is notable in that it doesn't men
 ### List of examples
  {#ListOfExamples}
 
-#### Lurie spectral sequences
 
 [[!include Lurie spectral sequences -- table]]
 
-#### More
 
 The following list of examples orders the various classes of spectral sequences by special cases: items further to the right are special cases of items further to the left.
 
