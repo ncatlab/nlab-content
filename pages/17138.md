@@ -3296,6 +3296,7 @@ Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] 
 
 The AHSS in turn is a direct consequence of the "[[Cartan-Eilenberg spectral sequence]]" which arises from the [[exact couple]] of [[relative cohomology]] groups of the skeleta of the CW-complex, and whose first page is the relative cohomology groups for codimension-1 skeleta.
 
+
 ### **Part S2) Cobordism theory**
 
 For instance ([Malkiewich 11](#Malkiewich11)).
@@ -3354,6 +3355,20 @@ use ([Adams 74, part III, section 10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
 
 Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10)).
 
+#### Complex vector bundles
+
+* [[complex vector bundle]]
+
+* [[classifying space]]
+
+* [[complex projective space]]
+
+* [[splitting principle]]
+
+* [[Chern classes]]
+
+* [[homology spectra that split]]
+
 
 #### Complex oriented cohomology
 
@@ -3369,8 +3384,6 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 * [[complex oriented cohomology theory]]
 
-  * [[splitting principle]]
-
   * [[generalized Chern classes]]
 
   * [[formal group laws]]
@@ -3378,9 +3391,10 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 #### Lazard's theorem
  {#LazardTheorem}
 
+* [[Lazard ring]]
+
 * [[Lazard's theorem]]
 
-  * [[Lazard ring]]
 
 #### Complex cobordism cohomology
 
