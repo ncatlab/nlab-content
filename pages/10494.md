@@ -273,7 +273,7 @@ $$
   (b \colon B) \;\vdash\; F_b \colon Spectra(\mathbf{H})
 $$
 
-two [[spectrum bundle]] [[dependent types]] over base [[homotopy types]], $A,B \colon \mathbf{H}$, respectively, then the [[function type]] $(E \to F) \colon T\mathbf{H}$ between them (regarded as [[homotopy types]] in $T \mathbf{H}$) is
+two [[spectrum bundle]] [[dependent type|dependent types]] over base [[homotopy types]], $A,B \colon \mathbf{H}$, respectively, then the [[function type]] $(E \to F) \colon T\mathbf{H}$ between them (regarded as [[homotopy types]] in $T \mathbf{H}$) is
 
 $$
   \chi \colon (A \to B); \sigma \colon \underset{a \colon A}{\prod} SpMap(E_a,F_{\chi(a)})
@@ -549,29 +549,6 @@ Discussion in a comprehensive context of cohesion is in section 4.2.3 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 [[!redirects cohesive tangent (∞,1)-topos]]
