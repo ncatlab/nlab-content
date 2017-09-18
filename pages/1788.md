@@ -1,3 +1,42 @@
-
-
-* Riccardo Pedrotti, _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
+$$
+  \array{
+    \cdots
+      &\longrightarrow&
+    \pi_{\bullet + 1}(Y)
+      &\overset{}{\longrightarrow}&
+    \pi_\bullet(Path_\ast(f))
+      &\overset{}{\longrightarrow}&
+    \pi_\bullet(X)
+      &\overset{f_\ast}{\longrightarrow}&
+    \pi_\bullet(Y)
+      &\longrightarrow&
+    \pi_{\bullet-1}(Path_\ast(f))
+      &\longrightarrow&
+    \cdots
+    \\
+      && 
+    \downarrow^{\mathrlap{=}}
+      && 
+    \downarrow^{\mathrlap{\simeq}}
+      && 
+    \downarrow^{\mathrlap{=}}
+      && 
+    \downarrow^{\mathrlap{=}}
+      && 
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \cdots
+      &\longrightarrow&
+    \pi_{\bullet + 1}(Y)
+      &\overset{}{\longrightarrow}&
+    \pi_{\bullet+1}(Cone(f))
+      &\overset{}{\longrightarrow}&
+    \pi_\bullet(X)
+      &\overset{f_\ast}{\longrightarrow}&
+    \pi_\bullet(Y)
+      &\longrightarrow&
+    \pi_{\bullet}(Cone(f))
+      &\longrightarrow&
+    \cdots
+  }
+$$
