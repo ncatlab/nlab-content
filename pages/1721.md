@@ -18,63 +18,135 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In [[algebraic topology]], what is called generalized Eilenberg-Steenrod cohomology started out as an axiomatization of the basic properties of the [[functors]] that send [[topological spaces]] to their [[cohomology groups]] for  [[ordinary cohomology]] and for [[topological K-theory]]. Any functor satisfying these is called a _generalized [[cohomology theory]]_. 
+The collection of [[functors]] from ([[pointed topological space|pointed]]) [[topological spaces]] to [[abelian groups]] which assign [[cohomology groups]] in some degree of [[ordinary cohomology]] (e.g. [[singular cohomology]]) may be [[axiom|axiomatized]] by a small set of natural conditions, called the _Eilenberg-Steenrod axioms_, see [below](#TheEilenbergSteenrodAxioms). One of these conditions says that the cohomology groups assigned to the point are concentrated in degree 0. The class of functors obtained by discarding this "dimension axiom" came to be known as _generalized cohomology theories_ ([Whitehead 62](#Whitehead62)) or _extraordinary cohomology theories_. 
 
-Notice however that one may drop further axioms, such as the [[suspension isomorphism]] to arrive at something yet more general, e.g. [[nonabelian cohomology]] such as unstable [[cohomotopy]]. To disambiguate these further generalizations it might be worthwhile to say _generalized stable cohomology_ or the like, but this is not common terminology.
+Examples include [[topological K-theory]], [[elliptic cohomology]] and [[cobordism cohomology theory]]. Dually one speaks of _[[generalized homology]]_.
 
-The [[Brown representability theorem]] showed that these generalized cohomology theories are precisely those functors are [[representable functor|represented]] by maps from topological spaces into [[spectra]].
+Notice that, while the terminology "generalized cohomology" is standard in [[algebraic topology]] with an eye towards [[stable homotopy theory]], it is somewhat unfortunate in that there are various _further_ generalizations of the axioms that all still deserve to be and are called "cohomology". For instance dropping the [[suspension isomorphism|suspension]] axiom leads to [[nonabelian cohomology]] and dropping the "homotopy axiom" (and taking the domain spaces to be [[smooth manifolds]]) leads to the further generality of [[differential cohomology]]. 
+This entry here is concerned with the generalization obtained from the Eilenberg-Steenrod axioms by _just_ discarding the dimension axiom. For lack of a better term, we say "generalized (Eilenberg-Steenrod) cohomology" here.
 
-This means that from a general abstract perspective, generalized Eilenberg-Steenrod cohomology is the [[cohomology]] in an [[(∞,1)-category]] $\mathbf{H}$ that happens to be a [[stable (∞,1)-category]].
+The _[[Brown representability theorem]]_ asserts that generalized cohomology theories in this sense here are precisely those functors that are [[representable functor|represented]] by [[spectra]]. (But beware that the cohomology theory represented by a spectrum in general contains strictly less information than the spectrum, due to the existence of "[[phantom maps]]").
 
-The archetypical example of this is $\mathbf{H} = Sp(Top)$, the [[stable (∞,1)-category of spectra]] and this is the context in which generalized Eilenberg-Steenrod cohomology is usually understood. So
+This means that from a perspective of [[higher category theory]], generalized Eilenberg-Steenrod cohomology is the intrinsic [[cohomology]] of the [[(∞,1)-category of spectra]], or better: [[twisted cohomology|twisted]] generalized Eilenberg-Steenrod cohomology is the intrinsic cohomology of the [[tangent (∞,1)-topos]] of [[parameterized spectra]].
+
 
 +-- {: .standout}
 
 Generalized Eilenberg-Steenrod cohomology is 
-[[cohomology]] $H(X,A)$ with coefficient object $A$ a [[spectrum object]].
+[[cohomology]] $E(X)= H(X,E)$ with [[coefficients]] $E$ a [[spectrum object]].
 
 =--
 
 ## The Eilenberg-Steenrod axioms 
+ {#TheEilenbergSteenrodAxioms}
 
-One may conceptualize the axioms as ensuring that certain nice properties that hold in the category Top will be preserved by our cohomology functor.
+One may conceptualize the axioms as ensuring that certain nice properties that hold in the category $Top$ will be preserved by the cohomology functor.
 
-Let $U$ and $X$ be topological spaces, such that $U$ is a subspace of $X$. Notation: $(X,U) := U \hookrightarrow X$.
+### Reduced cohomology
+ {#ReducedCohomology}
 
-Note that if only one space is listed, the subspace is assumed to be the empty set $(X, \emptyset)$.
++-- {: .num_defn #ReducedGeneralizedCohomology}
+###### Definition
 
-The Eilenberg-Steenrod axioms are the following:
+A _reduced generalized [[cohomology theory]]_ is a $\mathbb{Z}$-[[graded object|graded]]  [[functor]]
 
-> clean up
+$$
+  \tilde E^\bullet \colon (Top^{\ast/})^{op} \longrightarrow Ab
+$$
+
+from the [[opposite category]] of [[pointed topological spaces]] ([[CW-complexes]]) to [[abelian groups]] 
+
+$$
+  \tilde E 
+    \;\colon\; 
+  (X \stackrel{f}{\longrightarrow} Y)
+    \mapsto
+  (\tilde E^\bullet(Y) 
+    \stackrel{f^\ast}{\longrightarrow}
+  \tilde E^\bullet(X))
+$$
+
+and equipped with [[natural isomorphisms]], to be called the _[[suspension isomorphism]]_
+
+$$
+  \tilde E^\bullet(-) \stackrel{\simeq}{\longrightarrow} \tilde E^{\bullet +1}(\Sigma -) 
+$$
+
+(for $\Sigma \colon Top^{\ast/} \to Top^{\ast/}$ the [[reduced suspension]] functor)
+
+such that:
+
+1. **Homotopy invariance** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+
+   $$
+     f_1^\ast = f_2^\ast
+     \,.
+   $$
+
+1. **Exactness** For $i \colon A \hookrightarrow$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
+
+   $$
+     \tilde E^\bullet(cone(i)) 
+      \stackrel{j^\ast}{\longrightarrow} 
+     \tilde E^\bullet(X)
+       \stackrel{i^\ast}{\longrightarrow}
+     \tilde E^\bullet(A)
+     \,.
+   $$
+
+=--
+
+
+(e.g. [AGP 02, def. 12.1.4](#AGP02))
+
+Write $\mathbb{S}^0$ for the [[0-sphere]], canonically regarded as a [[pointed topological space]].
 
 +-- {: .num_defn}
 ###### Definition
 
-A [[cohomology theory]] is a collection $\{A^n\}_{n \in \mathbb{Z}}$ of [[functor]]s
+A reduced generalized cohomology theory $\tilde E^\bullet$, def. \ref{ReducedGeneralizedCohomology}, is called _ordinary_ if
+
+* **dimension** $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
+
+=--
+
+### Unreduced cohomology
+
+In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topological spaces]]  $U \hookrightarrow X$.  Whenever only one space is mentioned, the subspace is assumed to be the [[empty set]] $(X, \emptyset)$.
+
+
+
++-- {: .num_defn}
+###### Definition
+
+A _[[cohomology theory]]_ (unreduced) is a collection $\{E^n\}_{n \in \mathbb{Z}}$ of $\mathbb{Z}$-[[graded object|graded]] [[functors]]
 
 $$
-  A^n : (Top^{\hookrightarrow})^{op} \to Ab
+  E^n : (Top^{\hookrightarrow})^{op} \to Ab
 $$
 
-from the [[homotopy category]] $Top^{\hookrightarrow}$ of pairs of [[topological space]]s to the category [[Ab]] of abelian groups, as well as a [[natural transformation]] $\delta: A^n(X, \emptyset) \to A^{n+1}(X, U)$. These functors and natural transformations satisfy and are characterized by the following axioms.
+from the [[homotopy category]] $Top^{\hookrightarrow}$ of pairs of [[topological spaces]] to the category [[Ab]] of abelian groups, as well as a [[natural transformation]] $\delta: A^n(X, \emptyset) \to A^{n+1}(X, U)$. These functors and natural transformations satisfy and are characterized by the following axioms.
 
-1. *Exactness*: The following sequence is exact. Note that the inclusions $U \hookrightarrow X$ and $(X, \emptyset) \hookrightarrow (X, U)$ induce the unlabeled arrows. 
+1. **Exactness**: The following sequence is exact. Note that the inclusions $U \hookrightarrow X$ and $(X, \emptyset) \hookrightarrow (X, U)$ induce the unlabeled arrows. 
 
-$ \cdots \to A^n(X, U) \to A^n(X, \emptyset) \to A^n(U, \emptyset) \xrightarrow{\delta} A^{n+1}(X, U) \to \cdots $
+$ \cdots \to E^n(X, U) \to E^n(X, \emptyset) \to E^n(U, \emptyset) \xrightarrow{\delta} E^{n+1}(X, U) \to \cdots $
 
-1. *Weak homotopy equivalence*: if $f : X \to Y$ is a [[weak homotopy equivalence]] then $A^n(f) : A^n(Y) \to A^n(X)$ is an [[isomorphism]]
+1. **Homotopy equivalence**: if $f : X \to Y$ is a [[weak homotopy equivalence]] then $E^n(f) : E^n(Y) \to E^n(X)$ is an [[isomorphism]]
 
-1. *Additivity*: If $ (X, U) = \coprod_i (X_i, U_i)$, then $A^n(X, U) = \coprod_i A^n(X_i, U_i)$.
+1. **Additivity**: If $ (X, U) = \coprod_i (X_i, U_i)$, then $E^n(X, U) = \coprod_i E^n(X_i, U_i)$.
 
-1. *Excision*: Let $S$ be a subspace of $U$, the natural inclusion of the pair $i:(X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $A^n(i): A^n(X-S, U-S) \to A^n(X, U)$.
+1. **Excision**: Let $S$ be a subspace of $U$, the natural inclusion of the pair $i:(X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
 
 
 =--
 
-e.g. [AGP 02, def. 12.1.1 ](#AGP02). Similarly, but more concisely, for [[reduced cohomology]] (see there for the moment).
+e.g. [AGP 02, def. 12.1.1 ](#AGP02). 
 
-Ordinary cohomology theories require and additional axiom, the dimension axiom $A^n(pt) = 0$.
+A generalized cohomology theory is called _ordinary_ if in addition 
+
+* **Dimension**: $E^n(pt) = 0$.
 
 ## Examples 
 
@@ -113,9 +185,8 @@ The [[Atiyah-Hirzebruch spectral sequence]] serves to express generalized cohomo
 
 ## References 
 
-A pedagogical introduction to [[spectrum|spectra]] and generalized (Eilenberg-Steenrod) cohomology is in
 
-* [[John Baez]], [TWF 149](http://math.ucr.edu/home/baez/twf_ascii/week149) 
+* {#Whitehead62} [[George Whitehead]], _Generalized homology theories_, AMS 1962 ([pdf](http://www.ams.org/journals/tran/1962-102-02/S0002-9947-1962-0137117-6/S0002-9947-1962-0137117-6.pdf))
 
 Textbook accounts include
 
@@ -124,6 +195,10 @@ Textbook accounts include
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 * {#KonoTamaki02} Akira Kono, Dai Tamaki, _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
+
+A pedagogical introduction to [[spectrum|spectra]] and generalized (Eilenberg-Steenrod) cohomology is in
+
+* [[John Baez]], [TWF 149](http://math.ucr.edu/home/baez/twf_ascii/week149) 
 
 
 More references relating to the [[nPOV]] on cohomology include:
