@@ -235,6 +235,10 @@ An [[(infinity,1)-category theory|(infinity,1)-category theoretic ]] treatment o
 
 * [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
  {#GaitsgoryFrancis}
- 
 
+A higher-dimensional generalization of vertex algebras is suggested in the framework of factorization algebras in
+ 
+* Emily Cliff, _Universal factorization spaces and algebras_, [arxiv/1608.08122](http://arxiv.org/abs/1608.08122)
+
+>  We introduce categories of weak factorization algebras and factorization spaces, and prove that they are equivalent to the categories of ordinary factorization algebras and spaces, respectively. This allows us to define the pullback of a factorization algebra or space by an \'etale morphism of schemes, and hence to define the notion of a universal factorization space or algebra. This provides a generalization to higher dimensions and to non-linear settings of the notion of a vertex algebra. 
 [[!redirects factorization algebras]]
