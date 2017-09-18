@@ -1,9 +1,12 @@
-<div class="rightHandSide toc">
-[[!include category theory - contents]]
-***
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context ###
+#### Higher category theory
++-- {: .hide}
 [[!include higher category theory - contents]]
-</div>
-
+=--
+=--
+=--
 
 A _$(-1)$-category_ is a [[truth value]]. Compare the concept of [[0-category]] (a [[set]]) and [[(−2)-category]] (which is trivial). The point of $(-1)$-categories (a kind of [[negative thinking]]) is that they complete some patterns in the [[periodic table]] of $n$-categories. (They also shed light on the theory of [[homotopy group]]s and [[n-stuff]].)
 
