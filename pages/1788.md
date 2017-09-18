@@ -1,29 +1,24 @@
-# Ultrafilter characterization of compactness {#sec:orgd15a45f}
+# Ultrafilter characterization of compactness {#sec:org19bf2fd}
 
-## Idea {#sec:orgb40c348}
+## Idea {#sec:org7165d5c}
 
 A $X$ is if and only if every has a convergent subnet. Ultrafilters are
 another way of talking about nets (since one can associate to every net
-its ), and one can similarly characterize compactness in terms of the
-convergence of ultrafilters.
+its **convergence filter**), and one can similarly characterize
+compactness in terms of the convergence of ultrafilters.
 
-+-- {: .num_lemma}
-###### Lemma
+## Statement and proof {#sec:org16fd9b2}
 
-This is a lemma.
-
-=--
-
-## Statement and proof {#sec:org01261cb}
-
-### Proposition {#sec:org6f37071}
++-- {: .num_prop}
+###### Proposition
 
 The space $X$ is compact if and only if every ultrafilter on $X$
 converges.
 
-###  {#sec:orgb81519c}
+=--
 
-### Proof {#sec:org267e898}
++-- {: .proof}
+###### Proof
 
 $(\Leftarrow)$. Suppose first that there is an ultrafilter $\mathcal{U}$
 on $X$ which has no limit point. Suppose there is a finite subcover of
@@ -55,7 +50,9 @@ converges to some point $x \in X$. Therefore, $U_x \in \mathcal{V}$. By
 construction, $\mathcal{V}$ also contains $X \backslash U_x$. This means
 $\mathcal{V}$ was not an ultrafilter, a contradiction.
 
-###  {#sec:org65ae25d}
+=--
+
+
 
 ***
 
