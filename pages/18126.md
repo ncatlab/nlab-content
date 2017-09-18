@@ -10334,17 +10334,16 @@ $\,$
 
 The concept of [[compact topological space|compactness]] in topology ([above](#CompactSpaces))
 has several evident weakenings of interest. One is that of _[[paracompact topological space|paracompactness]]_
-(def. \ref{ParacompactSpace} below). The concept of paracompact topological spaces begins to lead over
-from plain topology to actual [[geometry]]. In particular the [[topological manifolds]] discussed [below](#Manifolds)
+(def. \ref{ParacompactSpace} below). The concept of paracompact topological spaces leads over
+from plain [[topology]] to actual [[geometry]]. In particular the [[topological manifolds]] discussed [below](#Manifolds)
 are paracompact topological spaces.
 
-A key property is that [[paracompact Hausdorff spaces]] are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
+A key property is that [[paracompact Hausdorff spaces]] are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity} below) all whose [[open covers]] admit a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
 each of which is [[support|supported]] in only one patch of the cover, but whose [[sum]] is the unit function.
 Existence of such partitions implies that structures on topological spaces which are glued together via [[linear maps]]
 (such as [[vector bundles]]) are well behaved.
 
-
-(In [[algebraic topology]] paracompact spaces are important as for them [[abelian sheaf cohomology]] may be computed in terms of [[Cech cohomology]].)
+Finally in [[algebraic topology]] paracompact spaces are important as for them [[abelian sheaf cohomology]] may be computed in terms of [[Cech cohomology]].
 
 $\,$
 
@@ -10355,7 +10354,7 @@ $\,$
 
 Let $(X,\tau)$ be a [[topological space]].
 
-An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all points $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
+An [[open cover]] $\{U_i \subset X\}_{i \in I}$ (def. \ref{OpenCover}) of $X$ is called  _locally finite_ if for all points $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
 
 =--
 
@@ -10365,8 +10364,7 @@ An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finit
 ###### Definition
 **([[refinement]] of [[open covers]])
 
-
-Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$ be a [[open cover]].
+Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$ be a [[open cover]] (def. \ref{OpenCover}).
 
 Then a _[[refinement]]_ of this open cover is a set of open subsets $\{V_j \subset X\}_{j \in J}$ which is still an [[open cover]] in itself and such that for each $j \in J$ there exists an $i \in I$ with $V_j \subset U_i$.
 
@@ -10379,6 +10377,8 @@ Then a _[[refinement]]_ of this open cover is a set of open subsets $\{V_j \subs
 A [[topological space]] $(X,\tau)$ is called _[[paracompact topological space|paracompact]]_ if every [[open cover]] of $X$ has a [[refinement]] (def. \ref{RefinementOfOpenCovers}) by a [[locally finite open cover]] (def. \ref{LocallyFiniteCover}).
 
 =--
+
+Here are some basic classes of examples of paracompact spaces:
 
 +-- {: .num_example #CompactSpaceIsParacompact}
 ###### Example
@@ -10423,6 +10423,16 @@ of $\mathcal{U}$.
 
 =--
 
+We consider now three important classes of examples of paracompact spaces whose proof of 
+paracompactness requires a little work.
+
+* [[CW-complexes]] (example \ref{ParacompactHausdorffCWComplexes});
+
+* [[locally compact topological space|locally compact]] [[topological groups]] (prop. \ref{ParacompactLocallyCompactTopologicalGroups});
+
+* [[metric spaces]] (prop. \ref{ParacompactMetricSpace}).
+
+
 
 +-- {: .num_example #ParacompactHausdorffCWComplexes}
 ###### Example
@@ -10450,7 +10460,7 @@ $$
 
 is paracompact Hausdorff.
 
-This immediately implies that all [[finite CW-complexes]] relative to a [[paracompact Hausdorff space]]
+This immediately implies that all [[finite CW-complexes]] (def. \ref{RelativeCellComplexes}) relative to a [[paracompact Hausdorff space]]
 are themselves paracompact Hausdorff. In fact this is true generally: all CW-complexes are paracompact Hausdorff spaces.
 
 
@@ -10464,7 +10474,7 @@ by prop. \ref{ParacompactLocallyCompactTopologicalGroups} below:
 **([[topological group]])**
 
 A [[topological group]] is a [[group]] $G$ equipped with a [[topological space|topology]] $\tau_G \subset P(G)$ (def. \ref{TopologicalSpace})
-such that the group operation $G \times G \to G$ and the assignment of [[inverse elements]] $(-)^{-1} : G \to G$
+such that the group operation $ (-)\cdot (-)\;\colon\;G \times G \to G$ and the assignment of [[inverse elements]] $(-)^{-1} : G \to G$
 are [[continuous functions]].
 
 =--
@@ -10476,7 +10486,7 @@ are [[continuous functions]].
 For $n \in \mathbb{N}$ then the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]
 and
 equipped with the addition operation from its canonical [[vector space]] structure
-is a [[topological group]] (def. \ref{TopologicalGroup}), dented $(\mathbb{R}^n, +)$.
+is a [[topological group]] (def. \ref{TopologicalGroup}) $(\mathbb{R}^n, +)$.
 
 =--
 
@@ -10496,11 +10506,14 @@ For $n \in \mathbb{N}$ the _[[general linear group]]_ $GL(n, \mathbb{R})$ is the
      \right)
    $$
 
-   with group operation given by [[matrix multiplication]]. The [[topological space|topology]] on $GL_(n,\mathbb{R})$ is the
+   with group operation given by [[matrix multiplication]]. 
+   
+   This becomes a [[topological group]] (def. \ref{TopologicalGroup})
+   by taking the [[topological space|topology]] on $GL_(n,\mathbb{R})$ to be the
    [[subspace topology]] (def. \ref{SubspaceTopology}) as a subspace of the [[Euclidean space]] (example \ref{EuclideanNorm}) of [[matrices]]
 
    $$
-     Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
+     GL(n,\mathbb{R})\subset  Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
    $$
 
    with its [[metric topology]] (example \ref{MetricTopology}).
@@ -10511,6 +10524,7 @@ For $n \in \mathbb{N}$ the _[[general linear group]]_ $GL(n, \mathbb{R})$ is the
    (example \ref{PolynoialsAreContinuous}) and since the domain of definition for matrix inversion is precisely
    $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$, the group operations on $GL(n,\mathbb{R})$ are indeed
    [[continuous functions]].
+
 
 =--
 
@@ -10547,7 +10561,12 @@ $$
   GL_n(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
 $$
 
-is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function (which is a [[polynomial]] and hence continuous, example \ref{PolynoialsAreContinuous}) of the of the open subspace $\mathbb{R} \setminus \{0\} \subset \mathbb{R}$.
+is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function (which is a [[polynomial]] and hence continuous, example \ref{PolynoialsAreContinuous}) of the of the open subspace $\mathbb{R} \setminus \{0\} \subset \mathbb{R}$:
+
+$$
+  GL(n,\mathbb{R}) = det^{-1}( \mathbb{R} \setminus \{0\} )
+  \,.
+$$
 
 As an open subspace of Euclidean space, $GL(n,\mathbb{R})$ is not compact, by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}).
 
@@ -10566,13 +10585,14 @@ by prop. \ref{ParacompactLocallyCompactTopologicalGroups}.
 
 $\,$
 
-The definition of [[paracompact Hausdorff spaces]] is closely related to the definitions of
+In identifying [[paracompact Hausdorff spaces]] it is often useful 
+(as witnessed for instance by prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} and prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} below) to consider two closely
+related properties of topological spaces:
 
 1. [[second-countable topological space|second-countability]] (def. \ref{CountableSecond} below);
 
 1. [[sigma-compact topological space|sigma-compactness]] (def. \ref{CompactSigma} below)
 
-as witnessed by prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} and prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} below.
 
 
 +-- {: .num_defn #CountableSecond}
@@ -10593,9 +10613,24 @@ is [[second-countable topological space|second countable]] (def. \ref{CountableS
 
 A [[countable set]] of [[topological base|base open subsets]] is given by the [[open balls]] $B^\circ_x(\epsilon)$ of [[rational number|rational]] [[radius]] $\epsilon \in \mathbb{Q}_{\geq 0} \subset \mathbb{R}_{\geq 0}$ and centered at points with [[rational number|rational]] [[coordinates]]: $x \in \mathbb{Q}^n \subset \mathbb{R}^n$.
 
-Here we are using that
+=--
 
-1. The set of [[rational numbers]] is [[countable set|countable]];
++-- {: .proof}
+###### Proof
+
+To see that this is still a [[base for a topology|base]], it is sufficient to see that every point inside very
+[[open ball]] in $\mathbb{R}^n$ is contains in an open  ball of rational radius with rational coordinates of its
+center that is still itself contained in the original open ball. 
+
+To that end, let $x$ be a point inside an [[open ball]] 
+and let $d \in \mathbb{R}_{\gt 0}$ be its [[distance]] from the [[boundary]] of the ball. 
+By the fact that the rational numbers are a [[dense subset]] of $\mathbb{R}$, we may find $\epilon \in \mathbb{Q}$ such that 
+$0 \lt \epsilon \lt d/2$ and then we may find $x' \in \mathbb{Q}^n \subset \mathbb{R}^n$ such that $x' \in B_x^\circ(d/2)$.
+This open ball contains $x$ and is contained in the original open ball.
+
+To see that this base is countable, use that
+
+1. the set of [[rational numbers]] is [[countable set|countable]];
 
 1. the [[Cartesian product]] of two countable sets is countable.
 
@@ -10800,7 +10835,7 @@ Therefore the statement follows since [[locally compact and sigma-compact spaces
 
 More generally:
 
-+-- {: .num_prop}
++-- {: .num_prop #ParacompactMetricSpace}
 ###### Proposition
 **([[metric spaces are paracompact]])**
 
@@ -10822,7 +10857,20 @@ $\,$
 ###### Lemma
 **(every locally finite refinement induces one with the original index set)**
 
-Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I, \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
+Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] (def. \ref{OpenCover}), and let $\{V_j \subset X\}_{j \in J}$, be a [[refinement]] (def. \ref{RefinementOfOpenCovers}) to a [[locally finite cover]] (def. \ref{LocallyFiniteCover}).
+
+By definition of [[refinement]] we may [[axiom of choice|choose]] a [[function]] 
+
+$$
+  \phi \colon J \to I
+$$
+
+such that 
+
+$$
+  \underset{j \in J}{\forall}\left( V_j \subset U_{\phi(j)} \right)
+  \,.
+$$
 
 Then  $\left\{ W_i \subset X \right\}_{i \in I}$ with
 
