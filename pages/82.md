@@ -74,13 +74,9 @@ A standard textbook on this case is
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
-There is also
+Introducing even category theory from the scratch while still managing to cover considerable ground, the following textbook is the _royal road to topos theory_ for people with some background in [[first-order logic]]:
 
-* R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983).
-
-
-
-
+* {#Goldblatt84} R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
 
 
 A gentle basic introduction is 
