@@ -39,6 +39,8 @@ Holomorphic CS may be understood in terms of a nonabelian version of the _[[beta
 
 * [[Chern-Simons theory]]
 
+* [[Chern-Simons theory with complex gauge group]]
+
 * [[beta-gamma system]]
 
 * [[analytically continued Chern-Simons theory]]
