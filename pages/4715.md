@@ -186,7 +186,7 @@ The [[genus]] of $\Sigma_\Gamma$ is
 $$
   g = \frac{1}{2}
    \left(
-     - \vert V\vert - \vert E\vert - \vert bounary components\vert + 2
+     2 - \vert V\vert + \vert E\vert - \vert boundary components\vert
    \right)
   \,.
 $$
