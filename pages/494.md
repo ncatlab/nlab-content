@@ -14,7 +14,7 @@
 
 ## Definition 
 
-We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformations]] $\eta: 1_C \to R \circ L$ and $\epsilon: L \circ R \to 1_D$ satisfying the [[triangle identities]], that is the compositions
+We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformations]] $\eta \colon 1_C \to R \circ L$ (the [[unit of an adjunction|unit]]) and $\epsilon \colon L \circ R \to 1_D$ (the [[counit of an adjunction|counit]]) satisfying the [[triangle identities]], that is the compositions
 $L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L$
 and 
 $R\stackrel{\eta R}\to R L R \stackrel{R\epsilon}\to R$ 
@@ -43,7 +43,27 @@ $$
 
 naturally in $c$ and $d$.  This isomorphism is the **adjunction isomorphism** and the image of an element under this isomorphism is its [[adjunct]].
 
-Given such an adjunction isomorphism, $\eta$ and $\epsilon$ can be recovered as the adjuncts of identity morphisms.  The [[Yoneda lemma]] ensures that the entire adjunction isomorphism can be recovered from them by composition: the adjunct of $f:L(c)\to d$ is $R(f) \eta$, and the adjunct of $g:c \to R(d)$ is $\epsilon L(g)$.  The triangle identities are precisely what is necessary to ensure that this _is_ an isomorphism.
+Naturality here means that for every morphism $g \colon c_2 \to c_1$ and for every morphisms $f\colon d_1\to d_2$, the resulting square
+
+$$
+  \array{
+    Hom_{D}(L(c_1), d_1) 
+      &\overset{\simeq}{\longrightarrow}&
+    Hom_C(c_1, R(d_1))
+    \\
+    {}^{\mathllap{Hom_D(L(g), f)}}\downarrow
+     &&
+    \downarrow^{\mathrlap{Hom_C(g,R(f))}}
+    \\
+    Hom_D(L(c_2),d_2)
+    &\overset{\simeq}{\longrightarrow}&
+    Hom_C(c_2,R(d_1))
+  }
+$$ 
+
+[[commuting square|commutes]] (see also at [[hom-functor]] for the definition of the vertical maps here).
+
+Given such an adjunction isomorphism, the [[counit of an adjunction|counit]] $\eta$ and [[unit of an adjunction|unit]] $\epsilon$ are recovered as the [[adjuncts]] of identity morphisms.  The [[Yoneda lemma]] ensures that the entire adjunction isomorphism can be recovered from them by composition: the adjunct of $f:L(c)\to d$ is $R(f) \eta$, and the adjunct of $g:c \to R(d)$ is $\epsilon L(g)$.  The triangle identities are precisely what is necessary to ensure that this _is_ an isomorphism.
 
 
 ### In terms of representable functors
