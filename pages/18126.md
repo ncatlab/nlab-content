@@ -12358,8 +12358,8 @@ A topological ring $((R, \tau_R),+,\cdot)$ is a _[[topological field]]_ if
 ###### Remark
 
 There is a redundancy in def. \ref{TopologicalRing}: For a [[topological ring]] the
-continuity of the assignment of additive inverses is already implied by the continuity of 
-the [[multiplication]] operation, since 
+continuity of the assignment of additive inverses is already implied by the continuity of
+the [[multiplication]] operation, since
 
 $$
   - a = (-1) \cdot a
@@ -12423,7 +12423,7 @@ such that this is [[local trivialization|locally trivial]] in that there exists:
    1. $\phi_i$ is a [[linear map]] in each fiber in that
 
       $$
-        \underset{x \in U_i \cap U_j}{\forall}
+        \underset{x \in U_i}{\forall}
         \left(
           \phi_i(x) \;\colon\;
              k^n \overset{\text{linear}}{\longrightarrow}
@@ -12572,7 +12572,7 @@ $$
   X \times k^n \overset{pr_1}{\to} X
 $$
 
-canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). 
+canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}).
 A local trivialization is given over the trivial cover $\{X \subset X\}$ by the identity function $\phi$.
 
 This is called the _[[trivial vector bundle]]_ of [[rank]] $n$ over $X$.
@@ -12618,7 +12618,7 @@ $$
   \sigma \;\colon\;  X \longrightarrow E
 $$
 
-such that $\pi \circ \sigma = id_X$ 
+such that $\pi \circ \sigma = id_X$
 
 $$
   \array{
@@ -12661,7 +12661,7 @@ $$
   \,.
 $$
 
-(This is a _[[monomorphism]]_ in the [[category]] $Vect(X)$ of topological vector 
+(This is a _[[monomorphism]]_ in the [[category]] $Vect(X)$ of topological vector
 bundles over $X$ (remark \ref{TopologicalVectorBundlesCategory}).)
 
 =--
@@ -12677,7 +12677,7 @@ on [[projective spaces]]:
 ###### Definition
 **(topological [[projective space]])**
 
-Let $k$ be a [[topological field]] (def. \ref{TopologicalRing}) 
+Let $k$ be a [[topological field]] (def. \ref{TopologicalRing})
 and $n \in \mathbb{C}$. Consider the [[product topological space]] $k^{n+1} \coloneqq \underset{\{1,\cdots, n\}}{\prod} k$,
 let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
 
@@ -12716,7 +12716,7 @@ for $k = \mathbb{C}$ this is called _[[complex projective space]]_ $\mathbb{C}P^
 ###### Examples
 **([[Riemann sphere]])**
 
-The first [[complex projective space]] (def. \ref{ToplogicalProjectiveSpace}) 
+The first [[complex projective space]] (def. \ref{ToplogicalProjectiveSpace})
 is [[homeomorphism|homeomorphic]] to the [[Euclidean space|Euclidean]] [[2-sphere]] (example \ref{SpheresAndDisks})
 
 $$
@@ -12776,7 +12776,7 @@ is the cover by the two [[stereographic projections]] from example \ref{Standard
 ###### Definition
 **(topological [[tautological line bundle]])
 
-For $k$ a [[topological field]] (def. \ref{TopologicalRing}) and $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is topological $k$-[[line bundle]] (remark \ref{TerminologyVectorBundles}) 
+For $k$ a [[topological field]] (def. \ref{TopologicalRing}) and $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is topological $k$-[[line bundle]] (remark \ref{TerminologyVectorBundles})
 whose total space is the following [[subspace]] of the [[product space]] (example \ref{BinaryProductTopologicalSpace})
 of the [[projective space]] $k P^n$ (def. \ref{ToplogicalProjectiveSpace}) with $k^n$:
 
@@ -12854,62 +12854,27 @@ Therefore by the [[universal property]] of the [[quotient topology]], also the o
 =--
 
 
-The usual concepts of [[linear algebra]] have a straightforward generalization from [[vector spaces]] to [[vector bundles]],
-for example:
-
-+-- {: .num_defn #InnerProductOnTopologicalVectorBundles}
-###### Definition
-**(inner product on [[topological vector bundles]])**
-
-Let
-
-1. $k$ be a [[topological field]] (such as the [[real numbers]] or [[complex numbers]] with their [[Euclidean space|Euclidean]] [[metric topology]] ),
-
-1. $X$ be a [[topological space]],
-
-1. $E \to X$ a [[topological vector bundle]] over $X$ (over $\mathbb{R}$, say).
-
-Then an _inner product_ on $E$ is
-
-* a vector bundle [[homomorphism]]
-
-  $$
-    \langle -,-\rangle
-    \;\colon\;
-    E \otimes_X E
-     \longrightarrow
-    X \times \mathbb{R}
-  $$
-
-  from the [[tensor product of vector bundles]] of $E$ with itself to the trivial [[line bundle]]
-
-such that
-
-* for each point $x \in X$ the function
-
-  $$
-    \langle -,-\rangle|_x \colon E_x \otimes E_x \to \mathbb{R}
-  $$
-
-  is an [[inner product]] on the [[fiber]] [[vector space]], hence a positive-definite symmetric [[bilinear form]].
-
-=--
-
-
-Similarly there are constructions of _[[direct sum of vector bundles]]_ and of _[[tensor product of vector bundles]]_.
-We consider these below after discussion of the construction of vector bundles from _[[transition functions]]_.
-
-
-
 $\,$
 
 
 ### Transition functions
 
 
+We discuss how topological vector bundles are equivalently 
+given by [[cocycles]] (def. \ref{CocycleCech} below) in [[Cech cohomology]] (def. \ref{CohomologyCech})
+constituted by their [[transition functions]] (def. \ref{TransitionFunctions} below). This allows to make precise the intuition that 
+vector bundles are precisely the result of "continuously gluing" trivial vector bundles onto each other"
+(prop. \ref{TopologicalVectorBundlesCharacterizedByCechCohomology} below). 
 
-We discuss how topological vector bundles are equivalently given by [[cocycles]] in [[Cech cohomology]]
-constituted by their [[transition functions]].
+This gives a 
+"local-to-global principle" for constructions on vector bundles. For instance it 
+allows to easily obtain concepts of [[direct sum of vector bundles]] and [[tensor product of vector bundles]]
+(def. \ref{DirectSumOfTopologicalVectorBundlesViaTransitionFunctions} and def. \ref{TensorProductOfVectorBundles} below) by applying the usual operations from linear algebra on a local trivialization and then re-glung the result
+via the combined transition functions.
+
+$\,$
+
+The definition of Cech cocycles is best stated with the following terminology in hand:
 
 +-- {: .num_defn #ContinuousFunctionWithValuesInGLn}
 ###### Definition
@@ -13582,6 +13547,49 @@ $$
 
 =--
 
+And so forth. For instance:
+
++-- {: .num_defn #InnerProductOnTopologicalVectorBundles}
+###### Definition
+**([[inner product on vector bundles]])**
+
+Let
+
+1. $k$ be a [[topological field]] (such as the [[real numbers]] or [[complex numbers]] with their [[Euclidean space|Euclidean]] [[metric topology]] ),
+
+1. $X$ be a [[topological space]],
+
+1. $E \to X$ a [[topological vector bundle]] over $X$ (over $\mathbb{R}$, say).
+
+Then an _inner product_ on $E$ is
+
+* a vector bundle [[homomorphism]]
+
+  $$
+    \langle -,-\rangle
+    \;\colon\;
+    E \otimes_X E
+     \longrightarrow
+    X \times \mathbb{R}
+  $$
+
+  from the [[tensor product of vector bundles]] of $E$ with itself to the trivial [[line bundle]]
+
+such that
+
+* for each point $x \in X$ the function
+
+  $$
+    \langle -,-\rangle|_x \colon E_x \otimes E_x \to \mathbb{R}
+  $$
+
+  is an [[inner product]] on the [[fiber]] [[vector space]], hence a positive-definite symmetric [[bilinear form]].
+
+=--
+
+
+
+
 
 
 $\,$
@@ -13796,8 +13804,9 @@ _[[Cech cohomology]] of $X$ in degree 1 with [[coefficients]] in $\underline{GL(
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #TopologicalVectorBundlesCharacterizedByCechCohomology}
 ###### Proposition
+**([[Cech cohomology]] computed [[isomorphism classes]] of [[topological vector bundle]] )
 
 Let $X$ be a [[topological space]].
 
