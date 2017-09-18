@@ -280,6 +280,9 @@ Examples of sporadic (exceptional) spin group isomorphisms incarnated as [[isoge
  
 * {#GorbunovRay92} Vassily Gorbunov, Nigel Ray, _Orientations of $Spin$ Bundles and Symplectic Cobordism_, Publ. RIMS, Kyoto Univ. 28 (1992), 39-55 ([[GorbunovRaySpinBundles.pdf:file]])
 
+Discussion of the [[cohomology]] of the [[classifying space]] $B Spin$ includes
+
+* E. Thomas, _On the cohomology groups of the classifying space for the stable spinor groups_, Bol. Soc. Mat. Mexicana (2) 7 (1962) 57-69.
 
 [[!redirects Spin group]]
 [[!redirects Spin]]
