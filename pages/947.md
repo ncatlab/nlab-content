@@ -15,7 +15,7 @@
 
 ## Idea
 
-The __complement__ of a [[subset]] $S$ of a set $X$ is the set
+The __complement__ $\tilde S$ of a [[subset]] $S$ of a [[set]] $X$ is the set of ell elements of $X$ not contained in $S$: 
 $$
 \tilde{S} = \{ a: X \;|\; a \notin S \}
 .$$
@@ -36,6 +36,7 @@ The complement of a [[truth value]] (seen as a subset of the [[point]]) is calle
 
 * [[orthocomplemented lattice]]
 
+* [[open subset]], [[closed subset]]
 
 [[!redirects complement]]
 [[!redirects complements]]
