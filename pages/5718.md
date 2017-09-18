@@ -226,6 +226,11 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 ## References
 
+Exposition of [[variational calculus]] in terms of jet bundles and [[Lepage forms]] and aimed at examples from [[physics]] is in
+
+* {#MusilovaHronek16} [[Jana Musilová]],  [[Stanislav Hronek]], _The calculus of variations on jet bundles as a universal approach for a variational formulation of fundamental physical theories_, Communications in Mathematics, Volume 24, Issue 2 (Dec 2016) ([doi.org/10.1515/cm-2016-0012]( https://doi.org/10.1515/cm-2016-0012))
+
+
 Textbook accounts and lecture notes include
 
 * {#Michor80} [[Peter Michor]], _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
