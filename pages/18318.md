@@ -1,1 +1,1 @@
-see [[left cancellative category]]
+&lt; [[all arrows monic]]
