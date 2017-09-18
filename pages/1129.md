@@ -300,14 +300,14 @@ The group of [[rational numbers]] $\mathbb{Q}$ is injective in [[Ab]], as is the
 
 ### In toposes 
 
-In any [[topos]], the [[subobject classifier]] $\Omega$ is an injective object, as is any power of $\Omega$ ([[Mac Lane-Moerdijk]], IV.10). 
+In any [[topos]], the [[subobject classifier]] $\Omega$ is an injective object, as is any [[powering|power]] of $\Omega$ ([[Mac Lane-Moerdijk]], IV.10). 
 
 Also one can define various notions of *internally* injective objects. These turn out to be equivalent:
 
 +-- {: .num_prop #EquivalenceOfInternalNotionsOfInjectivity}
 ###### Proposition
 
-In any elementary topos $\mathcal{E}$ with a natural numbers object, the following statements about an object $I \in \mathcal{E}$ are equivalent.
+In any [[elementary topos]] $\mathcal{E}$ with a [[natural numbers object]], the following statements about an object $I \in \mathcal{E}$ are equivalent.
 
 1. The functor $[-, I] : \mathcal{E}^op \to \mathcal{E}$ maps monomorphisms in $\mathcal{E}$ to epimorphisms.
 2. The functor $[-, I] : \mathcal{E}^op \to \mathcal{E}$ maps monomorphisms in $\mathcal{E}$ to morphisms for which any global element of the target locally (after [[change of base]] along an epimorphism) possesses a preimage.
