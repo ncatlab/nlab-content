@@ -1,4 +1,3 @@
 
-[[OctahedralProofFromPastingPushouts.jpg:file]]
 
-<img src="http://ncatlab.org/nlab/files/OctahedralProofFromPastingPushouts.jpg" width="400">
+$E {{\wedge} \atop \phantom{.}} X$
