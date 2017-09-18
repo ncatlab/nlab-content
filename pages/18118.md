@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Statement
 
@@ -35,7 +34,7 @@ $$
   \,.
 $$
 
-By the assumption that $Y$ is closed, the [[complement]] $X \backsalsh Y$ is an open subset of $X$, and therefore
+By the assumption that $Y$ is closed, the [[complement]] $X \backslash Y$ is an open subset of $X$, and therefore
 
 $$
   \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
@@ -58,6 +57,7 @@ $$
 is a cover of $Y$, and in indeed a finite subcover of the original one.
 
 =--
+
 
 ## Related entries
 
