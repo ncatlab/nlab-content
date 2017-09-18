@@ -22,7 +22,7 @@
 
 ## Idea
 
-_Bousfield localization of spectra_ refers generally to [[localization of an (∞,1)-category|localizations]] of the [[stable (∞,1)-category of spectra]] at the collection of [[morphisms]] which become [[equivalences]] under [[smash product]] with a given [[spectrum]] $E$. Since any such $E$ represents a [[generalized homology theory]], this may also be thought of  _$E$-[[homology localization]]_.
+_Bousfield localization of spectra_ refers generally to [[localization of an (∞,1)-category|localizations]] of the [[stable (∞,1)-category of spectra]] at the collection of [[morphisms]] which become [[equivalences]] under [[smash product of spectra|smash product]] with a given [[spectrum]] $E$. Since any such $E$ represents a [[generalized homology theory]], this may also be thought of  _$E$-[[homology localization]]_.
 
 More specifically, if the [[stable (∞,1)-category of spectra]] is [[presentable (infinity,1)-category|presented]] by a ([[stable model category|stable]]) [[model category]], then the [[localization of an (∞,1)-category|∞-categorical localization]] can be presented by the operation of  _[[Bousfield localization of model categories]]_. The original article ([Bousfield 79](#Bousfield79)) essentially considered localization at the level of [[homotopy categories]].
 
@@ -45,8 +45,7 @@ For $E = M \mathbb{Z}_p$ the [[Moore spectrum]] of the [[cyclic group]] $\mathbb
 Let $E \in Spec$ be a [[spectrum]]. 
 
 Say that another spectrum
-$X \in Spec$ is an **$E$-acyclic spectrum** if the [[smash product]]
-is [[zero object|zero]], $E \wedge X \simeq 0$.
+$X \in Spec$ is an **$E$-acyclic spectrum** if the [[smash product of spectra|smash product]] is [[zero object|zero]], $E \wedge X \simeq 0$.
 
 Say that $X$ is an **$E$-local spectrum** if every [[morphism]]
 $Y \longrightarrow X$ out of an $E$-acyclic spectrum $Y$ is homotopic to the [[zero morphism]]. 
@@ -99,7 +98,7 @@ in prop. \ref{LocalizationCofiber} exhibit the [[localization of an (infinity,1)
 
 ## Properties
 
-### At Moore spectra of abelian groups
+### Localization at Moore spectra of abelian groups
 
 A basic special case of $E$-localization of spectra is given for $E = S A$ the [[Moore spectrum]] of an [[abelian group]] $A$ ([Bousfield 79, section 2](#Bousfield79)). For $A = \mathbb{Z}_{(p)}$ this is [[p-localization]] and for $A = \mathbb{F}_p$ this is [[p-completion]], see examples \ref{pLocalization} and \ref{pCompletion} below for more.
 
@@ -146,10 +145,67 @@ This means that given an abelian group $A$ then
   where the [[direct sum]] is over all [[cyclic groups]] of order $q$, for $q$ a prime not invertible in $A$.
 
 
+### Relation to nilpotent completion
+
+Let $E$ be an [[E-∞ ring]] and let $X$ be any [[spectrum]]
+
++-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
+###### Remark
+
+There is a canonical map
+
+$$
+  L_E X \stackrel{}{\longrightarrow} \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+$$
+
+from the $E$-[[Bousfield localization of spectra]] of $X$ into the [[totalization]] of the canonical [[cosimplicial object|cosimplicial]] [[spectrum]] (see at _[[nilpotent completion]]_).
+
+
+=--
+
+We now consider conditions for this morphism to be an [[equivalence]].
+
++-- {: .num_defn #CoreOfARing}
+###### Definition
+
+For $R$ a [[ring]], its _core_ $c R$ is the [[equalizer]] in
+
+$$
+  c R 
+    \longrightarrow 
+  R 
+    \stackrel{\longrightarrow}{\longrightarrow}
+  R \otimes R
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
+###### Proposition
+
+Let $E$ be a [[connective spectrum|connective]] [[E-∞ ring]] such that the core of $\pi_0(E)$, def. \ref{CoreOfARing}, is either of
+
+* the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \mathbb{Z}[J^{-1}]$;
+
+* $\mathbb{Z}_n$ for $n \geq 2$.
+
+Then the map in remark \ref{CanonicalMapFromELocalizationToTotalization} is an equivalence
+
+$$
+  L_E X \stackrel{\simeq}{\longrightarrow} 
+  \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+  \,.
+$$
+
+=--
+
+([Bousfield 79](#Bousfield79)).
+
 
 ### Fracture theorem
 
-The [[fracture theorem]] says how Bousfield localization at [[coproduct]] of spectra is a [[homotopy pullback]] of Bousfield localization separately. See at _[[fracture theorem]]_ for more on this.
+The [[fracture theorem]] says how Bousfield localization at a [[coproduct]]/[[wedge sum]] of spectra is a [[homotopy pullback]] of Bousfield localization separately. See at _[[fracture theorem]]_ for more on this.
 
 
 ## Examples
