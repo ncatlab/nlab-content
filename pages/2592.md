@@ -66,7 +66,7 @@ In the unstable range for low $n$ they instead start out as follows
 | $SO(3)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{12}$ | $\mathbb{Z}_{2}$ | $\mathbb{Z}_{2}$ | $\mathbb{Z}_{3}$ | $\mathbb{Z}_{15}$|$\mathbb{Z}_{2}$ |$\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ |
 | $SO(4)$ | " | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{12} \oplus \mathbb{Z}_{12}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{3} \oplus \mathbb{Z}_{3}$ | $\mathbb{Z}_{15}\oplus \mathbb{Z}_{15}$|$\mathbb{Z}_{2}\oplus \mathbb{Z}_{2}$ |$\mathbb{Z}_{2}^{\oplus 4}$ |
 | $SO(5)$ | " | " | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 |$\mathbb{Z}_{120}$ | $\mathbb{Z}_{2}$ | $\mathbb{Z}_{2} \oplus \mathbb{Z}_{2}$|
-| $SO(6)$ | " | " | " | 0 | $\mathbb{Z}$ | 0 | $\mathbb{Z}$ | 0 | 0 | $\mathbb{Z}_{120}\oplus\mathbb{Z}_2$| $\mathbb{Z}_{4}$| $\mathbb{Z}_{60}$|
+| $SO(6)$ | " | " | " | 0 | $\mathbb{Z}$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{24}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{120}\oplus\mathbb{Z}_2$| $\mathbb{Z}_{4}$| $\mathbb{Z}_{60}$|
 | $SO(7)$ | " | " | " | " | 0 | 0 | $\mathbb{Z}$ | 0 | 0 | $\mathbb{Z}_{8}$| $\mathbb{Z}\oplus\mathbb{Z}_{12}$| 0|
 | $SO(8)$ | " | " | " | " | " | 0 | $\mathbb{Z} \oplus \mathbb{Z}$ | $\mathbb{Z}_{2}^{\oplus 3}$ | $\mathbb{Z}_{2}^{\oplus 3}$ | $\mathbb{Z}_{24} \oplus \mathbb{Z}_{8}$ | $\mathbb{Z} \oplus \mathbb{Z}_{2}$ | 0 |
 | $SO(9)$ | " | " | " | " | " | " | $\mathbb{Z}$ | $\mathbb{Z}_{2}\oplus \mathbb{Z}_{2}$ | $\mathbb{Z}_{2}\oplus \mathbb{Z}_{2}$ |$\mathbb{Z}_{8}$ | $\mathbb{Z}\oplus \mathbb{Z}_{2}$ | 0 |
