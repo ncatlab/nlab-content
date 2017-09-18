@@ -148,7 +148,8 @@ Now by definition of covering spaces, there exists an open neighbourhood $U_{p(e
 
 $$
   \array{
-    U_{p(e)} \times Disc(p^{-1}(p(e))) && \overset{\simeq}{\longrightarrow} & E\vert_{U_{p(e)}}
+    U_{p(e)} \times Disc(p^{-1}(p(e))) 
+      && \overset{\simeq}{\longrightarrow} && E\vert_{U_{p(e)}}
     \\
     & {}_{\mathllap{pr_1}}\searrow && \swarrow_{\mathrlap{p}}
     \\
