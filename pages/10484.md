@@ -18,6 +18,9 @@
 
 The analog of a [[Cartesian space]] in [[supergeometry]], a [[supermanifold]] with a single canonical [[coordinate chart]].
 
+For suitable even|odd dimension this is naturally equipped with the structure of a [[supergroup]] that makes it a [[super-translation group]]. For Minkowski signature this is [[super-Minkowski spacetime]].
+
+
 ## Definition
 
 
@@ -167,13 +170,12 @@ $$
 
 ## Related concepts
 
-* [[super-Euclidean space]], [[super Minkowski spacetime]]
 
 * [[supergeometry]]
 
 * [[smooth super infinity-groupoid]]
 
-* [[smooth formal super infinity-groupoid]]
+* [[super formal smooth infinity-groupoid]]
 
 * [[super-Cartan geometry]]
 
@@ -181,3 +183,11 @@ $$
 
 [[!redirects Cartesian superspace]]
 [[!redirects Cartesian superspaces]]
+
+[[!redirects super-Cartesian space]]
+
+[[!redirects super Euclidean space]]
+[[!redirects super Euclidean spaces]]
+[[!redirects super-Euclidean space]]
+[[!redirects super-Euclidean spaces]]
+
