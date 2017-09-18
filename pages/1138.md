@@ -94,7 +94,7 @@ $$
   \simeq
   Hom_{PSh(X)}(\hat {f^t} A, F)
 $$
-where $\hat f^t$ is the [[Yoneda extension]] of $Y \circ f^t : Y \to PSh(X)$ to a functor $\hat {f^t} : PSh(X) \to PSh(Y)$, because using the [[co-Yoneda lemma]] and the colim expression for the [[Yoneda extension]] we have
+where $\hat f^t$ is the [[Yoneda extension]] of $Y \circ f^t : Y \to PSh(X)$ to a functor $\hat {f^t} : PSh(Y) \to PSh(X)$, because using the [[co-Yoneda lemma]] and the colim expression for the [[Yoneda extension]] we have
 
 $$
  \begin{aligned}
