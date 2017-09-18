@@ -206,7 +206,7 @@ The related subject of positive energy representations for loop groups is repres
 
 * John Baez: _How to Learn Math and Physics_  ([here] (http://math.ucr.edu/home/baez/books.html))
 
-* [[Frédéric Paugam]], _[Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf)_ unfinished notes, 370 pp.
+* [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_,  Ergebnisse der Mathematik und ihrer Grenzgebiete, Volume 59, Springer (2014), (a draft formerly available [here](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf)).
 
 * [[books about string theory]]
 * various lectures notes in mathematical physics, Ulrich Theis' list at [Jena](http://www.personal.uni-jena.de/~p5thul2/notes/math.html)
