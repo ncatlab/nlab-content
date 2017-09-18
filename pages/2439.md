@@ -481,6 +481,7 @@ We now consider [[higher algebra]] in the [[(∞,1)-topos]] over [[super points]
 ### The topos
 
 +-- {: .num_defn}
+
 ###### Definition
 
 Write $SuperPoint$ for the [[site]] of [[superpoint]]s. Write 
@@ -645,6 +646,10 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 The concept of [[Grassmann algebra]] and the super-sign rule is due to
 
 * {#Grassmann1844} [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
+
+Review of basic superalgebra includes
+
+* [[Dennis Westra]], _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
 Discussion of superalgebra as algebra in certain [[symmetric monoidal category|symmetric monoidal]] [[tensor categories]] is in 
 
