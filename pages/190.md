@@ -51,7 +51,7 @@ We more often use **Cat** to stand for the [[strict 2-category]] with:
 * [[functor|functors]] as [[morphism|morphisms]].
 * [[natural transformation|natural transformations]] as [[2-morphism|2-morphisms]].
 
-Here the [[vertical composition]] of 2-morphisms is the evident composition of component maps of matural transformations, whereas the [[horizontal composition]] is given by their [[Godement product]].
+Here the [[vertical composition]] of 2-morphisms is the evident composition of component maps of natural transformations, whereas the [[horizontal composition]] is given by their [[Godement product]].
 
 
 Finally, we can use **Cat** for the [[bicategory]] with:
