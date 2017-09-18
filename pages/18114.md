@@ -7,27 +7,27 @@
 [[!include analysis - contents]]
 =--
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 For general [[topological spaces]] the condition of being [[compact topological space|compact]] neither implies nor is implied by being [[sequentially compact]]. However for [[metric spaces]] the two conditions happen to be equivalent
+
 
 ## Statement
 
 +-- {: .num_prop}
 ###### Proposition
 
-Using [[classical logic]], then:
+Using [[excluded middle]] and [[countable choice]], then:
 
 If $(X,d)$ is a [[metric space]], regarded as a [[topological space]] via its [[metric topology]], then the following are equivalent:
 
