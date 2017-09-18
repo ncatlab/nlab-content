@@ -18,11 +18,12 @@
 
 ## Idea
 
-A __commutative $k$-algebra__ (with $k$ a [[field]] or at least a [[commutative ring]]) is an [[associative unital algebra]] over $k$ with commutative multiplication. 
+A __commutative $k$-algebra__ (with $k$ a [[field]] or at least a [[commutative ring]]) is an [[associative unital algebra]] over $k$ such that the multiplicative operation is [[commutative]].
+Equivalently, it is a [[commutative ring]] $R$ equipped with a ring [[homomorphism]] $k \to R$.
 
 There is a generalization of commutativity when applied to [[finitary monads]] in $Set$, that is [[generalized rings]], as studied in [[Nikolai Durov|Durov's]] thesis.
 
-__Commutative algebra__ is the subject studying commutative algebras. It is closely related and it is the main algebraic foundation of [[algebraic geometry]]. Some of the well-known classical theorems of the commutative algebra are the [[Hilbert basis theorem]] and [[Nullstellensatz]] and [[Krull's theorem]], as well as many results pertaining to [[syzygy|syzygies]], [[resultant]]s and [[discriminant]]s.  
+__Commutative algebra__ is the subject studying commutative algebras. It is closely related and it is the main algebraic foundation of [[algebraic geometry]]. Some of the well-known classical theorems of commutative algebra are the [[Hilbert basis theorem]] and [[Nullstellensatz]] and [[Krull's theorem]], as well as many results pertaining to [[syzygy|syzygies]], [[resultant]]s and [[discriminant]]s.  
 
 ## Related entries
 
@@ -31,6 +32,8 @@ __Commutative algebra__ is the subject studying commutative algebras. It is clos
 * [[abelian group]]
 
 * [[commutative ring]]
+
+* [[commutative monoid]]
 
 * [[commutative C-star-algebra]]
 
