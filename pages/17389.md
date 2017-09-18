@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -102,9 +103,9 @@ $$
   \array{
      S^{n-1} &\overset{f}{\longrightarrow}& X
      \\
-     \downarrow &(po)& \downarrow
+     \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
      \\
-     D^n &\longrightarrow& X \cup_f D^n
+     D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
   }
 $$
 
@@ -115,13 +116,18 @@ be a [[cell attachment]]. Then also $X \cup_f D^n$ is paracompact Hausdorff.
 +-- {: .proof}
 ###### Proof
 
-Hausdorffness is the statement of lemma \ref{CellAttachmentToHausdorffSpaceIsHausdorff}. We need to discuss paracompactness.
+Hausdorffness is the statement of lemma \ref{CellAttachmentToHausdorffSpaceIsHausdorff}.  We need to discuss paracompactness.
 
 First we claim that both inclusion maps $D^n \to X \cup_f D^n$ and $X \to X \cup_f D^n$ are [[closed maps]]. To see this, we use that a subset of $X \cup_f D^n$ is closed precisely if its pre-images under both $i_X$ and $i_{D^n}$ are closed.
 
 1. For $i_{D^n}$ it is sufficient to test on a base of closed subsets given by intersections of $D^n$ with other closed balls inside an ambient Euclidean space $\mathbb{R}^n$. If these intersections fall into the interior of the given $D^n$ then it is clear that their image is also closed. If instead they intersec the boundary $S^{n-1}$ then they do so in a closed point or a closed interval, in any case a compact subspace. We need to see that the image of that in $X$ is also closed in $X$. But this follows since [[continuous images of compact spaces are compact]] and since [[compact subspaces of Hausdorff spaces are closed]].
 
-1. For  $i_X$ consider a closed subset in $X$. Its image in $X \cup_f D^n$ has closed pre-image under $f$ in $S^{n-1}$ since $f$ is continuous. Now since $S^{n-1} \subset D^n$ is a closed subspace and since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] if follows that this pre-image is also closed in $D^n$, hence it is closed in $X \cup_f D^n$. 
+1. That $i_X$ is closed follows on abstract grounds, since by construction it is the [[pushout]] of the closed map $S^{n-1} \to D^n$ and pushout preserves closed subspace inclusions by [this lemma](subspace+topology#pushout). (To see that $S^{n-1} \to D^n$ is a closed map observe that $S^{n-1} \subset D^n$ is a closed subspace and that [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]).
+
+
+   For the record, here is also an easy explict argument that $i_X$ is closed:
+
+   Consider a closed subset in $X$. Its image in $X \cup_f D^n$ has closed pre-image under $f$ in $S^{n-1}$ since $f$ is continuous. Now since $S^{n-1} \subset D^n$ is a closed subspace and since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] if follows that this pre-image is also closed in $D^n$, hence it is closed in $X \cup_f D^n$. 
 
 Now let $\{ U_i \subset X \cup_f D^n \}_{i \in I}$ be any open cover of the attachment space. We need to produce a locally finite refinement.
 
