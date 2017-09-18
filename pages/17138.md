@@ -184,7 +184,7 @@ We are interested in the [[stable homotopy category]] of [[spectra]], to which w
 ### Simplicial sets
  {#SimplicialSets}
 
-While historically the field of [[algebraic topology]] originated in [[topology]], it not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]] ([[homeomorphism]]), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- in their "[[homotopy types]]". This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are invariants of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class. The [[category]] of topological spaces obtained by regarding [[weak homotopy equivalences]] as [[isomorphisms]] is the "classical [[homotopy category]]" [[Ho(Top)]], which we discuss [below](#TheClassicalHomotopyCategory).
+While historically the field of [[algebraic topology]] originated in [[topology]], it not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]] ([[homeomorphism]]), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "[[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are invariants of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class. The [[category]] of topological spaces obtained by regarding [[weak homotopy equivalences]] as [[isomorphisms]] is the "classical [[homotopy category]]" [[Ho(Top)]], which we discuss [below](#TheClassicalHomotopyCategory).
 
 But the nature of [[objects]] in any [[category]] is not determined by how we present these objects, but by what the [[morphisms]] between them are. In this respect, the objects of [[Ho(Top)]] turn out to have lost the geometric nature of topology to retain only a more set-theoretic combinatorial nature. This is more explicitly captured by the concept of _[[simplicial sets]]_.
 
@@ -207,7 +207,7 @@ $$
   \subset \mathbb{R}^{n+1}
 $$
 
-of the [[nLab:Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[nLab:subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
+of the [[Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[nLab:subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
 
 =--
 
@@ -620,14 +620,100 @@ $[\Delta^n, \Pi(X)] \to [\Lambda^n_k,\Pi(X)]$ is an epimorphism, since it is equ
 
 =--
 
+More generally: 
+
++-- {: .num_defn #KanFibration}
+###### Definition
+
+A morphism $\phi \colon S \longrightarrow T$ in [[sSet]] is called a _[[Kan fibration]]_ if it has the [[right lifting property]] again all [[horn]] inclusions, def. \ref{Horn}, hence if for every [[commuting diagram]] of the form
+
+$$
+  \array{
+    \Lambda^i[n] &\longrightarrow& S
+    \\
+    \downarrow && \downarrow^{\mathrlap{\phi}}
+    \\
+    \Delta[n] &\longrightarrow& T
+  }
+$$
+
+there exists a lift
+
+$$
+  \array{
+    \Lambda^i[n] &\longrightarrow& S 
+    \\
+    \downarrow &\nearrow& \downarrow^{\mathrlap{\phi}}
+    \\
+    \Delta[n] &\longrightarrow& T
+  }
+  \,.
+$$
+
+=--
+
+This is the simplicial incarnation of the concept of [[Serre fibrations]] of topological spaces:
+
++-- {: .num_defn #SerreFibration}
+###### Definition
+
+A [[continuous function]] $f \colon X \longrightarrow Y$ between [[topological spaces]] is a [[Serre fibration]] if for all [[CW-complexes]] $C$ and for every [[commuting diagram]] in [[Top]] of the form
+
+$$
+  \array{
+    C &\longrightarrow& X 
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    C \times I &\longrightarrow& Y
+  }
+$$
+
+there exists a lift
+
+$$
+  \array{
+    C &\longrightarrow& X 
+    \\
+    \downarrow &\nearrow& \downarrow^{\mathrlap{f}}
+    \\
+    C \times I &\longrightarrow& Y
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SingDetextsAndReflectsFibrations}
+###### Proposition
+
+A [[continuous function]] $f \colon X \longrightarrow Y$ is a [[Serre fibration]], def. \ref{SerreFibration}, precisely if $Sing(f) \colon Sing(X) \longrightarrow Sing(Y)$ (def. \ref{SingularSimplicialComplex}) is a [[Kan fibration]], def. \ref{KanFibration}.
+
+=--
+
+The proof uses the basic tool of [[nerve and realization]]-[[adjunction]] to which we get to [below](#GeometricRealization)
+
++-- {: .proof}
+###### Proof
+
+First observe that the left [[lifting property]] against all $C \hookrightarrow C \times I$ for $C$ a [[CW-complex]] is equivalent to left lifting against [[geometric realization]] ${\vert \Lambda^i[n]\vert} \hookrightarrow {\vert \Delta[n]\vert}$ of [[horn]] inclusions.
+Then apply the [[natural isomorphism]] $Top({\vert-\vert},-) \simeq sSet(-,Sing(-))$,  given by the [[adjunction]] of prop. \ref{NerveAndRealizationAdjunction} and example \ref{TopologicalRealizationOfSimplicialSets}, to the lifting diagrams.
+
+=--
+
+
+
+
+
 ### Geometric realization
+ {#GeometricRealization}
 
 Above we considered passing from [[topological spaces]] to [[simplicial sets]] by applying the [[singular simplicial complex]] functor of def. \ref{SingularSimplicialComplex}.
 Here we discuss a [[left adjoint]] of this functor, called [[geometric realization]], which turns a simplicial set into a topological space by identifying each of its abstract [[n-simplices]] with the standard topological $n$-simplex. 
 
 This is an example of a general abstract phenomenon:
 
-+-- {: .num_prop}
++-- {: .num_prop #NerveAndRealizationAdjunction}
 ###### Proposition
 
 Let 
@@ -718,7 +804,7 @@ $$
 
 =--
 
-This topological geometric realization takes values in particularly nice topological spaces.
+Topological geometric realization takes values in particularly nice topological spaces.
 
 +-- {: .num_defn #TopologicalRealizationOfsSetLandsInCWComplexes}
 ###### Proposition
@@ -730,26 +816,33 @@ in example \ref{TopologicalRealizationOfSimplicialSets} takes values in [[CW-com
 
 (e.g. [Goerss-Jardine 96, chapter I, prop. 2.3](#GoerssJardine96))
 
-Thus for a topological space $X$ the [[unit of an adjunction|adjunction unit]] $X \longrightarrow {\vert Sing X\vert}$ is a candidate for a good replacement of $X$ by a CW-complex. This turns out to work well away from topological spaces with certain pathologies. We now discuss the nice subcategory of compactly generated topological spaces.
+Thus for a topological space $X$ the [[unit of an adjunction|adjunction unit]] $\eta_X \colon X \longrightarrow {\vert Sing X\vert}$ of the [[nerve and realization]]-adjunction is a candidate for a replacement of $X$ by a CW-complex. For this $\eta_X$ should be at least a [[weak homotopy equivalence]], i.e. induce [[isomorphisms]] on all [[homotopy groups]]. Since homotopy groups are built from maps into $X$ out of [[compact topological spaces]] it is plausible that this works if the topology of $X$ is entirely detected by maps out of compact topological spaces into $X$. Topological spaces with this property are called [[compactly generated topological spaces|compactly generated]].
 
+We take _[[compact topological space]]_ to imply _[[Hausdorff topological space]]_.
 
 +-- {: .num_defn #kTop}
 ###### Definition
 
+A [[subspace]] $U \subset X$ of a [[topological space]] $X$ is called **compactly open** or **compactly closed**, respectively, if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space]] the [[preimage]] $f^{-1}(U) \subset K$ is open or closed, respectively.
+
+A topological space $X$ is a **[[compactly generated topological space]]** if each of its compactly closed subspaces is already closed.
+
 Write
 
 $$
-  k Top \hookrightarrow Top
+  Top_{cg} \hookrightarrow Top
 $$
 
-for the [[full subcategory]] of [[compactly generated topological spaces]].
+for the [[full subcategory]] of [[Top]] on the compactly generated topological spaces.
 
 =--
+
+Often the condition is added that a compactly closed topological space be also a [[]]
 
 +-- {: .num_example #ExamplesOfCompactlyGeneratedTopologiclSpaces}
 ###### Example
 
-Examples of [[compactly generated topological spaces]] include
+Examples of [[compactly generated topological spaces]], def. \ref{kTop}, include
 
 * every [[compact space]];
 
@@ -764,7 +857,6 @@ Examples of [[compactly generated topological spaces]] include
 =--
 
 
-
 +-- {: .num_cor #TopologicalRealizationOfSSetLandsInkTop}
 ###### Corollary
 
@@ -775,7 +867,7 @@ $$
   {\vert - \vert}
   \;\colon\;
   sSet
-  \longrightarrow k Top
+  \longrightarrow Top_{cg}
 $$
 
 =--
@@ -790,47 +882,46 @@ By example \ref{ExamplesOfCompactlyGeneratedTopologiclSpaces} and prop. \ref{Top
 +-- {: .num_prop #kTopIsCoreflectiveInTop}
 ###### Proposition
 
-Compactly generated topological spaces constitute a [[coreflective subcategory]]
+The [[subcategory]] $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} has the following properties
 
-$$
-  k Top \stackrel{\hookrightarrow}{\underset{k}{\longleftarrow}} Top
-  \,.
-$$
+1. It is a [[coreflective subcategory]]
 
-=--
+   $$
+     k Top \stackrel{\hookrightarrow}{\underset{k}{\longleftarrow}} Top
+     \,.
+   $$
 
+   The coreflection $k(X)$ of a topological space is given by adding to the open subsets of $X$ all compactly open subsets, def. \ref{kTop}.
 
-+-- {: .num_defn #Timesk}
-###### Definition
+1. It has all small [[limits]] and [[colimits]].
 
-For $X,Y \in k Top$, write 
+   The colimits are computed in $Top$, the limits are the image under $k$ of the limits as computed in $Top$.
 
-$$
-  X \times_k Y \coloneqq k(X \times Y)
-$$
+1. It is a [[cartesian closed category]]. 
 
-for the completion of the [[cartesian product]] of $X$ and $Y$ as topological spaces to a compactly generated topological space via the reflector of prop. \ref{kTopIsReflectiveInTop}.
+   The [[cartesian product]] in $Top_{cg}$ is the image under $k$ of the Cartesian product formed in $Top$.
 
 =--
 
-+-- {: .num_prop #kTopIsCartesianClosed}
+This is due to ([Steenrod 67](compactly+generated+topological+space#Steenrod67)), expanded on in ([Lewis 78, appendix A](compactly+generated+topological+space#Lewis78)). One says that prop. \ref{kTopIsCoreflectiveInTop} with example \ref{ExamplesOfCompactlyGeneratedTopologiclSpaces} makes $Top_{cg}$ a "[[convenient category of topological spaces]]".
+
+
++-- {: .num_prop #Timesk}
 ###### Proposition
 
-$(kTop, \times_k)$ (def. \ref{kTop}, def. \ref{Timesk}) is a [[cartesian closed category]].
-
-=--
-
-+-- {: .num_defn #Timesk}
-###### Definition
-
-Regarded via corollary \ref{TopologicalRealizationOfSSetLandsInkTop} as a functor ${\vert - \vert} \colon sSet \to k Top$, [[geometric realization]] 
+Regarded via corollary \ref{TopologicalRealizationOfSSetLandsInkTop} as a functor ${\vert - \vert} \colon sSet \to Top_{cg}$, [[geometric realization]] 
 preserves [[finite limits]].
 
 =--
 
 See at _[Geometric realization is left exact](geometric+realization#GeometricRealizationIsLeftExact)_.
 
-(...)
++-- {: .proof}
+###### Proof idea
+
+The key step in the proof is to use the [[cartesian closed category|cartesian closure]] of $Top_{cg}$ (prop. \ref{kTopIsCoreflectiveInTop}). This gives that the Cartesian product is a [[left adjoint]] and hence preserves colimits in each variable, so that the [[coend]] in the definition of the geometric realization may be taken out of Cartesian products. 
+
+=--
 
 
 
@@ -4556,7 +4647,7 @@ For **Prelude) Classical homotopy theory** see chapter I of
 
 supplemented by
 
-* {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
+* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
 
 Also ([Aguilar-Gitler-Prieto 02, chapters 1-6](#AguilarGitlerPrieto02)) below. 
 
