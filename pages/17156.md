@@ -1,0 +1,35 @@
+
+# Alternating functions
+* table of contents
+{: toc}
+
+Let $X$ be a [[set]], and let $(Y,0)$ be a [[pointed set]] (so $Y$ is a set and $0$ is one of its elements).  Let $n$ be a [[natural number]] (or indeed any [[cardinal number]]).  Recall that a [[multifunction]] of [[arity]] $n$ to $Y$ from $X$ is the same thing as a [[function]] to $Y$ from the $n$-fold [[cartesian power]] $X^n$.
+
+An __alternating multifunction__ (or simply _alternating function_) of arity $n$ from $X$ to $(Y,0)$ is a multifunction of arity $n$ from $X$ to $Y$ such that, whenever two of the function\'s arguments are equal, the value of the function is $0$.  In arity $0$ or $1$, every multifunction is trivially alternating; in arity $2$, we can write this as the [[equational law]] $f(a,a) = 0$; in arity $3$, we have the equational laws $f(a,a,b) = 0$, $f(a,b,a) = 0$, and $f(a,b,b) = 0$; etc.
+
+If $X$ and $Y$ are [[modules]] over a [[base rig]] in which $2$ is cancellable (or indeed if multiplication by $2$ is cancellable in $Y$), and taking $0 \in Y$ to be the usual [[zero]] element of a module, then an alternating [[multilinear function]] is the same thing as an [[antisymmetric function|antisymmetric]] multilinear function.  Even if $2$ is not cancellable, any alternating multilinear function is antisymmetric, but not the reverse.  (In the case where $Y$ is the base rig, we speak of an _alternating form_.)
+
+Note that the [[alternating groups]] are really about antisymmetric functions rather than alternating functions as such.  (Whereas a [[symmetric function]] is preserved by the application of any element of the [[symmetric group]], an antisymmetric function is preserved by and only by the elements of the alternating group.)  Nevertheless, this precise distinction between 'alternating' and 'antisymmetric' is well established in the theory of vector spaces over a field of [[characteristic]] $2$ (in which multiplication by $2$ is as uncancellable as possible).
+
+In [[constructive mathematics]], if $X$ and $Y$ are equipped with [[inequality|inequalities]], then a multifunction $f$ is __strongly alternating__ if, whenever the value of $f$ is inequal to $0$ in $Y$, then any two arguments (with distinct indices) are inequal in $X$.  (In arity $2$, for example, if $f(a,b) \ne 0$, then $a \ne b$.)  If the inequalities are [[tight relation|tight]] (so that their [[negations]] are [[equality]] in $X$), then every strongly alternating function is alternating, but the reverse requires [[excluded middle]] in general.
+
+
+[[!redirects alternating multifunction]]
+[[!redirects alternating multifunctions]]
+[[!redirects alternating multimap]]
+[[!redirects alternating multimaps]]
+
+[[!redirects alternating function]]
+[[!redirects alternating functions]]
+[[!redirects alternating map]]
+[[!redirects alternating maps]]
+
+
+[[!redirects alternating multilinear function]]
+[[!redirects alternating multilinear functions]]
+[[!redirects alternating multilinear map]]
+[[!redirects alternating multilinear maps]]
+
+
+[[!redirects alternating form]]
+[[!redirects alternating forms]]
