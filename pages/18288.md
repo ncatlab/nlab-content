@@ -1,0 +1,26 @@
+
+
+## Definition
+
+
+A [[topological space]] is called _fully normal_ if every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a [[refinement]] by an open cover $\{V_j \subset X\}_{j \in J}$ such that every _star_ in the latter cover is contained in a patch of the former.
+
+Here for $x \in X$ a point, then the _star_ of $x$ is the [[union]] of the patches that contain $x$:
+
+$$
+  star(x,\mathcal{V})
+  \;\coloneqq\;
+  \left\{
+     V_j \in \mathcal{V} \;\vert\; x \in V_J 
+  \right\}
+$$
+
+## Properties
+
+* [[fully normal spaces are equivalently paracompact]]
+
+[[!redirects fully normal topological spaces]]
+
+[[!redirects fully normal space]]
+[[!redirects fully normal spaces]]
+
