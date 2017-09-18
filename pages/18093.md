@@ -35,12 +35,15 @@ Given that the scaling and separation axioms hold, the following conditions are 
 
 +-- {: .proof}
 ###### Proof 
-Condition 1. implies condition 2. easily: if $u$ and $v$ are in the unit ball and $0 \leq t \leq 1$, we have 
+We just prove conditions 1. and 3. are equivalent, as that's all we need later. 
+Condition 1. implies condition 3. easily: if $\|u\| = 1 = \|v\|$ and $0 \leq t \leq 1$, we have 
+
 $$\array{
 {\|t u + (1-t)v\|} & \leq & {\|t u\|} + {\|(1-t)v\|} \\
  & = & t {\|u\|} + (1-t) {\|v\|} \\
- & \leq & t + (1-t) = 1.}$$ 
-Now 2. implies 3. trivially, so it remains to prove that 3. implies 1.  Suppose ${\|v\|}, {\|v'\|} \in (0, \infty)$. Let $u = \frac{v}{{\|v\|}}$ and $u' = \frac{v'}{{\|v'\|}}$ be the associated unit vectors. 
+ & = & t + (1-t) = 1.}$$ 
+
+Now we prove that 3. implies 1.  Suppose ${\|v\|}, {\|v'\|} \in (0, \infty)$. Let $u = \frac{v}{{\|v\|}}$ and $u' = \frac{v'}{{\|v'\|}}$ be the associated unit vectors. 
 Then 
 $$\array{
 \frac{v + v'}{{\|v\|}+{\|v'\|}} & = & (\frac{{\|v\|}}{{\|v\|}+{\|v'\|}})\frac{v}{{\|v\|}} + (\frac{{\|v'\|}}{{\|v\|}+{\|v'\|}})\frac{v'}{{\|v'\|}} \\
@@ -52,20 +55,11 @@ $$\frac{{\|v + v'\|}}{{\|v\|} + {\|v'\|}} \leq 1,$$
 which is the triangle inequality. 
 =-- 
 
-Consider now $L^p$ with its $p$-norm ${\|f\|} = {|f|_p}$.  By Lemma \ref{conditions}, this inequality is equivalent to 
+Consider now $L^p$ with its $p$-norm ${\|f\|} = {|f|_p}$.  By Lemma \ref{conditions}, the Minkowski inequality is equivalent to 
 
 * **Condition 4:** If ${|u|_{p}^{p}} = 1$ and ${|v|_{p}^{p}} = 1$, then ${|t u + (1-t)v|_{p}^{p}} \leq 1$ whenever $0 \leq t \leq 1$. 
 
 This allows us to remove the cumbersome exponent $1/p$ in the definition of the $p$-norm. 
-
-The next two lemmas may be proven by elementary calculus; we omit the proofs. (But you can also see the [full details](http://ncatlab.org/toddtrimble/published/p-norms).) 
-
-+-- {: .num_lemma #2deriv}
-###### Lemma
-Let $\alpha, \beta$ be two complex numbers, and define 
-$$\gamma(t) = {|\alpha + \beta t|^p}$$ 
-for _real_ $t$. Then $\gamma''(t)$ is nonnegative. 
-=-- 
 
 +-- {: .num_lemma #convex}
 ###### Lemma
@@ -74,10 +68,15 @@ $${|t x + (1-t)y|^p} \leq t{|x|^p} + (1-t){|y|^p}$$
 for all $t \in [0, 1]$. 
 =-- 
 
++-- {: .proof} 
+###### Proof 
+The function $x \mapsto |x|$ is convex, and for $1 \lt p$ the function $t \mapsto t^p$ for $t \geq 0$ is monotone increasing and convex, by the first and second derivative tests. It follows easily that the composite of these two functions is convex. 
+=-- 
+
 +-- {: .proof}
 ###### Proof of Minkowski's inequality   
-Let $u$ and $v$ be unit vectors in $L^p$. By condition 4, it suffices to show that ${|t u + (1-t)v|_p} \leq 1$ for all $t \in [0, 1]$. But 
-$$\int_\Omega {|t u + (1-t)v|^p} \,d\mu \leq \int_\Omega t{|u|}^p + (1-t){|v|}^p \,d\mu$$ 
+Let $u$ and $v$ be unit vectors in $L^p$. By condition 4, it suffices to show that ${|t u + (1-t)v|_p^p} \leq 1$ for all $t \in [0, 1]$. But 
+$$\int_X {|t u + (1-t)v|^p} \,d\mu \leq \int_X t{|u|}^p + (1-t){|v|}^p \,d\mu$$ 
 by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done. 
 =-- 
 
