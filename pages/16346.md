@@ -31,7 +31,7 @@ While the general abstract [[theory]] of super-Cartan geometry proceeds in direc
 
 1. The [[super Euclidean spaces]] and [[super-Minkowski spacetimes]], have, as [[super-translation groups]], [[non-abelian group|non-abelian]] [[supergroup]] structure, which is reflected in the fact that the [[left-invariant 1-forms]] ([[super differential forms]]) on these spaces are _not_ closed. This means that they carry natural intrinsic [[torsion of a G-structure]]. Due to this fact the super-Cartan geometry involved in [[supergravity]] is richer than its bosonic counterpart in a way that goes beyond the addition of "superpartners". For more on this see also at _[[torsion constraints of supergravity]]_.
 
-1. In particular [[super-Minkowski spacetimes]] carry non-trivial exceptional [[super Lie algebra]] [[Lie algebra cohomology|cocycles]]. Their globalization as [[definite forms]] is hence [[analogy|analogy]] to what is known in the bosonic case for instance for [[G2-structure]]. These globalizations play a key role in the discussion of [[super p-brane]] [[sigma-models]] on curved [[supergravity]] backgrounds. Moreover, these cocycles classify [[super L-infinity algebra]] [[L-infinity algebra cohomology|extensions]] of [[super Minkowski spacetime]] known as [[extended super Minkowski spacetimes]]. This is the origin of much of [[higher Cartan geometry]] within super-Cartan geometry.
+1. In particular [[super-Minkowski spacetimes]] carry non-trivial exceptional [[super Lie algebra]] [[Lie algebra cohomology|cocycles]]. Their globalization as [[definite forms]] is hence [[analogy|analogous]] to what is known in the bosonic case for instance for [[G2-structure]]. These globalizations play a key role in the discussion of [[super p-brane]] [[sigma-models]] on curved [[supergravity]] backgrounds. Moreover, these cocycles classify [[super L-infinity algebra]] [[L-infinity algebra cohomology|extensions]] of [[super Minkowski spacetime]] known as [[extended super Minkowski spacetimes]]. This is the origin of much of [[higher Cartan geometry]] within super-Cartan geometry.
 
 
 ## Survey of (non-)existing literature
@@ -55,7 +55,7 @@ This provides ample example and application of super-Cartan geometry for the cas
 
 ### The solid topos
 
-It is traditional to introduce the concept of [[supermanifolds]] in the form of [[locally ringed topological spaces]]. There is however a more direct and possibly more illumimnating way following instead the spirit of the discussion at _[[geometry of physics -- smooth sets]]_. 
+It is traditional to introduce the concept of [[supermanifolds]] in the form of [[locally ringed topological spaces]]. There is however a more direct and possibly more illuminating way following instead the spirit of the discussion at _[[geometry of physics -- smooth sets]]_. 
 
 #### Coordinate systems: super-Cartesian spaces
  {#CoordinareSystemsSuperCartesianSpaces}
@@ -83,7 +83,7 @@ We may think of this as the category of abstract [[coordinate systems]] on which
 We say a _[[smooth set]]_ or _smooth 0-type_ is a [[sheaf]] on $CartSp$, write
 
 $$
- Smooth0Tpye \coloneqq Sh(CartSp) 
+ Smooth0Type \coloneqq Sh(CartSp) 
 $$
 
 for the [[sheaf topos]] of all these.
@@ -180,7 +180,7 @@ In other words, for two [[Cartesian spaces]] $X,Y$ there is a [[natural bijectio
 
 See at _[[embedding of smooth manifolds into formal duals of R-algebras]]_ for more on this.
 
-It is an observation from [[experiment]], oiginating in the [[Stern-Gerlach experiment]], that spaces of [[physical fields]] for [[physical theories]] that contain [[fermions]] behave as if they have [[algebras of functions]] which are not quite [[commutative algebras]], but where the functions depending on the [[fermions]] ony commute with each other up to picking up a minus sign. 
+It is an observation from [[experiment]], originating in the [[Stern-Gerlach experiment]], that spaces of [[physical fields]] for [[physical theories]] that contain [[fermions]] behave as if they have [[algebras of functions]] which are not quite [[commutative algebras]], but where the functions depending on the [[fermions]] ony commute with each other up to picking up a minus sign. 
 
 +-- {: .num_defn}
 ###### Definition
@@ -188,7 +188,7 @@ It is an observation from [[experiment]], oiginating in the [[Stern-Gerlach expe
 A _[[super-commutative superalgebra]]_ (or just _[[commutative superalgebra]]_ for short)  is a $\mathbb{Z}/2\mathbb{Z}$-[[graded algebra|graded]] [[associative algebra]] $A = A_{even} \oplus A_{odd}$ such that for $a,b$ any two elements in homogeneous degree $deg(a), deg(b)\in \mathbb{Z}/2\mathbb{Z}$, then their product is related by
 
 $$
-  a \cdot b = (-1)^{deg(a) dag(b)} b \cdot a
+  a \cdot b = (-1)^{deg(a) deg(b)} b \cdot a
   \,.
 $$
 
