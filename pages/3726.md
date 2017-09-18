@@ -171,8 +171,9 @@ Therefore in such a context we have the following "clock" of notions of [[trunca
 
 
 ### In $Top$
+ {#InTop}
 
-In the the [[(∞,1)-category]] [[Top]] we have that an object is $n$-connected precisely if it is an [[n-connected topological space]]:
+In the the [[(∞,1)-category]] $L_{whe}$[[Top]] we have that an object is $n$-connected precisely if it is an [[n-connected topological space]]:
 
 * a $(-1)$-connected object is an [[inhabited set|inhabited space]].
 
@@ -181,6 +182,8 @@ In the the [[(∞,1)-category]] [[Top]] we have that an object is $n$-connected 
 * a $1$-connected object is a [[simply connected space]].
 
 * a $\infty$-connected object is a [[contractible space]].
+
+More generally, a continuous function represents an $n$-connected morphism in $L_{whe} Top$ precisely if it is an [[n-connected continuous function]] ("[[n-equivalence]]").
 
 ### In $Grpd$
  {#ExamplesInGrpd}
