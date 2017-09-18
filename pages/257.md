@@ -76,7 +76,7 @@ Often, the fibrant and cofibrant objects are the ones one is "really" interested
 
 Quillen's original definition required only [[finite limits]] and [[finite colimits]], which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.
 
-Some authors, notably [[Mark Hovey]], require that the factorizations given by (ii) are actually _functorial_. In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
+Some authors, notably [[Mark Hovey]], require that the factorizations given by (ii) are actually _[[functorial factorization systems]]_. In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
 
 ### Enhancements of the axioms
 
@@ -113,7 +113,7 @@ There is also a slight variant of the full notion of model category by Thomason 
 
 As a consequence of the definition, the classes $Cof, Fib$, and $W$ are all closed under [[retracts]] in the [[arrow category]] $Arr C$ and under composition and contain the [[isomorphisms]] of $C$. 
 
-This is least obvious in the case of $W$. In the presence of functorial factorizations, it is easy to show that closure under retracts follows from axioms (i) and (ii); with a bit of cleverness, this can also be done without functoriality.
+This is least obvious in the case of $W$. In the presence of [[functorial factorizations]], it is easy to show that closure under retracts follows from axioms (i) and (ii); with a bit of cleverness, this can also be done without functoriality.
 
 ### Redundancy in the defining factorization systems
  {#RedundancyInTheAxioms}
@@ -142,7 +142,7 @@ This statement appears for instance as ([Joyal, prop. E.1.10](#Joyal))
 
 Let $\mathcal{E}$ with $C,F,W \subset Mor(\mathcal{E})$ be a model category.
 
-By the above remark it is sufficient to show that the cofibrations and the fibrant objects determine the class of weak equivalences. Moreover, these are already determined by the weak equivalences between cofibrant objects, because for $u : A \to B$ any morphism, functorial cofibrant replacement $\emptyset \hookrightarrow \hat A \stackrel{\simeq}{\to} A$ and $\emptyset \hookrightarrow \hat B \stackrel{\simeq}{\to} B$ with 2-out-of-3 implies that $u$ is a weak equivalence precisely if $\hat u : \hat A \to \hat B $ is.
+By the above remark it is sufficient to show that the cofibrations and the fibrant objects determine the class of weak equivalences. Moreover, these are already determined by the weak equivalences between cofibrant objects, because for $u : A \to B$ any morphism, [[functorial factorization|functorial]] cofibrant replacement $\emptyset \hookrightarrow \hat A \stackrel{\simeq}{\to} A$ and $\emptyset \hookrightarrow \hat B \stackrel{\simeq}{\to} B$ with 2-out-of-3 implies that $u$ is a weak equivalence precisely if $\hat u : \hat A \to \hat B $ is.
 
 By the nature of the [[homotopy category]] $Ho$ of $\mathcal{E}$ and by the [[Yoneda lemma]], a morphism $\hat u : \hat A \to \hat B$ between cofibrant objects is a weak equivalence precisely if for every fibrant object $X$ the map
 
