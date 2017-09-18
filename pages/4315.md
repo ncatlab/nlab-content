@@ -432,7 +432,7 @@ Thus we arrive at an equivalent, however more basic definition of Lie groupoid b
 Given Lie groupoids $G:=G_1\Rightarrow G_0$ and $H:=H_1\Rightarrow H_0$, a $G$-$H$-**bibundle** is a principal $H$-bundle $E \xrightarrow{\pi_G} G_0$ over $G_0$ with anchor $E\xrightarrow{\pi_H} H_0$ together with a left $G$-action (see [here](http://ncatlab.org/nlab/show/groupoid+principal+bundle#lie_groupoid_principal_bundles) ) with anchor $\pi_G$, such that the two actions commute. If the $G$-action also gives arise to a principal bundle over $H_0$, then $E$ induces a [[Morita equivalence]] between $G$ and $H$ and it is sometimes called a **Morita bibundle** in this case.
 =--
 
-+-- {: .num_defn }
++-- {: .num_example }
 ###### Example
 
 Given a manifold $M$, and two open covers $\{U_i\}$ and $\{V_\alpha\}$, we may form two Cech groupoids (see [here](http://ncatlab.org/nlab/show/Lie+groupoid#examples_for_lie_groupoids) ) $\sqcup U_{ij} \Rightarrow \sqcup U_i$ and $\sqcup V_{\alpha \beta} \Rightarrow \sqcup V_\alpha$. Then $\sqcup_{i, \alpha} U_i \times_{M} V_\alpha 
@@ -450,6 +450,8 @@ Given a bibundle functor $E: G\to H$ and a bibundle functor $F: H\to K$ between 
 
 Thus bibundle functors compose to a bibundle functor, and Morita bibundles compose to a Morita bibundle.
 
+
+Then we see that  there is a $(2,1)$-category with objects Lie groupoids, 1-morphisms bibundle functors, and 2-morphisms isomorphisms of bibundles. It is $(2,1)$-category because 2-morphisms are obviously invertible. This $(2,1)$-category is equivalent to the one obtained by generalised morphism or by anafunctors. 
 
 
 
