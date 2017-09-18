@@ -53,8 +53,6 @@ Moreover, for $n = 2$ and with $\mathbb{R}^2 \simeq_{\mathbb{R}} \mathbb{C}$ reg
 
 ## Definition
 
-
-
 Consider a (unit, say) [[sphere]] $S^n \subset \mathbb{R}^{n+1}$, and a point $p\in S^n$, considered as a [[vector]] in $\mathbb{R}^{n+1}$. Let $W\subset \mathbb{R}^{n+1}$ be the [[linear subspace]] that is the [[orthogonal complement]] to the [[linear span]] $span\{v\}$. There is a [[homeomorphism]]
 
 $$
@@ -65,11 +63,11 @@ given by sending a point $p\in S^n\setminus \{v\}$ to the point in $W$ that is t
 
 More concretely:
 
-We consider the ambient canonicall [[coordinates]] of $\mathbb{R}^{n+1}$, in terms of which the $n$-sphere is the [[topological subspace]] whose underlying [[subset]] is 
+We consider the ambient canonical [[coordinates]] of $\mathbb{R}^{n+1}$, in terms of which the $n$-sphere is the [[topological subspace]] whose underlying [[subset]] is 
 
 $$
   S^n 
-  =
+   \simeq
   \left\{
      x = (x_1, \cdots, x_{n+1})  \in \mathbb{R}^{n+1}
      \,\vert\,
@@ -86,28 +84,49 @@ $$
   p = (1,0,\ldots,0)
 $$
 
-hence the coresponding equatorial hyperplane with 
+hence the corresponding equatorial hyperplane with 
 
 $$
-  W 
-    = 
+  \mathbb{R}^n
+    \simeq
   \left\{
     x = (x_1, x_2, \cdots, x_{n+1}) \in \mathbb{R}^{n+1}
     \,\vert\,
     x_1 = 0
   \right\}
+   \;\suubset\;
+  \mathbb{R}^{n+1}
   \,.
 $$
 
-Proposition:
++-- {: .num_prop}
+###### Proposition
+**(standard stereographic projection)**
 
-A point $x \in S^{n} \backslash p \subset \mathbb{R}^{n+1}$ and a point $y \in W \subset \mathbb{R}^{n+1}$ sit on a line with the point $p = (1,0, \cdots, 0)$ precisely if
+The function which sends a point $x \in S^{n} \backslash p \subset \mathbb{R}^{n+1}$ the the intersection of the line through $p$ and $x$ with the equaltorial hyperplane is a [[homeomorphism]] which is given in terms of ambient coordinates by
 
 $$
-  (y_1, \cdots, y_{n+1}) = \frac{1}{x_1-1}(0, x_2, \cdots , x_{n+1} )
+  \array{
+    S^n \backslash (1,0, \cdots, 0)
+      &\overset{\phantom{AA} \phantom{AA}}{\longrightarrow}&
+    \mathbb{R}^{n}
+    \\
+    (x_1, x_2, \cdots, x_{n+1})
+    &\ovesrset{\phantom{AAAA}}{\mapsto}&
+    \frac{1}{1 - x_1}
+    \left(
+      0 , x_2, \cdots, x_{n+1}
+    \right)
+  }
+  \,.
 $$
 
-In one direction, consider the stereographic projection
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider more generally the stereographic projection
 
 $$
   \sigma
@@ -119,20 +138,23 @@ $$
   \{x \in \mathbb{R}^{n.1} \,\vert\, x_1 = 0 \}
 $$
 
-of the entire ambient space onto the equatorial plane, given by mapping a point $x$ to the unique point $y$ on the equatorial hyperplane such that the points $p$, $x$ any $y$ sit on the same straight line. This condition means that there exists $d \in \mathbb{R}$ such that
+of the entire ambient space minus the point $p$ onto the equatorial plane, still given by mapping a point $x$ to the unique point $y$ on the equatorial hyperplane such that the points $p$, $x$ any $y$ sit on the same straight line. 
+
+This condition means that there exists $d \in \mathbb{R}$ such that
 
 $$
   p +  d(x-p) = y
+  \,.
 $$
 
-and since the only condition on $y$ is that $y_1 = 0$ this implies that 
+Since the only condition on $y$ is that $y_1 = 0$ this condition implies that 
 
 $$ 
   p_1 + d(x_1-p_1) = 0 
   \,.
 $$
 
-This has a unique solution for $d$ given by
+This equation has a unique solution for $d$ given by
 
 $$ 
   d = 1/(1-x_1)
@@ -143,10 +165,11 @@ and hence it follow that
 $$
   \sigma(x_1, x_2, \cdots, x_{n+1}) 
     = 
-  \frac{1}{1-x_1}(0,x_2, \cdots, x_n).
+  \frac{1}{1-x_1}(0,x_2, \cdots, x_n)
+  \,
 $$
 
-This is clearly a [[continuous function]] $\mathbb{R}^{n+1} \backslash (1,0,\cdots 0) \to \mathbb{R}^{n}$ and since the topology on $S^n\backslash p$ is the [[subspace topology]] under the canonical embedding $S^n \backslash p \subset \mathbb{R}^{n+1} \backslash p$ is follows that the restiction
+Since [[rational functions are continuous]], this function $\sigma$ is continuous and since the topology on $S^n\backslash p$ is the [[subspace topology]] under the canonical embedding $S^n \backslash p \subset \mathbb{R}^{n+1} \backslash p$ it follows that the restiction
 
 $$
   \sigma\vert_{S^n \backslash p}
@@ -158,9 +181,62 @@ $$
 
 is itself a [[continuous function]] (because its pre-images are the restrictions of the pre-images of $\sigma$ to $S^n\backslash p$).
 
+To see that $\sigma \vert_{S^n \backslash p}$ is a [[bijection]] of the underlying sets we need to show that for every
+
+$$
+  (0, y_2, \cdots, y_{n+1})
+$$
+
+there is a unique $(x_1, \cdots , x_{n+1})$ satisfying
+
+1. $x_1 \lt 1$;
+
+1. $\underoverset{i = 1}{n+1}{\sum} (x_i)^2 = 1$;
+
+1. $\underset{i \in \{2, \cdots, n+1\}}{\forall} \left(y_i = \frac{x_i}{1-x_1} \right)$.
+
+The last condition uniquely fixes the $x_{i \geq 2}$ in terms of the given $y_{i \geq 2}$ and the remaining $x_1$ as $x_{i \geq 2} = y_i \cdot (1-x_1)$. The second condition then says that 
+
+
+$$
+  (x_1)^2 + (1-x_1)^2 \underset{r^2}{\underbrace{\underoverset{i = 2}{n+1}{\sum}(y_i)^2}} = 1
+$$
+
+hence that 
+
+$$
+  (r^2 + 1) (x_1)^2 - (2 r^2) x_1 + (r^2 - 1) = 0
+  \,.
+$$
+
+By the [[binomial theorem]] the solutions of this equation are
+
+$$
+  \begin{aligned}
+    x_1 
+      & = 
+    \frac
+      { 2 r^2 \pm \sqrt{ 4 r^4 - 4 (r^4 - 1)  } }
+      { 2 (r^2 + 1) }
+    \\
+    = 
+    \frac
+      { 2 r^2 \pm 2  }
+      { 2 r^2 + 2 }
+  \end{aligned}
+  \,.
+$$
+
+Precisely one these two solutions also satisfies the first condition. Therefore we have a unique solution.
+
+So far we have shown that stereographic projection is a bijective continuous function as claimed. To see that it is a homeomorphism, it is now sufficient to see that $\sigma$ is an [[open map]]. This is clear by inspection.
+
+
+=--
+
 
 ## Generalizations
-
+1
 More generally, one may take for $W$ any _[[affine space|affine]]_ subspace of $\mathbb{R}^{n+1}$ normal to $span\{v\}$ and not containing $v$. For instance one option is to take $W$ to be the tangent space to $S^n$ at $-v$, embedded as a subspace of $\mathbb{R}^{n+1}$.
 
 (see e.g. [Cook-Crabb 93, section 1](#CookCrabb93))
