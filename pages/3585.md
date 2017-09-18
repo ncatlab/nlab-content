@@ -1,10 +1,10 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea
-The theory of hyperfunctions, created by the Japanese school of [[Mikio Sato]], [[Masaki Kashiwara]] et al. is one of the many variants of the theory of [[generalized functions]]. Unlike the earlier theory of distributions of Schwarz et alt. it is not based on duals of some spaces of smooth functions but rather on boundary values of holomorphic functions. This allows usage of sheaf theory and includes Schwartz distributions as a special case. For example in Schwarz's theory apart from measures one has functions with discrete support which are linear combinations of finite derivatives of delta functions. Here one can allow things like the exponential of a differential operator applied to a delta function. So in a sense one has distributions of infinite order. 
+The theory of hyperfunctions, created by the Japanese school of [[Mikio Sato]], [[Masaki Kashiwara]] et al. is one of the many variants of the theory of [[generalized functions]]. Unlike the earlier theory of [[distributions]] of Schwarz et alt. it is not based on duals of some spaces of smooth functions but rather on boundary values of [[holomorphic functions]]. This allows usage of sheaf theory and includes Schwartz distributions as a special case. For example in Schwarz's theory apart from measures one has functions with discrete support which are linear combinations of finite derivatives of delta functions. Here one can allow things like the exponential of a differential operator applied to a delta function. So in a sense one has distributions of infinite order. 
 
 Hyperfunctions are a very useful tool in the study of [[D-modules]], holonomic systems of differential equations, and especially some aspects of [[symplectic geometry]] and [[harmonic analysis]] that are part of [[microlocal analysis]], especially [[algebraic microlocalization]]. 
 
@@ -266,6 +266,10 @@ This definition does not seem particularly useful, since it only pinpoints the s
 The singular support does not help much: The $\delta$ distribution cannot be squared, while the distribution defined by $[\frac{1}{x + \epsilon i}]$ can. (The latter is a distribution defined as a [[Cauchy principal value]]). The singular support of both consists of the origin. But in a certain sense the singularity of the $\delta$ distribution is worse than that of $[\frac{1}{x + \epsilon i}]$. Going a step further requires the notion of [[wavefront sets]] in the smooth setting. Note that the definition of a [[wavefront set]] needs the concept of a cutoff function, that is a smooth function with compact support, which cannot be used in the real analytic setting.
 
 ...
+
+## Related concepts
+
+* [[microlocal analysis]], [[wave front set]]
 
 ##References
 
