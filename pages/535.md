@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -40,6 +41,9 @@ is required to be _finite_. This means these are required to have a [[finite set
 
 A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all objects $x,y$ the [[interval]] $[x,y] = \{z \mid x \le z \le y\}$ is finite.
 
+## Related concepts
+
+* [[causal structure]]
 
 ## References
 
