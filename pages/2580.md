@@ -344,7 +344,7 @@ Within mathematics, distributions are quite commonplace; for example, de Rham ap
 
 A proof is given in these [notes](http://www-math.mit.edu/~helgason/hormander.pdf) by Helgason. The basic idea is to prove there exists a **fundamental solution** of $D$, i.e., a distribution $T$ such that $D T = \delta_0$. Then $u = f * T$ is smooth. The existence of a fundamental solution involves a theorem of Paley-Wiener type. 
 
-## Related concepts
+## Varitants
 
 ### In synthetic differential geometry 
 
@@ -373,6 +373,10 @@ Sometimes one considers larger spaces of distributions, where worse singularitie
 ### Distributions from nonstandard analysis
 
 Distributions can be alternatively described using [[nonstandard analysis]], see there. 
+
+## Rekated concepts
+
+* [[scaling degree of a distribution]]
 
 
 ## References
