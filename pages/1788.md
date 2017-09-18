@@ -1,2 +1,33 @@
-
-$\bigvee$
+$$
+  \begin{aligned}
+    (A \otimes_{Day} B)(n)
+    & =
+    \overset{n_1,n_2}{\int}
+     \underset{
+      = \left\{
+          \array{
+             \Sigma_{n_1 + n_2} & if \; n_1+n_2 = n 
+             \\
+             \emptyset & otherwise
+           }
+      \right.
+     }{
+       \underbrace{Sym(n_1 + n_2, n)}
+     }_+
+      \wedge
+     A_{n_1}
+      \wedge
+     B_{n_1}
+    \\
+    & \simeq
+    \underset{n_1 + n_2 = n}{\bigvee}
+     (\Sigma_{n_1+n_2})_+
+     \underset{\Sigma_{n_1}\times \Sigma_{n_2}}{\wedge}     
+     \left(
+       A_{n_1}
+         \wedge
+       B_{n_2}
+     \right)
+  \end{aligned}
+  \,.
+$$
