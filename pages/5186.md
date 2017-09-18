@@ -31,7 +31,7 @@ The **relativistic particle** is described by the [[sigma-model]] whose
 
   where the [[pseudo-Riemannian metric]] $g$ -- or rather the [[Levi-Civita connection]] $\nabla$ that it induces on the [[tangent bundle]] $T X$ -- encodes the background field of [[gravity]] acting on the particle;
 
-* [[worldvolume]] is the [[real line]] $\Sigma = \mathbb{R}$ or the [[circle]] $\Sigma = S^1$;
+* [[worldvolume]] is the [[real line]] $\Sigma = \mathbb{R}$ or the [[circle]] $\Sigma = S^1$, the _[[worldline]]_;
 
 * [[background gauge field]] is [[connection on a bundle|connection]] $\nabla$ on a [[circle group]]-[[principal bundle]] over $X$, encoding a field of [[electromagnetism]] acting by [[Lorentz force]] on the particle;
 
