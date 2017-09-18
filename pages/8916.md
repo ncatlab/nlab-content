@@ -24,5 +24,8 @@ One also has
 
 +--  {: .num_theorem #SylowConj}
 ###### Theorem
-Any two Sylow $p$-subgroups of $G$ are conjugate.
+Any two Sylow $p$-subgroups of $G$ are conjugate. 
+
 =--
+
+See [[class equation]] for a detailed discussion of these matters. 
