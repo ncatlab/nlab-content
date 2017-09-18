@@ -1,0 +1,10 @@
+
+* [former webpage](http://maths.dept.shef.ac.uk/maths/staff_info_447.html)
+
+* [webpage](http://people.epfl.ch/magdalena.kedziorek)
+
+## related $n$Lab entries
+
+* [[rational equivariant stable homotopy theory]]
+
+category: people
