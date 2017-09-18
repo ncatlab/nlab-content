@@ -381,6 +381,8 @@ If the locale product $X\times X$ does not coincide with the spatial product, th
 
 * [[locally Hausdorff topological space]]
 
+* [[Kolmogorov topological space]]
+
 
 ## References
 
