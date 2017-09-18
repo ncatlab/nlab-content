@@ -1,5 +1,21 @@
 $$
-  Aff(Vect_k)
+  \array{
+   {\text{} \atop {\text{differential} \atop \text{geometry}}}
+   &&
+   {\text{formal} \atop {\text{differential} \atop {geometry}}}
+   &&
+   {\text{super} \atop {\text{differential} \atop \text{geometry}}}
+   \\
+   \\
+  CartSp
+   &
+    \underoverset
+      {\underset{\Re}{\longleftarrow}}
+      {\overset{}{\hookrightarrow}}
+      {}
+   &
+  FormalCartSp
+  &
     \underoverset
       {\underset
         {
@@ -22,6 +38,8 @@ $$
         {\longleftarrow}
       }
       {\hookrightarrow}
-  Aff(sVect_k)
+  &
+  SuperFormalCartSp
+  }
   \,.
 $$
