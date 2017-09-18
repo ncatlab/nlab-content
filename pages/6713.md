@@ -293,9 +293,11 @@ The idea that the physics of D-branes is described by [[K-theory]] originates in
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
-Reviews include
+Review includes
 
 * [[Greg Moore]], _K-Theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
+
+* [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int.J.Geom.Meth.Mod.Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
 Discussion of D-branes in [[KK-theory]] is reviewed in
 
