@@ -63,27 +63,37 @@ $(\mathcal{O} \dashv Spec)$-[[adjunction]] discussed at _[[Isbell duality]]_ and
 
 Any [[cocomplete category|cocomplete]] and [[epi-cocomplete category|epi-cocomplete]] category with a [[generator]] is total.  (And more generally, any cocomplete and $E$-complete category with an $E$-generator is total, for a suitable class $E$.)  See ([Day](#Day)), theorem 1, for a proof.  This includes:
 
-* [[locally presentable category|locally presentable categories]], hence in particular [[Grothendieck toposes]].
+* [[locally presentable category|locally presentable categories]], hence in particular [[Grothendieck toposes]], or the category of [[abelian sheaves]] on a small [[site]].
 
 Also, totality lifts along [[solid functors]]; that is, if the [[codomain]] of a solid functor is total, then so is its domain.  See ([Tholen](#Tholen)) for a proof.  This implies that the following types of categories are total:
 
 * any [[reflective subcategory]] of a total category
 
+For example
+
 * any category which is [[monadic]] over [[Set]]
 
 * any category admitting a [[topological functor]] to [[Set]]
 
+* The category of topological groups is total, as this is topological over the total category [[Grp]]. 
+
+* If $C$ is total and $J$ is small, then $C^J$ is total, morally because it is a reflective subcategory of $Set^{C^{op} \times J}$; see section 6 of [Kelly](#Kelly). 
+
 Thus, "most naturally-occurring" cocomplete categories are in fact total.  However, cototality is more rare.  But cototal categories do occur:
 
-* [[Set]] is cototal (as well as total).
+* [[Set]] is cototal (as well as total). 
+
+* [[Ab]] is cototal (as well as total), because it is complete, well-powered, and has a cogenerator (e.g., $\mathbb{Q}/\mathbb{Z}$). Similarly, the category of [[modules]] $R Mod$ is cototal (and total) for any [[ring]] $R$. For that matter, any [[well-powered category|well-powered]] [[Grothendieck category]], such as the category of [[abelian sheaves]] on a small [[site]], is cototal. 
+
+* If $C$ is cototal and $J$ is small, then $C^J$ is cototal. 
 
 * Any [[presheaf category]] of a [[small category]] is cototal (as well as total). Indeed, any [[Grothendieck topos]] is both cototal and total. 
 
-* Any category admitting a [[topological functor]] to [[Set]] is cototal (as well as total).
+* Any category admitting a [[topological functor]] to [[Set]] is cototal (as well as total). 
 
 * Any [[totally distributive category]] is cototal (as well as total).
 
-* Any [[coreflective subcategory]] of a cototal category is cototal.
+* Any [[coreflective subcategory]] of a cototal category is cototal, e.g., the category of [[compactly generated spaces]] is cototal.
 
 ## Related pages
 
