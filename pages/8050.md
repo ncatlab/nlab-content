@@ -3,6 +3,7 @@
 * table of contents
 {: toc}
 
+([[null set|Null set]] redirects here; for the notion in set theory, see [[empty set]].)
 
 ## Idea
 
