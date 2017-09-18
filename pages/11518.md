@@ -44,6 +44,13 @@ see at _[[Mackey functor]]_
 
 (e.g. [Carlsson 92, p. 14](#Carlsson92), [GreenleesMay, p.16](#GreenleesMay))
 
+## Related concepts
+
+* [[RO(G)-grading]]
+
+## Examples 
+
+* [[equivariant sphere spectrum]]
  
 ## References
 
@@ -52,6 +59,7 @@ Surveys and introductions include
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], section 2 of _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
 
 For more references see at _[[equivariant stable homotopy theory]]_ and at _[[Mackey functor]]_
 
