@@ -59,7 +59,8 @@ A _[[limit ordinal]]_ is one that is not a successor.
 +-- {: .num_example}
 ###### Examples
 
-The finite ordinals are labeled by $n \in \mathbb{N}$, corresponding to the well-orders $\{0 \leq 1 \leq 2 \cdots \leq n\}$. Here $(n+1)$ is the successor of $n$. The first limit ordinal is $\omega = [(\mathbb{N}, \leq)]$.
+The finite ordinals are labeled by $n \in \mathbb{N}$, corresponding to the well-orders $\{0 \leq 1 \leq 2 \cdots \leq n-1\}$. Here $(n+1)$ is the successor of $n$. The first non-empty limit ordinal is $\omega = [(\mathbb{N}, \leq)]$.
+
 
 =--
 
