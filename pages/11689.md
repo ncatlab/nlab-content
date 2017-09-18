@@ -22,7 +22,7 @@
 +-- {: .num_theorem #KoszulMalgrangeTheorem}
 ###### Theorem 
 
-[[holomorphic vector bundle|Holomorphic vector bundles]] over a ([[compact topological space|compact]]) [[complex manifold]] $X$ are equivalently [[complex vector bundles]] $E$ which are equipped with a (hermitean) holomorphic [[flat connection]] $\nabla$, hence with a [[covariant derivative]] 
+[[holomorphic vector bundle|Holomorphic vector bundles]] over a ([[compact topological space|compact]]) [[complex manifold]] $X$ are equivalently [[complex vector bundles]] $E$ which are equipped with a holomorphically [[flat connection]] $\nabla$, hence with a [[covariant derivative]] 
 
 $$
   \bar \partial_E \colon \Gamma(E)\longrightarrow \Gamma(E) \otimes_{C^\infty(X, \mathbb{C})}\Omega^{0,1}(X)
