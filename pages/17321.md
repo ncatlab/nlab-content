@@ -1,8 +1,15 @@
+##Idea 
+
+In [[type theory]], a type may be classed as having a polarity, either [[positive type|positive]] or [[negative type|negative]], according to whether its _constructors_ or _eliminators_ are regarded as primary. The idea is due to [[Jean-Marc Andreoli]] and [[Jean-Yves Girard]].
+
 ### Related concepts
 
 * [[positive type]]
 * [[negative type]]
+* [[focusing]]
 
 ## References
 
+* [[Noam Zeilberger]], [The Logical Basis of
+Evaluation Order and Pattern-Matching](http://www.cs.cmu.edu/~rwh/theses/zeilberger.pdf)
 * [[Robert Harper]], _Polarity in Type Theory_, ([blog post](https://existentialtype.wordpress.com/2012/08/25/polarity-in-type-theory/))
