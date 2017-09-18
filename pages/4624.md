@@ -40,9 +40,22 @@ The reader can probably think of other variations on this theme.
 
 ## Related concepts
 
+* If one opts for the alternative[^1] definition that subobjects _are_ monomorphisms into the object (not isomorphism classes thereof), then one gets a [[groupoid]] of subobjects instead. 
+
+
+[^1]: Discussions of this can be found in cf. [A.1.3](#Johnstone) and [this MO discussion](#MO)
+
 * [[lattice of subgroups]]
 
+## References
 
+* {#Johnstone}  [[Elephant]] 
+* {#MO} Martin Brandenburg (https://mathoverflow.net/users/2841/martin-brandenburg), Concise definition of subobjects, URL (version: 2014-10-11): [https://mathoverflow.net/q/184196](https://mathoverflow.net/q/184196) 
+
+
+
+
+[[!redirects groupoid of subobjects]]
 [[!redirects poset of subobjects]]
 [[!redirects posets of subobjects]]
 [[!redirects subobject poset]]
