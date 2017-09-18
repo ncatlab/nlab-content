@@ -156,14 +156,19 @@ A good general account is in
 
 * {#May} [[Peter May]], _A note on the splitting principle_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Split.pdf))
 
-Other reviews include
+Discussion in the derivation of [[Chern classes]] and [[Stiefel-Whitney classes]] includes
+
+* {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+See also
 
 * Wikipedia, _[Splitting principle](https://en.wikipedia.org/wiki/Splitting_principle)_
-
 
 * _Notes on the splitting principle_ ([pdf](http://www.math.sunysb.edu/~azinger/mat566/splitting.pdf))
 
 Discussion in the context of [[complex oriented cohomology theory]] and their [[generalized Chern classes]] includes
+
+* [Kochmann 96, section 4.3](#Kochmann96)
 
 * [[Jacob Lurie]], lecture 4 of _[[Chromatic Homotopy Theory]]_, 2010 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) 
 
