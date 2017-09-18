@@ -54,6 +54,8 @@ This is reviewed in ([GLSW, section 2](#GLSW)).
 
 * [[Bn-geometry]], [[differential T-duality]]
 
+* [[universal exceptionalism]]
+
 ## References
 
 ### General
