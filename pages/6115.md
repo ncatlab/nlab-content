@@ -69,11 +69,16 @@ In [[twisted cohomology]].
 
 ## Related concepts
 
-* [[ex-space]]
+* [[excisive functor]]
+
+* [[tangent (infinity,1)-category]]
 
 * [[sheaf of spectra]]
 
 * [[rational parameterized stable homotopy theory]]
+
+* [[ex-space]]
+
 
 ## References
  {#References}
