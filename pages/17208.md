@@ -19,10 +19,22 @@ Complex projective space $\mathbb{C}P^n$ the the [[projective space]] $\mathbb{A
 
 ## Properties
 
+### Cell structure
+
++-- {: .num_prop #CellComplexStructure}
+###### Proposition
+
+There is a [[cell complex]] structure on the $\mathbb{C}P^n$ for $n \in \mathbb{N}$, given by [[induction]], where $\mathbb{C}P^{n+1}$ arises from $\mathbb{C}P^n$ by attaching a single cell of dimension $2n$.
+
+=--
+
 ### Homology and Cohomology 
  {#Cohomology}
 
-The [[ordinary homology]] of $\mathbb{C}P^n$ is
++-- {: .num_prop #OrdinaryCohomologyOfComplexProjectiveSpace}
+###### Proposition
+
+The [[ordinary homology]] of complex projective space $\mathbb{C}P^n$ is
 
 $$
   H_k(\mathbb{C}P^n)\simeq
@@ -49,8 +61,7 @@ $$
   \right.
   \,.
 $$
-
-It follows that the analogue remains true for general [[coefficient]] [[groups]] $A$
+The analogue remains true for general [[coefficient]] [[groups]] $A$
 
 $$
   H^k(\mathbb{C}P^n,A)
@@ -64,6 +75,8 @@ $$
   \right.
   \,.
 $$
+
+=--
 
 (Use the [[universal coefficient theorem]] and the fact ([prop.](projective+object#ProjectiveObjectsInAbAreFreeGroups)) that the free group $H_k(\mathbb{C}P^n)$ is projective, so that the $Ext^1$-correction vanishes.)
 
