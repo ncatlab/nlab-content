@@ -49,9 +49,9 @@ $$
 $$
 From this definition, it is immediate that if
 $$x_0 \lt x_1 \lt \cdots \lt x_n$$
-is a chain of length $n$ in $P$, where each $x_{i+1}$ [[covers]] $x_i$ for $0 \le i \lt n$, then for all $i \le j$,
+is a chain of length $n$ in $P$, where each $x_{i+1}$ [[covering relation|covers]] $x_i$, then for all $i \leq j$,
 $$
-\mu(x_i,x_j) = \begin{cases}1 & i = j \\ -1 & j - i = 1\\ 0 & j-i \ge 2\end{cases}
+\mu(x_i,x_j) = \begin{cases}1 & i = j \\ -1 & j - i = 1\\ 0 & j - i \ge 2\end{cases}
 $$
 It follows that both of the sums
 $\sum_{x \le z \le y} \mu(x,z)$ and $\sum_{x \le z \le y} \mu(z,y)$
