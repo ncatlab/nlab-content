@@ -38,11 +38,15 @@ The most familiar example is the category [[Set]], where the objects are sets an
 
 * [[object]]
 
-* **morphism**, [[mutlimorphism]]
+* **morphism**, [[multimorphism]]
 
   * [[inverse morphism]]
 
   * [[adjoint morphism]]
+
+  * [[heteromorphism]]
+
+  * [[endomorphism]], [[automorphism]], [[monomorphism]], [[epimorphism]]
 
 * [[2-morphism]]
 
