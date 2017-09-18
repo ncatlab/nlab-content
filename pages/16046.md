@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What is known as the _prime geodesic theorem_ is a result that descrives the [[asymptotic]] distribution of [[prime geodesics]] on a [[hyperbolic manifold]]. 
+
+The prime geodesic theorem is [[analogy|analogous]] to the [[prime number theorem]]. Just as the zeros of the [[Riemann zeta function]] control the error term in the prime number theorem, so the zeros of the [[Selberg zeta function]] control the error term in the prime geodesic theorem.
+
+
+## References
+
+* {#SoundararajanYoung13} K. Soundararajan, Matthew P. Young, _The Prime Geodesic Theorem_,J. Reine Angew. Math. 676 (2013), 105-120 ([arXiv:1011.5486](http://arxiv.org/abs/1011.5486))
+
+
+* Maki Nakasuji, _Prime Geodesic Theorem for Higher-Dimensional Hyperbolic Manifold_, Transactions of the AMS, Vol. 358, No. 8
