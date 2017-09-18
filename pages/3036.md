@@ -27,7 +27,10 @@ A [[second-countable space]] is separable (and trivially it is
 
 An arbitrary [[product]] of separable spaces need not be separable, but a product of as many as a continuum number of separable spaces _is_ separable (with the product computed in [[Top]]); a proof of the more general Hewitt-Marczewski-Pondiczery theorem can be found [here](#Brandsma). In particular, the space $\mathbb{R}^\mathbb{R}$ of _all_ [[functions]] $\mathbb{R} \to \mathbb{R}$ under pointwise convergence is separable, but is not even first-countable (and thus not second-countable either). A first-countable space need not be separable; a simple example of that is a [[discrete space]] of uncountable cardinality. 
 
++-- {: .num_remark} 
+###### Remark 
 Although an arbitrary product of separable spaces need not be separable, an arbitrary product of separable spaces does satisfy the [[countable chain condition]] (see there for more discussion). This is somewhat remarkable, since it is not necessarily true that even a finite product of spaces satisfying the countable chain condition also satisfies the countable chain condition (whether it does is independent of [[ZFC]]). 
+=-- 
 
 Subspaces of separable spaces need not be separable. Example: the product $\mathbb{R}_l \times \mathbb{R}_l$, also called the [[Sorgenfrey plane]], is separable, but the subspace defined by the equation $y = -x$ is uncountable and discrete and therefore not separable. However, open subspaces of separable spaces are separable. 
 
