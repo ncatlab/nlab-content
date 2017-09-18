@@ -113,6 +113,9 @@ $$
 
 making it into a [[linearly distributive category]].  Here the notation on the left is that used in [[linear logic]], see below at _[Properties -- Internal logic](#InternalLogic)_.
 
+A general $\ast$-autonomous category can be thought of as like a [[compact closed category]] in which the [[unit]] and [[counit]] of the [[dual objects]] refer to two different tensor products: we have $\top \to A \parr A^*$ but $A^* \otimes A \to \bot$, where $(\otimes,\top)$ and $(\parr,\bot)$ are two different monoidal structures.  The necessary relationship between two such monoidal structures such that this makes sense, i.e. such that the [[triangle identities]] can be stated, is encoded by a linearly distributive category; then an $\ast$-autonomous category is precisely a linearly distributive category in which all such "mixed duals" (or "negations") exist.
+
+
 =--
 
 
