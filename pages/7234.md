@@ -24,6 +24,10 @@ One of the [[exceptional Lie groups]].
 
 ## Properties
 
+### As part of the ADE pattern
+
+[[!include ADE -- table]]
+
 ### As U-duality group of5d SuGra
 
 $E_6$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 5 dimensions.
