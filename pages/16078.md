@@ -57,3 +57,8 @@ Further mentioning of the higher order torsion invariants includes
 See also
 
 * Wikipedia, _[Torsion of a G-structure](https://en.wikipedia.org/wiki/G-structure#Torsion_of_a_G-structure)_
+
+[[!redirects torsion of G-structures]]
+
+
+[[!redirects torsion invariants of G-structures]]
