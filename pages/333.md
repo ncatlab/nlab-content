@@ -72,6 +72,8 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 * [[Riemann hypothesis and physics]]
 
+* [[D-brane geometry]]
+
 * [[noncommutative algebraic geometry]]
 
 * [[derived noncommutative geometry]]
