@@ -15,6 +15,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 Given a [[G-structure]], it is _integrable_ or _locally flat_ if over [[germs]] it restricts to the canonical (trivial) $G$-structure. If it restricts to the canonical structure only over order-$k$ [[infinitesimal disks]], then it is called _order $k$ integrable_. The [[obstruction]] to first-order integrability is the [[torsion of a G-structure]], and hence first-order integrable $G$-structures are also called _torsion-free $G$-structures_.
 
@@ -71,6 +72,134 @@ $$
 
 One may formalize the concept of integrable $G$-structure in the generality of [[higher differential geometry]], formalized in [[differential cohesion]].  See also  there at _[differential cohesion -- G-Structure](differential+cohesive+%28infinity%2C1%29-topos#structures)_.
 
+Let $V$ be framed, def. \ref{Framing}, let $G$ be an [[∞-group]] and $G \to GL(V)$ a homomorphism, hence 
+
+$$
+  G\mathbf{Struc}\colon \mathbf{B}G \longrightarrow \mathbf{B}GL(V)
+$$
+
+a morphism between the [[deloopings]].
+
++-- {: .num_defn #GStructure}
+###### Definition
+
+For $X$ a $V$-manifold, def. \ref{Manifold}, a **[[G-structure]]** on $X$ is a lift of the structure group of its [[frame bundle]], def. \ref{FrameBundleMap}, to $G$, hence a diagram
+
+$$
+  \array{
+     X && \longrightarrow&&  \mathbf{B}G
+     \\
+     & {}_{\mathllap{\tau_X}}\searrow && \swarrow_{\mathrlap{G\mathbf{Struc}}}
+     \\
+     && \mathbf{B}GL(V)
+  }
+$$
+
+hence a morphism
+
+$$
+  \mathbf{c} \colon \tau_X \longrightarrow G\mathbf{Struc}
+$$
+
+is the [[slice (∞,1)-topos]].
+
+=--
+
+In fact $G\mathbf{Struc}\in \mathbf{H}_{/\mathbf{B}GL(n)}$ is the [[moduli ∞-stack]] of such $G$-structures.
+
+The double [[slice (∞,1)-topos|slice]] $(\mathbf{H}_{/\mathbf{B}GL(n)})_{/G\mathbf{Struc}}$ is the [[(∞,1)-category]] of such $G$-structures.
+
++-- {: .num_example #TrivialGStructure}
+###### Example
+
+
+If $V$ is framed, def. \ref{Framing}, then it carries the trivial $G$-structure, which we denote by
+
+$$
+  \mathbf{c}_0 \colon \tau_{V} \longrightarrow G\mathbf{Struc}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #IntegrableGStructure}
+###### Definition
+
+For $V$ framed, def. \ref{Framing}, and $X$ a $V$-manifold, def. \ref{Manifold}, then  $G$-structure $\mathbf{c}$ on $X$ is _[[integrability of G-structure|integrable]]_ (or _locally flat_) if there exists a $V$-cover
+
+$$
+  \array{
+     && U
+     \\
+     & \swarrow && \searrow
+     \\
+     V && && X
+  }
+$$
+
+such that the [[correspondence]] of [[frame bundles]] induced via remark \ref{FrameBundlesFunctorial}
+
+$$
+  \array{
+     && \tau_U
+     \\
+     & \swarrow && \searrow
+     \\
+     \tau_V && && \tau_X
+  }
+$$
+
+(a diagram in $\mathbf{H}_{/\mathbf{B}GL(V)}$) extends to a sliced correspondence between $\mathbf{c}$ and the trivial $G$-structure $\mathbf{c}_0$ on $V$, example \ref{TrivialGStructure}, hence to a diagram in $\mathbf{H}_{/\mathbf{B}GL(V)}$ of the form
+
+$$
+  \array{
+     && \tau_U
+     \\
+     & \swarrow && \searrow
+     \\
+     \tau_V && \swArrow_{\mathrlap{\simeq}}  && \tau_X
+     \\
+     & {}_{\mathllap{\mathbf{c}_0}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
+     \\
+     && G\mathbf{Struct}
+  }
+$$
+
+On the other hand, $\mathbf{c}$ is called _infinitesimally integrable_ (or _torsion-free_) if such an extension exists (only) after restriction to all [[infinitesimal disks]] in $X$ and $U$, hence after composition with the [[counit of a comonad|counit]] 
+
+$$
+  \flat^{rel} U \longrightarrow U
+$$
+
+of the [[relative flat modality]], def. \ref{InducedRelativeShapeAndFlat}:
+
+$$
+  \array{
+     && \tau_{\flat^{rel} U}
+     \\
+     & \swarrow && \searrow
+     \\
+     \tau_V && \swArrow_{\mathrlap{\simeq}}  && \tau_X
+     \\
+     & {}_{\mathllap{\mathbf{c}_0}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
+     \\
+     && G\mathbf{Struct}
+  }
+ \,.
+$$
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+As before, if the given [[reduction modality]] encodes order-$k$ infinitesimals, then the infinitesimal integrability in def. \ref{IntegrableGStructure} is order-$k$ integrability. For $k = 1$ this is [[torsion of a G-structure|torsion-freeness]].
+
+=--
+
+
+
 
 ## Properties
 
@@ -85,7 +214,15 @@ A $G$-structure on $X$ is integrable previsely if there exists an [[atlas]] of $
 ([Sternberg 64, section VII, exercise 2.1](#Sternberg64))
 
 ## Examples
-For instance 
+ {#Examples}
+
+* [Complex structure](#ExampleComplexStructure)
+
+* [Symplectic structire](#ExampleSymplecticStructure)
+
+* [Orthogonal structure](#ExamplesOrthogonalStructure)
+
+* [G2-structure](#ExampleG2Structure)
 
 ### Complex structure
  {#ExampleComplexStructure}
@@ -106,7 +243,7 @@ An $O(n)\to GL(n)$-[[G-structure|structure]] is an [[orthogonal structure]], hen
 ### $G_2$-Structure
  {#ExampleG2Structure}
 
-A An $G_2 \to GL(7)$-[[G-structure|structure]] is a [[G2-structure]]. Its [[torsion of a G-structure]] vanishes if the corresponding definite 3-form $\omega$ is [[covariant derivative|covariantly constant]] with respect to the induced [[Riemannian metric]], in which case the structure is a [[G2-manifold]]. Beware that some authors refer to this first-order integrable $G_2$-structure (or even weaker conditions) as "integrable $G_2$-structure".
+A An $G_2 \to GL(7)$-[[G-structure|structure]] is a [[G2-structure]]. Its [[torsion of a G-structure]] vanishes if the corresponding definite 3-form $\omega$ is [[covariant derivative|covariantly constant]] with respect to the induced [[Riemannian metric]], in which case the structure is a [[G2-manifold]]. Beware that some authors refer to this first-order integrable $G_2$-structure (or even weaker conditions) as "integrable $G_2$-structure" (see [Bryant 05](#G2+manifold#Bryant05) for critical discussion of the terminology).
 
 
 
@@ -133,6 +270,7 @@ Discussion with an eye towards [[special holonomy]] is in
 
 See also the references at _[[torsion of a Cartan connection]]_ and at _[[torsion constraints in supergravity]]_.
 
+[[!redirects integrability of G-structure]]
 [[!redirects integrability of G-structures]]
 
 [[!redirects integrable G-structure]]
