@@ -278,6 +278,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 ## Related entries
 
+* [[homotopy type theory FAQ]]
+
 * [[intensional type theory]], [[observational type theory]], [[extensional type theory]]
 
 * [[type-theoretic model category]], [[fibrant type]]
