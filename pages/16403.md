@@ -2,7 +2,7 @@
 
 > This entry contains one chapter of _[[geometry of physics]]_, see there for context and background.
 
-> previous chapter: _[[geometry of physics -- smooth spaces|smooth sets]]_, 
+> previous chapter: _[[geometry of physics -- smooth spaces|smooth sets]]_,
 
 > next chapter: _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
 
@@ -20,7 +20,7 @@ Here we discuss the basics of [[homotopy theory]] irrespective of any [[geometry
 
 ### Motivation
 
-The basic principle of [[homotopy theory]] happens to be well familiar in [[physics]], just in slight disguise: it is the ([[higher gauge theory|higher]]) _[[gauge principle]]_. This we explain in 
+The basic principle of [[homotopy theory]] happens to be well familiar in [[physics]], just in slight disguise: it is the ([[higher gauge theory|higher]]) _[[gauge principle]]_. This we explain in
 
 * _[Motivation from physics: The gauge principle](#TheGaugePrinciple)_.
 
@@ -28,11 +28,11 @@ As it goes, this profound and yet simple fact is less widely appreciated than a 
 
 * _[Motivation from physics: Derived categories of branes](#DerivedCategoriesOfBranes)_
 
-The historical route in [[mathematics]] that lead to modern [[homotopy theory]] so happens to run via the study of [[ordinary cohomology]] and [[ordinary homology]] ([[singular homology]]) of [[topological spaces]], structures that happen to recognize of a topological space only the [[homotopy type]] that it _represents_ via the [[singular simplicial complex]] construction. This traditional route we recall in 
+The historical route in [[mathematics]] that lead to modern [[homotopy theory]] so happens to run via the study of [[ordinary cohomology]] and [[ordinary homology]] ([[singular homology]]) of [[topological spaces]], structures that happen to recognize of a topological space only the [[homotopy type]] that it _represents_ via the [[singular simplicial complex]] construction. This traditional route we recall in
 
 * _[Motivation from topologogy: Singular homology](#SimplicialHomology)_.
 
-While standard and traditional, this story hides a bit how utmost fundamental the principles of [[homotopy theory]] are and tends to misleadingly suggest that homotopy theory is a sub-topic of [[topology]]. Contrary to that, inspection of the [[foundations of mathematics]] reveals the foundational nature of homotopy theory. This we indicate in 
+While standard and traditional, this story hides a bit how utmost fundamental the principles of [[homotopy theory]] are and tends to misleadingly suggest that homotopy theory is a sub-topic of [[topology]]. Contrary to that, inspection of the [[foundations of mathematics]] reveals the foundational nature of homotopy theory. This we indicate in
 
 * _[Motivation from first principles: Homtopy type-theory](#MotivationFromFirstPrinciples)_.
 
@@ -61,7 +61,7 @@ $$
 
 and this [[composition]] is [[associative]].
 
-Moreover, these being [[equivalences]] means that they have [[inverses]], 
+Moreover, these being [[equivalences]] means that they have [[inverses]],
 
 $$
   \Phi_2 \underoverset{\simeq}{g^{-1}}{\longrightarrow} \Phi_1
@@ -83,7 +83,7 @@ $$
   \Phi_1
 $$
 
-equal the [[identity]] transformation. 
+equal the [[identity]] transformation.
 
 Obvious as this may be, in [[mathematics]] such [[structure]] gets a name: this is a _[[groupoid]]_ or _[[homotopy 1-type]]_ whose _[[objects]]_ are [[field (physics)|field configurations]] and whose _[[morphisms]]_ are [[gauge transformations]].
 
@@ -113,7 +113,7 @@ This logic of the [[gauge principle]] keeps applying, and hence we obtain an inf
 
 The mathematics theory of these systems of higher-order gauge-of-gauge transformations is called _[[homotopy theory]]_ or _[[higher category theory]]_ in the flavor of _[[(infinity,1)-category theory]]_.
 
-More motivation and exposition along these lines is at 
+More motivation and exposition along these lines is at
 
 * _[[schreiber:Higher field bundles for gauge fields]]_.
 
@@ -132,7 +132,7 @@ More motivation and exposition along these lines is at
 
 This section recalls how the "abelianization" of a [[topological space]] by _[[nLab:singular chains]]_ gives rise to the notion of _[[nLab:chain complexes]]_ and their _[[nLab:homology]]_.
 
-This proceeds in three steps: given a [[topological space]], first one passes to the collection of [[simplices]] in it (the curves, triangles, tetrahedra, ...) which together form a _[[simplicial set]]_. Then one "linearizes" this by forming the [[free abelian groups]] on the simplices to obtain a [[simplicial abelian group]]. Finally one turns the resulting [[simplicial abelian group]] into a [[chain complex]]. 
+This proceeds in three steps: given a [[topological space]], first one passes to the collection of [[simplices]] in it (the curves, triangles, tetrahedra, ...) which together form a _[[simplicial set]]_. Then one "linearizes" this by forming the [[free abelian groups]] on the simplices to obtain a [[simplicial abelian group]]. Finally one turns the resulting [[simplicial abelian group]] into a [[chain complex]].
 
 Below in _[Dold-Kan correspondence](#DoldKanCorrespondence)_ we see that this last step is an [[equivalence of categories|equivalent reformulation]], and that from any chain complex (in non-negative degree) one may re-obtain the [[simplicial abelian group]] that it corresponds to. Further below in _[Kan complexes](#KanComplexes)_ we see that (forgetting the group structure on these), these are _[[Kan complexes]]_ and as such objects in [[simplicial homotopy theory]]. This we then turn to further below in _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
 
@@ -144,16 +144,16 @@ Below in _[Dold-Kan correspondence](#DoldKanCorrespondence)_ we see that this la
 +-- {: .num_defn #TopologicalSimplex}
 ###### Definition
 
-For $n \in \mathbb{N}$, the **[topological n-simplex](simplex#TopologicalSimplex)** is, 
+For $n \in \mathbb{N}$, the **[topological n-simplex](simplex#TopologicalSimplex)** is,
 up to [[nLab:homeomorphism]], the [[nLab:topological space]] whose underlying set is the subset
 
 $$
-  \Delta^n \coloneqq 
+  \Delta^n \coloneqq
   \{
     \vec x \in \mathbb{R}^{n+1}
     |
     \sum_{i = 0 }^n x_i = 1 \; and \;
-    \forall i . x_i \geq 0 
+    \forall i . x_i \geq 0
   \}
   \subset \mathbb{R}^{n+1}
 $$
@@ -165,7 +165,7 @@ of the [[nLab:Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [
 +-- {: .num_remark}
 ###### Remark
 
-The [[coordinate]] expression in def. \ref{TopologicalSimplex} -- also known as _[barycentric coordinates](simplex#BarycentricCoordinates)_ -- is evidently just one of many possible ways to present topological $n$-simplices. Another common choice are what are called _[Cartesian coordinates](simplex#CartesianCoordinates)_. Of course nothing of relevance will depend on which choice of coordinate presentation is used, but some are more convenient in some situations than others. 
+The [[coordinate]] expression in def. \ref{TopologicalSimplex} -- also known as _[barycentric coordinates](simplex#BarycentricCoordinates)_ -- is evidently just one of many possible ways to present topological $n$-simplices. Another common choice are what are called _[Cartesian coordinates](simplex#CartesianCoordinates)_. Of course nothing of relevance will depend on which choice of coordinate presentation is used, but some are more convenient in some situations than others.
 
 =--
 
@@ -186,7 +186,7 @@ For $n = 3$ this is the filled tetrahedron.
 +-- {: .num_defn #FaceInclusionInBarycentricCoords}
 ###### Definition
 
-For $n \in \mathbb{N}$, $\n \geq 1$ and $0 \leq k \leq n$, the 
+For $n \in \mathbb{N}$, $\n \geq 1$ and $0 \leq k \leq n$, the
 **$k$th $(n-1)$-face (inclusion)**  of the topological $n$-simplex, def. \ref{TopologicalSimplex}, is the subspace inclusion
 
 $$
@@ -194,7 +194,7 @@ $$
 $$
 
 induced under the coordinate presentation of def. \ref{TopologicalSimplex},
-by the inclusion 
+by the inclusion
 
 $$
   \mathbb{R}^n \hookrightarrow \mathbb{R}^{n+1}
@@ -212,23 +212,23 @@ $$
 +-- {: .num_example}
 ###### Example
 
-The inclusion 
+The inclusion
 
 $$
   \delta_0 : \Delta^0 \to \Delta^1
-$$ 
+$$
 
 is the inclusion
 
 $$
   \{1\} \hookrightarrow [0,1]
-$$ 
+$$
 
-of the "right" end of the standard interval. The other inclusion 
+of the "right" end of the standard interval. The other inclusion
 
 $$
   \delta_1 : \Delta^0 \to \Delta^1
-$$ 
+$$
 
 is that of the "left" end $\{0\} \hookrightarrow [0,1]$.
 
@@ -269,18 +269,18 @@ $$
 
 from the topological $n$-simplex, def. \ref{TopologicalSimplex}, to $X$.
 
-Write 
+Write
 
 $$
   (Sing X)_n \coloneqq Hom_{Top}(\Delta^n , X)
-$$ 
+$$
 
 for the set of singular $n$-simplices of $X$.
 
 =--
 
 
-So to a [[nLab:topological space]] $X$ is associated a sequence of sets 
+So to a [[nLab:topological space]] $X$ is associated a sequence of sets
 
 $$
   (Sing X)_n \coloneqq Hom_{Top}(\Delta^n, X)
@@ -311,12 +311,12 @@ $$
 $$
 
 that regard an $n$-simplex as beign a degenerate ("thin") $(n+1)$-simplex.
-All these sets of simplicies and face and degeneracy maps between them form the following structure. 
+All these sets of simplicies and face and degeneracy maps between them form the following structure.
 
 +-- {: .num_defn #SimplicialSet}
 ###### Definition
 
-A **[[nLab:simplicial set]]** $S \in sSet$ is 
+A **[[nLab:simplicial set]]** $S \in sSet$ is
 
 * for each $n \in \mathbb{N}$ a [[nLab:set]] $S_n \in Set$ -- the **set of $n$-[[nLab:simplices]]**;
 
@@ -373,8 +373,8 @@ $$
 This is called the "simplex category" because we are to think of the object $[n]$ as being the "[[nLab:spine]]" of the $n$-[[nLab:simplex]]. For instance for $n = 2$ we think of $0 \to 1 \to 2$ as the "spine" of the triangle. This becomes clear if we don't just draw the morphisms that _generate_ the category $[n]$, but draw also all their composites. For instance for $n = 2$ we have_
 
 $$
-  [2]  
-  = 
+  [2]
+  =
   \left\{
   \array{
      && 1
@@ -392,7 +392,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-A [[nLab:functor]] 
+A [[nLab:functor]]
 
 $$
   S : \Delta^{op} \to Set
@@ -405,7 +405,7 @@ from the [[nLab:opposite category]] of the [[nLab:simplex category]] to the cate
 +-- {: .proof}
 ###### Proof
 
-One checks by inspection that the simplicial identities 
+One checks by inspection that the simplicial identities
 characterize precisely the behaviour of the morphisms in
 $\Delta^{op}([n],[n+1])$ and $\Delta^{op}([n],[n-1])$.
 
@@ -448,7 +448,7 @@ $$
 +-- {: .num_remark}
 ###### Remark (aside)
 
-It turns out that that [[nLab:homotopy type]] of the topological space $X$ is entirely captured by its singular simplicial complex $Sing X$ (this is the content of the _[[nLab:homotopy hypothesis]]-theorem_).  
+It turns out that that [[nLab:homotopy type]] of the topological space $X$ is entirely captured by its singular simplicial complex $Sing X$ (this is the content of the _[[nLab:homotopy hypothesis]]-theorem_).
 
 =--
 
@@ -461,8 +461,8 @@ Now we [[nLab:abelian group|abelianize]] the singular simplicial complex $(Sing 
 +-- {: .num_defn #FormalLinearCombination}
 ###### Definition
 
-A **formal linear combination** of elements of a [[nLab:set]] 
-$S \in $ [[nLab:Set]] is a [[nLab:function]] 
+A **formal linear combination** of elements of a [[nLab:set]]
+$S \in $ [[nLab:Set]] is a [[nLab:function]]
 
 $$
   a : S \to \mathbb{Z}
@@ -485,13 +485,13 @@ In this expression one calls $a_s \in \mathbb{Z}$ the [[nLab:coefficient]] of $s
 +-- {: .num_defn #GroupOfFormalLinearCombinations}
 ###### Remark
 
-For $S \in $ [[nLab:Set]], the **group of formal linear combinations** $\mathbb{Z}[S]$ is the [[nLab:group]] whose underlying [[nLab:set]] is that of formal linear combinations, 
-def. \ref{FormalLinearCombination}, and whose group operation is 
+For $S \in $ [[nLab:Set]], the **group of formal linear combinations** $\mathbb{Z}[S]$ is the [[nLab:group]] whose underlying [[nLab:set]] is that of formal linear combinations,
+def. \ref{FormalLinearCombination}, and whose group operation is
 the pointwise addition in $\mathbb{Z}$:
 
 $$
   (\sum_{s \in S} a_s \cdot s)
-  + 
+  +
   (\sum_{s \in S} b_s \cdot s)
   =
   \sum_{s \in S} (a_s + b_s) \cdot s
@@ -500,7 +500,7 @@ $$
 
 =--
 
-For the present purpose the following statement may be regarded as just introducing different terminology for the group of formal linear combinations: 
+For the present purpose the following statement may be regarded as just introducing different terminology for the group of formal linear combinations:
 
 +-- {: .num_prop #FreeAbelianGroup}
 ###### Proposition
@@ -529,11 +529,11 @@ This construction makes the sets of simplices into abelian groups. But this allo
 +-- {: .num_defn #TheAlternatingFaceMapDifferential}
 ###### Definition
 
-For $S$ a [[nLab:simplicial set]], its **alternating face map differential** in degree $n$ is the linear map 
+For $S$ a [[nLab:simplicial set]], its **alternating face map differential** in degree $n$ is the linear map
 
 $$
   \partial : \mathbb{Z}[S_n] \to \mathbb{Z}[S_{n-1}]
-$$ 
+$$
 
 defined on [[nLab:basis]] elements $\sigma \in S_n$ to be the alternating sum of the simplicial face maps:
 
@@ -566,7 +566,7 @@ By linearity, it is sufficient to check this on a basis element $\sigma \in S_n$
 $$
   \begin{aligned}
     \partial \partial \sigma
-    & = 
+    & =
     \partial \left(
       \sum_{j = 0}^n (-1)^j d_j \sigma
     \right)
@@ -576,18 +576,18 @@ $$
     \\
      & =
      \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_i d_j \sigma
-     + 
+     +
      \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
      \\
-     & = 
+     & =
      \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_{j-1} d_i \sigma
-     + 
+     +
      \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
      \\
-     & = 
-     - 
+     & =
+     -
      \sum_{0 \leq i \leq j \lt n} (-1)^{i+j} d_{j} d_i \sigma
-     + 
+     +
      \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
      \\
      & = 0
@@ -595,7 +595,7 @@ $$
   \,.
 $$
 
-Here 
+Here
 
 1. the first equality is (eq:AlternatingFaceMapDifferential);
 
@@ -622,7 +622,7 @@ $$
   \,.
 $$
 
-Then its [[nLab:boundary]] $\partial \sigma \in H_0(X)$ is 
+Then its [[nLab:boundary]] $\partial \sigma \in H_0(X)$ is
 
 $$
   \partial \sigma^1 = \sigma(0)  -\sigma(1)
@@ -631,11 +631,11 @@ $$
 or graphically (using notation as for [[nLab:orientals]])
 
 $$
-  \partial 
+  \partial
   \left(
     \sigma(0) \stackrel{\sigma}{\to} \sigma(1)
   \right)
-  = 
+  =
   (\sigma(0)) - (\sigma(1))
   \,.
 $$
@@ -650,31 +650,31 @@ $$
     \array{
        && \sigma(1)
        \\
-       & {}^{\mathllap{\sigma(0,1)}}\nearrow 
-       & \Downarrow^{\mathrlap{\sigma}}& 
+       & {}^{\mathllap{\sigma(0,1)}}\nearrow
+       & \Downarrow^{\mathrlap{\sigma}}&
        \searrow^{\mathrlap{\sigma^{1,2}}}
        \\
        \sigma(0) &&\underset{\sigma(0,2)}{\to}&& \sigma(2)
     }
   \right)
-  = 
+  =
   \left(
     \array{
        && \sigma(1)
        \\
-       & {}^{\mathllap{\sigma(0,1)}}\nearrow 
-       & & 
+       & {}^{\mathllap{\sigma(0,1)}}\nearrow
+       & &
        \\
-       \sigma(0) 
+       \sigma(0)
     }
   \right)
   -
   \left(
     \array{
-       && 
+       &&
        \\
-       &       
-       & & 
+       &
+       & &
        \\
        \sigma(0) &\underset{\sigma(0,2)}{\to}& \sigma(2)
     }
@@ -684,8 +684,8 @@ $$
     \array{
        && \sigma(1)
        \\
-       & 
-       & & 
+       &
+       & &
        \searrow^{\mathrlap{\sigma^{1,2}}}
        \\
        && && \sigma(2)
@@ -699,26 +699,26 @@ Hence the boundary of the boundary is:
 $$
   \begin{aligned}
   \partial \partial \sigma
-  &= 
+  &=
   \partial
   \left(
   \left(
     \array{
        && \sigma(1)
        \\
-       & {}^{\mathllap{\sigma(0,1)}}\nearrow 
-       & & 
+       & {}^{\mathllap{\sigma(0,1)}}\nearrow
+       & &
        \\
-       \sigma(0) 
+       \sigma(0)
     }
   \right)
   -
   \left(
     \array{
-       && 
+       &&
        \\
-       &       
-       & & 
+       &
+       & &
        \\
        \sigma(0) &\underset{\sigma(0,2)}{\to}& \sigma(2)
     }
@@ -728,23 +728,23 @@ $$
     \array{
        && \sigma(1)
        \\
-       & 
-       & & 
+       &
+       & &
        \searrow^{\mathrlap{\sigma^{1,2}}}
        \\
        && && \sigma(2)
     }
   \right)  \right)
   \\
-  & = 
+  & =
   \left(
     \array{
-       && 
+       &&
        \\
-       &  
-       & & 
+       &
+       & &
        \\
-       \sigma(0) 
+       \sigma(0)
     }
   \right)
   -
@@ -752,30 +752,30 @@ $$
     \array{
        && \sigma(1)
        \\
-       &  
-       & & 
+       &
+       & &
        \\
-       
+
     }
   \right)
   -
   \left(
     \array{
-       && 
+       &&
        \\
-       &       
-       & & 
+       &
+       & &
        \\
-       \sigma(0) && 
+       \sigma(0) &&
     }
   \right)
   +
   \left(
     \array{
-       && 
+       &&
        \\
-       &       
-       & & 
+       &
+       & &
        \\
        && \sigma(2)
     }
@@ -785,19 +785,19 @@ $$
     \array{
        && \sigma(1)
        \\
-       & 
-       & & 
+       &
+       & &
        \\
-       && && 
+       && &&
     }
   \right)
   -
   \left(
     \array{
-       && 
+       &&
        \\
-       & 
-       & & 
+       &
+       & &
        \\
        && && \sigma(2)
     }
@@ -812,9 +812,9 @@ $$
 +-- {: .num_defn #ComplexOfChainsOnASimplicialSet}
 ###### Definition
 
-For $S$ a [[nLab:simplicial set]], we call the collection 
+For $S$ a [[nLab:simplicial set]], we call the collection
 
-1. of [[nLab:abelian groups]] of chains $C_n(S) \coloneqq \mathbb{Z}[S_n]$, 
+1. of [[nLab:abelian groups]] of chains $C_n(S) \coloneqq \mathbb{Z}[S_n]$,
    prop. \ref{FreeAbelianGroup};
 
 1. and boundary homomorphisms $\partial_n : C_{n+1}(S) \to C_n(X)$, def. \ref{TheAlternatingFaceMapDifferential}
@@ -823,7 +823,7 @@ For $S$ a [[nLab:simplicial set]], we call the collection
 
 $$
   C_\bullet(S)
-  = 
+  =
   [
     \cdots
      \stackrel{\partial_2}{\to}
@@ -902,7 +902,7 @@ More generally, for $R$ any unital [[nLab:ring]] one can form the degreewise [[n
 ###### Definition
 
 For $C_\bullet(S)$ a chain complex as in def. \ref{ComplexOfChainsOnASimplicialSet} and for $n \in \mathbb{N}$, the **degree-$n$ [[nLab:chain homology]] group**
-$H_n(C(S)) \in Ab$ is the [[nLab:quotient group]] 
+$H_n(C(S)) \in Ab$ is the [[nLab:quotient group]]
 
 $$
   H_n(C(S)) \coloneqq \frac{ker(\partial_{n-1})}{im(\partial_n)}
@@ -949,7 +949,7 @@ $$
   \,.
 $$
 
-The precise choice of this [[nLab:isomorphism]] is a choice of [[nLab:orientation]] on $X$. With a choice of orientation, the element $1 \in \mathbb{Z}$ under this identification is called the **[[nLab:fundamental class]]** 
+The precise choice of this [[nLab:isomorphism]] is a choice of [[nLab:orientation]] on $X$. With a choice of orientation, the element $1 \in \mathbb{Z}$ under this identification is called the **[[nLab:fundamental class]]**
 
 $$
   [X] \in H_n(X)
@@ -963,8 +963,8 @@ of the manifold $X$.
 +-- {: .num_defn #PushforwardOfChains}
 ###### Definition
 
-Given a [[nLab:continuous map]] $f : X \to Y$ between [[nLab:topological spaces]], 
-and given $n \in \mathbb{N}$, every singular $n$-simplex $\sigma : \Delta^n \to X$ in $X$ is sent to a singular $n$-simplex 
+Given a [[nLab:continuous map]] $f : X \to Y$ between [[nLab:topological spaces]],
+and given $n \in \mathbb{N}$, every singular $n$-simplex $\sigma : \Delta^n \to X$ in $X$ is sent to a singular $n$-simplex
 
 $$
   f_* \sigma : \Delta^n \stackrel{\sigma}{\to} X \stackrel{f}{\to} Y
@@ -974,7 +974,7 @@ in $Y$. This is called the **push-forward** of $\sigma$ along $f$. Accordingly t
 
 $$
   (f_*)_n : C_n(X) \to C_n(Y)
-  \,. 
+  \,.
 $$
 
 =--
@@ -1039,7 +1039,7 @@ $$
     &&
     \downarrow^{\mathrlap{\partial^D_{n-1}}}
     \\
-    \vdots && \vdots 
+    \vdots && \vdots
   }
   \,.
 $$
@@ -1047,11 +1047,11 @@ $$
 
 =--
 
-Composition of such chain maps is given by degreewise composition of their components. Clearly, chain complexes with chain maps between them hence form a [[nLab:category]] -- the _[[nLab:category of chain complexes]]_ in [[nLab:abelian groups]], --  which we write 
+Composition of such chain maps is given by degreewise composition of their components. Clearly, chain complexes with chain maps between them hence form a [[nLab:category]] -- the _[[nLab:category of chain complexes]]_ in [[nLab:abelian groups]], --  which we write
 
 $$
   Ch_\bullet(Ab))
-  \in 
+  \in
   Cat
   \,.
 $$
@@ -1061,7 +1061,7 @@ Accordingly we have:
 +-- {: .num_prop #SingularHomologyAsAFunctor}
 ###### Proposition
 
-Sending a topological space to its singular chain complex $C_\bullet(X)$, def. \ref{ComplexOfChainsOnASimplicialSet}, and a continuous map to its push-forward chain map, 
+Sending a topological space to its singular chain complex $C_\bullet(X)$, def. \ref{ComplexOfChainsOnASimplicialSet}, and a continuous map to its push-forward chain map,
 prop. \ref{PushForwardChainMap}, constitutes a [[nLab:functor]]
 
 $$
@@ -1097,12 +1097,12 @@ is an [[nLab:isomorphism]].
 
 (A proof (via [[nLab:CW approximations]]) is spelled out for instance in ([Hatcher, prop. 4.21](#Hatcher))).
 
-We therefore also have an "abelian analog" of weak homotopy equivalences: 
+We therefore also have an "abelian analog" of weak homotopy equivalences:
 
 +-- {: .num_defn }
 ###### Definition
 
-For $C_\bullet, D_\bullet$ two [[nLab:chain complexes]], 
+For $C_\bullet, D_\bullet$ two [[nLab:chain complexes]],
 a [[nLab:chain map]] $f_\bullet : C_\bullet \to D_\bullet$ is called a **[[nLab:quasi-isomorphism]]** if it induces [[nLab:isomorphisms]] on all [[nLab:homology groups]]:
 
 $$
@@ -1127,7 +1127,7 @@ The [[nLab:relation]] "There exists a [[nLab:quasi-isomorphism]] from $C_\bullet
 +-- {: .proof}
 ###### Proof
 
-Reflexivity and transitivity are evident. An explicit counter-example 
+Reflexivity and transitivity are evident. An explicit counter-example
 showing the non-symmetry is the [[nLab:chain map]]
 
 $$
@@ -1147,7 +1147,7 @@ This clearly induces an isomorphism on all homology groups. But there is not eve
 
 =--
 
-Accordingly, as for [[nLab:homotopy types]] of topological spaces, in [[nLab:homological algebra]] one regards two [[nLab:chain complexes]] 
+Accordingly, as for [[nLab:homotopy types]] of topological spaces, in [[nLab:homological algebra]] one regards two [[nLab:chain complexes]]
 $C_\bullet$, $D_\bullet$ as essentially equivalent -- "of the same weak homology type" -- if there is a [[zigzag]] of quasi-isomorphisms
 
 $$
@@ -1162,7 +1162,7 @@ But quasi-isomorphisms are a little _coarser_ than weak homotopy equivalences. T
 First we need a comparison map:
 
 +-- {: .num_defn #HurewiczHomomorphism}
-###### Definition 
+###### Definition
 **(Hurewicz homomorphism)**
 
 For $(X,x)$ a [[nLab:pointed object|pointed]] [[nLab:topological space]], the **Hurewicz homomorphism** is the [[nLab:function]]
@@ -1222,7 +1222,7 @@ $$
 
 =--
 
-For higher connected $X$ we have the 
+For higher connected $X$ we have the
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -1239,7 +1239,7 @@ is an [[nLab:isomorphism]].
 
 This is known as the _[[nLab:Hurewicz theorem]]_.
 
-This gives plenty of motivation for studying 
+This gives plenty of motivation for studying
 
 1. [[nLab:chain complexes]]
 
@@ -1256,29 +1256,36 @@ of chain complexes. This is essentially what [[nLab:homological algebra]] is abo
 
 ### **Model layer**
 
-A _[[homotopy 0-type]]_ is equivalently just a [[set]] (an [[h-set]]). A _[[homotopy 1-type]]_ is equivalently a _[[groupoid]]_. These we introduce and discuss below in 
+A _[[homotopy 0-type]]_ is equivalently just a [[set]] (an [[h-set]]). A _[[homotopy 1-type]]_ is equivalently a _[[groupoid]]_. These we introduce and discuss below in
 
 * _[Groupoids -- Homotopy 1-types](#Groupoids)_.
 
-A standard model for general [[homotopy types]] are _[[simplicial sets]]_ and in particular the _[[Kan complexes]]_ among them. These we introduce and discuss below in 
 
-* _[Kan complexes --  General homotopy types](#KanComplexes)_. 
+Another model for general [[homotopy types]] are _[[simplicial sets]]_ and in particular the _[[Kan complexes]]_ among them. These we introduce below in
 
-This model for [[homotopy theory]] is accordingly known as _[[simplicial homotopy theory]]_. This is a powerful model and happens to be the most highly developed one, it does however require a minimum of mathematical sophistication to be handled efficiently. This we look into below in 
+* _[Kan complexes --  General homotopy types](#KanComplexes)_.
 
-* _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
+But a simpler and more familiar structure turns out to be a model for the important subsector of "abelian" homotopy types, namely _[[chain complexes]]_. We recall fundamentals of these in
 
-But a simpler and more familiar structure turns out to be a model for the important subsector of "abelian" homotopy types, namely _[[chain complexes]]_. We recall fundamentals of these in 
-
-* _[Chain complexes --  Abelian homotopy types](#ChainComplexes)_. 
+* _[Chain complexes --  Abelian homotopy types](#ChainComplexes)_.
 
 As a model for abelian homotopy theory, this is nothing but _[[homological algebra]]_. We present the key constructions of homological algebra from the "derived" perspective that makes them fit well into homotopy theory below in
 
 * _[Abelian homtopy theory](#AbelianHomotopyTheory)_.
 
-The construction that embeds chain complexes into simplicial homotopy theory is the _[[Dold-Kan correspondence]]_ and the _[[Eilenberg-Zilber theorem]]_. This we discuss below in 
+The construction that embeds chain complexes into simplicial homotopy theory is the _[[Dold-Kan correspondence]]_ and the _[[Eilenberg-Zilber theorem]]_. This we discuss below in
 
 * _[Dold-Kan correspondence](#DoldKanCorrespondence)_
+
+A standard model for general homotopy types is given by [[topological spaces]]. This model and its formalization via
+[[model category]] theory we introduce in
+
+* _[Topological and abstract homotopy theory](#TopologicalAndAbstractHomotopyTheory)_
+
+Similarly there is a [[model category]] that reflects the homotopy theory of [[Kan complexes]], called _[[simplicial homotopy theory]]_. 
+This we look into below in
+
+* _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
 
 
 #### Groupoids -- Homotopy 1-types
@@ -1303,14 +1310,14 @@ A ([[small category|small]]) _[[groupoid]]_ $\mathcal{G}_\bullet$ is
     }\,,
   $$
 
-  where the [[fiber product]] on the left is that over $\mathcal{G}_1 \stackrel{t}{\to} \mathcal{G}_0 \stackrel{s}{\leftarrow} \mathcal{G}_1$, 
+  where the [[fiber product]] on the left is that over $\mathcal{G}_1 \stackrel{t}{\to} \mathcal{G}_0 \stackrel{s}{\leftarrow} \mathcal{G}_1$,
 
 such that
 
 * $i$ takes values in [[endomorphisms]];
 
   $$
-    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\; 
+    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\;
   $$
 
 * $\circ$ defines a partial [[composition]] operation which is [[associativity|associative]] and [[unitality|unital]] for $i(\mathcal{G}_0)$ the [[identities]]; in particular
@@ -1324,11 +1331,11 @@ such that
 +-- {: .num_remark }
 ###### Remark
 
-This data is visualized as follows. The set of morphisms is 
+This data is visualized as follows. The set of morphisms is
 
 $$
   \mathcal{G}_1
-  = 
+  =
   \left\{
     \phi_0 \stackrel{k}{\to} \phi_1
   \right\}
@@ -1362,7 +1369,7 @@ For $X$ a [[set]], it becomes a groupoid by taking $X$ to be the set of objects 
 
 $$
   \left(
-    X 
+    X
     \stackrel
     {\overset{id}{\longrightarrow}}
     {
@@ -1394,13 +1401,13 @@ $$
   \,.
 $$
 
-In 
+In
 particular a [[group character]] $c \colon G \to U(1)$ is equivalently a groupoid homomorphism
 
 $$
-  (\mathbf{B}c)_\bullet 
+  (\mathbf{B}c)_\bullet
    \;\colon\;
-   (\mathbf{B}G)_\bullet 
+   (\mathbf{B}G)_\bullet
      \to
    (\mathbf{B}U(1))_\bullet
   \,.
@@ -1423,7 +1430,7 @@ For $X $ a [[set]], $G$ a [[discrete group]] and $\rho \colon X \times G \to X$ 
 
 $$
   X//_\rho G
-  = 
+  =
   \left(
     X \times G
     \stackrel{\overset{\rho}{\longrightarrow}}{\underset{p_1}{\longrightarrow}}
@@ -1480,7 +1487,7 @@ This is known as the $G$-[[universal principal bundle]]. See below in \ref{Pullb
 +-- {: .num_example }
 ###### Example
 
-The [[interval]] $I$ is the groupoid with 
+The [[interval]] $I$ is the groupoid with
 
 * $I_0 = \{a,b\}$;
 * $I_1 = \{\mathrm{id}_a, \mathrm{id}_b, a \to  b \}$.
@@ -1505,7 +1512,7 @@ For $\mathcal{G}_\bullet$ any groupoid, there is the [[path space]] groupoid $\m
 
 * $\mathcal{G}^I_0 = \mathcal{G}_1 = \left\{ \array{ \phi_0 \\ \downarrow^{\mathrlap{k}} \\ \phi_1  } \right\}$;
 
-* $\mathcal{G}^I_1 = $ [[commuting diagram|commuting squares]] in $\mathcal{G}_\bullet$ = 
+* $\mathcal{G}^I_1 = $ [[commuting diagram|commuting squares]] in $\mathcal{G}_\bullet$ =
   $
     \left\{
        \array{
@@ -1517,7 +1524,7 @@ For $\mathcal{G}_\bullet$ any groupoid, there is the [[path space]] groupoid $\m
        }
     \right\}
     \,.
-  $   
+  $
 
 This comes with two canonical homomorphisms
 
@@ -1537,7 +1544,7 @@ This comes with two canonical homomorphisms
 
 For $f_\bullet, g_\bullet : \mathcal{G}_\bullet \to \mathcal{K}_\bullet$
 two morphisms between groupoids,
-  a _[[homotopy]]_ $f \Rightarrow g$ 
+  a _[[homotopy]]_ $f \Rightarrow g$
 (a [[natural transformation]]) is
   a homomorphism of the form $\eta_\bullet : \mathcal{G}_\bullet \to \mathcal{K}^I_\bullet$
   (with [[codomain]] the [[path space object]] of $\mathcal{K}_\bullet$ as in example \ref{PathSpaceGroupoid})
@@ -1577,8 +1584,8 @@ two morphisms between groupoids,
 
 Here and in the following, the convention is that we write
 
-* $\mathcal{G}_\bullet$ (with the subscript decoration) when we regard groupoids with just 
-homomorphisms ([[functors]]) between them, 
+* $\mathcal{G}_\bullet$ (with the subscript decoration) when we regard groupoids with just
+homomorphisms ([[functors]]) between them,
 
 * $\mathcal{G}$ (without the subscript decoration) when we regard groupoids
 with homomorphisms ([[functors]]) between them and [[homotopies]] ([[natural transformations]]) between these
@@ -1606,7 +1613,7 @@ The unbulleted version of groupoids are also called _[[homotopy 1-types]]_ (or o
 For $X,Y$ two groupoids, the [[internal hom|mapping groupoid]] $[X,Y]$ or $Y^X$ is
 
 * $[X,Y]_0 = $ homomorphisms $X \to Y$;
-* $[X,Y]_1 = $ homotopies between such. 
+* $[X,Y]_1 = $ homotopies between such.
 
 =--
 
@@ -1614,7 +1621,7 @@ For $X,Y$ two groupoids, the [[internal hom|mapping groupoid]] $[X,Y]$ or $Y^X$ 
 ###### Definition
 
   A ([[homotopy equivalence|homotopy-]]) _[[equivalence of groupoids]]_ is a morphism
-$\mathcal{G} \to \mathcal{K}$ which has a left and right [[inverse]] up to [[homotopy]].  
+$\mathcal{G} \to \mathcal{K}$ which has a left and right [[inverse]] up to [[homotopy]].
 
 =--
 
@@ -1636,7 +1643,7 @@ which picks any point and sends $n \in \mathbb{Z}$ to the loop based at that poi
 ###### Proposition
 
   Assuming the [[axiom of choice]] in the ambient [[set theory]],
-  every groupoid is equivalent to a disjoint union of 
+  every groupoid is equivalent to a disjoint union of
   [[delooping]] groupoids,
   example \ref{DeloopingGroupoid} -- a _[[skeleton]]_.
 
@@ -1645,12 +1652,12 @@ which picks any point and sends $n \in \mathbb{Z}$ to the loop based at that poi
 +-- {: .num_remark}
 ###### Remark
 
- The statement of prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings} 
+ The statement of prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings}
  becomes false as when we pass to groupoids that are equipped with
  [[geometry|geometric]] structure. This is the reason why for discrete geometry all  [[Chern-Simons theory|Chern-Simons]]-type field theories (namely [[Dijkgraaf-Witten theory]]-type theories) fundamentally involve just groups (and higher groups),
- while for nontrivial geometry there are genuine groupoid theories, 
- for instance the [[AKSZ sigma-models]]. But even so, 
- [[Dijkgraaf-Witten theory]] is usefully discussed in terms of groupoid technology, in particular since the choice of equivalence in 
+ while for nontrivial geometry there are genuine groupoid theories,
+ for instance the [[AKSZ sigma-models]]. But even so,
+ [[Dijkgraaf-Witten theory]] is usefully discussed in terms of groupoid technology, in particular since the choice of equivalence in
  prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings} is not canonical.
 
 =--
@@ -1658,7 +1665,7 @@ which picks any point and sends $n \in \mathbb{Z}$ to the loop based at that poi
 +-- {: .num_defn #HomotopyFiberProductOfGroupoids}
 ###### Definition
 
-Given two morphisms of groupoids 
+Given two morphisms of groupoids
 $X \stackrel{f}{\leftarrow} B \stackrel{g}{\to} Y$
 their _[[homotopy fiber product]]_
 
@@ -1702,7 +1709,7 @@ hence the ordinary iterated [[fiber product]] over the [[path space]] groupoid, 
 An ordinary fiber product $X_\bullet \underset{B_\bullet}{\times}Y_\bullet$ of groupoids is given simply by the fiber product of the underlying sets of objects and morphisms:
 
 $$
-  (X_\bullet \underset{B_\bullet}{\times}Y_\bullet)_i 
+  (X_\bullet \underset{B_\bullet}{\times}Y_\bullet)_i
   =
   X_i \underset{B_i}{\times} Y_i
   \,.
@@ -1788,8 +1795,8 @@ $$
   \,,
 $$
 
-In the middle we have the groupoid $(\mathbf{B}G)^I_\bullet$ whose objects are elements of $G$ and whose morphisms starting at some element are labeled by pairs of elements $h_1, h_2 \in G$ and end at $h_1 \cdot g \cdot h_2$. 
-Using remark \ref{FiberProductsOfGroupoidsComponentwise} 
+In the middle we have the groupoid $(\mathbf{B}G)^I_\bullet$ whose objects are elements of $G$ and whose morphisms starting at some element are labeled by pairs of elements $h_1, h_2 \in G$ and end at $h_1 \cdot g \cdot h_2$.
+Using remark \ref{FiberProductsOfGroupoidsComponentwise}
 the limiting cone is seen to precisely pick those morphisms in $(\mathbf{B}G_\bullet)^I_\bullet$ such that these two elements are constant on the neutral element $h_1 = h_2 = e = id_{\ast}$, hence it produces just the elements of $G$ regarded as a groupoid with only identity morphisms, as in example \ref{SetAsGroupoid}.
 
 =--
@@ -1821,7 +1828,7 @@ the [[path space object]] $[\Pi(S^0), X_\bullet]^I_\bullet$ has
 Now the fiber product in def. \ref{HomotopyFiberProductOfGroupoids}
 picks in there those pairs of morphisms for which both start at the same object, and both end at the same object. Therefore $X_\bullet \underset{[\Pi(S^0), X_\bullet]_\bullet}{\times} [\Pi(S^0), X_\bullet]^I_\bullet \underset{[\Pi(S^0), X_\bullet]_\bullet}{\times} X$ is the groupoid whose
 
-* objects are diagrams in $X_\bullet$ of the form 
+* objects are diagrams in $X_\bullet$ of the form
 
   $$
     \array{
@@ -1835,7 +1842,7 @@ picks in there those pairs of morphisms for which both start at the same object,
 
 * morphism are cylinder-diagrams over these.
 
-One finds along the lines of example 
+One finds along the lines of example
 \ref{BZIsPiSOne} that this is equivalent to maps from $\Pi_1(S^1)$ into $X_\bullet$ and homotopies between these.
 
 =--
@@ -1844,8 +1851,8 @@ One finds along the lines of example
 ###### Remark
 
 Even though all these models of the circle $\Pi_1(S^1)$ are equivalent,
-below the special appearance of the circle in the proof of 
-prop. \ref{FreeLoopSpaceOfGroupoid} as the combination of two semi-circles will be important for the following proofs. 
+below the special appearance of the circle in the proof of
+prop. \ref{FreeLoopSpaceOfGroupoid} as the combination of two semi-circles will be important for the following proofs.
 As we see in a moment, this is the natural way in which the circle
 appears as the composition of an [[evaluation map]] with a [[coevaluation map]].
 
@@ -1882,7 +1889,7 @@ $$
 +-- {: .num_example #GroupCharacterAsClassFunctionByFreeLoopSpace}
 ###### Example
 
-Let $c \colon G \to \flat U(1)$ be a group homomorphism, hence a [[group character]]. By example \ref{DeloopingGroupoid} this has a [[delooping]] to a groupoid homomorphism 
+Let $c \colon G \to \flat U(1)$ be a group homomorphism, hence a [[group character]]. By example \ref{DeloopingGroupoid} this has a [[delooping]] to a groupoid homomorphism
 
 $$
   \mathbf{B}c \;\colon\; \mathbf{B}G \to \mathbf{B}\flat U(1)
@@ -1895,17 +1902,17 @@ $$
   [\Pi(S^1), \mathbf{B}c]
   \;\colon\;
   [\Pi(S^1), \mathbf{B}G]
-  \to 
+  \to
   [\Pi(S^1), \mathbf{B}\flat U(1)]
 $$
 
-hence 
+hence
 
 $$
   [\Pi(S^1), \mathbf{B}c]
   \;\colon\;
   G//_{ad}G
-  \to 
+  \to
   \flat U(1) \times \mathbf{B}U(1)
   \,.
 $$
@@ -1916,7 +1923,7 @@ $$
   [\Pi(S^1), \mathbf{B}c]
   \;\colon\;
   G//_{ad}G
-  \to 
+  \to
   U(1)
   \,.
 $$
@@ -1933,14 +1940,14 @@ $$
 
 From the traditional concept of [[singular cohomology]] the idea of the [[chain complex]] of formal linear combinations of [[simplices]] in a [[topological space]] is familar. Here we discuss such [[nLab:chain complexes]] in their own right in a bit more depth.
 
-Often a singular chain is taken to be a formal sum of singular simplices with [[nLab:coefficients]] in the [[nLab:abelian group]] of [[nLab:integers]] $\mathbb{Z}$. It is just as straightforward, natural and useful to allow the [[nLab:coefficients]] to be an arbitrary [[nLab:abelian group]] $A$, or in fact to be a [[nLab:module]] over a ring. 
+Often a singular chain is taken to be a formal sum of singular simplices with [[nLab:coefficients]] in the [[nLab:abelian group]] of [[nLab:integers]] $\mathbb{Z}$. It is just as straightforward, natural and useful to allow the [[nLab:coefficients]] to be an arbitrary [[nLab:abelian group]] $A$, or in fact to be a [[nLab:module]] over a ring.
 
 So we start by developing a bit of the theory of [[nLab:abelian groups]], [[nLab:rings]] and [[nLab:modules]].
 
 +-- {: .num_defn}
 ###### Definition
 
-Write [[nLab:Ab]] $\in $ [[nLab:Cat]] for the [[nLab:category]] of [[nLab:abelian groups]] and [[nLab:group homomorphisms]] between them: 
+Write [[nLab:Ab]] $\in $ [[nLab:Cat]] for the [[nLab:category]] of [[nLab:abelian groups]] and [[nLab:group homomorphisms]] between them:
 
 * an [[nLab:object]] is a [[nLab:group]] $A$ such that for all elements $a_1, a_2 \in A$ we have that the group product of $a_1$ with $a_2$ is the same as that of $a_2$ with $a_1$, which we write $a_1 + a_2 \in A$ (and the neutral element is denoted by $0 \in A$);
 
@@ -1953,20 +1960,20 @@ Among the basic constructions that produce new abelian groups from given ones ar
 +-- {: .num_defn #BilinearOnAbelianGroups}
 ###### Definition
 
-For $A$, $B$ and $C$ [[nLab:abelian groups]] and $A \times B$ the [[nlab:cartesian product]] group, a **[[nLab:bilinear map]]** 
+For $A$, $B$ and $C$ [[nLab:abelian groups]] and $A \times B$ the [[nlab:cartesian product]] group, a **[[nLab:bilinear map]]**
 
 $$
   f : A \times B \to C
 $$
 
-is a [[nLab:function]] of the underlying [[nLab:sets]] which is linear -- hence is a [[nLab:group homomorphism]] -- in each argument separately. 
+is a [[nLab:function]] of the underlying [[nLab:sets]] which is linear -- hence is a [[nLab:group homomorphism]] -- in each argument separately.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-In terms of [[nLab:elements]] this means that 
+In terms of [[nLab:elements]] this means that
 a bilinear map $f : A \times B \to C$ is a function of sets that satisfies for all elements $a_1, a_2 \in A$ and $b_1, b_2 \in B$ the two relations
 
 $$
@@ -1981,7 +1988,7 @@ $$
 $$
 
 Notice that this is _not_ a group homomorphism out of the product group.
-The product group $A \times B$ is the group whose elements are pairs $(a,b)$ with $a \in A$ and $b \in B$, and whose group operation is 
+The product group $A \times B$ is the group whose elements are pairs $(a,b)$ with $a \in A$ and $b \in B$, and whose group operation is
 
 $$
   (a_1, b_1) + (a_2, b_2) = (a_1 + a_2 \;,\; b_1 + b_2)
@@ -2018,9 +2025,9 @@ which is (in general) different from the behaviour of a bilinear map.
 ###### Definition
 
 For $A, B$ two [[nLab:abelian groups]], their **[[nLab:tensor product of abelian groups]]** is the abelian group $A \otimes B$ which is the [[nLab:quotient group]] of the [[nLab:free group]] on the [[nLab:product]] ([[nLab:direct sum]]) $A \times B$
-by the [[nLab:generators and relations|relations]] 
+by the [[nLab:generators and relations|relations]]
 
-* $(a_1,b)+(a_2,b)\sim (a_1+a_2,b)$ 
+* $(a_1,b)+(a_2,b)\sim (a_1+a_2,b)$
 
 * $(a,b_1)+(a,b_2)\sim (a,b_1+b_2)$
 
@@ -2053,7 +2060,7 @@ A [[nLab:function]] of underlying sets $f : A \times B \to C$
 is a [[nLab:bilinear function]] precisely if it factors by the morphism of \ref{TheCanonicalMap} through a [[nLab:group homomorphism]] $\phi : A \otimes B \to C$ out of the tensor product:
 
 $$
-  f : A \times B \stackrel{\otimes}{\to}    
+  f : A \times B \stackrel{\otimes}{\to}
       A \otimes B
       \stackrel{\phi}{\to}
       C
@@ -2066,13 +2073,13 @@ $$
 +-- {: .num_prop #MonoidalStructureOnAb}
 ###### Proposition
 
-Equipped with the tensor product $\otimes$ of def. \ref{ExplicitTensorProduct} [[nlab:Ab]] becomes a [[nLab:monoidal category]]. 
+Equipped with the tensor product $\otimes$ of def. \ref{ExplicitTensorProduct} [[nlab:Ab]] becomes a [[nLab:monoidal category]].
 
-The [[nLab:unit object]] in $(Ab, \otimes)$ is the additive group of [[nLab:integers]] $\mathbb{Z}$. 
+The [[nLab:unit object]] in $(Ab, \otimes)$ is the additive group of [[nLab:integers]] $\mathbb{Z}$.
 
 =--
 
-This means: 
+This means:
 
 1. forming the tensor product is a [[nLab:functor]] in each argument
 
@@ -2102,7 +2109,7 @@ $$
   \,.
 $$
 
-Due to the quotient relation defining the tensor product, the element on the left is also equal to 
+Due to the quotient relation defining the tensor product, the element on the left is also equal to
 
 $$
   (a, n) = (a, \underbrace{1 + 1 \cdots + 1}_{n\; summands})
@@ -2138,7 +2145,7 @@ where $LCM(-,-)$ denotes the [[nLab:least common multiple]].
 
 Let $I \in $ [[nLab:Set]] be a [[nLab:set]] and $\{A_i\}_{i \in I}$ an $I$-indexed family of abelian groups. The **[[nLab:direct sum]]** $\oplus_{i \in I} \in Ab$ is the [[nLab:coproduct]] of these objects in [[nLab:Ab]].
 
-This means: the direct sum is an abelian group equipped with a collection of 
+This means: the direct sum is an abelian group equipped with a collection of
 homomorphisms
 
 $$
@@ -2152,7 +2159,7 @@ $$
   \,,
 $$
 
-which is characterized (up to unique [[nLab:isomorphism]]) by the following [[nLab:universal property]]: for every other abelian group $K$ equipped with maps 
+which is characterized (up to unique [[nLab:isomorphism]]) by the following [[nLab:universal property]]: for every other abelian group $K$ equipped with maps
 
 $$
   \array{
@@ -2164,7 +2171,7 @@ $$
   }
 $$
 
-there is a unique homomorphism $\phi : \oplus_{i \in I} A_i \to K$ such that 
+there is a unique homomorphism $\phi : \oplus_{i \in I} A_i \to K$ such that
 $ f_i = \phi \circ \iota_i$ for all $i \in I$.
 
 =--
@@ -2199,7 +2206,7 @@ $$
 +-- {: .num_prop #TensorProductDistributes}
 ###### Proposition
 
-The [[nLab:tensor product of abelian groups]] [[nLab:distributivity law|distributes]] over arbitrary [[nLab:direct sums]]: 
+The [[nLab:tensor product of abelian groups]] [[nLab:distributivity law|distributes]] over arbitrary [[nLab:direct sums]]:
 
 $$
   A \otimes (\oplus_{i \in I} B_i) \simeq \oplus_{i \in I} A \otimes B_o
@@ -2217,7 +2224,7 @@ $$
   \oplus_{i \in I} A \simeq (\oplus_{i \in I} \mathbb{Z}) \otimes A
   \simeq (\mathbb{Z}[I]) \otimes A
   \,.
-$$ 
+$$
 
 =--
 
@@ -2233,10 +2240,10 @@ This now gives us enough structure to define [[nLab:rings]] and consider basic e
 +-- {: .num_defn}
 ###### Definition
 
-A [[nlab:ring]] (unital and not-necessarily commutative) 
-is an [[nLab:abelian group]] $R$ equipped with 
+A [[nlab:ring]] (unital and not-necessarily commutative)
+is an [[nLab:abelian group]] $R$ equipped with
 
-1. an element $1 \in R$ 
+1. an element $1 \in R$
 
 1. a [[nLab:bilinear function|bilinear operation]], hence a [[nLab:group homomorphism]]
 
@@ -2244,7 +2251,7 @@ is an [[nLab:abelian group]] $R$ equipped with
      \cdot : R \otimes R \to R
    $$
 
-   out of the [[nLab:tensor product of abelian groups]], 
+   out of the [[nLab:tensor product of abelian groups]],
 
 such that this is [[nLab:associativity law|associative]] and [[nLab:unit law|unital]] with respect to 1.
 
@@ -2253,7 +2260,7 @@ such that this is [[nLab:associativity law|associative]] and [[nLab:unit law|uni
 +-- {: .num_remark}
 ###### Remark
 
-The fact that the product is a [[nLab:bilinear map]] is the 
+The fact that the product is a [[nLab:bilinear map]] is the
 **[[nLab:distributivity law]]**: for all $r, r_1, r_2 \in R$ we have
 
 $$
@@ -2273,7 +2280,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-* The [[nLab:integers]] $\mathbb{Z}$ are a ring under the standard addition and multiplication operation. 
+* The [[nLab:integers]] $\mathbb{Z}$ are a ring under the standard addition and multiplication operation.
 
 * For each  $n$, this induces a ring structure on the [[nLab:cyclic group]] $\mathbb{Z}_n$, given by operations in $\mathbb{Z}$ modulo $n$.
 
@@ -2284,7 +2291,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-For $R$ a ring, the [[nLab:polynomials]] 
+For $R$ a ring, the [[nLab:polynomials]]
 
 $$
   r_0 + r_1 x + r_2 x^2 + \cdots + r_n x^n
@@ -2298,7 +2305,7 @@ This is the [[nLab:free construction|free]] $R$-[[nLab:associative algebra]] on 
 +-- {: .num_example}
 ###### Example
 
-For $R$ a ring and $n \in \mathbb{N}$, the set 
+For $R$ a ring and $n \in \mathbb{N}$, the set
 $M(n,R)$
 of $n \times n$-[[nLab:matrices]] with [[nLab:coefficients]] in $R$
 is a ring under elementwise addition and [[nLab:matrix multiplication]].
@@ -2309,8 +2316,8 @@ is a ring under elementwise addition and [[nLab:matrix multiplication]].
 ###### Example
 
 For $X$ a [[nLab:topological space]], the set of [[nLab:continuous functions]]
-$C(X,\mathbb{R})$ or $C(X,\mathbb{C})$ with values in the 
-[[nLab:real numbers]] or [[nLab:complex numbers]] is a ring under pointwise 
+$C(X,\mathbb{R})$ or $C(X,\mathbb{C})$ with values in the
+[[nLab:real numbers]] or [[nLab:complex numbers]] is a ring under pointwise
 (points in $X$) addition and multiplication.
 
 =--
@@ -2320,7 +2327,7 @@ Just as an outlook and a suggestion for how to think geometrically of the object
 +-- {: .num_remark #GelfandDuality}
 ###### Remark
 
-The _[[nLab:Gelfand duality]] theorem_ says that if one remembers certain extra structure on the rings of functions $C(X, \mathbb{C})$ in example \ref{FunctionsOnTopologicalSpace} -- called the structure of a _[[nLab:C-star algebra]]_, then this construction 
+The _[[nLab:Gelfand duality]] theorem_ says that if one remembers certain extra structure on the rings of functions $C(X, \mathbb{C})$ in example \ref{FunctionsOnTopologicalSpace} -- called the structure of a _[[nLab:C-star algebra]]_, then this construction
 
 $$
   C(-,\mathbb{C}) : Top \stackrel{\simeq}{\to} C^\ast Alg^{op} \stackrel{forget}{\to}
@@ -2333,7 +2340,7 @@ is an [[nLab:equivalence of categories]] between that of topological spaces, and
 
 
 
-From now on and throughout, we take $R$ to be a [[nLab:commutative ring]]. 
+From now on and throughout, we take $R$ to be a [[nLab:commutative ring]].
 
 
 +-- {: .num_defn }
@@ -2347,7 +2354,7 @@ A **module** $N$ over a ring $R$ is
 
    $$
      \alpha : R \otimes N \to N
-   $$ 
+   $$
 
    in [[nLab:Ab]]; hence a [[nLab:function]] of the underlying [[nLab:sets]] that sends elements
 
@@ -2373,14 +2380,14 @@ A **module** $N$ over a ring $R$ is
 
    $$
      \array{
-        R \otimes R \otimes N 
+        R \otimes R \otimes N
         &\stackrel{\cdot_R \otimes Id_N}{\to}& R \otimes N
         \\
-        {}^{\mathllap{Id_R \otimes \alpha}}\downarrow 
-        && 
+        {}^{\mathllap{Id_R \otimes \alpha}}\downarrow
+        &&
         \downarrow^{\mathrlap{\alpha}}
         \\
-        R \otimes N &\to& N 
+        R \otimes N &\to& N
      }
    $$
 
@@ -2402,8 +2409,8 @@ A **module** $N$ over a ring $R$ is
         && N
      }
    $$
-     
-   commutes, which means that on elements as above 
+
+   commutes, which means that on elements as above
 
    $$
      1 \cdot n = n
@@ -2510,14 +2517,14 @@ For $R = \mathbb{Z}$ we have $\mathbb{Z} Mod \simeq Ab$.
 +-- {: .num_example #ModulesOfSectionsOfTopologicalVectorBundle}
 ###### Example
 
-Let $X$ be a [[nLab:topological space]] and let 
+Let $X$ be a [[nLab:topological space]] and let
 
 $$
   R \coloneqq  C(X,\mathbb{C})
 $$
 
-be the ring of [[nLab:continuous functions]] on $X$ with values in the 
-[[nLab:complex numbers]]. 
+be the ring of [[nLab:continuous functions]] on $X$ with values in the
+[[nLab:complex numbers]].
 
 Given a complex [[nLab:vector bundle]] $E \to X$ on $X$, write $\Gamma(E)$
 for its set of continuous sections. Since for each point $x \in X$ the [[nLab:fiber]] $E_x$ of $E$ over $x$ is a $\mathbb{C}$-module (by example \ref{VectorSpacesArekModules}), $\Gamma(X)$ is a $C(X,\mathbb{C})$-module.
@@ -2529,9 +2536,9 @@ Just as an outlook and a suggestion for how to think of modules geometrically, w
 +-- {: .num_remark #SerreSwan}
 ###### Remark
 
-The _[[nLab:Serre-Swan theorem]]_ says that 
+The _[[nLab:Serre-Swan theorem]]_ says that
 if $X$ is [[nLab:Hausdorff topological space|Hausdorff]] and [[nLab:compact topological space|compact]] with ring of functions $C(X,\mathbb{C})$ -- as in remark \ref{GelfandDuality} above
--- then $\Gamma(X)$ is a _[[nLab:projective module|projective]]_ $C(X,\mathbb{C})$-module and indeed there is an 
+-- then $\Gamma(X)$ is a _[[nLab:projective module|projective]]_ $C(X,\mathbb{C})$-module and indeed there is an
 [[nLab:equivalence of categories]] between projective $C(X,\mathbb{C})$-modules and complex vector bundles over $X$.
 (We introduce the notion of _[[nLab:projective modules]]_ below in [Derived categories and derived functors](#DerivedCategoriesAndDerivedFunctors).)
 
@@ -2539,7 +2546,7 @@ if $X$ is [[nLab:Hausdorff topological space|Hausdorff]] and [[nLab:compact topo
 
 
 
-We now discuss a bunch of properties of the category $R$[[nLab:Mod]] which together will show that there is a reasonable concept of [[nLab:chain complexes]] of $R$-modules, in generalization of how there is a good concept of chain complexes of abelian groups. In a more abstract [[nLab:category theory|category theoretical]] context than we invoke here, all of the following properties are summarized in the following statement. 
+We now discuss a bunch of properties of the category $R$[[nLab:Mod]] which together will show that there is a reasonable concept of [[nLab:chain complexes]] of $R$-modules, in generalization of how there is a good concept of chain complexes of abelian groups. In a more abstract [[nLab:category theory|category theoretical]] context than we invoke here, all of the following properties are summarized in the following statement.
 
 +-- {: .num_theorem #RModIsAbelian}
 ###### Theorem
@@ -2668,7 +2675,7 @@ In the category [[nLab:Ab]] of [[nLab:abelian groups]] the cokernel of a morphis
 
 $R Mod$ has all [[nLab:kernels]]. The kernel of a homomorphism $f : N_1 \to N_2$ is the set-theoretic [[nLab:preimage]] $U(f)^{-1}(0)$ equipped with the induced $R$-module structure.
 
-$R Mod$ has all [[nLab:cokernels]]. The cokernel of a homomorphism $f : N_1 \to N_2$ is the [[nLab:quotient]] abelian group 
+$R Mod$ has all [[nLab:cokernels]]. The cokernel of a homomorphism $f : N_1 \to N_2$ is the [[nLab:quotient]] abelian group
 
 $$
   coker f = \frac{N_2}{im(f)}
@@ -2694,7 +2701,7 @@ A homomorphism $f : N_1 \to N_2$ in $R Mod$ is a [[nLab:monomorphism]] / [[nLab:
 
 Suppose that $f$ is a [[nLab:monomorphism]], hence that $f : N_1 \to N_2$ is such that for all morphisms $g_1, g_2 : K \to N_1$ such that $f \circ g_1 = f \circ g_2$ already $g_1 = g_2$. Let then $g_1$ and $g_2$ be the inclusion of [[nLab:submodules]] generated by a single element $k_1 \in K$ and $k_2 \in K$, respectively. It follows that if $f(k_1) = f(k_2)$ then already $k_1 = k_2$ and so $f$ is an [[nLab:injection]].  Conversely, if $f$ is an injection then its image is a [[nLab:submodule]] and it follows directly that $f$ is a monomorphism.
 
-Suppose now that $f$ is an [[nLab:epimorphism]] and hence that $f : N_1 \to N_2$ is such that for all morphisms $g_1, g_2 : N_2 \to K$ such that $f \circ g_1 = f \circ g_2$ already $g_1 = g_2$. 
+Suppose now that $f$ is an [[nLab:epimorphism]] and hence that $f : N_1 \to N_2$ is such that for all morphisms $g_1, g_2 : N_2 \to K$ such that $f \circ g_1 = f \circ g_2$ already $g_1 = g_2$.
 Let then $g_1 : N_2 \to \frac{N_2}{im(f)}$ be the natural projection. and let $g_2 : N_2 \to 0$ be the [[nLab:zero morphism]]. Since by construction $f \circ g_1 = 0$ and $f \circ g_2 = 0$ we have that $g_1 = 0$, which means that $\frac{N}{im(f)} = 0$ and hence that $N = im(f)$ and so that $f$ is surjective. The other direction is evident on elements.
 
 =--
@@ -2723,16 +2730,16 @@ $$
   Hom(N_1, N_2) \otimes Hom(N_2,N_3) \to Hom(N_1, N_3)
 $$
 
-out of the [[nLab:tensor product of abelian groups]]. 
+out of the [[nLab:tensor product of abelian groups]].
 
-This makes $R Mod$ into an [[nLab:Ab-enriched category]]. 
+This makes $R Mod$ into an [[nLab:Ab-enriched category]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Linearity of composition in the second argument is immediate from the pointwise definition of the abelian group structure on morphisms. 
+Linearity of composition in the second argument is immediate from the pointwise definition of the abelian group structure on morphisms.
 Linearity of the composition in the first argument comes down to linearity of the second module homomorphism.
 
 =--
@@ -2751,14 +2758,14 @@ Prop. \ref{RModHasZeroObject} and prop. \ref{RModIsAbEnriched} together say that
 +-- {: .num_cor #RModIsAdditive}
 ###### Corollary
 
-$R Mod$ is an [[nLab:pre-additive category]]. 
+$R Mod$ is an [[nLab:pre-additive category]].
 
 =--
 
 +-- {: .num_prop #RModHasProductsAndCoproducts}
 ###### Proposition
 
-$R Mod$ has all [[nLab:products]] and [[nLab:coproducts]], being [[nLab:direct products]] and  [[nLab:direct sums]]. 
+$R Mod$ has all [[nLab:products]] and [[nLab:coproducts]], being [[nLab:direct products]] and  [[nLab:direct sums]].
 
 The products are given by [[nLab:cartesian product]] of the underlying sets with componentwise addition and $R$-action.
 
@@ -2769,7 +2776,7 @@ The direct sum is the subobject of the product consisting of tuples of elements 
 +-- {: .proof}
 ###### Proof
 
-The defining [[nLab:universal properties]] are directly checked. Notice that the direct product $\prod_{i \in I} N_i$ consists of arbitrary tuples because it needs to have a projection map 
+The defining [[nLab:universal properties]] are directly checked. Notice that the direct product $\prod_{i \in I} N_i$ consists of arbitrary tuples because it needs to have a projection map
 
 $$
   p_j : \prod_{i \in I} N_i \to N_j
@@ -2822,23 +2829,23 @@ Now we finally have all the ingredients to talk about chain complexes of $R$-mod
 +-- {: .num_defn}
 ###### Definition
 
-A ($\mathbb{Z}$-graded) **chain complex** in $R$[[nLab:Mod]] is 
+A ($\mathbb{Z}$-graded) **chain complex** in $R$[[nLab:Mod]] is
 
-* a collection of [[nLab:objects]] $\{C_n\}_{n\in\mathbb{Z}}$, 
+* a collection of [[nLab:objects]] $\{C_n\}_{n\in\mathbb{Z}}$,
 
 * and of [[nLab:morphisms]] $\partial_n : C_n \to C_{n-1}$
 
-$$ 
+$$
   \cdots \overset{\partial_3}{\to} C_2 \overset{\partial_2}{\to} C_1 \overset{\partial_1}{\to} C_0 \overset{\partial_0}{\to} C_{-1} \overset{\partial_{-1}}{\to} \cdots
 $$
 
-such that 
+such that
 
 $$
   \partial_n  \circ \partial_{n+1} = 0
-$$ 
+$$
 
-(the [[nLab:zero morphism]]) for all $n \in \mathbb{N}$.  
+(the [[nLab:zero morphism]]) for all $n \in \mathbb{N}$.
 
 =--
 
@@ -2852,13 +2859,13 @@ For $C_\bullet$ a chain complex and $n \in \mathbb{N}$
 * the [[nLab:element in an abelian category|elements]] of $C_n$
   are called the **$n$-[[nLab:chains]]**;
 
-* for $n \geq 1$ the elements in the [[nLab:kernel]] 
+* for $n \geq 1$ the elements in the [[nLab:kernel]]
 
   $$
     Z_n \coloneqq ker(\partial_{n-1})
   $$
 
-  of $\partial_{n-1} : C_n \to C_{n-1}$ are called the **$n$-[[nLab:cycles]]** 
+  of $\partial_{n-1} : C_n \to C_{n-1}$ are called the **$n$-[[nLab:cycles]]**
 
   and for $n = 0$ we say that every 0-chain is a 0-cycle
 
@@ -2868,7 +2875,7 @@ For $C_\bullet$ a chain complex and $n \in \mathbb{N}$
 
   (equivalently we declare that $\partial_{-1} = 0$).
 
-* the elements in the [[nLab:image]] 
+* the elements in the [[nLab:image]]
 
   $$
     B_n \coloneqq im(\partial_n)
@@ -2883,7 +2890,7 @@ $$
   \,.
 $$
 
-* the [[nLab:cokernel]] 
+* the [[nLab:cokernel]]
 
   $$
     H_n \coloneqq Z_n/B_n
@@ -2908,13 +2915,13 @@ $$
   \array{
     V_{n+1} &\stackrel{d^V_n}{\to}& V_n
     \\
-    \downarrow^{\mathrlap{f_{n+1}}} 
+    \downarrow^{\mathrlap{f_{n+1}}}
     &&
-    \downarrow^{\mathrlap{f_{n}}} 
+    \downarrow^{\mathrlap{f_{n}}}
     \\
     W_{n+1} &\stackrel{d^W_n}{\to} & W_n
   }
-$$ 
+$$
 
 [[nLab:commuting diagram|commute]], hence such that all the [[nLab:equations]]
 
@@ -3000,9 +3007,9 @@ $$
   \,,
 $$
 
-where $\partial^I_0 = (-id, id)$. 
+where $\partial^I_0 = (-id, id)$.
 
-This is the [[nLab:normalized chain complex]] of the [[nLab:chain on a simplicial set|simplicial chain complex]] of the standard simplicial interval, the 1-[[nLab:simplex]] $\Delta_1$, which means: we may think of 
+This is the [[nLab:normalized chain complex]] of the [[nLab:chain on a simplicial set|simplicial chain complex]] of the standard simplicial interval, the 1-[[nLab:simplex]] $\Delta_1$, which means: we may think of
 
 $$
  I_0 = R \oplus R \simeq R[ \{(0), (1)\} ]
@@ -3019,13 +3026,13 @@ as the free $R$-module on the single basis element which is the unique non-degen
 Accordingly, the [[nLab:differential]] $\partial^I_0$ is the oriented [[nLab:boundary]] map of the interval, taking this basis element to
 
 $$
-  \partial^I_0 : (0 \to 1) \mapsto (1) - (0) 
+  \partial^I_0 : (0 \to 1) \mapsto (1) - (0)
 $$
 
-and hence a general element $r\cdot(0 \to 1)$ for some $r \in R$ to 
+and hence a general element $r\cdot(0 \to 1)$ for some $r \in R$ to
 
 $$
-  \partial^I_0 : r\cdot(0 \to 1) \mapsto r\cdot (1) - r\cdot(0) 
+  \partial^I_0 : r\cdot(0 \to 1) \mapsto r\cdot (1) - r\cdot(0)
   \,.
 $$
 
@@ -3040,16 +3047,16 @@ By definition and using the above choice of [[nLab:basis]] element, this is in l
 
 $$
   \begin{aligned}
-    S_0 
-    &=  
-    I_0 \oplus I_0 
+    S_0
+    &=
+    I_0 \oplus I_0
     \\
     & =
     (R \oplus R) \otimes (R \oplus R)
     \\
     & \simeq R \oplus R \oplus R \oplus R
     \\
-    & = 
+    & =
     \left\{
        r_{00} \cdot ((0),(0)')
        +
@@ -3071,13 +3078,13 @@ $$
   r ( (0), (1)') = (r(0), (1)') = ((0), r(1)')
 $$
 
-etc. 
+etc.
 
 Similarly then, in degree-1 the tensor product chain complex is
 
 $$
   \begin{aligned}
-     (I \otimes I)_1 
+     (I \otimes I)_1
      & =
      (I_0 \otimes I_1) \oplus (I_1 \otimes I_0)
      \\
@@ -3090,9 +3097,9 @@ $$
      & \simeq
      \left\{
        r_{0} \cdot ((0),(0\to 1)')
-       + 
+       +
        r_{1} \cdot ((1), (0 \to 1)')
-       + 
+       +
        \bar r_0 \cdot ((0\to 1), (0)')
        +
        \bar r_1 \cdot ((0 \to 1), (1)')
@@ -3103,7 +3110,7 @@ $$
   \,.
 $$
 
-And finally in degree 2 it is 
+And finally in degree 2 it is
 
 $$
   \begin{aligned}
@@ -3137,8 +3144,8 @@ $$
      ((1),(1)')
      \\
      \\
-     {}^{\mathllap{((0),(0\to 1)')}}\uparrow 
-     &&\righttoleftarrow^{((0 \to 1), (0\to 1)')}&& 
+     {}^{\mathllap{((0),(0\to 1)')}}\uparrow
+     &&\righttoleftarrow^{((0 \to 1), (0\to 1)')}&&
      \uparrow^{\mathrlap{((1),(0 \to 1)')}}
      \\
      \\
@@ -3159,13 +3166,13 @@ $$
     + (-1)^1
     ((0\to 1), \partial^I (0))
     \\
-    & = 
+    & =
     ( (1) - (0), \;(0)' )
     - 0
     \\
-    & = 
+    & =
     ((1), (0)') - ((0), (0)')
-  \end{aligned} 
+  \end{aligned}
 $$
 
 says that the oriented [[nLab:boundary]] of the bottom morphism is the bottom right element (its target) minus the bottom left element (its source), as indicated. Here we used that the differential of a degree-0 element in $I_\bullet$ is 0, and hence so is any tensor product with it.
@@ -3177,15 +3184,15 @@ $$
     \partial^{I \otimes I} ((0 \to 1), (0 \to 1)')
     &=
     (\partial^I (0 \to 1), (0 \to 1)')
-    - 
+    -
     ((0 \to 1), \partial^I(0 \to 1))
     \\
-    & = 
+    & =
     ((1)- (0), (0 \to 1)')
     -
     ((0 \to 1), (1)' - (0)')
     \\
-    & = 
+    & =
     ((1), (0 \to 1)')
     -
     ((0), (0 \to 1)')
@@ -3212,7 +3219,7 @@ which can be read as saying that the boundary is the evident boundary thought of
 Equipped with the standard [[nLab:tensor product of chain complexes]] $\otimes$, def. \ref{TensorProductOfChainComplexes}
 the category of chain complexes is a [[nLab:monoidal category]]
 $(Ch_\bullet(R Mod), \otimes)$. The [[nLab:unit object]]
-is the chain complex concentrated in degree 0 on the tensor unit $R$ of $R Mod$. 
+is the chain complex concentrated in degree 0 on the tensor unit $R$ of $R Mod$.
 
 =--
 
@@ -3230,7 +3237,7 @@ For $X,Y \in Ch^{ub}_\bullet(\mathcal{A})$ any two [[nLab:objects]], define a ch
 
 $$
   [X,Y]_n := \prod_{i \in \mathbb{Z}} Hom_{R Mod}(X_i, Y_{i+n})
-$$ 
+$$
 
 (the collection of degree-$n$ maps between the underlying [[nLab:graded object|graded]] modules) and whose [[nLab:differential]] is defined on homogeneously graded elements $f \in [X,Y]_n$ by
 
@@ -3242,11 +3249,11 @@ $$
 This defines a [[nLab:functor]]
 
 $$
-  [-,-] 
-   : 
+  [-,-]
+   :
   Ch^{ub}_\bullet(\mathcal{A})^{op} \times
   Ch^{ub}_\bullet(\mathcal{A})
-  \to 
+  \to
   Ch^{ub}_\bullet(\mathcal{A})
   \,.
 $$
@@ -3256,7 +3263,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-This functor 
+This functor
 
 $[-,-] : Ch^{ub}_\bullet \times Ch^{ub}_\bullet \to Ch^{ub}_\bullet$
 
@@ -3282,7 +3289,7 @@ The [[nLab:chain homology]] of the [[nLab:internal hom]] $[X,Y]$ in degree 0 coi
 +-- {: .proof}
 ###### Proof
 
-By Definition \ref{ExplicitDefinitionOfInternalHom} the 0-cycles in $[X,Y]$ are collections of morphisms $\{f_k : X_k \to Y_k\}$ such that 
+By Definition \ref{ExplicitDefinitionOfInternalHom} the 0-cycles in $[X,Y]$ are collections of morphisms $\{f_k : X_k \to Y_k\}$ such that
 
 $$
   f_{k+1} \circ d_X = d_Y \circ f_k
@@ -3306,14 +3313,14 @@ precisely the [[null homotopies]].
 +-- {: .num_prop }
 ###### Proposition
 
-The [[nLab:monoidal category]] $(Ch_\bullet, \otimes)$ is a [[nLab:closed monoidal category]], 
+The [[nLab:monoidal category]] $(Ch_\bullet, \otimes)$ is a [[nLab:closed monoidal category]],
 the [[nLab:internal hom]] is the standard [[nLab:internal hom of chain complexes]].
 
 =--
 
 
 
-##### Homology exact sequences 
+##### Homology exact sequences
  {#HomotopyHomologyFiberSequence}
 
 With the basic definition of the [[nLab:category of chain complexes]] in hand,
@@ -3332,7 +3339,7 @@ $$
 An **[[nLab:exact sequence]]** in $\mathcal{A}$ is a [[nLab:chain complex]] $C_\bullet$ in $\mathcal{A}$ with vanishing [[nLab:chain homology]] in each degree:
 
 $$
-  \forall n \in \mathbb{N} . H_n(C) = 0 
+  \forall n \in \mathbb{N} . H_n(C) = 0
   \,.
 $$
 
@@ -3348,7 +3355,7 @@ $$
   \,.
 $$
 
-One usually writes this just "$0 \to A \to B \to C \to 0$" or even just "$A \to B \to C$". 
+One usually writes this just "$0 \to A \to B \to C \to 0$" or even just "$A \to B \to C$".
 
 =--
 
@@ -3365,9 +3372,9 @@ Beware that there is a difference between $A \to B \to C$ being exact (at $B$) a
 +-- {: .num_prop #CharacterizationOfShortExactSequences}
 ###### Proposition
 
-Explicitly, a sequence of morphisms 
+Explicitly, a sequence of morphisms
 
-$$ 
+$$
   0 \to A \stackrel{i}\to B \stackrel{p}\to C  \to 0
 $$
 
@@ -3375,7 +3382,7 @@ in $\mathcal{A}$ is short exact, def. \ref{ShortExactSequence}, precisely if
 
 1. $i$ is a [[nLab:monomorphism]],
 
-1. $p$ is an [[nLab:epimorphism]], 
+1. $p$ is an [[nLab:epimorphism]],
 
 1. and the [[nLab:image]] of $i$ equals the [[nLab:kernel]] of $p$  (equivalently, the [[nLab:coimage]] of $p$ equals the [[nLab:cokernel]] of $i$).
 
@@ -3388,13 +3395,13 @@ The third condition is the definition of exactness at $B$. So we need to show th
 
 This is easy to see by looking at elements when $\mathcal{A} \simeq R$[[nLab:Mod]], for some ring $R$ (and the general case can be reduced to this one using one of the [embedding theorems](http://ncatlab.org/nlab/show/abelian%20category#EmbeddingTheorems)):
 
-The sequence being exact at 
+The sequence being exact at
 
 $$
   0 \to A \to B
 $$
 
-means, since the [[nLab:image]] of $0 \to A$ is just the element $0 \in A$, that the [[nLab:kernel]] of $A \to B$ consists of just this element. But since $A \to B$ is a [[nLab:group homomorphism]], this means equivalently that $A \to B$ is an [[nLab:injection]]. 
+means, since the [[nLab:image]] of $0 \to A$ is just the element $0 \in A$, that the [[nLab:kernel]] of $A \to B$ consists of just this element. But since $A \to B$ is a [[nLab:group homomorphism]], this means equivalently that $A \to B$ is an [[nLab:injection]].
 
 Dually, the sequence being exact at
 
@@ -3434,7 +3441,7 @@ $$
   \,,
 $$
 
-then $\partial_n$ is an [[nLab:isomorphism]] and hence 
+then $\partial_n$ is an [[nLab:isomorphism]] and hence
 
 $$
   C_{n+1} \simeq C_n
@@ -3454,7 +3461,7 @@ A [[nLab:short exact sequence]] $0\to A \stackrel{i}{\to} B \stackrel{p}{\to} C\
 
 1. There exists a [[nLab:retract]] of $i$, hence a homomorphism $r \colon B\to A$ such that $r \circ i = id_A$.
 
-1. There exists an [[nLab:isomorphism]] of sequences with the sequence 
+1. There exists an [[nLab:isomorphism]] of sequences with the sequence
 
    $$
      0\to A\to A\oplus C\to C\to 0
@@ -3477,11 +3484,11 @@ The three conditions in def. \ref{SplitnessInAbelianCategory} are indeed [[nLab:
 
 It is clear that the third condition implies the first two: take the section/retract to be given by the canonical injection/projection maps that come with a [[nLab:direct sum]].
 
-Conversely, suppose we have a retract $r \colon B \to A$ of $i \colon A \to B$. Write $P \colon B \stackrel{r}{\to} A \stackrel{i}{\to} B$ for the composite.  Notice that by $r\circ i = id$ this is an [[nLab:idempotent]]: $P \circ P = P$, hence a [[nLab:projector]]. 
+Conversely, suppose we have a retract $r \colon B \to A$ of $i \colon A \to B$. Write $P \colon B \stackrel{r}{\to} A \stackrel{i}{\to} B$ for the composite.  Notice that by $r\circ i = id$ this is an [[nLab:idempotent]]: $P \circ P = P$, hence a [[nLab:projector]].
 
 Then every element $b \in B$ can be decomposed as $b = (b - P(b)) + P(b)$ hence with $b - P(b) \in ker(r)$ and $P(b) \in im(i)$. Moreover this decomposition is unique since if $b = i(a)$ while at the same time $r(b) = 0$ then $0 = r(i(a)) = a$. This shows that $B \simeq im(i) \oplus ker(r)$ is a [[nLab:direct sum]] and that $i \colon A \to B$ is the canonical inclusion of $im(i)$. By exactness it then follows that $ker(r) \simeq ker(p)$ and hence that $B \simeq A \oplus C$ with the canonical inclusion and projection.
 
-The implication that the second condition also implies the third is formally dual to this argument. 
+The implication that the second condition also implies the third is formally dual to this argument.
 
 =--
 
@@ -3510,7 +3517,7 @@ is a short exact sequence in $\mathcal{A}$, according to def. \ref{ShortExactSeq
 +-- {: .num_defn #ConnectingForHomologyInComponents}
 ###### Definition
 
-Consider a short exact sequence of chain complexes as in 
+Consider a short exact sequence of chain complexes as in
 def. \ref{ShortExactSequenceOfChainComplexes}.
 For $n \in \mathbb{Z}$, define a [[nLab:group homomorphism]]
 
@@ -3526,9 +3533,9 @@ $$
   \,,
 $$
 
-where 
+where
 
-1. $c \in Z_n(C)$ is a [[nLab:cycle]] representing the given [[nLab:homology group]] $[c]$; 
+1. $c \in Z_n(C)$ is a [[nLab:cycle]] representing the given [[nLab:homology group]] $[c]$;
 
 1. $\hat c \in C_n(B)$ is any lift of that cycle to an element in $B_n$, which exists because $p$ is a [[nLab:surjection]] (but which no longer needs to be a cycle itself);
 
@@ -3540,7 +3547,7 @@ where
 +-- {: .num_prop}
 ###### Proposition
 
-Def. \ref{ConnectingForHomologyInComponents} is indeed well defined in that 
+Def. \ref{ConnectingForHomologyInComponents} is indeed well defined in that
 the given map is independent of the choice of lift $\hat c$ involved and in that the group structure is respected.
 
 =--
@@ -3548,12 +3555,12 @@ the given map is independent of the choice of lift $\hat c$ involved and in that
 +-- {: .proof}
 ###### Proof
 
-To see that the construction is well-defined, let $\tilde c \in B_{n}$ be another lift. Then $p(\hat c - \tilde c) = 0$ and hence 
+To see that the construction is well-defined, let $\tilde c \in B_{n}$ be another lift. Then $p(\hat c - \tilde c) = 0$ and hence
 $\hat c - \tilde c \in A_n \hookrightarrow B_n$.
 This exhibits a homology-equivalence $[\partial^B\hat c]_A \simeq [\partial^B \tilde c]_A$ since
 $
-  \partial^A(\hat c - \tilde c) 
-  = 
+  \partial^A(\hat c - \tilde c)
+  =
   \partial^B \hat c - \partial^B \tilde c$.
 
 
@@ -3569,9 +3576,9 @@ Under [[nLab:chain homology]] $H_\bullet(-)$ the morphisms in the short exact se
 $$
   \cdots
    \to
-  H_n(A) \to H_n(B) \to H_n(C) 
+  H_n(A) \to H_n(B) \to H_n(C)
    \stackrel{\delta_n}{\to}
-  H_{n-1}(A) \to H_{n-1}(B) \to H_{n-1}(C)   
+  H_{n-1}(A) \to H_{n-1}(B) \to H_{n-1}(C)
    \to
   \cdots
   \,.
@@ -3582,11 +3589,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Consider first the exactness of $H_n(A) \stackrel{H_n(i)}{\to} H_n(B) 
+Consider first the exactness of $H_n(A) \stackrel{H_n(i)}{\to} H_n(B)
 \stackrel{H_n(p)}{\to} H_n(C)$.
 
 It is clear that if $a \in Z_n(A) \hookrightarrow Z_n(B)$ then the image of $[a] \in H_n(B)$ is $[p(a)] = 0 \in H_n(C)$.
-Conversely, an element $[b] \in H_n(B)$ is in the kernel of $H_n(p)$ if there is $c \in C_{n+1}$ with $\partial^C c = p(b)$. Since $p$ is surjective let $\hat c \in B_{n+1}$ be any lift, then $[b] =  [b - \partial^B \hat c]$ but $p(b - \partial^B c) = 0$ hence by exactness $b - \partial^B \hat c \in Z_n(A) \hookrightarrow Z_n(B)$ and so $[b]$ is in the image of $H_n(A) \to H_n(B)$. 
+Conversely, an element $[b] \in H_n(B)$ is in the kernel of $H_n(p)$ if there is $c \in C_{n+1}$ with $\partial^C c = p(b)$. Since $p$ is surjective let $\hat c \in B_{n+1}$ be any lift, then $[b] =  [b - \partial^B \hat c]$ but $p(b - \partial^B c) = 0$ hence by exactness $b - \partial^B \hat c \in Z_n(A) \hookrightarrow Z_n(B)$ and so $[b]$ is in the image of $H_n(A) \to H_n(B)$.
 
 
 It remains to see that
@@ -3598,7 +3605,7 @@ It remains to see that
 This follows by inspection of the formula in def. \ref{ConnectingForHomologyInComponents}. We spell out the first one:
 
 If $[c]$ is in the image of $H_n(B) \to H_n(C)$ we have a lift $\hat c$ with $\partial^B \hat c = 0$ and so $\delta_n[c] = [\partial^B \hat c]_A  = 0$. Conversely, if for a given lift $\hat c$ we have that $[\partial^B \hat c]_A = 0$ this means there is $a \in A_n$ such that $\partial^A a \coloneqq \partial^B a = \partial^B \hat c$. But then $\tilde c \coloneqq \hat c - a$ is another possible lift of $c$ for which $\partial^B \tilde c = 0$ and so $[c]$ is in the image of $H_n(B) \to H_n(C)$.
- 
+
 
 =--
 
@@ -3610,7 +3617,7 @@ The [[nLab:connecting homomorphism]] of the [[nLab:long exact sequence in homolo
 
 =--
 
-We now discuss a deeper, more conceptual way of understanding the origin of long exact sequences in homology and the nature of connecting homomorphisms. This will give first occasion to see some actual [[nLab:homotopy theory]] of chain complexes at work, and hence serves also as a motivating example for the discussions to follow in [chapter III)](#AbelianHomotopyTheory). 
+We now discuss a deeper, more conceptual way of understanding the origin of long exact sequences in homology and the nature of connecting homomorphisms. This will give first occasion to see some actual [[nLab:homotopy theory]] of chain complexes at work, and hence serves also as a motivating example for the discussions to follow in [chapter III)](#AbelianHomotopyTheory).
 
 For this we need the notion of _[[nLab:chain homotopy]]_, which is the abelianized analog of the notion of _[[nLab:homotopy]]_ of continuous maps above in def. \ref{LeftHomotopyContinousMaps}. We now first introduce this concept by straightforwardly mimicking the construction in def. \ref{LeftHomotopyContinousMaps} with topological spaces replaced by chain complexes. Then we use chain homotopies to construct [[nLab:mapping cones]] of [[nLab:chain maps]]. Finally we explain how these refine the above long exact sequences in homology groups to _[[nLab:homotopy cofiber sequences]]_ of the chain complexes themselves.
 
@@ -3626,7 +3633,7 @@ $$
   \{ (\psi_n : C_n \to D_{n+1}) \in \mathcal{A} | n \in \mathbb{N} \}
 $$
 
-in $\mathcal{A}$ such that 
+in $\mathcal{A}$ such that
 
 $$
   f_n - g_n = \partial^D \circ  \psi_n + \psi_{n-1} \partial^C
@@ -3648,14 +3655,14 @@ $$
     \\
     C_{n+1} &\stackrel{f_{n+1} - g_{n+1}}{\to}& D_{n+1}
     \\
-    \downarrow^{\mathrlap{\partial^C_{n}}} 
-    &\nearrow_{\mathrlap{\psi_{n}}}& 
+    \downarrow^{\mathrlap{\partial^C_{n}}}
+    &\nearrow_{\mathrlap{\psi_{n}}}&
     \downarrow^{\mathrlap{\partial^D_{n}}}
     \\
     C_n &\stackrel{f_n - g_n}{\to}& D_n
     \\
-    \downarrow^{\mathrlap{\partial^C_{n-1}}} 
-    &\nearrow_{\mathrlap{\psi_{n-1}}}& 
+    \downarrow^{\mathrlap{\partial^C_{n-1}}}
+    &\nearrow_{\mathrlap{\psi_{n-1}}}&
     \downarrow^{\mathrlap{\partial^D_{n-1}}}
     \\
     C_{n-1} &\stackrel{f_{n-1} - g_{n-1}}{\to}& D_{n-1}
@@ -3674,7 +3681,7 @@ Instead, a way to encode chain homotopies by genuine diagrammatics is below in p
 +-- {: .num_defn #NormalizedChainInterval}
 ###### Definition
 
-Let 
+Let
 
 $$
   I_\bullet \coloneqq N_\bullet(C(\Delta[1]))
@@ -3683,7 +3690,7 @@ $$
 be the [[nLab:normalized chain complex]] in $\mathcal{A}$ of the [[nLab:chain on a simplicial set|simplicial chains]] on the simplicial 1-[[nLab:simplex]]:
 
 $$
-  I_\bullet = 
+  I_\bullet =
   [
     \cdots \to 0 \to 0 \to R \stackrel{(-id,id)}{\to}
    R \oplus R
@@ -3712,7 +3719,7 @@ $$
     \\
     \downarrow & \searrow^{\mathrlap{f}}
     \\
-    I_\bullet \otimes C_\bullet 
+    I_\bullet \otimes C_\bullet
     &\stackrel{(f,g,\psi)}{\to}&
     D_\bullet
     \\
@@ -3737,10 +3744,10 @@ $$
   (  \cdots  \to 0   \to 0 \to \mathbb{Z} \stackrel{(-id,id)}{\to}  \mathbb{Z} \oplus \mathbb{Z} \to 0 \to 0 \to \cdots)
 $$
 
-where the term $\mathbb{Z} \oplus \mathbb{Z}$ is in degree 0: this is the [[nLab:free abelian group]] on the set $\{(0),(1)\}$ of 0-simplices in $\Delta[1]$. The other copy of $\mathbb{Z}$ is the free abelian group on the single non-degenerate edge $(0 \to 1)$ in $\Delta[1]$. (All other [[nLab:simplices]] of $\Delta[1]$ are degenerate and hence do not contribute to the [[nLab:normalized chain complex]] which we are discussing here.) The single nontrivial [[nLab:differential]] sends $1 \in \mathbb{Z}$ to 
+where the term $\mathbb{Z} \oplus \mathbb{Z}$ is in degree 0: this is the [[nLab:free abelian group]] on the set $\{(0),(1)\}$ of 0-simplices in $\Delta[1]$. The other copy of $\mathbb{Z}$ is the free abelian group on the single non-degenerate edge $(0 \to 1)$ in $\Delta[1]$. (All other [[nLab:simplices]] of $\Delta[1]$ are degenerate and hence do not contribute to the [[nLab:normalized chain complex]] which we are discussing here.) The single nontrivial [[nLab:differential]] sends $1 \in \mathbb{Z}$ to
 $(-1,1) \in \mathbb{Z} \oplus \mathbb{Z}$, reflecting the fact that one of the vertices is the 0-[[nLab:boundary]] the other the 1-boundary of the single nontrivial edge.
 
-It follows that the [[nLab:tensor product of chain complexes]] 
+It follows that the [[nLab:tensor product of chain complexes]]
 $I_\bullet \otimes C_\bullet $ is
 
 $$
@@ -3748,12 +3755,12 @@ $$
   && (I \otimes C)_2 &\to& (I \otimes C)_1 &\to& (I \otimes C)_0 &\to& \cdots
   \\
   \cdots
-  &\to& 
+  &\to&
   C_1 \oplus C_{2} \oplus C_2
-  &\to& 
-  C_0 \oplus C_{1} \oplus C_{1} 
-  &\to&  
-  C_{-1} \oplus C_0 \oplus C_0 
+  &\to&
+  C_0 \oplus C_{1} \oplus C_{1}
+  &\to&
+  C_{-1} \oplus C_0 \oplus C_0
   &\to& \cdots
   }
  \,.
@@ -3763,13 +3770,13 @@ Therefore a chain map $(f,g,\psi) :  I_\bullet \otimes C_\bullet  \to D_\bullet$
 
 $$
   \array{
-    C_{n+1}\oplus C_{n+1} \oplus C_{n} 
+    C_{n+1}\oplus C_{n+1} \oplus C_{n}
       &\stackrel{(f_{n+1},g_{n+1}, \psi_n)}{\to}& D_n
     \\
     {}^{\mathllap{\partial^{I \otimes C}}}\downarrow && \downarrow^{\mathrlap{\partial^D}}
     \\
      C_{n} \oplus C_{n} \oplus C_{n-1} &\stackrel{(f_n,g_n,\psi_{n-1})}{\to}
-    & 
+    &
     D_{n-1}
   }
   \,.
@@ -3790,7 +3797,7 @@ be two chain complexes.
 +-- {: .num_defn }
 ###### Definition
 
-Define the [[nLab:relation]] _chain homotopic_ on 
+Define the [[nLab:relation]] _chain homotopic_ on
 $Hom(C_\bullet, D_\bullet)$ by
 
 $$
@@ -3841,7 +3848,7 @@ $$
 $$
 
 This is usually called the **(strong) [[nLab:homotopy category of chain complexes]]**
-in $\mathcal{A}$. 
+in $\mathcal{A}$.
 
 =--
 
@@ -3849,7 +3856,7 @@ in $\mathcal{A}$.
 ###### Remark
 
 Beware, as we will discuss in detail below in [8)](#DerivedCategoriesAndDerivedFunctors), that another category that would deserve to  carry this name instead is called the _[[nLab:derived category]]_ of $\mathcal{A}$.
-In the derived category one also quotients out chain homotopy, but one allows that first the [[nLab:domain]] of the two chain maps $f$ and $g$ is refined along a [[nLab:quasi-isomorphism]]. 
+In the derived category one also quotients out chain homotopy, but one allows that first the [[nLab:domain]] of the two chain maps $f$ and $g$ is refined along a [[nLab:quasi-isomorphism]].
 
 =--
 
@@ -3889,7 +3896,7 @@ That short exact sequences of chain complexes nevertheless play an important rol
 +-- {: .num_prop }
 ###### Proposition
 
-If $A_\bullet \to B_\bullet \to C_\bullet$ is a 
+If $A_\bullet \to B_\bullet \to C_\bullet$ is a
 [[nLab:short exact sequence]] of [[nLab:chain complexes]], then the [[nLab:commuting square]]
 
 $$
@@ -3926,7 +3933,7 @@ Equivalently, we have the formally dual result
 +-- {: .num_prop }
 ###### Proposition
 
-If $A_\bullet \to B_\bullet \to C_\bullet$ is a 
+If $A_\bullet \to B_\bullet \to C_\bullet$ is a
 [[nLab:short exact sequence]] of [[nLab:chain complexes]], then the [[nLab:commuting square]]
 
 $$
@@ -3959,9 +3966,9 @@ $$
      \\
      && && \downarrow && \downarrow &\ddots&
      \\
-     && && \vdots && && 
+     && && \vdots && &&
   }
-$$ 
+$$
 
 here
 
@@ -3970,22 +3977,22 @@ here
 * $A[1]$ etc. is the [[nLab:suspension of a chain complex]] of $A$, hence the same chain complex but pushed up in degree by one.
 
 
-In conclusion we get from every morphim of chain complexes a 
+In conclusion we get from every morphim of chain complexes a
 long **[[nLab:homotopy cofiber sequence]]**
 
 $$
-    \cdots 
-  \to 
+    \cdots
+  \to
      A_\bullet \stackrel{f}{\to}B_\bullet
-  \stackrel{}{\to} 
+  \stackrel{}{\to}
   cone(f)
    \stackrel{}{\to}
   A[1]_\bullet
    \stackrel{f[1]}{\to}
   B[1]_\bullet
-   \stackrel{}{\to}   
+   \stackrel{}{\to}
   cone(f)[1]_\bullet
-   \to 
+   \to
   \cdots
   \,.
 $$
@@ -4005,7 +4012,7 @@ We have seen in [4)](#HomotopyHomologyFiberSequence) the [[nLab:long exact seque
 In the following we repeatedly mention that certain chain complexes are [[nLab:colimits]] of certain diagrams of chain complexes. The reader unfamiliar with colimits may simply ignore them and regard the given chain complex as arising by definition. However, even a vague intuitive understanding of the indicated colimits as formalizations of "gluing" of chain complexes along certain maps should help to motivate why these definitions are what they are. The reader unhappy even with this can jump ahead to prop. \ref{CylinderOverAChainComplex} and take this and the following propositions up to and including prop. \ref{ComponentsOfMappingConeInChainComplexes} as definitions.
 
 
-The notion of a [[nLab:mapping cone]] that we introduce now is something that makes sense whenever 
+The notion of a [[nLab:mapping cone]] that we introduce now is something that makes sense whenever
 
 1. there is a notion of [[nLab:cylinder object]], such as the topological cylinder $[0,1] \times X$ over a [[nLab:topological space]], or the chain complex cylinder $I_\bullet \otimes X_\bullet$ of a chain complex from def. \ref{NormalizedChainInterval}.
 
@@ -4026,7 +4033,7 @@ $$
     \\
     \downarrow && &\searrow & \downarrow
     \\
-    {*} &\to& &\to& cone(f) 
+    {*} &\to& &\to& cone(f)
   }
 $$
 
@@ -4071,8 +4078,8 @@ $$
   \,.
 $$
 
-Therefore prop. \ref{HomotopyCofiberByFactorizationLemma} says that 
-the mapping cone is the [[nLab:universal property|universal]] object with a morphism $i$ from $Y$ and a [[nLab:left homotopy]] from $i \circ f$ to the [[nLab:zero morphism]]. 
+Therefore prop. \ref{HomotopyCofiberByFactorizationLemma} says that
+the mapping cone is the [[nLab:universal property|universal]] object with a morphism $i$ from $Y$ and a [[nLab:left homotopy]] from $i \circ f$ to the [[nLab:zero morphism]].
 
 $$
   \array{
@@ -4106,7 +4113,7 @@ $$
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    {*} &\to& cone(X) &\to& cone(f) 
+    {*} &\to& cone(X) &\to& cone(f)
   }
   \,.
 $$
@@ -4134,7 +4141,7 @@ $$
 
 defines the **[[nLab:cone]]** $cone(X)$ over $X$ (with respect to the chosen [[nLab:cylinder object]]): the result of taking the [[nLab:cylinder object|cylinder]] over $X$ and identifying one $X$-shaped end with the [[nLab:point]].
 
-The pushout 
+The pushout
 
 $$
   \array{
@@ -4148,7 +4155,7 @@ $$
 
 defines the **[[nLab:mapping cylinder]]** $cyl(f)$ of $f$, the result of identifying one end of the cylinder over $X$ with $Y$, using $f$ as the gluing map.
 
-The pushout 
+The pushout
 
 $$
   \array{
@@ -4186,8 +4193,8 @@ Write $*_\bullet \in Ch_\bullet(\mathcal{A})$ for the chain complex
 concentrated on $R$ in degree 0
 
 $$
-  *_\bullet 0 
-   = 
+  *_\bullet 0
+   =
   [\cdots \to 0 \to 0 \to R]
   \,.
 $$
@@ -4208,7 +4215,7 @@ Let $I_\bullet \in Ch_{\bullet}(\mathcal{A})$ be given by
 
 $$
   I_\bullet
-  = 
+  =
   (\cdots 0 \to 0 \to R \stackrel{(-id,id)}{\to} R \oplus R)
   \,.
 $$
@@ -4260,7 +4267,7 @@ We decompose the proof of this statement is a sequence of substatements.
 ###### Proposition
 
 For $X_\bullet \in Ch_\bullet$ the
-[[nLab:tensor product of chain complexes]] 
+[[nLab:tensor product of chain complexes]]
 
 $$
   (I \otimes X)_\bullet
@@ -4277,7 +4284,7 @@ whose cofibrations are the [[nLab:monomorphisms]] and whose weak equivalences ar
 +-- {: .num_example }
 ###### Example
 
-In example \ref{SquareAsTensorProduct} above we saw the 
+In example \ref{SquareAsTensorProduct} above we saw the
 cyclinder over the interval itself: the square.
 
 =--
@@ -4289,7 +4296,7 @@ The complex $(I \otimes X)_\bullet$ has components
 
 $$
   (I \otimes X)_n
-  = 
+  =
   X_n \oplus X_n \oplus X_{n-1}
 $$
 
@@ -4318,7 +4325,7 @@ $$
       0 & -\partial^X
     }
   \right)
-  : 
+  :
   (X_{n+1} \oplus X_{n+1}) \oplus X_{n}
   \to
   (X_{n} \oplus X_{n}) \oplus X_{n-1}
@@ -4339,11 +4346,11 @@ $$
   (R_{(0)} \otimes X_n )
   \oplus
   (R_{(1)} \otimes X_n )
-  \oplus 
+  \oplus
   (R_{(0 \to 1)} \otimes X_{(n-1)} )
 $$
 
-and the [[nLab:differential]] picks up a sign when passed past the 
+and the [[nLab:differential]] picks up a sign when passed past the
 degree-1 term $R_{(0 \to 1)}$:
 
 $$
@@ -4352,15 +4359,15 @@ $$
     (
       (0 \to 1), x
     )
-    &= 
+    &=
     ( (\partial^I (0 \to 1)), x )
     -
     ( (0\to 1), \partial^X x )
     \\
-    & = 
+    & =
     ( - (0) + (1), x )
     -
-    ( (0 \to 1), \partial^X x )  
+    ( (0 \to 1), \partial^X x )
     \\
     & = -((0), x) + ((1), x) -  ( (0 \to 1), \partial^X x )
   \end{aligned}
@@ -4376,22 +4383,22 @@ The two boundary inclusions of $X_\bullet$ into the cylinder
 are given in terms of def. \ref{BoundaryInclusionIntoChainComplexIntervalObject} by
 
 $$
-  i^X_0 
-   : 
-  X_\bullet \simeq *_\bullet \otimes X_\bullet 
+  i^X_0
+   :
+  X_\bullet \simeq *_\bullet \otimes X_\bullet
    \stackrel{i_0 \otimes id_X}{\to} (I\otimes X)_\bullet
 $$
 
 and
 
 $$
-  i^X_1 
-   : 
-  X_\bullet \simeq *_\bullet \otimes X_\bullet 
+  i^X_1
+   :
+  X_\bullet \simeq *_\bullet \otimes X_\bullet
    \stackrel{i_1 \otimes id_X}{\to} (I\otimes X)_\bullet
 $$
 
-which in components is the inclusion of the second or first 
+which in components is the inclusion of the second or first
 direct summand,
 respectively
 
@@ -4457,7 +4464,7 @@ $$
       0 & -\partial^X
     }
   \right)
-  : 
+  :
   (X_{n+1} \oplus Y_{n+1}) \oplus X_{n}
   \to
   (X_{n} \oplus Y_{n}) \oplus X_{n-1}
@@ -4470,11 +4477,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The [[nLab:colimits]] in a [[nLab:category of chain complexes]] $Ch_\bullet(\mathcal{A})$ are computed in the underlying 
-[[nLab:presheaf category]] of [[nLab:towers]] in $\mathcal{A}$. 
-There they are computed 
+The [[nLab:colimits]] in a [[nLab:category of chain complexes]] $Ch_\bullet(\mathcal{A})$ are computed in the underlying
+[[nLab:presheaf category]] of [[nLab:towers]] in $\mathcal{A}$.
+There they are computed
 degreewise in $\mathcal{A}$
-(see at [limits in presheaf categories](limits+and+colimits+by+example#limitsinpresheafcat)). 
+(see at [limits in presheaf categories](limits+and+colimits+by+example#limitsinpresheafcat)).
 Here the statement is evident:
 
 the pushout identifies one [[nLab:direct sum|direct summand]] $X_n$
@@ -4515,7 +4522,7 @@ $$
 The components of the mapping cone $cone(f)$ are
 
 $$
-  cone(f)_n =   Y_n \oplus X_{n-1} 
+  cone(f)_n =   Y_n \oplus X_{n-1}
 $$
 
 with differential given by
@@ -4543,7 +4550,7 @@ $$
       0 & -\partial^X_n
     }
   \right)
-  : 
+  :
   Y_{n+1} \oplus X_{n}
   \to
   Y_{n} \oplus X_{n-1}
@@ -4557,16 +4564,16 @@ $$
 ###### Proof
 
 As before the pushout is computed degreewise.
-This identifies the remaining unshifted copy of $X$ with 0. 
+This identifies the remaining unshifted copy of $X$ with 0.
 
 =--
 
 +-- {: .num_prop #InclusionIntoChainComplexCone}
 ###### Proposition
 
-For $f : X_\bullet \to Y_\bullet$ a [[nLab:chain map]], 
-the canonical inclusion $i : Y_\bullet \to cone(f)_\bullet$ 
-of $Y_\bullet$ into the  mapping cone of $f$ is given in 
+For $f : X_\bullet \to Y_\bullet$ a [[nLab:chain map]],
+the canonical inclusion $i : Y_\bullet \to cone(f)_\bullet$
+of $Y_\bullet$ into the  mapping cone of $f$ is given in
 components
 
 $$
@@ -4580,8 +4587,8 @@ by the canonical inclusion of a summand into a [[nLab:direct sum]].
 +-- {: .proof}
 ###### Proof
 
-This follows by starting with 
-remark \ref{InclusionOfChainComplexIntoItsCylinder} and then 
+This follows by starting with
+remark \ref{InclusionOfChainComplexIntoItsCylinder} and then
 following these inclusions through the formation of the two colimits
 as discussed above.
 
@@ -4606,13 +4613,13 @@ $$
   p : cone(f) \to X[1]_\bullet
 $$
 
-for the [[nLab:chain map]] which in components 
+for the [[nLab:chain map]] which in components
 
 $$
   p_n : cone(f)_n \to X[1]_n
 $$
 
-is given, via prop. \ref{ComponentsOfMappingConeInChainComplexes}, 
+is given, via prop. \ref{ComponentsOfMappingConeInChainComplexes},
 by the canonical projection out of a direct sum
 
 $$
@@ -4628,8 +4635,8 @@ This defines the mapping cone construction on chain complex. Its definition as a
 ###### Proposition
 
 The chain map $p : cone(f)_\bullet \to X[1]_\bullet$
-represents the [[nLab:homotopy cofiber]] of the 
-canonical map 
+represents the [[nLab:homotopy cofiber]] of the
+canonical map
 $i : Y_\bullet \to cone(f)_\bullet$.
 
 =--
@@ -4637,11 +4644,11 @@ $i : Y_\bullet \to cone(f)_\bullet$.
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{InclusionIntoChainComplexCone} and 
+By prop. \ref{InclusionIntoChainComplexCone} and
 def. \ref{ProjectionOutOfChainComplexMappingCone} the sequence
 
 $$
-  Y_\bullet 
+  Y_\bullet
     \stackrel{i}{\to}
   cone(f)_\bullet
     \stackrel{p}{\to}
@@ -4670,11 +4677,11 @@ Accordingly one says:
 +-- {: .num_cor #HomotopyCofiberSequenceOfChainMap}
 ###### Corollary
 
-For $f_\bullet : X_\bullet \to Y_\bullet$ a [[nLab:chain map]], 
+For $f_\bullet : X_\bullet \to Y_\bullet$ a [[nLab:chain map]],
 there is a **[[nLab:homotopy cofiber sequence]]** of the form
 
 $$
-  X_\bullet 
+  X_\bullet
     \stackrel{f_\bullet}{\to}
   Y_\bullet
     \stackrel{i_\bullet}{\to}
@@ -4687,7 +4694,7 @@ $$
   cone(f)_\bullet
     \stackrel{p[1]_\bullet}{\to}
   X[2]_\bullet
-    \to 
+    \to
   \cdots
 $$
 
@@ -4697,7 +4704,7 @@ $$
 In order to compare this to the discussion of [[nLab:connecting homomorphisms]], we now turn attention to the case that $f_\bullet$ happens to be a [[nLab:monomorphism]].  Notice that this we can always assume, up to [[nLab:quasi-isomorphism]], for instance by prolonging $f$ by the map into its [[nLab:mapping cylinder]]
 
 $$
-  X_\bullet \to Y_\bullet \stackrel{\simeq}{\to} cyl(f) 
+  X_\bullet \to Y_\bullet \stackrel{\simeq}{\to} cyl(f)
   \,.
 $$
 
@@ -4714,12 +4721,12 @@ of chain complexes. The following discussion revolves around the fact that now $
 +-- {: .num_lemma #ConeInjectionEquivalentToZigzag}
 ###### Lemma
 
-Let 
+Let
 $$
   X_\bullet \stackrel{f_\bullet}{\to} Y_\bullet \stackrel{p_\bullet}{\to} Z_\bullet
 $$
 
-be a [[nLab:short exact sequence]] of [[nLab:chain complexes]]. 
+be a [[nLab:short exact sequence]] of [[nLab:chain complexes]].
 
 
 The collection of linear maps
@@ -4736,7 +4743,7 @@ $$
 $$
 
 
-This is a [[nLab:quasi-isomorphism]]. The inverse of $H_n(h_\bullet)$ is given by sending a representing [[nLab:cycle]] $z \in Z_n$ to 
+This is a [[nLab:quasi-isomorphism]]. The inverse of $H_n(h_\bullet)$ is given by sending a representing [[nLab:cycle]] $z \in Z_n$ to
 
 $$
   (\hat z_n, \partial^Y \hat z_n) \in Y_n \oplus X_{n+1}
@@ -4744,12 +4751,12 @@ $$
 $$
 
 where $\hat z_n$ is any choice of lift through $p_n$ and where $\partial^Y \hat z_n$ is the formula expressing the [[nLab:connecting homomorphism]] in terms of elements, as discussed at [Connecting homomorphism -- In terms of elements](connecting%20homomorphism#OnHomologyInTermsOfElements).
- 
+
 Finally, the morphism $i_\bullet : Y_\bullet \to cone(f)_\bullet$ is eqivalent in the [[nLab:homotopy category]] (the [[nLab:derived category]]) to the [[nLab:zigzag]]
 
 $$
   \array{
-    && cone(f)_\bullet 
+    && cone(f)_\bullet
     \\
     && \downarrow^{\mathrlap{h}}_{\mathrlap{\simeq}}
     \\
@@ -4767,7 +4774,7 @@ To see that $h_\bullet$ defines a chain map recall the differential $\partial^{c
 
 $$
   \partial^{cone(f)} (x_{n-1}, \hat z_n)
-  = 
+  =
   (  -\partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
 $$
 
@@ -4776,7 +4783,7 @@ and use that $x_{n-1}$ is in the [[nLab:kernel]] of $p_n$ by exactness, hence
 $$
   \begin{aligned}
     h_{n-1}\partial^{cone(f)}(x_{n-1}, \hat z_n)
-    &= 
+    &=
     h_{n-1}( -\partial^X x_{n-1}, \partial^Y \hat z_n + x_{n-1}  )
     \\
     & = p_{n-1}( \partial^Y \hat z_n + x_{n-1})
@@ -4794,7 +4801,7 @@ It is immediate to see that we have a [[nLab:commuting diagram]] of the form
 
 $$
   \array{
-    && cone(f)_\bullet 
+    && cone(f)_\bullet
     \\
     & {}^{\mathllap{i_\bullet}}\nearrow& \downarrow^{\mathrlap{h}}_{\mathrlap{\simeq}}
     \\
@@ -4802,9 +4809,9 @@ $$
   }
 $$
 
-since the composite morphism is the inclusion of $Y$ followed by the bottom morphism on $Y$. 
+since the composite morphism is the inclusion of $Y$ followed by the bottom morphism on $Y$.
 
-Abstractly, this already implies that $cone(f)_\bullet \to Z_\bullet$ is a [[nLab:quasi-isomorphism]], 
+Abstractly, this already implies that $cone(f)_\bullet \to Z_\bullet$ is a [[nLab:quasi-isomorphism]],
 for this diagram gives a morphism of [[nLab:cocones]] under the diagram defining $cone(f)$ in prop. \ref{HomotopyCofiberByFactorizationLemma} and by the above both of these cocones are [[nLab:homotopy colimit|homotopy-colimiting]].
 
 But in checking the claimed inverse of the induced map on homology groups, we verify this also explicity:
@@ -4815,17 +4822,17 @@ By prop. \ref{ComponentsOfMappingConeInChainComplexes} the differential acts on 
 
 $$
   \partial^{cone(f)} (x_{n-1}, \hat z_n)
-  = 
+  =
   (  -\partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
 $$
 
-and so the condition is that 
+and so the condition is that
 
 $x_{n-1} \coloneqq -\partial^Y \hat z_n$ (which implies $\partial^X x_{n-1} = -\partial^X \partial^Y \hat z_n = -\partial^Y \partial^Y \hat z_n = 0$ due to the fact that $f_n$ is assumed to be an inclusion, hence that $\partial^X$ is the restriction of $\partial^Y$ to elements in $X_n$).
 
 This condition clearly has a unique solution for every lift $\hat z_n$ and a lift $\hat z_n$ always exists since $p_n : Y_n \to Z_n$ is surjective, by assumption that we have a [[nLab:short exact sequence]] of chain complexes. This shows that $H_n(h_\bullet)$ is surjective.
 
-To see that it is also injective we need to show that 
+To see that it is also injective we need to show that
 if a [[nLab:cycle]] $(-\partial^Y \hat z_n, \hat z_n) \in cone(f)_n$ maps to a cycle $z_n = p_n(\hat z_n)$ that is trivial in $H_n(Z)$ in that there is $c_{n+1}$ with $\partial^Z c_{n+1} = z_n$, then also the original cycle was trivial in homology, in that there is $(x_n, y_{n+1})$ with
 
 $$
@@ -4841,25 +4848,25 @@ For that let $\hat c_{n+1} \in Y_{n+1}$ be a lift of $c_{n+1}$ through $p_n$, wh
 
 $$
   p_{n}( \hat z_n -  \partial^Y \hat c_{n+1})
-  = 
+  =
   z_n -\partial^Z ( p_n \hat c_{n+1} )
-  = 
-  z_n - \partial^Z ( c_{n+1} ) 
-  = 
+  =
+  z_n - \partial^Z ( c_{n+1} )
+  =
   0
 $$
 
 by assumption on $z_n$ and $c_{n+1}$,
 and hence that $\hat z_n - \partial^Y \hat c_{n+1}$ is in $X_n$ by exactness.
 
-Hence 
+Hence
 $(z_n - \partial^Y \hat c_{n+1}, \hat c_{n+1}) \in cone(f)_n$
 trivializes the given cocycle:
 
 $$
   \begin{aligned}
     \partial^{cone(f)}( \hat z_n - \partial^Y \hat c_{n+1}  , \hat c_{n+1})
-    & = 
+    & =
    (-\partial^X(\hat z_n - \partial^Y \hat c_{n+1} ), \partial^Y \hat c_{n+1} + (\hat z_n - \partial^Y \hat c_{n+1} ) )
     \\
     & = (-\partial^Y(\hat z_n - \partial^Y \hat c_{n+1}),  \hat z_n )
@@ -4875,12 +4882,12 @@ $$
 +-- {: .num_theorem }
 ###### Theorem
 
-Let 
+Let
 $$
   X_\bullet \stackrel{f_\bullet}{\to} Y_\bullet \to Z_\bullet
 $$
 
-be a [[nLab:short exact sequence]] of [[nLab:chain complexes]]. 
+be a [[nLab:short exact sequence]] of [[nLab:chain complexes]].
 
 Then the  [[nLab:chain homology]] functor
 
@@ -4888,7 +4895,7 @@ $$
   H_n(-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
 $$
 
-sends the homotopy cofiber sequence of $f$, cor. \ref{HomotopyCofiberSequenceOfChainMap}, to the 
+sends the homotopy cofiber sequence of $f$, cor. \ref{HomotopyCofiberSequenceOfChainMap}, to the
 [[nLab:long exact sequence in homology]] induced by the given short
 exact sequence, hence to
 
@@ -4896,13 +4903,13 @@ $$
   H_n(X_\bullet)
   \to
   H_n(Y_\bullet)
-   \to 
+   \to
   H_n(Z_\bullet)
    \stackrel{\delta}{\to}
   H_{n-1}(X_\bullet)
-   \to 
+   \to
   H_{n-1}(Y_\bullet)
-   \to 
+   \to
   H_{n-1}(Z_\bullet)
    \stackrel{\delta}{\to}
   H_{n-2}(X_\bullet)
@@ -4918,7 +4925,7 @@ where $\delta_n$ is the $n$th [[nLab:connecting homomorphism]].
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{ConeInjectionEquivalentToZigzag} the 
+By lemma \ref{ConeInjectionEquivalentToZigzag} the
 homotopy cofiber sequence is equivalen to the [[nLab:zigzag]]
 
 $$
@@ -4931,7 +4938,7 @@ $$
      \\
      && && \downarrow^{\mathrlap{h_\bullet}}_{\mathrlap{\simeq}}
      \\
-     X_\bullet 
+     X_\bullet
        &\stackrel{f_\bullet}{\to}&
      Y_\bullet
        &\stackrel{}{\to}&
@@ -4940,14 +4947,14 @@ $$
   \,.
 $$
 
-Observe that 
+Observe that
 
 $$
   H_n( X[k]_\bullet) \simeq H_{n-k}(X_\bullet)
   \,.
 $$
 
-It is therefore sufficient to check that 
+It is therefore sufficient to check that
 
 $$
   H_n
@@ -4961,7 +4968,7 @@ $$
     }
   \right)
   \;\;
-   : 
+   :
   \;\;
   H_n(Z_\bullet) \to H_n(cone(f)_\bullet) \to H_{n-1}(X_\bullet)
 $$
@@ -4995,7 +5002,7 @@ $$
   \stackrel{
     \left(
       \array{
-          0 
+          0
           \\
           id_{Y_\bullet}
       }
@@ -5020,7 +5027,7 @@ $$
   \stackrel{
     \left(
       \array{
-          0 
+          0
           \\
           id_{Y[n]_\bullet}
       }
@@ -5049,7 +5056,7 @@ $$
   }
 $$
 
-and hence speaks of a "triangle", or **distinguished triangle** or **mapping cone triangle** of $f$. 
+and hence speaks of a "triangle", or **distinguished triangle** or **mapping cone triangle** of $f$.
 
 * [[nLab:distinguished triangle]] = period of [[nLab:homotopy fiber sequence]] .
 
@@ -5070,12 +5077,10 @@ There is a host of classical diagram-chasing lemmas that relate far-away entries
 > The discussion to go here is kept at **[[nLab:salamander lemma]]**. See there.
 
 
-
-
 #### Kan complexes -- General homotopy types
  {#KanComplexes}
 
-With [[groupoids]] and [[chain complexes]] we have seen two kinds of objects which support concepts of [[homotopy theory]], such as a concept of [[homotopy equivalence]] between them ([[equivalence of groupoids]] on the one hand, and [[quasi-isomorphism]]) on the other. In some sense these two cases are opposite extremes in the more general context of [[homotopy theory]]: 
+With [[groupoids]] and [[chain complexes]] we have seen two kinds of objects which support concepts of [[homotopy theory]], such as a concept of [[homotopy equivalence]] between them ([[equivalence of groupoids]] on the one hand, and [[quasi-isomorphism]]) on the other. In some sense these two cases are opposite extremes in the more general context of [[homotopy theory]]:
 
 * [[chain complexes]] have homotopical structure (e.g. [[chain homology]]) in arbitrary high degree, i.e. they may be [[homotopy n-types]] for arbitrary $n$, but they are fully _abelian_ in that there is never any [[nonabelian group]] structure in a chain complex, not is there any non-trivial [[action]] of the homology groups of a chain complex on each other;
 
@@ -5086,14 +5091,14 @@ On the other hand, both groupoids and chain complexes naturally have incarnation
 
 $$
   \array{
-    && {topological \atop spaces} 
+    && {topological \atop spaces}
     \\
     &&
      \downarrow^{\mathrlap{{higher \atop path}\atop groupoid}}
-    & 
+    &
     \\
-    groupoids 
-      &\stackrel{{Grothendieck \atop nerve}}{\longrightarrow}& 
+    groupoids
+      &\stackrel{{Grothendieck \atop nerve}}{\longrightarrow}&
     { {\mathbf{Kan}\;\mathbf{complexes}} \atop {\simeq \infty-groupoids} }
       &\stackrel{{Dold-Kan \atop correspondence}}{\longleftarrow}&
     {chain \atop complexes}
@@ -5104,7 +5109,7 @@ $$
   }
 $$
 
-Kan complexes serve as a standard powerful model on wich the complete formulation of [[homotopy theory]] (without geometry) may be formulated. 
+Kan complexes serve as a standard powerful model on wich the complete formulation of [[homotopy theory]] (without geometry) may be formulated.
 
 ##### Intuitive idea -- Composition of higher order (gauge-)symmetries
 
@@ -5137,12 +5142,12 @@ as well as specifying
   that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
   on them.
 
-The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions satisfy conditions that make consistent our interpretation of them as sets of $k$-morphisms and source and target maps between these. 
+The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions satisfy conditions that make consistent our interpretation of them as sets of $k$-morphisms and source and target maps between these.
 These are called the [[simplicial identities]].
 
-But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
+But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms.
 
-For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
+For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells
 
 $$
   \Lambda^1[2] = \left\{
@@ -5162,7 +5167,7 @@ $$
     \array{
        && x_1
        \\
-       & {}^{\mathllap{f}}\nearrow &\Downarrow^{\mathrlap{\simeq}}& 
+       & {}^{\mathllap{f}}\nearrow &\Downarrow^{\mathrlap{\simeq}}&
        \searrow^{\mathrlap{g}}
        \\
        x_0 &&\stackrel{h}{\to}&& x_2
@@ -5183,9 +5188,9 @@ $$
   \,.
 $$
 
-A simplicial set where for all such $(f,g)$ a corresponding such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
+A simplicial set where for all such $(f,g)$ a corresponding such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms.
 
-For the purpose of describing [[groupoid]]al composition, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
+For the purpose of describing [[groupoid]]al composition, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for
 
 $$
   \Lambda^2[2] = \left\{
@@ -5199,7 +5204,7 @@ $$
   \right\}
 $$
 
-the simplicial set consisting of two 1-morphisms that touch at their end, hence for 
+the simplicial set consisting of two 1-morphisms that touch at their end, hence for
 
 $$
   (g,h) : \Lambda^2[2] \to K
@@ -5218,7 +5223,7 @@ $$
   \,.
 $$
 
-Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$. 
+Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$.
 
 In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphism]]s, which means that we can find the relevant [[tetrahedra]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
 
@@ -5239,9 +5244,9 @@ $$
 
 The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the [[simplicial set]] with $N(C)_k$ being the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoids]].
 
-##### Definition 
+##### Definition
 
-Recall the definition of [[simplicial sets]] from [above](#SingularSimplicialSet). Let 
+Recall the definition of [[simplicial sets]] from [above](#SingularSimplicialSet). Let
 
 $$
   \Delta[n] = \mathbf{\Delta}( -, [n]) \in  Simp Set
@@ -5252,13 +5257,13 @@ be the standard simplicial $n$-[[simplex]] in [[SimpSet]].
 +-- {: .num_defn #SimplicialHorn}
 ###### Definition
 
-For each $i$, $0 \leq i \leq n$, the **$(n,i)$-horn** or **$(n,i)$-box** 
-is the subsimplicial set 
+For each $i$, $0 \leq i \leq n$, the **$(n,i)$-horn** or **$(n,i)$-box**
+is the subsimplicial set
 
 $$
   \Lambda^i[n]
   \hookrightarrow
-  \Delta[n] 
+  \Delta[n]
 $$
 
 which is the [[union]] of all faces _except_ the  $i^{th}$ one.
@@ -5281,8 +5286,8 @@ Since [[sSet]]  is a [[presheaf topos]], [[unions]] of [[subobjects]] make sense
 The inner horn, def. \ref{SimplicialHorn} of the [[simplex|2-simplex]]
 
 $$
-  \Delta^2 
-  =    
+  \Delta^2
+  =
   \left\{
       \array{
         && 1
@@ -5290,7 +5295,7 @@ $$
         & \nearrow &\Downarrow& \searrow
         \\
         0 &&\to&& 2
-      } 
+      }
      \right\}
 $$
 
@@ -5303,13 +5308,13 @@ $$\partial \Delta^2 =   \left\{
         & \nearrow && \searrow
         \\
         0 &&\to&& 2
-      } 
+      }
      \right\}
-$$ 
+$$
 
 looks like
 
-$$ 
+$$
 \Lambda^2_1
   =
    \left\{
@@ -5319,28 +5324,28 @@ $$
         & \nearrow && \searrow
         \\
         0 &&&& 2
-      } 
+      }
      \right\}
  \,.
 $$
 
 The two outer horns look like
 
-$$\Lambda^2_0 =   
+$$\Lambda^2_0 =
 \left\{
       \array{
         && 1
         \\
-        & \nearrow && 
+        & \nearrow &&
         \\
         0 &&\to&& 2
-      } 
+      }
      \right\}
-$$ 
+$$
 
 and
 
-$$\Lambda^2_2 =   
+$$\Lambda^2_2 =
 \left\{
       \array{
         && 1
@@ -5348,11 +5353,11 @@ $$\Lambda^2_2 =
         & && \searrow
         \\
         0 &&\to&& 2
-      } 
+      }
      \right\}
-$$ 
+$$
 
-respectively. 
+respectively.
 
 =--
 
@@ -5360,7 +5365,7 @@ respectively.
 +-- {: .num_defn #KanComplexes}
 ###### Definition
 
-A _[[Kan complex]]_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, 
+A _[[Kan complex]]_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_,
 
 * which says that all [[horns]] of the simplicial set have _fillers_/extend to [[simplices]];
 
@@ -5382,9 +5387,9 @@ A _[[Kan complex]]_ is a [[simplicial set]] $S$ that satisfies the _Kan conditio
   \array{
     \Lambda^i[n] &\to& S
     \\
-    \downarrow && 
+    \downarrow &&
     \\
-    \Delta[n] 
+    \Delta[n]
   }
   $$
 
@@ -5404,9 +5409,9 @@ A _[[Kan complex]]_ is a [[simplicial set]] $S$ that satisfies the _Kan conditio
   \array{
     \Lambda^i[n] &\to& S
     \\
-    \downarrow &\nearrow& 
+    \downarrow &\nearrow&
     \\
-    \Delta[n] 
+    \Delta[n]
   }
   $$
 
@@ -5427,13 +5432,13 @@ $$
 +-- {: .num_defn #NerveOfGroupoid}
 ###### Definition
 
-For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, 
-its _[[simplicial nerve]]_ $N(\mathcal{G}_\bullet)_\bullet$ is 
-the [[simplicial set]] with 
+For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid},
+its _[[simplicial nerve]]_ $N(\mathcal{G}_\bullet)_\bullet$ is
+the [[simplicial set]] with
 
 $$
   N(\mathcal{G}_\bullet)_n \coloneqq \mathcal{G}_1^{\times_{\mathcal{G}_0}^n}
-$$ 
+$$
 
 the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$;
 
@@ -5443,13 +5448,13 @@ $$
   d_k \colon N(\mathcal{G}_\bullet)_{n+1} \to N(\mathcal{G}_\bullet)_{n}
 $$
 
-being, 
+being,
 
 * for $n = 0$ the functions that remembers the $k$th object;
 
-* for $n \geq 1$ 
+* for $n \geq 1$
 
-  * the two outer face maps $d_0$ and $d_n$ are given by forgetting the first and the last morphism in such a sequence, respectively; 
+  * the two outer face maps $d_0$ and $d_n$ are given by forgetting the first and the last morphism in such a sequence, respectively;
 
   * the $n-1$ inner face maps $d_{0 \lt k \lt n}$ are given by composing the $k$th morphism with the $k+1$st in the sequence.
 
@@ -5474,10 +5479,10 @@ are given by inserting an [[identity]] morphism on $x_k$.
 Spelling this out in more detail: write
 
 $$
-  \mathcal{G}_n = 
+  \mathcal{G}_n =
   \left\{
-    x_0 
-      \stackrel{f_{0,1}}{\to} 
+    x_0
+      \stackrel{f_{0,1}}{\to}
     x_1
       \stackrel{f_{1,2}}{\to}
     x_2
@@ -5488,31 +5493,31 @@ $$
   \right\}
 $$
 
-for the set of sequences of $n$ composable morphisms. Given any element of 
-this set and $0 \lt k \lt n $, write 
+for the set of sequences of $n$ composable morphisms. Given any element of
+this set and $0 \lt k \lt n $, write
 
 $$
   f_{i-1,i+1} \coloneqq f_{i,i+1} \circ f_{i-1,i}
 $$
 
-for the comosition of the two morphism that share the $i$th vertex. 
+for the comosition of the two morphism that share the $i$th vertex.
 
 With this, face map $d_k$ acts simply by "removing the index $k$":
 
 $$
   d_0
-  \colon 
+  \colon
   (x_0 \stackrel{f_{0,1}}{\to}  x_1 \stackrel{f_{1,2}}{\to} x_{2} \cdots \stackrel{f_{n-1,n}}{\to} x_n )
   \mapsto
-  (x_1 \stackrel{f_{1,2}}{\to} x_{2} \cdots \stackrel{f_{n-1,n}}{\to} x_n )  
+  (x_1 \stackrel{f_{1,2}}{\to} x_{2} \cdots \stackrel{f_{n-1,n}}{\to} x_n )
 $$
 
 $$
   d_{0\lt k \lt n}
    \colon
   (
-    x_0 
-    \cdots 
+    x_0
+    \cdots
     \stackrel{}{\to}
     x_{k-1}
     \stackrel{f_{k-1,k}}{\to}
@@ -5525,8 +5530,8 @@ $$
   )
   \mapsto
   (
-    x_0 
-    \cdots 
+    x_0
+    \cdots
     \stackrel{}{\to}
     x_{k-1}
     \stackrel{f_{k-1,k+1}}{\to}
@@ -5534,16 +5539,16 @@ $$
     \stackrel{}{\to}
     \cdots
     x_n
-  )  
+  )
 $$
 
 $$
-  d_n 
+  d_n
   \colon
   (
     x_0 \stackrel{f_{0,1}}{\to}
     \cdots
-    \stackrel{f_{n-2,n-1}}{\to} 
+    \stackrel{f_{n-2,n-1}}{\to}
     x_{n-1}
     \stackrel{f_{n-1,n}}{\to}
     x_n
@@ -5552,7 +5557,7 @@ $$
   (
     x_0 \stackrel{f_{0,1}}{\to}
     \cdots
-    \stackrel{f_{n-2,n-1}}{\to} 
+    \stackrel{f_{n-2,n-1}}{\to}
     x_{n-1}
   )
   \,.
@@ -5565,7 +5570,7 @@ $$
   f_{k,k} \coloneqq id_{x_k}
 $$
 
-for the identity morphism on the object $x_k$, 
+for the identity morphism on the object $x_k$,
 then the degenarcy map acts by
 "repeating the $k$th index"
 
@@ -5574,7 +5579,7 @@ $$
   \colon
   (
     x_0 \stackrel{}{\to}
-    \cdots 
+    \cdots
     \to
     x_k
     \stackrel{f_{k,k+1}}{\to}
@@ -5585,7 +5590,7 @@ $$
   \mapsto
   (
     x_0 \stackrel{}{\to}
-    \cdots 
+    \cdots
     \to
     x_k
      \stackrel{f_{k,k}}{\to}
@@ -5633,7 +5638,7 @@ In the familiar construction of [[singular homology]] recalled [above](#Simplici
 +-- {: .num_defn #AlternatingFaceMapComplex}
 ###### Definition
 
-For $A$ a [[simplicial abelian group]] its **[[alternating face map complex]]** $(C A)_\bullet$ of $A$ is the [[chain complex]] which 
+For $A$ a [[simplicial abelian group]] its **[[alternating face map complex]]** $(C A)_\bullet$ of $A$ is the [[chain complex]] which
 
 * in degree $n$ is given by the group $A_n$ itself
 
@@ -5667,27 +5672,27 @@ $$
   \begin{aligned}
     \partial_n \partial_{n+1}
     & =
-    \sum_{i, j} 
+    \sum_{i, j}
       (-1)^{i+j}
       d_i \circ d_{j}
     \\
     &=
-    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
-    + 
+    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j
+    +
     \sum_{i \lt j} (-1)^{i+j}
-      d_i \circ d_j 
+      d_i \circ d_j
     \\
     &=
-    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
-    + 
+    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j
+    +
     \sum_{i \lt j} (-1)^{i+j}
-      d_{j-1} \circ d_i 
+      d_{j-1} \circ d_i
     \\
     &=
-    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
+    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j
     -
     \sum_{i \leq k} (-1)^{i+k}
-      d_{k} \circ d_i 
+      d_{k} \circ d_i
     \\
     &=
     0
@@ -5704,10 +5709,10 @@ $$
 
 Given a [[simplicial abelian group]] $A$, its _[[normalized chain complex]]_ or _Moore complex_ is the $\mathbb{N}$-graded [[chain complex]] $((N A)_\bullet,\partial )$ which
 
-* is in degree $n$ the joint [[kernel]] 
+* is in degree $n$ the joint [[kernel]]
 
   $$
-    (N A)_n=\bigcap_{i=1}^{n}ker\,d_i^n 
+    (N A)_n=\bigcap_{i=1}^{n}ker\,d_i^n
   $$
 
   of all face maps except the 0-face;
@@ -5717,7 +5722,7 @@ Given a [[simplicial abelian group]] $A$, its _[[normalized chain complex]]_ or 
   $$
    \partial_n := d_0^n|_{(N A)_n} : (N A)_n \rightarrow (N A)_{n-1}
    \,.
-  $$ 
+  $$
 
 =--
 
@@ -5738,7 +5743,7 @@ as being $k$-dimensional [[disks]] in $A$ all whose [[boundary]] is captured by 
 
   $$
     \array{
-       && 1 
+       && 1
        \\
        & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h}
        \\
@@ -5753,7 +5758,7 @@ as being $k$-dimensional [[disks]] in $A$ all whose [[boundary]] is captured by 
 
   $$
     \array{
-       && 1 
+       && 1
        \\
        & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h = 1}
        \\
@@ -5776,7 +5781,7 @@ Write
 
 $$
   D (A_{n+1}) \coloneqq \langle \cup_i s_i(A_{n}) \rangle \hookrightarrow A_{n+1}
-$$ 
+$$
 
 for the [[subgroup]] of $A_{n+1}$ which is generated by the degenerate elements (i.e. the smallest subgroup containing all the degenerate elements).
 
@@ -5787,7 +5792,7 @@ for the [[subgroup]] of $A_{n+1}$ which is generated by the degenerate elements 
 ###### Definition
 
 
-For $A$ a [[simplicial abelian group]] its **alternating face maps chain complex modulo degeneracies**, $(C A)/(D A)$ is the [[chain complex]] 
+For $A$ a [[simplicial abelian group]] its **alternating face maps chain complex modulo degeneracies**, $(C A)/(D A)$ is the [[chain complex]]
 
 * which in degree 0 equals is just $((C A)/D(A))_0 \coloneqq A_0$;
 
@@ -5806,8 +5811,8 @@ For $A$ a [[simplicial abelian group]] its **alternating face maps chain complex
 +-- {: .num_lemma #LeftCosetsDisjoint}
 ###### Lemma
 
-Def. \ref{ComplexModuloDegeneracies} is indeed well defined 
-in that the  alternating face map differential 
+Def. \ref{ComplexModuloDegeneracies} is indeed well defined
+in that the  alternating face map differential
 respects the degenerate subcomplex.
 
 =--
@@ -5843,7 +5848,7 @@ which is again a combination of elements in the image of the degeneracy maps.
 Given a [[simplicial abelian group]] $A$, the evident composite of natural morphisms
 
 $$
-  N A \stackrel{i}{\hookrightarrow} A 
+  N A \stackrel{i}{\hookrightarrow} A
   \stackrel{p}{\to}
   (C A)/(D A)
 $$
@@ -5879,7 +5884,7 @@ $$
     \\
     {}^{\mathllap{i}}\uparrow & \nearrow
     \\
-    N A 
+    N A
   }
   \,.
 $$
@@ -5888,11 +5893,11 @@ This hence exhibits a [[split exact sequence|splitting]] of the [[short exact se
 
 $$
   \array{
-    0 &\to& D A &\hookrightarrow & C A &\stackrel{p}{\longrightarrow}& (C A)/(D A) &\to & 0 
+    0 &\to& D A &\hookrightarrow & C A &\stackrel{p}{\longrightarrow}& (C A)/(D A) &\to & 0
     \\
     && && {}^{\mathllap{i}}\uparrow & \swarrow_{\mathrlap{\simeq}_{iso}}
     \\
-    && && N A 
+    && && N A
   }
   \,.
 $$
@@ -5905,7 +5910,7 @@ $$
 +-- {: .num_theorem #EMTheorem}
 ###### Theorem (Eilenberg-MacLane)
 
-Given a [[simplicial abelian group]] $A$, then the inclusion 
+Given a [[simplicial abelian group]] $A$, then the inclusion
 
 $$
   N A \hookrightarrow C A
@@ -5935,7 +5940,7 @@ from its alternating face maps complex, def. \ref{AlternatingFaceMapComplex}, to
 +-- {: .proof}
 ###### Proof
 
-Consider the pre-composition of the map with the inclusion of the 
+Consider the pre-composition of the map with the inclusion of the
 normalized chain complex, def. \ref{NormalizedChainComplexOnGeneralGroup}.
 
 $$
@@ -5944,7 +5949,7 @@ $$
     \\
     {}^{\mathllap{i}}\uparrow & \nearrow
     \\
-    N A 
+    N A
   }
 $$
 
@@ -6024,9 +6029,9 @@ Notice that alternatively we could consider the topological 1-simplex $\Delta^1 
 The statement of the _[[Dold-Kan correspondence]]_ now is the following.
 
 +-- {: .num_theorem }
-###### Theorem 
+###### Theorem
 
-For $A$ an [[abelian category]] 
+For $A$ an [[abelian category]]
 there is an [[equivalence of categories]]
 
 $$
@@ -6034,7 +6039,7 @@ $$
       \stackrel{\leftarrow}{\to} Ch_\bullet^+(A) \;\colon\; \Gamma
 $$
 
-between 
+between
 
 * the [[category of simplicial objects]] in $A$;
 
@@ -6061,7 +6066,7 @@ $$
 that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the free simplicial abelian group $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
 
 $$
-    \Gamma(V) : [k]  \mapsto 
+    \Gamma(V) : [k]  \mapsto
     Hom_{Ch_\bullet^+(Ab)}(N(\mathbb{Z}(\Delta[k])), V)
     \,.
 $$
@@ -6082,16 +6087,16 @@ More explicitly we have the following
   $$
 
   and for $\theta : [m] \to [n]$ a morphism in $\Delta$ the corresponding map
-  $\Gamma(V)_n \to \Gamma(V)_m$ 
+  $\Gamma(V)_n \to \Gamma(V)_m$
 
   $$
     \theta^* : \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
-     \to 
+     \to
      \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
   $$
-  
+
   is given on the summand indexed by some $\sigma : [n] \to [k]$ by the composite
-  
+
   $$
     V_k  \stackrel{d^*}{\to} V_s \hookrightarrow \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
   $$
@@ -6113,7 +6118,7 @@ More explicitly we have the following
     A_n
   $$
 
-  which on the [[direct sum]]mand indexed by $\sigma : [n] \to [k]$ is the composite 
+  which on the [[direct sum]]mand indexed by $\sigma : [n] \to [k]$ is the composite
 
   $$
     N A_k \hookrightarrow A_k \stackrel{\sigma^*}{\to} A_n
@@ -6129,10 +6134,10 @@ More explicitly we have the following
   with the inverse
 
   $$
-    C(\Gamma(V))/D(\Gamma(V)) \to N \Gamma(V)  
+    C(\Gamma(V))/D(\Gamma(V)) \to N \Gamma(V)
   $$
 
-  of 
+  of
 
   $$
     N \Gamma(V) \hookrightarrow C(\Gamma(V)) \to C(\Gamma(V))/D(\Gamma(V))
@@ -6149,7 +6154,7 @@ This is spelled out in  ([Goerss-Jardine, prop. 2.2 in section III.2](Moore+comp
 +-- {: .num_prop }
 ###### Proposition
 
-With the explicit choice for $\Gamma N \stackrel{\simeq}{\to} Id$ as [above](#ExplicitUnitAndCounit) we have that $\Gamma$ and $N$ form an [[adjoint equivalence]] $(\Gamma \dashv N)$ 
+With the explicit choice for $\Gamma N \stackrel{\simeq}{\to} Id$ as [above](#ExplicitUnitAndCounit) we have that $\Gamma$ and $N$ form an [[adjoint equivalence]] $(\Gamma \dashv N)$
 
 =--
 
@@ -6182,22 +6187,22 @@ In fact, not only are the [[horn]] fillers guaranteed to exist, but there is an 
 +-- {: .proof}
 ###### Proof
 
-Let $G$ be a simplicial group. 
+Let $G$ be a simplicial group.
 
 Here is the explicit algorithm that computes the horn fillers:
 
-Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$, so the $y_i$s are $(n-1)$ simplices that fit together as if they were all but one, the $k^{th}$ one,  of the faces of an $n$-simplex. There are three cases: 
+Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$, so the $y_i$s are $(n-1)$ simplices that fit together as if they were all but one, the $k^{th}$ one,  of the faces of an $n$-simplex. There are three cases:
 
-1. if $k = 0$: 
+1. if $k = 0$:
 
    * Let  $w_n = s_{n-1}y_n$ and then $w_i = w_{i+1}(s_{i-1}d_i w_{i+1})^{-1}s_{i-1}y_i$ for  $i = n, \ldots, 1$, then  $w_1 $ satisfies $d_i w_1 = y_i$, $i\neq  0$;
 
-1. if $0\lt k \lt n$: 
+1. if $0\lt k \lt n$:
 
    * Let $w_0 = s_0 y_0$ and $w_i = w_{i-1}(s_i d_i w_{i-1})^{-1}s_i y_i$ for $i = 0, \ldots, k-1$, then take $w_n = w_{k-1}(s_{n-1}d_nw_{k-1})^{-1}s_{n-1}y_n$, and finally a downwards induction given by $w_i = w_{i+1}(s_{i-1}d_{i}w_{i+1})^{-1}s_{i-1}y_i$, for $i = n, \ldots, k+1$, then $w_{k+1}$ gives $d_{i}w_{k+1} = y_i$ for $i \neq k$;
 
 
-3. if $k=n$: 
+3. if $k=n$:
 
    * use $w_0 = s_0 y_0$ and $w_i = w_{i-1}(s_i d_i w_{i-1})^{-1}s_i y_i$ for $i = 0, \ldots, n-1$, then $w_{n-1}$ satisfies $d_i w_{n-1} = y_i$, $i\neq n$.
 
@@ -6215,7 +6220,7 @@ We have seen in  _[Chain complexes -- Abelian homotopy types](#ChainComplexes)_ 
 ##### Chain homotopy and resolutions
  {#ChainHomotopyAndResolution}
 
-We now come back to the [[nLab:category]] $\mathcal{K}(\mathcal{A})$ of def. \ref{TheStrongHomotopyCategory}, the "[[nLab:homotopy category of chain complexes]]" in which chain-homotopic chain maps are identified. This would seem to be the right context to study the [[nLab:homotopy theory]] of chain complexes, but one finds that there are still chain maps which ought to be identified in [[nLab:homotopy theory]], but which are still not identified in $\mathcal{K}(\mathcal{A})$. This is our motivating example \ref{AChainMapThatOughtToBeNullHomotopicButIsNot} below. 
+We now come back to the [[nLab:category]] $\mathcal{K}(\mathcal{A})$ of def. \ref{TheStrongHomotopyCategory}, the "[[nLab:homotopy category of chain complexes]]" in which chain-homotopic chain maps are identified. This would seem to be the right context to study the [[nLab:homotopy theory]] of chain complexes, but one finds that there are still chain maps which ought to be identified in [[nLab:homotopy theory]], but which are still not identified in $\mathcal{K}(\mathcal{A})$. This is our motivating example \ref{AChainMapThatOughtToBeNullHomotopicButIsNot} below.
 
 We discuss then how this problem is fixed by allowing to first "[[nLab:resolution|resolve]]" chain complexes [[nLab:quasi-isomorphism|quasi-isomorphically]] by "good representatives" called _[[nLab:projective resolutions]]_ or _[[nLab:injective resolutions]]_. Many of the computations in the following sections -- and in homological algebra in general -- come down to operating on such resolutions. We end this section by prop. \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} below, which shows that the above problem indeed goes away when allowing chain complexes to be resolved.
 
@@ -6244,13 +6249,13 @@ The [[nLab:codomain]] of this map is an [[nLab:exact sequence]], hence is [[nLab
 
 But the above chain map is chain homotopic precisely only to itself. This is because the degree-0 component of any chain homotopy out of this has to be a homomorphism of abelian groups $\mathbb{Z}_2 \to \mathbb{Z}$, and this must be the 0-morphism, because $\mathbb{Z}$ is a [[nLab:free group]], but $\mathbb{Z}_2$ is not.
 
-This points to the problem: the components of the domain chain complex are not _free enough_ to admit sufficiently many maps out of it. 
+This points to the problem: the components of the domain chain complex are not _free enough_ to admit sufficiently many maps out of it.
 
 Consider therefore a [[nLab:free resolution]] of the above domain complex by the [[nLab:quasi-isomorphism]]
 
 $$
   \array{
-     \cdots 
+     \cdots
     &\to& 0 &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z}
     \\
     && \downarrow && \downarrow && \downarrow && \downarrow^{\mathrlap{mod\,2}}
@@ -6260,12 +6265,12 @@ $$
   \,,
 $$
 
-where now the domain complex consists entirely of [[nLab:free groups]]. 
+where now the domain complex consists entirely of [[nLab:free groups]].
 The composite of this with the original chain map is now
 
 $$
   \array{
-     \cdots 
+     \cdots
     &\to& 0 &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z}
     \\
     && \downarrow && \downarrow && \downarrow^{0} && \downarrow^{\mathrlap{mod\,2}}
@@ -6275,20 +6280,20 @@ $$
   \,.
 $$
 
-This is the corresponding [[nLab:resolution]] of the original chain map. And _this_ indeed has a [[nLab:null homotopy]]: 
+This is the corresponding [[nLab:resolution]] of the original chain map. And _this_ indeed has a [[nLab:null homotopy]]:
 
 $$
   \array{
-     \cdots 
+     \cdots
     &\to& 0 &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z}
     \\
-      && 
-    \downarrow 
-     &\swarrow& 
-    \downarrow 
-      &\swarrow_{-id}& 
-    \downarrow^{0} 
-      &\swarrow_{\mathrlap{id}}& 
+      &&
+    \downarrow
+     &\swarrow&
+    \downarrow
+      &\swarrow_{-id}&
+    \downarrow^{0}
+      &\swarrow_{\mathrlap{id}}&
     \downarrow^{\mathrlap{mod\,2}}
     \\
     \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\stackrel{mod\,2}{\to}& \mathbb{Z}_2
@@ -6307,7 +6312,7 @@ Notably, in general it is awkward to insist on actual _free resolutions_. But it
 +-- {: .num_defn #ProjectiveObject}
 ###### Definition
 
-An [[nLab:object]] $P$ of a [[nLab:category]] $C$ is a **projective object**  if it has the [[nLab:left lifting property]] against [[nLab:epimorphisms]]. 
+An [[nLab:object]] $P$ of a [[nLab:category]] $C$ is a **projective object**  if it has the [[nLab:left lifting property]] against [[nLab:epimorphisms]].
 
 This means that $P$ is projective if for any [[nLab:morphism]] $f:P \to B$ and any [[nLab:epimorphism]] $q:A \to B$, $f$ factors through $q$ by some morphism $P\to A$.
 
@@ -6315,7 +6320,7 @@ $$
   \array{
     && A
     \\
-    &{}^{\mathllap{\exists}}\nearrow& \downarrow^{\mathrlap{q}} 
+    &{}^{\mathllap{\exists}}\nearrow& \downarrow^{\mathrlap{q}}
     \\
     P &\stackrel{f}{\to}& B
   }
@@ -6358,7 +6363,7 @@ In the [[nLab:category]] [[nLab:Set]] of [[nLab:sets]] the following are equival
 +-- {: .num_remark }
 ###### Remark
 
-We will assume here throughout the [[nLab:axiom of choice]] in [[nLab:Set]], as usual. The point of the above example, however, is that one could just as well replace [[nLab:Set]] by another "[[nLab:base topos]]" which will behave essentially precisely like [[nLab:Set]], but in general will not validate the axiom of choice. Homological algebra in such a more general context is the theory of complexes of [[nLab:abelian sheaves]]/[[nLab:sheaves of abelian groups]] and ultimately the theory of _[[nLab:abelian sheaf cohomology]]_. 
+We will assume here throughout the [[nLab:axiom of choice]] in [[nLab:Set]], as usual. The point of the above example, however, is that one could just as well replace [[nLab:Set]] by another "[[nLab:base topos]]" which will behave essentially precisely like [[nLab:Set]], but in general will not validate the axiom of choice. Homological algebra in such a more general context is the theory of complexes of [[nLab:abelian sheaves]]/[[nLab:sheaves of abelian groups]] and ultimately the theory of _[[nLab:abelian sheaf cohomology]]_.
 
 This is a major aspect of homological algebra. While we will not discuss this further here in this introduction, the reader might enjoy keeping in mind that all of the following discussion of resolutions of $R$-modules goes through in this wider context of [[nLab:sheaves of modules]] except for subtleties related to the (partial) failure of example \ref{ProjectivesInSet} for the [[nLab:category of sheaves]].
 
@@ -6375,7 +6380,7 @@ a [[nLab:free module]] $N \simeq R^{(S)}$ is projective.
 =--
 
 +-- {: .proof}
-###### Proof 
+###### Proof
 
 Explicitly: if $S \in Set$ and $F(S) = R^{(S)}$ is the [[nLab:free module]] on $S$, then a module homomorphism $F(S) \to N$ is specified equivalently by a [[nLab:function]] $f : S \to U(N)$ from $S$ to the underlying set of $N$, which can be thought of as specifying the images of the unit elements in $R^{(S)} \simeq \oplus_{s \in S} R$ of the ${\vert S\vert}$ copies of $R$.
 
@@ -6411,7 +6416,7 @@ $$
 +-- {: .num_lemma #DirectSummandOfFreeIsProjective}
 ###### Lemma
 
-If $N \in R Mod$ is a [[nLab:direct sum|direct summand]] of a [[nLab:free module]], hence if there is $N' \in R Mod$ and $S \in Set$ such that 
+If $N \in R Mod$ is a [[nLab:direct sum|direct summand]] of a [[nLab:free module]], hence if there is $N' \in R Mod$ and $S \in Set$ such that
 
 $$
   R^{(S)} \simeq N \oplus N'
@@ -6423,9 +6428,9 @@ then $N$ is a projective module.
 =--
 
 +-- {: .proof}
-###### Proof 
+###### Proof
 
-Let $\tilde K \to K$ be a surjective homomorphism of modules and 
+Let $\tilde K \to K$ be a surjective homomorphism of modules and
 $f : N \to K$ a homomorphism. We need to show that there is a lift $\tilde f$ in
 
 $$
@@ -6434,7 +6439,7 @@ $$
     \\
     & {}^{\mathllap{\tilde f}}\nearrow & \downarrow
     \\
-    N &\stackrel{f}{\to}& K 
+    N &\stackrel{f}{\to}& K
   }
   \,.
 $$
@@ -6446,7 +6451,7 @@ $$
   \,.
 $$
 
-Since $N \oplus N'$ is free by assumption, and hence projective by lemma \ref{FreeModulesAreProjective}, there is a lift $\hat f$ in 
+Since $N \oplus N'$ is free by assumption, and hence projective by lemma \ref{FreeModulesAreProjective}, there is a lift $\hat f$ in
 
 $$
   \array{
@@ -6466,7 +6471,7 @@ Hence $\tilde f : N \to N \oplus N' \stackrel{\hat f}{\to} \tilde K$ is a lift o
 +-- {: .num_prop #CharacterizationOfProjectiveAsDirectSummandOfFree}
 ###### Proposition
 
-An $R$-module $N$ is projective precisely if it is the [[nLab:direct summand]] of a [[nLab:free module]]. 
+An $R$-module $N$ is projective precisely if it is the [[nLab:direct summand]] of a [[nLab:free module]].
 
 =--
 
@@ -6490,9 +6495,9 @@ $$
 
 given by sending the unit $1 \in R_n$ of the copy of $R$ in the direct sum labeled by $n \in U(n)$ to $n \in N$.
 
-(Abstractly this is the [[nLab:counit of an adjunction|counit]] 
+(Abstractly this is the [[nLab:counit of an adjunction|counit]]
 $\epsilon : F(U(N)) \to N$
-of the [[nLab:free functor|free]]/[[nLab:forgetful functor|forgetful]]-[[nLab:adjunction]] $(F \dashv U)$.) 
+of the [[nLab:free functor|free]]/[[nLab:forgetful functor|forgetful]]-[[nLab:adjunction]] $(F \dashv U)$.)
 
 This is clearly an [[nLab:epimorphism]]. Thefore if $N$ is projective, there is a [[nLab:section]] $s$ of $\epsilon$. This exhibits $N$ as a direct summand of $F(U(N))$.
 
@@ -6524,7 +6529,7 @@ Let $N \in \mathcal{A}$ be a fixed module and $C_\bullet \in Ch_\bullet(\mathcal
 
 $$
   Hom_{\mathcal{A}}(C_\bullet, N)
-  = 
+  =
   \left[
     Hom_{\mathcal{A}}(C_0, N)
      \stackrel{Hom_{\mathcal{A}}(\partial_0, N)}{\to}
@@ -6542,7 +6547,7 @@ $$
 +-- {: .num_example }
 ###### Example
 
-In example \ref{DualCochainComplexOfAChainComplex} let $\mathcal{A} = \mathbb{Z}$[[nLab:Mod]] $=$ [[nLab:Ab]], let $N = \mathbb{Z}$ and let $C_\bullet = \mathbb{Z}[Sing(X)]$ be the [[nLab:singular simplicial complex]] of a [[nLab:topological space]] $X$. Write 
+In example \ref{DualCochainComplexOfAChainComplex} let $\mathcal{A} = \mathbb{Z}$[[nLab:Mod]] $=$ [[nLab:Ab]], let $N = \mathbb{Z}$ and let $C_\bullet = \mathbb{Z}[Sing(X)]$ be the [[nLab:singular simplicial complex]] of a [[nLab:topological space]] $X$. Write
 
 $$
   C^\bullet(X) \coloneqq Hom_{\mathbb{Z}[Sing X], \mathbb{Z}}
@@ -6583,7 +6588,7 @@ $$
   \array{
     X &\to& I
     \\
-    {}^{}\downarrow 
+    {}^{}\downarrow
     \\
     Z
   }
@@ -6609,7 +6614,7 @@ Since we are interested in refining modules by projective or injective modules, 
 +-- {: .num_defn #EnoughInjectivesEnoughProjectives}
 ###### Definition
 
-A category 
+A category
 
 * **has enough projectives** if for every object $X$ there is a [[nLab:projective object]] $Q$ equipped with an [[nLab:epimorphism]] $Q \to X$;
 
@@ -6643,7 +6648,7 @@ is clearly a [[nLab:surjection]], hence an [[nLab:epimorphism]] in $R$[[nLab:Mod
 
 We now show that similarly $R Mod$ has enough injectives. This is a little bit more work and hence we proceed with a few preparatory statements.
 
-The following basic statement of [[nLab:algebra]] we cite here without proof (but see at _[[nLab:injective object]]_ for details). 
+The following basic statement of [[nLab:algebra]] we cite here without proof (but see at _[[nLab:injective object]]_ for details).
 
 +-- {: .num_prop #InjectiveAbelianGroupIsDivisibleGroup}
 ###### Proposition
@@ -6677,8 +6682,8 @@ the [[nLab:category]] $\mathbb{Z}$[[nLab:Mod]] $\simeq$ [[nLab:Ab]] has [[nLab:i
 
 =--
 
-+-- {: .proof} 
-###### Proof 
++-- {: .proof}
+###### Proof
 
 By prop. \ref{InjectiveAbelianGroupIsDivisibleGroup} an [[nLab:abelian group]]
 is an injective $\mathbb{Z}$-module precisely if it is a [[nLab:divisible group]]. So we need to show that every [[nLab:abelian group]] is a [[nLab:subgroup]] of a [[nLab:divisible group]].
@@ -6689,7 +6694,7 @@ Now by the discussion at _[[nLab:projective module]]_ every [[nLab:abelian group
 
 $$
   \array{
-    ker &\stackrel{=}{\to}& ker 
+    ker &\stackrel{=}{\to}& ker
     \\
     \downarrow && \downarrow
     \\
@@ -6716,12 +6721,12 @@ for $R$ a [[nLab:ring]], the category $R$[[nLab:Mod]] has [[nLab:injective objec
 
 The proof uses the following lemma.
 
-Write $U\colon R Mod \to Ab$ for the [[nLab:forgetful functor]] that forgets the $R$-module structure on a module $N$ and just remembers the underlying abelian group $U(N)$. 
+Write $U\colon R Mod \to Ab$ for the [[nLab:forgetful functor]] that forgets the $R$-module structure on a module $N$ and just remembers the underlying abelian group $U(N)$.
 
 +-- {: .num_lemma #CoextensionOfScalarsForRModToZMod}
 ###### Lemma
 
-The [[nLab:functor]] $U\colon R Mod \to Ab$ has a [[nLab:right adjoint]] 
+The [[nLab:functor]] $U\colon R Mod \to Ab$ has a [[nLab:right adjoint]]
 
 $$
   R_* : Ab \to R Mod
@@ -6738,7 +6743,7 @@ equipped with the $R$-[[nLab:module]] struture by which for $r \in R$ an element
 $$
   r f : r' \mapsto f(r' \cdot r)
   \,.
-$$ 
+$$
 
 This is called the **[[nLab:coextension of scalars]]** along the ring homomorphism $\mathbb{Z} \to R$.
 
@@ -6763,8 +6768,8 @@ $$
 
 =--
 
-+-- {: .proof} 
-###### Proof 
++-- {: .proof}
+###### Proof
 **of prop. \ref{ModEnoughInjectives}**
 
 Let $N \in R Mod$. We need to find a monomorphism $N \to \tilde N$ such that $\tilde N$ is an injective $R$-module.
@@ -6779,7 +6784,7 @@ $$
 of the underlying abelian group into an injective abelian group $D$.
 
 
-Now consider the $(U \dashv R_*)$-[[nLab:adjunct]] 
+Now consider the $(U \dashv R_*)$-[[nLab:adjunct]]
 
 $$
   N \to R_*(D)
@@ -6809,7 +6814,7 @@ $$
   Hom_{R Mod}(K, Hom_{Ab}(U(R), U(D)))
 $$
 
-[[nLab:natural isomorphism|natural]] in $K \in R Mod$ and from the injectivity of $D \in Ab$. 
+[[nLab:natural isomorphism|natural]] in $K \in R Mod$ and from the injectivity of $D \in Ab$.
 
 $$
   \array{
@@ -6863,7 +6868,7 @@ $$
     \downarrow^{\mathrlap{i^0}} && \downarrow && && \downarrow
     \\
     J^0 &\stackrel{d^0}{\to}& J^1 &\stackrel{d^1}{\to}& \cdots &\to&
-    J^n &\stackrel{d^n}{\to}&\cdots 
+    J^n &\stackrel{d^n}{\to}&\cdots
   }
   \,.
 $$
@@ -6929,7 +6934,7 @@ We first discuss the existence of injective/projective resolutions, and then the
 
 Let $\mathcal{A}$ be an [[nLab:abelian category]] with [[nLab:injective object|enough injectives]], such as our $R$[[nLab:Mod]] for some [[nLab:ring]] $R$.
 
-Then every object $X \in \mathcal{A}$ has an [[nLab:injective resolution]], 
+Then every object $X \in \mathcal{A}$ has an [[nLab:injective resolution]],
 def. \ref{InjectiveResolution}.
 
 =--
@@ -6937,13 +6942,13 @@ def. \ref{InjectiveResolution}.
 +-- {: .proof}
 ###### Proof
 
-Let $X \in \mathcal{A}$ be the given object. 
-By remark \ref{InjectiveResolutionInComponents} we need to 
+Let $X \in \mathcal{A}$ be the given object.
+By remark \ref{InjectiveResolutionInComponents} we need to
 construct an [[nLab:exact sequence]] of the form
 
 $$
   0 \to X \to J^0 \stackrel{d^0}{\to} J^1 \stackrel{d^1}{\to}
-  J^2 \stackrel{d^2}{\to} \cdots \to J^n \to \cdots 
+  J^2 \stackrel{d^2}{\to} \cdots \to J^n \to \cdots
 $$
 
 such that all the $J^\cdot$ are [[nLab:injective objects]].
@@ -6976,7 +6981,7 @@ $$
   \,.
 $$
 
-By the assumption that there are enough injectives in $\mathcal{A}$ we may now again find a monomorphism $J^n/J^{n-1} \stackrel{i}{\hookrightarrow} J^{n+1}$ into an injective object $J^{n+1}$. This being a monomorphism means that 
+By the assumption that there are enough injectives in $\mathcal{A}$ we may now again find a monomorphism $J^n/J^{n-1} \stackrel{i}{\hookrightarrow} J^{n+1}$ into an injective object $J^{n+1}$. This being a monomorphism means that
 
 $$
   J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{d^n \coloneqq i \circ p}{\longrightarrow} J^{n+1}
@@ -6992,14 +6997,14 @@ which completes the [[nLab:induction]] step.
 
 =--
 
-The following proposition is  [[nLab:duality|formally dual]] to prop. \ref{ExistenceOfInjectiveResolutions}. 
+The following proposition is  [[nLab:duality|formally dual]] to prop. \ref{ExistenceOfInjectiveResolutions}.
 
 +-- {: .num_prop #ExistenceOfProjectiveResolution}
 ###### Proposition
 
 Let $\mathcal{A}$ be an [[nLab:abelian category]] with [[nLab:projective object|enough projectives]] (such as $R$[[nLab:Mod]] for some [[nLab:ring]] $R$).
 
-Then every object $X \in \mathcal{A}$ has a [[nLab:projective resolution]], 
+Then every object $X \in \mathcal{A}$ has a [[nLab:projective resolution]],
 def. \ref{ProjectiveResolution}.
 
 =--
@@ -7007,8 +7012,8 @@ def. \ref{ProjectiveResolution}.
 +-- {: .proof}
 ###### Proof
 
-Let $X \in \mathcal{A}$ be the given object. 
-By remark \ref{ProjectiveResolutionInComponents} we need to 
+Let $X \in \mathcal{A}$ be the given object.
+By remark \ref{ProjectiveResolutionInComponents} we need to
 construct an [[nLab:exact sequence]] of the form
 
 $$
@@ -7018,7 +7023,7 @@ $$
   J_0 \to X \to 0
 $$
 
-such that all the $J_\cdot$ are [[nLab:projective objects]]. 
+such that all the $J_\cdot$ are [[nLab:projective objects]].
 
 This we we now construct by [[nLab:induction]] on the degree $n \in \mathbb{N}$.
 
@@ -7040,13 +7045,13 @@ Assume then by induction hypothesis that for $n \in \mathbb{N}$ an [[nLab:exact 
 $$
   J_n \stackrel{\partial_{n-1}}{\to}
   J_{n-1}
-  \to 
+  \to
   \cdots
   \stackrel{\partial_0}{\to}
   J_0
-  \to 
+  \to
   X
-  \to 
+  \to
   0
 $$
 
@@ -7057,13 +7062,13 @@ $$
   \stackrel{i}{\to}
    J_n \stackrel{\partial_{n-1}}{\to}
   J_{n-1}
-  \to 
+  \to
   0
   \,.
 $$
 
-By the assumption that there are enough projectives in $\mathcal{A}$ we may now again find an epimorphism 
-$ p : J_{n+1} \to ker(\partial_{n-1})$ out of a projective object $J_{n+1}$. This being an epimorphism means that 
+By the assumption that there are enough projectives in $\mathcal{A}$ we may now again find an epimorphism
+$ p : J_{n+1} \to ker(\partial_{n-1})$ out of a projective object $J_{n+1}$. This being an epimorphism means that
 
 $$
   J_{n+1} \stackrel{\partial_{n} \coloneqq i\circ p}{\to}
@@ -7073,16 +7078,16 @@ $$
 is [[nLab:exact sequence|exact]] in the middle term. Therefore we now have an [[nLab:exact sequence]]
 
 $$
-  J_{n+1} 
+  J_{n+1}
     \stackrel{\partial_n}{\to}
   J_n
     \stackrel{\partial_{n-1}}{\to}
   \cdots
    \stackrel{\partial_0}{\to}
   J_0
-  \to 
+  \to
   X
-  \to 
+  \to
   0
   \,,
 $$
@@ -7096,7 +7101,7 @@ To conclude this section we now show that all this work indeed serves to solve t
 +-- {: .num_prop #MapsOutOfExactIntoInjectiveAreNullHomotopic}
 ###### Proposition
 
-Let $f^\bullet : X^\bullet \to J^\bullet$ be a [[nLab:chain map]] of cochain complexes in non-negative degree, out of an [[nLab:exact sequence|exact complex]] $0 \simeq_{qi} X^\bullet$ to a degreewise injective complex $J^\bullet$. Then there is a [[nLab:null homotopy]] 
+Let $f^\bullet : X^\bullet \to J^\bullet$ be a [[nLab:chain map]] of cochain complexes in non-negative degree, out of an [[nLab:exact sequence|exact complex]] $0 \simeq_{qi} X^\bullet$ to a degreewise injective complex $J^\bullet$. Then there is a [[nLab:null homotopy]]
 
 $$
   \eta : 0 \Rightarrow f^\bullet
@@ -7107,20 +7112,20 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition of [[nLab:chain homotopy]] we need to construct a sequence of morphisms $(\eta^{n+1} : X^{n+1} \to J^{n})_{n \in \mathbb{N}}$ such that 
+By definition of [[nLab:chain homotopy]] we need to construct a sequence of morphisms $(\eta^{n+1} : X^{n+1} \to J^{n})_{n \in \mathbb{N}}$ such that
 
 $$
   f^n = \eta^{n+1} \circ d^n_X + d^{n-1}_J \circ \eta^n
   \,.
 $$
 
-for all $n$. We now construct this by [[nLab:induction]] over $n$. 
+for all $n$. We now construct this by [[nLab:induction]] over $n$.
 
 It is convenient to start at $n = -1$, take $\eta^{\leq 0} \coloneqq 0$ and $f^{\lt 0} \coloneqq 0$. Then the above condition holds for $n = -1$.
 
-Then in the induction step assume that for given $n \in \mathbb{N}$ we have constructed $\eta^{\bullet \leq n}$ satisfying the above condition for $f^{\lt n}$ 
+Then in the induction step assume that for given $n \in \mathbb{N}$ we have constructed $\eta^{\bullet \leq n}$ satisfying the above condition for $f^{\lt n}$
 
-First define now 
+First define now
 
 $$
   g^n \coloneqq f^n - d_J^{n-1} \circ \eta^n
@@ -7130,11 +7135,11 @@ and observe that by induction hypothesis
 
 $$
   \begin{aligned}
-    g^n \circ d_X^{n-1} 
+    g^n \circ d_X^{n-1}
     & =
     f^n \circ d^{n-1}_X - d^{n-1}_J \circ \eta^n \circ d^{n-1}_X
     \\
-    & = f^n \circ d^{n-1}_X - d^{n-1}_J \circ f^{n-1} 
+    & = f^n \circ d^{n-1}_X - d^{n-1}_J \circ f^{n-1}
         + d^{n-1}_J \circ d^{n-2}_J \circ \eta^{n-1}
     \\
     & = 0 + 0
@@ -7144,12 +7149,12 @@ $$
   \,.
 $$
 
-This means that $g^n$ factors as 
+This means that $g^n$ factors as
 
 $$
   X^n \to X^n / im(d^{n-1}_X) \stackrel{g^n}{\to} J^n
   \,,
-$$ 
+$$
 
 where the first map is the [[nLab:projection]] to the [[nLab:quotient]].
 
@@ -7165,7 +7170,7 @@ $$
     \\
     J^n   }
   \,,
-$$ 
+$$
 
 
 where the morphism $\eta^{n+1}$ may be found due to the defining [[nLab:right lifting property]] of the [[nLab:injective object]] $J^n$ against the top monomorphism.
@@ -7179,7 +7184,7 @@ The formally dual statement of prop \ref{MapsOutOfExactIntoInjectiveAreNullHomot
 +-- {: .num_lemma #MapsProjectiveIntoExactAreNullHomotopic}
 ###### Lemma
 
-Let $f_\bullet : P_\bullet \to Y_\bullet$ be a [[nLab:chain map]] of [[nLab:chain complexes]] in non-negative degree, into an [[nLab:exact sequence|exact complex]] $0 \simeq_{qi} Y_\bullet$ from a degreewise [[nLab:projective object|projective]] complex $X^\bullet$. Then there is a [[nLab:null homotopy]] 
+Let $f_\bullet : P_\bullet \to Y_\bullet$ be a [[nLab:chain map]] of [[nLab:chain complexes]] in non-negative degree, into an [[nLab:exact sequence|exact complex]] $0 \simeq_{qi} Y_\bullet$ from a degreewise [[nLab:projective object|projective]] complex $X^\bullet$. Then there is a [[nLab:null homotopy]]
 
 $$
   \eta : 0 \Rightarrow f_\bullet
@@ -7215,7 +7220,7 @@ $$
   i_Y : Y \stackrel{\sim}{\to} Y^\bullet
 $$
 
-be an [[nLab:injective resolution]] of $Y$ and 
+be an [[nLab:injective resolution]] of $Y$ and
 
 $$
   i_X : X \stackrel{\sim}{\to} X^\bullet
@@ -7240,7 +7245,7 @@ $$
 ###### Proof
 
 By definition of [[nLab:chain map]] we need to construct
-[[nLab:morphisms]] $(f^n : X^n \to Y^n)_{n \in \mathbb{N}}$ such that 
+[[nLab:morphisms]] $(f^n : X^n \to Y^n)_{n \in \mathbb{N}}$ such that
 for all $n \in \mathbb{N}$ the [[nLab:diagrams]]
 
 $$
@@ -7299,9 +7304,9 @@ $$
   d^n_Y \circ f^n \circ d^{n-1}_X = d^n_Y \circ d^{n-1}_Y \circ f^{n-1} = 0
 $$
 
-and therefore $g^n$ factors through $X^n/im(d^{n-1}_X)$ via some $h^n$ as indicated in the middle of the above diagram. Finally the morphism on the top right is a monomorphism by the fact that $X^{\bullet}$ is [[nLab:exact sequence|exact]] in positive degrees (being [[nLab:quasi-isomorphism|quasi-isomorphic]] to a complex concentrated in degree 0) and so a lift $f^{n+1}$ as shown on the far right of the diagram exists by the defining lifting property of the injective object $Y^{n+1}$. 
+and therefore $g^n$ factors through $X^n/im(d^{n-1}_X)$ via some $h^n$ as indicated in the middle of the above diagram. Finally the morphism on the top right is a monomorphism by the fact that $X^{\bullet}$ is [[nLab:exact sequence|exact]] in positive degrees (being [[nLab:quasi-isomorphism|quasi-isomorphic]] to a complex concentrated in degree 0) and so a lift $f^{n+1}$ as shown on the far right of the diagram exists by the defining lifting property of the injective object $Y^{n+1}$.
 
-The total outer diagram now [[nLab:commuting diagram|commutes]], being built from commuting sub-diagrams, and this is the required chain map property of $f^{\bullet \leq n+1}$ This completes the induction step. 
+The total outer diagram now [[nLab:commuting diagram|commutes]], being built from commuting sub-diagrams, and this is the required chain map property of $f^{\bullet \leq n+1}$ This completes the induction step.
 
 
 =--
@@ -7338,13 +7343,13 @@ by considering instead of $f^\bullet$ the induced chain map of augmented complex
 
 $$
   \array{
-     0 
-       &\stackrel{}{\to}& 
-     X 
-       &\stackrel{h^0}{\to}& 
-     X^0 
-       &\stackrel{d^0_X}{\to}& 
-     X^1 
+     0
+       &\stackrel{}{\to}&
+     X
+       &\stackrel{h^0}{\to}&
+     X^0
+       &\stackrel{d^0_X}{\to}&
+     X^1
        &\to&
     \cdots
      \\
@@ -7356,35 +7361,35 @@ $$
      &&
      \downarrow^{f^1}
      \\
-     0 
-       &\to& 
-     Y 
-       &\to& 
-     Y^0 
-       &\stackrel{d^0_J}{\to}& 
-     Y^1 
-       &\to& 
-     \cdots  
+     0
+       &\to&
+     Y
+       &\to&
+     Y^0
+       &\stackrel{d^0_J}{\to}&
+     Y^1
+       &\to&
+     \cdots
   }
   \,,
 $$
 
 where the second square from the left commutes due to the commutativity of the original square of chain complexes in degree 0.
 
-Since $h^\bullet$ is a [[nLab:quasi-isomorphism]], the top chain complex is [[nLab:exact sequence|exact]], by remark \ref{InjectiveResolutionInComponents}. Moreover the bottom complex consists of [[nLab:injective objects]] from the second degree on (the former degree 0). Hence 
+Since $h^\bullet$ is a [[nLab:quasi-isomorphism]], the top chain complex is [[nLab:exact sequence|exact]], by remark \ref{InjectiveResolutionInComponents}. Moreover the bottom complex consists of [[nLab:injective objects]] from the second degree on (the former degree 0). Hence
 the induction in the proof of prop. \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} implies the existence of a [[nLab:null homotopy]]
 
 
 $$
   \array{
-     0 
-       &\stackrel{}{\to}& 
-     X 
+     0
        &\stackrel{}{\to}&
-     X^0 
+     X
+       &\stackrel{}{\to}&
+     X^0
        &\stackrel{d^0_X}{\to}&
-     X^1 
-       &\to& 
+     X^1
+       &\to&
      \cdots
      \\
      \downarrow^{\mathrlap{f^{-2} = 0}}
@@ -7395,7 +7400,7 @@ $$
        &\swarrow_{\mathrlap{\eta^1}}&
      \downarrow^{f^1}
      \\
-     0 &\to& Y &\to& Y^0 &\stackrel{d^0_Y}{\to}& Y^1 &\to& \cdots  
+     0 &\to& Y &\to& Y^0 &\stackrel{d^0_Y}{\to}& Y^1 &\to& \cdots
   }
 $$
 
@@ -7415,17 +7420,17 @@ Write as before
 
 $$
   \mathcal{K}_\bullet(\mathcal{A}) \in Cat
-$$ 
+$$
 
 for the strong chain homotopy category of chain complexes, from def. \ref{TheStrongHomotopyCategory}.
 
-Write similarly now 
+Write similarly now
 
 $$
   \mathcal{K}^\bullet(\mathcal{A})  \in Cat
 $$
 
-for the strong chain homotopy category of co-chain complexes. 
+for the strong chain homotopy category of co-chain complexes.
 
 Write furthermore
 
@@ -7438,7 +7443,7 @@ $$
 $$
 
 
-for the [[nLab:full subcategory]] on the degreewise [[nLab:projective object|projective]] [[nLab:chain complexes]], and 
+for the [[nLab:full subcategory]] on the degreewise [[nLab:projective object|projective]] [[nLab:chain complexes]], and
 
 $$
   \mathcal{D}^\bullet(\mathcal{A})
@@ -7488,15 +7493,15 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{ExistenceOfInjectiveResolutions} every object $X^\bullet \in Ch^\bullet(\mathcal{A})$ has an injective resolution. 
-Proposition \ref{InjectiveResolutionOfCodomainRespectsMorphisms} says that for $X \to X^\bullet$ and $X \to \tilde X^\bullet$ two resolutions there is a morphism $X^\bullet \to \tilde X^\bullet$ in $\mathcal{K}^\bullet(\mathcal{A})$ and prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} says that this morphism is unique in $\mathcal{K}^\bullet(\mathcal{A})$. In particular it is therefore an [[nLab:isomorphism]] in $\mathcal{K}^\bullet(\mathcal{A})$ (since the composite with the reverse lifted morphism, also being unique, has to be the identity). 
+By prop. \ref{ExistenceOfInjectiveResolutions} every object $X^\bullet \in Ch^\bullet(\mathcal{A})$ has an injective resolution.
+Proposition \ref{InjectiveResolutionOfCodomainRespectsMorphisms} says that for $X \to X^\bullet$ and $X \to \tilde X^\bullet$ two resolutions there is a morphism $X^\bullet \to \tilde X^\bullet$ in $\mathcal{K}^\bullet(\mathcal{A})$ and prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} says that this morphism is unique in $\mathcal{K}^\bullet(\mathcal{A})$. In particular it is therefore an [[nLab:isomorphism]] in $\mathcal{K}^\bullet(\mathcal{A})$ (since the composite with the reverse lifted morphism, also being unique, has to be the identity).
 
 So choose one such injective resolution $P(X)^\bullet$ for each $X^\bullet$.
 
-Then for $f : X \to Y$ any morphism in $\mathcal{A}$, 
-proposition \ref{ExistenceOfInjectiveResolutions} again says that it can be lifted to a morphism between $P(X)^\bullet$ and $P(Y)^\bullet$ and proposition \ref{InjectiveResolutionOfCodomainRespectsMorphisms} says that there is an image in $\mathcal{K}^\bullet(\mathcal{A})$, unique for morphism making the given diagram commute. 
+Then for $f : X \to Y$ any morphism in $\mathcal{A}$,
+proposition \ref{ExistenceOfInjectiveResolutions} again says that it can be lifted to a morphism between $P(X)^\bullet$ and $P(Y)^\bullet$ and proposition \ref{InjectiveResolutionOfCodomainRespectsMorphisms} says that there is an image in $\mathcal{K}^\bullet(\mathcal{A})$, unique for morphism making the given diagram commute.
 
-This implies that this assignment of morphisms is [[nLab:functor|functorial]], since then also the composites are unique. 
+This implies that this assignment of morphisms is [[nLab:functor|functorial]], since then also the composites are unique.
 
 =--
 
@@ -7537,7 +7542,7 @@ $$
   \mathcal{D}_\bullet(Q(X)_\bullet, Q(Y)_\bullet)
   \simeq
   \mathcal{K}_\bullet(Q(X)_\bullet, Y_\bullet)
-  \,. 
+  \,.
 $$
 
 Dually, for $X^\bullet, Y^\bullet \in Ch^\bullet(\mathcal{A})$, we have a natural isomorphism
@@ -7551,20 +7556,20 @@ $$
 
 =--
 
-In conclusion we have found that there are _resolution functors_ that embed $\mathcal{A}$ in the homotopically correct context of resolved chain complexes with chain maps up to chain homotopy between them. 
+In conclusion we have found that there are _resolution functors_ that embed $\mathcal{A}$ in the homotopically correct context of resolved chain complexes with chain maps up to chain homotopy between them.
 
 In the next section we discuss the general properties of this "homotopically correct context": the [[nLab:derived category]].
 
 ##### Derived functors
  {#DerivedFunctors}
 
-In the previous section we have seen how the entire category $\mathcal{A}$ (= $R$[[nLab:Mod]]) embeds into its [[nLab:derived category]], the category of degreewise [[nLab:injective object|injective]] [[nLab:cochain complexes]] 
+In the previous section we have seen how the entire category $\mathcal{A}$ (= $R$[[nLab:Mod]]) embeds into its [[nLab:derived category]], the category of degreewise [[nLab:injective object|injective]] [[nLab:cochain complexes]]
 
 $$
   P : \mathcal{A} \to \mathcal{D}^\bullet(\mathcal{A}) = \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
 $$
 
-or degreewise [[nLab:projective object|projective]] [[nLab:chain complexes]] 
+or degreewise [[nLab:projective object|projective]] [[nLab:chain complexes]]
 
 $$
  Q : \mathcal{A} \to \mathcal{D}_\bullet(\mathcal{A}) =  \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}})
@@ -7582,9 +7587,9 @@ $$
   F \colon \mathcal{A} \to \mathcal{B}
 $$
 
-is called an **[[nLab:additive functor]]** if 
+is called an **[[nLab:additive functor]]** if
 
-1. $F$ maps [[nLab:generalized the|the]] [[nLab:zero object]] to the zero object, $F(0) \simeq 0 \in \mathcal{B}$; 
+1. $F$ maps [[nLab:generalized the|the]] [[nLab:zero object]] to the zero object, $F(0) \simeq 0 \in \mathcal{B}$;
 
 1. given any two [[nLab:objects]] $x, y \in \mathcal{A}$, there is an [[nLab:isomorphism]] $F(x \oplus y) \cong F(x) \oplus F(y)$, and this respects the inclusion and projection maps of the [[nLab:direct sum]]:
 
@@ -7608,7 +7613,7 @@ $$
 +-- {: .num_defn #ProlongationOfFunctorToChainComplexes}
 ###### Definition
 
-Given an [[nLab:additive functor]] $F : \mathcal{A} \to \mathcal{A}'$, it canonically induces a functor 
+Given an [[nLab:additive functor]] $F : \mathcal{A} \to \mathcal{A}'$, it canonically induces a functor
 
 $$
   Ch_\bullet(F) \colon Ch_\bullet(\mathcal{A}) \to Ch_\bullet(\mathcal{A}')
@@ -7629,12 +7634,12 @@ $$
 If $\mathcal{A}$ and $\mathcal{A}'$ have [[nLab:projective object|enough projectives]], then their [[nLab:derived categories]] are
 
 $$
-  \mathcal{D}_\bullet(\mathcal{A}) 
-   \simeq 
+  \mathcal{D}_\bullet(\mathcal{A})
+   \simeq
   \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}})
 $$
 
-and 
+and
 
 $$
   \mathcal{D}^\bullet(\mathcal{A}) \simeq \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
@@ -7643,11 +7648,11 @@ $$
 etc. One wants to accordingly _derive_ from $F$ a functor $\mathcal{D}_\bullet(\mathcal{A}) \to \mathcal{D}_\bullet(\mathcal{A})$ between these derived categories. It is immediate to achieve this on the domain category, there we can simply precompose and form
 
 $$
-  \mathcal{A}  
-    \to 
+  \mathcal{A}
+    \to
   \mathcal{D}_\bullet(\mathcal{A})
    \simeq
-  \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}}) 
+  \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}})
    \hookrightarrow
   \mathcal{K}_\bullet(\mathcal{A})
    \stackrel{\mathcal{K}_\bullet(F)}{\to}
@@ -7657,7 +7662,7 @@ $$
 
 But the resulting composite lands in $\mathcal{K}_\bullet(\mathcal{A}')$ and in general does not factor through the inclusion $\mathcal{D}_\bullet(\mathcal{A}') = \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}'}) \hookrightarrow \mathcal{K}_\bullet(\mathcal{A}')$.
 
-In a more general abstract discussion than we present here, one finds that by applying a projective resolution functor _on chain complexes_, one can enforce this factorization. However, by definition of [[nLab:resolution]], the resulting chain complex is [[nLab:quasi-isomorphism|quasi-isomorphic]] to the one obtained by the above composite. 
+In a more general abstract discussion than we present here, one finds that by applying a projective resolution functor _on chain complexes_, one can enforce this factorization. However, by definition of [[nLab:resolution]], the resulting chain complex is [[nLab:quasi-isomorphism|quasi-isomorphic]] to the one obtained by the above composite.
 
 This means that if one is only interested in the "weak chain homology type" of the chain complex in the image of a [[nLab:derived functor]], then forming [[nLab:chain homology]] groups of the chain complexes in the images of the above composite gives the desired information. This is what def. \ref{RightDerivedFunctorOfLeftExactFunctor} and def. \ref{LeftDerivedFunctorOfRightExactFunctor} below do.
 
@@ -7666,7 +7671,7 @@ This means that if one is only interested in the "weak chain homology type" of t
 +-- {: .num_defn #LeftRightExactFunctor}
 ###### Definition
 
-Let $\mathcal{A}, \mathcal{A}'$ be two [[nLab:abelian categories]], for instance $\mathcal{A} = R $[[nLab:Mod]] and $\mathcal{A}' = R'$[[nLab:Mod]]. Then a [[nLab:functor]] $F \colon \mathcal{A} \to \mathcal{A}'$ 
+Let $\mathcal{A}, \mathcal{A}'$ be two [[nLab:abelian categories]], for instance $\mathcal{A} = R $[[nLab:Mod]] and $\mathcal{A}' = R'$[[nLab:Mod]]. Then a [[nLab:functor]] $F \colon \mathcal{A} \to \mathcal{A}'$
 which preserves [[nLab:direct sums]] (and hence in particular the [[nLab:zero object]]) is called
 
 * a **[[nLab:left exact functor]]** if it preserves [[nLab:kernels]];
@@ -7703,7 +7708,7 @@ $$
   0 \to A \to B \to C
 $$
 
-also 
+also
 
 $$
   0 \to F(A) \to F(B) \to F(C)
@@ -7715,7 +7720,7 @@ $$
   A \to B \to C \to 0
 $$
 
-also 
+also
 
 $$
   F(A) \to F(B) \to F(C) \to 0
@@ -7729,10 +7734,10 @@ is an exact sequence.
 ###### Proof
 
 If $0 \to A \to B \to C$ is exact then $A \hookrightarrow B$ is a [[nLab:monomorphism]] by prop. \ref{CharacterizationOfShortExactSequences}.
-But then the statement that $A \to B \to C$ is exact at $B$ says 
-precisely that $A$ is the [[nLab:kernel]] of $B \to C$. 
+But then the statement that $A \to B \to C$ is exact at $B$ says
+precisely that $A$ is the [[nLab:kernel]] of $B \to C$.
 So if $F$ is left exact then by definition also $F(A) \to F(B)$
-is the kernel of $F(B) \to F(C)$ and so is in particular also 
+is the kernel of $F(B) \to F(C)$ and so is in particular also
 a monomorphism.
 Dually for right exact functors.
 
@@ -7751,7 +7756,7 @@ Now we can state the main two definitions of this section.
 +-- {: .num_defn #RightDerivedFunctorOfLeftExactFunctor}
 ###### Definition
 
-Let 
+Let
 
 $$
   F : \mathcal{A} \to \mathcal{A}'
@@ -7760,7 +7765,7 @@ $$
 be a [[nLab:left exact functor]] between [[nLab:abelian categories]] such that $\mathcal{A}$ has enough injectives. For $n \in \mathbb{N}$ the **$n$th [[nLab:right derived functor]]** of $F$ is the composite
 
 $$
-  R^n F : 
+  R^n F :
   \mathcal{A}
    \stackrel{P}{\to}
   \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
@@ -7791,7 +7796,7 @@ Dually:
 +-- {: .num_defn #LeftDerivedFunctorOfRightExactFunctor}
 ###### Definition
 
-Let 
+Let
 
 $$
   F : \mathcal{A} \to \mathcal{A}'
@@ -7800,7 +7805,7 @@ $$
 be a [[nLab:right exact functor]] between [[nLab:abelian categories]] such that $\mathcal{A}$ has enough projectives. For $n \in \mathbb{N}$ the **$n$th [[nLab:left derived functor]]** of $F$ is the composite
 
 $$
-  L_n F : 
+  L_n F :
   \mathcal{A}
    \stackrel{Q}{\to}
   K_\bullet(\mathcal{P}_{\mathcal{A}})
@@ -7826,7 +7831,7 @@ $$
 
 =--
 
-The following proposition says that in degree 0 these derived functors coincide with the original functors. 
+The following proposition says that in degree 0 these derived functors coincide with the original functors.
 
 +-- {: .num_prop #BasicPropertiesOfDerivedFunctors}
 ###### Proposition
@@ -7838,7 +7843,7 @@ $$
   \,.
 $$
 
-Dually, if $F$ is a [[nLab:right exact functor]] in the presence of [[nLab:projective object|enough projectives]], then 
+Dually, if $F$ is a [[nLab:right exact functor]] in the presence of [[nLab:projective object|enough projectives]], then
 
 $$
   L_0 F(X) \simeq F(X)
@@ -7850,7 +7855,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We discuss the first statement, the second is formally dual. 
+We discuss the first statement, the second is formally dual.
 
 By remark \ref{InjectiveResolutionInComponents} an injective resolution $X \stackrel{\simeq_{qi}}{\to} X^\bullet$ is equivalently an [[nLab:exact sequence]] of the form
 
@@ -7859,13 +7864,13 @@ $$
   \,.
 $$
 
-If $F$ is left exact then it preserves this excact sequence by definition of left exactness, and hence 
+If $F$ is left exact then it preserves this excact sequence by definition of left exactness, and hence
 
 $$
   0 \to F(X) \hookrightarrow F(X^0) \to F(X^1) \to \cdots
 $$
 
-is an exact sequence. But this means that 
+is an exact sequence. But this means that
 
 $$
   R^0 F(X) \coloneqq ker(F(X^0) \to F(X^1)) \simeq F(X)
@@ -7879,16 +7884,16 @@ The following immediate consequence of the definition is worth recording:
 +-- {: .num_prop #LeftDerivedFunctorOnProjectiveVanishes}
 ###### Proposition
 
-Let $F$ be an [[nLab:additive functor]]. 
+Let $F$ be an [[nLab:additive functor]].
 
-* If $F$ is [[nLab:right exact functor|right exact]] and $N \in \mathcal{A}$ is a [[nLab:projective object]], then 
+* If $F$ is [[nLab:right exact functor|right exact]] and $N \in \mathcal{A}$ is a [[nLab:projective object]], then
 
   $$
     L_n F(N) = 0 \;\;\;\; \forall n \geq 1
     \,.
   $$
 
-* If $F$ is [[nLab:left exact functor|left exact]] and $N \in \mathcal{A}$ is a [[nLab:injective object]], then 
+* If $F$ is [[nLab:left exact functor|left exact]] and $N \in \mathcal{A}$ is a [[nLab:injective object]], then
 
   $$
     R^n F(N) = 0 \;\;\;\; \forall n \geq 1
@@ -7910,25 +7915,25 @@ For proving the basic property of derived functors below in prop. \ref{LongExact
 ###### Lemma
 
 For $0 \to A \stackrel{i}{\to} B \stackrel{p}{\to} C \to 0$ a [[nLab:short exact sequence]]
-in an [[nLab:abelian category]] with [[nLab:projective object|enough projectives]], 
+in an [[nLab:abelian category]] with [[nLab:projective object|enough projectives]],
 there exists a [[nLab:commuting diagram]] of [[nLab:chain complexes]]
 
 $$
   \array{
     0 &\to& A_\bullet &\to& B_\bullet &\to& C_\bullet &\to& 0
     \\
-      && 
+      &&
     \downarrow^{\mathrlap{f_\bullet}}
-      && 
+      &&
     \downarrow^{\mathrlap{g_\bullet}}
-      && 
+      &&
     \downarrow^{\mathrlap{h_\bullet}}
     \\
     0 &\to& A &\stackrel{i}{\to}& B &\stackrel{p}{\to}& C &\to& 0
   }
 $$
 
-where 
+where
 
 * each vertical morphism is a [[nLab:projective resolution]];
 
@@ -7955,11 +7960,11 @@ be the [[nLab:direct sum]] and let the top horizontal morphisms be the canonical
 Let then furthermore (in [[nLab:matrix calculus]] notation)
 
 $$
-  g_0 = 
+  g_0 =
    \left(
      \array{
-        (j_0)_A  
-        & 
+        (j_0)_A
+        &
         (j_0)_B
       }
   \right)
@@ -8010,8 +8015,8 @@ $$
 Let then the [[nLab:differentials]] of $B_\bullet$ be given by
 
 $$
-  d_k^{B_\bullet} 
-    = 
+  d_k^{B_\bullet}
+    =
   \left(
     \array{
       d_k^{A_\bullet} & (-1)^k e_k
@@ -8019,17 +8024,17 @@ $$
       0 & d_k^{C_\bullet}
     }
   \right)
-  : 
+  :
   A_{k+1} \oplus C_{k+1}
   \to
   A_k \oplus C_k
   \,,
 $$
 
-where the $\{e_k\}$ are constructed by [[nLab:induction]] as follows. Let $e_0$ be a lift in 
+where the $\{e_k\}$ are constructed by [[nLab:induction]] as follows. Let $e_0$ be a lift in
 
 $$
-  \array{   
+  \array{
     & && A_0
     \\
     & & {}^{\mathllap{e_0}}\nearrow & \downarrow^{\mathrlap{f_0}}
@@ -8038,20 +8043,20 @@ $$
   }
 $$
 
-which exists since $C_1$ is a [[nLab:projective object]] and $A_0 \to A$ is an epimorphism by $A_\bullet$ being a projective resolution. Here we are using that by exactness the bottom morphism indeed factors through $A$ as indicated, because the definition of $\zeta$ and  the chain complex property of $C_\bullet$ gives 
+which exists since $C_1$ is a [[nLab:projective object]] and $A_0 \to A$ is an epimorphism by $A_\bullet$ being a projective resolution. Here we are using that by exactness the bottom morphism indeed factors through $A$ as indicated, because the definition of $\zeta$ and  the chain complex property of $C_\bullet$ gives
 
 $$
   \begin{aligned}
-    p \circ \zeta \circ d^{C_\bullet}_0 
-    &= 
+    p \circ \zeta \circ d^{C_\bullet}_0
+    &=
     h_0 \circ d^{C_\bullet}_0
     \\
     & = 0 \circ h_1
     \\
-    & = 0 
+    & = 0
   \end{aligned}
   \,.
-$$ 
+$$
 
 Now in the induction step, assuming that $e_{n-1}$ has been been found satisfying the chain complex property, let $e_n$ be a lift in
 
@@ -8075,10 +8080,10 @@ $$
   d^{B_\bullet}_{n}
   \circ
   d^{B_\bullet}_{n+1}
-  = 
+  =
   \left(
     \array{
-       0 &  (-1)^{n}\left(e_{n} \circ d^{C_\bullet}_{n+1} - d^{A_\bullet}_n \circ e_{n+1} \right) 
+       0 &  (-1)^{n}\left(e_{n} \circ d^{C_\bullet}_{n+1} - d^{A_\bullet}_n \circ e_{n+1} \right)
        \\
        0 & 0
      }
@@ -8089,7 +8094,7 @@ $$
 This vanishes by the very commutativity of the above diagram.
 
 
-This establishes $g_\bullet$ such that the above diagram commutes and the bottom row is degreewise a short exact sequence, in fact a [[nLab:split exact sequence]], by construction. 
+This establishes $g_\bullet$ such that the above diagram commutes and the bottom row is degreewise a short exact sequence, in fact a [[nLab:split exact sequence]], by construction.
 
 To see that $g_\bullet$ is indeed a quasi-isomorphism, consider the [[nLab:homology long exact sequence]] associated to the short exact sequence of cochain complexes $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$. In positive degrees it implies that the chain homology of $B_\bullet$ indeed vanishes. In degree 0 it gives the short sequence $0 \to A \to H_0(B_\bullet) \to B\to 0$ sitting in a commuting diagram
 
@@ -8099,7 +8104,7 @@ $$
     \\
     \downarrow && \downarrow^{\mathrlap{=}} && \downarrow && \downarrow^{\mathrlap{=}} && \downarrow
     \\
-    0 &\to& A &\hookrightarrow& B &\to& C &\to& 0 
+    0 &\to& A &\hookrightarrow& B &\to& C &\to& 0
     \,,
   }
 $$
@@ -8115,25 +8120,25 @@ The formally dual statement to lemma \ref{ProjectiveResolutionOfExactSequenceByE
 ###### Lemma
 
 For $0 \to A \to B \to C \to 0$ a [[nLab:short exact sequence]]
-in an [[nLab:abelian category]] with [[nLab:injective object|enough injectives]], 
+in an [[nLab:abelian category]] with [[nLab:injective object|enough injectives]],
 there exists a [[nLab:commuting diagram]] of cochain complexes
 
 $$
   \array{
     0 &\to& A &\to& B &\to& C &\to& 0
     \\
-      && 
+      &&
     \downarrow^{\mathrlap{}}
-      && 
+      &&
     \downarrow^{\mathrlap{}}
-      && 
+      &&
     \downarrow^{\mathrlap{}}
     \\
     0 &\to& A^\bullet &\to& B^\bullet &\to& C^\bullet &\to& 0
   }
 $$
 
-where 
+where
 
 * each vertical morphism is an [[nLab:injective resolution]];
 
@@ -8156,14 +8161,14 @@ $$
   0 \to A \to B \to C \to 0
 $$
 
-be a [[nLab:short exact sequence]] in $\mathcal{A}$.  
+be a [[nLab:short exact sequence]] in $\mathcal{A}$.
 
 Then there is a [[nLab:long exact sequence]] of images of these objects under the right derived functors $R^\bullet F(-)$ of def. \ref{RightDerivedFunctorOfLeftExactFunctor}
 
 $$
   \array{
-    0 &\to& R^0F (A)  &\to&  R^0 F(B)  &\to&  R^0 F(C) 
-     &\stackrel{\delta_0}{\to}& 
+    0 &\to& R^0F (A)  &\to&  R^0 F(B)  &\to&  R^0 F(C)
+     &\stackrel{\delta_0}{\to}&
     R^1 F(A) &\to& R^1 F(B) &\to& R^1F(C)
      &\stackrel{\delta_1}{\to}&
     R^2 F(A) &\to& \cdots
@@ -8216,11 +8221,11 @@ By construction of the resolutions and by def. \ref{RightDerivedFunctorOfLeftExa
 $$
   \cdots
    \to
-  R^{n-1}F(A) \to R^{n-1}F(B) \to R^{n-1}F(C) 
+  R^{n-1}F(A) \to R^{n-1}F(B) \to R^{n-1}F(C)
    \stackrel{\delta}{\to}
-  R^{n}F(A) \to R^{n}F(B) \to R^{n}F(C) 
+  R^{n}F(A) \to R^{n}F(B) \to R^{n}F(C)
     \stackrel{\delta}{\to}
-  R^{n+1}F(A) \to R^{n+1}F(B) \to R^{n+1}F(C) 
+  R^{n+1}F(A) \to R^{n+1}F(B) \to R^{n+1}F(C)
    \to
   \cdots
   \,.
@@ -8242,7 +8247,7 @@ $$
 
 and hence $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence itself precisely if $R^1 F(A) \simeq 0$.
 
-Dually, if $F$ is [[nLab:right exact functor]], then $L_1 F (C)$ "measures how $F$ fails to be exact" for then 
+Dually, if $F$ is [[nLab:right exact functor]], then $L_1 F (C)$ "measures how $F$ fails to be exact" for then
 
 $$
   L_1F (C) \to F(A) \to F(B) \to F(C) \to 0
@@ -8258,15 +8263,15 @@ Notice that in fact we even have the following statement (following directly fro
 ###### Proposition
 
 
-Let $F$ be an [[nLab:additive functor]] which is an [[nLab:exact functor]]. Then 
+Let $F$ be an [[nLab:additive functor]] which is an [[nLab:exact functor]]. Then
 
 $$
-  R^{\geq 1} F = 0 
+  R^{\geq 1} F = 0
 $$
 
 and
 
-$$  
+$$
   L_{\geq 1} F = 0
   \,.
 $$
@@ -8285,7 +8290,7 @@ Conversely:
 +-- {: .num_defn #AcyclicObject}
 ###### Definition
 
-Let $F \colon \mathcal{A} \to \mathcal{B}$ be a left or right exact additive functor. An object $A \in \mathcal{A}$ is called an $F$-**[[nLab:acyclic object]]** is all positive-degree right/left derived functors of $F$ are zero. 
+Let $F \colon \mathcal{A} \to \mathcal{B}$ be a left or right exact additive functor. An object $A \in \mathcal{A}$ is called an $F$-**[[nLab:acyclic object]]** is all positive-degree right/left derived functors of $F$ are zero.
 
 =--
 
@@ -8293,7 +8298,7 @@ Acyclic objects are useful for computing derived functors on non-acyclic objects
 
 While projective resolutions in $\mathcal{A}$ are _sufficient_ for computing _every_ [[nLab:left derived functor]] on $Ch_\bullet(\mathcal{A})$ and injective resolutions are sufficient for computing _every_ [[nLab:right derived functor]] on $Ch^\bullet(\mathcal{A})$, if one is interested just in a single functor $F$ then such resolutions may be more than _necessary_. A weaker kind of resolution which is still sufficient is then often more convenient for applications. These _$F$-projective resolutions_ and _$F$-injective resolutions_, respectively, we discuss now. A special case of both are _$F$-[[nLab:acyclic resolutions]]_.
 
-Let $\mathcal{A}, \mathcal{B}$ be [[nLab:abelian categories]] and let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor]]. 
+Let $\mathcal{A}, \mathcal{B}$ be [[nLab:abelian categories]] and let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor]].
 
 +-- {: .num_defn #FInjectives}
 ###### Definition
@@ -8304,7 +8309,7 @@ Assume that $F$ is [[nLab:left exact functor|left exact]]. An [[nLab:additive ca
 
 1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A, B \in \mathcal{I} \subset \mathcal{A}$ also $C \in \mathcal{I} \subset \mathcal{A}$;
 
-1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$.
 
 =--
 
@@ -8319,7 +8324,7 @@ Assume that $F$ is [[nLab:right exact functor|right exact]]. An [[nLab:additive 
 
 1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $B, C \in \mathcal{P} \subset \mathcal{A}$ also $A \in \mathcal{P} \subset \mathcal{A}$;
 
-1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $C\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $C\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$.
 
 =--
 
@@ -8328,20 +8333,20 @@ With the $\mathcal{I},\mathcal{P}\subset \mathcal{A}$ as above, we say:
 +-- {: .num_defn #FProjectivesResolution}
 ###### Definition
 
-For $A \in \mathcal{A}$, 
+For $A \in \mathcal{A}$,
 
 * an **$F$-injective resolution** of $A$ is a [[nLab:cochain complex]] $I^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ and a [[nLab:quasi-isomorphism]]
 
   $$
     A \stackrel{\simeq_{qi}}{\to} I^\bullet
-  $$ 
+  $$
 
 * an **$F$-projective resolution** of $A$ is a [[nLab:cochain complex]] $Q_\bullet \in Ch_\bullet(\mathcal{P}) \subset Ch^\bullet(\mathcal{A})$ and a [[nLab:quasi-isomorphism]]
 
   $$
     Q_\bullet \stackrel{\simeq_{qi}}{\to} A
     \,.
-  $$ 
+  $$
 
 =--
 
@@ -8363,7 +8368,7 @@ let $Ac \subset \mathcal{A}$ be the [[nLab:full subcategory]] on the $F$-[[nLab:
 ###### Proof
 
 Consider the case that $F$ is right exact. The other case works dually.
-Then the first condition of def. \ref{FInjectives} is satisfied because every [[nLab:injective object]] is an $F$-[[nLab:acyclic object]] and by assumption there are enough of these. 
+Then the first condition of def. \ref{FInjectives} is satisfied because every [[nLab:injective object]] is an $F$-[[nLab:acyclic object]] and by assumption there are enough of these.
 
 For the second and third condition of def. \ref{FInjectives} use that there is the [[nLab:long exact sequence]] of [[nLab:derived functors]] prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
 
@@ -8378,9 +8383,9 @@ $$
   0 \to 0 \to R^n F(C) \to 0
 $$
 
-which imply that $R^n F(C)\simeq 0$ for all $n \geq 1$, hence that $C$ is acyclic. 
+which imply that $R^n F(C)\simeq 0$ for all $n \geq 1$, hence that $C$ is acyclic.
 
-Similarly, the third condition is equivalent to $R^1 F(A) \simeq 0$. 
+Similarly, the third condition is equivalent to $R^1 F(A) \simeq 0$.
 
 =--
 
@@ -8399,7 +8404,7 @@ Let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor|additiv
 +-- {: .num_lemma #FPreservesNullnessOfFInjectiveComplexes}
 ###### Lemma
 
-If a [[nLab:cochain complex]] $A^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ is [[nLab:quasi-isomorphism|quasi-isomorphic]] to 0, 
+If a [[nLab:cochain complex]] $A^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ is [[nLab:quasi-isomorphism|quasi-isomorphic]] to 0,
 
 $$
   X^\bullet \stackrel{\simeq_{qi}}{\to} 0
@@ -8437,7 +8442,7 @@ $$
   0 \to F(im(d^n)) \to F(X^n+1) \to F(im(d^{n+1})) \to 0
 $$
 
-are [[nLab:short exact sequence|exact]]. But this means that 
+are [[nLab:short exact sequence|exact]]. But this means that
 
 $$
   0 \to F(X^0)\to F(X^1) \to F(X^2) \to \cdots
@@ -8454,7 +8459,7 @@ is exact, hence that $F(X^\bullet)$ is quasi-isomorphic to 0.
 
 For $A \in \mathcal{A}$ an object with $F$-injective resolution $A \stackrel{\simeq_{qi}}{\to} I_F^\bullet$, def. \ref{FProjectivesResolution}, we have for each $n \in \mathbb{N}$ an [[nLab:isomorphism]]
 
-$$  
+$$
   R^n F(A) \simeq H^n(F(I_F^\bullet))
 $$
 
@@ -8479,7 +8484,7 @@ $$
 
 [[nLab:commuting diagram|commutes]] in $Ch^\bullet(\mathcal{A})$. Therefore by the [[nLab:2-out-of-3]] property of [[nLab:quasi-isomorphisms]] it follows that $f$ is a quasi-isomorphism
 
-Let $Cone(f) \in Ch^\bullet(\mathcal{A})$ be the [[nLab:mapping cone]] of $f$ and let $I^\bullet \to Cone(f)$ be the canonical [[nLab:chain map]] into it. By the explicit formulas for mapping cones, we have that 
+Let $Cone(f) \in Ch^\bullet(\mathcal{A})$ be the [[nLab:mapping cone]] of $f$ and let $I^\bullet \to Cone(f)$ be the canonical [[nLab:chain map]] into it. By the explicit formulas for mapping cones, we have that
 
 1. there is an [[nLab:isomorphism]] $F(Cone(f)) \simeq Cone(F(f))$;
 
@@ -8493,7 +8498,7 @@ $$
   \,.
 $$
 
-Observe that with $f^\bullet$ a quasi-isomorphism $Cone(f^\bullet)$ is quasi-isomorphic to 0. Therefore 
+Observe that with $f^\bullet$ a quasi-isomorphism $Cone(f^\bullet)$ is quasi-isomorphic to 0. Therefore
 the second item above implies with lemma \ref{FPreservesNullnessOfFInjectiveComplexes} that also $F(Cone(f))$ is quasi-isomorphic to 0. This finally means that the above homology exact sequences consists of exact pieces of the form
 
 $$
@@ -8506,12 +8511,12 @@ $$
 
 This concludes the discussion of the general definition and the general properties of derived functors that we will consider here. In the next section we discuss the two archetypical examples.
 
-##### Fundamental examples of derived functors 
+##### Fundamental examples of derived functors
   {#ExamplesOfDerivedFunctors}
 
 We introduce here the two archetypical examples of [[nLab:derived functors]] and discuss their basic properties. In the next chapter _[IV) The fundamental theorems](#TheFundamentalTheorems)_ we discuss how to use these derived functors for obtaining deeper statements.
 
-Above we have seen the definition and basic general properties of _[[nLab:derived functors]]_ obtained from left/right [[nLab:exact functors]] between [[nLab:abelian categories]]. 
+Above we have seen the definition and basic general properties of _[[nLab:derived functors]]_ obtained from left/right [[nLab:exact functors]] between [[nLab:abelian categories]].
 
 Of all [[nLab:functors]], a most fundamental one is the [[nLab:hom-functor]] of a given category. For categories such as  $R$[[nLab:Mod]] considered here, it comes with its _[[nLab:left adjoint]]_, the [[nLab:tensor product]] functor, which is hence equally fundamentally important. Here we discuss the [[nLab:derived functors]] of these two basic functors in detail.
 
@@ -8546,7 +8551,7 @@ By the proof of prop. \ref{ModHasEnoughProjectives} there is an [[nLab:epimorphi
 
 =--
 
-This fact drastically constrains the complexity of right derived functors on abelian groups: 
+This fact drastically constrains the complexity of right derived functors on abelian groups:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -8565,7 +8570,7 @@ By prop. \ref{ShortProjectiveResolutionsForAbelianGroups} there is a projective 
 +-- {: .num_remark }
 ###### Remark
 
-The conclusion of prop. \ref{ShortProjectiveResolutionsForAbelianGroups} holds more generally over every ring which is a [[nLab:principal ideal domain]]. This includes in particular $R = k$ a [[nLab:field]], in which case $R Mod \simeq k$[[nLab:Vect]]. On the other hand, every $k$-vector space is already projective itself, so that in this case the whole theory of right derived functors trivializes. 
+The conclusion of prop. \ref{ShortProjectiveResolutionsForAbelianGroups} holds more generally over every ring which is a [[nLab:principal ideal domain]]. This includes in particular $R = k$ a [[nLab:field]], in which case $R Mod \simeq k$[[nLab:Vect]]. On the other hand, every $k$-vector space is already projective itself, so that in this case the whole theory of right derived functors trivializes.
 
 =--
 
@@ -8592,7 +8597,7 @@ $$
     (X_2, A_2)
   }
   \;\;\;
-  \in 
+  \in
   \mathcal{A}^{op} \times \mathcal{A}
 $$
 
@@ -8670,18 +8675,18 @@ The following definition essentially just repeats that of a short exact sequence
 
 Two consecutive [[nLab:homomorphisms]] of [[nLab:groups]]
 
-\[\label{shortExtension} 
+\[\label{shortExtension}
   A
   \overset{i}\hookrightarrow \hat G\overset{p}\to G
 \]
 
-are a **[[nLab:short exact sequence]]** if 
+are a **[[nLab:short exact sequence]]** if
 
-1. $i$ is [[nLab:monomorphism]], 
+1. $i$ is [[nLab:monomorphism]],
 
-1. $p$ an [[nLab:epimorphism]] 
+1. $p$ an [[nLab:epimorphism]]
 
-1. the [[nLab:image]] of $i$ is all of the [[nLab:kernel]] of $p$: $ker(p)\simeq im(i)$. 
+1. the [[nLab:image]] of $i$ is all of the [[nLab:kernel]] of $p$: $ker(p)\simeq im(i)$.
 
 We say that such a short exact sequence exhibits $\hat G$ as a **[[nLab:group extension]]** of $G$ by $A$.
 
@@ -8749,14 +8754,14 @@ By the [[nLab:short five lemma]].
 +-- {: .num_defn }
 ###### Definition
 
-For $G$ and $A$  [[nLab:groups]], write 
+For $G$ and $A$  [[nLab:groups]], write
 $Ext(G,A)$ for the set of [[nLab:equivalence classes]] of extensions of $G$ by $A$, as above and $CentrExt(G,A) \hookrightarrow Ext(G,A)$ for for the [[nLab:central extensions]]. If $G$ and $A$ are both abelian, write
 
 $$
   AbExt(G,A) \hookrightarrow CentrExt(G,A)
 $$
 
-for the subset of _abelian groups_ $\hat G$ that are (necessarily central) extensions of $G$ by $A$. 
+for the subset of _abelian groups_ $\hat G$ that are (necessarily central) extensions of $G$ by $A$.
 
 =--
 
@@ -8793,14 +8798,14 @@ such that for all $(g_1, g_2) \in G \times G$ it satisfies the [[nLab:equation]]
   c(g_1, g_2 \cdot g_3)
   +
   c(g_1 \cdot g_2, g_3)
-  - 
+  -
   c(g_2, g_3)
-  = 
+  =
   0
   \;\;\;\; \in A
 \]
 
-(called the **2-cocycle condition**). 
+(called the **2-cocycle condition**).
 
 For $c, \tilde c$ two such cocycles, a **[[nLab:coboundary]]** $h \colon c \to \tilde c$ between them is a [[nLab:function]]
 
@@ -8813,7 +8818,7 @@ such that for all $(g_1,g_2) \in G \times G$ the [[nLab:equation]]
 \[
   \label{Group2CoboundaryEquation}
   \tilde c(g_1, g_2)
-  = 
+  =
   (c + d h)(g_1, g_2)
   \,,
 \]
@@ -8825,9 +8830,9 @@ $$
 $$
 
 
-is a **2-coboundary**. 
+is a **2-coboundary**.
 
-The degree-2 **group cohomology** is the set 
+The degree-2 **group cohomology** is the set
 
 $$
   H^2_{Grp}(G,A) = 2Cocycles(G,A) / Coboundaries(G,A)
@@ -8845,7 +8850,7 @@ $$
   c_1 + c_2 \colon (g_1, g_2) \mapsto c_1(g_1,g_2) + c_2(g_1, g_2)
   \,.
 $$
-   
+
 
 =--
 
@@ -8854,7 +8859,7 @@ The following says that in the computation of $H^2_{Grp}(G,A)$ one may concentra
 +-- {: .num_defn #Normalized2Cocycle}
 ###### Definition
 
-A group 2-cocycle $c \colon G \times G \to A$, def. \ref{Group2CocycleInAbelianGroupWithTrivialAction} is called **normalized** if 
+A group 2-cocycle $c \colon G \times G \to A$, def. \ref{Group2CocycleInAbelianGroupWithTrivialAction} is called **normalized** if
 
 $$
   \forall_{g_0,g_1 \in G}
@@ -8872,7 +8877,7 @@ $$
 ###### Lemma
 
 For $c \colon G \times G \to A$ a group 2-cocycle, we have for all $g \in G$
-that 
+that
 
 $$
   c(e,g) = c(e,e) = c(g,e)
@@ -8903,7 +8908,7 @@ $$
   \,.
 $$
 
-Similarly the 2-cocycle condition applied to 
+Similarly the 2-cocycle condition applied to
 
 $$
   (e,  g,  g^{-1}) \in G^3
@@ -8927,7 +8932,7 @@ $$
 +-- {: .num_prop #EveryGroup2CocycleIsNormalizable}
 ###### Proposition
 
-Every group 2-cocycle $c \colon G \times G \to A$ is 
+Every group 2-cocycle $c \colon G \times G \to A$ is
 cohomologous to a normalized one, def. \ref{Normalized2Cocycle}.
 
 =--
@@ -8935,10 +8940,10 @@ cohomologous to a normalized one, def. \ref{Normalized2Cocycle}.
 +-- {: .num_proof}
 ###### Proof
 
-By lemma \ref{2CocycleOngeisSameasOnee} it is sufficient to 
+By lemma \ref{2CocycleOngeisSameasOnee} it is sufficient to
 show that $c$ is cohomologous to a cocycle $\tilde c$ satisfying
 $\tilde c(e,e) = e$.
-Now given $c$, let $h \colon G \to A$ be given by 
+Now given $c$, let $h \colon G \to A$ be given by
 
 $$
   h(g) \coloneqq c(g,g)
@@ -8951,12 +8956,12 @@ $$
   \begin{aligned}
     \tilde c(e,e)
     & \coloneqq
-    (c + d h)(e,e) 
+    (c + d h)(e,e)
     \\
-    & = 
+    & =
     c(e,e)  + c(e \cdot e, e \cdot e) - c(e,e) - c(e,e)
-    \\  
-    & = 
+    \\
+    & =
     0
   \end{aligned}
   \,.
@@ -8988,13 +8993,13 @@ We prove this below as prop. \ref{ExtractionAndReconstructionConsituteEquivalenc
 Let $[c] \in H^2_{Grp}(G,A)$ be a group 2-cocycle.
 Choose $c \colon G \times G \to A$ to be a representative of the cohomology class by a normalized cocycle, def. \ref{Normalized2Cocycle}, which can always be done by prop. \ref{EveryGroup2CocycleIsNormalizable}.
 
-Define a group 
+Define a group
 
 $$
   G \times_c A \in Grpd
 $$
 
-as follows. 
+as follows.
 
 
 Let the underlying set of $G \times_c A$ be the [[nLab:cartesian product]] $U(G) \times U(A)$ of the underlying sets of $G$ and $A$. The group operation on this is given by
@@ -9035,11 +9040,11 @@ $$
   \left(
     g_3, a_3
   \right)
- = 
-  \left( 
-    g_1 g_2 g_3 \;,\; a_1 + a_2 + a_3 
-    + 
-    c(g_1, g_2) +  c\left(  g_1 g_2, g_3 \right) 
+ =
+  \left(
+    g_1 g_2 g_3 \;,\; a_1 + a_2 + a_3
+    +
+    c(g_1, g_2) +  c\left(  g_1 g_2, g_3 \right)
   \right)
   \,.
 $$
@@ -9047,8 +9052,8 @@ $$
 Bracketing the same three elements to the right yields
 
 $$
-  \left(g_1, a_1\right) 
-   \cdot 
+  \left(g_1, a_1\right)
+   \cdot
   \left(
      \left(g_2, a_2\right)
      \cdot
@@ -9056,11 +9061,11 @@ $$
     g_3, a_3
   \right)
  \right)
- = 
-  \left( 
-    g_1 g_2 g_3 \;,\; a_1 + a_2 + a_3 
-    + 
-    c(g_2, g_3) +  c\left(  g_1 , g_2 g_3 \right) 
+ =
+  \left(
+    g_1 g_2 g_3 \;,\; a_1 + a_2 + a_3
+    +
+    c(g_2, g_3) +  c\left(  g_1 , g_2 g_3 \right)
   \right)
   \,.
 $$
@@ -9080,26 +9085,26 @@ $$
   (g,a)
   \cdot
   (g^{-1}, - a - c(g,g^{-1}))
-  = 
+  =
   (e, a - a - c(g,g^{-1})+ c(g,g^{-1}) )
 $$
 
-and hence inverses in $G \times_c A$ are given by 
+and hence inverses in $G \times_c A$ are given by
 
 $$
   (g,a)^{-1} = (g^{-1}, -a - c(g,g^{-1}))
   \,.
 $$
 
-Therefore $G \times_c A$ is indeed a group. 
+Therefore $G \times_c A$ is indeed a group.
 
-Using that $c$ is a normalized cocycle by assumption, we find that the inclusion 
+Using that $c$ is a normalized cocycle by assumption, we find that the inclusion
 
 $$
   i \colon A \to G \times_c A
 $$
 
-given by $a \mapsto (e,a)$ is a group homomorphism. Moreover, the projection on the underlying sets evidently yields a group homomorphism $p \colon G \times_c A \to G$ given by $(g,a) \mapsto g$. The kernel of this is $A$, and hence 
+given by $a \mapsto (e,a)$ is a group homomorphism. Moreover, the projection on the underlying sets evidently yields a group homomorphism $p \colon G \times_c A \to G$ given by $(g,a) \mapsto g$. The kernel of this is $A$, and hence
 
 $$
   A \stackrel{i}{\hookrightarrow} G \times_c A \stackrel{p}{\to} G
@@ -9121,12 +9126,12 @@ $$
 
 We claim that then we have a homomorphism of central extensions (hence an isomorphism) of the form
 
-$$  
+$$
   \array{
      A &\to& G \times_c A &\to& G
      \\
-     \downarrow^{\mathrlap{=}} 
-      && 
+     \downarrow^{\mathrlap{=}}
+      &&
      \downarrow^{\mathrlap{(id_G, p_2 -h \circ p_1)}} && \downarrow^{\mathrlap{=}}
      \\
      A &\to& G \times_{\tilde c} A &\to& G
@@ -9139,16 +9144,16 @@ To see this we check for all elements that
 $$
   \begin{aligned}
    (g_1, a_1 - h(g_1)) \cdot (g_2, a_2 - h(g_2))
-   & = 
+   & =
    (g_1 g_2, a_1 + a_2 - h(g_1) - h(g_2) + c(g_1, g_2))
    \\
-   & = 
+   & =
   (g_1 g_2, a_1 + a_2 + \tilde c(g_1, g_2) - h(g_1 g_2) )
   \end{aligned}
   \,.
 $$
 
-Hence the construction of $G \times_c A$ indeed defines a function $H^2_{Grp}(G,A) \to CentrExt(G,A)$. 
+Hence the construction of $G \times_c A$ indeed defines a function $H^2_{Grp}(G,A) \to CentrExt(G,A)$.
 
 =--
 
@@ -9165,7 +9170,7 @@ Choose a [[nLab:section]] $\sigma : U(G) \to U(\hat G)$ of the underlying [[nLab
 $$
   c
   \colon
-  (g_1, g_2) 
+  (g_1, g_2)
     \mapsto
   -\sigma(g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_1 g_2)
   \in A
@@ -9198,11 +9203,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The cocycle condition to be checked is that 
+The cocycle condition to be checked is that
 
 $$
   c(g_1, g_2) - c(g_0 g_1, g_2) + c(g_0, g_1 g_2) - c(g_0, g_1)
-  = 
+  =
   1
 $$
 
@@ -9251,7 +9256,7 @@ $$
   \begin{aligned}
     (g_1, g_2) & \mapsto (g_1, 0) (g_2, 0) (g_1 g_2, 0)^{-1}
     \\
-    & = 
+    & =
     (g_1, 0) (g_1, 0) ((g_1 g_2)^{-1}, - c(g_1 g_2, (g_1 g_2)^{-1}) )
     \\
     & =  (g_1 g_2, c(g_1, g_2) ) ((g_1 g_2)^{-1}, - c(g_1 g_2, (g_1 g_2)^{-1}) )
@@ -9322,7 +9327,7 @@ for the [[nLab:homomorphism]] of [[nLab:abelian groups]] which forms the sum of 
 
 $$
   \epsilon \colon r \mapsto \sum_{g \in G} r_g
-  \,. 
+  \,.
 $$
 
 This is called the [[nLab:augmentation]] map.
@@ -9332,11 +9337,11 @@ This is called the [[nLab:augmentation]] map.
 +-- {: .num_defn #ProjectiveResolutionForZAsZGModule}
 ###### Definition
 
-For $n \in \mathbb{N}$ let 
+For $n \in \mathbb{N}$ let
 
 $$
   Q^u_n \coloneqq F(U(G)^{\times^{n}})
-$$ 
+$$
 
 be the [[nLab:free module]] over the [[nLab:group ring]] $\mathbb{Z}[G]$ on $n$-[[nLab:tuples]] of elements of $G$ (hence $Q^u_0 \simeq \mathbb{Z}[G]$ is the free module on a single generator).
 
@@ -9344,11 +9349,11 @@ For $n \geq 1$ let $\partial_{n-1} \colon Q^u_n \to Q^u_{n-1}$ be given on [[nLa
 
 $$
   \partial_{n-1} (g_1, \cdots, g_n)
-  \coloneqq 
+  \coloneqq
   g_1 [g_2, \cdots, g_n]
-  + 
+  +
   \sum_{i = 1}^{n-1} (-1)^i [g_1, \cdots, g_i g_{i+1}, g_{i+2}, \cdots, g_n]
-  + 
+  +
   (-1)^n [g_1, \cdots, g_{n-1}]
   \,,
 $$
@@ -9371,7 +9376,7 @@ Write furthermore $Q_n$ for the [[nLab:quotient]] module $Q^u_n \to Q^n$ which i
 +-- {: .num_prop }
 ###### Proposition
 
-The construction in def. \ref{ProjectiveResolutionForZAsZGModule} defines [[nLab:chain complexes]] $Q^u_\bullet$ and $Q_\bullet$ of $\mathbb{Z}[G]$-modules. 
+The construction in def. \ref{ProjectiveResolutionForZAsZGModule} defines [[nLab:chain complexes]] $Q^u_\bullet$ and $Q_\bullet$ of $\mathbb{Z}[G]$-modules.
 Moreover, with the augmentation map of def. \ref{AugmentationMap} these are projective resolutions
 
 $$
@@ -9386,8 +9391,8 @@ of $\mathbb{Z}$ equipped with the trivial $\mathbb{Z}[G]$-module structure in $\
 
 =--
 
-+-- {: .proof} 
-###### Proof 
++-- {: .proof}
+###### Proof
 
 The proof that we have indeed a chain complex is much like the proof of the existence of the [[nLab:alternating face map complex]] of a [[nLab:simplicial group]], because writing
 
@@ -9410,14 +9415,14 @@ one finds that these satisfy the [[nLab:simplicial identities]] and that $\parti
 That the augmentation map is a [[nLab:quasi-isomorphism]] is equivalent, by remark \ref{ProjectiveResolutionInComponents}, to the [[nLab:augmentation]]
 
 $$
-  \cdots 
-  \stackrel{\partial_2}{\to} \mathbb{Z}[G]^2 
-  \stackrel{\partial_1}{\to}  
+  \cdots
+  \stackrel{\partial_2}{\to} \mathbb{Z}[G]^2
+  \stackrel{\partial_1}{\to}
   \mathbb{Z}[G] \stackrel{\epsilon}{\to} \mathbb{Z} \to 0
 $$
 
 being an [[nLab:exact sequence]]. In fact we show that it is a [[nLab:split exact sequence]] by constructing for the canonical chain map to the 0-complex a [[nLab:null homotopy]] $s_\bullet$.
-To that end, let 
+To that end, let
 
 $$
   s_{-1} \colon \mathbb{Z} \to Q^u_0
@@ -9429,7 +9434,7 @@ $$
   s_n \colon Q^u_n \to Q^u_{n+1}
 $$
 
-be given on basis elements by 
+be given on basis elements by
 
 $$
   s_n(g[g_1, \cdots, g_n]) \coloneqq [g, g_1, \cdots, g_n]
@@ -9442,7 +9447,7 @@ $$
   \epsilon \circ s_{-1} = id_{\mathbb{Z}}
 $$
 
-because 
+because
 
 $$
   \epsilon(s_{-1}(1)) = \epsilon([*]) = \epsilon(e) = 1
@@ -9459,12 +9464,12 @@ because for all $g \in G$ we have
 $$
   \begin{aligned}
     \partial_0 (s_0(g[*])) + s_{-1}(\epsilon(g[*]))
-    & = 
+    & =
     \partial_0( [g] ) + s_{-1}(1)
     \\
     & = g[*] - [*] + [*]
     \\
-    & = 
+    & =
     g[*]
   \end{aligned}
   \,.
@@ -9474,7 +9479,7 @@ For all remaining $n \geq 1$ we find
 
 $$
   \partial_n \circ  s_n + s_{n-1} \circ \partial_{n-1}
-  = 
+  =
   id_{Q^u_n}
 $$
 
@@ -9505,13 +9510,13 @@ where on the right we canonically regard $A \in \mathbb{Z}[G]$[[nLab:Mod]].
 
 =--
 
-+-- {: .proof} 
-###### Proof 
++-- {: .proof}
+###### Proof
 
-By the [[nLab:free functor]] [[nLab:adjunction]] we have that 
+By the [[nLab:free functor]] [[nLab:adjunction]] we have that
 
 $$
-  Hom_{\mathbb{Z}[G]}(F^u_n, A)  
+  Hom_{\mathbb{Z}[G]}(F^u_n, A)
   \simeq
   Hom_{Set}(U(G)^{\times n}, U(A))
 $$
@@ -9522,7 +9527,7 @@ Similarly one finds that $H^n(Hom(F_n, A)))$ is the sub-group of _normalized_ co
 
 =--
 
-This finishes the discussion of the classification of [[nLab:central extensions]] of groups by $Ext^1_{\mathbb{Z}[G]}$. 
+This finishes the discussion of the classification of [[nLab:central extensions]] of groups by $Ext^1_{\mathbb{Z}[G]}$.
 
 Now we discuss the general statement that $Ext^1_{\mathcal{A}}$ classifies extensions in $\mathcal{A}$, hence in particular _abelian extension_ of abelian groups if $\mathcal{A} = $ [[nLab:Ab]].
 
@@ -9532,7 +9537,7 @@ Now we discuss the general statement that $Ext^1_{\mathcal{A}}$ classifies exten
 Given $A, G \in \mathcal{A}$, an **[[nLab:extension]]** of $G$ by $A$
 is a [[nLab:short exact sequence]] of the form
 
-$$ 
+$$
   0 \to A \to \hat G \to G \to 0
   \,.
 $$
@@ -9583,7 +9588,7 @@ $$
      \\
      && \downarrow && \downarrow && \downarrow && \downarrow
      \\
-     \cdots &\to& 0 &\to& 0 &\to& 0 &\to& G    
+     \cdots &\to& 0 &\to& 0 &\to& 0 &\to& G
   }
 $$
 
@@ -9591,7 +9596,7 @@ of $G$, by remark \ref{ProjectiveResolutionInComponents}. By prop. \ref{Injectiv
 
 $$
   \array{
-     Y_2 &\to& 0 
+     Y_2 &\to& 0
      \\
      \downarrow^{\mathrlap{\partial_1^{Y}}} && \downarrow
      \\
@@ -9609,7 +9614,7 @@ $$
 
 lifting the identity map on $G$ two a [[nLab:chain map]] between the two resolutions.
 
-By the commutativity of the top square, the morphism $c$ is 1-[[nLab:cocycle]] in $Hom(Y_\bullet,N)$, hence defines an element in $Ext^1(G,A) \coloneqq H^1(Hom(Y_\bullet,N))$. 
+By the commutativity of the top square, the morphism $c$ is 1-[[nLab:cocycle]] in $Hom(Y_\bullet,N)$, hence defines an element in $Ext^1(G,A) \coloneqq H^1(Hom(Y_\bullet,N))$.
 
 =--
 
@@ -9628,7 +9633,7 @@ By prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} any other choice $\tilde
 
 $$
   \array{
-     Y_2 &\to& 0 
+     Y_2 &\to& 0
      \\
      \downarrow^{\mathrlap{\partial_1^{Y}}} &\nearrow_{\eta_1 = 0}& \downarrow
      \\
@@ -9645,10 +9650,10 @@ $$
   \,.
 $$
 
-The chain homotopy condition here says that 
+The chain homotopy condition here says that
 
 $$
-  c - \tilde c = \eta_0 \circ \partial^{Y}_0 
+  c - \tilde c = \eta_0 \circ \partial^{Y}_0
 $$
 
 and hence that in $Hom(Y_\bullet,N)$ we have that $d \eta_0 = c - \tilde c$ is a [[nLab:coboundary]]. Therefore for the given choice of resolution $Y_\bullet$ we have obtained a well-defined map
@@ -9665,11 +9670,11 @@ If moreover $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective res
 +-- {: .num_prop #ExtensionFromAnElementOfExt1}
 ###### Definition
 
-Define a function 
+Define a function
 
 $$
   Rec \colon Ext^1(G,A) \to Ext(G,A)
-$$ 
+$$
 
 as follows. For $Y_\bullet \to G$ a projective resolution of $G$ and $[c] \in Ext^1(G,A) \simeq H^1(Hom_{\mathcal{A}}(F_\bullet,A))$ an element of the $Ext$-group, let
 
@@ -9697,7 +9702,7 @@ $$
   \array{
      Y_1/Y_2 &\stackrel{c}{\to}& A
      \\
-     \downarrow 
+     \downarrow
      \\
      Y_0
      \\
@@ -9725,7 +9730,7 @@ $$
   \,.
 $$
 
-Here the top right is indeed $G$, by the [[nLab:pasting law]] for pushouts and using that the left vertical composite is the [[nLab:zero morphism]]. Moreover, the top right morphism is indeed a monomorphism as it is the pushout of a map of modules along an [[nLab:injection]]. Similarly the top right morphism is an epimorphism. 
+Here the top right is indeed $G$, by the [[nLab:pasting law]] for pushouts and using that the left vertical composite is the [[nLab:zero morphism]]. Moreover, the top right morphism is indeed a monomorphism as it is the pushout of a map of modules along an [[nLab:injection]]. Similarly the top right morphism is an epimorphism.
 
 Hence $A \to Y_0 \coprod_{Y_1/Y_2} Y_0 \to G$ is an element in $Ext(G,A)$ which we assign to $c$.
 
@@ -9741,7 +9746,7 @@ The construction of def. \ref{ExtensionFromAnElementOfExt1} is indeed well defin
 +-- {: .proof}
 ###### Proof
 
-The coproduct $Y_0 \coprod_{Y_1/Y_2} A$ is equivalently 
+The coproduct $Y_0 \coprod_{Y_1/Y_2} A$ is equivalently
 
 $$
   coker(Y_1/Y_2 \stackrel{(incl,-c)}{\to} Y_0 \oplus A)
@@ -9769,14 +9774,14 @@ $$
     \\
     \downarrow^{\mathrlap{(id,-c)}} && \downarrow^{\mathrlap{(id,-\tilde c)}}
     \\
-    Y_0 \oplus A 
-      &\stackrel{\left(\array{ id & 0 \\ \lambda & id }\right)}{\to}& 
+    Y_0 \oplus A
+      &\stackrel{\left(\array{ id & 0 \\ \lambda & id }\right)}{\to}&
     Y_0 \oplus A
   }
   \,.
 $$
 
-By construction this respects the inclusion of 
+By construction this respects the inclusion of
 $A \stackrel{(0,id)}{\hookrightarrow} Y_0 \oplus A \to Y_0 \coprod_{Y_1/Y_2} A$. It also manifestly respects the projection to $G$. Therefore this defines a morphism and hence by remark \ref{MorphismOfExtensionIsIsomorphism} even an isomorphism of extensions.
 
 
@@ -9817,7 +9822,7 @@ $$
   }
 $$
 
-at the same time exhibits $c$ as the cocycle extracted from the extension $A \to Y_0 \coprod^c_{Y_1/Y_2} A \to G$. 
+at the same time exhibits $c$ as the cocycle extracted from the extension $A \to Y_0 \coprod^c_{Y_1/Y_2} A \to G$.
 
 Conversely, when starting with an extension $A \to \hat G \to G$ then extracting a $c$ by a choice of projective resolution and constructing from that another extension by pushout, the [[nLab:universal property]] of the pushout yields a morphism of exensions, which by remark \ref{MorphismOfExtensionIsIsomorphism} is an isomorphism of extensions, hence an equality in $Ext(G,A)$.
 
@@ -9842,7 +9847,7 @@ $$
   N \otimes_R N' \in R Mod
 $$
 
-is defined to be the $R$-module 
+is defined to be the $R$-module
 
 * whose underlying [[nLab:abelian group]] is the [[nLab:quotient]] of the [[nLab:free abelian group]] on $U(N) \times U(N')$, hence on the set of pairs $\{(n,n')| n \in N, n' \in N'\}$, by the [[nLab:bilinear map|bilinearity]] [[nLab:generators and relations|relations]] (for all tuples of elements for which these expressions makes sense)
 
@@ -9856,7 +9861,7 @@ is defined to be the $R$-module
     (n, n'_1 + n'_2) = (n,n'_1) + (n,n'_2)
   $$
 
-  (as for tensor products of abelian groups) 
+  (as for tensor products of abelian groups)
 
   and
 
@@ -9865,7 +9870,7 @@ is defined to be the $R$-module
     \,.
   $$
 
-* whose $R$-[[nLab:action]] is given by 
+* whose $R$-[[nLab:action]] is given by
 
   $$
     r (n,n') = (r n, n') \sim (n,r n')
@@ -9909,7 +9914,7 @@ $$
   f \otimes_R N \colon N_1 \otimes_R N \to N_2 \otimes_R N
 $$
 
-given by 
+given by
 
 $$
   (n_1,n) \mapsto (f(n_1), n)
@@ -9923,7 +9928,7 @@ This is well-defined precisely by the fact that $f$ is a [[nLab:homomorphism]] o
 +-- {: .num_prop}
 ###### Proposition
 
-For every $N \in R$[[nLab:Mod]], the functor $(-)\otimes_R N$ from def. \ref{TensorProductOfModulesFunctor} 
+For every $N \in R$[[nLab:Mod]], the functor $(-)\otimes_R N$ from def. \ref{TensorProductOfModulesFunctor}
 
 * is an [[nLab:additive functor]];
 
@@ -9954,7 +9959,7 @@ We could just as well consider deriving the tensor product functor in the second
 =--
 
 
-The name "Tor" derives from the basic relation of this functor to [[nLab:torsion subgroups]]. This we discuss now. 
+The name "Tor" derives from the basic relation of this functor to [[nLab:torsion subgroups]]. This we discuss now.
 
 
 +-- {: .num_prop}
@@ -9971,7 +9976,7 @@ For $A \in $ [[nLab:Ab]] and $p \in \mathbb{N}$, write
 
 $$
   {}_p A \coloneqq \{ a \in A | p \cdot a = 0 \}
-$$ 
+$$
 
 for the **$p$-[[nLab:torsion]] [[nLab:subgroup]]** consisting of all those elements whose $p$-fold sum with themselves gives 0.
 
@@ -10009,7 +10014,7 @@ $$
   \mathbb{Z}/p\mathbb{Z} \to 0
 $$
 
-constitutes a [[nLab:projective resolution]] (even a [[nLab:free resolution]]) of $\mathbb{Z}/p\mathbb{Z}$. Accordingly we have 
+constitutes a [[nLab:projective resolution]] (even a [[nLab:free resolution]]) of $\mathbb{Z}/p\mathbb{Z}$. Accordingly we have
 
 $$
   \begin{aligned}
@@ -10020,7 +10025,7 @@ $$
     & \simeq
     ker( (\cdot p) \otimes A )
     \\
-    & \simeq 
+    & \simeq
     \{ a\in A | p\cdot a = 0 \}
   \end{aligned}
   \,.
@@ -10055,9 +10060,9 @@ For $N \in R$[[nLab:Mod]], the functor $Tor_n^R(-,N)$ respects [[nLab:direct sum
 +-- {: .proof}
 ###### Proof
 
-Let $S \in$ [[nLab:Set]] and let $\{N_s\}_{s \in S}$ be an $S$-family of $R$-[[nLab:modules]]. Observe that 
+Let $S \in$ [[nLab:Set]] and let $\{N_s\}_{s \in S}$ be an $S$-family of $R$-[[nLab:modules]]. Observe that
 
-1. if $\{(F_s)_\bullet\}_{s \in S}$ is a family of [[nLab:projective resolutions]], then their degreewise [[nLab:direct sum]] $(\oplus_{s \in S} F)_\bullet$ is a projective resolution of $\oplus_{s \in S} N_s$. 
+1. if $\{(F_s)_\bullet\}_{s \in S}$ is a family of [[nLab:projective resolutions]], then their degreewise [[nLab:direct sum]] $(\oplus_{s \in S} F)_\bullet$ is a projective resolution of $\oplus_{s \in S} N_s$.
 
 1. the tensor product functor distributes over direct sums, by prop. \ref{TensorProductDistributes};
 
@@ -10149,15 +10154,15 @@ $$
   \,.
 $$
 
-To the last three terms we apply the natural [[nLab:braided monoidal category|symmetric braiding]] in $(R Mod, \otimes_R)$ isomorphism to get 
+To the last three terms we apply the natural [[nLab:braided monoidal category|symmetric braiding]] in $(R Mod, \otimes_R)$ isomorphism to get
 
 $$
   \array{
     0 &\to& Tor_1(N_1, N_2) &\hookrightarrow& N_1 \otimes F_1 &\to& N_1 \otimes F_0 &\to& N_1 \otimes N_2 &\to& 0
     \\
-    && \downarrow && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} 
-  && 
-    \\ 
+    && \downarrow && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+  &&
+    \\
     0 &\to& Tor_1(N_2, N_1) &\hookrightarrow& F_1 \otimes N_1 &\to& F_0 \otimes N_1 &\to& N_2 \otimes N_1 &\to& 0
   }
   \,.
@@ -10177,7 +10182,7 @@ $$
   (-)\otimes_R N : R Mod \to R Mod
 $$
 
-is an [[nLab:exact functor]], def. \ref{LeftRightExactFunctor}.  
+is an [[nLab:exact functor]], def. \ref{LeftRightExactFunctor}.
 
 =--
 
@@ -10208,7 +10213,7 @@ The condition in def. \ref{FlatModule} has the following immediate equivalent re
 
 =--
 
-A particularly simple kind of injection of $R$-modules are the injections of [[nLab:finitely generated module|finitely generated]] [[nLab:ideals]] 
+A particularly simple kind of injection of $R$-modules are the injections of [[nLab:finitely generated module|finitely generated]] [[nLab:ideals]]
 $I \hookrightarrow R$ into the ring $R$, regarded as a module over itself, by example \ref{RingAsModuleOverItself}. According to remark \ref{ImmediateReformulationOfFlatness} $N$ being flat implies that also $I \otimes_R N \to R \otimes_R N \simeq N$ is a monomorphism. The following theorem says that this is indeed already sufficient to imply that $(-)\otimes_R N$ preserves also all other monomorphisms.
 
 +-- {: .num_theorem #CharacterizationOnIdealInclusions}
@@ -10216,7 +10221,7 @@ $I \hookrightarrow R$ into the ring $R$, regarded as a module over itself, by ex
 
 An $R$-module $N$ is flat already if for all inclusions $I \hookrightarrow R$ of a [[nLab:finitely generated module|finitely generated]] [[nLab:ideal]] into $R$, regarded as a module over itself, the induced morphism
 
-$$  
+$$
   I \otimes_R N \to R \otimes_R N \simeq N
 $$
 
@@ -10247,7 +10252,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-A finite set $\{r_i \in R\}_i$ corresponds to the inclusion of a finitely generated ideal $I \hookrightarrow R$. 
+A finite set $\{r_i \in R\}_i$ corresponds to the inclusion of a finitely generated ideal $I \hookrightarrow R$.
 
 By theorem \ref{CharacterizationOnIdealInclusions} $N$ is flat precisely if $I \otimes_R N \to N$ is an injecton. This in turn is the case precisely if the only element of the tensor product $I \otimes_R R$ that is 0 in $R \otimes_R N = N$ is already 0 on $I \otimes_R N$.
 
@@ -10263,7 +10268,7 @@ By the same kind of reasoning as in the proof of prop. \ref{RelationsFromCharact
 ###### Proposition
 **([[nLab:Lazard's criterion]])**
 
-A module is flat if and only if it is a [[nLab:filtered colimit]] of [[nLab:free modules]]. 
+A module is flat if and only if it is a [[nLab:filtered colimit]] of [[nLab:free modules]].
 
 =--
 
@@ -10272,7 +10277,7 @@ Using this we can now show the following.
 +-- {: .num_prop #TorPreservesFilteredColimits}
 ###### Proposition
 
-For $N \in R Mod$ a module and $n \in \mathbb{N}$, the functor 
+For $N \in R Mod$ a module and $n \in \mathbb{N}$, the functor
 
 $$
   Tor_n^R(-,N) \colon R Mod \to R Mod
@@ -10285,13 +10290,13 @@ respects [[nLab:filtered colimits]].
 +-- {: .proof}
 ###### Proof
 
-Let hence $A \colon I \to R Mod$ be a [[nLab:filtered category|filtered]] [[nLab:diagram]] of modules. For each $A_i$, $i \in I$ we may find a [[nLab:projective resolution]] and in fact a [[nLab:free resolution]] $(Y_i)_\bullet \stackrel{\simeq_{qi}}{\to} A$. Since [[nLab:chain homology]] commutes with filtered colimits (this is discussed at _[chain homology - respect for filtered colimits](http://ncatlab.org/nlab/show/chain+homology+and+cohomology#RespectForDirectSum)_), this means that 
+Let hence $A \colon I \to R Mod$ be a [[nLab:filtered category|filtered]] [[nLab:diagram]] of modules. For each $A_i$, $i \in I$ we may find a [[nLab:projective resolution]] and in fact a [[nLab:free resolution]] $(Y_i)_\bullet \stackrel{\simeq_{qi}}{\to} A$. Since [[nLab:chain homology]] commutes with filtered colimits (this is discussed at _[chain homology - respect for filtered colimits](http://ncatlab.org/nlab/show/chain+homology+and+cohomology#RespectForDirectSum)_), this means that
 
 $$
   (\underset{\to_i}{\lim} Y_i)_\bullet \to A
 $$
 
-is still a [[nLab:quasi-isomorphism]]. Moreover, by [[nLab:Lazard's criterion]], def. \ref{LazardCriterion} the degreewise filtered colimits of [[nLab:projective modules]] $\underset{\to_i}{\lim} (Y_i)_n$ for each $n \in \mathbb{N}$ are [[nLab:flat modules]]. This means that $\underset{\to_i}{\lim} (Y_i)_\bullet \to A$ is [[nLab:flat resolution]] of $A$. By remark \ref{ImmediateReformulationOfFlatness} this means that it is a $(-)\otimes N$-[[nLab:acyclic resolution]]. Then by example \ref{FAcyclicObjectsAreFProjectiveObjects} and theorem \ref{DerivedFFromFInjectiveResolution} it follows that 
+is still a [[nLab:quasi-isomorphism]]. Moreover, by [[nLab:Lazard's criterion]], def. \ref{LazardCriterion} the degreewise filtered colimits of [[nLab:projective modules]] $\underset{\to_i}{\lim} (Y_i)_n$ for each $n \in \mathbb{N}$ are [[nLab:flat modules]]. This means that $\underset{\to_i}{\lim} (Y_i)_\bullet \to A$ is [[nLab:flat resolution]] of $A$. By remark \ref{ImmediateReformulationOfFlatness} this means that it is a $(-)\otimes N$-[[nLab:acyclic resolution]]. Then by example \ref{FAcyclicObjectsAreFProjectiveObjects} and theorem \ref{DerivedFFromFInjectiveResolution} it follows that
 
 $$
   Tor_n^\mathbb{Z}(A,N)
@@ -10304,13 +10309,13 @@ Now the [[nLab:tensor product of modules]] is a [[nLab:left adjoint]] [[nLab:fun
 
 $$
   \begin{aligned}
-  \cdots 
-    & 
-    \simeq 
+  \cdots
+    &
+    \simeq
     H_n( \underset{\to_i}{\lim} (Y_i \otimes N) )
     \\
     & \simeq
-   \underset{\to_i}{\lim} H_n( Y_i \otimes N )   
+   \underset{\to_i}{\lim} H_n( Y_i \otimes N )
     \\
     & \simeq
     \underset{\to_i}{\lim} Tor_n( A_i, N)
@@ -10332,13 +10337,13 @@ For $A, B \in $ [[nLab:Ab]], $Tor_1(A,B)$ is a torsion group which is a [[nLab:f
 +-- {: .proof}
 ###### Proof
 
-The group $A$ may be expressed as a [[nLab:filtered colimit]] 
+The group $A$ may be expressed as a [[nLab:filtered colimit]]
 
 $$
   A \simeq \underset{\to_i}{\lim} A_i
 $$
 
-of all its finitely generated [[nLab:subgroups]] (this is discussed at _[Mod - Limits and colimits](http://ncatlab.org/nlab/show/Mod#LimitsAndColimits)_). Each of these is a [[nLab:direct sum]] of [[nLab:cyclic groups]]. 
+of all its finitely generated [[nLab:subgroups]] (this is discussed at _[Mod - Limits and colimits](http://ncatlab.org/nlab/show/Mod#LimitsAndColimits)_). Each of these is a [[nLab:direct sum]] of [[nLab:cyclic groups]].
 
 By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves these colimits. By prop. \ref{TorOutOfCyclicGroup} every summand is sent to a torsion subgroup (of either $A$ or $B$).  Therefore by prop. \ref{TorOutOfCyclicGroup} $Tor_1(A,
 
@@ -10347,16 +10352,30 @@ B)$ is a filtered colimit of direct sums of torsion groups. This is itself a tor
 =--
 
 
+#### Topological and abstract homotopy theory
+ {#TopologicalAndAbstractHomotopyTheory}
+
+Above we saw some first models for [[homotopy types]] as well as some basic constructions on them.
+Another model for [[homotopy types]] are [[topological spaces]].
+In order to turn these models into a full blown _[[homotopy theory]]_ one needs some 
+further tools. One of these toolsets is _[[model category]]_ theory. Here we introduce the 
+classical homotopy theory of topological spaces and along with it the concept of [[model categories]].
+
+This section is at _[[Introduction to Stable homotopy theory -- P|Introduction to classical homotopy theory]]_ ([[IntroductionToStableHomotopyTheory-P-161227.pdf:file]]).
+
+
 
 #### Simplicial homotopy theory
  {#SimplicialHomotopyTheory}
 
 We discuss some basics of  [[simplicial homotopy theory]].
 
+For more see at _[[classical model structure on simplicial sets]]_.
+
 +-- {: .num_defn }
 ###### Definition
 
-Write 
+Write
 
 $$
   KanCplx \hookrightarrow sSet
@@ -10369,7 +10388,7 @@ for the [[category]] of Kan complexes, which is the [[full subcategory]] of that
 +-- {: .num_remark }
 ###### Remark
 
-This means that for $X_\bullet,Y_\bullet \in KanCplx$ two Kan complexes, an element $f_\bullet \colon X_\bullet \to Y_\bullet$ in the [[hom-set]] $Hom_{KanCplx}(X_\bullet,Y_\bullet)$ is 
+This means that for $X_\bullet,Y_\bullet \in KanCplx$ two Kan complexes, an element $f_\bullet \colon X_\bullet \to Y_\bullet$ in the [[hom-set]] $Hom_{KanCplx}(X_\bullet,Y_\bullet)$ is
 
 * a sequences of [[functions]] $f_n \colon X_n \to Y_n$ for all $n \in \mathbb{N}$;
 
@@ -10389,7 +10408,7 @@ $$
   Maps(X_\bullet,Y_\bullet)_\bullet \in KanCplx
 $$
 
-is the [[simplicial set]] given by 
+is the [[simplicial set]] given by
 
 $$
   Maps(X_\bullet,Y_\bullet) \colon [k] \mapsto Hom_{sSet}(X_\bullet \times \Delta^n_\bullet, Y_\bullet)
@@ -10402,7 +10421,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-The construction in def. \ref{MappingObjectOfKanComplexes} defines an [[internal hom]] of Kan complexes. 
+The construction in def. \ref{MappingObjectOfKanComplexes} defines an [[internal hom]] of Kan complexes.
 
 =--
 
@@ -10413,14 +10432,14 @@ As such it is also common to write $Y^X$ for $Maps(X,Y)$, as well as $[X,Y]$. No
 
 =--
 
-It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself. 
+It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself.
 
 We now have the following immediate generalizations of the corresponding constructions seen above for 1-groupoids.
 
 +-- {: .num_example #PathSpaceObjectOfKanComplexes}
 ###### Example
 
-Write 
+Write
 
 $$
   I_\bullet \coloneqq \{0 \stackrel{\simeq}{\to} 1\}
@@ -10434,7 +10453,7 @@ $$
 
 of its endpoints.
 
-Then for $X_\bullet \in KanCplx$ any other Kan complex, the [[mapping space]] $[I,X]_\bullet$ from def. \ref{MappingObjectOfKanComplexes} is the [[path space object]] of $X_\bullet$. 
+Then for $X_\bullet \in KanCplx$ any other Kan complex, the [[mapping space]] $[I,X]_\bullet$ from def. \ref{MappingObjectOfKanComplexes} is the [[path space object]] of $X_\bullet$.
 
 $$
   X_\bullet \stackrel{[i_0,X_\bullet]}{\leftarrow} [I_\bullet,X_\bullet]_\bullet \stackrel{[i_1,X]}{\to} X_\bullet
@@ -10456,7 +10475,7 @@ $$
     \\
     & {}^{\mathllap{f_\bullet}}\nearrow & \uparrow^{\mathrlap{[i_0, X_\bullet]_\bullet}}
     \\
-    X_\bullet &\stackrel{\eta_\bullet}{\to}& [I_\bullet, Y_\bullet]   
+    X_\bullet &\stackrel{\eta_\bullet}{\to}& [I_\bullet, Y_\bullet]
     \\
     & {}_{\mathllap{g_\bullet}}\searrow & \downarrow_{\mathrlap{[i_1, X_\bullet]_\bullet}}
     \\
@@ -10485,7 +10504,7 @@ We say that a map $X_\bullet \to Y_\bullet$ of [[Kan complexes]] is a _[[homotop
 +-- {: .num_example }
 ###### Example
 
-For Kan complexes which are [[1-groupoids]] hence which are [[nerves]] of [[groupoids]], homotopy equivalence of Kan complexes is equivalently homotopy equivalence of these groupoids according 
+For Kan complexes which are [[1-groupoids]] hence which are [[nerves]] of [[groupoids]], homotopy equivalence of Kan complexes is equivalently homotopy equivalence of these groupoids according
 to def. \ref{HomotopyEquivalenceOfGroupoids}.
 
 =--
@@ -10495,7 +10514,7 @@ to def. \ref{HomotopyEquivalenceOfGroupoids}.
 ###### Definition
 
 
-We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as fibrant [[sSet-enriched category]]. 
+We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as fibrant [[sSet-enriched category]].
 
 We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$. As such, $X$ (or its [[equivalence class]]) is alse called a _[[homotopy type]]_.
 
@@ -10547,7 +10566,7 @@ hence the ordinary iterated [[fiber product]] over the [[path space]] Kan comple
 =--
 
 
- 
+
 ### **Semantic layer**
 
 #### Model categories
@@ -10558,4 +10577,4 @@ hence the ordinary iterated [[fiber product]] over the [[path space]] Kan comple
 
 
 
-### **Syntactic layer**
+### **Syntactic layer** 
