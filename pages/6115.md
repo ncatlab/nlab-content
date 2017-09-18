@@ -19,6 +19,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Goodwillie calculus
++--{: .hide}
+[[!include Goodwillie calculus - contents]]
+=--
 =--
 =--
 
