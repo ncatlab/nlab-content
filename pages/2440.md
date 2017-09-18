@@ -82,9 +82,11 @@ One of the original references (or the original reference?) is
 
 * [[Victor Kac]], _Lie superalgebras_. Advances in Math. 26 (1977), no. 1, 8--96.
 
-A review of the classification is in 
+Discussion of classification is in 
 
-* [[Victor Kac]], _Classification of supersymmetries_,  	Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
+* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
+
+* [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
 
 Surveys:
 
