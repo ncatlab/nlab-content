@@ -163,5 +163,9 @@ Other reviews include
 
 * _Notes on the splitting principle_ ([pdf](http://www.math.sunysb.edu/~azinger/mat566/splitting.pdf))
 
+Discussion in the context of [[complex oriented cohomology theory]] and their [[generalized Chern classes]] includes
+
+* [[Jacob Lurie]], lecture 4 of _[[Chromatic Homotopy Theory]]_, 2010 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) 
+
 
 [[!redirects Chern root]]
