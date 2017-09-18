@@ -59,6 +59,12 @@ $$
 
 (up to prefactors) with $G_7 = \star G_4$.
 
+### Black holes and black rings
+
+The first [[black ring]] solution in 5d sugra was found in 
+
+* Henriette Elvang, Roberto Emparan, David Mateos, [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
+
 
 ### Via Calabi-Yau compactification of M-theory
 
