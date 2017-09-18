@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _causal propagator_ or _Pauli-Jordan distribution_ ([Jordan-Pauli 27](#JordanPauli27)) is a [[distribution]] which gives the [[integral kernel]] for the [[Poisson bracket]] on the [[covariant phase space]] of a [[free field|free]] [[local field theory]] (also known as the _[[Peierls bracket]]_).
+The _causal propagator_ or _Pauli-Jordan distribution_ ([Jordan-Pauli 27](#JordanPauli27)) or _commutator function_ is a [[distribution]] which gives the [[integral kernel]] for the [[Poisson bracket]] on the [[covariant phase space]] of a [[free field|free]] [[local field theory]] (also known as the _[[Peierls bracket]]_).
 
 Specifcally for the [[free field|free]] [[scalar field]] on a [[spacetime]] $\Sigma$, its [[phase space]] is the space $ker(\Box + m^2) \hookrightarrow C^\infty(\Sigma)$ of solutions of the [[Klein-Gordon equation]] (the [[wave equation]] for vanishing [[mass]] $m$). For any  point $x \in \Sigma$ we denote by $\phi(x) \colon ker(\Box + m^2) \to \mathbb{R}$ the point [[evaluation]] [[functional]] which sends $\Phi \in C^\infty(\Sigma)$ to $\Phi(x)$. An [[observable]] of the scalar field is then a [[functional]] of the form $\phi(b) \coloneqq \int b(x) \phi(x) dvol(x)$, for $b$ a [[bump function]] on $\Sigma$. On the algebra of these observables there is a canonical [[Poisson bracket]] pairing defined (also known as the _[[Peierls bracket]]_ see at _[[scalar field]]_ for details), taking $\phi(b_1)$ and $\phi(b_2)$ to a new observable denoted $\{\phi(b_1), \phi(b_2)\}$. While a priori this Poisson bracket is defined only on the "smeared" observables $\phi(b)$, not on the point observables $\phi(x)$, nevertheless it has a [[distributional density|distributional]] [[integral kernel]] $\{\phi(x), \phi(y)\}$ such that
 
@@ -42,7 +42,7 @@ is the _causal propagator_ or _Pauli-Jordan distribution_ (also "commutator func
 
 For other [[free fields|free]] [[field (physics)|fields]] the [[integral kernel]] of their [[Poisson bracket]] is a more complicated expression, but it is typically still an expression in terms of the causal propagator of the scalar field.
 
-What is _causal_ about the causal propagator is that (on [[globally hyperbolic spacetimes]] such as [[Minkowski spacetime]]) its [[support of a distribution|support as a distribution]], is, for one of the two arguments fixed, the union of the [[past causal cone]] and the [[future causal cone]] of that point. On [[globally hyperbolic spacetimes]] the propagator splits, as a distribution, as a sum
+What is _causal_ about the causal propagator is that (on [[globally hyperbolic spacetimes]] such as [[Minkowski spacetime]]) its [[support of a distribution|support as a distribution]], is, for one of the two arguments fixed, the [[causal cone]] of that point (cor. \ref{CausalSupportOfTheCausalPropagatorOnMinkowskiSpacetime} below). Moreover, the causal propagator splits, as a distribution, as a sum
 
 $$
   \Delta = \Delta_R - \Delta_A
