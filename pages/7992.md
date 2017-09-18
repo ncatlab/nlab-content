@@ -36,6 +36,10 @@ $$
 
 Analogously for the [[Mp^c]]-group one considers _$Mp^c$-structures_.
 
+## Properties
+
+
+
 ## Related concepts
 
 * [[metaplectic group]]
@@ -45,6 +49,8 @@ Analogously for the [[Mp^c]]-group one considers _$Mp^c$-structures_.
 * [[metaplectic correction (in geometric quantization)]]
 
 ## References
+
+* {#ForgerHess79} [[Michael Forger]], Harald Hess, _Universal metaplectic structures and geometric quantization_, Comm. Math. Phys. Volume 64, Number 3 (1979), 269-278. ([EUCLID](https://projecteuclid.org/euclid.cmp/1103904723))
 
 * P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
 
