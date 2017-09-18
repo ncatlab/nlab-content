@@ -3093,9 +3093,7 @@ but we'll also take some clues from the [[Bousfield-Friedlander model structure]
 
 For more details, the classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is still a good read (but ignore the "[[Adams category]]"-construction of the stable homotopy category in sections III.2 and III.3).
 
-For **Interlude: Spectral sequences** the canonical text to turn to is
-
-* {#McCleary01} [[John McCleary]], _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
+For **Interlude: Spectral sequences** a discussion streamlined for our puroses is in ([Rognes 12, section 2](#Rognes12)).
 
 For **2) Adams spectral sequence** we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
 
