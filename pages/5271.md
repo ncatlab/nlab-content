@@ -45,6 +45,10 @@ See there for more details.
 
 ## Related concepts
 
+* [[super p-brane]]
+
+* [[kappa-symmetry]]
+
 * [[sigma model]], [[brane]]
 
   * [[particle]], [[spinning particle]], [[fermion]], **superparticle**
@@ -63,5 +67,10 @@ Analysis in [[classical field theory]] in terms of [[supergeometry]] is in
 
 
 
-
 [[!redirects superparticles]]
+
+[[!redirects super-particle]]
+[[!redirects super-particles]]
+
+[[!redirects super particle]]
+[[!redirects super particles]]
