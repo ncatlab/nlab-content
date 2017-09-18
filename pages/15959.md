@@ -333,7 +333,7 @@ given by forming [[loop space objects]] and by forming deloopings.
 
 ##### Discrete group cohomology
 
-One of the remarkable conceptual simplifications brought about by general [[homotopy theory]] pertains to the general concept of [[cohomology]]: effectively every flavor of cohomology that has been considered turns out to be nothing but the theory of [[(infinity,1)-categorical hom spaces]] in a suitable [[(infinity,1)-topos]].
+One of the remarkable conceptual simplifications brought about by general [[homotopy theory]] pertains to the general concept of [[cohomology]]: effectively every flavor of cohomology that has been considered turns out to be nothing but the theory of [[derived hom space|(infinity,1)-categorical hom spaces]] in a suitable [[(infinity,1)-topos]].
 
 Specifically for the case of [[group cohomology]], this is the following simple statement.
 
@@ -356,7 +356,7 @@ $$
 For $G$ any [[discrete group]], not necessarily [[abelian group|abelian]], write
 
 $$
-  (\mathbf{B}G)_\bullet in KanCplx
+  (\mathbf{B}G)_\bullet \in KanCplx
 $$
 
 for the [[nerve]] of the [[groupoid]] (G\stackrel{\longrightarrow}{\longrightarrow} \ast).
@@ -385,6 +385,8 @@ $$
 $$
 
 =--
+
+It is instructive to spell this out in low degree.
 
 +-- {: .num_prop #2CocyclesAndCoboundaries}
 ###### Proposition
@@ -460,17 +462,13 @@ $$
 
 =--
 
-This may be taken as the _definition_ of degree-2 group cohomology (with coefficients in abelian groups and with trivial action). The following proof shows how this _follows_ from the general simplicial presentation of prop. \ref{DiscreteGroupCohomologyBySimplicialHomotopy}.
-
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{DiscreteGroupCohomologyBySimplicialHomotopy} we have $H^2_{Grp}(G,A) \simeq \pi_0 sSet(\overline{W}G, DK(A[2]))$.
-
-Notice that fully explicitly the 2-[[simplices]] in $\overline{W}G$ are
+The 2-simplices in $(\mathb{B}G)_\bullet$ are 
 
 $$
-  (\overline{W}G)_2
+  (\mathbf{B}G)_2
   =
   \left\{
   \left.
@@ -491,14 +489,14 @@ $$
 and the 3-simplices are 
 
 $$
-  (\overline{W}G)_3
+  (\mathbf{B}G)_3
   =
   \left\{
   \left.
   \array{
     {*} &&\stackrel{g_2}{\to}&& {*}
     \\
-    \uparrow^{g_1} &&{}^{g_1 g_2}\nearrow&& \downarrow^{g_3}
+    \uparrow^{\mathrlap{g_1}} &&{}^{g_1 g_2}\nearrow&& \downarrow^{\mathrlap{g_3}}
     \\
     {*}
     &&\stackrel{g_1 g_2 g_3}{\to}&&
@@ -510,7 +508,7 @@ $$
   \array{
     {*} &&\stackrel{g_2}{\to}&& {*}
     \\
-    \uparrow^{g_1} &&\searrow^{g_2 g_3}&& \downarrow^{g_3}
+    \uparrow^{\,mathrlap{g_1}} &&\searrow^{g_2 g_3}&& \downarrow^{\mathrlap{g_3}}
     \\
     {*}
     &&\stackrel{g_1 g_2 g_3}{\to}&&
@@ -522,7 +520,66 @@ $$
   \,.
 $$
 
-Therefore a homomorphism of simplical sets $c \colon \overline{W}G \to DK(A[2])$ is in degree 2 a function
+The 2-simplices in $(\mathb{B}^2 A)_\bullet$ are 
+
+$$
+  (\mathbf{B}^2 A)_2
+  =
+  \left\{
+  \left.
+  \array{
+    && {*}
+    \\
+    & {}^{}\nearrow &\Downarrow^{\mathrlap{c}}& \searrow^{}
+    \\
+    {*}
+    &&\stackrel{}{\to}&& {*}
+  }
+  \right|
+  c\in A
+  \right\}
+  \,,
+$$
+
+and the 3-simplices are 
+
+$$
+  (\mathbf{B}^2 A)_3
+  =
+  \left\{
+  \left.
+  \array{
+    {*} &&\stackrel{}{\to}&& {*}
+    \\
+    \uparrow^{\mathrlap{}} &\swArrow_{c_1}&{}^{}\nearrow&\swArrow_{c_2}& \downarrow^{\mathrlap{}}
+    \\
+    {*}
+    &&\stackrel{}{\to}&&
+    {*}
+  }
+  \;\;\;\;
+  \Rightarrow
+  \;\;\;\;   
+  \array{
+    {*} &&\stackrel{}{\to}&& {*}
+    \\
+    \uparrow^{\mathrlap{}} &\swArrow_{c_3}&\searrow^{}&\swArrow_{c_4}& \downarrow^{\mathrlap{}}
+    \\
+    {*}
+    &&\stackrel{}{\to}&&
+    {*}
+  }
+  \right|
+  c_1, c_2, c_3 \in A;
+  c_4 = c^3 - c_1 - c_2
+  \right\}
+  \,.
+$$
+
+
+
+
+Therefore a homomorphism of [[Kan complexes]]/[[simplical sets]] $c \colon (\mathbf{B}G)_\bullet \to (\mathbf{B}^2 A)_\bullet$ is in degree 2 a function
 
 $$
   c_2
@@ -555,7 +612,7 @@ $$
 $$
 
 
-i.e. a map $c : G \times G \to K$. To be a simplicial homomorphism this has to extend to 3-[[simplices]] as:
+i.e. a map $c \;\colon\; G \times G \to K$. To be a simplicial homomorphism this has to extend to 3-[[simplices]] as:
 
 $$
   \begin{aligned}
@@ -565,12 +622,12 @@ $$
   \;\;\;
   \left(
   \array{
-    {*} &&\stackrel{g_2}{\to}&& {*}
+    {*} && \stackrel{g_2}{\longrightarrow} && {*}
     \\
     \uparrow^{g_1} &&{}^{g_2 g_1}\nearrow&& \downarrow^{g_3}
     \\
     {*}
-    &&\stackrel{g_3 g_2 g_1}{\to}&&{*}
+    && \stackrel{g_3 g_2 g_1}{\longrightarrow} && {*}
   }
   \;\;\;\;
   \Rightarrow
@@ -588,35 +645,36 @@ $$
   & \mapsto
   \left(
   \array{
-    {*} &&\stackrel{{*}}{\to}&& {*}
+    {*} &\stackrel{}{\longrightarrow} & &\stackrel{}{\longrightarrow}& {*}
     \\
-    \uparrow^{{*}} &\Downarrow^{c(g_1,g_2)}
-    &{}^{{*}}\nearrow&\Downarrow^{c(g_2,g_3)}& 
-    \downarrow^{{*}}
+    \uparrow &\Downarrow^{c(g_1,g_2)}
+    &\nearrow&\Downarrow^{c(g_2,g_3)}& 
+    \downarrow
     \\
     {*}
-    &&\stackrel{{*}}{\to}&&{*}
+    &\longrightarrow&&\longrightarrow&{*}
   }
   \;\;\;\;
   \stackrel{}{\Rightarrow}
   \;\;\;\;   
   \array{
-    {*} &&\stackrel{{*}}{\to}&& {*}
+    {*} &\longrightarrow&&\longrightarrow& {*}
     \\
-    \uparrow^{{*}} &\Downarrow^{c(g_1,g_2 g_3)}
-    &\searrow^{{*}}&\Downarrow^{c(g_2, g_3)}& \downarrow^{{*}}
+    \uparrow &\Downarrow^{c(g_1,g_2 g_3)}
+    &\searrow &\Downarrow^{c(g_2, g_3)}& \downarrow
     \\
     {*}
-    &&\stackrel{{*}}{\to}&&{*}
+    &\longrightarrow&&\longrightarrow&{*}
   }
   \right)
   \end{aligned}  
   \,.
 $$
 
-Since there is a unique 3-cell in $DK(A[2])$ whenever the oriented su, of the $A$-labels of the boundary of the corresponding tetrahedron vanishes, the existence of the 3-cell on the right here is precisely the claimed cocycle condition.
+Hence this is the cocycle condition.
 
-A similar argument gives the coboundaries
+
+A similar argument gives the coboundaries.
 
 =--
 
