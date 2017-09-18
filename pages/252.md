@@ -40,9 +40,9 @@ Or if $\mathcal{V}$=[[topological spaces]] such that $\mathcal{C}$ is [[topologi
 
 * **hom-object**
 
-* [[hom-set]], [[hom-functor]]
+* [[hom-set]], [[hom-group]], [[hom-category]]
 
-* [[hom-category]]
+* [[hom-functor]]
 
 * [[derived hom-space]]
 
