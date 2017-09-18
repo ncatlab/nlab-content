@@ -15,10 +15,10 @@
 
 ## Idea
 
-In [[cohomology]] of [[topological spaces]]/[[homotopy types]], the _suspension isomorphism_ identifies the degree-$n$ cohomology of a [[pointed topological space|pointed]] space $X$ with the degree-$(n+k)$ cohomology of its $k$-fold [[suspension]], hence of its [[smash product]] with the $k$-[[sphere]]
+In [[cohomology]] of [[topological spaces]]/[[homotopy types]], the _suspension isomorphism_ identifies the degree-$n$ [[reduced cohomology]] of a [[pointed topological space|pointed]] space $X$ with the degree-$(n+k)$ cohomology of its $k$-fold [[suspension]], hence of its [[smash product]] with the $k$-[[sphere]]
 
 $$
-  H^n(X,E) \simeq H^{n+k}(S^k \wedge X, E)
+  \tilde H^n(X,E) \simeq \tilde H^{n+k}(S^k \wedge X, E)
   \,.
 $$
 
@@ -36,9 +36,9 @@ Requiring this to hold in [[equivariant cohomology theory]] not just for [[integ
 
 ## References
 
-For instance p. 19 in 
+Textbook accounts include
 
-* _Generalized cohomology_ ([pdf](http://www.ams.org/bookstore/pspdf/mmono-230-prev.pdf))
+* {#KonoTamaki02} Akira Kono, Dai Tamaki, p. 19 in _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
 
 In [[equivariant homotopy theory]]:
 
