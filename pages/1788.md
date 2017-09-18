@@ -1,94 +1,156 @@
 
-+-- {: .num_defn #SequentialSpectra}
-###### Definition
 
-For $X \in SeqSpec(Top_{cg})$ then the [[adjunction unit]]
++-- {: .num_prop}
+###### Proposition
+
+Let $f \;\colon\; X \longrightarrow Y$ be a morphism in $SeqSpec(Top_{cg})$. Write 
+
+$$ 
+  Y \overset{j}{\longrightarrow} Cone(f)
+$$
+
+for its [[mapping cone]] and 
 
 $$
-  \eta_X 
-  \;\colon\;
-  X \longrightarrow Maps(S^1, S^1 \wedge X)_\ast
+  Path_\ast(f) \overset{i}{\longrightarrow} X
+$$ 
+
+for its [[mapping cocone]] ([def.](Introduction+to+Stable+homotopy+theory+-+P#MappingConeAndMappingCocone)) formed with respect to the standard [[cylinder spectrum]] from def. \ref{StandardCylinderSpectrumSequential}. Then the [[stable homotopy groups]] $\pi_\bullet$ (def. \ref{StableHomotopyGroups}) form [[commuting diagram]] of the form
+
+$$
+  \array{
+     \cdots
+       &\to&
+     \pi_{\bullet}(Path_\ast(f))
+       &\overset{i_\ast}{\longrightarrow}&
+     \pi_\bullet(X)
+       &\overset{}{\longrightarrow}&
+     \pi_\bullet(Y)
+       &\longrightarrow&
+     \pi_{\bullet-1}(Path_\ast(f))
+       &\to&
+     \cdots 
+     \\
+     && 
+      \downarrow^{\mathrlap{\simeq}}
+        &&
+      \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \cdots
+      &\to&
+    \pi_{\bullet+1}(Cone(f))
+     &\longrightarrow&
+    \pi_\bullet(X)
+      &\overset{f_\ast}{\longrightarrow}&
+    \pi_\bullet(Y)
+      &\overset{j_\ast}{\longrightarrow}&
+    \pi_\bullet(Cone(f)) 
+      &\to&
+    \cdots
+  }
+  \,,
 $$
 
-(of the adjunction from prop. \ref{AdjunctionBetweenSmashTensoringAndPowering})
-is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
+where the top and bottom are [[long exact sequences]], and where the vertical isomorphisms are induced from the canonical morphism
+
+$$
+  Path_\ast(f) \longrightarrow Maps(S^1, Cone(f))_\ast
+  \,.
+$$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the proof of prop. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}, on component spaces the adjunction is the corresponding adjunction of topological spaces from prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}. Hence the morphism of directed systems of groups that enter the defininition of stable homotopy groups in def. \ref{StableHomotopyGroups} looks as follows
+From the nature of the standard sequential cylinder spectrum $X \wedge (I_+)$ and the fact that limits and colimits of sequential spectra are computed degreewise (prop. \ref{LimitsAndColimitsOfSequentialSpectra}) it follows that the mapping cones and mapping cocones of sequential spectra are degreewise the mapping cones and mapping cocones of pointed topological spaces induced from the standard reduced cyclinder construction ([def.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) of pointed topological spaces.
 
+Regarding the exactness of the top sequence:
+
+The ordinary (unstable) [[homotopy groups]] of the component spaces form [[long exact sequences of homotopy groups]] to the left ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#LongExactSequeceOfHomotopyGroups)) yielding [[commuting diagrams]] of the form
 $$
   \array{
-    \cdots 
-      &\to&
-    [S^{q+k},X_k]_\ast
-      &\overset{(S^1\wedge(-))_{S^{q+k},X_k}}{\longrightarrow}&
-    [S^{q+k+1}, S^1 \wedge X_k]_\ast
-      &\overset{[S^{q+k+1}, \sigma_k]}{\longrightarrow}&
-    [S^{q+k+1}, X_{k+1}]_\ast
-      &\to&
-    \cdots
-    \\
-    &&
-    {}^{\mathllap{[S^{q+k},\eta_{X_k}]_\ast }}\downarrow
-    && 
-    \downarrow
-    &&
-    \downarrow
-    \\
-    \cdots
-      &\to&
-    [S^{q+k},Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
-      &\overset{}{\longrightarrow}&
-    [S^{q+k+1}, S^1 \wedge Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
-      &\overset{}{\longrightarrow}&
-    [S^{q+k+1}, Maps(S^1, S^1 \wedge X_{k+1})_\ast]_\ast    
-      &\to&
-    \cdots 
+     \cdots
+       &\to&
+     \pi_{q+k+1}(Y_k)
+       &\longrightarrow&
+     \pi_{q+k}(Path_\ast(f_k))
+       &\longrightarrow&
+     \pi_{q+k}(X_k) 
+       &\longrightarrow&
+     \pi_{q+k}(Y_k)
+     \\
+     && \downarrow && \downarrow && \downarrow && \downarrow
+     \\
+     \cdots
+       &\to&
+     \pi_{q+k+2}(Y_{k+1})
+       &\longrightarrow&
+     \pi_{q+k+1}(Path_\ast(f_{k+1}))
+       &\longrightarrow&
+     \pi_{q+k+1}(X_{k+1}) 
+       &\longrightarrow&
+     \pi_{q+k+1}(Y_{k+1})
+     \\
+     && \downarrow && \downarrow && \downarrow && \downarrow
+     \\
+     \cdots
+       &\to&
+     \pi_{q+k+3}(Y_{k+2})
+       &\longrightarrow&
+     \pi_{q+k+2}(Path_\ast(f_{k+2}))
+       &\longrightarrow&
+     \pi_{q+k+2}(X_{k+2}) 
+       &\longrightarrow&
+     \pi_{q+k+2}(Y_{k+2})
+     \\
+     && \downarrow && \downarrow && \downarrow && \downarrow
+     \\
+     && \vdots && \vdots && \vdots && \vdots
   }
   \,.
 $$
 
-Observe then that the adjunction isomorphism $[S^{q+k+1}, S^1 \wedge X_k]_\ast \overset{\simeq}{\to} [S^{q+k},Maps(S^1, S^1 \wedge X_k)_\ast]_\ast$ fits into a commuting triangle
+Here the vertical morphisms are those entering the definition of stable homotopy groups (def. \ref{StableHomotopyGroups}), and one checks that these indeed make all the squares commute due to the respect of the component maps for the structure maps of the sequential spectra.
+
+Now taking the [[colimit]] over the vertical morphisms yields the sequence
 
 $$
   \array{
-    [S^{q+k},X_k]_\ast
-      &\overset{(S^1\wedge(-))_{S^{q+k},X_k}}{\longrightarrow}&
-    [S^{q+k+1}, S^1 \wedge X_k]_\ast
-    \\
-    {}^{\mathllap{[S^{q+k},\eta_{X_k}]_\ast }}\downarrow
-      & \swarrow_{\mathrlap{\simeq}}
-    \\
-    [S^{q+k},Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
-  }
-  \,.
-$$
-
-To see this in detail, consider for any $\alpha \in [S^{q+k},X_k]$ the adjunction naturality square
-
-$$
-  \array{
-    [S^1 \wedge X_k, S^1 \wedge X_k]_\ast
-      &\overset{\simeq}{\longrightarrow}&
-    [X_k, Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
-    \\
-    {}^{\mathllap{S^1 \wedge \alpha \circ (-) \circ id}}\downarrow 
-    &&
-    \downarrow^{\mathrlap{\alpha \circ (-) \circ Maps(S^1, id)_\ast}}
-    \\
-    [S^{q+k+1}, S^1 \wedge X_k]
-      &\underset{\simeq}{\longrightarrow}&
-    [S^{q+k}, Maps(S^1, S^1 \wedge X_k)]
+     \cdots
+       &\to&
+     \pi_{\bullet}(Path_\ast(f))
+       &\overset{i_\ast}{\longrightarrow}&
+     \pi_\bullet(X)
+       &\overset{}{\longrightarrow}&
+     \pi_\bullet(Y)
+       &\longrightarrow&
+     \pi_{\bullet-1}(Path_\ast(f))
   }
 $$
 
-and chase $id_{S^1 \wedge X_k}$ both ways from top left to bottom right.
+and that this is exact follows since on the category [[Ab]] of [[abelian group]], forming [[filtered colimits]] is an [[exact functor]] ([prop.](Mod#FilteredColimitsInRModAreExact)).
 
-These diagonal isomorphism imply that under taking the [[colimit]] over the horizontal sequences, the vertical morphisms induce an isomorphism.
 
+Regarding the exactness of the top sequence:
+
+Since the mapping cone of the mapping cone inclusion is the supspension, and since by example \ref{OmegaSigmaAdjunctionUnitOnSequentialSpectraIsStableWeakHomotopyEquivalence} there is an isomorphism
+
+$$
+  \pi_\bullet(X) \simeq \pi_{\bullet+1}(X \wedge S^1)
+$$
+
+it is sufficient to show that for every $f$ and $q$ the sequence
+
+$$
+  \pi_q(X) \overset{f_\ast}{\longrightarrow} \pi_q(Y) \overset{j_\ast}{\longrightarrow} \pi_q(Cone(f))
+$$
+
+is exact in the middle. It is clear from the construction of the mapping cone that the composite morphism is zero, therefore what remains to be shown is that every element in the [[kernel]] of $j_\ast$ is in the image of $f_\ast$.
+
+Now...
 
 =--
+
+
+
