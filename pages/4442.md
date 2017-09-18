@@ -188,6 +188,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 * [[anti de Sitter gravity]]
 
+* [[p-adic AdS-CFT]]
+
 [[!include table of branes]]
 
 ## References
