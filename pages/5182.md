@@ -51,10 +51,12 @@ Among the model structures with a [[symmetric monoidal smash product of spectra]
 
 ## References
 
+* [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _Model categories of diagram spectra_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+
 A discussion of model structures on spectra in general ambient model categories (general spectrum objects) is in
 
-* [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv:0004051](http://arxiv.org/abs/math/0004051))
- {#Hovey00}
+* {#Hovey00} [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv:0004051](http://arxiv.org/abs/math/0004051))
+ 
 
 
 [[!redirects model category of spectra]]
