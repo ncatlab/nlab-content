@@ -87,7 +87,7 @@ Every CW-complex is a [[compactly generated topological space]].
 
 Since a CW-complex $X$ is a [[colimit]] in [[Top]] over attachments of standard [[n-disks]] $D^{n_i}$ (its cells), by the characterization of colimits in $Top$ ([prop.](Top#DescriptionOfLimitsAndColimitsInTop)) a subset of $X$ is open or closed precisely if its restriction to each cell is open or closed, respectively. Since the $n$-disks are compact, this implies one direction: if a subset $A$ of $X$ intersected with all compact subsets is closed, then $A$ is closed. 
 
-For the converse direction, since the CW-complex is Hausdorff and since compact subspaces of Hausdorff spaces are closed, the intersection of a closed subset with a compact subset is closed.
+For the converse direction, since [[a CW-complex is a Hausdorff space]] and since [[compact subspaces of Hausdorff spaces are closed]], the intersection of a closed subset with a compact subset is closed.
 
 =--
 
