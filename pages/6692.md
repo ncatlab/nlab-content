@@ -46,6 +46,7 @@ this cochain is a twisted 2-cocycle.
 
 [eprint](http://arxiv.org/abs/1007.1250)
 [lecture notes](http://www.math.bgu.ac.il/~amyekut/lectures/multi-integ/notes.pdf)
+[book](http://www.worldscientific.com/worldscibooks/10.1142/9537)
 
 
 ### 3. Combinatorial Descent Data for Gerbes ###
