@@ -25,7 +25,7 @@
 
 ## Idea
 
-Om manifolds with rational [[string structure]] the [[Witten genus]] takes values in [[modular forms]]. On manifolds with actual [[string structure]] this refines further to a ring of "topological modular forms". This ring is at the same time the ring of [[homotopy groups]] of an [[E-∞ ring]] spectrum, called _[[tmf]]_.
+On manifolds with rational [[string structure]] the [[Witten genus]] takes values in [[modular forms]]. On manifolds with actual [[string structure]] this refines further to a ring of "topological modular forms". This ring is at the same time the ring of [[homotopy groups]] of an [[E-∞ ring]] spectrum, called _[[tmf]]_.
 
 ## Properties
 
