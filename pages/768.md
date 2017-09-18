@@ -655,6 +655,24 @@ $$
 
 =--
 
+#### Classification of bundles
+
++-- {: .num_prop }
+###### Proposition
+
+For $X$ a [[paracompact topological space]], the operation of [[pullback]] of the [[universal principal bundle]] $E O(n) \to B O(n)$ from def. \ref{EOn} along [[continuous functions]] $f \colon X \to B O(n)$ eastblishes a [[bijection]]
+
+$$
+  [X, B O(n)]
+   \underoverset{iso}{f \mapsto f^\ast E O(n)}{\longrightarrow}
+  O(n) Bund/_\sim
+$$
+
+between [[homotopy classes]] of functions from $X$ to $B O(n)$ and isomorphism classes of $O(n)$-[[principal bundles]] on $X$.
+
+=--
+
+A full proof is spelled out in ([Hatcher, section 1.2, theorem 1.16](#Hatcher))
 
 
 ### For crossed complexes
