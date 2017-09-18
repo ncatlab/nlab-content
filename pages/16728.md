@@ -38,7 +38,7 @@ For every small category $\mathcal{C}$, the [[Lawvere-Tierney topology]] on the 
 
 This appears as ([MacLaneMoerdijk, corollary VI 5](#MacLaneMoerdijk)).
 
-In particular, the [[Lawvere-Tierney topology]] corresponding to the dense topology is [[dense subtopos|dense as a Lawvere-Tierney topology]] !
+In particular, the [[Lawvere-Tierney topology]] corresponding to the dense topology is [[dense subtopos|dense as a Lawvere-Tierney topology]]!
 
 ## Related entries
 
