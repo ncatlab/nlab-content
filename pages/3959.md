@@ -13,7 +13,12 @@
 * table of contents
 {: toc}
 
-## Definition
+## Idea
+
+A [[function]] which is [[differentiable function]] to arbitrary order is called a _smooth function_.
+
+
+### Between Cartesian spaces
 
 A [[function]] on (some open subset of) a [[cartesian space]] $\mathbb{R}^n$ with values in the [[real line]] $\mathbb{R}$ is **smooth**, or __infinitely differentiable__, if all its [[derivative]]s exist at all points. More generally, if $A \subseteq \mathbb{R}^n$ is any subset, a function $f: A \to \mathbb{R}$ is defined to be _smooth_ if it has a smooth extension to an open subset containing $A$. 
 
@@ -23,11 +28,15 @@ For $A \subseteq \mathbb{R}^n$, a **smooth map** $\phi: A \to \mathbb{R}^m$ is a
 
 The concept can be generalised from cartesian spaces to [[Banach spaces]] and some other infinite-dimensional spaces.  There is a [[locale]]-based analogue suitable for [[constructive mathematics]] which is not described as a function of points but as a special case of a [[continuous map]] (in the localic sense).
 
-A [[manifold]] whose transition functions are smooth maps is a [[smooth manifold]]. The [[category]] [[Diff]] is the category whose objects are smooth manifolds and whose morphisms are smooth maps betweeen them.
+### Between smooth manifolds
 
-Yet more generally, the morphisms between [[generalised smooth spaces]] are smooth maps.
+A [[topological manifold]] whose transition functions are smooth maps is a [[smooth manifold]]. A smooth function between smooth manifolds is a function that (co-)restricts to a smooth function between subsets of Cartesian spaces, as above, with respect to any choice of [[atlases]], hence which is a $k$-fold [[differentiable function]] (see there for more details), for all $k$ The [[category]] [[Diff]] is the category whose objects are smooth manifolds and whose morphisms are smooth maps betweeen them.
 
-For functions between manifolds that fall short of full smoothness, see [[differentiable map]].
+### Between generalized smooth spaces
+
+There are various [[categories]] of [[generalised smooth spaces]] whose [[morphisms]] are generalized [[smooth functions]].
+
+For details see for example at _[[smooth set]]_.
 
 
 ## Properties
