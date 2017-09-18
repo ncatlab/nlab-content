@@ -50,21 +50,26 @@ By the _[[basis theorem]]_ (and using the [[axiom of choice]]) every vector spac
 
 ## Related concepts
 
-* [[real vector space]], [[complex vector space]]
 
-* [[real structure]], [[complex structure]], [[quaternionic structure]]
-
-* [[virtual vector space]]
-
-* [[vector bundle]], 
-
-* [[lattice in a vector space]]
 
 * **vector space**, [[dual vector space]], 
 
   * [[finite-dimensional vector space]]
 
+  * [[real vector space]], [[complex vector space]]
+
   * [[topological vector space]], [[convenient vector space]]
+
+  * [[virtual vector space]]
+
+* [[tensor product of vector spaces]]
+
+* [[real structure]], [[complex structure]], [[quaternionic structure]]
+
+* [[vector bundle]], 
+
+* [[lattice in a vector space]]
+
 
 * [[2-vector space]], [[n-vector space]]
 * [[inner product space]]
