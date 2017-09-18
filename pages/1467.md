@@ -18,9 +18,9 @@
 
 A [[topological space]] (or more generally: a [[convergence space]]) is _compact_ if everything converges as much as possible. 
 
-The key topological consequence of a subspace of a [[Euclidean space]] being "[[closed space|closed]] and [[bounded set|bounded]]" is that every [[net]] must [[accumulation point|accumulate]] somewhere in the space. Roughly speaking, boundedness implies the net cannot escape the subspace, and the point to which it accumulates lies in the subspace by closure. See the [[Heine-Borel theorem]] for more. 
+Compactness is a topological notion that was developed to abstract the key property of a subspace of a [[Euclidean space]] being "[[closed space|closed]] and [[bounded set|bounded]]": *every [[net]] must [[accumulation point|accumulate]] somewhere in the subspace*. (Roughly, the reason is that boundedness implies the net cannot escape the subspace, and the point to which it accumulates lies in the subspace by closure. See the [[Heine-Borel theorem]] for more.) 
 
-Compactness provides a way of capturing this feature in the context of general topological spaces, without the need to view them as subspaces of an ambient space. 
+Compactness provides an intrinsic way of formulating this property in the context of general topological spaces, without the need to view them as subspaces of an ambient space. 
 
 There is also a notion of compactness for [[locales]]. Observe that (using [[classical logic]]) already every [[locally compact locale]] is [[spatial locale|spatial]] ([this prop.](locally+compact+locale#UsingClassicalLogicLocallyCompactLocaleIsSpatial)).
 
