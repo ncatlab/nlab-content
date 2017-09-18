@@ -1,0 +1,6 @@
+
+
+## References
+
+* Wikipedia, _[Inverse function theorem](https://en.wikipedia.org/wiki/Inverse_function_theorem)_
+
