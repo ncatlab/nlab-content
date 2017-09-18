@@ -702,3 +702,5 @@ By theorem \ref{pCompletionOfAbelianGroupsByHomsOutOfZpinfinity} the $i$th facto
 
 
 [[!redirects localization of an abelian group]]
+
+[[!redirects localizations of abelian groups]]
