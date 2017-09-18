@@ -898,10 +898,8 @@ deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch
 
 Discussion for field theories with [[boundary conditions]] and going in the direction of [[extended TFT|extended field theory]] is in 
 
-* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_ ([arXiv:1201.0290](http://arxiv.org/abs/1201.0290))
-
-* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239))
-
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_, [arXiv:1201.0290](http://arxiv.org/abs/1201.0290); _Classical and quantum Lagrangian field theories with boundary_, [arXiv:1207.0239](http://arxiv.org/abs/1207.0239); 
+_Perturbative quantum gauge theories on manifolds with boundary_, [arxiv/1507.01221](http://arxiv.org/abs/1507.01221)
 
 A discussion of BV-BRST formalism in the general context of [[perturbative quantum field theory]] is in
 
@@ -1071,6 +1069,7 @@ based on
 [[!redirects Batalin-Vilkovisky theory]]
 
 [[!redirects BV-formalism]]
+[[!redirects BV formalism]]
 
 [[!redirects BV-theory]]
 [[!redirects BV theory]]
