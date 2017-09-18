@@ -223,9 +223,14 @@ Early accounts include
 
 * Hubert Goldschmidt, _Integrability criteria for systems of nonlinear partial differential equations_, J. Differential Geom. Volume 1, Number 3-4 (1967), 269-307 ([Euclid](http://projecteuclid.org/euclid.jdg/1214428094))
 
-{#DiscussionOfFrechetManifoldStructure} Discussion of the [[Fréchet manifold]] structure on jet bundles includes
+The algebra of smooth functions of just _locally_ finite order on the jet bundle was maybe first considered in
 
 * {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_, J. Differential Geom. Volume 14, Number 4 (1979), 543-562. ([Euclid](https://projecteuclid.org/euclid.jdg/1214435235))
+
+
+{#DiscussionOfFrechetManifoldStructure} Discussion of the [[Fréchet manifold]] structure on infinite jet bundles includes
+
+* {#Saunders89} [[David Saunders]], chapter 7 _Infinite jet bundles_ of _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
 * M. Bauderon, _Differential geometry and Lagrangian formalism in the calculus of variations_, in _Differential Geometry, Calculus of Variations, and their Applications_, Lecture Notes in Pure and Applied Mathematics, 100, Marcel Dekker, Inc., N.Y., 1985, pp. 67-82.
 
