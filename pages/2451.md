@@ -51,7 +51,7 @@ For instance ([Cote, theorem 2.3](#Cote)).
 +-- {: .num_example}
 ###### Example
 
-The [[fundamental group]] of the free groupoid of a graph with a single vertex is the [[free group]] on the set of edges of the graph.
+The [[fundamental group]] of the free groupoid of a graph with a single vertex is the [[free group]] on the set of edges of the graph. A result relevant to the Jordan Curve Theorem and the Phragmen-Brouwer Property  is given in the Corrigendum referenced below. It gives conditions on a pushout of groupoids to contain a free groupoid as a retract. 
 
 =--
 
@@ -69,5 +69,7 @@ The [[fundamental group]] of the free groupoid of a graph with a single vertex i
 * Philip Higgins, _Categories and groupoids_, Van Nostrand Reinhold, 1971; Reprints in Theory and Applications of Categories, No. 7 (2005) pp 1-195 ([pdf available] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html))
 
 * [[Ronald Brown|Ronnie Brown]] _Topology and Groupoids_,  ([details here] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
+
+* Omar Antolin Camarena and [[Ronald Brown|Ronnie Brown]], "Corrigendum to "Groupoids, the Phragmen-Brouwer Property, and the Jordan Curve Theorem", J. Homotopy and Related Structures 1 (2006) 175-183." J. Homotopy and Related Structures ([pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/brouwer-cor-fin.pdf))
 
 [[!redirects free groupoids]]
