@@ -3,42 +3,18 @@
 
 > previous chapter: _[[geometry of physics -- manifolds and orbifolds|manifolds and orbifolds]]_
 
-> next chapter: _[physics](geometry%20of%20physics#PHYSICS)_
+> next chapter: _[[geometry of physics -- BPS charges|BPS charges]]_
 
 
 ***
 
-#Contents#
-* table of contents
-{:toc}
-
-
-
-## **Supergeometry**
-
-### Model Layer
-
-
-* [[supermanifold]]
-
-#### Fermion
-
-* [[fermion]]
-
-
-### Semantic Layer
-
-#### Super cohesion
-
-* [[super infinity-groupoid]]
-
-* [[smooth super infinity-groupoid]]
-
-* [[super smooth infinity-groupoid]]
+* [[supergeometry]]
 
 * [[super-Cartan geometry]]
 
+* [[super infinity-groupoid]]
 
-### Syntactic Layer
+* [[super formal smooth infinity-groupoid]]
 
-(...)
+
+
