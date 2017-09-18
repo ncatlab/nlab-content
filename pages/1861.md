@@ -23,20 +23,20 @@
 
 Where [[homotopy groups]] are groups of [[homotopy classes]] of maps  out [[spheres]], $\pi_n(X)\coloneqq [S^n \to X]$, cohomotopy groups are groups of homotopy classes _into_ spheres, $\pi^n(X) \coloneqq [X \to S^n]$.
 
+If instead one considers mapping into the [[stabilization]] of the spheres, hence into (some [[suspension spectrum|suspension]] of) the [[sphere spectrum]], then one speaks of _[[stable cohomotopy]]_. In other words, the [[generalized (Eilenberg-Steenrod) cohomology]] theory which is [[Brown representability theorem|represented]] by the [[sphere spectrum]] is _stable cohomotopy_.
 
-## Relation to cohomology
-The notion of [[cohomology]]  -- in its generalization beyond [[generalized (Eilenberg-Steenrod) cohomology]] to [[nonabelian cohomology]] -- is related by abstract [[duality]] to [[homotopy]]. In the [[(infinity,1)-topos]] [[Top]] this is traditionally called [[Eckmann–Hilton duality]].
-
-Therefore it does make sense to speak of general [[cohomology]] as **co-homotopy**.
-
-Indeed, [[cohomology]] is a concept [[duality|dual]] to [[homology]] only in the very restrictive simple case of [[chain homology and cohomology]]. And this is really just because in this simple case it so happens that [[homotopy]] of [[chain complexes]] is their [[homology]]. 
-This is part of the statement of the [[Dold-Kan correspondence]]: the [[nerve]] operation on [[chain complex]]es $N : Ch_+ \to SimpAb$ identifies  [[homology|chain homology groups]] with [[simplicial homotopy group]]s.
-
-So on general grounds the word "cohomotopy" is actually better suited than "cohomology" for a concept of such fundamental importance. 
+In this vein, regarding terminology: the concept of [[cohomology]] (as discussed there) in the very general sense of [[non-abelian cohomology]], is about [[homotopy classes]] of maps _into_ any object $A$ (in some [[(∞,1)-topos]]). In this way, general non-abelian cohomology is sort of dual to homotopy, and hence might generally be called co-homotopy. This is the statement of _[[Eckmann-Hilton duality]]_. The duality between homotopy (groups) and co-homotopy proper may then be thought of as being the special case of this where $A$ is taken to be a sphere. 
 
 ## Properties
 
-* For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a [[smooth function]] $X \to S^n$ representing every cohomotopy class (with respect to the standard [[smooth structure]] on the [[sphere]] [[manifold]]).
+### Relation to Freudenthal suspension theorem
+
+relation to the [[Freudenthal suspension theorem]] ([Spanier 49, section 9](#Spanier49))
+
+
+### Smooth representatives
+
+For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a [[smooth function]] $X \to S^n$ representing every cohomotopy class (with respect to the standard [[smooth structure]] on the [[sphere]] [[manifold]]).
 
 ## Related concepts
 
@@ -47,9 +47,9 @@ So on general grounds the word "cohomotopy" is actually better suited than "coho
 
 * Wikipedia, _[Cohomotopy group](http://en.wikipedia.org/wiki/Cohomotopy_group)_
 
-* [[eom]], _[Cohomotopy group](http://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
-
-* [[Edwin Spanier]], _Borsuk's Cohomotopy Groups_, Annals of Mathematics
+* [[eom]], _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
+ 
+* {#Spanier49} [[Edwin Spanier]], _Borsuk's Cohomotopy Groups_, Annals of Mathematics
 Second Series, Vol. 50, No. 1 (Jan., 1949), pp. 203-245 ([jstor](http://www.jstor.org/stable/1969362))
 
 [[!redirects cohomotopy group]]
