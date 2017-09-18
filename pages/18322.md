@@ -1,11 +1,29 @@
-[[!redirects colimits of paracompact spaces]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
+
+
+
 # Contents 
 * table of contents 
 {:toc} 
 
 ## Introduction 
 
-In this article we collect some results on [[colimits]] of [[paracompact space|paracompact]] [[Hausdorff spaces]] as computed in the category of [[topological spaces]] [[Top]], and particular conditions under which the colimit is again paracompact and Hausdorff. 
+In this article we collect some results on [[colimits]] of [[paracompact Hausdorff spaces]] as computed in the category of [[topological spaces]] [[Top]], and particular conditions under which the colimit is again paracompact and Hausdorff. 
 
 The account is designed to be parallel to that given in [[colimits of normal spaces]], centering particularly on how paracompactness may be reformulated in terms of an extension or selection property. The relevant result, due to Ernest Michael, is particularly well-adapted to the study of colimits. 
 
@@ -58,7 +76,7 @@ If moreover $i$ is an open inclusion, then for any open $U \subseteq C$ we have 
 
 (See also [[Michael's theorems]].)
 
-It is well-known that a $T_1$ space $X$ is a paracompactum iff every open cover of $X$ [admits a subordinate partition of unity](/nlab/show/paracompact+Hausdorff+spaces+equivalently+admit+subordinate+partitions+of+unity). Michael's innovation was in working out how the partition of unity characterization may be recast in terms of existence of continuous sections of suitable projection maps. 
+It is well-known (see [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity|here]]) that a $T_1$ space $X$ is a paracompactum iff every open cover of $X$ [admits a subordinate partition of unity](/nlab/show/paracompact+Hausdorff+spaces+equivalently+admit+subordinate+partitions+of+unity). Michael's innovation was in working out how the partition of unity characterization may be recast in terms of existence of continuous sections of suitable projection maps. 
 
 From here on out, all spaces will be assumed to be $T_1$ ([[singletons]] are [[closed subset|closed]]); see [[separation property]]. 
 
@@ -191,6 +209,16 @@ Clearly $X$ is $T_1$: for any $x \in X$, the intersection $\{x\} \cap X_n$ is cl
 Let $j_n: X_n \to X$ denote a component of the colimit cocone. Let $(R, p, q)$ from $X$ to a Banach space $B$ be an entire, lsc, closed and convex relation. Pulling this back to $X_0$, by paracompactness we have a selection $X_0 \to j_0^\ast R$. Given a selection $X_n \to j_n^\ast R$, we may extend along $i_n$ to a selection $X_{n+1} \to j_{n+1}^\ast R$ using paracompactness and Lemma \ref{extension}. These selections, being compatible with the inclusions $i_n$, paste together to give a selection $X \to R$. 
 =-- 
 
+In particular this may be used to see that _[[CW-complexes are paracompact Hausdorff spaces]]_.
+
+## Related entries
+
+* [[colimits of normal spaces]]
+
 ## References 
 
-* {#Michael56} Ernest Michael, *Continuous Selections I*, The Annals of Mathematics, 2nd Series, Vol. 63 No. 2. (March 1956), 361-382. [stable URL](http://www.jstor.org/stable/1969615?seq=1#page_scan_tab_contents), ([pdf](http://www.renyi.hu/~descript/papers/Michael_1.pdf)) 
+* {#Michael56} [[Ernest Michael]], *Continuous Selections I*, The Annals of Mathematics, 2nd Series, Vol. 63 No. 2. (March 1956), 361-382. [stable URL](http://www.jstor.org/stable/1969615?seq=1#page_scan_tab_contents), ([pdf](http://www.renyi.hu/~descript/papers/Michael_1.pdf)) 
+
+
+
+[[!redirects colimits of paracompact spaces]]
