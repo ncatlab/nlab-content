@@ -117,6 +117,4 @@ Discussion of [[free actions]] of finite groups on [[n-spheres]] (see also at _[
 
 * {#Keenan03} Adam Keenan, _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
 
-[[!redirects finite group]]
 [[!redirects finite groups]]
-[[!redirects finit group]]
