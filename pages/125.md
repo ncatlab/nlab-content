@@ -58,7 +58,7 @@ $$
   [X, Z]
 $$
 
-is the $((-)\otimes X \vdash [X,-])$-[[adjunct]] of the following composite of two [[evaluation maps]], def. \ref{EvalMap}:
+is the $((-)\otimes X \dashv [X,-])$-[[adjunct]] of the following composite of two [[evaluation maps]], def. \ref{EvalMap}:
 
 $$
   [Y, Z] \times [X , Y] \times X 
