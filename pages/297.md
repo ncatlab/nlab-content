@@ -223,7 +223,7 @@ $$
   }
 $$
 
-Given two categories like this, then a function that takes morphism of one two morphisms of the other such that [[composition]] is respected is called a _[[functor]]_. 
+Given two categories like this, then a function that takes morphisms of one to morphisms of the other such that [[composition]] is respected is called a _[[functor]]_. 
 
 In this language, the above locality condition of [[quantum mechanics]] says that quantum time evolution is a functor
 
