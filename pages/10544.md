@@ -4,6 +4,10 @@ I'm currently a student of [[people:Domenico Fiorenza]], whose invaluable help p
 
 [This](http://people.sissa.it/~floregi/) is my personal website. Enjoy!
 
+## related $n$Lab entries
+
+* [[orthogonal factorization system in a derivator]]
+
 category: people
 
 [[!redirects Fosco]]
