@@ -5,6 +5,8 @@ The [[generalized cohomology theory]] [[Brown representability theorem|represent
 
 ## Related concepts
 
+* [[KO-dimension]]
+
 [[!include string theory and cohomology theory -- table]]
 
 [[!redirects KO theory]]
