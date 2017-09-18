@@ -1,0 +1,8 @@
+
+* [webpage](https://www.paolocapriotti.com/about/index.html)
+
+## related $n$Lab entries
+
+* [[internal category in homotopy type theory]]
+
+category: people
