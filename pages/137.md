@@ -21,7 +21,7 @@ The [[formal duality|formally dual concept]] is that of _[[monomorphism]]_, simi
 
 ## Definition
 
-A [[morphism]]  $f \colon X \to Y$ in some [[category]] is called an _epimorphism_ if for every other [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Y \to Z$ then 
+A [[morphism]]  $f \colon X \to Y$ in some [[category]] is called an _epimorphism_ (sometimes abbrieviated to _epi_), or described as being _epic_, if for every other [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Y \to Z$ then 
 
 $$
   \left(
@@ -186,7 +186,7 @@ $$
 
 The right hand is a monomorphism by assumption, hence so is the left hand, hence $L(f)$ is epi.
 
-Another argument is this: use that by the above $f$ is epi precisely if
+Another argument is this: use that by the above $f$ is epic precisely if
 
 $$
   \array{
@@ -214,7 +214,7 @@ Epimorphisms are [[reflected limit|reflected]] by [[faithful functors]].
 
 Let $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ be a [[faithful functor]]. Consider $f \colon x \longrightarrow y$ a [[morphism]] in $\mathcal{C}$ such that $F(f) \colon F(x)\longrightarrow F(y)$ is an epimorphism in $\mathcal{D}$. We need to show that then $f$ itself is an epimorphism.
 
-So consider morphisms $g,h \colon y \longrightarrow z$ such that $g \circ f = h \circ f$. We need to show that this implies that already $g = h$ (injectivity of $Hom(f,z)$). But functoriality implies that $F(g)\circ F(f) = F(h) \circ F(f)$, and since $F(f)$ is epi this implies that $F(g) = F(h)$. Now the statement follows with the assumption that $F$ is faithful, hence [[injection|injective]] on morphisms.
+So consider morphisms $g,h \colon y \longrightarrow z$ such that $g \circ f = h \circ f$. We need to show that this implies that already $g = h$ (injectivity of $Hom(f,z)$). But functoriality implies that $F(g)\circ F(f) = F(h) \circ F(f)$, and since $F(f)$ is epic this implies that $F(g) = F(h)$. Now the statement follows with the assumption that $F$ is faithful, hence [[injection|injective]] on morphisms.
 
 =--
 
