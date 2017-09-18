@@ -1,0 +1,11 @@
+
+## Idea
+
+A [[subset]] of a [[Lorentzian manifold]] is _causally closed_ if it equals the [[causal complement]] of its causal complement.
+
+## References
+
+* H. Casini, _The logic of causally closed spacetime subsets_,  	Class.Quant.Grav. 19 (2002) 6389-6404 ([arXiv:gr-qc/0205013](https://arxiv.org/abs/gr-qc/0205013))
+
+[[!redirects causally closed subsets]]
+
