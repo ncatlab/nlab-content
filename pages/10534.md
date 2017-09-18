@@ -1,9 +1,17 @@
 
+## Idea
+
+A convex function is a function such that its [[graph]] is the boundary of a [[convex set]].
+
+A convex function is also a [[Lipschitz function]] with Lipschitz constant (or Lipschizt modulus) 1.
+
 ## Related concepts
 
 * [[convex analysis]]
 
 * [[Legendre transform]]
+
+* [[Lipschitz function]]
 
 ## References
 
