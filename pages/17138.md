@@ -3417,7 +3417,7 @@ The key fact that makes def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} 
 
 Let $\mathcal{C}$ be a [[model category]] with [[full subcategories]] $\mathcal{C}_f, \mathcal{C}_c$ [[category of fibrant objects|of fibrant objects]] and [[cofibration category|of cofibrant objects]] respectively (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). Let $\mathcal{D}$ be a [[category with weak equivalences]].
 
-1. A [[functor]]
+1. A [[functor]] out of the [[category of fibrant objects]]
 
    $$
      F \;\colon\; \mathcal{C}_f \longrightarrow \mathcal{D}
@@ -3425,13 +3425,68 @@ Let $\mathcal{C}$ be a [[model category]] with [[full subcategories]] $\mathcal{
 
   is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends acylic fibrations to weak equivalences.
 
-1. A [[functor]]
+1. A [[functor]] out of the [[category of cofibrant objects]]
 
    $$
      F \;\colon\; \mathcal{C}_c \longrightarrow \mathcal{D}
    $$
 
   is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends acylic cofibrations to weak equivalences.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This uses the [[factorization lemma]], which we prove independently below as lemma \ref{FactorizationLemma}.
+
+We discuss the case of a functor on a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. The other case is [[formal dual|formally dual]].
+
+Let $f \colon X \longrightarow Y$ be a weak equivalence in $\mathcal{C}_f$. Consider the diagram
+
+$$
+  \array{
+    Path(f) &\underset{\in W \cap Fib}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{p_1^\ast f}}_{\mathllap{\in W}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}
+    \\
+    Path(Y) &\overset{p_1}{\underset{\in W \cap Fib}{\longrightarrow}}& Y
+    \\
+    {}^{\mathllap{p_0}}_{\mathllap{\in W \cap Fib}}\downarrow
+    \\
+    Y
+  }
+  \,.
+$$
+
+Here 
+
+1. $p_i$ are both fibrations because they are the composite of the defining fibration $Path(X) \to X \times X$ with the projection $X \times X \to X$ (which is a fibration since it is the pullback of the fibration $X \to \ast$ along itself);
+
+1. $p_i$ are both weak equivalences by [[two-out-of-three]], since by definition $Y \to Path(Y)$ is a [[right inverse]] for them;
+
+1. $Path(f) \to X$ is an acyclic fibration because it is the pullback of $p_1$.
+
+1. $p_1^\ast f$ is a weak equivalence because the [[factorization lemma]], lemma \ref{FactorizationLemma}, states that the composite vertical morphism factors $f$ through a weak equivalence, hence if $f$ is a weak equivalence, then $p_1^\ast f$ is by [[two-out-of-three]].
+
+Now apply the functor $F$ to this diagram and use the assumption that it sends acyclic fibrations to weak equivalences to obtain
+
+$$
+  \array{
+    F(Path(f)) &\underset{\in W }{\longrightarrow}& F(X)
+    \\
+    {}^{\mathllap{F(p_1^\ast f)}}_{\mathllap{}}\downarrow && \downarrow^{\mathrlap{F(f)}}
+    \\
+    F(Path(Y)) &\overset{F(p_1)}{\underset{\in W }{\longrightarrow}}& F(Y)
+    \\
+    {}^{\mathllap{F(p_0)}}_{\mathllap{\in W}}\downarrow
+    \\
+    Y
+  }
+  \,.
+$$
+
+But the [[factorization lemma]], lemma \ref{FactorizationLemma}, in addition says that the vertical composite $p_0 \circ p_1^\ast f$ is a fibration, hence an acyclic fibration by the above. Therefore also $F(p_0 \circ p_1^\ast f)$ is a weak equivalence. Now the claim follows with [[two-out-of-three]].
 
 =--
 
