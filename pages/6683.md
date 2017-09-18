@@ -70,9 +70,9 @@ Classification of the possible [[superpotentials]] via [[representation theory]]
 
 and derived from this a classification of the possble [[orbifold]]ing is in
 
-* {#MFFGME09} Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, 	JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+* {#MFFGME09} Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
-* Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_ ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761))
+* Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
 * [[José Figueroa-O'Farrill]], _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf))
 
