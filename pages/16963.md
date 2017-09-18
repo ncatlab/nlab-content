@@ -1,0 +1,11 @@
+
+for the moment see at _[G2-manifold -- With ADE orbifold structure](G2+manifold#WithADEOrbifoldStructure)_
+
+[[!redirects G2-orbifolds]]
+
+[[!redirects G2 orbifold]]
+[[!redirects G2 orbifolds]]
+
+[[!redirects Joyce orbifold]]
+[[!redirects Joyce orbifolds]]
+
