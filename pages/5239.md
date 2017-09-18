@@ -20,20 +20,24 @@
 
 ## Idea
 
-For $C$ a [[monoidal model category]] and $T : C \to C$ a [[monad]] on $C$, there is under mild conditions a natural [[model category]] structure on the category of [[algebras over a monad]] over $T$.
+For $\mathcal{C}$ a [[cofibrantly generated model category]] and $T \colon \mathcal{C} \longrightarrow \mathcal{C}$ a [[monad]] on $\mathcal{C}$, there is under mild conditions a natural [[model category]] structure on the category of [[algebras over a monad]] over $T$.
 
 ## Definition
 
-Let $C$ be a [[cofibrantly generated model category]] and $T : C \to C$ a [[monad]] on $C$. 
+Let $\mathcal{C}$ be a [[cofibrantly generated model category]] and $T \colon \mathcal{C} \longrightarrow \mathcal{C}$ a [[monad]] on $\mathcal{C}$. 
 
 Then under mild conditions there exists the [[transferred model structure]] on the category of [[algebras over a monad]], transferred along the [[free functor]]/[[forgetful functor]] [[adjunction]]
 
 $$
-  (F \dashv U) : Alg T \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C
+  (F \dashv U) 
+      \;\colon\; 
+   Alg_T(\mathcal{C}) 
+     \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}} 
+   \mathcal{C}
   \,.
 $$
 
-See ([SchwedeShipley, lemma 2.3](#SchwedeShipley)).
+See ([Schwede-Shipley 00, lemma 2.3](#SchwedeShipley00)).
 
 ## Related concepts
 
@@ -43,12 +47,14 @@ See ([SchwedeShipley, lemma 2.3](#SchwedeShipley)).
 
 * **model structure on algebras over a monad**
 
+* [[model structure on coalgebras over a comonad]]
+
 * [[model structure on simplicial T-algebras]]
 
 ## References
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
-{#SchwedeShipley}
+* {#SchwedeShipley00} [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_, Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
+
 
 
 
