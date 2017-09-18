@@ -32,6 +32,8 @@ For a survey of this approach see
 
 * [[Martin Hyland]] and [[Luke Ong]], On full abstraction for PCF, Information and Computation, 163 (2000), 285-408.
 
+* [[Paul-André Melliès]], Asynchronous games 3: An innocent model of linear logic, _Proceedings of the 10th Conference on Category Theory and Computer Science_, Copenhagen, 2004. ([pdf](https://www.irif.fr/~mellies/papers/ag3-ctcs.pdf))
+
 * [[Robin Cockett]], [[Geoff Cruttwell]] and K. Saff, _Combinatorial Game Categories_, ([pdf](https://www.mta.ca/uploadedFiles/Community/Bios/Geoff_Cruttwell/CGC.pdf))
 
 * [[John Baez]], [TWF240](http://math.ucr.edu/home/baez/week240.html) on 'Holodeck games'.
