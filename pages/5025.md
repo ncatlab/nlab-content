@@ -21,21 +21,27 @@ A [[Lie groupoid]] is said to be _effective_ if its morphisms act locally freely
 
 ## Definition
 
-Given a [[Lie groupoid]] $X$ a [[morphism]] $f : x \to y$ induces a [[germ]] of a local [[diffeomorphism]] $\tilde f : (X_0,x) \to (X_0,y)$: for that choose $U \subset X_0$ to be any [[neighbourhood]] of $x$ small enough such that the restricted source and target maps 
+Let $X_\bullet = (X_1 \stackrel{\longrightarrow}{\longrightarrow} Y)$ be a [[Lie groupoid]]. Equivalently, let $X$ be a [[differentiable stack]] equipped with an [[atlas]] $X_0 \to X$.
+
+Then given any element $f$ in $X_1$, hence given a [[morphism]] $f \colon x \to y$, it induces a [[germ]] of a local [[diffeomorphism]] $\tilde f \colon (X_0,x) \to (X_0,y)$ as follows: 
+
+choose $U_x \subset X_0$ to be any [[neighbourhood]] of $x$ small enough such that the restricted [[source]] and [[target]] maps 
 
 $$
   \array{
-    X_1 \times_{X_0} U&\to& X_1
+    X_1 \times_{X_0} U_x &\to& X_1
     \\
     {}^{\mathllap{s|_U, t|_U}}\downarrow && \downarrow^{\mathrlap{s,t}}
     \\
-    U &\stackrel{}{\hookrightarrow} & X_0
+    U_x &\stackrel{}{\hookrightarrow} & X_0
   }
 $$
 
-are [[diffeomorphism]]s. Then define $\tilde f$ to be the germ $t \circ (s|_U)^{-1}$.
+are [[diffeomorphisms]]. Then define $\tilde f$ to be the germ $t \circ (s|_U)^{-1}$.
 
-The Lie groupoid $X$ is called _effective_ if this assignment of morphisms to germs of local diffeomorphisms is [[injective]].
+The Lie groupoid $X_\bullet$ is called _effective_ if this assignment of morphisms to germs of local diffeomorphisms is [[injective]].
+
+This means that the [[action]] of the [[automorphism group]] at any point $x$ on the germ at $x$ is [[faithful action|faithful]]. 
 
 ## Related concepts
 
