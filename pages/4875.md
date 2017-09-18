@@ -49,7 +49,7 @@ $$
 
 where $W$ is a [[module]] of finite rank over $R$ and consisting of nilpotent elements in the algebra $A$.
 
-+-- {: .num_defn}
++-- {: .num_remark #WeilAlgebra}
 ###### Remark
 **on terminology** 
 
@@ -59,11 +59,59 @@ Over more general base fields, this is called a **[[local Artin algebra]]**.
 
 =--
 
+
 ## Examples
 
 The smallest nontrivial example is the space dual to the [[ring of dual numbers]]. This is the point with "minimal infinitesimal thickening". 
 
-A class of examples are the spaces $\tilde D(n,r)$ of $r$-tuples of infinitesimal neighbours of the origin of $R^n$, that are each also infinitesimal neighbours of each other. Their Weil algebras of functions are a model for the degree $r$-[[differential form]]s. Details on this are at <a href="http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl">spaces of infinitesimal k-simplices</a>.
+This is a special case of the following
+
+
++-- {: .num_defn #JetAlgebra}
+###### Definition
+
+For $n , k \in \mathbb{N}$, the _jet algebra_ $C^\infty(\mathbb{D}^n(k))$ is the [[quotient]]
+
+$$
+  C^\infty(\mathbb{D}^n(k))
+  =
+  C^\infty(\mathbb{R}^n)/ I^{k+1}
+  \,,
+$$
+
+where $I = (x_1, \cdots, x_n)$.
+
+The [[formal dual]] [[smooth locus]] $\mathbb{D}^n(k)$ is the "order-$k$ infinitesimal $n$-disk".
+
+=--
+
+For $X$ an $n$-dimensional [[smooth manifold]] and $E \overset{p}{\to} X$ a [[bundle]], and $\mathbb{D}^n(k) \hookrightarrow X$ the order-$k$ infinitesimal $n$-disk (def. \ref{JetAlgebra}) in $X$ around a point $x \in X$, then a lift
+
+$$
+  \array{
+     \mathbb{D}^n(k) && \longrightarrow && E
+     \\
+     & \searrow && \swarrow_{\mathrlap{p}}
+     \\
+     && X
+  }
+$$
+
+is a $k$-[[jet]] of a [[section]] of $E$ at $x$. The collection of all of these constitutes the order-$k$ [[jet bundle]] of $E$.
+
++-- {: .num_prop}
+###### Proposition
+
+Every Weil algebra (remark \ref{WeilAlgebra}) is a [[quotient]] of a jet algebra (def. \ref{JetAlgebra}).
+
+=--
+
+(e.g. [Carchedi-Roytenberg 12, prop. 4.43](#CarchediRoytenberg12))
+
+A class of examples are the spaces $\tilde D(n,r)$ of $r$-tuples of infinitesimal neighbours of the origin of $R^n$, that are each also infinitesimal neighbours of each other. Their Weil algebras of functions are a model for the degree $r$-[[differential forms]]. Details on this are at <a href="http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl">spaces of infinitesimal k-simplices</a>.
+
+
+
 
 
 ## Applications
@@ -78,6 +126,10 @@ The [[site]] of definition for the [[Cahiers topos]] is the category of spaces t
 * [[formal disk]]
 
 * [[infinitesimal extension]]
+
+## References
+
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]], _On Theories of Superalgebras of Differentiable Functions_ ([arXiv:1211.6134](http://arxiv.org/abs/1211.6134))
 
 [[!include cohesion - table]]
 
