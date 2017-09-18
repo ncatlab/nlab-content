@@ -807,6 +807,104 @@ prop. \ref{TheDeRhamResolutionOfConstantFunctions}.
 
 =--
 
+##### The Cech-Deligne complex
+
+The Cech complex, def. \ref{CechComplex}, for Deligne cohomology of degree $(p+2)$ is the [[total complex]] of a [[double complex]] of the following form
+
+$$
+  \array{
+    0 &\longrightarrow& 0 &\longrightarrow& 0 &\longrightarrow & \cdots
+    \\
+    \uparrow && \uparrow && \uparrow
+    \\
+    \Omega^{p+1}(\coprod_i U_i)
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^{p+1}(\coprod_{i,j} U_{ i j})
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^{p+1}(\coprod_{i,j, k} U_{i j k})
+    &\stackrel{\delta}{\longrightarrow}&
+    \cdots    
+    \\
+    \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} &&
+    \\
+    \vdots && \vdots && \vdots
+    \\
+    \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} &&
+    \\
+    \Omega^2(\coprod_i U_i)
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^2(\coprod_{i,j} U_{ i j})
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^2(\coprod_{i,j, k} U_{i j k})
+    &\stackrel{\delta}{\longrightarrow}&
+    \cdots    
+    \\
+    \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} && \uparrow^{\mathrlap{d}} &&
+    \\
+    \Omega^1(\coprod_i U_i)
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^1(\coprod_{i,j} U_{ i j})
+    &\stackrel{\delta}{\longrightarrow}&
+    \Omega^1(\coprod_{i,j, k} U_{i j k})
+    &\stackrel{\delta}{\longrightarrow}&
+    \cdots
+    \\
+    \uparrow^{\mathrlap{d log}} && \uparrow^{\mathrlap{d log}} && \uparrow^{\mathrlap{d log}} &&
+    \\
+    C^\infty(\coprod_i U_i, U(1))
+    &\stackrel{\delta}{\longrightarrow}&
+    C^\infty(\coprod_{i,j} U_{i j}, U(1))
+    &\stackrel{\delta}{\longrightarrow}&
+    C^\infty(\coprod_{i,j,k} U_{i j k}, U(1))
+    &\stackrel{\delta}{\longrightarrow}&
+    \cdots
+  }
+$$
+where vertically we have the [[de Rham differential]] and horizontally the Cech differential given by alternating sums of [[pullback of differential forms]].
+
+The corresponding [[total complex]] has in degree $n$ the [[direct sum]] of the entries in this double complex which are on the $n$th nw-se off-diagonal and has the total differential
+
+$$
+  D = d + (-1)^{deg} \del
+$$
+
+with $deg$ denoting form degree.
+
+
++-- {: .num_example}
+###### Example
+
+A Cech-Deligne cocycle in degree $3$ ("[[bundle gerbe with connection]]") is data $(\{B_{i}\}, \{A_{i j}\}, \{g_{i j k}\})$ such that
+ 
+$$
+  \array{
+    \{B_i\}
+    &\stackrel{\delta}{\longrightarrow}&
+    {{\{B_j - B_i\}} = {d A_{i j}}}
+    &&
+    &&
+    \\
+    && \uparrow^{\mathrlap{d}} &&  &&
+    \\
+    &&
+    \{A_{i j}\}
+    &\stackrel{\delta}{\longrightarrow}&
+    \{-A_{ j k} + A_{i k} - A_{i j}\} = \{d log g_{i j k}\}
+    &&
+    \\
+     &&  && \uparrow^{\mathrlap{d log}} &&
+    \\
+    &&
+    &&
+    \{g_{i j k}\}
+    &\stackrel{\delta}{\longrightarrow}&
+    \{g_{j k l} g_{i k l}^{-1} g_{i j l} g_{i j k}^{-1} \} = 1
+  }
+$$
+
+=--
+
+
 
 ##### Curvature and characteristic classes
  {#CharacteristicMaps}
