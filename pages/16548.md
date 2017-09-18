@@ -39,7 +39,7 @@ $$
   \,,
 $$
 
-may be interpreted as seding any [[bundle]] over $X$ to its [[jet bundle]]. 
+may be interpreted as sending any [[bundle]] over $X$ to its [[jet bundle]]. 
 
 ## Properties
 
