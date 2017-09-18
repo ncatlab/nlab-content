@@ -14,16 +14,91 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The notion of **Lie algebra extension** is a special case of the general notion of <a href="http://ncatlab.org/nlab/show/infinity-Lie+algebra+cohomology#Extensions">Extensions</a> in [[∞-Lie algebra cohomology]].
+An _extension_ of a [[Lie algebra]] $\mathfrak{g}$ is another Lie algebra $\hat {\mathfrak{g}}$ that is equipped with a surjective Lie algebra homomorphism to $\mathfrak{g}$
+
+$$
+  \array{
+     \hat{\mathfrak{g}}
+     \\
+     \downarrow
+     \\
+     \mathfrak{g}
+  }
+  \,.
+$$
+
+For non-tivial extensions, this homomorphism has a [[kernel]] $\mathfrak{a} \hookrightarrow \hat \mathfrak{g}$ , consisting of those elements of $\hat{\mathfrak{g}}$ that map to the zero element in $\mathfrak{g}$. That kernel is a sub-Lie algebra of $\hat{\mathfrak{g}}$ and hence one says that $\hat\mathfrak{g}$ is an extension of $\mathfrak{g}$ by $\mathfrak{a}$.
+
+$$
+  \array{
+     \mathfrak{a} &\hookrightarrow& \hat{\mathfrak{g}}
+     \\
+     &&\downarrow
+     \\
+     && \mathfrak{g}
+  }
+  \,.
+$$
+
+This means equivalently that there is a [[short exact sequence]] of Lie algebras of the form
+
+$$
+  0 \to \mathfrak{a} \longrightarrow \hat \mathfrak{g} \longrightarrow \mathfrak{g} \to 0
+  \,.
+$$
+
+
+When $\mathfrak{a}$ happens to be abelian, hence when its Lie bracket is trivial, then one speaks of an abelian extension, and when furthermore the Lie bracket of $\hat\mathfrak{g}$ vanishes as soon as already one of its arguments is in $\mathfrak{a}$, then one has a [[central extension]] ($\mathfrak{a}$ is in the [[center]] of $\hat \mathfrak{g}$). 
+
+Central extensions by the [[ground field]] (say $\mathbb{R}$) are equivalently induced by a 2-cocyle $\mu_2$ in the [[Lie algebra cohomology]] of $\mathfrak{g}$ with [[coefficients]] in the [[ground field]], say $\mathbb{R}$, i.e. by linear maps
+
+$$
+  \mu_2 \colon \mathfrak{g} \wedge \mathfrak{g} \longrightarrow \mathbb{R}
+$$
+
+satisfying some conditions. The corresponding extension of $\mathfrak{g}$ is then, at the level of underlying vector space, the [[direct sum]] $\hat \mathfrak{g} = \mathfrak{g} \oplus \mathbb{R}$, equipped with the Lie bracket given by the formula
+
+$$
+  [(x_1,t_1), (x_2,t_2)] = ([x_1,x_2], \mu_2(x_1,x_2))
+$$
+
+for all $x_1,x_2 \in \mathfrak{g}$ and $t_1,t_2 \in \mathbb{R}$. The condition on $\mu_2$ to be a 2-cocycle is precisely the condition that this formula satisfies the [[Jacobi identity]].
+
+If one regards all Lie algebras here as being special cases of [[Lie 2-algebras]], then the 2-cocycle $\mu_2$ may itself be thought of as a homomorphism, namely from $\mathfrak{g}$ to the [[line Lie 2-algebra]] $b\mathbb{R}$. With this, then $\hat \mathfrak{g}$ given by the above formula is simply the [[homotopy fiber]] of $\mu_2$, and the whole story comes down to saying that there is a [[homotopy fiber sequence]] of [[L-∞ algebras]] of the form
+
+$$
+  \array{
+     \mathbb{R} &\hookrightarrow& \hat{\mathfrak{g}}
+     \\
+     &&\downarrow
+     \\
+     && \mathfrak{g}
+     &\stackrel{\mu_2}{\longrightarrow}& b \mathbb{R}
+  }
+  \,.
+$$
+
+This perspective on Lie algebra extensions makes it evident how the concept generalizes to a concept of [L-∞ algebra extensions](infinity-Lie+algebra+cohomology#Extensions).
+
+Of course extensions need not be central or even abelian. An important class of non-abelian extensions are [[semidirect product Lie algebras]]. These are given by an Lie [[action]] of $\mathfrak{g}$ on $\mathfrak{a}$, hence a [[homomorphism]] $\rho \colon \mathfrak{g}\longrightarrow \mathfrak{der}(\mathfrak{a})$ to the [[derivations]] on $\mathfrak{a}$ and with this the bracket on $\mathfrak{g} \oplus \mathfrak{a}$ is given by the formula
+
+$$
+  [(x_1,t_1), (x_2,t_2)]
+  =
+  ( [x_1,x_2], \;([t_1,t_2] + \rho(x_1)(t_2) - \rho(x_2)(t_1)) )
+  \,.
+$$
+
 
 ## Definition
 
-A [[short exact sequence]]s of [[Lie algebra]]s is a diagram
+A [[short exact sequence]] of [[Lie algebras]] is a [[diagram]]
 
 $$ 0\to \mathfrak{k}
 \overset{i}\to \mathfrak{g}\overset{p}\to\mathfrak{b}\to 0$$
@@ -32,11 +107,13 @@ where $\mathfrak{k},\mathfrak{g},\mathfrak{b}$ are Lie algebras, $i,p$ are homom
 
 We also say that this diagram (and sometimes, loosely speaking, $\mathfrak{g}$ itself) is a **Lie algebra extension** of $\mathfrak{b}$ by the "kernel" $\mathfrak{k}$. 
 
-Lie algebra extensions may be obtained from [[Lie group]] [[group extension]]s via the tangent Lie algebra functor. 
+Lie algebra extensions may be obtained from [[Lie group]] [[group extensions]] via the tangent Lie algebra functor. 
 
-## Classification by nonabelian Lie algebra cocycles
+## Properties
 
-We discuss how Lie algebra extensions are classified by cocycles in [[nonabelian Lie algebra cohomology]].
+### Classification by nonabelian Lie algebra cohomology
+
+We discuss how in general Lie algebra extensions are classified by cocycles in [[nonabelian Lie algebra cohomology]].
 
 Each element $g \in \mathfrak{g}$ defines
 a derivative $\phi(g)$ on $\mathfrak{k}$ by $\phi(g)(k) = [g,k]$.
@@ -119,7 +196,11 @@ In order to satisfy the Jacobi identity, this pair needs to form a nonabelian 2-
 
 ## Examples
 
-* [[Kostant Souriau extension]]
+* The [[Heisenberg Lie algebra]] is an extension of $\mathbb{R}^{2}$, regarded as an abelian Lie algebra, by $\mathbb{R}$ with the corresponding 2-cocycle $\mu_2$ being the canonical commutation relation $\mu_2(q,q)= 0$, $\mu_2(p,p)= 0$, $\mu_2(q,p) = 1$. 
+
+* More generally, the [[Kostant Souriau extension]] exhibits a [[Poisson bracket]] on a [[symplectic manifold]] as an extension of the Lie algebra of [[Hamiltonian vector fields]].
+
+For more discussion putting these two examples in perspective see also at _[quantization -- Motivation from classical mechanics and Lie theory](quantization#MotivationFromClassicalMechanicsAndLieTheory)_.
 
 ## Related concepts
 
@@ -133,6 +214,9 @@ Discussion in the generality of [[super Lie algebras]] includes
 
 * [[Dmitri Alekseevsky]], [[Peter Michor]], Wolfgang Ruppert, _Extensions of super Lie algebras_, J. Lie Theory 15 (2005) No. 1, 125--134 ([arXiv:math/0101190](http://arxiv.org/abs/math/0101190))
 
+See also
+
+* Wikipedia, _[Lie algebra extension](https://en.wikipedia.org/wiki/Lie_algebra_extension)_
 
 [[!redirects Lie algebra extensions]]
 
