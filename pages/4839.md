@@ -10,7 +10,7 @@ Given a [[locally compact space|locally compact]] [[topological group|group]] $G
 ## References
 
 * J. Bernstein, V. Lunts, Equivariant sheaves and functors, Springer Lecture Notes in Math. 1578 (1994). [MR95k:55012](http://www.ams.org/mathscinet-getitem?mr=95k:55012)
-* notes by Zhiwei Yun, [pdf](http://math.mit.edu/~zyun/Bernstein-Lunts.pdf)
+* notes by Zhiwei Yun, [pdf](http://stanford.edu/~zwyun/Bernstein-Lunts.pdf)
 * [[Masaki Kashiwara]], _Equivariant derived category and
 representation of real semisimple Lie groups_, [pdf](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/sd.pdf)
 
