@@ -37,6 +37,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 
 * [[quantum cosmology]], [[quantum gravity]]
 
+* [[brane gas cosmology]]
+
 * [string theory FAQ -- Does string theory tell us anything about cosmology?](string+theory+FAQ#InsightsIntoCosmology)
 
 ## References
