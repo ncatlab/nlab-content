@@ -13,7 +13,9 @@
 =--
 =--
 
-> This page contains, or is going to contain, notes to go with a seminar of the [String Geometry Network meeting in October 2013](http://www-app.uni-regensburg.de/Fakultaeten/MAT/waldorf/Stringgeometry/index.php?show=events). 
+> This page contains notes to went with a seminar of the [String Geometry Network meeting in October 2013](http://www-app.uni-regensburg.de/Fakultaeten/MAT/waldorf/Stringgeometry/index.php?show=events). 
+
+> More coherent lecture notes are meanwhile at _[[schreiber:Structure Theory for Higher WZW Terms]]_
 
 #Contents#
 * table of contents
