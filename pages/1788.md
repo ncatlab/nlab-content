@@ -1,19 +1,11 @@
+
 $$
   \array{
-     X &\overset{f_1}{\longrightarrow}& Y
-     \\
-     {}^{\mathllap{ (id_X, const_0) }}\downarrow 
-       && 
-     {}^{\mathllap{ (id_Y,const_0) }}\downarrow 
-       & 
-     \searrow^{\mathrlap{ f_2 }}
-     \\
-     X \times [0,1] 
-       &\overset{f_1 \times id_{[0,1]} }{\longrightarrow}& 
+    \mathcal{G}_1 &\underoverset{\simeq}{inc_1}{\longleftarrow}& \underset{i \in \pi_0(\mathcal{G}_1)}{\sqcup} Aut_{\mathcal{G}_1}(x_i)
+    \\
+    {}^{\mathllap{F}}\downarrow && \downarrow^{\mathrlap{\tilde F \coloneqq p_2 \circ F \circ inc_1}}
+    \\
+    \mathcal{G}_2 \underoverset{p_2}{\simeq}{\longrightarrow} \underset{j \in \pi_0(\mathcal{G}_2)}{\sqcup} Aut_{\mathcal{G}_2}(x_j)
   }
   \,.
 $$
-$$
-C \longrightleftarrows D
-$$
-
