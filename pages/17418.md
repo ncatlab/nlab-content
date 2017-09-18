@@ -5,9 +5,9 @@
 
 ## Idea
 
-Combinatory logic is a rephrasing of the [[lambda calculus]] that avoids explicit mention of [[variables]] and of [[lambda abstraction]].  Instead it uses [[combinators]] traditionally known as $S$, $K$, and $I$, with the only other operation being [[application]].
+**Combinatory logic** is a rephrasing of the [[lambda calculus]] that avoids explicit mention of [[variables]] and of [[lambda abstraction]].  Instead it uses [[combinators]] -- in the most common case, they are traditionally called $S$, $K$, and $I$ -- with the only other operation being [[application]].
 
-Under the [[propositions as types]] correspondence, combinatory logic corresponds to the presentation of [[logic]] using a [[Hilbert system]] (instead of [[natural deduction]] or [[sequent calculus]]).
+Under the [[propositions as types]] correspondence, combinatory logic corresponds to the presentation of [[logic]] using a [[Hilbert system]] (instead of [[natural deduction]] or [[sequent calculus]]).  There are versions of combinatory logic corresponding to [[linear logic]] and [[affine logic]], generally called **BCI logic** and **BCK logic** (after the combinators they use).
 
 ## The combinators S, K, and I
 
@@ -31,6 +31,8 @@ When combinatory logic is presented on its own rather than in terms of $\lambda$
 * $K x y \equiv x$
 * $I x \equiv x$
 
+Sometimes the combinator $I$ is omitted, as it can be defined from $S$ and $K$ as $I=S K K$.
+
 ## Encoding abstraction
 
 The combinators $S$, $K$, and $I$ are used to encode $\lambda$-abstraction in the following way.  If $M$ is a term in combinatory logic (perhaps containing variables), we define $\lambda x.M$ by induction over the structure of the term $M$.
@@ -45,9 +47,25 @@ Using this construction of an "abstraction operator" in the combinatory logic, w
 
 The construction of an abstraction operator in combinatory logic is analogous to a [[cut admissibility]] theorem; the resulting translation of $\lambda$-calculus into combinatory logic is then analogous to the corresponding [[cut-elimination]] theorem.
 
+## Linear (BCI) and affine (BCK) combinatory logic 
+
+Versions of combinatory logic that correspond to [[linear logic]] and [[affine logic]] have been studied under the names **BCI logic** and **BCK logic**  respectively, with the letters indicating the combinators used, where
+
+* $B = \lambda x.\lambda y.\lambda z. x(yz) : (B\to C) \to (A\to B) \to (A\to C)$
+* $C = \lambda x.\lambda y.\lambda z. (xz)y : (A\to (B\to C)) \to (B \to (A\to C))$
+
+The combinator $I$ is also definable as $CKK$, so it is also available in BCK logic (which might therefore be called BCKI logic).  Similarly, traditional combinatory logic could be called "SKI logic", or just "SK logic".
+
+Note that $B$ has the same type as the "composition" operation in a [[closed category]], while $C$ has the type of a symmetry/exchange for a closed category.  Similarly, $K$ is a sort of [[weakening rule]] while $S$ combines composition, symmetry, and [[contraction rule|contraction]].
+
 ## Related pages
 
 * A [[partial combinatory algebra]] is an algebraic structure that abstracts the structure of combinatory logic
 * [[combinator]]
 * [[lambda-calculus]]
 
+[[!redirects combinatory logics]]
+[[!redirects BCI logic]]
+[[!redirects BCI-logic]]
+[[!redirects BCK logic]]
+[[!redirects BCK-logics]]
