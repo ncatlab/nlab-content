@@ -102,9 +102,7 @@ the map $g$ is closed.
 
 +-- {: .proof} 
 ###### Proof 
-Each restriction $f_i: X_i \to Y$ of $f$ is closed, using the fact that $X_i$ is compact Hausdorff. 
-
-Again by considering the epi-(regular mono) factorization of $f$ and applying Lemma \ref{poclosed}, it suffices to prove the result just for the case where $f$ (and therefore $g$) are epic. The map $g$ will be closed if each of its restrictions $g_i: Z_i \to W$ is closed. But the equivalence relation given by the kernel pair of $g_i$ is $(h_i \times h_i)(E_i) \cup \Delta_{Z_i}$ where $E_i$ is the kernel pair of $f_i$, and now the result follows easily from Proposition \ref{pushoutCH}. 
+Under construction. 
 =-- 
 
 +-- {: .num_theorem} 
