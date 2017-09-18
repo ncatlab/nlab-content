@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+... formulation of [[separation axioms]] in terms of [[lifting properties]]...
+
+## References
+
+* [[Misha Gavrilovich]], _The unreasonable power of the lifting property in
+elementary mathematics_ ([pdf](http://mishap.sdf.org/by:gavrilovich/expressive_power_of_the_lifting_property.pdf))
