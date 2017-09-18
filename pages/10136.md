@@ -9,6 +9,8 @@
 
 * [[Whitney sum]]
 
+* [[Whitney embedding theorem]]
+
 * [[Whitney extension theorem]]
 
 * [[Alexander-Whitney map]]
