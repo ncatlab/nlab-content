@@ -37,7 +37,7 @@ Precisely, $WISC$ is the statement that for any [[set]] $X$, the [[full subcateg
 
 * WISC implies that the category of [[anafunctors]] between any two [[small categories]] is [[essentially small category|essentially small]]; see [here](/nlab/show/anafunctor#SizeQuestions), or below.
 
-* WISC implies (in [[ZF]]) that there exist arbitrarily large [[regular cardinals]].  Therefore, WISC is not provable in ZF. A proof without large cardinals was given by  [Karagila](#Karagila).
+* WISC implies (in [[ZF]]) that there exist arbitrarily large [[regular cardinals]].  Therefore, WISC is not provable in ZF, as Moti Gitik constructed a model of ZF with only one regular cardinal, using large cardinal assumptions. A proof without large cardinals was given in  ([Karagila](#Karagila14)).
 
 
 ## Relation to local smallness of anafunctor categories
@@ -112,11 +112,12 @@ WISC is called the "axiom of multiple choice".
 
 The following two papers give models of set theory (without large cardinals) in which WISC fails
 
-* Asaf Karagila, *Embedding Orders Into Cardinals With $DC_\kappa$*, Fund. Math. 226 (2014), 143-156, doi:[10.4064/fm226-2-4](http://dx.doi.org/10.4064/fm226-2-4), [arXiv:1212.4396](http://arxiv.org/abs/1212.4396).
+* {#Karagila14} Asaf Karagila, *Embedding Orders Into Cardinals With $DC_\kappa$*, Fund. Math. 226 (2014), 143-156, doi:[10.4064/fm226-2-4](http://dx.doi.org/10.4064/fm226-2-4), [arXiv:1212.4396](http://arxiv.org/abs/1212.4396).
 {#Karagila}
 
 
-* [[David Roberts]], _The weak choice principle WISC may fail in the category of sets_, Studia Logica (2015) doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). 
+* {#Roberts15} [[David Roberts]], _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103 (2015) Issue 5, pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074)
+
 
 The Stacks Project shows how to construct a counterexample to WISC from any set of fpqc covers of an affine scheme.
 
