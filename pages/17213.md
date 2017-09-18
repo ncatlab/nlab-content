@@ -427,7 +427,7 @@ $$
 =--
 
 
-+-- {: .num_defn}
++-- {: .num_defn #EndAndCoendInTopcgSmash}
 ###### Definition
 
 Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)), i.e. an [[enriched category]] over $(Top_{cg}^{\ast/}, \wedge, S^0)$ from example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}. Let
@@ -461,16 +461,172 @@ be a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+h
 
    $$
      \underset{c\in \mathcal{C}}{\int} F(c,c)
-      \overset{\;\;equ\;\;}{\longrightarrow}
-     \underset{c,d \in \mathcal{C}}{\coprod} F(c,d)
+       \overset{\;\;equ\;\;}{\longrightarrow}
+     \underset{c \in \mathcal{C}}{\prod} F(c,c)
       \underoverset   
         {\underset{\underset{c,d}{\sqcup} \tilde \rho_{(c,d)}(d)  }{\longrightarrow}}
         {\overset{\underset{c,d}{\sqcup} \tilde\rho_{d,c}(c)}{\longrightarrow}}
         {\phantom{AAAAAAAA}}
-      \underset{c\in \mathcal{C}}{\coprod}
-      Maps\left( \mathcal{C}\left(c,d\right), \;  F_0\left(\left(c,d\right)\right) \right)_\ast
+      \underset{c\in \mathcal{C}}{\prod}
+      Maps\left( \mathcal{C}\left(c,d\right), \;  F\left(c,d\right) \right)_\ast
      \,.
    $$
+
+=--
+
++-- {: .num_example #NaturalTransformationsViaEnds}
+###### Example
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For 
+$
+  F,G
+  \;\colon\;
+  \mathcal{C}
+    \longrightarrow
+  Top^{\ast/}_{cg}
+$
+two pointed [[topologically enriched functors]], then the [[end]] (def. \ref{EndAndCoendInTopcgSmash}) of $Maps(F(-),G(-))_\ast$ is a topological space whose underlying [[pointed set]] is the pointed set of [[natural transformations]] $F\to G$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
+
+$$
+  U
+  \left(
+    \underset{c \in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
+  \right)
+  \;\simeq\;
+  Hom_{[\mathcal{C},Top^{\ast/}_{cg}]}(F,G)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The underlying pointed set functor $U\colon Top^{\ast/}_{cg}\to Set^{\ast/}$ [[preserved limit|preserves]] all [[limits]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). Therefore there is an [[equalizer]] diagram in $Set^{\ast/}$ of the form
+
+$$
+  U
+  \left(
+    \underset{c\in \mathcal{C}}{\int}
+    Maps(F(c),G(c))_\ast
+  \right)
+    \overset{equ}{\longrightarrow}
+  \underset{c\in \mathcal{C}}{\prod} Hom_{Top^{\ast/}_{cg}}(F(c),G(c))
+      \underoverset   
+        {\underset{\underset{c,d}{\sqcup} U(\tilde \rho_{(c,d)}(d))  }{\longrightarrow}}
+        {\overset{\underset{c,d}{\sqcup} U(\tilde\rho_{d,c}(c))}{\longrightarrow}}
+        {\phantom{AAAAAAAA}}
+   \underset{c,d\in \mathcal{C}}{\prod}
+    Hom_{Top^{\ast/}_{cg}}(
+      \mathcal{C}(c,d),
+      Maps(F(c),G(d))_\ast
+    )
+  \,.
+$$
+
+Here the object in the middle is just the set of sets of component morphisms $\left\{ F(c)\overset{\eta_c}{\to} G(c)\right\}_{c\in \mathcal{C}}$. The two parallel maps in the equalizer diagram take such a collection to the functions which send any $c \overset{f}{\to} d$ to the result of precomposing
+
+$$
+  \array{
+    F(c)
+    \\
+    {}^{\mathllap{f(f)}}\downarrow
+    \\
+    F(d) &\underset{\eta_d}{\longrightarrow}& G(d)
+  }
+$$
+
+and of postcomposing
+
+$$
+  \array{
+    F(c) &\overset{\eta_c}{\longrightarrow}& G(c)
+    \\
+    && \downarrow^{\mathrlap{G(f)}}
+    \\
+    && G(d)
+  }
+$$
+
+each component in such a collection, respectively. These two functions being equal, hence the collection $\{\eta_c\}_{c\in \mathcal{C}}$ being in the equalizer, means precisley that for all $c,d$ and all $f\colon c \to d$ the square
+
+$$
+  \array{
+    F(c) &\overset{\eta_c}{\longrightarrow}& G(c)
+    \\
+    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{G(f)}}
+    \\
+    F(d) &\underset{\eta_d}{\longrightarrow}& G(g)
+  }
+$$
+
+is a [[commuting square]]. This is precisley the condition that the collection $\{\eta_c\}_{c\in \mathcal{C}}$ be a [[natural transformation]].
+
+=--
+
+Conversely, example \ref{NaturalTransformationsViaEnds} says that [[ends]] over [[bifunctors]] of the form $Maps(F(-),G(-)))_\ast$ constitute [[hom-spaces]] between pointed [[topologically enriched functors]]:
+
++-- {: .num_defn #PointedTopologicalFunctorCategory}
+###### Definition
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). Define the structure of a pointed [[topologically enriched category]] on the category $[\mathcal{C}, Top_{cg}^{\ast/}]$ of pointed [[topologically enriched functors]] to $Top^{\ast/}_{cg}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) by taking the [[hom-spaces]] to be given by the [[ends]] (def. \ref{EndAndCoendInTopcgSmash}) of example \ref{NaturalTransformationsViaEnds}:
+
+$$
+  [\mathcal{C},Top^{\ast/}_{cg}](F,G)
+    \;\coloneqq\;
+  \int_{c\in \mathcal{C}} Maps(F(c),G(c))_\ast
+$$
+
+and by taking the composition maps to be the morphisms induced by the maps
+
+$$
+  \left(
+    \underset{c\in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
+  \right)
+  \wedge
+  \left(
+    \underset{c \in \mathcal{C}}{\int} Maps(G(c),H(c))_\ast
+  \right)
+    \overset{}{\longrightarrow}
+  \underset{c\in \mathcal{C}}{\prod}
+    Maps(F(c),G(c))_\ast \wedge Maps(G(c),H(c))_\ast
+  \overset{(\circ_{F(c),G(c),H(c)})_{c\in \mathcal{C}}}{\longrightarrow}
+  \underset{c \in \mathcal{C}}{\prod}
+    Maps(F(c),H(c))_\ast
+$$
+
+by observing that these equalize the two actions in the definition of the [[end]].
+
+The resulting pointed [[topologically enriched category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ is also called the **$Top^{\ast/}_{cg}$-[[enriched functor category]]** over $\mathcal{C}$ with coefficients in $Top^{\ast/}_{cg}$.
+
+=--
+
+First of all this yields a concise statement of the pointed topologically [[enriched Yoneda lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedYonedaLemma))
+
++-- {: .num_example #NaturalTransformationsViaEnds}
+###### Proposition
+**(topologically [[enriched Yoneda lemma]])**
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
+
+$$
+  [\mathcal{C}, Top^{\ast/}_{cg}](\mathcal{C}(c,-),\; F)
+  \;\simeq\;
+  F(c)
+$$
+
+between the [[hom-space]] of the pointed topological functor category, according to def. \ref{PointedTopologicalFunctorCategory}, from the [[representable functor|functor represented]] by $c$ to $F$, and the value of $F$ on $c$.
+
+In terms of the [[ends]] (def. \ref{EndAndCoendInTopcgSmash}) defining these [[hom-spaces]], this means that
+
+$$
+  \underset{d\in \mathcal{C}}{\int} Maps(\mathcal{C}(c,d), F(d))_\ast
+    \;\simeq\;
+  F(c)
+  \,.
+$$
+
+In this form the statement is also known as **[[Yoneda reduction]]**.
 
 =--
 
