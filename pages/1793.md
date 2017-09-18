@@ -997,7 +997,7 @@ The projective model structure is discussed after that in
 
 An explicit proof of the injective model structure with monos in positive degree is spelled out in 
 
-* Gregory Dungan, _Model categories_ ([pdf](http://www.math.fsu.edu/~gdungan/MC10.04.07.pdf))
+* Gregory Dungan, _Model categories_ ([pdf](http://www.math.fsu.edu/~gdungan/MC14.09.18.pdf))
 {#Dungan}
 
 An explicit proof of the model structure on cochain complexes of abelian group with fibrations the degreewise surjections is recorded in the appendix of
