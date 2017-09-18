@@ -19,4 +19,9 @@ Much of this is later discussed more comprehensively in the lectures
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
 
+See also
+
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986/2003
+
+
 category: reference
