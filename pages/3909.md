@@ -180,7 +180,7 @@ $$
   \end{aligned}
 $$
 
-for complex numbers $(\phi_{\alpha_1 \alpha_2})$ and $(\psi_{\beta_1 \beta_2})$. Here if $F$ itself is a real-number valued, then $\psi$ is the [[complex conjugate]] of $\phi$ and hence any real 2-form is encoded equivalently by a bispinor $\phi$ via
+for complex numbers $(\phi_{\alpha_1 \alpha_2})$ and $(\psi_{\beta_1 \beta_2})$. Here if $F$ itself is real-number valued, then $\psi$ is the [[complex conjugate]] of $\phi$ and hence any real 2-form is encoded equivalently by a bispinor $\phi$ via
 
 $$
   F_{\alpha_1 \beta_1 \alpha_2 \beta_2}
@@ -320,7 +320,7 @@ The relation to [[self-dual Yang-Mills theory]] is due to
 
 Introductions and surveys include
 
-* [[Yuri Manin]], chapter 1 of _[[Gauge Field Theory and Complex Geometry]], Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
+* [[Yuri Manin]], chapters 1 and 2 of _[[Gauge Field Theory and Complex Geometry]], Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
 
 * Fedja Hadrovich, _Twistor primer_ ([html](http://users.ox.ac.uk/~tweb/00004/), [pdf](http://henry.pha.jhu.edu/twistors.pdf))
 
