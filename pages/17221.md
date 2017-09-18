@@ -25,7 +25,7 @@ This page collects material related to the book
 
   Fields Institute Monographs
 
-  American Mathematical Society 1996
+  American Mathematical Society, 1996
 
 on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]].
 
@@ -124,6 +124,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 ### 3.2 Underlying theorems
 
+* [[Serre long exact sequence]]
+
 * [[Freudenthal suspension theorem]]
 
 * [[Blakers-Massey theorem]]
@@ -154,7 +156,7 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[Brown representability theorem]]
 
-### 3.5 Eilenberg-MacLane spectr
+### 3.5 Eilenberg-MacLane spectra
 
 * [[Eilenberg-MacLane spectrum]]
 
