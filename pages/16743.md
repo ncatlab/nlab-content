@@ -39,6 +39,8 @@ A topos $\mathcal{E}$ is called a _De Morgan topos_ if its [[subobject classifie
 
 * The topos $Sh(X)$ of sheaves on a topological space $X$ is De Morgan precisely iff $X$ is extremally disconnected, i.e. the closure of every open subset is open.
 
+* [[injective topos|Injective Grothendieck toposes]] are De Morgan (cf. [Johnstone 2002, p.739](#Johnstone)).
+
 ## Some equivalent formulations
 
 The main interest of the concept of a De Morgan topos lies in the fact that for many statements whose classical (Boolean) validity is lost in intuitionistic logic the De Morgan property delineates precisely the range of toposes where the statement is valid. An illustration of this is e.g. the implication that maximal ideals are prime in commutative rings. 
