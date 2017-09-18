@@ -46,6 +46,8 @@ The above is sometimes referred to as the unstable general linear group, whilst 
 
 * [[jet group]]
 
+* [[general linear supergroup]]
+
 ## References 
 
 * O.T. O'Meara, _Lectures on Linear Groups_, Amer. Math. Soc., Providence, RI, 1974.
