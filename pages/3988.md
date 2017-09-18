@@ -80,7 +80,7 @@ The real numbers with their K-topology (def. \ref{KTopology}) $\mathbb{R}_K$ are
 +-- {: .proof}
 ###### Proof
 
-By construction the K-topology is [[finer topology|finer]] than the usual [[Euclidean space|euclidean]] [[metric topology]]. Since the latter is Hausdorff, so is $\mathbb{R}_K$. It remains to see that $\mathbb{R}_K$ contains a point and a [[disjoint subset|disjoint]] closed subset such that do not have dijoint [[open neighbourhoods]].
+By construction the K-topology is [[finer topology|finer]] than the usual [[Euclidean space|euclidean]] [[metric topology]]. Since the latter is Hausdorff, so is $\mathbb{R}_K$. It remains to see that $\mathbb{R}_K$ contains a point and a [[disjoint subset|disjoint]] closed subset such that do not have [[disjoint subset|disjoint]] [[open neighbourhoods]].
 
 But this is the case essentially by construction: Observe that 
 
