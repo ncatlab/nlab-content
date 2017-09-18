@@ -139,9 +139,11 @@ Note that the constraints $J\diamond J\to J$ and $I\to J$ make $J$ into a $\diam
 $$(M\star N) \diamond A \to (M\star N) \diamond (A\star A) \to (M\diamond A) \star (N\diamond A) \to M\star N.$$
 If $C$ admits reflexive coequalizers preserved in each variable by $\diamond$, then the category of $(A,\diamond)$-bimodules is in fact duoidal, with $\diamond$ the usual tensor product of bimodules.  (In the absence of such coequalizers, this category is virtually duoidal.)
 
-We define a **strong $\star$-monoid** in a duoidal category to be a $\star$-monoid in the monoidal category of $J$-$\diamond$-bimodules.  In the duoidal categories of endofunctors considered above, this reproduces the usual notion of [[strong functor]].  Note that in a *normal* duoidal category, every object is uniquely a $J$-bimodule, so every $\star$-monoid is strong; and conversely, the duoidal category of $(J,\diamond)$-bimodules is (when it exists) always normal.
+We define a **bistrong $\star$-monoid** in a duoidal category to be a $\star$-monoid in the monoidal category of $J$-$\diamond$-bimodules.  In the duoidal categories of endofunctors considered above, this reproduces the usual notion of "bistrong functor" (i.e. functor with a compatible left and right [[tensorial strength]]).  Note that in a *normal* duoidal category, every object is uniquely a $J$-bimodule, so every $\star$-monoid is bistrong; and conversely, the duoidal category of $(J,\diamond)$-bimodules is (when it exists) always normal.
 
-Now let $S$ and $T$ be arbitrary objects and $M$ a strong $\star$-monoid.  We say that two morphisms $\sigma:S\to M$ and $\tau:T\to M$ be morphisms **commute** if the following diagram commutes:
+If the monoidal structure $\diamond$ is [[braided monoidal category|braided]] (compatibly with $\star$), then a one-sided module automatically acquires a module structure on the other side.  In this case, we define a **strong $\star$-monoid** to be a bistrong one whose $J$-$\diamond$-bimodule structure is obtained in this way.
+
+Now let $S$ and $T$ be arbitrary objects and $M$ a (bi)strong $\star$-monoid.  We say that two morphisms $\sigma:S\to M$ and $\tau:T\to M$ be morphisms **commute** if the following diagram commutes:
 $$\array{
   T\diamond S & \xrightarrow{\cong} &
   (T\star J) \diamond (J \star S) & \to &
