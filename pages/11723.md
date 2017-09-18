@@ -1,3 +1,4 @@
+[[!redirects anti-modal type]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,16 +19,20 @@
 
 ## Idea
 
-Given a [[modal operator|(co-)modal operator]] $\Box$, then a [[type]] $X$ may be called _$\Box$-anti-modal_ (or _co-modal_) if $\Box X \simeq \ast$.
+Given a [[modal operator]] $\bigcirc$, then a [[type]] $X$ may be called _$\bigcirc$-comodal_ or _$\bigcirc$-connected_ if $\bigcirc X \simeq \ast$ (the [[unit type]]).
 
-Since a type $Y$ is called a _$\Box$-[[modal type]]_ if $\Box Y \simeq Y$, being anti-modal is in a sense indeed the opposite extreme of being modal.
+Since a type $Y$ is called a _$\bigcirc$-[[modal type]]_ if $\bigcirc Y \simeq Y$, being comodal is in a sense the opposite extreme of being modal.
 
 
 In as far as [[modal operators]] have [[categorical semantics]] as [[idempotent monads|idempotent (co-)-monads]]/[[idempotent (∞,1)-monads|idempotent (∞,1)-(co-)monads]] anti-modal types are familiar in [[homotopy theory]] as forming [[localizing subcategories]].
 
 ## Examples
 
-* an [[anti-reduced type]] is an [[infinitesimally thickened point]]
+* for $\bigcirc = n \coloneqq \tau_n$ the [[n-truncation]] modality, then _$n$-comodal_ is indeed _[[n-connected]]_, by [this proposition](n-connected+object+of+an+%28infinity%2C1%29-topos#ConnectednessViaTruncationComodalness).
+
+* a comodal type for a [[reduction modality]] or [[infinitesimal shape modality]] is an [[anti-reduced type]], is an [[infinitesimally thickened point]].
+
+
 
 ## References 
 
