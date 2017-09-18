@@ -10,6 +10,6 @@ There are several notions of an __algebraic structure__ on an object of some cat
 
 There is also an older notion of an algebraic structure/algebra as a model for a one-sorted [[theory]] where the only relation symbols in the language involved are $\epsilon$ and equality (with standard interpretation in models). This notion includes for example fields which are not an algebraic theory in the sense of monads (because there are no free objects in the case of fields, i.e. the category of fields is not [[monadic functor|monadic]] over the category of sets). 
 
-There is a forgetful functor from the category of algebras/algebraic structures of some type (in any of the above formalisms) to the original category. This functor __forgets structure__ in the sense of [[stuff, structure, property]]. We say that a functor in the base category __preserves some algebraic structure__ if it lifts to the corresponding category of algebras. 
+There is a [[forgetful functor]] from the category of algebras/algebraic structures of some type (in any of the above formalisms) to the original category. This functor __forgets structure__ in the sense of [[stuff, structure, property]]. We say that a functor in the base category __preserves some algebraic structure__ if it lifts to the corresponding category of algebras. 
 
 [[!redirects algebraic structures]]
