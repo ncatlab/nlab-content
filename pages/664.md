@@ -25,7 +25,7 @@ for  $a \in M_{A}$ and $b \in M_{B}$ with  $A \subseteq  B$, then for  $a,
 a^\prime \in M_{A},\, b, b^\prime \in M_{B},\, c \in  M_{C}$  and  $i, j \in
 \langle n \rangle$, the following axioms hold:
 
-1. $\mu_i a = a$ if $a \notin A$
+1. $\mu_i a = a$ if $i \notin A$
 
 1. $\mu_i\mu_j a = \mu_j\mu_i a$
 
