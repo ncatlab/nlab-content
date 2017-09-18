@@ -45,11 +45,7 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 * [[Minkowski spacetime]]
 
-* [[black hole spacetime]]
-
-  * [[Schwarzschild spacetime]]
-
-  * [[Kerr spacetime]] 
+[[!include charged and rotating black holes -- table]]
 
 * [[asymptotically flat spacetime]]
 
