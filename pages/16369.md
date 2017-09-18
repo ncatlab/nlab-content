@@ -21,7 +21,7 @@ A **dense subtopos** is a generalisation to toposes of the concept of a [[dense 
 
 A **dense subtopos** is a [[subtopos]] $i:\mathcal{E}_j\hookrightarrow \mathcal{E}$ such that, equivalently
 
-* the corresponding [[Lawvere-Tierney topology]] $j$ satisfies $j(\bot) \simeq \bot$.
+* the corresponding [[Lawvere-Tierney topology]] $j$ satisfies $j(\emptyset) \simeq \emptyset$.
 
 * the corresponding [[localization]] $L$ satisfies $L(\emptyset) \simeq \emptyset$.
 
