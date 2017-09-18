@@ -25,8 +25,30 @@ A wheeled graph is a [[generalized graph]] equipped with a coloring, a direction
 
 ## Extra Structure 
 
-Wheeled graphs can have a number of attributes (one of which, confusingly, is being _wheel-free_). 
+Wheeled graphs can have a number of attributes. Most of the following are self-explanatory though stating them in the terminology of [[generalized graph]] as [HRY]{#HRY} does, can be tedious: 
 
+* One of these, confusingly, is being **wheel-free**. In other words, a wheeled graph which is wheel-free is a generalized graph with a coloring, a direction and a listing, but without any loops (either ordinary or exceptional) or directed paths with identical initial and terminal vertex. 
+
+* A wheeled graph is **connected** if it is a single exceptional edge, a single exceptional loop,  or has empty exceptional cell, is non-empty and between any two vertices there is an edge.
+
+* A wheeled graph is **simply connected** if it is connected, is not an exceptional loop, and contains no cycles. 
+
+* A wheeled graph is a **unital tree** if it is simply connected and each vertex has exactly one output flag.
+
+* A wheeled graph is a **linear graph** if it is a linear tree in which each vertex has exactly one input flag. 
+
+
+Using these definitions we can define the following sets:
+
+* Define $Gr_c^{\circlearrowleft}$ to be the set of connected wheeled graphs.
+
+* Define $Gr_c^{\uparrow}$ to be the set of connected wheel-free graphs. 
+
+* Define $Gr_{di}^{\uparrow}$ to be the set of simply connected wheel-free graphs.
+
+* Define $UTree$ and $ULin$ to be the sets of unital trees and linear graphs, respectively. 
+
+Note that $UTree$ and $ULin$ are effectively the object sets of the category of [[trees]] and the [[simplex category]] respectively. 
 
 ## Examples
 
