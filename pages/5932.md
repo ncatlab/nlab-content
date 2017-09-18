@@ -29,7 +29,7 @@ A [[homomorphism]] of [[schemes]] $f \colon Y\to X$ is
 
 ## Example
 
-A standard open $Spec(R[\{s\}^{-1}]) \longrightarrow Spec(R)$ ([[Zariski topology]]) is of finite presentation. More generallly, an [[étale morphism of schemes]] is of finite presentation (though essentially by definition so).
+A standard open $Spec(R[\{s\}^{-1}]) \longrightarrow Spec(R)$ ([[Zariski topology]]) is of finite presentation. More generally, an [[étale morphism of schemes]] is of finite presentation (though essentially by definition so).
 
 ## Related concepts
 
