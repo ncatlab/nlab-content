@@ -107,20 +107,7 @@ Discussion of how supersymmetry is universally induced in [[higher category theo
 
 For more on this see at _[[superalgebra]]_.
 
-$\,$
+Discussion related to [[G-structure]] and [[Killing spinors]] includes
 
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
+* [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
 
