@@ -1,45 +1,40 @@
-of <a href="http://ncatlab.org/nlab/show/Q-category#InfinitesimalThickening">infinitesimal thickening of rings</a> and let
-
-of [[Q-category#InfinitesimalThickening]]infinitesimal thickening of rings and let
-
-of [[Q-category#InfinitesimalThickening|infinitesimal thickening of rings]] and let
 
 
-## Heading1 {#anchorname}
 
-link to [[Sandbox#anchorname|heading1]].
+$supp(F) \geq supp(G)$
 
-link to [heading1](#anchorname).
+$$
+  prod \circ \exp( D_R + D_A + H )( F \otimes G )
+  =
+  prod \circ exp( D_R + H ) ( F \otimes G )
+  = 
+  prod \circ exp( D_R - D_A + H )( F \otimes G )
+$$
 
-link to another page [[HowTo#software|howto-software]].
-
-[[differentiable map#DerivativeOfFunctionFromRnToR]]
-
-## a proposition and theorem
-
-[[HowTo#definitionpropositiontheoremnumbering|definitionpropositiontheoremnumbering]]
-
-+-- {: .num_prop #propname}
-###### Proposition
-$A = A$
-=--
-
-+-- {: .num_theorem #theoremname}
-###### Theorem
-$A = A$
-=--
-
-[see this theorem](#theoremname)
-
-see Theorem \ref{theoremname}
-
-## equations
+$supp(G) \geq supp(F)$
 
 
-[[HowTo#equation_numbering|equation_numbering]]
+$$
+  prod \circ \exp( D_R + D_A + H )( F \otimes G )
+  =
+  prod \circ exp( D_A + H ) ( F \otimes G )
+  = 
+  prod \circ exp( D_R + H )( G \otimes F )
+  = 
+  prod \circ exp( D_R - D_A + H )( G \otimes F )
+$$
 
 
-$\[
- \label{eqx1}
- \exp(\pi i) + 1 = 0 
-\]$
+$$
+  \Delta_F = \tfrac{1}{2}(\Delta_R + \Delta_A) + H
+$$
+
+$$
+  \Delta_H = \tfrac{1}{2}(\Delta_R - \Delta_A) + H
+$$
+
+$$
+  \Delta_F = \Delta_A - \Delta_H
+$$
+
+
