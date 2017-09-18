@@ -23,7 +23,7 @@ What might be called the _FRS construction/theorem_ after [[Jürgen Fuchs|Fuchs]
 
 It is (was earlier) well known that the construction of [[2d CFTs]] may be decomposed into 
 
-1. a "local geometric" aspect which describes the behaviour of the theory on infinitesimal conformal cobordisms and is controled by [[vertex operator algebras]] and related structures, which in particular may be used to construct the spaces of [[conformal blocks]] of the theory, which are the spaces of _potential_ [[correlator]] functions with the right dependence of the [[conformal structure]];
+1. a "local geometric" aspect which describes the behaviour of the theory on infinitesimal conformal cobordism and is controled by [[vertex operator algebras]] and related structures, which in particular may be used to construct the spaces of [[conformal blocks]] of the theory, which are the spaces of _potential_ [[correlator]] functions with the right dependence of the [[conformal structure]];
 
 1. a "global topological" aspects which consists of picking in these spaces of [[conformal blocks]] over each surface one element (one correlation function depending on conformal structure) in such a way that these choices globally fit together under gluing of 2-dimensional [[cobordisms]], a condition known as the _[[sewing constraint]]_.
 
