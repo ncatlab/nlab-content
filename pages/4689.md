@@ -80,6 +80,9 @@ As a result, the field of fundamental physics today finds itself in a somewhat a
 
 * [[3d quantum gravity]]
 
+## Related concepts
+
+* [[asymptotic safety]]
 
 ## References
 
