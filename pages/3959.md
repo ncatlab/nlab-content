@@ -44,6 +44,8 @@ Basic facts about smooth functions are
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+* [[derivations of smooth functions are vector fields]]
+
 
 ## Examples
 
