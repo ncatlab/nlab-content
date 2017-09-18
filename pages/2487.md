@@ -15,7 +15,7 @@
 
 ## Definition
 
-Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the [[group]] of [[invertible morphism|invertible]] [[linear maps]] from the [[vector space]] $k^n$.  It may canonically be identified with the group of $n\times n$ [[matrix|matrices]] with entries in $k$ having nonzero [[determinant]].
+Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the [[group]] of [[invertible morphism|invertible]] [[linear maps]] from the [[vector space]] $k^n$ to itself.  It may canonically be identified with the group of $n\times n$ [[matrix|matrices]] with entries in $k$ having nonzero [[determinant]].
 
 ### As a topological group
  {#AsAtopologicalGroup}
