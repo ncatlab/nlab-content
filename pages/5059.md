@@ -882,7 +882,11 @@ and a brief paragraph in Volume II, section 10.2, page 983 of
   [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey,
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-A more recent and more comprehensive review is
+Textbook discussion of the Green-Schwarz version of the [[heterotic string]] is in 
+
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 3, section VI.9.7 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+There is also a kind of review in
 
 * [[Joan Simón]], _Brane Effective Actions, Kappa-Symmetry and Applications_, Living Reviews in Relativity ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
 
