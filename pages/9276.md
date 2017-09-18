@@ -25,7 +25,7 @@ In particular
 
 (e.g. [Arnold 78, p. 362](#Arnold78))
 
-For the case of symplectic manifolds the Darboux theorem may also be read as saying that a [[G-structure]] for $G = Sp(2n)$ the [[symplectic group]] (hence an [[almost symplectic structure]]) is an [[integrable G-structure]] already when it is first-order integrable, i.e. [[torsion of a G-structure|torsion]]-free, i.e. symplectic.
+For the case of symplectic manifolds the Darboux theorem may also be read as saying that a [[G-structure]] for $G = Sp(2n)$ the [[symplectic group]] (hence an [[almost symplectic structure]]) is an [[integrable G-structure]] already when it is first-order integrable, i.e. [[torsion of a G-structure|torsion]]-free, i.e. symplectic. See at _[integrability of G-structures -- Examples -- Symplectic structure](integrability+of+G-structures#ExampleSymplecticStructure)_.
 
 ## Related concepts
 
@@ -36,6 +36,8 @@ For the case of symplectic manifolds the Darboux theorem may also be read as say
 Lecture notes include
 
 * [[Andreas Cap]], section 1.8 of _Differential Geometry 2_, 2011/2012 ([pdf](http:///www.mat.univie.ac.at/~cap/files/Diffgeom2.pdf))
+
+* {#Pasquotto} Federica Pasquotto, _Linear $G$-structures by example_ ([pdf](http://www.few.vu.nl/~pasquott/course16.pdf))
 
 Textbook accounts include
 
