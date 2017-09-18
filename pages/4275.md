@@ -199,7 +199,7 @@ $$
   \,.
 $$
 
-Therefore given any orientation $\beta$, then its rationalization may be compared to $\alpha$. Since these rational orientations are equivalently trivializations of maps to $B GL_1(E \otimes \mathbb{R})$, their difference is a class $\beta/\alpha$ with coefficients in $GL_1(E\otimes R)$, hence over any space $X$ the difference is a class in $H^0(X, \pi_\bullet E\otimes \mathbb{Q})^\times$.
+Thus, given any orientation $\beta$, its rationalization may be compared to $\alpha$. Since these rational orientations are equivalently trivializations of maps to $B GL_1(E \otimes \mathbb{R})$, their difference is a class $\beta/\alpha$ with coefficients in $GL_1(E\otimes R)$, hence over any space $X$ the difference is a class in $H^0(X, \pi_\bullet E\otimes \mathbb{Q})^\times$.
 
 Specifically consider the [[delooping]] $X= B U(1)$ of the [[circle group]].
 For this the [[cohomology ring]] is the [[power series]] ring in a single [[variable]] (the universal [[first Chern class]] $c_1(L)$).
@@ -322,7 +322,7 @@ where $G_k$ are the [[Eisenstein series]] ([Ando-Hopkins-Strickland 01](AndoHopk
 
 On [[manifolds]] with [[spin structure]] whe Witten genus takes values in $\mathbb{Z}[ [ q ] ]$ 
 
-On manifolds with rational [[string structure]] it takes values in (the $q$-expansion of) [[modular forms]] for $SL_2(\mathbb{Z})$, meaning that setting $q = e^{2 \pi i \tau}$ then as a function $f$ of the parameter $\tau$ taking vakues in the [[upper half plane]] the Witten genus satisfies
+On manifolds with rational [[string structure]] it takes values in (the $q$-expansion of) [[modular forms]] for $SL_2(\mathbb{Z})$, meaning that setting $q = e^{2 \pi i \tau}$ then as a function $f$ of the parameter $\tau$ taking values in the [[upper half plane]] the Witten genus satisfies
 
 $$
   f(-1/\tau) = (-\tau)^n f(\tau)
