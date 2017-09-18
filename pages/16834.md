@@ -1,0 +1,4 @@
+## Idea
+ {#Idea}
+
+The idea of a meta topological space sets to make axiomatic the concept of a space as a collection of topological spaces that are diffeomorphic to each other.
