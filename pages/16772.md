@@ -19,6 +19,8 @@ For $n \in \mathbb{N}$, $n \geq$, the dihedral group $D_{2n}$ is the [[subgroup]
 
 Under the further embedding $O(2)\hookrightarrow SO(3)$ the (cyclic and) dihedral groups are precisely those [[finite groups]] in the [[ADE classification]] which are not in the exceptional series. 
 
+(see e.g. [Greenless 01, section 2](#Greenless01))
+
 ## Properties
 
 ### Group cohomology
@@ -38,5 +40,8 @@ The [[group cohomology]] of the dihedral group is discussed for instance at [Gro
 * Wikipedia, _[Dihedral group](https://en.wikipedia.org/wiki/Dihedral_group)_
 
 * {#Groupprops} Groupprops, _[Group cohomology of dihedral group:D8](http://groupprops.subwiki.org/wiki/Group_cohomology_of_dihedral_group:D8)_
+
+* {#Greenless01} [[John Greenlees]], _Rational SO(3)-Equivariant Cohomology Theories_, in _Homotopy methods in algebraic topology_ (Boulder, CO, 1999), Contemp. Math. 271, Amer. Math. Soc. (2001) 99 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444))
+
 
 [[!redirects dihedral groups]]
