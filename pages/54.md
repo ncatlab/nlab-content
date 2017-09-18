@@ -28,18 +28,25 @@ Concretely the questions that I am thinking about myself are laid out a bit in m
 
 * _[Research Statement (pdf)](https://dl.dropboxusercontent.com/u/12630719/SchreiberStatement.pdf)_
 
-I have written a technical book about this question:
+I am writing a technical book about this question:
 
 * _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive topos]]_.
 
-See maybe the exposition at 
-
-* _[[schreiber:Synthetic Quantum Field Theory|Synthetic quantum field theory]]_.
 
 This is the kind of stuff that I am working on.
 
+## teaching 
 
-## publications, talks, teaching and students
+This spring I am teaching a seminar on 
+
+* _[[schreiber:Higher Cartan Geometry]]_
+
+A list of notes prepared with seminars that I taught in the past is at this link:
+
+* _[teaching lecture notes](http://ncatlab.org/schreiber/show/HomePage#Teaching)_;
+
+
+## publications, talks, and students
 
 A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, talks, students, teaching and other activity is here:
 
@@ -55,7 +62,6 @@ See specifically:
 
   _[[differential cohesion and idelic structure|Fractures, Ideles and the Differential Hexagon]]_, talk at [ CUNY workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html), New York, August  2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1806/))
 
-* [teaching lecture notes](http://ncatlab.org/schreiber/show/HomePage#Teaching);
 
 * [students](http://ncatlab.org/schreiber/show/HomePage#students).
 
