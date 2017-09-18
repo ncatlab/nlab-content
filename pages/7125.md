@@ -226,9 +226,11 @@ $$
   }
 $$
 
-This correspondence between $Y_1\to j^\ast(X,Y,u)$ and $j_!(Y_1)\to (X,Y,u)$ is natural since $\eta$ is.
+This establishes a bijective correspondence between $Y_1\to j^\ast(X,Y,u)$ and $j_!(Y_1)\to (X,Y,u)$ which is natural since $\eta$ is.
 
 =--
+
+In particular, the left adjoint $j_!$ exists if the fringe functor $f$ is the direct image of a geometric morphism, or the inverse image of an essential geometric morphism.
 
 ### Examples 
 
