@@ -2408,7 +2408,7 @@ The following remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} unravels 
 ###### Remark
 
 Given a [[filtered spectrum]] as in def. \ref{FilteredSpectrum},
-write $A_k$ for the [[homotopy cofiber]] of its $k$th stage, such that to obtain the diagram
+write $A_k$ for the [[homotopy cofiber]] of its $k$th stage, such as to obtain the diagram
 
 $$
   \array{
@@ -2440,9 +2440,9 @@ $$
  }
 $$
 
-is a [[homotopy fiber sequence]]. (A [[tower of homotopy fibers]].)
+is a [[homotopy fiber sequence]]. 
 
-To break this down into something more tangible, apply the [[stable homotopy groups]]-[[functor]]. This yields a diagram of $\mathbb{Z}$-[[graded abelian groups]] of the form
+To break this down into invariants, apply the [[stable homotopy groups]]-[[functor]]. This yields a diagram of $\mathbb{Z}$-[[graded abelian groups]] of the form
 
 $$
   \array{
@@ -2716,6 +2716,8 @@ $$
 
 =--
 
+Some terminology:
+
 +-- {: .num_defn #PageOfAnExactCouple}
 ###### Definition
 
@@ -2745,22 +2747,7 @@ $$
 +-- {: .num_defn #DerivedExactCouple}
 ###### Definition
 
-Given an exact couple, def. \ref{ExactCouple},
-
-$$
-  \array{
-    \mathcal{D}
-    &\stackrel{i}{\longrightarrow}&
-    \mathcal{D}
-    \\
-    & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
-    \\
-    && \mathcal{E}
-  }
-  \,,
-$$
-
-then induced _derived exact couple_ is the diagram
+Given an exact couple, def. \ref{ExactCouple}, then the induced _derived exact couple_ is the diagram
 
 $$
   \array{
@@ -2782,9 +2769,10 @@ with
 
 1. $\tilde i \coloneqq i|_{im(i)}$;
 
-1. $\tilde j \coloneqq j \circ i^{-1}$;
+1. $\tilde j \coloneqq j \circ (im(i))^{-1}$;
 
 1. $\tilde k \coloneqq k|_{ker(d)}$.
+
 
 =--
 
@@ -2796,7 +2784,83 @@ is again an exact couple, def. \ref{ExactCouple}.
 
 =--
 
-Given an exact couple, the induced spectral sequence is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
++-- {: .num_defn}
+###### Definition
+
+Given an exact couple, def. \ref{ExactCouple},
+then the induced [[spectral sequence]] is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
+
+=--
+
+
++-- {: .num_example #AdamsTypeSpectralSequenceOfATower}
+###### Example
+
+Consider a [[filtered spectrum]], def. \ref{FilteredSpectrum},
+
+$$
+  \array{
+   \cdots 
+     &\stackrel{}{\longrightarrow}& 
+   X_3 
+     &\stackrel{f_2}{\longrightarrow}& 
+   X_2 
+     &\stackrel{f_2}{\longrightarrow} & 
+   X_1 
+     &\stackrel{f_1}{\longrightarrow}& 
+   X
+   \\
+   && \downarrow && \downarrow && \downarrow && \downarrow
+   \\
+   && A_3 && A_2 && A_1 && A_0
+  }
+$$
+
+and its induced [[exact couple]] of [[stable homotopy groups]], from remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}
+
+$$
+  \array{
+    \mathcal{D} &\stackrel{i}{\longrightarrow}& \mathcal{D}
+    \\
+    &{}_{\mathllap{k}}\nwarrow& \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}
+  }
+  \;\;\;\;\;\,\;\;\;\;\;\;
+  \array{
+    \mathcal{D} &\stackrel{(-1,-1)}{\longrightarrow}& \mathcal{D}
+    \\
+    &{}_{\mathllap{(1,0)}}\nwarrow& \downarrow^{\mathrlap{(0,0)}}
+    \\
+    && \mathcal{E}
+  }
+$$
+
+with bigrading as shown on the right.
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
+</div>
+
+As we pass to derived exact couples, by def. \ref{DerivedExactCouple}, 
+the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by $(1,1)$ in each step, since
+
+$$
+  deg(\tilde j) = deg( j \circ im(i)^{-1}) = deg(j) + (1,1)
+  \,.
+$$
+
+
+Therefore the induced [[spectral sequence]] has differentials of the form
+
+$$
+  d_r \;\colon\; \mathcal{E}_r^{s,t} \longrightarrow \mathcal{E}_r^{s+r, t+r-1}
+  \,.
+$$
+
+=--
+
+
 
 
 
@@ -2991,7 +3055,7 @@ such that
 
 1. each hook is a [[homotopy fiber sequence]];
 
-1. the [[composition]] of the $(\Sigma \dashv \Omega)$-[[adjuncts]] of $\Sigma_{p_{n-1}}$ with $\Sigma^n \kappa_n$
+1. the [[composition]] of the $(\Sigma \dashv \Omega)$-[[adjuncts]] of $\Sigma {p_{n-1}}$ with $\Sigma^n \kappa_n$
 
    $$
      i_{n+1} \;\colon\; I_n \stackrel{\widetilde {\Sigma p_{n-1}}}{\longrightarrow}
@@ -3014,7 +3078,7 @@ The _associated inverse sequence_ is ...
 +-- {: .num_remark}
 ###### Remark
 
-In ([Ravenel 86](#Ravenel86)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
+In ([Ravenel 86](#Ravenel86)) it is the associated inverse sequence that is called an $E$-Adams resolution.
 
 =--
 +-- {: .num_example}
@@ -3029,54 +3093,7 @@ Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-A
 +-- {: .num_defn #EAdamsSpectralSequence}
 ###### Definition
 
-Given an $E$-Adams tower as in  def. \ref{EAdamsTower}, the associated [[exact couple]] is
-
-$$
-  \array{
-    \mathcal{D} && \stackrel{p}{\longrightarrow} &&  \mathcal{D}
-    \\
-    & {}_{\mathllap{\partial}}\nwarrow && \swarrow_{\mathrlap{\kappa}} 
-    \\
-    && \mathcal{E}    
-  }
-$$
-
-with 
-
-$$
-  \mathcal{D} \coloneqq
-  \oplus_{s,t} \mathcal{D}^{s,t}
-  \coloneqq
-  \oplus_{s,t} \pi_{t-s}(X_s)
-$$
-
-$$
-  \mathcal{E} \coloneqq 
-  \oplus_{s,t} \mathcal{E}^{s+1,t}
-  \coloneqq
-  \oplus_{s,t} \pi_{t-s}(\Omega^s I_{s+1})
-$$
-
-and
-
-$$
-  p \colon \pi_{t-s}(X_{s+1})\stackrel{\pi_{t-s}(p_s)}{\longrightarrow}
-   X_{t-s}(X_s)
-$$
-
-$$
-  \kappa \colon \pi_{t-s}(X_s)
-  \stackrel{\pi_{t-s}(\kappa_s)}{\longrightarrow} \pi_{t-s}(\Omega^s I_{s+1})
-$$
-
-$$
-  \partial \colon \pi_{t-s}(\Omega^s I_{s+1})
-  \stackrel{\pi_{t-s}(\partial_s)}{\longrightarrow}
-  \pi_{t-s}(\Sigma X_{s+1})
-  \,.
-$$
-
-The $E$-Adams spectral sequence of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this exact couple.
+Given an $E$-Adams tower as in  def. \ref{EAdamsTower}, the $E$-_[[Adams spectral sequence]]_ is the spectral sequence of the tower, according to example \ref{AdamsTypeSpectralSequenceOfATower}.
 
 =--
 
@@ -3184,7 +3201,7 @@ $$
   \,,
 $$
 
-where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[Ext]]-functor in the category of $\Gamma$-[[comodules]].
+where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$-th graded piece of the $s$-th [[Ext]]-functor in the category of $\Gamma$-[[comodules]].
 
 =--
 
