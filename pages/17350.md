@@ -17,6 +17,8 @@ A functor $F:C\to D$ is **smothering** if it is
 1. [[full functor|full]], and
 1. [[conservative functor|conservative]].
 
+If instead of being surjective on objects $F$ is [[essentially surjective]] on objects, we may say that $F$ is **weakly smothering**.
+
 ## Properties
 
 * Each (strict) [[fiber]] of a smothering functor is an [[inhabited]] [[connected]] [[groupoid]]. ([RV, 3.3.2](#RV))
@@ -25,7 +27,7 @@ A functor $F:C\to D$ is **smothering** if it is
 
 ## Examples
 
-* For any [[model category]] $C$, the functor $Ho(C^{\mathbf{2}}) \to Ho(C)^{\mathbf{2}}$ is smothering, where $\mathbf{2}$ denotes the [[interval category]].  Roughly this property appears in the axiom (Der5) for [[derivators]].
+* For any [[model category]] $C$, the functor $Ho(C^{\mathbf{2}}) \to Ho(C)^{\mathbf{2}}$ is weakly smothering, where $\mathbf{2}$ denotes the [[interval category]].  This property appears in the axiom (Der5) for [[derivators]].
 
 ## Related pages
 
@@ -36,3 +38,7 @@ A functor $F:C\to D$ is **smothering** if it is
 
 * [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, [arXiv](http://arxiv.org/abs/1306.5144)
  {#RV}
+
+[[!redirects smothering functors]]
+[[!redirects weakly smothering functor]]
+[[!redirects weakly smothering functors]]
