@@ -179,7 +179,7 @@ $$
 $$
 $a$ and $a^*$ are the annihilation and creation operators on $F_s(H)$, that is $a(v)$ anihilates a single particle state $v$ and $a^*(v)$ creates a single particle state $v$.
 
-$\Psi$ is a distribution solution of the Klein-Gordon equation by construction, that is for every test function $f$ we get
+$\Psi$ is a distribution solution of the [[Klein-Gordon equation]] by construction, that is for every test function $f$ we get
 
 $$
 \Psi((\Box + m) f) = 0
