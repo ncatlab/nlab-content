@@ -33,6 +33,13 @@ To begin with, let $C$ and $D$ be [[groupoids]], and let $F: C \to D$ be a [[fun
 * $F$ **forgets at most structure** if $F$ is [[faithful functor|faithful]];
 * $F$ **forgets at most stuff** regardless.
 
+{#Strengthening} These are minimal conditions. Usually for a [[faithful functor]] $p$ to be a structure-forgetting functor, one demands in addition that ([Adamek-Rosicky-Vitale, remark 13.18](#AdamekRosickyVitale))
+
+1. $p$ is an [[amnestic functor]] ($p$-vertical [[isomorphisms]] are [[identities]]),
+
+1. $p$ is an [[isofibration]].
+
+
 Another way to break down the possibilities (used in a $3$-way [[factorization system|factorisation system]]) is as follows:
 
 * $F$ **forgets only properties** if $F$ is [[full functor|full]] and faithful;
@@ -234,6 +241,8 @@ For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the su
 * [original UseNet discussion](http://math.ucr.edu/home/baez/qg-spring2004/discussion.html) on `sci.physics.research` in 1998;
 * a pedagogical comparison to quadratic, linear, and constant polynomials ([PDF](http://math.ucr.edu/home/baez/qg-spring2004/polynomials.pdf)) by Toby Bartels in 2004;
 * [section 2.4, p. 15](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=15) and [section 3.1, p. 17](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of J. Baez and M. Shulman, _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420)).
+
+* {#AdamekRosickyVitale} Adamek, Rosicky, Vitale, _Algebraic theories_
 
 
 [[!redirects stuff, structure, property]]
