@@ -257,6 +257,7 @@ $$
 
 For a proof see [Kashiwara-Schapira (2006, p.26)](#KS06). For a more general statement involving slices of Grothendieck toposes see [Mac Lane-Moerdijk (1994, p.157)](#MacLaneMoerdijk).
 
+In particular, this equivalence shows that _slices of presheaf toposes are presheaf toposes_.
 
 ### Geometric morphisms by slicing {#GeometricMorphismBySlicing}
 
