@@ -40,4 +40,6 @@ Surveys include
 * Yamashita, _FAQ on 'Inter-Universality'_ ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/FAQ%20on%20Inter-Universality.pdf))
  {#Yamashita13}
 
+* [[Ivan Fesenko]], _Arithmetic deformation theory via arithmetic fundamental groups and nonarchimedean theta functions_ ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/notesoniut.pdf))
+
 [[!redirects IUTT]]
