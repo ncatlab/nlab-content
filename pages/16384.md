@@ -1,4 +1,8 @@
 
+> not to be confused with the [[Hurewicz theorem]].
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
