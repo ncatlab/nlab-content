@@ -1,4 +1,25 @@
 
+$$
+  \array{
+     \Sigma^\infty S^2 \wedge \Sigma^n \Sigma^\infty X
+     \\
+     {}^{\mathllap{ (h \oplus 0) \wedge id }}\downarrow
+     \\
+     \left(\Sigma^\infty( B U(1) ) \oplus \mathbb{S}\right) \wedge \Sigma^n \Sigma^\infty X
+     \\
+     {}^{\mathllap{id \wedge \alpha}}\downarrow 
+     \\
+     \Sigma^\infty(B U(1)_+) \wedge \Sigma^n \Sigma^\infty( B U(1)_+ )
+       &\overset{\Sigma^n\Sigma^\infty (\mu_+)}{\longrightarrow}&
+     \Sigma^n \Sigma^\infty (B U(1)_+)
+     \\
+     \downarrow && \downarrow
+     \\  
+     K U \wedge \Sigma^n K U &\longrightarrow & \Sigma^n K U
+  }
+$$
+
+
 
 
 +-- {: .num_prop }
