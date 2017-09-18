@@ -234,6 +234,7 @@ $$
   \,.
 $$
 
+
 (We are indicating only the face maps, not the degeneracy maps, just for notational simplicity).
 
 If here instead of smooth differential forms one uses [[polynomial differential forms]] then this is precisely the [[Sullivan construction]] of [[rational homotopy theory]] applied to $CE(\mathfrak{a})$. We next realize [[smooth structure]]  on this and hence realize this as an object in [[higher Lie theory]].
@@ -370,7 +371,6 @@ $$
   \mathbf{B}G_c 
   \colon 
   U \mapsto N(C^\infty(U,G) \stackrel{\longrightarrow}{\longrightarrow} *)
-  *
   \,.
 $$
 
@@ -383,7 +383,7 @@ See at _[smooth infinity-groupoid -- structures -- Lie groups](smooth+infinity-g
 The operation of [[parallel transport]] $P \exp(\int -) : \Omega^1([0,1], \mathfrak{g}) \to G$ yields a weak equivalence (in $[CartSp^{op}, sSet]_{proj}$)
 
 $$
-  P \exp(\int - )
+  P \exp(\int (-) )
   \;\colon\;
   \mathbf{cosk}_3 \exp(\mathfrak{g}) 
   \;\simeq\; 
@@ -478,7 +478,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #LieIntegrationOfLinenLieAlgebra}
 ###### Proposition
 
 The $\infty$-Lie integration of $b^{n-1} \mathbb{R}$ is the [[circle n-group]] $\mathbf{B}^{n} \mathbb{R}$. 
