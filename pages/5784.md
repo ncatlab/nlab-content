@@ -38,7 +38,7 @@ is the [[full subcategory]] of the category of [[supermanifold]]s on the superpo
 
 ### Formal duals
 
-The algebra of functions on superpoints are precisely the [[Grassmann algebras]] (regarded as $\mathbb{Z}-2$ [[graded algebra]]s).
+The algebra of functions on superpoints are precisely the [[Grassmann algebras]] (regarded as $\mathbb{Z}/2$ [[graded algebra]]s).
 
 We have an [[equivalence of categories]]
 
