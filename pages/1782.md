@@ -144,6 +144,14 @@ It may also be defined as the [[K-theory of a stable (infinity,1)-category]] of 
 
 Thomason-Trobaugh K-theory coincides with Quillen K-theory for schemes that admit an ample family of [[line bundles]], but has the advantage of better global descent properties.
 
+### For smooth manifolds
+
+Discussion of algebraic K-theory as a [[smooth spectrum]] $SmoothMfd^{op} \longrightarrow Spectra$ via $X \mapsto K(C^\infty(X))$ is in ([Bunke 14](#Bunke14)).
+
+For more on this see at 
+
+* [[algebraic K-theory of smooth manifolds]]
+
 ## Properties
 
 ### Chern characters
@@ -345,6 +353,10 @@ For discussion of stable phenomena in algebraic K-theory, see section 4 of
 Discussion of the [[comparison map between algebraic and topological K-theory]] includes
 
 * [[Jonathan Rosenberg]], _Comparison between algebraic and topological K-theory for Banach algebras and $C^\ast$-algebras_   ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
+
+For [[smooth manifolds]]:
+
+* {#Bunke14} [[Ulrich Bunke]], _A regulator for smooth manifolds and an index theorem_ ([arXiv:1407.1379](http://arxiv.org/abs/1407.1379))
 
 ### Algebraic K-theory of quotient stacks
  {#ReferencesAlgebraicKTheoryForQuotientStacks}
