@@ -59,6 +59,8 @@ If one drops condition (3) in the definition of combinatorial map (i.e., the req
 
 * Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
+* Alexander K. Zvonkin, Functional Composition is a Generalized Symmetry, _Symmetry: Culture and Science_ Vol. 21, Nos.1-4, 333-368, 2010. ([pdf](https://www.labri.fr/perso/zvonkin/Research/tesselations.pdf))
+
 * [Wikipedia page](https://en.wikipedia.org/wiki/Combinatorial_map)
 
 [[!redirects combinatorial maps]]
