@@ -1989,7 +1989,9 @@ See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0
 
 
 
+## Related entries
 
+* [[Sullivan model of free loop space]]
 
 
  
