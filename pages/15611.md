@@ -12,6 +12,8 @@
 | [[hyperbolic geometry]] |
 | [[elliptic geometry]]   |
 
+* [[trigonometry]]
+
 ## References
 
 * Wikipedia, _[Elliptic geometry](http://en.wikipedia.org/wiki/Elliptic_geometry)_
