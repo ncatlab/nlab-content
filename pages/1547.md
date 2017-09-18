@@ -24,6 +24,14 @@
 A **vector bundle** is a [[vector space]] which "continuously varies" over a [[topological space]] $X$.
 
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/TangentSpaceToSphere.png" width="250"> 
+</div>
+
+A basic example of vector bundles are [[tangent bundles]] of [[nLab:smooth manifolds]] $X$. Here the [[vector space]] at each point of $X$ is the [[tangent space]] of that point, the space of all [[tangent vectors]] based at that point.
+
+> graphics grabbed from [Hatcher](#Hatcher)
+
 ## Definition
 
 ### General
@@ -155,7 +163,7 @@ Discussion with an eye towards [[K-theory]] is in
 * [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
 
 
-* [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 
 [[!redirects vector bundle]]
