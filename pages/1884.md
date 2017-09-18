@@ -773,6 +773,29 @@ $$
 
 =--
 
++-- {: .num_example #BottElement} 
+###### Example
+**([[Bott element]])**
+
+For $S^2$ the [[Euclidean space|Euclidean]] [[2-sphere]], write 
+
+$$
+  h \in Vect_{\\mathbb{C}}(S^2) \ongrightarrow K_{\mathbb{C}}(S^2)
+$$
+
+for the complex topological K-theory class of the [[basic complex line bundle on the 2-sphere]].
+By prop. \ref{KGrupDirectSummandReducedKGroup} its image in [[reduced K-theory]]
+is the [[virtual vector bundle]] 
+
+$$
+  \beta \;\coloneqq \; h-1 \in \tilde K_{\mathbb{C}}(S^2)
+  \,.
+$$
+
+This is known as the _[[Bott element]]_, due to its key role in the [[Bott periodicity]]
+of complex topological K-theory, discussed [below](#BottPeriodicities).
+
+=--
 
 In order to describe $\tilde K(X)$ itself as an equivalence class, we consider the followign refinement
 of [[stable equivalence of vector bundles]] (def. \ref{StableEquivalenceOfVectorBundles}):
@@ -1773,8 +1796,41 @@ and hence on these element this component vanishes.
 
 ### Fundamental product theorem
 
+In order to compute K-classes, one needs the computation of some basic cases, such as that of the K-theory groups 
+of [[n-spheres]] and of [[product spaces]] with $n$-spheres. The _[[fundamental product theorem in K-theory]]_
+determines these K-theory grous. Its result is most succinctly summarized by the statement of _[[Bott periodicity]]_,
+to which we turn [below](#BottPeriodicities).
+
+Before discussing the product theorem, it is useful to recall the analogous 
+situation in [[ordinary cohomology]] $H^\bullet(-) \coloneqq H^\bullet(\mathbb{Z})$.
+Here it is immediate to determine the cohomology groups of the [[n-spheres]], in particular one finds that
+for the [[2-sphere]] is $H^\bullet(S^2) = \mathbb{Z}\langle e\rangle \oplus \mathbb{Z}\langle h\rangle $,
+for $h \in \tilde H^2(S^2)$ the [[first Chern class]] of the
+[[basic complex line bundle on the 2-sphere]]. As  a ring this has the trivial product $h^2 = 0$,
+since by degree-reasons the [[cup product]] goes $H^2(S^2) \otimes H^2(S^2) \to H^4(S^2) = 0$.
+
+Therefore me may write the ordinary [[cohomology ring]] of the 2-sphere as the following [[quotient ring]] of the [[polynomial ring]]
+in the generator $h$:
+
+$$
+  H^\bullet(S^2) \simeq \mathbb{Z}[h]/\left( (h)^2 \right)
+  \,.
+$$
+
+Notice that in ordinary cohomology $h$ is also the generator of the [[reduced cohomology]] group $\tilde H^\bullet(S^2) \simeq \mathbb{Z}\langle h\rangle$.
+Now as an element of $K_{\athbb{C}}(S^2)$ the [[basic complex line bundle on the 2-sphere]] is not reduced, but its image in 
+[[reduced K-theory]] is the [[Bott element]] [[virtual vector bundle]] $\beta = h-1$ (def. \ref{BottElement}).
+The [[fundamental product theorem in topological K-theory]] says, in particular, that the complex topological K-theory
+of the 2-sphere behaves in just the same way as the ordinary cohomology, if only one replaces the generator $h$ by $\beta = h-1$.
+
+First of all, the Bott element also squares to zero:
+
++-- {: .num_prop #BottElementNilotentcy}
+###### Proposition
+**(nilpotency of the [[Bott element]])**
+
 For $S^2 \subset \mathbb{R}^3$ the [[2-sphere]] with its [[Euclidean space|Euclidean]] [[subspace topology]],
-write $h$ for the [[basic complex line bundle on the 2-sphere]]. Its image in the [[topological K-theory]] ring $K(S^2)$ satisfies the relation
+write $h \in Vect_{\mathbb{C}}(S^2)_{/\sim}$ for the [[basic complex line bundle on the 2-sphere]]. Its image in the [[topological K-theory]] ring $K(S^2)$ satisfies the relation
 
 $$
   2 h = h^2 + 1
@@ -1782,7 +1838,10 @@ $$
   (h-1)^2 = 0
 $$
 
-(by [this prop.](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)).
+=--
+
+A **proof** of this may be obtained by analysis of the 
+relevant [[clutching function]], see _[here](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)_.
 
 Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)). This element
 
@@ -1790,9 +1849,9 @@ $$
   h - 1 \in \tilde K_{\mathbb{C}}(S^2)
 $$
 
-is called the _[[Bott element]]_ of complex [[topological K-theory]].
+is the _[[Bott element]]_ of complex [[topological K-theory]] (def. \ref{BottElement}).
 
-It follows that there is a [[ring homomorphism]] of the form
+It follows from prop. \ref{BottElementNilotentcy} that there is a [[ring homomorphism]] of the form
 
 $$
   \array{
@@ -1810,9 +1869,9 @@ More generally, for $X$ a [[topological space]], then this induces the composite
 
 $$
   \array{
-    K(X) \otimes \mathbb{Z}[h]/((h-1)^2)
+    K(X) \otimes \mathbb{Z}[h]/\left((h-1)^2 \right)
       & \longrightarrow &
-    K(X) \times K(S^2)
+    K(X) \otimes K(S^2)
       & \overset{\boxtimes}{\longrightarrow} &
     K(X \times S^2)
     \\
