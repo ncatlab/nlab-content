@@ -1,6 +1,7 @@
-#Contents#
+
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -16,6 +17,7 @@ While this method of proof is classical, it has some peculiar consequences. Nota
 
 Therefore one also says that proof by contradiction is "non-constructive" and that an alternative proof not invoking the [[principle of excluded middle]] (if it exists) is a "constructive" proof, see at _[[constructive logic]]_ and _[[constructive mathematics]]_. 
 
+
 ## Relation to refutation by contradiction
 
 One should take care to distinguish proof by contradiction from _[[refutation by contradiction]]_ (also called _proof of negation_), which nevertheless involves the derivation of a contradiction: assuming the truth of $P$, a contradiction is found, and one concludes that $\neg P$. This remains [[constructive mathematics|constructively]] valid, since it simply uses the constructive _meaning_ of [[negation]], i.e. the [[introduction rule]] for the connective of [[negation]] (see [Bauer 2010](#bauer)).
@@ -26,7 +28,7 @@ Since this distinction is sometimes hard for those who have learned classical lo
 
 * A refutation by contradiction is where you argue "suppose $P$ is true; then [blah blah blah]..., contradiction. Therefore $P$ is false. 
 
-For example, the standard proofs of the [[irrational number|irrationality]] of $\sqrt{2}$ are sometimes called proofs by contradiction, but they are actually refutations by contradiction (showing that "$\sqrt{2}$ is rational" is false).
+For example, the standard proofs of the [[irrational number|irrationality]] of $\sqrt{2}$ are sometimes called proofs by contradiction, but they are actually refutations by contradiction (showing that "$\sqrt{2}$ is rational" is false).  (The usual meaning of 'irrational' in [[constructive analysis]] is actually something stronger than 'not rational', so such refutations by contradiction are not enough as they stand to prove irrationality; however, they usually can be easily strengthened to prove irrationality in the strong sense.)
 
  
 ## Related concepts
