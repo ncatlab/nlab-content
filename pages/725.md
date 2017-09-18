@@ -20,9 +20,9 @@
 
 ## Idea
 
-In a [[preordered set]] or [[partially ordered set]] then the _meet_ or _infimum_ of a [[subset]] of elements is, if it exists, the largest element which is smaller than all the elements in the set. If this element is member of the original subset, the it is also called the _minimum_ of that subset.
+In a [[preordered set]] or [[partially ordered set]] then the _meet_ or _infimum_ of a [[subset]] of elements is, if it exists, the largest element which is smaller or equal to all the elements in the set. If this element is member of the original subset, then it is also called the _[[minimum]]_ of that subset.
 
-If we think of the pre-ordered  ste as a [[category]], a [[(0,1)-category]], then the meet is the [[limit]] over the given subset, if it exists, regarded as a [[diagram]]. Thus in a  [[partially ordered set]] this is unique if it exists, otherwise it is unique up to [[isomorphism]].
+If we think of the pre-ordered  ste as a [[category]] (a [[(0,1)-category]]) then the meet is the [[limit]] over the given subset, if it exists, regarded as a [[diagram]]. Thus in a  [[partially ordered set]] this is unique if it exists, otherwise it is unique up to [[isomorphism]].
 
 
 ## Definition
