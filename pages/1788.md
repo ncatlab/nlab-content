@@ -1,4 +1,17 @@
 
+$$
+  \array{
+     && \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     & {}^{\mathllap{(F_{(-)})_\bullet }}\nearrow && \searrow^{\mathrlap{\iota_\bullet}}
+     \\
+     (\mathbf{B}^n U(1)_{conn})_\bullet
+     && && \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+     \\
+     & {}_{\mathllap{DD_\bullet}}\searrow && 
+     \nearrow_{\mathrlap{\widehat{ch}_\bullet}}
+     \\
+     && \widehat{(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+  }
+$$
 
-
-hey
