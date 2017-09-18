@@ -1,0 +1,7 @@
+* [webpage](https://math.berkeley.edu/people/faculty/mina-aganagic)
+
+##Papers
+
+* _String Theory and Math: Why This Marriage May Last_, [arxiv:1508.06642](http://arxiv.org/abs/1508.06642)
+
+category: people
