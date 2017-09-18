@@ -17,6 +17,50 @@
 
 What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mechanism]] in the presence of [[branes]]: a KK-reduction of a [[spacetime]] of [[dimension]] $d+1$ in which a $p+1$-[[brane]] propagates results in a $d$-dimensional effective spacetime with a $p+1$-brane and with a "doubly reduced" $p$-brane, which is the reduction of those original $(p+1)$-brane configurations that wrapped the compactify cycle.
 
+## Definition
+ {#Definition}
+
+Let $\mathbf{H}$ be the [[smooth infinity-groupoid|smooth topos]]. For $p+1 \in \mathbb{N}$ write $\mathbf{B}^{p+1}U(1)_{conn} \in \mathbf{H}$ for the universal [[moduli stack]] of [[circle n-bundles with connection]] (given by the [[Deligne complex]]). Notice that for $\Sigma$ an [[orientation|oriented]] [[closed manifold]] of [[dimension]] $k \leq p+1$, then [[fiber integration]] in [[ordinary differential cohomology]] is reflected by a morphism of the form
+
+$$
+  \array{
+    [\Sigma, \mathbf{B}^{p+1}U(1)_{conn}]
+    &\stackrel{\int_\Sigma}{\longrightarrow}&
+    \mathbf{B}^{p+1-k}U(1)_{conn}
+    \\
+    \downarrow^{[\Sigma,curv]} && \downarrow^{curv}
+    \\
+    [\Sigma,\mathbf{\Omega}^{p+2}]
+    &\stackrel{\int_\Sigma}{\longrightarrow}&
+    \mathbf{\Omega}^{p+2-k}
+  }
+  \,,
+$$
+
+where the vertical morphisms are the [[curvature]] maps and the bottom morphims reflects ordinary [[fiber integration]] of [[differential forms]].
+
+Given a [[cocycle]] 
+
+$$
+  \nabla \;\colon\; X \times \Sigma \longrightarrow \mathbf{B}^{p+1}U(1)_{conn}
+  \,,
+$$
+
+on the [[Cartesian product]] of some [[smooth space]] $X$ with $\Sigma$, then its _double dimensional reduction_ is the cocycle on $X$ which is given by the composite
+
+$$
+  X \longrightarrow [\Sigma, X \times \Sigma]
+  \stackrel{[\Sigma,\nabla]}{\longrightarrow}
+  [\Sigma,\mathbf{B}^{p+1}U(1)_{conn}]
+  \stackrel{\int_\Sigma}{\longrightarrow}
+  \mathbf{B}^{p+1-k}U(1)_{conn}
+  \,,
+$$
+
+where the first morphism is the [[unit of an adjunction|unit]] of the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]].
+
+If here for instance $\Sigma = S^1$ is the [[circle]], $X \times S^1$ is a [[spacetime]] of [[11-dimensional supergravity]], $\nabla \colon X \times S^1 \to \mathbf{B}^3 U(1)_{conn}$ represents the [[supergravity C-field]] as a cocycle in ordinary differential cohomology, then its double dimensional reduction in the above sense is the differential cocycle representing the [[B-field]] on $X$, in accord with usgae of the terminology in [[string theory]].
+
 ## Examples
 
 ### For general super $p$-branes
