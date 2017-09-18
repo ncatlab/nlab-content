@@ -31,7 +31,7 @@ A formalization of this in [[cohesive (infinity,1)-topos|cohesive geometry]] is 
 
 * Critical loci are used to study [[topology]] in terms of [[Morse theory]].
 
-* Critical loci of [[functionals]] on [[jet bundles]] are studied in [[variational calculus]].
+* Critical loci of [[functionals]] on [[jet bundles]] are studied in [[variational calculus]]. See also at _[[shell]]_.
 
 ## Related concepts
 
