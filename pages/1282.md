@@ -413,4 +413,14 @@ morphism $d' \rightarrow d$ in $D$. Hence symmetry fails and this is not
 an equivalence relation.  
 
 Am I missing something?
+
+EDIT: I think the definition should say:
+
+The equivalence relation $\sim$ is that which is _generated_ by 
+  $$
+    ((x \in F(d)) \sim (x' \in F(d')))\quad if \quad (\exists d'', (f : d \to d''), (g: d' \to d'') with F(f)(x) = F(g)(x'))
+  \,.
+  $$
+
+This matches the definition of a direct limit on Wikipedia.
 =--
