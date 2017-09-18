@@ -43,7 +43,7 @@ A [[functor]] $U : D \rightarrow C$ is [[monadic]] (tripleable) if and only if
 
 =--
 
-A proof is reproduced at ([Borceux, vol 2, theorem 4.4.4](#Borceux)).
+The proof is reproduced for instance in ([Borceux, vol 2, theorem 4.4.4](#Borceux), [MacLane, p. 147-150](#MacLane)).
 
 
 An equivalent, and sometimes easier, way to state these conditions is to say that
@@ -149,7 +149,7 @@ Canonical textbook references include
 * {#Borceux} [[Francis Borceux]], Section 4 in volume 2 of  _[[Handbook of Categorical Algebra]]_, in 3 vols. 
 
 
-* Section VI.7 of [[Categories Work]].
+* {#MacLane} [[Saunders MacLane]],  Section VI.7 of _[[Categories for the Working Mathematician]]_.
 
 * Chapter 3 of [[Michael Barr]], [[Charles Wells]], _Triples, toposes, and theories_ , Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983, [ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt), [web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html), [pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf)
 
