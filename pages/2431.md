@@ -767,13 +767,16 @@ For [[triangulated categories]]  a discussion is in ([Neeman 96](#Neeman96)).
 
 For [[model categories]] a discussion is in ([Jardine 09](#Jardine09)):
 
-Let $C$ be a [[simplicial model category]] with a [[zero object]] and such that there is a [[set]] $S$ of [[cofibrant object|cofibrant]] [[compact objects]] such that the [[weak equivalences]] in $C$ are precisely the $S$-[[local morphisms]].
+Let $C$ be a [[model category]] with a [[zero object]] and such that there is a [[set]] $S$ of [[cofibrant object|cofibrant]] [[compact objects]] such that the [[weak equivalences]] in $C$ are precisely the $S$-[[local morphisms]].
+
+([Jardine 09, p. 20](#Jardine09))
+
 
 +-- {: .num_theorem}
 ###### Theorem
 **(Jardine)**
 
-Let $F : C^{op} \to Set_{*}$ be a [[homotopical functor]] to the category of pointed sets on $C^{op}$ such that
+Let $F : C^{op} \to Set_{*}$ be a pointed [[homotopical functor]] from $C^{op}$ to the category of [[pointed sets]] such that
 
 1. $F$ preserves small [[coproducts]] of cofibrant objects (including preserving the [[zero object]]).
 
@@ -791,14 +794,16 @@ Let $F : C^{op} \to Set_{*}$ be a [[homotopical functor]] to the category of poi
 
    with all objects cofibrant and $i$ a cofibration, to a [[weak pullback]].
 
+([Jardine 09, p. 21](#Jardine09))
+
+
 Then $F$ is [[representable functor|representable]].
 
 =--
 
 
-([Jardine 09](#Jardine09))
+([Jardine 09, theorem 24](#Jardine09))
 
-This follows essentially immediately from Theorem \ref{Categorical} applied to $Ho(C)$.  Jardine also proves a more refined version.
 
 
 ### For $RO(G)$-graded equivariant cohomology
