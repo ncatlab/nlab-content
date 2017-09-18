@@ -65,8 +65,7 @@ It is a fact that [[quivers]] are more general than [[digraph]]s: to have [[digr
 The restriction to loopless quivers without parallel arcs is mostly a result of 
 
 * the *questions* that are answered in the combinatorial literature, 
-* a tendency in combinatorics to formalize *multiplicities* by attaching *weights* (mostly [[number]]s) to the single arc of a graph, seeing no need for actual multiplicities of the arcs. 
-In category theory, one rather tends to prefer constructing a mathematical structure for a given purpose by a more "uniform" method, and not tack on objects of different types onto another structure. 
+* a tendency in combinatorics to formalize *multiplicities* by attaching *weights* (mostly [[number]]s) to the single arc of a graph; in category theory, on the other hand, there is a tendency to prefer doing constructions for a given purpose by a more uniform method, instead of attaching objects of different types to another structure. 
 
 
 The difference between the two formalizations, given in [[digraph]] and [[quiver]], can be seen to be similar to the differences between [[material set theory]] and [[structural set theory]].
