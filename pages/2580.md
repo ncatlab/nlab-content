@@ -484,3 +484,5 @@ category: analysis
 [[!redirects linear distribution]]
 [[!redirects linear distributions]]
 
+[[!redirects distributional density]]
+[[!redirects distributional densities]]
