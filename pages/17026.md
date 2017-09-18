@@ -9,6 +9,8 @@
 
 * [[formal scheme]]
 
+* [[nilpotent completion]]
+
 ## Related concepts
 
 * [[formal neighbourhood of the diagonal]]
