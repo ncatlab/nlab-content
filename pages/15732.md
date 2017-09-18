@@ -39,7 +39,7 @@ See at _[zeta function of an elliptic differential operator -- Functional determ
 
 Traditionally the vacuum energy is expressed in terms of a hypothetical [[path integral]]. (As opposed to the [above](#InTermsOfSpecialValuesOfZetaFunctions) zeta-function formalization this is not rigorous, but it serves to give the idea of _why_ this is the vacuum energy and the the zeta-function expression may be taken to be the rigorous definition of the path integral heuristics.)
 
-By [[analogy]] with finite-dimensional [[Gaussian integrals]] one expects that the [[Wick rotation|Wickk rotated]] [[vacuum amplitude]] version of the [[path integral]] (no [[field (physics)|field]] insertions, no boundary conditions) is
+By [[analogy]] with finite-dimensional [[Gaussian integrals]] one expects that the [[Wick rotation|Wick rotated]] [[vacuum amplitude]] version of the [[path integral]] (no [[field (physics)|field]] insertions, no [[boundary field theory|boundary conditions]]) is
 
 $$
   \underset{\phi \in \mathbf{Fields}}{\int} 
@@ -69,7 +69,7 @@ $$
   h \coloneqq \frac{1}{2} det_{reg}H
 $$
 
-as ahermitian structure on a [[holomorphic line bundle]], hence, locally, as the [[absolute value]]-squared of the unit [[section]] $\phi_i$ of a [[holomorphic line bundle]] with respect to a local trivializing section (see at [[Chern connection]]).
+as a hermitian structure on a [[holomorphic line bundle]], hence, locally, as the [[absolute value]]-squared of the unit [[section]] $\phi_i$ of a [[holomorphic line bundle]] with respect to a local trivializing section (see at [[Chern connection]]).
 
 $$
   h|_{U_i} = {\Vert \phi_i \Vert}^2
@@ -92,6 +92,7 @@ $$
   \,.
 $$
 
+> eh? Something wrong with the factors of $1/2$ here...
 
 ## References
 
