@@ -224,9 +224,12 @@ add some degeneracy maps to cubical sets), see e.g. [Maltsiniotis paper](http://
 defined similarly. The question is whether $Ex^\infty X$ with $X$ a cubical set with connections is fibrant. **Is it true?**
 
 
-### Model category structure
+### Model category structure and homotopy theory
+ {#ModelCategoryStructureAndHomotopyTheory}
 
 There is a [[model structure on cubical sets]] with the same [[homotopy theory]] as the standard [[model structure on simplicial sets]] ([Jardine 02](#Jardine02)), which models [[homotopy types]]/[[infinity-groupoids]]. 
+
+In fact ([Jardine 02, theorem 29, theorem 30](#Jardine02)) gives an [[adjunction]] between the [[model categories]] which, while not quite a [[Quillen adjunction]], does have [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] being [[weak equivalences]]. Hence by the discussion at _[[adjoint (∞,1)-functor]]_  it should indeed follow that the [[derived functors]] of the adjunction exhibit the [[simplicial localizations]] of cubical sets equivalent to that of simplicial sets, hence make their [[(∞,1)-categories]] [[equivalence of (∞,1)-categories|equivalent]] (hence equivalent to [[∞Grpd]]). 
 
 ## Background
 
