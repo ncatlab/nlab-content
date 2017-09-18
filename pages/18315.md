@@ -43,7 +43,7 @@ Non-tautological examples:
  
  * the category of [[fields]] (with [[ring]] [[homomorphisms]] as the morphisms)
 
- * the category of nontrivial [[vector spaces]] equipped with nondegenerate [[inner products]] 
+ * the category of nontrivial [[vector spaces]] (over the field of [[real numbers]] or [[complex numbers]]) equipped with positive definite [[inner products]] 
 
 
 
