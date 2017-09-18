@@ -221,15 +221,19 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * A category enriched in [[Set]] is a [[locally small category]].
 
-* A category enriched in [[chain complex|chain complexes]] is a [[dg-category]].
+* A category enriched in [[chain complexes]] is a [[dg-category]].
 
-* A category enriched in [[simplicial set|simplicial sets]] is called a [[simplicially enriched category|simplicial category]], and these form one model for $(\infty,1)$-[[(infinity,1)-category|categories]].  But beware: the term 'simplicial category' is also used to mean a category [[internalization|internal to]] simplicial sets.  In fact, a category enriched in simplicial sets is a special case of a category internal to simplicial sets, namely one where the simplicial set of objects is discrete.
+* A category enriched in [[simplicial sets]] is called a [[simplicially enriched category|simplicial category]], and these form one model for [[(∞,1)-categories]].  
 
-* A category enriched in [[Top]] is a [[topological category]].  These are also a model for $(\infty,1)$-categories.  But again, beware: the term 'topological category' is perhaps more commonly used to mean a category [[internalization|internal to]] Top.  And again: a category enriched in Top is a special case of one internal to Top, namely one where the space of objects is discrete.
+  Beware: the term 'simplicial category' is also used to mean a category [[internalization|internal to]] simplicial sets.  In fact, a category enriched in simplicial sets is a special case of a category internal to simplicial sets, namely one where the simplicial set of objects is discrete.
+
+* A category enriched in [[Top]] is a [[topologically enriched category]].  These are also a model for [[(∞,1)-categories]].  
+
+  Again beware: the term 'topological category' is perhaps more commonly used to mean a category [[internalization|internal to]] Top.  People also use it for _[[topological concrete category]]_. And again: a category enriched in Top is a special case of one internal to Top, namely one where the space of objects is discrete.
 
 * A category enriched in [[Cat]] is a [[strict 2-category]].
 
-* A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|strict omega-categories]].
+* A [[strict n-category]] is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|strict omega-categories]].
 
 * An [[algebroid]], or [[linear category]], is a category enriched over [[Vect]].  Here $Vect$ is the category of vector spaces over some fixed [[field]] $K$, equipped with its usual tensor product.  It is common to emphasize the dependence on $K$ and call a category enriched over Vect a **$K$-linear category**.  
 
@@ -245,7 +249,7 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
 
-* A [[group torsor]] (over a group $G$) can be modeled by a category enriched over the [[discrete category]] on the set $G$, where $\otimes$ is the group operation.  Not every such category determines a torsor, however; it must be nonempty as well as [[Cauchy complete category|Cauchy complete]].
+* A [[torsor]] over some group $G$ may be modeled by a category enriched over the [[discrete category]] on the set $G$, where $\otimes$ is the group operation.  Not every such category determines a torsor, however; it must be nonempty as well as [[Cauchy complete category|Cauchy complete]].
 
 ## Related concepts
 
