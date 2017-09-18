@@ -10,8 +10,7 @@ $$ {\vert T\vert} = \sup\{ \mathrm{otyp}({\prec}) \mid {\prec}\text{is primitive
  T \vdash \mathrm{TI}({\prec},X) \}$$
 
 where $\mathrm{otyp}({\prec})$ is the order-type of the [[well-order]]
-$\prec$. For most theories, this is equal to the $\Pi^1_1$-ordinal of
-the theory,
+$\prec$ and $\mathrm{TI}({\prec},X)$ means that $X$ (a free parameter) satisfies transfinite induction along $\prec$; this is the constructive way to say that $\prec$ is well-ordered. For most theories, this ordinal is equal to the $\Pi^1_1$-ordinal of the theory,
 
 $$ {\vert T\vert}_{\Pi^1_1} := \sup\{ \mathrm{tc}(F) \mid F\;\text{is a}\;\Pi^1_1\text{-sentence and }\;
  T \vdash F \}$$
