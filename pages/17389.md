@@ -26,72 +26,30 @@ Every [[CW-complex]] is a [[paracompact Hausdorff space]].
 
 e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90)
 
-### CW-complexes are Hausdorff
+### CW-complexes are Hausdorff and normal
 
-+-- {: .num_lemma #CellAttachmentToHausdorffSpaceIsHausdorff}
-###### Lemma
-**(cell attachment to Hausdorff space is still Hausdorff)**
+The proof is broken down in two parts. The first is that each $n$-skeleton $X_n$ of a CW-complex $X$ is normal (throughout we use "normal" to mean normal and Hausdorff), and that the inclusion $X_{n-1} \hookrightarrow X_n$ is a closed embedding. The second is that the colimit 
 
-Let $X$ be a [[Hausdorff space]] and let 
+$$X_0 \hookrightarrow X_1 \hookrightarrow \ldots$$ 
 
-$$
-  f \;\colon\; S^{n-1} \longrightarrow  X
-$$
+of the sequence of skeleta and inclusions between them is again normal. 
 
-be a [[continuous function]]. Then also the [[attachment space]]
+We give just a sketch of the argument here; for full details see [[colimits of normal spaces]]. 
 
-$$
-  \array{
-    S^{n-1} &\overset{f}{\longrightarrow}& X
-    \\
-    \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
-    \\
-    D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
-  }
-$$
+* A basic lemma is that the pushout in $Top$ of a closed embedding $i: X \to Z$ along any map $f: X \to Y$ is again a closed embedding, $j: Y \to Y \cup_X Z$. 
 
-is Hausdorff.
+* Recall that a space $W$ is normal iff for any closed subspace $C \subseteq W$ and continuous function $f: C \to \mathbb{R}$, there is a continuous extension of $f$ to a map $g: W \to \mathbb{R}$. This may be exploited to give a simple proof of the following result: if $Y, Z$ are normal and $X \hookrightarrow Z$ is a closed subspace, then given a continuous map $f: X \to Y$, the space $W$ in the 
+topological pushout diagram 
+$$\array{
+X & \stackrel{h}{\hookrightarrow} & Z \\ 
+\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
+Y & \underset{k}{\to} & W
+}$$ 
+is also normal. Sketch of proof: if $C \subseteq W$ is closed and $\phi: C \to \mathbb{R}$ is continuous, first extend the evident map $k^{-1}(C) \to \mathbb{R}$ to a map $\beta: Y \to \mathbb{R}$, and similarly extend a suitable map $h(X) \cup g^{-1}(C) \to \mathbb{R}$ to a map $\theta: Z \to \mathbb{R}$, compatibly with $\beta$ so that the pair $(\beta, \theta)$ induces a map $\psi: W \to \mathbb{R}$ out of the pullback that restricts to $\phi: C \to \mathbb{R}$. 
 
-=--
+* Assuming then that the $(n-1)$-skeleton $X_{n-1}$ is normal, and forming an adjunction space $X_n$ by attaching a collection of $n$-disks $\sum_{i \in I} D_i^n$ to $X_{n-1}$ by an attaching map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, it follows that the space $X_n$ is normal, and the embedding $X_{n-1} \to X_n$ is closed. 
 
-+-- {: .proof}
-###### Proof
-
-First we fix a way to extend open subsets of $S^{n-1}$ to open subsets of $D^n$. To that end, pick some real number $\epsilon$ with $0 \lt \epsilon \lt 1/2$. Then for $V \subset S^{n-1}$ an open subset of the sphere, let $C_\epsilon(V) \subset D^n$ be its open cone of height $\epsilon$ into the bulk of the $n$-disk, i.e. the set of points in $D^n$ of radial distance $\lt \epsilon$ from $V \subset S^{n-1} \subset D^n$. 
-
-Observe 
-
-1. A base of open neighbourhoods of $X \cup_f D^n$ is given by
-
-   1. the images under $i_{D^n}$ of the open subsets of $D^n \setminus S^{n-1}$;
-
-   1. the images under $i_X$ of the open subsets of $X \setminus f(S^{n-1})$;
-
-   1. for $x \in S^{n-1}$ the union of the image under $i_X$ of an open neighbourhood $U_{f(x)} \subset X$ with the image under $i_{D^n}$ of the cone $C_\epsilon( f^{-1}(U_{f(x)}))$.
-
-   These sets are open because their pre-images under $i_{D^n}$ and $i_X$ are open, by construction. They form a base because, again by construction, every point has a neighbourhood in this collection.
-
-1. For every point $x \in X \setminus f(X) \subset X \subset X \cup_f D^n$ there exist disjoint open neighbourhoods around $f(S^{n-1})$ and $x$. 
-
-   To see this, first find such open neighbourhoods in $X$. These exist because $S^{n-1}$ is a [[compact topological space]] (for instance by [[Heine-Borel theorem]]), since [[continuous images of compact spaces are compact]] whence $f(S^{n-1}) \subset X$ is compact, and finally since [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]]. Now form the union of the open neighbourhood of $f(S^{n-1})$ in $X$ with $C_\epsilon(S^{n-1})$ to obtain an open neighbourhood in $X \cup_f D^{n-1}$, still disjoint from that of the point.
-
-Now we discuss separation of distinct points in $X \cup_f D^{n}$ by case distinction:
-
-1. If $x \neq y \in D^n \setminus S^{n-1}$ then by the Hausdorffness of $D^n \setminus S^{n-1}$ there are disjoint open neighbourhoods $V_{x}, V_y \subset D^n \setminus S^{n-1}$ and their images under $i_{D^n}$ are still open and disjoint.
-
-1. If $x \neq y \in X \setminus f(S^{n-1})$, then by the Hausdorffness of $X$ there are disjoint open neighbourhoods $U_x, U_y \subset X$. By the second observation above we may moreover find open neighbourhoods $U'_x, U'_y \subset X$ that separate these points from $f(X)$. Hence $U_x \cap U'_x$ and $U_y \cap U'_y$ are disjoint open neighbourhoods in $X \setminus f(S^{n-1})$ whose image under $i_X$ remain disjoint open subsets in $X \cup_f D^{n-1}$.
-
-1. If $x \neq y \in S^{n-1}$ with $f(x) \neq f(y)$ then pick disjoint open neighbourhoods $U_x$, $U_y$ in $X$, which exist by the Hausdorffness of $X$. Their unions with $C_\epsilon(f^{-1}(U_x))$ and $C_\epsilon(f^{-1}(U_y))$, respectively, are disjoint open neighbourhoods in $X \cup_f D^n$.
-
-1. If $x \in D^n \setminus S^{n-1}$ and $y \in X \setminus f(S^{n-1})$ under $i_X$ we may find an open ball around $x$ which does not intersect $S^{n-1}$ and, by the second observation above, an open neighbourhood of $y$ which does not intersect $f(X)$. The images of these in $X \cup_f D^n$ are of the required form. 
-
-1. If $x \in S^{n-1}$ and $y \in X \setminus f(S^{n-1})$,  then by the second observation above we find disjoint open neighbourhoods of $f(S^{n-1})$ and of $y$ in $X$. The union of the former with $C_\epsilon(S^{n-1})$ gives disjoint open neighbourhoods in $X \cup_f D^n$ as required.
-
-1. If $x \in D^n \setminus S^{n-1}$ and $y \in S^{n-1}$ let $d$ be the distance of the former to the boundary $S^{n-1}$ of $D^n$, pick the open ball of radius $d/2$ around that point. Then pick the enire rim of width $d/2$ as a neighbourhood for the point on the boundary. These are disjoint open neighbourhoods inside $D^n$ and by forming the union of the latter with all of $X$ they become disjoint open neighbourhoods in $X \cup_f D^n$.
-
-
-=--
-
+* Finally, one proves without difficulty that the topological colimit of a sequence of normal spaces and closed embeddings between them is again normal. This applies in particular to the sequence of skeleta $X_n$ and the embeddings between them. 
 
 ### CW-complexes are paracompact
 
