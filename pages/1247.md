@@ -27,8 +27,6 @@ For the generalisation to an [[internal category]] $C$, see [[identity-assigning
 
 In [[Set]], the identity morphisms are the [[identity functions]].
 
-> Is there a wide-spread notation for identity morphism on a specified object of a specific category $C$? (I consider several categories and there are several different identity morphisms (one for each category) on the same object.)
-
 ## Related concepts
 
 * [[equivalence]]
