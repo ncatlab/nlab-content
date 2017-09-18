@@ -71,6 +71,7 @@ The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mat
 
 #### Spectral sequence of a filtered spectrum
 
+We introduce the types of [[spectral sequences]] of which the $E$-Adams spectral sequnces (def. \ref{AdamsEAdamsSpectralSequence} below) is an example.
 
 +-- {: .num_defn #FilteredSpectrum}
 ###### Definition
@@ -284,7 +285,7 @@ Then the bidegree of the morphisms is
 |----------|----------|
 | $[X,f]$  | $(-1,-1)$ |
 | $[X,g]$  | $(0,0)$  |
-| $[X,\delta]$ | $(1,0)$ |
+| $\delta$ | $(1,0)$ |
 
 
 This way $t$ counts the cycles of going around the triangles:
@@ -394,62 +395,82 @@ $$
   \array{
     && & \searrow && \nearrow
     \\
-    && && \pi_{t-s-1}(X_{s+1})
+    && && [X,Y_{s+1}]_{t-s-1}
     \\
-    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
-    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    && & {}^{\mathllap{\delta}}\nearrow 
+    && \searrow^{\mathrlap{ [X,g]  }}
     && && && \nearrow
     \\
-    && \pi_{t-s}(A_s) && \underset{def: \;\;d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
-    && \stackrel{def: \; d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    && [X,A_s]_{t-s} 
+    && \underset{d_1 }{\longrightarrow} 
+    && [X, A_{s+1}]_{t-s-1}
+    && \stackrel{d_1 }{\longrightarrow} 
+    && [X,A_{s+2}]_{t-s-2}
     \\
-    & \nearrow && && && {}_{\mathllap{\delta_{t-s-1}^{s+1}}}\searrow 
-    && \nearrow_{\mathrlap{\pi_{t-s-2}(cofib(f_{s+2}))}}
+    & \nearrow && && && {}_{\mathllap{ \delta }}\searrow 
+    && \nearrow_{\mathrlap{ [X,g] }}
     \\
-    && && && && \pi_{t-s-2}(X_{s+2})
+    && && && && [X,Y_{s+2}]_{t-s-2}
     \\
     && && && & \nearrow && \searrow
   }
 $$
 
-This gives rise to the horizontal composites $d_1^{s,t}$, as show above, and by the fact that the diagonal sequences are long exact, these are differentials: $d_1^2 = 0$, hence give a [[chain complex]]:
+This gives rise to the horizontal composites $d_1$, as show above, and by the fact that the diagonal sequences are long exact, these are differentials: $d_1^2 = 0$, hence give a [[cochain complex]]:
 
 $$
   \array{
-    \cdots & \stackrel{}{\longrightarrow}
-    && \pi_{t-s}(A_s) && \overset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
-    && \stackrel{d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
-    &&\longrightarrow & \cdots
+    \cdots 
+       & 
+     \overset{}{\longrightarrow}
+       && 
+     \pi_{t-s}(A_s) [X,A_s]_{t-s} 
+       && 
+     \overset{d_1}{\longrightarrow} 
+       && 
+     \pi_{t-s-1}(A_{s+1})  [X,A_{S+1}]_{t-s-1}
+       && 
+     \stackrel{d_1 }{\longrightarrow} 
+       && 
+     \pi_{t-s-2}(A_{s+2}) [X,A_{s+2}]_{t-s-2}
+       &&
+     \longrightarrow & \cdots
   }
   \,.
 $$
 
-We read off from the interlocking long exact sequences what these differentials _mean_: an element $c \in \pi_{t-s}(A_s)$ lifts to an element $\hat c \in \pi_{t-s-1}(X_{s+2})$ precisely if $d_1 c = 0$:
+We read off from the interlocking long exact sequences what these differentials _mean_: 
+
+an element $c \in [X,A_s]_{t-s}$ lifts to an element 
+ $\hat c \in[X,Y_{s+2}]_{t-s-1} $ precisely if $d_1 c = 0$:
 
 $$
   \array{
-    &\hat c \in & \pi_{t-s-1}(X_{s+2})
+    &\hat c \in & [X, Y_{s+2}]_{t-s-1}
     \\
-    && & \searrow^{\mathrlap{\pi_{t-s-1}(f_{s+1})}} 
+    && & \searrow^{\mathrlap{ [X,f] }} 
     \\
-    && && \pi_{t-s-1}(X_{s+1})
+    && && [X,Y_{s+1}]_{t-s-1}
     \\
-    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
-    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    && & {}^{\mathllap{ \delta }}\nearrow 
+    && \searrow^{\mathrlap{ [X,g]  }}
     \\
-    & c \in  & \pi_{t-s}(A_s) && \underset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    & c \in  & \pi_{t-s}(A_s)  [X,A_s]_{t-s}
+    && 
+    \underset{ d_1 }{\longrightarrow} 
+   && [X,A_{s+1}]_{t-s-1}
   }
 $$
 
-This means that the [[cochain cohomology]] of the complex $(\pi_{\bullet}(A_\bullet), d_1)$ produces elements of $\pi_\bullet(X_\bullet)$ and hence of $\pi_\bullet(X)$.
+This means that the [[cochain cohomology]] of the complex $([X,A_\bullet]_\bullet, d_1)$ produces elements of $[X,Y_\bullet]_\bullet$ and hence of $[X,Y]_\bullet$. (Which elements exactly arise this way is the question of the convergence of the induced spectral sequence, def. \ref{ExactCoupleSpectralSequence} below).
 
 In order to organize this observation, notice that in terms of the exact couple of remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}, the differential 
 
 $$
-  d_1^{s,t}  \;\coloneqq \; \pi_{t-s-1}(cofib(f_{s+1})) \circ \delta_{t-s}^s
+  d_1  \;\coloneqq \; [X,g] \circ \delta
 $$
 
-is a component of the composite 
+is the composite 
 
 $$
   d \coloneqq j \circ k
@@ -481,7 +502,7 @@ $$
 its _page_ is the [[chain complex]]
 
 $$
-  (E^{\bullet,\bullet}, d \coloneqq j \circ  k)
+  (\mathcal{E}^{\bullet,\bullet}, d \coloneqq j \circ  k)
   \,.
 $$
 
@@ -506,13 +527,13 @@ $$
 
 with 
 
-1. $\tilde{\mathcal{E}} \coloneqq ker(d)/im(d)$;
+1. $\tilde{\mathcal{E}} \coloneqq ker(d)/im(d)$ (with $d \coloneqq j \circ k$ from def. \ref{PageOfAnExactCouple});
 
 1. $\tilde {\mathcal{D}} \coloneqq im(i)$;
 
 1. $\tilde i \coloneqq i|_{im(i)}$;
 
-1. $\tilde j \coloneqq j \circ (im(i))^{-1}$;
+1. $\tilde j \coloneqq j \circ i^{-1}$ (where $i^{-1}$ is the operation of choosing any preimage under $i$);
 
 1. $\tilde k \coloneqq k|_{ker(d)}$.
 
@@ -522,16 +543,19 @@ with
 +-- {: .num_prop #DerivedExactCoupleIsExactCouple}
 ###### Proposition
 
-A derived exact couple, def. \ref{DerivedExactCouple}, 
-is again an exact couple, def. \ref{ExactCouple}.
+The derived exact couple in def. \ref{DerivedExactCouple}
+is well defined and 
+is itself an exact couple, def. \ref{ExactCouple}.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #ExactCoupleSpectralSequence}
 ###### Definition
 
 Given an exact couple, def. \ref{ExactCouple},
-then the induced [[spectral sequence]], def. \ref{SpectralSequence}, is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
+then the induced 
+**[[spectral sequence]] of the exact couple** 
+is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
 
 =--
 
@@ -548,18 +572,21 @@ $$
    X_3 
      &\stackrel{f_2}{\longrightarrow}& 
    X_2 
-     &\stackrel{f_2}{\longrightarrow} & 
+     &\stackrel{f_1}{\longrightarrow} & 
    X_1 
-     &\stackrel{f_1}{\longrightarrow}& 
+     &\stackrel{f_0}{\longrightarrow}& 
    X
    \\
-   && \downarrow && \downarrow && \downarrow && \downarrow
+   && \downarrow^{\mathrlap{g_3}}
+   && \downarrow^{\mathrlap{g_2}}
+   && \downarrow^{\mathralp{g_1}}
+   && \downarrow^{\mathrlap{g_0}}
    \\
    && A_3 && A_2 && A_1 && A_0
   }
 $$
 
-and its induced [[exact couple]] of [[stable homotopy groups]], from remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}
+and its induced [[exact couple]] of [[stable homotopy groups]], from def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}
 
 $$
   \array{
@@ -586,10 +613,18 @@ with bigrading as shown on the right.
 </div>
 
 As we pass to derived exact couples, by def. \ref{DerivedExactCouple}, 
-the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by $(1,1)$ in each step, since
+the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by $(1,1)$ with each page, since
 
 $$
-  deg(\tilde j) = deg( j \circ im(i)^{-1}) = deg(j) + (1,1)
+  \begin{aligned}
+    deg(\tilde j) 
+     &
+    = deg( j \circ i^{-1}) 
+    \\
+     &= deg(j) - deg(i)  
+    \\
+    & = deg(j) + (1,1)
+  \end{aligned}
   \,.
 $$
 
@@ -601,12 +636,15 @@ $$
   \,.
 $$
 
-This is also called the Adams-type _[[spectral sequence of a tower of fibrations|spectral sequence of the tower of fibrations]]_ $X_{n+1} \to X_n$.
+This is also called the 
+**Adams-type [[spectral sequence of a tower of fibrations|spectral sequence of the tower of fibrations]]** $X_{n+1} \to X_n$.
 
 =--
 
 
 #### $E$-Adams filtrations
+
+Given a [[homotopy commutative ring spectrum]] $(E,\mu,e)$, then an _$E$-Adams spectral sequence_ is a [[spectral sequence]] as in example \ref{AdamsTypeSpectralSequenceOfATower}, where each cofiber is induced from the unit morphism $e \;\colon\; \mathbb{S} \longrightarrow E$:
 
 +-- {: .num_defn #AdamsEAdamsSpectralSequence}
 ###### Definition
