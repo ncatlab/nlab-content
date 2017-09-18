@@ -130,6 +130,10 @@ This result is in the spirit of saying "every Grothendieck topos is the category
 One can deduce formally that lex total categories are [[locally cartesian closed category|locally cartesian closed]] [[Heyting pretoposes]]. 
 =-- 
 
+### As lex reflections of categories of presheaves
+
+[[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]
+
 ### As localic groupoids
  {#AsLocalicGroupoids}
 
