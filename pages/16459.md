@@ -1,0 +1,1 @@
+[This](http://www.ams.org/journals/bull/1949-55-03/S0002-9904-1949-09175-9/S0002-9904-1949-09175-9.pdf) is a link to the online copy of J. H. C. Whitehead's first paper on Combinatorial Homotopy.
