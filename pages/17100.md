@@ -66,11 +66,13 @@ on the basics of [[stable homotopy theory]] in terms of the [[model category]] o
 
 * [[smash product]]
 
+* [[smash product of spectra]]
+
 * [[symmetric smash product of spectra]]
 
 ## 3. The category of $S$-modules and its derived category
 
-* [[S-module]]
+* [[S-module]], [[model structure on S-modules]]
 
 ## 4. The smash product of $S$-modules
 
@@ -96,12 +98,16 @@ on the basics of [[stable homotopy theory]] in terms of the [[model category]] o
 
 ## 9. Algebraic constructions in the derived category of $R$-modules
 
-* [[derived category]]
+* [[brave new algebra]]
 
 ## 10. Algebra structures on localizations and on quotients by ideals
 
 ## 11. The specialization of $MU$-modules and algebras
 
 * [[MU]]
+
+* [[Adams spectral sequence]]
+
+* [[Adams-Novikov spectral sequence]]
 
 category: reference
