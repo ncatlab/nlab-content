@@ -224,9 +224,15 @@ For exhaustive details on D-branes in 2-dimensional rational [[CFT]] see the ref
 * [[FFRS-formalism]].
 
 
-A classical text describing how the physics way to think of D-branes leads to seeing that they are objects in derived categories is
+A classical text describing how the physics way to think of D-branes for the [[topological string]] leads to seeing that they are objects in [[derived categories]] (of [[coherent sheaves]] for the [[B-model]]) is reviewed in
 
 * [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv](http://arxiv.org/abs/hep-th/0403166)) 
+
+based on
+
+* [[Michael Douglas]], _D-branes, Categories and $N=1$ Supersymmetry_, J.Math.Phys. 42 (2001) 2818-2843 ([arXiv:hep-th/0011017](https://arxiv.org/abs/hep-th/0011017))
+
+* [[Paul Aspinwall]], Albion Lawrence, _Derived Categories and Zero-Brane Stability_ ([arXiv:hep-th/0104147](https://arxiv.org/abs/hep-th/0104147))
 
 This can to a large extent be read as a dictionary from [[homological algebra]] terminology to that of D-brane physics.
 
