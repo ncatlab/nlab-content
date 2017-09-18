@@ -101,6 +101,8 @@ The coincidence of products with biproducts does _not_ extend to infinite produc
 
 * [[additive (∞,1)-category]]
 
+* [[triangulated category]]
+
 ## References
 
 Discussion of [[model category]] structures on additive categories is around def. 4.3 of 
