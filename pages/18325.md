@@ -5,4 +5,4 @@ The term is used for example in:
 *  R. Garner, "Homomorphisms of higher categories"
 Advances in Mathematics, Volume **224** (2010),  2269--2311
 
-It also is often used in the context of [[horn]]s in simplicial sets and related structures. For instance _`in a Kan complex, all horns have fillers'_. The two uses are, of course, closely related.
+It also is often used in the context of [[horn]]s in simplicial sets and related structures. The term makes it possible to summarize the definition of a [[Kan complex]] in one sentence: a Kan complex is a simplicial set in which every horn has a filler. 
