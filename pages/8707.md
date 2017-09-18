@@ -52,7 +52,9 @@ When restricted to act on [[truncated object|(-1)-truncated objects]] (i.e. [[su
 
 > A Grothendieck 'topology' appears most naturally as a modal operator of the nature 'it is locally the case that' ([Lawvere](#Lawvere)).
 
-More discussion along these lines is in ([Goldblatt](#Goldblatt)), where this kind of modality is called a _geometric modality_.
+Here, "It is locally the case that [X is [[metric space#metrizable_spaces|metrizable]]/Euclidean/etc]," corresponds to, "X is locally metrizable/Euclidean/etc," in the usual parlance.
+
+More discussion is in ([Goldblatt](#Goldblatt)), where this kind of modality is called a _geometric modality_.
 
 For [[higher toposes]], it is no longer true in general that a subtopos is determined by its behavior on the $(-1)$-truncated objects, but we can still regard the entire sheafification monad as a [[higher modality]] in the internal [[homotopy type theory]].
 
