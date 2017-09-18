@@ -1101,7 +1101,7 @@ $$
   \longrightarrow
     \pi_q \left(
       (Q X)_0
-  }}
+    \right)
 $$
 
 and similarly in degree $q\lt 0$. Now using the compactness of the spheres and the definition of $Q$ we compute on the right:
@@ -1110,7 +1110,7 @@ $$
   \begin{aligned}
     \pi_q( (Q X)_0 )
     & 
-    \simeq
+    =
     \pi_q (\underset{\longrightarrow}{\lim}_k Z_{k,0})
     \\
     & \simeq 
