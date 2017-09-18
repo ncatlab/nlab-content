@@ -79,11 +79,15 @@ Honglei Lang (Peking University)
 
 Camille Laurent-Gengoux (The University of Poitiers)
 
-Si Li (Boston University)
+Hanfeng Li (SUNY at Buffalo)
 
 Hui Li (Suzhou University)
 
+Si Li (Boston University)
+
 Yanpeng Li (Peking University)
+
+Runliang Lin (Tsinghua University)
 
 Jiefeng Liu (Jilin University)
 
@@ -105,11 +109,9 @@ Joana Margarida Nunes da Costa (University of Coimbra)
 
 Jae-Suk Park (Pohang University of Science and Technology)
 
-Yat Sun Poon  (University of California at Riverside)
-
 Yu Qiao (Shannxi Normal University)
 
-Changzheng Qu*  (Ningbo University)
+Changzheng Qu (Ningbo University)
 
 Hajime Sato (Nagoya University)
 
@@ -134,6 +136,7 @@ Xiang Tang (Washington University in St. Louis)
 Luca Vitagliano  (Universita degli Studi di Salerno & Istituto Nazionale di Fisica Nucleare)
 
 Aissa Wade (Penn State University)
+
 Lifang Wang (Henan University)
 
 Hong Wang (Nankai University)
