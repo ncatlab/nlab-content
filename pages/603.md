@@ -44,7 +44,7 @@ $$
   }
 $$
 
-where a bond $B$ binds sub-bonds $b_1, b2$ and $b_3$ which in turn bind sub-bonds $\beta_i$.
+where a bond $B$ binds sub-bonds $b_1, b_2$ and $b_3$ which in turn bind sub-bonds $\beta_i$.
 
 For instance $B$ might be an [[extended cobordism]] with three boundary components $b_1, b_2, b_3$ which in turn have pieces of boundary components $\beta_i$.
 
