@@ -386,6 +386,8 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Sage: Open Source Mathematical Software](http://sagemath.blogspot.com)
 
+* [Transient Dynamic](http://robclewley.github.io/) (A blog on next-gen computational tools for mathematical modeling in complex systems, especially dynamical systems models)
+
 * [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
 
 * [Azimuth](http://johncarlosbaez.wordpress.com) John Baez's new blog on environment, climate change, biodiversity, sustainable development and technology; from a perspective of a mathematical physicist; occasional topics with significant mathematical content
