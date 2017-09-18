@@ -21,7 +21,7 @@
 
 In the presence of a notion of [[fibration]] and a given class of such, a morphism is called _anodyne_ if it has the [[left lifting property]] against all these.
 
-The standard example, often taken to be the default, is that of morphisms in the category [[sSet]] of [[simplicial sets]] which have the left lifting property against all [[Kan fibrations]]. In this case, anodyne morphisms are equivalent to [[acyclic cofibrations]] in the standard [[model structure on simplicial sets]].
+The standard example, often taken to be the default, is that of morphisms in the category [[sSet]] of [[simplicial sets]] which have the left lifting property against all [[Kan fibrations]]. In this case, anodyne morphisms ([Gabriel-Zisman 67, chapter IV.2](#GabrielZisman67)) are equivalent to [[acyclic cofibrations]] in the standard [[model structure on simplicial sets]].
 
 Typically one says _anodyne morphism_ or, actually, _anodyne extension_ if one thinks of these morphisms produced by [[retracts]] of [[transfinite composition]] of [[pushouts]] of [[coproducts]] of a certain generating set of morphisms.
 
@@ -93,20 +93,25 @@ See ([Cisinski-Moerdijk 09](#CisinskiMoerdijk09)).
 
 ## References
 
-The standard anodyne extensions as morphisms in the saturation class of the [[simplicial set|simplicial]] [[horn]] inclusions is discussed in some detail in 
+The original concept of anodyne extensions as morphisms in the saturation class of the [[simplicial set|simplicial]] [[horn]] inclusions originates in 
 
-* [[Rick Jardine]], _Homotopy theory, lecture 5_ ([pdf](http://www.math.uwo.ca/~jardine/papers/HomTh/lecture005.pdf))
- {#Jardine}
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], chapter IV.2 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+
+Review includes
+
+* {#Jardine} [[Rick Jardine]], _Homotopy theory, lecture 5_ ([pdf](http://www.math.uwo.ca/~jardine/papers/HomTh/lecture005.pdf))
+ 
+* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005  ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
+
 
 Left/right and inner anodyne morphisms of simplicial sets are discussed in section 2 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 Inner anodyne morphisms of [[dendroidal sets]] are discussed in 
 
-* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv:0902.1954](http://arxiv.org/abs/0902.1954))
- {#CisinskiMoerdijk09}
+* {#CisinskiMoerdijk09} [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv:0902.1954](http://arxiv.org/abs/0902.1954))
+ 
 
 
 [[!redirects anodyne morphisms]]
