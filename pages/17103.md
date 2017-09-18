@@ -132,9 +132,43 @@ $$
 (e.g. [Elmendorf-Kriz-May 95, theorem 1.5](#ElmendorfKrizMay95))
 
 +-- {: .proof}
-###### Proof
+###### Proof 1
 
-An high-powered way to see this is to use the [[Quillen equivalence]] between the stable [[model structure on topological sequential spectra]] and the stable [[Bousfield-Friedlander model structure]] (see there) on sequential spectra in [[simplicial sets]]. This implies that a CW-approximation is given by
+First let $\hat X_0 \longrightarrow X_0$ be a CW-approximation of the component space in degree 0, via [this prop.](CW+approximation#CWApproximationForContinuousFunctions). Then proceed by [[induction]]: suppose that for $n \in \mathbb{N}$ a [[CW-approximation]] $\phi_{k \leq n} \colon  \hat X_{k \leq n} \to X_{k \leq n}$ has been found such that all the structure maps are respected. Consider then the continuous function
+
+$$
+  \Sigma \hat X_n \overset{\Sigma \phi_n}{\longrightarrow} \Sigma X_n \overset{\sigma_n}{\longrightarrow} X_{n+1}
+  \,.
+$$
+
+Applying [that prop.](CW+approximation#CWApproximationForContinuousFunctions) to this function factors it as
+
+$$
+  \Sigma X_n \hookrightarrow \hat X_{n+1} \overset{\phi_{n+1}}{\longrightarrow} X_{n+1}
+  \,.
+$$
+
+Hence we have obtained the next stage of the CW-approximation. The respect for the structure maps is just this factorization property:
+
+$$
+  \array{  
+    \Sigma \hat X_n 
+      &\overset{\Sigma \phi_n}{\longrightarrow}& 
+    \Sigma X_n
+    \\
+    {}^{incl}\downarrow && \downarrow^{\mathrlap{\sigma_n}}
+    \\
+    \hat X_{n+1} &\underset{\phi_{n+1}}{\longrightarrow}& X_{n+1}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof 2
+
+A high-powered way to see this is to use the [[Quillen equivalence]] between the stable [[model structure on topological sequential spectra]] and the stable [[Bousfield-Friedlander model structure]] (see there) on sequential spectra in [[simplicial sets]]. This implies that a CW-approximation is given by
 
 $$
   {\vert Q Sing X\vert}
