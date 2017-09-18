@@ -1,0 +1,11 @@
+
+
+One of the kind of [[paradoxes]] considered by [[Zeno]].
+
+## References
+
+* Wikipedia, _[Zeno's paradoxes -- Paradox of motion](http://en.wikipedia.org/wiki/Zeno%27s_paradoxes#Paradoxes_of_motion)_
+
+* [[Georg Hegel]], chapter on _[[cohesion]]_ in _[[Encyclopedia of the Philosophical Sciences]]_, see also at [Science of Logic --  Kohaesion](#Science+of+Logic#Kohaesion).
+
+[[!redirects paradox of motion]]
