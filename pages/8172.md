@@ -5460,7 +5460,7 @@ then the $E$-[[Adams spectral sequence]] for $[X,Y]_\bullet$ (def. \ref{AdamsEAd
 $$
   [X, Y^\wedge_E]_\bullet
     \simeq
-  \underset{\longrightarrow}{\lim}_n [X,Y]_\bullet/p^n[X,Y]_\bullet
+  \underset{\longleftarrow}{\lim}_n [X,Y]_\bullet/p^n[X,Y]_\bullet
 $$
 
 of $[X,Y]_\bullet$. 
