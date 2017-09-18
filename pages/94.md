@@ -626,6 +626,8 @@ and
 
   * [[universal enveloping E-n algebra]]
 
+  * [[nilpotent L-∞ algebra]]
+
   * [[L-∞ algebroid]]
 
   * [[derived L-∞ algebroid]]
