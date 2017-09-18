@@ -32,3 +32,7 @@ These are summarized in section 2 of the following notes
 and section 4 of 
 
 * [[Arnaud Beauville]], _The Hodge conjecture_, [pdf](http://math.unice.fr/~beauvill/pubs/Hodge.pdf).
+
+A [[motivic homotopy theory|motivic]] reinterpretation is discussed in
+
+* [[Alena Pirutka]], [[Nobuaki Yagita]], _Note on the counterexamples for the integral Tate conjecture over finite  fields_, [arXiv:1401.1620](http://arxiv.org/abs/1401.1620).
