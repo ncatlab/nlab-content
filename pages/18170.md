@@ -23,3 +23,6 @@ A _dyadic rational number_ is a [[rational number]] $r \in \mathbb{Q}$ such that
 
 [[!redirects dyadic rational]]
 [[!redirects dyadic rationals]]
+
+[[!redirects dyadic number]]
+[[!redirects dyadic numbers]]
