@@ -11,4 +11,6 @@ This page collects links related to the article
 
 on formalization of [[unity of opposites]] in [[calculus]] and [[physics]].
 
+See also at _[[Aufhebung]]_.
+
 category: reference
