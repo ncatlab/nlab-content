@@ -86,11 +86,16 @@ $$
 
 ## Related concepts
 
+* [[prequantized Lagrangian correspondence]]
+
+* [[prequantum circle n-bundle]]
+
+* [[local prequantum field theory]]
+
 * [[fiber bundles in physics]]
 
 * [[circle bundle]], [[circle n-bundle with connection]]
 
-* [[prequantum circle n-bundle]]
 
 
 [[!include extended prequantum field theory - table]]
@@ -106,6 +111,10 @@ Lecture notes with more details are in the section _[Lagrangians and Action func
 
 * _[[geometry of physics]]_
 
+
+Discussion of prequantized (and [[polarization|polarized]]) symplectic manifolds in the context of [[cobordism rings]] and [[Thom spectra]] is in
+
+* {#Morava99} [[Jack Morava]], _Cobordism of symplectic manifolds and asymptotic expansions_, talk at the conference in honor of S.P. Novikov's 60th birthday ([arXiv:9908070](http://arxiv.org/abs/math/9908070))
 
 [[!redirects prequantum line bundles]]
 
@@ -132,4 +141,3 @@ Lecture notes with more details are in the section _[Lagrangians and Action func
 
 [[!redirects prequantum connection]]
 [[!redirects prequantum connections]]
-
