@@ -56,7 +56,7 @@ Next section: _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spe
 ### **1.2)** Structured spectra
  {#DiagramSpectra}
 
-The key result of section 1.1 was (theorem \ref{StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory}),the construction of a [[stable homotopy theory]] of [[spectra]], embodied by a stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})$ with its corresponding [[stable homotopy category]] $Ho(Spectra)$, which stabilizes the canonical looping/suspension adjunction on [[pointed topological spaces]] in that it fits into a diagram of (Quillen-)adjunctions of the form
+The key result of section 1.1 was ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)),the construction of a [[stable homotopy theory]] of [[spectra]], embodied by a stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})$ with its corresponding [[stable homotopy category]] $Ho(Spectra)$, which stabilizes the canonical looping/suspension adjunction on [[pointed topological spaces]] in that it fits into a diagram of (Quillen-)adjunctions of the form
 
 $$
   \array{
@@ -1208,7 +1208,7 @@ A **(pointed) [[topologically enriched category|topologically enriched]] [[monoi
 
    called the **[[associator]]**, 
 
-1. a [[natural isomorphism]] 
+1. {#MonoidalCategoryUnitors} a [[natural isomorphism]] 
 
    $$
      \ell
@@ -1552,7 +1552,7 @@ such that
 
    where $a$ is the associator isomorphism of $\mathcal{C}$;
 
-1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+1. {#UnitalityMonoid} ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
 
    $$
      \array{
@@ -1929,6 +1929,8 @@ Given a (pointed) [[topologically enriched category|topological]] [[closed monoi
 
 =--
 
+
+
 +-- {: .num_prop #MonoidalCategoryOfModules}
 ###### Proposition
 
@@ -1939,6 +1941,143 @@ If moreover all [[equalizers]] exist, then this is a [[closed monoidal category]
 =--
 
 (e.g. [Hovey-Shipley-Smith 00, lemma 2.2.2, lemma 2.2.8](#HoveyShipleySmith00))
+
+
++-- {: .num_example #FreeModulesTensorProduct}
+###### Example
+
+For $(A,\mu,e)$ a [[monoid in a monoidal category|monoid]] (def. \ref{MonoidsInMonoidalCategory}) in a [[symmetric monoidal category]] $(\mathcal{C},\otimes, 1)$ (def. \ref{MonoidalCategory}), the [[tensor product of modules]] (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) of two [[free modules]] (def. \ref{MonoidModuleOverItself}) $A\otimes C_1$ and $A \otimes C_2$ always exists and is the free module over the tensor product in $\mathcal{C}$ of the two generators:
+
+$$
+  (A \otimes C_1) \otimes_A (A \otimes C_2)
+  \simeq
+  A \otimes (C_1 \otimes C_2)
+  \,.
+$$
+
+Hence if $\mathcal{C}$ has all [[coequalizers]], so that the [[category of modules]] is a [[monoidal category]] $(A Mod, \otimes_A, A)$ (prop. \ref{MonoidalCategoryOfModules}) then the free module functor (def. \ref{MonoidModuleOverItself}) is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor})
+
+$$
+  F
+    \;\colon\;
+  (\mathcal{C}, \otimes, 1)
+    \longrightarrow
+  (A Mod, \otimes_A, A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to show that the diagram
+
+$$
+  A \otimes A \otimes A
+   \underoverset
+    {\underset{id \otimes \mu}{\longrightarrow}}
+    {\overset{\mu \otimes id}{\longrightarrow}}
+    {\phantom{AAAA}}
+  A \otimes A
+    \overset{\mu}{\longrightarrow}
+  A 
+$$
+
+is a [[coequalizer]] diagram (we are notationally suppressing the [[associators]]), hence that $A \otimes_A A \simeq A$, hence that the claim holds for $C_1 = 1$ and $C_2 = 1$.
+
+To that end, we check the [[universal property]] of the [[coequalizer]]:
+
+First observe that $\mu$ indeed coequalizes $id \otimes \mu$ with $\mu \otimes id$, since this is just the [[associativity]] clause in def. \ref{MonoidsInMonoidalCategory}. So for $f \colon A \otimes A \longrightarrow Q$ any other morphism with this property, we need to show that there is a unique morphism $\phi \colon A \longrightarrow Q$ which makes this [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    A \otimes A &\overset{\mu}{\longrightarrow}& A
+    \\
+    {}^{\mathllap{f}}\downarrow & \swarrow_{\mathrlap{\phi}}
+    \\
+    Q
+  }
+  \,.
+$$
+
+We claim that 
+
+$$
+  \phi 
+    \;\colon\;
+  A 
+    \underoverset{\simeq}{r^{-1}}{\longrightarrow} 
+  A \otimes 1 
+    \overset{id \otimes e}{\longrightarrow}
+  A \otimes A
+    \overset{f}{\longrightarrow}
+  Q
+  \,,
+$$
+
+where the first morphism is the inverse of the right [[unitor]] of $\mathcal{C}$.
+
+First to see that this does make the required triangle commute, consider the following pasting composite of [[commuting diagrams]]
+
+$$
+  \array{
+    A \otimes A &\overset{\mu}{\longrightarrow}& A
+    \\
+    {}^{\mathllap{id \otimes r^{-1}}}_{\mathllap{\simeq}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{r^{-1}}}_{\simeq}
+    \\
+    A \otimes A \otimes 1 
+      &\overset{\mu \otimes id}{\longrightarrow}&
+    A \otimes 1
+    \\
+    {}^{\mathllap{id \otimes e}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{id \otimes e} }
+    \\
+    A \otimes A \otimes A 
+      &\overset{\mu \otimes id}{\longrightarrow}&
+    A \otimes A
+    \\
+    {}^{\mathllap{id \otimes \mu}}\downarrow
+      &&
+    \downarrow^{\mathrlap{f}}
+    \\
+    A \otimes A 
+      &\underset{f}{\longrightarrow}& 
+    Q
+  }
+  \,.
+$$
+
+Here the the top square is the [[natural transformation|naturality]] of the right [[unitor]], the middle square commutes by the functoriality of the tensor product $\otimes \;\colon\; \mathcal{C}\times \mathcal{C} \longrightarrow \mathcal{C}$ and the definition of the [[product category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), while the commutativity of the bottom square is the assumption that $f$ coequalizes $id \otimes \mu$ with $\mu \otimes id$. 
+
+Here the right vertical composite is $\phi$,  while, by [unitality](#UnitalityMonoid) of $(A,\mu ,e)$, the left vertical composite is the identity on $A$, Hence the diagram says that $\phi \circ \mu = f$, which we needed to show.
+
+It remains to see that $\phi$ is the unique morphism with this property for given $f$. For that let $q \colon A \to Q$ be any other morphism with $ q\circ \mu = f$. Then consider the [[commuting diagram]]
+
+$$
+  \array{
+    A \otimes 1 &\overset{\simeq}{\longleftarrow}& A
+    \\
+    {}^{\mathllap{id\otimes e}}\downarrow & \searrow^{\simeq}
+    & \downarrow^{\mathrlap{=}}
+    \\
+    A \otimes A &\overset{\mu}{\longrightarrow}& A
+    \\
+    {}^{\mathllap{f}}\downarrow & \swarrow_{\mathrlap{q}}
+    \\
+    Q
+  }
+  \,,
+$$
+
+where the top left triangle is the [unitality](#UnitalityMonoid) condition and the two isomorphisms are the right [[unitor]] and its inverse. The commutativity of this diagram says that $q = \phi$. 
+
+
+=--
+
 
 
 +-- {: .num_defn #AAlgebra}
@@ -4125,7 +4264,7 @@ Moreover, the three right adjoint restriction functors are along inclusions of o
 
 
 
-##### Free spectra
+##### Structured suspension spectra
  {#FreeSpectra}
 
 The concept of _[[free spectrum]]_ is a generalization of that of _[[suspension spectrum]]_. In fact the [[stable homotopy types]] of free spectra are precisely those of iterated [[loop space objects]] of [[suspension spectra]]. But for the development of the theory what matters is free spectra before passing to stable homotopy types, for as such they play the role of the basic cells for the stable [[model structures on spectra]] analogous to the role of the [[n-spheres]] in the [[classical model structure on topological spaces]] (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} below).
@@ -4155,30 +4294,37 @@ $$
 
 This is called the **[[free structured spectrum]]**-functor.
 
+For the special case $n = 0$ it is also called the **structured [[suspension spectrum]]** functor and denoted
+
+$$
+  \Sigma^\infty_{dia} K
+    \;\coloneqq\;
+  F^{dia}_0 K
+$$
+
 =--
 
-([MMSS 00, section 8](#MMSS00))
+([Hovey-Shipley-Smith 00, def. 2.2.5](#HoveyShipleySmith00), [MMSS 00, section 8](#MMSS00))
 
 +-- {: .num_lemma #ExplicitExpressionForFreeSpectra}
 ###### Lemma
 
-Let $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ be any one of the four diagram shapes of def. \ref{TopologicalDiagramCategoriesForSpectra} and consider  the equivalence $\mathbb{S}_{dia} Mod \simeq [\mathbb{S}_{dia}Free_{dia}Mod^{op}, Top^{\ast/}_{cg}]$ of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}. Then
+Let $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ be any one of the four diagram shapes of def. \ref{TopologicalDiagramCategoriesForSpectra}. Then
 
-1. the [[free spectrum]] on $K \in Top^{\ast/}_{cg}$ is 
+1. the [[free spectrum]] on $K \in Top^{\ast/}_{cg}$ (def. \ref{FreeStructuredSpectrum}) is equivalently the smash [[tensoring]] with $K$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)) of the [[free module]] (def. \ref{MonoidModuleOverItself}) over $\mathbb{S}_{dia}$ (remark \ref{RestrictionsOfExcisiveSphere}) on the [[representable functor|representable]] $y(n) \in [Dia, Top^{\ast/}_{cg}]$ 
 
    $$
      \begin{aligned}
        F^{dia}_n K
-        & \simeq
-       y_{Free_{Dia}Mod}(n) \wedge K
+         & \simeq
+       (\mathbb{S}_{dia} \otimes_{Day} y(n)) \wedge K
        \\
-       & \simeq
-       \mathbb{S}_{dia}Free_{dia}Mod( - , \mathbb{S}_{dia} \wedge y_{Dia}(n) ) \wedge K
-       \end{aligned}
+       & \simeq \mathbb{S}_{dia} \otimes_{Day} (y(n) \wedge K)
+     \end{aligned}
      \,;
    $$
 
-1. on the $\mathbb{S}_{dia}$-[[free module]] on $n' \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}]$ this takes the value
+1. on $n' \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}_{cg}]$ its value is given by the follwoing [[coend]] expression (def. \ref{EndAndCoendInTopcgSmash})
 
   $$
     (F^{dia}_n K)(n')
@@ -4190,13 +4336,34 @@ Let $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ be any one of the four diagr
 
 =--
 
-([MMSS00, p. 7 with theorem 2.2](#MMSS00))
+([Hovey-Shipley-Smith 00, below def. 2.2.5](#HoveyShipleySmith00), [MMSS00, p. 7 with theorem 2.2](#MMSS00))
 
 
 +-- {: .proof}
 ###### Proof
 
-The first statement is a special case of the general fact that for $\mathcal{C}$ a pointed [[topologically enriched category]], and for $c \in \mathcal{C}$ any [[object]], then there is an [[adjunction]]
+Under the [[equivalence of categories]] 
+
+$$
+  \mathbb{S}_{dia} Mod \simeq [\mathbb{S}_{dia}Free_{dia}Mod^{op}, Top^{\ast/}_{cg}]
+$$ 
+
+from prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}, the expression for $F^{dia}_n K$ is equivalently the smash tensoring with $K$ of the functor that $n$ represents over $\mathbb{S}_{dia}Free_{dia}Mod$:
+
+$$
+  \begin{aligned}
+    F^{dia}_n K
+      & \simeq
+      y_{\mathbb{S}_{dia} Free_{Dia}Mod}(n) \wedge K
+      \\
+      & \simeq
+      \mathbb{S}_{dia}Free_{dia}Mod( - , \mathbb{S}_{dia} \wedge y_{Dia}(n) ) \wedge K
+  \end{aligned}
+$$
+
+(by [[full subcategory|fully faithfulness]] of the [[Yoneda embedding]]).
+
+This way the first statement is a special case of the following general fact: For $\mathcal{C}$ a pointed [[topologically enriched category]], and for $c \in \mathcal{C}$ any [[object]], then there is an [[adjunction]]
 
 $$
   [\mathcal{C}, Top^{\ast/}_{cg}]
@@ -4207,7 +4374,7 @@ $$
   Top^{\ast/}_{cg}
 $$
 
-witnessed by the following composite [[natural isomorphism]]:
+(saying that evaluation at $c$ is [[right adjoint]] to smash tensoring the fucntor represented by $c$) witnessed by the following composite [[natural isomorphism]]:
 
 $$
   [\mathcal{C}, Top^{\ast/}_{cg}](y(c)\wedge K, F)
@@ -4217,10 +4384,10 @@ $$
   Maps(K,F(c))_\ast
    \;=\;
   Top^{\ast/}_{cg}(K,F(c))
-  \,,
+  \,.
 $$
 
-where the first is the isomorphism of [[tensoring]] from prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}, while the second is the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}).
+The first is the characteristic isomorphism of [[tensoring]] from prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}, while the second is the [[enriched Yoneda lemma]] of prop. \ref{YonedaReductionTopological}.
 
 From this, the second statement follows by the proof of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}.
 
@@ -4231,17 +4398,48 @@ From this, the second statement follows by the proof of prop. \ref{ModulesForDay
 
 Explicitly, the [[free spectra]] according to def. \ref{FreeStructuredSpectrum}, look as follows:
 
-For [[sequential spectra]]: $(F^{Seq}_n K)_q \simeq S^{q-n} \wedge K$;
+For [[sequential spectra]]: 
 
-for [[symmetric spectra]]: $(F^{Sym}_n K)_q \simeq \Sigma(q)_+ \wedge_{\Sigma(q-n)} S^{q-n} \wedge K$.
+$$
+  (F^{Seq}_n K)_q 
+    \simeq 
+   \left\{ 
+     \array{
+       S^{q-n} \wedge K & if \; q \geq n
+       \\
+       \ast & \otherwise
+     }
+   \right\}
+$$
 
-for [[orthogonal spectra]]: $(F^{Orth}_n K)_q \simeq O(q)_+ \wedge_{O(q-n)} \wedge S^{q-n} \wedge K$.
+for [[symmetric spectra]]: 
 
-In particular: 
+$$
+  (F^{Sym}_n K)_q 
+    \simeq 
+  \left\{
+    \array{
+      \Sigma(q)_+ \wedge_{\Sigma(q-n)} S^{q-n} \wedge K & if\; q \geq n
+      \\
+      \ast & otherwise
+    }
+  \right.
+$$
 
-1. $F_0 K = \Sigma^\infty K$;
+for [[orthogonal spectra]]: 
 
-1. $F_n^{Seq}S^n$ is like the [[suspension spectrum]] of the point (the standard sequential [[sphere spectrum]]) but with its first $n$ components simply removed.
+$$
+  (F^{Orth}_n K)_q 
+    \simeq 
+  \left\{
+    \array{
+       O(q)_+ \wedge_{O(q-n)} \wedge S^{q-n} \wedge K & if \; q \geq n
+       \\
+       \ast & otherwise
+    }
+  \right.
+  \,.
+$$
 
 
 =--
@@ -4265,19 +4463,125 @@ $$
      K
     \\
     & \simeq
-    \overset{n_1 = \ast \in \mathbf{B}(O(q-n))}{\int}
-    O(q)_+ \underset{O(q-n)}{\wedge} S^{q-n} \wedge K
+    \left\{
+      \array{
+        \overset{n_1 = \ast \in \mathbf{B}(O(q-n))}{\int}
+          O(q)_+ \underset{O(q-n)}{\wedge} S^{q-n} \wedge K
+        & if \; q \geq n
+        \\
+        \ast & otherwise
+      }
+    \right.
   \end{aligned}
   \,,
 $$
 
-where in the second line we used that the coend collapses to $n_1 = q-n$ ranging in the full subcategory 
+where in the second line we used that the [[coend]] collapses to $n_1 = q-n$ ranging in the full subcategory 
 
 $$
   \mathbf{B}(O(q-n)_+) \hookrightarrow Orth
 $$
 
-on the object $\mathbb{R}^{q-n}$ and then applied example \ref{CoendGivesQuotientByDiagonalGroupAction}. The case of symmetric spectra is verbatim the same, with the symmetric group replacing the orthogonal group, and the case of sequential spectra is again verbatim the same, with the orthogonal group replaced by the trivial group.
+on the object $\mathbb{R}^{q-n}$ and then we applied example \ref{CoendGivesQuotientByDiagonalGroupAction}. The case of symmetric spectra is verbatim the same, with the symmetric group replacing the orthogonal group, and the case of sequential spectra is again verbatim the same, with the orthogonal group replaced by the trivial group.
+
+=--
+
++-- {: .num_prop #SmashProductOfFreeSpectra}
+###### Proposition
+
+Let $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$ be the diagram shape of either [[pre-excisive functors]], [[orthogonal spectra]] or [[symmetric spectra]]. Then under the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes}, def. \ref{FinitePointedCWComplexes}, def.\ref{SsymModuleSymmetricSpectra}) the [[free structured spectra]] of def. \ref{FreeStructuredSpectrum} behave as follows
+
+$$
+  F^{dia}_{n_1}(K_1)
+    \otimes_{\mathbb{S}_{dia}}
+  F^{dia}_{n_2}(K_2)
+   \;\simeq\;
+  F_{n_1 + n_2}(K_1 \wedge K_2)
+  \,.
+$$
+
+In particular for structured [[suspension spectra]] $\Sigma^\infty_{dia}\coloneqq F_0^{dia}$ (def. \ref{FreeStructuredSpectrum}) this gives
+
+$$
+  \Sigma^\infty_{dia}(K_1)
+    \wedge
+  \Sigma^\infty_{dia}(K_2)
+    \;\simeq\;
+  \Sigma^\infty_{dia}(K_1 \wedge K_2)
+  \,.
+$$
+
+Hence the [[suspension spectrum]] functor is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor}) from [[pointed topological spaces]] equipped with the [[smash product]] of pointed objects, to [[structured spectra]] equipped with the [[symmetric monoidal smash product of spectra]]
+
+$$
+  \Sigma^\infty
+   \;\colon\;
+  (Top^{\ast/}_{cg},\wedge, S^0)
+    \longrightarrow
+  ( \mathbb{S}_{dia}Mod, \otimes_{\mathbb{S}_{dia}}, \mathbb{S}_{dia} )
+  \,.
+$$
+
+=--
+
+([Mandell-May 02, prop. 2.2.6](#May02), [MMSS 00, lemma 1.8 with theorem 2.2](#MMSS00)) 
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{ExplicitExpressionForFreeSpectra} the free spectra are [[free modules]] over the structured [[sphere spectrum]] $\mathbb{S}_{dia}$ of the form
+$F^{dia}_n(K) \simeq \mathbb{S}_{dia} \otimes_{Day} ( y(n) \wedge K )$. By example \ref{FreeModulesTensorProduct} the tensor product of such free modules is given by
+
+$$
+  \left(
+    \mathbb{S}_{dia} \otimes_{Day} (y(n_1) \wedge K_1)
+  \right)
+   \otimes_{Day}
+  \left(
+    \mathbb{S}_{dia} \otimes_{Day} ( y(n_2) \wedge K_2 )
+  \right)
+    \;\simeq\;
+  \mathbb{S}_{dia}
+   \otimes_{Day}
+  ( y(n_1) \wedge K ) \otimes_{Day} ( y(n_2) \wedge K )
+  \,.
+$$
+
+Using the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) the expression on the right is
+
+$$
+  \begin{aligned}
+    \left(
+      (y(n_1) \wedge K_1)
+        \otimes_{Day}
+      (y(n_2) \wedge K_2)
+    \right)(c)
+    & =
+    \overset{c_1,_2}{\int}
+      Dia(c_1 + c_2, c)
+        \wedge
+      y(n_1)(c_1) \wedge K_1
+       \wedge
+      y(n_2)(c_2) \wedge K_2
+    \\
+    & \simeq
+    \overset{c_1,c_2}{\int}
+     Dia(c_1 + c_2, c)
+     \wedge
+     Dia(n_1,c_1)
+     \wedge 
+     Dia(n_2,c_2)
+     \wedge K_1 \wedge K_2
+     \\
+       & \simeq
+     Dia(n_1 + n_2,c) \wedge K_1 \wedge K_2
+     \\
+       & \simeq
+     \left(y(n_1 + n_2) \wedge (K_1 \wedge K_2)\right)(c)
+  \end{aligned}
+  \,.
+$$
+
 
 =--
 
@@ -4296,7 +4600,7 @@ $$
   F_n^{dia} S^0
 $$
 
-such that for every $X\in \mathbb{S}_{dia} Mod$ precomposition $\lambda_n^\ast$ forms a [[commuting diagram]] of the form
+between [[free spectra]] (def. \ref{FreeStructuredSpectrum}) such that for every structured spectrum $X\in \mathbb{S}_{dia} Mod$ precomposition $\lambda_n^\ast$ forms a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -4322,7 +4626,7 @@ where the horizontal equivalences are the [[adjunction]] isomorphisms and the ca
 +-- {: .proof}
 ###### Proof
 
-Since all prescribed morphisms in the diagram are [[natural transformations]], this is in fact a diagram of copreheaves on $\mathbb{S}_{dia} Mod$
+Since all prescribed morphisms in the diagram are [[natural transformations]], this is in fact a diagram of [[copresheaves]] on $\mathbb{S}_{dia} Mod$
 
 $$
   \array{
