@@ -3578,7 +3578,7 @@ if
    $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$.
 
 
-The converging spectral sequence is called _multiplicative_ if 
+The converging spectral sequence is called a _[[multiplicative spectral sequence]]_ if 
 
 1. $\{E_2^{\bullet,\bullet}\}$ is equipped with the structure of a [[bigraded object]] [[associative algebra|algebra]];
 
@@ -4083,7 +4083,7 @@ $$
   \,.
 $$
 
-Now since the [[coefficients]] $R$ is a [[ring]], the [[Serre spectral sequence]] is multiplicative under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product.
+Now since the [[coefficients]] $R$ is a [[ring]], the [[Serre spectral sequence]] is [[multiplicative spectral sequence|multiplicative]] under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product.
 
 To make use of this, write
 
