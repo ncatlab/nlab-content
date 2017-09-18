@@ -29,6 +29,8 @@ Here are some other reasons why the empty space should not be considered (path-)
 
 * Category-theoretically, one may say that a space $X$ is connected if the [[functor]] $hom(X,-)$ preserves [[coproducts]].  Since $\hom(\emptyset,-)$ is constant at the point, it certainly does not preserve coproducts.
 
+* The statement that a product $X\times Y$ is connected if and only if its components $X$ and $Y$ are connected fails if the empty set is regarded as connected.
+
 See [[too simple to be simple]] for general theory.
 
 
