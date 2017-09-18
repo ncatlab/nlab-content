@@ -268,4 +268,5 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * p. 36, second line: on the right replace $p$ by $p-1$, i.e. replace $\pi_p \colon G^n \to D^{p,n-p}$ by $\pi_{p-1} \colon G^n \to D^{p-1,n-p+1}$ (see end of the proof on the same page)
 
+* p. 41, second diagram: the top horizontal moprhism is missing a superscript star.
 category: reference
