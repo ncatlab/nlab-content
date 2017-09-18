@@ -17,16 +17,12 @@
 
 For various constructions in [[stable homotopy theory]] -- such as notably that of the [[symmetric monoidal smash product of spectra]] -- it is useful to use a model
 for objects in the [[stable (∞,1)-category of spectra]]
-and the [[stable homotopy category]] more refined than that given by 
-$\Omega$-[[spectrum|spectra]]. The notion of _coordinate-free spectrum_ is such
+and the [[stable homotopy category]] more refined than that given by [[sequential spectra]]. The notion of _coordinate-free spectrum_ is such
 a refinement.
 
-Where an $\Omega$-spectrum is a collection of [[topological space]]s indexed by 
-the integers $\mathbb{Z}$, a coordinate free spectrum is a collection of
-[[topological space]]s index by all finite dimensional subspaces of
-a real inner product [[vector space]] $U$ isomorphic to $\mathbb{R}^\infty$.
+Where a [[sequential spectrum]] is a collection of [[pointed topological space]] indexed by  the [[natural numbers]] $\mahbb{N}$, a coordinate free spectrum is a collection of [[topological space]]s index by all finite dimensional subspaces of a real inner product [[vector space]] $U$ isomorphic to $\mathbb{R}^\infty$.
 
-This construction can be seen as a [[G-spectrum]] over a [[G-universe]] for the trivial group.
+This may be seen as a [[G-spectrum]] over a [[G-universe]] for the trivial group $G = 1$.
 
 ## Definition
 
@@ -72,3 +68,5 @@ The definition of coordinate free spectrum directly generalizes to that of genui
 ## References 
 
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May|P. May]], section 1 of _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)  ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+[[!redirects coordinate-free spectra]]
