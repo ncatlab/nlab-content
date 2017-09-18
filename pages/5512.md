@@ -249,9 +249,11 @@ has [[inverse image]] $f^\ast$ a [[cartesian closed functor]] and hence (see the
 ## References 
  {#References}
 
-The term 'Frobenius reciprocity', in the context of hyperdoctrines, was introduced as a "Definition-Theorem" by Lawvere on page 6 of
+The term 'Frobenius reciprocity', in the context of hyperdoctrines, was introduced by Lawvere in
 
 * F.W. Lawvere, _Equality in hyperdoctrines and comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
+
+Lawvere defines Frobenius reciprocity by either of the two equivalent conditions (see "Definition-Theorem" on p.6), and notes that "one of these kinds of identities is formally similar to, and reduces in particular to, the Frobenius reciprocity formula for permutation representations of groups" (p.1).
 
 A textbook source is around lemma 1.5.8 in 
 
