@@ -8,7 +8,7 @@ The [[initial object]] in the category of toposes and [[logical morphisms]]; als
 
 ### Foundations
 
-In the [[foundations of mathematics]], [[Jim Lambek]] proposed to use the free topos as ambient world to do mathematics in; see [Lambek](#LambekWorld). Being syntactically constructed, but universally determined, with higher-order [[intuitionistic type theory]] as [[internal language]] he saw it as a reconciliation of the three classical schools of [[philosophy of mathematics]], namely [[formalism]], [[platonism]], and [[intuitionism]]. His latest views on this variant of categorical foundations can be found in ([Lambek-Scott 2011](#LS11)).
+In the [[foundations of mathematics]], [[Jim Lambek]] proposed to use the free topos as ambient world to do mathematics in; see ([Lambek 2001](#LambekWorld)). Being syntactically constructed, but universally determined, with higher-order [[intuitionistic type theory]] as [[internal language]] he saw it as a reconciliation of the three classical schools of [[philosophy of mathematics]], namely [[formalism]], [[platonism]], and [[intuitionism]]. His latest views on this variant of categorical foundations can be found in ([Lambek-Scott 2011](#LS11)).
 
 ## Related entries 
 
@@ -31,6 +31,6 @@ The following contains a careful discussion of [[Gödel's incompleteness theorem
 * [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
 
 * {#LambekWorld}[[Jim Lambek]], _What is the world of mathematics?
-_ [PDF](http://www.math.mcgill.ca/barr/lambek/pdffiles/WorldMath.pdf)
+_ [PDF](http://www.math.mcgill.ca/barr/lambek/pdffiles/WorldMath.pdf), (2001)
 
 * [[Elephant]] F3, to appear.
