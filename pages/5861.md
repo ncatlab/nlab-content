@@ -587,6 +587,7 @@ Here we may tend to avoid this terminology, since by the discussion at <a href="
 =--
 
 +-- {: .num_prop #InclusionOfConstantIntoInfinitesimalIntoAllPaths}
+
 ###### Observation
 
 There is a canonical [[natural transformation]]
@@ -1813,10 +1814,10 @@ The first condition above makes $X$ an "unseparated" manifold. The second is a f
 
 For the moment see also at _[smooth manifold -- general abstract geometric formulation](smooth%20manifold#GeneralAbstractCharacterization)_
 
-#### $GL(n)$-principal tangent bundles
+#### Frame bundles
  {#GLnTangentBundles}
 
-We discuss how each manifold $X$ in differential cohesion as in def. \ref{Manifold} is associated a canonical [[tangent bundle]] classified by a morphism $X \to \mathbf{B}GL(n)$.
+We discuss how each manifold $X$ in differential cohesion as in def. \ref{Manifold} is associated a canonical [[frame bundle]] classified by a morphism $X \to \mathbf{B}GL(n)$.
 
 +-- {: .num_defn #FormalDiskBundle}
 ###### Definition
