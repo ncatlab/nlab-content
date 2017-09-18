@@ -1,0 +1,11 @@
+
+
+* [[Stefan Schwede]],
+
+  _Lectures on Equivariant Stable Homotopy Theory_
+
+  ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+on [[equivariant stable homotopy theory]].
+
+category: reference
