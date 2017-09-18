@@ -290,7 +290,7 @@ cluster point, the claim follows.
 
 
 
-### Proof via ultrafilter convergence 
+### Proofs via ultrafilter convergence 
  {#ProofViaUltrafilters}
 
 One method of proof uses [[ultrafilter]] [[convergence]]. Let $\langle X_\alpha \rangle_{\alpha \in A}$ be a family of compact spaces. 
@@ -306,24 +306,30 @@ One method of proof uses [[ultrafilter]] [[convergence]]. Let $\langle X_\alpha 
 The [[axiom of choice]] is used in step 2 to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The ultrafilter theorem is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies Tychonoff's theorem for Hausdorff spaces. 
 =-- 
 
-### Short proof via ultrafilter convergence
+Bourbaki [General Topology, I\S10.2, Thm.1(d), p.101] gives an alternative proof using ultrafilters, which may be formulated in terms of categorical lifting/extension properties. For any set $X$ and ultrafilter $U$ on $X$, form a space $X_U$ whose underlying set is $X \sqcup \{\infty\}$ (adjoin an extra point $\infty$) and where a subset of $X \sqcup\{\infty\}$ is open iff it either does not contain $\infty$ or is of form $Z \sqcup\{\infty\}$ where $Z\in U$, i.e., is "big" according to the ultrafilter $U$. The inclusion of the set $X$ with its discrete topology into $X_U$ is a subspace inclusion. 
 
-A map $g$ is proper ([Bourbaki, General Topology, I\S10.2, Thm.1(d), p.101]) iff for each ultrafilter $U$ on each set $X$ it holds
-$$X \longrightarrow X\cup\{\infty\} \rightthreetimes g $$
-where 
-$X \longrightarrow X\cup\{\infty\} $
-denotes the inclusion of the set $X$ with discrete topology into the set $X$ adjoined one extra point $\infty$
-with the following topology [Bourbaki, General Topology, I\S6.5, Definition 5, Example]:
-a subset of $X\cup\{\infty\}$ is open iff it either does not contain $\infty$ or is of form $Z\cup\{\infty\}$
-where $Z\in U$ is big according to the ultrafilter $U$.  
-(The topology on $X$ does not have to be discrete: a subset of $X\cup\{\infty\}$ is open iff it either does not contain $\infty$ and is open in $X$  or is of form $Z\cup\{\infty\}$
-where $Z\in U$ is big according to the ultrafilter $U$
-and $Z$ is open in $X$.)
++-- {: .num_theorem} 
+###### Theorem (Bourbaki) 
+A map $g: Y \to Z$ is [[proper map|proper]] if and only if it has the [[lifting property|right lifting property]] with respect to the inclusion $i: X \hookrightarrow X_U$ for any such pair $(X, U \in \beta(X))$ (in symbols: $X \hookrightarrow X_U \rightthreetimes g$). In other words: iff for each commutative diagram 
 
+$$\array{
+X & \to & Y \\
+\mathllap{i} \downarrow & & \downarrow \mathrlap{g} \\ 
+X_U & \to & Z
+}$$ 
 
-A space $K$ is compact iff the map $K\longrightarrow \{*\}$ sending $K$ to a single point is proper.
+there is a lift $X_U \to Y$ making the evident triangles commute. 
+=-- 
 
-The Tychonoff theorem follows from the universality property of the product.
++-- {: .num_remark} 
+###### Remark 
+Actually the topology on $X$ does not have to be discrete: the same result extends to any space $X$ and its inclusion into $X\sqcup\{\infty\}$ where we declare a subset in $X \sqcup \{\infty\}$ to be open iff it either does not contain $\infty$ and is open in $X$, or is of form $Z\sqcup\{\infty\}$
+where $Z\in U$ is and $Z$ is open in $X$.
+=-- 
+
+A space $K$ is compact iff the map $K\longrightarrow \{*\}$ is proper. Thus to see that a product $\prod_{i in I} Y_i$ of compact spaces is compact, it suffices to show that for any $(X, U)$ and any $f: X \to \prod_{i \in I} Y_i$, there is a continuous extension $\tilde{f}: X_U \to \prod_{i \in I} Y_i$. But (using the axiom of choice) this is clear from the universality property of the product: choose a continuous extension $\widetilde{\pi_i f}: X_U \to Y_i$ for each $\pi_i f: X \to Y_i$, and then assemble these into an extension 
+
+$$\tilde{f} \coloneqq \langle \widetilde{\pi_i f} \rangle_{i \in I}: X_U \to \prod_{i \in I} Y_i.$$ 
 
 +-- {: .num_remark #Taimanov} 
 ###### Remark
