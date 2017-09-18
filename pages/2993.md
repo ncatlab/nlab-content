@@ -110,6 +110,8 @@ The [[field of fractions]] of $R[z]$ is the [[field]] $R(z)$ of [[rational funct
 
 * [[variety]], [[Diophantine equation]]
 
+* [[Jones polynomial]], [[Alexander polynomial]] ([[knot theory]])
+
 
 [[!redirects polynomial]]
 [[!redirects polynomials]]
