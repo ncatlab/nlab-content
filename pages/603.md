@@ -730,6 +730,7 @@ and we can now glue this to another interval along the point $1$, obtaining a we
 
 [[Urs Schreiber|Urs]]: true. I need to think about a nice way to formalize such a cancellation.
 
+[[Z|Z]]: I'd like to know more about composition of bonds as described on p.8 of "Higher Order Architecture of Collections of Objects" (Nils Baas). Can someone please clarify the rules on this page? 
 =--
 
 [[!redirects hyperstructural]]
