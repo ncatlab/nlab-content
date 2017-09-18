@@ -110,7 +110,7 @@ $$
     Hom_{\mathcal{C}}\left( L(Y), \underset{\longleftarrow}{\lim}_i X_i\right)
     \\
     & \simeq
-    \underset{\longleftarrow}{\lim}_i \left( Hom_{\mathcal{C}}\left(L\left(Y\right) X_i\right)\right)
+    \underset{\longleftarrow}{\lim}_i \left( Hom_{\mathcal{C}}\left(L\left(Y\right), X_i\right)\right)
     \\
     & \simeq
     \underset{\longleftarrow}{\lim}_i \left(Hom_{\mathcal{D}}\left(Y, R\left(X_i\right)\right)\right)
