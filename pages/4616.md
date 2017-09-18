@@ -73,7 +73,7 @@ This follows by results in ([Lewis](#Lewis)).
 +-- {: .proof}
 ###### Proof
 
-Since for $X \in Top$ the map $|Sing X| \to X$ is a cofibrant [[resolution]] in the standard [[model structure on topological spaces]], we have that
+Since for $X \in Top$ the map $|Sing X| \to X$ is a cofibrant [[resolution]] in the standard [[Quillen model structure on topological spaces]], we have that
 
 $$
   |Sing X_\bullet| \to X_\bullet
