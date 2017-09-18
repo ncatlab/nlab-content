@@ -793,6 +793,11 @@ For example, the [[subobject classifier]] $\Omega$ in simplicial sets is a Kan c
 
 It is not hard to imagine how the proof might go, by adapting the proof in the special case of simplicial groups, replacing occurrences of elements of the form $x y^{-1} z$ by values $t(x, y, z)$ of a chosen Mal'cev operation. 
 
++-- {: .num_remark} 
+###### Remark 
+Somewhat more generally, for any [[Mal'cev category]] $C$, a simplicial object $\Delta^{op} \to C$ satisfies the Kan condition. This was shown by [Carboni, Kelly, and Pedicchio](#CKP). 
+=-- 
+
 
 ### Singular simplicial complexes / fundamental $\infty$-groupoids
 
@@ -869,6 +874,9 @@ Discussion of the [[homotopy theory]] of [[smooth ∞-groupoids]] presented by "
 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _Principal $\infty$-bundles - Presentations_ ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
   {#NSSb}
+
+* [[Aurelio Carboni|A. Carboni]], [[Max Kelly|G.M. Kelly]], and M.C. Pedicchio, _Some remarks on Maltsev and Goursat categories_, Applied Categorical Structures, Volume 1, Issue 4 (December 1993), 385-421. ([Springer link](http://link.springer.com/article/10.1007%2FBF00872942)) 
+ {#CKP}
 
 
 [[!redirects Kan complexes]]
