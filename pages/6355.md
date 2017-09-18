@@ -43,7 +43,7 @@ Then:
 
 * the _kinematics_ of $Z$ is $Z_0 : Ob(Bord_n^S) \to Ob(\mathcal{C})$, the action of the [[functor]] $Z$ on [[object]]s.
 
-* with that givenm the _dynamics_ of $Z$ is $Z_1 : Mor(Bord_n^S) \to Mor(\mathcal{C})$, the action of the functor $Z$ on [[morphism]]s.
+* with that given, the _dynamics_ of $Z$ is $Z_1 : Mor(Bord_n^S) \to Mor(\mathcal{C})$, the action of the functor $Z$ on [[morphism]]s.
 
 This means that as we regard an $n$-dimensional [[QFT]] as an [[FQFT|extended QFT]] given by an [[n-functor]]
 
