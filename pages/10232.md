@@ -60,7 +60,7 @@ $$
       {\underset{\Sigma_\ast}{\longrightarrow}}
       {\overset{\Sigma_!}{\longrightarrow}}
       {\overset{\Sigma^\ast}{\longleftarrow}}
-  \mathbb{B}
+  \mathbf{H}
   ,.
 $$
 
@@ -83,7 +83,7 @@ $$
   \array{
     && E
     \\
-    & {}^{\mathllap{\sigma}}\nearrow & \downarrow^{\mathrlap{p}}
+    & {}^{\mathllap{\phi_U}}\nearrow & \downarrow^{\mathrlap{p}}
     \\
     U \times \Sigma
     &\underset{pr_2}{\longrightarrow}&
