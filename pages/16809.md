@@ -31,7 +31,7 @@ Hence the elements in the Euler-Lagrange complex have the following interpretati
 
 * in degree $dim(\Sigma)+1$: [[Euler-Lagrange equations of motion]];
 
-* in degree $dim(\Sigma)-1$: trivial local Lagragians;
+* in degree $dim(\Sigma)-1$: trivial local Lagrangians;
 
 * in degree $dim(\Sigma)+2$: [[obstructions]] for [[equations of motion]] to be variational, i.e. to be the Euler-Lagrange equations of a local Lagrangian.
 
