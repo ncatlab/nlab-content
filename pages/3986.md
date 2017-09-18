@@ -26,7 +26,7 @@ Of course, this is complete overkill; category theorists are not oblivious to th
 
 * $\widebar{\exp(z)} = \exp(\widebar{z})$. 
 
-
+See also [[trigonometric function]] for some discussion. 
 
 [[!redirects trigonometric identity]]
 [[!redirects trigonometric identities]]
