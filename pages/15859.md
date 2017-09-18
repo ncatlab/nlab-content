@@ -21,6 +21,8 @@
 ##Idea##
 In the mid 1970s Julian Cole proposed a topos-theoretic construction of spectra arising as right adjoints to forgetful functors that generalized [[Monique Hakim|M. Hakim's]] approach to the [[spectrum of a commutative ring]].
 
+Basic ingredients are pairs of geometric theories $S$ and $T$ over the same language such that the axioms of $T$ results from $S$ by addition of further axioms. Then $T-Mod_\mathcal{E}$ is a full subcategory of $S-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretical flavor.
+
 ##Definition##
 Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _T-modelled toposes_ is given as follows: 
 
