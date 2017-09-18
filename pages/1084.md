@@ -28,6 +28,10 @@ It is also called the _homotopy [[cokernel]]_ of $f$ or the _[[weak quotient]]_ 
 
 The dual notion is that of [[mapping cocone]].
 
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="660" >
+
+(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
 
 ## Definition
  {#Definition}
