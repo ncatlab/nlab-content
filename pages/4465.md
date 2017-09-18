@@ -29,7 +29,11 @@ In the context of [[string theory]] BH entropy is explained by a version of the 
 
 Detailed computations exist in particular for [[D1-brane]]/[[D5-brane]] systems. This is parts of the [[AdS/CFT correspondence]]. See ([AGMOO, chapter 5](#AGMOO)).
 
-See also _[[string theory results applied elsewhere]]_.
+See also 
+
+* [[holographic entanglement entropy]]
+
+* _[[string theory results applied elsewhere]]_.
 
 ### Interpretation by strong coupling limit of D-branes
 
@@ -63,8 +67,8 @@ Basic introductory accounts include
 
 A more general discussion which identifies thermodynamic properties of all [[horizons]] appearing on gravity (not just [[black hole]] horizons) was given in 
 
-* [[Ted Jacobson]], _Thermodynamics of Spacetime: The Einstein Equation of State_, Phys.Rev.Lett.75:1260-1263, 1995 ([arXiv:gr-qc/9504004](http://arxiv.org/abs/gr-qc/9504004))
- {#Jacobson95}
+* {#Jacobson95} [[Ted Jacobson]], _Thermodynamics of Spacetime: The Einstein Equation of State_, Phys.Rev.Lett.75:1260-1263, 1995 ([arXiv:gr-qc/9504004](http://arxiv.org/abs/gr-qc/9504004))
+ 
 
 This article showed that under some assumptions the [[Einstein equations]] can even be _derived_ from identifying gravitational horizon area with [[entropy]] and them imposing laws of [[thermodynamics]]. 
 
@@ -88,8 +92,7 @@ and reviewed in
 
 Further developments on black hole entropy are in
 
-* [[Ashoke Sen]], _Logarithmic Corrections to Schwarzschild and Other Non-extremal Black Hole Entropy in Different Dimensions
-Ashoke Sen_ ([arXiv:arXiv:1205.0971](http://arxiv.org/abs/arXiv:1205.0971))
+* [[Ashoke Sen]], _Logarithmic Corrections to Schwarzschild and Other Non-extremal Black Hole Entropy in Different Dimensions_, JHEP04(2013)156 ([arXiv:arXiv:1205.0971](http://arxiv.org/abs/arXiv:1205.0971))
 
 * Aitor Lewkowycz, [[Juan Maldacena]], _Generalized gravitational entropy_ ([arXiv:1304.4926](http://arxiv.org/abs/1304.4926))
 
