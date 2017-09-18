@@ -60,7 +60,7 @@ $$R:=\mathbb{Z}\{T\}^\dagger$$
 of overconvergent power series on the unit disc with coefficients in the Banach ring $(\mathbb{Z},|\cdot|_\infty)$: the `geometric` classical Lambda-structure is given by the base Banach ring, and the differential/absolute graduation is given by the $T$-part of the monoid (we may need to make a completion here)
 $$
 \Lambda(R):=
-\mathbb{R}\{T,T^{-1\}^\dagger\cap \{P\in \mathbb{Z}\{T\}^\dagger,|P|_{\infty,1}\leq 1\}.
+\mathbb{R}\{T,T^{-1}\}^\dagger\cap \{P\in \mathbb{Z}\{T\}^\dagger,|P|_{\infty,1}\leq 1\}.
 $$
 This is the monoid of power series whose terms are all equal to zero except possibly one, that is equal to $\{\pm 1\}$. It contains and extends the monoid $\Lambda(\Z,|\cdot|_\infty)=\{\pm 1\}$ in degree zero. This will be the natural grading monoid (generalized Lambda-structure) for absolute motives, i.e., motivic cohomology theories over $(\mathbb{Z},|\cdot|_\infty)$. Remark that the recent work of Scholze on local Schtukas in mixed characteristic also uses in an essential way objects such as the unit disc over the given base Banach ring.
 
