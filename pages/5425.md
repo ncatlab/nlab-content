@@ -49,7 +49,7 @@ A presentation of geometric $\infty$-stacks, in some generality, by suitably  Ka
 
 * Every [[schematic homotopy type]] is given by a geometric $\infty$-stack.
 
-* [[Kan-fibrant simplicial manifolds]]  serve to present geometric $\infty$-stacks in [[higher differential geometry]].
+* [[Kan-fibrant simplicial manifolds]]  serve to present geometric $\infty$-stacks in [[higher differential geometry]], the [[Lie infinity-groupoids]]
 
 ## Toen 00
 
