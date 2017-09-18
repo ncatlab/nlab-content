@@ -40,4 +40,10 @@ Notes reviewing more technical details of the problem are in
 
 * Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
 
+See also
+
+* Wikipedia, _[Mass gap](https://en.wikipedia.org/wiki/Mass_gap)_.
+
+* Wikipedia, _[Yang-Mills existence and the mass gap](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap)_
+
 [[!redirects mass gap problem]]
