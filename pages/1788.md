@@ -1,5 +1,50 @@
 
 
+Let $C$ be a [[cocommutative coalgebra]] augmented over a field $k$ with maximal coideal $C_+$. 
+
+Write
+
+$$
+ C_+^1 \coloneqq (C_+ \hookrightarrow C)
+$$
+
+and given for $n \geq 1$ an inclusion
+
+$$
+  C_+^n 
+    \hookrightarrow 
+  C_+
+   \otimes 
+  \underset{n-1}{\underbrace{
+    C \otimes \cdots \otimes C
+  }}
+$$
+
+inductively define $C_+^{n+1}$ to be the image of
+
+$$
+ ...
+$$
+
+such that the filtration
+
+$$
+  C
+  \longrightarrow
+  C_+
+  \longrightarrow
+  C_+^2
+  \longrightarrow
+  C_+^3
+  \longrightarrow
+  \cdots
+$$
+
+is an exhaustive Hausdorff filtration ([def.](filtered+object#ExhaustiveHausdorffAndCompleteFiltrations)).
+
+***
+
+
 Let $A$ be a $k$-algebra with a maximal ideal $n_A$ such that the filtration
 
 $$
