@@ -5,14 +5,19 @@
 
 ## Idea
 
-Constructions of [[quantum field theories]] in [[mathematics]].
+Constructions of [[quantum field theories]] rigorously in [[mathematics]], notably by rigorous constructions of [[path integrals]].
 
 ## Related concepts
 
-* [[AQFT]], [[FQFT
-]]
+* [[AQFT]], [[FQFT]]
 
 ## Refereces
 
+* [[James Glimm]], [[Arthur Jaffe]], _[[Quantum physics -- A functional integral point of view]]_,  535 pages, Springer
+
 * [[Arthur Jaffe]], _Constructive quantum field theory_ ([pdf](http://www.arthurjaffe.com/Assets/pdf/CQFT.pdf))
 
+* Stephen J. Summers, _A Perspective on Constructive Quantum Field Theory_ ([arXiv:1203.3991](http://arxiv.org/abs/1203.3991))
+
+[[!redirects constructive QFT]]
+[[!redirects constructive field theory]]
