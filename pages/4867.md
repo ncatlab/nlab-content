@@ -3,15 +3,18 @@
 
 ## Formalism
 
-* [[Poincare Lie algebra]]
+* [[Poincaré Lie algebra]]
 
-  * [[super Poincare Lie algebra]], [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
+  * [[super Poincaré Lie algebra]], [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
 
 * [[differential geometry]]
 
+* ([[super-Cartan geometry|super]]-)[[Cartan geometry]]
+
   * [[pseudo-Riemannian manifold|pseudo]]-[[Riemannian manifold]]
 
-  * [[spacetime]], [[smooth Lorentzian manifold]]
+  * [[spacetime]]
+
 
 ## Definition
 
@@ -35,17 +38,49 @@
 
 ## Properties
 
+* [[Kaluza-Klein mechanism]]
+
 * [[Bekenstein-Hawking entropy]]
 
 * [[generalized second law of thermodynamics]]
 
-## Models
+* [[cosmic censorship hypothesis]]
+
+* [[weak gravity conjecture]]
+
+## Spacetimes
 
 * [[standard model of cosmology]]
 
-* [[11-dimensional supergravity]]
+* [[Minkowski spacetime]]
 
-* [[Kaluza-Klein mechanism]]
+[[!include charged and rotating black holes -- table]]
+
+* [[asymptotically flat spacetime]]
+
+* [[gravitational wave]]
+
+* [[anti de Sitter spacetime]]
+
+* [[FRW spacetime]]
+
+* [[Taub-NUT spacetime]]
+
+* [[Einstein manifold]]
+
+* [[pp-wave spacetime]]
+
+* [[KK-monopole]]
+
+* [[Malament–Hogarth spacetime]]
+
+* [[super spacetime]]
+
+  * [[super Minkowski spacetime]]
+
+* [[black brane]]
+
+
 
 ## Quantum theory
 
@@ -55,4 +90,3 @@
 
   * [[string theory]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/gravity+contents)</div>
