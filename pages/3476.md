@@ -177,8 +177,11 @@ Dependent W-type were introduced in
 
 Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 
-* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
- {#AwodeyGambinoSojakova}
+* {#AwodeyGambinoSojakova} [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
+ 
+
+* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], _Homotopy-initial algebras in type theory_ ([arXiv:1504.05531](http://arxiv.org/abs/1504.05531))
+
 
 Work towards dependent W-types in HoTT is here:
 
