@@ -21,6 +21,8 @@ An abstractly defined $n$-dimensional [[quantum field theory]] is a consistent a
 
 In this abstract formulation of QFT a **D-brane** is a type of data assigned by the QFT to boundaries of cobordisms. 
 
+For a broader perspective see at _[[brane]]_.
+
 ### In $2d$ rational CFT
 
 A well understood class of examples is this one: among all 2-dimensional [[conformal field theory]] that case of _full rational 2d CFT_ has been understood completely, using [[FFRS-formalism]]. It is then a theorem that full 2-rational CFTs are classified by 
