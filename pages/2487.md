@@ -224,7 +224,7 @@ First observe that $GL(1,k) = k^\setminus \{0\}$ has this property:
 
 Now for the general case:
 
-1. For $k = \mathbb{C}$: every invertible complex matrix is diagonalizable by a sequence of elementary matrix operations. Each of these is clearly path-connected to the identity. Finally the subspace of [[diagonal matrices]] is the [[product topological space]] $\underset{ \{1, \cdots, n\} }{\prod} (\mathbb{C} \setminus)$ and hence clearly connected, since each factor space is.
+1. For $k = \mathbb{C}$: every invertible complex matrix is diagonalizable by a sequence of elementary matrix operations. Each of these is clearly path-connected to the identity. Finally the subspace of invertible [[diagonal matrices]] is the [[product topological space]] $\underset{ \{1, \cdots, n\} }{\prod} (\mathbb{C} \setminus \{0\})$ and hence clearly connected, since each factor space is.
 
 1. For $k = \mathbb{R}$: the [[determinant]] function is a [[continuous function]] $GL(n,k) \to \mathbb{R} \setminus \{0\}$, and since the [[codomain]] is not path connected, the domain cannot be either.
 
