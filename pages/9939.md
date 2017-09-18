@@ -534,6 +534,11 @@ Discussion in terms of [[Bousfield localization of model categories]] [[model ca
 
 * {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], chapter VIII of _[[Rings, modules and algebras in stable homotopy theory]]_ 1997 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
+see also
+
+* [[Carles Casacuberta]], [[Javier Gutiérrez]], _Homotopical Localizations of Module Spectra_, Transactions of the American Mathematical Society
+Vol. 357, No. 7 (Jul., 2005), pp. 2753-2770  ([JSTOR](http://www.jstor.org/stable/3845180))
+
 Lecture notes include
 
 * [[Nerses Aramian]], _Bousfield Localization_ ([pdf](http://www.math.uiuc.edu/~aramyan2/bousfield.pdf))
