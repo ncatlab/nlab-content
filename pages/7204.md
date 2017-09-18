@@ -57,6 +57,10 @@ _Type II supergravity_ is a [[supergravity]] in [[dimension]] 10 which is the lo
 
 See the general references at [[supergravity]].
 
+Via [[KK-compactification]] from [[11d supergravity]]:
+
+* M. Huq, M. A. Namazie, _Kaluza-Klein Supergravity In Ten Dimensions_, Class. Quantum Grav. 2 (1985) 293
+
 ### Solutions and BPS states
 
 Disucssion of [[black hole]] solutions (see also at _[[black holes in string theory]]_) includes
