@@ -62,11 +62,11 @@ This is due to ([Getzler](#Getzler))
 +-- {: .num_theorem}
 ###### Theorem
 
-The [[operad]] for $(n+1)$-BV-algebras is the [[homology]] of the [[framed little n-disk operad]].
+The [[homology]] of an [[algebra over an operad]] over the [[framed little n-disk operad]] has a natural structure of an $(n+1)$-BV-algebra.
 
 =--
 
-This appears as ([CohenVoronov, theorem 5.3.3](#CohenVoronov)).
+This appears as ([CohenVoronov, theorem 5.3.3](#CohenVoronov)). The full [[homology]] of the [[framed little n-disk operad]] is described by ([SalvatoreWahl, theorem 5.4](#SalvatoreWahl)).
 
 ## Examples
 
@@ -97,6 +97,10 @@ The generalization to higher dimensional framed little disks is discussed in
 
 * [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](http://arxiv.org/abs/math/0503625))
 {#CohenVoronov}
+
+* [[Paolo Salvatore]], Nathalie Wahl, _Framed discs operads and Batalin-
+Vilkovisky algebras_ ([pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf))
+{#SalvatoreWahl}
 
 The BV-algebra structure on [[multivector field]]s on an [[oriented]] [[smooth manifold]] is discussed for instance in section 2 of 
 
