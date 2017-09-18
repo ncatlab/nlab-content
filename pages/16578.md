@@ -26,3 +26,4 @@ which is a [[Coxeter group]].  For related references, see the last section of [
 
 * [[Alexander Grothendieck]]. [[Esquisse d'un programme]] (section 3)
 * {#JonesSingerman94} [[Gareth Jones]] and [[David Singerman]]. Maps, hypermaps, and triangle groups.  In _The Grothendieck Theory of Dessins d'Enfants_, [[L. Schneps]] (ed.), London Mathematical Society Lecture Note Series 200, Cambridge University Press, 1994.
+* See also the Wikipedia page on [generalized maps](https://en.wikipedia.org/wiki/Generalized_map), which correspond to permutation representations of $\mathcal{C}_n$.
