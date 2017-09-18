@@ -128,3 +128,6 @@ The analogue between arbitrary [[topological spaces]] (not manifolds) is simply 
 * [[embedding of smooth manifolds]]
 
 [[!redirects immersion of smooth manifolds]]
+
+[[!redirects immersion of differentiable manifolds]]
+[[!redirects immersions of differentiable manifolds]]
