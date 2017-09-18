@@ -209,6 +209,7 @@ $$
   [X,Y](U) \simeq \mathbf{H}(U , [X,Y])
 $$
 
+
 and by the defining $((-)\times X \vdash [X,-])$[[adjunction]] this is naturally equivalent to 
 
 $$
@@ -565,6 +566,8 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
   * [[implication]], [[linear implication]]
 
 * [[power object]], [[exponential object]]
+
+* [[function monad]]
 
 * [[exponential law for spaces]]
 
