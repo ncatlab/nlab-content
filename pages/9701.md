@@ -35,7 +35,7 @@ In [[physics]], in [[gauge theory]], the clutching construction plays a central 
 
 Reviews include
 
-* [[Alan Hatcher]], page 22 of _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* [[Allen Hatcher]], page 22 of _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
 * Wikipedia, _[Clutching construction](http://en.wikipedia.org/wiki/Clutching_construction)_
 
