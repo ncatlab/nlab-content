@@ -26,7 +26,7 @@ Roughly speaking, a **factorization system** on a [[category]] consists of two c
 
 * In most of the literature, "factorization system" unqualified refers specifically to [[orthogonal factorization system]]s (OFS).
 
-* [[weak factorization system]]s (WFS) are "more general" than orthogonal ones, in the sense that every OFS is also a WFS.  But since the most important examples of WFS (those that occur in [[model category|model categories]] are not OFS, intuitively they are more or less independent concepts.
+* [[weak factorization system]]s (WFS) are "more general" than orthogonal ones, in the sense that every OFS is also a WFS.  But since the most important examples of WFS (those that occur in [[model category|model categories]]) are not OFS, intuitively they are more or less independent concepts.
 
 * [[algebraic weak factorization system]]s (AWFS) are a strengthened "algebraic" version of WFS in which the factorizations are functorial and the two classes of maps are algebraic.
 
