@@ -85,7 +85,7 @@ All [[local field theories]] in physics are prominently embodied by key [[nLab:e
 
 But [[perturbative string theory]] is not a [[local field theory]]. Instead it is an [[S-matrix theory]] (see _[What is string theory?](#WhatIsStringTheory)_). Therefore instead of being given by an [[equation]] that picks out the physical trajectories, it is given by a prescription for how to compute [[scattering amplitudes]]. That prescription is the [[string perturbation series]]: it says that the [[probability amplitude]] for $n_{in}$ asymptotic states of strings coming in (into a particle collider experiment, say), scattering, and $n_{out}$ other asymptotic string states emerging (and hitting a detector, say) is a sum over all [[Riemann surfaces]] with $n$-punctures of the [[n-point functions]] of the given [[2d CFT]] that defines the scattering [[vacuum]].
 
-On the other hand, there is an analog of the [[second quantization|second quantized]] field-theory-with-equations for string scattering, called [[nLab:string field theory]], and this again is quiven by equations of motion. For instance the equations of motion of closed bosonic string field theory are of the form
+On the other hand, there is an analog of the [[second quantization|second quantized]] field-theory-with-equations for string scattering, called [[nLab:string field theory]], and this again is given by equations of motion. For instance the equations of motion of closed bosonic string field theory are of the form
 
 $$
   Q \Psi + \tfrac{1}{2} \psi \star \psi + \tfrac{1}{6} \psi \star \psi \star \psi + \cdots = 0
