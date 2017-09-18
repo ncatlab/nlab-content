@@ -94,7 +94,7 @@ e.g. Bredon _Topology and Geometry_, p. 431
 
 Every Hurewicz cofibration $i$ is an injective map and if the [[image]] $i(A)$ is [[closed subspace|closed]] then it is a [[homeomorphism]] onto its image. In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], $i(A)$ is always closed (the same in the category of all [[Hausdorff spaces]]), but in the category of all topological spaces there are pathological counterexamples. 
 
-The simplest example (see the classical monograph Dieck, Kamps, Puppe, _Homotopietheorie_, LNM 157) is the following: let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with antidiscrete topology (only $X$ and $\emptyset$ are open in $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration (useful exercise!). 
+The simplest example (see the classical monograph Dieck, Kamps, Puppe, _Homotopietheorie_, LNM 157) is the following: let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with the [[codiscrete topology]] (only $X$ and $\emptyset$ are open in $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration (useful exercise!). 
 
 
 
