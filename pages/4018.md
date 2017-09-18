@@ -61,7 +61,7 @@ to the object $\langle Y_x \rangle_{x \in X}$.
 
 For any filter $\mathcal{U}$ on a set $X$, we can form the 2-colimit of the pseudofunctor  
 
-$$F: \mathcal{U}^{op} \to Cat: U \mapsto Set/U$$ 
+$$F: \mathcal{U}^{op} \to Cat: U \mapsto Set/U (\simeq Set^U)$$ 
 
 Each $F(i: U \subseteq V): Set/V \to Set/U$ is the logical morphism of toposes given by the pullback functor $i^*$. The 2-colimit is itself a topos denoted $Set/\mathcal{U}$, in fact a 2-valued topos if $\mathcal{U}$ is an ultrafilter, and the functor defined by 
 
@@ -69,11 +69,6 @@ $$Set \stackrel{\Delta}{\to} Set/X \to Set/\mathcal{U}$$
 
 defines a logical morphism. 
 
-Let $Y_{\mathcal{U}}$ denote the image of a set $Y$ under this logical morphism. Then the set of global elements 
-
-$$\Gamma(Y_{\mathcal{U}}) = hom(1, Y_{\mathcal{U}})$$ 
-
-is the ultrapower $Y^X/\mathcal{U}$. (Hm, is that right?) 
 
 ## Applications 
 
