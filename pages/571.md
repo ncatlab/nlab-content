@@ -27,9 +27,9 @@ A [[morphism]] $f \colon X \to Y$ in some [[category]] is called a _monomorphism
 
 $$
   \left(
-    g_1 \circ f
+    f \circ g_1
     \,=\,
-    g_2 \circ f
+    f \circ g_2
   \right)
   \;\Rightarrow \;
   \left(
