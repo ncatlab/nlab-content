@@ -100,7 +100,7 @@ If $T$ is a monad on a complete and cocomplete category $C$ that preserves refle
 
 The hypotheses of the preceding corollary hold when $T$ is a monad on a complete, cocomplete, cartesian closed category that is induced from a finitary algebraic theory. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers.) 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #exact} 
 ###### Theorem 
 If $\mathbf{C}$ is a [[regular category]] or [[exact category]] in which regular epimorphisms [[split epimorphism|split]], and $T$ is any monad on $\mathbf{C}$, then $\mathbf{C}^T$ is a regular category (or exact category, respectively). 
 =-- 
