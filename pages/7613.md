@@ -135,7 +135,15 @@ Seet also at _[[cubical structure in M-theory]]_.
 
 ### General
 
-The original insight that gave rise to the conjecture is due to
+First indications for M-theory came from the [[supermembrane]] [[Green-Schwarz sigma-model]] now called the [[M2-brane]]. A comprehensive collection of early articles is in 
+
+* [[Mike Duff]], _The World in Eleven Dimensions: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
+For some time though the success of [[string theory]] in 10-dimensions caused resistence to the idea of a theory of [[membranes]] in 11-dimensions, an account is on the first pages of
+
+* [[Mike Duff]], _M-history without the M_ ([arXiv:1501.04098](http://arxiv.org/abs/1501.04098))
+
+The article that convinced the community of M-theory was
 
 * {#Witten95} [[Edward Witten]], _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126 (1995) ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
@@ -149,12 +157,6 @@ A public talk announcing the conjecture that the [[non-perturbative field theory
 The term "M-theory" occurs somewhere around
 
 * [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
-
-For more original references see also at _[[M2-brane]]_. 
-
-Discussion of the history includes
-
-* [[Mike Duff]], ([arXiv:1501.04098](http://arxiv.org/abs/1501.04098))
 
 
 An early popular account for a general audience is
