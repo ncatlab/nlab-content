@@ -1,5 +1,2 @@
 
-| k | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 
-|---|---|---|---|---|---|---|---|
-| $\pi_k(S^4)$ | 0 | 0 | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z} \oplus \mathbb{Z}_{12}$ |
-
+nothing
