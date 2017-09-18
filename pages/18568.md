@@ -25,20 +25,20 @@ In a sense, (de)equivariantisation generalises the Morita equivalence between $\
 
 A $\underline{G}$-action (a $\underline{G}$-module category structure) on a $k$-linear semisimple category $\mathcal{C}$ amounts to the following data:
 
-* for each group element $g \in G$ a linear functor $^g(-)\colon \mathcal{C} \to \mathcal{C}$
-* natural isomorphism isomorphism $\gamma^{g,h}\colon {}^g ({}^h X) \to {}^{gh}X$
-* a natural isomorphism $\tilde\gamma_X\colon X \to {}^1 X$
+* for each group element $g \in G$ a (linear) equivalence $\rho(g)\colon \mathcal{C} \to \mathcal{C}$
+* natural isomorphisms $\rho^{2}(g,h)_X\colon \rho(g)(\rho(h) X) \to \rho(gh)X$
+* a natural isomorphism $\rho^0_X\colon X \to \rho(1)X$
 * satisfying certain obvious coherence axioms
 
 ### Equivariantisation
 
-__Definition__ A _$G$-equivariant object_ in $\mathcal{C}$ is then an object $X$ in $\mathcal{C}$ and a family of isomorphisms $u_g\colon {}^g X \to X$ compatible with the action and $\gamma$.
+__Definition__ A _$G$-equivariant object_ in $\mathcal{C}$ is then an object $X$ in $\mathcal{C}$ and a family of isomorphisms $u_g\colon \rho(g) X \to X$ compatible with the action and $\gamma$.
 
 The $G$-equivariant objects form a category (where morphisms need to commute with the $u_g$), which is denoted by $\mathcal{C}^G$.
 
 The primordial example for this construction is the category of finite dimensional vector spaces $k-\operatorname{Vect}$, which has a trivial $G$-action. Its $G$-equivariant objects $k-\operatorname{Vect}^G$ are simply $\operatorname{Rep}_G$.
 
-Since $k-\operatorname{Vect}$ has a natural action on any $k$-linear category like $\mathcal{C}$, $k-\operatorname{Vect}^G \simeq \operatorname{Rep}_G$ acquires an action on $\mathcal{C}^G$. Explicitly, let $(V, \rho\colon G \to \operatorname{End}(V))$ a representation, and $(X, u_g)$ an equivariant object, then the module structure $-\triangleright-\colon \operatorname{Rep}(G) \boxtimes \mathcal{C}^G \to \mathcal{C}^G$ is defined as $(V, \rho) \triangleright (X, u_g) = (V \triangleright X, \rho(g) \otimes u_g)$. Thus we define the 2-functor $E$ as $E\mathcal{C} = \mathcal{C}^G$.
+Since $k-\operatorname{Vect}$ has a natural action on any $k$-linear category like $\mathcal{C}$, $k-\operatorname{Vect}^G \simeq \operatorname{Rep}_G$ acquires an action on $\mathcal{C}^G$. Explicitly, let $(V, \phi\colon G \to \operatorname{End}(V))$ a representation, and $(X, u_g)$ an equivariant object, then the module structure $-\triangleright-\colon \operatorname{Rep}(G) \boxtimes \mathcal{C}^G \to \mathcal{C}^G$ is defined as $(V, \phi) \triangleright (X, u_g) = (V \triangleright X, \phi(g) \otimes u_g)$. Thus we define the 2-functor $E$ as $E\mathcal{C} = \mathcal{C}^G$.
 
 ### Deequivariantisation
 
@@ -55,13 +55,15 @@ __Theorem__ The previously defined 2-functors $D$ and $E$ are mutually (weakly) 
 ### Forgetful and induction functors
 
 * There is an obvious faithful forgetful functor $U \colon \mathcal{C}^G \to \mathcal{C}$.
-* There is a left and right adjoint to $U$, the induction functor $IX = \oplus_{g \in G} {}^g X$.
+* There is a left and right adjoint to $U$, the induction functor $IX = \oplus_{g \in G} \rho(g) X$.
 * There is an obvious forgetful functor $U'\colon \mathcal{C}_G \to \mathcal{C}$.
 * There is a left adjoint to $U$, the canonical functor $FX = k(G) \otimes X$, with the trivial action on $X$.
 
 # Monoidal and braided categories, and central functors
 
 The previous constructions generalise easily when our categories acquire monoidal or braided structures.
+
+Actions of groups on monoidal categories are simply a monoidal equivalence for every group element with the same extra structure as mentioned before. Actions of groups on braided categories are additionally required to preserve the braiding. (Following the idea of [[stuff, structure, and properties]], an action on a symmetric category are simply actions on the underlying braided category.)
 
 The action of $k-\operatorname{Vect}$ on a _monoidal_ linear category $\mathcal{C}$ can also be understood as the canonical monoidal functor $k-\operatorname{Vect} \to \mathcal{C}$ sending $k$ to the monoidal unit, followed by the tensor product.
 In this situation, the $\operatorname{Rep}_G$ module structure on $\mathcal{C}$ can then also be understood as the canonical functor $\operatorname{Rep}_G \to \mathcal{C}^G$.
