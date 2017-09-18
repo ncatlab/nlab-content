@@ -42,19 +42,27 @@ The following conditions on a [[category]] $C$ are equivalent.  When they are sa
 
 +-- {: .num_prop}
 ###### Proposition
-
 In an adhesive category, the pushout of a monomorphism is again a monomorphism.
-
 =--
 
 E.g. ([Lack, prop. 2.1](#Lack)) Notice that generally [[monomorphisms]] (as discussed there) are preserved by [[pullback]].
 
 +-- {: .num_prop}
 ###### Proposition
-
 An adhesive category with a [[strict initial object]] is automatically an [[extensive category]].
-
 =--
+
+We define a [[pushout complement]] of $m:C\to A$ and $g:A\to D$ to be a pair of arrows $f:C\to B$ and $n:B\to D$ such that $n f = g m$ and this [[commutative square]] is a [[pushout]].  The following proposition is crucial in [[double pushout graph rewriting]].
+
++-- {: .num_prop}
+###### Proposition
+In an adhesive category, if $m:C\to A$ is mono and $g:A\to D$ is any morphism, then if a pushout complement exists, it is unique up to unique isomorphism.
+=--
++-- {: .proof}
+###### Proof
+We give only a sketch; details are in [(LS, Lemma 4.5)](#LS).  If $(f,n)$ and $(f',n')$ are two pushout complements, consider the two pushout squares as morphisms in the [[arrow category]] with target $g$, and take their pullback.  The resulting commutative cube can be viewed as a morphism in the category of commutative squares from the pullback square of $m$ against itself (which is again $m$, since $m$ is mono) to the pullback square of $n$ against $n'$.  Denote the vertex of the latter pullback square by $U$.  Applying the van Kampen property in two directions, we find that the maps $U\to B$ and $U\to B'$ are both pushouts of $1_C$, hence isomorphisms.  This gives an isomorphism between the pushout complements; it is unique since $n$ and $n'$ are mono (being pushouts of the mono $m$).
+=--
+
 
 
 ## Examples
