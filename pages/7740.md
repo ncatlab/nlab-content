@@ -34,4 +34,6 @@
 
 * [[D-module]]
 
+* [[Spencer cohomology]]
+
 [[!redirects differential operators]]
