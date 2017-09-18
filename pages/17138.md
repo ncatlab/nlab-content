@@ -5895,9 +5895,31 @@ $$
 
 =--
 
-The following lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says that, up to equivalence, this situation now is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution. But first we need two helpful facts about [[categories of fibrant objects]]
+The following lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says that, up to equivalence, this situation now is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution. But first we need some general facts about [[categories of fibrant objects]]
 
++-- {: .num_lemma}
+###### Lemma
 
+Let $f\colon X \longrightarrow Y$ be a morphism in a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then given any choice of [[path space objects]] $Path(X)$ and $Path(Y)$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a replacement of $Path(X)$ by a path object $\widetilde{Path(X)}$ along an acylic fibration, such that $\tilde{Path(X)}$ has a morphism $\phi$ to $Path(Y)$ which is compatible with the structure maps, in that the following diagram commutes
+
+$$
+  \array{
+    && X &\overset{f}{\longrightarrow}& Y
+    \\
+    &\swarrow& \downarrow && \downarrow
+    \\
+    Path(X) &\underset{\in W \cap Fib}{\longleftarrow}& \widetilde{Path(X)} &\overset{\phi}{\longrightarrow}& Path(Y)
+    \\
+    &{}_{\mathllap{(p^X_0,p^X_1)}}\searrow& \downarrow^{\mathrlap{(p^Y_0,p^Y_1)}} && \downarrow^{\mathrlap{(\tilde p^X_0,\tilde p^X_1)}}
+    \\
+    && X \times X &\overset{(f,f)}{\longrightarrow}& Y \times Y
+  }
+  \,.
+$$
+
+=--
+
+([[BrownAHT|Brown 73, section 2, lemma 2]])
 
 
 +-- {: .num_lemma #InCfPullbackAlongFibrationPreservesWeakEquivalences}
