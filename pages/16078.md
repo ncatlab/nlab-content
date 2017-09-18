@@ -17,7 +17,14 @@
 
 ## Idea
 
-The [[integrability of G-structures]] exists precisely if a certain [[torsion]] vanishes. The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_)
+The [[integrability of G-structures]] exists precisely if a certain [[torsion]] [[obstruction]] vanishes. 
+
+
+The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_)
+
+Let $V$ be the linear space on which $G$ acts in this definition via [[Cartan connections]]. Then an $(G \to V \rtimes G)$-Cartan connection identifies each [[tangent space]] of the base manifold $X$ with $V$, $T_x X \simeq V$. Moreover, since $X$ is a [[manifold]], there is also an [[open neighbourhood]] $x \in U_x \subset X$ which is [[diffeomorphism|diffeomorphic]] to an open neighbourhood in $V$. But this identification may not preserve the relevant structure. Torsion is the obstruction to the existence of such neighbourhoods around each point which may be compatibly identified with open subsets of $V$.
+
+It is in this sense that torsion manifestly obstructs "integrability" as it is obstructs the extension from a single tangent space (the first order [[infinitesimal neighbourhood]] of a point) to an actual open neighbourhood (a [[germ]]).
 
 ## Related concepts
 
