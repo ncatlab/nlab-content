@@ -328,12 +328,14 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 
 * L. Balduzzi, C. Carmeli, R. Fioresi, _The local functors of points of Supermanifolds_ ([arXiv:0908.1872](http://arxiv.org/abs/0908.1872))
 
-### As manifolds modeld on Grassmann algebras
+### As manifolds modelled on Grassmann algebras
 
-* {#DeWitt92} [[Bryce DeWitt]], _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1992
+* {#DeWitt92} [[Bryce DeWitt]], _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1984
   
 
-* {#Rogers} [[Alice Rogers]]
+* {#Rogers} [[Alice Rogers]], Supermanifolds: Theory and Applications, World Scientific, (2007) 
+
+Alice Rogers claims, in Chapter 1, that the smooth-manifold-of-(infinite-dimensional)-Grassmann-algebras approach (the "concrete approach") is identical to the sheaf-of-ringed-spaces approach (the "algebro-geometric" approach) and that this equivalence is shown in Chapter 8. DeWitt seems unsure of this, but is writing more than 20 years earlier, before the ringed-space approach has been fully developed.
  
 
 ### Other
