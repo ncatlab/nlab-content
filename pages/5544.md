@@ -31,7 +31,7 @@ An [[atlas]] is the collection of coordinate charts defining a manifold structur
 
 * [[coordinate transformation]], [[diffeomorphism]]
 
-* [[Riemann normal coordinates]]
+* [[Riemann normal coordinates]], [[Walker coordinates]]
 
 * [[polar coordinates]]
 
