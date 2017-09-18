@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The concept of [[Chern classes]] of [[complex vector bundles]] as [[universal characteristic classes]] in [[ordinary cohomology]] generalized to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]] ([Adams 74](#Adams74), [Lurie 10](#Lurie10)):
+
+for $E$ a [[generalized cohomology theory]], the analog of the [[first Chern class]] in $E$-cohomology is what appears in the very definition of [[complex oriented cohomology]]. The higher generalized Chern classes are induced from this by the [[splitting principle]].
+
+The generalized Chern classes serve as the generalized [[Thom classes]] that make every [[complex vector bundle]] have [[orientation in generalized cohomology]] with respect to any [[complex oriented cohomology theory]] ([Lurie 10, lecture 5, prop. 6](#Lurie10)).
+
+
+## References
+
+* {#Adams74} [[Frank Adams]], part II.2, part III.10 of _[[Stable homotopy and generalised homology]]_, 1974
+
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010, lecture 4 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) and lecture 5 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
+
+
+[[!redirects generalized Chern classes]]
+
+[[!redirects generalised Chern class]]
+[[!redirects generalised Chern classes]]
