@@ -97,7 +97,7 @@ A basic algebraic invariant is the [[fundamental group]] of a topological space 
 which measures how many ways there are to wind loops inside a topological space.
 
 Beware that the popular imagery of "[[rubber-sheet geometry]]" only captures part of the full scope of topology,
-in that it invokes spaces that _locally_ still look like [[metric spaces]].
+in that it invokes spaces that _locally_ still look like [[metric spaces]] (called _[[topological manifolds]]_, see [below](#Manifolds)).
 But the concept of topological spaces is a good bit more general.
 Notably [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
 [[metric spaces]] (example \ref{FiniteT1SpacesAreDiscrete} below), they play a role in [[categorical logic]]. Also in [[geometry]] exotic topological spaces frequently arise when  forming non-free [[quotients]].
@@ -9179,14 +9179,188 @@ is a partition of unity as required.
 
 
 ### Manifolds
+ {##Manifolds}
 
-* [[topological manifold]]
+A _[[topological manifold]]_ is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]]
+(def. \ref{TopologicalManifold} below), but which may globally look very different. 
+These are the kinds of topological spaces that are really meant when people advertise [[topology]]
+as "[[rubber-sheet geometry]]".
 
-* [[smooth manifold]]
+If the [[gluing functions]] which relate the Euclidean [[local charts]] of  topological manifolds to each other are [[differentiable functions]], for a fixed degree of differentiability, then one speaks of _[[differentiable manifolds]]_ (def \ref{DifferentiableManifold} below) or of_[[smooth manifolds]]_ if the gluing functions are arbitrarily differentiable. 
+
+Accordingly, a differentiable manifold is a space to which the tools of ([[infinitesimal analysis|infinitesimal]]9 [[analysis]] may be applied _locally_.
+Notably we may ask whether a [[continuous function]] between differentiable manifolds is [[differentiation|differentiable]]
+by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate charts]]. 
+This way differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
+
+$\,$
+
+
++-- {: .num_defn #TopologicalManifold}
+###### Definition
+**([[topological manifold]])**
+
+Let $n \in \mathbb{N}$ be a [[natural number]].
+
+A _topological manifold_ of _[[dimension]] $n$_ (also "$n$-fold") is
+
+* a [[paracompact Hausdorff topological space]] $X$
+
+such that
+
+* every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(varying terminology)**
+
+There is some variance in the choice of regularity condition in def. \ref{TopologicalManifold}. Often it is required in addition to being a [[paracompact Hausdorff space]] that a manifold have a [[countable set]] of [[connected components]], which then means that it is [[sigma-compact topological space|sigma-compact]].
+
+This is the relevant condition for the [[Whitney embedding theorem]] to apply.
+
+Very rarely one considers [[non-Hausdorff topological spaces]] as manifolds.
+
+=--
+
+
++-- {: .num_defn #Charts}
+###### Definition
+**([[local chart]], [[atlas]] and [[gluing function]])
+
+Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold}), then
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ChartsOfAManifold.png" width="400">
+</div>
+
+
+1. an [[open subset]] $U \subset X$ and a [[homeomorphism]] $\phi \colon \mathbb{R}^n \overset{\phantom{A}\simeq\phantom{A}}{\to} U$ is also called a _[[local coordinate chart]]_ of $X$.
+
+1. an [[open cover]] of $X$ by local charts $\left\{ \mathbb{R}^n \overset{\phi_i}{\to} U \subset X \right\}_{i \in I}$ is called an _[[atlas]]_ of the topological manifold.
+
+1. denoting for each $i,j \in I$ the [[intersection]] of the $i$th chart with the $j$th chart in such an atlas by
+
+   $$
+     U_{i j} \coloneqq U_i \cap U_j
+   $$
+
+   then the induced homeomorphism
+
+   $$
+     \mathbb{R}^n
+       \supset
+        \phantom{AA}
+     \phi_i^{-1}(U_{i j})
+       \overset{\phantom{A}\phi_i\phantom{A}}{\longrightarrow}
+     U_{i j}
+       \overset{\phantom{A}\phi_j^{-1}\phantom{A}}{\longrightarrow}
+     \phi_j^{-1}(U_{i j})
+       \phantom{AA}
+       \subset
+     \mathbb{R}^n
+   $$
+
+   is called the _[[gluing function]]_ from chart $i$ to chart $j$.
+
+> graphics grabbed from [[The Geometry of Physics - An Introduction|Frankel]]
+
+
+=--
+
+
+
++-- {: .num_defn #DifferentiableManifold}
+###### Definition
+**([[differentiable manifold]])**
+
+For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ or _$C^p$-manifold_ for short is
+
+1. a [[topological manifold]] $X$ (def. \ref{TopologicalManifold});
+
+1. an [[atlas]] $\{\mathbb{R}^n \overset{\phi_i}{\to} X\}$ (def. \ref{Charts}) all whose [[gluing functions]]  are $p$ times continuously [[differentiable function|differentiable]].
+
+A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds
+
+$$
+  \left(X,\, \{\mathbb{R}^{n} \overset{\phi_i}{\to} U_i \subset X\}_{i \in I} \right)
+   \overset{\phantom{AA}f\phantom{AA}}{\longrightarrow}
+  \left(Y,\, \{\mathbb{R}^{n'} \overset{\psi_j}{\to} V_j \subset Y\}_{j \in J} \right)
+$$
+
+is
+
+* a [[continuous function]] $f \colon X \to Y$
+
+such that
+
+* for all $i \in I$ and $j \in J$ then
+
+  $$
+     \mathbb{R}^n
+     \supset
+      \phantom{AA}
+     (f\circ \phi_i)^{-1}(V_j)
+       \overset{\phi_i}{\longrightarrow}
+     f^{-1}(V_j)
+      \overset{f}{\longrightarrow}
+     V_j
+       \overset{\psi_j^{-1}}{\longrightarrow}
+     \mathbb{R}^{n'}
+  $$
+
+  is a $p$-fold [[differentiable function]] between open subsets of [[Euclidean space]].
+
+Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**([[category]] [[Diff]] of [[differentiable manifolds]])**
+
+In analogy to remark \ref{TopCategory} there is a [[category]] [[Diff]]${}_p$  whose [[objects]] are $C^p$-[[differentiable manifolds]] and whose [[morphisms]] are $C^p$-[[differentiable functions]].
+
+=--
+
+
++-- {: .num_example #DifferentiableManifoldCartesianSpace}
+###### Example
+**([[Cartesian space]] as a [[smooth manifold]])
+
+For $n \in \mathbb{N}$ then [[Cartesian space]] $\mathbb{R}^n$ equipped with the atlas consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
+
+Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped with the atlas whose single chart is the [[homeomorphism]] $\mathbb{R}^n \to D^n$.
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[n-sphere]] as a [[smooth manifold]])**
+
+For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manfold, with [[atlas]] consisting of the two [[local charts]] that are given by the [[inverse functions]] of the [[stereographic projection]] from the two poles of the sphere onto the [[equator|equatorial]] hyperplane
+
+$$
+  \left\{
+     \mathbb{R}^n
+       \underoverset{\simeq}{\sigma^{-1}_i}{\longrightarrow}
+     S^n
+  \right\}_{i \in \{+,-\}}
+  \,.
+$$
+
+By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \backslash \{0\} \to \mathbb{R}^n \backslash \{0\}$ is smooth.
+
+=--
+
+$\,$
 
 * [[tangent space]]
 
 * [[tangent bundle]]
+
+* [[embedding of smooth manifolds]]
 
 * [[frame bundle]]
 
