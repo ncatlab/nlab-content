@@ -1744,13 +1744,164 @@ Similarly for the fourth statement.
 =--
 
 
-### Bousfield-Friedlander theorem
+### Bousfield localization
+
+In plain [[category theory]], a _[[localization]]_ of a [[category]] $\mathcal{C}$ is equivalently a [[full subcategory]]
+
+$$
+  i
+    \;\colon\;
+  \mathcal{C}_{loc}
+    \hookrightarrow
+  \mathcal{C}
+$$
+
+such that the inclusion functor has a [[left adjoint]] $L$
+
+$$
+  \mathcal{C}_{loc}
+    \underoverset
+      {\underset{i}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+  \,.
+$$
+
+The [[adjunction unit]] $\eta_X \colon X \to L(X)$ "reflects" every object $X$ of $\mathcal{C}$ into one in the $\mathcal{C}_{loc}$, and therefore this is also called a _[[reflective subcategory]]_ inclusion.
+
+It is a classical fact that in this situation
+
+$$
+  \mathcal{C}_{loc}
+    \simeq
+  \mathcal{C}[W^{-1}_L]
+$$
+
+is [[equivalence of categories|equivalently]] the [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of $\mathcal{C}$ at the "$L$-equivalences", namely at those morphisms $f$ such that $L(f)$ is an isomorphism. Hence one also speaks of _[[reflective localizations]]_.
+
+The following concept of _[[Bousfield localization of model categories]]_ is the evident lift of this concept of [[reflective localization]] from the realm of categories to the realm of [[model categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)), where isomorphism is generealized to weak equivalence and where [[adjoint functors]] are taken to exhibit [[Quillen adjunctions]].
+ 
++-- {: .num_defn #BousfieldLocalizationOfModelCategories}
+###### Definition
+
+
+A **[[left Bousfield localization of model categories|left Bousfield localization]]** $\mathcal{C}_{loc}$ of a [[model category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) is another model category structure on the same underlying category with the same cofibrations, 
+
+$$
+  Cof_{loc} = Cof
+$$
+
+but more weak equivalences
+
+$$
+  W_{loc} \supset W
+  \,.
+$$
+
+=--
+
+While that is a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences:
+
++-- {: .num_prop }
+###### Proposition
+
+Given a [[left Bousfield localization of model categories|left Bousfield localization]] $\mathcal{C}_{loc}$ of $\mathcal{C}$ as in def. \ref{BousfieldLocalizationOfModelCategories}, then
+
+1. $Fib_{loc} \subset Fib$;
+
+
+1. $W_{loc} \cap Cof_{loc} = W \cap Cof$;
+
+1. the identity functors constitute a [[Quillen adjunction]]
+
+   $$
+     \mathcal{C}_{loc}
+       \underoverset
+         {\underset{id}{\longrightarrow}}
+         {\overset{id}{\longleftarrow}}
+         {\bot}
+     \mathcal{C}
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first two items:
+
+Using the properties of the [[weak factorization systems]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakFactorizationSystem)) of (acyclic cofibratiojns, fibrations) and (cofibrations, acyclic fibrations) for both model structures we get
+
+$$
+  \begin{aligned}
+    Fib_{loc} 
+      &= 
+    (Cof_{loc} \cap W_{loc})Inj
+    \\
+      &\subset 
+    (Cof_{loc} \cap W)Inj 
+    \\
+      & = 
+    Fib
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    Fib_{loc} \cap W_{loc}
+      & =
+    Cof_{loc} Inj 
+    \\
+      & = 
+    Cof \, Inj 
+    \\
+      & = 
+    Fib \cap W
+  \end{aligned}
+ \,.
+$$
+
+Regarding the third point:
+
+By construction $id \colon \mathcal{C}_{loc}\to \mathcal{C}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
+
+=--
+
+In plain [[category theory]], given a [[reflective subcategory]] 
+
+$$
+  \mathcal{C}_{loc}
+    \underoverset
+      {\underset{i}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+$$
+
+then the composite
+
+$$
+  Q \coloneqq i \circ L  
+    \;\colon\; 
+  \mathcal{C} 
+    \longrightarrow
+  \mathcal{C}
+$$
+
+is an [[idempotent monad]] on $\mathcal{C}$, hence, in particular, an [[endofunctor]] equipped with a [[natural transformation]] $\eta_X \;\colon\; X \to L X$ (the [[adjunction unit]]) -- which "reflects" every object into one in the image of $L$ -- such that this reflection is a projection in that each $L(\eta_X)$ is an isomorphism. This characterizes the [[reflective subcategory]] $\mathcal{C}_{loc} \hookrightarrow \mathcal{C}$ as the subcategory of those objects $X$ for which $\eta_X$ is an isomorphism.
+
+The following is the lift of this alternative perspective of reflective localization via idempotent monads from category theory to model category theory.
 
 
 +-- {: .num_defn #QuillenIdempotentMonad}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[proper model category]]. 
+Let $\mathcal{C}$ be a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) which is [[right proper model category|right proper]], in that [[pullback]] along fibrations preserves weak equivalences.
+
 Say that a **Quillen idempotent monad** on $\mathcal{C}$ is
  
 1. an [[endofunctor]] 
@@ -1763,11 +1914,23 @@ Say that a **Quillen idempotent monad** on $\mathcal{C}$ is
 
 such that
 
-1. $Q$ preserves weak equivalences;
+1. ([[homotopical functor]]) $Q$ preserves weak equivalences;
 
-1. all $Q(\eta_X) \colon Q(X) \longrightarrow Q(Q(X))$ are weak equivalences;
+1. (idempotency) for all $X \in \mathcal{C}$ the morphisms
 
-1. if in a [[pullback]] square in $\mathcal{C}$
+   $$
+     Q(\eta_X) \;\colon\; Q(X) \overset{\in W}{\longrightarrow} Q(Q(X))
+   $$
+
+   and
+
+   $$
+     \eta_{Q(X)} \;\colon\; Q(X) \overset{\in W}{\longrightarrow} Q(Q(X))
+   $$
+
+   are weak equivalences;
+
+1. (preservation of homotopy pullbacks) if in a [[pullback]] square in $\mathcal{C}$
 
    $$
      \array{
@@ -1802,9 +1965,17 @@ a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad}, say t
 
 1. **a $Q$-fibration** if it has the [[right lifting property]] against the morphisms that are both ($Q$-)cofibrations as well as $Q$-weak equivalences.
 
-Write $\mathcal{C}_Q$ for $\mathcal{C}$ equipped with these classes of morphisms.
+Write 
+
+$$
+  \mathcal{C}_Q
+$$ 
+
+for $\mathcal{C}$ equipped with these classes of morphisms. Notice that since $Q$ preserves weak equivalences (by def. \ref{QuillenIdempotentMonad}) then if these classes of morphisms do constitute a [[model category]] structure, then this is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$, according to def. \ref{BousfieldLocalizationOfModelCategories}.
 
 =--
+
+
 
 +-- {: .num_lemma #FirstLemmaForBousfieldFriedlander}
 ###### Lemma
@@ -1817,14 +1988,22 @@ a morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyc
 +-- {: .proof}
 ###### Proof
 
-It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration. In the other direction, let $f$ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
+It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration (since both are the class of moprhisms with [[right lifting property]] against the respective cofibrations, and the $Q$-cofibrations by definition are just the cofibrations). 
+
+In the other direction, let $f \;\colon\; X \longrightarrow Y $ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
 
 $$
-  f \colon \underoverset{\in Cof}{i}{\longrightarrow} \underoverset{\in W \cap Fib}{p}{\longrightarrow}
+  f 
+    \;\colon\; 
+  X  
+    \underoverset{\in Cof}{i}{\longrightarrow} 
+  Z
+    \underoverset{\in W \cap Fib}{p}{\longrightarrow}
+  Y
   \,.
 $$
 
-Now the fact that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This means by assumption that $f$ has the [[right lifting property]] against $i$. Hence the [[retract argument]], implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
+Observe that $Q$-equivalences satisfy [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)), by functoriality and since the plain equivalences do. Now the assumption that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This implies, by assumption on $f$, that $f$ has the [[right lifting property]] against $i$. Hence the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)), implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
 
 =--
 
@@ -1835,27 +2014,188 @@ In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillen
 
 =--
 
-The proof of this is a little fiddly. Full details are spelled out in ([Goerss-Jardine 96, chapter X, lemma 4.4](#GoerssJardine96)).
+(e.g. [Goerss-Jardine 96, chapter X, lemma 4.4](#GoerssJardine96))
+
++-- {: .proof}
+###### Proof
+
+We need to show that for every [[commuting square]] of the form
+
+$$
+  \array{
+    A &\overset{\alpha}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{i}}_{\mathllap{\in W_Q \cap Cof_Q}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{f}}
+    \\
+    B &\underset{\beta}{\longrightarrow}& Y
+  }
+$$
+
+there exists a lifting.
+
+To that end, first consider a factorization of the image under $Q$ of this square as follows:
+
+$$
+  \array{
+    Q(A) &\overset{Q(\alpha)}{\longrightarrow}& Q(X)
+    \\
+    {}^{\mathllap{Q(i)}}\downarrow && \downarrow^{\mathrlap{Q(f)}}
+    \\
+    Q(B) &\underset{Q(\beta)}{\longrightarrow}& Q(Y)
+  }
+  \;\;\;\;\;\;
+  \simeq
+  \;\;\;\;\;\;
+  \array{
+    Q(A) 
+     &\underoverset{\in W \cap Cof}{j_\alpha}{\longrightarrow}& 
+    Z 
+     &\underoverset{\in Fib}{p_\alpha}{\longrightarrow}& 
+    Q(X)
+    \\
+    {}^{\mathllap{Q(i)}}\downarrow 
+      &&
+    \downarrow^{\pi}
+      && 
+    \downarrow^{\mathrlap{Q(f)}}
+    \\
+    Q(B) 
+      &\underoverset{j_\beta}{\in W \cap Cof}{\longrightarrow}& 
+    W 
+      &\underoverset{p_\beta}{\in Fib}{\longrightarrow}& 
+    Q(Y)
+  }
+$$
+
+(This exists even without assuming [[functorial factorization]]: factor the bottom morphism, form the pullback of the resulting $p_\beta$, observe that this is still a fibration, and then factor (through $j_\alpha$) the universal morpism from the outer square into this pullback.)
+
+Now consider the pullback of the right square above along the naturality square of $\eta \colon id \to Q$, take this to be the right square in the following diagram
+
+$$
+  \array{
+    \alpha \colon
+    & 
+    A 
+      &\overset{(j_\alpha \circ \eta_A, \alpha)}{\longrightarrow}&
+    Z \underset{Q(X)}{\times} X
+      &\overset{}{\longrightarrow}&
+    X
+    \\
+    & {}^{\mathllap{i}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{(\pi,f)}}
+      &&
+    \downarrow^{\mathrlap{f}}&
+    \\
+    \beta \colon 
+    & 
+    B 
+      &\underset{(j_\beta\circ\eta_B,\beta)}{\longrightarrow}&
+    W \underset{Q(Y)}{\times} Y
+      &\underset{}{\longrightarrow}&
+    Y
+  }
+  \,,
+$$
+
+where the left square is the universal morphism into the pullback which is induced from the naturality squares of $\eta$ on $\alpha$ and $\beta$.
+
+We claim that $(\pi,f)$ here is a weak equivalence. This implies that we find the desired lift by factoring $(\pi,f)$ into an acyclic cofibration followed by an acyclic fibration and then lifting consecutively as follows
+
+$$
+  \array{
+    \alpha \colon
+    & 
+    A 
+      &\overset{(j_\alpha \circ \eta_A, \alpha)}{\longrightarrow}&
+    Z \underset{Q(X)}{\times} X
+      &\overset{}{\longrightarrow}&
+    X
+    \\
+    & {}^{\mathllap{id}}\downarrow 
+      &&
+    {}^{\mathllap{\in W \cap Cof}}\downarrow
+      &{}^{\mathllap{\exists}}\nearrow&
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}&
+    \\
+    & 
+    A 
+      &\longrightarrow& 
+      &\overset{\phantom{AAAAAAA}}{\longrightarrow}&
+    Y
+    \\
+    & {}^{\mathllap{i}}_{\mathllap{\in Cof}}\downarrow 
+      &{}^{\mathllap{\exists}}\nearrow&
+    \downarrow^{\mathrlap{\in W \cap Fib}}
+      &&
+    \downarrow^{\mathrlap{id}}&
+    \\
+    \beta \colon & 
+    B 
+      &\underset{(j_\beta\circ\eta_B,\beta)}{\longrightarrow}&
+    W \underset{Q(Y)}{\times} Y
+      &\longrightarrow&
+    Y
+  }
+  \,.
+$$
+
+To see that $(\phi,f)$ indeed is a weak equivalence:
+
+Consider the diagram
+
+$$
+  \array{
+     Q(A) 
+       &\underoverset{\in W \cap Cof}{j_\alpha}{\longrightarrow}& 
+     Z
+       &\underoverset{\in W}{pr_1}{\longleftarrow}&
+     Z \underset{Q(X)}{\times} X
+     \\
+     {}^{\mathllap{Q(i)}}_{\mathllap{\in W}}\downarrow 
+       && 
+     \downarrow^{\mathrlap{\pi}}
+       && 
+     \downarrow^{\mathrlap{(\pi,f)}}
+     \\
+     Q(B) 
+       &\underoverset{j_\beta}{\in W \cap Cof}{\longrightarrow}& 
+     Z
+       &\underoverset{pr_2}{\in W}{\longleftarrow}&
+     W \underset{Q(X)}{\times} X
+  }
+  \,.
+$$
+
+Here the projections are weak equivalences as shown, because by assumption in def. \ref{QuillenIdempotentMonad} the ambient model category is [[right proper model category|right proper]] and these projections are the pullbacks along the fibrations $p_\alpha$ and $p_\beta$ of the morphisms $\eta_X$ and $\eta_Y$, respectively, where the latter are weak equivalences by assumption. Moreover $Q(i)$ is a weak equivalence, since $i$ is a $Q$-weak equivalence.
+
+Hence now it follows by [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)) that $\pi$ and then $(\pi,f)$ are weak equivalences.
+
+=--
 
 
 +-- {: .num_prop #BousfieldFriedlanderTheorem}
 ###### Proposition
 **(Bousfield-Friedlander theorem)**
 
-For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
-a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
-then $\mathcal{C}_Q$, def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad} is a [[model category]].
+Let $\mathcal{C}$ be a [[model category]] which admits [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)), for instance in that it is a [[cofibrantly generated model category]] admitting the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)). 
+Let $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
+be a Quillen idempotent monad on according to def. \ref{QuillenIdempotentMonad}.
+
+
+Then the [[Bousfield localization of model categories|Bousfield localization]] model category $\mathcal{C}_Q$ at the $Q$-weak equivalences (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) exists.
 
 =--
 
 ([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01))
 
-Warning: this proof assumes that $\mathcal{C}$ admits [[functorial factorization]].
-
 +-- {: .proof}
 ###### Proof
 
-The [[two-out-of-three]] poperty for $Q$-fibrations is evident. We discuss the two factorization conditions, from these the lifting follows by the [[retract argument]].
+The existence of [[limits]] and [[colimits]] is guaranteed since $\mathcal{C}$ is already assumed to be a model category.
+The [[two-out-of-three]] poperty for $Q$-weak equivalences is an immediate consequence of two-out-of-three for the original weak equivalences of $\mathcal{C}$. We discuss now the two factorization conditions, from these the lifting follows by the [[retract argument]].
 
 First, lemma \ref{FirstLemmaForBousfieldFriedlander} directly implies that every morphism factors as a $Q$-cofibration followed by a $Q$-acyclic $Q$-fibration, simply by factoring it as a cofibration followed by an acyclic fibration.
 
