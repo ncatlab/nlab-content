@@ -2,7 +2,10 @@ _This page is in development, and the tool it refers to is not yet launched. Ple
 
 ## Introduction ##
 
-_Globular_ is a web-based proof assistant for semistrict higher categories. It allows you to formalize higher-categorical proofs, visualize them as string diagrams, and share them with collaborators, or with the world.
+_Globular_ is a web-based proof assistant for semistrict higher categories. It allows you to formalize higher-categorical proofs, visualize them as string diagrams, and share them with collaborators, or with the world. Here's an example:
+<center>
+<img src="https://dl.dropboxusercontent.com/s/er99kvg62o37aw9/globular-screenshot.png" width="400">
+</center>
 
 ## Getting involved ##
 
