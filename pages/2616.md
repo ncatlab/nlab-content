@@ -230,7 +230,7 @@ In particular, an **elementary particle** in quantum physics is sometimes define
 
 * [[Lorentzian geometry]]
 
-* [[orthogonal group]]
+* [[orthogonal group]], [[affine group]]
 
 * [[Euclidean group]]
 
