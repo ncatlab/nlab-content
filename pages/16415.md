@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Shiraz_Minwalla)
+
+## related $n$Lab entries
+
+* [[supersymmetry]], [[SCFT]]
+
+category: people
