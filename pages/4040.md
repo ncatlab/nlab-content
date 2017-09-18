@@ -10,7 +10,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[topological 
 
 * [[open subset]], [[closed subset]], [[neighbourhood]]
 
-* [[topological space]] (see also _[[locale]]_)
+* [[topological space]], [[locale]]
 
 * [[base for the topology]], [[neighbourhood base]]
 
@@ -21,6 +21,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[topological 
 * [[separation axiom|separation]], [[sober topological space|sobriety]]
   
 * [[continuous function]], [[homeomorphism]]
+
+* [[uniformly continuous function]]
 
 * [[topological embedding|embedding]]
 
@@ -103,9 +105,11 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[topological 
 
   * [[real line]], [[plane]]
 
-* [[sphere]], [[ball]], 
+*  [[cylinder]], [[cone]]
 
-* [[circle]], [[torus]], [[annulus]]
+* [[sphere]], [[ball]]
+
+* [[circle]], [[torus]], [[annulus]], [[Moebius strip]]
 
 * [[polytope]], [[polyhedron]]
 
