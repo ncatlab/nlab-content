@@ -56,7 +56,9 @@ An analogue in number theory is Iwasawa polynomial. Cf. for number theoretic ana
 
 * {#Sikora01} Adam S. Sikora, _Analogies between group actions on 3-manifolds and number fields_, [arXiv:0107210](http://arxiv.org/abs/math/0107210)
 
+Other works
 
+* Takefumi Nosaka, _Twisted cohomology pairings of knots I; diagrammatic computation_, [arxiv/1602.01129](http://arxiv.org/abs/1602.01129); _Twisted cohomology pairings of knots II; to classical invariants_, [arxivs/1602.01131](http://arxiv.org/abs/1602.01131) 
 [[!redirects Alexander polynomials]]
 
 category:knot theory
