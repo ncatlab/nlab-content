@@ -325,6 +325,40 @@ and anlogously for $E U(n)$.
 
 As such this is the standard presentation for the $O(n)$-[[universal principal bundle]]. Its base space $B O(n)$ is the corresponding _classifying space_.
 
++-- {: .num_defn #InclusionOfBOnIntoBOnPlusOne}
+###### Definition
+
+There are canonical inclusions
+
+$$
+  Gr_n(\mathbb{R}^k)
+  \hookrightarrow
+  Gr_{n+1}(\mathbb{R}^{k+1})
+$$
+
+and
+
+$$
+  Gr_n(\mathbb{C}^k)
+  \hookrightarrow
+  Gr_{n+1}(\mathbb{C}^{k+1})
+$$
+
+given by adjoining one coordinate to the ambient space and to any subspace. Under the colimit of def. \ref{EOn} these induce maps of classifying spaces
+
+$$
+  B O(n) \longrightarrow B O(n+1)
+$$
+
+and
+
+$$
+  B U(n) \longrightarrow B U(n+1)
+  \,.
+$$
+
+=--
+
 
 #### Properties
 
@@ -391,7 +425,7 @@ $$
   \,.
 $$
 
-By prop. \ref{OrthogonalGroupIsCompact} and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfOnIntoOkIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
+Since the orthogonal groups is compact ([prop.](orthogonal+group#OrthogonalGroupIsCompact)) and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfOnIntoOkIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
 
 $$
   \cdots
@@ -469,9 +503,9 @@ This implies the claim.
 +-- {: .num_cor #EOnIsWeaklyContractible}
 ###### Corollary
 
-The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+The colimiting space $E O(n) = \underset{\longrightarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
 
-The colimiting space $E U(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{C}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+The colimiting space $E U(n) = \underset{\longrightarrow}{\lim}_k V_n(\mathbb{C}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
 
 
 =--
@@ -567,10 +601,12 @@ $$
   B U(n)
     \longrightarrow
   B U(n+1)
-  \,.
+  \,,
 $$
 
-This means, that there is a replacement of the canonical inclusion $B O(n) \hookrightarrow B O(n+1)$ (induced via def. \ref{EOn}) by a [[Serre fibration]]
+exhibiting the [[n-sphere]] ($(2n+1)$-sphere) as the [[homotopy fiber]] of the canonical maps from def. \ref{InclusionOfBOnIntoBOnPlusOne}.
+
+This means that there is a replacement of the canonical inclusion $B O(n) \hookrightarrow B O(n+1)$ (induced via def. \ref{EOn}) by a [[Serre fibration]]
 
 $$
   \array{
