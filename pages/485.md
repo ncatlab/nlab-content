@@ -41,6 +41,8 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 
 * Any [[abelian category]] is exact. In fact an abelian category is precisely an exact [[additive category]]. 
 
+* If $C$ is exact and $T$ is a [[Lawvere theory]], then the category $Mod(T, C)$ of $T$-models in $C$ is also exact. See Theorem 5.11 of Barr's [Exact Categories](#Barr). 
+
 * Any [[slice]] or [[co-slice]] of an exact category is also exact. (Source: [Borceux and Bourn](http://www.springer.com/us/book/9781402019616), Appendix A.) 
 
 * One can construct, for any regular category $C$, a "free" exact category $C_{ex/reg}$ on $C$ by adjoining formal quotient objects for congruences.  One way to define $C_{ex/reg}$ is as the (locally discrete) [[2-category]] whose objects are congruences in $C$ and whose morphisms are [[anafunctor|anafunctors]].  If $C$ is already exact, then $C_{ex/reg}$ is equivalent to $C$.  See [[regular and exact completions]].
@@ -57,7 +59,8 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 ## References ##
 
 * Carboni, A. and Vitale, E. M.  _Regular and exact completions_, _JPAA_ 125, 1998.
-* M. Barr, _Exact categories_, in: Exact categories and categories of sheaves, Springer Lec. Notes in Math. __236__ (1971) 1-120, [doi](http://dx.doi.org/10.1007/BFb0058580)
+* M. Barr, _Exact categories_, in: Exact categories and categories of sheaves, Springer Lec. Notes in Math. __236__ (1971) 1-120, [doi](http://dx.doi.org/10.1007/BFb0058580) ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.732.4603&rep=rep1&type=pdf)) 
+ {#Barr} 
 * [[Francis Borceux]], [[Dominique Bourn]], [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]
 
 [[!redirects exact categories]]
