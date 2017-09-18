@@ -114,8 +114,10 @@ are also called [[almost compact topological space|almost compact topological sp
 
   * [[Freund-Rubin compactification]]
 
+* [[conformal compactification]]
 
 ## References
+
 
 * Edwin Hewitt, _Certain generalizations of the Weierstrass approximation theorem_,  Duke Math. J. Volume 14, Number 2 (1947), 419-427. ([Euclid](http://projecteuclid.org/euclid.dmj/1077474139))
   {#Hewitt47}
