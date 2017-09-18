@@ -25,7 +25,7 @@ $$
   N : Cat \to sSet
 $$
 
-for the [[nerve]] functor from [[Cat]] to [[sSet]]. Write 
+for the [nerve functor](nerve#NerveOfACategory) from [[Cat]] to [[sSet]]. Write 
 
 $$
   {\vert - \vert} : sSet \to Top
@@ -33,42 +33,66 @@ $$
 
 for the [[geometric realization]] of [[simplicial sets]].
 
-The _[[geometric realization]]_ of categories is the composite
+The _[[geometric realization]]_ of categories is the [[composition]] of these two operstions:
 
 $$
-  {\vert - \vert} := {\vert N(-)\vert} : Cat \to Top
+  {\vert - \vert} \coloneqq {\vert N(-)\vert} \;\colon\; Cat \to Top
 $$
 
 ## Properties
 
 ### Thomason model structure
 
-There is a [[model category]] structure on [[Cat]] whose weak equivalences are those [[functor]]s which under geometric realization are weak equivalences in the standard [[model structure on topological spaces]]: the [[Thomason model structure]].
+There is a [[model category]] structure on [[Cat]] whose weak equivalences are those [[functors]] $F \colon \mathcal{C} \to \mathcal{D}$ which under [[geometric realization]] become weak equivalences in the [[classical model structure on topological spaces]], hence which become [[weak homotopy equivalences]]. This is called the _[[Thomason model structure]]_.
+
 
 ### Recognizing weak equivalences: Quillens theorem A and B
 
-Let $F : C \to D$ be a [[functor]].
+Let $\mathcal{C}, \mathcal{D}$ be two [[categories]] and let
 
-+-- {: .num_theorem}
+$$
+  F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+$$
+
+be a [[functor]] between them.
+
+
++-- {: .num_thm #QuillenTheoremA}
 ###### Theorem
 **(Quillen's theorem A)**
 
-If for all [[object]]s $d \in D$ the geometric realization $\vert F/d\vert$ of the [[comma category]] $F/d$ is [[contractible]] (meaning that $F$ is a "homotopy [[cofinal functor]]", hence a [[cofinal (∞,1)-functor]]), then $\vert F \vert : \vert C \vert \to \vert D \vert  $ is a [[weak homotopy equivalence]].
+
+If for all [[objects]] $d \in \mathcal{D}$ the [[geometric realization]] ${\vert N(F/d)\vert}$ of the [[comma category]] $F/d$ is [[contractible]] (meaning that $F$ is a "homotopy [[cofinal functor]]", hence a [[cofinal (∞,1)-functor]]), then 
+
+$$
+  {\vert N(F) \vert}
+   \;\colon\; 
+  {\vert N(\mathcal{C}) \vert} 
+    \longrightarrow 
+  {\vert \mathcal{D} \vert}  
+$$ 
+
+is a [[weak homotopy equivalence]].
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_thm #QuillenTheoremB}
 ###### Theorem
 **(Quillen's theorem B)**
 
-If for all $d \in D$ we have that $\vert F/d\vert$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to a given [[topological space]] $X$ and all morphisms $f : d_1 \to d_2$ induce [[weak homotopy equivalences]] between these, then $X$ is the [[homotopy fiber]] of $\vert F \vert$, hence we have a [[fiber sequence]]
+If for all [[objects]] $d \in \mathcal{D}$ we have that ${\vert N(F/d)\vert}$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to a given [[topological space]] $X$ and all morphisms $f \colon d_1 \to d_2$ induce [[weak homotopy equivalences]] between these, then $X$ is the [[homotopy fiber]] of ${\vert N(F) \vert}$, hence we have a [[homotopy fiber sequence]] of the form
 
 $$
-  X \to \vert C \vert \stackrel{\vert F \vert }{\to} \vert D \vert
+  X   
+    \longrightarrow
+  {\vert \mathcal{C} \vert} 
+    \overset{\vert N(F) \vert }{\longrightarrow} 
+  {\vert \mathcal{D} \vert}
   \,.
 $$
 
 =--
+
 
 ### Natural transformations and homotopies
 
