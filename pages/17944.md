@@ -1,8 +1,31 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 
 As a [[polygon]] the square is the regular 4-gon.
 
-As a [[topological space]] it is the [[product topological space]] of the standard [[interval]] with itself, $[0,1]^2$.
+As a [[topological space]] it is the [[product topological space]] of the [[bounded space|bounded]] [[closed interval]] with itself, $[0,1]^2$ .
+
+
+## Quotients
 
 The identification of opposite sides of the square yields the [[cylinder]] and the [[torus]].
 
@@ -17,6 +40,8 @@ And the identification with opposite [[orientation]] yields the [[Möbius strip]
 
 ## Related concept
 
+* [[line]]
+
 * [[plane]]
 
 * [[circle]]
@@ -24,6 +49,8 @@ And the identification with opposite [[orientation]] yields the [[Möbius strip]
 * [[triangle]]
 
 * [[tetrahedron]]
+
+* [[Peano curve]]
 
 ## References
 
