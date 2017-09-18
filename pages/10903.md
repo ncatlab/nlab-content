@@ -643,7 +643,7 @@ is discussed in ([[Representability theorems|Lurie, Representability theorems, s
 
 For a finite group, $G$, consider the spectral [[Mackey functors]] on the category of finite $G$-sets. These are [[G-spectrum|genuine G-spectra]] (see [equivariant stable homotopy theory](equivariant+stable+homotopy+theory#in_terms_of_mackeyfunctors)) which together constitute a $G$-equivariant $\infty$-category (or $G$-$\infty$-category, see [[Parametrized Higher Category Theory and Higher Algebra]]). This sends any orbit $G/H$, for $H$ a subgroup of $G$, to the monoidal $\infty$-category of genuine $H$-spectra. 
 
-This forms a model of linear homotopy type theory.
+This forms a model of linear homotopy type theory, as do other instances of $(\infty, 1)$-categories of $T$-spectra, for $T$ an [orbital](Parametrized+Higher+Category+Theory+and+Higher+Algebra#AtomicOrbital) $\infty$-category.
 
 ## Structures in linear homotopy-type theory
  {#StructuresInLinearHomotopyTypeTheory}
