@@ -70,7 +70,7 @@ More generally, for $\chi$ an $R$-[[(∞,1)-line bundle]] over $X$ then the corr
  
 Lawvere's terminology is probably inspired by  
 
-* [[Georg Hegel]], part II "Philosophy of Nature", second section "Phyiscs", B, in _[[Encyclopedia of the Philosophical Sciences]]_
+* [[Georg Hegel]], part II "Philosophy of Nature", second section "Physics", B, in _[[Encyclopedia of the Philosophical Sciences]]_
 
 
 [[!redirects intensive or extensive]]
