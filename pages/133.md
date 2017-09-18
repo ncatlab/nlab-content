@@ -49,7 +49,7 @@ More generally still, if $C$ is a [[site]], then the axiom of choice for $C$ may
 
 ### Internal form
 
-However, When working in a category that has an [[internal logic]], we may want to "internalize" the axiom of choice by asserting, not that every epimorphism has a section, but that the statement "every epimorphism has a section" is true in the internal logic (or more precisely the [[stack semantics]]).  An equivalent statement is that every object is [[internally projective object|internally projective]].  We call this the **internal axiom of choice**.
+However, when working in a category that has an [[internal logic]], we may want to "internalize" the axiom of choice by asserting, not that every epimorphism has a section, but that the statement "every epimorphism has a section" is true in the internal logic (or more precisely the [[stack semantics]]).  An equivalent statement is that every object is [[internally projective object|internally projective]].  We call this the **internal axiom of choice**.
 
 This is generally a weaker statement: a [[topos]] satisfies the external AC if and only if it satisfies the internal AC and also (the external form of) [[supports split]].   Often, however, this is the more relevant notion to consider.
 
@@ -201,7 +201,6 @@ Discussion in [[homotopy type theory]]:
 
 category: foundational axiom
 
-[[!redirects axiom of choice]]
 [[!redirects axioms of choice]]
 [[!redirects Choice]]
 [[!redirects AC]]
