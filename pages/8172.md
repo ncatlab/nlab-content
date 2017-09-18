@@ -54,19 +54,21 @@ That explains the relevance of the [[Adams-Novikov spectral sequence]] (noticing
 
 ## Details
 
+1. [Via the canonical resolution](#CanonicalResolution)
+
 1. [Via injective resolutions](#ViaInjectiveResolutions)
 
 1. [As derived descent in higher algebra](#DefinitionInHigherAlgebra)
 
 
 ### The $E$-Adams spectral sequence
- {#ViaInjectiveResolutions}
+ {#CanonicalResolution}
 
-We here discuss Adams spectral sequences for computation of $E$-[[Bousfield localization of spectra|localization]] of [[mapping spectra]] $[Y,X]$ for $E$ a general [[commutative ring spectrum]] which is flat in a certain sense (def. \ref{FlatE} below).
+We here discuss Adams spectral sequences for computation of $E$-[[Bousfield localization of spectra|localization]] of [[mapping spectra]] $[Y,X]$ for $E$ a [[commutative ring spectrum]] which is flat in a certain sense (def. \ref{FlatE} below), via the "canonical" $E$-Adams resolution introduced in ([Adams 74, theorem 15.1](#Adams74)). There are other resolutions which lead to the same spectral sequence, this we discuss below in the section on [E-Injective resolutions](#ViaInjectiveResolutions).
 
-The _[[classical Adams spectral sequence]]_ is the special case with $Y = X = \mathbb{S}$ the [[sphere spectrum]] and $E = $ [[HA|H]]$\mathbb{F}_p$ the [[Eilenberg-MacLane spectrum]] of a [[prime field]], discussed [below](#ClassicalCase).
+The _[[classical Adams spectral sequence]]_ is the special case of this general concept of $E$-Adams spectral sequences given by setting $Y = X = \mathbb{S}$ the [[sphere spectrum]] and $E = $ [[HA|H]]$\mathbb{F}_p$ the [[Eilenberg-MacLane spectrum]] of a [[prime field]]. This is discussed [below](#ClassicalCase).
 
-The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mathbb{S}$ and $E = $ [[MU]], discussed [below](#TheAdamsNovikovSpectralSequence).
+The _[[Adams-Novikov spectral sequence]]_ is the special case given by setting $Y = X = \mathbb{S}$ and $E = $ [[MU]], discussed [below](#TheAdamsNovikovSpectralSequence).
 
 
 #### Spectral sequence of a filtered spectrum
@@ -569,7 +571,6 @@ with
 
 =--
 
-By direct inspection one checks that:
 
 +-- {: .num_lemma #DerivedExactCoupleIsExactCouple}
 ###### Lemma
@@ -582,13 +583,15 @@ is well defined and is itself an exact couple, def. \ref{ExactCouple}.
 +-- {: .proof}
 ###### Proof
 
-That the maps are well-defined.
+This is straightforward to check. For completeness we spell it out:
+
+First consider that the morphisms are well defined in the first place.
 
 It is clear that $\tilde i$ is well-defined.
 
-That $\tilde j$ lands in $ker(d)$: it lands in the image of $j$ which is in the kernel of $k$, hence of $d$, by exactness. 
+That $\tilde j$ lands in $ker(d)$: it lands in the image of $j$ which is in the kernel of $k$, by exactness, hence in the kernel of $d$ by definition.
 
-That $\tile j$ is indepenent of the choice of preimage: For any $x \in \tilde {\mathcal{D}} = im(i)$, let $y, y' \in \mathcal{D}$ be two preimages under $i$, hence $i(y) = i(y') = x$. This means that $i(y'-y) = 0$, hence $y'-y \in ker(i)$, hence $y'-y \in im(k)$, hence there exists $z \in \mathcal{E}$ such that $y' = y + k(z)$, hence $j(y') = j(y) +  j(k(z)) = j(y) + d(z)$, but $d(z) = 0$ in \tilde{\mathcal{E}}.
+That $\tilde j$ is indepenent of the choice of preimage: For any $x \in \tilde {\mathcal{D}} = im(i)$, let $y, y' \in \mathcal{D}$ be two preimages under $i$, hence $i(y) = i(y') = x$. This means that $i(y'-y) = 0$, hence that $y'-y \in ker(i)$, hence that $y'-y \in im(k)$, hence there exists $z \in \mathcal{E}$ such that $y' = y + k(z)$, hence $j(y') = j(y) +  j(k(z)) = j(y) + d(z)$, but $d(z) = 0$ in $\tilde{\mathcal{E}}$.
 
 That $\tilde k$ vanishes on $im(d)$: because $im(d) \subset im(j)$ and hence by exactness.
 
@@ -596,9 +599,11 @@ That $\tilde k$ lands in $im(i)$: since it is defined on $ker(d) = ker(j \circ k
 
 That the sequence of maps is again exact:
 
-The kernel of $\tilde x$ is those $x \in \im(i)$ such that their preimage $i^{-1}(x)$ is still in $im(x)$ (by exactness of the original exact couple) hence such that $x \in im(i|_{im(i)})$, hence such that $x \in im(\tilde i)$.
+The kernel of $\tilde j$ is those $x \in \im(i)$ such that their preimage $i^{-1}(x)$ is still in $im(x)$ (by exactness of the original exact couple) hence such that $x \in im(i|_{im(i)})$, hence such that $x \in im(\tilde i)$.
 
-The kernel of $\tilde k$ is the image of $j$ in the kernel of $d$...
+The kernel of $\tilde k$ is the intersection of the kernel of $k$ with the kernel of $d = j \circ k$, wich is still the kernel of $k$, hence the image of $j$, by exactness. Indeed this is also still the image of $\tilde j$, since for every $x \in \mathcal{D}$ then $\tilde j(i(x)) = j(x)$.
+
+The kernel of $\tilde i$ is $ker(i) \cap im(i) \simeq im(k) \cap im(i)$, by exactness. Let $x \in \mathcal{E}$ such that $k(x) \in im(i)$, then by exactness $k(x) \in ker(j)$ hence $j(k(x)) = d(x) = 0$, hence $x \in ker(d)$ and so $k(x) = \tilde k(x)$.
 
 =--
 
@@ -622,7 +627,12 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-So the spectral sequence of an exact couple (def. \ref{ExactCoupleSpectralSequence}) is a sequence of cochain complexes $(\mathcal{E}_r, d_r)$, where the cohomology of one is the terms of the next one: $\mathcal{E}_{r+1} \simeq H(\mathcal{E}_r,d_r)$.
+So the spectral sequence of an exact couple (def. \ref{ExactCoupleSpectralSequence}) is a sequence of cochain complexes $(\mathcal{E}_r, d_r)$, where the cohomology of one is the terms of the next one: 
+
+$$
+  \mathcal{E}_{r+1} \simeq H(\mathcal{E}_r,d_r)
+  \,.
+$$
 
 In practice this is used as a successive stagewise approximation to the computation of a limiting term $\mathcal{E}_\infty$. What that limiting term is, if it exists at all, is the subject of _convergence_ of the spectral sequence, we come to this [below](#Convergence).
 
@@ -769,8 +779,7 @@ $$
 $$
 
 
-
-It is conventional to depict this in tables where $s$ increases vertically and upwards and $t-s$ increases horizontally and to the right. This is the "Adams type" grading convention for spectral sequences (different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence))).
+It is conventional to depict this in tables where $s$ increases vertically and upwards and $t-s$ increases horizontally and to the right, so that $d_r$ goes up $r$ steps and always one step to the left. This is the "Adams type" grading convention for spectral sequences (different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence))).
 
 =--
 
@@ -982,7 +991,15 @@ where the morphism on the right is identified as $g_p$ by the induction assumpti
 
 =--
 
-We proceed now to analyze the first two pages and then the convergence properties of $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence}).
++-- {: .num_remark}
+###### Remark
+
+Terminology differs across authors. The tower/filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([(Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([Hopkins 99](Adams+spectral+sequence#Hopkins99)) uses "Adams resolution" for the "$E$-injective resolutions" that we discuss [below](#ViaInjectiveResolutions) and uses "Adams tower" for yet another concept, def. \ref{EAdamsTower} below. See also remark \ref{TerminologyAssociatedInverseSequence}.
+
+=--
+
+We proceed now to analyze the first two pages and then the convergence properties of $E$-Adams spectral sequences of def. \ref{AdamsEAdamsSpectralSequence}.
+
 
 #### The first page
  {#FirstPageAndHopfAlgebroid}
@@ -2662,7 +2679,8 @@ $$
 =--
 
 
-### $E$-Adams resolutions
+### $E$-injective resolutions
+ {#ViaInjectiveResolutions}
 
 A streamlined discussion of $E$-[[Adams resolutions]] in close analogy to [[injective resolutions]] in [[homological algebra]] was given in ([Miller 81](#Miller81)), advertized in ([Hopkins 99](#Hopkins99)) and worked out in more detail in ([Aramian](#Aramian)).
 
@@ -3298,7 +3316,7 @@ $$
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    I_0 && \Sigma^{-1} I_1 && ^\Sigma^{-2} I_2
+    I_0 && \Sigma^{-1} I_1 && \Sigma^{-2} I_2
   }
 $$
 
@@ -3345,7 +3363,7 @@ This is the tower of spectra considered in the original texts ([Adams 74, p. 318
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #TerminologyAssociatedInverseSequence}
 ###### Remark
 
 
@@ -3721,7 +3739,7 @@ $$
 ###### Proposition
 
 If $E$ is such that the self-[[generalized homology]] 
-$E_\bullet(E) \coloneqq \pi_\bullet(E \wedge_S E)$ (the dual $E$-[[Steenrod operations]] spring) is such that as a [[module]] over $E_\bullet \coloneqq \pi_\bullet(E)$ it is a [[flat module]], then there is a [[natural equivalence]]
+$E_\bullet(E) \coloneqq \pi_\bullet(E \wedge_S E)$ (the dual $E$-[[Steenrod operations]]) is such that as a [[module]] over $E_\bullet \coloneqq \pi_\bullet(E)$ it is a [[flat module]], then there is a [[natural equivalence]]
 
 $$
   \pi_\bullet
