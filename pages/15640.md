@@ -211,6 +211,12 @@ This [[adelic integral]]-method generalizes to [[Dedekind zeta functions]] for a
 
 ...[[Euler product]]...
 
+$$
+  \sum_{n=1}^\infty \frac{1}{n^s}
+  =
+  \underset{p\; prime}{\prod} \frac{1}{1-p^{-s}}
+$$
+
 
 ### Analogs over number fields, function fields and complex curves
 
