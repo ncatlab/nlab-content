@@ -364,5 +364,12 @@ Discussion in terms of [[stable homotopy types]] is due to
 [[!redirects excisive (infinity,1)-functor]]
 [[!redirects excisive (infinity,1)-functors]]
 
+[[!redirects excisive ∞-functor]]
+[[!redirects excisive ∞-functors]]
+
+[[!redirects excisive infinity-functor]]
+[[!redirects excisive infinity-functors]]
+
+
 [[!redirects excisive functor]]
 [[!redirects excisive functors]]
