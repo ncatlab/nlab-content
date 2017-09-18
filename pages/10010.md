@@ -45,3 +45,5 @@ and in
 [[!redirects moduli spaces of complex structures]]
 
 [[!redirects moduli stack of complex structures]]
+[[!redirects moduli stacks of complex structures]]
+
