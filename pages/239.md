@@ -144,9 +144,7 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 Exposition of the tensor product of $R$-[[modules]] is for instance in 
 
-* Colling Roberts, _Introduction to the tensor product_ ([pdf](http://www.math.uwaterloo.ca/~cd2rober/Seminars/StudentAlgebra/2011/Fall/2011-10-06.pdf))
-
-This link is broken
+* Keith Conrad, _Tensor products_ ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf))
 
 
 [[!redirects tensor products]]
