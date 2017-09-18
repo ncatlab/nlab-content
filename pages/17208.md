@@ -292,7 +292,7 @@ to [[topological K-theory]] is [[surjective function|surjective]].
 This is due to ([Segal 73, prop. 1](#Segal73)).
 
 Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[Snaith's theorem]]_. See there for more. The version for [[real projective space]] is called the _[[Kahn-Priddy theorem]]_.
-
+#
 
 ### Homology and Cohomology
  {#Cohomology}
@@ -706,6 +706,8 @@ See also
 /wiki/Complex_projective_space)_
 
 Computation of the [[stable homotopy groups]] of $\mathbb{C}P^\infty$ is due to
+
+* R. E. Mosher,  _Some stable homotopy of complex projective space_, Topology 7 (1968), 179-193 ([pdf](https://core.ac.uk/download/pdf/82547916.pdf))
 
 * {#Segal73} [[Graeme Segal]], _The stable homotopy of complex of projective space_, The quarterly journal of mathematics (1973) 24 (1): 1-5. ([[Segal72.pdf:file]], [doi:10.1093/qmath/24.1.1]( https://doi.org/10.1093/qmath/24.1.1))
 
