@@ -113,7 +113,7 @@ $$
   }
 $$
 
-which is induced by the evident morphism of [[chain complexes]]. This is one map in an exact [[differential hexagon]] which exhibits Deligne cohomology as the differential refinement of ordinary integral cohomology by closed [[curvature]] [[differential form]] data.
+which is induced by the evident morphism of [[chain complexes]]. This is one map in an exact [[differential hexagon]] which exhibits Deligne cohomology as the differential refinement of ordinary integral cohomology by [[closed differeential form|closed]] [[curvature]] [[differential form]] data.
 
 $$
   \array{
