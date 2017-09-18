@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # The empty space
 * table of contents
 {: toc}
@@ -10,7 +21,9 @@
 
 ## Properties
 
-The empty space is the [[initial object]] in [[Top]].  It satisfies all [[separation axiom|separation]], [[compact space|compactness]], and countability conditions ([[separable space|separability]], [[first-countable space|first countability]], [[second-countable space|second-countability]]).  It is also both [[discrete space|discrete]] and [[indiscrete space|indiscrete]], a distinction it shares only with the [[point]].
+### General
+
+The empty space is the [[initial object]] in [[Top]].  It satisfies all [[separation axiom|separation]], [[compact space|compactness]], and countability conditions ([[separable space|separability]], [[first-countable space|first countability]], [[second-countable space|second-countability]]).  It is also both [[discrete space|discrete]] and [[indiscrete space|indiscrete]], a distinction it shares only with the [[point space]].
 
 
 ### Connectedness
@@ -34,5 +47,19 @@ Here are some other reasons why the empty space should not be considered (path-)
 See [[too simple to be simple]] for general theory.
 
 
+## Related concepts
+
+* [[point space]]
+
+* [[Sierpinski space]]
+
+* [[discrete space]]
+
+
+
+
 [[!redirects empty space]]
 [[!redirects empty spaces]]
+
+[[!redirects empty topological space]]
+[[!redirects empty topological spaces]]
