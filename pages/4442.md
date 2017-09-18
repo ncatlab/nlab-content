@@ -170,6 +170,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 ## Related concepts
 
+* [[Fefferman-Graham ambient construction]]
+
 * [[duality in physics]], [[duality in string theory]]
 
   * [[T-duality]], [[S-duality]], [[U-duality]]
@@ -245,6 +247,7 @@ Further references include:
 
 * [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
   {#KlebanovTorri10}
+
 
 
 ### $AdS_5 / CFT_4$
