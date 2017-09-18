@@ -62,7 +62,7 @@ Discussion of the [[Higgs mechanism]] in this model includes
 
 * [[Gordon Kane]], Piyush Kumar, Ran Lu, Bob Zheng, _Higgs Mass Prediction for Realistic String/M Theory Vacua_, Phys. Rev. D 85, 075026 ([arXiv:1112.1059](http://arxiv.org/abs/1112.1059))
 
-(an useful informed comment is [here](http://www.math.columbia.edu/~woit/wordpress/?p=4262&cpage=1#comment-101525))
+(a useful informed comment is [here](http://www.math.columbia.edu/~woit/wordpress/?p=4262&cpage=1#comment-101525))
 
 More recent predictions are in
 
