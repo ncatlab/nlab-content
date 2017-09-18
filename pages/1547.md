@@ -28,7 +28,7 @@ A **vector bundle** is a [[vector space]] which "continuously varies" over a [[t
 <img src="https://ncatlab.org/nlab/files/TangentSpaceToSphere.png" width="250"> 
 </div>
 
-A basic example of vector bundles are [[tangent bundles]] of [[nLab:smooth manifolds]] $X$. Here the [[vector space]] at each point of $X$ is the [[tangent space]] of that point, the space of all [[tangent vectors]] based at that point.
+A basic example of vector bundles are [[tangent bundles]] of [[nLab:smooth manifolds]] $X$. Here the [[vector space]] at each point of $X$ is the [[tangent space]] of that point, the space of all [[tangent vectors]] based at that point. The graphics on the right shows one of the tangent space of the [[2-sphere]].
 
 > graphics grabbed from [Hatcher](#Hatcher)
 
