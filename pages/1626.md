@@ -45,7 +45,7 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 +-- {: .num_remark #1} 
 ###### Result
-The [[regular monomorphism|regular]] [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ (i.e., the set-theoretic image with the subspace topology inherited from $Y$) is connected.
+The [[regular monomorphism|regular]] [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ (i.e., the set-theoretic image with the subspace topology inherited from $Y$) is connected. Or, what is essentially the same: if $X$ is connected and $f: X \to Y$ is [[epimorphism|epic]], then $Y$ is connected. 
 =-- 
 
 +-- {: .num_remark #2} 
@@ -53,9 +53,14 @@ The [[regular monomorphism|regular]] [[image]] of a connected space $X$ under a 
 [[pushout|Wide pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Set$ commute with [[wide pullback]]s. More memorably: [[connected limit|connected colimits]] of connected spaces are connected. 
 =--
 
++-- {: .num_remark #5} 
+###### Result
+If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected. Or, what is essentially the same: if $T$ has a dense connected subspace $S$, then $T$ is connected. 
+=--
+
 +-- {: .num_remark #3} 
 ###### Result
-An arbitrary [[product]] of connected spaces is connected. (This relies on some special features of $Top$. Discussion of this point can be found at [connected object](http://ncatlab.org/nlab/show/connected+object#properties_14).)
+An arbitrary [[product]] of connected spaces is connected. (This relies on some special features of $Top$. Discussion of this point can be found at [connected](/nlab/show/connected+object#prod) [object](/nlab/show/connected+object#prod2).)
 =--
 
 +-- {: .num_remark #4} 
@@ -63,10 +68,6 @@ An arbitrary [[product]] of connected spaces is connected. (This relies on some 
 The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the topological underpinning of the [[intermediate value theorem]].)
 =--
 
-+-- {: .num_remark #5} 
-###### Result
-If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected.
-=--
 
 ## Exotic examples 
 
