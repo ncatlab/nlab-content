@@ -7,7 +7,7 @@ There are different notions in mathematics called _basis_.  Generally speaking, 
    *  etc ...;
 
 *  the generating [[set]] of a [[free object]]:
-   *  [[basis of a free module]],
+   *  [[basis of a free module]] (see also [[dual basis]] of a [[projective module]])
    *  [[basis of a vector space]]
    *  [[basis in functional analysis]] (which is applied more generally than to free objects, but analogously)
    *  etc ....
