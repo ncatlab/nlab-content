@@ -56,7 +56,9 @@ $$
   CMon
 $$
 
-The _Grothendieck group construction on commutative monoids_ (def. \ref{GrothendieckGroupViaQuotientOfCartesianProduct} below) is an explict presentation of this [[group completion]] functor.
+The _[[Grothendieck group construction on commutative monoids]]_ (def. \ref{GrothendieckGroupViaQuotientOfCartesianProduct} below) is an explict presentation of this [[group completion]] functor.
+
+For more details see at _[[Grothendieck group of a commutative monoid]]_.
 
 +-- {: .num_remark}
 ###### Remark
@@ -69,6 +71,7 @@ The idea of the free group on an abelian monoid is a very simple algebraic idea 
 
 +-- {: .num_defn #GrothendieckGroupViaQuotientOfCartesianProduct}
 ###### Definition
+**([[Grothendieck group of a commutative monoid]])**
 
 Let $(A,+)$ be a [[commutative monoid]] (i.e. a commutative [[semi-group]]).
 
