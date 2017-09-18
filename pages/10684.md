@@ -226,6 +226,8 @@ See also
 
 * [[module]], [[comodule]]
 
+* [[change of rings theorem]]
+
 ### 2. Homological algebra
 
 * [[derived functor]]
