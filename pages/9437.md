@@ -31,6 +31,7 @@ Thus when we have a faithful representation, we can distinguish two elements of 
 ## Definition
 
 ### Traditional
+ {#Traditional}
 
 Let $(\mathcal{C}, \otimes)$ be a  [[closed monoidal category]], $A$ a [[monoid object]] in $\mathcal{C}$ and 
 
@@ -38,13 +39,13 @@ $$
   \rho \;\colon\; A \otimes V \longrightarrow V
 $$
 
-an [[action]]/[[representation]] on some $V \in \mathcal{C}$. Equivalently this is given by its [[adjunct]], which is a morphism
+an [[action]]/[[representation]] on some $V \in \mathcal{C}$. Equivalently this is given by its $((V \otimes -) \dashv [V,-] )$-[[adjunct]] $\tilde \rho$ ("[[currying]]"), which is a [[homomorphism]]
 
 $$
  \tilde \rho \colon A \longrightarrow [V,V]
 $$
 
-to the object of [[endomorphism]] of $V$ (the [[internal hom]]).
+from $A$ to the object of [[endomorphism]] of $V$ (the [[internal hom]]).
 
 
 +-- {: .num_defn #faithrep}
