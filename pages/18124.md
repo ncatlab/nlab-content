@@ -1,0 +1,61 @@
+
++-- {: .num_prop #}
+###### Proposition
+**(quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff)**
+
+Let
+
+$$
+  \pi \;\colon\; (X, \tau_X) \longrightarrow (Y, \tau_Y)
+$$
+
+be a [[continuous function]] between [[topological spaces]] such that
+
+1. $(X, \tau)$ is a [[compact Hausdorff topological space]] (def. \ref{CompactTopologicalSpace}, def. \ref{HausdorffTopologicalSpace});
+
+1. $\pi$ is a [[surjection]] and $\tau_Y$ is the corresponding [[quotient topological space|quotient topology]] (def. \ref{QuotientTopologicalSpace}).
+
+Then the following are equivalent
+
+1. $(Y, \tau_Y)$ is itself a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace});
+
+1. $\pi$ is a [[closed map]] (def. \ref{OpenMap}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The implicaton $\left( (Y, \tau_Y)\, \text{Hausdorff} \right) \Rightarrow \left( \pi \, \text{closed}  \right)$
+is given by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}. We need to show the converse.
+
+Hence assume that $\pi$ is a closed map. We need to show that for every pair of
+distinct point $y_1 \neq y_2 \in Y)$ there exist [[open neighbourhoods]] $U_{y_1}, U_{y_2} \in \tau_Y$
+which are disjoint, $U_{y_1} \cap U_{y_2} = \emptyst$.
+
+Therefore consider the [[pre-images]] 
+
+$$
+  C_1 \coloneqq \pi^{-1}(\{y_1\})
+  \phantom{AA}
+  C_2 \coloneqq \pi^{-1}(\{y_2\})
+  \,.
+$$
+
+Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \tau_Y)$ the singleton subsets $\{y_i\}$ are closed 
+by prop. \ref{AllPointsClosedEquivalentToT1}, and since pre-images under continuous functions preserves closed subsets by
+prop. \ref{ClosedSubsetContinuity}.
+
+Now since [[compact Hausdorff spaces are normal]] it follows that we may find disjoint open subset $U_1, U_2 \in \tau_X$
+such that 
+
+$$
+  C_1 \subset U_1 \phantom{AAA} C_2 \subset U_2
+  \,.
+$$
+
+Moreover, by lemma \ref{SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets} we may find these $U_i$ such that they
+are both [[saturated subsets]] (def. \ref{SubsetSaturated}). Therefore finally lemma \ref{SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets}
+say that the images $\pi(U_i)$ are open in $(Y,\tau_Y)$. These are now clearly disjoint open neighbourhoods of $y_1$ and $y_2$. 
+
+=--
