@@ -15,15 +15,19 @@
 
 ## Idea
 
-A _[[subtopos]]_ is _dense_ if it contains the [[initial object]] $\emptyset$ of the ambient [[topos]].
+A **dense subtopos** is a generalisation to toposes of the concept of a dense [[subspace]] in topology. A _[[subtopos]]_ is _dense_ if it contains the [[initial object]] $\emptyset$ of the ambient [[topos]].
 
 ## Definition
 
-A **dense subtopos** is a [[subtopos]] such that, equivalently
+A **dense subtopos** is a [[subtopos]] $i:\mathcal{E}_j\hookrightarrow \mathcal{E}$ such that, equivalently
 
-* the corresponding [[Lawvere-Tierney topology]] $j$ satisfies $j(\emptyset) \simeq \emptyset$;
+* the corresponding [[Lawvere-Tierney topology]] $j$ satisfies $j(\bot) \simeq \bot$.
 
-* the corresponding [[localization]] $L$ satisfies $L(\emptyset) \simeq \emptyset$;
+* the corresponding [[localization]] $L$ satisfies $L(\emptyset) \simeq \emptyset$.
+
+* (the [[direct image]] satisfies $i_\ast (\emptyset)=\emptyset$.)
+
+* the [[inverse image]] satisfies $i^\ast (Z)=\emptyset$ then $Z=\emptyset$.
 
 ## Properties
 
@@ -85,7 +89,9 @@ $$
   \,.
 $$ 
 
-In view of this, the subtopos being dense says that not only $\ast$, but this whole [[adjoint modality]] that it partipates in sits inside the subtopos. [[Lawvere]] had proposed to call this situation _[[Aufhebung]]_ of the [[unity of opposites]] expressed by $(\emptyset \dashv \ast)$ ("[[becoming]]").
+In view of this, the subtopos being dense says that not only $\ast$, but this whole [[adjoint modality]] that it partipates in sits inside the subtopos. [[Lawvere]] had proposed to call this situation (**resolution** of, or a special minimal version of it,) _[[Aufhebung]]_ of the [[unity of opposites]] expressed by $(\emptyset \dashv \ast)$ ("[[becoming]]"). In other words, for an [[level| essential subtopos]] _being dense is equivalent to resolve_ $\emptyset \dashv \ast$ in the Hegelian calculus of [[level|levels]]!
+
+E.g. [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the topos $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] all subtoposes are essential and correspond to dimensional truncations. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. Hence, _all_ subtoposes (above 0) resolve $\emptyset\dashv\ast$ and therefore are dense! Contrast this with the case of a **Boolean topos** which has only itself as a (trivial) dense subtopos (cf. at [[Boolean topos]]).
 
 ## Related pages
 
@@ -96,6 +102,7 @@ In view of this, the subtopos being dense says that not only $\ast$, but this wh
 
 * {#Johnstone02} [[Peter Johnstone]], (pp.211,219-220) in _[[Sketches of an Elephant]] I_, Oxford UP 2002. 
 
+* {#KRRZ11} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
 
 [[!redirects dense subtoposes]]
