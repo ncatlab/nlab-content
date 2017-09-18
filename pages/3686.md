@@ -24,7 +24,7 @@ In the context of [[mechanics]] where symplectic manifolds model [[phase spaces]
 
 ### Symplectomorphisms
 
-A **symplectomorphism** or **symplectic diffeomorphism** from a [[symplectic manifold]] $(X_1,\omega_1)$ to a symplectic manifold $(X_2,\omega_2)$ is a [[diffeomorphism]] $\phi : X \to Y$ preserving the [[symplectic form]], i.e. such that 
+A **symplectomorphism** or **symplectic diffeomorphism** from a [[symplectic manifold]] $(X_1,\omega_1)$ to a symplectic manifold $(X_2,\omega_2)$ is a [[diffeomorphism]] $\phi : X_1 \to X_2$ preserving the [[symplectic form]], i.e. such that 
 
 $$
   \phi^* \omega_2 = \omega_1
