@@ -1,2 +1,16 @@
 
-nix
+$$
+  \array{
+    E \times_B B' &\to& B'
+    \\
+    \downarrow && \downarrow
+    \\
+    Q &\stackrel{\in F}{\to}& \mathbf{E}_u B
+    \\
+    \;\;\downarrow^{\mathrlap{\in W \cap F}} 
+    && \;\;\downarrow^{\mathrlap{\in W \cap F}}
+    \\
+    E &\stackrel{\in F}{\to}& B
+  }
+  \,,
+$$
