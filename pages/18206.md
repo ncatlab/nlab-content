@@ -44,7 +44,7 @@ with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]],
 
 ## Properties
 
-+-- {: .num_prop}
++-- {: .num_prop #OpenClosedContinuousInjectionsAreEmbeddings}
 ###### Proposition
 **(open/closed continuous injections are embeddings)**
 
@@ -62,7 +62,7 @@ is an embedding (def. \ref{EmbeddingOfTopologicalSpaces}).
 +-- {: .proof}
 ###### Proof
 
-If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]], and still continuous with respect to the subspace topology on $f(X)$. Now a bijective continuous function is a homeomorphism precisely if it is open, or, equivalently, if it is closed. Now an open subset of $Y$ that happens to be contained in $f(X) \subset Y$ is still open in the subspace topology. Hence $X \to f(X)$ is an open map if $f$ is.
+If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]]. Moreover, it is still continuous with respect to the subspace topology on $f(X)$. Now a bijective continuous function is a homeomorphism precisely if it is an [[open map]] or a [[closed map]] (by [this prop.](homeomorphism#HomeoContinuousOpenBijection)). But the image projection of $f$ has this property, respectively, if $f$ does (by [this prop.](open+map#OpenClosedImageProjection)).
 
 =--
 
