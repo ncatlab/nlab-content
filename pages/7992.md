@@ -38,7 +38,16 @@ Analogously for the [[Mp^c]]-group one considers _$Mp^c$-structures_.
 
 ## Properties
 
+### Relation to metalinear structure
 
++-- {: .num_theorem}
+###### Theorem
+
+Let $(X,\omega)$ be a [[symplectic manifold]] and $L \subset T X$ a subbundle of [[Lagrangian subspaces]] of the [[tangent bundle]]. Then $T X$ admits a metaplectic structure precisely if $L$ admits a [[metalinear structure]]. 
+
+=--
+
+([Bates-Weinstein, theorem 7.16](#BatesWeinstein))
 
 ## Related concepts
 
@@ -56,5 +65,7 @@ Analogously for the [[Mp^c]]-group one considers _$Mp^c$-structures_.
 
 * Michel Cahen, [[Simone Gutt]], [[John Rawnsley]], _Symplectic Dirac Operators and $Mp^c$-structures_ ([arXiv:1106.0588](http://arxiv.org/abs/1106.0588))
 
-[[!redirects metaplectic structures]]
+* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_, ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
+ 
 
+[[!redirects metaplectic structures]]
