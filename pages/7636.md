@@ -335,6 +335,8 @@ Some form of this statement was originally formally conjectured in ([Joyal 11](J
 ### Univalent homotopy type theory and elementary $(\infty,1)$-toposes
  {#HomotopyWithUnivalence}
 
+More precise information can be found on the [homotopytypetheory wiki](http://ncatlab.org/homotopytypetheory/show/model+of+type+theory+in+an+%28infinity%2C1%29-topos).
+
 A ([[locally presentable (∞,1)-category|locally presentable]]) [[locally Cartesian closed (∞,1)-category]] (as [above](#HomotopyTypeTheory)) which in addition has a system of [[object classifiers]] is an ([[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaf]]-)[[(∞,1)-topos]].
 
 It has been conjectured in ([Awodey 10](#Awodey10)) that this [[object classifier]] is the categorical semantics of a [[univalence|univalent]] [[type universe]] ([[type of types]]), hence that [[homotopy type theory]] with [[univalence]] has categorical semantics in [[(∞,1)-toposes]].  This statement was proven for the canonical $(\infty,1)$-topos [[∞Grpd]] in ([Kapulkin-Lumsdaine-Voevodsky 12](#KapulkinLumsdaineVoevodsky12)), and more generally for [[(∞,1)-presheaf]] $(\infty,1)$-toposes over [[elegant Reedy categories]] in ([Shulman 13](#Shulman13)).
