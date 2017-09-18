@@ -44,6 +44,8 @@ Review includes
 
 * [[Jeffrey Harvey]], section 1 and 3.6 of _TASI 2003 Lectures on Anomalies_ ([arXiv:hep-th/0509097](http://arxiv.org/abs/hep-th/0509097))
 
+* B.L.Ioffe, _Axial anomaly: the modern status_, Int. J. Mod. Phys. A21:6249-6266,2006 ([arXiv:hep-ph/0611026](http://arxiv.org/abs/hep-ph/0611026))
+
 * {#Jackiw08} [[Roman Jackiw]], _Axial anomaly_, (2008), Scholarpedia, 3(10):7302. ([web](http://www.scholarpedia.org/article/Axial_anomaly))
 
 * Wikipedia, _[Chiral anomaly](http://en.wikipedia.org/wiki/Chiral_anomaly)_
@@ -63,4 +65,3 @@ Application to [[baryogenesis]] is due to
 
 [[!redirects axial anomaly]]
 [[!redirects axial anomalies]]
-
