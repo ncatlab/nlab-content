@@ -19,7 +19,7 @@
 
 ## Idea
 
-Not every [[abelian category]] is a [[concrete category]], such as [[Ab]] or $R$[[Mod]], hence its [[objects]] do not necessrily have underlying [[sets]] whose elements one can reason about. To circumvent this and reason by "[[diagram chasing|diagram chases]]" of elements in general abelian categories, one can instead use [[generalized elements]] in a suitable way. 
+Not every [[abelian category]] is a [[concrete category]], such as [[Ab]] or $R$[[Mod]], hence its [[objects]] do not necessarily have underlying [[sets]] whose elements one can reason about. To circumvent this and reason by "[[diagram chasing|diagram chases]]" of elements in general abelian categories, one can instead use [[generalized elements]] in a suitable way. 
 
 This is closely related to embedding the abelian category fully-faithfully and exactly into a concrete abelian category. See at _[[abelian category]]_ the section _[Embedding theorems](abelian+category#EmbeddingTheorems)_ for more on this.
 
