@@ -15,17 +15,19 @@ Each of the following definitions is a special case of a general concept to foll
 
 ### Of sets
 
-Given a [[set]] $S$, a __partition__ of $S$ is a collection $\pi$ of [[inhabited subsets]] of $S$ such that
+Given a [[set]] $S$, a __partition__ of $S$ is a collection $\pi$ of [[inhabited subsets]] of $S$ (called _blocks_) such that
 
 *  For $A, B \in \pi$, if $A \cap B$ is inhabited, then $A = B$;
 *  The [[union]] $\bigcup \pi$ is all of $S$ (the [[improper subset]]).
 
-A partition $\pi$ __refines__ a partition $\rho$ (of the same set) if every set in $\pi$ is contained in some set in $\rho$:
+A partition $\pi$ __refines__ a partition $\rho$ (of the same set) if every block of $\pi$ is contained in some block of $\rho$:
 $$ \forall A \in \pi,\; \exists B \in \rho,\; A \subseteq B .$$
 Refinement is a [[partial order]] on the class of partitions of $S$.
 
 Partitions of $S$ are in [[bijective correspondence]] with [[equivalence relations]] on $S$; a partition is precisely a collection of [[equivalence classes]].  Refinement corresponds to implication between relations.
 
+Likewise, any partition $\pi$ of $S$ induces a [[surjection]] $S \to \pi$ that assigns each element of $S$ to a unique block, and, conversely, any surjection $f : S \to B$ induces a partition of $S$ by taking the blocks to be the [[fiber]]s of $f$, $\pi = \{f^{-1}(x) \mid x \in B\}$.
+Then the refinement relation $\pi \le \rho$ holds between two partitions of $S$ just in case the surjection $S \to \rho$ can be factored as the surjection $S \to \pi$ followed by a (necessarily unique) function $\pi \to \rho$.
 
 ### Of numbers
 
