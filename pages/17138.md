@@ -3043,7 +3043,7 @@ For **S2) Cobordism theory** an efficient collection of the highlights is in
 
 * {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
-except that it omits proof of the [[Leray-Hirsch theorem]] and the [[Thom isomorphism]], but see the references there.
+except that it omits proof of the [[Leray-Hirsch theorem]] and that of the [[Thom isomorphism]], but see the references there.
  
 For **S3) Complex oriented cohomology** we follow part II of 
 
