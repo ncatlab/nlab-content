@@ -51,11 +51,9 @@ A **category of fibrant objects** $\mathbf{C}$ is
 
 This data has to satisfy the following properties:
 
-* $C$ has [[finite products]] and pullbacks of fibrations (along all morphisms);
+* $C$ has [[finite products]], and in particular a [[terminal object]] ${*}$;
 
-* $C$ has a [[terminal object]] ${*}$;
-
-* fibrations are preserved under [[pullback]];
+* the [[pullback]] of a fibration along an arbitrary morphism exists, and is again a fibration;
 
 * acyclic fibrations are preserved under [[pullback]];
 
