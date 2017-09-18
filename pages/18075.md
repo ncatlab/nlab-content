@@ -32,6 +32,8 @@ The key tools are the [[Strøm model category]] and the [[classical model struct
 
 * [[fundamental group]], [[covering space]]
 
+* [[fundamental theorem of covering spaces]]
+
 * [[homotopy group]]
 
 * [[weak homotopy equivalence]]
