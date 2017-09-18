@@ -96,7 +96,7 @@ The Blakers-Massey connectivity theorem in the form of remark \ref{InTermsOfPush
 
 =--
 
-This is shown in ([Rezk 10, prop. 816](#Rezk10)) with reference to [[(∞,1)-sites]].
+This is shown in ([Rezk 10, prop. 8.16](#Rezk10)) with reference to [[(∞,1)-sites]].
 An intrinsic proof in [[homotopy type theory]] is announced in ([HoTTBook, theorem 8.10.2](#HoTTBook), [Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)). The fully formal computer-checked version of this proof appears as HoTT-[[Agda]] code in ([Favonia 14](#Favonia)).
 
 This translates to an [[internal language]] proof of Blakers-Massey valid in all [[(∞,1)-toposes]] (including [[elementary (∞,1)-toposes]]). Unwinding of the fully formal HoTT proof to ordinary mathematical language is, for the special case of the Freudenthal suspension theorem, in ([Rezk 14](#Rezk14)).
