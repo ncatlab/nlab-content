@@ -1,6 +1,14 @@
 
 * [webpage](http://www.math.uic.edu/people/profile?mscsid=bous)
 
+## related $n$Lab entries
+
+* [[Bousfield-Friedlander model structure]]
+
+* [[Bousfield localization of spectra]]
+
+* [[Bousfield localization of model categories]]
+
 category: people
 
 [[!redirects A. K. Bousfield]]
