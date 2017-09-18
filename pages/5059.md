@@ -88,7 +88,7 @@ Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifo
 
 * $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta$.
 
-Notice that this then gives the above formula for the differential of the super-[[vielbein]] in def. \ref{CEAlgebraOfSuperPoincare} as
+Notice that this then gives the above formula for the differential of the [[super-vielbein]] in def. \ref{CEAlgebraOfSuperPoincare} as
 
 $$ 
   \begin{aligned}
@@ -108,7 +108,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *supertorsion* of the supervielbein $e$, because the defining equation
+The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *supertorsion* of the [[super-vielbein]] $e$, because the defining equation
 
 $$
   d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \frac{i}{2}\bar \psi \Gamma^a \psi
@@ -300,29 +300,36 @@ In general this 3-form is no longer _closed_. If it is closed, then the Green-Sc
 This is due to ([Nilsson 81](#Nilsson81), [Bergshoeff-Sezgin-Townsend 86](#BergshoeffSezginTownsend86)) and others, see the references [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
 
 #### Membrane in 11d SuGra background
+ {#MembraneIn11dSuGraBackground}
 
 For the [[membrane]]([[M2-brane]]) in a background of [[11-dimensional supergravity]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87))
-find that consistency requires that (in a given [[coordinate chart]] with super-[[vielbein field]] $(E^A) = (E^a, \Psi^\alpha)$) the 4-form flux is of the form
+find that consistency requires that (in a given [[coordinate chart]] with [[super-vielbein field]] $(E^A) = (E^a, \Psi^\alpha)$) the 4-form flux is of the form
 
 
 \[
   \label{HConstraintEquationForMembraneIn11d}
-  H = \overline{\Psi}\wedge\Gamma^{ab} \Psi \wedge E_a \wedge E_b + \mathbf{d}C_3
+  \begin{aligned}
+     H & = \overline{\Psi}\wedge\Gamma^{ab} \Psi \wedge E_a \wedge E_b + \mathbf{d}C_3
+     \\
+     & =
+     \Gamma_{a b \alpha \beta} E^a \wedge E^b \wedge E^\alpha \wedge E^\beta + 
+    \mathbf{d}C_3
+  \end{aligned}
 \]
 
-where the first term is super-Lie algebra cocycle that classifies the [[supergravity Lie 3-algebra]] and the second is the [[field strength]] of the [[supergravity C-field]] proper (hence a purely bosonic differential form).  
+where the first summand is the super-Lie algebra cocycle that classifies the [[supergravity Lie 3-algebra]] and the second is the [[field strength]] of the [[supergravity C-field]] proper (hence a purely bosonic differential form). In the second line we have rewritten this more manifestly in terms of the [[super-vielbein]] $(E^A) = (E^a, E^\alpha) = (E^a, \Psi^\alpha)$, this way the expression is directly analogous to that of definite 3-forms in the theory of [[G2-manifolds]] (see [this example](G2+manifold#DefiniteFormsInTermsOfVielbeinFields) for details).
 
 Moreover the [[supertorsion]] tensor $T$ is to have its $(T^a)^\alpha{}_\beta$-component equal to $(\Gamma^a)^\alpha{}_\beta$.
 
 In addition the [[Bianchi identities]] have to hold:
 
-* $D T^A = E^B \wedge R_{B}{}^{A}$
+* $\nabla T^A = E^B \wedge R_{B}{}^{A}$
 
-* $D H = 0$ ([[covariant derivative|covariant constancy]]).
+* $\nabla H = 0$ ([[covariant derivative|covariant constancy]]).
 
-All this is supposed to be implied by the [[equations of motion]] of [[11-dimensional supergravity]].
-  
-Notice that (eq:HConstraintEquationForMembraneIn11d) is directly analous to the  [chart-wise characterization of closed G2-structure](G2+manifold#ClosedG2StructureByAtlas).
+This is implied by the [[equations of motion]] of [[11-dimensional supergravity]].
+
+Notice that in view of the above analogy to [[G2-structure]], the covariant constancy condition is precisely the analog of [[G2-manifold]] structure.  
 
 Discussion of this in the somewhat more streamlined [[D'Auria-Fré formulation of supergravity]] is in ([AFFFTT 98, section 3.1](#AFFFTT98)).
 
