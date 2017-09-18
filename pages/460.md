@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -31,7 +30,7 @@ A [[topological space]] $X$ is **sober** if its [[points]] are exactly determine
 
 * The [[continuous map]] from $X$ to the space of points of the [[locale]] that it gives rise to (see there for details) is a [[homeomorphism]].
 
-* The [[function]] from points of $X$ to the _completely prime [[filters]]_ of its open-set lattice is a [[bijection]].
+* The [[function]] from points of $X$ to the _[[completely prime filter|completely prime filters]]_ of its open-set lattice is a [[bijection]].
 
 * (Assuming classical logic) every [[irreducible closed set]] (non-empty closed set that is not the [[union]] of any two proper closed subsets) is the [[topological closure|closure]] of a point.
 
@@ -44,7 +43,7 @@ A [[topological space]] $X$ has _enough points_ if the following equivalent cond
 
 * The [[continuous map]] from $X$ to the space of points of the [[locale]] that it gives rise to (see there for details) is a [[quotient space|quotient map]].
 
-* The [[function]] from points of $X$ to the _completely prime [[filters]]_ of its [[lattice of open subsets|open-set lattice]] is a [[surjection]].
+* The [[function]] from points of $X$ to the _[[completely prime filter|completely prime filters]] of its [[lattice of open subsets|open-set lattice]] is a [[surjection]].
 
 * (Assuming classical logic) every [[irreducible closed set]] (non-empty closed set that is not the [[union]] of any two proper closed subsets) is the [[topological closure|closure]] of a point.
 
