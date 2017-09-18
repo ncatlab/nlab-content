@@ -12,6 +12,8 @@ An analogy to keep in mind is
 
 This analogy can be formalized by noticing that the skeletal category of finite sets is simply the [[full subcategory]] of [[Cat]] whose objects are the [[localization]]s $[n]^{-1}[n]$ which are groupoids. By the universal property of localization, the usual (simplicial) [[nerve]] of a groupoid has a canonical symmetric structure.
 
+Grandis proves that the fundamental groupoid functor $!Smp \to Gpd$ from symmetric sets to groupoids is left adjoint to a natural functor $Gpd \to !Smp$, the symmetric nerve of a groupoid, and preserves all colimits - a [[van Kampen theorem]]. Similar results hold in all higher dimensions.
+
 The notion of [[cyclic set]] is intermediate between symmetric sets and simplicial sets.  In particular, any symmetric set, such as the nerve of a groupoid, also has a cyclic structure.
 
 
@@ -31,6 +33,11 @@ use both expressions in my writings and every day usage.
 
 * [[cyclic set]],  [[skew-simplicial set]]
 
+## References
+
+* Marco Grandis, _Finite sets and symmetric simplicial sets_ [PDF](http://www.tac.mta.ca/tac/volumes/8/n8/n8.pdf)
+
+* Marco Grandis, _Higher fundamental functors for simplicial sets_ [arXiv](http://arxiv.org/abs/math/0009004)
 [[!redirects symmetric simplicial set]]
 [[!redirects symmetric simplicial sets]]
 [[!redirects symmetric sets]]
