@@ -35,7 +35,7 @@ is called **open** if the following equivalent conditions holds
 
 ## References
 
-* [[Peter Johnstone]], _Open maps of toposes_, Manuscripta Mathematica, Volume 31, Numbers 1-3
+* [[Peter Johnstone]], _Open maps of toposes_, Manuscripta Mathematica, Volume 31, Numbers 1-3 (1980) pp.217-247. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=GDZPPN002222744))
 
 * [[André Joyal]], [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_, Mem. Amer. Math. Soc. 309
 (1984).
