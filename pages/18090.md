@@ -135,7 +135,7 @@ $$
 Examples of [[normed vector spaces]] (def. \ref{NormedVectorSpace}) and hence, via prop. \ref{MetricSpaceFromNormedVectorSpace},
 of [[metric spaces]] include the following:
 
-+-- {: .num_example }
++-- {: .num_example #EuclideanNorm}
 ###### Example
 
 For $n \in \mathbb{N}$, the [[Cartesian space]]
@@ -164,6 +164,13 @@ carries a [[norm]] (the _Euclidean norm_ ) given by the [[square root]] of the [
      \,.
    $$
 
+Via prop. \ref{MetricSpaceFromNormedVectorSpace} this gives $\mathbb{R}^n$ the structure of a
+[[metric space]], and as such it is called the _[[Euclidean space]]_ of [[dimension]] $n$.
+
+=--
+
++-- {: .num_defn #pNorm}
+###### Example
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vector-p-Norms_qtl1.svg/220px-Vector-p-Norms_qtl1.svg.png" width="200">
@@ -177,14 +184,12 @@ More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then
 
 The graphics on the right (grabbed from Wikipedia) shows unit circles in $\mathbb{R}^2$ with respect to various [[p-norms]].
 
-By the [[Minkowski inequality]], 
+By the [[Minkowski inequality]],
 the [[p-norm]] generalizes to non-[[finite dimensional vector spaces]] such as [[sequence spaces]] and [[Lebesgue spaces]].
-
 
 =--
 
-
-
+The following now is the fairly obvious definition of continuity for functions between metric spaces.
 
 +-- {: .num_defn #EpsilonDeltaDefinitionOfContinuity}
 ###### Definition
@@ -214,18 +219,40 @@ $$
 
 where $B^\circ$ denotes the [[open ball]] (definition \ref{OpenBalls}).
 
-The function $f$ is called just _continuous_ if it is continuous at every point $x \in X$.
+The function $f$ is^said to be _continuous_ if it is continuous at every point $x \in X$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Consider the [[real line]] $\mathbb{R}$ regarded as the
+1-dimensional [[Euclidean space]] $\mathbb{R}$ from example \ref{EuclideanNorm}.
+
+For $P \in \mathbb{R}[X]$ a [[polynomial]], then the function
+
+$$
+  f_P \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
+$$
+
+$$
+  x \mapsto P(X)
+$$
+
+is a [[continuous function]] in the sense of def. \ref{EpsilonDeltaDefinitionOfContinuity}.
+
+On the other hand, a [[step function]] is continuous everywhere except at the [[finite number]] of points
+at which it changes its value.
+
+
 
 =--
 
 
 
-
-
 #### Via open subsets
 
-We now reformulate this analytic concept in terms of the simple but important concept of _[[open sets]]_:
-
+We now reformulate the analytic concept of continuity from def. \ref{EpsilonDeltaDefinitionOfContinuity} in terms of the simple but important concept of _[[open sets]]_:
 
 
 +-- {: .num_defn #OpenSubsetsOfAMetricSpace}
@@ -240,19 +267,52 @@ Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 
 =--
 
+
 The following picture shows a point $x$, some [[open balls]] $B_i$ containing it, and two of its [[neighbourhoods]] $U_i$:
 
 <img src="https://ncatlab.org/nlab/files/NeighbourhoodsAndOpenBalls.png" width="500">
 
 > graphics grabbed from [Munkres 75](#Munkres75)
 
++-- {: .num_example #OpenAndClosedIntervals}
+###### Example
+
+Regard the [[real numbers]] $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
+
+For $a \lt b \in \mathbb{R}$ consider the following [[subsets]]:
+
+1. $(a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \lt b \right\}$
+
+1. $(a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \leq b \right\}$
+
+1. $[a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \lt b \right\}$
+
+1. $[a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \leq b \right\}$.
+
+The first of these is an open subset according to def. \ref{OpenSubsetsOfAMetricSpace}, the other three are not.
+The first one is called an _[[open interval]]_, the last one a _[[closed interval]]_
+and the middle two are called _[[half-open intervals]]_.
+
+Similarly for $a,b \in \mathbb{R}$ one considers
+
+1. $(-\infty,b) \coloneqq \left\{ x \in \mathbb{R} \vert x \lt b  \right\}$
+
+1. $(a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x  \right\}$
+
+1. $(-\infty,b] \coloneqq \left\{ x \in \mathbb{R} \vert x \leq b  \right\}$
+
+1. $[a,\infty) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x  \right\}$
+
+The first two of these are open subsets, the last two are not.
+
+=--
 
 
 +-- {: .num_prop #ContinuityBetweenMetricSpacesInTermsOfOpenSets}
 ###### Proposition
 **(rephrasing continuity in terms of open sets)**
 
-A [[function]] $f \colon X \to Y$ between [[metric spaces]] (def. \ref{MetricSpace}) is continuous in the [[epsilontic analysis|epsilontic]] sense of def. \ref{EpsilonDeltaDefinitionOfContinuity} precisely if it has the property that its [[pre-images]] of [[open subsets]] of $Y$ (in the sense of def. \ref{OpenSubsetsOfAMetricSpace}) are open subsets of $X$.
+A [[function]] $f \colon X \to Y$ between [[metric spaces]] (def. \ref{MetricSpace}) is [[continuous function|continuous]] in the [[epsilontic analysis|epsilontic]] sense of def. \ref{EpsilonDeltaDefinitionOfContinuity} precisely if it has the property that its [[pre-images]] of [[open subsets]] of $Y$ (in the sense of def. \ref{OpenSubsetsOfAMetricSpace}) are open subsets of $X$.
 
 =--
 
@@ -273,6 +333,55 @@ Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for ev
 
 =--
 
++-- {: .num_example}
+###### Example
+
+Consider $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) and consider the [[step function]]
+
+$$
+  H \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
+$$
+
+$$
+  H \colon x \mapsto 
+  \left\{
+    \array{
+      0 & \vert \, x \leq 0
+      \\
+      1 & \vert \, x \gt 0
+    }
+  \right.
+  \,.
+$$
+
+Consider then for $a \lt b \in \mathbb{R}$ the [[open interval]] $(a,b) \subset \mathbb{R}$, 
+an [[open subset]] accordiing to example \ref{OpenAndClosedIntervals}.
+The [[preimage]] of this open subset is
+
+$$
+  H^{-1} \;\colon\;
+  (a,b)
+    \mapsto
+  \left\{
+    \array{
+      \emptyset & \vert \,  a \gt 1 \;\;\text{or} \;\; b \lt 0
+      \\
+      \mathbb{R} & \vert \, a \lt 0 \;\;\text{and}\;\; b \gt 1
+      \\
+      \emptyset & \vert \, a \geq 0 \;\;\text{and}\;\; b \leq 1
+      \\
+      (0,\infty) & \vert \, 0 \leq a \lt 1 \;\;\text{and}\;\; b \gt 1
+      \\
+      (-\infty, 0] & \vert \, a \lt 0 \;\;\text{and}\;\; b \leq 1
+      \\       
+    }
+  \right.
+  \,.
+$$
+
+By example \ref{OpenAndClosedIntervals}, the last of these preimages listed is not an open subset.
+
+=--
 
 
 ### Topological spaces
