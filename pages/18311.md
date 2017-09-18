@@ -93,7 +93,7 @@ $$
 
 and this is the _Grothendieck group_ of $A$. 
 
-This comes with a canonical [[homomorphism]] of [[semigroups]]
+This comes with a canonical [[homomorphism]] of [[monoids]] ([[semigroups]] with [[unitality|unit]]):
 
 $$
   \array{
