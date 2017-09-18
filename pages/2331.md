@@ -207,7 +207,9 @@ The Kontsevich and Soibelman references below are also good.
 
 * [[cotangent complex]], [[André-Quillen homology]], [[Hochschild homology]]
 
-[[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]
+* [[derived deformation theory]], [[derived algebraic geometry]]
+
+* [[formal scheme]], [[formal smoothness]]
 
 * [[deformation quantization]]
 
