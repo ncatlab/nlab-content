@@ -21,6 +21,10 @@ Accordingly, much of "physical" [[string theory]] has its analogs in _topologica
 
 Also the perspective of [[string theory]] as the dimensional reduction of a conjectured [[UV-completion]] of  [[11-dimensional supergravity]] -- "M-theory" -- has its analog for topological strings, going, accordingly, by the term _[[topological M-theory]]_.
 
+## Classification
+
+[[!include 2d TQFT -- table]]
+
 ## Related concepts
 
 * [[TCFT]]
