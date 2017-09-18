@@ -28,27 +28,32 @@ Remark that the natural projection $P_Y X\to Y\times Y$ makes $P_Y X$ a groupoid
 $$P_Y X\cong LX:=\Hom(S^1,X).$$
 There is a natural projection $p:P_Y X\to \Hom(\Delta^1,X)\sim X$ and $P_Y X$ is equiped with the natural structure of a groupoid acting on $Y$ through the projection $P_Y X\to Y\times Y$.
 A more explicit description of the loop space (that is obtained by using the homotopy $\Delta^1\sim \Delta^0$) is given by the homotopy pullback
-$$L_Y X=Y\times^h_X Y,$$
+$$P_Y X=Y\times^h_X Y,$$
 which clearly has an interesting meaning only in the setting of derived geometry.
 
 
-Over a base field of characteristic $0$, the [[Hochschild-Kostant-Rosenberg theorem]] implies that $P_Y X\cong T_Y[-1]X$ and $LX\cong T[-1]X$.
+Over a base field of characteristic $0$ and for a derived analytic space (that is not a stack), the [[Hochschild-Kostant-Rosenberg theorem]] implies that $P_Y X\cong T_Y[-1]X$ and $LX\cong T[-1]X$.
+
+To make the above construction work for general Artin stacks, one needs to make it local for the smooth topology. This is done by replacing the loop space groupoid $P_Y X$ acting on $Y$ by its formal completion along the identity morphism. This gives a formal groupoid $\hat{P}_Y X$ that is also equivalent modulo HKR's theorem to $T_Y[-1]X$ for a general Artin stack. Similarly, we will have $\hat{L}M:=\hat{P}_M(M\times M)\cong T[-1]M$ by [[HKR]].
 
 The deformation to the normal bundle in strict derived global analytic geometry is then simply given by the formula (with $D^1=\mathbb{M}(R\{X\}^\dagger)$ for $R$ the base ind-Banach ring)
 $$
-\widetilde{L_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)\in Y,\; f(1,0)\in Y,\;f(x,t)\in (X\backslash Y)\forall t\neq 0\}.
+\widetilde{P_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)\in Y,\; f(1,0)\in Y,\;f(-,1)\in (X\backslash Y)\Rightarrow f(x,t)\in (X\backslash Y)\forall t\neq 0\}.
 $$
-More concretely (maybe false, but to be corrected), this is given by the homotopy pullback (where $U(1)=\mathbb{M}(R\{X,Y\}^\dagger/(XY-1))$)
+More concretely, this is given by the homotopy pullback (where $U(1)=\mathbb{M}(R\{X,Y\}^\dagger/(XY-1))$ and we use the homotopy equivalence $\Hom(\Delta^1,X)\sim X$)
 $$
 \array{
-    \widetilde{L_Y X} &\to& \Hom_{D^1}(\Delta^1\times D^1,X\times D^1)
+    \widetilde{P_Y X} &\to& \Hom_{D^1}(\Delta^1\times D^1,X\times D^1)
     \\
-    \downarrow && \downarrow^{\mathrlap{ev_{(0,0)}\times ev_{(1,0)}\times \ev_{(-,U(1))}}}
+    \downarrow && \downarrow^{\mathrlap{ev_{(0,0)}\times ev_{(1,0)}\times \ev_{(-,U(1))}\times \ev_{(-,1)}}}
     \\
-    Y\times \Hom(\Delta^1\times U(1),(X\backslash Y)) &\stackrel{\Delta\times i}{\to}& X\times X\times \Hom(\Delta^1\times U(1),X)
-}
+    Y\times Y\times \Hom(\Delta^1\times U(1),(X\backslash Y))\times (X\backslash Y) &\stackrel{i\times j\times k}{\to}& X\times X\times \Hom(\Delta^1\times U(1),X)
+\times X}
 $$
-It has an evident natural projection $t:\widetilde{L_Y X}\to D^1$.
+It has an evident natural projection $t:\widetilde{L_Y X}\to D^1$, and a natural projection $\widetilde{P_Y X}\to Y\times Y$ that makes it a family of groupoids parametrized by $D^1$ and acting on $Y$. There is also a natural projection
+$p:\widetilde{L_Y X}\to X$ given by $f\mapsto f(-,1)$.
+
+One may complete $\widetilde{P_Y X}$ along the unit of its groupoid structures, to get a formal groupoid $\widehat{P_Y X}$ fibered over $D^1$, whose fiber at $0$ will be the formal loop space $\hat{P}_Y X$ obtained by completing the path groupoid $P_Y X$ acting on $Y$ along its identity morphism, and whose fiber at $1$ will be the formal completion $\hat{X}_Y$ of $X$ along $Y$. In the particular case of the diagonal embedding $Y=M\hookrightarrow M\times M=X$ over a field of characteristic $0$, the quotient of $X$ by this family of groupoids gives back (modulo a convenient [[HKR]] theorem) exactly Simpson's non-abelian Hodge structure, that gives a family of formal stacks over $D^1$ whose fiber at $0$ is the tangent space $TX$ (seen as a formal groupoid acting trivially on $X$) and whose fiber at $1$ is the so-called de Rham space $X_{dR}$ of $X$.
 
 ## References
 
