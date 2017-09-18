@@ -2237,6 +2237,8 @@ $$
 
 =--
 
+This was highlighted by [[John Huerta]].
+
 +-- {: .proof}
 ###### Proof
 
