@@ -106,9 +106,9 @@ Reasoning like this might suggest that in generalization to how type II [[orient
 
 ### Relation to heterotic string theory
 
-The [[duality between F-theory and heterotic string theory]]:A subclass of K3 manifolds elliptically fibered is dual to heteoretic string theory on a two-torus.If this it's true, then the modules of those theories must be equal.
+The [[duality between F-theory and heterotic string theory]]:A subclass of K3 manifolds elliptically fibered.
 
-F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] on a 2-[[torus]]. An early argument for this is due to ([Sen 96](#Sen96)).
+F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] on a 2-[[torus]]. An early argument for this is due to ([Sen 96](#Sen96)).Also,the modules of those theories must be equal.
 
 More generally, heterotic string theory on an elliptically fibered Calabi-Yau $Z \to B$ of complex dimension $(n-1)$ is supposed to be equivalent $F$-theory on an $n$-dimensional $X\to B$ with elliptic K3-fibers.
 
