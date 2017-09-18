@@ -637,6 +637,56 @@ Since $g$ is a plain [[bump function]], its Fourier transform $\hat g$ is quickl
 
 This shows that microcausality in this case is related to conservation of momentum in th point interaction.
 
+More generally:
+
+
++-- {: .num_example #CompactlySupportedPolynomialLocalDensities}
+###### Example
+**(compactly supported polynomial local densities)**
+
+Write
+
+$$
+  \Omega_{poly}^{h,v}(E)
+$$
+
+for the space of differential forms on the [[jet bundle]] of $E$ which locally are [[polynomials]]
+in the field variables.
+
+$$
+  \mathcal{F}_{loc}
+    \; \subset \;
+  C^\infty_c(\Sigma) \underset{\Omega_{poly}^{0,0}(E)}{\otimes} \Omega_{poly}^{d,0}(E)
+$$
+
+for the subspace of [[horizontal differential forms]] of degree $d$ on the [[jet bundle]] ([[local Lagrangian densities]])
+of those which are [[compact support|compactly supported]] with respect to $\Sigma$ and [[polynomial]] with respect to the 
+field variables.
+
+Every $L \in \mathcal{F}_{loc}$ induces a functional
+
+$$
+   \Gamma_\Sigma(E) \longrightarrow \mathbb{R}
+$$
+
+by [[integration of differential forms|integration]] of the [[pullback of differential forms|pullback]]
+of $L$ along the [[jet prolongation]] of a given [[section]]:
+
+$$
+  \phi \mapsto \int_{\Sigma} j^\infty(\phi)^\ast L 
+  \,.
+$$
+
+These functionals happen to be [[microcausal functional|microcausal]], so that there is an inclusion
+
+$$
+  \mathcal{F}_{loc} \hookrightarrow \mathcal{F}_{mc}
+$$
+
+into the space of [[microcausal functionals]]. (See [this example](microcausal+functional#CompactlySupportedPolynomialLocalDensities) at _[[microcausal functional]]_).
+
+=--
+
 
 
 +-- {: .num_prop #MoyalStarProductOnMicrocausal}
