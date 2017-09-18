@@ -19,6 +19,8 @@ A _finite spectrum_ is a [[spectrum]] presented by sequences of [[finite homotop
 
 ## Properties
 
+Finite spectra are the [[compact objects]] in the [[stable homotopy category]]. The full subcategory on finite spectra is equivalently the [[Spanier-Whitehead category]] on [[finite CW complexes]] (e.g. [Schwede 12, chapter II, section 7](#Schwede12)). 
+
 Many of the basic constructions and theorems in [[chromatic homotopy theory]] apply to finite [[p-local spectra]], such as
 
 * [[telescopic localization]]
@@ -42,6 +44,9 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 
 * [[Neil Strickland]], Section 2.2 of _An introduction to the category of spectra_ ([pdf](http://neil-strickland.staff.shef.ac.uk/research/stableintro.pdf))
+
+* {#Schwede12} [[Stefan Schwede]], chapter II, section 7 of  _[[Symmetric spectra]]_, 2012  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
 
 [[!redirects finite spectra]]
 
