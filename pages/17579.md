@@ -84,6 +84,8 @@ For the proof see Mac Lane-Moerdijk ([1994](#MM94), pp.126f).
 
 * [[atomic topos]]
 
+* [[Ore condition]]
+
 * [[De Morgan topos]]
 
 ## Reference
