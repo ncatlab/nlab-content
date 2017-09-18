@@ -284,7 +284,7 @@ A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [
 +-- {: .num_example }
 ###### Example
 
-The category of [[affine schemes]] is a reflective subcategory of the [[category of schemes]], with the reflector given by $X \mapsto Spec \Gamma(X,\mathcal{O}_X)$.
+The category of [[affine schemes]] is a reflective subcategory of the category of [[schemes]], with the reflector given by $X \mapsto Spec \Gamma(X,\mathcal{O}_X)$.
 
 =--
 
@@ -317,6 +317,7 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
  {#AdamekRosicky}
 
 * Springer eom: [reflective subcategory](http://eom.springer.de/r/r080550.htm)
+
 
 * cf. the notion of $Q^\circ$-category in the entry [[Q-category]]
 
