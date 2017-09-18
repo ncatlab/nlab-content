@@ -172,7 +172,7 @@ which conjectures a construction that is fully developed in
 
 See also
 
-* [[Marc Hoyois]], _Chern character and derived algebraic geometry_ (2009) ([pdf](http://math.northwestern.edu/~hoyois/papers/chern.pdf))
+* [[Marc Hoyois]], _Chern character and derived algebraic geometry_ (2009) ([pdf](http://math.mit.edu/~hoyois/papers/chern.pdf))
 
 
 [[!redirects Chern characters]]
