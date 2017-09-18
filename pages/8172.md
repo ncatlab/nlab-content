@@ -995,7 +995,7 @@ The key consequence of the assumption that $E$ is flat in the sense of def. \ref
 +-- {: .num_prop #FlatnessOfEImpliesKeyConsequence}
 ###### Proposition
 
-For $E$ a [[homotopy commutative ring spectrum]] which is flat according to def. \ref{FlatE}, then for all spectra $X \in Ho(Spectra)$ there is a [[natural isomorphism]]
+For $E$ a [[homotopy commutative ring spectrum]] which is flat according to def. \ref{FlatE}, then for all spectra $X \in Ho(Spectra)$ the canonical morphism 
 
 $$
   E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
@@ -1003,7 +1003,7 @@ $$
   \pi_\bullet(E \wedge E \wedge X)
 $$
 
-and hence for all $n \in \mathbb{N}$ there are isomorphisms
+is a [[natural isomorphism]] and hence for all $n \in \mathbb{N}$ there are isomorphisms
 
 $$
   \pi_\bullet(E^{\wedge^{(n+2)}}\wedge X  )
@@ -1032,15 +1032,18 @@ See the proof of [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#EnHo
 
 =--
 
-Using prop. \ref{FlatnessOfEImpliesKeyConsequence}, we find below (prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[commutative Hopf algebroid]]. We now first discuss what this means.
+Using prop. \ref{FlatnessOfEImpliesKeyConsequence}, we find below (prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[graded commutative Hopf algebroid]]. We now first discuss what this means. 
 
 
-##### Commutative Hopf algebroids
+##### Garded commutative Hopf algebroids
+
+The dual $E$-[[Steenrod algebras]] that we consider [below](#DualESteenrodAlgebra) are not just algebras, but carry a richer alegbraic structure called a _[[commutative Hopf algebroid]] structure_. Below in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} we say explicitly what this means.  But since it involves a lot of structure, it is useful to know that all this structure is just the dual incarnation of the following simple concept:
+
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
 
-A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] [[CRing]]${}^{op}$ of [[commutative rings]], regarded with its [[cartesian monoidal category]] structure.
+A **[[graded commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] $gCRing^{op}$ of [[graded commutative rings]], regarded with its [[cartesian monoidal category]] structure.
 
 =--
 
@@ -1442,28 +1445,17 @@ In computing the second page of $E$-[[Adams spectral sequences]], the second sta
 
 
 ##### The dual $E$-Steenrod algebra
+ {#DualESteenrodAlgebra}
 
 
 Now we identify the [[commutative Hopf algebroids]] (def. \ref{CommutativeHopfAlgebroid}) arising in the $E$-Adams spectral sequence (def. \ref{AdamsEAdamsSpectralSequence}):
 
-+-- {: .num_prop #HopfAlgebroidStructureOnDualEOperations}
-###### Proposition
++-- {: .num_defn #HopfAlgebroidStructureOnDualEOperations}
+###### Definition
 
-If the [[homotopy commutative ring spectrum]] $E$ is flat according to def. \ref{FlatE}, then,
-via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}, the cosimplicial spectrum $E^{\wedge^\bullet} \wedge X$ (the $E$-standard resolution of $X$ from example \ref{StandardEResolution}) exhibits:
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}. 
 
-1. for $X = E$: [[Hopf algebroid]]-structure, def. \ref{CommutativeHopfAlgebroid}, remark \ref{CommutativeHopfAlgebroidSpelledOut}, on $E_\bullet(E)$ over $\pi_\bullet(E)$ -- called the **dual $E$-[[Steenrod algebra]]**;
-
-1. for general $X$: [[comodule]]-structure on $E_\bullet(X)$ over the dual $E$-[[Steenrod algebra]].
-
-=--
-
-(e.g. [Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
-
-+-- {: .proof}
-###### Proof
-
-Via prop. \ref{FlatnessOfEImpliesKeyConsequence}, the image under $\pi_\bullet(-)$ of the cosimplicial spectrum $E^{\wedge^\bullet}(E)$ is identified as on the right of the following diagram
+Then the **dual $E$-[[Steenrod algebra]]** is the [[commutative Hopf algebroid]] $(E_\bullet(E), \pi_\bullet(E))$ (def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}) equipped with the following structure maps
 
 $$
   \array{
@@ -1486,10 +1478,12 @@ $$
     \\
     \pi_\bullet(E) &=& \pi_\bullet(E)
   }
-  \,.
+  \,,
 $$
 
-Analogously the [[coaction]] is induced as on the right of the following diagram
+where the horizontal isomorphisms are form prop. \ref{FlatnessOfEImpliesKeyConsequence}.
+
+Analogously for $X \in Ho(Spectra)$ any spectrum then $E_\bullet(X)$ becomes a [[comodule]] over $(E_\bullet(E), \pi_\bullet(E))$ where the [[coaction]] is induced as on the right of the following diagram
 
 $$
   \array{
@@ -1504,13 +1498,19 @@ $$
   \,.
 $$
 
+
 =--
+
+(e.g. [Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
+
+
+
 
 
 +-- {: .num_example}
 ###### Example
 
-Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of corollary \ref{HopfAlgebroidStructureOnDualEOperations} happens to be a [[commutative Hopf algebra]] over $\pi_\bullet(E)$ instead of a more general [[commutative Hopf algebroid]], according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the case $E = $ [[HA|H]]$\mathbb{F}_p$.
+Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of def. \ref{HopfAlgebroidStructureOnDualEOperations} happens to be a [[graded commutative Hopf algebra]] over $\pi_\bullet(E)$ instead of a more general [[graded commutative Hopf algebroid]], according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the case $E = $ [[HA|H]]$\mathbb{F}_p$.
 
 =--
 
