@@ -1,3 +1,4 @@
+
 +-- {: .num_prop }
 ###### Proposition
 
