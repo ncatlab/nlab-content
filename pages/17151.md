@@ -8,5 +8,7 @@
 
 * [[stable homotopy category]]
 
+* [[Becker-Gottlieb transfer]]
+
 category: people
 
