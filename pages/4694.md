@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### 2-Category theory
-+--{: .hide}
-[[!include 2-category theory - contents]]
-=--
 #### Monoidal categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
 =--
 =--
 =--
@@ -21,9 +21,7 @@
 
 A **monoidal adjunction** is an [[adjunction]] between [[monoidal categories]] which respects the monoidal structure.
 
-## Definition
-
-Actually, since there are several types of [[monoidal functors]] (lax, colax, and strong) there are several types of "adjunctions between monoidal categories which respect the monoidal structure."  Namely, we could have:
+Since there are several types of [[monoidal functors]] (lax, colax, and strong) there are several types of "adjunctions between monoidal categories which respect the monoidal structure."  Namely, we could have:
 
 * An adjunction in the [[2-category]] $MonCat$ of monoidal categories and strong monoidal functors.  In this case both the left and right adjoint are strong.  
 
@@ -38,7 +36,7 @@ Actually, since there are several types of [[monoidal functors]] (lax, colax, an
 
   We call this a **strong monoidal adjunction**.
 
-* An adjunction in the 2-category $MonCat_\ell$ of monoidal categories and lax monoidal functors.  In this case the right adjoint is lax, while the left adjoint is necessarily strong (by [[doctrinal adjunction]]; see [here](/nlab/show/doctrinal+adjunction#strength)).  
+* {#MonoidalAdjnctionIdea} An adjunction in the 2-category $MonCat_\ell$ of monoidal categories and lax monoidal functors.  In this case the right adjoint is lax, while the left adjoint is necessarily strong (by [[doctrinal adjunction]]; see [here](/nlab/show/doctrinal+adjunction#strength)).  
 
   $$
     \array{
@@ -56,6 +54,227 @@ Actually, since there are several types of [[monoidal functors]] (lax, colax, an
 * The dual: an adjunction in the 2-category $MonCat_c$ of monoidal categories and colax monoidal functors, in which case the left adjoint is colax and the right adjoint is strong.  One might call this an **opmonoidal adjunction**.
 
 * A mixed situation, in which the left adjoint is colax, the right adjoint is lax, and the lax and colax structure maps are [[mates]] under the adjunction.  This is a [[conjunction]] in the [[double category]] of monoidal categories and lax and colax monoidal functors, so we may call it a **monoidal conjunction** or a **lax/colax monoidal adjunction**.  By [[doctrinal adjunction]], given any adjunction between monoidal categories, if the right adjoint is lax monoidal, then the left adjoint automatically acquires a colax monoidal structure making the adjunction into a monoidal conjunction, and dually.
+
+## Details
+ {#Details}
+
+As mentioned [above](#MonoidalAdjnctionIdea), the nature of monoidal adjunctions follows as a special case from generalities of [[doctrinal adjunctions]]. For the record, here is an explicit discussion:
+
++-- {: .num_prop #MonoidalAdjunctionElementary}
+###### Proposition
+
+Let 
+
+$$
+  \mathcal{C}
+  \underoverset
+    {\underset{R}{\longrightarrow}}
+    {\overset{L}{\longleftarrow}}
+    {\bot}
+  \mathcal{D}
+$$
+
+be a pair of [[adjoint functors]] between [[monoidal categories]], such that the [[left adjoint]] $L$ is a [[strong monoidal functor]] by [[natural isomorphisms]]
+
+$$
+  \mu_L(X,Y)
+  \;\colon\;
+  L(X) \otimes L(Y) \overset{\simeq}{\longrightarrow} L(X \otimes Y)
+$$
+
+and
+
+$$
+  e_L 
+    \;\colon\;
+  1 \overset{\simeq}{\longrightarrow} L(1)
+  \,.
+$$
+
+
+Then
+
+1. the [[right adjoint]] $R$ becomes a [[lax monoidal functor]] via natural morphisms
+
+   $$
+     \mu_R(X,Y)
+     \;\colon\;
+     R (X) \otimes R(Y)
+      \overset{\eta(R(X) \otimes R(Y))}{\longrightarrow}
+     R L (R(X) \otimes R(Y))
+      \underoverset{}{ R( {\mu_L^{-1}(R(X), R(Y))} ) }{\longrightarrow}
+     R ( L  R(X) \otimes L R (Y) )
+       \overset{R( \epsilon(X) \otimes \epsilon(Y) )}{\longrightarrow}
+     R(X \otimes Y)
+   $$
+  
+   and
+
+   $$
+     1 
+       \overset{\eta(1)}{\longrightarrow} 
+     R L(1) 
+       \overset{R(e_L^{-1})}{\longrightarrow} 
+     R(1)
+   $$
+
+1. If $A \in \mathcal{D}$ carries the structure of a [[monoid object]] $(A, \mu_A, e_A)$, then the [[unit of the adjunction]] $\eta(A) \;\colon\; A \longrightarrow R L(A)$ is monoid [[homomorphism]] with respect to the canonically induced monoid structure on $R L(A)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is discussed at _[[oplax monoidal functor]]_. 
+
+For the second statement, we need first need to check that the following [[commuting square|square commutes]]:
+
+$$
+  \array{
+    A \otimes A 
+     &\overset{\eta(A) \otimes \eta(A)}{\longrightarrow}&
+    R L (A) \otimes R L (A)
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{R L(A)}}}
+    \\
+    A &\underset{\eta(A)}{\longrightarrow}& R L(A)
+  }
+$$
+
+
+Now by definition, the composite of the top and right morphism here 
+is the total diagonal composite in the following diagram:
+
+$$
+  \array{
+  && A \otimes A
+  &\overset{\eta(A \otimes A)}{\longrightarrow}&
+  R L(A \otimes A)
+  &\overset{R(\mu_L^{-1})}{\longrightarrow}&
+  R( L(A) \otimes L(A) )
+  \\
+  && 
+    {}^{\mathllap{\eta(A) \otimes \eta(A)}}\downarrow && {}^{\mathllap{ R L( \eta(A) \otimes \eta(A) ) }}\downarrow 
+  && 
+    {}^{\mathllap{R( L(\eta(A))  \otimes L(\eta(A)) )}}\downarrow
+  & \searrow^{\mathrlap{id}}
+  \\
+  \mu_R(L(A))
+  &\colon&
+  R L (A) \otimes R L ( A)
+   &\overset{\eta(R L (A) \otimes R L (A))}{\longrightarrow}&
+  R L (R L ( A) \otimes R L (A))
+   &\underoverset{}{ R( {\mu_L^{-1}(R L(A))} ) }{\longrightarrow}&
+  R ( L  R L (A) \otimes L R L (A) )
+    &\overset{R( \epsilon(L(A)) \otimes \epsilon(L(A)) )}{\longrightarrow}&
+  R(L(A) \otimes L(A))
+  \\
+  && && && && \downarrow^{\mathrlap{ R( \mu_L(A)) }}
+  \\
+  && && && && R L( A \otimes A )
+  \\
+  && && && && \downarrow^{\mathrlap{ R L (\mu_A) }}
+  \\
+  && && && && R L (A)
+ }
+$$
+
+Here the top sqaures commute by naturality of $\eta$ and $\mu_L$,
+and top right diagonal morphism is the [[identity morphism]], as shown, by the [[zig-zag identity]] for the adjunction $(L \dashv R)$. Therfore $R(\mu_L^{-1})$ cancels agains $R(\mu_L)$. so that the composite morphism in question becomes just $A \otimes A \overset{\eta(A \otimes A)}{\longrightarrow} R L(A \otimes A) \overset{ R L(\mu_A) }{\longrightarrow} R L(A)$. Again by the naturality of the [[adjunction unit]] $\eta$
+
+$$
+  \array{
+    A \otimes A 
+      &\overset{\eta(A \otimes A)}{\longrightarrow}&
+    R L (A \otimes A)
+    \\
+    {}^{\mathllap{ \mu_A }}\downarrow 
+      &&  
+    \downarrow^{\mathrlap{R L(\mu_A)}}
+    \\
+    A &\underset{\eta(A)}{\longrightarrow}& R L (A)
+  }
+$$
+
+this equals $\eta(A) \circ \mu_A$, as required.
+
+Finally we need to check that the following diagram commutes:
+
+$$
+  \array{
+     && 1
+     \\
+     & {}^{\mathllap{e_A}}\swarrow && \searrow^{\mathrlap{ e_{R L (A)} }}
+     \\
+     A 
+     &&
+       \underset{\eta(A)}{\longrightarrow}
+     &&
+    R L(A)
+  }
+$$
+
+But observe that
+
+$$
+  e_{L(A)}
+    \;\colon\;
+  1
+    \overset{e_L}{\longrightarrow}
+  L(1) 
+    \overset{L(e_A)}{\longrightarrow} 
+  L(A)
+$$
+
+and hence that
+
+$$
+  e_{R A(L)}
+  \;\colon\;
+  1 
+    \overset{\eta(1)}{\longrightarrow} 
+  R L(1) 
+    \overset{R(e_L^{-1})}{\longrightarrow} 
+  R(1)
+  \overset{R(e_L)}{\longrightarrow} R L(1) \overset{R L(e_a)}{\longrightarrow} R L(A)
+  \,.
+$$
+
+Here the two morphisms in the middle cancel, so that we are left just with
+
+$$
+  e_{R L(A)}
+  \;\colon\;
+  1 
+    \overset{\eta(1)}{\longrightarrow}
+  R L(1)
+   \overset{R L(e_A)}{\longrightarrow}
+  R L (A)
+  \,.
+$$
+
+That this equals $\eta(A)\circ e_A$, as required, follows by the naturality of $\eta$:
+
+$$
+  \array{
+    1 
+      &\overset{\eta(1)}{\longrightarrow}&
+    R L(1)
+    \\
+    {}^{\mathllap{e_A}}\downarrow && \downarrow^{\mathrlap{R L(e_A)}}
+    \\
+    A &\underset{\eta(A)}{\longrightarrow}& R L(A)
+  }
+  \,.
+$$
+
+=--
+
+
+> (discuss counit)
+
 
 ## Examples
 
