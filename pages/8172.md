@@ -1056,7 +1056,7 @@ such that
 
 1. ([[associativity]])
 
-   $(\Psi \otimes_A N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
+   $(\Psi \otimes_A id_N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
 
 A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. Write
 
@@ -1064,7 +1064,37 @@ $$
   \Gamma CoMod
 $$
 
-for the resulting [[category]] of (left) comodules over $\Gamma$.
+for the resulting [[category]] of left comodules over $\Gamma$. Analogously for right comodules.
+
+=--
+
++-- {: .num_example #GroundRingIsCanonicalComoduleOverHopfAlgebroid}
+###### Example
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, then $A$ itself becomes a left $\Gamma$-[[comodule]] (def. \ref{CommutativeHopfAlgebroidComodule}) with [[coaction]] given by
+
+$$
+  \Psi_A
+    \;\colon\;
+  A 
+    \overset{\eta_L}{\longrightarrow}
+  \Gamma
+    \simeq
+  \Gamma \otimes_A A
+$$
+
+and a right $\Gamma$-comodule with coaction given by
+
+$$
+  \Psi_A
+    \;\colon\;
+  A 
+    \overset{\eta_R}{\longrightarrow}
+  \Gamma
+    \simeq
+  \Gamma \otimes_A A
+  \,.
+$$
 
 =--
 
@@ -1088,6 +1118,7 @@ between the [[category]] of $\Gamma$-[[comodules]], def. \ref{CommutativeHopfAlg
 The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
 
 =--
+
 
 +-- {: .num_prop #LeftComodulesToRightComodules}
 ###### Proposition
@@ -1148,6 +1179,26 @@ If both $N_1$ and $N_2$ are left comodules, then their cotensor product is the c
 =--
 
 e.g. ([Ravenel 86, def. A1.1.4](#Ravenel86)).
+
+
++-- {: .num_example #PrimitiveElementInAComodule}
+###### Example
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, ([def.](commutative+Hopf+algebroid#CommutativeHopfAlgebroidDefinitionInExplicitComponents)), and given $N$ a left $\Gamma$-comodule ([def.](commutative+Hopf+algebroid#CommutativeHopfAlgebroidComodule)). Regard $A$ itself canonically as a right $\Gamma$-comodule via example \ref{GroundRingIsCanonicalComoduleOverHopfAlgebroid}. Then the cotensor product 
+
+$$
+  Prim(N) \coloneqq A \Box_\Gamma N
+$$
+
+is called the **[[primitive elements]]** of $N$:
+
+$$
+  Prim(N) = \{ n \in N \;\vert\; \Psi_N(n) = 1 \otimes n \}
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_prop}
 ###### Proposition
