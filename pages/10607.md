@@ -311,6 +311,9 @@ Formalized in terms of [[adjoint triples]] of [[reflective subcategory|(co-)refl
  
 
 * {#Lawvere94} [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_, Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
+
+* {#Lawvere94b} [[William Lawvere]], _[[Tools for the advancement of objective logic]]: closed categories and toposes_, in J. Macnamara and [[Gonzalo Reyes]] (Eds.), _The Logical Foundations of Cognition_, Oxford University Press 1993 (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"),
+pages 43-56, 1994.  
   
 
 * {#Lawvere96} [[William Lawvere]],  _[[Unity and Identity of Opposites in Calculus and Physics]]_,  Proceedings of ECCT 1994 Tours Conference,  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996).
