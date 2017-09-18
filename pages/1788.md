@@ -1,14 +1,2 @@
-$$
-  \cdots
-   \to
-  \underset{\simeq 0}{ \underbrace{H^{2k}(B U(n-1))} }
-    \longrightarrow
-  H^{2k+1-2n}(B U(n))
-   \longrightarrow
-  H^{2k+1}(B U(n))
-   \overset{i^\ast}{\longrightarrow}
-  \underset{\simeq 0}{\underbrace{H^{2k+1}(B U(n-1))}}
-  \to 
-  \cdots
-  \,,
-$$
+
+.
