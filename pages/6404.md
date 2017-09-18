@@ -31,7 +31,7 @@
 
 ## Idea
 
-This page reviews some of the relation between the existence of [[supersymmetry|supersymmetries]] in a [[spacetime]] [[quantum field theory]] which arises as the [[effective quantum field theory]] of some [[string]] [[2d SCFT]], the special geometry of that spacetime (such as [[Calabi-Yau manifold]] structure) as well as increaded [[worldsheet]] supersymmetry of the [[superstring]].
+This page reviews some of the relation between the existence of [[supersymmetry|supersymmetries]] in a [[spacetime]] [[quantum field theory]] which arises as the [[effective quantum field theory]] of some [[string]] [[2d SCFT]], the special geometry of that spacetime (such as [[Calabi-Yau manifold]] structure) as well as increased [[worldsheet]] supersymmetry of the [[superstring]].
 
 ### Target space perspective
 
