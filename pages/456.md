@@ -152,8 +152,8 @@ $$
 be the functor between their [[sheaf topos]]es that sends a sheaf $F : \mathcal{O}(X)^{op} \to Set$ to the composite
 
 $$
-  f_* F : \mathcal{O}(Y)^{op} \stackrel{f^*}{\to}
-    \mathcal{O}(X)^{op} \stackrel{F}{\to}
+  f_* F : \mathcal{O}(Y)^{op} \stackrel{f^*}{\longrightarrow}
+    \mathcal{O}(X)^{op} \stackrel{F}{\longrightarrow}
   Set
   \,,
 $$
@@ -168,7 +168,7 @@ where $f^*$ is the corresponding frame morphism as in def. \ref{LocaleHomomorphi
 The functor $f_*$ in def. \ref{DirectImageInducedByLocaleMorphism} is the [[direct image]] part of a geometric morphism of sheaf toposes
 
 $$
-  (f^* \dashv f_*) : Sh(X) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+  (f^* \dashv f_*) : Sh(X) \stackrel{\overset{f^*}{\longleftarrow}}{\underset{f_*}{\longrightarrow}}
    Sh(Y)
   \,.
 $$
@@ -295,7 +295,7 @@ $$
   f := (f^* \dashv f_*) 
   : 
   [C,Set] 
-    \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
+    \stackrel{\overset{f_!}{\longrightarrow}}{\stackrel{\overset{f^*}{\longleftarrow}}{\underset{f_*}{\longrightarrow}}}
   [D, Set]
   \,,
 $$
@@ -321,7 +321,7 @@ Since [[categories of presheaves]] have all [[limit]]s and [[colimit]]s, the lef
 
 $$
   [C,Set]
-    \stackrel{\overset{Lan_f}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{Ran_f}{\to}}}
+    \stackrel{\overset{Lan_f}{\longrightarrow}}{\stackrel{\overset{f^*}{\longleftarrow}}{\underset{Ran_f}{\longrightarrow}}}
   [D, Set]
   \,.
 $$
@@ -343,7 +343,7 @@ $$
   (f_! \dashv f^* \dashv f_*) 
   :
   [C^{op},Set] 
-    \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
+    \stackrel{\overset{f_!}{\longrightarrow}}{\stackrel{\overset{f^*}{\longleftarrow}}{\underset{f_*}{\longrightarrow}}}
   [D^{op}, Set]
 $$
 
