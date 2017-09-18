@@ -45,7 +45,15 @@ A **$(n+1)$-BV algebra** is a similar structure with a BV-operator being of degr
 
 =--
 
-See ([CohenVoronov, def. 5.3.1](#CohenVoronov)) for details.
+See ([Cohen-Voronov, def. 5.3.1](#CohenVoronov)) for details.
+
++-- {: .num_remark}
+###### Remark
+
+Beware that the definition of BV-algebra is very similar to that of _[[BD-algebra]]_, but there is a crucial difference in the sign of the the grading of the bracket (e.g. [Gwilliam 13, footnote 7](#Gwilliam13)). Beware that, confusingly, it is the [[BD-algebras]], not the BV-algebras, which control [[BV-formalism]] in [[field theory]].
+
+=--
+
 
 ## Properties
 
