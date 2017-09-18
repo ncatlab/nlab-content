@@ -3,7 +3,6 @@
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and otherwise don\'t worry about messing things up.
 =--
 
-
 [[types]]
 
 category: meta
