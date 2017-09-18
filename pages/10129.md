@@ -26,7 +26,7 @@ given by combining the [[Kronecker pairing]] of the cohomology class with the im
 More generally, in [[relative cohomology|relative]] [[generalized (Eilenberg-Steenrod) cohomology]]/[[generalized homology]] represented by a [[ring spectrum]] $E$, then the cap product
 
 $$
-  E^p(X,A) \otimes E_(p+q)(X, A) \longrightarrow E_q(X)
+  E^p(X,A) \otimes E_{(p+q)}(X, A) \longrightarrow E_q(X)
 $$
 
 is given on representatives $(\alpha,\beta)$
