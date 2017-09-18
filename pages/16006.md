@@ -25,7 +25,7 @@ If for two levels $\mathbf{H}_{1} \hookrightarrow \mathbf{H}_2$ the second one i
 
 ## Examples
 
-* For $\mathbf{H} = $ [[sSet]] the topos of [[simplicial sets]], then the tower of [[simplicial coskeleton|n-coskeleton]]-inclusions for all $n$ is a sequence of levels (the extra left adjoint exhibiting the essentialness being the [[simplicial skeleton]]). The [[Aufhebung]] in this example is discussed in detail in ([KRRZ 10](#KRRZ10)).
+* For $\mathbf{H} = $ [[sSet]] the topos of [[simplicial sets]], then the tower of [[simplicial coskeleton|n-coskeleton]]-inclusions for all $n$ is a sequence of levels (the extra left adjoint exhibiting the essentialness being the [[simplicial skeleton]]). The [[Aufhebung]] in this example is discussed in detail in ([KRRZ 11](#KRRZ11)).
 
 
 * The lowest level is the inclusion of the trivial subtopos as the [[terminal object]]. See also at _[[unity of opposites]]_ the section _[Werden](http://ncatlab.org/nlab/show/adjoint+modality#Werden)_.
@@ -40,6 +40,8 @@ If for two levels $\mathbf{H}_{1} \hookrightarrow \mathbf{H}_2$ the second one i
 
 ## Related concepts
 
+* [[subtopos]]
+
 * [[Aufhebung]]
 
 ## References
@@ -47,4 +49,4 @@ If for two levels $\mathbf{H}_{1} \hookrightarrow \mathbf{H}_2$ the second one i
 * {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
 
 
-* {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([arXiv:1003.5944](http://arxiv.org/abs/1003.5944))
+* {#KRRZ11} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([arXiv:1003.5944](http://arxiv.org/abs/1003.5944))
