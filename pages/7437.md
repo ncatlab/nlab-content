@@ -44,7 +44,7 @@ There are two notions of *length* for a schedule.  There is the *word length* wh
 
 +-- {: mynumdef #reduced}
 ###### Definition
-A schedule is said to be **reduced** if all of its terms, $(a,t)$, has non-zero length, i.e. $t \gt 0$.  The set of reduced schedules forms a submonoid of $S A$ which is written $R S A$.
+A schedule is said to be **reduced** if all of its terms, $(a,t)$, have non-zero length, i.e. $t \gt 0$.  The set of reduced schedules forms a submonoid of $S A$ which is written $R S A$.
 =--
 
 The empty schedule is reduced.
