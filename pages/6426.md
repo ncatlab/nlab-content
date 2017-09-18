@@ -48,6 +48,9 @@ An [[irreducible representation]] of the [[super Poincaré Lie algebra]] is call
 
 Reviews and lecture notes include
 
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.4.1 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+
 * [[Veeravalli Varadarajan]], _Unitary representations of super Lie groups_ ([pdf](http://www.math.ucla.edu/~vsv/urtr.pdf))
 
 * [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
