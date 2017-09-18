@@ -108,7 +108,7 @@ $$
   \,.
 $$
 
-Now since the [[coefficients]] $R$ is a [[ring]], the [[Serre spectral sequence]] is multiplicative under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product.
+Now since the [[coefficients]] $R$ is a [[ring]], the [[Serre spectral sequence]] is [[multiplicative spectral sequence|multiplicative]] under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product.
 
 To make use of this, write
 
