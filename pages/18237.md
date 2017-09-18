@@ -119,6 +119,8 @@ $$
 
 * [[embedding of topological spaces]]
 
+* [[closed map]], [[proper map]]
+
 [[!redirects open maps]]
 [[!redirects open mapping]]
 [[!redirects open mappings]]
