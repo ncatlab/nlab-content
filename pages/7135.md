@@ -1,4 +1,8 @@
 
+Paul Townsend is professor for theoretical [[physics]] at Cambridge.
+
+* [webpage](http://www.damtp.cam.ac.uk/people/p.k.townsend/)
+
 * [wikipedia entry](http://en.wikipedia.org/wiki/Paul_Townsend)
 
 ## related $n$Lab entries
