@@ -47,6 +47,8 @@ Textbook accounts are in
 
 * {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
+* [ps](http://www.math.muni.cz/~slovak/Vyuka/gs2.ps)
+
 For more see at _[Cartan connection -- References](Cartan+connection#References)_.
 
 See also
