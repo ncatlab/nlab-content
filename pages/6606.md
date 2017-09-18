@@ -14,4 +14,5 @@ the Cartan's formulas for those generalizations. For example
 
 *  Masoud Khalkhali, _On Cartan homotopy formulas in cyclic homology_, Manuscripta mathematica __94__:1, pp 111-132 (1997) [doi](http://dx.doi.org/10.1007/BF02677842) 
 
+See also [[noncommutative differential calculus]] where it is incorporated into the notion of Batalin-Vilkovisky module over a [[Gerstenhaber algebra]].
 [[!redirects Cartan's magic formula]]
