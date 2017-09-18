@@ -82,6 +82,13 @@ See the article by Selinger below for more examples.
 
 * The Catsters (Simon Willerton), _String diagrams_ ([YouTube](http://www.youtube.com/view_play_list?p=50ABC4792BD0A086))
 
+The higher dimensional string diagrams ("zoom complexes" ([Kock-Joyal-Batanin-Mascari 07](#KockJoyalBataninMascari07))) used for presenting [[opetopes]] in the context of [[opetopic type theory]] are introduced in 
+
+* [[Eric Finster]], _Opetopic Diagrams 1 - Basics_ ([video](http://www.youtube.com/watch?v=OANwLohwJqk))
+
+* [[Eric Finster]], _Opetopic Diagrams 2 - Geometry_ ([video](http://www.youtube.com/watch?v=E7OvuA1jRKM))
+
+
 ### Original articles 
  {#OriginalArticles}
 
@@ -146,6 +153,12 @@ The generalization of string diagrams to one dimension higher is discussed in
 * [[Todd Trimble]], _[Surface diagrams](/toddtrimble/published/Surface+diagrams)_
 
 * [[John Barrett]], [[Catherine Meusburger]], [[Gregor Schaumann]], _Gray categories with duals and their diagrams_, available [here](http://arxiv.org/abs/1211.0529).
+
+The generalization to arbitrary dimension in terms of [[opetope|opetopic]] "zoom complexes" is due to 
+
+* {#KockJoyalBataninMascari07} [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_ ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033)) 
+
+See also at _[[opetopic type theory]]_.
 
 
 [[!redirects string diagram]]
