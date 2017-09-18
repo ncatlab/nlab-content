@@ -21,7 +21,7 @@ For [[flat morphisms]] of [[relative dimension]] $n$, one defines the inverse im
 
 $$ f^*([Z]) = \sum_{Z_\alpha \subset f^{-1}(Z)} \length_{O_{X,z_\alpha}}(O_{f^{-1}(Z),z_\alpha}) [Z_\alpha] $$
 
-where the sum is taken over the [[irreducible components]] $Z_\alpha$ of $f^{-1}(Z)$, $\length$ denotes length of [[modules]], and $z_\alpha$ are the [[generic points]] of $Z_\alpha$.  Hence one gets homomorphisms $f^* : Z_k(Y) \to Z_{k+n}(Y)$.
+where the sum is taken over the [[irreducible components]] $Z_\alpha$ of $f^{-1}(Z)$, $\length$ denotes length of [[modules]], and $z_\alpha$ are the [[generic points]] of $Z_\alpha$.  Hence one gets homomorphisms $f^* : Z_k(Y) \to Z_{k+n}(X)$.
 
 ## Weil divisors and rational functions
 
