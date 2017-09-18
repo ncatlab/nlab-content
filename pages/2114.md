@@ -15,7 +15,9 @@
 
 ## Idea
 
-Classically, an __algebraic variety__ (not to be confused with [[variety of algebras]]) is a [[ringed space]] which looks locally like the geometric locus of zeros of a set of [[polynomial]] equations in finitely many variables (equipped with a sheaf of regular functions which are locally quotients of polynomials). 
+In [[algebraic geometry]], __algebraic variety__  (not to be confused with [[variety of algebras]]) is a [[scheme]] which is [[integral scheme|integral]], [[separated]] and of [[finite type]] over an [[algebraically closed field]] $k$.
+
+Classically, the term algebraic variety referred to a [[scheme]] as above which is further [[quasi-projective scheme|quasi-projective]], i.e. admits a locally closed embedding into [[projective space]].  Thus, these were objects which locally are cut out inside [[projective space]] as the geometric locus of zeros of a set of [[polynomial]] equations in finitely many variables.  (The first example of an algebraic variety which is not quasi-projective was given by [[Nagata]].)
 
 Historically, there were several formalisms of various schools including the Italian school of [[algebraic geometry]] in the early 20th century (Veronese, Castelnuovo, Severi, ...), the American school between the two wars ([[Oscar Zariski]]), [[Andre Weil]]), the abstract varieties of [[Jean-Pierre Serre]] and finally the language of [[schemes]] introduced by the [[Grothendieck]] school. One should note that in the case of (esp. [[projective variety|projective]]) varieties over complex numbers there is an additional possibility to work using complex-analytic tools and complex topology.
 
