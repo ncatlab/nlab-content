@@ -102,7 +102,7 @@ Here we set up the general theory of $E$-[[Adams spectral sequences]]. (We consi
 #### Spectral sequence of a filtered spectrum
  {#SpectralSequenceOfAFilteredSpectrum}
 
-We introduce the types of [[spectral sequences]] of which the $E$-Adams spectral sequnces (def. \ref{AdamsEAdamsSpectralSequence} below) is an example.
+We introduce the types of [[spectral sequences]] of which the $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence} below) are an example.
 
 +-- {: .num_defn #FilteredSpectrum}
 ###### Definition
@@ -447,7 +447,7 @@ $$
   }
 $$
 
-This gives rise to the horizontal composites $d_1$, as show above, and by the fact that the diagonal sequences are long exact, these are differentials: $d_1^2 = 0$, hence give a [[cochain complex]]:
+This gives rise to the horizontal ([[splicing of short exact sequences|splicing]]) composites $d_1$, as show above, and by the fact that the diagonal sequences are long exact, these are [[differentials]] in that they square to zero: $d_1^2 = 0$. Hence there is a [[cochain complex]]:
 
 $$
   \array{
@@ -455,15 +455,15 @@ $$
        & 
      \overset{}{\longrightarrow}
        && 
-     \pi_{t-s}(A_s) [X,A_s]_{t-s} 
+     [X,A_s]_{t-s} 
        && 
      \overset{d_1}{\longrightarrow} 
        && 
-     \pi_{t-s-1}(A_{s+1})  [X,A_{S+1}]_{t-s-1}
+     [X,A_{S+1}]_{t-s-1}
        && 
      \stackrel{d_1 }{\longrightarrow} 
        && 
-     \pi_{t-s-2}(A_{s+2}) [X,A_{s+2}]_{t-s-2}
+     [X,A_{s+2}]_{t-s-2}
        &&
      \longrightarrow & \cdots
   }
@@ -493,7 +493,7 @@ $$
   }
 $$
 
-This means that the [[cochain cohomology]] of the complex $([X,A_\bullet]_\bullet, d_1)$ produces elements of $[X,Y_\bullet]_\bullet$ and hence of $[X,Y]_\bullet$. (Which elements exactly arise this way is the question of the convergence of the induced spectral sequence, def. \ref{ExactCoupleSpectralSequence} below).
+This means that the [[cochain cohomology]] of the complex $([X,A_\bullet]_\bullet, d_1)$ produces elements of $[X,Y_\bullet]_\bullet$ and hence of $[X,Y]_\bullet$. (Which elements exactly arise this way is the question of the convergence of the induced spectral sequence, def. \ref{ExactCoupleSpectralSequence} below, which we turn to [further below](#Convergence)).
 
 In order to organize this observation, notice that in terms of the exact couple of remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}, the differential 
 
@@ -530,7 +530,7 @@ $$
   }
 $$
 
-its **page** is the [[chain complex]]
+its **page** is the [[graded object|graded]][[chain complex]]
 
 $$
   (\mathcal{E}^{\bullet,\bullet}, d \coloneqq j \circ  k)
@@ -542,7 +542,7 @@ $$
 +-- {: .num_defn #DerivedExactCouple}
 ###### Definition
 
-Given an exact couple, def. \ref{ExactCouple}, then the induced _derived exact couple_ is the diagram
+Given an exact couple, def. \ref{ExactCouple}, then its _derived exact couple_ is the diagram
 
 $$
   \array{
@@ -553,6 +553,18 @@ $$
     & {}_{\mathllap{\tilde k}}\nwarrow & \downarrow^{\mathrlap{\tilde j}}
     \\
     && \widetilde{\mathcal{E}}
+  }
+  \;\;\;\;
+    \coloneqq
+  \;\;\;\;
+  \array{
+    im(i) 
+      &\stackrel{i}{\longrightarrow}&
+    im(i)
+    \\
+    & {}_{\mathllap{k}}\nwarrow & \downarrow {\mathrlap{j \circ i^{-1}}}
+    \\
+    && H(\mathcal{E}, j \circ k)
   }
 $$
 
@@ -571,12 +583,13 @@ with
 
 =--
 
-+-- {: .num_prop #DerivedExactCoupleIsExactCouple}
-###### Proposition
+By direct inspection one checks that:
+
++-- {: .num_lemma #DerivedExactCoupleIsExactCouple}
+###### Lemma
 
 The derived exact couple in def. \ref{DerivedExactCouple}
-is well defined and 
-is itself an exact couple, def. \ref{ExactCouple}.
+is well defined and is itself an exact couple, def. \ref{ExactCouple}.
 
 =--
 
@@ -586,15 +599,32 @@ is itself an exact couple, def. \ref{ExactCouple}.
 Given an exact couple, def. \ref{ExactCouple},
 then the induced 
 **[[spectral sequence]] of the exact couple** 
-is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
+is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, lemma \ref{DerivedExactCoupleIsExactCouple}. 
+
+The **$r$th page** of the spectral sequence is the page (def. \ref{PageOfAnExactCouple}) of the $r$th exact couple, denoted 
+
+$$
+  \{\mathcal{E}_r, d_r\}
+  \,.
+$$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+So the spectral sequence of an exact couple (def. \ref{ExactCoupleSpectralSequence}) is a sequence of cochain complexes $(\mathcal{E}_r, d_r)$, where the cohomology of one is the terms of the next one: $\mathcal{E}_{r+1} \simeq H(\mathcal{E}_r,d_r)$.
+
+In practice this is used as a successive stagewise approximation to the computation of a limiting term $\mathcal{E}_\infty$. What that limiting term is, if it exists at all, is the subject of _convergence_ of the spectral sequence, we come to this [below](#Convergence).
+
+=--
+
+Def. \ref{ExactCoupleSpectralSequence} makes sense without a (bi-)grading on the terms of the exact couple, but much of the power of spectral sequences comes from the cases where such a bigrading is given, since together with the sequence of pages of the spectral sequence, this tends to organize computation of the successive cohomology groups in an efficient way. Therefore consider:
 
 +-- {: .num_defn #AdamsTypeSpectralSequenceOfATower}
 ###### Definition
 
-Given a [[filtered spectrum]], def. \ref{FilteredSpectrum},
+Given a [[filtered spectrum]] as in def. \ref{FilteredSpectrum},
 
 $$
   \array{
@@ -617,7 +647,7 @@ $$
   }
 $$
 
-and given $X \in Ho(Spectra)$, the induced **[[spectral sequence of a filtered spectrum]]** is the [[spectral sequence]] that is induced, by def. \ref{ExactCoupleSpectralSequence} from the [[exact couple]] (def. \ref{ExactCouple}) given by def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}.
+and given another spectrum $X \in Ho(Spectra)$, the induced **[[spectral sequence of a filtered spectrum]]** is the [[spectral sequence]] that is induced, by def. \ref{ExactCoupleSpectralSequence} from the [[exact couple]] (def. \ref{ExactCouple}) given by def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}.
 
 $$
   \array{
@@ -627,7 +657,36 @@ $$
     \\
     && \mathcal{E}
   }
-  \;\;\;\;\;\;\;\;\;\;\;\,\;\;\;\;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;
+    \coloneqq
+  \;\;\;\;\;\;
+  \array{
+    \underset{s,t}{\oplus} D^{s,t}(X,Y)
+      &\overset{[X,f]}{\longrightarrow}&
+    \underset{s,t}{\oplus} D^{s,t}(X,Y)
+    \\
+    & {}_{\mathllap{\delta}}\nwarrow & \downarrow^{[X,g]}
+    \\
+    && \underset{s,t}{\oplus} E^{s,t}(X,Y)
+  }
+  \;\;\;\;
+   \coloneqq
+  \;\;\;\;
+  \array{
+    \underset{s,t}{\oplus} [X,Y_s]_{t-s}
+      &\overset{[X,f]}{\longrightarrow}&
+    \underset{s,t}{\oplus} [X,Y_s]_{t-s}
+    \\
+    & {}_{\mathllap{\delta}}\nwarrow & \downarrow^{\mathrlap{[X,g]}}
+    \\
+    && [X,A_s]_{t-s}
+  }
+$$
+
+with the following bidegree of the differentials
+
+$$
+  deg = \;\;\;\;
   \array{
     \mathcal{D} &\stackrel{(-1,-1)}{\longrightarrow}& \mathcal{D}
     \\
@@ -635,9 +694,10 @@ $$
     \\
     && \mathcal{E}
   }
+  \,.
 $$
 
-Hence the first page is
+In particular the first page is
 
 $$
   \mathcal{E}^{s,t}_1 = [X,A_s]_{t-s}
@@ -686,7 +746,7 @@ Given a [[homotopy commutative ring spectrum]] $(E,\mu,e)$, then an _$E$-Adams s
 +-- {: .num_defn #AdamsEAdamsSpectralSequence}
 ###### Definition
 
-Let $X,Y \in Ho(Spectra)$ be two [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)), and let $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) in the [[tensor triangulated category|tensor triangulated]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)) [[stable homotopy category]] $(Ho(Spectra), \wedge, \mathbb{S})$. 
+Let $X,Y \in Ho(Spectra)$ be two [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)), and let $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] $(Ho(Spectra), \wedge, \mathbb{S})$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)). 
 
 Then the **$E$-[[Adams spectral sequence]]** for the computation of the [[graded abelian group]] 
 
@@ -743,7 +803,7 @@ $$
 is the derived [[smash product of spectra]] of $E$ with the stage $Y_n$ ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)), and where
 
 $$
-  f_n
+  g_n
   \;\colon\;
   Y_n 
     \underoverset{\simeq}{\ell^{-1}_{Y_n}}{\longrightarrow} 
@@ -754,9 +814,7 @@ $$
 
 is the composition of the inverse derived [[unitor]] on $Y_n$ ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)) with the derived [[smash product of spectra]] of the unit $e$ of $E$ and the identity on $Y_n$.
 
-We write $\{E^{\s,t}_{r}(X,Y)\}_{s,t}$ for the $r$th page of this spectral sequence (def. \ref{PageOfAnExactCouple}).
-
-Hence, by example \ref{AdamsTypeSpectralSequenceOfATower}, the first page is
+Hence, by def \ref{AdamsTypeSpectralSequenceOfATower}, the first page is
 
 $$
   E_1^{s,t}(X,Y)
@@ -851,7 +909,7 @@ Hence the first page of the $E$-Adams spectral sequence reads equivalently
 $$
   E^{s,t}_1(X,Y)
    \simeq
-  [X, E \wedge^{\overline{E}^s} \wedge Y]_{t-s}
+  [X, E \wedge {\overline{E}^s} \wedge Y]_{t-s}
   \,.
 $$
 
@@ -863,7 +921,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition the statement holds for $p = 0$. Assume then by [[induction]] that it holds for some $p \geq 0$. Since the [[smash product of spectra]]-functor $(-) \wedge \overline{E}^p \wedge Y$ preserves [[homotopy cofiber sequences]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), part of the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]]), its application to the homtopy cofiber sequence 
+By definition the statement holds for $p = 0$. Assume then by [[induction]] that it holds for some $p \geq 0$. Since the [[smash product of spectra]]-functor $(-) \wedge \overline{E}^p \wedge Y$ preserves [[homotopy cofiber sequences]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), this is part of the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]]), its application to the homtopy cofiber sequence 
 
 $$
   \overline{E}
@@ -873,7 +931,7 @@ $$
   E
 $$
 
-from def. \ref{HomotopyFiberOfUnitOfCommutativeRingSpectrum} yields a homotopy cofiber sequence of the form
+from def. \ref{HomotopyFiberOfUnitOfCommutativeRingSpectrum} yields another homotopy cofiber sequence, now of the form
 
 $$
   \overline{E}^{p+1} \wedge Y
@@ -887,6 +945,7 @@ where the morphism on the right is identified as $f_p$ by the induction assumpti
 
 =--
 
+We proceed now to analyze the first two pages and then the convergence properties of $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence}).
 
 #### The first page
  {#FirstPageAndHopfAlgebroid}
@@ -911,7 +970,7 @@ The condition needed for this to work is the following.
 +-- {: .num_defn #FlatE}
 ###### Definition
 
-Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) **flat** if the right $\pi_\bullet(E)$-[[module]] structure on $E_\bullet(E)$ ([prop](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) is a [[flat module]].
+Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) **flat** if the right $\pi_\bullet(E)$-[[module]] structure on $E_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) is a [[flat module]].
 
 
 =--
@@ -922,13 +981,13 @@ Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ ([def.](Introduction+t
 Examples of [[commutative ring spectra]] that are flat according to def. \ref{FlatE} include
 $E = $
 
-* [[sphere spectrum|S]], 
+* $\mathbb{S}$ -- the [[sphere spectrum]];
 
-* [[HR]] for $R = \mathbb{F}_p$ a [[prime field]],
+* $H \mathbb{F}_p$ -- [[Eilenberg-MacLane spectra]] for [[prime fields]];
 
-* [[MO]], [[MU]], [[MSp]], 
+* [[MO]], [[MU]], [[MSp]] -- [[Thom spectra]];
 
-* [[KO]], [[KU]].
+* [[KO]], [[KU]] -- [[topological K-theory]] spectra.
 
 
 =--
@@ -1170,15 +1229,30 @@ such that
 
    $(\Psi \otimes_A id_N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
 
-A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. Write
+A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. We write
 
 $$
   \Gamma CoMod
 $$
 
-for the resulting [[category]] of left comodules over $\Gamma$. Analogously for right comodules.
+for the resulting [[category]] of left comodules over $\Gamma$. Analogously for right comodules. The notation for the hom-sets in this category is abbreviated to
+
+$$
+  Hom_\Gamma(-,-)
+  \coloneqq
+  Hom_{\Gamma CoMod}(-,-)
+  \,.
+$$
+
+These are naturally $A$-modules. If $(\Gamma,A)$ is graded then these are naturally graded $A$-modules, which we denote by
+
+$$
+  Hom^\bullet_\Gamma(-,-)
+  \,.
+$$
 
 =--
+
 
 +-- {: .num_example #GroundRingIsCanonicalComoduleOverHopfAlgebroid}
 ###### Example
@@ -1210,6 +1284,7 @@ $$
 
 =--
 
+More generally:
 
 +-- {: .num_prop #CoFreeComodules}
 ###### Proposition
@@ -1282,6 +1357,7 @@ $$
   \left(
     N_1 \otimes_A N_2
     \overset{\Psi_{N_1}\otimes_{A} id - id \otimes_A \Psi_{N_2} }{\longrightarrow}
+    N_1 \otimes_A \Gamma \otimes_A N_2
   \right)
   \,.
 $$
@@ -1381,12 +1457,12 @@ In computing the second page of $E$-[[Adams spectral sequences]], the second sta
 ##### The dual $E$-Steenrod algebra
 
 
-Now we identify the [[commutative Hopf algebroids]] arising in the $E$-Adams spectral sequence:
+Now we identify the [[commutative Hopf algebroids]] (def. \ref{CommutativeHopfAlgebroid}) arising in the $E$-Adams spectral sequence (def. \ref{AdamsEAdamsSpectralSequence}):
 
 +-- {: .num_prop #HopfAlgebroidStructureOnDualEOperations}
 ###### Proposition
 
-If $E$ is flat according to def. \ref{FlatE}, then,
+If the [[homotopy commutative ring spectrum]] $E$ is flat according to def. \ref{FlatE}, then,
 via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}, the cosimplicial spectrum $E^{\wedge^\bullet} \wedge X$ (the $E$-standard resolution of $X$ from example \ref{StandardEResolution}) exhibits:
 
 1. for $X = E$: [[Hopf algebroid]]-structure, def. \ref{CommutativeHopfAlgebroid}, remark \ref{CommutativeHopfAlgebroidSpelledOut}, on $E_\bullet(E)$ over $\pi_\bullet(E)$ -- called the **dual $E$-[[Steenrod algebra]]**;
@@ -1447,20 +1523,14 @@ $$
 +-- {: .num_example}
 ###### Example
 
-Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of corollary \ref{HopfAlgebroidStructureOnDualEOperations} happens to be a [[commutative Hopf algebra]] over $\pi_\bullet(E)$ instead of a more general [[commutative Hopf algebroid]], according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the cases
-
-$E = $
-
-* [[HA|H]]$\mathbb{F}_p$,
-
-* ...
+Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of corollary \ref{HopfAlgebroidStructureOnDualEOperations} happens to be a [[commutative Hopf algebra]] over $\pi_\bullet(E)$ instead of a more general [[commutative Hopf algebroid]], according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the case $E = $ [[HA|H]]$\mathbb{F}_p$.
 
 =--
 
 ##### The first page via homs of Hopf comodules
 
 
-The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited from maps of spectra under smashing with $E$:
+The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited by morphisms in $E$-homology from morphisms of spectra.
 
 +-- {: .num_example #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
 ###### Example
@@ -1470,7 +1540,7 @@ For $Y,N$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian gr
 $$
   \pi_\bullet(E \wedge -)
     \;\colon\;
-  \pi_\bullet([Y,N])
+  [Y,N]_\bullet
     \longrightarrow
   Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
 $$
@@ -1480,11 +1550,9 @@ factors through $E_\bullet(E)$-[[comodule]] [[homomorphisms]] over the dual $E$-
 $$
   \pi_\bullet(E \wedge -)
     \;\colon\;
-  \pi_\bullet([Y,N])
+  [Y,N]_\bullet
     \longrightarrow
   Hom^\bullet_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
-    \longrightarrow
-  Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
   \,.
 $$
 
@@ -1505,26 +1573,24 @@ then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \
 the morphism of $\mathbb{Z}$-[[graded abelian groups]]
 
 $$
- \pi_\bullet[Y,N] 
-   \stackrel{\phi \mapsto \rho \circ (id\wedge \phi)}{\longrightarrow}
-  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(Y), \pi_\bullet N)_\bullet
+  [Y,N]_\bullet 
+    \stackrel{\phi \mapsto \rho \circ (id\wedge \phi)}{\longrightarrow}
+  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(Y), \pi_\bullet(N))_\bullet
 $$
-
-(from the [[stable homotopy group]] of the [[mapping spectrum]] to the [[hom-object|hom groups]] of $\pi_\bullet(E)$-[[modules]])
 
 is an [[isomorphism]].
 
 
 =--
 
-This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and see at _[Kronecker pairing -- Universal coefficient theorem](Kronecker+pairing#UniversalCoefficientTheorem)_.
+For $Y = \mathbb{S}$ this is trivial. For general $Y$ and $E$ among the above examples this is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and see at _[Kronecker pairing -- Universal coefficient theorem](Kronecker+pairing#UniversalCoefficientTheorem)_.
 
 With this we finally get the following statement, which serves to identity maps of certain spectra with their induced maps on $E$-homology:
 
 +-- {: .num_prop #ComoduleHomForENCohomology}
 ###### Proposition
 
-If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} of the form
+If the assumption of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} of the form
 
 $$
  \pi_\bullet(E\wedge (-))
@@ -1548,7 +1614,7 @@ By the general formula for expressing [[adjuncts]], the morphism fits into the f
 
 $$
   \array{
-    [Y, E \wedge N]
+    [Y, E \wedge N]_\bullet
       &\stackrel{\pi_\bullet(E\wedge(-))}{\longrightarrow}&
     Hom_{E_\bullet(E)}(
       E_\bullet(Y), 
@@ -1575,7 +1641,7 @@ where
 
 1. the bottom isomorphism is the cofree/forgetful [[adjunction]] isomorphism of prop. \ref{CoFreeComodules};
 
-1. the the left vertical morphism is an isomorphism by prop. \ref{AdamsUCT}. 
+1. the left vertical morphism is an isomorphism by prop. \ref{AdamsUCT}. 
 
 Therefore also the top morphism is an iso.
 
@@ -1586,9 +1652,8 @@ In conclusion:
 +-- {: .num_theorem #ComoduleHomsInE1PageOfEAdamsSpectralSequence}
 ###### Theorem
 
-For $X, Y$ [[spectra]], and for $E$ a [[homotopy commutative ring spectrum]] 
-which is flat (def. \ref{FlatE}), 
-then the first page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[Y,X]_\bullet$ is isomorphic to
+Let $X, Y$ be [[spectra]], $E$ a [[homotopy commutative ring spectrum]] 
+which is flat (def. \ref{FlatE}). If the assumption of prop. \ref{AdamsUCT} holds then the first page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[Y,X]_\bullet$ is isomorphic to the following chain complex of graded homs of [[comodules]] (def. \ref{CommutativeHopfAlgebroidComodule}) over the dual $E$-[[Steenrod algebra]] $(E_\bullet(E), \pi_\bullet(E))$ (prop. \ref{HopfAlgebroidStructureOnDualEOperations}):
 
 $$
   0 
@@ -1735,7 +1800,7 @@ and hence $\pi_\bullet(E \wedge g_p)$ is a [[monomorphism]], hence its [[kernel]
 
 =--
 
-The next step is to identify the chain homology of this $d_1$ with the comodule [[Ext]]-groups.
+Hence the next step is to identify the chain homology of this $d_1$ with the comodule [[Ext]]-groups.
 
 
 
@@ -1786,7 +1851,7 @@ The first page is given by prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequen
 
 We show that $E_\bullet(E) CoMod$ is abelian as prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} below.
 
-By lemma \ref{ResolutionEWp} we already know that $E_\bullet(W_\bullet)$ is a resolution of $E_\bullet(Y)$. By prop. \ref{FlatnessOfEImpliesKeyConsequence} it is a resolution by cofree comodules (def. \ref{CoFreeComodules}). That these are $F$-acyclic we show as prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
+By lemma \ref{ResolutionEWp} we already know that $E_\bullet(A_\bullet)$ is a resolution of $E_\bullet(Y)$. By prop. \ref{FlatnessOfEImpliesKeyConsequence} it is a resolution by cofree comodules (def. \ref{CoFreeComodules}). That these are $F$-acyclic we show as prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
 
 =--
 
@@ -1931,6 +1996,7 @@ With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of th
 
 
 #### Convergence 
+ {#Convergence}
 
 ##### $E$-Nilpotent completion
 
@@ -2113,6 +2179,9 @@ $$
 =--
 
 ([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
+
+
+
 
 
 
