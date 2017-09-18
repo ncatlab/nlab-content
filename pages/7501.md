@@ -74,7 +74,7 @@ $$
 $$
 
 Accordingly, for $Q \subset Mor(\mathcal{E})$ write 
-${}^{\pitchfork}Q$ and $\mathcal{E}^Q$ for the class of morphisms with left or right lifting property against all elements of $Q$, respectively.
+${}^{\pitchfork}Q$ and $Q^{\pitchfork}$ for the class of morphisms with left or right lifting property against all elements of $Q$, respectively.
 
 =--
 
@@ -98,7 +98,7 @@ $$
 
 A pair of classes of morphisms $(L,R)$ in $\mathcal{E}$ is a _[[weak factorization system]]_ precisely if 
 
-1. every morphism in $\mathcal{E}$ follows as a morphism in $L$ followed by a morphism in $R$;
+1. every morphism in $\mathcal{E}$ factors as the [[composition]] of a morphism in $L$ followed by a morphism in $R$;
 
 1. $R = L^\pitchfork$ and $L = {}^\pitchfork R$.
 
