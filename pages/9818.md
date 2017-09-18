@@ -61,6 +61,10 @@ An exposition is in
 * [[Alain Connes]], talk at [Galois 200th birthday conference](http://www.galois.ihp.fr/manifestations/colloque/) January (2012) [pdf slides](http://www.alainconnes.org/docs/slidesgaloisihp1.pdf)
  {#Connes12}
 
+and 
+
+* Francis Brown, _Feynman Amplitudes and Cosmic Galois group_ ([arXiv:1512.06409](https://arxiv.org/abs/1512.06409))
+
 A similar statement about a [[motivic Galois group]] acting on the space of [[deformation quantizations]] of a [[free field theory]] appeared earlier in 
 
 * [[Maxim Kontsevich]], _Operads and Motives in Deformation Quantization_, Lett. Math. Phys.48:35-72,1999 ([arXiv:math/9904055](http://arxiv.org/abs/math/9904055))
