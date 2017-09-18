@@ -882,7 +882,8 @@ $$
   \mathbb{R}^p \mapsto  X(\mathbb{R}^p) \in Set
 $$
 
-which assigns a set to each Cartesian space. We are to think of this set as the set of smooth functions {"$\mathbb{R}^n \stackrel{}{\to} X$"}, only that there is no pre-defined concept of smoothness of functions into $X$, instead it is defined by that very rule.
+
+which assigns a set to each Cartesian space. We are to think of this set $X(\mathbb{R}^n)$ as the set of smooth functions {"$\mathbb{R}^n \stackrel{}{\to} X$"}, only that there is no pre-defined concept of smoothness of functions into $X$, instead it is defined by that very rule.
 Moreover, for every smooth function
 $f$ between Cartesian spaces, there is to be a corresponding function $f^\ast$ between these sets, going in the opposite direction
 
@@ -917,9 +918,9 @@ $$
 
 This is required to satisfy the evident conditions that [[composition]] and [[identity]] is respected, in that
 $(g \circ f)^\ast = g^\ast \circ f^\ast $ and $id^\ast = id$. Together these conditions say that $X$ is a
-[[presheaf]] on the category of test spaces -- the "[[functor of points]]" [Grothendieck 65](#Grothendieck65).
+[[presheaf]] on the category of test spaces -- the "[[functor of points]]" ([Grothendieck 65](#Grothendieck65)).
 
-In addition, the requirement that $X$ be a [[sheaf]] on the [[site]] of Cartesian space from def. \ref{SiteCartSp}
+In addition, the requirement that $X$ be a [[sheaf]] on the [[site]] of Cartesian spaces from def. \ref{SiteCartSp}
 means that the assignment $\mathbb{R}^n \mapsto X(\mathbb{R}^n)$ knows that one coordinate system
 $\mathbb{R}^n$ may be covered by other coordinate systems. Namely let $\{U_i \overset{\phi_i}{\to}\}$
 be an [[open cover]] by [[open balls]] $U_i$ (each of which may be identified with $\mathbb{R}^n$ itself, by a [[diffeomorphism]])
@@ -1088,11 +1089,11 @@ into the category of [[diffeological spaces]]. But these in turn fully embed int
 ###### Definition
 
 A **[[diffeological space]]** $X$ is a [[smooth set]] (def. \ref{Smooth0Type}) which is [[concrete sheaf|concrete]].
-This means that there exists a [[set]] $X_s \in $ [[Set]] such that the smooth sets from Cartesian spaces $\mathbb{R}^n$ into $X$ are [[natural transformation|naturally]] [[subset|subsets]] of the set of maps from the underlying set $\mathbb{R}^n_s \in Set$ of the Cartesian space
+This means that there exists a [[set]] $X_s \in $ [[Set]] such that the sets of smooth maps from Cartesian spaces $\mathbb{R}^n$ into $X$ are [[natural transformation|naturally]] [[subset|subsets]] of the set of maps from the underlying set $\mathbb{R}^n_s \in Set$ of the Cartesian space
 to this set:
 
 $$
-  X(\mathbb{R}^n) \hookrightarrow Hom_{Set}(\mathbb{R}^n_s, X_2)
+  X(\mathbb{R}^n) \hookrightarrow Hom_{Set}(\mathbb{R}^n_s, X_s)
   \,.
 $$
 
@@ -1114,7 +1115,7 @@ just on plain Cartesian spaces, but also on [[formal smooth manifold|formal]] Ca
 +-- {: .num_defn #FormalSmoothSets}
 ###### Definition
 
-Define a [[coverage]] on the categories $FormalCartSp$ (def. \ref{FormalCartSp}
+Define a [[coverage]] on the categories $FormalCartSp$ (def. \ref{FormalCartSp})
 and on $SuperFormalCartSp$ (def. \ref{SuperFormalCartSp}) by declaring the [[covering]]
 families of any object $\mathbb{R}^n \times \mathbb{D}$ (hence for $\mathbb{D}$
 with $\mathcal{O}(\mathbb{D}) = (\mathbb{R} \oplus V)$ any infinitesimally thickened
@@ -1178,7 +1179,7 @@ $$
 
 Moreover, by prop. \ref{SystemOfSites} these four sites form a [[filtration]] of the site $SuperFormalCartSp$
 by consecutively smaller subsites, where each inclusion is either [[reflective subcategory|reflective]]
-or [[coreflective subcategory]] or both. The following states how this filtration of sites
+or [[coreflective subcategory|coreflective]] or both. The following states how this filtration of sites
 extends to their categories of sheaves.
 
 
@@ -1278,7 +1279,7 @@ $$
     & \simeq
     G(X)(c)
     \\
-    & \simeq 
+    & \simeq
     (G_! X)(c)
   \end{aligned}
   \,.
@@ -1364,7 +1365,7 @@ $$
 $$
 
 In fact, since these two [[endofunctors]] are obtained from the two possible composites in an [[adjoint triple]]
-whose middle functor is [[fully faithful functor|fully faithdful]] (an [[adjoint cylinder]]),
+whose middle functor is [[fully faithful functor|fully faithful]] (an [[adjoint cylinder]]),
 it is immediate to see that
 
 1. $\overset{\rightsquigarrow}{(-)}$ has the structure of an [[idempotent monad]]
@@ -1384,7 +1385,7 @@ $$
   \,.
 $$
 
-But prop. \ref{SuperSmoothSetsSystemOfAdjunctions} says that there are yet further adjoints, However
+But prop. \ref{SuperSmoothSetsSystemOfAdjunctions} says that there are yet further adjoints, however
 these no longer go between $SuperFormalSmoothSet$ and $FormalSmoothSet$, but between the former and
 $SmoothSet$ or even just between the former and $Set$. For instance there is the composite projection
 
@@ -2789,7 +2790,8 @@ A [[super Lie algebra]] is equivalently
 
    which is _graded_ skew-symmetric: it is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
 
-1. that satisfies the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three elements $x,y,z \in \mathbb{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z)\in \mathbb{Z}_2$ then
+1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that 
+for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
 
    $$
      [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
