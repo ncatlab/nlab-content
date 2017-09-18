@@ -7,6 +7,8 @@ The original references are:
 
 * [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
+following [Zwiebach 92](#Zwiebach92). See also at _[L-infinity algebra -- History](L-infinity-algebra#History)_.
+
 A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
 
 * {#KrizMay} [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
@@ -94,7 +96,7 @@ The [[L-∞ algebroid]]-structure is also made explicit in ([def. 4.1 of v1](htt
 
 The first _explicit_ appearance of $L_\infty$-algebras in theoretical physics is the $L_\infty$-algebra structure on the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] found in the context of closed bosonic [[string field theory]] in 
 
-* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+* {#Zwiebach92} [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
 
 * [[Jim Stasheff]], _Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli space_ Talk given at the _Conference on Topics in Geometry and Physics_ (1992) ([arXiv:hep-th/9304061](http://arxiv.org/abs/hep-th/9304061))
 
