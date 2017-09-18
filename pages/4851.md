@@ -2,9 +2,8 @@ Given [[strict 2-categories]], $A$ and $C$, and strict 2-functors $F:A\to C$ and
 
 * an isomorphism of categories $C(F a,c)\cong A(a,U c)$ for each object $a$ in $A$ and object $c$ in $C$, which is strict 2-natural both in $a$ and in $c$;
 
-* a strict 2-natural 2-transformations of 2-functors unit $\eta : Id_A \to U F$, and counit $\epsilon : F U\to Id_B$, satisfying the triangle identities strictly.
+* a strict 2-natural 2-transformations of 2-functors unit $\eta : Id_A \to U F$, and counit $\epsilon : F U\to Id_B$, satisfying the triangle identities strictly.  Note that this is an ordinary [[adjunction]] [[internalization|internal]] to the [[2-category]] $2Cat$ of [[Cat]]-[[enriched categories]], strict 2-functors, and strict 2-natural transformations.
 
-There are more relaxed forms of 2-adjunctions, namely the [[pseudoadjunction]]s and [[biadjunction]]s, both of which can be considered for 2-functors of either strict or weak 2-categories.
+There are also more relaxed forms of 2-adjunction, involving weak 2-categories, weak 2-functors, and/or weak 2-natural transformations; see [[2-adjunction]].
 
 [[!redirects strict 2-adjunctions]]
-
