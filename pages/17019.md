@@ -22,7 +22,7 @@
 
 A _cyclotomic spectrum_ is a [[global equivariant spectrum]] for all the [[cyclic groups]] over the [[circle group]], together with a certain extra structure.
 
-The [[topological cyclic homology]]-spectra are cyclotomic spectra, and that's where the concept originates.
+The [[topological Hochschild homology]]-spectra are cyclotomic spectra, and that's where the concept originates. This is the origin of the [[cyclotomic trace]] map to [[topological cyclic homology]].
 
 ## Properties
 
