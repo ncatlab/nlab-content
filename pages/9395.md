@@ -32,7 +32,7 @@ $$
 
 whose [[fiber]] is $X$, whose base space is the [[suspension]] of $X$, and whose total space is the [[join of topological spaces|join]] of $X$ with itself. ([Stasheff 70, chapter 1](#Stasheff70)).
 
-Specialized to $X$ the [[sphere]] of dimension 0, 1, 3, or 7, then the Hopf construction yields the _[Hopf fibrations](#HopfFibrations)_.
+Specialized to $X$ the [[sphere]] of dimension 0, 1, 3, or 7, then the Hopf construction yields the _[Hopf fibrations](#HopfFibrations)_. (And by the [[Hopf invariant one theorem]] these are the only dimensions for in which spheres are H-spaces.)
 
 ## Definition
 
@@ -289,6 +289,12 @@ Review inclides
 Textbook accounts include
 
 * {#MosherTangora} [[Robert Mosher]], [[Martin Tangora]], p. 38 of _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](http://math.jhu.edu/~anakade1/notes/Dec%202014/Mosher%20and%20Tangora%20Notes/mosher-tangora.pdf))
+
+Discussion of the situation in [[parameterized homotopy theory]] includes
+
+* {#CookCrabb93} A. L. Cook, M.C. Crabb, _Fiberwise Hopf structures on sphere bundles_, J. London Math. Soc. (2) 48 (1993) 365-384 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/crabbcook.pdf))
+
+* {#Iriye95} Kouyemon Iriye, _Equivariant Hopf structures on a sphere_, J. Math. Kyoto Univ. Volume 35, Number 3 (1995), 403-412 ([Euclid](http://projecteuclid.org/euclid.kjm/1250518704))
 
 
 See also
