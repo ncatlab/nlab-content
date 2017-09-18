@@ -81,7 +81,7 @@ $$\neg C \neg C, \qquad C \neg C \neg, \qquad \neg C \neg C \neg, \qquad C \neg 
 with any further alternating words reducible by replacing a substring $C \neg C \neg C \neg C$ by $C \neg C$. Thus each element in the monoid presented as above is represented by one of these 14 words. 
 =-- 
 
-These 14 words actually name distinct set-theoretic operations $P(X) \to P(X)$ for a judicious choice of space $X$; as a corollary, the monoid presented above has exactly 14 elements. For instance (courtesy of Wikipedia), taking $X = \mathbb{R}$ with its standard topology, the orbit of the element $(0, 1) \cup (1, 2) \cup \{3\} \cup ([4, 5] \cap \mathbb{Q})$ under the monoid action consists of 14 distinct elements. 
+These 14 words actually name distinct set-theoretic operations $P(X) \to P(X)$ for a judicious choice of space $X$; as a corollary, the monoid presented above has exactly 14 elements. For instance (from [Wikipedia: Kuratowski's closure-complement problem](https://en.wikipedia.org/wiki/Kuratowski's_closure-complement_problem)), taking $X = \mathbb{R}$ with its standard topology, the orbit of the element $(0, 1) \cup (1, 2) \cup \{3\} \cup ([4, 5] \cap \mathbb{Q})$ under the monoid action consists of 14 distinct elements. 
 
 ### Locales
 
