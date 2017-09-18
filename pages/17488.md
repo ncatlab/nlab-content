@@ -1905,7 +1905,7 @@ of standard generating (acyclic) cofibrations ([def.](Introduction+to+Stable+hom
 Write
 
 $$
-  I_{SeqSpec}^{strict} 
+  I_{seq}^{strict} 
     \coloneqq 
   \left\{ 
     y(S^n) \cdot i_+ 
@@ -1917,7 +1917,7 @@ $$
 and
 
 $$
-  J_{SeqSpec}^{strict}
+  J_{seq}^{strict}
     \coloneqq 
   \left\{ 
     y(S^n) \cdot j_+ 
@@ -1938,7 +1938,7 @@ for the set of morphisms arising as the [[tensoring]] (remark \ref{TensoringOfSe
 
 The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} give the structure of a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) to be denoted $SeqSpec(Top)_{strict}$ and called the **strict [[model structure on topological sequential spectra]]** (or: **level model structure**).
 
-Moreover, this is a [[cofibrantly generated model category]] with generating (acyclic) cofibrations the set $I_{SeqSpec}^{strict}$ (resp. $J_{SeqSpec}^{strict}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict}.
+Moreover, this is a [[cofibrantly generated model category]] with generating (acyclic) cofibrations the set $I_{seq}^{strict}$ (resp. $J_{seq}^{strict}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict}.
 
 =--
 
@@ -4896,7 +4896,7 @@ where the horizontal adjunctions are the canonically induced (via [this prop.](I
 
 We show that the stable model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)). 
 
-We will not use the result of this section in the remainder of part 1.1, but the following argument is the blueprint for the proof of the [[model structure on orthogonal spectra]] that we consider in [[Introduction to Stable homotopy theory -- 1-2|part 1.2]], in the section _[The stable model structure on structured spectra](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableModelStructure)_.
+We will not use the result of this section in the remainder of part 1.1, but the following argument is the blueprint for the proof of the [[model structure on orthogonal spectra]] that we consider in [[Introduction to Stable homotopy theory -- 1-2|part 1.2]], in the section _[The stable model structure on structured spectra](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableModelStructure)_, and it will be used in the proof of the Quillen equivalence of $SeqSpec(Top_{cg})_{stable}$ to the stable [[model structure on orthogonal spectra]] ([thm.](Introduction+to+Stable+homotopy+thepry+--+1-2#SequentialSpectraQuillenEquivalence)).
 
 Moreover, that $SeqSpec(Top_{cg})_{stable}$ is [[cofibrantly generated model category|cofibrantly generated]] means that for $\mathcal{C}$ any [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) then there exists a [[projective model structure on functors]] $[\mathcal{C}, SeqSpec(Top_{cg})_{stable}]_{proj}$ on the category of [[topologically enriched functors]] $\mathcal{C} \to SeqSpec(Top_{cg})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)), in direct analogy to the projective model structure $[\mathcal{C},(Top^{\ast/}_{cg})_{Quillen}]_{proj}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)). This is the model structure for _[[parameterized stable homotopy theory]]_. Just as the [[stable homotopy theory]] discussed here is the natural home of [[generalized (Eilenberg-Steenrod) cohomology]] theories (example \ref{ForASpectrumXGeneralizedECohomology}) so [[parameterized stable homotopy theory]] is the natural home of [[twisted cohomology]] theories.
 
@@ -5044,9 +5044,9 @@ The proof is verbatim as that of prop. \ref{SigmaInfinityOmegaInfinity}, just wi
 Write 
 
 $$
-  I_{SeqSpec}^{stable} 
+  I_{seq}^{stable} 
     \coloneqq 
-  I_{SeqSpec}^{strict}
+  I_{seq}^{strict}
   \;\;
   \in SeqSpec(Top)
 $$
@@ -5054,9 +5054,9 @@ $$
 for the set of morphisms appearing already in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict}, and write
 
 $$
-  J_{SeqSpec}^{stable}
+  J_{seq}^{stable}
     \coloneqq 
-  J_{SeqSpec}^{strict}
+  J_{seq}^{strict}
    \;\sqcup\:
   \{
     k_n \Box i_+
@@ -5072,7 +5072,7 @@ for the [[disjoint union]] of the other set of morphisms appearing in def. \ref{
 ###### Theorem
 
 
-The stable model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is [[cofibrantly generated model category|cofibrantly generated]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations the sets $I_{SeqSpec}^{stable}$ (and $J_{SeqSpec}^{stable}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}.
+The stable model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is [[cofibrantly generated model category|cofibrantly generated]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations the sets $I_{seq}^{stable}$ (and $J_{seq}^{stable}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}.
 
 
 =--
@@ -5082,8 +5082,8 @@ This is one of the cofibrantly model categories considered in ([Mandell-May-Schw
 +-- {: .proof}
 ###### Proof
 
-It is clear (as in theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}) that the two classes have small domains ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassOfMorphismsWithSmallDomains)). Moreover, since $I_{SeqSpec}^{stable} = I_{SeqSpec}^{strict}$ and $Cof_{stable} = Cof_{strict}$ by definition, the fact that the ccofibrations are the retracts of relative $I_{SeqSpec}^{stable}$-cell complexes is part of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
-It only remains to show that the stable acyclic cofibrations are precisely the retracts of relative $J_{SeqSpec}^{stable}$-cell complexes. This we is the statement of lemma \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrationsForSequentialSpectra} below.
+It is clear (as in theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}) that the two classes have small domains ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassOfMorphismsWithSmallDomains)). Moreover, since $I_{seq}^{stable} = I_{seq}^{strict}$ and $Cof_{stable} = Cof_{strict}$ by definition, the fact that the ccofibrations are the retracts of relative $I_{seq}^{stable}$-cell complexes is part of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+It only remains to show that the stable acyclic cofibrations are precisely the retracts of relative $J_{seq}^{stable}$-cell complexes. This we is the statement of lemma \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrationsForSequentialSpectra} below.
 
 =--
 
@@ -5210,7 +5210,7 @@ $$
 +-- {: .num_lemma #ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}
 ###### Lemma
 
-Every element in $J_{SeqSpec}^{stable}$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}) is 
+Every element in $J_{seq}^{stable}$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}) is 
 an acyclic cofibration in the model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}.
 
 =--
@@ -5218,7 +5218,7 @@ an acyclic cofibration in the model structure $SeqSpec(Top_{cg})_{stable}$ from 
 +-- {: .proof}
 ###### Proof 
 
-For the elements in $J_{SeqSpec}^{strict}$ this is part of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+For the elements in $J_{seq}^{strict}$ this is part of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 It only remains to see that the morphisms $k_n \Box i_+$ are stable acyclic cofibrations.
 
 To see that they are stable cofibrations, hence strict cofibrations:
@@ -5235,7 +5235,7 @@ The reason for considering the set $\{k_n \Box i_+\}$ is to make the following t
 +-- {: .num_lemma #KInjectivesAreAcyclicCofibrationsForSequentialSpectra}
 ###### Lemma
 
-A morphism $f \colon X \to Y$ in $SeqSpec(Top)$ is a $J_{SeqSpec}^{stable}$-[[injective morphism]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LiftingAndExtension)) precisely if 
+A morphism $f \colon X \to Y$ in $SeqSpec(Top)$ is a $J_{seq}^{stable}$-[[injective morphism]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LiftingAndExtension)) precisely if 
 
 1. it is fibration in the strict model structure (hence degreewise a fibration);
 
@@ -5260,7 +5260,7 @@ A morphism $f \colon X \to Y$ in $SeqSpec(Top)$ is a $J_{SeqSpec}^{stable}$-[[in
    is a weak homotopy equivalence (notice that $\Omega f_{n+1}$ is a fibration by the previous item and since $\Omega = Maps(S^1,-)_\ast$ is a right Quillen functor by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}).
 
 
-In particular, the $J_{SeqSpec}^{stable}$-[[injective objects]] are precisely the [[Omega-spectra]], def. \ref{OmegaSpectrum}.
+In particular, the $J_{seq}^{stable}$-[[injective objects]] are precisely the [[Omega-spectra]], def. \ref{OmegaSpectrum}.
 
 
 =--
@@ -5268,7 +5268,7 @@ In particular, the $J_{SeqSpec}^{stable}$-[[injective objects]] are precisely th
 +-- {: .proof}
 ###### Proof
 
-By theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, lifting against $J_{SeqSpec}^{stric}$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), equivalent to left lifting $i_+$ against the pullback powering $f^{\Box k_n}$ from def. \ref{PushoutProductWithRespectToSmashTensoring}. Since the $\{i_+\}$ are the generating cofibrations in $Top_{cg}^{\ast/}$  such lifting means that $f^{\Box k_n}$ is a weak equivalence in the strict model sructure. But by lemma \ref{CorepresentationOfAdjunctStructureMaps}, $f^{\Box k_n}$ is precisely the comparison morphism in question.
+By theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, lifting against $J_{seq}^{stric}$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), equivalent to left lifting $i_+$ against the pullback powering $f^{\Box k_n}$ from def. \ref{PushoutProductWithRespectToSmashTensoring}. Since the $\{i_+\}$ are the generating cofibrations in $Top_{cg}^{\ast/}$  such lifting means that $f^{\Box k_n}$ is a weak equivalence in the strict model sructure. But by lemma \ref{CorepresentationOfAdjunctStructureMaps}, $f^{\Box k_n}$ is precisely the comparison morphism in question.
 
 =--
 
@@ -5280,7 +5280,7 @@ A morphism in $SeqSpec(Top)$ which is both
 
 1. a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra});
 
-1. a $J_{SeqSpec}^{stable}$-[[injective morphism]] (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}, [def.](Introduction+to+Stable+homotopy+theory+--+P#LiftingAndExtension))
+1. a $J_{seq}^{stable}$-[[injective morphism]] (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}, [def.](Introduction+to+Stable+homotopy+theory+--+P#LiftingAndExtension))
 
 is an acyclic fibration in the strict model structure, hence is degreewise a [[weak homotopy equivalence]] and [[Serre fibration]] of topological spaces;
 
@@ -5358,7 +5358,7 @@ To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe t
 +-- {: .num_lemma #RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrationsForSequentialSpectra}
 ###### Lemma
 
-The [[retracts]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of $J_{SeqSpec}^{stable}$-[[relative cell complexes]] are precisely the stable acyclic cofibrations.
+The [[retracts]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of $J_{seq}^{stable}$-[[relative cell complexes]] are precisely the stable acyclic cofibrations.
 
 =--
 
@@ -5366,16 +5366,16 @@ The [[retracts]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfM
 +-- {: .proof}
 ###### Proof
 
-Since all elements of $J_{SeqSpec}^{stable}$ are stable weak equivalences and strict cofibrations by  lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}, it follows that every retract of a relative $J_{SeqSpec}^{stable}$-cell complex has the same property.
+Since all elements of $J_{seq}^{stable}$ are stable weak equivalences and strict cofibrations by  lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}, it follows that every retract of a relative $J_{seq}^{stable}$-cell complex has the same property.
 
 In the other direction, let $f$ be a stable acyclic cofibration. Apply the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) to factor it 
 
 $$
-  f \colon \underoverset{J_{SeqSpec}^{stable}Cell}{i}{\to}
- \underoverset{J_{SeqSpec}^{stable} Inj}{p}{\to}
+  f \colon \underoverset{J_{seq}^{stable}Cell}{i}{\to}
+ \underoverset{J_{seq}^{stable} Inj}{p}{\to}
 $$ 
 
-as a $J_{SeqSpec}^{stable}$-[[relative cell complex]] $i$ followed by a $J_{SeqSpec}^{stable}$-[[injective morphism]] $p$. By the previous statement $i$ is a stable weak homotopy equivalence, and hence by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalencesForSequentialSpectra} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) implies that $f$ is a retract of the relative $J_{SeqSpec}^{stable}$-cell complex $i$.
+as a $J_{seq}^{stable}$-[[relative cell complex]] $i$ followed by a $J_{seq}^{stable}$-[[injective morphism]] $p$. By the previous statement $i$ is a stable weak homotopy equivalence, and hence by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalencesForSequentialSpectra} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) implies that $f$ is a retract of the relative $J_{seq}^{stable}$-cell complex $i$.
 
 =--
 
