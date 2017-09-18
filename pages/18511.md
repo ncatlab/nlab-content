@@ -72,3 +72,7 @@ Discussion showing that this generalization to field theory is not given by Kont
 
 [[!redirects Fedosov quantization]]
 [[!redirects Fedosov quantizations]]
+
+
+[[!redirects Fedosov's formal deformation quantization]]
+[[!redirects Fedosov's formal deformation quantizations]]
