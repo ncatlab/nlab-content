@@ -57,6 +57,10 @@ More generally, we define a co-multicategory $\bar A$ as follows.  The objects o
 
 Not every co-multicategory arises from a promonoidal one in this way.  Roughly, a promonoidal category is a co-multicategory whose $n$-ary co-multimorphisms are determined by the binary, unary, and nullary morphisms.  In general, co-multicategories can be identified with a certain sort of "lax promonidal category".
 
+## Notes
+
+[[Brian Day]] introduced the notion of a "premonoidal" category in [(Day 1970)](#Day70), and later renamed this to a "promonoidal" category in [(Day 1974)](#Day74) while reformulating the identity and associativity isomorphisms $\lambda,\rho,\alpha$ explicitly in terms of profunctor composition.  However, note that his definition is op'd from the definition used in this article, in the sense that a Day-promonoidal structure on a category $C$ corresponds to a pseudomonoid structure on $C^{op}$ in [[Prof]].
+
 ## Related pages
 
 * [[monoidal category]], [[multicategory]]
@@ -64,6 +68,8 @@ Not every co-multicategory arises from a promonoidal one in this way.  Roughly, 
 * A (co-)promonoidal [[poset]] is called a [[ternary frame]], when its Day convolution monoidal category is used to model [[substructural logic]].
 
 ## References
+
+* {#Day70} [[Brian Day]], On closed categories of functors, _Lecture Notes in Mathematics_ 137 (1970), 1-38.
 
 * {#Day74} [[Brian Day]], An embedding theorem for closed categories, _Lecture Notes in Mathematics_ 420 (1974), 55-64.
 
