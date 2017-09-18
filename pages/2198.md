@@ -39,7 +39,7 @@ In [[classical mathematics]], these relations are all interdefinable:
 
 (Here, $\neg$ indicates [[negation]] of truth values, while $B'$ is the [[complement]] of $B$ in $X$.)
 
-In [[constructive mathematics]], any one of these relations may be taken as primary and the others defined using it; thus we distinguish, constructively, between a __set--set nearness space__, a __set--set apartness space__, and a __set--set neighbourhood space__.
+In [[constructive mathematics]], any one of these relations may be taken as primary and the others defined using it; thus we distinguish, constructively, between a __set--set nearness space__, a __set--set apartness space__ (see [[apartness space]]), and a __set--set neighbourhood space__.
 
 
 ## Definitions
