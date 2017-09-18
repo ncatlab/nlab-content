@@ -11,10 +11,12 @@ A _reflexive object_ is a model of the pure (untyped) [[lambda calculus]] valida
 A **reflexive object** in a [[cartesian closed category]] is an object $U$ equipped with a pair of maps
 
 $$
-\array{U & \overset{a}{\underset{\ell}{\rightleftarrows}} & U^U} 
+\array{U & \overset{app}{\underset{lam}{\rightleftarrows}} & U^U} 
 $$
 
-such that $a \circ \ell = 1$.  In other words, a reflexive object is an object $U$ together with data $U^U \lhd U$ exhibiting $U^U$ as a [[retract]] of $U$.   A reflexive object is said to be **extensional** (or "strict") when also $\ell \circ a = 1$, so that there is an isomorphism $U^U \cong U$.
+such that $app \circ lam = 1$.  In other words, a reflexive object is an object $U$ together with data $U^U \lhd U$ exhibiting $U^U$ as a [[retract]] of $U$.  A reflexive object is said to be **extensional** (or "strict") when also $lam \circ app = 1$, so that there is an isomorphism $U^U \cong U$.
+
+Viewed as a model of lambda calculus, the equation $app \circ lam = 1$ of a reflexive object represents $\beta$-equality $(\lambda x.t)(u) = t[u/x]$, while the equation $lam \circ app = 1$ of an extensional reflexive object represents $\eta$-equality $\lambda x.t(x) = t$.
 
 ### In a closed (symmetric) monoidal category
 
@@ -24,13 +26,13 @@ A reflexive object in a symmetric monoidal closed category provides a model of [
 
 ### In a closed monoidal 2-category
 
-The definition of reflexive object also has a natural generalization to any closed monoidal [[2-category]] (or cartesian closed 2-category), where the retraction should be replaced by an [[adjunction]] $a \dashv \ell : [U,U] \to U$.  Then the [[counit]] of the adjunction $a \circ \ell \Rightarrow 1_{[U,U]}$ models [[beta-reduction]], while the [[unit]] $1_U \Rightarrow \ell \circ a$ models [[eta-expansion]].
+The definition of reflexive object also has a natural generalization to any closed monoidal [[2-category]] (or cartesian closed 2-category), where the retraction should be replaced by an [[adjunction]] $app \dashv lam : [U,U] \to U$.  Then the [[counit]] of the adjunction $app \circ lam \Rightarrow 1_{[U,U]}$ models [[beta-reduction]] $(\lambda x.t)(u) \to t[u/x]$, while the [[unit]] $1_U \Rightarrow lam \circ app$ models [[eta-expansion]] $t \to \lambda x.t(x)$.
 
 ## Examples
 
 ### Terminal object
 
-The [[terminal object]] of a ccc provides a degenerate example of a (strict) reflexive object, and for cardinality reasons, this is the only reflexive object in [[Set]].
+The [[terminal object]] of a ccc provides a degenerate example of a (extensional) reflexive object, and for cardinality reasons, this is the only reflexive object in [[Set]].
 
 ### Scott's $D_\infty$ construction
 
@@ -38,11 +40,11 @@ The first non-degenerate model of untyped lambda calculus was described by [[Dan
 
 ### Enumeration operator model
 
-Scott later gave a more concrete model of lambda calculus in [Scott (1976)](#Scott76), defining a reflexive object with carrier the lattice $P\omega$ of all [[subsets]] of the non-negative integers, and with the maps $a$ and $\ell$ (there called "fun" and "graph") defined as follows:
+Scott later gave a more concrete model of lambda calculus in [Scott (1976)](#Scott76), defining a reflexive object with carrier the lattice $P\omega$ of all [[subsets]] of the non-negative integers, and with the maps $app$ and $lam$ (there called "fun" and "graph") defined as follows:
 
-$$a(u)(x) = \{m \mid \exists e_n \subseteq x. (n,m) \in u\}$$
+$$app(u)(x) = \{m \mid \exists e_n \subseteq x. (n,m) \in u\}$$
 
-$$\ell(f) = \{(n,m) \mid m \in f(e_n)\}$$
+$$lam(f) = \{(n,m) \mid m \in f(e_n)\}$$
 
 Here $e_n$ stands for the set whose elements are the exponents in the binary expansion of $n$ (thus $e_n$ is the $n$th subset in the standard enumeration of finite subsets of $\omega$), while "$(n,m)$" stands for the standard enumeration of pairs of integers
 
@@ -70,7 +72,7 @@ A more abstract analysis of Scott's representation theorem appears in [Hyland (2
 
 ### Higher-order abstract syntax
 
-Another way of looking at the _free_ cartesian closed category containing a reflexive object is as a representation of pure lambda terms (up to $\beta$-equality) in the style of so-called [[higher-order abstract syntax]].  The operation $a : U \to U^U$ is the [[currying|curried]] form of application, while the operation $\ell : U^U \to U$ represents lambda abstraction.  The [[global elements]] of $U$ can be interpreted as closed lambda terms, and more generally, morphisms $U^n \to U$ can be interpreted as terms with $n$ free variables.
+Another way of looking at the _free_ cartesian closed category containing a reflexive object is as a representation of pure lambda terms (up to $\beta$-equality) in the style of so-called [[higher-order abstract syntax]].  The operation $app : U \to U^U$ is the [[currying|curried]] form of application, while the operation $lam : U^U \to U$ represents lambda abstraction.  The [[global elements]] of $U$ can be interpreted as closed lambda terms, and more generally, morphisms $U^n \to U$ can be interpreted as terms with $n$ free variables.
 
 ## References
 
