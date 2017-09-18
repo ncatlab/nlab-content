@@ -21,8 +21,7 @@ Historically, there were several formalisms of various schools including the Ita
 
 ## Definition
 
-Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usually means either a quasiprojective variety or an abstract variety (in the sense of Serre). 'Quasiprojective' unifies affine, quasiaffine, [[projective variety|projective]] and embedded  quasiprojective $k$-varieties. 
-
+Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usually means either a quasiprojective variety or an abstract variety (in the sense of Serre). 'Quasiprojective' unifies affine, quasiaffine, [[projective variety|projective]] and embedded  quasiprojective $k$-varieties. Many modern sources by a variety mean a reduced separated scheme of finite type over a field, often requiring also irreducibility (that is integral = reduced and irreducible). 
 
 * An embedded affine $k$-variety (or an affine algebraic set) is a set of zeros of a locus of common zeros of a set of polynomial equations in the affine space $\mathbf{A}^n_k$. By the Hilbert [[Nullstellensatz]] there is a more invariant definition. __[[affine variety|Affine]]__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
 
@@ -61,6 +60,11 @@ Some modern algebraic geometers mean, by varieties, objects of certain slightly 
 * [[complete algebraic variety]]
 
 ## References
+
+* Igor Shafarevich, _Basic algebraic geometry_, vol. I
+* J. S. Milne, _Algebraic geometry_, 2017 [pdf](http://www.jmilne.org/math/CourseNotes/AG.pdf)
+* Joe Harris, _Introductory algebraic geometry_ 
+* chapter I of Robin Hartshorne, _Algebraic geometry_, Springer
 
 An amusing discussion on the differences between schemes and varieties can be found at _Secret blogging seminar_: [algebraic geometry without prime ideals](http://sbseminar.wordpress.com/2009/08/06/algebraic-geometry-without-prime-ideals).
 
