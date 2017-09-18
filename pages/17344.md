@@ -3688,7 +3688,7 @@ $$
     X 
       &\overset{\tilde i}{\longrightarrow}&
     Z \underset{Q(Y)}{\times} Y
-      &\overset{\tilde p}{\longrightarrow}&
+      &\overset{\tilde p \in Fib_{Q}}{\longrightarrow}&
     Y
     \\
     &
@@ -3712,7 +3712,7 @@ $$
 
 This exhibits $\eta'$ as the pullback of a $Q$-weak equivalence along a fibration between objects on which $\eta$ is a weak equivalence. Then the third clause in def. \ref{QuillenIdempotentMonad} says that $\eta'$ is itself as a $Q$-weak equivalence. This way, [[two-out-of-three]] implies that $\tilde i$ is a $Q$-weak equivalence.
 
-Finally, apply factorization in $(Cof,\; W\cap Fib)$ to $\tilde i$ to obtain the desired factorization
+Observe that $\tilde p$ is a $Q$-fibration, because it is the pullback of a $Q$-fibration and because $Q$-fibrations are defined by a right lifting property (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) and hence closed under pullback ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)) Finally, apply factorization in $(Cof,\; W\cap Fib)$ to $\tilde i$ to obtain the desired factorization
 
 $$
   f 
