@@ -83,3 +83,5 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 [[!redirects cell attachment]]
 [[!redirects cell attachments]]
 
+[[!redirects attachment space]]
+[[!redirects attachment spaces]]
