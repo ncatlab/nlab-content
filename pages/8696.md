@@ -6,7 +6,7 @@
 
 ## Idea
 
-In a context of [[infinitesimal cohesion]] the **infinitesimal path $\infty$-groupoid** $\Pi_{ing}(X)$ of a type $X$ is the result identifying infinitesimally close points in $X$.
+In a context of [[infinitesimal cohesion]] the **infinitesimal path $\infty$-groupoid** $\Pi_{inf}(X)$ of a type $X$ is the result identifying infinitesimally close points in $X$.
 
 
 ## Definition
