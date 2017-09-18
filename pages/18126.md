@@ -12164,7 +12164,7 @@ $$
   \,.
 $$
 
-This means in particular that $h_i^{-1}((0,1]) \subset V_i$ and hence that the [[support]] of the function is 
+This means in particular that $h_i^{-1}((0,1]) \subset V_i$ and hence that the [[support]] of the function is
 contained in $U_i$
 
 $$
@@ -12211,7 +12211,7 @@ Since $Supp(f_i) = Supp(h_i)$ this still satisfies conditions 1) and 2) on a par
 
 $$
   \underset{i \in I}{\sum} f_i = 1
-$$ 
+$$
 
 and hence the remaining condition 3). Therefore
 
@@ -12242,17 +12242,71 @@ A _([[topological vector bundle|topological]]) [[vector bundle]]_ is a collectio
 that vary continuously over a [[topological space]]. Hence topological vector bundles combine
 [[linear algebra]] with [[topology]].
 
+The combination of [[topology]] with [[linear algebra]] begins in the evident way,
+in the same vein as the concept of [[topological groups]] (def. \ref{TopologicalGroup});
+we "[[internalization|internalize]]" definitions from [[linear algebra]] into
+the [[cartesian monoidal category]] [[Top]] (remark \ref{TopCategory}, remark \ref{CartesianSymmetricMonoidalTop}):
+
++-- {: .num_defn #TopologicalRing}
+###### Definition
+**([[topological ring]] and [[topological field]])
+
+A _[[topological ring]]_ is
+
+1. a [[ring]] $(R,+,\cdot)$,
+
+1. a [[topological space|topology]] $\tau_R \subset P(R)$ on the underlying set of the ring, making it
+   a [[topological space]] $(R,\tau_R)$ (def. \ref{TopologicalSpace})
+   
+such that 
+
+1. $(R,+)$ is a [[topological group]] with respect to $\tau_R$ (def. \ref{TopologicalGroup});
+
+1. also the multiplication $(-)\cdot (-) \;\colon\; R \times R \longrightarrow R$ is a [[continuous function]]
+   with respect to $\tau_R$ and the [[product topology]] (example \ref{BinaryProductTopologicalSpace}).
+
+A topological ring $((R, \tau_R),+,\cdot)$ is a _[[topological field]]_ if
+
+1. $(R,+,\cdot)$ is a [[field]];
+
+1. the function assigning multiplicative inverses $(-)^{-1} \;\colon\; R \setminus \{0\} \to R \setminus \{0\}$ is a 
+   continuous function with respect to the [[subspace topology]].
+
+=--
+
++-- {: .num_example #TopologicalRingRealNumbers}
+###### Example
+**([[real number|real]] and [[complex numbers]] are [[topological fields]])**
+
+The [[fields]] of [[real numbers]] $\mathbb{R}$
+and of [[complex numbers]] $\mathbb{C} \simeq \mathbb{R}^2$
+are [[topological fields]] (def. \ref{TopologicalRing})
+with respect to their [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology})
+
+That the operations on these fields are all continuous with respect to the Euclidean topology is the statement that 
+[[rational functions are continuous]] on the domain of definition inside Euclidean space
+(example \ref{PolynoialsAreContinuous}.)
+
+=--
+
+
 +-- {: .num_defn #TopologicalVectorBundle}
 ###### Definition
 **([[topological vector bundle]])**
 
-Let $X$ be a [[topological space]]. Then a _topological vector bundle_ over $X$ is
+Let 
+
+1. $k$ be a [[topological field]] (def. \ref{TopologicalRing}) 
+
+1. $X$ be a [[topological space]]. 
+
+Then a _topological $k$-vector bundle over $X$_ is
 
 1. a [[topological space]] $E$;
 
 1. a [[continuous function]] $E \overset{\pi}{\to} X$
 
-1. for each $x \in X$ the stucture of a [[real vector space]] on the [[pre-image]]
+1. for each $x \in X$ the stucture of a [[finite-dimensional vector space|finite-dimensional]] $k4-[[vector space]] on the [[pre-image]]
 
    $$E_x \coloneqq \pi^{-1}(\{x\}) \subset E$$
 
@@ -13487,7 +13541,7 @@ Since [[locally compact and sigma-compact spaces are paracompact]], it follows t
 Now let $X$ be paracompact with countably many connected components. We show that $X$ is sigma-compact.
 
 Since $X$ is locally compact, there exists a cover $\{K_i = Cl(U_i) \subset X\}_{i \in I}$ by [[compact topological space|compact]] [[subspaces]].
-By paracompactness there is a locally finite refinement of this cover. 
+By paracompactness there is a locally finite refinement of this cover.
 Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}) to this refinement and yields a locally finite open cover
 
 $$
