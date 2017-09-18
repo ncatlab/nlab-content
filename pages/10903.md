@@ -641,7 +641,9 @@ is discussed in ([[Representability theorems|Lurie, Representability theorems, s
 
 ### Stable homotopy theory of $G$-equivariant spectra
 
-For a finite group, $G$, consider the spectral [[Mackey functors]] on the category of finite $G$-sets. These are [[G-spectrum|genuine G-spectra]] which form a map $(Fin^G)^{op} \to SymMon \infty Cat$ under smash product. See [equivariant stable homotopy theory](equivariant+stable+homotopy+theory#in_terms_of_mackeyfunctors).
+For a finite group, $G$, consider the spectral [[Mackey functors]] on the category of finite $G$-sets. These are [[G-spectrum|genuine G-spectra]] (see [equivariant stable homotopy theory](equivariant+stable+homotopy+theory#in_terms_of_mackeyfunctors)) which together constitute a $G$-equivariant $\infty$-category (or $G$-$\infty$-category, see [[Parametrized Higher Category Theory and Higher Algebra]]). This sends any orbit $G/H$, for $H$ a subgroup of $G$, to the monoidal $\infty$-category of genuine $H$-spectra. 
+
+This forms a model of linear homotopy type theory.
 
 ## Structures in linear homotopy-type theory
  {#StructuresInLinearHomotopyTypeTheory}
