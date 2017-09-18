@@ -47,7 +47,7 @@ where $I \hookrightarrow \mathbb{R}$ is the standard unit [[interval]].
 
 Such [[action functionals]] we discuss in their own right in _[Variational calculus](#VariationalCalculus)_ below. Here we first examine in detail a fundamental property they all have: they are supposed to be _[[local action functional|local]]_.
 
-Foremost this means that the value associated to a trajectory is _built up incrementally_ from small contributions associated to small sub-trajectories: if a rajectory $\gamma$ is decomposed as a trajectory $\gamma_1$ followed by a trajectory $\gamma_2$, then the action functional is additive
+Foremost this means that the value associated to a trajectory is _built up incrementally_ from small contributions associated to small sub-trajectories: if a trajectory $\gamma$ is decomposed as a trajectory $\gamma_1$ followed by a trajectory $\gamma_2$, then the action functional is additive
 
 $$
   S(\gamma) = S(\gamma_1) + S(\gamma_2)
