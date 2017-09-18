@@ -823,6 +823,8 @@ $$
 
 * [[invariant polynomial]]
 
+* [[Sullivan model of free loop space]]
+
 
 ## References
 
