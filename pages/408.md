@@ -17,9 +17,11 @@
 
 An _adjunction of two variables_ is a straightforward generalization of both:
 
-* the internal hom in a [[closed monoidal category|biclosed monoidal category]] and
+* the [[internal hom]] in a [[biclosed monoidal category]] 
 
-* a $V$-enriched category having [[power|powers]] and [[copower|copowers]]
+and
+
+* a $V$-[[enriched category]] having [[powers]] and [[copowers]]
 
 by extracting the central pattern.
 
@@ -70,12 +72,16 @@ giving an action of the [[cyclic group]] of order 3.  This can be made to look m
 
 There is a straightforward generalization to an adjunction of $n$ variables, which involves $n+1$ categories and $n+1$ functors.  Adjunctions of $n$ variables assemble into a 2-[[multicategory]].  They also have a corresponding notion of [[mates]]; see [Cheng-Gurski-Riehl](#CGR).
 
+## Related concepts
+
+* [[Quillen bifunctor]]
+
 ## References
 
 * [[Mark Hovey]]. *Model Categories*, volume 63 of Mathematical Surveys and Monographs. American Mathematical Society, 1999.  See Chapter 4.
 
-* [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520).
-{#CGR}
+* {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520).
+
 
 [[!redirects two-variable adjunction]]
 [[!redirects two-variable adjunctions]]
