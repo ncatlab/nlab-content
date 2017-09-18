@@ -41,3 +41,7 @@ The Hamiltonian forms are the local [[classical observables]]/[[prequantum obser
 
 [[!redirects Hamiltonian n-form]]
 [[!redirects Hamiltonian n-forms]]
+
+[[!redirects Hamiltonian differential form]]
+[[!redirects Hamiltonian differential forms]]
+
