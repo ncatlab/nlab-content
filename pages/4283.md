@@ -29,7 +29,7 @@ In the picture of ([Wick-Wigner-Wightman 52](#WickWignerWightman52)) all possibl
 
 Hence, mathematically: superselection sectors are [[irreducible representations]] of a given [[algebra of observables]] inside the [[space of quantum states]].
 
-An example would be a superposition of a state containing one electron with a state containing two electons.
+An example would be a superposition of a state containing one electron with a state containing two electrons.
 
 In the [[AQFT]] approach to [[quantum field theory]] the observables of the theory are selfadjoint elements of a [[C-star algebra]]. A concrete physical system is a [[state]] of this algebra, which is accompanied via the [[GNS construction]] with a representation of the algebra. A superselection sector from this viewpoint is an equivalence class of unitarily equivalent representations, see [[representation of a C-star algebra]]. 
 
