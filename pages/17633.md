@@ -3,10 +3,11 @@ Let $L$ be a [[set]] equipped with both a [[partial order]] $\leq$ (whose [[oppo
 
 Following the terminology at [[inner product space]], an element $x$ of $L$ is:
 
-* __positive__ if $x \geq 0$,
-* __negative__ if $x \leq 0$,
-* __indefinite__ if $x \ne y$ whenever $y \geq 0$ or $x \geq 0$,
+* __positive__ (or _positive semidefinite_) if $x \geq 0$,
+* __negative__ (or _negative semidefinite_) if $x \leq 0$,
+* __indefinite__ if $x \ne y$ whenever $y \geq 0$ or $y \leq 0$,
 * __semidefinite__ if $x \ne y$ whenever $y$ is indefinite,
 * __nondegenerate__ if $x \ne 0$,
+* __definite__ if $x$ is semidefinite and nondegenerate,
 
 [more to come, possible corrections]
