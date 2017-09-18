@@ -19,13 +19,13 @@
 
 [[simplicial set|Simplicial sets]] are the archetypical combinatorial "[[model category|model]]" for the [[(∞,1)-category]] of (compactly generated weakly Hausdorff) [[topological space]]s and equivalently that of [[∞-groupoid]]s, as well as a standard model for the [[(∞,1)-category of (∞,1)-categories]] [[(∞,1)Cat]] itself.
 
-This statement is made precise by the existence of the structure of a [[model category]] on [[sSet]], called the **classical model structure**  that is a [[presentable (infinity,1)-category|presentation]] for the [[(infinity,1)-category]] [[Top]], as well as the **Joyal model structure** which similarly is a presentation of the $(\infty,1)$-category $(\infty,1)Cat$.
+This statement is made precise by the existence of the structure of a [[model category]] on [[sSet]], called the **[[classical model structure on simplicial sets]]**  that is a [[presentable (infinity,1)-category|presentation]] for the [[(infinity,1)-category]] [[Top]], as well as the **Joyal model structure** which similarly is a presentation of the $(\infty,1)$-category $(\infty,1)Cat$.
 
 
 
 ## Classical Model Structure
 
-The classical [[model category|model structure]] -- or **Quillen model structure** $sSet_{Quillen}$ on [[sSet]] has the following distinguished classes of morphisms:
+The [[classical model structure on simplicial sets]], $sSet_{Quillen}$, has the following distinguished classes of morphisms:
 
 +-- {: .num_defn}
 ###### Definition
@@ -156,7 +156,7 @@ Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi
 
 ### Relation to the model structure on strict $\infty$-groupoids 
 
-> [[Urs Schreiber|Urs]] it would be nice to eventually have a discussion of the following
+> under construction
 
 Recall the [[model structure on strict omega-groupoids]] and the [[omega-nerve]] operation
 
@@ -165,12 +165,12 @@ $$
   \,.
 $$
 
->this ought to be a Quillen functor, but is it? is there a reference?
+> this ought to be a Quillen functor, but is it? 
 
 As a warmup, let $C, D$ be ordinary [[groupoid]]s and $N(C)$, $N(D)$ their ordinary [[nerve]]s. We'd like to show in detail that 
 
-+-- {: .num_theorem}
-###### Theorem
++-- {: .num_prop}
+###### Proposition
 
 A [[functor]] $F : C \to D$ is 
 
@@ -299,7 +299,7 @@ Dan Quillen's original proof in
 
 * {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, LNM 43, Springer, (1967) 
 
-is purely combinatorial (i.e. does not use topological spaces): he uses the theory of [[minimal Kan fibrations]], the fact that the latter are fiber bundles, as well as the fact that the [[classifying space]] of a [[simplicial group]] is a [[Kan complex]]. This proof has been rewritten several times in the literature: at the end of
+of the [[classical model structure on simplicial sets]] is purely combinatorial (i.e. does not use topological spaces): he uses the theory of [[minimal Kan fibrations]], the fact that the latter are fiber bundles, as well as the fact that the [[classifying space]] of a [[simplicial group]] is a [[Kan complex]]. This proof has been rewritten several times in the literature: at the end of
 
 * [[Israel Gelfand]], [[Yuri Manin]], _Methods of Homological Algebra_, Springer, 1996
 
@@ -336,5 +336,3 @@ As a [[categorical semantics]] for [[homotopy type theory]], the model structure
 
 * {#KapulkinLumnsdaineVoevodsky12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], ([arXiv:1203.2553](http://arxiv.org/abs/1203.2553))
 
-
-[[!redirects Quillen model structure on simplicial sets]]
