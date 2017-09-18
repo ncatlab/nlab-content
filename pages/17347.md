@@ -4599,7 +4599,7 @@ This curious construction turns out to have excellent formal properties: as the 
 
 Moreover, via [[Whitney sum]] of [[vector bundle]] the [[Thom spectrum]] naturally is a [[ring spectrum]], and under the Pontryagin-Thom collapse the [[Cartesian product]] of manifolds is compatible with this ring structure.
 
-**Literature.** ([Kochman 96, 1.5](#Kochman96), [Schwede 12, chapter I exaple 1.16](#Schwede12))
+**Literature.** ([Kochman 96, 1.5](#Kochman96), [Schwede 12, chapter I, example 1.16](#Schwede12))
 
 
 #### Bordism and Thom's theorem
