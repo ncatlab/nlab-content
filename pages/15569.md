@@ -107,11 +107,11 @@ where
 
 * $\mathbb{A}_{\mathbb{Z}} = \prod_p \mathbb{Z}_p$ is the [[product]] of all rings of [[p-adic integers]] -- the _[[ring of integral adeles]]_ (finite integral adeles);
 
-* $\mathbb{A}_{\mathbb{Q}} = \mathbb{Q}\otimes \mathbb{A}_{\mathbb{Z}} = \prod_p^{\prime} \mathbb{Q}_{p}$ is the [[restricted product]] of all rings of [[p-adic rational numbers]] -- the _[[ring of adeles]]_ ([ring of finite adeles]]).
+* $\mathbb{A}_{\mathbb{Q}} = \mathbb{Q}\otimes \mathbb{A}_{\mathbb{Z}} = \prod_p^{\prime} \mathbb{Q}_{p}$ is the [[restricted product]] of all rings of [[p-adic rational numbers]] -- the _[[ring of adeles]]_ ([[ring of finite adeles]]).
 
 For the case that $n = 1$ then the left part of this quotient is the _[[idele class group]]_, for higher $n$ this is an object in some nonabelian generalization of [[class field theory]].
 
-The striking observation that leads to the conjecture of the [[geometric Langlands correspondence]] is that  under the [[function field analogy]] this double quotient, as a [[stacky quotient]], is [[analogy|analogous]] to the [[moduli stack of vector bundles]] $Bun_{\Sigma}(GL_n)$ over a [[complex curve]] $\Sigma$ in the specific presentation that is given by the [[Weil uniformization theorem]]. Namely, this says that choosing any point $x\in \Sigma$ and a [[formal disk]] $x \in D \subset \Sigma$ around it, then 
+The striking observation that leads to the conjecture of the [[geometric Langlands correspondence]] is that  under the [[function field analogy]] this double quotient, as a [[stacky quotient]], is [[analogy|analogous]] to the [[moduli stack of vector bundles]] $Bun_{\Sigma}(GL_n)$ over a [[complex curve]] $\Sigma$ in the specific presentation that is given by the [[Weil uniformization theorem]]. Namely, this says that choosing any point $x\in \Sigma$ and a [[formal disk]] $x \in D \subset \Sigma$ around it, then the formal disk $D$ around $x$ together with the complement $\Sigma-\{x\}$ of the point
 
 $$
   \array{
@@ -138,10 +138,18 @@ $$
        & =
     \mathbb{O}_{\Sigma}[(z-x)^{-1}]  \;\backslash\; GL_n(\mathbb{C}((z-x))) \;/\; GL_n(\mathbb{C}[ [(z-x)] ])
   \end{aligned}
- \,.
+ \,,
 $$
 
-This is analogous to the [[group of ideles|idelic]] structure of the [[Langlands program]] because the [[function field analogy]] and the [[F1]]-geometry-analogy say that:
+expressing the [[groupoid]] ([[stack]]) of $GL_n$-[[principal bundles]] on $\Sigma$ as the groupoid of $GL_n$-valued transitions functions on the space of double intersections of the cover, which is $D-\{x\}$, subject to [[gauge transformations]] given by $GL_n$-valued functions on the cover itself, hence on $\Sigma-\{x\}$ and on $D$. But ([[holomorphic functions|holomorphic]]) 
+
+* functions on the formal disk $D$ at $x$ are, essentially by definition, [[formal power series]] in $(z-x)$;
+
+* functions on the punctured formal disk $D -\{x\}$ are formal power series which need not converge at the missing point, hence are [[Laurent series]] in $(z-x)$;
+
+* functions on the complement $\Sigma-\{x\}$ are, similarly, [[meromorphic functions]] on $\Sigma$ with poles allowed at $x$.
+
+The expression for $Bun_\Sigma(GL_n)$ obtained this way in the second line above is [[analogy|analogous]] to the [[group of ideles|idelic]] space appearing the [[Langlands program]]. This analogy proceeds via the [[function field analogy]] and the [[F1]]-geometry-analogy, which say that:
 
 * the [[ring of p-adic integers]]
 
@@ -232,7 +240,7 @@ Since the [[ring of adeles]] is the [[rationalization]] of the integral adeles $
 
 
 The statement of prop. \ref{ArithmeticFractureSquare} immediately lifts to flat finitely generated torsion free [[modules]], involving now the rationalization and the [[completion of modules]].
-This statement lifts to [[stable homotopy theory]], with [[spectra]] regarded as [[∞-modules]] over the [[sphere spectrum]] $\mathbb{S}$:
+It then naturally lifts futher to [[stable homotopy theory]], now with [[spectra]] regarded as [[∞-modules]] over the [[sphere spectrum]] $\mathbb{S}$:
 
 
 +-- {: .num_prop #SullivanArithmeticFracture}
@@ -276,7 +284,7 @@ Hence in order to systematize the implementation of such consideration in variou
 
 1. [[D-geometry]].
 
-This axiomatic we turn to now, recalling how it has implementations in [[higher differential geometry]] and [[higher complex analytic geometry]]. Then at the end [below](#ArithmeticCohesion) we discuss how the axioms also have implementation in a [[E-∞ arithmetic geometry]], where moreover they reproduce precisely the classical number-theoretic [[fracture squares]] and hence an "automorphic" incarnation of all [[moduli ∞-stacks]] of [[higher gauge fields]].
+Such an axiomatics we turn to now, recalling how it has implementations in [[higher differential geometry]] and [[higher complex analytic geometry]]. Then at the end [below](#ArithmeticCohesion) we discuss how the axioms also have implementation in a [[E-∞ arithmetic geometry]], where moreover they reproduce precisely the classical number-theoretic [[fracture squares]] and hence an "automorphic" incarnation of all [[moduli ∞-stacks]] of [[higher gauge fields]].
 
 
 ## **2)** Axiomatic twisted differential generalized cohomology
@@ -667,31 +675,38 @@ $\Pi_{inf}[\Sigma, \mathbf{B}G]$ and $[\Pi_{inf}\Sigma, \mathbf{B}{}^L G]$.
 
 =--
 
-
-
++-- {: .num_defn #relativecohesionmodalities}
+###### Definition
 
 Since by prop. \ref{TheDifferentialCohesion} $\mathbf{H}$ is cohesive also over $\mathbf{H}_{infinitesimal}$, this gives _relative_ modalities
 
 
 $$
   (\Pi^{rel} \dashv \flat^{rel} \dashv \sharp^{rel})
-  \colon
-  \mathbf{H} \to \mathbf{H}
-  \,.
+  \;\colon\;
+  \mathbf{H} \to \mathbf{H}_{infinitesimal} \to \mathbf{H}
 $$
+
+which we call the _relative [[shape modality]]_, _relative [[flat modality]]_ and _relative [[sharp modality]]_, respectively.
+
+=--
+
+See ([Schreiber 13, 3.10.10](#Schreiber13)).
 
 +-- {: .num_prop }
 ###### Proposition
 
-For $\Sigma\in ComplexAnalyticMfd \hookrightarrow ComplexAnalytic\infty Grpd$ then
+For $\Sigma\in ComplexAnalyticMfd \hookrightarrow ComplexAnalytic\infty Grpd$ then the relative flat modality, def. \ref{relativecohesionmodalities}, is given by forming the [[disjoint union]] 
 
 $$
   \flat^{rel} \Sigma \simeq \underset{x \in \Sigma}{\coprod} D_{x}
 $$
 
-is the [[disjoint union]] of all [[formal disks]] $D_x \hookrightarrow \Sigma$ around points $x \in \Sigma$.
+of all [[formal disks]] $D_x \hookrightarrow \Sigma$ around points $x \in \Sigma$.
 
 =--
+
+See ([Schreiber 13, 5.6.1.4](#Schreiber13)).
 
 
 +-- {: .num_remark }
@@ -707,7 +722,7 @@ In summary, the [[differential cohesion|differential cohesive]] structure is ref
    * [[flat modality]] $\flat$ gives underlying point sets and moduli for [[flat ∞-connections]]/[[local systems]];
 
 
-   * [[sharp modality]] $\sharp$ induces [[moduli stacks]] for non-flat [[∞-connections]];
+   * [[sharp modality]] $\sharp$ induces [[moduli stacks]] for non-flat [[∞-connections]] (via [[differential concretification]] of the naive mapping stacks);
 
 1. [[infinitesimal cohesion]]
 
@@ -779,9 +794,9 @@ which is homotopy cartesian.
 ## **3)** $E_\infty$-Arithmetic differential cohomology
  {#ArithmeticCohesion}
 
-Above we found general synthetic axioms for differential cohomology and realization of these axioms in [[higher differential geometry]] and [[higher complex analytic geometry]]. Both turned out to exhibit also _relative_ [[differential cohesion]] over "[[formal moduli problems]]".
+Above we found general synthetic axioms for differential cohomology and realization of these axioms in [[higher differential geometry]] and [[higher complex analytic geometry]]. Both turned out to exhibit also _relative_ [[differential cohesion]], def. \ref{relativecohesionmodalities}, over "[[formal moduli problems]]".
 
-While [[higher arithmetic geometry]] (i.e. [[E-∞ arithmetic geometry]]) is not [[cohesion|cohesive]] over the standard [[base (∞,1)-topos]] [[∞Grpd]], it does turn out to exhibit such a kind of relative [[differential cohesion]] in a way that the corresponding relative [[differential cohomology hexagon]] subsumes the traditional [[arithmetic fracture square]] of prop. \ref{ArithmeticFractureSquare}:
+While [[higher arithmetic geometry]] (i.e. [[E-∞ arithmetic geometry]]) is not [[cohesion|cohesive]] over the standard [[base (∞,1)-topos]] [[∞Grpd]], it does turn out to exhibit this kind of relative [[differential cohesion]] in a way that the corresponding relative [[differential cohomology hexagon]] subsumes the traditional [[arithmetic fracture square]] of prop. \ref{ArithmeticFractureSquare}:
 
 
 +-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
@@ -795,6 +810,7 @@ $$
   \array{
 
     \underoverset{
+
       A Mod_{\mathfrak{a}comp}^{op}}
     {A Mod_{\mathfrak{a}tors}^{op}}
     {\simeq}
