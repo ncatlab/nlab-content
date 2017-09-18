@@ -747,23 +747,6 @@ $$
 =--
 
 
-+-- {: .num_defn #CategoryOfSuperVectorSpaces}
-###### Definition
-
-The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
-
-* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
-
-* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
-
-$$
-  sVect_k
-    \;\coloneqq\;
-  (Vect_k^{\mathbb{Z}/2}, \otimes = \otimes_k, 1 = k, \tau = \tau^{super} )
-  \,.
-$$
-
-=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -794,6 +777,43 @@ $$
 It has been suggested (in [Kapranov 15](super+algebra#Kapranov15)) that this and other phenomena are evidence that in the wider context of [[homotopy theory]]/[[stable homotopy theory]] super-grading (and hence [[superalgebra]]) is to be regarded as but a shadow of grading in [[higher algebra]] over the [[sphere spectrum]]. Notice that the [[sphere spectrum]] is just the analog of the group of [[integers]] in [[stable homotopy theory]].
 
 =--
+
++-- {: .num_defn #CategoryOfSuperVectorSpaces}
+###### Definition
+
+The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
+
+* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
+
+* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
+
+$$
+  sVect_k
+    \;\coloneqq\;
+  (Vect_k^{\mathbb{Z}/2}, \otimes = \otimes_k, 1 = k, \tau = \tau^{super} )
+  \,.
+$$
+
+=--
+
+The following is evident but important
+
++-- {: .num_defn #InclusionOfVectorSpacesIntoSupervectorSpaces}
+###### Proposition
+
+The canonical inclusion
+
+$$
+  Vect_k \hookrightarrow sVect_k
+$$
+
+of the category of vector spaces (def. \ref{VectorSpaces}) into that of
+[[super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}) given by
+regarding a vector space as a super-vector space concentrated in even degree,
+extends to a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}).
+
+=--
+
 
 +-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
@@ -3597,7 +3617,7 @@ See ([this prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOver
 
 
 
-### Super Fiber functors and their automorphism supergroups
+## Super Fiber functors and their automorphism supergroups
  {#FiberFunctors}
 
 The first step in exhibiting a given [[tensor category]] $\mathcal{A}$ as being a [[category of representations]] is to exhibit its objects as having an [[forgetful functor|underlying]] representation space of sorts, and then an [[action]] represented on that space. Hence a necessary condition on $\mathcal{A}$ is that there exists a [[forgetful functor]]
@@ -3637,12 +3657,12 @@ from $\mathcal{A}$ to the [[category of modules|category of]] [[module objects]]
 
 1. an [[exact functor]] in both variables.
 
-
 If here $\mathcal{T} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}), then this is called a **super fiber functor**.
 
 =--
 
 ([Deligne 02, 3.1](#Deligne02))
+
 
 +-- {: .num_defn #TannakianCategory}
 ###### Definition
@@ -3658,6 +3678,8 @@ A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is called
    such that its category of representations is equivalent to $\mathcal{A}$ ([Deligne-Milne 12, def. 3.7](#DeligneMilne12)).
 
 =--
+
+
 
 
 Given a super fiber functor $\omega \colon \mathcal{A} \to sVect_k$ (def. \ref{FiberFunctor}) there is an evident notion of its [[automorphism group]]: a [[homomorphism]] between [[functors]] is a [[natural transformation]], and that between [[monoidal functors]] is a [[monoidal natural transformation]], according to def. \ref{LaxMonoidalFunctor}, and this is an [[automorphism]] of functors if it is a [[natural automorphism]]. We write
@@ -3939,10 +3961,10 @@ The non-trivial element in $\pi(sVect)$ acts on any super-vector space as the [[
 
 ([Deligne 90, 8.14 iv)](#Deligne90))
 
-+-- {: .prop #AutOfFibFuncIsImagUnderFibFuncOfFundamentalGroup}
++-- {: .num_prop #AutOfFibFuncIsImagUnderFibFuncOfFundamentalGroup}
 ###### Proposition
 
-For $\mathcal{A}$ a $k$-[[tensor category]] equipped with a [[super fiber functor]] $\omega \colon \mathcal{A} \to sVect$ (def. \ref{FiberFunctor}), then the automorphism supergroup of $\omega$ is the image under the super fiber functor $\omega$ of the fundamental group of $\mathcal{A}$, according to def. \ref{FundamentalSupergroup}:
+For $\mathcal{A}$ a $k$-[[tensor category]] equipped with a [[fiber functor|super fiber functor]] $\omega \colon \mathcal{A} \to sVect$ (def. \ref{FiberFunctor}), then the automorphism supergroup of $\omega$ is the image under the super fiber functor $\omega$ of the fundamental group of $\mathcal{A}$, according to def. \ref{FundamentalSupergroup}:
 
 $$
   \underline{Aut}(\omega)
@@ -3950,6 +3972,11 @@ $$
   \omega(\pi(\mathcal{A}))
   \,.
 $$
+
+Here on the right we are using that $\omega$ is a [[strong monoidal functor]] so that it preserves
+[[commutative monoids]] as well as [[comonoids]] by prop. \ref{MonoidsPreservedByLaxMonoidalFunctor},
+hence preserves [[commutative Hopf algebras]].
+
 
 =--
 
@@ -3971,7 +3998,7 @@ be a [[functor]] which is $k$-linear, [[strong monoidal functor|monoidal]] and [
 $$
   \pi(\mathcal{A}_2)
    \longrightarrow
-  \eta(\pi(\mathcal{A_1}))
+  \eta(\pi(\mathcal{A}_1))
 $$
 
 from the fundamental group of $\mathcal{A}_1$ (def. \ref{FundamentalSupergroup}) to the image under $\eta$ of the fundamental group of $\mathcal{A}_2$.
@@ -4356,8 +4383,6 @@ building on the general results on [[Tannakian categories]] in
 which are reviewed and further generalized in
 
 * {#DeligneMilne12} [[Pierre Deligne]] [[James Milne]], _Tannakian categories_, 2012 ([pdf](http://www.jmilne.org/math/xnotes/tc.pdf))
-
-
 
 Review is in
 
