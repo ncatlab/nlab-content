@@ -13,7 +13,7 @@ For example, evaluating the polynomial at $n=3$ confirms that there are 10 order
 
 The order polynomial of the 3-element poset
 $$P = \array{&&c&& \\ &\nearrow& &\nwarrow& \\ a &&&& b}$$
-is $n + 3 \binom{n}{2} + 3\binom{n}{3} = \frac{2n^3 + 3n^2 + n}{6}$.
+is $n + 3 \binom{n}{2} + 2\binom{n}{3} = \frac{2n^3 + 3n^2 + n}{6}$.
 Evaluating at $n=2$, we compute that there are 5 order-preserving functions from $P$ onto $\mathbf{2}$.
 
 ## Related concepts
