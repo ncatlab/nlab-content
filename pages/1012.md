@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -28,7 +38,7 @@ equals the [[identity morphism]] on $X$.
 
 * An amusing exercise is to show that if $f,g,h$ are morphisms such that $f\circ g,\; g\circ h$ are defined and are isomorphisms, then $f,g,h$ are all isomorphisms. 
 
-  * This is a special case of the **2-out-of-6-property** which is satisfied by the _weak equivalences_ in any [[homotopical category]].
+  * This is a special case of the **[[two-out-of-six property]]** which is satisfied by the _weak equivalences_ in any [[homotopical category]].
 
   * When this is applied to a [[homotopy category]] such as that of [[Top]] for the standard [[model structure on topological spaces]] it implies the construction of and formulae for certain homotopies.
 
