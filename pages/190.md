@@ -64,6 +64,11 @@ To be really careful, this version of $Cat$ is an [[anabicategory]].
 
 ## Properties
 
+
+### Cartesian-closed structure 
+
+The category Cat, at least in its traditional version comprising small categories only, is [[cartesian closed]]. (Cf. e.g. p. 98 of [[Categories Work|Mac Lane]], 2nd ed.,  or the remark below Definition 4.3.9 in [[Category Theory in Context|Riehl]].) This makes diagrams like the one expressing the [[comma category]] construction as a pullback defined. 
+
 ### Size issues
 
 As a $2$-category, $Cat$ could even include (some) [[large category|large categories]] without running into Russell's paradox.  More precisely, if $U$ is a [[Grothendieck universe]] such that $\Set$ is the category of all $U$-small sets, then you can define $\Cat$ to be the 2-category of all $U'$-small categories, where $U'$ is some Grothendieck universe containing $U$.  That way, you have $\Set \in \Cat$ without contradiction.  (This can be continued to [[higher category theory|higher categories]].)
