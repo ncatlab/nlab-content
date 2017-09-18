@@ -1,0 +1,7 @@
+
+
+## References
+
+* Wikipedia, _[Jacobson ring](https://en.wikipedia.org/wiki/Jacobson_ring)_
+
+[[!redirects Jacobson rings]]
