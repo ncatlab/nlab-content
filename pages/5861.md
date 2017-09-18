@@ -697,7 +697,7 @@ An object in the full sub-$\infty$-category
 
 For $X\in \mathbf{H}_{th}$ we say that
 
-* $\Im$ is the **[[infinitesimal path ∞-groupoid]]**
+* $\Im(X)$ is the **[[infinitesimal path ∞-groupoid]]**
   of $X$;
 
 
