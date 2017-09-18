@@ -124,12 +124,12 @@ $$\frac{a:A\; t:B(a)\to W}{sup(a,t):W}$$
 (3) $W$-elimination rule
 $$\frac{\array{w:W\vdash C(w):Type\\
 x:A, u:B(x)\to W, v:(\Pi y:B(x))C(u(y))\vdash\\
-c(x,y,v):C(sup(x,y))}}{w:W\vdash wrec(w,c):C(w)}$$
+c(x,u,v):C(sup(x,u))}}{w:W\vdash wrec(w,c):C(w)}$$
 
 (4) $W$-computation rule
 $$\frac{\array{w:W\vdash C(w):Type\\
 x:A, u:B(x)\to W, v:(\Pi y:B(x))C(u(y))\vdash\\
-c(x,y,v):C(sup(x,y))}}{\array{
+c(x,u,v):C(sup(x,u))}}{\array{
 x:A, u:B(x)\to W\vdash wrec(sup(x,u),c)=\\
 c(x,u,\lambda y.wrec(u(y),c)):C(sup(x,u))}}$$
 
