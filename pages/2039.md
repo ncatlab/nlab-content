@@ -29,29 +29,29 @@ For more technical details see there _[equivariant cohomology -- Bredon equivari
 ## Definition
  {#Definition}
 
-Let $G$ be a [[compact Lie group]], write $orb_G$ for its [[orbit category]] and write $PSh_\infty(Orb_G)$ for the [[(∞,1)-category of (∞,1)-presheaves]] over $Orb_G$. By [[Elmendorf's theorem]] this is [[equivalence of (∞,1)-categories|equivalent]] to the [[homotopy theory]] of [[topological G-spaces]] with weak equivalences the $H$-[[fixed point]]-wise [[weak homotopy equivalences]] for all closed subgroups $H$ ("the [[equivariant homotopy theory]]"):
+Let $G$ be a [[compact Lie group]], write $Orb_G$ for its [[orbit category]] and write $PSh_\infty(Orb_G)$ for the [[(∞,1)-category of (∞,1)-presheaves]] over $Orb_G$. By [[Elmendorf's theorem]] this is [[equivalence of (∞,1)-categories|equivalent]] to the [[homotopy theory]] of [[topological G-spaces]] with weak equivalences the $H$-[[fixed point]]-wise [[weak homotopy equivalences]] for all closed subgroups $H$ ("the [[equivariant homotopy theory]]"):
 
 $$
-  \mathbf{H}^{orb_G^{op}} \coloneqq  L_{fpwe} G Top \simeq PSh_\infty(Orb_G)
+  \mathbf{H}^{Orb_G^{op}} \coloneqq  L_{fpwe} G Top \simeq PSh_\infty(Orb_G)
   \,.
 $$
 
-A [[spectrum object]] $E \in Stab(\mathbf{H}^{orb_G^{op}})$ in the [[(∞,1)-topos]] $\mathbf{H}^{orb_G^{op}}$ is what is called a [[spectrum with G-action]] or, for better or worse, a "[[naive G-spectrum]]".
+A [[spectrum object]] $E \in Stab(\mathbf{H}^{Orb_G^{op}})$ in the [[(∞,1)-topos]] $\mathbf{H}^{Orb_G^{op}}$ is what is called a [[spectrum with G-action]] or, for better or worse, a "[[naive G-spectrum]]".
 
-For $X$ a [[G-space]], then its [[cohomology]] in $\mathbf{H}^{orb_G^{op}}$ with [[coefficients]] in such $A$ might be called _generalized Bredon cohomology_ (in the "generalized" sense of [[generalized (Eilenberg-Steenrod) cohomology]]).
+For $X$ a [[G-space]], then its [[cohomology]] in $\mathbf{H}^{Orb_G^{op}}$ with [[coefficients]] in such $A$ might be called _generalized Bredon cohomology_ (in the "generalized" sense of [[generalized (Eilenberg-Steenrod) cohomology]]).
 
 Specifically for $n \in \mathbb{N}$ and $A \in Ab(Sh(Orb_G))$ an [[abelian sheaf]] then there is an [[Eilenberg-MacLane object]]
 
 $$
-  K(n,A) \in \mathbf{H}^{orb_G^{op}}
+  K(n,A) \in \mathbf{H}^{Orb_G^{op}}
 $$
 
 whose [[categorical homotopy groups in an (infinity,1)-topos|categorical homotopy groups]] are concentrated in degree $n$ on $A$.
 
-Then _ordinary Bredon cohomology_ (in the "ordinary" sense of [[ordinary cohomology]]) in degree $n$ with [[coefficients]] in $A$ is cohomology in $\mathbf{H}^{orb_G^{op}}$ with coefficients in $K(n,A)$:
+Then _ordinary Bredon cohomology_ (in the "ordinary" sense of [[ordinary cohomology]]) in degree $n$ with [[coefficients]] in $A$ is cohomology in $\mathbf{H}^{Orb_G^{op}}$ with coefficients in $K(n,A)$:
 
 $$
-  H_G^n(X,A) \simeq \pi_0 \mathbf{H}^{orb_G^{op}}(X,A)
+  H_G^n(X,A) \simeq \pi_0 \mathbf{H}^{Orb_G^{op}}(X,A)
 $$
 
 (see the general discussion at _[[cohomology]]_).
