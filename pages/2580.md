@@ -418,9 +418,12 @@ Modern accounts include
 
 * {#Hoermander90} [[Lars Hörmander]], _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
-* M. Kunzinger, R. Steinbauer, _Foundations of a nonlinear distributional geometry_, Acta Appl. Math. __71__, 179-206 (2002)
+* Walter Rudin, chapter 6 of _Functional analysis_, McGraw-Hill, 1991
 
 * M. Grosser, E. Farkas, M. Kunzinger, R. Steinbauer, _On the foundations of nonlinear generalized functions I, II_, Mem. Amer. Math. Soc. __153__ (2001)
+
+
+* M. Kunzinger, R. Steinbauer, _Foundations of a nonlinear distributional geometry_, Acta Appl. Math. __71__, 179-206 (2002)
 
 Lecture notes include
 
@@ -430,7 +433,7 @@ Applications of distributions in [[physics]] are discussed in
 
 * V. S. Vladimirov, _Generalized functions in mathematical physics_. Moskva, Nauka 1980, Mir 1979; _Equations of mathematical physics_, Mir 1984
 
-* N. N. Bogolyubov, A. A. Logunov, I.T. Todorov, _Introduction to axiomatic quantum field theory_, Benjamin  (1975)
+* [[Nikolay Bogolyubov]], A. A. Logunov, I.T. Todorov, _Introduction to axiomatic quantum field theory_, Benjamin  (1975)
 
 Application of distributions in [[perturbative quantum field theory]] is discussed in
 
