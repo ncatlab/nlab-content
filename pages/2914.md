@@ -155,6 +155,39 @@ This means that this correct hom-space $C/X(a,b) \simeq (C/X)^\circ(a,b) \in sSe
 
 =--
 
+## Quillen adjunctions between slice categories
+
++-- {: .num_prop #AdjunctionSliceCat}
+###### Proposition
+
+Given an adjunction $L\dashv R$ with $L\colon A\to B$ and $R\colon B\to A$,
+the following compositions define two Quillen ajdunctions between associated slice categories.
+If $X\in A$, then
+$$L:A/X\leftrightarrows B/L:RX$$
+is an adjunction,
+where is the composition $R\colon B/LX\to A/RLX\to A/X$, the second arrow is the base change functor along the unit $X\to RLX$.
+If $Y\in B$, then
+$$L:A/RY\leftrightarrows B/Y:R$$
+is an adjunction,
+where $L\colon A/RY\to B/LRY\to B/Y$.
+The first adjunction is a Quillen equivalence if $X$ is cofibrant and $LX$ is fibrant.
+The second adjunction is a Quillen equivalence if $Y$ is fibrant.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+These adjunctions are Quillen adjunctions because their left (respectively right) adjoints
+are left (respectively right) Quillen functors: in the model structures on
+slice categories (co)fibrations and weak equivalences are created by the forgetful functor to~$A$ or~$B$,
+see Hirschhorn's note ([Hirschhorn 05](#Hirschhorn05)).
+An object in $A/X$ given by an arrow $Z\to X$ is cofibrant if and only if $Z$ is cofibrant and fibrant if and only if $Z\to X$ is a fibration.
+Quillen's criterion for Quillen equivalences now yields the statements about equivalences.
+
+=--
+
 ## Examples
 
 * the [[classical model structure on pointed topological spaces]] is the model structure on the undercategory under the point of the [[classical model structure on topological spaces]].
