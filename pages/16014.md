@@ -83,6 +83,7 @@ There are many [[modal operators]] in such contexts which are all modeled by (id
 
 Therefore it makes sense to ask which _additional_ axioms on a modal operator make it an accurate formalization of the informal concepts of necessity and possibility.  The answer to this may depend on context and intention (after all one is trying to find a precise formulation of an a priori informal idea).
 
+
 ## Possible worlds via first-order logic and type theory
  {#InFirstOrderLogicAndTypeTheory}
 
@@ -203,6 +204,86 @@ If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it e
 
 *  $\underset{\omega}{\Box} p$ is true/inhabited at $w\in W$ iff it is true/inhabited at all $\tilde w$ in the same equivalence classes of $w$.
 
+### Examples
+ {#Examples}
+
+Historically, one informal example whose formalization in [[modal logic]] has been controversially discussed (see for instance [IEP "Rudolf Carnap: Modal Logic"](#IEPCarnapModal)) is the pair of informal assertions
+
+1. "9 is necessarily greater than 7."
+
+1. "The number of planets in the solar system is 9."
+
+(**Remark.** It maybe adds to the joy of modal logic to notice that the second sentence, which was regarded as true in our world at the time the above example was brought up, actually [no longer is](http://www.universetoday.com/15568/how-many-planets-are-in-the-solar-system/). Of course this only highlights  that indeed this statement is not to be expected to be "necessarily true" in any sense.)
+
+The issue with this example is that if one does not fix a decent formalization of these statements, then naively they seem to imply as correct the statement "The number of planets in the solar system is necessarily greater than 7.", which however sounds like it ought to be wrong.
+
+We now formalize and then analyze this example with the [above](#InFirstOrderLogicAndTypeTheory) prescription.
+
+So let $W$ be any [[type]], to be thought of as the type of [[possible worlds]]. Write 
+
+$$
+  w\colon W \vdash \mathbb{N}(w) \colon Type
+$$
+
+for the $W$-dependent type that is constant on the ordinary [[type of natural numbers]], i.e.$\mathbb{N}(w) = \mathbb{N}$ for all $w\colon W$.
+
+The terms of $\mathbb{N}$, i.e. the [[natural numbers]], canonically extend to $W$-dependent terms of this dependent type
+
+$$
+  w\colon W \vdash 9 \colon \mathbb{N}(w) 
+$$
+
+namely to the constant terms, which take the same value (here: 9) for all $w \colon W$.
+
+In contrast to this, assume now that $W$ is such there is at least one non-[[constant function]] $W \to \mathbb{N}$. In fact, in the spirit of the informal problem at hand, we require a surjective function.
+This gives a non-constant term of the constantly $W$-dependent type of natural numbers, which we may just as well call
+
+$$
+  w \colon W \vdash NumberOfPlanetsInSolarSystem(w) \colon \mathbb{N}(w)
+  \,.
+$$
+
+That is the formalization of the above example we consider, and it should be evident enough. Now we may step back and see what the [above formalization](#InFirstOrderLogicAndTypeTheory) produce from this.
+
+So consider the $W$-dependent [[identity type]]
+
+$$
+  w \colon W \vdash (9 = NumberOfPlanetsInTheSolarSystem)(w) \colon Type
+  \,.
+$$
+
+By the assumption that $NumberOfPlanetsInTheSolarSystem(w)$ is not constant in $W$ it follows that the [[dependent product]] over $W$ of that dependent identity type is the [[empty type]], and so the same is true for $\Box_W$ applied to it:
+
+* $[\Box_W (9 = NumberOfPlanetsInTheSolarSystem)]$ is [[false]].
+
+However, if we assume that there is one $w$ for which indeed $NumberOfPlanetsInTheSolarSystem(w)$ takes the value 9, then the [[dependent sum]] over the dependent identity type contains that coincidence as a term, and so $\lozenge_W$ of our dependent identity type is [[inhabited type|inhabited]]. Hence
+
+* $[\lozenge_W (9 = NumberOfPlanetsInTheSolarSystem)]$ is [[true]].
+
+In English words, these formal consequences are to be pronounced as:
+
+1. "It is false that it is necessary that the number of planets in the solar system is 9."
+
+1. "It is true that it is possible that the number of planets in the solar system is 9."
+
+Which is just as it should be.
+
+Similarly, the $W$-dependent type
+
+$$
+  w \colon W \vdash (NumberOfPlanetsInTheSolarSystem \gt 7)(w) \colon \mathbb{N}(w)
+$$
+
+is only going to be [[inhabited type|inhabited]] if indeed the value $NumberOfPlanetsInTheSolarSystem(w)$ is greater than 7 for all $w\colon W$. With our formalization assumption above this is not the case, and so one finds that 
+
+* $[\Box_W (NumberOfPlanetsInTheSolarSystem \gt 7)]$ is [[false]].
+
+hence 
+
+* "It is false that it is necessary that the number of planets in the solar system is greater than 7."
+
+
+
 ## Related concepts
 
 * [[modal logic]], [[modal type theory]]
@@ -220,6 +301,7 @@ If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it e
 
 * {#Simpson} Alex K. Simpson, _The Proof Theory and Semantics of Intuitionistic Modal Logic_, Ph.D. Thesis, University of Edinburgh, 1994, [web](http://homepages.inf.ed.ac.uk/als/Research/thesis.pdf).
 
+* {#IEPCarnapModal} Internet Encyclopedia of Philosophy, _[Rudolf Carnap: Modal Logic](http://www.iep.utm.edu/cmlogic/)_
 
 [[!redirects necessity]]
 [[!redirects possibility]]
