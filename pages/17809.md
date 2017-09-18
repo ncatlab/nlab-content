@@ -246,7 +246,7 @@ One distinguishes the following further [[subgroups]] of the [[Lorentz group]] $
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #ConnectedComponentsOfLorentzGroup}
 ###### Proposition
 
 As a [[smooth manifold]], the [[Lorentz group]] $O(d-1,1)$ (def. \ref{LorentzGroup})
@@ -508,7 +508,7 @@ induce them:
 
 For $d \in \mathbb{N}$, the **[[spin group]]** $Spin(d-1,1)$ is the group of
 even graded elements of the Clifford algebra $Cl(\mathbb{R}^{d-1},1)$ (def. \ref{CliffordAlgebra})
-which are [[unitary operator|unitary]] with respect to $\overline{(-)}$ (def. \ref{BarConjugationOnCliffordAlgebra}):
+which are [[unitary operator|unitary]] with respect to $\overline{(-)}$ (def. \ref{CliffordAlgebra}):
 
 $$
   Spin(d-1,1)
@@ -756,7 +756,7 @@ $$
 
 The following proposition uses assumptions stronger than what we have in the application to Majorana spinors (compact Lie group, positive definite hermitian form) but it nevertheless helps to see the pattern.
 
-+-- {: .num_prop }
++-- {: .num_prop #Prop}
 ###### Proposition
 
 Let $V$ be a [[complex vector space|complex]] [[finite dimensional vector space]], $\langle -,-\rangle$ some [[positive definite bilinear form|positive definite]] [[hermitian form]] on $V$, def. \ref{HermitianForms}, let $G$ be a [[compact Lie group]], and $\rho \colon G \to U(V)$ a [[unitary representation]] of $G$ on $V$. Then $\rho$ carries a real structure or quaternionc structure $\phi$ on $\rho$ (def. \ref{RealStructureOnLinearRepresentation}) precisely if it carries a symmetric or anti-symmetric, respectively, non-degenerate complex-[[bilinear map]]
@@ -1243,7 +1243,7 @@ $$
 ### Charge conjugation matrix
  {#ChargeConjugationMatrix}
 
-+-- {: .num_prop #ChargeConjugationMatrix}
++-- {: .num_prop #ChargeConjugationMatrices}
 ###### Proposition
 
 Given the Clifford algebra representation of the form of prop. \ref{CliffordAlgebraRepresentation}, consider the equation
@@ -2674,7 +2674,7 @@ The _[[octonions]]_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[re
 
    1. $e_j e_i  = -e_k$
    
-   and all relations obtained by cyclic [[permutation]] of these hold.
+   and all relations obtained by cyclic [[permutation]] of the indices in these equations.
 
 
 > (graphics grabbed from [Baez 02](#Baez02))
@@ -2683,7 +2683,7 @@ The _[[octonions]]_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[re
 
 
 
-We define the following operations on these real algebras:
+One defines the following operations on these real algebras:
 
 +-- {: .num_defn #Conjugation}
 ###### Definition
@@ -2708,7 +2708,7 @@ $$
   \end{aligned}
 $$
 
-given on the generators generators of def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions}
+given on the generators of def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions}
 and def. \ref{TheOctonions}  by
 
 $$
@@ -2903,7 +2903,7 @@ It is immediate to check that:
 +-- {: .num_prop}
 ###### Proposition
 
-The real algebras of [[real numbers]], [[complex numbers]],  def. \ref{TheComplexNumbers}, [quaternions]] def. \ref{TheQuaternions} and 
+The real algebras of [[real numbers]], [[complex numbers]],  def. \ref{TheComplexNumbers},[[quaternions]] def. \ref{TheQuaternions} and 
 [[octonions]] def. \ref{TheOctonions} are [[alternative algebras]] (def. \ref{AlternativeAlgebra}).
 
 =--
@@ -2915,7 +2915,7 @@ Since the [[real numbers]], [[complex numbers]] and [[quaternions]] are [[associ
 their [[associator]] vanishes identically. It only remains to see that the associator of the 
 [[octonions]] is skew-symmetric. By linearity it is sufficient to check this on generators.
 So let $e_i \to e_j \to e_k$ be a circle or a cyclic permutation of an edge in the [[Fano plane]].
-Then by definition of the octonuion multiplication we have
+Then by definition of the octonion multiplication we have
 
 $$
   \begin{aligned}
@@ -3043,6 +3043,9 @@ Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop.
 
 ### Real spinors in dimensions 3, 4, 6 and 10
  {#InTermsOfNormedDivisionAlgebraInDimension3To10}
+
+We now discuss how [[real spin representations]] in certain dimensions are naturally induced from 
+linear algebra over the four real [[alternative algebras|alternative]] [[division algebras]].
 
 Throughout, let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
 
