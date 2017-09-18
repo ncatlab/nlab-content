@@ -20,6 +20,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 In [[phenomenology]] of [[cosmology]], the _Starobinsky model_ of [[cosmic inflation]] takes into account -- and takes as the very source of the [[inflaton]] field -- [[higher curvature corrections]] to the [[Einstein-Hilbert action]] of [[gravity]], notably the term $R^2$ (square of the [[Ricci curvature]]).
 
