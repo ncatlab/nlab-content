@@ -40,19 +40,22 @@ $$
 \coloneqq (a_{1} a_{2} + z_{2} a_{1} + z_{1} a_{2}) \oplus z_{1} z_{2},
 $$
 
-the [[involution]]
+and the [[involution]]
 
 $$
 (a \oplus z)^\ast \coloneqq a^{\ast} \oplus \overline{z}
 $$
 
-([[complex conjugation]] is taking place on the right), and the [[norm]]
+([[complex conjugation]] is taking place on the right). This really is a $C^\ast$-algebra. The [[norm]] can be characterised as
 
 $$
           {\Vert a \oplus z \Vert}_{A^{+}}
-\coloneqq {\Vert L_{a} + z \cdot \operatorname{Id}_{A} \Vert}_{\mathcal{B}(A)}
+= {\Vert L_{a} + z \cdot \operatorname{Id}_{A} \Vert}_{\mathcal{B}(A)}
 \coloneqq \sup_{b \in A, \Vert b \Vert_{A} \leq 1} \Vert a b + z b \Vert_{A}.
 $$
+
+if $A$ does not have a multiplicative unit. (Note that the operatornorm vanishes on $1_A\oplus -1_{\mathbb{C}}$ if $A$ does have a multiplicative unit). For $C^\ast$-algebras with a multiplicative unit one can show that the norm equals
+$$\Vert a\oplus z \Vert_{A^+} = \max\{\|a+z1_A\|,|z|\}$$
 
 =--
 
