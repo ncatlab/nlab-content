@@ -33,15 +33,20 @@ While every [[(∞,1)-sheaf]] [[(∞,1)-topos]] provides [[categorical semantics
 
 ## References
 
+
 A proposal for a definition, with an eye towards [[homotopy type theory]] and the [[relation between type theory and category theory]] is on the very last slide of 
 
-* [[Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/04induction.pdf))
+* {#Shulman12} [[Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/04induction.pdf))
 
 This proposal is [[predicative mathematics|predicative]], but could be made impredicative easily (to correspond closer to elementary 1-toposes rather than to types of 1-[[pretoposes]]) by adding a [[subobject classifier]] (i.e. a classifier for *all* subobjects, rather than merely the "classifiers for small subobjects" obtainable from object classifiers).
 
 Related discussion is in 
 
 * [[André Joyal]], _What is an elementary higher topos?_, talk at _[Reimagining The Foundations Of Algebraic Topology](https://www.msri.org/workshops/689)_ April 07, 2014 - April 11, 2014_ [web video](https://www.msri.org/workshops/689/schedules/18227) [PDF](https://www.msri.org/workshops/689/schedules/18227/documents/2046/assets/20468)
+
+See maybe also the comments at
+
+* [[Georg Hegel]], [book 2](Science+of+Logic#LehreVomWesen) of _[[Science of Logic]]_
 
 [[!redirects elementary (∞,1)-topos]]
 
