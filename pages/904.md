@@ -234,10 +234,55 @@ In the context of [[proper homotopy theory]] there are two related fundamental g
 ## Examples
  {#Examples}
 
-+-- {: .num_example}
++-- {: .num_example #EuclideanSpaceFundamentalGroup}
 ###### Example
+**(Euclidean space is [[simply connected topological space|simply connected]])**
 
-The fundamental group of the [[point]] is trivial: $\pi_1(\{*\}) = *$. 
+For $n \in \mathbb{N}$, let $\mathbb{R}^n$ be the $n$-dimensional
+[[Euclidean space]] with its [[metric topology]]. Then for every
+point $x \in \mathbb{R}^n$ the fundamental group is trivial:
+
+$$
+  \pi_1(\mathbb{R}^n, x) = 1
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let 
+
+$$
+  \gamma \;\colon\; [0,1] \longrightarrow \mathbb{R}^n
+$$
+
+be [[loop]] at $x$, hence a [[continuous function]] with $\gamma(0) = x$ and $\gamma(1) = x$. Using the [[real vector space]] structure on $\mathbb{R}^n$, we may define the function
+
+
+$$
+  \array{
+    [0,1] \times [0,1] &\overset{\eta}{\longrightarrow}& \mathbb{R}^n
+    \\
+    (t,s) &\mapsto& x + s (\gamma(t) - x)
+  }
+  \,.
+$$
+
+This is a [[continuous function]], since it is the composite of the continuous function $(id_{[0,1]} \times \gamma) \;\colon\; (t,s) \mapsto (\gamma(t),s)$ (which is continuous as the [[product topological space|product]] of two continuous functions) and the function $(v,s) \mapsto x + s ( v - x )$ (which is continuous since [[polynomials are continuous]]).
+
+Moreover, by construction we have
+
+$$
+  \eta(-,1) = \gamma(-)
+   \phantom{AAAA}
+  \eta(-,0) = const_x
+  \,.
+$$
+
+Therefore this is a [[homotopy]] from $\gamma$ to the constant loop at $x$.
+
 
 =--
 
