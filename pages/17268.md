@@ -1283,6 +1283,8 @@ Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that th
 
 =--
 
+## Properties
+
 ### Basic properties
 
 +-- {: .num_prop}
@@ -1377,6 +1379,18 @@ One direction is easy: if $K$ is a Kan complex, then axiom SM7 for [[simplicial 
 Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi_0 K^X$ and the hom-set $Ho (sSet) (X, K)$, and thus by the [[Yoneda lemma]], a morphism $f : Z \to W$ such that the induced morphism $\pi_0 K^W \to \pi_0 K^Z$ is a bijection for all Kan complexes $K$ is precisely a morphism that becomes an isomorphism in $Ho (sSet)$, i.e. a weak homotopy equivalence.
 
 =--
+
+### Properness
+ {#Properness}
+
+The Quillen model structure is both left and right [[proper model category|proper]].  Left properness is automatic since all objects are cofibrant.  Right properness follows from the following argument: it suffices to show that there is a functor $R$ which (1) preserves fibrations, (2) preserves pullbacks of fibrations, (3) preserves and reflects weak equivalences, and (4) lands in a category in which the pullback of a weak equivalence along a fibration is a weak equivalence.  For if so, we can apply $R$ to the pullback of a fibration along a weak equivalence to get another such pullback in the codomain of $R$, which is a weak equivalence, and hence the original pullback was also a weak equivalence.  Two such functors $R$ are
+
+* geometric realization $sSet \to Top$, where $Top$ denotes a sufficiently [[convenient category of topological spaces]] (e.g. the category of [[k-spaces]] suffices) and
+* $Ex^\infty : sSet \to Kan$, where $Kan$ is the category of [[Kan complexes]].
+
+This may be found, for instance, in II.8.6--7 of [Goerss-Jardine](model+structure+on+simplicial+sets#GoerssJardine).  Another proof may be found in [Moss](model+structure+on+simplicial+sets#Moss), and a different proof of properness may be found in [Cisinski, Prop. 2.1.5](model+structure+on+simplicial+sets#Cisinski06).
+
+
 
 ## Related concepts
 
