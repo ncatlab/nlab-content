@@ -289,7 +289,7 @@ $$
 As topological spaces, the [[interval]] with its two endpoints identified is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]:
 
 $$
-  [0,1]_{/(0 \sim 1)} \simeq_{homeo} S^1
+  [0,1]_{/(0 \sim 1)} \underset{homeo}{\simeq} S^1
   \,.
 $$
 
@@ -517,13 +517,25 @@ $$
 Any [[open ball]] or closed ball, hence any [[Cartesian space]] is homotopy equivalent to the point
 
 $$
-  \mathbb{R}^n \simeq_{homotopy} \ast
+  \mathbb{R}^n \underset{homotopy}{\simeq} \ast
   \,.
 $$
 
 
 
 =--
+
++-- {: .num_example}
+###### Example
+
+The following are three homotopy equivalences to the disk with two points removed:
+
+<img src="https://ncatlab.org/nlab/files/HomotopyEquivalentsToBiAnnulus.png" width="400">
+
+> graphics grabbed from [Hatcher](#Hatcher)
+
+=--
+
 
 
 
