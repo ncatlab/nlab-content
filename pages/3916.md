@@ -15,44 +15,112 @@
 
 ## Idea
 
-Given an [[embedding]] of [[manifold]]s $i : X \hookrightarrow Y$, the _Thom collapse map_ is a useful approximation to its would-be [[left inverse]].
+Given an [[embedding]] of [[manifolds]] $i : X \hookrightarrow Y$, the _Thom collapse map_ is a useful approximation to its would-be [[left inverse]]. It is used to define pushforward of [[cohomology]]-classes along $i$ ("[[Umkehr maps]]"). It also appears as the key step in [[Thom's theorem]].
 
 ## Definition
 
 
-### Traditional definition in components
+### Component definition in topological spaces
+ {#ComponentDefinitionInTopologicalSpaces}
 
-All [[topological space]]s in the following are taken to be [[compact space|compact]].
+All [[topological spaces]] in the following are taken to be [[compact space|compact]].
 
-Let $X$ and $Y$ be two [[manifold]]s and let 
+Consider $X$ and $Y$ two [[manifolds]] and 
 
 $$
-  i : X \hookrightarrow Y
+  i \colon X \hookrightarrow Y
 $$ 
 
-be an [[embedding]].  Write $N_i X$ for the [[normal bundle]] $i^* T Y/ T X$ of the immersion $i$ of $X$ and let $f : N_i X \to Y$ be any [[tubular neighbourhood]] of $i$. Finally write $Th(N_i X)$ for the [[Thom space]] of the normal bundle. 
+an [[embedding]].  
+
+Write 
+
+* $N_i X \coloneqq i^* T Y/ T X $ for the [[normal bundle]];
+
+* $Th(N_i X)$ for the [[Thom space]] of the normal bundle; 
+
+* $f \colon N_i X \longrightarrow Y$ for any choice of [[tubular neighbourhood]] of $i$.
 
 
-+-- {: .num_defn}
++-- {: .num_defn #CollapseMap}
 ###### Definition
 
 The **collapse map** (or the _Pontrjagin-Thom construction_) associated to $i$ and the choice of tubular neighbourhood $f$ is 
 
 $$
-  c_i : Y \to Y/(Y - f(N_i X)) \stackrel{\simeq}{\to}
-   Th(N_i X)
+  c_i 
+    \colon 
+  Y 
+    \to 
+  Y/(Y - f(N_i X)) 
+    \stackrel{\simeq}{\to}
+  Th(N_i X)
   \,,
 $$
 
-where the first morphism is the projection onto the [[quotient]] [[topological space]] and the second is the canonical [[homeomorphism]] to the [[Thom space]] of the [[normal bundle]].
+where the first morphism is the [[projection]] onto the [[quotient]] and the second is the canonical [[homeomorphism]] to the [[Thom space]] of the [[normal bundle]].
 
 =--
 
-Since every point of $N_i X$ is associated to a particular point of $X$, this map can be refined to a map
++-- {: .num_defn #RefinedCollapseMap}
+###### Remark
 
-$$ Y \to X_+ \wedge Th(N_i X) $$
+Since in the construction of def. \ref{CollapseMap} every point of $N_i X$ is associated to a particular point of $X$, the collapse map lifts to a map
 
-If $Y = S^n$ for some $n\in\mathbb{N}$, then this refined Thom collapse map induces a stable map $S \to \Sigma_+^\infty X \wedge \Sigma^{-n} Th(N_i X)$, where $S$ denotes the [[sphere spectrum]].  This stable map is the [[unit of an adjunction|unit]] which exhibits the [[suspension spectrum]] $\Sigma_+^\infty X$ as a [[dualizable object]] in the [[stable homotopy category]].  See [[n-duality]] and [[fixed point index]].
+$$ 
+  Y 
+    \longrightarrow 
+  X_+ \wedge Th(N_i X)
+$$
+
+from $Y$ to the [[smash product]] of the [[Thom space]] (canonically regarded as a [[pointed topological space]]) and the topological space $X$ with a base point adjoined.
+
+=--
+
++-- {: .num_example #ForEmbeddingsIntoAnNSphere}
+###### Example
+
+Of particular interest is the case where $Y$ in the above is a [[Cartesian space]] $\mathbb{R}^{dim X + k}$ or rather its [[one-point compactification]], the [[n-sphere|sphere]] $S^{dim X + k}$. By the [[Whitney embedding theorem]], for every $n \in \mathbb{N}$ there exists an $k \in \mathbb{N}$ such that every [[manifold]] $X$ of [[dimension]] $n$ has an [[embedding]] $X \hookrightarrow \mathbb{R}^{n+k} \to S^{n+k}$. In this case the collapse map of def. \ref{CollapseMap} has the form
+
+$$
+  S^{n+k} \longrightarrow Th(N_i X)
+  \,.
+$$
+
+Composing this further with the canonical map $N_i X \longrightarrow E O(k) \underset{O(k)}{\times} \mathbb{R}^{k}$ to the universal vector bundle of rank $k$ yields a map
+
+$$
+  S^{n+k} \longrightarrow M O(k)
+$$
+
+from to the $k$th space in the [[Thom spectrum]] $M O$. This hence defines an element in the [[homotopy group of a spectrum|homotopy group]] $\pi_{k}(M O)$ of the [[Thom spectrum]]. [[Thom's theorem]] says that all elements in thehomotopy groups of $M O$ arise this way, and that they retain precisely the information of the [[cobordism]] [[equivalence class]] of manifolds $X$. 
+ 
+In this case the refined Thom collapse map of def. \ref{RefinedCollapseMap} is of the form
+
+$$
+  S^{n+k}
+    \longrightarrow 
+  X_+ \wedge Th(N_i X)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+The refined map in example \ref{ForEmbeddingsIntoAnNSphere} lifts to a morphism of [[spectra]] 
+
+$$
+  \mathbb{S} \longrightarrow \Sigma_+^\infty X \wedge \Sigma^{-n-k} Th(N_i X)
+$$ 
+
+where $\mathbb{S}$ denotes the [[sphere spectrum]] and $Th(N_i X)$ now the [[Thom spectrum]] of the normal bundle.  
+
+This morphism is the [[unit of an adjunction]] which exhibits the [[suspension spectrum]] $\Sigma_+^\infty X$ as a [[dualizable object]] in the [[stable homotopy category]], with [[dual object]] $\Sigma^{-n-k} Th(N_i X)$.  See at _[[Atiyah duality]]_ and at _[[n-duality]]_.
+
+=--
 
 Equivalently, one may proceed as follows. For a framed manifold i.e. a manifold $M^n$ with a chosen trivialization of the normal bundle $N_i (M^n)$ in some $\mathbf{R}^{n+r}$ one has $T N_i(M^n)\cong \Sigma^r(M^n_+)$ where $M^n_+$ is the union of $M^n$ with a disjoint base point. Identify a sphere $S^{n+r}$ with a one-point compactification  $\mathbf{R}^{n+r}\cup \{\infty\}$. Then the Pontrjagin-Thom construction is the map $S^{n+r}\to Th(N_i X)$ obtained by collapsing the complement of the interior of the unit disc bundle $D(N_i M^n)$ to the point corresponding to $S(N_i M^n)$ and by mapping each point of $D(N_i M^n)$ to itself. Thus to a framed manifold $M^n$ one associates the composition
 
@@ -234,5 +302,4 @@ with an emphases on [[parameterized spectra]].
 
 [[!redirects Pontryagin-Thom collapse maps]]
 [[!redirects Pontrjagin-Thom collapse maps]]
-
 
