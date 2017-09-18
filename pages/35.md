@@ -38,6 +38,17 @@ See the section [2-Category of Lie groupoids](#2CatOfGrpds) below.
 A bit more general than a Lie groupoid is a [[diffeological groupoid]].
 
 
+### Examples for Lie groupoids
+
+* A Lie group $G$ is a Lie groupoid with $X_1=G$ and $X_0=pt$ a point. Composition of $X$ is provided by the multiplication of $G$.
+
+* A manifold $M$ is a Lie groupoid with $X_1=M$ and $X_0=M$. Source and target maps are identities and we only have identity arrows in this example.
+
+* Given a manifold $M$ and an open cover $\{U_i\}$, we can form a Lie groupoid with $X_1=\sqcup U_i\times_M U_j$ and $X_0=\sqcup U_i$. Then for an element $x_{ij}:=(x_i, x_j)\in U_i\times_M U_j \subset X_1$, $t(x_{ij})=x_i \in U_i$, $s(x_{ij})=x_j \in U_j$, and $x_{ij} \cdot x_{jk}= x_{ik}$. This is sometimes called the **Cech groupoid** or **covering groupoid**.
+
+* Given a Lie group $G$ (right) action  on a manifold $M$, then we may form an associated **action groupoid** (or sometimes called **transformation groupoid**) as follows: $X_1 = M \times G$ and $X_0=M$. For an element $(x, g) \in X_1$, we have $t(x, g) = x$, $s(x, g)=x\cdot g^{-1}$,  and $(x, g)\cdot (y, h) = (x, g\cdot h)$ (we must have $y=x\cdot g^{-1}$ for the multiplication to happen). 
+
+
 ### Terminology
 
 Originally Lie groupoids were called (by Ehresmann) _differentiable groupoids_ (and also one considered differentiable _categories_). Sometime in the 1980s there was a change of terminology to _Lie groupoid_ and [[differentiable stack]]s. (reference?)
