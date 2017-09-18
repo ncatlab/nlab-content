@@ -4,15 +4,13 @@ Residuals are "[[exponential object|exponential objects]] for a [[monoidal categ
 
 Recall the definition of an exponential object for a cartesian category:
 
-Let $A,C$ be two objects of a category. An _exponential object_ is an object $C^A$ with data $\mathit{ev},\varepsilon$ such that there is a one-to-one mapping between morphisms
+Let $A,C$ be two objects of the cartesian category. An _exponential object_ is an object $C^A$ with data $\mathit{ev},\varepsilon$ such that for every object $B$, there is a one-to-one mapping between morphisms
 
 $$ f : A \times B \to C $$
 
 and morphisms
 
-$$ \varepsilon[f] : B \to C^A $$
-
-(for every object $B$ in the cartesian category).
+$$ \varepsilon[f] : B \to C^A \; . $$
 
 The backwards direction is given by $\mathit{ev} : A \times C^A \to A$, namely $f = \mathit{ev} \circ (A \times \varepsilon[f])$. Going back and forth is also required to be the identity: for $g : B \to C^A$, we must have $g = \varepsilon[ev \circ (A \times g)]$.
 
