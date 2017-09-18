@@ -20,7 +20,7 @@ Given a geometric morphism $f : \mathcal{E} \to \mathcal{S}$, we can regard $\ma
 
 A [[geometric morphism]] $f : \mathcal{E} \to \mathcal{S}$ between [[topos]]es is called **bounded** if there exists an object  $B \in \mathcal{E}$ -- called a **bound** of $f$ -- such that for every $A \in \mathcal{E}$ the following equivalent conditions hold:
 
-* $A$ is a [[subquotient]] of an object of the form $(f^* I) \times B$ for some $I  \in S$: this means that there exists a diagram
+* $A$ is a [[subquotient]] of a subobject, $S$, of an object of the form $(f^* I) \times B$ for some $I  \in \mathcal{S}$: this means that there exists a diagram
 
   $$
     \array{
