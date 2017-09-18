@@ -262,6 +262,72 @@ be a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+h
 
 =--
 
++-- {: .num_example #CoendGivesQuotientByDiagonalGroupAction}
+###### Example
+
+Let $G$ be a [[topological group]]. Write $\mathbf{B}(G_+)$ for the pointed [[topologically enriched category]] that has a single object $\ast$, whose single [[hom-space]] is $G_+$ ($G$ with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)))
+
+$$
+  \mathbf{B}(G_+)(\ast,\ast) \coloneqq G_+
+$$
+
+and whose composition operation in the product operation $(-)\cdot(-)$ in $G$ under adjoining basepoints ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces))
+
+$$
+  G_+ \wedge G_+
+   \simeq
+  (G \times G)_+
+    \overset{((-)\cdot (-))_+}{\longrightarrow}
+   G_+
+  \,.
+$$
+
+Then a [[topologically enriched functor]]
+
+$$
+  (X,\rho_l) \;\colon\; \mathbf{B}(G_+) \longrightarrow Top^{\ast/}_{cg}
+$$
+
+is a pointed topological space $X \coloneqq F(\ast)$ equipped with a continuous function
+
+$$
+  \rho_l \;\colon\; G_+ \wedge X \longrightarrow X
+$$
+
+satisfying the [[action]] property. Hence this is equivalently a continuous and basepoint-preserving left [[action]] (non-linear [[representation]]) of $G$ on $X$.
+
+The [[opposite category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) $(\mathbf{B}(G_+))^{op}$ comes from the [[opposite group]]
+
+$$
+  (\mathbf{B}(G_+))^{op}
+  =
+  \mathbf{B}(G^{op}_+)
+  \,.
+$$
+
+(The canonical continuous isomorphism $G \simeq G^{op}$ induces a canonical euqivalence of topologically enriched categories $(\mathbf{B}(G_+))^{op} \simeq \mathbf{B}(G_+)$.) 
+
+So a topologically enriched functor
+
+$$
+  (Y,\rho_r) \;\colon\; (\mathbf{B}(G_+))^{op} \longrightarrow Top^{\ast}_{cg}
+$$
+
+is equivalently a basepoint preserving continuous _right_ action of $G$.
+
+Then the [[coend]] of two such functors (def. \ref{EndAndCoendInTopcgSmash}) is equivalently the canonical smash product of a right $G$-action with a left $G$-action, hence the [[quotient topological space|quotient]] of the plain smash product by the [[diagonal action]] of the group $G$:
+
+$$
+  \overset{\ast \in \mathbf{B}(G_+)}{\int}
+   (Y,\rho_r)(\ast) \,\wedge\, (X,\rho_l)(\ast)
+  \;\simeq\;
+  Y \wedge_G X
+  \,.
+$$
+
+
+=--
+
 +-- {: .num_example #NaturalTransformationsViaEnds}
 ###### Example
 
@@ -3394,7 +3460,7 @@ $$
   \,.
 $$
 
-The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra} and hence for any two symmetric spectra $A$ and $B$ this is
+The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By example \ref{CoendGivesQuotientByDiagonalGroupAction} and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the symmetric group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
 
 $$
   \begin{aligned}
@@ -3888,11 +3954,11 @@ From this, the second statement follows by the proof of prop. \ref{ModulesForDay
 
 Explicitly, the [[free spectra]] according to def. \ref{FreeStructuredSpectrum}, look as follows:
 
-For [[sequential spectra]]: $(F^{Seq}_n K)_q \simeq K \wedge S^{q-n}$;
+For [[sequential spectra]]: $(F^{Seq}_n K)_q \simeq S^{q-n} \wedge K$;
 
-for [[symmetric spectra]]: $(F^{Sym}_n K)_q \simeq \Sigma(q)_+ \wedge_{\Sigma(q-n)} K \wedge S^{q-n}$.
+for [[symmetric spectra]]: $(F^{Sym}_n K)_q \simeq \Sigma(q)_+ \wedge_{\Sigma(q-n)} S^{q-n} \wedge K$.
 
-for [[orthogonal spectra]]: $(F^{Orth}_n K)_q \simeq O(q)_+ \wedge_{O(q-n)} K \wedge S^{q-n}$.
+for [[orthogonal spectra]]: $(F^{Orth}_n K)_q \simeq O(q)_+ \wedge_{O(q-n)} \wedge S^{q-n} \wedge K$.
 
 In particular: 
 
@@ -3908,26 +3974,37 @@ In particular:
 +-- {: .proof}
 ###### Proof
 
-By working out the formula in item 2 of lemma \ref{ExplicitExpressionForFreeSpectra}. In the sequential case $(Dia = Seq)$ there exists a morphism $k_1 \otimes k_2 \to k_3$ only if $k_1 + k_2 = k_3$ and then there is a unique such. Hence here the colimit in the formula becomes a [[coproduct]] and we find
+With the formula in item 2 of lemma \ref{ExplicitExpressionForFreeSpectra} we have for the case of [[orthogonal spectra]]
 
 $$
   \begin{aligned}
-    (F^{Seq}_n K)(q)
-      & \simeq
-    \underset{e_1+e_2 = q}{\coprod} 
-    \underset{\simeq\left\{ \array{S^0 & if\, n = e_1 \\ \ast & otherwise}\right.}{\underbrace{Seq(n,e_1)}} \wedge \mathbb{S}_{dia}(e_2) \wedge K
+    (F_n^{Orth} K)(\mathbb{R}^q)
+    & \simeq
+    \overset{n_1 \in Orth}{\int}
+     \underset{= \left\{ \array{ O(q)_+ & if \, n_1+n = q \\ \ast & otherwise} \right.}{\underbrace{Orth(n_1 + n,q)}} 
+       \wedge 
+     S^{n_1} 
+       \wedge 
+     K
     \\
-     & \simeq
-      S^{q-n}\wedge K
+    & \simeq
+    \overset{n_1 = \ast \in \mathbf{B}(O(q-n))}{\int}
+    O(q)_+ \underset{O(q-n)}{\wedge} S^{q-n} \wedge K
   \end{aligned}
-  \,.
+  \,,
 $$
 
-In the symmetric case ($Dia = Sym$) the formula is similar, except that $S^0 = Seq(q,q)_+$ is replaced by $Sym(q,q)_+ = \Sigma(q)_+$ and the colimit goes over the automorphisms that fix $q-n$ elements, thereby producing the partial smash tensor shown in the statement. Analogously for the orthogonal case ($Dia = Orth$).
+where in the second line we used that the coend collapses to $n_1 = q-n$ ranging in the full subcategory 
+
+$$
+  \mathbf{B}(O(q-n)_+) \hookrightarrow Orth
+$$
+
+on the object $\mathbb{R}^{q-n}$ and then applied example \ref{CoendGivesQuotientByDiagonalGroupAction}. The case of symmetric spectra is verbatim the same, with the symmetric group replacing the orthogonal group, and the case of sequential spectra is again verbatim the same, with the orthogonal group replaced by the trivial group.
 
 =--
 
-One use of free spectra, important in the verification of the stable model structures [below](#ProofOfTheStableModelStructure) and in the dicussion of the stable equivalences [further below](#RelatingStableEquivalencesAndStableWeakHomotopyEquivalences), is that they serve to co-represent adjuncts of structure morphisms of spectra. To this end, first consider the following general existence statement.
+One use of free spectra is that they serve to co-represent adjuncts of structure morphisms of spectra. To this end, first consider the following general existence statement.
 
 +-- {: .num_lemma #CorepresentingOfAdjunctsOfStructureMapsExists}
 ###### Lemma
@@ -4119,21 +4196,15 @@ $$
 
 =--
 
-The following property of the maps from def. \ref{CorepresentationOfAdjunctsOfStructureMaps} to be or not to be stable weak homotopy equivalences will be the key technical fact that implies ([below](#RelatingStableEquivalencesAndStableWeakHomotopyEquivalences)) that stable equivalences of spectra are or are not the same as stable weak homotopy equivalences.
 
 +-- {: .num_lemma #AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}
 ###### Lemma
 
 The maps $\lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0$  in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are 
 
-1. stable equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}, for all four cases of spectra, ${Dia} \in \{Top^{\ast/}, Orth, Sym, Seq\}$;
-
-1. stable weak homotopy equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}, for sequential spectra, symmetric spectra and pre-excisive functors ${Dia} \in \{Top^{\ast/}, Orth, Seq\}$;
-
+1. [[stable weak homotopy equivalences]] for sequential spectra, symmetric spectra and pre-excisive functors, i.e. for ${Dia} \in \{Top^{\ast/}, Orth, Seq\}$;
 
 1. **not** stable weak homotopy equivalences for the case of symmetric spectra ${Dia} = {Sym}$.
-
-
 
 =--
 
@@ -4142,9 +4213,8 @@ The maps $\lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0$  in def. \re
 +-- {: .proof}
 ###### Proof
 
-The first statement is an immediate consequence of lemma \ref{IndeedCorepresentationOfAdjunctsOfStructureMaps}.
 
-The other two statements follow from inspection of the explicit form of the maps, via prop. \ref{ExplicitFormOfFreeSpectra}, in each case separately:
+This follows by inspection of the explicit form of the maps, via prop. \ref{ExplicitFormOfFreeSpectra}. We discuss each case separately:
 
 **sequential case**
 
@@ -4306,7 +4376,7 @@ $$
   \,,
 $$
 
-where we used the adjoint characterization ([here](Day+convolution#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) of the [[Day convolution]]. Since this is natural in $Z$, the [[Yoneda lemma]] implies the claim.
+where we used the adjoint characterization (corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}) of the [[Day convolution]]. Since this is natural in $Z$, the [[Yoneda lemma]] implies the claim.
 
 =--
 
@@ -4390,7 +4460,7 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
 
 
 
-#### The stable model structure on diagram spectra
+#### The stable model structure on orthogonal spectra
  {#MonoidalStableModelStructure}
 
 
@@ -4399,15 +4469,22 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
 
 For any of the four categories of spectra in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, we say that:
 
-1. an object $X$ is an **structured [[Omega-spectrum]]** if the [[sequential spectrum]] $seq^\ast X $ is an [[Omega spectrum]] in the sense of def. \ref{OmegaSpectrum};
+1. an object $X$ is a **structured [[Omega-spectrum]]** if the [[sequential spectrum]] $seq^\ast X $ is an [[Omega spectrum]] in the sense of def. \ref{OmegaSpectrum};
 
-1. a morphism $f$ is a _stable weak homotopy equivalence_ if the undrlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] in the sense of def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}.
+1. a morphism $f$ is a _stable weak homotopy equivalence_ if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] in the sense of def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}.
 
 =--
 
 ([MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
 
++-- {: .num_theorem}
+###### Theorem
 
+The category of [[orthogonal spectra]] carries a [[model category]] structure whose weak equivalences are the stable weak homotopy equivalences (def. \ref{StableEquivalencesForDiagramSpectra}) and whose fibrant objects are the Omega-spectra in the sense of def. \ref{StableEquivalencesForDiagramSpectra}.
+
+=--
+
+(...)
 
 
 ##### Monoidal model structure
