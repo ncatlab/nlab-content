@@ -21,7 +21,7 @@
 
 ### Idea 
 
-Under the [[Dold-Kan correspondence]] [[∞-groupoids]] with strict abelian group structure (modeled by [[Kan complexes]] that are [[simplicial object|simplicial]] abelian groups) are identified with non-negatively graded [[chain complexes]] of abelian groups
+Under the [[Dold-Kan correspondence]], [[∞-groupoids]] with strict abelian group structure (modeled by [[Kan complexes]] that are [[simplicial object|simplicial]] abelian groups) are identified with non-negatively graded [[chain complexes]] of abelian groups
 
 $$
   N_\bullet : SimpAb \stackrel{\simeq}{\to} Ch_+
