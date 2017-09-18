@@ -191,6 +191,9 @@ The dependent product plays a role in the definition of [[universe in a topos]].
 
   * [[dependent sum type]], [[dependent product type]]
 
+  * [[necessity]], [[possibility]], [[reader monad]], [[writer comonad]]
+
+
 
 ## References
 
