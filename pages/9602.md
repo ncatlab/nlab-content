@@ -40,4 +40,6 @@ On the [[homotopy theory]] of simplicial Lie algebras see also
 
 * [[Stewart Priddy]], _On the homotopy theory of simplicial Lie algebras_, ([pdf](http://www.ams.org/journals/proc/1970-025-03/S0002-9939-1970-0270371-9/S0002-9939-1970-0270371-9.pdf))
 
+* [[Graham Ellis]], _Homotopical aspects of Lie algebras_ Austral. Math. Soc. (Series A) 54 (1993), 393-419 ([web](http://anziamj.austms.org.au/JAMSA/V54/Part3/Ellis.html))
+
 [[!redirects model structures on simplicial Lie algebras]]
