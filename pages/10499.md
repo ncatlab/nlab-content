@@ -544,7 +544,7 @@ $$
   }
 $$
 
-where $[F,-]$ and $T \wedge (-) \colon Spectr \to Spectra$ are [[idempotent (∞,1)-monads]] and $[T,-]$, $[F,-]$ are idempotent $\infty$-comonad, the diagonals are [[homotopy fiber sequences]].
+where $[F,-]$ and $T \wedge (-) \colon Spectra \to Spectra$ are [[idempotent (∞,1)-monads]] and $[T,-]$, $[F,-]$ are idempotent $\infty$-comonad, the diagonals are [[homotopy fiber sequences]].
 
 =--
 
@@ -665,7 +665,7 @@ An example of this are [[synthetic differential ∞-groupoids]] regarded as cohe
 +-- {: .num_example #ConstructionOfTmf}
 ###### Example
 
-The construction of the [[tmf]]-spectrum -- the spectrum of [[global sections]] of the [[derived Deligne-Mumford stack]] of [[derived elliptic curves]] --  as described in ([Behrens 13](tmf#Behrens13)) proceeds by first applying the arithmetic fracture square of prop. \ref{#ArithmeticFractureSquare} to decompose the [[moduli stack of elliptic curves]] into rational and $p$-adic curves, and then in a second step in applying in turn the general fracture square of prop. \ref{GeneralFractureSquare} for [[Morava K-theory]] to the remaining $p$-adic pieces.
+The construction of the [[tmf]]-spectrum -- the spectrum of [[global sections]] of the [[derived Deligne-Mumford stack]] of [[derived elliptic curves]] --  as described in ([Behrens 13](tmf#Behrens13)) proceeds by first applying the arithmetic fracture square of prop. \ref{ArithmeticFractureSquare}, prop. \ref{SullivanArithmeticFracture} to decompose the [[moduli stack of elliptic curves]] into rational and $p$-adic curves, and then in a second step in applying in turn the general fracture square of prop. \ref{GeneralFractureSquare} for [[Morava K-theory]] to the remaining $p$-adic pieces.
 
 See at _[tmf -- Decomposition via arithmetic fracture squares](tmf#DecomopositionViaArithmeticSquares)_ for more on this.
 
