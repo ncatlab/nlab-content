@@ -192,11 +192,11 @@ By the fact that the space of [[tubular neighbourhood]]s (see there for details)
 
 ## References
 
-An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf#page=15) of
+* {#Milnor65} [[John Milnor]], section 7 of _Topology -- From the differentiable viewpoint_, 1965 ([pdf](http://teachingdm.unito.it/paginepersonali/sergio.console/Dispense/Milnor%20Topology%20from%20%23681EA.pdf))
 
-* [[Robin Koytcheff]], _A homotopy-theoretic view of Bott-Taubes integrals_ ([pdf slides](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf))
 
-More details are in 
+An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf#page=15) 
+
 
 * [[Ralph Cohen]], John Klein, _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
 
@@ -204,13 +204,13 @@ More details are in
 
 The general abstract formulation in [[stable homotopy theory]] is in sketched in section 9 of
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
- {#ABG10}
+* {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ 
 
 and is in section 10 of
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
- {#ABG11}
+* {#ABG11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
+ 
 
 with an emphases on [[parameterized spectra]].
 
