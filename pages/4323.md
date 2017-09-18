@@ -562,12 +562,18 @@ Lecture notes include
 
 * {#Ebert12} [[Johannes Ebert]], _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf))
 
+As [[symmetric spectra]]:
+
 * {#Schwede12} [[Stefan Schwede]], Example I.2.6 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
+
+As [[orthogonal spectra]] and as [[equivariant spectra]]
+
+* [[Stefan Schwede]], chapter V.4 of _[[Global homotopy theory]]_
 
 Textbook discussion with an eye towards the [[generalized (Eilenberg-Steenrod) cohomology]] of [[topological K-theory]] and [[cobordism cohomology theory]] is in 
 
-* [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
- {#Rudyak98}
+* {#Rudyak98} [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+ 
 
 A generalized notion of Thom spectra in terms of [[(∞,1)-module bundles]] is discussed in 
 
