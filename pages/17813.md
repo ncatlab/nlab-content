@@ -1191,13 +1191,13 @@ which we will use:
 Write
 
 $$
-  B^{p+1}\mathbb{R}
+  b^{p+1}\mathbb{R}
 $$
 
 for the **[[line Lie n-algebra|line Lie (p+1)-algebra]]**, given by
 
 $$
-  CE(B^{p+1}\mathbb{R})
+  CE(b^{p+1}\mathbb{R})
    \;=\;
   \left(
     \wedge^\bullet \underset{\text{single generator} \atop \text{in deg.} \, (p+2,even)}{\underbrace{\langle c_{p+2} \rangle}}
@@ -2263,6 +2263,7 @@ where we used that $X^{(\mathbf{330})}_{a_1 \cdots a_4}$ is already skew-symmetr
 =--
 
 
+$\,$
 
 ## Branes
  {#Branes}
@@ -2307,7 +2308,7 @@ correspond to the [[D-branes]] and the [[M5-brane]]. This we discuss in
 
 This yields a complete account of the brane species of [[string theory]]/[[M-theory]]
 separately. Next we discuss how these separate cocycles interact (by twisting each other)
-and then unify to single but [[non-abelian cohomology|non-abelian]] cocycles. This 
+and then unify to single but [[non-abelian cohomology|non-abelian]] cocycles. This
 is the topic of the next section _[Fields](#Fields)_.
 
 ### The super 0-branes and Super Minkowski spacetimes
@@ -2352,7 +2353,7 @@ $$
   \,,
 $$
 
-which is the [[coproduct]] of the atomic 2-cocycle over its 
+which is the [[coproduct]] of the atomic 2-cocycle over its
 bosonic part $\overset{\rightsquigarrow}{\mathbb{R}^{0 \vert 1}} \simeq \mathbb{R}^0$.
 
 
@@ -3528,33 +3529,50 @@ In the discussion [above](#Branes) we discovered all the [[p-brane]] species of 
 but each separately as a $b^{p+1}\mathbb{R}$-valued super $L_\infty$-cocycle on some
 [[extended super Minkowski spacetime]] classified by a previous cocycle.
 
-Here we discuss that all these cocycles unify into single cocycles. These no longer have [[ordinary cohomology]] 
-coefficients $b^{p+1}\mathbb{R}$, but coefficients in some [[non-abelian cohomology]] theory, namely in some
-[[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology]] theory. These general concepts of cohomology theory
-we briefly survey in 
+Here we discuss that all these cocycles unify into single cocycles.
+However, these unified cocycles are no longer in [[ordinary cohomology]], meaning that they
+no longer have
+[[coefficients]] in the simple [[line Lie-n algebras]] $b^{p+1}\mathbb{R}$ as in proposition \ref{HomotopyFibersOfLInfinityCocycles}.
+
+Instead they have coefficients in richer and in general non-abelian [[L-∞ algebras]].
+One says they ar [[cocycles]] in [[non-abelian cohomology]] theory.
+By a phenomenon that has been called the [[Whitehead principle of non-abelian cohomology]],
+this means more concretely that these unified cocycles are in a
+_[[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology]] theory_.
+Command of the general concept of this name is not strictly necessary for the
+analysis of the brane cocycles below, but a rough idea of its basic ingredients
+will make the meaning of the constructions and results very transparent. Therefore we
+start below with a lighning overview of the idea
 
 * _[Twisted generalizzed cohomology](#TwistedGeneralizedCohomology)_
 
-and the relation of $L_\infty$-algebras to [[rationalization]] of [[topological spaces]] in
+Since [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] is generally exhibited
+by classifying [[spaces]], specifically [[topological spaces]], to make use of these
+concepts we need a way to regard [[L-∞ algebras]] as certain spaces (or rather as [[homotopy types]] of certain spaces).
+This connection is provided by a theory called _[[rational homotopy theory]]_. Again, this is
+not strictly necessary for the derivation of the unified brane cocycles below, but it serves to
+greatly clarify the resulting structures. Therefore we next give a lightning survey of
 
 * _[Rational homotopy theory](#RationalHomotopyTheory)_.
 
+After these conceptual preliminaries, we then turn to the concrete example of the [[schreiber:brane bouquet]]
+established [above](#Branes)
+and ask for homotopy descent of consecutive ordinary cocycles on [[extended super Minkowski spacetimes]]
+to single but twisted generalized cocycles down on plain [[super Minkowski spacetimes]].
 
-
-For example the D-brane cocycles turn out to unify into a single cocycle with coefficients in 
-$\mathfrak{l}(KU/BU(1))$, the [[rationalization]] of [[twisted K-theory]]. This is the correct [[coefficients]]
-for the _[[background fields]]_ that the F1/Dp-branes couple to, namely the [[RR-fields]]
-twisted by the [[Kalb-Ramond field]]. This we discuss in 
+First we consider this for the [[D-branes]] and we derive that the unified F1/Dp-brane cocycles
+exist with coefficients the [[rationalization]] of [[twisted K-theory]]. This is the content of the section
 
 * _[RR-Fields](#RRFields)_.
+
 
 In direct analogy, we then discover the corresponding rationalized coefficients for the [[background fields]]
 for the [[M-branes]]. This turns out to be rationalized [[cohomotopy]] in degree 4. This we discuss in
 
 * _[M-Flux Fields](#MFluxFields)_
 
-More technically, what we show now is that 
-there is _homotopy [[descent]]_ of $p$-brane WZW terms
+More technically, what we show now is that
+there is _homotopy [[descent]]_ of $p$-brane cocycles
 from [[extended super Minkowski spacetime]]
 down to ordinary [[super Minkowski spacetime]]
 which yields cocycles in [[twisted cohomology]]
@@ -3622,10 +3640,10 @@ This behaves in many ways as [[ordinary cohomology]] does,  but is richer.
 One says that it is a _[[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]_.
 
 
-Hence by this story, [[D-brane charge]] should take values in [[twisted K-theory]]. 
+Hence by this story, [[D-brane charge]] should take values in [[twisted K-theory]].
 Therefore, by the analog of the [[Maxwell equations]] for [[RR-fields]], where [[D-brane charge]] plays
 the role of [[electric charge]] and [[magnetic charge]] in [[electromagnetism]]
-also the [[RR-fields]] must be [[cocycles]] in [[twisted K-theory]] 
+also the [[RR-fields]] must be [[cocycles]] in [[twisted K-theory]]
 ([Moore-Witten 00](https://ncatlab.org/nlab/show/anti+D-brane#MooreWitten99)).
 
 $\,$
@@ -3639,7 +3657,7 @@ $$
     \;\simeq\;
   \left\{
     X \;\longrightarrow\; B^n \mathbb{Z}
-  \right\}_{/homotopy}  
+  \right\}_{/homotopy}
 $$
 
 between [[cohomology]] classes of $X$  and [[homotopy classes]] of [[continuous maps]] from $X$ to the
@@ -3655,19 +3673,19 @@ $$
   \,.
 $$
 
-More generally, in [[algebraic topology]] any sequence of [[pointed topological spaces]] $E_n$ indexed by the [[natural numbers]] and 
-equipped with such [[weak homotopy equivalences]] 
+More generally, in [[algebraic topology]] any sequence of [[pointed topological spaces]] $E_n$ indexed by the [[natural numbers]] and
+equipped with such [[weak homotopy equivalences]]
 
 $$
   E_n \overset{\simeq}{\longrightarrow} \Omega_\ast \left(  E_{n+1} \right)
 $$
 
-is called a _[[spectrum]]_, or specifically an _[[Omega-spectrum]]_. 
+is called a _[[spectrum]]_, or specifically an _[[Omega-spectrum]]_.
 See at _[[geometry of physics -- stable homotopy types]]_ for more on this.
 
-Here for $X$ any [[pointed topological space]], 
-$\Omega X$ denotes the operation of constructing the [[based loop space|space of continuous loops]] 
-in $X$, starting and ending at the given basepoint. For later use we mention that a fancy-looking but 
+Here for $X$ any [[pointed topological space]],
+$\Omega X$ denotes the operation of constructing the [[based loop space|space of continuous loops]]
+in $X$, starting and ending at the given basepoint. For later use we mention that a fancy-looking but
 most useful alternative way to think of a such as loop is as a _[[homotopy]]_ from the basepoint to itself.
 Thought of this way, then the based loop space is equivalently the [[homotopy fiber product]] of the
 base point inclusion with itself, denoted as follows:
@@ -3699,7 +3717,7 @@ $$
 
 are the $E$-[[generalized cohomology]] classes of $X$ i degree $n$.
 
-One also says that the cohomology theory $E^\bullet(-)$ is 
+One also says that the cohomology theory $E^\bullet(-)$ is
 _[[generalized cohomology theory]] is [[Brown representability theorem|represented]]_ by the _[[spectrum]]_ $E$.
 
 
@@ -3717,9 +3735,9 @@ $$
   KU_{2n+1} \simeq U
 $$
 
-where 
+where
 
-1. $U$ denotes the [[stable unitary group]], 
+1. $U$ denotes the [[stable unitary group]],
 
 1. $B U$ denotes the [[classifying space]] for [[complex vector bundles]].
 
@@ -3754,18 +3772,20 @@ sourced by a string condensate.
 
 
 
-Such _[[twisted cohomology]]_ [[generalized cohomology]] is given by
-generalizing the above concept of [[Omega-spectra]] to strucures given by
+Such _[[twisted cohomology|twisted]]_ [[generalized cohomology]] is given by
+generalizing the above concept of [[Omega-spectra]] by allowing the base point $\ast$ to
+become a _classifying space of twists_. The result is called a _[[parameterized spectrum]]_.
+Such consists of:
 
 1. a classifying space of twists $B G$
 
-1. a _[[spectrum object]] in the [[slice category]] $Top_{/B G}$_, namely a sequence of spaces $E_n/G$ equipped with maps
+1. a _[[spectrum object]] in the [[slice category]] $Top_{/B G}$_, namely a sequence of spaces, denoted $E_n/G$, equipped with maps
 
    $$
      id \;\colon\; B G \to E_n/G \to B G
    $$
 
-   and weak equivalences from the $n$th space to the [[homotopy fiber product]] of space inclusion of the space of twists with itself:
+   and [[weak homotopy equivalences]] from the $n$th space to the [[homotopy fiber product]] of space inclusion of the space of twists with itself:
 
    $$
      E_n/G
@@ -3779,11 +3799,9 @@ generalizing the above concept of [[Omega-spectra]] to strucures given by
      }}
    $$
 
-The extremal classes of examples of such [[parameterized spectra]] are:
+To get a feeling for this definition, consider two extremal cases of [[parameterized spectra]]:
 
-1. an ordinary spectrum $E$
-
-   is a parameterized spectrum over the point;
+1. An ordinary spectrum $E$ is a parameterized spectrum over the point (i.e. no twists);
 
    $$
      \array{
@@ -3795,24 +3813,27 @@ The extremal classes of examples of such [[parameterized spectra]] are:
      }
    $$
 
-1. an ordinary space $X$
-
-   is identified with the zero-spectrum parameterized over $X$:
+1. An ordinary [[topological space]] $X$ is identified with the [[zero-spectrum]] parameterized over $X$, which is just
 
    $$
      \array{
        X
        \\
-       \downarrow
+       \downarrow^{\mathrlap{id}}
        \\
        X
      }
    $$
 
 
-Then
+Hence a general [[parameterized spectrum]] interpolates between these two extremes, it combines the
+[[non-abelian cohomology]] represented by [[topological spaces]] such as $B U$ with the abelian cohomology
+[[Brown representability theorem|represented]] by [[spectra]]:
 
-1. a _twist_ $\tau$ for $E$-cohomology of $X$ is a map
+More in detail, given a [[parameterized spectrum]] $E$ over $B G$, then
+we have the following elegant picture of twisted $E$-cohomology ([NSS 12, section 4.1](#NSS12)):
+
+1. A _twist_ $\tau$ for the $E$-cohomology of some [[topological space]] $X$ is a map
 
    $$
      \array{
@@ -3824,93 +3845,103 @@ Then
      }
    $$
 
-1. the $\tau$-twisted $E$-cohomology of $X$ is
+   from $X$ to the spectrum's classifying space of twists.
+
+1. The _$\tau$-twisted $E$-cohomology_ of $X$ in degree $n$ is the set of [[homotopy classes]]
+   of maps $X \overset{\phi}{\longrightarrow} E_n/G$  together with a [[homotopy]] $p_n \circ \phi \simeq \tau$:
 
    $$
     E^{n+\tau}(X)
       \;\coloneqq\;
-    \pi_0
     \left\{
      \array{
        X && \longrightarrow && E_n/G
        \\
-       & {}_{\mathllap{\tau}} \searrow && \swarrow_{\mathrlap{}}
+       & {}_{\mathllap{\tau}} \searrow && \swarrow_{\mathrlap{p_n}}
        \\
        && B G
      }
-     \right\}
+     \right\}_{/\text{homotopy}}
    $$
 
-There is a [[homotopy fiber sequence]] (in parameterized spectra)
+1. There is a [[homotopy fiber sequence]] (in parameterized spectra)
 
-$$
-  \array{
-    E &\longrightarrow& E/G
-    \\
-    && \downarrow
-    \\
-    && B G
-  }
-$$
+   $$
+     \array{
+       E &\longrightarrow& E/G
+       \\
+       && \downarrow
+       \\
+       && B G
+     }
+   $$
 
-and this equivalently exhibits $E/G$ as the [[homotopy quotient]] of an ordinary spectrum $E$ by a $G$-[[infinity-action]].
+   and this equivalently exhibits $E/G$ as the [[homotopy quotient]] of an ordinary spectrum $E$ by a
+[[infinity-action|coherent homotopy action]] of $G$.
 
-([Nikolaus-Schreiber-Stevenson 12, section 4.1](#NSS12))
 
-$\,$
-
-Assume that $B G$ is simply connected, i.e. of the form $B^2 G$.
-
-$\,$
-
-We now translate this situation to [[super L-∞ algebras]]
-
-via the central theorem of [[rational homotopy theory]].
+We now translate this situation from topological spaces to [[super L-∞ algebras]]
+via the central theorem of [[rational homotopy theory]], which we now recall.
 
 $\,$
 
 ### Rational homotopy theory
  {#RationalHomotopyTheory}
 
-$\,$
+Recall from the discussion [above](#SuperLInfinityCohomologyAndFDAs)
+that an [[L-∞ algebra]] $\mathfrak{g}$ may be thought of as a [[Lie algebra]] "up to [[coherence|coherent]] higher [[homotopy]]":
+with the unary bracket $[-]$ regarded as a differential $\partial \coloneqq [-]$, then for instance the trinary bracket is a
+[[chain homotopy]] up to which the [[Jacobi identity]] holds
 
-On every [[loop space]] $\Omega X$,
+$$
+  [x,[y,z]]
+    \underoverset{\simeq}{\partial [x,y,z]}{\longrightarrow}
+  [[x,y],z] \pm [y,[x,z]]
+  \,.
+$$
 
-the operation of concatenation of loops
+In direct analogy, for $X$ any [[pointed topological space]], then the
+[[based loop space]] $\Omega_\ast(X)$ (the [[topological space]] whose elements are
+continuous paths from the basepoint to itself) naturally is a [[group]] "up to [[coherence|coherent]] higher homotopy".
 
-gives the structure of a [[group]] up to [[coherence|coherent]] [[higher homotopy]]
+Namely 
 
-called a "grouplike [[A-∞ space]]"
+* the operation of concatenating two loops $\alpha,\beta \colon [0,1] \to X$ to a new loop
+  
+  $$
+    [0,1] \overset{2 \cdot(-)}{\longrightarrow} [0,2]
+     \overset{}{\longrightarrow}
+    X
+  $$
+  
+  gives it the structure of a [[semi-group]] whose [[associativity]] law holds up to [[homotopy]];
+  
+* the constant loop gives it the structure of a [[monoid]] up to coherent homotopy, called an _[[A-∞ space]]_
 
-or **[[∞-group]]** for short.
+* the reversal of loops
 
-$\,$
+  $$
+    [0,1] \overset{1-(-)}{\longrightarrow} [0,1] \overset{\alpha}{\longrightarrow} X
+  $$
 
-**[[May recognition theorem]]:**
-
-Conversely, for $G$ an [[∞-group]]
-
-there is an essentially unique [[connected topological space|connected]] space $B G$
-
-with $G \;\simeq\; \Omega B G$.
+  finally gives it [[inverses]] up to homotopy and makes it what is called a  a _grouplike [[A-∞ space]]_ or _[[∞-group]]_ for short.
 
 
-$\,$
 
-Every double loop space $\Omega \Omega X$
+Conversely, for $G$ any [[∞-group]]
+then there is an essentially unique [[connected topological space|connected]] space $B G$
+with $G \;\simeq\; \Omega B G$ (the _[[May recognition theorem]]_).
 
+
+
+Now in a similar manner, every double loop space $\Omega_\ast(\Omega_\ast(X))$
 becomes a "first order abelian" [[∞-group]]
-
-by exchanging loop directons
-
-called a _[[braided ∞-group]]_,
+by exchanging loop directons. This may be called a _[[braided ∞-group]]_,
 
 $\,$
 
-For $G$ a [[braided ∞-group]] then
-
+Hence for $G$ a [[braided ∞-group]] then
 $B G$ is itself an [[∞-group]]
-
 and so there exists an essentially unique [[simply connected topological space|simply connected]] space
 
 $$
