@@ -135,14 +135,14 @@ are both
 
 * [[Frobenius monoidal functors]].  
 
-The lax structure is given by the [[Alexander-Whitney map]]
+The lax structure is given by the [[Eilenberg-Zilber map]]
 
 $$
   \nabla_{A,B} : N(A) \otimes N(B) \to N(A \otimes B)
   \,.
 $$
 
-The oplax structure is given by the [[Eilenberg-Zilber map]]
+The oplax structure is given by the [[Alexander-Whitney map]]
 
 $$
   \Delta_{A,B} : N(A \otimes B ) \to N(A) \otimes N(B)
