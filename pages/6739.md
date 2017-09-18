@@ -105,9 +105,9 @@ For finite graphs, the subquotient relation is also antisymmetric (if $G$ and $H
 
 ## Minor-closed families 
 
-* The collection of forests is closed under the graph minor relation. 
+* The collection of [[forests]] is closed under the graph minor relation. 
 
-* The collection of planar graphs is closed under the graph minor relation. 
+* The collection of [[planar graphs]] is closed under the graph minor relation. 
 
 ## Graph minor theorem 
 
