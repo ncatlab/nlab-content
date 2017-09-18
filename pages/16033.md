@@ -1,0 +1,7 @@
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Johann_Gottlieb_Fichte)
+* [Stanford Encyclopedia of Philosophy entry](http://plato.stanford.edu/entries/johann-fichte/)
+
+###References
+
+* [[David W. Wood]], _["Mathesis of the Mind": A Study of Fichte's Wissenschaftslehre and Geometry](http://www.amazon.com/Mathesis-Mind-Wissenschaftslehreand-Geometry-Fichte-Studien-Supplementa/dp/9042034912)_
+* NDPR review of [[David W. Wood]], _"Mathesis of the Mind": A Study of Fichte's Wissenschaftslehre and Geometry_: [http://ndpr.nd.edu/news/32285-mathesis-of-the-mind-a-study-of-fichte-s-wissenschaftslehre-and-geometry/](http://ndpr.nd.edu/news/32285-mathesis-of-the-mind-a-study-of-fichte-s-wissenschaftslehre-and-geometry/)
