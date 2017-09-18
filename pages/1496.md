@@ -21,7 +21,7 @@ A source of simple Banach spaces comes from considering a [[Cartesian space]] $\
 
 $$ {\|(x_1,\ldots,x_n)\|_p} \coloneqq \root p {\sum_{i = 1}^n {|x_i|^p}} $$
 
-where $1 \leq p \leq \infty$ (this doesn't strictly make sense for $p = \infty$, but taking the limit as $p \to \infty$ we arrive at the formula ${\|(x_1,\ldots,x_n)\|_\infty} \coloneqq \max_i {|x_i|}$).
+where $1 \leq p \leq \infty$ (this doesn't strictly make sense for $p = \infty$, but taking the limit as $p \to \infty$ and reading $\mathbb{R}^\infty = \underset{\longrightarrow}{\lim}_n \mathbb{R}^n$ as the [[direct limit]] (as opposed to the [[inverse limit]]) we arrive at the formula ${\|(x_1,\ldots,x_n)\|_\infty} \coloneqq \max_i {|x_i|}$).
 
 However, the theory of these spaces is not much more complicated than that of finite-dimensional vector spaces because they all have the same underlying topology.  When we look at infinite-dimensional examples, however, things become trickier.  Common examples are [[Lebesgue spaces]], [[Hilbert spaces]], and [[sequence spaces]].
 
