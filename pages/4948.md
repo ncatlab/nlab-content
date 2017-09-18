@@ -12,6 +12,8 @@ Such examples can be founded axiomatically as kind of extensions of the simplex 
 
 * [[cyclic set]]
 
+* [[dihedral homology]]
+
 
 
 ## References
