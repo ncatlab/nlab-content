@@ -47,6 +47,9 @@ The following are [[semifree differential graded-commutative algebras]]:
 [[!redirects dgca]]
 [[!redirects dgca-s]]
 
+[[!redirects dgc-algebra]]
+[[!redirects dgc-algebras]]
+
 [[!redirects cdga]]
 [[!redirects cdga-s]]
 
