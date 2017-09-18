@@ -78,7 +78,6 @@ of degree $n$ from the unreduced [[cohomology group]] of $B$ to the [[reduced co
 ###### Proof 
 **(of Thom isomorphism via fiberwise Thom spaces)**
 
-> under construction
 
 Choose an [[orthogonal structure]] on $V$. Consider the _fiberwise_ [[cofiber]] 
 
@@ -106,14 +105,31 @@ Observe that this has the following properties
 
 1. $E \overset{p}{\to} B$ is an [[n-sphere]] [[fiber bundle]], hence in particular a [[Serre fibration]];
 
-1. $E \overset{p}{\to} B$ has a global [[section]] $B \overset{s}{\to} E$ (given over any point $b \in B$ by the class of any point in the fiber of $S(V) \to B$ over $b$);
+1. the [[Thom space]] $Th(V)\simeq E/B$ is the quotient of $E$ by the base space, because of the [[pasting law]] applied to the following pasting diagram of [[pushout]] squares
 
-1. the [[Thom space]] $Th(V)\simeq E/B$ is the quotient of $E$ by the base space, hence the [[reduced cohomology]] of the Thom space is ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedToUnreducedGeneralizedCohomology)) the [[relative cohomology]] of $E$ relative $B$
+   $$
+     \array{ 
+       S(V) &\longrightarrow& D(V)
+       \\
+       \downarrow &(po)& \downarrow
+       \\
+       B &\longrightarrow& D(V)/_B S(V)
+       \\
+       \downarrow &(po)& \downarrow
+       \\
+       \ast &\longrightarrow& Th(V)
+     }
+   $$
+
+1. hence the [[reduced cohomology]] of the Thom space is ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedToUnreducedGeneralizedCohomology)) the [[relative cohomology]] of $E$ relative $B$
 
    $$
      \tilde H^\bullet(Th(V);R) \simeq H^\bullet(E,B;R)
      \,.
    $$
+
+1. $E \overset{p}{\to} B$ has a global [[section]] $B \overset{s}{\to} E$ (given over any point $b \in B$ by the class of any point in the fiber of $S(V) \to B$ over $b$; or abstractly: induced via the above pushout by the commutation of the projections from $D(V)$ and from $S(V)$, respectively).
+
 
 In the following we write $H^\bullet(-)\coloneqq H^\bullet(-;R)$, for short.
 
