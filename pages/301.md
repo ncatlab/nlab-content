@@ -32,6 +32,9 @@ A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1
 
 [[!include homotopy n-types - table]]
 
+* Special properties of truth values:
+  * In [[synthetic topology]] with a [[dominance]], some truth values are [[open truth value|open]].
+
 
 [[!redirects truth value]]
 [[!redirects truth values]]
