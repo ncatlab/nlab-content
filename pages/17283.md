@@ -167,11 +167,69 @@ such that
 
    1. $c\circ \eta_L = \eta_R$; $c \circ \eta_R = \eta_L$;
 
-   1. the universally induced $\nabla_c \colon \Gamma \otimes_A \Gamma \longrightarrow \Gamma$ satifies
+   1. the morphisms $\alpha$ and $\beta$ induced via the [[coequalizer]] property of the [[tensor product]] from $(-) \cdot c(-)$ and $c(-)\cdot (-)$, respectively
 
-      $\nabla_c \circ \Psi = \epsilon \circ \eta_L = \epsilon \circ \eta_R$.
+      $$
+        \array{
+          \Gamma \otimes A \otimes \Gamma
+            &
+            \underoverset
+              {\longrightarrow}
+              {\longrightarrow}
+              {}
+            &
+          \Gamma \otimes \Gamma
+             &
+             \overset{coeq}{\longrightarrow}
+             &
+          \Gamma \otimes_A \Gamma
+           \\
+           &&
+           {}_{\mathllap{(-)\cdot c(-)}}\downarrow 
+           & 
+            \swarrow_{\mathrlap{\alpha}}
+           \\
+           && \Gamma
+        }
+      $$
+
+      and
+
+      $$
+        \array{
+          \Gamma \otimes A \otimes \Gamma
+            &
+            \underoverset
+              {\longrightarrow}
+              {\longrightarrow}
+              {}
+            &
+          \Gamma \otimes \Gamma
+             &
+             \overset{coeq}{\longrightarrow}
+             &
+          \Gamma \otimes_A \Gamma
+           \\
+           &&
+           {}_{\mathllap{c(-)\cdot (-)}}\downarrow 
+           & 
+            \swarrow_{\mathrlap{\beta}}
+           \\
+           && \Gamma
+        }
+      $$
+
+      satisfy 
+
+      $\alpha \circ \Psi = \eta_L \circ \epsilon $
+
+      and
+
+      $\beta \circ \Psi = \eta_R \circ \epsilon $.
    
 =--
+
+e.g. ([Ravenel 86, def. A1.1.1](#Ravenel86))
 
 ### Comodules
 
