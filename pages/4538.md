@@ -513,7 +513,7 @@ F_{*}(X) \to \Hom^{*}_{E^{*}}(E^{*}(X), F_{*}).
 $$
 =--
 
-(also e.g. [Schwede 12, prop. 6.20](#Schwede12))
+(This is a generalization of the [[Kronecker pairing]], see also e.g. [Schwede 12, prop. 6.20](#Schwede12)).
 
 A particularly important special case of these statements is when we have a [[topological space]], say $Y$, and a [[cohomology theory]], $E^{*}(-)$. Then we define a new homology theory $F_{*}(-)$ by $F_{*}(X) = E_{*}(X \wedge Y)$ and a new cohomology theory $G^{*}(-)$ by $G^{*}(X) = E^{*}(X \wedge Y)$. These are representable, the homology theory by $Y \wedge E$ and the cohomology theory by the function spectrum $F(Y,E)$. Putting these into the statements of the universal coefficient theorem, we obtain similar statements for the [[Künneth theorem]].
 
