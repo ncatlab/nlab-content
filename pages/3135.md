@@ -109,12 +109,14 @@ is surjective. Hence now the statement follows by induction over $k-n$.
 
 ### In infinite dimension
 
+A good discussion about the various topologies one might place on $U(\mathcal{H})$ and how they all agree and make $U(\mathcal{H})$ a [[Polish space|Polish]] group is in ([Espinoza-Uribe](#EspinozaUribe)).
+
 +-- {: .num_prop}
 ###### Proposition
 
 For $\mathcal{H}$ a [[Hilbert space]], which can be either finite or infinite dimensional, the unitary group $U(\mathcal{H})$ and the [[general linear group]] $GL(\mathcal{H})$, regarded as [[topological group]]s, have the same [[homotopy type]]. 
 
-More specifically, $U(\mathcal{H})$ is a [[maximal compact subgroup]] of $GL(\mathcal{H})$.
+Additionally, $U(\mathcal{H})$ is a [[maximal compact subgroup]] of $GL(\mathcal{H})$ for finite-dimensional $\mathcal{H}$.
 
 =--
 
@@ -130,11 +132,11 @@ By the [[Gram-Schmidt process]].
 ###### Theorem
 **(Kuiper's theorem)**
 
-For a separable infinite-dimensional complex [[Hilbert space]] $\mathcal{H}$, the unitary group $U(\mathcal{H})$ is [[contractible]].
+For a separable infinite-dimensional complex [[Hilbert space]] $\mathcal{H}$, the unitary group $U(\mathcal{H})$ is [[contractible]] in the [[norm topology]].
 
 =--
 
-See also [[Kuiper's theorem]].
+See also [[Kuiper's theorem]]. Note that $U(\mathcal{H})$ is also contractible in the [[strong operator topology]] (due to Dixmier and Douady).
 
 +-- {: .num_remark}
 ###### Remark
@@ -288,6 +290,12 @@ This implies the claim.
 * The [[Lie algebra]] is the [[unitary Lie algebra]].
 
 * [[unitary representation]]
+
+
+## References
+
+* {#EspinozaUribe} Jesus Espinoza, Bernardo Uribe, _Topological properties of the unitary group_, JP Journal of Geometry and Topology
+**16** (2014) Issue 1, pp 45-55. [journal](http://www.pphmj.com/abstract/8730.htm), arXiv:[1407.1869](https://arxiv.org/abs/1407.1869v1)
 
 [[!redirects unitary group]]
 [[!redirects unitary groups]]
