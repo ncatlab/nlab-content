@@ -2618,7 +2618,7 @@ Chopping that off by forming kernel and cokernel yields the claim for positive $
 ###### Proposition
 **(Milnor exact sequence for generalized cohomology)**
 
-Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longleftarrow}{\lim}_n X_n$ and let $\tilde E^\bullet$ an [additive](#WedgeAxiom) [[reduced cohomology theory]], def. \ref{ReducedGeneralizedCohomology}.
+Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longrightarrow}{\lim}_n X_n$ and let $\tilde E^\bullet$ an [additive](#WedgeAxiom) [[reduced cohomology theory]], def. \ref{ReducedGeneralizedCohomology}.
 
 Then the canonical morphisms make a [[short exact sequence]]
 
