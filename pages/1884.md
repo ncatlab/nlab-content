@@ -885,25 +885,28 @@ there is a [[long exact sequence]] of [[reduced K-theory]] groups of the form
 $$
   \cdots
     \longrightarrow
-  \tilde K_{\mathbb{C}}(\Sigma X/A)
+  \tilde K_{\mathbb{C}}(\Sigma (X/A))
     \longrightarrow
   \tilde K_{\mathbb{C}}(\Sigma X)
     \longrightarrow
-  tilde K_{\mathbb{C}}( \Sigma A )
+  \tilde K_{\mathbb{C}}( \Sigma A )
     \longrightarrow
   \tilde K_{\mathbb{C}}(X/A)
    \longrightarrow
   \tilde K_{\mathbb{C}}(X)
     \longrightarrow
   \tilde K_{\mathbb{C}}(A)
+  \,,
 $$
+
+where $\Sigma(-)$ denotes [[suspension]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The sequence is induced by functoriality from the long [[cofiber sequence]]
+The sequence is induced by functoriality (remark \ref{FunctorialityOfKGroup}) from the long [[cofiber sequence]]
 
 $$
   A
@@ -1306,7 +1309,7 @@ Early lecture notes on topological K-theory in a general context of [[stable hom
 
 Textbook accounts on topological K-theory include
 
-* [[M. F. Atiyah]], _K-theory_, Benjamin New-York (1967)
+* {#Atiyah67} [[M. F. Atiyah]], _K-theory_, Benjamin New-York, 1967, ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahk.pdf))
 
 * {#Karoubi} [[Max Karoubi]], _K-theory: an introduction_, Grundlehren der Math. Wissen. 226 Springer 1978, Reprinted in Classics in Mathematics (2008)
 
