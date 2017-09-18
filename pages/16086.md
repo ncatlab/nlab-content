@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _frame field_ is a [[section]] of a [[frame bundle]] (of a [[manifold]]), hence a collection of [[vector fields]] that form a [[basis of a vector space|basis]] of the [[tangent space]] at each point.
+
+## Related concepts
+
+* [[G-structure]]
+
+* [[vector field]]
+
+[[!redirects frame fields]]
