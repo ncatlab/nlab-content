@@ -28,7 +28,10 @@ $$
 
 * [[Hamilton's equations]]
 
+* [[prequantized Lagrangian correspondence]]
+
 * [[Bohmian mechanics]]
+
 
 ## References
 
