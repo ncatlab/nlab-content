@@ -7,6 +7,7 @@
 
 In [[logic]], the _exchange rule_ or _permutation rule_ states that the order of the [[premise]]s is irrelevant to the validity of a [[deduction]].  Along with the [[weakening rule]] and the [[contraction rule]], it is one of the most commonly adopted [[structural rules]].
 
+This rule is commonly discarded in [[linguistics|natural language parsers]], such as those built on [[categorial grammar]]s or similar, such as link-grammar. This is because in most natural languages, word-order matters; the proper "deduction" or parse of a sentence depends on the order of of "premises"/words.
 
 ## Statements
 
