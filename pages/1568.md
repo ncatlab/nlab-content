@@ -109,7 +109,7 @@ In the commutative case, we can characterize an ideal $I$ as prime if it is prop
 *  In a proset, $x \in I$ or $y \in I$ if, for all $z$, $z \in I$ if $z \leq x$ or $z \leq y$.
 *  In a lattice (simplifying the proset version to look like the rig version), $x \in I$ or $y \in I$ if $x \wedge y \in I$.
 
-For noncommutative rigs, however, a two-sided ideal $P$ is prime if it satisfies a weaker binary condition: $(\forall_{x: R} a x b \in P) \Rightarrow a \in P \vee b \in P$. For example, in a [[matrix ring]] $M_n(k)$ over a field $k$, the zero ideal is prime under our definition (really because a matrix ring is a [[simple ring]]), but $a b = 0$ does not imply $a = 0$ or $b = 0$. If the stronger binary condition is satisfied, then we say $P$ is *completely prime*. 
+For noncommutative rigs, however, a two-sided ideal $P$ is prime if it satisfies a weaker binary condition: $(\forall_{x: R} a x b \in P) \Rightarrow a \in P \vee b \in P$. For example, in a [[matrix ring]] $M_n(k)$ over a field $k$, the zero ideal is prime under our definition (really because a matrix ring is a [[simple ring]], where the zero ideal is a maximal ideal), but $a b = 0$ does not imply $a = 0$ or $b = 0$. When the stronger binary condition is satisfied, we say $P$ is *completely prime*. 
 
 +-- {: .num_prop} 
 ###### Proposition 
