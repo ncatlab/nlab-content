@@ -74,6 +74,7 @@ In this form this is ([Lurie, theore 0.0.13](#Lurie)).
 See at _[[model structure for L-∞ algebras]]_ for various other incarnations of this equivalence.
 
 
+
 ### Relation to Lie differentiation
 
 +-- {: .num_prop }
@@ -115,5 +116,7 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
  
 
 * [[Jacob Lurie]] _Moduli problems for ring spectra_ ICM 2010 proceedings contribution [pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf)
+
+* [[Mauro Porta]], _Derived formal moduli problems_, master thesis, [pdf](http://algant.eu/documents/theses/porta.pdf).
 
 [[!redirects formal moduli problems]]
