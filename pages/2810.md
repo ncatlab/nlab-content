@@ -155,7 +155,7 @@ This is [[Ek-Algebras|EkAlg, theorem 1.3.16.]]
 
 =--
 
-
+Proofs independent of higher order categories can be extracted from the literature. See this [MO answer](http://mathoverflow.net/a/202345/2926) by Tyler Lawson for details. 
 
 ### Stabilization hypothesis {#StabilizationHypothesis}
 
