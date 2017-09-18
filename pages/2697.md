@@ -29,7 +29,7 @@ Equivalently: if all its object are [[hypercomplete objects]].
 
 ### Hypercompletions
 
-Every[[(∞,1)-topos]] has a [[hypercompletion]], the [[reflective sub-(∞,1)-category]] on its [[hypercomplete objects]].
+Every [[(∞,1)-topos]] has a [[hypercompletion]], given by the full [[reflective sub-(∞,1)-category]] spanned by its [[hypercomplete objects]].
 
 
 ### Enough points
