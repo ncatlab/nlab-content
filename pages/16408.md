@@ -115,7 +115,7 @@ In this section we will adopt the more liberal notion of combinatorial map descr
 
 +-- {: .num_definition #vinv}
 ###### Definition
-The category of combinatorial maps $CM$ is defined as follows:
+The **category of combinatorial maps** $CM$ is defined as follows:
 
 * objects are pairs of a set $D$ together with a triple of permutations $(\sigma,\alpha,\phi)$ on $D$ such that $\langle\sigma,\alpha,\rho\rangle$ acts transitively on $D$ and $\alpha^2 = \phi\alpha\sigma = id$.
 
@@ -123,6 +123,11 @@ The category of combinatorial maps $CM$ is defined as follows:
 =--
 
 The category $CM$ was defined by [Jones and Singerman 78](#JonesSingerman78) essentially as above (though it is called $AM$, standing for "algebraic maps").  Specifically, Jones and Singerman take this category to include combinatorial maps in which the involution $\alpha$ may contain fix points.
+
++-- {: .num_thm}
+###### Proposition
+$CM$ is a [[concrete category]], with a faithful functor $|{-}| : CM \to Set$ which sends any combinatorial map $(D,(\sigma,\alpha,\phi))$ to its underlying set of darts $D$, and any homomorphism of maps $h : M \to M'$ to a function $|h| : |M| \to |M'|$ between the underlying sets of darts.
+=--
 
 ### Monodromy group
 
@@ -138,13 +143,23 @@ The fact that $Mon(M)$ acts transitively on the set of darts $D$ corresponds to 
 
 +-- {: .num_thm}
 ###### Proposition
-A morphism $h : M \to M'$ of combinatorial maps is entirely determined by the choice of a dart $d_1 \in D$ and its image $h(d_1) \in D'$.  
+A morphism $h : M \to M'$ of combinatorial maps is entirely determined by the choice of a dart $d_1 \in |M|$ and its image $h(d_1) \in |M'|$.  
 =--
 
 +-- {: .proof} 
 ###### Proof 
 
-Let $d_2 \in D$.  By assumption of transitivity, there exists a word $w \in \langle \sigma,\alpha,\phi \rangle$ such that $d_2 = w * d_1$.  Hence $h(d_2) = h(w* d_1) = w' * h(d_1)$.
+Let $d_2 \in |M|$.  By assumption of transitivity, there exists a word $w \in \langle \sigma,\alpha,\phi \rangle$ such that $d_2 = w * d_1$.  Hence $h(d_2) = h(w * d_1) = w' * h(d_1)$.
+=--
+
++-- {: .num_thm}
+###### Proposition
+If $h : M \to M'$ is a morphism of combinatorial maps and $|M|$ is [[inhabited]], then the underlying function $|h| : |M| \to |M'|$ is a [[surjection]] from the underlying set of darts of $M$ to the underlying set of darts of $M'$.
+=--
+
++-- {: .proof} 
+###### Proof 
+Let $d' \in |M'|$.  By assumption that $|M|$ is inhabited there exists $d \in |M|$, and by assumption of transitivity there exists $w' \in Mon(M')$ such that $d' = w' * h(d)$.  Note that the homomorphism $(-)' : Mon(M) \to Mon(M')$ is an [[epimorphism]] of groups, since it takes generators to generators, implying that there exists $w \in Mon(M)$ such that $w' * h(d) = h(w * d)$.  So $w*d$ is in the inverse image of $d'$.
 =--
 
 ### Terminal object
