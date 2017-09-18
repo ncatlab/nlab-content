@@ -182,6 +182,7 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 * [[Jones polynomial]], [[Alexander polynomial]] ([[knot theory]])
 
+* [[spectral polynomial algebra]]
 
 [[!redirects polynomial]]
 [[!redirects polynomials]]
