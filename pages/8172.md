@@ -245,55 +245,25 @@ gives elements in $\pi_\bullet(S)$, and this quotient is what the Adams spectral
 
 ## Details
 
-1. [Classical discussion](#ClassicalDiscussion)
-
 1. [Via injective resolutions](#ViaInjectiveResolutions)
 
 1. [As derived descent in higher algebra](#DefinitionInHigherAlgebra)
 
-### Classical discussion
- {#ClassicalDiscussion}
 
-> under construction
-
-Given a [[connective spectrum]] $X$ such that $H^\bullet(X)$
-has finite type, then for each [[prime number]] $p$ there exists a [[spectral sequence]] which converges to the [[homotopy groups]] of $X$ modulo $p$ -- $\pi_\ast(X) \otimes \mathbb{Z}_p$ -- and whose $E^2$-page is
-
-$$
-  E_2^{s,t} \simeq  Ext_A^{s,t}(H^\bullet(X), \mathbb{Z}/(p) )
-$$
-
-where $A$ is the [[Steenrod algebra]]. 
-
-This is built via an [[Adams resolution]]
-
-$$
-  \array{
-    X = X_0 &\stackrel{g_0}{\leftarrow}&  X_1 &\stackrel{g_1}{\leftarrow}& X_2 &\stackrel{g_2}{\leftarrow}& X_3 &\stackrel{}{\leftarrow}& \cdots
-    \\
-    \downarrow^{\mathrlap{f_0}} && \downarrow^{\mathrlap{f_1}} && \downarrow^{\mathrlap{f_2}} && \downarrow^{\mathrlap{f_3}} &&
-    \\
-    K_0 && K_1 && K_2 && K_2
-  }
-$$
-
-The [[long exact sequence]] induced by this give an [[exact couple]] and the Adams spectral sequence is the corresponding [[spectral sequence]].
-
-This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel 86, theorem, 2.1.1, def. 2.1.8](#Ravenel86)).
-
-
-
-### Via injective resolutions
+### The $E$-Adams spectral sequence
  {#ViaInjectiveResolutions}
 
+We here discuss Adams spectral sequences for computation of $E$-[[Bosufield localization of spectra|localization]] of [[mapping spectra]] $[Y,X]$ for by $E$ a general [[commutative ring spectrum]] which is flat in a certain sense (def. \ref{FlatE} below).
+
+The classical Adams spectral sequence is the special case with $Y = X = \mathbb{S}$ and $E = $ [[HA|A]]$\mathbb{F}_p$, discussed [below](#ClassicalCase).
+
+The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mathbb{S}$ and $E = $ [[MU]], discussed [below](#TheAdamsNovikovSpectralSequence).
+
+
+#### $E$-Adams resolutions
 
 A streamlined discussion of $E$-[[Adams resolutions]] in close analogy to [[injective resolutions]] in [[homological algebra]] was given in ([Miller 81](#Miller81)), advertized in ([Hopkins 99](#Hopkins99)) and worked out in more detail in ([Aramian](#Aramian)).
 
-
-
-#### $E$-Injective spectra
-
-The $E$-[[Adams resolutions]] in [[stable homotopy theory]] that we are about to consider behave [[analogy|analogous]] to [[injective resolutions]] in [[homological algebra]]. For a streamlined discussion of $E$-Adams resolutions it is convenient to make that analogy precise ([Miller 81](#Miller81)).
 
 Notice that the standard concept of [[exact sequences]] and [[injective objects]] makes sense in [[abelian categories]], but not in the [[stable homotopy theory]] of [[spectra]]; for instance the true homotopy theoretic analog of exact sequences are [[homotopy fiber sequences]]. But for computational purposes we may consider a variant (due to [Miller 81](#Miller81)), where a sequence of spectra $X_\bullet$ is regarded as exact if the [[homotopical functor]] to abelian groups that it represents sends objects to standard exact sequences.  
 
@@ -595,7 +565,6 @@ By composition and commutativity, this gives the required extension of $g$ along
 =--
 
 
-#### $E$-Adams resolutions
 
 +-- {: .num_defn #EAdamsResolution}
 ###### Definition
@@ -735,7 +704,6 @@ Moreover, the terms in the sequence are all $E$-injective by lemma \ref{EInjecti
 
 =--
 
-#### $E$-Adams towers
 
 +-- {: .num_defn #EAdamsTower}
 ###### Definition
@@ -837,7 +805,6 @@ carefully by [[induction]]. This takes a bit of work, crucially using properties
 
 =--
 
-#### $E$-Adams spectral sequence
 
 +-- {: .num_defn #EAdamsSpectralSequence}
 ###### Definition
@@ -960,7 +927,7 @@ Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corre
 
 =--
 
-#### The first page and Hopf algebroid structure
+#### The first page and Hopf algebroids
  {#FirstPageAndHopfAlgebroid}
 
 Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}, 
@@ -1061,7 +1028,7 @@ $$
 
 =--
 
-(e.g. [Adams 96, part III, lemma 12.5](#Adams96), [Schwede 12, prop. 6.20](#Schwede12))
+(e.g. [Adams 74, part III, lemma 12.5](#Adams74), [Schwede 12, prop. 6.20](#Schwede12))
 
 +-- {: .proof}
 ###### Proof
@@ -1428,7 +1395,7 @@ $$
 
 The next step is to identify the chain homology of this $d_1$ with the comodule [[Ext]]-groups.
 
-#### The second page and homological algebra of Hopf modules
+#### The second page and homological co-algebra
  {#TheE2TermOfTheEAdamsSpectralSequence}
 
 +-- {: .num_prop}
@@ -1531,7 +1498,8 @@ For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal com
 
 
 
-#### The case $X = \mathbb{S}$ and $E = H \mathbb{F}_p$
+#### The classical case $X = \mathbb{S}$ and $E = H \mathbb{F}_p$
+ {#ClassicalCase}
 
 (...)
 
@@ -1545,7 +1513,43 @@ For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal com
 
 (...)
 
+
+Given a [[connective spectrum]] $X$ such that $H^\bullet(X)$
+has finite type, then for each [[prime number]] $p$ there exists a [[spectral sequence]] which converges to the [[homotopy groups]] of $X$ modulo $p$ -- $\pi_\ast(X) \otimes \mathbb{Z}_p$ -- and whose $E^2$-page is
+
+$$
+  E_2^{s,t} \simeq  Ext_A^{s,t}(H^\bullet(X), \mathbb{Z}/(p) )
+$$
+
+where $A$ is the [[Steenrod algebra]]. 
+
+This is built via an [[Adams resolution]]
+
+$$
+  \array{
+    X = X_0 &\stackrel{g_0}{\leftarrow}&  X_1 &\stackrel{g_1}{\leftarrow}& X_2 &\stackrel{g_2}{\leftarrow}& X_3 &\stackrel{}{\leftarrow}& \cdots
+    \\
+    \downarrow^{\mathrlap{f_0}} && \downarrow^{\mathrlap{f_1}} && \downarrow^{\mathrlap{f_2}} && \downarrow^{\mathrlap{f_3}} &&
+    \\
+    K_0 && K_1 && K_2 && K_2
+  }
+$$
+
+The [[long exact sequence]] induced by this give an [[exact couple]] and the Adams spectral sequence is the corresponding [[spectral sequence]].
+
+This is due to ([Adams 58](#Adams58)). Review includes([Ravenel 86, theorem, 2.1.1, def. 2.1.8](#Ravenel86), [Bruner 09](#Bruner09)).
+
+(...)
+
+
+
 #### The case $X = \mathbb{S}$ and $E = MU$
+ {#TheAdamsNovikovSpectralSequence}
+
+
+(...)
+
+[[Adams-Novikov spectral sequence]]
 
 (...)
 
@@ -1929,21 +1933,6 @@ $$
 =--
 
 
-## Properties
-
-### Relation to Steenrod algebra
-
-The $E_2$-page of the Adams spectral sequence for the $p$-component of 
-$\pi_{n+k}(S^n)$  is the ordinary [[Steenrod algebra]] (for given prime $p$).
-
-More generally, For $R$ an [[E-infinity ring]] such that its dual $R$-[[Steenrod algebra]] in the form of the self-[[homology]] $R_\bullet(R)$ is a [[Hopf algebroid]] over $R_\bullet = \pi_\bullet(R)$ (see at [Steenrod algebra -- Hopf algebroid structure](Steenrod+algebra#HopfAlgebraStructure)), then the $E^2$-term of the $E$-Adams spectral sequence is an [[Ext]] of $E_\bullet(E)$-[[comodules]]
-
-$$
-  E^2 \simeq Ext_{R_\bullet(R)}(R_\bullet, R_\bullet(X))
-  \,.
-$$
-
-See the [references below](#ReferencesHopfAlgebroidStructure).
 
 ## Related concepts
 
@@ -2013,7 +2002,7 @@ Reviews include
 
 * {#Bruner09} [[Robert Bruner]], _An Adams spectral sequence primer_, 2009 ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
 
-* [[Stefan Schwede]], chapter II, section 10.3 of  _[[Symmetric spectra]]_, 2012
+* {#Schwede12} [[Stefan Schwede]], chapter II, section 10.3 of  _[[Symmetric spectra]]_, 2012
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner 09](#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
