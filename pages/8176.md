@@ -28,6 +28,10 @@ A textbook account is for instance in
 
 * [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _I: The Serre spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch1.pdf))
 
+Discussion in [[homotopy type theory]] includes
+
+* [[Mike Shulman]], _[Spectral Sequences](http://homotopytypetheory.org/2013/08/08/spectral-sequences/)_, 2013
+
 [[!redirects Serre spectral sequences]]
 
 [[!redirects Leray-Serre spectral sequence]]
