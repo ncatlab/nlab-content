@@ -15,7 +15,7 @@
 
 ## Definition
 
-Given a [[topological space]] $X$ in the sense of [[Bourbaki]] (that is, a set $X$ and a topology $\tau_X$) and a [[subset]] $Y$ of $X$, a topology $\tau_Y$ on $Y$ is said to be the topology **induced** from $\tau_X$ by the [[inclusion function|set inclusion]] $Y \hookrightarrow X$ if $\tau_Y = \tau_X \cap_{pw} \{Y\} \coloneqq \{ U \cap Y | U\in\tau_X\}$. In other words, $\tau_Y$ is the smallest topology on $Y$ such that the inclusion $Y \hookrightarrow X$ is [[continuous map|continuous]]. The pair $(Y,\tau_Y)$ is then said to be a *topological [[subspace]]* of $(X,\tau_X)$. The induced topology is for that reason sometimes called the **subspace topology** on $Y$. 
+Given a [[topological space]] $X$ in the sense of ([Bourbaki 71](#Bourbaki71)) (that is, a set $X$ and a topology $\tau_X$) and a [[subset]] $Y$ of $X$, a topology $\tau_Y$ on $Y$ is said to be the topology **induced** from $\tau_X$ by the [[inclusion function|set inclusion]] $Y \hookrightarrow X$ if $\tau_Y = \tau_X \cap_{pw} \{Y\} \coloneqq \{ U \cap Y | U\in\tau_X\}$. In other words, $\tau_Y$ is the smallest topology on $Y$ such that the inclusion $Y \hookrightarrow X$ is [[continuous map|continuous]] (the [[initial topology]] on that map). The pair $(Y,\tau_Y)$ is then said to be a *topological [[subspace]]* of $(X,\tau_X)$. The induced topology is for that reason sometimes called the **subspace topology** on $Y$. 
 
 A subspace $i: Y \hookrightarrow X$ is **closed** if $Y$ is closed as a subset of $X$ (or if $i$ is a [[closed map]]), and is **open** if $Y$ is open as a subset of $X$ (or if $i$ is an [[open map]]). 
 
@@ -25,14 +25,16 @@ A property of topological spaces is said to be **hereditary** if its satisfactio
 
 +-- {: .num_prop} 
 ###### Proposition 
-Subspace inclusions are precisely the [[regular monomorphisms]] in $Top$. 
+
+Topological subspace inclusions are precisely the [[regular monomorphisms]] in [[Top]]. 
+
 =-- 
 
-For example, the [[equalizer]] of two maps $f, g \colon X \stackrel{\to}{\to} Y$ in $Top$ is computed as the equalizer at the underlying-set level, equipped with the subspace topology. 
+For example, the [[equalizer]] of two maps $f, g \colon X \stackrel{\to}{\to} Y$ in [[Top]] is computed as the equalizer at the underlying-set level, equipped with the subspace topology. 
 
 +-- {: .num_lemma #pushout} 
 ###### Lemma 
-The [[pushout]] in $Top$ of any (closed/open) subspace $i: A \hookrightarrow B$ along any continuous map $f: A \to C$ is a (closed/open) subspace $j: C \hookrightarrow D$. 
+The [[pushout]] in [[Top]] of any (closed/open) subspace $i \colon A \hookrightarrow B$ along any [[continuous function]] $f \colon A \to C$ is a (closed/open) subspace $j: C \hookrightarrow D$. 
 =-- 
 
 +-- {: .proof} 
@@ -62,6 +64,10 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 * [[embedding]]
 
 * [[embedding of smooth manifolds]]
+
+## References
+
+* {#Bourbaki71} [[Nicolas Bourbaki]], _Elements of Mathematics -- General topology_, 1971, 1990
 
 [[!redirects subspace topology]]
 [[!redirects subspace topologies]]
