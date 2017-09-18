@@ -238,7 +238,7 @@ For $SU(2)$:
 
 ## References
 
-The [[coadjoint orbits]]of $SU(2)$ are discussed around p. 183 of
+The [[coadjoint orbits]] of $SU(2)$ are discussed around p. 183 of
 
 * [[Alexandre Kirillov]], _[[Lectures on the Orbit Method]]_, Graduate Studies in Mathematics, 64, American Mathematical Society, (2004)
 
