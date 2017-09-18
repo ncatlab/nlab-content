@@ -365,7 +365,7 @@ $$
     \\
     & {}_{\mathllap{g}}\searrow & \downarrow^{\mathrlap{Y^{\delta_1}}}
     \\
-    Y
+    && Y
   }
   \,.
 $$
@@ -530,7 +530,7 @@ Write
 
 $$
   J_{Top}
-    \coloneq 
+    \coloneqq
   \{D^n \stackrel{(id,\delta_0)}{\hookrightarrow} D^n \times I\}_{n \in \mathbb{N}}
   \subset Mor(Top)
 $$
