@@ -64,7 +64,9 @@ Let $i:Sh_{c(U)}(\mathcal{E})\hookrightarrow\mathcal{E}$ be dominant and a close
 
 **Proof**: Recall that $X\in\mathcal{E}$ are in the closed subtopos precisely when they satisfy $X\times U\cong U$ with $U$ the [[subterminal object]] associated to $i$. But $i$ is dominant, or what comes to the same for inclusions: dense, hence $\emptyset$ is in $Sh_{c(U)}(\mathcal{E})$ and therefore $\emptyset\times U\cong U$ . From this follows $U\cong\emptyset$, which in turn implies that all $X\in\mathcal{E}$ are in $Sh_{c(U)}(\mathcal{E})$ . $\qed$
 
-This says that the only closed subtopos of a topos $\mathcal{E}$ that is dense, is $\mathcal{E}$ itself. It follows e.g. that [[Boolean toposes|Boolean toposes]] have no non-trivial dense subtoposes since all their subtoposes are closed (and open, as well).
+This says that the only closed subtopos of a topos $\mathcal{E}$ that is dense, is $\mathcal{E}$ itself.
+
+It follows e.g. that [[Boolean toposes|Boolean toposes]] have no non-trivial dense subtoposes since all their subtoposes are closed (and open, as well). Of course, this follows also from the fact that a Boolean topos coincides with its [[double negation|double negation subtopos]] and the latter is the _smallest dense_ subtopos!
 
 ## Related pages
 
