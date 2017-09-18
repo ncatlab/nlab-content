@@ -22,7 +22,7 @@
 * table of contents
 {:toc}
 
-## Ideais
+## Ideas
 
 _Mayer-Vietoris sequence_ is the term for the [[fiber sequence]] -- or often for the corresponding [[long exact sequence of homotopy groups]] -- induced from an [[(∞,1)-pullback]] (or for a [[homotopy pullback]] presenting it).
 
