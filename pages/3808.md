@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Arithmetic geometry
+#### Arithmetic
 +--{: .hide}
 [[!include arithmetic geometry - contents]]
 =--
@@ -16,9 +16,9 @@
 
 ## Idea
 
-**Number theory** (or **[[arithmetic]]**) studies numbers, especially [[integers]]. Typical questions are the distrubution of [[prime numbers]] and the study of integer (or rational) solutions of [[algebraic equations]] with [[integer]] [[coefficients]], also called **[[Diophantine equations]]**. 
+**Number theory** (or **[[arithmetic]]**) studies [[numbers]], especially the [[natural numbers]] and the [[integers]]. Typical questions are the distrubution of [[prime numbers]] and the study of integer (or rational) [[solutions]] of [[algebraic equations]] with [[integer]] [[coefficients]], also called **[[Diophantine equations]]**. 
 
-(Notice that by a theorem of [[Matiyasevich]] (spelled also Matiyasevich), for every statement in mathematics (say ZF set theory) there is a Diophantine equation whose solvability is equivalent to the validity of the statement. Of course, that does not mean that addressing a problem as a Diophantine equation helps in solving it. )
+(Notice that by a theorem of [[Matiyasevich]] (spelled also Matiyasevich), for every statement in [[mathematics]] (say ZF [[set theory]]) there is [[Diophantine equation]] whose [[solution|solvability]] is equivalent to the validity of the statement. Of course, that does not mean that addressing a problem as a Diophantine equation helps in solving it. )
 
 The analytic study of the asymptotic behaviour of the distrubution of prime numbers on the positive integer line is the main subject of **analytic number theory**; it also studies the distribution of rational numbers with small denominators. 
 
