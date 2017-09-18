@@ -35,7 +35,7 @@ There is an analogue of the statement also for [[even cohomology theory|even]] 2
 
 ## Statement
 
-By evaluation on $X = B U(1)$, every [[multiplicative cohomology theory|multiplicative]] [[complex oriented cohomology theory]] $E$ gives rise to a [[formal group]] over the [[graded ring]] $\pi_\bullet(E)$.
+By evaluation on $X = B U(1)$ the [[classifying space]] for [[complex line bundles]] (the [[circle 2-group]]), every [[multiplicative cohomology theory|multiplicative]] [[complex oriented cohomology theory]] $E$ gives rise to a [[formal group]] over the [[graded ring]] $\pi_\bullet(E)$ (see [there](complex+oriented+cohomology+theory#FormalGroupLaw)).
 
 Conversely, given a formal group $F$ over a [[graded ring]] $R$, one can ask whether this arises from some $E$ in this way. 
 
