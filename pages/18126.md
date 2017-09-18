@@ -9199,569 +9199,6 @@ of [[nets]] instead of just sequences, then it raises to the same level of gener
 
 =--
 
-$\,$
-
-### Locally compact spaces
-
-A topological space is _[[locally compact topological space|locally compact]]_ if each point has a
-[[compact topological space|compact]] [[neighbourhood]]. Or rather, this is the case in locally
-compact [[Hausdorff spaces]]. Without the Hausdorff condition one asks that these compact neighbourhoods
-exist in a certain controlled way (def. \ref{LocallyCompactSpace} below).
-
-It turns out that locally compact Hausdorff spaces are precisely the open [[subspaces]] of [[compact Hausdorff spaces]]
-(example \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact} and prop. ... below.)
-
-Local compactness is useful as a criterion for identifying [[paracompact topological space|paracompactness]]
-(prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below).
-
-
-$\,$
-
-
-+-- {: .num_defn #LocallyCompactSpace}
-###### Definition
-**([[locally compact topological space]])**
-
-A [[topological space]] $X$ is called _[[locally compact topological space|locally compact]]_
-if for every point $x \in X$ and every [[open neighbourhood]] $U_x \supset \{x\}$
-there exists a smaller open neighbourhood $V_x \subset U_x$ whose [[topological closure]]
-is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) and still contained in $U$:
-
-$$
-  \{x\} \subset V_x \subset \underset{\text{compact}}{Cl(V_x)} \subset U_x
-  \,.
-$$
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-**(terminology issue regarding "locally compact")**
-
-On top of the terminology issue inherited from that of "compact", remark \ref{CompactTerminology}
-(regarding whether or not to require "[[Hausdorff topological space|Hausdorff]]" with "compact"; we do not),
-the definition of "locally compact" is subject to further ambiguity in the literature.
-There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace}.
-For [[Hausdorff topological spaces]] all these definitions
-happen to be equivalent, but in general they are not.
-The version we state in def. \ref{LocallyCompactSpace} is the one that gives various results
-(such as the [[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace} below)
-_without_ requiring the Hausdorff property.
-
-=--
-
-+-- {: .num_example #DiscreteSpacesAreLocallyCompact}
-###### Example
-**([[discrete spaces]] are [[locally compact topological space|locally compact]])**
-
-Every [[discrete topological space]] (example \ref{CoDiscreteTopology}) is [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
-
-=--
-
-+-- {: .num_example #MetricSpacesAreLocallyCompact}
-###### Example
-**([[Euclidean space]] is [[locally compact topological space|locally compact]])**
-
-For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) regarded as a [[topological space]] via its
-[[metric topology]] (def. \ref{MetricTopology}), is [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $x \in X$ be a point and $U_x \supset \{x\}$ an [[open neighbourhood]]. By definition
-of the [[metric topology]] (example \ref{MetricTopology}) this means that $U_x$ contains an [[open ball]]
-$B^\circ_x(\epsilon)$ (def. \ref{OpenBalls}) around $x$ of some [[radius]] $\epsilon$.
-This ball also contains the open ball $V_x \coloneqq B^\circ_x(\epsilon/2)$ and its
-topological closure, which is the [[closed ball]] $B_x(\epsilon/2)$. This closed ball
-is compact, for instance by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}).
-
-=--
-
-
-+-- {: .num_example #OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}
-###### Example
-**([[open subspaces of compact Hausdorff spaces are locally compact]])**
-
-Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\subset} K$
-of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
-[[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
-
-In particular [[compact Hausdorff spaces]] themselves are [[locally compact topological space|locally compact]].
-
-=--
-
-We **prove** this below as prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreNormalProp}, after having established a list of convenient general facts about [[compact Hausdorff spaces]].
-
-+-- {: .num_example }
-###### Example
-**(finite [[product space]] of [[locally compact topological space|locally compact spaces]] is locally compact)**
-
-The [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) $\underset{i \in J}{\prod} (X_i, \tau_i)$ of a
-a _[[finite set]]_ $\{ (X_i, \tau_i) \}_{i \in I}$ of [[locally compact topological spaces]] $(X_i, \tau_i)$ (def. \ref{LocallyCompactSpace})
-it itself locally compact.
-
-=--
-
-+-- {: .num_example #CountablyInfiniteProductsOfNonCompactSpacesAreNotLocallyCompact}
-###### Nonexample
-**(countably infinite products of non-compact spaces are not locally compact)**
-
-Let $X$ be a [[topological space]] which is _not_ [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}).
-Then the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of
-a [[countable set|countably infinite set]] of copies of $X$
-
-$$
-  \underset{n \in \mathbb{N}}{\prod} X
-$$
-
-is _not_ a [[locally compact space]] (def. \ref{LocallyCompactSpace}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Since the [[continuous image of a compact space is compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}),
-and since the [[projection]] maps $p_i \;\colon\; \underset{\mathbb{N}}{\prod} X \longrightarrow X$ are continuous
-(by nature of the [[initial topology]]/[[Tychonoff topology]]), it follows that every compact subspace of the product space is contained in one of the form
-
-$$
-  \underset{i \in \mathbb{N}}{\prod} K_i
-$$
-
-for $K_i \subset X$ compact.
-
-But by the nature of the [[Tychonoff topology]], a [[base for a topology|base for the topology]] on $\underset{\mathbb{N}}{\prod} X$ is given by subsets of the form
-
-$$
-  \left(
-    \underset{i \in \{1,\cdots,n\}}{\prod}
-    U_{i}
-  \right)
-  \times
-  \left(
-    \underset{j \in \mathbb{N}_{\gt n}}{\prod}
-    X
-  \right)
-$$
-
-with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\mathbb{N}}{\prod} X$ contains a subset of this kind, but if $X$ itself is non-compact, then none of these is contained in a product of compact subsets.
-
-=--
-
-$\,$
-
-A key application of locally compact spaces is that the [[compact-open topology|space of maps]]
-out of them into any given topological space (example \ref{CompactOpenTopology} below)
-satisfies the expected [[universal property]] of a [[mapping space]] (prop. \ref{UniversalPropertyOfMappingSpace} below).
-
-+-- {: .num_example #CompactOpenTopology}
-###### Example
-**(topological [[mapping space]] with [[compact-open topology]])**
-
-For
-
-1. $(X, \tau_X)$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
-
-1. $(Y,\tau_Y)$ any [[topological space]]
-
-then the _[[compact-open topology|mapping space]]_
-
-$$
-  Maps\left(
-    (X,\tau_X), (Y,\tau_Y)
-  \right)
-   \;\coloneqq\;
-  \left(
-    Hom_{Top}(X,Y) , \tau_{\text{cpt-op}}
-  \right)
-$$
-
-is the [[topological space]]
-
-* whose underlying set $Hom_Top(X,Y)$ is the set of [[continuous functions]] $X \to Y$;
-
-* whose topology $\tau_{\text{cpt-op}}$ is generated from the [[topological basis|sub-basis for the topology]] (def. \ref{TopologyBase})
-  which is given by subsets to denoted
-
-  $U^K \subset Hom_{Top}(X,Y)$ for labels
-
-  * $K \subset Y$ a [[compact topological space|compact]] subset,
-
-  * $U \subset X$ an [[open subset]]
-
-  and defined to be those subsets of all those [[continuous functions]] $f$ that take $K$ to $U$:
-
-  $$
-    U^K
-    \;\coloneqq\;
-    \left\{
-      f \colon X \overset{\text{continuous}}{\longrightarrow} Y
-      \;\;\vert\;\;
-      f(K) \subset U
-    \right\}
-      \,.
-  $$
-
-Accordingly this topology $\tau_{\text{cpt-op}}$ is called the _[[compact-open topology]]_ on the set of functions.
-
-=--
-
-
-+-- {: .num_prop #UniversalPropertyOfMappingSpace}
-###### Proposition
-**([[universal property]] of the [[mapping space]])**
-
-Let $(X,\tau_X)$, $(Y, \tau_Y)$, $(Z, \tau_Z)$
-be [[topological spaces]], with $X$ [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
-Then
-
-1. The [[evaluation]] function
-
-   $$
-     \array{
-       (X, \tau_X) \times Maps((X,\tau_X), (Y, \tau_Y))
-         & \overset{\phantom{AA} ev \phantom{AA}}{\longrightarrow}&
-       (Y, \tau_Y)
-       \\
-       (x, f)
-         &\overset{\phantom{AAA}}{\mapsto}&
-       f(x)
-     }
-   $$
-
-   is a [[continuous function]].
-
-1. The [[natural bijection]] of [[function sets]]
-
-   $$
-     \array{
-       \underset
-       {Hom_{Set}(X \times Z, Y) }
-       {\underbrace{
-         \left\{
-            X \times Y \longrightarrow Y
-         \right\}
-       }}
-         &\underoverset{}{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}&
-       \underset
-       {Hom_{Set}\left( Z, Hom_{Set}(X,Y) \right)}
-       {\underbrace{
-         \left\{
-            Z \longrightarrow Hom_{Set}(X,Y)
-         \right\}
-       }}
-       \\
-       \left(f \colon (x,z) \mapsto f(x,z) \right)
-         &\overset{\phantom{AAA}}{\mapsto}&
-       \tilde f
-       \colon
-         z \mapsto (x \mapsto f(x,z))
-     }
-   $$
-
-   restricts to a [[natural bijection]] between sets of [[continuous functions]]
-
-   $$
-     \array{
-       \underset
-         {Hom_{Top}((X, \tau_X) \times (Z, \tau_Z), (Y, \tau_Y))}
-       {\underbrace{\left\{
-          (X,\tau_X) \times (Z, \tau_Z) \overset{cts}{\longrightarrow} (Y, \tau_Y)
-       \right\}}}
-         &\underoverset{}{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}&
-       \underset
-         {Hom_{Top}\left( (Z, \tau_Z) , Maps((X,\tau_X), (Y, \tau_Y)) \right)}
-       {\underbrace{\left\{
-          (Z, \tau_Z) \overset{cts}{\longrightarrow} Maps( (X,\tau_X), (Y,\tau_Y) )
-       \right\}}}
-     }
-     \,.
-   $$
-
-Here $Maps((X,\tau_X), (Y,\tau_Y))$ is the [[mapping space]] with [[compact-open topology]] from example \ref{CompactOpenTopology}
-and $(-)\times (-)$ denotes forming the [[product topological space]] (example \ref{BinaryProductTopologicalSpace}, example \ref{InfiniteProductTopologicalSpace}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-To see the continuity of the evaluation map:
-
-Let $V \subset Y$ be an open subset. We need to show that $ev^{-1}(V) = \{(x, f) \vert f(x) \in V\}$
-is a union of products of the form $U \times V^K$ with $U\subset X$ open and $U^K \subset Hom_{Set}(K,U)$ a basic open according to def. \ref{CompactOpenTopology}.
-
-For $(x, f) \in ev^{-1}(V)$, the preimage $f^{-1}(V) \subset X$ is an open neighbourhood of $x$ in $X$, by continuity of $f$.
-By local compactness of $X$, there is a compact subset $K \subset f^{-1}(V)$ which is still a neighbourhood of $x$.
-Since $f$ also still takes that into $V$,
-we have found an open neighbourhood
-
-$$
-  (x,f) \in {K \times V^K} \underset{\text{open}}{\subset} ev^{-1}(V)
-$$
-
-with respect to the product topology. Since this is still contained in $ev^{-1}(V)$, for all $(x,f)$ as above,
-$ev^{-1}(V)$ is exhibited
-as a union of opens, and is hence itself open.
-
-Regarding the second point:
-
-In one direction, let $f \colon (X, \tau_X) \times (Y, \tau_Y) \to (Z \, \tau_Z)$ be a continuous function, and let $U^K \subset Maps(X,Y)$
-be a sub-basic open. We need to show that the set
-
-$$
-  \tilde f^{-1}(U)
-    =
-  \left\{
-    z \in Z \;\vert\;  f(K,z) \subset U
-  \right\}
-   \;\subset\;
-  Z
-$$
-
-is open. To that end, observe that $f(K,z) \subset U$ means that $K \times \{z\} \subset f^{-1}(U)$, where $f^{-1}(U) \subset X \times Y$ is open by the continuity of $f$.
-Hence in the [[topological subspace]] $K \times Z \subset X \times Y$ the inclusion
-
-$$
-  K \times \{z\} \subset \left( f^{-1}(U) \cap (K \times Z) \right)
-$$
-
-is an open neighbourhood. Since $K$ is compact, the [[tube lemma]] (prop. \ref{TheTubeLemma}) gives an
-open neighbourhood $V_z \supset \{z\}$ in $Y$, hence an open neighbourhood $K \times V_z \subset K \times Y$,
-which is still contained in the original pre-image:
-
-$$
-  K \times V_z \;\subset\; f^{-1}(U) \cap (K \times Z) \;\subset\; f^{-1}(U)
-  \,.
-$$
-
-This shows that with every point $z \in \tilde f^{-1}\left(U^K\right)$ also an open neighbourhood of $z$ is contained in $\tilde f^{-1}\left(U^K\right)$,
-hence that the latter is a union of open subsets, and hence itself open.
-
-In the other direction, assume that $\tilde f \colon Z \to Maps((X,\tau_X),(Y,\tau_Y))$ is continuous:
-We need to show that $f$ is continuous. But observe that $f$ is the [[composition|composite]]
-
-$$
-  f
-  =
-  (X, \tau_X) \times (Z,\tau_Z)
-    \overset{id{(X,\tau_X)} \times \tilde f}{\longrightarrow}
-  (X, \tau_X)
-  \times
-  Maps((X,\tau_X), (Y,\tau_Y))
-    \overset{ev}{\longrightarrow}
-  (X,\tau_X)
-  \,.
-$$
-
-Here the first function $id \times \tilde f$ is continuous since $\tilde f$ is by assumption since the product of two continuous functions
-is again continuous (example \ref{FunctorialProductSpace}). The second function $ev$ is continuous by the first point above.
-hence $f$ is continuous.
-
-=--
-
-
-+-- {: .num_remark #TopologicalMappingSpaceIsExponentialObject}
-###### Remark
-**([[compact-open topology|topological mapping space]] is [[exponential object]])**
-
-In the language of [[category theory]] (remark \ref{TopCategory}), prop. \ref{UniversalPropertyOfMappingSpace}
-says that the [[mapping space]] construction with its [[compact-open topology]] from def. \ref{CompactOpenTopology}
-is an _[[exponential object]]_ or _[[internal hom]]_. This just means that it beahves in all abstract ways just as
-a [[function set]] does for plain functions, but it does so for continuous functions and being itself
-equipped with a topology.
-
-Moreover, the construction of topological mapping spaces in example \ref{CompactOpenTopology}
-extends to a [[functor]] (remark \ref{TopCategory})
-
-$$
-  (-)^{(-)} \;\colon\; Top_{lcpt}^{op} \times Top \longrightarrow Top
-$$
-
-from the [[product category]] of the category [[Top]] of all [[topological spaces]] (remark \ref{TopCategory})
-with the [[opposite category]] of the [[subcategory]] of [[locally compact topological spaces]].
-
-
-=--
-
-+-- {: .num_example #MappingSpaceOutOfPoint}
-###### Example
-**([[compact-open topology|topological mapping space]] construction out of the [[point space]] is the identity)**
-
-The [[point space]] $\ast$ (example \ref{Point}) is clearly a [[locally compact topological space]].
-Hence for every [[topological space]] $(X,\tau)$ the [[compact-open topology|mapping space]] $Maps(\ast, (X,\tau))$
-(exmaple \ref{CompactOpenTopology}) exists. This is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the space $(x,\tau)$ itself:
-
-$$
-  Maps(\ast, (X,\tau))
-    \simeq
-  (X,\tau)
-  \,.
-$$
-
-=--
-
-+-- {: .num_example #LoopSpace}
-###### Example
-**([[loop space]] and [[path space]])**
-
-Let $(X,\tau)$ be any [[topological space]].
-
-1. The [[circle]] $S^1$ (example \ref{SpheresAndDisks}) is a [[compact Hausdorff space]] (example \ref{ExamplesOfCompactHausdorffSpaces})
-   hence, by prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}, a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}). Accordingly the [[mapping space]]
-
-   $$
-     \mathcal{L} X \coloneqq Maps( S^1, (X,\tau) )
-   $$
-
-   exists (def. \ref{CompactOpenTopology}). This is called the _[[free loop space]]_ of $(X,\tau)$.
-
-   If both $S^1$ and $X$ are equipped with a choice of point ("[[basepoint]]") $s_0 \in S^1$, $x_0 \in X$, then the [[topological subspace]]
-
-   $$
-     \Omega X \subset \mathcal{L}X
-   $$
-
-   on those functions which take the basepoint of $S^1$ to that of $X$, is called the _[[loop space]]_ of $X$,
-   or sometimes _[[based loop space]]_, for emphasis.
-
-1. Similarly the [[closed interval]] is a [[compact Hausdorff space]] (example \ref{ExamplesOfCompactHausdorffSpaces})
-   hence, by prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}, a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}). Accordingly the [[mapping space]]
-
-   $$
-     Maps( [0,1], (X,\tau) )
-   $$
-
-   exists (def. \ref{CompactOpenTopology}). Again if $X$ is equipped with a choice of basepoint $x_0 \in X$, then the [[topological subspace]]
-   of those functions that take $0 \in [0,1]$ to that chosen basepoint is called the _[[path space]]_ of $(X\tau)$:
-
-   $$
-     P X \subset Maps( [0,1], (X,\tau) )
-     \,.
-   $$
-
-Notice that we may encode these subspaces more abstractly in terms of [[universal properties]]:
-
-The path space and the loop space are characterized, up to [[homeomorphisms]], as being the [[limit|limiting cones]]
-in the following [[pullback]] diagrams of topological spaces (example \ref{Pushout}):
-
-1. [[loop space]]:
-
-   $$
-     \array{
-       \Omega X &\longrightarrow& Maps(S^1, (X,\tau))
-       \\
-       \downarrow &(pb)& \downarrow^{\mathrlap{Maps(const_{s_0}, id_{(X,\tau)})}}
-       \\
-       \ast &\underset{const_{x_0}}{\longrightarrow}& X \simeq Maps(\ast,(X,\tau))
-     }
-     \,.
-   $$
-
-1. [[path space]]:
-
-   $$
-     \array{
-       P X &\longrightarrow& Maps([0,1], (X,\tau))
-       \\
-       \downarrow &(pb)& \downarrow^{\mathrlap{Maps(const_x, id_{(X,\tau)})}}
-       \\
-       \ast &\underset{const_{x_0}}{\longrightarrow}& X \simeq Maps(\ast,(X,\tau))
-     }
-   $$
-
-Here on the right we are using that the mapping space construction is a [[functor]] as shown in remark \ref{TopologicalMappingSpaceIsExponentialObject}, and we are using example \ref{MappingSpaceOutOfPoint} in the
-identification on the bottom right mapping space out of the point space.
-
-=--
-
-
-$\,$
-
-We close with two observations on [[proper maps]] into locally compact spaces, which will be useful
-in the discussion of [[embeddings of smooth manifolds]] [below](#EmbeddingOfSmoothManifolds).
-
-+-- {: .num_prop}
-###### Proposition
-**([[proper maps to locally compact spaces are closed]])**
-
-Let
-
-1. $(X,\tau_X)$ be a [[topological space]],
-
-1. $(Y,\tau_Y)$ a [[locally compact topological space|locally compact]] [[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{LocallyCompactSpace}),
-
-1. $f \colon X \to Y$ a [[proper map]] (def. \ref{ProperContinuous}).
-
-Then $f$ is a [[closed map]] (def. \ref{OpenMap}).
-
-=--
-
-
-
-+-- {: .proof}
-###### Proof
-
-Let $C \subset X$ be a [[closed subset]]. We need to show that $f(C) \subset Y$ is closed.
-By lemma \ref{UnionOfOpensGivesClosure} this means we need to show
-that every $y \in Y \setminus f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$..
-
-By local compactness of $(Y,\tau_Y)$ (def. \ref{LocallyCompactSpace}), $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also the intersection $C \cap f^{-1}(Cl(V_y))$ is compact, and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}) so is
-
-$$
-  f\left( C \cap f^{-1}(Cl(V_y)) \right)
-  =
-  f(C) \cap (Cl(V))
-  \;
-  \subset Y
-  \,.
-$$
-
-This is also a [[closed subset]], since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}). Therefore
-
-$$
-  U_y \coloneqq V_y \setminus ( f(C) \cap (Cl(V_y)) ) = V_y \setminus f(C)
-$$
-
-is an open neighbourhod of $y$ not intersecting $f(C)$.
-
-=--
-
-
-
-+-- {: .num_prop #InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}
-###### Proposition
-**([[injective proper maps to locally compact spaces are equivalently the closed embeddings]])**
-
-Let
-
-1. $(X,\tau_X)$ be a [[topological space]]
-
-1. $(Y,\tau_Y)$ a [[locally compact topological space|locally compact]] [[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{LocallyCompactSpace}),
-
-1. $f \colon X \to Y$ be a [[continuous function]].
-
-Then the following are equivalent
-
-1. $f$ is an [[injective function|injective]] [[proper map]],
-
-1. $f$ is a closed [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-In one direction, if $f$ is an injective proper map,
-then since [[proper maps to locally compact spaces are closed]], it follows that $f$ is also  [[closed map]]. The claim then follows since [[closed injections are embeddings]] (prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings}), and since the image of a closed map is closed.
-
-Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image is just the intersection $f^{-1}(C) \simeq C \cap f(X)$. By the nature of the [[subspace topology]], this is compact if $C$ is.
-
-=--
-
 
 
 $\,$
@@ -9769,6 +9206,7 @@ $\,$
 
 
 ### Compact Hausdorff spaces
+ {#CompactHausdorffSpaces}
 
 We discuss some important relations between the concepts of
 [[compact topological spaces]] (def. \ref{CompactTopologicalSpace})
@@ -10142,51 +9580,6 @@ is an open neighbourhood of $Y_2$, and both are disjoint.
 
 =--
 
-With these statements in hand, the remaining proof of example \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}
-is immediate:
-
-+-- {: .num_prop #OpenSubspacesOfCompactHausdorffSpacesAreNormalProp}
-###### Proposition
-**([[open subspaces of compact Hausdorff spaces are locally compact]])**
-
-Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\subset} K$ (def. \ref{SubspaceTopology})
-of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
-[[Hausdorff space]] $K$ (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
-
-=--
-
-+-- {: .proof #ProofOfOpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}
-###### Proof
-
-Let $X$ be a [[topological space]] such that it arises as a [[topological subspace]] $X \subset K$
-of a [[compact Hausdorff space]]. We need to show that $X$ is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
-
-Let $x \in X$ be a point and let $U_x \subset X$ an open neighbourhood.  We need to produce a smaller open neighbourhood
-whose closure is compact and still contained in $U_x$.
-
-By the nature of the [[subspace topology]] there exists an open subset $V_x\subset K$ such that $U_x = X \cap V_x$.
-Since $X \subset K$ is assumed to be open, it follows that $U_x$ is also open as a subset of $K$.
-Since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it
-follows by prop. \ref{T4InTermsOfTopologicalClosures} that
-there exists a smaller open neighbourhood $W_x \subset K$ whose [[topological closure]] is still contained in $U_x$,
-and since [[closed subspaces of compact spaces are compact]] (prop. \ref{ClosedSubsetsOfCompactSpacesAreCompact}),
-this topological closure is compact:
-
-$$
-  \{x\} \subset W_x \subset \underset{\text{cpt}}{Cl(W_x)} \subset V_x \subset K
-  \,.
-$$
-
-The intersection of this situation with $X$ is the required smaller compact neighbourhood $Cl(W_x) \cap X$:
-
-$$
-  \{x\} \subset W_x \cap X \subset \underset{\text{cpt}}{Cl(W_x)} \cap X \subset U_x \subset X
-  \,.
-$$
-
-
-=--
-
 
 $\,$
 
@@ -10369,6 +9762,949 @@ $$
 is _not_ a homeomorphism, even though this, too, is a bijection on the the underlying sets.
 But the [[half-open interval]] $[0,2\pi)$ is not compact (for instance by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}), and hence prop. \ref{ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
 does not apply.
+
+=--
+
+$\,$
+
+### Locally compact spaces
+
+A topological space is _[[locally compact topological space|locally compact]]_ if each point has a
+[[compact topological space|compact]] [[neighbourhood]]. Or rather, this is the case in locally
+compact [[Hausdorff spaces]]. Without the Hausdorff condition one asks that these compact neighbourhoods
+exist in a certain controlled way (def. \ref{LocallyCompactSpace} below).
+
+It turns out (prop. \ref{LocallyCompactHausdorffAreSubspacesOfCompactHausdorff} below)
+that locally compact Hausdorff spaces are precisely the open [[subspaces]] of
+the [[compact Hausdorff spaces]]  discussed [above](#CompactSpaces).
+
+A key application of local compactness ist that the _[[mapping spaces]]_ (topological spaces
+of continuous functions, def. \ref{CompactOpenTopology} below) out of a locally compact space behave as expected from mapping spaces.
+(prop. \ref{UniversalPropertyOfMappingSpace} below). This gives rise for instance the [[loop spaces]] and [[path spaces]]
+(example \ref{LoopSpace} below) which become of paramount importance in the discussion of [[homotopy theory]].
+
+For the purposes of [[point-set topology]] local compactness is
+useful as a criterion for identifying [[paracompact topological space|paracompactness]]
+(prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below).
+
+
+$\,$
+
+
++-- {: .num_defn #LocallyCompactSpace}
+###### Definition
+**([[locally compact topological space]])**
+
+A [[topological space]] $X$ is called _[[locally compact topological space|locally compact]]_
+if for every point $x \in X$ and every [[open neighbourhood]] $U_x \supset \{x\}$
+there exists a smaller open neighbourhood $V_x \subset U_x$ whose [[topological closure]]
+is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) and still contained in $U$:
+
+$$
+  \{x\} \subset V_x \subset \underset{\text{compact}}{Cl(V_x)} \subset U_x
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(terminology issue regarding "locally compact")**
+
+On top of the terminology issue inherited from that of "compact", remark \ref{CompactTerminology}
+(regarding whether or not to require "[[Hausdorff topological space|Hausdorff]]" with "compact"; we do not),
+the definition of "locally compact" is subject to further ambiguity in the literature.
+There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace}.
+For [[Hausdorff topological spaces]] all these definitions
+happen to be equivalent, but in general they are not.
+The version we state in def. \ref{LocallyCompactSpace} is the one that gives various results
+(such as the [[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace} below)
+_without_ requiring the Hausdorff property.
+
+=--
+
++-- {: .num_example #DiscreteSpacesAreLocallyCompact}
+###### Example
+**([[discrete spaces]] are [[locally compact topological space|locally compact]])**
+
+Every [[discrete topological space]] (example \ref{CoDiscreteTopology}) is [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
+
+=--
+
++-- {: .num_example #MetricSpacesAreLocallyCompact}
+###### Example
+**([[Euclidean space]] is [[locally compact topological space|locally compact]])**
+
+For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) regarded as a [[topological space]] via its
+[[metric topology]] (def. \ref{MetricTopology}), is [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $x \in X$ be a point and $U_x \supset \{x\}$ an [[open neighbourhood]]. By definition
+of the [[metric topology]] (example \ref{MetricTopology}) this means that $U_x$ contains an [[open ball]]
+$B^\circ_x(\epsilon)$ (def. \ref{OpenBalls}) around $x$ of some [[radius]] $\epsilon$.
+This ball also contains the open ball $V_x \coloneqq B^\circ_x(\epsilon/2)$ and its
+topological closure, which is the [[closed ball]] $B_x(\epsilon/2)$. This closed ball
+is compact, for instance by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}).
+
+=--
+
+
++-- {: .num_example #OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}
+###### Example
+**([[open subspaces of compact Hausdorff spaces are locally compact]])**
+
+Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\subset} K$
+of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
+[[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
+
+In particular [[compact Hausdorff spaces]] themselves are [[locally compact topological space|locally compact]].
+
+=--
+
+
++-- {: .proof #ProofOfOpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}
+###### Proof
+
+Let $X$ be a [[topological space]] such that it arises as a [[topological subspace]] $X \subset K$
+of a [[compact Hausdorff space]]. We need to show that $X$ is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
+
+Let $x \in X$ be a point and let $U_x \subset X$ an open neighbourhood.  We need to produce a smaller open neighbourhood
+whose closure is compact and still contained in $U_x$.
+
+By the nature of the [[subspace topology]] there exists an open subset $V_x\subset K$ such that $U_x = X \cap V_x$.
+Since $X \subset K$ is assumed to be open, it follows that $U_x$ is also open as a subset of $K$.
+Since [[compact Hausdorff spaces are normal]] (prop. \ref{CompactHausdorffSpacesAreNormal}) it
+follows by prop. \ref{T4InTermsOfTopologicalClosures} that
+there exists a smaller open neighbourhood $W_x \subset K$ whose [[topological closure]] is still contained in $U_x$,
+and since [[closed subspaces of compact spaces are compact]] (prop. \ref{ClosedSubsetsOfCompactSpacesAreCompact}),
+this topological closure is compact:
+
+$$
+  \{x\} \subset W_x \subset \underset{\text{cpt}}{Cl(W_x)} \subset V_x \subset K
+  \,.
+$$
+
+The intersection of this situation with $X$ is the required smaller compact neighbourhood $Cl(W_x) \cap X$:
+
+$$
+  \{x\} \subset W_x \cap X \subset \underset{\text{cpt}}{Cl(W_x)} \cap X \subset U_x \subset X
+  \,.
+$$
+
+
+=--
+
+
+
+
++-- {: .num_example }
+###### Example
+**(finite [[product space]] of [[locally compact topological space|locally compact spaces]] is locally compact)**
+
+The [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) $\underset{i \in J}{\prod} (X_i, \tau_i)$ of a
+a _[[finite set]]_ $\{ (X_i, \tau_i) \}_{i \in I}$ of [[locally compact topological spaces]] $(X_i, \tau_i)$ (def. \ref{LocallyCompactSpace})
+it itself locally compact.
+
+=--
+
++-- {: .num_example #CountablyInfiniteProductsOfNonCompactSpacesAreNotLocallyCompact}
+###### Nonexample
+**(countably infinite products of non-compact spaces are not locally compact)**
+
+Let $X$ be a [[topological space]] which is _not_ [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}).
+Then the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of
+a [[countable set|countably infinite set]] of copies of $X$
+
+$$
+  \underset{n \in \mathbb{N}}{\prod} X
+$$
+
+is _not_ a [[locally compact space]] (def. \ref{LocallyCompactSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the [[continuous image of a compact space is compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}),
+and since the [[projection]] maps $p_i \;\colon\; \underset{\mathbb{N}}{\prod} X \longrightarrow X$ are continuous
+(by nature of the [[initial topology]]/[[Tychonoff topology]]), it follows that every compact subspace of the product space is contained in one of the form
+
+$$
+  \underset{i \in \mathbb{N}}{\prod} K_i
+$$
+
+for $K_i \subset X$ compact.
+
+But by the nature of the [[Tychonoff topology]], a [[base for a topology|base for the topology]] on $\underset{\mathbb{N}}{\prod} X$ is given by subsets of the form
+
+$$
+  \left(
+    \underset{i \in \{1,\cdots,n\}}{\prod}
+    U_{i}
+  \right)
+  \times
+  \left(
+    \underset{j \in \mathbb{N}_{\gt n}}{\prod}
+    X
+  \right)
+$$
+
+with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\mathbb{N}}{\prod} X$ contains a subset of this kind, but if $X$ itself is non-compact, then none of these is contained in a product of compact subsets.
+
+=--
+
+In the discussion of [[locally Euclidean spaces]] (def. \ref{LocallyEuclideanSpace} below), as well as in other contexts,
+a definition of local compactness that is slightly weaker
+than def. \ref{LocallyCompactSpace} is useful:
+
+
++-- {: .num_defn #LocalCompactnessViaCompactNeighbourhoodBase}
+###### Definition
+**(local compactness via compact neighbourhood base)**
+
+A [[topological space]] is _[[locally compact topological space|locally compact]]_ if for
+for every point $x \in X$ every [[open neighbourhood]] $U_x \supset \{x\}$ contains a [[compact topological space|compact]] [[neighbourhood]] $K_x \subset U_x$.
+
+=--
+
++-- {: .num_prop #InHausdorffSpacesDefinitionsOfLocalCompactnessAgree}
+###### Proposition
+**(equivalence of definitions of local compactness for Hausdorff spaces)**
+
+If $X$ is a [[Hausdorff topological space]], then the two definitions of [[locally compact topological space|local compactness]]
+of $X$
+
+1.  definition \ref{LocalCompactnessViaCompactNeighbourhoodBase} (every open neighbourhood contains a compact neighbourhood),
+
+1. definition \ref{LocallyCompactSpace} (every open neighbourhood contains a compact neighbourhood that is the topological closure of an open neighbourhood)
+
+are equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Generally, definition \ref{LocallyCompactSpace} directly implies definition \ref{LocalCompactnessViaCompactNeighbourhoodBase}. We need to show that Hausdorffness implies the converse.
+
+Hence assume that for every point $x \in X$ then every open neighbourhood $U_x \supset \{x\}$ contains a compact neighbourhood. We need to show that it then also contains the closure $Cl(V_x)$ of a smaller open neighbourhood and such that this closure is compact.
+
+So let $K_x \subset U_x$ be a compact neighbourhood. Being a neighbourhood, it has a non-trivial [[interior]] which is an open neighbouhood
+
+$$
+  \{x\} \subset Int(K_x) \subset K_x \subset U_x \subset X
+  \,.
+$$
+
+Since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}), it follows that $K_x \subset X$ is a closed subset. This implies that the [[topological closure]] of its interior as a subset of $X$ is still contained in $K_x$ (since the topological closure is the smallest closed subset containing the given subset, by def. \ref{def. \ref{ClosedSubset}}): $Cl(Int(K_x)) \subset K_x$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace}), $Cl(Int(K_x))$ is also closed as a subset of the compact subspace $K_x$.
+Now since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), it follows that this closure is also compact as a subspace of $K_x$, and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}), it finally follows that it is also compact as a subspace of $X$:
+
+$$
+  \{x\} \subset Int(K_x) \subset \underset{\text{compact}}{Cl(Int(K_x))} \subset \underset{}{K_x} \subset U_x \subset X
+  \,.
+$$
+
+
+=--
+
+
+
+$\,$
+
+A key application of locally compact spaces is that the [[compact-open topology|space of maps]]
+out of them into any given topological space (example \ref{CompactOpenTopology} below)
+satisfies the expected [[universal property]] of a [[mapping space]] (prop. \ref{UniversalPropertyOfMappingSpace} below).
+
++-- {: .num_example #CompactOpenTopology}
+###### Example
+**(topological [[mapping space]] with [[compact-open topology]])**
+
+For
+
+1. $(X, \tau_X)$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
+
+1. $(Y,\tau_Y)$ any [[topological space]]
+
+then the _[[compact-open topology|mapping space]]_
+
+$$
+  Maps\left(
+    (X,\tau_X), (Y,\tau_Y)
+  \right)
+   \;\coloneqq\;
+  \left(
+    Hom_{Top}(X,Y) , \tau_{\text{cpt-op}}
+  \right)
+$$
+
+is the [[topological space]]
+
+* whose underlying set $Hom_Top(X,Y)$ is the set of [[continuous functions]] $X \to Y$;
+
+* whose topology $\tau_{\text{cpt-op}}$ is generated from the [[topological basis|sub-basis for the topology]] (def. \ref{TopologyBase})
+  which is given by subsets to denoted
+
+  $U^K \subset Hom_{Top}(X,Y)$ for labels
+
+  * $K \subset Y$ a [[compact topological space|compact]] subset,
+
+  * $U \subset X$ an [[open subset]]
+
+  and defined to be those subsets of all those [[continuous functions]] $f$ that take $K$ to $U$:
+
+  $$
+    U^K
+    \;\coloneqq\;
+    \left\{
+      f \colon X \overset{\text{continuous}}{\longrightarrow} Y
+      \;\;\vert\;\;
+      f(K) \subset U
+    \right\}
+      \,.
+  $$
+
+Accordingly this topology $\tau_{\text{cpt-op}}$ is called the _[[compact-open topology]]_ on the set of functions.
+
+=--
+
+
++-- {: .num_prop #UniversalPropertyOfMappingSpace}
+###### Proposition
+**([[universal property]] of the [[mapping space]])**
+
+Let $(X,\tau_X)$, $(Y, \tau_Y)$, $(Z, \tau_Z)$
+be [[topological spaces]], with $X$ [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
+Then
+
+1. The [[evaluation]] function
+
+   $$
+     \array{
+       (X, \tau_X) \times Maps((X,\tau_X), (Y, \tau_Y))
+         & \overset{\phantom{AA} ev \phantom{AA}}{\longrightarrow}&
+       (Y, \tau_Y)
+       \\
+       (x, f)
+         &\overset{\phantom{AAA}}{\mapsto}&
+       f(x)
+     }
+   $$
+
+   is a [[continuous function]].
+
+1. The [[natural bijection]] of [[function sets]]
+
+   $$
+     \array{
+       \underset
+       {Hom_{Set}(X \times Z, Y) }
+       {\underbrace{
+         \left\{
+            X \times Y \longrightarrow Y
+         \right\}
+       }}
+         &\underoverset{}{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}&
+       \underset
+       {Hom_{Set}\left( Z, Hom_{Set}(X,Y) \right)}
+       {\underbrace{
+         \left\{
+            Z \longrightarrow Hom_{Set}(X,Y)
+         \right\}
+       }}
+       \\
+       \left(f \colon (x,z) \mapsto f(x,z) \right)
+         &\overset{\phantom{AAA}}{\mapsto}&
+       \tilde f
+       \colon
+         z \mapsto (x \mapsto f(x,z))
+     }
+   $$
+
+   restricts to a [[natural bijection]] between sets of [[continuous functions]]
+
+   $$
+     \array{
+       \underset
+         {Hom_{Top}((X, \tau_X) \times (Z, \tau_Z), (Y, \tau_Y))}
+       {\underbrace{\left\{
+          (X,\tau_X) \times (Z, \tau_Z) \overset{cts}{\longrightarrow} (Y, \tau_Y)
+       \right\}}}
+         &\underoverset{}{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}&
+       \underset
+         {Hom_{Top}\left( (Z, \tau_Z) , Maps((X,\tau_X), (Y, \tau_Y)) \right)}
+       {\underbrace{\left\{
+          (Z, \tau_Z) \overset{cts}{\longrightarrow} Maps( (X,\tau_X), (Y,\tau_Y) )
+       \right\}}}
+     }
+     \,.
+   $$
+
+Here $Maps((X,\tau_X), (Y,\tau_Y))$ is the [[mapping space]] with [[compact-open topology]] from example \ref{CompactOpenTopology}
+and $(-)\times (-)$ denotes forming the [[product topological space]] (example \ref{BinaryProductTopologicalSpace}, example \ref{InfiniteProductTopologicalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see the continuity of the evaluation map:
+
+Let $V \subset Y$ be an open subset. We need to show that $ev^{-1}(V) = \{(x, f) \vert f(x) \in V\}$
+is a union of products of the form $U \times V^K$ with $U\subset X$ open and $U^K \subset Hom_{Set}(K,U)$ a basic open according to def. \ref{CompactOpenTopology}.
+
+For $(x, f) \in ev^{-1}(V)$, the preimage $f^{-1}(V) \subset X$ is an open neighbourhood of $x$ in $X$, by continuity of $f$.
+By local compactness of $X$, there is a compact subset $K \subset f^{-1}(V)$ which is still a neighbourhood of $x$.
+Since $f$ also still takes that into $V$,
+we have found an open neighbourhood
+
+$$
+  (x,f) \in {K \times V^K} \underset{\text{open}}{\subset} ev^{-1}(V)
+$$
+
+with respect to the product topology. Since this is still contained in $ev^{-1}(V)$, for all $(x,f)$ as above,
+$ev^{-1}(V)$ is exhibited
+as a union of opens, and is hence itself open.
+
+Regarding the second point:
+
+In one direction, let $f \colon (X, \tau_X) \times (Y, \tau_Y) \to (Z \, \tau_Z)$ be a continuous function, and let $U^K \subset Maps(X,Y)$
+be a sub-basic open. We need to show that the set
+
+$$
+  \tilde f^{-1}(U)
+    =
+  \left\{
+    z \in Z \;\vert\;  f(K,z) \subset U
+  \right\}
+   \;\subset\;
+  Z
+$$
+
+is open. To that end, observe that $f(K,z) \subset U$ means that $K \times \{z\} \subset f^{-1}(U)$, where $f^{-1}(U) \subset X \times Y$ is open by the continuity of $f$.
+Hence in the [[topological subspace]] $K \times Z \subset X \times Y$ the inclusion
+
+$$
+  K \times \{z\} \subset \left( f^{-1}(U) \cap (K \times Z) \right)
+$$
+
+is an open neighbourhood. Since $K$ is compact, the [[tube lemma]] (prop. \ref{TheTubeLemma}) gives an
+open neighbourhood $V_z \supset \{z\}$ in $Y$, hence an open neighbourhood $K \times V_z \subset K \times Y$,
+which is still contained in the original pre-image:
+
+$$
+  K \times V_z \;\subset\; f^{-1}(U) \cap (K \times Z) \;\subset\; f^{-1}(U)
+  \,.
+$$
+
+This shows that with every point $z \in \tilde f^{-1}\left(U^K\right)$ also an open neighbourhood of $z$ is contained in $\tilde f^{-1}\left(U^K\right)$,
+hence that the latter is a union of open subsets, and hence itself open.
+
+In the other direction, assume that $\tilde f \colon Z \to Maps((X,\tau_X),(Y,\tau_Y))$ is continuous:
+We need to show that $f$ is continuous. But observe that $f$ is the [[composition|composite]]
+
+$$
+  f
+  =
+  (X, \tau_X) \times (Z,\tau_Z)
+    \overset{id{(X,\tau_X)} \times \tilde f}{\longrightarrow}
+  (X, \tau_X)
+  \times
+  Maps((X,\tau_X), (Y,\tau_Y))
+    \overset{ev}{\longrightarrow}
+  (X,\tau_X)
+  \,.
+$$
+
+Here the first function $id \times \tilde f$ is continuous since $\tilde f$ is by assumption since the product of two continuous functions
+is again continuous (example \ref{FunctorialProductSpace}). The second function $ev$ is continuous by the first point above.
+hence $f$ is continuous.
+
+=--
+
+
++-- {: .num_remark #TopologicalMappingSpaceIsExponentialObject}
+###### Remark
+**([[compact-open topology|topological mapping space]] is [[exponential object]])**
+
+In the language of [[category theory]] (remark \ref{TopCategory}), prop. \ref{UniversalPropertyOfMappingSpace}
+says that the [[mapping space]] construction with its [[compact-open topology]] from def. \ref{CompactOpenTopology}
+is an _[[exponential object]]_ or _[[internal hom]]_. This just means that it beahves in all abstract ways just as
+a [[function set]] does for plain functions, but it does so for continuous functions and being itself
+equipped with a topology.
+
+Moreover, the construction of topological mapping spaces in example \ref{CompactOpenTopology}
+extends to a [[functor]] (remark \ref{TopCategory})
+
+$$
+  (-)^{(-)} \;\colon\; Top_{lcpt}^{op} \times Top \longrightarrow Top
+$$
+
+from the [[product category]] of the category [[Top]] of all [[topological spaces]] (remark \ref{TopCategory})
+with the [[opposite category]] of the [[subcategory]] of [[locally compact topological spaces]].
+
+
+=--
+
++-- {: .num_example #MappingSpaceOutOfPoint}
+###### Example
+**([[compact-open topology|topological mapping space]] construction out of the [[point space]] is the identity)**
+
+The [[point space]] $\ast$ (example \ref{Point}) is clearly a [[locally compact topological space]].
+Hence for every [[topological space]] $(X,\tau)$ the [[compact-open topology|mapping space]] $Maps(\ast, (X,\tau))$
+(exmaple \ref{CompactOpenTopology}) exists. This is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the space $(x,\tau)$ itself:
+
+$$
+  Maps(\ast, (X,\tau))
+    \simeq
+  (X,\tau)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #LoopSpace}
+###### Example
+**([[loop space]] and [[path space]])**
+
+Let $(X,\tau)$ be any [[topological space]].
+
+1. The [[circle]] $S^1$ (example \ref{SpheresAndDisks}) is a [[compact Hausdorff space]] (example \ref{ExamplesOfCompactHausdorffSpaces})
+   hence, by prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}, a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}). Accordingly the [[mapping space]]
+
+   $$
+     \mathcal{L} X \coloneqq Maps( S^1, (X,\tau) )
+   $$
+
+   exists (def. \ref{CompactOpenTopology}). This is called the _[[free loop space]]_ of $(X,\tau)$.
+
+   If both $S^1$ and $X$ are equipped with a choice of point ("[[basepoint]]") $s_0 \in S^1$, $x_0 \in X$, then the [[topological subspace]]
+
+   $$
+     \Omega X \subset \mathcal{L}X
+   $$
+
+   on those functions which take the basepoint of $S^1$ to that of $X$, is called the _[[loop space]]_ of $X$,
+   or sometimes _[[based loop space]]_, for emphasis.
+
+1. Similarly the [[closed interval]] is a [[compact Hausdorff space]] (example \ref{ExamplesOfCompactHausdorffSpaces})
+   hence, by prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}, a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}). Accordingly the [[mapping space]]
+
+   $$
+     Maps( [0,1], (X,\tau) )
+   $$
+
+   exists (def. \ref{CompactOpenTopology}). Again if $X$ is equipped with a choice of basepoint $x_0 \in X$, then the [[topological subspace]]
+   of those functions that take $0 \in [0,1]$ to that chosen basepoint is called the _[[path space]]_ of $(X\tau)$:
+
+   $$
+     P X \subset Maps( [0,1], (X,\tau) )
+     \,.
+   $$
+
+Notice that we may encode these subspaces more abstractly in terms of [[universal properties]]:
+
+The path space and the loop space are characterized, up to [[homeomorphisms]], as being the [[limit|limiting cones]]
+in the following [[pullback]] diagrams of topological spaces (example \ref{Pushout}):
+
+1. [[loop space]]:
+
+   $$
+     \array{
+       \Omega X &\longrightarrow& Maps(S^1, (X,\tau))
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{Maps(const_{s_0}, id_{(X,\tau)})}}
+       \\
+       \ast &\underset{const_{x_0}}{\longrightarrow}& X \simeq Maps(\ast,(X,\tau))
+     }
+     \,.
+   $$
+
+1. [[path space]]:
+
+   $$
+     \array{
+       P X &\longrightarrow& Maps([0,1], (X,\tau))
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{Maps(const_x, id_{(X,\tau)})}}
+       \\
+       \ast &\underset{const_{x_0}}{\longrightarrow}& X \simeq Maps(\ast,(X,\tau))
+     }
+   $$
+
+Here on the right we are using that the mapping space construction is a [[functor]] as shown in remark \ref{TopologicalMappingSpaceIsExponentialObject}, and we are using example \ref{MappingSpaceOutOfPoint} in the
+identification on the bottom right mapping space out of the point space.
+
+=--
+
+$\,$
+
+Above we have seen that open subspace of compact Hausdorff spaces are locally compact Hausdorff spaces.
+Now we prepare to show the converse, namely that every locally compact Hausdorff spaces arises as an
+open subspace of a compact Hausdorff space. That compact Hausdorff space is its "[[one-point compactification]]":
+
++-- {: .num_defn #OnePointExtension}
+###### Definition
+**([[one-point compactification]])**
+
+Let $X$ be any [[topological space]]. Its _[[one-point compactification]]_ $X^*$ is the topological space
+
+* whose underlying [[set]] is the [[disjoint union]] $X \cup \{\infty\}$
+
+* and whose [[open sets]] are
+
+  1. the open subsets of $X$ (thought of as subsets of $X^*$);
+
+  2. the [[complements]] $X^\ast \backslash CK = (X \backslash CK) \cup \{\infty\}$ of the [[closed subspace|closed]] [[compact space|compact]] subsets $CK \subset X$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If $X$ is [[Hausdorff space|Hausdorff]], then it is sufficient to speak of compact subsets in def. \ref{OnePointExtension}, since [[compact subspaces of Hausdorff spaces are closed]].
+
+=--
+
++-- {: .num_lemma #OnePointExtensionWellDefined}
+###### Lemma
+**([[one-point compactification]] is well-defined)**
+
+The [[topological space|topology]] on the [[one-point compactification]] in def. \ref{OnePointExtension} is indeed well defined in that the given set of subsets is indeed closed under arbitrary unions and finite intersections.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The unions and finite intersections of the open subsets inherited from $X$ are closed among themselves by the assumption that $X$ is a topological space.
+
+It is hence sufficient to see that
+
+1. the unions and finite intersection of the $(X \backslash CK) \cup \{\infty\}$ are closed among themselves,
+
+1. the union and intersection of a subset of the form $U \underset{\text{open}}{\subset} X \subset X^\ast$ with one of the form $(X \backslash CK) \cup \{\infty\}$ is again of one of the two kinds.
+
+Regarding the first statement: Under [[de Morgan duality]]
+
+$$
+  \underset{
+     i \in \underset{\text{finite}}{J}
+  }{\cap}
+   (X \backslash CK_i \cup \{\infty\})
+  =
+  X \backslash
+  \left(
+     \left(\underset{i \in \underset{\text{finite}}{J}}{\cup} CK_i \right)
+     \cup
+     \{\infty\}
+  \right)
+$$
+
+and
+
+$$
+  \underset{i \in I}{\cup} ( X \backslash C_i \cup \{\infty\} )
+  =
+  X \backslash
+  \left(
+    \left(\underset{i \in I}{\cap} CK_i \right)
+    \cup
+    \{\infty\}
+  \right)
+$$
+
+and so the first statement follows from the fact that finite unions of compact subspaces and arbitrary intersections of closed compact subspaces are themselves again compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)).
+
+Regarding the second statement: That $U \subset X$ is open means that there exists a closed subset $C \subset X$ with $U = X\backslash C$. Now using [[de Morgan duality]] we find
+
+1. for intersections:
+
+   $$
+     \begin{aligned}
+       U \cap ( (X\backslash CK) \cup \{\infty\} )
+       & =
+       (X \backslash C) \cap (X \backslash CK)
+       \\
+       & =
+       X \backslash ( C \cup CK )
+     \end{aligned}
+   $$
+
+   Since finite unions of closed subsets are closed, this is again an open subset of $X$;
+
+1. for unions:
+
+   $$
+     \begin{aligned}
+       U \cup (X \backslash CK) \cup \{\infty\}
+       & =
+       (X \backslash C) \cup (X \backslash CU) \cup \{\infty\}
+       \\
+       & =
+       (X \backslash (C \cap CK)) \cup \{\infty\}
+     \end{aligned}
+     \,.
+   $$
+
+   For this to be open in $X^\ast$ we need that $C \cap CK$ is again compact. This follows because [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] and because [[closed subsets of compact spaces are compact]].
+
+
+=--
+
++-- {: .num_example #nSphereIsOnePointCompactificationOfRn}
+###### Example
+**([[one-point compactification]] of [[Euclidean space]] is the [[n-sphere]] )**
+
+For $n \in \mathbb{N}$ the [[n-sphere]] with its standard [[topological space|topology]] (e.g. as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$ with its [[metric topology]]) is [[homeomorphism|homeomorphic]] to the [[one-point compactification]] (def. \ref{OnePointExtension}) of the [[Euclidean space] $\mathbb{R}^n$
+
+$$
+  S^n \simeq (\mathbb{R}^n)^\ast
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Pick a point $\infty \in S^n$. By [[stereographic projection]] we have a [[homeomorphism]]
+
+$$
+  S^n \setminus \{\infty\} \simeq \mathbb{R}^n
+  \,.
+$$
+
+With this it only remains to see that for $U_\infty \supset \{\infty\}$ an open neighbourhood of $\infty$ in $S^n$ then the complement $S^n \setminus U_\infty$ is compact closed, and cnversely that the complement of every compact closed subset of $S^n \setminus \{\infty\}$ is an open neighbourhood of $\{\infty\}$.
+
+Observe that under [[stereographic projection]] (example \ref{StandardStereographicProjection}) the open subspaces $U_\infty \setminus \{\infty\} \subset S^n \setminus \{\infty\}$ are identified precisely with the [[closed subset|closed]] and [[bounded subsets]] of $\mathbb{R}^n$. (Closure is immediate, boundedness follows because an open neighbourhood of $\{\infty\} \in S^n$ needs to contain an open ball around $0 \in \mathbb{R}^n \simeq S^n \setminus \{-\infty\}$ in the _other_ stereographic projection, which under change of chart gives a bounded subset. )
+
+By the [[Heine-Borel theorem]] (prop.  \ref{BorelHeine}) the closed and bounded subsets of $\mathbb{R}^n$ are precisely the compact, and hence the compact closed, subsets of $\mathbb{R}^n \simeq S^n \setminus \{\infty\}$.
+
+
+=--
+
+
+The following are the basic properties of the [[one-point compactification]] $X^\ast$ in def. \ref{OnePointExtension}:
+
++-- {: .num_prop #OnePointExtensionIsCompact}
+###### Proposition
+**([[one-point compactification]] is [[compact topological space|compact]])**
+
+For $X$ any [[topological space]], then its [[one-point compactification]] $X^\ast$ (def. \ref{OnePointExtension}) is a [[compact topological space]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\{U_i \subset X^\ast\}_{i \in I}$ be an [[open cover]].  We need to show that this has a finite subcover.
+
+That we have a cover means that
+
+1. there must exist $i_\infty \in I$ such that $U_{i \infty} \supset \{\infty\}$ is an [[open neighbourhood]] of the extra point. But since, by construction, the only open subsets containing that point are of the form $(X \backslash CK) \cup \{\infty\}$, it follows that there is a compact closed subset $CK \subset X$ with $X \backslash CK \subset U_{i \infty}$.
+
+1. $\{U_i \subset X\}_{i \in i}$ is in particular an open cover of that closed compact subset $CK \subset X$. This being compact means that there is a finite subset $J \subset I$ so that $\{U_i \subset X\}_{i \in \J \subset X}$ is still a cover of $CK$.
+
+Together this implies that
+
+$$
+  \{U_i \subset X\}_{i \in J \subset I}
+  \cup
+  \{ U_{i_\infty} \}
+$$
+
+is a finite subcover of the original cover.
+
+
+=--
+
++-- {: .num_prop #HausdorffOnePointCompactification}
+###### Proposition
+**([[one-point compactification]] of locally compact space is Hausdorff precisely if original space is)
+
+Let $X$ be a [[locally compact topological space]]. Then its [[one-point compactification]] $X^\ast$ (def. \ref{OnePointExtension}) is a [[Hausdorff topological space]] precisely if $X$ is.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear that if $X$ is not Hausdorff then $X^\ast$ is not.
+
+For the converse, assume that $X$ is Hausdorff.
+
+Since $X^\ast = X \cup \{\infty\}$ as underlying sets, we only need to check that for $x \in X$ any point, then there is an open neighbourhood $U_x \subset X \subset X^\ast$ and an open neighbourhood $V_\infty \subset X^\ast$ of the extra point which are disjoint.
+
+That $X$ is locally compact implies by definition that there exists an open neighbourhood $U_k \supset \{x\}$ whose [[topological closure]] $CK \coloneqq Cl(U_x)$ is a closed compact neighbourhood $CK \supset \{x\}$. Hence
+
+$$
+  V_\infty \coloneqq (X \backslash CK ) \cup \{\infty\} \subset X^\ast
+$$
+
+is an open neighbourhood of $\{\infty\}$ and the two are disjoint
+
+$$
+  U_x \cap V_\infty = \emptyset
+$$
+
+by construction.
+
+
+=--
+
+
++-- {: .num_prop #InclusionIntoOnePointExtensionIsOpenEmbedding}
+###### Proposition
+**(inclusion into [[one-point compactification]] is open [[embedding of topological spaces|embedding]])**
+
+Let $X$ be a [[topological space]]. Then the evident inclusion function
+
+$$
+  i \;\colon\; X \longrightarrow X^\ast
+$$
+
+into its [[one-point compactification]] (def. \ref{OnePointExtension}) is
+
+1. a [[continuous function]]
+
+1. an [[open map]]
+
+1. an [[embedding of topological spaces]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first point: For $U \subset X$ open and $CK \subset X$ closed and compact, the [[pre-images]] of the corresponding open subsets in $X^\ast$ are
+
+$$
+  i^{-1}(U) = U
+  \phantom{AAAA}
+  i^{-1}( (X \backslash CK) \cup \infty ) = X \backslash CK
+$$
+
+which are open in $X$.
+
+
+Regarding the second point:  The image of an open subset $U \subset X$ is $i(U) = U \subset X^\ast$, which is open by definition
+
+Regarding the third point: We need to show that $i \colon X \to i(X) \subset X^\ast$ is a [[homeomorphism]]. This is immediate from the definition of $X^\ast$.
+
+=--
+
+
+As a corollary we finally obtain:
+
++-- {: .num_prop #LocallyCompactHausdorffAreSubspacesOfCompactHausdorff}
+###### Proposition
+**([[locally compact Hausdorff space|locally compact]] [[Hausdorff spaces]] are the open [[subspaces]] of [[compact Hausdorff spaces]])**
+
+The [[locally compact topological space|locally compact]] [[Hausdorff spaces]] are, up to [[homeomorphism]]
+precisely the ope [[subspaces]] of [[compact Hausdorff spaces]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That every open subspace of a compact Hausdorff space is locally compact Hausdorff was the statement of
+example \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}. It remains to see that every
+locally compact Hausdorff space arises this way.
+
+But if $X$ is locally compact Hausdorff, then its [[one-point compactification]] $X^\ast$ is compact Hausdorff
+by prop. \ref{OnePointExtensionIsCompact} and prop. \ref{HausdorffOnePointCompactification}. Moreover the
+canonical embedding $X \hookrightarrow X^\ast$ exhibts $X$ as an open subspace of $X^\ast$ by prop. \ref{InclusionIntoOnePointExtensionIsOpenEmbedding}.
+
+=--
+
+
+
+$\,$
+
+We close with two observations on [[proper maps]] into locally compact spaces, which will be useful
+in the discussion of [[embeddings of smooth manifolds]] [below](#EmbeddingOfSmoothManifolds).
+
++-- {: .num_prop}
+###### Proposition
+**([[proper maps to locally compact spaces are closed]])**
+
+Let
+
+1. $(X,\tau_X)$ be a [[topological space]],
+
+1. $(Y,\tau_Y)$ a [[locally compact topological space|locally compact]] [[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{LocallyCompactSpace}),
+
+1. $f \colon X \to Y$ a [[proper map]] (def. \ref{ProperContinuous}).
+
+Then $f$ is a [[closed map]] (def. \ref{OpenMap}).
+
+=--
+
+
+
++-- {: .proof}
+###### Proof
+
+Let $C \subset X$ be a [[closed subset]]. We need to show that $f(C) \subset Y$ is closed.
+By lemma \ref{UnionOfOpensGivesClosure} this means we need to show
+that every $y \in Y \setminus f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$..
+
+By local compactness of $(Y,\tau_Y)$ (def. \ref{LocallyCompactSpace}), $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also the intersection $C \cap f^{-1}(Cl(V_y))$ is compact, and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}) so is
+
+$$
+  f\left( C \cap f^{-1}(Cl(V_y)) \right)
+  =
+  f(C) \cap (Cl(V))
+  \;
+  \subset Y
+  \,.
+$$
+
+This is also a [[closed subset]], since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}). Therefore
+
+$$
+  U_y \coloneqq V_y \setminus ( f(C) \cap (Cl(V_y)) ) = V_y \setminus f(C)
+$$
+
+is an open neighbourhod of $y$ not intersecting $f(C)$.
+
+=--
+
+
+
++-- {: .num_prop #InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}
+###### Proposition
+**([[injective proper maps to locally compact spaces are equivalently the closed embeddings]])**
+
+Let
+
+1. $(X,\tau_X)$ be a [[topological space]]
+
+1. $(Y,\tau_Y)$ a [[locally compact topological space|locally compact]] [[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{LocallyCompactSpace}),
+
+1. $f \colon X \to Y$ be a [[continuous function]].
+
+Then the following are equivalent
+
+1. $f$ is an [[injective function|injective]] [[proper map]],
+
+1. $f$ is a closed [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, if $f$ is an injective proper map,
+then since [[proper maps to locally compact spaces are closed]], it follows that $f$ is also  [[closed map]]. The claim then follows since [[closed injections are embeddings]] (prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings}), and since the image of a closed map is closed.
+
+Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image is just the intersection $f^{-1}(C) \simeq C \cap f(X)$. By the nature of the [[subspace topology]], this is compact if $C$ is.
 
 =--
 
@@ -10787,8 +11123,8 @@ $$
 $$
 
 is an open neighbourhood of $Q_n$, hence in particular of $Cl(U_n)$. Moreover, since finite unions of compact
-spaces are compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}), 
-and since the closure of a finite union is the union of the closures (prop. \ref{ClosureOfAFiniteUnionIsUnionOfTheClosures}) 
+spaces are compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}),
+and since the closure of a finite union is the union of the closures (prop. \ref{ClosureOfAFiniteUnionIsUnionOfTheClosures})
 the closure of $U_{n+1}$ is compact:
 
 $$
@@ -11511,60 +11847,6 @@ by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate 
 This way differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
 
 $\,$
-
-In the discussion of [[locally Euclidean spaces]] (def. \ref{LocallyEuclideanSpace} below), as well as in other contexts,
-a definition of local compactness that is slightly weaker
-than def. \ref{LocallyCompactSpace} is useful:
-
-
-+-- {: .num_defn #LocalCompactnessViaCompactNeighbourhoodBase}
-###### Definition
-**(local compactness via compact neighbourhood base)**
-
-A [[topological space]] is _[[locally compact topological space|locally compact]]_ if for
-for every point $x \in X$ every [[open neighbourhood]] $U_x \supset \{x\}$ contains a [[compact topological space|compact]] [[neighbourhood]] $K_x \subset U_x$.
-
-=--
-
-+-- {: .num_prop #InHausdorffSpacesDefinitionsOfLocalCompactnessAgree}
-###### Proposition
-**(equivalence of definitions of local compactness for Hausdorff spaces)**
-
-If $X$ is a [[Hausdorff topological space]], then the two definitions of [[locally compact topological space|local compactness]]
-of $X$
-
-1.  definition \ref{LocalCompactnessViaCompactNeighbourhoodBase} (every open neighbourhood contains a compact neighbourhood),
-
-1. definition \ref{LocallyCompactSpace} (every open neighbourhood contains a compact neighbourhood that is the topological closure of an open neighbourhood)
-
-are equivalent.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Generally, definition \ref{LocallyCompactSpace} directly implies definition \ref{LocalCompactnessViaCompactNeighbourhoodBase}. We need to show that Hausdorffness implies the converse.
-
-Hence assume that for every point $x \in X$ then every open neighbourhood $U_x \supset \{x\}$ contains a compact neighbourhood. We need to show that it then also contains the closure $Cl(V_x)$ of a smaller open neighbourhood and such that this closure is compact.
-
-So let $K_x \subset U_x$ be a compact neighbourhood. Being a neighbourhood, it has a non-trivial [[interior]] which is an open neighbouhood
-
-$$
-  \{x\} \subset Int(K_x) \subset K_x \subset U_x \subset X
-  \,.
-$$
-
-Since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}), it follows that $K_x \subset X$ is a closed subset. This implies that the [[topological closure]] of its interior as a subset of $X$ is still contained in $K_x$ (since the topological closure is the smallest closed subset containing the given subset, by def. \ref{def. \ref{ClosedSubset}}): $Cl(Int(K_x)) \subset K_x$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace}), $Cl(Int(K_x))$ is also closed as a subset of the compact subspace $K_x$.
-Now since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), it follows that this closure is also compact as a subspace of $K_x$, and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}), it finally follows that it is also compact as a subspace of $X$:
-
-$$
-  \{x\} \subset Int(K_x) \subset \underset{\text{compact}}{Cl(Int(K_x))} \subset \underset{}{K_x} \subset U_x \subset X
-  \,.
-$$
-
-
-=--
 
 
 
