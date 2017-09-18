@@ -1,0 +1,16 @@
+## The Big Picture in Mathematics ##
+
+[[Mathematics]] has grown as a discipline to the extent that no single person is able to overview it all.  This is a research page to encourage and organize efforts to foster a perspective upon all of mathematics.
+
+### Big questions ###
+
+Several big questions provide new angles on mathematics as an endeavor:
+
+* **[[Discovery]]** What are the ways of figuring things out in mathematics? We can study mathematics as an activity by which we create and solve mathematical problems. These techniques are much more limited than the mathematical output which they generate.
+* **Beauty** Mathematicians are guided by a sense of beauty. What is meant by beauty? What principles determine it? How does beauty lead to mathematical insight?
+* **Organization** How can mathematics be organized so as to survey the most basic concepts from which it arises and understand it in terms of its most fundamental divisions and how they relate to each other?
+* **Education** What resources are available to mathematicians that would help them most effectively learn matematics so as to try to understand it as a whole? How might mathematicians collaborate effectively in trying to understand the big picture? 
+* **Insight** What are the most fruitful insights in trying to understand mathematics? How can such insights best be stated?
+* **Premathematics** What concepts express intuitions that are prior to explicit mathematics and make it possible?
+* **History** How can the history of mathematical discovery inform frameworks for the future development of mathematics?
+* **Humanity** What parts or aspects of mathematics are specific to the human mind, body, culture, society, and what might be more broadly meaningful to other species in the universe?
