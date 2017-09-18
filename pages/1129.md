@@ -19,16 +19,18 @@
 
 ## Definition
 
-There is a very general notion of _injective objects_ in a [[category]] $C$, and a sequence of refinements as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|or a relative]] thereof.
+There is a very general notion of _injective objects_ in a [[category]] $C$, and then there is a sequence of more concrete notions as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|or a relative]] thereof.
+
+The concept of [[resolutions]] by injective objects -- [[injective resolutions]] -- is crucial notably in the discussion of [[derived functors]] (in the context of [[abelian categories]]: [[derived functors in homological algebra]]).
 
 ### General definition 
 
-Let $C$ be a [[category]] and $J \subset Mor(C)$ a [[class]] of [[morphism]]s in $C$.  
+Let $C$ be a [[category]] and $J \subset Mor(C)$ a [[class]] of [[morphisms]] in $C$.  
 
 +-- {: .num_example}
 ###### Example
 
-Frequently $J$ is the class of all [[monomorphism]]s or a related class.  
+Frequently $J$ is the class of all [[monomorphisms]] or a related class.  
 
 This is notably the case for  $C$ is a [[category of chain complexes]] equipped with the injective [[model structure on chain complexes]] and $J$ is its class of [[cofibrations]].
 
