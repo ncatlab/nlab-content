@@ -8,7 +8,7 @@
 =--
 #### Higher spin geometry
 +-- {: .hide}
-[[!include higher spin geometry -# P contents]]
+[[!include higher spin geometry - contents]]
 =--
 =--
 =--
@@ -42,9 +42,13 @@ If $R$ is the ring of smooth functions on a pseudo-Riemannian manifold $X$, and 
 
 ## Properties
 
-### Classification
+### Classification and Relation to matrix algebras
  {#Classification}
 
+
+
+#### Over the complex numbers
+ {#ClassificationOverTheComplexNumbers}
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -82,6 +86,117 @@ This is one of the incarnations of [[Bott periodicity]].
 
 =--
 
+
+
+#### Over the real numbers
+ {#ClassificationOverTheRealNumbers}
+
+We discuss the classification of Clifford algebras over the [[real numbers]] and their relation to [[matrix algebras]] over the real numbers. A key statement is that of the mod-8 [[Bott periodicity]] of this classification (prop. \ref{RealBottPeriodicity} below).
+
+In the following we write
+
+*  $\Cl_{s,t}$ for the real Clifford algebra with 
+
+   * $s$ generators squaring to -1 
+
+   * $t$ generators squaring to +1
+
+* $\mathbb{C}$ for the [[complex numbers]] regarded as an [[associative algebra]] over $\mathbb{R}$;
+
+
+* $\mathbb{H}$ for the [[quaternions]] regarded as an [[associative algebra]] over $\mathbb{R}$;
+
+* $\mathbb{K}[n] \coloneqq Mat_{n \times n}(\mathbb{K})$ for the [[matrix algebra]] of $n \times n$ matrices with [[coefficients]] in $\mathbb{K}$.
+
++-- {: .num_prop }
+###### Proposition
+
+For low dimensions of real Clifford algebras, there are the following isomorphisms of [[associative algebras]] over $\mathbb{R}$
+
+$$
+  Cl_{0,1}
+  \simeq
+  \mathbb{R} \oplus \mathbb{R}
+$$
+
+$$
+  Cl_{1,1}
+   \simeq
+  \mathbb{R}[2]
+$$
+
+
+$$
+   Cl_{1,0}
+    \simeq
+   \mathbb{C}
+$$
+
+$$
+  Cl_{2,0} \simeq \mathbb{H}
+$$
+
+=--
+
++-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
+###### Proposition
+
+For $n,s,t \in \mathbb{N}$ then there are the following [[isomorphisms]] of [[associative algebras]] over $\mathbb{R}$:
+
+$$
+  Cl_{n+2,0} \simeq Cl_{0,n} \otimes_{\mathbb{R}} Cl_{2,0}
+$$
+
+$$
+  Cl_{0,n+2} \simeq Cl_{n,0} \otimes_{\mathbb{R}} Cl_{0,2}
+$$
+
+$$
+  Cl_{s+1.t+1} \simeq Cl_{s,t} \otimes_{\mathbb{R}} Cl_{1,1}
+$$
+
+=--
+
+(e.g. [Lawson-Michelsohn 89, theorem 4.1](#LawsonMichelsohn89))
+
++-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
+###### Proposition
+
+For $n,n_1, n_2 \in \mathbb{N}$ there are the following [[isomorphisms]] of [[associative algebras]] over $\mathbb{R}$:
+
+* $\mathbb{R}[n_1] \otimes_{\mathbb{R}} \mathbb{R}[n_2] \simeq \mathbb{R}[n_1 n_2]$;
+
+* $\mathbb{R}[n] \otimes_{\mathbb{R}} \mathbb{K} \simeq \mathbb{K}[n]$;
+
+* $\mathbb{C} \otimes_{\mathbb{R}} \mathbb{C} \simeq \mathbb{C} \oplus \mathbb{C}$.
+
+* $\mathbb{C} \otimes_{\mathbb{R}} \mathbb{H} \simeq \mathbb{C}[2]$;
+
+* $\mathbb{H} \otimes_{\mathbb{R}} \mathbb{H} \simeq \mathbb{R}[4]$
+
+=--
+
+(e.g. [Lawson-Michelsohn 89, proposition 4.2](#LawsonMichelsohn89))
+
+
+Now the incarnation in Clifford algebras of [[Bott periodicity]] over the [[real numbers]] is the following:
+
++-- {: .num_prop #RealBottPeriodicity}
+###### Proposition
+
+For all $n \in \mathbb{N}$ there are [[isomorphisms]] of [[associative algebras]] over $\mathbb{R}$ as follows:
+
+* $Cl_{n+8,0} \simeq Cl_{n,0} \otimes_{\mathbb{R}} Cl_{8,0}$;
+
+* $Cl_{0,n+8} \simeq Cl_{0,n} \otimes_{\mathbb{R}} Cl_{0,8}$.
+
+where
+
+* $Cl_{8,0} \simeq Cl_{0,8} \simeq \mathbb{R}[16]$.
+
+=--
+
+(e.g. [Lawson-Michelsohn 89, theorem 4.3](#LawsonMichelsohn89))
 
 ### As a superalgebra
 
@@ -169,7 +284,7 @@ Original work includes
 
 For some standard material see for instance
 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989) ISBN 0-691-08542-0
+* {#LawsonMichelsohn89} [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989) ISBN 0-691-08542-0
 
 * [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_ ([pdf](http://www.math.toronto.edu/mein/teaching/clif_main.pdf))
 
