@@ -1,6 +1,6 @@
 A [[binary algebraic structure]] $(A,\cdot)$ satisfies the medial law or __mediality__ if for all $a,b,c,d\in A$
 $$
-a\cdot b)\cdot(c\cdot d) = (a\cdot c)\cdot (b\cdot d)
+(a\cdot b)\cdot(c\cdot d) = (a\cdot c)\cdot (b\cdot d)
 $$
 Medial unital magmas are, by [[Eckmann-Hilton argument]], automatically Abelian [[monoid]]s. There is a relation between medial quasigroups and
 Abelian groups, given by [[Bruck-Toyoda theorem]]. 
