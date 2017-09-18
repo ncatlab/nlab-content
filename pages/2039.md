@@ -22,7 +22,7 @@
 
 ## Idea
 
-What is called _Bredon cohomology_ after ([Bredon 67](#Bredon67)) is the flavor of $G$-[[equivariant cohomology]] which uses the "fine" [[equivariant homotopy theory]] of [[topological G-spaces]] that by [[Elmendorf's theorem]] is equivalent to the [[homotopy theory]] of [[(∞,1)-presheaves]] over $G$-[[orbit category]], insteadof  the "coarse" [[Borel model structure|Borel homotopy theory]]. See at _[Equivariant cohomology -- Idea](equivariant%20cohomology#Idea)_ for more motivation.
+What is called _Bredon cohomology_ after ([Bredon 67](#Bredon67)) is the flavor of $G$-[[equivariant cohomology]] which uses the "fine" [[equivariant homotopy theory]] of [[topological G-spaces]] that by [[Elmendorf's theorem]] is equivalent to the [[homotopy theory]] of [[(∞,1)-presheaves]] over $G$-[[orbit category]], instead of  the "coarse" [[Borel model structure|Borel homotopy theory]]. See at _[Equivariant cohomology -- Idea](equivariant%20cohomology#Idea)_ for more motivation.
 
 For more technical details see there _[equivariant cohomology -- Bredon equivariant cohomology](equivariant+cohomology#Bredon)_.
 
