@@ -660,7 +660,11 @@ The following non-example shows that sobriety is not a hereditary separation pro
 [[!redirects soberification]]
 [[!redirects soberifications]]
 
+[[!redirects sober reflection]]
+[[!redirects sober reflections]]
 
+[[!redirects soberification reflection]]
+[[!redirects soberification reflections]]
 
 
 [[!redirects topological space with enough points]]
