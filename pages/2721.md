@@ -492,7 +492,7 @@ For more on this see also at _[Weil algebra -- Characterization in the smooth in
 
 Let $\mathfrak{g}$ be a [[reductive Lie algebra]]. Then the subalgebra of invariant polynomials in the [[Weil algebra]] is the [[free construction|free graded algebra]] on the [[graded vector space]] of indecomposable invariant polynomials.
 
-This graded vector space has a vector space [[isomorphism]] of degree -1 to the graded vector space of add generators of the [[Lie algebra cohomology]] $H^\bullet(\mthafrak{g}) = H^\bullet(CE(\mathfrak{g}))$. 
+This graded vector space has a vector space [[isomorphism]] of degree -1 to the graded vector space of add generators of the [[Lie algebra cohomology]] $H^\bullet(\mathfrak{g}) = H^\bullet(CE(\mathfrak{g}))$. 
 
 =--
 
