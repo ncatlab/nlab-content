@@ -30,7 +30,7 @@ More generally, one may consider [[spectrum objects]] in any [[presentable (∞,
 
 As opposed to the [[homotopy groups]] of a [[topological space]], the [[homotopy groups of a spectrum]] are defined and may be non-trivial in _negative_ integer degree. This follows from the fact that the [[loop space]] operation is by construction invertible on spectra, which implies that for every spectrum $E$ these and all $n$, the $n$-fold looping $\Omega^n$ has [[stable homotopy groups]] given by $\pi_{k-n}(\Omega^n E) \simeq \pi_k(E)$.
 
-Those spectra for which the [[homotopy groups of spectra]] in negative degree happen to vanish ae called _[[connective spectra]]_. They are equivalent to [[infinite loop spaces]], i.e. grouplike [[E-∞ spaces]].
+Those spectra for which the [[homotopy groups of spectra]] in negative degree happen to vanish are called _[[connective spectra]]_. They are equivalent to [[infinite loop spaces]], i.e. grouplike [[E-∞ spaces]].
 
 Connective spectra in the image of the [[nerve]] operation of the classical [[Dold-Kan correspondence]]: this identifies [[∞-groupoids]] that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
 
