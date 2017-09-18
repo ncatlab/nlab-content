@@ -30,17 +30,18 @@ This kind of model was brought up independently by several groups of authors (se
 
 * _[[Bose-Einstein condensate]] (BEC) dark matter_
 
+* _[[superfluid]] dark matter_ ([Berezhiani-Khoury 15](#BerezhianiKhoury15), [Khoury 16](#Khoury16))
+
 * _fuzzy dark matter_ ([Wu-Barkana-Gruzinov 00](#WuBarkanaGruzinov00))
 
-* _ultra-light axion_
+* _ultra-light [[axion]]_
 
 * _wave dark matter_
 
 * _repulsive dark matter_
 
-* _(super-)fluid dark matter_
 
-and more
+and more.
 
 
 ## References
@@ -62,7 +63,13 @@ A detailed discussion is in
 
 * {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_,  Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
-and review of the literatue is in 
+Discussion of how [[superfluid]] aspects of [[axion|axionic]] fuzzy dark matter reproduce [[MOND]] [[phenomenology]] is in 
+
+* {#BerezhianiKhoury15} [[Lasha Berezhiani]], [[Justin Khoury]], _Theory of Dark Matter Superfluidity_, Phys. Rev. D 92, 103510 (2015) ([arXiv:1507.01019](https://arxiv.org/abs/1507.01019))
+
+* {#Khoury16} [[Justin Khoury]], _Another Path for the Emergence of Modified Galactic Dynamics from Dark Matter Superfluidity_, Phys. Rev. D 93, 103533 (2016) ([arXiv:1602.05961](https://arxiv.org/abs/1602.05961))
+
+Review of the literatue is in 
 
 * {#Lee17} Jae-Weon Lee, _Brief History of Ultra-light Scalar Dark Matter Models_ ([arXiv:1704.05057](https://arxiv.org/abs/1704.05057))
 
