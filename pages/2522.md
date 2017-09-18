@@ -940,6 +940,8 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
 ## Related concepts
 
+* [[supermultiplet]], [[adinkra]]
+
 * [[naturalness]]
 
 * [[supergeometry]], [[superalgebra]]
@@ -957,7 +959,6 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 * [[unitary representation of the super Poincaré group]]
 
 * [[Haag–Lopuszanski–Sohnius theorem]]
-
 
 * [[extended supersymmetry]]
 
