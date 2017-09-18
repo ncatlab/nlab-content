@@ -568,7 +568,11 @@ The following particular type theories are important enough to (potentially) hav
 ## References
  {#References}
 
-Original articles on mathematical type theory include
+The concept of typing in the [[foundations of mathematics]] goes back to 
+
+* [[Bertrand Russell]], _[[Principia Mathematica]]_, 1910
+
+Original articles on type theory proper in the modern sense ("intuitionistic type theory") include
 
 * {#MartinLoef74} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
