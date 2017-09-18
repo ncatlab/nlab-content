@@ -60,6 +60,7 @@ Hilbert's [[theory]] has
 I ([[Todd Trimble]]) assume Hilbert's theory is, or is at least intended to be, [[categoricity|categorical]] in the model-theoretic sense, at least considered against a fixed set-theoretic background. In other words I assume the real numbers as complete ordered field would be a definable structure and the axioms are uniquely modeled by $\mathbb{R}^3$ with its Euclidean structure. 
 
 ### Tarski's axioms 
+ {#TarskiAxioms}
 
 Tarski's [[theory]] EPG (Elementary Plane [Euclidean] Geometry) is a one-sorted theory in first-order logic with equality, with variables representing points. There are no constants or operations in the signature, and just two relations: 
 
