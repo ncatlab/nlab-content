@@ -212,7 +212,7 @@ Discussion of the duality for abelian gauge theory ([[electromagnetism]]) is is
 
 * [[Edward Witten]], _On S-duality in abelian gauge theory_ Selecta Mathematica, (2):383-410, 1995 ([arXiv:hep-th/9505186](http://arxiv.org/abs/hep-th/9505186))
 
-* Jose Barbon, _Generalized abelian s-duality and coset constructions_, Nuclear Physics B, 452(1):313-330, 1995
+* Jose Barbon, _Generalized abelian S-duality and coset constructions_, Nuclear Physics B, 452(1):313-330, 1995 ([arXiv:hep-th/9506137](http://arxiv.org/abs/hep-th/9506137))
 
 * Gerald Kelnhofer, _Functional integration and gauge ambiguities in generalized abelian gauge theories_ J. Geom. Physics, 59:1017-1035, 200
 
