@@ -50,16 +50,28 @@ Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex
 
 Complex orientation in the [above](#Definition) sense is indeed universal [[MU]]-[[orientation in generalized cohomology]]:
 
-+-- {: .num_prop}
++-- {: .num_prop #ComplexOrientationIsMUAlgebraStructure}
 ###### Proposition
 
-For $E$ an [[E-∞ ring]] then there is a [[bijection]] between [[equivalence classes]] of complex orientations of $E$-cohomology and [[E-∞ ring]]-[[homomorphisms]] $MU \longrightarrow E$ out of [[MU]].
+For $E$ an [[E-∞ ring]] then there is a [[bijection]] between [[equivalence classes]] of complex orientations of $E$-cohomology and [[E-∞ ring]]-[[homomorphisms]] $MU \longrightarrow E$ out of [[MU]], hence equivalence classes of choices of $MU$-[[E-∞ algebra]] structure on $E$ 
 
 =--
 
-([Lurie, lecture 6, theorem 8](#LurieLecture))
+([Hopkins 99, section 4](#Hopkins99), [Lurie, lecture 6, theorem 8](#LurieLecture))
 
 
++-- {: .num_remark}
+###### Remark
+
+In terms of [[E-∞ geometry]]/[[spectral geometry]], prop. \ref{ComplexOrientationIsMUAlgebraStructure} says that complex orientation on $E$ is equivalently a morphism
+
+$$
+  Spec(E)\longrightarrow Spec(MU)
+$$
+
+exhibiting the affine [[E-∞ scheme]] $Spec(E)$ as sitting over $Spec(MU)$. By [[Quillen's theorem on MU]], 
+
+=--
 
 ## Examples
 
@@ -182,7 +194,7 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 
 ## References
 
-* [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+* {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 
 * {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
