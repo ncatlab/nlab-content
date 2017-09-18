@@ -326,17 +326,17 @@ $$
 
 =--
 
-([Lydakis 98, def. 10.20](#Lydakis98), [Lydakis 98b, def. 5.9](Gamma-space#Lydakis98))
+([Lydakis 98, def. 10.20](#Lydakis98), [Lydakis 98b, def. 5.9](Gamma-space#Lydakis98), [MMSS 00, def. 11.6](#MMSS00))
 
 +-- {: .num_prop #SmashProductCompatibleWithTheOneOnSpectra}
 ###### Proposition
 
 Under the Quillen equivalence of prop. 
-\ref{QuillenEquivalenceBetweenSequentialBFAndExcisiveFunctors} the symmetric monoidal [[Day convolution product]] on excisive simplicial functors is identified with the proper [[smash product of spectra]] realized on sequential spectra via def. \ref{SmashProductByDoublingDegrees}.
+\ref{QuillenEquivalenceBetweenSequentialBFAndExcisiveFunctors} the symmetric monoidal [[Day convolution product]] on pre-[[excisive functors]] as well as the [[symmetric monoidal smash product of spectra|symmetric monoidal smash product]] of [[orthogonal spectra]] is identified with the  [[smash product of spectra]] realized on sequential spectra via def. \ref{SmashProductByDoublingDegrees}.
 
 =--
 
-([Lydakis 98, theorem 12.5](#Lydakis98))
+([Lydakis 98, theorem 12.5](#Lydakis98), [MMSS 00, prop. 11.9](#MMSS00))
 
 ## References
 
@@ -347,6 +347,8 @@ Under the Quillen equivalence of prop.
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
 * {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
+
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], section 11 of _[[Model categories of diagram spectra]]_, Proceedings London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
 
 
 * {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
