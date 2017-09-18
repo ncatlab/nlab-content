@@ -830,7 +830,7 @@ Notice that often one writes the value of this functor on a morphism $f$ as $f_\
 +-- {: .num_remark}
 ###### Remark
 
-At this point we don't go further into the abstract reason why def. \ref{HomotopyGroupsOftopologicalSpaces} yields group structure above degree 0, which is that [[positive dimension spheres are H-cogroup objects]]. But this is important, for instance in the proof of the  [[Brown representability theorem]] [below](#BrownRepresentabilityTheorem).
+At this point we don't go further into the abstract reason why def. \ref{HomotopyGroupsOftopologicalSpaces} yields group structure above degree 0, which is that [[positive dimension spheres are H-cogroup objects]]. But this is important, for instance in the proof of the  [[Brown representability theorem]]. See the section _[Brown representability theorem](Introduction+to+Stable+homotopy+theory+--+S#BrownRepresentabilityTheorem)_ in [[Introduction to Stable homotopy theory -- S|Part S]].
 
 =--
 
@@ -2067,7 +2067,7 @@ and we saw first aspects of their interplay via [[lifting properties]].
 
 A fundamental insight due to ([Quillen 67](#Quillen67)) is that in fact _all_ constructions in [[homotopy theory]] are elegantly expressible via just the abstract interplay of these classes of morphisms. This was distilled in ([Quillen 67](#Quillen67)) into a small set of [[axioms]] called a **[[model category]] structure** (because it serves to make all [[objects]] be _models_ for [[homotopy types]].)
 
-This _abstract homotopy theory_ is the royal road for handling any flavor of [[homotopy theory]], in particular the [[stable homotopy theory]] that we are after below in [Part 1)](#StableHomotopyTheory). Here we discuss the basic constructions and facts in abstract homotopy theory, then [below](#TheClassicalModelStructureOfTopologicalSpaces) we conclude P1) by showing that the above system of classes of maps of topological spaces is indeed an example.
+This _abstract homotopy theory_ is the royal road for handling any flavor of [[homotopy theory]], in particular the [[stable homotopy theory]] that we are after in _[[Introduction to Stable homotopy theory -- 1|Part 1]]_. Here we discuss the basic constructions and facts in abstract homotopy theory, then [below](#TheClassicalModelStructureOfTopologicalSpaces) we conclude section P1) by showing that the above system of classes of maps of topological spaces is indeed an example.
 
 **Literature** ([Dwyer-Spalinski 95](#DwyerSpalinski95))
 
@@ -9657,16 +9657,18 @@ $$
     \\
     \Omega Y &\longrightarrow& Path(Y)\times_Y X
     \\
-    \downarrow && \downarrow
+    \downarrow &(pb)& \downarrow
     \\
     \ast &\longrightarrow&  Y \times X
   }
   \,.
 $$
 
-By the pullback stability of acyclic fibrations, this will prove the claim.
+By the [[pasting law]] and the pullback stability of acyclic fibrations, this will prove the claim.
 
-To construct this ([Quillen 67, page 3.1](#Quillen67)): Let $Path(Y)$ be any path space object for $Y$ and let $Path(X)$ be given by a factorization
+To see that the bottom square here is indeed a pullback, check the [[universal property]]: A morphism out of any $A$ into $\ast \underset{Y \times X}{\times} Path(Y) \times_Y X$ is a morphism $a \colon A \to Path(Y)$ and a morphism $b \colon A \to X$ such that $p_0(a) = \ast$, $p_1(a) = f(b)$ and $b = \ast$. Hence it is equivalently just a morphism $a \colon A \to Path(Y)$ such that $p_0(a) = \ast$ and $p_1(a) = \ast$. This is the defining universal property of $\Omega Y \coloneqq \ast \underset{Y}{\times} Path(Y) \underset{Y}{\times} \ast$.
+
+Now to construct the right vertical morphism in the top square ([Quillen 67, page 3.1](#Quillen67)): Let $Path(Y)$ be any path space object for $Y$ and let $Path(X)$ be given by a factorization
 
 $$
   (id_X, \; i \circ f, \; id_X)
@@ -9738,7 +9740,7 @@ $$
 
 One may show that just like the fiber is the _universal_ solution to making such a commuting square (a [[pullback]] [[limit|limit cone]] def. \ref{LimitsAndColimits}), so the homotopy fiber is the universal solution up to homotopy to make such a commuting square up to homotopy -- a [[homotopy pullback]] [[homotopy limit|homotopy limit cone]].
 
-Now just like ordinary [[pullbacks]] satisfy the [[pasting law]] saying that attaching two pullback squares gives a pullback rectangle, the analogue is true for homotopy pullbacks. This implies that if take the homotopy fiber of a homotopy fiber, thereby producing this double homotopy pullback square
+Now just like ordinary [[pullbacks]] satisfy the [[pasting law]] saying that attaching two pullback squares gives a pullback rectangle, the analogue is true for homotopy pullbacks. This implies that if we take the homotopy fiber of a homotopy fiber, thereby producing this double homotopy pullback square
 
 $$
   \array{
