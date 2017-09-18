@@ -1,4 +1,8 @@
 
+> Not to be confused with the [[Hurwitz theorem]].
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -86,6 +90,7 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 ## References
 
+Named after [[Witold Hurewicz]].
 
 The basic statement is for instance in
 
