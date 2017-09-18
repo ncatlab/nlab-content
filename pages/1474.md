@@ -71,6 +71,23 @@ The topology on a [[compact space|compact]] Hausdorff space is given precisely b
 A compact Hausdorff locale (or space) is necessarily [[regular locale|regular]]; a regular locale (or $T_0$ space) is necessarily Hausdorff.  Accordingly, [[locale]] theory usually speaks of 'compact regular' locales instead of 'compact Hausdorff' locales, since the definition of regularity is easier and more natural.  Then a version of the previous paragraph works for compact regular locales *without* the ultrafilter theorem, and indeed [[constructive mathematics|constructively]] over any [[topos]].
 
 
++-- {: .num_prop }
+###### Proposition
+
+[[a CW-complex is a Hausdorff space]].
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+[[compact subspaces of Hausdorff spaces are closed]].
+
+=--
+
+
+
 ## Related notions
 
 Arguably, the desire to make spaces Hausdorff ($T_2$) in analysis is really a desire to make them $T_0$; nearly every space that arises in analysis is at least [[regular space|regular]], and a regular $T_0$ space must be Hausdorff.  Forcing a space to be $T_0$ is like forcing a [[category]] to be [[skeletal category|skeletal]]; indeed, forcing a [[preorder]] to be a [[partial order]] is a special case of both (see [[specialisation topology]] for how).  It may be nice to assume, when working with a particular space, that it is $T_0$ but not to assume, when working with a particular underlying set, that every topology on it is $T_0$.
