@@ -18,7 +18,6 @@
 
 What is called the _Feynman propagator_ (or just _propagator_ for short) in [[quantum field theory]] of [[scalar particles]] or other [[bosons]] is effectively the [[Green's function]] of the [[wave operator]] of the given [[field (physics)]]/[[particle]] (e.g. [GFP](#GFP)).
 
-For [[fermion]] fields the analogous expressions are called _Dirac propagators_.
 
 ### As a Green functions
 
