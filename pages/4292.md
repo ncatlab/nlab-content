@@ -101,3 +101,6 @@ A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in
 [[!redirects power series ring]]
 [[!redirects power series rings]]
 
+[[!redirects formal power series ring]]
+[[!redirects formal power series rings]]
+
