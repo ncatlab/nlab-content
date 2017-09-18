@@ -124,12 +124,6 @@ A [[category theory|general abstract]] way of seeing that the functor is right e
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-The interpretation of this statement in [[higher category theory]]is that $Mod_A$ is a [[2-abelian group]] (see also the discussion at _[[2-ring]]_).
-
-=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -223,6 +217,8 @@ For a general module, a measure of the failure of $(-)\otimes_R N$ to be exact i
 ## Related concepts
 
 * [[tensor product of abelian groups]]
+
+* [[tensor product of vector bundles]]
 
 * [[tensor product of algebras]]
 
