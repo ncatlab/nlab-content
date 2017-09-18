@@ -32,9 +32,9 @@ See for instance the introduction of ([Kirillov-Balsam 10](#KirillovBalson10)) f
 
 ## Properties
 
-### As a boundary of the Yetter model
+### As a boundary of the Crane-Yetter model
 
-The Turaev-Viro model is a [[boundary field theory]] of the [[4d TQFT]] [[Yetter model]] ([Barrett&Garci-Islas&Martins 04, theorem 2](#BarrettGarciIslasMartins04)) Related discussion is in [[Freed]] "[[4-3-2 8-7-6]]".
+The Turaev-Viro model is a [[boundary field theory]] of the [[4d TQFT]] [[Crane-Yetter model]] ([Barrett&Garci-Islas&Martins 04, theorem 2](#BarrettGarciIslasMartins04)) Related discussion is in [[Freed]] "[[4-3-2 8-7-6]]".
 
 ### As an extended TQFT
 
