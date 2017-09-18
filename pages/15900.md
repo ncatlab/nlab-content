@@ -238,10 +238,10 @@ Next Beilinson shows the [[projective bundle formula]] for Beilinson-Deligne coh
 +-- {: .num_prop}
 ###### Proposition
 **(Projective bundle formula)**.
-Let $E$ be an $n$-dimensional [[vector bundle]] on $X$, let $\pi : \mathbf{P}(E) \to X$ be the associated [[projective bundle]], and $\mathcal{O}(1)$ the [[tautological sheaf]] on $\mathbf{P}(E)$.
+Let $E$ be an [[vector bundle]] of rank $r$ on $X$, let $\pi : \mathbf{P}(E) \to X$ be the associated [[projective bundle]], and $\mathcal{O}(1)$ the [[tautological sheaf]] on $\mathbf{P}(E)$.
 The homomorphism
   $$ \oplus c_1(\mathcal{O}(1))^j \cup \pi^*
-       : \bigoplus_{0 \le j \le n-1} H_D(X, A(i-j))[2j]
+       : \bigoplus_{j=0}^{r-1} H_D(X, A(i-j))[2j]
        \longrightarrow H_D(\mathbf{P}(E), A(i)) $$
 is invertible.
 =--
@@ -263,7 +263,19 @@ In particular one gets the [[Chern character]]
 ###### Lemma
 For each $i$, there exists a unique assignment to a [[vector bundle]] $E$ over $X \in \mathcal{V}$ a class
   $$ c_i(E) \in H^{2i}_D(X, A(i)) $$
-that is [[functorial]] with respect to [[inverse images]] and for which $A(i)_D \to A(i)$ sends $c_i(E)$ to the usuaul Chern class in [[Betti cohomology]].
+that is [[functorial]] with respect to [[inverse images]] and for which $A(i)_D \to A(i)$ sends $c_i(E)$ to the usual Chern class in [[Betti cohomology]].
+=--
+
++-- {: .proof}
+###### Proof
+We omit the proof and just recall the construction due to Grothendieck of the Chern classes.
+Let $r = rk(E)$ and write $P = \mathbf{P}(E)$.
+By the projective bundle formula one has
+  $$ H_D^{2r}(P, \mathbf{Z}(r)) = \bigoplus_{i=0}^{r-1} H^{2j+2r}_D(X, \mathbf{Z}(r-j)) $$
+There exist $\gamma_i$ such that
+  $$ \Sigma_{i=0}^r \pi^* \gamma_i \cup c_1(\mathcal{O}_P(1))^{r-i} = 0 $$
+with $\gamma_i \in H_D^{2i}(X, \mathbf{Z}(i))$ and $\gamma_0 = 1$.
+We define $c_i(E) = \gamma_i$.
 =--
 
 #### Homologies
