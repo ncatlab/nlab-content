@@ -167,7 +167,7 @@ Hence the [[tangent space]] to the [[coset]] $E_{7(7)}/(SU(8)/\mathbb{Z}_2)$ may
 $$
   \mathfrak{e}_7/\mathfrak{su}(8)
   \simeq
-  (\mathbb{R}^7\otimes (\mathbb{R}^7)^\ast)_{sym-traceless}
+  \mathbb{R}^7\odot (\mathbb{R}^7)^\ast
   \oplus
   \wedge^3 (\mathbb{R}^7)^\ast
   \oplus
