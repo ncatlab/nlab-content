@@ -107,6 +107,8 @@ Under this interpretation, the definition of that Artin L-function is that of a 
 
 Now given, in [[differential geometry]], a suitable [[hyperbolic manifold]] equipped with an actual [[flat bundle]] over it, then associated with it is the _[[Selberg zeta function]]_. While this was originally defined differently, it turns out that this is also an [[Euler product]] of [[characteristic polynomials]] of [[monodromies]]/[[holonomies]]. See at _[Selberg zeta function -- Analogy with Artin L-function](Selberg+zeta+function#AnalogyWithArtinLFunction)_ for more on this.
 
+See also ([Brown 09, page 6](#Brown09), [Morishita 12, remark 12.7](#Morishita12)).
+
 (The definition also has some similarity to that of the [[Alexander polynomial]], see at _[[arithmetic topology]]_.)
 
 
@@ -138,9 +140,12 @@ Further development includes
 
 * {#RamMurty94} M. Ram Murty, _Selberg's conjectures and Artin -functions_, Bull. Amer. Math. Soc. 31 (1994), 1-14 ([web](http://www.ams.org/journals/bull/1994-31-01/S0273-0979-1994-00479-3/home.html))
 
-Analogy with the [[Selberg zeta function]]
+The analogy with the [[Selberg zeta function]] is discussed in
 
 * {#Brown09} Darin Brown, _Lifting properties of prime geodesics_, Rocky Mountain J. Math. Volume 39, Number 2 (2009), 437-454 ([euclid](http://projecteuclid.org/euclid.rmjm/1239113439))
+
+* {#Morishita12} [[Masanori Morishita]], section 12.1 of _Knots and Primes: An Introduction to Arithmetic Topology_, 2012 ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
+
 
 The analogies between Alexander polynomial and L-functions and touched upon in 
 
