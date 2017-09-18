@@ -779,7 +779,13 @@ $$
 $$
 
 
-It is conventional to depict this in tables where $s$ increases vertically and upwards and $t-s$ increases horizontally and to the right, so that $d_r$ goes up $r$ steps and always one step to the left. This is the "Adams type" grading convention for spectral sequences (different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence))).
+It is conventional to depict this in tables where $s$ increases vertically and upwards and $t-s$ increases horizontally and to the right, so that $d_r$ goes up $r$ steps and always one step to the left. This is the "Adams type" grading convention for spectral sequences (different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence))). One also says that
+
+* $s$ is the _filtration degree_;
+
+* $t-s$ is the _total degree_;
+
+* $t$ is the _internal degree_.
 
 =--
 
@@ -914,7 +920,10 @@ $$
 
 =--
 
-([Adams 74, theorem 15.1 page 319](#Adams74))
+([Adams 74, theorem 15.1 page 319](#Adams74)) Beware that for instance ([Hopkins 99, proof of corollary 5.3](#Hopkins99)) uses $\overline{E}$ to denote noth the homotopy fiber of $\mathbb{S} \overset{e}{\to} E$ but its homotopy cofiber, hence for $\Sigma \overline{E}$ according to ([Adams 74](#Adams74)).
+
+=--
+
 
 +-- {: .num_lemma #Wp}
 ###### Lemma
@@ -1011,7 +1020,7 @@ $$
     E^{s,t}_1(X,Y)
     & 
     \simeq
-    [Y, E \wedge \overline{E}^s \wedge Y]_{s-t}
+    [X, E \wedge \overline{E}^s \wedge Y]_{s-t}
   \end{aligned}
   \,.
 $$
@@ -1488,7 +1497,7 @@ Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod a
 
 
 
-The dual $E$-[[Steenrod algebras]] of def. \ref{HopfAlgebroidStructureOnDualEOperations} evidently carry a lot of structure. In concept organizing this is that of_[[commutative Hopf algebroids]]_.
+The dual $E$-[[Steenrod algebras]] of def. \ref{HopfAlgebroidStructureOnDualEOperations} evidently carry a lot of structure. The concept organizing this is that of_[[commutative Hopf algebroids]]_.
 
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
@@ -1530,7 +1539,7 @@ $$
 
 acting as assigning [[inverses]] with respect to $\circ$.
 
-The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+The key basic fact to use in order to express this equivalently in terms of algebra is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
 
 $$
   Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2) 
@@ -1700,7 +1709,7 @@ It is now striaghtforward, if somewhat tedious, to check that:
 ###### Proposition
 
 Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}, then the dual $E$-[[Steenrod algebra]] $ (E_\bullet(E), \pi_\bullet(E))$ with the
-structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebroidStructureOnDualEOperations} is a graded commutative Hopf algebroid accoring to def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}.
+structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebroidStructureOnDualEOperations} is a graded commutative Hopf algebroid according to def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}.
 
 =--
 
@@ -1710,7 +1719,7 @@ structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebro
 +-- {: .num_remark}
 ###### Remark
 
-In ([Adams 69, lecture 3, page 60](#Adams69)) the terminology used is "Hopf algebra in a fully satisfactory sense" with emphasis that the left and right module structure may differ. Accoring to ([Ravenel 86, first page of appendix A1](#Ravenel86)) the terminology "Hopf algebroid" for this situation is due to [[Haynes Miller]].
+In ([Adams 69, lecture 3, page 60](#Adams69)) the terminology used is "Hopf algebra in a fully satisfactory sense" with emphasis that the left and right module structure may differ. According to ([Ravenel 86, first page of appendix A1](#Ravenel86)) the terminology "Hopf algebroid" for this situation is due to [[Haynes Miller]].
 
 =--
 
@@ -1983,14 +1992,14 @@ The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructu
 +-- {: .num_example #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
 ###### Example
 
-For $Y,N$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian groups]]) given by [[smash product of spectra|smash product]] with $E$
+For $X,N$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian groups]]) given by [[smash product of spectra|smash product]] with $E$
 
 $$
   \pi_\bullet(E \wedge -)
     \;\colon\;
-  [Y,N]_\bullet
+  [X,N]_\bullet
     \longrightarrow
-  Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
+  Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(N))
 $$
 
 factors through $E_\bullet(E)$-[[comodule]] [[homomorphisms]] over the dual $E$-[[Steenrod algebra]]:
@@ -1998,9 +2007,9 @@ factors through $E_\bullet(E)$-[[comodule]] [[homomorphisms]] over the dual $E$-
 $$
   \pi_\bullet(E \wedge -)
     \;\colon\;
-  [Y,N]_\bullet
+  [X,N]_\bullet
     \longrightarrow
-  Hom^\bullet_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+  Hom^\bullet_{E_\bullet(E)}(E_\bullet(X), E_\bullet(N))
   \,.
 $$
 
@@ -2013,17 +2022,16 @@ In order to put all this together, we need to invoke a [[universal coefficient t
 
 If at least one of the following conditions is met
 
-* $Y = \mathbb{S}$ is the [[sphere spectrum]];
+* $X = \mathbb{S}$ is the [[sphere spectrum]];
 
 * $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], 
 
-then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$
-the morphism of $\mathbb{Z}$-[[graded abelian groups]]
+then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$ the morphism of $\mathbb{Z}$-[[graded abelian groups]]
 
 $$
-  [Y,N]_\bullet 
+  [X,N]_\bullet 
     \stackrel{\phi \mapsto \rho \circ (id\wedge \phi)}{\longrightarrow}
-  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(Y), \pi_\bullet(N))_\bullet
+  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(X), \pi_\bullet(N))_\bullet
 $$
 
 is an [[isomorphism]].
@@ -2033,7 +2041,7 @@ is an [[isomorphism]].
 
 For $Y = \mathbb{S}$ this is trivial. For general $Y$ and $E$ among the above examples this is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and see at _[Kronecker pairing -- Universal coefficient theorem](Kronecker+pairing#UniversalCoefficientTheorem)_.
 
-With this we finally get the following statement, which serves to identity maps of certain spectra with their induced maps on $E$-homology:
+With this we finally get the following statement, which serves to identify maps of certain spectra with their induced maps on $E$-homology:
 
 +-- {: .num_prop #ComoduleHomForENCohomology}
 ###### Proposition
@@ -2043,9 +2051,9 @@ If the assumption of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra
 $$
  \pi_\bullet(E\wedge (-))
    \;\colon\;
- [Y, E\wedge N]_\bullet 
+ [X, E\wedge N]_\bullet 
    \stackrel{}{\longrightarrow}
-  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y), E_\bullet(Y)))
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(X), E_\bullet(N)))
 $$
 
 is an [[isomorphism]].
@@ -2062,10 +2070,10 @@ By the general formula for expressing [[adjuncts]], the morphism fits into the f
 
 $$
   \array{
-    [Y, E \wedge N]_\bullet
+    [X, E \wedge N]_\bullet
       &\stackrel{\pi_\bullet(E\wedge(-))}{\longrightarrow}&
     Hom_{E_\bullet(E)}(
-      E_\bullet(Y), 
+      E_\bullet(X), 
       E_\bullet(E \wedge N)
     )
     \\
@@ -2073,11 +2081,11 @@ $$
       \downarrow^{\mathrlap{\simeq}}
     && \downarrow^{\mathrlap{\simeq}}
     \\
-    Hom_{\pi_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+    Hom_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(N))
       &\stackrel{\simeq}{\longleftarrow}& 
     Hom_{E_\bullet(E)}(
-      E_\bullet(Y), 
-      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+      E_\bullet(X), 
+      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(N)
     )
   }
   \,,
@@ -2271,16 +2279,15 @@ Hence the next step is to identify the chain homology of this $d_1$ with the com
 
 If 
 
-1. $E$ is flat, def. \ref{FlatE}, and satisfies the conditions of prop. \ref{AdamsUCT}, 
+1. $E$ is flat (def. \ref{FlatE}) and satisfies the conditions of prop. \ref{AdamsUCT}, 
 
 2. $E_\bullet(Y)$ a [[projective module]] over $\pi_\bullet(E)$, 
 
-then the entries of the second page
-of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[X,Y]$ are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
+then the entries of the second page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[X,Y]_\bullet$ are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
 
 
 $$
-  \mathcal{E}^{s,t}_2
+  E_2^{s,t}(X,Y)
   \simeq
   Ext^{s,t}_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
   \,.
@@ -2289,7 +2296,7 @@ $$
 In the special case that $X = \mathbb{S}$, then (by prop. \ref{ComoduleHomInTermsOfCotensorProduct}) these are equivalently [[Cotor]]-groups
 
 $$
-  \mathcal{E}^{s,t}_2
+  E^{s,t}_2(X,Y)
     \simeq
   Cotor^{s,t}_{E_\bullet(E)}(\pi_\bullet(E), E_\bullet(Y))
   \,.
@@ -2450,6 +2457,8 @@ Here the second equivalence is the cofree/forgetful adjunction isomorphism of pr
 =--
 
 With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence} is completed.
+
+
 
 
 #### Convergence 
@@ -3075,7 +3084,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The notation for $\overline{E}$ in def. \ref{NormalizedEResolution} follows ([Bousfield 79, section 5](#Bousfield79)). In ([Hopkins 99](#Hopkins99)) the same notation is used not for the homotopy fiber but for the homotopy cofiber. While our notation makes plenty of "$\Sigma$"s appear in the above resolution, the advantage is that in the induced inverse sequence of a normalized resolution below in example \ref{NormalizedEResolutionAssociatedSequence} these all drop out and we are left with the original form of the expressions as considered by ([Adams 74](#Adams74)) and followed in most of the literature. 
+The notation for $\overline{E}$ in def. \ref{NormalizedEResolution} follows ([Bousfield 79, section 5](#Bousfield79)). In ([Hopkins 99, proof of corollary 5.3](#Hopkins99)) the same notation is used not for the homotopy fiber of $\mathbb{S} \overset{e}{\to} E$ but for its homotopy cofiber. While our notation makes plenty of "$\Sigma$"s appear in the above resolution, the advantage is that in the induced inverse sequence of a normalized resolution below in example \ref{NormalizedEResolutionAssociatedSequence} these all drop out and we are left with the original form of the expressions as considered by ([Adams 74](#Adams74)) and followed in most of the literature. 
 
 =--
 
