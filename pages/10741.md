@@ -5,8 +5,12 @@
 
 * [[Hopf invariant one]]
 
+* [[Hopf construction]]
+
 ## References
 
 * Wikipedia _[Hopf invariant](http://en.wikipedia.org/wiki/Hopf_invariant)_
+
+* J. Boardman, B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
 
 [[!redirects Hopf invariants]]
