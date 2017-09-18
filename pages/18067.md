@@ -80,19 +80,19 @@ $$
 This is an [[equivalence]] if $R$ is of [[characteristic zero]] ([Khan 16, prop. 2.7.4](#Khan16)).
 
 
-{#OnSuspensionOfGroundRingInIntroduction} Similarly, if $E = \Sigma^n R \simeq R \wedge S^n$ is a [[suspension]] of $R$, regarded as an $R$-[[module spectrum]], then
+{#OnSuspensionOfGroundRingInIntroduction} Similarly, if $E = \Sigma^n R \simeq R \wedge S^n$ is the $n$-fold [[suspension]] of $R$, regarded as an $R$-[[module spectrum]], then
 $$
   \begin{aligned}
     Sym_R(\Sigma^n R)
     & \simeq
     R \wedge \left(
-      \underset{n \in \mathbb{N}}{\coprod} S^n/\Sigma(n)
+      \underset{k \in \mathbb{N}}{\coprod} S^k/\Sigma(k)
     \right)_+
     \\
     & \simeq 
     R \wedge \left(
-      \underset{n \in \mathbb{N}}{\coprod}
-      (B \Sigma(n))^{\tau_n}
+      \underset{k \in \mathbb{N}}{\coprod}
+      (B \Sigma(k))^{n \tau_k}
     \right)
   \end{aligned}
   \,,
@@ -143,8 +143,9 @@ $$
     \right)
     \\
     & \simeq
-    R \wedge
-    Sym_{\mathbb{S}}(\Sigma \mathbb{S})
+    Spec\left(
+      R \wedge Sym_{\mathbb{S}}(\Sigma \mathbb{S})
+    \right)
   \end{aligned}
 $$
 
@@ -164,6 +165,8 @@ Symmetric algebras in the context of [[power operation]] on [[generalized (Eilen
 * {#Rezk14} [[Charles Rezk]], _Isogenies, power operations, and homotopy theory_, article ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-talk-posted.pdf)) and talk at ICM 2014 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-2014-slides.pdf))
 
 See also
+
+* [[Jacob Lurie]], examples 3.5.4 in _Elliptic Cohomology I_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
 
 * {#Khan16} [[Adeel Khan]], sections 2.6 and 2.7 of _Brave new motivic homotopy theory I_ ([arXiv:1610.06871](https://arxiv.org/abs/1610.06871))
 
