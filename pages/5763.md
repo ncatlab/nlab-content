@@ -672,7 +672,7 @@ For $A = B(H) \in C^\ast Alg$ as above, we have a natural bijection between the 
 The idea is that for $A \in C^* Alg$, the Bohr topos 
 $Bohr(A) = (Sh(Alex(\mathcal{C}(A))), \underline{A}) \in C^* TopSpace \subset C^* Topos$ _is_ the corresponding quantum [[phase space]].  More precisely, we may think of the internal commutative $C^*$-algebra $\underline{A} \in Bohr(A)$ as the [[Isbell duality|formal dual]] to the quantum phase space.
 
-The following discussion makes this precise by exhibiting this formal dual as an [[internal locale]]. Since $Bohr(A)$ is a spatial topos, this internal locale is in fact an ordinary [[topological space]] [[bundle]] $\Sigma \to Alex \mathcal{C}(A)$ over the [[Alexandroff space]] $Alex \mathcal{C}(A)$.
+The following discussion makes this precise by exhibiting this formal dual as an [[internal locale]]. Since $Bohr(A)$ is a [[spatial topos]], this internal locale is in fact an ordinary [[topological space]] [[bundle]] $\Sigma \to Alex \mathcal{C}(A)$ over the [[Alexandroff space]] $Alex \mathcal{C}(A)$.
 
 +-- {: .num_defn #TheInternalLocale}
 ###### Definition
