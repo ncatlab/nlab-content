@@ -56,4 +56,9 @@ A discussion of model structures on spectra in general ambient model categories 
 
 
 [[!redirects model category of spectra]]
+[[!redirects model categories of spectra]]
+
 [[!redirects model structures of spectra]]
+
+
+
