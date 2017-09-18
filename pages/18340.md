@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+
 +-- {: .num_theorem} 
 ###### Theorem 
 
@@ -48,3 +61,7 @@ for some $g \in [0,1]$. We need to show that the latter is true, and for $g = 1$
 This gives a [[proof by contradiction]].
 
 =--
+
+
+[[!redirects closed intervals are compact]]
+
