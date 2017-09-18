@@ -9,6 +9,8 @@
 
 * [[conformal net]]
 
+* [[Chern-Simons theory]]
+
 category: people
 
 [[!redirects Andre Henriques]]
