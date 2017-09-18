@@ -107,13 +107,17 @@ Therefore on homotopy 1-types the 0-connected/0-truncated factorization system i
 
 The general abstract statement is in 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ 
 
 A [[model category]]-theoretic discussion is in section 8 of
 
-* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
- {#Rezk}
+* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+ 
+
+Disucssion in [[homotopy type theory]] is in 
+
+* [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 
 [[!redirects n-connected/n-truncated factorization system]]
