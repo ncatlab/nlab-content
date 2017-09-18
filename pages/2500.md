@@ -74,7 +74,7 @@ This uniqueness (under mild conditions) is one reason for interest in supergravi
 
 Ordinary [[Einstein gravity]] has a natural formulation in terms of [[Cartan geometry]] for the inclusion of the [[Lorentz Lie algebra]] into the [[Poincaré Lie algebra]] $\mathfrak{o}(d-1,1) \hookrightarrow \mathfrak{Iso}(\mathbb{R}^{d-1,1})$. In this [[first order formulation of gravity]] a [[field (physics)|field]] configuration is a [[Cartan connection]] with such [[coefficients]].
 
-This persepctive directly generalizes to [[supergeometry]] and yields the _superspace formulation_ of theories of supegravity.
+This persepctive directly generalizes to [[supergeometry]] and yields the _superspace formulation_ of theories of supegravity -- _[[super Cartan geometry]]_.
 
 After picking a [[dimension]] $d\in \mathbb{N}$ and writing $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ for the [[Poincaré Lie algebra]], then a choice of "number of supersymmetries" is a choice of [real spin representation](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature) $N$. Then the [[direct sum]] 
 
