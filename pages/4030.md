@@ -60,7 +60,7 @@ $$
   \,.
 $$
 
-This construction defines a functor $\Pi_0 : E \to Set : A \mapsto \pi_0(A)$ which is [[left adjoint]] to the [[constant sheaf]] functor, the [[left adjoint]] part of the [[global section]] [[geometric morphism]].  
+This construction defines a functor $\Pi_0 : \mathcal{E} \to Set : A \mapsto \pi_0(A)$ which is [[left adjoint]] to the [[constant sheaf]] functor, the [[left adjoint]] part of the [[global section]] [[geometric morphism]].  
 
 Thus, for a locally connected topos we have
 
