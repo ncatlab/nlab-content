@@ -1,3 +1,4 @@
+[[!redirects uniform space draft]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
