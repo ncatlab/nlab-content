@@ -1,16 +1,41 @@
+# Hahn series
 
-+-- {: .un_def}
+* table of contents
+{: toc}
+
+## Idea
+
+A Hahn series is a generalization of a [[formal power series]] which allows transfinite sums, as long as the exponents are reverse well-ordered.
+
+## Definition
+
+Let $G$ be an ordered [[abelian group]].
+
++-- {: .un_defn}
 ###### Definition
-The ring of **Hahn series** with [[value group]] $G$, denoted $k[x^G]$, is the ring of functions $f\colon G \to k$ such that $\{x \in G : f(x) \neq 0\}$ is [[well-ordered]] when considered as a subset of the opposite poset $G^{op}$. Addition is defined pointwise, and multiplication is defined by the [[convolution]] product: 
+The ring of **Hahn series** with [[value group]] $G$, denoted $k[t^G]$, is the ring of functions $f\colon G \to k$ such that $\{x \in G : f(x) \neq 0\}$ is [[well-ordered]] when considered as a subset of the opposite poset $G^{op}$. Addition is defined pointwise, and multiplication is defined by the [[convolution]] product: 
 $$(f \cdot g)(x) = \sum_{y+z = x \in G} f(y)g(z)$$
-The [[valuation ring|multiplicative valuation]] $v(f)$ is the least $x \in G^{op}$ for which $f(x) \neq 0$. 
+The [[valuation ring|multiplicative valuation]] $v(f)$ is the least $x \in G^{op}$ for which $f(x) \neq 0$.
 =-- 
+
+Notationally, we may write a Hahn series $f\colon G \to k$ as $\sum_{x\in G} f(x) t^x$.
+
+## Properties
 
 We obtain a [[valuation ring]] from this construction since a valuation ring determines and is determined by a valuation on a [[field]].
 
-+-- {: .un_thm}
++-- {: .un_theorem}
 ###### Theorem
 The ring $k[x^G]$ is a field. If $k$ is [[algebraically closed field|algebraically closed]], then $k[x^G]$ is algebraically closed provided that $G$ is [[divisible group|divisible]]. 
 =-- 
 
 As a corollary, if $G$ is divisible, $k[x^G]$ is [[real closed field|real closed]] if $k$ is real closed. This is because the adjunction of a square root of $-1$ would make $k[x^G]$ algebraically closed, since this gives the same result as constructing the Hahn series over the algebraically closed field $k[\sqrt{-1}]$.
+
+## Examples
+
+* If $G=\mathbb{R}$, then we have Hahn series such as
+  $$ t^1 + t^{3/2} + t^{4/3} + t^{5/4} + \cdots $$
+
+* Via Conway normal forms, the ring of Hahn series with value group the [[surreal numbers]] is isomorphic to the surreal numbers themselves.
+
+* Well-based [[transseries]] can be constructed by iterating the Hahn series construction.
