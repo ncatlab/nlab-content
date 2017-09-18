@@ -17,7 +17,7 @@
 
 Recall:
 
-+-- {: .num_defn #LocallyFiniteCover}
++-- {: .num_defn ##LocallyFiniteCover}
 ###### Definition
 **([[locally finite cover]])**
 
@@ -210,6 +210,11 @@ Then there exists a refinement $\{U'_{\alpha'}\}$ of the original cover, such th
 =--
 
 This appears as ([[Higher Topos Theory|HTT, lemma 7.2.3.5]]).
+
+
+## Related concepts
+
+* [[compact topological space]], [[countably compact topological space]], [[locally compact topological space]], [[strongly compact topological space]], [[sequentially compact topological space]]
 
 
 ## References 
