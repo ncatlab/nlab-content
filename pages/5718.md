@@ -25,25 +25,15 @@ For $p : P \to X$ a [[surjective submersion]] of [[smooth manifold]]s and $k \in
 
 In the case when $p$ is a trivial bundle $p:X\times Y \to X$ its sections are canonically in bijection with maps from $X$ to $Y$ and two sections have the same partial derivatives iff the partial derivatives of the corresponding maps from $X$ to $Y$ agree. So in this case the jet space $J^k P$ is called the space of jets of maps from $X$ to $Y$ and commonly denoted with $J^k(X,Y)$.
 
-### other definitions 
-
-(...)
 
 ### General abstract
+ {#GeneralAbstractDefinition}
 
 We discuss a [[general abstract]] definition of jet bundles.
 
 Let 
 
-* $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] 
-
-* equipped with [[differential cohesion]] 
-
-  $$
-    \mathbf{H} \stackrel{\hookrightarrow}{\stackrel{\overset{\Im}{\leftarrow}}{\stackrel{\overset{}{\longrightarrow}}{\underset{}{\leftarrow}}}} \mathbf{H}_{th}
-  $$ 
-
-  with [[infinitesimal shape modality]] $\Im$
+* $\mathbf{H}$ be an [[(∞,1)-topos]] equipped with [[differential cohesion]] with [[infinitesimal shape modality]] $\Im$;
 
 * and equipped with an [[(∞,2)-sheaf]] 
 
@@ -54,36 +44,64 @@ Let
 
 For $X \in \mathbf{H}$, write $\Im(X)$ for the corresponding [[de Rham space]] object.
 
-Notice that we have the canonical morphism
+Notice that we have the canonical morphism, the $X$-componenet of the [[unit of a monad|unit]] of the $\Im$-[[monad]]
 
 $$
-  i : X \to \Im(X)
+  i \colon X \to \Im(X)
 $$
 
 ("inclusion of constant paths into all infinitesimal paths").
 
-+-- {: .num_defn}
-###### Definition
-
-
-Write 
+The corresponding [[base change]] [[geometric morphism]] is
 
 $$
-  Jet 
-   \;\colon\;
+  (i^\ast \dashv i_\ast)
+  \;\colon\;
   \mathbf{H}_{/X}
    \stackrel{\overset{i^*}{\leftarrow}}{\underset{Jet := i_*}{\to}}
   \mathbf{H}_{/\Im(X)}
 $$
 
-for the corresponding [[base change geometric morphism]].
 
-Its [[direct image]] may be called the _jet bundle [[(∞,1)-functor]]_ . Or rather, if one regards the jet bundle again as a bundle over $X$, then the jet construction is the [[(∞,1)-comonad]] $i^\ast i_\ast$.
++-- {: .num_defn #GeneralAbstractDefinition}
+###### Definition
+
+The _jet bundle operator_ is the [[(∞,1)-comonad]] 
+
+$$
+  i^\ast i_\ast
+  \;\colon\;
+  \mathbf{H}_{/X}
+  \longrightarrow
+  \mathbf{H}_{/X}
+$$
 
 =--
 
-{#InTheContextOf} In the context of [[D-schemes]] this is ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)). The abstract formulation as used here appears in ([Lurie, prop. 0.9](#Lurie)). See also ([Paugam, section 2.3](#Paugam)) for a review.
-There this is expressed dually in terms of algebras in [[D-modules]]. We now indicate how the translation works. For more see also at [differential cohesion -- infinitesimal disk bundle -- relation to jet bundles](differential+cohesion#RelationOfInfinitesimalDiskBundleToJetBundle).
++-- {: .num_remark}
+###### Remark
+
+Since [[base change]] gives even an [[adjoint triple]] $(i_! \dashv i^\ast \dashv i_\ast)$, there is a [[left adjoint]] $T_{inf} X \times_X (-)$ to the jet bundle operator of def. \ref{GeneralAbstractDefinition}, 
+
+$$
+  T_{inf}X \times_X (-) \;\dashv\; Jet
+$$
+
+where $T_{inf} X$ is the [[infinitesimal disk bundle]] of $X$, see at _[differential cohesion -- infinitesimal disk bundle -- relation to jet bundles](differential+cohesion#RelationOfInfinitesimalDiskBundleToJetBundle)_
+
+
+=--
+
++-- {: .num_remark #LiteratureOnGeneralAbstractCharacterization}
+###### Remark
+
+{#InTheContextOf} In the context of [[algebraic geometry]] and of [[D-schemes]] as in ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld), reviewed in [Paugam, section 2.3](#Paugam)), the abstract formulation of def. \ref{GeneralAbstractDefinition} was noticed in ([Lurie, prop. 0.9](#Lurie)). 
+
+In the context of [[differential geometry]] the fact that the jet bundle construction is a co-monad is almost implicit in ([Krasil'shchik-Verbovetsky 98, p. 13, p. 17](#KrasilshchikVerbovetsky98), [Krasilshchik 99, p. 25](#Krasilshchik99)).
+
+=--
+
+In as in ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld), reviewed in[Paugam, section 2.3](#Paugam)) jet bundles are expressed dually in terms of algebras in [[D-modules]]. We now indicate how the translation works. 
 
 +-- {: .num_remark}
 ###### Remark
@@ -171,27 +189,33 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 ## References
 
-The abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
-
-* {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
-
-The explicit description in terms of formal duals of [[commutative monoid]]s in [[D-module]]s is in
-
-* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
- {#BeilinsonDrinfeld}
-
-An exposition of this is in section 2.3 of 
-
-* [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
- {#Paugam}
-
 Standard textbook references include
 
 * G. Sardanashvily, _Fibre bundles, jet manifolds and Lagrangian theory_,  Lectures for theoreticians, [arXiv:0908.1886](http://xxx.lanl.gov/abs/0908.1886)
 
 * Shihoko Ishii, _Jet schemes, arc spaces and the Nash problem_, [arXiv:math.AG/0704.3327](http://arXiv.org/abs/0704.3327)
 
-* D. J. Saunders, _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
+* [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
+
+* {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_ ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
+
+See also
+
+* {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
+
+The abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
+
+* {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
+
+The explicit description in terms of formal duals of [[commutative monoid]]s in [[D-module]]s is in
+
+* {#BeilinsonDrinfeld} [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
+ 
+
+An exposition of this is in section 2.3 of 
+
+* {#Paugam} [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
+ 
 
 A discussion of jet bundles with an eye towards discussion of the [[variational bicomplex]] on them is in chapter 1, section A of
 
