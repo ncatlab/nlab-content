@@ -46,6 +46,32 @@ For more see also at _[[tangent cohesive (∞,1)-topos]]_.
 
 ## Properties
 
+### As (co)module spectra
+
+For $X$ a connected homotopy type, then the $X$-parameterized spectra are equivalently the [[module spectra]] over the [[∞-group ∞-ring]] $\mathbb{S}[\Omega X]$ of the [[∞-group]] corresponding to the [[loop space]].  
+
+To see this, use first that $X$-parameterized spectra are equivalently [[∞-functors]] of [[(∞,1)-categories]] of the form
+
+$$
+  B \Omega X \longrightarrow Spectra
+$$
+
+from the [[delooping]] [[∞-groupoid]] of $\Omega X$ to the [[(∞,1)-category of spectra]], then use that these are equivalenty Spectrum [[enriched functors]] out of the one-object spectrum enriched $\infty$-category with hom-spectrum $\mathbb{S}[\Omega X] \simeq \Sigma^\infty_+ \Omega X$.
+
+Moreover $\mathbb{S}[\Omega X]$-[[module spectra]] are equivalent to [[comodule spectra]] over the coalgebra $\mathbb{S}[X] = \Sigma^\infty_+ X$ induced from the [[coalgebra object]] structure of $X$ in the [[Cartesian monoidal (∞,1)-category]] [[∞Grpd]] via the [[diagonal]] ([here](cartesian+monoidal+infinity%2C1-category#CoalgebraObjects)), and using that $\Sigma^\infty$ is a [[strong monoidal functor]]:
+
+$$
+   CoModSpectra_{\mathbb{S}[X]}
+  \;\simeq\;
+   ModSpectra_{\mathbb{S}[\Omega X]}
+$$
+
+
+([Hess-Shipley 14, theorem 1.2 with prop. 5.18](#HessShipley14))
+
+See also at _[[A-theory]]_.
+
+
 ### Six operations yoga 
  {#SixOperationsYoga}
 
@@ -103,8 +129,12 @@ See also the further references at _[[(∞,1)-module bundle]]_.
 
 Discussion of the [[Beck-Chevalley condition]] is in prop. 4.3.3 of
 
-
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
+
+Discussion of the Kozul duality between $\mathbb{S}[\Omega X]$-module spectra and $\mathbb{S}[X]$-comodule spectra is in
+
+* {#HessShipley14} [[Kathryn Hess]], [[Brooke Shipley]], _Waldhausen K-theory of spaces via comodules_, Advances in Mathematics 290 (2016): 1079-1137 ([arXiv:1402.4719](https://arxiv.org/abs/1402.4719))
+
 
 Discussion as a [[linear homotopy type theory]] is in 
 
