@@ -249,6 +249,9 @@ The suggestion of an $SL(2,\mathbb{Z})$-duality action in [[type II superstring 
 
 * [[John Schwarz]], [[Ashoke Sen]], _Duality Symmetries Of $4D$ Heterotic Strings_, Phys. Lett. 312B (1993) 105-114, 
 
+* [[Ashoke Sen]], _Dyon - Monopole Bound States, Self-Dual Harmonic Forms on the Multi-Monopole Moduli Space, and $SL(2,\mathbb{Z})$ Invariance in String Theory_ ([arXiv:hep-th/9402032](http://arxiv.org/abs/hep-th/9402032))
+
+
 _Duality Symmetric Actions_, Nucl. Phys. B411 (1994) 35-63 ([arXiv:hep-th/9304154](http://arxiv.org/abs/hep-th/9304154))
 
 * [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
