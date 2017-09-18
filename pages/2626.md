@@ -74,6 +74,11 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 * [[MKR dictionary]] in [[arithmetic topology]]
 
+* [[chord diagram]]
+
+* [[Wilson loop]]
+
+
 ## References
 
 For introductions to Knot Theory,
