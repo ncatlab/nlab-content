@@ -27,23 +27,22 @@ In terms of [[adjoint pairs]] of [[modal operators]] in the context of [[modal l
 
 ## Definition
 
-In ([Lawvere 94](#Lawvere94)) an _adjoint cylinder_ is defined to be an [[adjoint triple]] such that the induced [[adjoint pair]] on one of the two sides consists of [[identity]] functors.
-
-This means equivalently that the other [[adjoint pair]] consists of an [[idempotent monad|idempotent]] [[monad]] and [[comonad]] ([[adjoint monads]]), either of the form
+In ([Lawvere 94](#Lawvere94)) an _adjoint cylinder_ is defined to be an [[adjoint triple]] such that the outer two adjoints are [[full and faithful functors]]. This means equivalently that the  induced [[adjoint pair]] on the codomain of these inclusions consists of an [[idempotent monad|idempotent]] [[monad]] and [[comonad]] ([[adjoint monads]]). One may also consider the situation where the middle functor of the adjoint triple is fully faithful, hence one has adjoint [[modal operators]]
+either of the form
 
 $$
   U \;\colon\; modality \dashv comodality
   \,,
 $$
 
-or in the form
+or of the form 
 
 $$
   U \;\colon\; comodality \dashv modality
-  \,,
+  \,.
 $$
 
-hence is an [[adjoint pair]] of [[modal operators]] (as in _[[modal type theory]]_). A category equipped with an adjoint modality of the second form is called a _[[category of being]]_ in ([Lawvere 91](#Lawvere91)). If the category is a [[topos]] then this is also called a _[[level of a topos]]_.
+A category equipped with an adjoint modality of the second form is called a _[[category of being]]_ in ([Lawvere 91](#Lawvere91)). If the category is a [[topos]] then this is also called a _[[level of a topos]]_.
 
 Given any such, we may say that the "unity" expressed by the two opposites is exhibited by the canonical [[natural transformation]]
 
@@ -326,6 +325,7 @@ pages 43-56, 1994.
   
 
 * {#Lawvere96} [[William Lawvere]],  _[[Unity and Identity of Opposites in Calculus and Physics]]_,  Proceedings of ECCT 1994 Tours Conference,  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996).
+
  
 motivated as a formalization of ideas expressed in ([Hegel 1812](#Hegel1812)).
 
