@@ -172,6 +172,10 @@ Now let $ C $ be a $ U $-moderate category (and not small). Then the category of
 ## References
  {#References}
 
+* [[Nicolas Bourbaki]], _Univers_, Appendix to Expose I in [[SGA 4]].
+
+* [[Mike Shulman]], _Set theory for category theory_, [arXiv:0810.1279](http://arxiv.org/abs/0810.1279).
+
 The proof that a Grothendieck universe is equivalently a set of $ \kappa $-small sets for $ \kappa $ an [[inaccessible cardinal]] is in 
 
 * N. H. Williams, _On Grothendieck universes_, Compositio Mathematica, tome 21 no 1 (1969) ([numdam]( http://www.numdam.org/item?id=CM_1969__21_1_1_0))
