@@ -30,4 +30,4 @@
 * [[Jeremy Avigad]],  [[Leonardo de Moura]],  Soonho Kong, _Theorem Proving in Lean_ ([pdf](https://leanprover.github.io/tutorial/tutorial.pdf))
 
 
-* _The Lean Homotopy Type Theory Library_ ([GitHUb](https://github.com/leanprover/lean/blob/master/hott/hott.md))
+* _The Lean Homotopy Type Theory Library_ ([GitHub](https://github.com/leanprover/lean/blob/master/hott/hott.md))
