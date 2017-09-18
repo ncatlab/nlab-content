@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[topological space]] (or more generally, a [[convergence space]]) is _Hausdorff_ if [[convergence]] is unique.  The concept can also be defined for [[locales]] (see Definition \ref{proper} below) and [[categorification|categorified]] (see [Beyond topological spaces](#BeyondTopologicalSpaces) below).  A Hausdorff space is often called $T_2$, since this condition came second in the original list of four [[separation axioms]] (there are more now) satisfied by [[metric space]]s.
+A [[topological space]] (or more generally, a [[convergence space]]) is _Hausdorff_ if [[convergence]] is unique.  The concept can also be defined for [[locales]] (see Definition \ref{proper} below) and [[categorification|categorified]] (see [Beyond topological spaces](#BeyondTopologicalSpaces) below).  A Hausdorff space is often called $T_2$, since this condition came second in the original list of four [[separation axioms]] (there are more now) satisfied by [[metric spaces]].
 
 Hausdorff spaces are a kind of [[nice topological space]]; they do not form a particularly [[nice category of spaces]] themselves, but many such nice categories consist of only Hausdorff spaces.  In fact, [[Felix Hausdorff]]\'s original definition of 'topological space' actually required the space to be Hausdorff, hence the name.  Certainly [[homotopy theory]] (up to [[weak homotopy equivalence]]) needs only Hausdorff spaces.  It is also common in analysis to assume that all spaces encountered are Hausdorff; if necessary, this can be arranged since every space has a Hausdorff quotient (in fact, the Hausdorff spaces form a [[reflective subcategory]] of [[Top]]), although usually an easier method is available than this sledgehammer.
 
@@ -28,10 +28,10 @@ There are many equivalent ways of characterizing a space $S$ as __Hausdorff__. T
 +-- {: .num_defn #classical}
 ###### Definition
 
-Given points $x$ and $y$ of $X$, if $x \neq y$, then there exist [[open neighbourhoods]] $U$ of $x$ and $V$ of $y$ in $S$ such that their [[intersection]] $U \cap V$ is the [[empty set]].
+Given points $x$ and $y$ of $S$, if $x \neq y$, then there exist [[open neighbourhoods]] $U$ of $x$ and $V$ of $y$ in $S$ that are [[disjoint subsets|disjoint]]: such that their [[intersection]] $U \cap V$ is the [[empty set]] (or explicitly, such that $x' \ne y'$ whenever $x' \in U$ and $y' \in V$).
 =--
 
-That is, any two distinct points can be _separated_ by open neighbourhoods.
+That is, any two distinct points can be _separated_ by open neighbourhoods, and it is simply a mundane way of saying that $\ne$ is [[open subset|open]] in the [[product topology]] on $S \times S$.
 
 
 Here is a classically equivalent definition that is more suitable for [[constructive mathematics]]:
@@ -42,7 +42,9 @@ Here is a classically equivalent definition that is more suitable for [[construc
 Given points $x$ and $y$ of $S$, if every neighbourhood $U$ of $x$ in $S$ meets every neighbourhood $V$ of $y$ in $S$ (which means that $U \cap V$ is [[inhabited set|inhabited]]), then $x = y$.
 =--
 
-A more conceptual way of saying this, which makes sense also for [[locales]], is the following:
+This is the mundane way of saying that $=$ is [[closed subset|closed]] in $S \times S$.
+
+Another way of saying this, which makes sense also for [[locales]], is the following:
 
 +-- {: .num_defn #proper}
 ###### Definition
@@ -116,14 +118,19 @@ The only reasonable definition for a [[locale]] $X$ to be **Hausdorff** is that 
 
 This notion of a _Hausdorff locale_ is a special case of that of _[[Hausdorff topos]]_ in [[topos theory]]. This also includes notions such as a _[[separated scheme]]_ etc.  The corresponding relative notion (over an arbitrary [[base topos]]) is that of _[[separated geometric morphism]]_. For schemes see _[[separated morphism of schemes]]_.
 
-In [[constructive mathematics]], the Hausdorff notion multifurcates further, due to the variety of possible meanings of [[closed subspace]].  As a simple example, consider a [[discrete space]] $X$ regarded as a locale.  Since it is locally compact, the locale product $X\times X$ coincides with the space product; but nevertheless we have:
+
+## In constructive mathematics
+
+In [[constructive mathematics]], the Hausdorff notion multifurcates further, due to the variety of possible meanings of [[closed subspace]].  As a simple example, consider a [[discrete space]] $X$ regarded as a locale.  Since it is locally compact, the locale product $X\times X$ coincides with the space product (a theorem that is valid constructively); but nevertheless we have:
 
 1. The diagonal $X\to X\times X$ always has an open complement.
-1. Definition \ref{constructive} above always holds, since $\{x\}$ and $\{y\}$ are neighborhoods of $x$ and $y$, and if they intersect then $x=y$.
-1. The diagonal $X\to X\times X$ is the complement of an open subset if and only if equality in $X$ is $\neg\neg$-stable, such as if $X$ admits a tight [[apartness relation]].
-1. The locale diagonal $\Delta:X\to X\times X$ is a closed sublocale if and only if $X$ has decidable equality.  For closedness of $\Delta$ means that $\Delta_\ast(U\cup \Delta^\ast(V)) \subseteq \Delta_\ast(U) \cup V$ for any $U\in O(X)$ and $V\in O(X\times X)$, where $x\in \Delta^\ast(V)$ means $(x,x)\in V$, while $(x,y)\in \Delta_\ast(U)$ means $(x=y)\to (x\in U)$.  Now let $U = \emptyset$ and $V = \{ (x,x) \mid x\in X \}$.  Then $(x,y) \in \Delta_\ast(U\cup \Delta^\ast(V))$ means $(x=y) \to (\bot \vee (x=x))$, which is a tautology; while $(x,y) \in \Delta_\ast(U) \cup V$ means $((x=y)\to \bot) \vee (x=y)$, i.e. $\neg(x=y) \vee (x=y)$.
+2. Definition \ref{constructive} above always holds, since $\{x\}$ and $\{y\}$ are neighborhoods of $x$ and $y$, and if they intersect then $x=y$.
+3. The diagonal $X\to X\times X$ is the complement of an open subset if and only if equality in $X$ is stable under [[double negation]], in other words if $X$ admits a tight [[inequality relation]].
+4. The locale diagonal $\Delta:X\to X\times X$ is a closed sublocale if and only if $X$ has [[decidable equality]].  For closedness of $\Delta$ means that $\Delta_\ast(U\cup \Delta^\ast(V)) \subseteq \Delta_\ast(U) \cup V$ for any $U\in O(X)$ and $V\in O(X\times X)$, where $x\in \Delta^\ast(V)$ means $(x,x)\in V$, while $(x,y)\in \Delta_\ast(U)$ means $(x=y)\to (x\in U)$.  Now let $U = \emptyset$ and $V = \{ (x,x) \mid x\in X \}$.  Then $(x,y) \in \Delta_\ast(U\cup \Delta^\ast(V))$ means $(x=y) \to (\bot \vee (x=x))$, which is a tautology; while $(x,y) \in \Delta_\ast(U) \cup V$ means $((x=y)\to \bot) \vee (x=y)$, i.e. $\neg(x=y) \vee (x=y)$.
 
 In particular, the statement "all discrete locales are Hausdorff (as locales)" is equivalent to [[excluded middle]].
+
+In terms of 'weakly closed' and 'strongly closed' subsets, as described at [[closed subset]], Definition \ref{constructive} says that $=$ is *weakly* closed in $X \times X$.  If we instead say that $=$ is *strongly* closed, then this means that there is a [[tight inequality]] $\ne$ (the [[symmetric relation|symmetrization]] of the [[exterior]] of $=$) relative to which Definition \ref{classical} holds.  (We use $\ne$ twice in that definition: in the hypothesis that $x \ne y$ and in the conclusion that $x' \ne y'$.)
 
 
 ## Related concepts
