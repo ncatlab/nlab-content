@@ -333,7 +333,7 @@ such that
 
 =--
 
-([Kochmann 96, prop. 4.2.10](#Kochmann96))
+([Kochman 96, prop. 4.2.10](#Kochman96))
 
 
 ## Examples and Applications
@@ -397,7 +397,7 @@ where the idea is attributed to [[George Whitehead]]:
 
 A more detailed account of the proof is in 
 
-* {#Kochmann96} [[Stanley Kochmann]], theorem 4.2.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], theorem 4.2.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 Further discussion of the case of [[twisted K-theory]] is due to
 
