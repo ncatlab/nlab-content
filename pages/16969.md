@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _0-sphere_ $S^0$ is the [[n-sphere]] for $n = 0$. It is the [[disjoint union]] of two points,
+
+$$
+  S^0 \simeq \ast \coprod \ast
+$$
+
+## Related concepts
+
+* [[1-sphere]]
+
+* [[2-sphere]]
+
+* [[4-sphere]]
+
+* [[7-sphere]]
+
+[[!redirects 0-spheres]]
