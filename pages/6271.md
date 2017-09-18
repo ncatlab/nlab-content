@@ -85,12 +85,12 @@ $$
     {\|\psi^{(k-i)}\|_\infty}
    }
   $$
-(where $m^{\underline{j}}$ is the [[falling factorial]] $\prod_{0\leq{h}\lt{j}} (m - h)$, as discussed at [[binomial theorem]], including the special case $m! = m^{\underline{m}}$); also, let $H_0 = 0$ (the [[bottom element]] of $[0,\infty]$, since $0 \leq k \lt 0$ never occurs).  Finally, define
+(where $m^{\underline{j}}$ is the [[falling power]] $\prod_{0\leq{h}\lt{j}} (m - h)$, including the special case $m! = m^{\underline{m}}$); also, let $H_0 = 0$ (the [[bottom element]] of $[0,\infty]$, since $0 \leq k \lt 0$ never occurs).  Finally, define
 $$ f(x) = \sum_{n=0}^\infty c_n \psi(H_n x) x^n .$$
 
 If things go well, the [[derivatives]] of $f$ will be
 $$ f^{(k)}(x) = \sum_{n=k}^\infty \sum_{i=0}^k i!^{-1} k^{\underline{i}} n^{\underline{i}} c_n H_n^{k-i} \psi^{(k-i)}(H_n x) x^{n-i} ,$$
-and I claim that this is so.  Since $H_n x = 0$ for ${|x|} \geq 2/H_n$, we have
+and I claim that this is so.  Since $\psi^{(k-i)}(H_n x) = 0$ for ${|x|} \geq 2/H_n$, we have
 
 $$ 
   \begin{aligned}
