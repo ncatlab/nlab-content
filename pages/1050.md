@@ -122,7 +122,7 @@ A functor $F : C \to D$ between [[abelian categories]] is right exact if and onl
 +-- {: .num_cor #ExactFunctorPreservesExactSequences}
 ###### Corollary
 
-In particular for $0 \to A \to B \to C \to 0$ is an [[exact sequence]] in the abelian category $C$, we have that 
+In particular for $0 \to A \to B \to C \to 0$ an [[exact sequence]] in the abelian category $C$, we have that 
 
 * if $F$ is left exact then 
 
