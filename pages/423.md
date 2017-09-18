@@ -431,7 +431,9 @@ With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuou
 ###### Definition
 **(homeomorphisms)**
 
-An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a _[[homeomorphism]]_. Hence this is a [[continuous function]]
+An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a _[[homeomorphism]]_. 
+
+Hence this is a [[continuous function]]
 
 $$
   f \;\colon\; X \longrightarrow Y
@@ -512,7 +514,14 @@ $$
   S^1 \hookrightarrow \mathbb{R}^2
 $$
 
-be the unit [[circle]] in the [[plane]] ($S^1 = \{(x,y) \in \mathbb{R}^2, x^2 + y^2 = 1\}$) equipped with the [[subspace topology]] (example \ref{SubspaceTopology}) of $\mathbb{R}^2$ equipped with its standard [[metric topology]] (example \ref{MetricTopology}).
+be the unit [[circle]] in the [[plane]] 
+
+$$
+  S^1 = \{(x,y) \in \mathbb{R}^2, x^2 + y^2 = 1\}
+$$
+
+equipped with the [[subspace topology]] (example \ref{SubspaceTopology}) of the plane $\mathbb{R}^2$, 
+which itself equipped with its standard [[metric topology]] (example \ref{MetricTopology}).
 
 Moreover, let
 
@@ -569,9 +578,9 @@ If the sides are identified with opposite orientation, the result is the _[[Möb
 
 > graphics grabbed from [Lawson 03](#Lawson03)
 
+$\,$
+
 Important examples of pairs of spaces that are _not_ homeomorphic include the following:
-
-
 
 
 +-- {: .num_theorem #TopologicalInvarianceOfDimension}
@@ -599,7 +608,7 @@ Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientab
 
 =--
 
-
+$\,$
 
 
 ### Homotopy
@@ -608,7 +617,7 @@ Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientab
 We have seen above that for $n \geq 1$  then the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ is _not_ [[homeomorphic]] to, notably, the point $\ast = \mathbb{R}^0$ (example \ref{OpenBallsHomeomorphicToRn}, theorem \ref{TopologicalInvarianceOfDimension}). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
 
 This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]]
-(example \ref{ProductTopologicalSpace}) with the closed [[interval]]
+(example \ref{ProductTopologicalSpace}) of the open ball with the closed [[interval]]
 
 $$
   \eta \colon [0,1] \times B_0^\circ(1)  \longrightarrow \mathbb{R}^n
@@ -628,7 +637,7 @@ This continuously interpolates between the open ball and the point in that for $
 </div>
 
 We may summarize this situation by saying that there is a
-[[diagram]] of [[continuous function]] of the form
+[[diagram]] of [[continuous functions]] of the form
 
 $$
   \array{
@@ -652,7 +661,7 @@ Such "continuous deformations" are called _[[homotopies]]_:
 ###### Definition
 **(homotopy)**
 
-For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]**
+For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a _[[left homotopy|(left) homotopy]]_
 
 $$
   \eta \colon f \,\Rightarrow_L\, g
@@ -666,7 +675,7 @@ $$
 
 
 out of the [[product topological space]] (example \ref{ProductTopologicalSpace})
-with the standard interval, such that this fits into a [[commuting diagram]] of the form
+of the open ball with the standard interval, such that this fits into a [[commuting diagram]] of the form
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
@@ -688,7 +697,7 @@ $$
   \,.
 $$
 
-(graphics grabbed from J. Tauber [here](http://jtauber.com/blog/2005/07/01/path_homotopy/))
+> graphics grabbed from J. Tauber [here](http://jtauber.com/blog/2005/07/01/path_homotopy/)
 
 =--
 
@@ -698,20 +707,24 @@ $$
 **(homotopy equivalence)**
 
 A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
-is called a _[[homotopy equivalence]]_ if there exists a
-continuous function the other way around,
-$g \;\colon\; Y \longrightarrow X$, and [[left homotopies]], def. \ref{LeftHomotopy}, from the two composites to the identity:
+is called a _[[homotopy equivalence]]_ if 
 
-$$
-  \eta_1 \;\colon\; f\circ g \Rightarrow_L id_Y
-$$
+1. there exists a continuous function the other way around,
+$g \;\colon\; Y \longrightarrow X$, and
 
-and
+1. [[left homotopies]], def. \ref{LeftHomotopy}, from the two composites to the identity:
 
-$$
-  \eta_2 \;\colon\; g\circ f \Rightarrow_L id_X
-  \,.
-$$
+  $$
+    \eta_1 \;\colon\; f\circ g \Rightarrow_L id_Y
+  $$
+
+  and
+
+  $$
+    \eta_2 \;\colon\; g\circ f \Rightarrow_L id_X
+    \,.
+    
+  $$
 
 =--
 
@@ -720,7 +733,8 @@ $$
 ###### Example
 **(open ball is contractible)**
 
-Any [[open ball]] or closed ball, hence any [[Cartesian space]] is [[homotopy equivalence|homotopy equivalent]] to the point
+Any [[open ball]] (or closed ball), hence (by example \ref{OpenBallsHomeomorphicToRn}) any [[Cartesian space]]
+is [[homotopy equivalence|homotopy equivalent]] to the point
 
 $$
   \mathbb{R}^n \underset{homotopy}{\simeq} \ast
@@ -748,7 +762,7 @@ The following three [[graphs]]
 =--
 
 
-
+$\,$
 
 
 ### Connected components
