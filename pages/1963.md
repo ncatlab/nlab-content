@@ -63,7 +63,7 @@ A special case is where $A$ is a [[group algebra]] $k G$ of a [[group]] $G$, and
 ### Graded derivations
 
 A __graded derivation__ of degree $p$ on a [[graded object|graded]] algebra $A$ is a degree-$p$ graded-module homomorphism $d: A \to A$ such that
-$$ d(a b) = d(a) b + (-1)^{pq} a d(b) $$
+$$ d(a b) = d(a) b + (-1)^{p q} a d(b) $$
 whenever $a$ is homogeneous of degree $q$.  (By default, the grade is usually $1$, or sometimes $-1$.)
 
 
@@ -232,7 +232,7 @@ Let now $X$ be a [[topological space|topological]] [[manifold]] and $C(X)$ the a
 
 +-- {: .un_prop}
 ###### Proposition
-The derivations $\delta : C(X) \to C(X)$ are all tivial.
+The derivations $\delta : C(X) \to C(X)$ are all trivial.
 =--
 
 +-- {: .proof}
