@@ -32,6 +32,7 @@ Ring objects can be defined in more general [[symmetric monoidal categories]] as
 
 * A [[topos]] equipped with a ring object is called a [[ringed topos]], see there for more details.
 
+* The [[affine line]] (see there) is a ring object in the given ambient [[topos]].
 
 ## Related concepts
 
