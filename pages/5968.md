@@ -34,7 +34,7 @@ There is another formulation of the same physical content, but using the formali
 * _[Hamiltonian/symplectic version -- In terms of moment maps](#HamiltonianNoetherTheorem)_.
 
 
-## Lagrangian version -- In terms of the variational bicomplex
+## Lagrangian version 
  {#InTermsOfTheVariationalBicomplex}
 
 Here we formulate Noether's theorem for [[local action functional]] in terms of the [[variational bicomplex]] and the [[covariant phase space]].
@@ -95,7 +95,7 @@ From this law for the variation of the Lagrangian, one derives both the [[Euler-
     \,.
    $$
 
-1. On the other hand, assuming that for given $\delta \phi$ the variation $\delta L $ vanishes when these equations of motion hold -- hense assuming that $\delta \phi$ is an _on-shell [[symmetry]]_ of $L$ -- is equivalent to assuming that the above expression is zero even without the left term, hence that
+1. On the other hand, assuming that for given $\delta \phi$ the variation $\delta L $ vanishes when these equations of motion hold -- hence assuming that $\delta \phi$ is an _on-shell [[symmetry]]_ of $L$ -- is equivalent to assuming that the above expression is zero even without the left term, hence that
 
   $$
     \nabla \cdot 
@@ -134,50 +134,52 @@ $$
 (This may be regarded as the [[Legendre transform]] of $\sigma$.)
 
 
-### The formal context
+### Formulation via the variational bicomplex
  {#LagrangianVersionFormalContext}
 
-Let $X$ be a [[spacetime]] of [[dimension]] $n$, $E \to X$ a [[field bundle]], $j_\infty E \to X$ its [[jet bundle]] and 
+Let $X$ be a [[spacetime]] of [[dimension]] $n$, $E \to X$ a [[field bundle]], $Jet(E) \to X$ its [[jet bundle]] and write
 
 $$
-  \Omega^{\bullet,\bullet}(j_\infty E), (D = \delta + d)
+  \Omega^{\bullet,\bullet}(Jet(E)), (d = d_H + d_V)
 $$ 
 
-the corresponding [[variational bicomplex]] with $\delta$ being the vertical and $d$ the horizontal [[differential]].
+the corresponding [[variational bicomplex]] with $d_V$ being the vertical and $d_H$ the horizontal [[de Rham differential]].
 
 
 +-- {: .num_prop #VariationOfTheLagrangian}
 ###### Proposition
 
-For $L \in \Omega^{n,0}(j_\infty E)$ a [[Lagrangian]] we have that 
+For $\mathbf{L} \in \Omega^{n,0}(Jet(E))$ a [[local Lagrangian]] we have a unique decomposition of its [[de Rham differential]]
 
 $$
-  \delta L = E(L) - d \Theta
+  d L = d_V L = \mathbf{E} - d_H \Theta
 $$
 
-for $E$ the [[Euler-Lagrange equations|Euler-Lagrange operator]] and some $\Theta \in \Omega^{n-1,0}(j_\infty E)$.
+such that $\mathbf{E}$ is a [[source form]] -- the [[Euler-Lagrange form]] of $\mathbf{L}$ -- and for some $\Theta \in \Omega^{n-1,0}(j_\infty E)$.
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
+The _dynamical shell_ $\mathcal{E} \hookrightarrow Jet(E)$ is the [[zero locus]] of $\mathbf{E}$ together with its differential consequences.
 
 The [[covariant phase space]] of the Lagrangian is the [[zero locus]]
 
 $$ 
-  \{\phi \in \Gamma(E) | E(L)(j_\infty \phi) = 0\}  
+  \{\phi \in \Gamma(E) | \mathbf{E}(j_\infty \phi) = 0\}  
 $$
 
 that solves the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]].
 
-For $\Sigma \subset X$ any $(n-1)$-dimensional [[submanifold]], 
+For $\Sigma \subset X$ any [[compact topological space|compact]] $(n-1)$-dimensional [[submanifold]], 
 
 $$
-  \delta \theta := \delta \int_\Sigma \Theta
+  \delta \theta \coloneqq \delta \int_\Sigma \Theta
 $$
 
 is the [[presymplectic structure]] on [[covariant phase space]].
+
 
 =--
 
@@ -185,16 +187,16 @@ is the [[presymplectic structure]] on [[covariant phase space]].
 +-- {: .num_defn #Symmetry}
 ###### Definition
 
-A **[[symmetry]]** of $L$ is a [[vertical vector field]] $v$ such that 
+An **infinitesimal variational [[symmetry]]** of $\mathbf{L}$ is a [[vertical vector field]] $v$ such that 
 
 $$
-  v(L) = d \sigma_v
+  \mathcal{L}_v \mathbf{L} = d_H \sigma_v
 $$
 
-for some
+(with $\mathcal{L}_v$ denoting the [[Lie derivative]]) for some
 
 $$
-  \sigma_v \in \Omega^{n-1,0}(j_\infty E)
+  \sigma_v \in \Omega^{n-1,0}(Jet(E))
   \,.
 $$
 
@@ -203,10 +205,10 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-By [[Cartan's magic formula]] this is equivalent to 
+By [[Cartan's magic formula]] and since $v$ is assumed vertical while $L$ is horizontal, this is equivalent to 
 
 $$
-  \iota_{v} \delta L = d \sigma_v
+  \iota_{v} d_V \mathbf{L} = d_H \sigma_v
   \,.
 $$
 
@@ -218,29 +220,27 @@ $$
 A **[[conserved current]]** is an element
 
 $$
-  j \in \Omega^{n-1, 0}(j_\infty E)
+  j \in \Omega^{n-1, 0}(Jet(E))
 $$
 
-which is horizontally closed on [[covariant phase space]]
+which is horizontally closed on the dynamical shell
 
 $$
-  d\, j|_{E(L) = 0} = 0
+  (d_H\, j)|_{\mathcal{E}} = 0
   \,.
 $$
 
 =--
 
-### Statement
-
 With the above notions and notation, **Noether's theorem** states:
 
-+-- {: .num_theorem}
++-- {: .num_theorem #NoetherTheoremViaVariationalBicomplex}
 ###### Theorem
 
-If $v \in T_v(j_\infty E)$ is a [[symmetry]], def. \ref{Symmetry}, then 
+For $v \in T_v(j_\infty E)$ an infinitesimal variational symmetry according to def. \ref{Symmetry}, then 
 
 $$
-  j_v := \sigma_v - \iota_v \Theta
+  j_v \coloneqq \sigma_v - \iota_v \Theta
 $$
 
 is a [[conserved current]], def. \ref{ConservedCurrent}.
@@ -254,17 +254,53 @@ By prop. \ref{VariationOfTheLagrangian} and def. \ref{Symmetry} we have
 
 $$
   \begin{aligned}
-    d (\sigma_v - \iota_v \Theta)
+    d_H (\sigma_v - \iota_v \Theta)
     & =
-    \iota_v \delta L + \iota_v d \Theta
+    \iota_v d_V \mathbf{L} + \iota_v d_H \Theta
     \\
-    & = \iota_v E(L)
+    & = \iota_v \mathbf{E}
   \end{aligned}
   \,.
 $$
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+A symmetry of the [[Lepage form]] 
+
+$$
+  \rho \coloneqq \mathbf{L} + \Theta
+  \,.
+$$
+
+would be defined with the full differential $d = d_V + d_H$:
+
+$$
+  \mathcal{L}_v \rho = d (\sigma_v + \kappa_v)
+  \,,
+$$
+
+where $\sigma$ is horizontal and $\kappa$ is vertical. 
+Decomposing the result into horizontal and vertical components, 
+then for vertical $v$ this is equivalent to the pair of equations
+
+$$
+  \left\{
+    \array{
+       \iota_v \mathbf{E} & = d_H (\sigma_v - \iota_v \Theta) 
+       \\
+       \iota_v \omega & = d_H \kappa_v + d_V \sigma_v 
+    }
+  \right.
+$$
+
+The first one expresses the conserved current corresponding to $v$ as in 
+theorem \ref{NoetherTheoremViaVariationalBicomplex}, the second constrains $v$ to be a [[Hamiltonian vector field]] with respect to the presymplectic current.
 
 =--
+
 
 ## Hamiltonian/symplectic version -- In terms of moment maps 
  {#HamiltonianNoetherTheorem}
@@ -311,9 +347,6 @@ $$
 On the right this is the term in the form in which the conserved quantity obtained from the Nother theorem is traditionally written
 (using that given a [[Lagrangian]] $L$ we have $p_i = \frac{\delta L}{\delta (\dot q^i)}$).
 
-### In higher symplectic geometry
-
-We discuss aspects of the Noether theorem in [[higher symplectic geometry]]/[[higher prequantum field theory]] (...[Schreiber 13](#Schreiber13)....)
 
 ## Related concepts
 
