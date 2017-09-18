@@ -34,7 +34,7 @@ Since such a 3-cocycle is precisely the [[background gauge field]] of the 3d [[T
 A __quasibialgebra__ is a unital [[associative algebra]] $(A,m,\eta)$ with a structure of not necessarily coassociative coalgebra $(A,\Delta,\epsilon)$ and an invertible element $\phi \in A\otimes A\otimes A$ such that 
 
 $$
-(1\otimes\Delta)\Delta(a) = \phi\left((1\otimes\Delta)\Delta(a)\right)\phi^{-1},\,\,\,\,\,\forall a\in A,
+(\Delta \otimes 1)\Delta(a) = \phi\left((1\otimes\Delta)\Delta(a)\right)\phi^{-1},\,\,\,\,\,\forall a\in A,
 $$
 $$
 (1\otimes 1\otimes\Delta)(\phi)(\Delta\otimes 1\otimes 1)(\phi) =
