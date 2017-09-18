@@ -17,6 +17,8 @@ The 2-[[simplex]]. The [[polygon]] with three sides.
 
 * [[circle]]
 
+* [[square]]
+
 * [[tetrahedron]]
 
 [[!redirects triangles]]
