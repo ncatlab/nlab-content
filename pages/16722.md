@@ -40,7 +40,7 @@ If $f:\mathcal{F}\to\mathcal{E}$ is a surjection (i.e. $f^\ast$ is [[faithful]])
 =--
 
 **Proof**: 
-Suppose $f^\ast(Z)\cong \emptyset_\mathcal{F}$ is terminal, then $Hom_\mathcal{F}(\emptyset_\mathcal{F},f^\ast(Y))=Hom_\mathcal{F}(f^\ast(Z),f^\ast(Y))$ is a singleton for all $Y\in\mathcal{E}$ , but by faithfulness of $f^\ast$ this implies that $Hom_\mathcal{E}(Z,Y)$ is a singleton for all $Y\in\mathcal{E}$ , which says that $Z$ is terminal in $\mathcal{E}$. $\qed$
+Suppose $f^\ast(Z)\cong \emptyset_\mathcal{F}$ is initial, then $Hom_\mathcal{F}(\emptyset_\mathcal{F},f^\ast(Y))=Hom_\mathcal{F}(f^\ast(Z),f^\ast(Y))$ is a singleton for all $Y\in\mathcal{E}$ , but by faithfulness of $f^\ast$ this implies that $Hom_\mathcal{E}(Z,Y)$ is a singleton for all $Y\in\mathcal{E}$ , which says that $Z$ is initial in $\mathcal{E}$. $\qed$
 
 +-- {: .num_prop #dominant_dense}
 ###### Proposition
