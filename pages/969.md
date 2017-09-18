@@ -157,6 +157,8 @@ See also [[localization of a simplicial model category]].
 
 * [[localizing subcategory]], [[localizer]]
 
+* [[monoidal localization]]
+
 * [[simplicial localization]]
 
 * [[localization of a simplicial model category]]
