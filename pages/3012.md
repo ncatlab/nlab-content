@@ -97,7 +97,7 @@ Forming categories of operators is left 2-adjoint to forming _[[endomorphism ope
 
 The notion originates in
 
-* [[Peter May]], R. Thomason, _The uniqueness of infinite loop space machines_ , Topology  17(3) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
+* [[Peter May]], [[Robert Thomason]], _The uniqueness of infinite loop space machines_ , Topology  17(3) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
 
 A discussion of the general logic behind the notion is at
 
