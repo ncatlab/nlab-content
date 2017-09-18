@@ -190,7 +190,7 @@ Lecture notes include
 
 * [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, Lectures at the ESI-institute (June 2012)
 
-A general account is in section 4.2 of 
+A general account is in section 5.2 of 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
