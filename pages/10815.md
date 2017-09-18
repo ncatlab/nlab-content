@@ -29,6 +29,10 @@ A [[long exact sequence in cohomology]] induced by a [[spherical fibration]]. A 
 ## Statement
  {#Statement}
 
+
++-- {: .num_prop }
+###### Proposition
+
 Let $R$ be a [[commutative ring]] and let
 
 $$
@@ -41,12 +45,9 @@ $$
   }
 $$
 
-be a [[fiber bundle]] of [[n-spheres]] over a [[simply connected topological space|simply connected]] [[simplicial complex]]. 
+be a [[Serre fibration]] over a [[simply connected topological space|simply connected]] [[CW-complex]] with typical [[fiber]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)) the [[n-sphere]].
 
-+-- {: .num_prop }
-###### Proposition
-
-There exists a [[Thom class]]  $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
+Then there exists an element $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$, called the **Euler class** of $\pi$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
 
 $$
   \cdots 
@@ -70,13 +71,13 @@ $$
 +-- {: .proof}
 ###### Proof
 
-There is the corresponding [[Serre spectral sequence]] 
+Under the given assumptions there is the corresponding [[Serre spectral sequence]] 
 
 $$
   E_2^{s,t}
-  =
+    \;=\;
   H^s(B; H^t(S^n;R))
-  \;\Rightarrow\;
+    \;\Rightarrow\;
   H^{s+t}(E; R)
   \,.
 $$
@@ -95,15 +96,27 @@ $$
   \right.
 $$
 
-most terms on the $E_2$ page of this spectral sequence, and hence on all the further pages, vanish. As a consequence, the only possible non-vanishing differentials $d_r$ are those on the $(n+1)$-page, of the form
+the only possibly non-vanishing terms on the $E_2$ page of this spectral sequence, and hence on all the further pages, are
+
+$$
+  E^{\bullet,0}_2 \simeq H^\bullet(B; R)
+  \,,
+  \;\;\;\;
+  and
+  \;\;\;
+  E^{\bullet,n}_2 \simeq H^\bullet(B; R)
+  \,.
+$$
+
+As a consequence, since the differentials $d_r$ in the Serre spectral sequence have bidegree $(r+1,-r)$, the only possibly non-vanishing differentials are those on the $(n+1)$-page of the form
 
 $$
   \array{
-     E_{n+1}^{s,n} & \simeq & H^s(B;R)
+     E_{n+1}^{\bullet,n} & \simeq & H^\bullet(B;R)
      \\
      {}^{\mathllap{d_{n+1}}}\downarrow
      \\
-     E_{n+1}^{s+n+1,0} & \simeq &  H^{s+n+1}(B;R)
+     E_{n+1}^{\bullet+n+1,0} & \simeq &  H^{\bullet+n+1}(B;R)
   }
   \,.
 $$
@@ -116,21 +129,34 @@ $$
   \iota = 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n} 
 $$
 
-for the unit in the [[cohomology ring]] $H^\bullet(B;R)$, regarded as an element in the $(n+1)$-page of the spectral sequence. Notice that, as such, $\iota$ is not in degree 0, but in bidegree $(0,n)$, in particular $\iota$ is _not_ in $E_{n+1}^{0,0}$ and in particular is not the unit in there, and hence $d_{n+1}(\iota)$ need not vanish. Write
+for the unit in the [[cohomology ring]] $H^\bullet(B;R)$, but regarded as an element in bidegree $(0,n)$ in the $(n+1)$-page of the spectral sequence. (In particular $\iota$ does _not_ denote the unit in bidegree $(0,0)$, and hence $d_{n+1}(\iota)$ need not vanish; while by the [[derivation]] property, it does vanish on the actual unit $1 \in H^0(B;R) \simeq E_{n+1}^{0,0} \simeq $.)
+
+Write
 
 $$
-  c \coloneqq d_{n+1}(\iota) \in E_{n+1}^{n+1,0} \stackrel{\simeq}{\longrightarrow} H^{n+1}(B; R)
+  c 
+    \coloneqq 
+  d_{n+1}(\iota) 
+   \;\;
+  \in E_{n+1}^{n+1,0} 
+    \stackrel{\simeq}{\longrightarrow} 
+  H^{n+1}(B; R)
 $$
 
-for this element. This is the Thom class in question.
+for the image of this element under the differential. We will show that this is the Euler class.
 
-Because, notice that every element in $E_{n+1}^{\bullet,n}$ is of the form $\iota \cdot b$ for $b\in E_{n+1}^{\bullet,0} \simeq H^\bullet(B;R)$, and since $d_{n+1}$ is a [[derivation]] and vanishes on $E_{n+1}^{\bullet,0}$, it follows that its action is fixed by 
+To that end, notice that every element in $E_{n+1}^{\bullet,n}$ is of the form $\iota \cdot b$ for $b\in E_{n+1}^{\bullet,0} \simeq H^\bullet(B;R)$. 
+
+(Because the [[multiplicative spectral sequence|multiplicative structure]] gives a group homomorphism $\iota \cdot(-) \colon H^\bullet(B;R) \simeq E_{n+1}^{0,0} \to E^{0,n}_{n+1} \simeq H^\bullet(B;R)$, which is an isomorphism because the product in the spectral sequence does come from the [[cup product]] in the [[cohomology ring]], see for instance ([Kochman 96, first equation in the proof of prop. 4.2.9](#Kochmann96)), and since hence $\iota$ does act like the unit that it is in $H^\bullet(B;R)$). 
+
+
+Now since $d_{n+1}$ is a graded [[derivation]] and vanishes on $E_{n+1}^{\bullet,0}$ (by the above degree reasoning), it follows that its action on any element is uniquely fixed to be given by the product with $c$:
 
 $$
   \begin{aligned}
     d_{n+1}(\iota \cdot b)
-    & =
-    d_{n+1}(\iota) \cdot b + (-1)^{n} \iota \cdot \underset{= 0}{\underbrace{d_{n+1}(b)}}
+      & =
+    d_{n+1}(\iota) \cdot b + (-1)^{n}\, \iota \cdot \underset{= 0}{\underbrace{d_{n+1}(b)}}
     \\
     & = c \cdot b
   \end{aligned}
@@ -150,7 +176,7 @@ $$
   \,.
 $$
 
-Hence the non-vanishing entries of the $E_\infty$-page of the spectral sequence sit in [[exact sequences]] like so
+Therefore the non-vanishing entries of the $E_\infty$-page of the spectral sequence sit in [[exact sequences]] like so
 
 $$
   \array{
