@@ -662,7 +662,7 @@ Mentioning of the need for [[definite globalizations of WZW terms]] is (ever so 
 
 * {#Witten86} [[Edward Witten]], p. 17 of _Twistor - Like Transform in Ten-Dimensions_, Nucl. Phys. B266 (1986) 245 ([spire](http://inspirehep.net/record/214192/?ln=en))
 
-That there ought to be a systematic study of [[higher Klein geometry]] and higher Cartan geoemtry has been amplified by [[David Corfield]] since 2006.
+That there ought to be a systematic study of [[higher Klein geometry]] and higher Cartan geometry has been amplified by [[David Corfield]] since 2006.
 
 Construction of the higher WZW terms on homotopy quotients $G/H$ of higher super-gorups is due to
 
