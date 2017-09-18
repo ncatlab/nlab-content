@@ -1,0 +1,47 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+The _line with two origins_ is the [[topological space]] which is the [[quotient topological space]] of the [[disjoint union]] 
+
+$$
+  \mathbb{R} \sqcup \mathbb{R}
+  \simeq
+  \mathbb{R} \times \{a\}
+  \,\sqcup\,
+  \mathbb{R} \times \{b\}
+$$ 
+
+of two copies of the [[real line]] $\mathbb{R}$ by the [[equivalence relation]] $\sim$ which identifies all pairs of points, except the two origins:
+
+$$
+  \underset{x \neq 0}{\forall}: \, (x,a) \sim (x,b)
+  \,.
+$$
+
+This is a basic example of a topological space which is [[non-Hausdorff topological space]].
+
+## Related concepts
+
+* [[long line]]
+
+## Refereces
+
+* Wikipedia, _[Line with two origins](https://topospaces.subwiki.org/wiki/Line_with_two_origins)_
+
+[[!redirects lines with two origins]]
