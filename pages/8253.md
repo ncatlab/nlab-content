@@ -19,6 +19,9 @@ An [[equivalence class]] under [[homotopy]].
 
 ## Related concepts
 
+* [[homotopy category]]
+
 * [[cohomology]]
+
 
 [[!redirects homotopy classes]]
