@@ -102,6 +102,8 @@ The [[limits]] of [[category theory]] are a great generalization of an analogy w
 
 * [[radius of convergence]]
 
+* [[uniform convergence]], [[pointwise convergence]]
+
 
 ## References
 
