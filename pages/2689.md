@@ -1,6 +1,10 @@
+# Universes in SEAR
+* table of contents
+{: toc}
+
 This page develops a theory of universes in the [[structural set theory]] called [[SEAR]], parallel to the theory of [[Grothendieck universes]] for [[ZF]] and the theory of a [[universe in a topos]].  See also [[categories in SEAR]].
 
-+--{: .query}
++-- {: .query}
 [[David Roberts]]: Can we talk about Grothendieck universes or analogous size-related mechanisms? (this is a naive question, since there may be (no need for/obvious way to do) this in a structural set theory that I am unaware of.
 
 [[Mike Shulman]]: Universes can be defined in any structural set theory in a fairly straightforward way, modulo the usual translation from "set of sets" to "family of sets."  There is some stuff from a more ETCS-like perspective at [[universe in a topos]]; I'm sure that this can be rephrased in SEAR (if you want to take a shot, feel free!).
@@ -10,9 +14,10 @@ This page develops a theory of universes in the [[structural set theory]] called
 [[Mike Shulman]]: I'm not sure that Collection can really be eliminated using universes, but maybe it can.
 =--
 
+
 ## Using families
 
-+--{: .query}
++-- {: .query}
 [[David Roberts]]: Some sketchy thoughts - a universe will be a relation $U \looparrowright E$ satisfying axioms analogous to those at [[universe in a topos]]. There are few points that need translating into SEAR-language first so we can define smallness of a family of sets $I \looparrowright A$
 
 * Pullback - unless I am mistaken, the appropriate version is this: Given a function $I \to U$, the family $I \looparrowright E$ should be regarded as the \'pullback\' family. This family should be isomorphic to the family $I \looparrowright A$. This leads us to wonder how to define two families to be isomorphic.
@@ -22,18 +27,25 @@ This page develops a theory of universes in the [[structural set theory]] called
 
 Fix a [[family of sets]] $U \looparrowright E$.
 
-**Definition:** A family $a:I \looparrowright A$ is called _$U$-small_ if there is a function $f:I \to U$ such that for the composite relation $I \looparrowright E$ ...
++-- {: .num_defn}
+###### Definition
+A family $a:I \looparrowright A$ is called _$U$-small_ if there is a function $f:I \to U$ such that for the composite relation $I \looparrowright E$ ...
+=--
 
 A set $A$ is called $U$-small if the relation $\mathbf{1}\looparrowright A$, which holds of $*$ and $a$ for all elements $a$ of $A$, is a $U$-small family.
 
 For ease of language, we define a composite of families to be the composite relation of the two relations defining the families.
 
-**Definition:** A family of sets $U \looparrowright E$ is called a _universe_ if the following axioms are satisfied:
++-- {: .num_defn}
+###### Definition:
+
+A family of sets $U \looparrowright E$ is called a _universe_ if the following axioms are satisfied:
 
 * The composite of two $U$-small families is $U$-small
 * The relation $f^o:B\looparrowright A$ opposite to an injective function $f:A \to B$ is a $U$-small family
 * $P\mathbf{1}$ is a $U$-small set
 * (Something about dependent products, once these are defined)
+=--
 
 There is an optional axiom, given the axiom of infinity from before:
 
@@ -41,12 +53,12 @@ There is an optional axiom, given the axiom of infinity from before:
 
 Without this axiom we do not have that universes contain infinite sets.
   
-Given a universe $U \looparrowright E$, we want to define a (meta-)category $U-Set$...
+Given a universe $U \looparrowright E$, we want to define a (meta-)category $Set_U$...
 
 
 ## Using mere sets
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman]]: The main idea of SEAR is that in a well-pointed topos, global elements suffice for everything.  In particular, we can usually dispense with families of things and consider only single ones.  So here's a formulation that I think is more in the spirit of SEAR.
 =--
 
@@ -70,7 +82,7 @@ In order to show that the $U$-small sets model SEAR all by themselves, it remain
 ###### Theorem
 The $U$-small sets for a universe $U$ satisfy the Collection axiom of SEAR.
 =--
-+--{: .proof}
++-- {: .proof}
 ###### Proof
 Let $A$ be a $U$-small set and $P$ a property as in the Collection axiom.  Let $P'$ be a property such that $P'(a,X)$ holds iff $P(a,X)$ holds *and* $X$ is $U$-small.  By the Collection axiom for all sets applied to $P'$, there exists a set $B$, a function $p:B\to A$, and a $B$-indexed family of sets $M:B\looparrowright Y$ satisfying the desired properties: (1) for any $b\in B$, we have $P(p(b),M_b)$ *and* $M_b$ is $U$-small, and (2) for any $a\in A$, if there exists a $U$-small set $X$ with $P(a,X)$, then $a\in im(p)$.  Our goal is to replace $B$ and $Y$ by $U$-small sets $B'$ and $Y'$ with a relation $M':B'\looparrowright Y'$ maintaining the truth of these statements.
 
@@ -89,14 +101,14 @@ Also of interest is the following, which should be compared to the "descent" axi
 ###### Theorem
 The following are equivalent for a function $f:B\to A$.
 1. $f$ is $U$-small.
-1. There exist a surjection $p:C\to A$ and a function $g:C\to U$ and two pullback squares
+2. There exist a surjection $p:C\to A$ and a function $g:C\to U$ and two pullback squares
 $$\array{B &\overset{q}{\leftarrow} & P & \overset{k}{\to} & {|E|}\\
-  ^f\downarrow && \downarrow^j && \downarrow\\
-  A &\underset{p}{\twoheadleftarrow} & C & \underset{g}{\to} & U}$$
-1. (If the axiom of choice holds) There exists a function $g:A\to U$ and a pullback square
+   ^f\downarrow && \downarrow^j && \downarrow\\
+   A &\underset{p}{\twoheadleftarrow} & C & \underset{g}{\to} & U}$$
+3. (If the axiom of choice holds) There exists a function $g:A\to U$ and a pullback square
 $$\array{B & \overset{}{\to} & {|E|}\\
-  ^f\downarrow && \downarrow\\
-  A & \underset{g}{\to} & U}$$
+   ^f\downarrow && \downarrow\\
+   A & \underset{g}{\to} & U}$$
 =--
 +--{: .proof}
 ###### Proof
@@ -104,3 +116,9 @@ Clearly the third condition implies the second.  The second implies the first, s
 
 Suppose that $f:B\to A$ is $U$-small.  This means that for any $a\in A$, there exists a $u\in U$ and a bijection $f^{-1}(a)\cong E_u$.  Let $C$ be the subset of $A\times U\times P(B\times |E|)$ consisting of those triples $(a,u,h)$ such that $h$ is a bijection $f^{-1}(a) \overset{\cong}{\to} E_{u}$, and let $p:C\to A$ and $g:C\to U$ be the projections.  Since $f$ is $U$-small, $p$ is surjective.  Define $P$ to be a pullback of $f$ along $p$, with projections $q:P\to B$ and $j:P\to C$, and define $k:P\to {|E|}$ by (informally speaking) $k(x) = h(q(x))$ where $j(x) = (a,u,h)$.  Since each $h$ is a bijection, $k$ makes $P$ a pullback of ${|E|}$.
 =--
+
+
+[[!redirects universe in SEAR]]
+[[!redirects universes in SEAR]]
+[[!redirects Grothendieck universe in SEAR]]
+[[!redirects Grothendieck universes in SEAR]]
