@@ -24,7 +24,7 @@ The _ABJM model_ ([ABJM 08](#ABJM08)) is 3-dimensional [[supersymmetry|supersymm
 
 Due to the matter coupling, the ABJM model is no longer a [[topological field theory]] as pure Chern-Simons is, but it is still a [[conformal field theory]]. As such it is thought to correspond under [[AdS-CFT]] duality to [[M-theory]] on [[anti-de Sitter spacetime|AdS4]] $\times$ [[7-sphere|S7]]/$\mathbb{Z}_k$ (see also [MFFGME 09](#MFFGME09)).
 
-Notice that the worldvolume $SU(N)$ gauge group enhancement at an $\mathbb{Z}_k$-[[ADE singularity]] is aking to the [[enhanced gauge symmetry|gauge symmetry enhancement]] of the [[effective field theory]] for [[M-theory on G2-manifolds]] at the same kind of singularities (see at _[M-theory on G2-manifolds -- Nonabelian gauge groups](M-theory+on+G2-manifolds#EnhancedGaugeGroups)_).
+Notice that the worldvolume $SU(N)$ gauge group enhancement at an $\mathbb{Z}_k$-[[ADE singularity]] is akin to the [[enhanced gauge symmetry|gauge symmetry enhancement]] of the [[effective field theory]] for [[M-theory on G2-manifolds]] at the same kind of singularities (see at _[M-theory on G2-manifolds -- Nonabelian gauge groups](M-theory+on+G2-manifolds#EnhancedGaugeGroups)_).
 
 
 ## Properties
