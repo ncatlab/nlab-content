@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### AQFT
+#### Algbraic Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
