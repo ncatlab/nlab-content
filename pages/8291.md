@@ -296,9 +296,9 @@ The group of [[rational numbers]] $\mathbb{Q}$ is injective in [[Ab]], as is the
 
 ## References
 
-The notion of [[injective modules]] was introduced in 
+The notion of injective module was introduced in 
 
-* R. Baer (1940)
+* {#Baer}R. Baer, _Abelian groups that are direct summands of every containing abelian group_ , Bulletin AMS **46** no. 10 (1940) pp.800-806. ([projecteuclid](http://projecteuclid.org/euclid.bams/1183503234))
 
 (The dual notion of [[projective modules]] was considered explicitly only much later.)
 
@@ -330,4 +330,3 @@ For [[abelian sheaves]] over the [[etale site]]:
 
 
 [[!redirects injective modules]]
-
