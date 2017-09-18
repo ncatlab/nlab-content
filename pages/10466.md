@@ -198,7 +198,7 @@ $$
   \delta_G \;\colon\; G Top \longrightarrow PSh_\infty(Glo)
 $$
 
-sending a [[topological space]] with $G$-[[action]] $X$ to the [[geometric realization]] of the presheaf which sends a group $H$ to the topological groupoid of maps from $\mathbf{B}H$ to the [[action groupoid]] $X//G$:
+sending a [[topological space]]  $X$ with $G$-[[action]] to the [[geometric realization]] of the presheaf which sends a group $H$ to the topological groupoid of maps from $\mathbf{B}H$ to the [[action groupoid]] $X//G$:
 
 $$
   \delta_G(X)\;\colon\; H \mapsto \Pi( [\mathbf{B}H, X//G] )  
