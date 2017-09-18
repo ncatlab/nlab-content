@@ -41,5 +41,7 @@ Linguists may deploy formal methods to understand grammatical strings of words, 
 * Peter Ladefoged, Keith Johnson, A course in phonetics
 * Steven Pinker,  _The language instinct_, 1994
 * Winfred P. Lehmann, _Historical linguistics: an introduction_
+* Pieter A. M. Seuren, The logic of language, vol. II of Language from within; (vol. I: Language in cognition) Oxford University Press 2010
 
+category: foundations, philosophy
 [[!redirects formal linguistics]]
