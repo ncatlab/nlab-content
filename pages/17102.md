@@ -1,0 +1,18 @@
+
+This page collects links related to
+
+* [[John Greenlees]], [[Peter May]], 
+
+  _Equivariant stable homotopy theory_, 
+
+  in [[Ioan James]] (ed.), 
+  
+  _[[Handbook of Algebraic Topology]]_ (1995)
+  
+  pp. 279-325. 
+
+  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+on basics of [[equivariant stable homotopy theory]]
+
+category: reference
