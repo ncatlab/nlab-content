@@ -62,8 +62,9 @@ These expressions are specifically the _Clebsch-Gordan coefficients_ as they app
 
 * [[Wigner 9-j symbol]]
 
-
 * [[Fierz identity]]
+
+* [[Fusion ring]]
 
 ## References
 
