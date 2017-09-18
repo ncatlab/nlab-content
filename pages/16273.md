@@ -25,3 +25,5 @@ In [[homotopy type theory]] also called, an _[[h-set]]_.
 ## Related concepts
 
 [[!include homotopy n-types - table]]
+
+[[!redirects homotopy 0-types]]
