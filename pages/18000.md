@@ -1,11 +1,20 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Every [[n-sphere]] may be [[covering|covered]] by two [[disks]] which each cover "half" of it (or a little more). These are the _hemi-$n$-spheres_.
 
 ## Related concepts
 
+* [[equator]]
+
+* [[stereographic projection]]
+
 * [[clutching construction]]
+
 
 ## References
 
