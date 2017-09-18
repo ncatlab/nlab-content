@@ -205,7 +205,7 @@ $$
 
 for the [[quotient]] of the $\mathbb{Z}$-graded [[symmetric algebra]] over the [[rational numbers]] on $n+1$ generators $t_i$ in degree 0 and $n+1$ generators $d t_i$ of degree 1.
 
-I particular in degree 0 this are called the _polynomial functions_
+In particular in degree 0 this are called the _polynomial functions_
 
 $$
   \Omega^0_{poly}(\Delta^n)
@@ -277,15 +277,54 @@ $$
 
 =--
 
-By left [[Kan extension]] this extends to a functor on all [[simplicial sets]]
+
+### Piecewise polynomial differential forms
+
+By left [[Kan extension]] the functor of polynomial differential forms from def. \ref{PolynomialDifferentialForms} yields a functor on all [[simplicial sets]]
 
 $$
-  \Omega^\bullet_{poly} : sSet \to cdgAlg_k^{op}
+  \Omega^\bullet_{poly} \colon sSet \longrightarrow cdgAlg_k^{op}
   \,.
 $$
 
-This functor is one half of an adjunction that constitutes the Sullivan model of [[rational homotopy theory]].
 
+This is the [[left adjoint]] in a [[nerve and realization]] [[adjunction]]
+
+$$
+  (\Omega^\bullet_{poly} \dashv \mathcal{K}_{poly})
+    \;\colon\;
+  (dgcAlg_{\mathbb{Q}, \geq 0})^{op}
+    \underoverset
+      {\underset{K_{poly}}{\longrightarrow}}
+      {\overset{\Omega^\bullet_{poly}}{\longleftarrow}}
+      {\bot}
+  sSet 
+  \,.
+$$
+
+
+
+Composing with the [[singular simplicial complex]] functor
+
+$$
+  Sing \;\colon\; Top \longrightarrow sSet
+$$
+
+on [[topological spaces]], this yields a functor on topological spaces
+
+$$
+  \Omega^\bullet_{pwpoly}
+   \;\colon\;
+  Top
+   \overset{Sing}{\longrightarrow}
+  sSet
+   \overset{\Omega^\bullet_{poly}}{\longrightarrow}
+  (dgcAlg_{\mathbb{Q}, \geq 0})^{op}
+$$
+
+which we may think of as assigning "piecewise polynomial" differential forms.
+
+This is the starting point of the Sullivan approach to [[rational homotopy theory]]. See there for more
 
 
 ## Properties {#Properties}
@@ -405,3 +444,7 @@ A useful survey is in
 
 [[!redirects polynomial differential form]]
 [[!redirects polynomial differential forms]]
+
+[[!redirects piecewise polynomial differential form]]
+[[!redirects piecewise polynomial differential forms]]
+
