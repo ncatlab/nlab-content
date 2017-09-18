@@ -145,6 +145,8 @@ $$
 
 * [[operator-valued distribution]]
 
+* [[Fourier transform of distributions]]
+
 ## References
 
 * {#Hoermander90} [[Lars Hörmander]], section 8.1 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
