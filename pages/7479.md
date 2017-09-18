@@ -39,7 +39,7 @@ Yet another description is that it is the [[Freyd cover]] of **Set**.
 +-- {: .num_defn}
 ###### Definition
 
-Similarly, the **Sierpinski [[(∞,1)-topos]]** is the arrow category $\infty Grpd^{\Delta[1]}$ of [[∞Grpd]]. 
+Similarly, the **Sierpinski [[(∞,1)-topos]]** is the [[arrow (∞,1)-category]] $\infty Grpd^{\Delta[1]}$ of [[∞Grpd]]. 
 
 Equivalently this is the [[(∞,1)-category of (∞,1)-presheaves]] on $\Delta[1]$ and equivalently the [[(∞,1)-category of (∞,1)-sheaves]] on $Sierp$:
 
