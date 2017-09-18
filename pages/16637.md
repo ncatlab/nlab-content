@@ -38,7 +38,7 @@ $$
   \array{
     S^3 &\hookrightarrow& S^7
     \\
-    && \downarrow \mathrlap{p}
+    && \downarrow^\mathrlap{p}
     \\
     && S^4 &\stackrel{}{\longrightarrow}& \mathbf{B} SU(2)
   }
