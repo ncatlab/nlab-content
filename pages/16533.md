@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[bound state]] of [[D1-branes]] with [[D5-branes]]. 
+
+Plays a central role in the discussion of [[black holes in string theory]].
+
+## Related concepts
+
+* [[brane intersection]]
+
+## References
+
+* {#Martinec99} [[Emil Martinec]], _Manifestations of the D1-D5 system_, 1999 ([[MartinecD1D5.pdf:file]])
+
+* _A review of the D1/D5 system and five dimensional black hole from supergravity and brane viewpoint_ ([arXiv:hep-th/0002184](http://arxiv.org/abs/hep-th/0002184))
+
+[[!redirects D1-D5 brane bound states]]
