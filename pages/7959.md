@@ -124,17 +124,23 @@ See for instance ([MRS 09](#MRS09)) and citations given there.
 
 Technical surveys on particle physics string phenomenology include
 
-* {#DouglasEtAl07} [[Michael Douglas]] et. al. (eds.), _[[String theory and the real world]]_, Les Houches  Session LXXXVII 2007
-
-* [[Hans-Peter Nilles]], _String phenomenology_ (2004) ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/1204desy.pdf))
-
-* Tatsuo Kobayashi, _String phenomenology_ ([pdf](http://www-tap.scphys.kyoto-u.ac.jp/sc2/Kobayashi.pdf))
+* {#Nilles04} [[Hans-Peter Nilles]], _String phenomenology_ (2004) ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/1204desy.pdf))
 
 * [[Ralph Blumenhagen]], Boris Kors, [[Dieter Lüst]], Stephan Stieberger, _Four-dimensional String Compactifications with D-Branes, Orientifolds and Fluxes_, Phys.Rept.445:1-193,2007 ([arXiv:hep-th/0610327](http://arxiv.org/abs/hep-th/0610327))
 
+
+* {#DouglasEtAl07} [[Michael Douglas]] et. al. (eds.), _[[String theory and the real world]]_, Les Houches  Session LXXXVII 2007
+
+* Tatsuo Kobayashi, _String phenomenology_ 2009 ([pdf slides](http://www-tap.scphys.kyoto-u.ac.jp/sc2/Kobayashi.pdf))
+
+
 * [[Washington Taylor]], _TASI Lectures on Supergravity and String Vacua in Various Dimensions_ ([arXiv:1104.2051](http://arxiv.org/abs/1104.2051))
 
-* {#AKK12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
+* {#AKK12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795]
+(http://arxiv.org/abs/1204.2795))
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+
  
 * {#Wijhnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
 
@@ -146,7 +152,7 @@ Technical surveys on cosmological string phenomenology include
 
 The "bottom-up approach" to string model building is attributed to
 
-* {#AIQU00} G. Aldazabal, L. E. Ibanez, F. Quevedo, [[Angel Uranga]], _D-Branes at Singularities : A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067](http://xxx.lanl.gov/abs/hep-th/0005067))
+* {#AIQU00} G. Aldazabal, [[Luis Ibáñez]], F. Quevedo, [[Angel Uranga]], _D-Branes at Singularities : A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067](http://xxx.lanl.gov/abs/hep-th/0005067))
  
 See also
 
