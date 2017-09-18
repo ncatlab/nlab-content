@@ -290,7 +290,7 @@ where we applied, in order of appearance: the $(\int \dashv \flat)$-[[adjunction
 +-- {: .num_prop #SliceOfCohesionOverAtomIsCohesive}
 ###### Proposition
 
-Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] over [[∞Grpd]] and let $X \in \mathbf{H}$ be an atomic object. Then also the [[slice (∞,1)-topos]] $\mathbf{H}_{/X}$ is [[cohesion|cohesive]] over [[∞Grpd]], except that the [[shape modality]] may fail to preserve binary products.
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] over [[∞Grpd]] and let $X \in \mathbf{H}$ be an atomic object. Then the [[slice (∞,1)-topos]] $\mathbf{H}_{/X}$ sits by an [[adjoint quadruple]] over [[∞Grpd]] whose leftmost adjoint preserves the terminal object.
 
 =--
 
