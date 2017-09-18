@@ -15,9 +15,11 @@
 
 ## Idea
 
-A quasitopos is a particular kind of [[category]] that has properties similar to that of a [[topos]], but is not quite a [[topos]].  
+A quasitopos is a particular kind of [[category]] that has properties similar to that of a [[topos]], but is not quite a [[topos]]. A major difference is that it need not be [[balanced category|balanced]]: a [[morphism]] that is both [[monomorphism|monic]] and [[epimorphism|epic]] is not necessarily invertible. A quasitopos that is balanced is a topos.
 
 Instead of the usual [[subobject classifier]], it has a classifier only for *[[strong monomorphism|strong]]* [[subobject]]s. It satisfies the uniqueness, but not the existence, part of the sheaf axioms ([[Elephant]] A2.6).
+
+Note that some of the literature definitions use the notion of a [[regular monomorphism]].  Since every regular monomorphism is as strong one, this article only uses  [[strong monomorphism]].
 
 ## Definition
 
@@ -101,7 +103,7 @@ An [[object]] $C$ in a quasitopos is called **coarse** if for every [[bimorphism
 
 =--
 
-So the coarse objects are those that see monic epic morphisms as [[isomorphism]]s, hence that do onot see the failure of the quasitopos to be a [[balanced category]].
+So the coarse objects are those that see monic epic morphisms as [[isomorphism]]s, hence that do not see the failure of the quasitopos to be a [[balanced category]].
 
 +-- {: .num_prop}
 ###### Proposition
