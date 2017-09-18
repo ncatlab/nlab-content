@@ -56,7 +56,7 @@ The [[open subsets]] of the corresponding [[metric topology]] are the [[unions]]
 ###### Definition
 **(differentiation of real-valued functions on Cartesian space)**
 
-Let $U \subset \mathbb{R}$ be an [[open subset]].
+Let $n \in \mathbb{N}$ and let $U \subset \mathbb{R}^n$ be an [[open subset]].
 
 Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}$ is called  **differentiable** at $x\in U$ 
 if there exists a [[linear map]] $d f_x : \mathbb{R}^n \to \mathbb{R}$ such that the following [[limit of a sequence|limit]]
