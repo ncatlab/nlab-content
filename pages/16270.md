@@ -46,6 +46,8 @@ The Parmenides dialogue has influenced, and its topics (and mysterious style) ha
 
 * [[Timaeus dialogue]]
 
+* [[Republic dialogue]]
+
 ## References
 
 * Wikipedia _[Parmenides (dialogue)](http://en.wikipedia.org/wiki/Parmenides_%28dialogue%29)_
