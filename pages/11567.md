@@ -56,7 +56,7 @@ at _[[module spectrum]]_.
 For $R$ any [[ring]] (or [[ringoid]], even) there is a [[Quillen equivalence]] 
 
 $$
-  H R Mod \simeq Ch_\bullet(R Mod)
+  H R ModSpectra \simeq Ch_\bullet(R Mod)
 $$
 
 between a model structure on  $H R$-[[module spectra]] over the [[Eilenberg-MacLane spectrum]] $H R$ and the [[model structure on unbounded chain complexes]] of ordinary $R$-[[modules]].
@@ -66,6 +66,8 @@ This presents a corresponding [[equivalence of (∞,1)-categories]]. If $R$ is a
 =--
 
 This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#Robinson)). The refinement to a [[Quillen equivalence]] is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)). See also the discussion at _[[stable model categories]]_. A direct description as an [[equivalence of (∞,1)-categories]] appears as ([[Higher Algebra|Lurie HA, theorem 7.1.2.13]]).
+
+For $R = \mathbb{Q}$ the [[rational numbers]], then theorem \ref{StableDoldKan} may be thought of as a stable analog of classical [[rational homotopy theory]], see at _[[rational stable homotopy theory]]_ for more on this.
 
 More generally:
 
