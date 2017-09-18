@@ -18,3 +18,6 @@ There are several concepts of an immersion, depending on the category of spaces.
 * [[immersion of smooth manifolds]]
 
 [[!redirects immersions]]
+
+[[!redirects smooth immersion]]
+[[!redirects smooth immersions]]
