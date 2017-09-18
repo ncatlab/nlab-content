@@ -93,7 +93,7 @@ Consider a [[binary relation]] $\sim$ on [[rational numbers]] satisfying these f
 *  If $a \sim b \gt c \sim d$, then $a \sim d$.
 *  If $b \sim c$ whenever $a \lt b$ and $c \lt d$, then $a \sim d$.
 
-These relations form a [[frame]], which we may interpret (by definition) as the __[[locale of real numbers]]__.
+These relations form a [[frame]], which we may interpret (by definition) as the __[[locale of real numbers]]__.  It can also be defined as the [[localic completion]] of the rational numbers.
 
 We may then define a __localic real number__ to be a [[point of a locale|point]] of this locale.
 
