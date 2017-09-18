@@ -38,7 +38,7 @@ A polycategory that is "representable on both sides", meaning informally that mo
 
 ## References
 
-* M.E. Szabo, *Polycategories*, Comm. Algebra 3 (1975) 663-689.
+* M.E. Szabo, *Polycategories*, Comm. Algebra 3 (1975) 663-689.  [DOI](http://www.tandfonline.com/doi/abs/10.1080/00927877508822067)
 
 * {#CockettSeely97} [[Robin Cockett]], [[Robert Seely]],  _Weakly Distributive Categories_, _Journal of Pure and Applied Algebra_, 114(1997)2, pp 133-173 ([ps.gz](http://www.math.mcgill.ca/rags/linear/wdc.ps.gz))
 
