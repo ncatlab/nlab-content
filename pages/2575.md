@@ -894,7 +894,7 @@ The role of the [[metaplectic correction]] is studied in some detail in
  
 Also, from p. 154 (11 of 76) on, this article carefully discusses what is really the non-abelian version of the Griffiths [[intermediate Jacobian]] structure (see there) for $k = 0$.
 
-Detailed discussion with emphasis on [[theta functions]] and the relation to [[Weyl quantization]] is in
+Detailed discussion with emphasis on [[theta functions]] and the relation to [[Weyl quantization]] and [[skein relations]] is in
 
 * [[Razvan Gelca]], [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
 
