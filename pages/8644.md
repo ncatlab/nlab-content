@@ -114,7 +114,6 @@ and the fairly detailed account (with lot of pointers to the literature)
 
 * {#SchaeferShuryak98} [[Thomas Schaefer]], [[Edward Shuryak]], _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
   
-
   {#SchaeferShuryak} section III D: relation to [[confinement]]
   
 
@@ -123,6 +122,11 @@ and the fairly detailed account (with lot of pointers to the literature)
 See also the survey in 
 
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
+
+A review in view of the [[asymptotic series]] nature of the [[Feynman perturbation series]] is in
+
+* {#Suslov05} [[Igor Suslov]], section 4.5 of _Divergent perturbation series_, Zh.Eksp.Teor.Fiz. 127 (2005) 1350; J. Exp. Theor. Phys. 100 (2005) 1188 ([arXiv:hep-ph/0510142](https://arxiv.org/abs/hep-ph/0510142))
+
 
 A survey with emphasis on the [[strong CP problem]] is in
 
