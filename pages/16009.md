@@ -23,3 +23,5 @@
 * {#Friedman01} [[Michael Friedman]], _The idea of scientific philosophy_, chapter 1 in  _Dynamics of Reason_, Chicago 2001 ([chapter pdf](http://web.stanford.edu/group/cslipublications/cslipublications/pdf/1575862921.pdf), [publisher webpage](http://press.uchicago.edu/ucp/books/book/distributed/D/bo3634648.html))
 
 * [[David Corfield]], _[[davidcorfield:Friedman's Dynamics of Reason]]_
+
+* {#Ladyman01} [[James Ladyman]], _Understanding Philosophy of Science_, 2001  ([pdf](http://srbiau.ac.ir/Files/Ladyman,%20Understanding%20Philosophy%20of%20Science.pdf), [review](http://www.jstor.org/stable/3093608))
