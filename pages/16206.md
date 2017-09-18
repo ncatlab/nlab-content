@@ -29,7 +29,7 @@ Yunhe Sheng (Jilin University)
 Tao Zhang (Henan Normal University)
 
 ####Organizers####
-Jinqiao Duan and [[Chenchang Zhu]] (Gottingen, Germany)
+[Jinqiao Duan](http://mypages.iit.edu/~duan/)  (HUST, UCLA, IIT), [Yunhe Sheng](http://math.jlu.edu.cn/?act=view&id=741&mod=info) (Jilin University) and [[Chenchang Zhu]] (Gottingen, Germany)
 
 ###Schedule###
 
@@ -37,7 +37,7 @@ Jinqiao Duan and [[Chenchang Zhu]] (Gottingen, Germany)
 |               | Friday      | Saturday | 
 | ------------- | -------------|--------| 
 | 9:00--10:00   |   Zhangju Liu   | Zhujun Zheng | 
-| 10:300--10:30  |  Break     |Break| 
+| 10:00--10:30  |  Break     |Break| 
 | 10:30--11:30  | Chengming Bai             |Zhuo Chen |
 | 12:00--14:00  |  Lunch            |Lunch     |       
 | 14:00--17:00  | free discussion |free discussion     | 
