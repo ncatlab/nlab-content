@@ -80,3 +80,6 @@ Asymptotically ant-de Sitter spaces play a central role in the realization of th
 [[!redirects anti de Sitter spacetimes]]
 [[!redirects anti-de Sitter spacetime]]
 [[!redirects anti-de Sitter spacetimes]]
+
+[[!redirects AdS-spacetime]]
+[[!redirects AdS-spacetimes]]
