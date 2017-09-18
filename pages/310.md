@@ -91,6 +91,7 @@ Topologies that are [[Boolean algebras]] are the exception rather than the rule;
 
 
 ### To Boolean algebras 
+ {#ToBooleanAlgebras}
 
 In any Heyting algebra $L$, we may define a [[negation]] operator 
 
