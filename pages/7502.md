@@ -108,6 +108,19 @@ $$
   \,.
 $$
 
+Let moreover
+
+$$
+  j_n \coloneqq (id,\delta_0) \;\colon\; D^n \hookrightarrow D^n \times I
+  \,.
+$$
+
+Then 
+
+$$
+  i_{n_1}\Box j_{n_2} \simeq j_{n_1 + n_2}
+  \,.
+$$
 
 =--
 
