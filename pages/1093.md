@@ -354,7 +354,7 @@ If $D$ is a [[full subcategory]] then the second condition is automatic.
 ###### Theorem
 **(comparison lemma)**
 
-Let $(C,J)$ be a (possibly [[large site|large]]) [[site]] with $C$ a [[locally small category]] and let $f : D \to C$ be a [[small category|small]] [dense sub-site](#DenseSubSite). Then pair of [[adjoint functor]]s
+Let $(C,J)$ be a (possibly [[large site|large]]) [[site]] with $C$ a [[locally small category]] and let $f : D \to C$ be a [[small category|small]] [dense sub-site](#DenseSubSite). The pair of [[adjoint functor]]s
 
 $$
   (f^* \dashv f_*) 
@@ -386,7 +386,7 @@ This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
 ###### Examples
 
 
-* Let $X$ be a [[locale]] with [[frame]] $Op(X)$ regarded as a site with the canonical coverage (\{U_i \to U\} covers if the [[join]] of the $U_i$ us $U$). Let $bOp(X)$ be a [[basis for the topology]] of $X$: a complete join-[[semilattice]] such that every object of $Op(X)$ is the [[join]] of objects of $bOp(X)$. Then $bOp(X)$ is a dense sub-site.
+* Let $X$ be a [[locale]] with [[frame]] $Op(X)$ regarded as a site with the canonical coverage ($\{U_i \to U\}$ covers if the [[join]] of the $U_i$ is $U$). Let $bOp(X)$ be a [[basis for the topology]] of $X$: a complete join-[[semilattice]] such that every object of $Op(X)$ is the [[join]] of objects of $bOp(X)$. Then $bOp(X)$ is a dense sub-site.
 
   * For $X$ a [[locally contractible space]], $Op(X)$ its [[category of open subsets]] and $cOp(X)$ the full subcategory of [[contractible]] open subsets, we have that $cOp(X)$ is a dense sub-site.
 
