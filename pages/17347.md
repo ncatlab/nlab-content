@@ -1133,7 +1133,7 @@ is called a **[[Brown functor]]** if
 
 1. it sends small [[coproducts]] to [[products]];
 
-1. it sends [[homotopy pushout]] in $\mathcal{C}\to Ho(\mathcal{C})$ to [[weak pullbacks]] in [[Set]]. 
+1. it sends [[homotopy pushouts]] in $\mathcal{C}\to Ho(\mathcal{C})$ to [[weak pullbacks]] in [[Set]]. 
 
 =--
 
@@ -1393,13 +1393,47 @@ $$
      \left(
         \underset{{i \in I,} \atop {\gamma \in K_i}}{\sqcup} S_i
      \right)
-     \longrightarrow
+     \overset{(\gamma)_{{i \in I} \atop {\gamma\in K_i}}}{\longrightarrow}
      X_n
   \right)
   \,.
 $$
 
-Then by the assumption that $F$ takes this homotopy cokernel to a [[weak limit|weak]] [[fiber]] (as in remark \ref{WeakPullbacks}), there exists an extension $\eta_{n+1}$ of $\eta_n$ along $X_n \to X_{n+1}$. 
+Then by the assumption that $F$ takes this homotopy cokernel to a [[weak limit|weak]] [[fiber]] (as in remark \ref{WeakPullbacks}), there exists an extension $\eta_{n+1}$ of $\eta_n$ along $X_n \to X_{n+1}$:
+
+Then by the assumption that $F$ takes this homotopy cokernel to a [[weak limit|weak]] [[fiber]] (as in remark \ref{WeakPullbacks}), there exists an extension $\eta_{n+1}$ of $\eta_n$ along $X_n \to X_{n+1}$:
+
+$$
+  \array{
+    \left(
+      \underset{{i \in I}\atop {\gamma \in K_i}}{\sqcup} S_i
+    \right)
+    &\overset{(\gamma)_{{i \in I}\atop \gamma \in K_i}}{\longrightarrow}&
+    X_n
+    &\overset{\eta_n}{\longrightarrow}& F
+    \\
+    \downarrow &(po^{h})& \downarrow & \nearrow_{\mathrlap{\exists \eta_{n+1}}}
+    \\
+    \ast &\longrightarrow& X_{n+1}
+  }
+  \;\;\;\;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    && F(X_{n+1}) &\longrightarrow& \ast 
+    \\
+    &{}^{\mathllap{\exists \eta_{n+1}}}\nearrow& \downarrow^{\mathrlap{epi}} && \downarrow
+    \\
+    \ast &\overset{\eta_n}{\longrightarrow}& ker\left((\gamma^\ast\right)_{{i \in I} \atop {\gamma \in K_i}}) &\longrightarrow& \ast 
+    \\
+    &{}_{\mathllap{\eta_n}}\searrow& \downarrow &(pb)& \downarrow
+    \\
+    && F(X_n)
+    &\underset{(\gamma^\ast)_{{i \in I} \atop {\gamma \in K_i}} }{\longrightarrow}&
+    \underset{{i \in I}\atop {\gamma\in K_i}}{\prod}F(S_i)
+  }
+  \,.
+$$
 
 It is now clear that we want to take
 
@@ -1422,9 +1456,80 @@ $$
 $$
 
 where the components of the top and left map alternate between the identity on $X_n$ and the above successor maps $X_n \to X_{n+1}$.
-Now the excision property of $F$ applies to this pushout, and we conclude the desired  extension $\eta' \colon X' \to F$.
+Now the excision property of $F$ applies to this pushout, and we conclude the desired  extension $\eta' \colon X' \to F$:
 
-It remains to confirm that this indeed  gives the desired bijection. Surjectivity is clear. For injectivity use that all the $S_i$ are, by assumption, [[compact object|compact]], hence they may be taken inside the [[sequential colimit]].With this, injectivity follows because by construction we quotiented out the kernel at each stage.
+$$
+  \array{
+    && \underset{n}{\sqcup} X_n
+    \\
+    & \swarrow && \searrow
+    \\
+    \underset{n}{\sqcup} X_{2n+1} &\longrightarrow& X' &\longleftarrow& \underset{n}{\sqcup} X_{2n}
+    \\
+    & {}_{\mathllap{(\eta_{2n+1})_{n}}}\searrow& \downarrow^{\mathrlap{\exists \eta}} & \swarrow_{\mathrlap{(\eta_{2n})_n}}
+    \\
+    && F    
+  }
+  \;\;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;\;
+  \array{
+    && F(X')
+    \\
+    &{}^{\mathllap{\exists \eta}}\nearrow& \downarrow^{\mathrlap{epi}}
+    \\
+    &\ast \overset{(\eta_n)_n}{\longrightarrow}& \underset{\longleftarrow}{\lim}_n F(X_n)
+    \\
+    & \swarrow && \searrow
+    \\
+    \underset{n}{\prod}F(X_{2n+1})
+    && &&
+    \underset{n}{\prod}(X_{2n})
+    \\
+    & \searrow && \swarrow
+    \\
+    && \underset{n}{\prod}F(X_n)
+  }
+  \,,
+$$
+
+
+
+It remains to confirm that this indeed  gives the desired bijection. Surjectivity is clear. For injectivity use that all the $S_i$ are, by assumption, [[compact object|compact]], hence they may be taken inside the [[sequential colimit]]:
+
+$$
+  \array{
+    && X_{n(\gamma)}
+    \\
+    &{}^{\mathllap{ \exists \hat \gamma}}\nearrow& \downarrow
+    \\
+    S_i 
+      &\overset{\gamma}{\longrightarrow}&
+    X' 
+      = 
+    \underset{\longrightarrow}{\lim}_n X_n
+  }
+  \,.
+$$
+
+With this, injectivity follows because by construction we quotiented out the kernel at each stage. Because suppose that $\gamma$ is taken to zero in $F(S_i)$, then by the definition of $X_{n+1}$ above there is a factorization of $\gamma$ through the point:
+
+$$
+  \array{
+    0 \colon & S_i
+    &\overset{\hat \gamma}{\longrightarrow}&
+    X_{n(\gamma)}
+    &\overset{\eta_n}{\longrightarrow}& F
+    \\
+    & \downarrow && \downarrow & 
+    \\
+    & \ast &\longrightarrow& X_{n(\gamma)+1}
+    \\
+    & && \downarrow
+    \\
+    & && X'
+  }
+$$
 
 This concludes the proof of Lemma ($\star$).
 
