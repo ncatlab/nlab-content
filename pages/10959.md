@@ -105,7 +105,7 @@ According to [[Lawvere]] the system of categories of Hegel [above](#CategoryOfBe
 
 ## References
 
-* {#Kant1781} [[Kant]], _Critique of pure reason_, 1781
+* {#Kant1781} [[Kant]], _[[Critique of Pure Reason]]_, 1781
 
 * {#AristCat} [[Aristotle]], _Categories_, [online](http://classics.mit.edu/Aristotle/categories.html)
 
@@ -119,4 +119,4 @@ According to [[Lawvere]] the system of categories of Hegel [above](#CategoryOfBe
 
 * Wikipedia, _<a href="http://en.wikipedia.org/wiki/Categories_(Aristotle)">Categories (Aristotle)</a>_
 
-* Wikipedia, _<a href="http://en.wikipedia.org/wiki/Category_(Kant)">Category (Kant)</a>_
+* Wikipedia, _<a href="http://en.wikipedia.org/wiki/Category_(Kant)">Category (Kant)</a>_C
