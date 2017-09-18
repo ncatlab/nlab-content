@@ -91,6 +91,7 @@ $$
 
 where $\wedge^2 (\mathbb{R}^7) \subset \wedge^2 (\mathbb{R}^8)^\ast$ is regarded as the subspace of 2-forms with vanishing 8-components, and where  $\wedge^6 \mathbb{R}^7$ is the [[Poincaré duality|Poincaré dual]] to the complementary subspace of $\wedge^2 (\mathbb{R}^8^\ast)$ of 2-forms with non-trivial 8-component.
 
+The article ([Wilson 2014](#Wilson14)) by [[Robert Wilson]] describes how this $56$-dimensional real representation is closely related to a 28-dimensional _quaternionic_ representation, and this may be used to construct $E_7$ in a more natural way.
 
 ### As U-Duality group of 4d SuGra
  {#AsUDualityGroup}
@@ -146,4 +147,8 @@ The proposal to make this hidden $E_7$-symmetry manifest via [[exceptional gener
 Further discussion includes
 
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], section 3.1 of  _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
+
+
+* [[Robert Wilson]], _A quaternionic approach to $E_7$_, Proc. Amer. Math. Soc. 142 (2014), 867-880. doi:[10.1090/S0002-9939-2013-11838-1](http://dx.doi.org/10.1090/S0002-9939-2013-11838-1), ([pre-publication version](http://www.maths.qmul.ac.uk/~raw/pubs_files/E7quat2.pdf)), ([talk notes](http://www.maths.qmul.ac.uk/~raw/talks_files/E7quattalk2.pdf)).
+{#Wilson14}
  
