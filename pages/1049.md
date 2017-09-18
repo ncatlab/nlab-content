@@ -41,6 +41,9 @@ _Toby_:  O yeah, I agree with you there!  The best that I can say for 'bimorphis
 _Zoran_ I am used to say "reflective and coreflective", never bireflective. Looks esoteric term. I never likes bimorphism either. 
 
 _Todd_: Late to this discussion, but I agree with Mike and Zoran that 'bimorphism' is terrible. There is no indication of "monicity" or "epicity". 
+
+_Qiaochu_: Super late to this discussion, but the term I use is "fake isomorphism." What do you guys think? 
+
 =--
 
 [[!redirects bimorphisms]]
