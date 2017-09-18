@@ -32,7 +32,7 @@ $$
   C & \underset{m}{\to} & D}
 $$
 
-there exists a unique diagonal filler making both triangles commute:
+there exists a unique diagonal [[filler]] making both triangles commute:
 
 $$
 \array{ A & \overset{e}{\to} & B\\
