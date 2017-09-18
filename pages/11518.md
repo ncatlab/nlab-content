@@ -81,7 +81,7 @@ A $G$-prespectrum is called (at least in ([May 96, chapter XII](#May96)))
 
 ### Via orthogonal spectra with $G$-action
 
-While the definition of [spectra indexed on all representations](#IndexedOnAllRepresentations) manifestly relates to the [[suspension isomorphism]] for smashing with [[representation spheres]] and shifting in [[RO(G)-grading]], the information encoded in the objects in this definition has much redundancy. A "smaller" definition of genuine $G$-spectra is given by [[orthogonal spectra]] equipped with $G$-action ([Schwede 15](#Schwede15)).
+While the definition of [spectra indexed on all representations](#IndexedOnAllRepresentations) manifestly relates to the [[suspension isomorphism]] for smashing with [[representation spheres]] and shifting in [[RO(G)-grading]], the information encoded in the objects in this definition has much redundancy. A "smaller" definition of genuine $G$-spectra is given by [[orthogonal spectra]] equipped with $G$-action ([Mandell-May 04](#Mandellmay04), [Schwede 15](#Schwede15)).
 
 ### Via Mackey functors
  {#RelationToMackeyFunctors}
@@ -126,6 +126,10 @@ Surveys and introductions include
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], section 2 of _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+The model in terms of [[orthogonal spectra]] originates in
+
+* {#MandellMay04} [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_. Preprint, April 29, 2000, ([KTheory:0408](http://www.math.uiuc.edu/K-theory/0408/))
 
 Lecture notes include
 
