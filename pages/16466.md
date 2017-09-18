@@ -3353,14 +3353,15 @@ Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zer
 
 The proof proceeds in three main steps:
 
-1. Proposition \ref{LengthOfObjectIsBounded} states that in a $k$-[[tensor category]] an object $X$ being of subexponential growth is equivalent to the existence of a [[Schur functor]] that annihilates it, hence equivalently to the statement that some power of $X$, skew-symmetrized in sme variables and symmetrized in others, vanishes. 
+1. **Proposition \ref{LengthOfObjectIsBounded}** states that in a $k$-[[tensor category]] an object $X$ is of subexponential growth (def. \ref{SubexponentialGrowth}) precisely if their exists a [[Schur functor]] that annihilates it, hence if some power of $X$, skew-symmetrized in sme variables and symmetrized in others, vanishes. 
 
-   Hence this proposition is where the [[symmetric group]] action on tensor powers appears, from just a kind of finite-dimensionality assumption.
+   This proposition is where the [[symmetric group]] and its [[permuation]] [[action]] on [[tensor powers]] appears, from just a kind of finite-dimensionality assumption.
 
-1. Proposition \ref{SchurFinitenessImpliesExistenceOfSuperFiberFunctor} in turn says that if every object in $\mathcal{A}$ is annihilated by some [[Schur functor]], then there exists a super [[fiber functor]] on $\mathcal{A}$ over some [[supercommutative superalgebra]] $R$, hence then every object of $\mathcal{A}$ has underlying it a [[super vector space]] with some extra structure.
+1. **Proposition \ref{SchurFinitenessImpliesExistenceOfSuperFiberFunctor}** in turn says that if every object in $\mathcal{A}$ is annihilated by some [[Schur functor]], then there exists a super [[fiber functor]] on $\mathcal{A}$ over some [[supercommutative superalgebra]] $R$, hence then every object of $\mathcal{A}$ has underlying it a [[super vector space]] with some extra structure.
 
+   This proposition is where [[superalgebra]] proper appears.
 
-
+1. spring
 
 +-- {: .num_prop #LengthOfObjectIsBounded}
 ###### Proposition
