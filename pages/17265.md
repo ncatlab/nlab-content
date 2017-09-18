@@ -1,0 +1,124 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Quillen model structure on topological spaces_ $Top_{Quillen}$ is a [[model category]] structure on the [[category]] [[Top]] of [[topological spaces]] (also on many [[convenient categories of topological spaces]]) which represents the standard classical [[homotopy theory]]. 
+
+Its [[weak equivalences]] are the [[weak homotopy equivalences]], its [[fibrations]] are the [[Serre fibrations]] and its [[cofibrations]] are the [[retracts]] of [[relative cell complexes]].
+
+The [[singular simplicial complex]]/[[geometric realization]] [[nerve and realization|adjunction]] constitutes a [[Quillen equivalence]] between 
+$Top_{Quillen}$ and $sSet_{Quillen}$, the [[Quillen model structure on simplicial sets]]. This is sometimes called part of the statement of the _[[homotopy hypothesis]]_ [for Kan complexes](homotopy+hypothesis#ForKanComplexes). In the language of [[(∞,1)-category theory]] this means that $Top_{Quillen}$ and $sSet_{Quillen}$ both are [[presentable (∞,1)-category|presentations]] of the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoids]].
+
+There are also other model structures on [[Top]] itself, see at _[[model structure on topological spaces]]_ for more. This entry here focuses on just the standard Quillen model structure.
+
+## Motivation
+
+The fundamental concept of [[homotopy theory]] is that of _[[homotopy]]_. Recall the definition of [[left homotopy]] and [[right homotopy]] between [[continuous functions]]:
+
++-- {: .num_defn #TopologicalInterval}
+###### Definition
+
+Write 
+
+$$
+  I \coloneqq [0,1] \hookrightarrow \mathbb{R}
+$$
+
+for the standard topological [[interval]], a [[compact topological space|compact]] [[connected topological space|connected]] [[topological subspace]] of the [[real line]].
+
+=--
+
++-- {: .num_defn #CompactOpenTopology}
+###### Definition
+
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the **[[mapping space]]**
+
+$$
+  X^Y \in Top
+$$
+
+is the [[topological space]] 
+
+* whose underlying set is the set $Hom_{Top}(Y,X)$ of [[continuous functions]] $Y \to X$, 
+
+* whose [[open subsets]] are [[finitary intersections]] of [[unions]] of the following [[topological base|subbase]] of standard open subsets:
+
+  the standard open subset $U_{K,U} \subset Hom_{Top}(Y,X)$ for 
+
+  * $K \hookrightarrow Y$ a [[compact topological space]] subset
+
+  * $U \hookrightarrow X$ an [[open subset]]
+
+  is the subset of [[continuous functions]] $f$ of all those  that fit into a [[commuting diagram]] of the form
+
+  $$
+    \array{
+       K &\hookrightarrow& Y
+       \\
+       \downarrow && \downarrow^{\mathrlap{f}}
+       \\
+       U &\hookrightarrow& X
+    }
+    \,.
+  $$
+
+=--
+ 
++-- {: .num_prop #MappingTopologicalSpaceIsExponentialObject}
+###### Proposition
+
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the **[[mapping space]]** $X^Y$ from def. \ref{CompactOpenTopology} is an [[exponential object]]: there is a [[natural isomorphism|natural]] [[bijection]]
+
+$$
+  Hom_{Top}(Z \times Y, X) \simeq Hom_{Top}(Z, X^Y)
+$$ 
+
+between continuous functions out of any [[product topological space]] of $Y$ with any $Z \in Top$ and continuous functions from $Z$ into the mapping space.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Proposition \ref{MappingTopologicalSpaceIsExponentialObject} fails if $Y$ is not locally compact and Hausdorff. Therefore the plain category [[Top]] of all topological spaces is not a [[Cartesian closed category]]. 
+
+This is no problem for the construction of the homotopy theory of topological spaces as such, but it becomes a technical nuisance when comparing it for instance to the [[simplicial homotopy theory]] via the singular [[nerve and realization]] adjunction, since it implies that [[geometric realization]] of [[simplicial sets]] does not necessarily preserve [[finite limits]].
+
+On the other hand, without changing any of the following discussion one may just pass to a more [[convenient category of topological spaces]] such as notably the [[full subcategory]] of [[compactly generated topological spaces]] $Top_{ck} \hookrightarrow Top$ which is [[Cartesian closed category|Cartesian closed]].
+
+=--
+
+
+## References
+
+The original article is
+
+* {#Quillen67} [[Dan Quillen]], chapter II, section 3 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+
+An expository, concise and comprehensive writeup of the proof of the model category axioms is in 
+
+* [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, 2015 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942))
+
+[[!redirects Quillen model structure on topological spaces]]
+[[!redirects Quillen model structure on Top]]
