@@ -1358,7 +1358,7 @@ $$
   \,.
 $$
 
-From this perspective the higher Kostant-Soriau extesion as in 
+From this perspective the higher Kostant-Souriau extesion as in 
 prop. \ref{HpExtensionFromTruncatedHigherPoissonBracket} says the following:
 
 +-- {: .num_cor #BPSChargeExtension}
@@ -1464,7 +1464,7 @@ The canonical [[precomposition action|precomposition]] [[∞-action]] of the [[a
 Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$ there are the following concepts in [[schreiber:Higher geometric prequantum theory|higher geometric prequantum theory]].
 
 
-1. The **[[quantomorphism ∞-group]]**is the [[stabilizer ∞-group]] of $\nabla \in \mathbb{G}\mathbf{Conn}(X)$, def. \ref{DifferentialConcretification}, under the $\mathbf{Aut}(X)$-action of \ref{PrecompositionActionOnGConn};
+1. The **[[quantomorphism ∞-group]]** is the [[stabilizer ∞-group]] of $\nabla \in \mathbb{G}\mathbf{Conn}(X)$, def. \ref{DifferentialConcretification}, under the $\mathbf{Aut}(X)$-action of \ref{PrecompositionActionOnGConn};
 
    $$
      \mathbf{QuantMorph}(X,\nabla)
@@ -1508,7 +1508,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
 +-- {: .num_example }
 ###### Example
 
-For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mathbf{H}$ a [[smooth manifold]] and for $\nabla$ a [[prequantum line bundle]] on $X$, then $\mathbf{QuantMorph}(X,\nabla)$ is Soriau's [[quantomorphism group]] covering the [[Hamiltonian diffeomorphism]] group. In the case that $(X, F_\nabla)$ is a [[symplectic vector space]] regarded as a linear symplectic manifold with Hamiltonian action on itself by translation, then $\mathbf{Heis}_{V}(X,\nabla)$ is the traditional [[Heisenberg group]].
+For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mathbf{H}$ a [[smooth manifold]] and for $\nabla$ a [[prequantum line bundle]] on $X$, then $\mathbf{QuantMorph}(X,\nabla)$ is Souriau's [[quantomorphism group]] covering the [[Hamiltonian diffeomorphism]] group. In the case that $(X, F_\nabla)$ is a [[symplectic vector space]] $X = V$ regarded as a linear symplectic manifold with Hamiltonian action on itself by translation, then $\mathbf{Heis}_{V}(X,\nabla)$ is the traditional [[Heisenberg group]].
 
 =--
 
@@ -1518,7 +1518,7 @@ For $\mathbf{H} = $ [[Smooth∞Grpd]], for $X \in SmoothMfd \hookrightarrow \mat
 ###### Remark
 
 
-Since $\mathbf{HamSymp}(X,\nabla)\hookrightarrow \mathbf{Aut}(X)$ is by construction a [[1-monomorphism]], then given any $G$-action $\rho \colon G \longrightarrow \mathbf{Aut}(X)$ on $X$, not necessarily Hamiltonian, then the homotopy pullback $\rho^\ast \mathbf{QuantMorph}(X,\nabla)$ is the Heisenberg ∞-group of the maximal sub-$\infty$-group of $G$ which does act via Hamiltonian symplectomorphisms. Therefore we will also write $\mathbf{Heis}_G(X,\nabla)$ in this case.
+Since $\mathbf{HamSymp}(X,\nabla)\hookrightarrow \mathbf{Aut}(X)$ is by construction a [[1-monomorphism]], given any $G$-action $\rho \colon G \longrightarrow \mathbf{Aut}(X)$ on $X$, not necessarily Hamiltonian, then the homotopy pullback $\rho^\ast \mathbf{QuantMorph}(X,\nabla)$ is the Heisenberg ∞-group of the maximal sub-$\infty$-group of $G$ which does act via Hamiltonian symplectomorphisms. Therefore we will also write $\mathbf{Heis}_G(X,\nabla)$ in this case.
 
 
 =--
@@ -1530,7 +1530,7 @@ The following is the refinement of the [[Kostant-Souriau extension]] to [[higher
 +-- {: .num_prop #TheQuantomorphismGroupExtension}
 ###### Proposition
 
-Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, the there is a [[homotopy fiber sequence]] of the form
+Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, there is a [[homotopy fiber sequence]] of the form
 
 1. if $\mathbb{G}$ is [[0-truncated]] then
 
@@ -1561,7 +1561,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
         \\
         && \mathbf{HamSymp}(X,\nabla)
         &\stackrel{\mathbf{KS}}{\longrightarrow}&
-        \mathbf{B} ((\Omega \mathbb{G})\mathbf{Conn}(X))
+        \mathbf{B} ((\Omega \mathbb{G})\mathbf{FlatConn}(X))
     }
    $$
 
@@ -1574,7 +1574,7 @@ exhibiting the [[quantomorphism ∞-group]] as an [[∞-group extension]] of the
 +-- {: .num_example }
 ###### Example
 
-In $\mathbf{H} = $ [[Smooth∞Grpd]], let $\mathbb{G} = \mathbf{B}^p U(1)$ be the [[circle n-group|circle (p+2)-group]] and let $X \in SmoothMfd \hookrightarrow Smooth \infty Grpd$ be [[n-connected topological space|(p+1)-connected]], then $(\mathbf{B}^p U(1))\mathbf{FlatConn}(X)\simeq \mathbf{B}^{p+1}U(1)$. Hence here prop. \ref{TheQuantomorphismGroupExtension} gives
+In $\mathbf{H} = $ [[Smooth∞Grpd]], let $\mathbb{G} = \mathbf{B}^p U(1)$ be the [[circle n-group|circle (p+1)-group]] and let $X \in SmoothMfd \hookrightarrow Smooth \infty Grpd$ be [[n-connected topological space|p-connected]], then $(\Omega\mathbf{B}^p U(1))\mathbf{FlatConn}(X)\simeq \mathbf{B}^{p}U(1)$. Hence here prop. \ref{TheQuantomorphismGroupExtension} gives
 
    $$
      \array{
@@ -1596,7 +1596,7 @@ In $\mathbf{H} = $ [[Smooth∞Grpd]], let $\mathbb{G} = \mathbf{B}^p U(1)$ be th
 +-- {: .num_cor #KSExtensionForHeis}
 ###### Corollary
 
-Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, and for $\rho \colon G \longrightarrow$ a $G$-[[Hamiltonian action]], then there is a [[homotopy fiber sequence]]
+Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarrow \mathbf{B}\mathbb{G}_{conn}$, and for $\rho \colon G \longrightarrow \mathbf{HamSymp}(X,\nabla)$ a $G$-[[Hamiltonian action]], then there is a [[homotopy fiber sequence]]
 
 1. if $\mathbb{G}$ is [[0-truncated]] then
 
@@ -1608,7 +1608,7 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
         \\
         && \downarrow
         \\
-        && \mathbf{HamSymp}(X,\nabla)
+        && G
         &\stackrel{\mathbf{KS}(\rho)}{\longrightarrow}&
         \mathbf{B} (\mathbb{G}\mathbf{ConstFunct}(X))
     }
@@ -1625,14 +1625,13 @@ Given a $\mathbb{G}$-[[principal ∞-connection]] $\nabla \colon X \longrightarr
         \\
         && \downarrow
         \\
-        && \mathbf{HamSymp}(X,\nabla)
+        && G
         &\stackrel{\mathbf{KS}(\rho)}{\longrightarrow}&
-        \mathbf{B} ((\Omega \mathbb{G})\mathbf{Conn}(X))
+        \mathbf{B} ((\Omega \mathbb{G})\mathbf{FlatConn}(X))
     }
    $$
 
-exhibiting the [[Heisenberg ∞-group]] as an [[∞-group extension]] of the [[Hamiltonian symplectomorphism ∞-group]] by the [[moduli stack]] of $\Omega \mathbb{G}-$[[flat ∞-connections]], classified by a [[cocycle]] $\mathbf{KS}(\rho)$.
-
+exhibiting the [[Heisenberg ∞-group]] as an [[∞-group extension]] of the $G$ by the [[moduli stack]] of $\Omega \mathbb{G}-$[[flat ∞-connections]], classified by a [[cocycle]] $\mathbf{KS}(\rho)$.
 
 
 The class of the [[cocycle]] $\mathbf{KS}(\rho)$ is the [[obstruction]] to prequantizing $\rho$ to a [[moment map]] (the _[[classical anomaly]]_ of $\rho$); and the the [[Heisenberg ∞-group]] [[∞-group extension|extension]] of $G$ is the universal cancellation of this anomaly.
