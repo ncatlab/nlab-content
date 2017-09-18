@@ -35,7 +35,7 @@ The term __cartesian category__ usually means a category with finite products bu
 
 Cartesian monoidal categories have a number of special and important properties, such as the existence of diagonal maps $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$.  In applications to computer science we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]].  In fact, any object in a cartesian monoidal category becomes a comonoid in a unique way.  
 
-Moreover, one can show that any [[symmetric monoidal category]] equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
+Moreover, one can show (e.g. [Heunen-Vicary 12, p. 84](#HeunenVicary12)) that any [[symmetric monoidal category]] equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
 $$           \Delta_x : x \to x \otimes x $$
 and
 $$             e_x : x \to I   $$
@@ -67,6 +67,12 @@ respectively, where $e$ stands for the unique morphism to the terminal object an
 
 * [[cartesian monoidal (∞,1)-category]]
 
+
+## References
+
+Discussion with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] is in
+
+* {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], _Lectures on categorical quantum mechanics_, 2012 ([pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf))
 
 [[!redirects cartesian monoidal category]]
 [[!redirects cartesian monoidal categories]]
