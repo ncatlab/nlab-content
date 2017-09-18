@@ -33,6 +33,8 @@ The _projective general linear group_ $PGL(n)$ (in some [[dimension]] $n$ and ov
 
 * [[Fuchsian group]]
 
+* [[Kleinian group]]
+
 * [[projective representation]]
 
 ## References
