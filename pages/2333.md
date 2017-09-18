@@ -7,7 +7,7 @@
 
 A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-[[linear combinations]], of its elements.  Do not confuse this with an (abstract) _[[convex set]]_ , which a special kind of convex space, also defined below.
 
-A convex space is a [[set]] $X$ equipped with a family of maps $c_p : X \times X \to X$ satisfying some natural axioms (described below). All commutative monoids are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
+A convex space is a [[set]] $X$ equipped with a family of maps $c_p : X \times X \to X$ satisfying some natural axioms (described below). All commutative semiring are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
 
 Convex spaces may be important in the foundations of [[probability theory]].  The [[category]] of convex spaces is [[semicartesian monoidal category|semicartesian monoidal]] but not [[cartesian monoidal category|cartesian monoidal]].
 
