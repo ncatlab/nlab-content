@@ -134,7 +134,7 @@ Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 +-- {: .num_remark}
 ###### Remark
 
-The collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topologica space|topology]]_ on th set $X$, making it a _[[topological space]]_. This is called the _[[metric topology]]_. Stated more concisely: the [[open balls]] in a metric space constitute the [[basis of a topology]] for the [[metric topology]].
+The collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_. This is called the _[[metric topology]]_. Stated more concisely: the [[open balls]] in a metric space constitute the [[basis of a topology]] for the [[metric topology]].
 
 =--
 
