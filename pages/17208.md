@@ -20,10 +20,10 @@ Complex projective space $\mathbb{C}P^n$ is the [[projective space]] $\mathbb{A}
 As $n$ ranges, there are natural inclusions
 
 $$
-  \ast = \mathbb{C}P^0 
-    \hookrightarrow 
-  \mathbb{C}P^1 
-    \hookrightarrow 
+  \ast = \mathbb{C}P^0
+    \hookrightarrow
+  \mathbb{C}P^1
+    \hookrightarrow
   \mathbb{C}P^2
     \hookrightarrow
   \mathbb{C}P^3
@@ -43,7 +43,7 @@ For $n \in \mathbb{N}$, then **complex $n$-dimensional complex projective space*
 
 $$
   \mathbb{C}P^n \coloneqq (\mathbb{C}^{n+1}-\{0\})/_\sim
-$$ 
+$$
 
 of the [[Cartesian product]] of $(n+1)$-copies of the [[complex plane]], with the origin removed, by the [[equivalence relation]]
 
@@ -93,9 +93,9 @@ $$
 +-- {: .num_prop #ComplexProjectiveSpaceAsS1Quotient}
 ###### Proposition
 
-For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently 
+For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently
 
-1. the [[coset]] 
+1. the [[coset]]
 
    $$
      \mathbb{C}P^n \simeq U(n+1)/(U(n) \times U(1))
@@ -116,13 +116,37 @@ For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiv
 
 To see the second characterization from def. \ref{ComplexProjectiveSpace}:
 
-With ${\vert -\vert} \colon \mathbb{C}^{n} \longrightarrow \mathbb{R}$ the standard [[norm]], then every element $\vec z \in \mathbb{C}^{n+1}$ is identified under the defining equivalence relation with 
+With ${\vert -\vert} \colon \mathbb{C}^{n} \longrightarrow \mathbb{R}$ the standard [[norm]], then every element $\vec z \in \mathbb{C}^{n+1}$ is identified under the defining equivalence relation with
 
 $$
-  \frac{1}{\vert \vec z\vert}\vec z \in S^{2n-1} \hookrightarrow \mathbb{C}^{n+1}
+  \frac{1}{\vert \vec z\vert}\vec z \in S^{2n+1} \hookrightarrow \mathbb{C}^{n+1}
 $$
 
-lying on the unit $(2n-1)$-sphere. This fixes the action of $\mathbb{C}-0$ up to a remaining action of complex numbers of unit [[absolute value]]. These form the [[circle group]] $S^1$.
+lying on the unit $(2n+1)$-sphere. This fixes the action of $\mathbb{C}-0$ up to a remaining action of complex numbers of unit [[absolute value]]. These form the [[circle group]] $S^1$. This shows that we have a [[commuting diagram]] of functions of underlying sets of the form
+
+$$
+  \array{
+    S^{2n+1} &\hookrightarrow& \mathbb{C}^{n+1} \setminus \{0\}
+    \\
+    {}^{\mathllap{q_{S^{2n+1}}}}\downarrow &\searrow^{\mathrlap{f}}& \downarrow^{\mathrlap{q_{\mathbb{C}^{n+1}}}}
+    \\
+    S^{2n+1}/S^1 &\longrightarrow& \mathbb{C}P^n
+  }
+$$
+
+where the top horizontal and the two vertical functions are continuous, and where the bottom function is
+is a bijection.  Since the diagonal composite is also continuous, the nature of the [[quotient space topology]]
+implies that the bottom function is also continuous. To see that it is a [[homeomorphism]] it hence remains to 
+see that it is an [[open map]] (by [this prop.](homeomorphism#HomeoContinuousOpenBijection)).
+
+So let $U \subset S^{2n+1}/S^1$ be an open set, which means that $q_{S^{2n+1}}^{-1}(U) \subset S^{2n+1}$ is an open set.
+We need to see that $f(q_{S^{2n+1}}^{-1}(U)) \subset \mathbb{C}P^{n}$ is open, hence that 
+$q_{\mathbb{C}^{n+1}}^{-1}(f(q_{S^{2n+1}}^{-1}(U))) \subset \mathbb{C}^{n+1}$ is open.
+Now by the nature of the [[Euclidean space|Euclidean]] [[metric topology]], the open subset $q_{S^{2n+1}}^{-1}(U)$
+is a union of open balls $B^\circ_x(\epsilon)$ in $\mathbb{C}^{n+1}$ intersected with $S^{2n+1}$. But then $q_{\mathbb{C}^{n+1}}^{-1}(f(B^\circ_x(\epsilon)\vert_{S^{2n+1}}))$ 
+is their [[orbit]] under the multiplicative action by $\mathbb{C} \setminus \{0\}$,
+hence is a [[cylinder]] $B^\circ_x(\epsilon)\vert_{S^{2n+1}} \times (\mathbb{C} \setminus \{0\})$. This is clearly open.
+
 
 The first characterization follows via prop. \ref{ComplexProjectiveSpaceAsGrassmannian} from the general discusion at _[[Grassmannian]]_. With this the second characterization follows also with the [[coset]] identification of the $(2n+1)$-sphere: $S^{2n+1} \simeq U(n+1)/U(n)$ ([exmpl.](unitary+group#nSphereAsUnitaryCosetSpace)).
 
@@ -130,6 +154,10 @@ The first characterization follows via prop. \ref{ComplexProjectiveSpaceAsGrassm
 
 
 ## Properties
+
+### General
+
+
 
 ### Cell structure
 
@@ -142,10 +170,10 @@ $$
   \array{
      S^{2n+1} &\longrightarrow& S^{2n+1}/S^1 \simeq \mathbb{C}P^n
      \\
-     {}^{\mathllap{\iota_{2n+2}}}\downarrow 
+     {}^{\mathllap{\iota_{2n+2}}}\downarrow^{\mathrlap{i_n}}
        &(po)& \downarrow
      \\
-     D^{2n+2} &\longrightarrow& \mathbb{C}P^{n+1}
+     D^{2n+2} &\underset{q}{\longrightarrow}& \mathbb{C}P^{n+1}
   }
   \,.
 $$
@@ -155,26 +183,66 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Given [[homogeneous coordinates]] $(z_0 :  z_1 :  \cdots :  z_n :  z_{n+1} :  z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let 
+
+Given [[homogeneous coordinates]] $(z_0 ,  z_1 ,  \cdots ,  z_n ,  z_{n+1} ,  z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let
 
 $$
   \phi \coloneqq -arg(z_{n+2})
-$$ 
+$$
 
 be the [[phase]] of $z_{n+2}$. Then under the equivalence relation defining $\mathbb{C}P^{n+1}$ these coordinates represent the same element as
 
 $$
   \frac{1}{\vert \vec z\vert}(e^{i \phi} z_0, e^{i \phi}z_1,\cdots, e^{i \phi}z_{n+1}, r)
   \,,
-$$ 
+$$
 
-where 
+where
 
 $$
   r = {\vert z_{n+2}\vert}\in [0,1) \subset \mathbb{C}
-$$ 
+$$
 
-is the [[absolute value]] of $z_{n+2}$. Representatives $\vec z'$ of this form (${\vert \vec z' \vert = 1}$ and $z'_{n+2} \in [0,1]$) parameterize the [[n-disk|2n+2-disk]] $D^{2n+2}$ ($2n+3$ real parameters subject to the one condition that the sum of their norm squares is unity) with [[boundary]] the $(2n+1)$-sphere at $r = 0$. The only remaining part of the action of $\mathbb{C}-\{0\}$ which fixes the form of these representatives is $S^1$ acting on the elements with $r = 0$ by phase shifts on the $z_0, \cdots, z_{n+1}$. The quotient of this remaining action on $D^{2(n+1)}$ identifies its boundary $S^{2n+1}$-sphere with $\mathbb{C}P^{n}$, by prop. \ref{ComplexProjectiveSpaceAsS1Quotient}.
+is the [[absolute value]] of $z_{n+2}$. Representatives $\vec z'$ of this form (${\vert \vec z' \vert = 1}$ and $z'_{n+2} \in [0,1]$) parameterize the [[n-disk|2n+2-disk]] $D^{2n+2}$  with [[boundary]] the $(2n+1)$-sphere at $r = 0$. 
+
+The resulting function $q \colon D^{2n+2} \to \mathbb{C}P^{n+1}$ is continuous: It may be factored as
+
+$$
+  \array{
+    q_{D^{2n+2}} \colon & D^{2n+2} &\overset{\phantom{AAA}}{\hookrightarrow}& \mathbb{C}^{n+2} \setminus \{0\} &\overset{q_{\mathbb{C}^{n+2}}}{\longrightarrow}&  \mathbb{C}P^{n+1}
+    \\
+    & (Re(z_1), Im(z_1),  \cdots, Re(z_{n+1}), Im(z_{n+1}), r) &\mapsto& (z_1, \cdots, z_{n+1}, r)  &\mapsto& [ z_1 : \cdots : z_{n+1} : r ]
+  }
+$$
+
+and here the first map is the [[embedding of topological spaces|embedding]] of the disk $D^{2n+2}$ as a [[hemisphere]] in $\mathbb{R}^{2n+1} \hookrightarow \mathbb{R}^{2n+2} \simeq \mathbb{C}^{2n+2}$, while the second is the defining quotient space projection.
+Both of these are continuous, and hence so is their composite.
+
+The only remaining part of the action of $\mathbb{C}-\{0\}$ which fixes the conditions ${\vert z'\vert} = 0$ and $z'_{n+2}$ is 
+$S^1 \subset \mathbb{C} \setminus \{0\}$ acting on the elements with $ r = \{z'_{n+2}\} = 0$ by phase shifts on the $z_0, \cdots, z_{n+1}$. 
+The quotient of this remaining action on $D^{2(n+1)}$ identifies its boundary $S^{2n+1}$-sphere with $\mathbb{C}P^{n}$, by prop. \ref{ComplexProjectiveSpaceAsS1Quotient}.
+
+This shows that the above square is a [[pushout]] diagram of underlying sets.  
+
+By the nature of [[colimits]] in [[Top]] ([this prop.](Top#DescriptionOfLimitsAndColimitsInTop)) 
+it remains to see that the
+[[topological space|topology]] on $\mathbb{C}P^{n+1}$ is the [[final topology]] induced by the functions
+$D^{2n+2} \to \mathbb{C}P^{n+1}$ and $\mathbb{C}P^n \to \mathbb{C}P^{n+1}$, hence that a subset of 
+$\mathbb{C}P^{n+1}$ is open precisely if its pre-images under these two functions are open.
+
+We saw above that $q_{D^{2n+2}}$ is continuous.
+Moreover, also the function 
+$i_n \colon \mathbb{C}P^n \to \mathbb{C}P^{n+1}$ is continuous (by [this lemma](projective+space#CanonicalInclusionOfProjectiveSpaces)).
+
+This shows that if a subset of $\mathbb{C}P^{n+1}$ is open, then its pre-images under these functions are open.
+It remains to see that if $S \subset \mathbb{C}P^{n+1}$ is a subset with $q_{S^{2n+2}}^{-1}(S) \subset D^{2n+2}$ open and
+$i_n^{-1}(S) \subset \mathbb{C}P^n$ open, then $S \subset \mathbb{C}P^{n+1}$ is open.
+
+Notice that $q_{\mathbb{C}^{n+2}}^{-1}(S)$ contains with every point also its [[orbit]] under the [[action]] 
+of $\mathbb{C} \setminus \{0\}$, and that every open subset of $D^{2n+2}$ is a unions of open balls.
+By the above factorization of $q_{D^{2n+2}}$ this means that if $q_{D^{2n+2}}^{-1}(S)$ is open, then 
+$q_{\mathbb{C}^{n+2}}^{-1}(S)$ is a union of open cyclinders, hence is open. By the nature of the 
+[[quotient topology]], this means that $S \subset \mathbb{C}P^n$ is open.
 
 =--
 
@@ -226,7 +294,7 @@ This is due to ([Segal 73, prop. 1](#Segal73)).
 Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[Snaith's theorem]]_. See there for more. The version for [[real projective space]] is called the _[[Kahn-Priddy theorem]]_.
 
 
-### Homology and Cohomology 
+### Homology and Cohomology
  {#Cohomology}
 
 #### Ordinary
@@ -240,7 +308,7 @@ $$
   H_k(\mathbb{C}P^n,A)\simeq
   \left\{
     \array{
-       A & for \; k \;even\; and \; k \leq 2n 
+       A & for \; k \;even\; and \; k \leq 2n
        \\
        0 & otherwise
     }
@@ -248,14 +316,14 @@ $$
   \,.
 $$
 
-Similarly the [[ordinary cohomology]] [[cohomology groups|groups]] of $\mathbb{C}P^n$ is 
+Similarly the [[ordinary cohomology]] [[cohomology groups|groups]] of $\mathbb{C}P^n$ is
 
 $$
   H^k(\mathbb{C}P^n,A)
    \simeq
   \left\{
     \array{
-       A & for \; k \;even\; and \; k \leq 2n 
+       A & for \; k \;even\; and \; k \leq 2n
        \\
        0 & otherwise
     }
@@ -289,24 +357,24 @@ $$
 +-- {: .proof}
 ###### Proof
 
-First consider the case that the coefficients are the [[integers]] $A = \mathbb{Z}$. 
+First consider the case that the coefficients are the [[integers]] $A = \mathbb{Z}$.
 
 Since $\mathbb{C}P^n$ admits the structure of a [[CW-complex]] by prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, we may compute its [[ordinary homology]] equivalently as its [[cellular homology]] ([thm.](Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)). By definition ([defn.](cellular+homology#CellularChainComplex)) this is the [[chain homology]] of the chain complex of [[relative homology]] groups
 
 $$
   \cdots
-    \overset{\partial_{cell}}{\longrightarrow}   
+    \overset{\partial_{cell}}{\longrightarrow}
   H_{q+2}((\mathbb{C}P^n)_{q+2}, (\mathbb{C}P^n)_{q+1})
-   \overset{\partial_{cell}}{\longrightarrow}   
+   \overset{\partial_{cell}}{\longrightarrow}
   H_{q+1}((\mathbb{C}P^n)_{q+1}, (\mathbb{C}P^n)_{q})
    \overset{\partial_{cell}}{\longrightarrow}
   H_{q}((\mathbb{C}P^n)_{q}, (\mathbb{C}P^n)_{q-1})
-    \overset{\partial_{cell}}{\longrightarrow}   
-  \cdots  
+    \overset{\partial_{cell}}{\longrightarrow}
+  \cdots
   \,,
 $$
 
-where $(-)_q$ denotes the $q$th stage of the [[CW-complex]]-structure. Using the CW-complex structure provided by prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, then there are cells only in every second degree, so that 
+where $(-)_q$ denotes the $q$th stage of the [[CW-complex]]-structure. Using the CW-complex structure provided by prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, then there are cells only in every second degree, so that
 
 $$
   (\mathbb{C}P^n)_{2k+1} = (\mathbb{C}P)_{2k}
@@ -364,10 +432,10 @@ This also implies that the projection maps
 
 $$
   H^\bullet((\mathbb{C}P^\infty)_{2n+2}, R)
-  = 
-  H^\bullet(\mathbb{C}P^{n+1}, R) 
-  \to 
-  H^\bullet(\mathbb{C}P^{n+}, R) 
+  =
+  H^\bullet(\mathbb{C}P^{n+1}, R)
+  \to
+  H^\bullet(\mathbb{C}P^{n+}, R)
   =
   H^\bullet((\mathbb{C}P^\infty)_{2n}, R)
 $$
@@ -378,8 +446,8 @@ $$
   \begin{aligned}
     H^\bullet(\mathbb{C}P^\infty, R)
     \\
-    & 
-     \simeq 
+    &
+     \simeq
     H^\bullet( \underset{\longleftarrow}{\lim}_n \mathbb{C}P^n , R)
    \\
     &\simeq \underset{\longrightarrow}{\lim}_n H^\bullet(\mathbb{C}P^n, R)
@@ -400,7 +468,7 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 There is in general a choice to be made in interpreting the [[cohomology groups]] of a [[multiplicative cohomology theory]] $E$ as a [[ring]]:
 
-a priori $E^\bullet(X)$ is a sequence 
+a priori $E^\bullet(X)$ is a sequence
 
 $$
   \{E^n(X)\}_{n \in \mathbb{Z}}
@@ -468,7 +536,7 @@ $$
   \,.
 $$
 
-A priori both of these are sensible choices. The former is the usual choice in traditional [[algebraic topology]]. However, from the point of view of regarding [[ordinary cohomology]] theory as a [[multiplicative cohomology theory]] right away, then the second perspective tends to be more natural: 
+A priori both of these are sensible choices. The former is the usual choice in traditional [[algebraic topology]]. However, from the point of view of regarding [[ordinary cohomology]] theory as a [[multiplicative cohomology theory]] right away, then the second perspective tends to be more natural:
 
 The cohomology of $\mathbb{C}P^\infty$ is naturally computed as the [[inverse limit]] of the cohomolgies of the $\mathbb{C}P^n$, each of which unambiguously has the ring structure $\mathbb{Z}[c_1]/((c_1)^{n+1})$. So we may naturally take the limit in the [[category]] of [[commutative rings]] right away, instead of first taking it in $\mathbb{Z}$-indexed sequences of abelian groups, and then looking for ring structure on the result. But the limit taken in the category of rings gives the [[formal power series ring]] (see [here](formal+scheme#FormalPowerSeries)).
 
@@ -485,7 +553,7 @@ See also for instance remark 1.1. in [[Jacob Lurie]]: _[[A Survey of Elliptic Co
 +-- {: .num_prop #CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}
 ###### Proposition
 
-Given a [[complex oriented cohomology theory]] $(E^\bullet, c^E_1)$ ([defn.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheory)), then there is an [[isomorphism]] of [[graded rings]] 
+Given a [[complex oriented cohomology theory]] $(E^\bullet, c^E_1)$ ([defn.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheory)), then there is an [[isomorphism]] of [[graded rings]]
 
 $$
   E^\bullet(\mathbb{C}P^\infty) \simeq E^\bullet(\ast)[ [ c_1^E ] ]
@@ -501,7 +569,7 @@ between the $E$-[[cohomology ring]] of infinite-dimensional complex projective s
 
 Using the [[CW-complex]]-structure on $\mathbb{C}P^\infty$ from prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, given by inductively identifying $\mathbb{C}P^{n+1}$ with the result of attaching a single $2n$-cell to $\mathbb{C}P^n$. With this structure, the unique 2-cell inclusion $i \;\colon\; S^2 \hookrightarrow \mathbb{C}P^\infty$ is identified with the canonical map $S^2 \to B U(1)$.
 
-Then consider the [[Atiyah-Hirzebruch spectral sequence]] for the $E$-cohomology of $\mathbb{C}P^n$. 
+Then consider the [[Atiyah-Hirzebruch spectral sequence]] for the $E$-cohomology of $\mathbb{C}P^n$.
 
 $$
   H^\bullet(\mathbb{C}P^n, E^\bullet(\ast))
@@ -510,7 +578,7 @@ $$
   \,.
 $$
 
-Since, by prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace}, the [[ordinary cohomology]] with [[integer]] [[coefficients]] of projective space is 
+Since, by prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace}, the [[ordinary cohomology]] with [[integer]] [[coefficients]] of projective space is
 
 $$
   H^\bullet(\mathbb{C}P^n, \mathbb{Z}) \simeq \mathbb{Z}[c_1]/((c_1)^{n+1})
@@ -586,10 +654,10 @@ A first consequence is that the projection maps
 
 $$
   E^\bullet((\mathbb{C}P^\infty)_{2n+2})
-  = 
-  E^\bullet(\mathbb{C}P^{n+1}) 
-  \to 
-  E^\bullet(\mathbb{C}P^{n+}) 
+  =
+  E^\bullet(\mathbb{C}P^{n+1})
+  \to
+  E^\bullet(\mathbb{C}P^{n+})
   =
   E^\bullet((\mathbb{C}P^\infty)_{2n})
 $$
@@ -602,7 +670,7 @@ $$
      & \simeq
     E^\bullet(\mathbb{C}P^\infty)
     \\
-    & \simeq 
+    & \simeq
     E^\bullet( \underset{\longleftarrow}{\lim}_n \mathbb{C}P^n )
    \\
     &\simeq \underset{\longrightarrow}{\lim}_n E^\bullet(\mathbb{C}P^n)
@@ -630,20 +698,20 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 ## References
 
-See also 
+See also
 
 * [[Topospaces]], _[Complex projective space](http://topospaces.subwiki.org/wiki/Complex_projective_space)_
 
 * Wikipedia, _[Complex projective space](https://en.wikipedia.org
 /wiki/Complex_projective_space)_
 
-Computation of the [[stable homotopy groups]] of $\mathbb{C}P^\infty$ is due to 
+Computation of the [[stable homotopy groups]] of $\mathbb{C}P^\infty$ is due to
 
 * {#Segal73} [[Graeme Segal]], _The stable homotopy of complex of projective space_, The quarterly journal of mathematics (1973) 24 (1): 1-5. ([[Segal72.pdf:file]], [doi:10.1093/qmath/24.1.1]( https://doi.org/10.1093/qmath/24.1.1))
 
 (See also at _[[Snaith's theorem]]_.)
 
-Detailed reviewof the [[Atiyah-Hirzebruch spectral sequence]] for [[complex oriented cohomology]] is in 
+Detailed reviewof the [[Atiyah-Hirzebruch spectral sequence]] for [[complex oriented cohomology]] is in
 
 * {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
 
