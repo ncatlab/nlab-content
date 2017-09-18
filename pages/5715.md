@@ -50,7 +50,11 @@ $$
 
 of this morphism is the [[covariant phase space]] inside the configuration space: the space of classically realized trajectories/histories of the system.
 
-[[!redirects configuration spaces]]
+## Related concepts
+
+* [[configuration space (mathematics)]]
+
+* [[phase space]]
 
 [[!redirects space of field configurations]]
 [[!redirects spaces of field configurations]]
