@@ -18,7 +18,7 @@
 
 In [[physics]], the term _general covariance_ is meant to indicate the property of a [[physical system]] or [[model (in theoretical physics)]] whose [[configuration space|configurations]], [[action functional]] and [[equations of motion]] are all [[equivariance|equivariant]] under the [[action]] of the [[diffeomorphism group]] on the [[smooth manifold]] underlying the [[spacetime]] or the [[worldvolume]] of the system. Here "covariance" is as in "[[covariant tensor]]" another term for behaviour under diffeomorphisms.
 
-The term _[[general relativity]]_ for [[Einstein]]-[[gravity]] originates in at least closely related ideas (see _[History and original formulation](HistoryAndOriginalFormulation)_ below), and Einstein-gravity is the archtypical example of a generally covariant physical system: 
+The term _[[general relativity]]_ for [[Einstein]]-[[gravity]] originates in at least closely related ideas (see _[History and original formulation](#HistoryAndOriginalFormulation)_ below), and Einstein-gravity is the archtypical example of a generally covariant physical system: 
 
 here, the [[configuration space]] of physical fields over a [[smooth manifold]] $\Sigma$ is not quite the space of [[Riemannian metrics]] on $\Sigma$ itself, but is the [[quotient]] $[\Sigma,\mathbf{Fields}]/\mathbf{Diff}(\Sigma)$ of this space by the [[action]] of the [[diffeomorphism group]] $\mathbf{Diff}(\Sigma)$: two Riemannian metrics $g_1$ and $g_2$ on $\Sigma$ represent the same field of [[gravity]] on $\Sigma$ if there is a [[diffeomorphism]] $f : \Sigma \stackrel{\simeq}{\to} \Sigma$ such that $g_2 = f^* g_1$.
 
