@@ -15,7 +15,7 @@ Cauchy is associated with:
 
 *  the [[Cauchy-Riemann equation|Cauchy–Riemann equations]]
 
-*  the [[Cauchy integral theorem]] and [[Cauchy integral formula]]
+*  the [[Cauchy integral theorem]] and [[Cauchy integral formula]] (for [[contour integrals]] in [[complex analysis]])
 
 *  the [[Cauchy integral]]
 
@@ -23,6 +23,9 @@ Cauchy is associated with:
 
 *  [[Cauchy sum theorem]] ("[[Cauchy's mistake]]") from his 1821 textbook [[Cours d'Analyse]]
 
+* [[Cauchy surface]]
+
+* [[Cauchy real number]]
 
 category: people
 
