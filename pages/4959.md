@@ -1,5 +1,5 @@
 
-* [website](http://people.mpim-bonn.mpg.de/carchedi/)
+* [website](http://www.math.ubc.ca/~carchedi/index.html)
 
 category: people
 
