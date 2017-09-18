@@ -6,6 +6,12 @@
 
 Derived analytic geometry is the study of derived analogs of analytic spaces in various context, such as [[complex analytic geometry]], [[non-archimedean analytic geometry]] and [[global analytic geometry]].
 
+The main motivation for the introduction of derived analytic spaces is to have a proper functorial setting for deformation theory and the cotangent complex in analytic geometry.
+
+One also gets, using these methods, a derived construction of the Chern character and an analytic version of derived de Rham cohomology.
+
+Derived analytic methods may also be useful to study intersection theory and virtual fundamental classes on some analytic moduli spaces.
+
 ## Related concepts
 
 * [[derived complex analytic space]]
