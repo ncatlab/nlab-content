@@ -1,5 +1,15 @@
+
 [[!redirects Chris Douglas]]
 
-* [website](http://math.berkeley.edu/~cdouglas/)
+Chris Douglas is a professor for mathematics at Oxford
+
+* [webpage](http://www.christopherleedouglas.com)
+
+## related $n$Lab entries
+
+* [[2d CFT]], [[conformal nets]]
+
+* [[elliptic cohomology]]
+
 
 category: people
