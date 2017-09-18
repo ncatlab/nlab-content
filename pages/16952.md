@@ -53,7 +53,7 @@ $$
   \,,
 $$
 
-where now $S^V$ denotes the [[representation sphere]] of $V$. This more general grading is, for historically reasons, called [[RO(G)-grading]], and an equivariant cohomology theory equipped with this extra structure is called _genuine_ (as opposed to the "naive" case with grading just over the integers).
+where now $S^V$ denotes the [[representation sphere]] of $V$. This more general grading is, for historical reasons, called "[[RO(G)-grading]]", and an equivariant cohomology theory equipped with this extra structure is called _genuine_ (as opposed to the "naive" case with grading just over the integers).
 
 ### Representation by $G$-spectra
 
