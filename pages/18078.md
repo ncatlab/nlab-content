@@ -1,76 +1,59 @@
-+-- {: .num_prop #SetLimits}
+
++-- {: .num_prop #TopologyDetectedByNets}
 ###### Proposition
-**(limits of sets)**
+**(topology detected by nets)**
 
-Let
+Using the [[axiom of choice]] then:
 
-$$
-  X_\bullet
-    \,=\,
-  \left(
-     \left\{
-       X_i \overset{f_\alpha}{\longrightarrow} X_j
-     \right\}_{i,j \in I, \alpha \in I_{i,j}}
-     \,,\,
-     \mathrm{comp}
-  \right)
-$$
+Let $(X, \tau)$ be a [[topological space]]. Then a [[subset]] $(U \subset X)$ is [[open subset|open]] in $X$ (is an element of $\tau \subset P(X)$) precisely if its [[complement]] $X \backslash S$ is a [[closed subset]] as seen not just by sequences but by nets, in that no [[net]] with elements in $X\backslash S$,  $\nu \colon A \to X\backslash S \hookrightarrow X$, [[converges]] to an element in $S$.
 
-be a [[diagram]] of [[sets]] (def. \ref{Diagram}). Then
-
-1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by the following [[subset]] of the [[Cartesian product]]
-   $\underset{i \in I}{\times} X_i$
-   of all the [[sets]] $X_i$ appearing in the diagram
-
-   $$
-     \underset{\longleftarrow}{\lim}_i X_i
-     \,\overset{\phantom{AAA}}{\hookrightarrow}\,
-     \underset{i \in I}{\times} X_i
-   $$
-
-   on those [[tuples]] of elements which match the [[graphs]] of the functions appearing in the diagram:
-
-   $$
-     \underset{\longleftarrow}{\lim}_{i} X_i
-     \;\simeq\;
-     \left\{
-       (x_i)_{i \in I} \in \underset{i \in I}{\times} X_i
-       \,\vert\,
-       \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
-       \left(
-         f_{\alpha}(x_i) = x_j
-       \right)
-     \right\}
-   $$
-
-1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) exists and s given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram 
-   
-   $$
-     \underset{i \in I}{\sqcup} X_i
-       \,\overset{\phantom{AAA}}{\longrightarrow}\,
-     \underset{\longrightarrow}{\lim}_{i \in I} X_i
-   $$
-
-   with respect to the [[equivalence relation]] which is generated from the [[graphs]] of the functions in the diagram:
-   
-   $$
-     \underset{\longrightarrow}{\lim}_i X_i
-     \;\simeq\;
-     \left(
-       \underset{i \in I}{\sqcup} X_i
-     \right)/
-     \left(
-       (x \sim x') 
-         \Leftrightarrow 
-       \left( 
-         \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\exists}
-         \left(
-           f_\alpha(x) = x'
-         \right)
-       \right)
-     \right)
-   $$
-   
 
 =--
 
++-- {: .proof}
+###### Proof
+
+In one direction, let $S \subset X$ be open, and consider a net $\nu \colon A \to X \backslash S \subset X$. We need to show that for every point $x \in S$, $x$ is not a limiting point of the net.
+
+But by assumption then $S$ is a [[neighbourhood]] of $x$ which does not contain any element of the net, and so by definition of convergence it is not a limit of this net.
+
+Conversely, let $S \subset X$ be a subset that is not open. We need to show that then there exists a net $\nu \colon A \to X\backslash S \subset X$ that converges to a point in $S$.
+
+For $x \in X$, consider the [[directed set]] $Nbhd_X(x)$ of [[open neighbourhoods]] of this element (example \ref{DirectedSetOfNeighbourhods}).
+Now the fact that the set $S$ is not open means that there exists an element $s \in S \subset X$ such that every [[open neighbourhood]] $U$ of $s$ intersects $X \backslash S$. This means that we may [[axiom of choice|choose]] elements $x_U \in U \cap (X \backslash S)$, and hence define a net
+
+$$
+  \array{
+    Nbhds_X(s) &\overset{\nu}{\longrightarrow}& X \backslash S  \subset X
+    \\
+    U &\mapsto& x_U
+  }
+  \,.
+$$
+
+But by construction this net has the property that for every neighbourhood $V$ of $s$ there exists $U \in Nbhd_X(s)$ such that for all $U' \subset U$ then $x_{U'} \in V$, namely $U = V$. Hence the net converges to $s$.
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+**(continuous functions detected by nets)**
+
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[topological space]]. Then a [[function]] $f \colon X \to Y$ between their underlying sets is [[continuous function|continuous]] precisely if for every net $\vu \colon A \to X$ that converges to some $x \in X$, the net $f\circ \vu$ converges to  $f(y)\in Y$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, suppose that $f \colon X \to Y$ is continuous, and that $\nu \colon A \to X$ converges to some $x \in X$. We need to show that $f \citc \nu$ converges to $f(y) \in Y$, hence that for every neighbourhood $U_{f(y)} \subset Y$ there exists $i \in A$ such that $f(\nu(j)) \in U_{f(y)}$ for all $j \geq i$.
+
+But since $f$ is continuous, the [[pre-image]] $f^{-1}(U_{f(y)}) \subset X$ is an open neighbourhood of $x$, and so by the assumption that $\nu$ converges there is an $i \in A$ such that $\nu(j) \in f^{-1}(U_{f(y)})$ for all $j \geq i$. By applying $f$, this is the required statement.
+
+Conversely, suppose that $f$ is not continuous, and that the net $\nu$ converges to some $x \in X$. We need to show that then $f \circ \nu$ does not converge to $f(x)$.
+
+Now that $f$ is not continuous means that there exists an open subset $U \subset Y$ such that the pre-image $f^{-1}(U)$ is not open. By prop. \ref{TopologyDetectedByNets} this means that there exists a net $\nu$ in $X \backslash f^{-1}(U)$ that converges to an element $x \in f^{-1}(U)$. But this means that $f \circ \nu$ is a net in the $Y \backslash U$, which is a [[closed subset]] by the assumption that $U$ is open. Again by prop. \ref{TopologyDetectedByNets} this means that $f\circ \nu$ converges to an element in $Y \backslash U$, and hence not to $f(x) \in U$. 
+
+
+=--
