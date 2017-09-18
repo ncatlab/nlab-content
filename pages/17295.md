@@ -14,6 +14,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Injective and projective morphisms are [[morphisms]] in a [[category]] satisfying some [[lifting property]]. Often they appear jointly to form [[weak factorization systems]].
+
 ## Definition
 
 ### Injective and projective
@@ -44,4 +48,4 @@ Frequently one furthermore says:
 [[!redirects injective morphisms]]
 
 [[!redirects projective morphism]]
-[[!redirects projextive morphisms]]
+[[!redirects projective morphisms]]
