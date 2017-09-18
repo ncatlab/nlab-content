@@ -3,3 +3,7 @@ I like theoretical physics and am interested in clear and encompassing foundatio
 ![Warning: Aug. 2014](http://i.imgur.com/mBK4dTV.jpg)
 
 ![Warning: Functor - keep 2m distance](http://i.imgur.com/2gpWbon.jpg)
+
++-- {: .query}
+[[NikolajK]]: querytext
+=--
