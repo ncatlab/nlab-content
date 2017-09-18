@@ -76,7 +76,7 @@ $$
 
 ### Relation to finite abelian groups
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every [[finite abelian group]] is a [[direct sum of abelian groups]] over cyclic groups.
@@ -92,6 +92,8 @@ See at _[[finite abelian group]]_ for details.
 * [[p-localization]]
 
 * [[profinite completion of the integers]]
+
+* [[cyclotomic field]]
 
 * [[cyclotomic spectrum]]
 
