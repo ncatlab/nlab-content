@@ -307,6 +307,8 @@ This is how derived functors are traditionally introduced in homological algebra
 
 General discussion of derived functors in [[homotopy theory]] is for instance in 
 
+* {#Adams74} [[Frank Adams]], part III, section 8 of _[[Stable homotopy and generalised homology]]_, 1974
+
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
 and Homotopical Categories]]_, volume 113 of Mathematical Surveys and Monographs
