@@ -1,4 +1,4 @@
-Minimal logic, introduced by I. Johansson in 1936, is [[intuitionistic logic]] without the _ex falso quodlibet_ rule $\bot \vdash A$.  It may also be defined by starting with Gentzen\'s [[sequent calculus]] for classical logic (with $\neg$ but not $\bot$) and restricting to sequents $\Gamma \vdash \Delta$ where $\Delta$ must contain *exactly one* formula.
+Minimal logic, introduced by I. Johansson in 1936, is [[intuitionistic logic]] without the _ex falso quodlibet_ rule $\bot \vdash A$.  It may also be defined by starting with Gentzen\'s [[sequent calculus]] for [[classical logic]] (with $\neg$ but not $\bot$) and restricting to sequents $\Gamma \vdash \Delta$ where $\Delta$ must contain *exactly one* formula.
 
 Because it is not the case here that
 anything follows from a contradiction, minimal logic is a
@@ -20,7 +20,7 @@ _Toby_:  Possibly I was just thinking of the wrong thing when I created the link
 
 _Finn_: I too have seen minimal logic presented using $\neg$ and $\bot$.  I don't have my van Heijenoort with me, but I think Hilbert gave a definition of such a system in the early 1920s.  Johansson was the first to call it 'minimal logic', although I can't remember whether he included negation or $\bot$.
 
-I think the two approaches, with and without $\bot$, are equivalent anyway, in the absence of _ex falso quodlibet_, because '$\bot$', if it's included, is just another proposition.  The only reason I would include it is for continuity with presentations of classical or intuitionistic logic.  Then the difference between them seems to be in how they handle $\bot$.
+I think the two approaches, with and without $\bot$, are equivalent anyway, in the absence of _ex falso quodlibet_, because '$\bot$', if it's included, is just another proposition.  The only reason I would include it is for continuity with presentations of [[classical logic|classical]] or [[intuitionistic logic]].  Then the difference between them seems to be in how they handle $\bot$.
 
 (That said, I would take the sequent-calculus presentations to be canonical, because they make it more obvious that the differences are structural, rather than logical.  But I don't know how to draw inference rules on the wiki.)
 
