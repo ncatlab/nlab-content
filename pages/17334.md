@@ -30,10 +30,11 @@ of that meaning.
 * {#Rey00} [[John Reynolds]], _The Meaning of Types: from Intrinsic to Extrinsic Semantics_, BRICS Report RS-00-32, Aarhus University, December 2000. [pdf](http://www.cs.cmu.edu/afs/cs/user/jcr/ftp/typemeaning.pdf)
 * {#MZ13} [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [ arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
 
-An attempt to bring both views together in a theory of [[type refinement]]:
+Attempts to bring both views together in a theory of [[type refinement]]:
 
 * [[Frank Pfenning]], _Church and Curry: Combining Intrinsic
 and Extrinsic Typing_, [pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf)
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf))
 
 [[!redirects intrinsic type]]
 [[!redirects extrinsic type]]
