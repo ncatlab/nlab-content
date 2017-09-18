@@ -103,9 +103,7 @@ See the [[HowTo]] page for information on how to contribute to the $n$Lab and ed
 
 # Technology and Support
 
-The site is running [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage). To see the content correctly, you need to be running a [MathML-capable browser](http://golem.ph.utexas.edu/instiki/show/Browsers). See [[HowTo]] for more on that.
-
-The site is served using [apache](http://www.apache.org/) and [Phusion Passenger](http://www.modrails.com/). It is hosted on a [1Gb Virtual Private Server](http://railsplayground.com/plans-products/vps/), running [Ubuntu Linux](http://www.ubuntu.com/), from [Rails Playground](http://railsplayground.com/).
+The site is running a [fork](https://github.com/ncatlab/nlab) of [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage).
 
 The physical server running the nLab lives at [Carnegie Mellon University](http://www.cmu.edu), and is supported by the [[homotopy type theory]] MURI award FA9550-15-1-0053 from the United States Air Force Office of Scientific Research.
 
