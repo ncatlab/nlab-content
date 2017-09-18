@@ -1038,7 +1038,9 @@ There is also a notion of
 Under suitable conditions it should be true that for $C$ a model category whose [[homotopy category]] $Ho(C)$ is a [[triangulated category]] the homotopy category of a left Bousfield localization of $C$ is the left Bousfield localization of $Ho(C)$. See [this answer on MO](http://mathoverflow.net/a/136517/1291).
 
 
+## Related entries
 
+* [[right Bousfield delocalization]]
 
 
 
