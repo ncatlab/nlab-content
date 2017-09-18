@@ -11,11 +11,13 @@ $$x = a_0 + \frac{b_1}{a_1 + \frac{b_2}{a_2 + \frac{b_3}{a_3 + \cdots}}} $$
 
 with convergence under appropriate conditions. The most commonly used form is where $b_i = 1$ for all $i$; such is called a _regular_ continued fraction. 
 
-Every real number may be uniquely expressed as a finite or infinite regular continued fraction for which all the $a_i$ are [[integers]] and $a_i \gt 0$ for $i \gt 0$. The expression is an infinite continued fraction if and only if the real number is [[irrational number|irrational]], so that there is a [[bijection]] 
+Every real number may be (more or less[^fine]) uniquely expressed as a finite or infinite regular continued fraction for which all the $a_i$ are [[integers]] and $a_i \gt 0$ for $i \gt 0$. The expression is an infinite continued fraction if and only if the real number is [[irrational number|irrational]], so that there is a [[bijection]] 
 
 $$\mathbb{Z} \times (\mathbb{N}_+)^{\mathbb{N}_+} \to \{irrationals\}$$ 
 
 $$(a_0; a_1, a_2, \ldots) \mapsto x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \cdots}}}.$$ 
+
+[^fine]: For rational numbers, there are two continued fraction representations, agreeing up to say $a_{n-1}$, but ending with $a_n \gt 1$ in one case and $a_n - 1, a_{n+1} = 1$ in the other (since after all $a_n = (a_n - 1) + 1/1$). This can be an annoyance, but there are various workarounds. 
 
 This is in fact a [[homeomorphism]] if we endow the left side with the [[product topology]] and the right side with the [[subspace]] topology, regarding the set of irrationals as a subset of the real line (with its standard [[topological space|topology]]). (The space of irrationals becomes in this way a kind of prototypical chaotic dynamical system, where the dynamics on the product space is given by a shift map.) 
 
