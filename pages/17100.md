@@ -19,7 +19,7 @@ This pages collects links related to
 
   _Modern foundations for stable homotopy theory_, 
 
-  in [[Ioan Mackenzie James]] (e.d), 
+  in [[Ioan Mackenzie James]] (ed.), 
 
   _[[Handbook of Algebraic Topology]]_, 
 
@@ -38,11 +38,29 @@ on the basics of [[stable homotopy theory]] in terms of the [[model category]] o
 
 ## 1. Spectra and the stable homotopy category
 
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
 * [[pointed object]], [[loop space]], [[suspension]]
 
-* [[spectrum]]
+* [[homotopy equivalence]]
+
+* [[Brown representability theorem]]
+
+* [[Omega spectrum]], [[coordinate-free spectrum]]
+
+* [[suspension spectrum]]
+
+* [[homotopy classes]]
+
+* [[homotopy group]], [[stable homotopy groups of spheres]]
+
+* [[weak homotopy equivalence]]
 
 * [[stable homotopy category]]
+
+* [[CW spectrum]]
+
+* [[Whitehead theorem]]
 
 ## 2. Smash products and twisted half-smash products
 
