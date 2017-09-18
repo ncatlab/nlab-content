@@ -41,6 +41,12 @@ For [[central charge]] 15 this is the [[worldsheet]] [[theory (physics)|theory]]
 
   * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
+## Properties
+
+### Classification
+
+See at [supersymmetry -- Classification -- Superconformal algebra -- In dimension 2](supersymmetry#ClassificationSuperconformalInDim2).
+
 ## Related concepts
 
 
