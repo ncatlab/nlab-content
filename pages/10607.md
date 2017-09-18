@@ -271,6 +271,12 @@ This is effectively the content of ([Lurie "Proper morphisms", section 4](#Lurie
 
 See at _[[fracture theorem]]_ for more.
 
+### Fermions and supergeometry
+
+On [[super smooth infinity-groupoids]] there is an adjoint modality
+deriving from the [adjoint triple relating plain algebra and superalgebra](super+algebra#AdjointsToInclusionOfPlainAlgebra).
+This expresses the presence of [[supergeometry]]/[[fermions]] (...).
+
 ### Totally distributive categories
 
 For $\mathcal{K}$ a [[totally distributive category]]
