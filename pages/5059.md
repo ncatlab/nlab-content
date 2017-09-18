@@ -673,13 +673,21 @@ Discussion including also the [[RR-field]] background includes
 ### Relation to AdS-CFT
  {#ReferencesRelationToAdSCFT}
 
-Detailed discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce, after [[diffeomorphism]] [[gauge fixing]], superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
+Discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce -- after restricting to small fluctuations about a background solution and afzer [[diffeomorphism]] [[gauge fixing]] -- superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
+
+for the [[M2-brane]]:
 
 * {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
 * {#PastiSorokin99} [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_ ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
 
+for the [[M5-brane]]:
 
+* {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
+
+and more generally:
+
+* Piet Claus, [[Renata Kallosh]], J. Kumar, [8Peter Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
 
 ### Conserved current algebra
  {#ReferencesConservedCurrentAlgebra}
