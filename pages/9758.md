@@ -232,13 +232,13 @@ The Fierz identities that give the vanishing of trilinear and of quadratic terms
 
 The Fierz identities for $Spin(4,1)$ (relevant in [[5-dimensional supergravity]]) have been discussed  in 
 
-* [[Riccardo D'Auria]], [[Pietro Fré]], E. Maina, [[Tullio Regge]], _A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity_, Annals Phys. 139 (1982) 93 ([spire](inspirehep.net/record/167640?ln=eninspirehep.net/record/167640?ln=en))
-  {#DAuriaFreMainaRegge82}
+* {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]], E. Maina, [[Tullio Regge]], _A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity_, Annals Phys. 139 (1982) 93 ([spire](inspirehep.net/record/167640?ln=eninspirehep.net/record/167640?ln=en))
+  
 
 The Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and [[type II supergravity]]) are discussed 
 
-* [[Riccardo D'Auria]], [[Pietro Fré]], _Geometric Structure of $N=1 D=10$ and $N=4 D=4$ Super Yang-Mills Theory_, Nucl. Phys. B196 (1982) 205 ([spire](http://inspirehep.net/record/167639))
-  {#DAuriaFre82a}
+* {#DAuriaFre82a} [[Riccardo D'Auria]], [[Pietro Fré]], _Geometric Structure of $N=1 D=10$ and $N=4 D=4$ Super Yang-Mills Theory_, Nucl. Phys. B196 (1982) 205 ([spire](http://inspirehep.net/record/167639))
+  
 
 and in appendix C of 
 
@@ -246,8 +246,9 @@ and in appendix C of
 
 The full Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergravity]]) are tabulated on pages 12, 13 of 
 
-* [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
- {#DAuriaFre82b}
+* {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
+ 
+
 
 
 [[!redirects Fierz identities]]
