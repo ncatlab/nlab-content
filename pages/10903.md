@@ -507,10 +507,14 @@ This is semantics for linear homotopy type theory in the sense of def. \ref{Sema
 
 =--
 
+([Hopkins-Lurie](#HopkinsLurie), [Schreiber 14](#Schreiber14))
+
 +-- {: .num_remark}
 ###### Remark
 
 In the case that $E = \mathbb{S}$ is the [[sphere spectrum]], then $\mathbb{S}Mod \simeq Spectra$ is just the plain [[(∞,1)-category of spectra]] and then the above is the theory of plain [[parameterized spectra]].
+
+In this case the corresponding [[indexed closed monoidal category]] (under the [[(∞,1)-Grothendieck construction]]) is the [[tangent (∞,1)-topos]] $T(\infty Grpd)$ of [[∞Grpd]]. This happens to be itself an [[(∞,1)-topos]] and as such is semantics for plain [[homotopy type theory]]. However, plain homotopy type theory only sees in a [[tangent (∞,1)-topos]] parameterized spectra depending on parameterized spectra. It takes the extra axioms of linear homotopy type theory to speak bout how the parameterization of the spectra itself depends on the base homotopy types.
 
 =--
 
