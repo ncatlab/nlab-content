@@ -59,17 +59,22 @@ If $C$ is cocomplete and $C^T$ has reflexive coequalizers, then $C^T$ is cocompl
 ######Proof 
 First observe that if $(c, \xi: T c \to c)$ is a $T$-algebra, then $\xi$ is the coequalizer of the reflexive fork 
 
-$$F U c \stackrel{F \eta U c}{\to} F U F U c \stackrel{\overset{\varepsilon F U c}{\to}}{\underset{F U \varepsilon c}{\to}} F U c$$ 
+$$\array{
+F U c & \stackrel{F \eta U c}{\to} & F U F U c & \stackrel{\overset{\varepsilon F U c}{\to}}{\underset{F U \varepsilon c}{\to}} & F U c
+}$$ 
 
 To show $C^T$ has coproducts, let $(c_i, \xi_i)$ be a collection of algebras. Then $F(\sum_i U c_i)$ is the coproduct $\sum_i F U c_i$ in $C^T$ (since $F$ preserves coproducts and $C$ has them). We have a reflexive fork 
 
-$$\sum_i F U c_i \stackrel{\sum_i F \eta U c_i}{\to} \sum_i F U F U c_i \stackrel{\overset{\sum_i \varepsilon F U c_i}{\to}}{\underset{\sum_i F U \varepsilon c}{\to}} \sum_i F U c_i$$ 
+$$\array{
+\sum_i F U c_i & \stackrel{\sum_i F \eta U c_i}{\to} & \sum_i F U F U c_i & \stackrel{\overset{\sum_i \varepsilon F U c_i}{\to}}{\underset{\sum_i F U \varepsilon c}{\to}} & \sum_i F U c_i
+}$$ 
 
 and it is not difficult to show that the coequalizer in $C^T$ of this diagram is the coproduct $\sum_i c_i$. 
 
 Finally, general coequalizers in $C^T$ are constructed from coproducts and reflexive coequalizers: given a parallel pair $f, g: c \stackrel{\to}{\to} d$ in $C^T$, the coequalizer of $f$ and $g$ is the colimit of the reflexive fork 
 
-$$d \to c + d \stackrel{\overset{(f, 1_d)}{\to}}{\underset{(g, 1_d)}{\to}} d$$ 
+$$\array{
+d & \to & c + d & \stackrel{\overset{(f, 1_d)}{\to}}{\underset{(g, 1_d)}{\to}} & d}$$ 
 
 where the first arrow is the coproduct coprojection. 
 =-- 
@@ -112,7 +117,8 @@ If $\mathbf{C}$ is a [[regular category]] or [[exact category]] in which regular
 ###### Proof 
 For regularity, we first construct coequalizers of kernel pairs in $C^T$. So suppose $\pi_1, \pi_2: E \rightrightarrows B$ is the kernel pair of some $f: B \to C$ in $\mathbf{C}^T$. The kernel pair $U\pi_1, U\pi_2: U E \to U B$ of $U f$ in $\mathbf{C}$ has a coequalizer $q: U B \to Q$ in $\mathbf{C}$, and of course $U\pi_1, U\pi_2$ is the kernel pair of $q$ as well. It follows that the fork 
 
-$$U E \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} U B \stackrel{q}{\to} Q$$ 
+$$\array{
+U E & \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} & U B & \stackrel{q}{\to} & Q}$$ 
 
 splits in $\mathbf{C}$, hence this coequalizer diagram is preserved by $T$ and hence lifts to a coequalizer diagram in $\mathbf{C}^T$; cf. Beck's [[monadicity theorem]]. Thus kernel pairs in $\mathbf{C}^T$ have coequalizers. 
 
@@ -120,7 +126,8 @@ That regular epis in $\mathbf{C}^T$ are stable under pullback follows a similar 
 
 For Barr-exactness, suppose $\pi_1, \pi_2: E \rightrightarrows B$ is an equivalence relation (or [[congruence]]) in $\mathbf{C}^T$. Then $U\pi_1, U\pi_2: U E \rightrightarrows U B$ is an equivalence relation in $\mathbf{C}$, and hence a kernel pair since $\mathbf{C}$ is exact. It is the kernel pair of its coequalizer $q$ in $\mathbf{C}$. By the argument we have used several times, the split coequalizer 
 
-$$U E \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} U B \stackrel{q}{\to} Q$$ 
+$$\array{
+U E & \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} & U B & \stackrel{q}{\to} & Q$$ 
 
 lifts to a coequalizer diagram in $\mathbf{C}^T$, and since kernel pairs are preserved and reflected by $U: \mathbf{C}^T \to \mathbf{C}$, we conclude that $\pi_1, \pi_2$ is the kernel pair of the lifted regular epi over $q$. 
 =-- 
