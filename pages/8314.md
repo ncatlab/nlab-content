@@ -72,7 +72,7 @@ Moreover, the [[lattice of subgroups]] of $\mathbb{Z}/n\mathbb{Z}$ is equivalent
 
 (e.g [Aluffi 09, pages 83-84](#Aluffi09))
 
-This is a special case of the _[[fundamental theorem of finitely generated abelian groups]]. See there for more.
+This is a special case of the _[[fundamental theorem of finitely generated abelian groups]]_. See there for more.
 
 ### Group cohomology
 
@@ -99,6 +99,8 @@ See at _[[finite abelian group]]_ for details.
 ## Related concepts
 
 * [[group of order 2]]
+
+* [[cyclic ring]]
 
 * [[p-localization]]
 
