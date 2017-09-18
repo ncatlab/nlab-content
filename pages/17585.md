@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[rational homotopy theory]], given a [[rational space]] modeled by a [[Sullivan model]] [[dg-algebra]], there is an explicit description of the Sullivan model of its [[free loop space]].
+In [[rational homotopy theory]], given a [[rational topological space]] modeled by a [[Sullivan model]] [[dg-algebra]], there is an explicit description of the Sullivan model of its [[free loop space]].
 
 ## Construction
 
