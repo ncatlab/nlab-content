@@ -92,7 +92,7 @@ This way of thinking about supergroups is often explicit in
 some parts of the literature on supergeometry: some authors
 define a supergroup or [[super Lie algebra]] as a
 rule that assigns to every [[Grassmann algebra]] $A$ 
-over an ordinmary [[vector space]] an ordinary [[group]]
+over an ordinary [[vector space]] an ordinary [[group]]
 $G(A)$
 or [[Lie algebra]] and to a morphism of [[Grassmann algebra]]s
 $A \to B$
@@ -134,7 +134,7 @@ Recall how the notation works here: by the [[Yoneda embedding]] we have a [[full
 
 and we also have the theorem, discussed at [[supermanifold]]s, that maps from some $S \in SDiff$ into $\mathbb{R}^{p|q}$ is given by a tuple of $p$ even section $t_i$ and $q$ odd sections $\theta_j$. The above notation specifies the map of supermanifolds by displaying what map of sets of maps from some test object $S$ it corresponds to under the [[Yoneda embedding]].
 
-Now,  or each $S \in $ [[SDiff]] there is a [[group]] structure on the [[hom-set]] $SDiff(S, \mathbb{R}^{1|1}) \simeq C^\infty(S)^{ev} \times C^\infty(X)^{odd}$ given by precisely the above formula for this given $S$
+Now, for each $S \in $ [[SDiff]] there is a [[group]] structure on the [[hom-set]] $SDiff(S, \mathbb{R}^{1|1}) \simeq C^\infty(S)^{ev} \times C^\infty(X)^{odd}$ given by precisely the above formula for this given $S$
 
 $$
   \mathbb{R}^{1|1}(S) \times \mathbb{R}^{1|1}(S) \to 
@@ -155,7 +155,7 @@ Since the formula looks the same for all $S$, one often just writes it without m
 
 #### The super Euclidean group 
 
-The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclidean group]].
+The super-translation group is the $(1|1)$-dimensional case of the [[super Euclidean group]].
 
 
 #### General linear supergroup
