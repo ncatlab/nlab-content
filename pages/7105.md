@@ -190,7 +190,7 @@ This implies in particular that the [[homotopy fiber]] of $X \times_B^h Y \to X 
 
 We consider now the case where $B$ carries the structure of an  [[∞-group]] in a [[presentable (∞,1)-category]] $\mathcal{C}$.
 
-In this case, at least under suitable conditions (discussed in a moment), we have an [[(∞,1)-pullback]]
+In this case (as discussed in a moment), we have an [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -219,11 +219,11 @@ It then follows by the [[pasting law]] and prop. \ref{SequenceFromDiagonal} that
 
 $$
   \Omega B \longrightarrow X \times_B Y \longrightarrow X \times Y
-  \stackrel{f \cdot g^{-1}}{\longrightarrow}
+  \stackrel{f \cdot g^{-1}}{\longrightarrow} B
   \,.
 $$
 
-The following are two special cases where this works.
+First consider two more concrete special cases.
 
 +-- {: .num_example}
 ###### Example
@@ -286,7 +286,6 @@ Since [[∞-stackification]] preserves [[finite (∞,1)-limits]], this presents 
 
 =--
 
-More generally:
 
 +-- {: .num_example #SimplicialGroupObjectAsBase}
 ###### Example
@@ -385,8 +384,8 @@ is a [[homotopy pullback]].
 =--
 
 
-+-- {: .num_prop}
-###### Observation
++-- {: .num_prop #SequenceOverGroupObjectIn1LocalicSituation}
+###### Proposition
 
 For $B$ an [[∞-group]] object as above, the [[(∞,1)-pullback]] $X \times_B Y$ is equivalently given by the $(\infty,1)$-pullback
 
@@ -396,10 +395,11 @@ $$
    \\
    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{0}}
    \\ 
-   X \times Y &\stackrel{f-g}{\to}& B
+   X \times Y &\stackrel{f \cdot g^{-1}}{\to}& B
   }
   \,.
 $$
+
 
 =--
 
@@ -438,6 +438,39 @@ $$
 $$
 
 Here the composite bottom morphism is $(f - g)$.
+
+=--
+
+Finally in full generality:
+
++-- {: .num_prop}
+###### Proposition
+
+For $\mathbf{H}$ an [[(∞,1)-topos]], $B$ an [[∞-group]]-object in $\mathbf{H}$ and $f\colon X \to B$ and $g \colon Y\to B$ two morphisms, then there is a long [[homotopy fiber sequence]] of the form
+
+$$
+  \Omega B \longrightarrow X \times_B Y \longrightarrow X \times Y
+  \stackrel{f \cdot g^{-1}}{\longrightarrow} B
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $\mathcal{C}$ an [[(∞,1)-site]] of definition, there is a [[reflective sub-(infinity,1)-category|reflection]]
+
+$$
+  \mathbf{H} \stackrel{\longleftarrow}{\hookrightarrow}
+  [C^{op},\infty Grpd]
+$$
+
+of $\mathbf{H}$ into an [[(∞,1)-category of (∞,1)-presheaves]].
+
+By prop. \ref{SequenceOverGroupObjectIn1LocalicSituation} the statement
+holds in $[C^{op},\infty Grpd]$. Since embedding and reflection both preserve
+[[finite (∞,1)-limits]], it hence also holds in $\mathbf{H}$.
 
 =--
 
