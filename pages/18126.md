@@ -109,7 +109,7 @@ extra "[[separation axioms]]" are imposed on topological spaces (see [below](#Se
 depends on this choice.
 
 Among the separation axioms, the _[[Hausdorff topological space|Hausdorff space]]_ axiom is most popular
-(see [below](#TnTopologicalSpaces)). But the weaker axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
+(see [below](#TnTopologicalSpaces)). But the weaker axiom of [[sober topological space|sobriety]] (see [below](#SoberSpaces)) stands out, on the one
 hand because this is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
 and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand because it fully realizes the strong roots that
 topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the
@@ -3870,7 +3870,7 @@ The condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff c
 and it is still often (but by no means always) considered by default.
 
 However, there are respectable areas of mathematics that involve topological spaces where the Hausdorff axiom fails, but
-a weaker axiom is still satisfied, called [[sober topological spaces|soberity]].
+a weaker axiom is still satisfied, called [[sober topological spaces|sobriety]].
 This is the case notably in [[algebraic geometry]] ([[schemes are sober]]) and in [[computer science]] ([Vickers 89](#Vickers89)).
 These _[[sober topological spaces]]_ are singled out by the fact that they are entirely characterized by their
 [[frame of opens|sets of open subsets]] with their union and intersection structure (as in def. \ref{HomomorphismOfFramesOfOpens})
@@ -5392,7 +5392,7 @@ That neither class is contained in the other is shown by the following counter-e
 
 +-- {: .num_example #T1AndSoberIncomparable}
 ###### Example
-**($T_1$ neither implies nor is implied by soberity)**
+**($T_1$ neither implies nor is implied by sobriety)**
 
 * The [[Sierpinski space]] (def. \ref{SierpinskiSpace}) is sober, but not $T_1$.
 
@@ -5400,7 +5400,7 @@ That neither class is contained in the other is shown by the following counter-e
 
 =--
 
-Finally, soberity is indeed strictly weaker that Hausdorffness:
+Finally, sobriety is indeed strictly weaker that Hausdorffness:
 
 
 +-- {: .num_example}
@@ -5659,9 +5659,9 @@ To see that $s_X$ is continuous, observe that $s_X^{-1}(\tilde U) = U$, by const
 
 =--
 
-+-- {: .num_lemma #UnitIntoSXDetectsT0AndSoberity}
++-- {: .num_lemma #UnitIntoSXDetectsT0AndSobriety}
 ###### Lemma
-**([[sober reflection]] detects $T_0$ and soberity)**
+**([[sober reflection]] detects $T_0$ and sobriety)**
 
 For $(X, \tau_X)$ a [[topological space]],
 the function $s_X \colon X \to S X$ from def. \ref{SoberificationConstruction} is
@@ -5748,7 +5748,7 @@ $$
   \,.
 $$
 
-By lemma \ref{SoberificationIsIndeedSober} and lemma \ref{UnitIntoSXDetectsT0AndSoberity}, the right vertical morphism $s_{S X}$ is an isomorphism (a [[homeomorphism]]), hence has an [[inverse morphism]]. This defines the diagonal morphism, which is the desired factorization.
+By lemma \ref{SoberificationIsIndeedSober} and lemma \ref{UnitIntoSXDetectsT0AndSobriety}, the right vertical morphism $s_{S X}$ is an isomorphism (a [[homeomorphism]]), hence has an [[inverse morphism]]. This defines the diagonal morphism, which is the desired factorization.
 
 To see that this factorization is unique, consider two factorizations $\tilde f, \overline{f} \colon \colon (S X, \tau_{S X}) \to (Y, \tau_Y^{sob})$ and apply the soberification construction once more to the triangles
 
@@ -5773,7 +5773,7 @@ $$
   \,.
 $$
 
-Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to find that the vertical morphism is an isomorphism, and that $\tilde f$ and $\overline{f}$ do not change under soberification, as they already map between sober spaces. But now that the left vertical morphism is an isomorphism, the commutativity of this triangle for both $\tilde f$ and $\overline{f}$ implies that $\tilde f = \overline{f}$.
+Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSobriety} to find that the vertical morphism is an isomorphism, and that $\tilde f$ and $\overline{f}$ do not change under soberification, as they already map between sober spaces. But now that the left vertical morphism is an isomorphism, the commutativity of this triangle for both $\tilde f$ and $\overline{f}$ implies that $\tilde f = \overline{f}$.
 
 =--
 
@@ -5837,7 +5837,7 @@ in def. \ref{LimitingCone} below, more general
 of [[sequences]] as in def. \ref{Convergence}).
 
 Moreover, we have seen [above](#HausdorffReflections) that the [[quotient space]] construction in general does not
-preserve the $T_n$-[[separation axiom|separation]] property or [[sober space|soberity]] property
+preserve the $T_n$-[[separation axiom|separation]] property or [[sober space|sobriety]] property
 of topological spaces, while the [[topological subspace]] construction does. The same turns out
 to be true for the more general "colimiting" and "limiting" universal constructions. But we have also seen
 that we may universally "reflect" any topological space to becomes a $T_n$-space or sober space.
@@ -9047,7 +9047,7 @@ Notice that we may encode these subspaces more abstractly in terms of [[universa
 The path space and the loop space are characterized, up to [[homeomorphisms]], as being the [[limit|limiting cones]]
 in the following [[pullback]] diagrams of topological spaces (example \ref{Pushout}):
 
-1. [[loop space]]: 
+1. [[loop space]]:
 
    $$
      \array{
