@@ -144,3 +144,5 @@ A special case of this is that of a _[[quotient module]]_.
 [[!redirects congruence relations]]
 [[!redirects internal equivalence relation]]
 [[!redirects internal equivalence relations]]
+[[!redirects internal congruence]]
+[[!redirects internal congruences]]
