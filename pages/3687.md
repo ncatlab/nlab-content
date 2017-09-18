@@ -62,6 +62,8 @@ Although the non-Calabi-Yau case may be of lesser interest to physics, one can s
 
 * [[moduli space of Calabi-Yau spaces]]
 
+* [[3d mirror symmetry]]
+
 * [[duality in physics]], [[duality in string theory]]
 
 
