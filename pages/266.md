@@ -373,7 +373,7 @@ $$
 +-- {: .num_example #CoendFormulaForPresheavesOfSets}
 ###### Example
 
-The coend formula for the  left Kan extension is nicely understood when thinking of $C$ and $D$ above as [[opposite categories]] and for $\mathcal{V} = Set$, so that it takes [[presheaves]] on $C$ along $p \colon C \to C'$ to presheaves on $C'$, by the formula
+The coend formula for the  left Kan extension is nicely understood when thinking of $C$ and $D$ above as [[opposite categories]] and for $\mathcal{V} = Set$, so that it takes [[presheaves]] $F$ on $C$ along $p \colon C \to C'$ to presheaves $Lan_p F$ on $C'$, by the formula
 
 $$
   (Lan_p F)(c') \simeq \int^{c \in C} C'(c', p(c)) \times F(c)
@@ -387,7 +387,7 @@ $$
   \,.
 $$
 
-In this form one see that what the coend does is to produce the set whose elements are [[equivalence classes]] of pairs of morphisms
+In this form one sees that what the coend does is to produce the set whose elements are [[equivalence classes]] of pairs of morphisms
 
 $$
    (c' \to p(c), c \to F)
@@ -412,6 +412,7 @@ $$
   \,.
 $$
 
+This is particularly suggestive in cases when we may think of the objects of $C$ and $C'$ on the same footing, notably when $p$ is a [[full subcategory]] inclusion. For in that case we may imagine that a representative pair $(c' \to p(c), c \to F)$ is a stand-in for the actual pullback of elements of $F$ via forming the composite "$c'\to c \to F$", only that this composite is not defined. But the above equivalence relation is precisely that under which this composite would be invariant.
 
 
 =--
@@ -678,7 +679,7 @@ $$
 ### Left Kan extensions preserving certain limits
  {#LeftKanExtensionPreservingCertainLimits}
 
-The following statement says that [[left exact functors]] into [[toposes]] have left exact left Kan extension along the [[Yoneda embedding]] ([[Yoneda extension]]) and that this is the [[inverse image]] of a [[geometric morphism]] of [[sheaf toposes]] of the original functor preserves [[covers]].
+The following statement says that [[left exact functors]] into [[toposes]] have left exact left Kan extension along the [[Yoneda embedding]] ([[Yoneda extension]]) and that this is the [[inverse image]] of a [[geometric morphism]] of [[sheaf toposes]] if the original functor preserves [[covers]].
 
 (We state this in [[(∞,1)-category theory]], the same statement holds true in plain [[category theory]] by just disregarding all occurences of"$\infty$".)
 
