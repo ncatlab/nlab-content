@@ -51,7 +51,8 @@ Next section: _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spe
 ## **Part 1) Stable homotopy theory**
  {#StableHomotopyTheory}
 
- 
+
+
 The _[[Introduction to Stable homotopy theory -- P|Prelude on Classical homotopy theory]]_ ended with the following phenomenon:
 
 +-- {: .num_defn #SuspensionAndLoopingOnPointedTopologicalSpaces}
@@ -3944,7 +3945,7 @@ $\tilde \sigma^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
 
 Regarding the second point:
 
-Let $f \colon X \to Y$ be a stable weak homotopy equivalence. By the existence of the model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}, $\Sigma f$ is a stable weak homotopy equivalence precisely if its image in the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{stable})$ is an isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen)). By the [[Yoneda lemma]], this is the case if for all $Z \in Ho(SeqSpec(Top_{cg})_{stable})$ the function
+Let $f \colon X \to Y$ be a stable weak homotopy equivalence. By the existence of the model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}, $\Sigma f$ is a stable weak homotopy equivalence precisely if its image in the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{stable})$ is an isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen)). By the [[Yoneda lemma]] ([[full subcategory|fully faithfulness]] of the [[Yoneda embedding]]), this is the case if for all $Z \in Ho(SeqSpec(Top_{cg})_{stable})$ the function
 
 $$
   [\Sigma f, Z]_{stable}
@@ -5364,7 +5365,7 @@ Write
 
 $$
   Ho(Spectra)
-  \coloneqq
+    \coloneqq
   Ho(SeqSpec(Top_{cg})_{stable})
 $$
 
@@ -5597,6 +5598,55 @@ The middle square is the image under $Q$ of the evident naturality square
 for concatenation of loops. This is where we use that we have the standard model for forming loop spaces and concatenation of loops ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)): the diagram commutes because the loops are always poinwise pushed forward along the map $f$.
 
 =--
+
++-- {: .num_example #ForASpectrumXGeneralizedECohomology}
+###### Example
+
+Let $E \in SeqSpec(Top_{cg})$ be an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) and let $X\in Top^{\ast/}_{cg}$ be a [[pointed topological space]] with $\Sigma^\infty X$ its [[suspension spectrum]] (example \ref{SuspensionSpectrum}). Then the [[graded abelian group]] (by prop. \ref{StableHomotopyCategoryIsAbEnriched})
+
+$$
+  \begin{aligned}
+    \tilde E^\bullet(X)
+     & \coloneqq
+    [\Sigma^\infty X, \Sigma^\bullet E]
+    \\
+      & \simeq
+    [X, \Omega^\infty \Sigma^\bullet E]_\ast
+    \\
+      & \simeq
+    [X, E_\bullet]_\ast
+  \end{aligned}
+$$
+
+is also called the **[[reduced cohomology]] of $X$** in the **[[generalized (Eilenberg-Steenrod) cohomology]] theory** that is [[Brown representability theorem|represented]] by $E$.
+
+Here the equivalences used are
+
+1. the [[adjunction]] isomorphism of $(\Sigma^\infty \dashv \Omega^\infty)$ from theorem \ref{StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory};
+
+1. the isomorphism $\Sigma \simeq [1]$ of suspension with the shift spectrum (def. \ref{ShiftedSpectrum}) on $Ho(Spectra)$ of lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}, together with the nature of $\Omega^\infty$ from prop. \ref{SigmaInfinityOmegaInfinity}.
+
+The latter expression 
+
+$$
+  \tilde E^n(X) \simeq [X, E_n]_\ast
+$$
+
+(on the right the hom in in the [[classical homotopy category]] $Ho(Top^{\ast/})$ of [[pointed topological spaces]]) is manifestly the definition of [[reduced cohomology|reduced]] [[generalized (Eilenberg-Steenrod) cohomology]] as discussed in [[Introduction to Stable homotopy theory -- S|part S]] in the [section on the Brown representability theorem](Introduction+to+Stable+homotopy+theory+--+S#BrownRepresentabilityTheorem).
+
+More generally, there is now $E$-cohomology not only for spaces, but also for spectra: for $X \in Ho(Spectra)$ be any spectrum, then
+
+$$
+  \tilde E^\bullet(X)
+   \coloneqq
+  [X,\Sigma^\bullet E]
+$$
+
+is called the reduced $E$-cohomology of the spectrum $X$. For examples see in the [[Introduction to Stable homotopy theory -- S|part S]] the section _[Orientation in generalized cohomology](Introduction+to+Stable+homotopy+theory+--+S#OrientationAndFiberIntegration)_.
+
+
+=--
+
 
 In summary, lemma \ref{StableHomotopyCategoryHasCoproducts} and lemma \ref{StableHomotopyCategoryIsAbEnriched} state that the [[stable homotopy category]] is an [[Ab-enriched category]] with finite [[coproducts]]. This is called an _[[additive category]]_:
  
@@ -6433,7 +6483,7 @@ $$
 
 Here the commutativity of the middle square exhibits the desired conclusion.
 
-This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished triangle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[C,X]_\ast$.
+This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished triangle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[B/A,X]_\ast$.
 
 Regarding the second case: 
 
@@ -6449,7 +6499,13 @@ To that end, consider the commuting diagram
 
 $$
   \array{
-    X &\longrightarrow& 0 &\longrightarrow& \Sigma X &\overset{- id}{\longrightarrow}& \Sigma X
+    X 
+      &\longrightarrow& 
+    0 
+      &\longrightarrow& 
+    \Sigma X 
+      &\overset{- \Sigma id}{\longrightarrow}& 
+    \Sigma X
     \\
     \downarrow^{\mathrlap{\psi}} && \downarrow
     \\
@@ -6470,7 +6526,12 @@ Now the top part of this diagram is a distinguished triangle by conditions T1 an
 
 $$
   \array{
-    X &\longrightarrow& 0 &\longrightarrow& \Sigma X &\overset{- id}{\longrightarrow}& \Sigma X
+    X &\longrightarrow& 
+    0 
+      &\longrightarrow& 
+    \Sigma X 
+      &\overset{- \Sigma id}{\longrightarrow}& 
+    \Sigma X
     \\
     \downarrow^{\mathrlap{\psi}} 
       && 
@@ -6504,7 +6565,7 @@ $$
   \,.
 $$
 
-This exhibits the claim to be shown.
+This concludes the exactness of the second sequence at $[X,B]_\ast$. As before, exactness at $[X,B/A]_\ast$ follows with the same argument applied to the shifted triangle, via T2.
 
 =--
 
@@ -6555,7 +6616,7 @@ where we extended one step to the right using axiom T2 (def. \ref{CategoryWithCo
 
 By prop. \ref{FiberCofiberSequencesInATriangulatedCategory} here the top and bottom are [[exact sequences]].
 
-So assume the case that $a$ and $b$ are isomorphisms, hence that $a_\ast$, $b_\ast$, $(\Sigma a)_\ast$ and $(\Sigma b)_\ast$ are isomorphisms. Then by exactness of the horizontal sequences, the [[five lemma]] implies that $c_\ast$ is an isomorphism. Since this holds [[natural transformation|naturally]] for all $X$, the [[Yoneda lemma]] then implies that $c$ is an isomorphism.
+So assume the case that $a$ and $b$ are isomorphisms, hence that $a_\ast$, $b_\ast$, $(\Sigma a)_\ast$ and $(\Sigma b)_\ast$ are isomorphisms. Then by exactness of the horizontal sequences, the [[five lemma]] implies that $c_\ast$ is an isomorphism. Since this holds [[natural transformation|naturally]] for all $X$, the [[Yoneda lemma]] ([[full subcategory|fully faithfulness]] of the [[Yoneda embedding]]) then implies that $c$ is an isomorphism.
 
 If instead $b$ and $c$ are isomorphisms, apply this same argument to the triple $(b,c,\Sigma a)$ to conclude that $\Sigma a$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], this implies then that $a$ is an isomorphism.
 
@@ -6604,7 +6665,7 @@ $$
   \,.
 $$
 
-Now lemma \ref{TwoOutOfThreeForMorphismsOfDistinguishedTriangles} gives that $c'$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], there is an isomorphism $c$ such that $c' = \Sigma c$. This $c$ exhibits an isomorphism between $(f,g,h)$ and $(f,g',h')$. Since the latter is distinguished, so is the former, by T0.
+Now lemma \ref{TwoOutOfThreeForMorphismsOfDistinguishedTriangles} gives that $c'$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], there is an isomorphism $c$ such that $c' = \Sigma c$. Since $\Sigma$ is in particular a [[faithful functor]], this $c$ exhibits an isomorphism between $(f,g,h)$ and $(f,g',h')$. Since the latter is distinguished, so is the former, by T0.
 
 =--
 
@@ -6623,23 +6684,23 @@ $$
   Z
 $$ 
 
-be a [[homotopy cofiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) of spectra in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) $Ho(Spectra)$. Let $A \in Ho(Spectra)$ be any other spectrum. Then there are [[long exact sequences]] of [[abelian groups]] of the form
+be a [[homotopy cofiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) of spectra in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) $Ho(Spectra)$. Let $A \in Ho(Spectra)$ be any other spectrum. Then the [[abelian groups|abelian]] [[hom-object|hom-groups]] of the [[stable homotopy category]] (def. \ref{GroupStructureOnHomsInStableHomotopyCategory}, lemma \ref{StableHomotopyCategoryIsAbEnriched}) sit in [[long exact sequences]] of the form
 
 $$
    \cdots
     \longrightarrow
   [A, \Omega Y]
-    \overset{-\Omega g}{\longrightarrow}
-  [A, \Omega Z]_\ast
+    \overset{-(\Omega g)_\ast}{\longrightarrow}
+  [A, \Omega Z]
     \overset{}{\longrightarrow}
-  [A,X]_\ast
+  [A,X]
     \overset{f_\ast}{\longrightarrow}
-  [A,Y]_\ast
+  [A,Y]
     \overset{g_\ast}{\longrightarrow}
   [A,Z]
     \overset{}{\longrightarrow}
   [A,\Sigma X]
-     \overset{-\Sigma f}{\longrightarrow}
+     \overset{-(\Sigma f)_\ast}{\longrightarrow}
   [A, \Sigma Y]
      \longrightarrow
    \cdots
@@ -6668,12 +6729,12 @@ $$
   \phi \;\colon\; hofib(f) \overset{\simeq}{\longrightarrow} \Omega hocof(f)
 $$
 
-between the [[homotopy fiber]] and the looping of the [[homotopy cofiber]], which fits into a [[commuting diagram]] of the form
+between the [[homotopy fiber]] and the looping of the [[homotopy cofiber]], which fits into a [[commuting diagram]] in the [[stable homotopy category]] $Ho(Spectra)$ of the form
 
 $$
   \array{
      \Omega Y 
-       &\longrightarrow& 
+       &\overset{}{\longrightarrow}& 
      hofib(f)
        &\longrightarrow&
      X
@@ -6682,32 +6743,86 @@ $$
        &&
      \downarrow^{\mathrlap{\phi}}_{\mathrlap{\simeq}}
        &&
-     \downarrow^{\mathrlap{=}}
+     \downarrow^{\mathrlap{\simeq}}
      \\
      \Omega Y
        &\longrightarrow&
      \Omega hocof(f)
        &\longrightarrow&
-     X
+     \Omega \Sigma X
   }
-  \,.
+  \,,
 $$
 
+where the top row is the [[homotopy fiber]] sequence of $f$, while the bottom row is the image under the looping functor $\Omega$ of the [[homotopy cofiber]] sequence of $f$.
+
 =--
+
+([Lewis-May-Steinberger 86, chapter III, theorem 2.4](equivariant+stable+homotopy+theory#LewisMaySteinberger86))
 
 +-- {: .proof}
 ###### Proof
 
-Consider the [[commuting diagram]]
+Label the diagram in question as follows
 
 $$
   \array{
      \Omega Y 
-       &\longrightarrow&
+       &\overset{a}{\longrightarrow}& 
+     hofib(f)
+       &\overset{b}{\longrightarrow}&
+     X
+     \\
+     {}^{\mathllap{=}}\downarrow
+       &(1)&
+     \downarrow^{\mathrlap{\phi}}_{\mathrlap{\simeq}}
+       &(2)&
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     \Omega Y
+       &\underset{c}{\longrightarrow}&
+     \Omega hocof(f)
+       &\underset{d}{\longrightarrow}&
+     \Omega \Sigma X
+  }
+  \,.
+$$
+
+
+Let $X$ be represented by a [[CW-spectrum]] (by prop. \ref{CWApproximationForSequentialSpectra}), hence in particular by a cofibrant sequential spectrum (by prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}). By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood} and the [[factorization lemma]] ([lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)) this implies that the standard [[mapping cone]] construction on $f$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#MappingConeAndMappingCocone)) is a model for the [[homotopy cofiber]] of $f$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#StandardTopologicalMappingConeIsHomotopyCofiber)):
+
+$$
+  hocof(f) \simeq Cone(f)
+  \,.
+$$
+
+By construction of mapping cones, this sits in the following [[commuting squares]] in $SeqSpec(Top_{cg})$.
+
+$$
+  \array{
+    X &\longrightarrow& Cone(X)
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    Y &\longrightarrow& Cone(f)
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    \ast &\longrightarrow& \Sigma X
+  }
+  \,.
+$$
+
+Consider then the [[commuting diagram]]
+
+$$
+  \array{
+     \Omega Y 
+       &\overset{a}{\longrightarrow}&
      hofib(f)
        &\overset{\phi}{\longrightarrow}&
      \Omega hocof(f)
-       &\longrightarrow&
+       &\overset{d}{\longrightarrow}&
      \Omega \Sigma X \simeq X
      \\
      \downarrow 
@@ -6745,16 +6860,16 @@ $$
   \,,
 $$
 
-where the bottom commuting squares are the canonical ones, and where the top row of squares are those induced by forming homotopy fibers of the bottom vertical morphisms.
+in the [[stable homotopy category]] $Ho(Spectra)$ (def. \ref{TheStableHomotopyCategory}). Here the bottom commuting squares are the images under [[localization]] $\gamma\;\colon\;SeqSpec(Top_{cg}) \longrightarrow Ho(Spectra)$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the above commuting squares in the definition of the [[mapping cone]], and the top row of squares are the morphisms induced via the [[universal property]] of [[fibers]] by forming [[homotopy fibers]] of the bottom vertical morphisms (fibers of fibration replacements, which may be chosen compatibly, either by pullback or by invoking the [[small object argument]]).
 
-Here the composition of the left two horizontal morphisms at the top exhibits the left part of the commuting diagram to be proven.
+First of all, this exhibits the composition of the left two horizontal morphisms $\phi \circ a \simeq c$ in the above diagram as the left part (1) of the commuting diagram to be proven.
 
-Now observe that the [[pasting]] composite of the two rectangles on the right of the previous diagram is isomorphic to the following pasting composite:
+Now observe that the [[pasting]] composite of the two rectangles on the right of the previous diagram is isomorphic, in $Ho(Spectra)$, to the following pasting composite:
 
 $$
   \array{
     hofib(f)
-      &\overset{}{\longrightarrow}&
+      &\overset{b}{\longrightarrow}&
     X
       &\underoverset{\simeq}{\eta}{\longrightarrow}&
     \Omega \Sigma X \simeq X
@@ -6775,29 +6890,20 @@ $$
       &\longrightarrow&
     \Sigma X
   }
-  \,,
-$$
-
-due to the defining pasting composite of pushouts
-
-$$
-  \array{
-    X &\longrightarrow& Cone(X)
-    \\
-    \downarrow && \downarrow
-    \\
-    Y &\longrightarrow& Cone(f)
-    \\
-    \downarrow && \downarrow
-    \\
-    \ast &\longrightarrow& \Sigma X
-  }
   \,.
 $$
 
+This is because the pasting composite of the bottom squares is isomorphic already in $SeqSpec(Top_{cg})$ by the above commuting diagrams for the [[mapping cone]] and the [[suspension]], and then using again the [[universal property]] of [[homotopy fibers]].
 
 
-Hence the top composite is equal, by universality of homotopy fibers, to the previous top composite. Since $\eta$ is an isomorphism in the stable homotopy category, this gives the commutativity of the right part of the diagram to be proven.
+Hence the top composite morphisms coincide, by universality of homotopy fibers, with the previous top composite:
+
+$$
+  \eta \circ b \simeq d \circ \phi
+  \,.
+$$
+
+This is the commutativity of the right part (2) of the diagram to be proven.
 
 So far we have shown that
 
@@ -6829,40 +6935,40 @@ To that end, consider for any $A \in Ho(Spectra)$ the image of this commuting di
 
 $$
   \array{
-     [A, \Omega X]_\ast
+     [A, \Omega X]
        &\longrightarrow&
-     [A,\Omega Y]_\ast 
+     [A,\Omega Y] 
        &\longrightarrow& 
-     [A,hofib(f)]_\ast
+     [A,hofib(f)]
        &\longrightarrow&
-     [A,X]_\ast
+     [A,X]
        &\longrightarrow&
-     [A,Y]_\ast
+     [A,Y]
      \\
      {}^{\mathllap{=}}\downarrow
        &&
      {}^{\mathllap{=}}\downarrow
        &&
-     \downarrow^{\mathrlap{[A,\phi]_\ast}}_{}
+     \downarrow^{\mathrlap{[A,\phi]}}_{}
        &&
-     \downarrow^{\mathrlap{=}}
+     \downarrow^{\mathrlap{\simeq}}
        &&
-     \downarrow^{\mathrlap{=}}
+     \downarrow^{\mathrlap{\simeq}}
      \\
-     [A, \Omega X]_\ast
+     [A, \Omega X]
        &\longrightarrow&
-     [A,\Omega Y]_\ast
+     [A,\Omega Y]
        &\longrightarrow&
-     [A,\Omega hocof(f)]_\ast
+     [A,\Omega hocof(f)]
        &\longrightarrow&
-     [A,X]_\ast
+     [A,\Omega \Sigma X]
        &\longrightarrow&
-     [A,Y]_\ast
+     [A,\Omega \Sigma Y]
   }
   \,.
 $$
 
-Here the top row is [[long exact sequence|long exact]], since it is the long [[homotopy fiber sequence]] to the left that holds in the homotopy category of any model catgeory ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)). Moreover, the bottom sequence is [[long exact sequence|long exact]] by prop. \ref{LongFiberSequencesOfMapsOfSpectra}. Hence the [[five lemma]] implies that $[A,\phi]_\ast$ is an isomorphism. Since this is the case for all $A$, the [[Yoneda lemma]] implies that $\phi_\ast$ itself is an isomorphism.
+Here the top row is [[long exact sequence|long exact]], since it is the long [[homotopy fiber sequence]] to the left that holds in the homotopy category of any model catgeory ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)). Moreover, the bottom sequence is [[long exact sequence|long exact]] by prop. \ref{LongFiberSequencesOfMapsOfSpectra}. Hence the [[five lemma]] implies that $[A,\phi]_\ast$ is an isomorphism. Since this is the case for all $A$, the [[Yoneda lemma]] ([[full subcategory|faithfulness]] of the [[Yoneda embedding]]) implies that $\phi$ itself is an isomorphism.
 
 =--
 
@@ -7104,6 +7210,7 @@ We discuss how these spectral sequences arise in the section _[[Introduction to 
 We discuss in detail the special case of the [[Adams spectral sequences]] in the section _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_.
 
 =--
+ 
 
 
 But for handling any of these spectral sequences it is convenient, or, in many cases, necessary to have multiplicative structure available, induced from a  [[symmetric monoidal smash product of spectra]]. This we turn to now in _[Section 1.2 --  Structured spectra](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+1#DiagramSpectra)_.
