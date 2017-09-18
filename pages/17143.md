@@ -1,0 +1,41 @@
+[[!redirects universal complex orientation of MU]]
+[[!redirects MU and complex orientations]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+For $E$ a [[commutative ring spectrum]]/[[E-infinity ring]], there is a bijection between [[complex oriented cohomology theory|complex orientation]] on $E$ and ring spectrum homomorphism $MU \longrightarrow E$ from [[MU]].
+
+(e.g [Lurie 10, lect. 6, theorem 8](#LurieLect6), [Ravenel, chapter 4, lemma 4.1.13](#Ravenel))
+
+
+Hence $MU$ is the universal [[complex oriented cohomology theory]].
+
+## Related concepts
+
+* [[Lazard's theorem]]
+
+* [[Landweber exact functor theorem]]
+
+* [[Quillen's theorem on MU]]
+
+* [[Landweber-Novikov theorem]]
+
+
+
+## References
+
+Review includes
+
+* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
+
+[[!redirects MU and complex orientation]]
+
+[[!redirects complex orientation and MU]]
+[[!redirects complex orientations and MU]]
