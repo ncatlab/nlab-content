@@ -63,6 +63,10 @@ and a Batalin-Vilkovisky $V$-module $\Omega$.
 
 See also the case of [[Batalin-Vilkovisky algebra]]. 
 
+## Related concepts
+
+* [[differential calculus]]
+
 
 ## References
 
