@@ -32,5 +32,9 @@ The origin of the terminology is recalled by one of its inventors on [MO here](h
 
 * Ryan Reich, _Notes on Beilinson's "How to glue perverse sheaves"_, [arxiv/1002.1686](http://arxiv.org/abs/1002.1686)
 
+An article aiming at the categorification of perverse sheaves is 
+
+* [[Mikhail Kapranov]], Vadim Schechtman, _Perverse Schobers_, [arxiv/1411.2772](http://arxiv.org/abs/1411.2772)
+
 category: sheaf theory, algebraic geometry
 [[!redirects perverse sheaves]]
