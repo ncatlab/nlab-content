@@ -103,11 +103,7 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 * [[equivariant motivic homotopy theory]]
 
-* [[slice spectral sequence]]
-
-* [[tom Dieck splitting]]
-
-* [[equivariant spectrum]], [[equivariant sphere spectrum]], [[equivariant suspension spectrum]], [[equivariant homotopy group]]
+* [[equivariant spectrum]], [[equivariant sphere spectrum]], [[equivariant suspension spectrum]], [[equivariant homotopy group]], [[equivariant stable homotopy category]], [[tom Dieck splitting]], [[slice spectral sequence]]
 
 ## References
 
