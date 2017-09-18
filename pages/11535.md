@@ -6,7 +6,7 @@ I am a $14$-year old student aspiring to be a mathematician. I love studying hig
 My websites: [my blog](http://categorymath.wordpress.com), [my page at _Problems in Homotopy Theory_](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/Sanath+Devalapurkar), and [nlab page](http://ncatlab.org/nlab/show/Sanath+Devalapurkar). I am updating the first more regularly than the others.
 <hr>
 ##Talk(s) and Notes##
-I will be giving a talk at the AMS Fall Western Sectional Meeting on October 25th at San Francisco State University. I have posted [my notes](https://categorymath.files.wordpress.com/2014/09/fall-western-sectional-meeting-presentation-notes.pdf) and [my slides](https://categorymath.files.wordpress.com/2014/09/fall-western-sectional-meeting-presentation.pdf) on my blog at the following links. Any comments would be welcome, either on my blog, through email, or on this nlab page itself.
+I will be giving a talk at the AMS Fall Western Sectional Meeting on October 25th at San Francisco State University. I have posted [my notes](https://categorymath.files.wordpress.com/2014/10/ams-fall-western-sectional-meeting-notes.pdf) and [my slides](https://categorymath.files.wordpress.com/2014/10/ams-fall-western-sectional-meeting.pdf) on my blog at the following links. Any comments would be welcome, either on my blog, through email, or on this nlab page itself.
 <hr>
 ##Latest Blog Post##
 Here I'll usually post my latest blog post.
@@ -18,7 +18,7 @@ While I was working through my slides for my talk at the AMS Fall Western Sectio
 
  * [AMS Fall Western Sectional Meeting Notes](https://categorymath.files.wordpress.com/2014/10/ams-fall-western-sectional-meeting-notes.pdf)
 
-The same errors that I've corrected in the slides and notes exist in my paper that I'd written earlier on the higher K-theory of $latex \infty$-categories, and I plan to edit that as well soon.
+The same errors that I've corrected in the slides and notes exist in my paper that I'd written earlier on the higher K-theory of $\infty$-categories, and I plan to edit that as well soon.
 <hr>
 Category: people 
 
