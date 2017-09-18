@@ -304,7 +304,7 @@ Cubical [[singular homology]] is discussed in
 
 An axiomatization of cubical sets in [[constructive set theory]]/[[type theory]] (with the aim of building models of [[homotopy type theory]]) is in
 
-* {#BezemCoquandHuber13} Marc Bezem, [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([web](http://drops.dagstuhl.de/opus/volltexte/2014/4628/), [pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/pdf/7.pdf))
+* {#BezemCoquandHuber13} Marc Bezem, [[Thierry Coquand]], [[Simon Huber]], _A model of type theory in cubical sets_, 2013  ([web](http://drops.dagstuhl.de/opus/volltexte/2014/4628/), [pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/pdf/7.pdf))
 
 * {#KaposiAltenkirch14} Ambrus Kaposi, [[Thorsten Altenkirch]], _A syntax for cubical type theory_ ([pdf](http://mazzo.li/dump/aim-kaposi-pres.pdf))
 
