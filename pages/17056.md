@@ -5,9 +5,9 @@
 
 * [[excisive (∞,1)-functor]]
 
-  * [[spectrum object]], 
+  * [[spectrum object]], [[parameterized spectrum]], 
 
-  * [[parameterized spectrum]], [[tangent (∞,1)-category]], [[tangent (∞,1)-topos]]
+  * [[tangent (∞,1)-category]], [[tangent (∞,1)-topos]]
 
 * [[n-excisive (∞,1)-functor]]
 
@@ -18,3 +18,5 @@
 * [[Goodwillie-Taylor tower]]
 
   * [[analytic (∞,1)-functor]]
+
+  * [[Goodwillie spectral sequence]]
