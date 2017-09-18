@@ -367,10 +367,60 @@ For $E$ a [[ring spectrum]], then a sequence of spectra is (long/short) _$E$-exa
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #HomotopyCofiberSequencesAreExactSequencesOfSpectra}
 ###### Example
 
 Every [[homotopy cofiber sequence]] of spectra is exact in the sense of def. \ref{ExactSequences}. 
+
+=--
+
++-- {: .num_example #SuspensionPreservesExactSequencesOfSpectra}
+###### Example
+
+The [[suspension]] functor $\Sigma \colon Ho(Spectra) \to Ho(Spectra)$ preserves exact sequences in the sense of def. \ref{ExactSequences}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[adjunction]]-[[isomorphism]] $[\Sigma A_\bullet, -]\simeq [A_\bullet, \Omega(-)]$ and so the statement follows from the assumption that $A_\bullet$ is long exact.
+
+=--
+
++-- {: .num_example #HomotopyRetractionsAreMonomorphismsOfSpectra}
+###### Example
+
+If a morphism, $s \colon A \to B$ has a [[retraction]] $r \colon B \to A$ in [[Ho(Spectra)]] then it is a monomorphism in the sense of def. \ref{ExactSequences}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to check that for every $X$ the morphism $i^\ast \colon [B, X]\to [A,X]$ is surjective. By retraction, given $f \colon A \to X$, then $r \circ f \colon B \stackrel{r}{\to} A \stackrel{f}{\to} X$ is a preimage.
+
+=--
+
++-- {: .num_example #TensoringWithUnitOfRingSpectrumIsMonomorphismOfSpectra}
+###### Example
+
+For any spectrum $X$ the morphism
+
+$$
+  X \simeq \mathbb{S} \wedge X \stackrel{e \wedge id}{\longrightarrow}
+  E \wedge X
+$$
+
+is an $E$-monomorphism in the sense of def. \ref{ExactSequences}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to check that $E \wedge X \stackrel{id \wedge e \wedge id}{\longrightarrow} E \wedge E \wedge X$ is a monomorphism in the sense of def. \ref{ExactSequences}. Observe that this morphism has a [[retraction]] given by $\mu \wedge id$. Therefore it is a monomorphism by 
+example  \ref{HomotopyRetractionsAreMonomorphismsOfSpectra}.
 
 =--
 
@@ -381,15 +431,17 @@ Consecutive morphisms in an $E$-exact sequence according to def. \ref{ExactSeque
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #CharacterizationOfEpiMonomorphismsOfSpectra}
 ###### Lemma
 
-1. If $f \colon B\longrightarrow A$ is a monomorphism in the sense of def. \ref{ExactSequences}, then there exists a morphism $g \colon C \longrrightarrow A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
+1. If $f \colon B\longrightarrow A$ is a monomorphism in the sense of def. \ref{ExactSequences}, then there exists a morphism $g \colon C \longrightarrow A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
 
    $$
      f \vee g \;\colon\; B \wedge C \stackrel{\simeq}{\longrightarrow} A
      \,.
    $$
+
+   In particular, every morphism in [[Ho(Spectra)]] has an [[extension]] along a monomorphism in this sense. 
 
 1. If $f \colon A \longrightarrow B$ is an epimorpimsm in the sense of def. \ref{ExactSequences}, then there exists a homotopy [[section]] $s \colon B\to A$, i.e. $f\circ s\simeq Id$, together with a morphism $g \colon C \to A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
 
@@ -397,6 +449,44 @@ Consecutive morphisms in an $E$-exact sequence according to def. \ref{ExactSeque
      s \vee f \colon B\vee C \stackrel{\simeq}{\longrightarrow} A
      \,.
    $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Given a monomorphism $f \colon A \longrightarrow B$, consider the correspondiing [[homotopy cofiber sequence]]
+
+$$
+  A\stackrel{f}{\longrightarrow} B \stackrel{r}{\longrightarrow} C  \stackrel{\delta}{\longrightarrow} \Sigma A \stackrel{-\Sigma f}{\longrightarrow} \Sigma B
+  \,.
+$$
+
+We first observe that the [[connecting homomorphism]] is equivalent to the [[zero morphism]] $\delta \simeq 0$. This follows because by example \ref{HomotopyCofiberSequencesAreExactSequencesOfSpectra} the sequence
+
+$$
+  [C,X] 
+    \stackrel{\delta^\ast_\bullet}{\longleftarrow} 
+  [\Sigma A, X]
+    \stackrel{(-\Sigma f)^\ast_\bullet}{\longleftarrow}
+  [\Sigma B, X]
+$$
+
+is an [[exact sequence]] (of homotopy groups) for every $X$, while by example \ref{SuspensionPreservesExactSequencesOfSpectra} the morphism on the right is epi, so that $\delta^\ast_\bullet = 0$.
+
+Now since $B \stackrel{r}{\longrightarrow} C \stackrel{\delta \simeq 0}{\longrightarrow}$ is also a [[homotopy fiber sequence]], the [[pasting law]] identifies $B \simeq C \times A \simeq C \vee A$:
+
+$$
+  \array{
+    B \simeq C \times A &\longrightarrow& A &\longrightarrow& 0 
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    C &\longrightarrow& 0 &\longrightarrow& \Sigma A
+  }
+  \,.
+$$
+
 
 =--
 
@@ -418,12 +508,94 @@ $$
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #EInjectiveSpectraAreRetractsOfFreeEModules}
 ###### Lemma
 
-If $S$ is $E$-injective in the sense of def. \ref{EInjective}, then there exists a spectrum $X$ such that $S$ is a [[retract]] in [[HoSpectra]] of $E \wedge X$.
+A spectrum is $E$-injective in the sense of def. \ref{EInjective}, precisely if it is a [[retract]] in [[HoSpectra]] of a free $E$-modules, hence of $E \wedge X$ for some spectrum $X$.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+In one direction, assume that $S$ is $E$-injective and consider the diagram
+
+$$
+  \array{
+    S &\stackrel{id}{\longrightarrow}& S
+    \\
+    {}^{\mathllap{e \wedge id}}\downarrow
+    \\
+    E \wedge S
+  }
+  \,.
+$$
+
+By example \ref{TensoringWithUnitOfRingSpectrumIsMonomorphismOfSpectra} here the vertical morphism is an $E$-monomorphism, and so by assumption there is a lift
+
+$$
+  \array{
+    S &\stackrel{id}{\longrightarrow}& S
+    \\
+    \downarrow & \nearrow
+    \\
+    E \wedge S
+  }
+$$
+
+which exhibits $S$ as a retract of $E \wedge S$.
+
+In the other direction, given a retraction $S \stackrel{\overset{r}{\longleftarrow}}{\underset{s}{\longrightarrow}} E \wedge X$ we show that there exist extensions in
+
+$$
+  \array{
+    A &\stackrel{g}{\longrightarrow} & S
+    \\
+    {}^{\mathllap{f}}\downarrow 
+    \\
+    B
+  }
+$$
+
+whenever the vertical morphism is an $E$-monomorphism. To see this, complete the extension problem to the following [[commuting diagram]]
+
+$$
+  \array{
+    A &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge A
+    \\
+    {}^{\mathllap{f}}\downarrow &\searrow^{\mathrlap{g}} & &&  & {}^{\mathllap{{\mu \wedge id} \atop {\circ id \wedge s g }}}\swarrow & \downarrow^{\mathrlap{id \wedge f}}
+    \\
+    && S &\stackrel{r}{\longleftarrow}& E \wedge X
+    \\
+    \downarrow && &&  && \downarrow
+    \\
+    B &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge B
+  }
+  \,.
+$$
+
+Now, since $f$ is assumed to be an $E$-monomorphism, the morphism $Eid\wedge f$ on the right is a monomorphism in the sense of def. \ref{ExactSequences}, and so by lemma \ref{CharacterizationOfEpiMonomorphismsOfSpectra} there exists an extension $h$ in 
+
+$$
+  \array{
+    A &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge A
+    \\
+    {}^{\mathllap{f}}\downarrow &\searrow^{\mathrlap{g}} & &&  & {}^{\mathllap{{\mu \wedge id} \atop {\circ id \wedge s g }}}\swarrow & \downarrow^{\mathrlap{id \wedge f}}
+    \\
+    && S &\stackrel{r}{\longleftarrow}& E \wedge X
+    \\
+    \downarrow && &&  &\nwarrow^{\mathrlap{h}}& \downarrow
+    \\
+    B &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge B
+  }
+  \,.
+$$
+
+By composition and commutativity, this gives the required extension of $g$ along $f$.
+
+
+=--
+
 
 #### $E$-Adams resolutions
 
@@ -444,10 +616,11 @@ such that each $I_j$ is $E$-injective, def. \ref{EInjective}.
 +-- {: .num_lemma}
 ###### Lemma
 
-Any two consecutive maps in an $E$-Adams resolution compose to the [[zero morphism]].
+Any two consecutive maps in an $E$-Adams resolution, def. \ref{EAdamsResolution}, compose to the [[zero morphism]].
 
 =--
 
+The following lemma says that $E$-Adams resolutions may be [[extension|exteded]] along morphisms.
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -467,21 +640,101 @@ $$
 
 =--
 
+
 +-- {: .num_example #StandardEResolution}
 ###### Example
 **(standard resolution)**
 
-Consider the augmented [[cosimplicial object|cosimplicial]] which is the $\mathbb{S} \to E$-[[Amitsur complex]] [[smash product of spectra|smashed]] with $X$:
+Any [[ring spectrum]] $E$ gives rise to an [[augmentation|augmented]] [[cosimplicial object|cosimplicial]] [[spectrum]]  (its _[[bar construction]]_)
 
 $$
-  X \longrightarrow E \wedge X \stackrel{\longrightarrow}{\longrightarrow} E \wedge E \wedge X \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
-  E \wedge E \wedge E \wedge X
- \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
+  \mathbb{S} \longrightarrow E 
+    \stackrel{\longrightarrow}{\longrightarrow} 
+  E \wedge E 
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+  E \wedge E \wedge E 
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
  \cdots
+$$
+
+whose
+
+* coface maps are given by inserting the unit $\mathbb{S} \stackrel{e}{\to} E$
+
+  $$
+    d^i 
+      \colon
+    E^{\wedge^n}
+      \simeq
+    E^{\wedge^i} \wedge \mathbb{S} \wedge E^{\wedge^{n-i}}
+      \stackrel{id \wedge e \wedge id}{\longrightarrow}
+    E^{\wedge^{n+1}}
+    \,;
+  $$
+
+* codegeneracy maps are given by the product operation $\mu \colon E \wedge E \to E$
+
+  $$
+    s^j
+      \colon
+    E^{\wedge^{n+1}}
+      \simeq
+    E^{\wedge^{i}} \wedge E \wedge E \wedge E^{\wedge n-1-i}
+      \stackrel{id \wedge \mu \wedge id}{\longrightarrow}
+    E^n
+    \,.
+  $$
+
+The corresponding [[Amitsur complex]] is given by forming alternating sums of the coface maps
+
+$$
+  \mathbb{S}
+    \stackrel{e}{\longrightarrow}
+  E
+    \stackrel{e\wedge id - id \wedge e}{\longrightarrow}
+  E \wedge E
+    \stackrel{e \wedge id - id\wedge e \wedge id + id \wedge e}{\longrightarrow}
+  E \wedge E \wedge E
+    \stackrel{}{\longrightarrow}
+  \cdots
   \,.
 $$
 
-Its corresponding [[Moore complex]] (the sequence whose maps are the alternating sum of the above coface maps) is an $E$-Adams resolution, def. \ref{EAdamsResolution}.
+Given any [[spectrum]] $X$, then forming the [[smash product]] $(-)\wedge X$ with this sequence yields a sequence of the form
+
+$$
+  X
+    \stackrel{}{\longrightarrow}
+  E \wedge X
+    \stackrel{}{\longrightarrow}
+  E \wedge E \wedge X
+    \stackrel{}{\longrightarrow}
+  E \wedge E \wedge E \wedge X
+    \stackrel{}{\longrightarrow}
+  \cdots
+  \,.
+$$
+
+This is called the **standard $E$-Adams resolution** of $X$.
+
+=--
+
+(e.g. [Hopkins 99, def. 5.4](#Hopkins99)).
+
++-- {: .num_prop}
+###### Proposition
+
+The standard resolution of example \ref{StandardEResolution}
+is indeed an $E$-Adams resolution of $X$ in the sense of def. \ref{EAdamsResolution}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As generally for [[bar resolutions]], one checks that the alternating sum of the codegeneracy maps constiute homotopy operators that give contracting homotopies when commuted with the alternating sum of the coface maps. This gives that the sequence is $E$-exact.
+
+Moreover, the terms in the sequence are all $E$-injective by lemma \ref{EInjectiveSpectraAreRetractsOfFreeEModules}.
 
 =--
 
