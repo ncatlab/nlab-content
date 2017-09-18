@@ -214,6 +214,8 @@ This appears as ([[Higher Topos Theory|HTT, lemma 7.2.3.5]]).
 
 ## Related concepts
 
+* [[countably paracompact topological space]]
+
 * [[compact topological space]], [[countably compact topological space]], [[locally compact topological space]], [[strongly compact topological space]], [[sequentially compact topological space]]
 
 
