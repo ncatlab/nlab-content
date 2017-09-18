@@ -61,7 +61,7 @@ This appears as ([Lurie, def 2.3.1.3](#Lurie)).
 +-- {: .un_prop}
 ###### Proposition
 
-There is a canonical bijection between equivalence classes of correspondences between $C$ and $D$ and equivalence classes of $(\infty,1)$-profunctors [[(∞,1)-functor]]s
+There is a canonical bijection between equivalence classes of correspondences between $C$ and $D$ and equivalence classes of [[(∞,1)-profunctors]], i.e., [[(∞,1)-functors]]
 
 $$
   C^{op} \times D \to \infty Grpd
