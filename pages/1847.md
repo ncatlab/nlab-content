@@ -133,7 +133,7 @@ As with the concept of [[compact topological spaces]] ([this remark](compact#spa
        [[Andrew Stacey]] Hmm, I guess I'll have to get Lang and Brylinski out of the library to see exactly what's going on here.  I don't see how density can make any difference since we could always restrict to the closure of $p_n(E)$ in $H_n$.
        =--
 
-* [[CW complexes]], see for instance [Hatcher, appendix of section 1.2](#Hatcher). For a discussion that highlights which [[axiom of choice|choice principles]] are involved, see ([Fritsch-Piccinini 90, Theorem 1.3.5 (p. 29 and following)](#FP)).
+* [[CW-complexes are paracompact Hausdorff spaces]], see for instance [Hatcher, appendix of section 1.2](#Hatcher). For a discussion that highlights which [[axiom of choice|choice principles]] are involved, see ([Fritsch-Piccinini 90, Theorem 1.3.5 (p. 29 and following)](#FP)).
 
 * metric spaces
 
@@ -177,11 +177,16 @@ As with the concept of [[compact topological spaces]] ([this remark](compact#spa
 
 * [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
 
+  Care should be taken as to which category one constructs partitions of unity on paracompact spaces. For example, analytic partitions of unity generally do not exist on smooth (finite dimensional) manifolds, even when smooth ones do.
+
 * For paracompact spaces, [[numerable open cover|numerable open covers]] are cofinal in all open covers (in $Top$).
 
-Care should be taken as to which category one constructs partitions of unity on paracompact spaces. For example, analytic partitions of unity generally do not exist on smooth (finite dimensional) manifolds, even when smooth ones do.
-
 * [[Michael's theorems]] 
+
++-- {: .num_prop}
+###### Proposition
+
+=--
 
 
 ### Homotopy and Cohomology 
