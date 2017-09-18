@@ -29,3 +29,6 @@ In [[quantum mechanics]] forming the comosite amounts to taking the (non-cartesi
 [[!include twisted generalized cohomology in linear homotopy type theory -- table]]
 
 [[!redirects composite systems]]
+
+[[!redirects compound system]]
+[[!redirects compound systems]]
