@@ -71,7 +71,7 @@ Accordingly, a normed division algebras is in particular a division [[compositio
 
 Over the [[complex numbers]],  [[generalized the|the]] only normed division algebra is the algebra of complex numbers themselves.  
 
-The [[Hurwitz theorem]] says that over the [[real numbers]] there are, up to [[isomorphism]], exactly four finite-dimensional normed division algebras :
+The [[Hurwitz theorem]] says that over the [[real numbers]] there are, up to [[isomorphism]], exactly four finite-dimensonal normed division algebras :
 
 *  $\mathbb{R}$, the algebra of [[real numbers]],
 *  $\mathbb{C}$, the algebra of [[complex numbers]],
@@ -91,7 +91,7 @@ However, these algebras do all have some useful algebraic properties; in particu
 
 A __[[normed field]]__ is a commutative normed division algebra; it follows from the preceding that the only normed fields over $\mathbb{R}$ are $\mathbb{R}$ and $\mathbb{C}$ (e.g. [Tornheim 52](#Tornheim52)).
 
-It is in fact true that all _unital_ normed division algebras over $\mathbb{R}$ are already finite dimensional, by ([Urbanik--Wright 1960](#UrbanikWright60)), and the authors give a reference on a non-unital infinite-dimensional normed division algebra.
+It is in fact true that all _unital_ normed division algebras over $\mathbb{R}$ are already finite dimensional, by ([Urbanik-Wright 1960](#UrbanikWright60)) (the authors give a reference on a non-unital infinite-dimensional normed division algebra). Hence the [[Hurwitz theorem]] together with [Urbanik-Wright 1960](#UrbanikWright60) says that the above four exhaust all real normed division algebras.
 
 For purely inseparable characteristic 2 field extensions one can apparently get infinite-dimensional examples; see [this MathOverflow answer](http://mathoverflow.net/a/45655/4177) for reference.
 
