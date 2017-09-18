@@ -56,6 +56,10 @@ Standard references are
 * [[EGA IV]], section 21
 * [[Stacks Project]], [02QQ](http://stacks.math.columbia.edu/tag/02QQ)
 
+On the relation with [[Weil cohomology theories]], [[algebraic K-theory]], [[Beilinson-Lichtenbaum conjectures]], and [[motivic cohomology]]:
+
+* [[Marc Levine]], _Algebraic cycle complexes_, talk notes, 2008, [pdf](https://www.uni-due.de/~bm0032/publ/CycleComplexes.pdf).
+
 A relation to [[iterated integrals]] and [[diffeological spaces]] is discussed in 
 
 * [[Richard Hain]], _Iterated Integrals and Algebraic Cycles: Examples and Prospects_ ([arXiv:](http://arxiv.org/abs/math/0109204))
