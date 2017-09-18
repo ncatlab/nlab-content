@@ -7,11 +7,21 @@
 
 A [[manifold]] of [[special holonomy]] [[Spin(7)]].
 
+## Properties
+
+### As part of the Berger classification
+
+[[!include special holonomy table]]
+
+### As $\mathbb{O}$-Riemannian manifolds
+
+[[!include normed division algebra Riemannian geometry -- table]]
+
 ## Related concepts
 
 * [[Spin(7)-instanton]]
 
-[[!include special holonomy table]]
+
 
 
 ## References
