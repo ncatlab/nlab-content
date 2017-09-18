@@ -40,6 +40,8 @@ These can be a little more complicated; see [[quasigroup]] for some discussion o
 
 ## Related concepts
 
+* [[inverse morphism]], [[inverse function]]
+
 * [[weak inverse]]
 
 * [[inversion involution]]
