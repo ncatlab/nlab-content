@@ -109,7 +109,7 @@ Then
 #### Component definition
  {#CategoryShapedDiagramInComponents}
 
-We state an explicit component-based definition of diagrams o the shape of categories.
+We state an explicit component-based definition of diagrams of the shape of categories.
 
 +-- {: .num_defn #Diagram}
 ###### Definition
@@ -125,7 +125,7 @@ A [[diagram]] $X_\bullet$ in a [[category] is
 1. for each [[triple]] $i,j,k \in I$ [[function]]
 
    $$
-     comp_{i,j,k} I_{i,j} \;\colon\; \times I_{j,k} \longrightarrow I_{i,k}
+     comp_{i,j,k} \;\colon\; I_{i,j} \times I_{j,k} \longrightarrow I_{i,k}
    $$
  
 such that 
