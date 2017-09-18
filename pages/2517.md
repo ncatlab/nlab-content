@@ -105,7 +105,10 @@ $$
 
 is an [[isomorphism]].
 
+[[!redirects Kock-Lawvere axioms]]
+
 
 [[!redirects Kock--Lawvere axiom]]
 [[!redirects Kock–Lawvere axiom]]
 [[!redirects Kock Lawvere axiom]]
+
