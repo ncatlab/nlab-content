@@ -9,18 +9,26 @@
 =--
 =--
 
-There are several concepts often called a **path category**.
 
 # Contents
 * table of contents
 {:toc}
 
+## Idea
+
+One can view the concept of a [[morphism]] or arrow in a [[category]] as an extreme abstraction of the concept of a spatial trajectory. It therefore comes without surprise that (notions of) paths stemming from various conceptualizations of 'space' like e.g. [[quivers]] or [[topological spaces]] arrange themselves in appropriate categories thereby giving rise to several _different notions_ of **path category**.
+
 ## Free category on a directed graph
 
 There is a [[forgetful functor]] from [[small category|small]] [[strict category|strict]] [[categories]] to [[quivers]]. This forgetful functor has a [[left adjoint]], giving the **free category** or **path category** of a quiver, whose [[objects]] are the vertices of the quiver.  The [[morphisms]] from $a$ to $b$ in this free category are *not* merely the arrows from $a$ to $b$ in the quiver but instead are [[lists]] of the form $(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0)$ where $n \geq 0$ is a [[natural number]], $a_0,a_1,\ldots,a_n$ are vertices of the graph, $a = a_0$, $b = a_n$,  and for all $0 \lt i \leq n$, $f_i\colon a_{i-1} \to a_i$ is an edge from $a_{i-1}$ to $a_i$.  The [[composition]] is given by the concatenation 
 $$(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0)\circ (b_m,g_m,a_{m-1},\ldots,b_{1},g_1,b_0) := (a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0= b_m,g_m,a_{m-1},\ldots,b_{1},g_1,b_0)$$ 
-whenever $a_0 = b_m$, and the [[target]] and [[source]] maps are given by $s(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0)=a_0$ and $t(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0) = a_n$. One informally writes $f$ for the morphism $(b,f,a)\colon a \to b$ in the free category and the [[identity morphism|identities]] of the free category are $id_a = (a,a)$; thus $f_n \circ f_{n-1} \circ \ldots \circ f_1 = (t(f_n),f_n,t(f_{n-1}),\ldots,t(f_1),f_1,s(f_1))$. The standard reference is [[Gabriel–Zisman]] who call it the category of paths. It occurs at various places in their dictionary with the definition right on page 1. More elaborate discussions of the free category can be found in [MacLane](#MacLane), Borceux vol.1, or [Barr-Wells](#BarrWells). Related things are done with free cats with extra-structure and their path categories by [Walters1](#Walters1) and [Walters2](#Walters2) and by [Latch](#Latch) here. All three concern context free grammars.
+whenever $a_0 = b_m$, and the [[target]] and [[source]] maps are given by $s(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0)=a_0$ and $t(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0) = a_n$. One informally writes $f$ for the morphism $(b,f,a)\colon a \to b$ in the free category and the [[identity morphism|identities]] of the free category are $id_a = (a,a)$; thus $f_n \circ f_{n-1} \circ \ldots \circ f_1 = (t(f_n),f_n,t(f_{n-1}),\ldots,t(f_1),f_1,s(f_1)).$
 
+### Remark
+
+With free objects, one is often primarily interested in taking quotients whence a free category over a graph is usually a somewhat auxiliary gadget its main interest lying in the role it plays in defining [[category of fractions|categories of fractions]] (cf. [[Gabriel-Zisman]] 1967 pp.1,6; probably the original source of the path category in this sense).
+
+But similar techniques apply to various notions of graphs or more restricted classes of categories with forgetful functors to graphs permitting to syntactically generate various notions of free categories with extra structure and in some of these cases it occurs that the corresponding free category (of paths) is indeed interesting in itself e.g. the [[free topos]] arises this way and the syntactic derivations of context free grammars arrange themselves into such categories of paths as explored in Walters ([1989a](#Walters1),[1989b](#Walters2)) or Latch ([1991](#Latch)).
 
 ## Path category of a space
 
@@ -45,17 +53,31 @@ Given a [[category]] $X$, the [[functor category]] $[I,X]$ for $I$ the [[interva
 
 * [[free monoid]], [[free operad]]
 
+* [[free topos]]
+
 ## References
+
+The free category on a graph has a section in
+
+* [[Francis Borceux]], _Handbook of categorical Algebra vol. 1_ , Cambridge UP 1994.
+
+or in
+
+* {#MacLane} [[Saunders MacLane]], _Categories for the Working Mathematician_ , Springer 1998.
+
+The following is another source for this, in fact, even an open source:
 
 * {#BarrWells}[[Michael Barr]] and [[Charles Wells]], _Category Theory for Computing Science_ [PDF](http://www.math.mcgill.ca/triples/Barr-Wells-ctcs.pdf)
 
-* {#MacLane} [[Saunders MacLane]], Categories for the working mathematician.
+The path categories of context free grammars are explored in
 
-* {#Latch} Dana Latch, _The connection between the fundamental groupoid and a unification algorithm for syntactil algebras (extended abstract)_ [link](http://www.numdam.org/item?id=CTGDC_1991__32_3_203_0)
+* {#Latch} Dana Latch, _The connection between the fundamental groupoid and a unification algorithm for syntactil algebras (extended abstract)_ , CGDTC (1991).  ([link](http://www.numdam.org/item?id=CTGDC_1991__32_3_203_0))
 
-* {#Walters1} RFC Walters, _The free category with products on a multigraph_ [link](http://www.sciencedirect.com/science/article/pii/0022404989901527)
+* {#Walters1} [[Bob Walters]], _The free category with products on a multigraph_ , JPAA **62** (1989). ([link](http://www.sciencedirect.com/science/article/pii/0022404989901527))
 
-* {#Walters2} RFC Walters, _A note on context-free languages_ [link](http://www.sciencedirect.com/science/article/pii/0022404989901515)
+* {#Walters2} [[Bob Walters]], _A note on context-free languages_ , JPAA **62** (1989). ([link](http://www.sciencedirect.com/science/article/pii/0022404989901515))
+
+Since the perspective on categories as 'graphs with operations' is closely related to their 'logico-deductive' side, it figures prominently in the work of [[Jim Lambek]] and [[Phil Scott]] (cf. the references at [[free topos]]).
 
 [[!redirects path category]]
 [[!redirects path categories]]
