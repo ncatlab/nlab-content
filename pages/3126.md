@@ -888,6 +888,8 @@ When $T \mathbf{H}$ is an $\infty$-topos it should carry another structure $\oti
 
 ## Related concepts
 
+* [[parameterized spectra]]
+
 * [[differentiable (∞,1)-category]]
 
 * [[Goodwillie calculus]]
@@ -900,14 +902,17 @@ When $T \mathbf{H}$ is an $\infty$-topos it should carry another structure $\oti
 
 ## References
 
-The definition and study of the notion of _tangent $(\infty,1)$-categories_ is from 
+Discussion of [[model category]] models is in 
 
-* [[Jacob Lurie]], _[[Deformation Theory]]_
- {#Lurie}
+* {#Schwede97} [[Stefan Schwede]], section 3 of _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 104
 
-and section 7.3 of 
+The $\infty$-category theoretic definition and study of the notion of _tangent $(\infty,1)$-categories_ is from 
 
-* {#LurieHigherAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
+* {#Lurie} [[Jacob Lurie]], _[[Deformation Theory]]_
+ 
+and  
+
+* {#LurieHigherAlgebra} [[Jacob Lurie]], section 7.3 of _[[Higher Algebra]]_
  
 
 The [[(infinity,1)-topos]] structure on tangent $(\infty,1)$-categories
