@@ -122,7 +122,7 @@ Examples of sporadic (exceptional) [[isogenies]] from [[spin groups]] onto ortho
 
 The [[homotopy groups]] of $O(n)$ are listed for instance in 
 
-* {#Abanov09} Alexander Abanov, Homotopy groups of Lie groups 2009 ([pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf))
+* {#Abanov09} Alexander Abanov, Homotopy groups of Lie groups 2009 ([pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf)) (Broken link!)
   
 * {#MimuraToda63} M. Mimura and H. Toda, _Homotopy Groups of $SU(3)$, $SU(4)$ and $Sp(2)$_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 217-250. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524818))
 
