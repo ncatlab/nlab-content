@@ -74,7 +74,7 @@ Write $(dgcAlg^{\geq 0}_k)_{proj}$ for the catgory of [[dgc-algebras]] from def.
 +-- {: .num_prop #IndeedProjectiveModelStructureOnCdgAlg}
 ###### Proposition
 
-The category $(dgcAlg^{\geq 0}_k})_{proj}$ from def. \ref{ProjectiveModelStructureOnCdgAlg} is a [[model category]], to be called the _projective model structure_.
+The category $(dgcAlg^{\geq 0}_k)_{proj}$ from def. \ref{ProjectiveModelStructureOnCdgAlg} is a [[model category]], to be called the _projective model structure_.
 
 
 =--
