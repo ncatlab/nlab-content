@@ -127,7 +127,21 @@ As an example, within the category of [[profinite group]]s, not all objects have
 
 ### Actions of a set
 
-The action of a set on a set was defined above; it consists of a function $X\times Y\to Y$.  This can equivalently be represented by a [[quiver]] with $Y$ as its vertices, with its edges labeled by elements of $X$, and such that each vertex has exactly one arrow leaving it with each label.  (This is a sort of "Grothendieck construction".)  It is also the same as a simple (non halting) [[deterministic automaton]], with $Y$ the set of states and $X$ the set of inputs.
+The action of a set on a set was defined above; it consists of a function $act: X\times Y\to Y$.  This can equivalently be represented by a [[quiver]] with $Y$ as its vertices, with its edges labeled by elements of $X$, and such that each vertex has exactly one arrow leaving it with each label.  (This is a sort of "Grothendieck construction".)  It is also the same as a simple (non halting) [[deterministic automaton]], with $Y$ the set of states and $X$ the set of inputs.
+
+
+That an action is a type of edge labeled quiver can be seen by explicitly giving the product [[projection]] functions, $p_1$ and $p_2$, of $X\times Y$.
+
+$$X\overset{\quad p_1 \quad}{ \leftarrow}X\times Y\underoverset{\quad act \quad}{p_2}{\rightrightarrows}Y$$
+
+The shape of this diagram corresponds to that of an edge labeled quiver:
+
+$$Labels\overset{\quad label \quad}{ \leftarrow}Edges\underoverset{\quad target \quad}{source}{\rightrightarrows}Vertices$$
+
+
+While the set $X$ has no algebraic structure to be preserved, the action $act$ generates a unique **[[free category]] action** $act^{*}:X^{*}\times Y\to Y$ where $X^{*}$ is the [[free monoid]] on $X$ containing [[path|paths]] of $X$ elements. The monoidal structure of $X^*$ is preserved: two actions in succession is equal to the action of the concatenation of their paths.
+
+$$act^{*}(x^{*}_2,act(x^{*}_1,y)) = act^{*}(x^{*}_2\cdot x^{*}_1, y) $$ 
 
 
 ## Examples
