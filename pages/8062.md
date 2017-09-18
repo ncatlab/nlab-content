@@ -1,6 +1,6 @@
 ## Idea
 
-Continuous logic is a logic whose truth values can take continuous values in $[0,1]$. The main variant used in model theory is motivated by the model theory of Banach spaces and alike structures. The truth is interpreted as probability and there is a concept of random predicates. 
+Continuous logic is a logic whose truth values can take continuous values in $[0,1]$. The main variant used in model theory is motivated by the model theory of Banach spaces and similar structures. The truth is interpreted as probability and there is a concept of random predicates. 
 
 ## References
 
