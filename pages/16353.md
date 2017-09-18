@@ -65,16 +65,16 @@ $$
   \right\}
 $$
 
-This is prop. \ref{Statemen} below. What makes this work is the _[[Hadamard lemma]]_ see the [proof](#Proof) below for details.
+This is prop. \ref{Statement} below. What makes this work is the _[[Hadamard lemma]]_, see the [proof](#Proof) below for details.
 
 Notice that the concept of derivations is purely a concept of [[algebra]], with no input from the [[topology]] and [[differential geometry]] that goes into the definition and construction of smooth manifolds and their tangent bundles. 
-Therefore the identification of smooth vector fields with derivations is therefore an algebraic incarnation of an aspect of differential geometry which is comparable two two other such phenomena:
+Therefore the identification of smooth vector fields with derivations is an algebraic incarnation of an aspect of differential geometry, an identification  comparable two two other such phenomena:
 
-* [[embedding of smooth manifolds into formal duals of R-algebras]];
+* the [[embedding of smooth manifolds into formal duals of R-algebras]] -- which identifies smooth manifolds themselves with the [[formal dual]] of their real algebras of smooth functions;
 
-* [[smooth Serre-Swan theorem]]
+* the [[smooth Serre-Swan theorem]] which identifies [[smooth vector bundles]] over a smooth manifold with the [[projective modules]] of the algebra of smooth functions.
 
-These statement are the basis for the definition of [[formal smooth manifolds]] and the theory of [[synthetic differential geometry]]. For more exposition of this relation see at _[[geometry of physics -- supergeometry]]_.
+These statements mean that [[differential geometry]] has more in common with [[algebraic geometry]] than is manifest from the traditional definitions. This serves as the bases for the definition of [[formal smooth manifolds]] and the theory of [[synthetic differential geometry]]. For more exposition of this relation see at _[[geometry of physics -- supergeometry]]_.
 
 Beware however that related algebraic properties familiar from [[affine schemes]] may break in differential geometry: For the [[Kähler differential forms]] of $C^\infty(X)$ to come out as the expected smooth [[differential forms]] one needs to refine the plain $\mathbb{R}$-[[commutative algebra]] $C^\nfty(X)$ to the structure of a _[[smooth algebra]]_. See at _[[Kähler differential forms]]_ for discussion of this issue.
 
