@@ -12,6 +12,43 @@ The **lift** of a morphism $p: Y\to B$ along an [[epimorphism]] (or more general
 
 The dual problem is the [[extension]] of a morphism $f: A\to Y$ along a monomorphism $i: A\hookrightarrow X$, which is a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. One sometimes, extends along more general morphisms than monomorphisms. 
 
+### Lifting properties
+
+Let $K$ be a [[category]] and write $arr(K)$ for the [[arrow category]] of $K$: the category with arrows (= [[morphisms]]) $a \stackrel{f}{\to} b$ of $K$ as objects and commutative squares $g u=v f$ 
+
+$$
+  \array{
+    a &\stackrel{u}{\to}& c
+    \\
+    \downarrow^{\mathrlap{f}}
+    &&
+    \downarrow^{\mathrlap{g}}
+    \\
+   b &\stackrel{v}{\to}& d    
+  }
+$$
+
+as morphisms $(u,v) : f \rightarrow g$. We may also refer to a commutative square $g u=v f$ as a **lifting problem** between $f$ and $g$.
+
+We say a morphism $f$ has the **left lifting property** with respect to a morphism $g$ or equivalently that $g$ has the **right lifting property** with respect to $f$, if for every commutative square $(u,v) :f \rightarrow g$ as above,  there is an arrow $\gamma$ 
+
+$$
+  \array{
+    a &\stackrel{u}{\to}& c
+    \\
+    \downarrow^f
+    &{}^{\exists \gamma}\nearrow&
+    \downarrow^g
+    \\
+   b &\stackrel{v}{\to}& d    
+  }
+$$
+
+
+from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles commute. We call such an arrow $\gamma$ a **lift** or a **solution** to the lifting problem $(u,v)$.
+
+(If this lift is unique, we say that $f$ is **[[orthogonal]]** $f \perp g$ to $g$.)
+
 ##Related concepts
 
 * [[homotopy lifting property]]
@@ -19,3 +56,9 @@ The dual problem is the [[extension]] of a morphism $f: A\to Y$ along a monomorp
 
 [[!redirects lifting]]
 [[!redirects lifts]]
+[[!redirects lifting property]]
+[[!redirects right lifting property]]
+[[!redirects left lifting property]]
+
+[[!redirects lifting problem]]
+[[!redirects lifting problems]]
