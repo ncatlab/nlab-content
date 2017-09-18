@@ -51,6 +51,42 @@ Finally, we can express this more compactly by writing $\pi$ in cycle form, as t
 
 ## Properties
 
+### Conjugacy classes
+ {#ConjugacyClasses}
+
+
++-- {: .num_prop #ConjugacycClassesOfSymmetricGroupCorrespondToCycleSet}
+###### Proposition
+
+Let $n \in \mathbb{N}$ and $\Sigma(n)$ the [[symmetric group]]
+on $n$ elements. Then the [[conjugacy classes]] of elements of $\Sigma(n)$, hence of permutations of $n$ elements, correspond to the [[cycle]] structures: two elements are conjugate to each other precisely if they have the same number of distinct cycles of the same lenght.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="100">
+</div>
+
+
+For the symmetric group on three elements there are three such classes:
+
+$$
+  \array{
+    (1\; 2\; 3)
+    \\
+    (1 \; 2) (3)
+    \\
+    (1) (2) (3)
+    
+  }
+$$
+
+=--
+
 ### Relation to the field with one element
 
 One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
