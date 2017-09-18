@@ -1,0 +1,18 @@
+Weakly distributive categories were introduced by Robin Cockett and Robert Seely in 1991 at the Durham conference on applications of categories.  Subsequently, in recognition of their fundamental role in the categorical semantics for the proof theory of linear logic they were renamed to linearly distributive categories.
+
+A key feature of linearly distributive categories is the map
+       \delta: A \tensor (B \par C) --> (A \tensor B) \par C
+which is the linear distribution.  The importance of this map was overlooked in the linear logic community due to the (continuing) tendency to write sequents  in a one-sided manner.  However, the importance of the map was gradually being realized:  for example Valaria De Paiva and Martin Hyland had independently pointed out the significance of the map.
+
+Linearly distributive categories were introduced to modularize the proof theory of linear logic and to allow a more systematic approach to the then still unsolved coherence problems associated with the units in linear logic.  This program of work culminated in a solution which was published jointly with Richard Blute and Todd Trimble in 1996 (JPPA).  
+
+These techniques also solved a classical open problem in closed monoidal categories concerning the behaviour of the triple dual.  Todd Trimble, who was completing his PhD. at the time, provided a vital insight to the group on how this problem could be solved and this unlocked the solution to the general problem.
+
+Linearly distributive categories are to polycategories as monoidal categories are to multicategories.  Namely, when one represents "the commas" of a polycategory one obtains a linearly distributive category.  Crucially, the key coherence issues of (the multiplicative fragment of) linear logic concerning the units is already present at the linearly distributive level -- but it is no longer cluttered by the other features of linear logic.  Thus, this provided a clean substrate from which to study and isolate this coherence problem.
+
+Contrary, to the general direction of work in coherence (and, indeed, in the linear logic community) the solution to the problem involved an expansion reduction rewriting system modulo equations.   At that time, the prevailing  proof theoretic strategy for solving coherence problems was simply to cut-eliminate: usually this sufficed to leave proofs in a normal form.  However, this system was notable as this strategy clearly failed: it was necessary to leave some equations in the system.  These equations, of course, involved the possible "rewiring"s of the units.  
+
+At that time this was generally thought to be a rather unsatisfactory and unnecessarily technical solution especially when compared to the normal forms to which the community was accustomed.    However, subsequently, in 2014, Willem Heijltjes and Robin Houston showed that equality of morphism is a PSPACE complete problem.  This essentially implies that there is no practical way round this problem beyond a search of the rewiring equivalence class.
+
+Linearly distributive categories have now been used as the substrate for a number of systems. 
+
