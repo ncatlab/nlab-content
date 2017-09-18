@@ -76,6 +76,10 @@ Thus an object in the Isbell envelope of $\mathcal{T}$ corresponds to an object 
 
 In other words, a lax factorisation of $Hom$ through $1$.
 
+This characterization relates directly to a definition of [[Cauchy completion]]. One definition of a point of the Cauchy completion is an adjoint pair of a presheaf and copresheaf, and these define a subcategory of the Isbell envelope where $c_X$ is the counit of an adjunction. This exhibits the Cauchy completion as a subcategory of the Isbell envelope, that factorizes through both the free completion and free cocompletion:
+
+$$\mathcal{T} \hookrightarrow \bar{\mathcal{T}} \hookrightarrow E(\mathcal{T})$$
+
 ## Concrete Envelopes
 
 A variant of the above involves a background category, say $\mathcal{U}$.  The test objects should be viewable also as objects of $\mathcal{U}$, usually via a faithful functor.  Any object of $\mathcal{U}$ defines a profunctor $\mathcal{T} \to \mathcal{T}$ (which factors through $1$) via
