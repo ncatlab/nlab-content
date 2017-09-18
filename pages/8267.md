@@ -218,7 +218,7 @@ $$
   \array{   
      && &&&&&&&& \udots
      \\
-     && &&&&& X_{k+1, l} && \nearrow
+     && &&&&& X_{k, l+1} && \nearrow
      \\
      && &&&&&& \Box
      \\
@@ -226,7 +226,7 @@ $$
      \\
      && &&&& \Box
      \\
-     && &X_{k,l+1} && \nearrow & & X_{k,l}
+     && &X_{k+1,l} && \nearrow & & X_{k,l}
      \\
      && && \Box
      \\
@@ -234,7 +234,7 @@ $$
      \\
      && \Box
      \\
-     & \nearrow & & X_{k-1, l+1}
+     & \nearrow & & X_{k+1, l-1}
      \\
      \udots
   }
@@ -249,7 +249,7 @@ $$
      \\
      && && && &&&&&            &&           & \udots && B
      \\
-     && && && &&&&& X_{k+1, l} && \nearrow  &        &&    & \searrow
+     && && && &&&&& X_{k, l+1} && \nearrow  &        &&    & \searrow
      \\
      && && && &&&&&            & \Box      &&        &&    & & B^{hor}
      \\
@@ -257,7 +257,7 @@ $$
      \\
      && & & && &&&& \Box
      \\
-     && & & && &X_{k,l+1} && \nearrow & & X_{k,l}
+     && & & && &X_{k+1,l} && \nearrow & & X_{k,l}
      \\
      && & & && && \Box
      \\
@@ -265,7 +265,7 @@ $$
      \\
      A^{hor} && & & && \Box
      \\
-     &\searrow & & & & \nearrow & & X_{k-1, l+1}
+     &\searrow & & & & \nearrow & & X_{k+1, l-1}
      \\
      && A & & \udots
      \\
@@ -457,7 +457,7 @@ The $c$ that satisfy this equation hence satisfy $\partial^{hor}\partial^{vert} 
 ### Intramural and extramural isomorphisms
  {#IntraExtramuralIsomorphisms}
 
-The following two statements are direct concequences (special cases) of the salamander lemma, prop. \ref{SalamanderLemma}. They give sufficient conditions for the intramural and the extramural maps, lemma \ref{Intramural} and lemma \ref{Extramural}, to be [[isomorphisms]]. All of the standard [[diagram chasing lemmas]] in [[homological algebra]] follow in a natural way from combining these _intramural isomorphisms_ with long [[zigzags]] of these _extramural isomorphisms_. This is discussed below in _[The basic diagram chasing lemmas](#Implications)_.
+The following two statements are direct consequences (special cases) of the salamander lemma, prop. \ref{SalamanderLemma}. They give sufficient conditions for the intramural and the extramural maps, lemma \ref{Intramural} and lemma \ref{Extramural}, to be [[isomorphisms]]. All of the standard [[diagram chasing lemmas]] in [[homological algebra]] follow in a natural way from combining these _intramural isomorphisms_ with long [[zigzags]] of these _extramural isomorphisms_. This is discussed below in _[The basic diagram chasing lemmas](#Implications)_.
 
 +-- {: .num_cor #ExtramuralIso}
 ###### Corollary
@@ -756,7 +756,7 @@ $$
 $$
 
 according to cor. \ref{IntramuralIsos} item 2
-is ${}^\Box A' \simeq {A'}^{vert} = 0$. Together this gives the desired exactness from the assumtion that ${A'}^{vert} \simeq 0$ (since all the columns are exact by assumption):
+is ${}^\Box A' \simeq {A'}^{vert} = 0$. Together this gives the desired exactness from the assumption that ${A'}^{vert} \simeq 0$ (since all the columns are exact by assumption):
 
 $$
   {A'}^{hor} \simeq A'_\Box \simeq ({A'}^{vert} \simeq 0)
@@ -921,7 +921,7 @@ This appears as ([Bergman, lemma 2.6](#Bergman)).
 ###### Proof
 
 The proof proceeds in direct generalization of the proofs of the 
-3x3 lemma [above](#3x3Lemmas): the isomorphism for each $k$ is given by the comoposite of two extramural isomorphism that identify the given homology group with a donor or receptor group, respectively, with a long zigzag of extramural isomorphisms.
+3x3 lemma [above](#3x3Lemmas): the isomorphism for each $k$ is given by the composite of two extramural isomorphism that identify the given homology group with a donor or receptor group, respectively, with a long zigzag of extramural isomorphisms.
 
 =--
 
