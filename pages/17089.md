@@ -1,21 +1,30 @@
 
 ### General
 
-The original references for [[L-∞ algebras]] are
+The original references are:
 
 * [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
 
 * [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
-See also
+A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
+
+* {#KrizMay} [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
+
+A historical survey is
+
+* {#Stasheff16} [[Jim Stasheff]], _Higher homotopy structures, then and now_, talk at _[Opening workshop](https://www.mpim-bonn.mpg.de/node/6356)_ of _[Higher Structures in Geometry and Physics](https://www.mpim-bonn.mpg.de/node/5883)_, MPI Bonn 2016 ([[StasheffHomotopyStructuresReview.pdf:file]])
+
+See also 
 
 * {#Daily04} Marilyn Daily, _$L_\infty$-structures_, PhD thesis, 2004 ([web]( http://www.lib.ncsu.edu/resolver/1840.16/5282))
 
 * Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
+ 
 
-A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
+A detailed reference for Lie 2-algebras is:
 
-* {#KrizMay} [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
+* [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv](http://arxiv.org/abs/math/0307263))
  
  
 ### $L_\infty$-algebras in physics
