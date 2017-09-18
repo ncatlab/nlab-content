@@ -42,6 +42,10 @@ $$\Sigma X = (I\times X)/\{0,1\}\times X\cup I\times \{x_0\}$$
 
 For [[CW-complex]]es the reduced suspension is [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary suspension: $\Sigma X \simeq S X$.
 
+### Cogroup structure
+
+[[suspensions are H-cogroup objects]]
+
 ## Example
 
 ### Spheres
