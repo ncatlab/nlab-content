@@ -183,6 +183,8 @@ Expositions of monads in computer science include
 
 * {#Benton15} [[Nick Benton]], _Categorical Monads and Computer Programming_, ([pdf](https://www.lms.ac.uk/sites/lms.ac.uk/files/2.%20Benton%20-%20Categorical%20Monads%20and%20Computer%20Programming.pdf))
 
+* {#Riehl17} [[Emily Riehl]], _A categorical view of computational effects_, 2017 ([pdf](http://www.math.jhu.edu/~eriehl/compose.pdf))
+
 The specification of monads in [[Haskell]] is at
 
 * [The Haskell programming language](http://www.haskell.org/haskellwiki/Haskell), _[Monad laws](http://www.haskell.org/haskellwiki/Monad_laws)_
