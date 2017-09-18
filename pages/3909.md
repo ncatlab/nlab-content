@@ -355,13 +355,13 @@ and the further generalization to [[Cartan geometry]]/[[parabolic geometry]] is 
 
 More on traditional applications to [[quantum field theory]] is in 
 
-* R.S. Ward, R.O. Wells, _Twistor geometry and field theory_, Cambridge Univ. Press 1990.
-  {#WardWells90}
+* {#WardWells90} R.S. Ward, R.O. Wells, _Twistor geometry and field theory_, Cambridge Univ. Press 1990.
+  
 
 The relation of twistor geometry to [[MHV amplitudes]] in 4d [[Yang-Mills theory]] and [[twistor string theory]] is due to 
 
-* [[Edward Witten]], _Perturbative Gauge Theory As A String Theory In Twistor Space_, Commun. Math. Phys. 252:189-258, 2004 ([arXiv:hep-th/0312171](http://arxiv.org/abs/hep-th/0312171))
-  {#Witten03}
+* {#Witten03} [[Edward Witten]], _Perturbative Gauge Theory As A String Theory In Twistor Space_, Commun. Math. Phys. 252:189-258, 2004 ([arXiv:hep-th/0312171](http://arxiv.org/abs/hep-th/0312171))
+  
 
 
 Surveys of the resulting modern application of twistors in field theory include
@@ -369,8 +369,13 @@ Surveys of the resulting modern application of twistors in field theory include
 * David Skinner, _The geometry of scattering amplitudes_, talk notes, November 2009 ([pdf](http://research.physics.unc.edu/string/transparencies/trans_20091112.pdf))
 
 
+### Twistors in higher dimensions
 
-### Application to the 6d self-dual 2-form field
+Discussion of twistors in dimensions 3,4,6 and 10 using the [[normed division algebras]] (as in [[supersymmetry and division algebras]]) is in
+
+* [[Ingemar Bengtsson]], [[Martin Cederwall]], _Particles, Twistors and the Division Algebras_, Nucl.Phys. B302 (1988) 81-103 ([spire](http://inspirehep.net/record/247269))
+
+#### Application to the 6d self-dual 2-form field
  {#ReferencesApplicationToSelfDual2FormField}
 
 A general discussion of Penrose-Ward-type transforms sending [[circle 2-bundles]] ([[holomorphic line 2-bundles]]) on some twistor space to [[circle 2-bundles with connection]] and self-dual [[curvature]] 3-form on spacestime (expected to play a role in the description of the [[6d (2,0)-superconformal QFT]]) is in 
