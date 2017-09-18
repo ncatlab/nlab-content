@@ -414,7 +414,97 @@ One needs to show that with the Mittag-Leffler condition, then the [[cokernel]] 
 
 =--
 
+### Relation to $Ext$-groups
 
+
++-- {: .num_lemma #lim1AndExt1}
+###### Lemma
+
+Given a [[cotower]] 
+
+$$
+  A_\bullet = (A_0 \overset{f_0}{\to} A _1 \overset{f_1}{\to} A_2 \to \cdots)
+$$ 
+
+of [[abelian groups]], then for every abelian group $B \in Ab$ there is a [[short exact sequence]] of the form
+
+$$
+  0 
+    \to 
+  \underset{\longleftarrow}{\lim}^1_n Hom(A_n, B)
+    \longrightarrow
+  Ext^1( \underset{\longrightarrow}{\lim}_n A_n, B )
+    \longrightarrow
+  \underset{\longleftarrow}{\lim}_n Ext^1( A_n, B)
+    \to
+  0
+  \,,
+$$
+
+where $Hom(-,-)$ denotes the [[hom-object|hom-group]],  $Ext^1(-,-)$ denotes the first [[Ext]]-group (and so $Hom(-,-) = Ext^0(-,-)$).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the homomorphism
+
+$$
+  \tilde \partial
+  \;\colon\;
+  \underset{n}{\oplus} A_n
+    \longrightarrow
+  \underset{n}{\oplus} A_n
+$$
+
+which sends $a_n \in A_n$ to $a_n - f_n(a_n)$. Its [[cokernel]] is the [[colimit]] over the cotower, but its [[kernel]] is  trivial (in contrast to the otherwise [[formal dual|formally dual]] situation in remark \ref{LimitAsKernelAnalogousToLim1}). Hence (as opposed to the long exact sequence in def. \ref{Lim1ViaCokernel}) there is a [[short exact sequence]] of the form
+
+$$
+  0 
+    \to
+  \underset{n}{\oplus} A_n
+    \overset{\tilde \partial}{\longrightarrow}
+  \underset{n}{\oplus} A_n
+    \overset{}{\longrightarrow}
+  \underset{\longrightarrow}{lim}_n A_n
+   \to
+  0
+  \,.
+$$
+
+Every short exact sequence gives rise to a [[long exact sequence]] of [[derived functors]] ([prop.](derived+functor+in+homological+algebra#LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence)) which in the present case starts out as
+
+$$
+  0
+    \to
+  Hom(\underset{\longrightarrow}{\lim}_n A_n,B)
+    \longrightarrow
+  \underset{n}{\prod} Hom( A_n, B )
+    \overset{\partial}{\longrightarrow}
+  \underset{n}{\prod} Hom( A_n, B )
+    \longrightarrow
+  Ext^1(\underset{\longrightarrow}{\lim}_n A_n,B)
+    \longrightarrow
+  \underset{n}{\prod} Ext^1(  A_n, B )
+    \overset{\partial}{\longrightarrow}
+  \underset{n}{\prod} Ext^1(  A_n, B )
+    \longrightarrow
+  \cdots
+$$
+
+where we used that [[direct sum]] is the [[coproduct]] in abelian groups, so that homs out of it yield a [[product]], and where the morphism $\partial$ is the one from def. \ref{TheBoundaryMapDefiningLim1} corresponding to the [[tower]]
+
+$$
+  Hom(A_\bullet,B)
+  = 
+  (  \cdots \to Hom(A_2,B) \to Hom(A_1,B) \to  Hom(A_0,B) )
+  \,.
+$$
+
+Hence truncating this long sequence by forming kernel and cokernel of $\partial$, respectively, it becomes the short exact sequence in question.
+
+=--
 
 ## Milnor exact sequences
  {#MilnorSequences}
