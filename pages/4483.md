@@ -45,6 +45,14 @@ If $n$ is a positive natural number, then the characteristic of $\mathbb{N}/n = 
 
 For $n = 0$, $\mathbb{N}/0 = \mathbb{N}$, $\mathbb{Z}/0 = \mathbb{Z}$, and the prime field $\mathbb{F}_0 = \mathbb{Q}$ (the field of [[rational numbers]]) are no longer all the same, but they still all have characteristic $0$.  Every [[ordered field]] has characteristic $0$.  The [[real numbers]] and [[complex numbers]] each form fields of characteristic $0$.
 
+## Characteristic of an $E_{\infty}$-ring
+
+Recently the concept of the characteristic has been extended to [[E-∞ rings]]
+
+* Markus Szymik, _Commutative S-algebras of prime characteristics and applications to unoriented bordism_, [arXiv:1211.3239](http://arxiv.org/abs/1211.3239)
+* Markus Szymik,  _String bordism and chromatic characteristics_, [arXiv:1312.4658](http://arxiv.org/abs/1312.4658)
+* Andrew Baker, _Characteristics for $E_\infty$ ring spectra_, [arXiv:1405.3695](http://arxiv.org/abs/1405.3695)
+
 
 ## Related concepts
 
