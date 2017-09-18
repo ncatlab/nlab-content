@@ -50,6 +50,8 @@ to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[met
 ###### Proposition
 **(Urysohn's lemma)**
 
+Assuming [[excluded middle]] then:
+
 Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]], and let $A,B \subset X$ be two disjoint [[closed subsets]] of $X$. Then there exists an Urysohn function (def. \ref{UrysohnFunction}).
 
 
@@ -187,20 +189,34 @@ This function clearly has the property that $f(A) = \{0\}$  and $f(B) = \{1\}$. 
 To this end, first observe that 
 
 $$
-  (\star)
-  \phantom{AA}
-  ( x \in Cl(U_r) )
-  \,\Leftrightarrow\,
-  \left(
-     f(x) \leq r
-  \right)
+  \array{
+    (\star)
+    &&
+    \left( 
+      x \in Cl(U_r) 
+    \right)
+      &\Rightarrow&
+    \left(
+       f(x) \leq r
+    \right)
+    \\
+    (\star\star)
+    &&
+    \left(
+      x \in U_r
+    \right)
+      &\Leftarrow&    
+    \left(
+      f(x) \lt r
+    \right)
+  }
   \,.
 $$
 
-To see this, observe that it is immediate from the definition that $(x \in U_r) \Rightarrow (f(x) \leq r)$ and that $(f(x) \lt r) \Rightarrow (x \in U_r \subset Cl(U_r))$. For the remaining implications, it is sufficient to observe that
+Here it is immediate from the definition that $(x \in U_r) \Rightarrow (f(x) \leq r)$ and that $(f(x) \lt r) \Rightarrow (x \in U_r \subset Cl(U_r))$. For the remaining implication, it is sufficient to observe that
  
 $$
-  (x \in \partial U_r) \Leftrightarrow (f(x) = r)
+  (x \in \partial U_r) \Rightarrow (f(x) = r)
   \,,
 $$
 
@@ -209,39 +225,134 @@ where $\partial U_r \coloneqq Cl(U_r) \backslash U_r$ is the [[boundary]] of $U_
 This holds because the [[dyadic numbers]] are [[dense subset|dense]] in $\mathbb{R}$. (And this would fail if we stopped the above decomposition into $U_{a/2^n}$-s at some finite $n$.) Namely, in one direction, if $x \in \partial U_r$ then for every small positive real number $\epsilon$ there exists a dyadic rational number $r'$ with $r \lt r' \lt r + \epsilon$, and by construction $U_{r'} \supset Cl(U_r)$ hence  $x \in U_{r'}$. This implies that $\underset{U_r \supset \{x\}}{\lim} = r$.
 
 
-Now we claim that for all $\alpha \in [0,1]$ then
+{#PreimagesOfTheSubbaseOpens} Now we claim that for all $\alpha \in [0,1]$ then
 
-1. $f^{-1}(\,(\alpha, 1]\,)$ is open.
+1. $f^{-1}(\,(\alpha, 1]\,) = \underset{r \gt \alpha}{\cup} \left( X \backslash Cl(U_r) \right)$
 
-1. $f^{-1}(\,[0,\alpha)\,)$ is open;
+1. $f^{-1}(\,[0,\alpha)\,) = \underset{r \lt \alpha}{\cup} U_r$
 
-Regarding the first point: By $(\star)$ we have
+Thereby $f^{-1}(\,(\alpha, 1]\,)$ and $f^{-1}(\,[0,\alpha)\,)$ are exhibited as unions of open subsets, and hence they are open.
+
+
+Regarding the first point: 
 
 $$
-  f^{-1}( (\alpha,1] )
-    =
-  \underset{r \leq \alpha}{\cup} \left( X \backslash Cl(U_r) \right)
+  \begin{aligned}
+     & x \in f^{-1}( \,(\alpha,1]\, )
+     \\
+     \Leftrightarrow\,
+     & 
+     f(x) \gt \alpha
+     \\
+     \Leftrightarrow\,
+     &
+     \underset{r \gt \alpha}{\exists} (f(x) \gt r)
+     \\
+     \overset{(\star)}{\Rightarrow}\,
+     &
+     \underset{r \gt \alpha}{\exists}
+     \left( x \notin Cl(U_r) \right)
+     \\
+     \Leftrightarrow\,
+     &
+     x  \in \underset{r \gt \alpha}{\cup} \left(X \backslash Cl(U_r)\right)
+  \end{aligned}
+$$
+
+and 
+
+$$
+  \begin{aligned}
+     & x  \in \underset{r \gt \alpha}{\cup} \left(X \backslash Cl(U_r)\right)
+     \\
+     \Leftrightarrow\,
+     &
+     \underset{r \gt \alpha}{\exists}
+     \left( x \notin Cl(U_r) \right)
+     \\
+     \Rightarrow\,
+     &
+     \underset{r \gt \alpha}{\exists}
+     \left( x \notin U_r \right)     
+     \\
+     \overset{(\star \star)}{\Rightarrow}\,
+     &
+     \underset{r \gt \alpha}{\exists}
+     \left(
+       f(x) \geq r
+     \right)
+     \\
+     \Leftrightarrow\,
+     &
+     f(x) \gt \alpha
+     \\
+     \Leftrightarrow\,
+     &
+     x \in f^{-1}(\, (\alpha,1] \,)
+  \end{aligned}
   \,.
 $$
 
-Since the closures $Cl(U_r)$ are closed, the complements $X \backslash Cl(U_r)$ are open, and hence this is a union of open subsets, hence open.
 
 
-Regarding the second point: By $(\star)$ we have
 
-$$
-  f^{1}( [0,\alpha) ) = \underset{r \lt \alpha}{\cup} Cl(U_r)
-  \,.
-$$
-
-To see why this is open, observe that if $r \lt \alpha$ then, again because the [[dyadic numbers]] within $0$ and $1$ are [[dense subset|dense]] in $[0,1]$, there exists $r'$ with $r \lt r' \lt \alpha$, and hence by construction of the $U_r$ we then have $Cl(U_r) \subset U_{r'} \subset Cl(U_{r'})$. This means that in the above union we may omit the closures, to obtain
+Regarding the second point: 
 
 $$
-  f^{1}( [0,\alpha) ) = \underset{r \lt \alpha}{\cup} U_r
-  \,.
+  \begin{aligned}
+    & 
+    x \in f^{-1}(\, [0,\alpha) \,)
+    \\
+    \Leftrightarrow\,
+    &
+    f(x) \lt \alpha
+    \\
+    \Leftrightarrow\,
+    &
+    \underset{r \lt \alpha}{\exists}( f(x) \lt r )
+    \\
+    \overset{(\star \star)}{\Rightarrow}\,
+    &
+    \underset{r \lt \alpha}{\exists }( x \in U_r )
+    \\
+    \Leftrightarrow\,
+     &
+    x \in \underset{r \lt \alpha}{\cup} U_r
+  \end{aligned}
 $$
 
-This now is open because unions of open subsets are open.
+and
+
+$$
+  \begin{aligned}
+     &
+    x \in \underset{r \lt \alpha}{\cup} U_r
+    \\    
+    \Leftrightarrow\,
+    &
+    \underset{r \lt \alpha}{\exists }( x \in U_r )
+    \\
+    \overset{}{\Rightarrow}\,
+    &
+    \underset{r \lt \alpha}{\exists }( x \in Cl(U_r) )   
+    \\
+    \overset{(\star)}{\Rightarrow}\,
+     &
+    \underset{r \lt \alpha}{\exists }( f(x) \leq r )       
+    \\
+    \Leftrightarrow\,
+     &
+    f(x) \lt \alpha
+    \\
+    \Leftrightarrow\,
+    &
+    x \in f^{-1}(\, [0,\alpha) \,)
+  \end{aligned}
+ \,.
+$$
+
+(In these derivations we repeatedly use that $(0,1] \cap \mathbb{Q}_{dy}$ is dense in $[0,1]$, and we use the [[contrapositions]] of $(\star)$ and $(\star \star)$, by [[excluded middle]].)
+
 
 Now since the subsets $\{ [0,\alpha), (\alpha,1]\}_{\alpha \in [0,1]}$
 form a [[topological subbase|sub-base]] for the Euclidean metric topology on $[0,1]$, it follows that all pre-images of $f$ are open, hence that $f$ is continuous.
