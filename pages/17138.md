@@ -210,9 +210,7 @@ $\,$
 
 ### Basic reading
 
-For **Prelude) Classical homotopy theory** 
-
-A concise and yet comprehensive and self-contained re-write of the proof ([Quillen 67](#Quillen67)) of the [[classical model structure on topological spaces]] is in
+For **Prelude) Classical homotopy theory** a concise and self-contained re-write of the proof ([Quillen 67](#Quillen67)) of the [[classical model structure on topological spaces]] is in
 
 * {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_ ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942)).
 
@@ -247,18 +245,12 @@ In **2) Adams spectral sequence** for the general theory we follow ([Hopkins 99,
 
 and we take some further clues from ([Adams 74, III.15](#Adams74)).
 
-For the special case of the classical Adams spectral sequence a comprehensive survey is in 
+For the special case of the [[classical Adams spectral sequence]] we follow ([Kochman 96, chapter V](#Kochman96)).
 
-* {#Bruner09} [[Robert Bruner]], _An Adams spectral sequence primer_, 2009 ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
 
 For the **Seminar on Complex oriented cohomology** an excellent textbook to hold on to is
 
-* {#Kochman96} [[Stanley Kochman]], chapters I - IV of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
-
-While this gives detailed proofs, some standard steps used are made more explicit for instance in 
-
-* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
-
+* {#Kochman96} [[Stanley Kochman]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 Specifically for **S.1) Generalized cohomology** a neat account is in:
 
@@ -308,13 +300,6 @@ a wealth of details is in
 and new foundations have been laid in
 
 * {#LurieHigherAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
-
-Further useful lecture notes pointed to above include the following:
-
-* {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
-
-* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
-
 
 
 
