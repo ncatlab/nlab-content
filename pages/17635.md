@@ -17,7 +17,7 @@
 
 A kind of generalization of [[group characters]] to [[chromatic homotopy theory]].
 
-Let $X//G$ be a [[topological stack|topological]] [[quotient stack]]. Its [[free loop space]] $\mathcal{L}(X//G) =  hom_{Stacks}(S^1, X//G)$ restricts to those loops that are constant as continuous maps, and contain only possibly the transition data with values in $X//G$ (i.e. the "twisted sector") data, this is 
+Let $X//G$ be a [[topological stack|topological]] [[quotient stack]]. Its [[free loop space]] $\mathcal{L}(X//G) =  hom_{Stacks}(S^1, X//G)$ restricts to those loops that are constant as continuous maps, and contain only possibly the transition data with values in $X//G$ (i.e. the "[[twisted loop space]]" retaining "twisted sector" data), this is 
 
 $$
   \mathcal{L}_{const}( X//G )
