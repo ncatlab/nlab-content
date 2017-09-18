@@ -269,7 +269,53 @@ With respect to this operation, [[composition]] is [[bilinear map|bilinear]].
 +-- {: .proof}
 ###### Proof
 
-The [[associativity]] and commutativity of $+$ follows directly from the corresponding properties of $\oplus$. Bilinearity of composition follows from [[natural transformation|naturality]] of the [[diagonal]] $\Delta_X$ and [[codiagonal]] $\nabla_X$.
+The [[associativity]] and commutativity of $+$ follows directly from the corresponding properties of $\oplus$. Bilinearity of composition follows from [[natural transformation|naturality]] of the [[diagonal]] $\Delta_X$ and [[codiagonal]] $\nabla_X$:
+
+$$
+  \array{
+    W 
+      &\overset{\Delta_W}{\longrightarrow}& 
+    W \times W
+      &\overset{\simeq}{\longrightarrow}&
+    W \oplus W
+    \\
+    \downarrow^{\mathrlap{e}}
+      &&
+    \downarrow^{\mathrlap{e \times e}} 
+      && 
+    \downarrow^{\mathrlap{e \oplus e}}
+    \\
+    X 
+      &\overset{\Delta_X}{\to}& 
+    X \times X
+      &\simeq&
+    X \oplus X
+      &\overset{f \oplus g}{\longrightarrow}&
+    Y \oplus Y
+      &\simeq&
+    Y \sqcup Y
+      &\overset{\nabla_X}{\to}&
+    Y
+    \\
+      &&
+      &&
+      &&
+    \downarrow^{\mathrlap{h \oplus h}}
+      &&
+    \downarrow^{\mathrlap{h \sqcup h}}
+      &&
+    \downarrow^{\mathrlap{h}}
+    \\
+      && 
+      &&
+      &&
+    Z \oplus Z
+      &\simeq&
+    Z \sqcup Z
+      &\overset{\nabla_Z}{\to}&
+    Z
+  }
+$$
 
 =--
 
@@ -283,18 +329,27 @@ Given an additive category according to def. \ref{AdditiveCategory}, then the en
 +-- {: .proof}
 ###### Proof
 
-We may write the formula for the addition of two morphisms induced by semiadditve structure equivalently as
+By the proof of prop. \ref{ProductsAreBiproducts}, the [[codiagonal]] on any object in an additive category is the sum of the two projections:
 
 $$
-  f+g \;\colon\; 
-  X \overset{\Delta_X}{\to} X \times X
-  \overset{(f,g)}{\longrightarrow}
-  Y \times Y
-  \overset{p_1 + p_2}{\longrightarrow}
-  Y
+  \nabla_X \;\colon\; X \oplus X \overset{p_1 + p_2}{\longrightarrow} X
+  \,.
 $$
 
-where the last morphism is identified as the sum of the two projections as in the proof of prop. \ref{ProductsAreBiproducts}. This implies the claim.
+Therefore (checking on [[generalized elements]], as in the proof of prop. \ref{ProductsAreBiproducts}) for all morphisms $f,g \colon X \to Y$ we have [[commuting squares]] of the form
+
+$$
+  \array{
+    X &\overset{f+g}{\longrightarrow}& Y
+    \\
+    {}^{\mathllap{\Delta_X}}\downarrow && \uparrow^{\mathrlap{\nabla_Y =}}_{\mathrlap{p_1 + p_2}}
+    \\
+    X \oplus X 
+      &\underset{f \oplus g}{\longrightarrow}& 
+   Y\oplus Y
+  }
+  \,.
+$$
 
 =--
 
