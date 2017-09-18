@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _coalgebra over an endofunctor_ is like a [[comonad|coalgebra over a comonad]], but without a notion of [[associativity]].
+A _coalgebra over an endofunctor_ is like a [[coalgebra over a comonad]], but without a notion of [[associativity]].
 
 The concept plays a role in [[computer science]] for models of state-based [[computation]] (see also [[monad (in computer science)]]).
 The concept of the [[terminal coalgebra of an endofunctor]] is a way of encoding [[coinductive types]].
