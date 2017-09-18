@@ -745,13 +745,13 @@ which is a sheaf, and one can analyze this construction to show that $f^{-1}$ is
 ### Kan extension in physics
  {#ExamplesKanExtensionsInPhysics}
 
-We list here some occurences of Kan extensions in [[physics]].
+We list here some occurrences of Kan extensions in [[physics]].
 
 Notice that since, by the above discussion, Kan extensions are ubiquitous in [[category theory]] and are essentially equivalent to other standard [[universal constructions]] such as notably [[colimit|co]]/[[limits]], to the extent that there is a relation between [[higher category theory and physics|category theory and physics]] at all, it necessarily also involves Kan extensions, in some guise. But here is a list of some example where they appear rather explicitly.
 
 * In [[extended quantum field theory]] on open and closed manifolds, usually the theory "in the bulk" (on closed manifolds) is induced by "extending" that "[[boundary field theory|on the boundary]]", and in good cases this extension is explicitly a ([[homotopy Kan extension|homotopy]])-Kan extension. This is the case notably for [[2d TQFT]] in the form of [[TCFT]] ([Costello 04](TCFT#Costello04)), see at _[TCFT -- Classification](TCFT#Classification)_ for details.
 
-* When [[path integral]] [[quantization]] is formalized in terms of [[fiber integration in generalized cohomology]] (as surveyed at _[[motivic quantization]]_) then the push-forward step, hence the path integral itself, is given by left [[homotopy Kan extension]] of [[parameterized spectrum|parameterized spectra]]. For explicit details see ([[schreiber:master thesis Nuiten|Nuiten 13, section 4.1]]), also ([[schreiber:Homotopy-type semantics for quantization|Schreiber 14, section 6.2]]). By example 6.3 there a special case of this is are the integration formulas via Kan extension in ([[Ambidexterity in K(n)-Local Stable Homotopy Theory|Hopkins-Lurie 14, section 4]]).
+* When [[path integral]] [[quantization]] is formalized in terms of [[fiber integration in generalized cohomology]] (as surveyed at _[[motivic quantization]]_) then the push-forward step, hence the path integral itself, is given by left [[homotopy Kan extension]] of [[parameterized spectrum|parameterized spectra]]. For explicit details see ([[schreiber:master thesis Nuiten|Nuiten 13, section 4.1]]), also ([[schreiber:Homotopy-type semantics for quantization|Schreiber 14, section 6.2]]). By example 6.3, a special case of this is the integration formulas via Kan extension in ([[Ambidexterity in K(n)-Local Stable Homotopy Theory|Hopkins-Lurie 14, section 4]]).
 
 
 ## Remark on terminology: pushforward vs. pullback
@@ -788,7 +788,7 @@ It is however noteworthy that also the opposite perspective does occur in geomet
 
 * and similar in higher degrees: if $C = P_1(X)$ is the smooth path groupoid of a smooth space and $D = \mathbf{B} U(1)$ the smooth [[group]] $U(1)$ regarded as a one-object [[Lie groupoid]], then smooth functors $C \to D$ correspond to smooth 1-forms $\in \Omega^1(X)$ on $X$, and precomposition with a smooth functor $p : P_1(X) \to P_1(X')$ corresponds to the familiar notion of _pullback_ of 1-forms.
 
-This means that whether or not Kan extension corresponds geometrically to pushforward or to pullback depends on the way (covariant or contravariant) in which the domain categories $C$, $C'$ are identified with geometric entities.
+This means that whether or not Kan extensions correspond geometrically to pushforward or to pullback depends on the way (covariant or contravariant) in which the domain categories $C$, $C'$ are identified with geometric entities.
 
 ## Related concepts
 
@@ -801,6 +801,10 @@ This means that whether or not Kan extension corresponds geometrically to pushfo
   * [[dependent sum type]], [[dependent product type]]
 
 * [[internal (co-)limit]]
+
+* [[codensity monad]]
+
+* [[shape theory]]
 
 ## References
 
