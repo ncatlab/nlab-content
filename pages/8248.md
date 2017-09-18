@@ -38,7 +38,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This being cyclic, it is usually depeicted as a triangle
+This being cyclic, it is usually depicted as a triangle
 
 $$
   \array{
@@ -112,7 +112,7 @@ The [[spectral sequences]] induced by an exact couple is the one built by repeat
 
 *  first, observe that the composite $d=k j \colon E\to E$ is nilpotent: $d^2=0$
 
-*  second, the homology $E'$ of $(E,d)$ supports a map $j':E'\to \varphi D$, and receives a map $k':\varphi D\to E'$.  Setting $D'=\varphi D$, by general nonsense
+*  second, the homology $E'$ of $(E,d)$ supports a map $j':E'\to \varphi D$, and receives a map $k':\varphi D\to E'$.  Setting $D'=\varphi D$, by general properties
 $$ E' \overset{j'}{\to} D' \overset{\varphi}{\to} D' \overset{k'}{\to} E' \overset{j'}{\to}. $$
 is again an exact couple, called the _derived exact couple_.
 
