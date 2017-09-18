@@ -34,9 +34,8 @@ If $C=1$, we get back the ultrametric inequality, and the usual triangular inequ
 This gives a category of so-called proxi-metric spaces stable by the $\mathbb{R}_+^*$-flow given by
 $$d\mapsto d^t:=e^{t\log(d)}.$$
 
-To get enough finite colimits, one needs to restrict to bounded proximetric spaces, and then, one may take an ind-pro or an ind-completion to get a good category of generalized metric spaces, i.e., a convenient setting for the development of a metric stable homotopy theory, based on the use of the interval
-$$[0,1]_\infty:=\lim_{t\to \infty}([0,1],d_\infty^t).$$
-Two elements inside this interval look like they are at distance zero, but this is not the case, because this limit has a Lipschitz map to $([0,1],d_\infty)$ which is given by the identity map... One must think of this limit as a pro-object. Once the interval is defined, one may define the metric simplex $\Delta^n$, and thus compute in the homotopy category of proxi-metric spaces.
+To get enough finite colimits, one needs to restrict to bounded proximetric spaces, and then, one may take an ind-pro or an ind-completion to get a good category of generalized metric spaces, i.e., a convenient setting for the development of a metric stable homotopy theory, based on the use of the interval $[0,1]$
+or a normed version of it.
 
 The aim of this normed/metrized stable homotopy theory is to develop topological cohomological invariants for [[proxi-normed rings]].
 
