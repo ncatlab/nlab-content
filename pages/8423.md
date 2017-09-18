@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _Tychonoff product_ (named for [[Andrey Tikhonov]]) is simply the [[product]] in the [[category]] [[Top]] of [[topological spaces]] and [[continuous maps]].
+The _Tychonoff product_ (named for [[Andrey Tikhonov]]) is simply the [[product]] in the [[category]] [[Top]] of [[topological spaces]] and [[continuous maps]]. (See also at _[[product topological space]]_.)
 
 It is the usual notion of 'product' of topological spaces, but should be distinguished from the [[box product]], which is sometimes useful.  (They are the same for [[finite products]].)
 
