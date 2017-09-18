@@ -45,6 +45,7 @@ This is a special case of a general notion of
 
 * [Geometric realization of cohesive ∞-groupoids](#OfCohesiveInfinityGroupoids).
 
+
 ### Of cell complexes such as simplicial sets
  {#OfSimplicialSets}
 
@@ -117,7 +118,7 @@ We continue to assume $Space$ is any [[convenient category of topological spaces
 
 $$R: Set^{\Delta^{op}} \to Space$$ 
 
-is a left [[exact functor]] in that it preserves finite [[limit]]s. 
+is a left [[exact functor]] in that it preserves [[finite limits]]. 
 
 It is important that we use some such "convenience" assumption, because for example 
 
@@ -134,11 +135,11 @@ Let $U = \hom(1, -): Space \to Set$ be the underlying-set functor. Then the comp
 
 +-- {: .proof}
 ###### Proof
-As described at the nLab article on triangulation [here](http://ncatlab.org/nlab/show/triangulation#standard_affine_simplex_functor_3), the composite 
+As described at the nLab article on triangulation [here](triangulation#StandardAffineSimplexFunctor), the composite 
 $$\Delta \stackrel{\sigma}{\to} Space \stackrel{U}{\to} Set$$ 
 can be described as the functor 
 $$\Delta \cong FinInt^{op} \hookrightarrow Int^{op} \stackrel{Int(-, I)}{\to} Set$$ 
-where $Int$ is the category of intervals (linearly ordered sets with distinct top and bottom). Because every interval, in particular $I$, is a filtered colimit of finite intervals, and because finite intervals are finitely presentable intervals, it follows that $U \sigma: \Delta \to Set$ is a [[flat functor]] (a [[filtered colimit]] of representables). But on general grounds, tensoring with a flat functor is left exact, which in this case means
+where $Int$ is the category of intervals (linearly ordered sets with distinct top and bottom). Because every interval, in particular $I$, is a [[filtered colimit]] of finite intervals, and because finite intervals are finitely presentable intervals, it follows that $U \sigma \colon \Delta \to Set$ is a [[flat functor]] (a [[filtered colimit]] of representables). But on general grounds, [[copower|tensoring]] with a flat functor is left exact, which in this case means 
 $$U R = - \otimes_\Delta U \sigma: Set^{\Delta^{op}} \to Set$$
 is left exact. 
 =-- 
@@ -149,7 +150,7 @@ Obviously the preceding proof is not sensitive to whether we use $Space$ or $Top
 
 +-- {: .num_lemma #mono}
 ###### Lemma 
-If $i: X \to Y$ is a monomorphism of simplicial sets, then $R(i): R(X) \to R(Y)$ is a closed subspace inclusion, in fact a relative $CW$-complex. In particular, taking $X = \emptyset$, $R(Y)$ is a $CW$-complex. 
+If $i: X \to Y$ is a [[monomorphism]] of simplicial sets, then $R(i): R(X) \to R(Y)$ is a [[closed subspace]] inclusion, in fact a [[relative CW-complex]]. In particular, taking $X = \emptyset$, $R(Y)$ is a $CW$-complex. 
 =-- 
 
 +-- {: .proof} 
@@ -162,18 +163,18 @@ $$\array{
 \Delta(-, n) & \to & F(\alpha+1)
 }$$ 
 
-where $j$ is the inclusion. Now $R(j)$ is identifiable as the inclusion $S^{n-1} \to D^n$, and since $R$ preserves pushouts (which are calculated as they are in $Top$), we see by [this lemma](/nlab/show/subspace+topology#pushout) that $R F(\alpha) \to R F(\alpha+1)$ is a closed subspace inclusion and evidently a relative CW-complex. By [another lemma](/nlab/show/subspace+topology#transfinite), it follows that $X \to Y$ is also a closed inclusion and indeed a relative CW-complex. 
+where $j$ is the inclusion. Now $R(j)$ is identifiable as the inclusion $S^{n-1} \to D^n$, and since $R$ preserves pushouts (which are calculated as they are in $Top$), we see by [this lemma](/nlab/show/subspace+topology#pushout) that $R F(\alpha) \to R F(\alpha+1)$ is a closed subspace inclusion and evidently a [[relative CW-complex]]. By [another lemma](/nlab/show/subspace+topology#transfinite), it follows that $X \to Y$ is also a closed inclusion and indeed a relative CW-complex. 
 =-- 
 
-+-- {: .num_corollary}
++-- {: .num_cor}
 ###### Corollary
-$R: Set^{\Delta^{op}} \to Space$ preserves equalizers. 
+$R: Set^{\Delta^{op}} \to Space$ preserves [[equalizers]]. 
 =--
 
 +-- {: .proof} 
 ###### Proof
 The equalizer of a pair of maps in $Top$ is computed as the equalizer on the level of underlying sets, equipped with the subspace topology. So if 
-$$E \stackrel{i}{\to} X \stackrel{\overset{f}{\to}}{\underset{g}{\to}} Y$$ 
+$$E \stackrel{i}{\to} X \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} Y$$ 
 is an equalizer diagram in $Set^{\Delta^{op}}$, then ${|i|}$ is the equalizer of the pair ${|f|}$, ${|g|}$, because the underlying function $U({|i|})$ is the equalizer of $U({|f|})$, $U({|g|})$ on the underlying set level by the preceding theorem, and because ${|i|}$ is a (closed) subspace inclusion by lemma \ref{mono}. But this $Top$-equalizer ${{|i|}}: {{|E|}} \to {{|X|}}$ lives in the full subcategory $Space$, and therefore $R(i) = {|i|}$ is the equalizer of the pair $R(f) = {|f|}$, $R(g) = {|g|}$. 
 =-- 
 
@@ -181,7 +182,7 @@ As the proof indicates, that realization preserves equalizers is not at all sens
 
 #### Geometric realization preserves finite products
 
-That geometric realization preserves products _is_ sensitive to whether we think of it as valued in $Top$ or in a convenient category $Space$. In particular, the proof uses cartesian closure of $Space$ in an essential way (in the form that finite products distribute over arbitrary colimits). 
+That geometric realization preserves products _is_ sensitive to whether we think of it as valued in $Top$ or in a convenient category $Space$. In particular, the proof uses [[cartesian closed category|cartesian closure]] of $Space$ in an essential way (in the form that [[finite products]] distribute over arbitrary [[colimits]]). 
 
 First, an easy result on products of simplices. 
 
@@ -208,7 +209,7 @@ is a homeomorphism.
 The canonical map is continuous, and a bijection at the underlying set level by theorem \ref{leftexact}. The codomain is the compact Hausdorff space $\sigma(m) \times \sigma(n)$, and the domain is compact by Lemma \ref{product}. But a continuous bijection from a compact space to a Hausdorff space is a homeomorphism. 
 =-- 
 
-+-- {: .un_remark} 
++-- {: .num_remark} 
 ###### Remark 
 The key properties of $I$ needed for this subsection are (1) the fact it is compact Hausdorff, and (2) the order relation $\leq$ on the interval $I$ defines a closed subset of $I \times I$. These properties ensure that the affine $n$-simplex $\{(x_1, \ldots, x_n) \in I^n: x_1 \leq \ldots \leq x_n\}$ is itself compact Hausdorff, so that the proof of lemma \ref{canonical} goes through. The point is that in place of $I$, we can really use any interval $L$ that satisfies these properties, thus defining an $L$-based geometric realization instead of the standard ($I$-based) geometric realization being developed here. 
 =-- 
