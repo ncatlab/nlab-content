@@ -31,7 +31,7 @@ $$
 
 If $p$ is a [[forgetful functor]], then being an isofibration says that whatever stuff $p$ forgets can be "transported along isomorphisms."
 
-{#NotInvariantUnderEquivalence} Notice that this definition of isofibration violates the 1-categorical [[principle of equivalence]] where it demands that $p(\psi)=\phi$: this condition is not invariant under [[equivalence of categories]]. If one changed the definition to involve just an [[isomorphism]] $p(\psi)\cong\phi$, then of course, any functor would qualify. But the point of isofibrations is rather to help present the [[(2,1)-category]] of categories/groupoids in terms of 1-categorical data. For more on this see below at _[As fibrations in canonical model structures](#AsFibrationsInCanonicalModelStructures)_.
+{#NotInvariantUnderEquivalence} Notice that this definition of isofibration violates the 1-categorical [[principle of equivalence]] where it demands that $p(\psi)=\phi$ (which includes the requirement that $p(e') = b$): this condition is not invariant under [[equivalence of categories]]. If one changed the definition to involve just an [[isomorphism]] $p(\psi)\cong\phi$, then of course, any functor would qualify. But the point of isofibrations is rather to help present the [[(2,1)-category]] of categories/groupoids in terms of 1-categorical data. For more on this see below at _[As fibrations in canonical model structures](#AsFibrationsInCanonicalModelStructures)_.
 
 
 
