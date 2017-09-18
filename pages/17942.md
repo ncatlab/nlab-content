@@ -60,3 +60,7 @@ For a [[topos]]-theoretic notion of locally $n$-connected see _[[locally n-conne
 
 [[!redirects locally simply connected space]]
 [[!redirects locally simply connected spaces]]
+
+[[!redirects locally simply connected topological space]]
+[[!redirects locally simply connected topological spaces]]
+
