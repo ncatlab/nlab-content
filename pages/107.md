@@ -72,7 +72,7 @@ The conjecture was initially triggered by the claim in
 
 that "[[semi-strict infinity-category|semi-strict infinity-groupoids]]", in which only the [[inverses]] could be weak and everything else strict, model all [[homotopy types]] (hence solve the [[homotopy hypothesis]])
 
-In ([Simpson 98](#Simpson98)) it was pointed out that this seems to be wrong for the [[homotopy type]] of the [[sphere|3-sphere]].
+In ([Simpson 98](#Simpson98)) it was pointed out that this seems to be wrong for the [[homotopy type]] of the [[sphere|2-sphere]].
 
 The issue, however, is quite subtle, as highlighted by Voevodsky [here](http://ncatlab.org/nlab/show/homotopy+type+theory#VoevodskyIASTalk2014))
 
