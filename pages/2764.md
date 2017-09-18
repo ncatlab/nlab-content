@@ -2,6 +2,8 @@
 * automatic table of contents goes here
 {:toc}
 
+[To be merged with [[spectral group scheme]].]
+
 ## Idea ##
 
 A **general group scheme** is a [[group object]] in [[generalized scheme]]s: it is a generalization to [[higher geometry]] of a [[group scheme]].
