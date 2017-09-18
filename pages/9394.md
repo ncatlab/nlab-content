@@ -9,6 +9,10 @@
 
 * [[gauged WZW model]]
 
+* [[n-Lie algebra]]
+
+* [[classical anomaly]]
+
 category: people
 
 [[!redirects Jose de Azcarraga]]
