@@ -82,7 +82,7 @@ $$
 #### For 2-manifolds (surfaces)
  {#HomotopyTypeForSurfaces}
 
-+-- {: .num_prop}
++-- {: .num_prop #HomotopyTypeOfDiffClosedOrientableSurface}
 ###### Proposition
 
 
