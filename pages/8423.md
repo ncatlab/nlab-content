@@ -34,6 +34,8 @@ The __Tychonoff topology__ or __product topology__ on $\prod_i {|X_i|}$ is the [
 
 ## Properties
 
+### Basic
+
 Of course, the maps $\pi_i$ are [[continuous maps]], so we have a [[cone]] in [[Top]].
 
 +-- {: .num_prop}
@@ -69,7 +71,13 @@ where $p_i \colon \prod_{j \in I} X_j \to X_i$ are the defining [[projection]] m
 
 In particular if $I$ itself is already finite, then a basis of the product topology is given by the Cartesian products of elements of a basis in the factors.
 
+### Tychonoff's theorem
+
+The Tychonoff product of [[compact topological spaces]] is itself again a compact topological space. This is known as _[[Tychonoff's theorem]]_, see there for more.
+
 ## References
+
+Named after [[A. N. Tychonoff]].
 
 * [[Terence Tao]], _Notes on products of topological spaces_ ([pdf](http://www.math.ucla.edu/~tao/resource/general/121.1.00s/product.pdf))
 
