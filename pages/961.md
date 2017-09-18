@@ -24,7 +24,7 @@
 
 In a [[finitely complete category]] $C$, a **congruence** on an object $X$ is an [[internalization|internal]] [[equivalence relation]] on $X$.
 
-This means that it consists of a [[subobject]] $R\stackrel{(p_1,p_2)}\hookrightarrow X \times X$ equipped with the following [[morphisms]]:
+This means that it consists of a [[subobject]] of the product $R \subseteq X \times X$ equipped with the following [[morphisms]]: 
 
 * internal [[reflexive relation|reflexivity]]: $r \colon X \to R$ which is a [[section]] both of $p_1$ and of $p_2$;
 
@@ -41,14 +41,16 @@ This means that it consists of a [[subobject]] $R\stackrel{(p_1,p_2)}\hookrighta
   }
   $$
 
-  the following holds: $p_1\circ q_1 = p_1\circ t$ and $p_2\circ q_2 = p_2\circ t$.
+  the following holds: $p_1 = \pi_1 \circ i$, $p_2 = \pi_2 \circ i$, $p_1\circ q_1 = p_1\circ t$ and $p_2\circ q_2 = p_2\circ t$.
+
+  $$ R\stackrel{i}\hookrightarrow X \times X \stackrel{\overset{\pi_1}{\rightarrow}}{\underset{\pi_2}{\rightarrow}} X $$
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-Since $(p_1,p_2)$ is a [[monomorphism]], the maps $r$, $s$, and $t$ are necessarily unique if they exist.
+Since $i$ is a [[monomorphism]], the maps $r$, $s$, and $t$ are necessarily unique if they exist.
 
 =--
 
