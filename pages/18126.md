@@ -2845,7 +2845,7 @@ A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ (def. \ref{Conti
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #OpenClosedImageProjection}
 ###### Example
 **([[image]] projections of [[open map|open]]/[[closed maps]] are themselves open/closed)**
 
@@ -3737,6 +3737,54 @@ But there are: these are called the _[[Peano curves]]_.
 
 
 $\,$
+
+Often it is important to know whether a given space is homeomorphism to its _image_, under some continuous function,
+in some other space:
+
++-- {: .num_defn #EmbeddingOfTopologicalSpaces}
+###### Definition
+**([[embedding of topological spaces]])**
+
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [[topological spaces]]. A [[continuous function]] $f \;\colon\; X \longrightarrow Y$ is called an _[[embedding of topological spaces]]_ if in its [[image factorization]] (example \ref{ImageFactorization})
+
+$$
+  f
+    \;\colon\;
+  X
+    \overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow}
+  f(X)
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  Y
+$$
+
+with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$ is a [[homeomorphism]].
+
+=--
+
++-- {: .num_prop #OpenClosedContinuousInjectionsAreEmbeddings}
+###### Proposition
+**([[closed injections are embeddings|open/closed continuous injections are embeddings]])**
+
+A [[continuous function]] $f \colon (X, \tau_X) \to (Y,\tau_Y)$
+which is
+
+1. an [[injective function]]
+
+1. an [[open map]] or a [[closed map]] (def. \ref{OpenMap})
+
+is an [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces}).
+
+This is called a _closed embedding_ if the [[image]] $f(X) \subset Y$ is a [[closed subset]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]]. Moreover, it is still continuous with respect to the subspace topology on $f(X)$ (example \ref{ImageFactorization}). Now a bijective continuous function is a homeomorphism precisely if it is an [[open map]] or a [[closed map]] prop. \ref{HomeoContinuousOpenBijection} . But the image projection of $f$ has this property, respectively, if $f$ does, by prop \ref{OpenClosedImageProjection}.
+
+=--
+
 
 
 
@@ -8249,11 +8297,51 @@ of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|c
 
 =--
 
-+-- {: .num_example #ExtremeValueTheorem}
-###### Example
+As a first useful application of the concept of compactness we have:
+
++-- {: .num_prop #ExtremeValueTheorem}
+###### Proposition
 **([[extreme value theorem]])**
 
-Let 
+Let $C$ be a [[compact topological space]] (def. \ref{CompactTopologicalSpace}), and let
+
+$$
+  f \;\colon\; C \longrightarrow \mathbb{R}
+$$
+
+be a [[continuous function]] to the [[real numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]].
+
+Then $f$ attains is [[maximum]] and its [[minimum]], i.e. there exist $x_{min}, x_{max} \in C$ such that for all $x \in C$ it is true that
+
+$$
+  f(x_{min})
+    \leq
+  f(x)
+   \leq
+  f(x_{max})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}) the image $f([a,b]) \subset \mathbb{R}$ is a [[compact topological space|compact]] [[subspace]].
+
+Suppose this image did not contain its maximum. Then $\{(-\infty,x)\}_{x \in f([a,b])}$ were an [[open cover]] of the image, and hence, by its compactness, there would be a finite subcover, hence a finite set $(x_1 \lt x_2 \lt \cdots \lt x_n)$ of points $x_i \in f([a,b])$, such that the union of the $(-\infty,x_i)$ and hence the single set $(-\infty, x_n)$ alone would cover the image. This were in contradiction to the assumption that $x_n \in f([a,b])$ and hence we have a [[proof by contradiction]].
+
+Similarly for the minimum.
+
+=--
+
+And as a special case:
+
++-- {: .num_example #ExtremeValueTheoremTraditional}
+###### Example
+**(traditional [[extreme value theorem]])**
+
+Let
 
 $$
   f \;\colon\; [a,b] \longrightarrow \mathbb{R}
@@ -8263,7 +8351,7 @@ be a [[continuous function]] from a [[bounded set|bounded]] [[closed interval]] 
 regarded as a [[topological subspace]] (example \ref{SubspaceTopology}) of [[real numbers]] to the [[real numbers]], with the
 latter regarded with their [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}).
 
-Then $f$ attains its [[maximum]] and [[minimum]]: there exists $x_{max}, x_{min} \in [a,b]$ such that 
+Then $f$ attains its [[maximum]] and [[minimum]]: there exists $x_{max}, x_{min} \in [a,b]$ such that
 for all $x \in [a,b]$ we have
 
 $$
@@ -8272,7 +8360,6 @@ $$
 $$
 
 =--
-
 
 +-- {: .proof}
 ###### Proof
@@ -8289,6 +8376,15 @@ $$
 
 
 =--
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8767,7 +8863,7 @@ Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover as required.
 ###### Remark
 **(neither [[compact topological space|compactness]] nor [[sequentially compact topological space|sequential compactness]] implies the other)**
 
-Beware, in contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact}, 
+Beware, in contrast to prop. \ref{SequentiallyCompactMetricSpacesAreEquivCompact},
 general topological spaces being [[sequentially compact space|sequentially compact]] neither implies nor is implied by being
 [[compact topological space|compact]].
 
@@ -8790,16 +8886,16 @@ general topological spaces being [[sequentially compact space|sequentially compa
 ###### Remark
 **([[nets]] fix the shortcomings of [[sequences]])**
 
-That [[compact topological space|compactness]] of topological spaces is not detected by 
+That [[compact topological space|compactness]] of topological spaces is not detected by
 [[convergence]] of [[sequences]] (remark \ref{SequentiallyCompactNeitherImpliesNorIsImpliedByCompactness})
 may be regarded as a shortcoming of the concept of _[[sequence]]_. While a sequence is indexed
-over the [[natural numbers]], the concept of [[convergence]] of sequnces only invokes that the natural 
-numbers form a _[[directed set]]_. Hence the concept of convergence immediately generalizes to 
+over the [[natural numbers]], the concept of [[convergence]] of sequnces only invokes that the natural
+numbers form a _[[directed set]]_. Hence the concept of convergence immediately generalizes to
 sets of points in a space which are indexed over an arbitrary [[directed set]]. This is called a _[[net]]_.
 
-And with these the expected statement does become true (for a [[proof]] see [here](net#CompactSpacesEquivalentlyHaveConvergetSubnets)): 
+And with these the expected statement does become true (for a [[proof]] see [here](net#CompactSpacesEquivalentlyHaveConvergetSubnets)):
 
-$\;\;\;\;$_A [[topological space]] $(X,\tau)$ is [[compact topological space|compact]] 
+$\;\;\;\;$_A [[topological space]] $(X,\tau)$ is [[compact topological space|compact]]
 precisely if every [[net]] in $X$ has a [[convergence|converging]] [[subnet]]._
 
 
@@ -8810,12 +8906,16 @@ of [[nets]] instead of just sequences, then it raises to the same level of gener
 
 =--
 
+$\,$
 
-There are various variants of the concept of compact spaces, for instance
+
+There are various variants of the concept of compact spaces. We discuss the following two:
 
 * [[locally compact topological spaces]] (def. \ref{LocallyCompactSpace});
 
 * [[paracompact topological spaces]] (def. \ref{ParacompactSpace}).
+
+$\,$
 
 +-- {: .num_defn #LocallyCompactSpace}
 ###### Definition
@@ -8861,7 +8961,7 @@ Every [[discrete topological space]] (example \ref{CoDiscreteTopology}) is [[loc
 ###### Example
 **([[metric spaces]] are [[locally compact topological space|locally compact]])**
 
-Every [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological space]] via its 
+Every [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological space]] via its
 [[metric topology]] (def. \ref{MetricTopology}), are [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
 
 =--
@@ -8871,7 +8971,7 @@ Every [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological spa
 ###### Example
 **([[open subspaces of compact Hausdorff spaces are locally compact]])**
 
-Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\sub} K$
+Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\subset} K$
 of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
 [[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
 
@@ -8879,7 +8979,7 @@ In particular [[compact Hausdorff spaces]] themselves are [[locally compact topo
 
 =--
 
-We **prove** this below as prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreNormalProp}, after having established a list of convenient general facts about compact Hausdorff spaces.
+We **prove** this below as prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreNormalProp}, after having established a list of convenient general facts about [[compact Hausdorff spaces]].
 
 +-- {: .num_example }
 ###### Example
@@ -8895,8 +8995,8 @@ it itself locally compact.
 ###### Nonexample
 **(countably infinite products of non-compact spaces are not locally compact)**
 
-Let $X$ be a [[topological space]] which is _not_ [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}). 
-Then the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of 
+Let $X$ be a [[topological space]] which is _not_ [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}).
+Then the [[product topological space]] (example \ref{InfiniteProductTopologicalSpace}) of
 a [[countable set|countably infinite set]] of copies of $X$
 
 $$
@@ -8910,7 +9010,7 @@ is _not_ a [[locally compact space]] (def. \ref{LocallyCompactSpace}).
 +-- {: .proof}
 ###### Proof
 
-Since the [[continuous image of a compact space is compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}), 
+Since the [[continuous image of a compact space is compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}),
 and since the [[projection]] maps $p_i \;\colon\; \underset{\mathbb{N}}{\prod} X \longrightarrow X$ are continuous
 (by nature of the [[initial topology]]/[[Tychonoff topology]]), it follows that every compact subspace of the product space is contained in one of the form
 
@@ -8938,8 +9038,10 @@ with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\math
 
 =--
 
+$\,$
+
 A key application of locally compact spaces is that the [[compact-open topology|space of maps]]
-out of them into any given topological space (example \ref{CompactOpenTopology} below) 
+out of them into any given topological space (example \ref{CompactOpenTopology} below)
 satisfies the expected [[universal property]] of a [[mapping space]] (prop. \ref{UniversalPropertyOfMappingSpace} below).
 
 +-- {: .num_example #CompactOpenTopology}
@@ -9157,7 +9259,7 @@ hence $f$ is continuous.
 
 +-- {: .num_remark #TopologicalMappingSpaceIsExponentialObject}
 ###### Remark
-**(topological mapping space is [[exponential object]])**
+**([[compact-open topology|topological mapping space]] is [[exponential object]])**
 
 In the language of [[category theory]] (remark \ref{TopCategory}), prop. \ref{UniversalPropertyOfMappingSpace}
 says that the [[mapping space]] construction with its [[compact-open topology]] from def. \ref{CompactOpenTopology}
@@ -9180,7 +9282,7 @@ with the [[opposite category]] of the [[subcategory]] of [[locally compact topol
 
 +-- {: .num_example #MappingSpaceOutOfPoint}
 ###### Example
-**([[mapping space]] construction out of the [[point space]] is the identity)**
+**([[compact-open topology|topological mapping space]] construction out of the [[point space]] is the identity)**
 
 The [[point space]] $\ast$ (example \ref{Point}) is clearly a [[locally compact topological space]].
 Hence for every [[topological space]] $(X,\tau)$ the [[compact-open topology|mapping space]] $Maps(\ast, (X,\tau))$
@@ -9462,7 +9564,7 @@ The assumption that $S$ is bounded by (hence contained in) some [[open ball]] $B
 implies that it is contained in $\{ (x_i)_{i = 1}^n \in \mathbb{R}^n \,\vert\, -\epsilon \leq x_i \leq \epsilon \}$.
 By example \ref{ClosedIntervalsProduct}, this  topological subspace is homeomorphic to the $n$-cube
 $[-\epsilon, \epsilon]^n$. Since the closed interval $[-\epsilon, \epsilon]$
-is compact by example \ref{CompactClosedInterval}, the binary [[Tychonoff theorem]] (prop. \ref{BinaryTychonoffTheorem})
+is compact by example \ref{CompactClosedInterval}, the binary [[Tychonoff theorem]] (prop. \ref{TychonoffTheorem})
 implies that this $n$-cube is compact. Since [[closed subspaces of compact spaces are compact]]
 (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) this implies that $S$ is compact.
 
@@ -9496,13 +9598,20 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
 =--
 
+For the record, we list some examples of [[compact Hausdorff spaces]] that are immediately identified
+by the [[Heine-Borel theorem]]:
+
 +-- {: .num_example #ExamplesOfCompactHausdorffSpaces}
 ###### Example
 **(examples of [[compact Hausdorff spaces]])**
 
-For $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ (example \ref{SpheresAndDisks})
-is a [[compact topological space]], being a closed and bounded subspace of $\mathbb{R}^n$, hence by prop. \ref{BorelHeine}.
+We list some basic examples of [[compact Hausdorff spaces]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{CompactTopologicalSpace})
 
+1. For $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ may canonically be regarded as a [[topological subspace]]
+of [[Euclidean space]] $\mathbb{R}^{n+1}$ (example \ref{SpheresAndDisks}). 
+
+These are clearly closed and bounded subspaces of Euclidean space, hence they are  [[compact topological space]],
+by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}.
 
 =--
 
@@ -9856,7 +9965,7 @@ $\,$
 
 The concept of [[compact topological space|compactness]] in topology ([above](#CompactSpaces))
 has several evident weakenings of interest. One is that of _[[paracompact topological space|paracompactness]]_
-(def. \ref{ParacompactSpace} below). 
+(def. \ref{ParacompactSpace} below).
 
 A key property is that [[paracompact Hausdorff spaces]] are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
 each of which is [[support|supported]] in only one patch of the cover, but whose [[sum]] is the unit function.
