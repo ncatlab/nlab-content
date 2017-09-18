@@ -41,11 +41,20 @@ $$
 of the [[7-sphere]] over the [[4-sphere]] with [[fiber]] the [[3-sphere]], which is induced via the [[Hopf construction]] from the product operation 
 
 $$
-  \mathbb{H} \times \mathbb{H} \stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}
+  \mathbb{H} \times \mathbb{H} \stackrel{(-)\cdot (-)}{\longrightarrow}
   \mathbb{H}
 $$
 
-on the [[quaternions]]. This means that if $S^7$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given simply by
+on the [[quaternions]], or else from
+
+$$
+  \mathbb{H} \times \mathbb{H}^{\times} \stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}
+  \mathbb{H}
+$$
+
+to match standard conventions.
+
+This means that if $S^7$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given simply by
 
 $$
   p_{\mathbb{H}} \colon (x,y) \mapsto [x;y] = [x/y; 1]
