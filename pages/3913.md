@@ -59,9 +59,10 @@ For $X$ a [[compact topological space]], $Th(V)$ is a model for [[generalized th
 
 The Thom space of the rank-$n$ [[universal vector bundle]] over the [[classifying space]] $B O(n)$ of the [[orthogonal group]] is usuelly denoted $M O(n)$. As $n$ ranges, these spaces form the [[Thom spectrum]].
 
-## Properties
+## Definition 
+ {#Definition}
 
-+-- {: .num_defn}
++-- {: .num_defn #ThomSpace}
 ###### Definition
 
 Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:
@@ -128,17 +129,65 @@ $$
 
 =--
 
-+-- {: .num_prop}
+## Properties
+ {#Properties}
+
++-- {: .num_prop #ThomSpaceOfDirectSumAsQuotientOfThomSpacesOfPullbacks}
 ###### Proposition
 
-
-For $V$ a vector bundle and $\mathbb{R}^n \oplus V$ its fiberwise [[direct sum]] with the trivial rank $n$ vector bundle we have
+Let $V_1,V_2 \to X$ be two real [[vector bundles]]. Then the Thom space (def. \ref{ThomSpace}) of the [[direct sum of vector bundles]] $V_1 \oplus V_2 \to X$ is expressed in terms of the Thom space of the [[pullbacks]] $V_2|_{D(V_1)}$ and $V_2|_{S(V_1)}$ of $V_2$ to the disk/sphere bundle of $V_1$ as
 
 $$
-  Th(V \oplus \mathbb{R}^n) \simeq S^n \wedge Th(V)
+  Th(V_1 \oplus V_2)
+  \simeq
+  Th(V_2|_{D(V_1)})/Th(V_2|_{S(V_1)})
+  \,.
 $$
 
-is the [[smash product]] of the Thom space of $V$ with the $n$-[[sphere]] (the $n$-fold [[suspension]]).
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that 
+
+1. $D(V_1 \oplus V_2) \simeq D(V_2|_{Int D(V_1)}) \cup S(V_1)$;
+
+1. $S(V_1 \oplus V_2) \simeq S(V_2|_{Int D(V_1)}) \cup Int D(V_2|_{S(V_1)})$.
+
+(Since a point at radius $r$ in $V_1 \oplus V_2$ is a point of radius $r_1 \leq r$ in $V_2$ and a point of radius $\sqrt{r^2 - r_1^2}$ in $V_1$.)
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+For $V$ a vector bundle then the Thom space (def. \ref{ThomSpace}) of $\mathbb{R}^n \oplus V$, the [[direct sum of vector bundles]] with the trivial rank $n$ vector bundle, is [[homeomorphism|homeomorphic]] to the [[smash product]] of the Thom space of $V$ with the $n$-[[sphere]] (the $n$-fold [[reduced suspension]]).
+
+
+$$
+  Th(V \oplus \mathbb{R}^n) \simeq S^n \wedge Th(V) = \Sigma^n Th(V)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply prop. \ref{ThomSpaceOfDirectSumAsQuotientOfThomSpacesOfPullbacks} with $V_1 = \mathbb{R}^n$ and $V_2 = V$. Since $V_1$ is a trivial bundle, then
+
+$$
+  V_2|_{D(V_1)} \simeq V_2\times D^n
+$$
+
+(as a bundle over $X\times D^n$) and similarly
+
+$$
+  V_2|_{S(V_1)} \simeq V_2\times S^n
+  \,.
+$$
+
 
 =--
 
