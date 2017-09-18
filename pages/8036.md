@@ -34,6 +34,8 @@ Where [[zeta functions]] appear in [[physics]] as expressions for [[vacuum ampli
 
 * [[motivic L-function]]
 
+* [[mixed Tate motive]]
+
 ## References
 
 ### General
