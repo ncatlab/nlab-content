@@ -8,3 +8,6 @@ A point of $X$ is the same as a point (in the usual sense) of the [[topological 
 [[!redirects point of a locale]]
 [[!redirects points of a locale]]
 [[!redirects points of locales]]
+[[!redirects point of the locale]]
+[[!redirects points of the locale]]
+[[!redirects points of the locales]]
