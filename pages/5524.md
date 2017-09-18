@@ -1111,6 +1111,8 @@ following
 [[!redirects synthetic-differential ∞-groupoid]]
 [[!redirects synthetic-differential ∞-groupoids]]
 
+[[!redirects formal smooth homotopy type]]
+[[!redirects formal smooth homotopy types]]
 
 [[!redirects SynthDiff∞Grpd]]
 
