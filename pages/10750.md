@@ -6844,7 +6844,7 @@ for the [[disjoint union]] of the strict acyclic generating cofibration with the
 
 =--
 
-([MMSS 00, def. 9.3](#MMSS00))
+([MMSS 00, def.6.2, def. 9.3](#MMSS00))
 
 
 +-- {: .num_lemma #ElementsOfKAreStableEquivalencesAndStrictCofibrations}
@@ -7077,7 +7077,47 @@ $$
 
 is a [[stable weak homotopy equivalence]].
 
-Moreover, by [[cofibrantly generated model category|cofibrant generation]] of the stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})_{stable}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#AlternativeStableModelStructureOnSequentialSpectraIsModelCategory)) every cofibrant sequential spectrum is a [[retract]] of an $I_{seq}^{stable}$-[[relative cell complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable), [def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)).
+By [[cofibrantly generated model category|cofibrant generation]] of the stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})_{stable}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#AlternativeStableModelStructureOnSequentialSpectraIsModelCategory)) every cofibrant sequential spectrum is a [[retract]] of an $I_{seq}^{stable}$-[[relative cell complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable), [def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)), where
+
+$$
+  I^{stable}_{seq}
+  \;=\;
+  \left\{
+    F_{n_1} S^{n_2-1}_+
+      \overset{F_{n_1} (i_{n_2})_+ }{\longrightarrow}
+    F_{n_1} D^{n_2}_+
+  \right\}
+  \,.
+$$
+
+Since $seq_!$ and $seq^\ast$ both preserve [[colimits]] ($seq^\ast$ because it evaluates at objects and colimits in the diagram category $OrthSpec$ are computed objectwise, and $seq_!$ because it is a [[left adjoint]]) we have for $X \simeq \underset{\longrightarrow}{\lim}_i X_i$ a relative $I^{stable}_{seq}$-decompositon of $X$, that $\eta_X \colon X \to seq^\ast seq_! X$ is equivalently
+
+$$
+  \underset{\longrightarrow}{\lim}_i \eta_{X_i}
+   \;\colon\;
+  \underset{\longrightarrow}{\lim}_i X_i
+    \longrightarrow
+  \underset{\longrightarrow}{\lim}_i seq_! seq^\ast X_i
+  \,.
+$$
+
+Now observe that the colimits involved in a relative $I^{stable}_{seq}$-complex (the [[coproducts]], [[pushouts]], [[transfinite compositions]]) are all [[homotopy colimits]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftDerivedFunctorOfColimitFunctor)): First, all objects involved are cofibrant. Now for the transfinite composition all the morphisms involved are cofibrations, so that their colimit is a homotopy colimit by [this example](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnNSequencesOfTopologicalSpaces), while for the pushout one of the morphisms out of the "top" objects is a cofibration, so that this is a [[homotopy pushout]] by ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)).
+
+It follows that if all $\eta_{X_i}$ are weak equivalences, then so is $\eta = \underset{\longrightarrow}{\lim}_i \eta_{X_i}$.
+
+Unwinding this, one finds that it is sufficient to show that 
+
+$$
+  \eta_{F_{n_1} S^{n_2}}
+  \;\colon\;
+  F_{n_1} S^{n_2}  
+    \longrightarrow
+  seq^\ast seq_! F_{n_1} S^{n_2}
+$$
+
+is a stable weak homotopy equivalence for all $n_1, n_2 \in \mathbb{N}$.
+
+Now...
 
 Now ...
 
