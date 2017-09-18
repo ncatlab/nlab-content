@@ -111,18 +111,17 @@ Every PROP defines a [[polycategory]]; see there for more. Note that PROPs are s
 * Wee Liang Gan, _Koszul Duality for Dioperads_, [(arXiv:0201074v2)](http://arxiv.org/pdf/math/0201074v2.pdf). 
 {#Gan}
 
-* Phillip Hackney and Marcy Robertson, _On the Category of PROPs_, [arXiv:1207.2773v2](http://arxiv.org/pdf/1207.2773v2.pdf).
-{#HR1}
+* {#HR1} [[Philip Hackney]] and [[Marcy Robertson]], _On the Category of PROPs_, [arXiv:1207.2773v2](http://arxiv.org/pdf/1207.2773v2.pdf).
 
-* Phillip Hackney and Marcy Robertson, _The Homotopy Theory of Simplicial PROPs_, [arXiv:1209.1087](http://arxiv.org/pdf/1209.1087.pdf).
-{#HR2}
+* {#HR2} [[Philip Hackney]] and [[Marcy Robertson]], _The Homotopy Theory of Simplicial PROPs_, [arXiv:1209.1087](http://arxiv.org/pdf/1209.1087.pdf).
+
 
 *  [[Steve Lack]], _[Composing PROPs](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html)_, [[TAC]] 13 (2004), No. 9, 147--163.
 
 * Teimuraz Pirashvili, *On the PROP corresponding to bialgebras*, http://arxiv.org/abs/math/0110014. ([link](http://arxiv.org/abs/math/0110014)) 
 
-* [[Donald Yau]], _Higher Dimensional Algebras via Colored PROPs_, [(arXiv:0809.2161v1)](http://arxiv.org/pdf/0809.2161v1.pdf).
-{#Yau}
+* {#Yau} [[Donald Yau]], _Higher Dimensional Algebras via Colored PROPs_, [(arXiv:0809.2161v1)](http://arxiv.org/pdf/0809.2161v1.pdf).
+
 
 
 
