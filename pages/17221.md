@@ -222,6 +222,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[Adams-Novikov spectral sequence]]
 
+* the computation sketched after "we show that $\pi_1S = Z/2$" is the one that is spelled out for instance in ([Bruner 09, pages 2-4](classical+Adams+spectral+sequence#Bruner09))
+
 ## 5 Computing Stable Stems
 
 * [[stable homotopy groups of spheres]]
