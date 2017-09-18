@@ -19,16 +19,28 @@
 
 ## Definition
 
-An [[object]] $A$ in a [[category]] is a **retract** of an object $B$ if there are [[morphisms]] $i:A\to B$ and $r:B\to A$ such that $r \circ i = id_A$. In this case $r$ is called a **retraction** of $B$ onto $A$.
+An [[object]] $A$ in a [[category]] is called a **retract** of an object $B$ if there are [[morphisms]] $i\colon A\to B$ and $r \colon B\to A$ such that $r \circ i = id_A$. In this case $r$ is called a **retraction** of $B$ onto $A$.
 
 $$
-  id : A \stackrel{i}{\to} B \underoverset{retraction}{r}{\to} A
+  id 
+    \;\colon\; 
+  A \underoverset{section}{i}{\to} B \underoverset{retraction}{r}{\to} A
   \,.
 $$
 
+Here $i$ may also be called a _[[section]]_ of $r$. (In particular if $r$ is thought of as exhibiting a [[bundle]]; the terminology originates from [[topology]].)
+ 
+Hence a **retraction** of a [[morphism]] $i  \;\colon\;  A \to B$ is a _left-[[inverse]]_.
 
+In this situation, $r$ is a [[split epimorphism]] and $i$ is a [[split monomorphism]]. The entire situation is said to be a _splitting of  the [[idempotent]]_
 
-In this situation, $r$ is a [[split epimorphism]] and $i$ is a [[split monomorphism]]; the composite $i \circ r$ is a [[split idempotent]].  Sometimes $r$ is called a [[retraction]] of $i$ and $i$ is called a [[section]] of $r$; these terms come from [[topology]].  The whole thing may also be called a **splitting** of $i$, $r$, or $i \circ r$.
+$$
+  B \stackrel{r}{\longrightarrow} A \stackrel{i}{\longrightarrow} B
+  \,.
+$$
+
+Accordingly, a **[[split monomorphism]]** is a morphism that *has* a retraction; a **[[split epimorphism]]** is a morphism that *is* a retraction.
+
 
 
 ## Properties
@@ -277,3 +289,9 @@ the definition appears as def. 1.7.3. Properties are discussed in section 6.5
 
 [[!redirects retraction]]
 [[!redirects retractions]]
+
+[[!redirects left inverse]]
+[[!redirects left inverses]]
+[[!redirects left-inverse]]
+[[!redirects left-inverses]]
+
