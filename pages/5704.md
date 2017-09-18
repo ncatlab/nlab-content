@@ -21,18 +21,56 @@
 
 A *quotient space* is a [[quotient object]] in some [[category]] of [[spaces]], such as [[Top]] (of [[topological spaces]]), or [[Loc]] (of [[locales]]), etc.
 
-Quotient objects in the category $Vect$ of [[vector spaces]] also traditionally use the term 'quotient space', but they are really just a special case of [[quotient module]]s, very different from the other kinds of quotient space.  Quotient [[TVSes]], however, combine both aspects.
-
+Beware that quotint Quotient objects in the [[category]] [[Vect]] of [[vector spaces]] also traditionally called 'quotient space', but they are really just a special case of [[quotient modules]], very different from the other kinds of quotient space.  However in _[[topological vector spaces]]_ both concepts come together.
 
 ## Definitions
 
 ### In $Top$
 
-Let $X$ be a [[topological space]] and $\sim$ an [[equivalence relation]] on (the underlying set of) $X$.  (Since [[monomorphisms]] in [[Top]] are just [[injection|injective]] [[continuous maps]], to give an equivalence relation on the underlying set of a topological space is the same as to give a [[congruence]] on that space in $Top$.)  Let $Y = X/{\sim}$ be the [[quotient set]] and $q\colon X\to Y$ the quotient map.
++-- {: .num_defn #QuotientTopologicalSpace}
+###### Definition
+**(quotient topological space)**
 
-The **quotient topology**, or **identification topology**, induced on $Y$ from $X$ says that a subset $U\subseteq Y$ is [[open subset|open]] if and only if the [[preimage]] $q^{-1}(U)\subseteq X$ is open.  With this topology $Y$ is a **quotient space** or **identification space** of $X$.
+Let $(X,\tau_X)$ be a [[topological space]]  and let
 
-Obviously, up to [[homeomorphism]], all that matters is the surjective function $X\to Y$.  For the above definition, we don't even need it to be surjective, and we could generalize to a [[sink]] instead of a single map; in such a case one generally says *[[final topology]]* or *[[strong topology]]*.  See [[topological concrete category]]. 
+$$
+  R_\sim \subset X \times X
+$$
+
+be an [[equivalence relation]] on its underlying set. Then the _quotient topological space_  has
+
+* as underlying set the [[quotient set]] $X/\sim$, hence the set of [[equivalence classes]],
+
+and
+
+* a subset $O \subset X/\sim$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
+
+  $$
+    \pi \;\colon\; X \to X/\sim
+  $$
+
+  is open in $X$.
+
+To see that this indeed does define a topology on $X/\sim$ it is sufficient to observe that taking pre-images commutes with taking unions and with taking intersections.
+
+
+Often one considers this with input datum not the equivalence relation, but any [[surjection]]
+
+$$
+  \pi \;\colon\; X \longrightarrow Y
+$$
+
+of sets. Of course this identifies $Y = X/\sim$ with $(x_1 \sim x_2) \Leftrightarrow (\pi(x_1) = \pi(x_2)) $.
+Hence the _quotient topology_ on the codomain set of a function out of any topological space has as open subsets
+those whose pre-images are open.
+
+Equivalently this is the _[[final topology]]_ or _[[strong topology]]_ induced on $Y$ by the function $X \to Y$, see at _[Top -- Universal constructions](Top#UniversalConstructions)_.
+
+=--
+
+For this construction the function $X \to Y$ need not even be surjective, and we could generalize to a [[sink]] instead of a single map; in such a case one generally says *[[final topology]]* or *[[strong topology]]*.  See also at _[[topological concrete category]]_. 
+
+
 
 
 ### In $Loc$
