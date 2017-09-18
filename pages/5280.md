@@ -187,7 +187,7 @@ The CSB property holds in many other [[categories]] of interest. For example:
 
 +-- {: .num_example #model} 
 ###### Example 
-The CSB property holds in the category of [[vector spaces]] and in the category of [[algebraically closed field]]s. See also this [MO post](http://mathoverflow.net/questions/1058/when-does-cantor-bernstein-hold), where model-theoretic criteria come into play, sometimes under strengthenings of the notion of monomorphism (e.g., [[elementary embedding]], [[split monomorphism]]). 
+The CSB property holds in the category of [[vector spaces]] and in the category of [[algebraically closed field]]s. See also this [MO post](http://mathoverflow.net/questions/1058/when-does-cantor-bernstein-hold) by John Goodrick, where model-theoretic criteria come into play, sometimes under strengthenings of the notion of monomorphism (e.g., [[elementary embedding]], [[split monomorphism]]) Some slides by Goodrick [here](http://settheory.mathtalks.org/wp-content/uploads/2012/06/jonh_goodrick.pdf) go into more detail. 
 =-- 
 
 +-- {: .num_example #counterexample2} 
