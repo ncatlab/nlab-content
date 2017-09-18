@@ -236,15 +236,20 @@ is a model for the [[classifying space]] of reduced K-theory.
 
 Introductions are in
 
-* [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
- {#Hatcher}
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+ 
 
-* [[Eric Friedlander]], _An introduction to K-theory_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
- {#Friedlander}
+* {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
+ 
 
-* [[Max Karoubi]], _K-theory: an introduction_ 
- {#Karoubi}
+* {#Karoubi} [[Max Karoubi]], _K-theory: an introduction_ 
+ 
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+
+The [[H-space]] structure on $B U \times \mathbb{Z}$ is discussed in
+
+* [[Peter May]],  p. 205 (213 of 251 in _[[A Concise Course in Algebraic Topology]]_.
+
 
 [[!redirects stable unitary groups]]
