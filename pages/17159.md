@@ -1,0 +1,15 @@
+[[!redirects Republic]]
+
+One of the dialogues attributed to [[Plato]].
+
+## Related entries
+
+* [[Music of the Spheres]]
+
+* [[Parmenides dialogue]]
+
+* [[Timaeus dialogue]]
+
+## References
+
+* Wikipediam _[Republic (Plato)](https://en.wikipedia.org/wiki/Republic_(Plato))_
