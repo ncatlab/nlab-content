@@ -5,7 +5,7 @@
 
 ## Idea
 
-The fundamental theorem of the [[infinitesimal calculus]] (FTC) states that the [[antiderivative]]s and [[indefinite integral]]s of a [[function]] (typically a [[real number|real]]-valued function on a closed [[interval]] in the [[real line]]) are the same.  It is now such a truism that calculus textbooks tend to use 'indefinite integral' to simply mean an antiderivative, but there is a different concept, definable from the [[definite integral]], that is really in play here.
+The fundamental theorem of the [[infinitesimal calculus]] (FTC) states that the [[antiderivative]]s and [[indefinite integral]]s of a [[function]] (typically a [[real number|real]]-valued function on a closed [[interval]] in the [[real line]]) are the same.  It is now such a truism that calculus textbooks tend to use 'indefinite integral' to simply mean an antiderivative, but there is a different concept, definable from the [[definite integral]] and sometimes called the *semidefinite* integral, that is really in play here.
 
 The FTC is usually split into two parts.  The first part (sometimes called the second part) states that every indefinite integral is an antiderivative.  The second part (sometimes called the first part) states that every antiderivative is an indefinite integral.  Somewhere in here (usually in the first part) we also want to state that such antiderivatives and indefinite integrals actually exist.  Their uniqueness (such as it is) may also be included.
 
@@ -23,7 +23,7 @@ $$ F(x) = \int_a^x f(t) \,\mathrm{d}t + C $$
 for a real constant $C$.
 
 +-- {: .un_theorem #FTC}
-###### Theorem (Fundamental theorem of calculus)
+###### Theorems (Fundamental Theorem of Calculus)
 
 Suppose that $F$ and $f$ are appropriate functions, and use an appropriate notion of derivative and integral.  Then:
 
@@ -33,11 +33,12 @@ Suppose that $F$ and $f$ are appropriate functions, and use an appropriate notio
 4. Uniqueness: If $F_1$ and $F_2$ are antiderivatives of $f$, then $F_1 - F_2$ is a [[constant function]].
 =--
 
-This holds for under any of the following conditions:
+This holds under any of the following conditions:
+
 1. $F$ is [[continuously differentiable function|continuously differentiable]], $f$ is [[continuous function|continuous]], differentiation is pointwise, and integration is the [[Riemann integral]].
 2. $F$ is [[absolutely continuous function|absolutely continuous]], $f$ is [[integrable function|integrable]], differentiation is [[almost everywhere]], and integration is the [[Lebesgue integral]].
 3. In pointwise [[constructive mathematics]] with the [[fan theorem]], we may proceed as in (1).
-4. In pointwise constructive mathematics with [[countable choice]], $F$ is uniformly continuously differentiable, $f$ is [[uniformly continuous function|uniformly continuous]], differentiation is uniform differentability, and integration is the [[Riemann integral]].
+4. In pointwise constructive mathematics with [[countable choice]], $F$ is uniformly continuously differentiable, $f$ is [[uniformly continuous function|uniformly continuous]], differentiation is uniform differentiability, and integration is the [[Riemann integral]].
 5. In constructive [[locale theory]], we may proceed as in (1) if the 'functions' involved are locale-theoretic [[continuous maps]] rather than set-theoretic functions.
 6. In [[synthetic differential geometry]], $F$ and $f$ are [[smooth map|smooth]], differentiation is axiomatic, and integration is given by the [[integration axiom]].
 
