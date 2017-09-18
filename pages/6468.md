@@ -22,7 +22,7 @@ A **K3 surface** is a [[Calabi-Yau variety]] of [[dimension]] $2$ (a Calabi-Yau 
 
 * A cyclic cover $\mathbb{P}^2$ branched over a curve of degree $6$
 
-* A nonsingular degree $4$ hypersurface in $\mathbb{P}^3$.
+* A nonsingular degree $4$ hypersurface in $\mathbb{P}^3$, such as the [[Fermat hypersurface|Fermat quartic]] $\{[w,x,y,z] \in \mathbb{P}^3 | w^4 + x^4 + y^4 + z^4 = 0\}$ (in fact every K3 surface over $\mathbb{C}$ is [[diffeomorphism|diffeomorphic]] to this example).
 
 
 ## Properties
@@ -33,7 +33,7 @@ A **K3 surface** is a [[Calabi-Yau variety]] of [[dimension]] $2$ (a Calabi-Yau 
 
 * The [[Hodge diamond]] is completely determined (even in positive [[characteristic]]) and hence the  [[Hodge-de Rham spectral sequence]] degenerates at $E_1$. This also implies that the [[Betti numbers]] are completely determined as $1, 0, 22, 0, 1$. 
 
-* Over the [[complex numbers]] they are all [[Kähler manifold|Kähler]].
+* Over the [[complex numbers]] they are all [[Kähler manifold|Kähler]], and even [[hyperkähler manifold|hyperkähler]].
 
 ### Moduli of higher line bundles and deformation theory
  {#ModuliOfHigherLineBundles}
