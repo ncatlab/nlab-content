@@ -22,9 +22,13 @@ A **homotopical functor** $F : C \to D$ between two [[homotopical category|homot
 
 * [[category with weak equivalences]], [[homotopical category]]
 
+* [[derived functor]]
+
 * [[simplicial localization]]
 
 * [[homological functor]]
+
+* [[Ken Brown's lemma]]
 
 [[!redirects homotopical functors]]
 
