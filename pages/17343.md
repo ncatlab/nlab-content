@@ -3524,7 +3524,7 @@ $$
 
 ([Quillen 67, I.1 theorem 1](#Quillen67))
 
-+-- {: .proof}
++-- {: .proof #ProofOfUniversalPropertyOfHomotopyCategoryOfAModelCategory}
 ###### Proof
 
 First, to see that that $\gamma$ indeed takes weak equivalences to isomorphisms: By [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) applied to the [[commuting diagrams]] shown in the proof of lemma \ref{ConstructionOfLocalizationFunctorForModelCategoryIsWellDefined}, the morphism $P Q f$ is a weak equivalence if $f$ is:
