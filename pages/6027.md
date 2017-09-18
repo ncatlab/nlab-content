@@ -1,4 +1,10 @@
 
+## Idea
+
 Length is the [[volume]] of 1-[[dimension]]al spaces.
+
+## Related concept
+
+* [[Planck length]]
 
 [[!redirects lengths]]
