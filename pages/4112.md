@@ -20,7 +20,7 @@ What is called _Cantor space_, after [[Georg Cantor]], is the [[topological spac
 
 1. removing the middle third, retaining only $[0,\tfrac{1}{3}]$ and $[\tfrac{2}{3}, 1]$;
 
-1. removing from the these two pieces _their_ middle thirds, to retain the pieces $[0,\tfrac{1}{9}]$, $[\tfrac{2}{9}\tfrac{1}{3}]$, $[\tfrac{2}{3}, \tfrac{7}{9}]$, $[\tfrac{8}{9},1]$;
+1. removing from the these two pieces _their_ middle thirds, to retain the pieces $[0,\tfrac{1}{9}]$, $[\tfrac{2}{9},\tfrac{1}{3}]$, $[\tfrac{2}{3}, \tfrac{7}{9}]$, $[\tfrac{8}{9},1]$;
 
 1. and so ever on.
 
