@@ -89,6 +89,55 @@ In general neither of these two properties implies the other:
 
 * An example of a [[compact topological space]] which is not sequentially compact is given in ([Steen-Seebach 70, item 105](#SteenSeebach70)), recalled at [Vermeeren 10, prop. 17](#Vermeeren10). See at [compact space -- Compact spaces which are not sequentially compact](compact+space#CompactSpacesWhichAreNotSequentiallyCompact).
 
++-- {: .num_example #ACompactSpaceNotSequentiallyCompact}
+###### Example
+**(a compact space which is not sequentially compact)**
+
+Consider the [[product topological space]] (with its [[Tychonoff topology]])
+
+$$
+  X \coloneqq \underset{[0,1)}{\prod} Disc(\{0,1\})
+$$
+
+of copies of the [[discrete space]] on two elements, indexed by the points in the [[half-open interval]]. Since $Disc(\{0,1\})$ is a [[finite topological space|finite]] [[discrete topological space]] it is clearly compact. Therefore the [[Tychonoff theorem]] says that also $X$ is compact.
+
+But here is an instance of a [[sequence]] $x_{(-)}$ in $X$ which does not have a convergent sub-sequence:
+
+By the nature of the [[product]], an element $x \in X$ is a [[tuple]] of elements $\pi_r(x) \in \{0,1\}$ for $r \in [0,1)$. Now for $n \in \mathbb{N}$ define $x_n$ by
+
+$$
+  \pi_r(x_n) \coloneqq n\text{th digit in the binary expansion of}\,r
+  \,.
+$$
+
+Suppose this sequence $(x_n)_{n \in \mathbb{N}}$ had a subsequence $(x_{(n_k)})_{k \in \mathbb{N}}$, converging to some $x_\infty \in X$, hence that for every open neighbourhood $\{x_\infty\} \subset U \subset X$ there were a $k_0 \in \mathbb{N}$ such that $x_{n_{k \geq k_0}} \in U$.
+
+Considering then for each $r \in [0,1)$ the Tychonoff-open subset
+
+$$
+  \{ \pi_r(x_\infty) \}
+  \times
+  \left(
+    \underset{r' \in [0,1) \backslash \{r\}}{\prod}
+    \{0,1\}
+  \right)
+$$
+
+this would imply that there were $n_0$ such that
+
+$$
+  \pi_r( x_{k_{n \geq n_0}} )
+  =
+  \pi_r(x_\infty)
+$$
+
+hence that the binary expansion of $r$ had the same digit in position $k_n$ for  all $n \geq n_0$. This is clearly not the case for all $r$ (if it is true for some $r$, just change one of these digits to obtain an $r'$ for which it is not), and hence we have a [[proof by contradiction]].
+
+
+=--
+
+
+
 ## Related concepts
 
 * [[compact topological space]]
