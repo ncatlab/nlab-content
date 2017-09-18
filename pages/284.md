@@ -292,9 +292,8 @@ For several years [[Andre Joyal]] -- who was one of the first to promote the ide
 
 Further notes (where the term "[[logos]]" is used instead of [[quasi-category]]) are in
 
-* [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
-  {#Joyal08}
-
+* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+  
 
 Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the theory further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is
 
@@ -340,6 +339,11 @@ and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monograph
 A model by [[stratified spaces]] is in 
 
 * {#AyalaFrancisRozenblyum15} [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], _A stratified homotopy hypothesis_ ([arXiv:1502.01713](http://arxiv.org/abs/1502.01713))
+
+A more model-independent abstract formulation is discussed in
+
+* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
+
 
 ### Surveys and lecture notes 
  {#LectureNotes}
