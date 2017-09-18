@@ -83,7 +83,7 @@ $$
 has as fiber precisely the linear span of any such choice of basis.
 
 
-While the quotient $U(k)/(U(n-k)\times U(n))$ (the [[Grassmannian]]) divides out the entire choice of basis, the quotient $U(k)/(U(n-k) \times U(n-1))$ leaves the choice of precisly one unit vector. This is parameterized by the sphere $S^{2n-1}$ which is thereby identified as the unit sphere in the respective fiber of $E U(n) \underset{U(n)}{\times} \mathbb{C}^n$.
+While the quotient $U(k)/(U(n-k)\times U(n))$ (the [[Grassmannian]]) divides out the entire choice of basis, the quotient $U(k)/(U(n-k) \times U(n-1))$ leaves the choice of precisly one unit vector. This is parameterized by the sphere $S^{2n-1}$ which is thereby identified as the [[unit sphere]] in the respective fiber of $E U(n) \underset{U(n)}{\times} \mathbb{C}^n$.
 
 =--
 
