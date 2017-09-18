@@ -584,13 +584,28 @@ Any $G$-action on an infinitesimal disk is a linear action, given by a homomorph
 
 ## Examples
 
-### Discrete group actions on sets and groupoids
+### Discrete group actions on sets 
+ {#ExamplesPermutationRepresentations}
 
 As the simplest special case, we discuss how the traditional concept of [[discrete groups]] acting on a [[sets]] ("[[permutation representations]]") is recoverd from the above general abstract concepts.
 
 Write [[Grpd]] for the [[(2,1)-category]] of [[groupoids]], the [[full sub-(infinity,1)-category]] of [[∞Grpd]] on the [[1-truncated objects]].
 
-For $G$ a [[discrete group]], then $\mathbf{B}G$ is the [[groupoid]] $(G \stackrel{\longrightarrow}{\longrightarrow}\ast)$ with [[composition]] operation given by the product in the group. Of the two possible ways of making this identification, we agree to use
+We write 
+
+$$
+  X_\bullet = (X_1 \stackrel{\longrightarrow}{\longrightarrow} X_0)
+$$
+
+for a [[groupoid object]] given by an explicit choice of set of objects and of morphisms and then write $X \in Grpd$ for the object that this presents in the $(2,1)$-category. Given any such $X$, we recover a presentation by choosing any [[essentially surjective functor]] $S \to X$  (an [[atlas]]) out of a set $S$ (regarded as a groupoid) and setting
+
+$$
+  X_\bullet = (S \underset{X}{\times} S \stackrel{\longrightarrow}{\longrightarrow} S)
+$$
+
+hence taking $S$ as the set of objects and the [[homotopy fiber product]] of $S$ with itself over $X$ as the set of morphism.
+
+For $G$ a [[discrete group]], then $\mathbf{B}G$ denotes the [[groupoid]] presented by $(\mathbf{B}G)_\bullet = (G \stackrel{\longrightarrow}{\longrightarrow}\ast)$ with [[composition]] operation given by the product in the group. Of the two possible ways of making this identification, we agree to use
 
 $$
   \array{
@@ -631,14 +646,14 @@ with [[composition]] given by the product in $G$. Hence the [[objects]] of $S$ a
 Schematically:
 
 $$
-  S//G =
+  (S//G)_\bullet =
   \left\{
     \array{
-      && s_2
+      && \rho(s)(g)
       \\
       & {}^{\mathllap{g_1}}\nearrow && \searrow^{\mathrlap{g_2}}
       \\
-      s_1 && \underset{g_1 g_2}{\longrightarrow} && s_2
+      s && \underset{g_1 g_2}{\longrightarrow} && \rho(s)(g_1 g_2)
     }
   \right\}
   \,.
@@ -658,24 +673,93 @@ $$
 
 This makes it clear that:
 
-+-- {: .num_defn #MapFromActionGroupoidOnSetBackToBG}
-###### Definition
++-- {: .num_prop #MapFromActionGroupoidOnSetBackToBG}
+###### Proposition
 
 In the situation of def. \ref{Action1Groupoid}, 
 there is a canonical morphism of groupoids
 
 $$
-  p_\rho \;\colon\; S//G \longrightarrow \mathbf{B}G
+  (p_\rho)_\bullet \;\colon\; (S//G)_\bullet \longrightarrow (\mathbf{B}G)_\bullet
 $$
 
 which, in the above presentation, forgets the labels of the objects and is the identity on the labels of the morphisms.
+
+This morphism is an [[isofibration]].
+
+=--
+
++-- {: .num_prop #IntertwinersOfPermutationActionAsSliceHoms}
+###### Proposition
+
+For $G$ a [[discrete group]], given two $G$-[[actions]] $\rho_1$ and $\rho_2$ on sets $S_1$ and $S_2$, respectively, then there is a [[natural equivalence]] between the set of action [[homomorphisms]] ("[[intertwiners]]") $\rho_1 \to \rho_2$, regarded as a groupoid with only identity morphisms, and the [[hom groupoid]] of the [[slice (infinity,1)-category|slice]] $Grpd_{/\mathbf{B}G}$ between their [[action groupoids]] regarded in the slice via the maps from prop. \ref{MapFromActionGroupoidOnSetBackToBG}
+
+$$
+  G Act(\rho_1,\rho_2)
+  \simeq
+  Grpd_{/\mathbf{B}G}(p_{\rho_1}, p_{\rho_2})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One quick way to see this is to use, via the discussion at _[[slice (infinity,1)-category]]_, that the [[hom-groupoid]] in the slice is given by the [[homotopy pullback]] of unsliced hom-groupoids
+
+$$
+  \array{
+    Grpd_{/\mathbf{B}G}(p_{\rho_1}, p_{\rho_2})
+    &\longrightarrow&
+    Grpd(S_1//G, S_2//G)
+    \\
+    \downarrow &(pb)& \downarrow^{\mathrlap{Grpd(S_1//G,p_{\rho_2})}}
+    \\
+    \ast &\stackrel{}{\longrightarrow}& Grpd(S_1//G, \mathbf{B}G)
+  }
+  \,.
+$$
+
+Now since $(p_{\rho_2})_\bullet$ is an [[isofibration]], so is $Grpd((S_1//G)_\bullet, (p_{\rho_2})_\bullet)$, and hence this is computed as an ordinary pullback (in the above presentation). That in turn gives the [[hom-set]] in the 1-categorical slice. This consists of functors
+
+$$
+  \phi_\bullet \colon (S_1//G)_\bullet \longrightarrow (S_1//G)_\bullet
+$$
+
+which strictly preserves the $G$-labels on the morphisms. These are manifestly the intertwiners.
+
+$$
+  \phi_\bullet
+  \;\colon\;
+  \left(
+  \array{
+    s
+    \\
+    \downarrow^{\mathrlap{g}}
+    \\
+    \rho(s)(g)
+  }
+  \right)
+  \mapsto
+  \left(
+  \array{
+    \phi(s)
+    \\
+    \downarrow^{\mathrlap{g}}
+    \\
+    \phi(\rho(s)(g)) & = \rho(\phi(s))(g)
+  }
+  \right)
+  \,.
+$$
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-The [[homotopy fiber]] of the morphism in def. \ref{MapFromActionGroupoidOnSetBackToBG} is [[equivalence of groupoids|equivalent]] to the set $S$, regarded as a groupoid with only identity morphisms, hence we have a [[homotopy fiber sequence]] of the form
+The [[homotopy fiber]] of the morphism in prop. \ref{MapFromActionGroupoidOnSetBackToBG} is [[equivalence of groupoids|equivalent]] to the set $S$, regarded as a groupoid with only identity morphisms, hence we have a [[homotopy fiber sequence]] of the form
 
 $$
   \array{
@@ -693,7 +777,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In the presentation $(S//G)_\bullet$ of def. \ref{Action1Groupoid}, $p_\rho$ is clearly an [[isofibration]]. Hence its [[homotopy fibers]] are equivalent to its ordinary fibers computed in the 1-category of 1-groupoids. Since $p_\rho$ is the identity on the labels of the morphisms in this presentation, this ordinary fiber is precisely the sub-groupoid of $(S//G)_\bullet$ consisting of only the identity morphismss, hence is the set $S$ regarded as a groupoid.
+In the presentation $(S//G)_\bullet$ of def. \ref{Action1Groupoid}, $p_\rho$ is an [[isofibration]], prop. \ref{MapFromActionGroupoidOnSetBackToBG}. Hence the [[homotopy fibers]] of $p_\rho$ are equivalent to the ordinary fibers of $(p_\rho)_\bullet$ computed in the 1-category of 1-groupoids. Since $(p_\rho)_\bullet$ is the identity on the labels of the morphisms in this presentation, this ordinary fiber is precisely the sub-groupoid of $(S//G)_\bullet$ consisting of only the identity morphismss, hence is the set $S$ regarded as a groupoid.
 
 =--
 
@@ -742,7 +826,7 @@ $$
   \simeq
   \;\;\;\;
   \array{
-    S\times G &\longrightarrow& S  
+    S\times G &\stackrel{p_1}{\longrightarrow}& S  
     \\
     \downarrow && \downarrow 
     \\
@@ -771,18 +855,39 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_remark}
+###### Remark
+
+The functor $i \colon S \to E$ is clerly [[essentially surjective functor|essentially surjective]] (every connected component of $E$ has a homotopy fiber under its map to $\mathbf{B}G$). This implies that $E$ is presented by 
+
+$$
+  E_\bullet \coloneqq (S \underset{E}{\times}S \stackrel{\overset{p_1}{\longrightarrow}}{\underset{p_2}{\longrightarrow}} S)
+$$ 
+
+and hence, via the construction in def. \ref{ActionMapFromFiberSequenceSetToGroupoidToBG}, by
+
+$$
+  E_\bullet \simeq (S \times G \stackrel{\overset{p_1}{\longrightarrow}}{\underset{\rho}{\longrightarrow}} S)
+  \,.
+$$ 
+
+=--
+
+But this already exhibits $E$ as an [[action groupoid]], in particular it mans that $\rho$ is really an [[action]]:
+
+
++-- {: .num_prop #ActionGroupoidFromFiberSequence}
 ###### Proposition
 
 The morphism $\rho$ constructed in def. \ref{ActionMapFromFiberSequenceSetToGroupoidToBG} is a $G$-[[action]] in that it satisfies the action propery, which says that the [[diagram]] (of [[sets]])
 
 $$
   \array{
-    S\times G \times G &\stackrel{}{\longrightarrow}& S \times G
+    S\times G \times G &\stackrel{(id,(-)\cdot(-))}{\longrightarrow}& S \times G
     \\
-    \downarrow && \downarrow^{\mathrlap{\rho}}
+    \downarrow^{\mathrlap{(\rho,id)}} && \downarrow^{\mathrlap{\rho}}
     \\
-    S \times G &\stackrel{\rho}{\longrightarrow}& 
+    S \times G &\stackrel{\rho}{\longrightarrow}& S
   }
 $$
 
@@ -790,14 +895,35 @@ $$
 
 =--
 
-spring
-+-- {: .proof}
-###### Proof
++-- {: .num_prop}
+###### Proposition
+
+For $G$ a [[discrete group]], there is an [[equivalence of categories]]
+
+$$
+  G Act(Set)
+  \stackrel{\simeq}{\longrightarrow}
+  (Grpd_{/\mathbf{BG}})_{\leq 0}
+$$
+
+between the category of [[permutation representations]] of $G$ and the full subcategory of the [[slice (infinity,1)-category|slice (2,1)-category]] of [[Grpd]] over $\mathbf{B}G$ on the [[0-truncated objects]].
+
+This equivalence takes an action to its [[action groupoid]].
 
 =--
 
++-- {: .proof}
+###### Proof
 
-### Of $\infty$-group actions in an $\infty$-topos
+By remark \ref{ActionGroupoidFromFiberSequence} the construction of action groupoids is [[essentially surjective functor|essentially surjective]]. 
+By prop. \ref{IntertwinersOfPermutationActionAsSliceHoms} it is [[fully faithful functor|fully faithful]].
+
+=--
+ 
+
+
+
+### $\infty$-group actions in an $\infty$-topos
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]] and let $G \in Grp(\mathbf{H})$ be an [[∞-group]] in $\mathbf{H}$. 
 
@@ -1028,6 +1154,7 @@ $$
   [\Sigma, X]\sslash \mathbf{Aut}(\Sigma)
   \simeq
   [\Sigma \sslash \mathbf{Aut}(\Sigma), X \times \mathbf{B}\mathbf{Aut}(\Sigma)]_{\mathbf{B}\mathbf{Aut}(\Sigma)}
+
 $$
 
 is the configuration space of fields on $\Sigma$ modulo automorphisms (diffeomorphisms, in [[smooth infinity-groupoid|smooth cohesion]]) of $\Sigma$. This is the configuration space of "[[general covariance|generally covariant]]" field theory on $\Sigma$.
