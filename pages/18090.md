@@ -1515,7 +1515,7 @@ One summarizes this situation by saying that:
 
 1. [[topological spaces]] constitute the _[[objects]]_
 
-1. [[continuous maps]] constitute the _[[morphisms]]_ ([[homomorphisms]])
+1. [[continuous functions]] constitute the _[[morphisms]]_ ([[homomorphisms]])
 
 of  a _[[category]]_, called the _[[category of topological spaces]]_ ("[[Top]]" for short).
 
@@ -1652,7 +1652,7 @@ which are open by the axioms on the topology $\tau_X$.
  {#Homeomorphisms}
 
 
-With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] thus defined
+With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous functions]]) of the [[category]] [[Top]] thus defined
 (remark \ref{TopCategory}), we obtain the concept of "sameness" in topology. To make this precise, one says that a [[morphism]]
 
 $$
@@ -2981,21 +2981,38 @@ $$
 ###### Definition
 **([[compact topological space]])**
 
-A [[Hausdorff topological space|Hausdorff]] [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
+A [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
  _[[compact topological space]]_ if every [[open cover]] $\{U_i \to X\}_{i \in I}$ (def. \ref{OpenCover}) has
  a _finite subcover_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
  $\{U_i \to X\}_{i \in J}$ is still a cover of $X$ in that  $\underset{i \in J}{\cup} U_i = X$.
 
 =--
 
-+-- {: .num_example }
-###### Example
++-- {: .num_remark}
+###### Remark
+**(terminology issue regarding "compact")**
 
-A [[discrete topological space]] (def. \ref{}) is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) 
-precisely it its underlying set is [[finite set|finite]].
+beware that the following terminology issue persists in the literature:
+
+Some authors use "compact" to mean "Hausdorff and compact". To disambiguate this,
+some authors (mostly in [[algebraic geometry]]) say "quasi-compact" for what we call 
+"compact" in prop. \ref{CompactTopologicalSpace}.
 
 =--
 
++-- {: .num_example }
+###### Example
+
+A [[discrete topological space]] (def. \ref{CoDiscreteTopology}) is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) 
+precisely if its underlying set is [[finite set|finite]].
+
+=--
+
+In terms of these definitions, the familiar statement about metric spaces from prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} now says equivalently that
+[[sequentially compact metric spaces are equivalently compact metric spaces]]. But for 
+general topological spaces being sequntially compact neighther implies nor is implied by being compact (...examples...).
+
+In [[analysis]] the key recognition principle for compact spaces is the following:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -3008,53 +3025,9 @@ Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are e
 
 1. $S$ is  [[compact topological space|compact]] according to def. \ref{CompactTopologicalSpace},
 
-^. $S$ is [[closed subset|closed]] (def. \ref{ClosedSubset}) and [[bounded subset|bounded]] (def. \ref{MetricSpaceBoundedSubset}).
+1. $S$ is [[closed subset|closed]] (def. \ref{ClosedSubset}) and [[bounded subset|bounded]] (def. \ref{MetricSpaceBoundedSubset}).
 
 =--
-
-
-+-- {: .num_prop }
-###### Proposition
-**([[compact subspaces of Hausdorff spaces are closed]])**
-
-Let $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace})
-and let $K \subset X$ be a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
-[[topological subspace]] (def. \ref{SubspaceTopology}). Then $K \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $x \in X \backslash K$ be any point of $X$ not contained in $K$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $X$.
-
-By assumption that $X$ is Hausdorff, there exist for each $y \in K$ disjoint open neighbourhoods $y \subset U_y \subset X$ and $x \subset V_y \subset X$. Clearly the [[union]] of all the $U_y$ is an [[open cover]] of $K$
-
-$$
-  K \subset \underset{y \in K}{\cup} U_y
-  \,.
-$$
-
-Hence by assumption that $K$ is compact, there exists a [[finite set|finite]] [[subset]] $S \subset K$ of points in $K$ such that the $U_s$ for $s \in S$ still cover $K$:
-
-
-$$
-  K \subset \underset{y \in S \subset K}{\cup} U_y
-  \,.
-$$
-
-Since $S$ is finite, the intersection
-
-$$
-  U_x \coloneqq  \underset{y \in S \subset K}{\cap} V_y
-$$
-
-is still open, and by construction it is disjoint from all $U_y$ for $y \in S$, hence in particular disjoint from $K$, and it contains $x$. Hence $U_x$ is an open neighbourhood of $x$ as required.
-
-
-=--
-
-
 
 +-- {: .num_defn #CompactOpenTopology}
 ###### Definition
@@ -3106,11 +3079,129 @@ $$
 
 
 
+#### Relation to closed spaces
+
+In general [[topological spaces]], the generalized analogue of the [[Heine-Borel theorem]] is the following:
+
+
++-- {: .num_prop}
+###### Proposition
+**([[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]])**
+
+Let $(X,\tau)$ be a [[compact topological space|compact]] [[Hausdorff topological space]] 
+(def. \ref{HausdorffTopologicalSpace}, def. \ref{CompactTopologicalSpace}) and let $Y \subset X$
+be a [[topological subspace]]. Then the following are equivalent:
+
+1. $Y \subset X$ is a [[closed subspace]] (def. \ref{ClosedSubset});
+
+1. $Y$ is a [[compact topological space]].
+
+=--
+
+We **prove** this in two parts, as lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact} and lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}:
+
++-- {: .num_lemma #ClosedSubsetsOfCompactSpacesAreCompact}
+###### Lemma
+**([[closed subsets of compact spaces are compact]])**
+
+Let $(X,\tau)$ be a [[compact topological space]] (def. \ref{CompactTopologicalSpace}), and let $Y \subset X$ be a 
+[[closed subspace|closed]] [[topological subspace]]. Then also $Y$ is [[compact topological space|compact]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\{V_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$. We need to show that this has a finite sub-cover.
+
+By definition of the [[topological subspace|subspace topology]], there exist open subsets $U_i$ of $X$ with 
+
+$$
+  V_i = U_i \cap Y
+  \,.
+$$
+
+By the assumption that $Y$ is closed, the [[complement]] $X \backsalsh Y$ is an open subset of $X$, and therefore
+
+$$
+  \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
+$$
+
+is an [[open cover]] of $X$. Now by the assumption that $X$ is compact, this latter cover has a finite subcover,
+hence there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that 
+
+$$
+  \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
+$$
+
+is still an oopen cover of $X$, hence in particular intersects to a finite open cover of $Y$. 
+But since $Y \cap ( X \backsalsh Y ) = \empty$, it follows that indeed
+
+$$
+  \{V_i \subset Y\}_{i \in J \subset I}
+$$
+
+is a cover of $Y$, and in indeed a finite subcover of the original one.
+
+
+=--
+
+
++-- {: .num_lemma #CompactSubspacesOfHausdorffSpacesAreClosed}
+###### Lemma
+**([[compact subspaces of Hausdorff spaces are closed]])**
+
+Let $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace})
+and let $K \subset X$ be a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
+[[topological subspace]] (def. \ref{SubspaceTopology}). Then $K \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $x \in X \backslash K$ be any point of $X$ not contained in $K$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $X$.
+
+By assumption that $X$ is Hausdorff, there exist for each $y \in K$ disjoint open neighbourhoods $y \subset U_y \subset X$ and $x \subset V_y \subset X$. Clearly the [[union]] of all the $U_y$ is an [[open cover]] of $K$
+
+$$
+  K \subset \underset{y \in K}{\cup} U_y
+  \,.
+$$
+
+Hence by assumption that $K$ is compact, there exists a [[finite set|finite]] [[subset]] $S \subset K$ of points in $K$ such that the $U_s$ for $s \in S$ still cover $K$:
+
+
+$$
+  K \subset \underset{y \in S \subset K}{\cup} U_y
+  \,.
+$$
+
+Since $S$ is finite, the intersection
+
+$$
+  U_x \coloneqq  \underset{y \in S \subset K}{\cap} V_y
+$$
+
+is still open, and by construction it is disjoint from all $U_y$ for $y \in S$, hence in particular disjoint from $K$, and it contains $x$. Hence $U_x$ is an open neighbourhood of $x$ as required.
+
+
+=--
+
+
+
+#### Relation to quotient spaces
+
+(...)
+
+
+
+
 ### Universal constructions
  {#UniversalConstructions}
 
 
-One point of the general definition of "[[topological space]]" is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist, for instance, as metric spaces.
+One point of the general definition of "[[topological space]]" is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist, for instance, as [[metric spaces]].
 
 We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc.
 
@@ -3382,7 +3473,11 @@ $$
 
 
 
+$\,$
 
+$\,$
+
+$\,$
 
 
 ## Basic homotopy theory
@@ -3390,7 +3485,7 @@ $$
 
 In order to handle topological spaces, to compute their properties and distinguish them, it
 turns out to be useful to consider not just continuity within a topological space, but also
-continuous deformations of [[continuous maps]] _between_ topological spaces. This is the
+continuous deformations of [[continuous functions]] _between_ topological spaces. This is the
 concept of _[[homotopy]]_, and its study is _[[homotopy theory]]_. We introduce the basic concept
 and consider its most fundamental application: the [[fundamental group]] and its relation to the
 classification of [[covering spaces]].
@@ -3758,7 +3853,7 @@ oriented [[surface]] of [[genus of a surface|genus]] 2:
 
 Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$
 of [[pointed topological spaces]], whose [[objects]] are
-topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous maps]]
+topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous functions]]
 $f \colon X \to Y$ that take the chosen basepoint of $X$ to that of $Y$:
 
 $$
