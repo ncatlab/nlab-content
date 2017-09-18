@@ -66,6 +66,11 @@ The [[compact object in an (infinity,1)-category|compact objects]] in [[∞Grpd]
 
 * [[(infinity,1)-presheaves]] on $\infty Grpd_{fin}^{op}$ form the [[classifying (infinity,1)-topos]] for objects.
 
+## References
+
+
+* [[Doug Ravenel]], _The stable homotopy theory of finite complexes_, in [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ (1995)
+
 [[!redirects finite homotopy types]]
 
 [[!redirects finite ∞-groupoid]]
