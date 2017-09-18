@@ -115,7 +115,7 @@ $$
   \ast \coloneqq (\{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\})
 $$
 
-for the [[point]], regarded, uniquely, as a topological space.
+for the [[point]], regarded, uniquely, as a topological space, the [[point space]].
 
 +-- {: .num_prop #FrameHomomorphismsToPointAreIrrClSub}
 ###### Proposition
@@ -236,7 +236,7 @@ Note that frame homomorphisms from $\tau_X$ to $\tau_\ast$ are the same thing as
 
 ## Properties
 
-Note that the [[closure]] of any [[point]] of $X$ is an irreducible closed subspace.  $X$ is [[sober space|sober]] if and only if every irreducible closed subspace is the closure of a unique point of $X$.  In general, the irreducible closed subspaces of $X$ correspond to the [[point of a locale|points]] of the [[topological locale]] $\Omega(X)$, which are (by definition) the [[completely prime filters]] on the [[frame of open subspaces]] of $X$.  Specifically, given an irreducibly closed subspace, the filter of open subspaces that contain it is completely prime; conversely, given a completely prime filter of open subspaces, the closure of its intersection is irreducible.
+Note that the [[closure]] of (the [[singleton]] set on) any [[point]]/[[element]] of $X$ is an irreducible closed subspace.  $X$ is [[sober space|sober]] if and only if every irreducible closed subspace is the closure of a unique point of $X$.  In general, the irreducible closed subspaces of $X$ correspond to the [[point of a locale|points]] of the [[topological locale]] $\Omega(X)$, which are (by definition) the [[completely prime filters]] on the [[frame of open subspaces]] of $X$.  Specifically, given an irreducibly closed subspace, the filter of open subspaces that contain it is completely prime; conversely, given a completely prime filter of open subspaces, the closure of its intersection is irreducible.
 
 The theory of irreducible closed subspaces is not useful in [[constructive mathematics]]; instead, one must use the [[completely prime filters]] directly.  While one might hope that the irreducibly open subsets (that is those that satisfy the conditions of Proposition \ref{OpenSubsetVersionOfClosedIrreducible}) might be more tractible constructively, they are in fact no better.  (We should probably put in the classical proof and see where it goes wrong.)
 
