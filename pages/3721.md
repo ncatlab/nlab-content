@@ -33,7 +33,7 @@ In [[synthetic topology]], we interpret 'space' as meaning simply 'set' (or [[ty
 
 One is to use a [[dominance]], which specifies the open subsets representably by a set of "open truth values".
 
-Another possibility is the following definition due to Penon: $U\subseteq X$ is open if for any $x\in X$ and $y\in U$, either $x\neq y$ or $y\in U$.  This definition does not require a choice of dominance, but it is generally only correct for [[Hausdorff spaces]]; for instance, the open point in the [[Sierpinski space]] is not open in this sense.  However, in various [[gros toposes]] of topological, smooth, or algebraic spaces it does induce the correct notion of open subsets for Hausdorff spaces; see [Dubuc-Penon](#DubucPenon).
+Another possibility is the following definition due to Penon: $U\subseteq X$ is open if for any $x\in U$ and $y\in X$, either $x\neq y$ or $y\in U$.  This definition does not require a choice of dominance, but it is generally only correct for [[Hausdorff spaces]]; for instance, the open point in the [[Sierpinski space]] is not open in this sense.  However, in various [[gros toposes]] of topological, smooth, or algebraic spaces it does induce the correct notion of open subsets for Hausdorff spaces; see [Dubuc-Penon](#DubucPenon).
 
 ## Related concepts
 
