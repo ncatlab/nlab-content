@@ -7,7 +7,7 @@
 
 A _fractal_ is a [[space]] of sorts which is self-similar, to some extent, under rescalings.
 
-There is a concept of [[fractal dimension]] which measures how the amount of detail of a given space changes with scale. For ordinary [[manifolds]] this fractal dimension coincides with the usual [[dimension]], taking values in tha [[natural numbers]]. For fractal spaces however the fractal dimension may be a [[rational number]], hence a [[fraction]] of natural number, whence the name "fractal"
+There is a concept of [[fractal dimension]] which measures how the amount of detail of a given space changes with scale. For ordinary [[manifolds]] this fractal dimension coincides with the usual [[dimension]], taking values in the [[natural numbers]]. For fractal spaces however the fractal dimension may be a non-negative [[rational number]], in fact a [[real number]], hence a [[fraction]], whence the name "fractal".
 
 ## Examples
 
