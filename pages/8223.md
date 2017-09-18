@@ -187,12 +187,14 @@ Each is a [[left cancellative category]].
 
 In this section,  SimpGph has the same meaning as in the other sections, but there are slight notational variations, and a few other conventions, which we now list: 
 
-* $\rotatebox{180}{\textsf{T}}$ denotes falsity
-* $\textsf{T}$ denotes truth
+* $\rotatebox{180}{\mathsf{T}}$ denotes falsity
+* $\mathsf{T}$ denotes truth
 * $E$ is used like an infix relation-symbol, 
 * the sequent-notation $\vdash$, sometimes possibly with [[context]]s given in subscripts, is used for implications. (No ambiguity with regard to the symbol $\mathsf{T}$ for truth, nor with regard the usual symbol $\leftvdash$ to indicate left adjoints will arise.)
 * the usual graph-theoretic distance-function is denoted by $\mathrm{dist}_{(V,E)}\colon V\times V\rightarrow\omega$, where $\omega$ denotes the natural numbers and $(V,E)$ is usually abbreviated by the name of the graph $(V,E)$,
-* we use the taditional subobjects-are-isomorphism-classes-of-monos-convention, as in [[subobject]].
+* we use the taditional subobjects-are-isomorphism-classes-of-monos-convention, as in [[subobject]]
+* although there are well-documented problems with conceiving of the  [[skeleton]] as an assignation $\mathsf{CAT}\rightarrow\mathrm{CAT}$, let alone a functorial one, for brevity we formally write $\mathsf{Skeleton}(\mathsf{C})$ to denote a skeleton of a category $\mathsf{C}$
+* there is the following known (reftodo) issue in logical treatments of the language of category theory: if $f$ and $g$ are morphisms, and if $f\circ g$ is defined, i.e. if $\mathrm{cod}(g)=\mathrm{dom}(f)$, then $f\circ g = 1$ can only be interpreted as $f\circ g = 1_{\mathrm{dom}(g)}$, so in this sense writing $1_{\mathrm{dom}(g)}$ here is redundant. However, if one analyzes a logic with equality, then, if the subscript is _omitted_, the transitivity of equality would lead us to the fallacious conclusion that  _whenever_ we have  morphisms $f_0,g_0,f_1,g_1$ with $f_0\circ g_0 = 1$ and $f_1\circ g_1 = 1$, then $f_0\circ g_0 = f_1\circ g_1$. This conclusion would not have followed had we dutifully written $f_0\circ g_0 = 1_{\mathrm{dom}(g_0)}$ and $f_1\circ g_1 = 1_{\mathrm{dom}(g_1)}$ and heeded the possibility that $1_{\mathrm{dom}(g_0)}$ and $1_{\mathrm{dom}(g_0)}$ may be unequal (formally, that $\neg(1_{\mathrm{dom}(g_0)} = 1_{\mathrm{dom}(g_1)})$ is interpreted as $\rotatebox{90}{\mathsf{T}}$. For this reason, in the logical analysis below we use a signature having infinitely-many  $0$-ary function symbols denoted $1_{o_i}$.
 
 
 We recall that, by Section(reftodo), for any objects $G_0=(V_0,E_0)$ and $G_1=(V_1,E_1)$ of SimpGph, 
@@ -217,7 +219,7 @@ SimpGph.StrongEmbeddings($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$
 SimpGph.IsometricEmbeddings($G_0,G_1$) $:=$ $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image, and $\mathsf{T}\vdash_{x,y:V_0}$ $\mathrm{dist}_{\mathrm{im}(f)}(f(x),f(y))=\mathrm{dist}_{G_1}(f(x),f(y))$\}$.
 
 
-##### Remarks on motivation. 
+##### Context for the three wide subcategories
 
 Analyzing the above subcategories has natural connections with other parts of category theory and graph theory. For example (to be systematic and to take the [[nPOV]]), we will always choose the category-theoretic term, i.e., not write _strong embedding_, but _regular mono_, and not _isometric embedding_ but rather _isometric regular mono_).
 
@@ -231,7 +233,7 @@ Analyzing the above subcategories has natural connections with other parts of ca
 
 * * * (tellingly.shaped) if the hom-set Mor(SimpGph.IsometricEmbeddings($T_{\mathrm{elling}}$,G$))$ is non-empty, then $T_{\mathrm{elling}}$ and $G$ are elementarily-equivalent.
 
-Intuitively: if we can prove that the graph $G$ has a $T_{\mathrm{elling}}$ly-shaped generalized point, then we know it to be in the equivalence class we are interested in. 
+Intuitively: _if_ we can prove that the graph $G$ has at least one $T_{\mathrm{elling}}$ly-shaped generalized point, where the shape coming from regular monos would not be sufficientt for the logical applications, _then_ we know it to be in the equivalence class we are interested in. 
 This is one more example of the well-known principle of characterizing some property (here: _being elementarily equivalent_) by the existence of at least one good morphism in an suitable category.
 
 (There are versions of this for the full subcategory $\mathsf{SimpGph}_{<\omega}$ of finte graphs, in which of course, elementary equivalence is the same as isomorphism and thus is often weakened to equivalence up to some [[quantifier-rank]].)
@@ -299,8 +301,9 @@ SimpGph.IsometricEmbedding,
 (pullbacks) have pullbacks.
 
 
+As to (images), we argue from the general to the specific. 
 
-As to (images), we argue from the general to the specific. We recall that because of Proposition \ref{specificEmbeddingOfSimpGphIntoSet}, 
+We recall that because of Proposition \ref{specificEmbeddingOfSimpGphIntoSet}, 
 * each of the categories in question is a [[concrete category]],
 
 and now ask, in general: 
@@ -314,12 +317,10 @@ Moreover, we ask:
 We will then specialize to SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, 
 SimpGph.IsometricEmbedding. 
 
-(under construction)
-
 #### A remark on epi-mono-factorizations
 
 
-We recall:
+We recall that SimpGph has epi-mono-factorizations (and by Section reftodo above, much better factorizations):
 
 * (epi.mono) Every morphism of SimpGph has an epi-mono-factorization. That is, for each $f\in$Mor(SimpGph)t here is a $m$ono and an $e$pi of $SimGph$ with $f=m\circ e$.
 
@@ -366,22 +367,103 @@ The morphism $f$ of SimpGph defined by the illustration on the left is a non-reg
 </div>
 
 
-#### Characterizing the classes of morphisms of the three wide subcategories
+testing other inclusion-method: 
 
-##### Mor(SimpGph.WeakEmbeddings) 
+<img src="http://ncatlab.org/nlab/files/nonregularmono20170614.jpg" width="660" >
+
+#### Remarks on (non-)axiomatizability the classes of morphisms of the three wide subcategories in the first-order logic of category theory
+
+
+We use the set of variables
+
+
+$\{f_i\colon i\in\omega\}$ 
+
+and signature 
+
+$\{\circ,\mathrm{cod},\mathrm{dom}\}\cup\{ 1_{o_i}\colon i\in\omega\}$, 
+
+where $\circ$, $\mathrm{cod}$, $\mathrm{dom}$, $1_{o_i}$ are function symbols of respective arities $2$, $3$, $3$, $0$, with the usual semantics.
+
+We used $=$ not a as relation symbol, but always as a logical symbol. 
+
+
+##### Axiomatizing Mor(SimpGph.WeakEmbeddings) 
 
 The weak isomorphisms are precisely the monos in SimpGph. 
-Therefore, Mono(SimpGph) is an [[elementary class]], even a [[finitely axiomatizable]] class, and even axiomatizable by [[Horn]] sequents, w.r.t. the usual first-order theory of (1-)category theory. We recall that its signature is $\circ,\mathrm{cod},\mathrm{dom}$, where $\circ$, $\mathrm{cod}$ and $\mathrm{dom}$ are function symbols with the usual semantics. As usual, we treat $=$ not a as relation symbol, but as a logical symbol. Moreover, we invariably write the variables as $f_i$ with some $i\in\omega$. Since the usual fist-order language of category theory has one sort only (treating objects as identity-morphisms), we do not specify the sort when we use the sequent notation; as an example of this convention, let us take the time to spell out the definition of monos: 
+Therefore, Mono(SimpGph) is an [[elementary class]], even a [[finitely axiomatizable]] class, and even axiomatizable by [[Horn]] sequents, w.r.t. the usual first-order theory of (1-)category theory. Moreover, we invariably write the variables as $f_i$ with some $i\in\omega$. Since the usual fist-order language of category theory has one sort only (treating objects as identity-morphisms), we do not specify the sort when we use the sequent notation; as an example of this convention, for further comparison, we spell out the definition of monos: 
 Mor(SimpGph.WeakEmbeddings) $=$ Mono(SimpGph) $=$ $\{ f_0:\quad (f_0\circ f_1 = f_0\circ f_2) \vdash_{f_0,f_1,f_2} (f_1 = f_2)   \}$.
 Here, no sort for the $f_i$ has been specified, since there is only one. 
 
-##### Mor(SimpGph.StrongEmbeddings) 
+##### Axiomatizing Mor(SimpGph.StrongEmbeddings) 
+
+Being a regular mono is a first-order property w.r.t. the language of 1-category theory.
 
 (under construction)
 
-##### Mor(SimpGph.IsometricEmbeddings) 
+We have 
+
+Mor(SimpGph.StrongEmbeddings) 
+
+$=$ RegularMono(SimpGph) 
+
+$=$ $\{$ $f_0$: $\exists f_1\in Mor$ and $\exists f_2\in Epis(SimpGph)$ and $\exists f_3\in Monos(SimpGph)$  <font size="6"> $f_0= f_3 \circ f_2$ </font> and $f_2\circ f_1 = 1_{\mathrm{im}(f_0)}$ and $f_1\circ f_2 = 1_{\mathrm{dom}(f_0)}$ $\}$
+
+$=$ 
+
+
+($\mathsf{T}$) ${ \vdash }_{f_0,\dotsc,f_7}$ 
+
+($\exists f_1$ $\exists f_2$ $\exists f_3$ 
+
+(   $f_4\circ  { f_2 }= f_5 \circ{  f_2}$) $Rightarrow$ ( $f_4= f_5$) 
+
+$\wedge$ 
+
+(   ${ f_3}\circ f_6 = { f_3}\circ f_7$) $Rightarrow$ ( $f_6= f_7$) 
+
+$\wedge$ 
+
+<font size="6"> $f_0= f_3 \circ f_2$ </font> 
+
+$\wedge$ 
+
+$f_1\circ f_2 = 1_{o_0}$
+
+$\wedge$ 
+
+$f_2\circ f_1 = 1_{o_1}$ 
+
+$\wedge$ 
+
+$o_0=\mathrm{dom}(f_0)$
+
+$\wedge$
+
+$o_1=\mathrm{dom}(f_1)$
+)
+
+the latter being a non-[[coherent]] sequent, though. 
+
+There arises a sub-question: 
+
+* can  Mor(SimpGph.StrontEmbeddings) be axiomatized by _coherent_ sequents?
+
+(under construction)
+
+
+Mnemonic: str$0$ng, $1$so, $2$pi, $3$ono.
+
+##### Axiomatizing Mor(SimpGph.IsometricEmbeddings) 
+
+Being an isometric regular mono _appears_ not to be a first-order property w.r.t. the language of 1-category theory.
 
 The definition of the class of morphisms makes use of the distance-function, hence is not a definition in the language of category theory. Needless to say, this does not mean that it could not perhaps be axiomatized nevertheless in that language. We will now prove that it cannot.
+
+
+Our goal is to give a proof that 
+
+*  Mor(SimpGph.IsometricEmbeddings) is not coherently axiomatizable in the sense that there does not any set $\mathbb{T}$ of coherent sequents such that Mor(SimpGph.IsometricEmbeddings)$=$ $\{  f\colon f\models \mathbb{T}\}$.
 
 (under construction)
 
