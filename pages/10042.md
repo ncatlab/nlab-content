@@ -7,7 +7,7 @@
 
 ## Idea
 
-Let $f:X\to Y$ be a morphism of [[locally compact topological spaces]]. Then there exist a unique [[subfunctor]] $f_!: Sh(X)\to Sh(Y)$ of the [[direct image]] functor $f_*$ such that for any [[abelian sheaf]] $F$ over $X$ the sections of $f_!(F)$ over $U^{open}\subset X$ are those sections $s\in f_*(U)= \Gamma(f^{-1}(U),F)$ for which the restriction $supp(s)|f : supp(s)\hookrightarrow U$ is a [[proper map]]. 
+Let $f:X\to Y$ be a morphism of [[locally compact topological spaces]]. Then there exist a unique [[subfunctor]] $f_!: Sh(X)\to Sh(Y)$ of the [[direct image]] functor $f_*$ such that for any [[abelian sheaf]] $F$ over $X$ the sections of $f_!(F)$ over $U^{open}\subset X$ are those sections $s\in f_*(U)= \Gamma(f^{-1}(U),F)$ for which the restriction $f|_{supp(s)} : supp(s)\hookrightarrow U$ is a [[proper map]]. 
 
 This is called the **direct image with compact support**.
 
