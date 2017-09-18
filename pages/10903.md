@@ -639,6 +639,9 @@ $$
 
 is discussed in ([[Representability theorems|Lurie, Representability theorems, section 4.2]].)
 
+### Stable homotopy theory of $G$-equivariant spectra
+
+The symmetric monoidal $(\infty,1)$-category (under smash product) of [[G-spectrum|genuine $G$-spectra]]. See [equivariant stable homotopy theory](equivariant+stable+homotopy+theory#in_terms_of_mackeyfunctors).
 
 ## Structures in linear homotopy-type theory
  {#StructuresInLinearHomotopyTypeTheory}
