@@ -5,7 +5,7 @@
 
 ## Idea
 
-The notiuon of [[vector bundle]] in [[algebraic geometry]].
+The notion of [[vector bundle]] in [[algebraic geometry]].
 
 Usually characterized in terms of its [[sheaf]] of [[sections]] on the [[locally ringed site]] (with [[structure sheaf]] $\mathcal{O}$) of the given [[scheme]]: a locally free $\mathcal{O}$-module of finite [[rank]].
 
