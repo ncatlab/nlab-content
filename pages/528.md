@@ -241,6 +241,11 @@ Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod alg
 
 * {#Ravenel86} [[Doug Ravenel]], appendix A1 of _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
+
+[[!redirects Hopf algebras]]
+
 [[!redirects antipode]]
 [[!redirects skew-antipode]]
-[[!redirects Hopf algebras]]
+
+[[!redirects commutative Hopf algebra]]
+[[!redirects commutative Hopf algebras]]
