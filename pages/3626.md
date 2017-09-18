@@ -180,7 +180,7 @@ and the commutative law looks like this:
 
 [[commutative_law.jpg:pic]]
 
-The PROP for _special_ commutative Frobenius algebras is Span(FinSet), as proved by Rosebrugh, Sabadini and Walters.  This is worth comparing to the PROP for commutative [[bialgebra|bialgebras]], which is Cospan(FinSet).  For details, see [Rosebrugh et al (2005)](#Rosebrugh2005), and also [Lack (2004)](#Lack2004).  
+The PROP for _special_ commutative Frobenius algebras is Cospan(FinSet), as proved by Rosebrugh, Sabadini and Walters.  This is worth comparing to the PROP for commutative [[bialgebra|bialgebras]], which is Span(FinSet).  For details, see [Rosebrugh et al (2005)](#Rosebrugh2005), and also [Lack (2004)](#Lack2004).  
 
 A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to the genus of a 2-manifold, since in terms of pictures, the 'specialness' axioms $m \circ \delta = 1$ says that
 
