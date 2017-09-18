@@ -1,12 +1,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
+=--
 #### Representation theory
 +-- {: .hide}
 [[!include representation theory - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
