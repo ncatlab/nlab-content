@@ -105,6 +105,9 @@ The so-called "[[over-topos|fundamental theorem of topos theory]]", that an [[ov
  
 * [[Peter Johnstone]], _When is a variety a topos?_, Algebra Universalis, 21 (1985) 198-212
 
+* [[Peter Johnstone]], _Collapsed toposes and cartesian closed varieties_, [link](http://www.sciencedirect.com/science/article/pii/002186939090230L)
+
+* [[Peter Johnstone]], _Cartesian monads on toposes_, [link](http://www.sciencedirect.com/science/article/pii/S002240499600165X)
 
 [[!redirects topos of coalgebras over a comonad]]
 
