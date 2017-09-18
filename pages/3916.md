@@ -93,7 +93,7 @@ $$
   S^{n+k} \longrightarrow M O(k)
 $$
 
-from to the $k$th space in the [[Thom spectrum]] $M O$. This hence defines an element in the [[homotopy group of a spectrum|homotopy group]] $\pi_{k}(M O)$ of the [[Thom spectrum]]. [[Thom's theorem]] says that all elements in thehomotopy groups of $M O$ arise this way, and that they retain precisely the information of the [[cobordism]] [[equivalence class]] of manifolds $X$. 
+from to the $k$th space in the [[Thom spectrum]] $M O$. This hence defines an element in the [[homotopy group of a spectrum|homotopy group]] $\pi_{k}(M O)$ of the [[Thom spectrum]]. [[Thom's theorem]] says that all elements in the homotopy groups of $M O$ arise this way, and that they retain precisely the information of the [[cobordism]] [[equivalence class]] of manifolds $X$. 
  
 In this case the refined Thom collapse map of def. \ref{RefinedCollapseMap} is of the form
 
@@ -298,6 +298,8 @@ with an emphases on [[parameterized spectra]].
 [[!redirects Thom collaps map]]
 [[!redirects Thom collaps maps]]
 
+[[!redirects Pontrjagin-Thom collapse]]
+[[!redirects Pontryagin-Thom collapse]]
 [[!redirects Thom collapse]]
 
 [[!redirects Pontryagin-Thom collapse map]]
