@@ -1,4 +1,4 @@
 
-* [website](http://www.math.ucla.edu/~antieau)
+* [website](http://www.math.washington.edu/~bantieau/)
 
 category: people
