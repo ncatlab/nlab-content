@@ -6492,6 +6492,8 @@ With classical topological homotopy theory in hand (theorem \ref{TopQuillenModel
 
 Technically, "topological diagram" here means "[[Top]]-[[enriched functor]]". We now discuss what this means and then observe that as an immediate corollary of theorem \ref{TopQuillenModelStructure} we obtain a model category structure on topological diagrams.
 
+As a by-product, we obtain the model category theory of [[homotopy colimits]] in topological spaces, which will be useful.
+
 In the following we say _[[Top]]-[[enriched category]]_ and _[[Top]]-[[enriched functor]]_ etc. for what often is referred to as "[[topological category]]" and "[[topological functor]]" etc. As discussed there, these latter terms are ambiguous.
 
 **Literature** ([[Categorical Homotopy Theory|Riehl, chapter 3]]) for basics of [[enriched category theory]]; ([Piacenza 91](#Piacenza91)) for the [[projective model structure on functors|projective model structure on topological functors]].
@@ -7084,11 +7086,10 @@ These are [[cofibrantly generated model category]], def. \ref{CofibrantlyGenerat
 
 By prop. \ref{TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits} the category has all limits and colimits, hence it remains to check the model structure
 
-But via the enriched Yoneda lemma, prop. \ref{TopologicallyEnrichedYonedaLemma}, proving that reduces objectwise to the proof of theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}:
-
+But via the enriched Yoneda lemma (prop. \ref{TopologicallyEnrichedYonedaLemma}) it follows that proving the model structure reduces objectwise to the proof of theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}.
 In particular, the technical lemmas \ref{CompactSubsetsAreSmallInCellComplexes}, \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and \ref{AcyclicSerreFibrationsAreTheJTopFibrations} generalize immediately to the present situation, with the evident small change of wording:
 
-For instance the fact that a morphism of topologically enriched functors $\eta \colon F \to G$ that has the right lifting property against the elements of $I_{Top}^{\mathcal{C}}$ is a projective weak equivalence, follows by noticing that the [[enriched Yoneda lemma]] prop. \ref{TopologicallyEnrichedYonedaLemma} gives a [[natural bijection]] of commuting diagrams (and their fillers) of the form
+For instance, the fact that a morphism of topologically enriched functors $\eta \colon F \to G$ that has the right lifting property against the elements of $I_{Top}^{\mathcal{C}}$ is a projective weak equivalence, follows by noticing that the [[enriched Yoneda lemma]] prop. \ref{TopologicallyEnrichedYonedaLemma} gives a [[natural bijection]] of commuting diagrams (and their fillers) of the form
 
 $$
   \left(
@@ -7115,7 +7116,7 @@ $$
 
 and hence the statement follows with part A) of the proof of lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
 
-With these three lemmas in hand, the remaining formal part of the proof goes through verbatim as [above](#VerificationOfTopQuillen): repeatedly use the [[small object argument]] and the [[retract argument]] to establish the two weak factorization systems. (While again the structure of a [[category with weak equivalences]] is evident.)
+With these three lemmas in hand, the remaining formal part of the proof goes through verbatim as [above](#VerificationOfTopQuillen): repeatedly use the [[small object argument]] (prop. \ref{SmallObjectArgument}) and the [[retract argument]] (prop. \ref{RetractArgument}) to establish the two [[weak factorization systems]]. (While again the structure of a [[category with weak equivalences]] is evident.)
 
 =--
 
@@ -7145,9 +7146,216 @@ $$
 
 is also also known as the **strict [[model structure for excisive functors]]**. (This terminology is the special case for $n = 1$ of the terminology "[[n-excisive functors]]" as used in "[[Goodwillie calculus]]", a homotopy-theoretic analog of [[differential calculus]].)  After enlarging its class of weak equivalences while keeping the cofibrations fixed, this will become [[Quillen equivalence|Quillen equivalent]] to a [[model structure for spectra]]. This we discuss in the next section, _[[Introduction to Stable homotopy theory -- 1]]_.
 
+=--
+
+#### Homotopy colimits of topological spaces
+
+One consequence of theorem \ref{ProjectiveModelStructureOnTopologicalFunctors} is the model category theoretic incarnation of the theory of _[[homotopy colimits]]_.
+
+Observe that ordinary [[limits]] and [[colimits]] (def. \ref{LimitsAndColimits}) are equivalently characterized in terms of [[adjoint functors]]:
+
+Let $\mathcal{C}$ be any [[category]] and let $I$ be a [[small category]]. Write $[I,\mathcal{C}]$ for the corresponding [[functor category]]. We may think of its objects as $I$-shaped [[diagrams]] in $\mathcal{C}$, and of its morphisms as homomorphisms of these diagrams.  There is a canonical functor
+
+$$
+  const_I
+  \;\colon\;
+  \mathcal{C} \overset{}{\longrightarrow} [I,\mathcal{C}]
+$$
+
+which sends each object of $\mathcal{C}$ to the diagram that is constant on this object. Inspection of the definition of the [[universal properties]] of [[limits]] and [[colimits]] on one hand, and of [[left adjoint]] and [[right adjoint]] functors on the other hand, shows that 
+
+1. precisely when $\mathcal{C}$ has all [[colimits]] of shape $I$, then the functor $const_I$ has a [[left adjoint]] functor, which is the operation of forming these colimits:
+
+   $$
+     [I,\mathcal{C}]
+       \underoverset
+        {\underset{const_I}{\longleftarrow}}
+        {\overset{\underset{\longrightarrow}{\lim}_I}{\longrightarrow}}
+        {\bot}
+     \mathcal{C}
+   $$
+
+1. precisely when $\mathcal{C}$ has all [[limits]] of shape $I$, then the functor $const_I$ has a [[right adjoint]] functor, which is the operation of forming these limits.
+
+   $$
+     [I,\mathcal{C}]
+       \underoverset
+        {\underset{\underset{\longleftarrow}{\lim}_I}{\longrightarrow}}
+        {\overset{const_I}{\longleftarrow}}
+        {\bot}
+     \mathcal{C}
+   $$
+
++-- {: .num_prop #ColimitIsLeftQuillenOfProjectiveModelStructureOnFunctors}
+###### Proposition
+
+Let $I$ be a [[small category|small]] [[topologically enriched category]] (def. \ref{TopEnrichedCategory}). Then the $(\underset{\longrightarrow}{\lim}_I \dashv const_I)$-[[adjunction]]
+
+$$
+  [I,(Top_{cg})_{Quillen}]_{proj}
+    \underoverset
+      {\underset{const_I}{\longleftarrow}}
+      {\overset{\underset{\longrightarrow}{\lim}_I}{\longrightarrow}}
+      {\bot}
+  (Top_{cg})_{Quillen}
+$$
+
+is a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}) between the [[projective model structure on enriched functors|projective model structure on topological functors]] on $I$, from theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, and the [[classical model structure on topological spaces]] from theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}.
+
+Similarly, if $I$ is [[enriched category|enriched]] in [[pointed topological spaces]], then for the [[classical model structure on pointed topological spaces]] (prop. \ref{ModelStructureOnSliceCategory}, theorem 
+\ref{CofibrantGenerationOfPointedTopologicalSpaces}) the adjunction
+
+$$
+  [I,(Top^{\ast/}_{cg})_{Quillen}]_{proj}
+    \underoverset
+      {\underset{const}{\longleftarrow}}
+      {\overset{\underset{\longrightarrow}{\lim}}{\longrightarrow}}
+      {\bot}
+  (Top^{\ast/}_{cg})_{Quillen}
+$$
+
+is a Quillen adjunction.
+
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Since the fibrations and weak equivalences in the projective model structure (def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors}) on the functor category are objectwise those of $(Top_{cg})_{Quillen}$ and of $(Top^{\ast/}_{cg})_{Quillen}$, respectively, it is immediate that the functor $const_I$ preserves these. In particular it preserves fibrations and acyclic fibrations and so the claim follows (prop. \ref{ConditionsOnQuillenAdjunctionAreIndeedEquivalent}).
+
+=--
+
+
++-- {: .num_defn #LeftDerivedFunctorOfColimitFunctor}
+###### Definition
+
+In the situation of prop. \ref{ColimitIsLeftQuillenOfProjectiveModelStructureOnFunctors} we say that the [[left derived functor]] (def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) of the [[colimit]] functor is the **[[homotopy colimit]]**
+
+$$
+  hocolim_I
+    \coloneqq
+  \mathbb{L}\underset{\longrightarrow}{\lim}_I
+    \;\colon\;
+  Ho([I,Top])
+    \longrightarrow
+  Ho(Top)
+$$
+
+and
+
+$$
+  hocolim_I
+    \coloneqq
+  \mathbb{L}\underset{\longrightarrow}{\lim}_I
+    \;\colon\;
+  Ho([I,Top^{\ast/}])
+    \longrightarrow
+  Ho(Top^{\ast/})
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Since every object in $(Top_{cg})_{Quillen}$ and in $(Top^{\ast/}_{cg})_{Quillen}$  is fibrant, the [[homotopy colimit]] of any diagram $X_\bullet$, according to def. \ref{LeftDerivedFunctorOfColimitFunctor}, is (up to [[weak homotopy equivalence]]) the result of forming the ordinary [[colimit]] of any [[projectively cofibrant diagram|projectively cofibrant]] replacement $\hat X_\bullet \overset{\in W_{proj}}{\to} X_\bullet$.
+
+=--
+
++-- {: .num_example #ProjectiveModelStructureOnNSequencesOfTopologicalSpaces}
+###### Example
+
+Write $\mathbb{N}^{\leq}$ for the [[poset]] (def. \ref{PosetsWosetTosetsAndOrdinals}) of [[natural numbers]], hence for the [[small category]] (with at most one morphism from any given object to any other given object) that looks like
+
+$$
+  \mathbb{N}^{\leq}
+  =
+  \left\{
+    0 \to 1 \to 2 \to 3 \to \cdots
+  \right\}
+  \,.
+$$
+
+Regard this as a [[topologically enriched category]] with the, necessarily, [[discrete topological space|discrete topology]] on its [[hom-sets]].
+
+Then a [[topologically enriched functor]]
+
+$$
+  X_\bullet 
+    \;\colon\; 
+  \mathbb{N}^{\leq}
+    \longrightarrow
+  Top_{cg}
+$$
+
+is just a plain functor and is equivalently a sequence of [[continuous functions]] (morphisms in $Top_{cg}$) of the form (also called a _[[cotower]]_)
+
+$$
+ X_0 
+   \overset{f_0}{\longrightarrow}
+ X_1
+   \overset{f_1}{\longrightarrow}
+ X_2
+   \overset{f_2}{\longrightarrow}
+ X_3
+   \longrightarrow 
+ \cdots
+ \,.
+$$
+
+It is immediate to check that those sequences $X_\bullet$ which are cofibrant in the projective model structure (theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}) are precisely those for which
+
+1. all component morphisms $f_i$ are cofibrations in $(Top_{cg})_{Quillen}$ or $(Top^{\ast/}_{cg})_{Quillen}$, respectively;
+
+1. the object $X_0$, and hence all other objects, are cofibrant.
+
+=--
+
+By example \ref{ProjectiveModelStructureOnNSequencesOfTopologicalSpaces} it is immediate that the operation of forming colimits sends projective (acyclic) cofibrations between sequences of topological spaces to (acyclic) cofibrations in the [[classical model structure on pointed topological spaces]]. But in fact it so happens in this example that more is true:
+
++-- {: .num_prop}
+###### Proposition
+
+In the [[projective model structure on functors|projective model structures]] on [[cotowers]] in topological spaces, $[\mathbb{N}^{\leq}, (Top_{cg})_{Quillen}]_{proj}$ and $[\mathbb{N}^{\leq}, (Top^{\ast/}_{cg})_{Quillen}]_{proj}$ from def. \ref{ProjectiveModelStructureOnNSequencesOfTopologicalSpaces}, the following holds:
+
+1. the [[colimit]] functor preserves fibrations between sequences of [[relative cell complex]] inclusions;
+
+1. Let $I$ be a [[finite category]], let $D_\bullet(-) \colon I \to [\mathbb{N}^{\leq}, Top_{cg}]$ be a finite [[diagram]] of sequences of relative cell complexes. Then every weak equivalence of the form
+
+   $$
+     X_\bullet 
+       \overset{\in W_{proj}}{\longrightarrow}
+     \underset{\longrightarrow}{\lim}_I D
+   $$
+
+   yields a [[weak homotopy equivalence]] of the form
+
+   $$
+     \underset{\longrightarrow}{\lim}_{n \in \mathbb{N}} X_n
+      \overset{\in W_{cl}}{\longrightarrow}
+     \underset{\longleftarrow}{\lim}_{i \in I}
+     \left(
+       \underset{\longrightarrow}{\lim}_{n \in \mathbb{N}} D_n(i)
+     \right)
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first statement:
+
+Use that both $(Top_{cg})_{Quillen}$ and $(Top^{\ast/}_{cg})_{Quillen}$ are [[cofibrantly generated model categories]] (theorem \ref{CofibrantGenerationOfPointedTopologicalSpaces}) whose generating acyclic cofibrations have [[compact topological spaces]] as [[domains]] and [[codomains]]. The colimit over a sequence of relative cell complexes (being a [[transfinite composition]]) yields another [[relative cell complex]], and hence lemma \ref{CompactSubsetsAreSmallInCellComplexes} says that every morphism out of the domain or codomain of a generating acyclic cofibration into this colimit factors through a finite stage inclusion. Since a projective fibration is a degreewise fibration, we have the [[lifting property]] at that finite stage, and hence also the lifting property against the morphisms of colimits.
+
+Regarding the second statement:
+
+We need to show that we have a [[weak homotopy equivalence]]. Since the [[n-spheres]] are [[compact topological spaces]], we may factor the maps out of them through finite stages of the colimit. This reduces the statement to the statement in [[Set]] that [[finite limits]] commute with [[sequential colimits]], and this is a standard fact (finite limits in $Set$ commute with all [[filtered colimits]]).
+ 
+=--
 
 
 
