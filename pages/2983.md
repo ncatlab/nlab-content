@@ -21,18 +21,9 @@ See also
 ## Introduction 
 
 This page is intended to be a supplementary exposition of the page [[toddtrimble:Buildings for category theorists]], at least for now. So we will try to explain the aspects of buildings that the kind reader would like to know in order to understand the category theoretic construction over there.
-The notion of a building relies heavily on that of a Coxeter group, which we will not explain here, see for example
-
-* [[Wikipedia: [Coxeter groups] (http://en.wikipedia.org/wiki/Coxeter_group) ]]
-
-and especially, for an elementary and readable introduction,
-
-* [[Humphreys, James E.: Reflection groups and Coxeter groups.(Cambridge Studies in Advanced Mathematics 29, 1990, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0725.20028&format=complete
-) )]]
-
-Taking the notion of Coxeter groups for granted, there are currently three different viewpoints of thinking about a building. 
-From now on, let W be a Coxeter group and S the set of generators, which may be finite or infinite: In case we need S to be finite we will mention it explicitly. We will call the tuple (W, S) a **Coxeter system** and let $l_S$ be the **length function**
- of W with respect to S.
+The notion of a building relies heavily on that of a [[Coxeter group]]. Then there are currently three different viewpoints of thinking about a building. 
+From now on, let $W$ be a Coxeter group and $S$ the set of generators, which may be finite or infinite: In case we need $S$ to be finite we will mention it explicitly. We will call the tuple $(W, S)$ a **Coxeter system** and let $l_S$ be the **length function**
+ of $W$ with respect to $S$.
 
 ### Buildings from three Viewpoints
 
