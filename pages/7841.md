@@ -94,7 +94,7 @@ $w_3(X)=x_1^3+3x_3$
 
 $w_4(X)=x_1^4+2x_2^2+4x_4$
 
-and in general $\displaystyle w_n(X)=\sum_{d|n} dx_n^{n/d}$. The value $w_n(w)$ of the $n$-th Witt polynomial in some element $w\in W(k)$ of the Witt ring of $k$ is sometimes called the *$n$-th phantom component of $w$* or *the $n$-th ghost component of $w$.
+and in general $\displaystyle w_n(X)=\sum_{d|n} dx_d^{n/d}$. The value $w_n(w)$ of the $n$-th Witt polynomial in some element $w\in W(k)$ of the Witt ring of $k$ is sometimes called the *$n$-th phantom component of $w$* or *the $n$-th ghost component of $w$.
 
 
 Now let $\phi(z_1, z_2)\in\mathbb{Z}[z_1, z_2]$. This just an arbitrary two variable polynomial with coefficients in $\mathbb{Z}$. 
