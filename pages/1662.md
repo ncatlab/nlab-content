@@ -21,9 +21,9 @@ Given a [[function]] $f: X \to Y$ and a [[subset]] $S$ of $Y$, the __preimage__ 
 
 That is,
 $$ f^*(S) = \{ a: X \;|\; f(a) \in S \} .$$
-The traditional notation for $f^*$ is $f^{-1}$, but this can conflict the notation for an [[inverse function]] of $f$ (which indeed might not even exist).  This then suggests $f_*$ for the [[image]] of $f$.
+The traditional notation for $f^*$ is $f^{-1}$, but this can conflict with the notation for an [[inverse function]] of $f$ (which indeed might not even exist).  This then suggests $f_*$ for the [[image]] of $f$.
 
-We borrow $f^*$ from a notation for [[pullbacks]], and indeed a preimage is an example of a pullback:
+We borrow $f^*$ from a notation for [[pullbacks]], and indeed, a preimage is an example of a pullback:
 $$ \array {
 f^*(S)     & \hookrightarrow & X \\
 \downarrow &                 & \downarrow f \\
@@ -36,7 +36,7 @@ S          & \hookrightarrow & Y
 
 * [[interactions of images and pre-images with unions and intersections]]:
 
-  * [[pre-images preserve unions and intersections]]
+  * [[pre-images preserve unions and intersections]] (a general reason for this being that unions are colimits, intersections are limits, and $f^\ast$ is simultaneously a left- and a right-adjoint: $f^\ast$ is right-adjoint to the [[existential image]] and left-adjoint to the [[universal image]])
 
 
 ## Related concepts
