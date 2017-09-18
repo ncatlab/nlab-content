@@ -21,6 +21,10 @@
 
 A [[model structure on spectra]] for [[symmetric spectra]]
 
+The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] of spectra, with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] symmetric spectra.
+
+
+
 ## Related concepts
 
 [[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
@@ -34,8 +38,8 @@ A [[model structure on spectra]] for [[symmetric spectra]]
 
 ## References
 
-* [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv:0004051](http://arxiv.org/abs/math/0004051))
- {#Hovey00}
+* {#Hovey00} [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv:0004051](http://arxiv.org/abs/math/0004051))
+ 
 
 * [[Stefan Schwede]], _Symmetric spectra_ ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
