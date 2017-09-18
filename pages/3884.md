@@ -66,6 +66,10 @@ For instance models such as the [[G2-MSSM]] consist entirely of pure [[11d super
 
 
 
+## Related concepts
+
+* [[Wheeler superspace]]
+
 
 ## References
 
