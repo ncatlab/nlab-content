@@ -184,7 +184,7 @@ Given a complex oriented cohomology theory $(E^\bullet, c^E_1)$ according to def
 ###### Proof
 
 We may realize the [[classifying space]] $B U(1)$ as the infinite [[complex projective space]] $\mathbb{C}P^\infty = \underset{\longleftarrow}{\lim}_n \mathbb{C}P^n$ ([exmpl.](classifying+space#RealComplexProjectiveSpaceAsGrassmannian)).
-There is a standard [[CW-complex]]-structure on the [[classifying space]] $\mathbb{C}P^\infty$, given by inductively identifying $\mathbb{C}P^{n+1}$ with the result of attaching a single $2n$-cell to $\mathbb{C}P^n$ ([prop.](complex+projective+space#CellComplexStructure)). With this structure, the unique 2-cell inclusion $i \;\colon\; S^2 \hookrightarrow \mathbb{C}P^\infty$ is identified with the canonical map $S^2 \to B U(1)$.
+There is a standard [[CW-complex]]-structure on the [[classifying space]] $\mathbb{C}P^\infty$, given by inductively identifying $\mathbb{C}P^{n+1}$ with the result of attaching a single $2n$-cell to $\mathbb{C}P^n$ ([prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace)). With this structure, the unique 2-cell inclusion $i \;\colon\; S^2 \hookrightarrow \mathbb{C}P^\infty$ is identified with the canonical map $S^2 \to B U(1)$.
 
 Then consider the [[Atiyah-Hirzebruch spectral sequence]] for the $E$-cohomology of $\mathbb{C}P^n$. 
 
