@@ -25,6 +25,19 @@ $$
 
 ## Examples
 
+### Of the exponential function
+
+For the [[exponential function]] the Mellin transform is proportional to the inverse [[power]] $(-)^{-s}$
+
+$$
+  \int_0^\infty \tau^{s-1} \exp(-\tau A) \,d\tau
+  =
+  (s-1)! \, A^{-s}
+  \,.
+$$
+
+In [[physics]] (in [[Feynman diagram]] [[perturbation theory]]) thinking of $A^{-1}$ as a [[Feynman propagator]], this formula is known as the _[[Schwinger parameterization]]_ for $A^{-s}$, leading to the "[[worldline formalism]]". See below at _[1-Loop amplitudes](#1LoopVacuumAmplitudes)_.
+
 ### Zeta functions
 
 A [[zeta function]]/[[L-function]] is the [[analytic continuation]] of the Mellin transform of the corresponding [[theta function]].
@@ -36,6 +49,7 @@ $$ \hat \zeta(s) = \int_0^\infty t^{s-1} \hat \theta(t) \, d t $$
 More generally, the Mellin transform appears as a stage in the expression of [[zeta functions]] as [[adelic integrals]] in [[Iwasawa-Tate theory]].
 
 ### 1-loop vacuum amplitudes
+ {1LoopVacuumAmplitudes}
 
 [[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _[[Schwinger parameter]]_ and the Mellin transform turns the [[worldline formalism]]-picture into the [[Feynman propagator]]-picture.
 
@@ -61,6 +75,10 @@ $$ Tr H^{-s} = \int_0^\infty t^{s-1} Tr\, \exp(- t H) \, d t \,. $$
 
 * Wikipedia, _[Mellin transform](http://en.wikipedia.org/wiki/Mellin_transform)_
 
+* Wikipedia, _[Schwinger parameterzation](https://en.wikipedia.org/wiki/Schwinger_parametrization)_
+
+* [[Joel Shapiro]], _Schwinger trick and Feynman parameter_, 2007 ([pdf](https://www.physics.rutgers.edu/grad/615/lects/schwingertrick.pdf))
+
 For the [[adelic integral]]-version see at _[[Iwasawa-Tate theory]]_.
 
 For [[function fields]]:
@@ -77,3 +95,9 @@ For the appearance in  [[physics]] as integrals over [[Schwinger parameters]] pr
 
 [[!redirects Schwinger parameter]]
 [[!redirects Schwinger parameters]]
+
+[[!redirects Schwinger parameterization]]
+[[!redirects Schwinger parameterizations]]
+
+[[!redirects Schwinger parameterisation]]
+[[!redirects Schwinger parameterisations]]
