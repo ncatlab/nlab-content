@@ -18,7 +18,7 @@
 
 The _Helmholtz operator_ ([Helmholtz 87](#Helmholtz87)) is a map from [[partial differential equations]] (on [[sections]] of some [[bundle]]) to [[differential operators]] (on sections of that bundle) with the property that locally its [[kernel]] consists precisely of those [[PDEs]] which are _variational_ in that there is a [[local Lagrangian density]] such that the PDE is the [[Euler-Lagrange equation]] which says that the variational of this Lagrangian (equivalently: of the [[action functional]] that it induces) vanishes.
 
-In modern terminology this says that together with the [[Eulern-Lagrange operator]] the Helholtz operator constitutes a [[chain complex]] of [[abelian sheaves]] (namely of [[differential forms]] on a [[jet bundle]]) which is locally [[long exact sequence|exact]]. In fact this extends in both directions to a locally [[long exact sequence]] of forms on the jet bundle, called the [[Euler-Lagrange complex]]. See there for more.
+In modern terminology this says that together with the [[Euler-Lagrange operator]] the Helmholtz operator constitutes a [[chain complex]] of [[abelian sheaves]] (namely of [[differential forms]] on a [[jet bundle]]) which is locally [[long exact sequence|exact]]. In fact this extends in both directions to a locally [[long exact sequence]] of forms on the jet bundle, called the [[Euler-Lagrange complex]]. See there for more.
 
 ## Details
 
