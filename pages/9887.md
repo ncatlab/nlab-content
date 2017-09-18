@@ -105,16 +105,49 @@ which are [[strong monoidal functors]] (by [this example](pointed+object#WedgeAn
 
 $$
   \mathbb{S}[-]
-    \;\colon\;
+    \;\colon
   \Sigma^\infty((-)_+)
 $$
 
-hence takes [[H-spaces]] and in particular [[H-groups]] $G$ to [[ring spectra]]. We call
+hence takes [[H-spaces]] and in particular [[H-groups]] $G$ to [[ring spectra]].
+
+More in detail, an [[H-space]] structure is a $G \in Ho(Top)$ equipped with morphisms
+
+$\mu \;\colon\; G \times G \longrightarrow G$
+
+$e \;\colon\; \ast \longrightarrow G$
+
+satisfiny [[associativity]] and [[unitality]] in $Ho(Spectra)$, and the corresponding ring spectrum has product
+
+$$
+
+  \left(\Sigma^\infty(G_+)\right)
+    \wedge 
+  \left( \Sigma^\infty G_+\right)
+   \;\simeq\;
+  \Sigma^\infty( (G \times G)_+ )
+    \overset{\Sigma^\infty (e_+)}{\longrightarrow}
+  \Sigma^\infty (G_+)
+$$ 
+
+and unit
+
+$$
+  \mathbb{S}
+    \simeq
+  \Sigma^\infty( \ast_+)
+    \overset{ \Sigma^\infty(e_+) }{\longrightarrow}
+  \Sigma^\infty(G_+)
+$$
+
+
+We call
 
 $$
   \mathbb{S}[G] \coloneqq \Sigma^\infty(G_+)
 $$
 
+eqipped with this monoid structure
 the _[[H-group ring spectrum]]_ of $G$. See [there](∞-group+∞-ring#HGroupRingSpectra) for more.
 
 One such [[H-group]] is the _[[circle 2-group]]_, hence (the [[homotopy type]] of) the [[classifying space]] $B U(1)$ for [[complex line bundles]], equivalently the [[Eilenberg-MacLane space] $K(\mathbb{Z},2)$, canonically presented by the [[complex projective space]] $\mathbb{C}P^\infty$
@@ -150,6 +183,49 @@ $$
   \,.
 $$
 
+Observe that we have a splitting 
+
+$$
+  \Sigma^\infty(B U(1)_+)
+   \;\simeq\;
+  \left(
+    \Sigma^\infty (B U(1))
+  \right)
+    \;\oplus\;
+  \mathbb{S}
+$$
+
+(by [this remark](∞-group+∞-ring#HGroupRingSpectrumSplitsAsDirectSumWithSphereSpectrum)) and hence a canonical morphism
+
+$$
+  \Sigma^\infty (B U(1))
+    \longrightarrow
+  \Sigma^\infty (B U(1)_+)
+  \,.
+$$
+
+Via this plitting the morphism in $Ho(Top^{\ast/})$
+
+$$
+  h \colon S^2 \longrightarrow B U(1)
+$$
+
+in $[S^2, B U(1)] \simeq \pi_2(B U(1)) \simeq \mathbb{Z}$ which classifies the [[basic complex line bundle on the 2-sphere]] and represents $1 \in \mathbb{Z}$, induces a morphism 
+
+$$
+  \beta
+    \;\colon\;
+  \Sigma^2 \mathbb{S}
+    \simeq
+  \Sigma^\infty S^2
+    \overset{ \Sigma^\infty( h ) }{\longrightarrow}
+  \Sigma^\infty B U(1)
+    \overset{}{\longrightarrow}
+  \Sigma^\infty (B U(1)_+)
+$$
+
+in $[\mathbb{S}, \Sigma^\infty(B U(1)_+)]_2$.
+
 For $A,B \in Ho(Spectra)$ two [[spectra]], we write
 
 $$
@@ -175,7 +251,7 @@ is a graded ring, with the product of elements
 $$
   \left(
     \Sigma^{n_i} \Sigma^\infty X
-     \overset{e_i}{\longrightarrow}
+     \overset{\alpha_i}{\longrightarrow}
    \Sigma^\infty(G_+)
   \right)
   \;\in\;
@@ -198,7 +274,7 @@ $$
   \left(
      \Sigma^{n_2} \Sigma^\infty X
   \right)
-    \overset{ e_1 \wedge e_2 }{\longrightarrow}
+    \overset{ \alpha_1 \wedge \alpha_2 }{\longrightarrow}
   \left(
     \Sigma^\infty (G_+)
   \right)
@@ -206,13 +282,27 @@ $$
   \left(
     \Sigma^\infty (G_+)
   \right)
-    \overset{\mu}{\longrightarrow}
+    \overset{\Sigma^\infty (\mu_+)}{\longrightarrow}
   \Sigma^\infty (G_+)
   \,.
 $$
 
 Here the isomorphism on the left is the combination of the strong monoidalness of $\Sigma^\infty$ with the respect of suspension $\Sigma$ for the smash product of spectra (the [[tensor triangulated category]] structure on $Ho(Spectra)$, [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)).
 
+
+Given
+
+$$
+  S^n \longrightarrow G
+$$
+
+$$
+  \Sigma^2 \Sigma^\infty X
+    \simeq
+  \Sigma^\infty S^2 \wedge \Sigma^\infty X
+    \simeq
+  \Sigma^\infty( S^2 \wedge X )
+$$
 
 
 #### On representing spectra
