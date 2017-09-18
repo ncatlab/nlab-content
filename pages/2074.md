@@ -320,16 +320,16 @@ Similarly, the $n$-cells of $Map_S^\sharp(X,Y^\natural)$ are morphisms $X \times
 We have a sequence of [[adjoint functor]]s
 
 $$
-  (-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\natural} \dashv (-)^{\natural}
+  (-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}
   :
   \array{ 
     & \stackrel{(-)^{\flat}}{\to} & 
     \\ 
     & \stackrel{(-)^{\flat}}{\leftarrow} & 
     \\ 
-    sSet & \stackrel{(-)^{\natural}}{\to} & sSet^+ 
+    sSet & \stackrel{(-)^{\sharp}}{\to} & sSet^+ 
     \\ 
-    & \stackrel{(-)^{\natural}}{\leftarrow} & 
+    & \stackrel{(-)^{\sharp}}{\leftarrow} & 
   }
 $$
  
