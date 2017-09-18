@@ -192,8 +192,8 @@ $$
   \,.
 $$
 
-Now since the [[natural numbers]] under [[addition]] are just a [[monoid]] ([[semi-group]] with [[unitality|unit]]), with no element except zero having an [[inverse element]] under the additive operation, it follows immediately that a necessary condition for the [[isomorphism class]] of a [[topological vector bundle]] to be invertible under [[direct sum of vector bundles]] is that its [[rank of a vector bundle]] be zero. But there is only one such class of vector bundles, in fact there is only one such vector bundle, 
-namely the unique rank-zero bundle $X \times k^0$, necessarily a [[trivial bundle]].
+Now since the [[natural numbers]] under [[addition]] are just a [[monoid]] ([[semi-group]] with [[unitality|unit]]), with no element except zero having an [[inverse element]] under the additive operation, it follows immediately that a necessary condition for the [[isomorphism class]] of a [[topological vector bundle]] to be invertible under [[direct sum of vector bundles]] is that its [[rank of a vector bundle]] be zero. But there is only one such class of vector bundles, in fact there is only one such vector bundle,
+namely the unique rank-zero bundle $X \times k^0$, necessarily a [[trivial vector bundle]].
 
 Now for the [[monoid]] of [[natural numbers]] $(\mathbb{N},+)$ it is a time honored fact that it is interesting and useful to rectify its failure of being a [[group]] by [[universal construction|universally]] forcing it to become one. This is a process called _[[group completion]]_ and the group completion of the natural numbers is the additive group of [[integers]] $(\mathbb{Z},+)$.
 
@@ -427,7 +427,7 @@ We consider next the image of plain vector bundles in [[virtual vector bundles]]
 Let $X$ be a [[topological space]]. Define an [[equivalence relation]] $\sim_{stable}$ on [[topological vector bundles]]
 over $X$ by declaring two vector bundles $E_1 E_2 \in Vect(X)$ to be equivalent if there exists a
 [[trivial vector bundle]] $X \times k^n$ of some [[rank]] $n$ such that after [[tensor product of vector bundles]]
-with this trivial bundle, both bundles become [[isomorphism|isomorphic]]
+with this [[trivial vector bundle]], both bundles become [[isomorphism|isomorphic]]
 
 $$
   \left(
@@ -719,7 +719,8 @@ If $(X,x)$ is a [[pointed topological space|pointed]] [[compact Hausdorff space]
 of [[reduced K-theory]] groups (def. \ref{KernelReducedKGroup})
 
 $$
-  0 \to \tilde K(X) \hookrightarrow K(X) \overset{const_x^\ast}{\longrightarrow} K(\ast) \simeq \mathbb{Z}
+  0 \to \tilde K(X) \overset{\phantom{AAA}}{\hookrightarrow} K(X) \overset{const_x^\ast}{\longrightarrow} K(\ast) \simeq \mathbb{Z}
+   \to 0
 $$
 
 [[split exact sequence|splits]] and thus yields an [[isomorphism]], which is given by
@@ -738,12 +739,13 @@ $$
 $$
 
 Here on the left we are using prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
-to represent any element of the K-group as a [[virtual vector bundle|virtual]] difference of a vector bundle $E$ by a trivial bundle,
-and $rk_x(E) \in \mathbb{N}$ denotes the [[rank of a vector bundle|rank]] of this vector bundl over the [[connected component]]
+to represent any element of the K-group as a [[virtual vector bundle|virtual]] difference of a vector bundle $E$ by 
+a [[trivial vector bundle]],
+and $rk_x(E) \in \mathbb{N}$ denotes the [[rank of a vector bundle|rank]] of this vector bundle over the [[connected component]]
 of $x \in X$.
 
 Equivalently this means that every element of $K(X)$ decomposes as follows into a
-piece that has vanishing virtual rank over the connected component of $x$ and a virtual trivial bundle.
+piece that has vanishing virtual rank over the connected component of $x$ and a virtual [[trivial vector bundle]].
 
 $$
   [E]- [X \times k^n]
@@ -832,7 +834,7 @@ $$
 ###### Proof
 
 By prop. \ref{KGrupDirectSummandReducedKGroup} $\tilde K(X)$ is the subgroup of the [[Grothendieck group of a commutative monoid|Grothendieck group]] $K(X)$
-on the elements of the form $[E]- [X \times k^{rk_x(E)}]$, which are cleraly entirely determined by
+on the elements of the form $[E]- [X \times k^{rk_x(E)}]$, which are clearly entirely determined by
 $[E] \in Vect(X)_{/\sim}$. Hence we need to check if the equivalence relation of the Gorthendieck
 goup coincides with $\sim_{red}$ on these representatives.
 
@@ -2223,7 +2225,7 @@ if the element $1 \in E(\ast) \simeq \tilde E(S^0)$ is in the image of the pullb
 $$
   \tilde i^\ast \;\colon\; \tilde E^2(B U(1)) \longrightarrow \tilde E^2(S^2) \simeq \tilde E^0(S^0)
   \,.
-$$ 
+$$
 
 If so, then a choice of pre-image $c^E_1 \in E^2(B U(1))$ is a choice of _complex orientation_ ([this def.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheory)).
 
@@ -2231,15 +2233,15 @@ Now for $E = K_{\mathbb{C}}$ being complex topological K-theory regarded as a ge
 as [above](#AsAGeneralizedCohomologyTheory), then by [[Bott periodicity]] (prop. \ref{BottPeriodicity})
 and by $\tilde K_{\mathbb{Z}}(S^2) \simeq \mathbb{Z} \cdot (h-1)$ (example \ref{ComplexTopologicalKTheoryOfTheCircle})
 this reduces to the statement that there is an element $c^K_1 \in \tilde K_{\mathbb{C}}(B U(1))$ such that its image
-under 
+under
 
 $$
   \tilde i^\ast
     \;\colon\;
-  \tilde K_{\mathbb{C}}(B U(1)) 
+  \tilde K_{\mathbb{C}}(B U(1))
     \longrightarrow
-  \tilde K_{\mathbb{C}}(S^2) 
-    \simeq  
+  \tilde K_{\mathbb{C}}(S^2)
+    \simeq
   \mathbb{Z} \cdot (h-1)
 $$
 
@@ -2248,7 +2250,7 @@ and the [[trivial vector bundle|trivial]] [[complex line bundle]] spring.
 
 By the very nature of the [[basic complex line bundle on the 2-sphere]] $h$, it is the restriction of the [[universal complex line bundle]]
 $\mathcal{O}(1)$ on $B U(1) \simeq \mathbb{C}P^\infty$ along the defining cell inclusion $i \colon S^2 \hookrightarrow \mathbb{C}P^\infty \simeq B U(1)$.
-Hence if we set 
+Hence if we set
 
 $$
   c_K^1 \;\coloneqq\; \mathcal{O}(1)-1 \; \in \tilde K_{\mathbb{C}}(B U(1))
@@ -2258,7 +2260,7 @@ then this is a [[complex oriented cohomology|complex orientation]] for complex t
 
 From this we obtain the [[formal group law]] associated with topological K-theory (from [this prop.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheoryFormalGroupLaw)):
 
-By the nature of the [[classifying space]] $B U(1)$ we have that for 
+By the nature of the [[classifying space]] $B U(1)$ we have that for
 
 $$
   \mu \;\colon\; B U(1) \times B U(1) \longrightarrow B U(1)
@@ -2271,7 +2273,7 @@ $$
   \,,
 $$
 
-where 
+where
 
 $$
   pr_i\colon B U(1) \times B U(1) \to B U(1)
@@ -2282,20 +2284,20 @@ are the two [[projections]] out of the [[Cartesian product]]. Hence
 $$
   \begin{aligned}
     \mu^\ast c_1^K
-    &\coloneqq 
+    &\coloneqq
     \mu^\ast (\mathcal{O}(1) - 1)
     \\
       & =
     \left(pr_1^\ast \mathcal{O}(1)\right)  \cdot  \left(pr_2^\ast \mathcal{O}(1)\right) - 1
     \\
-      &  = 
+      &  =
     \left(pr_1^\ast (\mathcal{O}(1) -1)\right) \cdot \left(pr_2^\ast( \mathcal{O}(1) -1)\right)
     + pr_1^\ast \mathcal{O}(1)
     + pr_2^\ast \mathcal{O}(2)
     - 2
     \\
      & =
-    \left(pr_1^\ast (\mathcal{O}(1) -1)\right) \cdot \left(pr_2^\ast( \mathcal{O}(1) -1)\right)  
+    \left(pr_1^\ast (\mathcal{O}(1) -1)\right) \cdot \left(pr_2^\ast( \mathcal{O}(1) -1)\right)
      +
     \left(pr_1^\ast \mathcal{O}(1) - 1\right)
      +
