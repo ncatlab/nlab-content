@@ -655,70 +655,6 @@ On the other hand, without changing any of the following discussion one may just
 
 =--
 
-We take _[[compact topological space]]_ to imply _[[Hausdorff topological space]]_.
-
-+-- {: .num_defn #kTop}
-###### Definition
-
-A [[subspace]] $U \subset X$ of a [[topological space]] $X$ is called **compactly open** or **compactly closed**, respectively, if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space]] the [[preimage]] $f^{-1}(U) \subset K$ is open or closed, respectively.
-
-A topological space $X$ is a **[[compactly generated topological space]]** if each of its compactly closed subspaces is already closed.
-
-Write
-
-$$
-  Top_{cg} \hookrightarrow Top
-$$
-
-for the [[full subcategory]] of [[Top]] on the compactly generated topological spaces.
-
-=--
-
-Often the condition is added that a compactly closed topological space be also a [[weakly Hausdorff topological space]].
-
-+-- {: .num_example #ExamplesOfCompactlyGeneratedTopologiclSpaces}
-###### Example
-
-Examples of [[compactly generated topological spaces]], def. \ref{kTop}, include
-
-* every [[compact space]];
-
-* every [[locally compact space]];
-
-* every [[topological manifold]];
-
-* every [[CW-complex]] (def. \ref{TopologicalCellComplex}); 
-
-* every [[first countable space]]
-
-=--
-
-+-- {: .num_prop #kTopIsCoreflectiveInTop}
-###### Proposition
-
-The [[subcategory]] $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} has the following properties
-
-1. It is a [[coreflective subcategory]]
-
-   $$
-     Top_{cg} \stackrel{\hookrightarrow}{\underset{k}{\longleftarrow}} Top
-     \,.
-   $$
-
-   The coreflection $k(X)$ of a topological space is given by adding to the open subsets of $X$ all compactly open subsets, def. \ref{kTop}.
-
-1. It has all small [[limits]] and [[colimits]].
-
-   The colimits are computed in $Top$, the limits are the image under $k$ of the limits as computed in $Top$.
-
-1. It is a [[cartesian closed category]]. 
-
-   The [[cartesian product]] in $Top_{cg}$ is the image under $k$ of the Cartesian product formed in $Top$.
-
-=--
-
-This is due to ([Steenrod 67](compactly+generated+topological+space#Steenrod67)), expanded on in ([Lewis 78, appendix A](compactly+generated+topological+space#Lewis78)). One says that prop. \ref{kTopIsCoreflectiveInTop} with example \ref{ExamplesOfCompactlyGeneratedTopologiclSpaces} makes $Top_{cg}$ a "[[convenient category of topological spaces]]".
-
 
 
 
@@ -4796,9 +4732,6 @@ The proof of the third and fourth item is directly analogous, just with $J$ repl
 
 
 
-
-
-
 ##### The classical homotopy category
  {#TheClassicalHomotopyCategory}
 
@@ -5026,6 +4959,703 @@ $$
 Inspection of the component maps shows that the left vertical morphism here is the inclusion into the square times $D^n$ of three of its faces times $D^n$. This is homeomorphic to the inclusion $D^{n+1} \to D^{n+1} \times I$ (as in remark \ref{SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions}). Therefore a lift in this square exsists, and hence a lift in the original square exists.
 
 =--
+
+##### Model structure on pointed topological spaces
+
+A _[[pointed object]]_ $(X,x)$ is of course an [[object]] $X$ equipped with a [[point]] $x \colon \ast \to X$, and a morphism of pointed objects $(X,x) \longrightarrow (Y,y)$ is a morphism $X \longrightarrow Y$ that takes $x$ to $y$. Trivial as this is in itself, it is good to record some basic facts, which we do here. 
+
+Passing to pointed objects is also the first step in linearizing classical homotopy theory to [[stable homotopy theory]]. In particular, every category of pointed objects has a [[zero object]], hence has [[zero morphisms]]. And crucially, if the original category had [[Cartesian products]], then its pointed objects canonically inherit a non-cartesian [[tensor product]]: the [[smash product]]. These ingredients will be key below in [Part 1)](#StableHomotopyTheory).
+
++-- {: .num_defn #SliceCategory}
+###### Definition
+
+Let $\mathcal{C}$ be a [[category]] and let $X \in \mathcal{C}$ be an [[object]]. 
+
+The _[[slice category]]_ $\mathcal{C}_{/X}$ is the category whose 
+
+* objects are morphisms $\array{A \\ \downarrow \\ X}$ in $\mathcal{C}$;
+
+* morphisms are [[commuting diagram|commuting triangles]] $\array{ A && \longrightarrow && B \\ & {}_{}\searrow && \swarrow \\ && X}$ in $\mathcal{C}$.
+
+Dually, the _[[coslice category]]_ $\mathcal{C}^{X/}$ is the category whose
+
+* objects are morphisms $\array{X \\ \downarrow \\ A}$ in $\mathcal{C}$;
+
+* morphisms are [[commuting diagram|commuting triangles]] $\array{ && X \\ & \swarrow && \searrow \\ A && \longrightarrow && B }$ in $\mathcal{C}$.
+
+There is the canonical [[forgetful functor]]
+
+$$
+  U \;\colon \; \mathcal{C}_{/X}, \mathcal{C}^{X/} \longrightarrow \mathcal{C}
+$$
+
+given by forgetting the morphisms to/from $X$.
+
+=--
+
+We here focus on this class of examples:
+
++-- {: .num_defn #CategoryOfPointedObjects}
+###### Definition
+
+For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, the [[coslice category]] (def. \ref{SliceCategory}) $\mathcal{C}^{\ast/}$ is the corresponding _[[category of pointed objects]]_: its
+
+* objects are morphisms in $\mathcal{C}$ of the form $\ast \overset{x}{\to} X$ (hence an object $X$ equipped with a choice of point; i.e. a _[[pointed object]]_);
+
+* morphisms are [[commuting diagram|commuting triangles]] of the form
+
+  $$
+    \array{
+       && \ast
+       \\
+       & {}^{\mathllap{x}}\swarrow && \searrow^{\mathrlap{y}}
+       \\
+       X && \overset{f}{\longrightarrow} && Y
+    }
+  $$
+
+  (hence morphisms in $\mathcal{C}$ which preserve the chosen points).
+
+=--
+
++-- {: .num_remark #PointedObjectsHaveZeroObject}
+###### Remark
+
+In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, the [[terminal object]] coincides with the [[initial object]], both are given by $\ast \in \mathcal{C}$ itself, pointed in the unique way. 
+
+In this situation one says that $\ast$ is a _[[zero object]]_ and that $\mathcal{C}^{\ast/}$ is a _[[pointed category]]_. 
+
+It follows that also all [[hom-sets]] $\mathcal{C}^{\ast/}(X,Y)$ of $\mathcal{C}^{\ast/}$ are canonically [[pointed sets]], pointed by the _[[zero morphism]]_
+
+$$
+  0 
+    \;\colon\;
+  X \overset{\exists!}{\longrightarrow} 0 \overset{\exists}{\longrightarrow} Y
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #ModelStructureOnSliceCategory}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]] and let $X \in \mathcal{C}$ be an [[object]]. Then both the [[slice category]] $\mathcal{C}_{/X}$ as well as the [[coslice category]] $\mathcal{C}^{X/}$, def. \ref{SliceCategory}, carry model structures themselves -- the **[[model structure on a slice category|model structure on a (co-)slice category]]**,  where a morphism is a weak equivalence, fibration or cofibration iff its image under the [[forgetful functor]] $U$ is so in $\mathcal{C}$.
+
+In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \ref{CategoryOfPointedObjects}, in a model category $\mathcal{C}$ becomes itself a model category this way. The corresponding [[homotopy category of a model category]], def. \ref{HomotopyCategoryOfAModelCategory}, we call the **[[pointed category|pointed]] [[homotopy category of a model category|homotopy category]]** $Ho(\mathcal{C}^{\ast/})$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The model strcuture as claimed is immediate by inspection.
+
+=--
+
+
++-- {: .num_example #ClassicalPointedHomotopyCategory}
+###### Example
+
+For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$. Its [[homotopy category of a model category]] is the _pointed [[classical homotopy category]]_ $Ho(Top^{\ast/})$. We discuss this in more detail starting with def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} below.
+
+=--
+
++-- {: .num_example #NonDegenerateBasepointAsCofibrantObjects}
+###### Example
+
+The fibrant objects in the pointed model structure $\mathcal{C}^{\ast/}$, prop. \ref{ModelStructureOnSliceCategory}, are those that are fibrant as objects of $\mathcal{C}$.
+
+But the cofibrant objects in $\mathcal{C}^{\ast}$ are now those for which the basepoint inclusion is a cofibration in $X$.
+
+For $\mathcal{C}^{\ast/} = Top^{\ast/}$, then the corresponding cofibrant pointed topological spaces are tyically referred to as spaces _with non-degenerate basepoints_. Notice that the point itself is cofibrant in $Top_{Quillen}$, so that cofibrant pointed topological spaces are in particular cofibrant topological spaces.
+
+=--
+
+
++-- {: .num_example #HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}
+###### Example
+
+For $\mathcal{C}$ any [[model category]], with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model structure]] according to prop. \ref{ModelStructureOnSliceCategory}, then the corresponding [[homotopy category of a model category|homotopy category]] (def. \ref{HomotopyCategoryOfAModelCategory}) is, by remark \ref{PointedObjectsHaveZeroObject}, canonically [[enriched category|enriched]] in [[pointed sets]], in that its [[hom-functor]] is of the form
+
+$$
+  [-,-]_\ast
+  \;\colon\;
+  Ho(\mathcal{C}^{\ast/})^\op
+  \times
+  Ho(\mathcal{C}^{\ast/})
+  \longrightarrow
+  Set^{\ast/}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #BasePointAdjoined}
+###### Definition
+
+Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] given by forming the [[disjoint union]] ([[coproduct]]) with a base point ("adjoining a base point"), this is denoted by
+
+$$
+  (-)_+ \coloneqq (-) \sqcup \ast \;\colon \; \mathcal{C} \longrightarrow \mathcal{C}^{\ast/}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #LimitsAndColimitsOfPointedObjects}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]] with all [[limits]] and [[colimits]]. Then also the [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, has all limits and colimits.
+
+Moreover:
+
+1. the limits are the limits of the underlying diagrams in $\mathcal{C}$, with the base point of the limit induced by its universal property in $\mathcal{C}$;
+
+1. the colimits are the limits in $\mathcal{C}$ of the diagrams _with the basepoint adjoined_.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is immediate to check the relevant [[universal property]]. For details see at _[slice category -- limits and colimits](overcategory#LimitsAndColimits)_.
+
+=--
+
++-- {: .num_example #WedgeSumAsCoproduct}
+###### Example
+
+Given two pointed objects $(X,x)$ and $(Y,y)$, then:
+
+1. their [[product]] in $\mathcal{C}^{\ast/}$ is simply $(X\times Y, (x,y))$;
+
+1. their [[coproduct]] in $\mathcal{C}^{\ast/}$ has to be computed using the second clause in prop. \ref{LimitsAndColimitsOfPointedObjects}: since the point $\ast$ has to be adjoined to the diagram, it is given not by the coproduct in $\mathcal{C}$, but by the [[pushout]] in $\mathcal{C}$ of the form:
+
+   $$
+     \array{
+       \ast &\overset{x}{\longrightarrow}& X
+       \\
+       {}^{\mathllap{y}}\downarrow &(po)& \downarrow
+       \\
+       Y &\longrightarrow& X \vee Y
+     }
+     \,.
+   $$
+
+   This is called the _[[wedge sum]]_ operation on pointed objects.
+
+Generally for a set $\{X_i\}_{i \in I}$ in $Top^{\ast/}$
+
+1. their [[product]] is formed in $Top$ as in example \ref{ProductTopologicalSpace}, with the new basepoint canonically induced;
+
+1. their [[coproduct]] is formed by the [[colimit]] in $Top$ over the diagram with a basepoint adjoined, and is called the [[wedge sum]] $\vee_{i \in I} X_i$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[CW-complex]], def. \ref{TopologicalCellComplex} then for every $n \in \mathbb{N}$ the [[quotient]] (example \ref{QuotientSpaceAsPushout}) of its $n$-skeleton by its $(n-1)$-skeleton is the [[wedge sum]], def. \ref{WedgeSumAsCoproduct}, of $n$-spheres, one for each $n$-cell of $X$:
+
+$$
+  X^n / X^{n-1} \simeq \underset{i \in I_n}{\vee} S^n
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #SmashProductOfPointedObjects}
+###### Definition
+
+For $\mathcal{C}^{\ast/}$ a [[category of pointed objects]] with [[finite limits]] and [[finite colimits]], the _[[smash product]]_ is the [[functor]]
+
+$$
+  (-)\wedge(-)
+  \;\colon\;
+  \mathcal{C}^{\ast/}
+  \times 
+  \mathcal{C}^{\ast/}
+  \longrightarrow
+  \mathcal{C}^{\ast/}
+$$
+
+given by
+
+$$
+  X \wedge Y
+  \;\coloneqq\;
+  \ast
+  \underset{X\sqcup Y}{\sqcup} (X \times Y)
+  \,,
+$$
+
+hence by the [[pushout]] in $\mathcal{C}$
+
+$$
+  \array{
+    X \sqcup Y &\overset{(id_X,y),(x,id_Y) }{\longrightarrow}& X \times Y
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow& X \wedge Y
+  }
+  \,.
+$$
+
+In terms of the [[wedge sum]] from def. \ref{WedgeSumAsCoproduct}, this may be written concisely as
+
+$$
+  X \wedge Y = \frac{X\times Y}{X \vee Y}
+  \,.
+$$
+ 
+=--
+
+These two operations are going to be ubiquituous in [[stable homotopy theory]]:
+
+| symbol | name | category theory |
+|--------|------|-----------------|
+| $X \vee Y$ | [[wedge sum]] | [[coproduct]] in $\mathcal{C}^{\ast/}$ |
+| $X \wedge Y$ | [[smash product]] | [[tensor product]] in $\mathcal{C}^{\ast/}$|
+
++-- {: .num_example #WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}
+###### Example
+
+For $X, Y \in Top$, with $X_+,Y_+ \in Top^{\ast/}$, def. \ref{BasePointAdjoined}, then
+
+* $X_+ \vee Y_+ \simeq (X \sqcup Y)_+$;
+
+* $X_+ \wedge Y_+ \simeq (X \times Y)_+$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{WedgeSumAsCoproduct}, $X_+ \vee Y_+$ is given by the colimit in $Top$ over the diagram
+
+$$
+  \array{
+    && && \ast
+    \\
+    && & \swarrow && \searrow
+    \\
+    X &\,\,& \ast && && \ast &\,\,& Y
+  }  
+  \,.
+$$
+
+This is clearly $A \sqcup \ast \sqcup B$. Then, by definition \ref{SmashProductOfPointedObjects}
+
+$$
+  \begin{aligned}
+    X_+ \wedge Y_+
+    & \simeq
+    \frac{(X \sqcup \ast) \times (X \sqcup \ast)}{(X\sqcup \ast) \vee (Y \sqcup \ast)}
+    \\
+    & \simeq 
+    \frac{X \times Y \sqcup X \sqcup Y \sqcup \ast}{X \sqcup Y \sqcup \ast}
+    \\
+    & \simeq
+    X \times Y \sqcup \ast
+    \,.
+  \end{aligned} 
+$$
+
+=--
+
++-- {: .num_example #StandardReducedCyclinderInTop}
+###### Example
+
+Let $\mathcal{C}^{\ast/} = Top^{\ast/}$ be [[pointed topological spaces]]. Then 
+
+$$
+  I_+ \in Top^{\ast/}
+$$
+
+denotes the standard interval object $I = [0,1]$ from def. \ref{TopologicalInterval}, with a djoint basepoint adjoined, def. \ref{BasePointAdjoined}. Now for $X$ any [[pointed topological space]], then 
+
+$$
+  X \wedge (I_+) = (X \times I)/(\{x_0\} \times I)
+$$
+
+is the **[[reduced cylinder]]** over $X$: the result of forming the ordinary cyclinder over $X$ as in def. \ref{TopologicalInterval}, and then identifying the interval over the basepoint of $X$ with the point.
+
+(Generally, any construction in $\mathcal{C}$ properly adapted to pointed objects $\mathcal{C}^{\ast/}$ is called the "reduced" version of the unpointed construction. Notably so for "[[reduced suspension]]" which we come to [below](#MappingCones).)
+
+
+Just like the ordinary cylinder $X\times I$ receives a canonical injection from the [[coproduct]] $X \sqcup X$ formed in $Top$, so the reduced cyclinder receives a canonical injection from the coproduct $X \sqcup X$ formed in $Top^{\ast/}$, which is the [[wedge sum]] from example \ref{WedgeSumAsCoproduct}:
+
+$$
+  X \vee X \longrightarrow X \wedge (I_+)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #PointedMappingSpace}
+###### Example
+
+For $(X,x),(Y,y)$ [[pointed topological spaces]] with $Y$ a [[locally compact topological space]], then the **[[pointed mapping space]]** is the [[topological subspace]] of the [[mapping space]] of def. \ref{CompactOpenTopology}
+
+$$
+  [(Y,y),(X,x)]_\ast
+    \hookrightarrow
+  (X^Y, const_x)
+$$
+
+on those maps which preserve the basepoints, and pointed by the map constant on the basepoint of $X$.
+
+In particular, the **standard topological pointed path space object** on some pointed $X$ (the pointed variant of def. \ref{TopologicalPathSpace}) is the pointed mapping space $X^{I_+}$.
+
+The pointed consequence of prop. \ref{MappingTopologicalSpaceIsExponentialObject} then gives that there is a [[natural bijection]]
+
+$$
+  Hom_{Top^{\ast/}}((Z,z) \wedge (Y,y), (X,x))
+  \simeq
+  Hom_{Top^{\ast/}}((Z,z), [(Y,y),(X,x)]_\ast)
+$$
+
+between basepoint-preserving continuous functions out of a [[smash product]], def. \ref{SmashProductOfPointedObjects}, with pointed continuous functions of one variable into the pointed mapping space.
+
+=--
+
+
+
++-- {: .num_defn #FiberAndCofiberInPointedObjects}
+###### Definition
+
+Given a morphism $f \colon X \longrightarrow Y$ in a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, with finite limits and colimits,
+
+1. its _[[fiber]]_ or _[[kernel]]_ is the [[pullback]] of the point inclusion
+
+   $$
+     \array{
+       fib(f) &\longrightarrow& X
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{f}}
+       \\
+       \ast &\longrightarrow& Y
+     }
+   $$
+
+1. its _[[cofiber]]_ or _[[cokernel]]_ is the [[pushout]] of the point projection
+
+   $$
+     \array{
+       X &\overset{f}{\longrightarrow}& Y
+       \\
+       \downarrow &(po)& \downarrow
+       \\
+       \ast &\longrightarrow& cofib(f)
+     }
+     \,.
+   $$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In the situation of def. \ref{FiberAndCofiberInPointedObjects}, both the pullback as well as the pushout are equivalently computed in $\mathcal{C}$. For the pullback this is the first clause of prop. \ref{LimitsAndColimitsOfPointedObjects}. The second clause says that for computing the pushout in $\mathcal{C}$, first the point is to be adjoined to the diagram, and then the colimit over the larger diagram
+
+$$
+  \array{
+    \ast
+    \\
+    & \searrow
+    \\
+    & & X &\overset{f}{\longrightarrow}& Y
+    \\
+    & & \downarrow && 
+    \\
+    & & \ast && 
+   }
+$$
+
+be computed. But one readily checks that in this special case this does not affect the result. (The technical jargon is that the inclusion of the smaller diagram into the larger one in this case happens to be a [[final functor]].)
+
+=--
+
++-- {: .num_defn #ClassicalModelStructureOnPointedTopologicalSpaces}
+###### Definition
+
+Write $Top^{\ast/}_{Quillen}$ for the **[[classical model structure on pointed topological spaces]]**, given from the [[classical model structure on topological spaces]] $Top_{Quillen}$ (theorem \ref{TopQuillenModelStructure}) via the induced [[coslice model structure]] of prop. \ref{ModelStructureOnSliceCategory}.
+
+Its [[homotopy category of a model category|homotopy category]] 
+
+$$
+  Ho(Top^{\ast/})
+  \coloneqq
+  Ho(Top_{Quillen}^{\ast/})
+$$
+
+we call the **[[classical pointed homotopy category]]**.
+
+=---
+
++-- {: .num_defn #GeneratingCofibrationsForPointedTopologicalSpaces}
+###### Definition
+
+Write
+
+$$
+  I_{Top^{\ast/}}
+  = 
+ \left\{
+    S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+
+ \right\}
+  \;\;
+  \subset Mor(Top^{\ast/})
+$$
+
+and
+
+$$
+  J_{Top^{\ast/}}
+  = 
+ \left\{
+    D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+
+ \right\}
+  \;\;\;
+  \subset Mor(Top^{\ast/})
+ \,,
+$$
+
+respectively, for the sets of morphisms obtained from the classical generating cofibrations, def. \ref{TopologicalGeneratingCofibrations}, and the classical generating acyclic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations}, under adjoining of basepoints (def. \ref{BasePointAdjoined}).
+
+=--
+
++-- {: .num_theorem #CofibrantGenerationOfPointedTopologicalSpaces}
+###### Theorem
+
+The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]] $Top^{\ast/}_{Quillen}$ of def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} as a [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}.
+
+=--
+
+(This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties).)
+
++-- {: .proof}
+###### Proof
+
+The proof proceeds exactly as that of theorem \ref{TopQuillenModelStructure}, with $I_{Top}$ replaced by $I_{Top^{\ast/}}$ and $J_{Top}$ replaced by $J_{Top^{\ast/}}$.
+
+=--
+
+
+##### Model structure on compactly generated topological spaces
+
+The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) exist only for $Y$ a [[locally compact topological space]] but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it ensures that
+
+1. the [[smash product]] on [[pointed topological spaces]] is [[associative]];
+
+1. there is a concept of [[topologically enriched functors]] with values in topological spaces, to which we turn [below](#ModelStructureOnTopEnrichedFunctors).
+
+1. [[geometric realization]] of [[simplicial sets]] preserves [[products]].
+
+Now, since, by the above, the [[homotopy theory]] of topological spaces only cares about the [[CW approximation]] to any topological space, it is plausible to ask for a [[full subcategory]] of [[Top]] which still contains all [[CW-complexes]], still has all [[limits]] and [[colimits]], still supports a model category structure constructed in the same way as above, but which in addition is [[cartesian closed category|cartesian closed]], and preferably such that the model structure interacts well with the cartesian closure.
+
+Such a full subcategory exists, the category of [[compactly generated topological spaces]]. This we briefly describe now.
+
++-- {: .num_defn #kTop}
+###### Definition
+
+Let $X$ be a [[topological space]].
+
+A subset $A \subset X$ is called **$k$-closed** if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space|compact]] [[Hausdorff topological space|Hausdorff]] $K$, then the [[preimage]] $f^{-1}(A)$ is a [[closed subset]] of $K$.
+
+$X$ is called **[[compactly generated topological space|compactly generated]]** if its closed subsets exhaust (hence coincide with) the $k$-closed subsets.
+
+Write
+
+$$
+  Top_{cg} \hookrightarrow Top
+$$
+
+for the [[full subcategory]] of [[Top]] on the compactly generated topological spaces.
+
+=--
+
++-- {: .num_defn #kfication}
+###### Definition
+
+Write
+
+$$
+  Top \overset{k}{\longrightarrow} Top_{cg} \hookrightarrow Top
+$$
+
+for the [[functor]] which sends any [[topological space]] $X = (S,\tau)$ to the  topological space with the same underlying set $S$, but with open subsets $k \tau$ the collection of all $k$-open subsets.
+
+=--
+
+
++-- {: .num_lemma #ContinuousFunctionsOutOfCompactlyGeneratedFactorThroughCompactlyGeneratedClosureOfCodomain}
+###### Lemma
+
+Let $X \in Top_{cg} \hookrightarrow Top$ and let $Y\in Top$. Then [[continuous functions]]
+
+$$
+  X \longrightarrow Y
+$$
+
+are also continuous when regarded as functions
+
+$$
+  X \longrightarrow k(Y)
+$$
+
+with $k$ from def. \ref{kfication}.
+
+=--
+
+This is due to ([Steenrod 67](compactly+generated+topological+space#Steenrod67)), expanded on in ([Lewis 78, appendix A](compactly+generated+topological+space#Lewis78)). See  ([Strickland 09, cor. 1.10](#Strickland09)).
+
++-- {: .num_cor #kTopIsCoreflectiveSubcategory}
+###### Corollary
+
+For $X \in Top_{cg}$ there is a [[natural bijection]]
+
+$$
+  Hom_{Top}(X,Y) \simeq Hom_{Top_{cg}}(X, k(Y))
+  \,,
+$$
+
+which means equivalently that the functor $k$ (def. \ref{kfication}) together with the inclusion from def. \ref{kTop} forms an pair of [[adjoint functors]]
+
+$$
+  Top
+    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
+  Top_{cg}
+  \,.
+$$
+
+This in turn means equivalently that $Top_{cg} \hookrightarrow Top$ is a [[coreflective subcategory]] with coreflector $k$. In particular $k$ is [[idempotent monad|idemotent]] in that there are [[natural isomorphisms|natural]] [[homeomorphisms]]
+
+$$
+  k(k(X))\simeq k(X)
+  \,.
+$$
+
+Hence [[colimits]] in $Top_{cg}$ exists and are computed as in [[Top]]. Also [[limits]] in $Top_{cg}$ exists, these are obtained by computing the limit in [[Top]] and then applying the functor $k$ to the result.
+
+=--
+
++-- {: .num_example #ExamplesOfCompactlyGeneratedTopologiclSpaces}
+###### Example
+
+Examples of [[compactly generated topological spaces]], def. \ref{kTop}, include
+
+* every [[compact space]];
+
+* every [[locally compact space]];
+
+* every [[topological manifold]];
+
+* every [[CW-complex]] (def. \ref{TopologicalCellComplex}); 
+
+* every [[first countable space]]
+
+=--
+
+
+
+
++-- {: .num_defn #CompactlyGeneratedMappingSpaces}
+###### Definition
+
+For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(X,Y)$ of [[continuous functions]] $f \colon X \to Y$, and for which a [[topological base|subbase]] for its topology has elements $U^\kappa$, for $U \subset X$ any [[open subset]] and $\kappa \colon K \to X$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
+
+$$
+  U^\kappa \coloneqq \left\{ f\in C(X,Y) | f(\kappa(K)) \subset U \right\}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #CartesianClosureOfTopcg}
+###### Proposition
+
+The category $Top_{cg}$ (def. \ref{kTop}) is [[cartesian closed category|cartesian closed]]: 
+
+for every $X \in Top_{cg}$ then the operation $X\times (-) \times (-)\times X$ of forming the Cartesian product in $Top_{cg}$ (which by cor. \ref{kTopIsCoreflectiveSubcategory} is $k$ applied to the usual [[product topological space]]) together with the operation $(-)^X$ of forming the compactly generated [[mapping space]] (def. \ref{CompactlyGeneratedMappingSpaces}) forms a pair of [[adjoint functors]]
+
+$$
+  Top_{cg}
+    \stackrel{\overset{X \times (-)}{\longleftarrow}}{\underset{(-)^X}{\longrightarrow}}
+  Top_{cg}
+  \,.
+$$
+
+=--
+
+e.g. ([Strickland 09, prop. 2.12](#Strickland09))
+
+Moreover:
+
++-- {: .num_prop}
+###### Proposition
+
+Write $Top_{cg}^{\ast/}$ for the category of [[pointed topological space|pointed]] [[compactly generated topological spaces]] (def. \ref{kTop}). Then the [[smash product]]
+
+$$
+  (-)\wedge (-)
+  \;\colon\;
+  Top_{cg}^{\ast/}
+    \times
+  Top_{cg}^{\ast/}
+    \longrightarrow
+  Top_{cg}^{\ast/}
+$$
+
+is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it, hence $(Top_{cg}^{\ast/}, \wedge, S^0)$ is a [[symmetric monoidal category]].
+
+Moreover together with the [[pointed mapping space]] version $(-)_\ast^X$ of the compactly generated mapping space of def. \ref{CompactlyGeneratedMappingSpaces}, $Top_{cg}^{\ast}$ becomes a [[closed monoidal category]]: 
+
+for every $X \in Top_{cg}^{\ast/}$ then the operations of forming the [[smash product]] $X\wedge (-)$ and of forming the [[pointed mapping space]] $(-)_\ast^X$ constitute a pair of [[adjoint functors]]
+
+$$
+  Top_{cg}^{\ast/}
+    \stackrel{\overset{X \wedge (-)}{\longleftarrow}}{\underset{(-)_\ast^X}{\longrightarrow}}
+  Top_{cg}^{\ast/}
+ \,.
+$$
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement, since $(-)\times X$ is a [[left adjoint]] by prop. \ref{CartesianClosureOfTopcg}, it presevers [[colimits]] and in particular [[quotient space]] projections. Therefore with $X, Y, Z \in Top_{cg}^{\ast/}$ then
+
+$$
+  \begin{aligned}
+    (X \wedge Y) \wedge Z
+    & =
+    \frac{
+      \frac{X\times Y}{X \times\{y\} \sqcup \{x\}\times Y}
+      \times Z
+    }{ (X \wedge Y)\times \{z\} \sqcup \{[x] = [y]\} \times Z}
+    \\
+    & \simeq
+    \frac{\frac{X \times Y \times Z}{X \times \{y\}\times Z \sqcup \{x\}\times Y \times Z}}{
+      X \times Y \times \{z\}
+    }
+   \\
+   &\simeq
+    \frac{X\times Y \times Z}{ X \vee Y \vee Z}
+  \end{aligned}
+  \,.
+$$
+
+The analogous reasoning applies to yield also $X \wedge (Y\wedge Z) \simeq \frac{X\times Y \times Z}{ X \vee Y \vee Z}$.
+
+=--
+
+
+
 
 ##### Model structure on topological functors
 
@@ -6875,423 +7505,6 @@ A key aspect of [[homotopy theory]] is that the [[universal constructions]] of [
 We consider this here just for the special case of [[homotopy fibers]] and [[homotopy cofibers]], leading to the phenomenon of [[homotopy fiber sequences]] and their induced [[long exact sequences of homotopy groups]] which control much of the theory to follow.
 
 
-#### Pointed objects
-
-Since a _[[fiber]]_ is a fiber over some point, for the discussion of sequences of fibers it is most convenient to work with pointed objects. A _[[pointed object]]_ $(X,x)$ is of course an [[object]] $X$ equipped with a [[point]] $x \colon \ast \to X$, and a morphism of pointed objects $(X,x) \longrightarrow (Y,y)$ is a morphism $X \longrightarrow Y$ that takes $x$ to $y$. Trivial as this is in itself, it is good to record some basic facts, which we do here. 
-
-Passing to pointed objects is also the first step in linearizing classical homotopy theory to [[stable homotopy theory]]. In particular, every category of pointed objects has a [[zero object]], hence has [[zero morphisms]]. And crucially, if the original category had [[Cartesian products]], then its pointed objects canonically inherit a non-cartesian [[tensor product]]: the [[smash product]]. These ingredients will be key below in [Part 1)](#StableHomotopyTheory).
-
-+-- {: .num_defn #SliceCategory}
-###### Definition
-
-Let $\mathcal{C}$ be a [[category]] and let $X \in \mathcal{C}$ be an [[object]]. 
-
-The _[[slice category]]_ $\mathcal{C}_{/X}$ is the category whose 
-
-* objects are morphisms $\array{A \\ \downarrow \\ X}$ in $\mathcal{C}$;
-
-* morphisms are [[commuting diagram|commuting triangles]] $\array{ A && \longrightarrow && B \\ & {}_{}\searrow && \swarrow \\ && X}$ in $\mathcal{C}$.
-
-Dually, the _[[coslice category]]_ $\mathcal{C}^{X/}$ is the category whose
-
-* objects are morphisms $\array{X \\ \downarrow \\ A}$ in $\mathcal{C}$;
-
-* morphisms are [[commuting diagram|commuting triangles]] $\array{ && X \\ & \swarrow && \searrow \\ A && \longrightarrow && B }$ in $\mathcal{C}$.
-
-There is the canonical [[forgetful functor]]
-
-$$
-  U \;\colon \; \mathcal{C}_{/X}, \mathcal{C}^{X/} \longrightarrow \mathcal{C}
-$$
-
-given by forgetting the morphisms to/from $X$.
-
-=--
-
-We here focus on this class of examples:
-
-+-- {: .num_defn #CategoryOfPointedObjects}
-###### Definition
-
-For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, the [[coslice category]] (def. \ref{SliceCategory}) $\mathcal{C}^{\ast/}$ is the corresponding _[[category of pointed objects]]_: its
-
-* objects are morphisms in $\mathcal{C}$ of the form $\ast \overset{x}{\to} X$ (hence an object $X$ equipped with a choice of point; i.e. a _[[pointed object]]_);
-
-* morphisms are [[commuting diagram|commuting triangles]] of the form
-
-  $$
-    \array{
-       && \ast
-       \\
-       & {}^{\mathllap{x}}\swarrow && \searrow^{\mathrlap{y}}
-       \\
-       X && \overset{f}{\longrightarrow} && Y
-    }
-  $$
-
-  (hence morphisms in $\mathcal{C}$ which preserve the chosen points).
-
-=--
-
-+-- {: .num_remark #PointedObjectsHaveZeroObject}
-###### Remark
-
-In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, the [[terminal object]] coincides with the [[initial object]], both are given by $\ast \in \mathcal{C}$ itself, pointed in the unique way. 
-
-In this situation one says that $\ast$ is a _[[zero object]]_ and that $\mathcal{C}^{\ast/}$ is a _[[pointed category]]_. 
-
-It follows that also all [[hom-sets]] $\mathcal{C}^{\ast/}(X,Y)$ of $\mathcal{C}^{\ast/}$ are canonically [[pointed sets]], pointed by the _[[zero morphism]]_
-
-$$
-  0 
-    \;\colon\;
-  X \overset{\exists!}{\longrightarrow} 0 \overset{\exists}{\longrightarrow} Y
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop #ModelStructureOnSliceCategory}
-###### Proposition
-
-Let $\mathcal{C}$ be a [[model category]] and let $X \in \mathcal{C}$ be an [[object]]. Then both the [[slice category]] $\mathcal{C}_{/X}$ as well as the [[coslice category]] $\mathcal{C}^{X/}$, def. \ref{SliceCategory}, carry model structures themselves -- the **[[model structure on a slice category|model structure on a (co-)slice category]]**,  where a morphism is a weak equivalence, fibration or cofibration iff its image under the [[forgetful functor]] $U$ is so in $\mathcal{C}$.
-
-In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \ref{CategoryOfPointedObjects}, in a model category $\mathcal{C}$ becomes itself a model category this way. The corresponding [[homotopy category of a model category]], def. \ref{HomotopyCategoryOfAModelCategory}, we call the **[[pointed category|pointed]] [[homotopy category of a model category|homotopy category]]** $Ho(\mathcal{C}^{\ast/})$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The model strcuture as claimed is immediate by inspection.
-
-=--
-
-
-+-- {: .num_example #ClassicalPointedHomotopyCategory}
-###### Example
-
-For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$. Its [[homotopy category of a model category]] is the _pointed [[classical homotopy theory]]_ $Ho(Top^{\ast/})$. We discuss this in more detail starting with def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} below.
-
-=--
-
-+-- {: .num_example #NonDegenerateBasepointAsCofibrantObjects}
-###### Example
-
-The fibrant objects in the pointed model structure $\mathcal{C}^{\ast/}$, prop. \ref{ModelStructureOnSliceCategory}, are those that are fibrant as objects of $\mathcal{C}$.
-
-But the cofibrant objects in $\mathcal{C}^{\ast}$ are now those for which the basepoint inclusion is a cofibration in $X$.
-
-For $\mathcal{C}^{\ast/} = Top^{\ast/}$, then the corresponding cofibrant pointed topological spaces are tyically referred to as spaces _with non-degenerate basepoints_. Notice that the point itself is cofibrant in $Top_{Quillen}$, so that cofibrant pointed topological spaces are in particular cofibrant topological spaces.
-
-=--
-
-
-+-- {: .num_example #HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}
-###### Example
-
-For $\mathcal{C}$ any [[model category]], with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model structure]] according to prop. \ref{ModelStructureOnSliceCategory}, then the corresponding [[homotopy category of a model category|homotopy category]] (def. \ref{HomotopyCategoryOfAModelCategory}) is, by remark \ref{PointedObjectsHaveZeroObject}, canonically [[enriched category|enriched]] in [[pointed sets]], in that its [[hom-functor]] is of the form
-
-$$
-  [-,-]_\ast
-  \;\colon\;
-  Ho(\mathcal{C}^{\ast/})^\op
-  \times
-  Ho(\mathcal{C}^{\ast/})
-  \longrightarrow
-  Set^{\ast/}
-  \,.
-$$
-
-=--
-
-+-- {: .num_defn #BasePointAdjoined}
-###### Definition
-
-Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] given by forming the [[disjoint union]] ([[coproduct]]) with a base point ("adjoining a base point"), this is denoted by
-
-$$
-  (-)_+ \coloneqq (-) \sqcup \ast \;\colon \; \mathcal{C} \longrightarrow \mathcal{C}^{\ast/}
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop #LimitsAndColimitsOfPointedObjects}
-###### Proposition
-
-Let $\mathcal{C}$ be a [[category]] with all [[limits]] and [[colimits]]. Then also the [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, has all limits and colimits.
-
-Moreover:
-
-1. the limits are the limits of the underlying diagrams in $\mathcal{C}$, with the base point of the limit induced by its universal property in $\mathcal{C}$;
-
-1. the colimits are the limits in $\mathcal{C}$ of the diagrams _with the basepoint adjoined_.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-It is immediate to check the relevant [[universal property]]. For details see at _[slice category -- limits and colimits](overcategory#LimitsAndColimits)_.
-
-=--
-
-+-- {: .num_example #WedgeSumAsCoproduct}
-###### Example
-
-Given two pointed objects $(X,x)$ and $(Y,y)$, then:
-
-1. their [[product]] in $\mathcal{C}^{\ast/}$ is simply $(X\times Y, (x,y))$;
-
-1. their [[coproduct]] in $\mathcal{C}^{\ast/}$ has to be computed using the second clause in prop. \ref{LimitsAndColimitsOfPointedObjects}: since the point $\ast$ has to be adjoined to the diagram, it is given not by the coproduct in $\mathcal{C}$, but by the [[pushout]] in $\mathcal{C}$ of the form:
-
-   $$
-     \array{
-       \ast &\overset{x}{\longrightarrow}& X
-       \\
-       {}^{\mathllap{y}}\downarrow &(po)& \downarrow
-       \\
-       Y &\longrightarrow& X \vee Y
-     }
-     \,.
-   $$
-
-   This is called the _[[wedge sum]]_ operation on pointed objects.
-
-Generally for a set $\{X_i\}_{i \in I}$ in $Top^{\ast/}$
-
-1. their [[product]] is formed in $Top$ as in example \ref{ProductTopologicalSpace}, with the new basepoint canonically induced;
-
-1. their [[coproduct]] is formed by the [[colimit]] in $Top$ over the diagram with a basepoint adjoined, and is called the [[wedge sum]] $\vee_{i \in I} X_i$.
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-For $X$ a [[CW-complex]], def. \ref{TopologicalCellComplex} then for every $n \in \mathbb{N}$ the [[quotient]] (example \ref{QuotientSpaceAsPushout}) of its $n$-skeleton by its $(n-1)$-skeleton is the [[wedge sum]], def. \ref{WedgeSumAsCoproduct}, of $n$-spheres, one for each $n$-cell of $X$:
-
-$$
-  X^n / X^{n-1} \simeq \underset{i \in I_n}{\vee} S^n
-  \,.
-$$
-
-=--
-
-
-+-- {: .num_defn #SmashProductOfPointedObjects}
-###### Definition
-
-For $\mathcal{C}^{\ast/}$ a [[category of pointed objects]] with [[finite limits]] and [[finite colimits]], the _[[smash product]]_ is the [[functor]]
-
-$$
-  (-)\wedge(-)
-  \;\colon\;
-  \mathcal{C}^{\ast/}
-  \times 
-  \mathcal{C}^{\ast/}
-  \longrightarrow
-  \mathcal{C}^{\ast/}
-$$
-
-given by
-
-$$
-  X \wedge Y
-  \;\coloneqq\;
-  \ast
-  \underset{X\sqcup Y}{\sqcup} (X \times Y)
-  \,,
-$$
-
-hence by the [[pushout]] in $\mathcal{C}$
-
-$$
-  \array{
-    X \sqcup Y &\overset{(id_X,y),(x,id_Y) }{\longrightarrow}& X \times Y
-    \\
-    \downarrow && \downarrow
-    \\
-    \ast &\longrightarrow& X \wedge Y
-  }
-  \,.
-$$
-
-In terms of the [[wedge sum]] from def. \ref{WedgeSumAsCoproduct}, this may be written concisely as
-
-$$
-  X \wedge Y = \frac{X\times Y}{X \vee Y}
-  \,.
-$$
- 
-=--
-
-These two operations are going to be ubiquituous in [[stable homotopy theory]]:
-
-| symbol | name | category theory |
-|--------|------|-----------------|
-| $X \vee Y$ | [[wedge sum]] | [[coproduct]] in $\mathcal{C}^{\ast/}$ |
-| $X \wedge Y$ | [[smash product]] | [[tensor product]] in $\mathcal{C}^{\ast/}$|
-
-+-- {: .num_example #WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}
-###### Example
-
-For $X, Y \in Top$, with $X_+,Y_+ \in Top^{\ast/}$, def. \ref{BasePointAdjoined}, then
-
-* $X_+ \vee Y_+ \simeq (X \sqcup Y)_+$;
-
-* $X_+ \wedge Y_+ \simeq (X \times Y)_+$. 
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By example \ref{WedgeSumAsCoproduct}, $X_+ \vee Y_+$ is given by the colimit in $Top$ over the diagram
-
-$$
-  \array{
-    && && \ast
-    \\
-    && & \swarrow && \searrow
-    \\
-    X &\,\,& \ast && && \ast &\,\,& Y
-  }  
-  \,.
-$$
-
-This is clearly $A \sqcup \ast \sqcup B$. Then, by definition \ref{SmashProductOfPointedObjects}
-
-$$
-  \begin{aligned}
-    X_+ \wedge Y_+
-    & \simeq
-    \frac{(X \sqcup \ast) \times (X \sqcup \ast)}{(X\sqcup \ast) \vee (Y \sqcup \ast)}
-    \\
-    & \simeq 
-    \frac{X \times Y \sqcup X \sqcup Y \sqcup \ast}{X \sqcup Y \sqcup \ast}
-    \\
-    & \simeq
-    X \times Y \sqcup \ast
-    \,.
-  \end{aligned} 
-$$
-
-=--
-
-+-- {: .num_example #StandardReducedCyclinderInTop}
-###### Example
-
-Let $\mathcal{C}^{\ast/} = Top^{\ast/}$ be [[pointed topological spaces]]. Then 
-
-$$
-  I_+ \in Top^{\ast/}
-$$
-
-denotes the standard interval object $I = [0,1]$ from def. \ref{TopologicalInterval}, with a djoint basepoint adjoined, def. \ref{BasePointAdjoined}. Now for $X$ any [[pointed topological space]], then 
-
-$$
-  X \wedge (I_+) = (X \times I)/(\{x_0\} \times I)
-$$
-
-is the **[[reduced cylinder]]** over $X$: the result of forming the ordinary cyclinder over $X$ as in def. \ref{TopologicalInterval}, and then identifying the interval over the basepoint of $X$ with the point.
-
-(Generally, any construction in $\mathcal{C}$ properly adapted to pointed objects $\mathcal{C}^{\ast/}$ is called the "reduced" version of the unpointed construction. Notably so for "[[reduced suspension]]" which we come to [below](#MappingCones).)
-
-
-Just like the ordinary cylinder $X\times I$ receives a canonical injection from the [[coproduct]] $X \sqcup X$ formed in $Top$, so the reduced cyclinder receives a canonical injection from the coproduct $X \sqcup X$ formed in $Top^{\ast/}$, which is the [[wedge sum]] from example \ref{WedgeSumAsCoproduct}:
-
-$$
-  X \vee X \longrightarrow X \wedge (I_+)
-  \,.
-$$
-
-=--
-
-+-- {: .num_example #PointedMappingSpace}
-###### Example
-
-For $(X,x),(Y,y)$ [[pointed topological spaces]] with $Y$ a [[locally compact topological space]], then the **[[pointed mapping space]]** is the [[topological subspace]] of the [[mapping space]] of def. \ref{CompactOpenTopology}
-
-$$
-  (X,x)^{(Y,y)}
-    \hookrightarrow
-  (X^Y, const_x)
-$$
-
-on those maps which preserve the basepoints, and pointed by the map constant on the basepoint of $X$.
-
-In particular, the **standard topological pointed path space object** on some pointed $X$ (the pointed variant of def. \ref{TopologicalPathSpace}) is the pointed mapping space $X^{I_+}$.
-
-The pointed consequence of prop. \ref{MappingTopologicalSpaceIsExponentialObject} then gives that there is a [[natural bijection]]
-
-$$
-  Hom_{Top^{\ast/}}((Z,z) \wedge (Y,y), (X,x))
-  \simeq
-  Hom_{Top^{\ast/}}((Z,z), (X,x)^{(Y,y)})
-$$
-
-between basepoint-preserving continuous functions out of a [[smash product]], def. \ref{SmashProductOfPointedObjects}, with pointed continuous functions of one variable into the pointed mapping space.
-
-=--
-
-
-
-+-- {: .num_defn #FiberAndCofiberInPointedObjects}
-###### Definition
-
-Given a morphism $f \colon X \longrightarrow Y$ in a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, with finite limits and colimits,
-
-1. its _[[fiber]]_ or _[[kernel]]_ is the [[pullback]] of the point inclusion
-
-   $$
-     \array{
-       fib(f) &\longrightarrow& X
-       \\
-       \downarrow &(pb)& \downarrow^{\mathrlap{f}}
-       \\
-       \ast &\longrightarrow& Y
-     }
-   $$
-
-1. its _[[cofiber]]_ or _[[cokernel]]_ is the [[pushout]] of the point projection
-
-   $$
-     \array{
-       X &\overset{f}{\longrightarrow}& Y
-       \\
-       \downarrow &(po)& \downarrow
-       \\
-       \ast &\longrightarrow& cofib(f)
-     }
-     \,.
-   $$
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-In the situation of def. \ref{FiberAndCofiberInPointedObjects}, both the pullback as well as the pushout are equivalently computed in $\mathcal{C}$. For the pullback this is the first clause of prop. \ref{LimitsAndColimitsOfPointedObjects}. The second clause says that for computing the pushout in $\mathcal{C}$, first the point is to be adjoined to the diagram, and then the colimit over the larger diagram
-
-$$
-  \array{
-    \ast
-    \\
-    & \searrow
-    \\
-    & & X &\overset{f}{\longrightarrow}& Y
-    \\
-    & & \downarrow && 
-    \\
-    & & \ast && 
-   }
-$$
-
-be computed. But one readily checks that in this special case this does not affect the result. (The technical jargon is that the inclusion of the smaller diagram into the larger one in this case happens to be a [[final functor]].)
-
-=--
 
 #### Mapping cones
  {#MappingCones}
@@ -8925,73 +9138,8 @@ behaves like one degree in an [additive](Introduction+to+Stable+homotopy+theory+
 
 We conclude this discussion of classical homotopy theory with the key statement that leads over to [[stable homotopy theory]] in _[[Introduction to Stable homotopy theory -- 1]]_: the suspension and looping adjunction on the classical pointed homotopy category.
 
-+-- {: .num_defn #ClassicalModelStructureOnPointedTopologicalSpaces}
-###### Definition
 
-Write $Top^{\ast/}_{Quillen}$ for the **[[classical model structure on pointed topological spaces]]**, given from the [[classical model structure on topological spaces]] $Top_{Quillen}$ (theorem \ref{TopQuillenModelStructure}) via the induced [[coslice model structure]] of prop. \ref{ModelStructureOnSliceCategory}.
-
-Its [[homotopy category of a model category|homotopy category]] 
-
-$$
-  Ho(Top^{\ast/})
-  \coloneqq
-  Ho(Top_{Quillen}^{\ast/})
-$$
-
-we call the **[[classical pointed homotopy category]]**.
-
-=---
-
-+-- {: .num_defn #GeneratingCofibrationsForPointedTopologicalSpaces}
-###### Definition
-
-Write
-
-$$
-  I_{Top^{\ast/}}
-  = 
- \left\{
-    S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+
- \right\}
-  \;\;
-  \subset Mor(Top^{\ast/})
-$$
-
-and
-
-$$
-  J_{Top^{\ast/}}
-  = 
- \left\{
-    D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+
- \right\}
-  \;\;\;
-  \subset Mor(Top^{\ast/})
- \,,
-$$
-
-respectively, for the sets of morphisms obtained from the classical generating cofibrations, def. \ref{TopologicalGeneratingCofibrations}, and the classical generating acyclic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations}, under adjoining of basepoints (def. \ref{BasePointAdjoined}).
-
-=--
-
-+-- {: .num_theorem #CofibrantGenerationOfPointedTopologicalSpaces}
-###### Theorem
-
-The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]] $Top^{\ast/}_{Quillen}$ of def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} as a [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}.
-
-=--
-
-(This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties).)
-
-+-- {: .proof}
-###### Proof
-
-The proof proceeds exactly as that of theorem \ref{TopQuillenModelStructure}, with $I_{Top}$ replaced by $I_{Top^{\ast/}}$ and $J_{Top}$ replaced by $J_{Top^{\ast/}}$.
-
-=--
-
-
-We now consider the general [[loop space object]] and [[reduced suspension]] functors from prop. \ref{LoopingAsFunctorOnHomotopyCategory} specialized to the case of the model category $\mathcal{C} = Top_{Quillen}$. In fact prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} below holds generally for every model category ([Quillen 67](#Quillen67)), but using the above properties of the topological interval $I$ we get a more conceptual proof.
+Consider the general [[loop space object]] and [[reduced suspension]] functors from prop. \ref{LoopingAsFunctorOnHomotopyCategory} specialized to the case of the model category $\mathcal{C} = Top_{Quillen}$. In fact prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} below holds generally for every model category ([Quillen 67](#Quillen67)), but using the above properties of the topological interval $I$ we get a more conceptual proof.
 
 +-- {: .num_prop #ReducedSuspensionBySmashProductWithCircle}
 ###### Proposition
@@ -9010,14 +9158,14 @@ Dually:
 * the [[loop space objects]] (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard pointed path space object $(-)^{I_+}$  are isomorphic to the [[pointed mapping space]] (example \ref{PointedMappingSpace})  with the [[1-sphere]]
 
   $$
-    \Omega X \simeq X^{S^1}
+    \Omega X \simeq [S^1, X]_\ast
     \,.
   $$
 
 Moreover, by the [[exponential object]]-property of the pointed [[mapping space]] (example \ref{PointedMappingSpace}) these form [[adjoint functors]]
 
 $$
-  ((-)\wedge S^1 \dashv (-)^{S^1})
+  ((-)\wedge S^1 \dashv [S^1,-]_\ast)
   \;\colon\;
   Top^{\ast/}
   \longrightarrow 
