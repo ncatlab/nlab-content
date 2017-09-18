@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,7 +20,7 @@ In various areas of [[mathematics]] there are some standard objects and operatio
 Then there is [[calculus of fractions]] in [[localization]] theory.
 
 
-In anglosaxon university courses, one says "calculus" for the standard basic course in [[differential calculus]] and [[integral calculus]]; the name is abbreviation for the older common and less ambiguous term infinitesimal calculus. From the point of view of research mathematics this is the (usually nonrigorous) introduction into the subject properly called mathematical analysis or simply [[analysis]]. Thus, while the term calculus has a standard meaning in the anglosaxon university system, within research mathematics "calculus" is a rather ambiguous and overloaded term. 
+In anglosaxon university courses, one says "calculus" for the standard basic course in [[differential calculus]] and [[integral calculus]]; the name is an abbreviation for the older common and less ambiguous term _infinitesimal calculus_. From the point of view of research mathematics this is the (usually nonrigorous) introduction into the subject properly called mathematical analysis or simply _[[analysis]]_. Thus, while the term "calculus" has a standard meaning in the anglosaxon university system, within research mathematics "calculus" is a rather ambiguous and overloaded term. 
 
 ## Formal calculus
 
