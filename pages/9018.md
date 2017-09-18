@@ -211,6 +211,10 @@ The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential
 
 * {#BBS07} [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 333 of _String Theory and M-Theory: A Modern Introduction_, 2007
 
+Discussion of relation to [[F-theory on CY4-manifolds]] includes
+
+* [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
+
 A survey of the corresponding [[string phenomenology]] is in
 
 * {#Acharya12} [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
