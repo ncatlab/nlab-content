@@ -16,7 +16,13 @@
 
 ## Idea
 
-The concept of _orthogonal spectrum_ ([MMSS 98a](#MMSS98a)) in [[stable homotopy theory]] is one model of the concept of _[[spectrum]]_ by . An orthogonal spectrum is a sequence of [[pointed topological spaces]] $\{X_n\}_{n \in \mathbb{N}}$ equipped with maps $X_n \wedge S^1 \longrightarrow X_{n+1}$ from the [[suspension]] of one into the next, but such that the $n$th [[topological space]] is equipped with an [[action]] of the [[orthogonal group]] $O(n)$ and such that all the induced structure maps 
+The [[category]] of _orthogonal spectra_  is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] of spectra, with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] orthogonal spectra.
+
+Other presentations sharing this property are _[[symmetric spectra]]_ and _[[S-modules]]_.
+
+Orthogonal spectra also support a similarly good model for [[equivariant stable homotopy theory]] (while [[symmetric spectra]] share this property only for equivaruance under [[finite groups]].)
+
+An orthogonal spectrum is a sequence of [[pointed topological spaces]] $\{X_n\}_{n \in \mathbb{N}}$ equipped with maps $X_n \wedge S^1 \longrightarrow X_{n+1}$ from the [[suspension]] of one into the next, but such that the $n$th [[topological space]] is equipped with an [[action]] of the [[orthogonal group]] $O(n)$ and such that all the induced structure maps 
 
 $$
   X_n \wedge S^k \longrightarrow X_{n+k}
@@ -54,7 +60,14 @@ Since orthogonal spectra are by definition equipped with orthogonal group [[acti
 
 ## Related concepts
 
-* [[symmetric spectrum]]
+[[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
+
+* [[symmetric spectrum]], [[model structure on symmetric spectra]]
+
+* **orthogonal spectrum**, [[model structure on orthogonal spectra]]
+
+* [[S-module]], [[model structure on S-modules]]
+
 
 * [[global equivariant stable homotopy theory]]
 
