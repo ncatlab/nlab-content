@@ -143,7 +143,7 @@ Exposition with emphasis on the [[octonions]] is in
 
 Discussion of [[Riemannian geometry]] and [[special holonomy]] modeled on the different normed division algebras is in
 
-* {#Leung02} [[Naichung Conan Leung]], _Riemannian Geometry Over Different Normed Division Algebras_, J. Differential Geom. Volume 61, Number 2 (2002), 289-333. ([publisher page](http://projecteuclid.org/euclid.jdg/1090351387))
+* {#Leung02} [[Naichung Conan Leung]], _Riemannian Geometry Over Different Normed Division Algebras_, J. Differential Geom. Volume 61, Number 2 (2002), 289-333. ([euclid](http://projecteuclid.org/euclid.jdg/1090351387))
 
 
 
