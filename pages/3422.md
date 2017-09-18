@@ -712,7 +712,7 @@ The first and third Quillen adjunction here is a [[Quillen equivalence]] if $S$ 
 
 ## Proerties
 
-### As an (op)lax $\infty$-colomit
+### As an (op)lax $\infty$-colimit
 
 The $(\infty,1)$-Grothendieck construction on an $\infty$-functor is equivalently its [[lax (infinity,1)-colimit]] ([Gepner-Haugseng-Nikolaus 15](#GepnerHaugsengNikolaus15)).
 
