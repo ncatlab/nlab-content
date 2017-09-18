@@ -16,7 +16,7 @@ Multiplying generating functions in the same variable gives
 \[ \left(\sum_{n=0}^{\infty}f_n z^n\right)\left(\sum_{n=0}^{\infty}g_n z^n\right) = \sum_{n=0}^{\infty}\sum_{k=0}^n f_k g_{n-k} z^n,\]
 which effectively says to split up the set into two parts, put the $f$ structure on the first part and the $g$ structure on the second part.
 
-_Ordinary_ generating functions describe structures on [[totally ordered sets]], while _exponential_ generating functions apply to unordered [[sets]].  For example, the generating function for being an unordered finite set is
+_Ordinary_ generating functions (OGFs) describe structures on [[totally ordered sets]], while _exponential_ generating functions (EGFs) apply to unordered [[sets]] (whose elements may be distinguished by having different _labels_).  For example, the generating function for being an unordered finite set is
 \[ e^z = 1 + z + \frac{z^2}{2!} + \frac{z^3}{3!} + \cdots ,\]
 while the generating function for being a finite ordered set is
 \[ \frac{1}{1-z} = 1 + z + z^2 + z^3 + \cdots .\]
@@ -36,10 +36,19 @@ Sometimes we take the *exponents* on $z$ to be in a rig other than the natural n
 
 ## Examples
 
-In [[quantum field theory]] generating functions often appear as [[partition functions]] and [[vacuum amplitudes]] as founcions of [[source fields]].
+The OGF $T(z)$ for binary [[trees]] (rooted in the plane, counted by number of internal nodes) satisfies $T(z) = 1 + z T(z)^2$, which can be solved as $T(z) = \frac{1-\sqrt{1-4z}}{2z}$.  The coefficient of $z^n$ in $T(z)$ is the $n$th _Catalan number_ $\binom{2n}{n}/(n+1)$.
 
+Fixed-point free [[involutions]] on a set have the EGF $e^{z^2/2}$, while arbitrary involutions have EGF $e^{z+z^2/2}$, and  [[partition#of_sets|partitions]] have EGF $e^{e^z-1}$.
+
+In [[quantum field theory]] generating functions often appear as [[partition functions]] and [[vacuum amplitudes]] as functions of [[source fields]].
+
+## References
+
+* Philippe Flajolet and Robert Sedgewick, _Analytic Combinatorics_, CUP, 2009. ([author pdf](http://algo.inria.fr/flajolet/Publications/book.pdf))
 
 [[!redirects generating functions]]
+[[!redirects ordinary generating function]]
+[[!redirects exponential generating function]]
 
 [[!redirects generating functional]]
 [[!redirects generating functionals]]
