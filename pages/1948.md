@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -284,8 +283,10 @@ See also
 
 [[!redirects projective model structure on functors]]
 
+[[!redirects global model structure on functor categories]]
 [[!redirects global model structures on functor categories]]
 [[!redirects global model structure on functors]]
+[[!redirects global model structures on functors]]
 
 [[!redirects model structure on enriched functors]]
 [[!redirects model structures on enriched functors]]
