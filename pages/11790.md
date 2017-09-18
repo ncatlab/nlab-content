@@ -60,4 +60,3 @@ As a corollary of the [[Deligne-Lurie completeness theorem]] this appears as ([[
 
 * S. Mac Lane, I. Moerdijk, _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. (sec. IX.11, pp.521f)
 
-[[!redirects Deligne's theorem]]
