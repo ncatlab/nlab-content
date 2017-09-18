@@ -50,6 +50,8 @@ a [[homeomorphism]] of pointed [[topological space]]s
     \tilde \sigma_{V,W} : E_V \stackrel{\simeq}{\to} \Omega^{W-V} E_W
     \,.
   $$
+
+* If we drop the requirement that the maps $\tilde \sigma_{V,W}$ be homeomorphisms, we obtain the notion of a **prespectrum**.
 =--
 
   
