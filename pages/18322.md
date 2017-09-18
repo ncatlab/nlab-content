@@ -9,7 +9,7 @@ In this article we collect some results on colimits of paracompact Hausdorff spa
 
 The account is designed to be parallel to that given in [[colimits of normal spaces]], centering particularly on how paracompactness may be reformulated in terms of an extension or selection property. The relevant result, due to Ernest Michael, is particularly well-adapted to the study of colimits. 
 
-In the sequel, a *paracompactum* (pl. *paracompacta*) is a paracompact Hausdorff space, just as [[compactum]] means a compact Hausdorff space. 
+In the sequel, a *paracompactum* (pl. *paracompacta*) is a paracompact Hausdorff space, just as [[compactum]] is a compact Hausdorff space. 
 
 ## Basic results 
 
@@ -27,7 +27,7 @@ A closed subspace $A$ of a paracompactum $X$ is also a paracompactum.
 
 +-- {: .proof} 
 ###### Proof 
-Suppose $U_\alpha$ is an open cover of $A$; for each $\alpha$ consider $\neg A \cup U_\alpha$ as the maximal open $V_\alpha$ in $X$ such that $U_\alpha = V_\alpha \cap A$. The $V_\alpha$ cover $X$. If $\mathcal{V}$ is a locally finite open refinement of this cover (via paracompactness of $X$), then the family $\{V \cap A: V \in \mathcal{V}\}$ is a locally finite open refinement of the family of sets $U_\alpha$. 
+Let $U_\alpha$ be an open cover of $A$; note $\neg A \cup U_\alpha$ is the maximal open $V_\alpha$ in $X$ such that $U_\alpha = V_\alpha \cap A$. The $V_\alpha$ cover $X$. If $\mathcal{V}$ is a locally finite open refinement of this cover (via paracompactness of $X$), then the family $\{V \cap A: V \in \mathcal{V}\}$ is a locally finite open refinement of the family of sets $U_\alpha$. Finally, Hausdorffness is a hereditary property. 
 =-- 
 
 +-- {: .num_lemma #poclosed} 
@@ -50,7 +50,7 @@ If moreover $i$ is an open inclusion, then for any open $U \subseteq C$ we have 
 
 (See also [[Michael's theorems]].)
 
-It is well-known that a $T_1$ space $X$ is a paracompactum iff every open cover of $X$ admits a subordinate partition of unity. Michael's innovation was in figuring out how the partition of unity characterization may be recast in terms of existence of continuous sections of suitable projection maps. 
+It is well-known that a $T_1$ space $X$ is a paracompactum iff every open cover of $X$ [admits a subordinate partition of unity](/nlab/show/paracompact+Hausdorff+spaces+equivalently+admit+subordinate+partitions+of+unity). Michael's innovation was in working out how the partition of unity characterization may be recast in terms of existence of continuous sections of suitable projection maps. 
 
 From here on out, all spaces will be assumed to be $T_1$ ([[singletons]] are [[closed subset|closed]]); see [[separation property]]. 
 
