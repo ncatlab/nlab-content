@@ -70,22 +70,22 @@ The first stable homotopy groups of the [[sphere spectrum]] $\mathbb{S}$
 The following tables for the [[p-primary components]] of $\pi_\bullet$ in low degrees  are taken from ([Hatcher](#Hatcher)), where in turn they were generated based on ([Ravenel 86](#Ravenel86)).
 
 The horizontal index is the degree $n$ of the stable homotopy group $\pi_n$. The appearance of a string of $k$ connected dots vertically above index $n$ means that there is a [[direct sum|direct summand]] [[primary group]] of [[order of a group|order]] $p^k$. The bottom rows in each case are given by the [[image of the J-homomorphism]].
-See example \ref{InterpretTable} below for illustration.
+See example \ref{InterpretTable} below for illustration (graphics taken from [Hatcher's website](http://www.math.cornell.edu/~hatcher/)).
 
 
 **$p = 2$-primary component**
 
-<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D2pic.gif" alt="stable homotopy groups of spheres at 2" />
+<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D2pic.gif" alt="stable homotopy groups of spheres at 2" width="800" />
 
 
 **$p = 3$-primary component**
 
-<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D3pic.gif" alt="stable homotopy groups of spheres at 3" />
+<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D3pic.gif" alt="stable homotopy groups of spheres at 3" width="800" />
 
 
 **$p = 5$-primary component**
 
-<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D5pic.gif" alt="stable homotopy groups of spheres at 5" />
+<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D5pic.gif" alt="stable homotopy groups of spheres at 5" width="800" />
 
 
 +-- {: .num_example #InterpretTable}
