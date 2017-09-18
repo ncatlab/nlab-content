@@ -14,45 +14,101 @@
 * table of contents
 {:toc}
 
-## Properties
- {: #title}
 
-There is a classic theorem about maps from [[compact spaces]] to [[Hausdorff spaces]] which states:
+## Statement
 
-+-- {: .num_theorem #theorema .thplain }
-###### Theorem ######
-Let $C$ be a [[compact space]] and $H$ be a [[Hausdorff space]]. Let $f\colon C \to H$ be a [[continuous map|continuous]] [[bijection]]. Then $f$ is a [[homeomorphism]].
-=--
++-- {: .num_prop #MapsFromCompactSpacesToHausdorffSpacesAreClosed}
+###### Proposition
+**(maps from compact spaces to Hausdorff spaces are closed and proper)**
 
-An immediate corollary is that the two spaces involved are both [[compact Hausdorff spaces]].
+Let $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that 
 
-The idea that this captures is that Hausdorffness is about having "enough" open sets whilst compactness is about having "not too many". Thus a [[compact Hausdorff space]] has both "enough" and "not too many". This theorem says that both conditions are at their limit: if we try to have more open sets, we lose compactness. If we try to have fewer open sets, we lose Hausdorffness.
+1. $(X,\tau_X)$ is a [[compact topological space]];
 
-The above theorem is a special case of a slightly more general result.
+1. $(Y,\tau_Y)$ is a [[Hausdorff topological space]].
 
-+-- {: .num_theorem #theoremb .thplain }
-###### Theorem ######
-Let $C$ be a [[compact space]] and $H$ be a [[Hausdorff space]]. Let $f\colon C \to H$ be a [[continuous map]]. Then $f$ is [[closed map|closed]] and [[proper map|proper]].
+Then $f$ is 
+
+1. a [[closed map]];
+
+1. a [[proper map]].
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
+For the first statement, we need to show that if $C \subset X$ is a [[closed subset]] of $X$, then also $f(C) \subset Y$ is a closed subset of $Y$.
 
-To prove this, we need to show that a closed subset of $C$ is taken to a closed subset of $H$ and that the preimage of a compact subset of $H$ is compact in $C$.  Both follow from the fact that closed subsets of a compact set are compact and that compact subsets of a Hausdorff space are closed.
+Now 
 
-For the first, let $D \subseteq C$ be closed. As it is a closed subset of a compact space, it is compact. Since $f$ is continuous, $f(D)$ is a compact subset of $H$. Thus as $H$ is a Hausdorff space, $f(D)$ is closed.
+1. since [[closed subsets of compact spaces are compact]] it follows that $C \subset C$ is also compact;
 
-For the second, let $G \subseteq H$ be compact.  As it is a compact subset of a Hausdorff space, it is closed.  Thus as $f$ is continuous, $f^{-1}(G)$ is closed in $C$.  Hence as $C$ is compact, $f^{-1}(G)$ is compact.
+1. since [[continuous images of compact spaces are compact]] it then follows that $f(C) \subset Y$ is compact;
+
+1. since [[compact subspaces of Hausdorff spaces are closed]] it finally follow that $f(C)$ is also closed in $Y$.
+
+For the second statement we need to show that if $C \subset Y$ is a [[compact topological space|compact subset]], then also its [[pre-image]] $f^{-1}(C)$ is compact.
+
+Now 
+
+1. since [[compact subspaces of Hausdorff spaces are closed]] it follows that $C \subse Y$ is closed;
+
+1. since [[pre-images]] under continuous of closed subsets are closed, also $f^{-1}(C) \subset X$ is closed;
+
+1. since [[closed subsets of compact spaces are compact]], it follows that $f^{-1}(C)$ is compact.
 
 =--
 
-## Related entries
+## Consequences
 
++-- {: .num_cor #ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms}
+###### Corollary ######
+**(continuous bijections from compact spaces to Hausdorff spaces are homeomorphisms)**
+
+Let $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[continuous function]] between [[topological spaces]] such that 
+
+1. $(X,\tau_X)$ is a [[compact topological space]];
+
+1. $(Y,\tau_Y)$ is a [[Hausdorff topological space]].
+
+1. $f \;\colon\; X \longrightarrow Y$ is a [[bijection]] of [[sets]].
+
+Then $f$ is a [[homeomorphism]], i. e. its [[inverse function]] $Y \to X$ is also a [[continuous function]].
+
+In particular then both $(X,\tau_X)$ and $(Y, \tau_Y)$ are [[compact Hausdorff spaces]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Write $g \colon Y \to X$ for the [[inverse function]] of $f$. 
+
+We need to show that $g$ is continuous, hence that for $U \subset X$ an [[open subset]], then also its [[pre-image]] $g^{-1}(U) \subset Y$ is open in $Y$.
+By passage to [[complements]], this is equivalent to the statement that for $ \subset X$ a [[closed subset]] then the [[pre-image]] $g^{-1}(C) \subset Y$ is also closed in $Y$. 
+
+But since $g$ is the [[inverse function]] to $f$, its [[pre-images]] are the [[images]] of $f$. Hence the last statement above equivalently says that $f$ sends closed subsets to closed subsets. This is true by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+The idea captured by corollary \ref{ContinuousBijectionsFromCompactSpacesToHausdorffSpacesAreHomeomorphisms} is that [[Hausdorff topological space|Hausdorffness]] is about having "enough" [[open sets]] whilst [[compact topological space|compactness]] is about having "not too many". Thus a [[compact Hausdorff space]] has both "enough" and "not too many". This theorem says that both conditions are at their limit: if we try to have more open sets, we lose compactness. If we try to have fewer open sets, we lose Hausdorffness.
+
+=--
+
+
+
+## Related entries
 
 * [[a CW-complex is a Hausdorff space]]
 
 * [[Hausdorff implies sober]]
+
+* [[continuous image of a compact space is compact]]
 
 * [[closed subsets of compact spaces are compact]]
 
@@ -61,6 +117,7 @@ For the second, let $G \subseteq H$ be compact.  As it is a compact subset of a 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 
+[[!redirects map from compact space to Hausdorff space]]
 [[!redirects map from compact space to Hausdorff space]]
 [[!redirects map from a compact space to a Hausdorff space]]
 [[!redirects maps from a compact space to a Hausdorff space]]
