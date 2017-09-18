@@ -1,5 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 In model theory, an ultrapower of a structure with respect to an ultrafilter is a common method for creating new structures, with applications to nonstandard arithmetic and nonstandard analysis. It is a standard construction for constructing models which embody infinite and infinitesimal quantities, as in [[Abraham Robinson]]'s nonstandard analysis. 
