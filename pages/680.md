@@ -254,7 +254,7 @@ as an [[sSet]]-[[enriched functor|enriched]] adjunction. Moreover, by the above 
 This means we have a [[simplicial Quillen adjunction]]
 
 $$
-  ( \Gamma F \dashv U N) : Ch_\bullet^+ \stackrel{\overset{}{\leftarrow}}{\underset{U N}{\to}}
+  ( \Gamma F \dashv U N) : Ch_\bullet^+ \stackrel{\overset{}{\leftarrow}}{\underset{U N}{\to}} sSet
   \,.
 $$
 
