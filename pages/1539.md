@@ -17,7 +17,7 @@
 
 A quasitopos is a particular kind of [[category]] that has properties similar to that of a [[topos]], but is not quite a [[topos]].  
 
-Instead of the usual [[subobject classifier]], it has a classifier only for *[[strong monomorphism|strong]]* [[subobject]]s.
+Instead of the usual [[subobject classifier]], it has a classifier only for *[[strong monomorphism|strong]]* [[subobject]]s. It satisfies the uniqueness, but not the existence, part of the sheaf axioms ([[Elephant]] A2.6).
 
 ## Definition
 
