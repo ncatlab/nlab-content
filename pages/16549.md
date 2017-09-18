@@ -122,9 +122,13 @@ Discussion in [[synthetic differential geometry]] is, under the name "bundles of
 
 * {#Kock09} [[Anders Kock]], p. 39 of _Synthetic Geometry of Manifolds_, 2009 ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
-In terms of [[differential cohesion]]
+Discussion in [[differential cohesion]] is in
 
-* _[differential cohesion -- Frame bundles](differential+cohesive+%28infinity%2C1%29-topos#GLnTangentBundles)_
+* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
+and formalization in [[homotopy type theory]] in 
+
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, PhD Thesis, 2017
 
 Relation to the [[tangent complex]] is discussed in 
 
