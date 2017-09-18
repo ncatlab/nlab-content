@@ -1,1 +1,18 @@
-A [[function]] on a [[group]] is a **class function** if it is invariant under conjugacy, i.e. it is equivalent to a function on the set of [[conjugacy class]]es. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[function]] on a [[group]] is a **class function** if it is [[invariant]] under [[conjugation action]], i.e. it is equivalent to a function on the set of [[conjugacy classes]]. 
+
+## Examples
+
+Every [[group character]] is in particular a class function.
+
+## Related concept
+
+* [[Schur orthogonality relation]]
+
+[[!redirects class functions]]
