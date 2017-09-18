@@ -17,6 +17,8 @@ More generally, in any [[concrete category]], the inverse of any [[isomorphism]]
 
 * [[inverse]], [[inverse morphisms]]
 
+* [[inverse functor]]
+
 * [[isomorphism]]
 
 Not really related
