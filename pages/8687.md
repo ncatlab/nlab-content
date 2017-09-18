@@ -75,12 +75,12 @@ This result is essentially tautologous and holds for any commutative ring of arb
 
 +-- {: .num_prop} 
 ###### Proposition 
-For $R = k$ a field of characteristic zero, the unit $L \to P U(L)$ is an isomorphism. 
+For $R = k$ a [[field]] of [[characteristic zero]], the [[adjunction unit|unit]] $L \to P U(L)$ is an [[isomorphism]]. 
 =-- 
 
 An immediate consequence is that for such ground fields $k$, the functor $U: LieAlg \to BiAlg$ is [[fully faithful functor|fully faithful]]. Of course, $U$ lands in the full subcategory of cocommutative Hopf algebras, which is exactly the category of [[group objects]] in the [[cartesian monoidal category]] of [[cocommutative coalgebras]]. 
 
-The Milnor-Moore theorem gives further information: for Hopf algebras over a field of characteristic zero, the counit $U P(H) \to H$ is a monomorphism, and an isomorphism in case $H$ satisfies a suitable conilpotency condition. 
+The [[Milnor-Moore theorem]] gives further information: for Hopf algebras over a field of characteristic zero, the counit $U P(H) \to H$ is a monomorphism, and an isomorphism in case $H$ satisfies a suitable conilpotency condition. 
 
 (More needs to be added.) 
 
