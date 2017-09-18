@@ -219,4 +219,6 @@ Disucssion of [[twisted cohomology|twists]] of KR-theory by [[HZR-theory]] in de
 
 [[!redirects KR-theory]]
 
+[[!redirects KR]]
+
 [[!redirects real K-theory]]
