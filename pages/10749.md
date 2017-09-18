@@ -49,6 +49,8 @@ with [[symmetric monoidal smash product of spectra]]
 
 * [[excisive functor]], [[model structure on excisive functors]]
 
+* [[Model categories of diagram spectra]]
+
 ## References
 
 The projective and injective model structure on symmetric spectra are due to
@@ -65,7 +67,7 @@ See also
 
 Another proof, beyond ([Hovey-Shipley-Smith 00](#HoveyShipleySmith00)), of the Quillen equivalence to the [[Bousfield-Friedlander model structure]] is due to
 
-* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], theorem 0.1 of _Model categories of diagram spectra_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], theorem 0.1 of _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
 The Quillen equivalence to the [[model structure on S-modules]] is due to 
 
