@@ -41,7 +41,9 @@ A [[functor]] $U: D \to C$ is **monadic** (resp. **strictly monadic**) if it has
 
 Various versions of Beck's [[monadicity theorem]] (old-fashioned name of some schools: tripleability theorem) give sufficient, and sometimes necessary, conditions for a given functor to be monadic. There are also dual, [[comonadic functor|comonadic versions]].
 
-A monadic functor is strictly monadic if and only if it is also an [[amnestic functor|amnestic]] [[isofibration]]: clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the comparison functor $K$ is also amnestic, and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories.
+A monadic functor is strictly monadic if and only if it is also an [[amnestic functor|amnestic]] [[isofibration]]: clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the comparison functor $K$ is also amnestic, and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories. 
+
+Beware that monadic functors are not closed under composition. For a specific example: the category of [[reflexive graph|reflexive quivers]] is monadic over $Set$ via the functor $RefGph \to Set$ sending a graph to its set of edges, and the category of categories is monadic over reflexive graphs via the forgetful functor $Cat \to RefGph$, but $Cat$ is not monadic over $Set$ (via any functor whatsoever, since such categories are [[regular categories]] but $Cat$ is not). 
 
 
 ## Related concepts
