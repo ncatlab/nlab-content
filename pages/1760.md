@@ -92,7 +92,7 @@ In section 6.1.3 of
 
 a definition of 
 [[groupoid object in an (infinity,1)-category]] $\mathbf{C}$ is given
-as a homotopy simplicial objects, i.e. a [[(infinity,1)-functor]]
+as a homotopy simplicial object, i.e. a [[(infinity,1)-functor]]
 
 $$
   C  : \Delta^{op} \to \mathbf{C}
