@@ -40,7 +40,7 @@ The relation of adinkras to the classification of [[super Riemann surfaces]] via
 
 * {#DoranIgaLandweberMendez-Diez13} [[Charles Doran]], [[Kevin Iga]], [[Greg Landweber]], [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras_ ([arXiv:1311.3736](https://arxiv.org/abs/1311.3736))
 
-* {#DoranIgaKostiukMendes-Diez16} [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]]_, Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II_ ([arXiv:1610.09983](https://arxiv.org/abs/1610.09983))
+* {#DoranIgaKostiukMendes-Diez16} [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II_ ([arXiv:1610.09983](https://arxiv.org/abs/1610.09983))
 
 Further developments includes
 
