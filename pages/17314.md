@@ -25,4 +25,6 @@ A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] 
 
 * [[created limit]]
 
+* [[topological concrete category]] 
+
 * **lifted limit**
