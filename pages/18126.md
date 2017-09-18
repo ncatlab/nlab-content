@@ -3392,20 +3392,138 @@ $\,$
 ## Separation axioms
  {#SeparationAxioms}
 
-The plain definition of _[[topological space]]_ ([above](#TopologicalSpaces)) happens to allow examples where distinct points or distinct subsets of the underlying set of a topological space appear as more-or-less unseparable as seen by the topology on that set.
+The plain definition of _[[topological space]]_ ([above](#TopologicalSpaces)) happens to admit examples where distinct points or distinct subsets of the underlying set appear as more-or-less unseparable as seen by the topology on that set.
 
-+-- {: .num_example}
+The extreme class of examples of topological spaces in which the open subsets do not distinguish
+distinct underlying points, or in fact any distinct subsets, are the [[codiscrete spaces]] (example \ref{CoDiscreteTopology}).
+Here are some less extreme examples:
+
++-- {: .num_example #SierpinskiNonSeparated}
 ###### Example
+**(open neighbourhoods in the Sierpinski space)**
 
 Consider the [[Sierpinski space]] from example \ref{SierpinskiSpace}, whose underlying set consists of
 two points $\{0,1\}$, and whose open subsets form the set $\tau = \{ \emptyset, \{1\}, \{0,1\} \}$.
 This means that the only (open) neighbourhood of the point $\{0\}$ is the entire space.
+Incidentally, also the [[topological closure]] of $\{0\}$  (def. \ref{ClosedSubset}) is the entire space.
+=--
+
++-- {: .num_example #LineWithTwoOrigins}
+###### Example
+**([[line with two origins]])**
+
+Consider the [[disjoint union space]] $\mathbb{R} \sqcup \mathbb{R}$ (example \ref{DisjointUnionOfTopologicalSpaces}) of two copies of the [[real line]] $\mathbb{R}$ regarded as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}), which is equivalently the [[product topological space]] (example \ref{BinaryProductTopologicalSpace})
+of $\mathbb{R}$ with the [[discrete topological space]] on the 2-element set (example \ref{CoDiscreteTopology}): 
+
+$$
+  \mathbb{R} \sqcup \mathbb{R} \;\simeq\; \mathbb{R} \times Disc(\{0,1\})
+$$
+
+Moreover, consider the [[equivalence relation]] on the underlying set which identifies every
+point $x_i$ in the $i$th copy of $\mathbb{R}$ with the corresponding point in the other, the $(1-i)$th copy, except when $x = 0$:
+
+$$
+  \left(
+    x_i \sim y_j
+  \right)
+   \;\Leftrightarrow\;
+  \left(
+    \left(
+      x = y
+    \right)
+    \,\text{and}\,
+    \left(
+      \left(
+        x \neq 0
+      \right)
+      \,\text{or}\,
+      \left(
+        i = j
+      \right)
+    \right)
+  \right)
+  \,.
+$$
+
+The [[quotient topological space]] by this equivalence relation (def. \ref{QuotientTopologicalSpace})
+
+$$
+  \left(
+    \mathbb{R} \sqcup \mathbb{R}
+  \right)/\sim
+$$
+
+is called the **line with two origins**. These "two origins" are the points $0_0$ and $0_1$.
+
+We claim that in this space _every neighbourhood of $0_0$ intersects every neighbouhood of $0_1$.
+
+Because, by definition of the [[quotient topological space|quotient space topology]], the [[open neighbourhoods]] of $0_i \in   \left( \mathbb{R} \sqcup \mathbb{R} \right)/\sim$ are precisely those that contain subsets of the form
+
+$$
+ (-\epsilon, \epsilon)_i
+  \;\coloneqq\;
+ (-\epsilon,0) \cup \{0_i\} \cup (0,\epsilon)
+ \,.
+$$
+
+But this means that the "two origins" $0_0$ and $0_1$ may not be [separated by neighbourhoods](separation+axioms#SeparatedByNeighbourhoods), since the intersection of
+$(-\epsilon, \epsilon)_0$ with $(-\epsilon, \epsilon)_i$ is always non-empty:
+
+$$
+  (-\epsilon, \epsilon)_0
+   \cap
+  (-\epsilon, \epsilon)_1
+  \;=\;
+  (-\epsilon, 0) \cup (0, \epsilon)
+  \,.
+$$
 
 =--
 
-In many applications one wants to exclude at least some of such degenerate examples from the discussion. The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _[[separation axioms]]_.
++-- {: .num_example #RQuotientedByQ}
+###### Example
+**([[real numbers]] quotiented by [[rational numbers]])**
 
-These axioms are all of the form of saying that two subsets (of certain forms) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the underlying set of points, then there exists at least one [[open subset]] that contains one but not the other.
+Consider the [[real line]] $\mathbb{R}$ regarded
+as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology})
+and consider the [[equivalence relation]] $\sim$ on $\mathbb{R}$ which identifies two [[real numbers]] if they
+differ by a [[rational number]]:
+
+$$
+  \left(
+    x \sim y
+  \right)
+    \;\Leftrightarrow\;
+  \left(
+    \underset{p/q \in \mathbb{Q} \subset \mathbb{R}}{\exists}
+    \left(
+      x = y + p/q
+    \right)
+  \right)
+  \,.
+$$
+
+Then the [[quotient topological space]] (def. \ref{QuotientTopologicalSpace})
+
+$$
+  \mathbb{R}/\mathbb{Q}
+    \;\coloneqq\;
+  \mathbb{R}/\sim
+$$
+
+is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}), 
+hence its topology does not distinguish any distinct proper subsets.
+
+=--
+
+In many applications one wants to exclude at least some such exotic examples 
+of topologial spaces from the discussion and instead concentrate on those examples for which 
+the topology recognizes the separation of distinct points, or of more general
+disjoint subsets. 
+The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _[[separation axioms]]_
+which we discuss in the following.
+
+These axioms are all of the form of saying that two subsets (of certain kinds) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the underlying set of points, then there exists at least one [[open subset]] that contains one but not the other.
 
 In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Historically this axiom was originally taken as part of the definition of topological spaces,
 and it is still often (but by no means always) considered by default.
@@ -3427,10 +3545,11 @@ All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}
 
 
 
-
 ### $T_n$ spaces
  {#TnTopologicalSpaces}
 
+There are many variants of separation axims. The classical ones are labeled $T_n$ 
+(for German "Trennungsaxiom"). These we now introduce in def. \ref{HausdorffTopologicalSpace} and def. \ref{NormalSpace}:
 
 +-- {: .num_defn #HausdorffTopologicalSpace}
 ###### Definition
@@ -3472,16 +3591,33 @@ $$
 For definiteness, we re-state these conditions formally. Write $x,y \in X$ for points in $X$, write $U_x, U_y \in \tau$ for open [[neighbourhoods]] of these points. Then:
 
 * **(T0**) $\underset{x \neq y}{\forall} \left(
-    \left( \underset{U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \right) \right) \vee \left( \underset{U_x}{\exists} \left( U_x \cap \{y\} = \emptyset  \right) \right) \right)$
+    \left( \underset{U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \right) \right) 
+      \,\text{or}\, 
+    \left( \underset{U_x}{\exists} \left( U_x \cap \{y\} = \emptyset  \right) \right) \right)$
 
-* **((T1)** $\underset{x \neq y}{\forall} \left(\underset{U_x,U_y}{\exists} \left(\left( \{x\} \cap U_y = \emptyset\right) \,\wedge \, \left( U_x \cap \{y\}  = \emptyset \right)\right) \right)$
+* **((T1)** $\underset{x \neq y}{\forall} \left(\underset{U_x,U_y}{\exists} \left(\left( \{x\} \cap U_y = \emptyset\right) 
+  \, \text{and} \, \left( U_x \cap \{y\}  = \emptyset \right)\right) \right)$
 
 * **(T2)** $\underset{x \neq y}{\forall} \left( \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right) \right)$
 
 =--
 
 
-$\,$
+
++-- {: .num_example}
+###### Example
+
+Examples of topological spaces that are _not_ [[Hausdorff topological spaces|Hausdorff]] (def. \ref{HausdorffTopologicalSpace})
+include
+
+1. the [[Sierpinski space]] (example \ref{SierpinskiNonSeparated}),
+
+1. the [[line with two origins]] (example \ref{LineWithTwoOrigins}),
+
+1. the [[quotient topological space]] $\mathbb{R}/\mathbb{R}$ (example \ref{RQuotientedByQ}.) 
+
+
+=--
 
 +-- {: .num_example #HausdorffMetricSpace}
 ###### Example
@@ -3501,29 +3637,19 @@ the following are equivalent:
 
 1. $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace});
 
-1. $(X,\tau)$ is a [[discrete topological space]] (def. \ref{CoDiscreteTopology})
+1. $(X,\tau)$ is a [[discrete topological space]] (def. \ref{CoDiscreteTopology}).
 
 =--
 
-+-- {: .num_prop #TiSubspaces}
-###### Proposition
++-- {: .num_example #TiSubspaces}
+###### Example
+**(subspace of $T_n$-space is $T_n$)**
 
 Let $(X,\tau)$ be a [[topological space]] satisfying the $T_i$ [[separation axiom]] according to
 def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] $S \subset X$ (example \ref{SubspaceTopology}) satisfies $T_i$.
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-Let $x, y \in S \subset X$ be two distinct points. We need to construct various open neighbourhoods of these
-in $S$
-not containing the other point and possibly (for $T_2$) not intersecting each other.
-Now by assumptions that the ambient space $(X,\tau)$ satisfies the given axiom, there exist
-open neighbourhoods with the analogous properties in $X$. By the nature of the subspace topology,
-their restriction to $S$ are still open, and clearly still satisfy these properties.
-
-=--
 
 
 
@@ -3531,7 +3657,8 @@ $\,$
 
 **Separation in terms of topological closures**
 
-The conditions $T_0$, $T_1$ and $T_2$ have the following equivalent form in terms of [[topological closures]] (def. \ref{ClosedSubset}):
+The conditions $T_0$, $T_1$ and $T_2$ have the following equivalent formulation in terms of [[topological closures]] (def. \ref{ClosedSubset}).
+
 
 +-- {: .num_prop #T0InTermsOfClosureOfPoints}
 ###### Proposition
@@ -3726,104 +3853,6 @@ among all [[topological space]], then the correct way to construct quotients and
 and then apply the $T_n$-reflection to the result.
 
 
-+-- {: .num_example #LineWithTwoOrigins}
-###### Example
-**([[line with two origins]])**
-
-Consider the [[disjoint union]] $\mathbb{R} \sqcup \mathbb{R}$ of two copies of the [[real line]] $\mathbb{R}$ regarded
-as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}). Moreover, consider the [[equivalence relation]] on the underlying set which identifies every
-point $x_i$ in the $i$th copy of $\mathbb{R}$ ($i \in \{0,1\}$) with the corresponding point in the other, the $(1-i)$th copy, except when $x = 0$:
-
-$$
-  \left(
-    x_i \sim y_j
-  \right)
-   \;\Leftrightarrow\;
-  \left(
-    \left(
-      x = y
-    \right)
-    \,\text{and}\,
-    \left(
-      \left(
-        x \neq 0
-      \right)
-      \,\text{or}\,
-      \left(
-        i = j
-      \right)
-    \right)
-  \right)
-  \,.
-$$
-
-The [[quotient topological space]] by this equivalence relation (def. \ref{QuotientTopologicalSpace})
-
-$$
-  \left(
-    \mathbb{R} \sqcup \mathbb{R}
-  \right)/\sim
-$$
-
-is called the **line with two origins**.
-
-This is a basic example of a topological space which is a [[non-Hausdorff topological space]]:
-
-Because by definition of the [[quotient topological space|quotient space topology]], the [[open neighbourhoods]] of $0_i \in   \left( \mathbb{R} \sqcup \mathbb{R} \right)/\sim$ are precisely those that contain subsets of the form
-
-$$
- (-\epsilon, \epsilon)_i
-  \;\coloneqq\;
- (-\epsilon,0) \cup \{0_i\} \cup (0,\epsilon)
- \,.
-$$
-
-But this means that the "two origins" $0_0$ and $0_1$ may not be [separated by neighbourhoods](separation+axioms#SeparatedByNeighbourhoods), since the intersection of
-$(-\epsilon, \epsilon)_0$ with $(-\epsilon, \epsilon)_i$ is always non-empty:
-
-$$
-  (-\epsilon, \epsilon)_0
-   \cap
-  (-\epsilon, \epsilon)_1
-  \;=\;
-  (-\epsilon, 0) \cup (0, \epsilon)
-  \,.
-$$
-
-=--
-
-+-- {: .num_example #RQuotientedByQ}
-###### Example
-
-Consider the [[real line]] $\mathbb{R}$ regarded
-as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology})
-and consider the [[equivalence relation]] $\sim$ on $\mathbb{R}$ which identifies two [[real numbers]] if they
-differ by a [[rational number]]:
-
-$$
-  \left(
-    x \sim y
-  \right)
-    \;\Leftrightarrow\;
-  \left(
-    \underset{p/q \in \mathbb{Q} \subset \mathbb{R}}{\exists}
-      x = y + p/q
-  \right)
-  \,.
-$$
-
-Then the [[quotient topological space]] (def. \ref{QuotientTopologicalSpace})
-
-$$
-  \mathbb{R}/\mathbb{Q}
-    \;\coloneqq\;
-  \mathbb{R}/\sim
-$$
-
-is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}), hence in particular a
-[[non-Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}).
-
-=--
 
 +-- {: .num_prop #HausdorffReflection}
 ###### Proposition
