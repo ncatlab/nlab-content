@@ -85,7 +85,7 @@ This we review and discuss [below](#AxiomaticDifferentialCohomology). First we r
 ## **1)** Langlands correspondence and Weil uniformization
  {#LanglandsAndWeil}
 
-The central idea of the [[Langlands correspondence]] (see for instance ([Frenkel 05](#Frenkel05)) for a review of the basic aspects that we refer to) is that given a [[global field]] $K$, then $n$-dimensional [[linear representations]] of its [[Galois group]] are in correspondence with certain linear representations -- called _[[automorphic representations]]_ -- of the [[general linear group]] $GL_n(\mathbb{A}_K)$ with [[coefficients]] in the [[ring of adeles]] $\mathbb{A}_K$ of $K$ on the linear space of [[functions]] on the double [[coset space]] 
+The central idea of the [[Langlands correspondence]] (see for instance ([Frenkel 05](#Frenkel05)) for a review of the basic aspects that we refer to) is that given a [[global field]] $K$, then $n$-dimensional [[linear representations]] of its [[Galois group]] are in correspondence with certain linear representations -- called _[[automorphic representations]]_ -- of the [[general linear group]] $GL_n(\mathbb{A}_K)$ with [[coefficients]] in the [[ring of adeles]] $\mathbb{A}_K$ of $K$ on the linear space of [[functions]] on the [[double coset space]] 
 
 $$
   GL_n(K) \;\backslash\; GL_n(\mathbb{A}_{K}) \;/\; GL_n(\mathbb{O}_K)
