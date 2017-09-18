@@ -52,7 +52,7 @@ In ([Lurie](#Lurie)) a formalization and proof of the cobordism hypothesis is de
 
 #### Statement
 
-For $\mathcal{C}$ a [[symmetric monoidal (∞,n)-category]] write $Core(\mathcal{C})$ for its [[core]] (the maximal [[∞-groupoid]] in $\mathcal{C}$).
+For $\mathcal{C}$ a [[symmetric monoidal (∞,n)-category with duals]] write $Core(\mathcal{C})$ for its [[core]] (the maximal [[∞-groupoid]] in $\mathcal{C}$).
 
 For $\mathcal{C}$, $\mathcal{D}$ two [[symmetric monoidal (∞,n)-categories]], write   $Fun^\otimes(\mathcal{D}, \mathcal{C} )$ for  the [[(∞,n)-category]] of symmetric monoidal [[(∞,n)-functors]] between them.
 
@@ -90,7 +90,7 @@ such that
 * the map 
 
   $$
-    pt^* : Fun^\otimes(Bord_n^{fr} , \mathcal{C} ) \to Core(\mathcal{C})
+    pt^* \;\colon\; Fun^\otimes(Bord_n^{fr} , \mathcal{C} ) \to Core(\mathcal{C})
   $$
 
   is an [[equivalence in an (∞,1)-category|equivalence]] of [[(∞,n)-categories]].
