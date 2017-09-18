@@ -1,9 +1,41 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[finite group|finite]] [[symmetry group]] of a [[tetrahedron]]. [[isomorphism|Isomorphic]] to the [[symmetric group]] of [[permutations]] of four elements ([Full tetrahedral group is isomorphic to S4](http://groupprops.subwiki.org/wiki/Full_tetrahedral_group_is_isomorphic_to_S4)).
+
+## Properties
+
+### Group cohomology
+
+The [[group cohomology]] of the tetrahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
+
+### As part of the ADE pattern
 
 [[!include ADE -- table]]
+
+
 
 ## References
 
 * Wikipedia, _[Tetrahedral symmetry](https://en.wikipedia.org/wiki/Tetrahedral_symmetry)_
+
+* {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
+
+* {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
+
 
 [[!redirects tetrahedral groups]]
