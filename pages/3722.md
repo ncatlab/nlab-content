@@ -80,7 +80,7 @@ These 14 words actually name distinct set-theoretic operations $P(X) \to P(X)$ f
 
 +-- {: .num_remark} 
 ###### Remark 
-At most 7 operations are possible with interior and closure, corresponding to the covariant Kuratowski operations. Thus there is a 7-element submonoid $K_{cov} \hookrightarrow K$. Spaces $X$ for which the topological action $K_{cov} \to Set(P(X), P(X)$ is *not* injective are of some structural interest; for instance, the spaces for which $C I C = I C$ are the [[extremally disconnected spaces]], whereas spaces for which $I C = C$ are those where the open sets are equivalence classes for some equivalence relation (partition spaces). Those for which $I = C$ are [[discrete spaces]]. 
+At most 7 operations are possible with interior and closure, corresponding to the covariant Kuratowski operations. Thus there is a 7-element submonoid $K_{cov} \hookrightarrow K$. Spaces $X$ for which the topological action $K_{cov} \to Set(P(X), P(X))$ is *not* injective are of some structural interest; for instance, the spaces for which $C I C = I C$ are the [[extremally disconnected spaces]], whereas spaces for which $I C = C$ are those where the open sets are equivalence classes for some equivalence relation (partition spaces). Those for which $I = C$ are [[discrete spaces]]. 
 =-- 
 
 +-- {: .num_remark} 
