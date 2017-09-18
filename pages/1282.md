@@ -134,7 +134,7 @@ The [[initial object]] in $Set$ is a set $X$ such that there is a unique map fro
 #### General colimits
 The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient set of the disjoint union $\coprod_{d \in Obj(D)} D(d)$: 
   $$ 
-    colim F \simeq (\coprod_{d\in D} F(d))/_\sim \,, 
+    colim F \simeq \left(\coprod_{d\in D} F(d)\right)/_\sim \,, 
   $$
   where the equivalence relation $\sim$ is that which is _generated_ by 
   $$
