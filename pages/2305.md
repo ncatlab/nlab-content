@@ -58,7 +58,7 @@ This is the [[codomain]] for the [[Maurer-Cartan form]] $\theta_{\Omega A}$ on $
 
 For more on this see at
 
-* _[structures in a cohesive infinit-topos -- de Rham cohomology](cohesive+%28infinity%2C1%29-topos+--+structures#deRhamCohomology)_
+* _[structures in a cohesive infinity-topos -- de Rham cohomology](cohesive+%28infinity%2C1%29-topos+--+structures#deRhamCohomology)_
 
 More precisely, $\flat_{dR} \Sigma A$ and $\Pi_{dR} \Omega A$ play the role of the non-negative degree and negative degree part, respectively of the de Rham complex with coefficients in $\Pi \flat_{dR} \Sigma A$. For more on this see at 
 
