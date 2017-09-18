@@ -381,7 +381,7 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 * [[operad]] / [[(∞,1)-operad]]
 
-
+* [Voevodsky](#Voevodsky) proves an equivalence between Lawvere theories and l-bijective [[C-systems]].
 
 
 ## References
@@ -433,6 +433,10 @@ Other references are
 * [[Enrico Vitale]], _Localization of Algebraic Categories_ , JPAA **108** (1996) pp.315-320.
 
 * [[Enrico Vitale]], _Localization of Algebraic Categories 2_ , JPAA **133** (1998) pp.317-326.
+
+Voevodsky's work:
+
+* [[Vladimir Voevodsky]] {#Voevodsky},  Lawvere theories and C-systems, 2015 [arxiv](http://arxiv.org/abs/1512.08104)
 
 
 [[!redirects lawvere theory]]
