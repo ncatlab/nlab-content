@@ -365,6 +365,15 @@ By designs of what [[scattering amplitudes]] are, all this are statements in [[p
 
 The fact that _perturbatively_ [[perturbative string theory]] is a [[UV-completion]] of perturbative [[quantum gravity]] may of course make one want to find something like [[non-perturbative string theory]]. While there are some hints as to what this might be (these days there are many hopes that the [[AdS-CFT correspondence]] provides a non-perturbative extension of the description of [[quantum gravity]] by [[string theory]]), this non-perturbative description remains unclear, in stark contrast to [[perturbative string theory]] which is a rather well-defined and conceptually well-understood. 
 
+### Do the extra dimensions lead to instability of 4 dimensional spacetime?
+ {#StabilityOfKKCompactification}
+
+The parameters of size and shape of the compactified dimensions in string theory, and in fact in any [[Kaluza-Klein compactification]], are called "[[moduli]]". Since they are part of the higher dimensional [[Riemannian metric|metric]], they are components of the higher dimensional field of [[gravity]] and hence are dynamical [[field (physics)|fields]] that evolve. The problem of their stability, hence the question whether there are dynamical mechanisms that make for instance the size of the compactified space remain stably at a given value, is famous as the problem of _[[moduli stabilization|moduli stabilization in string theory]]_.
+
+This problem used to be open until around 2002. Then it was realized that vacuum expectation values (VEVs) of the higher form fields ("fluxes") present in string theory generically induce effective potentials for moduli that may stabilize them.
+
+For [[type IIB string theory]]/[[F-theory]] this was argued in the influential article [KKLT 03](moduli+stabilization#KKLT03). An analogous moduli stabilization mechanism was also argued for [[M-theory on G2-manifolds]] by [Acharya 02](moduli+stabilization#Acharya02). It is the counting of all the many possible ways of stabilizing moduli via fluxes in type IIB that led to the now infamous discussion of the [[landscape of string theory vacua|landscape of type II string theory vacua]] (see also [below](#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)). In any case, there seems to be no lack of solutions of the stability problem. 
+
 ### What does it mean to say that string theory has a "landscape of solutions"?
  {#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions}
 
