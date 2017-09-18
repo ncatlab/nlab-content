@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.theorie.physik.uni-muenchen.de/cosmology/members/professors/sachs/index.html)
+
+## related $n$Lab entries
+
+* [[string field theory]]
+
+category: people
