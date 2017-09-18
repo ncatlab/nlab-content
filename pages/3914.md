@@ -337,17 +337,21 @@ An $E_\infty$ [[complex oriented cohomology theory]] $E$ is indeed equipped with
 
 ## References
 
+Quick discussion in terms of [[Thom classes]] is in 
+
+* [[Jacob Lurie]], lecture 5 of _[[Chromatic Homotopy Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
+
 A comprehensive account of the general abstract persepctive (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
- {#ABGHR}
+* {#ABGHR} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+ 
 
 * {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], section 6 of _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
  
 Lecture notes include
 
-* [[Mike Hopkins]] (notes by[[Andre Henriques]]), _The String orientation of tmf_  ([arXiv:0805.0743](http://arxiv.org/abs/0805.0743))
- {#Hopkins}
+* {#Hopkins} [[Mike Hopkins]] (notes by[[Andre Henriques]]), _The String orientation of tmf_  ([arXiv:0805.0743](http://arxiv.org/abs/0805.0743))
+ 
 
 which are motivated towards constructing the [[string orientation of tmf]], based on 
 
