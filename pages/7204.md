@@ -55,6 +55,21 @@ _Type II supergravity_ is a [[supergravity]] in [[dimension]] 10 which is the lo
 
 See the general references at [[supergravity]].
 
+### Solutions and BPS states
+
+Discussion of [[black branes]] and [[BPS states]] for type II supergravity includes
+
+
+* Andrew Callister, [[Douglas Smith]], _Topological BPS charges in 10 and 11-dimensional supergravity_, Phys. Rev. D78:065042,2008 ([arXiv:0712.3235](http://arxiv.org/abs/0712.3235))
+
+* Andrew Callister, [[Douglas Smith]], _Topological charges in $SL(2,\mathbb{R})$ covariant massive 11-dimensional and Type IIB SUGRA_, Phys.Rev.D80:125035,2009 ([arXiv:0907.3614](http://arxiv.org/abs/0907.3614))
+
+* Andrew Callister, _Topological BPS charges in 10- and 11-dimensional supergravity_, thesis 2010 ([spire](http://inspirehep.net/record/1221591?ln=en))
+
+
+* A. A. Golubtsova, V.D. Ivashchuk, _BPS branes in 10 and 11 dimensional supergravity_, talk at DIAS 2013 ([pdf slides](http://theor.jinr.ru/~diastp/summer13/lectures/Golubtsova.pdf))
+
+
 ### In terms of (exceptional) generalized complex geometry
  {#InTermsOfGeneralizedComplexGeometryReferences}
 
