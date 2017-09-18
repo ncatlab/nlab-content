@@ -6267,7 +6267,7 @@ $$
   J_{Top} \colon \{ D^n \overset{j_n}{\hookrightarrow} D^n \times I\}
 $$
 
-the generating cofibrations (def. \ref{TopologicalGeneratingCofibrations}) and generating acyclic cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of $(Top_{cg})_{Quillen}$ (theorem \ref{ModelStructureOnTopcg}), then
+the generating cofibrations (def. \ref{TopologicalGeneratingCofibrations}) and generating acyclic cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of $(Top_{cg})_{Quillen}$ (theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}), then
 their [[pushout-products]] (def. \ref{PushoutProduct}) are
 
 $$
