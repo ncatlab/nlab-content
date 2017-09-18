@@ -22,13 +22,13 @@
 In the mid 1970s Julian Cole proposed a topos-theoretic construction of spectra arising as right adjoints to forgetful functors that generalized [[Monique Hakim|M. Hakim's]] approach to the [[spectrum of a commutative ring]].
 
 ##Definition##
-Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _T-modelled toposes_ has 
+Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _T-modelled toposes_ is given as follows: 
 
-* objects pairs $(\mathcal{E},M)$ where $\mathcal{E}$ is a topos and $M$ a $T$-model in $\mathcal{E}$, 
+* objects are pairs $(\mathcal{E},M)$ where $\mathcal{E}$ is a topos and $M$ a $T$-model in $\mathcal{E}$, 
 
-* 1-cells $(\mathcal{F},L)\to (\mathcal{E},M)$ pairs $(p,f)$ with $p:\mathcal{F}\to\mathcal{E}$ a geometric morphism and $f:p^*M\to L$ a $T$-model homomorphism, and 
+* 1-cells $(\mathcal{F},L)\to (\mathcal{E},M)$ are pairs $(p,f)$ with $p:\mathcal{F}\to\mathcal{E}$ a geometric morphism and $f:p^*M\to L$ a $T$-model homomorphism, and 
 
-* 2-cells $(p,f)\to(q,g)$ is a [[natural transformation]] $\eta:p\to q$ such that $f=g\circ\eta_M$.
+* 2-cells $(p,f)\to(q,g)$ are [[natural transformations]] $\eta:p\to q$ such that $f=g\circ\eta_M$.
 
 $T-\mathfrak{Top}_N$ is the full sub-2-category such that $\mathcal{E}$ has a [[natural numbers object]].
 
