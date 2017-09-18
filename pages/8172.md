@@ -1639,7 +1639,7 @@ Observe that the [[left adjoint]] is a [[faithful functor]] (being a [[forgetful
 Let $\Gamma$ be a [[commutative Hopf algebroid]] over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], 
 Let $N \in \Gamma CoMod$ be a Hopf [[comodule]], def. \ref{CommutativeHopfAlgebroidComodule}, such that the underlying $A$-module is a [[projective module]] (a [[projective object]] in $A$[[Mod]]). 
 
-Then  (assuming the [[axiom of choice]]) every co-free commodule, prop. \ref{CoFreeComodules}, is an $F$-[[acyclic object]] for $F$ the [[hom functor]] $Hom_{\Gamma CoMod}(N,-)$.
+Then  (assuming the [[axiom of choice]]) every co-free comodule, prop. \ref{CoFreeComodules}, is an $F$-[[acyclic object]] for $F$ the [[hom functor]] $Hom_{\Gamma CoMod}(N,-)$.
 
 =--
 
