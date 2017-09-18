@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,6 +22,10 @@ A [[Kan fibration]] that at the same time is a [[weak homotopy equivalence]] is 
 Acyclic Kan fibrations are precisely the morphisms of [[simplicial sets]] that have the [[right lifting property]] against all [[boundary of a simplex|simplex boundary inclusions]].
 
 They are the [[acyclic fibrations]] in the standard [[model structure on simplicial sets]].
+
+## Related entries
+
+* [[simplicial homotopy theory]]
 
 [[!redirects acyclic Kan fibrations]]
 
