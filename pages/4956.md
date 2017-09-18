@@ -14,30 +14,78 @@
 
 ## Idea
 
-_Differentiation_ of a [[function]] $f : X \to Y$ is the process that assigns to each point $x \in X$ _[[differences]]_ $f(y) - f(x)$ between the value $f(x)$ of the function at that point, and its value at all [[infinitesimal space|infinitesimally]] nearby points $y$. This collection of information is called the _derivative_ $d f$ of the function.
+_Differentiation_ is the process that assigns to a [[function]] $f : X \to Y$ its *derivative*, sometimes denoted $d f$. The derivative is a function that, roughly speaking, assigns to each point $x \in X$ the linear transformation $d f_x$ that maps [[infinitesimal space|infinitesimal]] [[differences]] $y - x$ (for points $y$ infinitesimally close to $x$) to infinitesimal differences $f(y) - f(x)$. 
 
+## Definitions 
 
-## Definition
+### Classical (analytic) definitions 
 
-_Differentiation_ is the [[functor]] $d : Diff \to Diff$ on the [[category]] [[Diff]] of [[smooth manifold]]s that sends
+Classically, if $f: \mathbb{R}^n \to \mathbb{R}$ is a function, the derivative $d f_x$ at a point $x \in \mathbb{R}^n$ is defined by a [[convergence|limiting process]]: it is the unique (when it exists) [[linear transformation]] $L: \mathbb{R}^n \to \mathbb{R}$ such that 
 
-* a manifold $X$ to its [[tangent bundle]] $T X$;
+$$\lim_{h \to 0} \frac{f(x + h) - f(x) - L h}{{|h|}} = 0$$ 
+
+or in other words such that 
+
+$$f(y) = f(x) + L(y - x) + g(y)$$ 
+
+where $g(y)$ is $o({|y - x|})$ (see [[o-notation]]). We say in that case that $f$ is *differentiable* at $x$, with *derivative* $d f_x = L$. When $n = 1$, such a linear transformation $L: \mathbb{R} \to \mathbb{R}$ is multiplication by a [[scalar]] $\lambda \in \mathbb{R}$. This is often denoted $f'(x)$, so that the derivative may be regarded as another function $f': \mathbb{R} \to \mathbb{R}$. 
+
+We say $f: \mathbb{R}^n \to \mathbb{R}$ is *differentiable* if it is differentiable at every point $x$ of its [[domain]]. In that case, we get a global derivative function $\mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}$ which takes a pair $(x, h)$ to $d f_x(h)$. We can then ask whether this function is itself differentiable, i.e., whether the differentiation process can be iterated. The *$n$-th derivative* is the result of differentiating $n$ times (the $0$-th derivative of $f$ is just $f$). We say that $f: \mathbb{R}^n \to \mathbb{R}$ is *infinitely differentiable* (or more briefly, that $f$ is *smooth*) if it has an $n$-th derivative for each [[natural number]] $n$. 
+
+Notice that a differentiable function is necessarily [[continuous map|continuous]] (indeed, it is locally a [[Lipschitz function]]). One denotes the class of functions having a *continuous*[^1] $n^{th}$ derivative by $C^n(\mathbb{R}^n)$. Thus continuous functions $f: \mathbb{R}^n \to \mathbb{R}$ form a filtration 
+
+$$\ldots \subset C^n(\mathbb{R}^k) \subset \ldots \subset C^1(\mathbb{R}^k) \subset C^0(\mathbb{R}^k)$$ 
+
+and the intersection $C^\infty(\mathbb{R}^k) \coloneqq \bigcap_{n \geq 0} C^n(\mathbb{R}^k)$ coincides with the class of smooth functions. 
+
+[^1]: Without the continuity assumption on derivatives, the class of (once-)differentiable functions exhibits non-trivial [[descriptive set theory|descriptive set-theoretic]] complexity, as may be surmised by [this paper](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=6984080) by Kechris and Woodin. Thus the continuity assumption eliminates troublesome pathologies. 
+
+Evidently differentiation gives a function $D: C^{n+1}(\mathbb{R}^k) \to C^n(\mathbb{R}^k \times \mathbb{R}^k)$. The convenient setting for developing the differential calculus is to go directly to the smooth case, where we have $D: C^\infty(\mathbb{R}^k) \to C^\infty(\mathbb{R}^k \times \mathbb{R}^k)$ without having to keep track of the degree of differentiability. 
+
+This development carries over more generally to [[smooth manifolds]] $X$, which are locally (smoothly) isomorphic to [[Euclidean spaces]] $\mathbb{R}^k$. 
+
+### Differentiation as a functor 
+
+_Differentiation_ in more conceptual terms is a [[functor]] $d : Diff \to Diff$ on the [[category]] [[Diff]] of [[smooth manifold]]s that sends
+
+* a manifold $X$ to its [[tangent bundle]] $T X$; recall that the points of $T X$ are [[ordered pairs]] $(x, v)$ where $x \in X$ and $v$ is a [[tangent vector]] at $x$, i.e., an (augmented) [[derivation]] $v: C^\infty(X) \to \mathbb{R}$ on the [[associative unital algebra|algebra]] of smooth functions, augmented by evaluation $ev_x: C^\infty(X) \to \mathbb{R}$ at $x$;
 
 * a [[smooth function]] $f : X \to Y$ to its differential $d f : T X \to T Y$:
 
   if $\gamma : [-1,1] \to X$ is a path in $X$ that represents a vector $v \in T_x X$, then $(d f)(v) \in T_{f(x)} Y$ is the vector represented by the path
   $[-1,1] \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$. 
 
-In a context $H$ of [[synthetic differential geometry]] the functor $d$ is simply the [[internal hom]] out of the [[infinitesimal space|infinitesimal interval]] $D$
+Equivalently, a smooth map $f: X \to Y$ induces an algebra map $f^\ast = - \circ f: C^\infty(Y) \to C^\infty(X)$, and hence by composition sends a derivation $v: C^\infty(X) \to \mathbb{R}$ to a derivation $v \circ f^\ast: C^\infty(Y) \to \mathbb{R}$ augmented by $ev_{f(x)}: C^\infty(Y) \to \mathbb{R}$). Concretely: $v \circ f^\ast(\phi) = v(\phi \circ f)$ for $\phi \in C^\infty(Y)$. Then the differential $d f: T X \to T Y$ is defined by $d f(x, v) = (f(x), v \circ f^\ast)$. 
+
+According to either of these descriptions, differentiation is manifestly functorial. In the English literature, this fact is known as the "chain rule". In more traditional form: 
+
+$$d(f \circ g)_x = d f_{g(x)} \circ d g_x.$$
+
+In a context $H$ of [[synthetic differential geometry]] (SDG) the functor $d$ is simply the [[internal hom]] out of the [[infinitesimal space|infinitesimal interval]] $D$
 
 $$
   d = [D, -] : H \to H
   \,.
-$$
+$$ 
 
-## Functoriality 
+where $D \hookrightarrow \mathbb{R}$ is the smooth locus defined by $x^2 = 0$. (Classically, i.e., in the [[topos]] $Set$, this locus consists of just a single point[^2], but in toposes that model SDG it should be regarded as an infinitesimal neighborhood about a point.) This description as internally [[representable functor]] underlies the following classical fact: 
 
-The functoriality of differentiation is immediate from the above definition. The property that differentiation is functorial is known in the literature as the [[chain rule]].
++-- {: .num_theorem} 
+###### Theorem 
+Differentiation is a [[product-preserving functor]]. 
+=-- 
+
+For example, the product of two smooth functions $f, g: X \to \mathbb{R}$ is a composition 
+
+$$X \stackrel{\Delta}{\to} X \times X \stackrel{f \times g}{\to} \mathbb{R} \times \mathbb{R} \stackrel{mult}{\to} \mathbb{R}$$ 
+
+and the product rule for differentiation derives by applying the functor $d$ which results in the composite 
+
+$$T X \stackrel{\Delta}{\to} T X \times T X \stackrel{d f \times d g}{\to} T \mathbb{R} \times T \mathbb{R} \stackrel{d mult}{\to} T \mathbb{R}$$ 
+
+which reduces to computing $d mult$. 
+
+[^2]: According to John Bell, the fact that classically this is merely a point bears comparison to Bishop Berkeley's objections to the differential calculus he put forth in *The Analyst*. 
 
 
 ## Exposition of differentiation via infinitesimals
