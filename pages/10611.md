@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -55,7 +54,7 @@ Adding such modalities to [[propositional logic]] or similar produces what is ca
 
 The [[categorical semantics]] of these modalities is that $\sharp$ is interpreted an [[idempotent monad]]/[[comonad]] on the [[category of contexts]]. 
 
-This has  a refinement to [[homotopy type theory]], where the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ as an idempotent [[(infinity,1)-monad]] ([Shulman 12](#Shulman), [HoTTBook, def. 7.7.5](#HoTTBook)).
+This has  a refinement to [[homotopy type theory]], where the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ as an idempotent [[(infinity,1)-monad]] ([Shulman 12](#Shulman), [Rijke, Shulman, Spitters](#RSS) ).
 
 #### Notation
  {#Notation}
@@ -130,8 +129,7 @@ Discussion in [[formal logic]] and [[homotopy type theory]] ([[modal type theory
 
 * [[Mike Shulman]], _[All modalities are Higher Inductive Types](http://homotopytypetheory.org/2012/11/19/all-modalities-are-hits/)_
 
-* {#HoTTBook} [Univalent Foundations Project](http://ncatlab.org/nlab/show/UF-IAS-2012), section 7.7 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
-
+* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_ [arXiv](https://arxiv.org/abs/1706.07526)
 
 ### In philosopy
 
