@@ -33,6 +33,7 @@ Let $a$ be an element of a [[co-Heyting algebra]]. The (co-Heyting) _boundary_ o
 ##Related entries
 
 * [[boundary]]
+* [[co-Heyting algebra]]
 * [[Heyting algebra]]
 * [[Heyting category]]
 * [[adjoint modality]]
