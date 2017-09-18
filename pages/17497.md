@@ -138,14 +138,21 @@ We had already seen [in part 1.1](Introduction+to+Stable+homotopy+theory+--+1-1#
 | $\oplus$ [[direct sum]]  | $\vee$ [[wedge sum]]  |
 | $\otimes$ [[tensor product of abelian groups|tensor product]] | $\wedge$ [[smash product of spectra|smash product]] |
    
-This further strenghtens the statement that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]]. 
+This further strenghtens the statement that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]]. In particular, with respect to the smash product of spectra, the [[sphere spectrum]] becomes a [[ring spectrum]] that is the coresponding analog of the ring of [[integers]]. 
 
 With the analog of the tensor product in hand, we may consider doing [[algebra]] -- the theory of [[rings]] and their [[modules]] -- [[internalization|internal]] to spectra. This "[[higher algebra]]" accordingly is the theory of _[[ring spectra]]_ and _[[module spectra]]_.
 
 [[!include homological and higher algebra -- table]]
 
-Where a [[ring]] is equivalently a [[monoid]] with respect to the [[tensor product of abelian groups]], we are after a corresponding [[tensor product]] of [[spectra]]. This is to be the [[smash product of spectra]], induced by the [[smash product]] on [[pointed topological spaces]]/[[pointed object|pointed]] [[simplicial sets]].
+Where a [[ring]] is equivalently a [[monoid]] with respect to the [[tensor product of abelian groups]], we are after a corresponding [[tensor product]] of [[spectra]]. This is to be the [[smash product of spectra]], induced by the [[smash product]] on [[pointed topological spaces]].
 
+In particular the [[sphere spectrum]] becomes a [[ring spectrum]] with respect to this smash product and plays the role analogous to the ring of [[integers]] in abelian groups
+
+| [[abelian groups]] | [[spectra]] |
+|--------------------|-------------|
+| $\mathbb{Z}$ [[integers]] | $\mathbb{S}$ [[sphere spectrum]] |
+
+Using this structure there is finally a full characterization of [[stable homotopy theory]], we state (without proof) this _Schwede-Shipley uniqueness_ as theorem \ref{CharacterizationOfStableHomotopyTheory} below.
 
 There is a key point to be dealt with here: the [[smash product of spectra]] has to exhibit a certain _graded commutativity_. Informally, there are two ways to see this:
 
@@ -8606,7 +8613,7 @@ $$
   \,.
 $$
 
-This is dual to the concept of [[generalized (Eilenberg-Steenrod) cohomology]] ([example](Introduction+to+Stable+homotopy+theory+--+1-1#ForASpectrumXGeneralizedECohomology))
+This is conceptually dual to the concept of [[generalized (Eilenberg-Steenrod) cohomology]] ([example](Introduction+to+Stable+homotopy+theory+--+1-1#ForASpectrumXGeneralizedECohomology))
 
 $$
   A^\bullet(X)
@@ -8620,6 +8627,7 @@ Notice that ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianG
 $$
   \begin{aligned}
     A_\bullet(X)
+    =
     & \pi_\bullet(A \wedge X)
     \\
     & \simeq
@@ -8637,6 +8645,44 @@ $$
 $$
 
 (by prop. \ref{SmashProductOfFreeSpectra} ) and this is called the _generalized $A$-homology_ of the topological space $K \in Top^{\ast/}_{cg}$.
+
+Since the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor unit]] for the derived [[smash product of spectra]] (corollary \ref{MonoidalStableHomotopyCategory}) we have 
+
+$$
+  E_\bullet(\mathbb{S})
+  \simeq
+  \pi_\bullet(E)
+  \,.
+$$
+
+For that reason often one also writes for short
+
+$$
+  E_\bullet \coloneqq \pi_\bullet(E)
+  \,.
+$$
+
+Notice that similarly the $E$-[[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-1#ForASpectrumXGeneralizedECohomology)) of the sphere spectrum  is
+
+$$
+  \begin{aligned}
+    E^\bullet
+      & \coloneqq
+    E^\bullet(\mathbb{S})
+    \\
+      & =
+    [\mathbb{S},E]_{-\bullet}
+    \\
+      & \simeq
+    \pi_{-\bullet}(E)
+    \\
+    & \simeq E_{-\bullet}
+  \end{aligned}
+  \,.
+$$
+
+(Beware that, as usual, here we are not displaying a tilde-symbol to indicate reduced cohomology).
+
 
 =--
 
@@ -9086,6 +9132,7 @@ $$
 
 
 ##### Homotopy ring spectra
+ {#HomotopyRingSpectra}
 
 We discuss [[commutative monoids]] in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}).
 
@@ -9099,7 +9146,7 @@ $$
 +-- {: .num_defn #HomotopyCommutativeRingSpectrum}
 ###### Definition
 
-A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(E,\mu,e)$ (def. \ref{MonoidsInMonoidalCategory}) the monoidal stable homotopy category $(Ho(Spectra),\wedge, \mathbb{S})$ of corollary \ref{MonoidalStableHomotopyCategory} is called a **[[homotopy commutative ring spectrum]]**.
+A [[commutative monoid in a symmetric monoidal category|commutative monoid]] $(E,\mu,e)$ (def. \ref{MonoidsInMonoidalCategory}) in the monoidal [[stable homotopy category]] $(Ho(Spectra),\wedge, \mathbb{S})$ of corollary \ref{MonoidalStableHomotopyCategory} is called a **[[homotopy commutative ring spectrum]]**.
 
 A [[module object]] (def. \ref{ModulesInMonoidalCategory}) over $E$ is accordingly called a **[[homotopy module spectrum]]**.
 
@@ -9192,7 +9239,7 @@ $$
 
 That this pairing is associative and unital follows directly from the associativity and unitality of $\mu$. Evidently the pairing is graded. That it is bilinear follows since addition of morphisms in the stable homotopy category is given by forming their [[direct sum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment)) and since $\wedge$ disributes over direct sum (lemma \ref{DerivedSmashProductOfSpectraPreservesDirectSums}).
 
-It only remains to show graded-commutivity of the pairing. This is exhibited by the [[commuting diagram]]
+It only remains to show graded-commutivity of the pairing. This is exhibited by the following [[commuting diagram]]:
 
 $$
   \array{
@@ -9269,46 +9316,135 @@ Analogously for the right action on $X_\bullet(E)$.
 
 =--
 
-+-- {: .num_remark}
-###### Remark
 
-Since the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor unit]] for the derived [[smash product of spectra]] (corollary \ref{MonoidalStableHomotopyCategory}) we have (in the notation of def. \ref{HomotopyCommutativeRingSpectrum})
+
++-- {: .num_example #StableStemsRingStructure}
+###### Example
+**(ring structure on the stable homotopy groups of spheres)**
+
+The [[sphere spectrum]] $\mathbb{S} = \gamma(\mathbb{S}_{orth})$ is a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum})
+
+On the one hand this is because it is the [[tensor unit]] for the derived [[smash product of spectra]], by cor. \ref{MonoidalStableHomotopyCategory}, and by example \ref{MonoidGivenByTensorUnit} every such is canonically a (commutative) monoid. On the other hand we have the explicit representation by the [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) $\mathbb{S}_{orth}$, according to lemma \ref{FSPStructuredSphereSpectra}, and the [[localization]] functor $\gamma$ is a [[symmetric monoidal functor|symmetric]] [[lax monoidal functor]] (prop. \ref{LaxMonoidalLocalizationOfMonoidalModelCategory}, and in fact a [[strong monoidal functor]] on cofibrant objects such as $\mathbb{S}_{orth}$ according to prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}) and hence preserves commutative monoids (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
+
+The [[stable homotopy groups]] of the [[sphere spectrum]] are of course the [[stable homotopy groups of spheres]] ([expl.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroupsOfSpheres))
 
 $$
-  E_\bullet(\mathbb{S})
+  \pi_\bullet(\mathbb{S})
+  =
+  \pi^s_\bullet
   \simeq
+  \underset{\longrightarrow}{\lim}_k \pi_{\bullet+k}(S^k)
+  \,.
+$$
+
+Now prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum} gives the stable homotopy groups of spheres the structure of a [[graded commutative ring]]. By the proof of prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}, the product operation in that ring sends elements $\alpha_i \colon \Sigma^{n_i}\mathbb{S} \longrightarrow \mathbb{S}$ to 
+
+$$
+  \Sigma^{n_1 + n_2} \mathbb{S}
+    \overset{\simeq}{\longrightarrow}
+  \Sigma^{n_1} \mathbb{S} 
+    \wedge 
+  \Sigma^{n_2} \mathbb{S}
+    \overset{\alpha_1 \wedge \alpha_2}{\longrightarrow}
+  \mathbb{S} \wedge \mathbb{S}
+    \underoverset{\simeq}{\mu^{\mathbb{S}}}{\longrightarrow}  
+  \mathbb{S}
+  \,,
+$$
+
+where now not only the first morphism, but also the last morphism is an [[isomorphism]] (the isomorphism from lemma \ref{kel1}). Hence up to isomorphism, the ring structure on the stable homotopy groups of spheres _is_ the derived smash product of spectra.
+
+This implies that for $X, Y \in Ho(Spectra)$ any two spectra, then the [[graded abelian group]] $[X,Y]_\bullet$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) of morphisms from $X$ to $Y$ in the [[stable homotopy category]] canonically becomes a [[module]] over the ring $\pi^s_\bullet$ 
+
+$$
+  \pi_\bullet^s \otimes [X,Y]_\bullet
+    \longrightarrow
+  [X,Y]_\bullet
+$$
+
+by 
+
+$$
+  (\Sigma^{n_1} \mathbb{S} \overset{\alpha}{\to} \mathbb{S}),
+  (\Sigma^{n_2} X \overset{f}{\to} Y)
+    \;\mapsto\;
+  \left(
+    \Sigma^{n_1 + n_2} X
+     \overset{\simeq}{\to}
+    \Sigma^{n_1}\mathbb{S}\wedge \Sigma^{n_2} X
+      \overset{\alpha \wedge f}{\longrightarrow}
+    \mathbb{S} \wedge Y
+     \overset{\simeq}{\to}
+    Y
+  \right)
+  \,.
+$$
+
+In particular for every spectum $X \in Ho(Spectra)$, its [[stable homotopy groups]] $\pi_\bullet(X)\simeq [\mathbb{S}, X]_\bullet$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)) canonically form a module over $\pi_\bullet^s$. If $X = E$ happens to carry the structure of a [[homotopy commutative ring spectrum]], then this module structure coincides the one induced from the unit 
+
+$$
+  \pi_\bullet(e)
+  \;\colon\;
+  \pi_\bullet^s = \pi_\bullet(\mathbb{S})
+   \longrightarrow
   \pi_\bullet(E)
-  \,.
 $$
 
-For that reason often one writes
+under prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}.
 
-$$
-  E_\bullet \coloneqq \pi_\bullet(E)
-$$
+(It is straightforward to unwind all this categorical algebra to concrete component expressions by proceeding as in the proof of [this lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)).)
 
-for short. Notice that similarly the $E$-[[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-1#ForASpectrumXGeneralizedECohomology)) of the sphere spectrum  is
-
-$$
-  \begin{aligned}
-    E^\bullet
-      & \coloneqq
-    E^\bullet(\mathbb{S})
-    \\
-      & =
-    [\mathbb{S},E]_{-\bullet}
-    \\
-      & \simeq
-    \pi_{-\bullet}(E)
-    \\
-    & \simeq E_{-\bullet}
-  \end{aligned}
-  \,.
-$$
-
-(Beware that, as usual, here we are not displaying a tilde-symbol to indicate reduced cohomology).
 
 =--
+
+This finally allows to uniquely characterize the [[stable homotopy theory]] that we have been discussing:
+
+
++-- {: .num_theorem #CharacterizationOfStableHomotopyTheory}
+###### Theorem
+**(Schwede-Shipley uniqueness theorem)**
+
+The [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of every [[stable homotopy category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelCategory)) canonically has graded hom-groups with the structure of modules over $\pi_\bullet^s = \pi_\bullet(\mathbb{S})$ (example \ref{StableStemsRingStructure}). In terms of this, the following are equivalent:
+
+1. There is a [[zig-zag]] of [[Quillen equivalences]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence)) between $\mathcal{C}$ and the stable [[model structure on topological sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) (equivalently (thm. \ref{SequentialSpectraQuillenEquivalence}) the stable [[model structure on orthogonal spectra]])
+
+   $$
+      \mathcal{C}
+        \underoverset
+          {\longrightarrow}
+          {\longleftarrow}
+          {\simeq_{Qu}}
+        \underoverset
+          {\longleftarrow}
+          {\longrightarrow}
+          {\simeq_{Qu}}
+         \;\;\cdots \;\;
+        \underoverset
+          {\longleftarrow}
+          {\longrightarrow}
+          {\simeq_{Qu}}
+       OrthSpec(Top_{cg})_{stable}
+        \underoverset
+          {\longrightarrow}
+          {\longleftarrow}
+          {\simeq_{Qu}}
+       SeqSpec(Top_{cg})_{stable}
+   $$
+
+1. there is an [[equivalence of categories]] between the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$ and the [[stable homotopy category]] $Ho(Spectra)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory))
+
+   $$
+      Ho(\mathcal{C}) \simeq Ho(Spectra)
+   $$
+
+   which is $\pi^s_\bullet$-linear on all hom-groups.
+
+=--
+
+([Schwede-Shipley 02, Uniqueness theorem](model+structure+on+orthogonal+spectra#SchwedeShipley02))
+
+
+
 
 
 
@@ -9361,8 +9497,8 @@ If $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[i
 
 ([Adams 74, part III, lemma 12.5](#Adams74), [Schwede 12, prop. 6.20](#Schwede12))
 
-+-- {: .num_defn}
-###### Definition
++-- {: .proof}
+###### Proof
 
 First of all, that the given pairing is a well defined homomorphism (descends from $E_\bullet(E) \times E_\bullet(X)$ to $E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)$) follows from the associativity of $\mu$.
 
@@ -10047,6 +10183,7 @@ $$
 $$
 
 is a [[strong monoidal adjunction]] from the the derived [[smash product]] of [[pointed topological spaces]] to the derived [[symmetric smash product of spectra]].
+
 
 
 
