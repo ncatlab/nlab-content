@@ -35,4 +35,7 @@ For more see Connes' official [website](http://www.alainconnes.org/en).
 * [[Bost-Connes system]]
 
 category: people 
+
 [[!redirects A. Connes]]
+
+[[!redirects Connes]]
