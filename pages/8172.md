@@ -72,7 +72,7 @@ The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mat
 #### Spectral sequence of a filtered spectrum
  {#SpectralSequenceOfAFilteredSpectrum}
 
-We introduce the types of [[spectral sequences]] of which the $E$-Adams spectral sequnces (def. \ref{AdamsEAdamsSpectralSequence} below) is an example.
+We introduce the types of [[spectral sequences]] of which the $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence} below) are an example.
 
 +-- {: .num_defn #FilteredSpectrum}
 ###### Definition
