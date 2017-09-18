@@ -1,1 +1,1 @@
-I'm interested in model theory, especially in the language of categories _a la_ Makkai. You can reach me at jessemichaelhan@gmail.com.
+I'm interested in model theory, especially from the perspective of categorical logic.
