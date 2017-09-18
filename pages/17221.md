@@ -1,4 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 This page collects material related to the book
 
 * [[Stanley Kochmann]], 
@@ -10,6 +28,9 @@ This page collects material related to the book
   American Mathematical Society 1996
 
 on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]].
+
+> The approach to stable homotopy presented in this book originated with graduate courses taken by the author at the University of Chicago from 1966 to 1970 given by [[Frank Adams]], Arunas Liulevicius and [[Peter May]]. The content of the  lectures by Adams have been published in $[$Adams: _[[Stable homotopy and generalised homology]]_ (1974)$]$. However, the content of the courses given by Liulevicius on bordism and by May on characteristic classes and on the Adams spectral sequence have not been published. Most of the material in the first four chapters has been given by the author as graduate courses at Yale University, Purdue University and the University of Western Ontario. (Kochmann, p. 13)
+
 
 #Contents#
 * table of contents
@@ -145,7 +166,7 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[Thom's theorem on MO]]
 
-* [[Milnor-Quillen theorem on MU]]
+* [[Milnor's theorem on MU]]
 
 ## 4 Complex Bordism
 
@@ -157,15 +178,31 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 ### 4.3 MU characteristic classes
 
-* [[complex cobordism cohomology]], [[MU]]
+* [[complex oriented cohomology]]
 
 * [[Conner-Floyd Chern classes]]
+
+* [[orientation in generalized cohomology]]
+
+* [[fiber integration in generalized cohomology]]
+
+* [[Boardman homomorphism]]
 
 * [[homology of MU]]
 
 ### 4.4 Formal products 
 
+* [[formal group law]]
+
+* [[universal complex orientation on MU]]
+
+* [[Lazard's theorem]]
+
+* [[Quillen's theorem on MU]]
+
 ### 4.5 MU operation
+
+* [[cohomology operations]]
 
 ### 4.6 Brown-Peterson spectra
 
