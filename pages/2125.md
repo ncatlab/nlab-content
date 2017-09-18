@@ -1034,7 +1034,7 @@ Explicit details on many constructions of the lax/oplax structure are given in s
 
 * [[Tim Porter]], _[[Crossed Menagerie]]_
 
-The Quillen equivalence between connective chain dg-algebras and simplicial algebras is discussed in.
+The Quillen equivalence between connective chain dg-algebras and simplicial algebras is discussed in
 
 * {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342))
 
