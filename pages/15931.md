@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -23,13 +23,15 @@ In [[constructive mathematics]], _proof relevance_ refers to the concept that ma
 
 This idea is formalized notably by the idea of [[propositions as types]] in [[type theory]] where a proof is an actual [[term]] (the _proof term_) of some [[type]].
 
-For instance logical [[disjunction]] "A or B" in [[type theory]] (in particular in [[homotopy type theory]]) may be exhibited by the [[sum type]] $A + B$ of the types representing th induvidual propositions, and a proof/term of $A + B$ carries in it the information of whether it proved $A$ or $B$ to (hence) prove their disjunction.
+For instance logical [[disjunction]] "A or B" in [[type theory]] (in particular in [[homotopy type theory]]) may be exhibited by the [[sum type]] $A + B$ of the types representing th induvidual propositions, and a proof/term of $A + B$ carries in it the information of whether it proved $A$ or $B$ to (hence) prove their disjunction.  Similarly, a proof of $C \to (A + B)$ will include the information of which proofs of $C$ lead to proofs of $A$ and which proofs of $C$ lead to proofs of $B$.
+
 
 ## References
 
 ### General
 
 * [[UF-IAS-2012|Univalent Foundations Project]], section 1.11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
 
 ### Prehistory
 
@@ -46,9 +48,11 @@ result, and has disappeared. The process of mathematical proof does not belong t
 
 > [footnote 42](https://www.marxists.org/reference/archive/hegel/help/finpref.htm#m042): Mathematical truths are not thought to be known unless proved true. Their demonstrations are not, however, kept as parts of what they prove, but are only our subjective means towards knowing the latter. In philosophy, however, consequences always form part of the essence made manifest in them, which returns to itself in such expressions.
 
-See also earlier conceptions of proofs expressing the 'cause' of a theorem, where *reductio* proofs in particular were taken generally to fail. Such an idea goes back to Aristotle for whom a proper answer to the question "Why is the angle in a semicircle a right-angle?" gives its cause.
+See also earlier conceptions of proofs expressing the 'cause' of a theorem, where [[proof by contradiction|proofs by contradiction]] in particular were taken generally to fail. Such an idea goes back to Aristotle for whom a proper answer to the question "Why is the angle in a semicircle a right-angle?" gives its cause.
 
 * Paolo Mancosu, _Philosophy of Mathematics and Mathematical Practice in the Seventeenth Century_, OUP, 1996.
 
 
+[[!redirects proof relevance]]
 [[!redirects proof relevant]]
+[[!redirects proof-relevant]]
