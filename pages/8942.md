@@ -17,13 +17,17 @@
 ## Idea
 
 The $\mathbb{Z}_2$-[[orbifold]]/[[higher orientifold]] fixed point manifold in [[Hořava-Witten theory]] might be called it _[[O-plane|O9-plane]]_ but is often called the _M9-brane_, even though it is on a different conceptual footing than the genuine [[M2-brane]] and [[M5-brane]].
-  
+
+In ([Hull 97](#Hull97)) the M9-brane was argued to be the object whose _charge_ is [[Hodge duality|Hodge dual]] to that of the [[M2-brane]].
+ 
 
 Also, all [[D-branes]] of [[type II string theory]] can be understood as arising from known structures in [[M-theory]] -- except for the [[D8-brane]] [[domain wall]]. Therefore there is a conjecture that apart from the [[M2-brane]] and the [[M5-brane]] there is also an _M9-brane_ generally in [[M-theory]]. But the situation is inconclusive.
 
 ## Related concepts
 
 * [[ninebrane group]], [[ninebrane structure]]
+
+* [[KK monopole]]
 
 [[!include table of branes]]
 
@@ -34,11 +38,11 @@ Also, all [[D-branes]] of [[type II string theory]] can be understood as arising
 
 Discussion of a possible [[black brane|black]] 9-brane in 11d is in 
 
-* [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl. Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
+* {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl. Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
 The term "M9-brane" maybe originates in
 
-* Eric Bergshoeff, Jan Pieter van der Schaar, _On M-9-branes_ ([arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069))
+* [[Eric Bergshoeff]], Jan Pieter van der Schaar, _On M-9-branes_ ([arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069))
 
 A proposal for a description of the M9 as an [[schreiber:infinity-Wess-Zumino-Witten theory|higher WZW theory]] is in
 
