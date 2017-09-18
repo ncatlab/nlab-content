@@ -288,6 +288,8 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
 * [[supercharge]]
 
+* [[supersymmetric cycle]]
+
 * [[unitary representation of the super Poincaré group]]
 
 * [[Haag–Lopuszanski–Sohnius theorem]]
