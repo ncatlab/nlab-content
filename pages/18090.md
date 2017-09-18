@@ -20,7 +20,7 @@ $\,$
 
 {#AA} Lecture notes. $\;\;\;\;\;\;\;$ (web version requires Firefox browser -- [free download](https://www.mozilla.org/en-US/firefox/new/))
 
-**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170427.pdf:file]])
+**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170429.pdf:file]])
 
 **part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_
 
@@ -159,8 +159,10 @@ Disucssion of [[sober topological spaces]] is in
 
 * {#Johnstone82} [[Peter Johnstone]], section II 1. of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
 
+
 See also
 
 * [[Topospaces]], a Wiki with basic material on topology.
+
 
 
