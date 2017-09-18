@@ -740,6 +740,7 @@ Here are some useful specifics:
 ## survey of available math typesetting commands ##
 
 * [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html) 
+* [webTeX documentation](https://golem.ph.utexas.edu/~distler/WebTeX/docs/wtxsec5.html)
 
 This is worth perusing carefully;
  for example, iTeX does not provide a command such as `\prescript` to generate left subscripts.
