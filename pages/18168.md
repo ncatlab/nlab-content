@@ -11,7 +11,7 @@ The shrinking lemma is needed in the proof that [[ paracompact Hausdorff spaces 
 
 +-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
 ###### Lemma
-**(shrinking lemma)**
+**(shrinking lemma for locally finite covers)**
 
 Assuming [[excluded middle]] and the [[axiom of choice]] then:
 
@@ -73,8 +73,9 @@ Hence it only remains to observe that $V_1 \cup U_2 = X$, by definition of $V_1$
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #ShrinkinglemmaForFiniteCovers}
 ###### Lemma
+**(shrinking lemma for finite covers)**
 
 Let $(X,\tau)$ be a [[normal topological space]], and let $\{U_i \subset X\}_{i \in \{1, \cdots, n\}}$ be an [[open cover]] with a [[finite number]] $n \in \mathbb{N}$ of patches. Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that $Cl(V_i) \subset U_i$ for all $i \in I$.
 
@@ -106,9 +107,105 @@ is an open cover. After $n$ such steps we are left with an open cover $\{V_i \su
 +-- {: .num_remark}
 ###### Remark
 
+Beware that the [[induction]] in lemma \ref{ShrinkinglemmaForFiniteCovers} does _not_ give the statement for infinite [[countable covers]]. The issue is that it is not guaranteed that $\underset{i \in \mathbb{N}}{\cup} V_i$ is a cover. 
+
+And in fact, assuming the [[axiom of choice]], then there exists a  counter-example of a countable cover on a normal spaces for which the shrinking lemma fails (a [[Dowker space]] due to [Beslagic 85](#Beslagic85)).
+
+=--
+
+This issue is evaded if we consider [[locally finite covers]]:
+
++-- {: .num_lemma #ShrinkingLemmaForLocallyFiniteCountableCovers}
+###### Lemma
+**(shrining lemma for locally finite countable covers)**
+
+Let $(X,\tau)$ be a [[normal topological space]] and $\{U_i \subset X\}_{i \in \mathbb{N}}$ a [[locally finite cover|locally finite]] [[countable cover]]. Then there exists [[open subsets]] $V_i \subset X$ for $i \in \mathbb{N}$ such that $V_i \subset Cl(V_i) \subset U_i$ and such that $\{V_i \subset X\}_{i \in \mathbb{N}}$ is still a cover.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As in the proof of lemma \ref{ShrinkinglemmaForFiniteCovers}, there exist $V_i$ for $i \in \mathbb{N}$ such that $V_i \subset Cl(V_i) \subset U_i$ and such that for every finite number, hence every $n \in \mathbb{N}$, then 
+
+$$
+  \underoverset{i = 0}{n}{\cup} V_i
+  \;=\; 
+  \underoverset{i = 0}{n}{\cup} U_i
+  \,.
+$$ 
+
+Now the extra assumption that $\{U_i \subset X\}_{i \in I}$ is [[locally finite cover|locally finite]] implies that every $x \in X$ is contained in only finitely many of the  $U_i$, hence that for every $x \in X$ there exists $n_x \in \mathbb{N}$ such that
+
+$$
+  x \in \underoverset{i = 0}{n_x}{\cup} U_i
+  \,.
+$$
+
+This implies that for every $x$ then
+
+$$
+  x \in \underoverset{i = 0}{n_x}{\cup} V_i 
+  \subset \underset{i \in \mathbb{N}}{\cup} V_i
+$$
+
+hence that $\{V_i \subset X\}_{i \in \mathbb{N}}$ is indeed a cover of $X$.
+
+=--
+
+We now invoke [[Zorn's lemma]] to generalize the shrinking lemma for finitely many patches (lemma \ref{ShrinkinglemmaForFiniteCovers}) to arbitrary sets of patches:
+
++-- {: .proof}
+###### Proof
+of lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
+
+Let $\{U_i \subset X\}_{i \in I}$ be the given locally finite cover of the normal space $(X,\tau)$. Consider the set $S$ of [[pairs]] $(J, \mathcal{V})$ consisting of
+
+1. a [[subset]] $J \subset I$;
+
+1. an $I$-indexed set of open subsets $\mathcal{V} = \{V_i \subset X\}_{i \in I}$
+
+with the property that 
+
+1. $(i \in J \subset I) \Rightarrow ( Cl(V_i) \subset U_i )$;
+
+1. $(i \in I \backslash J) \Rightarrow ( V_i = U_i )$.
+
+Equip the set $S$ with a [[partial order]] by setting
+
+$$
+  \left(
+    (J_1, \mathcal{V}_1)
+    \leq
+    (J_2, \mathcal{V}_2)
+  \right)
+    \Leftrightarrow
+  \left(
+    \left(
+      J_1 \subset J_2
+    \right)
+    \,\text{and}\,
+    \left(
+      \underset{i \in J_1}{\forall}
+      \left(
+         ...
+      \right)
+    \right)
+  \right)  
+$$
+
+(...)
+
 =--
 
 ## References
 
+
 * Matt, _[General shrinking lemma for normal spaces](https://matthewhr.wordpress.com/2014/06/11/general-shrinking-lemma-for-normal-spaces/)_
+
+The example (a [[Dowker space]]) of a normal space with a (not locally-finite) countable cover to which the shrinking lemma does not apply is given in
+
+* {#Beslagic85} Amer Beslagic, _A Dowker product_, Transactions of the AMS, vol 292, number 2 (1985) ([pdf](http://www.ams.org/journals/tran/1985-292-02/S0002-9947-1985-0808735-X/S0002-9947-1985-0808735-X.pdf))
+
+
 
