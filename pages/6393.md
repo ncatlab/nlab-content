@@ -61,7 +61,7 @@ There are other formulations of the [[superstring]] which are thought to be equi
 
 The original articles that formulated the NSR model are
 
-* A. Neveu, [[John Schwarz]], Nucl. Phys. B31, 86 (1971)
+* [[André Neveu]], [[John Schwarz]], Nucl. Phys. B31, 86 (1971)
 
 * [[Pierre Ramond]], Phys Rev. D3  2415 (1971)
 
