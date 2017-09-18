@@ -505,6 +505,30 @@ is a homotopy fiber sequence of chain complexes, and therefore the [[cohomology 
 
 =--
 
++-- {: .num_example #OrdinaryCohomologyFromCechCohomology}
+###### Example
+
+For $A_\bullet = (\mathbf{B}^{n+1}\mathbb{Z})_\bullet$ as in example \ref{DeloopingsOfAbelianSheaf}, then for $X$ a [[smooth manifold]] 
+
+$$
+  H^0_{Cech}(X, (\mathbf{B}^{n+1}\mathbb{Z})_\bullet)
+  \simeq
+  H^{n+1}(X,\mathbb{Z})  
+$$
+
+is the [[ordinary cohomology]] of $X$ with [[integer]] [[coefficients]], the cohomology which is also computed as the [[singular cohomology]] of the underlying [[topological space]] of $X$.
+
+Similarly for $A_\bullet = (\flat \mathbf{B}^n U(1))_{\bullet}$ then 
+
+$$
+  H^0_{Cech}(X, (\flat\mathbf{B}^{n}U(1))_\bullet)
+  \simeq
+  H^{n}(X,U(1))  
+$$
+
+is the [[ordinary cohomology]] of $X$ with [[circle group]] [[coefficients]], the cohomology which is also computed as the [[singular cohomology]] of the underlying [[topological space]] of $X$ with $U(1)$-coefficients.
+
+=--
 
 
 
@@ -599,6 +623,16 @@ $$
 
 with $U(1)$ in degree $n$ and with the differentials as
 in def. \ref{SheavesOfFormsAndDeRhamDifferential} and example \ref{LogDiffInSmoothContext}.
+
+We write
+
+$$
+  H^{n+1}_{conn}(X,\mathbb{Z})
+  \coloneqq
+  H^0_{Cech}(X,(\mathbf{B}^n U(1)_{conn})_\bullet)
+$$
+
+for its [[abelian sheaf cohomology]].
 
 =--
 
@@ -859,7 +893,7 @@ $$
   }
 $$
 
-Passing to [[abelian sheaf cohomology]] this gives a morphism
+Passing to [[abelian sheaf cohomology]] this gives, by def. \ref{TheSmoothDeligneComplex} and example \ref{OrdinaryCohomologyFromCechCohomology}, a morphism
 
 $$
   \array{
