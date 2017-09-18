@@ -128,6 +128,9 @@ as the [[exceptional tangent bundle]]-structure to the 7-dimensional fiber space
 
 * {#CacciatoriEtAl10} Sergio L. Cacciatori, Francesco Dalla Piazza, Antonio Scotti, _E7 groups from octonionic magic square_ ([arXiv:1007.4758](http://arxiv.org/abs/1007.4758))
 
+* {#Wilson14} [[Robert Wilson]], _A quaternionic approach to $E_7$_, Proc. Amer. Math. Soc. 142 (2014), 867-880. doi:[10.1090/S0002-9939-2013-11838-1](http://dx.doi.org/10.1090/S0002-9939-2013-11838-1), ([pre-publication version](http://www.maths.qmul.ac.uk/~raw/pubs_files/E7quat2.pdf)), ([talk notes](http://www.maths.qmul.ac.uk/~raw/talks_files/E7quattalk2.pdf)).
+
+
 ### In view of U-duality
 
 The hidden [[E7]]-[[U-duality]] symmetry of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional fiber to [[4d supergravity]] was first noticed in
@@ -149,6 +152,5 @@ Further discussion includes
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], section 3.1 of  _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
 
 
-* [[Robert Wilson]], _A quaternionic approach to $E_7$_, Proc. Amer. Math. Soc. 142 (2014), 867-880. doi:[10.1090/S0002-9939-2013-11838-1](http://dx.doi.org/10.1090/S0002-9939-2013-11838-1), ([pre-publication version](http://www.maths.qmul.ac.uk/~raw/pubs_files/E7quat2.pdf)), ([talk notes](http://www.maths.qmul.ac.uk/~raw/talks_files/E7quattalk2.pdf)).
-{#Wilson14}
+
  
