@@ -100,7 +100,7 @@ A [[topos]] $E$ modelling the axioms of synthetic differential geometry is calle
 
 A standard model for well adapted synthetic toposes is obtained in terms of sheaves on duals of "germ determined" $C^\infty$-rings. This is described in great detail in the textbook _[[Models for Smooth Infinitesimal Analysis]]_. 
 
-The conception and discussion of these well adapted toposes goes back to E. Dubuc, who studied them in a long series of articles. He [asks](http://north.ecc.edu/alsani/ct99-00%288-12%29/msg00218.html) people to refer to this topos as the **[[Dubuc topos]]**. 
+The conception and discussion of these well adapted toposes goes back to [[Eduardo Dubuc]], who studied them in a long series of articles. He [asks](http://north.ecc.edu/alsani/ct99-00%288-12%29/msg00218.html) people to refer to this topos as the **[[Dubuc topos]]**. 
 
 This theory of well-adapted models was later summarized and extended in the standard textbook
 
