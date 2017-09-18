@@ -4,7 +4,7 @@
 
 ## Statement and proof 
 
-There are a number of categorically-flavored ways of characterizing [[compact spaces]]; for example, as [[relational beta-modules]] $X$ where the beta-module structure $\xi: \beta(X) \to X$ is an [[entire relation]] (satisfies $1_{\beta(X)} \leq \xi^\circ \xi$). One of the more useful characterizations, as emphasized by Walter Tholen, is given by the following elementary statement: 
+There are a number of categorically-flavored ways of characterizing [[compact spaces]]; for example, as [[relational beta-modules]] $X$ where the beta-module structure $\xi: \beta(X) \nrightarrow X$ is an [[entire relation]] (satisfies $1_{\beta(X)} \leq \xi^\circ \xi$). One of the more useful characterizations, as emphasized by [[Walter Tholen]], is given by the following elementary statement: 
 
 +-- {: .num_theorem #char} 
 ###### Theorem 
@@ -24,7 +24,7 @@ If $X, Y$ are spaces with $X$ compact, then $\pi: Y \times X \to Y$ is a closed 
 ###### Proof 
 Let $C \subseteq Y \times X$ be a closed set; we must show the [[direct image]] $\pi(C)$ is closed in $Y$. Suppose $y \notin \pi(C)$; equivalently, suppose $\pi^{-1}(y) = \{y\} \times X$ does not intersect $C$. We want to find an open neighborhood $V$ of $y$ that does not intersect $\pi(C)$, or equivalently such that $(V \times X) \cap C = \emptyset$. Consider the collection of all open $U \subseteq X$ such that $(W \times U) \cap C = \emptyset$ for some open neighborhood $W$ of $y$. This collection covers $X$, since $(y, x) \notin C$ for every $x \in X$ and by closure of $C$ we can therefore find a neighborhood $W \times U$ of $(y, x)$ that doesn't intersect $C$. By compactness of $X$, this collection has a finite subcover, say $U_1, \ldots, U_n$. For each of these $U_i$ there is a corresponding $W_i$ such that $(W_i \times U_i) \cap C = \emptyset$ (in fact there is a unique largest such $W_i$: just take the union of all such). Now put $V = \bigcap_{i=1}^n W_i$. We have for each $i$ between $1$ and $n$ that $V \times U_i \subseteq W_i \times U_i \subseteq \neg C$, hence 
 
-$$V \times X = V \times \bigcup_{i=1}^n W_i = \bigcup_{i=1}^n V \times W_i \subseteq \neg C$$ 
+$$V \times X = V \times \bigcup_{i=1}^n U_i = \bigcup_{i=1}^n V \times U_i \subseteq \neg C$$ 
 
 so that $(V \times X) \cap C = \emptyset$. 
 =-- 
@@ -79,7 +79,7 @@ It will be convenient to introduce some notation. For $\gamma \leq \kappa$, let 
 
 Assume as inductive hypothesis that starting with any $x_0 \in K_0$ there is $x_\beta \in K_\beta$ such that whenever $\beta \lt \gamma \lt \kappa$, the compatibility condition $\pi_\beta^\gamma(x_\gamma) = x_\beta$ holds. In particular, $\pi_0^\beta(x_\beta) = x_0$ for all $\beta \lt \kappa$, and we are now trying to extend this up to $\kappa$. 
 
-If $\kappa = \beta + 1$ is a successor cardinal, then the projection 
+If $\kappa = \beta + 1$ is a successor ordinal, then the projection 
 
 $$\pi_\beta^\kappa: X^\beta \times X_\beta \to X^\beta$$ 
 
