@@ -108,8 +108,11 @@ From a different perspective the M-theory algebra extensions were (apparently in
 
  * [[Paul Townsend]], _p-Brane Democracy_ ([arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048))
 
+with further amplification including
 
-In their global form, where differential forms are replaced by their de Rham cohomology classes, these algebras were identified (for the case including the 2-form piece but not the 5-form piece) as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] in
+* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
+
+In their global form, where differential forms are replaced by their de Rham cohomology classes on curved superspacetimes, these algebras were identified (for the case including the 2-form piece but not the 5-form piece) as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] in
 
 * {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys.Rev.Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
 
