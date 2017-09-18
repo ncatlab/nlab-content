@@ -1,10 +1,37 @@
+First let $\hat X_0 \longrightarrow X_0$ be a CW-approximation of the component space in degree 0, via prop. \ref{CWApproximationForContinuousFunctions}. Then proceed by [[induction]]: suppose that for $n \in \mathbb{N}$ a [[CW-approximation]] $\phi_{k \leq n} \colon  \hat X_{k \leq n} \to X_{k \leq n}$ has been found such that all the structure maps are respected. Consider then the continuous function
+
 $$
-  \array{
-    X &\stackrel{h}{\longrightarrow}& A
+  S^1 \wedge \hat X_n 
+    \overset{S^1 \wedge \phi_n}{\longrightarrow} 
+  S^1 \wedge X_n 
+    \overset{\sigma_n}{\longrightarrow} 
+  X_{n+1}
+  \,.
+$$
+
+Applying prop. \ref{CWApproximationForContinuousFunctions} to this function factors it as
+
+$$
+  S^1 \wedge \hat X_n 
+    \hookrightarrow 
+  \hat X_{n+1} 
+    \overset{\phi_{n+1}}{\longrightarrow} 
+  X_{n+1}
+  \,.
+$$
+
+Hence we have obtained the next stage of the CW-approximation. The respect for the structure maps is just this factorization property:
+
+$$
+  \array{  
+    S^1 \wedge \hat X_n 
+      &\overset{S^1 \wedge \phi_n}{\longrightarrow}& 
+    S^1 \wedge X_n
     \\
-    \downarrow^{\mathrlap{f}} && \downarrow
+    {}^{incl}\downarrow && \downarrow^{\mathrlap{\sigma_n}}
     \\
-    Y &\longrightarrow& B
+    \hat X_{n+1} &\underset{\phi_{n+1}}{\longrightarrow}& X_{n+1}
   }
   \,.
 $$
+
