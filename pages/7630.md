@@ -65,7 +65,7 @@ Not every co-multicategory arises from a promonoidal one in this way.  Roughly, 
 
 ## References
 
-* [[Brian Day]], *An embedding theorem for closed categories*
+* {#Day74} [[Brian Day]], An embedding theorem for closed categories, _Lecture Notes in Mathematics_ 420 (1974), 55-64.
 
 * Day, Panchadcharam and Street, *On centres and lax centres for promonoidal categories*.
 
