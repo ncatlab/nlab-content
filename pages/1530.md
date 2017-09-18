@@ -62,6 +62,16 @@ Following this, such [[coset spaces]] $G/H$ have come to also be called _[[Klein
 
 When it was proposed, the Erlangen program served to unify various different kinds of geometry, discovered and studied at that time, into a common framwork. On the other hand, many kinds of geometries without global symmetries are not [[Klein geometries]], notably [[Riemannian geometry]] is (in general) not. But a ([[pseudo-Riemannian manifold|pseudo]]) [[Riemannian manifold]] is _locally_ (tangentially) modeled on [[Euclidean space]] ([[Minkowski spacetime]]) and this local model space _is_ a Klein geometry. The generalization of Klein geometry to such local situations is _[[Cartan geometry]]_, see [below](#CartanGeometry).
 
+###In homotopy type theory
+
+In [[homotopy type theory]] the idea of a group of symmetries preserving a figure inside the larger group of symmetries acting on what the figure is inscribed in is represented by any map of the form:
+
+$$
+B H \to B G
+$$
+
+The [[homotopy fiber]] of such a map is the Klein space $G/H$.
+
 ## Refinements and generalizations
 
 ### From local to global geometry -- Cartan geometry
