@@ -30,7 +30,7 @@ There are various ways of forming a category of simple graphs. Perhaps the most 
 
 Another option -- and this is the one chosen for this article -- starts by regarding a simple graph as carrying the same information as a set $V$ equipped with a [[symmetric relation|symmetric]] [[reflexive relation|reflexive]] [[relation]] $E$. Indeed, such a relation determines (and is uniquely determined by) a simple graph $G$ where for given vertices $x, y \in V$, there is an edge $\{x, y\}$ between $x$ and $y$ in $G$ iff both $(x, y) \in E$ and $x \neq y$. We will write $E(x, y)$ to mean $(x, y) \in E$. 
 
-Then, under the relational formulation, we define a morphism $(V, E) \to (W, F)$ between simple graphs straightforwardly, as a function $f: V \to W$ which preserves the reflexive symmetric relations, i.e., writing $E(x, y)$ to say $(x, y) \in E$, that $E(x, y)$ implies $F(f(x), f(y))$. One reason for preferring this notion of morphism is that it allows, for example, consideration of arbitrary edge contractions of a simple graph as quotients in the category (cf. [[graph minor]]), something that is not possible under the prior notion of morphism. 
+Then, under the relational formulation, we would define a morphism $(V, E) \to (W, F)$ between simple graphs straightforwardly, as a function $f: V \to W$ that preserves the relevant structure, i.e., writing $E(x, y)$ to say $(x, y) \in E$, that $E(x, y)$ implies $F(f(x), f(y))$. One reason for preferring this notion of morphism is that it allows, for example, consideration of arbitrary edge contractions of a simple graph as quotients in the category (cf. [[graph minor]]), something that is not possible under the prior notion of morphism. 
 
 Thus we will adopt the latter notion of morphism which takes reflexive symmetric relations $E$ as primary. The resulting [[category]] of simple graphs is denoted by $SimpGph$. 
 
@@ -44,11 +44,15 @@ Note that graphs and their morphisms can also be understood in functorial langua
 
 * $\sigma: X(2) \stackrel{X(s \mapsto t, t \mapsto s)}{\to} X(2)$ (cf. symmetry). 
 
-Simple graphs can then be regarded [[equivalence|equivalently]] as such presheaves where the map 
+satisfying appropriate identities imposed by equations in $C$. Simple graphs can then be regarded [[equivalence|equivalently]] as such presheaves where the map 
 
 $$\langle d_0, d_1 \rangle: X(2) \to X(1) \times X(1)$$ 
 
 is a [[monomorphism]]. In that case, a morphism of simple graphs amounts to a [[natural transformation]] between such presheaves. 
+
+### An aside on other notions of graph 
+
+"Simple graph" as defined in the nLab (see [[graph]]) means that edges are 2-element subsets of $V$, but of course that doesn't preclude consideration of other types of graph. One option is to consider sets $V$ equipped with a collection of subsets of $V$ of cardinality either 1 or 2, i.e., allowing some but not necessarily all loops as edges. We don't call those "simple graphs" (insert what they should be called here), but nevertheless they form a respectable category under the straightforward notion of morphism $f$ (if $\{x, y\}$ is an edge of the domain, possibly with $x = y$, then $\{f(x), f(y)\}$ is an edge of the codomain). 
 
 
 ## Properties of $SimpGph$ 
