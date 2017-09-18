@@ -102,3 +102,4 @@ The [[duality|dual]] notion is an [[over category]].
 [[!redirects undercategories]]
 [[!redirects coslice categories]]
 [[!redirects co-slice categories]]
+[[!redirects co-slice]]
