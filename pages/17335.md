@@ -26,7 +26,7 @@ A  _diagonizable_ or **Magari algebra** is a [[Boolean algebra]] together with a
 ## Definition
 A _Magari algebra_ is a pair $(M,\diamond)$ where $M$ is a [[Boolean algebra]] and $\diamond:M\to M$ is an operator satisfying:
 
-1. $\diamond\bot=\bot$ and $\diamond (x\vee y) =\diamond x\vee \diamond x$ .
+1. $\diamond\bot=\bot$ and $\diamond (x\vee y) =\diamond x\vee \diamond y$ .
 
 2. $\diamond x=\diamond (x\wedge \neg\diamond x)$.
 
