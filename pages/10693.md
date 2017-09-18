@@ -372,6 +372,8 @@ Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-A
 
 * [[Whitehead tower]], [[Postnikov tower]]
 
+* [[E-nilpotent completion]]
+
 * [[Adams spectral sequence]]
 
 ## References
@@ -392,3 +394,6 @@ and is reproduced and expanded on in
 
 
 [[!redirects Adams resolutions]]
+
+[[!redirects Adams tower]]
+[[!redirects Adams towers]]
