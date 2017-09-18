@@ -63,13 +63,13 @@ The finite ordinals are labeled by $n \in \mathbb{N}$, corresponding to the well
 
 =--
 
-+-- {: .num_defn #PosetsWosetTosetsAndOrdinals}
++-- {: .num_defn #TransfiniteComposition}
 ###### Definition
 
 
 Let $\mathcal{C}$ be a [[category]], and let $I \subset Mor(\mathcal{C})$ be a [[class]] of its morphisms. 
 
-For $\alpha$ an [[ordinal]] (regarded as a [[category]]), an $\alpha$-indexed _transfinite composition diagram_ of elements in $I$ is a [[diagram]]
+For $\alpha$ an [[ordinal]] (regarded as a [[category]]), an $\alpha$-indexed _transfinite sequence_ of elements in $I$ is a [[diagram]]
 
 $$
   X_\bullet 
@@ -85,7 +85,12 @@ such that
      X_{\beta,\beta + 1} \in I
    $$
 
-1. $X_\bullet$ is _continuous_ in that for every nonzero [[limit ordinal]] $\beta \lt \alpha$, $X_\bullet$ restricted to the [[full subcategory|full-subdiagram]] $\{\gamma \;|\; \gamma \leq \beta\}$ is a [[colimit|colimiting cocone]] in $\mathcal{C}$ for $X_\bullet$ restricted to $\{\gamma \;|\; \gamma \lt \beta\}$.
+1. $X_\bullet$ is _continuous_ in that for every nonzero [[limit ordinal]] $\beta \lt \alpha$, $X_\bullet$ restricted to the [[full subcategory|full-subdiagram]] $\{\gamma \;|\; \gamma \leq \beta\}$ is a [[colimit|colimiting cocone]] in $\mathcal{C}$ for $X_\bullet$ restricted to $\{\gamma \;|\; \gamma \lt \beta\}$:
+
+   $$
+     X_\beta \simeq \underset{\longrightarrow}{\lim}_{\gamma \lt \beta} X_\gamma
+     \,. 
+   $$
 
 The corresponding **transfinite composition** is the induced morphism
 
