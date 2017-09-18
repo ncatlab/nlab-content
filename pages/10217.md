@@ -109,6 +109,11 @@ $$\array{
 as required. 
 =-- 
 
++-- {: .num_remark} 
+###### Remark 
+The proof of theorem \ref{fix} was written to lay bare its provenance as a special case of [[Lawvere's fixed point theorem]], and its essential kinship with the structure of the standard fixpoint combinator in [[combinatory algebra]]. See [Yanofsky 03](#Yanofsky03). 
+=-- 
+
 
 ### Incompleteness 
 
@@ -129,13 +134,9 @@ Thus, if $s$ is false in $\mathbb{N}$, then $s$ has a PA proof (so that PA prove
 
 +-- {: .proof} 
 ###### Proof 
-Indeed, let $R$ be a formula that represents the unary predicate $\neg Prov$, and let $s$ be a fixed point in the sense $[s] = [s \cdot R]$. The equality here is logical equivalence, and $[s \cdot R] = code(s)^\ast (\neg Prov)$ by equation (eq:eqn1). 
+Indeed, let $R$ be a formula that represents the unary predicate $\neg Prov$, and let $s$ be a fixed point in the sense $[s] = [s \cdot R]$, which is guaranteed to exist by theorem \ref{fix}. The equality here is logical equivalence, and $[s \cdot R] = code(s)^\ast (\neg Prov)$ by equation (eq:eqn1). 
 =-- 
 
-+-- {: .num_remark} 
-###### Remark 
-The proof of theorem \ref{fix} was written to lay bare its provenance as a special case of [[Lawvere's fixed point theorem]], and its essential kinship with the structure of the standard fixpoint combinator in [[combinatory algebra]]. See [Yanofsky 03](#Yanofsky03). 
-=-- 
 
 ## Related concepts
 
