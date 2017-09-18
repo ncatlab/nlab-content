@@ -51,9 +51,9 @@ A **supermanifold** $X$ of dimension $p|q$ is a
 
 * the [[topological space]] $|X|$ is [[second countable space]], [[Hausdorff space]],
 
-* $O_X$ is a [[sheaf]] of commutative [[super algebra]]s that is locally on small enough open subsets $U \subset |X|$ isomorphic to one of the form $C^\infty(U) \otimes \wedge^\bullet \mathbb{R}^q$.
+* $O_X$ is a [[sheaf]] of commutative [[super algebras]] that is locally on small enough open subsets $U \subset |X|$ isomorphic to one of the form $C^\infty(\mathbb{R}^p) \otimes \wedge^\bullet \mathbb{R}^q$.
 
-A [[morphism]] of supermanifolds is a morphism of [[ringed space]]s (...).
+A [[morphism]] of supermanifolds is a [[homomorphism]] of [[ringed spaces]] (...).
 
 =--
 
