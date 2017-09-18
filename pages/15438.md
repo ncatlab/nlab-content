@@ -30,7 +30,7 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is atomic over $Set$ hence Boolean ([[Stephen Schanuel|S. Schanuel]]). This fact can be viewed as a reflex of the _urelements_ in Fraenkel-Mostowski set theory.
 
-* $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$.
+* $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$. $Sh(FinSet^{op}_{mono},J)$ is equivalent to $sh_{\neg\neg}([FinSet_mono,Set])$.
 
 * $Sh(FinSet^{op}_{mono},J)$ is the category of continuous actions for the group of bijections of $N$ equipped with the topology derived from the product topology for $\prod_{N}N\quad .$
 
