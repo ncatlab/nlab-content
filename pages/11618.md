@@ -32,7 +32,7 @@ The proposal of HTS by [[Vladimir Voevodsky]] was motivated to a large extent by
 
 In HTS this problem is dealt with by re-introducing an [[extensional identity type]] which allows the would-be homotopy type theory to explicitly talk about simplicial _identity_ not in an [[(infinity,1)-category]] but in a 1-[[category]].
 
-Of course the payoff is that the re-introduction of extensional identity types re-introduces the problems of [[extensional type theory]] (undecidable type checking) that [[intensional type theory]] and in particular its "completion" to [[homotopy type theory]] was praised for as solving. Where [[homotopy type theory]] is genuinely an [[internal language]] for [[homotopy theory]] ("[[synthetic homotopy theory]]"!), HTS is a language for non-homotopy theory that is geared towards _presenting_ homotopy theory by [[homotopical categories]].
+Of course the catch is that the re-introduction of extensional identity types re-introduces the problems of [[extensional type theory]] (undecidable type checking) that [[intensional type theory]] and in particular its "completion" to [[homotopy type theory]] was praised for as solving. Where [[homotopy type theory]] is genuinely an [[internal language]] for [[homotopy theory]] ("[[synthetic homotopy theory]]"!), HTS is a language for non-homotopy theory that is geared towards _presenting_ homotopy theory by [[homotopical categories]].
 
 ## References
 
