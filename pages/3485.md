@@ -15,7 +15,7 @@ A _linear permutation representation_ is a functor $C \to $ [[Vect]] that factor
 
 +-- {: .un_remark}
 ###### Warning
-In the usual literature of [[representation theory]], "linear permutaton representations" are just called "permutation representations".
+In the usual literature of [[representation theory]], "linear permutation representations" are just called "permutation representations".
 =--
 
 
