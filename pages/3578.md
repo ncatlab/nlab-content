@@ -528,6 +528,11 @@ This appears as [[Higher Topos Theory|HTT, prop. 2.1.2.11]].
 
 * [[Cartesian fibration]]  
 
+## References
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+* {#AyalaFrancis17} [[David Ayala]], [[John Francis]], _Fibrations of $\infty$-Categories_ ([arXiv:1702.02681](https://arxiv.org/abs/1702.02681))
 
 
 
