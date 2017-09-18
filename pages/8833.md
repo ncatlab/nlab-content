@@ -50,6 +50,8 @@ For $n = 3$ this is due to ([Stasheff](#Stasheff)). For general $n$  this appear
 
 * Edward J. O'Neill, _On Massey products_,  Pacific J. Math. Volume 76, Number 1 (1978), 123-127. ([EUCLID](http://projecteuclid.org/euclid.pjm/1102807031))
 
+* {#Kochmann96} [[Stanley Kochmann]], section 5.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 ### Relation to $A_\infty$-algebra
  {#ReferencesRelationToAInfinity}
 
