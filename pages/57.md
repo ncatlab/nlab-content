@@ -20,7 +20,9 @@
 
 ## Idea
 
-Lie integration assigns to a [[Lie algebra]] $\mathfrak{g}$ -- or more generally an [[L-∞-algebra|∞-Lie algebra]] or [[∞-Lie algebroid]] -- a [[Lie group]] -- or more generally [[∞-Lie groupoid]] -- that is [[infinitesimal space|infinitesimally]] modeled by $\mathfrak{g}$. The reverse operation to [[Lie differentiation]].
+_Lie integration_ is a process that assigns to a [[Lie algebra]] $\mathfrak{g}$ -- or more generally an [[L-∞-algebra|∞-Lie algebra]] or [[∞-Lie algebroid]] -- a [[Lie group]] -- or more generally [[∞-Lie groupoid]] -- that is [[infinitesimal space|infinitesimally]] modeled by $\mathfrak{g}$. This is essentially the reverse operation to [[Lie differentiation]].
+
+Classically, Lie integration of [[Lie algebras]] is part of [[Lie's three theorems]]. 
 
 If the [[∞-Lie algebroid]]s $\mathfrak{a}$ involved are incarnated dually in the form of their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{a})$ then the bare [[∞-groupoid]] (that is: without the smooth structure) integrating them is effectively given by the [[Sullivan construction]] from [[rational homotopy theory]] which turns a [[dg-algebra]] into a [[simplicial set]] (and then into a [[topological space]] by [[geometric realization]]) applied here to the [[dg-algebra]] $CE(\mathfrak{a})$.
 
@@ -580,18 +582,14 @@ A detailed review of how the traditional Lie integration of [[Lie algebra]]s and
 * [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackets_ ([arXiv:math.DG/0105033](http://arxiv.org/abs/math/0105033))
 {#Crainic}
 
-The description of Lie integration with values in [[smooth ∞-groupoid]s] regarded as simplicial presheaves on [[CartSp]] is in
+The description of Lie integration with values in [[smooth ∞-groupoids]] regarded as simplicial presheaves on [[CartSp]] is in
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>).
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
 
 Essentially the same integration prescription is considered in 
 
 * [[Dmitry Roytenberg]], _Differential graded manifolds and associated stacks: an overview_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#Roytenberg">web</a>)
 
-
-A characterization of the [[∞-stacks]] obtained by Lie integration as above is in [theorem 5.3](http://www.math.harvard.edu/~lurie/papers/moduli.pdf#page=12) of 
-
-* [[Jacob Lurie]], _[[Moduli Problems and DG-Lie Algebras]]_ , 
 
 The Lie integration- of [[Lie infinity-algebroid representation|Lie algebroid representations]] $\mathfrak{a} \to end(V)$ to morphisms of [[∞-categories]] $A \to Ch_\bullet^\circ$ / [[higher parallel transport]] is discussed in
 
