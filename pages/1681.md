@@ -106,10 +106,10 @@ Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most fam
 
 On the other hand there is the [[cohomology]] of Eilenberg-MacLane spaces itself. This is in general rich. Classical results by [[Serre]] and [[Henri Cartan]] are reviewed in ([Clement 02, section  2](#Clement02)).
 
-+-- {: .num_prop}
++-- {: .num_prop #RationalCohomologyOfKZn}
 ###### Proposition
 
-For all even $n \in \mathbb{N}$, the [[ordinary cohomology|]] [[cohomology ring]] of $K(\mathbb{Z},n)$ with [[coefficients]] in the [[rational numbers]] is the [[polynomial algebra]] on the generator $a \in H^n(K(\mathbb{Z},n),\mathbb{Q}) \simeq \mathbb{Q}$. For all odd $n$ it is the [[exterior algebra]] on this generator:
+For all even $n \in \mathbb{N}$, the [[ordinary cohomology|ordinary]] [[cohomology ring]] of $K(\mathbb{Z},n)$ with [[coefficients]] in the [[rational numbers]] is the [[polynomial algebra]] on the generator $a \in H^n(K(\mathbb{Z},n),\mathbb{Q}) \simeq \mathbb{Q}$. For all odd $n$ it is the [[exterior algebra]] on this generator:
 
 $$
   H^\bullet(K(\mathbb{Z},n),\mathbb{Q})
