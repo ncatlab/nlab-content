@@ -797,7 +797,8 @@ commutative algebras. But by our [result on the model structure on TAlg](#ModelT
 But more abstractly, we can also simply use the general theory of [[reflective sub-(∞,1)-categories]] and their characterization as the reflective [[localization of an (∞,1)-category]] at a set of weak equivalences: from the above we know that on the full sub-$(\infty,1)$-category of $((T Alg^\Delta_{proj})^{op})^\circ$ on the objects in $C^{\Delta^{op}} \hookrightarrow (T Alg^\Delta)^{op}$ is a reflective sub-$(\infty,1)$-category 
 
 $$
-  \mathbf{L} \stackrel{\overset{\mathbb{L} \mathcal{O}}{\hookrightarrow}}{\underset{\mathbb{R} i}{\to}}
+  \mathbf{L} 
+   \stackrel{\overset{\mathbb{L} \mathcal{O}}{\longleftarrow}}{\underset{\mathbb{R} i}{\hookrightarrow}}
   \mathbf{H} \coloneqq Sh_{(\infty,1)}(C)
 $$ 
 
