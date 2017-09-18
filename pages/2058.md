@@ -67,3 +67,5 @@ This is [[Higher Topos Theory|HTT, theorem 6.1.0.6 (3) ii)]]
 Section 6.1.1 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+[[!redirects universal colimits]]
