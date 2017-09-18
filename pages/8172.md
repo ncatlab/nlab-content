@@ -575,7 +575,7 @@ $$
   \cdots
 $$
 
-(where $C_{k+1} \coloneqq hocofib(i_k)$) we call the **associated inverse sequence** of the $E$-Adams tower 
+(where $C_{k+1}$ is...) we call the **associated inverse sequence** of the $E$-Adams tower 
 
 =--
 
