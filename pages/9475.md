@@ -16,7 +16,7 @@
 
 ## Idea
 
-__Isabelle__ is a [[proof assistant]]. Its main application is _[[HOL]]_.
+__Isabelle__ is a [[proof assistant]]. Its main application is _[[HOL]]_. Related proof assistants are HOL4, [[HOL Light]], HOL Zero, and ProofPower. These are programmed, as Isabelle itself, in ML.
 
 ## References
 
