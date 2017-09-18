@@ -114,7 +114,8 @@ This section introduces the observation that the basic structures in [[quantum m
 | [[Feynman diagram]] | monoidal [[string diagram]] |
 
 
-#### Time evolution and Functors
+#### Time evolution and Functors 
+ {#TimeEvolutionAndFunctors}
 
 The basic idea of [[quantum mechanics]] in the "[[Schrödinger picture]]" is to describe a [[quantum mechanical system]] (such as an [[electron]] in the [[electromagnetic field]] of a [[proton]]) by
 
@@ -272,7 +273,7 @@ In terms of [[physics]] such non-cartesian vectors are [[quantum states]] that e
 
 For more exposition of this point see ([Baez 04](#Baez04)).
 
-#### Partition functions and Dual objects
+#### Bra-Kets and Dual objects
 
 Consider now for simplicity of notation an application in [[quantum computing]]/[[quantum information theory]], where the [[spaces of states]] $V$ involved are [[finite dimensional vector spaces]] (spaces of [[qubits]]), such as for instance in the topological sector of the [[quantum Hall effect|quantum Hall system]].
 
@@ -287,7 +288,77 @@ Then for every space of states $V$ there is the [[dual vector space]]  $V^\ast$.
 Essentially all of [[quantum information theory]] has a slick reformulation in terms of [[category theory]] for [[symmetric monoidal category]] [[rigid monoidal category|with dual objects]]. More on this is at _[[finite quantum mechanics in terms of dagger-compact categories]]_.
 
 
-While the introduction of bra-ket notation by [[Paul Dirac]] was (while just notation) already quite useful for thinking about the subject, the language of monoidal category in fact reflects the actual physical processes involved even better:
+While the introduction of bra-ket notation by [[Paul Dirac]] was (while just notation) already quite useful for thinking about the subject, the language of monoidal category in fact reflects the actual physical processes involved even better.
+
+For instance, in quantum mechanics textbooks one often sees the following manipulation of symbols for expressing a [[trace]] in terms of a sum over [[basis of a vector space|basis]] elements
+
+$$
+  \begin{aligned}
+    \langle \Psi \vert \exp(\tfrac{i}{\hbar} H t ) \vert \Psi \rangle
+    & =
+    \langle \Psi \vert \exp(\tfrac{i}{\hbar} H t )  
+    \left( \sum_j \vert \Psi_j \rangle \langle \Psi_j \vert \right)
+    \vert \Psi \rangle
+    \\
+    & = 
+    \sum_j
+     \langle \Psi \vert \exp(\tfrac{i}{\hbar} H t ) \vert \Psi_j \rangle
+     \langle \Psi_j \vert \Psi \rangle
+    \\
+    & = \sum_j
+    \langle \Psi_j \vert 
+    \left(
+    \vert \Psi \rangle
+    \langle \Psi \vert \exp(\tfrac{i}{\hbar} H t ) 
+    \right)
+    \vert \Psi_j \rangle
+  \end{aligned}
+  \,.
+$$
+
+This "rotation" operation where symbols are cyclically permuted reflects the fact that indeed traces as in [[partition functions]] reflect actual physical circular processes.
+
+In "[[string diagram]]"-notation of [[monoidal category]]-theory this is reflected as follows. The unit map
+
+$$
+  1 \mapsto \underset{j}{\sum}  \vert \Psi_j \rangle \langle \Psi_j \vert
+$$
+
+is depicted as
+
+$$
+  \array{
+    && \longleftarrow
+    \\
+    & \swarrow && \nwarrow
+    \\
+    V && && V^\ast
+  }
+$$
+
+and the counit map
+
+$$
+  \vert \Psi_j \rangle \langle \Psi_k \vert
+  \mapsto 
+  \langle \Psi_k \vert \Psi_j \rangle
+$$
+
+as
+
+$$
+  \array{
+    V && && V^\ast
+    \\
+    & \searrow && \nearrow
+    \\
+    && \longrightarrow
+  }
+  \,.
+$$
+
+#### Partition functions and Monoidal string diagrams
+
 
 Given a [[Hamiltonian]] $H$, the [[partition function]] of the [[quantum mechanical system]] is the [[trace]]
 
@@ -318,7 +389,7 @@ $$
      \\
      V && && V^\ast
      \\
-     & \searrow && \uparrow
+     & \searrow && \nearrow
      \\
      && \longrightarrow
   }
@@ -328,6 +399,59 @@ This is striking, because this _picture_ is an accurate reflection of the physic
 
 In fact, the monoidal category theoretic [[string diagram]]-notation is essentially the [[Feynman diagram]]-notation. This we turn to [below](#QMWithInteractionAndFeynmanDiagrams).
 
+
+For a 1-dimensional [[TQFT]] the Hamiltonian above vanishes. (Or maybe more interestingly: for [[supersymmetric quantum mechanics]] the Hamiltonian may not vanish, but in the [[super trace]] in the [[partition function]] all non-zero energy eigenmodes cancel out by supersymmetry, and only the topological part is left after all).
+
+In this case the partition function reduces to
+
+$$
+  \array{
+     && \longleftarrow
+     \\
+     & \swarrow && \nwarrow
+     \\
+     V && && V^\ast
+     \\
+     & \searrow && \nearrow
+     \\
+     && \longrightarrow
+  }
+$$
+
+which is just the trace on $V$. 
+
+To reflect this in the functorial notation from [above](#TimeEvolutionAndFunctors), notice that also the catefogory $Bord_{1}^{Riem}$ from above is naturally a [[monoidal category]] if we take its objects to consist not just of single point, but of arbitrary collections of points, and to have its morphisms consist of all 1-dimensional [[cobordisms]]. Then a monoidal structure $(Bord_1^{Riem})^\coprod$ is given by [[disjoint union]].
+
+A 1d TQFT with values in vector spaces is then a [[strong monoidal functor]]
+
+$$
+  (Bord_1^{Riem})^\corpod \longrightarrow Vect^{\otimes}
+  \,.
+$$
+
+Other processes that sucj a 1d 1TQFT encodes include
+
+$$
+  \array{
+    V && && V^\ast
+    \\
+    & \searrow && \nearrow
+    \\
+    && \longrightarrow
+    \\
+     && \longleftarrow
+     \\
+     & \swarrow && \nwarrow
+     \\
+     V && && V^\ast
+  }
+$$
+
+In this way a 1d TQFT is entirely encoded in the operation that exhibit a [[finite dimensional vector space]] $V$ as a [[dualizable object]].
+
+* (1d TQFT with coefficients in [[Vect]]) $\leftrightarrow$ ([[dualizable objects]] in $Vect$) $\leftrightarrow$ ([[finite dimensional vector spaces]])
+
+This is the simplest incarnation of the statement that for higher dimensional [[extended TQFT]] becomes the [[cobordism hypothesis]]. We come to this [below](#IntroductionGeneralFormulation).
 
 
 ### Quantum mechanics with interactions and Feynman diagram
@@ -440,6 +564,13 @@ need to
 via [[higher category theory]]
 
 ...[[TCFT]]...
+
+| [[2d TQFT]] | [[algebra]] |
+|-------------|-------------|
+| closed with coeffcients in [[Vect]] | commutative [[Frobenius algebra]] |
+| closed with coefficient in [[category of chain complexes|Ch(Vect)]] | [[Calabi-Yau A-∞ algebra]] |
+| open-closed with coefficient in [[category of chain complexes|Ch(Vect)]] | [[Calabi-Yau A-∞ category]] |
+
 
 
 ### Global 3d TQFT -- Chern-Simons theory
