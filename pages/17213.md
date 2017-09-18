@@ -1816,19 +1816,20 @@ $$
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #DayMonoidalStructureIsClosed}
 ###### Proposition
 
-For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes_{\mathcal{C}} \;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$, the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(I))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
+For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes_{\mathcal{C}} \;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$, the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
 
 $$
   [X,Y]_{Day}(c)
   \simeq
    \underset{c_1,c_2}{\int}
-      V\left( 
+      Maps\left( 
         \mathcal{C}(c \otimes_{\mathcal{C}} c_1,c_2),
-        V(X(c_1), Y(c_2)) 
-      \right)       
+        \;
+        Maps(X(c_1) ,  Y(c_2))_\ast 
+      \right)_\ast       
   \,.
 $$
 
@@ -1837,26 +1838,27 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Using the [[Fubini theorem]] (def. \ref{CoendsCommuteWithEachOther}) and the [[co-Yoneda lemma]] (def. \ref{TopologicalCoYonedaLemma}), there is the following sequence of [[natural isomorphisms]]:
+Using the [[Fubini theorem]] (def. \ref{CoendsCommuteWithEachOther}) and the [[co-Yoneda lemma]] (def. \ref{TopologicalCoYonedaLemma}) and in view of definition \ref{PointedTopologicalFunctorCategory} of the [[enriched functor category]], there is the following sequence of [[natural isomorphisms]]:
 
 $$
   \begin{aligned}
      [\mathcal{C},V]( X, [Y,Z]_{Day} )
        & \simeq
-     \underset{c}{\int} V\left(
+     \underset{c}{\int} 
+     Maps\left(
         X(c), 
         \underset{c_1,c_2}{\int}
-        V\left( 
+        Maps\left( 
           \mathcal{C}(c \otimes_{\mathcal{C}} c_1 , c_2),
-          V(Y(c_1), Z(c_2)) 
-        \right)
-     \right)
+          Maps(Y(c_1), Z(c_2))_\ast 
+        \right)_\ast
+     \right)_\ast
      \\
      &
      \simeq
      \underset{c}{\int}
      \underset{c_1,c_2}{\int}
-     V\left(
+     Maps\left(
        \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
          \wedge
        X(c)
@@ -1864,11 +1866,11 @@ $$
        Y(c_1)
        ,\;
        Z(c_2)
-     \right)
+     \right)_\ast
      \\
      & \simeq
      \underset{c_2}{\int}
-     V\left(
+     Maps\left(
        \overset{c,c_1}{\int}
        \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
          \wedge
@@ -1877,14 +1879,14 @@ $$
        Y(c_1)
        ,\;
        Z(c_2)
-     \right)
+     \right)_\ast
      \\
      &\simeq
      \underset{c_2}{\int}
-       V\left(
+       Maps\left(
          (X \otimes_{Day} Y)(c_2),
          Z(c_2)
-       \right)
+       \right)_\ast
      \\
      &\simeq
      [\mathcal{C},V](X \otimes_{Day} Y, Z)
