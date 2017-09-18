@@ -20,9 +20,25 @@
 
 ## Idea
 
-The classical _Brown representability theorem_ ([Brown 62](#Brown62), [Adams 71](#Adams71)) says that certain contravariant [[functors]] on the [[homotopy category]] are [[representable functor|representable]].  This is used, for instance, to show that every [[generalized (Eilenberg-Steenrod) cohomology]] theory is representable by a [[spectrum]]. (But beware that the cohomology theory in general contains less information than the spectrum, due to [[phantom maps]]. (see also [MO discussion](http://mathoverflow.net/q/117684/381)))
+The classical _Brown representability theorem_ ([Brown 62](#Brown62), [Adams 71](#Adams71)) says contravariant [[functors]] on the (pointed) [[classical homotopy category]] satisfying two conditions ("[[Brown functors]]") are [[representable functor|representable]].  
 
-There are various generalizations, such as to [[triangulated category|triangulated categories]] ([Neeman 96](#Neeman96)), to various [[model categories]] ([Jardine 09](#Jardine09)) and notably to suitable [[(∞,1)-categories]] ([Lurie, theorem 1.4.1.2](#LurieHigherAlgebra)).  But in any case there are some crucial conditions for the theorem to apply,such as
+This is used notably to show that every additive reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory $E^\bullet$ is representable by a [[spectrum]] $E$ as 
+
+$$
+  E^n(X) \simeq [X,E_n]
+  \,.
+$$
+
+(But beware that the cohomology theory in general contains less information than the spectrum, due to [[phantom maps]] (see also this [MO discussion](http://mathoverflow.net/q/117684/381)).) 
+
+The Brown representability theorem as such, with the two conditions on a [[Brown functor]] understood, only applies to [[contravariant functors]], not to covariant functors.  But by way of [[Spanier-Whitehead duality]] it implies at least over [[finite CW-complexes]] that dually every additive [[generalized homology theory]] $E_\bullet$ is representable by a spectrum $E$ via
+
+$$
+  E_n(X) \simeq \pi_n(E_n \wedge X)
+  \,.
+$$ 
+
+There are various generalizations, such as to [[triangulated category|triangulated categories]] ([Neeman 96](#Neeman96)), to [[homotopy category of a model category|homotopy categories of]] various [[model categories]] ([Jardine 09](#Jardine09)) and [[homotopy category of an (infinity,1)-category|homotopy categories of]]  [[(∞,1)-categories]] ([Lurie, theorem 1.4.1.2](#LurieHigherAlgebra)).  But in any case there are some crucial conditions for the theorem to apply, such as
 
 * [[group]] structure on the values of the functor, as is the case for an (abelian) cohomology theory, and as would be the case for a represented functor in any [[additive category]], 
 
