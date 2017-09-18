@@ -188,6 +188,12 @@ A solution to the Weierstrass cubic, def. \ref{GeneralWeierstrassCubic}, with mo
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Adding the nodal curve to the [[moduli stack of elliptic curves]] yields its [[compactification]], and the [[formal neighbourhood]] of the nodal curve in that compactification is known as the _[[Tate curve]]_.
+
+=--
 
 ##### Localization at 2 and 3
 
