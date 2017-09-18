@@ -11,14 +11,15 @@ The [[branes]]  of the [[B-model]] [[topological string]], hence a [[TQFT]]-shad
 
 * [[A-brane]], [[homological mirror symmetry]]
 
-* [[TCFT]]
+* [[2d TQFT]], [[TCFT]]
 
 * [[Bridgeland stability condition]]
 
 * [[quiver gauge theory]]
 
-## References
+[[!include table of branes]]
 
+## References
 
 A classical review is
 
