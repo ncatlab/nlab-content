@@ -85,7 +85,7 @@ $$
   H_f \colon X \ast Y \longrightarrow \Sigma Y
 $$
 
-ouf of the [[join of topological spaces|join]] into the [[suspension]], given in the coordinates of def. \ref{SuspensionJoin} by
+out of the [[join of topological spaces|join]] into the [[suspension]], given in the coordinates of def. \ref{SuspensionJoin} by
 
 $$
   H_f \colon (x,t,y) \mapsto (f(x,y), t)
@@ -224,7 +224,7 @@ $$
   \,.
 $$
 
-Moreover, in this parameterizaton the Hopf construction, def. \ref{HopfConstruction}, manifestly gives the Hopf fibration map.
+Moreover, in this parameterization the Hopf construction, def. \ref{HopfConstruction}, manifestly gives the Hopf fibration map.
 
 
 
