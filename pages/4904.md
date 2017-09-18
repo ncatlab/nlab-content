@@ -92,11 +92,11 @@ $$
   \mathbb{R}i \;\colon\; Ho(sAlg(C)_{proj}) \to Ho(sPSh(C^{op})_{proj})
 $$ 
 
-is a [[full and faithful functor]] and an object $F \in sPSh(C^{op})$ belongs to the [[essential image]] of $\mathbb{R}i$ precisely if it preserves product up to [[weak homotopy equivalence]].
+is a [[full and faithful functor]] and an object $F \in sPSh(C^{op})$ belongs to the [[essential image]] of $\mathbb{R}i$ precisely if it preserves products up to [[weak homotopy equivalence]].
 
 =--
 
-This is due to ([Bergner](#Bergner)).
+This is due to ([Badzioch 02, def. 5.2, prop. 5.4, cor. 5.7](#Badzioch02)).
 
 It follows that the natural $(\infty,1)$-functor
 
@@ -315,11 +315,12 @@ it is discussed that every model category of simplicial $T$-algebras is [[Quille
 
 The fact that the model structure on simplicial $T$-algebras serves to model $\infty$-algebras is in
 
-* {#Bergner} [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
-
-The Quillen equivalence to the model structure on homotopy $T$-algebras is in 
-
 * {#Badzioch02} [[Bernard Badzioch]], _Algebraic theories in homotopy theory_, Annals of Mathematics, 155 (2002), 895-913 ([JSTOR](http://www.jstor.org/stable/3062135))
+
+and the multi-sorted version is in 
+
+* {#Bergner07} [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_, Algebraic and Geometric Topoogy 7 (2007) ([arXiv:0508152](https://arxiv.org/abs/math/0508152))
+
 
 The simplicial model structure on ordinary simplicial algebras (i.e. simplicial [[associative algebras]]) is discussed in
 
