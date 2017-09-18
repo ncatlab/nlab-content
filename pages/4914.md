@@ -96,6 +96,8 @@ By the [[Yoneda lemma for bicategories]], the object $P$ determines (up to canon
 
 * [[diagram]], [[internal presheaf]], [[internal sheaf]]
 
+* [[internal (co-)limit]]
+
 ## References
 
 * [[P. T. Johnstone]], _Topos theory_, 1977, chapter 2 
