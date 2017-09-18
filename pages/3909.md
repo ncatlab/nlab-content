@@ -266,7 +266,7 @@ an element of the 3-dimensional [[complex projective space]], called _twistor sp
 ### Twistor space
  {#TwistorSpace}
 
-To discuss twistor space for Minkowski spacetime, it is useful to work more generally with $d$-dimensional Minkowski spacetime for $d \in \{3,4,6,8\}$. If we also use the corresponding irreducible real [[spin representation]] then by the discussion [there](spin+representation#InTermsOfNormedDivisionAlgebraInDimension3To10), these are equivalently 2-component vectors over the real [[normed division algebras]] $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$, respectively. (See also at _[[supersymmetry and division algebra]]_, we follow [Bengtsson-Cederwall 88](#BengtssonCederwall88)).
+To discuss twistor space for Minkowski spacetime, it is useful to work more generally with $d$-dimensional Minkowski spacetime for $d \in \{3,4,6,10\}$. If we also use the corresponding irreducible real [[spin representation]] then by the discussion [there](spin+representation#InTermsOfNormedDivisionAlgebraInDimension3To10), these are equivalently 2-component vectors over the real [[normed division algebras]] $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$, respectively. (See also at _[[supersymmetry and division algebra]]_, we follow [Bengtsson-Cederwall 88](#BengtssonCederwall88)).
 
 With this, the vector space underlying $d$-dimensional [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ is identified with the space of $2 \times 2$ [[hermitian matrices]] with entries in $\mathbb{K}$
 
@@ -317,7 +317,7 @@ $$
    \right]
 $$
 
-where $\{e_n\}_{n = 2}^{d}$ are an [[orthonormal basis]] for the elements of $\mathbb{K}$. Here we write 
+where $\{e_n\}_{n = 2}^{d}$ denotes an [[orthonormal basis]] for the elements of $\mathbb{K}$. Here we write 
 
 $$
   \overline{(-)}
@@ -383,7 +383,7 @@ $$
   \,.
 $$
 
-Since, as hermitian matrices, the $2 \times 2$ matrices arising this way are manifestly precisely the hermitian projection operators on 1-dimensional linear subspaces of $\mathbb{K}^2$, these are precisely the $2 \times 2$ hermitian matrices with vanishing determinant. Hence the future-oriented [[lightlike]] vectors in Minkowski spacetime in $d = \{2,3,4,10\}$ are precisely those that arise as the pairing of a chiral spinor with itself.
+Since, as hermitian matrices, the $2 \times 2$ matrices arising this way are manifestly precisely the hermitian projection operators on 1-dimensional linear subspaces of $\mathbb{K}^2$, these are precisely the $2 \times 2$ hermitian matrices with vanishing determinant. Hence the future-oriented [[lightlike]] vectors in Minkowski spacetime in $d = \{3,4,6,10\}$ are precisely those that arise as the pairing of a chiral spinor with itself.
 
 The above formula shows that as we rescale $\psi \mapsto k \psi$ with $k \in \mathbb{K}$, then the corresponding lightlike vector is sent to itself, rescaled by the real number $k \overline{k} \in \mathbb{R}$. Hence the direction of lightlike vectors is parameterized by the [[projective space]] $\mathbb{K}P^1$. At least for $\mathbb{K} = \mathbb{C}$ (the [[complex numbers]]) this is called the [[celestial sphere]] (in this case: the [[Riemann sphere]] $\mathbb{C}P^1$).
 
@@ -402,7 +402,7 @@ $$
 
 This relation bewteen $\omega$ and $\psi$ is called the _incidence relation_ in this context.
 
-The locus of the lightlike geodesic does not change as we rescale $\psi$ by elements $k \in \mathbb{K}$, and then $\omega$ gets rescaled accordingly. Hence the pair $(\omega^\alpha, \psi_{\dot \alpha})$ regarded as encoding lightlike geodesics in Minkowski spacetime should be throught of as an element of the [[projective space]] 
+The locus of the lightlike geodesic does not change as we rescale $\psi$ by elements $k \in \mathbb{K}$, and then $\omega$ gets rescaled accordingly. Hence the pair $(\omega^\alpha, \psi_{\dot \alpha})$ regarded as encoding lightlike geodesics in Minkowski spacetime should be thought of as an element of the [[projective space]] 
 
 $$
   \mathbb{K}P^3
@@ -457,14 +457,12 @@ $$
 Now conversely, given $Z^a = (\omega^\alpha, \psi_{\dot\alpha})$ not equal to zero and satisfying this condition in that there is a hermitian $X^{\dot \alpha \alpha}$ with $\omega^{\alpha} = \psi_{\dot \alpha} X^{\dot \alpha \alpha}$, then also every hermitian matrix of the form
 
 $$
-  X^{\dot \alpha \alpha} + \tau \Psi^{\dot \alpha}\Psi^\alpha
+  X^{\dot \alpha \alpha} + \tau \psi^{\dot \alpha}\psi^\alpha
 $$
 
 (for $\tau \in \mathbb{R}$, hence every point on the lightlike geodesic through $X$ in the direction of $\psi \psi^\dagger$) satisfies the relation (since the spinor index is raised with $(\epsilon^{\dot \alpha \dot \beta})$, which is skew symmetric).  This way non-zero points in $\mathcal{N} \hookrightarrow \mathbb{K}P^3$ correspond to lightlike geodesics in Minkowski spacetime. 
 
-This correspondence extends also to the 0-point in $\mathcal{N}$ if one passes to "compactified Minkowski spacetime". (...)
-
-
+This correspondence extends also to the 0-point in $\mathcal{N}$ if one passes to "compactified Minkowski spacetime" (review includes [Fioresi-Lledo-Varadarajan 07, section 2](#FioresiLledoVaradarajan07)).
 
 
 
@@ -519,6 +517,9 @@ Introductions and surveys include
 * {#Dunajski09} Maciej Dunajski, _Twistor Theory and Differential Equations_ ([arXiv:0902.0274](http://arxiv.org/abs/0902.0274))
 
 * [[Roger Penrose]], _Twistor theory_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris, 2015 ([video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg))
+
+* {#FioresiLledoVaradarajan07} R. Fioresi, M. A. Lledo, [[Veeravalli Varadarajan]], _The Minkowski and conformal superspaces_, J.Math.Phys.48:113505,2007 ([arXiv:0609813](https://arxiv.org/abs/math/0609813))
+
 
 See also 
 
