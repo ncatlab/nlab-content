@@ -651,8 +651,8 @@ should also be seen as of Dold-Kan type. The homotopical applications  considera
 
 See also 
 
-* Brown, R. _A philosophy of computing and modelling homotopy types_, Aveiro CT2015, 
- ([pdf](http://groupoids.org.uk/pdffiles/aveiro-beamer-handout.pdf))
+* Brown, R. _Modelling and computing homotopy types: I_, Indagationes Math: Special Issue in honor of L.E.J. Brouwer, (2017) 
+ ([pdf](http://groupoids.org.uk/pdffiles/brouwer-honor.pdf))
 
 
 The discussion of Dold--Kan in the general context of [[semi-abelian category|semi-abelian categories]] is in
