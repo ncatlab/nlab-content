@@ -178,6 +178,7 @@ $$
 
 * [[(∞,n)Cat]]
 
+* [[(infinity, 1)Prof]]
 
 category: category
 
