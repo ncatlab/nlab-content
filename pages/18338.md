@@ -37,7 +37,7 @@ The term _unnatural isomorphism_ is born of a wish to speak about things which a
 
 Intuitively, image you analyze two methods of manu$F$acturing certain $O'$bjects. Suppose you are only interested in some fixed sense of _(a)l$i$keness_ of the these $O'$bjects. Now you would like to compare manu$F_0$acturing the $O'$bjects one way with manu$F_1$acturing the $O'$bjects another way. 
 
-Imagine also that, from the same input, both manu$F_i$acturing-styles always produce two $O'$bjects which look al$i$ke, though not necessarily _identical_. Then, in a (your) sense, manu$F_0$acturing one way is the same as manu$F_1$acturing the other way. But you may still find the two ways essentially different, without being able to say why. Now category theory can help. In a sense, you have only compared $F_0$ and $F_1$ pointwise---statically---on the level of $0$-cells. You might find it useful to compare $F_0$ and $F_1$ dynamically, too, and then the two manu$F-i$acturing-styles may suddenly be patently different. 
+Imagine also that, from the same input, both manu$F_i$acturing-styles always produce two $O'$bjects which look al$i$ke, though not necessarily _identical_. Then, in a (your) sense, manu$F_0$acturing one way is the same as manu$F_1$acturing the other way. But you may still find the two ways essentially different, without being able to say why. Now category theory can help. In a sense, you have only compared $F_0$ and $F_1$ pointwise---statically---on the level of $0$-cells. You might find it useful to compare $F_0$ and $F_1$ dynamically, too, and then the two manu$F_ii$acturing-styles may suddenly be patently different. 
 To discuss this mathematically, you have to fix a _notion of change_ within the world where your _raw_ $O$bjects are coming from, in other words, fix a _category_ that your $O$bjects are coming from. 
 
 ## Terminology
@@ -72,7 +72,7 @@ The term _unnatural isomorphism_ is often used in [[homological algebra]], in pa
 
 ##### A recent definition 
 
-Species are functors for which unnatural isomorphisms are often discussed. Examples are [this MO comment](#Gessel2014) and [Definition 3.3.4](#Yorgey2014) which defines an equivalence relation on the class of all species by explicitly using the term, defining an "equipotence between species [...] as an "unnatural" isomorphism between [the two species in question]", however, in _another_ sense, which will not be spelled out here, than discussed in  [MathOverflow2013](#MathOverflow2013).
+Species are functors for which unnatural isomorphisms are often discussed. Examples are [this MO comment](#GesselTrimble2014) and [Definition 3.3.4](#Yorgey2014) which defines an equivalence relation on the class of all species by explicitly using the term, defining an "equipotence between species [...] as an "unnatural" isomorphism between [the two species in question]", however, in _another_ sense, which will not be spelled out here, than discussed in  [MathOverflow2013](#MathOverflow2013).
 
 
 ## A source of confusions
@@ -118,7 +118,7 @@ Vol. 58, No. 2 (Sep., 1945), pp. 231-294 ([JSTOR](http://www.jstor.org/stable/19
 
 * {#MathOverflow2013} MathOverflow, _[Example of unnatural isomorphism](https://mathoverflow.net/questions/139388/example-of-an-unnatural-isomorphism)_ 
 
-* {#Gessel2014} MathOverflow, _[What are some examples of interesting uses of the theory of combinatorial species?](https://mathoverflow.net/users/2926/todd-trimble)_
+* {#GesselTrimble2014} MathOverflow, _[What are some examples of interesting uses of the theory of combinatorial species?](https://mathoverflow.net/q/59259)_
 
 
 
