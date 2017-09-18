@@ -1,0 +1,9 @@
+
+
+* [webpage](http://hyoka.ofc.kyushu-u.ac.jp/search/details/K002688/english.html)
+
+## related $n$Lab entries
+
+* [[arithmetic topology]]
+
+category: people
