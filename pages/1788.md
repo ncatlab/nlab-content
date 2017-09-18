@@ -1,37 +1,55 @@
-+-- {: .num_example #ComposedPathSpaceObjects}
-###### Example
++-- {: .num_defn #HomotopyCategoryOfAModelCategory}
+###### Definition
 
-If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{ModelCategory}, and for $Path_1(X)$ and $Path_2(X)$ two good [[path space objects]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then the [[fiber product]] $Path_1(X) \times_X Path_2(X)$ is another good path space object for $X$: the pullback square 
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Write $Ho(\mathcal{C})$ for the [[category]] whose
+
+* [[objects]] are those objects of $\mathcal{C}$ which are both fibrant and cofibrant;
+
+* [[morphisms]] are the [[homotopy classes]] of morphisms of $\mathcal{C}$, hence the [[equivalence classes]] of morphism under the equivalence relation of prop. \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations}.
+
+and whose [[composition]] operation is given on representatives by composition in $\mathcal{C}$.
+
+This is, up to [[equivalence of categories]], the **[[homotopy category of a model category|homotopy category of the model category]]** $\mathcal{C}$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Def. \ref{HomotopyCategoryOfAModelCategory} is well defined, in that composition of morphisms between fibrant-cofibrant objects in $\mathcal{C}$ indeed passes to [[homotopy classes]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Fix any morphism $X \overset{f}{\to} Y$ between fibrant-cofibrant objects. Then for precomposition
+
+$$
+ (-) \circ [f] \;\colon\; Hom_{Ho(\mathcal{C})}(Y,Z) \to Hom_{Ho(\mathcal{C}(X,Z))}
+$$
+
+to be well defined, we need that with $(g\sim h)\colon Y \to Z$ also $(f g \sim f h)\colon X \to Z$. But by prop \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations} we may take the homotopy $\sim$ to be exhibited by a right homotopy $\eta \colon Y \to Path(Z)$, for which case the statement is evident from this diagram:
 
 $$
   \array{
-     X &\overset{\Delta_X}{\longrightarrow}&  X \times X
-     \\
-     \downarrow && \downarrow
-     \\
-     Path_1(X) \underset{X}{\times} Path_2(X) 
-     &\longrightarrow&
-     Path_1(X)\times Path_2(X)
-     \\
-     {}^{\mathllap{\in Fib}}\downarrow 
-     &(pb)& 
-     \downarrow^{\mathrlap{\in Fib}}
-     \\
-     X \times X \times X
-     &\overset{(id,\Delta_X,id)}{\longrightarrow}& X \times X\times X \times X
-     \\
-     \downarrow^{\mathrlap{(pr_1,pr_3)}}_{\mathrlap{\in Fib}}
-     &&
-     \downarrow^{\mathrlap{(p_1, p_4)}}
-     \\
-     X\times X &=& X \times X 
+    && && Z
+    \\
+    && & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{p_1}}
+    \\
+    X 
+      &\overset{f}{\longrightarrow} & 
+    Y
+      &\overset{\eta}{\longrightarrow}&
+    Path(Z)
+    \\
+    && & {}_{\mathllap{g}}\searrow & \downarrow_{\mathrlap{p_0}}
+    \\
+    && && Z
   }
+  \,.
 $$
 
-gives that the induced projection is again a fibration. Using lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} and [[two-out-of-three]] gives that $X \to Path_1(X) \times_X Path_2(X)$ is a weak equivalence.
-
-For the case of the canonical topological path space objects of def \ref{TopologicalPathSpace}, with $Path_1(X) = Path_2(X) = X^I = X^{[0,1]}$  then this new path space object is $X^{I \vee I} = X^{[0,2]}$, the [[mapping space]] out of the standard interval of length 2 instead of length 1.
-
-
+For postcomposition we may choose to exhibit homotopy by left homotopy and argue dually.
 
 =--
