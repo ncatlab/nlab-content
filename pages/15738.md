@@ -23,6 +23,8 @@ Surveys include [Uzan, section 5.3.1](#Uzan)
 
 * [[GUT]], [[supersymmetry]]
 
+* [[theory of everything]]
+
 * [[string theory FAQ]]
 
 ## References
