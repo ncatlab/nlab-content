@@ -14,3 +14,4 @@ category: people
 [[!redirects Dan Isaksen]]
 [[!redirects Daniel Isaksen]]
 [[!redirects D. Isaksen]]
+[[!redirects Daniel C. Isaksen]]
