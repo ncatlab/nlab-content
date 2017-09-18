@@ -1,0 +1,43 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of the [[quantization of Yang-Mills theory]], the _mass gap problem_ is the question of why the [[bound states]] of massless [[quarks]] ([[hadrons]]) have [[mass]]. A solution is necessary to explain why the [[strong nuclear force]] is strong but short-ranged.
+
+##Related pages
+
+* [[confinement]]
+
+
+## References
+
+A survey and problem description is in
+
+* {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
+
+and a report on the progress (essentially none) is in 
+
+* {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills
+Millenium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
+
+Notes reviewing more technical details of the problem are in 
+
+* Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
+
+[[!redirects mass gap problem]]
