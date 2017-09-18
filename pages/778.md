@@ -23,7 +23,7 @@ _Differential graded categories_ or _dg-categories_ are linear analogues of [[sp
 
 ## Definition
 
-A _dg-category_ over a [[commutative ring]] $k$ is an [[(infinity,1)-category]] [[enriched (infinity,1)-category|enriched]] in the [[(infinity,1)-category]] of [[chain complexes]] of $k$-[[modules]].  Equivalently, it is an ordinary category [[enriched category|strictly enriched]] in [[chain complexes]] (see [Haugseng 13](#Haugseng13)).
+A _dg-category_ over a [[commutative ring]] $k$ is an [[(infinity,1)-category]] [[enriched (infinity,1)-category|enriched]] in the [[(infinity,1)-category of chain complexes]] of $k$-[[modules]].  Equivalently, it is an ordinary category [[enriched category|strictly enriched]] in [[chain complexes]] (see [Haugseng 13](#Haugseng13)).
 
 Hence a dg-category is a category with [[mapping complexes]] of morphisms between any two objects. By taking the [[homologies]] of these [[chain complexes]] in degree zero, one gets an ordinary category, called the [[homotopy category of a dg-category]].
 Notice that a dg-category with a single object is the same thing as a [[dg-algebra]].
@@ -36,7 +36,10 @@ The [[Dwyer-Kan model structure on dg-categories]] presents the [[(infinity,1)-c
 
 ### Relation to stable $\infty$-categories
 
-The [[Morita model structure on dg-categories]] presents the [[(infinity,1)-category]] of [[idempotent complete (infinity,1)-category|idempotent complete]] [[linear (infinity,1)-category|linear]] [[stable (infinity,1)-categories]] ([Cohn 13](#Cohn13)). The idea is the [[stable Dold-Kan correspondence]].
+By the [[stable Dold-Kan correspondence]], the [[(infinity,1)-category]] of dg-categories is equivalent to the [[(infinity,1)-category]] of [[(infinity,1)-categories]] [[enriched (infinity,1)-category|enriched]] in the [[symmetric monoidal (infinity,1)-category]] of [[module spectra|modules]] over the [[Eilenberg-Mac Lane spectrum]] $H k$.
+The latter is equivalent, at least morally, to the [[(infinity,1)-category]] of $k$-[[linear (infinity,1)-category|linear]] [[stable (infinity,1)-categories]].
+
+More precisely, it is shown in [Cohn 13](#Cohn13) that the [[Morita model structure on dg-categories]] presents the [[(infinity,1)-category]] of [[idempotent complete (infinity,1)-category|idempotent complete]] [[linear (infinity,1)-category|linear]] [[stable (infinity,1)-categories]].
 
 ## Aspects of dg-categories
 
