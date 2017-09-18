@@ -192,6 +192,10 @@ Formulation in terms of [[supergeometry]] ("superspace formulation") is in
 
 * [[Lars Brink]], [[Paul Howe]], _Eleven-Dimensional Supergravity on the Mass-Shell in Superspace_, Phys.Lett. B91 (1980) 384
 
+The history as of 1990s with an eye towards the development to [[M-theory]] is survey in 
+
+* {#Duff99} [[Mike Duff]], chapter I of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
 
 The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
 
