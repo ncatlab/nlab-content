@@ -5,7 +5,7 @@ This page is about [[William Lawvere]]'s Ph.D. thesis:
 
 Written under [[S. Eilenberg]] and highly influential, the dissertation was not published at the time, and only two short notices appeared:
 
-* F. W. Lawvere, _Functorial Semantics of Algebraic Theories_, Proc.Nat.Acad.Sci. **50** pp.869--872. ([pdf](http://www.pnas.org/content/50/5/869.full.pdf))
+* F. W. Lawvere, _Functorial Semantics of Algebraic Theories_, Proc.Nat.Acad.Sci. **50** (1963) pp.869--872. ([pdf](http://www.pnas.org/content/50/5/869.full.pdf))
 
 * F. W. Lawvere, _Algebraic theories, algebraic categories, and algebraic functors_, pp.413--418 in Addison, Henkin, Tarski (eds.), _The Theory of Models_, North-Holland Amsterdam 1965.
 
