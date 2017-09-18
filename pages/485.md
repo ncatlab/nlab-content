@@ -41,6 +41,8 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 
 * Any [[abelian category]] is exact. In fact an abelian category is precisely an exact [[additive category]]. 
 
+* Any [[slice]] or [[co-slice]] of an exact category is also exact. (Source: [Borcuex and Bourn](http://www.springer.com/us/book/9781402019616), Appendix A.) 
+
 * One can construct, for any regular category $C$, a "free" exact category $C_{ex/reg}$ on $C$ by adjoining formal quotient objects for congruences.  One way to define $C_{ex/reg}$ is as the (locally discrete) [[2-category]] whose objects are congruences in $C$ and whose morphisms are [[anafunctor|anafunctors]].  If $C$ is already exact, then $C_{ex/reg}$ is equivalent to $C$.  See [[regular and exact completions]].
 
 * Similarly, one can construct the "free" exact category $C_{ex/lex}$ on any category $C$ with finite limits, or even with [[weak limit|weak finite limits]].  The exact categories of the form $C_{ex/lex}$ for a category $C$ with weak finite limits are exactly those which have [[projective object|enough (regular) projectives]]; in this case the projective objects are the retracts of objects of $C$ (Carboni-Vitale 1998).  See [[regular and exact completions]].
