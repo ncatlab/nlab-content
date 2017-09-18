@@ -1,4 +1,6 @@
 
+This entry is about the concept in [[supergeometry]]. For the concept in [[gravity]]/[[cosmology]] see at _[[Wheeler superspace]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
