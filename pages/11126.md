@@ -90,6 +90,10 @@ $Mod(X_1)$ and $Mod(X_2)$.
 
 ([Bondal-vdBerg 03](#BondalvdBerg03), [BFN 08, proof of prop. 3.24](#BFN08))
 
+## Examples
+
+* [[external tensor product of vector bundles]]
+
 ## References
 
 For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_.
