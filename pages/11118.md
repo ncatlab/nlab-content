@@ -1,9 +1,11 @@
-A **graded unitary monoid** $\Phi$ in a [[monoidal category]] $C$ is the data of
+A **graded monoid** $\Phi$ in a [[symmetric monoidal category]] $\mathcal{V}$ is the data of
 
 * for each $n \in \mathbf{N}$, an [[object]] $\Phi_n$,
 * for each $m,n \in \mathbf{N}$, a [[morphism]]
-  $$ \Phi_m \times \Phi_n \to \Phi_{m+n} $$
+  $$ \Phi_m \otimes \Phi_n \to \Phi_{m+n} $$
 such that the obvious [[associativity]] and [[unit]] [[axioms]] hold.
+
+Thus, a graded monoid is in particular a [[graded object]]. In fact, a graded monoid is just a [[monoid in a monoidal category|monoid]] in the monoidal category of graded objects of $\mathcal{V}$.
 
 ## Examples
 
