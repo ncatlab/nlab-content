@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Geometry
++-- {: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 # Contents 
 * table of contents 
 {: toc} 
@@ -8,9 +20,9 @@ Let $k$ be a [[field]]. A _conic section_ over $k$ is the [[zero locus|zero set]
 
 ## Over the real numbers 
 
-In the classical case $k = \mathbb{R}$ of [[real numbers]], conic sections may be pictured in terms of intersections of a standard cone $x^2 + y^2 - z^2 = 0$ in affine 3-space with various affine hyperplanes (hence the name, "conic section"). In this picture, _nonsingular_ conic sections are classified (up to [[automorphisms]] of the affine plane) by the sign of the [[discriminant]] of $p$. In other words, if we write $p(x, y) = a x^2 + b x y + c y^2 + \lambda(x, y)$ where $deg(\lambda) = 1$ and put $D = b^2 - 4 a c$, then an isomorphism class is one of three types: ellipses (when $D \lt 0$), parabolas ($D = 0$), and hyperbolas ($D \gt 0$). Of course when we admit possibly singular conic sections, we get further isomorphism classes involving some degree of degeneracy (e.g., two lines, a double line, etc.). 
+In the classical case $k = \mathbb{R}$ of [[real numbers]], conic sections may be pictured in terms of [[intersections]] of a standard [[cone]] $x^2 + y^2 - z^2 = 0$ in affine 3-space with various affine hyperplanes (hence the name, "conic section"). In this picture, _nonsingular_ conic sections are classified (up to [[automorphisms]] of the affine plane) by the sign of the [[discriminant]] of $p$. In other words, if we write $p(x, y) = a x^2 + b x y + c y^2 + \lambda(x, y)$ where $deg(\lambda) = 1$ and put $D = b^2 - 4 a c$, then an isomorphism class is one of three types: ellipses (when $D \lt 0$), parabolas ($D = 0$), and hyperbolas ($D \gt 0$). Of course when we admit possibly singular conic sections, we get further isomorphism classes involving some degree of degeneracy (e.g., two lines, a double line, etc.). 
 
-The distinctions between ellipse, parabola, and hyperbola are artifacts of affine geometry: if we instead consider conic sections as projective [[algebraic variety|subvarieties]] of $\mathbb{P}^2(\mathbb{R})$, then considered up to projective transformations (automorphisms of the projective plane), these distinctions evaporate and there is really only one kind of nonsingular conic section. Put differently: if we fix a representation $\mathbb{P}^2(\mathbb{R}) = \mathbb{A}^2(\mathbb{R}) \sqcup L$ where $L$ is a chosen "line at infinity", then in the original classification up to affine transformations, i.e., the subgroup of projective transformations which take $L$ to itself, ellipses are those conic sections which do not intersect $L$, parabolas are those which intersect $L$ in a double point, and hyperbolas are those which intersect $L$ in two points. By enlarging to the group of all projective transformations, we can move $L$ to a line which *does* intersect an "ellipse" in two points, making it a "hyperbola" with respect to the new coordinate system, etc. 
+The distinctions between [[ellipse]], [[parabola]], and [[hyperbola]] are artifacts of affine geometry: if we instead consider conic sections as projective [[algebraic variety|subvarieties]] of $\mathbb{P}^2(\mathbb{R})$, then considered up to projective transformations (automorphisms of the projective plane), these distinctions evaporate and there is really only one kind of nonsingular conic section. Put differently: if we fix a representation $\mathbb{P}^2(\mathbb{R}) = \mathbb{A}^2(\mathbb{R}) \sqcup L$ where $L$ is a chosen "line at infinity", then in the original classification up to affine transformations, i.e., the subgroup of projective transformations which take $L$ to itself, ellipses are those conic sections which do not intersect $L$, parabolas are those which intersect $L$ in a double point, and hyperbolas are those which intersect $L$ in two points. By enlarging to the group of all projective transformations, we can move $L$ to a line which *does* intersect an "ellipse" in two points, making it a "hyperbola" with respect to the new coordinate system, etc. 
 
 ## Stereographic projection 
 
@@ -24,7 +36,7 @@ Working over an [[algebraically closed field]] $k$, where every nonsingular coni
 
 ## Projective duality 
 
-Working over an algebraically closed field $k$ (let us assume the [[characteristic]] is not $2$), all nondegenerate [[quadratic forms]] on a vector space $V$ are isomorphic and we may fix one as standard. For example, for $V = k^3$, we may fix attention on the quadratic form $q(x, y, z) = x^2 + y^2 + z^2$, which determines a conic section $C \subset \mathbb{P}^2(k)$ and an accompanying nondegenerate symmetric [[bilinear form]] $\langle-, -\rangle_q: V \times V \to k$. 
+Working over an [[algebraically closed field]] $k$ (let us assume the [[characteristic]] is not $2$), all nondegenerate [[quadratic forms]] on a vector space $V$ are isomorphic and we may fix one as standard. For example, for $V = k^3$, we may fix attention on the quadratic form $q(x, y, z) = x^2 + y^2 + z^2$, which determines a conic section $C \subset \mathbb{P}^2(k)$ and an accompanying nondegenerate symmetric [[bilinear form]] $\langle-, -\rangle_q: V \times V \to k$. 
 
 Projective duality relative to $C$ is the projectivization of linear duality with respect to $\langle -, - \rangle$, which takes a linear subspace $L$ to its [[orthogonality|orthogonal dual]] $L^\perp = \{v \in V: (\forall w \in L)\; \langle v, w \rangle = 0\}$. We note that the orthogonal dual is an involution that takes joins of subspaces to meets and vice-versa. This construction descends through the quotient $k^3 \backslash \{0\} \to \mathbb{P}^2(k)$ to give an operation that takes points in $\mathbb{P}^2(k)$ (lines in $k^3$) to lines in $\mathbb{P}^2(k)$ (hyperplanes in $k^3$), and vice-versa, and moreover takes a join of two distinct points (the line incident to them) to the meet of their dual lines (the point of their intersection). 
 
