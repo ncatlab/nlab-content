@@ -64,7 +64,7 @@ $$ \|x + y\|^2 + \|x - y\|^2 = 2 \|x\|^2 + 2 \|y\|^2 ,$$
 which not all Banach spaces need satisfy.  (The name of this law comes from its geometric interpretation: the norms in the left-hand side are the lengths of the diagonals of a parallelogram, while the norms in the right-hand side are the lengths of the sides.)
 
 Furthermore, any Banach space satsifying the parallelogram law has a unique inner product that reproduces the norm, defined by
-$$ \langle x, y \rangle = \frac{1}{4} (\|x + y\|^2 - \|x - y\|^2 - \mathrm{i} \|x + \mathrm{i}y\|^2 + \mathrm{i} \|x - \mathrm{i}y\|^2) ,$$
+$$ \langle x, y \rangle = \frac{1}{4}\left(\|x + y\|^2 - \|x - y\|^2 - \mathrm{i} \|x + \mathrm{i}y\|^2 + \mathrm{i} \|x - \mathrm{i}y\|^2\right) ,$$
 or $\frac{1}{2}(\|x + y\|^2 - \|x - y\|^2)$ in the real case.
 
 Therefore, it is possible to *define* a Hilbert space as a Banach space that satisfies the parallelogram law.  This actually works a bit more generally; a positive semidefinite inner product space is a pseudonormed vector space that satisfies the parallelogram law.  (We cannot, however, recover an indefinite inner product from a norm.)
