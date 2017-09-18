@@ -49,6 +49,7 @@ The two definitions may be distinguished by whether they use a single collection
 
 
 ### With one collection of morphisms
+ {#OneCollectionOfMorphisms}
 
 A __category__ $C$ consists of 
 
@@ -80,6 +81,7 @@ If the [[identity]]-assigning map and its axiom is omitted, then one speaks of a
 
 
 ### With a family of collections of morphisms
+ {#AFamilyOfCollectionsOfMorphisms}
 
 A __category__ $C$ consists of 
 
