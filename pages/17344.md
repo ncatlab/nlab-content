@@ -149,7 +149,7 @@ $$
      \\
      SeqSpec(Top_{cg})_{stable}
      &
-     \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{\simeq}
+     \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{\simeq_Q}
      &
      SeqSpec(Top_{cg})_{stable}
   }
@@ -188,13 +188,13 @@ The key disadvantage of sequential spectra is that they do not support a functor
 
 #### Sequential pre-spectra 
 
-The following def. \ref{SequentialSpectra} is the traditional component-wise definition of [[sequential spectra]], was first stated in ([Lima 58](spectrum#Lima58)) and became widely appreciated with ([Boardman 65](spectrum#Boardman65)).  
+The following def. \ref{SequentialSpectra} is the traditional component-wise definition of [[sequential spectra]]. It was first stated in ([Lima 58](spectrum#Lima58)) and became widely appreciated with ([Boardman 65](spectrum#Boardman65)).  
 
 > It is generally supposed that [[George Whitehead|G. W. Whitehead]] also had something to do with it, but the latter takes a modest attitude about that. ([Adams 74, p. 131](#Adams74))
 
-Below in prop. \ref{SequentialSpectraAsDiagramSpectra} we discuss an equivalent definition of sequrntial spectra as "topological diagram spectra" ([Mandell-May-Schwede-Shipley 00](#MMSS00)), namely as [[topologically enriched functors]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) on [[n-spheres]], which is useful for establishing the [[stable model category]] structure ([below](#StableModelStructureOnSequentialSpectra)) and for establishing the [[symmetric monoidal smash product of spectra]] (in [1.2](#DiagramSpectra)).
+Below in prop. \ref{SequentialSpectraAsDiagramSpectra} we discuss an equivalent definition of sequential spectra as "topological diagram spectra" ([Mandell-May-Schwede-Shipley 00](#MMSS00)), namely as [[topologically enriched functors]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) on [[n-spheres]], which is useful for establishing the [[stable model category]] structure ([below](#StableModelStructureOnSequentialSpectra)) and for establishing the [[symmetric monoidal smash product of spectra]] (in [1.2](#DiagramSpectra)).
 
-Throughout, out ambient [[category]] of [[topological spaces]] is $Top_{cg}$, the category of [[compactly generated topological space]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#kTop)).
+Throughout, our ambient [[category]] of [[topological spaces]] is $Top_{cg}$, the category of [[compactly generated topological space]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#kTop)).
 
 +-- {: .num_defn #SequentialSpectra}
 ###### Definition
@@ -234,7 +234,7 @@ $$
   Top_{cg}^{\ast/}
 $$
 
-from [[Introduction to Stable homotopy theory -- P|classical homotopy theory]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)), the definition of sequential spectra in def. \ref{SequentialSpectra} is equivalent to the following definition
+from [[Introduction to Stable homotopy theory -- P|classical homotopy theory]] ([this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)), the definition of sequential spectra in def. \ref{SequentialSpectra} is equivalent to the following definition
 
 +-- {: .num_defn #SequentialSpectrumViaAdjunctStructureMaps}
 ###### Definition
@@ -516,7 +516,7 @@ For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpe
 $$
   (Maps(I_+, X)_\ast)_n
   =
-  Maps(I_+, X)_\ast
+  Maps(I_+, X_n)_\ast
   \,.
 $$
 
@@ -607,7 +607,7 @@ $$
 
 In order to motivate [[Omega-spectra]] consider the following shadow of the structure they will carry:
 
-+-- {: .num_example}
++-- {: .num_example #BlueprintForIdeaOfOmegaSpectra}
 ###### Example
 
 A $\mathbb{Z}$-[[graded abelian group]] is equivalently a sequence $\{A_n\}_{n \mathbb{Z}}$ of $\mathbb{N}$-graded abelian groups $A_n$, together with isomorphisms
@@ -653,6 +653,7 @@ $$
 
 (This may be seen concretely in point-set topology or abstractly by looking at the [[long exact sequence of homotopy groups]] for the fiber sequence $\Omega X \to Path_*(X) \to X$.)
 
+We find this kind of behaviour for the stable homotopy groups of Omega-spectra below in example \ref{StableHomotopyGroupsOfOmegaSpectrum}.
 
 =--
 
@@ -665,7 +666,7 @@ An **[[Omega-spectrum]]** is a [[sequential spectrum]] $X$ of topological spaces
 $$
   \tilde \sigma_n
   \;\colon\;
-  X_n  \stackrel{\in W_{cl}}{\longrightarrow}  X_{n+1}^{S^1}
+  X_n  \stackrel{\in W_{cl}}{\longrightarrow}  Maps(S^1,X_{n+1})_\ast
 $$
 
 for all $n \in \mathbb{N}$.
@@ -673,8 +674,6 @@ for all $n \in \mathbb{N}$.
 Equivalently: an [[Omega-spectrum]] is a sequential spectrum in the incarnation of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} such that all adjunct structure maps are weak homotopy equivalences.
 
 =--
-
-
 
 +-- {: .num_defn #StableHomotopyGroups}
 ###### Definition
@@ -689,18 +688,32 @@ $$
   \,,
 $$
 
-where the colimit is over the sequential diagram whose morphisms are
+where the colimit is over the [[sequential diagram]] whose component morphisms are
 
 $$
   \pi_q(X_n)
     \overset{\simeq}{\to}
   [S^q,X_n]_\ast
-    \overset{}{\longrightarrow}
-  [S^{q+1}, S^1 \wedge X_n]
-    \overset{[S^1, \sigma_n]}{\longrightarrow}
-  [S^{q+1}, X_{n+1}]
+    \overset{(S^1\wedge(-))_{S^q,X_n}}{\longrightarrow}
+  [S^{q+1}, S^1 \wedge X_n]_\ast
+    \overset{[S^{q+1}, \sigma_n]}{\longrightarrow}
+  [S^{q+1}, X_{n+1}]_\ast
     \overset{\simeq}{\to}
   \pi_{n+1}(X_{n+1})
+$$
+
+or equivalently
+
+$$
+  \pi_q(X_n)
+    \overset{\simeq}{\longrightarrow}
+  [S^q, X_n]_\ast
+    \overset{[S^q, \tilde \sigma_n]}{\longrightarrow}
+  [S^q, Maps(S^1,X_{n+1})_\ast]_\ast
+    \simeq
+  [S^1 \wedge S^{q}, X_{n+1}]_\ast
+    \simeq
+  \pi_{q+1}(X_{n+1})
   \,.
 $$
 
@@ -713,28 +726,90 @@ $$
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+The two component morphisms given in def. \ref{StableHomotopyGroups} indeed agree.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That they agree on any $\alpha \in \pi_q(X_n) \simeq [S^q, X_n]_\ast$ follows by chasing the identity on $S^1 \wedge X_n$ through the defining naturality square of the $(S^1 \wedge (-)) \dashv Maps(S^1,-)_\ast$-adjunction of prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}: 
+
+$$
+  \array{
+    [S^1 \wedge X_n, S^1 \wedge X_n]_\ast
+      &\overset{\simeq}{\longrightarrow}&
+    [X_n, Maps(S^1, S^1 \wedge X_n)_\ast]_\ast
+    \\
+    {}^{\mathllap{[S^1 \wedge \alpha, \sigma_n]}}\downarrow 
+      &\searrow^{\mathrlap{[\alpha,\tilde \sigma_n]}}& 
+    \downarrow^{\mathrlap{[\alpha, Maps(S^1,\sigma_n)_\ast]_\ast}}
+    \\
+    [S^1 \wedge S^q, X_{n+1}]_\ast
+      &\underset{\simeq}{\longrightarrow}&
+    [S^q, Maps(S^1, X_{n+1})_\ast]_\ast
+  }
+  \,.
+$$
+
+
+=--
+
 +-- {: .num_defn #StableWeakEquivalenceOfSequentialTopologicalSpectra}
 ###### Definition
 
 A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a **[[stable weak homotopy equivalence]]**, if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
 
 $$
-  \pi_\bullet(f) \;\colon\; \pi_\bullet(X) \longrightarrow \pi_\bullet(Y)
+  \pi_\bullet(f) 
+    \;\colon\; 
+  \pi_\bullet(X) 
+    \overset{\simeq}{\longrightarrow}
+  \pi_\bullet(Y)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Given $X \in Top_{cg}$, then the [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}) of its [[suspension spectrum]] (example \ref{SuspensionSpectrum}) are given by
+
+$$
+  \begin{aligned}
+    \pi_q^S(X)
+      & \;\coloneqq\;
+    \pi_q(\Sigma^\infty X)
+    \\
+      & =
+    \underset{\longleftarrow}{\lim}_{k} \pi_{q + k}(S^k \wedge X)
+    \\
+      & \simeq
+    \underset{\longleftarrow}{\lim}_{k} \pi_{q}(\Omega^k ( \Sigma^k X))
+  \end{aligned}
   \,.
 $$
 
 =--
 
 
-+-- {: .num_remark #StableHomotopyGroupsOfOmegaSpectrum}
-###### Remark
++-- {: .num_example #StableHomotopyGroupsOfOmegaSpectrum}
+###### Example
 
 If a [[sequential spectrum]] $X$ is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, 
-then its colimiting [[stable homotopy groups]], def. \ref{StableHomotopyGroups}, are attained as the actual homotopy groups of its components:
+then its colimiting [[stable homotopy groups]], def. \ref{StableHomotopyGroups}, are attained as the actual homotopy groups of its components, in that:
 
 $$
-  \pi_k(X) \simeq 
-  \simeq
+  X \; \text{Omega-spectrum}
+  \;\;\;\;\;
+   \Rightarrow
+  \;\;\;\;\;
+  \pi_k(X)
+    \simeq
   \left\{
     \array{
       \pi_k X_0  & if\; k \geq 0
@@ -745,26 +820,16 @@ $$
   \,.
 $$
 
-=--
-
-
-+-- {: .num_defn #Spectrification}
-###### Definition
-
-The canonical **$\Omega$-[[spectrification]]** $Q X$ of a  [[CW-spectrum]] $X$, def. \ref{CWSpectrum}, is the operation of forming degreewise the [[colimit]] of higher [[loop space objects]] $\Omega(-)\coloneqq (-)^{S^1}$
-
-$$
-  (Q X)_n
-  \coloneqq
-  \underset{\longrightarrow}{\lim}_{k }
-  \Omega^k X_{n+k}
-  \,,
-$$
-
-where $Sing$ denotes the [[singular simplicial complex]] functor.
+(Hence the stable homotopy groups of an Omega-spectrum realize the general pattern discussed in example \ref{BlueprintForIdeaOfOmegaSpectra}.)
 
 =--
 
++-- {: .proof}
+###### Proof
+
+The second of the two equivalent versions of the component morphisms in def. \ref{StableHomotopyGroups} makes manifest that if $\tilde \sigma_n$ is a weak homotopy equivalence, so that $[S^1, \tilde \sigma_n]_\ast$ is an isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)), then the [[sequential colimit]] in def. \ref{StableHomotopyGroups} is entirely over isomorphisms and hence is given already by the first object of the sequence.
+
+=--
 
 
 ##### Suspension and looping
@@ -776,9 +841,9 @@ We discuss models for the operation of [[reduced suspension]] and forming [[loop
 
 For $X$ a sequential spectrum, then
 
-1. the **standard suspension** of $X$ is $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
+1. the **standard suspension** of $X$ is the [[tensoring]] $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
 
-1. the **standard looping** of $X$ is $Maps(S^1,X)_\ast$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+1. the **standard looping** of $X$ is the [[powering]] $Maps(S^1,X)_\ast$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
 
 The standard suspension is equivalently the [[cofiber]] of the canonical inclusion of boundaries into the standard [[cylinder spectrum]]  $X \wedge (I_+)$ of example \ref{StandardCylinderSpectrumSequential}:
 
@@ -827,7 +892,7 @@ For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
 
 1. the **alternative suspension** of $X$ is the sequential spectrum $\Sigma X$ with
 
-   1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$
+   1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$ ([[smash product]] on the left ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)))
 
    1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma_n)$.
 
