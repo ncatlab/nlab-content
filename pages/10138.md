@@ -1,6 +1,6 @@
 
 A [[locale]] is **locally compact** if its [[frame]] of opens is a [[continuous poset]].
 
-In [[classical mathematics]], every locally compact locale is [[spatial locale|spatial]], hence may be regarded as a [[locally compact topological space]].
+In [[classical mathematics]], every locally compact locale is [[spatial locale|spatial]], hence may be regarded as a [[locally compact topological space]]. This may fail in [[constructive mathematics]]. For instance any [[spectrum of a commutative ring]], considered as a locale, is locally compact, but may fail to be spatial (because of the lack of [[ideal|filters]]).
 
 Locally compact locales are also exactly the [[exponentiable objects]] in the [[category of locales]].
