@@ -62,10 +62,10 @@ In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjo
 Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical "[[projection formula|projection]]" morphism 
 
 $$
-  f_!(C \times f^*B) \to (f_! C) \times B
+  f_!(C \times f^*A) \to (f_! C) \times A
 $$ 
 
-is an isomorphism for each $B$ in $Y$ and $C$ in $X$.  
+is an isomorphism for each $A$ in $Y$ and $C$ in $X$.  
 
 This clearly makes sense also if the categories are [[cartesian monoidal category|cartesian]] but not necessarily [[closed category|closed]], and is the usual formulation found in the literature.  It is equivalent to saying that the adjunction is a [[Hopf adjunction]] relative to the cartesian monoidal structures.
 
