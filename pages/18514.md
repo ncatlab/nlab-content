@@ -80,6 +80,8 @@ $$
 
 =--
 
+Definition \ref{CausalPropagatorOnMinkowskiSpacetime} is the expression that one obtains from a standard calculation of the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|free]] [[scalar field]] ([this prop.](scalar+field#IntegralKernelForPoissonBracketOfFreeScalarFieldOnMinkowskiSpacetime)). But the causal propagator has various other equivalent expressions, which are useful in different contexts:
+
 +-- {: .num_prop #EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime}
 ###### Proposition
 **(equivalent expressions for causal propagator on Minkowski spacetime)**
@@ -88,9 +90,10 @@ The causal propagator on Minkowski spacetime from def. \ref{CausalPropagatorOnMi
 
 
 $$
+  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion}
   \begin{aligned}
     \Delta(x,y)
-     & \coloneqq
+     & \coloneqq \label{A}
       -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
      \\
      & = 
@@ -118,7 +121,7 @@ $$
 
 and where in the last expression the integral is to be understood as the weak limit of integrals up to ${\vert \vec k\vert}$ as ${\vert k \vert} \to \infty$ ([Scharf 95 (2.3.8)](#Scharf95)).
 
-Moreover, this is equal to 
+The last expresion may be computed to be equal to
 
 $$
   \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction}
@@ -140,12 +143,45 @@ $$
 
 where $J_1$ denotes the [[Bessel function]] of order 1.
 
+Finally this may be expressed as 
+
+$$
+  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfFeynmanIntegrand}
+  \Delta(x,y)
+  \;=\;
+  (2\pi)^{-p}
+  \int
+    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + m^2 - i k_0 \epsilon/2 }
+  d^4 k
+  -
+  (2\pi)^{-p}
+    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + m^2 + i k_0 \epsilon/2 }
+  d^4 k
+$$
+
+which is equivalently the [[contour integral]]:
+
+$$
+  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
+  \Delta(x,y)
+  \;=\;
+  -
+  (2\pi)^{-(p+1)} 
+  \oint C(\vec k)
+  \int
+  \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+  d^p \vec k \,d k_0   
+  \,,
+$$
+
+where the [[Jordan curve]] $C(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the points $\pm E(\vec k) \in \mathbb{R} \subset \mathbb{C}$.
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-For the first statements, decompose the original integral into its contributions from $k_0 \geq 0$ and from $k_0 \leq 0$ and then apply the [[changes of integration variables]]  $k_0 = \sqrt{h}$ for $k_0 \geq 0$ and $k_0 = -\sqrt{h}$ for $k_0 \leq 0$.
+For the expression (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion) decompose the original integral into its contributions from $k_0 \geq 0$ and from $k_0 \leq 0$ and then apply the [[changes of integration variables]]  $k_0 = \sqrt{h}$ for $k_0 \geq 0$ and $k_0 = -\sqrt{h}$ for $k_0 \leq 0$.
 
 
 $$
@@ -181,7 +217,7 @@ $$
   \end{aligned}
 $$
 
-For the last statement see [Scharf 95 (2.3.8) to (2.3.18)](#Scharf95)
+For the expression (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction) see [Scharf 95 (2.3.8) to (2.3.18)](#Scharf95)
 
 =--
 
@@ -287,6 +323,11 @@ Textbook discussion for [[free fields]] in [[Minkowski spacetime]] is in
 * {#Scharf01} [[Günter Scharf]], section 1 of  _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
 (there denoted "$-i D_m(x-y)$" and called the "Jordan-Pauli function").
+
+
+An overview of the [[Green functions]] of the [[Klein-Gordon operator]], hence of the [[Feynman propagator]], [[advanced propagator]], [[retarded propagator]], [[causal propagator]] etc. is given in
+
+* {#Kocic16} [[Mikica Kocic]], _Invariant Commutation and Propagation Functions Invariant Commutation and Propagation Functions_, 2016 ([[KGPropagatorsOnMinkowskiTable.pdf:file]])
 
 
 For more see the references at _[[wave equation]]_.
