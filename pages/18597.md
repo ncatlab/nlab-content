@@ -130,7 +130,7 @@ $$
 
 +-- {: .num_example #PolynomialLiePoissonStructure}
 ###### Example
-**(polynomial [[Lie-Poisson structure]])**
+**([[Lie-Poisson structure]] on affine algebraic variety)**
 
 Let $(C^\infty(\mathbb{R}^n), \pi)$ be a [[Poisson manifold]] whose
 underlying manifold is a [[Cartesian space]] $\mathbb{R}^n$. Then the restriction
