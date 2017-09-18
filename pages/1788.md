@@ -9,7 +9,7 @@
 
 We introduce here the basic concepts of _[[Lagrangian field theory]]_, first for [[prequantum field theory]] and then for its [[deformation quantization]] to [[perturbative quantum field theory]].
 
-In full beauty these concepts are extremely general; but in this section the aim is to give a first good idea of the subject, and therefore we present for the moment only a restricted setup, notably assuming that [[spacetime]] is [[Minkowski spacetime]], that the [[field bundle]] (see below) is an ordinary and [[trivial bundle|trivial]] [[fiber bundle]] and we consider its [[jet bundle]] only to second order.
+In full beauty these concepts are extremely general; but in this section the aim is to give a first good idea of the subject, and therefore we present for the moment only a restricted setup, notably assuming that [[spacetime]] is [[Minkowski spacetime]], that the [[field bundle]] (see below) is an ordinary and [[trivial bundle|trivial]] [[fiber bundle]] and we consider its [[jet bundle]] only to first order.
 
 This does subsume what is considered in most traditional texts on the subject. In subsequent sections we will eventually discuss more general situations, notably we will eventually allow spacetime to be any [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be an [[infinity-Lie algebroid]]. This is sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]] of [[gauge theory]] [[AQFT on curved spacetime|on curved spacetimes]].
 
@@ -191,7 +191,7 @@ Moving around in this space means to change the possible value of fields and the
 ###### Definition
 **([[jet bundle]] of a [[trivial vector bundle]] over [[Minkowski spacetime]])**
 
-Given a [[field fiber]] [[vector space]] $F = \mathbb{R}^s$ with [[linear basis]] $(\phi^a)_{a = 1}^s$, then the _second order [[jet bundle]]_ over [[Minkowski spacetime]] $\Sigma$ of the [[trivial vector bundle]]
+Given a [[field fiber]] [[vector space]] $F = \mathbb{R}^s$ with [[linear basis]] $(\phi^a)_{a = 1}^s$, then the _frst order [[jet bundle]]_ over [[Minkowski spacetime]] $\Sigma$ of the [[trivial vector bundle]]
 
 $$
   E \coloneqq \Sigma \times F
@@ -202,7 +202,7 @@ is the [[Cartesian space]]
 $$
   J^k_{\Sigma}( E )
     \coloneqq
-  \mathbb{R}^{ (p+1) + s( 1 + (p+1) + (p+1)(p+2)/2) }
+  \mathbb{R}^{ (p+1) + s( 1 + (p+1) ) }
 $$
 
 equipped with canonical coordinates, to be denoted as follows:
@@ -214,16 +214,12 @@ $$
      (\phi^a )
      \,,\,
      ( \phi^a_{,\mu} )
-     \,,\,
-     ( \phi^a_{,\mu_1 \mu_2} )
   \right)
 $$
 
-where the indices $\mu,\mu_1, \mu_2$ range from 0 to $p$ and are symmetric, while the index $a$ ranges from $1$ to $s$. In terms of these coordinates the [[bundle]] [[projection]] map is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$ and second derivatives $\phi_{,\mu_1 \mu_2}$.
+where the index $\mu$ ranges from 0 to $p$, while the index $a$ ranges from $1$ to $s$. In terms of these coordinates the [[bundle]] [[projection]] map is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$.
 
-
-
-Given such a second order jet bundle then the _second order [[jet prolongation]]_ is that function from the [[space of sections]] of the original bundle to the space of section so the jet bundle which records the field $\Phi$ and all its spacetimes [[derivatives]] $\partial_\mu \Phi$ and second spacetime derivatives $\partial_{\mu_1} \partial_{\mu_2} \Phi$
+Given such a second order jet bundle then the _second order [[jet prolongation]]_ is that function from the [[space of sections]] of the original bundle to the space of section so the jet bundle which records the field $\Phi$ and all its spacetimes [[derivatives]] $\partial_\mu \Phi$ 
 
 $$
   \array{
@@ -235,8 +231,7 @@ $$
     &\mapsto&
     \left(
       (\Phi^a),
-      ( \partial_\mu \Phi^a ),
-      ( \partial_{\mu_1} \partial_{\mu_2} \Phi^a  )
+      ( \partial_\mu \Phi^a )
     \right)
   }
   \,.
@@ -277,19 +272,24 @@ $$
 which on functions $f \colon J^2_\Sigma(E) \to \mathbb{R}$ (i.e. on 0-forms) is defined by
 
 $$
-  d f
-    \;\coloneqq\;
-  \underoverset{\mu = 0}{p}{\sum}
-  \left(
-    \frac{\partial f}{\partial x^\mu}
-    +
-    \frac{\partial f}{\partial \phi^a}
-    \phi^a_{,\mu}
-    +
-    \frac{ \partial f }{ \partial \phi^a_{,\nu}}
-    \phi^a_{,\nu \mu }
-  \right)
-  \mathbf{d} x^\mu
+  \begin{aligned}
+    d f
+    & \coloneqq
+    \frac{d f}{d x^\mu}
+    \mathbf{d} x^\mu
+    \\
+    & \coloneqq
+    \underoverset{\mu = 0}{p}{\sum}
+    \left(
+      \frac{\partial f}{\partial x^\mu}
+      +
+      \frac{\partial f}{\partial \phi^a}
+      \phi^a_{,\mu}
+      +
+      \frac{ \partial f }{ \partial \phi^a_{,\nu}}
+      \phi^a_{,\nu \mu }
+    \right)
+    \mathbf{d} x^\mu
 $$
 
 and extended to all forms by the graded [[Leibniz rule]], hence  as a [[derivation]] of degree +1.
@@ -403,7 +403,7 @@ we have the following:
     \Omega^{k,0}(E)
   $$
 
-  for $f_{\mu_1 \cdots \mu_k} = f_{\mu_1 \cdots \mu_k}((x^\mu), (\phi^a), (\phi^a_{,\mu}), (\phi^a_{,\mu_1 \mu_2}))$ any smooth function of the spacetime coordinates and the field coordinates.
+  for $f_{\mu_1 \cdots \mu_k} = f_{\mu_1 \cdots \mu_k}\left((x^\mu), (\phi^a), (\phi^a_{,\mu})\right)$ any smooth function of the spacetime coordinates and the field coordinates.
 
 * The horizontal differential of the vertical differential $\delta \phi$ of a field variable is the differential 2-form of horizontal degree 1 and vertical degree 2 given by
 
@@ -441,7 +441,7 @@ $$
   \mathbf{L} = L dvol_\Sigma
 $$
 
-with $L = L((x^\mu), (\phi^a), (\phi^a_{,\mu}), (\phi^a_{,\mu_1 \mu_2}) ) $ a smooth function on the jet bundle.
+with $L = L((x^\mu), (\phi^a), (\phi^a_{,\mu}) ) $ a smooth function on the jet bundle.
 
 
 =--
@@ -450,7 +450,7 @@ with $L = L((x^\mu), (\phi^a), (\phi^a_{,\mu}), (\phi^a_{,\mu_1 \mu_2}) ) $ a sm
 ###### Proposition
 **([[Euler-Lagrange operator]])**
 
-If a [[Lagrangian density]] $\mathbf{L}$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} depends at most on first order jets, then its de Rham differential has a _unique_ decomposition as a sum of two terms
+If a [[Lagrangian density]] $\mathbf{L}$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}, then its de Rham differential has a _unique_ decomposition as a sum of two terms
 
 $$
   \mathbf{d} \mathbf{L}
@@ -467,8 +467,26 @@ $$
   \,.
 $$
 
-(The remaining term $d \Theta$ is unique, while $\Theta \in \Omega^{p,1}(E)$ is unique only up to terms in the image of $d$).
+The remaining term $d \Theta$ is unique, while $\Theta \in \Omega^{p,1}(E)$ is unique only up to terms in the image of $d$.
+One possible choice is
 
+$$
+  \Theta
+  \;\coloneqq\;
+  \frac{\partial L}{\partial \phi^a_{,\mu}}
+  \delta \phi^a \wedge \iota_{\partial_\mu} dvol_\Sigma
+  \,,
+$$
+
+where
+
+$$
+  \iota_{\partial_{\mu}} dvol_\Sigma
+  \;\coloneqq\;
+  (-1)^{\mu} d x^0 \wedge \cdots d x^{\mu-1} \wedge d x^{\mu+1} \wedge \cdots \wedge d x^p
+$$
+
+denotes the contraction of the volume form with the [[vector field]] $\partial_\mu$.
 
 The map
 
@@ -506,42 +524,29 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We claim that one possible choice for $\Theta$ is
-
-$$
-  \Theta
-  \;\coloneqq\;
-  \frac{\partial L}{\partial \phi^a_{,\mu}}
-  \delta \phi^a \wedge \iota_{\partial_\mu} dvol_\Sigma
-  \,,
-$$
-
-where
-
-$$
-  \iota_{\partial_{\mu}} dvol_\Sigma
-  \;\coloneqq\;
-  (-1)^{\mu} d x^0 \wedge \cdots d x^{\mu-1} \wedge d x^{\mu+1} \wedge \cdots \wedge d x^p
-$$
-
-denotes the contraction of the volume form with the [[vector field]] $\partial_\mu$.
-
-
-To see this, we compute, using example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle},
-first the horizontal derivative
-
+We compute, using example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle},
+the horizontal derivative
 
 $$
   \begin{aligned}
     d \Theta
     & =
+    \left(
+      d \frac{\partial L}{\partial \phi^a_{,\mu}} \wedge \delta \phi^a \wedge 
+      - 
+      \frac{\partial L}{\partial \phi^a_{,\mu}} \wedge \delta d \phi^a \wedge 
+    \right)
+    \wedge \iota_{\partial_\mu} dvol_\Sigma
+    & =
     -
-    \frac{\partial}{\partial x^\mu}
-    \frac{\partial L}{\partial \phi^a_{,\mu}}
-    \delta \phi^a \wedge dvol_\Sigma
-    -
-    \frac{\partial L}{\partial \phi^a_{,\mu}}
-    \delta \phi^a_{,\mu} \wedge dvol \Sigma
+    \left(
+      \frac{d}{d x^\mu} \frac{\partial L}{\partial \phi^a_{,\mu}}
+      \delta \phi^a
+      +
+      \frac{\partial L}{\partial \phi^a_{,\mu}}
+      \delta \phi^a_{,\mu}
+    \right)
+    \wedge dvol_\Sigma
     \,,
   \end{aligned}
 $$
@@ -572,10 +577,13 @@ $$
   \end{aligned}
 $$
 
-(recalling that by assumption $L$ does not depend on $\phi^a_{\mu_1 \mu_2}$).
-
 Hence $-d \Theta$ shares with $\mathbf{d} \mathbf{L}$ the term proportional to $\delta \phi^a_{,\mu}$,
-and so the remaining terms are proportional to $\delta \phi^a$, as claimed.
+and so the remaining terms are proportional to $\delta \phi^a$, as claimed:
+
+$$
+  \mathbf{d}L + d \Theta
+  =
+$$
 
 
 =--
@@ -585,8 +593,37 @@ and so the remaining terms are proportional to $\delta \phi^a$, as claimed.
 #### Equations of motion
 
 
-+-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
-###### Proposition
++-- {: .num_defn}
+###### Definition
+
+Given a [[field bundle]] $E$ over [[spacetime]] $\Sigma$ as in example \ref{TrivialVectorBundleAsAFieldBundle}
+equipped with a [[local Lagrangian density]] $\mathbf{L} \in  \Omega^{p+1,1}(E)$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
+then the corresponding _[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]_
+on fields $\Phi \in \Gamma_\Sigma(E)$ is the equation
+
+$$
+  j^2(\Phi)^\ast \delta_{EL} \mathbf{L} = 0
+  \,,
+$$
+
+where $j^2(\Phi) \colon \Sigma \to J^2(E)$ denotes the [[jet prolongation]] of $\Phi$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), $j^2(E)^\ast$ the operation of 
+[[pullback of differential forms]] along this function, and $\delta_{EL}$ is the 
+[[Euler-Lagrange operator]] from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
+By that same proposition this equation is 
+equivalently the [[differential equation]] 
+
+$$
+  \left(
+    \frac{\partial L}{\partial \phi^a}
+      -
+    \frac{\partial}{\partial x^\mu}
+    \frac{\partial L}{\partial \phi^a_{,\mu}}
+  \right)
+  ((x^\mu), (\Phi^a), ( \frac{\partial \Phi^a}{\partial x^\mu} ), (\frac{\partial^2 \Phi^a}{\partial x^{\mu_1} \partial x^{\mu_2}})   )
+  \;=\;
+  0
+  \,.
+$$
 
 
 =--
