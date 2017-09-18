@@ -320,6 +320,8 @@ For $G$ a [[discrete group]] ([[geometrically discrete ∞-groupoid|geometricall
 
 * [[equivariant symmetric monoidal category]]
 
+* [[Parametrized Higher Category Theory and Higher Algebra]]
+
 Equivariant homotopy theory is to [[equivariant stable homotopy theory]] as [[homotopy theory]] is to [[stable homotopy theory]].
 
 [[!include equivariant homotopy theory -- table]]
