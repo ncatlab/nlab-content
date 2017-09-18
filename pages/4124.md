@@ -3,6 +3,10 @@
 
 ## Related $n$Lab entries
 
-* [[algebraic topology]]
+* [[topology]], [[algebraic topology]]
+
+* [[vector bundles]], [[topological K-theory]]
+
+* [[Whitehead tower]]
 
 category: people
