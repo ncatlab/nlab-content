@@ -18,9 +18,6 @@
 
 ... formulation of [[separation axioms]] in terms of [[lifting properties]]...
 
-## test
-
-## test
 
 ## References
 
