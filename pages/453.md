@@ -95,6 +95,8 @@ Examples of regular categories include the following:
 
 * If $C$ is regular, then so is the [[functor category]] $C^D$ for any category $D$. 
 
+* If $C$ is regular and $T$ is a [[Lawvere theory]], then the category $Mod(T, C)$ of $T$-models in $C$ is also regular. See Theorem 5.11 in Barr's [Exact Categories](#Barr). 
+
 * A [[slice]] of a regular category is also regular; cf. [[locally regular category]]. So is any [[co-slice]]. (Source: [[Borceux-Bourn]], Appendix section 5.) 
 
 * If $Q$ is a quasitopos, then $Q^{op}$ is regular. Source: A2.6.3(i) in the [[Elephant]]. 
@@ -194,7 +196,8 @@ Other related pages: [[Barr embedding theorem]]
 
 Regular categories were introduced by Barr in
 
-* [[Michael Barr]],  _Exact categories_,  Lec. Notes in Math. __236__, Springer-Verlag 1971, 1-119
+* [[Michael Barr]],  _Exact categories_,  Lec. Notes in Math. __236__, Springer-Verlag 1971, 1-119. ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.732.4603&rep=rep1&type=pdf)) 
+ {#Barr} 
 
 and by Grillet in the same volume of Lecture Notes in Mathematics.
 
