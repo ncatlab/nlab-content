@@ -1,0 +1,34 @@
+
+# Contents
+* table of contents
+{: toc}
+
+## Idea
+
+The result called **Hensel's lemma** is a generalisation of a result due to [[Kurt Hensel]] on solving polynomials in [[p-adic number]] rings. It applies to certain complete topological rings, and now [[local rings]] that satisfy the conclusion of the lemma (really a theorem) are called [[Henselian rings]].
+
+## Statement
+
+An element $x$ of a [[topological ring]] is called *topologically nilpotent* if 0 is a limit of the sequence $\{x^n\}$. (For example: in any ring $A$ equipped with a (two-sided) [[ideal]] $m$, the elements of $m$ are topologically nilpotent in the $m$-adic topology.)
+
+A topological ring is *linearly topologized* if 0 has a fundamental system of neighbourhoods consisting of ideals.
+
++-- {: .num_theorem} 
+###### Theorem 
+("Hensel's Lemma")
+
+Let $A$ be a complete Hausdorff linearly topologized commutative ring. Let $m$ be a closed ideal of $A$ whose elements are topologically nilpotent. Let $B=A/m$ be the quotient topological ring and $\phi\colon A\to B$ the quotient map. Let $R\in A\{X\}$ be a [[restricted formal power series]], $\overline{P}$ a monic polynomial in $B[X]$ and $\overline{Q}\in B\{X\}$. Suppose that $\overline{\phi}(R) = \overline{P}.\overline{Q}$ and that $\overline{P}$ and $\overline{Q}$ are strongly relatively prime in $B\{X\}$. Then there exists a unique lift of $\overline{P}$ to $P\in A[X]$ and of $\overline{Q}$ to $Q \in A\{X\}$ such that $R=P.Q$. Moreover $P$ and $Q$ are strongly relatively prime in $A\{X\}$, and if $R$ is a polynomial, so is $Q$.
+
+=-- 
+
+For the proof, see 
+
+* [[Bourbaki]], _Commutative Algebra_, III.4.3
+
+This gives rather simpler looking results in special cases, but all of them boil down to lifting factorisations through a quotient map $A \to A/m$. 
+
+The original example is of $A$ being the [[p-adic integers]] $\mathbb{Z}_p$, with the quotient $\mathbb{Z}_p \to \mathbb{F}_p = \mathbb{Z}_p/p\mathbb{Z}_p$.
+
+## Related concepts
+
+* [[Henselian ring]]
