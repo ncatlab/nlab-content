@@ -47,7 +47,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 ## Related pages
 
-* Streicher, Lawvere, McLarty et al, *Categorical formulations of replacement*, 2008. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/4304))
+* Streicher, Lawvere, McLarty et al, *Categorical formulations of replacement*, March 2008. ([link](http://www.mta.ca/~cat-dist/archive/2008/08-3))
 
 * MO-discussion: _Who needs Replacement anyway ?_  ([link](http://mathoverflow.net/questions/208711/who-needs-replacement-anyway))
 
