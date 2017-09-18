@@ -1,0 +1,7 @@
+[[!redirects W. T. Tutte]]
+Bill Tutte was British and Canadian mathematician, one of the  founders of modern Graph Theory.
+
+* [Wikipedia page](https://en.wikipedia.org/wiki/W._T._Tutte)
+
+* [St. Andrews History page](http://www-history.mcs.st-and.ac.uk/Biographies/Tutte.html)
+category:people
