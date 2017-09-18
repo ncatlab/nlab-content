@@ -1,3 +1,4 @@
+[[!redirects cobordism ring]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
