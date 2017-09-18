@@ -220,20 +220,32 @@ Composing this with the counit $f^* f_* \Rightarrow Id$ produces the transformat
 
 ## Examples
 
-### Etale geometric morphisms
+### Logical functors and etale geometric morphisms
 
-For any morphism $f\colon A\to B$ in a topos $E$, the induced geometric morphism $f\colon E/A \to E/B$ of [[overcategory]] [[topos]]es is essential. It has the further property that $f^*$ is a [[logical functor]].
+A [[logical functor]] $E\to F$ with a [[right adjoint]] has automatically also a [[left adjoint]] whence is the [[inverse image]] part of an essential geometric morphism $F\to E$.
 
-For the case $B = *$ the [[terminal object]], the geometric morphism
+A particularly important instance of this situation is the following:
+
+For any morphism $f\colon A\to B$ in a topos $E$, the induced geometric morphism $f\colon E/A \to E/B$ of [[overcategory]] [[topos]]es is essential. Here, the logical functor is given by $f^*:E/B\to E/A$ of course.
+
+In the special case $B = *$ the [[terminal object]], the essential geometric morphism
 
 $$
   \pi : E/A \to E
 $$
 
-is also called an [[etale geometric morphism]]. In particular, the [[inverse image]] $\pi^*$ is a [[logical functor]] as well.
+is also called an [[etale geometric morphism]].
 
-Conversely, a [[logical functor]] $\pi^*: E\to F$ with a left adjoint $\pi_!$ has automatically a right adjoint $\pi_*$, hence is the inverse image part of an essential geometric morphism $F\to E$.  Provided that $\pi_!$ preserves equalizers, there is furthermore some object $A$ in $E$ such that $\pi^*$ arises up to equivalence as the inverse image part of an [[etale geometric morphism]] $E/A\to E$ (cf. [Johnstone (1977, p.37)](#JTT77)).
+Conversely, (almost) any [[logical functor]] $\pi^*$ which is the [[inverse image]] of an essential geometric morphism has the form of [[inverse image]] of an [[etale geometric morphism]]:
 
++-- {: .num_prop}
+###### Proposition
+
+If the [[right adjoint]] $\pi_!$ of a logical functor $\pi^*:E\to F$ furthermore preserves equalizers, then the resulting essential geometric morphism is up to equivalence an [[etale geometric morphism]] $\pi : F\simeq E/A \to E$ for an object $A$ in $E$ that is determined up to isomorphism. 
+
+=--
+
+For a proof see e.g. Johnstone [(1977, p.37)](#JTT77).
 
 ### Locally connected toposes
 
