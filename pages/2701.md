@@ -23,7 +23,7 @@ These form a [[Galois connection]] on $P(L)$; the condition $\phi(X) = (X^{\Delt
 
 ## Examples
 
-When applied to the ordered set of [[rational number]]s, the construction described above gives the completion of the set of rational numbers by Dedekind sections, *including* the empty sections.  Thus we get, not the [[real line]] $\mathbb{R} = {]{-\infty},\infty[}$, but the [[extended real line]] $\overline{\mathbb{R}} = [-\infty,\infty]$.  In [[constructive mathematics]], we may get additional finite elements, since the Dedekind sections are not required to be located; if we then drop $\pm\infty$, we get the [[MacNeille real number]]s.
+When applied to the ordered set of [[rational number]]s, the construction described above gives the completion of the set of rational numbers by Dedekind sections, *including* the empty sections.  Thus we get, not the [[real line]] $\mathbb{R} = {]{-\infty},\infty[}$, but the [[extended real line]] $\overline{\mathbb{R}} = [-\infty,\infty]$.  In [[constructive mathematics]], we may get additional finite elements, since the Dedekind sections are not required to be located; if we then drop $\pm\infty$, we get the (bounded) [[MacNeille real numbers]].
 
 
 ## References
@@ -33,6 +33,8 @@ When applied to the ordered set of [[rational number]]s, the construction descri
 * Section 21H of [[The Joy of Cats]] ([web](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
 
+[[!redirects MacNeille completion]]
+[[!redirects MacNeille completions]]
 [[!redirects Mac Neille completion]]
 [[!redirects Mac Neille completions]]
 [[!redirects Dedekind-MacNeille completion]]
