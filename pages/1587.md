@@ -37,7 +37,7 @@ U \times E_x & \cong & p^{-1}(U) & \to & E\\
 
 (the square is a pullback and the isomorphism maps $(x, e \in E_x) \mapsto e$). 
 
-Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$ of the [[slice category]] of [[Top]] over $B$. These can be put together to form a [[replete subcategory|replete]], [[wide subcategory|wide]] subcategory $Cov$ of $Top$, so that $Cov/B$ is an [[over category]], just as the notation suggests.
+Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$ of the [[slice category]] of [[Top]] over $B$, the _[[category of covering spaces]]_. These may be put together to form a [[replete subcategory|replete]], [[wide subcategory|wide]] subcategory $Cov$ of $Top$, so that $Cov/B$ is an [[over category]], just as the notation suggests.
 
 +-- {: .num_remark}
 ###### Remark
@@ -842,8 +842,9 @@ $$
       {\overset{Rec}{\longleftarrow}}
       {\bot}
   Set^{\Pi_1(X)}
-  \,.
 $$
+
+between the [[category of covering spaces]] and the [[permuation representation|permutation]] [[groupoid representations]] of the [[fundamental groupoid]] of $X$.
 
 =--
 
