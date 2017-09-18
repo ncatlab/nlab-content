@@ -18,6 +18,26 @@
 The _Serre spectral sequence_ or _Leray-Serre spectral sequence_
 is a [[spectral sequence]] for computation of [[singular homology]] of [[topological spaces]] in a [[Serre fibration|Serre]]-[[fiber sequence]] of [[topological spaces]].
 
+Given a [[homotopy fiber sequence]]
+
+$$
+  \array{
+     F &\longrightarrow& E
+     \\
+     && \downarrow
+     \\
+     && X
+  }
+$$
+
+the the corresponding cohomology Serre spectral sequence looks like
+
+$$
+  E_2^{p,q}= H^p(X, H^q(F)) \Rightarrow H^{p+q}(E)
+  \,.
+$$
+
+
 ## References
 
 The original article is 
