@@ -47,7 +47,7 @@ Often, and particularly when $k$ is the the [[commutative ring]] of integers $\m
 
 +-- {: .num_prop} 
 ###### Proposition 
-The action $PGL_2(k) \times \mathbb{P}^1(k) \to \mathbb{P}^1(k)$ is 3-transitive, i.e., any triplet of distinct points $(a, b, c)$ may be mapped to 
+The action $PGL_2(k) \times \mathbb{P}^1(k) \to \mathbb{P}^1(k)$ is [[transitive action|3-transitive]], i.e., any triplet of distinct points $(a, b, c)$ may be mapped to 
 any other triplet of distinct points $(a', b', c')$ by applying a group element. 
 =--  
 
