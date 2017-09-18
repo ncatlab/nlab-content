@@ -55,6 +55,6 @@ The [[flows]] of Killing vectors are [[isometries]] of the Riemannian manifold o
 
 [[!redirects Killing vector fields]]
 
-[[!redirects Kiling vector]]
-[[!redirects Kiling vectors]]
+[[!redirects Killing vector]]
+[[!redirects Killing vectors]]
 
