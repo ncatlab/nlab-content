@@ -17,12 +17,14 @@
 
 In [[physics]], _moduli stabilization_ refers to designing of [[models (in theoretical physics)]] that invoke the [[Kaluza-Klein mechanism]] (in order to obtain an [[effective QFT]] of [[gravity]] and [[gauge theory]] in low dimensions from a theory of gravity in higher dimensions) in a way such that the "moduli" fields that appear by the mechanism but which are unwanted in the model (since they do not correspond to [[phenomenology|observed]] [[field (physics)|fields]]) end up having high [[masses]], so that the KK-model is consistent with observation at presently available energies (with the [[standard model of particle physics]]).
 
+## In string theory
+
 The issue arises notably in [[string theory]] [[Kaluza-Klein compactifications]]. In the context of [[type II string theory]] one way to design the [[model (in theoretical physics)|model]] such that the moduli fields are massive is to consider the case where [[higher gauge field|higher]] [[background gauge fields]] [[vacuum expectation value|vacuum expectation values]] (VEVs) $F_p$ are present on the compactification space.  Since these fields are characterized by their higher [[field strength]]/[[curvature]] forms which are referred to as "[[flux]]" terms in physics, these models are called **[[flux compactification]]** models ([KKLT 03](#KKLT03)).
 
-Because the standard kinetic term
+Because the standard [[kinetic action]] term
 
 $$
-  F_p \wedge \star_g F_p
+  S_{kin} \propto \int F_p \wedge \star_g F_p
 $$
 
 couples the flux VEV to the metric $g$ (via the [[Hodge star operator]]) and hence to the moduli, it generically induces an effective [[potential energy]] for these, which may stabilize them.
@@ -31,6 +33,7 @@ Similarly in [[M-theory on G2-manifolds]] the 4-form flux of the [[supergravity 
 
 Since for these flux compactifications only the [[periods]] of the form fields on the compact space matter, under a bunch of further assumptions on the nature of the compactification, one can reduce the number of possible such compactifications to a combinatorial problem. The resulting space of possibilities is also known  as the _[[landscape of string theory vacua]]_.
 
+The moduli stabilization in ([KKLT 03](#KKLT03)) was demonstrated in two steps. First, all moduli were stabilized at a fixed minimum with a negative [[cosmological constant]]. This was achieved by combining fluxes with [[non-perturbative effects]]. Second, the minimum was lifted to a metastable vacuum with a positive cosmological constant. This was accomplished by adding anti D-branes and using previous results, obtained in ([Kachru-Pearson-Verlinde 01](#KachruPearsonVerlinde01)), that the flux-anti D-brane system can form a metastable bound state with positive energy. In ([KKLT 03](#KKLT03)) it was also shown that one can fine tune various parameters to make the value of the [[cosmological constant]] consistent with the observed amount of [[dark energy]].
 
 ## Related concepts
 
@@ -48,7 +51,9 @@ Discussion of moduli stabilization in [[type II string theory]]/[[F-theory]] inc
 
 * {#KKLT03} [[Shamit Kachru]], [[Renata Kallosh]], [[Andrei Linde]], [[Sandip  Trivedi]], _de Sitter Vacua in String Theory_, Phys. Rev. D68:046005, 2003 ([arXiv:hep-th/0301240](http://arxiv.org/abs/hep-th/0301240))
 
-which led to a little burst of discussion of the [[landscape of string theory vacua]].
+which led to a little burst of discussion of the [[landscape of string theory vacua]]. The analysis there relies on 
+
+* {#KachruPearsonVerlinde01} [[Shamit Kachru]], J. Pearson, [[Herman Verlinde]], _Brane/Flux Annihilation and the String Dual of a Non-Supersymmetric Field Theory_, JHEP 0206 (2002) 021 ([arXiv:hep-th/0112197](http://arxiv.org/abs/hep-th/0112197))
 
 Review includes
 
@@ -63,7 +68,7 @@ Further developments include
 
 ### In type IIA string theory
 
-Analogous discussion in [[type IIA string theory]] includes
+Analogous discussion in [[type IIA string theory]] includes ([Acharya 02](#Acharya02)) and
 
 * Oliver DeWolfe, Alexander Giryavets, [[Shamit Kachru]], Washington Taylor, _Type IIA Moduli Stabilization_ ([arXiv:hep-th/0505160](http://arxiv.org/abs/hep-th/0505160))
 
