@@ -57,6 +57,8 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 
 * [[type of propositions]], [[bracket type]], [[h-proposition]]
 
+* [[propositional extensionality]]
+
 * [[theory]]
 
 * **proposition**/[[type]] ([[propositions as types]]) 
