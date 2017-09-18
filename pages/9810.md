@@ -25,7 +25,7 @@ A [[functor]] from a [[category]] to a [[site]] induces a [[Grothendieck topolog
 Let $u : B \to C$ be a functor with $C$ a [[site]].  Recall that the topology __induced__ on $B$ by $u$ is defined to be the finest one such that $u$ is a [[continuous functor]], i.e. such that the map $G \mapsto G \circ u$ takes [[sheaves]] on $C$ to sheaves on $B$.
 
 
-## Classical comparison lemma (SGA 4)
+## Statement
 
 +-- {: .num_theorem #SGA4}
 ###### Theorem
@@ -33,15 +33,12 @@ Let $u : B \to C$ be a functor with $C$ a [[site]].  Recall that the topology __
 Let $B$ be a [[small category]], $C$ a [[site]], and $u : B \to C$ a [[fully faithful]] functor.  Consider $B$ as a site with the topology induced by $u$.  If every object $x \in C$ has a covering $(u(a_\alpha) \to x)$ by objects of $B$, then $u : B \to C$ induces an [[equivalence]] of [[category of sheaves|categories of sheaves]] (of sets) $B^\sim \to C^\sim$.
 =--
 
-
-## Generalisation due to Beilinson
-
 In [this paper](#Beilinson2011), Beilinson proves the following generalisation of the classical comparison lemma.
 
 +-- {: .num_theorem #Beilinson}
 ###### Theorem
 
-Let $B$ be an [[essentially small category]] and $C$ be an essentially small [[site]].  Suppose that $u : B \to C$ is a faithful functor which exhibits a [[dense subcategory]], hence satisfying the following condition:
+Let $B$ be an [[essentially small category]] and $C$ be an essentially small [[site]].  Suppose that $u : B \to C$ is a faithful functor which exhibits a [[dense subsite]], hence satisfying the following condition:
 
 (B) for every object $x \in C$ and finite family $(x \to u(a_\alpha))_\alpha$, with $a_\alpha \in B$, there exists a [[covering family]] $(u(b_\beta) \to x)_\beta$ of $x$ such that every composite $u(b_\beta) \to x \to u(a_\alpha)$ lies in the image of $\Hom(b_\beta, a_\alpha) \hookrightarrow \Hom(u(b_\beta), u(a_\alpha))$.
 
