@@ -136,7 +136,11 @@ Compactly generated spaces are discussed by J. L. Kelley in his book
 
 * [[John Kelley]], _General topology_, D. van Nostrand, New York 1955. 
 
-A comprehensive account careful about the (weakly) Hausdorff assumptions when needed/wanted is in the lecture notes
+An early textbook account is in
+
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], chapter III.4 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+
+A lectue note careful about the (weakly) Hausdorff assumptions when needed/wanted is in the lecture notes
 
 * {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
 
