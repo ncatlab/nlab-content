@@ -319,7 +319,7 @@ find that consistency requires that (in a given [[coordinate chart]] with [[supe
 
 where the first summand is the super-Lie algebra cocycle that classifies the [[supergravity Lie 3-algebra]] and the second is the [[field strength]] of the [[supergravity C-field]] proper (hence a purely bosonic differential form). In the second line we have rewritten this more manifestly in terms of the [[super-vielbein]] $(E^A) = (E^a, E^\alpha) = (E^a, \Psi^\alpha)$, this way the expression is directly analogous to that of definite 3-forms in the theory of [[G2-manifolds]] (see [this example](G2+manifold#DefiniteFormsInTermsOfVielbeinFields) for details).
 
-Moreover the [[supertorsion]] tensor $T$ is to have its $(T^a)^\alpha{}_\beta$-component equal to $(\Gamma^a)^\alpha{}_\beta$.
+Moreover the [[torsion]] tensor $T$ is to have its $(T^a)^\alpha{}_\beta$-component equal to $(\Gamma^a)^\alpha{}_\beta$, see at _[[torsion constraints in supergravity]]_.
 
 In addition the [[Bianchi identities]] have to hold:
 
@@ -327,7 +327,7 @@ In addition the [[Bianchi identities]] have to hold:
 
 * $\nabla H = 0$ ([[covariant derivative|covariant constancy]]).
 
-This is implied by the [[equations of motion]] of [[11-dimensional supergravity]].
+All this is implied by the [[equations of motion]] of [[11-dimensional supergravity]].
 
 Notice that in view of the above analogy to [[G2-structure]], the covariant constancy condition is precisely the analog of [[G2-manifold]] structure.  
 
