@@ -198,87 +198,25 @@ We discuss [[left lifting properties]] satisfied by covering spaces.
 
 1. [path-lifting property](#CoveringSpacePathLifting),
 
-1. [homotopy-lifting propery](#CoveringSpacesHomotopyLifting),
+1. [homotopy-lifting propery](#HomotopyLiftingPropertyOfCoveringSpaces),
 
 1. the [lifting theorem](#TheTheoremLifting).
 
 
-+-- {: .num_lemma #LiftingPropertyOfTrivialCoveringSpaces}
+
++-- {: .num_lemma #LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}
 ###### Lemma
-**(lifting property of trivial covering spaces)
+**([[lifts]] out of [[connected topological space|connected space]] into [[covering spaces]] are unique relative to any point)**
 
-Let $X$ be a [[topological space]], let $S$ be a [[set]] with [[discrete topological space]]
-denoted $Disc(S)$, and consider the trivial covering space (example \ref{TrivialCoveringSpace})
+Let 
 
-$$
-  X \times Disc(S) \overset{pr_1}{\longrightarrow} X
-  \,.
-$$
+1. $E \overset{p}{\to} X $ be a covering space, 
 
-Given
-
-1. $Y$ a [[connected topological space]],
-
-1. $f \colon Y \to X$ a [[continuous function]],
-
-1. $y \in Y$ a point
-
-1. $\widehat{f(y)} \in E$, a lift, i.e. such that $pr_1(\widehat{f(x)}) = f(x)$ 
-
-then there exists a unique continuous function $\hat f \colon Y \longrightarrow E$ which is a lift
-relative to the given point
-in that it makes this diagram commute:
-
-$$
-  \array{
-    \ast &\overset{const_{\widehat{f(y)}}}{\longrightarrow}& X \times Disc(S)
-    \\
-    {}^{\mathllap{const_y}}\downarrow &{}^{\mathllap{\hat f}}\nearrow& \downarrow^{\mathrlap{pr_1}}
-    \\
-    Y &\underset{f}{\longrightarrow}& X
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the [[universal property]] of the [[product topological spaces]]
-a lift $\hat f \colon Y \to X \times Disc(S)$ is equivalently a [[pair]] of continuous functions of the form
-
-$$
-  pr_1(\hat f) \;\colon\; Y \to X  \phantom{AAA}\text{and}\phantom{AAA} pr_2(\hat f) \;\colon\; X \to Disc(S)
-  \,,
-$$
-
-Now the lifting condition explicitly fixes $pr_1(\hat f) = f$. Moreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $Y$ is a [[connected topological space]] this means that $pr_2(\hat f)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to
-be $pr_2(\hat f) = pr_2(\widehat{f(x)})$.
-
-
-=--
-
-
-
-+-- {: .num_prop #LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}
-###### Proposition
-**([[lifts]] out of [[connected topological space|connected space]] into [[covering spaces]])**
-
-Let
-
-1. $E \overset{p}{\to} X $ be a covering space,
-
-1. $Y$ a [[topological space]],
+1. $Y$ a [[connected topological space]]
 
 1. $f \;\colon\; Y \longrightarrow X$ a [[continuous function]].
 
-1)
-
-If $Y$ is [[connected topological space|connected]], then
-lifts of $f$ relative to one point are unique, if they exist:
-
-If $\hat f_1, \hat f_2 \;\colon\; Y \longrightarrow E$ are two [[lifts]] of $f$, in that the following [[commuting diagram|diagram commutes]]:
+1. $\hat f_1, \hat f_2 \;\colon\; Y \longrightarrow E$ two [[lifts]] of $f$, in that the following [[commuting diagram|diagram commutes]]:
 
    $$
      \array{
@@ -290,20 +228,16 @@ If $\hat f_1, \hat f_2 \;\colon\; Y \longrightarrow E$ are two [[lifts]] of $f$,
      }
    $$
 
-   for $i \in \{1,2\}$ and if there exists $y \in Y$ such that $\hat f_1(y) = \hat f_2(y)$, then the two lifts already agree everywhere: $\hat f_1 = \hat f_2$.
+   for $i \in \{1,2\}$.
 
-2)
-
-(...)
+If there exists $y \in Y$ such that $\hat f_1(y) = \hat f_2(y)$ then the two lifts already agree everywhere: $\hat f_1 = \hat f_2$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-1)
-
-By the [[universal property]] of the [[fiber product]]
+By the [[universal property]] of the [[fiber product]] 
 
 $$
   E \times_X E \coloneqq \left\{ (e_1, e_2) \in E \times E \;\vert\; p(e_1) = p(e_2) \right\} \subset E \times E
@@ -312,19 +246,19 @@ $$
 the two lifts determine a single continuous function of the form
 
 $$
-  (\hat f_1, \hat f_2)
+  (\hat f_1, \hat f_2) 
     \;\colon\;
   Y \longrightarrow E \times_X E
   \,.
 $$
 
-Write
+Write 
 
 $$
   \Delta(E)  \coloneqq \left\{ (e,e) \in E \times_X E \;\vert\; e \in E  \right\}
 $$
 
-for the [[diagonal]] on $E$ in the fiber product. By lemma \ref{CoveringSpaceFiberwiseDiagonalOpenAndClosed} this is an open subset and a closed subset of the fiber product space. Hence by continuity of $(\hat f_1, \hat f_2)$ also its pre-image
+for the [[diagonal]] on $E$ in the fiber product. By lemma \ref{CoveringSpaceFiberwiseDiagonalOpenAndClosed} this is an open subset and a closed subset of the fiber product space. Hence by continuity of $(\hat f_1, \hat f_2)$ also its pre-image 
 
 $$
   (\hat f_1, \hat f_2)^{-1}(\Delta(E)) \subset Y
@@ -334,56 +268,17 @@ is both closed and open, hence also its [[complement]] is open in $Y$.
 
 Moreover, the assumption that the functions $\hat f_1$ and $\hat f_2$ agree in at least one point means that the above pre-image is [[inhabited set|non-empty]]. Therefore the assumption that $Y$ is [[connected topological space|connected]] implies that this pre-image coincides with all of $Y$. This is the statement to be proven.
 
-2)
-
-Consider an [[open cover]]
-
-$$
-  \{U_i \subset X\}_{i \in I}
-$$
-
-over which the given covering space trivializes. Then its [[pre-image]] under $f$ is an open cover
-
-$$
-  \{ f^{-1}(U_i) \subset Y \}_{i \in I}
-  \,.
-$$
-
-
-Since $Y$ is assumed to be [[locally connected topological space|locally connected]], each of these open subsets is the [[disjoint union space]] of its [[connected components]]: $f^{-1}(U_i) = \underset{j \in J_i}{\sqcup} V_j$. Therefore we obtain a [[refinement]] of the above open cover
-
-$$
-  \{ V_j \subset Y \}_{j \in J}
-$$
-
-with $J \coloneqq \sqcup_i J_i$, which still has the property that for all $j \in J$ there exists $i \in I$ such that $f(V_j) \subset U_i$.
-
-Since now each of the $V_j$ is connected, lemma \ref{LiftingPropertyOfTrivialCoveringSpaces} implies that each restriction $f\vert_{V_j}$ has a unique lift once it is lifted over any one point of $V_j$.
-
-Since  $Y$ is moreover assumed to be a [[compact topological space]], there exists a [[finite set|finite]] [[subset]] $K \subset J$ such that
-
-$$
-  \{V_j \subset Y\}_{j \in K \subset J}
-$$
-
-is still an open cover with this property.
-
-Over this we find a lift by [[induction]]: To start the induction, by the fact that we have an open cover there must be one $j_0 \in K$ such that $V_{j_0}$ contains the basepoint, and so we lift there. Then in the induction step, if there is at least one open set left over which we have not lifted yet, by [[connected topological space|connectedness]] of $Y$ it follows that there is one which intersects the union  of those patches over which we have already lifted. Hence we have a lift of at least one point over this patch prescribed and hence again find a unique lift over the whole patch.
-
-
 =--
 
 
 
-
-
 +-- {: .num_lemma #CoveringSpacePathLifting}
-###### Example
+###### Lemma
 **(path lifting property)**
 
-Let $p \colon E \to X$ be any [[covering space]].  Given
+Let $p \colon E \to X$ be any [[covering space]].  Given 
 
-1. $\gamma \colon [0,1] \to X$ a [[path]] in $X$,
+1. $\gamma \colon [0,1] \to X$ a [[path]] in $X$, 
 
 1. $\hat x_0 \in E$ be a lift of its starting point, hence such that $p(\hat x_0) = \gamma(0)$
 
@@ -411,7 +306,9 @@ $$
   \array{
     \{0\} &\overset{\hat x_0}{\longrightarrow}& E
     \\
-    \downarrow &{}^{\mathllap{\hat \gamma}}\nearrow& \downarrow^{\mathrlap{p}}
+    \downarrow 
+      &{}^{\mathllap{\hat \gamma}}\nearrow&
+    \downarrow^{\mathrlap{p}} 
     \\
     [0,1] &\underset{\gamma}{\longrightarrow}& X
   }
@@ -423,28 +320,185 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The [[topological interval]] is clearly connected, locally connected and compact.
-Therefore the statement follows with prop. \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
+
+First consider the case that the covering space is trival, hence of the [[Cartesian product]] form 
+
+$$
+  pr_1 \;\colon\;  X \times Disc(S) \longrightarrow X
+  \,.
+$$
+
+By the [[universal property]] of the [[product topological spaces]] 
+in this case a lift $\hat \gamma \colon [0,1] \to X \times Disc(S)$ is equivalently a [[pair]] of continuous functions
+
+$$
+  pr_1(\hat \gamma) \colon [0,1] \to X  \phantom{AAAA} pr_2(\hat \gamma) \colon [0,1] \to Disc(S)
+  \,,
+$$
+
+Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. Moreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
+
+This shows the statement for the case of trivial covering spaces.
+
+Now consider any covering space $p \colon E \to X$. By definition of covering spaces, there exists for every point $x \in X$ a [[open neighbourhood]] $U_x \subset X$ such that the restriction of $E$ to $U_x$ becomes a trivial covering space:
+
+$$
+  p^{-1}(U_x) \simeq U_x \times Disc(p^{-1}(x))
+  \,.
+$$
+
+Consider such a choice 
+
+$$
+  \{U_x \subset X\}_{x \in X}
+  \,.
+$$
+
+This is an [[open cover]] of $X$. Accordingly, the [[pre-images]]
+
+$$
+  \left\{
+    \gamma^{-1}(U_x)
+    \subset 
+    [0,1]
+  \right\}_{x \in X}
+$$
+
+constitute an open cover of the [[topological interval]] $[0,1]$. 
+
+Now the [[closed interval]] is a [[compact topological space]], so that this cover has a finite open subcover. By the [[Euclidean space|Euclidean]] [[metric topology]], each element in this finite subcover is a disjoint union of open intervals. The collection of all these open intervals is an open refinement of the original cover, and by compactness it once more has a finite subcover, now such that each element of the subcover is guaranteed to be a single open interval.
+
+This means that we find a [[finite number]] of points 
+
+$$
+  t_0 \lt t_1 \lt \cdots \lt_{n+1} \in [0,1]
+$$ 
+
+with $t_0 = 0$ and $t_{n+1} = 1$ such that for all $0 \lt j \leq n$ there is $x_j \in X$ such that the corresponding path segment
+
+$$
+  \gamma([t_j, t_{j+1}]) \subset X
+$$
+
+is contained in $U_{x_j}$ from above. 
+
+Now assume that $\hat \gamma\vert_{[0,t_j]}$ has been found. Then by the triviality of the covering space over $U_{x_j}$ and the first argument above, there is a unique lift of $\gamma\vert_{[t_j, t_{j+1}]}$ to a continuous function $\hat \gamma|_{[t_j,t_{j+1}]}$ with starting point $\hat \gamma(t_j)$. Since $[0,t_{j+1}]$ is the [[pushout]] $[0,t_j] \underset{\{t_j\}}{\sqcup} [t_j,t_{j+1}]$ ([this example](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself)), it follows that $\hat \gamma|_{[0,t_j]}$ and $\hat \gamma\vert_{[t_j,t_{j+1}]}$ uniquely glue to a continuous function $\hat \gamma\vert_{[0,t_{j+1}]}$ which lifts $\gamma\vert_{[0,t_{j+1}]}$.
+
+By [[induction]] over $j$, this yields the required lift $\hat \gamma$.
+
+Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\vert_{[t_j, t_{j+1}]}$ are uniquely fixed by the above inductive argument. Therefore also the total lift is unique. Altrnatively, uniqueness of the lifts is a special case of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
+
+=--
+
++-- {: .num_prop #HomotopyLiftingPropertyOfCoveringSpaces}
+###### Proposition
+**([[homotopy lifting property]] of [[covering spaces]])**
+
+Let
+
+1. $E \overset{p}{\to} X$ be a covering space;
+
+1. $Y$ a [[locally path-connected topological space]].
+
+Then every [[lifting problem]] of the form
+
+$$
+  \array{
+    Y &\overset{\hat f}{\longrightarrow}& E
+    \\
+    {}^{\mathllap{ (id_y, const_0)}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    Y \times [0,1] &\underset{\eta}{\longrightarrow}& X
+  }
+$$
+
+has a unique [[lift]]
+
+$$
+  \array{
+    Y &\overset{\hat f}{\longrightarrow}& E
+    \\
+    {}^{\mathllap{ (id_y, const_0)}}\downarrow 
+     &{}^{\mathllap{\hat \eta}}\nearrow& 
+    \downarrow^{\mathrlap{p}}
+    \\
+    Y \times [0,1] &\underset{\eta}{\longrightarrow}& X
+  }
+  \,.
+$$
 
 
 =--
 
++-- {: .proof}
+###### Proof
+
+For every point $y \in Y$ the situation restricts to that of path lifting
+
+$$
+  \array{
+    \ast &\overset{const_y}{\longrightarrow}& Y &\overset{f}{\longrightarrow}& E
+    \\
+    {}^{\mathllap{const_0}}\downarrow
+    &&
+    {}^{\mathllap{ (id_y, const_0)}}\downarrow 
+     &{}^{\mathllap{\hat \eta}}\nearrow& 
+    \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] &\underset{(const_y,id)}{\longrightarrow}& Y \times [0,1] &\underset{\eta}{\longrightarrow}& X
+  }
+  \,.
+$$
+
+This has a unique lift $\hat \eta_y $ by lemma \ref{CoveringSpacePathLifting}. Hence if a continuous lift of $\eta$ does exist, it must be given by 
+
+$$
+  \hat \eta(y,t) = \hat \eta_y(t)
+$$
+
+and so it only remains to see that this function is continuous.
+
+To that end, let $\{U_i \subset X \}_{i \in I}$ be an open cover over which the covering space trivializes. Then $\{\eta^{-1}(U_i) \subset Y \times [0,1]\}$ is an open cover. Since $Y$ is assumed to be locally connected, so is the product space $Y \times [0,1]$, and hence this cover is refined by a cover of connected open subsets $\{V_i \subset Y \times [0,1]\}_{j \in J}$. 
+
+By lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint} over these $\hat f$ is constant on one leaf, and hence so is $\hat \eta$. This constant lift is continuous.
+
+This shows that $\hat \eta$ restricts to a continuous function over an open cover of $Y \times [0,1]$ and thus is itself continuous.
+
+
+=--
+
+
+
+
+
 +-- {: .num_example #CoveringSpacesHomotopyLifting}
 ###### Example
-**([[homotopy lifting property]] of [[covering spaces]])**
+**(lift homotopy of paths for given lifts of paths)**
 
-Let $p \colon E \to X$ be a [[covering space]]. Then given a [[homotopy]] relative the starting point between two [[paths]] in $X$, there is for every lift of these to paths in $E$ with the same starting point a unique homotopy between the lifted paths that lifts the given homotopy:
+Let $p \colon E \to X$ be a [[covering space]]. Then given a [[homotopy]] relative the starting point between two [[paths]] in $X$, 
+
+$$
+  \eta \;\colon\; \gamma_1 \Rightarrow \gamma_2
+$$
+
+there is for every lift $\hat \gamma_1, \hat \gamma_2$ of these two paths to paths in $E$ with the same starting point a unique homotopy
+
+$$
+  \hat \eta \;\colon\; \hat \gamma_1 \Rightarrow \hat \gamma_2
+$$
+
+between the lifted paths that lifts the given homotopy:
 
 For [[commuting squares]] of the form
 
 $$
   \array{
-    [0,1] \times \{0,1\}
-      &\overset{(\hat \gamma_1, \hat \gamma_2) }{\longrightarrow}&
+    ([0,1] \times \{0\}) \cup (\{0,1\} \times [0,1])
+      &\overset{(\gamma_1, \gamma_2)}{\longrightarrow}&
     E
     \\
-    {}^{\mathllap{}}\downarrow
-      &{}^{\mathllap{\hat \eta}}\nearrow&
+    {}^{\mathllap{}}\downarrow 
+      &{}^{\mathllap{\hat \eta}}\nearrow& 
     \downarrow^{\mathrlap{p}}
     \\
     [0,1] \times [0,1] &\underset{\eta}{\longrightarrow}& X
@@ -461,16 +515,30 @@ Moreover if the homotopy $\eta$ also fixes the endpoint, then so does the lifted
 +-- {: .proof}
 ###### Proof
 
-The square $[0,1]^2$ is clearly connected, locally connected and compact, 
-therefore prop. \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint} implies
-that the unique lift of the homotopy exists. 
+There are horizontal [[homeomorphisms]] such that the following diagram commutes
 
-Finally, if the homotopy in $X$ is constant also at the endpoint, hence on $\{1\} \times [0,1]$, then the function constant on $\hat \eta(1,1)$ is clearly a lift of the path $eta\vert_{\{1\}\times [0,1]}$ and by uniqueness of the path lifting (example \ref{CoveringSpacePathLifting}) this means that also $\hat \eta$ is constant on $\{1\} \times [0,1]$.
+$$
+  \array{
+     [0,1] 
+       &\overset{\simeq}{\longrightarrow}&
+     ([0,1] \times \{0\}) \cap ( \{0,1\} \times [0,1] )
+     \\
+     \downarrow
+     &&
+     \downarrow
+     \\
+     [0,1] \times [0,1] &\underset{\simeq}{\longrightarrow}& [0,1] \times [0,1]
+  }
+  \,.
+$$
+
+With this the statement follows from \ref{HomotopyLiftingPropertyOfCoveringSpaces}.
 
 =--
 
 +-- {: .num_example #IfFundamentalGroupsIncludeThenfLoopsLiftToLoops}
 ###### Example
+
 
 Let $(E,e) \overset{p}{\longrightarrow} (X,x)$ be a [[pointed topological space|pointed]] [[covering space]]
 and let $f \colon (Y,y) \longrightarrow (X,x)$ be a point-preserving [[continuous function]] such that the image of the [[fundamental group]] of $(Y,y)$ is contained within the image of the fundamental group of $(E,e)$ in that of $(X,x)$:
@@ -478,7 +546,7 @@ and let $f \colon (Y,y) \longrightarrow (X,x)$ be a point-preserving [[continuou
 $$
   f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))
   \phantom{AA}
-  \subset
+  \subset 
   \pi_1(X,x)
   \,.
 $$
@@ -497,23 +565,21 @@ $$
   \,.
 $$
 
-Then by the homotopy lifting property (example \ref{CoveringSpacesHomotopyLifting}), there is a homotopy in $(E,e)$ fixing the starting point, of the form
+Then by the homotopy lifting property as in example \ref{CoveringSpacesHomotopyLifting}, there is a homotopy in $(E,e)$ fixing the starting point, of the form
 
 $$
   \eta_{E} \;\colon\; \ell_E \Rightarrow \widehat{f \circ \ell_Y}
 $$
 
-and lifting the homotopy $\eta_X$. Since $\eta_X$ in addition fixes the endpoint, also $\eta_{E}$ 
-does, by example \ref{CoveringSpacesHomotopyLifting}. 
-Therefore $\eta_E$ is in fact a homotopy between loops, and so $\widehat{f \circ \ell_Y}$ is indeed a loop.
+and lifting the homotopy $\eta_X$. Since $\eta_X$ in addition fixes the endpoint, the uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) implies that also $\eta_{E}$ fixes the endpoint. Therefore $\eta_E$ is in fact a homotopy between loops, and so $\widehat{f \circ \ell_Y}$ is indeed a loop.
 
 =--
 
 +-- {: .num_prop #TheTheoremLifting}
 ###### Proposition
-**(lifting theorem for covering spaces)**
+**(lifting theorem)**
 
-Let
+Let 
 
 1. $p \colon E \to X$ be a [[covering space]];
 
@@ -548,6 +614,8 @@ Then the following are equivalent:
      \,
    $$
 
+Moreover, if $Y$ is path-connected, then the lift in the first item is unique.
+
 
 =--
 
@@ -556,7 +624,7 @@ Then the following are equivalent:
 
 The implication $1) \Rightarrow 2)$ is immediate. We need to show that the second statement already implies the first.
 
-Since $Y$ is connected and locally path-connected, it is also a [[path-connected topological space]] ([this prop.](locally+path-connected+space#ForLocallyPathConnectedTheConnectedComponentsCoincideWithThePathConnectedComponents)). Hence for every point $y' \in Y$ there exists a [[path]] $\gamma$ connecting $y$ with $y'$ and hence a path $f \circ \gamma$ connecting $x$ with $f(y')$.  By the path-lifting property (example \ref{CoveringSpacePathLifting}) this has a unique lift
+Since $Y$ is connected and locally path-connected, it is also a [[path-connected topological space]] ([this prop.](locally+path-connected+space#ForLocallyPathConnectedTheConnectedComponentsCoincideWithThePathConnectedComponents)). Hence for every point $y' \in Y$ there exists a [[path]] $\gamma$ connecting $y$ with $y'$ and hence a path $f \circ \gamma$ connecting $x$ with $f(y')$.  By the path-lifting property (lemma \ref{CoveringSpacePathLifting}) this has a unique lift
 
 $$
   \array{
@@ -574,64 +642,64 @@ $$
 Therefore
 
 $$
-  \hat f(y') \coloneqq \widehat{f \circ \gamma}
+  \hat f(y') \coloneqq \widehat{f \circ \gamma}(1)
 $$
 
-if a lift of $f(y')$.
+is a lift of $f(y')$.
 
 We claim now that this pointwise construction is independent of the choice $\gamma$, and that as a function of $y'$ it is indeed continuous. This will prove the claim.
 
-Now by the path lifting example \ref{CoveringSpacePathLifting} the lift $\widehat{\f \circ \gamma}$ is unique given $f \circ \gamma$, and hence $\hat f(y')$ depends at most on the choice of $\gamma$.
+Now by the path lifting lemma \ref{CoveringSpacePathLifting} the lift $\widehat{\f \circ \gamma}$ is unique given $f \circ \gamma$, and hence $\hat f(y')$ depends at most on the choice of $\gamma$.
 
 Hence let $\gamma' \colon [0,1] \to Y$ be another path in $Y$ that connects $y$ with $y'$. We need to show that then $\widehat{f \circ \gamma'} = \widehat{f \circ \gamma}$.
 
-First observe that if $\gamma'$ is related to $\gamma$ by a [[homotopy]], so that then also $f \circ \gamma'$ is related to $f \circ \gamma$ by a homotopy, then this is the statement of the homotopy lifting property of lemma \ref{CoveringSpacesHomotopyLifting}.
+First observe that if $\gamma'$ is related to $\gamma$ by a [[homotopy]], so that then also $f \circ \gamma'$ is related to $f \circ \gamma$ by a homotopy, then this is the statement of the homotopy lifting property as in example \ref{CoveringSpacesHomotopyLifting}.
 
 Next write $\bar\gamma'\cdot \gamma$ for the [[path concatenation]] of the path $\gamma$ with the [[reverse path]] of the path $\gamma'$, hence a loop in $Y$, so that $f \circ (\bar\gamma'\cdot \gamma)$ is a loop in $X$. The assumption that $f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))$ implies (example \ref{IfFundamentalGroupsIncludeThenfLoopsLiftToLoops}) that the path $\widehat{f \circ (\bar \gamma' \cdot \gamma)}$ which lifts this loop to $E$ is itself a loop in $E$.
 
 By uniqueness of path lifting, this means that the lift of $f \circ ( \gamma' \cdot (\bar\gamma' \cdot \gamma) )$ coincides with that of $f \circ \gamma'$. But $\bar \gamma' \cdot (\gamma' \cdot \gamma)$ is homotopic (via reparameterization) to just $\gamma$. Hence it follows now with the first statement that the lift of $f \circ \gamma'$ indeed coincides with that of $f \circ \gamma$.
 
-This shows that the above prescription for $\hat f$ is well defined.
+This shows that the above prescription for $\hat f$ is well defined. 
 
 It only remains to show that the function $\hat f$ obtained this way is continuous.
 
-Let $y' \in Y$ be a point and $W_{\hat f(y')} \subset E$ an open neighbourhood of its image in $E$. It is sufficient to see that there is an open neighbourhood $V_{y'} \subset Y$ such that $\hat f(V_y) \subset W_{\hat f(y')}$.
+Let $y' \in Y$ be a point and $W_{\hat f(y')} \subset E$ an open neighbourhood of its image in $E$. It is sufficient to see that there is an open neighbourhood $V_{y'} \subset Y$ such that $\hat f(V_y) \subset W_{\hat f(y')}$. 
 
 Let $U_{f(y')} \subset X$ be an open neighbourhood over which $p$ trivializes. Then the restriction
 
 $$
-  p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
-    \;\subset\;
+  p^{-1}(U_{f(y')}) \cap W_{\hat f(y')} 
+    \;\subset\; 
   U_{f(y')} \times Disc(p^{-1}(f(y')))
-$$
+$$ 
 
-is an open subset of the product space. Consider its further restriction
+is an open subset of the product space. Consider its further restriction 
 
 $$
   \left( U_{f(y')} \times \{\hat f(y')\} \right)
-    \cap
-  \left(
+    \cap 
+  \left( 
     p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
-  \right)
+  \right) 
 $$
 
-to the [[leaf]]
+to the [[leaf]] 
 
 $$
   U_{f(y')} \times \{\hat f(y')\} \;\subset\; U_{f(y')} \times p^{-1}(f(y'))
 $$
 
-which is itself an open subset. Since $p$ is an [[open map]] ([this prop.](covering+space#CoveringProjectionsAreOpenMaps)), the subset
+which is itself an open subset. Since $p$ is an [[open map]] ([this prop.](covering+space#CoveringProjectionsAreOpenMaps)), the subset 
 
 $$
   p\left(
     \left(
       U_{f(y')} \times \{\hat f(y')\}
     \right)
-      \cap
-    \left(
+      \cap 
+    \left( 
       p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
-    \right)
+    \right) 
   \right)
   \subset X
 $$
@@ -646,13 +714,13 @@ $$
         \left(
           U_{f(y')} \times \{\hat f(y')\}
         \right)
-          \cap
-        \left(
+          \cap 
+        \left( 
           p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
-        \right)
+        \right) 
     \right)
   \right)
-    \;\subset\;
+    \;\subset\; 
   Y
   \,.
 $$
@@ -662,13 +730,13 @@ Since $Y$ is assumed to be [[locally path-connected topological space|locally pa
 
 $$
   V_{y'}
-    \subset
+    \subset 
   f^{-1}\left(p\left(
     \left(U_{f(y')} \times \{\hat f(y')\}\right)
-      \cap
-    \left(
+      \cap 
+    \left( 
       p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
-    \right)
+    \right) 
   \right)
   \right)
   \,.
@@ -678,35 +746,35 @@ By the uniqueness of pah lifting, the image of that under $\hat f$ is
 
 $$
   \begin{aligned}
-    \hat f(V_{y_'})
-    & =
-    f(V_{y'}) \times \{\hat f(y')\}
+    \hat f(V_{y_'}) 
+    & = 
+    f(V_{y'}) \times \{\hat f(y')\} 
     \\
      & \subset
     p\left(
       \left(U_{f(y')} \times \{\hat f(y')\}\right)
-        \cap
-      \left(
+        \cap 
+      \left( 
         p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
-      \right)
+      \right) 
     \right) \times \{\hat f(y')\}
     \\
     & \simeq
       \left( U_{f(y')} \times \{\hat f(y')\} \right)
-        \cap
-      \left(
+        \cap 
+      \left( 
         p^{-1}(U_{f(y')}) \cap W_{\hat f(y')}
-      \right)
+      \right)   
      \\
      & \subset W_{\hat f(y')}
   \end{aligned}
   \,.
 $$
 
-This shows that the lifted function is continuous. Finally that this lift
-is unique is the statement of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
+This shows that the lifted function is continuous. Finally that this continuous lift is unique is the statement of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
 
 =--
+
 
 
 ### Monodromy
