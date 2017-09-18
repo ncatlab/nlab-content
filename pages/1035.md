@@ -75,7 +75,43 @@ Some authors use **additive category** to simply mean an Ab-enriched category, w
 +-- {: .num_prop #ProductsAreBiproducts}
 ###### Proposition
 
-In any [[Ab-enriched category]], any finite [[product]] is also a coproduct, and dually.  This includes the zero-ary case: any [[terminal object]] is also an [[initial object]], hence a [[zero object]] (and dually), hence additive category have a [[zero object]].  
+In any [[Ab-enriched category]], any finite [[product]] is also a coproduct, and dually.  This includes the zero-ary case: any [[terminal object]] is also an [[initial object]], hence a [[zero object]] (and dually), hence every additive category has a [[zero object]].  
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use that
+
+$$
+  \array{  
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow && X \times Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{p_X}} && {}_{\mathllap{p_Y}}\searrow
+    \\
+    X && && Y
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;\,,\;\;\;\;\;\;\;\;\;\;\;\;
+  \array{  
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{i_X}} && {}^{\mathllap{i_X}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow 
+     && X \sqcup Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
+    \\
+    X && && Y
+  }
+  \,.
+$$
+
 
 =--
 
