@@ -36,7 +36,7 @@ More in detail, there are variants of the icosahedral group corresponding to the
 
 * finally the _binary icosahedral group_ is the [[double cover]] (see at _[[covering of alternating group]]_), hence the lift of $I$ to [[spin group|Spin(3)]]$\simeq$ [[special unitary group|SU(2)]];
 
-* next there is a [[string 2-group]] lift $\mathcal{I} \hookrightarrow String_{SU(2)}$ of the icosahadral group ([Epa 10](#Epa10), [Epa-Ganter 16](#EpaGanter16))
+* next there is a [[string 2-group]] lift $\mathcal{I} \hookrightarrow String_{SU(2)}$ of the icosahedral group ([Epa 10](#Epa10), [Epa-Ganter 16](#EpaGanter16))
 
 $$
   \array{
