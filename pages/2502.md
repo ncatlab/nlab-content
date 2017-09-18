@@ -28,7 +28,7 @@ The corresponding [[super Lie group]] is the [[super Euclidean group]] (except f
  {#Definition}
 
 Let $d \in \mathbb{N}$ and consider [[Minkowski spacetime]] $\mathbb{R} ^{d-1,1}$ of [[dimension]] $d$. For $Spin(d-1,1)$ the corresponding [[spin group]], let 
-fPoinc
+
 $$
   S \in Rep(Spin(d-1,1))
 $$
