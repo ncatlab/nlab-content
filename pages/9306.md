@@ -54,7 +54,9 @@ This means that a "formal deformation problem" is a [[space]] in [[higher geomet
 ### Relation to $L_\infty$-algebras
 
 For $k$ a [[field]] of [[characteristic]] 0, write
-write $CAlg_k^{sm} \hookrightarrow CAlg_k$ for the [[(∞,1)-category]] of [[Artin ring|Artinian]] [[E-∞ algebras]] over $k$, or equivalently that of commutative [[dg-algebras]] over $k$.
+write $CAlg_k^{sm} \hookrightarrow CAlg_k$ for the [[(∞,1)-category]] of [[Artin ring|Artinian]] connective [[E-∞ algebras]] over $k$, or equivalently that of "small" commutative [[dg-algebras]] over $k$.
+
+The smallness condition implies connectivity ([Lurie, prop. 1.1.11 (1)](#Lurie)), hence that the [[homotopy group]] of these [[E-∞ algebras]] vanish in negative degree. Notice that for the dg-algebras this means that the [[chain homology]] vanishes in negative degree _if_ the differential is taken to have degree -1 (see [Porta 13, def. 3.1.14](#Porta13) for emphasis). This is the natural condition for the function algebra in [[derived geometry]]. Here these small $E_\infty$/dg-algebras are to be thought of as function algebras on "derived [[infinitesimally thickened points]]".
 
 
 +-- {: .num_defn }
@@ -70,7 +72,7 @@ with that of [[L-∞ algebras]].
 
 =--
 
-In this form this is ([Lurie, theore 0.0.13](#Lurie)).
+In this form this is ([Lurie, theorem 0.0.13](#Lurie)).
 See at _[[model structure for L-∞ algebras]]_ for various other incarnations of this equivalence.
 
 
@@ -117,6 +119,6 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 
 * [[Jacob Lurie]] _Moduli problems for ring spectra_ ICM 2010 proceedings contribution [pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf)
 
-* [[Mauro Porta]], _Derived formal moduli problems_, master thesis 2013, [pdf](http://algant.eu/documents/theses/porta.pdf).
+* {#Porta13} [[Mauro Porta]], _Derived formal moduli problems_, master thesis 2013, [pdf](http://algant.eu/documents/theses/porta.pdf).
 
 [[!redirects formal moduli problems]]
