@@ -8,14 +8,17 @@ This page is a review of the seminal article
 
 introducing [[Beilinson-Deligne cohomology]], [[Beilinson regulators]], [[higher regulators]], and the [[Beilinson conjectures]].
 
+Please note that it is currently in a very preliminary state.
+
 ## Overview
 
 ### Notation
 
 By [[analytic space]] we will mean [[real analytic space]].
 Let $An$ denote the real [[analytic site]].
-Consider the category $Sh(An, Ab)$ of [[abelian sheaves|sheaves]] of [[abelian groups]].
-Beilinson denotes by $D^+(An)$ the bounded above [[derived category]], i.e. the category of [[connective]] [[cochain complexes]] up to [[quasi-isomorphism]].
+Consider the category $Ab(Sh(An))$ of [[abelian sheaves]] on $An$.
+Beilinson denotes by $D^+(An)$ its bounded above [[derived category]], i.e. the category of [[connective]] [[cochain complexes]] up to [[quasi-isomorphism]].
+Given an analytic space $X \in An$, we will also consider its [[petit topos]] $X^\sim$ of sheaves on the site $Ouv(X)$ of open subsets.
 
 In $D^+(An)$ we have the complex $\Omega^\bullet$, of [[de Rham complex]]es of [[holomorphic forms]].  Let $\Omega^{\ge i}$ denote the "stupid" [[filtration]].
 
@@ -25,7 +28,7 @@ We will write $H^*_B(X, \mathbf{C})$ for the [[Betti cohomology]] of $X \in An$.
 
 ### Main constructions and conjectures
 
-#### Deligne cohomology
+#### Deligne cohomology of analytic spaces
 
 For each $p \in \mathbf{Z}$, the inclusions $\Omega^{\ge p} \hookrightarrow \Omega^\bullet$ and $A(p) \hookrightarrow \mathbf{C} \hookrightarrow \Omega^\bullet$ induce a canonical morphism
   $$ \Omega^{\ge p} \oplus A(p) \longrightarrow \Omega^\bullet $$
@@ -192,14 +195,65 @@ One defines a cup product on these complexes in the same way as above, and gets 
 
 =--
 
+#### Deligne cohomology for algebraic varieties
+
+Let $\Pi' \subset \Pi$ denote the full subcategory spanned by pairs $(X, \overline{X})$ for which $\overline{X}$ is a [[smooth variety|smooth]] [[projective variety|projective]] [[algebraic variety]].
+Let $Sch = Sch_\mathbf{R}$ denote the category of [[smooth variety|smooth]] [[quasi-projective variety|quasi-projective]] [[schemes]] over $\mathbf{R}$.
+By the [[GAGA]] principle, we have a functor $\sigma : \Pi' \to Sch$ which sends a pair $(X, \overline{X})$ to $X$.
+Conversely given $X \in Sch$, by [[Hironaka]] there exists a pair $(X, \overline{X}) \in \Pi'$ (a compactification).
+
 +-- {: .num_defn}
 ###### Definition
+Let $X \in Sch$ be a smooth quasi-projective algebraic variety over $\mathbf{R}$.
+Let $(X, \overline{X}) \in \Pi'$ be a compactification and define the **Beilinson-Deligne cohomology** of $X$ as
+  $$ H_D^q(X, A(p)) = H^q R\Gamma(\overline{X}, X, A(p)_D) $$
+and
+  $$ H_B^q(X, A(p)) = H^q R\Gamma(X, A(p)). $$
+=--
+
+One shows that these definitions are independent of the chosen compactification.
+By the above, one gets a [[cup product]] also on these cohomology groups.
+
+Next Beilinson shows that $H_D$ can be defined as cohomologies of certain complexes of [[Zariski topology|Zariski sheaves]].
+He notes that this is not necessary for the remainder of the paper, so we omit this here.
+
+#### Chern classes of vector bundles
+
+There is a canonical morphism
+  $$ c_1 : R\Gamma(X, \mathcal{O}^*)[-1] \longrightarrow H_D(X, A(1)) $$
+for each $X \in \Sch$.
+This induces a canonical homomorphism
+  $$ Pic(X) = H^1(X, \mathcal{O}^*) \longrightarrow H^2(X, A(1)) $$
+from the [[Picard group]] of [[invertible sheaves]].
+
++-- {: .num_defn}
+###### Definition
+For an [[invertible sheaf]] $\mathcal{L}$ on $X$, its **first Chern class** is defined to be the image of the class of $\mathcal{L}$ under the above homomorphism.
+=--
+
+One can show that for $A = \mathbf{Z}$, this homomorphism is injective, and further surjective if $X$ is [[compact]].
+
+Next Beilinson shows the [[projective bundle theorem]] for Beilinson-Deligne cohomology.
+
++-- {: .num_prop}
+###### Proposition
+**(Projective bundle theorem)**.
+Let $E$ be an $n$-dimensional [[vector bundle]] on $X$, let $\pi : \mathbf{P}(E) \to X$ be the associated [[projective bundle]], and $\mathcal{O}(1)$ the [[tautological sheaf]] on $\mathbf{P}(E)$.
+The homomorphism
+  $$ \oplus c_1(\mathcal{O}(1))^j \cup \pi^*
+       : \bigoplus_{0 \le j \le n-1} H_D(X, A(i-j))[2j]
+       \longrightarrow H_D(\mathbf{P}(E), A(i)) $$
+is invertible.
+=--
+
++-- {: .proof}
+###### Proof
 
 =--
 
-#### Deligne cohomology for algebraic varieties
-
-#### Chern classes of vector bundles
+After the projective bundle theorem, one can define [[Chern classes]] of [[vector bundles]] following [[Grothendieck]].
+In particular one gets the [[Chern character]]
+  $$ ch : K_0(X) \longrightarrow \bigoplus_i H^{2i}(X, A \otimes \mathbf{Q}(i)). $$
 
 #### Homologies
 
@@ -210,11 +264,6 @@ One defines a cup product on these complexes in the same way as above, and gets 
 ### Regulators
 
 ...
-
-+-- {: .num_defn}
-###### Definition
-
-=--
 
 +-- {: .num_defn}
 ###### Definition
