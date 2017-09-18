@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In classical [[gravity]] ([[general relativity]]) the _positive energy theorem_ (formerly the _positive mass conjecture_) states that under reasonable assumptions ([[dominant energy condition]]) on the nature of the [[matter]] content (i.e. on the non-gravitational [[stress-energy tensor]]) then the [[ADM masss]] of any [[asymptotically flat spacetime]] solving the [[Einstein equations]] is non-negative, and zero precisely only for [[Minkowski spacetime]] (the [[vacuum]]).
+
+
+
+## References
+
+* Wikipedia, _[Positive energy theorem](http://en.wikipedia.org/wiki/Positive_energy_theorem)_
+
+
+[[!redirects positive mass conjecture]]
+
+
+[[!redirects positive energy conjecture]]
+
+[[!redirects positive mass theorem]]
