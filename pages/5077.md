@@ -1,4 +1,9 @@
 
+> For the strong topology in functional analysis, see at [[strong operator topology]].
+
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
