@@ -35,6 +35,6 @@ Under the [[relation between type theory and category theory]] the term model is
 
 * {#BuisseDybjer07} Alexandre Buisse, [[Peter Dybjer]], _Towards Formalizing Categorical Models of Type Theory in Type Theory_, 2007 ([pdf](http://www.cse.chalmers.se/~peterd/papers/Bremen2007.pdf))
 
-* {#Aczel12} [[Peter Aczel]], _What is a type theory and what should a type theory be?_, 2012  ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Aczel.pdf))
+* {#Aczel12} [[Peter Aczel]], _What is a type theory and what should a type theory be?_, 2012  ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Aczel.pdf), [pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/08/slides_pap.pdf))
 
 [[!redirects term models]]
