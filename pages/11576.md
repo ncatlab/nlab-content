@@ -87,7 +87,7 @@ Observe then finally that since $f^\ast$ is a [[full and faithful functor|full a
 ### Bundle equivalence and concordance
  {#BundleEquivalenceAndConcordance}
 
-Given an [[∞-group]] $G$ in a [[cohesive (∞,1)-topos]] $\mathbf[H}$, with [[delooping]] $\mathbf{B}G$, then for any other object $X$ the [[∞-groupoid]] $\mathbf{H}(X,\mathbf{B}G)$ is that of $G$-[[principal ∞-bundles]] with [[equivalences]] between them. Alternatively one may form the [[internal hom]] $[X,\mathbf{B}G]$. Applying the [[shape modality]] to this yields the $\infty$-groupoid $\mathbf{H}^\infty(X,\mathbf{B}G) \coloneqq  &#643; [X,\mathbf{B}G]$ of $G$-principal $\infty$-bundles and [[concordances]] between them. Alternatively, the [[flat modality]] applied to the internal hom is again just the external hom $\flat [X,\mathbf{B}G] \simeq \mathbf{H}(X,\mathbf{B}G)$.
+Given an [[∞-group]] $G$ in a [[cohesive (∞,1)-topos]] $\mathbf{H}$, with [[delooping]] $\mathbf{B}G$, then for any other object $X$ the [[∞-groupoid]] $\mathbf{H}(X,\mathbf{B}G)$ is that of $G$-[[principal ∞-bundles]] with [[equivalences]] between them. Alternatively one may form the [[internal hom]] $[X,\mathbf{B}G]$. Applying the [[shape modality]] to this yields the $\infty$-groupoid $\mathbf{H}^\infty(X,\mathbf{B}G) \coloneqq  &#643; [X,\mathbf{B}G]$ of $G$-principal $\infty$-bundles and [[concordances]] between them. Alternatively, the [[flat modality]] applied to the internal hom is again just the external hom $\flat [X,\mathbf{B}G] \simeq \mathbf{H}(X,\mathbf{B}G)$.
 
 In conclusion, in this situation the points-to-pieces transform is the canonical map
 
@@ -100,7 +100,7 @@ from $G$-principal $\infty$-bundles with bundle equivalences between them, to $G
 
 ### In tangent cohesion: the differential cohomology diagram
 
-In a [[tangent cohesive (∞,1)-topos]] on [[stable homotopy types]] the points-to-pieces transform is one stage in a natural haxagonal [[long exact sequence]], the _[[differential cohomology diagram]]_. See there for more.
+In a [[tangent cohesive (∞,1)-topos]] on [[stable homotopy types]] the points-to-pieces transform is one stage in a natural hexagonal [[long exact sequence]], the _[[differential cohomology diagram]]_. See there for more.
 
 ### Comparison map between algebraic and topological K-theory
 
