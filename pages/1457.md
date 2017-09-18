@@ -172,6 +172,11 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 [[!redirects metrizable space]]
 [[!redirects metrizable spaces]]
+
+[[!redirects metrizable topological space]]
+[[!redirects metrizable topological spaces]]
+
+
 [[!redirects metrisable space]]
 [[!redirects metrisable spaces]]
 [[!redirects metrizable]]
