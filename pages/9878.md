@@ -5,7 +5,7 @@
 
 ## Idea
 
-In the [[Lagrangian]] of a [[prequantum field theory]] the those terms that involve various [[field (physics)|fields]] describe the _coupling_ or _interaction_ of these fields with each other. Hence the prefactors of these terms encode the strength of this coupling, and hence are called _coupling constants_.
+In the [[Lagrangian]] of a [[prequantum field theory]] the those terms that involve various [[field (physics)|fields]] describe the _coupling_ or _[[interaction]]_ of these fields with each other. Hence the prefactors of these terms encode the strength of this coupling, and hence are called _coupling constants_.
 
 ## Example
 
@@ -15,5 +15,6 @@ In the [[Lagrangian]] of a [[prequantum field theory]] the those terms that invo
 
 * [[renormalization]]
 
+* [[adiabatic switching]]
 
 [[!redirects coupling constants]]
