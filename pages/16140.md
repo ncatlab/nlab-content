@@ -1,6 +1,6 @@
 ## Idea
 
-_Semi-topological K-theory_ $K_*^{st}$ is a [[homology theory|homological invariant]] of [[complex varieties]] that interpolates between [[algebraic K-theory]] and [[topological K-theory]]. It is defined by starting with the presheaf defined by [[nonconnective algebraic K-theory]], taking the associated [[etale topology|etale]] [[infinity-sheaf|sheaf]], making it $\mathbf{A}^1$-[[homotopy invariant]], and finally taking the [[topological realization of a simplicial presheaf|topological realization]]. One recovers [[topological K-theory]] from this by inverting the [[Bott element]].
+_Semi-topological K-theory_ $K_*^{st}$ is a [[homology theory|homological invariant]] of [[complex varieties]] that interpolates between [[algebraic K-theory]] and [[topological K-theory]]. It is defined by starting with the presheaf defined by [[nonconnective algebraic K-theory]], taking the associated [[etale topology|etale]] [[infinity-sheaf|sheaf]], making it $\mathbf{A}^1$-[[homotopy invariant]], and finally taking the topological realization of the resulting presheaf. One recovers [[topological K-theory]] from this by inverting the [[Bott element]].
 
 Semi-topological K-theory is related to [[morphic cohomology]] in the same way that [[algebraic K-theory]] is related to [[motivic cohomology]] and [[topological K-theory]] is related to [[singular cohomology]]. In fact there is an analogue of the [[Atiyah-Hirzebruch spectral sequence]].
 
@@ -8,16 +8,20 @@ Some [examples](#Examples) suggest that semi-topological K-theory may be a bette
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+**(topological realization of presheaves)**.
 Taking associated [[analytic spaces]] induces a functor of [[infinity-categories]]
   $$ |-| : Aff_C \longrightarrow Spc $$
 from complex [[affine schemes]] to [[homotopy types]]. By [[left Kan extension]] it extends to a [[colimit]]-preserving functor
   $$ |-| : P(Aff_\mathbf{C}) \longrightarrow Spc $$
-on the [[infinity-category of presheaves]].
+on the [[infinity-category of infinity-presheaves]].
 This further extends to a [[colimit]]-preserving functor
   $$ |-| : P^{Spt}(Aff_\mathbf{C}) \longrightarrow Spt $$
 on the [[infinity-category]] of [[infinity-presheaf|presheaves]] of [[spectra]], by taking the [[left Kan extension]] of the composite
   $$ P(Aff_\mathbf{C}) \stackrel{|-|}{\longrightarrow} Spc \stackrel{\Sigma^{\infty}}{\longrightarrow} Spt $$
 along the canonical functor $P(Aff_\mathbf{C}) \to P^{Spt}(Aff_\mathbf{C})$ induced by taking [[suspension spectra]] objectwise.
+=--
 
 Let $T$ be a [[dg-category]] over $\mathbf{C}$. Let $K(T)$ denote the [[non-connective algebraic K-theory|nonconnective]] [[Waldhausen K-theory of a dg-category|Waldhausen K-theory]] of $T$. This defines a [[infinity-presheaf|presheaf]] of [[spectra]]
   $$ Aff_C^{op} \longrightarrow Spt $$
@@ -27,7 +31,7 @@ which sends $Spec(A)$ to $K(T \otimes_{\mathbf{C}} A)$.
 ###### Definition
 The **semi-topological K-theory** of $T$ is the [[spectrum]] defined by the formula
   $$ K^{st}(T) = |L^{A^1}(L^{et}(K(T \otimes_{\mathbf{C}} -)))| $$
-where $L^{et}$ and $L^{A^1}$ are the [[etale topology|etale]] and $\mathbf{A}^1$-[[homotopy invariant]] [[localization of an infinity-category|localization]] endofunctors, respectively.
+where $L^{et}$ and $L^{A^1}$ are the [[etale topology|etale]] and $\mathbf{A}^1$-[[homotopy invariant]] [[localization of an (infinity,1)-category|localization]] endofunctors, respectively.
 =--
 
 ## Examples
