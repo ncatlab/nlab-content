@@ -32,7 +32,7 @@ There arevarious flavors of the definition. Typically they all say that an opeto
 ### By Palm
  {#DefinitionByPalm}
 
-In the definition of ([Palm](#Palm)) the extra structure is that some cells are labeled as "thin" (as [[equivalences]]) and the extra property are higher dimensional [[horn]]-filler conditions:
+In the definition by ([Palm](#Palm)) of opetopic $\omega$-category, the extra [[structure]] on an [[opetopic set]] is that some cells are labeled as "thin" (as [[equivalences]]) and the extra [[property]] are two classes of higher dimensional [[horn]]-filler conditions:
 
 1. given a [[horn]] ("niche", "nook") obtained from an [[opetope]] by discarding the [[codimension]]-0 interior and the outgoing [[codimension]]-1 face, then there is a filler opetope whose codimension-0 interior is marked as an equivalence. The filling outgoing codimension-1 face is marked an equivalence if all the other codimension-1 faces are.
 
