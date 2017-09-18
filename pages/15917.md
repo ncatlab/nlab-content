@@ -19,7 +19,7 @@ $$
     Y'' & \stackrel{g}{\longrightarrow} & Y' & \longrightarrow & Y
   }
 $$
-if $g : Y'' \to Y'$ is a weak equivalence and both squares are pullback diagrams, then  $f : X'' \to X'$ is also a weak equivalence.
+if $g \colon Y'' \to Y'$ is a weak equivalence and both squares are pullback diagrams, then  $f \colon X'' \to X'$ is also a weak equivalence.
 
 ## Properties
 
