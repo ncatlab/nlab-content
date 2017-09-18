@@ -27,4 +27,4 @@ If we use a non-well-founded construction of pure sets as the right adjoint, the
 
 The material-structural adjunction was first observed, for a particular pair of theories, in:
 
-* Mitchell, William, "Categories of Boolean topoi".
+* William Mitchell 1973, _Categories of Boolean topoi_, Journal of Pure and Applied Algebra 3(3), pp. 193-201. ([link](http://dx.doi.org/10.1016/0022-4049%2873%2990009-1))
