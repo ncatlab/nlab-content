@@ -1,5 +1,4 @@
 
-
 {:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em
 ;"}
 
@@ -141,12 +140,120 @@ and in a few places they also use the [[axiom of choice]]/[[Zorn's lemma]].
 Hence we discuss [[topology]] in its traditional form with [[classical logic]].
 
 We do however highlight the role of [[frame]] homomorphisms (def. \ref{HomomorphismOfFramesOfOpens} below) and that of [[sober topological spaces]] (def. \ref{Sober} below). These concepts pave the way to a [[constructive mathematics|constructive]]
-formulation of [[topology]] in terms not of [[topological spaces]] but in terms of _[[locales]]_,
-see remark \ref{Locales} below.
-The reader interested in questions of [[intuitionistic mathematics]] in topology may benefit from looking at ([Waaldijk 96](topology#Waaldijk96)).
+formulation of [[topology]] in terms not of [[topological spaces]] but in terms of _[[locales]]_ (remark \ref{Locales} below).
+For further reading along these lines see [Johnstone 83](locale#Johnstone83).
 
 =--
 
+$\,$
+
++-- {: principle}
+**([[set theory]])**
+
+Apart from [[classical logic]], we assume the usual informal concept of [[sets]]. The reader (only) needs to
+know the concepts of 
+
+1. [[subsets]] $S \subset X$;
+
+1. [[complements]] $X \setminus S$ of subsets;
+
+1. [[image]] sets $f(X)$ and [[pre-image]] sets $f^{-1}(Y)$ under a [[function]]
+$f \colon X \to Y$; 
+
+1. [[unions]] $\underset{i \in I}{\cup} S_i$ and [[intersections]] $\underset{i \in I}{\cap} S_i$ of [[dependent type|indexed sets of]] subsets $\{S_i \subset X\}_{i \in I}$.
+
+The only rules of set theory that we use are the
+
+1. [[interactions of images and pre-images with unions and intersections]]
+
+1. [[de Morgan duality]].
+
+For reference, we recall these:
+
++-- {: .num_prop #PreservationOfUnionsAndIntersectionsOfSets}
+###### Proposition
+**([[images]] preserve [[unions]] but not in general [[intersections]])**
+
+Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_i \subset X\}_{i \in I}$ be a set of [[subsets]] of $X$. Then
+
+1. $f\left( \underset{i \in I}{\cup}  S_i\right) = \left(\underset{i \in I}{\cup} f(S_i)\right)$ (the [[image]] under $f$ of a [[union]] of subsets is the union of the images)
+
+1. $f\left( \underset{i \in I}{\cap}  S_i\right) \subset \left(\underset{i \in I}{\cap} f(S_i)\right)$ (the [[image]] under $f$ of the [[intersection]] of the subsets is contained in the intersection of the images).
+
+The [[injective function|injection]] in the second item is in general proper. If $f$ is an [[injective function]] and if $I$ is [[inhabited set|non-empty]], then this is a [[bijection]]:
+
+* $(f\,\text{injective}) \Rightarrow \left(f\left( \underset{i \in I}{\cap}  S_i\right) = \left(\underset{i \in I}{\cap} f(S_i)\right)\right)$
+
+
+=--
+
++-- {: .num_prop #PreservedByPreImages}
+###### Proposition
+**([[pre-images]] preserve [[unions]] and [[intersections]])**
+
+Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{T_i \subset Y\}_{i \in I}$ be a set of [[subsets]] of $Y$. Then
+
+1. $f^{-1}\left( \underset{i \in I}{\cup}  T_i\right) = \left(\underset{i \in I}{\cup} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of a [[union]] of subsets is the union of the pre-images),
+
+1. $f^{-1}\left( \underset{i \in I}{\cap}  T_i\right) = \left(\underset{i \in I}{\cap} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of the [[intersection]] of the subsets is contained in the intersection of the pre-images).
+=--
+
++-- {: .num_prop #deMorgan}
+###### Proposition
+**([[de Morgan's law]])**
+
+Given a [[set]] $X$ and a set of subsets
+
+$$
+  \{S_i \subset X\}_{i \in I}
+$$
+
+then the [[complement]] of their [[union]] is the [[intersection]] of their [[complements]]
+
+$$
+  X \setminus
+  \left(
+     \underset{i \in I}{\cup}  S_i
+  \right)
+  \;\;=\;\;
+   \underset{i \in I}{\cap}
+   \left(
+      X \setminus S_i
+   \right)
+$$
+
+and the [[complement]] of their [[intersection]] is the [[union]] of their [[complements]]
+
+$$
+  X \setminus
+  \left(
+     \underset{i \in I}{\cap}  S_i
+  \right)
+  \;\;=\;\;
+   \underset{i \in I}{\cup}
+   \left(
+      X \setminus S_i
+   \right)
+  \,.
+$$
+
+Moreover, taking complements reverses inclusion relations:
+
+$$
+  \left(
+    S_1 \subset S_2
+  \right)
+  \;\;\Leftrightarrow\;\,
+  \left(
+    X\setminus S_2 \subset X \setminus S_1
+  \right)
+  \,.
+$$
+
+=--
+
+
+=--
 
 $\,$
 
@@ -281,6 +388,7 @@ of [[metric spaces]] include the following:
 
 +-- {: .num_example #EuclideanNorm}
 ###### Example
+**([[Euclidean space]])**
 
 For $n \in \mathbb{N}$, the [[Cartesian space]]
 
@@ -480,7 +588,7 @@ is a [[continuous function]] in the sense of def. \ref{EpsilonDeltaDefinitionOfC
 Hence [[polynomials are continuous functions]].
 
 Similarly [[rational functions are continuous]] on their [[domain]] of definition:
-for $P,Q \in \mathbb{R}[X]$ two polynomials, then $\frac{f_P}{f_Q} \colon \mathbb{R} \backslash \{x | f_Q(x) = 0\} \to \mathbb{R}$
+for $P,Q \in \mathbb{R}[X]$ two polynomials, then $\frac{f_P}{f_Q} \colon \mathbb{R} \setminus \{x | f_Q(x) = 0\} \to \mathbb{R}$
 is a continuous function.
 
 Also for instance forming the [[square root]] is a continuous function $\sqrt(-) \colon \mathbb{R}_{\geq 0} \to \mathbb{R}_{\geq 0}$.
@@ -1238,7 +1346,7 @@ The reason for this terminology is best seen when considering [[continuous funct
 Given a [[set]] $X$, then the _[[cofinite topology]]_ or _finite complement topology_ on $X$ is the [[topological space|topology]]
 (def. \ref{TopologicalSpace}) whose [[open subsets]] are precisely
 
-1. all [[cofinite subsets]] $S \subset X$ (i.e. those such that the [[complement]] $X \backslash S$ is a [[finite set]]);
+1. all [[cofinite subsets]] $S \subset X$ (i.e. those such that the [[complement]] $X \setminus S$ is a [[finite set]]);
 
 1. the [[empty set]].
 
@@ -1474,7 +1582,7 @@ $$
   \tau_{\mathbb{A}^n_k}
   \;\coloneqq\;
   \left\{
-    k^n \backslash V(\mathcal{F}) \subset k^n
+    k^n \setminus V(\mathcal{F}) \subset k^n
     \,\vert\,
     \mathcal{F} \subset k[X_1, \cdots, X_n]
   \right\}
@@ -1570,7 +1678,7 @@ sense of [[convergence]] of [[sequences]] (prop. \ref{ConvergenceInClosedSubspac
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
 
 
-1. A [[subset]] $S \subset X$ is called a _[[closed subset]]_ if its [[complement]] $X \backslash S$ is an  _[[open subset]]_:
+1. A [[subset]] $S \subset X$ is called a _[[closed subset]]_ if its [[complement]] $X \setminus S$ is an  _[[open subset]]_:
 
    $$
      \left(
@@ -1580,7 +1688,7 @@ Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
        \Leftrightarrow
      \phantom{AA}
      \left(
-       X\backslash S \, \subset X \,\, \text{is open}
+       X\setminus S \, \subset X \,\, \text{is open}
      \right)
      \,.
    $$
@@ -1604,64 +1712,6 @@ Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
 
 
 
-+-- {: .num_remark #deMorgan}
-###### Remark
-**([[de Morgan's law]])**
-
-In reasoning about [[closed subsets]] in [[topology]] (def. \ref{ClosedSubset}) we are concerned with [[complements]] of [[unions]] and
-[[intersections]] as well as with [[unions]]/[[intersections]] of [[complements]]. Recall therefore
-that taking [[complements]] of [[subsets]] exchanges [[unions]] with [[intersections]]
-([[de Morgan's law]]):
-
-Given a [[set]] $X$ and a set of subsets
-
-$$
-  \{S_i \subset X\}_{i \in I}
-$$
-
-then
-
-$$
-  X \backslash
-  \left(
-     \underset{i \in I}{\cup}  S_i
-  \right)
-  \;\;=\;\;
-   \underset{i \in I}{\cap}
-   \left(
-      X \backslash S_i
-   \right)
-$$
-
-and
-
-$$
-  X \backslash
-  \left(
-     \underset{i \in I}{\cap}  S_i
-  \right)
-  \;\;=\;\;
-   \underset{i \in I}{\cup}
-   \left(
-      X \backslash S_i
-   \right)
-  \,.
-$$
-
-Also notice that taking complements reverses inclusion relations:
-
-$$
-  \left(
-    S_1 \subset S_2
-  \right)
-  \;\;\Leftrightarrow\;\,
-  \left(
-    X\backslash S_2 \subset X \backslash S_1
-  \right)
-  \,.
-$$
-
-=--
 
 
 Often it is useful to reformulate def. \ref{ClosedSubset} of [[closed subsets]] as follows:
@@ -1682,7 +1732,7 @@ $$
      \Leftrightarrow
    \phantom{AA}
    \not\left(
-     \underset{ {U \subset X \backslash S}  \atop  { U \subset X \, \text{open}  } }{\exists}
+     \underset{ {U \subset X \setminus S}  \atop  { U \subset X \, \text{open}  } }{\exists}
       \left(
         x \in U
       \right)
@@ -1695,7 +1745,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In view of remark \ref{deMorgan} we may rephrase the definition of the [[topological closure]]
+In view of prop. \ref{deMorgan} we may rephrase the definition of the [[topological closure]]
 as follows:
 
 $$
@@ -1706,11 +1756,11 @@ $$
     \left(C \right)
     \\
     & =
-    \underset{ { U \subset X \backslash S } \atop {U \subset X\, \text{open}}  }{\cap} \left( X \backslash U \right)
+    \underset{ { U \subset X \setminus S } \atop {U \subset X\, \text{open}}  }{\cap} \left( X \setminus U \right)
     \\
-    & = X \backslash
+    & = X \setminus
     \left(
-       \underset{ {U \subset X \backslash S} \atop { U \subset X\, \text{open} }}{\cup} U
+       \underset{ {U \subset X \setminus S} \atop { U \subset X\, \text{open} }}{\cup} U
     \right)
   \end{aligned}
   \,.
@@ -1737,7 +1787,7 @@ $$
 The _[[boundary]]_ $\partial S$ of $S$ is the [[complement]] of its interior inside its [[topological closure]] (def. \ref{ClosedSubset}):
 
 $$
-  \partial S \;\coloneqq\; Cl(S) \backslash Int(S)
+  \partial S \;\coloneqq\; Cl(S) \setminus Int(S)
   \,.
 $$
 
@@ -1750,20 +1800,20 @@ $$
 
 Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]].
 Then the [[topological interior]] of $S$ (def. \ref{IntSubset}) is the same as the [[complement]] of the
-[[topological closure]] $Cl(X\backslash S)$ of the complement of $S$:
+[[topological closure]] $Cl(X\setminus S)$ of the complement of $S$:
 
 $$
-  X \backslash Int(S)
+  X \setminus Int(S)
   \, = \,
-  Cl(\, X \backslash S \,)
+  Cl(\, X \setminus S \,)
 $$
 
 and conversely
 
 $$
-  X \backslash Cl(S)
+  X \setminus Cl(S)
   \, = \,
-  Int(\, X \backslash S \,)
+  Int(\, X \setminus S \,)
   \,.
 $$
 
@@ -1772,19 +1822,19 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Using remark \ref{deMorgan}, we compute as follows:
+Using [[de Morgan duality]] (prop. \ref{deMorgan}), we compute as follows:
 
 $$
   \begin{aligned}
-    X \backslash Int(S)
+    X \setminus Int(S)
     & =
-    X \backslash \left(  \underset{ {U \subset S} \atop {U \subset X \, open} }{\cup}U \right)
+    X \setminus \left(  \underset{ {U \subset S} \atop {U \subset X \, open} }{\cup}U \right)
     \\
-    & = \underset{ {U \subset S} \atop {U \subset X \, \text{open}}  }{\cap} \left( X \backslash U \right)
+    & = \underset{ {U \subset S} \atop {U \subset X \, \text{open}}  }{\cap} \left( X \setminus U \right)
     \\
-    & = \underset{ {C \supset X \backslash S} \atop {C\, closed}  }{\cap} \left( C \right)
+    & = \underset{ {C \supset X \setminus S} \atop {C\, closed}  }{\cap} \left( C \right)
     \\
-    & = Cl(X \backslash S)
+    & = Cl(X \setminus S)
   \end{aligned}
 $$
 
@@ -1862,22 +1912,22 @@ and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
 
 First assume that $V \subset X$ is closed and that $x_i \overset{i \to \infty}{\longrightarrow} x_{\infty}$ for some
 $x_\infty \in X$. We need to show that then $x_\infty \in V$. Suppose it were not, hence that
-$x_\infty \in X\backslash V$. Since, by assumption on $V$, this [[complement]] $X \backslash V \subset X$ is an [[open subset]],
+$x_\infty \in X\setminus V$. Since, by assumption on $V$, this [[complement]] $X \setminus V \subset X$ is an [[open subset]],
 it would follow that there exists a [[real number]] $\epsilon \gt 0$ such that the [[open ball]]
-around $x$ of radius $\epsilon$ were still contained in the complement: $B^\circ_x(\epsilon) \subset X \backslash V$.
+around $x$ of radius $\epsilon$ were still contained in the complement: $B^\circ_x(\epsilon) \subset X \setminus V$.
 But since the sequence is assumed to converge in $X$, this would mean that there exists $N_\epsilon$ such that all
-$x_{i \gt N_{\epsilon}}$ are in $B^\circ_x(\epsilon)$, hence in $X\backslash V$. This contradicts the assumption that
+$x_{i \gt N_{\epsilon}}$ are in $B^\circ_x(\epsilon)$, hence in $X\setminus V$. This contradicts the assumption that
 all $x_i$ are in $V$, and hence we have [[proof by contradiction|proved by contradiction]] that $x_\infty \in V$.
 
 Conversely, assume that for all sequences in $V$ that converge to some $x_\infty \in X$ then $x_\infty \in V \subset X$.
-We need to show that then $V$ is closed, hence that $X \backslash V \subset X$ is an open subset, hence that for every
-$x \in X \backslash V$ we may find a real number $\epsilon \gt 0$ such that the [[open ball]] $B^\circ_x(\epsilon)$ around $x$
+We need to show that then $V$ is closed, hence that $X \setminus V \subset X$ is an open subset, hence that for every
+$x \in X \setminus V$ we may find a real number $\epsilon \gt 0$ such that the [[open ball]] $B^\circ_x(\epsilon)$ around $x$
 of radius $\epsilon$ is still contained in
-$X \backslash V$. Suppose on the contrary that such $\epsilon$ did not exist. This would mean that for each $k \in \mathbb{N}$
+$X \setminus V$. Suppose on the contrary that such $\epsilon$ did not exist. This would mean that for each $k \in \mathbb{N}$
 with $k \geq 1$ then the [[intersection]] $B^\circ_x(1/k) \cap V$ were [[inhabited|non-empty]]. Hence then we could [[axiom of choice|choose]]
 points $x_k \in B^\circ_x(1/k) \cap V$ in these intersections. These would form a sequence which clearly converges to
-the original $x$, and so by assumption we would conclude that $x \in V$, which violates the assumption that $x \in X \backslash V$.
-Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is in fact open.
+the original $x$, and so by assumption we would conclude that $x \in V$, which violates the assumption that $x \in X \setminus V$.
+Hence we [[proof by contradiction|proved by contradiction]] $X \setminus V$ is in fact open.
 
 =--
 
@@ -1897,7 +1947,7 @@ Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}), and let
 If $S \subset C$ is closed in $(C,\tau_{sub})$ this means equivalently that there is an open open subset $V \subset C$ in $(C, \tau_{sub})$ such that
 
 $$
-  S = C \backslash V
+  S = C \setminus V
   \,.
 $$
 
@@ -1905,27 +1955,27 @@ But by the definition of the subspace topology, this means equivalently that the
 
 $$
   \begin{aligned}
-    S & = C \backslash V
+    S & = C \setminus V
     \\
-    & = C \backslash (U \cap C)
+    & = C \setminus (U \cap C)
     \\
-    & = C \backslash U
+    & = C \setminus U
   \end{aligned}
   \,.
 $$
 
-But now the condition that $C$ itself is a closed subset of $(X,\tau)$ means equivalently that there is an open subset $W \subset X$ with $C = X \backslash W$. Hence the above is equivalent to the existence of two open subsets $W,U \subset X$ such that
+But now the condition that $C$ itself is a closed subset of $(X,\tau)$ means equivalently that there is an open subset $W \subset X$ with $C = X \setminus W$. Hence the above is equivalent to the existence of two open subsets $W,U \subset X$ such that
 
 $$
-  S = (X \backslash W) \backslash U
+  S = (X \setminus W) \setminus U
    =
-   X \backslash (W \cup U)
+   X \setminus (W \cup U)
   \,.
 $$
 
 Since the union $W \cup U$ is again open, this implies that $S$ is closed in $(X,\tau)$.
 
-Conversely, that $S \subset X$ is closed in $(X,\tau)$ means that there exists an open $T \subset X$ with  $S = X \backslash T \subset X$. This means that  $S = S \cap C = (X \backslash T) \cap C = C\backslash T = C \backslash (T \cap C)$, and since $T \cap C$ is open in $(C,\tau_{sub})$ by definition of the subspace topology, this means that $S \subset C$ is closed in $(C, \tau_{sub})$.
+Conversely, that $S \subset X$ is closed in $(X,\tau)$ means that there exists an open $T \subset X$ with  $S = X \setminus T \subset X$. This means that  $S = S \cap C = (X \setminus T) \cap C = C\setminus T = C \setminus (T \cap C)$, and since $T \cap C$ is open in $(C,\tau_{sub})$ by definition of the subspace topology, this means that $S \subset C$ is closed in $(C, \tau_{sub})$.
 
 =--
 
@@ -1991,13 +2041,13 @@ in terms of complementary open subsets:
 **(irreducible closed subsets in terms of prime open subsets)**
 
 Let $(X, \tau)$ be a [[topological space]], and let $P \in \tau $ be a proper [[open subset]] of $X$,
-hence so that the [[complement]] $F \coloneqq X\backslash P$ is a [[inhabited|non-empty]] [[closed subspace]]. Then $F$
+hence so that the [[complement]] $F \coloneqq X\setminus P$ is a [[inhabited|non-empty]] [[closed subspace]]. Then $F$
 is [[irreducible closed subspace|irreducible]] in the sense of def. \ref{ClosedIrreducible} precisely if whenever $U_1,U_2 \in \tau$ are open subsets
 with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$:
 
 $$
   \left(
-    X \backslash P \,\,\text{irreducible}
+    X \setminus P \,\,\text{irreducible}
   \right)
   \;\Leftrightarrow\;
   \left(
@@ -2023,7 +2073,7 @@ The open subsets $P \subset X$ with this property are also called the _prime ope
 Observe that every [[closed subset]] $F_i \subset F$ may be exhibited as the [[complement]]
 
 $$
-  F_i = F \backslash U_i
+  F_i = F \setminus U_i
 $$
 
 of some open subset $U_i \in \tau$ with respect to $F$. Observe that under this identification the condition
@@ -2034,12 +2084,12 @@ $$
 \begin{aligned}
   F_1 \cup F_2
   & =
-  (F \backslash U_1) \cup (F \backslash U_2)
+  (F \setminus U_1) \cup (F \setminus U_2)
   \\
   &
-  = \left( X \backslash (P \cup U_1) \right) \cup \left( X \backslash P \cup U_2 \right)
+  = \left( X \setminus (P \cup U_1) \right) \cup \left( X \setminus P \cup U_2 \right)
   \\
-  & = X \backslash
+  & = X \setminus
   \left(
     \left(
       P \cup U_1
@@ -2050,9 +2100,9 @@ $$
     \right)
   \right)
   \\
-  & = X \backslash ( P \cup (U_1 \cap U_2)  )
+  & = X \setminus ( P \cup (U_1 \cap U_2)  )
   \\
-  & \stackrel{(\star)}{=}   X \backslash P
+  & \stackrel{(\star)}{=}   X \setminus P
   \\
   & = F
   \,.
@@ -2065,11 +2115,11 @@ because it is equivalent to the equality $(\star)$ in the following sequence of 
 
 $$
   \begin{aligned}
-    F_i &= F \backslash U_i
+    F_i &= F \setminus U_i
     \\
-    & = X \backslash ( P \cup U_i )
+    & = X \setminus ( P \cup U_i )
     \\
-    & \stackrel{(\star)}{=} X \backslash P
+    & \stackrel{(\star)}{=} X \setminus P
     \\
     & =
     F
@@ -2174,7 +2224,7 @@ $$
   \tau_X \longleftarrow \tau_Y \;\colon\; \phi
 $$
 
-is to specifiy a function
+is to specify a function
 
 $$
   f \colon X \longrightarrow Y
@@ -2201,7 +2251,7 @@ $$
   \tau_X \longleftarrow \tau_Y \;\colon\; f^{-1}
 $$
 
-is a frame homomorphism in the sense of def. \ref{HomomorphismOfFramesOfOpens}.
+is a frame homomorphism in the sense of def. \ref{HomomorphismOfFramesOfOpens}, by prop. \ref{PreservedByPreImages}.
 
 =--
 
@@ -2225,7 +2275,7 @@ $$
     \\
     \phi
       &\mapsto&
-    X \backslash \left( U_\emptyset(\phi) \right)
+    X \setminus \left( U_\emptyset(\phi) \right)
   }
 $$
 
@@ -2247,7 +2297,7 @@ See also ([Johnstone 82, II 1.3](#Johnstone82)).
 ###### Proof
 
 First we need to show that the function is well defined in that given
-a frame homomorphism $\phi \colon \tau_X \to \tau_\ast$ then  $X \backslash U_\emptyset(\phi)$
+a frame homomorphism $\phi \colon \tau_X \to \tau_\ast$ then  $X \setminus U_\emptyset(\phi)$
 is indeed an irreducible closed subspace.
 
 To that end observe that:
@@ -2279,9 +2329,9 @@ hence $\phi(U_1) = \emptyset$ or $\phi(U_2) = \emptyset$. But this means that $U
 
 Now according to prop. \ref{OpenSubsetVersionOfClosedIrreducible}
 the condition $(\ast)$ identifies the [[complement]]
-$X \backslash U_{\emptyset}(\phi)$ as an [[irreducible closed subspace]] of $(X,\tau)$.
+$X \setminus U_{\emptyset}(\phi)$ as an [[irreducible closed subspace]] of $(X,\tau)$.
 
-Conversely, given an irreducible closed subset $X \backslash U_0$, define $\phi$ by
+Conversely, given an irreducible closed subset $X \setminus U_0$, define $\phi$ by
 
 $$
   \phi
@@ -2878,7 +2928,7 @@ $$
   \exp(-) \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
 $$
 
-maps all of $\mathbb{R}$ (which is a closed subset, since $\mathbb{R} = \mathbb{R} \backslash \emptyset$) to
+maps all of $\mathbb{R}$ (which is a closed subset, since $\mathbb{R} = \mathbb{R} \setminus \emptyset$) to
 the [[open interval]] $(0,\infty) \subset \mathbb{R}$, which is not closed.
 
 =--
@@ -2913,7 +2963,7 @@ then so its its [[image]] projection $X \to f(X) \subset Y$, respectively, for $
 
 If $f$ is an open map, and $O \subset X$ is an open subset, so that $f(O) \subset Y$ is also open in $Y$, then, since $f(O) = f(O) \cap f(X)$, it is also still open in the subspace topology, hence $X \to f(X)$ is an open map.
 
-If $f$ is a closed map, and $C \subset X$ is a closed subset so that also $f(C) \subset Y$ is a closed subset, then the [[complement]] $Y \backslash f(C)$ is open in $Y$ and  hence $(Y \backslash f(C)) \cap f(X) = f(X) \backslash f(C)$ is open in the subspace topology, which means that $f(C)$ is closed in the subspace topology.
+If $f$ is a closed map, and $C \subset X$ is a closed subset so that also $f(C) \subset Y$ is a closed subset, then the [[complement]] $Y \setminus f(C)$ is open in $Y$ and  hence $(Y \setminus f(C)) \cap f(X) = f(X) \setminus f(C)$ is open in the subspace topology, which means that $f(C)$ is closed in the subspace topology.
 
 
 =--
@@ -3027,7 +3077,7 @@ Observe that:
 
 Let $f \colon X \longrightarrow Y$ be a [[function]]. Then a [[subset]] $S \subset X$
 is $f$-saturated (def. \ref{SubsetSaturated}) precisely if its [[complement]]
-$X \backslash S$ is saturated.
+$X \setminus S$ is saturated.
 
 =--
 
@@ -3081,32 +3131,32 @@ and such that $V$ is still $f$-[[saturated subset|saturated]].
 We claim that the [[complement]] of $X$ by the $f$-saturation (def. \ref{SubsetSaturated}) of the complement of $X$ by $U$
 
 $$
-  V \coloneqq X \backslash \left(  f^{-1}\left( f\left(  X \backslash U \right)  \right) \right)
+  V \coloneqq X \setminus \left(  f^{-1}\left( f\left(  X \setminus U \right)  \right) \right)
 $$
 
 has the desired properties. To see this, observe first that
 
-1. the [[complement]] $X \backslash U$ is closed, since $U$ is assumed to be open;
+1. the [[complement]] $X \setminus U$ is closed, since $U$ is assumed to be open;
 
-1. hence the image $f(X\backslash U)$ is closed, since $f$ is assumed to be a closed map;
+1. hence the image $f(X\setminus U)$ is closed, since $f$ is assumed to be a closed map;
 
-1. hence the pre-image $f^{-1}\left( f\left(  X \backslash U \right)\right)$ is closed, since $f$ is continuous
+1. hence the pre-image $f^{-1}\left( f\left(  X \setminus U \right)\right)$ is closed, since $f$ is continuous
    (using prop. \ref{ClosedSubsetContinuity}), therefore its complement $V$ is indeed open;
 
-1. this pre-image $f^{-1}\left( f\left(  X \backslash U \right) \right)$ is saturated (by example \ref{PreImagesAreSaturatedSubsets})
+1. this pre-image $f^{-1}\left( f\left(  X \setminus U \right) \right)$ is saturated (by example \ref{PreImagesAreSaturatedSubsets})
    and hence also its complement $V$ is saturated (by lemma \ref{ComplementOfSaturatedSubsetIsSaturated}).
 
 Therefore it now only remains to see that $U \supset V \supset C$.
 
-By [[de Morgan's law]] (remark \ref{deMorgan}) the inclusion $U \supset V$ is equivalent to the inclusion $f^{-1}\left( f\left(  X \backslash U \right)\right) \supset X \backslash U$,
+By [[de Morgan's law]] (prop. \ref{deMorgan}) the inclusion $U \supset V$ is equivalent to the inclusion $f^{-1}\left( f\left(  X \setminus U \right)\right) \supset X \setminus U$,
 which is clearly the case.
 
 The inclusion $V \supset C$ is equivalent to
-$f^{-1}\left( f\left(  X \backslash U \right) \right) \,\cap \, C = \emptyset$.
+$f^{-1}\left( f\left(  X \setminus U \right) \right) \,\cap \, C = \emptyset$.
 Since $C$ is saturated by assumption, this is
-equivalent to $f^{-1}\left( f\left(  X \backslash U \right)\right) \,\cap \, f^{-1}(f(C)) = \emptyset$.
-This in turn holds precisely if $f\left(  X \backslash U \right) \,\cap \, f(C)  = \emptyset$.
-Since $C$ is saturated, this holds precisely if $X \backslash U \cap C = \emptyset$, and this is true by the assumption
+equivalent to $f^{-1}\left( f\left(  X \setminus U \right)\right) \,\cap \, f^{-1}(f(C)) = \emptyset$.
+This in turn holds precisely if $f\left(  X \setminus U \right) \,\cap \, f(C)  = \emptyset$.
+Since $C$ is saturated, this holds precisely if $X \setminus U \cap C = \emptyset$, and this is true by the assumption
 that $U \supset C$.
 
 =--
@@ -3717,7 +3767,7 @@ between between the [[n-sphere]] $S^n$ (example \ref{SpheresAndDisks}) with one 
 and the $n$-dimensional [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}):
 
 $$
-  S^n \backslash \{p\} \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow} \mathbb{R}^n
+  S^n \setminus \{p\} \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow} \mathbb{R}^n
   \,.
 $$
 
@@ -3727,7 +3777,7 @@ $$
 
 This homeomorphism is given by "[[stereographic projection]]":
 One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] (example \ref{SubspaceTopology}) of $\mathbb{R}^{n+1}$ in the standard way (example \ref{SpheresAndDisks}), such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corresponding poles, then the homeomorphism is the
-function which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to
+function which sends a point $x \in S^{n}\setminus \{p\}$ along the line connecting it with $p$ to
 the point $y$ where this line intersects the equatorial plane.
 
 In the canonical ambient [[coordinates]] this [[stereographic projection]] is given as follows:
@@ -3736,7 +3786,7 @@ $$
   \array{
     \mathbb{R}^{n+1} \supset \;\;\;
     &
-    S^n \backslash (1,0, \cdots, 0)
+    S^n \setminus (1,0, \cdots, 0)
       &\overset{\phantom{AA} \simeq \phantom{AA}}{\longrightarrow}&
     \mathbb{R}^{n}
     &
@@ -4210,9 +4260,9 @@ this means that the union of open subsets that do not contain $x$
 is the same as the union of open subsets that do not contain $y$:
 
 $$
-  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\setminus \{x\} } }{\cup} \left( U \right)
   \;=\;
-  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\setminus \{y\} } }{\cup} \left( U \right)
 $$
 
 But if the two points were distinct, $x \neq y$, then by $T_0$ one of the above unions would contain $x$ or $y$, while the other would not, in contradiction to the above equality. Hence we have a [[proof by contradiction]].
@@ -4253,7 +4303,7 @@ $$
     \right)
     \\
     & \Leftrightarrow\,
-      X \backslash
+      X \setminus
       \left(
       \underset{ { U \subset X\, \text{open} } \atop { x \notin U }  }{\cup} \left( U \right)
       \right)
@@ -4265,7 +4315,7 @@ $$
       \underset{ { U \subset X\, \text{open} } \atop { x \notin U }  }{\cup} \left( U \right)
       \right)
        \;=\;
-      X \backslash \{x\}
+      X \setminus \{x\}
     \\
     & \Leftrightarrow
     \underset{y \in Y}{\forall}
@@ -4286,7 +4336,7 @@ $$
   \,.
 $$
 
-Here the first step is the reformulation of closure from lemma \ref{UnionOfOpensGivesClosure}, the second is another application of the [[de Morgan law]] (remark \ref{deMorgan}), the third is the definition of union and complement, and the last one is manifestly
+Here the first step is the reformulation of closure from lemma \ref{UnionOfOpensGivesClosure}, the second is another application of the [[de Morgan law]] (prop. \ref{deMorgan}), the third is the definition of union and complement, and the last one is manifestly
 by definition of $T_1$.
 
 =--
@@ -4322,7 +4372,7 @@ $$
     \\
     \Leftrightarrow
     &
-  \underset{(x,y) \in (X \times X) \backslash \Delta_X(X) }{\forall}
+  \underset{(x,y) \in (X \times X) \setminus \Delta_X(X) }{\forall}
   \left(
       \underset{ { U_{(x,y)} \times V_{(x,y)} \in \tau_{X \times Y} } \atop { (x,y) \in U_{(x,y)} \times V_{(x,y)} } }{\exists}
       \left(
@@ -4340,9 +4390,9 @@ $$
   \;\;\;\Rightarrow \;\;\;
   \Delta_X(X)
   =
-  X \backslash
+  X \setminus
   \left(
-    \underset{(x,y) \in (X \times X) \backslash \Delta_X(X)}{\cup}
+    \underset{(x,y) \in (X \times X) \setminus \Delta_X(X)}{\cup}
     U_{(x,y)} \times V_{(x,y)}
   \right)
   \,.
@@ -4496,7 +4546,7 @@ $$
   \right\}
    \,\cup\,
   \left\{
-    (a,b) \backslash K,
+    (a,b) \setminus K,
     \,\vert\,
     a\lt b \in \mathbb{R}
   \right\}
@@ -4573,7 +4623,7 @@ $$
 It follows that the [[complement]] of the open subset $U$ is closed and disjoint from $C$:
 
 $$
-  C \cap X \backslash U = \emptyset
+  C \cap X \setminus U = \emptyset
   \,.
 $$
 
@@ -4583,7 +4633,7 @@ $$
 
   V \supset C
   \,, \phantom{AA}
-  W \supset X \backslash U
+  W \supset X \setminus U
   \phantom{AA}
     \text{with}
   \phantom{AA}
@@ -4594,13 +4644,13 @@ $$
 But this means that
 
 $$
-  V \subset X \backslash W
+  V \subset X \setminus W
 $$
 
-and since the [[complement]] $X \backslash W$ of the open set $W$ is closed, it still contains the closure of $V$, so that we have
+and since the [[complement]] $X \setminus W$ of the open set $W$ is closed, it still contains the closure of $V$, so that we have
 
 $$
-  C \subset V \subset Cl(V) \subset X \backslash W \subset U
+  C \subset V \subset Cl(V) \subset X \setminus W \subset U
 $$
 
 as required.
@@ -4627,13 +4677,13 @@ We need to produce disjoint open neighbourhoods for them.
 From their disjointness it follows that
 
 $$
-  X \backslash C_2 \supset C_1
+  X \setminus C_2 \supset C_1
 $$
 
 is an open neighbourhood. Hence by assumption there is an open neighbourhood $V$ with
 
 $$
-  C_1 \subset V \subset Cl(V) \subset X \backslash C_2
+  C_1 \subset V \subset Cl(V) \subset X \setminus C_2
   \,.
 $$
 
@@ -4642,7 +4692,7 @@ Thus
 $$
   V \supset C_1
     \,, \phantom{AAAA}
-  X \backslash Cl(V) \supset C_2
+  X \setminus Cl(V) \supset C_2
 $$
 
 are two disjoint open neighbourhoods, as required.
@@ -4711,7 +4761,7 @@ Set
 $$
   C_0 \coloneqq A
   \phantom{AAA}
-  U_1 \coloneqq X \backslash B
+  U_1 \coloneqq X \setminus B
   \,.
 $$
 
@@ -4823,14 +4873,14 @@ $$
   \,,
 $$
 
-where $\partial U_r \coloneqq Cl(U_r) \backslash U_r$ is the [[boundary]] of $U_r$.
+where $\partial U_r \coloneqq Cl(U_r) \setminus U_r$ is the [[boundary]] of $U_r$.
 
 This holds because the [[dyadic numbers]] are [[dense subset|dense]] in $\mathbb{R}$. (And this would fail if we stopped the above decomposition into $U_{a/2^n}$-s at some finite $n$.) Namely, in one direction, if $x \in \partial U_r$ then for every small positive real number $\epsilon$ there exists a dyadic rational number $r'$ with $r \lt r' \lt r + \epsilon$, and by construction $U_{r'} \supset Cl(U_r)$ hence  $x \in U_{r'}$. This implies that $\underset{U_r \supset \{x\}}{\lim} = r$.
 
 
 {#PreimagesOfTheSubbaseOpens} Now we claim that for all $\alpha \in [0,1]$ then
 
-1. $f^{-1}(\,(\alpha, 1]\,) = \underset{r \gt \alpha}{\cup} \left( X \backslash Cl(U_r) \right)$
+1. $f^{-1}(\,(\alpha, 1]\,) = \underset{r \gt \alpha}{\cup} \left( X \setminus Cl(U_r) \right)$
 
 1. $f^{-1}(\,[0,\alpha)\,) = \underset{r \lt \alpha}{\cup} U_r$
 
@@ -4858,7 +4908,7 @@ $$
      \\
      \Leftrightarrow\,
      &
-     x  \in \underset{r \gt \alpha}{\cup} \left(X \backslash Cl(U_r)\right)
+     x  \in \underset{r \gt \alpha}{\cup} \left(X \setminus Cl(U_r)\right)
   \end{aligned}
 $$
 
@@ -4866,7 +4916,7 @@ and
 
 $$
   \begin{aligned}
-     & x  \in \underset{r \gt \alpha}{\cup} \left(X \backslash Cl(U_r)\right)
+     & x  \in \underset{r \gt \alpha}{\cup} \left(X \setminus Cl(U_r)\right)
      \\
      \Leftrightarrow\,
      &
@@ -5513,11 +5563,11 @@ The second statement clearly implies the first. To see the second
 statement, suppose that $F$ is an irreducible closed subspace which
 contained two distinct points $x \neq y$. Then by the Hausdorff property
 there would be disjoint neighbourhoods $U_x, U_y$, and hence it would follow that
-the relative [[complements]] $F \backslash U_x$ and $F \backslash U_y$ were distinct closed proper subsets of
+the relative [[complements]] $F \setminus U_x$ and $F \setminus U_y$ were distinct closed proper subsets of
 $F$ with
 
 $$
-  F = (F \backslash U_x) \cup (F \backslash U_y)
+  F = (F \setminus U_x) \cup (F \setminus U_y)
 $$
 
 in contradiction to the assumption that $F$ is irreducible.
@@ -5627,9 +5677,9 @@ and show that these are in bijection to the underlying set $X$, identified with 
 $\ast \to (X,\tau)$ via example \ref{PointsViaContinuousFunctions}.
 
 By prop. \ref{FrameHomomorphismsToPointAreIrrClSub}, the frame homomorphisms $\phi \colon \tau_X \to \tau_\ast$
-are identified with the irreducible closed subspaces $X \backslash U_\emptyset(\phi)$ of $(X,\tau_X)$.
+are identified with the irreducible closed subspaces $X \setminus U_\emptyset(\phi)$ of $(X,\tau_X)$.
 Therefore by assumption of [[sober topological space|sobriety]] of $(X,\tau)$ there is a unique point
-$x \in X$ with $X \backslash U_{\emptyset} = Cl(\{x\})$. In particular this means that for $U_x$ an open
+$x \in X$ with $X \setminus U_{\emptyset} = Cl(\{x\})$. In particular this means that for $U_x$ an open
 neighbourhood of $x$, then $U_x$ is not a subset of $U_\emptyset(\phi)$, and so it follows that $\phi(U_x) = \{1\}$.
 In conclusion we have found a unique $x \in X$ such that
 
@@ -5849,15 +5899,15 @@ For $(X,\tau)$ a [[topological space]], then the topological space $(S X, \tau_{
 +-- {: .proof}
 ###### Proof
 
-Let $S X \backslash \tilde U$ be an [[irreducible closed subspace]] of $(S X, \tau_{S X})$. We need to show that it is the [[topological closure]] of a unique element $\phi \in S X$.
+Let $S X \setminus \tilde U$ be an [[irreducible closed subspace]] of $(S X, \tau_{S X})$. We need to show that it is the [[topological closure]] of a unique element $\phi \in S X$.
 
-Observe first that also $X \backslash U$ is irreducible.
+Observe first that also $X \setminus U$ is irreducible.
 
-To see this use prop. \ref{OpenSubsetVersionOfClosedIrreducible}, saying that irreducibility of $X \backslash U$ is equivalent to $U_1 \cap U_2 \subset U \Rightarrow (U_1 \subset U) or (U_2 \subset U)$. But if $U_1 \cap U_2 \subset U$ then also $\tilde U_1 \cap \tilde U_2 \subset \tilde U$ (as in the [proof](#ProofOfSoberificationConstructionWellDefined) of lemma \ref{SoberificationConstructionWellDefined}) and hence by assumption on $\tilde U$ it follows that $\tilde U_1 \subset \tilde U$ or $\tilde U_2 \subset \tilde U$. By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this in turn implies $U_1 \subset U$ or $U_2 \subset U$.  In conclusion, this shows that also $X \backslash U$ is irreducible .
+To see this use prop. \ref{OpenSubsetVersionOfClosedIrreducible}, saying that irreducibility of $X \setminus U$ is equivalent to $U_1 \cap U_2 \subset U \Rightarrow (U_1 \subset U) or (U_2 \subset U)$. But if $U_1 \cap U_2 \subset U$ then also $\tilde U_1 \cap \tilde U_2 \subset \tilde U$ (as in the [proof](#ProofOfSoberificationConstructionWellDefined) of lemma \ref{SoberificationConstructionWellDefined}) and hence by assumption on $\tilde U$ it follows that $\tilde U_1 \subset \tilde U$ or $\tilde U_2 \subset \tilde U$. By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this in turn implies $U_1 \subset U$ or $U_2 \subset U$.  In conclusion, this shows that also $X \setminus U$ is irreducible .
 
-By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this irreducible closed subspace corresponds to a point $p \in S X$. By that same lemma, this frame homomorphism $p \colon \tau_X \to \tau_\ast$ takes the value $\emptyset$ on all those opens which are inside $U$. This means that the [[topological closure]] of this point is just $S X \backslash \tilde U$.
+By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this irreducible closed subspace corresponds to a point $p \in S X$. By that same lemma, this frame homomorphism $p \colon \tau_X \to \tau_\ast$ takes the value $\emptyset$ on all those opens which are inside $U$. This means that the [[topological closure]] of this point is just $S X \setminus \tilde U$.
 
-This shows that there exists at least one point of which $X \backslash \tilde U$ is the topological closure. It remains to see that there is no other such point.
+This shows that there exists at least one point of which $X \setminus \tilde U$ is the topological closure. It remains to see that there is no other such point.
 
 So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exists $U \in \tau_X$ with $p_1(U) \neq p_2(U)$. Equivalently this says that $\tilde U$ contains one of the two points, but not the other. This means that $(S X, \tau_{S X})$ is [[separation axiom|T0]].
 By prop. \ref{T0InTermsOfClosureOfPoints} this is equivalent to there being no two points with the same topological closure.
@@ -7261,7 +7311,8 @@ show that this function is always [[continuous function|continuous]] with respec
 Hence let $U \subset \underset{\longleftarrow}{\lim}_i X_i$ be in $\tau_{initial}( \{p_i\} )$.
 By def. \ref{InitialAndFinalTopologies}, this means that $U$ is a union of finite intersections
 of subsets of the form $p_i^{-1}(U_i)$ with $U_i \subset X_i$ open. But since taking pre-images
-preserves unions and intersections, and since unions and intersections of opens in $(\tilde X, \tau_{\tilde X})$
+preserves unions and intersections (prop. \ref{PreservedByPreImages}), 
+and since unions and intersections of opens in $(\tilde X, \tau_{\tilde X})$
 are again open, it is sufficient to consider $U$ of the form $U = p_i^{-1}(U_i)$. But then
 by the condition that $p_i \circ \phi = p'_i$ we find
 
@@ -7299,7 +7350,7 @@ Here is a key property of (co-)limits:
 
 +-- {: .num_prop #HomFunctorPreservesLimits}
 ###### Proposition
-**(functions into a limit cone are the limit of the functions into the diagram)**
+**([[hom-functor preserves limits|functions into a limit cone are the limit of the functions into the diagram]])**
 
 Let $\{X_i \overset{f_\alpha}{\longrightarrow} X_j\}_{i,j \in I, \alpha \in I_{i,j}}$
 be a [[free diagram]] (def. \ref{Diagram}) of sets or of topological spaces.
@@ -7436,7 +7487,7 @@ $$
   \,.
 $$
 
-Then:
+Then these _[[adjoints preserve (co-)limits]]_ in that
 
 1. the [[left adjoint functor]] $L$ preserve [[colimits]] (def. \ref{LimitingCone})
 
@@ -7656,7 +7707,7 @@ $$
   U_i
   \times
   \left(
-    \underset{j \in I \backslash \{i\}}{\prod} X_j
+    \underset{j \in I \setminus \{i\}}{\prod} X_j
   \right)
   \; \subset \;
   \underset{j \in I}{\prod} X_j
@@ -7678,7 +7729,7 @@ $$
   U_i \times U_j
   \times
   \left(
-    \underset{k \in I \backslash \{i.j\}}{\prod} X_k
+    \underset{k \in I \setminus \{i.j\}}{\prod} X_k
   \right)
 $$
 
@@ -7692,7 +7743,7 @@ $$
   \right)
   \times
   \left(
-    \underset{i \in I\backslash J}{\prod} X_i
+    \underset{i \in I\setminus J}{\prod} X_i
   \right)
   \,.
 $$
@@ -8139,8 +8190,8 @@ Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 ###### Proof
 
 The equivalence between the first and the second statement is immediate from the definitions after expressing
-open subsets as complements of closed subsets $U_i = X \backslash C_i$ and applying [[de Morgan's law]]
-(remark \ref{deMorgan}).
+open subsets as complements of closed subsets $U_i = X \setminus C_i$ and applying [[de Morgan's law]]
+(prop. \ref{deMorgan}).
 
 We discuss the equivalence between the first and the third statement:
 
@@ -8150,22 +8201,22 @@ Assume that this were not the case, hence assume that $\underset{i \in I}{\cap} 
 
 $$
   \left\{
-     U_i \coloneqq X \backslash C_i
+     U_i \coloneqq X \setminus C_i
   \right\}_{i \in I}
   \,,
 $$
 
-because (using [[de Morgan's law]], remark \ref{deMorgan})
+because (using [[de Morgan's law]], prop. \ref{deMorgan})
 
 $$
   \begin{aligned}
     \underset{i \in I}{\cup} U_i\;
     & \coloneqq
-    \underset{i \in I}{\cup} X \backslash C_i
+    \underset{i \in I}{\cup} X \setminus C_i
     \\
-    & = X \backslash \left( \underset{i \in I}{\cap}C_i \right)
+    & = X \setminus \left( \underset{i \in I}{\cap}C_i \right)
     \\
-    & = X \backslash \emptyset
+    & = X \setminus \emptyset
     \\
     & = X
   \end{aligned}
@@ -8178,18 +8229,18 @@ $$
   \begin{aligned}
     \emptyset
        & =
-    X \backslash
+    X \setminus
     \left(
       \underset{i \in J \subset I}{\cup} U_i
     \right)
     \\
     & \coloneqq
-    X \backslash
+    X \setminus
     \left(
-      \underset{i \in J \subset I}{\cup} X \backslash C_i
+      \underset{i \in J \subset I}{\cup} X \setminus C_i
     \right)
     \\
-    & = \underset{i \in J \subset I}{\cap} X \backslash \left( X \backslash C_i\right)
+    & = \underset{i \in J \subset I}{\cap} X \setminus \left( X \setminus C_i\right)
     \\
     & =
     \underset{i \in J \subset I}{\cap}  C_i
@@ -8201,7 +8252,7 @@ This would be in contradiction with the finite intersection property of $\{C_i \
 
 Conversely, assume that every set of closed subsets in $X$ with the finite intersection property has non-empty total intersection. We need to show that the every open cover $\{U_i \subset X\}_{i \in I}$ of $X$ has a finite subcover.
 
-Write $C_i \coloneqq X \backslash U_i$ for the closed complements of these open subsets.
+Write $C_i \coloneqq X \setminus U_i$ for the closed complements of these open subsets.
 
 Assume on the contrary
 that there were no finite subset $J \subset I$ such that $\underset{i \in J \subset I}{\cup} U_i = X$,
@@ -8372,13 +8423,8 @@ Then also $(Y,\tau_Y)$ is [[compact topological space|compact]].
 
 Let $\{U_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$ (def. \ref{OpenCover}). We need show that this has a finite sub-cover.
 
-By continuity of $f$, the [[pre-images]] $f^{-1}(U_i)$ are [[open subsets]] of $X$, and by the surjectivity of $f$ they form an [[open cover]] $\{f^{-1}(U_i) \subset X\}_{i \in I}$ of $X$. Hence by compactness of $X$, there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
-
-$$
-  \{f^{-1}(U_i) \subset X\}_{i \in J \subset I}
-$$
-
-is still an open cover of $X$. Finally, using again that $f$ is assumed to be surjective, it follows that
+By the continuity of $f$ the [[pre-images]] $f^{-1}(U_i)$ form an [[open cover]] $\{f^{-1}(U_i) \subset X\}_{i \in I}$ of $X$. Hence by compactness of $X$, there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
+$\{f^{-1}(U_i) \subset X\}_{i \in J \subset I}$ is still an open cover of $X$. Finally, by surjectivity of $f$ it it follows that
 
 $$
   \begin{aligned}
@@ -8388,11 +8434,13 @@ $$
       & = f\left( \underset{i \in J}{\cup} f^{-1}(U_i) \right)
     \\
       & = \underset{i \in J}{\cup} U_i
-      \,.
   \end{aligned}
 $$
 
+where we used that [[images of unions are unions of images]].
+
 This means that also $\{U_i \subset Y\}_{i \in J \subset I}$ is still an open cover of $Y$, and in particular a finite subcover of the original cover.
+
 
 =--
 
@@ -8547,7 +8595,7 @@ Let $(X,\tau_X)$ be a [[topological space]]. The following are equivalent:
 In one direction, assume that $(X,\tau_X)$ is compact and let $C \subset Y \times X$ be a closed subset.
 We need to show that $\pi_Y(C) \subset Y$ is closed.
 
-By lemma \ref{UnionOfOpensGivesClosure} this is equivalent to showing that every point $y \in Y \backslash \pi_Y(C)$
+By lemma \ref{UnionOfOpensGivesClosure} this is equivalent to showing that every point $y \in Y \setminus \pi_Y(C)$
 in the complement of $\pi_Y(C)$ has an open neighbourhood $V_y \supset \{y\}$ which does not intersect $\pi_Y(C)$:
 $$
   V_y \cap \pi_Y(C) = \emptyset
@@ -8597,7 +8645,7 @@ $$
      \\
      & \subset \underset{j \in J}{\cup} \left( V_j \times U_j \right)
      \\
-     & \subset (Y \times X) \backslash C
+     & \subset (Y \times X) \setminus C
      \,.
   \end{aligned}
 $$
@@ -8741,7 +8789,7 @@ $$
 Let
 
 $$
-  C \coloneqq (X \times Y) \backslash W
+  C \coloneqq (X \times Y) \setminus W
 $$
 
 be the [[complement]] of $W$. Since this is closed, by prop. \ref{ClosedProjectionCharacterizationOfCompactness} also its projection $p_X(C) \subset X$ is closed.
@@ -8914,7 +8962,7 @@ $$
 and write
 
 $$
-  U_n \coloneqq X \backslash F_n
+  U_n \coloneqq X \setminus F_n
 $$
 
 for their [[open subset|open]] [[complements]].
@@ -9517,7 +9565,7 @@ Then $f$ is a [[closed map]] (def. \ref{OpenMap}).
 
 Let $C \subset X$ be a [[closed subset]]. We need to show that $f(C) \subset Y$ is closed.
 By lemma \ref{UnionOfOpensGivesClosure} this means we need to show
-that every $y \in Y \backslash f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$..
+that every $y \in Y \setminus f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$..
 
 By local compactness of $(Y,\tau_Y)$ (def. \ref{LocallyCompactSpace}), $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also the intersection $C \cap f^{-1}(Cl(V_y))$ is compact, and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}) so is
 
@@ -9533,7 +9581,7 @@ $$
 This is also a [[closed subset]], since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}). Therefore
 
 $$
-  U_y \coloneqq V_y \backslash ( f(C) \cap (Cl(V_y)) ) = V_y \backslash f(C)
+  U_y \coloneqq V_y \setminus ( f(C) \cap (Cl(V_y)) ) = V_y \setminus f(C)
 $$
 
 is an open neighbourhod of $y$ not intersecting $f(C)$.
@@ -9641,21 +9689,21 @@ $$
   \,.
 $$
 
-By the assumption that $Y$ is closed, the [[complement]] $X \backslash Y \subset X$ is an open subset of $X$, and therefore
+By the assumption that $Y$ is closed, the [[complement]] $X \setminus Y \subset X$ is an open subset of $X$, and therefore
 
 $$
-  \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
+  \{ X \setminus Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
 $$
 
 is an [[open cover]] of $X$ (def. \ref{OpenCover}). Now by the assumption that $X$ is compact, this latter cover has a finite subcover,
 hence there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that
 
 $$
-  \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
+  \{ X \setminus Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
 $$
 
 is still an open cover of $X$, hence in particular restricts to a finite open cover of $Y$.
-But since $Y \cap ( X \backslash Y ) = \empty$, it follows that
+But since $Y \cap ( X \setminus Y ) = \empty$, it follows that
 
 $$
   \{V_i \subset Y\}_{i \in J \subset I}
@@ -9667,7 +9715,7 @@ is a cover of $Y$, and in indeed a finite subcover of the original one.
 
 +-- {: .num_lemma #SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}
 ###### Lemma
-**(separation by neighbourhoods of points from compact subspaces in Hausdorff spaces)**
+**([[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]])**
 
 Let
 
@@ -9676,7 +9724,7 @@ Let
 1. $Y \subset X$ a [[compact topological space|compact]] [[subspace]] (def. \ref{CompactTopologicalSpace}, example \ref{SubspaceTopology}).
 
 
-Then for every $x \in X \backslash Y$ there exists
+Then for every $x \in X \setminus Y$ there exists
 
 1. an [[open neighbourhood]] $U_x \supset \{x\}$;
 
@@ -9747,7 +9795,7 @@ Then $C \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
 +-- {: .proof}
 ###### Proof
 
-Let $x \in X \backslash C$ be any point of $X$ not contained in $C$.
+Let $x \in X \setminus C$ be any point of $X$ not contained in $C$.
 By lemma \ref{UnionOfOpensGivesClosure} we need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $C$.
 This is implied by lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
 
@@ -10053,7 +10101,8 @@ follows since $\pi$ is a [[closed map]] by prop. \ref{MapsFromCompactSpacesToHau
 =--
 
 
-The following proposition allows to recognize when a [[quotient space]] of a compact Hausdorff space is
+The following proposition allows to recognize when a [[quotient space]] of a compact
+ Hausdorff space is
 itself still Hausdorff.
 
 +-- {: .num_prop #QuotientProjectionsOutOfCompactHausdorffSpacesAreClosedPreciselyIfTheCodomainIsHausdorff}
@@ -10239,9 +10288,24 @@ A [[topological space]] $(X,\tau)$ is called _[[paracompact topological space|pa
 
 =--
 
-The definition is closely related to the following two:
++-- {: .num_example }
+###### Example
+**([[compact topological spaces]] are [[paracompact topological spaces|paracompact]])
 
-+-- {: .num_defn}
+Every [[compact topological space]] (def. \ref{CompactTopologicalSpace}) is paracompact (def. \ref{ParacompactSpace}).
+
+Since a finite subcover is in particular a locally finite refinement.
+
+=--
+
+The definition is closely related to
+
+1. [[second-countable topological space|second-countability]] (def. \ref{CountableSecond} below);
+
+1. [[sigma-compact topological space|sigma-compactness]] (def. \ref{CompactSigma} below).
+
+
++-- {: .num_defn #CountableSecond}
 ###### Definition
 **([[second-countable topological space]])**
 
@@ -10250,6 +10314,17 @@ of it admits a [[base for a topology|base for its topology]] $\beta_X$ which is 
 
 =--
 
++-- {: .num_example #SecondCountableEuclideanSpace}
+###### Example
+**([[Euclidean space]] is second-countable)**
+
+Let $n \in \mathbb{N}$. Consider the [[Euclidean space]] $\mathbb{R}^n$ with its [[Euclidean norm|Euclidean]] [[metric topology]]. Then $\mathbb{R}^n$ is second countable.
+
+A [[countable set]] of [[topological base|base open subsets]] is given by the [[open balls]] $B^\circ_x(\epsilon)$ of [[rational number|rational]] [[radius]] $\epsilon \in \mathbb{Q}_{\geq 0} \subset \mathbb{R}_{\geq 0}$ and centered at points with [[rational number|rational]] [[coordinates]]: $x \in \mathbb{Q}^n \subset \mathbb{R}^n$.
+
+=--
+
+
 +-- {: .num_defm #CompactSigma}
 ###### Definition
 **([[sigma-compact topological space]])**
@@ -10257,157 +10332,35 @@ of it admits a [[base for a topology|base for its topology]] $\beta_X$ which is 
 A [[topological space]] is called _[[sigma-compact topological space|sigma-compact]]_ if it is the
 [[union]] of a [[countable set]] of [[compact subsets]].
 
-
 =--
 
++-- {: .num_example }
+###### Example
+**([[Euclidean space]] is [[sigma-compact topological space|sigma-compact]])**
 
-
-$\,$
-
-### Properties
-
-+-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
-###### Proposition
-**([[paracompact Hausdorff spaces are normal]])**
-
-Every [[paracompact Hausdorff space]] is [[normal Hausdorff space|normal]].
-
-In particular [[compact Hausdorff spaces are normal]].
+For $n \in \mathbb{N}$ then the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm})
+equipped with its [[metric topology]] (example \ref{MetricTopology})
+is [[sigma-compact tpological space|sigma-compact]] (def. \ref{CompactSigma}).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $(X,\tau)$ be a paracompact Hausdorff space
-
-We first show that it is [[regular topological space|regular]]: To that end,
-let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
-
-First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset C$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
+For $k \in \mathbb{N}$ let
 
 $$
-  \{U_c \subset X\}_{c \in C} \,\cup\, X \backslash C
+  K_k \coloneqq B_0(k) \subset \mathbb{R}^n
 $$
 
-is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement, and by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet) we may assume its elements to share the original index set and be contained in the original elements of the same index. Hence
-
-$$
-  \{V_c \subset U_c \subset  X\}_{c \in C}
-$$
-
-is a locally finite collection of subsets, such that
-
-$$
-  U_C \coloneqq \underset{c \in C}{\cup} U_c
-$$
-
-is an open neighbourhood of $C$.
-
-
-Now by definition of local finiteness there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset C$ such that
-
-$$
-  \underset{c \in C \backslash K}{\forall}( W_x \cap V_c = \emptyset )
-  \,.
-$$
-
-Consider then
-
-$$
-  U_x
-   \;\coloneqq\;
-  W_x
-    \cap
-  \left(
-    \underset{k \in K}{\cap}
-     \left(
-       U_{x,k}
-     \right)
-  \right)
-  \,.
-$$
-
-which is an open neighbourhood of $x$, by the finiteness of $K$.
-
-It thus only remains to see that
-
-$$
-  U_x \cap U_C = \emptyset
-  \,.
-$$
-
-But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
-
-This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
-
-Let $C,D \subset X$ be two disjoint closed subsets. By need to produce disjoint open neighbourhoods for these.
-
-By the previous statement of regularity, we may find for each $c \in C$ disjoint open neighbourhoods $U_c \subset \{c\}$ and $U_{D,c} \supset D$. Hence the union
-
-$$
-  \left\{
-    U_c \subset X
-  \right\}_{c \in C}
-  \cup
-  X \backslash C
-$$
-
-is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet), assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
-
-$$
-  \{ V_c \subset U_c \subset X \}_{c \in C}
-$$
-
-such that
-
-$$
-  U_{C}
-   \coloneqq
-  \underset{c \in C}{\cup} V_c
-$$
-
-is an open neighbourhood of $C$.
-
-It is now sufficient to see that every point $d \in D$ has an open neighbourhood $U_d$ not intersecting $U_C$, for then
-
-$$
-  U_D \coloneqq \underset{d \in D}{\cup} U_d
-$$
-
-is the required open neighbourhood of $D$ not intersecting $U_C$.
-
-Now by local finiteness of $\{V_c \subset X\}_{c \in X}$, every $d \in D$ has an open neighbourhood $W_d$ such that there is a finite set $K_d \subset C$ so that
-
-$$
-  \underset{c \in C \backslash K_d}{\forall}
-  \left(
-     V_c \cap W_d = \emptyset
-  \right)
-  \,.
-$$
-
-Accordingly the intersection
-
-$$
-  U_d
-    \coloneqq
-  W_d
-   \cap
-  \left(
-    \underset{c \in K_d \subset C}{\cap} U_{D,c}
-  \right)
-$$
-
-is still open and disjoint from the remaining $V_k$, hence disjoint from all of $U_C$.
+be the [[closed ball]] (def. \ref{OpenBalls}) of [[radius]] $k$. By the [[Neine-Borel theorem]] (prop. \ref{BorelHeine}) these
+are [[compact topological space|compact]] [[subspaces]]. Clearly they exhaust $\mathbb{R}^n$.
 
 =--
 
-
-The following prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} will be useful for
+We obtain a large class of example of paracompact spaces in prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}
+below, which will be useful for
 identifying [[manifolds]] below in prop. \ref{RegularityConditionsForTopologicalManifoldsComparison}:
-
-
 
 +-- {: .num_lemma #LocallyCompactAndSigmaCompactImpliesGoodNestedCover}
 ###### Lemma
@@ -10547,6 +10500,151 @@ is a locally finite refinement of the original cover, as required:
 
 
 
+$\,$
+
+### Properties
+
++-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
+###### Proposition
+**([[paracompact Hausdorff spaces are normal]])**
+
+Every [[paracompact Hausdorff space]] is [[normal Hausdorff space|normal]].
+
+In particular [[compact Hausdorff spaces are normal]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $(X,\tau)$ be a paracompact Hausdorff space
+
+We first show that it is [[regular topological space|regular]]: To that end,
+let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
+
+First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset C$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
+
+$$
+  \{U_c \subset X\}_{c \in C} \,\cup\, X \setminus C
+$$
+
+is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement, and by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet) we may assume its elements to share the original index set and be contained in the original elements of the same index. Hence
+
+$$
+  \{V_c \subset U_c \subset  X\}_{c \in C}
+$$
+
+is a locally finite collection of subsets, such that
+
+$$
+  U_C \coloneqq \underset{c \in C}{\cup} U_c
+$$
+
+is an open neighbourhood of $C$.
+
+
+Now by definition of local finiteness there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset C$ such that
+
+$$
+  \underset{c \in C \setminus K}{\forall}( W_x \cap V_c = \emptyset )
+  \,.
+$$
+
+Consider then
+
+$$
+  U_x
+   \;\coloneqq\;
+  W_x
+    \cap
+  \left(
+    \underset{k \in K}{\cap}
+     \left(
+       U_{x,k}
+     \right)
+  \right)
+  \,.
+$$
+
+which is an open neighbourhood of $x$, by the finiteness of $K$.
+
+It thus only remains to see that
+
+$$
+  U_x \cap U_C = \emptyset
+  \,.
+$$
+
+But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
+
+This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
+
+Let $C,D \subset X$ be two disjoint closed subsets. By need to produce disjoint open neighbourhoods for these.
+
+By the previous statement of regularity, we may find for each $c \in C$ disjoint open neighbourhoods $U_c \subset \{c\}$ and $U_{D,c} \supset D$. Hence the union
+
+$$
+  \left\{
+    U_c \subset X
+  \right\}_{c \in C}
+  \cup
+  X \setminus C
+$$
+
+is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet), assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
+
+$$
+  \{ V_c \subset U_c \subset X \}_{c \in C}
+$$
+
+such that
+
+$$
+  U_{C}
+   \coloneqq
+  \underset{c \in C}{\cup} V_c
+$$
+
+is an open neighbourhood of $C$.
+
+It is now sufficient to see that every point $d \in D$ has an open neighbourhood $U_d$ not intersecting $U_C$, for then
+
+$$
+  U_D \coloneqq \underset{d \in D}{\cup} U_d
+$$
+
+is the required open neighbourhood of $D$ not intersecting $U_C$.
+
+Now by local finiteness of $\{V_c \subset X\}_{c \in X}$, every $d \in D$ has an open neighbourhood $W_d$ such that there is a finite set $K_d \subset C$ so that
+
+$$
+  \underset{c \in C \setminus K_d}{\forall}
+  \left(
+     V_c \cap W_d = \emptyset
+  \right)
+  \,.
+$$
+
+Accordingly the intersection
+
+$$
+  U_d
+    \coloneqq
+  W_d
+   \cap
+  \left(
+    \underset{c \in K_d \subset C}{\cap} U_{D,c}
+  \right)
+$$
+
+is still open and disjoint from the remaining $V_k$, hence disjoint from all of $U_C$.
+
+=--
+
+
+
+
+
 
 $\,$
 
@@ -10587,14 +10685,14 @@ It is clear by construction that $W_i \subset U_i$, hence that we have a [[refin
 Hence consider $x \in X$. By the assumption that $\{V_j \subset X\}_{j \in J}$ is locally finite, it follows that there exists an [[open neighbourhood]] $U_x \supset \{x\}$ and a [[finite set|finitee]] [[subset]] $K \subset J$ such that
 
 $$
-  \underset{j \in J\backslash K}{\forall} \left( U_x \cap V_j = \emptyset \right)
+  \underset{j \in J\setminus K}{\forall} \left( U_x \cap V_j = \emptyset \right)
   \,.
 $$
 
 Hence by construction
 
 $$
-  \underset{I \in I\backslash \phi(K)}{\forall} \left( U_x \cap W_i = \emptyset \right)
+  \underset{I \in I\setminus \phi(K)}{\forall} \left( U_x \cap W_i = \emptyset \right)
   \,.
 $$
 
@@ -10642,23 +10740,23 @@ and such that $\{V_1,U_2\}$ is still an open cover of $X$.
 +-- {: .proof}
 ###### Proof
 
-Since $U_1 \cup U_2 = X$ it follows (by [[de Morgan's law]]) that their [[complements]] $X \backslash U_i$ are [[disjoint subset|disjoint]] [[closed subsets]]. Hence by normality of $(X,\tau)$ there exist disjoint open subsets
+Since $U_1 \cup U_2 = X$ it follows (by [[de Morgan's law]]) that their [[complements]] $X \setminus U_i$ are [[disjoint subset|disjoint]] [[closed subsets]]. Hence by normality of $(X,\tau)$ there exist disjoint open subsets
 
 $$
-  V_1 \supset X \backslash U_2
+  V_1 \supset X \setminus U_2
   \phantom{AAA}
-  V_2 \supset X \backslash U_1
+  V_2 \supset X \setminus U_1
   \,.
 $$
 
 By their disjointness, we have the following inclusions:
 
 $$
-  V_1 \subset X \backslash V_2 \subset U_1
+  V_1 \subset X \setminus V_2 \subset U_1
   \,.
 $$
 
-In particular, since $X \backslash V_2$ is closed, this means that $Cl(V_1) \subset X \backslash(V_2)$.
+In particular, since $X \setminus V_2$ is closed, this means that $Cl(V_1) \subset X \setminus(V_2)$.
 
 Hence it only remains to observe that $V_1 \cup U_2 = X$, by definition of $V_1$.
 
@@ -10761,7 +10859,7 @@ with the property that
 
 1. $(i \in J \subset I) \Rightarrow ( Cl(V_i) \subset U_i )$;
 
-1. $(i \in I \backslash J) \Rightarrow ( V_i = U_i )$.
+1. $(i \in I \setminus J) \Rightarrow ( V_i = U_i )$.
 
 1. $\{V_i \subset X\}_{i \in I}$ is an open cover of $X$.
 
@@ -10793,7 +10891,7 @@ By definition, an element of $S$ with $J = I$ is an open cover of the required f
 
 We claim now that a [[maximal element]] $(J, \mathcal{V})$ of $(S,\leq)$ has $J = I$.
 
-For assume on the contrary that there were $i \in I \backslash J$. Then we could apply the construction in lemma \ref{ShrinkingLemmaForBinaryCover} to replace that single $V_i$ with a smaller open subset $V'_i$ to obtain $\mathcal{V}'$ such that $Cl(V'_i) \subset V_i$ and such $\mathcal{V}'$ is still an open cover. But that would mean that $(J,\mathcal{V}) \lt (J \cup \{i\}, \mathcal{V}')$, contradicting the assumption that $(J,\mathcal{V})$ is maximal. This [[proof by contradiction|proves by contradiction]] that a maximal element of $(S,\leq)$ has $J = I$ and hence is an open cover as required.
+For assume on the contrary that there were $i \in I \setminus J$. Then we could apply the construction in lemma \ref{ShrinkingLemmaForBinaryCover} to replace that single $V_i$ with a smaller open subset $V'_i$ to obtain $\mathcal{V}'$ such that $Cl(V'_i) \subset V_i$ and such $\mathcal{V}'$ is still an open cover. But that would mean that $(J,\mathcal{V}) \lt (J \cup \{i\}, \mathcal{V}')$, contradicting the assumption that $(J,\mathcal{V})$ is maximal. This [[proof by contradiction|proves by contradiction]] that a maximal element of $(S,\leq)$ has $J = I$ and hence is an open cover as required.
 
 We are reduced now to showing that a maximal element of $(S,\leq)$ exists. To achieve this we invoke [[Zorn's lemma]]. Hence we have to check that every [[chain]] in $(S,\leq)$, hence every [[total order|totally ordered]] [[subset]] has an [[upper bound]].
 
@@ -10815,14 +10913,14 @@ $$
 
 This is independent of the choice of $(J,\mathcal{V})$, hence well defined, by the assumption that $(T,\leq)$ is totally ordered.
 
-Moreover, for $i \in I\backslash K$ define
+Moreover, for $i \in I\setminus K$ define
 
 $$
-  W_i \coloneqq U_i  \phantom{AAA} i \in I \backslash K
+  W_i \coloneqq U_i  \phantom{AAA} i \in I \setminus K
   \,.
 $$
 
-We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \backslash J_x) \Rightarrow (i \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$.
+We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \setminus J_x) \Rightarrow (i \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$.
 
 This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by construction that it is an upper bound for $(T ,\leq )$. Hence we have shown that every [[chain]] in $(S,\leq)$ has an upper bound, and so Zorn's lemma implies the claim.
 
@@ -10836,6 +10934,8 @@ $\,$
 ### Partitions of unity
  {#PartitionsOfUnity}
 
+A key aspect of paracimpact Hausdorff spaces is that they are equivalently those spaces that admit
+_partitions of unity_.
 
 +-- {: .num_defn #PartitionOfUnity}
 ###### Definition
@@ -10904,10 +11004,10 @@ $$
   \,.
 $$
 
-It follows that for each $i \in I$ we have two disjoint [[closed subsets]], namely the [[topological closure]] $Cl(W_i)$ and the [[complement]] $X \backslash V_i$
+It follows that for each $i \in I$ we have two disjoint [[closed subsets]], namely the [[topological closure]] $Cl(W_i)$ and the [[complement]] $X \setminus V_i$
 
 $$
-  Cl(W_i) \cap X\backslash V_i = \emptyset
+  Cl(W_i) \cap X\setminus V_i = \emptyset
   \,.
 $$
 
@@ -10923,7 +11023,7 @@ $$
   h_i( Cl(W_i) ) = \{1\}
   \,,
   \phantom{AAA}
-  h_i( X \backslash V_i ) = \{0\}
+  h_i( X \setminus V_i ) = \{0\}
   \,.
 $$
 
@@ -11145,8 +11245,8 @@ An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) w
 ###### Lemma
 **([[connected topological space|connected]] [[locally Euclidean spaces]] are [[path-connected topological space|path-connected]])**
 
-A [[locally Euclidean space]] $(X,\tau)$ (def. \ref{LocallyEuclideanSpace})  
-which is [[connected topological space|connected]] (def. \ref{ConnectedSpace}) is also [[path-connected topological space|path-connected]], 
+A [[locally Euclidean space]] $(X,\tau)$ (def. \ref{LocallyEuclideanSpace})
+which is [[connected topological space|connected]] (def. \ref{ConnectedSpace}) is also [[path-connected topological space|path-connected]],
 in that for $x, y \in X$ any two point, then there exists a [[continuous function]]
 
 $$
@@ -11462,7 +11562,7 @@ $$
   \,.
 $$
 
-By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \backslash \{0\} \to \mathbb{R}^n \backslash \{0\}$ is smooth.
+By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \setminus \{0\} \to \mathbb{R}^n \setminus \{0\}$ is smooth.
 
 =--
 
