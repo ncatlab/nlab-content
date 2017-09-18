@@ -5730,7 +5730,9 @@ $$
   \,.
 $$
 
-That composition of morphisms distributes over the operation in this group structure is the [[natural transformation|naturality]] of the loop composition map, which is manifest when representing loop spectra via the standard topological loop space object $\Omega X = fib( Maps(I_+,X)\to X \times X )$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) under smash powering (def. \ref{TensoringAndPoweringOfSequentialSpectra}):
+That composition of morphisms distributes over the operation in this group structure is the [[natural transformation|naturality]] of the loop composition map, which is manifest when representing loop spectra via the standard topological loop space object $\Omega X = fib( Maps(I_+,X)\to X \times X )$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) under smash powering (def. \ref{TensoringAndPoweringOfSequentialSpectra}).
+
+To make this fully explicit, consider the following diagram in $Ho(Spectra)$:
 
 $$
   \array{
@@ -5738,9 +5740,9 @@ $$
       &\overset{\simeq}{\longrightarrow}&
     \Omega \Sigma X \times \Omega \Sigma X
       &\overset{\simeq}{\longrightarrow}&
-    Q(Maps(S^1,\Sigma X) \times Maps(S^1,\Sigma X))
+    Q(Maps(S^1,\Sigma X)_\ast \times Maps(S^1,\Sigma X)_\ast)
       &\longrightarrow&
-    Q(Maps(S^2, \Sigma X))
+    Q(Maps(S^2, \Sigma X))_\ast
       &\simeq&
     \Omega \Sigma X
       &\simeq&
@@ -5762,9 +5764,9 @@ $$
       &\overset{\simeq}{\longrightarrow}&
     \Omega \Sigma X \times \Omega \Sigma X
       &\overset{\simeq}{\longrightarrow}&
-    Q(Maps(S^1,\Sigma X) \times Maps(S^1,\Sigma X))
+    Q(Maps(S^1,\Sigma X)_\ast \times Maps(S^1,\Sigma X)_\ast)
       &\longrightarrow&
-    Q(Maps(S^2, \Sigma X))
+    Q(Maps(S^2, \Sigma X)_\ast)
       &\simeq&
     \Omega \Sigma X
       &\simeq&
@@ -5772,6 +5774,30 @@ $$
   }
   \,.
 $$
+
+Here the leftmost square and the rightmost square are the naturality squares of the [[equivalence of categories]] $(\Sigma\dashv \Omega)$ (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}). 
+
+The second square from the left and the second square from the right exhibit the equivalent expression of $\Omega$ as the [[right derived functor]] of (either the standard or the alternative, by lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}) degreewise loop space functor. Here we let $\Sigma X$ denote any fibrant representative, for notational brevity, and use that the derived functor of a right Quillen functor is given on fibrant objects by the original functor followed by cofibrant replacement ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ComputationOfLeftRightDerivedFunctorsViaResolutions)). 
+
+The middle square is the image under $Q$ of the evident naturality square 
+
+$$
+  \array{
+    Maps(S^1,Y)_\ast \times Maps(S^1,Y)
+     &\longrightarrow&
+    Maps(S^2, Y)
+    \\
+    {}^{\mathllap{Maps(S^1,f)_\ast \times Maps(S^1, f)_\ast} }\downarrow 
+     && 
+    \downarrow^{\mathrlap{Maps(S^2,f)_\ast}}
+    \\
+    Maps(S^1,Y)_\ast \times Maps(S^1,Y)
+     &\longrightarrow&
+    Maps(S^2, Y)    
+  }
+$$
+
+for concatenation of loops (for $Y \coloneqq \Sigma X$). This is where we use that we have the standard model for forming loop spaces and concatenation of loops ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)): the diagram commutes because the loops are always poinwise pushed forward along the map $f$.
 
 =--
 
