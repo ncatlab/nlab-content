@@ -34,7 +34,7 @@ Construction 1.3.1.6 in
 
 In the following paper, the definition of the dg-nerve is extended to [[A-infinity categories]], and it is proved that the dg-nerve maps [[pretriangulated dg-categories]] to [[stable (∞,1)-categories]].
 
-* Giovanni Faonte, _Simplicial nerve of an A-infinity category_, [arXiv:1312.2127](http://arxiv.org/abs/1312.2127v1).
+* [[Giovanni Faonte]], _Simplicial nerve of an A-infinity category_, [arXiv:1312.2127](http://arxiv.org/abs/1312.2127v1).
 
 [[!redirects dg-nerves]]
 [[!redirects nerve of a dg-category]]
