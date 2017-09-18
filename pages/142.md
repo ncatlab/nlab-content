@@ -148,7 +148,7 @@ discusses stacks focusing on their dual incarnation as [[Grothendieck fibration]
 
 A [[model category]] presentation of stacks that mimics the way the [[model structure on simplicial presheaves]] models [[∞-stack]]s is discussed in
 
-* [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
+* {#Hollander01} [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
 
 [[!redirects stack*]]
 [[!redirects stacks]]
