@@ -1,0 +1,11 @@
+[[!redirects John Gray]]
+
+* [website](http://www.math.uiuc.edu/~gray/)
+
+## Related entries
+
+* [[Gray tensor product]]
+
+* [[Gray category]]
+
+category:people
