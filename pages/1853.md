@@ -136,7 +136,7 @@ $$
 is the [[chain complex]] concentrated in degree $n_1$ and $n_2$, respectively, on the group of [[integers]], then
 
 $$
-  DK(V_\bullet) \simeq B^{n_1} \mathbb{Z} \simeq K(n_1,\mathbb{Z})
+  DK(V_\bullet) \simeq B^{n_1} \mathbb{Z} \simeq K(\mathbb{Z},n_1)
 $$
 
 is the corresponding [[Eilenberg-MacLane space]] which classifies [[ordinary cohomology]] ([[singular cohomology]]) with integral coefficients in the given degree. By the nature of the [[tensor product of chain complexes]] one has
