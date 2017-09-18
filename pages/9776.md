@@ -16,13 +16,24 @@
 
 ## Idea
 
-The [[D-brane]] of [[dimension]] 6+1 in [[type II string theory]].
+The [[D-brane]] of [[dimension]] 6+1 in [[type IIA string theory]].
 
-Its lift to [[M-theory]] is the [[Kaluza-Klein monopole]] there.
+## Relation to other branes
+
+The lift of the D6 to [[M-theory]] is the [[Kaluza-Klein monopole]] there ([Townsend 95](#Townsend95)).
+
+The [[T-duality|T-dual]] is the [[D7-brane]] in [[type IIB string theory]].
+
+[[!include F-branes -- table]]
 
 ## Related concept
 
 [[!include table of branes]]
+
+## References
+
+* {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187,1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
+
 
 [[!redirects D6-branes]]
 
