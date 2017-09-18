@@ -30,7 +30,7 @@ Let $\mathbf{S}$ be a [[monoidal model category]]. It is called _excellent_ if
 
 * the collection of cofibrations is closed under [[products]];
 
-* it satisfies the **invertibility hypothesis**: inverting a morphism in an $\mathbf{S}$-[[enriched category]] does not change the homotopy type if the morphism was already a [[homotopy equivalence]] (...).
+* it satisfies the **invertibility hypothesis**: for any equivalence $f$ in an $\mathbf{S}$-[[enriched category]] $C$, the localization functor $C \to C[f^{-1}]$ is an equivalence of $\mathbf{S}$-enriched categories.
 
 =--
 
