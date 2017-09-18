@@ -59,14 +59,14 @@ There are many web resources (including wikipedia) for mathematical analysis (th
 
 The formulation of [[analysis]] in [[constructive mathematics]], hence [[constructive analysis]], was maybe inititated in 
 
-* [[Errett Bishop]], _Foundations of constructive analysis._ McGraw-Hill, (1967)
- {#Bishop}
+* {#Bishop} [[Errett Bishop]], _Foundations of constructive analysis._ McGraw-Hill, (1967)
+ 
 
 together with the basic notion of [[Bishop set]]/[[setoid]]. Implementations of constructive [[real number]] analysis in [[type theory]] implemented in [[Coq]] are discussed in 
 
-* R. O'Connor, _A Monadic, Functional Implementation of Real Numbers_. MSCS, 17(1):129{159, 2007.
+* R. O'Connor, _A Monadic, Functional Implementation of Real Numbers_. MSCS, 17(1):129-159, 2007 ([arXiv:0605058](http://arxiv.org/abs/cs/0605058))
 
-* R. O'Connor, _Certied exact transcendental real number computation in Coq_, In TPHOLs 2008, LNCS 5170, pages 246--261, 2008.
+* R. O'Connor, _Certified exact transcendental real number computation in Coq_, In TPHOLs 2008, LNCS 5170, pages 246--261, 2008.
 
 * R. O'Connor, _Incompleteness and Completeness: Formalizing Logic and Analysis in Type Theory_, PhD thesis, Radboud University Nijmegen, 2009.
 
