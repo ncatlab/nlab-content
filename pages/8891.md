@@ -45,7 +45,7 @@ The model is given by $\mathcal{N}1$ in the book
 
  * {#consequences} Paul Howard, Jean E. Rubin, _Consequences of the Axiom of Choice_, AMS Mathematical Surveys and Monographs 59
 
-The various properties of the model are listed in detail. Variations of the model are listed as $\mathcal{N}12$.
+The various properties of the model are listed in detail. Variations of the model are listed as $\mathcal{N}12$ and $\mathcal{N}16$.
 
 
 [[!redirects basic Fraenkel model of ZFA]]
