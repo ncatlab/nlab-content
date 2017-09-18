@@ -22,6 +22,10 @@ For $A$ an [[abelian group]], the _Eilenberg-Mac Lane spectrum_ $H A$ is the [[s
 
 By default $A$ is taken to be the [[integers]] and hence "the Eilenberg-MacLane spectrum" is $H \mathbb{Z}$, representing [[integral cohomology]].
 
+## Definition
+
+As a [[symmetric spectrum]]: ([Schwede 12, example I.2.6](#Schwede12))
+
 ## Properties
 
 ### As a symmetric monoidal $\infty$-groupoid.
@@ -101,6 +105,8 @@ Lecture notes include
 * {#May} [[Peter May]], chapter 22 of _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
 
 * {#Rognes12} [[John Rognes]], section 3.2 3.4 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
+
+* {#Schwede12} [[Stefan Schwede]], Example I.2.7 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
 [[!redirects Eilenberg-MacLane spectrum]]
 [[!redirects Eilenberg--MacLane spectrum]]
