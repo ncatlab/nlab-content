@@ -66,9 +66,9 @@ If one drops standard regularity assumptions on manifolds then theorem \ref{Embe
 
 ## References
 
-A proof of the statement appears for instance in 
+A proof of the statement appears in
 
-* {#KolavSlovakMichor93} Ivan Kolav, [[Jan Slovák]], [[Peter Michor]], _Natural operations in differential geometry_, Springer (1993)
+* {#KolavSlovakMichor93} Ivan Kolav, [[Jan Slovák]], [[Peter Michor]], _Natural operations in differential geometry_, Springer (1993) ([web](http://www.emis.de/monographs/KSM/))
 
 Discussion that takes the dual algebraic formulation as the very definition of [[smooth functions]] is in
 
