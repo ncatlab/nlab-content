@@ -109,9 +109,9 @@ The original computations of stringy black hole entropy using this argument are 
 
 * Curtis Callan, [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_ ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
 
-and a particularly clear account is in 
-
 * [[Juan Maldacena]], [[Gregory Moore]], [[Andrew Strominger]], _Counting BPS Blackholes in Toroidal Type II String Theory_ ([arXiv:hep-th/9903163](http://arxiv.org/abs/hep-th/9903163))
+
+* [[Davide Gaiotto]], [[Andrew Strominger]], X. Yin, _New Connections Between 4D and 5D Black Holes_, JHEP 0602:024,2006 ([arXiv:hep-th/0503217](http://arxiv.org/abs/hep-th/0503217))
 
 See also
 
