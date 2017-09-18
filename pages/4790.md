@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
 =--
 =--
 
@@ -50,7 +54,11 @@ The unique connected [[double cover]] obtained from this is the [[metaplectic gr
 
 ## Related concepts
 
+* [[affine symplectic group]]
+
 * [[metaplectic group]]
+
+* [[extended affine symplectic group]]
 
 * A higher analog of the symplectic group in [[2-plectic geometry]] is the [[exceptional Lie group]] [[G2]] (see there for more details).
 
