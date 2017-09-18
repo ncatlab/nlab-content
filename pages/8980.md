@@ -60,3 +60,5 @@ By the discussion at _[idempotent monad -- Properties -- Eilenberg-Moore categor
 
 [[!redirects modal types]]
 
+[[!redirects modal object]]
+[[!redirects modal objects]]
