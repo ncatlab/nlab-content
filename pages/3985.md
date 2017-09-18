@@ -990,6 +990,8 @@ This is discussed at [[rational homotopy theory in an (∞,1)-topos]].
 
 * [[idempotent (∞,1)-monad]]
 
+* [[reflective subuniverse]]
+
 ## References
 
 The general theory is discussed in section 5.2.7 of
