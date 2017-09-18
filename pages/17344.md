@@ -3794,8 +3794,7 @@ for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable wea
 
 ##### Triangulated structure
 
-
-
+**Literature** ([Schwede 12, II.2](#Schwede12))
 
 
 +-- {: .num_defn #CategoryWithCofiberSequences}
@@ -3805,7 +3804,7 @@ A **[[triangulated category]]** is
 
 1. an [[additive category]] $Ho$ (def. \ref{AdditiveCategory});
 
-1. a functor, called the  **suspension functor** or **[[shift functor]]**
+1. a functor, called the **suspension functor** or **[[shift functor]]**
 
    $$
      \Sigma \;\colon\; Ho \overset{\simeq}{\longrightarrow} Ho
@@ -3816,7 +3815,7 @@ A **[[triangulated category]]** is
 1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element is of the form
 
    $$
-     A \overset{}{\longrightarrow} B \overset{}{\longrightarrow} B/A \overset{}{\longrightarrow} \Sigma A
+     A \overset{}{\longrightarrow} B \overset{}{\longrightarrow}  \overset{}{\longrightarrow} \Sigma A
      \,,
    $$
 
@@ -3852,7 +3851,13 @@ such that the following conditions hold:
   $$
 
   then $(f',g',h')$ is also a distinguished triangle;
+  
+  Moreover, for every morphism $f \colon A \to B$ there is a distinguished triangle of the form
 
+  $$
+    A \overset{f}{\longrightarrow} B \longrightarrow B/A \longrightarrow \Sigma A
+    \,.
+  $$
 
 * **T1** For every object $X \in Ho$ then $(0,id_X,0)$ is a distinguished triangle
 
@@ -3863,7 +3868,7 @@ such that the following conditions hold:
   $$
 
 
-* **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$ and conversely; hence if
+* **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$; hence if
 
   $$
     A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
@@ -3873,9 +3878,8 @@ such that the following conditions hold:
 
   $$
     B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A \overset{-\Sigma f}{\longrightarrow} \Sigma B
+    \,.
   $$
-
-  and conversely.
 
 * **T3** Given a [[commuting diagram]] in $Ho$ of the form
 
@@ -3909,13 +3913,93 @@ such that the following conditions hold:
     }
   $$
 
-* **T4** 
+* **T4** For every pair of composable morphisms $f \colon A \to B$ and $f' \colon B \to D$ then there is a [[commutative diagram]] of the form
+  
+  $$
+    \array{
+      A 
+        &\overset{f}{\longrightarrow}& 
+      B 
+        &\overset{g}{\longrightarrow}& 
+      C 
+        &\overset{h}{\longrightarrow}&
+      \Sigma A
+      \\
+      {}^{\mathllap{=}}\downarrow && {}^{\mathllap{f'}}\downarrow && \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
+      \\
+      A 
+        &\underset{f' \circ f}{\longrightarrow}&
+      B
+        &\underset{g''}{\longrightarrow}&
+      E
+        &\underset{h''}{\longrightarrow}&
+      \Sigma A
+      \\
+      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} && \downarrow^{\mathrlap{\Sigma f}}
+      \\
+      && 
+      F 
+       &\underset{=}{\longrightarrow}& 
+      F
+        &\underset{h'}{\longrightarrow}& 
+      \Sigma B
+      \\
+      && {}^{\mathllap{h'}}\downarrow && \downarrow^{\mathrlap{(\Sigma g)\circ h'}}
+      \\
+      && \Sigma B &\underset{\Sigma g}{\longrightarrow}& \Sigma C
+    }
+  $$
+
+  such that the two top horizontal sequences and the two middle vertical sequences each are distinguished triangles.
 
 =--
 
 
+
++-- {: .num_prop}
+###### Proposition
+
+The [[stable homotopy category]] $Ho(Spectra)$ from def. \ref{TheStableHomotopyCategory}, equipped with the canonical suspension functor $\Sigma \colon Ho(Spectra) \overset{\simeq}{\longrightarrow} Ho(Spectra)$ (according to [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is a [[triangulated category]] (def. \ref{CategoryWithCofiberSequences}) for the distinguished triangles being precisely the images (under localization $SeqSpec(Top_{cg})_{stable} \to Ho(Spectra)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the stable model category of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory})
+of the canonical long [[homotopy cofiber sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) 
+
+$$
+  A \overset{f}{\longrightarrow} B 
+  \overset{}{\longrightarrow} hocofib(f)
+  \longrightarrow
+  \Sigma A
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{TheStableHomotopyCategoryIsAdditive} the stable homotopy category is additive, by theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} the functor $\Sigma$ is an equivalence.
+
+The axioms T0 and T1 are immediate from the definition of homotopy cofiber sequences. 
+
+The axiom T2 is the very characterization of long homotopy cofiber sequences (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)).
+
+Regarding axiom T3:
+
+By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)). This way the morphism $B/A \to B'/A'$ is induced by the  [[universal property]] of ordinary cofibers.  To see that we may also complete the last vertical morphism, observe that generally these [[connecting homomorphisms]] may be represented functorially: 
+
+By the existence of [[CW-approximations]] (prop. \ref{CWApproximationForSequentialSpectra}) we may assume without restriction of generality that all spectra involved are [[CW-spectra]]. For these the standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is a good [[cylinder object]] (by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}), which hence provides a functorial construction $X \maspto X \wedge (I_+)$ of cylinder objects for CW-spectra. Then constructing the connecting homomorphism uniformly by first constructing cofibration replacements via the [[factorization lemma]] ([prop](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)), with respect to these cylinder objects, and then forming cofibers, is functorial, because all three ingredients are (cylinders, replacement, cofibers). 
+
+With this again the universal property of the ordinary cofiber gives the fourth vertical morphism needed for T3.
+
+Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra and represent $f$ and $f'$ by cofibrations. Then the diagram in question exists and commutes by functoriality of the connecting homomorphisms and by the universal properties of cofibers as above.
+
+=--
+
+
+
+
 ##### Long fiber-cofiber sequences
 
+**Literature** ([Schwede 12, II.2](#Schwede12))
 
 +-- {: .num_lemma #CompositesInADistinguishedTriangleAreZero}
 ###### Lemma
@@ -3998,7 +4082,7 @@ Now the commutativity of the middle square proves the claim.
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #FiberCofiberSequencesInATriangulatedCategory}
 ###### Proposition
 
 Let $(Ho,\Sigma, CofSeq)$ be a [[triangulated category]], def. \ref{CategoryWithCofiberSequences}, with [[hom-functor]] denoted by $[-,-]_\ast \colon Ho^{op}\times Ho \to Ab$. For $X\in Ho$ any object, and for $D\in CofSeq$ any distinguished triangle
@@ -4170,6 +4254,108 @@ $$
 This exhibits the claim to be shown.
 
 =--
+
++-- {: .num_lemma #TwoOutOfThreeForMorphismsOfDistinguishedTriangles}
+###### Lemma
+
+Consider a morphism of distinguished triangles in a triangulated category (def. \ref{CategoryWithCofiberSequences}):
+
+$$
+  \array{    
+   A &\overset{}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+   \\
+   \downarrow^{\mathrlap{a}} 
+   && \downarrow^{\mathrlap{b}} 
+   && \downarrow^{\mathrlap{c}}
+   && \downarrow^{\mathrlap{\Sigma a}}
+   \\
+   A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'          
+   }
+ \,.
+$$
+
+If two out of $\{a,b,c\}$ are isomorphisms, then so is the third.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the image of the situation under the hom-functor $[X,-]_\ast$ out of any object $X$:
+
+$$
+  \array{    
+   [X,A]_\ast &\overset{}{\longrightarrow}& [X,B]_\ast &\overset{g}{\longrightarrow}& [X,B/A]_\ast &\overset{h}{\longrightarrow}& [X,\Sigma A]_\ast &\longrightarrow& [X,\Sigma B]_\ast
+   \\
+   \downarrow^{\mathrlap{a_\ast}} 
+   && \downarrow^{\mathrlap{b_\ast}} 
+   && \downarrow^{\mathrlap{c_\ast}}
+   && \downarrow^{\mathrlap{(\Sigma a)_\ast }}
+   && \downarrow^{\mathrlap{(\Sigma b)_\ast }}
+   \\
+   [X,A']_\ast &\overset{}{\longrightarrow}& [X,B']_\ast &\overset{}{\longrightarrow}& [X,B'/A']_\ast &\overset{}{\longrightarrow}& [X,\Sigma A']_\ast &\longrightarrow& [X,\Sigma B']_\ast           
+   }
+ \,,
+$$
+
+where we extended one step to the right using axiom T2 (def. \ref{CategoryWithCofiberSequences}).
+
+By prop. \ref{FiberCofiberSequencesInATriangulatedCategory} here the top and bottom are [[exact sequences]].
+
+So assume the case that $a$ and $b$ are isomorphisms, hence that $a_\ast$, $b_\ast$, $(\Sigma a)_\ast$ and $(\Sigma b)_\ast$ are isomorphisms. Then by exactness of the horizontal sequences the [[five lemma]] implies that $c_\ast$ is an isomorphism. Since this holds [[natural transformation|naturally]] for all $X$, the [[Yoneda lemma]] then implies that $c$ is an isomorphism.
+
+If instead $b$ and $c$ are isomorphisms, apply this same argument to the triple $(b,c,\Sigma a)$ to conclude that $\Sigma a$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], this implies then that $a$ is an isomorphism.
+
+Analogously for the third case.
+
+=--
+
++-- {: .num_lemma #TwoOutOfThreeForMorphismsOfDistinguishedTriangles}
+###### Lemma
+
+If $(g,h,-\Sigma f)$ is a distinguished triangle in a triangulated category (def. \ref{CategoryWithCofiberSequences}), then so is $(f,g,h)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By T0 there is some distinguished triangle of the form $(f,g',h')$. By T2 this gives a distinguished triangle $(-\Sigma f, -\Sigma g', -\Sigma h')$. By T3 there is a morphism $c'$ giving a commuting diagram
+
+$$
+  \array{
+    \Sigma A 
+      &\overset{-\Sigma f}{\longrightarrow}&
+    \Sigma B
+      &\overset{-\Sigma g}{\longrightarrow}&
+    \Sigma C
+      &\overset{-\Sigma h}{\longrightarrow}&    
+    \Sigma^2 A
+    \\
+    {}^{\mathllap{=}}\downarrow
+    &&
+    {}^{\mathllap{=}}\downarrow
+    &&
+    {}^{\mathllap{c'}}\downarrow
+    &&
+    {}^{\mathllap{=}}\downarrow
+    \\
+    \Sigma A 
+      &\overset{-\Sigma f}{\longrightarrow}&
+    \Sigma B
+      &\overset{-\Sigma g'}{\longrightarrow}&
+    \Sigma C
+      &\overset{-\Sigma h'}{\longrightarrow}&    
+    \Sigma^2 A
+  }
+  \,.
+$$
+
+Now lemma \ref{TwoOutOfThreeForMorphismsOfDistinguishedTriangles} gives that $c'$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], there is an isomorphism $c$ such that $c' = \Sigma c$. This $c$ exhibits an isomorphism between $(f,g,h)$ and $(f,g',h')$. Since the latter is distinguished, so is the former, by T0.
+
+=--
+
+In conclusion, this says that in the stable homotopy category homotopy (co-)fiber sequences run indefinitely in both directions. In particular for $[\mathbb{S},-]_\ast$, the [[long exact sequences of homotopy groups]] do.
 
 
 
