@@ -12,12 +12,11 @@ __Edwin Spanier__ was an American mathematician at the University of California 
     }
 =--
 
+## Related $n$Lab entries
 
-Other work of importance by Spanier included
+* [[Spanier-Whitehead category]]
 
 * [[Spanier-Whitehead duality]] 
-
-and
 
 * [[Alexander-Spanier cohomology]].
 
