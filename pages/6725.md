@@ -85,11 +85,12 @@ Reviews are in
 
 * [[Paul Townsend]], _Four Lectures on M-Theory_ ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121)). 
 
+* [[Burt Ovrut]], _Lectures on Heterotic M-Theory_ ([arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032))
 
 Section 3 of
 
-* [[Adam Falkowski]], _Five dimensional locally supersymmetric theories with branes_, Master Thesis, Warsaw ([[FalkowskiLecture.pdf:file]])
-  {#Falkowski}
+* {#Falkowski} [[Adam Falkowski]], _Five dimensional locally supersymmetric theories with branes_, Master Thesis, Warsaw ([[FalkowskiLecture.pdf:file]])
+  
 
 [[!redirects Hořava-Witten theory]]
 [[!redirects Hořava–Witten theory]]
