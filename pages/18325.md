@@ -28,6 +28,16 @@ The concept of filler plays an important role in homotopy theory; see for exampl
 
 The term is used in the context of [[horns]] in simplicial sets and related structures. The term makes it possible to summarize the definition of a [[Kan complex]] in one sentence: a Kan complex is a simplicial set in which every horn has a filler. 
 
+Of course this is a special case of the preceding notion of filler: a horn filler for a horn $f: \Lambda_n^j \to X$ in a simplicial set $X$ is a diagonal fill-in of a commutative square 
+
+$$\array{
+\Lambda_n^j & \hookrightarrow & \Delta_n \\ 
+\mathllap{f} \downarrow & & \downarrow \\ 
+X & \to & 1
+}$$ 
+
+going from $\Delta_n$ to $X$. 
+
 
 ## Related concepts  
 
