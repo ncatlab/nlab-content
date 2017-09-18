@@ -130,7 +130,7 @@ The reader can now easily define a _sequentially $R_1$ space_.
 
 ### Hausdorff locales
 
-The most obvious definition for a [[locale]] $X$ to be **Hausdorff** is that its diagonal $X\to X\times X$ is a closed (and hence proper) inclusion.  However, if $X$ is a [[sober space]] regarded as a locale, this might not coincide with the condition for $X$ to be Hausdorff as a space, since the product $X\times X$ in the category of locales might not coincide with the product in the category of spaces.  But it does coincide if $X$ is a [[locally compact locale]], so in that case the two notions of Hausdorff are the same.
+The most obvious definition for a [[locale]] $X$ to be **Hausdorff** is that its [[diagonal]] $X\to X\times X$ is a closed (and hence proper) inclusion.  However, if $X$ is a [[sober space]] regarded as a locale, this might not coincide with the condition for $X$ to be Hausdorff as a space, since the product $X\times X$ in the category of locales might not coincide with the product in the category of spaces.  But it does coincide if $X$ is a [[locally compact locale]], so in that case the two notions of Hausdorff are the same.
 
 ### Separated toposes and schemes
 
