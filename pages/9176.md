@@ -17,4 +17,8 @@ The concept originates with [[Cayley]].
 
 * Giorgio Ottaviani, _Introduction to the hyperdeterminant and to the rank of multidimensional matrices_, [arxiv/1301.0472](http://arxiv.org/abs/1301.0472)
 
+MathOverflow discussion on a possible volume interpretation of hyperdeterminants: 
+
+* [Joseph O'Rourke](http://mathoverflow.net/users/6094/joseph-orourke), _Does the hyperdeterminant calculate a quantity akin to the volume of a parallelepiped?_, MathOverflow. [URL](http://mathoverflow.net/q/220331) (version: 2015-10-07). 
+
 [[!redirects hyperdeterminants]]
