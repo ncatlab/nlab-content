@@ -25,7 +25,7 @@ A _locally contractible topological ∞-groupoid_ is an [[∞-groupoid]] equippe
 
 The collection of all these cohesive $\infty$-groupoids forms a [[cohesive (∞,1)-topos]] $LCTop\infty Grpd$. 
 
-This is similarr to [[ETop∞Grpd]], which models cohesibion in the form of [[Euclidean topology]].
+This is similar to [[ETop∞Grpd]], which models cohesion in the form of [[Euclidean topology]].
 
 
 ## Definition
