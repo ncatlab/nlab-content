@@ -1094,7 +1094,7 @@ $$
   \array{
     S^{n-1} &\stackrel{\phi}{\longrightarrow}& X
     \\
-    {}^{\mathllap{\iota_n}}\downarrow && \downarrow
+    {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
     \\
     D^n &\longrightarrow& X \underset{S^{n-1}}{\sqcup} D^n & = X \cup_\phi D^n
   }
@@ -2689,6 +2689,45 @@ $$
 
 =--
 
++-- {: .num_lemma #RetractPreservesIsomorphism}
+###### Lemma
+
+In every [[category]] $C$ the class of [[isomorphisms]] is preserved under retracts in the sense of remark \ref{RetractsOfMorphisms}.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+For
+
+$$
+  \array{
+    id_A \colon & A &\longrightarrow& X &\longrightarrow& A
+    \\
+    & \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}}
+    \\
+    id_B \colon & B &\longrightarrow& Y &\longrightarrow& B
+  }
+  \,.
+$$
+
+a retract diagram and $X \overset{f}{\to} Y$ an isomorphism, the inverse to $A \overset{g}{\to} B$ is given by the composite
+
+$$
+  \array{
+    &  & & X & \longrightarrow & A
+    \\
+    & && \uparrow^{\mathrlap{f^{-1}}} && 
+    \\
+    & B & \longrightarrow& Y&&     
+  }
+  \,.
+$$
+
+
+=--
 
 
 +-- {: .num_lemma #RetractArgument}
@@ -4837,7 +4876,7 @@ $$
 
 It follows that $f$ has the [[left lifting property]] against $\hat Y \to Y$, and hence by the [[retract argument]] (lemma \ref{RetractArgument}) it is a retract of $X \overset{I Cell}{\to} \hat Y$. This proves the claim for $Cof_{cl}$.
 
-The argument for $W_{cl} \cap Cof_{cl}$ is directly analogous, using the [[small object argument]] now for $J_{Top}$.
+The analogous argument for $W_{cl} \cap Cof_{cl}$,  using the [[small object argument]] for $J_{Top}$, shows that every $f \in (J_{Top} Inj) Proj$ is a retract of a $J_{Top}$-cell complex. By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} and lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} a $J_{Top}$-cell complex is both an $I_{Top}$-cell complex and a weak homotopy equivalence. Retracts of the former are cofibrations by definition, and retracts of the latter are still weak homotopy equivalences by lemma \ref{RetractPreservesIsomorphism}. Hence such $f$ is an acyclic cofibration.
 
 =--
 
@@ -4863,7 +4902,7 @@ In particular
 
 1. every object in $Top_{Quillen}$ is fibrant;
 
-1. the cofibrant object in $Top_{Quillen}$ are the [[retracts]] of [[cell complexes]].
+1. the cofibrant objects in $Top_{Quillen}$ are the [[retracts]] of [[cell complexes]].
 
 Hence in particular the following classical statement is an immediate corollary:
 
