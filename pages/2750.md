@@ -1,6 +1,6 @@
 
 # Ordered pairs
-* tic
+* table of contents
 {: toc}
 
 ## Idea
@@ -9,7 +9,11 @@ Given any things $a$ and $b$, the __ordered pair__ of $a$ and $b$ is a thing, us
 \[ \label{basic} (a,b) = (c,d) \;\Leftrightarrow\; a = c,\; b = d .\]
 The things $a$ and $b$ are called the __components__ of the ordered pair $(a,b)$.  Given any two sets $X$ and $Y$, their [[Cartesian product]] is a set $X \times Y$ whose [[elements]] are precisely the ordered pairs whose components are respectively elements of $X$ and elements of $Y$.
 
-Note that nothing is __ordered__ in an ordered pair other than how it is written out, so sometimes just the word __pair__ is used for this concept. The concept of  "pair" meaning a set containing just one or two members as in the [[axiom of pairing]] of [[ZFC|Zermelo–Frankel Set Theory]] is now usually distinguished as an __[[unordered pair]]__. A pair in which the components are ordered is basically an arrow between the components, which is sometimes called or analyzed as an [[interval object|interval]] within a larger context.
+Note that nothing is __ordered__ in an ordered pair other than how it is written out, so sometimes just the word __pair__ is used for this concept. 
+
+In terms of [[category theory]] an ordered pair is an element in a [[Cartesian product]].
+
+The concept of  "pair" meaning a set containing just one or two members as in the [[axiom of pairing]] of [[ZFC|Zermelo–Frankel Set Theory]] is now usually distinguished as an __[[unordered pair]]__. A pair in which the components are ordered is basically an arrow between the components, which is sometimes called or analyzed as an [[interval object|interval]] within a larger context.
 
 
 ## Formalisations
@@ -20,8 +24,10 @@ One may wish to declare ordered pairs to exist by fiat, which was done, for exam
 I need to check that I remembered Bourbaki correctly; it varies with the edition.  ---Toby
 =--
 
-Instead, one may construct ordered pairs out of some more basic operation.  In a [[material set theory]], one may use Kuratowski\'s definition
+Instead, one may construct ordered pairs out of some more basic operation.  In a [[material set theory]], one may use _[[Kuratowski pairs]]_
+
 $$ (a,b) \coloneqq \big\{\,\{a\},\{a,b\}\,\big\} ;$$
+
 it is straightforward (using the [[axiom of extensionality]]) to prove that \eqref{basic} holds.  Sometimes one sees the alternative
 $$ (a,b) \coloneqq \big\{a, \{a,b\}\,\big\} ;$$
 but now the [[axiom of foundation]] is also needed to prove \eqref{basic}, so the first form is usually preferred.  To prove that the cartesian product of two sets is a set, one may use the axiom of separation ([[bounded separation]] is enough) to construct $X \times Y$ as a [[subset]] of the [[power set]] of the power set of the [[union]] of $X$ and $Y$, or else use the axiom of replacement ([[restricted replacement]] is enough) to construct it directly, since its elements are indexed by the sets $X$ and $Y$.
@@ -31,13 +37,15 @@ In a foundational [[type theory]], ordered pairs are usually also given by fiat,
 
 ## Generalisations
 
-... [[tuple]]s ...
+... [[tuples]] ...
 
 ... [[families]] ...
 
 ... [[pairings]] ...
 
 ... [[dependent sums]] ...
+
+
 
 
 [[!redirects ordered pair]]
