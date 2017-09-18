@@ -1,13 +1,18 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
