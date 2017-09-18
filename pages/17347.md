@@ -5632,6 +5632,7 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 =--
 
 ##### Complex orientation
+ {#ComplexOrientatioon}
 
 +-- {: .num_defn #ComplexOrientedCohomologyTheories}
 ###### Definition
@@ -5711,7 +5712,7 @@ $$
 Since, by prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace}, the [[ordinary cohomology]] with [[integer]] [[coefficients]] of complex projective space is 
 
 $$
-  H^\bullet(\mathbb{C}P^n, \mathbb{Z}) \simeq \mathbb{Z}[c_1]
+  H^\bullet(\mathbb{C}P^n, \mathbb{Z}) \simeq \mathbb{Z}[c_1]/((c_1)^{n+1})
   \,,
 $$
 
