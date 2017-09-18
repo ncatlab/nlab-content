@@ -11,7 +11,7 @@ These notes contain
 
 * [[Grothendieck's section conjecture]]
 
-* [[descent theory]].
+* [[descent theory]] (chapter SGA I.6)
 
 
 [[!redirects SGA I]]
