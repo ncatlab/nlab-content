@@ -276,7 +276,8 @@ A discussion of jet bundles with an eye towards discussion of the [[variational 
 
 The [[de Rham cohomology]] of jet bundles is discussed in
 
-* G.Giachetta, L.Mangiarotti, G.Sardanashvily, _Cohomology of the variational bicomplex on the infinite order jet space_ ([arXiv:math/0006074](http://arxiv.org/abs/math/0006074))
+* G.Giachetta, L.Mangiarotti, G.Sardanashvily, _Cohomology of the variational bicomplex on the infinite order jet space_, Journal of
+Mathematical Physics 42, 4272-4282 (2001) ([arXiv:math/0006074](http://arxiv.org/abs/math/0006074))
 
 Discussion of jet-restriction of the [[Haefliger groupoid]] is in 
 
