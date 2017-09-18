@@ -60,6 +60,8 @@ where
 
 ## Related concepts
 
+* [[charged black hole]]
+
 * [[Einstein-Hilbert action]]
 
 * [[Einstein-Maxwell theory]]
