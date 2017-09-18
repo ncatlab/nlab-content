@@ -27,9 +27,8 @@ The idea is to consider for any [[proposition]] $p$
 
 For every [[modality]] one typically demands that it preserves implication, in that
 
-* $\Box(p \to q) \to (\Box p \to \Box q)$
+ $\Box(p \to q) \to (\Box p \to \Box q)$
 
-* $\lozenge (p \to q) \to (\lozenge p \to \lozenge q)$.
 
 This preservation of implication is called the [[K modal logic|K-axiom]].  In traditional non-[[categorical logic]] this is often all that is considered, because in traditional classical modal logic, the operators are considered dual, i.e. $\Box A= \neg (\lozenge (\neg A))$.
 
