@@ -25,7 +25,7 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 * _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](http://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), to appear (accepted April 2015) [arXiv:1411.5779](http://arxiv.org/abs/1411.5779)
 
 * _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) (2015) doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). 
+  fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) (2015) doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) (yet to appear) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). 
 
 * _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) (2015) doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). 
 
