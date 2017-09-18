@@ -156,6 +156,7 @@ for $(E^A)= (E^a, E^\alpha) = (E^a, \Psi^\alpha)$ the [[super-vielbein]].  See a
 
 =--
 
+References that write definite 3-forms in this form locally as $\phi_{a b c}E^a \wedge E^b \wedge E^c$ include ([BGGG 01 (2.9)](#BGGG01), ...).
 
 The following is important for the analysis:
 
@@ -233,7 +234,7 @@ where $\flat_{dR}\mathbf{B}^3\mathbb{R}$ is the [[moduli infinity-stack|higher m
 
 =--
 
-Since the GL-transformations in questions define a [[vielbein]] field $E$, one may also ask for $\sigma$ to be locally of the form $\phi_{a_1 a_2 a_3}E^{a_1}\wedge E^{a_2}\wedge E^{a_3}$ (...) (e.g. [BGGG 01 (2.9)](#BGGG01))
+
 
 
 ### $G_2$-holonomy / $G_2$-manifold
