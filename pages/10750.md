@@ -6014,24 +6014,12 @@ In particular if the [[tensor unit]] $1$ happens to be cofibrant, then the unit 
 
 
 
-+-- {: .num_defn #MonoidAxiom}
-###### Definition
-
-We say a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) satisfies the **[[monoid axiom]]**,  if every morphism that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a weak equivalence.
-
-=--
-
-([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley00)).
-
-
 +-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
 ###### Proposition
 
 Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) with cofibrant [[tensor unit]] $1$. 
 
-Then the [[left derived functor]] $\otimes^L$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors)) of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ (def. \ref{MonoidalCategory}).
-
-If in in addition $(\mathcal{C}, \otimes,1 )$ satisfies the [[monoid axiom in a monoidal model category|monoid axiom]] (def. \ref{MonoidAxiom}), then the [[localization]] functor $\gamma\colon \mathcal{C}\to Ho(\mathcal{C})$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) carries the structure of a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor})
+Then the [[left derived functor]] $\otimes^L$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors)) of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ (def. \ref{MonoidalCategory}) such that the [[localization]] functor $\gamma\colon \mathcal{C}_c\to Ho(\mathcal{C})$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) on the [[category of cofibrant objects]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FullSubcategoriesOfFibrantCofibrantObjects)) carries the structure of a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor})
 
 $$
   \gamma
@@ -6044,7 +6032,7 @@ $$
 
 =--
 
-The first statement is also in ([Hovey 99, theorem 4.3.2](#Hovey99)). The second is also in ([Schwede 12, theorem 3.1](#Schwede12)).
+The first statement is also for instance in ([Hovey 99, theorem 4.3.2](#Hovey99)). 
 
 +-- {: .proof}
 ###### Proof
@@ -6067,7 +6055,7 @@ $$
   \mathcal{C}_c \times \mathcal{C}_c
 $$
 
-of cofibrant objects preserves acyclic cofibrations ([[Ken Brown's lemma]], [here](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)).
+of cofibrant objects preserves acyclic cofibrations (by [[Ken Brown's lemma]], [here](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)).
 
 Every morphism $(f,g)$ in the [[product category]] $\mathcal{C}_{c}\times \mathcal{C}_{c}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) may be written as a composite of a pairing with an identity morphisms
 
@@ -6113,7 +6101,61 @@ $$
   \,.
 $$
 
-With this, the [[universal property]] as a [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) induces [[associators]]: Let 
+With this, the [[universal property]] as a [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) induces [[associators]] $\alpha^L$ and [[unitors]] $\ell^L$, $r^L$ on $(Ho(\mathcal{C}, \otimes^L ))$: 
+
+First consider the associators.
+
+The essential uniqueness of derived functors shows that the left derived functor of $(-)\otimes ( (-) \otimes (-) )$ and of $( (-) \otimes (-) )\otimes (-) $ is the composite of two applications of $\otimes^L$, due to the factorization
+
+$$
+  \array{
+    \mathcal{C}_c
+      \times
+    \mathcal{C}_c
+      \times
+    \mathcal{C}_c
+     &\overset{(-) \otimes ( (-) \otimes (-) )}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma \times \gamma \times \gamma}}\downarrow 
+      &\swArrow&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
+     &\underset{\mathbb{L}((-) \otimes ( (-) \otimes (-) ))}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \;\;\;\;\;\;\;
+    \simeq
+  \;\;\;\;\;\;\;
+  \array{
+    \mathcal{C}_c
+      \times
+    \mathcal{C}_c
+      \times
+    \mathcal{C}_c
+     &\overset{id \times \otimes}{\longrightarrow}&
+    \mathcal{C}_c \times \mathcal{C}_c
+      &\overset{\otimes}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma \times \gamma \times \gamma}}\downarrow
+       &\swArrow_{id \times \mu^{-1}}&
+    {}^{\mathllap{\gamma \times \gamma}}\downarrow
+      &\swArrow_{\mu^{-1}}&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
+     &\underset{id \times \otimes^L}{\longrightarrow}&
+    Ho(\mathcal{C}) \times Ho(\mathcal{C}) 
+     &\underset{\otimes^L}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+$$
+
+and similarly for the case with the parenthesis to the left.
+
+So let
 
 $$
   \array{
@@ -6121,9 +6163,13 @@ $$
       &\overset{((-)\otimes(-))\otimes (-)}{\longrightarrow}&
     \mathcal{C}
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow_{\eta}&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    {}^{
+      \mathllap{
+         \gamma \times \gamma \times \gamma
+     }
+    }\downarrow
+      &\swArrow_{\mu^{-1}\cdot (\mu^{-1} \times id)}&
+    \downarrow^{\mathrlap{\gamma}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
       &\overset{((-)\otimes^L(-))\otimes^L (-)}{\longrightarrow}&
@@ -6135,9 +6181,12 @@ $$
       &\overset{ (-) \otimes ( (-) \otimes (-) ) }{\longrightarrow}&
     \mathcal{C}
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow_{\eta'}&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    {}^{\mathllap{
+      \gamma \times \gamma \times \gamma
+    }
+    }\downarrow
+      &\swArrow_{\mu^{-1}\cdot (id \times \mu^{-1})}&
+    \downarrow^{\mathrlap{\gamma  }}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
       &\overset{ (-) \otimes^L ( (-) \otimes^L (-) )  }{\longrightarrow}&
@@ -6145,7 +6194,7 @@ $$
   }
 $$
 
-be the [[natural isomorphism]] exhibiting the [[derived functors]] of the two possible tensor products of two objects, as shown at the top. By pasting the second with the [[associator]] natural isomorphism of $\mathcal{C}$ we obtain another such factorization for the first, as shown on the left below,
+be the [[natural isomorphism]] exhibiting the [[derived functors]] of the two possible tensor products of three objects, as shown at the top. By pasting the second with the [[associator]] natural isomorphism of $\mathcal{C}$ we obtain another such factorization for the first, as shown on the left below,
 
 $$
   (\star)
@@ -6163,25 +6212,29 @@ $$
       &\overset{ (-) \otimes ( (-) \otimes (-) ) }{\longrightarrow}&
     \mathcal{C}
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow_\eta&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    {}^{\mathllap{
+      \gamma \times \gamma \times \gamma
+    }}\downarrow
+      &\swArrow_{\mu^{-1} \cdot ( id \times \mu^{-1} )}&
+    \downarrow^{\mathrlap{ \gamma }}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
       &\overset{ (-) \otimes^L ( (-) \otimes^L (-) )  }{\longrightarrow}&
     Ho(\mathcal{C})
   }
   \;\;\;\;\;\;
-  \simeq
+  =
   \;\;\;\;\;\;
   \array{
     \mathcal{C}_c \times \mathcal{C}_c \times \mathcal{C}_c
       &\overset{((-)\otimes(-))\otimes (-)}{\longrightarrow}&
     \mathcal{C}
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow_{\eta'}&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    {}^{\mathllap{
+       \gamma \times \gamma \times \gamma
+     }}\downarrow
+      &\swArrow_{\mu^{-1}\cdot (id \times \mu)}&
+    \downarrow^{\mathrlap{\gamma }}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
       &\overset{((-)\otimes^L(-))\otimes^L (-)}{\longrightarrow}&
@@ -6199,227 +6252,146 @@ $$
 
 and hence by the universal property of the factorization through the derived functor, there exists a unique natural isomorphism $\alpha^L$ such as to make this composite of natural isomorphisms equal to the one shown on the right. Hence the [[pentagon identity]] satisfied by $\alpha$ implies a pentagon identity for $\alpha^L$, and so $\alpha^L$ is an [[associator]] for $\otimes^L$.
 
-Now observe that the [[left derived functor]] of $1 \otimes (-)$ and of $(-) \otimes 1$ are naturally isomorphic to $\gamma(1) \otimes^L (-)$ and $(-) \otimes^L \gamma(1)$, respectively, due to the commuting diagrams
-
-$$
-  \array{
-    \{1\} &\overset{id}{\longrightarrow}& \{1\}
-    \\
-    \downarrow &\swArrow_{\ell_1^{-1}}& \downarrow
-    \\
-    \mathcal{C}_c &\overset{1\otimes (-)}{\longrightarrow}& \mathcal{C}
-    \\
-    {}^{(1,(-))}\downarrow
-      &&
-    \downarrow^{\mathrlap{id}}
-    \\
-    \mathcal{C}_c \times \mathcal{C}_c
-      &\overset{\otimes}{\longrightarrow}&
-    \mathcal{C}
-    \\
-    {}^{\mathllap{\gamma}}\downarrow 
-      &\swArrow&
-    \downarrow^{\mathrlap{\gamma}}
-    \\
-    Ho(\mathcal{C})
-      &\underset{\mathbb{L}(1\otimes (-))}{\longrightarrow}&
-    Ho(\mathcal{C})
-  }
-  \;\;\;\;\;\;\;\;
-   \simeq
-  \;\;\;\;\;\;\;\;
-  \array{
-    \{1\} &\overset{id}{\longrightarrow}& \{1\}
-    \\
-    \downarrow &\swArrow_{r_1^{-1}}& \downarrow
-    \\
-    \mathcal{C}_c &\overset{(-)\otimes 1}{\longrightarrow}& \mathcal{C}
-    \\
-    {}^{((-),1)}\downarrow
-      &&
-    \downarrow^{\mathrlap{id}}
-    \\
-    \mathcal{C}_c \times \mathcal{C}_c
-      &\overset{\otimes}{\longrightarrow}&
-    \mathcal{C}
-    \\
-    {}^{\mathllap{\gamma}}\downarrow 
-      &\swArrow&
-    \downarrow^{\mathrlap{\gamma}}
-    \\
-    Ho(\mathcal{C})
-      &\underset{\mathbb{L}((-) \otimes 1)}{\longrightarrow}&
-    Ho(\mathcal{C})
-  }
-  \,.
-$$
-
-Hence with $\gamma(1)$ taken as the [[tensor unit]] for $\otimes^L$, then the left and right [[unitors]] $\ell$ and $r$ for $\otimes$ induce left and right unitors $\ell^L$ and $r^L$ for $\otimes^L$, by the same kind of reasoning as for the associators above. 
-
-
-
-To exhibit lax monoidal structure on $\gamma$, we need to construct a [[natural transformation]]
-
-$$
-  \gamma(X) \otimes^L \gamma(Y) \longrightarrow \gamma(X \otimes Y)
-$$
-
-and show that it satisfies the the appropriate [[associativity]] and [[unitality]] condition.
-
-By the definitions at _[[homotopy category of a model category]]_ ([def.](Introduction+to+Stable+homotopy+theory+--+P#FibrantCofibrantReplacementFunctorToHomotopyCategory)), the morphism in question is to be of the form
-
-$$
-  (P Q X) \otimes (P Q Y) \longrightarrow P Q (X\otimes Y)
-$$
-
-for $P$ a chosen fibrant replacement functor and $Q$ a chosen cofibrant replacement functor.
-
-To this end, consider the [[zig-zag]]
-
-$$
-  (P Q X) \otimes (P Q Y)
-   \underoverset{\in Cof \cap W}{j_{Q X} \otimes P Q Y}{\longleftarrow}
-  (Q X) \otimes (P Q Y)
-    \underoverset{\in Cof \cap W}{(Q X) \otimes  j_{Q Y} }{\longleftarrow}
-  (Q X) \otimes (Q Y)
-    \overset{p_X \otimes (Q Y)}{\longrightarrow}
-  X \otimes (Q Y)
-    \overset{Y \otimes p_Y}{\longrightarrow}   
-  X \otimes Y
-  \,,
-$$
-
-and observe that the two morphisms on the left are weak equivalences, as indicated, by the [[pushout-product axiom]] satisfied by $\otimes$.
-
-Hence applying $\gamma$ to this zig-zag, which is given by the top horizontal part of the following digram
-
-$$
-  \array{
-    (P Q X) \otimes (P Q Y) 
-      &\longleftarrow& 
-    P( Q X \otimes Q Y ) 
-      &\longrightarrow& 
-    P Q (X \otimes Y)
-    \\
-    \uparrow^{\mathrlap{id}} 
-      && 
-    \uparrow^{\mathrlap{j_{Q X \otimes Q Y}}} 
-      && 
-    \uparrow^{\mathrlap{j_{Q(X \otimes Y)}}}
-    \\
-    \downarrow^{\mathrlap{id}} 
-      && 
-    \downarrow^{\mathrlap{id}} 
-      && 
-    \downarrow^{\mathrlap{p_{X\otimes Y}}}
-    \\
-    (P Q X) \otimes (P Q Y)
-      &\underoverset{\in Cof \cap W}{j_{Q X} \otimes j_{Q Y}}{\longleftarrow}&
-    (Q X) \otimes (Q Y)
-      &\overset{p_X \otimes p_Y}{\longrightarrow}&
-    X \otimes Y
-  }
-  \,,
-$$
-
-and inverting the left horizontal morphism , this yields a natural transformation as required. 
-
-
-To see that this satisfies associativity if the monoid axiom holds, tensor the entire diagram above on the right with $(P Q Z)$ and consider the following [[pasting]] composite:
-
-$$
-  \array{
-    ((P Q X) \otimes (P Q Y)) \otimes (P Q Z) 
-      &\longleftarrow& 
-    P( Q X \otimes Q Y ) \otimes (P Q Z) 
-      &\longrightarrow& 
-    (P Q (X \otimes Y)) \otimes (P Q Z)
-    \\
-    \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{j_{Q X \otimes Q Y} \otimes id }} && \uparrow^{\mathrlap{j_{Q(X \otimes Y)}\otimes id }}
-    \\
-    && && Q(X \otimes Y) \otimes (P Q Z) &\overset{id \otimes j_{Q Z}}{\longleftarrow}& Q(X\otimes Y) \otimes (Q Z)
-    \\
-       \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{id}} 
-    && 
-      \downarrow^{\mathrlap{p_{(X\otimes Y)} \otimes id }} 
-    &(\star)& 
-     \downarrow^{\mathrlap{p_{(X \otimes Y)} \otimes id}}
-    \\
-    ((P Q X) \otimes (P Q Y)) \otimes (P Q Z)
-      &\underoverset{\in Cof \cap W}{(j_{Q X} \otimes j_{Q Y}) \otimes id}{\longleftarrow}&
-    ((Q X) \otimes (Q Y)) \otimes (P Q Z)
-      &\overset{(p_X \otimes p_Y) \otimes id}{\longrightarrow}&
-    (X \otimes Y) \otimes (P Q Z)
-      &\underset{id \otimes j_{Q Z}}{\longleftarrow}&
-    (X\otimes Y) \otimes Q Z 
-      &\overset{id \otimes p_Z}{\longrightarrow}& 
-    (X \otimes Y) \otimes Z  
-  }
-  \,,
-$$
-
-Now by the definition of the lax monoidal structure above, under $\gamma$ the total top+stair-case [[zig-zag]] in this diagram gives
-
-$$
-  (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
-    \longrightarrow
-  \gamma(X\otimes Y)\otimes^L \gamma(Z)
-    \longrightarrow
-  \gamma((X\otimes Y)\otimes Z)
-  \,.
-$$
-
-Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (def. \ref{MonoidAxiom}, but not in general by the [[pushout-product axiom]]!), the horizontal maps in the square in the bottom right (labeled $\star$), as well as the vertical morphism on the top right are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place (meaning that all morphisms going to the left are weak equivalences), and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
-
-$$
-  \gamma((p_X \otimes p_Y) \otimes p_Z) 
-  \circ 
-  \gamma((j_{Q X} \otimes j_{Q Y}) \otimes j_{Q Z})^{-1}
-  \,.
-$$
-
-Running the same argument but with the parenthesis ordered to the left gives the morphism
-
-$$
-  \gamma(p_X \otimes (p_Y \otimes p_Z)) 
-  \circ 
-  \gamma( j_{Q X} \otimes (j_{Q Y} \otimes j_{Q Z}))^{-1}
-  \,.
-$$
-
-The associativity condition on a [[lax monoidal functor]] demands that together with the [[associator]] $\alpha$ of $\mathcal{C}$ and the derived associator $\alpha^L$ from above, these morphisms form a [[commuting square]] of the form
+Moreover, this equation of natural isomorphisms says that on components the following [[commuting diagram|diagram commutes]]
 
 $$
   \array{
     (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
-    &\overset{\alpha^L_{\gamma(X), \gamma(Y), \gamma(Z)}}{\longrightarrow}&
-    ( \gamma(X) \otimes^L ( \gamma(Y) \otimes^L \gamma(Z) )  )
+     &\overset{\alpha^L_{\gamma(X), \gamma(Y), \gamma(Z)}}{\longrightarrow}&
+    \gamma(X) \otimes^L (\gamma(Y) \otimes^L \gamma(Z))
     \\
-    {}^{\mathllap{
-      \gamma((p_X \otimes p_Y) \otimes p_Z) 
-      \circ 
-      \gamma((j_{Q X} \otimes j_{Q Y}) \otimes j_{Q Z})^{-1}
-    }}
-    \downarrow
+    {}^{\mathllap{\mu^{-1}\cdot (\mu^{-1} \times id)}}\uparrow
       &&
-    \downarrow^{\mathrlap{
-      \gamma(p_X \otimes (p_Y \otimes p_Z)) 
-      \circ 
-      \gamma( j_{Q X} \otimes (j_{Q Y} \otimes j_{Q Z}))^{-1}
-    }}
+    \uparrow^{\mu^{-1} \cdot (id\times \mu^{-1})}
     \\
-    \gamma( (X\otimes Y) \otimes Z )
-      &\underset{\gamma( \alpha_{X,Y,Z} )}{\longrightarrow}&
-    \gamma( X \otimes (Y \otimes Z) )
+    \gamma( (X \otimes Y) \otimes Z )
+     &\underset{\gamma(\alpha)}{\longrightarrow}&
+   \gamma(X \otimes (Y \otimes Z))
   }
   \,.
 $$
 
-By the proof ([here](Introduction+to+Stable+homotopy+theory+--+P#ProofOfUniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the universal property of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) the vertical morphisms here are precisely the components of the natural isomorphisms $\eta$ and $\eta'$ above. With this, the above square is a component of the equality of pastings of natural isomorphisms in equation $(\star)$ above.
+This is just the [[coherence law]] for the the compatibility of the [[monoidal functor]] $\mu$ with the associators.
+
+Similarly consider now the [[unitors]]. 
+
+The essential uniqueness of the derived functors gives that the left derived functor of $1\otimes (-)$ is $\gamma(1)\otimes^L (-)$
+
+$$
+  \array{
+    \mathcal{C}_c 
+      &\overset{1 \otimes (-)}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C})
+      &\underset{\mathbb{L}(1 \otimes (-))}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \;\;\;\;\;\simeq
+  \;\;\;\;\;
+  \array{
+    \mathcal{C}_c
+      &\overset{(1,id)}{\longrightarrow}&
+    \mathcal{C}_c \times \mathcal{C}_c
+     &\overset{\otimes}{\longrightarrow}&
+   \mathcal{C}
+   \\
+   {}^{\mathllap{\gamma}}\downarrow
+     &&
+   {}^{\mathllap{\gamma \times \gamma}}\downarrow
+     &\swArrow_{\mu^{-1}}&
+   \downarrow^{\mathrlap{\gamma}}
+   \\
+   Ho(\mathcal{C})
+     &\underset{(\gamma(1),id)}{\longrightarrow}&
+   Ho(\mathcal{C}) \times Ho(\mathcal{C})
+     &\underset{\otimes^L}{\longrightarrow}&
+   Ho(\mathcal{C})
+  }
+  \,.
+$$
+
+Hence the left unitor $\ell$ of $\mathcal{C}$ induces a derived unitor $\ell^L$ by the following factorization
+
+$$
+  \array{
+    \mathcal{C}_c
+       &\overset{1 \otimes (-)}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma}}\downarrow
+      &\swArrow_{\ell}&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    \mathcal{C}_c
+      &\overset{id}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C})
+      &\underset{id}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \;\;\;\;\;\;\;
+  =
+  \;\;\;\;\;\;\;
+  \array{
+    \mathcal{C}_c
+      &\overset{1 \otimes (-)}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma}}\downarrow
+      &\swArrow_{\mu^{-1}_{1,(-)}}&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C})
+      &\overset{\gamma(1) \otimes^L (-)}{\longrightarrow}&
+    Ho(\mathcal{C})
+    \\
+    {}^{\mathllap{=}}\downarrow 
+      &\swArrow_{\ell^L}&
+    \downarrow^{\mathrlap{=}}
+    \\
+    Ho(\mathcal{C})
+     &\underset{id}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \,.
+$$
+
+Moreover, in components this equation of natural isomorphism expresses the coherence law stating the compatibility of the monoidal functor $\mu$ with the unitors.
+
+Similarly for the right unitors.
 
 
 =--
 
+The restriction to cofibrant objects in prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory} serves the purpose of giving explicit expressions for the associators and unitors of the derived tensor product $\otimes^L$ and hence to establish the monoidal category structure $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ on the [[homotopy category of a monoidal model category|homotopy category]] of a [[monoidal model category]]. With that in hand, it is natural to ask how the localization functor on all of $\mathcal{C}$ interacts with the monoidal structure:
+
++-- {: .num_prop }
+###### Proposition
+
+For $(\mathcal{C}, \otimes, 1)$ a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) then the [[localization]] functor to its monoidal [[homotopy category of a model category|homotopy category]] (prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}) is a [[lax monoidal functor]]
+
+$$
+  \gamma
+   \;\colon\;
+  (\mathcal{C}, \otimes, 1)
+    \longrightarrow
+  (Ho(\mathcal{C}), \otimes^L, \gamma(1))
+  \,.
+$$
+ 
+=--
+
+With that general monoidal homotopy theory established, we now discuss that structured spectra indeed constitute an example. The version of the following theorem for the stable model structure of actual interest is theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} further below.
 
 +-- {: .num_theorem #MonoidalStrictModelStructure}
 ###### Theorem
@@ -6969,8 +6941,8 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 ##### Monoidal model structure
 
-+-- {: .num_prop #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
-###### Proposition
++-- {: .num_theorem #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
+###### Theorem
 
 The stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes}, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
 
