@@ -1287,38 +1287,7 @@ here $\mathbf{L}$ is the [[Lagrangean]].
 ## **Super-geometry**
  {#SupergeometricCoordinateSystems}
 
-### Model Layer
-
-The premise in [The continuum real world line](#TheContinuumRealWorldLine) is now refined to
-
-**Premise.** The abstract worldline of a [[fermionic particle]] is a $\mathbb{Z}_2$-[[odd line|graded]] [[formal manifold|formal neighbourhood]] $\mathbb{R}^{1|n}$ of the [[real line]], for some $n \in \mathbb{N}$.
-
-For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
-
-
-* [[supermanifold]]
-
-#### Fermion
-
-* [[fermion]]
-
-
-### Semantic Layer
-
-#### Super cohesion
-
-* [[super infinity-groupoid]]
-
-* [[smooth super infinity-groupoid]]
-
-* [[super smooth infinity-groupoid]]
-
-* [[super-Cartan geometry]]
-
-
-### Syntactic Layer
-
-(...)
+this chapter is at _[[geometry of physics -- supergeometry]]_
 
 
 +-- {: bluebox #PHYSICS}
@@ -1592,6 +1561,7 @@ In [[extended prequantum field theory]] we may, as discussed in _[Lagrangians an
 
 ### Syntax layer
  {#EquationsOfMotionSyntaxLayer}
+
 
 
 
