@@ -200,7 +200,7 @@ $$
 
 =--
 
-This is prop. 5.2.4.6 and remark 5.2.4.7 in ([Lurie](#Lurie)).
+This is prop. 5.2.4.6 and remark 5.2.4.7 in ([Lurie](#Lurie)). For more along these lines see also at _[Quillen adjunction - Associated infinity-adjunction](Quillen+adjunction#AssociatedInfinityAdjunction)_.
 
 
 ### In homological algebra 
