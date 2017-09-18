@@ -1,4 +1,8 @@
+cardy_condition.jpg , screen captured from [Lauda & Pfeiffer 2006](http://arxiv.org/abs/math/0606331)
 
+[[cardy_condition.jpg:pic]]
+
+tada?
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
