@@ -1,34 +1,24 @@
 $$
   \array{
-    id \colon 
-    & 
-    A 
-      &\longrightarrow& 
-    X 
-      &\overset{\phantom{AAAA}}{\longrightarrow}& A
+    E_1 \wedge E_2 \wedge E_3 
+      &\overset{id \wedge \tau_{E_2,E_3}}{\longrightarrow}&
+    E_1 \wedge E_3 \wedge E_2
     \\
-    & 
-    {}^{\mathllap{\in W \cap Cof}}\downarrow
-      &(po)&
-    \downarrow^{\mathrlap{\in W \cap Cof}}
+    {}^{\mathllap{\tau_{E_1, E_2} \wedge id}}\downarrow
       &&
-    \downarrow^{\mathrlap{\in W \cap Cof}}
+    \downarrow^{\mathrlap{\tau_{E_1, E_3 \wedge E_2}}}
     \\
-    id \colon
-    & A' &\overset{}{\longrightarrow}& 
-     X' 
-     &\overset{\phantom{AA}\phantom{AA}}{\longrightarrow}& A'
+    E_2 \wedge E_1 \wedge E_3
+      &\overset{\tau_{E_2 \wedge E_1, E_3}}{\longrightarrow}&
+    E_3 \wedge E_2 \wedge E_1
     \\
-    &
-    {}^{\mathllap{\in Fib}}
-    \downarrow
+    {}^{\mathllap{\mu \wedge id}}\downarrow
       &&
-    \downarrow^{\mathrlap{\in W }}
-      &&
-    \downarrow^{\mathrlap{\in Fib}}
+    \downarrow^{\mathrlap{id \wedge \mu}}
     \\
-    id \colon & B &\longrightarrow& Y &\underset{\phantom{AAAA}}{\longrightarrow}& B
+    E \wedge E_3 
+     &\underset{\tau_{E,E_3}}{\longrightarrow}&
+    E_3 \wedge E
   }
-  \,,
+  \,.
 $$
-
