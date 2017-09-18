@@ -48,7 +48,9 @@ For more details see
 
 * [[fully formal ETCS]].
 
+## A Constructive View
 
+[[Erik Palmgren]] ([Palmgren 2012](#Palmgren)) has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as: $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] with a [[NNO]] and [[enough projectives]] (i.e. [[COSHEP]] is satisfied). Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
 
 ## Todd Trimble's exposition of ETCS
  {#ExpositionByTrimble}
@@ -62,11 +64,18 @@ For more details see
 * Todd Trimble, _ETCS: Building joins and coproducts_
 ([[Trimble on ETCS III|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/))
 
+## Related entries
+
+* [[fully formal ETCS]]
+* [[structural set theory]]
+* [[ZFC|Zermelo Fraenkel set theory]]
+* [[ETCC]]
+
 ## References
 
 ETCS grew out of Lawvere's experiences of teaching undergraduate set theoretic foundations at Reed college in 1963 and was originally published in 
 
-* {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511 (1965). ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300477/pdf/pnas00186-0196.pdf))
+* {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A **52** pp.1506-1511 (1965). ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300477/pdf/pnas00186-0196.pdf))
 
 A more or less contemporary review is
 
@@ -74,21 +83,24 @@ A more or less contemporary review is
 
 A longer version of Lawvere's 1965 paper appears in
 
-* [[William Lawvere]], [[Colin McLarty]], _An elementary theory of the category of sets (long version) with commentary_, Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([TAC](http://tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
+* [[William Lawvere]], [[Colin McLarty]], _An elementary theory of the category of sets (long version) with commentary_, Reprints in Theory and Applications of Categories **11** (2005) pp. 1-35. ([TAC](http://tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
 
 An undergraduate set-theory textbook using it is
 
-* [[William Lawvere]], R. Rosebrugh, _Sets for Mathematics_ , ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
+* [[William Lawvere]], [[Bob Rosebrugh|Robert Rosebrugh]], _Sets for Mathematics_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 {#LawvereRosebrugh}
 
 An informative discussion of the pros and cons of Lawvere's approach can be found in
 
-* Jean-Pierre Marquis, _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_ ([pdf-slides](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
+* [[Jean-Pierre Marquis]], _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_ ([pdf-slides](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
 
-Erik Palmgren has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as: $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] with a [[NNO]] and [[enough projectives]] (i.e. [[COSHEP]] is satisfied).  Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
+Palmgren's ideas can be found here:
 
-*  Erik Palmgren, _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf))
+*  [[Erik Palmgren]], _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ , Ann. Pure. App. Logic **163** no.10 (2012) pp.1384-1399. ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf)) {#Palmgren}
 
+For the relation between the theory of well-pointed toposes and **weak Zermelo set theory** as elucidated by work of [[Julian Cole|J. Cole]], [[Barry Mitchell]], and [[Gerhard Osius|G. Osius]] in the early 1970s see
+
+* [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). (sections 9.2-3)
 
 [[!redirects ETCS]]
 [[!redirects etcs]]
