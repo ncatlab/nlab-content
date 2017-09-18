@@ -109,6 +109,10 @@ A general review is in
 
 * [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 12 _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
+A textbook account is in 
+
+*  [[Paul Langacker]], _The Standard Model and Beyond_, CRC Press 2009 ([webpage](http://www.sns.ias.edu/~pgl/SMB/))
+
 For an $n$Lab dictionary (work in progress) of the language of mathematicians and physicists see:
 
 * [[domenicofiorenza:The standard model]]
