@@ -19,7 +19,7 @@
 
 
 
-Often one considers (sometimes by default) [[subcategories]] of [[nice topological spaces]] such as [[compactly generated topological spaces]], notably because these are [[cartesian closed category]]. There other other [[convenient categories of topological spaces]]. With any one such choice understood, it is often useful to regard it as "the" category of topological spaces.
+Often one considers (sometimes by default) [[subcategories]] of [[nice topological spaces]] such as [[compactly generated topological spaces]], notably because these are [[cartesian closed category|cartesian closed]]. There other other [[convenient categories of topological spaces]]. With any one such choice understood, it is often useful to regard it as "the" category of topological spaces.
 
 The [[homotopy category]] of $Top$ given by its [[localization]] at the [[weak homotopy equivalences]] is the [[classical homotopy category]] [[Ho(Top)]]. This is the central object of study in [[homotopy theory]], see also at _[[classical model structure on topological spaces]]_.  The [[simplicial localization]] of [[Top]] at the [[weak homotopy equivalences]] is the archetypical [[(∞,1)-category]], [[equivalence of (infinity,1)-categories|equivalent]] to [[∞Grpd]] (see at _[[homotopy hypothesis]]_).
 
