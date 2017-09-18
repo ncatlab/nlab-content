@@ -32,7 +32,7 @@ The idea is that a T-fold is a [[target space]] for a [[string]] [[sigma-model]]
 
 The idea was originally introduced in 
 
-* [[Chris Hull]], _A Geometry for Non-Geometric String Backgrounds_ ([arXiv:hep-th/0406102](http://arxiv.org/abs/hep-th/0406102))
+* [[Chris Hull]], _A Geometry for Non-Geometric String Backgrounds_, JHEP0510:065,2005 ([arXiv:hep-th/0406102](http://arxiv.org/abs/hep-th/0406102))
 
 Further developments are in 
 
