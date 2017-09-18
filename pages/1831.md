@@ -80,6 +80,7 @@ This is [[Higher Topos Theory|HTT, prop. 2.4.2.3 ]].
 +-- {: .un_prop}
 ###### Proposition
 
+
 Every Cartesian fibration is a fibration in the [[Andre Joyal|Joyal]]-[[model structure for quasi-categories]].
 
 =--
@@ -432,12 +433,11 @@ for the moment see
 
 
 ## References 
+ 
 
+* [[Jacob Lurie]], ection 2.4.2 in _[[Higher Topos Theory]]_
 
-Section 2.4.2 in 
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-
+* {#MazelGee15} [[Aaron Mazel-Gee]], _A user's guide to co/cartesian fibrations_ ([arXiv:1510.02402](http://arxiv.org/abs/1510.02402))
 
 [[!redirects cartesian fibration]]
 [[!redirects coCartesian fibration]]
