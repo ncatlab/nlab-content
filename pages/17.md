@@ -35,7 +35,7 @@ Recent versions of Opera also apparently support MathML, but as a blog post on [
 
 (Firefox - and clones - specific)
 
-Here are some search plugins for firefox that will let you search the nLab from the firefox search bar.
+Here are some search plugins for firefox that will let you search the nLab from the firefox search bar.  **EDIT:** These are old and may not work with recent versions of Firefox.  Instead you can use the [search engine creator plugin](https://addons.mozilla.org/en-US/firefox/addon/search-engine-creator/).  Someone should update these files to conform to [OpenSearch](https://developer.mozilla.org/en-US/Add-ons/Creating_OpenSearch_plugins_for_Firefox); then they might work with other browsers too.
 
 * [[nlab-search.xml:file]]: searches the nLab (like the search box at the top of every page).
 * [[nlab-goto.xml:file]]: takes you directly to the page with a given exact title (if it exists; otherwise it takes you to an edit box to create such a page).
