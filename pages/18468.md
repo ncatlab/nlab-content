@@ -20,7 +20,7 @@
 
 ## Idea
 
-What is called _locally covariant perturbative quantum field theory_ ([Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Brunetti-Fredenhagen-Verch 03](#BrunettiFredenhagenVerch03)) is a formulation of [[local quantum field theory|local]] [[perturbative quantum field theory|perturbative]] [[quantum field theory]] on general [[spacetimes]] (hence on general [[classical field theory|classical]] [[background field]] configurations of the field theory of [[gravity]]) which is both mathematically rigorous as well as closely connected to the traditional non-rigorous discussions.
+What is called _locally covariant perturbative (algebraic) quantum field theory_ ([Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Brunetti-Fredenhagen-Verch 03](#BrunettiFredenhagenVerch03)) is a formulation of [[local quantum field theory|local]] [[perturbative quantum field theory|perturbative]] [[quantum field theory]] on general [[spacetimes]] (hence on general [[classical field theory|classical]] [[background field]] configurations of the field theory of [[gravity]]) which is both mathematically rigorous as well as closely connected to the traditional non-rigorous discussions.
 
 The approach uses the [[Haag-Kastler axioms]] for [[algebraic quantum field theory]] in a variant that demands only [[formal power series]] [[star-algebras]] [[algebra of observables|of observables]] instead of [[C*-algebras]] (this reflects the [[perturbation theory]]) and which evaluates [[local nets of observables]] not just on causal subspaces of [[Minkowski spacetime]] but on all [[globally hyperbolic Lorentzian manifolds]] (this reflects the extension to general curved spacetimes). 
 
@@ -49,14 +49,30 @@ To put this into perspective, notice that formulation of [[quantum field theory]
 
 $\,$
 
-Hence locally covariant perturbative quantum field theory provides a synthesis of these two opposites.
+Locally covariant perturbative quantum field theory provides a synthesis of these two opposites.
 
-There remains just one problem: 
+$\,$
+
+Besides it being just perturbative (in [[Planck's constant]]), there remains just one problem: 
 
 When applied to [[gauge theory]] on [[quantum field theory on curved spacetime|on curved spacetime]] the usual axioms on a [[local net]] break: either they enforce all [[characteristic classes]] of the [[gauge field]] ("[[instanton sectors]]") to be trivial, or else the axioms encoding locality are broken (see [Schenkel 14](#Schenkel14), [Schreiber 14](https://ncatlab.org/schreiber/show/Higher+field+bundles+for+gauge+fields)).
 
 This remaining problem is meant to be solved by passing from plain [[algebras of observables]] to [[homotopical algebra|homotopical algebras]] ([[higher algebra|higher algebras]]), and hence to a formulation of **[[homotopical algebraic quantum field theory]]** (see [Schenkel 17](#Schenkel17)). This is still in the making.
 
+
+## Global picture
+
+Quantum field theory is extremely rich in phenomena and its formulation involves a plethora of mathematical aspects, such as [[Lorentzian geometry]], [[spin geometry]], [[variational calculus]], [[quantization]] (specifically [[formal  deformation quantization]] for [[perturbative quantum field theory]]) [[functional analysis]] (specifically [[microcausal analysis]] for [[causal perturbation theory]]) and [[operator algebra]]. While lcpAQFT is mathematically rigorous, hence unambiguous and precise, it remains a long story from its first principles to the computation of [[scattering amplitudes]]. To ease the overview, we here indicate the global structure of the topic first.
+
+The input datum is a [[local field theory|local]] [[Lagrangian field theory|Lagrangian]] [[classical field theory]] on [[gravity]] [[background fields|backgrounds]], hence a [[natural transformation]] from ([[globally hyperbolic spacetimes|globally hyperbolic]]) [[Lorentzian manifolds]] to [[field bundles]] over these spacetimes equipped with a [[local Lagrangian density]] on their [[jet bundle]].
+
+This induces for each Lorentzian spacetime the corresponding [[covariant phase space]], a (pre-)[[symplectic space|symplectic]] [[smooth space]]. 
+
+The output is a [[formal deformation quantization]] of a sufficiently large subalgebra of the [[algebra of functions]] on the covariant phase space.
+
+There are choices to be made in finding this deformation quantization, and these turn out involve the choices otherwise known as [[renormalization]] coefficients.
+
+(...)
 
 
 ## References
