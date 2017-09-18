@@ -344,7 +344,7 @@ Discussion of [[event horizons]] of [[black holes]] in terms of AdS/CFT (the "[[
 #### To condensed matter physics
  {#ToCondensedMatterPhysics}
 
-Applications of AdS-CFT duality to [[condensed matter physics]] go back to
+Application of [[AdS-CFT in condensed matter physics]] goes back to
 
 * G. Policastro, D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled N=4 supersymmetric Yang-Mills plasma_, Phys. Rev. Lett.87:081601, 2001 ([arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066))
 
