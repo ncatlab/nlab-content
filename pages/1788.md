@@ -1,95 +1,30 @@
+The dual mod $2$-Steenrod algebra $\mathcal{A}^\ast_{2}$ (def. \ref{DualSteenrodAlgebraForHPf}) is, as an [[associative algebra]], the free [[graded commutative algebra]]
 
 $$
-  \begin{aligned}
-    d ( \xi_2^{2^k}  \otimes \xi_2^{2^k})
-    & = 
-    \overline{\Psi} (\xi_2^{2^k}) \otimes \xi_2^{2^k}
-    +  
-    \xi_2^{2^k} \otimes \overline{\Psi}(\xi_2^{2 k})
-    \\
-    & =
-    \underset{c_1}{\underbrace{\xi_1^{2^{k+1}} \otimes \xi_1^{2^k} \otimes \xi_2^{2^k}}}
-    \;+\; 
-    \underset{c_2}{\underbrace{\xi_2^{2^k} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}}}
-  \end{aligned}
+  \mathcal{A}^\ast_{p}
+    \simeq
+  Sym_{\mathbb{F}_p}(\xi_1, \xi_2, \cdots, )
 $$
 
-$$
-  \begin{aligned}
-    d ( \xi_1^{2^{k + 1}} \otimes \xi_1^{2^k} \xi_2^{2^k} )
-    & =
-    \xi_1^{2^k} \otimes \overline{\Psi}( \xi_1^{2^k} \xi_2^{2^k})
-    \\
-    & = 
-    \xi_1^{2^{k + 1}} 
-    \otimes
-    \left(
-      \xi_1^{2^k} \otimes 1
-        + 
-      1 \otimes \xi_1^{2^k}
-    \right)
-    \left(
-      \xi_2^{2^k} \otimes 1
-        +
-      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}
-        +
-      1 \otimes \xi_2^{2^k}
-    \right)
-    \\
-    & =
-    \underset{b}{
-    \underbrace{
-      \xi_1^{2^{k + 1}} \otimes \xi_1^{2^{k+1}+ 2^k} \otimes \xi_1^{2^k}
-    }}
-      \;+\;
-    \underset{c_1}{\underbrace{
-      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k} \otimes \xi_2^{2^k}
-    }}
-      \;+\; 
-    \underset{a}{\underbrace{
-      \xi_1^{2^{k+1}} \otimes \xi_2^{2^k} \otimes \xi_1^{2^k}
-    }}
-      \;+\;
-    \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}}
-  \end{aligned}
-$$
+on generators:
+
+* $\xi_n$, $n \geq 1$ being the linear dual to $Sq^{p^{n-1}} Sq^{p^{n-2}} \cdots Sq^p Sq^1$,
+
+  of degree $2^n -1$.
+
+
+The dual mod $p$-Steenrod algebra $\mathcal{A}^\ast_{p}$ (def. \ref{DualSteenrodAlgebraForHPf}) is, as an [[associative algebra]], the free [[graded commutative algebra]]
 
 $$
-  \begin{aligned}
-    d( \xi_1^{2^{k+1}} \xi^{2^k} \otimes \xi_1^{2^k} )
-    &
-    =
-    \overline{\Psi}( \xi_1^{2^{k+1}} \xi^{2^k} ) \otimes \xi_1^{2^k}
-    \\
-    & =
-    \left(
-      \xi_1^{2^{k+1}} \otimes 1
-        +
-      1 \otimes \xi_1^{2^{k+1}}
-    \right)
-    \left(
-      \xi_2^{2^k} \otimes 1
-        +
-      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}
-        +
-      1 \otimes \xi_2^{2^k}
-    \right)
-      \otimes
-    \xi_1^{2^k}
-    \\
-    & =
-    \xi_1^{2^{k+2}} \otimes \xi_1^{2^k} \otimes \xi_1^{2^k}
-      \;+\;
-    \underset{a}{\underbrace{
-      \xi_1^{2^{k+1}} \otimes \xi_2^{2^k} \otimes \xi_1^{2^k}
-    }}
-      \;+\;
-    \underset{c_2}{\underbrace{
-      \xi_2^{2^k} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^k} 
-    }}
-      \;+\;
-    \underset{b}{\underbrace{
-      \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1} + 2^k} \otimes \xi_1^{2^k}
-    }}
-  \end{aligned}
+  \mathcal{A}^\ast_{p}
+    \simeq
+  Sym_{\mathbb{F}_p}(\xi_1, \xi_2, \cdots, \;\tau_0, \tau_1, \cdots)
 $$
+
+on generators:
+
+* $\xi_n$, $n \geq 1$ being the linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1$,
+
+  of degree $2^n -1$.
+
+* $\tau_n$ being linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$.
