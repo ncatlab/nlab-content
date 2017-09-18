@@ -19,9 +19,10 @@
 
 ## Idea
 
-The _May spectral sequence_ is a [[spectral sequence]] used to compute the first page of the [[classical Adams spectral sequence]].
+A _May spectral sequence_ ([May 64](#May64), [May 74](#May74), [Ravenel 86, 3.2](#Ravenel86)) is a certain type of [[spectral sequence]] that computes the second page of the [[classical Adams spectral sequence]]. More generally, it computes [[Ext]]-groups (or [[Cotor]]-groups, via [this lemma](cotensor+product#ComoduleHomInTermsOfCotensorProduct)) of [[comodules]] over [[commutative Hopf algebras]] (the [[dual Steenrod algebra]] in the classical case). 
 
-It may be regarded as the spectral sequence obtained by filtering the (dual) [[Steenrod algebra]] by (co)powers of the unit (co)ideal. (see [Ravenel 86, chapter 3, section 2](#Ravenel86), [Kochman 96, section 5.3](#Kochman96))
+The May spectral sequence is the [[spectral sequence of a filtered complex]] induced by filtering the canonical (but intractable) [[bar complex]] model for [[Ext]]/[[Cotor]] by co-powers of the unit co-ideal of the given Hopf algebra (see [Ravenel 86, chapter 3, section 2](#Ravenel86), [Kochman 96, section 5.3](#Kochman96)).
+
 
 ## Related concepts
 
@@ -36,7 +37,7 @@ The origin is in
 
 More on the $E_2$-term is in 
 
-* [[Peter May]] _The Steenrod algebra and its assodiated graded algebra_, University of Chicago preprint, 1974.
+* {#May74} [[Peter May]] _The Steenrod algebra and its assodiated graded algebra_, University of Chicago preprint, 1974.
 
 A computation of the first 70 differentials for the case of the [[Steenrod algebra]] is in 
 
