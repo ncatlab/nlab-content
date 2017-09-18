@@ -23,7 +23,7 @@
 
 ## Idea
 
-A _logical framework_ is a formal [[metalanguage]] for [[deductive systems]], such as [[logic]], [[natural deduction]], [[type theories]], [[sequent calculus]], etc.  Of course, like any formal system, these systems can be described in any sufficiently stong metalanguage.  However, all logical systems of this type share certain distinguishing features, so it is helpful to have a particular metalanguage which is well-adapted to describing systems with those features.
+A _logical framework_ is a formal [[metalanguage]] for [[deductive systems]], such as [[logic]], [[natural deduction]], [[type theories]], [[sequent calculus]], etc.  Of course, like any formal system, these systems can be described in any sufficiently strong metalanguage.  However, all logical systems of this type share certain distinguishing features, so it is helpful to have a particular metalanguage which is well-adapted to describing systems with those features.
 
 Much of the description below is taken from [(Harper)](#Harper).
 
