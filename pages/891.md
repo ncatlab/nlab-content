@@ -24,7 +24,37 @@ The **quotient object** $Q$ of a [[congruence]] (an [[internalization|internal]]
 
 If $E$ is additionally the [[kernel pair]] of the map $X \to Q$, then $Q$ is called an **effective quotient** (and $E$ is called an **effective** congruence, with the map $X \to Q$ being an [[effective epimorphism]]).
 
-Sometimes the term is used more loosely to mean an arbitrary [[coequalizer]].  It may also refer to a co-[[subobject]] of $X$ (that is, a subobject of $X$ in the [[opposite category]] $C^\op$), without reference to any congruence on $X$.  Note that in a [[regular category]], any [[regular epimorphism]] (i.e. a "regular quotient" in the co-subobject sense) is in fact the quotient (= coequalizer) of its [[kernel pair]].
+Sometimes the term is used more loosely to mean an arbitrary [[coequalizer]].  It may also refer to a co-[[subobject]] of $X$ (that is, a subobject of $X$ in the [[opposite category]] $C^\op$), without reference to any congruence on $X$.  Note that in a [[regular category]], any [[regular epimorphism]] (i.e. a "regular quotient" in the co-subobject sense) is in fact the quotient (= coequalizer) of its [[kernel pair]] (actually, we can prove this under weaker hypotheses; see below).
+
+## Galois connection between quotients and relations 
+
+As we have said, there are various notions of quotient object. Let us consider the most general one, so that $Quot(X)$ of an object $X$ denotes the poset of co-subobjects of $X$, in other words the [[poset|posetal]] [[reflection]] of the [[preorder]] of epis $X \to Q$ which is a [[full subcategory]] of the [[co-slice category]] $X \downarrow \mathbf{C}$. A *regular quotient* then refers to a regular epi $X \to Q$. 
+
+On the other hand, let $Rel(X)$ be the poset of [[relations]] on $X$, i.e., the 
+poset of subobjects of $X \times X$, or in other words the posetal reflection of the preorder of monos $i = \langle e_1, e_2 \rangle: E \rightarrowtail X \times X$ which is a full subcategory of the [[slice category]] $\mathbf{C} \downarrow X \times X$. 
+
+Between $Quot(X)$ and $Rel(X)$ there is a relation $\perp$ where $q \perp \langle e_1, e_2 \rangle$ means exactly $q \circ e_1 = q \circ e_2$. If the coequalizer $coeq(e_1, e_2)$ of the parallel pair $e_1, e_2: E \rightrightarrows X$ exists, then by definition we have $coeq(e_1, e_2) \leq q$ iff $q e_1 = q e_2$. On the other hand, if the [[kernel pair]] $\ker(q)$ of $q$ exists, then by definition we have $q e_1 = q e_2$ iff $\langle e_1, e_2 \rangle \leq \ker(q)$. 
+
+This indicates that to the extent that coequalizers and kernel pairs exist, we have 
+
++-- {: .num_prop} 
+###### Proposition 
+$coeq: Rel(X) \to Quot(X)$ is [[left adjoint]] to $\ker: Quot(X) \to Rel(X)$. 
+=-- 
+
+Or, in other words, that $\ker$ and $coeq$ set up a [[Galois connection]] between $Quot(X)^{op}$ and $Rel(X)$. 
+
+In particular,  
+
++-- {: .num_cor} 
+###### Corollary 
+Suppose $\mathbf{C}$ is a category where every morphism has an [[image|epi-mono factorization]]. If the kernel pair of a regular epi $q$ exists, then $q = coeq \circ \ker(q)$. If the coequalizer of a kernel pair $i = \langle e_1, e_2 \rangle$ exists, then $i = \ker \circ coeq(i)$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+We just prove the first statement; the second is proved similarly. We have of course a [[counit]] $coeq \circ \ker(q) \leq q$. On the other hand, if $q = coeq(f, g)$ (where we may assume $\langle f, g \rangle$ is monic by the epi-mono factorization), then we have a unit $\langle f, g \rangle \leq \ker \circ coeq(f, q) = \ker(q)$; by applying $coeq$ to each side, we have $q \leq coeq \circ \ker(q)$, as desired. 
+=-- 
 
 ## In higher category theory
 
