@@ -28,7 +28,7 @@ Any [[topological map]] $M = (G,\theta)$, where $G = (V,E,d)$, is represented by
 
 * each edge $e \in E$ is associated with a pair of darts, and in this way the collection of edges induces a fixed point-free involution $\alpha$ on $D$.
 
-* each vertex $x \in V$ is associated with the set of darts having $x$ as target, and moreover determines a cyclic ordering of those darts by considering (say) a counterclockwise-oriented [[loop]] around $\theta(x)$.  In this way, each vertex determines a cycle of the permutation $\sigma$.
+* each vertex $x \in V$ is associated with the set of darts having $x$ as target, and moreover determines a cyclic ordering of those darts by considering (say) a counterclockwise-oriented [[loop]] around $\theta(x)$.  In this way, each vertex determines a cycle of the permutation $\sigma$. (Note this relies on the assumption that $\theta$ embeds $G$ in an [[oriented]] surface.)
 
 * the cycles of the permutation $\phi = \sigma^{-1}\alpha^{-1}$ give, for each face $f$ of $M$, an ordering of darts on the boundary of that face.  With the above (standard) convention for vertices, it is easy to check that $\phi$ computes the counterclockwise cycle of darts having $f$ to the right.
 
