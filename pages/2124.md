@@ -244,3 +244,6 @@ Discussion of the relation of that to the traditional discussion of current alge
 
 [[!redirects BPS invariant]]
 [[!redirects BPS invariants]]
+
+[[!redirects BPS charge]]
+[[!redirects BPS charges]]
