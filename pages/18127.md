@@ -3798,7 +3798,7 @@ a homomorphism of groupoids (a functor).
 ###### Proposition
 **(extracting [[monodromy]] is [[functor|functorial]])**
 
-Given a [[homomorphism]] between two [[covering spaces]] $E_i \overset{p_i}{\to} X$, hence a [[continuous function]] $f \colon E_1 \to E_2$ which respects [[fibers]] in that the [[diagram]]
+Given a [[isomorphism]] between two [[covering spaces]] $E_i \overset{p_i}{\to} X$, hence a [[homeomorphism]] $f \colon E_1 \to E_2$ which respects [[fibers]] in that the [[diagram]]
 
 $$
   \array{
@@ -3858,23 +3858,29 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof
 
+Let $e \in p_1^{-1}(x)$ be an element,and $\hat \gamma \colon [0,1] \to E_1$
+a lift of $\gamma$ to $E_1$ with $\hat \gamma(0) = e$. This means by definition of monodromy that
 
-+-- {: .num_example }
-###### Example
-**(three-sheeted covers of the circle)**
+$$
+  Fib_{E_1}([\gamma]) \;\colon\; e \mapsto \hat \gamma(1)
+$$
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
-</div>
+Now $f\circ \hat \gamma$ is a lift of $\gamma$ to $E_2$, with $(f \circ \gamma)(0) = f(\hat \gamma(0)) = f(e)$.
+Therefore
 
-There are, up to [[isomorphism]], three different 3-sheeted [[covering spaces]] of the [[circle]] $S^1$.
+$$
+  Fib_{E_2}([\gamma]) \;\colon\; f(e) \mapsto f(\hat \gamma(1))
+  \,.
+$$
 
-The one from example \ref{kForlCovringOfCircle} for $k = 3$. Another one. And the trivial one.
-Their corresponding [[permutation actions]] according to def. \ref{CoveringSpaceMonodromy} may be seen from the pictures on the right.
-> graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
+This means that the square commutes, as claimed.
 
 =--
+
+
 
 
 +-- {: .num_example #CoveringSpaceFundamentalGroupoid}
@@ -4243,26 +4249,6 @@ and the isomorphism is given by assigning [[winding number]].
 
 =--
 
-Here in the context of [[topological homotopy theory]] the [[circle]] $S^1$ is the [[topological subspace]] $S^1 = \{x \in \mathbb{R}^2 \,\vert\, x_1^2 + x_2^2 = 1 \} \subset \mathbb{R}^2$ of the [[Euclidean plane]] with its [[metric topology]], or any [[topological space]] of the same [[homotopy type]]. More generally, the circle in question is, as a [[homotopy type]], the [[homotopy pushout]]
-
-$$
-  S^1 \simeq \ast \underset{\ast \sqcup \ast}{\coprod} \ast
-  \,,
-$$
-
-hence the [[homotopy type]] with the [[universal property]] that it makes a homotopy commuting diagram of the form
-
-$$
-  \array{
-    \ast \sqcup \ast &\longrightarrow& \ast
-    \\
-    \downarrow &\swArrow& \downarrow
-    \\
-    \ast &\longrightarrow& S^1
-  }
-  \,.
-$$
-
 
 +-- {: .proof #ClassicalPointSetProof}
 ###### Proof
@@ -4426,6 +4412,135 @@ is an [[open cover]] of $\mathbb{R}^1$, it follows that $f$ is unqiuely fixed by
 Now unwinding the definition of $p$ shows that the condition that the two restrictions coincide on the intersection $S^1 \setminus \{s,s'\}$ implies that there is $n \in \mathbb{Z}$ such that $\phi(k) = k+ n$ and $\phi'(k) = k+n$.
 
 This shows that $Aut_{Cov(S^1)}(\mathbb{R}^1) \simeq \mathbb{Z}$.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+The [[monodromy]] construction assigns to an [[isomorphism class]] of covering spaces
+over the [[circle]] $S^1$
+with [[fibers]] consisting of $n$ elements [[conjugacy classes]]
+of elements the [[symmetric group]] $\Sigma(n)$:
+
+$$
+  \left \{
+    \array{
+      \text{finite covering spaces }
+      \\
+      \text{over}\ S^1
+    }
+  \right\}/\sim_{\text{iso}}
+   \;\simeq\;
+  \left\{
+    \array{
+      \text{conjugacy classes of}
+      \\
+      \text{elements of a symmetric group}
+    }
+  \right}
+$$
+
+By prop. \ref{GroupoidRepresentationsAreProductsOfGroupRepresentations}
+we may without restriction choose a basepoint $x \in S^1$ so that
+a monodromy representation is equivalently a groupoid morphism
+
+$$
+  \rho
+    \;\colon\;
+  B \mathbb{Z}
+    \overset{\simeq}{\longrightarrow}
+  B \pi_1(S^1,x)
+    \overset{\rho}{\longrightarrow}
+  Core(Set)
+  \,.
+$$
+
+Since $\mathbb{Z}$ is the [[free abelian group]] on a single generator, such as morphism
+is uniquely determined by the image of $1 \in \mathbb{Z}$. This is taken to some
+isomorphism of the set $p^{-1}(x)$. If we choose any identification $\phi \colon p^{-1}(x) \overset{\simeq}{\to} \{1, \cdots, n\}$,
+then this defines an element $\sigma \in \Sigma(n)$ in the [[symmetric group]]:
+
+$$
+  \array{
+    x &\mapsto&  p^{-1}(x) &\underoverset{\simeq}{\phi}{\longrightarrow}& \{1, \cdots, n\}
+    \\
+    {}^{\mathllap{1}}\downarrow && {}^{\mathllap{\rho(1)}}\downarrow && \downarrow^{\sigma}
+    \\
+    x &\mapsto& p^{-1}(x) &\underoverset{\phi}{\simeq}{\longrightarrow}& \{1, \cdots, n\}
+  }
+  \,.
+$$
+
+Now if
+
+$$
+  f \;\colon\; E_1 \overset{\simeq}{\longrightarrow} E_2
+$$
+
+is an isomorphism of covering spaces,
+then by prop. \ref{FunctorialExtractingHomotopy} and prop. \ref{FundamentalTheoremOfCoveringSpaces}
+this corresponds bijectively to a homomorphism of representations
+
+$$
+  Fib(f) \;\colon\; Fib_{E_1} \overset{\simeq}{\longrightarrow} Fib_{E_2}
+$$
+
+which is b definition a homotopy (natural isomorphism) between the monodromy functors
+$Fib_{E_i} \;\colon\; B \mathbb{Z} \to Core(Set)$.
+
+The combination of the naturality square of this natural isomorphism with the above identification
+yields the following diagram
+
+$$
+  \array{
+    \{1,\cdots, n\}
+      &\overset{\phi_1^{-1}}{\longrightarrow}&
+    p_1^{-1}(x)
+      &\overset{f\vert_{\{x\}}}{\longrightarrow}&
+    p_2^{-1}(x)
+      &\overset{\phi_2}{\longrightarrow}&
+    \{1, \cdots, n\}
+    \\
+    {}^{\mathllap{\sigma_1}}
+    \downarrow
+      &&
+    {}^{\mathllap{ Fib_{E_1}(1) }}\downarrow
+      &&
+    \downarrow^{\mathrlap{ Fib_{E_2}(1) }}
+      &&
+    \downarrow^{\mathrlap{ \sigma_2 }}
+    \\
+    \{1,\cdots, n\}
+      &\underset{\phi_1^{-1}}{\longrightarrow}&
+    p_1^{-1}(x)
+      &\underset{f\vert_{\{x\}}}{\longrightarrow}&
+    p_2^{-1}(x)
+      &\underset{\phi_2}{\longrightarrow}&
+    \{1, \cdots, n\}
+  }
+  \,.
+$$
+
+In conclusion this means that the two permutations $\sigma_1$ and $\sigma_2$ are related by conjugation.
+
+=--
+
+
++-- {: .num_example }
+###### Example
+**(three-sheeted covers of the circle)**
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
+</div>
+
+There are, up to [[isomorphism]], three different 3-sheeted [[covering spaces]] of the [[circle]] $S^1$.
+
+The one from example \ref{kForlCovringOfCircle} for $k = 3$. Another one. And the trivial one.
+Their corresponding [[permutation actions]] according to def. \ref{CoveringSpaceMonodromy} may be seen from the pictures on the right.
+> graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
 
 =--
 
