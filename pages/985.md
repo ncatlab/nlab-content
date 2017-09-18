@@ -16,7 +16,7 @@
 
 ## Idea
 
-For a sufficiently nice [[topological space]], the [[fundamental group]] at a point can be reconstructed as a group of [[deck transformation]]s of the [[universal covering space]], which is the same as the [[automorphism]]s of the [[fiber]] over that point of the projection map. The deck transformations are [[monodromies]] induced by loops at the base point. The functor which assigns to a point the fiber functor over it, generalizes to fiber functors in [[Tannaka duality|Tannakian formalism]] of Grothendieck which defines in more general setups the [[fundamental groupoid]] as the group of automorphisms of the appropriate fiber functor. See also [[fundamental group of a topos]]. 
+For a sufficiently nice [[topological space]], the [[fundamental group]] at a point can be reconstructed as a group of [[deck transformation]]s of the [[universal covering space]], which is the same as the [[automorphism]]s of the [[fiber]] over that point of the projection map. The deck transformations are [[monodromies]] induced by loops at the base point. The functor which assigns to a point the fiber functor over it, generalizes to fiber functors in the [[Tannaka duality|Tannakian formalism]] of Grothendieck which defines in more general setups the [[fundamental groupoid]] as the group of automorphisms of the appropriate fiber functor. See also [[fundamental group of a topos]]. 
 
 Grothendieck's [[Galois theory]] was constructed in order to define for [[scheme]]s an analogue of the familiar correspondence
 
