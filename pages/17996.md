@@ -9,7 +9,7 @@ The _basic line bundle on the 2-sphere_ is the [[complex line bundle]] on the [[
 
 This is the [[pullback bundle]] of the map $S^2 \to B U(1) \simeq B^2 \mathbb{Z}$ to the [[classifying space]]/[[Eilenberg-MacLane space]] which itself represents a generator of the [[homotopy group]] $\pi_2(S^2) \simeq \mathbb{Z}$.
 
-Beware that this basic line bundle is sometimes called the "canonical line bundle on the 2-sphere", but it is  _not_ [[isomorphism|isomorphuic]] to what in complex geometry is called the [[canonical bundle]] of the 2-sphere regarded as a [[Riemann surface]]. Instead it is "one half" of the latter, its [[theta characteristic]]. See also at _[[geometric quantization of the 2-sphere]]_.
+Beware that this basic line bundle is sometimes called the "canonical line bundle on the 2-sphere", but it is  _not_ [[isomorphism|isomorphic]] to what in complex geometry is called the [[canonical bundle]] of the 2-sphere regarded as a [[Riemann surface]]. Instead it is "one half" of the latter, its [[theta characteristic]]. See also at _[[geometric quantization of the 2-sphere]]_.
 
 ## Properties
 
