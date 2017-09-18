@@ -83,7 +83,7 @@ By a little [[Joyal-Tierney calculus]].
 +-- {: .num_remark}
 ###### Remark
 
-In the context of [[monoidal model category]] theory, prop. \ref{PushoutProductOfCofClassIsCofClassOfPushoutProduct} implies that for checking the [[pushout-product axiom]] in the case of [[cofibrantly generated model categories]] it is sufficient to check it on generatic cofibrations.
+In the context of [[monoidal model category]] theory, prop. \ref{PushoutProductOfCofClassIsCofClassOfPushoutProduct} implies that for checking the [[pushout-product axiom]] in the case of [[cofibrantly generated model categories]] it is sufficient to check it on generating cofibrations.
 
 =--
 
