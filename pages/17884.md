@@ -1,12 +1,41 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Algbraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
 
-Both [[BV-algebras]] and [[BD-algebras]] have a superficial similarity and are both related to [[BV-BRST formalism]] in [[physics]]. Indeed the "[[BV-operad]]" was named such because its algebras resemble the structure seen on the [[BV-complexes]] in physics. However in the [[formal deformation quantization]] picture of BV-formalism used in [Costello-Gwilliam](#CostelloGwilliam), the quantum BV-complexes crucially are [[BD-algebras]] and _not_ [[BV-algebras]]. On the other hand, if one does not insist on a formal deformation parameter, one may also formalize quantum BV complexes using actual BV-algebras.
 
-This page here means to indicate how all these structures are similar and yet different.
+#Contents#
+* table of contents
+{:toc}
 
-$\,$
+
+## Idea
+
+The concepts of
+
+1. _[[BV-algebras]]_  
+
+1. _[[BD-algebras]]_ 
+
+have a superficial similarity and are both related to [[BV-BRST formalism]] in [[physics]]. Indeed the "[[BV-operad]]" was named such because its [[algebra over an operad|algebras]] resemble the structure seen on the [[BV-complexes]] in physics. However in the [[formal deformation quantization]] picture of BV-formalism used in [Costello-Gwilliam](#CostelloGwilliam), the quantum BV-complexes crucially are [[BD-algebras]] and _not_ [[BV-algebras]]. On the other hand, if one does not insist on a formal deformation parameter, one may also formalize quantum BV complexes using actual BV-algebras.
+
+The following note means to indicate how all these structures are similar and yet different.
+
+## Details
 
 Consider all [[chain complexes]] in the following with [[differential]] $d$ of degree +1.
+
+### BV
 
 Write $E_2$ for the [[little disk operad]] and $E_2^{fr}$ for the [[framed little disk operad]]. The [[chain homology]] of these is the [[BV-operad]] $BV$ and the operad $P_2$ for [[Poisson 2-algebras]], respectively:
 
@@ -40,7 +69,7 @@ $$
   \,. 
 $$
 
-If $A$ is a commutative smooth Poincare duality algebra so that its [[Hochschild cohomology]] $HH^\bullet(A)$ is identified by the [[HKR theorem]] with the multi-derivations, then $HH^\bullet(A)$ carries a [[BV-algebra]] structure and under this identification the above [[Gerstenhaber bracket]] $\{-,-\}$ is the [[Schouten bracket]] and the [[BV-operator]] $\Delta_{BV}$ is the image of the [[de Rham differential]] dualized. Hence this is then indeed the standard BV-complex as discussed there in the section _[Multivector fields dual to differential forms](https://ncatlab.org/nlab/show/BV-BRST+formalism#MultivectorFieldsDualToDifferentialForms)_.
+If $A$ is a commutative smooth [[Poincaré duality algebra]] so that its [[Hochschild cohomology]] $HH^\bullet(A)$ is identified by the [[HKR theorem]] with the multi-[[derivations]], then $HH^\bullet(A)$ carries a [[BV-algebra]] structure and under this identification the above [[Gerstenhaber bracket]] $\{-,-\}$ is the [[Schouten bracket]] and the [[BV-operator]] $\Delta_{BV}$ is the image of the [[de Rham differential]] dualized. Hence this is then indeed the standard BV-complex as discussed there in the section _[Multivector fields dual to differential forms](BV-BRST+formalism#MultivectorFieldsDualToDifferentialForms)_.
 
 
 If we disregard the [[BV-operator]] $\Delta$, then more generally there are [[Poisson n-algebras]] for all $n$, which are as above but with the bracket of degree $1-n$
@@ -55,6 +84,8 @@ $$
 $$
 
 Notice that this means that $P_2$ algebras are very similar to $P_0$-algebras: for the former the backet has degree -1, for the latter it has degree +1.
+
+### BD
 
 Now the [[BD-operad]], which is a chain complex of $\mathbb{R}[ [\hbar ] ]$-[[modules]] ([[formal power series]] ring in one [[variable]] $\hbar$) has as chain complex of binary operations
 
