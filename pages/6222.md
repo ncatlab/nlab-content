@@ -1,3 +1,4 @@
+
 A group is __solvable__ if it is a finite iterated extension of an abelian group by abelian groups. In other words, there exists a finite sequence 
 
 $$
@@ -6,7 +7,13 @@ $$
 
 in which $G_{j-1}$ is [[normal subgroup|normal]] in $G_j$ and $G_j/G_{j-1}$ is [[abelian group|abelian]].
 
+The terminology comes from elementary [[Galois theory]]: every [[polynomial]] equation has a corresponding [[Galois group]], and the equation has a solution expressible using the field operations and extraction of roots if and only if its Galois group is a solvable group.
+
 * eom: [solvable group](http://eom.springer.de/s/s086130.htm), [Lie group, solvable](http://eom.springer.de/l/l058690.htm)
 * wikipedia [solvable group](http://en.wikipedia.org/wiki/Solvable_group)
 
-[[!redirects solvable subgroups]] 
+
+[[!redirects solvable group]]
+[[!redirects solvable groups]]
+[[!redirects solvable subgroup]]
+[[!redirects solvable subgroups]]
