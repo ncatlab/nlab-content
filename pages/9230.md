@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Algebraic Qunantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 #### Measure and probability theory
 +-- {: .hide}
 [[!include measure theory - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
 =--
 =--
 =--
