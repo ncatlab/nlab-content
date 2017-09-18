@@ -2029,7 +2029,119 @@ The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ e
 
 =--
 
-The **proof** is [[formal dual|formally dual]] to the proof that shows that constructing [[free modules]] is [[left adjoint]] to the [[forgetful functor]] from a [[category of modules]] to the underlying [[monoidal category]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidModuleOverItself))
+The **proof** is [[formal dual|formally dual]] to the proof that shows that constructing [[free modules]] is [[left adjoint]] to the [[forgetful functor]] from a [[category of modules]] to the underlying [[monoidal category]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidModuleOverItself)). But for completeness we spell it out:
+
+
++-- {: .proof}
+###### Proof
+
+
+A homomorphism into a co-free $\Gamma$-comodule is a morphism of $A$-modules of the form
+
+$$
+  f \;\colon\; N \longrightarrow \Gamma \otimes_A C
+$$
+
+making the following [[commuting diagram|diagram commute]]
+
+$$
+  \array{
+    N &\overset{f}{\longrightarrow}& \Gamma \otimes_A C
+    \\
+    {}^{\mathllap{\Psi_N}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\Psi \otimes_A id}}
+    \\
+    \Gamma \otimes_A N
+      &\underset{id \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma \otimes_A C
+  }
+  \,.
+$$
+
+Consider the composite
+
+$$
+  \tilde f
+  \;\colon\;
+  N 
+    \overset{f}{\longrightarrow}
+  \Gamma \otimes_A C
+    \overset{\epsilon \otimes_A id}{\longrightarrow}
+  A \otimes_A C
+    \simeq
+  C
+  \,,
+$$
+
+i.e. the "corestriction" of $f$ along the counit of $\Gamma$. By definition this makes the following square commute
+
+$$
+  \array{
+    \Gamma \otimes_A N 
+      &\overset{id \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma \otimes_A C
+    \\
+    {}^{\mathllap{=}}\downarrow
+      &&
+    \downarrow^{\mathrlap{id \otimes_A \epsilon \otimes_A id}}
+    \\
+    \Gamma \otimes_A N
+      &\underset{id \otimes_A \tilde f}{\longrightarrow}&
+    \Gamma \otimes_A C
+  }
+  \,.
+$$
+
+Pasting this square onto the bottom of the previous one yields
+
+$$
+  \array{
+    N &\overset{f}{\longrightarrow}& \Gamma \otimes_A C
+    \\
+    {}^{\mathllap{\Psi_N}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\Psi \otimes_A id}}
+    \\
+    \Gamma \otimes_A N
+      &\underset{id \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma \otimes_A C
+    \\
+    {}^{\mathllap{=}}\downarrow
+      &&
+    \downarrow^{\mathrlap{id \otimes_A \epsilon \otimes_A id}}
+    \\
+    \Gamma \otimes_A N
+      &\underset{id \otimes_A \tilde f}{\longrightarrow}&
+    \Gamma \otimes_A C
+  }
+  \,.
+$$
+
+Now due to co-unitality, the right right vertical composite is the identity on $\Gamma \otimes_A C$. But this means by the commutativity of the outer rectangle that $f$ is uniquely fixed in terms of $\tilde f$ by the relation
+
+$$
+  f = (id \otimes_A f) \circ \Psi
+  \,.
+$$
+
+This establishes a [[natural bijection]] 
+
+$$
+  \frac{
+    N \overset{f}{\longrightarrow} \Gamma \otimes_A C
+  }{
+    N \overset{\tilde f}{\longrightarrow} C
+  }
+$$
+
+and hence the adjunction in question.
+
+
+
+=--
+
+
 
 +-- {: .num_prop #LeftComodulesToRightComodules}
 ###### Proposition
@@ -2306,18 +2418,28 @@ But that this diagram commutes is simply the [[functor|functoriality]] of the de
 +-- {: .num_prop #AdamsUCT}
 ###### Proposition
 
-If at least one of the following conditions is met
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)), and let $X, Y \in Ho(Spectra)$ be two [[spectra]] such that $E_\bullet(X)$ is a [[projective module]] over $\pi_\bullet(E)$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)).
 
-* $X = \mathbb{S}$ is the [[sphere spectrum]];
-
-* $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], 
-
-then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$ the morphism of $\mathbb{Z}$-[[graded abelian groups]]
+Then the homomorphism of [[graded abelian groups]]
 
 $$
   [X, E \wedge Y]_\bullet 
-    \stackrel{\phi \mapsto \rho \circ (id\wedge \phi)}{\longrightarrow}
-  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(X), \pi_\bullet(N))_\bullet
+    \stackrel{}{\longrightarrow}
+  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(X), E_\bullet(Y))_\bullet
+$$
+
+given by 
+
+$$
+  (X \overset{f}{\longrightarrow} E \wedge Y)
+  \;\mapsto\;
+  \pi_\bullet
+  ( E \wedge X 
+     \overset{id \wedge f}{\longrightarrow} 
+    E \wedge E \wedge Y
+     \overset{\mu \wedge id}{\longrightarrow}
+    E \wedge Y
+  )
 $$
 
 is an [[isomorphism]].
@@ -2325,24 +2447,33 @@ is an [[isomorphism]].
 
 =--
 
-For $Y = \mathbb{S}$ this is trivial. For general $Y$ and $E$ among the above examples this is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and see at _[Kronecker pairing -- Universal coefficient theorem](Kronecker+pairing#UniversalCoefficientTheorem)_.
+A stronger version of this statement, but also under much stronger assumptions, appears as ([Adams 74, chapter III, prop. 13.5](#Adams74)) (_Adams' [[universal coefficient theorem]]_). For the following we need only the above weaker version ([Schwede 12, chapter II, prop. 6.20](#Schwede12)) (and in fact this is all that ([Adams 74, p. 323](#Adams74)) ends up using, too).
+
 
 With this we finally get the following statement, which serves to identify maps of certain spectra with their induced maps on $E$-homology:
+
 
 +-- {: .num_prop #ComoduleHomForENCohomology}
 ###### Proposition
 
-If the assumption of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} of the form
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)), and let $X, Y \in Ho(Spectra)$ be two [[spectra]] such that 
+
+1. $E$ is flat according to def. \ref{FlatE};
+
+1. $E_\bullet(X)$ is a [[projective module]] over $\pi_\bullet(E)$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)).
+
+
+Then the morphism from lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} (for the case that the second argument is a smash product with $E$)
 
 $$
- \pi_\bullet(E\wedge (-))
-   \;\colon\;
- [X, E\wedge N]_\bullet 
+ [X, E \wedge Y]_\bullet 
    \stackrel{}{\longrightarrow}
-  Hom_{E_\bullet(E)}^\bullet(E_\bullet(X), E_\bullet(N)))
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(X), E_\bullet( E \wedge Y)))
+   \simeq
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(X),  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(Y) ))
 $$
 
-is an [[isomorphism]].
+is an [[isomorphism]] (where the isomophism on the right is that of prop. \ref{EnHomology}).
 
 =-- 
 
@@ -2352,40 +2483,46 @@ is an [[isomorphism]].
 +-- {: .proof}
 ###### Proof
 
-By the general formula for expressing [[adjuncts]], the morphism fits into the following [[commuting diagram]]
+Observe that the following [[commuting diagram|diagram commutes]]:
 
 $$
   \array{
-    [X, E \wedge N]_\bullet
-      &\stackrel{\pi_\bullet(E\wedge(-))}{\longrightarrow}&
-    Hom_{E_\bullet(E)}(
-      E_\bullet(X), 
-      E_\bullet(E \wedge N)
-    )
+    [X, E \wedge Y]_\bullet
+     &\overset{}{\longrightarrow}&
+    Hom_{E_\bullet(E)}^\bullet(E_\bullet(X),  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(Y) ))
     \\
-    {}^{\mathllap{{\phi \mapsto} \atop {\mu \circ (id \wedge \phi)}}}
-      \downarrow^{\mathrlap{\simeq}}
-    && \downarrow^{\mathrlap{\simeq}}
+    & \searrow & \downarrow
     \\
-    Hom_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(N))
-      &\stackrel{\simeq}{\longleftarrow}& 
-    Hom_{E_\bullet(E)}(
-      E_\bullet(X), 
-      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(N)
-    )
+    &&
+    Hom^\bullet_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
   }
   \,,
 $$
 
 where 
 
-1. the right vertical map comes from the isomorphism of prop. \ref{EnHomology};
+1. the top morphism is the one from lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}; 
 
-1. the bottom isomorphism is the cofree/forgetful [[adjunction]] isomorphism of prop. \ref{CoFreeComodules};
+1. the right vertical morphism is the adjunction isomorphism from prop. \ref{CoFreeComodules};
 
-1. the left vertical morphism is an isomorphism by prop. \ref{AdamsUCT}. 
+1. the left diagonal morphism is the one from prop. \ref{AdamsUCT}.
 
-Therefore also the top morphism is an iso.
+To see that this indeed commutes, notice that 
+
+1. the top morphism sends $(X \overset{f}{\to} E \wedge Y)$ to $E_\bullet(X) \overset{E_\bullet(f)}{\to} E_\bullet(E \wedge Y) \simeq \pi_\bullet(E \wedge E \wedge Y) $ by definition;
+
+1. the right vertical morphism sends this further to $E_\bullet(X) \overset{E_\bullet(f)}{\to} \pi_\bullet(E \wedge E \wedge Y) \overset{\pi_\bullet(\mu \wedge id)}{\to}$, by the proof of prop. \ref{CoFreeComodules} and def. \ref{HopfAlgebroidStructureOnDualEOperations},
+
+1. this is by prop. \ref{AdamsUCT} the same as the action of the left diagonal morphism.
+
+But now
+
+1. the right vertical morphism is an isomorphism by prop. \ref{EnHomology};
+
+1. the left diagonal morphism is an isomorphism by prop. \ref{AdamsUCT} 
+
+and so it follows that the top horizontal morphism is an isomorphism, too.
+
 
 =--
 
