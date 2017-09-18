@@ -111,7 +111,7 @@ The topological topos is discussed in the context of [[convenient category of to
 
 Recently, the topos has received attention in the context of [[Homotopy type theory]]: 
 
-* [[Martín Escardó]], [[Thomas Streicher]], _The universe is indiscrete_ , preprint (2013). ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/universe-indiscrete.pdf))
+* [[Martín Escardó]], [[Thomas Streicher]], _The intrinsic topology of Martin-Lof universes_, APAL (2016). ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/universe-indiscrete.pdf))
 
 * [[Bas Spitters]], _Cubical sets and the topological topos_ , arXiv:1610.05270 (2016).  ([abstract](https://arxiv.org/abs/1610.05270))
 
