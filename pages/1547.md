@@ -6,11 +6,10 @@
 +-- {: .hide}
 [[!include bundles - contents]]
 =--
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
-=--
-=--
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--=--
 =--
 
 
@@ -114,6 +113,8 @@ Much else to be discussed...
 * **vector bundle**, [[holomorphic vector bundle]]
 
   * [[universal vector bundle]]
+
+  * [[dual vector bundle]]
 
   * [[module bundle]]
 
