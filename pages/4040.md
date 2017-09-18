@@ -8,11 +8,13 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 ## Basic concepts
 
-* [[open subset]], [[closed subset]]
+* [[open subset]], [[closed subset]], [[neighbourhood]]
 
 * [[topological space]] (see also _[[locale]]_)
 
-* [[basis for the topology]], [[finer topology|finer/coarser topology]]
+* [[base for the topology]], [[neighbourhood base]]
+
+* [[finer topology|finer/coarser topology]]
 
 * [[topological closure|closure]], [[topological interior|interior]], [[topological boundary|boundary]]
 
