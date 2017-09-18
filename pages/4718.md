@@ -56,7 +56,7 @@ More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in 
 +-- {: .num_defn}
 ###### Definition
 
-A _nonuntial ring_ or _rng_ is a [[semigroup]] object in [[Ab]].
+A _nonunital ring_ or _rng_ is a [[semigroup]] object in [[Ab]].
 
 =--
 
@@ -128,7 +128,7 @@ This is because the definition of any ring [[homomorphism]] out of $F(A)= (\math
 
 =--
 
-### Nonuntial rings as slices of rings
+### Nonunital rings as slices of rings
  {#AsSlicesOfRings}
 
 +-- {: .num_defn #AugmentationIdealFunctor}
