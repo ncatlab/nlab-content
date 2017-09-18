@@ -28,7 +28,7 @@ A [[differentiable manifold]] is a [[topological space]] which is _locally_ [[ho
 
 Differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
 
-If one relaxes the condition of locally being isomorphic to a Euclidean space to admitting local smooth maps from a Euclidean space, then one obtains the concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this.
+If one relaxes the condition from being locally isomorphic to a Euclidean space to admitting local smooth maps from a Euclidean space, then one obtains the concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this.
 
 The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]].
 
