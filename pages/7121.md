@@ -33,6 +33,8 @@ Generally, the development of string theory has shown that its [[worldsheet]] is
 
 * [[p-adic string theory]]
 
+* [[p-adic AdS-CFT]]
+
 ## References
 
 ### Textbooks
