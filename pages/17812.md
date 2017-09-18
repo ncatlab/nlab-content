@@ -1239,10 +1239,13 @@ and a [[right adjoint]] called the left and right [[Kan extension]] $F_!$ and $F
 $$
   PSh(\mathcal{C})
   \;
-    \underoverset
-     {\underset{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}}
+    \array{
      {\overset{\phantom{AA}F_!\,\phantom{AA}}{\longrightarrow}}
-     {\overset{\phantom{AA}F^\ast\phantom{AA}}{\longleftarrow}}
+     \\
+     {\overset{\phantom{AAA}F^\ast\phantom{AAA}}{\longleftarrow}}
+     \\
+     {\underset{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}}
+    }
   \;
   PSh(\mathcal{D})
   \,.
@@ -1907,7 +1910,7 @@ $\theta$, only some of which will typically be of non-redundant use for any give
 In [[physics]], such a [[linear combination]] of even and odd component functions multipled with
 Grassmann algebra elements to yield a homogeneously graded sum is called a _[[superfield]]_.
 
-In order to make sense of this, some physics textbooks (e.g. [[Bryce de Witt|de Wtt]] 92) posit a single "infinite dimensional Grassmann algebra"
+In order to make sense of this, some physics textbooks (e.g. [[Bryce DeWitt|de Witt]] 92) posit a single "infinite dimensional Grassmann algebra"
 from which to draw the elements $\theta_i$. This approach has its pitfalls [Sachse 08, section 5.2](#Sachse08).
 The [[functorial geometry]] perspecive (remark \ref{ASheafAsASpace}) fixes this: the "arbitrary supply"
 of Grassmann variables is encoded by saying that
@@ -1917,11 +1920,11 @@ of Grassmann variables is encoded by saying that
 
 1. these expressions are _covariant_ with respect to change of Grassmann coordinates $\mathbb{R}^{0\vert q} \to \mathbb{R}^{0\vert q'}$.
 
-There are of course the evident generalizations of the scalar valued superfields along the same lines. 
-In general there is a (super-)[[fiber bundle]] $E \overset{\pi}{\to} X$ over ([[super spacetime|super]]) [[spacetime]] $X$ 
+There are of course the evident generalizations of the scalar valued superfields along the same lines.
+In general there is a (super-)[[fiber bundle]] $E \overset{\pi}{\to} X$ over ([[super spacetime|super]]) [[spacetime]] $X$
 called the (super)-[[field bundle]] such that a field on $X$ is a [[section]] of the field bundle
-(see also at _[[fiber bundles in physics]]_). The super-space of sections of $E$ is the following 
-[[fiber product]] of the [[mapping space]] 
+(see also at _[[fiber bundles in physics]]_). The super-space of sections of $E$ is the following
+[[fiber product]] of the [[mapping space]]
 
 $$
   \Gamma_X(E)
@@ -1968,12 +1971,12 @@ Then an element of $[X,\Pi S]$ is
 
 1. over $\mathbb{R}^{0\vert 0}$ no information;
 
-1. over $\mathbb{R}^{0 \vert 1}$ an element $\psi \theta$ with $\psi \in \Gamma_X(S)$ an ordinary section of the 
+1. over $\mathbb{R}^{0 \vert 1}$ an element $\psi \theta$ with $\psi \in \Gamma_X(S)$ an ordinary section of the
    [[spinor bundle]] (hence a [[spinor field]]).
-   
+
 and so on.
 
-This may be combined: For example if $\underline{\mathbb{C}} \oplus_X \Pi $ is the [[direct sum of vector bundles]] of the 
+This may be combined: For example if $\underline{\mathbb{C}} \oplus_X \Pi $ is the [[direct sum of vector bundles]] of the
 [[trivial vector bundle|trivial]] [[complex line bundle]] with an odd [[spinor bundle]], then a [[generalized element]]
 of $\Gamma_X\left(\underline{\mathbb{C} \oplus_X \Pi S \right)$ is over $\mathbb{R}^{0\vert 1}$ of the form
 
