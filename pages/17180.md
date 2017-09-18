@@ -504,9 +504,7 @@ $$
   [sSet^{\ast/}_{fin}, sSet^{\ast/}](X \wedge Y, Z) \simeq [sSet^{\ast/}_{fin} \times sSet^{\ast/}_{fin}, sSet^{\ast/}](X \tilde{\wedge} Y, Z \circ \wedge)
 $$
 
-where the _external smash product_ $\tilde {\wedge}$ on the right is defined by $X \tilde{\wedge} Y  \coloneqq  \wedge \circ (X,Y) $. 
-
-Now, ([Lydakis 98, def. 5.1](#Lydakis98)) sets 
+where the _external smash product_ $\tilde {\wedge}$ on the right is defined by $X \tilde{\wedge} Y  \coloneqq  \wedge \circ (X,Y) $.  Now, ([Lydakis 98, def. 5.1](#Lydakis98)) sets 
 
 $$
   X \wedge Y \coloneqq \wedge_\ast (X \tilde{\wedge} Y) 
@@ -538,7 +536,7 @@ $$
 
 for the canonical inclusion $sSet^{\ast/}_{fin} \hookrightarrow sSet^{\ast/}$.
 
-(the standard incarnatin of the [[sphere spectrum]] in the model structure for excisive functors).
+(the standard incarnation of the [[sphere spectrum]] in the model structure for excisive functors).
 
 =--
 
@@ -553,11 +551,12 @@ The object $\mathbb{S}_{std}$ of def. \ref{StandardSphereSpectrum} is (up to [[i
 +-- {: .proof}
 ###### Proof
 
-This is ([Lydakis 98, theorem 59](#Lydakis98)), but it is immediate with prop. \ref{LydakisTensorProductIsDayConvolution}, using that the tensor unit for Day convolution is the functor [[representable functor|represented]] by the tensor unit in the underlying site.
+This is ([Lydakis 98, theorem 5.9](#Lydakis98)), but it is immediate with prop. \ref{LydakisTensorProductIsDayConvolution}, using that the tensor unit for Day convolution is the functor [[representable functor|represented]] by the tensor unit in the underlying site ([this proposition](Day+convolution#DayConvolutionYieldsMonoidalCategoryStructure)).
 
 =--
 
-+-- {: .num_prop }
+
++-- {: .num_prop #LydakisModelCategoryIsMonoidal}
 ###### Proposition
 
 Equipped with the [[Day convolution]] tensor product (prop. \ref{LydakisTensorProductIsDayConvolution}) the Lydakis model category 
@@ -577,6 +576,37 @@ $$
 
 The [[pushout product axiom]] is  ([Lydakis 98, theorem 12.3](#Lydakis98)).
 Moreover ([Lydakis 98, theorem 12.4](#Lydakis98)), shows that tensoring with cofibrant objects preserves all stable weak equivalences, hence in particular preserves cofibrant resolution of the tensor unit.
+
+=--
+
+This means that ([[commutative monoid|commutative]]) [[monoids]] in the monoidal Lydakis model structure 
+$ \left( [sSet^{\ast/}_{fin}, sSet^{\ast/}]_{Ly}, \; \wedge_{Day} \right)$
+are good models for [[ring spectra]] ([[E-infinity rings]]/[[A-infinity rings]]).
+
++-- {: .num_prop #MonoidsInLydakisModelStructureAreFSP}
+###### Proposition
+
+Monoids (commutative monoids) in the Lydakis monoidal model category 
+$\left( [sSet^{\ast/}_{fin}, sSet^{\ast/}]_{Ly}, \; \wedge_{Day} \right)$
+of prop. \ref{LydakisModelCategoryIsMonoidal} are equivalently 
+([[symmetric monoidal functor|symmetric]]) [[lax monoidal functors]]
+of the form
+
+$$
+  sSet^{\ast/}_{fin} \longrightarrow sSet^{\ast/}
+$$
+
+also known as "[[functors with smash product]]" ([[FSP]]s).
+
+=--
+
+([Lydakis 98, remark 5.12](#Lydakis98))
+
++-- {: .proof}
+###### Proof
+
+Since the tensor product is [[Day convolution]] of the [[smash product]] on $sSet^{\ast/}_{fin}$, def. \ref{DayConvolutionStructureOnExcisiveFunctors}, 
+this is a special casse of a general property of [[Day convolution]], see [this proposition](Day+convolution#DayMonoidsAreLaxMonoidalFunctorsOnTheSite).
 
 =--
 
