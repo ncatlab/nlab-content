@@ -132,21 +132,14 @@ of-noncommutative-geometry)
 * {#Reyes12} Reyes, _Sheaves that fail to represent matrix rings_ ([arXiv:1211.4005](http://arxiv.org/abs/1211.4005))
 
 
-
-Discussion of noncommutative [[formal geometry]] around ordinary abelian schemes is in 
+Discussion of noncommutative [[formal geometry]] 
+of infinitesimal neighborhood of commutative schemes within noncommutative
+ambient schemes is in 
 
 * {#Kapranov98} [[Mikhail Kapranov]], _Noncommutative geometry based on commutator expansions_ ([arXiv:9802041](http://arxiv.org/abs/math/9802041))
 
 For more on this see at _[[Kapranov's noncommutative geometry]]_.
 See also the references at _[[derived noncommutative geometry]]_
-
-
-
-
-
-
-
-
 
 
 category: algebraic geometry, noncommutative geometry
