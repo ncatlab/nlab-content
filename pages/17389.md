@@ -1,0 +1,14 @@
+
++-- {: .un_prop }
+###### Proposition
+
+Every [[CW-complex]] is a [[Hausdorff topological space]].
+
+=--
+
+A proof is spelled out at
+
+* Topospaces, _[CW implies paracompact Hausdorff](http://topospaces.subwiki.org/wiki/CW_implies_paracompact_Hausdorff)_
+
+[[!redirects every CW-complex is a Hausdorff space]]
+[[!redirects every CW-complex is a Hausdorff topological space]]
