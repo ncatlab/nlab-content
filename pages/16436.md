@@ -46,3 +46,6 @@ A [[supergeometry|supergeometric]] analog of [[de Sitter spacetime]]. By the dis
 See also the references at _[Green-Schwarz sigma-model -- References -- AdS backgrounds](Green-Schwarz+action+functional#ReferencesAdSBackgrounds)_ 
 
 [[!redirects super anti de Sitter spacetimes]]
+
+[[!redirects super anti de Sitter super Lie algebra]]
+[[!redirects super anti de Sitter super Lie algebras]]
