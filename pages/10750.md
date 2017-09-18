@@ -354,6 +354,7 @@ is a [[commuting square]]. This is precisley the condition that the collection $
 
 Conversely, example \ref{NaturalTransformationsViaEnds} says that [[ends]] over [[bifunctors]] of the form $Maps(F(-),G(-)))_\ast$ constitute [[hom-spaces]] between pointed [[topologically enriched functors]]:
 
+
 +-- {: .num_defn #PointedTopologicalFunctorCategory}
 ###### Definition
 
@@ -657,6 +658,118 @@ $$
 $$
 
 =--
+
+With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]] 
+
+$$
+  (-)\wedge(-)
+   \;\colon\;
+  [\mathcal{C},Top^{\ast/}_{cg}]
+   \times
+  Top^{\ast/}_{cg}
+    \longrightarrow
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+$$
+
+and the [[powering]] 
+
+$$
+  (-)^{(-)}
+  \;\colon\;
+  (Top^{\ast/}_{cg})^{op}
+    \times
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+    \longrightarrow
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+$$
+
+of [[topologically enriched functors]] $[\mathcal{C},Top^{\ast}_{cg}]$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)). 
+
++-- {: .num_prop #UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}
+###### Proposition
+
+For $\mathcal{C}$ a pointed [[topologically enriched category]], there are [[natural isomorphisms]]
+
+$$
+  [\mathcal{C},Top^{\ast/}_{cg}]( X \wedge K ,\, Y )
+    \simeq
+  Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
+$$
+
+and
+
+$$
+  [\mathcal{C},Top^{\ast/}_{cg}](X,\, Y^K)
+    \simeq
+  Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))
+$$
+
+for all $X,Y \in [\mathcal{C},Top^{\ast/}_{cg}]$ and all $K \in Top^{\ast/}_{cg}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Via the [[end]]-expression for $[\mathcal{C},Top^{\ast/}_{cg}](-,-)$ from def. \ref{PointedTopologicalFunctorCategory} and the fact (remark \ref{MappingSpacePreservesEnds}) that the pointed mapping space construction $Maps(-,-)_\ast$ preserves ends in the second variable, this reduces to the fact that $Maps(-,-)_\ast$ is the [[internal hom]] in the [[closed monoidal category]] $Top^{\ast/}_{cg}$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}) and hence satisfies the internal tensor/hom-adjunction isomorphism (prop. \ref{TensorHomAdjunctionIsoInternally}):
+
+$$
+  \begin{aligned}
+    [\mathcal{C},Top^{\ast/}_{cg}](X \wedge K, Y)
+    & =
+    \underset{c}{\int}  
+    Maps(
+      (X \wedge K)(c),
+      Y(c)
+    )_\ast
+    \\
+    & \simeq
+    \underset{c}{\int}
+      Maps(X(c) \wedge K, Y(x))_\ast
+    \\
+    & \simeq
+    \underset{c}{\int}
+      Maps(K,Maps(X(c), Y(c))_\ast)_\ast
+    \\
+    & \simeq
+    Maps(K, \underset{c}{\int} Maps(X(c),Y(c)))_\ast
+    \\
+    & = 
+    Maps(K,[\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    [\mathcal{C},Top^{\ast/}_{cg}](X, Y^K)
+    & =
+    \underset{c}{\int}
+      Maps(X(c), (Y^K)(c))_\ast
+    \\
+    & \simeq 
+    \underset{c}{\int}
+     Maps(X(c), Maps(K,Y(c))_\ast)_\ast
+    \\
+    & \simeq
+    \underset{c}{\int} Maps(X(c) \wedge K, Y(c))_\ast
+    \\
+    & \simeq
+    \underset{c}{\int} Maps(K, Maps(X(c),Y(c))_\ast)_\ast
+    \\
+    & \simeq
+    Maps(K, \underset{c}{\int} Maps(X(c),Y(c))_\ast)_\ast
+    \\
+    & \simeq
+    Maps(K, [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
+    \,.
+  \end{aligned}
+$$
+
+=--
+
+
 
 +-- {: .num_prop #TopologicalLeftKanExtensionBCoend}
 ###### Proposition
@@ -993,8 +1106,8 @@ Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
 
 In a [[closed monoidal category]], the adjunction isomorphism between [[tensor product]] and [[internal hom]] even holds internally:
 
-+-- {: .num_lemma}
-###### Lemma
++-- {: .num_prop #TensorHomAdjunctionIsoInternally}
+###### Proposition
 
 In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
 
@@ -2295,12 +2408,12 @@ We write $MonFun(\mathcal{C},\mathcal{D})$ for the resulting [[category]] of lax
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #SymmetricMonoidalFunctor}
 ###### Remark
 
 In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a strong monoidal functor.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
 
-If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a braided monoidal functor (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
+If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
 
 =--
 
@@ -2558,7 +2671,7 @@ $\,$
 Write 
 
 $$
-  \iota_{fin}\;\colon\; Top^{\ast}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}
+  \iota_{fin}\;\colon\; Top^{\ast/}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}
 $$ 
 
 for the [[full subcategory]] of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#Top)) on those that admit the structure of a [[finite CW-complex]] (a [[CW-complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)) with a [[finite number]] of cells). 
@@ -2646,7 +2759,8 @@ Define the following [[pointed topologically enriched categories|pointed topolog
 1. $Seq$ is the category whose objects are the [[natural numbers]] and which has only identity morphisms and [[zero morphisms]] on these objects, hence the [[hom-spaces]] are
 
    $$
-     Seq(n_1,n_2) = 
+     Seq(n_1,n_2)  
+       \;\coloneqq\;
      \left\{
        \array{
           S^0 & for\; n_1 = n_2
@@ -2661,7 +2775,8 @@ Define the following [[pointed topologically enriched categories|pointed topolog
 1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]] with [[zero morphisms]] adjoined: its [[objects]] are the [[finite sets]] $\overline{n} \coloneqq \{1, \cdots,n\}$ for $n \in \mathbb{N}$, all non-[[zero morphism|zero]] morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma_n$, hence the [[hom-spaces]] are the following [[discrete topological spaces]]:
 
    $$
-     Sym(n_1, n_2) =
+     Sym(n_1, n_2) 
+      \;\coloneqq\;
      \left\{
        \array{
           (\Sigma_{n_1})_+ & for \; n_1 = n_2
@@ -2688,7 +2803,7 @@ Define the following [[pointed topologically enriched categories|pointed topolog
   
   $$
     Orth(V_1,V_2) 
-    \simeq
+      \;\coloneqq\;
     \left\{
        \array{
          O(V_1)_+ & for \; dim(V_1) = dim(V_2)
@@ -2764,14 +2879,67 @@ for the restriction of the excisive functor incarnation of the [[sphere spectrum
 
 =--
 
++-- {: .num_prop #BraidedFunctorsOrthAndSym}
+###### Proposition
+
+The functors $seq$, $sym$ and $orth$ in def. \ref{TopologicalDiagramCategoriesForSpectra} become [[strong monoidal functors]] (def. \ref{LaxMonoidalFunctor}) when equipped with the canonical isomorphisms
+
+$$
+  seq(n_1) \cup seq(n_2)
+   =
+  \{1,\cdots, n_1\} \cup \{1, \cdots, n_2\}
+  \simeq
+   \{1, \cdots, n_1+ n_2\}
+  =
+  seq(n_1 + n_2)
+$$
+
+and
+
+$$
+  sym(\{1,\cdots,n_1\}) \oplus sym(\{1,\cdots,n_2\})
+  =
+  \mathbb{R}^{n_1} \oplus \mathbb{R}^{n_2}
+  \simeq
+  \mathbb{R}^{n_1 + n_2}
+  =
+  sym(\{1,\cdots, n_1\} \cup \{1,\cdots, n_2\})
+$$
+
+and
+
+$$
+  orth(V_1) \wedge orth(V_2)
+  =
+  S^{V_1} \wedge S^{V_2}
+  \simeq
+  S^{V_1 \oplus V_2}
+  =
+  orth(V_1 \oplus V_2)
+  \,.
+$$
+
+Moreover, $orth$ and $sym$ are [[braided monoidal functors]] (def. \ref{LaxMonoidalFunctor}) (hence [[symmetric monoidal functors]], remark \ref{SymmetricMonoidalFunctor}). But $seq$ is _not_ braided monoidal.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is clear from inspection. 
+
+For the second statement it is sufficient to observe that all the nontrivial braiding of [[n-spheres]] in $Top^{\ast/}_{cg}$ is given by the maps induced from exchanging coordinates in the realization of $n$-spheres as [[one-point compactifications]] of [[Cartesian spaces]] $S^n \simeq (\mathbb{R}^n)^\ast$. This corresponds precisely to the action of the [[symmetric group]] inside the [[orthogonal group]] acting via the canonical action of the orthogonal group on $\mathbb{R}^n$. This shows that $sym$ and $orth$ are braided, for they include precisely these objects (the $n$-spheres) with these braidings on them. Finally it is clear that $seq$ is not braided, because the braiding on $Seq$ is trivial, while that on $Sym$ is not, so $seq$ necessrily fails to preserve precisely these non-trivial isomorphisms.
+
+=--
+
 
 +-- {: .num_remark #RestrictionsOfExcisiveSphere}
 ###### Remark
 
 
-Since $\mathbb{S}_{exc}$ is the [[tensor unit]] with repect to the [[Day convolution]] product on pre-excisive functors, and since it is therefore canonically a [[commutative monoid]], by example \ref{MonoidGivenByTensorUnit}, 
+Since the standard excisive incarnation $\mathbb{S}_{exc}$ of the [[sphere spectrum]] (def. \ref{FinitePointedCWComplexes}) is the [[tensor unit]] with repect to the [[Day convolution]] product on pre-excisive functors, and since it is therefore canonically a [[commutative monoid]], by example \ref{MonoidGivenByTensorUnit}, 
 prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution}
-says that all these restricted sphere spectra are still [[monoid object|monoids]], and that under restriction every [[pre-excisive functor]], regarded as a $\mathbb{S}_{exc}$-[[module object|module]] via remark \ref{EveryPreExcisiveFunctorIsSModule}, canonically becomes a [[module object|module]] under the restricted sphere spectrum:
+says that the restricted sphere spectra $\mathbb{S}_{orth}$, $\mathbb{S}_{sym}$ and $\mathbb{S}_{seq}$ are still [[monoid object|monoids]], and that under restriction every [[pre-excisive functor]], regarded as a $\mathbb{S}_{exc}$-[[module object|module]] via remark \ref{EveryPreExcisiveFunctorIsSModule}, canonically becomes a [[module object|module]] under the restricted sphere spectrum:
 
 $$
   \begin{aligned}
@@ -2802,7 +2970,8 @@ $$
   \,.
 $$
 
-However, while $orth$ and $sym$ are [[braided monoidal functors]], the functor $seq$ is not braided, hence $\mathbb{S}_{orth}$ and $\mathbb{S}_{sym}$ are commutative monoids, but $\mathbb{S}_{Seq}$ is not commutative. Hence prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution} gives the following situation
+Since all three functors $orth$, $sym$ and $seq$ are strong monoidal functors by prop. \ref{BraidedFunctorsOrthAndSym}, all three restricted sphere spectra $\mathbb{S}_{orth}$, $\mathbb{S}_{sym}$ and $\mathbb{S}_{seq}$ canonically are [[monoids]], by prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution}.
+Moreover, according to prop. \ref{BraidedFunctorsOrthAndSym}, $orth$ and $sym$ are [[braided monoidal functors]], while functor $seq$ is not braided, therefore prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution} furthermore gives that $\mathbb{S}_{orth}$ and $\mathbb{S}_{sym}$ are [[commutative monoid in a symmetric monoidal category|commutative monoids]], while $\mathbb{S}_{seq}$ is not commutative:
 
 
 | [[sphere spectrum]] | $\mathbb{S}_{exc}$ | $\mathbb{S}_{orth}$ | $\mathbb{S}_{sym}$ | $\mathbb{S}_{seq}$ |
@@ -3700,13 +3869,15 @@ witnessed by the following composite [[natural isomorphism]]:
 $$
   [\mathcal{C}, Top^{\ast/}_{cg}](y(c)\wedge K, F)
     \;\simeq\;
-  Top^{\ast/}_{cg}(K, [\mathcal{C}, Top^{\ast/}_{cg}](y(c),  F)  )
+  Maps(K, [\mathcal{C}, Top^{\ast/}_{cg}](y(c),  F)  )_\ast
     \;\simeq\;
+  Maps(K,F(c))_\ast
+   \;=\;
   Top^{\ast/}_{cg}(K,F(c))
   \,,
 $$
 
-where the first is the defining isomorphism of [[tensoring]], while the second is the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}).
+where the first is the isomorphism of [[tensoring]] from prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}, while the second is the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}).
 
 From this, the second statement follows by the proof of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}.
 
