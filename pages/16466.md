@@ -1854,7 +1854,7 @@ are monoid homomorphisms, with $E \otimes E$ equipped with the above monoid stru
 
 =--
 
-### Modules in tensor categories
+### Modules in tensor categories and Super vector bundles
  {#Modules InTensorCategories}
 
 
