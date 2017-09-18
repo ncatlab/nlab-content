@@ -204,7 +204,7 @@ defines the **mapping cone** $cone(f)$ of $f$: the result of forming the cylinde
 
 =--
 
-The geometric intuition behind this is best seen in the archetypical example of the [[model category]] [[topTop]]. See the example _[For topological spaces](#ForTopologicalSpaces)_ below. The example _[For chain complexes](InChainComplexes)_ can be understood similarly geometrically by thinking of all chain complexes as [[singular chain complex|singular chains]] on topological spaces.
+The geometric intuition behind this is best seen in the archetypical example of the [[classical model structure on topological spaces]]. See the example _[For topological spaces](#ForTopologicalSpaces)_ below. The example _[For chain complexes](InChainComplexes)_ can be understood similarly geometrically by thinking of all chain complexes as [[singular chain complex|singular chains]] on topological spaces.
 
 
 ## Examples
@@ -222,7 +222,7 @@ The mapping cone of the morphism $X \to {*}$ to the [[terminal object]] is the [
 The notion _mapping cone_  derives its name from its geometrical 
 interpretation in the category [[Top]] of [[topological spaces]].
 
-For details see at _[[topological cofiber sequence]]_.
+For more details see also at _[[topological cofiber sequence]]_.
 
 
 With respect to the standard [[model structure on topological spaces]] every [[CW-complex]] is a cofibrant object, and hence mapping cones on maps between CW-complexes have intrinsic meaning in [[homotopy theory]].
