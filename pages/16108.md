@@ -1,0 +1,22 @@
+##Idea
+
+We consider a presentation, $\mathcal{P} = (X : R)$, of a group $G$. We thus have a 
+short exact sequence,
+$$1\to N \to F \to G \to 1,$$ 
+
+where $F = F(X)$, the free group on the set $X$, $R$ is a 
+subset of $F$ and $N = N(R)$ is the normal closure in $F$ of the set $R$.  The group, 
+$F$, acts on $N$ by conjugation: ${}^u c = ucu^{-1}$,  $c\in N$, $u \in F$, and the elements of $N$ are words in the conjugates of the elements of $R$:
+
+$$c = {}^{u_1}(r_1^{\varepsilon_1}){}^{u_2}(r_2^{\varepsilon_2})\ldots 
+{}^{u_n}(r_n^{\varepsilon_n}),$$
+often says such elements are _consequences_ of 
+$R$.  Heuristically, an **identity among the relations** of $\mathcal{P}$ is such an element, $c$, which equals 1.  
+
+The problem of what this actually _means_ is analogous to that of working with a relation, since, for example, in the presentation, $( a : a^3)$, of $C_3$, the cyclic group of order 3, if $a$ is thought of as being an element of $C_3$, then $a^3 = 1$! Doesn't that say the presentation is $( a : 1)$?
+
+Why is this then different from the situation with the 'presentation', $( a : a = 1)$?  To get around that mess, the 
+free group on the generators, $F(X)$, was introduced and, of course, in $F(\{a\})$, $a^3$ is not 1. The relation is thus thought of as being a piece of data that is giving the instruction to rewrite that element to 1.
+
+ A similar device, namely [[free crossed module]]s on the presentation will be introduced in a moment to handle the 
+identities.  
