@@ -1,20 +1,5 @@
 
 
-$\,$
-
-+-- {: .query}
-
-$\;\;$ possible thesis topic:
- 
-
-$\;\;$ **[Topological K-Theory](https://ncatlab.org/schreiber/print/Topological+K-Theory)**
-
-=--
-
-
-$\,$
-
-
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://www.christiansaemann.de/higherworkshop2014/photos/thumb.Urs.jpg" alt="Urs Schreiber at Fields Institute" />
 </div>
 
@@ -82,7 +67,15 @@ Since summer 2015 I have given several enactments of a lecture series
 
 In summer 2016 I taught a master course
 
-* _[[Introduction to Stable homotopy theory|Stable Homotopy Theory]]_.
+* _[[Introduction to Stable homotopy theory|Stable Homotopy Theory]]_
+
+and organized a seminar on
+
+* _[[Introduction to Stable homotopy theory -- S|Complex oriented cohomology theory]]_.
+
+In winter 2016/17 I am giving a lecture on
+
+* _[[schreiber:From the Superpoint to T-Folds|Super Cartan Geometry]]_
 
 A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
 
