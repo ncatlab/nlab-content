@@ -317,7 +317,7 @@ $$
 The [[suspension spectrum]] (example \ref{SuspensionSpectrum}) of the point is the **standard sequential [[sphere spectrum]]** 
 
 $$
-  \mathbb{S}_{seq} \coloneqq \Sigma^\infty \ast
+  \mathbb{S}_{seq} \coloneqq \Sigma^\infty S^0
   \,.
 $$
 
@@ -512,73 +512,6 @@ For the [[adjunction]] of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering}
 =--
 
 
-+-- {: .num_example #StandardCylinderSpectrumSequential}
-###### Example
-
-For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, its **standard [[cylinder spectrum]]** is its [[smash product|smash]] [[tensoring]] $X \wedge (I_+)$, according to def. \ref{TensoringAndPoweringOfSequentialSpectra}, with the standard interval ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalInterval)) with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). The component spaces of the [[cylinder spectrum]] are the standard [[reduced cylinders]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) of the component spaces of $X$:
-
-$$
-  (X \wedge (I_+))_n
-  =
-  X_n \wedge I_+
-  \,.
-$$
-
-By the functoriality of the [[smash product|smash]] [[tensoring]], the factoring 
-
-$$
-  \nabla_{S^0} \;\colon\; S^0 \vee S^0 \longrightarrow I_+ \longrightarrow S^0
-$$
-
-of the [[codiagonal]] on the [[0-sphere]] through the standard interval with a base point adjoined, gives a factoring of the [[codiagonal]] of $X$ through its standard cylinder spectrum
-
-$$
-  \nabla_X
-  \;\colon\;
-  X \vee X 
-    \overset{X \wedge (S^0 \vee S^0  \to I_+)}{\longrightarrow}
-  X \wedge (I_+)
-   \overset{X \wedge (I_+ \to S^0) }{\longrightarrow}
-  X
-$$
-
-(where we are using that [[wedge sum]] is the [[coproduct]] in [[pointed topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct)).)
-
-=--
-
-+-- {: .num_example #StandardPathSpaceSpectrumSequential}
-###### Example
-
-For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, its **standard path space spectrum** is its [[powering]] $Maps(I_+,X)$, def. \ref{TensoringAndPoweringOfSequentialSpectra}, with the standard interval ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalInterval)) with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). The component spaces of the path space spectrum are the standard path space objects of the component spaces of $X$:
-
-$$
-  (Maps(I_+, X)_\ast)_n
-  =
-  Maps(I_+, X_n)_\ast
-  \,.
-$$
-
-By the functoriality of the [[powering]], the factoring 
-
-$$
-  \nabla_{S^0} \;\colon\; S^0 \vee S^0 \longrightarrow I_+ \longrightarrow S^0
-$$
-
-of the [[codiagonal]] on the [[0-sphere]] through the standard interval with a base point adjoined, gives a factoring of the [[diagonal]] of $X$ through its standard path space spectrum
-
-$$
-  \Delta_X
-    \;\colon\;
-  X
-   \overset{Maps(I_+ \to S^0, X)_\ast, }{\longrightarrow}
-  Maps(I_+,X)_\ast
-   \overset{Maps(S^0 \vee S^0 \to I_+, X)_\ast}{\longrightarrow}
-  X \times X
-$$
-
-(where we are using that [[wedge sum]] is the [[coproduct]] in [[pointed topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct))).
-
-=--
 
 
 
@@ -1171,6 +1104,41 @@ $$
 
 =--
 
++-- {: .num_example #StandardCylinderSpectrumSequential}
+###### Example
+
+For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, its **standard [[cylinder spectrum]]** is its [[smash product|smash]] [[tensoring]] $X \wedge (I_+)$, according to def. \ref{TensoringAndPoweringOfSequentialSpectra}, with the standard interval ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalInterval)) with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). The component spaces of the [[cylinder spectrum]] are the standard [[reduced cylinders]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) of the component spaces of $X$:
+
+$$
+  (X \wedge (I_+))_n
+  =
+  X_n \wedge I_+
+  \,.
+$$
+
+By the functoriality of the [[smash product|smash]] [[tensoring]], the factoring 
+
+$$
+  \nabla_{S^0} \;\colon\; S^0 \vee S^0 \longrightarrow I_+ \longrightarrow S^0
+$$
+
+of the [[codiagonal]] on the [[0-sphere]] through the standard interval with a base point adjoined, gives a factoring of the [[codiagonal]] of $X$ through its standard cylinder spectrum
+
+$$
+  \nabla_X
+  \;\colon\;
+  X \vee X 
+    \overset{X \wedge (S^0 \vee S^0  \to I_+)}{\longrightarrow}
+  X \wedge (I_+)
+   \overset{X \wedge (I_+ \to S^0) }{\longrightarrow}
+  X
+$$
+
+(where we are using that [[wedge sum]] is the [[coproduct]] in [[pointed topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct)).)
+
+=--
+
+
 ##### Suspension and looping
 
 We discuss models for the operation of [[reduced suspension]] and forming [[loop space objects]] of sequential spectra.
@@ -1200,47 +1168,12 @@ $$
   \,.
 $$
 
-Dually, the standard looping spectrum $Maps(S^1,X)_\ast$ of def. \ref{SequentialSpectrumRealSuspension} is equivalently the [[fiber]] (formed via prop. \ref{LimitsAndColimitsOfSequentialSpectra}) of the canonical projection from the standard path space spectrum $Maps(I_+,X)_\ast$ (example \ref{StandardPathSpaceSpectrumSequential}):
-
-$$
-  Maps(S^1,X)_\ast 
-   \simeq
-  fib\left(
-    Maps(I_+,X)_\ast \to X \times X
-  \right)
-  \,.
-$$
-
 =--
 
 +-- {: .proof}
 ###### Proof
 
-For the standard suspension this is immediate from the componentwise construction of the smash tensoring and the componentwise computation of colimits of spectra via prop. \ref{LimitsAndColimitsOfSequentialSpectra}.
-
-For the standard looping spectrum it is more tedious to check this in components, but it follows from the previous statement and the adjunction of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} that for all $X, Y \in SeqSpec(Top_{cg})$ there is a [[natural bijection]]
-
-$$
-  \array{
-    Hom(X, Maps(S^1, Y)_\ast)
-      & \overset{\simeq}{\longrightarrow} &
-    Hom(X \wedge S^1, Y)
-    \\
-    && \downarrow^{\mathrlap{\simeq}}
-    \\
-    Hom(X, fib(Maps(I_+,Y)_\ast \to Y \times Y))
-      & \overset{\simeq}{\longleftarrow} &
-    Hom(cofib(X \vee X \to X \wedge I_+), Y)
-  }
-  \,.
-$$
-
-Since this in natural in $X$, the [[Yoneda lemma]] implies an isomorphism
-
-$$
-  Maps(S^1, Y)_\ast \simeq fib(Maps(I_+,Y)_\ast \to Y \times Y)
-  \,.
-$$
+This is immediate from the componentwise construction of the smash tensoring and the componentwise computation of colimits of spectra via prop. \ref{LimitsAndColimitsOfSequentialSpectra}.
 
 =--
 
