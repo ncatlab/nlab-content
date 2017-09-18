@@ -89,7 +89,7 @@ The phrase *$\alpha$-vertex path* means any *path whose domain is $\alpha$*.
 
 In our development, it will be useful to characterize various classes of monomorphisms in $\mathsf{Dgr}$. We begin with plain monomorphisms. 
 
-+-- {: .num_prop} 
++-- {: .num_prop #Mono} 
 ###### Proposition 
 A morphism of digraphs $f: D \to D'$ is monic iff its underlying function $U(f)$ is monic. 
 =-- 
@@ -116,7 +116,7 @@ A *path* in $D$ is a walk $P: \alpha \to D$ whose underlying function is [[injec
 
 =--
 
-Or what is the same, that $\mathsf{Dgr}(1, P)$ is a [[monomorphism]] in $Set$. 
+Or what is the same, that $\mathsf{Dgr}(1, P)$ is a [[monomorphism]] in $Set$. In view of Proposition \ref{Mono}, we may also define a path to be a monic walk. 
 
 +-- {: .num_defn #Trail}
 ###### Definition
@@ -138,8 +138,34 @@ In a digraph $D$, every path is a trail.
 
 +-- {: .proof} 
 ###### Proof 
-If $P: \alpha \to D$ is a path and $e_P(i) = e_P(j)$ for $i, j \in \alpha$, then $(P(i), P(i+1)) = (P(j), P(j+1))$, so $P(i) = P(j)$. By injectivity of the function $P$, it follows that $i = j$. Thus $e_P$ is injective. 
+Since we just observed that a path $P$ is the same as a monic walk, and since representable functors preserve monomorphisms, it follows that $e_P = \mathsf{Dgr}(2, P)$ is a monomorphism. 
 =--
+
+## Symmetrizing and "weak" notions 
+
+It is often useful to relate digraphs = directed graphs to *undirected* graphs, and give parallels for some of the digraph notions above in the context of undirected graphs. A slick way of doing this is by invoking a "symmetrizing" construction. 
+
++-- {: .num_defn} 
+###### Definition 
+For a digraph $D$, we define $Symm(D)$ to have the same vertices as $D$, and the arc relation to be the symmetric closure of $D$. In other words, $(v, w)$ is an arc of $Symm(D)$ iff $(v, w)$ or $(w, v)$ is an arc of $D$. 
+=-- 
+
+Clearly the symmetric closure of an irreflexive relation remains irreflexive, so $Symm(D)$ is again a digraph, and the assignment $D \mapsto Symm(D)$ is the object part of an obvious functor $Symm: \mathsf{Dgr} \to \mathsf{Dgr}$. Also the obvious monomorphism $D \to Symm(D)$ is the component $u_D$ of a [[natural transformation]] 
+
+$$u: 1_\mathsf{Dgr} \to Symm.$$ 
+
++-- {: .num_theorem} 
+###### Theorem 
+The functor $Symm$ carries an [[idempotent monad]] structure. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+It is clear that $u_{Symm(D)}: Symm(D) \to Symm^2(D)$ is an [[isomorphism]] because taking the symmetric closure of a relation is itself idempotent. The multiplication $m: Symm^2 \to Symm$ of the monad is defined by taking the inverse: $m = u_{Symm}^{-1}$. Then $m$ is natural and the unit law $m \circ u_{Symm} = 1$ is automatic. The associativity of $m$ follows by inverting a naturality square for $u$. 
+=-- 
+
+Morally we may define the category of undirected graphs to be the category of algebras over the monad $Symm$. In any case, this is a full subcategory of $\mathsf{Dgr}$, and we may proceed to "weaken" various of the notions above to the undirected context. (To be continued) 
+
 
 
 ## Miscellaneous notions 
