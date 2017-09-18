@@ -334,7 +334,7 @@ $$
   \,.
 $$
 
-Notice that the top square is a pushout by construction, and the total one by assumption.  Therefore by the general theorem about pastings of [[pushout]]s, also the lower square is a pushout.
+Notice that the top square is a pushout by construction, and the total one by assumption.  Therefore by the [[pasting law]], also the lower square is a pushout.
 
 Then factor $K \to Y$ as a cofibration followed by a weak equivalence $K \hookrightarrow Z \stackrel{\simeq}{\to} Y$
 and push that factorization through the double diagram, to obtain
