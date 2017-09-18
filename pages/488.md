@@ -39,6 +39,17 @@ Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in 
 
 Boolean toposes are closed related to [[measurable spaces]] (e.g [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
 
+### As atoms in a subtopos lattice
+
++-- {: .num_prop}
+###### Proposition
+
+In a [[lattice of subtoposes]] the 2-valued Boolean toposes are the [[atoms]]. 
+
+=--
+
+See [this proposition](subtopos#BooleantoposesAreAtoms).
+
 ## Examples
 
 With [[excluded middle]] in the meta-logic, every [[well-pointed topos]] is a Boolean topos. This includes [[Set]] and models of [[ETCS]]. 
