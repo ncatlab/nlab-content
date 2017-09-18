@@ -1,4 +1,10 @@
 
 * [website](http://math.mit.edu/~psh/)
 
+## related $n$Lab entries
+
+* [[model category]]
+
+* [[model structure on topological spaces]]
+
 category: people
