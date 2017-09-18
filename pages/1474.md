@@ -244,7 +244,7 @@ Let $X$ be a [[topological space]] and write $Cl(\Delta_X)$ for the [[topologica
 
 $$
   \array{
-     X &\overset{\Delta_X}{\longrightarrow}& Y
+     X &\overset{\Delta_X}{\longrightarrow}& X \times X
      \\
      x &\mapsto& (x,x)
   }
