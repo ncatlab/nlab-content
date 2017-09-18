@@ -105,7 +105,7 @@ _"The ultimate aim of algebraic homotopy is to construct a purely
   algebraic theory, which is equivalent to homotopy theory in the same sort of 
   way that 'analytic' is equivalent to 'pure' projective geometry."_
 
-This theme has been taken up more recently by Baues, using a type of abstract homotopy theory closely related to Ken Brown's [[category of fibrant objects|categories of fibrant objects]].  Whitehead's own work was extended by Ronnie Brown and Phil Higgins, see [[nonabelian algebraic topology]].
+This theme was taken up  by Baues, (1988), using a type of abstract homotopy theory closely related to Ken Brown's [[category of fibrant objects|categories of fibrant objects]].  Whitehead's own work was extended by Ronnie Brown and Phil Higgins, see [[nonabelian algebraic topology]].
 
 *  [[homotopy type theory]]: A formalization of homotopy theory in terms of [[Martin-Löf dependent type theory]] is _[[homotopy type theory]]_.
 
