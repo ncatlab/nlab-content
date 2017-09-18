@@ -50,7 +50,7 @@ Combining this, one finds that [[supergravity]] coupled to [[super Yang-Mills th
 
 The relation was apparently first made explicit in 
 
-* Taichiro Kugo, [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2, p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
+* [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2, p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
 
 A pedagogical review is in 
 
@@ -93,3 +93,8 @@ Normed division algebras are used to describe the construction of [[Lie 2-algebr
 
 [[!redirects supersymmetry and division algebra]]
 [[!redirects supersymmetry and division algebras]]
+
+[[!redirects real spin representations and division algebras]]
+[[!redirects division algebras and real spin representations]]
+
+
