@@ -157,6 +157,7 @@ $$
 $$
 
 of [[categories of presheaves]] on some category $K$.
+
 =--
 
 
@@ -169,6 +170,7 @@ Here _accessibly embedded_ means that $C \hookrightarrow Psh(K)$ is an [[accessi
 
 =--
 
+See also at _[[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]_.
 
 
 
