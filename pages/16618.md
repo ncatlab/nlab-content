@@ -9,19 +9,19 @@ An *extension system* is a way of presenting a [[monad]] that doesn't involve it
 
 ## Definition
 
-An **extension system** on a category $C$ consists of
+An **extension system** ([Marmolejo-Wood 10](#MarmolejoWood10)) on a [[category]] $C$ consists of
 
-* For every object $A\in C$, an object $T A\in C$ and a morphism $\eta_A : A\to T A$, and
+* For every [[object]] $A\in C$, an object $T A\in C$ and a [[morphism]] $\eta_A \colon A\to T A$, and
 
-* For every morphism $f:B\to T A$ in $C$, a morphism $f^T:T B \to T A$, satisfying the axioms
+* For every [[morphism]] $f\colon B\to T A$ in $C$, a morphism $f^T \colon T B \to T A$, satisfying the following [[axioms]]:
 
-* For every $A$ we have $(\eta_A)^T = 1_{T A}$,
+  * For every $A$ we have $(\eta_A)^T = 1_{T A}$,
 
-* For every $f:B\to T A$, we have $f^T \circ \eta_B = f$, and
+  * For every $f \colon B\to T A$, we have $f^T \circ \eta_B = f$, and
 
-* For every $f:B\to T A$ and $g:C \to T B$, we have $f^T \circ g^T = (f^T \circ g)^T$.
+  * For every $f \colon B\to T A$ and $g:C \to T B$, we have $f^T \circ g^T = (f^T \circ g)^T$.
 
-Given these data, we make $T$ a functor by $T f = (\eta_A \circ f)^T$, we define multiplication maps $\mu_A:T T A \to T A$ as $(1_{T A})^T$, and we verify that the result is a [[monad]].  Conversely, given a monad $(T,\eta,\mu)$, we define $f^T = \mu_A \circ T f$ and check the above axioms.  Thus, extension systems are equivalent to monads.
+Given these data, we make $T$ a [[functor]] by $T f = (\eta_A \circ f)^T$, we define multiplication maps $\mu_A:T T A \to T A$ as $(1_{T A})^T$, and we verify that the result is a [[monad]].  Conversely, given a monad $(T,\eta,\mu)$, we define $f^T = \mu_A \circ T f$ and check the above axioms.  Thus, extension systems are [[equivalence|equivalent]] to monads.
 
 ### The Kleisli category
 
@@ -47,7 +47,7 @@ When $C$ is a [[cartesian closed category]], to make $T$ a [[strong monad]] we s
 
 The above definitions are from
 
-* F. Marmolejo and R. J. Wood, *Monads as extension systems -- no iteration is necessary*, [TAC](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html) 2010.
+* {#MarmolejoWood10} F. Marmolejo and R. J. Wood, *Monads as extension systems -- no iteration is necessary*, [TAC](http://www.tac.mta.ca/tac/volumes/24/4/24-04abs.html) 2010.
 
 but the definition of monad as extension system appeared in 
 
