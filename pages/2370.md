@@ -20,7 +20,7 @@ for objects in the [[stable (∞,1)-category of spectra]]
 and the [[stable homotopy category]] more refined than that given by [[sequential spectra]]. The notion of _coordinate-free spectrum_ is such
 a refinement.
 
-Where a [[sequential spectrum]] is a collection of [[pointed topological space]] indexed by  the [[natural numbers]] $\mahbb{N}$, a coordinate free spectrum is a collection of [[topological space]]s index by all finite dimensional subspaces of a real inner product [[vector space]] $U$ isomorphic to $\mathbb{R}^\infty$.
+Where a [[sequential spectrum]] is a collection of [[pointed topological space]] indexed by  the [[natural numbers]] $\mathbb{N}$, a coordinate free spectrum is a collection of [[topological space]]s index by all finite dimensional subspaces of a real inner product [[vector space]] $U$ isomorphic to $\mathbb{R}^\infty$.
 
 Notice that also spectra realized as [[excisive functors]] are coordinate-free in an evident sense, as these are indexed on all [[finite homotopy types]].
 
