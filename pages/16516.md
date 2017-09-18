@@ -1447,6 +1447,7 @@ This complete brane scan is no longer just a table, but is a tree, a bouquet, wh
 
 
 
+
 +-- {: .num_defn #RationalSphereAlgebra}
 ###### Definition
 
@@ -1522,7 +1523,7 @@ def. \ref{ThePsiPsiTermsInCEOfSuperMinkowski}, satisfy
 
 1. $d \mu_4 = 0$;
 
-1. $d \mu_7 = 15 \, g_4 \wedge g_4$
+1. $d \mu_7 = 15 \, \mu_4 \wedge \mu_4$
 
 =--
 
@@ -1608,7 +1609,7 @@ $$
   \mathbb{R}^{10,1\vert \mathbf{32}}
 $$
 
-given dually by $\psi^\alpha \mapsto \psi^\alpha$, $e^a \mapsto e^a$, $h_3 \mapsto 0$, $g_4 \mapsto 0$, is an equivalence of $L_\infty$-algebras. It factors the morphism $\mathfrak{m}2\mathfrak{brane} \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}$ from def. \ref{m2braneLie3Algebra} through a morphism $\mathfrak{m}2\mathfrak{brane}  \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}_{res}$ which on [[formal dual]] CE-elements is given by $g_4 \mapsto 0$ and by being the identity on all other generators.
+given dually by $\psi^\alpha \mapsto \psi^\alpha$, $e^a \mapsto e^a$, is an equivalence of $L_\infty$-algebras. It factors the morphism $\mathfrak{m}2\mathfrak{brane} \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}$ from def. \ref{m2braneLie3Algebra} through a morphism $\mathfrak{m}2\mathfrak{brane}  \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}_{res}$ which on [[nLab:formal dual]] CE-elements is given by $h_3 \mapsto 0$, $g_4 \mapsto 0$ and by being the identity on all other generators.
 
 
 =--
@@ -1643,7 +1644,7 @@ $$
     b^6 \mathbb{R}/b^2 \mathbb{R}
     \\
     &&
-    & {}_{\mathllap{\mu_4}}\searrow && \swarrow
+    & {}_{\mathllap{}}\searrow && \swarrow
     \\
     &&
     && b^3 \mathbb{R}
