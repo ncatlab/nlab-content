@@ -6,7 +6,7 @@
 ## Definition
 
 
-For $n$ a positive integer and $I$ a (left) [[ideal]] of a [[ring]] $R$, let $I^n$ denote the ideal of $R$ consisting of all $n$-tuple products $i_1\cdots i_n$ of elements in $I$. 
+For $n$ a positive integer and $I$ a (left) [[ideal]] of a [[ring]] $R$, let $I^n$ denote the ideal of $R$ consisting of all finite sums of $n$-tuple products $i_1\cdots i_n$ of elements in $I$. 
 
 +-- {: .num_defn }
 ###### Definition
