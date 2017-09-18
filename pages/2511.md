@@ -5,6 +5,10 @@
 
 * [[D'Auria-Fre formulation of supergravity]]
 
+* [[gauged supergravity]]
+
+* [[M2-brane]], [[AdS-CFT]]
+
 
 category: people
 
