@@ -206,7 +206,7 @@ $$
   M O(k + \ell)
 $$
 
-that combine to give $M O$ the structure of a [[ring spectrum]].
+that combine to a [[functor with smash products]] and hence give $M O$ the structure of a [[ring spectrum]].
 
 =--
 
@@ -453,6 +453,45 @@ $$
 This observation appears as ([Wilson 13, prop. 4.4](#Wilson13)).
 
 ## Properties
+
+### Ring spectrum structure
+ {#RingSpectrumStructure}
+
+
+The universal Thom spectrum, def. \ref{UniversalThomSpectrum}, naturally inherits the structure of a [[ring spectrum]] as follows.
+
++-- {: .num_prop}
+###### Proposition
+
+There are canonical commuting diagrams
+
+$$
+  \array{
+    ( E (O(k)\times O(\ell))\underset{O(k)\times O(\ell)}{\times}) 
+    \mathbb{R}^k \oplus \mathbb{R}^\ell
+    &\longrightarrow& 
+    E O(k+\ell)\underset{O(k + ell)}{\times} \mathbb{R}^{k+\ell}
+    \\
+    \downarrow && \downarrow
+    \\
+    B O(k)\times B O(\ell)
+    &\stackrel{}{\longrightarrow}&
+    B O(k + \ell)
+  }
+  \,.
+$$
+
+Applying the [[Thom space]] functor to the top morphisms here gives morphisms
+
+$$
+  M O(k) \wedge M O(\ell)
+  \longrightarrow
+  M O(k + \ell)
+$$
+
+that combine to a [[functor with smash products]] and hence give $M O$ the structure of a [[ring spectrum]].
+
+=--
 
 ### Relation to the cobordism ring
 
