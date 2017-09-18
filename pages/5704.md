@@ -1,4 +1,8 @@
 
+> This entry is about the concept in topology. For _[[quotient vector spaces]]_ in linear algebras see there.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
