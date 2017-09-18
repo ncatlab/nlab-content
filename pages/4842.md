@@ -42,15 +42,25 @@ The degree of Vassiliev invariants defines a filtration on the space of knots (a
 
 1. The $n$th coefficient of the Conway polynomial is a Vassiliev invariant of order $\le n$.
 
+## Related concepts ## 
+
+* [[knot theory]]
+* [[Jones polynomial]]
+* [[Kontsevich integral]]
+* [[singularity]] 
+
 ## References ##
 
-Relate $n$Lab entries include [[knot theory]], [[Jones polynomial]], [[Kontsevich integral]], [[singularity]] 
 
 * [[V. A. Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992. 
 * [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
 * There is a huge online bibliography on Vassiliev invariants maintained by [[Dror Bar-Natan]] and Sergei Duzhin [here](http://www.pdmi.ras.ru/~duzhin/VasBib/Long).
 * S. Chmutov, S. Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, [arxiv/1103.5628](http://arxiv.org/abs/1103.5628)
 * Wolframworld [Vassiliev invariant](http://mathworld.wolfram.com/VassilievInvariant.html)
+
+See also Chapter 6 of
+
+* Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
 category: geometry, topology
 [[!redirects Vassiliev knot invariant]]
