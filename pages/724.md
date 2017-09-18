@@ -39,9 +39,7 @@ A join of [[subset]]s or [[subobject]]s is called a [[union]].
 
 ## Special cases
 
-A join of zero elements is a [[bottom]] element.  Any 
-
-element $a$ is a join of that one element.
+A join of zero elements is a [[bottom]] element.  Any element $a$ is a join of that one element.
 
 
 ## Properties
