@@ -352,7 +352,7 @@ Within mathematics, distributions are quite commonplace; for example, de Rham ap
 
 A proof is given in these [notes](http://www-math.mit.edu/~helgason/hormander.pdf) by Helgason. The basic idea is to prove there exists a **fundamental solution** of $D$, i.e., a distribution $T$ such that $D T = \delta_0$. Then $u = f * T$ is smooth. The existence of a fundamental solution involves a theorem of Paley-Wiener type. 
 
-## Varitants
+## Variants
 
 ### In synthetic differential geometry 
 
