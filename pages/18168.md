@@ -1,0 +1,26 @@
+
+## Statement
+
++-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
+###### Lemma
+**(shrinking lemma)**
+
+Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
+
+Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is cotained in the original patches:
+
+$$
+  \underset{i \in I}{\forall}
+  \left(
+     V_i \subset Cl(V_i) \subset U_i
+  \right)
+  \,.
+$$
+
+=--
+
+
+## References
+
+* Matt, _[General shrinking lemma for normal spaces](https://matthewhr.wordpress.com/2014/06/11/general-shrinking-lemma-for-normal-spaces/)_
+
