@@ -167,7 +167,7 @@ $$
   Y_k
    \overset{g_k}{\longrightarrow}
   A_k
-    \overset{}{\longrightarrow}
+    \overset{h_k}{\longrightarrow}
   \Sigma Y_{k+1}
 $$
 
@@ -201,7 +201,7 @@ $$
   \,,
 $$
 
-where each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongFiberSequencesOfMapsOfSpectra)) via [[connecting homomorphisms]] $\delta_{k,\bullet}$
+where each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongFiberSequencesOfMapsOfSpectra)) via [[connecting homomorphisms]] $[X,h_k]_\bullet$
 
 $$
   \cdots
@@ -220,7 +220,7 @@ $$
   \,.
 $$
 
-If we regard the [[connecting homomorphism]] $\delta_k$ as a morphism of degree -1, then all this information fits into one diagram of the form
+If we regard the [[connecting homomorphism]] $[X,h_k]$ as a morphism of degree -1, then all this information fits into one diagram of the form
 
 $$
   \array{
@@ -235,9 +235,9 @@ $$
    [X,Y_0]_\bullet
    \\
    && 
-   \downarrow &{}_{\mathllap{\delta_{2,\bullet}}}\nwarrow & 
-   \downarrow &{}_{\mathllap{\delta_{1,\bullet}}}\nwarrow &
-   \downarrow &{}_{\mathllap{\delta_{0,\bullet}}}\nwarrow
+   \downarrow &{}_{\mathllap{ [X,h_2]_\bullet }}\nwarrow & 
+   \downarrow &{}_{\mathllap{ [X,h_1]_\bullet }}\nwarrow &
+   \downarrow &{}_{\mathllap{ [X,h_0]_\bullet }}\nwarrow
    & \downarrow^{\mathrlap{[X,g_0]_\bullet}}
    \\
    && [X,A_3]_\bullet 
@@ -258,7 +258,7 @@ $$
        & \stackrel{[X,f_\bullet]_\bullet}{\longrightarrow} &
      [X,Y_\bullet]_{\bullet}
      \\
-       & {}_{\mathllap{\delta_{\bullet,\bullet}}}\nwarrow 
+       & {}_{\mathllap{ [X, h_\bullet]_\bullet }}\nwarrow 
        & \downarrow^{\mathrlap{[X, g_\bullet]_\bullet }}
      \\
      && 
@@ -286,7 +286,7 @@ Then the bidegree of the morphisms is
 |----------|----------|
 | $[X,f]$  | $(-1,-1)$ |
 | $[X,g]$  | $(0,0)$  |
-| $\delta$ | $(1,0)$ |
+| $[X,h]$ | $(1,0)$ |
 
 
 This way $t$ counts the cycles of going around the triangles:
@@ -299,7 +299,7 @@ $$
   D^{s,t}(X,Y)
     \stackrel{[X,g]}{\longrightarrow}
   E^{s,t}(X,Y)
-    \stackrel{\delta}{\longrightarrow}
+    \stackrel{[X,h]}{\longrightarrow}
   D^{s+1,t}(X,Y)
     \to
   \cdots
@@ -398,7 +398,7 @@ $$
     \\
     && && [X,Y_{s+1}]_{t-s-1}
     \\
-    && & {}^{\mathllap{\delta}}\nearrow 
+    && & {}^{\mathllap{ [X,h] }}\nearrow 
     && \searrow^{\mathrlap{ [X,g]  }}
     && && && \nearrow
     \\
@@ -408,7 +408,7 @@ $$
     && \stackrel{d_1 }{\longrightarrow} 
     && [X,A_{s+2}]_{t-s-2}
     \\
-    & \nearrow && && && {}_{\mathllap{ \delta }}\searrow 
+    & \nearrow && && && {}_{\mathllap{ [X,h] }}\searrow 
     && \nearrow_{\mathrlap{ [X,g] }}
     \\
     && && && && [X,Y_{s+2}]_{t-s-2}
@@ -417,7 +417,7 @@ $$
   }
 $$
 
-This gives rise to the horizontal ([[splicing of short exact sequences|splicing]]) composites $d_1$, as show above, and by the fact that the diagonal sequences are long exact, these are [[differentials]] in that they square to zero: $d_1^2 = 0$. Hence there is a [[cochain complex]]:
+This gives rise to the horizontal ([[splicing of short exact sequences|splicing]]) composites $d_1$, as shown, and by the fact that the diagonal sequences are long exact, these are [[differentials]] in that they square to zero: $(d_1)^2 = 0$. Hence there is a [[cochain complex]]:
 
 $$
   \array{
@@ -440,9 +440,7 @@ $$
   \,.
 $$
 
-We read off from the interlocking long exact sequences what these differentials _mean_: 
-
-an element $c \in [X,A_s]_{t-s}$ lifts to an element 
+We may read off from these interlocking long exact sequences what these differentials _mean_, as follows. An element $c \in [X,A_s]_{t-s}$ lifts to an element 
  $\hat c \in[X,Y_{s+2}]_{t-s-1} $ precisely if $d_1 c = 0$:
 
 $$
@@ -453,22 +451,20 @@ $$
     \\
     && && [X,Y_{s+1}]_{t-s-1}
     \\
-    && & {}^{\mathllap{ \delta }}\nearrow 
+    && & {}^{\mathllap{ [X,h] }}\nearrow 
     && \searrow^{\mathrlap{ [X,g]  }}
     \\
-    & c \in  & \pi_{t-s}(A_s)  [X,A_s]_{t-s}
+    & c \in  & [X,A_s]_{t-s}
     && 
     \underset{ d_1 }{\longrightarrow} 
    && [X,A_{s+1}]_{t-s-1}
   }
 $$
 
-This means that the [[cochain cohomology]] of the complex $([X,A_\bullet]_\bullet, d_1)$ produces elements of $[X,Y_\bullet]_\bullet$ and hence of $[X,Y]_\bullet$. (Which elements exactly arise this way is the question of the convergence of the induced spectral sequence, def. \ref{ExactCoupleSpectralSequence} below, which we turn to [further below](#Convergence)).
-
 In order to organize this observation, notice that in terms of the exact couple of remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}, the differential 
 
 $$
-  d_1  \;\coloneqq \; [X,g] \circ \delta
+  d_1  \;\coloneqq \; [X,g] \circ [X,h]
 $$
 
 is the composite 
@@ -500,7 +496,7 @@ $$
   }
 $$
 
-its **page** is the [[graded object|graded]][[chain complex]]
+its **page** is the [[graded object|graded]] [[chain complex]]
 
 $$
   (\mathcal{E}^{\bullet,\bullet}, d \coloneqq j \circ  k)
@@ -617,7 +613,7 @@ $$
   }
 $$
 
-and given another spectrum $X \in Ho(Spectra)$, the induced **[[spectral sequence of a filtered spectrum]]** is the [[spectral sequence]] that is induced, by def. \ref{ExactCoupleSpectralSequence} from the [[exact couple]] (def. \ref{ExactCouple}) given by def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}.
+and given another spectrum $X \in Ho(Spectra)$, the induced **[[spectral sequence of a filtered spectrum]]** is the [[spectral sequence]] that is induced, by def. \ref{ExactCoupleSpectralSequence} from the [[exact couple]] (def. \ref{ExactCouple}) given by def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}:
 
 $$
   \array{
@@ -635,7 +631,7 @@ $$
       &\overset{[X,f]}{\longrightarrow}&
     \underset{s,t}{\oplus} D^{s,t}(X,Y)
     \\
-    & {}_{\mathllap{\delta}}\nwarrow & \downarrow^{[X,g]}
+    & {}_{\mathllap{ [X, h] }}\nwarrow & \downarrow^{[X,g]}
     \\
     && \underset{s,t}{\oplus} E^{s,t}(X,Y)
   }
@@ -647,7 +643,7 @@ $$
       &\overset{[X,f]}{\longrightarrow}&
     \underset{s,t}{\oplus} [X,Y_s]_{t-s}
     \\
-    & {}_{\mathllap{\delta}}\nwarrow & \downarrow^{\mathrlap{[X,g]}}
+    & {}_{\mathllap{ [X,h] }}\nwarrow & \downarrow^{\mathrlap{[X,g]}}
     \\
     && [X,A_s]_{t-s}
   }
@@ -670,15 +666,20 @@ $$
 In particular the first page is
 
 $$
-  \mathcal{E}^{s,t}_1 = [X,A_s]_{t-s}
+  (\mathcal{E}^{s,t}_1 , \; d_1 ) 
+   \;=\; 
+  ([X,A_s]_{t-s}, [X, g \circ h]
 $$
+
+
+As we pass to derived exact couples, by def. \ref{DerivedExactCouple}, 
+the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by 
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
 </div>
 
-As we pass to derived exact couples, by def. \ref{DerivedExactCouple}, 
-the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by $(1,1)$ with each page, since
+$(1,1)$ with each page, since
 
 $$
   \begin{aligned}
@@ -704,6 +705,9 @@ $$
   \,.
 $$
 
+It is conventional to depict this in tables where $s$ increases vertically and $t-s$ increases horizontally.
+
+(This is "Adams type" grading convention for spectral sequences, different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention [prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence))
 
 =--
 
