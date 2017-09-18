@@ -81,6 +81,21 @@ commute.
 
 We may use the notation $(G_2,G_1,\delta)$, for this if the action is fairly obvious, including an explicit [[action]], $(G_2,G_1,\delta,\alpha)$, if there is a risk of confusion.
  
+If one unwraps the definitions in terms of automorphism groups to use merely finite products (for instance, writing the actions as $G_1 \times G_2 \to G_2$, together with commuting diagrams encoding the necessary properties), then crossed modules can be defined internal to any [[cartesian monoidal category]] $C$, namely as a structure involving internal groups in $C$. For instance, one might consider Lie crossed modules, which are crossed modules of [[Lie groups]]. These are relevant for certain models of the [[String group]].
+
+
+Alternatively, one can take another tack, and define crossed module objects in categories that support enough structure without using internal groups, the most general case of which, in practice, are [[semiabelian categories]]. There one considers the objects to behave 'like groups' in the sense that the category they form looks very much like the category of groups. Janelidze ([Janelidze 2003](#Janelidze_03)) defined the notion of internal crossed module in a semiabelian category (so that in the prototypical example of the category of groups, they reduce to the above notion). 
+
+A key result, also due to ([Janelidze 2003](#Janelidze_03)) and generalising the Brown-Spencer theorem from the case of ordinary crossed modules, is the following:
+
++-- {: .num_theorem}
+###### Theorem
+**(Janelidze's Brown-Spencer theorem).**
+Let $C$ be a semiabelian category. Then the category $XMod(C)$ of crossed modules in $C$ is equivalent to the category $Gpd(C)$ of internal groupoids in $C$.
+=--
+
+Here the notion of [[internal groupoid]] is the usual diagrammatic notion.
+
 ### Definition in terms of equations
 
 The two [[diagram]]s can be translated into equations, which may often be helpful.
@@ -188,6 +203,8 @@ This last example was one of the first investigated by Whitehead and his proof a
 * R. Brown, P. J. Higgins, and R. Sivera, _Nonabelian Algebraic Topology: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).
 
 * [[Peter J. Hilton]], 1953, _An Introduction to Homotopy Theory_, Cambridge University Press.
+
+* {#Janelidze_03} [[George Janelidze]], _Internal crossed modules_, Georgian Mathematical Journal **10** (2003) pp 99-114. ([EuDML](https://eudml.org/doc/51553))
 
 *  [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull.
 Amer. Math. Soc., 55 (1949), 453--496.
