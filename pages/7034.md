@@ -146,5 +146,7 @@ Discussion of this in the more general context of truncations is in
 [[!redirects propositions as some types]]
 
 [[!redirects propositional truncation]]
+[[!redirects propositional truncations]]
 [[!redirects squash type]]
+[[!redirects squash types]]
 [[!redirects isInhab]]
