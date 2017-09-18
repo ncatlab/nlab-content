@@ -8,3 +8,5 @@ Following the terminology at [[inner product space]], an element $x$ of $L$ is:
 * __indefinite__ if $x \ne y$ whenever $y \geq 0$ or $x \geq 0$,
 * __semidefinite__ if $x \ne y$ whenever $y$ is indefinite,
 * __nondegenerate__ if $x \ne 0$,
+
+[more to come, possible corrections]
