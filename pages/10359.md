@@ -25,7 +25,7 @@ The first statement was first observed for the [[Peierls bracket]] of [[local pr
 
 ## On paths in a symplectic manifold
 
-We describe here the off-shell Poisson bracket in the context of [[mechanics]], hence for [[mechanical systems]] with [[finite set|finite]]-[[dimension|dimensional]] [[phase space]]. The basic idea is that sketched in ([Marolf 93, section II](#Marolf93)), but we try to make it precise. Then we similarly look into the [[foliation]] by [[symplectic leaves]] as suggested by ([Khavkine 13](#Khavkine13)).
+We describe here the [[off-shell]] Poisson bracket in the context of [[mechanics]], hence for [[mechanical systems]] with [[finite set|finite]]-[[dimension|dimensional]] [[phase space]]. The basic idea is that sketched in ([Marolf 93, section II](#Marolf93)), but we try to make it precise. Then we similarly look into the [[foliation]] by [[symplectic leaves]] as suggested by ([Khavkine 13](#Khavkine13)).
 
 ### The trajectory space of a symplectic manifold
 
