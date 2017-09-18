@@ -57,6 +57,20 @@ $$
 
 ## Properties
 
+### As a monoidal functor
+
+Let $R$ be a commutative ring, and let $R\{X\}$ denote the free $R$-module on a set $X$.
+
++-- {: .num_prop }
+###### Proposition
+
+The free $R$-module functor is strong monoidal with respect to the Cartesian monoidal structure on sets, and the tensor product of $R$-modules.
+
+=--
+
+In other words, the free module construction turns set-theoretic products into tensor products. Thus, it preserves algebraic objects (such as [[monoid object]]s, [[Hopf monoid]] objects, etc.) and their homomorphisms. In particular, if $M$ is a monoid in the category of sets (and hence a bimonoid with the canonical comonoid structure) then $R\{M\}$ is a bimonoid object in $R \mathsf{Mod}$, which is precisely a $K$-bialgebra. A group $G$ in the category of sets is a Hopf monoid, and hence $R\{G\}$ is a Hopf algebra --- this is precisely the [[group algebra]] of $G$.
+
+
 ### Submodules of free modules
  {#SubmodulesOfFreeModules}
 
