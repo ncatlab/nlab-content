@@ -1,11 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-The result called **Hensel's lemma** is a generalisation of a result due to [[Kurt Hensel]] on solving polynomials in [[p-adic number]] rings. It applies to certain complete topological rings, and now [[local rings]] that satisfy the conclusion of the lemma (really a theorem) are called [[Henselian rings]].
+The result called **Hensel's lemma** is a generalisation of a result due to [[Kurt Hensel]] on solving [[polynomial]] [[equations]] in [[p-adic number]] [[rings]]. It applies to certain [[completion of a ring|complete]] [[topological rings]], and now [[local rings]] that satisfy the conclusion of the lemma (really a theorem) are called _[[Henselian rings]]_.
 
 ## Statement
 
