@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _harmonic map_ is a [[smooth function]] $f \colon X \longrightarrow Y$ between two [[Riemannian manifolds]] $(X,g_X)$, $(X,g_Y)$ which is a [[critical point]] of the [[Dirichlet energy]] [[functional]]
+A _harmonic map_ is a [[smooth function]] $f \colon X \longrightarrow Y$ between two [[Riemannian manifolds]] $(X,g_X)$, $(X,g_Y)$ which is a [[critical point]] of the Dirichlet [[kinetic energy]] [[functional]]
 
 $$
   E(f) \coloneqq \int_{X} \Vert d f\Vert^2 dVol_X
