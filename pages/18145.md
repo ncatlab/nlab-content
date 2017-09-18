@@ -22,7 +22,7 @@ More abstractly, this is the [[coproduct]] in the [[category]] [[Top]] of topolo
 
 ## Related concepts
 
-* [[product topological space]]
+[[!include universal constructions of topological spaces -- table]]
 
 
 [[!redirects disjoint union topological spaces]]
