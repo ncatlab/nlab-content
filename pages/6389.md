@@ -1,4 +1,4 @@
-I'm a visiting scholar at the University of Massachusetts Boston. My current research is in quantum information theory; my background is in statistical physics and stochastic processes.
+I'm a [visiting scholar](https://www.umb.edu/academics/csm/physics/faculty_staff) at the University of Massachusetts Boston. My current research is in [quantum information theory](https://arxiv.org/abs/1703.07901); my background is in [statistical physics, stochastic processes and evolutionary dynamics](https://arxiv.org/abs/1509.02958). I'm also [Blake Stacey](https://scirate.com/blake-stacey) at SciRate.
 
 Evidence of my lack of education:
 
