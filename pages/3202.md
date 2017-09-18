@@ -45,7 +45,7 @@ For $0 \leq p \lt 1$, one can modify the definition to make $L^p$ into an [[F-sp
 
 We offer here a proof that ${\|f\|_p}$ defines a norm in the case $1 \lt p \lt \infty$; the cases $p = 1$ and $p = \infty$ follow by continuity and are easy to check from first principles. The most usual textbook proofs involve a clever application of [[Hölder's inequality]]; the following proof is more straightforwardly geometric. All functions $f$ may be assumed to be real- or complex-valued. 
 
-+-- {: .un_thm} 
++-- {: .num_theorem} 
 ###### Theorem 
 Suppose $1 \leq p \leq \infty$, and suppose $\Omega$ is a measure space with measure $\mu$. Then the function ${|(-)|_p}\colon L^p(\Omega, \mu) \to \mathbb{R}$ defined by  
 $${\|f\|_p} \coloneqq (\int_\Omega {|f|^p} \,d\mu)^{1/p}$$ 
@@ -66,12 +66,13 @@ Our proof of Minkowski's inequality is broken down into a series of simple lemma
 
 First, some generalities. Let $V$ be a (real or complex) vector space equipped with a function ${\|(-)\|}\colon V \to [0, \infty]$ that satisfies the scaling axiom: ${\|t v\|} = {|t|} \, {\|v\|}$ for all scalars $t$, and the separation axiom: ${\|v\|} = 0$ implies $v = 0$. As usual, we define the [[unit ball]] in $V$ to be $\{v \in V \;|\; {\|v\|} \leq 1\}.$ 
 
-+-- {: .num_lem #conditions}
++-- {: .num_lemma #conditions}
 ###### Lemma
 Given that the scaling and separation axioms hold, the following conditions are equivalent: 
+
 1. The triangle inequality is satisfied. 
-2. The unit ball is convex. 
-3. If ${\|u\|} = {\|v\|} = 1$, then ${\|t u + (1-t)v\|} \leq 1$ for all $t \in [0, 1]$.  
+1. The unit ball is convex. 
+1. If ${\|u\|} = {\|v\|} = 1$, then ${\|t u + (1-t)v\|} \leq 1$ for all $t \in [0, 1]$.  
 =-- 
 
 +-- {: .proof}
@@ -101,14 +102,14 @@ This allows us to remove the cumbersome exponent $1/p$ in the definition of the 
 
 The next two lemmas may be proven by elementary calculus; we omit the proofs. (But you can also see the [full details](http://ncatlab.org/toddtrimble/published/p-norms).) 
 
-+-- {: .num_lem #2deriv}
++-- {: .num_lemma #2deriv}
 ###### Lemma
 Let $\alpha, \beta$ be two complex numbers, and define 
 $$\gamma(t) = {|\alpha + \beta t|^p}$$ 
 for _real_ $t$. Then $\gamma''(t)$ is nonnegative. 
 =-- 
 
-+-- {: .num_lem #convex}
++-- {: .num_lemma #convex}
 ###### Lemma
 Define $\phi\colon \mathbb{C} \to \mathbb{R}$ by $\phi(x) = |x|^p$.  Then $\phi$ is convex, i.e., for all $x, y$, 
 $${|t x + (1-t)y|^p} \leq t{|x|^p} + (1-t){|y|^p}$$ 
