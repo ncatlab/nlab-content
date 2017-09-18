@@ -1852,10 +1852,61 @@ $$
 are monoid homomorphisms, with $E \otimes E$ equipped with the above monoid structure.
 
 
+
 =--
+
+
 
 ### Modules in tensor categories and Super vector bundles
  {#Modules InTensorCategories}
+
+Above (in def. \ref{Affines}) we considered spaces $X$ from a dual perspective, as determined by their [[algebras of functions]] $\mathcal{O}(X)$. In the same spirit then we are to express various constructions on and with spaces in terms of dual algebraic constructions.
+
+A key such construction is that of [[vector bundles]] over $X$. Suppose that $X$ is a [[smooth manifold]], and $V \stackrel{p}{\to} X$ is an ordinary smooth real [[vector bundle]] over $X$. A [[section]] of this vector bundle is a smooth function $\sigma \colon X \to V$ such that $p \circ \sigma = id$
+
+$$
+  \array{
+     && V
+    \\ & {}^{\mathllap{\sigma}}\nearrow & \downarrow^{\mathrlap{p}}
+    \\
+    X &=& X
+  }
+  \,.
+$$
+
+
+Write $\Gamma_X(V)$ for the set of all such sections. Observe that this set inherits various extra [[stuff, structure, property|structure]]. 
+
+First of all, since $V \to X$ is a vector bundle, we have [[fiber]]-wise the vector space operations. This means that
+given two elements $c_1, c_2 \in \mathbb{R}$ in the [[real numbers]], and given two sections $\sigma_1$ and $\sigma_2$, we may form in each [[fiber]] $V_x$ the [[linear combination]] $c_1 \sigma_1(x) + c_2 \sigma_2(x)$. This hence yields a new section $c_1 \sigma_1 + c_2 \sigma_2$. Hence the set of sections of a vector bundle naturally forms itself a vector space.
+
+But there is more structure. We need not multiply with the same element $c \in \mathbb{R}$ in each fiber, but we may multiply the section in each fiber by a different element, as long as the choice of element varies smoothly with the fibers, so that the resulting section is still smooth.
+
+In other words, every element $f \in C^\infty(X)$ in the $\mathbb{R}$-algebra of [[smooth functions]] on $X$, takes a smooth section $\sigma$ of $V$ to a new smooth section $f \cdot \sigma$. This operation enjoys some evident properties. It is [[bilinear map|bilinear]] in the real vector spaces $C^\infty(X)$ and $\Gamma_X(V)$, and it satisfies the "[[action|action property]]" 
+
+$$
+  (f g) \cdot \sigma = f\cdot (g \cdot \sigma)
+$$
+
+for any two smooth functions $f,g \in C^\infty(X)$.
+
+One says that a [[vector space]] such as $\Gamma_X(V)$ equipped with an [[action]] of an algebra $R$ this way is a _[[module]]_ over $R$.
+
+In conclusion, any [[vector bundle]] $V \to X$ gives rise to an $C^\infty(X)$-[[module]] $\Gamma_X(V)$.
+
+The _[[Serre-Swan theorem]]_ states sufficient conditions on $X$ such that the converse holds. 
+
++-- {: .num_prop} 
+###### Proposition
+**([Swan 62](Serre-Swan+theorem#Swan))**
+
+Given a [[Hausdorff space|Hausdorff]] [[compact space]] $X$, the [[category]] of [[finitely generated module|finitely generated]] [[projective modules]] over the [[continuous function|continuous]]-[[function algebra]] $C(X)$ is [[equivalence of categories|equivalent]] to the category of finite-[[rank]] [[vector bundles]] on $X$, where the equivalence is established by sending a vector bundle to the its module of continuous [[sections]].
+
+=--
+
+
+This allows to _identify_ suitable $\mathcal{O}(X)$-modules with vector bundles over $X$. But then, if the suitable conditions do not hold, $R$-modules still behave a lot like sections of vector bundles over $Spec(R)$, and hence may be regarded as generalized vector bundles ([[quasi-coherent sheaves]]).
+
 
 
 +-- {: .num_defn #ModulesInMonoidalCategory}
@@ -2506,10 +2557,26 @@ Finally one checks that these two constructions are inverses to each other, up t
 
 When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
 
+
 +-- {: .num_prop #CoproductsInCMon}
 ###### Proposition
 
-Let $\mathcal{A}$ be a [[tensor category]] and let $R \in CMon(\mathcal{A})$ be a [[commutative monoid]] in $\mathcal{A}$, def. \ref{MonoidsInMonoidalCategory}. Then $R CAlg(\mathcal{A})$ has binary [[coproducts]] and these are given by the [[tensor product of modules]] of the underlying $R$-modules.
+Suppose that $\mathcal{C}$ is 
+
+* a [[symmetric monoidal category]];
+
+* with [[reflexive coequalizers]]
+
+* that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
+
+Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[modules]]
+
+$$
+  U(B \coprod_A C) \simeq  B \otimes_A C 
+  \,.
+$$
+
+Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
 
 Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]]:
 
@@ -2520,7 +2587,9 @@ $$
 
 =--
 
-See at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
+
+
 
 
 
