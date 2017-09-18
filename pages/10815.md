@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -45,7 +60,7 @@ $$
 
 =--
 
-(e.g. [Kochmann 96, corollary 2.2.6](#Kochmann96))
+(e.g. [Switzer 75, section 15.30](#Switzer75), [Kochmann 96, corollary 2.2.6](#Kochmann96))
 
 +-- {: .proof}
 ###### Proof
@@ -198,7 +213,10 @@ Concatenating these two collections of exact sequences yields the [[long exact s
 
 * [[Serre spectral sequence]]
 
-## Reference
+## References
+
+* {#Switzer75} [[Robert Switzer]], section 15.30 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
 
 * {#Kochmann96} [[Stanley Kochmann]], section 2.2. of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
