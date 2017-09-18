@@ -37,3 +37,10 @@ A certain [[B-model]] [[string theory]] whose [[target space]] is [[twistor spac
 Surveys include
 
 * David Skinner, _The geometry of scattering amplitudes_, talk notes, November 2009 ([pdf](http://research.physics.unc.edu/string/transparencies/trans_20091112.pdf))
+
+Further developments include 
+
+* Yvonne Geyer, Arthur E. Lipstein, [[Lionel Mason]], _Ambitwistor strings in 4-dimensions_, Phys. Rev. Lett. 113, 081602 (2014) ([arXiv:1404.6219](http://arxiv.org/abs/1404.6219))
+
+[[!redirects twistor string]]
+[[!redirects twistor strings]]
