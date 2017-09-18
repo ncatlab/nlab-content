@@ -135,15 +135,19 @@ The categorical generalization was proven in
 
 * {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965)
 
-A version of the proof is spelled out in 
+A simplified version of the proof was spelled out in 
 
 * {#Spanier66} [[Edwin Spanier]], section 7.7 of _Algebraic topology_, McGraw-Hill, 1966
+
+and a strengthening in
+
+* {#Adams71} [[John Frank Adams]], _A variant of E. H. Brown's representability theorem_, Topology, 10:185-198, 1971
 
 A proof following this one is also given in
 
 * Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-Review includes
+Further review includes
 
 * {#Adams74} [[Frank Adams]], part III, section 6 of _[[Stable homotopy and generalised homology]]_, 1974
 
