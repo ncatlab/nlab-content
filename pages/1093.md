@@ -300,11 +300,11 @@ This appears for instance as
 +-- {: .num_prop}
 ###### Proposition
 
-[[sheaf topos|Sheaf toposes]] are equivalently the [accessible reflective subcategories](reflective+subcategory#AccessibleReflectiveSubcategories) of [[categories of presheaves]].
+[[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]
 
 =--
 
-See at _[[reflective sub-(∞,1)-category]]_.
+See also at _[[reflective sub-(∞,1)-category]]_.
 
 
 ## Properties
