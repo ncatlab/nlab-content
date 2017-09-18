@@ -64,8 +64,9 @@ The [[subgroup]] of [[orientation]]-preserving symmetries of the [[icosahedron]]
 
 Hence the [[order of a group|order]] of the icosahedral group is $ 60 \times 2 = 120 $.
 
+There is an exceptional isomorphism $I \simeq PSL_2(\mathbb{F}_5)$, with $2I \simeq SL_2(\mathbb{F}_5)$ covering this isomorphism.
 
-
+The homogeneous space $SU(2)/2I$ is the [[Poincare homology sphere]].
 
 ### Group cohomology
 
