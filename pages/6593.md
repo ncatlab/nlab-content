@@ -147,6 +147,10 @@ and more generally in the context of [[schreiber:The brane bouquet]] in
 [[!redirects translation super-Lie algebra]]
 [[!redirects translation super-Lie algebras]]
 
+[[!redirects super-translation super-Lie algebra]]
+[[!redirects super-translation super-Lie algebras]]
+
+
 [[!redirects super translation algebra]]
 [[!redirects super translation algebras]]
 [[!redirects super-translation algebra]]
