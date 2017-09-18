@@ -59,6 +59,11 @@ See the general references at [[supergravity]].
 
 ### Solutions and BPS states
 
+Disucssion of [[black hole]] solutions (see also at _[[black holes in string theory]]_) includes
+
+* U. Gran, [[Jan Gutowski]], [[George Papadopoulos]], _IIB black hole horizons with five-form flux and extended supersymmetry_, JHEP 1109:047,2011 ([arXiv:1104.2908](http://arxiv.org/abs/1104.2908))
+
+
 Discussion of [[black branes]] and [[BPS states]] for type II supergravity includes
 
 
