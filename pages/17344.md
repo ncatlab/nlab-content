@@ -6903,13 +6903,13 @@ $\,$
 +-- {: .num_defn #SymmetricSpectrum}
 ###### Definition
 
-A **[[symmetric spectrum]]** $X$ in [[sSet]] is
+A topological **[[symmetric spectrum]]** $X$  is
 
-1. a sequence $\{X_n| n \in \mathbb{N}\}$ of [[pointed object|pointed]] [[simplicial sets]];
+1. a sequence $\{X_n  \in Top_{cg}^{\ast/}\;\vert\; n \in \mathbb{N}\}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]];
 
-1. a baspoint preserving left [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
+1. a basepoint preserving continuous left [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
 
-1. a sequence of morphisms of pointed simplicial sets $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ 
+1. a sequence of morphisms  $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ 
 
 such that
 
@@ -6923,7 +6923,7 @@ such that
 
 A [[morphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
-* a sequence of morphisms of pointed simplicial sets $f_n \colon X_n \longrightarrow Y_n$
+* a sequence of maps $f_n \colon X_n \longrightarrow Y_n$
 
 such that
 
@@ -6942,6 +6942,8 @@ such that
      \,.
    $$
 
+We write $SymSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra.
+
 =--
 
 +-- {: .num_defn #OrthogonalSpectrum}
@@ -6949,7 +6951,7 @@ such that
 
 An _[[orthogonal spectrum]]_ $X$ consists of for each $n \in \mathbb{N}$
 
-1. a sequence of [[pointed topological spaces]] $X_n$ (the _$n$th level_);
+1. a sequence of [[pointed topological spaces]] $X_n \in Top_{cg}^{\ast/}$ (the _$n$th level_);
 
 1. a base-point preserving [[continuous function|continuous]] [[action]] of the [[topological group|topological]] [[orthogonal group]] $O(n)$ on $X_n$;
 
@@ -6991,7 +6993,7 @@ $$
   \,.
 $$
 
-We write $OrthSpectra$ for the [[category]] of orthogonal spectra with homomorphisms between them.
+We write $OrthSpec(Top_{cg})$ for the [[category]] of orthogonal spectra with homomorphisms between them.
 
 =--
 
