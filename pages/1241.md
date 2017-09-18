@@ -35,7 +35,7 @@ Since no GUT has been fully validated yet, GUTs are [[model (physics)|models]] "
 
 An original article with an eye towards [[supergravity]] unification is
 
-* [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, P. van Nieuwenhuizen and D.Z. Freedman, eds, North Holland Publishing Co, 1979, reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669)
+* [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, [[Peter van Nieuwenhuizen]] and D.Z. Freedman, eds, North Holland Publishing Co, 1979, reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669)
 
 A survey of arguments for the hypothesis of grand unification with an eye towards [heterotic string unification](string+phenomenology#HeteroticStandardModels) is given in 
 
