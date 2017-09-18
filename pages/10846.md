@@ -35,9 +35,10 @@ Complex [[derived analytic geometry]] is the refinement of the notion of [[compl
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
 
+* [[Mauro Porta]], _Derived complex analytic geometry I: GAGA theorems_ ([arXiv:1506.09042](http://arxiv.org/abs/1506.09042))
 * [[Mauro Porta]], _[[Derived Analytic Rings]]_ (preprint including a good theory of modules over analytic rings)
 
-* [[Frédéric Paugam]], _[[Overconvergent global analytic geometry]]_ (a theory over a general base Banach ring that specializes to an overconvergent definition of derived complex analytic spaces)
+* [[Frédéric Paugam]], _[[Overconvergent global analytic geometry]]_
 
 [[!redirects derived complex analytic spaces]]
 
