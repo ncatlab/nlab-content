@@ -26,3 +26,7 @@ In the setting of [[stable (infinity,1)-categories]] (section 4):
 * [[Andrew J. Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _A universal characterization of higher algebraic K-theory_, [arXiv:1001.2282](http://arxiv.org/abs/1001.2282v4).
 
 * {#Okada09} So Okada, _Homological mirror symmetry of Fermat polynomials_ ([arXiv:0910.2014](http://arxiv.org/abs/0910.2014))
+
+For a treatment in terms of bicategories:
+
+* Niles Johnson, _Morita Theory For Derived Categories: A Bicategorical Perspective_ ([arXiv:0805.3673](http://arxiv.org/abs/0805.3673))
