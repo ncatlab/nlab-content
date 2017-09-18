@@ -100,7 +100,7 @@ As before, if $z$ is interpreted as the same map $[a,b] \to \mathbb{C}$ as $C$; 
 $$ \int_C f {|\mathrm{d}z|} \coloneqq \int_a^b f(z(t)) {|z'(t)|} \,\mathrm{d}t ,$$
 so ${|\mathrm{d}z|}$ seems to mean ${|z'(t)|} \,\mathrm{d}t$.  As before, if we use the standard orientation on $[a,b]$ to change the $1$-form $\mathrm{d}t$ to the pseudo-$1$-form ${|\mathrm{d}t|}$, then ${|\mathrm{d}z|}$ is the absolute value of $\mathrm{d}z$ from before.
 
-Of course, we should really be looking at differential forms.  Again, $f$ is a [[scalar field]] on $\mathbb{C}$, or equivalenty a $0$-form.  Again $z$ is the [[identity map]] on $\mathbb{C}$, viewed as a $0$-form.  Then $\mathrm{d}z$ is a $1$-form, its absolute value ${|\mathrm{d}z|}$ is a (positive definite) [[absolute form|absolute]] $1$-form, and $f {|\mathrm{d}z|}$ is an (arbitrary) $1$-form.  Since $C$ is given up to an arbitrary reparametrisation, it is an unoriented $1$-submanifold of $X$, which is just what we need for an absolute $1$-form.  Now we may interpet the notation
+Of course, we should really be looking at differential forms.  Again, $f$ is a [[scalar field]] on $\mathbb{C}$, or equivalenty a $0$-form.  Again $z$ is the [[identity map]] on $\mathbb{C}$, viewed as a $0$-form.  Then $\mathrm{d}z$ is a $1$-form, its absolute value ${|\mathrm{d}z|}$ is a (positive definite) [[absolute form|absolute]] $1$-form, and $f {|\mathrm{d}z|}$ is a (more general) absolute $1$-form.  Since $C$ is given up to an arbitrary reparametrisation, it is an unoriented $1$-submanifold of $X$, which is just what we need for an absolute $1$-form.  Now we may interpet the notation
 $$ \int_C f {|\mathrm{d}z|} $$
 literally as the integral of an absolute $1$-form.
 
