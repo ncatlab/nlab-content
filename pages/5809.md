@@ -63,7 +63,7 @@ Steenrod's original colloquium lectures were published as:
 Textbook accounts include the following.
 
 
-* [[Robert Mosher]], [[Martin Tangora]], p. 38 of _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](http://math.jhu.edu/~anakade1/notes/Dec%202014/Mosher%20and%20Tangora%20Notes/mosher-tangora.pdf))
+* [[Robert Mosher]], [[Martin Tangora]], p. 38 of _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](www.maths.ed.ac.uk/~aar/papers/moshtang.pdf))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 2.5 and 3.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
