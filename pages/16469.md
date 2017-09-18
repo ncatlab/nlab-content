@@ -26,9 +26,11 @@ Similar statements hold for the [[super anti de Sitter group]] or [[superconform
 
 By [[Deligne's theorem on tensor categories]] the most general regular [[tensor categories]] are those spanned by supermultiplets for some [[supergroup]].
 
-## References
+## Related concepts
 
 * [[superconformal multiplet]]
+
+* [[adinkra]]
 
 ## References
 
