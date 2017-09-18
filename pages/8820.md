@@ -15,7 +15,16 @@
 
 ## Idea
 
-In [[cohomology]] of [[topological spaces]]/[[homotopy types]], the _suspension isomorphism_ identifies the degree-$n$ cohomology of a space $X$ with the degree-$(n+1)$ cohomology of its [[suspension]].
+In [[cohomology]] of [[topological spaces]]/[[homotopy types]], the _suspension isomorphism_ identifies the degree-$n$ cohomology of a [[pointed topological space|pointed]] space $X$ with the degree-$(n+k)$ cohomology of its $k$-fold [[suspension]], hence of its [[smash product]] with the $k$-[[sphere]]
+
+$$
+  H^n(X,E) \simeq H^{n+k}(S^k \wedge X, E)
+  \,.
+$$
+
+In particular this serves to express cohomology in negative degree in terms of cohomology in non-negative degree of suspended spaces.
+
+Requiring this to hold in [[equivariant cohomology theory]] not just for [[integer]] grading and spheres but also for [[RO(G)-grading]] and [[representation spheres]] leads to the concept of _genuine_ equivariant cohomology represented by [[genuine G-spectra]].
 
 ## Related concepts
 
