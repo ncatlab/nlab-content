@@ -53,4 +53,6 @@ The [[isomorphism classes]] $[X]$ of objects of $\mathcal{C}$ form an $\mathbb{N
 
 * [[Frobenius-Perron dimension]]
 
+* [[Clebsch-Gordan coefficient]]
+
 [[!redirects fusion rings]]
