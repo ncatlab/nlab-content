@@ -157,27 +157,32 @@ $$\array{
 commute serially, with the triangle commuting by definition of $h$. This completes the verification. 
 =-- 
 
-By Remark \ref{rem}, it follows that $U Bar_T(A)$, obtained by applying evaluation at a $T$-algebra $A$, carries an acyclic structure as well. In this sense we may say that $U Bar_T(A)$ is an acyclic resolution of the constant simplicial $T$-algebra at $A$. 
+By Remark \ref{rem}, it follows that $U Bar_T(A)$, obtained by applying evaluation at a $T$-algebra $A$, carries an acyclic structure as well. In this sense we may say that $U Bar_T(A)$ (which has $A$ as its augmented component in dimension $-1$) is an acyclic resolution of the constant simplicial $T$-algebra at $A$ that carries a $T$-algebra structure. 
 
 ## Properties
 
-+-- {: .num_prop}
-###### Proposition
+We now state a universal property of the bar resolution $B(T, A) = U Bar_T(A)$. 
 
-Regard $A$ as a constant simplicial object. The canonical morphism 
++-- {: .num_defn} 
+###### Definition 
+Let $T$ be a monad on a category $\mathbf{E}$. A $T$-**algebra resolution** is a simplicial object $Y: \Delta^{op} \to \mathbf{E}^T$ together with an acyclic structure on $U Y: \Delta^{op} \to \mathbf{E}$. A morphism between $T$-algebra resolutions is a natural transformation $\phi: Y \to Y'$ such that $U\phi: U Y \to U Y'$ is a $P$-coalgebra map. 
+=-- 
 
-$$
-  \mathrm{B}(T,A) \to A
-$$
+Let $AlgRes_T$ be the category of $T$-algebra resolutions. There is a forgetful functor 
 
-is a [[resolution]] of $A$.
+$$G: AlgRes_T \to \mathbf{E}^T$$ 
 
-In fact, the bar construction is the _universal_ resolution in the sense of 
+that takes an algebra resolution $Y$ to its augmentation component $Y([0])$. 
 
-(...)
++-- {: .num_theorem}
+###### Theorem 
+The functor $\hom_{\mathbf{E}^T}(A, G-): AlgRes_T \to Set$ is represented by $Bar_T(A)$. In other words, $Bar_T(-): \mathbf{E}^T \to AlgRes_T$ is left adjoint to $G$. 
+=-- 
 
-=--
-
++-- {: .proof} 
+###### Proof 
+To be filled in. 
+=-- 
 
 ## Special cases
 
