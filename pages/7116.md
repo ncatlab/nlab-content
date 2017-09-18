@@ -13,7 +13,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -30,7 +29,7 @@ For $k$ a [[rig]] (typically either a [[field]] or at least an [[integral domain
 This means it is a [[function]] 
 
 $$
-  {\vert - \vert}\colon k \to \mathbb{R}
+  {\vert {-} \vert}\colon k \to \mathbb{R}
 $$ 
 
 to the [[real numbers]] such that for all $x, y \in k$
@@ -39,18 +38,18 @@ to the [[real numbers]] such that for all $x, y \in k$
 
 2. ${\vert x \vert} = 0$ precisely if $x = 0$;
 
-3. ${\vert x \cdot y\vert} = {\vert x \vert} {\vert y \vert}$;
+3. ${\vert x \cdot y \vert} = {\vert x \vert} {\vert y \vert}$;
 
-4. ${\vert x + y\vert} \leq {\vert x \vert} + {\vert y \vert}$ (the [[triangle inequality]]).
+4. ${\vert x + y \vert} \leq {\vert x \vert} + {\vert y \vert}$ (the [[triangle inequality]]).
 
 
 If the last triangle inequality is strengthened to
 
-* ${\vert x + y\vert} \leq max({\vert x \vert}, {\vert y \vert})$ 
+* ${\vert x + y \vert} \leq max({\vert x \vert}, {\vert y \vert})$ 
 
-then ${\vert -\vert}$ is called an [[ultrametric]] or **non-archimedean** absolute value. Otherwise it is called **archimedean**.
+then ${\vert {-} \vert}$ is called an [[ultrametric]] or **non-archimedean** absolute value. Otherwise it is called **archimedean**.
 
-Two absolute values ${\vert - \vert}_1$ and ${\vert - \vert}_2$ are called _equivalent_ if for all $x \in k$
+Two absolute values ${\vert {-} \vert}_1$ and ${\vert {-} \vert}_2$ are called _equivalent_ if for all $x \in k$
 
 $$
   ({\vert x \vert}_1 \lt 1)
@@ -68,7 +67,7 @@ A [[field]] equipped with an absolute value which is a [[complete metric space]]
 
 ### Trivial absolute value
 
-Every field admits the trivial absolute value ${\vert- \vert}_0$ defined by
+Every field admits the trivial absolute value ${\vert {-} \vert}_0$ defined by
 
 $$
   {\vert x \vert}_0 = 
@@ -88,10 +87,10 @@ This is non-archimedean.
 ### On the real and complex numbers
  {#OnTheRealAndComplexNumbers}
 
-The standard absolute value ${\vert -\vert}_\infty$ on the [[real numbers]] is
+The standard absolute value ${\vert {-} \vert_\infty}$ on the [[real numbers]] is
 
 $$
-  {\vert x \vert}_{\infty} = 
+  {\vert x \vert_\infty} = 
   \sqrt{x^2}
   = 
   \left\{
@@ -107,7 +106,7 @@ $$
 The standard absolute value on the [[complex numbers]] is 
 
 $$
-  {\vert x + i y \vert}
+  {\vert x + i y \vert_\infty}
   = 
   \sqrt{x^2 + y^2}
   \,.
@@ -115,42 +114,45 @@ $$
 
 These standard absolute values are archimedean, and with respect to these standard absolute values, both $\mathbb{R}$ and $\mathbb{C}$ are [[complete field|complete]] and hence are complete [[archimedean valued fields]]. Notice that $\mathbb{R}$ is in addition an [[ordered field]] and as such also an [[archimedean field]].
 
-Similar norms exist on the [[quaternions]] and [[octonions]].
+Similar norms exist on the [[quaternions]] and [[octonions]], showing that absolute values can be of interest on noncommutative and even nonassociative [[division rings]].
+
 
 ### On the rational numbers
 
 The standard absolute value [above](#OnTheRealAndComplexNumbers) restricts to the standard absolute value on the [[rational numbers]]
 
 $$
-  {\vert -\vert}_\infty\colon \mathbb{Q} \to \mathbb{R}
+  {\vert {-} \vert_\infty}\colon \mathbb{Q} \to \mathbb{R}
   \,.
 $$
 
-Moreover, for any [[prime number]] $p$ there is a (class of an) absolute value ${\vert -\vert}_p$ on $\mathbb{Q}$ defined by
+Moreover, for any [[prime number]] $p$ and [[positive number]] $\epsilon \lt 1$, there is an absolute value ${\vert {-} \vert_{p,\epsilon}}$ on $\mathbb{Q}$ defined by
 
 $$
-  {\vert \frac{k}{l} p^n\vert}_p
+  \left\vert \frac{k}{l} p^n\right\vert_{p,\epsilon}
   = 
   \epsilon^n
 $$
 
-for any $0 \lt \epsilon \lt 1$ and where $\frac{k}{l}p^n$ is the unique such decomposition of a given rational number with $k, l \in \matrhbb{Z}$ not divisible by $p$.
+whenever $n$ is an [[integer]] and $k$ and $l$ are nonzero [[integers]] not divisible by $p$ (and ${\vert 0 \vert_{p,\epsilon}} = 0$).
 
-This is called the **$p$-adic** absolute value. It is non-archimedean. The [[complete field|completion]] $\mathbb{Q}_p$ of $\mathbb{Q}$ by this is called the field of [[p-adic numbers]], which is therefore a [[non-archimedean field]].
+These are called the **$p$-adic absolute values**.  Given $p$, they are all equivalent (the open unit ball consists of all rational numbers whose denominator in lowest terms is not divisible by $p$), so there is a unique **$p$-adic [[place]]**.  For most purposes, only the place matters, and one may write simply $|q|_p$; however, if one wants a specific absolute value, then the usual choice is to use $\epsilon = 1/p$ (so that ${|p^n|_p} = p^{1/n}$ whenever $n$ is an integer).
 
-[[Ostrowski's theorem]] says that this exhaust the non-trivial absolute values on the [[rational numbers]]. Therefore the [[real numbers]] and the [[p-adic numbers]] are the only possible completions of $\mathbb{Q}$.
+The $p$-adic absolute value is non-archimedean. The [[complete field|completion]] $\mathbb{Q}_p$ of $\mathbb{Q}$ under this absolute value is called the field of [[p-adic numbers]], which is therefore a [[non-archimedean field]].
+
+[[Ostrowski's theorem]] says that these examples exhaust the non-trivial absolute values on the [[rational numbers]]. Therefore the [[real numbers]] and the [[p-adic numbers]] are the only possible field completions of $\mathbb{Q}$.
 
 
 ### On Laurent power series
 
 The field of [[Laurent series]] $k[ [ T] ]$ over a [[field]] $k$ is a [[complete field]] with respect to the absolute value that sends a series to $\epsilon^n$ for a fixed $0 \lt \epsilon \lt 1$ and with $n$ the lowest integer such that the $n$th coefficient of the series is not $0$.
 
+
 ## References
 
 Section 1.5, 1.6 of
 
 * {#BoschGuntzerRemmert84} [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]], _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
-
 
 
 [[!redirects absolute value]]
