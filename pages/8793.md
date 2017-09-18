@@ -5,4 +5,9 @@
 
 * [[Lie group]]
 
+* [[propagation of singularities theorem]]
+
 category: people
+
+[[!redirects Johann Duistermaat]]
+[[!redirects Johann Jisse Duistermaat]]
