@@ -22,6 +22,9 @@ This conjecture became famous as **Sen's conjecture**. It was subsequently check
 
 A breakthrough happened in 2005, when [[Martin Schnabl]] found an analytic expression for this "tachyon vacuum" ([Schnabl 05](#Schnabl05)).
 
+On the other hand, in [[superstring theory]] tachyons modes appear for strings stretching between a [[D-brane]] and an [[anti-D-brane]]. The analog of Sen's conjecture here states that the consensation of the tachyon witnesses the annihilation of the brane/anti-brane pair ([Sen 98](#Sen98)).
+
+
 ## References
 
 * {#Sen99} [[Ashoke Sen]], _Universality of the Tachyon Potential_,  	JHEP 9912:027,1999 ([arXiv:hep-th/9911116](http://arxiv.org/abs/hep-th/9911116))
@@ -38,6 +41,12 @@ Volume 10, Number 4 (2006), 433-501. ([arXiv:hep-th/0511286](http://arxiv.org/ab
 For more references see at 
 
 * _[references -- Tachyon dynamics, decaying D-branes and Sen's conjecture](string+field+theory#BosonicStringVacuumAndSenConjecture)
+
+For the decay of [[D-brane]]/[[anti-D-brane]] pairs in [[superstring theory]]:
+
+
+* {#Sen98} [[Ashoke Sen]], _Tachyon Condensation on the Brane Antibrane System_, JHEP 9808:012,1998 ([arXiv:hep-th/9805170](https://arxiv.org/abs/hep-th/9805170))
+
 
 See also
 
