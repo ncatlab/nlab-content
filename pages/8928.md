@@ -28,6 +28,8 @@ Now, if the configuration has a sufficient amount of [[supersymmetry]] preserved
 
 The best studied such configuration is that of [[D1-D5 brane bound states]]. For these configurations one may compute the number of [[BPS states]] (which are "protected"), hence the  [[entropy]], via the [[Witten genus]] ([Strominger-Vafa 96](#StromingerVafa96)), see at _[Witten genus -- Relation to BPS state counting](Witten+genus#RelationToBPSStateCounting)_. By the above reasoning this may then be compared to the [[Bekenstein-Hawking entropy]] of the corresponding (supersymmetric) black hole. And indeed the results match the semiclassical BH-entropy to leading order and in addition provide their higher order quantum corrections. See the _[References](#References)_ below.
 
+The [[T-duality|T-dual]] version of the D1/D5-bound states are D0/D6-bound states, coming from the [[Kaluza-Klein monopole]] in [[11-dimensional supergravity]] (e.g. [Nelson 93](#Nelson93)).
+
 ## Related concepts
 
 * [[black brane]]
@@ -118,6 +120,10 @@ Discussion for [[M-theory]]/[[11-dimensional supergravity]] includes
 * [[Juan Maldacena]], [[Andrew Strominger]], [[Edward Witten]], _Black Hole Entropy in M-Theory_, JHEP 9712:002,1997 ([arXiv:hep-th/9711053](http://arxiv.org/abs/hep-th/9711053))
 
 * [[Davide Gaiotto]], [[Andrew Strominger]], Xi Yin, _The M5-Brane Elliptic Genus: Modularity and BPS States_, JHEP 0708:070,2007 ([arXiv:hep-th/0607010](http://arxiv.org/abs/hep-th/0607010))
+
+Discussion relating to the [[Kaluza-Klein monopole]] includes
+
+* {#Nelson93} William Nelson, _Kaluza-Klein Black Holes in String Theory_, Phys.Rev.D49:5302-5306,1994 ([arXiv:hep-th/9312058](http://arxiv.org/abs/hep-th/9312058))
 
 More recent developments include
 
