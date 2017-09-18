@@ -81,6 +81,12 @@ Ordinary cohomology theories require and additional axiom, the dimension axiom $
 
 * [[Morava E-theory]]
 
+## Properties
+
+### Expression by ordinary cohomology via Atiyah-Hirzebruch
+
+The [[Atiyah-Hirzebruch spectral sequence]] serves to express generalized cohomology $E^\bullet$ in terms of ordinary cohomology with coefficients in $E^\bullet(\ast)$.
+
 ## Related concepts
 
 * [[Brown representability theorem]]
