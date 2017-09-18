@@ -65,6 +65,13 @@ A homeomorphism is a continuous injection both ways, so $n_1 \leq n_2$ and $n_2 
 This only-if half of this argument immediately generalizes to any [[inhabited subset|inhabited]] open subsets of $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$.
 
 
+## Related concepts
+
+* [[Tietze extension theorem]]
+
+* [[Brouwer's fixed point theorem]]
+
+
 ## References
 
 The first proof is due to [[Brouwer]] around 1910.
