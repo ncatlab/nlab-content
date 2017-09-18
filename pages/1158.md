@@ -675,6 +675,7 @@ We will have need to give names to truncations of the de Rham complex. One is th
 +-- {: .num_defn #TruncatedDeRham}
 ###### Definition
 
+
 For $n \in \mathbb{N}$ write
 
 $$
@@ -2161,8 +2162,10 @@ See also the references given at _[differential cohomology hexagon -- Deligne co
 
 
 [[!redirects Deligne complex]]
-
 [[!redirects Deligne complexes]]
 
 [[!redirects Deligne-Beilinson cohomology]]
 [[!redirects Beilinson-Deligne cohomology]]
+
+[[!redirects Deligne cocycle]]
+[[!redirects Deligne cocycles]]
