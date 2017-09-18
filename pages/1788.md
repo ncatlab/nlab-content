@@ -1,4 +1,3 @@
-
 +-- {: .num_defn #LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
 ###### Definition
 **([[local Lagrangian density]] for [[free field|free]] [[scalar field]] on [[Minkowski spacetime]])**
