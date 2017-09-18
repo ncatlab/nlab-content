@@ -85,13 +85,13 @@ See ([Johnstone, lemma C3.6.4](#Johnstone)).
 
 ## References
 
-You can find more on Artin gluing in this important (and nice) paper:
+You can find more on [[Artin gluing]] in this important (and nice) paper:
 
-* Aurelio Carboni, [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459
+* [[Aurelio Carboni]], [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459
 
 plus
 
-* Aurelio Carboni, [[Peter Johnstone]], _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science 14 (2004), 185--187.
+* [[Aurelio Carboni]], [[Peter Johnstone]], _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science 14 (2004), 185--187.
 
 See also section C3.6 of 
 
