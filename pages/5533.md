@@ -6,6 +6,7 @@ See:
 * [[connective spectrum object]],
 * [[connective chain complex]],
 * [[logical connective]].
+* [[connectology]]
 
 
 category: adjective
