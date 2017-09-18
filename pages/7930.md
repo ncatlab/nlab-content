@@ -457,7 +457,7 @@ Some notation:
 +-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebra}
 ###### Definition
 
-Write $V \coloneqq Mat_{2\times 2}(\mathbb{K})^{hermitian}$ for the $\mathbb{K}$-vector space of 2x2 [[hermitian matrices]].
+Write $V \coloneqq Mat^{hermitian}_{2\times 2}(\mathbb{K})$ for the $\mathbb{K}$-vector space of 2x2 [[hermitian matrices]].
 Write $S_+, S_- \coloneqq \mathbb{K}^2$. Define a real [[linear map]]
 
 $$
@@ -826,7 +826,7 @@ $$
 +-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebraOneDimHigher}
 ###### Definition
 
-Write $V \coloneqq Mat_{2\times 2}(\mathbb{K})^{hermitian} \oplus \mathbb{R}$. 
+Write $V \coloneqq Mat^{hermitian}_{2\times 2}(\mathbb{K}) \oplus \mathbb{R}$. 
 
 Write $S \coloneqq \mathbb{K}^4$. Define a real [[linear map]]
 
