@@ -889,6 +889,51 @@ This is conceptually just how the [[path integral]] in [[physics]] is supposed t
 
 =--
 
++-- {: .num_example }
+###### Example
+
+Consider the special case def. \ref{SIT} where the right leg of the correspondence is the identity
+
+$$
+  \array{
+    && Z
+    \\
+    & {}^{\mathllap{f}}\swarrow && \searrow^{\mathrlap{=}}
+    \\
+    X && && Z
+  }
+$$
+
+and where the integral kernel is the identity
+
+$$
+  K = id_{1_Z} \colon id_Z^\ast 1_Z = 1_Z \to 1_Z = f^\ast 1_X
+  \,.
+$$
+
+Then the associated secondary integral transform, def. \ref{SIT}, is the morphism
+
+$$
+  \underset{X}{\sum} 1_X
+  \stackrel{\underset{\epsilon}{\sum}}{\longleftarrow}
+  \underset{X}{\sum} \underset{f}{\sum} f^\ast 1_X 
+  \stackrel{\simeq}{\longleftarrow}
+  \underset{Z}{\sum} 1_Z
+$$
+
+which is just the functoriality of the left adjoint $L$ that gives [[exponential modality]] in the interpretation by Ponto-Shulman [above](#TheCanonicalComodality)
+
+
+$$
+  L(X)
+  \stackrel{L(f)}{\longleftarrow}
+  L(Z)
+  \,.
+$$
+
+
+=--
+
 
 
 
