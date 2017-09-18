@@ -56,6 +56,8 @@ In particular, in a category with a [[terminal object|terminal]] [[generator]] $
 
 * **hom-set**
 
+  [[heteromorphism]]
+
 * [[hom-category]]
 
 * [[hom-space]]
