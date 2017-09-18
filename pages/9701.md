@@ -21,7 +21,11 @@
 
 The _clutching construction_ is the construction of a $G$-[[principal bundle]] on an [[n-sphere]] from a [[cocycle]] in $G$-[[Cech cohomology]] given by the [[covering]] of the $n$-sphere by two semi-$n$-spheres that overlap a bit at the equator, and one single transition function on that equator $S^{n-1} \to G$.
 
-## Applications
+## Examples
+
+### Basic example
+
+The [[Möbius strip]] is the result of the single non-trivial clutching construction for [[real vector bundles|real]] [[line bundle]] over the [[circle]].
 
 ### In physics
 
