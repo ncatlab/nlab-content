@@ -1,0 +1,22 @@
+## Definition
+
+A **topological map** (or **embedded graph**) $M = (G, \theta)$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ into a surface $X$ in such a way that:
+
+* vertices $x \in V$ are represented as distinct points $\theta(x) \in X$;
+
+* edges $e \in E$ are represented as curves $\theta(e)$ on the surface $X$ that intersect only at the vertices;
+
+* the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]].
+
+The **genus** of $M$ is defined as the [[genus of a surface|genus]] of the surface $X$.
+
+## Related concepts
+
+* [[combinatorial map]]
+
+* [[child's drawing]]
+
+## References
+
+* Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
+
