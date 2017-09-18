@@ -1,5 +1,5 @@
 
-> under costruction
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -21,15 +21,38 @@
 
 ## Idea
 
-In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] which is simply a [[function]] with values in the [[field of scalars]], typically the [[real numbers]] $\mathbb{R}$ or [[complex numbers]] $\mathbb{C}$, somtimes the [[quaternions]] $\mathbb{H}$. More generally, one still speaks of a "scalar field" if it takes values in $k^n$ for $k \in \{\mathbb{R},\mathbb{C}, \mathbb{H}\}$ and $n \in \mathbb{N}$.
+In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] which is simply a [[function]] with values in the [[field of scalars]], typically the [[real numbers]] $\mathbb{R}$ or [[complex numbers]] $\mathbb{C}$, sometimes the [[quaternions]] $\mathbb{H}$. Hence it is a [[field (physics)|field]] encoded by a [[field bundle]] which is a [[trivial line bundle]].
 
-Scalar fields serve as a key toy example in theoretical studies of [[field theory]], such as in [[phi^4 theory]] or in the [[Ising model]].  One fundamental scalar field is experimentally known, the _[[Higgs field]]_, which is one component of the [[standard model of particle physics]]. A widely hypothesized scalar field is the [[inflaton]] field in [[model (physics)|models]] of [[cosmic inflation]], which however remains speculative and might in any case be an effective compound of more fundamental fields.
+One fundamental (complex, charged) scalar field is seen in [[experiment]], the _[[Higgs field]]_, which is one component of the [[standard model of particle physics]]. A widely hypothesized scalar field is the [[inflaton]] field in [[model (physics)|models]] of [[cosmic inflation]], which however remains speculative and might in any case be an effective compound of more fundamental fields.
 
-## Definitiony
+But scalar fields also serve as a key toy example in theoretical studies of [[field theory]], such as in [[phi^4 theory]] or in the [[Ising model]]. The usefulness of the scalar field as a toy example of [[classical field theory]] and [[perturbative quantum field theory]] is due to 
+it already exhibiting much of the core structure of [[field theory]]. For instance the general formulas for [[propagators]]
+and the [[S-matrix]] of general [[local field theories]] are structurally those of the 
+scalar field, just with some more fairly evident [[representation theory|representation theoretic]] structure thrown in.
+
+
+
+## Definition
 
 ### Free scalar field
 
-#### As a classical local field
+We discuss here the [[free field|free]] [[scalar field]] on general [[spacetimes]], 
+hence the scalar field subject to the [[force]] of a [[background field]] of [[gravity]], but
+not [[interaction|interacting]] with itself. This means that its [[local Lagrangian density]]
+is [[quadratic form|quadratic]] in the fields and its first derivatives (def. \ref{LocalLagrangianOfFreeScalarField})
+and its [[equation of motion]] is the [[Klei-Gordon equation]] (hence the [[wave equation]] in the case of 
+vanishing [[mass]]) (prop. \ref{FreeScalarFieldEOM} below).
+
+The [[Poisson bracket]] on the [[covariant phase space]] of this system (prop. \ref{FreeScalarFieldEOM} below) turns out 
+to have as [[integral kernel]] the [[causal propagator]] of the [[Klein-Gordon operator]] 
+(i.e. the [[Green function]] whose [[support of a distribution|support]] is inside the [[light cone]]).
+Accordingly, the other associated [[Green functions]] of the [[Klein-Gordon operator]] 
+(the "[[propagators]]", such as the [[Feynman propagator]]) govern the 
+[[perturbative quantum field theory]] of the scalar field (see at _[[S-matrix]]_ for more).
+
+#### Covariant phase space
+
+We discuss the [[covariant phase space]] of the [[free field|free]] scalar field on general [[spacetimes]].
 
 Recall that a _[[classical field theory|classical]] [[local field theory]]_ is for some prescribed class of [[manifolds]] $\Sigma$ of given [[dimension]] $p+1 \in \mathbb{N}$ interpreted as [[spacetimes]]/[[worldvolumes]]:
 
@@ -39,7 +62,7 @@ Recall that a _[[classical field theory|classical]] [[local field theory]]_ is f
 
 +-- {: .num_defn #LocalLagrangianOfFreeScalarField}
 ###### Definition
-**([[local Lagrangian densits]] for [[free field|free]] [[scalar field]] on general [[spacetime]])**
+**([[local Lagrangian density]] for [[free field|free]] [[scalar field]] on general [[spacetime]])**
 
 As a [[classical field theory|classical]] [[local field theory|local field]] the _relativistic [[free field|free]] scalar field_ in [[dimension]] $p+1 \in \mathbb{N}$ of [[mass]] $m \in [0,\infty)$ is
 
@@ -66,6 +89,37 @@ As a [[classical field theory|classical]] [[local field theory|local field]] the
    1. $dvol$ denotes the [[volume form]] of $(\Sigma,e)$, canonically regarded as a [[horizontal differential form]] on $J^\infty(\Sigma \times k)$.
 
 =--
+
+$\omega \in \Omega^{p,2}$
+
+$$
+  \omega = \eta^{\mu \nu} d_V \phi_{,\mu} \wedge d_V \phi \wedge \iota_{\partial_\mu} \mathrm{dvol}_\Sigma
+$$
+
+$$
+  d h = \iota_{\v_h} \omega
+$$
+
+$$
+  h \in \Omega^{p,0}
+$$
+
+$$
+  d (\phi \iota_{\partial_{mu}}) \mathrm{dvol}_\Sigma
+  =
+  \pm
+  \iota_{\partial_{\phi_{,\mu}}} \omega
+$$
+
+$$
+  d ( \eta^{\mu \nu} \phi_{,\mu} \iota_{\patial_{\nu}} \mathrm{dvol}_\Sigma )
+  =
+  \pm
+  \iota_{\partial_{\phi}} \omega
+$$
+
+
+
 
 We make this explicit for the simple but important special case that [[spacetime]] is [[Minkowski spacetime]]:
 
@@ -311,7 +365,7 @@ $$
 and
 
 $$
-  p \coloneqq p^\mu \iota_{\partial_\mu} dvol_\Sigma \coloneqq g^{\mu \nu} \phi_{,\mu} \iota_{\partia_\nu} dvol_\Sigma
+  p \coloneqq p^\mu \iota_{\partial_\mu} dvol_\Sigma \coloneqq g^{\mu \nu} \phi_{,\mu} \iota_{\partial_\nu} dvol_\Sigma
   \,.
 $$
 
@@ -321,6 +375,7 @@ $$
 
 +-- {: .num_prop #FreeScalarFieldGreenFunctions}
 ###### Proposition
+**([[advanced propagator]] and [[retarded propagator]])**
 
 On a [[time orientation|time oriented]] [[globally hyperbolic spacetime]] the [[Klein-Gordon operator]] admits unique [[advanced propagator]] and [[retarded propagator]].
 
@@ -338,7 +393,7 @@ The induced [[Poisson bracket]] on the [[covariant phase space]] of the free sca
 
 =--
 
-By [this prop.](Peierls+bracket#PeierlsPoissonBracket) ([Khavkine 14](Peierls+bracket#Khavkine14)). See also [Fredenhagen-Rejzner 15, 3.3 Example](locally+covariant+perturbative+quantum+field+theory#FredenhagenRejzner15)
+By [this prop.](Peierls+bracket#PeierlsPoissonBracket) (e.g. [Khavkine 14](Peierls+bracket#Khavkine14), [Collini 16, lemma 21](#Collini16)). See also [Fredenhagen-Rejzner 15, 3.3 Example](locally+covariant+perturbative+quantum+field+theory#FredenhagenRejzner15)
 
 
 ## Related concepts
@@ -350,6 +405,11 @@ By [this prop.](Peierls+bracket#PeierlsPoissonBracket) ([Khavkine 14](Peierls+br
 * [[Wick algebra]]
 
 ## Redirects
+
+The standard [[perturbative quantum field theory]] (made rigorous via [[causal perturbation theory]]) of the [[interaction|interacting]] scalar field is shown to be [[Fedosov deformation quantization]] of the corresponding [[covariant phase space]] in 
+
+* {#Collini16} [[Giovanni Collini]], section 2.2 of _Fedosov Quantization and Perturbative Quantum Field Theory_ ([arXiv:1603.09626](https://arxiv.org/abs/1603.09626))
+
 
 For references on the construction of [[perturbative quantum field theory|perturbative]] scalar field theory in [[causal perturbation theory]] see at _[[locally covariant perturbative quantum field theory]]_.
 
