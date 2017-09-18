@@ -550,7 +550,7 @@ In the case that $V$ is [[pointed topological spaces]] or pointed [[simplicial s
 +-- {: .num_defn #FreeModulesOverAMonoidInDayConvolution}
 ###### Definition
 
-For $(\mathcal{C},\otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $R$, write
+For $(\mathcal{C},\otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $\mathcal{C}$, write
 
 $$
   R FreeMod \hookrightarrow R Mod
@@ -618,7 +618,7 @@ $$
   \,.
 $$
 
-Hence we may unify these two kinds of transformarmations in a single kind of the form
+Hence we may unify these two kinds of transformations into a single kind of the form
 
 $$
   N(c_1) \otimes ( \mathcal{C}(c_1, c_3) \otimes R(c_4) 
