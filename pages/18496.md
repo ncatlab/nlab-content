@@ -53,7 +53,7 @@ and for the [[Cahiers topos]] in
 
 * {#KockReyes03} [[Anders Kock]], [[Gonzalo Reyes]], _Some calculus with extensive quantities: wave equation_, Theory and Applications of Categories , Vol. 11, 2003, No. 14, pp 321-336 ([TAC](http://www.tac.mta.ca/tac/volumes/11/14/11-14abs.html))
 
-* {#Kock11} [[Anders Kock]], _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952)) 
+* {#Kock11} [[Anders Kock]], _Commutative monads as a theory of distributions_ ([arxiv:1108.5952](http://arxiv.org/abs/1108.5952)) 
 
 using results of
 
