@@ -51,7 +51,11 @@ This builds on a result in
 
 * [[Thorsten Palm]], ...
 
-Exposition of the higher dimensional [[string diagram]]-notation for opetopes is in 
+The higher dimensional [[string diagram]]-notation used here for opetopes was introduced (as "zoom complexes" in section 1.1) in
+
+* {#KockJoyalBataninMascari07} [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_ ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033)) 
+
+Animated exposition of this higher-dimensional string-diagram notation is in 
 
 * [[Eric Finster]], _Opetopic Diagrams 1 - Basics_ ([video](http://www.youtube.com/watch?v=OANwLohwJqk))
 
