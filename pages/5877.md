@@ -21,7 +21,7 @@
 
 ### General
 
-Generally tn [[category theory]] a _projection_ is one of the canonical [[morphisms]] $p_i$ out of a (categorical) [[product]]:
+Generally in [[category theory]] a _projection_ is one of the canonical [[morphisms]] $p_i$ out of a (categorical) [[product]]:
 
 $$
   p_i \colon \prod_j X_j \to X_i
@@ -59,7 +59,6 @@ In [[linear algebra]] an [[idempotent]] [[linear operator]] $P:V\to V$ is called
 
   _A projector is a projection followed by an inclusion_.
 
-
 ## Related concepts
 
 A different concept of a similar name is _[[projection formula]]_.
@@ -74,30 +73,3 @@ A different concept of a similar name is _[[projection formula]]_.
 
 [[!redirects projection map]]
 [[!redirects projection maps]]
-
-
-
-
-[[!redirects coprojection]]
-[[!redirects coprojections]]
-
-[[!redirects coproduct coprojection]]
-[[!redirects coproduct coprojections]]
-[[!redirects coprojection morphism]]
-[[!redirects coprojection morphisms]]
-
-[[!redirects coprojection map]]
-[[!redirects coprojection maps]]
-
-
-[[!redirects co-projection]]
-[[!redirects co-projections]]
-
-[[!redirects co-product coprojection]]
-[[!redirects co-product coprojections]]
-[[!redirects co-projection morphism]]
-[[!redirects co-projection morphisms]]
-
-[[!redirects co-projection map]]
-[[!redirects co-projection maps]]
-
