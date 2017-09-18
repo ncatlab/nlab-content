@@ -19,25 +19,33 @@ A **dense subtopos** is a generalisation to toposes of the concept of a [[dense 
 
 ## Definition
 
-A **dense subtopos** is a [[subtopos]] $i:\mathcal{E}_j\hookrightarrow \mathcal{E}$ such that, equivalently
+Let $i:\mathcal{E}_j\hookrightarrow \mathcal{E}$ be a [[subtopos]] with corresponding [[Lawvere-Tierney topology]] $j$. $\mathcal{E}_j$ is called _dense_ if the following equivalent conditions hold:
 
-* the corresponding [[Lawvere-Tierney topology]] $j$ satisfies $j(\emptyset) \simeq \emptyset$.
+* $j\circ\bot=\bot$ (with $\bot: 1\to\Omega$ the classifying map of $\emptyset\rightarrowtail 1$).
+
+* $\emptyset\rightarrowtail 1$ is $j$-closed.
+
+* $\emptyset$ is a $j$-sheaf.
 
 * the corresponding [[localization]] $L$ satisfies $L(\emptyset) \simeq \emptyset$.
 
-* (the [[direct image]] satisfies $i_\ast (\emptyset)=\emptyset$.)
+* (the [[direct image]] satisfies $i_\ast (\emptyset)\simeq\emptyset$.)
 
-* the [[inverse image]] satisfies $i^\ast (Z)=\emptyset$ then $Z=\emptyset$.
+* the [[inverse image]] satisfies: from $i^\ast (Z)\simeq\emptyset$ follows $Z\simeq\emptyset$.
+
+### Remark
+
+$j\circ\bot$ classifies the $j$-closure $\bar{\emptyset}$ of $\emptyset$ whence $j\circ\bot = \bot$ iff $\bar{\emptyset}=\emptyset$ i.e. $\emptyset\rightarrowtail 1$ is $j$-closed. Since $1$ is a $j$-sheaf for any topology $j$ and subobjects of $j$-sheaves in general are $j$-closed precisely when they are $j$-sheaves, this is equivalent to $\emptyset$ being a $j$-sheaf. Another way to say this is that $\emptyset$ is preserved by $i_\ast$ (aka $L$). The equivalence between the last two formulations follows from the adjunction $i^\ast\dashv i_\ast$ and the [[strict initial object|strictness]] of $\emptyset$ in a topos.
 
 ## Properties
 
 ### Relation to double-negation topology
 
-For any topos $\mathcal{E}$, its [double negation topology](double+negation#DoubleNegationTopology) gives the smallest dense subtopos. This agrees with the [situation for locales](double+negation#double_negation_locale) but contrasts with [[topological space|topological space]] where, in general, smallest dense subspaces do not exist.
+For any topos $\mathcal{E}$, its [double negation topology](double+negation#DoubleNegationTopology) gives the _smallest_ dense subtopos. This agrees with the [situation for locales](double+negation#double_negation_locale) but contrasts with the [[dense subspace|situation for topological spaces]] where, in general, smallest dense subspaces do not exist.
 
 +-- {: .num_prop #smallest_dense_subtopos}
 ###### Proposition
-$sh_{\not\not}(\mathcal{E}) \hookrightarrow \mathcal{E}$ is the smallest dense subtopos.
+$Sh_{\not\not}(\mathcal{E}) \hookrightarrow \mathcal{E}$ is the smallest dense subtopos.
 =--
 
 ([Johnstone, below Corollary 4.5.20](#Johnstone02))
@@ -93,7 +101,11 @@ In view of this, the subtopos being dense says that not only $\ast$, but this wh
 
 In other words, for an [[level| essential subtopos]] _being dense is equivalent to resolve_ $\emptyset \dashv \ast$ in the Hegelian calculus of [[level|levels]]!
 
-E.g. [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the [[gros topos]] $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] all subtoposes are essential and correspond to [[n-truncation modality|dimensional truncations]]. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. In general, the Aufhebung $\bar{l}$ of a level $l$ resolves all the levels that $l$ resolves. Therefore in $Set^{\mathcal{G}^{op}}$ _all_ subtoposes (above 0) resolve $\emptyset\dashv\ast$ and hence are _dense_! Contrast this with the case of a **Boolean topos** which has only itself as a (trivial) dense subtopos[^proof]. 
+#### Example
+
+[Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the [[gros topos]] $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] all subtoposes are essential and correspond to [[n-truncation modality|dimensional truncations]]. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. In general, the Aufhebung $\bar{l}$ of a level $l$ resolves all the levels that $l$ resolves. Therefore in $Set^{\mathcal{G}^{op}}$ _all_ subtoposes (above 0) resolve $\emptyset\dashv\ast$ and hence are _dense_!
+
+Compare this with the case of a **Boolean topos** which has only itself as a (trivial) dense subtopos[^proof]! 
 
 [^proof]: This follows easily from the above [proposition](#smallest_dense_subtopos): cf. at [[Boolean topos]].
 
