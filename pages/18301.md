@@ -148,7 +148,7 @@ Since the $\varphi^*_i$ are all quantifier-free, and $\varphi$ was arbitrary, we
 * So e.g. the [[countable random graph]], the theory [[ACF]] of algebraically closed fields, the theory [[DLO]] of dense linear orders...
 
 ## Remarks
-* The analogous (and weaker) property where one asks that the theory of the elementary class of $T$-models _elementarily embedding_ a fixed $T$-model is complete is called [[model complete theory | model completeness]].
+* The analogous (and weaker) property where one asks that the theory of the elementary class of $T$-models embeddings a fixed $T$-model is complete is called [[model complete theory | model completeness]].
 
 * Of course, substructure-completeness implies model-completeness.
 
