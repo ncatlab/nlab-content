@@ -457,7 +457,9 @@ Then we see that  there is a $(2,1)$-category $BUN$ with objects Lie groupoids, 
 
 Given a strict morphism $G\xrightarrow{f} H$, then we may form a bibundle $E:= G_0\times_{f_0, H_0, t} H_1$ with right $H$ action induced by $H$-multiplication and with left $G$ action induced by $G$-action on $G_0$. Bundlisation preserves composition. 
 
-Thus 
+
+
+
 
 
 +-- {: .num_remark #TruncationOfBibundle}
