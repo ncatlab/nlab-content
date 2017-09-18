@@ -139,6 +139,8 @@ The fact that $\lim_\to C(U) \simeq *$ follows from the [[nerve theorem]], using
 
 ## Properties {#Properties}
 
+### $\infty$-Sheaves on $\infty$-Cohesive sites
+
 +-- {: .num_theorem}
 ###### Theorem
 
@@ -238,7 +240,9 @@ The morphism from the first to the latter is the evident one that componentwise 
 
 =--
 
+### Aufhebung
 
+A [[cohesive (∞,1)-topos]] over an $\infty$-cohesive site satisfies [[Aufhebung]] of the [[unity of opposites|moments]] of [[becoming]]. See at _[[Aufhebung]]_ the section _[Aufhebung of becoming -- Over cohesive sites](http://ncatlab.org/nlab/show/Aufhebung#ExamplesBecomingFormalization)_.
 
 
 
