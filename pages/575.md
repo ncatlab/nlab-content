@@ -67,9 +67,6 @@ $$S \subseteq g(T) := \{x: \forall_{y \in T} r(x, y)\}$$
 
 which means we have a Galois connection between $f$ and $g$ under this definition; since $g$ is uniquely determined by the presence of a Galois connection with $f$, we conclude that all Galois connections between power sets arise in this way, via a relation $r$ between $X$ and $Y$. 
 
-+-- {: .num_prop} 
-###### Proposition 
-Let $
 
 ## Related concepts
 
