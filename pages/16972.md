@@ -54,7 +54,7 @@ $$
 
 to match standard conventions.
 
-This means that if $S^7$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given (on points $(x,y)$ with $y \neq 0$) simply by 
+This means that if $S^7$ is regarded as the [[unit sphere]] $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given (on points $(x,y)$ with $y \neq 0$) simply by 
 
 $$
   p_{\mathbb{H}} \colon (x,y) \mapsto [x;y] = [x/y; 1]
