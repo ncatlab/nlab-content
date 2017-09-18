@@ -6,6 +6,8 @@
 
 A **spectral group scheme** is a [[group scheme]] in [[E-∞ geometry]]. In the affine case then the [[formal dual]] notion is a [[Hopf E-∞ algebra]].
 
+(Integrate comment [here](https://nforum.ncatlab.org/discussion/7553/spectral-group-scheme/#Item_9) about smooth and flat versions.)
+
 ## Example
 
 * $GL$: Consider $R$ an [[E-∞ ring]], $CAlg_R$, the ∞-category of $R$-algebras, $Mod_R$ an ∞-category of $R$-modules.
