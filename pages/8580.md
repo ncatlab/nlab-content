@@ -50,6 +50,8 @@ Divided into two parts:
 
 1. [Differentiation](#Differentiation)
 
+1. [Homotopy types](#HomotopyTypes)
+
 1. [Smooth homotopy types](#SmoothnGroupoids)
 
 1. [Groups](#NGroups)
@@ -454,6 +456,8 @@ We begin by laying the foundations of [[differential geometry]]. Doing this in t
 
 1. [Differentiation](#Differentiation)
 
+1. [Homotopy types](#HomotopyTypes)
+
 1. [Smooth homotopy types](#SmoothnGroupoids)
 
 1. [Groups](#NGroups)
@@ -505,6 +509,10 @@ This chapter is at _[[geometry of physics -- differential forms]]_.
 
 This chapter is at _[[geometry of physics -- differentiation]]_.
 
+## **Homotopy types**
+ {#HomotopyTypes}
+
+This chapter is at _[[geometry of physics -- homotopy types]]_.
 
 ## **Smooth homotopy types**
  {#SmoothnGroupoids}
@@ -622,6 +630,7 @@ A natural way to make this precisely is to say that a [[manifold]] of dimension 
 $$
   p \;\colon\; \left(\coprod_{i \in i} \mathbb{R}^n\right) \to X
   \,.
+
 $$
 
 This encodes that $X$ can surjectively covered by Cartesian spaces, but it does not yet ensure that $X$ is _locally equivalent_ to a Cartesian space in the intended sense. That intended sense is that $p$ is a [[local diffeomorphism]].
@@ -807,6 +816,7 @@ If $X$ here is [[0-truncated]] then we call it it **[[manifold]]**. It $X$ is [[
 
 ## **Reduction of structure groups**
  {#ReductionOfStructureGroups}
+
 
 
 ### Model Layer
