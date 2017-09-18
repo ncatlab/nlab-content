@@ -60,7 +60,7 @@ $$
 
 ([Artin-Mazur 77, II.1 "Main examples"](#ArtinMazur77))
 
-The fundamental result of ([Artin-Mazur 77, II](#ArtinMazur77)) is that under the above hypotheses this presheaf if [[prorepresentable functor|pro-representable]] by [[formal group]], which we may hence also denote by $\Phi_X^n$. This is called the **Artin-Mazur formal group** of $X$ in degree $n$.
+The fundamental result of ([Artin-Mazur 77, II](#ArtinMazur77)) is that under the above hypotheses this presheaf is [[prorepresentable functor|pro-representable]] by a [[formal group]], which we may hence also denote by $\Phi_X^n$. This is called the **Artin-Mazur formal group** of $X$ in degree $n$.
 
 More in detail:
 
