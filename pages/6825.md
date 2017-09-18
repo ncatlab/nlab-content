@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[isometry group]] $O(n,2)$ of $(n+1)$-dimensional [[anti de Sitter spacetime]].
+The [[isometry group]] $O(d-1,2)$ of $d$-dimensional [[anti de Sitter spacetime]]. ([[orthogonal group]] for [[signature]] $(d-1,2)$)
 
 ## Properties
 
