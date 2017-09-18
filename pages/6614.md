@@ -77,10 +77,17 @@ See also
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _Higher geometric prequantum theory_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
 
-Higher geometric prequantum theory
 
 
 [[!redirects n-plectic forms]]
 
 [[!redirects multisymplectic form]]
 
+[[!redirects pre-n-plectic form]]
+[[!redirects pre-n-plectic forms]]
+
+[[!redirects pre-n-plectic manifold]]
+[[!redirects pre-n-plectic manifolds]]
+
+[[!redirects pre n-plectic manifold]]
+[[!redirects pre n-plectic manifolds]]
