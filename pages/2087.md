@@ -1,9 +1,13 @@
 A __prime ideal theorem__ is a theorem stating that every [[proper ideal]] is contained in some [[prime ideal]].  A prime ideal theorem is typically equivalent to the [[ultrafilter principle]] (UF), a weak form of the [[axiom of choice]] (AC).
 
 We say 'a' prime ideal theorem (PIT) instead of 'the' prime ideal theorem, since we have not said what the ideals are in.  There are several examples:
+
 *  The PIT for [[rings]] is equivalent to UF.
+
 *  The PIT for [[distributive lattices]] is equivalent to UF.
+
 *  The PIT for [[Boolean algebras]] is equivalent to UF.
+
 *  The PIT for [[rigs]], which subsumes all of the above, is probably also equivalent to UF; in any case, it follows from AC.
 
 One typically proves a prime ideal theorem with [[Zorn's Lemma]], unless one is specifically trying to use something weaker.
