@@ -599,7 +599,7 @@ is a [[bijection]]. Therefore the pre-image of $[id_X] \in [X,X]_{strict}$ is an
 +-- {: .num_theorem #StableModelStructuresOnDiagramSpectra}
 ###### Theorem
 
-The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures of def. \ref{StrictModelStructureOnDiagramSpectra} at the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra}, we call these the _stable model structures_
+The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures of def. \ref{StrictModelStructureOnDiagramSpectra} at the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra} exist,  called these the _stable model structures_
 
 $$
   \mathbb{S}_{dia} Mod_{stable}
@@ -619,7 +619,7 @@ Moreover these stable model structures are
 
 =--
 
-([MMSS00, theorem 9.2](#MMSS00))
+([MMSS00, theorem 9.2](#MMSS00)) We give the proof [below](#StableModelStructureOnDiagramSpectraProof), after a bunch of lemmas.
 
 
 
@@ -940,6 +940,14 @@ Since all elements of $K$ are stable equivalences and strict cofibrations by lem
 
 In the other direction, if $f$ is a stable equivalence and strict cofibration, by the [[small object argument]] it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $K$-cell complex $i$ followed by a $K$-[[injective morphism]] $p$. By the previous statement $i$ is a stable equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration mean that it has the [[left lifting property]] against $p$, and so the [[retract argument]] implies that $f$ is a retract of the relative $K$-cell complex $i$.
 
+
+=--
+
++-- {: .proof #StableModelStructureOnDiagramSpectraProof}
+###### Proof
+(of theorem \ref{StableModelStructuresOnDiagramSpectra}
+
+spring
 
 =--
 
