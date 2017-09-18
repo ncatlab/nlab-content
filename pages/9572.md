@@ -57,7 +57,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Unwinding the definitions, we find that an [[object]] of $Z(\mathcal{C}, \otimes)$ $\Phi \colon id_{\mathbf{B}_\otimes \mathcal{C}} \to id_{\mathbf{B}_\otimes \mathcal{C}}$ has compnents being pseudonaturality squares
+Unwinding the definitions, we find that an [[object]] of $Z(\mathcal{C}, \otimes)$ $\Phi \colon id_{\mathbf{B}_\otimes \mathcal{C}} \to id_{\mathbf{B}_\otimes \mathcal{C}}$ has components being pseudonaturality squares
 
 $$
   \array{
