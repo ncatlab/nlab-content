@@ -1,5 +1,23 @@
 
 $$
+  \array{
+    \ast &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    ker(f) &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    A &\longrightarrow& B 
+    \\
+    \uparrow && \uparrow
+    \\
+    \ast &\longrightarrow& \ast
+  }
+$$
+
+$$
  x^{\prime\prime}
 $$
 
