@@ -1,0 +1,10 @@
+
+* [Mathematics Genealogy page](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=163248)
+
+## related $n$Lab entries
+
+* [[G2-orbifold]]
+
+* [[ADE-orbifold]]
+
+category: people
