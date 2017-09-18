@@ -50,7 +50,7 @@ Shortly after its conception it was suspected that the tachyon that appears in t
 
 The detailed quantitative confirmation of Sen's conjecture has been one of the main successes of string field theory. In the course of this a detailed algebraic description of the "true closed bosonic string vacuum", i.e. of the theory at that local tachyon potential minimum has been found. However, the algebraic expressions involved tend to be hard to handle in their complexity.
 
-There are numerical indications that indeed as the D25-brane has decayed, the remaining vacuum contains (only) closed strings. See the [references below](#BosonicStringVacuumAndSenConjecture).
+There are numerical indications that indeed as the D25-brane decays, the remaining vacuum contains (only) closed strings. See the [references below](#BosonicStringVacuumAndSenConjecture).
 
 ### Shortcomings
 
