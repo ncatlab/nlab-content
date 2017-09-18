@@ -27,7 +27,7 @@
 
 While _[[Cartan geometry]]_ was originally conceived of in the context of [[differential geometry]], its principles and constructions make sense much more generally. In particular they make sense in the context of [[supergeometry]]. The implementation of Cartan geometry in supergeometry may well be called _super-Cartan geometry_ or _Cartan super-geometry_. Where the original and motivating example for plain [[Cartan geometry]] was the formulation of [[Einstein gravity]] (via [[pseudo-Riemannian geometry]]), so super-Cartan geometry underlies and finds motivation from the formulation of [[supergravity]], see also the [Survey of (non-)existing literature below](#SurveyOfExistingLiterature).
 
-While the general abstract [[theory]] of super-Cartan geometry proceeds in direct analogy with that of traditional Cartan geometry, the examples tend to exhibit a richer behaviour. Specifically for the case relevant to [[supergravity]] this is due to two facts:
+While the [[abstract general]] [[theory]] of super-Cartan geometry proceeds in direct analogy with that of traditional Cartan geometry, the [[concrete particular]] examples tend to exhibit a richer behaviour. Specifically for the case relevant to [[supergravity]] this is due to two facts:
 
 1. The [[super Euclidean spaces]] and [[super-Minkowski spacetimes]], have, as [[super-translation groups]], [[non-abelian group|non-abelian]] [[supergroup]] structure, which is reflected in the fact that the [[left-invariant 1-forms]] ([[super differential forms]]) on these spaces are _not_ closed. This means that they carry natural intrinsic [[torsion of a G-structure]]. Due to this fact the super-Cartan geometry involved in [[supergravity]] is richer than its bosonic counterpart in a way that goes beyond the addition of "superpartners". For more on this see also at _[[torsion constraints of supergravity]]_.
 
@@ -37,13 +37,13 @@ While the general abstract [[theory]] of super-Cartan geometry proceeds in direc
 ## Survey of (non-)existing literature
  {#SurveyOfExistingLiterature}
 
-While the terminology "super-Cartan geometry" is not much used traditionally (but see ([Egeileh-Chami 13](#EgeilehChami13))), nevertheless the key ingredients of super-Cartan geometry are well known in the literature, and all the more is it useful to make them explicit as what they are.
+While the specific terminology "super-Cartan geometry" is traditionally not used much  (but see ([Baaklini 77a](#Baaklini77a), [Baaklini 77b](#Baaklini77b), [Egeileh-Chami 13](#EgeilehChami13))), nevertheless the key ingredients of super-Cartan geometry are well known in the literature, and all the more is it useful to make them explicit as what they are.
 
-Physics literature usually refers to the "superspace formulation" of [[supergravity]] when referring to the formulation of the theory in [[supergeometry]] and uses terms such as "Einstein-Cartan theory" to refer to the [[first order formulation of gravity]]. Essentially all of the literature on [[supergravity]] formulated this way in "superspace" is more or less implicitly about super-Cartan geometry for the inclusion of a [[spin group]]-[[double cover]] of the [[Lorentz group]] inside a [[super Poincaré group]], in direct analogy to how ordinary [[Einstein gravity]] ([[pseudo-Riemannian geometry]]) is the Cartan geometry of the inclusion of a [[Lorentz group]] inside a plain [[Poincaré group]] -- this in fact being Cartan's original and motivating example for the whole theory. Where physicists speak of "locally gauging [[supersymmetry]]" the mathematical formulation of that is precisely this: the "[[supersymmetry]]" [[supergroup]] is the [[super Poincaré group]] [[action|acting]] on [[super Minkowski spacetime]], and "locally gauging" it means exactly to consider [[spacetimes]] that are locally ([[tangent space]]-wise) modeled on [[super Minkowski space]], while globally varying according to a [[Lorentz group]]-[[G-structure]], hence the super-analog of a [[pseudo-Riemannian metric]].
+Physics literature usually refers to the "superspace formulation" of [[supergravity]] when referring to the formulation of the theory in [[supergeometry]] and uses terms such as "Einstein-Cartan theory" to refer to the [[first order formulation of gravity]] (e.g. [Nieuwenhuizen 81](#Nieuwenhuizen81)). But all of the literature on [[supergravity]] formulated this way in "superspace" is implicitly about super-Cartan geometry for the inclusion of a [[spin group]]-[[double cover]] of the [[Lorentz group]] inside a [[super Poincaré group]], in direct analogy to how ordinary [[Einstein gravity]] ([[pseudo-Riemannian geometry]]) is the Cartan geometry of the inclusion of a [[Lorentz group]] inside a plain [[Poincaré group]] -- this in fact being Cartan's original and motivating example for the whole theory. Where physicists speak of "locally gauging [[supersymmetry]]" the mathematical formulation of that is precisely this: the "[[supersymmetry]]" [[supergroup]] is the [[super Poincaré group]] [[action|acting]] on [[super Minkowski spacetime]], and "locally gauging" it means exactly to consider [[spacetimes]] that are locally ([[tangent space]]-wise) modeled on [[super Minkowski space]], while globally varying according to a [[Lorentz group]]-[[G-structure]], hence the super-analog of a [[pseudo-Riemannian metric]]. The main point to be aware of is that physics literature in general tends to by default outright ignore all global issues (such as nontrivial [[prinicpal bundles]]) and instead discuss these only when absolutely necessary as extra phenomena going by names such as _[[instantons]]_ and _[[anomalies]]_.
 
-One physics references which makes the super-Cartan-geometric picture of [[supergravity]] very explicit is ([D'Auria-Fre 82](#DAuriaFre82), [Castellani-D'Auria-Fre 91](#CastellaniDAuriaFre91)). (These authors in fact also make the [[higher Cartan geometry]] hidden here fairly explicit, see there and see at [[D'Auria-Fré formulation of supergravity]].), even though these authors do not use this mathematical terminology. Similarly, discussion of super-[[Klein geometry]] in the context of [[supergravity]] is, even if not exactly in this terminology, rather explicit in ([Figueroa-O'Farrill 08](#FigueroaOFarrill08)). 
+With this understood, one physics references which explores the super-Cartan-geometric picture of [[supergravity]] in much detail is ([D'Auria-Fre 82](#DAuriaFre82), [Castellani-D'Auria-Fre 91](#CastellaniDAuriaFre91)). (These authors in fact also make even the [[higher Cartan geometry]] hidden here fairly explicit, see there and see at _[[D'Auria-Fré formulation of supergravity]]_), even though also these authors do not use this mathematical terminology. Similarly, discussion of super-[[Klein geometry]] in the context of [[supergravity]] is, even if not exactly in this terminology, rather explicit in ([Figueroa-O'Farrill 08](#FigueroaOFarrill08)). 
 
-An early reference that identifies this [[first order formulation of gravity]] explicitly as a [[Cartan connection]] is ([Baaklini 77a](#Baaklini77a), [Baaklini 77b](#Baaklini77b)), which however seems to have gone unnoticed. The only genuine citation to this article is in the list of references of the survey ([Nieuwenhuizen 81](#Nieuwenhuizen81)) which however does not actually refer the article in its text.  A much later reference that very clearly identifies the role of the mathematics of supergeometric [[G-structures]] (which is the relevant special class of super-Cartan geometry) in [[supergravity]] in the context of [[supergravity torsion constraints]] is ([Lott 01](#Lott01)). The followup ([Egeileh-Chami 13](#EgeilehChami13)) to that article again makes the terminology "Cartan geometry" fully explicit in this supergeometric context. This last article also observes that from this perspective the traditional concept of _[[Killing spinor]]_ -- which involves an extra "weakening" parameter in addition to the plain concept of a _[[covariantly constant spinor]]_ -- is naturally understood as being in fact a covariantly constant spinor, but for a different model super-[[Klein geometry]] $G/H$.
+An early reference that identifies this [[first order formulation of gravity]] explicitly as a [[Cartan connection]] is ([Baaklini 77a](#Baaklini77a), [Baaklini 77b](#Baaklini77b)), which however seems to have gone unnoticed. (The only non-self citation to this article is in the list of references of the survey ([Nieuwenhuizen 81](#Nieuwenhuizen81)) which however does not actually refer the article in its text.) A much later reference that very clearly identifies the role of the mathematics of supergeometric [[G-structures]] (which is the relevant special class of super-Cartan geometry) in [[supergravity]] in the context of [[supergravity torsion constraints]] is ([Lott 01](#Lott01)). The followup ([Egeileh-Chami 13](#EgeilehChami13)) to that article again makes the terminology "Cartan geometry" fully explicit in this supergeometric context. This last article also observes that from this perspective the traditional concept of _[[Killing spinor]]_ -- which involves an extra "weakening" parameter in addition to the plain concept of a _[[covariantly constant spinor]]_ -- is naturally understood as being in fact a covariantly constant spinor, but for a different model super-[[Klein geometry]] $G/H$.
 
 This provides ample example and application of super-Cartan geometry for the case where $G/H$ is a [[super vector space]], hence for the case corresponding to [[G-structure]]. More general super-Cartan geometry apparently remains to be explored.
 
@@ -176,7 +176,7 @@ $\{$[[smooth 2-groupoids]]$\}$
  \hookrightarrow $
 $\{$[[smooth ∞-groupoids]]$\}$ 
 
-The identification of (super-)[[smooth manifolds]] inside all (super-)[[smooth spaces]] we consider [below](#TheCurvedCase).
+The identification of (super-)[[smooth manifolds]] inside all (super-)[[smooth spaces]] we consider [below](#GStructureAndCartanGeometry).
 
 =--
 
@@ -713,13 +713,70 @@ $$
 
 =--
 
+By applying [[universal constructions]] to the [[unit of a monad|units]]/[[counit of a comonad|counits]] of these [[modalities]], we obtain various further operations that will be useful
+
++-- {: .num_defn #InfinitesimalDiskBundle}
+###### Definition
+
+Given $X \in \mathbf{H}$, its _infinitesimal disk bundle_ $T_{inf} X\to X$
+is the [[pullback]] of the [[unit of a monad|unit]] of the 
+[[infinitesimal shape modality]] along itself
+
+$$
+  \array{
+    T_{inf} X &\stackrel{}{\longrightarrow}& X
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\longrightarrow& \Im X
+  }
+  \,.
+$$
+
+Given a point $x\colon  \ast \to X$, then the [[infinitesimal neighbourhood]] 
+$\ast \to \mathbb{D}_x \to X$ of that point is the further [[pullback]] of the infinitesimal disk bundle to this point:
+
+$$
+  \array{
+    \mathbb{D}_x &\longrightarrow & T_{inf} X &\stackrel{}{\longrightarrow}& X
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \ast &\stackrel{x}{\longrightarrow} & X &\longrightarrow& \Im X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is the input for the formulation of [[frame bundles]] below around 
+prop. \ref{FrameBundle}.
+
+=--
+
+It is natural not to pick any point, but to collect all infinitesimal disks around _all_ the points of a space:
 
 +-- {: .num_defn #RelativeFlat}
 ###### Definition
 
-[[formal disk]], [[relative flat modality]]
+The _[[relative shape modality]]_ is the operation $\flat^{rel}$ that sends $X \in \mathbf{H}$ to the [[homotopy pullback]]
+
+$$
+  \array{
+    \flat^{rel} &\longrightarrow& X
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat X &\longrightarrow& \Im X
+  }
+  \,.
+$$ 
 
 =--
+
 
 +-- {: .num_prop #Sublations}
 ###### Proposition
@@ -799,7 +856,7 @@ $$
 
 
 ### **2)** $G$-Structure and Cartan geometry
- {#TheCurvedCase}
+ {#GStructureAndCartanGeometry}
 
 Given a [[topos]] of [[differential cohesion]] $\mathbf{H}$ as in corollary \ref{SystemOfModalities} above (hence an [[elastic]] [[substance]]), then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of _$V$-[[manifolds]]_ and  _[[G-structures]]_ on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectonsOfToposes} this hence yields a theory of $G$-structures on $V$-manifolds in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$. Here we briefly recall the elements of [[abstract general]] [[Cartan geometry]] formulated axiomatically this way. Below in _[Super Cartan geometry](#SuperCartanGeometry)_ we then specify to the [[concrete particular]] super Cartan geometry.
 
@@ -908,47 +965,34 @@ a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-
 
 =--
 
-+-- {: .num_defn #InfinitesimalDiskBundle}
-###### Definition
-
-Given $X \in \mathbf{H}$, its _infinitesimal disk bundle_ $T_{inf} X\to X$
-is the [[pullback]] of the [[unit of a monad|unit]] of the 
-[[infinitesimal shape modality]] along itself
-
-$$
-  \array{
-    T_{inf} X &\stackrel{}{\longrightarrow}& X
-    \\
-    \downarrow && \downarrow
-    \\
-    X &\longrightarrow& \Im X
-  }
-  \,.
-$$
-
-
-=--
 
 +-- {: .num_prop #FrameBundle}
 ###### Proposition
 
 For $X$ a $V$-manifold, then its infinitesimal disk bundle,
 def. \ref{InfinitesimalDiskBundle}, is [[associated infinity-bundle|associated]]
-to a $GL(V)$-[[principal infinity-bundle|principal]] [[frame bundle]] $Fr(X) \to X$.
-
-=--
-
-We write $\tau_X \colon X \longrightarrow \mathbf{B} GL(V)$ for the [[modulating morphism]] of the [[frame bundle]], fitting into a [[homotopy pullback]] square
+to a $GL(V)$-[[principal infinity-bundle|principal]] $Fr(X) \to X$ -- to be called the _[[frame bundle]]_, [[modulating morphism|modulated]] by a map to be called $\tau_X$, producing [[homotopy pullbacks]] of the form
 
 $$
   \array{
-    Fr(X) &\longrightarrow& \ast
-    \\
-    \downarrow && \downarrow
-    \\
-    X &\stackrel{\tau_X}{\longrightarrow}& \mathbf{B} GL(V)
+     T_{inf} X &\longrightarrow& V/GL(V)
+     \\
+     \downarrow && \downarrow
+     \\
+     X &\stackrel{\tau_X}{\longrightarrow}& \mathbf{B} GL(V)
   }
+  \;\;\;
+  \array{
+     Fr(X) &\longrightarrow& \ast
+     \\
+     \downarrow && \downarrow
+     \\
+     X &\stackrel{\tau_X}{\longrightarrow}& \mathbf{B} GL(V)
+  }
+  \,.
 $$
+
+=--
 
 +-- {: .num_defn #Framing}
 ###### Definition
@@ -978,7 +1022,7 @@ For $V$ equipped with the structure of a [[group object]], then $V$ regarded as 
 +-- {: .num_defn #GStructure}
 ###### Definition
 
-Given a homomorphism of groups $G \longrightarrow GL(V)$, a _[[G-structure]]_ on a $V$-manifold $X$ is a lift $\mathbf{c}$ of the frame bundle $\tau_X$ of prop. \ref{FrameBundle} through this map
+Given a homomorphism of groups $G \longrightarrow GL(V)$, a _[[G-structure]]_ on a $V$-manifold $X$ is a lift $\mathbf{c}$ of the [[frame bundle]] $\tau_X$ of prop. \ref{FrameBundle} through this map
 
 $$
   \array{
@@ -1034,17 +1078,34 @@ $$
   \,.
 $$
 
-It is _infintesimally integrable_ if this holds true at least after restriction along $\flat^{rel} U \to U$ to all the infinitesimal disks in $U$.
+It is _infintesimally integrable_ if this holds true at least after restriction along the [[relative shape modality]] $\flat^{rel} U \to U$, def. \ref{RelativeFlat}, to all the infinitesimal disks in $U$:
+
+$$
+  \array{
+     && \tau_{\flat^{rel}U}
+     \\
+     & \swarrow && \searrow
+     \\
+     \tau_V && \swArrow && \tau_X
+     \\
+     & {}_{\mathllap{\mathbf{c}_{LI}}}\searrow && \swarrow_{\mathrlap{\mathbf{c}}}
+     \\
+     && G \mathbf{Struc}
+  }
+  \,.
+$$
 
 =--
 
 
-### **3)** Super-Cartan geometry
+### **3)** Super-Cartan geometry for Supergravity
  {#SuperCartanGeometry}
 
-Above we have prepared a [[topos]] context for [[supergeometry]] with a system of [[modal operators]] that accurately reflect the three lebels of geoemtric structure in supergeometry: smooth structure, infinitesimal thinckening and fermionic odd grading.
+Above in _[The geometric substance](#TheGeometricSubstance)_ we have prepared a [[topos]] context for [[supergeometry]] with a system of [[modal operators]] that accurately reflect the three levels of geometric structure in supergeometry: smooth structure, infinitesimal thinckening and fermionic odd grading.
 
-Here we now formulate super-Cartan geometry in this context and using these operations. 
+Then in _[G-Structure and Cartan geometry](#GStructureAndCartanGeometry)_ we have used these [[modal operators]] to formulate Cartan geometry on $V$-manifold, def. \ref{VManifold}, for any given local model group space $V$.
+
+Here we now consider a [[concrete particular]] choice for such a $V$: [[super-Minkowski spacetimes]].
 
 
 #### The super-Klein geometry: super-Minkowski spacetime
@@ -1381,6 +1442,7 @@ $$
 $$
 
 This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞-Lie algebroid valued curvature]] that is explicitly given by:
+
 
 
 
