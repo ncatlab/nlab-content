@@ -32,63 +32,63 @@ The two definitions agree when $Y$ is a [[Hausdorff space]], but not in general.
 
 ## Definition
 
-+-- {: .num_prop}
++-- {: .num_note}
 ###### Notation
 
 Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We denote by $Y^{X}$ the set of [[continuous maps]] from $(X,\mathcal{O}_{X})$ to $(Y, \mathcal{O}_{Y})$. 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_remark}
 ###### Remark 
 
 Other common notations for $Y^{X}$ are $Map(X,Y)$ or $C(X,Y)$. 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_note}
 ###### Notation
 
 Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. We denote by $\mathcal{O}^{c}_{X}$ the set of subsets of $X$ which are [[compact subset|compact]] with respect to $\mathcal{O}_{X}$.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_note}
 ###### Notation
 
 Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. Let $A$ be a subset of $X$. We denote by $\overline{A}$ the closure of $A$ in $X$ with respect to  $\mathcal{O}_{X}$.
 
 =--
 
-+-- {: .num_prop #LocallyCompact}
++-- {: .num_defn #LocallyCompact}
 ###### Definition 
 
 A topological space $(X, \mathcal{O}_{X})$ is _[[locally compact topological space|locally compact]]_ if, for every $x \in X$ and every $U \in \mathcal{O}_{X}$ such that $x \in U$, there is a $V \in \mathcal{O}_{X}$ such that $x \in V$, such that $\overline{V} \in \mathcal{O}^{c}_{X}$, and such that $\overline{V} \subset U$.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_remark}
 ###### Remark
 
 There are many variations on this definition, which can be found at _[[locally compact space]]_. These are all equivalent if $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. We do _not_ however make the assumption that $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_note}
 ###### Notation
 
 Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. Given $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$, we denote by $M_{A,U}$ the set of continuous maps $f : X \rightarrow Y$ such that $f(A) \subset U$.
 
 =--
 
-+-- {: .num_prop #CompactOpenTopology}
++-- {: .num_defn #CompactOpenTopology}
 ###### Definition
 
 Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. The _compact-open_ topology on $Y^{X}$ is that with [[base of a topological space|sub-basis]] given by the set of sets $M_{A,U}$ such that $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$. 
 
 =--
 
-+-- {: .num_prop #CompactOpenTopologyNotation}
++-- {: .num_note #CompactOpenTopologyNotation}
 ###### Notation
 
 Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We shall denote the compact-open topology (def. \ref{CompactOpenTopology}) on $Y^{X}$ by $\mathcal{O}_{Y^{X}}$.  
@@ -180,7 +180,7 @@ We make the following observations.
 
 =--
 
-+-- {: .num_prop #GivesExponentialObject}
++-- {: .num_cor #GivesExponentialObject}
 ###### Corollary
 
 Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$  be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Then $(Y^{X}, \mathcal{O}_{Y^{X}})$ together with the corresponding map $ev$ defines an exponential object in the category $\mathsf{Top}$ of all topological spaces.
@@ -194,7 +194,7 @@ Follows immediately from Proposition \ref{alphafIsContinuous}, Proposition \ref{
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_remark}
 ###### Remark
 
 A proof can also be found in [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02), or just about any half-decent textbook on point-set topology!  
@@ -203,7 +203,7 @@ However, the result is almost universally stated with an assumption that $(X,\ma
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_remark}
 ###### Remark
 
 We moreover have a homeomorphism $Map(X,Map(Y,Z))\cong Map(X\times Y,Z)$ if in addition $X$ is [[Hausdorff space|Hausdorff]]. See also [[convenient category of topological spaces]].
