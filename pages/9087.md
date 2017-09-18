@@ -11,11 +11,11 @@ This may be understood as a first step towards formulating [[intersection theory
 
 ## Statement
 
-Given a [[regular scheme]] $X$ and subschemes $Y,Z$ with defining ideal sheaves $\mathcal{I},\mathcal{J}$, respectively, the intersection multiplicity $m(x,Y,Z)$ at a generic point $x$ at the intersection $Y\cap Z$ us given by the Serre intersection (or multiplicity) formula in terms of torsion groups
+Given a [[regular scheme]] $X$ and subschemes $Y,Z$ with defining ideal sheaves $\mathcal{I}_X,\mathcal{I}_Y$, respectively, the intersection multiplicity $m(x,Y,Z)$ at a generic point $x$ at the intersection $Y\cap Z$ us given by the Serre intersection (or multiplicity) formula in terms of torsion groups
 
 $$
 m(x,Y,Z) = \sum_{i\geq 0} (-1)^i length_{\mathcal{O}_{X,x}} Tor_i^{\mathcal{O}_{X,x}}
-(\mathcal{O}_{X,x}/\mathcal{I}_x,\mathcal{O}_{X,x}/\mathcal{J}_x)
+(\mathcal{O}_{X,x}/\mathcal{I}_{X,x},\mathcal{O}_{X,x}/\mathcal{I}_{Y,x)
 $$
 
 The formula can be interpreted by the [[Hochschild homology]], or within the [[derived category of coherent sheaves]] on $X$. It has been one of the motivating results for the development of [[derived algebraic geometry]].
