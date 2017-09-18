@@ -30,9 +30,11 @@ Equivalently, an ideal $M \subseteq R$ is maximal if the [[quotient]] ring $R/M$
 
 Assuming the [[axiom of choice]] then:
 
-Let $R$ be a [[commutative ring]] and let $I \subset R$ be a proper ideal. Then $R$ contains a maximal ideal $\mmathfrak{m}$ containing $I$, i.e. $I \subset \mathfrak{m}$.
+Let $R$ be a [[commutative ring]] and let $I \subset R$ be a proper ideal. Then $R$ contains a maximal ideal $\mathfrak{m}$ containing $I$, i.e. $I \subset \mathfrak{m}$.
 
 =--
+
+(See also at _[[prime ideal theorem]]_.)
 
 +-- {: .proof}
 ###### Proof
@@ -67,7 +69,7 @@ Every maximal ideal is a [[prime ideal]].
 
 ### Relation to points in the spectrum
 
-Assuming [[axiom of choice|AC]] and [[exlcuded middle|EM]], then
+Assuming [[axiom of choice|AC]] and [[excluded middle|EM]], then
 
 Maximal ideals in the [[spectrum of a commutative ring]] $Spec(R)$ correspond precisely to the [[closed points]] in the [[Zariski topology]] on $Spec(R)$ ([this prop.](Zariski+topology#MaximalIdealsAreClosedPoints)).  
 
