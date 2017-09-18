@@ -68,6 +68,7 @@ So it is the homologically nontrivial parts of the chain complexes in negative d
 There are many "models" for spectra, all of which present the same homotopy theory (and in fact, nearly all of them are [[Quillen equivalence|Quillen equivalent]] [[model category|model categories]]).  
 
 ### Sequential pre-spectra
+ {#SequentialPreSpectra}
 
 A simple first definition is to define a spectrum $\mathbf{E}$ to be a sequence of pointed spaces $(E_n)_{n\in\mathbb{N}}$ together with structure maps $\Sigma{}E_n\to{}E_{n+1}$ (where $\Sigma$ denotes the [[reduced suspension]]).
 
@@ -84,8 +85,16 @@ If these maps are isomorphisms (depending on the situation it can be weak equiva
 
 The idea is that $E_0$ contains the information of $\mathbf{E}$ in dimensions $k\ge 0$, $E_1$ contains the information of $\mathbf{E}$ in $k\ge -1$ (but shifted up by one, so that it is modeled by the $\ge 0$ information in the space $E_1$), and so on.
 
-$\Omega$-spectra are special cases of spectra, and are in fact the fibrant objects for some model structure on the category of spectra.
-Given any spectrum $\mathbf{E}$, it is easy to transform it into an equivalent $\Omega$-spectrum $\mathbf{F}$ (a fibrant replacement of $\mathbf{E}$) : just take $F_n=\lim_{m\to\infty}\Omega^m E_{n+m}$ and use the fact that $\Omega$ commutes with the filtered colimits.
+$\Omega$-spectra are special cases of [[sequential spectrum|sequential]] pre-spectra as [above](#SequentialPreSpectra), and are in fact the [[fibrant objects]] for some [[model structure on spectra]].
+
+Given any sequential pre-spectrum $\mathbf{E}$, it induces an equivalent $\Omega$-spectrum $\mathbf{F}$ (a fibrant replacement of $\mathbf{E}$, its _[[spectrification]]_) given by ([Lewis-May-Steinberger 86, p. 3](#LewisMaySteinberger86))
+
+$$
+  F_n \coloneqq \lim_{m\to\infty}\Omega^m E_{n+m}
+$$ 
+
+(using that $\Omega$ commutes with the [[filtered colimits]]).
+
 
 ### Coordinate-free spectra 
 
@@ -176,13 +185,17 @@ According to ([Adams 74, p. 131](#Adams74)) the notion of spectrum is due to
 
 > It is generally supposed that [[George Whitehead|G. W. Whitehead]] also had something to do with it, but the latter takes a modest attitude about that. ([Adams74, p. 131](#Adams74))
 
-Early lecture notes include
+Early notes include
 
 * {#Adams74} [[Frank Adams]], Part III, section 2 _[[Stable homotopy and generalised homology]]_, 1974
 
 See the references at _[[stable homotopy theory]]_.
 
-The quick idea is surveyed here
+More modern developments are due to
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], M. Steinberger, _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics, 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+
+The quick idea is surveyed for instance in
 
 * [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
 
