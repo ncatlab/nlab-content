@@ -1,7 +1,7 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Statement
 
@@ -254,3 +254,15 @@ The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on th
 [[!redirects Cantor-Schröder-Bernstein Theorem]]
 [[!redirects Cantor–Schröder–Bernstein Theorem]]
 [[!redirects Cantor--Schröder--Bernstein Theorem]]
+[[!redirects Schroeder-Bernstein theorem]]
+[[!redirects Schroeder–Bernstein theorem]]
+[[!redirects Schroeder--Bernstein theorem]]
+[[!redirects Schroeder-Bernstein Theorem]]
+[[!redirects Schroeder–Bernstein Theorem]]
+[[!redirects Schroeder--Bernstein Theorem]]
+[[!redirects Schröder-Bernstein theorem]]
+[[!redirects Schröder–Bernstein theorem]]
+[[!redirects Schröder--Bernstein theorem]]
+[[!redirects Schröder-Bernstein Theorem]]
+[[!redirects Schröder–Bernstein Theorem]]
+[[!redirects Schröder--Bernstein Theorem]]
