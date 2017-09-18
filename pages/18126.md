@@ -9457,7 +9457,7 @@ $$
   Y
 $$
 
-with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$ 
+with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$
 is a [[homeomorphism]] (def. \ref{Homeomorphism}).
 
 =--
@@ -9513,9 +9513,9 @@ In one direction, if $f$ is an injective proper map,
 then since [[proper maps to locally compact spaces are closed]] (prop. \ref{ProperMapsToLocallyCompactSpacesAreClosed}), we have that $f$ is also  [[closed map]]. The claim then follows since [[closed injections are embeddings]] (prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings}), and since the image of a closed map
 is closed, by definition.
 
-Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image 
+Conversely, if $f$ is a closed embedding, we only need to show that the embedding map is proper. So for $C \subset Y$ a [[compact subspace]], we need to show that the [[pre-image]] $f^{-1}(C) \subset X$ is also compact. But since $f$ is an injection (being an embedding), that pre-image
 is equivalently just the intersection $f^{-1}(C) \simeq C \cap f(X) \subset Y$,
-regarded as a [[subspace]] of $Y$. 
+regarded as a [[subspace]] of $Y$.
 
 To see that this is compact, let $\{V_i \subset X\}_{i \in I}$ be an open cover of the subspace $C \cap f(X)$,
 hence, by the nature of the [[subspace topology]], let $\{U_i \subset Y\}_{i \in I}$ be a set of open subsets of
@@ -16413,6 +16413,111 @@ It remains to see that the [[gluing functions]] of this atlas are [[differentiab
 
 =--
 
+A _[[differentiable vector bundle]]_ is defined just as a [[topological vector bundle]]
+(def. \ref{TopologicalVectorBundle}) only that in addition all structure is required to
+be differentiable:
+
++-- {: .num_defn #DifferentiableVectorBundle}
+###### Definition
+**([[differentiable vector bundle]])**
+
+Let $k$ be a "differentiable field", specifically $k  \in \{\mathbb{R}, \mathbb{C}\}$
+so that $k^n$ is equipped with the canonical [[smooth structure|differentiable sructure]] from example \ref{DifferentiableManifoldCartesianSpace}.
+
+Given a [[differentiable manifold]] $X$ (def. \ref{DifferentiableManifold}), 
+then a _[[differentiable vector bundle|differentiable k-vector bundle]]_ over $X$ of [[rank of a vector bundle|rank]] $k$ is
+
+1. a [[differentiable manifold]] $E$;
+
+1. a [[differentiable function]] $E \overset{\pi}{\longrightarrow} X$ (def. \ref{DifferentiableManifold})
+
+1. the structure of a $k$-[[vector space]] on the [[fiber]] $\pi^{-1}(\{x\})$ for all $x \in X$
+
+such that there exists
+
+1. an [[open cover]] of $X$ $\{\mathbb{R}^d \underoverset{\simeq}{\phi_i}{\to}\}_{i \in I}$ by open subsets [[diffeomorphism|diffeomorphic]]
+   to Euclidean space with its canonica smooth structure from example \ref{DifferentiableManifoldCartesianSpace}
+   (hence an [[atlas]] exhibiting the [[smooth structure]] of $X$)
+
+1. for each $i \in I$ a [[differentiable function]] as on the top of this diagram
+
+   $$
+     \array{
+       \mathbb{R}^d \times k^n && \overset{\psi_i}{\longrightarrow} && E\vert|_{U_i}
+       \\
+       & {}_{\mathllap{\phi_i \circ pr_1}}\searrow && \swarrow_{\mathrlap{ \pi|\vert_{U_i} }}
+       \\
+       && U_i
+     }
+   $$
+   
+   which makes this diagram commute and which is [[fiber]]-wise a [[linear map]].
+   
+A [[homomorphism]] between differentiabe vector bundles $[E_1 \overset{\pi_1}{\to}X]$
+and $[E_2 \overset{\pi_2}{\to} X]$ over the same base differentiable manifolds is 
+a [[differentiable function]] as in the top of the following [[diagram]]
+
+$$
+  \array{
+    E_1 && \overset{f }{\longrightarrow} && E_2
+    \\
+    & {}_{\mathllap{\pi_1}}\searrow && \swarrow_{\mathrlap{\pi_2}}
+    \\
+    && X
+  }
+$$
+
+which makes this [[commuting diagram|diagram commute]] and which restricts to a [[linear map]]
+
+$$
+  f_x \;\colon\; (E_1)_x \longrightarrow (E_2)_x
+$$
+
+on the [[fiber]] over each point $x \in X$.
+
+More generally, if $[E_1 \overset{}{\to} X_1]$ and $[E_2 \overset{\pi_2}{\to} X_2]$
+are differentable vector bundles over possibly different differentiable base manifolds, then 
+a homomorphism is a differentiable function $f \colon E_1 \to E_2$ together with a
+differentiable function $f \colon X \to Y$ that make the diagram
+
+$$
+  \array{
+    E_1 &\overset{f}{\longrightarrow}& E_2
+    \\
+    {}^{\mathllap{\pi_1}}\downarrow && \downarrow^{\mathrlap{\pi_2}}
+    \\
+    X &\underset{\tilde f}{\longrightarrow}& Y
+  }
+$$
+
+commute and such that 
+
+$$
+  f_x \;\colon\; (E_1)_x \longrightarrow (E_2)_{f(x)}
+$$
+
+is a linear map for all $x \in X$. 
+
+This yields a [[category]] (remark \ref{TopCategory}) whose
+
+* [[objects]] are the differentiable vector bundles;
+
+* [[morphisms]] are the homomorphisms between these. 
+
+We write $Vect(Diff)$ for this category. 
+
+Underlying a differentiable vector bundle, is a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}).
+This yields a [[forgetful functor]]
+
+$$
+  U  \;\colon\; Vect(Diff) \longrightarrow Vect(Top)
+$$
+
+to the category of topological vector bundles from remark \ref{TopologicalVectorBundlesCategory}.
+
+
+=--
+
 $\,$
 
 
@@ -16616,7 +16721,7 @@ The set of all tangent vectors at $x \in X$ is denoted $T_x X$.
 ###### Lemma
 **([[real vector space]] structure on [[tangent vectors]])**
 
-For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point,  let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U \subset X$ be a [[chart]] (def. \ref{Charts}) with $x \in U \subset X$.
+For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point,  let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U \subset X$ be a [[chart]] (def. \ref{Charts}) of the given [[atlas]], with $x \in U \subset X$.
 
 Then there is induced a [[bijection]] of sets
 
@@ -16649,7 +16754,7 @@ $$
 $$
 
 For $\mathbb{R}^n \underoverset{\simeq}{\phi'}{\longrightarrow} U' \subset X$
-another chart with $x \in U' \subset X$, then the linear isomorphism relating these two identifications is
+another chart of the atlas with $x \in U' \subset X$, then the linear isomorphism relating these two identifications is
 the [[derivative]]
 
 $$
@@ -16678,7 +16783,7 @@ $$
 This is also called the _[[transition function]]_ between the two local identifications of the tangent space.
 
 If $\left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X \right\}_{i \in I}$
-is an [[atlas]] of the [[differentiable manifold]] $X$, then the transition functions
+is an [[atlas]] of the [[differentiable manifold]] $X$, then the set of transition functions
 
 $$
   \left\{
@@ -16692,8 +16797,8 @@ $$
   \right\}_{i,j \in I}
 $$
 
-defined this way satisfy the following [[Cech cohomology|Cech cocycle]] conditions (def. \ref{CocycleCech})
-for all $i,j \in I$, $x \in U_i \cap U_j$
+defined this way satisfies the normalized [[Cech cohomology|Cech cocycle]] conditions (def. \ref{CocycleCech})
+in that  for all $i,j \in I$, $x \in U_i \cap U_j$
 
 1. $g_{i i}(x) = id_{\mathbb{R}^n}$;
 
@@ -16705,7 +16810,18 @@ for all $i,j \in I$, $x \in U_i \cap U_j$
 ###### Proof
 
 The bijectivity of the map is immediate from the fact that the first derivative of $\phi^{-1}\circ \gamma^\phi_{\vec v}$
-at $\phi^{-1}(x)$ is $\vec v$.
+at $\phi^{-1}(x)$ is 
+
+$$
+  \begin{aligned}
+    \frac{d}{d t}( \phi^{-1} \circ \gamma_{\vec v}^\phi )_{t = 0}
+    & = \frac{d}{d t} (\phi^{-1}(x) + t \vec v )_{t = 0}
+    \\
+    & =
+    \vec v
+  \end{aligned}
+  \,.
+$$
 
 The formula for the transition function now follows with the [[chain rule]] (prop. \ref{ChainRuleOnEuclideanSpace}):
 
@@ -16735,8 +16851,25 @@ $$
     &=
     g_{i k}(x)
   \end{aligned}
-  \,.
 $$
+
+and the normalization simply by the fact that the derivative of the identity function at any point
+is the identity linear isomorphism:
+
+$$
+  \begin{aligned}
+    g_{i i}(x)
+    & =
+    d ( \phi_i^{-1} \circ \phi_i )_{\phi_i^{-1}(x)}
+    \\
+    & =
+    d (id_{\mathbb{R}^n})_{\phi_i^{-1}(x)}
+    \\
+    & =
+    id_{\mathbb{R}^n}
+  \end{aligned}
+$$
+
 
 =--
 
@@ -16764,7 +16897,7 @@ Using the [[vector space]] (or just [[affine space]]) structure of $X = \mathbb{
 smooth function $\gamma \colon \mathbb{R} \to X$ to the smooth function
 
 $$
-  \gamma' \colon t \mapsto \gamma(t) + (x-y)
+  \gamma' \;\colon\; t \mapsto  (x-y) + \gamma(t)
   \,.
 $$
 
@@ -16797,7 +16930,15 @@ $$
 $$
 
 Therefore it makes sense to canonically identify all the tangent spaces of Euclidean space with that Euclidean space
-itself. As a result, the collection of all the tangent spaces of Euclidean space is naturally identified
+itself. 
+
+In words, what this identification does is to use the additive group structure on
+$\mathbb{R}^n$ to translate any tangent vector at any point $x \in \mathbb{R}^n$ to the corresponding 
+tangent vector at $0$. 
+(Side remark: Hence this construction is not specific to $\mathbb{R}^n$ but 
+applies to every [[Lie group]] and it fact to  every [[coset]] space of a Lie group.)
+
+As a result, the collection of all the tangent spaces of Euclidean space is naturally identified
 with the [[Cartesian product]]
 
 $$
@@ -16842,7 +16983,7 @@ Consider the assignment that sends
 
 1. every [[Euclidean space]] $\mathbb{R}^n$ to its [[tangent bundle]] $T \mathbb{R}^n$ according to def. \ref{EuclideanSpaceTangentBundle};
 
-1. every [[differentiable function]] $f \colon \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}$ to the
+1. every [[differentiable function]] $f \colon \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}$ (def. \ref{DifferentiableFunctionBetweenCartesianSpaces}) to the
    function on [[tangent vectors]] (def. \ref{TangentVector}) induced by postcomposition with $f$
 
    $$
@@ -16865,7 +17006,7 @@ Consider the assignment that sends
      }
    $$
 
-By the [[chain rule]] we have that the [[derivative]] of the composite curve $f \circ \gamma$ is
+By the [[chain rule]] (prop. \ref{ChainRuleOnEuclideanSpace}) we have that the [[derivative]] of the composite curve $f \circ \gamma$ is
 
 $$
   d (f \circ \gamma)_t
@@ -16901,9 +17042,9 @@ $$
     \\
     X && \underset{ g\circ  f}{\longrightarrow} && Z
   }
-  \phantom{AAA}
+  \phantom{AAAA}
     \mapsto
-  \phantom{AAA}
+  \phantom{AAAA}
   \array{
     && T Y
     \\
@@ -16920,6 +17061,7 @@ $$
   \array{
     CartSp &\overset{T}{\longrightarrow}& CartSp
     \\
+    \\
     X &\mapsto& T X
     \\
     {}^{\mathllap{ f }}\downarrow && \downarrow^{\mathrlap{d f}}
@@ -16933,6 +17075,29 @@ is an [[endofunctor]] on the [[category]] [[CartSp]] whose
 1. [[objects]] are the [[Euclidean spaces]] $\mathbb{R}^n$ for $n \in \mathbb{N}$;
 
 1. [[morphisms]] are the [[differentiable functions]] between these (for any chosen differentiability class $C^k$ with $k \gt 0$).
+
+In fact more is true: By example \ref{TangentSpace} $T X$ has the structure of a 
+[[differentiable vector bundle]] (def. \ref{DifferentiableVectorBundle}) and the function $T X \overset{ d f}{\longrightarrow} T X$ is evidently a [[homomorphism]] of [[differentiable vector bundles]]
+
+$$
+  \array{
+    T X &\overset{d f}{\longrightarrow}& T Y
+    \\
+    {}^{\mathllap{\pi_X}}\downarrow && \downarrow^{\mathrlap{\pi_Y}}
+    \\
+    X &\underset{f }{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+Therefore the tangent bundle functor on Euclidean spaces refines to one of the form
+
+$$
+  T \;\colon\; CartSp \longrightarrow Vect(Diff)
+$$
+
+to the category of [[differentiable vector bundles]] (def. \ref{DifferentiableVectorBundle}).
+
 
 =--
 
@@ -17031,7 +17196,7 @@ of the tangent bundle def. \ref{TangentBundle} is a $p$-times [[differentiable m
 
 Moreover, the projection $\pi \colon T X \to X$ is a $p$-times continuously [[differentiable function]].
 
-In summary this makes $T X \to X$ a _[[differentiable vector bundle]]_.
+In summary this makes $T X \to X$ a _[[differentiable vector bundle]]_ (def. \ref{DifferentiableVectorBundle}).
 
 =--
 
@@ -17346,7 +17511,7 @@ this follows directly since [[injective proper maps to locally compact spaces ar
 
 =--
 
-We now turn to the construction of embedding of smooth manifolds into Euclidean spaces 
+We now turn to the construction of embedding of smooth manifolds into Euclidean spaces
 (prop. \ref{CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace} and remark \ref{EmbeddingWhitney} below).
 To that end we need to consider _smooth_ partitions of unity, which we discuss now (prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity} below).
 
@@ -17778,7 +17943,7 @@ $$
 
 This is an immersion. Hence it remains to see that it is also an [[embedding of topological spaces]].
 
-By prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since 
+By prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since
 [[Euclidean space|Euclidean]] [[metric space]] is a [[Hausdorff topological space]] (example \ref{HausdorffMetricSpace}), and since [[maps from compact spaces to Hausdorff spaces are closed and proper]] (prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}).
 
 =--
