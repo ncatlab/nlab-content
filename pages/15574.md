@@ -108,21 +108,25 @@ Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (w
 
 =--
 
-**Remarks**
+**Remark**
 
-The condition $\Box _j\lozenge _i=\lozenge _i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general. The Aufhebungs relation is called the _jump operator_ in [Lawvere (2009)](#Law09).
+The condition $\Box _j\lozenge _i=\lozenge _i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like presheaf topos over [[graphic category|graphic categories]] or, more generally, toposes such that all subtoposes are essential, it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
 
-In the context of a **category of being**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$  there is an opposition $\empty\dashv *$ between _pure nothing_ and _pure being_ whose Aufhebung is the opposition $\flat\dashv \sharp$ between _pure non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a,1989b, 1991).
+**From Faust's study**
 
-Following Lawvere's suggestive terminology and identifying a level with its sheaf part, we could say that becoming is the Aufhebung of the opposition between nothing and being, or more shortly and consequently, that _becoming is the Aufhebung of being_. 
+In the context of a **category of being**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$,  there is an opposition $\empty\dashv *$ between _pure nothing_ and _pure being_ whose Aufhebung is the opposition $\flat\dashv \sharp$ between _pure non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a,1989b, 1991).
+
+Following Lawvere's suggestive terminology and identifying a level with its sheaf part, we could say that becoming is the Aufhebung of the opposition between nothing and being, or more shortly, that _becoming is the Aufhebung of being_.
+
+The former seems to be somewhat more consequently, as the Aufhebungs relation expresses precisely that the (positive) sheaf part of the higher level $j$ subsumes (the opposition between) the skeleton and the sheaf part of the lower level in a universal way - it is the smallest context in which negative and positive poles of the lower level can positively coexist. To elaborate this intuition somewhat, it is the minimal way to turn the negative part into a positive part yet retaining the positivity of its positive opposite.
 
 For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
 
 ### The example of cubical sets
 
-### An open problem: the tops of non-empty finite sets
+### An open problem: the topos of non-empty finite sets
 
-##Related pages
+## Related pages
 
 * [[Science of Logic]]
 
