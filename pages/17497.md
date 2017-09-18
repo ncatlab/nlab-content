@@ -9906,7 +9906,7 @@ As an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogon
 
 For the universal complex Thom spectrum [[MU]] the construction is a priori directly analogous, but with the real [[Cartesian space]] $\mathbb{R}^n$ replace by the [[complex vector space]] $\mathbb{C}^n$ thoughout. This makes the [[n-sphere]] $S^n = S^{(\mathbb{R}^n)}$ be replaced by the $2n$-sphere $S^{2n} \simeq S^{\mathbb{C}^n}$ throughout. Hence the construction requires a second step in which the resulting $S^2$-spectrum ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialTSpectra)) is turned into an actual [[orthogonal spectrum]]. This proceeds differently than for [[sequential spectra]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#AdjunctionBetweenSequentialSpectraAndSequentialTSpectra)) due to the need to have compatible [[orthogonal group]]-[[action]] on all spaces.
 
-+-- {: .num_defn}
++-- {: .num_defn #OrthogonalComplexThomSpectrum}
 ###### Definition
 
 The **universal complex [[Thom spectrum]]** [[MU]] is represented as an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) as follows 
