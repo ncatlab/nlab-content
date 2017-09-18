@@ -3,7 +3,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### AQFT
+#### Algebraic Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -21,7 +21,7 @@ In [[quantum field theory]] (or [[classical field theory]]) a _causally local ne
 
 (Beware that the meaning of "net" here is vaguely similar to, but different from, the concept of _[[net]]_ (as in: generalized [[sequences]] of points) as used in [[topology]]. Better terminology might be "causally local system of spacetime-localized observables". But "local net" is traditional and has become standard.)
 
-In the context of [[algebraic quantum field theory]] the structure of the local net of quantum observables is used as the very [[axiom|axiomatization]] of what a [[quantum field theory]] actually is ("[[Haag-Kastler axioms]]"). This may be thought of as a formalization of a spacetime-localized form of the [[Heisenberg picture]] of [[quantum physics]] (or rather the [[interaction picture]] in the case of [[perturbative AQFT]]); as opposed to the formalizatin of the [[Schrödinger picture]] in [[FQFT]], where instead the [[state]]-propagation is used as the basic axiom.
+In the context of [[algebraic quantum field theory]] the structure of the local net of quantum observables is used as the very [[axiom|axiomatization]] of what a [[quantum field theory]] actually is ("[[Haag-Kastler axioms]]"). This may be thought of as a formalization of a spacetime-localized form of the [[Heisenberg picture]] of [[quantum physics]] (or rather the [[interaction picture]] in the case of [[perturbative AQFT]]); as opposed to the formalization of the [[Schrödinger picture]] in [[FQFT]], where instead the [[state]]-propagation is used as the basic axiom.
 
 Traditionally local nets of observables are assumed to take values in [[C*-algebras]], but the basic form of the axioms does not actually refer to [[topology|topological]] structure on the algebras, and makes sense more generally.
 
