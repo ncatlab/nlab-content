@@ -9,13 +9,29 @@
 =--
 =--
 
+# Contents
+* table of contents
+{:toc}
+
+## Idea
+**Atomic sites** are [[sites]] $(\mathcal{C}, J_{at})$ equipped with the _atomic topology_ $J_{at}$. The corresponding [[sheaf toposes]] $Sh(\mathcal{C}, J_{at})$ are precisely the [[atomic topos|atomic Grothendieck toposes]].
+
+## Definition
+
 +-- {: .num_defn}
 ###### Definition
 
-A [[site]] is called **atomic** if the [[covering sieve|covering]] [[sieves]] are exactly the [[inhabited set|inhabited]] sieves.
+A [[site]] $(\mathcal{C}, J_{at})$ is called **atomic** if the [[covering sieve|covering]] [[sieves]] $S$ of $J_{at}$ are exactly the [[inhabited set|inhabited]] sieves $S\neq\emptyset$. A [[Grothendieck topology]] $J_{at}$ of this form is called _atomic_.
 =--
 
-+-- {: .num_prop}
+## Example
+
+Let $FinSet^{op}_{mono}$ be the opposite of the category $FinSet_{mono}$ with objects finite sets and monomorphisms. Then $(FinSet^{op}_{mono}, J_{at})$ is an atomic site and the corresponding sheaf topos $Sh(FinSet^{op}_{mono}, J_{at})$ is the [[Schanuel topos]].
+That $J_{at}$ is indeed a [[Grothendieck topology]] is ensured by prop. \ref{atomic_ore}.
+
+## Properties
+
++-- {: .num_prop #atomic_ore}
 ###### Proposition
 Let $\mathcal{C}$ be a [[category]]. Then $\mathcal{C}$ can be made into an atomic site if and only if for any diagram
 $$
@@ -39,3 +55,41 @@ $$
 ###### Proof
 This is exactly what is needed for the pullback stability axiom to hold, and the other axioms are immediate.
 =--
+
+The condition occurring in the proposition is called the (right) [[Ore condition]]. It is a result by [[Peter Johnstone|P. T. Johnstone]] (1979) that $Set^{\mathcal{C}^{op}}$ is a [[De Morgan topos]] precisely if $\mathcal{C}$ satisfies the Ore condition. Whence we see that every [[atomic topos|atomic Grothendieck toposes]] is a ([[Boolean topos|Boolean]]) subtopos of a De Morgan [[presheaf topos]].
+
+Since the atomic topology is just the [[dense topology]] for the categories satisfying the Ore condition and the corresponding sheaf toposes of the dense topology are just the double negation subtoposes of the corresponding presheaf topos we get: 
+
++-- {: .num_prop}
+###### Proposition
+Atomic Grothendieck toposes i.e. toposes (equivalent to) $Sh(\mathcal{C}, J_{at})$ for $(\mathcal{C}, J_{at})$ an atomic site are precisely (the toposes  equivalent to) the [[double negation|double negation subtoposes]] $Sh_{\neg\neg}(Set^{\mathcal{C}^{op}})$ for a De Morgan presheaf topos $Set^{\mathcal{C}^{op}}$. $\qed$
+=--
+
+The sheaves of atomic sheaf toposes $Sh(\mathcal{C}, J_{at})$ are easy to describe:
+
++-- {: .num_prop}
+###### Proposition
+Let $(\mathcal{C}, J_{at})$ be an atomic site. A presheaf $P\in Set^{\mathcal{C}^{op}}$ is a sheaf for $J_{at}$ iff for any morphism $f:D\to C$ and any $y\in P(D)$, if $y\cdot g=y\cdot h$ for all diagrams
+$$
+E\overset{g}{\underset{h}{\rightrightarrows}} D\overset{f}{\to} C
+$$
+with $fg=fh$, then $y=x\cdot f$ for a unique $x\in P(C)$.
+=--
+
+For the proof see Mac Lane-Moerdijk ([1994](#MM94), pp.126f).
+
+## Related entries
+
+* [[dense topology]]
+
+* [[atomic topos]]
+
+* [[De Morgan topos]]
+
+## Reference
+
+* {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (pp.115, 126)
+
+[[!redirects atomic topology]]
+
+
