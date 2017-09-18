@@ -1,3 +1,6 @@
+
+$\pitchfork$
+
 ## Where should tags for text elements appear. Start or end?
 
 This started off as "do tags on elements of a sub list work?"
