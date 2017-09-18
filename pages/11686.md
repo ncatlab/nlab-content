@@ -1,4 +1,11 @@
 
+# The Mean Value Theorem
+
+[[Rolle's theorem]]
+[[Rolle theorem]]
+[[Rolle's Theorem]]
+[[Rolle Theorem]]
+
 
 ## References
 
