@@ -1,22 +1,21 @@
 $$
-  \array{
-      \cdots &\to & 0 &\to& 0 &\longrightarrow& 0 &\longrightarrow& \mathbb{Z} &\overset{id}{\longrightarrow}& \cdots &\overset{id}{\longrightarrow}& \mathbb{Z} &\overset{id}{\longrightarrow}& \mathbb{Z}
-     \\
-     \cdots
-     &&
-     \downarrow^{\mathrlap{id}}
-     &&
-     \downarrow^{\mathrlap{id}}
-     &&
-     \downarrow^{\mathrlap{incl}}
-     &&
-     \downarrow^{\mathrlap{id}}
-     &&
-     &&
-     \downarrow^{\mathrlap{id}}
-     &&
-     \downarrow^{\mathrlap{id}}
-     \\
-     \cdots &\to& 0 &\to& 0 &\to & \mathbb{Z} &\underset{id}{\longrightarrow}& \mathbb{Z} &\underset{id}{\longrightarrow}& \cdots &\underset{id}{\longrightarrow}& \mathbb{Z} &\underset{id}{\longrightarrow}& \mathbb{Z}
-  }
+  r_n
+  \coloneqq
+  \left[
+    \cdots \overset{id}{\to}
+    A \overset{id}{\to}
+    \underset{= (r_n)_{n+1}}{\underbrace{A}} \overset{id}{\to}
+    \underset{= (r_n)_n}{\underbrace{A}} 
+       \overset{id}{\to}
+    \underset{= (r_n)_{n-1}}{\underbrace{0}}
+    \to 
+    0
+    \to
+    \cdots
+    \to
+    0
+    \to 
+    0
+  \right]
+  \,.
 $$
