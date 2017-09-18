@@ -7,7 +7,9 @@
 
 $p$-completion is to [[p-adic homotopy theory]] as [[rationalization]] is to [[rational homotopy theory]].
 
-### Of an abelian group
+For more see at _[[formal completion]]_.
+
+### Of abelian groups, rings and modules
 
 For $A$ an [[abelian group]] (or [[commutative ring]]) and $p$ a [[prime number]], the _$p$-completion_ of $A$ is the [[limit]]
 
@@ -20,22 +22,8 @@ $$
 
 $A$ is called _$p$-complete_ if the canonical [[homomorphism]] $A \to A_p^\wedge$ is an [[isomorphism]].
 
+
 ### Of a homotopy type
-
-If we have a $R$-module $M$, and a maximal ideal $I$ in $R$, then the $I$-completion of $M$ is given by the colimit of: 
-$$... \hookrightarrow M/I^3 \hookrightarrow M/I^2 \hookrightarrow M/I$$
-or, equivalently, the colimit of:
-$$... \hookrightarrow M \otimes_R R/I^3 \hookrightarrow M\otimes_R R/I^2 \hookrightarrow M \otimes_R R/I$$
-
-If we similarly have an $S$-module (a spectrum) X, then we want the p-completion of $X$ be the colimit of:
-
-$$...\hookrightarrow X \wedge S/p^3 \hookrightarrow X \wedge S/p^2 \hookrightarrow X \wedge S/p$$
-or, alternatively, the colimit of: 
-$$...\hookrightarrow X \wedge MZ/p^3 \hookrightarrow X \wedge MZ/p^2 \hookrightarrow X \wedge MZ/p$$
-
-Note that $S/p^n$ is the mapping cone of $p^n : S \to S$, so $S/p^n$ is the Moore space $MZ/p^n$, and the two above inductive sequences are equivalent.
-
-To summarize: $p$-Completion of a space/spectrum is equivalently $\mathbb{Z}/p\mathbb{Z}$-localization, see at _[[localization of a space]]_ [this remark](localization+of+a+space#RelationToCompletion).
 
 (...) ([e.g. May-Ponto, 10.2](#MayPonto))
 
