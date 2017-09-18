@@ -106,7 +106,7 @@ Right exact functors between [[categories of modules]] are characterized by the 
 ### On abelian categories / in homological algebra
  {#OnAbelianCategories}
 
-In the context of [[homological algebra]], the notion of left/right exact functors is considered specifically in [[abelian categories]]. In this context the above formulation is equivalent formulated in terms of the behaviour of the functor on [[short exact sequences]]. We now discuss this case.
+In the context of [[homological algebra]], the notion of left/right exact functors is considered specifically in [[abelian categories]]. In this context the above formulation is equivalently formulated in terms of the behaviour of the functor on [[short exact sequences]]. We now discuss this case.
 
 +-- {: .num_prop}
 ###### Proposition
