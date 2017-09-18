@@ -1,0 +1,4 @@
+
+
+The [[derived functor]] of a [[cotensor product]] functor of [[comodules]] is often called "Cotor", in analogy with the notation "[[Tor]]" for the derived functor of a [[tensor product]] functor.
+
