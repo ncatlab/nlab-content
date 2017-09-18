@@ -15,7 +15,7 @@ If $X = Y//G$ is the [[homotopy quotient]] of a [[topological space]] by a [[top
 
 ### As right base change along $\ast \to \mathbf{B} S^1$
 
-The cyclic loop space $\mathcal{L}X/S^1$ is equivalently the right [[base change]]/[[dependent product]] along the canonical point inclusion $\ast \to B S^1$. See also at _[[double dimensional reduction]]_.
+The cyclic loop space $\mathcal{L}X/S^1$ is equivalently the right [[base change]]/[[dependent product]] along the canonical point inclusion $\ast \to B S^1$ ([this prop.](base+change#CyclicLoopSpace)). See also at _[[double dimensional reduction]]_.
 
 ### Ordinary cohomology of $\mathcal{L}X/S^1$ on cyclic cohomology of $X$
 
