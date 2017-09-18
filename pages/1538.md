@@ -88,6 +88,7 @@ To be continued...
 
 
 ### The $k$-vector spaces of states in codimension $k$
+ {#StatesInCodimensionk}
 
 The [[n-vector space|k-vector space]] associated with a closed oriented $(n-k)$-dimensional manifold $X_{n-k}$ admits a simple description in terms of [[section]]s:
 
