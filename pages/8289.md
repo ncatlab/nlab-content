@@ -63,6 +63,7 @@ Famous bifunctors are
 
 * **bifunctor**, [[two-variable adjunction]], [[Quillen bifunctor]] 
 
+  [[end]]/[[coend]]
 
 [^fine]: Outside of certain computer science contexts, it is not clear that the term 'bifunctor' is used frequently nowadays, even for the sense of a functor of two variables. It is used more frequently in older texts. 
 
