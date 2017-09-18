@@ -44,7 +44,7 @@ $$
 
 =--
 
-We now prove this in  increasing generality, for  binary open covers (lemma \ref{ShrinkingLemmaForBinaryCover} below), then for finite covers (lemma \ref{ShrinkinglemmaForFiniteCovers}), then for locally finite countable covers (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}), and finally for general locally finite covers (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}, proof [below](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained)). It is only the last statement that needs [[excluded middle]] and the [[axiom of choice]].
+We now **prove** this in  increasing generality, first for  binary open covers (lemma \ref{ShrinkingLemmaForBinaryCover} below), then for finite covers (lemma \ref{ShrinkinglemmaForFiniteCovers}), then for locally finite countable covers (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}), and finally for general locally finite covers (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}, proof [below](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained)). It is only the last statement that needs the [[axiom of choice]].
 
 +-- {: .num_lemma #ShrinkingLemmaForBinaryCover}
 ###### Lemma
