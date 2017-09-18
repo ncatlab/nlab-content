@@ -140,6 +140,10 @@ The following is a list of texts by Lawvere, equipped with brief comments and hy
 
 * [list of publications on Lawvere's website](http://www.acsu.buffalo.edu/~wlawvere/list.html)
 
+and also this 
+
+* [repository of Lawvere's publications](https://github.com/mattearnshaw/lawvere), made available by [[Matt Earnshaw]]. 
+
 (Some of Lawvere's writings don't exist as published articles, but circulate in some form or other. Notably the "[[Archive for Mathematical Sciences & Philosophy]]" run by [[Michael Wright]] has a lot of recordings or lectures by Lawvere, though presently few or none of the files in the archive are available online.)
 
 * _[[Functorial Semantics of Algebraic Theories]]_ Originally published as: Ph.D. thesis, Columbia University, 1963 and
