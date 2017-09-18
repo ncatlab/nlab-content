@@ -365,7 +365,17 @@ Note that profunctors can also be characterized by their collages, these being t
 
 ## Related concepts
 
-* [[Grothendieck fibration]], [[Street fibration]], [[discrete fibration]], [[fibration in a 2-category]], **two-sided fibration**, [[Conduche functor]]
+* [[Grothendieck fibration]], 
+
+ * [[Street fibration]], 
+
+* [[discrete fibration]], 
+
+*  [[fibration in a 2-category]], 
+
+** two-sided fibration**, 
+
+*  [[Conduche functor]]
 
 * [[Cartesian fibration]]
 
