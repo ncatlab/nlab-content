@@ -149,6 +149,15 @@ More recent developments include
 
 
 * Alejandra Castro, Joshua M. Lapan, Alexander Maloney, Maria J. Rodriguez, _Black Hole Monodromy and Conformal Field Theory_ ([arXiv:1303.0759](http://arxiv.org/abs/1303.0759))
+
+### Relation to topological string amplitudes
+
+Discussion of black hole microstates via the [[topological string]]'s [[Gopakumar-Vafa invariants]]:
+
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--I_ ([arXiv:hep-th/9809187](https://arxiv.org/abs/hep-th/9809187))
+
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--II_ ([arXiv:hep-th/9812127](https://arxiv.org/abs/hep-th/9812127))
+
  
 
 [[!redirects black hole in string theory]]
