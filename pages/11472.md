@@ -14,7 +14,7 @@
 
 ### In number theory and algebraic geometry
 
-In [[number theory]] and hence in [[algebraic geometry]] over $Spec(\mathbb{Z})$, the "local" situation is the [[formal neighbourhoods]] of all [[primes]] $p$ (points in the [[prime spectrum]] $Spec(\mathbb{Z})$ of the [[integers]]). These are the [[formal spectra]] of the [[p-adic integers]]. In terms of [[number theory]] this means that a solution to a [[polynomial]] [[equation]] over the [[p-adic integers]] is a "local" approximation to a solution over the [[integers]] (the former is a necessary but not a sufficient condition for the latter to exist). In this form the _local-global principle_ is attributed to [[Helmut Hasse]] and also called the **Hasse principle** or similar.
+In [[number theory]] and hence in [[algebraic geometry]] over $Spec(\mathbb{Z})$, the "local" situation is the [[formal neighbourhoods]] of all [[primes]] $p$ (points in the [[prime spectrum]] $Spec(\mathbb{Z})$ of the [[integers]]). These are the [[formal spectra]] of the [[p-adic integers]]. In terms of [[number theory]] this mean that a solution to a [[polynomial]] [[equation]] over the [[p-adic integers]] is a "local" approximation to a solution over the [[integers]] (the former is a necessary but not a sufficient condition for the latter to exist). In this form the _local-global principle_ is attributed to [[Helmut Hasse]] and also called the **Hasse principle** or similar.
 
 (...)
 
