@@ -12,7 +12,7 @@ My websites: [my blog](http://categorymath.wordpress.com), [my page at _Problems
 ##Talk(s) and Notes##
  - I have given a talk at the AMS Fall Western Sectional Meeting on October 25th at San Francisco State University. Here are my [[AMS-Fall-Slides.pdf|AMS Fall Slides:file]].
 
- - Here are my notes on [[K-theory-and-Morita-Theory-revised.pdf|K-theory and Morita Theory:file]], which accompany the slides above.
+ - Here are my notes on [[K-theory-and-Morita-Theory-revised.pdf|K-theory and Morita Theory (revised):file]], which accompany the slides above.
 
  - Lastly, here are very very informal notes on [[Hopf-Galois-extensions.pdf|Hopf-Galois extensions:file]], that very likely contain crazy things that are most likely wrong (I'm aware of a few mistakes, but do inform me by email if you find anything!).
 <hr>
