@@ -285,13 +285,19 @@ The case of sheaves valued in [[FinSet]] is considered in
 
 * J. Haigh, _Essential geometric morphisms between toposes of finite sets_ , Math. Proc. Phil. Soc. **87** (1980) pp.21-24.
 
+The standard reference for _essential localizations_ [^further], aka [[level|levels]], is
+
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.261-299.
+
+[^further]: See at [[Aufhebung]] for further references on essential localizations.
+
 The definition of geometric morphism appears before Lemma A.4.1.5 in
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002.
+* [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. I_ , Oxford UP 2002.
 
 Connected surjective and local geometric morphisms are discussed in 
 
-* [[Peter Johnstone]], [[Ieke Moerdijk]], _Local maps of toposes_ Proceedings London Mathematical Society 58 (1989), 281-305.
+* [[Peter Johnstone]], [[Ieke Moerdijk]], _Local maps of toposes_ , Proceedings London Mathematical Society 58 (1989), pp.281-305.
 
 Further refinements are in 
 
