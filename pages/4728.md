@@ -39,6 +39,8 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[genus of a surface]]
 
+* [[area]]
+
 
 [[!redirects surface]]
 [[!redirects surfaces]]
