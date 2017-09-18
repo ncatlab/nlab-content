@@ -115,6 +115,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[configuration space (mathematics)|configuration space]]
 
+* [[path]], [[loop]]
+
 * [[mapping spaces]]: [[compact-open topology]], [[topology of uniform convergence]]
 
   * [[loop space]], [[path space]]
