@@ -1,24 +1,28 @@
 
-**[[superalgebra]]**
+**[[superalgebra]]** and ([[synthetic differential supergeometry|synthetic]]
+) **[[supergeometry]]**
 
-and
+## Background
 
-**[[supergeometry]]**
+* [[algebra]]
 
-## Formal context ##
+* [[geometry]]
 
-* [[superpoint]]
+* [[graded object]]
 
-* [[super ∞-groupoid]], [[smooth super ∞-groupoid]], [[synthetic differential super ∞-groupoid]]
+## Introductions 
 
-* [[synthetic differential supergeometry]]
+* [[geometry of physics -- superalgebra]]
 
+* [[geometry of physics -- supergeometry]]
 
 ## Superalgebra ##
 
 * [[super vector space]], [[SVect]]
 
 * [[super algebra]]
+
+  * [[supercommutative superalgebra]]
 
   * [[Grassmann algebra]]
 
@@ -30,16 +34,18 @@ and
 
   * [[super Poincare Lie algebra]]
 
+* [[super L-infinity algebra]]
+
+
+
 
 ## Supergeometry ##
 
+* [[superpoint]]
+
+* [[super Cartesian space]]
+
 * [[supermanifold]], [[SDiff]]
-
-  * [[super Lie group]]
-
-    * [[super Lie group|super translation group]]
- 
-    * [[super Euclidean group]]
 
   * [[NQ-supermanifold]]
 
@@ -49,21 +55,69 @@ and
 
   * [[Euclidean supermanifold]]
 
+* [[super spacetime]]
+
+  * [[super Minkowski spacetime]]
+
 * [[integration over supermanifolds]]
 
   * [[Berezin integral]]
 
-## Structures
+* [[super Lie group]]
 
-* [[supersymmetry]]
+  * [[super Lie group|super translation group]]
+
+  * [[super Euclidean group]]
+
+* [[super ∞-groupoid]]
+
+* [[super formal smooth ∞-groupoid]]
+
+* [[super line 2-bundle]]
+
+
+
+
+
+## Supersymmetry
+
+[[supersymmetry]]
 
 * [[division algebra and supersymmetry]]
 
-## Applications ##
+* [[super Poincare Lie algebra]]
+
+* [[supermultiplet]]
+
+* [[BPS state]]
+
+* [[M-theory super Lie algebra]], [[type II super Lie algebra]]
+
+* [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
+
+## Supersymmetric field theory
+
+* [[superfield]]
+
+* [[supersymmetric quantum mechanics]]
+
+  * [[superparticle]]
+
+  * [[adinkra]]
+
+* [[super Yang-Mills theory]]
 
 * [[supergravity]]
 
-* [[supersymmetric quantum mechanics]]
+  * [[gauged supergravity]]
+
+* [[superstring theory]]
+
+  * [[type II string theory]]
+
+  * [[heterotic string theory]]
+
+## Applications
 
 * [[geometric model for elliptic cohomology]]
 
