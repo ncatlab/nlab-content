@@ -196,6 +196,133 @@ Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\ve
 
 =--
 
++-- {: .num_prop #CoveringSpacesHomotopyLifting}
+###### Proposition
+**([[homotopy lifting property]] of [[covering spaces]])**
+
+Let $p \colon E \to X$ be a [[covering space]]. Then commuting squares of the form
+
+$$
+  \array{
+    \{0\} \times \{0,1\} &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\ 
+    [0,1] \times \{0,1\}
+      &\overset{}{\longrightarrow}&
+    E
+    \\
+    {}^{\mathllap{}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] \times [0,1] &\underset{\gamma}{\longrightarrow}& X
+  }
+$$
+
+have a unique lift in the lower diagram
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: The [[Lebesgue number lemma]] gives a partition of $[0,1] \times [0,1]$ into a finite number of squares such that the image of each under $\gamma$ lands in an open subset over which the covering space trivializes. Then there is [[induction|inductively]] a unique appropriate lift over each of these squares
+
+=--
+
++-- {: .num_prop #LiftingTheorem}
+###### Proposition
+**(lifting theorem)**
+
+Let 
+
+1. $p \colon E \to X$ be a [[covering space]];
+
+1. $e \in E$ a point, with $x \coloneqq p(e)$ denoting its image,
+
+1. $Y$ be a [[connected topological space|connected]] and [[locally path-connected topological space|locally path-connected]] [[topological space]];
+
+1. $y \in Y$ a point
+
+1. $f \colon (Y,y) \longrightarrow (X,x)$ a [[continuous function]] such that $f(y) = x$.
+
+Then the following are equivalent:
+
+1. There exists a lift $\hat f$ in the diagram
+
+   $$
+     \array{
+       && (E,e)
+       \\
+       & {}^{\mathllap{\hat f}}\nearrow & \downarrow^{\mathrlap{p}}
+       \\
+       (Y,y) &\underset{f}{\longrightarrow}& (X,x)
+     }
+   $$
+
+   of [[pointed topological spaces]].
+
+1. The [[image]] of the [[fundamental group]] of $Y$ under $f$ in that of $X$ is contained in the image of the fundamental group of $E$ under $p$:
+
+   $$
+     f_\ast(\pi_1(Y,y)) \subset p_\ast( \pi_1(E,e) )
+     \,
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The implication $1) \Rightarrow 2)$ is immediate. We need to show that the second statement already implies the first.
+
+Since $Y$ is connected and locally path-connected, it is also a [[path-connected topological space]] ([this prop.](locally+path-connected+space#ForLocallyPathConnectedTheConnectedComponentsCoincideWithThePathConnectedComponents)). Hence for every point $y' \in Y$ there exists a [[path]] $\gamma$ connecting $y$ with $y'$ and hence a path $f \circ \gamma$ connecting $x$ with $f(y')$.  By the path-lifting property (lemma \ref{CoveringSpacePathLifting}) this has a unique lift
+
+$$
+  \array{
+    \{0\} &\overset{e}{\longrightarrow}& E
+    \\
+    \downarrow &{}^{\mathllap{\widehat{f \circ \gamma}}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    [0,1]
+     &\underset{f \circ \gamma}{\longrightarrow}&
+    X
+  }
+  \,.
+$$
+
+Therefore
+
+$$
+  \hat f(y') \coloneqq \widehat{f \circ \gamma}
+$$
+
+if a lift of $f(y')$.
+
+We claim now that this pointwise construction is independent of the choice $\gamma$, and hat as a function of $y'$ it is indeed continuous. This will prove the claim.
+
+Now by the path lifting lemma \ref{CoveringSpacePathLifting} the lift $\widehat{\f \circ \gamma}$ is unique given $f \circ \gamma$, and hence $\hat f(y')$ depends at most on the choice of $\gamma$.
+
+Hence let $\gamma' \colon [0,1] \to Y$ be another path in $Y$ that connects $y$ with $y'$. We need to show that then $\widehat{f \circ \gamma'} = \widehat{f \circ \gamma}$.
+
+First observe that if $\gamma'$ is related to $\gamma$ by a [[homotopy]], so that then also $f \circ \gamma'$ is related to $f \circ \gamma$ by a homotopy, then this is the statement of the homotopy lifting property of lemma \ref{CoveringSpacesHomotopyLifting}.
+
+Next write $\bar\gamma'\cdot \gamma$ for the concatenation of the path $\gamma$ with the reverse of the path $\gamma'$, hence a loop in $Y$, so that $f \circ (\bar\gamma'\cdot \gamma)$ is a loop in $X$. The assumption that $f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))$ and the uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) implies that the path $\widehat{f \circ (\bar \gamma' \cdot \gamma)}$ which lifts this loop to $E$ is itself a loop in $E$.
+
+By uniqueness of path lifting, this means that the lift of $f \circ ( \gamma' \cdot (\bar\gamma' \cdot \gamma) )$ coincides with that of $f \circ \gamma'$. But $\bar \gamma' \cdot (\gamma' \cdot \gamma)$ is homotopic (via reparameterization) to just $\gamma$. Hence it follows now with the first statement that the lift of $f \circ \gamma'$ indeed coincides with that of $f \circ \gamma$.
+
+This shows that the above prescription for $\hat f$ is well defined. 
+
+It now remains to see that the function $\hat f$ obtained this way is continuous.
+
+Let $y' \in Y$ be a point and $W_{\hat f(y')} \subset E$ an open neighbourhood of its image in $E$. We need to see that there is an open neighbourhood $V_{y'} \subset Y$ such that $\hat f(V_y) \subset W_{\hat f(y')}$.
+
+Let $U_{f(y')} \subset X$ be an open neighbourhood over which $p$ trivializes. Then $p^{-1}(U_{f(y')}) \cap W_{\hat f(y')} \subset U_{f(y')} \times Disc(p^{-1}(f(y')))$ is an open subset of the product space. 
+The projection $\pi \colon U_{f(y)} \times Disc(p^{-1}(f(y'))) \to U_{f(y')} \times \{\hat f(y')\}$ is an open map, so $p(\pi(p^{-1}(U_{f(y)}) \cap W_{\hat f(y')})) \subset p(W_{\hat f(x)})$ is still an open subset, whence so is $f^{-1}(p(\pi(p^{-1}(U_{f(y)}) \cap W_{\hat f(y')})))$.  
+Now since $Y$ is locally path connected, this contains a path connected open subset, and by the uniqueness of the path lifting, the image of that under $\hat f$ is in $W_{\hat f(y')}$.
+
+
+=--
+
 
 
 
