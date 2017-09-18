@@ -52,7 +52,7 @@ $$
   \,.
 $$ 
 
-For the analogous construction in [[equivariant stable homotopy theory]] see ([Greenlees-May 95, section 2](#GreenleesMay95))
+For the analogous construction in [[equivariant stable homotopy theory]] -- yielding the [[equivariant stable homotopy category]] --. see ([Greenlees-May 95, section 2](#GreenleesMay95))
 
 ## Related concepts
 
