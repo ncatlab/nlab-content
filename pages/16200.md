@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.itp.ac.ru/en/persons/starobinsky-aleksei-aleksandrovich/)
+
+## related $n$Lab entries
+
+* [[Starobinsky model of cosmic inflation]]
+
+category: people
