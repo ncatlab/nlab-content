@@ -251,6 +251,8 @@ Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#Malda
 
 * [[D-brane geometry]]
 
+* [[anti D-brane]]
+
 [[!include table of branes]]
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
@@ -285,11 +287,11 @@ Discussion from the point of view of [[Green-Schwarz action functional]]-[[schre
 
 ### KK-theoretic description and D-brane charge
 
-The idea that the physics of D-branes is described by [[K-theory]] originates in 
+The idea that the physics of D-branes is described by [[topological K-theory]] originates in 
 
 * [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_ , JHEP9711:002,1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
 
-* [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
+* {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
