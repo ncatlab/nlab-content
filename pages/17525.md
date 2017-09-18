@@ -20,7 +20,7 @@
 
 For $R$ a [[commutative ring]], its **[[core of a ring|core]]** $c R$ is the [[regular image]] of the unique map $\mathbb{Z}\to R$ (note that $\mathbb{Z}$ is the [[initial object|initial]] commutative ring).  That is, it is the smallest [[regular monomorphism]] into $R$ in the category of commutative rings.
 
-By the general construction of regular images, this can be computed as the [[equalizer]] of the two inclusions from $R$ into the [[pushout]] $R\sqcup_{\mathbb{Z}} R$.  Since $\mathbb{Z}$ is initial, this is just the coproduct $R\sqcup R$ in $CRing$, which is the [[tensor product]] $R\otimes R$.
+By the general construction of regular images, this can be computed as the [[equalizer]] of the two inclusions from $R$ into the [[pushout]] $R\sqcup_{\mathbb{Z}} R$.  Since $\mathbb{Z}$ is initial, this is just the [[coproduct]] $R\sqcup R$ in $CRing$, which is the [[tensor product]] $R\otimes R$.
 
 Thus the most explicit definition of $c R$ is that it is the [[equalizer]] in
 
@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-A ring which is isomorphic to its core is called a **solid ring**.
+A ring which is [[isomorphism|isomorphic]] to its core is called a **solid ring**.
 
 =--
 
@@ -53,13 +53,13 @@ The following is the complete list of solid rings (def. \ref{CoreOfARing}) up to
      \,;
    $$
 
-1. the [[cyclic group|cyclic]] ring
+1. the [[cyclic group|cyclic]] rings
 
    $$
      \mathbb{Z}/n\mathbb{Z}
    $$
 
-   for $n \geq 2$;
+   for $n \in \mathbb{N}$, $n \geq 2$;
 
 1. the [[Cartesian product|product]] rings 
 
