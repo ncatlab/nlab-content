@@ -94,6 +94,8 @@ When the natural numbers are embedded into larger [[rig]]s or [[ring]]s, the ope
 
 * In a [[type theory]] with [[dependent product]]s, every display morphism is exponentiable in the category of [[context]]s ---even in a type theory without identity types, so that not every morphism is display and the relevant slice category need not have all products.
 
+* In a [[functor category]] $D^C$, a [[natural transformation]] $\alpha:F\to G$ is exponentiable if (though probably not "only if") it is [[cartesian natural transformation|cartesian]] and each component $\alpha_c:F c \to G c$ is exponentiable in $D$.  Given $H\to F$, we define $\Pi_\alpha(H)(c) = \Pi_{\alpha_c}(H c)$; then for $u:c\to c'$ to obtain a map $\Pi_{\alpha_c}(H c) \to \Pi_{\alpha_{c'}}(H c')$ we need a map $\alpha_{c'}^*(\Pi_{\alpha_c}(H c)) \to H c'$.  But since $\alpha$ is cartesian, $\alpha_{c'}^*(\Pi_{\alpha_c}(H c)) \cong \alpha_c^* (\Pi_{\alpha_c}(H c))$, so we have the counit $\alpha_c^* (\Pi_{\alpha_c}(H c)) \to H c$ that we can compose with $H u$.
+
 However, exponentiating objects do matter sometimes.
 
 * In [Abstract Stone Duality](http://www.paultaylor.eu/ASD/), [[Sierpinski space]] is exponentiating.
