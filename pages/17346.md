@@ -534,7 +534,24 @@ $$
   }
 $$
 
-its **page** is the [[graded object|graded]] [[chain complex]]
+observe that the composite
+
+$$
+  d \coloneqq j \circ k
+$$ 
+
+is a [[differential]] in that it squares to 0, due to the exactness of the exact couple:
+
+$$
+  \begin{aligned}
+    d \circ d & = j \circ \underset{= 0}{\underbrace{k \circ j}} \circ k
+    \\
+    & = 0
+  \end{aligned}
+  \,.
+$$
+
+One says that the **page** of the exact couple is the [[graded object|graded]] [[chain complex]]
 
 $$
   (\mathcal{E}^{\bullet,\bullet}, d \coloneqq j \circ  k)
@@ -587,13 +604,39 @@ with
 
 =--
 
-By direct inspection one checks that:
 
 +-- {: .num_lemma #DerivedExactCoupleIsExactCouple}
 ###### Lemma
 
 The derived exact couple in def. \ref{DerivedExactCouple}
 is well defined and is itself an exact couple, def. \ref{ExactCouple}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is straightforward to check. For completeness we spell it out:
+
+First consider that the morphisms are well defined in the first place.
+
+It is clear that $\tilde i$ is well-defined.
+
+That $\tilde j$ lands in $ker(d)$: it lands in the image of $j$ which is in the kernel of $k$, by exactness, hence in the kernel of $d$ by definition.
+
+That $\tilde j$ is indepenent of the choice of preimage: For any $x \in \tilde {\mathcal{D}} = im(i)$, let $y, y' \in \mathcal{D}$ be two preimages under $i$, hence $i(y) = i(y') = x$. This means that $i(y'-y) = 0$, hence that $y'-y \in ker(i)$, hence that $y'-y \in im(k)$, hence there exists $z \in \mathcal{E}$ such that $y' = y + k(z)$, hence $j(y') = j(y) +  j(k(z)) = j(y) + d(z)$, but $d(z) = 0$ in $\tilde{\mathcal{E}}$.
+
+That $\tilde k$ vanishes on $im(d)$: because $im(d) \subset im(j)$ and hence by exactness.
+
+That $\tilde k$ lands in $im(i)$: since it is defined on $ker(d) = ker(j \circ k)$ it lands in $ker(j)$. By exactness this is $im(i)$.
+
+That the sequence of maps is again exact:
+
+The kernel of $\tilde j$ is those $x \in \im(i)$ such that their preimage $i^{-1}(x)$ is still in $im(x)$ (by exactness of the original exact couple) hence such that $x \in im(i|_{im(i)})$, hence such that $x \in im(\tilde i)$.
+
+The kernel of $\tilde k$ is the intersection of the kernel of $k$ with the kernel of $d = j \circ k$, wich is still the kernel of $k$, hence the image of $j$, by exactness. Indeed this is also still the image of $\tilde j$, since for every $x \in \mathcal{D}$ then $\tilde j(i(x)) = j(x)$.
+
+The kernel of $\tilde i$ is $ker(i) \cap im(i) \simeq im(k) \cap im(i)$, by exactness. Let $x \in \mathcal{E}$ such that $k(x) \in im(i)$, then by exactness $k(x) \in ker(j)$ hence $j(k(x)) = d(x) = 0$, hence $x \in ker(d)$ and so $k(x) = \tilde k(x)$.
 
 =--
 
@@ -617,7 +660,12 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-So the spectral sequence of an exact couple (def. \ref{ExactCoupleSpectralSequence}) is a sequence of cochain complexes $(\mathcal{E}_r, d_r)$, where the cohomology of one is the terms of the next one: $\mathcal{E}_{r+1} \simeq H(\mathcal{E}_r,d_r)$.
+So the spectral sequence of an exact couple (def. \ref{ExactCoupleSpectralSequence}) is a sequence of cochain complexes $(\mathcal{E}_r, d_r)$, where the cohomology of one is the terms of the next one: 
+
+$$
+  \mathcal{E}_{r+1} \simeq H(\mathcal{E}_r,d_r)
+  \,.
+$$
 
 In practice this is used as a successive stagewise approximation to the computation of a limiting term $\mathcal{E}_\infty$. What that limiting term is, if it exists at all, is the subject of _convergence_ of the spectral sequence, we come to this [below](#Convergence).
 
@@ -764,8 +812,13 @@ $$
 $$
 
 
+It is conventional to depict this in tables where $s$ increases vertically and upwards and $t-s$ increases horizontally and to the right, so that $d_r$ goes up $r$ steps and always one step to the left. This is the "Adams type" grading convention for spectral sequences (different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence))). One also says that
 
-It is conventional to depict this in tables where $s$ increases vertically and upwards and $t-s$ increases horizontally and to the right. This is the "Adams type" grading convention for spectral sequences (different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence))).
+* $s$ is the _filtration degree_;
+
+* $t-s$ is the _total degree_;
+
+* $t$ is the _internal degree_.
 
 =--
 
@@ -977,7 +1030,15 @@ where the morphism on the right is identified as $g_p$ by the induction assumpti
 
 =--
 
-We proceed now to analyze the first two pages and then the convergence properties of $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence}).
++-- {: .num_remark}
+###### Remark
+
+Terminology differs across authors. The tower/filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([(Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([Hopkins 99](Adams+spectral+sequence#Hopkins99)) uses "Adams resolution" for the "$E$-injective resolutions" that we discuss [below](#ViaInjectiveResolutions) and uses "Adams tower" for yet another concept, def. \ref{EAdamsTower} below. See also remark \ref{TerminologyAssociatedInverseSequence}.
+
+=--
+
+We proceed now to analyze the first two pages and then the convergence properties of $E$-Adams spectral sequences of def. \ref{AdamsEAdamsSpectralSequence}.
+
 
 #### The first page
  {#FirstPageAndHopfAlgebroid}
@@ -989,7 +1050,7 @@ $$
     E^{s,t}_1(X,Y)
     & 
     \simeq
-    [Y, E \wedge \overline{E}^s \wedge Y]_{s-t}
+    [X, E \wedge \overline{E}^s \wedge Y]_{s-t}
   \end{aligned}
   \,.
 $$
@@ -1961,14 +2022,14 @@ The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructu
 +-- {: .num_example #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
 ###### Example
 
-For $Y,N$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian groups]]) given by [[smash product of spectra|smash product]] with $E$
+For $X,N$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian groups]]) given by [[smash product of spectra|smash product]] with $E$
 
 $$
   \pi_\bullet(E \wedge -)
     \;\colon\;
-  [Y,N]_\bullet
+  [X,N]_\bullet
     \longrightarrow
-  Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
+  Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(N))
 $$
 
 factors through $E_\bullet(E)$-[[comodule]] [[homomorphisms]] over the dual $E$-[[Steenrod algebra]]:
@@ -1976,9 +2037,9 @@ factors through $E_\bullet(E)$-[[comodule]] [[homomorphisms]] over the dual $E$-
 $$
   \pi_\bullet(E \wedge -)
     \;\colon\;
-  [Y,N]_\bullet
+  [X,N]_\bullet
     \longrightarrow
-  Hom^\bullet_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+  Hom^\bullet_{E_\bullet(E)}(E_\bullet(X), E_\bullet(N))
   \,.
 $$
 
@@ -1991,17 +2052,16 @@ In order to put all this together, we need to invoke a [[universal coefficient t
 
 If at least one of the following conditions is met
 
-* $Y = \mathbb{S}$ is the [[sphere spectrum]];
+* $X = \mathbb{S}$ is the [[sphere spectrum]];
 
 * $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], 
 
-then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$
-the morphism of $\mathbb{Z}$-[[graded abelian groups]]
+then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$ the morphism of $\mathbb{Z}$-[[graded abelian groups]]
 
 $$
-  [Y,N]_\bullet 
+  [X,N]_\bullet 
     \stackrel{\phi \mapsto \rho \circ (id\wedge \phi)}{\longrightarrow}
-  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(Y), \pi_\bullet(N))_\bullet
+  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(X), \pi_\bullet(N))_\bullet
 $$
 
 is an [[isomorphism]].
@@ -2011,7 +2071,7 @@ is an [[isomorphism]].
 
 For $Y = \mathbb{S}$ this is trivial. For general $Y$ and $E$ among the above examples this is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and see at _[Kronecker pairing -- Universal coefficient theorem](Kronecker+pairing#UniversalCoefficientTheorem)_.
 
-With this we finally get the following statement, which serves to identity maps of certain spectra with their induced maps on $E$-homology:
+With this we finally get the following statement, which serves to identify maps of certain spectra with their induced maps on $E$-homology:
 
 +-- {: .num_prop #ComoduleHomForENCohomology}
 ###### Proposition
@@ -2021,9 +2081,9 @@ If the assumption of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra
 $$
  \pi_\bullet(E\wedge (-))
    \;\colon\;
- [Y, E\wedge N]_\bullet 
+ [X, E\wedge N]_\bullet 
    \stackrel{}{\longrightarrow}
-  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y), E_\bullet(Y)))
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(X), E_\bullet(N)))
 $$
 
 is an [[isomorphism]].
@@ -2040,10 +2100,10 @@ By the general formula for expressing [[adjuncts]], the morphism fits into the f
 
 $$
   \array{
-    [Y, E \wedge N]_\bullet
+    [X, E \wedge N]_\bullet
       &\stackrel{\pi_\bullet(E\wedge(-))}{\longrightarrow}&
     Hom_{E_\bullet(E)}(
-      E_\bullet(Y), 
+      E_\bullet(X), 
       E_\bullet(E \wedge N)
     )
     \\
@@ -2051,11 +2111,11 @@ $$
       \downarrow^{\mathrlap{\simeq}}
     && \downarrow^{\mathrlap{\simeq}}
     \\
-    Hom_{\pi_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+    Hom_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(N))
       &\stackrel{\simeq}{\longleftarrow}& 
     Hom_{E_\bullet(E)}(
-      E_\bullet(Y), 
-      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+      E_\bullet(X), 
+      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(N)
     )
   }
   \,,
@@ -2249,16 +2309,15 @@ Hence the next step is to identify the chain homology of this $d_1$ with the com
 
 If 
 
-1. $E$ is flat, def. \ref{FlatE}, and satisfies the conditions of prop. \ref{AdamsUCT}, 
+1. $E$ is flat (def. \ref{FlatE}) and satisfies the conditions of prop. \ref{AdamsUCT}, 
 
 2. $E_\bullet(Y)$ a [[projective module]] over $\pi_\bullet(E)$, 
 
-then the entries of the second page
-of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[X,Y]$ are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
+then the entries of the second page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[X,Y]_\bullet$ are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
 
 
 $$
-  \mathcal{E}^{s,t}_2
+  E_2^{s,t}(X,Y)
   \simeq
   Ext^{s,t}_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
   \,.
@@ -2267,7 +2326,7 @@ $$
 In the special case that $X = \mathbb{S}$, then (by prop. \ref{ComoduleHomInTermsOfCotensorProduct}) these are equivalently [[Cotor]]-groups
 
 $$
-  \mathcal{E}^{s,t}_2
+  E^{s,t}_2(X,Y)
     \simeq
   Cotor^{s,t}_{E_\bullet(E)}(\pi_\bullet(E), E_\bullet(Y))
   \,.
@@ -2428,6 +2487,8 @@ Here the second equivalence is the cofree/forgetful adjunction isomorphism of pr
 =--
 
 With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence} is completed.
+
+
 
 
 #### Convergence 
@@ -2614,6 +2675,10 @@ $$
 =--
 
 ([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
+
+
+
+
 
 
 
