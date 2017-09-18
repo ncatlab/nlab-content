@@ -1,0 +1,14 @@
+## Idea
+
+There is a [[Quillen Q-construction]] for exact (infinity,1)-categories which allows to compute its [[algebraic K-theory]].
+
+## Related concepts
+
+* [[exact category]]
+* [[Quillen Q-construction]]
+
+## References
+
+* [[C. Barwick]], _On the Q construction for exact quasicategories_, [arXiv:1301.4725](http://arxiv.org/abs/1301.4725).
+
+* [[C. Barwick]], _On exact infinity-categories and the Theorem of the Heart_, [arXiv:1212.5232](http://arxiv.org/abs/1212.5232).
