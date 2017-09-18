@@ -1,12 +1,28 @@
++-- {: .num_example}
+###### Example
+
+If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{ModelCategory}, and for $Path_1(X)$ and $Path_2(X)$ two [[path space objects]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then the [[fiber product]] $Path_1(X) \times_X Path_2(X)$ in
 
 $$
   \array{
-    X'_1 &\overset{t}{\longrightarrow}& X_1 &\stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}& X_2
+    && && Path_1(X) \times_X Path_2(X) 
     \\
-    && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in Fib}} 
-      && 
-    \downarrow^{\mathrlap{p_2}}_{\in Fib}
+    && & \swarrow && \searrow
     \\
-    && B &\overset{u}{\longrightarrow}& C
+    && Path_1(X) && && Path_2(X)
+    \\
+    &{}^{\mathllap{p_0}}\swarrow 
+    && 
+    {}_{\mathllap{p_1}}\searrow
+    && 
+    \swarrow_{\mathrlap{p_0}} && \searrow^{\mathrlap{p_1}}
+    \\
+    X && && X && && X
   }
 $$
+
+is another path space object for $X$: by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} the morphisms in the above diagram are all acyclic fibrations
+
+=--
+
+
