@@ -10,17 +10,8 @@
 
 ***
 
-This page is a detailed introduction to basic [[topology]].
-Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
-it first develops standard [[point-set topology]] ([[topological spaces]]).
-In passing, some basics of [[category theory]] make an informal appearance,
-used to transparently summarize some conceptually important aspects of the theory, such as
-[[initial topology|initial]] and [[final topologies]] and the [[reflective subcategory|reflection]] into
-[[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
-We close with discussion of the basics of [[topological manifolds]] and [[differentiable manifolds]],
-laying the foundations for [[differential geometry]].
-The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
-and ends with their first application to the classification of [[covering spaces]].
+This page contains a detailed introduction to basic [[topology]].
+Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]], it first develops standard [[point-set topology]] ([[topological spaces]]). In passing, some basics of [[category theory]] make an informal appearance, used to transparently summarize some conceptually important aspects of the theory, such as [[initial topology|initial]] and [[final topologies]] and the [[reflective subcategory|reflection]] into [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]]. We close with a discussion of the basics of [[topological manifolds]] and [[differentiable manifolds]], laying the foundations for [[differential geometry]]. The second part introduces some basics of [[homotopy theory]], mainly the [[fundamental group]], and ends with their first application to the classification of [[covering spaces]].
 
 $\,$
 
