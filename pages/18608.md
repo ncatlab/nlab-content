@@ -36,6 +36,10 @@ and a report on the progress (essentially none) is in
 * {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills
 Millenium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
 
+Further comments are in
+
+* [[Ludvig Faddeev]], _Mass in Quantum Yang-Mills Theory_, [arXiv:0911.1013](https://arxiv.org/abs/0911.1013).
+
 Notes reviewing more technical details of the problem are in 
 
 * Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
