@@ -44,7 +44,7 @@ A [[topos]] $\mathcal{E}$ such that the lattice $sub(X)$ of subobjects is a [[co
 ###### Proposition
 A Grothendieck topos is bi-Heyting when finite unions distribute over arbitrary intersections:
 $$
-T\cup (\bigcap_{i\in I} T_i)=\bigcap_{i\in I} (S\cup T_i)\quad .
+S\cup (\bigcap_{i\in I} T_i)=\bigcap_{i\in I} (S\cup T_i)\quad .
 $$
 =--
 
