@@ -16,7 +16,8 @@
 
 ## Idea
 
-For $C$ a [[small category]], and $PSh(C)$ its [[presheaf topos]], we have (by the discussion at _[Profunctor -- In terms of colimit preserving functors on presheaf categories](profunctor#FuncsOnPresheaves)_) that a [[colimit]]-preserving [[functor]] $PSh(C) \to Set$ is equivalently itself a [[copresheaf]] on $C$:
+For $C$ a [[small category]], and $PSh(C)$ its [[presheaf topos]], we have (by the discussion at _[Profunctor -- In terms of colimit preserving functors on presheaf categories](profunctor#FuncsOnPresheaves)_) that a cocontinuous,
+ i.e., [[colimit]]-preserving, [[functor]] $PSh(C) \to Set$ is equivalently itself a [[copresheaf]] on $C$:
 
 $$
   [PSh(C), Set]_{coc} \simeq CoPSh(C)
