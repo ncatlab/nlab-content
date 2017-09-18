@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Physical oscillations (of elastic bodies) are described via a [[wave equation]] and hence by the [[spectrum of an operator|spectrum]] of a [[Laplace operator]] on a [[Riemannian manifold]]. The phrase _hearing the shape of a drum_ in this context refers to the issue of recovering a Riemannian manifold from just the spectrum of the Laplace operator on it ("[[spectral geometry]]").
+
+In fact there are counter-examples, and it is not in general possible to identify a Riemannian manifold from just the spectrum of a Laplace operator. But from a little bit more of information, enhancing the Laplace operator to a _[[spectral triple]]_ it is possible. This theorem due to [[Alain Connes]] is the motivation for the formulation of all of metric geometry via [[spectral triples]], a program which is known as Connes' _[[noncommutative geometry]]_.
+
+## References
+
+* Wikipedia, _[Hearing the shape of a drum](http://en.wikipedia.org/wiki/Hearing_the_shape_of_a_drum)_
+
+
+
