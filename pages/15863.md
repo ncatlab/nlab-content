@@ -28,7 +28,7 @@
 ##Idea
 When the lattice of open subsets of a topological space is the primordial example of a [[Heyting algebra]] then its dual _lattice of closed subsets_ is the primordial example of a **co-Heyting algebra**.
 
-Co-Heyting algebras play a role in [[modal logic|modal]], paraconsistent, and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]] and in [[mereology]].
+Co-Heyting algebras play a role in [[modal logic|modal]], paraconsistent, and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]], [[quantum theory]] and in [[mereology]].
 
 ##Definition
 A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with a binary _subtraction_ operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\vee z$.[^Dist]
@@ -75,6 +75,8 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 ##References
 
 * G. Bellin, _Categorical Proof Theory of Co-Intuitionistic Linear Logic_ , arXiv:1407.341 (2014). ([pdf](http://arxiv.org/pdf/1407.3416v1))
+
+* [[Andreas Döring|A. Döring]], _Topos-based Logic for Quantum Systems and Bi-Heyting Algebras_ , arXiv:1202.2750 (2013). ([pdf](http://arxiv.org/pdf/1202.2750.pdf))
 
 * {#RRZ94} M. La Palme Reyes, J. Macnamara, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _The non-Boolean logic of natural language negation_ , Phil. Math. **2** no.1 (1994) pp.45-68.
 
