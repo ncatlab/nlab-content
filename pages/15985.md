@@ -4,7 +4,7 @@
 
 An [[(∞,n)-category of cobordisms]] for $n = 2$.
 
-## Related concpets
+## Related concepts
 
 * [[2d TQFT]], [[TCFT]]
 
