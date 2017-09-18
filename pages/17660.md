@@ -6,10 +6,6 @@
 +--{: .hide}
 [[!include gravity contents]]
 =--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
 #### Super-Geometry
 +--{: .hide}
 [[!include supergeometry - contents]]
@@ -34,14 +30,9 @@ become relevant as symmetries of the corresponding rank-3 simple [[Jordan algebr
 
 (from [Cacciatori-Cerchiai-Marrani 12](#CacciatoriCerchiaiMarrani12))
 
-Combining this with the expression of the [[super Poincare Lie algebras]] in terms of real [[normed division algebras]] (see at _[[supersymmetry and division algebra]]_ and at _[[spin representation]]_), this yields a _magic pyramid_ of supergravity theories ([ABDHN 13](#ABDHN13)).
+## Related concepts
 
-<img src="https://ncatlab.org/nlab/files/MagicPyramid.jpg" width = "600">
-
-(from [ABDHN 13, p. 3](#ABDHN13))
-
-In this diagram vertical axis labels the spacetime division algebra (hence vertical label $\mathbb{R}$ corresponds to $d = 2+1$, vertical label $\mathbb{C}$ to $d = 3+1$, $\mathbb{H}$ to $d = 5+1$ and $\mathbb{O}$ to $d = 9+1$) , while the
-horizontal axes label the algebras associated with the number of left and right supersymmetries.
+* [[magic pyramid]]
 
 ## References
 
@@ -60,12 +51,8 @@ horizontal axes label the algebras associated with the number of left and right 
 
 * Sergio L. Cacciatori, Bianca L. Cerchiai, Alessio Marrani, _Magic coset decompositions_, Adv. Theor. Math. Phys. Volume 17, Number 5 (2013), 1077-1128. ([Euclid](https://projecteuclid.org/euclid.atmp/1408626511))
 
-* {#ABDHN13} A. Anastasiou, [[Leron Borsten]], [[Mike Duff]], L. J. Hughes, S. Nagy, _A magic pyramid of supergravities_, Journal of High Energy Physics, April 2014, 2014:178, ([arXiv:1312.6523](https://arxiv.org/abs/1312.6523))
-
 [[!redirects magic supergravities]]
 
 [[!redirects magic supergravity theory]]
 [[!redirects magic supergravity theories]]
 
-[[!redirects magic pyramid]]
-[[!redirects magic pyramids]]
