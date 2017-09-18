@@ -41,6 +41,7 @@ More specifically, he has pointed out in the 1980s the relevance of [[co-Heyting
 
 * [[co-Heyting algebra]]
 * [[co-Heyting boundary]]
+* [[closed subspace]]
 * [[Alfred Tarski]]
 * [[William Lawvere]]
 
