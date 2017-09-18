@@ -44,15 +44,20 @@ An original account is in
 
 * [[John Isbell]], _On coherent algebras and strict algebras_, J. Pure Appl. Algebra 13 (1969)
 
+Discussion in relation to [[symmetric spectra]] is in
+
+* {#Schwede12} [[Stefan Schwede]], chapter I, section 7.5 of _[[Symmetric spectra]]_ (2012)
+
+
 Discussion in the context of [[K-theory of a permutative category]] is in
 
-* [[Peter May]], _The spectra associated to permutative categories_, Topology 17 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/23.pdf))
- {#May}
-
+* {#May}
+ [[Peter May]], _The spectra associated to permutative categories_, Topology 17 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/23.pdf))
+ 
 * [[Peter May]], _$E_\infty$ Ring Spaces and $E_\infty$ Ring spectra_, Springer lectures notes in mathematics, Vol. 533, (1977) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf)) chaper VI
 
-* [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, K-Theory 0680 ([web](http://www.math.uiuc.edu/K-theory/0680/), [pdf](http://www.math.uiuc.edu/K-theory/0680/RMAsubmit.pdf))
- {#ElmendorfMandell}
+* {#ElmendorfMandell} [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, K-Theory 0680 ([web](http://www.math.uiuc.edu/K-theory/0680/), [pdf](http://www.math.uiuc.edu/K-theory/0680/RMAsubmit.pdf))
+ 
 
 
 [[!redirects permutative categories]]
