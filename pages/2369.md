@@ -46,6 +46,7 @@ But beware that this terminology, in turn, is often abbreviated again to just "r
 
 * [[Boardman homomorphism]], [[Adams spectral sequence]]
 
+* [[multiplicative spectral sequence]]
 
 ## Reference
 
