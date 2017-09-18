@@ -41,6 +41,8 @@ A continuous map $f\colon X \to Y$ of topological spaces defines a homomorphism 
 
 This is equivalent to saying that $f^*\colon Op(Y) \to Op(X)$ has a left adjoint $f_!$ (by the [[adjoint functor theorem]] for posets) which satisfies the [[Frobenius reciprocity]] condition that $f_!(U \cap f^* V) = f_!(U) \cap V$.
 
+In the special case that $Y$ is the one-point locale, the Frobenius reciprocity condition is automatically satisfied.
+
 
 ### For geometric morphisms of toposes
 
@@ -98,6 +100,8 @@ For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
 ## Related concepts
 
 * [[open geometric morphism]]
+
+* [[essential sublocale]]
 
 * [[closed morphism]]
 
