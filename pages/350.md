@@ -194,10 +194,10 @@ The corresponding [[monomorphism]] $U \hookrightarrow X$ is called a **[[dense m
 
 An object $A \in E$ is called a **$j$-[[sheaf]]** if it is a [[local object]] with respect to the dense monomorphisms.
 
-This means that $A$ is a $j$-sheaf if for every dense $U \hookrightarrow X$ the induced morphism
+This means that $A$ is a $j$-sheaf if for every dense $U \hookrightarrow A$ the induced morphism
 
 $$
-  Hom(X,F) \to Hom(U,F)
+  Hom(A,F) \to Hom(U,F)
 $$
 
 is an [[isomorphism]].
