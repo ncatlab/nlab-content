@@ -101,7 +101,7 @@ This is theorem 1.4. in [Caramello (2009)](#Caramello09).
 
 +--{: .num_prop #Boolean_mono}
 ###### Proposition
-$\neg\neg$ is the smallest [[Lawvere-Tierney topology|topology]] $j$ on $\mathcal{E}$ such that all monomorphisms of the form $A\vee\neg A\rightarrowtail E$ for subobjects $A\rightarrowtail$ in $\mathcal{E}$ are $j$-dense.
+$\neg\neg$ is the smallest [[Lawvere-Tierney topology|topology]] $j$ on $\mathcal{E}$ such that all monomorphisms of the form $A\vee\neg A\rightarrowtail E$ for subobjects $A\rightarrowtail E$ in $\mathcal{E}$ are $j$-dense.
 =--
 
 This appears as proposition 6.2 in [Caramello (2012a)](#Caramello12a).
@@ -207,7 +207,7 @@ In [[homotopy type theory]]:
 
 Discussion in relation to [[cohesion]] and the [[sharp modality]] is in 
 
-* {#Lawvere91} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in Springer LNM **1488** (1991).
+* {#Lawvere91} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in LNM **1488** Springer Heidelberg 1991.
 
 More detailed discussion of this is in 
 
