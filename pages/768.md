@@ -637,7 +637,7 @@ The same kind of argument applies to the complex case.
 =--
 
 
-+-- {: .num_prop }
++-- {: .num_prop #SphereFibrationOverInclusionOfClassifyingSpaces}
 ###### Proposition
 
 For $n \in \mathbb{N}$ there are [[homotopy fiber sequences]]
