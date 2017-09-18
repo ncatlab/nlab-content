@@ -22,6 +22,8 @@
 
 ## References
 
+* Annette Huber, [[Stefan Müller-Stach]], with contributions of Benjamin Friedrich and Jonas von Wangenheim, [Periods and Nori motives](http://home.mathematik.uni-freiburg.de/arithgeom/preprints/buch/mantel.html), (Book in preparation: first version, September 2015, 323 p. )
+
 * Annette Huber, [[Stefan Müller-Stach]], _On the relation between Nori motives and Kontsevich periods_, [1105.0865](http://arxiv.org/abs/1105.0865)
 
 * Madhav Nori, TIFR notes on motives, unpublished, [pdf](http://www.arithgeo.ethz.ch/alpbach2011/Nori_TIFR)
@@ -41,6 +43,8 @@ Characterization of the universality of Nori motives via Barr completion of the 
 * {#BVCL15} [[Luca Barbieri-Viale]], [[Olivia Caramello]], [[Laurent Lafforgue]], _Syntactic categories for Nori motives_ ([arXiv:1506.06113](http://arxiv.org/abs/1506.06113))
 
 For more on this [[topos theory]] perspective, see
+
+* [[Luca Barbieri-Viale]], _T-Motives_ ([arXiv:1602.05053](http://arxiv.org/abs/1602.05053))
 
 * [[Olivia Caramello]], _Motivic toposes_ ([arXiv:1507.06271](http://arxiv.org/abs/1507.06271))
 
