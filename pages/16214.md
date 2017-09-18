@@ -2,7 +2,13 @@ This entry is about the book (in progress)
 
 * [[D. Gaitsgory]], [[N. Rozenblyum]], _A study in derived algebraic geometry_, [web](http://www.math.harvard.edu/~gaitsgde/GL/).
 
-It develops some aspects of the theory of [[derived algebraic geometry]] with the [[categorical geometric Langlands conjecture]] in mind.  See also the closely related notes [[Notes on geometric Langlands]].
+It develops some aspects of the theory of [[derived algebraic geometry]] with the [[categorical geometric Langlands conjecture]] in mind.
+
+## See also
+
+* [[Dennis Gaitsgory]], _[[Notes on geometric Langlands]]_, [web](http://www.math.harvard.edu/~gaitsgde/GL/).
+
+* [[D. Gaitsgory]] et. al., _Geometric representation theory_, graduate seminar, Fall 2009--Spring 2010, [web](http://www.math.harvard.edu/~gaitsgde/grad_2009/).
 
 ## Contents
 
