@@ -1135,7 +1135,7 @@ The following simplistic example of a (metric) topological space is important fo
 **([[empty space]] and [[point space]])**
 
 On the [[empty set]] there exists a unique topology $\tau$ making it a [[topological space]] according to def. \ref{TopologicalSpace}.
-We write also 
+We write also
 
 $$
   \emptyset
@@ -1143,7 +1143,7 @@ $$
    \left(
      \emptyset, \tau_{\emptyset} = \{ \emptyset  \}
    \right)
-$$ 
+$$
 
 for the resulting [[topological space]],
 which we call the _[[empty topological space]]_.
@@ -1245,7 +1245,7 @@ If $X$ is itself a [[finite set]] (but not otherwise) then the cofinite topology
 
 $\,$
 
-We now consider basic construction principles of new topological spaces from given ones:
+{#BasicConstructions} We now consider basic construction principles of new topological spaces from given ones:
 
 1. [[disjoint union spaces]] (example \ref{DisjointUnionOfTopologicalSpaces})
 
@@ -5024,7 +5024,8 @@ Then
 ###### Proof
 
 First we observe that every continuous function $f \colon X \longrightarrow Y$ into a $T_n$-topological space $Y$
-factors uniquely, via $t_n(X)$ through a continuous function $\tilde f$:
+factors uniquely, via $t_n(X)$ through a continuous function $\tilde f$
+(this makes use of the "[[universal property]]" of the quotient topology, which we dwell on a bit more below in example \ref{UniversalPropertyOfQuotientSpace}):
 
 $$
   f = \tilde f \circ t_n(X)
@@ -5664,7 +5665,7 @@ In **summary** we have found
 ###### Proposition
 **([[sober reflection]])**
 
-For every [[topological space]] $X$ there exists 
+For every [[topological space]] $X$ there exists
 
 1. a [[sober topological spaces]] $S X$;
 
@@ -5674,7 +5675,7 @@ such that ...
 
 =--
 
-As before for the $T_n$-reflection in remark \ref{ReflectiveSubcategory}, 
+As before for the $T_n$-reflection in remark \ref{ReflectiveSubcategory},
 the statement of prop. \ref{SoberReflection} may neatly be re-packaged:
 
 +-- {: .num_remark #SobertopologicalSpacesFormReflectiveSubcategory}
@@ -5704,42 +5705,121 @@ $\,$
 ## Universal constructions
  {#UniversalConstructions}
 
+We have seen [above](#BasicConstructions) various construction principles for [[topological spaces]] [above](#BasicConstructions),
+such as [[topological subspaces]] and [[topological quotient spaces]]. It turns out that
+these constructions enjoy certain
+"[[universal properties]]" which allow us to find [[continuous functions]] into or out of these
+spaces, respectively (example \ref{UniversalPropertyOfQuotientSpace} below).
+Since this is useful for handling topological spaces (we secretly used the universal property of the
+quotient space construction already in the proof of prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}), we next consider,
+in def. \ref{LimitingCone} below, more general
+"[[universal constructions]]" of topological spaces, called _[[limits]]_ and _[[colimits]]_ of topological spaces
+(and to be distinguished from limits _in_ topological spaces, in the sense of [[convergence]]
+of [[sequences]] as in def. \ref{Convergence}).
 
-One point of the general definition of [[topological space]] [above](#TopologicalSpaces) is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist on  [[metric spaces]].
+Moreover, we have seen [above](#HausdorffReflections) that the [[quotient space]] construction in general does not
+preserve the $T_n$-[[separation axiom|separation]] property or [[sober space|soberity]] property
+of topological spaces, while the [[topological subspace]] construction does. The same turns out
+to be true for the more general "colimiting" and "limiting" universal constructions. But we have also seen
+that we may universally "reflect" any topological space to becomes a $T_n$-space or sober space.
+The remaining question then is whether this reflection breaks the desired universal property.
+We discuss that this is not the case, that instead the universal construction in all topological spaces
+followed by these reflections gives the correct universal constructions in $T_n$-separated and sober topological
+spaces, respectively. This way we finally obtain various [[convenient categories of topological spaces]]
+to work in.
 
-Examples include the construction of [[quotient topological spaces]] of metric spaces, which are not [[Hausdorff space|Hausdorff]]
-anymore (e.g. example \ref{LineWithTwoOrigins}), and hence in particular are not metric spaces anymore (by example \ref{HausdorffMetricSpace}).
+After these general considerations, we finally discuss a [list of examples](#UniversalConstructionsExamples) of universal constructions in topological spaces.
 
-Now from a more abstract point of view, a [[quotient topological space]] is a special case of a "[[colimit]]" of topological
-spaces. This we explain now.
+$\,$
 
-Generally, for every [[diagram]] in the [[category]] [[Top]] of topological spaces (remark \ref{TopCategory}),
-hence for every collection of topological spaces with a system of [[continuous functions]] between them, then
-there exists a further topological space, called the _[[colimit|colimiting]] space_ of the diagram,
-which may be thought of as the result of "gluing" all the spaces in the diagram together, while using the
-maps between them in order to identify those parts "along which" the spaces are to be glued.
+Here is a motivating example of a [[universal property]]:
 
-One may formalize this intuition by saying that the colimiting space has the property that it receives compatible continuous functions
-from all the spaces in the diagram, and that it is characterized by the fact that it is
-_[[universal property|universal with this property]]_: every compatible system of maps to another space uniquely
-factors through the colimiting one.
++-- {: .num_example #UniversalPropertyOfQuotientSpace}
+###### Example
+**([[universal property]] of [[quotient topological spaces]])**
 
-Therefore forming colimits of topological spaces is a convenient means to construct new spaces which have
-prescribed properties for continuous functions out of them. We implicitly used a simple special case of this
-phenomenon in the proof of the [[Hausdorff reflection]] in prop. \ref{HausdorffReflection}, when we concluded
-the existence of certain unique factorizing maps out of the Hausdorff qotient of a topological space.
+Let $X$ be a [[topological space]], and let $\sim$ be an [[equivalence relation]] on its
+underlying set. Then the corresponding [[quotient topological space]] $X/\sim$
+together with the corresponding qutient [[continuous function]]
+$p \colon X \to X/\sim$ has the following [[universal property]]:
 
-[[formal dual|Dual]] to the concept of [[colimits]] of topological space is that of "[[limits]]" of
-[[diagrams]] of topological spaces (not to be confused with [[limits of sequences]] _in_ a topological space).
-Here one considers topological spaces with the [[universal property]] of having compatible continuous
-functions into a given [[diagram]] of spaces.
+Given $f \colon X \longrightarrow Y$ any [[continuous function]] out of $X$
+with the property that it respects the given [[equivalence relation]], in that
 
-Most constructions of new topological spaces that one builds from given spaces are obtained by forming limits and/or colimits
-of diagrams of the original spaces.
+$$
+  (x_1 \sim x_2)
+    \;\Rightarrow\;
+  \left(
+    f(x_1) = f(x_2)
+  \right)
+$$
 
-[[!include universal constructions of topological spaces -- table]]
+then there is a unique [[continuous function]] $\tilde f \colon X/\sim \longrightarrow Y$
+such that
 
-We now discuss this in generality and then consider these examples.
+$$
+  f = \tilde f\circ p
+  \phantom{AAAA}
+  i.e.
+  \phantom{Aaaa}
+  \array{
+    X &\overset{f}{\longrightarrow}& Y
+    \\
+    {}^{\mathllap{p}}\downarrow & \nearrow_{\exists ! \tilde f}
+    \\
+    X/\sim
+  }
+  \,.
+$$
+
+(This universal property is often useful, for instance we already used it in the construction of the
+$T_n$-reflection in prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}.)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First observe that there is a unique function $\tilde f$ as claimed on the level of
+functions of the underlying sets:
+In order for $f = \tilde f \circ p$ to hold, $\tilde f$ must send an equivalence class in $X/\sim$
+to one of its members
+
+$$
+  \tilde f \;\colon\; [x] \mapsto x
+$$
+
+and that this is well defined and independent of the choice of representative $x$ is guaranteed by
+the condition on $f$ above.
+
+Hence it only remains to see that $\tilde f$ defined this way is continuous, hence that for
+$U \subset Y$ an open subset, then its pre-image $\tilde f^{-1}(U) \subset X/\sim$ is open
+in the quotient topology. By definition of the quotient topology (example \ref{QuotientTopologicalSpace}),
+this is the case precisely if its further pre-image under $p$ is open in $X$. But by the
+fact that $f = \tilde f \circ p$, this is the case by the continuity of $f$:
+
+$$
+  \begin{aligned}
+    p^{-1}
+    \left(
+       \tilde f^{-1}
+       \left(
+         U
+       \right)
+    \right)
+    & =
+    \left(
+      \tilde f \circ p
+    \right)^{-1}(U)
+    \\
+    & = f^{-1}(U)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+This kind of example we now generalize.
 
 $\,$
 
@@ -5747,8 +5827,8 @@ $\,$
  {#LimitsAndColimits}
 
 We consider now the general definition of [[diagrams]] of [[topological spaces]] (def. \ref{Diagram} below),
-their [[cones]] and [[co-cones]] (def. \ref{Cone}) as well as [[limit|limiting cones]] and [[colimit|colimiting cocones]] (def. \ref{LimitingCone} below). Then we use these concepts to see generally why [[limits]] (such as [[product spaces]] and [[subspaces]]) 
-of $T_{n \leq 2}$-spaces and of [[sober spaces]] are again $T_n$ or sober, respectively, and to see that the 
+their [[cones]] and [[co-cones]] (def. \ref{Cone}) as well as [[limit|limiting cones]] and [[colimit|colimiting cocones]] (def. \ref{LimitingCone} below). Then we use these concepts to see generally why [[limits]] (such as [[product spaces]] and [[subspaces]])
+of $T_{n \leq 2}$-spaces and of [[sober spaces]] are again $T_n$ or sober, respectively, and to see that the
 correct [[colimits]] (such as [[disjoint union spaces]] and [[quotient spaces]]) of $T_n$- or sober spaces
 are instead the _$T_n$-reflection_ (prop. \ref{HausdorffReflection}) or sober reflection (prop. \ref{SoberReflection}), respectively, of these
 colimit constructions performed in the context of unconstrained topological spaces.
@@ -5826,7 +5906,7 @@ that we will be concerned with here are fairly simplistic examples of the genera
 
 Let $I$ be any [[set]], and for each $(i,j) \in I \times I$ let $I_{i,j}$
 either by the [[empty set]] if the indices do not agree, or else [[generalized the|the]]
-[[singleton set]], whose unique element we denote by $id_i$: 
+[[singleton set]], whose unique element we denote by $id_i$:
 
 $$
   I_{i,j}
@@ -5841,15 +5921,15 @@ $$
   \,.
 $$
 
-There is a unique choice for the composition function for these sets to 
-index a [[diagram]] according to def. \ref{Diagram}. 
+There is a unique choice for the composition function for these sets to
+index a [[diagram]] according to def. \ref{Diagram}.
 
 The corresponding diagrams
 are simply a set of sets/topological spaces with no non-trivial morphisms between them.
-This is called a _[[discrete category|discrete]] [[diagram]]_. 
+This is called a _[[discrete category|discrete]] [[diagram]]_.
 
 
-Notice that here the index set may be [[empty set]], $I = \emptyset$, in which case the 
+Notice that here the index set may be [[empty set]], $I = \emptyset$, in which case the
 corresponding diagram consists of no data. This is also called the _[[empty diagram]]_.
 
 =--
@@ -5863,26 +5943,26 @@ Let $I = \{a, b\}$ be the [[set]] with two elements, and consider the sets
 
 $$
   I_{i,j}
-    \;\coloneq\;
+    \;\coloneqq\;
   \left\{
     \array{
       \{id_i\} &\vert\, i = j
       \\
       \{ 1,2 \} &\vert\, (i = a) \,\text{and}\, (j = b)
       \\
-      \emptyset & \vert \, (i=b) \,\text{and}\, (j = a) 
+      \emptyset & \vert \, (i=b) \,\text{and}\, (j = a)
     }
   \right\}
   \,.
 $$
 
-Again there is a unique composition function that makes this the index data of a diagram according to 
+Again there is a unique composition function that makes this the index data of a diagram according to
 def. \ref{Diagram}.
 
 Such a diagram is called a _pair of [[parallel morphisms]]_:
 
 $$
-  X_a 
+  X_a
     \underoverset
       {\underset{f_2}{\longrightarrow}}
       {\overset{f_1}{\longrightarrow}}
@@ -5898,11 +5978,11 @@ $$
 ###### Example
 **([[span]] and [[cospan]] [[diagram]])**
 
-Let $I = \{a,b,c\}$ and 
+Let $I = \{a,b,c\}$ and
 
 $$
   I_{i ,j}
-   = 
+   =
   \left\{
     \array{
       \{id_i\} & \vert \, i = j
@@ -5930,7 +6010,7 @@ $$
   \,.
 $$
 
-This is called a _[[span]] [[diagram]]_. 
+This is called a _[[span]] [[diagram]]_.
 
 Similary, there is the _[[cospan]]_ diagram of the form
 
@@ -5970,11 +6050,11 @@ diagrams according to def. \ref{Diagram}. These are called _[[tower]] [[diagrams
 
 
 $$
-   X_0 
+   X_0
      \overset{f_{0,1}}{\longrightarrow}
-   X_1 
+   X_1
      \overset{f_{1,2}}{\longrightarrow}
-   X_2 
+   X_2
      \overset{f_{2,3}}{\longrightarrow}
    X_3
      \overset{}{\longrightarrow}
@@ -6029,12 +6109,12 @@ One difference between this category $\mathcal{I}$ and the categories [[Set]] of
 of topological spaces is that the collection of objects in $\mathcal{I}$ is an actual [[set]]
 instead of a proper [[class]]. To amplify this one also says that $\mathcal{I}$ is a "[[small category]]".
 
-Moreover, with this identification made, then it is clear that all the data that makes up the diagram in 
+Moreover, with this identification made, then it is clear that all the data that makes up the diagram in
 def. \ref{Diagram} is equivalently re-formulated simply by saying that a diagram in a
 category $\mathcal{C}$ is a [[functor]]
 
 $$
-  X_\bullet \;\colon\; \mathcal{I} \longrightarrow \mathcal{C} 
+  X_\bullet \;\colon\; \mathcal{I} \longrightarrow \mathcal{C}
   \,.
 $$
 
@@ -6045,7 +6125,7 @@ So for example an _$\mmathcal{I}$-shaped diagram of sets_ is a choice of a [[sma
 and of a [[functor]] of the form
 
 $$
-  X_\bullet  
+  X_\bullet
     \;\colon\;
   \mathcal{I} \longrightarrow Set
   \,,
@@ -6149,10 +6229,10 @@ Then
 **([[cones]] are [[natural transformations]])**
 
 
-In the language of [[category theory]] (remark \ref{TopCategory}) 
+In the language of [[category theory]] (remark \ref{TopCategory})
 and in view of the interpretation of [[diagrams]] as [[functors]]  (remark \ref{FunctorialDefinitionOfDiagrams})
 then the definition of [[cone]] in def. \ref{Cone} simply says that a [[cone]]
-is a [[natural transformation]] from a _[[constant functor]]_ to the [[functor]] that exbits the 
+is a [[natural transformation]] from a _[[constant functor]]_ to the [[functor]] that exbits the
 given diagram.
 
 
@@ -6176,7 +6256,7 @@ $$
   \,.
 $$
 
-Then a [[cone]] over this diagram with tip the [[singleton]] set $\ast$ is a _[[solution]]_ to 
+Then a [[cone]] over this diagram with tip the [[singleton]] set $\ast$ is a _[[solution]]_ to
 the [[equation]] $f(x) = g(x)$
 
 $$
@@ -6197,7 +6277,7 @@ $$
   \,.
 $$
 
- 
+
 =--
 
 
@@ -6346,13 +6426,13 @@ $$
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-**([[limit|limiting]]/[[colimit|colimiting]] [[cones]] are [[terminal object|terminal]]/[[initial objects|initial]] cones)**
 
-spring
 
-=--
+This concludes the general definition of universal constructions. Before we consider explicit
+examples [below](#UniversalConstructionsExamples) we now first consider a more explicit
+description of these limits of colimits of diagrams of sets and of topological spaces.
+
+$\,$
 
 
 +-- {: .num_prop #SetLimits}
@@ -6363,15 +6443,13 @@ Let
 
 $$
   X_\bullet
-    \,=\,
-  \left(
-     \left\{
-       X_i \overset{f_\alpha}{\longrightarrow} X_j
-     \right\}_{i,j \in I, \alpha \in I_{i,j}}
-  \right)
+    \,\colon\,
+  \mathcal{I}
+    \longrightarrow
+  Set
 $$
 
-be a [[diagram]] of [[sets]] (def. \ref{Diagram}). Then
+be a [[diagram]] of [[sets]] (def. \ref{Diagram}, using the notation from remark \ref{FunctorialDefinitionOfDiagrams}). Then
 
 1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by the following [[subset]] of the [[Cartesian product]]
    $\underset{i \in I}{\times} X_i$
@@ -6426,13 +6504,11 @@ be a [[diagram]] of [[sets]] (def. \ref{Diagram}). Then
      \right)
    $$
 
-
 =--
 
-
-
-Now we turn to limits of diagrams of topological spaces. In order to describe these, we
-consider the following general way of constructing [[topological space|topologies]]:
+It will turn out below in prop. \ref{DescriptionOfLimitsAndColimitsInTop} that limits and colimits
+of diagrams of topological spaces are computed by first applying prop. \ref{SetLimits} to the underlying diagram
+of underlying sets, and then equipping the result with a topology as follows:
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
@@ -6444,14 +6520,17 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological s
 
 * For $\{S_i \stackrel{f_i}{\to} S\}_{i \in I}$ a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \to (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
 
-Other terminology used is:
+Other terminology used is shown in this table:
 
-| $\,$ [[initial topology]]$\,$ | $\,$ [[final topology]] $\,$ |
+| $\,$ [[limit]]  of [[topological spaces]]$\,$ | $\,$ [[colimit]] of [[topological spaces]] $\,$ |
 |-------------------------------|------------------------------|
-| $\,$  weak topology  $\,$     | $\,$ strong  topology $\,$   |
+| $\,$ [[initial topology]]$\,$ | $\,$ [[final topology]] $\,$ |
+| $\,$ weak topology  $\,$     | $\,$ strong  topology $\,$   |
 | $\,$ coarse topology  $\,$    | $\,$ fine topology $\,$      |
 
 =--
+
+We have already seen [above](#BasicConstructions) simple examples of initial and final topologies:
 
 +-- {: .num_example #TopologicalSubspaceInitial}
 ###### Example
@@ -6480,13 +6559,19 @@ from def. \ref{InitialAndFinalTopologies}, is the [[quotient topology]] from exa
 
 =--
 
-
+Now we have all the ingredients to compute limits and colimits of diagrams of topological spaces:
 
 +-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
 ###### Proposition
 **([limits and colimits of topological spaces](limits+and+colimits+by+example#OfTopologicalSpaces))**
 
-Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$ be an $I$-[[diagram]] in [[Top]] (a [[functor]] from $I$ to $Top$), with components denoted $X_i = (S_i, \tau_i)$, where $S_i \in Set$ and $\tau_i$ a topology on $S_i$. Then:
+Let
+
+$$
+  X_\bullet \;\colon\; \mathcal{I} \longrightarrow Top
+$$
+
+be a [[diagram]] of [[topological spaces]] (def. \ref{BasicConstructions}, using the notation from remark \ref{FunctorialDefinitionOfDiagrams}).
 
 1. The [[limit]] of $X_\bullet$ exists and is given by [[generalized the|the]] topological space whose underlying set is [[generalized the|the]] limit in [[Set]] of the underlying sets in the diagram, and whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
 
@@ -6558,7 +6643,16 @@ The case of the colimit is [[formal dual|formally dual]].
 $\,$
 
 ### Examples
+ {#UniversalConstructionsExamples}
 
+We now discuss a list of examples of [[universal constructions]] of [[topological spaces]]
+as introduced in generality [above](#UniversalConstructions).
+
+$\,$
+
+[[!include universal constructions of topological spaces -- table]]
+
+$\,$
 
 +-- {: .num_example #PointTopologicalSpaceAsEmptyLimit}
 ###### Example
@@ -8578,8 +8672,7 @@ $\,$
 
 A canonical compendium is
 
-* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ in _Elements of Mathematics III: General topology_,  Spring
-er (1971, 1990)
+* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ in _Elements of Mathematics III: General topology_,  Springer (1971, 1990)
 
 Introductory textbooks include
 
