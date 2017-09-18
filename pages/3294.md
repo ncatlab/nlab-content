@@ -117,7 +117,7 @@ $$
 over all [[Cartesian spaces]] via their canonical [[projection maps]].
 
 (Beware that the same symbol "$\mathbb{R}^\infty$" is also used for the limit of
-the same sequence but with $\mathbb{R}^n$ with discrete topology, what leads to a [[linearly compact vector space]] as well as for the [[direct sum]]/[[inductive limit]] of $\mathbb{R}\to \mathbb{R}\hookrightarrow\mathbb{R{^3\hookrightarrow\ldots$, which is different.)
+the same sequence but with $\mathbb{R}^n$ with discrete topology, what leads to a [[linearly compact vector space]] as well as for the [[direct sum]]/[[inductive limit]] of $\mathbb{R}\to \mathbb{R}^2\hookrightarrow\mathbb{R}^3\hookrightarrow\ldots$, which is different.)
 
 Write
 
