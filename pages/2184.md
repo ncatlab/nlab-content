@@ -128,6 +128,8 @@ Given a (pseudo)graph $G$ represented by $(V,H,s,i)$, the edges of $G$ are just 
 
 * [[category]], [[free category]]
 
+* [[Feynman diagram]]
+
 ## References
 
 * Frank Harary (1969), _Graph Theory_, Addison-Wesley.
