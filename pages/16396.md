@@ -1,0 +1,11 @@
+## Idea
+
+[[slice filtration]] in [[motivic homotopy theory]]
+
+## References
+
+* [[Vladimir Voevodsky]], _Open problems in the motivic stable homotopy theory, I_, [web](http://www.math.uiuc.edu/K-theory/0392/).
+
+In the [[unstable motivic homotopy category]]:
+
+* [[Pablo Pelaez]], _The Unstable Slice Filtration_, [arXiv:1201.3657](http://arxiv.org/abs/1201.3657).
