@@ -3,6 +3,9 @@
 
 * [obituary by Madhusree Mukerjee](http://www.huffingtonpost.com/madhusree-mukerjee/the-passing-of-a-gentle-g_b_7827966.html)
 
+on his contributions to [[string theory]]:
+
+* H. Itoyama, _Birth of String Theory_ ([arXiv:1604.03701](http://arxiv.org/abs/1604.03701))
 
 ## Related $n$Lab entries
 
