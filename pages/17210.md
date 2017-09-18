@@ -548,7 +548,7 @@ $$
 ###### Proposition
 **(Milnor exact sequence for generalized cohomology)**
 
-Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longleftarrow}{\lim}_n X_n$ and let $\tilde E^\bullet$ an additive [[reduced cohomology theory]]. 
+Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longrightarrow}{\lim}_n X_n$ and let $\tilde E^\bullet$ an additive [[reduced cohomology theory]]. 
 
 Then the canonical morphisms make a [[short exact sequence]]
 
