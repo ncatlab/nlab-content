@@ -24,11 +24,9 @@ With the [[axiom of choice]] we have more generally that:
 
 Every [[metrisable topological space]] is [[paracompact topological space|paracompact]]. 
 
-The historica **proof** proceeds in the two steps
+The orignal **proof** due to ([Stone 48](#Stone48)) used that  [[metric spaces are fully normal]] and showed that [[fully normal spaces are equivalently paracompact]] ("Stone's theorem").
 
-1. [[metric spaces are fully normal]]
-
-1. [[fully normal spaces are equivalently paracompact]].
+A direct and short proof was later given in ([Rudin 68](#Rudin68)).
 
 ## Related statements
 
@@ -55,4 +53,16 @@ The historica **proof** proceeds in the two steps
 * [[continuous images of compact spaces are compact]]
 
 * [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
+
+## References
+
+Historically, first it was shown that [[fully normal spaces are equivalently paracompact]] in
+
+* {#Stone48} A. H. Stone, _Paracompactness and product spaces_, Bull. Amer. Math. Soc. Volume 54, Number 10 (1948), 977-982. ([Euclid](http://projecteuclid.org/euclid.bams/1183512390))
+
+Since it is easy to see that [[metric spaces are fully normal]] this implies that metric spaces and hence metriable topological spaces are paracompact. Accordingly this statement came to be known as _Stone's theorem_.
+
+A direct and short proof that metric spaces are paracompact was given in 
+
+* {#Rudin68} [[Mary Ellen Rudin]], _A new proof that metric spaces are paracompact_, AMS 1968 ([pdf](http://www.ams.org/journals/proc/1969-020-02/S0002-9939-1969-0236876-3/S0002-9939-1969-0236876-3.pdf))
 
