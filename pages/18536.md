@@ -1,0 +1,12 @@
+
+* [webpage](https://en.wikipedia.org/wiki/Julian_Schwinger)
+
+## related $n$Lab entries
+
+* [[quantum field theory]]
+
+* [[quantum electrodynamics]]
+
+* [[adiabatic switching]]
+
+category: people
