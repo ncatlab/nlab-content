@@ -366,3 +366,7 @@ its relation to the $E^2$-term in the
 [[!redirects Ádem relation]]
 [[!redirects Adem relations]]
 [[!redirects Ádem relations]]
+
+[[!redirects dual Steenrod algebra]]
+[[!redirects dual Steenrod algebras]]
+
