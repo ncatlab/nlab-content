@@ -73,7 +73,7 @@ an [[(∞,1)-category]] that satisfies the $(\infty,1)$-categorical analogs of [
 
 =--
 
-This is  part of the statement of [[Higher Topos Theory|HTT, theorm 6.1.0.6]].
+This is  part of the statement of [[Higher Topos Theory|HTT, theorem 6.1.0.6]].
 
 This is derived from the following equivalent one:
 
