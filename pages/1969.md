@@ -122,7 +122,7 @@ where
 
 1. $ev_0 X_\bullet = X_0$;
 
-1. $X^{\times^\bullet} : [n] \mapsto X^{\times^n}$.
+1. $X^{\times^\bullet} : [n] \mapsto X^{\times^{n+1}}$.
 
 
 =--
