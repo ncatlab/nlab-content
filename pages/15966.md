@@ -23,36 +23,37 @@ The starting point of this approach should be given by the settlement of a globa
 ## Microlocalization in derived global analytic geometry
 
 Microlocalization in derived geometry involves the proper definition of the deformation to the normal bundle of a closed embedding $Y\subset X$ of global analytic spaces (or even stacks), which is given by the following simple construction.
-The space of loops on $X$ based on $Y$ is the groupoid acting on $Y$ given by
-$$L_Y X:=\{f\in \Hom(\Delta^1,X),\;f(0)\in Y,\;f(1)\in Y\}.$$
+The space of paths on $X$ based on $Y$ is the groupoid acting on $Y$ given by
+$$P_Y X:=\{f\in \Hom(\Delta^1,X),\;f(0)\in Y,\;f(1)\in Y\}.$$
 More concretely, this is given by the homotopy pullback
 $$
 \array{
-    L_Y X &\to& \Hom(\Delta^1,X)
+    P_Y X &\to& \Hom(\Delta^1,X)
     \\
     \downarrow && \downarrow^{\mathrlap{ev_0\times ev_1}}
     \\
     Y\times Y &\to& X\times X
 }
 $$
-Remark that the natural projection $L_Y X\to Y\times Y$ makes $L_Y X$ a groupoid (of paths in $X$) acting on $Y$.
-A more explicite description of this space (that is obtained by using the homotopy $\Delta^1\sim \Delta^0$ is given by the homotopy pullback
+Remark that the natural projection $P_Y X\to Y\times Y$ makes $P_Y X$ a groupoid (of paths in $X$) acting on $Y$. One may pull it back along the diagonal $\Delta:Y\hookrightarrow Y\times Y$ to get the loop space
+$$L_Y X:=\{f\in \Hom(\Delta^1,X),\;f(0)=f(1)\in Y\}.$$
+There is a natural projection $\tau:L_Y X\to Y$.
+A more explicit description of the loop space (that is obtained by using the homotopy $\Delta^1\sim \Delta^0$) is given by the homotopy pullback
 $$L_Y X=Y\times^h_X Y,$$
 which clearly has an interesting meaning only in the setting of derived geometry.
 
-The deformation to the normal bundle in strict derived global analytic geometry is then simply given by
+The deformation to the normal bundle in strict derived global analytic geometry is then simply given by the formula (with $D^1=\mathbb{M}(R\{X\}^\dagger)$ for $R$ the base ind-Banach ring)
 $$
-\widetilde{L_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)\in Y,\;f(0,1)\in Y,\;f(x,t)\in (X\backslash Y)\forall t\neq 0\},
+\widetilde{L_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)=f(1,0)\in Y,\;f(x,t)\in (X\backslash Y)\forall t\neq 0\}.
 $$
-which means more precisely the homotopy pullback
-More concretely (false but to be corrected tonight), this is given by the homotopy pullback
+More concretely (false but to be corrected tonight), this is given by the homotopy pullback (where $U(1)=\mathbb{M}(R\{X,Y\}^\dagger/(XY-1))$)
 $$
 \array{
     \widetilde{L_Y X} &\to& \Hom_{D^1}(\Delta^1\times D^1,X\times D^1)
     \\
-    \downarrow && \downarrow^{\mathrlap{ev_{(0,0)}\times ev_{(1,1)}}}
+    \downarrow && \downarrow^{\mathrlap{ev_{(0,0)}\times ev_{(1,0)}\times \ev_{(-,U(1))}}}
     \\
-    Y\times Y &\to& X\times X
+    Y\times \Hom(\Delta^1\times U(1),(X\backslash Y)) &\stackrel{\Delta\times i}{\to}& X\times X\times \Hom(\Delta^1\times U(1),X)
 }
 $$
 It has an evident natural projection $t:\widetilde{L_Y X}\to D^1$ and a natural projection $p:\widetilde{L_Y X}\to \Hom(\Delta^1,X)\sim X$ given by $p(f)=f(-,1):\Delta^1\to X$.
