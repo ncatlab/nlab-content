@@ -29,7 +29,7 @@ For $f = id$ the [[identity]] map, the Lefschetz trace reduces to the _[[Euler c
 
 ### Statement
 
-The _Lefschetz fixed point theorem_ says that if $X$ is a compact polyhedron and if the Lefschetz number is non-zero, then $f$ has at least one [[fixed point]].
+The _Lefschetz fixed point theorem_ says that if $X$ is a compact polyhedron and if the Lefschetz number is non-zero, then $f$ has at least one [[fixed point]]. In particular, if $X$ is a contractible compact polyhedron, then every $f \colon X\to X$ has a fixed point, so the theorem is a vast generalization of Brower fixed point theorem.
 
 
 The existence of a Lefschetz formula holds more general in [[Weil cohomology]] theories (by definition) and hence notably in [[ℓ-adic cohomology|ℓ-adic]] [[étale cohomology]]. This fact serves to prove the [[Weil conjectures]].
