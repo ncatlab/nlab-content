@@ -17,18 +17,66 @@
 
 The notion of  _monomorphism_ is the generalization of the notion of _injective map of  sets_ from the [[category]] [[Set]] to arbitrary [[category|categories]].
 
+The [[formal duality|formally dual]] concept is that of _[[epimorphism]]_, which similarly generalizes (or strengthens) the concept of [[surjective function]].
+ 
 ## Definition
 
-A **monomorphism** in a [[category]] $C$ is a [[morphism]] $f : X \to Y$ such that, equivalently,
+A [[morphism]] $f \colon X \to Y$ is some [[category]] is called a _monomorphism_ if for every [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Z \to X$ then
 
-* $f$ is an [[epimorphism]] in the [[opposite category]] $C^{op}$.
+$$
+  \left(
+    g_1 \circ f
+    \,=\,
+    g_2 \circ f
+  \right)
+  \;\Rightarrow \;
+  \left(
+    g_1 \,=\, g_2
+  \right)
+  \,.
+$$
 
-* for any object $A$ the induced morphism $f_* : C(A,X) \to C(A,Y)$ is injective.
+Stated more abstractly, this says that $f$ is a monomorphism if for every $Z$ the [[hom-functor]] $Hom(Z,-)$ takes it to an [[injective function]] between [[hom-sets]]
 
-The last condition here states the usual arrow-theoretic way to say monomorphism:
+$$
+  Hom(Z,X) 
+    \overset{\phantom{AA} f_\ast \phantom{AA}}{\hookrightarrow} 
+  Hom(Z,Y)
+  \,.
+$$
 
-The morphism $f : X \to Y$ is mono precisely if for all $g,h  : A \to X$ such that $f_*(h) : A \stackrel{h}{\to} X \stackrel{f}{\to}Y $ equals
-$f_*(g) : A \stackrel{g}{\to} X \stackrel{f}{\to}Y $ we have $g = h$.
+Since injective functions are precisely the monomorphisms in [[Set]] (example \ref{MonomorphismsInSet} below) this may be stated as saying that $f$ is a monomorphisms if for all objects $Z$ then $Hom(Z,f)$ is a monomorphisms. 
+
+Finally, $f$ being a monomorphism in a [[category]] $\mathcal{C}$ means equivalently that it is an [[epimorphism]] in the [[opposite category]] $\mathcal{C}^{op}$.
+
+## Examples
+
++-- {: .num_example #MonomorphismsInSet}
+###### Example
+**(monomorphisms in $Set$)
+
+The monomorphisms in the category [[Set]] of [[sets]] and [[functions]] between them are precisely the [[injective functions]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Every [[isomorphism]] is both a monomorphism and an [[epimorphism]]. 
+
+=--
+
+But beware that the converse fails:
+
++-- {: .num_example}
+###### Example
+
+A morphism that is both a monomorphism and an [[epimorphism]] need not be an [[isomorphism]].
+
+For instance in the categories [[Ring]] or [[CRing]], then the defining inclusion $\mathbb{Z} \hookrightarrow \mathbb{Q}$ of the ring of [[integers]] into that of [[rational numbers]] is both a monomorphism and an epimorphism, but clearly not an isomorphism.
+
+=--
+
 
 ## Properties
 
