@@ -277,7 +277,7 @@ $\tau_n$ is linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$.
 The coproduct on $\mathcal{A}^\ast_{\mathbb{F}_p}$ is given for all $p$ by
 
 $$
-  \Psi(\xi)
+  \Psi(\xi_n)
   =
   \underoverset{k = 0}{n}{\sum} \xi_{n-k}^{p^k} \otimes \xi_k
 $$
