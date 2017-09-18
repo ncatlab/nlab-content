@@ -2,5 +2,9 @@
 
 ## References
 
+* [[John Milnor]], _Whitehad torsion_, Bull. Amer. Math. Soc. 72, n. 3 (1966) 358-426 [euclid](http://projecteuclid.org/euclid.bams/1183527946)
+
 * Wikipedia, _[Whitehead torsion](https://en.wikipedia.org/wiki/Whitehead_torsion)_
+
+category: topology
 
