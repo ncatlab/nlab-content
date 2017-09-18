@@ -20,7 +20,7 @@ An atomic topos is a topos $\mathcal{E}$ where the global sections functor $\Gam
 +-- {: .num_defn}
 ###### Definition
 
-A [[topos]] over a [[base topos]] $\Gamma : \mathcal{E} \to \mathcal{S}$ is called an **atomic topos** if $\Gamma$ is [[atomic geometric morphism|atomic]]. Unless otherwise specified, the base topos will be take to be $Set$.
+A [[topos]] over a [[base topos]] $\Gamma : \mathcal{E} \to \mathcal{S}$ is called an **atomic topos** if $\Gamma$ is [[atomic geometric morphism|atomic]]. Unless otherwise specified, the base topos will be taken to be $Set$.
 =--
 
 +-- {: .num_defn}
@@ -51,7 +51,7 @@ See [Johnstone, C3.5.8](#Johnstone) and [Barr-Diaconescu, Theorem A](#Barr-Diaco
 ## Properties
 +-- {: .num_prop}
 ###### Proposition
-Let $\mathcal{E}$ be an atomic topos. Then $\mathcal{E}$ is boolean.
+Let $\mathcal{E}$ be an atomic topos. Then $\mathcal{E}$ is Boolean.
 =--
 
 This appears as one direction of ([Johnstone, cor. C3.5.2](#Johnstone)).
@@ -59,13 +59,13 @@ This appears as one direction of ([Johnstone, cor. C3.5.2](#Johnstone)).
 +-- {: .proof}
 ###### Proof
 
-If $\Gamma^*$ logical then it preserves the isomorphism $* \coprod * \simeq \Omega$ characterizing a [[Boolean topos]].
+If $\Gamma^*$ is logical then it preserves the isomorphism $* \coprod * \simeq \Omega$ characterizing a [[Boolean topos]].
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{E}$ be a [[Boolean topos|Boolean]] [[Grothendieck topos]] with [[point of a topos|enough points]]. Then is an atomic topos.
+Let $\mathcal{E}$ be a [[Boolean topos|Boolean]] [[Grothendieck topos]] with [[point of a topos|enough points]]. Then $\mathcal{E}$ is an atomic topos.
 =--
 
 +-- {: .proof}
@@ -84,9 +84,9 @@ For the argument see at [[atomic site]].
 
 ### Decomposition of atomic toposes
 
-Atomic toposes decompose as [[disjoint unions]] of [[connected topos|connected]] atomic toposes. Connected atomic toposes with a [[point of a topos]] are the [[classifying toposes]] of [[localic groups]].
+Atomic toposes decompose as [[disjoint unions]] of [[connected topos|connected]] atomic toposes. Connected atomic toposes with a [[point of a topos|point]] are the [[classifying toposes]] of [[localic groups]].
 
-An example of a connected atomic topos without a [[point of a topos]] is given in ([Johnstone, example D3.4.14](#Johnstone})).
+An example of a connected atomic topos without a [[point of a topos|point]] is given in ([Johnstone, example D3.4.14](#Johnstone})).
 
 ## Examples
 
@@ -101,6 +101,8 @@ An example of a connected atomic topos without a [[point of a topos]] is given i
 
 * [[atomic site]]
 
+* [[connected topos]]
+
 ## References
 
 * {#Barr-Diaconescu80}[[Michael Barr]], [[Radu Diaconescu]], _Atomic Toposes_ , JPAA **17** (1980) pp.1-24. ([pdf](http://www.math.mcgill.ca/barr/papers/atom.top.pdf))
@@ -109,6 +111,6 @@ An example of a connected atomic topos without a [[point of a topos]] is given i
 
 * {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol. 2_ , Oxford UP 2002. (section C3.5, pp.684-695)
 
-[[!redirects atomic topos]]
+[[!redirects Atomic topos]]
 [[!redirects atomic toposes]]
 [[!redirects atomic topoi]]
