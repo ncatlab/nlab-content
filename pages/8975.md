@@ -81,7 +81,7 @@ Other references include:
 
 For the connection between CPS and the [[Yoneda lemma]], see 
 
-* Ralf Hinze, Daniel W. H. James, _Reason Isomorphically!_, [pdf](http://www.cs.ox.ac.uk/ralf.hinze/publications/WGP10.pdf)
+* Ralf Hinze, Daniel W. H. James, _Reason Isomorphically!_, secions 3-4, [pdf](http://www.cs.ox.ac.uk/ralf.hinze/publications/WGP10.pdf)
 
 * Mike Stay, _The Continuation Passing Transform and the Yoneda Embedding_, [blog post](https://golem.ph.utexas.edu/category/2008/01/the_continuation_passing_trans.html)
 
