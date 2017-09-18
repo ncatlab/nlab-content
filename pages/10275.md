@@ -25,6 +25,8 @@ A [[spacetime]] in [[supergeometry]], used in some formulations of [[supergravit
 
 * [[super Minkowski spacetime]]
 
+* [[super anti de Sitter spacetime]]
+
 * [[super-vielbein]]
 
 * [[Green-Schwarz action functional]]
