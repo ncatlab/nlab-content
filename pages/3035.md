@@ -1,5 +1,5 @@
 
-**[[∞-Lie theory]]**
+**[[∞-Lie theory]]** ([[higher geometry]])
 
 ## Background
 
