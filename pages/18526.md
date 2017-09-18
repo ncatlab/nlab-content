@@ -146,6 +146,7 @@ $$
 With this we compute as follows:
 
 $$
+  \label{ContourIntegrationForCausalPropagator}
   \begin{aligned}
     (2\pi)^{-(p+1)}
     \underset{\epsilon \to 0^+}{\lim}
@@ -183,21 +184,24 @@ $$
       \array{
         (2\pi)^{-(p+1)} (-2\pi i) 
         \int
-        \frac{
-          e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
-        }
-        {
-          2 E(\vec k)
-        }
-        -
-        \frac{
-          e^{ + i E(\vec k)(x-y)^2} e^{-i \vec k \cdot (\vec x - \vec y)}
-        }{
-          2 E(\vec k)
-        }
-        & \vert & x^0 \gt 0
+        \left(
+          \frac{
+            e^{-i E(\vec k) (x^0 - y^0) e^{-i \vec k \cdot (\vec x - \vec y)}}
+          }
+          {
+            2 E(\vec k)
+          }
+          -
+          \frac{
+            e^{ + i E(\vec k)(x^0 - y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
+          }{
+            2 E(\vec k)
+          }
+        \right)
+        d^p \vec k
+        & \vert & (x^0 - y^0) \gt 0
         \\
-        0 & \vert & x^0 \lt 0
+        0 & \vert & (x^0 - y^0) \lt 0
       }
     \right.
     \\
@@ -241,6 +245,45 @@ Finally, for the advanced propagator the argument is directly analogous, with tw
 1. now the poles sit in the upper half plane, and hence we pick up a contribution for $(x-y)^0 \lt 0$ and none for $(x-y)^0 \gt 0$, hence in the end a prefactor of $\Theta(-(x-y)^0)$ instead of $\Theta((x-y)^0)$;
 
 1. the contours that do contribute now go counter-clockwise, instead of counter-clockwise, and hence we pick up an extra minus sign compared to the previous computation, as befits the definition of $\Delta_A(x,y) \coloneqq -\Theta(-(x-y)^0) \Delta(x,y)$.
+
+Hence:
+
+$$
+  \label{AdvancedPropagatorAsSumOfResidues}
+  \begin{aligned}
+    (2\pi)^{-(p+1)}
+    \underset{\epsilon \to 0^+}{\lim}
+    \int
+     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 + i k_0 \epsilon /2 }
+    d^{p+1} k
+    & = 
+    \left\{
+      \array{
+        (2\pi)^{-(p+1)} (+ 2\pi i) 
+        \int
+        \frac{
+          e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
+        }
+        {
+          2 E(\vec k)
+        }
+        -
+        \frac{
+          e^{ + i E(\vec k)(x-y)^2} e^{-i \vec k \cdot (\vec x - \vec y)}
+        }{
+          2 E(\vec k)
+        }
+        & \vert & x^0 \lt 0
+        \\
+        0 & \vert & x^0 \gt 0
+      }
+    \right.
+     \\
+     & = \Delta_A(x,y)
+     \,,
+  \end{aligned}
+$$
+
 
 
 =--
