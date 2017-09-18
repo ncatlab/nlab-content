@@ -85,9 +85,13 @@ The trace of the identity $1_a:a \to a$ is called the **[[dimension]]** or [[Eul
 
 ## Generalizations
 
-### Categorification
+### Vertical categorification
 
-See [[trace of a category]]
+See [[trace of a category]].
+
+### Horizontal categorification
+
+See [[trace in a bicategory]].
 
 ### Partial trace
 
