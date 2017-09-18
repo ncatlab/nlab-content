@@ -58,8 +58,9 @@ is an isomorphism.
 
 ### Local objects 
 
-+-- {: .un_defn}
-###### Definition [5.5.4.1](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=383) in [[Higher Topos Theory|HTT]]
++-- {: .num_defn}
+###### Definition 
+
 
 Let $C$ be an [[(∞,1)-category]] and $S$ a collection of morphisms in $C$. Then an [[object]] $c \in C$ is **$S$-local** if the [[hom-functor]]
 $$
@@ -67,6 +68,9 @@ $$
 $$
 evaluated on $s \in S$ induces isomorphism in the [[homotopy category]] of [[Top]].
 =--
+
+This is [5.5.4.1](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=383) in [[Higher Topos Theory|HTT]]
+
 
 ### Local morphisms 
 
@@ -91,8 +95,9 @@ $$
   \,.
 $$
 
-+-- {: .un_def }
-###### Definition (local object, local weak equivalence)
++-- {: .num_defn }
+###### Definition 
+**(local object, local weak equivalence)**
 
 An object $c \in C$ is a **$S$-local object** if for all $s : a \to b$ in $C$ the induced morphismm
 
@@ -132,8 +137,9 @@ $$
 
 In [[proper model category|left proper model categories]] there is an equivalent stronger characterization of $S$-locality of cofibrations $i : A \hookrightarrow B$.
 
-+-- {: .un_prop }
-###### Proposition (characterization of $S$-local cofibrations)
++-- {: .num_prop }
+###### Proposition 
+**(characterization of $S$-local cofibrations)**
 
 Let $C$ be a [[proper model category|left proper]] [[simplicial model category]] and $S \subset Mor(C)$, a collection of morphisms. 
 
@@ -147,7 +153,7 @@ is an acyclic fibration in the standard [[model structure on simplicial sets]].
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 Notice that this is stronger than the statement that $\mathbf{R}Hom(B,X) \to \mathbf{R}Hom(A,X)$ is a weak equivalence not only in that it asserts in addition a fibration, but also in that it deduces this without first passing to a cofibrant replacement of $A$ and $B$.
