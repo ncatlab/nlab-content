@@ -32,7 +32,7 @@ $\,$
 {#PartI}**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170704.pdf:file]] 203p)
 
 
-{#PartII}**part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_ $\;\;\,$ ([[IntroductionToTopologyII-171007.pdf:file]])
+{#PartII}**part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_ $\;\;\,$ ([[IntroductionToTopologyII-170711.pdf:file]] 45p)
 
 $\,$
 
