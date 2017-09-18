@@ -26,24 +26,32 @@
 
 
 ##Idea
-When the lattice of open subsets of topological spaces is the primordial example of a [[Heyting algebra]] then its dual lattice of closed subsets is the primodial example of a **co-Heyting algebra**.
+When the lattice of open subsets of a topological space is the primordial example of a [[Heyting algebra]] then its dual _lattice of closed subsets_ is the primordial example of a **co-Heyting algebra**.
 
 Co-Heyting algebras play a role in [[modal logic|modal]], paraconsistent, and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]] and in [[mereology]].
 
 ##Definition
 A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with a binary _subtraction_ operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\vee z$.[^Dist]
 
-[^Dist]: Existence of $\backslash$ amounts to \_$\backslash y\dashv y\vee$\_ and this existence of a left adjoint implies that $y\vee$\_ preserves limits $\wedge$ hence the assumption of distributivity in the definition is redundant and has been put in for emphasis only.
+[^Dist]: Existence of $\backslash$ amounts to an [[adjunction]] \_$\backslash y\dashv y\vee$\_ and the existence of a left adjoint implies that $y\vee$\_ preserves limits $\wedge$ hence the assumption of distributivity in the definition is redundant and has been put in for emphasis only.
 
 A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a Heyting algebra structure with implication $\Rightarrow$ and a co-Heyting algebra structure with subtraction $\backslash$.
 
-##Example
+##Examples
+
+* The lattice of closed subsets of a topological space is a co-Heyting algebra with $X\backslash Y=\overline{X\cap Y^c}\quad$.
 
 * A Boolean algebra provides a (degenerate) example of a bi-Heyting algebra by setting $x\Rightarrow y:=\neg x\vee y$ and $x\backslash y:=x\wedge\neg y$.
 
 ##Properties
 
-* The subtraction operation permits to define a weak negation operator $\sim: L\to L$, called _non a_ in Lawvere (1991), by setting $\sim a:=1\backslash a$. $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$. In turn $\sim$ can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and already points to the use of co-Heyting algebras for paraconsistent logic.
+* $a\backslash b=0$ iff $a\backslash b\leq O$ iff $a\leq b\vee 0$ iff $a\leq b$. In particular, $a\backslash a=0$.
+
+* As \_$\backslash x$ has a right adjoint it preserves colimits hence: $(a\vee b)\backslash x =(a\backslash x)\vee (b\backslash x)\quad$.
+
+* $a\backslash 0\leq a\backslash 0$ iff $a\leq 0\vee (a\backslash 0)$ iff $a\leq a\backslash 0\quad$. On the other hand, $a\leq 0\vee a$ and the adjunction yield $a\backslash 0\leq a\quad$, hence $a\backslash 0 = a\quad$.
+
+* The subtraction operation permits to define a weak negation operator $\sim: L\to L$, called _non a_ in Lawvere (1991), by setting $\sim a:=1\backslash a$. $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$. In turn $\sim$ can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and already points to the utility of co-Heyting algebras for paraconsistent logic.
 
 * Accordingly, a bi-Heyting algebra is naturally equipped with two negation operators: the Heyting complement $\neg$ and the co-Heyting supplement $\sim$. Both coincide in a Boolean algebra considered as a bi-Heyting algebra.
 
