@@ -1,13 +1,100 @@
+A homomorphism into a co-free $\Gamma$-comodule is a morphism of $A$-modules of the form
+
+$$
+  f \;\colon\; N \longrightarrow \Gamma \otimes_A C
+$$
+
+making the following [[commuting diagram|diagram commute]]
+
 $$
   \array{
-    &&  Hom^\bullet_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
+    N &\overset{f}{\longrightarrow}& \Gamma \otimes_A C
     \\
-      & {}^{\mathllap{\exists}}\nearrow 
-      & \downarrow^{\mathrlap{forget}}
+    {}^{\mathllap{\Psi_N}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\Psi \otimes_A id}}
     \\
-    [X,N]_\bullet
-      &\underset{\pi_\bullet(E \wedge -)}{\longrightarrow}&
-    Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(Y))
-    }
+    \Gamma \otimes_A N
+      &\underset{id \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma \otimes_A C
+  }
+  \,.
+$$
+
+Consider the composite
+
+$$
+  \tilde f
+  \;\colon\;
+  N 
+    \overset{f}{\longrightarrow}
+  \Gamma \otimes_A C
+    \overset{\epsilon \otimes_A id}{\longrightarrow}
+  A \otimes_A C
+    \simeq
+  C
   \,,
 $$
+
+i.e. the "corestriction" of $f$ along the counit of $\Gamma$. By definition this makes the following square commute
+
+$$
+  \array{
+    \Gamma \otimes_A N 
+      &\overset{id \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma \otimes_A C
+    \\
+    {}^{\mathllap{=}}\downarrow
+      &&
+    \downarrow^{\mathrlap{id \otimes_A \epsilon \otimes_A id}}
+    \\
+    \Gamma \otimes_A N
+      &\underset{id \otimes_A \tilde f}{\longrightarrow}&
+    \Gamma \otimes_A C
+  }
+  \,.
+$$
+
+Pasting this square onto the bottom of the previous one yields
+
+$$
+  \array{
+    N &\overset{f}{\longrightarrow}& \Gamma \otimes_A C
+    \\
+    {}^{\mathllap{\Psi_N}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\Psi \otimes_A id}}
+    \\
+    \Gamma \otimes_A N
+      &\underset{id \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma \otimes_A C
+    \\
+    {}^{\mathllap{=}}\downarrow
+      &&
+    \downarrow^{\mathrlap{id \otimes_A \epsilon \otimes_A id}}
+    \\
+    \Gamma \otimes_A N
+      &\underset{id \otimes_A \tilde f}{\longrightarrow}&
+    \Gamma \otimes_A C
+  }
+  \,.
+$$
+
+Now due to co-unitality, the right right vertical composite is the identity on $\Gamma \otimes_A C$. But this means by the commutativity of the outer rectangle that $f$ is uniquely fixed in terms of $\tilde f$ by the relation
+
+$$
+  f = (id \otimes_A f) \circ \Psi
+  \,.
+$$
+
+This establishes a [[natural bijection]] 
+
+$$
+  \frac{
+    N \overset{f}{\longrightarrow} \Gamma \otimes_A C
+  }{
+    N \overset{\tilde f}{\longrightarrow} C
+  }
+$$
+
+and hence the adjunction in question.
