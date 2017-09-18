@@ -994,12 +994,12 @@ then the vector bundles $E(c_1)$ and $E(c_2)$ are related by an isomorphism.
 
 Let $\{V_\alpha \subset X\}_{\alpha \in A}$ be the open cover with respect to which the coboundary
 $\{\kappa_\alpha \colon V_\alpha \to GL(n,k)\}_{\alpha}$ is defined, with refining functions
-$\phi \colon A \to I$ and $\phi' \colon A \to I'$.  Let 
+$\phi \colon A \to I$ and $\phi' \colon A \to I'$.  Let
 $\left\{ \mathbb{R}^n \underoverset{\simeq}{\psi_{\phi(\alpha)}\vert_{V_\alpha}  }{\to} E(c_1)\vert_{V_\alpha} \right\}_{\alpha \in A}$
 and $\left\{ V_\alpha \times k^n \underoverset{\simeq}{\psi'_{\phi'(\alpha)}\vert_{V_\alpha}  }{\to} E(c_2)\vert_{V_\alpha} \right\}_{\alpha \in A}$
 be the corresponding restrictions of the canonical local trivilizations of the two glued bundles.
 
-For $\alpha \in A$ define 
+For $\alpha \in A$ define
 
 $$
   f_\alpha \coloneqq \psi'_{\phi'(\alpha)}\vert_{V_\alpha}  \circ \kappa_\alpha \circ (\psi_{\phi(\alpha)}\vert_{V_\alpha}  )^{-1}
@@ -1015,13 +1015,13 @@ $$
     \\
     V_\alpha \times k^n
      &\overset{ (\psi'_{\phi'(\alpha)}\vert_{V_\alpha})^{-1} }{\longleftarrow}&
-    E(c_1)\vert_{V_\alpha}    
+    E(c_1)\vert_{V_\alpha}
   }
   \,.
 $$
 
-Observe that for $\alpha, \beta \in A$ and $x \in V_\alpha \cap V_\beta$ the coboundary condition 
-implies that 
+Observe that for $\alpha, \beta \in A$ and $x \in V_\alpha \cap V_\beta$ the coboundary condition
+implies that
 
 $$
   f_\alpha\vert_{V_\alpha \cap V_\beta}
@@ -1065,7 +1065,7 @@ $$
  }
 $$
 
-the vertical morphism in the middle on the right is unique, by the fact that all other 
+the vertical morphism in the middle on the right is unique, by the fact that all other
 morphisms in the diagram on the right are invertible.
 
 Therefore there is a unique vector bundle homomorphism
@@ -1074,14 +1074,14 @@ $$
   f\;\colon\; E(c_1) \to E(c_2)
 $$
 
-given for all $\alpha \in A$ by $f\vert_{V_\alpha} = f_\alpha$. Similarly there is a unique vector bundle 
+given for all $\alpha \in A$ by $f\vert_{V_\alpha} = f_\alpha$. Similarly there is a unique vector bundle
 homomorphism
 
 $$
   f^{-1}\;\colon\; E(c_2) \to E(c_1)
 $$
 
-given for all $\alpha \in A$ by $f^{-1}\vert_{V_\alpha} = f^{-1}_\alpha$. 
+given for all $\alpha \in A$ by $f^{-1}\vert_{V_\alpha} = f^{-1}_\alpha$.
 Hence this is the required vector bundle isomorphism.
 
 Finally to see that the function from Cech cohomology classes to isomorphism classes of vector
@@ -1183,7 +1183,7 @@ for any $\epsilon \in (0,2\pi/6)$.
 Define a [[Cech cohomology]] cocycle (remark \ref{CechCoycleCondition}) on this cover by
 
 $$
-  g_{n_1 n_2} = 
+  g_{n_1 n_2} =
   \left\{
     \array{
       const_{-1} & \vert & (n_1,n_2) = (0,2)
@@ -1199,7 +1199,7 @@ $$
 <img src="https://ncatlab.org/nlab/files/moebiusstrip.jpg" width="200">
 </div>
 
-Since there are no non-trivial triple intersections, all cocycle conditions are 
+Since there are no non-trivial triple intersections, all cocycle conditions are
 evidently satisfied.
 
 Accordingly by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
@@ -1532,7 +1532,7 @@ This unique function is clearly $f^{-1}$ (by pointwise inspection) and therefore
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #FiberwiseLinearlyIndependentSectionsTrivialize}
 ###### Example
 **(fiberwise linearly independent sections trivialize a vector bundle)**
 
@@ -2094,6 +2094,39 @@ do not see the difference between the reduced and the unreduced spaces, by prop.
 
 =--
 
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $X$ be a [[coompact Hausdorff space]] and $A \subset X$ a [[closed subset|closed]] [[subspace]].
+Let $E_i \overset{p_i}{\to} X$ be two topological vector bundles over $X$, $i \in \{1,2\}$.
+
+If there exists an [[isomorphsm]]
+
+$$
+  E_1\vert_A &\overset{\simeq}{\longrightarrow}& E_2\vert_A
+$$
+
+of the restricted vector bundles over $A$, then there also exists an [[open subset]] $U \subset X$
+with $A \subset U$ such that there is also an isomorphism
+
+$$
+  E_1\vert_U &\overset{\simeq}{\longrightarrow}& E_2\vert_U
+$$
+
+of the vector bundles restricted to $U$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A bundle isomorphism $E_1\vert_A \simeq E_2\vert_A$ is equivalently a trivialization of the 
+[[tensor product of vector bundles]] of $E_2\vert A$ with with the [[dual vector bundle]] $(E_2\vert_A)^\ast$.
+spring
+
+
+=--
 
 
 ## Related concepts
