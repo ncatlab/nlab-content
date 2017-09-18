@@ -627,6 +627,23 @@ Since all objects are in the [[inverse image]] $f\colon \mathbf{H} \to PDE(\math
 As such, the left hand side of the equality is given in $\mathbf{H}$ by the composite morphism
 
 $$
+  \Sigma
+  \stackrel{\simeq}{\to}
+  Jet(\Sigma)
+   \stackrel{Jet(\sigma)}{\longrightarrow}
+  Jet(F)
+  \stackrel{}{\to}
+  Jet(Jet(F))
+  \stackrel{Jet(\tilde \alpha)}{\longrightarrow}
+  Jet(\iota \mathbf{A})
+  \stackrel{\tilde d}{\longrightarrow}
+  \iota \mathbf{A}'
+  \,,
+$$
+
+thought of as bracketed to the right. By [[natural transformation|naturality]] of the Jet-counit this is equivalently
+
+$$
   Jet(\Sigma) \stackrel{\simeq}{\to} Jet(Jet(\Sigma))
   \stackrel{Jet(Jet(\sigma))}{\longrightarrow}
   Jet(Jet(F))
@@ -637,7 +654,8 @@ $$
   \,,
 $$
 
-thought of as bracketed to the right. By functorality of $Jet(-)$ this is equivalent to
+
+By functorality of $Jet(-)$ this is equivalent to
 
 $$
   Jet(\Sigma) \stackrel{Jet ( \alpha \circ Jet(\sigma) )}{\longrightarrow}
