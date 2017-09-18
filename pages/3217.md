@@ -116,7 +116,7 @@ This is called the **[[Haefliger cocycle]]** of the foliation atlas.
 +-- {: .num_defn #AsIntegrableDistribution}
 ###### Definition
 
-A smooth foliation of a [[smooth manifold]] $X$ is equivalently an [[integrable distribution]] $E \hookrightarrow T X$.
+A smooth foliation of a [[smooth manifold]] $X$ is equivalently an [[integrable distribution]] (or an integrable subbundle) $E \hookrightarrow T X$.
 
 =--
 
