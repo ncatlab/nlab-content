@@ -34,7 +34,35 @@ The **quotient topology**, or **identification topology**, induced on $Y$ from $
 
 Obviously, up to [[homeomorphism]], all that matters is the surjective function $X\to Y$.  For the above definition, we don't even need it to be surjective, and we could generalize to a [[sink]] instead of a single map; in such a case one generally says *[[final topology]]* or *[[strong topology]]*.  See [[topological concrete category]]. 
 
-**Remarks:** 
+
+### In $Loc$
+
+A quotient space in $Loc$ is given by a [[regular subobject]] in [[Frm]].
+
+(More details needed.)
+
+## Properties
+
++-- {: .num_defn #SubsetSaturated}
+###### Definition
+**([[saturated subset]])**
+
+Let $f \;\colon\; X \longrightarrow Y$ be a [[function]] of [[sets]]. 
+Then a [[subset]] $S \subset S$ is called an _$f$-[[saturated subset]]_ (or just _separated subset_, if $f$ is understood)
+if $S$ is the [[pre-image]] of its [[image]]:
+
+$$
+  \left(S \subset X \,\, f\text{-saturated} \right)
+    \,\Leftrightarrow\,
+  \left(
+    S = f^{-1}(f(S))
+  \right)
+  \,.
+$$
+
+=--
+
+## Properties
 
 1. Recall that a map $q \colon X \to Y$ is [[open map|open]] if $q(U)$ is open in $Y$ whenever $U$ is open in $X$. It is not the case that a quotient map $q \colon X \to Y$ is necessarily open. Indeed, the identification map $q \colon I \sqcup \{\ast\} \to S^1$, where the endpoints of $I$ are identified with $\ast$, takes the open point $\ast$ of the domain to a non-open point in $S^1$. 
 
@@ -42,11 +70,25 @@ Obviously, up to [[homeomorphism]], all that matters is the surjective function 
 
 1. It is easy to prove that a continuous open surjection $p \colon X \to Y$ is a quotient map. For instance, projection maps $\pi \colon X \times Y \to Y$ are quotient maps, provided that $X$ is inhabited. Likewise, a continuous closed surjection $p: X \to Y$ is a quotient map: $p^{-1}(U)$ is open $\Rightarrow$ $p^{-1}(\neg U)$ is closed $\Rightarrow$ $p(p^{-1}(\neg U)) = \neg U$ is closed $\Rightarrow$ $U$ is open. For example, a continuous surjection from a compact space to a Hausdorff space is a quotient map. 
 
-### In $Loc$
 
-A quotient space in $Loc$ is given by a [[regular subobject]] in [[Frm]].
++-- {: .num_prop #DetectViaSaturatedSubsetsContinuousQuotientMap}
+###### Proposition
 
-(More details needed.)
+A [[continuous function]]
+
+$$
+  f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)
+$$
+
+whose underlying function $f \colon X \longrightarrow Y$ is [[surjective function|surjective]]
+exhibits $\tau_Y$ as the corresponding [[quotient topological space|quotient topology]]
+precisely if $f$ sends open and $f$-[[saturated subsets]] in $X$ (def. \ref{SubsetSaturated}) to open subsets of $Y$.
+By lemma \ref{ComplementOfSaturatedSubsetIsSaturated} this is the case precisely if it sends
+closed and $f$-saturated subsets to closed subsets.
+
+=--
+
+
 
 
 ## Related pages
