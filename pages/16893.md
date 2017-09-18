@@ -37,7 +37,7 @@ A natural very small set of constraints for a relaxed approach to the homotopy t
 
 * Having a metric ring sphere spectrum $S$ such that $\pi_0(\mathbb{S})=(\mathbb{Z},|\cdot|_\infty)$.
 
-* Having a natural action of $\mathbb{R}_+^*$ on the homotopy category (this is not contradictory with the previous constraint: one actually needs a family of sphere ring spectra, or its limit, that would have $\pi_0(\mathbb{S})=(\mathbb{Z},|\cdot|_\infty^\infty)$ in the sense of pro-objects.
+* Having a natural action of $\mathbb{R}_+^*$ on the homotopy category (this is not contradictory with the previous constraint: one actually needs a family of sphere ring spectra, or its limit, that would have $\pi_0(\mathbb{S})=(\mathbb{Z},|\cdot|_\infty^\infty)$, in the sense of pro-objects).
 
 * Getting back the homotopy theory of spectral Banach modules when one works over a fixed base Banach ring.
 
@@ -47,6 +47,10 @@ A natural very small set of constraints for a relaxed approach to the homotopy t
 
 One would like to be able to define "de Rham-like coefficients" over arbitrary global analytic spaces, even in mixed characteristic. One may hope that topological coefficients (such as topological cyclic homology and topological derived de Rham/Andr\'e-Quillen cohomology) may be a first step in this very optimistic direction.
 Indeed, they seem to take care of something like Buium's differential calculus along the integers, and also of Witt vectors constructions.
+
+## Constructions
+
+To develop a homotopy theory for metric spaces, we first need a category of metric spaces that has all limits and colimits. One may then develop the associated stable homotopy theory by the usual methods.
 
 ## References
 
