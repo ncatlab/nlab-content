@@ -17,10 +17,12 @@
 
 __Intuitionistic logic__ was introduced by [[Arend Heyting]] as a [[logic]] for [[Brouwer]]\'s [[intuitionistic mathematics]].  It applies more generally to [[constructive mathematics]] and so may also be called __constructive logic__.
 
+Beware the terminological ambiguity: Some people insist that "intuitionistic logic" refers to Brouwerian intuitionism, which includes axioms that contradict classical logic; but other people use "intuitionistic" to mean the same as what in other contexts is called "constructive", i.e. mathematics without the [[principle of excluded middle]] or the [[axiom of choice]] but nothing added that contradicts them.  Some people (particularly material set theorists) use "constructive" to mean *predicative* constructive and "intuitionistic" to mean impredicative constructive.
+
 
 ## Definition
 
-Intuitionistic logic is most easily described as [[classical logic]] without the principle of the [[excluded middle]] ($\vdash A \vee \neg{A}$) or the [[double-negation]] rule ($\neg\neg{A} \vdash A$).  It may also be defined by starting with Gentzen\'s [[sequent calculus]] for classical logic (with $\neg$ but not $\bot$) and restricting to sequents $\Gamma \vdash \Delta$ where $\Delta$ may contain *at most one* formula, or by starting with sequent calculus with $\bot$ and restricting to such sequents where $\Delta$ must contain *exactly one* formula.
+Intuitionistic logic is most easily described as [[classical logic]] without the [[principle of excluded middle]] ($\vdash A \vee \neg{A}$) or the [[double-negation]] rule ($\neg\neg{A} \vdash A$).  It may also be defined by starting with Gentzen\'s [[sequent calculus]] for classical logic (with $\neg$ but not $\bot$) and restricting to sequents $\Gamma \vdash \Delta$ where $\Delta$ may contain *at most one* formula, or by starting with sequent calculus with $\bot$ and restricting to such sequents where $\Delta$ must contain *exactly one* formula.
 
 
 ## Properties
