@@ -593,7 +593,7 @@ where $C_{k+1} \coloneqq hocofib(i_k)$.
 +-- {: .num_remark}
 ###### Remark
 
-In ([Ravenel 86](#Ravenel86)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
+In ([Ravenel 86](#Ravenel86)) it is the associated inverse sequence that is called an $E$-Adams resolution.
 
 =--
 
@@ -756,7 +756,7 @@ Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corre
 =--
 
 
-#### The first page and Hopf algebroids
+#### The first page
 
 Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}, 
 for understanding the $\mathcal{E}_2$-page of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, 
@@ -896,6 +896,7 @@ $$
 
 =--
 
+##### Commutative Hopf algebroids
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
@@ -990,7 +991,7 @@ Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid},
 
 An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
 
-Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a commutative [[Hopf algebra]] $\Gamma$ over $A$.
+Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a commutative **[[Hopf algebra]]** $\Gamma$ over $A$.
 
 =--
 
@@ -1043,6 +1044,8 @@ such that
    
 =--
 
+##### Comodules and cotensor product
+
 +-- {: .num_defn #HopfComoduleRing}
 ###### Definition
 
@@ -1092,7 +1095,10 @@ Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, there is a [[free-forg
 
 $$
   \Gamma CoMod
-   \stackrel{\overset{co-free}{\longleftarrow}}{\underset{forget}{\longrightarrow}}
+    \underoverset
+      {\underset{forget}{\longrightarrow}}
+      {\overset{co-free}{\longleftarrow}}
+      {\Bot}
   A Mod
 $$
 
@@ -1101,6 +1107,134 @@ between the [[category]] of $\Gamma$-[[comodules]], def. \ref{CommutativeHopfAlg
 The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
 
 =--
+
++-- {: .num_prop #LeftComodulesToRightComodules}
+###### Proposition
+
+Consider a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}.
+Any left comodule $N$ over $\Gamma$ (def. \ref{CommutativeHopfAlgebroidComodule}) becomes a right comodule via the coaction
+
+$$
+  N
+    \overset{\Psi}{\longrightarrow}
+  \Gamma \otimes_A N
+    \overset{\simeq}{\longrightarrow}
+  N \otimes_A \Gamma
+    \overset{id \otimes_A c}{\longrightarrow}
+  N \otimes_A \Gamma
+  \,,
+$$
+
+where the isomorphism in the middle the is [[braiding]] in $A Mod$ and where $c$ is the conjugation map of $\Gamma$.
+
+Dually, a right comodule $N$ becoomes a left comodule with the coaction
+
+$$
+  N
+    \overset{\Psi}{\longrightarrow}
+  N \otimes_A \Gamma
+    \overset{\simeq}{\longrightarrow}
+  \Gamma \otimes_A N
+    \overset{c \otimes_A id}{\longrightarrow}
+  \Gamma \otimes_A N
+  \,.
+$$
+
+
+
+=--
+
+
++-- {: .num_defn #CotensorProductOfComodules}
+###### Definition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+and given $N_1$ a right $\Gamma$-comodule and $N_2$ a left comodule (def. \ref{CommutativeHopfAlgebroidComodule}), then their **[[cotensor product]]** $N_1 \Box_\Gamma N_2$ is the [[kernel]] of the difference of the two coaction morphisms:
+
+$$
+  N_1 \Box_\Gamma N_2
+    \;\coloneqq\;
+  ker
+  \left(
+    N_1 \otimes_A N_2
+    \overset{\Psi_{N_1}\otimes_{A} id - id \otimes_A \Psi_{N_2} }{\longrightarrow}
+  \right)
+  \,.
+$$
+
+If both $N_1$ and $N_2$ are left comodules, then their cotensor product is the cotensor product of $N_2$ with $N_1$ regarded as a right comodule via prop. \ref{LeftComodulesToRightComodules}.
+
+=--
+
+e.g. ([Ravenel 86, def. A1.1.4](#Ravenel86)).
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+and given $N_1, N_2$ two left $\Gamma$-comodules (def. \ref{CommutativeHopfAlgebroidComodule}), then their [[cotensor product]] (def. \ref{CotensorProductOfComodules}) is commutative, in that there is an [[isomorphism]]
+
+$$
+  N_1 \Box N_2 \;\simeq\; N_2 \Box N_1
+  \,.
+$$
+
+=--
+
+(e.g. [Ravenel 86, prop. A1.1.5](#Ravenel86)) 
+
++-- {: .num_lemma #ComoduleHomInTermsOfCotensorProduct}
+###### Lemma
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+and given $N_1, N_2$ two left $\Gamma$-comodules (def. \ref{CommutativeHopfAlgebroidComodule}), such that $N_1$ is [[projective module|projective]] as an $A$-[[module]], then
+
+1. The morphism
+
+   $$
+      Hom_A(N_1, A)
+       \overset{f \mapsto (id \otimes_A f) \circ \Psi_{N_1}}{\longrightarrow}
+      Hom_A(N_1, \Gamma \otimes_A A)
+       \simeq
+      Hom_A(N_1, \Gamma)
+       \simeq
+      Hom_A(N_1, A) \otimes_A \Gamma
+   $$
+ 
+   gives $Hom_A(N_1,A)$ the structure of a right $\Gamma$-comodule;
+
+1. The [[cotensor product]] (def. \ref{CotensorProductOfComodules}) with respect to this right comodule structure is isomorphic to the hom of $\Gamma$-comodules:
+
+   $$
+     Hom_A(N_1, A) \Box_\Gamma N_2
+     \simeq
+     Hom_\Gamma(N_1, N_2)
+     \,.
+   $$
+
+   Hence in particular
+
+   $$
+     A \Box_\Gamma N_2 
+      \;\simeq\;
+     Hom_\Gamma(A,N_2)
+   $$
+
+=--
+
+(e.g. [Ravenel 86, lemma A1.1.6](#Ravenel86))
+
++-- {: .num_remark}
+###### Remark
+
+In computing the second page of $E$-[[Adams spectral sequences]], the second statement in lemma \ref{ComoduleHomInTermsOfCotensorProduct} is the key translation that makes the comodule [[Ext]]-groups on the page be equivalent to a [[Cotor]]-groups. The latter lend themselves to computation, for instance via [[Lambda-algebra]] or via the [[May spectral sequence]].
+
+=--
+
+
+
+
+##### The Hopf algebroid of dual $E$-Steenrod operations
 
 
 Now we identify the [[commutative Hopf algebroids]] arising in the $E$-Adams spectral sequence:
@@ -1230,14 +1364,14 @@ is an [[isomorphism]].
 
 =--
 
-This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)).
+This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and see at _[Kronecker pairing -- Universal coefficient theorem](Kronecker+pairing#UniversalCoefficientTheorem)_.
 
 With this we finally get the following statement, which serves to identity maps of certain spectra with their induced maps on $E$-homology:
 
 +-- {: .num_prop}
 ###### Proposition
 
-If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} in the form
+If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} of the form
 
 $$
  \pi_\bullet(E\wedge (-))
@@ -1299,7 +1433,7 @@ In conclusion:
 +-- {: .num_prop #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
 ###### Proposition
 
-For $X, Y$ [[spectra]], and for $E$ a [[commutative ring spectrum]] from the list in example \ref{ExamplesOfFlatRingSpectra}, then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$, induced by of the standard $E$-Adams resolution for $X$, example \ref{StandardEResolution}, is of the form
+For $X, Y$ [[spectra]], and for $E$ a [[commutative ring spectrum]] from the list in example \ref{ExamplesOfFlatRingSpectra}, then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$, induced by the standard $E$-[[Adams resolution]] for $X$ from example \ref{StandardEResolution}, is of the form
 
 $$
   0 
@@ -1325,8 +1459,7 @@ $$
 The next step is to identify the chain homology of this $d_1$ with the comodule [[Ext]]-groups.
 
 
-
-#### The second page and homological co-algebra
+#### The second page 
  {#TheE2TermOfTheEAdamsSpectralSequence}
 
  
@@ -1340,7 +1473,16 @@ $$
   \mathcal{E}^{s,t}_2
     \simeq
   Ext^{s,t}_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(X))
-  \,,
+  \,.
+$$
+
+In the special case that $Y = \mathbb{S}$, then (by prop. \ref{ComoduleHomInTermsOfCotensorProduct}) these are equivalently [[Cotor]]-groups
+
+$$
+  \mathcal{E}^{s,t}_2
+    \simeq
+  Cotor^{s,t}_{E_\bullet(E)}(\pi_\bullet(E), E_\bullet(X))
+  \,.
 $$
 
 
@@ -1360,6 +1502,7 @@ These two statements are prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebr
 
 =--
 
+##### Homological co-algebra
 
 We now discuss the relevant general aspects of [[homological algebra]] in [[categories]] of [[comodules]] over [[commutative Hopf algebroids]] needed for the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence} from prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}.
 
@@ -1548,6 +1691,10 @@ For the general theory we follow
 as worked out in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
+
+The homological algebra of comodules over Hopf algebroids is discussed in appendix A of
+
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986/2003
 
 For the special case of the [[classical Adams spectral sequence]] and the [[Adams-Novikov spectral sequence]] we follow
 
