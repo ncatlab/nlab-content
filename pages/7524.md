@@ -43,7 +43,7 @@ Note that $HGrph$ is just the [[category of presheaves]] over the "[[walking str
 
 ## Hypergraphs from a topos-theoretic perspective
 
-In Lawvere ([1986](#Law86) p.6, [1989](#Law89) pp.283-4) it is pointed out that $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is a spatial topos since it is equivalent to the topos of sheaves on the space $X=\{a,b,c\}$ with topology $\tau=\{\emptyset,\{a\},\{b\},\{a,b\},\{a,b,c\}\}$ i.e. $X$ has two isolated points $a,b$ and a [[focal point|focal]] one $c$ whose only neighborhood is the whole space.
+In Lawvere ([1986](#Law86) p.6, [1989](#Law89) pp.283-4) it is pointed out that $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is a [[spatial topos]] since it is equivalent to the topos of sheaves on the space $X=\{a,b,c\}$ with topology $\tau=\{\emptyset,\{a\},\{b\},\{a,b\},\{a,b,c\}\}$ i.e. $X$ has two isolated points $a,b$ and a [[focal point|focal]] one $c$ whose only neighborhood is the whole space.
 
 The [[lattice of subtoposes]] of $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ consists (besides the two obvious subtoposes) of one [[closed subtopos|closed]] and two [[open subtopos|open]] copies of $Set$, two closed copies of the [[Sierpinski topos]] complementing the open copies of $Set$ respectively and an open $Set\times Set=Sh(\{a,b\})=Sh_{\neg\neg}(Set^{\bullet\leftarrow\bullet\rightarrow\bullet})$ complementing the closed copy of $Set$. In particular, $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is a [[scattered topos]].
 
