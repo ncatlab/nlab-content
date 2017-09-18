@@ -43,6 +43,7 @@ $$i_*(A_1 \to A_0) =  A_1 \to A_0 \to A_0$$
 $$ i^!(A_2 \to A_1 \to A_0) = A_2 \to A_1$$
 
 This gives us elementary characterizations of the various subcategories of $Sh(\mathbf{3})$ involved in differential cohesion:
+
 * The [[reduced object|reduced objects]] are the image of $i_!$: so they have the same real and infinitesimal points.
 * The [[coreduced object|coreduced objects]] are the image of $i_*$: pieces all consist of exactly one infinitesimal point.
 
