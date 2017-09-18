@@ -683,6 +683,14 @@ $$
   \,.
 $$
 
+Equivalently, under the identification 
+
+$$
+  \mathbb{S}_{dia} Mod \simeq [\mathbb{S}_{dia} FreeMod^{op}, Top^{\ast/}]
+$$
+
+of lemma \ref{SModulesAsEnrichedFunctors}, the strict model structure is the projective [[model structure on enriched functors]] ([Piacenza 91](#Piacenza91)).
+
 =--
 
 ([MMSS 00, def. 6.1](#MMSS00))
