@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
-#### Group Theoryb
+#### Group Theoryc
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
@@ -41,7 +41,7 @@ A _topological group_ is
 
    1. $(-)\cdot (-) \;\colon\; G \times G \to G$,
 
-   1. an function $(-)^{-1} \;\colon\; G \to G$ such that $g \cdot g^{-1} = e = g^{-1} \cdot g$ for all $g \in G$;
+   1. a function $(-)^{-1} \;\colon\; G \to G$ such that $g \cdot g^{-1} = e = g^{-1} \cdot g$ for all $g \in G$;
 
 1. a topology $\tau_G \subset P(G)$ giving $G$ the structure of a [[topological space]]
 
@@ -73,11 +73,11 @@ The set of $H$-[[cosets]] is a [[cover]] of $G$ by [[disjoint subsets|disjoint]]
 
 +-- {: .num_prop #ConnectedLocallyCompactTopologicalGroupsAreSigmaCompact}
 ###### Proposition
-**(connected locally compact topological groups are sigma-compact)**
+**([[connected topological space|connected]] [[locally compact topological space|locally compact]] [[topological groups]] are [[sigma-compact topological space|sigma-compact]])**
 
 Every [[connected topological space|connected]] [[locally compact topological space|locally compact]] topological group is [[sigma-compact topological space|sigma-compact]].
 
-Hence every [[locally connected topological group|locally connected]] topological group is [[paracompact topological space|paracompact]].
+Hence every [[locally connected topological space|locally connected]] [[locally compact topological space|locally compact]] topological group is [[paracompact topological space|paracompact]].
 
 =--
 
@@ -113,7 +113,7 @@ $$
 
 But every open subgroup of a topological group is also closed by lemma \ref{OpenSubgroupOfTopologicalGroupIsClosed}. Hence $H \subset G$ is therefore [[clopen subset]] which is [[inhabited]] (it contains at least the neutral element $e \in G$). By the assumption that $G$ is [[connected topological space|connected]], this means that $H = G$.
 
-Finally observe that each $C_e^n$ is compact. This is because $\underset{k \in \{1, \cdots, n\}}{\prod}C_e$ is compact by the [[Tychonoff theorem]], and since [[continuous images of compact spaces spaces are compact]]. In conclusion we have exhibited
+Finally observe that each $C_e^n$ is compact. This is because $\underset{k \in \{1, \cdots, n\}}{\prod}C_e$ is compact by the [[Tychonoff theorem]], and since [[continuous images of compact spaces are compact]]. In conclusion we have exhibited
 
 $$
   G = \underset{n \in \mathbb{N}}{\cup} C_e^n
