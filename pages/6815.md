@@ -41,6 +41,9 @@ Under [[Kaluza-Klein mechanism|reduction]] to [[type II supergravity]] the M2 an
 
 ## References
 
+* {#Duff99} [[Mike Duff]], _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
+
 See also the references at _[[M-theory]]_ and those at the separate M-brane entries.
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, 2010
