@@ -5,9 +5,9 @@ A former student of [[Alfred Tarski]] he has also coauthored a biography of Tars
 
 He has accompanied the development of categorical foundations of mathematics with a series of critical papers over a period of 30 years.
 
-* [wikipedia entry](en.wikipedia.org/wiki/Solomon_Feferman)
+* [wikipedia entry](http://en.wikipedia.org/wiki/Solomon_Feferman)
 
-* [homepage](math.stanford.edu/~feferman/)
+* [homepage](http://math.stanford.edu/~feferman/)
 
 * [list of publications](http://math.stanford.edu/~feferman/papers.html)
 
