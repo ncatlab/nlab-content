@@ -26,9 +26,9 @@ The basic definition of a [[manifold]] (especially a [[smooth manifold]]) is as 
 
 See specific versions:
 
-* [[Banach manifold]]
-
 * [[Hilbert manifold]]
+
+* [[Banach manifold]]
 
 * [[ILH manifold]]
 
