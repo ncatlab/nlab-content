@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
 #Contents#
 * table of contents
 {:toc}
@@ -37,9 +46,11 @@ Surveys include
 * [[Shinichi Mochizuki]], _Panoramic overview of inter-universal Teichmuller theory_, [pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Panoramic%20Overview%20of%20Inter-universal%20Teichmuller%20Theory.pdf)
 
 
-* Yamashita, _FAQ on 'Inter-Universality'_ ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/FAQ%20on%20Inter-Universality.pdf))
- {#Yamashita13}
+* {#Yamashita13} Yamashita, _FAQ on 'Inter-Universality'_ ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/FAQ%20on%20Inter-Universality.pdf))
+ 
 
-* [[Ivan Fesenko]], _Arithmetic deformation theory via arithmetic fundamental groups and nonarchimedean theta functions_ ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/notesoniut.pdf))
+* {#Fesenko15} [[Ivan Fesenko]], _Arithmetic deformation theory via arithmetic fundamental groups and nonarchimedean theta functions_, 2015 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/notesoniut.pdf))
 
 [[!redirects IUTT]]
+
+[[!redirects inter-universal Teichmueller theory]]
