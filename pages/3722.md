@@ -160,6 +160,8 @@ The other direction is harder.
 
 ## Related concepts
 
+* [[closed point]]
+
 * [[open subset]]
 
 * [[clopen subset]]
