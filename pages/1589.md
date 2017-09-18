@@ -10,7 +10,7 @@ This entry collects material on the June 2009 workshop on [[string theory|string
 
 Writeups of most of the talks have appeared as 
 
-* _Strings, Field, Topology_,  Oberwolfach report No 28, 2009, [pdf](http://www.mfo.de/programme/schedule/2009/24/OWR_2009_28.pdf)
+* _Strings, Field, Topology_,  Oberwolfach report No 28, 2009, ([pdf](https://www.mfo.de/document/0924/OWR_2009_28.pdf))
 
 
 # Talks 
