@@ -345,6 +345,7 @@ $$
   Hom_{\mathcal{C}}(X,C) \simeq \mathcal{C}_{/C} \times_{\mathcal{C}} \{X\}
 $$
 
+
 and
 
 $$
@@ -708,7 +709,7 @@ $$
  {#MayerVietoris}
 
 
-A **[[Mayer-Vietoris sequence]]** is a fiber sequence obtained from an $(\infty,1)$-pullback diagram of [[pointed objects]]:
+A **[[Mayer-Vietoris sequence]]**  is a fiber sequence obtained from an $(\infty,1)$-pullback diagram of [[pointed objects]]:
 
 if 
 
@@ -729,7 +730,7 @@ $$
   \,.
 $$
 
-This -- or its associated [[long exact sequence of homotopy groups]] -- is called the [[Mayer-Vietoris sequence]] of the pullback.
+This -- or its associated [[long exact sequence of homotopy groups]] -- is called the _[[Mayer-Vietoris sequence]]_ of the pullback. See there for details.
 
 #### Of a cover
 
