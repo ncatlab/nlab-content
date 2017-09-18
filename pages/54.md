@@ -187,6 +187,8 @@ I am writing an irregular column at [PhysicsForums Insights](https://www.physics
 
 * _[Why Higher Category Theory in Physics?](https://www.physicsforums.com/insights/higher-category-theory-physics/)_
 
+* _[Super p-Brane Theory from Super Homotopy Theory](http://www.physicsforums.com/insights/super-p-brane-theory-emerging-super-homotopy-theory/)_
+
 ## more on the web
 
 For logs of further activity see my page
