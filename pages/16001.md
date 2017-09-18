@@ -107,7 +107,28 @@ An^{\dagger,s}_{(\mathbb{Z},|\cdot|_\infty)}
 $$
 is an equivalence of categories.
 
+## Adelic description of principal $\GL_n$-bundles
 
+An $F$-rig category is a rig category whose objects are all isomorphic
+to objects of the form $\mathbb{1}^{\oplus n}$ for $n\in \N$, with
+the convention that $\mathbb{1}^{\oplus 0}:=0$.
+
+Let $\GL_n$ be the functor on rig categories that sends
+$(\mathcal{A},\oplus,\otimes)$ to
+$$\GL_n(\mathcal{A}):=\Isom_\mathcal{A}(\mathbb{1}^{\oplus n},\mathbb{1}^{\oplus n}).$$
+A principal $\GL_n$-bundle on a generalized analytic space $X$ is a space
+$F\to X$ that is isomorphic, locally on $X$, to the space $\GL_n$.
+One may actually define an $\infty$-stack $B\GL_n$ by sheafifying the nerve
+of the groupoid $B\GL_n$.
+
+We denote $\Bun_n(\cdot):=\Hom_{St}(\cdot,B\GL_n)$
+the $\infty$-stack of $\GL_n$-bundles on generalized analytic spaces.
+
+By construction, we will have
+$$
+\pi_0(\Bun_n(\overline{\mathcal{M}(\mathbb{Z})}))\cong \GL_n(\mathbb{Q})\backslash\GL_n(\mathbb{A})/K,
+$$
+where $K$ is the maximal compact subgroup of the adelic group.
 ## References
 
 [[Frédéric Paugam]] _Analytic spectrum of rig categories_ [TAC](http://www.tac.mta.ca/tac/volumes/29/6/29-06abs.html)
