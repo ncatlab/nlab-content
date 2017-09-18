@@ -128,7 +128,7 @@ where the [[action]] of the [[product group]] is via its canonical embedding $O(
 +-- {: .num_prop #ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}
 ###### Proposition
 
-For all $n \leq k \in \mathbb{N}$, the canonical [[projection]] from the [[Stiefel manifold]] (def. \ref{StiefelManifold}) to the [[Grassmmannian]] is a $O(n)$-[[principal bundle]]
+For all $n \leq k \in \mathbb{N}$, the canonical [[projection]] from the [[Stiefel manifold]] (def. \ref{StiefelManifold}) to the [[Grassmannian]] is a $O(n)$-[[principal bundle]]
 
 $$
   \array{
@@ -148,14 +148,14 @@ By ([this cor.](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) and [t
 +-- {: .num_defn #EOn}
 ###### Definition
 
-By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions $Gr_n(\mathbb{R}^k) \hookrightarrow Gr_n(\mathbb{R}^{k+1})$. The [[colimit]] (in [[Top]], see there) over these inclusions is denoted
+By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions $Gr_n(\mathbb{R}^k) \hookrightarrow Gr_n(\mathbb{R}^{k+1})$. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions)) over these inclusions is denoted
 
 $$
   B O(n) \coloneqq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
   \,.
 $$
 
-By def. \ref{StiefelManifold} there are canonical inclusions $V_n(k) \hookrightarrow V_n(k+1)$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see there) over these inclusions, regarded as equipped with the induced $O(n)$-[[action]], is denoted
+By def. \ref{StiefelManifold} there are canonical inclusions $V_n(k) \hookrightarrow V_n(k+1)$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions)) over these inclusions, regarded as equipped with the induced $O(n)$-[[action]], is denoted
 
 $$
   E O(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(\mathbb{R}^k)
@@ -192,7 +192,7 @@ $$
 
 =--
 
-Since the [[Cartesian product]] $O(n)\times (-)$ in [[compactly generated topological spaces]] preserves colimits, it follows that colimiting bundle is still an $O(n)$-[[principal bundle]]
+Since the [[Cartesian product]] $O(n)\times (-)$ in [[compactly generated topological spaces]] preserves colimits, it follows that the colimiting bundle is still an $O(n)$-[[principal bundle]]
 
 $$
   \begin{aligned} 
