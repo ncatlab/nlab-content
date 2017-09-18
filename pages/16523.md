@@ -39,10 +39,18 @@ A [[super Lie algebra]] which is a [polyvector](super+Poincare+Lie+algebra#Polyv
 
 ## References
 
+The original articles include
+
 * [[Paul Townsend]], _$p$-Brane Democracy_ ([arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048))
 
 * [[Chris Hull]], section 2 of _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
+Detailed derivation from [[conserved currents]] of the [[Green-Schwarz super p-brane sigma models]] for the D-branes is in
+
+* Hanno Hammer, _Topological Extensions of Noether Charge Algebras carried by D-p-branes_, Nucl.Phys. B521 (1998) 503-546 ([arXiv:hep-th/9711009](http://arxiv.org/abs/hep-th/9711009))
+
+See also
+
 * Tatsuya Ueno, _BPS States in 10+2 Dimensions_, JHEP 0012:006,2000 ([arXiv:hep-th/9909007](http://arxiv.org/abs/hep-th/9909007))
 
-
+[[!redirects type II supersymmetry algebras]]
