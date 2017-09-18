@@ -53,6 +53,8 @@ The collection of all probability distributions on a measurable space carries va
 
 * [[positive-operator valued probability measure]]
 
+* [[density of a subset]]
+
 [[!redirects probability distribution]]
 [[!redirects probability distributions]]
 [[!redirects probability measure]]
