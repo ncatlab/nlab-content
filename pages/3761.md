@@ -105,8 +105,9 @@ Slightly different definitions of these various structures can be found in the f
 
 * [[Chris Schommer-Pries]], in his [Ph. D. thesis](http://sites.google.com/site/chrisschommerpriesmath/Home/Schommer-Pries-Thesis.pdf), gave the full definition of braided, sylleptic, and symmetric monoidal bicategories and also assembled them into a [[tricategory]].
 
-* [[Nick Gurski]], in "Loop spaces, and coherence for monoidal and braided monoidal bicategories" [arXiv](http://arxiv.org/abs/1102.0981), proved a strictification theorem relating all these definitions, along with a coherence theorem for the braided case (but not yet the sylleptic or symmetric ones).
+* [[Nick Gurski]], in "Loop spaces, and coherence for monoidal and braided monoidal bicategories" [arXiv](http://arxiv.org/abs/1102.0981), proved a strictification theorem relating all these definitions, along with a coherence theorem for the braided case.
 
+* [[Nick Gurski]] and [[Angelica Osorno]], in "Infinite loop spaces, and coherence for symmetric monoidal bicategories" [arXiv](http://arxiv.org/abs/1210.1174), proved a coherence and strictification theorem for the symmetric case (but the sylleptic case is perhaps still open).
 
 [[!redirects Gray monoid]]
 [[!redirects Gray-monoid]]
