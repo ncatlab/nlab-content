@@ -15,7 +15,7 @@
 
 The [[group cohomology]] of the binary icosahedral group $SL_2(\mathbb{F}_5)$ with integer coefficients in concentrated in degrees $4k$, $k \in \mathbb{N}$.
 
-### Appearabce in the ADE pattern
+### Appearance in the ADE pattern
 
 [[!include ADE -- table]]
 
