@@ -388,6 +388,8 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Out of print math](http://outofprintmath.blogspot.com)
 
+* [Wild About Math](http://wildaboutmath.com/)
+
 * [Sage: Open Source Mathematical Software](http://sagemath.blogspot.com)
 
 * [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
