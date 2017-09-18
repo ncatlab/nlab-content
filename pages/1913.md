@@ -288,6 +288,10 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 ## References
 
+The concept of differential forms (and their [[exterior algebra]]), at least on [[affine spaces]]/[[Euclidean spaces]] originates in
+
+* [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
+
 A standard reference is
 
 * [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_.
