@@ -3,7 +3,7 @@ Luitzen Egbertus Jan Brouwer (1881--1966) was an early worker in [[algebraic top
 
 Important results:
 
-*  invariance of [[dimension]],
+*  [[topological invariance of dimension]],
 *  [[Brouwer fixed point theorem]],
 *  [[simplicial approximation theorem]],
 *  [[intuitionistic mathematics]],
