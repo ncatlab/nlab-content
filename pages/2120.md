@@ -15,9 +15,9 @@
 
 ## Idea
 
-A [[function]] $f \colon X \to Y$ is called _continuous_ if its values $f(x)$ do not "jump" with variation of its argument $x$, unless $x$ itself "jumps".
+A [[function]] $f \colon X \to Y$ is called _continuous_ if its values $f(x)$ do not "jump" with variation of its argument $x$, unless $x$ itself "jumps".  Roughly speaking, if $x_1 \approx x_2$, then $f(x_1) \approx f(x_2)$.  (This can be made into a precise definition in [[nonstandard analysis]] if care is taken about the domains of these variables.)
 
-In order to make this precise one needs some concept of [[neighbourhoods]] of elements of $X$ and $Y$. 
+In order to make this precise (in standard analysis) one needs some concept of [[neighbourhoods]] of elements of $X$ and $Y$. 
 
 For instance if $X$ and $Y$ carry structure of [[metric spaces]], then one may say that $f$ is continuous if for every point $x \in X$ and for every small [[open ball]] around its image $f(x)$ in $Y$, there exists a sufficiently small open ball around $x \in X$  which is still mapped by $f$ into that target open ball.  This definition turns out to have more elegant formulation that needs to mention neither the points of $x$ nor the radii of open balls around points: the [[metric]] induces a concept of [[open subsets]] and $f$ is continuous precisely if [[preimages]] under $f$ of [[open subsets]] in $Y$ are still open subsets in $X$.
 
@@ -159,12 +159,23 @@ Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for ev
 
 ### For topological spaces
 
-+-- {: .num_defn}
++-- {: .num_defn #topological}
 ###### Definition
 
 A [[function]] $f \;\colon\; X\to Y$ between [[topological spaces]] is a __continuous map__ (or is said to be *continuous*) if for every [[open subset]] $U \subset Y$, the [[preimage]] $f^{-1}(U)$ is an open subset $X$.
 
 =--
+
+In [[nonstandard analysis]], this is equivalent to
+
++-- {: .num_defn #nonstandard}
+###### Definition
+
+A [[function]] $f \;\colon\; X\to Y$ between [[topological spaces]] is a __continuous map__ (or is said to be *continuous*) if for every [[standard point]] $x_1$ and every [[hyperpoint]] $x_2$, if $x_1$ and $x_2$ are [[adequality|adequal]] (infinitely close, or in other words if $x_2$ is in the [[halo]] of $x_1$), then $f(x_1)$ and $\multiscripts{^*}f{}(x_2)$ are adequal (where $\multiscripts{^*}f{}$ is the [[nonstandard extension]] of $f$).  Equivalently, $f$ is continuous iff $\multiscripts{^*}f{}$ is [[microcontinuous function|microcontinuous]].
+
+=--
+
+
 
 ### Further variants
 
