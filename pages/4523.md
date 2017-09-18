@@ -34,3 +34,5 @@ A semistrict model for Lie 3-algebras, analogous to that of 3-groupoids that are
 Lie 3-algebras coming from [[differential 2-crossed module]]s and [[parallel transport]] for [[3-groupoid of Lie 3-algebra valued forms|Lie 3-algebra valued forms]] is discussed in
 
 * [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv:0907.2566](http://arxiv.org/abs/0907.2566))
+
+[[!redirects Lie 3-algebras]]
