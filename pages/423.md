@@ -11,7 +11,7 @@
 =--
 
 
-This page is about topology as a **field of [[mathematics]]**.  For topology as a **[[structured set|structure]]** on a [[set]], see [[topological space]].
+This page is about topology as a **field of [[mathematics]]**.  For topology as a **[[structured set|structure]]** on a [[set]], see _[[topological space]]_.
 
 ***
 
@@ -286,9 +286,14 @@ $$
 +-- {: .num_example #HomeomorphismBetweenTopologicalAndCombinatorialCircle}
 ###### Example
 
-As topological spaces, the [[interval]] with its two endpoints identified is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]. 
+As topological spaces, the [[interval]] with its two endpoints identified is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]:
 
-Let 
+$$
+  [0,1]_{/(0 \sim 1)} \simeq_{homeo} S^1
+  \,.
+$$
+
+More in detail: let
 
 $$
   S^1 \hookrightarrow \mathbb{R}^2
@@ -338,7 +343,44 @@ So we need to check that $\tilde f$ has a continuous inverse function. Clearly t
 
 =--
 
-Important examples of pairs of spaces that are _not_ homeomorphic:
++-- {: .num_example #OpenBallsHomeomorphicToRn}
+###### Example
+
+The open [[interval]] $(-1,1)$ is [[homeomorphism|homeomorphic]] to all of the [[real line]]
+
+$$
+  (0,1) \simeq_{homeo} \mathbb{R}^1
+  \,.
+$$
+
+An [[inverse]] pair of [[continuous functions]] is for instance given by
+
+$$
+  \array{
+    f &\colon&  \mathbb{R}^1 &\longrightarrow& (-1,+1)
+    \\
+    && x &\mapsto& \frac{x}{\sqrt{1+ x^2}} 
+  }
+$$
+
+and 
+
+$$
+  \array{
+    f^{-1} &\colon&  (-1,+1) &\longrightarrow& \mathbb{R}^1
+    \\
+    && x &\mapsto& \frac{x}{\sqrt{1 - x^2}} 
+  }
+  \,.
+$$
+
+Generally, every [[open ball]] in $\mathbb{R}^n$ (\ref{OpenBalls}) is [[homeomorphism|homeomorphic]] to all of $\mathbb{R}^n$.
+
+
+=--
+
+
+Important examples of pairs of spaces that are _not_ homeomorphic include the following:
 
 
 +-- {: .num_example }
@@ -350,7 +392,9 @@ Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientab
 
 =--
 
-+-- {: .num_example }
+
+
++-- {: .num_example #TopologicalInvarianceOfDimension}
 ###### Example
 **([[topological invariance of dimension]])**
 
@@ -360,8 +404,128 @@ More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to a
 
 =--
 
+The proof of example \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from a field called _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]]). We turn to some basics of [[algebraic topology]] now.
+
 
 ### Homotopy
+
+We have seen above that for $n \geq 1$  then the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ is _not_ [[homeomorphism|homeomorphic]] to, notably, the point $\ast = \mathbb{R}^0$ (example \ref{OpenBallsHomeomorphicToRn}, example \ref{TopologicalInvarianceOfDimension}). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
+
+This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]] with the closed interval
+
+$$
+  \eta \colon [0,1] \times B_0^\circ(1)  \longrightarrow \mathbb{R}^n
+$$
+
+which is given by rescaling:
+
+$$
+  (t,x) \mapsto t \cdot x
+  \,.
+$$
+
+This continuously interpolates between the open ball and the point in that for $t = 1$ then it restricts to the defining inclusion $B_0^\circ(1)$, while for $t = 0$ then it restricts to the map constant on the origin.
+
+We may summarize this situation by saying that there is a
+[[diagram]] of [[continuous function]] of the form
+
+$$
+  \array{
+    B_0^\circ(1) \times \{0\}
+    \\
+    \downarrow & \searrow^{\mathrlap{x \mapsto 0}}
+    \\
+    [0,1] \times B_0^\circ(1) 
+    &\overset{(t,x) \mapsto t \cdot x}{\longrightarrow}&
+    \mathbb{R}^n
+    \\
+    \uparrow & \nearrow_{\mathrlap{inclusion}}
+    \\
+    B_0^\circ(1) \times \{1\}
+  }
+$$
+
+Such "continuous deformations" are called _[[homotopies]]_.
+
++-- {: .num_defn #LeftHomotopy}
+###### Definition
+
+For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]** 
+
+$$
+  \eta \colon f \,\Rightarrow_L\, g
+$$ 
+
+is a [[continuous function]]
+
+$$
+  \eta \;\colon\; X \times I \longrightarrow Y
+$$
+
+
+out of [[product topological space]] with the standard interval, such that this fits into a [[commuting diagram]] of the form
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
+</div>
+
+
+$$
+  \array{
+     {0} \times X 
+     \\
+     {}^{\mathllap{(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{f}}
+     \\
+     [0,1] \times X  &\stackrel{\eta}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{g}}
+     \\
+     \{1\} \times X
+  }
+  \,.
+$$
+
+(graphics grabbed from J. Tauber [here](http://jtauber.com/blog/2005/07/01/path_homotopy/))
+
+=--
+
++-- {: .num_defn #HomotopyEquivalence}
+###### Definition
+
+A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
+is called a **[[homotopy equivalence]]** if there exists a 
+continuous function the other way around,
+$g \;\colon\; Y \longrightarrow X$, and [[left homotopies]], def. \ref{LeftHomotopy}, from the two composites to the identity:
+
+$$
+  \eta_1 \;\colon\; f\circ g \Rightarrow_L id_Y
+$$
+
+and
+
+$$
+  \eta_2 \;\colon\; g\circ f \Rightarrow_L id_X
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Any [[open ball]] or closed ball, hence any [[Cartesian space]] is homotopy equivalent to the point
+
+$$
+  \mathbb{R}^n \simeq_{homotopy} \ast
+  \,.
+$$
+
+
+
+=--
+
+
 
 ### Fundamental group
 
