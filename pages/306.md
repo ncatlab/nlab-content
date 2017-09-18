@@ -190,6 +190,7 @@ For example, a category with a terminal object can't have a subobject classifier
 
 * In $Ring$, the [[category of rings]], there are no nonidentity morphisms out of the terminal object the [[zero ring]].
 
+* If an [[abelian category]] had a subobject classifier, every subobject of every object would have to be the kernel of its classifying map. In particular, the subobject $0$ of every object $A$ would have to be the kernel of its classifying map, so that every object in this abelian category would embed into the subobject classifier $\Omega$ (including, say, all small products of $\Omega$ with itself) which would cause size issues.
 
 ## Properties
 
