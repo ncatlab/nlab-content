@@ -32,7 +32,7 @@ For instance in the context of [[formal schemes]]/[[formal smooth manifolds]] th
 
 Accordingly, an [[anti-reduced object]] is one consisting entirely of infinitesimal extension, hence is an [[infinitesimally thickened point]].
 
-Beware that reduced objects in general do "contain infintesimals in between their classical points", in that not every map from an [[anti-reduced object]] into them is necessarily [[constant map|constant]]. The objects "without any infinitesimals" in the sense that all such maps are constant are instead the [[coreduced objects]].
+Beware that reduced objects in general do "contain infinitesimals in between their classical points", in that not every map from an [[anti-reduced object]] into them is necessarily [[constant map|constant]]. The objects "without any infinitesimals" in the sense that all such maps are constant are instead the [[coreduced objects]].
 
 ## Definition
 
