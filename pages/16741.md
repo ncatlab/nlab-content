@@ -62,7 +62,7 @@ This appears as theorem 1 in [Caramello (2009)](#Caramello09). In other words, $
 
 +--{: .num_prop #DeMorgan_mono}
 ###### Proposition
-The De Morgan topology $m$ is the smallest [[Lawvere-Tierney topology|topology]] $j$ on $\mathcal{E}$ such that all monomorphisms of the form $\neg A\vee\neg\neg A\rightarrowtail E$ for subobjects $A\rightarrowtail$ in $\mathcal{E}$ are $j$-dense.
+The De Morgan topology $m$ is the smallest [[Lawvere-Tierney topology|topology]] $j$ on $\mathcal{E}$ such that all monomorphisms of the form $\neg A\vee\neg\neg A\rightarrowtail E$ for subobjects $A\rightarrowtail E$ in $\mathcal{E}$ are $j$-dense.
 =--
 
 This appears as proposition 6.2 in [Caramello (2012a)](#Caramello12a).
