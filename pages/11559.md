@@ -137,3 +137,8 @@ Analysis of $Ell$ is in
 The interpretation of $Ell$ in terms of [[tmf0(2)|TMF0(2)]] is discussed in
 
 * {#Behrens05} [[Mark Behrens]], _A modular description of the K(2)-local sphere at the prime 3_ ([arXiv:math/0507184](http://arxiv.org/abs/math/0507184))
+
+More is in 
+
+* [[Dylan Wilson]], _Orientations and Topological Modular Forms with Level Structure_ ([arXiv:1507.05116](http://arxiv.org/abs/1507.05116))
+
