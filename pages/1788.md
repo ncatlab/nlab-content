@@ -1,4 +1,15 @@
-
-nix
-
-
+$$
+  \rightsquigarrow( 
+    \stackrel{\rightsquigarrow}{X} 
+    \stackrel{\eta_{\stackrel{\rightsquigarrow}{X}}}{\longrightarrow} 
+   \Im \stackrel{\rightsquigarrow}{X}
+   )
+  \;\;\;
+  \simeq
+  \;\;\;
+  (
+     \stackrel{\rightsquigarrow}{X}  
+     \stackrel{\eta_{\stackrel{\rightsquigarrow}{X}}}{\longrightarrow} 
+     \Im \stackrel{\rightsquigarrow}{X}
+  )
+$$
