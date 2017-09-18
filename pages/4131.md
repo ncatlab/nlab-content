@@ -96,8 +96,10 @@ Refining the previous example, every [[metric space]] has a basis consisting of 
 Now consider a [[separable space|separable]] metric space; that is, we have a [[dense subset]] $D$ which is [[countable set|countable]].  Now the space has a basis consisting of the [[open balls]] with [[rational number|rational]] radius and centres in $D$.  (For instance, a base for the topology on the [[real line]] is given by the collection of open intervals $(a,b) \subset \mathbb{R}$ where $a$ and $b$ are rational.)  Therefore, every separable metric space is second-countable.
 =--
 
+## Properties
 
-## Generating topologies {#generation}
+### Generating topologies 
+ {#generation}
 
 Let $X$ be simply a [[set]].
 
@@ -121,12 +123,18 @@ These conditions amount to saying that for each $x\in X$, the subcollection of t
 A subbase naturally generates a base (for the same topology) by [[Moore closure|closing]] it under finitary intersections.  (The resulting base will actually be closed under intersection.)
 
 
-## Relation to Grothendieck topologies and coverages
+### Relation to Grothendieck topologies and coverages
  {#ForSites}
 
 If one thinks of the topology on $X$ as being encoded in the standard [[Grothendieck topology]] that it induces on its [[category of open subsets]] $Op(X)$, then a base for the topology induces a _[[coverage]]_ on $Op(X)$, whose covering families are the open covers by basic open subsets, which generates this Grothendieck topology.
 
 This coverage is *not* in general a [[basis for the Grothendieck topology]], because a base for a topological space is in general not closed under [[intersection]] with arbitrary [[open subsets]]; a coverage is only a basis if is stable under [[pullback]] (here, closed under these intersections) and transitive.  Unfortunately the established terminology "basis" in [[topology]] and [[topos theory]] is not quite consistent with the inclusion of topological spaces into topos theory: "basis" in topology corresponds to "coverage" in topos theory, not to "basis" in topos theory.
+
+
+
+## Related concepts
+
+* [[neighbourhood base]]
 
 
 [[!redirects base for a topology]]
