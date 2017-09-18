@@ -191,7 +191,7 @@ Examples of the gluing construction abound. Here are a few:
 
 * [[Gavin Wraith]], _Artin Glueing_ , JPAA **4** (1974) pp.345-358.
 
-* [[Aurelio Carboni]], [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459. 
+* [[Aurelio Carboni]], [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459. [PDF](http://journals.cambridge.org/article_S0960129500001183)
 {#CJ}
 
 * [[Aurelio Carboni]], [[Peter Johnstone]], _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science 14 (2004), 185--187.
