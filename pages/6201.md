@@ -2212,7 +2212,7 @@ The Lie [[2-groupoid]] $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} G_1
     \,.
   $$
 
-* a [[2-morphism]] $f : (\lambda,a) \to (\lambda', a')$ is a function
+* a [[2-morphism]] $f : (g,a) \to (g', a')$ is a function
 
   $$
     f \in C^\infty(U,G_2)
@@ -2242,7 +2242,7 @@ This is the [[2-groupoid of Lie 2-algebra valued forms]] as described in [defini
 +-- {: .num_cor }
 ###### Corollary
 
-The 2-groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is as the one above, discarding the piece $C^\infty(-,G_1)$ in the 1-morphisms and the piece f$C^\infty(-,G_2)$ in the 2-morphismms.
+The 2-groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is as the one above, discarding the piece $C^\infty(-,G_1)$ in the 1-morphisms and the piece $C^\infty(-,G_2)$ in the 2-morphismms.
 
 =--
 
