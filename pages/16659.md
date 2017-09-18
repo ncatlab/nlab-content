@@ -80,7 +80,7 @@ In the [[foundations of mathematics]], [[Jim Lambek]] proposed to use the free t
 
 Lambek and Scott mention in their 1986 monograph ([pp.viii, 233, 250](#LambekScott86)) two further remarkable properties of the free topos $\mathcal{T}$:
 
-* Brouwer's theorem holds in $\mathcal{T}$ i.e. all maps $R\to R$ are continuous.
+* All maps $R\to R$ in the free topos represent continuous functions. Note that this is not the same as to say that Brouwer's theorem ("all functions $R\to R$ are continuous") is true in the free topos, which is not the case.
 
 * $\mathcal{T}$ has countable choice i.e. the natural numbers object $N$ is projective.
 
