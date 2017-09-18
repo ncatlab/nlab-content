@@ -244,21 +244,22 @@ In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spi
 
 ### General
 
-A modern reference for the diverse flavours of supergravity theories is
+Textbook accounts include
 
-* [[Antoine Van Proeyen]], _Structure of supergravity theories_ ([arXiv:hep-th/0301005](http://arxiv.org/abs/hep-th/0301005))
-
-from which derives the textbook
+* {#DauriaFreCastellani} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 * [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press, 2012
 
-lecture notes following which are in
+Lecture notes include
+
+* [[Friedemann Brandt]], _Lectures on supergravity_ ([arXiv:hep-th/0204035](http://arxiv.org/abs/hep-th/0204035))
+
+* [[Bernard de Wit]], _Supergravity_ ([arXiv:hep-th/0212245](http://arxiv.org/abs/hep-th/0212245))
+
+* [[Antoine Van Proeyen]], _Structure of supergravity theories_ ([arXiv:hep-th/0301005](http://arxiv.org/abs/hep-th/0301005))
 
 * [[Joachim Gomis]], _Three lectures on Supergravity_ ([pdf slides](http://www.fis.puc.cl/~jalfaro/supergravity/Three%20Lectures%20on%20Supergravity.pdf))
 
-Further untroductory lecture notes are in 
-
-* [[Bernard de Wit]], _Supergravity_ ([arXiv:hep-th/0212245](http://arxiv.org/abs/hep-th/0212245))
 
 A fair bit of detail on [[supersymmetry]] and on supergravity is in 
 
@@ -268,10 +269,8 @@ The original article that introduced the [[D'Auria-Fre formulation of supergravi
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
  
-The standard textbook monograph on supergravity and [[string theory]] using these tools is
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
-{#DauriaFreCastellani}
+
 
 ### U-duality
  {#UDualityReferences}
