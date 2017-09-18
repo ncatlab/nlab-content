@@ -320,6 +320,12 @@ A detailed version of this definition is given in
 
 Both articles comment on the relation to [[schreiber:Local prequantum field theory]].
 
+The extension to the case when the ambient $\infty$-topos is varied is in
+
+* David Li-Bland, _The stack of higher internal categories and stacks of iterated spans_, ([arXiv](http://arxiv.org/abs/1506.08870))
+
+
+
 The generalization to an $(\infty,n)$-category $Span_n((\infty,1)Cat^Adj)$ of spans between [[cobordism hypothesis|(∞,n)-categories with duals]] is discussed on p. 107 and 108.
 
 The application of $Span_n(\infty Grpd/C)$ to the construction of [[FQFT]]s is further discussed in section 3 of 
