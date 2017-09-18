@@ -4,5 +4,7 @@
 
 ## Related entries
 
+* [[Parmenides dialogue]]
+
 * [[doctrine of ideas]]
 
