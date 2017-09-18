@@ -18,6 +18,9 @@ Given a [[geometric morphism]] $f \colon \mathcal{E} \longrightarrow \mathcal{S}
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 A [[geometric morphism]] $f \colon \mathcal{E} \longrightarrow \mathcal{S}$ between [[toposes]] is called **bounded** if there exists an [[object]]  $B \in \mathcal{E}$ -- called a **bound** of $f$ -- such that for every $A \in \mathcal{E}$ the following equivalent conditions hold:
 
 * $A$ is a [[subquotient]] of an object of the form $(f^* I) \times B$ for some $I  \in \mathcal{S}$: this means that there exists a diagram
@@ -36,6 +39,16 @@ A [[geometric morphism]] $f \colon \mathcal{E} \longrightarrow \mathcal{S}$ betw
 * (one more)
 
 * (yet one more)
+
+=--
+
++-- {: .proof}
+###### Proof of the equivalence.
+
+Proof goes here.
+
+=--
+
 
 If we regard $\mathcal{E}$ as a topos over $\mathcal{S}$ via $f$, then when $f$ is bounded we call $\mathcal{E}$ a **bounded $\mathcal{S}$-topos**.
 
@@ -62,7 +75,10 @@ Bounded geometric morphisms are stable under [[composition]].
 ###### Proof
 
 Assume that $f : \mathcal{F} \to \mathcal{S}$ is bounded by $B\in\mathcal{F}$, and  $g:\mathcal{G}\to\mathcal{F}$ is bounded by $C\in\mathcal{G}$. Let $A\in\mathcal{G}$. Then there exist $J\in \mathcal{F}$ and $I\in\mathcal{S}$, and  subquotient spans
-$A\leftarrow\bullet\rightarrow g^*J\times C$ and $J\leftarrow\bullet\rightarrow f^*I\times B$. By applying $g^*(-)\times C$ to the second subquotient and forming a pullback, we get the diagram
+$g^*J\times C\leftarrow\bullet\rightarrow A$ 
+and 
+$f^*I\times B\leftarrow\bullet\rightarrow J$. 
+By applying $g^*(-)\times C$ to the second subquotient and forming a pullback, we get the diagram
 $$
 \begin{matrix}
 \bullet & \to & \bullet & \to A \\
