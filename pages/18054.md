@@ -28,4 +28,6 @@ The usual probabilistic construction is given by taking a countably infinite set
 
 ## References
 - P.J. Cameron, [The Random Graph](http://math.ipm.ac.ir/combin/useful_material/Cameron-Rgraphs.pdf)
-[[!redirects askdjlaksjd]]
+
+[[!redirects Rado graph]]
+[[!redirects countable random graphs]]
