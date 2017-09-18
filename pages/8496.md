@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $A$ a [[monoid]] equipped with an [[action]] on an object $V$, an **invariant** of the action is an [[generalized element|element]] of $V$ which is taken by the action to itself.
+For $A$ a [[monoid]] equipped with an [[action]] on an object $V$, an **invariant** of the action is an [[generalized element|element]] of $V$ which is taken by the action to itself, hence a [[fixed point]] for all the operations in the monoid.
 
 ## Definitions
 
