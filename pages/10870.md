@@ -7,8 +7,13 @@
 
 ## References
 
-* [[Tony Pantev]], [[Bertrand Toen]], [[Michel Vaquie]], [[Gabriele Vezzosi]], _Shifted symplectic structures_, 2013, 
+* [[Tony Pantev]], [[Bertrand Toen]], [[Michel Vaquie]], [[Gabriele Vezzosi]], _Shifted symplectic structures_, 2011, 
 [arXiv:1111.3209](http://arxiv.org/abs/1111.3209).
+
+* [[Damien Calaque]], _Lagrangian structures on mapping stacks and semi-classical TFTs_, 2013, [arXiv:1306.3235](http://arxiv.org/abs/1306.3235).
+
+* [[Damien Calaque]], _Three lectures on derived symplectic geometry and topological field theories_, 2014, 
+[pdf](http://ens.math.univ-montp2.fr/~calaque/lecturenotes-DerivedTFT) - see also [these notes](http://ens.math.univ-montp2.fr/~calaque/lecturenotes-LagStr)
 
 * [[Pavel Safronov]], _Quasi-Hamiltonian reduction via classical Chern--Simons theory_, 2013, [arXiv:1311.6429](http://arxiv.org/abs/1311.6429).
 
