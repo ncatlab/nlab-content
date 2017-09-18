@@ -144,7 +144,7 @@ such that
     X_k
   $$
   
-  then the [[composition|composite]] of these two morphisms equals the morphisms of the diagram that is 
+  then the [[composition|composite]] of these two morphisms equals the morphism of the diagram that is 
   labeled by the value of $comp_{i,j,k}$ on their labels:
   
   $$
