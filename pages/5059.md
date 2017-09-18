@@ -509,7 +509,7 @@ A more comprehensive result arguing that the heterotic supergravity equations of
 
 Discussion of this with the heterotic gauge-field included (hence including the [[Green-Schwarz anomaly cancellation]]) is in 
 
-* {#AtickDharRatra86} [[Joseph Atick]], Avinash Dhar, Bharat Ratra, _Superspace Formulation of Ten-dimensional $N=1$ Supergravity Coupled to $N=1$ Superyang-mills Theory_, Phys.Rev. D33 (1986) 2824 ([spire](https://inspirehep.net/record/219734), [pdf](http://www-lib.kek.jp/cgi-bin/img_index?8602074))
+* {#AtickDharRatra86} [[Joseph Atick]], Avinash Dhar, Bharat Ratra, _Superspace Formulation of Ten-dimensional $N=1$ Supergravity Coupled to $N=1$ Super Yang-Mills Theory_, Phys.Rev. D33 (1986) 2824 ([spire](https://inspirehep.net/record/219734), [pdf](http://ccdb5fs.kek.jp/cgi-bin/img/allpdf?198602074))
 
 Similar arguments for the [[type II string]] in [[type II supergravity]] appeared in 
 
