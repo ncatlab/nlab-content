@@ -1,9 +1,9 @@
 
 > This entry contains one chapter of the material at _[[geometry of physics]]_.
 
-> previous chapter: _[[geometry of physics -- smooth spaces|smooth sets]]_
+> previous chapters: _[[geometry of physics -- smooth spaces|smooth sets]]_, _[[geometry of physics -- homotopy types|homotopy types]]_
 
-> next chapter:_[[geometry of physics -- groups|groups]]_
+> next chapter: _[[geometry of physics -- groups|groups]]_
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -449,148 +449,10 @@ $$
 
 ([SchreiberWaldorf](#SchreiberWaldorf)).
 
-#### $\infty$-Groupoids and Kan complexes
-
-An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
-
-$$
-  K : \Delta^{op} \to Set
-$$
-
-as specifying
-
-* a set $[0] \mapsto K_0$ of [[object]]s;
-
-* a set $[1] \mapsto K_1$ of [[morphism]];
-
-* a set $[2] \mapsto K_2$ of [[2-morphism]];
-
-* a set $[3] \mapsto K_3$ of [[3-morphism]];
-
-and generally
-
-* a set $[k] \mapsto K_k$ of [[k-morphism]]s
-
-as well as specifying
-
-* functions $([n] \hookrightarrow [n+1]) \mapsto (K_{n+1} \to K_n)$
-  that send $n+1$-morphisms to their boundary $n$-morphisms;
-
-* functions $([n+1] \to [n]) \mapsto (K_{n} \to K_{n+1})$
-  that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
-  on them.
-
-The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions satisfy conditions that make consistent our interpretation of them as sets of $k$-morphisms and source and target maps between these. 
-These are called the [[simplicial identities]].
-
-But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
-
-For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
-
-$$
-  \Lambda^1[2] = \left\{
-    \array{
-       && 1
-       \\
-       & \nearrow && \searrow
-       \\
-       0 &&&& 2
-    }
-  \right\}
-$$
-
-and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphisms in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and not to be [[evil]]), we want to identify this composite only up to a [[2-morphism]] equivalence
-
-$$
-    \array{
-       && x_1
-       \\
-       & {}^{\mathllap{f}}\nearrow &\Downarrow^{\mathrlap{\simeq}}& 
-       \searrow^{\mathrlap{g}}
-       \\
-       x_0 &&\stackrel{h}{\to}&& x_2
-    }
-  \,.
-$$
-
-From the picture it is clear that this is equivalent to demanding that for $\Lambda^1[2] \hookrightarrow \Delta[2]$ the obvious inclusion of the two abstract composable 1-morphisms into the 2-simplex we have a diagram of morphisms of simplicial sets
-
-$$
-  \array{
-    \Lambda^1[2] &\stackrel{(f,g)}{\to}& K
-    \\
-    \downarrow & \nearrow_{\mathrlap{\exists h}}
-    \\
-    \Delta[2]
-  }
-  \,.
-$$
-
-A simplicial set where for all such $(f,g)$ a corresponding such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
-
-For the purpose of describing [[groupoid]]al composition, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
-
-$$
-  \Lambda^2[2] = \left\{
-    \array{
-       && 1
-       \\
-       & && \searrow
-       \\
-       0 &&\to&& 2
-    }
-  \right\}
-$$
-
-the simplicial set consisting of two 1-morphisms that touch at their end, hence for 
-
-$$
-  (g,h) : \Lambda^2[2] \to K
-$$
-
-two such 1-morphisms in $K$, then if $g$ had an inverse $g^{-1}$ we could use the above composition operation to compose that with $h$ and thereby find a morphism $f$ connecting the sources of $h$ and $g$. This being the case is evidently equivalent to the existence of diagrams of morphisms of simplicial sets of the form
-
-$$
-  \array{
-    \Lambda^2[2] &\stackrel{(g,h)}{\to}& K
-    \\
-    \downarrow & \nearrow_{\mathrlap{\exists f}}
-    \\
-    \Delta[2]
-  }
-  \,.
-$$
-
-Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$. 
-
-In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphism]]s, which means that we can find the relevant [[tetrahedra]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
-
-let $\Lambda^i[n] \hookrightarrow \Delta[n]$ be the simplicial set -- called the $i$th $n$-[[horn]] -- that consists of all cells of the $n$-[[simplex]] $\Delta[n]$ except the interior $n$-morphism and the $i$th $(n-1)$-morphism.
-
-Then a simplicial set is called a [[Kan complex]], if for all images $f : \Lambda^i[n] \to K$ of such horns in $K$, the missing two cells can be found in $K$- in that we can always find a _horn filler_ $\sigma$ in the diagram
-
-$$
-  \array{
-     \Lambda^i[n] &\stackrel{f}{\to}& K
-     \\
-     \downarrow & \nearrow_{\mathrlap{\sigma}}
-     \\
-     \Delta[n]
-  }
-  \,.
-$$
-
-The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the [[simplicial set]] with $N(C)_k$ being the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
-
-#### Model categories
-
-* [[model structure on simplicial sets]]
-
-* [[model structure on simplicial presheaves]]
 
 #### Cohesive $\infty$-Groupoids and locally Kan simplicial presheaves
 
-But we need a bit more than just bare [[∞-groupoid]]s. In generalization to [[Lie groupoid]]s, we need [[∞-Lie groupoid]]s. A useful way to encode that an $\infty$-groupoid has extra structure modeled on geometric test objects that themselves form a category $C$ is to remember the rule which for each test space $U$ in $C$ produces the $\infty$-groupoid of $U$-parameterized families of $k$-morphisms in $K$.  For instance for an [[∞-Lie groupoid]] we could test with each [[Cartesian space]] $U = \mathbb{R}^n$ and find the $\infty$-groupoids $K(U)$ of smooth $n$-parameter families of $k$-morphisms in $K$.
+We need structures a bit richer than just bare [[∞-groupoids]]. In generalization to [[Lie groupoid]]s, we need [[∞-Lie groupoid]]s. A useful way to encode that an $\infty$-groupoid has extra structure modeled on geometric test objects that themselves form a category $C$ is to remember the rule which for each test space $U$ in $C$ produces the $\infty$-groupoid of $U$-parameterized families of $k$-morphisms in $K$.  For instance for an [[∞-Lie groupoid]] we could test with each [[Cartesian space]] $U = \mathbb{R}^n$ and find the $\infty$-groupoids $K(U)$ of smooth $n$-parameter families of $k$-morphisms in $K$.
 
 This data of $U$-families arranges itself into a [[presheaf]] with values in Kan complexes
 
