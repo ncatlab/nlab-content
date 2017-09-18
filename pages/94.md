@@ -545,23 +545,21 @@ The original references are:
 
 * [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
-A quick web entry is:
-
-
-* {#Daily04} Marilyn Daily, _$L_\infty$-structures_, PhD thesis, 2004 ([web]( http://www.lib.ncsu.edu/resolver/1840.16/5282))
-
-See also
-
-* Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
-
 A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
 
 * {#KrizMay} [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
- 
 
-See also for instance section 3.1 of:
+A historical survey is
 
-* {#CattaneoSchaetz} [[Alberto Cattaneo]], [[Florian Schätz]], _Equivalences of higher derived brackets_ ([arXiv:0704.1403](http://arxiv.org/abs/0704.1403))
+* {#Stasheff16} [[Jim Stasheff]], _Higher homotopy structures, then and now_, talk at _[Opening workshop](https://www.mpim-bonn.mpg.de/node/6356)_ of _[Higher Structures in Geometry and Physics](https://www.mpim-bonn.mpg.de/node/5883)_, MPI Bonn 2016 ([[StasheffHomotopyStructuresReview.pdf:file]])
+
+See also 
+
+* {#Daily04} Marilyn Daily, _$L_\infty$-structures_, PhD thesis, 2004 ([web]( http://www.lib.ncsu.edu/resolver/1840.16/5282))
+
+* Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
+
+* {#CattaneoSchaetz} [[Alberto Cattaneo]], [[Florian Schätz]], section 3.1 of _Equivalences of higher derived brackets_ ([arXiv:0704.1403](http://arxiv.org/abs/0704.1403))
  
 
 A detailed reference for Lie 2-algebras is:
