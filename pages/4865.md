@@ -221,6 +221,9 @@ following
 
 *  A. Candiello, K. Lechner, _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
 
+Much computational detail is displayed in
+
+* A. Miemiec, I. Schnakenburg, _Basics of M-Theory_, Fortsch.Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137))
 
 ### Classical solutions and BPS states
 	
@@ -236,7 +239,7 @@ The radii of curvatures of the two factors are furthermore in a ratio of 1:2. Th
 
 Shortly after the original Freund-Rubin solution was discovered, Englert discovered a deformation of this solution where one could turn on [[flux]] on the $S^7$; namely, singling out one of the [[Killing spinors]] of the solution, a suitable multiple of the 4-form one constructs by squaring the [[spinor]] can be added to the [[volume form]] in $AdS_4$ and the resulting 4-form still obeys the supergravity [[Euler-Lagrange equations|field equations]], albeit with a different relation between the radii of [[curvature]] of the two factors. The flux breaks the [[special orthogonal group|SO(8)]] symmetry of the [[sphere]] to an $SO(7)$ subgroup.
 
-* Francois Englert, _Spontaneous Compactification of Eleven-Dimensional Supergravity_ Phys.Lett. B119 (1982) 339 ([inSPIRE](http://inspirehep.net/record/180130))
+* [[Francois Englert]], _Spontaneous Compactification of Eleven-Dimensional Supergravity_ Phys.Lett. B119 (1982) 339 ([inSPIRE](http://inspirehep.net/record/180130))
 
 Some of the above is taken from [this TP.SE thread](http://theoreticalphysics.stackexchange.com/questions/329/modern-avatar-of-englerts-solution).
 
@@ -249,6 +252,8 @@ Discussion of [[black branes]] and [[BPS states]] includes
 * {#Stelle98} [[Kellogg Stelle]], section 3 of _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
 
 * {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
+
+* A. A. Golubtsova, V.D. Ivashchuk, _BPS branes in 10 and 11 dimensional supergravity_, talk at DIAS 2013 ([pdf slides](http://theor.jinr.ru/~diastp/summer13/lectures/Golubtsova.pdf))
 
 ### Truncations and compactifications
 
