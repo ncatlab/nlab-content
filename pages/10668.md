@@ -75,9 +75,13 @@ and the Grothendieck Existence Theorem]]_
 
 * {#LurieAdic} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
 
+* [[Jacob Lurie]], _Spectral Algebraic Geometry_ ([pdf]( http://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
+
 See also the overview
 
 * [[Clark Barwick]], _Applications of derived algebraic geometry to homotopy theory_, lecture notes, mini-course in Salamanca, 2009, [pdf](https://dl.dropboxusercontent.com/u/1741495/papers/salamanca.pdf).
+
+
 
 [[!redirects E-infinity geometry]]
 [[!redirects spectral algebraic geometry]]
