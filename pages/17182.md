@@ -22,33 +22,194 @@
 The _Bousfield-Friedlander model structure_ ([Bousfield-Friedlander 78, section 2](#BousfieldFriedlander78)) is a [[model structure for spectra]]; a [[model category]] structure on the [[category]] of [[sequential spectrum|sequential]] [[prespectra]] which [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, whose [[homotopy category]] is the classical [[stable homotopy category]].
 
 ## Definition
+ {#Definition}
 
-A _[[spectrum]]_ $X$ in the following means a [[sequential spectrum|sequential]] [[pre-spectrum]] in [[simplicial sets]], hence an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$. A [[homomorphism]] $f \colon X \to Y$ of spectra is a collection $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of simplicial sets, such that its makes all the evident square diagrams with the structure maps commute.
++-- {: .num_defn #Spectra}
+###### Definition
 
-Write $SeqPreSpec(sSet)$ for this category of spectra.
+A _[[spectrum]]_ $X$ in the following means a [[sequential spectrum|sequential]] [[pre-spectrum]] in [[simplicial sets]], hence an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
 
-An _[[Omega-spectrum]]_ in the following is a spectrum $X$ such that after [[geometric realization]]/[[Kan fibrant replacement]] the [[adjunct]] structure maps ${\vert X_n \vert} \to {\vert \Omega X_{n-1}\vert }$ are [[weak homotopy equivalences]].
-
-Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ of spectra is
-
-* a _stable weak equivalence_ if it is a stable [[weak homotopy equivalence]], hence if it induces an [[isomorphism]] of [[stable homotopy groups]] $\pi_\bullet(f) \colon \pi_\bullet(X)\stackrel{\simeq}{\to}\pi_\bullet(Y)$.
-
-* a _stable cofibration_ if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$ are cofibrations of simplicial sets in the standard [[model structure on simplicial sets]] (i.e.: [[monomorphisms]] of simplicial sets).
-
-This gives a [[model category]] structure on $Spectra$ ([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78)).
-
-Write $SeqPreSpec(sSet)_{BF}$ for this model category.
-
-A spectrum $X$ is a fibrant object in this model structure precisely if it is an [[Omega-spectrum]] and each $E_n$ is a [[Kan complex]]; and it is cofibrant precisely if all the structure maps $S^1 \wedge X_n \to X_{n+1}$ are cofibrations of simplicial sets, i.e. monomorphisms ([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78))
-
-The [[homotopy category]] of this model structure is the standard [[stable model category]]:
+ A [[homomorphism]] $f \colon X \to Y$ of spectra is a collection $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
 
 $$
-  Ho(SeqPreSpec(sSet)_{BF}) \simeq Ho(Spectra)
+  \array{
+    S^1 \wedge X_n &\stackrel{S^1 \wedge f_n}{\longrightarrow}& S^1 \wedge Y_n
+    \\
+    \downarrow^{\mathrlap{\sigma_n^X}} && \downarrow^{\mathrlap{\sigma_n^Y}}
+    \\
+    X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
+  }
+$$
+
+[[commuting diagram|commute]].
+
+Write $SeqPreSpec(sSet)$ for this [[category]] of spectra.
+
+=--
+
++-- {: .num_example #SmashProductOfSpectrumWithSimplicialSet}
+###### Example
+
+For $X \in SeqPreSpec(sSet)$ and $K \in $ [[sSet]], hence $K_+ \in sSet^{\ast/}$ then $X \wedge K_+$ is the spectrum with
+
+$$
+  (X \wedge K_+)_n \coloneqq (X_n \wedge K_+)
+$$
+
+and with structure maps
+
+$$
+  S^1 \wedge (X_n \wedge K_+) \simeq (S^1 \wedge X_n) \wedge K_+ \stackrel{\sigma_n \wedge K_+}{\longrightarrow} X_{n+1}\wedge K_+
   \,.
 $$
 
+=--
+
++-- {: .num_prop #SimplicialEnrichment}
+###### Proposition
+
+The category $Spectra$ of def. \ref{Spectra} becomes a [[simplicially enriched category]] with [[hom objects]] $[X,Y]\in Spectra$ given by
+
+$$
+  [X,Y]_n \coloneqq Hom_{SeqPreSpec(sSet)}(X\wedge \Delta[n]_+,Y)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #OmegaSpectrum}
+###### Definition
+
+An _[[Omega-spectrum]]_ in the following is a spectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahsv$pointed-hom [[adjuncts]]
+
+$$
+  {\vert X_n\vert} \stackrel{}{\longrightarrow} {\vert X^{n+1}\vert}^{{\vert S^1\vert}}
+$$
+
+of the structure maps ${\vert \sigma_n\vert}$ are [[weak homotopy equivalences]].
+
+=--
+
++-- {: .num_defn #StableHomotopyGroups}
+###### Definition
+
+The [[stable homotopy groups]] of a spectrum $X$, def. \ref{Spectra}, is the $\mathbb{Z}$-[[graded abelian groups]] given by the [[colimit]] of [[simplicial homotopy groups]]
+
+$$
+  \pi_\bullet(X)
+  \coloneqq
+  \underset{\longrightarrow}{\lim}_k
+  \pi_{\bullet+k}(X_n)
+  \,.
+$$
+
+This constitutes a [[functor]]
+
+$$
+  \pi_\bullet \;\colon\; SeqPreSpec(sSet) \longrightarrow Ab^{\mathbb{Z}}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #Spectrification}
+###### Definition
+
+The canonical _$\Omega$-[[spectrification]]_ $Q X$ of a spectrum $X$ is given by forming degreewise the [[colimit]] of higher [[loop space objects]] $\Omega(-)\coloneqq (-)^{S^1}$
+
+$$
+  (Q X)_n
+  \coloneqq
+  \underset{\longrightarrow}{\lim}_{k }
+  Sing \Omega^k {\vert X_{n+k}\vert }
+  \,,
+$$
+
+where $Sing$ denotes the [[singular simplicial complex]] functor.
+
+This constitutes a functor
+
+$$
+  Q \;\colon\;  SeqPreSpec(sSet) \longrightarrow Spectra
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #ClassesOfMorphisms}
+###### Definition
+
+Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqPreSpec(sSet)$, def. \ref{Spectra} is
+
+* a _stable weak equivalence_ if it is a stable [[weak homotopy equivalence]], hence if it induces an [[isomorphism]] under passage to [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}) $\pi_\bullet(f) \colon \pi_\bullet(X)\stackrel{\simeq}{\to}\pi_\bullet(Y)$;
+
+* a _stable cofibration_ if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$ 
+
+  $$
+    X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
+    \longrightarrow
+    Y_{n+1}
+  $$
+
+  are cofibrations of simplicial sets in the standard [[model structure on simplicial sets]] (i.e.: [[monomorphisms]] of simplicial sets);
+
+* a _stable fibration_ if it is degreewise a fibration of simplicial sets, hence degreewise a [[Kan fibration]], and if in addition the naturality squares of the [[spectrification]], def. \ref{Spectrification},
+
+  $$
+    \array{
+      X_n &\stackrel{}{\longrightarrow}& (Q X)_n
+      \\
+      \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{Q f_n}}
+      \\
+      Y_n &\stackrel{}{\longrightarrow}& (Q Y)_n
+    }
+  $$
+
+  are [[homotopy pullback]] squares (with respec to the standard [[model structure on simplicial sets]]).
+
+=--
+
++-- {: .num_prop #IsModelCategory}
+###### Proposition
+
+The classes of morphisms in def. \ref{ClassesOfMorphisms} give the structure of a [[model category]] on $SeqPreSpec(sSet)$ which is
+
+* a [[proper model category]];
+
+* a [[simplicial model category]] with respect to the simplicial enrichment of prop. \ref{SimplicialEnrichment}.
+
+=--
+
+([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78)).
+
+Write $SeqPreSpec(sSet)_{BF}$ for this model category.
+
++-- {: .num_remark}
+###### Remark
+
+
+A spectrum $X \in SeqPreSpec(sSet)_{BF}$ is 
+
+* fibrant precisely if it is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, and each $X_n$ is a [[Kan complex]]; 
+
+* cofibrant precisely if all the structure maps $S^1 \wedge X_n \to X_{n+1}$ are cofibrations of simplicial sets, i.e. [[monomorphisms]] 
+
+=--
+
+
 ## Properties
+
+### Relation to other models for stable homotopy theory
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[zig-zag]] of [[Quillen equivalences]] relating the Bousfield-Friedlander model structure $SeqPreSpec(sSet)_{BF}$, def. \ref{ClassesOfMorphisms}, prop. \ref{IsModelCategory} with standard model structures on [[sequential spectra]] in [[topological spaces]] and with Kan's [[combinatorial spectra]].
+
+=--
+
+([Bousfield-Friedlander 78, section 2.5](#BousfieldFriedlander78)).
 
 ### Relation to excisive functors
 
@@ -69,4 +230,3 @@ Discussion of the [[Quillen equivalence]] to the [[model structure on excisive f
 * {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
 
 [[!redirects Bousfield-Friedlander model category]]
-
