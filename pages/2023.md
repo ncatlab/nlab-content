@@ -104,7 +104,7 @@ See also at _[Simplex category -- Duality with intervals](simplex+category#Duali
 
 #### Intervals as generators of the incidence algebra
 
-Recall that the [[incidence algebra]] $I(P)$ of $P$ contains all functions $f : P \times P \to R$ (valued in some ring $R$) such that $x \nleq y$ implies $f(x,y) = 0$. For any pair of elements $x,y\in P$ such that $x \leq y$, we can define an element $\epsilon_{x,y}$ of the incidence algebra by:
+Recall that the [[incidence algebra]] $I(P)$ of $P$ contains all functions $f : P \times P \to R$ (valued in some commutative ring $R$) such that $x \nleq y$ implies $f(x,y) = 0$. For any pair of elements $x,y\in P$ such that $x \leq y$, we can define an element $\epsilon_{x,y}$ of the incidence algebra by:
 $$
 \epsilon_{x,y}(u,v) = \begin{cases}1 & u = x, w = y \\ 0 & \text{otherwise}\end{cases}
 $$
