@@ -330,7 +330,7 @@ A useful quick collection of facts can be found at the beginning of Section 2 in
 [[!redirects simplicial localizations]]
 
 [[!redirects simplicial localisation]]
-[[!redirects simplicial localization]]
+[[!redirects simplicial localisations]]
 
 
 [[!redirects Dwyer-Kan localization]]
