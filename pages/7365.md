@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
 =--
 =--
 
@@ -16,13 +20,13 @@
 
 ## Idea
 
-In [[type IIB supergravity]] the [[dilaton]]/string coupling $g_s$ and the degree-1 [[RR-field]] $C_0$ of the [[D(-1)-brane]] combine into a [[complex number|complex]] function
+In [[type IIB supergravity]] the [[dilaton]]/string [[coupling constant]] $g_s$ and the degree-1 [[RR-field]] $C_0$ of the [[D(-1)-brane]] combine into a [[complex number|complex]] function
 
 $$
-  \tau := C_0 + i g_2
+  \tau \coloneqq C_0 + i g_2
 $$
 
-which transforms under the $SL(2,\mathbb{Z})$ [[S-duality]] $\subset$ [[U-duality]] as
+which transforms under the [[modular group]] $SL(2,\mathbb{Z})$ [[S-duality]] $\subset$ [[U-duality]] as
 
 $$
   \left(
