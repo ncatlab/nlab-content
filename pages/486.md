@@ -73,6 +73,8 @@ The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanoni
 
 ## Related concepts
 
+* [[Π-pretopos]], [[ΠW-pretopos]], [[list-arithmetic pretopos]]
+
 * [[2-pretopos]]
 
 ## References
