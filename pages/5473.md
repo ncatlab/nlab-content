@@ -102,7 +102,7 @@ and then let $E$ be the smallest $T$-congruence (equivalence relation that is a 
 $$\array{
 U E & \stackrel{\overset{U \pi_1}{\longrightarrow}}{\underset{U \pi_2}{\longrightarrow}} & B & \stackrel{p}{\longrightarrow} & Q
 }$$ 
-is a split coequalizer, because every quotient of an equivalence relation in $Set$ is a split coequalizer. (This requires the [[axiom of choice]]. A splitting is given by any splitting $i: Q \to B$ of $p$, which picks a representative in each equivalence class, together with $\langle i p, 1 \rangle: B \to B$.) The proof is completed by the following lemma. 
+is a split coequalizer, because every quotient of an equivalence relation in $Set$ is a split coequalizer. (This requires the [[axiom of choice]]. A splitting is given by any splitting $i: Q \to B$ of $p$, which picks a representative in each equivalence class, together with $\langle i p, 1 \rangle: UB \to UE$.) The proof is completed by the following lemma. 
 =-- 
 
 +-- {: .num_lemma #split} 
