@@ -19,7 +19,7 @@
 
 For $G$ a [[Lie group]], the _Maurer-Cartan form_ on $G$ is a canonical [[Lie-algebra valued 1-form]] on $G$. One can generalize also to the Maurer-Cartan form on a principal bundle. 
 
-### Synthetic definition
+### Definition in synthetic differential geometry
 
 Speaking in terms of [[synthetic differential geometry]] the Maurer-Cartan form has the following definition:
 
@@ -53,9 +53,9 @@ $$
 
 
 
-### Properties
+## Properties
 
-#### Curvature
+### Curvature
 
 The Maurer-Cartan form is a Lie-algebra valued form with vanishing [[curvature]].
 
@@ -80,7 +80,7 @@ $$
 i.e. $\theta(x,y) \theta(y,z) = \theta(x,z)$. This is what analytically becomes the statement of vanishing curvature.
 
 
-#### Pullback
+### Pullback
 
 If $X$ is a [[smooth manifold]] and $h : X \to G$ a [[smooth function]] with values in $G$, we have the [[pullback form]] 
 
@@ -97,7 +97,7 @@ $$
 
 Now $d h : T X \to T G$ is no longer (necessarily) the identity map as $g$ was when we wrote $\theta = g^{-1} d g$ above, but the form of this equation shows why it can be useful to think of $\theta$ itself in terms of the identity map $d g : T G \to T G$.
 
-#### Gauge transformations
+### Gauge transformations
 
 The Maurer-Cartan form crucially appears in the formula for the gauge transformation of [[Lie-algebra valued 1-form]]s.
 
@@ -166,7 +166,8 @@ $$
   \theta : G \to \mathbf{\flat}_{dR}\mathbf{B}G
 $$
 
-in this diagram is the $\infty$-Maurer-Cartan form on $G$. For $G$ an ordinary Lie group, this reduces to the above definition. This statement and its proof is spelled out <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#CanonicalFormOnLieGroup">here</a>.
+in this diagram is the $\infty$-Maurer-Cartan form on $G$. For $G$ an ordinary Lie group, this reduces to the above definition. This statement and its proof is spelled out [here](smooth+infinity-groupoid+--+structures#CanonicalFormOnLieGroup).
+
 
 ## On cohesive and stable homotopy types
 
@@ -184,6 +185,8 @@ $$
   \theta_G \;\colon\; G \stackrel{}{\longrightarrow} \flat_{dR}\mathbf{B}G
   \,.
 $$
+
+This is discussed at _[[cohesive infinity-topos -- structures]]_ in the section _[Maurer-Cartan forms and curvature characteristics](cohesive+infinity-topos+--+structures#CurvatureCharacteristics)_.
 
 This includes then for instance Maurer-Cartan forms in higher [[supergeometry]] as discussed at _[[Super Gerbes]]_.
 
