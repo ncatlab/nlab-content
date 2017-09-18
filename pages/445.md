@@ -73,11 +73,13 @@ Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_
 
 1. $im_f\left( \underset{i \in I}{\cap}  S_i\right) \subset \left(\underset{i \in I}{\cap} im_f(S_i)\right)$ 
 
-The inclusion in the second item is in general proper. If $f$ is an [[injective function]] then this is a bijection:
+The inclusion in the second item is in general proper. If $f$ is an [[injective function]] and $I$ is [[inhabited set|inhabited]] then this is a [[bijection]]:
 
 * $(f\,\text{injective}) \Rightarrow \left(im_f\left( \underset{i \in I}{\cap}  S_i\right) = \left(\underset{i \in I}{\cap} im_f(S_i)\right)\right)$
 
 =--
+
+For details see at _[[interactions of images and pre-images with unions and intersections]]_.
 
 ### Relation to factorization systems
 
@@ -235,6 +237,7 @@ Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of
 
 ## Related concepts
 
+
 * [[preimage]]
 
 * [[coimage]]
@@ -244,6 +247,7 @@ Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of
 * [[kernel]], [[cokernel]]
 
 * [[continuous images of compact spaces are compact]]
+
 
 [[!redirects images]]
 [[!redirects corestriction]]
