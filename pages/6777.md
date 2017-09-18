@@ -41,6 +41,12 @@ The epi-mono factorization system in a topos is the special case of the [[n-conn
 
 [[!redirects (epi, mono) factorization system]]
 
+[[!redirects (epi,mono)-factorization]]
+[[!redirects (epi,mono) factorization]]
+[[!redirects (epi, mono)-factorization]]
+[[!redirects (epi, mono) factorization]]
+
+
 [[!redirects (epi, mono)-factorization system]]
 [[!redirects (epi, mono)-factorization systems]]
 
