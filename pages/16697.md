@@ -1,0 +1,14 @@
+
+Amihay Hanany is professor for theoretical [[physics]] at Imperial College London.
+
+* [webpage](http://www.imperial.ac.uk/people/a.hanany)
+
+## related $n$Lab entries
+
+* [[super Yang-Mills theory]]
+
+* [[Seiberg duality]]
+
+* [[AdS-CFT]]
+
+category: people
