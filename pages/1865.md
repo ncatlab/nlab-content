@@ -155,6 +155,8 @@ See at _[Differential cohomology diagram -- Differential K-theory](differential+
 
   * [[fiber integration in differential K-theory]]
 
+  * [[algebraic K-theory of smooth manifolds]]
+
 * [[twisted differential K-theory]]
 
 * [[differential algebraic K-theory]]
