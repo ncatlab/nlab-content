@@ -24,7 +24,9 @@
 
 ## Idea
 
-Every [[complex oriented cohomology theory]] induces a [[formal group]]. The _Landweber exact functor theorem_ ([Landweber 76](#Landweber76)) says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]].
+Every [[complex oriented cohomology theory]] induces a [[formal group law]] from its first [[Conner-Floyd Chern class]]. Moreover, [[Quillen's theorem on MU]] together with [[Lazard's theorem]] say that the [[cohomology ring]] $\pi_\bullet(M U)$ of [[complex cobordism cohomology]] [[MU]] is the classifying ring for formal group laws. 
+
+The _Landweber exact functor theorem_ ([Landweber 76](#Landweber76)) says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]].
 
 By the [[Brown representability theorem]] this defines a [[spectrum]] and the spectra arising this way are called _Landweber exact spectra_. ([e.g. Lurie lect 17, p.2](#Lurie17)).
 
@@ -52,7 +54,7 @@ $$
   MU_\bullet(X) \otimes_{MU_\bullet} E_\bullet \stackrel{}{\longrightarrow} E_\bullet(X)
 $$
 
-is an [[equivalence]]. (For $E = $ [[KU]] this was originally proven in [Connor-Floyd 66](#ConnorFloyd66).) In this form the statement has generalizations beyond [[complex oriented cohomology theory|complex orientation]]. See at _[[cobordism theory determining homology theory]]_.
+is an [[equivalence]]. (For $E = $ [[KU]] this was originally proven in [Conner-Floyd 66](#ConnerFloyd66).) In this form the statement has generalizations beyond [[complex oriented cohomology theory|complex orientation]]. See at _[[cobordism theory determining homology theory]]_.
 
 
 
@@ -75,9 +77,9 @@ Between Landweber exact spectra, every [[phantom map]] is already null-homotopic
 
 ## References
 
-For the special case of [[KU]] the statement is originally due to
+For the special case of $E = $[[KU]] the statement is originally due to
 
-* {#ConnorFloyd66} P. Connor, E. Floyd, _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 [pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf)
+* {#ConnerFloyd66} P. Conner, E. Floyd, _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 [pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf)
 
 The general result for complex orientation originates in 
 
