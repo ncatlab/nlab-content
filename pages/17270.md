@@ -57,7 +57,7 @@ such that
 
    are weak equivalences;
 
-1. (preservation of homotopy pullbacks) if in a [[pullback]] square in $\mathcal{C}$
+1. (right-properness of the localization) if in a [[pullback]] square in $\mathcal{C}$
 
    $$
      \array{
