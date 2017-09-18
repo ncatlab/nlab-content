@@ -1,9 +1,9 @@
-#### Full subcategories
+[[!redirects category of simple graphs and graph theory]]
+[[!redirects category of simple graphs and some graph-theoretical questions]]
+[[!redirects the category of simple graphs from a graph-theoretic perspective]]
+Graph theory studies both full and wide subcategories of the category SimpGph defined in [[category of simple graphs]]. 
+(Needless to say, other categories of graphs have and will be used, but this page focuses on SimpGph.)
 
-+-- {: .query}
-(here one could include a treatment of _full_ subcategories usually studied in graph theory; for example those defined by choosing a set $S$ of graphs, and then keeping only those graphs as objects which do not contain any graph in $S$ as a minor (keyword: "excluded minors"); this is a mainstay of graph theory and seems to be in tune with discussions in the nForm, and these may be full subcategories in which the flexibility of closure properties of SimpGph might be particularly useful; the choice of which full subcategory to study should be made by Todd Trimble, however, from the point of view of category-theoretic considerations)
-=--
- 
 #### Wide subcategories
 
 Definition \ref{threeWideSubcategories} gives three examples of wide subcategories, the definitons being graph-theoretic, the names immediately chosen to be category-theoretic, for systematic reasons.
