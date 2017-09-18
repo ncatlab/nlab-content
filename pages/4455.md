@@ -16,7 +16,7 @@ Any paragraph containing the string 'duiq' is original research (although lower 
 
 ## Definitions
 
-Let $S$ be a [[set]] with a [[dense order|dense]] [[linear order]] $\lt$ without [[top]] or [[bottom]] elements.
+Let $S$ be a [[set]] equipped with the structure of a [[dense linear order]] without [[top]] or [[bottom]] elements (endpoints).
 
 +-- {: .num_defn}
 ###### Definition
