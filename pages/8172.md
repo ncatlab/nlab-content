@@ -1043,7 +1043,7 @@ $$
 
 is given on $[\alpha] \in \pi_\bullet(E \wedge E)$ and $[\beta] \in \pi_\bullet(E \wedge X)$ by $([\alpha, \beta])\mapsto [(id \wedge \mu \wedge id) \circ (\alpha \wedge \beta)]$.
 
-To see that this is an isomorphism, observe that by flatness of $E$, the assignment $X \mapsto E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(-)$ is a [[generalized homology]] functor, hence [[Brown representability theorem|represented]] by some spectrum. The above morphism, natural in $X$, thus constitutes a homomorphism  of generalized homology theories, and so for these to be equivalent it is sufficient to check that they induce isomorphisms on the point. This is manifestly the case.
+To see that this is an isomorphism, observe that by flatness of $E$, the assignment $X \mapsto E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(-)$ is a [[generalized homology]] functor, hence [[Brown representability theorem|represented]] by some spectrum. The above morphism, natural in $X$, thus constitutes a homomorphism  of generalized homology theories. By the [Whitehead theorem for generalized homology](generalized+Eilenberg-Steenrod+cohomology#WhiteheadTheorem) for this to be an isomorphism it is sufficient to check that it induces isomorphisms on the point. This is manifestly the case.
 
 Finally we get the claimed isomorphisms for all $n$ by [[induction]]:
 
