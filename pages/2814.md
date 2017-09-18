@@ -21,75 +21,143 @@ A _monoidal functor_ is a [[functor]] between [[monoidal categories]] that prese
 
 ## Definition ##
 
-A [[functor]] $F : C \to D$ between [[strict monoidal category|strict]] [[monoidal categories]] $(C,\otimes)$ and $(D,\otimes)$ is called **lax monoidal** if it is equipped with a morphism
 
-$$
-  \epsilon : I_D \stackrel{}{\to} F(I_C)  
-$$
++-- {: .num_defn #LaxMonoidalFunctor}
+###### Definition
 
-and a [[natural transformation]]
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two [[monoidal categories]]. A **lax monoidal functor** between them is
 
-$$
-  \mu_{x,y} : F(x) \otimes_D F(y) \to F(x \otimes_C y)
-$$
+1. a [[functor]] 
 
-satisfying the following conditions
+   $$
+     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,,
+   $$
 
-* **[[associativity]]** For all $x,y,z \in C$ we have a [[commuting diagram]]
+1. a morphism
 
-  $$
-    \array{
-      F(x) \otimes F(y) \otimes F(z) &\stackrel{Id \otimes \mu_{y,z}}{\to}&
-      F(x) \otimes F(y \otimes z)
-      \\
-      {}^{\mathllap{\mu_{x,y} \otimes Id}}\downarrow
-      && \downarrow^{\mathrlap{\mu_{x,y \otimes z}}}
-      \\
-      F(x \otimes y) \otimes F(z)
-      &\stackrel{\mu_{x \otimes y, z}}{\to}&
-      F(x \otimes y \otimes z)
-    }
-  $$
+   $$
+     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
+   $$  
 
-* **[[unitality]]** For all $x \in C$ we have
+1. a [[natural transformation]]
 
-  $$
-    \array{
-      I_D  \otimes F(x) &\stackrel{\lambda^{-1}_{F(x)}}{\leftarrow}& F(x)
-      \\
-      {}^{\mathllap{\epsilon \otimes Id}}\downarrow && \downarrow^{\mathrlap{F(\lambda^{-1}_x)}}
-      \\
-      F(I_C) \otimes F(x)
-      &\stackrel{\mu_{I,x}}{\to}& F(I_C \otimes x)
-    }
-  $$
+   $$
+     \mu_{x,y} 
+       \;\colon\; 
+     F(x) \otimes_{\mathcal{D}} F(y) 
+       \longrightarrow 
+     F(x \otimes_{\mathcal{C}} y)
+   $$
 
-  and
+   for all $x,y \in \mathcal{C}$
 
-  $$
-    \array{
-      F(x) \otimes I_D &\stackrel{\rho^{-1}_{F(x)}}{\leftarrow}& F(x)
-      \\
-      {}^{\mathllap{Id \otimes \epsilon }}\downarrow && \downarrow^{\mathrlap{F(\rho^{-1}_x)}}
-      \\
-      F(x) \otimes F(I_C)
-      &\stackrel{\mu_{x,I}}{\to}& F(x \otimes I_C)
-    }
-  $$
+satisfying the following conditions:
 
-Where $\lambda$ and $\rho$ are respectively the left and right [[unitor]]s.  We do not explicitly mention the category in which they live, as it is clear from where the subscripted object lives.
+1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
 
-Lax monoidal functors are the [[lax morphism]] for an appropriate [[2-monad]].
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(Z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
 
-If $\epsilon$ and $\mu_{x,y}$ are [[isomorphism]]s then $F$ is called a **strong monoidal functor**. If they are even identities it is called a **strict monoidal functor**. 
+   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
 
-In contrast to this, a strong monoidal functor may also be called a **weak monoidal functor**.  Sometimes the plain term "monoidal functor" is used to mean a *strong* monoidal functor, in which case the general situation is called a **lax monoidal functor**.
+
+1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
+         &\overset{\epsilon \otimes id}{\longrightarrow}&
+       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
+       \\
+       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
+       \\
+       F(x) 
+         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(1 \otimes_{\mathcal{C}} x  )
+     }
+   $$
+
+   and  
+
+   $$
+     \array{
+       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
+         &\overset{id \otimes \epsilon }{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}}) 
+       \\
+       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
+       \\
+       F(x) 
+         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(x \otimes_{\mathcal{C}} 1  )
+     }
+     \,,
+   $$
+
+   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
+
+If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the literature often the term "monoidal functor" refers by default to what in def. \ref{LaxMonoidalFunctor} is called a strong monoidal functor.  With that convention then what def. \ref{LaxMonoidalFunctor} calls a lax monoidal functor is called a  **weak monoidal functor**.  
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+Lax monoidal functors are the [[lax morphisms]] for an appropriate [[2-monad]].
+
+=--
+
+
+
++-- {: .num_remark}
+###### Definition
 
 An __[[oplax monoidal functor]]__ (with various alternative names including **comonoidal**), is a monoidal functor from the [[opposite categories]] $C^{op}$ to $D^{op}$.
 
-A [[monoidal transformation]] between monoidal functors is a [[natural transformation]] that respects the extra structure in an obvious way.
+=--
 
-If the monoidal categories are not [[strict monoidal category|strict]] one obtains correspondingly more coherence diagrams. One way to summarize these is to note that a monoidal category $C$ is equivalently its pointed [[delooping]] [[2-category]]/[[bicategory]] $\mathbf{B}C$ (with a single [[object]] and $C$ as its [[hom-object]]), then a monoidal functor $C \to D$ is equivalently a [[2-functor]]/[[pseudofunctor]] $\mathbf{B}C \to \mathbf{B}D$. Using this one can infer the coherence diagrams as special cases from those discussed at _[[pseudofunctor]]_.
++-- {: .num_remark}
+###### Definition
+
+A _[[monoidal transformation]]_ between monoidal functors is a [[natural transformation]] that respects the extra structure in an obvious way.
+
+=--
+
 
 ## Properties
 
