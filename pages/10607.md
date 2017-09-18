@@ -43,7 +43,7 @@ $$
   \,,
 $$
 
-hence is an [[adjoint pair]] of [[modal operators]] (as in _[[modal type theory]]_). A category equipped with an adjoint modality of the second form is called a _[[category of being]]_ in ([Lawver 91](#Lawvere91)). If the category is a [[topos]] then this is also called a _[[level of a topos]]_.
+hence is an [[adjoint pair]] of [[modal operators]] (as in _[[modal type theory]]_). A category equipped with an adjoint modality of the second form is called a _[[category of being]]_ in ([Lawvere 91](#Lawvere91)). If the category is a [[topos]] then this is also called a _[[level of a topos]]_.
 
 Given any such, we may say that the "unity" expressed by the two opposites is exhibited by the canonical [[natural transformation]]
 
