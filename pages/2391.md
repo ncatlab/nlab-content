@@ -17,7 +17,7 @@
 
 A _$Q$-category_ is nothing but a [[coreflective subcategory]] and a _$Q^\circ$-category_ is nothing but a [[reflective subcategory]]. Since both of these encode reflective [[localization]]s, following [Rosenberg](#Rosenberg) the "Q" is for _quotient_ and is to indicate that in this context one is interested in notions similar to, but different from, the standard notion of [[sheaves]]:
 
-for $\mathbb{C} := (C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}} \bar C)$ a $Q^\circ$-category there is canonically induced a quadruple of [[adjoint functor]]s between the corresponding [[presheaf categories]]
+for $\mathbb{A} := (A \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}} \bar A)$ a $Q^\circ$-category there is canonically induced a quadruple of [[adjoint functor]]s between the corresponding [[presheaf categories]]
 
 $$
   PSh(\bar A)
@@ -33,12 +33,12 @@ $$
 
 is an [[isomorphism]] in $PSh(\bar A)$. More generally, there are generalizations of this condition where presheaves of sets can be replaced with presheaves with values in other categories, notably in [[abelian categories]].
 
-In a central motivating class of examples $\bar C$ is a category of [[sieve]]s on objects in a [[small category]] $C$ that are regarded as being [[covering]] but which do not necessarily satisfy the axioms of a [[Grothendieck topology]] and not even of a [[coverage]].
+In a central motivating class of examples $\mathbb{A}$ is a category of [[sieve]]s on objects in a [[small category]] $C$ that are regarded as being [[covering]] but which do not necessarily satisfy the axioms of a [[Grothendieck topology]] and not even of a [[coverage]].
 
 
 ## Motivation
 
-The [[Yoneda embedding]] is continuous but not cocontinuous functor. Hence the Grothendieck topologies are used to define smaller image than the category of presheaves such that for that embedding some covering cones will stay covering cones. In one case the cones correspond to the Grothendieck topology but more general families of diagrams may be involved. The important properties of categories of diagrams for doing the sheaf theory can be expressed in terms of certain adjoint pairs of functors. As one application this generalization of sheaf theory can also rephrase categorically properties like formal smoothness and formal etaleness of functors, and as another puts the sheafification in a framework for which another special case is a construction of the Gabriel-type noncommutative localization. 
+The [[Yoneda embedding]] is continuous but not cocontinuous functor. Hence the Grothendieck topologies are used to define smaller codomain of Yoneda, a sheaf subcategory of the category of presheaves such that for that corestricted embedding a desired class of covering cones will stay covering cones. More general families of diagrams than the sieves of a Grothendieck topology may be involved. The important properties of the categories of diagrams for doing the sheaf theory can be expressed in terms of an adjoint pair of functors; this adjoint pair gives an example of a $Q$-category. This generalization of sheaf theory can rephrase categorically also properties like formal smoothness and formal etaleness of functors. The sheafification and the construction of a Gabriel localization of an Abelian category can in this formalism be seen as special cases of the same construction. 
 
 ## Definition
 
