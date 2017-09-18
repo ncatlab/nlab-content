@@ -275,11 +275,13 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 
 ## Related concepts
 
-* [[perturbation theory]]
+* [[perturbative quantum field theory]]
 
-* [[perturbation series]]
+* [[S-matrix]]
 
 * [[scattering amplitude]], [[string scattering amplitude]]
+
+* [[perturbation series]]
 
 * [[path integral quantization]]
 
@@ -287,7 +289,7 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 
 * [[worldline formalism]]
 
-* [[Schinger-Dyson equation]]
+* [[Schwinger-Dyson equation]]
 
 ## References
 
