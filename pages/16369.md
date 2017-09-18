@@ -91,7 +91,7 @@ $$
 
 In view of this, the subtopos being dense says that not only $\ast$, but this whole [[adjoint modality]] that it partipates in sits inside the subtopos. [[Lawvere]] had proposed to call this situation (**resolution** of, or a special minimal version of it,) _[[Aufhebung]]_ of the [[unity of opposites]] expressed by $(\emptyset \dashv \ast)$ ("[[becoming]]"). In other words, for an [[level| essential subtopos]] _being dense is equivalent to resolve_ $\emptyset \dashv \ast$ in the Hegelian calculus of [[level|levels]]!
 
-E.g. [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the topos $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] all subtoposes are essential and correspond to dimensional truncations. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. Hence, _all_ subtoposes (above 0) resolve $\emptyset\dashv\ast$ and therefore are dense! Contrast this with the case of a **Boolean topos** which has only itself as a (trivial) dense subtopos (cf. at [[Boolean topos]]).
+E.g. [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the topos $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] all subtoposes are essential and correspond to dimensional truncations. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. As in general, the Aufhebung $\bar{i}$ of a level $i$ resolves all the levels that $i$ resolves, in $Set^{\mathcal{G}^{op}}$ _all_ subtoposes (above 0) resolve $\emptyset\dashv\ast$ and therefore are dense! Contrast this with the case of a **Boolean topos** which has only itself as a (trivial) dense subtopos (cf. at [[Boolean topos]]).
 
 ## Related pages
 
