@@ -44,7 +44,7 @@ Sometimes the Klein-Gordon equation is thought of as a [[general relativity|rela
 
 On a [[globally hyperbolic spacetime]] $M$ the Klein-Gordon equation has unique advanced and retarded [[Green functions]], $\Delta_R \in \mathcal{D}'(M\times M)$ and $\Delta_A \in \mathcal{D}'(M\times M)$ respectively.
 
-The retarded and advanced Green functions are uniquely distinguished by their support properties. Namely, $(x,y) \in \operatorname{supp} \Delta_R$ only if $x$ is in the causal future of $y$, while $(x,y) \in \operatorname{supp} \Delta_A$ only if $x$ is in the causal past of $y$.
+The retarded and advanced Green functions are uniquely distinguished by their [[support of a distribution|support]] properties. Namely, $(x,y) \in \operatorname{supp} \Delta_R$ only if $x$ is in the [[causal future]] of $y$, while $(x,y) \in \operatorname{supp} \Delta_A$ only if $x$ is in the [[causal past]] of $y$.
 
 Their difference $\Delta_S = \Delta_R - \Delta_A$ is a bisolution known as the [[causal propagator]], which is the [[Peierls bracket]] which gives the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|free]] [[scalar field]].  This in turn defines the [[Wick algebra]] of the free scalar field, which yields the [[quantization]] of the free scalar field to a [[quantum field theory]].
 
@@ -54,17 +54,8 @@ Other important Green functions or bisolutions include any (anti-)[[Feynman prop
 According to [Radzikowski 96](#Radzikowski96), the constraints on the wavefront sets of important Green functions and bisolutions can be diagrammatically illustrated as follows below. Note that the primed [[wavefront set]] of a distribution on $M\times M$ is defined as $WF'(\Delta) = \{ (x,y;p,-q) \in T^*(M\times M) \mid (x,y;p,q) \in WF(\Delta) \}$. The diagrams illustrate tuples $(x,y; p,q) \in T^*(M\times M)$, where the vertex of a cone corresponds to $y$ and the cone illustrates all points $x$ linked to $y$ by null geodesics; the arrows illustrate the allowed directions of $p$, with $p$ and $q$ linked by parallel transport and both tangent to null geodesic linking $x$ and $y$.
 
 
-| [[Green function]] for [[Klein-Gordon operator]] | definition |  $\phantom{AA}$ primed [[wave front set]] |
-|---|----|---|
-| [[advanced propagator]] | $\Delta_A$  |  $\array{WF(\Delta_A) = \\ \phantom{A} \\ \phantom{a}}$ <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |
-| [[retarded propagator]] | $\Delta_R$ | $\array{WF(\Delta_R) = \\ \phantom{A} \\ \phantom{a}}$  <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> |
-| [[Feynman propagator]] | $E_F$ | $\array{WF(E_F) = \\ \phantom{A} \\ \phantom{A} \\ \phantom{A}}$ <img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60"> | 
-| [[causal propagator]] | $\Delta_S \coloneqq \Delta_A - \Delta_R$ |  $\array{WF(\Delta_{S}) = \\ \phantom{A} \\ \phantom{a}}$  <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> $\array{- \\ \phantom{A} \\ \phantom{a}}$  <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |
-| [[Dirac propagator]] | $E_D = \Delta_A + \Delta_R$ |  $\array{WF(E_D) =  \\ \phantom{A} \\ \phantom{a}}$  <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> $\array{+ \\ \phantom{A} \\ \phantom{a}}$ <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |
-| [[Hadamard propagator]] | $\omega = E_F - \Delta_A$ | $\array{WF(\omega) = \\ \phantom{A} \\ \phantom{a}}$ <img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60"> $\array{- \\ \phantom{A} \\ \phantom{a}}$ <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60">  $\array{= \\ \phantom{A} \\ \phantom{a}}$  <img src="https://ncatlab.org/nlab/files/HadamardPropagator.png" width="60"> |
+[[!include propagators - table]]
 
-
-(...)
 
 
 ### Bicharacteristic flow and propagation of singularities
