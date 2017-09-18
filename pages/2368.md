@@ -116,9 +116,11 @@ Discussion that makes the [[Day convolution]] structure on the symmetric smash p
 ### Reviews and introductions
 
 
-A survey of the general theory, also of its history, is
+Surveys of the history are in
 
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], _[[Modern foundations for stable homotopy theory]]_,1995 ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+* {#Schwede12} [[Stefan Schwede]], p.214-216 of _[[Symmetric spectra]]_ (2012)
 
 A textbook account of the theory of symmetric spectra is  
 
