@@ -251,6 +251,7 @@ For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the su
 
 *  [[stuff type]]
 
+* [[topological property]], [[uniform property]]
 
 ## References
 
