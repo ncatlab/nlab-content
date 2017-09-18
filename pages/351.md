@@ -16,7 +16,7 @@
 
 ## Idea
 
-**Dinatural transformations** are a generalization of ordinary [[natural transformations]] and also of [[extranatural transformations]].  The differences can be summarized thusly:
+**Dinatural transformations** are a generalization of ordinary [[natural transformations]] and also of [[extranatural transformations]].  The differences can be summarized thus:
 
 * In an ordinary *natural transformation* $F\to G$, both $F$ and $G$ involved depend on some variable $x$ with the same variance (covariant or contravariant).
 * In an *extranatural transformation* $F\to G$, either $F$ depends on $x$ both covariantly *and* contravariantly and $G$ does not depend on $x$ at all, or vice versa.
@@ -79,7 +79,7 @@ Of course, all ordinary natural transformations, and also all [[extranatural tra
 
 Many people who encounter the notion of dinaturality through the general definition (as in equation (eq:hexagon)) have subsequent difficulty grokking it.  It is the opinion of at least one author of this article ([[Todd Trimble]]), and it was certainly the opinion of Max Kelly, that this "efficient" definition is not the most useful or intuitive one.  Rather, one may be better off grokking the separate squares (eq:domain) and (eq:codomain) -- that is, the notion of [[extranaturality]] -- and how they arise in practice. 
 
-One could try to argue against that by pointing to dinatural transformations which do not reduce to extranatural ones. Here 
+One could try to argue against that by pointing to dinatural transformations which do not reduce to extranatural ones.
 
 A counterargument, however, is that *any* dinatural transformation between functors $F,G:C^{op}\times C\to D$ can be "bent" into domain extranaturality by defining
 
