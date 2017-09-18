@@ -322,6 +322,70 @@ $$
 
 =--
 
+### The 2-sphere
+
++-- {: .num_example}
+###### Example
+
+Let $X = S^2$ be the [[2-sphere]]. The corresponding [[rational n-sphere]] has minimal Sullivan model
+
+$$
+  (\wedge^\bullet \langle g_3, g_2 \rangle, d)
+$$
+
+with 
+
+$$
+  d g_2 = 0\,,\;\;\;\; d g_3 = -\tfrac{1}{2} g_2 \wedge g_2
+  \,.
+$$
+
+Hence prop. \ref{SullivanModelForTheFreeLoopSpace} gives for the rationalization of $\mathcal{L}S^4$ the model
+
+$$
+  ( \wedge^\bullet \langle \omega^A_2, \omega^B_2, h_1, h_3 \rangle  , d_{\mathcal{L}S^2} ) 
+$$
+
+with
+
+$$
+  \begin{aligned}
+    d_{\mathcal{L}S^2} h_1 & = 0
+    \\
+    d_{\mathcal{L}S^2} \omega^A_2 & = 0
+    \\
+    d_{\mathcal{L}S^2} \omega^B_2 & = h_1 \wedge \omega_2^A
+    \\
+    d_{\mathcal{L}S^2} h_3 & = -\tfrac{1}{2} \omega^A_2 \wedge \omega^A_2
+  \end{aligned}
+$$
+
+and prop. \ref{ModelForS1quotient} gives for the rationalization of $\mathcal{L}S^2 / / S^1$ the model
+
+$$
+  ( \wedge^\bullet \langle \omega^A_2, \omega^B_2, \omega^C_2 h_1, h_3 , d_{\mathcal{L}S^2 / / S^1} ) 
+$$
+
+with 
+
+$$
+  \begin{aligned}
+    d_{\mathcal{L}S^2} h_1 & = 0
+    \\
+    d_{\mathcal{L}S^2} \omega^A_2 & = \omega^C_2 \wedge h_1
+    \\
+    d_{\mathcal{L}S^2} \omega^B_2 & = h_1 \wedge \omega_2^A
+    \\
+    d_{\mathcal{L}S^2} \omega^C_2 & = 0
+    \\
+    d_{\mathcal{L}S^2} h_3 & = -\tfrac{1}{2} \omega^A_2 \wedge \omega^A_2 + \omega^C_2 \wedge \omega^B_2
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 
 ## Related concepts
 
