@@ -5672,6 +5672,7 @@ $$
 
 For proof see for instance ([Strickland 09, prop. 2.12](#Strickland09)).
 
+
 +-- {: .num_cor #SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces}
 ###### Corollary
 
@@ -5700,6 +5701,96 @@ $$
 $$
 
 =--
+
++-- {: .num_cor #MappingSpacesSendsColimitsInFirstArgumentToLimits}
+###### Corollary
+
+For $I$ a [[small category]] and $X_\bullet \colon I \to Top^{\ast/}_{cg}$ a [[diagram]], then the compactly generated [[mapping space]] construction from def. \ref{CompactlyGeneratedMappingSpaces} preserves [[limits]] in its covariant argument and sends colimits in its contravariant argument to limits:
+
+$$
+  Maps(X,\underset{\longleftarrow}{\lim}_i Y_i)_\ast
+  \;\simeq\;
+  \underset{\longleftarrow}{\lim}_i Maps(X, Y_i)_\ast
+$$
+
+and
+
+$$
+  Maps( \underset{\longrightarrow}{\lim}_i X_i, \; Y )_\ast
+  \simeq
+  \underset{\longleftarrow}{\lim}_i
+  Maps( X_i, Y )_\ast
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is an immediate implication of $Maps(X,-)_\ast$ being a [[right adjoint]], according to cor. \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces}.
+
+For the second statement, we use that by def. \ref{kTop} a [[compactly generated topological space]] is uniquely determined if one knows all continuous functions out of compact Hausdorff spaces into it. Hence it is sufficient to show that there is a [[natural isomorphism]]
+
+$$
+  Hom_{Top_{cg}^{\ast/}}\left( K,\;
+    Maps( \underset{\longrightarrow}{\lim}_i X_i, \; Y )_\ast
+  \right)
+  \simeq
+  Hom_{Top^{\ast/}_{cg}}\left( K, \;
+    \underset{\longleftarrow}{\lim}_i
+    Maps( X_i, Y )_\ast
+  \right)
+$$
+
+for $K$ any compact Hausdorff space.
+
+With this, the statement follows by cor. \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces} and using that ordinary [[hom-sets]] take colimits in the first argument and limits in the second argument to limits:
+
+$$
+  \begin{aligned}
+    Hom_{Top^{\ast/}_{cg}}
+    \left(
+      K, \; Maps(\underset{\longrightarrow}{\lim}_i X_i,\; Y)_\ast
+    \right)
+    & \simeq
+    Hom_{Top^{\ast/}_{cg}}
+    \left(
+      K \wedge \underset{\longrightarrow}{\lim}_i X_i,\; Y
+    \right)
+    \\
+    & \simeq 
+    Hom_{Top^{\ast/}_{cg}}
+    \left(
+      \underset{\longrightarrow}{\lim}_i
+      (K \wedge X_i)
+      ,\; Y
+    \right)
+    \\
+    & \simeq 
+    \underset{\longleftarrow}{\lim}_i
+    \left(
+      Hom_{Top^{\ast/}_{cg}}
+      ( K \wedge X_i, \; Y )
+    \right)
+    \\
+    & \simeq 
+    \underset{\longleftarrow}{\lim}_i
+    Hom_{Top^{\ast/}_{cg}}( K, \; Maps(X_i,Y)_\ast )
+    \\
+    & \simeq
+    Hom_{Top^{\ast/}_{cg}}
+    \left(
+      K,\;
+      \underset{\longleftarrow}{\lim}_i Maps(X_i,Y)_\ast
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
 
 Moreover, compact generation fixes the associativity of the smash product (remark \ref{SmashProductOnTopNotAssociative}):
 
