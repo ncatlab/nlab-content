@@ -21,11 +21,13 @@
 
 The [[spacetime]] that describes a [[black hole]] with a given [[mass]]. And nothing else.
 
-## Generalizations
+## Related concepts
 
-* [[Kerr spacetime]]
+[[!include charged and rotating black holes -- table]]
 
-* [[Reissner-Nordstrom spacetime]]
+## References
+
+* Wikipedia, _[Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)_
 
 [[!redirects Schwarzschild spacetimes]]
 
