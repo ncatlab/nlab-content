@@ -272,11 +272,11 @@ On the other hand, no other theoretical framework was equally tested by this ast
  {#IsStringTheoryCausal}
 
 In an [[S-matrix]] theory such as [[perturbative string theory]]
-(see above at _[What is string theory](#WhatIsStringTheory)_) the property of [[causality]] is embodied by the fact that the [[S-matrix]] shows certain [[analytic function|analycity features]]. (Therefore the [[S-matrix]] approach to [[quantum field theory]] is often refereed to as "the analytic S-matrix").
+(see above at _[What is string theory](#WhatIsStringTheory)_) the property of [[causality]] is embodied by the fact that the [[S-matrix]] shows certain [[analytic function|analycity features]]. (Therefore the [[S-matrix]] approach to [[quantum field theory]] is often referred to as "the analytic S-matrix").
 
 Since, as opposed to a [[fundamental particle]], the string is extended, at the string scale string theory is not given by a [[local field theory]]. This superficially seems to suggest that at such scales also [[causality]] might be violated in string theory. However, computation shows that the [[string scattering amplitude|string scattering]] [[S-matrix]] comes out suitably analytic and causal (e.g. [Martinec 95](causal+locality#Martinec95)).
 
-A detailed analysis for how this comes about has been given in ([Erler-Gross 04](#causal+locality#ErlerGross04)). They write:
+A detailed analysis for how this comes about has been given in ([Erler-Gross 04](causal+locality#ErlerGross04)). They write:
 
 
 > Perhaps then it comes as a surprise that critical string theory produces an analytic [[S-matrix]] consistent with macroscopic causality. In absence of any other known theoretical mechanism which might explain this, despite appearances one is lead to believe that string interactions must be, in some sense, local.
@@ -297,7 +297,7 @@ To understand this question and its answer, it is important to know that in gene
 
 (Mathematically the distinction is this: given a [[coset space]] $G/H$, then the corresponding _[[Klein geometry]]_ has global $G$-symmetry, while the corresponding _[[Cartan geometries]]_ have local $G$-symmetry.)
 
-Now [[supersymmetry]] refers to a [[super Lie group]] extension of the [[Lorentz group]]. Here the theory of [[supergravity]] has _local_ supersymmetry just as Einstein gravity has local Lorentz symmetry, but the general [[model (physics)|model]] in supergravity has no _global_ supersymmetry left. This is just as unlikely as, and directly analous to, a spacetime having a global translation symmetry.
+Now [[supersymmetry]] refers to a [[super Lie group]] extension of the [[Lorentz group]]. Here the theory of [[supergravity]] has _local_ [[supersymmetry]] just as Einstein gravity has local Lorentz symmetry, but the general [[model (physics)|model]] in supergravity has no _global_ supersymmetry left. This is just as unlikely as, and directly analous to, a spacetime having a global translation symmetry.
 
 (Mathematically this is now the situation of _[[super Cartan geometry]]_.)
 
