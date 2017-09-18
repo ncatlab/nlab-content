@@ -23,7 +23,7 @@ $$
   (E G)_{Milnor} := colim \; G \ast G \ast \ldots \ast G,
 $$
 
-and canonically equips it with a continuous and free right [[action]] of $ G $ that yields the structure of a CW-complex such that the action of $ G $ permutes the cells. Consequently, the natural projection $(E G)_{Milnor} \to (E G)_{Milnor}/G $ is a model for the universal bundle $ E G \to B G $ of locally trivial principal $ G $-bundles over [[paracompact space|paracompact]] Hausdorff spaces, or equivalently, of numerable principal $ G $-bundles over all [[Hausdorff topological space]]s.
+and canonically equips it with a continuous and free right [[action]] of $ G $ that yields the structure of a CW-complex such that the action of $ G $ permutes the cells. Consequently, the natural projection $(E G)_{Milnor} \to (E G)_{Milnor}/G $ is a model for the universal bundle $ E G \to B G $ of locally trivial principal $ G $-bundles over [[paracompact Hausdorff spaces]], or equivalently, of [[numerable bundle]] $G$-[[principal bundles]] over all [[Hausdorff topological spaces]].
 
 There is a generalisation of Milnor's construction that works for [[topological groupoids]], and reduces to the above case when the groupoid is $\mathbf{B}G$, the delooping of the group $G$.
 
@@ -47,3 +47,8 @@ There is a generalisation of Milnor's construction that works for [[topological 
 Basic Bundle Theory and K-Cohomology Invariants, Lecture Notes in Physics, Vol. 726 (2008) 75-81.
 
 [[!redirects Milnor's construction]]
+
+[[!redirects Milnor's classifying space]]
+
+[[!redirects Milnor classifying space]]
+[[!redirects Milnor classifying spaces]]
