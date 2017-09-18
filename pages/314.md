@@ -399,6 +399,10 @@ Here are some important examples of limits, classified by the shape of the [[dia
 * A limit over a [[finite category]] is a [[finite limit]].
 * Another important "shape" of limits are those that give rise to [[end]]s.
 
+### Limits in analysis
+
+The concept of [[limit of a sequnce]] in [[topological spaces]] is a special case of category theoretic limits, see [there](limit+of+a+sequence#RelationToLimitsInCategoryTheory).
+
 ## Properties
 
 ### Existence: construction from products and equalizers
