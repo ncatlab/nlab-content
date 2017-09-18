@@ -2,7 +2,7 @@
 
 ## Related concepts
 
-* [[Yang-Mills theory]]
+* [[Yang-Mills theory]], [[QCD]], [[lattice QCD]]
 
 * [[confinement]]
 
