@@ -199,7 +199,11 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 * [[Jordan curve theorem]]
 
 
-**Basic [[homotopy theory]]**
+**topological [[homotopy theory]]**
+
+* [[left homotopy]], [[right homotopy]]
+
+* [[homotopy equivalence]]
 
 * [[homotopy group]]
 
@@ -211,7 +215,13 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[nerve theorem]]
 
+* [[Hurewicz cofibration]]
 
+* [[topological cofiber sequence|cofiber sequence]]
+
+* [[Strøm model category]]
+
+* [[classical model structure on topological spaces]]
 
 
 
