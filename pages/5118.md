@@ -17,6 +17,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The concept of _monoidal Quillen adjunction_ is a lift of the concept of _[[strong monoidal adjunctions]]_ ([[adjoint functors]] for which the [[left adjoint]] is a [[strong monoidal functor]] so that the [[right adjoint]] is, canonically, a [[lax monoidal functor]]) from the context of plain [[categories]] to that of [[model categories]].
+
 
 ## Definition
 
@@ -593,9 +597,52 @@ is a weak equivalence in $D$. But since $\chi_B$ is a weak equivalence, this is 
 
 ## Examples
 
++-- {: .num_example #Stabilization}
+###### Example
+**([[stabilization]] in [[stable homotopy theory]])**
+
+
+The [[stabilization]] adjunction 
+
+  $$
+    \left(
+    \Sigma^\infty(-)_+
+    \dashv
+    \Omega^\infty
+    \right)
+    \;\colon\;
+    Ho(Spectra)
+     \underoverset
+       {\underset{\Omega^\infty}{\longrightarrow}}
+       {\overset{\Sigma^\infty(-)}{\longleftarrow}}
+       {\bot}
+    Ho(Spaces)
+  $$
+
+  between the [[classical homotopy category]] $Ho(Spaces)$ and the [[stable homotopy category]] $Ho(Spectra)$ is a monoidal adjunction, since the [[left adjoint]] $\Sigma^\infty(-)_+$ (forming the [[suspension spectrum]] of a space after freely [[pointed topological space|adjoining a basepoint]]) is [[strong monoidal functor|strong monoidal]] with respect to forming [[product topological spaces]] and forming [[smash  product of spectra]], respectively. Hence this is a [[monoidal adjunction]].
+
+  In fact this is the [[derived functors]] of what is even a [[monoidal Quillen adjunction]] 
+
+  $$
+   (\Sigma^\infty_{orth}(-)_+ \dashv \Omega^\infty_{orth})
+   \;\colon\;
+    OrthSpec_{stable} 
+      \underoverset
+        {\underset{\Omega_{orth}^\infty}{\longrightarrow}}
+        {\overset{\Sigma_{orth}^\infty(-)_+}{\longleftarrow}}
+        {}
+    Top_{Quillen}
+  $$
+
+  between the [[classical model structure on topological spaces]] and the stable [[model structure on orthogonal spectra]] ([this cor.](Introduction+to+Stable+homotopy+theory+--+1-2#StableMonoidalQuillenSuspensionSpectrumFunctor)) which implies (strong) modality of the derived functors on homotopy categories ([this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StrongMonoidalDerivedFunctorFromStrongMonoidalQuillenAdjunction)).
+
+=--
+
+$\,$
+
 * Examples arise in the [[monoidal Dold-Kan correspondence]]. See there for details.
 
-* The quivalence between [[module spectra]] and [[chain complex]]es is exhibited by monoidal Quillen equivalences. See [[module spectrum]] for details.
+* The quivalence between [[module spectra]] and [[chain complexes]] is exhibited by monoidal Quillen equivalences. See [[module spectrum]] for details.
 
 
 ## Related concepts
