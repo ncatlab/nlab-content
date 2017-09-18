@@ -140,13 +140,20 @@ Then the following are equivalent:
 +-- {: .proof}
 ###### Proof
 
-Let $X$ be sigma-compact. We show that then $X$ is second-countable.
+Let $X$ be sigma-compact. We show that then $X$ is second-countable:
 
 By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in I}$ of compact subspaces. By $X$ being locally Euclidean, each admits an [[open cover]] by restrictions of [[Euclidean spaces]]. By their compactness, each of these has a subcover $\{ \mathbb{R}^n \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}$ with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have obtained  a countable cover by Euclidean spaces $\{ \mathbb{R}^n  \overset{\phi_{i,j}}{\to} X\}_{i \in I, j \in J_i}$. Now Euclidean space itself is second countable (by [this example](second-countable+space#SecondCountableEuclideanSpace)), hence admits a countable set $\beta_{\mathbb{R}^n}$ of base open sets. As a result the union $\underset{{i \in I} \atop {j \in J_i}}{\cup} \phi_{i,j}(\beta_{\mathbb{R}^n})$ is a base of opens for $X$. But this is a countable union of countable sets, and since [[countable unions of countable sets are countable]] we have obtained a countable base for the topology of $X$. This means that $X$ is second-countable.
 
 Let $X$ be sigma-compact. We show that then $X$ is paracompact with a countable set of connected components:
 
 By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact, and since $X$ as assumed to be Hausdorff, this holds for all of the variants of definition of local compactness, by [this prop.](locally+compact+topological+space#InHausdorffSpacesDefinitionsOfLocalCompactnessAgree) Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. Since, by the above, $X$ is also second-countable, it cannot have an uncountable set of connected components.
+
+Let $X$ be paracompact with countably many connected components. We show that $X$ is sigma-compact.
+
+Since $X$ is locally compact, there exists a cover $\{K_i = Cl(U_i) \subset X\}_{i \in I}$ by compact subsets.
+By paracompactness we find a locally finite refinement of this cover. Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies and yields a locally finite cover $\{Cl(V_i) \subset X\}_{j \in J}$ by closed subsets. Since this is a refinement of the orignal cover, all the $Cl(V_i)$ are contained in compact closed subspaces. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], the $Cl(V_j)$ are also closed as subsets of the $K_i$. Since [[closed subsets of compact spaces are compact]] it follows that the $Cl(V_i)$ form in fact a locally finite cover by compact subspaces.
+
+Now...
 
 (...)
 
