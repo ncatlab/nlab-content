@@ -5,7 +5,9 @@
 
 ## Idea
 
-A [[cover]] by a [[countable set]] of patches.
+A _countable cover_ is a [[cover]] by a [[countable set]] of patches.
+
+Accordingly a _countable open cover_ is an [[open cover]] with a countable set of patches.
 
 ## Related concepts
 
@@ -16,3 +18,6 @@ A [[cover]] by a [[countable set]] of patches.
 * [[countably compact topological space]]
 
 [[!redirects countable covers]]
+
+[[!redirects countable open cover]]
+[[!redirects countable open covers]]
