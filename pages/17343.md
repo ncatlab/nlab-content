@@ -1281,9 +1281,7 @@ It is immediate and useful to generalize the concept of topological cell complex
 +-- {: .num_defn #TopologicalCCellComplex}
 ###### Definition
 
-For $C \subset Mor(\mathcal{C})$ any [[class]] of morphisms, the concept of  **relative $C$-cell complexes** is defined as in def. \ref{TopologicalCellComplex}, with the boundary inclusions $\iota_n \in I_{Top}$ replaced by the maps in $C$: 
-
-a **relative $C$-cell complex** is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]] of [[coproducts]] of the maps in $C \hookrightarrow Mor(Top)$.
+For $\mathcal{C}$ any category and for $K \subset Mor(\mathcal{C})$ any sub-[[class]] of its morphisms, a **relative $K$-cell complexes** is a morphism in $\mathcal{C}$ which is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]] of [[coproducts]] of morphsims in $K$.
 
 =--
 
@@ -4411,7 +4409,7 @@ We have already seen the factorization and the lifting property, it remains to s
 
 For the classical fibrations this is by definition, for the the classical acyclic fibrations this is by lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
 
-The remaining statement for $Cof_{cl}$ and $W_{cl}\cap Cof_{cl}$ follows from a general argument ([here](cofibrantly+generated+model+category#RetractsOfCellComplexesExchaustLLPOfRLP)) for [[cofibrantly generated model categories]]:
+The remaining statement for $Cof_{cl}$ and $W_{cl}\cap Cof_{cl}$ follows from a general argument ([here](cofibrantly+generated+model+category#RetractsOfCellComplexesExchaustLLPOfRLP)) for [[cofibrantly generated model categories]] (def. \ref{CofibrantlyGeneratedModelCategory}), which we spell out:
 
 So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract (remark \ref{RetractsOfMorphisms}) of a [[relative cell complex]]. To that end, apply the [[small object]] argument to factor $f$ as 
 
@@ -4442,6 +4440,60 @@ The classes of morphisms in $Mor(Top)$ of def.  \ref{ClassesOfMorhismsInTopQuill
 * $Cof_{cl} = $ [[retracts]] of [[relative cell complexes]]
 
 define a [[model category]] structure, $Top_{Quillen}$, the **[[classical model structure on topological spaces]]** or **Serre-Quillen model structure**.
+
+=--
+
+In fact we have shown a bit more. Looking back, all the structure of $Top_{Quillen}$ is entirely induced by the set $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) of generating cofibrations and the set $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of generating acyclic cofibrations (whence the terminology). This phenomenon will keep recurring and will keep being useful as we construct further model categories, such as model categories of spectra. Therefore we make this situation explicit:
+
++-- {: .num_defn #CofibrantlyGeneratedModelCategory} 
+###### Definition
+
+A [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) is called **cofibrantly generated** if there exists two subsets
+
+$$
+  I, J \subset Mor(\mathcal{C})
+$$
+
+of its class of morphisms, such that 
+
+1. $I$ and $J$ have small domains according to def. \ref{ClassOfMorphismsWithSmallDomains}, 
+
+1.  the (acyclic) cofibrations of $\mathcal{C}$ are precisely the [[retracts]], of $I$-[[relative cell complexes]] ($J$-relative cell complexes), def. \ref{TopologicalCCellComplex}.
+
+=--
+
++-- {: .num_prop} 
+###### Proposition
+
+For $\mathcal{C}$ a cofibrantly generated model category, def. \ref{CofibrantlyGeneratedModelCategory} with generating (acylic) cofibrations $I$ ($J$), then its classes $W, Fib, Cof$ of weak equivalences, fibrations and cofibrations are equivalently expressed as [[injective or projective morphisms]] (def. \ref{LiftingAndExtension}) this way:
+
+
+1. $Cof = (I Inj) Proj$
+
+1. $W \cap Fib = I Inj$;
+
+1. $W \cap Cof = (J Inj) Proj$;
+
+1. $Fib = J Inj$;
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear from the definition that $I \subset (I Inj) Proj$, so that the closure property of prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} gives an inclusion
+
+$$
+  Cof \subset (I Inj) Proj
+  \,.
+$$
+
+For the converse inclusion, let $f \in (I Inj) Proj$. By the [[small object argument]], prop. \ref{SmallObjectArgument}, there is a factorization $f\colon \overset{\in I Cell}{\longrightarrow}\overset{I Inj}{\longrightarrow}$. Hence by assumption and by the [[retract argument]] lemma \ref{RetractArgument}, $f$ is a retract of an $I$-relative cell complex, hence is in $Cof$.
+
+This proves the first statement. Together with the closure properties of prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}, this implies the second claim.
+
+The proof of the third and fourth item is directly analogous, just with $J$ replaced for $I$.
 
 =--
 
@@ -5045,6 +5097,8 @@ for the category of topologically enriched functors equipped with these classes 
 ###### Theorem
 
 The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors} constitute a [[model category]] structure on $[\mathcal{C}, Top]$, called the **[[projective model structure on enriched functors]]** $[\mathcal{C}, Top_{Quillen}]_{proj}$.
+
+This is a [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}, with set of generating (acyclic) cofibrations the set $I_{Top^{\ast/}}^{\mathcal{C}}$ ($J_{Top^{\ast/}}^{\mathcal{C}}$) from def. \ref{GeneratingCofibrationsForProjectiveStructureOnFunctors}. 
 
 =--
 
@@ -6374,7 +6428,7 @@ In fact:
 +-- {: .num_prop}
 ###### Proposition
 
-$sSet_{Quillen}$ is a [[cofibrantly generated model category]] with
+$sSet_{Quillen}$ is a [[cofibrantly generated model category]] (def. \ref{CofibrantlyGeneratedModelCategory}) with
 
 * generating cofibrations the [[boundary]] inclusions $\partial \Delta[n] \to \Delta[n]$;
 
@@ -8567,7 +8621,7 @@ respectively, for the sets of morphisms obtained from the classical generating c
 +-- {: .num_theorem #CofibrantGenerationOfPointedTopologicalSpaces}
 ###### Theorem
 
-The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]] $Top^{\ast/}_{Quillen}$ of def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} as a [[cofibrantly generated model category]].
+The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]] $Top^{\ast/}_{Quillen}$ of def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} as a [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}.
 
 =--
 
