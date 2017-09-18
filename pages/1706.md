@@ -706,6 +706,8 @@ One important variant of the category of cobordisms is obtained by discarding al
 
 Accordingly, in this case the cobordism hypothesis says that such a functor is given not quite by a [[fully dualizable object]], but by a weaker structure called a _[[Calabi-Yau object]]_ (see there for more).
 
+([Lurie, section 4.2](#Lurie))
+
 2-dimensional TQFT of this form is known as _[[TCFT]]_, see there for more
 
 
