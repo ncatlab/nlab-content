@@ -14,56 +14,47 @@ The basic connection is: every directed graph is a quiver, not every quiver is a
 Digraphs are one way to formalize the idea of a *network* consisting *points with connections*. 
 
 Many ways to do so exist. The particular sense of "digraph" documented here is a widespread one in the combinatorial literature, the underlying *idea* being that in this formalization the connections have some sort of *material existence*, lying around in a [[set]] of *all* connections there could possibly be, and *some* of them then being selected to form the network. 
-This gives this definition a distinctive combinatorial flavour. 
+This gives this definition a combinatorial flavour. 
 
 Conceptually this is quite *distinct* from the *idea* underlying the definition of [[quivers]], wherein there are *only as many connections as one would like to have from the get-go*, and one then uses [[functions]], or, in another way of looking at it, [[functors]], to describe what is connected to what, and how. 
 
-Conceptually, this distinction can meaningfully be compared with the distinction between [[material set theory]] and [[structural set theory]]: with digraphs, the connections within a network have a material existence[^1], independent of that network.
-With [[quivers]], one encodes the connections, encoding the information of what 
+Conceptually, this distinction can meaningfully be compared with the distinction between [[material set theory]] and [[structural set theory]]: with digraphs, the connections within a have some material existence.
 
-[^1]: This can be taken quite literally: mathematicians working in combinatorics tend to think of the connections as things lying about, some of them being of interest and selected. 
-Moreover, the material point of view leaves the encoding-concept still up to the person using it: e.g. in programming, the connections have a material existence as some part of a data structure, and physically as some mark in some storage device. 
-In the material point of view, issues of how to represent the connections loom large (think of the various different data structures for digraphs, such as signed adjacency matrices, signed incidence matrices, linked lists for adjacency *lists*).  
-The structural point of view, exemplified by [[quivers]], in a way already fixes the concept: functions, and it then only remains to be decided how to represent function. 
-These differences are not absolutely clear cut, yet distinct enough to be meaningful. 
-All these points of view have disadvantages and advantages and it depends on what one is trying to do what one should use.
 
-## Definition
+
+## Definitions
+
+
+###### Definition
+**(digraph in [[material set theory]]; cf. [p. 2](#DG2nd))**
 
 A digraph is a pair $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus\{ (v,v)\colon v\in V\}$.
 
-Cf. e.g. [p. 2](#DG2nd).
 
-
-## Related concepts
+## Remarks on the definitions
  
+The convention of having *digraph* imply that there be *no loops* and *no parallel arcs*, and resort to other terms such as *directed pseudograph* to signal loops or parallel arcs, is widespread in modern combinatorics, which is why we document it here, but it is mostly just that: conventional. 
+In particular there is no mathematical reason to take the [[relative complement]] of $V\times V$ and the diagonal $\{(v,v)\colon v\in V\}$. 
 
-Unsurprisingly, a generous disregard to issues around allowing loops or not, and sometimes even to allowing parallel arcs, is common in the literature. Because of the additional information given by directions, digraph theory tends to have more technical terms than the theory of undirected graphs, in particular, some systematic prefix-constructions (like *in-neighbor*).
+It can be seen as either needlessly complicated and negative, or simpler and more intuitive than [[quivers]]. 
+This is a matter of opinion and culture, and explicitly commented on in perhaps the earliest article reviewing graph theory from a category theoretic perspective (cf. [p. 2](#BumbyLatch1986)).
 
-We here list a few, calibrating our conventions according to [BJG2009](#DG2nd), but only in so far as they are fundamental and potentially useful in category theory.[^1] For concision and robustness, we mostly use words.
+It is a matter of fact that [[quivers]] are more general. 
+To have digraphs in the above sense offer multiple arcs or loops requires additional patching or switching to another definition. 
 
 
-**arc**: directed edge
-
-**in-neighbour of $v$**: vertex from which there is one (and  because of the prohibition of parallel arcs, only one) arc into $v$ 
-
-**out-neighbour of $v$**: vertex for which there is one (and because of the prohibition of parallel arcs, only one) arc from $v$ to it 
-
-**walk**: [[sequence]] alternating between vertices and (zero or more) arcs, *always* starting with a vertex, each arc pointing towards the next vertex, and either ending it a vertex, or countably infinite 
-
-**trail**: walk without any repeated arcs 
-
-**path**: trail without any repeated vertices 
-
-**cycle**: finite trail with precisely one repetition: the last component of the sequence (necessarily a vertex) being [[equal]] to its first component 
-
-Remarks. For the definitions of _trail_ and _path_, which in particular involve negations, to be sensical, both the vertex [[set]] and the arc [[set]] of the digraph need to have an [[equality]] relation, and one has to work with a logic which allows negating equality.
 
 One of the reasons why digraphs are relevant to category theory (which does not usually study structures which do not have a [[composition]] structure, such as digraphs) are: 
 
 * [[pasting schemes]]
 
 ## References
+
+* J. A. Bondy, U. S. R. Murty: _Graph Theory With Applications_. Fifth Printing. North Holland (1976)
+{#BondyMurty}
+
+* R. T. Bumby, D. M. Latch: _Categorical Constructions in Graph Theory_. International Journal of Mathematics and Mathematical Sciences 9(1), 1--16
+{#BumbyLatch1986}
 
 * [[Gregory Gutin]], [[Jørgen Bang-Jensen]]: _Digraphs: Theory, Algorithms and Applications_. Springer Monographs in Mathematics. Second Edition (2009)
 {#DG2nd}
