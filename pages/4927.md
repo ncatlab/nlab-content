@@ -4,7 +4,7 @@
 {:toc}
 
 
-[[directed homotopy theory|Directed homotopy]] theory is the study of '[[directed space]]s' of various types.  As these occur in various different contexts and the variants being considered are not always simply related, it seems a good idea to discuss some of those 'contexts' so as to gain some hold on the intuitions _external_ to the usual contexts of the  n-Lab and hence to see if that will enable use of techniques from the Lab better to understand those contexts and similarly to suggest new problems and interpretations within the n-Lab contexts.
+[[directed homotopy theory|Directed homotopy]] theory is the study of '[[directed space]]s' of various types.  As these occur in various different contexts and the variants being considered are not always simply related, it seems a good idea to discuss some of those 'contexts' so as to gain some hold on the intuitions _external_ to the usual contexts of the  n-Lab and hence to see if that will enable use of techniques from the Lab  to help understand those contexts and similarly to suggest new problems and interpretations within the n-Lab contexts.
 
 ##Contexts for directed homotopy
 
