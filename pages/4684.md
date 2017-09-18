@@ -26,6 +26,7 @@ Often one is interested in extra structure on topological manifolds, that make t
 ## Definition
 
 ### Locally Euclidean topological spaces
+ {#LocallyEuclideanTopologicalSpace}
 
 
 +-- {: .num_defn #LocallyEuclideanSpace}
@@ -48,13 +49,15 @@ $$
 
 The "local" [[topological properties]] of Euclidean space are inherited by locally Euclidean spaces:
 
-+-- {: .num_prop}
++-- {: .num_prop #LocalPropertiesOfLocallyEuclideanSpace}
 ###### Proposition
-**([[locally Euclidean spaces]] are $T_1$ and [[locally compact topological space|locally compact]])**
+**([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]] and [[locally compact topological space|locally compact]])**
 
 Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then 
 
 1. $X$ satisfies the $T_1$ [[separation axiom]];
+
+1. $X$ is [[sober topological space|sober]];
 
 1. $X$ is [[locally compact topological space|locally compact]] in the sense that every open neighbourhood of a point contains a [[compact topological space|compact]] neighbourhood.
 
@@ -67,9 +70,27 @@ Regarding the first statement:
 
 Let $x \neq y$ be two distinct points in the locally Euclidean space. We need to show that there is an open neighbourhood $U_x$ around $x$ that does not contain $y$.
 
-By definition, there is a Euclidean open neighbourhood $\mathbb{R}^n \overset{\simeq}{\to} U_x \subset X$ around $x$. If $U_x$ does not contain $y$, then it already is an open neighbourhood as required. If $U_x$ does contain $y$, then $x \neq y$ are equivalently two distinct point in $\mathbb{R}^n$. But Euclidean space, as every [[metric space]], is $T_1$, and hence we may find an open neighbourhood $V_x \subset \mathbb{R}^n \simex U_x$ not containing $y$. By the nature of the [[subspace topology]], $V_x$ is still open when regarded as a subset of $X$.
+By definition, there is a Euclidean open neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_x \subset X$ around $x$. If $U_x$ does not contain $y$, then it already is an open neighbourhood as required. If $U_x$ does contain $y$, then $\phi^{-1}(x) \neq \phi^{-1}(y)$ are equivalently two distinct points in $\mathbb{R}^n$. But Euclidean space, as every [[metric space]], is $T_1$, and hence we may find an open neighbourhood $V_{\phi^{-1}(x)} \subset \mathbb{R}^n $ not containing $\phi^{-1}(y)$. By the nature of the [[subspace topology]], $\phi(V_{\phi^{-1}(x)}) \subset X$ is an open neighbourhood as required.
 
 Regarding the second statement:
+
+We need to show that the map
+
+$$
+  Cl(\{-\}) \;\colon\; X \to IrrClSub(X)
+$$
+
+that sends points to the [[topological closure]] of their singleton sets is a [[bijection]] with the set of [[irreducible closed subsets]]. By the first statement above the map is [[injective function|injective]] (via [this lemma](separation+axioms#T1InTermsOfClosureOfPoints)). 
+
+Hence it remains to see that every irreducible closed subset is the topological closure of a singleton. We will show something stronger: every irreducible closed subset is a singleton.
+
+Let $P \subset X$ be an open proper subset such that if there are two open subsets $U_1, U_2 \subset X$ with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$. By [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible) we need to show that there exists a point $x \in X$ such that $P = X \setminus \{x\}$ it its [[complement]].
+
+Now since $P \subset X$ is a proper subset, and since the locally Euclidean space $X$ is covered by Euclidean neighbourhoods, there exists a Euclidean neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U \subset X$ such that $P \cap U \subset U$ is a proper subset. In fact this still satisfies the condition that for $U_1, U_2 \underset{\text{open}}{\subset} U$ then $U_1 \cap U_2 \subset P \cap U$ implies $U_1 \subset P \cap U$ or $U_2 \subset P \cap U$. Accordingly, by [that prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible) it follows that $\mathbb{R}^n \setminus \phi^{-1}(P \cap U)$ is an irreducible closed subset of [[Euclidean space]]. Sine [[metric spaces]] are [[sober topological space]] as well as $T_1$-[[separation axiom|separated]], this means that there exists $x \in \mathbb{R}^n$ such that $\phi^{-1}(P \cap U) = \mathbb{R}^n \setminus \{x\}$. 
+
+In conclusion this means that the restriction of an irreducible closed subset in $X$ to any Euclidean chart is either empty or a singleton set. This means that the irreducible closed subset must be a disjoint union of singletons that are separated by Euclidean neighbourhoods. But by irreducibiliy, this union has to consist of just one point.
+
+Regarding the third statement:
 
 Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. We need to find a compact nighbourhood $K_x \subset U_x$.
 
@@ -87,9 +108,18 @@ But the "global" topological properties of Euclidean space are not generally inh
 
 It might superficially seem that every locally Euclidean space (def. \ref{LocallyEuclideanSpace}) is necessarily a [[Hausdorff topological space]], since [[Euclidean space]], like any [[metric space]], is Hausdorff, and since by definition the neighbourhood of every point in a locally Euclidean spaces looks like Euclidean space.
 
-But this is not so, see the counter-example \ref{NonHausdorffManifolds} below, Hausdorffness is a "non-local condition", as opposed to the $T_0$ and $T_1$ [[separation axioms]].
+But this is not so, Hausdorffness is a "non-local condition".
 
 =--
+
++-- {: .num_example #NonHausdorffManifolds}
+###### Nonexample
+**([[non-Hausdorff locally Euclidean spaces]])**
+
+An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) which is not [[non-Hausdorff topological space]], is the [[line with two origins]].
+
+=--
+
 
 +-- {: .num_prop #RegularityConditionsForTopologicalManifoldsComparison}
 ###### Proposition
@@ -98,7 +128,7 @@ Let $X$ be a [[topological space]] which is
 
 1. [[Hausdorff topological space|Hausdorff]],
 
-1. [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace})
+1. [[locally Euclidean space|locally Euclidean]] (def. \ref{LocallyEuclideanSpace})
 
 1. [[connected topological space|connected]].
 
@@ -108,7 +138,13 @@ Then the following are equivalent:
 
 1. $X$ is [[second-countable topological space|second countable]].
 
-In particular if $X$ is as above but not necessarily connected, then the following are equivalent
+In particular if $X$ is as above but not necessarily connected, hence if $X$ is
+
+1. [[Hausdorff topological space|Hausdorff]],
+
+1. [[locally Euclidean space|locally Euclidean]] (def. \ref{LocallyEuclideanSpace})
+
+then the following are equivalent
 
 1. $X$ is [[paracompact topological space]] and has a [[countable set]] of [[connected components]],
 
@@ -118,7 +154,8 @@ In particular if $X$ is as above but not necessarily connected, then the followi
 
 =--
 
-Proof is for instance here: [pdf](http://math.harvard.edu/~hirolee/pdfs/2014-fall-230a-lecture-02-addendum.pdf)
+In one direction, use that locally Euclidean spaces are locally compact (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace}) and that [[locally compact and sigma-compact spaces are paracompact]]. In the other direction (...)
+
 
 ### Topological manifold
 
@@ -131,7 +168,7 @@ A _topological manifold is a [[topological space]] which is
 
 1. [[locally Euclidean topological space|locally Euclidean]] (def. \ref{LocallyEuclideanSpace}),
 
-1. [[paracompact Hausdorff topological space|paracompact Hausdorff]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{ParacompactSpace}).
+1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
 
 If the local [[Euclidean spaces|Euclidean]] neighbourhoods $\mathbb{R}^n \overset{\simeq}{\to} U \subset X$ are all of [[dimension]] $n$
 for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be of dimension $n$, too. This is usually assumed to be the case. Sometimes one also says _$n$-fold_ for "$n$-dimensional manifold".
@@ -139,14 +176,6 @@ for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be of d
 =--
 
 
-
-+-- {: .num_example #NonHausdorffManifolds}
-###### Nonexample
-**([[non-Hausdorff manifolds]])**
-
-An example of a [[topological space]] which is locally Euclidean as in def. \ref{TopologicalManifold} but a [[non-Hausdorff topological space]], and hence not a topological manifold in the usual sense, is the [[line with two origins]].
-
-=--
 
 
 +-- {: .num_defn #Charts}
@@ -242,6 +271,10 @@ Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ 
 
 
 ## References
+
+Lecture notes include
+
+* [pdf](http://math.harvard.edu/~hirolee/pdfs/2014-fall-230a-lecture-02-addendum.pdf)
 
 See also
 
