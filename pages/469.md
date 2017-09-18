@@ -22,7 +22,7 @@ it has for each [[object]] $X$ a [[functor]] $(-) \otimes X : C \to C$ of formin
 
 The strategy for formalizing the idea of a closed category, that "the collection of morphisms from $a$ to $b$ can be regarded as an object of $C$ itself", is to mimic the situation in [[Set]] where for any three objects (sets) $a$, $b$, $c$ we have an isomorphism
 $$
-  Hom(a \otimes b, c) \simeq Hom(a, Hom(b,c))
+  Hom(a \otimes b, c) \simeq Hom(a, [b,c])
   \,,
 $$
 naturally in all three arguments,
