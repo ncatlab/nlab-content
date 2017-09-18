@@ -10,7 +10,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -698,6 +698,13 @@ For $S, S'$ two [[simplicial set]]s we have that
 =--
 
 This is [[Higher Topos Theory|HTT, corollary 4.2.1.4]].
+
+## Related concepts
+
+* [[join of topological spaces]]
+
+* [[join of categories]], [[join of quasi-categories]]
+
 
 ## References
 
