@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+A _coalgebra_ or _comodule_ over a [[comonad]] $C$ on a [[category]] $A$ is an [[object]] $a\in A$ with a [[morphisms]] $a\to C a$ satisfying [[axioms]] [[formal dual|formally dual]] to those for an [[algebra over a monad]].  The category of coalgebras is called its (co-)[[Eilenberg-Moore category]] and satisfies a universal property dual to that of the [[Eilenberg-Moore object]] for a monad; it can thereby be internalized to any [[2-category]].  The [[forgetful functor]] from the category of coalgebras to the category $A$ is called a [[comonadic functor]].  Similarly, a comonad also has a [[co-Kleisli category]].
+
+
+
+## Related concepts
+
+* [[coalgebra over an endofunctor]]
+
+
+[[!redirects coalgebras over a comonad]]
+[[!redirects coalgebras over comonads]]
