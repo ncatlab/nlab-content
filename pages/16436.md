@@ -28,9 +28,9 @@ A [[supergeometry|supergeometric]] analog of [[de Sitter spacetime]]. By the dis
 
 | $d$ |  |
 |-----|---|
-| 4 | $\frac{OSp(8/4)}{Spin(3,1) \times SO(7)}$ |
-| 5 | $\frac{SU(2,2/5)}{Spin(4,1)\times SO(5)}$ |
-| 7 | $\frac{OSp(6,2/4)}{Spin(6,1) \times SO(4)}$ |
+| 4 | $\;\;\;\;\frac{OSp(8/4)}{Spin(3,1) \times SO(7)}\;\;\;\;$ |
+| 5 | $\;\;\;\;\frac{SU(2,2/5)}{Spin(4,1)\times SO(5)}\;\;\;\;$ |
+| 7 | $\;\;\;\;\frac{OSp(6,2/4)}{Spin(6,1) \times SO(4)}\;\;\;\;$ |
 
 ## Related concepts
 
