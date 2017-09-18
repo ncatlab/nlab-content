@@ -2221,9 +2221,9 @@ Then a left **[[module over a monoidal functor|module over the lax monoidal func
    $$
      \rho_{x,y} 
        \;\colon\; 
-     F(x) \otimes_{\mathcal{D}} N(y)
+     F(x) \otimes_{\mathcal{D}} G(y)
       \longrightarrow
-    N(x \otimes_{\mathcal{C}} y )
+    G(x \otimes_{\mathcal{C}} y )
    $$
 
 such that
@@ -2257,23 +2257,23 @@ such that
 
 A [[homomorphism]] $f\;\colon\; (G_1, \rho_1) \longrightarrow (G_2,\rho_2)$ between two modules over a monoidal functor $(F,\mu,\epsilon)$ is 
 
-* a [[natural transformation]] $f_x \;\colon\; N_1(x) \longrightarrow N_2(x)$ of the underlying functors
+* a [[natural transformation]] $f_x \;\colon\; G_1(x) \longrightarrow G_2(x)$ of the underlying functors
 
-compatible with the action in that the following [[commuting diagram|diagram commute]] for all objects $x,y \in \mathcal{C}$:
+compatible with the action in that the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$:
 
 $$
   \array{
-    F(x) \otimes_{\mathcal{D}} N_1(y)
+    F(x) \otimes_{\mathcal{D}} G_1(y)
       &\overset{id \otimes_{\mathcal{D}} f(y)}{\longrightarrow}&
-    F(x) \otimes_{\mathcal{D}} N_2(y)
+    F(x) \otimes_{\mathcal{D}} G_2(y)
     \\
     {}^{\mathllap{(\rho_1)_{x,y}}}\downarrow
      &&
     \downarrow^{\mathrlap{(\rhi_2)_{x,y}}}
     \\
-    N_1(x\otimes_{\mathcal{C}} y)
+    G_1(x\otimes_{\mathcal{C}} y)
      &\underset{f(x \otimes_{\mathcal{C}} y ) }{\longrightarrow}&
-    N_2(x \otimes_{\mathcal{C}} y)
+    G_2(x \otimes_{\mathcal{C}} y)
   }
 $$
 
