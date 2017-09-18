@@ -98,10 +98,34 @@ $$
 
 Such $E$ is called an _$\otimes$-generator_ for $\mathcal{A}$.
 
-
 =--
 
 ([Deligne 02, 0.1](#Deligne02))
+
+The following is a mild size constraint on tensor categories,
+
++-- {: .num_defn #Regularity}
+###### Definition
+
+A $k$-[[tensor category]] $(\mathcal{A}, \otimes)$  as in def.\ref{TensorCategory} is _regular_ if 
+
+1. it is finitely $\otimes$-generated (in the sense of def. \ref{TensorCategory});
+
+1. for every [[object]] $X\in \mathcal{A}$ there exists a number $N \in \mathbb{N}$ such that the [[length of an object|length]] of all [[tensor product]] powers of $X$ is bounded by the corresponding powers of $N$:
+
+   $$
+     \underset{X \in \mathcal{C}}{\forall} \underset{N \in \mathbb{N}}{\exists}
+     \underset{n \in \mathbb{N}}{\forall} 
+     \; length(X^{\otimes^n}) \leq N^n
+     \,.
+   $$
+
+=--
+
+### Schur functors
+
+The first step in the proof of the theorem is the proposition (prop. \ref{LenghtOfObjectIsBounded} below) that all objects that have bounded length according to def. \ref{Regularity} are actually annihilated by some [[Schur functor]] for the [[symmetric group]]. This is a (considerable) generalization of the familiar fact that for every [[finite vector space]] $V$ there exists an [[symmetric algebra|exterior power]] that vanishes, $\wedge^n V = 0$ (namely for all $n \gt dim (V)$). Similarly, if $V$ is a [[super vector space]] of dimension $(d,p)$, then the combined $(d+1)$st skew-symmetric tensor power and $(p+1)$st symmetric tensor power annihilates it. In this way prop. \ref{LenghtOfObjectIsBounded} below already goes a good way in the direction of establishing that all objects of bounded length, in the sense of def. \ref{LenghtOfObjectIsBounded}, behave like having underlying super-vector spaces.
+
 
 +-- {: .num_defn #SchurFunctor}
 ###### Definition
@@ -159,16 +183,6 @@ For $V \in SuperVect_k$ a [[super vector space]] of super-dimension $(p\vert q)$
 =--
 
 
-+-- {: .num_defn #Regularity}
-###### Definition
-
-A $k$-[[tensor category]] $(\mathcal{A}, \otimes)$  as in def.\ref{TensorCategory} is _regular_ if 
-
-1. it is finitely $\otimes$-generated (in the sense of def. \ref{TensorCategory});
-
-1. for every [[object]] $X\in \mathcal{A}$ the equivalent conditions of prop. \ref{LenghtOfObjectIsBounded} hold.
-
-=--
 
 +-- {: .num_remark}
 ###### Remark
