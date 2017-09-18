@@ -1,4 +1,4 @@
-A British computer scientist.
+A British mathematician, logician and computer scientist (before computers were invented).
 
 ## References
 
