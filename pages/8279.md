@@ -39,14 +39,18 @@ There are at least five approaches to performing diagram chases in general abeli
 1. Use genuine generalized elements, see _[[element in an abelian category]]_. With these, the naive way of constructing morphisms $A \to B$ (first showing that for every $a \in A$ there exists a certain $b \in B$, then showing that this is independent of any choices made) carries over to the general setting.
 1. Interpret constructive element-based proofs written in the fragment of [[regular logic]] using categorical semantics, see _[[internal logic]]_. The naive way of constructing morphisms works because the "axiom of unique choice" is valid in abelian categories (see [Johnstone, Prop. D1.3.12](#Johnstone)).
 1. Use the [[Freyd-Mitchell embedding theorem]].
+
+
+
    
 ## Related concepts
 
 * [[salamander lemma]]
 * [[element in an abelian category]]
 * [[internal language]]
-* [[Freyd-Mitchell embedding theorem]]
-  
+* [[Freyd-Mitchell embedding theorem]]  
+* [[diagram chasing lemmas - contents]]
+
 ## References
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_ {#Johnstone}
@@ -55,6 +59,5 @@ There are at least five approaches to performing diagram chases in general abeli
 
 * [[George Bergman]], _On diagram-chasing in double complexes_ ([arXiv:1108.0958](http://arxiv.org/abs/1108.0958))
  {#Bergman}
-
 
 [[!redirects diagram chasing lemmas]]
