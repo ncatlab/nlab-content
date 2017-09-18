@@ -142,7 +142,9 @@ In the [[infinity-topos]] of [[infinity-sheaves]] on an $\infty$-site (i.e. in a
 Let $(C,t)$ be an $\infty$-site and $f : F \to G$ a morphism of [[presheaves]] in $P(C)$.
 The morphism $a_t(f)$ is an effective epimorphism in $Shv_t(C)$ if and only if $f$ is a [[local epimorphism]], i.e.
   $$ \colim \check{C}(f) \longrightarrow G $$
-is a $t$-[[covering sieve]].
+is $t$-covering, or in other words
+  $$ \colim \check{C}(f) \times_G h(X) \longrightarrow h(X) $$
+is a $t$-[[covering sieve]] for all morphisms $h(X) \to G$, where $h$ is the [[Yoneda embedding]].
 (Here $a_t$ denotes the [[associated sheaf functor]].)
 =--
 
