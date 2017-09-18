@@ -32,6 +32,10 @@ The proposal is originally due to
 
 * Wayne Hu, Rennan Barkana, Andrei Gruzinov, _Cold and Fuzzy Dark Matter_, Phys.Rev.Lett. 85 (2000) 1158-1161 ([arXiv:astro-ph/0003365](https://arxiv.org/abs/astro-ph/0003365)) 
 
+see also
+
+* David J. E. Marsh, _Axion Cosmology_ ([arXiv:1510.07633](https://arxiv.org/abs/1510.07633))
+
 A detailed discussion is in
 
 * {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_,  Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
