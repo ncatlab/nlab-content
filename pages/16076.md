@@ -1,0 +1,11 @@
+
+
+* [webpage](http://www.math.muni.cz/~slovak/index.eng.html)
+
+## related $n$Lab entries
+
+* [[parabolic geometry]]
+
+* [[Cartan connection]]
+
+category: people
