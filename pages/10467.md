@@ -57,11 +57,28 @@ on stable/triangulated categories ([Schwede 13, theorem IV 5.2](#Schwede13))
 
 Global Borel-type [[equivariant cohomology]] is in the image of the [[right adjoint]] $R$ ([Schwede 13, example IV 5.12](#Schwede13))
 
+## Properties
+
+### Relation to plain stable homotopy theory
+ {#RelationToPlainStableHomotopyTheory}
+
+The [[forgetful functor]] from global stable homotopy theory to plain [[stable homotopy theory]] exhibits a [[recollement]].
+
+(...)
+
 ## Examples
 
 * [[global equivariant sphere spectrum]]
 
 ## References
+
+A comprehensive textbook account is in
+
+* {#Schwede13} [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/schwede-global.pdf))
+
+Survey includes
+
+* {#Schwede15} [[Stefan Schwede]], _Equivariant bordism from the global perspective_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/glasgow-handout.pdf))
 
 Original articles are
 
@@ -73,7 +90,6 @@ Discussion specifically in terms of equivariant [[orthogonal spectra]] is in
 
 * [[Anna Marie Bohmann]], _Global Orthogonal Spectra_ ([arXiv:1208.4997](http://arxiv.org/abs/1208.4997))
 
-* {#Schwede13} [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/schwede-global.pdf))
   
 Discussion for collections of [[finite group|finite]] [[subgroups]] includes
 
