@@ -50,14 +50,17 @@ In ([Lurie](#Lurie)) a formalization and proof of the cobordism hypothesis is de
 
 #### Statement
 
+For $\mathcal{C}$ a [[symmetric monoidal (∞,n)-category]] write $Core(\mathcal{C})$ for its [[core]] (the maximal [[∞-groupoid]] in $\mathcal{C}$).
+
+For $\mathcal{C}$, $\mathcal{D}$ twho [[symmetric monoidal (∞,n)-categories]], write   $Fun^\otimes(\mathcal{D}, \mathcal{C} )$ for  the [[(∞,n)-category]] of symmetric monoidal [[(∞,n)-functors]] between them.
+
+
 +-- {: .num_defn #FramedCobordismsNCat}
 ###### Definition
 
-Let $C$ by a [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category with duals|with duals]] and $Core(C)$ its [[core]] (the maximal [[∞-groupoid]] in $C$).
 
-Let $Bord_n^{fr}$ be the [[symmetric monoidal (∞,n)-category|symmetric monoidal]] [[(∞,n)-category of cobordisms]] with [[framed manifold|n-framing]].
+Write $Bord_n^{fr}$ be the [[symmetric monoidal (∞,n)-category|symmetric monoidal]] [[(∞,n)-category of cobordisms]] with [[framed manifold|n-framing]].
 
-Finally let $Fun^\otimes(Bord_n^{fr} , C )$ be the [[(∞,n)-category]] of symmetric monoidal [[(∞,n)-functor]]s from bordisms to $C$.
 
 =--
 
@@ -74,18 +77,18 @@ $$
 induces an [[(∞,n)-functor]]
 
 $$
-  pt^* : Fun^\otimes(Bord_n^{fr} , C ) \to C .
+  pt^* : Fun^\otimes(Bord_n^{fr} , \mathcal{C} ) \to \mathcal{C} .
 $$
 
 
 such that
 
-* this factors through the [[core]] of $C$;
+* this factors through the [[core]] of $\mathcal{C}$;
 
 * the map 
 
   $$
-    pt^* : Fun^\otimes(Bord_n^{fr} , C ) \to Core(C)
+    pt^* : Fun^\otimes(Bord_n^{fr} , \mathcal{C} ) \to Core(\mathcal{C})
   $$
 
   is an [[equivalence in an (∞,1)-category|equivalence]] of [[(∞,n)-categories]].
@@ -150,7 +153,10 @@ The action in corollary \ref{CanonicalOnAction} is
 
 We discuss the cobordism hypothesis for cobordisms that are equipped with the extra [[structure]] of maps into some [[topological space]] equipped with a [[vector bundle]]. This is the case for which an [[extended TQFT]] is (the local refinement of) what has also been called an _[[HQFT]]_.
 
-+-- {: .num_defn }
+#### For cobordisms with $(X,\xi)$-structure
+ {#ForCobordismsWithXXiStructure}
+
++-- {: .num_defn #XXiStructure}
 ###### Definition
 
 Let $X$ be a [[topological space]] and $\xi \to X$ a [[real number|real]] [[vector bundle]] on $X$ of [[rank]] $n$. Let $N$ be a [[smooth manifold]] of [[dimension]] $m \leq n$. An **$(X,\xi)$-structure** on $N$ consists of the following data
@@ -170,10 +176,58 @@ Let $X$ be a [[topological space]] and $\xi \to X$ a [[real number|real]] [[vect
 
 This is ([Lurie, notation 2.4.16](#Lurie)).
 
+The two extreme cases of def. \ref{XXiStructure} are the following
+
++-- {: .num_example #FramingAsXXiStructur}
+###### Example
+
+For $X = \ast$ the point and $\xi = \mathbb{R}^n$, then an $(X,\xi)$-structure is the same as an $n$-[[framing]], hence
+
+$$
+  (Bord_n^{(\ast, \mathbb{R}^n)})
+  \simeq
+  Bord_n^{fr}
+$$ 
+
+reproduces the $(\infty,n)$-category of framed cobordisms of def. \ref{FramedCobordismsNCat}.
+
+=--
+
++-- {: .num_example #UnorientedAsXXiStructur}
+###### Example
+
+For $X = B O(n)$ the [[classifying space]] of real [[vector bundles]] of [[rank]] $n$ (the [[delooping]] of the [[∞-group]] $O(n)$ underlying the [[orthogonal group]]) and for $\xi = E O(n) \underset{O(n)}{\times} \mathbb{R}^n$ the vector bundle [[associated bundle|associated]] to the $O(n)$-[[universal bundle]], then $(X,\xi)$-structure on $n$-dimensional manifolds is essentially _no_-structure (the [[maximal compact subgroup]]-inclusion $O(n)\to GL(n)$ is a [[weak homotopy equivalence]]). Cobordisms with this structure will also be called _unoriented cobordisms_
+
+$$
+  Bord_n^{un} \coloneqq Bord_n^{(B O(n), E O(n)\underset{O(n)}{\times} \mathbb{R}^n)}
+  \,.
+$$
+
+Accordingly, for $X = B SO(n)$ the [[delooping]] of the [[special orthogonal group]], the corresponding $(X,\xi)$-structure makes _oriented manifolds_
+
+$$
+  Bord_n^{or} \coloneqq Bord_n^{(B SO(n), E SO(n)\underset{SO(n)}{\times} \mathbb{R}^n)}
+  \,.
+$$
+
+=--
+
+Generally: 
+
++-- {: .num_example #GStructureAsXXiStructure}
+###### Example
+
+For $\chi \colon G \to O(n)$ a [[topological group]] mapping via a [[homomorphism]] to $O(n)$, then $X = B G$ and $\xi = \chi^\ast (E O(n)\underset{O(n)}{\times} \mathbb{R}^n)$, the $(X,\xi)$-structure is [[G-structure]].
+
+This we get to [below](#CobordismsWithGStructure).
+
+=--
+
+
 +-- {: .num_defn #CatOfCobordismsWithXIStructure}
 ###### Definition
 
-Let $X$ be a [[topological space]] and $\xi \to X$ an $n$-[[dimensional]] [[vector bundle]]. The [[(∞,n)-category]] $Bord_n(X, \xi)$ is defined analogously to $Bord_n$ but with all manifolds equipped with $(X,\xi)$-structure.
+Let $X$ be a [[topological space]] and $\xi \to X$ an $n$-[[dimensional]] [[vector bundle]]. The [[(∞,n)-category]] $Bord_n^{(X, \xi)}$ is defined analogously to $Bord_n$ but with all manifolds equipped with $(X,\xi)$-structure, def. \ref{XXiStructure}.
 
 =--
 
@@ -182,14 +236,14 @@ This is ([Lurie, def. 2.4.17](#Lurie)).
 +-- {: .num_theorem #CobHypTheoremForTargetSpaceAndVectorBundle}
 ###### Theorem
 
-Let $C$ be a [[symmetric monoidal (∞,n)-category]] with duals, let $X$ be a [[CW-complex]], let $\xi \to X$ be an $n$-[[dimensional]] [[vector bundle]] over $X$ equipped with an inner product, and let $\tilde X \to X$ be the [[associated bundle|associated]] [[orthogonal group|O(n)]]-[[principal bundle]] of orthonormal [[frame]]s in $\xi$. 
+Let $\mathcal{C}$ be a [[symmetric monoidal (∞,n)-category]] with duals, let $X$ be a [[CW-complex]], let $\xi \to X$ be an $n$-[[dimensional]] [[vector bundle]] over $X$ equipped with an inner product, and let $\tilde X \to X$ be the [[associated bundle|associated]] [[orthogonal group|O(n)]]-[[principal bundle]] of orthonormal [[frame]]s in $\xi$. 
 
 There is an [[equivalence in an (∞,1)-category|equivalence]] in [[∞Grpd]]
 
 $$
-  Fun^\otimes(Bord_n^{(X,\xi)}, C)
+  Fun^\otimes(Bord_n^{(X,\xi)}, \mathcal{C})
   \simeq
-  Top_{O(n)}(\tilde X, \tilde C)
+  Top_{O(n)}(\tilde X, \tilde \mathcal{C})
   \,,
 $$ 
 
@@ -197,7 +251,47 @@ where on the right we regard $\tilde C$ as a [[topological space]] carrying the 
 
 =--
 
-This is ([Lurie, theorem. 2.4.18](#Lurie)).
+This is ([Lurie, theorem. 2.4.18](#Lurie)). The following is some aspects of the idea of the proof in ([Lurie, p. 57](#Lurie)).
+
++-- {: .proof #ProofOf2.4.18}
+###### Idea of Proof
+
+Notice that for each point $x \colon \ast \to X$ there is an induced inclusion
+
+$$
+  Bord_n^{fr} \stackrel{x}{\longrightarrow} Bord_n^{(X,\xi)}
+$$
+
+of the framed cobordisms, def. \ref{FramedCobordismsNCat}, into those of $(X,\xi)$-structure, def. \ref{CatOfCobordismsWithXIStructure}, including those cobordisms whose map to $X$ is constant on $X$, and observing that for these an $(X,\xi)$-structure is equivalently an $n$-[[framing]]. Moreover, by corollary \ref{CanonicalOnAction} the induced point evaluation is $O(n)$-equivariant, hence yielding a morphism of [[∞-groupoids]]
+
+$$
+  \alpha
+  \;\colon\;
+  Func^\otimes(Bord_n^{(X,\xi)}, \mathcal{C})
+  \longrightarrow
+  Maps_{O(n)}(\tilde X, \tilde \mathcal{C})
+  \,,
+$$
+
+where $\tilde X$ denotes the $O(n)$-[[principal bundle]] to which $\xi$ is [[associated bundle|associated]].
+
+More generally, this is true for the pullback structure of $\xi$ along along any map $Y \to X$, yielding
+
+$$
+  \alpha_Y
+  \;\colon\;
+  Func^\otimes(Bord_n^{(Y,\xi|Y)}, \mathcal{C})
+  \longrightarrow
+  Maps_{O(n)}(\tilde X\underset{X}{\times} Y, \tilde \mathcal{C})
+  \,.
+$$
+
+By the previous comment, observe that $\alpha_Y$ is an equivalence for $Y = \ast$.
+
+Now the [[codomain]] of this [[natural transformation]] sends [[(∞,1)-colimits]] in $Y$ over $X$ to [[(∞,1)-limits]]. ([Lurie, theorem 3.1.8](#Lurie)) shows that the same is true for the domain. Hence $\alpha_Y$ is an equivalence for all $Y$ that appear as [[(∞,1)-colimits]] of the point. But this is the case for all [[∞-groupoids]] $Y$, by [this proposition](limit+in+a+quasi-category#EveryInfinityGroupoidIsHomotopyColimitOfConstantFunctorOverItself).
+
+
+=--
 
 
 We consider some special cases of this general definition
@@ -244,7 +338,7 @@ Notice that one can read this as saying that $Cob_n(X)$ is roughly like the [[fr
 #### For cobordisms with $G$-structure
  {#CobordismsWithGStructure}
 
-We discuss the special case of the cobordism hypothesis for $(X,\xi)$-bundles (def. \ref{CatOfCobordismsWithXIStructure}) for the special case that $X$ is the [[classifying space]] of a [[topological group]].
+We discuss the special case of the cobordism hypothesis for $(X,\xi)$-bundles (def. \ref{CatOfCobordismsWithXIStructure}) for the special case of [[G-structure]] (example \ref{GStructureAsXXiStructure}), hence for the case that $X$ is the [[classifying space]] of a [[topological group]].
 
 Let $G$ be a [[topological group]] equipped with a [[homomorphism]] $\chi : G \to O(n)$ to the [[orthogonal group]]. Notice that via the canonical linear [[representation]] $\mathbf{B}O(n) \to$ [[Vect]] of $O(n)$ on $\mathbb{R}^n$, this induces accordingly a representation of $G$ on $\mathbb{R}^n$..
 
@@ -252,7 +346,7 @@ Let then
 
 * $X := B G$ be the [[classifying space]] for $G$;
 
-* $\xi_\chi := (\mathbb{R}^n \times_G E G $ be the corresponding [[associated bundle|associated vector bundle]] to the [[universal principal bundle]] $E G \to B G$.
+* $\xi_\chi := \mathbb{R}^n \times_G E G $ be the corresponding [[associated bundle|associated vector bundle]] to the [[universal principal bundle]] $E G \to B G$.
 
 +-- {: .num_defn }
 ###### Definition
@@ -303,8 +397,8 @@ See ([Lurie, example 2.4.22](#Lurie)).
 
 Then we have the following version of the cobordism hypothesis for manifolds with $G$-structure.
 
-+-- {: .num_theorem #GEquivariantVersion}
-###### Theorem
++-- {: .num_cor #GEquivariantVersion}
+###### Corollary
 
 For $G$ an [[∞-group]] equipped with a homomorphism $G \to O(n)$ to the [[orthogonal group]] (regarded as an [[∞-group]] in [[∞Grpd]]), then evaluation on the point induces an equivalence
 
@@ -320,6 +414,45 @@ between extended TQFTs on $n$-dimensional manifolds with [[G-structure]] and the
 
 This is ([Lurie, theorem 2.4.26](#Lurie)).
 
++-- {: .proof #ProofOf2.4.26}
+###### Proof
+
+Theorem \ref{CobHypTheoremForTargetSpaceAndVectorBundle} asserts that
+
+$$
+  Fun^\otimes( Bord_n^{G}, \mathcal{C} )
+  \simeq
+  Maps_{G}(E G , \tilde C)
+ \,.
+$$
+
+Hence it remains to see that the right hand side are equivalently the [[homotopy invariants]] of the $G$-[[∞-action]]. This follows for instance with the discussion at [[∞-action]], by which 
+
+$$
+  Maps_G(V,W)\simeq \infty Grpd_{/B G}(V/\!/G, W/\!/G)
+  \,.
+$$
+
+This yields
+
+$$
+   Maps_{G}(E G , \tilde C)
+   \simeq
+   \infty Grpd_{/ B G}( B G, \tilde C /\!/B G )
+   \,.
+$$
+
+By the discussion at [[dependent product]]
+
+$$
+  \infty Grpd_{/ B G}( B G, \tilde C /\!/B G )
+  \simeq
+  \underset{B G}{\prod} (\tilde C /\!/B G)
+$$
+
+which are the [[homotopy invariants]].
+
+=--
 
 #### For HQFTs
   {#ForHQFTs}
