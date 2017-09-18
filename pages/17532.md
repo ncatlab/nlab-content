@@ -166,7 +166,7 @@ The category $G Set$ is an [[elementary topos]].
 
 +-- {: .num_theorem}
 ###### Theorem
-Let $G$ be a topological group. Then the category $G Set$ is equivalent to the topos of [[sheaves]] on the atomic [[site]] $(S(G), At)$, where the objects of $S(G)$ are the open subgroups of $G$, and the morphisms $H \to K$ are the left cosets $a K$ such that $U \subseteq a K a^{-1}$, and all non-empty [[sieves]] are covering.
+Let $G$ be a topological group. Then the category $G Set$ is [[equivalence of categories|equivalent]] to the topos of [[sheaves]] on the [[atomic site|atomic]] [[site]] $(S(G), At)$, where the objects of $S(G)$ are the open subgroups of $G$, and the morphisms $H \to K$ are the left cosets $a K$ such that $U \subseteq a K a^{-1}$, and all non-empty [[sieves]] are covering.
 
 Alternatively, it is the full subcategory of $G Set$ containing objects of the form $G/U$, where $U$ is an open subgroup. 
 =--
@@ -222,6 +222,7 @@ Proof is a straightforward check that the continuity conditions match up.
 ## Related Concepts
 * [[G-set]]
 * [[topological G-space]]
+* [[Fraenkel-Mostowski model]]
 
 ## References
 
