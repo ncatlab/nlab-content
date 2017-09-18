@@ -22,32 +22,17 @@ This entry is about the notion of spectrum in [[stable homotopy theory]]. For ot
 
 ## Idea 
 
-A [[topological space|topological]] spectrum is an object in the universal [[stable (∞,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that stabilizes" the [[(∞,1)-category]] [[Top]] or $\simeq$ [[∞-Grpd]] of [[topological spaces]] or [[∞-groupoids]]: the [[stable (∞,1)-category of spectra]].
+A [[topological space|topological]] spectrum is an [[object]] in the universal [[stable (∞,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that stabilizes" the [[(∞,1)-category]] [[Top]] or $\simeq$ [[∞-Grpd]] of [[topological spaces]] or [[∞-groupoids]] under the operations of forming [[loop space objects]] and [[reduced suspensions]]: the [[stable (∞,1)-category of spectra]].
 
-Recall that the central characterization of a [[stable (∞,1)-category]] is that all objects $A$ have a [[delooping]] object $\mathbf{B}A$ that is written $\Sigma A$ in this context and called the _suspension_ of $A$. Thus a spectrum is like a [[topological space]] or [[∞-groupoid]] that may be [[delooping|delooped]] indefinitely.
+More generally, one may consider [[spectrum objects]] in any [[presentable (∞,1)-category]].
 
-More generally, one can consider [[spectrum objects]] in an arbitrary [[category]] or [[(infinity,1)-category]].
+### Connective and non-connective spectra; infinite loop spaces
 
-### Connective spectra
+As opposed to the [[homotopy groups]] of a [[topological space]], the [[homotopy groups of a spectrum]] are defined and may be non-trivial in _negative_ integer degree. This follows from the fact that the [[loop space]] operation is by construction invertible on spectra, which implies that for every spectrum $E$ these and all $n$, the $n$-fold looping $\Omega^n$ has [[stable homotopy groups]] given by $\pi_{k-n}(\Omega^n E) \simeq \pi_k(E)$.
 
-In fact all ordinary [[topological spaces]] and [[∞-groupoids]] that have the property that all their [[deloopings]] exist give rise to special examples of spectra.  These are called the
+Those spectra for which the [[homotopy groups of spectra]] in negative degree happen to vanish ae called _[[connective spectra]]_. They are equivalent to [[infinite loop spaces]], i.e. grouplike [[E-∞ spaces]].
 
-* **[[connective spectrum|connective spectra]]**
-
-* or **infinite [[loop spaces]]** 
-
-* or [[group object in an (infinity,1)-category|grouplike]] [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoid]]s.
-
-Connective spectra form a [[sub-(∞,1)-category]] of spectra
-
-$$
-  Top \stackrel{\supset}{\leftarrow} ConnectSp(Top) \hookrightarrow Sp(Top)
-  \,.
-$$
-
-There are objects in $Sp(Top)$, though, that do not come from "naively" delooping a space infinitely many times.  These are the **non-connective spectra**.  For general spectra there is a notion of [[homotopy groups of spectra]] in negative degree. The connective ones are precisely those for which all negative degree [[homotopy groups of spectra]] vanish.
-
-Connective spectra are well familiar in as far as they are in the image of the [[nerve]] operation of the [[Dold-Kan correspondence]]: this identifies [[∞-groupoids]] that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
+Connective spectra in the image of the [[nerve]] operation of the classical [[Dold-Kan correspondence]]: this identifies [[∞-groupoids]] that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
 
 $$
  \array{
@@ -62,7 +47,7 @@ $$
 
 The [[homology]] groups of the chain complex correspond precisely to the [[homotopy groups]] of the corresponding [[topological space]] or [[∞-groupoid]].
 
-The free stabilization of the [[(∞,1)-category]] of non-negatively graded chain complexes is simpy the [[stable (∞,1)-category]] of arbitrary chain complexes. There is a stabilized Dold-Kan correspondence (see at _[[module spectrum]]_ the section _[stable Dold-Kan correspondence](module+spectrum#StableDoldKanCorrespondence)_ ) that identifies these with special objects in $Sp(Top)$. 
+The free stabilization of the [[(∞,1)-category]] of non-negatively graded chain complexes is simpy the [[stable (∞,1)-category]] of arbitrary chain complexes. There is a [[stable Dold-Kan correspondence]] (see at _[[module spectrum]]_ the section _[stable Dold-Kan correspondence](module+spectrum#StableDoldKanCorrespondence)_ ) that identifies these with special objects in $Sp(Top)$. 
 
 $$
  \array{
@@ -82,13 +67,13 @@ So it is the homologically nontrivial parts of the chain complexes in negative d
 
 There are many "models" for spectra, all of which present the same homotopy theory (and in fact, nearly all of them are [[Quillen equivalence|Quillen equivalent]] [[model category|model categories]]).  
 
-### Spectra, CW-spectra
+### Sequential pre-spectra
 
 A simple first definition is to define a spectrum $\mathbf{E}$ to be a sequence of pointed spaces $(E_n)_{n\in\mathbb{N}}$ together with structure maps $\Sigma{}E_n\to{}E_{n+1}$ (where $\Sigma$ denotes the [[reduced suspension]]).
 
 There are various conditions that can be put on the spaces $E_n$ and the structure maps, for example if the spaces are CW-complexes and the structure maps are inclusions of subcomplexes, the spectrum is called a **CW-spectrum**.
 
-Without any condition, this is just called a **spectrum**, or sometimes a **pre-spectrum**.
+Without any condition, this is just called a **spectrum**, or sometimes a **pre-spectrum**. In order to distinguish from various other richer definitions (such as [[coordinate-free spectra]], one also speaks of _[[sequential spectra]]_).
 
 ### $\Omega$-spectra
  {#OmegaSpectrum}
@@ -102,7 +87,7 @@ The idea is that $E_0$ contains the information of $\mathbf{E}$ in dimensions $k
 $\Omega$-spectra are special cases of spectra, and are in fact the fibrant objects for some model structure on the category of spectra.
 Given any spectrum $\mathbf{E}$, it is easy to transform it into an equivalent $\Omega$-spectrum $\mathbf{F}$ (a fibrant replacement of $\mathbf{E}$) : just take $F_n=\lim_{m\to\infty}\Omega^m E_{n+m}$ and use the fact that $\Omega$ commutes with the filtered colimits.
 
-### Coordinate-free spectrum 
+### Coordinate-free spectra 
 
 A definition of spectrum consisting of spaces indexed by index sets less "coordinatized" than the integers is a 
 
@@ -110,7 +95,7 @@ A definition of spectrum consisting of spaces indexed by index sets less "coordi
 
 See there for details.
 
-### Combinatorial definition
+### Combinatorial spectra
 
 There might be a type of categorical structure related to a spectrum in the same way that $\infty$-categories are related to $\infty$-groupoids.  In other words, it would contain $k$-cells for all integers $k$, not necessarily invertible.  Some people have called this conjectural object a **$Z$-category**.   "Connective" $Z$-categories could perhaps then be identified with stably monoidal $\infty$-categories.
 
