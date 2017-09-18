@@ -237,7 +237,14 @@ following
 
 For commentary see also ([Nilsson 00, section 2](#Nilsson00)) and
 
-* {#CGNN00} [[Martin Cederwall]], Ulf Gran, Mikkel Nielsen, [[Bengt Nilsson]], _Manifestly supersymmetric M-theory_, JHEP 0010 (2000) 041 ([arXiv:hep-th/0007035](http://arxiv.org/abs/hep-th/0007035))
+* {#CGNN00} [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Manifestly supersymmetric M-theory_, JHEP 0010 (2000) 041 ([arXiv:hep-th/0007035](http://arxiv.org/abs/hep-th/0007035))
+
+Discussion of possible deformations of the torsion constraint ([[M-theory]] corrections) includes
+
+* [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Generalised 11-dimensional supergravity_, in A. Semikhatov, M. Vasiliev and V. Zaikin (eds.) Proceedings of "Quantization, Gauge Theory & Strings", Moscow 2000 ([arXiv:hep-th/0010042](http://arxiv.org/abs/hep-th/0010042))
+
+
+* [[Paul Howe]], [[Dimitrios Tsimpis]], _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 ([arXiv:hep-th/0305129](http://arxiv.org/abs/hep-th/0305129))
 
 ### For 10d heterotic supergravity
 
@@ -254,7 +261,10 @@ Discussion of torsion constraints for [[heterotic supergravity]] goes back to ([
 
 For [[d=4 N=1 supergravity]] the torsion is again constrained to be equal to the left-invariant torsion of super-Minkowski spacetime, see for instance
 
+
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 2, (III.2.28a), (III.3.66a) of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+* Daniel Patrick Butter, section 2.2.5 of _On conformal superspace and the One-Loop Effective Action in Supergravity_, 2010 ([pdf](http://digitalassets.lib.berkeley.edu/etd/ucb/text/Butter_berkeley_0028E_10582.pdf))
 
 ### For 2d supergravity / superstring worldsheets / super Riemann surfaces
 
