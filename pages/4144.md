@@ -16,10 +16,14 @@
 ## Idea
 
 _Syntomic cohomology_ is the [[abelian sheaf cohomology]] of the _syntomic site_ of a [[scheme]].
+It is a $p$-[[p-adic|adic]] analogue of [[Deligne-Beilinson cohomology]].
 
-It is closely related to the [[crystalline cohomology]] of that scheme. It may be regarded as an example of an [[absolute cohomology]] theory.
+It is closely related to the [[crystalline cohomology]] of that scheme. It may be regarded as a $p$-adic [[absolute Hodge cohomology]].
 
+## Related
 
+* [[Deligne-Beilinson cohomology]]
+* [[p-adic Hodge theory]]
 
 ## References
 
@@ -30,3 +34,7 @@ The syntomic site was introduced in
 Further developments are in
 
 * Amnon Besser, _Syntomic regulators and $p$-adic integration I: rigid syntomic regulators_ ([pdf](http://www.math.uiuc.edu/K-theory/0298/reg.pdf))
+
+The following shows that, just as [[Deligne-Beilinson cohomology]] may be interpreted as [[absolute Hodge cohomology]], syntomic cohomology may be interpreted as $p$-adic absolute Hodge cohomology.
+
+* [[Frédéric Déglise]], [[Wiesława Nizioł]], _On $p$-adic absolute Hodge cohomology and syntomic coefficients, I_, [arXiv:1508.02567](http://arxiv.org/abs/1508.02567).
