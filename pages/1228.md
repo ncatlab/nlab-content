@@ -61,7 +61,7 @@ $$
   \,,
 $$
 
-where $Y$ denotes the [[Yoneda embedding]]. In [[module]] language (...I forget which entry gives the discussion of this...) this reads
+where $Y$ denotes the [[Yoneda embedding]]. In [[module]] language, using the [[tensor product of functors]], this reads
 
 $$
   F(c) \simeq C(c,-)\otimes_C F
