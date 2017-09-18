@@ -37,7 +37,7 @@ is a [[subquotient]] of an object of the form $(f^* I) \times B$ for some $I  \i
     \,.
   $$
 
-* The [[gluing fibration]] $\partial_0 : \mathcal{E}/f^* : (\mathcal{E}/f^*)\to\mathcal{S}$ has a [[separating family]]
+* The [[gluing fibration]] $\partial_0 : (\mathcal{E}/f^*)\to\mathcal{S}$ has a [[separating family#fibered]].
 
 * The exists a $B\in\mathcal{E}$ such that for every $A\in\mathcal{E}$ the 
 composite
@@ -51,7 +51,7 @@ is epic, where $\tilde A$ is the [[partial map classifier]] of $A$.
 +-- {: .proof}
 ###### Proof of the equivalence.
 
-Proof goes here.
+Lemma B3.1.6 in the [[Elephant]]
 
 =--
 
