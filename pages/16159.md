@@ -27,7 +27,7 @@
 
 ###Idea
 
-In [[formal logic]] **propositional extensionality** holds when any two [[propositions]] $P$ and $Q$ are identified, $P = Q$. precisely if they [[implication|imply]] each other, $(P \leftrightarrow Q)$ (hence if they are _logically equivalent_ $(P \simeq Q)$), i.e.
+In [[formal logic]] **propositional extensionality** holds when any two [[propositions]] $P$ and $Q$ are identified, $P = Q$, precisely if they [[implication|imply]] each other, $(P \leftrightarrow Q)$ (hence if they are _logically equivalent_ $(P \simeq Q)$), i.e.
 
 $$
   (P=Q) \simeq (P\leftrightarrow Q)
@@ -38,7 +38,7 @@ $$
 
 ### In type theory and Relation to univalence
 
-In [[type theory]] the expression $(P=Q)$ is the [[identity type]] $Id_{Prop}(P,Q)$ of the [[type of propositions|universe of propositions]] (or of the whole [[universe of types]], under [[propositions as types]]), with $P$ and $Q$ [[substitution|substituted]]. One might more precisely write $('P'='Q')$ here, with the quotation marks indicating that this is the _name_ of the proposition namely a [[term]] of the universe type, rather than the proposition/type itself. 
+In [[type theory]] the expression $(P=Q)$ is the [[identity type]] $Id_{Prop}(P,Q)$ of the [[type of propositions|universe of propositions]] (or of the whole [[universe of types]], under [[propositions as types]]), with $P$ and $Q$ [[substitution|substituted]]. One might more precisely write $('P'='Q')$ here, with the quotation marks indicating that this is the _name_ of the proposition, namely a [[term]] of the universe type, rather than the proposition/type itself. 
 
 On the other hand, the expression $(P \leftrightarrow Q)$ in [[homotopy type theory]] is the type of [[equivalence in homotopy type theory|equivalences]] $(P \simeq Q)$ between the two propositions, hence the [[subtype]] of the [[function type]] $(P \to Q)$ on those terms that, in particular, have a [[homotopy inverse]].
 
@@ -67,7 +67,7 @@ Later this became [[Alfred Tarski]]'s _material adequacy condition_, also known 
 
 > $'P'$ is true if, and only if, $P$.
 
-(see _[Wikipdia -- Semantic theory of truth -- Tarski's theory](https://en.wikipedia.org/wiki/Semantic_theory_of_truth#Tarski.27s_Theory)_)
+(see _[Wikipedia -- Semantic theory of truth -- Tarski's theory](https://en.wikipedia.org/wiki/Semantic_theory_of_truth#Tarski.27s_Theory)_)
 
 This may be regarded as the above equivalence of propositional extensiomnaly for the case that $Q \coloneqq$ [[true]]:
 
