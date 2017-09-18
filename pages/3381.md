@@ -56,7 +56,7 @@ Finally, we can express this more compactly by writing $\pi$ in cycle form, as t
 One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
 
 ### Whitehead tower and relation to supersymmetry
- {#WhietheadTowerAndSupersymmetry}
+ {#WhiteheadTowerAndSupersymmetry}
 
 The [[symmetric groups]] and [[alternating groups]] are the first stages in a restriction of the [[Whitehead tower]] of the [[orthogonal group]] to "finite [[discrete ∞-groups]]" in the sense of [[homotopy type with finite homotopy groups]]. The [[homotopy fibers]] of the stages of the "finite Whitehead tower" are the [[stable homotopy groups of spheres]] ([Epa-Ganter 16](#EpaGanter16)). (See also at _[super algebra -- Abstract idea](super+algebra#AbstractIdea)_ and at _[[Platonic 2-group]]_.)
 
