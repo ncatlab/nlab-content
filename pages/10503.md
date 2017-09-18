@@ -9,6 +9,8 @@ An __endofunction__ (or __self-mapping__ or other variation) is an [[endomorphis
 
 ## Related concepts
 
+* [[fixed point]]
+
 * [[endomorphism]]
 
 * [[endofunctor]]
