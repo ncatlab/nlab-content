@@ -1,0 +1,10 @@
+
+* [Math Genealogy page](http://genealogy.math.ndsu.nodak.edu/id.php?id=154309)
+
+## related $n$Lab entries
+
+* [[Witten genus]]
+
+* [[volume conjecture]]
+
+category: people
