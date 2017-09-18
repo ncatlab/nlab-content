@@ -3060,12 +3060,13 @@ $$
  {#Stability}
 
 
-We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation $\Sigma$ is an [[equivalence of categories]] from the [[stable homotopy category]] to itself. This is theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} below. 
+We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation $\Sigma$ is an [[equivalence of categories]] from the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) to itself. This is theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} below. 
+
 
 +-- {: .num_defn #StableModelCategory}
 ###### Definition
 
-A [[pointed category|pointed]] [[model category]] $\mathcal{C}$ is called a **[[stable model category]]** if the canonically induced [[reduced suspension]] and [[loop space object]]-[[functors]] ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory))is an [[equivalence of categories]]
+A [[pointed category|pointed]] [[model category]] $\mathcal{C}$ is called a **[[stable model category]]** if the canonically induced [[reduced suspension]] and [[loop space object]]-[[functors]] ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) is an [[equivalence of categories]]
 
 $$
   (\Sigma \dashv \Omega)
@@ -3081,28 +3082,45 @@ $$
 
 =--
 
-In order to prove that this is the case for $SeqSpec(Top_{cg})$ we first relate now the operations of "standard suspension" (def. \ref{SequentialSpectrumRealSuspension}) and of "alternative suspension" (def. \ref{SequentialSpectrumFakeSuspension}) to each other. The former is manifestly a model for the correct suspension, but the latter is better behaved, so we will show that they are naturally isomorphic in the stable homotopy category. According to remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable} both are directly comparable and isomorphic in even degrees, but non-comparable in odd degree. Therefore we now first introduce the concept of sequential spectra with components only in even degree and then use an adjunction back to ordinary sequential spectra.
+In order to prove that this is the case for $SeqSpec(Top_{cg})_{stable}$ we first relate now the operations of "standard suspension" (def. \ref{SequentialSpectrumRealSuspension}) and of "alternative suspension" (def. \ref{SequentialSpectrumFakeSuspension}) to each other. The former is manifestly a model for the correct suspension, but the latter is better behaved, so we will show that they are naturally isomorphic in the stable homotopy category. According to remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable} both will be directly comparable and isomorphic (in $Ho(Spectra)$) in even degrees, but non-comparable in odd degree. Therefore we now first introduce the concept of sequential spectra with components only in even degree and then use an adjunction back to ordinary sequential spectra.
 
+**Literature** ([Jardine 15, sections 10.3 and 10.4](#Jardine15))
 
-+-- {: .num_defn #SequentialS2Spectra}
+$\,$
+
+Observe that the definition of the category $SeqSpec(Top_{cg})$ of [[sequential spectra]] in def. \ref{SequentialSpectra} does not require anything specific of the circle $S^1$: the same kind of definition may be considered for any other pointed topological space $T$ in place of $S^1$. Now the construction of the stable model structure $SeqSpec(Top_{cg})_{stable}$ in theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} does depend on the nature of $S^1$ in that it uses that a) $S^n$ co-represents [[homotopy groups]] in the classical pointed homotopy category $[S^1, -]_{\ast}\simeq \pi_1(-)$ and b) that $S^n = (S^1)^{\wedge^n}$ is [[compact topological space|compact]] (so that it may be passes through colimits of relative cell complex inclusions). Both of these still hold with $S^1$ replaced by $S^1 \wedge K_+$, for $K$ any contractible compact topological space. Moreover, since only the [[stable homotopy groups]] matter for the construction of the stable model category, one could replace $S^1$ by any $S^k$: While the smash powers $(S^k)^{\wedge n}$ co-represent only every $k$th homotopy group, this is still sufficient to co-represent the stable homotopy groups.
+
++-- {: .num_defn #SequentialTSpectra}
 ###### Definition
 
-A **sequential $S^2$-spectrum** is a sequence of component spaces $X_{2n} \in Top_{cg}$ for $n \in \mathbb{N}$, and a sequence of structure maps of the form
+Let $T_+ \in Top^{\ast/}_{cg}$ be a [[compact topological space|compact]] [[contractible topological space]] with a basepoint freely adjoined, and let $k \in \mathbb{N}$, $k \geq 1$.
+
+A **sequential $T \wedge S^k$-spectrum** is a sequence of component spaces $X_{k n} \in Top_{cg}$ for $n \in \mathbb{N}$, and a sequence of structure maps of the form
 
 $$
-  \sigma_n \;\colon\; S^2 \wedge X_{2n}  \longrightarrow X_{2n+2}
+  \sigma_{k,n} 
+    \;\colon\;  
+   T \wedge S^k \wedge X_{k n} 
+     \longrightarrow 
+   X_{k(n+1)}
   \,.
 $$
 
-A homomorphism of sequential $S^2$-spectra $f \colon X \to Y$ is a sequence of component maps $f_{2n} \;\colon\; X_{2n} \to Y_{2n}$ such that all these diagrams commute:
+A homomorphism of sequential $T \wedge S^k$-spectra $f \colon X \to Y$ is a sequence of component maps $f_{k n} \;\colon\; X_{k n} \to Y_{k n}$ such that all these diagrams commute:
 
 $$
   \array{
-    S^2 \wedge X_{2n} &\overset{S^2 \wedge f_{2n}}{\longrightarrow}& Y_{2n}
+    T \wedge S^k \wedge X_{k n } 
+      &\overset{S^2 \wedge f_{k n}}{\longrightarrow}& 
+    Y_{k n}
     \\
-    {}^{\mathllap{\sigma_n^{X}}}\downarrow && \downarrow^{\mathrlap{\sigma_n^Y}}
+    {}^{\mathllap{\sigma_{k,n}^{X}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\sigma_{k,n}^Y}}
     \\
-    X_{2n+2} &\underset{f_{2n+2}}{\longrightarrow}& Y_{n+2}
+    X_{k(n+1)} 
+      &\underset{f_{k(n+1)}}{\longrightarrow}& 
+    Y_{k(n+1)}
   }
   \,.
 $$
@@ -3110,53 +3128,58 @@ $$
 Write
 
 $$
-  Seq_2Spec(Top_{cg})
+  Seq_{T\wedge S^k}Spec(Top_{cg})
 $$
 
-for the resulting category of sequential $S^2$-spectra.
+for the resulting category of sequential $T \wedge S^k$-spectra.
 
 =--
 
-+-- {: .num_lemma #AdjunctionBetweenSequentialSpectraAndSequentialS2Spectra}
+
++-- {: .num_lemma #AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}
 ###### Lemma
 
-There is a pair of [[adjoint functors]]
+For $k \in \mathbb{N}$, $k \geq 1$, there is a pair of [[adjoint functors]]
 
 $$
   SeqSpec(Top_{cg})
     \underoverset  
-     {\underset{R_2}{\longrightarrow}}
-     {\overset{L_2}{\longleftarrow}}
+     {\underset{R_k}{\longrightarrow}}
+     {\overset{L_k}{\longleftarrow}}
      {\bot}
-  Seq_2Spec(Top_{cg})
+  Seq_{S^k}Spec(Top_{cg})
 $$
 
-between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^2$-spectra (def. \ref{SequentialS2Spectra})
+between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^k$-spectra (def. \ref{SequentialTSpectra})
 
-* where $(R_2 X)_{2 n} \coloneqq X_{2 n}$ and 
+* where $(R_k X)_{k n} \coloneqq X_{k n}$ and 
 
   $$
-    \sigma_n^{R_2 X} 
+    \sigma_n^{R_k X} 
       \;\colon\;
-    S^2 X_{2n}
+    S^k X_{k n}
       \simeq
-    S^1 \wedge S^1 \wedge X_{2n}
-      \overset{S^1 \wedge \sigma_{2n}^X}{\longrightarrow}
-    S^1 \wedge X_{2n+1}
-      \overset{\sigma_{2n+1}^X}{\longrightarrow}
-    X_{2n+2}
+    S^{k-1}\wedge S^1 \wedge X_{k n}
+      \overset{S^1 \wedge \sigma_{k n}^X}{\longrightarrow}
+    S^{k-1} \wedge X_{k n +1}
+      \longrightarrow
+    \cdots
+      \longrightarrow
+    S^1 \wedge X_{k n+ (k-1)}
+      \overset{\sigma_{k n + (k-1)}^X}{\longrightarrow}
+    X_{k(n+1)}
   $$
 
 * and where 
 
   $$
-   (L_2 \mathcal{X})_n 
+   (L_k \mathcal{X})_n 
      \coloneqq 
    \left\{ 
      \array{ 
-        \mathcal{X}_n & if \; n \; even  
+        \mathcal{X}_n & if \; n \in k \mathbb{N}
         \\ 
-        S^1 \wedge \mathcal{X}_{n-1} & if \; n \; odd
+        S^q \wedge \mathcal{X}_{n-q} & if \; q \lt k \; and n-q \in k \mathbb{N}
      }
    \right.
   $$ 
@@ -3164,13 +3187,14 @@ between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^2$-s
   and
 
   $$
-    \sigma^{L_2 \mathcal{X}}_{n}
+    \sigma^{L_k \mathcal{X}}_{n}
     =
     \left\{
       \array{
-        id_{S^1 \wedge \mathcal{X}_n} & if \; n \; even
+        \sigma^{\mathcal{X}}_{n - (k-1)} & if n+1 \in k \mathbb{N}
         \\
-        \sigma^{\mathcal{X}}_n & if \; n \; odd
+        id_{S^1 \wedge \mathcal{X}_n} & otherwise
+        \\
       }
     \right.
     \,.
@@ -3179,17 +3203,17 @@ between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^2$-s
 Moreover, for each $X \in SeqSpec(Top_{cg})$, the [[adjunction unit]]
 
 $$
-  L_2 R_2 X \longrightarrow X
+  L_k R_k X \longrightarrow X
 $$
 
-is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) hence (by prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence}) a stable weak equivalence.
+is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) hence (by lemma \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence}) a stable weak equivalence.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-To see that we have an adjunction, consider a homomorphism
+For ease of notation we discuss this for $k = 2$. The general case is directly analogous. To see that we have an adjunction, consider a homomorphism
 
 $$
   f \;\colon\;  L_2 \mathcal{X} \longrightarrow Y
@@ -3212,7 +3236,7 @@ $$
   \,.
 $$
 
-Since here the left map is an identity, this uniquely fixes the odd-graded components $f_{2n+1}$ in terms of the even-graded components. Moreover, these components then make following pasting rectangles comute
+Since here the left map is an identity, this uniquely fixes the odd-graded components $f_{2n+1}$ in terms of the even-graded components. Moreover, these components then make the following pasting rectangles comute
 
 $$
   \array{
@@ -3236,8 +3260,9 @@ $$
   \tilde f
     \;\colon\;
   \mathcal{X} \longrightarrow R_2 Y
-  \,.
 $$
+
+and hence establishes the adjunction isomorphism.
 
 Finally to see that the [[adjunction unit]] is a [[stable weak homotopy equivalence]]: for $X \in SeqSpec(Top_{cg})$ then the morphism of stable homotopy groups induced from 
 
@@ -3260,10 +3285,26 @@ $$
   \,.
 $$
 
-From this it is clear that the induced vertical map on the right is an isomorphism. (Technically: the inclusion of [[partially ordered sets]] $\mathbb{N}_{even}^{\leq} \hookrightarrow \mathbb{N}^{\leq}$ is a [[cofinal functor]] and hence restriction along it preserves colimits.)
+From this it is clear by inspection that the induced vertical map on the right is an isomorphism. Stated more abstractly: the inclusion of [[partially ordered sets]] $\mathbb{N}_{even}^{\leq} \hookrightarrow \mathbb{N}^{\leq}$ is a [[cofinal functor]] and hence restriction along it preserves colimits.
 
 =--
 
++-- {: .num_lemma #EquivalenceBetweenTSpectraForEquivalentT}
+###### Lemma
+
+For $T \coloneqq K_+$ a compact contractible topological space with base point adjoined, and for 
+$k \in \mathbb{N}$, $k \geq 1$, then the canonical functors constitute an [[equivalence of categories]]
+
+$$
+  Ho((Seq_{T\wedge S^k}Spec)_{stable})
+    \simeq
+  Ho((Seq_{S^k}Spec)_{stable})
+  \,.
+$$
+
+=--
+
+([Jardine 15, theorem 10.40](#Jardine15))
 
 +-- {: .num_lemma #IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}
 ###### Lemma
@@ -3280,43 +3321,116 @@ $$
 
 =--
 
-(e.g. [Jardine 15, prop. 10.53](sequential#spectrum#Jardine15))
+([Jardine 15, prop. 10.53](#Jardine15))
 
 +-- {: .proof}
 ###### Proof
 
-Consider the adjunction $(L_2 \dashv R_2) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ from lemma \ref{AdjunctionBetweenSequentialSpectraAndSequentialS2Spectra}.
+Consider the adjunction $(L_2 \dashv R_2) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ from lemma \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}.
 
-Via the discussion in remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable}, there is a [[natural isomorphism]] in $Seq_2 Spec(Top)$ between the image under $R_2$ of the two suspension operations
+We claim that there is a [[natural isomorphism]]
 
 $$
   \tau \;\colon\; R_2 (\Sigma(-)) \simeq R_2((-)\wedge S^1)
   \,,
 $$
 
-whose components are given by the [[smash product]]-[[braiding]] isomorphisms
+in $Ho(Seq_{S^2}Spec(Top_{cg})_{stable})$.
 
-$$
-  S^2 \wedge (-) 
-    \overset{\simeq}{\longrightarrow}
-  (-) \wedge S^2
-  \,.
-$$
-
-By lemma \ref{AdjunctionBetweenSequentialSpectraAndSequentialS2Spectra} the [[adjunction unit]] is a stable weak equivalence, so that we get a natural [[zig-zag]] of stable weak equivalences:
+This implies the statement, since by lemma \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra} the [[adjunction unit]] is a stable weak equivalence, so that we get natural isomorphisms
 
 $$
   \Sigma X
-    \underset{\in W_{st}}{\longleftarrow} 
+    \simeq
   L_2 R_2 (\Sigma X) 
-    \underoverset{\in Iso \subset W_{st}}{L\tau}{\longrightarrow}
+    \underoverset{\simeq}{L_2 \tau}{\longrightarrow}
   L_2 R_2 (X \wedge S^1)
-    \underset{\in W_{st}}{\longrightarrow}
+    \simeq
   X \wedge S^1
+$$
+
+in $Ho(SeqSpec(Top_{cg})_{stable})$.
+
+Now to see that the isomorphism $\tau$ exists .
+
+Write
+
+$$
+  \tau_{S^2,S^1}
+    \;\colon\;
+  S^2 \wedge S^1
+    \overset{\simeq}{\longrightarrow}
+  S^1 \wedge S^2
+$$
+
+for the [[braiding]] isomorphism, which swaps the first two canonical coordinates with the third. Since the homotopy class of this map is trivial in that 
+
+$$
+  [\tau_{S^2, S^1}]
+  =
+  1
+  \in 
+  \mathbb{Z}
+  \simeq
+  \pi_3(S^3)
+$$
+
+is the trivial element in the [[homotopy groups of spheres]] (and that is the point of passing to $S^2$-spectra here, because for $S^1$-spectra the analogous map $\tau_{S^1, S^1}$ has non-trivial class, remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable}) it follows (invoking the [[Whitehead theorem]], [prop.](Introduction+to+Stable+homotopy+theory+--+P#WhiteheadTheoremInModelCategories)) that there is a [[left homotopy]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftHomotopy)) of the form
+
+$$
+  \array{
+    S^3 
+      &\overset{i_0}{\longrightarrow}& 
+   (I_+) \wedge S^3
+      &\overset{i_1}{\longleftarrow}& 
+   S^3
+   \\
+   & {}_{\mathllap{id}}\searrow 
+     & \downarrow & 
+   \swarrow_{\mathrlap{\tau_{S^2, S^1}}}
+   \\
+   && S^3 \wedge 
+  }
   \,.
 $$
 
-So restricted to $X$ a cofibrant-object, this gives a natural isomorphism $\Sigma X \to X \wedge S^1$ in the [[stable homotopy category]] $Ho(SeqSpec(Top_{cg})_{stable})$.
+By forming the [[smash product]] of the entire diagram with $X_{2n}$ and [[pasting]] on the right the naturality square for the braiding with $S^1$, this yields the diagram
+
+$$
+  \array{
+    S^3 \wedge X_{2n}
+      &\overset{i_0}{\longrightarrow}& 
+   (I_+) \wedge S^3 \wedge X_{2n}
+      &\overset{i_1}{\longleftarrow}& 
+   S^3 \wedge X_{2n}
+     &\overset{\tau_{S^2\wedge X_{2n}, S^1}}{\longleftarrow}&
+   S^2 \wedge X_{2n} \wedge S^1
+   \\
+   & {}_{\mathllap{id}}\searrow 
+     & \downarrow & 
+   \swarrow_{\mathrlap{\tau_{S^2, S^1} \wedge X_n}}
+   && \swarrow_{\mathrlap{(\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n})) \wedge S^1}}
+   \\
+   && 
+   S^3 \wedge X_{2n} 
+     && 
+   &
+   X_{2n} \wedge S^1
+   \\
+   &&
+   &  {}_{\mathllap{S^1 \wedge (\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n}))}}\searrow
+   & 
+   \swarrow_{\mathrlap{\tau_{S^1, X_{2n}}}}
+   \\
+   && && S^1 \wedge X_{2(n+1)}
+  }
+  \,.
+$$
+
+Here the left diagonal composite is the structure map of $R_2 (\Sigma X)$ in degree $n$, while on the right we have the structure map of $R_2 ( X \wedge S^1 )$ in degree $n$. In the middle we have the structure map of an auxiliary $(I_+) \wedge S^2$-spectrum, and the horizontal morphisms exhibit the canonical morphisms from $S^2$-spectra to $(I_+)\wedge S^2$-spectra.
+
+Hence lemma \ref{EquivalenceBetweenTSpectraForEquivalentT} gives the required isomorphism ([Jardine 15, corollary 10.42](#Jardine15)).
+
 
 =--
 
@@ -3399,9 +3513,21 @@ $$
   SeqSpec(Top_{cg})_{stable}
     \underoverset
      {\underset{\Omega}{\longrightarrow}}
-     {\overset{\Sigma}{\longrightarrow}}
+     {\overset{\Sigma}{\longleftarrow}}
      {\simeq_{\mathrlap{Q}}}
   SeqSpec(Top_{cg})_{stable}
+  \,.
+$$
+
+Its [[derived functors]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) exhibit the canonical [[reduced suspension]] and looping operation as an [[adjoint equivalence]] on the [[stable homotopy category]]
+
+$$
+  Ho(Spectra)
+    \underoverset
+     {\underset{\Omega}{\longrightarrow}}
+     {\overset{\Sigma}{\longleftarrow}}
+     {\simeq}
+  Ho(Spectra)
   \,.
 $$
 
@@ -3412,12 +3538,11 @@ $$
 ###### Proof
 
 By prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} and the fact that the stable model structure has the same cofibrations as the strict model structure,  $\Sigma$ preserves stable cofibrations. Moreover, by lemma \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves in fact all stable weak equivalences. Hence $\Sigma$ is a left Quillen functor and so $(\Sigma \dashv \Omega)$ is a [[Quillen adjunction]].
-
-With this, lemma \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories} gives that this Quillen adjunction is a Quillen equivalence.
+Finally lemma \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories} gives that this Quillen adjunction is a Quillen equivalence.
 
 =--
 
-In summary, this concludes the characterization of the [[stable homotopy category]] as the result of stabilizing the canonucal $(\Sigma \dashv \Omega)$-adjunction on the [[classical homotopy category]]:
+In summary, this concludes the characterization of the [[stable homotopy category]] as the result of stabilizing the canonical $(\Sigma \dashv \Omega)$-adjunction on the [[classical homotopy category]]:
 
 +-- {: .num_cor #StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory}
 ###### Corollary
@@ -3494,8 +3619,9 @@ $$
 
 and here the horizontal adjunctions are the canonically induced (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory))suspension/looping functors by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory} and by lemma \ref{StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension} and theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}.
 
-
 =--
+
+
 
 ### The stable homotopy category 
 
