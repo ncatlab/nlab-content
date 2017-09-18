@@ -125,9 +125,11 @@ As such, the [[quantomorphism group]] naturally [[action|acts]] on the [[space o
 
 ### Infinitesimal symmetries
 
-#### The Poisson bracket, Heisenberg algebra, and infinitesimal quantomorphisms
 
-We discuss the traditional definition of the [[Poisson bracket]] of a ([[presymplectic manifold|pre-]])[[symplectic manifold]], highlighting how conceptually it may be understood as the algebra ofinfinitesimal symmetries of any of its [[prequantizations]].
+#### Poisson brackets and Heisenberg algebra
+ {#PoissonBracketHeisenbergAlgebraInfinitesimalQuantomorphisms}
+
+We discuss the traditional definition of the [[Poisson bracket]] of a ([[presymplectic manifold|pre-]])[[symplectic manifold]], highlighting how conceptually it may be understood as the algebra of infinitesimal symmetries of any of its [[prequantizations]].
 
 +-- {: .num_defn #PresymplecticManifold}
 ###### Definition
@@ -213,7 +215,7 @@ $$
 called the _[[Poisson bracket]]_, where $[v_1,v_2]$ is the standard Lie bracket on [[vector fields]]. Write
 
 $$
-  \mathfrak{Pois}(X,\omega)
+  \mathfrak{poiss}(X,\omega)
   \coloneqq
   (Ham(X,\omega),[-,-])
 $$
@@ -221,7 +223,7 @@ $$
 for the resulting [[Lie algebra]]. In the case that $\omega$ is symplectic, then $Ham(X,\omega) \simeq C^\infty(X)$ and hence in this case
 
 $$
-  \mathfrak{Pois}(X,\omega)
+  \mathfrak{poiss}(X,\omega)
   \simeq
   (C^\infty(X),[-,-])
   \,.
@@ -250,7 +252,7 @@ Moreover, since $X$ is [[connected topological space|connected]], these Hamilton
 $$
   [q^i, p_j]
   \coloneqq
-  [(-\partial_{p_i}, q^i), (-\partial_{q^j}, p_j)]
+  [(-\partial_{p_i}, q^i), (\partial_{q^j}, p_j)]
   =
   -
   \delta_j^i
@@ -267,6 +269,8 @@ This is called the [[Heisenberg algebra]].
 More generally, the [[Hamiltonian vector fields]] corresponding to [[quadratic Hamiltonians]], i.e. degree-2 [[polynomials]] in the $\{q^i\}$ and $\{p_i\}$, generate the [[affine symplectic group]] of $(X,\omega)$. The freedom to add constant terms to Hamiltonians gives the [[extended affine symplectic group]].
 
 =--
+
+#### Infinitsimal quantomorphisms
 
 Example \ref{HeisenbergAlgebraOfSymplecticVectorSpace} serves to motivate a more conceptual origin of the definition of the Poisson bracket in def. \ref{PoissonBracket}.
 
@@ -320,16 +324,18 @@ Notice then the following basic but important fact.
 +-- {: .num_prop}
 ###### Proposition
 
-For $(X,\omega)$ a [[presymplectic manifold]] and $\theta \in \Omega^1(X)$ a 1-form such that $d \theta = \omega$ then for $(v,\alpha) \in Vect(X)\oplus C^\infty(X)$ the condition
+For $(X,\omega)$ a [[presymplectic manifold]] and $\theta \in \Omega^1(X)$ a 1-form such that $d \theta = \omega$ then for $(v,\alpha) \in Vect(X)\oplus C^\infty(X)$ the condition $\mathcal{L}_v \theta = d \alpha$ is equivalent to the condition that makes 
+
+$$
+  H \coloneqq \iota_v \theta - \alpha 
+$$ 
+
+a [[Hamiltonian]] for $v$ according to def. \ref{HamiltonianVectorField}:
 
 $$
   \mathcal{L}_v \theta = d \alpha
-$$
-
-is equivalent to the condition that makes $H \coloneqq \iota_v \theta - \alpha $ a [[Hamiltonian]] for $v$ according to def. \ref{HamiltonianVectorField}:
-
-$$
-  \iota_v \omega + d (\iota_v \theta - \alpha  ) = 0
+    \;\;\;\Leftrightarrow\;\;\;  
+  \iota_v \omega + d (\underset{H}{\underbrace{\iota_v \theta - \alpha}}) = 0
   \,.
 $$
 
@@ -337,11 +343,11 @@ Moreover, the [[Poisson bracket]], def. \ref{PoissonBracket}, between two such H
 
 \[
   \label{EquationForLieHomomorphism}
-  \iota_{v_2}\iota_{v_1}\omega 
-  -
   \iota_{[v_1,v_2]} \theta
+  -
+  \iota_{v_2}\iota_{v_1}\omega 
   = 
-  \mathcal{L}_{v_2} \alpha_1 - \mathcal{L}_{v_1} \alpha_2
+  \mathcal{L}_{v_1} \alpha_2 - \mathcal{L}_{v_2} \alpha_1
 \]
 
 =--
@@ -399,7 +405,7 @@ $$
 For $(X,\omega)$ a [[presymplectic manifold]] with $\theta \in \Omega^1(X)$ such that $d \theta = \omega$, consider the [[Lie algebra]]
 
 $$
-  \mathfrak{QuantMorph}(X,\theta)
+  \mathfrak{quantmorph}(X,\theta)
   =
   \left\{
     (v,\alpha) | \mathcal{L}_v \theta = d \alpha
@@ -418,15 +424,15 @@ $$
 Then by (eq:EquationForLieHomomorphism) the linear map
 
 $$
-  (v,H) \mapsto (v, H - \iota_v \theta)
+  (v,H) \mapsto (v, \iota_v \theta - H)
 $$
 
 is an [[isomorphism]] of [[Lie algebras]]
 
 $$
-  \mathfrak{Pois}(X,\omega) 
+  \mathfrak{poiss}(X,\omega) 
     \stackrel{\simeq}{\longrightarrow}
-  \mathfrak{QuantMorph}(X,\theta)
+  \mathfrak{quantmorph}(X,\theta)
 $$
 
 from the [[Poisson bracket Lie algebra]], def. \ref{PoissonBracket}.
@@ -438,7 +444,13 @@ This shows that for exact pre-symplectic forms the Poisson bracket Lie algebra i
 +-- {: .num_defn #CechDelignePrequantizationAnditsInfinitesimalAutomorpisms}
 ###### Definition
 
-For $(X,\omega)$ a [[presymplectic manifold]], a [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne]] [[cocycle]] $(X,\{U_i\},\{g_{i j}, \theta_i\})$ for a  _[[prequantization]]_ of $(X,\omega)$ is
+For $(X,\omega)$ a [[presymplectic manifold]], a [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne]] [[cocycle]] 
+
+$$
+  (X,\overline{\theta}) \coloneqq (X,\{U_i\},\{g_{i j}, \theta_i\})
+$$ 
+
+for a  _[[prequantization]]_ of $(X,\omega)$ is
 
 1. an [[open cover]] $\{U_i \to X\}_i$;
 
@@ -457,7 +469,7 @@ such that
 The _quantomorphism Lie algebra_ of this is 
 
 $$
-  \mathfrak{QuantMorph}(X,\{U_i\},\{g_{i j}, \theta_i\})
+  \mathfrak{quantmorph}(X,\overline{\theta})
   =
   \left\{
     (v, \{\alpha_i\})
@@ -495,11 +507,12 @@ $$
 constitutes an [[isomorphism]] of [[Lie algebras]]
 
 $$
-  \mathfrak{Pois}(X,\omega)
+  \mathfrak{poiss}(X,\omega)
   \stackrel{\simeq}{\longrightarrow}
-  \mathfrak{QuantMorph}(X,\{U_i\},\{g_{i j}, \theta_i\})
-  \,.
+  \mathfrak{quantmorph}(X,\overline{\theta})
 $$
+
+between the [[Poisson bracket]] algebra of def. \ref{PoissonBracket} and that of infinitesimal quantomorphisms, def. \ref{CechDelignePrequantizationAnditsInfinitesimalAutomorpisms}.
 
 =--
 
@@ -520,8 +533,211 @@ Now over each $U_i$ the the situation for the brackets is just that of corollary
 
 =--
 
+#### Higher Poisson brackets and higher Heisenberg algebra
 
-### Finite symmetries
+In the discussion [above](PoissonBracketHeisenbergAlgebraInfinitesimalQuantomorphisms) we amplified that the definition of the [[Poisson bracket]] of a [[symplectic form]] has an immediate generalization to [[presymplectic forms]], hence to any closed [[differential 2-form]]. This naturally suggests to ask for higher analogs of this bracket for the case of of closed [[differential form|differential (p+2)-forms]] $\omega \in \Omega^{p+2}(X)$ for $p \gt 0$.
+
+Indeed, the natural algebraic form of definition \ref{HamiltonianVectorField} of Hamiltonian vector fields makes immediate sense for higher $p$, with the Hamiltonians $H$ now being $p$-forms, and the natural algebraic form of the binary Poisson bracket of def. \ref{PoissonBracket}  makes immediate sense as a bilinear pairing for any $p$:
+
+$$
+ [(v_1, H_1), (v_2, H_2)] 
+   \coloneqq
+ ([v_1,v_2], \iota_{v_2} \iota_{v_1} \omega)
+ \,.
+$$
+
+However, one finds that for $p \gt 0$ then this bracket does not satisfy the [[Jacobi identity]]. On the other hand, the failure of the Jacobi identity turns out to be an exact form, and hence in the spirit of regarding the shift of a differential form by a de Rham differential as a [[homotopy]] or [[gauge transformation]] this suggests that the bracket might still give a Lie algebra upto higher [[coherence|coherent]] homotopy, called a _[[strong homotopy Lie algebra]]_ or _[[L-∞ algebra]]_. This turns out to indeed be the case ([Rogers 10](#Rogers10)).
+
+
++-- {: .num_defn #PrenplecticManifold}
+###### Definition
+
+For $p \in \mathbb{N}$, we say that a _[[pre-n-plectic manifold|pre-(p+1)-plectic manifold]]_ is a [[smooth manifold]] $X$ equipped with a closed degree-$(p+2)$ [[differential form]] $\omega \in \Omega^{p+2}(X)$.
+
+This is called an [[n-plectic manifold|(p+1)-plectic manifold]] if the [[kernel]] of the contraction map
+
+$$
+  \iota_{(-)} \colon Vect(X) \longrightarrow \Omega^{p+1}(X)
+$$
+
+is trivial.
+
+=--
+
++-- {: .num_defn #HamiltonianFormsAndVectorFields}
+###### Definition
+
+Given a pre-$(p+1)$-plectic manifold $(X,\omega)$, def. \ref{PrenplecticManifold}, write 
+
+$$
+  Ham^{p}(X) \subset Vect(X) \oplus \Omega^{p}(X)
+$$
+
+for the subspace of the [[direct sum]] of [[vector fields]] $v$ on $X$ and [[differential n-form|differential p-forms]] $J$ on $X$ satisfying
+
+$$
+  \iota_v  \omega + d J = 0
+  \,.
+$$
+
+We call these the _pairs of [[Hamiltonian forms]] with their [[Hamiltonian vector fields]]_.
+
+=--
+
++-- {: .num_defn #PoissonBracketLienAlgebra}
+###### Definition
+
+Given a pre-$(p+1)$-plectic manifold $(X,\omega)$, def. \ref{PrenplecticManifold}, 
+define an [[L-∞ algebra]] $\mathfrak{poiss}(X,\omega)$, to be called the _[[Poisson bracket Lie (p+1)-algebra]]_ as follows.
+
+The underlying [[chain complex]] is the truncated [[de Rham complex]] ending in Hamiltonian forms as in def. \ref{HamiltonianFormsAndVectorFields}:
+
+$$
+  \Omega^0(X)
+  \stackrel{d}{\to}
+  \Omega^1(X)
+  \stackrel{d}{\to}
+  \cdots 
+  \stackrel{d}{\to}
+  \Omega^{p-1}(X)
+  \stackrel{(0,d)}{\longrightarrow}  
+  Ham^{p}(X)
+$$
+
+with the Hamiltonian pairs, def. \ref{HamiltonianFormsAndVectorFields}, in degree 0 and with the 0-forms ([[smooth functions]]) in degree $p$. 
+
+The non-vanishing $L_\infty$-brackets are defined to be the following
+
+* $l_1(J) = dJ$
+
+* $l_{k \geq 2}(v_1 + J_1, \cdots, v_k + J_k) 
+  \coloneqq 
+  - (-1)^{\left(k+1 \atop 2\right)} \iota_{v_k}\cdots \iota_{v_1}\omega$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Definition \ref{PoissonBracketLienAlgebra} indeed gives an [[L-∞ algebra]] in that the higher [[Jacobi identity]] is satisfied.
+
+\[
+ \label{LInfinityJacobiIdentity}
+  \sum_{i+j = n+1} 
+  \sum_{\sigma \in UnShuff(i,j)}
+
+  (-1)^{sgn(\sigma)} 
+   l_i \left(
+     l_j \left( x_{\sigma(1)}, \cdots, x_{\sigma(j)} \right),
+     x_{\sigma(j+1)} , \cdots , x_{\sigma(n)}
+   \right)
+  = 0
+  \,,
+\]
+
+=--
+
+For the special case of $(p+1)$-plectic $\omega$ this is due to ([Rogers 10, lemma 3.7](#Rogers10)), for the general pre-$(p+1)$-plectic case this is ([FRS 13b, prop. 3.1.2](#FRS13b)).
+
++-- {: .proof}
+###### Proof
+
+Repeatedly apply [[Cartan's magic formula]] $\mathcal{L}_v = \iota_v \circ d + d \circ \iota_v$ as well as the consequence $\mathcal{L}_{v_1} \circ \iota_{v_2} - \iota_{v_2} \circ \mathcal{L}_{v_1} = \iota_{[v_1,v_2]}$ to find that for all vector fields $v_i$ and differential forms $\beta$ (of any degree, not necessarily closed) one has
+
+$$
+  \begin{aligned}
+    (-1)^k d \iota_{v_k} \cdots \iota_{v_1}  \beta
+    = &
+    \underset{1 \leq i \lt j \leq k}{\sum}
+    (-1)^{i+j} 
+     \iota_{v_k}
+      \cdots
+      \widehat{\iota_{v_j}}
+      \cdots
+      \widehat{\iota_{v_i}}
+      \cdots
+     \iota_{[v_i,v_j]}
+     \\
+     & + 
+     \underoverset{i=1}{k}{\sum}
+     (-1)^i
+     \iota_{v_k}
+     \cdots
+     \widehat{\iota_{v_i}}
+     \cdots
+     \iota_{v_1}
+     \mathcal{L}_{v_i}
+     \beta
+     \\
+     & +
+     \iota_{v_k}
+     \cdots
+     \iota_{v_1}
+     d \beta
+  \end{aligned}
+  \,.
+$$
+
+With this, the statement follows straightforwardly.
+
+=--
+
+
+
+#### Higher infinitesimal quantomorphisms
+
++-- {: .num_defn #PoissondgAlgebra}
+###### Definition
+
+Let $\overline{\theta}$ be any [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne]]-[[cocycle]] relative to an [[open cover]] $\mathcal{U}$ of $X$, which gives a [[prequantum n-bundle]] for $\omega$. The [[L-∞ algebra]] 
+$\mathfrak{quantmorph}(X,\overline{\theta})$ is the [[dg-Lie algebra]] (regarded as an $L_\infty$-algebra) whose underlying [[chain complex]] is 
+
+$\mathfrak{quantmorph}(X,\overline{\theta})^0 = \{v+ \overline{\alpha}  \in Vect(X)\oplus Tot^{n-1}(\mathcal{U}, \Omega^\bullet) \;\vert\; \mathcal{L}_v \overline{\theta} = \mathbf{d}_{Tot}\overline{\alpha}\}$;
+
+$\mathfrak{quantmorph}(X,\overline{\theta})^{i \gt 0} = Tot^{n-1-i}(\mathcal{U},\Omega^\bullet)$
+
+with [[differential]] given by $d_{Tot}$ (where $Tot$ refers to [[total complex]] of the Cech-de Rham [[double complex]]).
+
+The non-vanishing dg-Lie bracket on this complex are defined to be
+
+* $[v_1 + \overline{\alpha}_1, v_2 + \overline{\alpha}_2] \coloneqq [v_1, v_2] + \mathcal{L}_{v_1}\overline{\alpha}_2 - \mathcal{L}_{v_2}\overline{\alpha}_1$
+
+* $[v+ \overline{\theta}, \overline{\eta}] = - [\eta, v + \overline{\theta}] = \mathcal{L}_v \overline{\eta}$.
+
+=--
+
+([FRS 13b, def./prop. 4.2.1](#FRS13b))
+
+
+
++-- {: .num_prop #ComparisonTheorem}
+###### Proposition
+
+There is an [[equivalence]] in the [[model structure for L-∞ algebras|homotopy theory of L-∞ algebras]]
+
+$$
+  f
+  \colon
+  \mathfrak{poiss}(X,\omega)
+  \stackrel{\simeq}{\longrightarrow}
+  \mathfrak{quantmorph}(X,\overline{\theta})
+$$
+
+between the $L_\infty$-algebras of def. \ref{PoissonBracketLienAlgebra} and def. \ref{PoissondgAlgebra} (in particular def. \ref{PoissondgAlgebra} does not depend on the choice of $\overline{A}$) whose underlying [[chain map]] satisfies
+
+* $f(v + J) = (v,\; \sum_{i = 0}^n (-1)^i \iota_v \theta^{n-i} - J|_{\mathcal{U}})$.
+
+=--
+
+([FRS 13b, theorem 4.2.2](#FRS13b))
+
+
+
+
+
+### Finite symmetries 
+
+
 
 
 Throughout, let $\mathbb{G} \in Grp(\mathbf{H})$ be a [[braided ∞-group]] equipped with a [[Hodge filtration]]. Write $\mathbf{B}\mathbb{G}_{conn}\in $ for the corresponding [[moduli stack]] of [[differential cohomology]].
@@ -758,6 +974,10 @@ The class of the [[cocycle]] $\mathbf{KS}(\rho)$ is the [[obstruction]] to prequ
 
 
 ## References
+
+* {#Rogers10} [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ , 
+Letters in Mathematical Physics April 2012, Volume 100, Issue 1, pp 29-50  ([arXiv:1005.2230](http://arxiv.org/abs/1005.2230), [journal](http://link.springer.com/article/10.1007%2Fs11005-011-0493-x)).
+
 
 * {#FRS13a} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
 
