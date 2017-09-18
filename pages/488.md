@@ -39,7 +39,24 @@ Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in 
 
 Boolean toposes are closed related to [[measurable spaces]] (e.g [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
 
-### As atoms in a subtopos lattice
+### As atoms in the subtopos lattice
+
++-- {: .num_prop}
+###### Proposition
+
+For $\mathcal{E}$ a [[topos]], then the following are equivalent:
+
+1. $\mathcal{E}$ is a Boolean topos;
+
+1. Every [[subtopos]] of $\mathcal{E}$ is Boolean.
+
+1. Every [[subtopos]] of $\mathcal{E}$ is an [[open subtopos]].
+
+1. Every [[subtopos]] of $\mathcal{E}$ is a [[closed subtopos]].
+
+=--
+
+([Johnstone, prop. A 4.5.22](#Johnstone))
 
 +-- {: .num_prop}
 ###### Proposition
@@ -63,6 +80,8 @@ Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R
 [[Barr's theorem]] implies that any topos $E$ can be covered by a Boolean topos $F$, in the sense of there being a [[surjective geometric morphism]] $f \colon F \to E$. 
 
 ## References
+
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 * {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006 ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
 
