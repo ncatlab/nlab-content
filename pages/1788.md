@@ -50,13 +50,13 @@ Evalutation on [[stalks]] is a [[filtered colimit]] which preserves the [[finite
 
 In order to appeal to prop. \ref{nImageFactroizationModeledOnSimplicialPrsheaves} we are interested in explicit models for $n$-image factorization of morphisms of [[Kan complexes]]. The following gives such for the special case that the the morphism of Kan complexes is the image under the [[Dold-Kan correspondence]] of a [[chain map]] between [[chain complexes]].
 
-+-- {: .num_defn #ChainComplexnPlusOneImageInDegreen}
-###### Definition
++-- {: .num_remark #ChainComplexnPlusOneImageInDegreen}
+###### Remark
 
 Let $f_\bullet \colon V_\bullet \longrightarrow W_\bullet$
 be a [[chain map]] between [[chain complexes]]
 
-For $n \in \mathbb{N}$, define
+For $n \in \mathbb{N}$, consider the abelian group
 
 $$
   (im_{n+1}(f))_n
@@ -69,12 +69,7 @@ $$
 $$
 
 
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-For the following it is helpful to think of the abelian group $(im_{n+1}(f))_n$ in def. \ref{ChainComplexnPlusOneImageInDegreen} in the following equivalent ways.
+For the following it is helpful to think of this abelian group in the following equivalent ways.
 
 Define an [[equivalence relation]] on $V_n$ by
 
@@ -162,26 +157,34 @@ $$
   \,.
 $$
 
-
 =--
 
-+-- {: .num_lemma #ImageFactorizationForChainComplexes}
-###### Lemma
++-- {: .num_prop #ImageFactorizationForChainComplexes}
+###### Proposition
 
 Let $f_\bullet \colon V_\bullet \longrightarrow W_\bullet$
 be a [[chain map]] between [[chain complexes]] and let
-$n \in \mathbb{N}$.
+$n \in \mathbb{N}$. Recall the abelian group
+ $\underset{v_{n-1}}{\oplus}\{f_n(v_n) \vert \partial v_n = v_{n-1}\}$ from remark \ref{ChainComplexnPlusOneImageInDegreen}.
 
-
-Consider the [[abelian group]] $(im_{n+1}(f)_n)$
-from def. \ref{ChainComplexnPlusOneImageInDegreen}.
-
-Then the following [[diagram]] of [[abelian groups]]
+The following [[diagram]] of [[abelian groups]]
 [[commuting diagram|commutes]]:
 
 $$
   \array{
     \vdots && \vdots && \vdots
+    \\
+    \downarrow^{\mathrlap{\partial_{V}}}
+     &&
+    \downarrow^{\mathrlap{\partial_{W}}}
+     &&
+    \downarrow^{\mathrlap{\partial_{W}}}
+    \\
+    V_{n+3}
+      &\overset{f_{n+3}}{\longrightarrow}&
+    W_{n+3}
+      &\overset{=}{\longrightarrow}&
+    W_{n+3}
     \\
     \downarrow^{\mathrlap{\partial_{V}}}
      &&
@@ -197,31 +200,36 @@ $$
     \\
     \downarrow^{\mathrlap{\partial_{V}}}
      &&
-    \downarrow^{\mathrlap{\partial_{W}}}
+    \downarrow^{\mathrlap{ \partial_W  } }
      &&
     \downarrow^{\mathrlap{\partial_{W}}}
     \\
     V_{n+1}
       &\overset{f_{n+1}}{\longrightarrow}&
-    W^{res}_{n+1}
+    \left\{
+      w_{n+1} | \exists v_n :  \partial_W w_{n+1} = f_n(v_n), \partial_V v_n = 0, 
+    \right\}
       &\overset{}{\longrightarrow}&
     W_{n+1}
     \\
     \downarrow^{\mathrlap{\partial_{V}}}
      &&
-    \downarrow^{\mathrlap{\partial_W}}
-     &\text{(pb)}&
+    \downarrow^{\partial_W}
+     &&
     \downarrow^{\mathrlap{\partial_{W}}}
     \\
     V_n
-      &\overset{f}{\longrightarrow}&
-    im_{n+1}(f)_n
-     &\overset{(f_n(a),\partial_V a) \mapsto f(a)}{\longrightarrow}&
+      &\overset{ (f_n, \partial_V) }{\longrightarrow}&
+    \underset{v_{n-1}}{\oplus}
+    \left\{
+      f_n(v_n) \vert \partial_V v_n = v_{n-1}
+    \right\}
+     &\overset{  }{\longrightarrow}&
     W_n
     \\
     \downarrow^{\mathrlap{\partial_V}}
     &&
-    \downarrow^{\mathrlap{(f_n(a),\partial_V a) \mapsto \partial_V a}}
+    \downarrow^{\mathrlap{(f_n(v_n),\partial_V v_n) \mapsto \partial_V v_n}}
     &&
     \downarrow^{\mathrlap{\partial_W}}
     \\
@@ -254,9 +262,8 @@ $$
   }
 $$
 
-where $W_{n+1}^{res}$ is the [[pullback]] of $W_{n+1}$ along the canonical inclusion of $(im_{n+1}(f))_n$, as shown.
 
-Here the middle vertical sequence is a chain complex $im_{n+1}(f)_\bullet$, and hence the diagram gives a factorization of $f_\bullet$ into two chain maps
+Moreover, the middle vertical sequence is a chain complex $im_{n+1}(f)_\bullet$, and hence the diagram gives a factorization of $f_\bullet$ into two chain maps
 
 $$
   f_\bullet
@@ -265,70 +272,7 @@ $$
   \,.
 $$
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-First of all we need to check that the four squares in the middle commute:
-
-$$
-  \array{
-    V_{n+1}
-      &\overset{f_{n+1}}{\longrightarrow}&
-    W^{res}_{n+1}
-      &\overset{}{\longrightarrow}&
-    W_{n+1}
-    \\
-    \downarrow^{\mathrlap{\partial_{V}}}
-     &&
-    \downarrow^{\mathrlap{\partial_W}}
-     &\text{(pb)}&
-    \downarrow^{\mathrlap{\partial_{W}}}
-    \\
-    V_n
-      &\overset{f}{\longrightarrow}&
-    im_{n+1}(f)_n
-     &\longrightarrow&
-    W_n
-    \\
-    \downarrow^{\mathrlap{\partial_V}}
-    &&
-    \downarrow
-    &&
-    \downarrow^{\mathrlap{\partial_W}}
-    \\
-    V_{n-1}
-      &\overset{=}{\longrightarrow}&
-    V_{n-1}
-      &\overset{f_{n-1}}{\longrightarrow}&
-    W_{n-1}
-  }
-  \,.
-$$
-
-On the bottom left, for $v_n \in V_n$, then
-
-
-=--
-
-+-- {: .num_prop #nImageFactorizationOnChainComplex}
-###### Proposition
-
-Let $f_\bullet \colon V_\bullet \to W_\bullet$ be a [[chain map]],
-and let $n \in \mathbb{N}$. Then the factorization from lemma \ref{ImageFactorizationForChainComplexes}
-
-$$
-  f
-  \;\colon\;
-  V_\bullet
-   \longrightarrow
-  (im_{n+1}(f))_\bullet
-    \longrightarrow
-  W_\bullet
-$$
-
-is a model for the [[n-image|(n+1)-image factorization]] of $f$ in that on [[homology groups]] the following holds:
+Finally, this is a model for the [[n-image|(n+1)-image factorization]] of $f$ in that on [[homology groups]] the following holds:
 
 1. $H_{\bullet \lt n}(V) \overset{\simeq}{\to} H_{\bullet \lt n}(im_{n+1}(f))$ are [[isomorphisms]];
 
