@@ -11,4 +11,6 @@ Michael Green is professor for theoretical [[physics]] at Cambridge.
 
 * [[superstring]]
 
+* [[Green-Schwarz sigma-model]]
+
 * [[Green-Schwarz mechanism]]
