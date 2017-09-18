@@ -28,6 +28,8 @@ on a unified construction and comparison of the [[Bousfield-Friedlander model st
 
 ***
 
+> under construction
+
 Throughout, write 
 
 * $Top \coloneqq Top_{cg}$ for the [[category]] of  [[compactly generated topological spaces]]; this is a "[[convenient category of topological spaces]]", in particular it is a [[cartesian monoidal category]] $(Top, \times)$;
