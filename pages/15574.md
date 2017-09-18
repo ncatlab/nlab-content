@@ -91,7 +91,7 @@ In ([Lawvere 2000](#Law00)) a particularly simple example of the [[adjoint cylin
 
 Let $N$ be the [[natural numbers]] $\{0, 1,\dots\}$ viewed as a [[category]] via their usual [[poset|ordering]]. Let $L,R:N\to N$ be the two parallel [[functors]] '_even_' and '_odd_' defined by $L(n) \coloneqq 2n$ and $R(n) \coloneqq 2n+1$.
 
-Both are [[fully faithful functor|full and faithful]], which means that they correspond to two subcategory inclusions and, accordingly, to two subcategories $N_{even}$ and $N_{odd}$ . We are now in situation where we have two subcategories that 'oppose' each other in that $N_{even}\neq N_{odd}$ but are nevertheless 'identical' in that there is a bijection $N_{even}\overset{\simeq}{\to} N_{odd}$. Furthermore, both are 'united' as different parts in the encompassing $N$ whose overall structure they represent in that $N_{even}\simeq N\simeq N_{odd}$ - that is somewhat unusual for what is to follow below where the opposing parts are seldom equivalent to the whole but they will always be a pair consisting of a reflective and a coreflective subcategory.
+Both are [[fully faithful functor|full and faithful]], which means that they correspond to two subcategory inclusions and, accordingly, to two subcategories $N_{even}$ and $N_{odd}$. We are now in situation where we have two subcategories that 'oppose' each other in that $N_{even}\neq N_{odd}$ but are nevertheless 'identical' in that there is a bijection $N_{even}\overset{\simeq}{\to} N_{odd}$. Furthermore, both are 'united' as different parts in the encompassing $N$ whose overall structure they represent in that $N_{even}\simeq N\simeq N_{odd}$ - that is somewhat unusual for what is to follow below where the opposing parts are seldom equivalent to the whole but they will always be a pair consisting of a reflective and a coreflective subcategory.
 
 Now it was Lawvere's observation that a third functor $N\to N$ which with a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_ we call $T$ , can encapsulate this bunch of relations in one sweep when it forms an [[adjoint triple]] $L\dashv T\dashv R$ with $L$ and $R$: 
 
@@ -101,7 +101,7 @@ Now it was Lawvere's observation that a third functor $N\to N$ which with a clin
  
 3. it expresses the _identity_ $L$ between $R$ by the entailed equivalence $T\circ L\simeq T\circ R$ .
 
-In other words, _$T$ unites, opposes and identifies $L$ and $R$ at the same time_ !
+In other words, *$T$ unites, opposes and identifies $L$ and $R$ at the same time*!
 
 For our simple [[poset]] example the [[adjunctions]] $L\dashv T$ and  $T\dashv R $ amount to $L(n)\leq m$ iff $n\leq T(m)$ and $n\leq R(m)$ iff $T(n)\leq m$. When $T$ exists it must satisfy $T\circ L \cong id\cong T\circ R$ which in our case just gives $T\circ L = id = T\circ R$. Spelled out this says $T(2n)=n$ and $T(2n+1)=n$ which indicates as definition for $T$:
 
@@ -110,7 +110,7 @@ T(k)=\Bigg\{ \array{\frac{k}{2}\quad k\in N_{even} \\
                        \frac{k-1}{2} \quad k\in N_{odd}}
 $$
 
-Whereas $T\circ L$ and $T\circ R$ are each the identity, the reverse compositions $L\circ T$ and $R\circ T$ yield an [[idempotent comonad]] $sk:N\to N$ and an [[idempotent monad]] $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$: in new guises $L$ and $R$ resurface again but this time with in an 'opposition' $sk\dashv cosk$ which expresses formally the 'conflict' between $N_{even}$ and $N_{odd}$, even and odd, as well as their essential identity and unity.
+Whereas $T\circ L$ and $T\circ R$ are each the identity, the reverse compositions $L\circ T$ and $R\circ T$ yield an [[idempotent comonad]] $sk:N\to N$ and an [[idempotent monad]] $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$: in new guises $L$ and $R$ resurface again but this time within an 'opposition' $sk\dashv cosk$ which expresses formally the 'conflict' between $N_{even}$ and $N_{odd}$, even and odd, as well as their essential identity and unity.
 
 Hopefully this has provided some intuition how a mediated adjunction $l\dashv t\dashv r$ between two fully faithful functors $l,r$ captures the idea of unity-and-identity-of-opposites (UIO). The concept of Aufhebung then intends to capture the passage from such an UIO to another UIO thereby creating a dynamics between logical concepts.
  
