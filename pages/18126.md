@@ -9076,7 +9076,7 @@ this we discuss as prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} below.
 
 $\,$
 
-There is also a concept of connetedness which is "geometric" instead of "purely topological" by definition:
+There is also a concept of connectedness which is "geometric" instead of "purely topological" by definition:
 
 +-- {: .num_defn #Path}
 ###### Definition
