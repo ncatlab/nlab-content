@@ -64,7 +64,7 @@ If the triangle identity is strengthened to
 
 one speaks of a **[[non-archimedean]]** seminorm, otherwise of an [[archimedean]] one.
 
-A vector space equipped with a norm is a **normed vector space**. 
+A vector space equipped with a norm is a **normed vector space**. A vector of norm 1 is a [[unit vector]].
 
 Each seminorm determines a [[topology]], which is [[Hausdorff space|Hausdorff]] precisely if it is a norm.
 
