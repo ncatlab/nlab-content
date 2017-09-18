@@ -32,5 +32,16 @@ $$\circ_{B,C} \colon Hom(A; B,C) \times Hom(B,C; D) \to Hom(A,D).$$
 
 Polycategories provide a natural [[categorical semantics]] for [[linear logic]].
 
+### Representability
+
+A polycategory that is "representable on both sides", meaning informally that morphisms in $Hom(A_1,\dots,A_n;B_1,\dots,B_m)$ correspond to morphisms $A_1 \otimes \cdots\otimes A_n \to B_1 \invamp \cdots \invamp B_m$, is a [[linearly distributive category]].  A formal definition can be found in [(Cockett-Seely)](#CockettSeely97).
+
+## References
+
+* M.E. Szabo, *Polycategories*, Comm. Algebra 3 (1975) 663-689.
+
+* {#CockettSeely97} [[Robin Cockett]], [[Robert Seely]],  _Weakly Distributive Categories_, _Journal of Pure and Applied Algebra_, 114(1997)2, pp 133-173 ([ps.gz](http://www.math.mcgill.ca/rags/linear/wdc.ps.gz))
+
+* [[Richard Garner]], *Polycategories via pseudo-distributive laws*, [arXiv](http://arxiv.org/abs/math/0606735)
 
 [[!redirects polycategories]]
