@@ -25,7 +25,13 @@
 
 * [[Roberto Peccei]], _The Strong CP Problem and Axions_, Lect.Notes Phys.741:3-17,2008 ([arXiv:hep-ph/0607268](http://arxiv.org/abs/hep-ph/0607268))
 
-Discussion in the context of [[M-theory on G2-manifolds]]/[[G2-MSSM]]:
+* _Strong CP problem and axion Phenomenology_, Proceedings of the DAE Symp. on Nucl. Phys. 58 (2013) ([pdf](http://sympnp.org/proceedings/58/F14.pdf))
+
+Discussion in the context of [[string theory]] is in
+
+* {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
+
+Discussion specificlly in the context of [[M-theory on G2-manifolds]]/[[G2-MSSM]] is in ([Svrcek-Witten 06, section 6](#SvrcekWitten06)) and
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Piyush Kumar]], _An M Theory Solution to the Strong CP Problem and Constraints on the Axiverse_, JHEP 1011:105,2010 ([arXiv:1004.5138](http://arxiv.org/abs/1004.5138))
 
