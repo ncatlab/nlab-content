@@ -16,7 +16,7 @@
 
 * [[Bhargav Bhatt]], [[Peter Scholze]], _Projectivity of the Witt vector affine Grassmannian_, [arXiv:1507.06490](http://arxiv.org/abs/1507.06490).
 
-* [[Fernando Muro]], _Picard categories, determinant functors and K-theory_, talk notes, [pdf](http://personal.us.es/fmuro/splitbeamer.pdf)
+* [[Fernando Muro]], _Picard categories, determinant functors and K-theory_, talk notes, [pdf](http://personales.us.es/fmuro/files/slides/pontevedra.pdf)
 
 * appendix A of "Discriminants, Resultants, and Multidimensional Determinants" by Gelfand, Kapranov and Zelevinsky
 
