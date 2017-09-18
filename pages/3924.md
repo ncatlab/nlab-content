@@ -43,7 +43,7 @@ If one thinks of the bicategory as obtained from a [[geometric definition of hig
 
 By the [[periodic table of higher categories]] a [[monoidal category]] is a pointed [[bicategory]] with a single object, its [[object]]s are the 1-morphisms of the bicategory. Accordingly, here the  associator is a [[natural isomorphism]] 
 
-$$ a_{x,y,z} : (x \otimes y) \otimes z \to x (\otimes y \otimes z) $$
+$$ a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) $$
 
 relating the triple [[tensor product]]s of these objects.
 
