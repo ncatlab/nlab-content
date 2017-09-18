@@ -50,10 +50,19 @@ A bit more general than a Lie groupoid is a [[diffeological groupoid]].
 
 * Given a manifold $M$, we may also form so-called **pair groupoid**: $X_1= M\times M$ and $X_0=M$. Source and target are projections, and multiplication is given by $(x, y) \cdot (y , z)= (x, z)$. Pair groupoid may be interpreted as the global object of tangent bundle (think why? see the section below on Lie algebroid)
 
+* Given a manifold $M$, we have also an associated **fundamental groupoid** or **homotopy groupoid** $\Pi(M)$: $\Pi(M)_1=\{\text{paths in}\;M\}/{\text homotopies\}$, $\Pi_0(M)=M$. Source and target are end points of a path. Multiplication is concatenation of paths (think why associative?). 
+
 * Given a manifold $M$ with a foliation $F$, we may form various groupoids associated with $F$. 
-: **pair groupoid of $F$**: $X_1:=\{(x, y)| x, y \;\text{are in the same leaf in}\; F \}$, $X_0=M$. Source and target are obvious projections and multiplication is like in the case of pair groupoid. The problem for this groupoid is that it might not be  a Lie groupoid. (why not? for counter example, we refer to [Section 13.5](https://math.berkeley.edu/~alanw/Models.pdf). 
+
+1. **$F$-pair groupoid**: $X_1:=\{(x, y)| x, y \;\text{are in the same leaf in}\; F \}$, $X_0=M$. Source and target are obvious projections and multiplication is like in the case of pair groupoid. The problem for this groupoid is that it might not be  a Lie groupoid. (why not? for counter example, we refer to [Section 13.5 of Geometric Models for
+Noncommutative Algebras](https://math.berkeley.edu/~alanw/Models.pdf) ). 
   
-**monodromy groupoid $Mon_F(M)$**: $X_1:$
+1. **monodromy groupoid $Mon_F(M)$** (it is a foliation version of fundamental groupoid, thus it is also sometimes called $F$-fundamental groupoid): $X_1:=\{$ leaf-wise paths$\}/$ leaf-wise homotopy, $X_0=M$ and the rest is like in the case of fundamental groupoid.
+
+1. **[[holonomy groupoid]] $Hol_F(M)$**: $X_1:=\{$ leaf-wise paths$\}/$ holonomy,
+$X_0=M$ and the rest is like in the case of fundamental groupoid. Here, the holonomy of a path $\gamma$ is defined to the germ of diffeomorphisms induced by $\gamma$ between the transversals at the end points.
+
+Among all possible Lie groupoids associated to a foliation, monodromy groupoid is the biggest and holonomy groupoid is the smallest.
 
 
 ### Terminology
@@ -90,9 +99,41 @@ Regarded inside this wider context, Lie groupoids are identified with [[differen
 
 For more comments on this, see also the beginning of [[∞-Lie groupoid]].
 
-## Lie algebroids
+## [[Lie algebroid]]
 
-As the [[infinitesimal space|infinitesimally]] approximation to a [[Lie group]] is a [[Lie algebra]], so the infinitesimal approximation to a Lie groupoid is a [[Lie algebroid]].
+As the [[infinitesimal space|infinitesimally]] approximation to a [[Lie group]] is a [[Lie algebra]], so the infinitesimal approximation to a Lie groupoid is a [[Lie algebroid]].  
+
+
++-- {: .num_defn}
+###### Definition 
+A Lie algebroid is a vector bundle $A\to M$ together with a vector bundle morphism $\rho: A\to TM$ (called anchor map), and a Lie bracket $[-,-]$ on the space of sections of $A$, satisfying the Leibniz rule
+
+$[X, fY]=f[X,Y]+\rho(X)(f) Y. $ 
+=--
++-- {: .num_defn}
+###### Remark
+You would expect  $\rho$ to preserve $[-,-]$, wouldn't you? It is actually automatic! (reference to Kosmann-Schwartzbach)
+
+Recent progress: it turns out that one may link Lie algebroid with $L_\infty$-spaces (ask Owen Gwilliam for it) 
+=--
+
+### Examples of Lie algebroids
+
+* A Lie algebra is a Lie algebroid with base space being a point.
+
+* $0$-bundle over a manifold $M$ is certainly a Lie algebroid in a trivial way.
+
+* [[Action Lie algebroid]]
+
+* Tangent bundle $TM\to M$ is a Lie algebroid with $\rho=id$ and $[-,-]$ the usual Lie bracket for vector fields. See [[tangent Lie algebroid]].
+
+* Given a [[Poisson manifold]] $P$ with Poisson bivector field $\pi$, the cotangent bundle $T^*P$ is equipped with a Lie algebroid structure: $\rho(\xi)=
+\pi(\xi)$ and $[\xi_1, \xi_2]=d\pi(\xi_1, \xi_2)$ (or you may have $[df, dg]=d\{ f, g\}$ if you prefer to think in Poisson bracket). See [[Poisson Lie algebroid]].
+
+* [[Atiyah Lie algebroid]]
+
+
+
 
 ## Higher Lie groupoids
 
