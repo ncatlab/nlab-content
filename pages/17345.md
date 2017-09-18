@@ -867,7 +867,11 @@ Then for $r, p, q \in \mathbb{Z}$ we say that
 
 1. $G_p C_{p+q}$ is the module of ***$(p,q)$-[[nLab:chains]]*** or of ***$(p+q)$-chains in filtering degree $p$***;
 
-1. $\begin{aligned} Z^r_{p,q}  & \coloneqq \left\{ c \in G_p C_{p+q} | \partial c = 0 \, mod F_{p-r} C_{\bullet} \right\} \\ & =  \left\{ c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1} \right\}/ F_{p-1}C_{p+q} \end{aligned}$
+1. the module
+
+   $$
+     \begin{aligned} Z^r_{p,q}  & \coloneqq \left\{ c \in G_p C_{p+q} | \partial c = 0 \, mod F_{p-r} C_{\bullet} \right\} \\ & =  \left\{ c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1} \right\}/ F_{p-1}C_{p+q} \end{aligned}
+   $$
 
    is the module of ***$r$-almost $(p,q)$-[[nLab:cycles]]*** (the $(p+q)$-chains whose differential vanishes modulo terms of filtering degree $p-r$);
 
