@@ -1934,40 +1934,8 @@ $$
 
 where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the second is the statement of prop. \ref{9ComponentOfIIBPairing}, while the third is from prop. \ref{TypeIIExtension}.
 
-
 =--
 
-(...)
-
-$$
-  \begin{aligned}
-    \mu_{D0}
-      & =
-    \overline{\psi} \Gamma_{10}\psi
-    \\
-    \mu_{D2}
-      & =
-    -
-    \overline{\psi} \Gamma_{a_1 a_2} \psi e^{a_1} e^{a_2}
-    \\
-    \mu_{D4}
-      & =
-    \tfrac{1}{6}
-    \overline{\psi} \Gamma_{a_1 \cdots a_4} \Gamma_{10} \psi e^{a_1} \cdots e^{a_4}
-    \\
-    \mu_{D6}
-      & =
-    \tfrac{-1}{90}
-    \overline{\psi} \Gamma_{a_1 \cdots a_6}  \psi e^{a_1} \cdots e^{a_6}
-    \\
-    \mu_{D8}
-      & =
-    \tfrac{1}{2520}
-    \overline{\psi} \Gamma_{a_1 \cdots a_8} \Gamma_{10} \psi e^{a_1} \cdots e^{a_8}
-  \end{aligned}
-$$
-
-([CAIB 99, section 6.1](#CAIB99))
 
 ## Appendix
 
