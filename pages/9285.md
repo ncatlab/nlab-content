@@ -9,4 +9,6 @@ An [[internalization|internal]] [[module]] over a [[monoid object]].
 
 * [[algebra object]]
 
+* [[module over a monoidal functor]]
+
 [[!redirects module objects]]
