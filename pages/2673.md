@@ -57,8 +57,11 @@ A decent introduction is in sections 4 and 5 of
 
 A detailed account is in section I.4.1 of
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
-{#CastellaniDAuriaFre}
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
+
+See also
+
+* [[Alberto Cattaneo]], Michele Schiavina, _The reduced phase space of Palatini-Cartan-Holst theory_ ([arXiv:1707.05351](https://arxiv.org/abs/1707.05351))
 
 
 [[!redirects Palatini action]]
