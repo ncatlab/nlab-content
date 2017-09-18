@@ -91,7 +91,7 @@ which is however mainly concerned with a slightly different topic.
 
 A collection of Crans's papers, including those on teisi, can be found here: 
 
-* [Papers of Sjoerd Crans](http://home.tiscali.nl/secrans/papers/) 
+* [Papers of Sjoerd Crans](http://home.tiscali.nl/secrans/papers/) (the website seems down at the moment, but there is [an archived version](https://web.archive.org/web/20130514042310/http://home.tiscali.nl/secrans/papers/))
 
 The modern version, incorporating many new primitives is given in 
 
