@@ -6,7 +6,7 @@
 
 * [[Deligne's theorem on tensor categories]]
 
-Of course he also proved statements like the [[Weil conjectures]] and such. But this page here is to  disambiguate those statements which people ambiguously refer to as "Deligne's theorem".
+Of course he also proved statements like the [[Weil conjectures]], on [[Tannaka duality]] and such. But this page here is to  disambiguate those statements which people ambiguously refer to as "Deligne's theorem".
 
 [[!redirects Deligne's theorems]]
 
