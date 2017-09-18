@@ -114,7 +114,7 @@ Basic Examples:
 
 ### 8. Connective covers and Postnikov sections
 
-* [[Postnikiv tower]]
+* [[Postnikov tower]]
 
 ### 9. Localization and completion
 
@@ -132,5 +132,9 @@ Basic Examples:
 
 
 ## Chapter IV. Module spectra
+
+## Errata
+
+* the definition of [[Kronecker pairing]] (construction 6.13) is missign the application of the multiplication map
 
 category: reference
