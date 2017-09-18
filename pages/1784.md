@@ -71,18 +71,27 @@ Some terminological care should be taken in the case of [[comonoid]], which make
    $$
 
 
-2. There are examples of spaces that are cogroups in $\operatorname{hTop}_*$ that are **not** suspensions, see Bernstein & Harper _Cogroups which are not suspensions_.  Note that cogroups in $\operatorname{hTop}_*$ are the same as [[co-H-spaces]] which are additionally (co-)associative and have (co-)inverses.
+1. There are examples of spaces that are cogroups in $\operatorname{hTop}_*$ that are **not** suspensions, see Bernstein & Harper _Cogroups which are not suspensions_.  Note that cogroups in $\operatorname{hTop}_*$ are the same as [[co-H-spaces]] which are additionally (co-)associative and have (co-)inverses.
 
-3. Cogroup objects in the [[Grp|category of groups]] are [[free groups]], and to give a free group the structure of a cogroup object is the same a choosing a generating set.  This is an old result of D.M. Kan's.
+1. Cogroup objects in the [[Grp|category of groups]] are [[free groups]], and to give a free group the structure of a cogroup object is the same a choosing a generating set.  This is an old result of D.M. Kan's.
 
-4. On the other hand, every abelian group is again an abelian cogroup since $\operatorname{Ab}$ is self-enriched.  Indeed, in an [[abelian category]] every object is simultaneously an abelian group object and an abelian cogroup object.  In $\operatorname{Ab}$, the abelian cogroup object structure is unique, with comultiplication given by the [[diagonal morphism]].
+1. On the other hand, every abelian group is again an abelian cogroup since $\operatorname{Ab}$ is self-enriched.  Indeed, in an [[abelian category]] every object is simultaneously an abelian group object and an abelian cogroup object.  In $\operatorname{Ab}$, the abelian cogroup object structure is unique, with comultiplication given by the [[diagonal morphism]].
 
-5. In [[Set]], the only cogroup object (abelian or otherwise) is the [[empty set]].  This is because the counit map must be a morphism from $X$ to the terminal object _of the opposite category_.  In the case of $\operatorname{Set}$, this is the empty set.
+1. In [[Set]], the only cogroup object (abelian or otherwise) is the [[empty set]].  This is because the counit map must be a morphism from $X$ to the terminal object _of the opposite category_.  In the case of $\operatorname{Set}$, this is the empty set.
 
-6. This extends further: any category with a [[faithful functor]] to $\operatorname{Set}$ which preserves an [[initial object]] will have no non-trivial cogroup objects.  In particular, the category [[Top]] of *unbased* topological spaces has only the [[empty space]] as a cogroup object.
+1. This extends further: any category with a [[faithful functor]] to $\operatorname{Set}$ which preserves an [[initial object]] will have no non-trivial cogroup objects.  In particular, the category [[Top]] of *unbased* topological spaces has only the [[empty space]] as a cogroup object.
 
-7. The case of cogroups, and some other co-things, in certain other varieties of algebras has been extensively studied by Bergman and Hausknecht in _Co-groups and co-rings in categories of associative rings_, (MR1387111)
+1. The case of cogroups, and some other co-things, in certain other varieties of algebras has been extensively studied by Bergman and Hausknecht in _Co-groups and co-rings in categories of associative rings_, (MR1387111)
 
+   In particular a co-group in rings is a [[Hopf algebra]]; a fact highlighted by [[Haynes Miller]] in the context of discussion of [[dual Steenrod algebras]], see ([Ravenel 86, appendix A](#Ravenel86)) for review.
+
+## References
+
+Discussion of [[Hopf algebras]] as cogroups is in 
+
+* {#Ravenel86} [[Doug Ravenel]], appendix A1 of _[[Complex cobordism and stable homotopy groups of spheres]]_ Academic Press 1986
+
+[[!redirects cogroups]]
 
 [[!redirects co-H-object]]
 
