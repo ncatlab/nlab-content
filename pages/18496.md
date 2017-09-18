@@ -30,4 +30,4 @@ A _compactly supported distribution_ is a [[distribution]] whose [[support of a 
 
 * {#Hoermander90} [[Lars Hörmander]], section 2.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
-[[!redirects compactly supported distrbutions]]
+[[!redirects compactly supported distributions]]
