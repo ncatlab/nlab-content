@@ -28,12 +28,30 @@ In classical [[gravity]] ([[general relativity]]) the _positive energy theorem_ 
 
 ## References
 
-* Wikipedia, _[Positive energy theorem](http://en.wikipedia.org/wiki/Positive_energy_theorem)_
+An influential argument for the positive energy theorem for [[supergravity]] is due to
+
+* [[Stanley Deser]], [[Claudio Teitelboim]], _Supergravity has positive energy,_  Phys.  Rev. Lett. 39, 249-252 (1977
+
+The first proof of the positive energy theorem for bosonic Einstein gravity was given in
+
+* [[Richard Schoen]] and [[Shing-Tung Yau]], _On the proof of the positive mass conjecture in general relativity_, Commun. Math. Phys. 65, 45 (1979).
+
+* [[Richard Schoen]] and [[Shing-Tung Yau]], _Proof of the positive mass theorem. II_, Commun. Math. Phys. 79, 231 (1981).
+
+
+An alternative proof for Einstein gravity, making crucial use of [[spinor]] algebra,  was found in
+
+* [[Edward Witten]], _A new proof of the positive energy theorem_, Commun. Math. Phys. 80, 381 (1981).
+
+Comparison of the relation between the proof for [[supergravity]] and the spinorial proof for Einstein gravity is made in
 
 * {#Hull83} [[Chris Hull]], _The positivity of gravitational energy and global supersymmetry_, Comm. Math. Phys. Volume 90, Number 4 (1983), 545-561 ([Euclid](https://projecteuclid.org/euclid.cmp/1103940417))
 
+See also
 
 * Maung Min-Oo, _Scalar curvature rigidity of certain symmetric spaces_, 1995 ([pdf](http://ms.mcmaster.ca/minoo/mypapers/crm.pdf))
+
+* Wikipedia, _[Positive energy theorem](http://en.wikipedia.org/wiki/Positive_energy_theorem)_
 
 
 [[!redirects positive mass conjecture]]
