@@ -1068,6 +1068,7 @@ shows that $f$ cannot be an [[isomorphism]], hence not a [[homeomorphism]].
 
 We now discuss a "dual incarnation" of fundamental groups, which often helps to compute them.
 
+
 ### Covering spaces
  {#CoveringSpaces}
 
@@ -1402,6 +1403,8 @@ $\,$
  {#CentralTheorems}
 
 * [[Tietze extension theorem]]
+
+* [[Tychonoff theorem]]
 
 * [[topological invariance of dimension]]
 
