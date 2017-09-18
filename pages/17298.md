@@ -1,3 +1,4 @@
+fpart II
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +17,7 @@
 
 This page collects material related to
 
-* [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], 
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], 
   
   _Model categories of diagram spectra_, 
 
@@ -28,35 +29,56 @@ on a unified construction and comparison of the [[Bousfield-Friedlander model st
 
 ***
 
-> under construction
+
+#Contents#
+* table of contents
+{:toc}
+
+## Part I. Diagram spaces and diagram spectra
+ {#PartI}
+
+This part gives a unified discussion of the categories of
+
+1. [[sequential spectra]]
+
+1. [[symmetric spectra]]
+
+1. [[orthogonal spectra]]
+
+1. pre-[[excisive functors]]
+
+(all in [[topological spaces]]) as [[categories of modules]] with respect to [[Day convolution]] monoidal structures on [[Top]]-[[enriched functor categories]] over restrictions to [[faithful functor|faithful]] sub-[[sites]] of the canonical representative of the [[sphere spectrum]] as an excisive functor on $Top^{\ast/}_{fin}$.
 
 Throughout, write 
 
 * $Top \coloneqq Top_{cg}$ for the [[category]] of  [[compactly generated topological spaces]]; this is a [[cartesian monoidal category]] $(Top, \times)$ (in fact a [[cartesian closed category]]);
 
-* $Top^{\ast/}$ for the corresponding [[pointed topological spaces]]; this is a [[symmetric monoidal category]] equipped with the [[smash product]] of pointed objects;
+* $Top^{\ast/}$ for the corresponding [[pointed topological spaces]]; this is a [[symmetric monoidal category]] equipped with the [[smash product]] $\wedge$ of pointed objects;
 
 * $Top_{Quillen}$ for the [[classical model structure on topological spaces]] ([[compactly generated topological spaces]]); in particular this is a [[monoidal model category]] $(Top_{Quillen}, \times)$;
 
 * $Top^{\ast/}_{Quillen}$ for the corresponding [[classical model structure on pointed topological spaces]], in particular this is a [[monoidal model category]] $(Top_{Quillen}^{\ast/}, \wedge)$.
 
 
-Throughout we are dealing with $(Top,\times)$-[[enriched categories]] and with $Top_{Quillen}$-[[enriched model categories]].
+Throughout part I we are dealing with $(Top^{\ast/},\wedge)$-[[enriched categories]],  $(Top^{\ast/}, \wedge)$-[[enriched functors]], etc., and then in [part II](#PartII) we are dealing with $(Top_{Quillen}^{\ast/}, \wedge)$-[[enriched model categories]] etc.
+
+
+
 
 +-- {: .num_defn #TopologicalDiagramCategoriesForSpectra}
 ###### Definition
 
-Define the following $Top$-[[enriched categories|enriched]] [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] (the [[tensor product]] is an [[enriched functor]]):
+Define the following $Top^{\ast/}$-[[enriched categories|enriched]] [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] (the [[tensor product]] is an [[enriched functor]]):
 
 1. $Seq$ has as objects the [[natural numbers]] and has only identity morphisms, tensor product is the addition of natural numbers, tensor unit is 0;
 
-1. $Sym$ a [[skeletal category|skeleton]] of the [[core]] of [[FinSet]], tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]],
+1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]], objects are the sets $\{1, \cdots,n\}$ for $n \in \mathbb{N}$, all morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma_n$, tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]];
 
 1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence all morphisms are [[automorphisms]] and the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space;
 
-1. $Top_{fin}^{\ast/}$ for the [[full subcategory]] of [[pointed topological space]] on those given by [[finite CW-complexes]], tensor product is their [[smash product]], tensor unit is the [[0-sphere]].
+1. $Top_{fin}^{\ast/}$ is the [[full subcategory]] of [[pointed topological space]] on those [[homeomorphism|homeomorphic]] to [[finite CW-complexes]], tensor product is their [[smash product]], tensor unit is the [[0-sphere]] $S^0$.
 
-Denote the canonical [[faithful functor|faithful]] [[subcategory]] inclusion by
+Denote the canonical [[faithful functor|faithful]] [[subcategory]] inclusions by
 
 $$
  \array{
@@ -85,45 +107,59 @@ $$
   \,,
 $$
 
-where $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon \Sigma_n \hookrightarrow O(n)$ is the inclusion of [[permuation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V) \hookrightarrow Aut(S^V)$ is the topological subspace inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometric isometries of $V$.
+where $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon \Sigma_n \hookrightarrow O(n)$ is the inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V) \hookrightarrow Aut(S^V)$ is the topological subspace inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometric isometries of $V$.
 
 =--
 
-+-- {: .num_defn #PropertiesOfTopologicalDiagramCategoriesForSpectra}
++-- {: .num_prop #PropertiesOfTopologicalDiagramCategoriesForSpectra}
 ###### Proposition
 
-All four inclusions in def. \ref{TopologicalDiagramCategoriesForSpectra} are [[strong monoidal functors]].
+The sequence of inclusions in def. \ref{TopologicalDiagramCategoriesForSpectra} satisfies the following properties:
 
-Under passing to [[enriched functor categories]], restriction $(-)^\ast$ along these inclusions and [[left Kan extension]] $(-)_!$ along them yields a sequence of [[adjunctions]]
+1. All three inclusions are [[strong monoidal functors]].
 
-$$
- \array{
-   [Top_{fin}^{\ast/}, Top^{\ast/}]
-     \stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}
-   [Orth, Top^{\ast/}]
-     \stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}
-   [Sym, Top^{\ast/}] 
-     \stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}
-   [Seq, Top^{\ast/}] 
- }
-  \,.
-$$
+1. Under passing to [[enriched functor categories]], restriction $(-)^\ast$ along these inclusions and [[left Kan extension]] $(-)_!$ along them yields a sequence of [[adjunctions]]
 
-All four [[enriched functor categories]] become [[symmetric monoidal categories]] with the [[Day convolution]] monoidal product structure induced by the monoidal structure of their [[sites]]. 
+   $$
+    \array{
+      [Top_{fin}^{\ast/}, Top^{\ast/}]
+        \stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}
+      [Orth, Top^{\ast/}]
+        \stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}
+      [Sym, Top^{\ast/}] 
+        \stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}
+      [Seq, Top^{\ast/}] 
+    }
+     \,.
+   $$
 
-With respect to this all [[adjunctions]] above are symmetric [[monoidal adjunctions]] (the [[right adjoint]] is a [[symmetric monoidal functor|symmetric]] [[lax monoidal functor]], the [[left adjoint]] is even a [[symmetric monoidal functor|symmetric]] [[strong monoidal functor]]).
+1. All four [[enriched functor categories]] become [[symmetric monoidal categories]] with the [[Day convolution]] monoidal product structure induced by the monoidal structure of their [[sites]]. 
+
+1. With respect to this all [[adjunctions]] above are symmetric [[monoidal adjunctions]] (the [[right adjoint]] is a [[symmetric monoidal functor|symmetric]] [[lax monoidal functor]], the [[left adjoint]] is even a [[symmetric monoidal functor|symmetric]] [[strong monoidal functor]]).
 
 =--
 
-Under the [[Yoneda embedding]]
+(e.g. [MMSS 00, I.3](#MMSS00))
+
+Notice the following:
+
++-- {: .num_lemma #DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite}
+###### Lemma
+
+For $\mathcal{C}$ a $V$-[[enriched category|enriched]] [[monoidal category]], under the [[Yoneda embedding]]
 
 $$
   y \colon \mathcal{C}^{op} \hookrightarrow [\mathcal{C}, Top^{\ast/}]
 $$
 
-the [[tensor unit]] in $\mathcal{C}$ goes to the tensor unit of the induced [[Day convolution]] structure.
+the [[tensor unit]] in $\mathcal{C}$ goes to the tensor unit of the induced [[Day convolution]] structure on $[\mathcal{C}, Top^{\ast/}]$.
 
-+-- {: .num_defn }
+=--
+
+(see at _[[Day convolution]]_ [this lemma](Day+convolution#DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite))
+
+
++-- {: .num_defn #StandardRepresentativeOfTheSphereSpectrum}
 ###### Definition
 
 Write
@@ -132,20 +168,19 @@ $$
   \mathbb{S} \coloneqq y(S^0) \in [Top_{fin}^{\ast/}, Top^{\ast/}]
 $$
 
-for the image under the [[Yoneda embedding]] of the tensor unit in $Top_{fin}^{\ast/}$ with its [[smash product]] (the [[0-sphere]]), which is hence the tensor unit in $[Top_{fin}^{\ast/}, Top^{\ast/}]$.
+for the image under the [[Yoneda embedding]] of the [[tensor unit]] in $Top_{fin}^{\ast/}$ with its [[smash product]] (the [[0-sphere]]), which by lemma \ref{DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite} is the tensor unit in $([Top_{fin}^{\ast/}, Top^{\ast/}], \otimes_{Day})$.
 
 Since this is going to be the standard presentation of the [[sphere spectrum]] in the [[model structure for excisive functors]] on $[Top_{fin}^{\ast/}, Top^{\ast/}]$ we refer to it as _[[generalized the|the]] [[sphere spectrum]]_.
 
-For its restriction along the above inclusions we write
+For its restrictions along the above sub-site inclusions, prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra}, write
 
 $$
   \mathbb{S}_{Orth} \coloneqq orth^\ast \mathbb{S} 
   \,,
-$$
-$$
+  \;
   \mathbb{S}_{Sym} \coloneqq sym^\ast \mathbb{S}_{orth} 
-$$
-$$
+  \,,
+  \;
   \mathbb{S}_{Seq} \coloneqq seq^\ast \mathbb{S}_{sym} 
   \,.
 $$
@@ -153,14 +188,14 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #RestrictionsOfSphereSpectrumAreStillMonoidObjects}
 ###### Remark
 
-While $\mathbb{S}$ is the [[tensor unit]] in $([Top_{fin}^{\ast/}, Top^{\ast/}], \otimes_{Day})$, neither of its restrictions $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ is the tensor unit in $([Orth, Top^{\ast/}],\otimes_{Day}), ([Sym, Top^{\ast/}],\otimes_{Day}), ([Seq, Top^{\ast/}],\otimes_{Day})$, respectively. 
+While $\mathbb{S}$ in def. \ref{StandardRepresentativeOfTheSphereSpectrum} is the [[tensor unit]] in $([Top_{fin}^{\ast/}, Top^{\ast/}], \otimes_{Day})$, neither of its restrictions $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ is the tensor unit in $([Orth, Top^{\ast/}],\otimes_{Day}), ([Sym, Top^{\ast/}],\otimes_{Day}), ([Seq, Top^{\ast/}],\otimes_{Day})$, respectively. 
 
-Nevertheless, because the restriction functors are [[strong monoidal functors]] and because the tensor unit $\mathbb{S}$ canonically has the structure of a [[monoid object]], each of $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ inherts the structure of a [[monoid object]] in the respective [[Day convolution]] [[monoidal category]].
+Nevertheless, because by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} the restriction functors are [[strong monoidal functors]] and because the tensor unit $\mathbb{S}$ canonically has the structure of a [[monoid object]], each of $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ inherts the structure of a [[monoid object]] in the respective [[Day convolution]] [[monoidal category]].
 
-Moreover, $\mathbb{S}_{Orth}$ and $\mathbb{S}_{Sym}$ are [[commutative monoid objects]], while $\mathbb{S}_{Seq}$ is not commutative.
+Moreover, $\mathbb{S}_{Orth}$ and $\mathbb{S}_{Sym}$ are [[commutative monoid objects]], while $\mathbb{S}_{Seq}$ is not commutative (due to the [graded commutativity in the smash product of spheres](smash+product+of+spectra#GradedCommutativity) which is not reflected in the trivial symmetry of the tensor product on $Seq$).
 
 | | $\mathbb{S}$ | $\mathbb{S}_{Orth}$ | $\mathbb{S}_{Sym}$ | $\mathbb{S}_{Seq}$ |
 |--|--------------|---------------------|--------------------|-------------------|
@@ -168,9 +203,368 @@ Moreover, $\mathbb{S}_{Orth}$ and $\mathbb{S}_{Sym}$ are [[commutative monoid ob
 | [[commutative monoid object]] | yes | yes | yes | no |
 | [[tensor unit]] | yes | no | no | no |
 
+Explicitly, by the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, monoids with resepct to Day convolution are equivalently [[lax monoidal functors]] on the site, and as such $\mathbb{S}_{Orth}$ is the one given by the canonical [[natural transformations]]
+
+$$
+  S^{V_1} \wedge S^{V_2} \longrightarrow S^{V_1 \oplus V_2}
+$$
+
+and $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ the ones given by the canonical natural transformations
+
+$$
+  S^{n_1} \wedge S^{n_2} \longrightarrow S^{n_1 + n_2}
+  \,.
+$$
+
 
 =--
 
 
+
+Therefore we may consider [[module objects]] over the restrictions of [[generalized the|the]] [[sphere spectrum]] from def. \ref{StandardRepresentativeOfTheSphereSpectrum}.
+
++-- {: .num_prop #HighlyStructuredSpectraAsDayConvolutionSModules}
+###### Proposition
+
+The category of right [[module objects]] over $\mathbb{S}_{Orth}$, $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ from def. \ref{StandardRepresentativeOfTheSphereSpectrum}, which are [[monoid objects]] by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra}, remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects}, are [[equivalence of categories|equivalent]], respectively, to the categories of [[orthogonal spectra]], [[symmetric spectra]] and [[sequential spectra]] (in [[compactly generated topological spaces]]):
+
+$$
+  \mathbb{S}_{Orth} Mod_r \simeq OrthSpec(Top)
+$$
+
+$$
+  \mathbb{S}_{Sym} Mod_r \simeq SymSpec(Top)
+$$
+
+$$
+  \mathbb{S}_{Seq} Mod_r \simeq SeqSpec(Top)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Write $\mathbb{S}_{diag}$ for any of the three monoids. By the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, right modules with respect to [[Day convolution]] are equivalently right [[modules over monoidal functors]] over the monoidal functor corresponding to $\mathbb{S}_{diag}$ as in remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects}. This means that for $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ they are functors $X \colon Sym \longrightarrow sSet^{\ast/}$ or $X \colon Seq \longrightarrow sSet^{\ast/}$, respectively equipped with [[natural transformations]]
+
+$$
+  X_p \wedge S^{q}  \longrightarrow X_{p+q}
+$$
+
+satisfying the evident [[categorification|categorified]] [[action]] property. In the present case this action property says that these morphisms are determined by 
+
+$$
+  X_p \wedge S^1 \longrightarrow X_{p+1}
+$$
+
+under the isomorphisms $S^p \simeq S^1 \wedge S^{p-1}$. Naturality of all these morphisms as functors on $Sym$ is the equivariance under the symmetric group actions in the definition of [[symmetric spectra]]. 
+
+Similarly, modules over $\mathbb{S}_{Orth}$ are equivalently functors
+
+$$
+  X_V \wedge S^{W}  \longrightarrow X_{V \oplus W}
+$$
+
+etc. and their functoriality embodies the [[orthogonal group]]-equivariance in the definition of [[orthogonal spectra]].
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For completeness we may trivially add to the three statements in prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} the equivalence
+
+$$
+  \mathbb{S} Mod_r \simeq [Top^{\ast/}_{fin}, Top^{\ast/}]
+  \,,
+$$
+
+which holds simply because by def. \ref{StandardRepresentativeOfTheSphereSpectrum} $\mathbb{S}$ is in fact the [[tensor unit]] in $([Top^{\ast/}_{fin}, Top^{\ast/}],\otimes_{Day})$, so that every object here is canonically a module object over $\mathbb{S}$.
+
+Now the [[model structure on excisive functors]] shows that the category $[Top^{\ast/}_{fin}, Top^{\ast/}]$ constitutes a model for [[stable homotopy theory]], while this is not the case for either of its restrictions. 
+
+Hence we may read prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} as saying that while restricting the domain of [[excisive functors]] breaks their property of being a model for [[stable homotopy theory]], but at the same time retaining the correspondingly restricted [[sphere spectrum]]-[[module]] structure first of all becomes non-tautological after restriction and second restores the property of the objects to model spectra.
+
+=--
+
++-- {: .num_remark #SystemOfStructuredSpectraAndDiagrams}
+###### Remark
+
+Combined with the [[free-forgetful adjunctions]] for [[module objects]] ([[free modules]] $\dashv$ underlying objects) the situation described by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} and prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} jointly is the following diagram of [[adjunctions]]
+
+$$
+ \array{
+   && OrthSpec(Top) && SymSpec(Top) && SeqSpec(Top)
+   \\
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_r && \mathbb{S}_{Orth} Mod_r && \mathbb{S}_{Sym} Mod_r && \mathbb{S}_{Seq} Mod_r
+   \\
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   \\
+   [Top_{fin}^{\ast/}, Top^{\ast/}]
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+   [Orth, Top^{\ast/}]
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+   [Sym, Top^{\ast/}] 
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+   [Seq, Top^{\ast/}] 
+ }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The horizontal adjunctions in remark \ref{SystemOfStructuredSpectraAndDiagrams} lift to adjunctions between categories of modules, such as to give a [[commuting diagram]] of adjunctions as follows:
+
+$$
+ \array{
+   && OrthSpec(Top) && SymSpec(Top) && SeqSpec(Top)
+   \\
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_r 
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Orth} Mod_r 
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Sym} Mod_r 
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Seq} Mod_r
+   \\
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   \\
+   [Top_{fin}^{\ast/}, Top^{\ast/}]
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+   [Orth, Top^{\ast/}]
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+   [Sym, Top^{\ast/}] 
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+   [Seq, Top^{\ast/}] 
+ }
+  \,.
+$$
+
+=--
+
+([MMSS 00, prop. 3.4 with construction 2.1](#MMSS00))
+
+## Part II. Model categories of diagram spectra
+ {#PartII}
+
+
+We now discuss equipping the diagram categories of [part I](#PartI) with [[model category]] structures, each presenting the [[stable homotopy theory]] (the [[stable (infinity,1)-category of spectra]]), and how the system of [[adjunctions]] between these categories becomes a system of [[Quillen equivalences]] between these model structures.
+
+### 5.-10. Plain spectra
+ {#ModelStructuresForPlainSpectra}
+
+We discuss model structures for plain spectra, [below](ModelStructuresOnRingSpectraAndModuleSpectra) we discuss model structures for [[ring spectra]] and [[module spectra]].
+
+First we consider, def. \ref{StrictModelStructureOnDiagramSpectra} below, the "strict" model structures which regard spectra only as diagrams of topological spaces, ignoring the fact that it is not the degreewise [[homotopy groups]] but the [[stable homotopy groups]] that are to be invariants of [[stable homotopy types]] (with an extra subtlety in the case of symmetric spectra, see prop. \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} below). Incorporating the latter is accomplished by a Bousfield localization of the strict model structures to the genuine stabel model structures below in theorem \ref{StableModelStructuresOnDiagramSpectra}
+
++-- {: .num_defn #StrictModelStructureOnDiagramSpectra}
+###### Definition
+
+Write $[Seq, Top^{\ast/}_{Quillen}]$ for the [[model category]] structure on $\mathbb{N}$-parameterized sequences of pointed topological spaces, whose weak equivalences, fibrations and cofibrations are degreewise those of the [[classical model structure on pointed topological spaces]]. (This is equivalently the induced injective or projective [[model structure on functors]]).
+
+Then for each of the categories in the diagram of remark \ref{SystemOfStructuredSpectraAndDiagrams}, say that the **strict model structure** on it is the [[transferred model structure]] from $[Seq, Top^{\ast/}_{Quillen}]$ along the composite adjunction connecting the two in that diagram, so that we get a diagram of [[Quillen adjunctions]]
+
+$$
+ \array{
+   && OrthSpec(Top)_{strict} && SymSpec(Top)_{strict} && SeqSpec(Top)_{strict}
+   \\
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_{strict}
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Orth} Mod_{strict}
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Sym} Mod_{strict}
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Seq} Mod_{strict}
+   \\
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   \\
+   [Top_{fin}^{\ast/}, Top^{\ast/}]_{strict}
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+   [Orth, Top^{\ast/}]_{strict}
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+   [Sym, Top^{\ast/}]_{strict} 
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+   [Seq, Top^{\ast/}_{Quillen}] 
+ }
+  \,.
+$$
+
+=--
+
+(see [MMSS 00, Variant 6.10](#MMSS00))
+
++-- {: .num_remark #TheStrictModelStructuresOnDiagramSpectra}
+###### Remark
+
+The model structure $\mathbb{S}_{seq} Mod_{strict}$ in def. \ref{StrictModelStructureOnDiagramSpectra}
+is the _[strict Bousfield-Friedlander model structure](Bousfield-Friedlander%20model%20structure#TheStrictModelStructure)_.
+
+
+We generically write $seq^\ast$ for the composites to the right of the right adjoints in the sequence.
+
+$$
+ \array{
+   \mathbb{S} Mod_{strict}
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Orth} Mod_{strict}
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Sym} Mod_{strict}
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Seq} Mod_{strict}
+ }
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #StableEquivalencesForDiagramSpectra}
+###### Definition
+
+Say for any of the four categories in remark \ref{TheStrictModelStructuresOnDiagramSpectra} that:
+
+1. an object $X$ is an _Omega-spectrum_ if $seq^\ast X $ is an [[Omega spectrum]] in the standard sense of [[sequential spectra]];
+
+1. a morphism $f$ is a _stable weak homotopy equivalence_ if $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] in the standard sense of [[sequential spectra]] (an [[isomorphism]] on all [[stable homotopy groups]] of sequential spectra);
+
+1. a morphism $f$ is a _stable equivalence_ if for all Omega spectra $X$ in the above sense, the morphism $[f,E]_{strict}$ is a [[bijection]] (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category]] of the strict model structure of def. \ref{StrictModelStructureOnDiagramSpectra}.
+
+
+=--
+
+([MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
+
+Except for the case of [[symmetric spectra]], the concepts of stable weak homotopy equivalences and of stable equivalences coincide
+
++-- {: .num_prop #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
+###### Proposition
+
+In $\mathbb{S}Mod$, $\mathbb{S}_{Orth} Mod$ and in $\mathbb{S}_{Seq} Mod$ we have for the concepts from def. \ref{StableEquivalencesForDiagramSpectra} that
+
+$$
+  stable\;weak\;homotopy\;equivalence 
+  \;\Leftrightarrow\;
+  stable \; equivalence
+  \,.
+$$
+
+In $\mathbb{S}_{Sym}Mod$ however we only have
+
+$$
+  stable\;weak\;homotopy\;equivalence 
+  \;\Rightarrow\;
+  stable \; equivalence
+$$
+
+but the reverse implication is false.
+
+=--
+
+([MMSS00, prop. 8.7, prop. 8.8](#MMSS00))
+
++-- {: .num_thm #StableModelStructuresOnDiagramSpectra}
+###### Theorem
+
+The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures of def. \ref{StrictModelStructureOnDiagramSpectra} at the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra}, we call these the _stable model structures_
+
+$$
+  \mathbb{S}_{diag} Mod_{stable}
+    \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
+  \mathbb{S}_{diag} Mod_{strict}
+  \,.
+$$
+
+
+Moreover these stable model structures are 
+
+1. [[compactly generated model category|compactly generated]];
+
+1. [[proper model category|proper]];
+
+1. $Top^{\ast/}_{Quillen}$-[[enriched model categories]].
+
+=--
+
+([MMSS00, theorem 9.2](#MMSS00))
+
+
+
++-- {: .num_thm #QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra}
+###### Theorem
+
+The sequence of [[Quillen adjunctions]] between the strict model structures of def. \ref{StrictModelStructureOnDiagramSpectra} remain Quillen adjunctions for the stable model structures of theorem \ref{StableModelStructuresOnDiagramSpectra} and indeed become a sequence of [[Quillen equivalences]] 
+
+$$
+ \array{
+   && OrthSpec(Top)_{stable} && SymSpec(Top)_{stable} && SeqSpec(Top)_{stable}
+   \\
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_{stable}
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Orth} Mod_{stable}
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Sym} Mod_{stable}
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+   \mathbb{S}_{Seq} Mod_{stable}
+ }
+  \,.
+$$
+
+=--
+
+([MMSS 00, section 10](#MMSS00))
+
+### 11.-16. Ring spectra and module spectra
+ {#ModelStructuresOnRingSpectraAndModuleSpectra}
+
+(...)
+
+### 17.-18. Relation to $\Gamma$-spaces
+
+(...)
+
+### 19. Simplicial and topological diagram spectra
+
+(...)
+
+### Part III Symmetric monoidal categories and FSPs
 
 category: reference
