@@ -58,6 +58,19 @@ $$
 
 of [[context extension]] followed by [[dependent sum]].
 
+One may also think of this as being the [[integral transform]] through the span
+
+$$
+  \ast \leftarrow W \rightarrow \ast
+$$
+
+(with trivial kernel) or as the [[polynomial functor]] associated with the span 
+
+$$
+  \ast \leftarrow W \stackrel{id}{\rightarrow} W \rightarrow \ast
+  \,.
+$$
+
 
 
 ## Related concepts
