@@ -45,6 +45,9 @@ Fedosov's method proceeds by the following steps:
    In the context of [[local field theory]], this deformation quantization is equivalent to the result of quantization via [[causal perturbation theory]] ([Collini 16](#Collini16)).
 
 
+## Related concepts
+
+* [[almost Kähler geometric quantization]]
 
 
 ## References
