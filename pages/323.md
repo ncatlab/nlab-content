@@ -212,6 +212,11 @@ of the two morphisms induced by $f$ and $g$ out of the [[product]] of $a$ with $
 
 ### Pasting of pullbacks {#Pasting}
 
+
++-- {: .num_prop}
+###### Proposition
+**([[pasting law]])**
+
 Consider a [[pasting diagram]] of the form
 
 $$
@@ -227,11 +232,9 @@ $$
 
 There are three commuting squares: the two inner ones and the outer one.
 
-+-- {: .num_prop}
-###### Proposition
-**([[pasting law]])**
+Suppose the right-hand inner square is a pullback, then: 
 
-Suppose the right-hand inner square is a pullback: then the left-hand one is a pullback if and only if the outer square is.
+The square on the lft is a pullback if and only if the outer square is.
 
 =--
 
@@ -275,29 +278,37 @@ On the other hand, in the [[(∞,1)-category]] of [[∞-groupoids]], there is a 
 
 =--
 
-### Preservation properties
+### Monomorphisms and isomorphisms
 
-Let 
-$$\array{
-O_{0,1} & \to & O_{1,1} & \to  & O_{2,1} &  & &  & \\
-\downarrow m_0 &&\downarrow m_1 &&\downarrow m_2 &&  &&  \\
-O_{0,0} & \to & O_{1,0} & \to & O_{2,0}  & &  & 
-}$$
-be a commutative diagram in a category $\mathcal{C}$. 
++-- {: .num_prop #PullbackPreservesMonomorphisms}
+###### Proposition
+**(pullback preserves monomorphisms and isomorphisms)
 
-* If the left square and the right square are pullback squares, then so is the total square.
+Pullback preserves [[monomorphisms]] and [[isomorphisms]]:
 
-* If $m_1$ is monic in $\mathcal{C}$, and if the left square is a pullback, then $m_0$ is monic in $\mathcal{C}$.
+If 
 
-(Right square irrelevant here.)
+$$
+  \array{
+    a &\overset{}{\longrightarrow}& b
+    \\
+    {}^{\mathllap{f^\ast g}}\downarrow &(pb)& \downarrow^{g}
+    \\
+    c &\underset{f}{\longrightarrow}& d
+  }
+$$
 
-* If $m_0$ is monic in $\mathcal{C}$, and if the left square is a pullback, then $m_1$ still need not be monic. 
+is a pullback square in some category then:
 
-(Right square irrelevant here.)
+1. if $g$ is a [[monomorphism]] then $f^\ast g$ is a monomorphism;
 
-* If $m_1$ is an iso in $\mathcal{C}$, and if the left square is a pullback, then $m_0$ is an iso in $\mathcal{C}$.
+1. if $g$ is an [[isomorphism]] then $f^\ast g$ is an isomorphism.
 
-(Right square irrelevant here.)
+On the other hand that $f^\ast g$ is a monomorphism does not imply that $g$ is a monomorphism.
+
+=--
+
+
 
 ### Saturation
 
