@@ -12,7 +12,7 @@ The _Beilinson-Drinfeld operad_ is the [[operad]] whose [[algebras over an opera
 The underlying graded vector spaces are
 
 $$
-  BD \coloneqq P_0 \otimes \mathbb{R}[ [\hfrak] ]
+  BD \coloneqq P_0 \otimes \mathbb{R}[ [\hbar] ]
 $$
 
 and the [[differential]] is
