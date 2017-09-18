@@ -9,7 +9,7 @@ By taking the [[right Kan extension]] of this prestack along the ([[opposite (in
   $$ (Sch^{aff})^{op} \hookrightarrow Stk^{op}, $$
 one gets an [[(infinity,1)-prestack]]
   $$ Mod : Stk^{op} \to Cat^{stab}_\infty. $$
-In other words, for a derived stack $X$, $Mod(X)$ is given by the [[limit of (infinity,1)-categories|limit]]
+In other words, for a derived stack $X$, $Mod(X)$ is given by the [[limit in an (infinity,1)-category|limit]]
   $$ Mod(X) = lim_{Spec(A) \to X} Mod(A). $$
 
 In the case of ordinary [[affine schemes]], [[modules]] in this sense, i.e. [[modules]] over [[Eilenberg-Mac Lane spectra]], correspond by the [[stable Dold-Kan correspondence]] to [[chain complexes]].  The corresponding notion of module over an ordinary [[scheme]] or [[stack]] is then a _quasi-coherent complex_.
@@ -23,11 +23,13 @@ That is, for a [[commutative ring]] $A$,
 
 The [[(infinity,1)-prestack]] $Mod$ satisfies [[Zariski descent]] and even [[Nisnevich descent]]; this is due to [[Jacob Lurie]] and [[Vladimir Drinfeld]].
 
-$Mod$ lifts to a prestack of [[symmetric monoidal (infinity,1)-categories]].  The [[dualizable objects]] are precisely the [[perfect modules]].  In good cases, $Mod(X)$ is [[compactly generated]] and the [[compact objects]] are precisely the [[perfect modules]].
+$Mod$ lifts to a prestack of [[symmetric monoidal (infinity,1)-categories]].  The [[dualizable objects]] are precisely the [[perfect modules]].
+In good cases, the [[stable (infinity,1)-category]] $Mod(X)$ is [[compactly generated (infinity,1)-category|compactly generated]] and the [[compact objects]] are precisely the [[perfect modules]].
 
 ## Related concepts
 
 * [[perfect module]]
+* [[triangulated categories of sheaves]]
 
 ## References
 
@@ -36,6 +38,8 @@ $Mod$ lifts to a prestack of [[symmetric monoidal (infinity,1)-categories]].  Th
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry II: geometric stacks and applications_, 2004, [arXiv:math/0404373](http://arxiv.org/abs/math/0404373).
 
 * [[Jacob Lurie]], [[Derived Algebraic Geometry]], thesis, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG.pdf).
+
+* {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], section 3.1 of _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966 ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
 
 [[!redirects modules over a derived stack]]
 [[!redirects modules over derived stacks]]
