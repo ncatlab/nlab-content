@@ -1017,8 +1017,8 @@ B122 (1983) 157-164.
 
 Homological Poisson reduction is discussed in 
 
-* [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
-{#Stasheff96}
+* {#Stasheff96} [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_, J. Differential Geom. Volume 45, Number 1 (1997), 221-240 ([arXiv:q-alg/9603021](http://arxiv.org/abs/q-alg/9603021), [Euclid](https://projecteuclid.org/euclid.jdg/1214459757))
+
 
 Remarks  on the [[homotopy theory]] interpretation of BRST-BV are in
 
