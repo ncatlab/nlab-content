@@ -26,8 +26,9 @@ A _spacetime_ is a [[manifold]] that models [[space]] and [[time]] in [[physics]
 
 This is formalized by saying that a **spacetime** is a [[smooth Lorentzian space]] $(X,\mu)$ equipped with a time orientation (see there).
 
-In the context of classical [[general relativity]] a **spacetime** is usually in addition assumed to be connected and four-dimensional. A connected Lorentzian manifold is
-either time orientable or it has a two-sheeted covering which
+Hence a point in a spacetime is called an _[[event]]_.
+
+In the context of classical [[general relativity]] a **spacetime** is usually in addition assumed to be connected and four-dimensional. A connected Lorentzian manifold is either time orientable or it has a two-sheeted covering which
 is time orientable.
 
 In [[classical physics]], notably in [[special relativity]] and [[general relativity]] points in $X$ model coordinates where _events_ can take place from the viewpoint of an observer ("points in space and time") while the metric $\mu$ models the field of [[gravity]] in [[general relativity]].
