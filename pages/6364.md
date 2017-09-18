@@ -17,6 +17,7 @@
 
 The _unitalization_ of a non-unital [[algebra]] is a unital algebra with a "unit" (an [[identity]] element) [[free construction|freely]] adjoined.
 
+This is a [[free functor]]: [[Rng]] $\to$ [[Ring]].
 
 ## Definitions
 
