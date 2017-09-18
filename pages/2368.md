@@ -1350,7 +1350,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] twice to get the following natural isomorphism
+That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) twice to get the following natural isomorphism
 
 $$
   \begin{aligned}
