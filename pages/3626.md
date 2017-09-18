@@ -130,13 +130,13 @@ If a Frobenius algebra lives in a monoidal [[†-category]], $(\delta)^\dagger =
 ### General
 
 
-+-- {: .un_prop}
-######Proposition 
++-- {: .num_prop}
+###### Proposition 
 A Frobenius algebra $A$ in a monoidal category is an object dual to itself. 
 =-- 
 
 +-- {: .proof}
-######Proof 
+###### Proof 
 Let $I$ be the monoidal unit. To say $A$ is dual to itself means there are maps $e: I \to A \otimes A$ and $p: A \otimes A \to I$ such that the usual triangular equations hold. The maps are defined by 
 $$e = (I \stackrel{\eta}{\to} A \stackrel{\delta}{\to} A \otimes A), \qquad p = (A \otimes A \stackrel{\mu}{\to} A \stackrel{\epsilon}{\to} I)$$ 
 and one of the triangular equations uses one of the Frobenius laws and unit and counit axioms to derive the following commutative diagram: 
@@ -158,6 +158,9 @@ As a result, we see that in the monoidal category $Mod_k$ of modules over a comm
 * Every Frobenius algebra $A$ is a [[quasi-Frobenius algebra]]: projective and injective left (right) modules over $A$ coincide. 
 
 * Every Frobenius algebra $A$ is a [[pseudo-Frobenius algebra]]: $A$ is an injective cogenerator in the category of left (right) $A$-modules. 
+
+Frobenius algebras are closely connected with [[ambidextrous adjunctions]]. For example, a **[[Frobenius monad]]** on a category $C$ is by definition a Frobenius monoid in the monoidal category of [[endofunctors]] on $C$ (with monoidal product given by endofunctor composition), and if we have a pair of [[adjunctions]] $F \dashv U$ and $U \dashv F$, then $M = U F$ carries a monad structure and a [[comonad]] structure and the Frobenius laws are satisfied, a fact most easily seen by using [[string diagrams]].  
+
 
 ### PROPs for Frobenius algebras
 
