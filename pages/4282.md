@@ -52,7 +52,7 @@ Arguably, one should require that the map $*$ be an [[isometry]] (which follows 
 
 ## Examples
 
-A [[groupoid convolution algebra]] is naturally a $*$-alegbra, with the [[involution]] given by pullback along the [[inverse|inversion]] operation of the groupoid.
+A [[groupoid convolution algebra]] is naturally a $*$-algebra, with the [[involution]] given by pullback along the [[inverse|inversion]] operation of the groupoid.
 
 More generally the [[category convolution algebra]] of a [[dagger-category]] is a $*$-algebra, with the involution being the pullback along the $\dagger$ operation.
 
@@ -60,6 +60,8 @@ More generally the [[category convolution algebra]] of a [[dagger-category]] is 
 ## Related concepts
 
 * [[star-representation]]
+
+* [[real part]], [[imaginary part]]
 
 
 [[!redirects star-algebra]]
