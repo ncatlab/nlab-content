@@ -150,3 +150,6 @@ $$
 
 [[!redirects formal linear combination]]
 [[!redirects formal linear combinations]]
+
+[[!redirects formal sum]]
+[[!redirects formal sums]]
