@@ -78,6 +78,10 @@ is an [[isomorphism]]. This remains true if [[Set]] is replaced by any [[Grothen
 
 More generally, if $\mathbf{H}$ is an [[(∞,1)-topos]], $A$ is an [[n-groupoid]], and $C$ is a small [[(∞,1)-category]] whose [[classifying space]] is [[n-connected]], then $C$-limits commute with $A$-colimits in $\mathbf{H}$. This follows from the fact that the colimit functor $\mathbf{H}^A\to\mathbf{H}$ induces an equivalence of (∞,1)-topoi $\mathbf{H}^A\simeq \mathbf{H}_{/A}$. For example, if $C$ is a [[cofiltered (∞,1)-category]] or even a [[cosifted (∞,1)-category]], then the classifying space of $C$ is weakly contractible and hence $C$-limits commute with $A$-colimits in $\mathbf{H}$ for any [[∞-groupoid]] $A$.
 
+## Classes of limits and sound doctrines
+
+In general, for any class of limits $\Phi$, one may consider the class of all colimits that commute with $\Phi$-limits and dually.  These classes of limits and colimits share many of the properties of the above examples, especially when $\Phi$ is a [[sound doctrine]].
+
 ## Certain colimits are stable by base change {#ColimitsStableByBaseChange}
 
 Let $C$ be a category with [[pullback]]s and [[colimit]]s of shape $D$. 
