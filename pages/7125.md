@@ -185,14 +185,14 @@ Examples of the gluing construction abound. Here are a few:
 
 ## References 
 
-* Aurelio Carboni, [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459
+* [[Gavin Wraith]], _Artin Glueing_ , JPAA **4** (1974) pp.345-358.
+
+* [[Aurelio Carboni]], [[Peter Johnstone]], _Connected limits, familial representability and Artin glueing_ , Mathematical Structures in Computer Science 5 (1995), 441--459. 
 {#CJ}
 
-See also: 
+* [[Aurelio Carboni]], [[Peter Johnstone]], _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science 14 (2004), 185--187.
 
-* Aurelio Carboni, [[Peter Johnstone]], _Corrigenda to 'Connected limits...'_ , Mathematical Structures in Computer Science 14 (2004), 185--187.
-
-Some of the material above refers to 
-
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002. (sec. A2.1.12, pp.82-84; A4.5.6, p.208)
   {#Johnstone}
+
+* M. Jibladze, _Lower Bagdomain as a Glueing_ , Proc. A. Razmadze Math. Inst. **118** (1998) pp.33-41. ([pdf](http://www.rmi.ge/~jib/baglue.pdf))
