@@ -24,8 +24,20 @@
 For $U \subset \mathbb{C}$ an [[open subset]] of the [[complex plane]] $\mathbb{C}$ and for $C$ a [[Jordan curve]] in $U$, a [[holomorphic function]] $f$ of $U$ sends a point $\zeta$ enclosed by $C$ to the [[contour integral]]
 
 $$ 
-  \frac{1}{2\pi\mathrm{i}}\oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z.
+  f(\zeta) =  \frac{1}{2\pi\mathrm{i}}\oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z.
+  \,.
 $$
+
+More generally, this implies, by [[Taylor series]] expansion of $f$, that for $n \in \mathbb{N}$ the $n$th complex [[derivative]] $f^{(n)}$ is
+
+$$
+  f^{(n)}(\zeta)
+    =
+  \frac{n!}{2\pi i}  \oint_C \frac{f(z)}{(z - \zeta )^{n+1}} d z
+  \,.
+$$
+
+This is also known as _Cauchy's differentiation formula_.
 
 ## Proof in synthetic differential geometry
 
@@ -54,3 +66,7 @@ $$\int_0^1 \left[f(\zeta) + \epsilon\,\exp(2\pi\mathrm{i}t) \frac{\partial f(\ze
 * Wikipedia, _[Cauchy's integral formula](https://en.wikipedia.org/wiki/Cauchy's_integral_formula)_
 
 [[!redirects Cauchy integral formula]]
+
+[[!redirects Cauchy differentiation formula]]
+[[!redirects Cauchy's differentiation formula]]
+
