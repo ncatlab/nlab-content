@@ -155,7 +155,7 @@ The most permissive pure type system:
 | $A = $ | $\{(\ast : \ast)\}$
 | $R = $ | $\{(\ast, \ast)\}$
 
-But there is an example with even non-circular system of axioms:
+But there is an example with even non-circular system of axioms (System $\mathsf{U}^-$):
 
 | symbol | actual value
 |--------|-------------
