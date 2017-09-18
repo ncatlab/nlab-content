@@ -24,6 +24,7 @@ $(\infty, 1)Prof$ can act as a classifying object for kinds of (∞,1)-functors;
 ## Related concepts
 
 * [[Prof]]
+* [[Pr(infinity,1)Cat]]
 
 
 
