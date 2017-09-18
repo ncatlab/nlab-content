@@ -177,6 +177,10 @@ and the formalization of this in the [[internal logic|internal language]] of [[h
 
 * Univalent Foundations Project, _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
+A foundational set of lecture notes is developing in 
+
+* [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_ ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+
 
 See also
 
