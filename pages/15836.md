@@ -13,16 +13,27 @@
 The mathematics is perhaps cleanest using [[JBW-algebras]], that is [[Jordan algebra|Jordan]] [[W*-algebras]].  That is, we have:
 
 * a [[Banach space]] $A$ whose elements are thought of as (bounded, real-valued) [[observables]],
-* a [[Banach space]] $A_*$ whose norm-$1$ elements are thought of ([[normal state|normal]], [[mixed state|mixed]]) [[states]],
+* a [[Banach space]] $A_*$ whose positive norm-$1$ elements are thought of ([[normal state|normal]], [[mixed state|mixed]]) [[states]],
 * with $A$ expressed as the [[dual Banach space|dual]] of $A_*$,
 * with a commutative (but [[nonassociative algebra|nonassociative]]) multiplication operation on $A$,
-* with the nonassociative [[Banach algebra]] $A$ satisfying a couple of technical conditions ([[formally real algebra|formal reality]] and the [[C*-identity]]).
+* with the nonassociative [[Banach algebra]] $A$ satisfying a couple of technical conditions ([[power-associative algebra|power-associativity]], positivity, and the [[B-identity]]).
 
 If the multiplication on $A$ happens to be [[associative algebra|associative]], then there exists a [[measure space]] $X$ such that $A_*$ is the [[Lebesgue space]] $L^1(X)$ and $A$ is $L^\infty(X)$.  It is always possible to take $X$ to be [[localizable measure space|localizable]], in which case the [[Radon--Nikodym theorem]] applies and we can identify $L^1(X)$ with the space of [[absolutely continuous measures]] on $X$.  At this point, the measure on $X$ is irrelevant except for its specification of [[full set|full]] (or [[null set|null]]) subsets, so we may treat $X$ as simply a [[localizable measurable space]] (which includes this data).  Then the choice of $X$ is actually [[the|essentially unique]].
 
 In this way, the associative case reduces to [[probability theory]].  We have a measurable space $X$, an observable is an [[essentially bounded function]], and a state is a [[probability measure]].  It is true that we only have localizable spaces, but these are the only ones that satisfy the nice theorems (such as Radon--Nikodym, aforementioned) anyway.  (Similarly, the observables are defined only up to [[almost equality]],and the states must be [[absolutely continuous measures]].)
 
-In the general (nonassociative) case, we still think of the elements of $A$ (the observables) as essentially bounded functions, but now on a sort of [[noncommutative geometry|noncommutative]] (or rather nonassociative) space, and we still think of the elements of $A_*$ (the states) as probability measures on that space.
+In the general (nonassociative) case, we still think of the elements of $A$ (the observables) as essentially bounded functions, but now on a sort of [[noncommutative geometry|noncommutative]] (or rather nonassociative) space, and we still think of the elements of $A_*$ (the states) as probability measures on that space.  Because $A$ is a Jordan algebra instead of an associative algebra, *all* of its elements may be thought of as observables, but this is more of a convenience than an essential feature.
+
+We might also want to consider generalized (non-normal) states, that is norm-$1$ [[positive operator|positive]] [[linear functionals]] on $A$.  (Every state in $A_*$ may be so interpreted, using the natural map $A_* \to (A_*)^{**} = A^*$).  In the associative case, the [[delta measure]]s (corresponding to points of $X$) belong here; more generally, [[pure states]] live in $A^*$.  (Pure states *can* exist in $A_*$, but only in the simplest cases.)  One may go further and consider [[quasistate]]s, if any exist.
+
+In particular, if $A$ is the space of [[bounded operators|bounded]] [[self-adjoint operators]] on some [[Hilbert space]] $H$, then $A_*$ is the space of [[trace-class operator|trace-class]] self-adjoint on $H$.  Then a (normal) state is a trace-class [[density matrix]], while a generalized state in $A^*$ is an arbitrary density matrix.  The pure states (of the form ${|\psi\rangle\langle\psi|}$ for $\psi$ a unit vector in $H$) always belong to $A^*$ but only belong to $A_*$ when the dimension of $H$ is finite.
+
+
+## Interpretation
+
+A state (a unit vector in $A_*$) represents a _state of knowledge_ about the world.  Just as a Bayesian probability measure is not an objective feature of the world (the territory) but rather an expression what a rational observer might know about the world (a map), so a quantum state in $A_*$ is also a map, not the territory.  There is (except when $A$ is associative) *no* possible complete specification of the actual values of all observables, only a probabilistic specification of what one might know about them.
+
+In the [[Schroedinger picture]] (assuming a notion of [[time]]), states evolve deterministically, unitarily, and with conservation of [[entropy]].  (Or in the [[Heisenberg picture]], they don\'t evolve at all.)  But a state may change otherwise, if one\'s knowledge changes.  If this is an increase in knowledge as a result of a [[measurement]], then this change in the state may be called the 'collapse of the wavefunction'.  But this collapse takes place in the map, not the territory; it is not a physical process.
 
 
 ## History
