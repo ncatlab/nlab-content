@@ -86,6 +86,27 @@ Another way of stating this is that a Grothendieck topos is local if and only if
 
 =--
 
+In fact the preceding remark suggests a generalization, beyond the (Grothendieck) sheaf topos case: 
+
++-- {: .num_defn} 
+###### Definition 
+An [[elementary topos]] $E$ is *local* if the terminal object $1$ is 
+
+* connected: $1 = p \vee q$ implies $1 = p$ or $1 = q$, and 
+
+* projective: every epi $U \to 1$ admits a section $t: 1 \to U$. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+Some authors have used the term "local" to refer just to the condition that $1$ is connected; note this is equivalent to $Sub_E(1)$ being a [[local ring|local rig]]. In his [thesis](#Awodey), Steve Awodey upgraded this, saying that a topos is *hyperlocal* if both connectivity and projectivity are satisfied. In view of the current entry, it seems reasonable to regard the latter as a more convenient notion, and just shorten it to "local".  
+=-- 
+
++-- {: .num_example} 
+###### Example 
+The [[free topos]] is a local elementary topos. 
+=-- 
+
 ## Properties
 
 ### Equivalent characterizations
@@ -722,7 +743,12 @@ Computability via Realizability_ PhD Thesis ([pdf](http://itu.dk/people/birkedal
 
 Free local constructions are considered in 
 
-* {#Shulman} [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
+* {#Shulman} [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html)) 
+
+Notions of local topos, with a view to logical completeness theorems, appear in Steve Awodey's thesis: 
+
+* [[Steve Awodey]], *Logic in topoi: functorial semantics for higher-order logic*, Thesis, University of Chicago (1997). 
+ {#Awodey} 
   
 
 [[!redirects local geometric morphisms]]
