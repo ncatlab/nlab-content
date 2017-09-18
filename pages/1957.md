@@ -147,7 +147,7 @@ This is really a special case of the previous class of examples, as $\Omega^\bul
 
 ## References
 
-* {#Grassmann44} [[Hermann Grassmann]], _Die Lineale Ausdehnungslehre, ein neuer Zweig der Mathematik_, 1844
+* {#Grassmann44} [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
 
 
 For the case of [[modules]] over a [[commutative ring]], see
