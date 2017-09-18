@@ -114,7 +114,7 @@ object of the [[over quasi-category|over (∞,1)-category]] $C_{/Y}$.
 
 At least if the ambient [[(∞,1)-category]] is even an [[∞-stack]] [[(∞,1)-topos]] there is an alternative, more intrinsic, characterization of $n$-truncation in terms of [[categorical homotopy groups in an (∞,1)-topos]]:
 
-+-- {: .num_prop}
++-- {: .num_prop #RecognizngnTuncationOnSimplicialHomotopyGroups}
 ###### Proposition
 
 Suppose that an object $X$ in an [[∞-stack]] [[(∞,1)-topos]] is $k$-truncated for _some_ $k \in \mathbb{N}$ (possibly very large).
