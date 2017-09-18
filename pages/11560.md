@@ -19,7 +19,7 @@
 
 ## Idea
 
-**Spectral algebraic geometry** is the theory of [[homotopical algebraic geometry]] specialized to the [[(infinity,1)-category of spectra]].
+**Spectral algebraic geometry** (or maybe [[E-∞ geometry]]) is the theory of [[homotopical algebraic geometry]] specialized to the [[(infinity,1)-category of spectra]].
 Hence it is a generalization of ordinary [[algebraic geometry]] where instead of [[commutative rings]], [[spectral schemes]] are locally modelled on [[commutative ring spectra]].
 
 ## Applications
@@ -51,6 +51,11 @@ The foundations of the theory are developed in
 * [[Jacob Lurie]], _DAG XII: Proper morphisms, completions, and the Grothendieck existence theorem_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf).
 
 * [[Jacob Lurie]], _DAG XIV: Representability theorems_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIV.pdf).
+
+A textbook account is developing in 
+
+* [[Jacob Lurie]], _[[Spectral Algebraic Geometry]]_ ([pdf]( http://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
+
 
 See also
 
