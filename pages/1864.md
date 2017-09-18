@@ -50,6 +50,8 @@ $$
 
 ## Examples 
 
+* concordance of topological [[vector bundles]] is discussed [there](vector+bundle#ConcordanceOfTopolgicslVectorBundles)
+
 * For $A = VectrBund(-)$ the difference between concordance of [[vectorial bundles]] and isomorphism of vectorial bundles plays a crucial rule in the construction of [[K-theory]] from this model.
 
 * The notions of coboundary and concordance exist in every [[cohesive (∞,1)-topos]].
