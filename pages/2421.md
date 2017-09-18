@@ -177,7 +177,7 @@ There is a finite analog for super-groups that does not quite fit in the framewo
 +-- {: .num_defn}
 ###### Definition
 
-A finite super-group is a tuple $(G, z)$, where $G$ is a finite group and $z$ is central and squares to $1$.
+A finite super-group is a tuple $(G, z \in G)$, where $G$ is a finite group and $z$ is central and squares to $1$.
 
 The representations of a finite super-group are $\mathbb{Z}_2$-graded:
 An irreducible representation has odd degree if $z$ acts by negation, and even degree if it acts as the identity.
