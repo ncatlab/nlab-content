@@ -30,8 +30,8 @@ The name "fusion category" comes from the central examples of structures whose c
 
 Some of the easiest examples are:
 
-* Representations of a finite group or ([finite super-group](https://ncatlab.org/nlab/show/supergroup#finite_supergroups)]
-* For a given finite group $G$ and a 3-cocycle on $G$ with values in a field $k$ (an element of $H^3(G,k^\times)$), take $G$-graded vector spaces with the cocycle as associator.
+* Representations of a finite group or ([finite super-group](https://ncatlab.org/nlab/show/supergroup#finite_supergroups))
+* For a given finite group $G$ and a 3-cocycle on $G$ with values in (the multiplicative group of units of) a field $k$ (an element of $H^3(G,k^\times)$), take $G$-graded vector spaces with the cocycle as associator.
 
 ## Properties
 
@@ -44,13 +44,13 @@ Under [[Tannaka duality]], every fusion category $C$ arises as the [[representat
 Fusion categories were first systematically studied by [[Etingof]], Nikshych and [[Ostrik]] in [On fusion categories](http://arxiv.org/abs/math/0203060). This paper listed many examples and proved many properties of fusion categories. One of the important conjectures made in that paper was the following:
 
 +-- {: .num_theorem}
-###### Conjecture (Etingof, Nikshcych and Ostrik)
+###### Conjecture (Etingof, Nikshych, and Ostrik)
 
 Every fusion category admits a [[pivotal structure]].
 
 =--
 
-Providing a certain condition is satisfied, a pivotal structure on a fusion category can be shown to correspond to a 'twisted' monoidal natural transformation of the identity functor on the category, where the twisting is given by the [[pivotal symbols]].
+Providing a certain condition is satisfied, a pivotal structure on a fusion category can be shown to correspond to a 'twisted' monoidal natural endotransformation of the identity functor on the category, where the twisting is given by the [[pivotal symbols]].
 
 
 ### Relation to extended 3d TQFT 
