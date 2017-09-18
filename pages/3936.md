@@ -41,7 +41,7 @@ A theory is said to be __complete__ if it is equivalent to $Th(M)$ for some stru
 
 ### For Lawvere theories
 
-For $Syn(T)$ the [[syntactic category]] of a [[Lawvere theory]], and for $C$ any category with finite [[limit]]s, a _model_ for $T$ in $C$ is a product-preserving functor
+For $Syn(T)$ the [[syntactic category]] of an [[algebraic theory]] (where $Syn(T)$ is perhaps better known as a [[Lawvere theory]]), and for $C$ any category with finite [[limit]]s, a _model_ for $T$ in $C$ is a product-preserving functor
 
 $$
   N : Syn(T) \to C
