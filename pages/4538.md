@@ -756,6 +756,10 @@ More on the universal coefficient theorem in generalized homology is in:
 
 * {: BJW95} **BJW95** [[J. M. Boardman]], and Johnson, David Copeland and Wilson, W. Stephen. (1995). Unstable operations in generalized cohomology. (pp. 687&ndash;828). Amsterdam: North-Holland.
 
+Further discussion along these lines includes
+
+* [[Andrew Baker]], Andrey Lazarev, _On the Adams Spectral Sequence for $R$-modules_, Algebr. Geom. Topol. 1 (2001) 173-199 ([arXiv.0105079](http://arxiv.org/abs/math/0105079))
+
 ### For KK-theory
  {#ReferencesForKK}
 
