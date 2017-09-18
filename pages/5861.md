@@ -2079,7 +2079,7 @@ $$
     \\
     G \times G &\stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}& G
     &\stackrel{}{\longrightarrow}&
-    \ImG
+    \Im G
   }
 $$
 
