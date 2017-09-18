@@ -1141,6 +1141,12 @@ Theorem \ref{TopQuillenModelStructure} in itself implies only that every topolog
 
 (...)
 
+## Related concepts
+
+* [[classical model structure on simplicial sets]]
+
+* [[classical model structure on pointed topological spaces]]
+
 ## References
 
 The original article is
