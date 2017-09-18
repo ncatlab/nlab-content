@@ -41,7 +41,18 @@ such that for every morphism $f: c \to c'$ in $C$,
 
 \[ \label{hexagon} G(c, f)\alpha_c F(f, c) = G(f, c')\alpha_{c'}F(c', f): F(c', c) \to G(c, c') \]
 
-If drawn out as a commutative diagram, this becomes a "hexagon identity".
+If drawn out as a commutative diagram, this becomes a "hexagon identity":
+
+\[
+\begin{array}{ccccccc}
+ &  & F(c,c) & \overset{\alpha_{c}}{\to} & G(c,c)\\
+ & \overset{\mathclap{F(f,c)}}{\nearrow} &  &  &  & \overset{\mathclap{G(c,f)}}{\searrow}\\
+F(c',c) &  &  &  &  &  & G(c,c')\\
+ & \underset{\mathclap{F(c',f)}}{\searrow} &  &  &  & \underset{\mathclap{G(f,c')}}{\nearrow}\\
+ &  & F(c',c') & \underset{\alpha_{c'}}{\to} & G(c',c')
+\end{array}\,.
+\]
+ 
 
 ### Special cases
 
