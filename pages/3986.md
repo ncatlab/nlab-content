@@ -13,6 +13,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A trigonometric identity is (formally) a [[commutative diagram]] in the [[category]] of [[cartesian spaces]] and [[partial functions]] whose edges are labelled by [[rational functions]] (or sometimes [[algebraic functions]]) and [[trigonometric functions]]. 
 
@@ -26,7 +31,11 @@ Of course, this is complete overkill; category theorists are not oblivious to th
 
 * $\widebar{\exp(z)} = \exp(\widebar{z})$. 
 
-See also [[trigonometric function]] for some discussion. 
+## Related entries
+
+* See also [[trigonometric function]] for some discussion. 
+
+* [[trigonometry]]
 
 [[!redirects trigonometric identity]]
 [[!redirects trigonometric identities]]
