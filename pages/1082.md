@@ -1,5 +1,5 @@
 
-> maybe you are looking for _[[derivative]]_
+> maybe you are looking for the (total) _[[derivative]]_ (differential) of a map
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
