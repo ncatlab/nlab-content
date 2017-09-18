@@ -82,6 +82,13 @@ A strict 2-monad $T$ has an underlying [[monad]] $T_0$, such that strict $T$-alg
 * I. J. Le Creurer, F. Marmolejo, E. M. Vitale, _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra 173 (2002), no. 3, 293--313. 
 * [[John Power]], *Unicity of enrichment over Cat or Gpd*, Appl. Categ. Struct. 2009, 1--7.
 
+Relation to [[symmetric operads]] is discussed in
+
+* {#Kock12} [[Joachim Kock]], _Data types with symmetries and polynomial functors over groupoids_,  28th Conference on the Mathematical Foundations of Programming Semantics (Bath, June 2012); in Electronic Notes in Theoretical Computer Science.  ([arXiv:1210.0828](http://arxiv.org/abs/1210.0828))
+
+* {#Weber14} [[Mark Weber]], _Operads as polynomial 2-monads_ ([arXiv:1412.7599](http://arxiv.org/abs/1412.7599))
+
+
 [[!redirects strict 2-monad]]
 [[!redirects weak 2-monad]]
 [[!redirects pseudo monad]]
