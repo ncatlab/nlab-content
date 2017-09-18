@@ -42,3 +42,9 @@ A general axiomatization of the notion of space is as an object in a [[cohesive 
 
 [[!redirects indiscrete topological space]]
 [[!redirects indiscrete topological spaces]]
+
+[[!redirects antidiscrete topological space]]
+[[!redirects antidiscrete topological spaces]]
+
+[[!redirects antidiscrete space]]
+[[!redirects antidiscrete spaces]]
