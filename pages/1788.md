@@ -1,13 +1,30 @@
+
+
++-- {: .num_prop}
+###### Proposition
+
+Given a strong [[monoidal Quillen adjunction]] 
+
 $$
-  \underset{
-    \simeq \underset{\longrightarrow}{\lim}_k  \pi_q \left(\Omega^k X_k\right)
-  }
-  {
-  \underbrace{
-    \underset{\longrightarrow}{\lim}_{k \in \mathbb{N}}  \pi_{q+k}(X_k)
-  }}
-  \longrightarrow
-    \pi_q \left(
-      (Q X)_0
-    \right)
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
 $$
+
+
+between [[monoidal model categories]] $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}}, 1_{\mathcal{D}})$ with cofibrant [[tensor units]] $1_{\mathcal{C}}$ and $1_{\mathcal{D}}$, then the  [[left derived functor]] of $L$ is a [[strong monoidal functor]] between [[homotopy category of a model category|homotopy categories]]
+
+$$
+  \mathbb{L}L
+  \;\colon\;
+  (Ho(\mathcal{C}), \otimes_{\mathcal{C}}, \gamma(1)_{\mathcal{C}})
+   \longrightarrow
+  (Ho(\mathcal{D}), \otimes_{\mathcal{D}}, \gamma(1)_{\mathcal{D}})
+  \,.
+$$
+
+=--
+
