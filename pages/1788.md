@@ -1,16 +1,3 @@
+* $(X[k])_n \coloneqq \left\{ \array{X_{n+k} & for \; n+k \geq 0 \\ \ast & otherwise } \right. $;
 
-$$
-  \array{
-    \underset{\longleftarrow}{\lim}_n \pi_q(Tel(X_n))
-    &\overset{\simeq}{\longrightarrow}&
-    \pi_q(Tel(X))
-    \\
-    {}^{\mathllap{\simeq}}\downarrow && \downarrow
-    \\
-    \underset{\longleftarrow}{\lim}_n \pi_q(X_n)
-    &\underset{\simeq}{\longrightarrow}&
-    \pi_q(X)    
-  }
-  \,.
-$$
-
+* $\sigma_n^{X[k]} \coloneqq \left\{ \array{ \sigma^X_{n+k} & for \; n+k \geq 0 \\ 0 & otherwise} \right. $.
