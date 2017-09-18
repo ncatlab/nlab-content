@@ -81,7 +81,7 @@ $$
      C
 $$
 
-be a pair of [[adjoint functor]]s, where the category $C$ has all [[pullback]]s. 
+be a pair of [[adjoint functors]], where the category $C$ has all [[pullbacks]]. 
 
 Then for every object $X \in C$ there is induced a pair of adjoint functors between the slice categories
 
