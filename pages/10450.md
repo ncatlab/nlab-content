@@ -23,6 +23,12 @@ These resolutions have a natural incarnation in terms of [[complexes]] of sectio
 
 BGG resolutions may be used to construct [[resolutions]] of sheaves of constant functions on [[Klein geometries]]/[[coset space]] $G/H$ that are more efficient (smaller) that the general resolution given by the [[de Rham complex]] (the [[Poincare lemma]]). In this way BGG resolutions are used notably for computation in [[Leray spectral sequences]] as they appear in [[Penrose transforms]] ([Baston-Eastwood 89, chapter 8](#BastonEastwood89)).
 
+## Properties
+
+### Curved $A_\infty$-Structure
+
+Under a [[cup product]] the BGG sequence becomes a [[curved A-infinity algebra]]. ([Calderbank-Diemer 00, section 6](#CalderbankDiemer00))
+
 ## Related concepts
 
 * [[Verma module]]
