@@ -118,6 +118,8 @@ Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coh
 
 * [[weak equivalence]]
 
+* [[homeomorphism]]
+
 * **homotopy equivalence**, [[weak homotopy equivalence]]
   
   * [[n-equivalence]]
