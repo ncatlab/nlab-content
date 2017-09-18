@@ -31,17 +31,17 @@ As discussed at [[field]], the notion of field is not algebraic in the sense of 
 
 ### "Classical" internalization  
 
-One straightforward approach, at least if we are thinking along lines of [[excluded middle|classical logic]]), is to define a field $K$ in terms of the following limit-colimit [[sketch]]: 
+One straightforward approach, at least if we are thinking along lines of [[excluded middle|classical logic]], is to define a field $K$ in terms of the following limit-colimit [[sketch]]: 
 
-1. Introduce structure to make $K$ a commutative [[ring object]]: two binary operations $a: K \times K \to K$ (addition) and $m: K \times K \to K$ (multiplication), two constants $0: 1 \to K$ and $e: 1 \to K$ (additive and multiplicative identities), additive inversion $-: K \to K$, all subject to the usual equations for commutative rings; 
+1. Introduce structure to make $K$ a commutative [[ring object]]: two binary operations $a: K \times K \to K$ (addition) and $m: K \times K \to K$ (multiplication), two constants $0: 1 \to K$ and $e: 1 \to K$ (additive and multiplicative identities), additive inversion $-: K \to K$, all subject to the usual equations for [[commutative rings]]; 
 
-1. Letting $i: U \to K \times K$ denote the [[equalizer]] of $m: K \times K \to K$ and $e \circ !: K \times K \to 1 \to K$, add the axiom that j = $\pi_1 \circ i: U \to K \times K \to K$ (provably monic in finite limit logic) is a [[regular monomorphism]]: the [[equalizer]] of its [[cokernel pair]]; 
+1. Letting $i: U \to K \times K$ denote the [[equalizer]] of $m: K \times K \to K$ and $e \circ !: K \times K \to 1 \to K$, add the axiom that $j = \pi_1 \circ i: U \to K \times K \to K$ (provably monic in finite limit logic) is a [[regular monomorphism]]: the [[equalizer]] of its [[cokernel pair]]; 
 
-1. Add the axiom that $(0, j): 1 + U \to K$ (provably a disjoint embedding) is epic. 
+1. Add the axiom that $(0, j): 1 + U \to K$ (provably a disjoint embedding) is [[epimorphism|epic]]. 
 
-Some commentary might be in order. Clearly $U$ plays the role of the group of invertible elements of $K$, realized as a [[subobject]] by $j: U \to K$. The regular mono axiom 3. says that $0$ and $U$ exhaust all of $K$, but without committing to the condition that $(0, j): 1 + U \to K$ is an [[isomorphism]], an inappropriately strong condition in the case of $Top$ (as it would force the point $0: 1 \to K$ be open, making $K$ a [[discrete space]]). 
+Some commentary might be in order. Clearly $U$ plays the role of the [[group of units]] of $K$, realized as a [[subobject]] by $j: U \to K$. Axiom 3. says that $0$ and $U$ exhaust all of $K$, but without going so far to say that $(0, j): 1 + U \to K$ is an [[isomorphism]], an inappropriately strong condition in the case of $Top$ (as it would force the point $0: 1 \to K$ to be open, making $K$ a [[discrete space]]). 
 
-Axiom 2. is more subtle: a monomorphism $k: A \to B$ in $Top$ is regular iff $A$ has the subspace topology inherited from $B$ via $k$. So Axiom 2. says that the subspace topology on $U$ coming from its inclusion into $K$ coincides with the topology it has by definition, viz. the subspace topology coming from its embedding $i$ in $K \times K$. Notice that inversion on $U$ is continuous if we use the definitional topology, since inversion is effected by permuting the two factors of $K \times K$. Thus Axiom 2. is a sneaky way of forcing inversion on $U$ with the subspace topology from $K$ to be continuous (and in fact it is equivalent to continuity of inversion). 
+Axiom 2. is more subtle: a mono $k: A \to B$ in $Top$ is regular iff $A$ has the subspace topology inherited from $B$ via $k$. So Axiom 2. interpreted in $Top$ says that the subspace topology on $U$ coming from its inclusion into $K$ coincides with the topology it has by definition, viz. the subspace topology coming from its embedding $i$ in $K \times K$. Notice that inversion on $U$ is continuous if we use the definitional topology, since inversion is effected by permuting the two factors of $K \times K$. Thus Axiom 2. is a sneaky way of forcing inversion on $U$ with the subspace topology from $K$ to be continuous (and in fact it is equivalent to continuity of inversion). 
 
 [[!redirects topological field]]
 [[!redirects topological fields]]
