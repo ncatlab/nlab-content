@@ -13,8 +13,8 @@ Absolute de Rham cohomology is a [[de Rham cohomology]] theory for [[arithmetic 
 
 ## References
 
-* Nagoya conference [Witt vectors, foliations, and absolute de Rham cohomology](http://www-math.mit.edu/~kedlaya/conference2010), 2010, [participants](http://www-math.mit.edu/~kedlaya/conference2010/participants.html), [schedule](http://www-math.mit.edu/~kedlaya/conference2010/schedule.html)
+* Nagoya conference [Witt vectors, foliations, and absolute de Rham cohomology](http://kskedlaya.org/conference2010/), 2010, [participants](http://kskedlaya.org/conference2010/participants.html), [schedule](http://kskedlaya.org/conference2010/schedule.html)
 
-* Kedlaya overview slides [pdf](http://math.mit.edu/~kedlaya/papers/nagoya2010.pdf) from Nagoya talk
+* Kedlaya overview slides [pdf](http://kskedlaya.org/slides/nagoya2010.pdf) from Nagoya talk
 
 * MathOverflow question [Riemann hypothesis via absolute geometry](http://mathoverflow.net/questions/69389/riemann-hypothesis-via-absolute-geometry)
