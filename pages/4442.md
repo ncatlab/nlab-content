@@ -25,6 +25,17 @@ the conjectural Ads/CFT correspondence asserts an identification of the [[state]
 
 ## Examples
 
+The solutions to [[supergravity]] that preserve the maximum of 32 [[supersymmetries]] are (e.g. [HEGKS 08 (1.1)](BPS+state#HEGKS08))
+
+* $AdS_5 \times S^5$ in [[type II supergravity]]
+
+* $AdS_7 \times S^7$ in [[11-dimensional supergravity]]
+
+* $AdS_4 \times S^4$ in [[11-dimensional supergravity]]
+
+as well as their [[Minkowski spacetime]] and plane wave limits. These are the main [[KK-compactifications]] for the following examples-
+
+
 ### $AdS_5 / CFT_4$ -- Horizon limit of D3-branes
  {#AdS5CFT4}
 
