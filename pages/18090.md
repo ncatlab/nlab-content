@@ -393,7 +393,7 @@ Due to prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}
 we should pay attention to [[open subsets]]. It turns out that the following closure
 property is what _characterizes_ the concept:
 
-+-- {: .num_prop }
++-- {: .num_prop #OpenSubsetsOfMetricSpaceClosureProperties}
 ###### Proposition
 **(closure properties of open sets in a metric space)**
 
@@ -413,7 +413,8 @@ and
 
 =--
 
-This motivates the following generalized definition, which abstracts away from the concept of [[metric space]]
+Proposition \ref{OpenSubsetsOfMetricSpaceClosureProperties} motivates 
+the following generalized definition, which abstracts away from the concept of [[metric space]]
 just its system of [[open subsets]]:
 
 #### Topologies
@@ -438,11 +439,11 @@ A set $X$ equipped with such a [[topology]] is called a _[[topological space]]_.
 
 =--
 
-+-- {: .num_terminology}
++-- {: .num_remark}
 ###### Remark
 
 In the field of [[topology]] it is common to eventually simply say "[[space]]" as shorthand for "[[topological space]]".
-This is especially so as further qualifiers are added, such as "Hausdorff  space" (def. \ref{HausdorffTopologicalSpace} belwo).
+This is especially so as further qualifiers are added, such as "Hausdorff  space" (def. \ref{HausdorffTopologicalSpace} below).
 But beware that there are other kinds of spaces in mathematics.
 
 =--
@@ -490,9 +491,54 @@ be a [[subset]] of its set of [[open subsets]]. We say that
 Often it is convenient to define topologies by defining some (sub-)basis. An example is the definition of the
 [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
 
-While example of [[metric space]] topologies (example \ref{MetricTopology}) is the motivating example
+Here is some common further terminology relating to topological spaces:
+
++-- {: .num_defn #ClosedSubset}
+###### Definition
+**(closed subsets)**
+
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). Then 
+a [[subset]] $S$ of $X$ is called a _[[closed subset]]_ if its [[complement]] $X \backslash S$ is an  _[[open subset]]_:
+
+$$
+  S \subset X\,\, \text{is closed}
+  \phantom{AAA}
+    \Leftrightarrow
+  \phantom
+    X\backslash S\,\, \text{is open} 
+  \,.
+$$
+
+If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that _$x$ is a closed point of $X$_.
+
+=--
+
++-- {: .num_defn #TopologyFinerCoarser}
+###### Definition
+**(finer/coarser topologies)**
+
+Let $X$ be a [[set]], and let $\tau_1, \tau_2 \in P(X)$ be two [[topologies]] on $X$,
+hence two choices of [[open subsets]] for $X$, making it a [[topological space]]. If
+
+$$
+  \tau_1 \subset \tau_2
+$$
+
+hence if every open subset of $X$ with respect to $\tau_1$ is also regarded as open by $\tau_2$, then 
+one says that
+
+* the topology $\tau_2$ is _[[finer topology|finer]]_ than the topology $\tau_2$
+
+* the topology $\tau_1$ is _[[coarser topology|corarser]]_ than the topology $\tau_1$.
+
+=--
+
+
+
+
+While the example of [[metric space]] topologies (example \ref{MetricTopology}) is the motivating example
 for the concept of [[topological spaces]], it is important to notice that the concept
-of topological spaces is considerably more general. 
+of topological spaces is considerably more general:
 
 
 +-- {: .num_example}
@@ -506,13 +552,34 @@ The following shows all the topologies on the 3-element set (up to [[permutation
 
 =--
 
++-- {: .num_example #CoDiscreteTopology}
+###### Example
+**(discrete and co-discrete topology)**
 
+Let $S$ be any [[set]]. Then there are always the following two extreme
+possibilities of equipping $X$ with a topology $\tau \subset P(X)$ in the sense of 
+def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
+
+1. $\tau \coloneq P(S)$ the set of _all_ open subsets; 
+
+   this is called the _[[discrete topology]]_ on $S$, it is the [[finer topology|finest topology]] (def. \ref{TopologyFinerCoarser}) on $X$,
+   
+   we write $Disc(S)$ for the resulting topological space;
+
+1. $\tau \coloneqq \{ \emptyset, S \}$ the set contaning only the [[empty set|empty]] subset of $S$ and all of $S$ itself;
+
+   this is called the _[[codiscrete topology]]_ on $S$, it is the [[coarser topology|coarsest topology]] (def. \ref{TopologyFinerCoarser}) on $X$
+   
+   we write $CoDisc(S)$ for the resulting topological space.
+   
+The reason for this terminology is best seen when considering [[continuous functions]] into these (co-)disctete topological spaces.
+See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
+
+=--
 
 
 #### Continuous functions
  {#ContinuousFunctions}
-
-
 
 With the concept of [[topological spaces]] (def. \ref{TopologicalSpace}) 
 it is now immediate to formally implement in abstract generality the
@@ -546,9 +613,7 @@ such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X
 =--
 
 
-
-
-+-- {: .num_remark}
++-- {: .num_remark #TopCategory}
 ###### Remark
 **(the category of topological spaces)**
 
@@ -573,11 +638,39 @@ by [[diagrams]], like this one:
 =--
 
 
++-- {: .num_defn #FunctionLocallyConstant}
+###### Definition
+
+A [[continuous function]] $f \colon X \to Y$ (def. \ref{ContinuousMaps}) is called
+_[[locally constant function|locally constant]]_ if every point $x \in X$ has a [[neighbourhood]]
+on which the function is constant.
+
+=--
+
+
+
++-- {: .num_example #ContinuousFunctionsIntoCoDiscreteTopologicalSpaces}
+###### Example
+
+Let $S$ be a [[set]] and let $(X,\tau)$ be a [[topological space]]. Recall from example \ref{CoDiscreteTopology}
+
+1. the [[discrete topological space]] $Disc(S)$;
+
+1. the [[co-discrete topological space]] $CoDisc(S)$
+
+on the underlying set $S$. Then [[continuous functions]] (def. \ref{ContinuousMaps}) into these satisfy:
+
+1. every [[continuous function]] $(X,\tau) \longrightarrow Disc(S)$ is [[locally constant function|locally constant]] (def. \ref{FunctionLocallyConstant});
+
+1. every [[function]] (of sets) $X \longrightarrow CoDisc(S)$ is [[continuous function|continuous]].
+
+=--
 
 
 #### Homeomorphism
 
-With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] thus defined, we obtain the concept of "sameness" in topology. To make this precise, one says that a [[morphism]]
+With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] thus defined
+(remark \ref{TopCategory}), we obtain the concept of "sameness" in topology. To make this precise, one says that a [[morphism]]
 
 $$
   X \overset{f}{\to} Y
@@ -602,13 +695,13 @@ $$
 
 An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a _[[homeomorphism]]_.
 
-Hence this is a [[continuous function]]
+Hence a _[[homeomoprhism]]_ is a [[continuous function]]
 
 $$
   f \;\colon\; X \longrightarrow Y
 $$
 
-such that there exists an [[inverse]] [[morphism]], namely a [[continuous function]] the other way around
+such that there exists a [[continuous function]] the other way around
 
 $$
   X \longleftarrow Y \;\colon\; f^{-1}
@@ -632,7 +725,9 @@ $$
 ###### Example
 **(open interval homeomorphic to the real line)**
 
-The open [[interval]] $(-1,1)$ is [[homeomorphic]] to all of the [[real line]]
+Regard the [[real line]] as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
+
+The open [[interval]] $(-1,1)$ (def. \ref{OpenAndClosedIntervals}) is [[homeomorphic]] to all of the [[real line]]
 
 $$
   (0,1) \underset{homeo}{\simeq} \mathbb{R}^1
@@ -662,7 +757,6 @@ $$
 
 Generally, every [[open ball]] in $\mathbb{R}^n$ (def. \ref{OpenBalls}) is [[homeomorphic]] to all of $\mathbb{R}^n$.
 
-
 =--
 
 
@@ -670,7 +764,7 @@ Generally, every [[open ball]] in $\mathbb{R}^n$ (def. \ref{OpenBalls}) is [[hom
 ###### Example
 **(interval glued at endpoints is homeomorphic to the circle)**
 
-As topological spaces, the [[interval]] with its two endpoints identified is [[homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]:
+As topological spaces, the [[closed interval]] $[0,1]$ (def. \ref{OpenAndClosedIntervals}) with its two endpoints identified is [[homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]:
 
 $$
   [0,1]_{/(0 \sim 1)} \;\; \underset{homeo}{\simeq} \;\; S^1
