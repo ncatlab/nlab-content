@@ -2150,7 +2150,7 @@ $$
   \tau_X \longleftarrow \tau_Y \;\colon\; \phi
 $$
 
-between their [[frame of opens|sets of open subsets]] is called a _[[frame]] [[homomorphism]]_
+between their [[frame of opens|sets of open subsets]] is called a _[[frame]] [[homomorphism]]_ from $\tau_Y$ to $\tau_X$
 if it preserves
 
 1. arbitrary [[unions]];
@@ -2239,7 +2239,7 @@ $$
 
 and hence in order for this to co-restrict to $\tau_X \subset P(X)$ when restricted to $\tau_Y \subset P(Y)$
 we need to demand that, under $f$, pre-images of open subsets of $Y$ are open subsets of $Z$.
-Below in def. \ref{ContinuousMaps} we highlight these as the _[[continuous functions]]_ between toopological spaces.
+Below in def. \ref{ContinuousMaps} we highlight these as the _[[continuous functions]]_ between topological spaces.
 
 $$
   f \;\colon\; (X,\tau_X) \longrightarrow (Y, \tau_Y)
@@ -2251,7 +2251,7 @@ $$
   \tau_X \longleftarrow \tau_Y \;\colon\; f^{-1}
 $$
 
-is a frame homomorphism in the sense of def. \ref{HomomorphismOfFramesOfOpens}, by prop. \ref{PreservedByPreImages}.
+is a frame homomorphism from $\tau_Y$ to $\tau_X$ in the sense of def. \ref{HomomorphismOfFramesOfOpens}, by prop. \ref{PreservedByPreImages}.
 
 =--
 
@@ -2419,7 +2419,7 @@ We may equivalently state this in terms of [[closed subsets]]:
 +-- {: .num_prop #ClosedSubsetContinuity}
 ###### Proposition
 
-Let $(X_1, \tau_X)$ and $(Y,\tau_Y)$ be two [[topological spaces]] (def. \ref{TopologicalSpace}).
+Let $(X, \tau_X)$ and $(Y,\tau_Y)$ be two [[topological spaces]] (def. \ref{TopologicalSpace}).
 Then a [[function]]
 
 $$
@@ -2469,6 +2469,7 @@ $$
 $$
 
 is clearly itself again a continuous function from $X_1$ to $X_3$.
+
 Moreover, this composition operation is clearly _[[associativity|associative]]_, in that for
 
 $$
@@ -2486,7 +2487,7 @@ $$
    =
   (f_3 \circ f_2) \circ f_1
   \;\colon\;
-  X_1 \longrightarrow X_3
+  X_1 \longrightarrow X_4
   \,.
 $$
 
@@ -2625,8 +2626,8 @@ and called their _[[product category]]_ whose
 
 1. [[objects]] are [[pairs]] $(c,d)$ with $c$ an object of $\mathcal{C}$ and $d$ an object of $\mathcal{D}$;
 
-* [[morphisms]] are [[pairs]] $(f,g) \colon (c,d) \to (c', d')$ with $f \colon c \to d$ a morphism of $\mathcal{C}$
-and $g \colon d \to d'$ a morphisms of $\mathcal{D}$,
+* [[morphisms]] are [[pairs]] $(f,g) \;\colon\; (c,d) \to (c', d')$ with $f \colon c \to c'$ a morphism of $\mathcal{C}$
+and $g \colon d \to d'$ a morphism of $\mathcal{D}$,
 
 * [[composition]] of morphisms is defined pairwise $(f', g') \circ (f,g) \coloneqq ( f' \circ f, g' \circ g )$.
 
@@ -2655,7 +2656,7 @@ $$
   }
 $$
 
-is a [[continuous function]] with respect to the [[product topological spaces|binary product space topologies]]
+is clearly a [[continuous function]] with respect to the [[product topological spaces|binary product space topologies]]
 (def. \ref{BinaryProductTopologicalSpace})
 
 $$
@@ -2663,9 +2664,10 @@ $$
     \;\colon\;
   (X_1 \times X_2, \tau_{X_1 \times X_2})
     \longrightarrow
-  (Y_1, \times Y_2, \tau_{Y_1 \times Y_2})
+  (Y_1 \times Y_2, \tau_{Y_1 \times Y_2})
   \,.
 $$
+
 
 Moreover, this construction respects [[identity functions]] and [[composition]] of functions
 in both arguments.
@@ -2772,8 +2774,8 @@ $$
 ###### Definition
 **([[locally constant function]])**
 
-For $(X.\tau_X)$, $(Y,\tau_Y)$ two [[topological spaces]], then a
-a [[continuous function]] $f \colon (X,\tau_X) \to (Y,\tau_Y)$ (def. \ref{ContinuousMaps}) is called
+For $(X,\tau_X)$, $(Y,\tau_Y)$ two [[topological spaces]], then a 
+[[continuous function]] $f \colon (X,\tau_X) \to (Y,\tau_Y)$ (def. \ref{ContinuousMaps}) is called
 _[[locally constant function|locally constant]]_ if every point $x \in X$ has a [[neighbourhood]]
 on which the function is constant.
 
@@ -5748,7 +5750,7 @@ sober topological spaces $(X, \tau_X)$ are entirely characterized by their [[fra
 
 ### Sober reflection
 
-We saw above in prop. \ref{HausdorffReflection} that every $T_n$-toopological space for $n \in \{0,1,2\}$ has a "best approximation from the left" by a $T_n$-topological space (for $n = 2$: "[[Hausdorff reflection]]"). We now discuss the analogous statement for [[sober topological spaces]].
+We saw above in prop. \ref{HausdorffReflection} that every $T_n$-topological space for $n \in \{0,1,2\}$ has a "best approximation from the left" by a $T_n$-topological space (for $n = 2$: "[[Hausdorff reflection]]"). We now discuss the analogous statement for [[sober topological spaces]].
 
 
 Recall again the [[point topological space]]  $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$
