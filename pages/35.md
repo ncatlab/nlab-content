@@ -216,14 +216,18 @@ $$
 d_A(\xi)(X_1,\,\ldots\,,\,X_n) := \sum_{0\leq i \lt j\leq n}\xi\bigl([X_i,\,X_j]_A,\, \ldots\,,\, \widehat{X_i},\,\ldots\,,\,\widehat{X_i},\,\ldots\bigr) + \sum_{i=0}^n (-1)^i \rho_A(X_i) \xi\bigl(\ldots\,,\,\widehat{X_i},\,\ldots\bigr).
 $$
 The condition $[d_A,\,d_A] = 0$ is not automatically fulfilled: since $\deg d_A = 1$, we have $[d_A,\,d_A] = d_A \circ d_A + d_A \circ d_A = 2 d_A \circ d_A$. 
-The condition $d_A \circ d_A = 0$ is actually equivalent to $\bigl(A, \rho_A, [ , ]_A\bigr)$ being a Lie algebroid; that is, it is fulfilled if and only if
+The condition $d_A \circ d_A = 0$ is actually equivalent to $\bigl(A, \rho_A, [ - , - ]_A\bigr)$ being a Lie algebroid; that is, it is fulfilled if and only if
 
- * $[\, ,\, ]_A$ satisfies the Jacobi identity
- * and $[\, ,\, ]_A$ and $\rho_A$ together satisfy the Leibniz identity.
+ * $[- , - ]_A$ satisfies the Jacobi identity
+ * and $[ - , - ]_A$ and $\rho_A$ together satisfy the Leibniz identity.
 
 (Proof: calculation gives the restriction $d_A(f) = \rho^\ast(d f)$
-and $d_A(\xi)(X_1, X_2) = - \bigl\langle \xi, [X_1, X_2]\bigr\rangle$
-and ONE MORE EQUATION)
+and $d_A(\xi)(X_1, X_2) 
+ = - \bigl\langle \xi, [X_1, X_2]\bigr\rangle 
+   + \rho_A(X_1)(\xi X_2) - \rho_A(X_2)(\xi X_1)$
+and $d_A(\xi)(X_1, X_2, X_3) 
+ = - \xi([X_1, X_2], X_3) + \xi([X_1, X_3], X_2) - \xi([X_2, X_3], X_2)
+   + \rho_A(X_1)\xi(X_2, X_3) - \rho_A(X_2)\xi(X_1, X_3) + \rho_A(X_3)\xi(X_1, X_2)$)
 
 This point of view also applies to [[higher Courant Lie algebroids]] and [[L-infinity-algebra]]s.
 
