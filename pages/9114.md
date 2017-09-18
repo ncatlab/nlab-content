@@ -765,7 +765,7 @@ We now discuss this notion of [[groupoids]] more formally.
  {#GroupoidsAndBasicHomotopy1TypeTheory}
 
 
-The following is a quick review of basics of [[groupoids]] and their [[homotopy theory]] ([[homotopy 1-type]]-theory), geared towards the constructions and fact needed for 1-dimensional Dijkgraaf-Witten theory. 
+The following is a quick review of basics of [[groupoids]] and their [[homotopy theory]] ([[homotopy 1-type]]-theory), geared towards the constructions and fact needed for 1-dimensional Dijkgraaf-Witten theory. For more along these lines see also at _[[geometry of physics -- homotopy types]]_
 
 +-- {: .num_defn #Groupoid}
 ###### Definition
@@ -1372,7 +1372,7 @@ $$
   \,.
 $$
 
-Unde the [[free loop space object]] construction this becomes
+Under the [[free loop space object]] construction this becomes
 
 $$
   [\Pi(S^1), \mathbf{B}c]
@@ -2545,7 +2545,7 @@ A similar analysis for higher dimensional cells shows that the fact that a Kan c
 ###### 1-Groupoids as Kan complexes
  {#1GroupoidsAsKanComplexes}
 
-We review how [[1-groupoids]] are incarnated as Kan complexes via their [[nerve]].
+We review how [[1-groupoids]] are incarnated as Kan complexes via their [[nerve]]. For more along these lines see at _[[geometry of physics -- homotopy theory]]_.
 
 +-- {: .num_defn #Groupoid}
 ###### Definition
