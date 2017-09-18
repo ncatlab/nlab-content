@@ -1,13 +1,1 @@
-$$
-  \begin{aligned}
-    E_1^{s,t}(X,Y)
-    & =
-    [X, \underset{A_s}{\underbrace{E \wedge Y_s}}]_{t-s}
-    \\
-    & \simeq
-    Hom^{t-s}_{E_\bullet(E)}( E_\bullet(X), E_\bullet(\underset{A_s}{\underbrace{E \wedge Y_s}}) )
-    \\
-    &\simeq 
-    Hom^{t}_{E_\bullet(E)}( E_\bullet(X), E_{\bullet-s}(A_s) )
-  \end{aligned}
-$$
+[[category-of-G-sets]]
