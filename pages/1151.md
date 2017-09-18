@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### $(\infty,1)$-Topos Theory
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
