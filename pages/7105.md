@@ -43,6 +43,7 @@ $$
 be any two [[morphisms]] with common [[codomain]] preserving the base points. Let $X \times_B Y$ be the [[(∞,1)-pullback]]
 
 $$
+
   \array{
     X \times_B Y &\to& Y
     \\
@@ -326,12 +327,12 @@ $$
   \,.
 $$
 
-Since $B(U)$ itself is a [[Kan complex]] (being a [[simplicial group]], as discussed there) there is a filler $b : \Delta[k] \to B(U)$ 
-of the [[horn]] $hb : \Lambda[k]^i \to B(U)$.
+Since $B(U)$ itself is a [[Kan complex]] (being a [[simplicial group]], as discussed there) there is a filler $b \colon \Delta[k] \to B(U)$ 
+of the [[horn]] $hb \colon \Lambda[k]^i \to B(U)$.
 Define then 
 
 $$
-  a := \sigma \cdot b
+  a \coloneqq \sigma \cdot b
   \,.
 $$
 
@@ -366,7 +367,7 @@ $$
   \,.
 $$
 
-Since therefore $- : B \times B \to B$ is a projective fibration, it follows
+Since therefore $- \colon B \times B \to B$ is a projective fibration, it follows
 as before that the ordinary pullback
 
 $$
