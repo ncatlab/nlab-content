@@ -121,7 +121,7 @@ $$
 $$
 
 
-Here $H X$ (or more precisely $h_X$) is also called the _Hausdorff reflction_ or _Hausdorff reflection of $X$.
+Here $H X$ (or more precisely $h_X$) is also called the _Hausdorff reflection_ (or _Hausdorffication_ or similar) of $X$.
 
 Specifically, consider the [[equivalence relation]] $\sim$ on the underlying set $X$
 for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into any
