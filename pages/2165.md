@@ -56,6 +56,8 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 * [[absolute value]], [[phase]]
 
+* [[real part]], [[imaginary part]]
+
 * [[complex plane]], [[complex projective space]], [[Riemann sphere]]
 
 * [[complex vector space]]
@@ -96,11 +98,6 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 [[!redirects complex plane]]
 
-[[!redirects imaginary part]]
-[[!redirects real part]]
-
-[[!redirects imaginary parts]]
-[[!redirects real parts]]
 
 
 
