@@ -25,7 +25,7 @@
 ## Idea
  {#Idea}
 
-The term _modal logic_ refers to an enrichment of standard formal [[logic]] where the standard operations ([[and]], [[or]], [[not]], and perhaps [[universal quantifier|forall]], etc.) are accompanied by certain extra operations -- called _modal operators_ and often denoted by "$\diamond$" and "$\Box$" or similar -- such that for $p$ any [[proposition]] the expression $\Box p$ is a new proposition whose interpretation is roughly as "$p$ holds (only) in some _mode_" or "$p$ holds (only) _in a certain way_", such as: "$p$ is _possibly_ true", "$p$ will _eventually become_ true", "$p$ is _believed_ to be true", etc. 
+The term _modal logic_ refers to an enrichment of standard formal [[logic]] where the standard operations ([[and]], [[or]], [[not]], implication and perhaps [[universal quantifier|forall]], etc.) are accompanied by certain extra operations -- called _modal operators_ and often denoted by "$\diamond$" and "$\Box$" or similar -- such that for $p$ any [[proposition]] the expression $\Box p$ is a new proposition whose interpretation is roughly as "$p$ holds (only) in some _mode_" or "$p$ holds (only) _in a certain way_", such as: "$p$ is _possibly_ true", "$p$ will _eventually become_ true", "$p$ is _believed_ to be true", etc. 
 
 There is no established axiom set that an operator on propositions has to satisfy to count as a _modal operator_. As a result, for instance in the preface of ([Blackburn-deRijke-Venema](#BlackburnDeRijkeVenema)) et al.) it says
 
@@ -38,7 +38,7 @@ One way to view the axioms of [[S4 modal logic]] is as being those of [[proposit
 
 For a good survey of and introduction to modal logic see _[SEP - Modern Origins of Modal Logic](#SEPModernOrigins)_ for (historical) motivation and introduction and then _[SEP - Modal logic](#SEPModalLogic)_ for more technical details.
 
-Modal logics have [[semantics]] in terms of sets with [[relations]], called _[[Kripke frames]]_ in the context of modal logic.  For instance, [[temporal logic|temporal logics]] have [[posets]] as [[models]].
+Modal logics have [[semantics]] in terms of sets with [[relations]], called _[[Kripke frames]]_ in the context of modal logic. They also have algebraic semantics in terms of algebras with (co)-closure operators. For instance, [[temporal logic|temporal logics]] can have [[posets]] as [[models]].
 
 
 
