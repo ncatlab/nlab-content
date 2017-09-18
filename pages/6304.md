@@ -1,5 +1,5 @@
 
-* [website](http://unith.desy.de/people/allmembers/brunetti/)
+* websites: [Hamburg](http://unith.desy.de/people/allmembers/brunetti/), [Trento](https://me.unitn.it/romeo-brunetti)
 
 ## related entries
 
