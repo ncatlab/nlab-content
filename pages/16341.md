@@ -55,6 +55,7 @@ Just as the category of regular [[monoid|monoids]] is equivalent to the category
 ## Examples
 
 A monoid in a [[category of modules]] is an [[associative unital algebra]].
+A monoid in a [[endofunctor|category of endofunctors]] where tensor product is defined by composition, is a [[monad]].
 
 ## Related concepts
 
