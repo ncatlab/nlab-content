@@ -653,16 +653,16 @@ $$
 
 =--
 
-+-- {: .num_lemma}
-###### Observation
++-- {: .num_prop}
+###### Proposition
 
 If the $r$th page is concentrated in the first quadrant, then so the $(r+1)st$ page. So if the first one is, then all are.
 
 =--
 
 
-+-- {: .num_lemma}
-###### Observation
++-- {: .num_prop}
+###### Proposition
 
 Every first quadrant spectral sequence converges at $(p,q)$ from $r \gt max(p,q+1)$ on
 
@@ -674,8 +674,9 @@ $$
 
 =--
 
-+-- {: .num_lemma}
-###### Observation
++-- {: .num_prop}
+###### Proposition
+
 
 If a first quadrant spectral sequence converges
 
@@ -696,6 +697,14 @@ and we have
 * $H^n/F^1 H^n \simeq E_\infty^{0,n}$.
 
 =--
+
+
+### Cup product structure
+ {#PropertiesCupProductStructure}
+
+Cohomological spectral sequences are compatible with [[cup product]] structure on the $E_2$-page. (e.g. [Hutchings 11, sections 5 and 6](#Hutchings11))
+
+
 
 ## Related concepts
 
@@ -748,7 +757,7 @@ Reviews of and lecture notes on standard definitions and facts about spectral se
 
 * Matthew Greenberg, _Spectral sequences_ ([pdf](http://www.math.mcgill.ca/goren/SeminarOnCohomology/specseq.pdf))
 
-* [[Michael Hutchings]], _Introduction to spectral sequences_ ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf))
+* {#Hutchings11} [[Michael Hutchings]], _Introduction to spectral sequences_ ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf))
 
 * Daniel Murfet, _Spectral sequences_ ([pdf](http://therisingsea.org/notes/SpectralSequences.pdf))
 
