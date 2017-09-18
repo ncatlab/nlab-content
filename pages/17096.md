@@ -51,7 +51,7 @@ A link diagram $L$ is _classical_ if the following hold, denoting the underlying
 
 1. For every vertex $v$ of $\Gamma$, we have that $\mathsf{decoration}(v)$ is $+$ or $-$.
 
-2. There is an embedding of $\Gamma$ in $\mathbb{R}^{2}$ such that, for every vertex $v$ of $\Gamma$, the image of the edges $n(v)$, $e(v)$, $s(v)$, and $w(v)$ is, up to planar isotopy, as in the figure in [this file](http://rwilliamson-mathematics.info/embedding_of_crossing.pdf).
+2. There is an embedding of $\Gamma$ in $\mathbb{R}^{2}$ such that, for every vertex $v$ of $\Gamma$, the image of the edges $n(v)$, $e(v)$, $s(v)$, and $w(v)$ is, up to planar isotopy, as in the first figure in [this file](http://rwilliamson-mathematics.info/embedding_of_crossing.pdf).
 
 =--
 
@@ -62,7 +62,9 @@ A classical link diagram, in the sense of the above definition, is exactly a lin
 
 Indeed, a link diagram in the usual/classical sense consists of a 4-valent planar graph together with data which one can associate to a link (in general position) when taking a projection of it to a 4-valent planar graph; and which is sufficient to allow the link to be recovered from this projection together with its additional data. 
  
-The projection of any link $L$ (in general position) to a 4-valent planar graph satisfies the second criterion of the previous definition for exactly one choice of ordering of the set $\{ n(v), s(v), w(v), e(v) \}$, that is to say, determines the 4-tuple $\big( n(v), s(v), w(v), e(v) \big)$. We decorate $v$ by $+$ (respectively $-$) if the arc of $L$ giving rise to $n(v)$ and $s(v)$ lies above (respectively below) the arc of $L$ giving rise to $w(v)$ and $e(v)$. Here 'above' and 'below' are with respect, of course, to the choice of direction which we made when projecting $L$ to a 4-valent planar graph. 
+The projection of any link $L$ (in general position) to a 4-valent planar graph satisfies the second criterion of the previous definition for more than one choice of ordering of the set $\{ n(v), s(v), w(v), e(v) \}$. However, given an orientation of $L$, we can make a systematic choice, namely that such that, up to planar isotopy, the edges $n(v)$, $e(v)$, $s(v)$, and $w(v)$ are as in the second figure in [this file](http://rwilliamson-mathematics.info/embedding_of_crossing.pdf). Every classical link diagram can be equipped with an orientation, and, for our purposes, any orientation will do. We shall sometimes require that a classical link diagram be determined by an oriented link in this way. When orientation is not important, we can simply pick an arbitrary valid ordering of the set $\{ n(v), s(v), w(v), e(v) \}$ at each crossing.
+
+We decorate $v$ by $+$ (respectively $-$) if the arc of $L$ giving rise to $n(v)$ and $s(v)$ lies above (respectively below) the arc of $L$ giving rise to $w(v)$ and $e(v)$. Here 'above' and 'below' are with respect, of course, to the choice of direction which we made when projecting $L$ to a 4-valent planar graph. 
 
 Given this procedure for passing from a link to a (classical) link diagram, we can clearly re-construct a link uniquely (up to isotopy) from a link diagram together with the data of 1. and 2. as in the previous definition. 
 
