@@ -39,3 +39,6 @@ The notation used here for the adjoint, $U^{*}$, is commonly used in linear alge
 
 [[!redirects unitary operators]]
 [[!redirects unitary]]
+
+[[!redirects unitary linear operator]]
+[[!redirects unitary linear operators]]
