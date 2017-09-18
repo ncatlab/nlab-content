@@ -60,7 +60,9 @@ An approach to Aristotelian logic using [[category theory]] is in
 
 A proposal for formalization of syllogisms within [[linear logic]] is in 
 
-* {#Pagnan13} Ruggero Pagnan, _Syllogisms in Rudimentary Linear Logic, Diagrammatically_ . ([arXiv:1302.7111](http://arxiv.org/abs/1302.7111))
+* Ruggero Pagnan, _A diagrammatic calculus of syllogisms_, Journal of Logic, Language and Information July 2012, Volume 21, Issue 3, pp 347-364 ([arXiv:1001.1707](http://arxiv.org/abs/1001.1707))
+
+* {#Pagnan13} Ruggero Pagnan, _Syllogisms in Rudimentary Linear Logic, Diagrammatically_ ([arXiv:1302.7111](http://arxiv.org/abs/1302.7111))
 
 
 [[!redirects syllogisms]]
