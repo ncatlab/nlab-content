@@ -19,11 +19,10 @@
 
 ## Idea
 
-The universal [[Thom spectrum]] $MU$ for [[complex vector bundles]].
+$MU$ is the universal [[Thom spectrum]] for [[complex vector bundles]]. It is the spectrum [[Brown representability theorem|representing]] _complex [[cobordism cohomology theory]]_. It is the complex analog of [[MO]]. 
 
-[[Brown representability theorem|representing]] _complex [[cobordism cohomology theory]]_.
 
-The complex analog of [[MO]]. The underlying non-equivariant theory of [[MR-theory]].
+[[MR cohomology theory]], or _real cobordism_, ([Landweber 68](#Landweber68), [Landweber 69](#Landweber69)) is the $\mathbb{Z}_2$-[[equivariant cohomology theory]] version of $MU$ [[complex cobordism cohomology theory]]. 
 
 ## The $M U$ spectrum 
 
@@ -158,7 +157,7 @@ $$
 
 ### $p$-Localization and Brown-Peterson spectrum
 
-The [[p-localization]] of $MU$ decomoses into the 
+The [[p-localization]] of $MU$ decomposes into the 
 [[Brown-Peterson spectra]].
 
 ## Related concepts
