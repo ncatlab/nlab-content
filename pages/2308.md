@@ -18,7 +18,7 @@
 A _reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory_ is a $\mathbb{Z}$-collection of  [[functors]]
 
 $$
-  \tilde H^\bullet \colon Top^{\ast/} \longrightarrow Ab
+  \tilde E^\bullet \colon Top^{\ast/} \longrightarrow Ab
 $$
 
 from [[pointed topological spaces]] to [[abelian groups]]
@@ -26,7 +26,7 @@ from [[pointed topological spaces]] to [[abelian groups]]
 equipped with [[natural isomorphism|natural]] [[suspension isomorphisms]] 
 
 $$
-  \tilde H^k(-) \stackrel{\simeq}{\longrightarrow} \tilde H^k(\Sigma -) 
+  \tilde E^k(-) \stackrel{\simeq}{\longrightarrow} \tilde E^k(\Sigma -) 
 $$
 
 such that
