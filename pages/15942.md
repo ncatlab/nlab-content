@@ -4,7 +4,7 @@
 
 **Meeting time: Every Tuesday, 12:45-14:45 (plus epsilon)
 
-**Place: Sitzungssaal
+**Place: Sitzungssaal,  [Page in studip](https://www.studip.uni-goettingen.de/dispatch.php/course/overview?cid=a829cf0bce827ed6bc8a6ae2413e96bf) for people at Gottingen, and its [Google group](https://groups.google.com/forum/?hl=en#!forum/factorizationalgebras).
 
 ### Objectives ###
 
