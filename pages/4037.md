@@ -3,6 +3,8 @@
 
 ## related $n$-Lab entries
 
+* [[Blakers-Massey theorem]]
+
 * [[Goodwillie calculus]]
 
 category: people
