@@ -51,8 +51,8 @@ An **action** (or _$\infty$-action_, for emphasis) of $G$ on an object $V \in \m
 $$
   \left(
   \cdots 
-  \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
-  V \times G \times G \stackrel{\to}{\stackrel{\to}{\to}} V \times G \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}} V  
+  \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
+  V \times G \times G \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}} V \times G \stackrel{\overset{\rho}{\longrightarrow}}{\underset{p_1}{\longrightarrow}} V  
   \right)
 $$
 
@@ -61,21 +61,21 @@ such that the projection maps
 $$
   \array{
     \cdots 
-    &\stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}&
+    &\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}&
     V \times G \times G 
-    &\stackrel{\to}{\stackrel{\to}{\to}}& 
+    &\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}& 
     V \times G 
-    &\stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}}& 
+    &\stackrel{\overset{\rho}{\longrightarrow}}{\underset{p_1}{\longrightarrow}}& 
     V  
     \\
     && \downarrow && \downarrow && \downarrow
     \\
     \cdots 
-    &\stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}&
+    &\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}&
     G \times G 
-    &\stackrel{\to}{\stackrel{\to}{\to}}& 
+    &\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}& 
     G 
-    &\stackrel{\overset{}{\to}}{\underset{}{\to}}& 
+    &\stackrel{\overset{}{\longrightarrow}}{\underset{}{\longrightarrow}}& 
     *  
   }
 $$
