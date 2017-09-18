@@ -60,6 +60,8 @@ A related comment in the context of [[F-theory]] [[GUT]] [[phenomenology]] requi
 >The [[landscape of string theory vacua|landscape]] concept typically goes against things being exceptional. Here we seem
 to have evidence to the contrary. 
 
+[Penrose 15](#Penrose15), thinking of _[[twistor space]]_, voices the idea that nature realizes very special mathematical spaces (in the first few minutes of the [video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg)).
+
 ## Related entries
 
 * [[exceptional geometry]] 
@@ -84,3 +86,5 @@ to have evidence to the contrary.
 * {#Moore14} [[Gregory Moore]], _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/)
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf))
+
+* {#Penrose15} [[Roger Penrose]], _Twistor theory_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg))
