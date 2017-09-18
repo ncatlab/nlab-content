@@ -36,6 +36,9 @@ The [[Ricci flow]]-strategy for the proof was devised by [[Richard Hamilton]] an
 
 * Wikipedia, _[Geometrization conjecture](http://en.wikipedia.org/wiki/Geometrization_conjecture#The_conjecture)_
 
+* {#BessiersEtAl} Laurent Bessieres, Gerard Besson, Michel Boileau, Sylvain Maillot, Joan Porti, _Geometrisation of 3-manifolds_ ([pdf](http://www-fourier.ujf-grenoble.fr/~besson/book.pdf))
+
+
 
 [[!redirects geometrization conjecture]]
 [[!redirects geometrisation conjecture]]
