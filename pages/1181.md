@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -57,8 +56,14 @@ $$
 All this may be summed up by saying that a natural numbers object is an [[initial algebra|initial]] [[algebra for an endofunctor|algebra for the endofunctor]] $X \mapsto 1 + X$ (the functor underlying the "[[maybe monad]]").
 Equivalently, it is an initial [[algebra for an endo-profunctor|algebra for the endo-profunctor]]  $Hom_E(1,=) \times Hom_E(-,=)$.
 
-By the universal property, the natural numbers object is unique up to [[isomorphism]].
+By the universal property, the natural numbers object is unique up to [[isomorphism]]. 
 
++-- {: .num_prop} 
+###### Proposition 
+Let $C, D$ be cartesian closed categories, and suppose $D$ has a natural numbers object $(\mathbb{N}, z: 1 \to \mathbb{N}, s: \mathbb{N} \to \mathbb{N})$. If $L: D \to C$ is a [[left adjoint]] that preserves the terminal object, then $(L \mathbb{N}, L z, L s)$ is a natural numbers object in $C$. 
+=-- 
+
+The proof is straightforward. It follows for example that the left adjoint part $f^\ast$ of a geometric morphism $f^\ast \dashv f_\ast: E \to F$ between toposes with natural numbers objects preserves the natural numbers object, and also that a [[Grothendieck quasitopos]] $Q$ presented by a [[site]] $(C, J)$ has a natural numbers object, since the [[reflective subcategory|reflection functor]] $L: Set^{C^{op}} \to Q$ preserves finite products and the terminal object in particular. 
 
 ### In a general category with finite products
 {#withparams}
