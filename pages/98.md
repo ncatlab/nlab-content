@@ -36,7 +36,7 @@ $$
     \wedge^\bullet V &:= Sym(V[1])
      \\
       & = k \oplus (V_0) \oplus (V_1 \oplus V_0 \wedge V_0) \oplus 
-     (V_2 \oplus V_1 \otimes V_0 \oplus V_0 \wedge V_0 \wedge V_0)
+     (V_2 \oplus V_1 \wedge V_0 \oplus V_0 \wedge V_0 \wedge V_0)
      \oplus \cdots
   \end{aligned}
 $$
