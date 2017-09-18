@@ -1,5 +1,17 @@
-**Sandbox**
 
 
+Text _italic_
 
-$\text{\CYRZH}$
+
+* bullet point
+
+## headline
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{U}{\longrightarrow}}
+      {\overset{F}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
