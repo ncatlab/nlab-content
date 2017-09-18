@@ -1,0 +1,173 @@
+## Idea
+
+In a [[monoidal category]], there is a notion of [[modules]] over [[monoid objects]] which generalizes the classical notion of [[modules]] over [[rings]].
+
+## Definition
+
+Let $(\mathcal{V}, \otimes, I)$ be a [[monoidal category]] and $A$ a [[monoid object]] in $\mathcal{V}$, hence an object $A \in \mathcal{V}$ equipped with a multiplication morphism
+
+$$
+  \cdot : A \otimes A \to A
+$$ 
+
+and a unit element
+
+$$
+  e : I \to A
+$$
+
+satisfying the [[associativity law]] and the [[unit law]].
+
++-- {: .num_defn #ModuleInMonoidalCategory}
+###### Definition
+
+A (left) **module** over $A$ in $(\mathcal{V}, \otimes, I)$ is
+
+* an [[object]] $N \in \mathcal{V}$ 
+
+* equipped with a morphism
+
+  $$
+    \rho : A \otimes N \to N
+  $$
+
+  in $\mathcal{V}$
+
+such that this satisfies the axioms of an [[action]], in that the following are [[commuting diagrams]] in $\mathcal{V}$:
+
+$$
+  \array{
+     A \otimes A \otimes N &\stackrel{id_A \otimes \rho}{\to}& A \otimes N
+     \\
+     \downarrow^{\mathrlap{\cdot \otimes id_n}} && \downarrow^{\mathrlap{\rho}}
+     \\
+     A \otimes N &\stackrel{\rho}{\to}& N
+  }
+$$
+
+and
+
+$$
+  \array{   
+     I \otimes N &&\stackrel{i \otimes id_N}{\to}&& A \otimes N
+     \\
+     & \searrow && \swarrow_{\mathrlap{\rho}}
+     \\
+     && N
+  }
+  \,.
+$$
+
+=--
+
+### Example: modules over monoids in abelian groups
+
+Recall that a [[ring]], in the classical sense, is a [[monoid object]] in the category [[Ab]] of [[abelian groups]] with [[monoidal structure]] given by the [[tensor product of abelian groups]] $\otimes$. Accordingly a _module over $R$_ is a module in $(Ab,\otimes)$ according to def. \ref{ModuleInMonoidalCategory}.
+
+We unwind what this means in terms of [[abelian groups]] 
+regarded as [[sets]] with extra [[structure]]:
+
++-- {: .num_defn #ModuleOverARing}
+###### Definition
+
+A **module** $N$ over a ring $R$ is
+
+1. an [[object]] $N \in $ [[Ab]], hence an [[abelian group]];
+
+1. equipped with a [[morphism]]
+
+   $$
+     \alpha : R \otimes N \to N
+   $$ 
+
+   in [[Ab]]; hence a [[function]] of the underlying [[sets]] that sends elements
+
+   $$
+     (r,n) \mapsto  r n  \coloneqq \alpha(r,n)
+   $$
+
+   and which is a [[bilinear function]] in that it satisfies
+
+   $$
+    (r, n_1 + n_2) \mapsto r n_1 + r n_2
+   $$
+
+   and
+
+   $$
+    (r_1 + r_2, n) \mapsto r_1 n + r_2 n
+   $$
+
+   for all $r, r_1, r_2 \in R$ and $n,n_1, n_2 \in N$;
+
+1. such that the [[diagram]]
+
+   $$
+     \array{
+        R \otimes R \otimes N 
+        &\stackrel{\cdot_R \otimes Id_N}{\to}& R \otimes N
+        \\
+        {}^{\mathllap{Id_R \otimes \alpha}}\downarrow 
+        && 
+        \downarrow^{\mathrlap{\alpha}}
+        \\
+        R \otimes N &\to& N 
+     }
+   $$
+
+   [[commuting diagram|commutes]] in [[Ab]],  which means that for all elements as before we have
+
+   $$
+     (r_1 \cdot r_2) n = r_1 (r_2 n)
+      \,.
+   $$
+
+1. such that the diagram
+
+   $$
+     \array{
+        1 \otimes N &&\stackrel{1 \otimes id_N}{\to}&& R \otimes N
+        \\
+        & \searrow && \swarrow_{\mathrlap{\alpha}}
+        \\
+        && N
+     }
+   $$
+     
+   commutes, which means that on elements as above 
+
+   $$
+     1 \cdot n = n
+     \,.
+   $$
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+
+The category of all modules over all commutative rings is [[Mod]]. It is a [[bifibration]]
+
+$$
+  Mod \to CRing
+$$
+
+over [[CRing]].
+
+This fibration may be characterized intrinsically, which gives
+yet another way of defining $R$-modules. This we turn to 
+[below](#ModulesOverARingInTermsOfStabilizedSlices).
+
+=--
+
+## References
+
+A standard textbook is
+
+* F.W. Anderson, K.R. Fuller, _Rings and Categories of Modules_, Graduate Texts in Mathematics, Vol. 13, Springer-Verlag, New York, (1992)
+
+[[!redirects modules over a monoid]]
+[[!redirects modules over monoids]]
+[[!redirects modules over a monoid]]
