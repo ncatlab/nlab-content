@@ -5,7 +5,7 @@
 
 ## Definition
 
-A **comonoid** (or __comonoid object__) in a [[monoidal category]] $M$ is a [[monoid object]] in the [[opposite category]] $M^{op}$ (which is a monoidal category using the same operation as in $M$).
+A **comonoid** (or __comonoid object__) in a [[monoidal category]] $M$ is a [[monoid in a monoidal category|monoid object]] in the [[opposite category]] $M^{op}$ (which is a monoidal category using the same operation as in $M$).
 
 ## Examples
 
