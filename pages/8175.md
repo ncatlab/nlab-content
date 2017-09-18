@@ -93,7 +93,7 @@ i.e. converging to the $E$-[[generalized cohomology]] of $X$ with second page th
 
 =--
 
-The [following proof](#ProofOfAHSS) is the original argument due to ([Atiyah-Hirzebruch 61, p. 17](#AtiyahHirzebruch61)). A more elegant argument, producing the AHSS as the spectral sequence of the tower of [[mapping spectra]] $[X,-]$ into the [[Postnikov tower]] of $E$ is due to ([Shulman 13](#Shulman13)).
+The [following proof](#ProofOfAHSS) is the original argument due to ([Atiyah-Hirzebruch 61, p. 17](#AtiyahHirzebruch61)). A more elegant argument, producing the AHSS as the [[spectral sequence of a tower of fibrations]] of [[mapping spectra]] $[X,-]$ into the [[Postnikov tower]] of $E$ is due to ([Shulman 13](#Shulman13)).
 
 +-- {: .proof #ProofOfAHSS}
 ###### Proof
@@ -215,7 +215,7 @@ where the idea is attributed to [[George Whitehead]]:
 
 A more detailed account of the proof is in 
 
-* {#Kochmann96} [[Stanley Kochmann]], theorem 4.2.5 of _Bordism, Stable Homotopy and Adams Spectral Sequences_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], theorem 4.2.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 Further discussion of the case of [[twisted K-theory]] is due to
 
