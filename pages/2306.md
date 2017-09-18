@@ -43,7 +43,22 @@ in two variables with coefficients in the Lazard ring.
 
 ### As classifying ring for formal group laws
 
++-- {: .num_theorem}
+###### Theorem
+
 For any [[ring]] $S$ with [[formal group law]] $g(x,y) \in S[ [x,y] ]$ there is a unique morphism $L \to S$ that sends $\ell$ to $g$.
+
+=--
+
+review includes ([Hopkins 99, theorem 2.3, theorem 2.5](#Hopkins99))
+
++-- {: .num_remark}
+###### Remark
+
+Passing to [[formal dual]] [[spectrum of a commutative ring|ring spectra]], this says that $Spec(L)$ is something like the [[moduli space]] for formal groups.
+By [[Quillen's theorem on MU]], the lift of $L$ to [[higher algebra]] is the [[E-infinity ring]] [[MU]] and the [[E-infinity ring spectrum]] $Spec(MU)$ is something like the derived moduli stack for formal group laws.
+
+=--
 
 ### Lazard's theorem
 
@@ -62,7 +77,7 @@ with the [[variable]] $t_i$ in degree $2 i$.
 
 =--
 
-(e.g. [Lurie lect 2, theorem 4](#LurieLect2))
+review includes ( [Hopkins 99, theorem 2.5](#Hopkins99) [Lurie lect 2, theorem 4](#LurieLect2))
 
 ### As the complex cobordism cohomology ring
 
@@ -98,6 +113,8 @@ This construction could however break the left exactness condition. However, $E$
 ## References
 
 * [[Daniel Quillen]], _On the formal group laws of unoriented and complex cobordism theory_, Bull. Amer. Math. Soc. Volume 75, Number 6 (1969), 1293-1298.  ([Euclid](http://projecteuclid.org/euclid.bams/1183530915))
+
+* {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
