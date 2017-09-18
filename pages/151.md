@@ -150,3 +150,9 @@ Discussion of duality specifically in [[homological algebra]] and [[stable homot
 [[!redirects dualities]]
 
 [[!redirects dualization]]
+
+[[!redirects formal duality]]
+[[!redirects formal dualities]]
+
+[[!redirects abstract duality]]
+[[!redirects abstract dualities]]
