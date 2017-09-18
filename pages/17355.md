@@ -190,7 +190,7 @@ $$
   F \;\colon\; \mathcal{C} \longrightarrow Top_k
 $$
 
-to the archetical topologically enriched category from example \ref{TopkAsATopologicallyEnrichedCategory} may be thought of as a topologically enriched [[copresheaf]], at least if $\mathcal{C}$ is [[small category|small]] (in that its [[class]] of objects is a proper [[set]]).
+to the archetical topologically enriched category from example \ref{TopkAsATopologicallyEnrichedCategory} may be thought of as a topologically [[enriched presheaf|enriched]] [[copresheaf]], at least if $\mathcal{C}$ is [[small category|small]] (in that its [[class]] of objects is a proper [[set]]).
 
 Hence the category of topologically enriched functors
 
