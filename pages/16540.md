@@ -1,0 +1,71 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Just like a right $A$-module can be [[tensor product of modules|tensored]] (over $A$) with a left $A$-module to obtain an abelian group, a functor $T : \mathcal{C}^\op \to \mathcal{V}$ can be tensored (over $\mathcal{C}$) with a functor $S : \mathcal{C} \to \mathcal{V}$ to obtain an object of $\mathcal{V}$. Here, $\mathcal{V}$ can be an arbitrary [[monoidal category]]. A simple case is $\mathcal{V} = Set$ with the [[cartesian product]] as monoidal structure.
+
+## Definition
+
+Let $\mathcal{C}$ be a category. Let $(\mathcal{V},\otimes)$ be a monoidal category. Let $T : \mathcal{C}^\op \to \mathcal{V}$ and $S : \mathcal{C} \to \mathcal{V}$ be functors. Then their tensor product $T \otimes_{\mathcal{C}} S$ is defined (if it exists) as the [[coend]]
+$$ T \otimes_{\mathcal{C}} S \coloneqq \int^c T(c) \otimes S(c). $$
+
+The following slight variation is also important. Let $\mathcal{C}$ be a category. Let $\mathcal{D}$ be a category with all [[coproducts]], so that the [[copower]] $X \cdot d = \coprod_{x \in X} d \in \mathcal{D}$ exists for any set $X$ and any object $d \in \mathcal{D}$. Let $T : \mathcal{C}^\op \to Set$ and $S : \mathcal{C} \to \mathcal{D}$ be functors. Then their tensor product is (if it exists) the coend
+$$ T \otimes_{\mathcal{C}} S \coloneqq \int^c T(c) \cdot S(c). $$
+
+Intuition for the tensor product of functors can be gained by relating it to the tensor product of modules (see the first example below) and by a picture involving gluing specifications (see below).
+
+## Examples
+
+* Recall that a ring $A$ can be considered as an [[Ab-enriched category]] and that a right and a left module gives rise to an additive functor $A^\op \to Ab$ respectively $A \to Ab$. Then their tensor product as functors, calculated in the Ab-enriched setting and using the ordinary [[tensor product of abelian groups]] as monoidal structure on $Ab$, coincides with their usual tensor product.
+
+* Let $X$ be a [[simplicial set]] and $st : \Delta \to Top$ be the functor which associates to $[n]$ the topological standard $n$-simplex. Then the [[geometric realization]] of $X$ can be expressed as the tensor product $|X| = X \otimes_\Delta st$.
+
+* Let $\mathcal{C}$ be a small category and let $F : \mathcal{C} \to \mathcal{D}$ be a functor into a [[cocomplete]] category $\mathcal{D}$. Since the category $PSh(\mathcal{C})$ of [[presheaves]] on $\mathcal{C}$ is the [[free cocompletion]] of $\mathcal{C}$, the functor $F$ induces a functor $\hat F : PSh(\mathcal{C}) \to \mathcal{D}$. This functor can be explicitly described as $\hat F(X) = X \otimes_\mathcal{C} F$.
+
+* Let $Y : \mathcal{C} \to PSh(\mathcal{C})$ denote the [[Yoneda embedding]]. Let $F : \mathcal{C}^\op \to Set$ be a presheaf on $\mathcal{C}$. Then $F \otimes Y = F$. This fact is the [[co-Yoneda lemma]] (also referred to as the _ninja Yoneda lemma_ in some circles).
+
+* In some sense, [[representable functors]] generalize [[free modules]]: Recall $A^n \otimes_A M \cong M^n$. Similarly,
+$$ \Hom_\mathcal{C}(\cdot, c) \otimes_\mathcal{C} S = S(c). $$
+This follows from some coend manipulations:
+$$ \begin{array}{rcl}
+  \Hom(\Hom_\mathcal{C}(\cdot, c) \otimes_\mathcal{C} S, t) &=&
+  \int_{c' \in \mathcal{C}} \Hom(\Hom_\mathcal{C}(c',c) \times S(c'), t) \\
+  &=& \int_{c' \in \mathcal{C}} \Hom(\Hom_\mathcal{C}(c',c), \Hom_{\mathcal{D}}(S(c'), t)) \\
+  &=& Nat(\Hom_\mathcal{C}(\cdot, c), \Hom_\mathcal{D}(S(\cdot), t)) \\
+  &=& \Hom_\mathcal{D}(S(c),t).
+\end{array} $$
+From this perspective, the representable functor $Hom_\mathcal{C}(\cdot, c)$ looks like a [[distribution|delta distribution]] concentrated at $c$.
+
+## Intuition using gluing specifications
+
+Recall that a presheaf $F : \mathcal{C}^\mathrm{op} \to \mathrm{Set}$ can be seen as "gluing specification": If $G : \mathcal{C} \to \mathcal{D}$ is some functor into a cocomplete category $\mathcal{D}$, this gluing specification can be realized as $\operatorname{colim}_{s \in F(X)} G(X)$. This colimit can also be written as the coend
+$$ \int^{X \in \mathcal{C}} F(X) \cdot G(X), $$
+that is as the tensor product $F \otimes_\mathcal{C} G$. The tensor product can therefore be pictured as the $G(X)$'s, glued as specified by $F$.
+
+* Since the Yoneda embedding $Y$ includes an object into the category of formal gluing specifications, gluing the $Y(X)$'s as specified by $F$ simply yields in $F$; thus $F \otimes_\mathcal{C} Y = F$.
+
+* Let $\mathcal{C}$ be specifically the [[simplex category]] $\Delta$. Then $F$ is just a simplicial set, so the intuition of $F$ as a gluing specification is even more vivid. Tensoring with $st : \Delta \to Top$ realizes this specification in the category of topological spaces, using standard $n$-simplices as building blocks, and therefore yields the geometric realization $|F|$.
+
+## Related concepts
+
+* [[tensor product of modules]]
+* [[coend]]
+* [[weighted colimit]]
+
+## References
+
+A basic reference is [[Categories Work]], Section IX.6.
