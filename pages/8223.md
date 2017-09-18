@@ -37,7 +37,7 @@ Then, under the relational formulation, we define a morphism $(V, E) \to (W, F)$
 
 [^1]: In other words, the usual notion of morphism between structures or models as in [[model theory]]. 
 
-Thus we will adopt the latter notion of morphism which takes reflexive symmetric relations $E$ as primary. The resulting [[category]] of simple graphs is denoted by $SimpGph$. 
+Thus we will adopt the latter notion of morphism which takes reflexive symmetric relations $E$ as primary. The resulting [[category]] of simple graphs is denoted by $SmpGrph$. 
 
 Note that graphs and their morphisms can also be understood in functorial language, by regarding simple graphs as special types of [[presheaves]], as follows. Let $C$ be the category of sets $1 \coloneqq \{\ast\}$ and $2 \coloneqq \{s, t\}$ and functions between them. Then a presheaf $X: C^{op} \to Set$ is given by sets $V = X(1)$ and $E = X(2)$ and maps 
 
@@ -60,13 +60,13 @@ is a [[monomorphism]]. In that case, a morphism of simple graphs amounts to a [[
 "Simple graph" as defined in the nLab (see [[graph]]) means that edges are 2-element subsets of $V$, but of course that doesn't preclude consideration of other types of graph. One option is to consider sets $V$ equipped with a collection of subsets of $V$ of cardinality either 1 or 2, i.e., allowing some but not necessarily all loops as edges. We don't call those "simple graphs" (at [[graph]] they are called "loop graphs"), but nevertheless they form a respectable category under the straightforward notion of morphism $f$ (if $\{x, y\}$ is an edge of the domain, possibly with $x = y$, then $\{f(x), f(y)\}$ is an edge of the codomain). 
 
 
-## Properties of $SimpGph$ 
+## Properties of $SmpGrph$ 
 
-The category $SimpGph$ has very good properties. For example,  
+The category $SmpGrph$ has very good properties. For example,  
 
 +-- {: .num_theorem} 
 ###### Theorem 
-$SimpGph$ is a [[Grothendieck quasitopos]]. In particular, it is a [[regular category]] and even a [[logos]], and $SimpGph^{op}$ is also regular. It is also $\infty$-[[extensive category|extensive]]. 
+$SmpGrph$ is a [[Grothendieck quasitopos]]. In particular, it is a [[regular category]] and even a [[logos]], and $SmpGrph^{op}$ is also regular. It is also $\infty$-[[extensive category|extensive]]. 
 =-- 
 
 +-- {: .proof} 
@@ -86,20 +86,20 @@ Being a quasitopos with small coproducts, it is $\infty$-extensive provided that
 
 +-- {: .num_remark #quasitopos} 
 ###### Remark 
-Implicit in this proof is the way in which (for example) limits of simple graphs are calculated. Since $SimpGph$ is realized as a category of separated presheaves which is a [[reflective subcategory]] of all presheaves, limits in $SimpGph$ are calculated just as they are in the presheaf category $Set^{C^{op}}$, which is to say: they are computed objectwise, at the objects $1, 2$ of $C$. 
+Implicit in this proof is the way in which (for example) limits of simple graphs are calculated. Since $SmpGrph$ is realized as a category of separated presheaves which is a [[reflective subcategory]] of all presheaves, limits in $SmpGrph$ are calculated just as they are in the presheaf category $Set^{C^{op}}$, which is to say: they are computed objectwise, at the objects $1, 2$ of $C$. 
 
 For example, consider how to construct the [[equalizer]] of a pair of graph maps $f, g: G \rightrightarrows H$. For the vertex set of the equalizer (computing the equalizer at the object $1$ of $C$), one just takes the equalizer of the functions between the vertex sets of $G$ and $H$. At the edge set level where we have maps $E = G(2) \rightrightarrows F = H(2)$: since there is at most one edge between two vertices, the maps $f(2), g(2)$ must agree on $e \in E$ provided $f(d_0 e) = g(d_0 e)$ and $f(d_1 e) = g(d_1 e)$, so the equalizer graph is just the full or [[graph|induced subgraph]] of $G$ given by the equalizer vertex set. 
 
 Moreover, every induced subgraph $H \hookrightarrow G$ arises as an equalizer (consider the equalizer of the two embeddings of $G$ into the amalgamation $G +_H G$, which at the vertex level agrees with $H \hookrightarrow G$). 
 
-Of course this is elementary, but we get much more more: the quasitopos $SimpGph$ is also a [[locally cartesian closed category]], and [[dependent products]] can also be read off directly from how they work for presheaves. 
+Of course this is elementary, but we get much more more: the quasitopos $SmpGrph$ is also a [[locally cartesian closed category]], and [[dependent products]] can also be read off directly from how they work for presheaves. 
 =-- 
 
-It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $\Gamma = \hom(1, -): SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. 
+It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SmpGrph$. For, let $\Gamma = \hom(1, -): SmpGrph \to Set$ be the underlying vertex-set [[forgetful functor]]. 
 
-+-- {: .num_prop #EmbeddingOfSimpGphIntoSet} 
++-- {: .num_prop #EmbeddingOfSmpGrphIntoSet} 
 ###### Proposition 
-The forgetful functor $\Gamma = \hom(1, -): SimpGph \to Set$ is faithful, in fact exhibits $SimpGph$ as a [[topological concrete category]]. 
+The forgetful functor $\Gamma = \hom(1, -): SmpGrph \to Set$ is faithful, in fact exhibits $SmpGrph$ as a [[topological concrete category]]. 
 =-- 
 
 We omit the easy proof. Next we have two easy results:  
@@ -114,16 +114,16 @@ $\Gamma$ [[reflected limit|reflects]] monos and epis (because $\Gamma$ is faithf
 $\Gamma$ [[preserved limit|preserves]] [[limits]] and [[colimits]] (because it has a [[left adjoint]] $\Delta$ and a [[right adjoint]] $\nabla$). 
 =-- 
 
-It follows that $\Gamma: SimpGph \to Set$ both preserves and reflects monos and epis. As a result, we can prove various simple exactness results in $SimpGph$. For instance: 
+It follows that $\Gamma: SmpGrph \to Set$ both preserves and reflects monos and epis. As a result, we can prove various simple exactness results in $SmpGrph$. For instance: 
 
 +-- {: .num_lemma}
 ###### Lemma 
-In $SimpGph$, the [[pushout]] of any mono is a mono. 
+In $SmpGrph$, the [[pushout]] of any mono is a mono. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Suppose we have a pushout diagram in $SimpGph$: 
+Suppose we have a pushout diagram in $SmpGrph$: 
 
 $$\array{
 G & \to & H \\
@@ -131,16 +131,16 @@ G & \to & H \\
 G' & \to & H'
 }$$ 
 
-Since $\Gamma$ preserves both pushouts and monos, and since the pushout of a mono in $Set$ is a mono, we have that $\Gamma(k)$ is monic in $Set$. Since $\Gamma$ reflects monos, this means $k$ is monic in $SimpGph$. 
+Since $\Gamma$ preserves both pushouts and monos, and since the pushout of a mono in $Set$ is a mono, we have that $\Gamma(k)$ is monic in $Set$. Since $\Gamma$ reflects monos, this means $k$ is monic in $SmpGrph$. 
 =-- 
 
-As already observed, there is a chain of adjoint functors $\Delta \dashv \Gamma \dashv \nabla: Set \to SimpGph$. But in fact there is a fourth functor in the chain: $\Delta$ has a left adjoint $\Pi: SimpGph \to Set$, the [[connected object|connected components]] functor. If $E$ is the simple graph consisting of two vertices $a, b$ with an edge between them, then there is a reflexive fork 
+As already observed, there is a chain of adjoint functors $\Delta \dashv \Gamma \dashv \nabla: Set \to SmpGrph$. But in fact there is a fourth functor in the chain: $\Delta$ has a left adjoint $\Pi: SmpGrph \to Set$, the [[connected object|connected components]] functor. If $E$ is the simple graph consisting of two vertices $a, b$ with an edge between them, then there is a reflexive fork 
 
 $$a, b: 1 \rightrightarrows E \stackrel{!}{\to} 1$$ 
 
 and $\Pi$ is formed as a [[reflexive coequalizer]] of the induced diagram: 
 
-$$SimpGph(1, -) \to SimpGph(E, -) \rightrightarrows SimpGph(1, -) \to \Pi$$ 
+$$SmpGrph(1, -) \to SmpGrph(E, -) \rightrightarrows SmpGrph(1, -) \to \Pi$$ 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -154,13 +154,13 @@ $\Pi$ preserves products because being a reflexive coequalizer, it is a [[sifted
 
 ### Equalizers and coequalizers
 
-If $f, g \colon G \stackrel{\to}{\to} H$ are maps in $SimpGph$, then their [[equalizer]] $Eq(f, g) = i \colon K \to G$ is given at the vertex level by 
+If $f, g \colon G \stackrel{\to}{\to} H$ are maps in $SmpGrph$, then their [[equalizer]] $Eq(f, g) = i \colon K \to G$ is given at the vertex level by 
 
 $$\Gamma(i) = Eq(\Gamma(f), \Gamma(g))$$ 
 
 and at the edge level by $K(x, y) \Leftrightarrow G(i(x), i(y))$; in other words, if $x, y$ belong to $K$ and there is an edge between them in $G$, then that edge lies in $K$. To express this last condition, we say the subgraph $i$ is _full_ (at the edge level). 
 
-Thus, $i$ is a regular mono in $SimpGph$ iff both $\Gamma(i)$ is monic in $Set$ and $i$ is full at the edge level (see Remark \ref{quasitopos}). 
+Thus, $i$ is a regular mono in $SmpGrph$ iff both $\Gamma(i)$ is monic in $Set$ and $i$ is full at the edge level (see Remark \ref{quasitopos}). 
 
 The [[coequalizer]] of $f$ and $g$, say $Coeq(f, g) = q \colon H \to Q$, is given at the vertex level by 
 
@@ -187,24 +187,24 @@ where
 
 * $i$ is given by an injection between vertex-sets and is full at the edge level, and (thus) is a [[regular mono]]. 
 
-The factorization of $f$ into $q$ followed by $i \circ a$ is the (regular epi)-mono factorization, while the factorization of $f$ into $a \circ q$ followed by $i$ is the epi-(regular mono) factorization. (The fact that regular monos are stable under pushout, used to ensure that the epi-(regular mono) factorization is an [[orthogonal factorization system]], is true because $SimpGph$, being a [[quasitopos]], is a *coregular category*, meaning $SimpGph^{op}$ is [[regular category|regular]].) Both factorizations coincide at the level of underlying functions between vertex sets, both being the usual epi-mono factorization. 
+The factorization of $f$ into $q$ followed by $i \circ a$ is the (regular epi)-mono factorization, while the factorization of $f$ into $a \circ q$ followed by $i$ is the epi-(regular mono) factorization. (The fact that regular monos are stable under pushout, used to ensure that the epi-(regular mono) factorization is an [[orthogonal factorization system]], is true because $SmpGrph$, being a [[quasitopos]], is a *coregular category*, meaning $SmpGrph^{op}$ is [[regular category|regular]].) Both factorizations coincide at the level of underlying functions between vertex sets, both being the usual epi-mono factorization. 
 
 In particular, we have the easy facts that 
 
-* $f$ is a mono iff $q$ is a graph isomorphism: monos in $SimpGph$ are simple graph maps that are injective on vertices and edges, 
+* $f$ is a mono iff $q$ is a graph isomorphism: monos in $SmpGrph$ are simple graph maps that are injective on vertices and edges, 
 
-* $f$ is an epi iff $i$ is a graph isomorphism: epis in $SimpGph$ are simple graph maps that are surjective on vertices. 
+* $f$ is an epi iff $i$ is a graph isomorphism: epis in $SmpGrph$ are simple graph maps that are surjective on vertices. 
 
 
 ### Subcategories
 
-Graph theory suggests both full and wide subcategories of $SimpGph$. See [[the category of simple graphs from a graph-theoretic perspective]] for more details. 
+Graph theory suggests both full and wide subcategories of $SmpGrph$. See [[the category of simple graphs from a graph-theoretic perspective]] for more details. 
 
 ### Natural numbers object 
 
-The category $SimpGph$ has a [[natural numbers object]]; on abstract grounds this is formed by applying the reflection functor 
+The category $SmpGrph$ has a [[natural numbers object]]; on abstract grounds this is formed by applying the reflection functor 
 
-$$L: Set^{C^{op}} \to SimpGph$$ 
+$$L: Set^{C^{op}} \to SmpGrph$$ 
 
 to the natural numbers object in $Set^{C^{op}}$. 
 
@@ -222,6 +222,7 @@ category: category
 [[!redirects category of simple graphs]]
 [[!redirects Simp Gph]]
 [[!redirects SimpGph]]
+[[!redirects SmpGrph]]
 
 [[!redirects simple graph]]
 [[!redirects simple graphs]]
