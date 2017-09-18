@@ -242,6 +242,8 @@ Another approach to solving canonicity is to build a model for [[homotopy type t
 
 * [[propositional extensionality]]
 
+* contrary to univalence is the [[axiom UIP]]
+
 ## References
  {#References}
 
