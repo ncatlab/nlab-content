@@ -32,7 +32,7 @@ With the Weierstrass parameterization discussed at _[elliptic curve -- Over gene
 
 
 $$
-  j \coloneq \frac{c_4^3}{\Delta}
+  j \coloneqq \frac{c_4^3}{\Delta}
   \,.
 $$
 
