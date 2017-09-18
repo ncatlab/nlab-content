@@ -49,6 +49,8 @@ $$
 
 ## Related concepts
 
+* [[free structured spectrum]]
+
 * [[equivariant suspension spectrum]]
 
 ## References
