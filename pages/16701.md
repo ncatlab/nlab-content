@@ -1,0 +1,11 @@
+
+
+Andreas Brandhuber is doing theoretical [[physics]] at Queen Mary College, London.
+
+* [webpage](http://www.strings.ph.qmul.ac.uk/~andreas/)
+
+## related $n$Lab entries
+
+* [[G2 manifold]]
+
+category: people
