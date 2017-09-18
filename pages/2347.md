@@ -269,3 +269,5 @@ Discussion with an eye also towards [[quantum mechanics]] is in
 [[!redirects classical mechanical system]]
 [[!redirects classical mechanical systems]]
 [[!redirects system of classical mechanics]]
+
+[[!redirects Newtonian mechanics]]
