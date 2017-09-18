@@ -1,5 +1,11 @@
 
-$\box$ $\Box$
++-- {: .num_theorem}
+###### Theorem
+
+Yes
+
+=--
+
 
 $$
  \array{
