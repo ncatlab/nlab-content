@@ -30,7 +30,7 @@ Discussion in terms of [[bundle gerbes]] includes ([Chatterjee 98](#Chatterjee98
 
 ### Dixmier-Douady class
 
-The [[Dixmier-Douady class]] of holomoprhic line 2-bundles, hence the higher analog of the [[first Chern class]], is given by the [[connecting homomorphism]] on degee 2 of the [[long exact sequence in cohomology]] which is induced by the [[exponential exact sequence]] in [[complex analytic geometry]]:
+The [[Dixmier-Douady class]] of holomorphic line 2-bundles, hence the higher analog of the [[first Chern class]], is given by the [[connecting homomorphism]] on degee 2 of the [[long exact sequence in cohomology]] which is induced by the [[exponential exact sequence]] in [[complex analytic geometry]]:
 
 $$
   DD\;\colon\;  H^2(-,\mathbb{G}_m) \longrightarrow H^3(-,\mathbb{Z})
@@ -71,7 +71,7 @@ Discussion with an eye towards of holomorphic [[twisted K-theory]] is in
 
 An equivariant example arising from more algebro-geometric origin is in
 
-* Giovanni Felder, [[Andre Henriques]], Carlo A. Rossi, [[Chenchang Zhu]], _A gerbe for the elliptic gamma function_, Duke Math. J. 141(2008), 1-74 [arXiv:math/0601337](http://arxiv.org/abs/math/0601337) ([doi](http://dx.doi.org/10.1215/S0012-7094-08-14111-0))
+* [[Giovanni Felder]], [[Andre Henriques]], Carlo A. Rossi, [[Chenchang Zhu]], _A gerbe for the elliptic gamma function_, Duke Math. J. 141(2008), 1-74 [arXiv:math/0601337](http://arxiv.org/abs/math/0601337) ([doi](http://dx.doi.org/10.1215/S0012-7094-08-14111-0))
 
 Discussion connecting explicitly to the holomorphic [[Brauer group]] includes
 
