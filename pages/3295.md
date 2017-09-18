@@ -128,6 +128,8 @@ If moreover we restrict attention to the case that $B = *$, then by remark \ref{
 
 ## Examples
 
+* for [[K-theory]] see _[[relative K-theory]]_ (...)
+
 ### Twisted bundles on D-branes
  {#TwistedBundlesOnDBranes}
 
