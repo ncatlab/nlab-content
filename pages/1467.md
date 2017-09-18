@@ -28,23 +28,74 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 
 There are many ways to say that a space $X$ is compact. The first is perhaps the most common: 
 
++-- {: .num_defn #OpenCover}
+###### Definition
+**([[open cover]])**
+
+Let $(X,\tau)$ be a [[topological space]]. Then an [[open cover]] an is [[set]] $\{U_i \subset X\}_{i \in I}$ of [[open subsets]] (i.e. $(U_i \subset X) \in \tau \subset P(X)$) such that their [[union]] is all of $X$
+
+$$
+  \underset{i \in I}{\cup} U_i = X
+  \,.
+$$
+
+This is called a _finite open cover_ if $I$ is a (Kuratowski-)[[finite set]].
+
+A _subcover_ of an open cover as above is a [[subset]] $J\subset I$ of the given open subsets, such that their union still exhausts $X$, i.e. $\underset{i \in J \subset I}{\cup} U_i = X$.
+
+=--
+
 +-- {: .num_defn #hb}
 ###### Definition
+**(compact space)**
 
-$X$ is compact iff for every collection of [[open subsets]] whose [[union]] is $X$ (i.e. which _[[covers]]_ $X$), there is a (Kuratowski)-[[finite set|finite]] subcollection which also covers $X$ (i.e. a [[finite cover|finite sub-cover]]).
-
-=--
-
-If [[excluded middle]] is assumed, this is easily seen to be equivalent to: 
-
-+-- {: .num_defn #fip}
-###### Definition
-
-$X$ is compact iff for any collection of [[closed subsets]] of $X$ whose [[intersection]] is [[empty set|empty]], some finite subcollection also has empty intersection.
+A [[topological space]] is called _compact_ if every [[open cover]] has a finite subcover (def. \ref{OpenCover}).
 
 =--
 
-If the [[ultrafilter theorem]] (a weak form of the [[axiom of choice]]) is assumed, compactness can be characterized in terms of [[ultrafilter]] (or ultranet) convergence: 
++-- {: .num_remark #DifferingTerminology}
+###### Remark
+**(differing terminology)**
+
+Some authors use "compact" to mean "compact and [[Hausdorff topological space|Hausdorff]]" (a much [[nice topological space|nicer sort of space]], and forming a much [[nice category of spaces|nicer category of spaces]], see atz _[[compact Hausdorff space]]_), and use the word "[[quasicompact]]" to refer to just "compact" as we are using it here. This custom seems to be prevalent among [[algebraic geometry|algebraic geometers]], for example, and particularly so within Francophone schools.
+
+> But it is far from clear to me ([[Todd Trimble]]) that "quasicompact" is very well-established outside such circles (despite some arguments in favor of it), and using simply "compact" for the nicer concept therefore carries some risk of creating misunderstanding among mathematicians at large. My own habit at any rate is to say "compact Hausdorff" for the nicer concept, and I will continue using this on the $n$Lab until consensus is reached (if that happens).
+
+Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even when 'compact' is not used to imply Hausdorffness).
+
+=--
+
+
+If [[excluded middle]] is assumed, then def. \ref{hb} the following reformulations #in terms of [[closed subsets]]:
+
++-- {: .num_prop #fip}
+###### Proposition
+**(compactness in terms of closed subsets)**
+
+Let $(X,\tau)$ be a [[topological space]]. 
+Assuming [[excluded middle]], then the following are equivalent:
+
+1. $(X,\tau)$ is compact in the sense of def. \ref{hb}.
+
+1. Let $\{C_i \subset X\}_{i \in I}$ be a set of [[closed subsets]] such that their [[intersection]] is [[empty set|empty]] $\underset{i \in I}{\cap} C_i = \emptyset$, then there is a [[finite set|finite]] [[subset]] $J \subset I$ such that the corresponding finite intersection is still empty: $\underset{i \in  J \subset i}{\cap} C_i = \emptyset$.
+   
+1. Let $\{C_i \subset X\}_{i \in I}$ be a set of [[closed subsets]] such that it enjoys the  _[[finite intersection property]]_, meaning that for every [[finite set|finite]] [[subset]] $J \subset I$ then the corresponding finite intersection is [[inhabited set|non-empty]] $\underset{i \in J \subset I}{\cap} C_i \neq \emptyset$. Then also the total intersection is [[inhabited set|inhabited]], $\underset{i \in I}{\cap} C_i \neq \emptyset$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equivalence of the first two statements follows by [[de Morgan's law]] ([[complements]] interchange [[unions]] with [[intersections]]), the definition of [[closed subsets]] as the complements of [[open sets]], and (using [[excluded middle]]) that dually the complements of closed subsets are the open subsets:
+
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]]. Write $C_i \coloneqq X \backslash U_i$ for the corresponding closed complements. By [[de Morgan's law]] the condition that $\underset{i \in I}{\cup} U_i = X$ is equivalent to $\underset{i \in I}{\cap} C_i = \emptyset$. The second statement is that there is then a finite subset $J \subset I$ such that also $\underset{i \in J \subset I}{\cap} C_i = \emptyset$, and under forming complements again this is equivalently the first statement.
+
+Finally, statement 3 is the [[contraposition]] of the second, and contrapositives are equivalent under [[excluded middle]].
+
+=--
+
+
+If the [[ultrafilter theorem]] (a weak form of the [[axiom of choice]]) is assumed, compactness may be characterized in terms of [[ultrafilter]] (or ultranet) [[convergence]]: 
 
 +-- {: .num_defn #ultrafilter}
 ###### Definition
@@ -125,17 +176,6 @@ for every open $V$ in $Y$.
 A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 
-+-- {: .num_remark #DifferingTerminology}
-###### Remark
-**(differing terminology)**
-
-Some authors use "compact" to mean "compact and [[Hausdorff topological space|Hausdorff]]" (a much [[nice topological space|nicer sort of space]], and forming a much [[nice category of spaces|nicer category of spaces]], see atz _[[compact Hausdorff space]]_), and use the word "[[quasicompact]]" to refer to just "compact" as we are using it here. This custom seems to be prevalent among [[algebraic geometry|algebraic geometers]], for example, and particularly so within Francophone schools.
-
-> But it is far from clear to me ([[Todd Trimble]]) that "quasicompact" is very well-established outside such circles (despite some arguments in favor of it), and using simply "compact" for the nicer concept therefore carries some risk of creating misunderstanding among mathematicians at large. My own habit at any rate is to say "compact Hausdorff" for the nicer concept, and I will continue using this on the $n$Lab until consensus is reached (if that happens).
-
-Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even when 'compact' is not used to imply Hausdorffness).
-
-=--
 
 ## Properties
 
