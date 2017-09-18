@@ -21,7 +21,7 @@ $$
 A\underset{\quad e \quad}{\to}B\underoverset{\quad g \quad}{f}{\rightrightarrows}C
 $$
 
-such that $f e=g e$. An example of a special type of a fork is an [[equalizer]]. 
+such that $f e=g e$. An example of a special type of a fork is an [[equalizer]]. Another example is a _reflexive fork_, where $C = A$ and $f e = 1_A$. 
 
 A dual notion is also called a fork, 
 but some people distinguish forks and coforks. 
@@ -33,4 +33,6 @@ but some people distinguish forks and coforks.
 [[!redirects fork]]
 [[!redirects forks]]
 [[!redirects cofork]]
-[[!redirects coforks]]
+[[!redirects coforks]] 
+[[!redirects reflexive fork]] 
+[[!redirects reflexive forks]] 
