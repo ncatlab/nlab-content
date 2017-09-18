@@ -51,7 +51,7 @@ $$
 +-- {: .num_prop #ComplexProjectiveSpaceAsQutientOfDisk}
 ###### Proposition
 
-For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently the quotient of the [[n-disk|2n-disk]] by $\kappa$ with ${\vert \kappa \vert}\leq 1$.
+For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently the quotient of the [[n-disk|2n-disk]] with bounary quotiented by $S^1$.
 
 
 =--
