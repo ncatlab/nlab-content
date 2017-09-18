@@ -46,9 +46,14 @@ In terms of the [[internal logic]] of a [[topos]] (or other [[category]]), $true
 However, not every topos is [[two-valued topos|two-valued]], so there may be other truth values besides $true$ and $false$.  In [[classical mathematics]], a two-valued topos must be [[boolean topos|boolean]] (although this is not so in [[constructive mathematics]]).
 
 
+### In type theory
+
+In [[type theory]] with [[propositions as types]], truth is represented by the [[unit type]].
+
+
 ### In homotopy type theory
 
-In [[homotopy type theory]] the truth is represented by any [[contractible type]].
+In [[homotopy type theory]], truth is represented by any [[contractible type]].
 
 
 ## Examples
@@ -70,6 +75,12 @@ In this sense, the object $true$ in [[Set]] or [[∞Grpd]] may canonically be th
 
 ## Related concepts
 
+* **true**, [[unit type]]
+
+* [[false]], [[empty type]]
+
+* [[contradiction]], [[inconsistency]], [[consistency]]
+
 * [[correspondence theory of truth]]
 
 [[!include homotopy n-types - table]]
@@ -77,6 +88,13 @@ In this sense, the object $true$ in [[Set]] or [[∞Grpd]] may canonically be th
 
 [[!redirects true]]
 [[!redirects True]]
+[[!redirects true proposition]]
+[[!redirects true propositions]]
+[[!redirects true statement]]
+[[!redirects true statements]]
+[[!redirects true sentence]]
+[[!redirects true sentences]]
+
 [[!redirects truth]]
 [[!redirects Truth]]
 [[!redirects the truth]]
