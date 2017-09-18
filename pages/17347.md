@@ -239,7 +239,7 @@ From def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} it is natural 
 
 Let $\mathcal{C}$ be a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model category]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). 
 
-A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]] ** on $\mathcal{C}$ is 
+A **reduced additive [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]] ** on $\mathcal{C}$ is 
 
 1. a [[functor]]
 
@@ -255,9 +255,10 @@ A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology
 
 such that $E^\bullet$
 
-1. takes small [[coproducts]] to [[products]];
+1. **(exactness)** takes [[homotopy cofiber sequences]] to [[exact sequences]].
+ 
+1. **(additivity)** takes small [[coproducts]] to [[products]];
 
-1. takes [[homotopy cofiber sequences]] to [[exact sequences]].
 
 =--
 
@@ -1105,17 +1106,70 @@ Whitehead observed that indeed every [[spectrum]] represents a generalized (co)h
 
 As a first application, [[Eilenberg-MacLane spectra]] representing [[ordinary cohomology]] may be characterized via Brown representability.
 
-Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not fully apply here, since a (co)homology functor is equipped with the extra structure of the [[natural isomorphism|natural]] [[suspension isomorphism]]).
-
-In applications and modern theory, it is mostly the spectra that matter, and hence the Brown representability theory is used to transfer extra structure on spectra to extra structure on cohomology theories. For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
-
-There is a slight refinement of the concept of generalized homology functors to that of "[[excisive functors]]". These are fully equivalent to spectra.
-
 **Literature.** ([Switzer 75, section 9](#Switzer75), [Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96))
 
-$\,$
 
-We discuss the natural formulation of the Brown representability theorem for functors out of [[homotopy categories of model categories]] following ([Lurie, section 1.4.1](#LurieHigherAlgebra)). See also the exposition in ([Mathew 11](Brown+representability+theorem#Mathew11)).
+##### Traditional discussion
+
+
+Write $Top_{CW,cn}^{\ast} \hookrightarrow Top_{CW}^{\ast} \hookrightarrow Top^{\ast/}$ for the category of pointed and _connected_ topological spaces homeomorphic to a [[CW-complex]].
+
++-- {: .num_defn #BrownFunctorTraditional}
+###### Definition
+
+A **[[Brown functor]]** is a functor
+
+$$
+  F\;\colon \; (Top_{CW,cn}^{\ast})^{op} \longrightarrow Set^{\ast/}
+$$
+
+such that
+
+1. **(additivity)** $F$ takes small coproducts ([[wedge sums]]) to [[products]];
+
+1. **(Mayer-Vietoris)** If $X = A \cup B$ then for all $x_A \in F(A)$ and $x_B \in F(B)$ such that $(x_A)|_{A \cap B} = (x_B)|_{A \cap B}$ then there exists $x_X \in F(X)$ such that $x_A = (x_X)|_A$ and $x_B = (x_X)|_B$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For every reduced additive cohomology functor $\tilde E^\bullet$ (def. \ref{ReducedGeneralizedCohomology}), each $E^n$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
+
+=--
+
++-- {: .num_theorem #BrownRepresentabilityTraditional}
+###### Theorem
+**(Brown representability)**
+
+Every [[Brown functor]] (def. \ref{BrownFunctorTraditional}) is [[representable functor|representable]].
+
+=--
+
+(e.g. [AGP 02, theorem 12.2.22](#AguilarGitlerPrieto02))
+
++-- {: .num_remark #ConnectivityInTraditionalBrownRepresentability} 
+###### Remark
+
+A key subtlety in theorem \ref{BrownRepresentabilityTraditional} is the restriction to **connected** pointed topological spaces in def. \ref{BrownFunctorTraditional}. This comes about since the proof of the theorem requires that continuous functions $f \colon X \longrightarrow Y$ that induce isomorphisms on pointed homotopy classes 
+
+$$
+  [S^n,X]_\ast \longrightarrow [S^n,Y]_\ast
+$$
+
+for all $n$ are [[weak homotopy equivalences]] (For instance in [AGP 02](#AguilarGitlerPrieto02) this is used in the proof of theorem 12.2.19 there). But $[S^n,X]_\ast = \pi_n(X,x)$ gives the $n$th [[homotopy group]] of $X$ _only_ for the canonical basepoint, while for a weak homotopy equivalence in general one needs to consider the homotopy groups at all possible basepoints, at least one for each connected component. But so if one does assume that all spaces involved are connected, hence only have one connected component, then indeed weak homotopy equivalences are equivalently those maps  $X\to Y$ making all the $[S^n,X]_\ast \longrightarrow [S^n,Y]_\ast$ into isomorphisms.
+
+See also example \ref{TheClassicalPointedConnectedHomotopyCategoryAsDomainForTheAbstractBrownRepresentabilityTheorem} below.
+
+=--
+
+
+##### Homotopy-theoretic discussion
+
+Using abstract [[homotopy theory]] in the guise of [[model category]] theory, the proof of the Brown representability theorem becomes more transparent ([Lurie, section 1.4.1](#LurieHigherAlgebra), for exposition see also [Mathew 11](Brown+representability+theorem#Mathew11)). 
+
+This abstract homotopy-theoretic proof uses the general concept of [[homotopy colimits]] in [[model categories]] as well as the concept of [[derived hom-spaces]] ("[[(∞,1)-category|∞-categories]]"). Even though in the accompanying [[Introduction to Stable homotopy theory -- P|Lecture notes on classical homotopy theory]] these concepts are only briefly indicated, the following is included for the interested reader.
+
 
 
 +-- {: .num_defn #BrownFunctorOnInfinityCategory}
@@ -1133,14 +1187,14 @@ is called a **[[Brown functor]]** if
 
 1. it sends small [[coproducts]] to [[products]];
 
-1. it sends [[homotopy pushouts]] in $\mathcal{C}\to Ho(\mathcal{C})$ to [[weak pullbacks]] in [[Set]]. 
+1. it sends [[homotopy pushouts]] in $\mathcal{C}\to Ho(\mathcal{C})$ to [[weak pullbacks]] in [[Set]] (see remark \ref{WeakPullbacks}). 
 
 =--
 
 +-- {: .num_remark #WeakPullbacks}
 ###### Remark
 
-A _[[weak pullback]]_ is a diagram that satisfies the existence clause of a [[pullback]], but not necessarily the uniqueness condition. Hence the second clause in def. \ref{BrownFunctorOnInfinityCategory} says that for a [[(∞,1)-pushout]] square 
+A _[[weak pullback]]_ is a diagram that satisfies the existence clause of a [[pullback]], but not necessarily the uniqueness condition. Hence the second clause in def. \ref{BrownFunctorOnInfinityCategory} says that for a [[homotopy pushout]] square 
 
 $$
   \array{
@@ -1168,7 +1222,7 @@ into the actual [[pullback]] is an [[epimorphism]].
 +-- {: .num_defn #CompactGenerationByCogroupObjects}
 ###### Definition
 
-Say that  a [[locally presentable (∞,1)-category]] $\mathcal{C}$
+Say that  a [[model category]] $\mathcal{C}$
 is **compactly generated by cogroup objects closed under suspensions** if
 
 
@@ -1178,9 +1232,9 @@ is **compactly generated by cogroup objects closed under suspensions** if
     \{S_i \in \mathcal{C}\}_{i \in I}
    $$
 
-   of [[compact object in an (infinity,1)-category|compact objects]] (i.e. every object of $\mathcal{C}$ is an [[(∞,1)-colimit]] of the objects $S_i$.)
+   of [[compact object in an (infinity,1)-category|compact objects]] (i.e. every object of $\mathcal{C}$ is a [[homotopy colimit]] of the objects $S_i$.)
 
-1. each $S_i$ admits the structure of a [[cogroup]] object in the [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(\mathcal{C})$;
+1. each $S_i$ admits the structure of a [[cogroup]] object in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$;
 
 1. the set $\{S_i\}$ is closed under forming [[reduced suspensions]].
 
@@ -1232,7 +1286,7 @@ In bare [[pointed homotopy types]] $\mathcal{C} = Top^{\ast/}_{Quillen}$, the ([
 
 So while $\{S^n\}_{n \in \mathbb{N}}$ generates all of the homotopy theory of $Top^{\ast/}$, the latter is _not_ an example of def. \ref{CompactGenerationByCogroupObjects} due to the failure of $S^0$ to have [[cogroup]] structure.
 
-Removing that generator, the homotopy theory generated by $\{S^n\}_{{n \in \mathbb{N}} \atop {n \geq 1}}$ is $Top^{\ast/}_{\geq 1}$, that of _[[connected object|connected]]_ [[pointed homotopy types]]. This is one way to see how the connectedness condition in the classical version of Brown representability theorem arises.
+Removing that generator, the homotopy theory generated by $\{S^n\}_{{n \in \mathbb{N}} \atop {n \geq 1}}$ is $Top^{\ast/}_{\geq 1}$, that of _[[connected object|connected]]_ [[pointed homotopy types]]. This is one way to see how the connectedness condition in the classical version of Brown representability theorem arises. See also remark \ref{ConnectivityInTraditionalBrownRepresentability} above.
 
 =--
 
@@ -1263,7 +1317,7 @@ is an [[isomorphism]] (a [[bijection]]).
 +-- {: .proof }
 ###### Proof
 
-By the [[(∞,1)-Yoneda lemma]], the morphism $f$ is an [[equivalence in an (∞,1)-category|equivalence]] precisely if for all objects $A \in \mathcal{C}$  the induced morphism 
+By the [[(∞,1)-Yoneda lemma|∞-Yoneda lemma]], the morphism $f$ is a weak equivalence precisely if for all objects $A \in \mathcal{C}$  the induced morphism of [[derived hom-spaces]]
 
 $$
   \mathcal{C}(A,f)
@@ -1273,9 +1327,9 @@ $$
   \mathcal{C}(A,Y)
 $$
 
-is an equivalence in [[∞Grpd]]. By assumption of compact generation and since the hom-functor $\mathcal{C}(-,-)$ sends $\infty$-colimits in the first argument to $\infty$-limits, this is the case precisely already if it is the case for $A \in \{S_i\}_{i \in I}$.
+is an equivalence in $Top_{Quillen}$. By assumption of compact generation and since the hom-functor $\mathcal{C}(-,-)$ sends [[homotopy colimits]] in the first argument to [[homotopy limits]], this is the case precisely already if it is the case for $A \in \{S_i\}_{i \in I}$.
 
-Now by the standard [[Whitehead theorem]] in [[∞Grpd]] (being a [[hypercomplete (∞,1)-topos]]), the morphisms
+Now the maps
 
 $$
   \mathcal{C}(S_i,f)
@@ -1285,7 +1339,7 @@ $$
   \mathcal{C}(S_i,Y)
 $$
 
-in [[∞Grpd]] are  [[equivalence in an (∞,1)-category|equivalences]] precisely if they are [[weak homotopy equivalences]], hence precisely if they induce [[isomorphisms]] on all [[homotopy group]] $\pi_n$ for **all basepoints**.
+are weak equivalences in $Top_{Quillen}$ if they are [[weak homotopy equivalences]], hence if they induce [[isomorphisms]] on all [[homotopy groups]] $\pi_n$ for **all basepoints**.
 
 It is this last condition of testing on all basepoints that the assumed [[cogroup]] structure on the $S_i$ allows to do away with: this cogroup structure implies that $\mathcal{C}(S_i,-)$ has the structure of an $H$-group, and this implies (by group multiplication), that all [[connected components]] have the same homotopy groups, hence that all homotopy groups are independent of the choice of basepoint, up to isomorphism.
 
@@ -1332,13 +1386,13 @@ Finally by the assumption that each suspension $\Sigma^n S_i$ of a generator is 
 ###### Theorem
 **(Brown representability)**
 
-Let $\mathcal{C}$ be a model category compactly generated by cogroup objects closed under forming suspensions, according to def. \ref{CompactGenerationByCogroupObjects}. Then a [[functor]]
+Let $\mathcal{C}$ be a [[model category]] compactly generated by cogroup objects closed under forming suspensions, according to def. \ref{CompactGenerationByCogroupObjects}. Then a [[functor]]
 
 $$
   F \;\colon\; Ho(\mathcal{C})^{op} \longrightarrow Set
 $$
 
-(from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ to [[Set]])
+(from the [[opposite category|opposite]] of the [[homotopy category of a model category|homotopy category]] of $\mathcal{C}$ to [[Set]])
 is [[representable functor|representable]] precisely if it is a [[Brown functor]], def. \ref{BrownFunctorOnInfinityCategory}.
 
 =--
@@ -1611,15 +1665,14 @@ it follows with $h$ being an equivalence that already $f$ and $g$ were homotopic
 +-- {: .num_prop #CohomologyFunctorOnInfinityCategoryIsBrownFunctor}
 ###### Proposition
 
-Given a generalized cohomology functor $H^\bullet \colon Ho(\mathcal{C})^{op}\to Ab^{\mathbb{Z}}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, its underlying [[Set]]-valued functors $H^n \colon Ho(\mathcal{C})^{op}\to Ab\to Set$ are [[Brown functors]], def. \ref{BrownFunctorOnInfinityCategory}.
+Given a reduced additive cohomology functor $H^\bullet \colon Ho(\mathcal{C})^{op}\to Ab^{\mathbb{Z}}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, its underlying [[Set]]-valued functors $H^n \colon Ho(\mathcal{C})^{op}\to Ab\to Set$ are [[Brown functors]], def. \ref{BrownFunctorOnInfinityCategory}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The first condition on a [[Brown functor]] holds by definition of $H^\bullet$. For the second condition, given a homotopy pushout square
-
+The first condition on a [[Brown functor]] holds by definition of $H^\bullet$. For the second condition, given a [[homotopy pushout]] square
 
 $$
   \array{
@@ -1663,7 +1716,7 @@ This means that the [[four lemma]] applies to this diagram. Inspection shows tha
 +-- {: .num_cor }
 ###### Corollary
 
-Let $\mathcal{C}$be an [[(∞,1)-category]] which satisfies the conditions of theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories}, and let $(H^\bullet, \delta)$ be a [[generalized cohomology]] functor on $\mathcal{C}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}. Then there exists a  [[spectrum object]] $E \in Stab(\mathcal{C})$ such that 
+Let $\mathcal{C}$ be a [[model category]] which satisfies the conditions of theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories}, and let $(H^\bullet, \delta)$ be a reduced additive [[generalized cohomology]] functor on $\mathcal{C}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}. Then there exists a [[spectrum object]] $E \in Stab(\mathcal{C})$ such that 
 
 1. $H\bullet$ is degreewise [[representable functor|represented]] by $E$:
 
