@@ -17,9 +17,12 @@
 
 A limit of the [[worldvolume]] theory of the [[NS5-brane]].
 
+[[!include table of branes]]
+
+
 ## Related concepts
 
-[[!include table of branes]]
+* [[6d (2,0)-supersymmetric QFT]]
 
 ## References
 
@@ -35,5 +38,10 @@ A review is in
 Little string theories on [[heterotic string theory]] [[NS5-branes]] with $N = (1,0)$ [[supersymmetry]] are discussed in
 
 * E. Gava, K.S. Narain, M.H. Sarmadi, _Little String Theories in Heterotic Backgrounds_, Nucl.Phys. B626 (2002) 3-25 ([arXiv:hep-th/0112200](http://arxiv.org/abs/hep-th/0112200))
+
+Construction within [[F-theory]] is discussed in
+
+* Lakshya Bhardwaj, Michele Del Zotto, [[Jonathan Heckman]], [[David Morrison]], Tom Rudelius, [[Cumrun Vafa]], _F-theory and the Classification of Little Strings_ ([arXiv:1511.05565](http://arxiv.org/abs/1511.05565))
+
 
 [[!redirects little string theories]]
