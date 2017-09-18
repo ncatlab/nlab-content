@@ -69,17 +69,16 @@ For $k$ an [[algebraically closed field]] of [[characteristic zero]], then a _$k
 
 1. [[monoidal category]] 
 
-1. [[enriched category|enriched]] over $k$[[Mod]] = $k$[[Vect]] (i.e. $k$-linear), 
+1. [[enriched category|enriched]] over $k$[[Mod]] = $k$[[Vect]] (i.e. $k$-linear), compatible with the [[Ab-enriched category|Ab-enrichment]] implied from [[abelian category|abelianness]] under $U \colon k Vect \to Ab$
 
 such that 
 
-1. the [[tensor product]] functor $\otimes \colon \mathcal{A} \times \mathcal{A} \longrightarrow \mathcal{A}$ is 
+1. the [[tensor product]] functor $\otimes \colon \mathcal{A} \times \mathcal{A} \longrightarrow \mathcal{A}$ is in both arguments separately
 
    1. $k Mod$-[[enriched functor|enriched]] (i.e. $k$-linear);
 
    1. [[exact functor|exact]]
 
-   in both arguments;
 
 1. $End(1) \simeq k$ (the [[endomorphism ring]] of the [[tensor unit]] coincides with $k$).
 
@@ -104,23 +103,37 @@ Such $E$ is called an _$\otimes$-generator_ for $\mathcal{A}$.
 
 The following is a mild size constraint on tensor categories:
 
+Recall the concept of [[length of an object]] in an [[abelian category]], a generalization of the concept of [[dimension]] of a [[free module]]/[[vector space]]. 
+
 +-- {: .num_defn #SubexponentialGrowth}
 ###### Definition
 
-A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is said to have _subexponential growth_ if for every [[object]] $X$ there exists a [[natural number]] $N$ such that $X$ is of [[length of an object|length]] at most $N$, and that also all [[tensor product]] powers of $X$ are of length bounded by the corresponding powers of $N$:
+A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is said to have _subexponential growth_ if the [[length]] of tensor exponentials is no larger than the exponential of the lenght: for every [[object]] $X$ there exists a [[natural number]] $N_X$ such that $X$ is of [[length of an object|length]] at most $N_X$, and that also all [[tensor product]] powers of $X$ are of length bounded by the corresponding powers of $N_X$:
 
 $$
   \underset{X \in \mathcal{A}}{\forall}
-  \underset{N \in \mathbb{N}}{\exists}
+  \underset{N_X \in \mathbb{N}}{\exists}
   \underset{n \in \mathbb{N}}{\forall}
     \;
-   length(X^{\otimes^n}) \leq N^n
+   length(X^{\otimes^n}) \leq (N_X)^n
   \,.
 $$
 
 =--
 
 (e.g. [EGNO 15, def. 9.11.1](#EGNO15))
+
++-- {: .num_example}
+###### Example
+
+The tensor category $k$[[FinVect]] of [[finite dimensional vector spaces]] has subexponential growth (def. \ref{SubexponentialGrowth}), for $N_X = dim(X)$ the [[dimension]] of a vector space $X$, we have
+
+$$
+  dim(X^{\otimes^n}) = (dim(X))^n
+  \,.
+$$
+
+=--
 
 
 +-- {: .num_defn #Regularity}
