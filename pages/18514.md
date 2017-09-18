@@ -1,4 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -54,7 +70,7 @@ is called the _causal propagator_ .
 
 ## Properties
 
-The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|field]] [[scalar field|scalar]] [[field (physics)|field]]
+The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|field]] [[scalar field|scalar]] [[field (physics)|field]]. The [[Moyal deformation quantization]] of this [[covariant phase space]] yields the [[Wick algebra]] of [[quantum observables]] of the free scalar field.
 
 
 ## Related concepts
@@ -63,4 +79,11 @@ The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bra
 
 * [[Hadamard distribution]]
 
+## References
 
+See the references at _[[wave equation]]_.
+
+[[!redirects causal propagators]]
+
+[[!redirects causal Green function]]
+[[!redirects causal Green functions]]
