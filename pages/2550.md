@@ -417,16 +417,7 @@ Over non-regular schemes, the motivic spectrum $KGL$ is also defined and it repr
 ### Algebraic cobordism
  {#AlgebraicCobordism}
 
-In analogy with the complex cobordism spectrum $MU$, Voevodsky defined the _[[algebraic cobordism spectrum]] _ $MGL \in SH(S)$ (for [[algebraic cobordism]] [[generalized cohomology theory]]) by
-
-$$ MGL = colim_{n\to\infty} \Sigma_T^{\infty -n} V_n/V_n^\times, $$
-
-where $V_n$ is the tautological vector bundle over the infinite Grassmannian of $n$-planes $Gr(n)$. More precisely, $Gr(n)$ is defined as the colimit in $\mathrm{H}(S)$ of the smooth $S$-schemes $Gr(n,k)$ as $k\to\infty$, and $V_n$ is similarly the colimit of the tautological vector bundles over $Gr(n,k)$.
-
-Like $H(\mathbb{Z})$ and $KGL$, $MGL$ is an $E_\infty$ motivic ring spectrum
-
-The spectrum $MGL$ was used by Voevodsky in his proof of the [[Bloch-Kato conjecture]]. It is also the starting point of [[chromatic motivic homotopy theory]].
-
+See [[algebraic cobordism]].
 
 ### References
 
