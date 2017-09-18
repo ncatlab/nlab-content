@@ -81,7 +81,7 @@ See the [references below](#ReferencesDivergenceConvergence) for details. The ma
 
 ## Related concepts
 
-* **perturbation theory**
+* [[causal perturbation theory]]
 
 * [[renormalization]]
 
@@ -191,3 +191,5 @@ in the broad context of _[[factorization algebras]]_ (see there for further refe
 [[!redirects Feynman perturbation series]]
 [[!redirects perturbation series]]
 
+[[!redirects perturbation]]
+[[!redirects perturbations]]
