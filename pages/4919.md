@@ -1,6 +1,6 @@
 
 John Power is a Theoretical Computer Scientist working at the University of Bath, England.
 
-* [contact website](http://www.bath.ac.uk/comp-sci/people/contact/index.php?contact=Dr_John_Power)
+* [contact website](http://www.bath.ac.uk/comp-sci/contacts/academics/john_power/)
 
 category: people
