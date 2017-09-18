@@ -34,7 +34,7 @@ A [[model category]] structue on ([[commutative monoid|commutative]]) [[monoids]
 
 ## References
 
-Constructions modeled on [[symmetric spectra]] include
+Constructions modeled on [[symmetric ring spectra]] include
 
 * {#MMSS98b} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _[[Model categories of diagram spectra]]_, Proc. London Math. Soc. 82 (2001), ([KTheory:0320](http://www.math.uiuc.edu/K-theory/0320/))
 
