@@ -88,6 +88,10 @@ because $F^*$ already was, and so by Makkai's [[strong conceptual completeness]]
 
 * [[quantifier elimination]]
 
+* For the [[property]] of a theory $T$ that $T_{\mathsf{Diag}(A)}$ is complete for all substructures $A$, see [[substructure completeness]].
+
+* For the [[property]] of a theory $T$ that $T_{\mathsf{EDiag}(M)}$ is complete for all models $M$, see [[model completeness]].
+
 ## References
 
 * Dave Marker, (2002), _Model theory: an introduction_, section 2.3
