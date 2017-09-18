@@ -60,6 +60,7 @@ From the previous section, we have a [[set]] $X$ and we are discussing [[binary 
 | Symmetry (weak) | if $A \;\delta\; B$ then $B \;\delta\; A$ | if $A \bowtie B$ then $B \bowtie A$ | if $A \ll B$ then $B^{\mathsf{c}} \ll A^{\mathsf{c}}$ |
 | Symmetry (strong) | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | $A \ll B$ iff $B^{\mathsf{c}} \ll A^{\mathsf{c}}$ |
 | Regularity | If for all $C$ and $D$ such that $B^{\mathsf{c}}\cup C = X$, either $\{x\} \;\delta\; D$ or $D^{\mathsf{c}}\;\delta\; C$, then $\{x\}\;\delta\; B$ | If $\{x\}\bowtie B$, then for some $C$ and $D$, $D^{\mathsf{c}}\bowtie C$, $B^{\mathsf{c}}\cup C = X$, and $\{x\} \bowtie D$ | If $\{x\}\ll A$, then for some $C$ and $D$, $C\ll D$, $A\cup C = X$, and $\{x\}\ll D^{\mathsf{c}}$ |
+| Complete Regularity | | If $A\bowtie B$, then for some $C$ and $D$, $A\bowtie D$, $C\bowtie B$, and $C\cup D = X$. | If $A\ll B$, then for some $C$ and $D$, $A\ll C$, $D\ll B$, and $C^{\mathsf{c}}\cup D = X$. |
 | Separation | If $\{x\} \delta \{y\}$, then $x = y$ | Unless $\{x\} \bowtie \{y\}$, then $x = y$ | $x = y$ if, for all $A$, $y \in A$ whenever $\{x\} \ll A$ |
 | Perfection (left) | If $A \;\delta\; B$, then $\{x\} \;\delta\; B$ for some $x \in A$ | $A \bowtie B$ if $\{x\} \bowtie B$ for all $x \in A$ | $A \ll B$ if $\{x\} \ll B$ for all $x \in A$ |
 | Perfection (right) | If $A \;\delta\; B$, then $A \;\delta\; \{y\}$ for some $y \in B$ | If $A \bowtie \{y\}$ for all $y \in B$, then $A \bowtie B$ | If $A \ll C_i$ for all $i$, then $A \ll \bigcap_i C_i$ |
@@ -68,7 +69,7 @@ When both left and right rules are shown, we only need one of them if we have Sy
 
 Whether made explicit or not, Isotony is very fundamental.  In particular, it allows us to assert Reflexivity only for singletons, although this is often not done (to avoid mentioning points).
 
-The weak Symmetry axioms immediately imply the strong versions, except for the case of proximal neighborhoods in constructive mathematics, in which case the strong versions are too strong; see below.  Regularity also follows from Symmetry and Transitivity in classical mathematics (in the neighborhood version, let $\{x\} \ll B \ll A$ and take $C = A^{\mathsf{c}}$ and $D = B^{\mathsf{c}}$), but in constructive mathematics it seems like a stronger statement, though not unreasonably strong (e.g. it follows from [[uniform regularity]]).
+In [[classical mathematics]], the weak Symmetry axioms are equivalent to the strong versions, Regularity follows from Symmetry and Transitivity, while Complete Regularity is equivalent to Transitivity.  In [[constructive mathematics]], strong Symmetry for $\ll$ is unreasonably strong (as is binary Additivity for $\delta$), while Regularity and Complete Regularity appear genuinely stronger than Symmetry and Transitivity (but not unreasonably so); see remarks below.
 
 A __topogeny__ is a relation that satisfies both forms of Isotony and all four forms of Additivity.  A __topogenous relation__ or __quasipreproximity__ is a topogeny that also satisfies Reflexivity; a __quasiproximity__ is a quasipreproximity that also satisfies Reflexivity and Transitivity.  A topogeny is __symmetric__ if it satisfies Symmetry; a __preproximity__ is a symmetric quasipreproximity, and a __proximity__ is a symmetric quasiproximity.  A topogeny is __separated__ if it satisfies Separation.  A topogeny is __perfect__ if it satisfies left Perfection, __coperfect__ if it satisfies right Perfection, and __biperfect__ if it satisfies both; a symmetric topogeny is usually called simply __perfect__ if it satisfies any form of Perfection, because then it must satisfy both (except in constructive mathematics using proximal neighbourhoods).  Constructively, a proximity space satisfying Regularity may be called __proximally regular__.
 
@@ -93,8 +94,26 @@ On the other hand, while the Symmetry axioms for $\bowtie$ and $\delta$ may seem
 
 In this sense, a proximal neighborhood space actually contains more information than a proximal apartness space; it is unclear whether the latter gives rise to the former constructively.  On the other side, we can of course define $A\;\delta \; B$ to mean $\neg(A\bowtie B)$, but with this definition we cannot even prove binary Additivity for $\delta$.  In fact, binary Additivity for $\delta$ seems too strong: it is apparently not satisfied even by a metric space.
 
+We can, however, show the following constructively.
 
++--{: .un_theorem}
+###### Theorem
+(Quasi-)proximal apartness spaces satisfying Complete Regularity are equivalent to (quasi-)proximal neighborhood spaces satisfying Complete Regularity.
+=--
++--{: .proof}
+###### Proof
+As above, in one direction we define $A\bowtie B$ to mean $A\ll B^{\mathsf{c}}$.  In the other, we define $A\ll B$ to mean that there exists a $C$ with $A\bowtie C$ and $B\cup C = X$.  Most of the axioms are easy.  To prove right binary Additivity for $\ll$, given $A\ll B$ and $A\ll C$, we have $A\bowtie D$ and $A\bowtie E$ with $D\cup B = X$ and $E\cup C = X$, whence $A\bowtie D\cup E$ with $(D\cup E) \cup (B\cap C) = X$ by distributing $\cup$ over $\cap$.
 
+To prove Complete Regularity (and hence Transitivity) for $\ll$, given $A\ll B$, we have $A\bowtie C$ with $B\cup C = X$, whence by Complete Regularity for $\bowtie$ we have $D,E$ with $A\bowtie D$, $E\bowtie C$, and $D\cup E = X$.  By Complete Regularity again, we have $D_1,D_2,E_1,E_2$ with $A\bowtie D_1$, $D_2\bowtie D$, and $D_1\cup D_2 = X$, while $E\bowtie E_1$, $E_2\bowtie C$, and $E_1\cup E_2=X$.  Then $A\ll D_2$ (because of $D_1$) and $E_2 \ll B$ (because of $C$), while $D\subseteq D_2^{\mathsf{c}}$ (since $D_2\bowtie D$) and $E\subseteq E_2$ (because $E\bowtie E_1$ and so $E\subseteq E_1^{\mathsf{c}} \subseteq E_2$) and so $X = D\cup E = D_2^{\mathsf{c}} \cup E_2$.
+
+Lastly, if $\bowtie$ satisfies Symmetry and $A\ll B$, we have $A\bowtie C$ with $B\cup C = X$, whence by Complete Regularity for $\bowtie$ we have $D,E$ with $A\bowtie D$, $E\bowtie C$, and $D\cup E = X$.  Then by Symmetry, we have $B^{\mathsf{c}} \subseteq C\bowtie E$ while $X = E\cup D \subseteq E\cup A^{\mathsf{c}}$, so $B^{\mathsf{c}} \ll A^{\mathsf{c}}$.
+
+To show that these constructions are inverses, if we start with $\ll$ then by a round-trip we obtain $A\ll' B$ defined to mean that there exists $C$ with $A\ll C^{\mathsf{c}}$ and $B\cup C = X$.  Now on one hand, $B\cup C = X$ implies $C^{\mathsf{c}}\subseteq B$, so $A\ll C^{\mathsf{c}} \subseteq B$.  But on the other, if $A\ll B$ then Complete Regularity gives $C$ and $D$ with $A\ll C$, $D\ll B$, and $C^{\mathsf{c}}\cup D = X$, whence $A \ll (C^{\mathsf{c}})^{\mathsf{c}}$ and $X = D \cup C^{\mathsf{c}} \subseteq B \cup C^{\mathsf{c}}$.
+
+On the other side, if we start with $\bowtie$ then by a round-trip we obtain $A\bowtie' B$ defined to mean that there exists $C$ with $A\bowtie C$ and $C \cup B^{\mathsf{c}}= X$.  Now on one hand, if $C \cup B^{\mathsf{c}}= X$ then $B \subseteq C$, so $A\bowtie C$ implies $A\bowtie B$.  But on the other, if $A\bowtie B$ then Complete Regularity gives $C$ and $D$ with $A\bowtie C$ and $D\bowtie B$ and $C\cup D = X$, whence $D\subseteq B^{\mathsf{c}}$ and so $X = C\cup D \subseteq C \cup B^{\mathsf{c}}$.
+=--
+
+In other words, the two constructively reasonable ways to define a proximity space give the same result in the Completely Regular case.
 
 ## Relations to other topological structures
 
@@ -110,6 +129,8 @@ Conversely, given a set equipped with a preorder $\leq$, let $A \;\delta\; B$ if
 
 In this way, we get the category $Proset$ of preordered sets as a [[reflexive subcategory]] of $QProx$, with the category $Setoid$ of [[setoids]] (sets equipped with equivalence relations) as a reflexive subcatgory of $Prox$.
 
+In [[constructive mathematics]], a quasi-proximal nearness space (despite its general unreasonableness) or neighborhood space gives rise to a preordered set as above, while a proximal apartness space yields an [[inequality relation]] that is an [[apartness relation]] if we have Complete Regularity.
+
 
 ### Topological spaces
 
@@ -121,7 +142,7 @@ In general, a completely regular topology may be induced by more than one proxim
 
 The construction of a topology works just as well for a quasi-proximity, but the result is no longer necessarily completely regular.  In fact, every topology can be induced by some quasi-proximity: define $A \ll B$ if $A \subseteq int(B)$.  Moreover, in this way topological spaces can be identified with (left) perfect quasi-proximity spaces.
 
-In [[constructive mathematics]], the three now-inequivalent kinds of (quasi-)proximity space (nearness, apartness, and neighborhood) yield three inequivalent notions of topological space: [[closure operators]], [[point-set apartness spaces]], and [[topological spaces]] (equivalently [[neighborhood]] spaces).  Note in particular that the Transitivity axiom ensures that (in the three cases) the closure of a set is closed, that the final axiom of a point-set apartness space holds (if $x\bowtie A$ then $x\bowtie \{ y \mid \neg(y\bowtie A) \}$), and that the interior of a set is open.  The resulting topologies are [[regular space|regular]] if the proximity space satisfies Regularity (but whether they are completely regular may depend on the definition chosen for the latter in constructive mathematics; in some cases [[countable choice]] may be required).
+In [[constructive mathematics]], the three now-inequivalent kinds of (quasi-)proximity space (nearness, apartness, and neighborhood) yield three inequivalent notions of topological space: [[closure operators]], [[point-set apartness spaces]], and [[topological spaces]] (equivalently [[neighborhood]] spaces).  Note in particular that the Transitivity axiom ensures that (in the three cases) the closure of a set is closed, that the final axiom of a point-set apartness space holds (if $x\bowtie A$ then $x\bowtie \{ y \mid \neg(y\bowtie A) \}$), and that the interior of a set is open.  The resulting topologies are [[regular space|regular]] if the proximity space satisfies Regularity, and [[completely regular space|completely regular]] if the proximity space satisfies Complete Regularity (though depending on the definition chosen of a [[completely regular space]] in constructive mathematics, the latter conclusion may require [[countable choice]]).  Conversely, the above definition that $A \bowtie B$ iff they are separated by a continuous function $f: X\to [0,1]$ is also constructively valid and produces a proximity space satisfying Complete Regularity.
 
 
 ### Uniform spaces
@@ -140,7 +161,9 @@ In general, proximally continuous functions between given uniform spaces need no
 
 The relation between quasi-uniformities and quasi-proximities is similar.
 
-In [[constructive mathematics]], all three of the relations $\delta,\bowtie,\ll$ may be defined as above from a uniformity.  All the axioms of all three kinds of proximity are then provable, except Binary Additivity for $\delta$ and Strong Symmetry for $\ll$.  Proximal Regularity follows from [[uniform regularity]].
+In [[constructive mathematics]], all three of the relations $\delta,\bowtie,\ll$ may be defined as above from a uniformity.  All the axioms of all three kinds of proximity are then provable, except Binary Additivity for $\delta$, Strong Symmetry for $\ll$, and Regularity and Complete Regularity.  The proximal Regularity axiom follows from [[uniform regularity]] for the uniform space, but proximal Complete Regularity seems unobtainable in this way; it seems to assert [[located subspace|locatedness]] of all subsets.
+
+However, there is a different way to obtain a proximity underlying a uniformity: define $A\bowtie B$ if there is a uniformly continuous function $f: X\to [0,1]$ such that $f(x) = 0$ for $x \in A$ and $f(x) = 1$ for $x \in B$.  Classically, this is equivalent to the usual definition, by the usual proof that any unform space is completely regular.  Constructively, it (and a similar definition for $\ll$) yields a proximity space satisfying Complete Regularity, which has the same underlying topology *if* our original uniform space was already [[completely regular space|completely regular]].
 
 
 ### Syntopogenous spaces
