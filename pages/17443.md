@@ -4,7 +4,7 @@
 
 ## Idea
 
-Essential [[sublocales]] are intermediate between [[open sublocales]] and [[locally connected geometric morphism|locally connected sublocales]].
+Essential [[sublocales]] are a generalization of [[locally connected geometric morphism|locally connected sublocales]].
 
 ## Definition
 
@@ -19,19 +19,27 @@ A [[sublocale]] $X_j$ of a [[locale]] $X$, given by a [[nucleus]] $j : \mathcal{
 5. The [[geometric embedding]] $\mathrm{Sh}(X_j) \hookrightarrow \mathrm{Sh}(X)$ is an [[essential geometric morphism]].
 =--
 
-The equivalence of 1. and 2. is by the [[adjoint functor theorem]] for complete lattices, which furthermore gives an explicit formula for the left adjoint $b$, namely
++-- {: .proof}
+###### Proof of equivalence
+* The equivalence of (1) and (2) is by the [[adjoint functor theorem]] for complete lattices, which furthermore gives an explicit formula for the left adjoint $b$, namely
 $$ b(u) \coloneqq inf \{ v \in \mathcal{O}(X) \,|\, u \preceq j(v) \}. $$
-This also shows the equivalence of 1. and 3. The equivalence of 4. and 5. is by definition. The equivalence of 3. and 4. is by ...
+This also shows the equivalence of (1) and (3).
+* The equivalence of (4) and (5) is by definition.
+* Recall that the pullback of the representable sheaf $Hom_{\mathcal{O}(X)}(\cdot,u)$ is $Hom_{\mathcal{O}(X)}(\cdot,j(u))$. Therefore [[continuous functor|continuity]] of the pullback functor translates to continuity of $j$. This shows that (4) implies (2).
+* Conversely, assume (3). Then the explicit description of the pullback functor given below (which is valid under this assumption) shows that the pullback functor preserves arbitrary limits. By the adjoint functor theorem for Grothendieck toposes, statement (4) follows.
+=--
 
 +-- {: .num_remark}
 ###### Remark
-The left adjoint $b$ automatically satisfies $b(u) \preceq u$ and $b(b(u)) = u$ for all $u \in \mathcal{O}(X)$. This follows from the dual inequalities for $j$ by adjunction.
+The left adjoint $b$ automatically satisfies $b(u) \preceq u$, $b(b(u)) = u$, $j(b(u)) = j(u)$, and $b(j(u)) = b(u)$ for all $u \in \mathcal{O}(X)$. These relations follow from playing around with the adjunction.
 =--
 
 
 ## Examples
 
 * Any [[open sublocale]] is essential: The nucleus for an open sublocale is of the form $j = (u \rightarrow -)$. Its left adjoint is $b = (- \wedge u)$.
+
+* More generally, any [[locally connected geometric morphism|locally connected sublocale]] is essential.
 
 
 ## Properties
@@ -42,7 +50,7 @@ In the case that $X_j$ is an essential sublocale, this presheaf is simply given 
 $$ u \mapsto \mathcal{F}(b(u)) $$
 and is already a sheaf, so sheafification is not necessary.
 
-* On [math.SE](http://math.stackexchange.com/questions/1776136/are-intersections-of-essential-sublocales-essential) there is a question whether arbitrary intersections of essential sublocales are essential.
+* The lattice of essential sublocales of a given locale is [[complete lattice|complete]]. Suprema are calculated as in the lattice of all sublocales; infima, however, are not. There are counterexamples in ([Kelly and Lawvere (1989)](#KL89)), however in the slightly different context of essential [[localizations of categories]].
  
 
 ## References
