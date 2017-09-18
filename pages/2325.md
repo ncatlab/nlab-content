@@ -21,13 +21,20 @@ An [[(∞,1)-topos]] is **$n$-localic** if
 
 * it behaves like the [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] that is a [[(n,1)-category]].
 
-More precisely: if [[(∞,1)-geometric morphisms]] into it are fixed by their restriction to the underlying [[(n,1)-toposes]] of $(n-1)$-[[truncated]] objects.
+More precisely: if [[(∞,1)-geometric morphisms]] into it are fixed by their restriction to the underlying [[(n,1)-toposes]] of [[n-truncated object of an (infinity,1)-category|(n-1)-truncated objects]].
 
-To the tower of [[(n,1)-toposes]] of $(n-1)$-truncated objects 
+To the tower of [[(n,1)-toposes]] of [[n-truncated object of an (infinity,1)-category|(n-1)-truncated objects]] 
 
 
 $$
-  \cdots \to \tau_{\leq 3-1} \mathcal{X} \to \tau_{\leq 2-1} \mathcal{X} \to \tau_{\leq 1-1} \mathcal{X} \to \tau_{\leq 0-1} \mathcal{X}
+  \cdots \to 
+  \tau_{\leq 3-1} \mathcal{X} 
+    \longrightarrow 
+   \tau_{\leq 2-1} \mathcal{X} 
+     \longrightarrow 
+   \tau_{\leq 1-1} \mathcal{X} 
+     \longrightarrow 
+    \tau_{\leq 0-1} \mathcal{X}
   \to *
 $$
 
