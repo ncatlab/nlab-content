@@ -160,11 +160,15 @@ $$ \{ h\colon v\to u | T h \;\text{ factors through the }\; F\text{-image of som
 is a covering sieve of $u$ in $E$.
 =--
 
-For disambiguation, we may refer to this notion as being **covering-flat**.  This subsumes the other three definitions as follows:
+For disambiguation, we may refer to this notion as being **covering-flat**.  
 
-* If $E=Set$ with its [[canonical topology]], then covering-flatness reduces to Set-valued flatness.
-* More generally, if $E$ is a cocomplete topos with its canonical topology, then covering-flatness reduces to internal flatness.
-* On the other hand, if $E$ has a [[trivial topology]], then covering-flatness reduces to representable flatness.
+This subsumes the other three definitions as follows:
+
+* If $E=Set$ with its [[canonical topology]], then covering-flatness reduces to Set-valued flatness, def. \ref{SetValuedFlat}.
+
+* More generally, if $E$ is a cocomplete [[topos]] with its [[canonical topology]], then covering-flatness reduces to internal flatness, def. \ref{InternallyFlat}.
+
+* On the other hand, if $E$ has a [[trivial topology]], then covering-flatness reduces to representable flatness, def. \ref{RepresentablyFlat}.
 
 +-- {: .num_prop}
 ###### Proposition
