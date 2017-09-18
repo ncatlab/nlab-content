@@ -18,6 +18,29 @@ There are two possibities to get a sensible notion of analytic rig $\infty$-cate
 
 In the particular case of $\mathcal{M}(\mathbb{Z})$, we will get a natural proper $G$-topological space $\overline{\mathcal{M}(\mathbb{Z})}$ together with an analytic rig category $\mathcal{O}$ of overconvergent analytic functions, whose global sections are given by the rig category $\mathbb{F}_{\{\pm 1\}}$. This gives convincing indications that strict global analytic spaces may be naturally thought of as Arakelov models of the corresponding schemes over $\mathbb{Z}$. Since these new compactified spectra are stable by the natural power flow $|\cdot|\mapsto |\cdot|^t$ for $t\in [0,+\infty]$, they may be useful to better understand the relations between overconvergent global analytic geometry and analytic number theory (in the adelic sense of Tate's thesis).
 
+## Complex generalized analytic geometry
+
+Before describing the general overconvergent theory, we will discuss the case of complex analytic generalized geometry, that will play an inspiring role in the forthcoming generalizations. We base our considerations on Lurie's notion of analytic rings and on Porta's description of modules over them.
+
+Let $\textsc{Anopen_\mathbb{C}}$ be the category of open subsets in finite dimensional affine spaces $\mathbb{C}^n$. It is equipped with two classes of limits, given by finite products and pullbacks along open immersions. A complex analytic ring is a functor
+$$A:\textsc{Anopen_\mathbb{C}}\to \textsc{Sets}$$
+that commutes with the two given classes of limits on open subsets of affine spaces.
+We will thus also define a complex analytic $\infty$-category as a functor
+$$\mathcal{A}:\textsc{Anopen_\mathbb{C}}\to {}^\infty\textsc{Cat}$$
+that commutes with the two given classes of limits on open subsets of affine spaces.
+We will denote $\textsc{AnRings}$ and ${}^\infty\textsc{AnCat}$ the categories of analytic rings and analytic infinity categories.
+
+One may define a natural "free module" functor
+$$\textsc{FMod}:\textsc{AnRings}\to {}^\infty\textsc{AnCat}$$
+by sending an analytic ring $A$ to the functor that sends $\mathbb{C}$ to the
+category
+$$\textsc{FMod}(A)(\mathbb{C}):=\textsc{FMod}(A(\mathbb{C}))$$
+of free modules over $A$ (which are the same as free modules over the underlying algebraic complex algebra $A(\mathbb{C})$).
+One must of course have
+$$\textsc{FMod}(A)(\mathbb{C}^n)\cong \textsc{FMod}(A)(\mathbb{C})^n.$$
+Now one has to define the value of $\textsc{FMod}(A)$ on an open subset
+$U$ of $\mathbb{C}^n$. Can you guess by yourself?
+
 ## References
 
 [[Frédéric Paugam]] _Analytic spectrum of rig categories_ [TAC](http://www.tac.mta.ca/tac/volumes/29/6/29-06abs.html)
