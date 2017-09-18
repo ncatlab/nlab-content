@@ -43,7 +43,7 @@ Let $\bar{\Omega}(P;n)$ denote the number of [[strict order-preserving functions
 $$\bar{\Omega}(P;n) = (-1)^p \Omega(P;-n)$$
 where $p = |P|$ is the cardinality of $P$. This is an example of a _combinatorial reciprocity theorem_ in the sense of [Stanley (1974)](#Stanley74).
 
-(Notice that we are evaluating the order polynomial at a negative integer, even though strictly speaking the definition $\Omega(P;n) = |Hom(P,\mathbf{n})|$ only makes sense for natural numbers $n$. This is justified because the value of a polynomial on the natural numbers determines its value on arbitrary integers.)
+(Notice that we are evaluating the order polynomial at a negative integer, even though the putative definition $\Omega(P;n) = |Hom(P,\mathbf{n})|$ only makes sense for natural numbers $n$. This is justified because the value of a polynomial on the natural numbers determines its value on arbitrary integers.)
 
 Through [[Möbius inversion]], this equation relating the strict order polynomial to the order polynomial can be connected to the previous one relating the order polynomial to the zeta polynomial. Since the lattice of lower sets $I(P)$ has [[bottom]] and [[top]] elements, we know that
 $$
