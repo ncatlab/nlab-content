@@ -453,7 +453,7 @@ $$
   \tau_{x,y} \colon x \otimes y \to y \otimes x 
 $$
 
-called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved:
+called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved ("hexagon identities"):
 
 $$
   \array{
@@ -5842,7 +5842,7 @@ $$
   \,.
 $$
 
-Hence the structured [[suspension spectrum]] functor is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor}) from [[pointed topological spaces]] equipped with the [[smash product]] of pointed objects, to [[structured spectra]] equipped with the [[symmetric monoidal smash product of spectra]]
+Hence the structured [[suspension spectrum]] functor $\Sigma^\infty_{dia}$ is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and in fact a [[braided monoidal functor]] (def. \ref{braided monoidal functor}) from [[pointed topological spaces]] equipped with the [[smash product]] of pointed objects, to [[structured spectra]] equipped with the [[symmetric monoidal smash product of spectra]]
 
 $$
   \Sigma_{dia}^\infty
@@ -5925,6 +5925,30 @@ $$
 $$
 
 For the last statement we may use that $\Sigma^\infty_{dia} K \simeq \mathbb{S}_{dia} \wedge K$, by lemma \ref{ExplicitExpressionForFreeSpectra}), and that $\mathbb{S}_{dia}$ is the [[tensor unit]] for $\otimes_{\mathbb{S}_{dia}}$ by prop. \ref{MonoidalCategoryOfModules}.
+
+To see that $\Sigma^\infty_{dia}$ is braided, write $\Sigma^\infty_{dia}K\simeq \mathbb{S} \wedge K$. We need to see that 
+
+$$
+  \array{
+    (\mathbb{S} \wedge K_1) 
+      \otimes_{\mathbb{S}} 
+    (\mathbb{S} \wedge K_2)
+    &\overset{}{\longrightarrow}&
+    (\mathbb{S} \wedge K_2)
+      \otimes_{\mathbb{S}}
+    (\mathbb{S} \wedge K_1) 
+    \\
+    \downarrow
+      &&
+    \downarrow
+    \\
+    \mathbb{S} \wedge (K_1 \wedge K_2)
+      &\underset{}{\longrightarrow}&
+    \mathbb{S} \wedge (K_2 \wedge K_1)
+  }
+$$
+
+commutes. Chasing the smash factors through this diagram and using symmetry (def. \ref{SymmetricMonoidalCategory}) and the hexagon identities (def. \ref{BraidedMonoidalCategory}) shows that indeed it does.
 
 =--
 
@@ -7619,7 +7643,7 @@ $$
   \,.
 $$
 
-For $n = 0$ and writing $\Sigma_{dia}^\infty \coloneqq F^{dia}_0$ and $\Omega_{dia}^\infty \coloneqq Ev^{dia}_0$ this yields a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction})
+For $n = 0$ and writing $\Sigma_{dia}^\infty \coloneqq F^{dia}_0$ and $\Omega_{dia}^\infty \coloneqq Ev^{dia}_0$, $\Sigma^\infty_{dia}$ this yields a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction})
 
 $$
   \mathbb{S}_{dia}Mod_{strict}
@@ -8347,7 +8371,10 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 
 =--
 
-We record some consequences:
+
+#### The monoidal stable homotopy category
+ {#TheMonoidalStableHomotopyCategory}
+
 
 +-- {: .num_cor #MonoidalStableHomotopyCategory}
 ###### Corollary
@@ -8423,7 +8450,228 @@ $$
   \pi_\bullet( A \wedge K )
 $$
 
-(by prop. \ref{SmashProductOfFreeSpectra} ) and this is called the generalized $A$-homology of the topological space $K \in Top^{\ast/}_{cg}$.
+(by prop. \ref{SmashProductOfFreeSpectra} ) and this is called the _generalized $A$-homology_ of the topological space $K \in Top^{\ast/}_{cg}$.
+
+=--
+
+##### Tensor triangulated structure
+
+We discuss that the derived smash product of spectra from corollary \ref{MonoidalStableHomotopyCategory} on the [[stable homotopy category]] interacts well with its structure of a [[triangulated category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)).
+
++-- {: .num_defn #TensorTriangulatedCG}
+###### Definition
+
+A **[[tensor triangulated category]]** is a [[category]] $Ho$ equipped with 
+
+1. the structure of a [[symmetric monoidal category]] $(Ho, \otimes, 1, \tau)$ (def. \ref{SymmetricMonoidalCategory});
+
+1. the structure of a [[triangulated category]] $(Ho, \Sigma, CofSeq)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated));
+
+1. for all objects $X,Y\in Ho$ [[natural isomorphisms]]
+
+   $$
+     e_{X,Y}
+       \;\colon\;
+     (\Sigma X) \wedge Y 
+       \overset{\simeq}{\longrightarrow} 
+     \Sigma(X \wedge Y)
+   $$
+
+such that
+
+1. (tensor product is additive) for all $V \in Ho$ the functors $V \otimes (-) \simeq (-) \otimes V$ preserve finite [[direct sums]] (are [[additive functors]]);
+
+1. (tensor product is exact) for each object $V \in Ho$ the functors $V \otimes (-) \simeq (-)\otimes V$ preserves distinguished triangles in that for 
+
+   $$
+     X 
+       \overset{f}{\longrightarrow}
+     X
+       \overset{g}{\longrightarrow}
+     Y
+       \overset{h}{\longrightarrow}
+     \Sigma X
+   $$
+
+   in $CofSeq$, then also
+
+   $$
+     V \otimes X 
+       \overset{id_V \otimes f}{\longrightarrow}
+     V\otimes X
+       \overset{id_V \otimes g}{\longrightarrow}
+     V \otimes Y
+       \overset{id_V \otimes h}{\longrightarrow}
+     V \otimes (\Sigma X)
+     \simeq
+     \Sigma(V \otimes X)
+   $$
+
+   is in $CofSeq$, where the equivalence at the end is $e_{X,V}\circ \tau_{V, \Sigma Y}$.
+
+1. for all $n_1, n_2 \in \mathbb{Z}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (\Sigma^{n_1} 1) \otimes (\Sigma^{n_2} 1)
+       &\overset{\simeq}{\longrightarrow}&
+       \Sigma^{n_1 + n_2} 1
+       \\
+       {}^{\mathllap{\tau_{\Sigma^{n_1}1, \Sigma^{n_2}1}}}\downarrow
+         &&
+       \downarrow^{\mathrlap{(-1)^{n_1 \cdot n_2}}}
+       \\
+       (\Sigma^{n_2} 1) \otimes (\Sigma^{n_1} 1)
+       &\underset{\simeq}{\longrightarrow}&
+       \Sigma^{n_1 + n_2} 1
+     }
+     \,,
+   $$
+
+   where the horizontal isomorphisms are composites of the $e_{\cdot,\cdot}$ and the braidings.
+
+1. (coherence) for all $X, Y, Z \in Ho$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       ( \Sigma(X) \otimes Y) \otimes Z
+         &\overset{e_{X,Y} \otimes id}{\longrightarrow}&
+       (\Sigma (X \otimes Y)) \otimes Z
+         &\overset{e_{X \otimes Y, Z}}{\longrightarrow}& 
+       \Sigma( (X \otimes Y) \otimes Z )
+       \\
+       {}^{\mathllap{\alpha_{\Sigma X, Y, Z}}}\downarrow
+         &&
+         &&
+       \downarrow^{\mathrlap{\Sigma \alpha_{X,Y,Z}}}
+       \\
+       \Sigma (X) \otimes (Y \otimes Z)
+         &&
+         \underset{e_{X, Y \otimes Z }}{\longrightarrow} 
+         &&
+      \Sigma( X \otimes (Y \otimes Z) )
+     }
+     \,,
+   $$
+
+   where $\alpha$ is the [[associator]] of $(Ho, \otimes, 1)$.
+
+
+=--
+
+
+Definition \ref{TensorTriangulatedCG} without the clause that $V \otimes (-)$ be additive is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)), called there "symmetric monoidal structure compatible with the triangulation". The terminology "tensor triangulated category" goes back to ([Balmer 05, def. 1.1](#Balmer05)), which however states as axiom only that the "tensor product is exact in each variable", without further specification. But ([Balmer 05, p. 2](#Balmer05)) cites ([Hovey-Palmieri-Strickland 97](#HoveyPalmieriStrickland97)) as "dealing with tensor triangulated categories". The condition that in a tensor triangulated category $V \otimes (-)$ is also to preserve direct sums appears in ([Stevenson 11, Introduction](#Stevenson11)).
+
++-- {: .num_prop #TensorTriangulatedStructureOnStableHomotopyCategory}
+###### Proposition
+
+The [[stable homotopy category]] equipped with 
+
+1. its [[triangulated category]] structure $(Ho(Spectra), \Sigma, CofSeq)$ for distinguished triangles the [[homotopy cofiber sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated);
+
+1. the derived [[symmetric monoidal smash product of spectra]] $(Ho(Spectra), \wedge^L , \mathbb{S})$ (corollary \ref{MonoidalStableHomotopyCategory})
+
+is a [[tensor triangulated category]] in the sense of def. \ref{TensorTriangulatedCG}.
+
+=--
+
+(e.g. [Hovey-Palmieri-Strickland 97, 9.4](HoveyPalmieriStrickland97))
+
+We break up the **proof** into lemma \ref{DerivedSmashProductOfSpectraPreservesDirectSums}, lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, lemma \ref{SmashProductOfSpectraCompatibleWithSuspension} and lemma \ref{GradedCommutativityOfSuspendedSphereSpectra}.
+
++-- {: .num_lemma #DerivedSmashProductOfSpectraPreservesDirectSums}
+###### Lemma
+
+For $V \in Ho(Spectra)$ any spectrum in the [[stable homotopy category]] (remark \ref{StableHomotopyCategoryStructuredSpectra}), then the derived [[symmetric monoidal smash product of spectra]] (corollary \ref{MonoidalStableHomotopyCategory}) 
+
+$$
+  V \wedge^L (-)
+  \;\colon\;
+  Ho(Spectra)
+    \longrightarrow
+  Ho(Spectra)
+$$
+
+preserves [[direct sums]], in that for all $X, Y \in Ho(Spectra)$ then
+
+$$
+  V \wedge^L ( X \oplus Y )
+  \simeq
+  (V \wedge^L X)
+   \oplus
+  (V \wedge^L Y)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The direct sum in $Ho(Spectra)$ is represented by the [[wedge sum]] in $SeqSpec(Top_{cg})$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts
+), [prop.](Introduction+to+Stable+homotopy+theory+--+1-1#ProductsAreBiproducts)). Since wedge sum of sequential spectra is the [[coproduct]] in $SeqSpec(Top_{cg})$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-1#WedgeSumOfSpectra)) and since the [[forgetful functor]] $seq^\ast \colon OrthSpec(Top_{cg}) \longrightarrow SeqSpec(Top_{cg})$ preserves colimits (since by prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} it acts by precomposition on functor categories, and since for these colimits are computed objectwise), it follows that also wedge sum of orthogonal spectra represents the direct sum operation in the stable homotopy category. 
+
+Now assume without restriction that $V$, $X$ and $Y$ are cofibrant orthogonal spectra representing the objects of the same name in the stable homotopy catgeory. Since wedge sum is coproduct, it follows that also the wedge sum $X \vee Y$ is cofibrant. 
+
+Since $V \wedge^L (-)$ is a [[left Quillen functor]] by theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}, it follows that the derived tensor product $V \wedge^L (X \oplus Y)$ is represented by the plain [[symmetric monoidal smash product of spectra]] $V \wedge (X \vee Y)$. By def. 
+\ref{SsymModuleSymmetricSpectra} (or more explicitly by prop. \ref{AbstractFormulaGivesSmashProductOfSymmetricSpectra}) this is the [[coequalizer]] 
+
+$$
+  V \otimes_{Day} \mathbb{S}_{orth} \otimes_{Day} (X \vee Y)
+    \underoverset
+      {\longrightarrow}
+      {\longrightarrow}
+      {\phantom{AAAAAA}}
+  V \otimes_{Day} (X \vee Y)
+    \overset{coeq}{\longrightarrow}
+  V \otimes_{\mathbb{S}_{orth}} (X \vee Y) 
+  \,.
+$$
+
+Inserting the definition of [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}), the middle term here is
+
+$$
+  \begin{aligned}
+    \overset{c_1,c_2}{\int}
+    Orth(c_1 \otimes_{Orth} c_2, -)
+    \wedge
+    V(c_1) 
+    \wedge
+    (X \vee Y)(c_2)
+    &\simeq
+    \overset{c_1,c_2}{\int}
+    Orth(c_1 \otimes_{Orth} c_2, -)
+    \wedge
+    V(c_1) 
+    \wedge
+    (X(c_2) \vee Y(c_2))
+    \\
+    &
+    \overset{c_1,c_2}{\int}
+    Orth(c_1 \otimes_{Orth} c_2, -)
+    \wedge
+    V(c_1) 
+    \wedge
+    X(c_2) 
+    \;\vee\;    
+    \overset{c_1,c_2}{\int}
+    Orth(c_1 \otimes_{Orth} c_2, -)
+    \wedge
+    V(c_1) 
+    \wedge
+    Y(c_2)
+    \\
+    & \simeq
+    V \otimes_{Day} X
+    \;\vee\;
+    V \otimes_{Day} Y
+  \end{aligned}
+  \,,
+$$
+
+where in the second but last step we used that the [[smash product]] in $Top^{\ast/}_{cg}$ distributes over [[wedge sum]] and that [[coends]] commute with wedge sums (both being [[colimits]]).
+
+The analogous analysis applies to the left term in the coequalizer diagram. Hence the whole diagram splits as the wedge sum of the respective diagrams for $V \wedge X$ and $V \wedge Y$.
 
 =--
 
@@ -8534,9 +8782,121 @@ and the symmetry of the smash product on $Top^{\ast/}_{cg}$ (example \ref{Pointe
 
 =--
 
++-- {: .num_lemma #GradedCommutativityOfSuspendedSphereSpectra}
+###### Lemma
+
+For $n_1, n_2 \in \mathbb{Z}$ then the following [[commuting diagram|diagram commutes]] in $Ho(Spectra)$:
+
+$$
+  \array{
+    (\Sigma^{n_1}\mathbb{S}) \wedge^L (\Sigma^{n_2}\mathbb{S})
+      &\overset{\simeq}{\longrightarrow}&
+    \Sigma^{n_1 + n_2} \mathbb{S}
+    \\
+    {}^{\mathllap{\tau_{\Sigma^{n_1}\mathbb{S}, \Sigma^{n_2}\mathbb{S}}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{(-1)}}
+    \\    
+    (\Sigma^{n_2} \mathbb{S}) \wedge^L (\Sigma^{n_1} \mathbb{S})
+      &\underset{\simeq}{\longrightarrow}&
+    \Sigma^{n_1 + n_2} \mathbb{S}
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to prove this for $n_1, n_2 \in \mathbb{N} \hookrightarrow \mathbb{Z}$. From this the general statement follows by looping and using lemma \ref{SmashProductOfSpectraCompatibleWithSuspension}.
+
+So assume $n_1, n_2 \geq 0$. 
+
+Observe that the sphere spectrum $\mathbb{S} = \gamma(\mathbb{S}_{orth}) \in Ho(Spectra)$ is represented by the orthogonal sphere spectrum $\mathbb{S}_{orth} = \Sigma^\infty_{orth} S^0$ (def. \ref{FreeStructuredSpectrum}) and since $\Sigma^\infty_{orth}$ is a left Quillen functor (prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}) and $S^0 \in (Top^{\ast/}_{cg})_{Quillen}$ is cofibrant, this is a cofibrant orthogonal spectrum. Hence, as in the proof of lemma \ref{SmashProductOfSpectraCompatibleWithSuspension}, $\Sigma^{n_1} \mathbb{S}$ is represented by 
+
+$$
+  \mathbb{S}\wedge S^{n_1}
+  \simeq
+  \Sigma^\infty_{orth}S^{n_1}
+  \,.
+$$
+
+Since $\Sigma^\infty_{orth}$ is a [[symmetric monoidal functor]] by prop. \ref{SmashProductOfFreeSpectra}, it makes the following [[commuting diagram|diagram commute]]
+
+$$
+  \array{
+     (\mathbb{S}\wedge S^{n_1})
+       \otimes_{\mathbb{S}_{orth}}
+     (\mathbb{S} \wedge S^{n_2})
+    &\overset{\tau^{OrthSpec(Top_{cg}))}_{\mathbb{S}\wedge S^{n_1}, \mathbb{S}\wedge S^{n_2}}}{\longrightarrow}&
+     (\mathbb{S} \wedge S^{n_2})
+       \otimes_{\mathbb{S}_{orth}}    
+     (\mathbb{S}\wedge S^{n_1})
+     \\
+     \downarrow
+       &&
+     \downarrow
+     \\
+     \mathbb{S} \wedge (S^{n_1} \wedge S^{n_2})
+       &\underset{\mathbb{S}(\tau^{Top^{\ast/}_{cg}}_{S^{n_1}, S^{n_2}})}
+   {\longrightarrow}&
+     \mathbb{S}\wedge (S^{n_2} \wedge S^{n_1})
+  }
+  \,.
+$$
+
+Now the homotopy class of $\tau^{Top^{\ast/}_{cg}}_{S^{n_1},S^{n_2}}$ in 
+
+$$
+  [S^{n_1+n_2}, S^{n_2 +n_1}]_\ast 
+    \simeq 
+  \pi_{n_1+n_2}(S^{n_1 + n_2})
+    \simeq
+  \mathbb{Z}
+$$
+
+is 
+
+$$
+  [\tau^{Top^{\ast/}_{cg}}_{S^{n_1},S^{n_2}}]
+  =
+  \left\{
+    \array{
+      1 & if \; n_1 \cdot n_2 \; even
+      \\
+      -1 & if n_1 \cdot n_2 \; odd
+    }
+  \right.
+  \,.
+$$
+
+This translates to $\mathbb{S}\wedge \tau^{Top^{\ast/}_{cg}}_{S^{n_1},S^{n_2}}$ under the identification ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum))
+
+$$
+  [\mathbb{S}, X]_\bullet \simeq \pi_\bullet(X)
+$$
+
+and using the adjunction $(-)\wedge (S^{n_1 + n_2}) \dashv Maps(S^{n_1 + n_2},-)_\ast$ from prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}:
+
+$$
+  \begin{aligned}
+    [\mathbb{S}\wedge (S^{n_1+n_2}), 
+    \mathbb{S} \wedge ( S^{n_1 + n_2} )]
+    \simeq
+    [ \mathbb{S}, \mathbb{S} \wedge Maps(S^{n_1+n_2} , S^{n_1+n_2}) ]
+  \end{aligned}
+  \,.
+$$
+
+
+=--
 
 
 ##### Homotopy ring spectra
+
+We discuss [[commutative monoids]] in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}).
 
 +-- {: .num_defn #HomotopyCommutativeRingSpectrum}
 ###### Definition
@@ -8545,10 +8905,18 @@ A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #HomotopyGroupsOfHomotopyCommutativeRingSpectrum}
 ###### Proposition
 
-The [[stable homotopy groups]] $\pi_\bullet(E)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) of a [[homotopy commutative ring spectrum]] $E$ (def. \ref{HomotopyCommutativeRingSpectrum}) canonically inherit the structure of a $\mathbb{Z}$-[[graded ring]]. Moreover, for $X \in Ho(Spectra)$ any spectrum, then the [[generalized homology]] (remark \ref{EMHomology})
+For $(E, \mu, e)$ a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}), its [[stable homotopy groups]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups))
+
+$$
+  \pi_\bullet(E)
+$$  
+
+canonically inherit the structure of a $\mathbb{Z}$-[[graded-commutative ring]].
+
+Moreover, for $X \in Ho(Spectra)$ any spectrum, then the [[generalized homology]] (remark \ref{EMHomology})
 
 $$
   E_\bullet(X)
@@ -8566,50 +8934,94 @@ canonically inherits the structure of a graded $\pi_\bullet(E)$-[[module]].
 Under the identification ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum))
 
 $$
-  \pi_\bullet(E)
-    \simeq
-  [\mathbb{S}, E]_\bullet
+  \begin{aligned}
+    \pi_\bullet(E)
+      & \simeq
+    [\mathbb{S}, E]_\bullet
+    \\
+      & \simeq
+    [\mathbb{S}, \Sigma^{-\bullet} E]
+    \\
+      & \simeq
+    [ \Sigma^{\bullet} \mathbb{S},E]
+  \end{aligned}
 $$
 
-let $\alpha_i \in \pi_{n_i}(X)$ be represented by 
+let 
 
 $$
   \alpha_i
      \;\colon\;
-  \mathbb{S} 
+  \Sigma^{n_i}\mathbb{S} 
     \longrightarrow
-  \Sigma^{-n_i}
+  E
+$$
+
+for $i \in \{1,2\}$ be two elements of $\pi_\bullet(E)$.
+
+Using the identification $\Sigma^{n_1 + n_2} \mathbb{S} \simeq \Sigma^{n_1} \mathbb{S} \wedge^L \Sigma^{n_2} \mathbb{S}$ we may form the composite
+
+$$
+  \alpha_1 \cdot \alpha_2
+  \; \colon \;
+  \Sigma^{n_1 + n_2}\mathbb{S}
+    \overset{\simeq}{\longrightarrow}
+  \Sigma^{n_1}\mathbb{S}
+   \wedge^L
+  \Sigma^{n_2}\mathbb{S}
+    \overset{\alpha_1 \wedge^L \alpha_2}{\longrightarrow}
+  E \wedge E
+   \overset{\mu}{\longrightarrow}
   E
   \,.
 $$
 
-Under the derived [[symmetric monoidal smash product of spectra]] $\mathbb{S}$ is the [[tensor unit]] (corollary \ref{MonoidalStableHomotopyCategory}) and so we may form the composite
+That this pairing is associative and unital follows directly from the associativity and unitality of $\mu$. Evidently the pairing is graded. That it is bilinear follows since addition of morphisms in the stable homotopy category is given by forming their [[direct sum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment)) and since $\wedge^L$ disributes over direct sum (lemma \ref{DerivedSmashProductOfSpectraPreservesDirectSums}).
+
+It only remains to show graded-commutivity of the pairing. This is exhibited by the [[commuting diagram]]
 
 $$
-  \alpha_1 \cdot \alpha_2
-  \;\colon\;
-  \mathbb{S}
-    \underoverset{\simeq}{\ell_{\mathbb{S}}^{-1}}{\longrightarrow}
-  \mathbb{S} \wedge^L \mathbb{S}
-    \overset{\alpha_1 \wedge^L \alpha_2}{\longrightarrow}
-  (\Sigma^{-n_1} E) \wedge^L (\Sigma^{-n_2} E)
-    \simeq
-  \Sigma^{-n_1 - n_2} (E \wedge^L E)
-    \overset{\Sigma^{-n_1 - n_2}(\mu)}{\longrightarrow}
-  \Sigma^{-n_1 - n_2} E
-  \,,
+  \array{
+     \Sigma^{n_1 + n_2} \mathbb{S}
+       &&\overset{(-1)^{n_1 \cdot n_2}}{\longrightarrow}&&
+     \Sigma^{n_1 + n_2} \mathbb{S}
+     \\
+     {}^{\mathllap{\simeq}}\downarrow
+       && &&
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     \Sigma^{n_1}\mathbb{S} \wedge^L \Sigma^{n_2}\mathbb{S}
+       &&\overset{\tau_{\Sigma^{n_1}\mathbb{S}, \Sigma^{n_2}\mathbb{S}}}{\longrightarrow}&&
+     \Sigma^{n_2}\mathbb{S} \wedge^L \Sigma^{n_1}\mathbb{S}
+     \\
+     {}^{\mathllap{\alpha_1 \cdot \alpha_2}}\downarrow
+      && &&
+     \downarrow^{\mathrlap{\alpha_2 \cdot \alpha_1}}
+     \\
+     E \wedge^L E
+       &&\overset{\tau_{E,E}}{\longrightarrow}&&
+     E \wedge^L E
+     \\
+     & {}_{\mathllap{\mu}}\searrow
+     && 
+       \swarrow_{\mathrlap{\mu}}
+     \\
+     && E
+  }
+  \,.
 $$
 
-where the isomorphism in the middle is from lemma \ref{SmashProductOfSpectraCompatibleWithSuspension}.
+Here the top square is that of lemma \ref{GradedCommutativityOfSuspendedSphereSpectra}, the middle square is the naturality square of the [[braiding]], and the bottom triangle commutes by definition of $(E,\mu,e)$ being a commutative monoid (def. \ref{MonoidsInMonoidalCategory}).
+
 
 Similarly given 
 
 $$
   \alpha 
      \;\colon\;
-  \mathbb{S} 
+  \Sigma^{n-1}\mathbb{S} 
     \longrightarrow
-  \Sigma^{-n_1} E
+  E
 $$
 
 as before and 
@@ -8617,27 +9029,160 @@ as before and
 $$
   \nu 
     \;\colon\;
-  \mathbb{S}
+  \Sigma^{n_2}\mathbb{S}
     \longrightarrow
-  \Sigma^{-n_2}E \wedge X
+  E \wedge X
+  \,,
 $$
 
-representing an element in $\pi_\bullet(E \wedge X)\simeq [\mathbb{S}, E \wedge X]_\bullet$, then an action is defined by the composite
+then an action is defined by the composite
 
 $$
   \alpha \cdot \nu
-  \;\colon\;
-  \mathbb{S}
-    \underoverset{\simeq}{\ell_{\mathbb{S}}^{-1}}{\longrightarrow}
-  \mathbb{S}\wedge^L \mathbb{S}
-    \overset{\alpha \wedge^L \beta}{\longrightarrow}
-  \Sigma^{-n_1} E \wedge^L \Sigma^{-n_2} E\wedge X
-   \simeq
-  \Sigma^{-n_1 -n_2} E \wedge^L \wedge E \wedge^L X
-  \overset{\Sigma^{-n_1-n_2}(\mu \wedge id) }{\longrightarrow}
-  \Sigma^{-n_1 - n_2} E \wedge^L X
+    \;\colon\;
+  \Sigma^{n_1 + n_2}\mathbb{S}
+   \overset{\simeq}{\longrightarrow}
+  \Sigma^{n_1} \mathbb{S} \wedge^L \Sigma^{n_2}\mathbb{S}
+    \overset{\alpha \wedge^L \nu}{\longrightarrow}
+  E \wedge^L E \wedge^L X
+    \overset{\mu\wedge^L id}{\longrightarrow}
+  E \wedge X
   \,.
 $$
+
+This is clearly a graded pairing, and the action property and unitality follow directly from the associativity and unitality, respectively, of $(E,\mu,e)$.
+
+
+=--
+
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and for $X \in Ho(Spectra)$ any spectrum, there is a [[homomorphism]] of [[graded abelian groups]] of the form
+
+$$
+  E_\bullet(E)
+   \otimes_{\pi_\bullet(E)}
+  E_\bullet(X)
+    \longrightarrow
+  [\mathbb{S}, E \wedge^L E \wedge^L X]_\bullet
+$$
+
+(for $E_\bullet(-)$ being $\pi_\bullet(E)$-modules according to prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}) given on elements
+
+$$
+  \Sigma^{n_1}\mathbb{S}
+   \overset{\alpha_1}{\longrightarrow}
+  E \wedge E
+  \;\;\,,
+  \;\;
+  \Sigma^{n_2} \mathbb{S}
+    \overset{\alpha_2}{\longrightarrow}
+  E \wedge X
+$$
+
+by
+
+$$
+  \alpha_1 \cdot \alpha_2
+    \;\colon\;
+  \Sigma^{n_1 + n_2}\mathbb{S}
+    \overset{\simeq}{\longrightarrow}
+  \Sigma^{n_1} \mathbb{S} \wedge^L \Sigma^{n_2}\mathbb{S}
+    \overset{\alpha_1 \wedge^L \alpha_2}{\longrightarrow}
+  E \wedge^L E \wedge^L E \wedge^L X
+    \overset{id_E \wedge^L \mu \wedge^L id_X}{\longrightarrow}
+  E \wedge E \wedge X
+  \,.
+$$
+
+If $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[isomorphism]].
+
+=--
+
+([Adams 74, part III, lemma 12.5](#Adams74))
+
++-- {: .num_defn}
+###### Definition
+
+That the given pairing is well defined (descends from $E_\bullet(E) \times E_\bullet(X)$ to $E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)$) follows from the associativity of $\mu$.
+
+We discuss that it is an isomorphism when $E_\bullet(E)$ is flat over $\pi_\bullet(E)$:
+
+First overserve that for $X \simeq \Sigma^{n} \mathbb{S}$ a suspension of the [[sphere]] spectrum, then $E_\bulelt(X)\simeq \pi_{\bullet-n}(E)$ and $[\mathbb{S}, E \wedge^L E \wedge^L X]_\bullet \simeq [\mathbb{S}, E \wedge^L E]_{\bullet-n}$ and so in this case the morphism is generally an isomorphism.
+
+For general $X$, we may without restriction assume that $X$ is represented by a sequential [[CW-spectrum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#CWApproximationForSequentialSpectra)). The the [[homotopy cofibers]] of its cell attachment maps are suspensions of the sphere spectrum.
+
+First consider the case that $X$ is a CW-spectrum with finitely many cells. Consider the [[homotopy cofiber sequence]] of the $(k+1)$st cell attachment:
+
+$$
+  \array{
+    \Sigma^{n_k-1}\mathbb{S}
+      &\longrightarrow&
+    X_k
+      &\longrightarrow&
+    X_{k+1}
+      &\longrightarrow&
+    \Sigma^{n_k}\mathbb{S}
+      &\longrightarrow&
+    \Sigma X_k
+  }
+$$
+
+and its image 
+
+$$
+  \array{
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k-1}\mathbb{S})
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_k)
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_{k+1})
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k}\mathbb{S})
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma X_k)
+    \\
+    \downarrow
+      &&
+    \downarrow
+      &&
+    \downarrow
+      &&
+    \downarrow
+      &&
+    \downarrow
+    \\
+    [\mathbb{S}, E \wedge^L E \wedge^L \Sigma^{n_k-1}\mathbb{S}]_\bullet
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge^L E \wedge^L X_k]_{\bullet}
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge^L E \wedge^L X_{k+1}]_{\bullet}
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge^L E \wedge^L \Sigma^{n_k}\mathbb{S}]_{\bullet}
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge^L E \wedge^L \Sigma X_k]_{\bullet}
+  }
+  \,.
+$$
+
+Here the 
+bottom row is a [[long exact sequence]] since $E \wedge^L E^\wedge^L (-)$ preserves homotopy cofiber sequences by lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends homtopy cofiber sequences to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning $E_\bullet(-)$ of the homotopy cofiber sequence is long exact, and by the assumption that $E_\bullet(E)$ is that the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactmess, so that also the top row is a [[long exact sequence]].
+
+Now by [[induction]] over the cells of $X$, the outer four vertical morphisms are [[isomorphisms]]. Hence the [[5-lemma]] implies that also the middle morphism is an isomorphism.
+
+This shows the claim for finite CW-spectra. For the general statement, now use that
+
+1. every CW-spectrum is the [[filtered colimit]] over its finite CW-subspectra;
+
+1. the [[symmetric monoidal smash product of spectra]] $\wedge$ preserves colimits in its arguments separately (since it has a [[right adjoint]] by prop. \ref{MonoidalCategoryOfModules});
+
+1. $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ commutes over filtered colimits of CW-spectrum inclusions (since spheres are compact) );
+
+1. $E_\bullet(E) \otimes_{\pi_\bullet(E)}(-)$ distributes over colimits (it being a left adjoint).
 
 
 
@@ -8800,10 +9345,6 @@ is a [[strong monoidal adjunction]] from the the derived [[smash product]] of [[
 
 
 
-
-
-
-
 ## References
  {#References}
 
@@ -8828,6 +9369,11 @@ and the theory of monoids in [[monoidal model categories]] is further developed 
 * {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014 
 
 * {#SchwedeShipley00} [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
+
+For the induced [[tensor triangulated category]] structure on the stable homtopy category we follow
+
+* {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]], _Axiomatic stable homotopy theory_, Memoirs of the AMS 610 (1997) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf))
+
 
 A compendium on [[symmetric spectra]] is
 
