@@ -56,7 +56,7 @@ that induces the homotopy coherent nerve.
 
 ##### An abstract description 
 
-Recall that a reflexive graph is a simplicial set of dimension $1$, i.e. 1-coskeletal; they form a full subcategory $reflGraph\hookrightarrow Cat$. The forgetful functor $U: Cat \to reflGraph$ has a left adjoint $F$ hence $G = FU : Cat\to Cat$ is a comonad. By the definition its cobar construction is an augmented simplicial endofunctor $S\to Id$ featuring $S :\Delta\to sSet Cat$ and whose augmentation is a cofibrant replacement of a 1-category in the [[Bergner model structure]] on $sSet$ ("model structure for simplicially enriched categories"). 
+Recall that a reflexive graph is a simplicial set of dimension $1$, i.e. 1-coskeletal; they form a full subcategory $reflGraph\hookrightarrow Cat$. The forgetful functor $U: Cat \to reflGraph$ has a left adjoint $F$ hence $G = FU : Cat\to Cat$ is a comonad. By the definition its [[bar and cobar construction|cobar construction]] is an augmented simplicial endofunctor $S\to Id$ featuring $S :\Delta\to sSet Cat$ and whose augmentation is a cofibrant replacement of a 1-category in the [[Bergner model structure]] on $sSet$ ("model structure for simplicially enriched categories"). 
 
 ##### An explicit description
 
