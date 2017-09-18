@@ -23,7 +23,7 @@
 
 Given an [[action]] of a [[group]] on some [[space]], and given a point or (or more generally some subspace), then the _stabilizer group_ of that point (that subspace) is the [[subgroup]] whose action leaves the point (the subspace) fixed, [[invariant]].
 
-The importance of stabilizer subgroups for the general development of [[geometry]] was famously highlighted in ([Klein 1872](#Klein1872)) in the context of what has come to be known the _[[Erlangen program]]_. For more on this aspect see at _[[Klein geometry]]_ and _[[Cartan geometry]]_.
+The importance of stabilizer subgroups for the general development of [[geometry]] was famously highlighted in ([Klein 1872](#Klein1872)) in the context of what has come to be known the _[[Erlangen program]]_. For more on this aspect see at _[[Klein geometry]]_ and _[[Cartan geometry]]_. 
 
 
 ## Definition
@@ -221,7 +221,7 @@ $$
   i_f\colon Stab_{\rho_Y}(f) \to G
 $$
 
-hence characterizes the ([[higher Klein geometry|higher]]) [[Klein geometry]] induced by the $G$-action and by the shape $f\colon Y \to X$.
+hence characterizes the ([[higher Klein geometry|higher]]) [[Klein geometry]] induced by the $G$-action and by the shape $f\colon Y \to X$. (See at [Klein geometry -- History](Klein+geometry#History).)
 
 
 For completeness we notice that:
