@@ -9,10 +9,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## The idea
 
@@ -196,6 +195,7 @@ A connection to algebraic geometry:
 * C. de Concini,[[D. Eisenbud]], C. Procesi, _Young diagrams and determinantal
 varieties_, Invent. Math. __56__ (1980), 129-165.
 
+
 category: combinatorics
 
 [[!redirects Young diagram]]
@@ -203,4 +203,5 @@ category: combinatorics
 [[!redirects Ferrers diagram]]
 [[!redirects Ferrers diagrams]]
 [[!redirects Young tableau]]
+[[!redirects Young tableaus]]
 [[!redirects Young tableaux]]
