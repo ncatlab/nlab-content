@@ -27,13 +27,17 @@ Typically and naturally, a model structure on spectra forms a [[stable model cat
 
 ## Examples
 
-A classical model structure, not however with a symmetric monoidal smash product, is ([Bousfield-Friedlander 78](#BousfieldFriedlander78)) the 
+A classical model structure on [[sequential spectra]] in [[simplicial sets]], not however with a symmetric monoidal smash product, is ([Bousfield-Friedlander 78](#BousfieldFriedlander78)) the 
 
 * _[[Bousfield-Friedlander model structure]]_.
 
-A [[Quillen equivalence|Quillen equivalent]] model structure with a [[symmetric monoidal smash product of spectra]] is the
+This is related by a [[zig-zag]] of [[Quillen equivalences]] to the 
 
-* [[model structure for excisive functors]].
+* _[[model structure on combinatorial spectra]]_.
+
+A [[Quillen equivalence|Quillen equivalent]] model structure to the Bousfield-Friedlander model structure that does carry a [[symmetric monoidal smash product of spectra]] is the
+
+* _[[model structure for excisive functors]]_.
 
 Among the model structures on "[[highly structured spectra]]" with a [[symmetric monoidal smash product of spectra]] are the
 
@@ -62,7 +66,7 @@ Among the model structures on "[[highly structured spectra]]" with a [[symmetric
 
 ## References
 
-The [[Bousfield-Friedlander model structure]] is due to
+The [[Bousfield-Friedlander model structure]] on [[sequential spectra]] in [[simplicial sets]] is due to
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
