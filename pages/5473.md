@@ -174,7 +174,7 @@ to the [[adjoint lifting theorem]] that if $C^T$ has coequalizers of
 reflexive pairs, then $C^{\theta}$ has a left adjoint
 and is, in fact, monadic. 
 
-This completes the proof, but here is a concrete description of the left adjoint to $C^\theta$: it sends an $S$-algebra $(c, \xi: S c \to c)$ to the (reflexive) coequalizer of the pair 
+This actually completes the proof, but here is a concrete description of the left adjoint to $C^\theta$: it sends an $S$-algebra $(c, \xi: S c \to c)$ to the (reflexive) coequalizer of the pair 
 
 $$\label{coeq}\array{ 
  & & T T c & & \\
@@ -224,35 +224,31 @@ T S c & \stackrel{T \theta c}{\to} & T T c & \stackrel{T T f}{\to} & T T d & \st
  & & T c & \underset{T f}{\to} & T d & \underset{\alpha}{\to} & d
 }$$
 
-where using (eq:alg), the path along the top may be replaced by $T f \circ T \xi$, reducing the asserted coequalizing of (eq:coeq2) to the tautology $\alpha \circ T f \circ T \xi = \alpha \circ T f \circ T \xi$. 
+where using (eq:alg), the path along the top may be replaced by $T f \circ T \xi: T S c \to T d$, reducing the desired coequalizing of (eq:coeq2) to the tautology $\alpha \circ T f \circ T \xi = \alpha \circ T f \circ T \xi$. 
 
-Conversely, assuming the coequalizing of (eq:coeq2), the perimeter of (eq:commute) commutes, and on top of that we stack naturality diagrams for the monad unit $\eta$ for $T$: 
+Conversely, assuming the coequalizing of (eq:coeq2), the perimeter of (eq:commute) commutes, and on top of that we stack naturality diagrams for the monad unit $\eta$ of $T$: 
 
 $$\label{commute2}\array{
  & & S d & & & & \\
  & _\mathllap{S f} \nearrow & _\mathllap{\eta S d} \downarrow & \searrow _\mathrlap{\theta d} & & & \\ 
-S c & (nat) & T S d & (nat) & T d & & \\ 
-_\mathllap{\eta S c} \downarrow & _\mathllap{T S f} \nearrow & \; \; (nat) & \searrow _\mathrlap{T \theta d} & \downarrow_\mathrlap{\eta T d} & \searrow \mathrlap{1_{T d}} & \\ 
+S c & (nat) & T S d & (nat) & T d & \stackrel{\alpha}{\to} & d \\ 
+_\mathllap{\eta S c} \downarrow & _\mathllap{T S f} \nearrow & \; \; (nat) & \searrow _\mathrlap{T \theta d} & \downarrow_\mathrlap{\eta T d} & (nat) & \downarrow _\mathrlap{\eta d}\\ 
 T S c & \stackrel{T \theta c}{\to} & T T c & \stackrel{T T f}{\to} & T T d & \stackrel{T \alpha}{\to} & T d \\ 
  & \mathllap{T \xi} \searrow & \downarrow \mathrlap{\mu c} & \; \; (nat) & \downarrow \mathrlap{\mu d} & \; \; (alg) & \downarrow \mathrlap{\alpha} \\ 
  & & T c & \underset{T f}{\to} & T d & \underset{\alpha}{\to} & d
 }$$
 
-&&\,$$
+The vertical composite on the right is $1_d$ by a unit equation for a $T$-algebra, and thus we may simplify the perimeter. Retaining the (simplified) perimeter of this commuting diagram, and inserting inside some naturality squares and another unit equation inside, we arrive at the commutative diagram 
 
 $$\array{
-\alpha \circ \theta d \circ S f & = & \alpha \circ T f \circ \theta c \\
- & = & \phi \circ \theta c \\
- & = & \phi \circ \mu c \circ \eta T c \circ \theta c \\
- & = & \phi \circ \mu c \circ T \theta c \circ \eta S c \\
- & = & \phi \circ T \xi \circ \eta S c \\
- & = & \phi \circ \eta c \circ \xi \\
- & = & \alpha \circ T f \circ \eta c \circ \xi \\
- & = & \alpha \circ \eta d \circ f \circ \xi \\
- & = & f \circ \xi
+S c & \stackrel{S f}{\to} & S d & \stackrel{\theta d}{\to} & T d & & \\ 
+_\mathllap{\eta S c} \downarrow & \searrow\; _\mathllap{\xi} & & & & \searrow \mathrlap{\alpha} & \\ 
+T S c & (nat) & c & \stackrel{f}{\to} & d & \stackrel{1_d}{\to} & d \\ 
+ & \mathllap{T \xi} \searrow & \downarrow _\mathrlap{\eta c} & (nat) & \downarrow _\mathrlap{\eta d} & (unit) & \downarrow \mathrlap{1_d} \\ 
+ & & T c & \underset{T f}{\to} & T d & \underset{\alpha}{\to} & d
 }$$ 
 
-as desired. This completes the proof. 
+where the commutativity of the unlabeled polygonal region is just the commutativity of (eq:alg). This completes the proof of the claim. 
 =-- 
 
 ## References 
