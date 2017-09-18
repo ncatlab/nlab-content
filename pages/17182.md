@@ -1,0 +1,59 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Bousfield-Friedlander model structure_ ([Bousfield-Friedlander 78, section 2](#BousfieldFriedlander78)) is a [[model structure for spectra]]; a [[model category]] structure on the [[category]] of [[sequential spectrum|sequential]] [[prespectra]] which [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, whose [[homotopy category]] is the classical [[stable homotopy category]].
+
+## Definition
+
+A _[[spectrum]]_ $X$ in the following means a [[sequential spectrum|sequential]] [[pre-spectrum]] in [[simplicial sets]], hence an $\mathbb{N}$-[[graded object|garded]] [[pointed object|pointed]] [[simplicial set]] $X_\bulllet$ equipped with morphisms $S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$. A [[homomorphism]] $f\colo X \to Y$ of spectra is a collection $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of simplicial sets, such that its makes all the evident square diagrams with the structure maps commute.
+
+Write $SeqPreSpec(sSet)$ for this category of spectra.
+
+An _[[Omega-spectrum]]_ in the following is a spectrum $X$ such that after [[geometric realization]]/[[Kan fibrant replacement]] the [[adjunct]] structure maps ${\vert X_n \vert} \to {\vert \Omega X_{n-1}\vert }$ are [[weak homotopy equivalences]].
+
+Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ of spectra is
+
+* a _stable weak equivalence_ if it is a stable [[weak homotopy equivalence]], hence if it induces an [[isomorphism]] of [[stable homotopy groups]] $\pi_\bullet(f) \colon \pi_\bullet(X)\stackrel{\simeq}{\to}\pi_\bullet(Y)$.
+
+* a _stable cofibration_ if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$ are cofibrations of simplicial sets in the standard [[model structure on simplicial sets]] (i.e.: [[monomorphisms]] of simplicial sets).
+
+This gives a [[model category]] structure on $Spectra$ ([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78)).
+
+Write $SeqPreSpec(sSet)_{BF}$ for this model category.
+
+A spectrum $X$ is a fibrant object in this model structure precisely if it is an [[Omega-spectrum]] and each $E_n$ is a [[Kan complex]]; and it is cofibrant precisely if all the structure maps $S^1 \wedge X_n \to X_{n+1}$ are cofibrations of simplicial sets, i.e. monomorphisms ([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78))
+
+The [[homotopy category]] of this model structure is the standard [[stable model category]]:
+
+$$
+  Ho(SeqPreSpec(sSet)_{BF}) \simeq Ho(Spectra)
+  \,.
+$$
+
+## Properties
+
+### Relation to excisive functors
+
+There is a [[Quillen equivalence]] to the [[model structure for excisive functors]] ([Lydakis 98, theorem 11.3](#Lydakis98)).
+
+## References
+
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of 
