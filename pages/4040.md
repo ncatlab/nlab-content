@@ -55,7 +55,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[nice topological space]]
 
-* [[metric space]]
+* [[metric space]], [[metric topology]], [[metrisable space]]
 
 * [[Kolmogorov space]], [[Hausdorff space]], [[regular space]], [[normal space]] 
 
