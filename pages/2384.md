@@ -11,6 +11,7 @@ Now, biological structures are often of the complex hierarchical structure that 
 #n-Categories and the Mind
 According to [[Mikhail Gromov]], the mathematical structures nearest to what is happening in the mind are [[n-categories]].
 see 24:42-end of
+
 * [Ergologic and Interfaces Between Languages](https://www.youtube.com/watch?v=jRSqGYJQQM8)
 
 ## Other references
