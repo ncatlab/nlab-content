@@ -81,7 +81,7 @@ $$
   \array{
      \Delta[0] && && \Delta[0] && && \Delta[0] &&& \cdots
       \\
-      & {}_{\mathllap{d_1}}\searrow && {}^{\mathllap{d_0}}\swarrow && \searrow^{\mathrlap{d_0}} && {}_{d_1}\swarrow && \cdots
+      & {}_{\mathllap{d_1}}\searrow && {}^{\mathllap{d_0}}\swarrow && \searrow^{\mathrlap{d_1}} && {}_{d_0}\swarrow && \cdots
       \\
       && \Delta[1] &&&& \Delta[1] && \cdots 
   }
