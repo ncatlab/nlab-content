@@ -88,7 +88,7 @@ This is due to ([Kostant](#Kostant)). It appears also ([Brylinski, prop. 2.4.5](
 ### Covering an affine symplectic group
  {#CoveringAnAffineSymplecticGroup}
 
-Given a [[symplectic vector space]] $(V,\omega)$ one may consider the restriction of its [[quantomorphism group]] to the [[symplectic group]] (or more generally the [[affine symplectic group]] $ASp(V,\omega)$).
+Given a [[symplectic vector space]] $(V,\omega)$ one may consider the restriction of its [[quantomorphism group]] to the [[affine symplectic group]] $ASp(V,\omega)$ ([Robbin-Salamon 93, corollary 9.3](#RobbinSalamon93))
 
 $$
   \array{
@@ -102,7 +102,7 @@ $$
   }
 $$
 
-Sometimes (e.g. [Robbin-Salamon 93](#RobbinSalamon93)) this $ESp(V,\omega)$ is called the _extended symplectic group_, but maybe to be more specific one should at the very least say "[[extended affine symplectic group]]" or "extended inhomogeneous symplectic group" ([ARZ 06, prop. V.1](#ARZ06)). 
+Sometimes (e.g. [Robbin-Salamon 93, p. 30](#RobbinSalamon93)) this $ESp(V,\omega)$ is called the _extended symplectic group_, but maybe to be more specific one should at the very least say "[[extended affine symplectic group]]" or "extended inhomogeneous symplectic group" ([ARZ 06, prop. V.1](#ARZ06)). 
 
 Notice that the further restriction to $V$ regarded as the [[translation group]] over itself is the [[Heisenberg group]] $Heis(V,\omega)$
 
