@@ -163,6 +163,20 @@ Conversely, given $\pi:A'\to k$, the fiber $\pi^{-1}(1)$ naturally acquires a "v
 Note that this definition embeds the category $Aff$ of (inhabited) affine spaces fully-faithfully in the [[slice category]] $Vect/k$.  The objects of $Vect/k$ not in $Aff$ are those of the form $0:V\to k$, which form a category equivalent to $Vect$ itself.  Moreover, there are no morphisms from objects of $Aff$ to objects not in $Aff$; while by the above construction, a morphism from $0:V\to k$ to an affine space $\pi:A'\to k$ is just a map from $V$ to the vector space of displacements of $A$.  Hence, $Vect/k$ is equivalent to the (dual) [[cograph of a functor|cograph]] of $D:Aff\to Vect$.
 
 
+### Closed monoidal structure 
+
+Like $Th_{Vect}$, the theory $Th_{Aff}$ is a [[commutative theory]]. It follows that if $A, B$ are affine spaces, then the set $\hom(A, B)$ is closed under all affine space operations pointwise defined on the set of all functions from $A$ to $B$. This gives $Aff$ a [[closed category]] structure; on general grounds, it is in fact a [[symmetric monoidal closed category]]. The unit of this structure is the terminal or one-pointed affine space $1$, via the natural isomorphism $\hom(1, B) \cong B$: $Aff$ is a closed [[semicartesian monoidal category]]. 
+
+Analogous to the case of $Vect$, every affine space is a coproduct of copies of the monoidal unit: an affine space $A$ of dimension $n$ admits an affine basis, which amounts to an isomorphism $1 \sqcup 1 \sqcup \ldots \sqcup 1 \cong A$, represented by $n+1$ [sic] points of $A$. Such basis representations allow one to coordinatize spaces of maps $\hom(A, B) \cong B^{n+1}$, which has dimension $(n+1)\dim(B)$. If one uses the first of the affine basis elements to give a pointing of the affine space (equivalent to a vector space structure), then the remaining affine basis elements give a vector space basis, and in those coordinates every element $f \in \hom(A, B)$ may be written in matrix-vector form $f(x) = M x + b$, where again the space of such $(M, b)$ has dimension $m n + m$ if $m$ is the dimension of $B$. (There are of course coordinate descriptions which are not biased in favor of the first basis element playing the role of the origin.) 
+
+Similarly, we can coordinatize affine tensor products $A \otimes B$: the tensor distributes over coproducts (as it does in any symmetric monoidal closed category) and so we have 
+
+$$(\bigsqcup_{n+1} 1) \otimes (\bigsqcup_{m+1} 1) \cong \bigsqcup_{(m+1)(n+1)} 1 \otimes 1 \cong \bigsqcup_{(m+1)(n+1)} 1$$ 
+
+which has dimension $m n + m + n$. In other words, if $a_1, \ldots, a_{n+1}$ is an affine basis of $n$-dimensional $A$ and $b_1, \ldots, b_{m+1}$ a basis of $m$-dimensional $B$, then $A \otimes B$ has an affine basis consisting of the $m n + m + n + 1$ many elements $a_i \otimes b_j$. 
+
+The embedding $Aff \to Vect/k$ described in the previous subsection, sending $A$ to $1 \sqcup A \to 1 \sqcup 1$, is a [[strong monoidal functor]] (preserves the tensor product up to coherent isomorphism) if $Vect/k$ is endowed with the obvious tensor product acquired from $Vect$. Note that $Vect/k$ is the coreflection of $Vect$ from monoidal categories to [[semicartesian monoidal categories]]; the embedding $Aff \to Vect/k$ was in fact discovered by one of us in conjunction with this fact, and is the same as the functor induced by universality from the strong monoidal functor $Aff \to Vect$ given by $A \mapsto 1 \sqcup A$. 
+
 ## Further Remarks
 
 Every finitely-generated affine space is isomorphic to the $n$-fold [[direct sum]] $k^n$, where $k$ is the [[base field]] and $n$ is a [[natural number]] (possibly $0$).  In [[algebraic geometry]], an $n$-dimensional affine space is often denoted $\mathbb{A}^n$ and identified with $k^n$.  If one accepts the empty set as an affine space, then this is considered to have dimension $-1$ by convention (so $k^{-1} = \empty$).
