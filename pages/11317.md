@@ -23,9 +23,11 @@ The _Penrose-Hawking singularity theorems_ characterize [[spacetimes]] in the th
 
 [Hellman](#Hellman) suggest this theorem as an example of non[[computable physics]]. See [Frank](#Frank) for a response.
 
-A related problem is that of the [maximal Cauchy development for the Einstein equations](#Sbierski). In this case, at least Zorn's lemma can be avoided.
+A related problem is that of the [maximal Cauchy development for the Einstein equations](#Sbierski). In this case, at least [[Zorn's lemma]] can be avoided.
 
 ## Related concepts
+
+* [[conformal compactification]]
 
 * [[cosmic censorship hypothesis]]
 
