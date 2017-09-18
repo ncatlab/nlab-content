@@ -1,0 +1,13 @@
+
+
+* [webpage](http://www1.math.yorku.ca/new/node/55)
+
+## writings
+
+* {#Kochmann96} [[Stanley Kochmann]], _Bordism, Stable Homotopy and Adams Spectral Sequences_, AMS 1996
+
+on [[cobordism theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]
+
+category: people
+
+[[!redirects Stan Kochmann]]
