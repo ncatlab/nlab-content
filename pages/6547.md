@@ -109,6 +109,11 @@ Discussion in terms of [[Riemannian geometry]] modeled on [[normed division alge
 
 * {#Leung02} [[Naichung Conan Leung]], _Riemannian Geometry Over Different Normed Division Algebras_, J. Differential Geom. Volume 61, Number 2 (2002), 289-333. ([publisher page](http://projecteuclid.org/euclid.jdg/1090351387))
 
+See also
+
+* {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics, volume 1, (1965) pp. 145 - 190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
+
+
 
 
 [[!redirects manifold with special holonomy]]
