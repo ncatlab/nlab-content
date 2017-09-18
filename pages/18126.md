@@ -1718,7 +1718,7 @@ Often it is useful to reformulate def. \ref{ClosedSubset} of [[closed subsets]] 
 
 +-- {: .num_lemma #UnionOfOpensGivesClosure}
 ###### Lemma
-**(alternative characterization of topological closures)**
+**(alternative characterization of [[topological closure]])**
 
 Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] of its underlying
 set. Then a point $x \in X$ is contained in the [[topological closure]] $Cl(S)$ (def. \ref{ClosedSubset})
@@ -3860,6 +3860,145 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+First consider more generally the stereographic projection
+
+$$
+  \sigma
+    \;\colon\;
+  \mathbb{R}^{n+1} \backslash (1,0,\cdots, 0)
+    \longrightarrow
+  \mathbb{R}^n
+   =
+  \{x \in \mathbb{R}^{n.1} \,\vert\, x_1 = 0 \}
+$$
+
+of the entire ambient space minus the point $p$ onto the equatorial plane, still given by mapping a point $x$ to the unique point $y$ on the equatorial hyperplane such that the points $p$, $x$ any $y$ sit on the same straight line.
+
+This condition means that there exists $d \in \mathbb{R}$ such that
+
+$$
+  p +  d(x-p) = y
+  \,.
+$$
+
+Since the only condition on $y$ is that $y_1 = 0$ this implies that
+
+$$
+  p_1 + d(x_1-p_1) = 0
+  \,.
+$$
+
+This equation has a unique solution for $d$ given by
+
+$$
+  d = \frac{1}{1 - x_1}
+$$
+
+and hence it follow that
+
+$$
+  \sigma(x_1, x_2, \cdots, x_{n+1})
+    =
+  \frac{1}{1-x_1}(0,x_2, \cdots, x_n)
+  \,
+$$
+
+Since [[rational functions are continuous]] (example \ref{PolynoialsAreContinuous}), this function $\sigma$ is continuous and since the topology on $S^n\backslash p$ is the [[subspace topology]] under the canonical embedding $S^n \backslash p \subset \mathbb{R}^{n+1} \backslash p$ it follows that the restriction
+
+$$
+  \sigma\vert_{S^n \backslash p}
+    \;\colon\;
+  S^n\backslash p
+    \longrightarrow
+  \mathbb{R}^n
+$$
+
+is itself a [[continuous function]] (because its pre-images are the restrictions of the pre-images of $\sigma$ to $S^n\backslash p$).
+
+To see that $\sigma \vert_{S^n \backslash p}$ is a [[bijection]] of the underlying sets we need to show that for every
+
+$$
+  (0, y_2, \cdots, y_{n+1})
+$$
+
+there is a unique $(x_1, \cdots , x_{n+1})$ satisfying
+
+1. $(x_1, \cdots, x_{n+1}) \in S^{n} \backslash \{p\}$, hence
+
+   1. $x_1 \lt 1$;
+
+   1. $\underoverset{i = 1}{n+1}{\sum} (x_i)^2 = 1$;
+
+1. $\underset{i \in \{2, \cdots, n+1\}}{\forall} \left(y_i = \frac{x_i}{1-x_1} \right)$.
+
+The last condition uniquely fixes the $x_{i \geq 2}$ in terms of the given $y_{i \geq 2}$ and the remaining $x_1$, as
+
+$$
+  x_{i \geq 2} = y_i \cdot (1-x_1)
+  \,.
+$$
+
+With this, the second condition says that
+
+
+$$
+  (x_1)^2 + (1-x_1)^2 \underset{r^2}{\underbrace{\underoverset{i = 2}{n+1}{\sum}(y_i)^2}} = 1
+$$
+
+hence equivalently that
+
+$$
+  (r^2 + 1) (x_1)^2 - (2 r^2) x_1 + (r^2 - 1) = 0
+  \,.
+$$
+
+By the [[quadratic formula]] the solutions of this equation are
+
+$$
+  \begin{aligned}
+    x_1
+      & =
+    \frac
+      { 2 r^2 \pm \sqrt{ 4 r^4 - 4 (r^4 - 1)  } }
+      { 2 (r^2 + 1) }
+    \\
+    & =
+    \frac
+      { 2 r^2 \pm 2  }
+      { 2 r^2 + 2 }
+  \end{aligned}
+  \,.
+$$
+
+The solution $\frac{ 2 r^2 + 2  }{ 2 r^2 + 2 } = 1$ violates the first condition above, while the solution $\frac{ 2 r^2 - 2  }{ 2 r^2 + 2 } \lt 1$ satisfies it.
+
+Therefore we have a unique solution, given by
+
+$$
+  \left(
+    \sigma\vert_{S^n \backslash \{p\}}
+  \right)^{-1}(0,y_2, \cdots, y_{n+1})
+  \;=\;
+  \left(
+    \frac{2 r^2 - 2}{2 r^2 +2}
+    ,
+    \left( 1- \frac{2 r^2 - 2}{2 r^2 +2} \right) y_2
+    ,
+    \cdots
+    ,
+    \left( 1- \frac{2 r^2 - 2}{2 r^2 +2} \right) y_{n+1}
+  \right)
+$$
+
+In particular therefore also an [[inverse function]] to the stereographic projection exists
+and is a [[rational function]], hence continuous by example \ref{PolynoialsAreContinuous}. So we have exhibited a homeomorphism as required.
+
+
+=--
+
 
 
 $\,$
@@ -3895,7 +4034,10 @@ But there are: these are called the _[[Peano curves]]_.
 
 $\,$
 
-If a space is homeomorphic to a disjoint union space, then it is disconnected:
+**Connectedness**
+
+Via [[homeomorphism]] to [[disjoint union spaces]] one may characterize whether topological spaces are
+connected:
 
 +-- {: .num_defn #ConnectedTopologicalSpace}
 ###### Definition
@@ -3957,9 +4099,9 @@ If a subset $CO \subset X$ is both closed and open, this means equivalently that
 
 =--
 
-+-- {: .num_defn #LocallyConnected}
++-- {: .num_defn #ComponentsConnected}
 ###### Definition
-**([[connected components]] and [[locally connected topological spaces]])**
+**([[connected components]])**
 
 For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
 are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
@@ -3980,13 +4122,27 @@ $$
   \,.
 $$
 
-The space $(X,\tau)$ is called _[[locally connected topological space|locally connected]]_
-if every open subspace is the [[disjoint union space]] (def. \ref{DisjointUnionOfTopologicalSpaces}) of its [[connected components]].
+=--
+
+
++-- {: .num_example #LocallyConnected}
+###### Definition
+**([[locally connected topological spaces]])**
+
+A [[topological space]]  $(X,\tau)$ is called _[[locally connected topological space|locally connected]]_
+if the following equivalent conditions hold:
+
+1. every open [[subspace]] (example \ref{SubspaceTopology}) is the [[disjoint union space]] (def. \ref{DisjointUnionOfTopologicalSpaces}) of its [[connected components]] (def. \ref{ComponentsConnected}).
+
+1. for every point $x$ and every [[neighbourhood]] $U_x \supset \{x\}$ there is a [[connected topological space|connected]]
+   open neighbourhood $Cn_x \subset U_x$.
 
 =--
 
 
 $\,$
+
+**Embeddings of topological spaces**
 
 Often it is important to know whether a given space is homeomorphism to its _image_, under some continuous function,
 in some other space:
@@ -4335,6 +4491,9 @@ are disjoint open neighbourhoods.
 
 Let $(X,\tau)$ be a [[topological space]] satisfying the $T_n$ [[separation axiom]] for some $n \in \{0,1,2\}$ according to
 def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] $S \subset X$ (example \ref{SubspaceTopology}) satisfies $T_n$.
+
+(Beware that this fails for some higher $n$ discussed below in def. \ref{NormalSpace}.
+Open subspaces of normal spaces need not be normal.)
 
 =--
 
@@ -8269,7 +8428,7 @@ A [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
 
 +-- {: .num_remark #CompactTerminology}
 ###### Remark
-**(terminology issue regarding "compact")**
+**(varying terminology regarding "compact")**
 
 Beware the following terminology issue which persists in the literature:
 
@@ -9807,16 +9966,19 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #LocallyCompactVarying}
 ###### Remark
-**(terminology issue regarding "locally compact")**
+**(varying terminology regarding "locally compact")**
 
 On top of the terminology issue inherited from that of "compact", remark \ref{CompactTerminology}
 (regarding whether or not to require "[[Hausdorff topological space|Hausdorff]]" with "compact"; we do not),
 the definition of "locally compact" is subject to further ambiguity in the literature.
-There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace}.
+There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace},
+we consider one such alternative definition below in def. \ref{LocalCompactnessViaCompactNeighbourhoodBase}.
+
 For [[Hausdorff topological spaces]] all these definitions
-happen to be equivalent, but in general they are not.
+happen to be equivalent (prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree} below), but in general they are not.
+
 The version we state in def. \ref{LocallyCompactSpace} is the one that gives various results
 (such as the [[universal property]] of the mapping space, prop. \ref{UniversalPropertyOfMappingSpace} below)
 _without_ requiring the Hausdorff property.
@@ -9959,13 +10121,13 @@ with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\math
 =--
 
 In the discussion of [[locally Euclidean spaces]] (def. \ref{LocallyEuclideanSpace} below), as well as in other contexts,
-a definition of local compactness that is slightly weaker
-than def. \ref{LocallyCompactSpace} is useful:
+a definition of local compactness that in the absence of Hausdorffness is slightly weaker
+than def. \ref{LocallyCompactSpace} (recall remark \ref{LocallyCompactVarying}) is useful:
 
 
 +-- {: .num_defn #LocalCompactnessViaCompactNeighbourhoodBase}
 ###### Definition
-**(local compactness via compact neighbourhood base)**
+**([[locally compact topological space|local compactness]] via compact [[neighbourhood base]])**
 
 A [[topological space]] is _[[locally compact topological space|locally compact]]_ if for
 for every point $x \in X$ every [[open neighbourhood]] $U_x \supset \{x\}$ contains a [[compact topological space|compact]] [[neighbourhood]] $K_x \subset U_x$.
@@ -10766,7 +10928,153 @@ A [[topological space]] $(X,\tau)$ is called _[[paracompact topological space|pa
 
 =--
 
-Here are some basic classes of examples of paracompact spaces:
++-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
+###### Proposition
+**([[paracompact Hausdorff spaces are normal]])**
+
+Every [[paracompact Hausdorff space]]
+(def. \ref{ParacompactSpace}, def. \ref{HausdorffTopologicalSpace}) is [[normal Hausdorff space|normal]] (def. \ref{NormalSpace}).
+
+In particular [[compact Hausdorff spaces are normal]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $(X,\tau)$ be a paracompact Hausdorff space
+
+We first show that it is [[regular topological space|regular]]: To that end,
+let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
+
+First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
+
+$$
+  \{U_c \subset X\}_{c \in C} \,\cup\, X \setminus C
+$$
+
+is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement, and by
+lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet} we may assume its elements to share the original index
+set and be contained in the original elements of the same index. Hence
+
+$$
+  \{V_c \subset U_c \subset  X\}_{c \in C}
+$$
+
+is a locally finite collection of subsets, such that
+
+$$
+  U_C \coloneqq \underset{c \in C}{\cup} V_c
+$$
+
+is an open neighbourhood of $C$.
+
+
+Now by definition of local finiteness there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset C$ such that
+
+$$
+  \underset{c \in C \setminus K}{\forall}( W_x \cap V_c = \emptyset )
+  \,.
+$$
+
+Consider then
+
+$$
+  U_x
+   \;\coloneqq\;
+  W_x
+    \cap
+  \left(
+    \underset{k \in K}{\cap}
+     \left(
+       U_{x,k}
+     \right)
+  \right)
+  \,.
+$$
+
+which is an open neighbourhood of $x$, by the finiteness of $K$.
+
+It thus only remains to see that
+
+$$
+  U_x \cap U_C = \emptyset
+  \,.
+$$
+
+But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ for $k \in K$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
+
+This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
+
+Let $C,D \subset X$ be two disjoint closed subsets. By need to produce disjoint open neighbourhoods for these.
+
+By the previous statement of regularity, we may find for each $c \in C$ disjoint open neighbourhoods $U_c \subset \{c\}$ and $U_{D,c} \supset D$. Hence the union
+
+$$
+  \left\{
+    U_c \subset X
+  \right\}_{c \in C}
+  \cup
+  X \setminus C
+$$
+
+is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}, assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
+
+$$
+  \{ V_c \subset U_c \subset X \}_{c \in C}
+$$
+
+such that
+
+$$
+  U_{C}
+   \coloneqq
+  \underset{c \in C}{\cup} V_c
+$$
+
+is an open neighbourhood of $C$.
+
+It is now sufficient to see that every point $d \in D$ has an open neighbourhood $U_d$ not intersecting $U_C$, for then
+
+$$
+  U_D \coloneqq \underset{d \in D}{\cup} U_d
+$$
+
+is the required open neighbourhood of $D$ not intersecting $U_C$.
+
+Now by local finiteness of $\{V_c \subset X\}_{c \in X}$, every $d \in D$ has an open neighbourhood $W_d$ such that there is a finite set $K_d \subset C$ so that
+
+$$
+  \underset{c \in C \setminus K_d}{\forall}
+  \left(
+     V_c \cap W_d = \emptyset
+  \right)
+  \,.
+$$
+
+Accordingly the intersection
+
+$$
+  U_d
+    \coloneqq
+  W_d
+   \cap
+  \left(
+    \underset{c \in K_d \subset C}{\cap} U_{D,c}
+  \right)
+$$
+
+is still open and disjoint from the remaining $V_k$, hence disjoint from all of $U_C$.
+
+=--
+
+
+
+$\,$
+
+### Examples
+
+First, here are some basic classes of examples of paracompact spaces:
 
 +-- {: .num_example #CompactSpaceIsParacompact}
 ###### Example
@@ -10811,164 +11119,16 @@ of $\mathcal{U}$.
 
 =--
 
-We consider now three important classes of examples of paracompact spaces whose proof of
+Below we consider three important classes of examples of paracompact spaces whose proof of
 paracompactness is non-trivial:
-
-* [[CW-complexes]] (example \ref{ParacompactHausdorffCWComplexes});
 
 * [[locally compact topological space|locally compact]] [[topological groups]] (prop. \ref{ParacompactLocallyCompactTopologicalGroups});
 
+* [[CW-complexes]] (example \ref{ParacompactHausdorffCWComplexes});
+
 * [[metric spaces]] (prop. \ref{ParacompactMetricSpace}).
 
-
-
-+-- {: .num_example #ParacompactHausdorffCWComplexes}
-###### Example
-**(CW-complexes are paracompact Hausdorff spaces)**
-
-Let $X$ be a [[paracompact Hausdorff space]], let $n \in \mathbb{N}$ and let
-
-$$
-  f \;\colon\; S^{n-1} \longrightarrow X
-$$
-
-be a [[continuous function]] from the $(n-1)$-[[sphere]] (with its [[subspace topology]] inherited from [[Euclidean space]],
-example \ref{SpheresAndDisks}). Then also the [[attachment space]] (example \ref{PushoutInTop}) $X \cup_f D^n$,
-i.e. the [[pushout]]
-
-$$
-  \array{
-    S^{n-1} &\overset{\phantom{A}f \phantom{A}}{\longrightarrow}& X
-    \\
-    \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
-    \\
-    D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
-  }
-$$
-
-is paracompact Hausdorff.
-
-This immediately implies that all [[finite CW-complexes]] (def. \ref{RelativeCellComplexes}) relative to a [[paracompact Hausdorff space]]
-are themselves paracompact Hausdorff. In fact this is true generally: all CW-complexes are paracompact Hausdorff spaces.
-
-
-=--
-
-Another source of paracompact spaces are [[topological groups]] (def. \ref{TopologicalGroup}),
-by prop. \ref{ParacompactLocallyCompactTopologicalGroups} below:
-
-+-- {: .num_defn #TopologicalGroup}
-###### Definition
-**([[topological group]])**
-
-A [[topological group]] is a [[group]] $G$ equipped with a [[topological space|topology]] $\tau_G \subset P(G)$ (def. \ref{TopologicalSpace})
-such that the group operation $ (-)\cdot (-)\;\colon\;G \times G \to G$ and the assignment of [[inverse elements]] $(-)^{-1} : G \to G$
-are [[continuous functions]].
-
-=--
-
-+-- {: .num_example }
-###### Example
-**([[Euclidean space]] as a [[topological groups]])**
-
-For $n \in \mathbb{N}$ then the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]
-and
-equipped with the addition operation from its canonical [[vector space]] structure
-is a [[topological group]] (def. \ref{TopologicalGroup}) $(\mathbb{R}^n, +)$.
-
-=--
-
-+-- {: .num_example #GLn}
-###### Example
-**([[general linear group]])**
-
-For $n \in \mathbb{N}$ the _[[general linear group]]_ $GL(n, \mathbb{R})$ is the [[group]] of [[real number|real]] $n \times n$ [[matrices]] whose [[determinant]] is non-vanishing
-
-   $$
-     GL(n)
-     \;\coloneqq\;
-     \left(
-       A \in Mat_{n \times n}(\mathbb{R})
-       \; \vert \;
-       det(A) \neq 0
-     \right)
-   $$
-
-   with group operation given by [[matrix multiplication]].
-
-   This becomes a [[topological group]] (def. \ref{TopologicalGroup})
-   by taking the [[topological space|topology]] on $GL_(n,\mathbb{R})$ to be the
-   [[subspace topology]] (def. \ref{SubspaceTopology}) as a subspace of the [[Euclidean space]] (example \ref{EuclideanNorm}) of [[matrices]]
-
-   $$
-     GL(n,\mathbb{R})\subset  Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
-   $$
-
-   with its [[metric topology]] (example \ref{MetricTopology}).
-
-   Since [[matrix multiplication]] is a
-   [[polynomial function]] and since [[inverse matrix|matrix inversion]] is a [[rational function]],
-   and since [[polynomials are continuous]] and more generally [[rational functions are continuous]] on their [[domain]] of definition
-   (example \ref{PolynoialsAreContinuous}) and since the domain of definition for matrix inversion is precisely
-   $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$, the group operations on $GL(n,\mathbb{R})$ are indeed
-   [[continuous functions]].
-
-
-=--
-
-+-- {: .num_prop #ParacompactLocallyCompactTopologicalGroups}
-###### Proposition
-**([[locally compact topological space|locally compact]] [[topological groups]] are [[paracompact topological space|paracompact]])
-
-A [[topological group]] (def. \ref{TopologicalGroup}) which is  [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}) is [[paracompact topological space|paracompact]] (def. \ref{ParacompactSpace}).
-
-=--
-
-We give the **proof** later, using prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below.
-
-+-- {: .num_example}
-###### Example
-**([[general linear group]] is [[paracompact Hausdorff topological space|paracompact Hausdorff]])**
-
-The [[topological group|topological]] [[general linear group]] $GL(n,\mathbb{R})$ (def. \ref{GLn}) is
-
-1. not [[compact topological space|compact]];
-
-1. [[locally compact topological space|locally compact]];
-
-1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Observe that
-
-$$
-  GL_n(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
-$$
-
-is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function (which is a [[polynomial]] and hence continuous, example \ref{PolynoialsAreContinuous}) of the of the open subspace $\mathbb{R} \setminus \{0\} \subset \mathbb{R}$:
-
-$$
-  GL(n,\mathbb{R}) = det^{-1}( \mathbb{R} \setminus \{0\} )
-  \,.
-$$
-
-As an open subspace of Euclidean space, $GL(n,\mathbb{R})$ is not compact, by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}).
-
-As Euclidean space is Hausdorff (example \ref{HausdorffMetricSpace}), and since every [[topological subspace]] of a Hausdorff space is again Hausdorff, so $Gl(n,\mathbb{R})$ is Hausdorff.
-
-Similarly, as Euclidean space is [[locally compact topological space|locally compact]] (example \ref{MetricSpacesAreLocallyCompact}) and since
-an open subspace of a locally compact space is again locally compact, it follows that $GL(n,\mathbb{R})$ is locally compact.
-
-From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compact topological groups are paracompact
-by prop. \ref{ParacompactLocallyCompactTopologicalGroups}.
-
-
-=--
-
+Before discussing these, we establish some recognition principles for paracompactness:
 
 
 $\,$
@@ -11240,13 +11400,305 @@ A [[metric space]] (def. \ref{MetricSpace}) regarded as a [[topological space]] 
 =--
 
 
++-- {: .num_example #ParacompactHausdorffCWComplexes}
+###### Example
+**([[CW-complexes are paracompact Hausdorff spaces]])**
+
+Let $X$ be a [[paracompact Hausdorff space]], let $n \in \mathbb{N}$ and let
+
+$$
+  f \;\colon\; S^{n-1} \longrightarrow X
+$$
+
+be a [[continuous function]] from the $(n-1)$-[[sphere]] (with its [[subspace topology]] inherited from [[Euclidean space]],
+example \ref{SpheresAndDisks}). Then also the [[attachment space]] (example \ref{PushoutInTop}) $X \cup_f D^n$,
+i.e. the [[pushout]]
+
+$$
+  \array{
+    S^{n-1} &\overset{\phantom{A}f \phantom{A}}{\longrightarrow}& X
+    \\
+    \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
+    \\
+    D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
+  }
+$$
+
+is paracompact Hausdorff.
+
+This immediately implies that all [[finite CW-complexes]] (def. \ref{RelativeCellComplexes}) relative to a [[paracompact Hausdorff space]]
+are themselves paracompact Hausdorff. In fact this is true generally: all CW-complexes are paracompact Hausdorff spaces.
+
+
+=--
+
+Another source of paracompact spaces are [[topological groups]] (def. \ref{TopologicalGroup}),
+by prop. \ref{ParacompactLocallyCompactTopologicalGroups} below:
+
++-- {: .num_defn #TopologicalGroup}
+###### Definition
+**([[topological group]])**
+
+A [[topological group]] is a [[group]] $G$ equipped with a [[topological space|topology]] $\tau_G \subset P(G)$ (def. \ref{TopologicalSpace})
+such that the group operation $ (-)\cdot (-)\;\colon\;G \times G \to G$ and the assignment of [[inverse elements]] $(-)^{-1} : G \to G$
+are [[continuous functions]].
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[Euclidean space]] as a [[topological groups]])**
+
+For $n \in \mathbb{N}$ then the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]
+and
+equipped with the addition operation from its canonical [[vector space]] structure
+is a [[topological group]] (def. \ref{TopologicalGroup}) $(\mathbb{R}^n, +)$.
+
+=--
+
+The following prop. \ref{ParacompactLocallyCompactTopologicalGroups} is a useful recognition principle for paracompact topological groups:
+
++-- {: .num_lemma #OpenSubgroupOfTopologicalGroupIsClosed}
+###### Lemma
+**(open subgroups of topological groups are closed)**
+
+Every [[open subset|open]] [[subgroup]] $H \subset G$ of a [[topological group]] (def. \ref{TopologicalGroup}) is [[closed subset|closed]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The set of $H$-[[cosets]] is a [[cover]] of $G$ by [[disjoint subsets|disjoint]] [[open subsets]]. 
+One of these cosets is $H$ itself and hence it is the complement of the union of the other cosets, hence the complement of an open subspace, hence closed.
+
+=--
+
++-- {: .num_prop #ParacompactLocallyCompactTopologicalGroups}
+###### Proposition
+**([[locally compact topological space|locally compact]] [[topological groups]] are [[paracompact topological space|paracompact]])
+
+A [[topological group]] (def. \ref{TopologicalGroup}) which is  [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}) is [[paracompact topological space|paracompact]] (def. \ref{ParacompactSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By assumption of local compactness, there exists a [[compact topological space|compact]] [[neighbourhood]] $C_e \subset G$ of the [[neutral element]]. We may assume without restriction of generality that with $g \in C_e$ any element, then also the [[inverse element]] $g^{-1} \in C_e$.
+
+For if this is not the case, then we may enlarge $C_e$ by including its inverse elements, and the result is still a compact neighbourhood of the neutral element: Since taking [[inverse elements]] $(-)^{-1} \colon G \to G$ is a [[continuous function]], and since [[continuous images of compact spaces are compact]], it follows that also the set of inverse elements to elements in $C_e$ is compact, and the union of two compact subspaces is still compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}).
+
+Now for $n \in \mathbb{N}$, write $C_e^n  \subset G$ for the [[image]] of $\underset{k \in \{1, \cdots n\}}{\prod} C_e \subset \underset{k \in \{1, \cdots, n\}}{\prod} G$ under the iterated group product operation $\underset{k \in \{1, \cdots, n\}}{\prod} G \longrightarrow G$.
+
+Then
+
+$$
+  H \coloneqq \underset{n \in \mathbb{N}}{\cup} C_e^n
+    \;\subset\;
+  G
+$$
+
+is clearly a topological subgroup of $G$.
+
+Observe that each $C_e^n$ is compact. This is because $\underset{k \in \{1, \cdots, n\}}{\prod}C_e$ is 
+compact by the [[Tychonoff theorem]] (prop. \ref{TychonoffTheorem}), and since [[continuous images of compact spaces are compact]]. Thus
+
+$$
+  H = \underset{n \in \mathbb{N}}{\cup} C_e^n
+$$
+
+is a countable union of compact subspaces, making it [[sigma-compact]]. 
+Since [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}), this implies that $H$ is paracompact.
+
+Observe also that the subgroup $H$ is open, because it contains with the [[interior]] of $C_e$ a non-empty open subset $Int(C_e) \subset H$ and we may hence write $H$ as a union of open subsets
+
+$$
+  H = \underset{h \in H}{\cup} Int(C_e) \cdot h
+  \,.
+$$
+
+Finally, as indicated in the proof of Lemma \ref{OpenSubgroupOfTopologicalGroupIsClosed}, the cosets of the open subgroup $H$ are all open and partition $G$ as a [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}) of these open cosets. From this we may draw the following conclusions:
+
+* In the particular case where $G$ is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}), there is just one such coset, namely $H$ itself. The argument above thus shows that a connected locally compact topological group is $\sigma$-compact and (by local compactness) also paracompact.
+
+* In the general case, all the cosets are homeomorphic to $H$ which we have just shown to be a paracompact group. Thus $G$ is a [[disjoint union space]] of paracompact spaces. This is again paracompact by prop. \ref{ParacompactDisjointUnionOfParacompactSpaces}. 
+
+=--
+
+An archtypical example of a locally compact topological group is the general linear group:
+
++-- {: .num_example #GLn}
+###### Example
+**([[general linear group]])**
+
+For $n \in \mathbb{N}$ the _[[general linear group]]_ $GL(n, \mathbb{R})$ is the [[group]] of [[real number|real]] $n \times n$ [[matrices]] whose [[determinant]] is non-vanishing
+
+   $$
+     GL(n)
+     \;\coloneqq\;
+     \left(
+       A \in Mat_{n \times n}(\mathbb{R})
+       \; \vert \;
+       det(A) \neq 0
+     \right)
+   $$
+
+   with group operation given by [[matrix multiplication]].
+
+   This becomes a [[topological group]] (def. \ref{TopologicalGroup})
+   by taking the [[topological space|topology]] on $GL_(n,\mathbb{R})$ to be the
+   [[subspace topology]] (def. \ref{SubspaceTopology}) as a subspace of the [[Euclidean space]] (example \ref{EuclideanNorm}) of [[matrices]]
+
+   $$
+     GL(n,\mathbb{R})\subset  Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
+   $$
+
+   with its [[metric topology]] (example \ref{MetricTopology}).
+
+   Since [[matrix multiplication]] is a
+   [[polynomial function]] and since [[inverse matrix|matrix inversion]] is a [[rational function]],
+   and since [[polynomials are continuous]] and more generally [[rational functions are continuous]] on their [[domain]] of definition
+   (example \ref{PolynoialsAreContinuous}) and since the domain of definition for matrix inversion is precisely
+   $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$, the group operations on $GL(n,\mathbb{R})$ are indeed
+   [[continuous functions]].
+
+=--
+
+There is another [[topological space|topology]] which suggests itself on the general linear group:
+the [[compact-open topology]] (example \ref{CompactOpenTopology}). But in fact this coincides with
+the Euclidean topology:
+
++-- {: .num_example #AsSubspaceOfTheMappingSpace}
+###### Proposition
+**([[general linear grouo]] is [[subspace]] of the [[compact-open topology|mapping space]])
+
+The [[topological space|topology]] induced on the real general linear group when regarded as a [[topological subspace]] of [[Euclidean space]] with its [[metric topology]]
+
+$$
+  GL(n,\mathbb{R})
+    \subset
+  Mat_{n \times n}(\mathbb{R})
+    \simeq
+  \mathbb{R}^{(n^2)}
+$$
+
+(as in def. \ref{GLn})
+coincides with the topology induced by regarding the general linear group as a [[subspace]] of the [[mapping space]] $Maps(k^n, k^n)$,
+
+$$
+  GL(n,\mathbb{R})
+    \subset
+  Maps(k^n, k^n)
+$$
+
+i.e. the set of all [[continuous functions]] $k^n \to k^n$ equipped with the [[compact-open topology]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+On the one had, the [[universal property]] of the [[mapping space]] ([this prop.](Introduction+to+Topology+--+1#UniversalPropertyOfMappingSpace)) gives that the inclusion
+
+$$
+  GL(n, \mathbb{R}) \to Maps(\mathbb{R}^n, \mathbb{R}^n)
+$$
+
+is a [[continuous function]] for $GL(n,\mathbb{R})$ equipped with the [[Euclidean space|Euclidean]] [[metric topology]], because this is the [[adjunct]] of the defining continuous [[action]] map
+
+$$
+  GL(n, \mathbb{R}) \times \mathbb{R}^n \to \mathbb{R}^n
+  \,.
+$$
+
+
+This implies that the [[Euclidean space|Euclidean]] [[metric topology]] on $GL(n,\mathbb{R})$ is equal to or [[finer topology|finer]] than the subspace topology coming from $Map(\mathbb{R}^n, \mathbb{R}^n)$.
+
+We conclude by showing that it is also equal to or [[coarser topology|coarser]], together this then implies the claims.
+
+Since we are speaking about a subspace topology, we may consider the open subsets of the ambient Euclidean space $Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}$. Observe that a [[neighborhood base]] of a linear map or matrix $A$ consists of sets of the form
+
+$$
+  U_A^\epsilon
+  \;\coloneqq\;
+  \left\{B \in Mat_{n \times n}(\mathbb{R}) \,\vert\, \underset{{1 \leq i \leq n}}{\forall}\; |A e_i - B e_i| \lt \epsilon \right\}
+$$
+
+for $\epsilon \in (0,\infty)$.
+
+But this is also a [[base for the topology|base]] element for the [[compact-open topology]], namely
+
+$$
+  U_A^\epsilon
+   \;=\;
+  \bigcap_{i = 1}^n V_i^{K_i}
+  \,,
+$$
+
+where $K_i \coloneqq \{e_i\}$ is a [[singleton]] and $V_i \coloneqq B^\circ_{A e^i}(\epsilon)$ is the [[open ball]] of [[radius]] $\epsilon$ around $A e^i$.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+**([[general linear group]] is [[paracompact Hausdorff topological space|paracompact Hausdorff]])**
+
+The [[topological group|topological]] [[general linear group]] $GL(n,\mathbb{R})$ (def. \ref{GLn}) is
+
+1. not [[compact topological space|compact]];
+
+1. [[locally compact topological space|locally compact]];
+
+1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that
+
+$$
+  GL_n(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
+$$
+
+is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function (which is a [[polynomial]] and hence continuous, example \ref{PolynoialsAreContinuous}) of the of the open subspace $\mathbb{R} \setminus \{0\} \subset \mathbb{R}$:
+
+$$
+  GL(n,\mathbb{R}) = det^{-1}( \mathbb{R} \setminus \{0\} )
+  \,.
+$$
+
+As an open subspace of Euclidean space, $GL(n,\mathbb{R})$ is not compact, by the [[Heine-Borel theorem]] (prop. \ref{BorelHeine}).
+
+As Euclidean space is Hausdorff (example \ref{HausdorffMetricSpace}), and since every [[topological subspace]] of a Hausdorff space is again Hausdorff, so $Gl(n,\mathbb{R})$ is Hausdorff.
+
+Similarly, as Euclidean space is [[locally compact topological space|locally compact]] (example \ref{MetricSpacesAreLocallyCompact}) and since
+an open subspace of a locally compact space is again locally compact, it follows that $GL(n,\mathbb{R})$ is locally compact.
+
+From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compact topological groups are paracompact
+by prop. \ref{ParacompactLocallyCompactTopologicalGroups}.
+
+
+=--
+
+
+
 $\,$
 
-### Properties
+### Partitions of unity
 
-We discuss some important general properties of [[paracompact topological spaces]].
+A key aspect of paracompact Hausdorff spaces is that they are equivalently those spaces that admit
+_partitions of unity_. This is  def. \ref{PartitionOfUnity} and prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity} 
+below. The existence of partitions of unity on topological spaces is what starts to give them
+"[[geometry|geometric]] character". For instance the [[topological vector bundles]] discussed below
+behave as expected in the presence of partitions of unity.
 
-$\,$
+Before we discuss these, we consider some technical preliminaries
+on locally finite covers.
+
 
 +-- {: .num_lemma #LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}
 ###### Lemma
@@ -11304,148 +11756,6 @@ $$
 Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows that $\{W_i \subset X\}_{i \in I}$ is locally finite.
 
 =--
-
-
-+-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
-###### Proposition
-**([[paracompact Hausdorff spaces are normal]])**
-
-Every [[paracompact Hausdorff space]]
-(def. \ref{ParacompactSpace}, def. \ref{HausdorffTopologicalSpace}) is [[normal Hausdorff space|normal]] (def. \ref{NormalSpace}).
-
-In particular [[compact Hausdorff spaces are normal]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $(X,\tau)$ be a paracompact Hausdorff space
-
-We first show that it is [[regular topological space|regular]]: To that end,
-let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
-
-First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
-
-$$
-  \{U_c \subset X\}_{c \in C} \,\cup\, X \setminus C
-$$
-
-is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement, and by
-lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet} we may assume its elements to share the original index
-set and be contained in the original elements of the same index. Hence
-
-$$
-  \{V_c \subset U_c \subset  X\}_{c \in C}
-$$
-
-is a locally finite collection of subsets, such that
-
-$$
-  U_C \coloneqq \underset{c \in C}{\cup} V_c
-$$
-
-is an open neighbourhood of $C$.
-
-
-Now by definition of local finiteness there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset C$ such that
-
-$$
-  \underset{c \in C \setminus K}{\forall}( W_x \cap V_c = \emptyset )
-  \,.
-$$
-
-Consider then
-
-$$
-  U_x
-   \;\coloneqq\;
-  W_x
-    \cap
-  \left(
-    \underset{k \in K}{\cap}
-     \left(
-       U_{x,k}
-     \right)
-  \right)
-  \,.
-$$
-
-which is an open neighbourhood of $x$, by the finiteness of $K$.
-
-It thus only remains to see that
-
-$$
-  U_x \cap U_C = \emptyset
-  \,.
-$$
-
-But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ for $k \in K$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
-
-This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
-
-Let $C,D \subset X$ be two disjoint closed subsets. By need to produce disjoint open neighbourhoods for these.
-
-By the previous statement of regularity, we may find for each $c \in C$ disjoint open neighbourhoods $U_c \subset \{c\}$ and $U_{D,c} \supset D$. Hence the union
-
-$$
-  \left\{
-    U_c \subset X
-  \right\}_{c \in C}
-  \cup
-  X \setminus C
-$$
-
-is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}, assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
-
-$$
-  \{ V_c \subset U_c \subset X \}_{c \in C}
-$$
-
-such that
-
-$$
-  U_{C}
-   \coloneqq
-  \underset{c \in C}{\cup} V_c
-$$
-
-is an open neighbourhood of $C$.
-
-It is now sufficient to see that every point $d \in D$ has an open neighbourhood $U_d$ not intersecting $U_C$, for then
-
-$$
-  U_D \coloneqq \underset{d \in D}{\cup} U_d
-$$
-
-is the required open neighbourhood of $D$ not intersecting $U_C$.
-
-Now by local finiteness of $\{V_c \subset X\}_{c \in X}$, every $d \in D$ has an open neighbourhood $W_d$ such that there is a finite set $K_d \subset C$ so that
-
-$$
-  \underset{c \in C \setminus K_d}{\forall}
-  \left(
-     V_c \cap W_d = \emptyset
-  \right)
-  \,.
-$$
-
-Accordingly the intersection
-
-$$
-  U_d
-    \coloneqq
-  W_d
-   \cap
-  \left(
-    \underset{c \in K_d \subset C}{\cap} U_{D,c}
-  \right)
-$$
-
-is still open and disjoint from the remaining $V_k$, hence disjoint from all of $U_C$.
-
-=--
-
 
 
 
@@ -11678,12 +11988,7 @@ This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by co
 
 $\,$
 
-
-### Partitions of unity
- {#PartitionsOfUnity}
-
-A key aspect of paracompact Hausdorff spaces is that they are equivalently those spaces that admit
-_partitions of unity_.
+After these preliminaries, we finally turn to the partitions of unity:
 
 +-- {: .num_defn #PartitionOfUnity}
 ###### Definition
@@ -11828,8 +12133,1020 @@ is a partition of unity as required.
 =--
 
 
+
+
 $\,$
 
+## Vector bundles
+
++-- {: .num_defn #TopologicalVectorBundle}
+###### Definition
+**(topological vector bundle in components)**
+
+Let $X$ be a [[topological space]]. Then a _topological vector bundle_ over $X$ is
+
+1. a [[topological space]] $E$;
+
+1. a [[continuous function]] $E \overset{\pi}{\to} X$
+
+1. for each $x \in X$ the stucture of a [[real vector space]] on the [[pre-image]]
+
+   $$E_x \coloneqq \pi^{-1}(\{x\}) \subset E$$
+
+such that this is [[local trivialization|locally trivial]] in that there exists
+
+1. an [[open cover]] $\{U_i \subset X\}_{i \in I}$,
+
+1. for each $i \in I$ a [[homeomorphism]]
+
+   $$
+     \phi_i \;\colon\; U_i \times k^n \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
+   $$
+
+   from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that
+
+   1. $\phi_i$ is a map over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times k^n) \subset \pi^{-1}(\{x\})$
+
+   1. $\phi_i$ is a [[linear map]] in each fiber in that
+
+      $$
+        \underset{x \in U_i \cap U_j}{\forall}
+        \left(
+          \phi_i(x) \;\colon\;
+             k^n \overset{\text{linear}}{\longrightarrow}
+            E_x = \pi^{-1}(\{x\})
+        \right)
+        \,.
+      $$
+
+For $[E_1 \overset{\pi_1}{\to} X]$ and $[E_2 \overset{\phi_2}{\to} X]$ two topological vector bundles over the same base space, then a _[[homomorphism]]_
+between them is
+
+* a [[continuous function]] $f \colon E_1 \longrightarrow E_2$
+
+such that
+
+1. $f$ respects the [[projections]]: $\pi_2 \circ f = \pi_1$;
+
+1. for each $x \in X$ we have that $f|_x \colon (E_1)_x \to (E_2)_x$ is a [[linear map]].
+
+=--
+
++-- {: .num_remark #TopologicalVectorBundlesCategory}
+###### Remark
+**([[Vect(X)|category of topological vector bundles]])**
+
+For $X$ a [[topological space]], there is the [[category]] whose
+
+* [[objects]] are the topological vector bundles over $X$,
+
+* [[morphisms]] are the topological vector bundle homomorphisms
+
+according to def. \ref{TopologicalVectorBundle}. This category usually denoted [[Vect(X)]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(some terminology)**
+
+Let $k$ and $n$ be as in def. \ref{TopologicalVectorBundle}. Then:
+
+For $k = \mathbb{R}$ one speaks of _[[real vector bundles]]_.
+
+For $k = \mathbb{C}$ one speaks of _[[complex vector bundles]]_.
+
+For $n = 1$ one speaks of _[[line bundles]]_,
+in particular of _[[real line bundles]]_ and of _[[complex line bundles]]_.
+
+
+=--
+
++-- {: .num_remark #CommonOpenCoverLocalTrivialization}
+###### Remark
+**(any two topologial vector bundles have [[local trivialization]] over a common [[open cover]])**
+
+Let $[E_1 \to X]$ and $[E_2 \to X]$ be two topological vector bundles (def. \ref{TopologicalVectorBundle}).
+Then there always exists an [[open cover]] $\{U_i \subset X\}_{i \in I}$ such that both bundles
+have a [[local trivialization]] over this cover.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition we may find two possibly different
+open covers $\{U^1_{i_1} \subset X\}_{{i_1} \in I_1}$ and $\{U^2_{i_2} \subset X\}_{i_2 \in I_2}$
+with local tivializations
+$\{ U^1_{i_1} \underoverset{\simeq}{\phi^1_{i_1}}{\to} E_1\vert_{U^1_{i_1}} \}_{i_1 \in I_1}$
+and
+$\{ U^2_{i_2} \underoverset{\simeq}{\phi^2_{i_2}}{\to} E_2\vert_{U^2_{i_2}} \}_{i_2 \in I_2}$.
+
+The _joint [[refinement]]_ of these two covers is the open cover
+
+$$
+  \left\{
+    U_{i_1, i_2}
+      \coloneqq
+    U^1_{i_1} \cap U^2_{i_2}
+      \subset
+    X
+  \right\}_{(i_1, i_2) \in I_1 \times I_2}
+  \,.
+$$
+
+The original local trivializations restrict to local trivializations on this finer cover
+
+$$
+  \left\{
+    U_{i_1, i_2}
+      \underoverset{\simeq}{\phi^1_{i_1}\vert_{U^2_{i_2}}}{\longrightarrow}
+    E_1\vert_{U_{i_1, i_2}}
+  \right\}_{(i_1, i_2) \in I_1 \times I_2}
+$$
+
+and
+
+$$
+  \left\{
+    U_{i_1, i_2}
+      \underoverset{\simeq}{\phi^2_{i_2}\vert_{U^1_{i_1}}}{\longrightarrow}
+    E_2\vert_{U_{i_1, i_2}}
+  \right\}_{(i_1, i_2) \in I_1 \times I_2}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #TrivialTopologicalVectorBundle}
+###### Example
+**(trivial topological vector bundle and (local) trivialization)**
+
+For $X$ any [[topological space]], and $n \in \mathbb{N}$,
+we have that the [[product topological space]]
+
+$$
+  X \times k^n \overset{pr_1}{\to} X
+$$
+
+canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). This is called the _[[trivial vector bundle]]_ of [[rank]] $n$ over $X$.
+
+Given any topological vector bundle $E \to X$, then a choice of [[isomorphism]] to a trivial bundle (if it exists)
+
+$$
+  E \overset{\simeq}{\longrightarrow} X \times k^n
+$$
+
+is called a _trivialization_ of $E$.
+
+Accordingly, the [[local trivialization|local triviality]] condition in the definition of topological vector bundles (def. \ref{TopologicalVectorBundle}) says that they are locally isomorphic to the trivial vector bundle. One also says that the data consisting of an open cover $\{U_i \subset X\}_{i \in I}$ and the [[homeomorphisms]]
+
+$$
+  \left\{
+     U_i \times k^n
+       \overset{\simeq}{\to}
+     E|_{U_i}
+  \right\}_{i \in I}
+$$
+
+as in def. \ref{TopologicalVectorBundle} constitute a _[[local trivialization]]_ of $E$.
+
+=--
+
++-- {: .num_example #TopologicalVetorSubbundle}
+###### Example
+**(topological vector sub-bundle)**
+
+Given a topological vector bundel $E \to X$ (def. \ref{TopologicalVectorBundle}), then a _sub-bundle_ is a homomorphism of topological vector bundles over $X$
+
+$$
+  i\;\colon\; E' \hookrightarrow E
+$$
+
+such that for each point $x \in X$ this is a linear embedding of fibers
+
+$$
+  i|_x \;\colon\; E'_x \hookrightarrow E_x
+  \,.
+$$
+
+(This is a [[monomorphism]] in the [[category]] $Vect(X)$ of topological vector bundles over $X$.)
+
+=--
+
+The archetypical example of vector bundles are the [[tautological line bundles]]
+on [[projective spaces]]:
+
++-- {: .num_defn #ToplogicalProjectiveSpace}
+###### Definition
+**(topological projective space)**
+
+Let $n \in \mathbb{C}$. Consider the[[Euclidean space]] $k^{n+1}$ equipped with its [[metric topology]], let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
+
+$$
+  (\vec x_1 \sim \vec x_2)
+   \;\Leftrightarrow\;
+  \left(
+    \underset{c \in k}{\exists}
+    ( \vec x_2 = c \vec x_1 )
+  \right)
+  \,.
+$$
+
+The [[equivalence class]] $[\vec x]$ is traditionally denoted
+
+$$
+  [x_1 : x_2 : \cdots : x_{n+1}]
+  \,.
+$$
+
+
+Then the _[[projective space]]_ $k P^n$ is the corresponding [[quotient topological space]]
+
+$$
+  k P^n \;\coloneqq\; \left(k^{n+1} \setminus \{0\}\right) / \sim
+  \,.
+$$
+
+
+
+=--
+
++-- {: .num_defn #TopologicalProjectiveSpaceStandardOpenCover}
+###### Definition
+**(standard open cover of topological projective space)**
+
+For $n \in \mathbb{N}$ the _standard open cover_ of the projective space $k P^n$ is
+
+$$
+  \left\{
+    U_i \subset k P^n
+  \right\}_{i \in \{1, \cdots, n+1\}}
+$$
+
+with
+
+$$
+  U_i
+    \coloneqq
+  \left\{
+    [x_1 : \cdots x_{n+1}] \in k P^n
+    \;\vert\;
+    \vec x \in k^{n+1}
+    \;\text{with}\;
+    x_i \neq 0
+  \right\}
+  \,.
+$$
+
+These subsets are open in the [[quotient topology]], since their [[pre-image]] under the qutient co-projection $k^{n+1} \to k P^n$ coincides with the pre-image $pr_i^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n\}}{\prod} k$.
+
+=--
+
++-- {: .num_defn #TautologicalTopologicalLineBundle}
+###### Definition
+**(tautological topological line bundle)
+
+For $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is the [[subspace]]
+
+$$
+  T
+   \coloneqq
+  \left\{
+    ( [x_1: \cdots : x_{n+1}], \vec v)
+    \in
+    k P^n \times k^{n+1}
+    \;\vert\;
+    \vec v \in k \vec x
+  \right\}
+$$
+
+(hence the space of pairs consisting of the "name" of a $k$-line in $\mathbb{R}^{n+1}$ together with an element of that $k$-line)
+equipped with the function
+
+$$
+  \array{
+    T &\overset{\pi}{\longrightarrow}& k P^n
+    \\
+    ([x_1: \cdots : x_{n+1}], \vec v) &\mapsto& [x_1: \cdots : x_{n+1}]
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #WellDefinedTautologicalTopologicalLineBundle}
+###### Proposition
+**(tautological topological line bundle is well defined)**
+
+The tautological line bundle in def. \ref{TautologicalTopologicalLineBundle} is well defined in that it indeed admits a [[local trivialization]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We claim that there is a local trivialization over the canonical cover of def. \ref{TopologicalProjectiveSpaceStandardOpenCover}. This is given for $i \in \{1, \cdots, n\}$ by
+
+$$
+  \array{
+    U_i \times k &\overset{}{\longrightarrow}& T\vert_{U_i}
+    \\
+    ( [x_1 : \cdots x_{i-1}: 1 : x_{i+1} : \cdots : x_{n+1}] , c )
+      &\mapsto&
+    ( [x_1 : \cdots x_{i-1} : 1 : x_{i+1} : \cdots : x_{n+1} ], (c x_1, c x_2, \cdots , c x_{n+1}) )
+  }
+  \,.
+$$
+
+This is clearly a [[bijection]] of underlying sets.
+
+To see that this function and its inverse function are continuous, hence that this is a [[homeomorphism]] notice that this map is the [[extension]] to the [[quotient topological space]] of the analogous map
+
+$$
+  \array{
+    ( (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1}) , c)
+     &\mapsto&
+    ( (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1}) , (c x_1, \cdots c x_{i-1}, c, c x_{i+1}, \cdots, c x_{n+1}) )
+  }
+  \,.
+$$
+
+This is a [[polynomial]] function on [[Euclidean space]] and since [[polynomials are continuous]], this is continuous. Similarly the [[inverse function]] lifts to a [[rational function]] on a subspace of Euclidean space, and since [[rational functions are continuous]] on their domain of definition, also this lift is continuous.
+
+Therefore by the [[universal property]] of the [[quotient topology]], also the original functions are continuous.
+
+=--
+
+### Transition function
+
+We discuss how topological vector bundles are equivalently given by [[cocycles]] in [[Cech cohomology]]
+constituted by their [[transition functions]].
+
+
++-- {: .num_defn #TransitionFunctions}
+###### Definition
+**([[transition functions]])
+
+Given a topological vector bundle $E \to X$ as in def. \ref{TopologicalVectorBundle} and a choice of [[local trivialization]]
+$\{\phi_i \colon U_i \times k^n \overset{\simeq}{\to} E|_{U_i}\}$ (example \ref{TrivialTopologicalVectorBundle})
+there are induced [[continuous functions]]
+
+$$
+  \left\{
+    g_{i j} \;\colon\; (U_i \cap U_j) \longrightarrow GL(n, k)
+  \right\}_{i,j \in I}
+$$
+
+from double intersections of the trivializing [[open cover]] to the [[general linear group]] $GL(n, k)$,
+given by composing the local trivialization isomorphisms:
+
+$$
+  \array{
+    (U_i \cap U_j) \times k^n
+      &\overset{\phi_j^{-1} \circ \phi_i}{\longrightarrow}&
+    (U_i \cap U_j) \times k^n
+    \\
+    (x,v) &\overset{\phantom{AAA}}{\mapsto}& \left( x, g_{i j}(x)(v) \right)
+  }
+  \,.
+$$
+
+These are called the _[[transition functions]]_ for the given local trivialization.
+
+=--
+
++-- {: .num_remark #CechCoycleCondition}
+###### Remark
+**([[Cech cohomology|Cech]] [[cocycle]] condition)**
+
+Let $E \to X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}) and let $\{U_i \subset X\}_{i \in I}$, $\{\phi_i \colon U_i \times k^n \overset{\simeq}{\to} E|_{U_{i}}\}_{i \in I}$ be a local trivialization (example \ref{TrivialTopologicalVectorBundle}).
+
+Then the induced [[transition functions]] $\{g_{i j} \colon U_i \cap U_j \to GL(n)\}$ (def. \ref{TransitionFunctions}) satisfy for all $i,j,k \in I$ the conditions
+
+$$
+  g_{i i} = id
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  g_{i j} \circ g_{j k}
+    =
+  g_{i k}
+  \phantom{AA}
+  \text{on}\, U_i \cap U_j \cap U_k
+  \,.
+$$
+
+These are the condition of a [[cocycle]] in degree 1 in [[Cech cohomology]] on $X$ with [[coefficients]] in the [[sheaf]] $\underline{GL(n)}$ of $GL(n)$-valued [[continuous functions]].
+
+=--
+
+Conversely:
+
++-- {: .num_example #TopologicalVectorBundleFromCechCocycle}
+###### Example
+**(topological vector bundle from a Cech coycle)
+
+Let $X$ be a [[topological space]] and let $n \in \mathbb{N}$ be a [[natural number]]. Consider an [[open cover]] of $X$
+
+$$
+  \{U_i \subset X\}_{i \in I}
+$$
+
+and on each double intersection a [[continuous function]] with values in the [[general linear group]] $GL(n)$
+
+$$
+  \left\{
+    g_{i j}
+      \;\colon\;
+    U_i \cap U_j
+      \to
+    GL(n)
+  \right\}
+$$
+
+such that for all $i,j,k \in I$ the conditions
+
+$$
+  g_{i i} = id
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  g_{i j} \circ g_{j k}
+    =
+  g_{i k}
+  \phantom{AA}
+  \text{on}\, U_i \cap U_j \cap U_k
+$$
+
+hold (hence consider a [[Cech cohomology]] 1-[[cocycle]] on $X$ with [[coefficients]] in $\underline{GL(n)}$, remark \ref{CechCoycleCondition}).
+
+This induces an [[equivalence relation]] on the [[product topological space]]
+
+$$
+  \left(
+    \underset{i \in I}{\sqcup} U_i
+  \right)
+  \times
+  k^n
+$$
+
+(of the [[disjoint union space]] of the patches $U_i \subset X$ regarded as [[topological subspaces]] with the [[Euclidean space]] $k^n$ with its [[metric topology]]) given by
+
+$$
+  \big(
+    ((x,i), v)
+     \;\sim\;
+    ((x,j), w)
+  \big)
+   \;\Leftrightarrow\;
+  \left(
+     g_{i j}(x)(v) = w
+  \right)
+  \,.
+$$
+
+Write
+
+$$
+  E
+   \;\coloneqq\;
+  \left(
+    \left(
+      \underset{i \in I}{\sqcup} U_i
+    \right)
+      \times
+    k^n
+  \right)
+  /
+  \left(
+     \left\{
+        g_{i j}
+     \right\}_{i,j \in I}
+  \right)
+$$
+
+for the resulting [[quotient topological space]]. This comes with the evident projection
+
+$$
+  \array{
+    E &\overset{\phantom{AA}\pi \phantom{AA}}{\longrightarrow}& X
+    \\
+    ((x,i,),v) &\overset{\phantom{AAA}}{\mapsto}& x
+  }
+$$
+
+which is a [[continuous function]] (by the [[universal property]] of the [[quotient topological space]] construction, since this [[function]] respects the equivalence relation). Moreover, each [[fiber]] of this map is identified with $k^n$, and hence canonicaly carries the structure of a [[vector space]].
+
+Finally, a local trivialization of $E$ exists over the original cover, by construction.
+
+Therefore this is a topological vector bundle (def. \ref{TopologicalVectorBundle}). We say it is the topological vector bundle _glued from the transition functions_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(bundle glued from [[transition functions]] is a [[coequalizer]])**
+
+Stated more [[category theory|category theoretically]], the constructure of a topological vector bundle from Cech cocycle data in example \ref{TopologicalVectorBundleFromCechCocycle} is a [universal construction in topological spaces](Top#UniversalConstructions), namely the [[coequalizer]] of the two morphisms
+
+$$i, \mu: \underset{i j}{\sqcup} (U_i \cap U_j) \times V \overset{\to}{\to} \underset{i}{\sqcup} U_i \times V$$
+
+in the category of vector space objects in the slice category $Top/X$. Here the restriction of $i$ to the coproduct summands is induced by inclusion:
+
+$$(U_i \cap U_j) \times V \hookrightarrow U_i \times V \hookrightarrow \underset{i}{\sqcup} U_i \times V$$
+
+and the restriction of $\mu$ to the coproduct summands is
+via the action of the transition functions:
+
+$$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to} U_j \times GL(V) \times V \overset{action}{\to} U_j \times V \hookrightarrow \underset{j}{\sqcup} U_j \times V$$
+
+=--
+
+In fact, extracting transition functions from a vector bundle by def. \ref{TransitionFunctions} and constructing a vector bundle from Cech coycle data as above are operations that are inverse to each other, up to [[isomorphism]].
+
++-- {: .num_prop #FromTransitionFunctionsReconstructVectorBundle}
+###### Proposition
+**(topological vector bundle reconstructed from its [[transition functions]])**
+
+Let $[E \overset{\pi}{\to} X]$ be a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}),
+let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of the base space, and
+let $\left\{  U_i \times k^n \underoverset{\simeq}{\phi_i}{\longrightarrow} E|_{U_i}  \right\}_{i \in I}$
+be a [[local trivialization]].
+
+Write
+
+$$
+  \{ g_{i j} \coloneqq  \phi_j^{-1}\circ \phi_i  \colon U_i \cap U_j \to GL(n,k)\}_{i,j \in I}
+$$
+
+for the corresponding [[transition functions]] (def. \ref{TransitionFunctions}). Then there is an
+[[isomorphism]] of vector bundles over $X$
+
+$$
+  \left(
+    \left(
+      \underset{i \in I}{\sqcup} U_i
+    \right)
+      \times
+    k^n
+  \right)
+  /
+  \left(
+     \left\{
+        g_{i j}
+     \right\}_{i,j \in I}
+  \right)
+    \;\underoverset{\simeq}{(\phi_i)_{i \in I}}{\longrightarrow}\;
+  E
+$$
+
+from the vector bundle glued from the transition functions according to def. \ref{TransitionFunctions} to the original bundle $E$,
+whose components are the original local trivialization isomorphisms.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[universal property]] of the [[disjoint union space]] ([[coproduct]] in [[Top]]),
+continuous functions out of them are equivalently sets of continuous functions out of every
+summand space. Hence the set of local trivializations $\{U_i \times k^n \underoverset{\simeq}{\phi_i}{\to} E|_{U_i} \subset E\}_{i \in I}$
+may be collected into a single [[continuous function]]
+
+$$
+    \underset{i \in I}{\sqcup} U_i
+     \times
+   k^n
+   \overset{(\phi_i)_{i \in I}}{\longrightarrow }
+   E
+   \,.
+$$
+
+By construction this function respects the [[equivalence relation]] on the disjoint union space given by
+the transition functions, in that for each $x \in U_i \cap U_j$ we have
+
+$$
+  \phi_i((x,i),v)
+  =
+  \phi_j \circ \phi_j^{-1} \circ \phi_i((x,i),v)
+  =
+  \phi_j \circ ((x,j),g_{i j}(x)(v))
+  \,.
+$$
+
+By the [[universal property]] of the [[quotient space]] coprojection this means that $(\phi_i)_{i \in I}$
+uniquely [[extension|extends]] to a [[continuous function]] on the quotient space such that the
+following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+    \left(
+      \underset{i \in I}{\sqcup} U_i
+    \right)
+      \times
+    k^n
+    &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
+  E
+  \\
+  \downarrow  & \nearrow_{\exists !}
+  \\
+  \left(
+    \left(
+      \underset{i \in I}{\sqcup} U_i
+    \right)
+      \times
+    k^n
+  \right)
+  /
+  \left(
+     \left\{
+        g_{i j}
+     \right\}_{i,j \in I}
+  \right)
+  }
+  \,.
+$$
+
+It is clear that this continuous function is a [[bijection]]. Hence to show that it is a
+[[homeomorphism]], it is now sufficient to show that this is an [[open map]] (by [this prop.](Introduction+to+Topology+--+1#HomeoContinuousOpenBijection)).
+
+So let $O$  be an subset in the quotient space which is open. By definition of the
+[[quotient topology]] this means equivalently that its restriction $O_i$ to $U_i \times k^n$
+is open for each $i \in I$. Since the $\phi_i$ are homeomorphsms, it follows that the
+images $\phi_i(O_i)  \subset  E\vert_{U_ i}$ are open.
+By the nature of the [[subspace topology]], this means that these images are open also in $E$.
+Therefore also the union $f(O) = \underset{i \in I}{\cup} \phi_i(O_i)$ is open.
+
+=--
+
++-- {: .num_example #MoebiusStrip}
+###### Example
+**([[Moebius strip]])**
+
+Let
+
+$$
+  S^1
+    =
+  \left\{
+    (x,y)
+     \;\vert\;
+     x^2 + y^2 = 1
+  \right\}
+  \;\subset\,
+  \mathbb{R}^2
+$$
+
+be the [[circle]] with its  [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
+Consider the [[open cover]]
+
+$$
+  \left\{
+    U_i \subset S^1
+  \right\}_{i \in \{+,-\}}
+$$
+
+whose two elements are the [[complements]] of two antipodal points
+
+$$
+  U_\pm \coloneqq S^1 \setminus \{(\pm 1,0)\}
+  \,.
+$$
+
+Define a [[Cech cohomology]] cocycle (remark \ref{CechCoycleCondition}) on this cover by
+
+$$
+  \array{
+    U_+ \cap U_- &\overset{ g_{\pm \mp} }{\longrightarrow}& GL(1,\mathbb{R})
+    \\
+    x &\mapsto& -id
+  }
+$$
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/moebiusstrip.jpg" width="200">
+</div>
+
+Since there are no non-trivial triple intersections, the only cocycle condition is
+
+$$
+  g_{\mp \pm} g_{\pm \mp} = g_{\pm \pm} = id
+$$
+
+which is clearly satisfied.
+
+
+Accordingly by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
+
+This is the _[[Moebius strip]]_
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[basic complex line bundle on the 2-sphere]])**
+
+Let
+
+$$
+  S^2
+    \coloneqq
+  \left\{
+    (x,y,z)
+    \;\vert\;
+    x^2 + y^2 + z^2 = 1
+  \right\}
+    \subset
+  \mathbb{R}^3
+$$
+
+be the [[2-sphere]] with its [[Euclidean space|Euclidean]] [[subspace]] [[metric topology]].
+Let
+
+$$
+  \left\{
+    U_{i} \subset S^2
+  \right\}_{i \in \{+,-\}}
+$$
+
+be the two [[complements]] of antipodal points
+
+$$
+  U_\pm \coloneqq S^2 \setminus \{(0, 0, \pm 1)\}
+  \,.
+$$
+
+Define continuous functions
+
+$$
+  \array{
+    U_+ \cap U_-
+      &\overset{g_{\pm \mp}}{\longrightarrow}&
+    GL(1,\mathbb{C})
+    \\
+    ( \sqrt{1-z^2} \, cos(\alpha), \sqrt{1-z^2} \, sin(\alpha), z)
+      &\mapsto&
+    \exp(\pm 2\pi i \alpha)
+  }
+  \,.
+$$
+
+Since there are no non-trivial triple intersections, the only cocycle condition is
+
+$$
+  g_{\mp \pm} g_{\pm \mp} = g_{\pm \pm} = id
+$$
+
+which is clearly satisfied.
+
+The [[complex line bundle]] this defined is called the _[[basic complex line bundle on the 2-sphere]]_.
+
+With the 2-sphere identified with the [[complex projective space]] $\mathbb{C} P^1$
+(the [[Riemann sphere]]),
+the basic complex line bundle is the [[tautological line bundle]] (example \ref{TautologicalLineBundle}) on $\mathbb{C}P^1$.
+
+=--
+
++-- {: .num_example #ClutchingConstruction}
+###### Example
+**([[clutching construction]])**
+
+Generally, for $n \in \mathbb{N}$, $n \geq 1$ then the [[n-sphere]]
+$S^n$ may be covered by two open [[hemispheres]] intersecting in an
+[[equator]] of the form $S^{n-1} \times (-\epsilon, \epsilon)$.
+A vector bundle is then defined by specifying a single function
+
+$$
+  g_{+-}
+  \;\colon\;
+  S^{n-1} \longrightarrow GL(n,k)
+  \,.
+$$
+
+This is called the _[[clutching construction]]_ of vector bundles over [[n-spheres]].
+
+=--
+
+
+$\,$
+
+### Properties
+
+We discuss some basic general properties of topological vector bundles.
+
++-- {: .num_lemma #FiberwiseIsoisIsomorphismOfVectorBundles}
+###### Lemma
+**(homomorphism of vector bundles is isomorphism as soon as it is a fiberwise isomorphism)**
+
+Let $[E_1 \to X]$ and $[E_2 \to X]$ be two topological vector bundles (def. \ref{TopologicalVectorBundle}).
+
+If a [[homomorphism]] of vector bundles $f \colon E_1 \longrightarrow E_2$
+restricts on the [[fiber]] over each point to a linear isomorphism
+
+$$
+  f\vert_x \;\colon\; (E_1)_x \overset{\simeq}{\longrightarrow} (E_2)_x
+$$
+
+then $f$ is already an isomorphism of vector bundles.
+
+=--
+
+(e.g [Hatcher, lemma 1.1](#Hatcher))
+
++-- {: .proof}
+###### Proof
+
+It is clear that $f$ has an [[inverse function]]
+of underlying sets $f^{-1} \colon E_2 \to _E_1$ which is a function over $X$: Over each $x \in X$
+it it the linear inverse $(f\vert_x)^{-1} \colon (E_2)_x \to (E_1)_x$.
+
+What we need to show is that this is a continuous function.
+
+By remark \ref{CommonOpenCoverLocalTrivialization} we find an open cover $\{U_i \subset X\}_{i \in I}$ over which
+both bundles have a local trivialization.
+
+
+$$
+  \left\{ U_i \underoverset{\simeq}{\phi^1_i}{\to} (E_1)\vert_{U_i}\right\}_{i \in I}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \left\{ U_i \underoverset{\simeq}{\phi^2_i}{\to} (E_2)\vert_{U_i} \right\}_{i \in I}
+  \,.
+$$
+
+Restricted to any patch $i \in I$ of this cover, the homomorphism $f|_{U_i}$ induces a homomorphism
+of  [[trivial vector bundles]]
+
+$$
+  f_i \coloneqq \phi^2_j^{-1} \circ f \circ \phi^1_i
+   \phantom{AAAAAA}
+  \array{
+    U_i \times k^n &\underoverset{\simeq}{\phi^1_i}{\longrightarrow}& (E_1)\vert|_{U_i}
+    \\
+    {}^{f_i}\downarrow && \downarrow^{\mathrlap{f\vert_{U_i}}}
+    \\
+    U_i \times k^n &\underoverset{\phi^2_i}{\simeq}{\longrightarrow}& (E_2)\vert_{U_j}
+  }
+  \,.
+$$
+
+Also the $f_i$ are fiberwise invertible, hence are
+continuous bijections. We claim that these are [[homeomorphisms]], hence that their
+inverse functions $(f_i)^{-1}$ are also continuous.
+
+To this end we re-write the $f_i$ a little. First observe that by the [[universal property]]
+of the [[product topological space]] and since they fix the base space $U_i$, the $f_i$ are equivalently given by
+a continuous function
+
+$$
+   h_i \;\colon\; U_i \times k^n \longrightarrow k^n
+$$
+
+as
+
+$$
+  f_i(x,v) = (x, h_i(x,v))
+  \,.
+$$
+
+Moreover since $k^n$ is [[locally compact topological space|locally compact]] (as every [[metric space]]),
+the [[mapping space]] [[adjunction]] says (by [this prop.](Introduction+to+Topology+--+1#UniversalPropertyOfMappingSpace)) that there is a continuous function
+
+$$
+  \tilde h_i
+    \;\colon\;
+  U_i \longrightarrow Maps(k^n, k^n)
+$$
+
+(with $Maps(k^n,k^n)$ the set of continuous functions $k^n \to k^n$ equipped with the [[compact-open topology]])
+which factors $h_i$ via the [[evaluation]] map as
+
+$$
+  h_i
+    \;\colon\;
+  U_i \times k^n
+    \overset{\tilde h_i \times id_{k^n}}{\longrightarrow}
+  Maps(k^n, k^n) \times k^n
+    \overset{ev}{\longrightarrow}
+  k^n
+  \,.
+$$
+
+By assumption of fiberwise
+linearity the functions $\tilde h_i$ in fact take values in the [[general linear group]]
+
+$$
+  GL(n,k) \subset Maps(k^n, k^n)
+$$
+
+and this inclusion is a [[homeomorphism]] onto its image (by [this prop.](general+linear+group#AsSubspaceOfTheMappingSpace)).
+
+Since passing to [[inverse matrices]]
+
+$$
+  (-)^{-1} \;\colon\; GL(n,k) \longrightarrow GL(n,k)
+$$
+
+is a [[rational function]] on its domain $GL(n,k) \subset Mat_{n \times n}(k) \simeq k^{(n^2)}$ inside [[Euclidean space]]
+and since [[rational functions are continuous]] on their domain of definition,
+it follows that the inverse of $f_i$
+
+$$
+  (f_i)^{-1}
+    \;\colon\;
+  U_i \times k^n
+    \overset{(id  , \tilde h_i )  }{\longrightarrow}
+  U_i \times k^n \times GL(n,k)
+    \overset{ id  \times (-)^{-1} }{\longrightarrow}
+  U_i \times k^n \times GL(n,k)
+    \overset{id  \times ev}{\longrightarrow}
+  U_i \times k^n
+$$
+
+is a continuous function.
+
+To conclude that also $f^{-1}$ is a continuous function we make use prop. \ref{FromTransitionFunctionsReconstructVectorBundle}
+to find an isomorphism between $E_2$ and a [[quotient topological space]] of the form
+
+$$
+  E_2 \simeq \left(\underset{i \in I}{\sqcup} (U_i \times k^n) \right) / \left(  \left\{ g_{i j}\right\}_{i,j\in I} \right)
+  \,.
+$$
+
+Hence $f^{-1}$ is equivalently a function on this quotient space, and we need to show that as such it is continuous.
+
+By the [[universal property]] of the [[disjoint union space]] (the [[coproduct]] in [[Top]]) the set of continuous functions
+
+$$
+  \{ U_i \times k^n \overset{f_i^{-1}}{\to} U_i \times k^n \overset{\phi^1_i}{\to} E_1 \}_{i \in I}
+$$
+
+corresponds to a single continuous function
+
+$$
+  (\phi^1_i \circ f_i^{-1})_{i \in I}
+    \;\colon\;
+  \underset{i \in I}{\sqcup} U_i \times k^n
+    \longrightarrow
+  E_1
+  \,.
+$$
+
+These functions respect the equivalence relation, since for each $x \in U_i \cap U_j$ we have
+
+$$
+  (\phi^1_i \circ f_i^{-1})((x,i),v)
+    =
+  (\phi^1_j \circ f_j^{-1})( (x,j), g_{i j}(x)(v) )
+  \phantom{AAAA}
+  \text{since:}
+  \phantom{AAAA}
+  \array{
+    && E_1
+    \\
+     & {}^{\mathllap{\phi^1_i \circ f_i^{-1}}}\nearrow
+     &
+       \uparrow^{\mathrlap{f^{-1}}}
+     & \nwarrow^{\mathrlap{ \phi^1_j \circ f_j^{-1} }}
+    \\
+    U_i \times k^n
+      &\underset{\phi^2_i}{\longrightarrow}&
+    (E_2)\vert_{U_i \cap U_i}
+      &\underset{(\phi^2_j)^{-1}}{\longrightarrow}&
+    U_i \times k^n
+  }
+  \,.
+$$
+
+Therefore by the [[universal property]] of the [[quotient topological space]] $E_2$, these functions
+[[extension|extend]] to a unique continuous function $E_2 \to E_1$ such that the following
+[[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    \underset{i \in i}{\sqcup} U_i \times k^n
+      &\overset{( \phi^1_i \circ f_i^{-1} )_{i \in I}}{\longrightarrow}&
+    E_1
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists !}}
+    \\
+    E_2
+  }
+  \,.
+$$
+
+This unique function is clearly $f^{-1}$ (by pointwise inspection) and therefore $f^{-1}$ is continuous.
+
+
+=--
+
+
+
+$\,$
 
 ## Manifolds
  {#Manifolds}
@@ -11949,7 +13266,7 @@ An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) w
 
 A [[locally Euclidean space]] $(X,\tau)$ (def. \ref{LocallyEuclideanSpace})
 which is [[connected topological space|connected]] (def. \ref{ConnectedSpace}) is also [[path-connected topological space|path-connected]],
-in that for $x, y \in X$ any two point, then there exists a [[continuous function]]
+in that for $x, y \in X$ any two points, then there exists a [[continuous function]]
 
 $$
   \gamma \;\colon\; [0,1] \longrightarrow (X,\tau)
@@ -12129,7 +13446,7 @@ Sometimes one also says "$n$-fold" in this case.
 
 +-- {: .num_remark}
 ###### Remark
-**(varying terminology)**
+**(varying terminology regarding "topological manifold")**
 
 Often a topological manifold (def. \ref{TopologicalManifold}) is required to be [[sigma-compact]] (def. \ref{CompactSigma}). But by prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} this is not an extra condition as long as there is a [[countable set]] of [[connected components]].
 Moreover, manifolds with uncountably many connected components are rarely considered in practice.
@@ -12943,158 +14260,6 @@ Detailed discussion of the [[Hausdorff reflection]] is in
 
 ## Index
 
-**Basic concepts**
-
-* [[open subset]], [[closed subset]]
-
-* [[topological space]] (see also _[[locale]]_)
-
-* [[basis for the topology]], [[finer topology|finer/coarser topology]]
-
-* [[topological closure|closure]], [[topological interior|interior]], [[topological boundary|boundary]]
-
-* [[separation axiom]]
-
-* [[continuous function]], [[homeomorphism]]
-
-* [[topological embedding|embedding]]
-
-* [[open map]], [[closed map]]
-
-* [[sequence]], [[net]], [[sub-net]], [[filter]]
-
-* [[convergence]]
-
-* [[category]] [[Top]]
-
-  * [[convenient category of topological spaces]]
-
-**[Universal constructions](Top#UniversalConstructions)**
-
-* [[initial topology]], [[final topology]]
-
-* [[subspace]], [[quotient space]],
-
-* fiber space, [[attaching space]]
-
-* [[product space]], [[disjoint union space]]
-
-* [[mapping cylinder]], [[mapping cocylinder]]
-
-* [[mapping cone]], [[mapping cocone]]
-
-* [[mapping telescope]]
-
-
-**[[stuff, structure, property|Extra stuff, structure, properties]]**
-
-* [[nice topological space]]
-
-* [[metric space]]
-
-* [[Kolmogorov space]], [[Hausdorff space]], [[regular space]], [[normal space]]
-
-* [[sober space]]
-
-* [[compact space]] ([[sequentially compact topological space|sequentially compact]], [[countably compact topological space|countably compact]], [[paracompact space|paracompact]], [[countably paracompact topological space|countably paracompact]], [[locally compact topological space|locally compact]], [[strongly compact topological space|strongly compact]])
-
-* [[compactly generated space]]
-
-* [[second-countable space]], [[first-countable space]]
-
-* [[contractible space]], [[locally contractible space]]
-
-* [[connected space]], [[locally connected space]]
-
-* [[simply-connected space]], [[locally simply-connected space]]
-
-* [[topological vector space]], [[Banach space]], [[Hilbert space]]
-
-* [[topological manifold]]
-
-* [[CW-complex]]
-
-**Examples**
-
-* [[empty space]], [[point space]]
-
-* [[discrete space]], [[codiscrete space]]
-
-* [[order topology]], [[specialization topology]], [[Scott topology]]
-
-* [[Euclidean space]]
-
-  * [[real line]], [[plane]]
-
-* [[sphere]], [[ball]],
-
-* [[circle]], [[torus]], [[annulus]]
-
-* [[polytope]], [[polyhedron]]
-
-* [[projective space]] ([[real projective space|real]], [[complex projective space|complex]])
-
-* [[classifying space]]
-
-* [[compact-open topology|mapping space]], [[loop space]], [[path space]]
-
-* [[Zariski topology]]
-
-* [[Cantor space]], [[Sierpinski space]]
-
-* [[long line]], [[line with two origins]]
-
-* [[K-topology]], [[Dowker space]]
-
-* [[Warsaw circle]]
-
-* [[Peano curve]]
-
-
-**Basic statements**
-
-* [[Hausdorff spaces are sober]]
-
-* [[CW-complexes are paracompact Hausdorff]]
-
-* [[compact Hausdorff spaces are normal|(para-)compact Hausdorff spaces are normal]]
-
-* [[continuous image of a compact space is compact]]
-
-* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
-
-* [[open subspaces of compact Hausdorff spaces are locally compact]]
-
-* [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
-
-* [[compact spaces equivalently have converging subnet of every net]]
-
-  * [[Lebesgue number lemma]]
-
-  * [[sequentially compact metric spaces are equivalently compact metric spaces]]
-
-  * [[compact spaces equivalently have converging subnet of every net]]
-
-  * [[sequentially compact metric spaces are totally bounded]]
-
-* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
-
-**Theorems**
-
-* [[Urysohn's lemma]]
-
-* [[Tietze extension theorem]]
-
-* [[tube lemma]]
-
-* [[Tychonoff theorem]]
-
-* [[Heine-Borel theorem]]
-
-* [[Brouwer's fixed point theorem]]
-
-* [[topological invariance of dimension]]
-
-* [[Jordan curve theorem]]
+[[!include topology - contents]]
 
 
