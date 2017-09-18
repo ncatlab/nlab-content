@@ -299,183 +299,283 @@ If $S_1 \geq S_2$ and $S_2 \geq S_1$ we say that the two subsets are _[[spacelik
 
 #### The axioms
 
+Write $\Sigma \coloneqq \mathbb{R}^{d-1,1}$.
 
-Let $\mathcal{W}$ be a [[associative algebra|associative]] [[commutative algebra|commutative]] [[topological algebra|topological]] [[star-algebra]] equipped with a continuous [[action]] by algebra [[homomorphisms]] of the [[translation group]].
+Let $E \to \Sigma$ be a [[field bundle]], write $\Gamma_\Sigma(E)$ for its space of [[smooth sections]].
+
++-- {: .num_defn #CompactlySupportedPolynomialLocalDensities}
+###### Definition
+**(compactly supported polynomial local densities)**
+
+Write
+
+$$
+  \Omega_{poly}^{h,v}(E)
+$$
+
+for the space of differential forms on the [[jet bundle]] of $E$ which locally are [[polynomials]]
+in the field variables.
+
+$$
+  \mathcal{F}_{loc}
+    \; \subset \;
+  C^\infty_c(\Sigma) \underset{\Omega_{poly}^{0,0}(E)}{\otimes} \Omega_{poly}^{d,0}(E)
+$$
+
+for the subspace of [[horizontal differential forms]] of degree $d$ on the [[jet bundle]] ([[local Lagrangian densities]])
+of those which are [[compact support|compactly supported]] with respect to $\Sigma$ and [[polynomial]] with respect to the 
+field variables.
+
+=--
+
+By construction, an element of $\mathcal{F}_{loc}$ may be presented as
+
+$$
+  g_{sw} L_{int} + \underset{n}{\sum} j_{sw,n} J_n
+$$
+
+where $L_{int}, J_n \in \Omega_{poly}^{d,0}(E)$ are polynomial local densities, to be regarded
+as [[interaction]] [[Lagrangian density]] and [[source field]], respectively, and where
+$g_{sw}, j_{sw,n} \in C^\infty_c(\Sigma)$ are [[compact support|compactly supported]] [[smooth functions]]
+(a [[bump functions]]) on spacetime $\Sigma$, to be regarded as [[adiabatic switching]] functions.
+
+Let $\mathcal{W}$ be a [[Wick algebra]] on $\mathbb{R}^{d-1,1}$ 
+on $\Gamma(E)$), equipped with an [[action]]
 
 $$
   \rho \;\colon\; \mathbb{R}^d \times \mathcal{W} \longrightarrow \mathcal{W}
-  \,.
 $$
 
-In applications
-$\mathcal{W}$ will typically be the [[Wick algebra]] of a given set of species of [[free fields]]
-on [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$, and will typically be assumed to be
-represented by [[linear operators]] on the corresponding [[Fock space]], but
-neither of these are necessary assumptions for the following construction.
+of the [[translation group]], encoding the quantization of [[free fields]].
 
 
-A _perturbative S-matrix_ on Minkowski spacetime, is a (non-linear) continuous functional
++-- {: .num_defn #PerturbativeSMatrixOnMinkowskiSpacetime}
+###### Definition
+**(perturbative S-matrix on Minkowski spacetime)**
+
+A _perturbative scattering matrix for fields $E$_, is a [[function]]
 
 $$
   S
     \;\colon\;
-  \mathcal{S}(\mathbb{R}^d) \times\mathcal{S}(\mathbb{R}^d)  \longrightarrow \mathcal{W}[ [ g/\hbar ] ]
+  \mathcal{F}_{loc} \longrightarrow \mathcal{W}[ [ g/\hbar ] ]
 $$
 
-with values in the algebra of [[formal power series]] in a variable $g/\hbar$ with [[coefficients]] in the algebra
-$\mathcal{W}$
+on compactly supported polynomial local densities (def. \ref{CompactlySupportedPolynomialLocalDensities}) 
+with values in the algebra of [[formal power series]] in a formal variable $g/\hbar$ with [[coefficients]]
+in the given [[Wick algebra]],
+such that the following conditions hold for fixed $L_{int}, \{ J_n\}_{n = 1}^N$:
 
-such that the following conditions hold:
+1. (perturbation)
 
-1. (perturbation) 
+   There exist [[distributions]] ([[multilinear map|multi-]] [[linear continuous functionals]]) of the form
 
-   There exist [[distributions]]
-   
    $$
-     T^k \;\colon\; \mathcal{S}(\mathbb{R}^d)^{\otimes^{2 k }} \longrightarrow \mathcal{W}[ [ g/\hbar ] ] 
+     T^k \;\colon\; C^\infty_c(\Sigma)^{\otimes^{k(N+1)}} \longrightarrow \mathcal{W}[ [ g/\hbar ] ]
    $$
-   
+
    for $k \in \mathbb{N}$ such that
 
    $$
-     S(g_{}, j)
+     S( g_{sw} L_{int} )
      \;=\;
-     \underoverset{k = 0}{\infty}{\sum} \tfrac{1}{k!} 
+     \underoverset{k = 0}{\infty}{\sum} \tfrac{1}{k!}
      \left(\tfrac{-1}{i \hbar}\right)^k
-     \langle    T^k, (g, \cdots, g, j, \cdots j)   \rangle
+     \langle    T^k, (g_{sw}L_{int}, \cdots, g_{sw} L_{int}, j_{sw,1}J_1, \cdots , j_{sw,1} J_1, \cdots)   \rangle
    $$
 
 
-1. (normalization) $S(0,0) = 1$
+1. (normalization)
 
-1. (unitarity) $S(-,-)^\ast = S(-,-)^{-1}$
+   $$
+     S(0) = 1
+   $$
+
+1. (unitarity)
+
+   $$
+     S(-)^\ast = S(-)^{-1}
+   $$
 
 1. (translation invariance)
 
-   For $v \in \mathbb{R}^d$ then $S( g_{sw}((-) + v), j((-) + v) ) = \rho(t_v)(S(g_{sw}, j))$
-
-1. (causal additivity) 
-
-   The combinations $V(g_{sw},j) \coloneqq S(g_{sw},0)^{-1} S(g_{sw}, j)$ satisfy
+1. (causal additivity)
 
    $$
-     \left( supp(j_1) \geq supp(j_2) \right)
+     \left( supp(J_1) \geq supp(J_2) \right)
      \;\; \Rightarrow \;\;
-     V(g_{sw}, j_1 + +j_2) = V(g_{sw}, j_1) V(g,j_2)
+     S(g_{sw}L_{int} + J_1 + J_2)
+     =
+     S(g_{sw}L_{int} + J_1) S(g_{sw}L_{int})^{-1} S(g_{sw}L_{int} + J_2)
+     \,.
    $$
 
-([Epstein-Glaser 73, section 1.1](#EpsteinGlaser73))
+=--
 
-#### Locality
+For fixed $L_{int}, J_n$ this is [Epstein-Glaser 73 (1)](#EpsteinGlaser73) (in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below).
 
++-- {: .num_remark}
+###### Remark
 
-Lemma
+In def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} $g/\hbar$ has the interpretation of the
+[[coupling constant]] divided by [[Planck's constant]]. One obtains a [[formal power series]]
+with the expected non-negative powers of $\hbar$ after passing to the [[interacting field algebra]]
+induced by the S-matrix.
 
-Let
+The local density $g_{sw}L_{int}$ has the interpretation 
+[[interaction]] [[Lagrangian density]] $L_{int}$ [[adiabatic switching|adiabatically switched]] by a compactly supported
+function $g_{sw}$,  and $J$ has the interpretation of a [[source field]]. 
+
+=--
+
+#### Causal locality
+
++-- {: .num_defn #GeneratingFunctionsForCorrelationFunctions}
+###### Definition
+**([[generating functions]] for [[correlation functions]])**
+
+For $S$ a perturbative S-matrix as in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime},
+its _[[generating function]] for [[correlation functions]]_ is
 
 $$
-  S \;\colon\; \mathcal{S}(\mathbb{R}^{d-1,1})^2 \to G
-$$
-
-be any function with values in any group $G$ and consider the
-induced function
-
-$$
-  V \;\colon\; \mathcal{S}(\mathbb{R}^{d-1,1})^2 \to A
-$$
-
-given by
-
-$$
-  V(g,h) \coloneqq S(g)^{-1} S(g + h)
+  V(g_{sw}L_{int}, J)
+    \;\coloneqq\;
+  S(g_{sw}L_{int})^{-1} S(g_{sw}L_{int} + J)
   \,.
 $$
 
-Then the following
-conditions are equivalent for all $g, h_1, h_2 \in \mathcal{S}(\mathbb{R}^{d-1,1})$:
-
-1. $V(g,h_1 + h_2) = V(g, h_1) V(g,h_2)$
-
-1. $V(g + h_1 , h_2) = V(g, h_2)$
-
-1. $S(h_1 + g + h_2) = S(h_1 + g) S(g)^{-1} S(g + h_2)$
-
-If these conditions hold whenever $supp(h_1) \geq supp(h_2)$ then
-$S$ is called _causally additive_.
-
-In this case moreover the following
-conditions holds:
-
-If $supp(g_1) \geq supp(g_2)$ and $supp(g_2) \geq supp(g_1)$ then
+=--
 
 
-$$
-  S(g_1) S(g_2) = S(g_2) S(g_1)
-  \,.
-$$
++-- {: .num_lemma #CausalLocalityOfThePerturbativeSMatrix}
+###### Lemma
+**(causal locality of the perturbative S-matrix)**
 
-If $g_1\vert_{O} = g_2\vert_{O}$ on a causally closed subset $O \subset \mathbb{R}^{d-1,1}$
-then there exists $K \in G$ such that for all $h$ with $supp(h) \subset O$
+Let $S$ be a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+with $V$ its generating function for correlation functions
+according to def. \ref{GeneratingFunctionsForCorrelationFunctions}. 
 
-$$
-  V(g_2, h) = K^{-1} V(g_1, h) K
-$$
+1. The following conditions are equivalent for all $L, J_1, J_2 \in \mathcal{F}_{loc}$:
 
-Proof
+   1. $V(L, J_1 + J_2) = V(L, J_1) V(L, J_2)$
+
+   1. $V(L + J_1 , J_2) = V(L, J_2)$
+
+   1. $S(L + J_1 + J_2) = S(L, J_1) S(L)^{-1} S(L + J_2)$
+
+   Hence causal additivity in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+implies that all these conditions hold if $supp(J_1) \geq supp(J_2)$.
+
+
+1. If $supp(L_1) \geq supp(L_2)$ and $supp(L_2) \geq supp(L_1)$ then
+
+
+   $$
+     S(L_1) S(L_2) = S(L_2) S(L_1)
+     \,.
+   $$
+
+1. If $L_1\vert_{O} = L_2\vert_{O}$ on a [[causally closed subset]] $O \subset \mathbb{R}^{d-1,1}$
+then there exists an invertible $K \in \mathcal{W}[ [ g/\hbar] ]$ such that for all $J$ with $supp(J) \subset O$
+
+   $$
+     V(L_2, J) = K^{-1} V(L_1, J) K
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equivalence of the three conditions in the first statement is immediate from the definitions:
 
 Expanding out the definition of $V$, the first expression is equivalent to
 
 $$
-  S(g)^{-1} S(g + h_1 + h_2) = S(g)^{-1} S(g + h_1) S(g)^{-1} S(g + h_2)
+  S(L)^{-1} S(L + J_1 + J_2) 
+    = 
+  S(L)^{-1} S(L +  J_1 ) S(L)^{-1} S(L + J_2)
+  \,.
 $$
 
-Multiplying both sides by $S(g)$, this equation is equivalent to the third clause.
+Multiplying both sides of this equation by $S(L)$, shows that it is equivalent to the third clause.
 
-Multiplying once more with $S(g + h_1)^{-1}$ this third equation is equivalent to
+Multiplying once more with $S(L + J_1)^{-1}$ this third equation is seen to be equivalent to
 
 $$
-  S(g + h_1)^{-1} S(g + h_1 + h_2) = S(g)^{-1} S(g + h_2)
+  S(L + J_1)^{-1} S(L + J_1 + J_2) = S(L)^{-1} S(L + J_2)
 $$
 
-which is equivalently the second clause by definition of $V$.
+which is equivalently the second clause, by definition of $V$.
+
+Now setting $L = 0$ and $J_1 = L_1$ and $J_2 = L_2$ in the third clause it
+reduces to 
+
+$$
+  \left(
+    supp(L_1) \geq supp(L_2)
+  \right)
+   \;\Rightarrow\;
+  S(L_1 + L_2)
+  =
+  S(L_1)S(L_2)
+  \,.
+$$
+
+Hence if $supp(L_1) \geq supp(L_2)$ and $supp(L_2) \geq supp(L_1)$ then 
+
+$$
+  S(L_1) S(L_2) = S(L_1 + L_2) = S(L_2 + L_1) = S(L_2) S(L_1)
+  \,,
+$$
+
+which is the second statement to be shown.
 
 
 For the last statement, notice that by causal closure of
-$O$ the difference $g_2 - g_1$, which by assumption has
-$supp(g_2 - g_1) \in \mathbb{R}^{d-1,1} \setminus O$,
+$O$ the difference $L_2 - L_2$, which by assumption has
+$supp(L_2 - L_1) \in \mathbb{R}^{d-1,1} \setminus O$,
 may be written as
 
 $$
-  g_2 - g_1 = a + r
+  L_2 - L_1 = a + r
 $$
 
 such that
 
 $$
-  supp(a) \geq supp(h) \geq supp(r)
+  supp(a) \geq supp(J) \geq supp(r)
 $$
 
-It follows with causal additivity that
+It follows with causal additivity and its equivalent formulations above that
 
 $$
-  V(g_2, h)
-    =
-  V(g_1 + a + r, h)
-    =
-  V(g_1 + r , h)
-    =
-  S(g_1 + r)^{-1} S(h + g_1 + r)
-    =
-  S(g_1 + r)^{-1} S(h + g_1)S(g_1)^{-1} S(g_1 + r)
-    =
-  S(g_1 + r)^{-1} S(g_1) S(g_1)^{-1} S(g_1 + h) S(g_1)^{-1} S(g_1 + r)
-    =
-  V(g_1, r)^{-1} V(g_1,h) V(g_1,r)
+  \begin{aligned}
+    V(L_2, J)
+      & =
+    V(L_1 + a + r, J)
+    \\
+      & =
+    V(L_1 + r , J)
+    \\
+      & =
+    S(L_1 + r)^{-1} S(L_1 + r + J)
+    \\
+      & =
+    S(L_1 + r)^{-1} S(J + L_1) S(L_1)^{-1} S(L_1 + r)
+    \\
+      & =
+    S(L_1 + r)^{-1} \underset{= id}{\underbrace{S(L_1) S(L_1)^{-1}}} S(L_1 + J) S(L_1)^{-1} S(L_1 + r)
+    \\
+      & =
+    V(L_1, r)^{-1} V(L_1, J) V(L_1,r)
+  \end{aligned}
 $$
 
-and hence the last condition holds for $K \coloneqq V(g_1,r)$.
+and hence the last statement holds for $K \coloneqq V(g_1,r)$.
 
-
+=--
 
 
 
