@@ -71,6 +71,32 @@ The key example of such a system are the [[relative cohomology]] groups $E^\bull
 
 This case of the Cartan-Eilenberg spectral sequence came to be known as the _[[Atiyah-Hirzebruch spectral sequence]]_.
 
++-- {: .num_defn #CESystemForMultiplicativeGeneralizedCohomology}
+###### Definition
+
+For $\pi\colon X\to B$ a [[Serre fibration]] over a [[CW-complex]] $B$.  And for $(\tilde h^\bullet,\delta,\wedge)$ a [[multiplicative cohomology theory|multiplicative]] [[reduced cohomology|reduced]]  [[generalized (Eilenberg-Steenrod) cohomology]] theory. 
+
+
+define a [[Cartan-Eilenberg system]] $(H,\eta,\partial)$ by
+
+$$
+  H(p,q)=\tilde h^\bullet(X^{q-1}/X^{p-1})
+$$
+
+(where $X^k=\pi^{-1}(B^k)$) for $p\le q$ with the obvious maps $\eta\colon H(p',q')\to H(p,q)$ for $p\le p'$, $q\le q'$. 
+
+The [[Cartan-Eilenberg spectral sequence]] of this Cartan-Eilenberg system is the [[Serre spectral sequence|Serre]]-[[Atiyah-Hirzebruch spectral sequence]].
+
+=--
+
+The corresponding [[long exact sequences]] take the form
+$$\cdots\to\tilde h^\bullet(X^{r-1},X^{q-1})\to\tilde h^\bullet(X^{r-1},X^{p-1})
+\to\tilde h^\bullet(X^{q-1},X^{p-1})\stackrel\delta\to
+\tilde h^\bullet(X^{r-1},X^{q-1})\to\cdots$$
+
+
+
+
 ## Related concepts
 
 * [[multiplicative spectral sequence]]
