@@ -30,12 +30,10 @@ Regular logic is the [[internal logic]] of [[regular categories]].  Its logical 
 
 ## References
 
-Section 4.2 of
+* Carsten Butz, _Regular Categories and Regular Logic_ , BRICS LS-98-2 Aarhus 1998. ([brics](http://www.brics.dk/LS/98/2/))
 
-* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
+* [[Jaap van Oosten]], _Basic category theory_ , BRICS LS-95-1 Aarhus 1995. (Section 4.2) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
 
-Section D1.2 of
-
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Peter Johnstone]], _[[Sketches of an Elephant]] II_ , Oxford UP 2002. (Section D1.2)
 
 [[!redirects logic of regular categories]]
