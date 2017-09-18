@@ -485,6 +485,7 @@ $$
   \,.
 $$
 
+In terms of the [[codomain fibration]], $\mathbf{H}^I \to \mathbf{H}$, intrinsic cohomology can be considered as nonabelian [[twisted cohomology]] (see there).
 
 ## References
 
