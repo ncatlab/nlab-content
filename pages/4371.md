@@ -214,6 +214,10 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 ## References
 
+Informal exposition of double negation with an eye towards [[physics]] is in
+
+* [[Andrej Bauer]], _[Intuitionistic mathematics for physics](http://math.andrej.com/2008/08/13/intuitionistic-mathematics-for-physics/)_, 2008
+
 In [[topos theory]]:
 
 * {#Johnstone77} [[Peter Johnstone]], _Topos Theory_ , Academic Press 1977 (Dover reprint 2014). (pp.139-140) 
