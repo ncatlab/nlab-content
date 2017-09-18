@@ -430,7 +430,7 @@ Much of this relation of [[string theory]] to [[higher category theory]] was unc
 
 > {#Witten21stCenturyQuote} Back in the early '70s, the Italian physicist, [[Daniele Amati]] reportedly said that string theory was part of 21st-century physics that fell by chance into the 20th century. I think it was a very wise remark. ([[Edward Witten]], [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf))
 
-For the moment, see at **[[higher category theory and physics]]** for more.
+For the moment, see at **[[higher category theory and physics]]** and _[[schreiber:Higher Prequantum Geometry]]_ for more.
 
 (...)
 
