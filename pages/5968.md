@@ -398,6 +398,10 @@ Discussion in the context of the [[variational bicomplex]] includes
 
 * {#BarnichBrandt01} [[Glenn Barnich]], [[Friedemann Brandt]], _Covariant theory of asymptotic symmetries, conservation laws and central charges_, Nucl.Phys.B633:3-82,2002 ([arXiv:hep-th/0111246](http://arxiv.org/abs/hep-th/0111246))
 
+Discussion of a generalization to [[discrete groups]] of symmetries includes
+
+* Anthony Ashton, _Conservation laws and non-Lie symmetries for linear PDEs_, Journal of Non-linear Mathematical Physics, 2013 ([web](http://www.tandfonline.com/doi/pdf/10.2991/jnmp.2008.15.3.5))
+
 The example of conserved currents in [[Chern-Simons theory]] is discussed around (5.381) on p. 925 of
 
 * Vladimir Ivancevic, Tijana Ivancevi, _Applied differential geometry: a modern introduction_
