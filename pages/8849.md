@@ -1,9 +1,31 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-In view of the congruence of the notions of _[[homotopy type]]_ and _[[type]]_ in _[[homotopy type theory]]_ it makes sense to refer to an [[object]] in an [[cohesive (∞,1)-topos]] $\mathbf{H}$ which [[categorical semantics|models]] [[cohesive homotopy type theory]] for a kind of _smooth_ cohesion -- such as $\mathbf{H} = $ [[Smooth∞Grpd]] -- as a _smooth type_. Or _smooth homotopy type_.  Accordingly then an [[n-truncated]] object in $\mathbf{H}$ is a _smooth $n$-type_.
+In view of the congruence of the notions of _[[homotopy type]]_ and _[[type]]_ in _[[homotopy type theory]]_ it makes sense to refer to an [[object]] in a [[cohesive (∞,1)-topos]] $\mathbf{H}$ such as as [[Smooth∞Grpd]] as a _smooth homotopy type_ or [[smooth infinity-groupoid]].  Accordingly then an [[n-truncated]] object in $\mathbf{H}$ is a _smooth $n$-type_.
 
-For instance a _smooth 0-type_ is then an object in the [[sheaf topos]] $Sh(CartSp) \hookrightarrow Sh_\infty(CartSp) \simeq \mathbf{H}$. (Also sometumes called a _[[smooth space]]_.)
+For instance a _smooth [[0-type]]_ is then an object in the [[sheaf topos]] $Sh(CartSp) \hookrightarrow Sh_\infty(CartSp) \simeq \mathbf{H}$ of [[smooth sets]].
+
+## References
+
+* [[geometry of physics -- smooth homotopy types]]
 
 [[!redirects smooth homotopy types]]
 
