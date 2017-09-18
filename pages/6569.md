@@ -19,7 +19,7 @@
 
 ## Idea
 
-Where a [[vector]] specifies a _direction_ and a _magnitude_ , a _bivector_ specifies a _plane_ and a magnitude.
+Where a [[vector]] specifies a _direction_ and a _magnitude_, a _bivector_ specifies a _plane_ and a magnitude.
 
 ## Definition
 
