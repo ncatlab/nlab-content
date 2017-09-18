@@ -32,6 +32,8 @@ $$
 
 * [[spectrum]]
 
+* [[classical model structure on pointed topological spaces]]
+
 [[!redirects pointed topological spaces]]
 
 [[!redirects based topological space]]
