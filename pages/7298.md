@@ -27,6 +27,9 @@ Consider a morphism $(f,f^\sharp):(Y,\mathcal{O}_Y)\to(X,\mathcal{O}_X)$ of [[ri
 
 ## Related concepts
 
+* [[jet groupoid]]
+
+
 [[!include infinitesimal and local - table]]
 
 ## References
