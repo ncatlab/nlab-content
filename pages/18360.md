@@ -1,0 +1,7 @@
+
+
+
+* [Wikiedpia entry](https://en.wikipedia.org/wiki/Archimedes)
+
+category: people
+
