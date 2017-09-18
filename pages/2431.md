@@ -151,6 +151,8 @@ Further review includes
 
 * {#Adams74} [[Frank Adams]], part III, section 6 of _[[Stable homotopy and generalised homology]]_, 1974
 
+* {#Kochmann96} [[Stanley Kochmann]], section 3.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * {#Muro10} [[Fernando Muro]], _Representability of cohomology theories_, 2010 ([pdf](http://personal.us.es/fmuro/praha.pdf))
 
 The model-category theoretic version, with applications to [[∞-stacks]] -- or rather to the standard  [[models for ∞-stack (∞,1)-toposes]] in terms of the standard [[model structure on simplicial presheaves]] -- is given in
