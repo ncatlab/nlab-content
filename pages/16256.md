@@ -29,6 +29,8 @@ This situation is of particular interest in the reduction of [[11-dimensional su
 
 The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the product $N_4\times \mathbb{R}^{11-5,1}$ of Euclidean [[Taub-NUT spacetime]] with Minkowski spacetime. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name.
 
+Upon [[KK-compactification]] on a 6-dimensional fiber, with the 11d KK-monopole / [[D6-brane]] completely wrapping the fiber, the KK-monopole in [[11d supergravity]] becomes the KK-monopole in [[5d supergravity]]. Further compactifying on a circle leads a [[black hole]] in 4d, incarnated as a D0/D6 bound state (e.g. [Nelson 93](#Nelson93)).
+
 ## Relation to the D6-brane in type IIA string theory 
  {#RelationToTheD6Brane}
 
@@ -149,6 +151,12 @@ Review includes
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
 
 * {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], p. 45 of _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
+
+### Relation to black holes
+
+Relation to [[black holes in string theory]]
+
+* {#Nelson93} William Nelson, _Kaluza-Klein Black Holes in String Theory_, Phys.Rev.D49:5302-5306,1994 ([arXiv:hep-th/9312058](http://arxiv.org/abs/hep-th/9312058))
 
 
 [[!redirects Kaluza-Klein monopoles]]
