@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Opetopic type theory_ ([Finster 12](#Finster12)) is a higher dimensional [[directed homotopy type theory|directed]] [[homotopy type theory|homotopy]] [[type theory]] to be thought of as the [[internal language]] of [[omega-categories]], i.e. of [[infinity-categories]] in the full sense of [[(infinity,infinity)-categories]]. 
+_Opetopic type theory_ ([Finster 12](#Finster12)) is a higher dimensional [[directed homotopy type theory|directed]] [[homotopy type theory|homotopy]] [[type theory]] to be thought of as the [[internal language]] of [[omega-categories]], i.e. of [[infinity-categories]] in the full sense of [[(infinity,infinity)-categories]].  Specifically it realizes the higher-dimensional [[horn]]-filler conditions in the definition of [[opetopic omega-categories]] [due to Palm](opetopic+omega-category#DefinitionByPalm) as [[inference rules]] of [[term introduction]] for a higher-dimensional kind of [[formal logic]].
 
 Where in [[homotopy type theory]] there is an [[identity type]] of any type axiomatizing the [[infinity-groupoid]] structure of that type in, effectively, the style of a [[globular omega-groupoid]], in opetopic type theory there is axiomatized instead a type of [[k-morphisms]] for all $k$ in the [[geometric shape for higher structures|shape]] of [[opetopes]].
 
@@ -53,7 +53,7 @@ It [[syntax|syntactically]] implements the definition of [[opetopic omega-catego
 
 by interpreting the higher-dimensional [[horn]]-filler conditions given there as [[inference rules]].
 
-([Palm](#Palm) shows that any opetopic set satisfying these filler conditions satisfies the property of [[Mikhail Makkai]]'s definition of a opetopic set that qualifies as an [[opetopic omega-category]]. The converse is presently unknown.)
+([Palm](#Palm) shows that any opetopic set satisfying these filler conditions satisfies the property of [[Michael Makkai]]'s definition of a opetopic set that qualifies as an [[opetopic omega-category]]. The converse is presently unknown.)
 
 
 The higher dimensional [[string diagram]]-notation used here for opetopes was introduced (as "zoom complexes" in section 1.1) in
