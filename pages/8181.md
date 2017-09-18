@@ -57,7 +57,7 @@ and considered in the general context of [[higher differential geometry]]/[[exte
 ### Application to the string $\sigma$-model
  {#ReferencesStringSigmaModel}
 
-Applications to the 2-dimensional [[string]] [[sigma-model]] are discussed in
+Applications to the 2-dimensional [[string]] [[sigma-model]] (see at [[string Lie 2-algebra]]) are discussed in
 
 * {#BaezRogers10} [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 221-236. ([arXiv:0901.4721](http://arxiv.org/abs/0901.4721),[euclid](https://projecteuclid.org/euclid.hha/1296223828)).
 
@@ -70,6 +70,7 @@ A survey of some (potential) applications of 2-plectic geometry in [[string theo
 and in 
 
 * [[Christian Saemann]], [[Richard Szabo]], _Quantization of 2-Plectic Manifolds_ ([arXiv:1106.1890](http://arxiv.org/abs/1106.1890))
+
 
 
 [[!redirects 2-plectic manifold]]
