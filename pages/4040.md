@@ -59,7 +59,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[sober space]]
 
-* [[compact space]] ([[sequentially compact topological space|sequentially compact]], [[countably compact topological space|countably compact]], [[paracompact space|paracompact]], [[countably paracompact topological space|countably paracompact]], [[locally compact topological space|locally compact]], [[strongly compact topological space|strongly compact]]) 
+* [[compact space]], [[proper map]] ([[sequentially compact topological space|sequentially compact]], [[countably compact topological space|countably compact]], [[paracompact space|paracompact]], [[countably paracompact topological space|countably paracompact]], [[locally compact topological space|locally compact]], [[strongly compact topological space|strongly compact]]) 
 
 * [[compactly generated space]]
 
@@ -120,9 +120,10 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Hausdorff spaces are sober]]
 
-* [[CW-complexes are Hausdorff]]
+* [[CW-complexes are Hausdorff spaces]]
 
 * [[compact Hausdorff spaces are normal|(para-)compact Hausdorff spaces are normal]]
+
 
 * [[continuous image of a compact space is compact]]
 
@@ -144,15 +145,19 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
 
+* [[closed injections are embeddings]]
+
+* [[proper maps to locally compact spaces are closed]]
+
 ## Theorems
 
 * [[Urysohn's lemma]]
 
 * [[Tietze extension theorem]]
 
-* [[tube lemma]]
-
 * [[Tychonoff theorem]]
+
+* [[tube lemma]]
 
 * [[Heine-Borel theorem]]
 
