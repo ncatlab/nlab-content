@@ -715,7 +715,7 @@ $$
 $$ 
 
 in prop. \ref{StrictModelStructureOnDiagramSpectra}
-is the _[strict Bousfield-Friedlander model structure](Bousfield-Friedlander%20model%20structure#TheStrictModelStructure)_.
+is the _[strict model structure on topological sequential spectra](model+structure+on+topological+sequential+spectra#TheStrictModelStructure)_.
 
 =--
 
@@ -1422,6 +1422,17 @@ Moreover $\mathbb{S}_{dia} Mod_{stable}$ is a
 1. [[proper model category]];
 
 1. $Top^{\ast/}_{Quillen}$-[[enriched model category]].
+
+Specifically, this specializes to 
+
+* fro $Dia = Seq$: the standard [[model structure on topological sequential spectra]];
+
+* for $Dia = Sym$: the standard standard [[model structure on symmetric spectra]];
+
+* for $Dia = Orth$: the standard topological [[model structure on orthogonal spectra]];
+
+* for $Dia = Top^{\ast/}_{CW}$: the topological [[model structure for excisive functors]];
+
 
 =--
 
