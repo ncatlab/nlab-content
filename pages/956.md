@@ -9,11 +9,9 @@
 =--
 =--
 
-
-
 A (binary) [[relation]] $\sim$ on a set $A$ is __connected__ if any two elements that are related in neither order are [[equality|equal]]:
 $$ \forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y .$$
-This is a basic property of [[linear orders]]; an [[apartness relation]] is usually called _tight_ if it is connected.
+This is a basic property of [[linear orders]]; an [[apartness relation]] (or indeed any [[inequality]]) is usually called _tight_ if it is connected, in which case [[equality]] is its [[negation]].
 
 Using [[excluded middle]], it is equivalent to say that every two elements are related in some order or equal:
 $$ \forall (x, y: A),\; x \sim y \;\vee\; y \sim x \;\vee\; x = y .$$
