@@ -38,9 +38,9 @@ If $F$ is real closed, then $K = F[\sqrt{-1}]$ is algebraically closed.
 
 +-- {: .proof} 
 ###### Proof 
-We must show that any [[irreducible polynomial]] $p$ of degree greater than $0$ with coefficients in $K$ has a root in $K$. 
+We must show that any [[irreducible polynomial]] $p$ of degree greater than $0$ with coefficients in $K$ has a root in $K$. Since $F$ has characteristic $0$, it is a [[perfect field]]. 
 
-The [[splitting field]] of $p$ is a finite [[Galois extension]] $L$ of $F$, with [[Galois group]] $G$. If $G(2)$ is the [Sylow 2-group](http://ncatlab.org/nlab/show/class+equation#sylow_theorems) of $G$, then the [[fixed field]] of $G(2)$ is an odd degree extension of $F$, given by adjoining a root of an odd degree irreducible polynomial $q$ over $F$. But since $F$ is real closed, $q$ has a root in $F$; by irreducibility, the degree must be $1$, so that in fact $G = G(2)$. We have ${|G|} \gt 1$ since the splitting field contains $K$. 
+Thus the [[splitting field]] of $p$ is a finite [[Galois extension]] $L$ of $F$, with [[Galois group]] $G$. If $G(2)$ is the [Sylow 2-group](http://ncatlab.org/nlab/show/class+equation#sylow_theorems) of $G$, then the [[fixed field]] $E$ of $G(2)$ is an odd degree extension of $F$. Any $\alpha \in E$ must then have an irreducible polynomial $q \in F[x]$ of odd degree. But since $F$ is real closed, $q$ has a root in $F$; by irreducibility, $\deg(q) = 1$ and $\alpha \in F$, forcing $E = F$ and $G = G(2)$. We have ${|G|} \gt 1$ since the splitting field contains $K$. 
 
 So $G$ is a $2$-[[primary group]]. But for any [[prime number]] $p$, a nontrivial finite $p$-group has nontrivial [[center]] (see [here](/nlab/show/class+equation#pgroup)), and is therefore [[solvable group|solvable]] by an inductive argument. Therefore the extension $L/F$ arises from a tower of non-trivial [[quadratic extension]]s 
 
