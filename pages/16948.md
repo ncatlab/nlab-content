@@ -92,6 +92,10 @@ In addition we have
 See at _[quaternionic Hopf fibration --  Class in equivariant stable homotopy theory](quaternionic+Hopf+fibration#ClassInEquivariantStableHomotopyTheory)_
 
 
+## Related concepts
+
+* [[equivariant stable cohomotopy]]
+
 ## References
 
 General lecture notes include
