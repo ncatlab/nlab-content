@@ -175,9 +175,3 @@ Relation to [[U-duality]]:
 [[!redirects M-theory membrane]]
 [[!redirects M-theory membranes]]
 
-[[!redirects membrane]]
-[[!redirects supermembrane]]
-[[!redirects super-membrane]]
-[[!redirects membranes]]
-[[!redirects supermembranes]]
-[[!redirects super-membranes]]
