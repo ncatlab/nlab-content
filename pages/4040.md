@@ -152,6 +152,10 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[proper maps to locally compact spaces are closed]]
 
+* [[locally compact and sigma-compact spaces are paracompact]]
+
+* [[second-countable regular spaces are paracompact]]
+
 ## Theorems
 
 * [[Urysohn's lemma]]
