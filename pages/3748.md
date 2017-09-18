@@ -105,7 +105,7 @@ carries a structure of [[actegory]] over the monoidal category $Cat/\mathbf{P}$,
 
 $$(\Gamma \circ \Delta) \circ E \cong \Gamma \circ (\Delta \circ E)$$ 
 
-for $Gamma: C \to \mathbf{P}$, $\Delta: D \to \mathbf{P}$, and a category $E$, and similarly coherent left and right unit isomorphisms. 
+for $\Gamma: C \to \mathbf{P}$, $\Delta: D \to \mathbf{P}$, and a category $E$, and similarly coherent left and right unit isomorphisms. 
 
 ### Clubs over $\mathbf{P}$
 
