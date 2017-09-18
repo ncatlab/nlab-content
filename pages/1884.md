@@ -57,7 +57,7 @@ This [[abelian group]] obtained from $(Vect(X)_{/\sim}, \oplus)$ is denoted $K(X
 This simple construction turns out to yield remarkably useful groups of [[homotopy]] [[invariants]].
 A variety of deep facts in [[algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance the [[Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)).
 
-One defines the "higher" K-groups of a topological space to be those of its higher [[suspensions]]
+One defines the "higher" K-groups of a topological space to be those of its higher [[reduced suspensions]]
 
 $$
   K^{-n}(X) = K(\Sigma^n X)
@@ -86,18 +86,17 @@ While the [[C*-algebra]] of a [[Riemannian manifold|Riemannian]] [[spin structur
 ## Definition
  {#Definition}
 
-> under construction
-
 Throughout, let $k$ be either the [[field]] of [[real numbers]] $\mathbb{R}$ or of [[complex numbers]] $\mathbb{C}$ .
 
-We take
+In the following we take
 
 1. _[[vector space]]_ to mean _[[finite dimensional vector space]]_ over $k$.
 
 1. _[[vector bundle]]_ to mean _[[topological vector bundle]] over $k$ of finite [[rank of a vector bundle|rank]]_.
 
 
-For the most part below we will assume that the base [[topological space]] $X$ is a [[compact Hausdorff space]]. Because then the following statement holds, which is crucial in some places:
+For the most part below we will assume that the base [[topological space]] $X$ is a [[compact Hausdorff space]]. 
+Because then the following statement holds, which is crucial in some places:
 
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
 ###### Lemma
@@ -327,8 +326,8 @@ $$
 **([[commutative ring]] structure on $K(X)$ from [[tensor product of vector bundles]])**
 
 Also the operation of [[tensor product of vector bundles]] over $X$ descends to
-[[isomorphism classes of vector bundles]] and makes $(Vect(X)_{\sim}, \oplus, \oplus)$
-a [[semi-ring]] ([[rig]]).
+[[isomorphism classes]] of [[topological vector bundles]] and makes $(Vect(X)_{\sim}, \oplus, \oplus)$
+a [[semi-ring]] ( [[rig]]).
 
 (This is the shadow under passing to isomorphism classes of the fact that the [[category]] $Vect(X)$
 is a [[distributive monoidal category]] under [[tensor product of vector bundles]]).
@@ -751,6 +750,7 @@ hence itself a [[non-unital ring|non-unital]] [[commutative ring]].
 
 
 ## Examples
+ {#Examples}
 
 +-- {: .num_example}
 ###### Example
@@ -765,7 +765,7 @@ $$
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #ComplexTopologicalKTheoryOfTheCircle}
 ###### Example
 **(complex topological K-theory ring of the [[circle]])
 
@@ -824,7 +824,39 @@ $$
 
 =--
 
++-- {: .num_example}
+###### Example
+**(complex topological K-theory of the [[torus]])**
 
+Consider the [[torus]] $S^1 \times S^1$, the [[product topological space]] of the [[circle]] with itself
+(with the [[Euclidean space|Euclidean]] [[subspace topology]]).
+
+By example \ref{ReducedKTheoryOfProductSpace} we have
+
+$$
+  \tilde K(S^1 \times S^1)
+    \simeq
+  \tilde K(\underset{S^2}{\underbrace{S^1 \wedge S^1}})
+    \oplus
+  \underset{= 0}{
+  \underbrace{
+  \tilde K(S^1)
+    \oplus 
+  \tilde K(S^1)
+  }}
+  \,.
+$$
+
+Since the [[smash product]] of the circle with itself is the  [[2-sphere]], and
+since, the complex K-theory of the circle vanishes by example \ref{ComplexTopologicalKTheoryOfTheCircle},
+this shows that the topological K-theory of the torus coincides with that of the 2-sphere:
+
+$$
+  K(S^1 \times S^1) \simeq K(S^2)
+  \,.
+$$
+
+=--
 
 
 
@@ -832,6 +864,7 @@ $$
 ## Properties
 
 ### Exact sequences
+ {#ExactSequences}
 
 We discuss the [[long exact sequences in cohomology]] for topological K-theory.
 
@@ -903,7 +936,7 @@ $$
   \,,
 $$
 
-where $\Sigma(-)$ denotes [[suspension]].
+where $\Sigma(-)$ denotes [[reduced suspension]].
 
 =--
 
@@ -984,11 +1017,11 @@ Similary for the inclusion of $Y$. Hence in particular these inclusions and quot
 as
 
 $$
-  id_X \;\colon\; X \longrightarrow X \vee Y \ongrightarrow X
+  id_X \;\colon\; X \longrightarrow X \vee Y \longrightarrow X
   \phantom{AA}
     \text{and}
   \phantom{AA}
-  id_Y \;\colon\; Y \longrightarrow X \vee Y \ongrightarrow Y
+  id_Y \;\colon\; Y \longrightarrow X \vee Y \longrightarrow Y
   \,.
 $$
 
@@ -1028,17 +1061,23 @@ which are [[split exact sequences|split exact]]. This implies the claim.
 
 =--
 
-+-- {: .num_example #ReducedKTheoryOfSmashProductIsDirectSum}
++-- {: .num_example #ReducedKTheoryOfProductSpace}
 ###### Example
-**(reduced K-theory of smash product is direct sum)**
+**(reduced K-theory of product space)**
 
 Let $(X,x_0)$ $(Y,y_0)$ be two [[pointed topological space|pointed]] [[compact Hausdorff spaces]] with
+$X \times Y$ their [[product topological space]] and
 $X \wedge Y$ their [[smash product]]. Then there is an isomorphism of [[reduced K-theory]] groups
 
 $$
-  \tilde K(X \wedge Y)
+  \tilde K(X \times Y)
     \;\simeq\;
-  \tilde K(X) \oplus \tilde K(Y)
+  \tilde K(X \wedge Y)
+    \oplus
+  \tilde K(X)
+    \oplus
+  \tilde K(Y)
+  \,.
 $$
 
 =--
@@ -1046,7 +1085,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Be definition the smash product is the [[quotient topological space]] of the [[product topological space]]
+Be definition, the smash product is the [[quotient topological space]] of the [[product topological space]]
 by the [[wedge sum]]:
 
 $$
@@ -1068,7 +1107,7 @@ $$
   \,.
 $$
 
-This quotient is still a [[compact topological space]] because [[images of compact spaces are compact]]
+This quotient is still a [[compact topological space]] because [[continuous images of compact spaces are compact]]
 and and it is still [[Hausdorff topological space]] 
 because [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]], so that 
 the point $(X \vee Y)/ (X \vee Y) \in (X \times Y)/(X \vee Y)$ is separated by open neighbourhoods from points
@@ -1082,7 +1121,7 @@ $$
   \tilde K( (\Sigma X) \vee (\Sigma Y))
     \longrightarrow
   \tilde K( X \wedge Y )
-    \longrightarrw
+    \longrightarrow
   \tilde K( X \times Y )
     \overset{i^\ast}{\longrightarrow}
   \tilde K(X \vee Y)
@@ -1098,7 +1137,7 @@ $$
   \tilde K(\Sigma X) \plus \tilde K(\Sigma Y)
     \longrightarrow
   \tilde K( X \wedge Y )
-    \longrightarrw
+    \longrightarrow
   \tilde K( X \times Y )
     \overset{i^\ast}{\longrightarrow}
   \tilde K(X) \oplus \tilde K(Y)
@@ -1224,13 +1263,109 @@ is an [[isomorphism]] in [[topological K-theory]].
 
 
 ### Bott periodicity
+ {#BottPeriodicity}
 
-* [[Bott periodicity]]
+
+When restricted to [[reduced K-theory]] then the [[external product theorem]] (cor \ref{ExternalProductTheorem}) yields 
+the statement of [[Bott periodicity]]:
+
++-- {: .num_prop #BottPeriodicityInTopologicalKTheory}
+###### Proposition
+**([[Bott periodicity]])
+
+Let $X$ be a  [[pointed topological space|pointed]] [[compact Hausdorff space]].
+
+Then there is an [[isomorphism]] of [[reduced K-theory]]
+
+$$
+  \tilde K(X) \overset{\simeq}{\longrightarrow} \tilde K(\Sigma^2 X)
+$$
+
+from that of $X$ to that of its double [[reduced suspension]] $\Sigma^2 X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{ReducedKTheoryOfProductSpace}
+there is for any two pointed compact Hausdorff spaces $X$ and $Y$ an [[isomorphism]]
+
+$$
+  \tilde K(Y \times X)
+    \simeq
+  \tilde K(Y \wedge X)
+    \oplus
+  \tilde K(Y)
+    \oplus
+  \tilde K(X)
+$$
+
+relating the reduced K-theory of the [[product topological space]]
+with that of the [[smash product]].
+
+Using this and the fact that for any pointed compact Hausdorff space $Z$ we have
+$K(Z) \simeq \tilde K(Z) \oplus \mathbb{Z}$ (prop. \ref{KGrupDirectSummandReducedKGroup}) the 
+isomorphism of the external product theorem (cor. \ref{ExternalProductTheorem})
+
+$$
+  K(S^2) \otimes K(X) \simeq K(S^2 \times X)
+$$
+
+becomes
+
+$$
+  \left(
+    \tilde K(S^2) \oplus \mathbb{Z}
+  \right)
+    \otimes
+  \left(
+     \tilde K(X) \oplus \mathbb{Z}
+  \right)
+   \;\simeq\;
+  \left(
+    \tilde K(S^2 \times X)
+     \oplus
+     \mathbb{Z}
+  \right)
+   \simeq
+  \left(
+    \tilde K(S^2 \wedge X)
+      \oplus
+    \tilde K(S^2)
+      \oplus
+    \tilde K(X)
+      \oplus
+    \mathbb{Z}
+  \right)
+  \,.
+$$
+
+Multiplying out and chasing through the constructions to see that this reduces to an isomorphism on the 
+common summand $\tilde K(S^2) \oplus \tilde K(X) \oplus \mathbb{Z}$, this yields an isomorphism of the form
+
+$$
+  \tilde K(S^2) \otimes \tilde K(X)
+    \simeq
+  \tilde K(S^2 \wedge X)
+    =
+  \tilde K(\Sigma^2 X)
+  \,,
+$$
+
+where on the right we used that [[smash product]] with the 2-sphere is the same as double [[reduced suspension]]. 
+Finally $\tilde K(S^2) \simeq \mathbb{Z}$ (example \ref{TopologicalKTheoryRingOfThe2Sphere}), 
+so that the left hand reduces to $\tilde K(X)$.
+
+=--
+
+
+
 
 ### Classifying space
  {#ClassifyingSpace}
 
-We discuss how the [[classifying space]] for $K^0$ is the [[delooping]] of the [[stable unitary group]].
+We discuss how the [[classifying space]] for $\tilde K^0$ is the [[delooping]] of the [[stable unitary group]].
 
 +-- {: .num_defn #BUn}
 ###### Definition
@@ -1438,7 +1573,8 @@ is a model for the [[classifying space]] of reduced K-theory.
 
 ### As a generalized cohomology theory
 
-That topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]] was shown (at least) in (Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61))
+That topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]] 
+was shown (at least) in [Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61))
 
 ### Spectrum
 
@@ -1459,7 +1595,8 @@ See at _[[differential cohomology diagram]]_.
 
 The topological K-theory over a space $X$ is not
 identical with the _[[algebraic K-theory]]_ of the
-ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch), [Rosenberg](#Rosenberg)). See at _[[comparison map between algebraic and topological K-theory]]_.
+ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch), [Rosenberg](#Rosenberg)). 
+See at _[[comparison map between algebraic and topological K-theory]]_.
 
 
 
