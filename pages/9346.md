@@ -276,7 +276,7 @@ In an [[S-matrix]] theory such as [[perturbative string theory]]
 
 Since, as opposed to a [[fundamental particle]], the string is extended, at the string scale string theory is not given by a [[local field theory]]. This superficially seems to suggest that at such scales also [[causality]] might be violated in string theory. However, computation shows that the [[string scattering amplitude|string scattering]] [[S-matrix]] comes out suitably analytic and causal (e.g. [Martinec 95](causal+locality#Martinec95)).
 
-A detailed analysis for how this comes about has been given in ([Erler-Grross 04](#causal+locality#ErlerGross04)). They write:
+A detailed analysis for how this comes about has been given in ([Erler-Gross 04](#causal+locality#ErlerGross04)). They write:
 
 
 > Perhaps then it comes as a surprise that critical string theory produces an analytic [[S-matrix]] consistent with macroscopic causality. In absence of any other known theoretical mechanism which might explain this, despite appearances one is lead to believe that string interactions must be, in some sense, local.
