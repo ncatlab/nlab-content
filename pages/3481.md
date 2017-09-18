@@ -42,15 +42,15 @@ The second formulation seems to be the one originally given by M&P, below, while
 
 * An extension of this argument shows that [[COSHEP]] is sufficient to imply AMC.
 
-* The [[Reflection Principle]] (RP) is equivalent to AMC (called stong AMC by van den Berg). RP is motivated by the regular extension principle (REA) from constructive set theory. RP states that every map belongs to a representable class of small maps.
+* The [[Reflection Principle]] (RP) is equivalent to AMC (called strong AMC by van den Berg). RP is motivated by the regular extension principle (REA) from constructive set theory. RP states that every map belongs to a representable class of small maps.
 
 * However, AMC does not imply [[countable choice]] or any of the other usual consequences of AC.
 
 * Rathjen proves that [[SVC]] also implies AMC.  It follows that AMC holds in "most" models of set theory.
 
-* AMC implies [[WISC]], and therefore also implies that the category of [[anafunctors]] between two [[small categories]] is [[essentially small category|essentially small]].
+* AMC implies [[WISC]], and therefore also implies that the category of [[anafunctors]] between two [[small categories]] is [[essentially small category|essentially small]]. Thus WISC may be termed "weak axiom of multiple choice".
 
-* A [[ΠW-pretopos]] satisfying the axiom of multiple choice is a _[[predicative topos]]_.
+* A [[ΠW-pretopos]] satisfying the (weak) axiom of multiple choice is a _[[predicative topos]]_, or removing the word "weak", we may speak of a strong predicative topos.
 
 ## References
 
