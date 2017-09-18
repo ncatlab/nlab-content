@@ -61,3 +61,4 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 [[!redirects Barr exact category]]
 [[!redirects Barr exact categories]]
 [[!redirects effective regular category]]
+[[!redirects Barr-exact]]
