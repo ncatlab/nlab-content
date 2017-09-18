@@ -1,7 +1,7 @@
 
 > 'Contrariwise,' continued Tweedledee, 'if it was so, it might be; and if it were so, it would be; but as it isn't, it ain't. That's logic.' 
 
-> (Louis Carroll, _[Through the Looking Glass](http://sabian.org/looking_glass4.php)_)
+> (Lewis Carroll, _[Through the Looking Glass](http://sabian.org/looking_glass4.php)_)
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
