@@ -32,26 +32,26 @@ For more technical details see there _[equivariant cohomology -- Bredon equivari
 Let $G$ be a [[compact Lie group]], write $orb_G$ for its [[orbit category]] and write $PSh_\infty(Orb_G)$ for the [[(∞,1)-category of (∞,1)-presheaves]] over $Orb_G$. By [[Elmendorf's theorem]] this is [[equivalence of (∞,1)-categories|equivalent]] to the [[homotopy theory]] of [[topological G-spaces]] with weak equivalences the $H$-[[fixed point]]-wise [[weak homotopy equivalences]] for all closed subgroups $H$ ("the [[equivariant homotopy theory]]"):
 
 $$
-  \mathbf{H}_{/\mathbf{B}G} \coloneqq  L_{fpwe} G Top \simeq PSh_\infty(Orb_G)
+  \mathbf{H}^{org_G^{op}} \coloneqq  L_{fpwe} G Top \simeq PSh_\infty(Orb_G)
   \,.
 $$
 
-A [[spectrum object]] $E \in Stab(\mathbf{H}_{/\mathbf{B}G})$ in the [[(∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ is what is called a [[spectrum with G-action]] or, for better or worse, a "[[naive G-spectrum]]".
+A [[spectrum object]] $E \in Stab(\mathbf{H}^{org_G^{op}})$ in the [[(∞,1)-topos]] $\mathbf{H}^{org_G^{op}}$ is what is called a [[spectrum with G-action]] or, for better or worse, a "[[naive G-spectrum]]".
 
-For $X$ a [[G-space]], then its [[cohomology]] in $\mathbf{H}_{/\mathbf{B}G}$with [[coefficients]] in such $A$ might be called _generalized Bredon cohomology_ (in the "generalized" sense of [[generalized (Eilenberg-Steenrod) cohomology]]).
+For $X$ a [[G-space]], then its [[cohomology]] in $\mathbf{H}^{org_G^{op}}$ with [[coefficients]] in such $A$ might be called _generalized Bredon cohomology_ (in the "generalized" sense of [[generalized (Eilenberg-Steenrod) cohomology]]).
 
 Specifically for $n \in \mathbb{N}$ and $A \in Ab(Sh(Orb_G))$ an [[abelian sheaf]] then there is an [[Eilenberg-MacLane object]]
 
 $$
-  K(n,A) \in \mathbf{H}_{\mathbf{B}G}
+  K(n,A) \in \mathbf{H}^{org_G^{op}}
 $$
 
 whose [[categorical homotopy groups in an (infinity,1)-topos|categorical homotopy groups]] are concentrated in degree $n$ on $A$.
 
-Then _ordinary Bredon cohomology_ (in the "ordinary" sense of [[ordinary cohomology]]) in degree $n$ with [[coefficients]] in $A$ is cohomology in $\mathbf{H}_{/\mathbf{B}G}$ with coefficients in $K(n,A)$:
+Then _ordinary Bredon cohomology_ (in the "ordinary" sense of [[ordinary cohomology]]) in degree $n$ with [[coefficients]] in $A$ is cohomology in $\mathbf{H}^{org_G^{op}}$ with coefficients in $K(n,A)$:
 
 $$
-  H_G^n(X,A) \simeq \pi_0 \mathbf{H}_{/\mathbf{B}G}(X,A)
+  H_G^n(X,A) \simeq \pi_0 \mathbf{H}^{org_G^{op}}(X,A)
 $$
 
 (see the general discussion at _[[cohomology]]_).
