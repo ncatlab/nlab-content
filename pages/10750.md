@@ -4928,7 +4928,7 @@ $$
   \,.
 $$
 
-Here $O(n)\times D^{n-q}$ has the structure of a [[smooth manifold]] [[manifold with boundary|with boundary]] and equipped with a smooth [[action]] of the [[compact Lie group]] $O(n-q)$. Under these conditions ([Illmann 83, corollary 7.2](G-CW+complex#Illmann83)) states that $O(n) \times D^{n-q}$ admits the structure of a [[G-CW complex]] for $G = O(n-q)$, and moreover ([Illmann 83, line above theorem 7.1](G-CW+complex#Illmann83)) states that this may be chosen such that the boundary is a $G$-CW subcomplex.
+Here $O(n)\times D^{n-q}$ has the structure of a [[smooth manifold]] [[manifold with boundary|with boundary]] and equipped with a smooth [[action]] of the [[compact Lie group]] $O(n-q)$. Under these conditions ([Illman 83, corollary 7.2](G-CW+complex#Illman83)) states that $O(n) \times D^{n-q}$ admits the structure of a [[G-CW complex]] for $G = O(n-q)$, and moreover ([Illman 83, line above theorem 7.1](G-CW+complex#Illman83)) states that this may be chosen such that the boundary is a $G$-CW subcomplex.
 
 Now the quotient of a $G$-CW complex by $G$ is a [[CW complex]], and so the last expression above exhibits the quotient of a CW-complex by a subcomplex, hence exhibits CW-complex structure.
 
@@ -6756,7 +6756,7 @@ The category $OrthSpec(Top_{cg})$ of [[orthogonal spectra]] carries a [[model ca
 
 * the fibrant objects are precisely the [[Omega-spectra]] (def. \ref{StableOrthStructureClassesOfMorphisms}).
 
-Moreover, this is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations given in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}.
+Moreover, this is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations the sets $I^{stable}$ ($J^{stable}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}.
 
 =--
 
@@ -6804,7 +6804,7 @@ The factorization in def. \ref{ResolutionOfCorepresentationOfAdjunctsOfStructure
 
 
 Since the cell $S^1$ is cofibrant in $(Top^{\ast/}_{cg})_{Quillen}$, and since $F_{n+1}(-)$ is a left Quillen functor by prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction},
-the free spectrum $F_{n+1}S^1$ is cofibrant in $\mathbb{S}_{dia}Mod(Top_{cg})_{strict}$. Therefore lemma \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} says that its standard [[cylinder spectrum]] is a good [[cylinder object]] and then the [[factorization lemma]] ([lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)) says that $k_n$ is a cofibraton. Moreover, the morphism out of the standard mapping cylinder is a homotopy equivalence, with homotopies induced under tensoring from the standard homotopy contracting the standard cylinder.
+the free spectrum $F_{n+1}S^1$ is cofibrant in $\mathbb{S}_{dia}Mod(Top_{cg})_{strict}$. Therefore lemma \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} says that its standard [[cylinder spectrum]] is a good [[cylinder object]] and then the [[factorization lemma]] ([lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)) says that $k_n$ is a cofibration. Moreover, the morphism out of the standard mapping cylinder is a homotopy equivalence, with homotopies induced under tensoring from the standard homotopy contracting the standard cylinder.
 
 
 =--
@@ -6857,13 +6857,21 @@ $ (def. \ref{StableGeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra})
 +-- {: .proof}
 ###### Proof 
 
-First regarding strict cofibrations: By the [[Yoneda lemma]], the elements in $J$ have [[right lifting property]] against the strict fibrations, hence in particular they are strict cofibrations. Moreover, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^{\Box i}$. By prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} the latter is still a strict acyclic fibration. Since $k_n$ by construction is a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
+First regarding strict cofibrations: 
 
-Regarding stable weak homotopy equivalences: The morphisms in $J^{strict}$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. The morphisms $k_n$ are stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} and by [[two-out-of-three]].
+By the [[Yoneda lemma]], the elements in $J$ have [[right lifting property]] against the strict fibrations, hence in particular they are strict cofibrations. Moreover, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^{\Box i}$. By prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} the latter is still a strict acyclic fibration. Since $k_n$ by construction is a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
+
+Now regarding stable weak homotopy equivalences: 
+
+The morphisms in $J^{strict}$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. The morphisms $k_n$ are stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} and by [[two-out-of-three]].
 
 To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 02, p.46](#May02)): 
 
-First $k_n \wedge (S^{n-1})_+$ is still a stable weak homotopy equivalence, by lemma. \ref{SmashTensoringWithFiniteCellComplexPreservesSWHE}. This implies by lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} that its pushout along $dom(k_n)\wedge i_+$ is still a stable weak homtopy equivalence, and so $k_n \Box i_+$ is by [[two-out-of-three]].
+First $k_n \wedge (S^{n-1})_+$ is still a stable weak homotopy equivalence, by lemma. \ref{SmashTensoringWithFiniteCellComplexPreservesSWHE}. 
+
+Moreover, observe that $dom(k_n)\wedge i_+$ is degreewise a [[relative cell complex]] inclusion, hence degreewise a cofibration in the [[classical model structure on pointed topological spaces]]. This follows from lemma \ref{S0FreeSpectraCellDegreewise}, which says that $dom(k_n) \wedge i_+$ is degreewise the [[smash product]] of a [[CW complex]] with $i_+$, and from the fact that smashing with CW-complexes is a left Quillen functor $(Top^{\ast/}_{cg})_{Quillen} \longrightarrow (Top^{\ast/}_{cg})_{Quillen}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomProductAdjunctionForCofibrantObjectInPointedTopCGIsQuillen)) and hence preserves cofibrations.
+
+Altogether this implies by lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} that the  pushout of the stable weak homotopy equivalence $k_n \wedge (S^{n-1})_+$ along the degreewise cofibration $dom(k_n)\wedge i_+$ is still a stable weak homtopy equivalence, and so the pushout product $k_n \Box i_+$ is, too, by [[two-out-of-three]].
 
 
 =--
@@ -7039,7 +7047,7 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 +-- {: .num_theorem #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
 ###### Theorem
 
-The stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes}, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
+The stable model structure $OrthSpec(Top_{cg})_{stable}$ of theorem \ref{StableModelStructuresOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
 
 $$
   (\mathbb{S}_{dia}Mod_{stable},\; \wedge = \otimes_{\mathbb{S}_{dia}},\; \mathbb{S}_{dia}  )
@@ -7054,14 +7062,49 @@ $$
 +-- {: .proof}
 ###### Proof
 
-That the pushout product of two stable cofibrations is again a stable cofibration is part of theorem \ref{MonoidalStrictModelStructure}.
+Since $Cof_{stable} = Cof_{strict}$, the fact the pushout product of two stable cofibrations is again a stable cofibration is part of theorem \ref{MonoidalStrictModelStructure}.
+
 It remains to show that if at least one of them is a [[stable weak homotopy equivalence]] (def. \ref{StableOrthStructureClassesOfMorphisms}), then so is the pushout-product.
 
-That follows with a laborious argument using the above lemmas (...).
+Since $OrthSpec(Top_{cg})$ is a [[cofibrantly generated model category]] by theorem \ref{OrthogonalSpectraStableModelStructure} and since it has [[internal homs]] ([[mapping spectra]]) with respect to $\otimes_{\mathbb{S}_{dia}}$ (prop. \ref{DayMonoidalStructureIsClosed}), it suffices (as in the proof of [this prop.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProductInTopCGSendsCofCofToCof)) to check this on generating (acylic) cofibrations, i.e. to check that
+
+$$
+  I^{stable}
+    \Box_{\otimes}
+  J^{stable}
+    \subset 
+  W_{stable} \cap Cof_{stable}
+  \,.
+$$
+
+Now $I^{\stable} = I^{strict}$ and  $J^{stable} = J^{strict} \sqcup \{ k_n \Box i_+\}$ so that the special case
+
+$$
+  \begin{aligned}
+    I^{stable} \Box_{\otimes} J^{strict} 
+    &=
+    I^{strict} \Box_{\otimes} J^{strict}
+    \\
+      &\subset 
+     W_{strict}\cap Cof_{strict}
+     \\
+      & \subset 
+     W_{stable} \cap Cof_{stable}
+  \end{aligned}
+$$
+
+follows again from the monoidal stucture on the strict model category of theorem \ref{MonoidalStrictModelStructure}.
+
+It hence remains to see that 
+
+$$
+  I^{strict} \Box_{\otimes} ( k_n \Box  i_+ )
+$$
+
+(...)
 
 =--
 
-(...)
 
 #### Higher algebra
  {#HigherAlgebra}
