@@ -38,10 +38,10 @@ There is an article of [[William Lawvere]] which is relevant for a page document
 
 
 
-With "the negative is in a way appropriate" Lawvere explains the strong negation *irr-* even though such an "irreflexive graph" *may* contain loops at *some* vertices, which is obviously different from what one would *expect* from the usual sense of [[irreflexive relation]]. 
-This should be explained explicitly all the more in view of simple undirected graph often being literally defined as *symmetric irreflexive relations* on a set. 
+With "the negative is in a way appropriate" Lawvere explains the use of the strong negation *irr-*, despite such an "irreflexive graph" being permitted to contain loops at *some* of its vertices, which is obviously different from what one would *expect* from the usual sense of [[irreflexive relation]]. 
+This is a usage in need of explanation, all the more against the backdrop of contemporary teaching where the term "simple undirected graph" is often literally defined as *symmetric irreflexive relation* (on the vertex set).
 
-Some authors have adopted this interesting variant sense of "irreflexive", prompting an additional use of the a modifier "strict" to form a composite "strict irreflexive graph". (cf. [p. 7](#GraphsOfMorphismsOfGraphs); note that [BMSW](#GraphsOfMorphismsOfGraphs) uses "digraph" as a synonym for "strict irreflexive graph", and this conventional sense of "digraph" is precisely the one in [[digraph]]).
+Some authors have adopted this interesting variant sense of "irreflexive", prompting an additional use of the a modifier "strict" to form a composite "strict irreflexive graph". (cf. [p. 7](#GraphsOfMorphismsOfGraphs); note that [BMSW](#GraphsOfMorphismsOfGraphs) uses "digraph" as a synonym for "strict irreflexive graph", and this sense of "digraph" is precisely the one in [[digraph]]).
 
 
 An example of a use of digraph theory in category theory is giving a rigorous justification of the  notational practice of [[pasting diagrams]]. 
@@ -65,10 +65,11 @@ It is a fact that [[quivers]] are more general than [[digraph]]s: to have [[digr
 The restriction to loopless quivers without parallel arcs is mostly a result of 
 
 * the *questions* that are answered in the combinatorial literature, 
-* a tendency in combinatorics to formalized *multiplicities* by attaching *weights* (mostly [[number]]s) to a single arc of a directed graph, thus seeing no need for actual multiplicities of the arcs, while in category theory one tends to construct a mathematical structure for a given purpose right from the start, instead of tacking further mathematical objects of different types onto another structure. 
+* a tendency in combinatorics to formalize *multiplicities* by attaching *weights* (mostly [[number]]s) to the single arc of a graph, seeing no need for actual multiplicities of the arcs. 
+In category theory, one rather tends to prefer constructing a mathematical structure for a given purpose by a more "uniform" method, and not tack on objects of different types onto another structure. 
 
 
-The difference between the two formalizations, given in [[digraph]] and [[quiver]], can be seen to be analogous to the differences between [[material set theory]] and [[structural set theory]].
+The difference between the two formalizations, given in [[digraph]] and [[quiver]], can be seen to be similar to the differences between [[material set theory]] and [[structural set theory]].
 
 The material point of view makes the decision of how to represent the connections loom large (examples are the various different data structures for digraphs, such as signed adjacency matrices, signed incidence matrices, linked lists for adjacency *lists*, one often vastly more efficient than the other).  
 
@@ -81,7 +82,7 @@ All these points of view have disadvantages and advantages and it depends on wha
 
 ## Related concepts
 
-  * [[digraph]] (briefly, _a_ usual meaning of this term is a rather strict one: quiver with*out* any loop and with*out* any parallel edges)
+  * [[digraph]] (briefly, the usual meaning of this term in combinatorics uses two [[negation]]s: quiver with*out* any loop and with*out* any parallel edges)
 
   * [[graph]]
 
