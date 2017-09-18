@@ -13,7 +13,33 @@ For $p$ a [[prime number]], a [[group]] is _$p$-primary_ if each of its elements
 
 ### Relation to finite abelian group
 
-Every [[finite abelian group]] is a [[direct sum]] of its $p$-primary subgroups.
+Every [[finite abelian group]] is a [[direct sum]] of its $p$-primary subgroups. 
+
+### Nilpotency 
+
++-- {: .num_prop #center} 
+###### Proposition 
+Every $p$-primary group $G$ has a nontrivial [[center of a group|center]] $Z(G)$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+In general, given an [[action]] of $G$ on a set $A$, $G$ acts on the [[orbit]] $Orb(a)$ of an element $a \in A$ and there is an isomorphism of $G$-sets $G/Stab(a) \cong Orb(a)$ where $Stab(a) := \{g \in G: g a = a\}$ is the [[stabilizer]]. The set $A$ is partitioned into orbits which are the connected components of the associated [[action groupoid]], and by choosing a representative element $a_x$ of each orbit $x$, we have a direct sum representation which is an isomorphism of $G$-sets: 
+
+$$A \cong \sum_{orbits x} G/Stab(a_x).$$
+
+In the special case where $G$ acts on $A = G$ by the conjugation action $G \times G \to G$, $(g, h) \mapsto g h g^{-1}$, we have that $Orb(h)$ is the [[conjugacy class]] of $h$, and $Orb(h)$ is trivial (consists of exactly one element $h$) iff $h$ belongs to $Z(G)$. In any case ${|Orb(h)|} = {|G|}/{|Stab(h)|}$ divides ${|G|} = p^n$, and thus $p$ divides ${|Orb(h)|}$ if $h$ is noncentral. Taking cardinalities of the direct sum representation, we have the *class equation* 
+
+$${|G|} = {|Z(G)|} + \sum_{nontrivial\; orbits x} {|Orb(a_x)|}$$ 
+
+and now since $p$ divides ${|G|}$ as well as the sum over nontrivial orbits, it must also divide ${|Z(G)|}$. 
+=-- 
+
+Since the center $Z(G)$ is a [[normal subgroup]] of $G$, we may define by induction (with the help of this proposition [here](/nlab/show/normal+subgroup#inverse)) a series of inclusions of normal subgroups $Z^k(G) \subseteq G$ where $Z^0(G)$ is the trivial subgroup and $Z^k(G)$ is the inverse image of the center $Z(G/Z^{k-1}(G))$ along the canonical homomorphism $G \to G/Z^{k-1}(G)$. The resulting series 
+
+$$Z^0(G) \subseteq \ldots \subseteq Z^{k-1}(G) \subseteq Z^k(G) \subseteq \ldots$$ 
+
+is called the *upper central series* of $G$, and Proposition \ref{center} shows that in the case of a $p$-group, this series consists of strict inclusions that eventually terminate in the full subgroup $G$. A group with that property is a [[nilpotent group]]. In particular it is a [[solvable group]]. 
 
 ## Examples
 
