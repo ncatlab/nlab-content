@@ -25,7 +25,7 @@
 ## Idea
 
 Where ordinary 3d [[Chern-Simons theory]] is given by an [[action functional]] with values in the [[circle group]] $\mathbb{R}/\mathbb{Z}$ on a space of [[special unitary group]]-[[principal connections]], its 
-"[[analytic continuation]]"([Gukov 03](#Gukov03), [Witten 10](#Witten10)) instead is defined on complex [[special linear group]]-principal connections and its values are elements in $\mathbb{C}/\mathbb{Z}$.
+"[[analytic continuation]]"([Gukov 03](#Gukov03), [Witten 10](#Witten10)) instead is defined on complex [[special linear group]]-principal connections and its values are elements in $\mathbb{C}/\mathbb{Z}$ (see also at _[[Chern-Simons theory with complex gauge group]]_).
 
 The [[Wilson line]] [[quantum observables]] of analytically continued Chern-Simons theory are accordingly [[analytic continuations]] of [[knot invariants]] ([Garoufalidis 07](#Garoufalidis07)).
 
@@ -34,6 +34,8 @@ The [[Wilson line]] [[quantum observables]] of analytically continued Chern-Simo
 Discussion of the [[phase space]] with its complex symplectic form is in [Gukov 03, section 2.2](#Gukov03)
 
 ## Related concepts
+
+* [[Chern-Simons theory with complex gauge group]]
 
 * [[volume conjecture]]
 
