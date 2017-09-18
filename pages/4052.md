@@ -154,7 +154,7 @@ Discussion of the 2-categorical [[Giraud theorem]] for [[2-sheaf]] 2-toposes is 
 
 Discussion of the [[elementary topos]]-analog of 2-toposes is in
 
-* [[Mark Weber]], _Yoneda structures from 2-toposes_ ([pdf](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf))
+* [[Mark Weber]], _Yoneda structures from 2-toposes_ ([pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes))
 
 [[!redirects 2-toposes]]
 [[!redirects 2-topoi]]
