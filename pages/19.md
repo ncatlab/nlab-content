@@ -339,7 +339,7 @@ This and much more history is recalled in
   
 * [[Peter Freyd]] and Andre Scedrov, _[[Categories, Allegories]]_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
 
-* [[F. William Lawvere]] and [[Stephen Schanuel]], _Conceptual Mathematics: a first introduction to categories_, $2^{nd}$ Edition, Cambridge University Press 2009. 
+* {#LawvereSchanuel09} [[F. William Lawvere]] and [[Stephen Schanuel]], _Conceptual Mathematics: a first introduction to categories_, $2^{nd}$ Edition, Cambridge University Press 2009 ([pdf](http://fef.ogu.edu.tr/matbil/eilgaz/kategori.pdf))
 
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
