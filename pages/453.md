@@ -89,7 +89,7 @@ Examples of regular categories include the following:
 
 * The category of [[algebra over a Lawvere theory|models]] of any finitary [[algebraic theory]] (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of [[abelian group]]s. 
 
-* Actually, any category that is [[monadic functor|monadic]] over [[Set]] is regular. For example, the category of [[frames]] $Frm \simeq Loc^{op}$ is regular, and the category of [[compact Hausdorff spaces]] is regular. 
+* Actually, any category that is [[monadic functor|monadic]] over [[Set]] is regular. For example, the category of [[frames]] $Frm \simeq Loc^{op}$ is regular, and the category of [[compact Hausdorff spaces]] is regular. A proof may be found [here](/nlab/show/colimits+in+categories+of+algebras#exact). 
 
 * Any [[abelian category]] is regular. 
 
