@@ -34,7 +34,7 @@ Upon [[KK-compactification]] on a 6-dimensional fiber, with the 11d KK-monopole 
 ## Relation to the D6-brane in type IIA string theory 
  {#RelationToTheD6Brane}
 
-Under the relation between [[M-theory]] and [[type IIA superstring theory]] the an [[ADE orbifold]] of the KK-monopole  corresponds to [[D6-branes]] combined with [[O6-planes]] ([Townsend 95, p. 6](#Townsend95), [Atiyah-Witten 01, p. 17-18](#AtiyahWitten01) see also e.g. [Berglund-Brandhuber 02, around p. 15](#BerglundBrandhuber02)). 
+Under the relation between [[M-theory]] and [[type IIA superstring theory]] an [[ADE orbifold]] of the 11d KK-monopole  corresponds to [[D6-branes]] combined with [[O6-planes]] ([Townsend 95, p. 6](#Townsend95), [Atiyah-Witten 01, p. 17-18](#AtiyahWitten01) see also e.g. [Berglund-Brandhuber 02, around p. 15](#BerglundBrandhuber02)). 
 
 By ([Townsend 95, (1)](#Townsend95), [Sen 97 (1)-(4)](#Sen97)) the 11d [[spacetime]] describing the KK-monopole lift of a plain single D6 brane is   $\mathbb{R}^{6,1}\times \mathbb{R}^3\times S^1$ with [[metric tensor]] away from the origin of the $\mathbb{R}^3$-factor (which is the locus of the lifted D6/monopole) being  
 
