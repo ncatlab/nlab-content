@@ -56,7 +56,7 @@ $$
 such that for every [[object]] $X \in \mathcal{C}$ we have a pair of [[adjoint functors]]
 
 $$
-  ((-) \otimes X \vdash [X, -]) : \mathcal{C} \to \mathcal{C}
+  ((-) \otimes X \dashv [X, -]) : \mathcal{C} \to \mathcal{C}
   \,.
 $$
 
