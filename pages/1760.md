@@ -7,7 +7,7 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
-#### Stabe homotopy theory
+#### Stable homotopy theory
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
 =--
