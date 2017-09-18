@@ -151,33 +151,40 @@ where $\flat_{dR}\mathbf{B}^3\mathbb{R}$ is the [[moduli infinity-stack|higher m
 Since the GL-transformations in questions define a [[vielbein]] field $E$, one may also ask for $\sigma$ to be locally of the form $\phi_{a_1 a_2 a_3}E^{a_1}\wedge E^{a_2}\wedge E^{a_3}$ (...) (e.g. [BGGG 01 (2.9)](#BGGG01))
 
 
-### $G_2$-holonomy
+### $G_2$-holonomy / $G_2$-manifold
  {#G2Holonomy}
 
 +-- {: .num_defn #G2manifold}
 ###### Definition
 
-A manifold equipped with a $G_2$-structure, def. \ref{G2Structure}, is called a **$G_2$-manifold** if the 3-form $\omega$ corresponding to it via prop. \ref{G2StructureViaDefinite3Form} satisfies 
+A manifold $X$ equipped with a $G_2$-structure, def. \ref{G2Structure}, is called a **$G_2$-manifold** if the following equivalent conditions hold
 
-1. $\mathbf{d} \omega = 0$ 
+1. we have
 
-1. $\mathbf{d} \star \omega = 0$
+   1. $\mathbf{d} \omega = 0$;
 
-(where $d$ is the [[de Rham differential]] and $\star$ is the [[Hodge star operator]] of the canonical [[Riemannian metric]] of remark \ref{CanonicalRiemannianMetric}).
+   1. $\mathbf{d} \star_g \omega = 0$;
 
-Equivalently this means that $\omega$ is [[covariant derivative|covariantly constant]]
+1. $\nabla^g \omega = 0$;
 
-$$
-  \nabla \omega = 0
-  \,.
-$$
+1. $(X,g)$ has [[special holonomy]] $Hol(g) \subset G_2$.
+
+Here
+
+* $d$ is the [[de Rham differential]];
+
+* $\omega$ is the 3-form $\omega$ corresponding to the given $G_2$-structure via prop. \ref{G2StructureViaDefinite3Form};
+
+* $g$ is the induced [[Riemannian metric]] of remark \ref{CanonicalRiemannianMetric});
+
+* $\star_g$ is the [[Hodge star operator]] of this metric;
+
+* $\nabla^g$ is the [[covariant derivative]] of this metric;
 
 =--
 
-For instance ([Joyce, p. 4](#Joyce)).
+For instance ([Joyce, p. 4](#Joyce), [Joyce 00, prop. 10.1.3](#Joyce00)).
 
-
-The [[holonomy]] of the [[Levi-Civita connection]] on a $G_2$-manifold is contained in $G_2$.
 
 ### Weak $G_2$-holonomy
  {#WeakG2Holonomy}
