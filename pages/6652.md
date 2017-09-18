@@ -7,4 +7,6 @@
 
 * [[electric-magnetic duality]]/[[S-duality]]
 
+* [[M-theory lift of gauge enhancement on D6-branes]]
+
 category: people
