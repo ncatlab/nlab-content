@@ -29,46 +29,67 @@ What is sometimes called the _co-Yoneda lemma_ is a basic fact about [[presheave
 One might think of this as related by [[duality]] to the [[Yoneda lemma]], hence the name.
 
 ## Every presheaf is a colimit of representables
+ {#EveryPresheafIsAColimitOfRepresentables}
 
-Recall that the [[Yoneda lemma]] says that for $C$ a $V$-[[enriched category]], $F : C^{op} \to V$ a $V$-valued [[presheaf]] on $C$ and $c \in C$ an [[object]] of $C$, there is a natural [[isomorphism]] in $V$
+Throughout, let 
+
+* $V$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]] (for instance $V = $ [[Set]] with its [[Cartesian product]]);
+
+* $\mathcal{C}$ a [[small category|small]] $V$-[[enriched category]].
+
+For $c,d \in Obj(\mathcal{V})$ two objects, we write $\mathcal{C}(c,d) \in V$ for the [[hom-object]].
+
++-- {: .num_remark}
+###### Remark
+**([[Yoneda reduction]])**
+
+Recall that the ([[enriched Yoneda lemma|enriched]]) [[Yoneda lemma]] says that for $F \colon \mathcal{C}^{op} \to V$ a $V$-[[enriched functor]] out of the [[opposite category]] of $\mathcal{C}$, hence a $V$-valued [[presheaf]] on $\mathcal{C}$ and $c \in \mathcal{C}$ an [[object]] of $\mathcal{C}$, there is a [[natural isomorphism]] in $V$
 
 $$
-  [C^{op},V](C(-,c), F) \simeq F(c)
+  [\mathcal{C}^{op},V](\mathcal{C}(-,c), F) \simeq F(c)
+  \,,
+$$
+
+where on the left we have the [[hom-object]] in the [[enriched functor category]] between the [[representable functor|functor represented]] by $c$ and the given functor $F$.
+
+Using the expression of these hom-ebjects on the left as _[[ends]]_, this reads
+
+$$
+  \int_{c' \in \mathcal{C}} V(\mathcal{C}(c',c), F(c')) \simeq F(c)
   \,.
 $$
 
-Using the definition of the [[enriched functor category]] on the left in terms of an [[end]], this reads
+In this form the Yoneda lemma is also referred to as _[[Yoneda reduction]]_.
 
-$$
-  \int_{c' \in C} V(C(c',c), F(c')) \simeq F(c)
-  \,.
-$$
-
-In this form the Yoneda lemma is also referred to as [[Yoneda reduction]].
+=--
 
 Under [[duality|abstract duality]] an [[end]] turns into a [[coend]], so a co-Yoneda lemma ought to be a similarly fundamental expression for $F(c)$ in terms of a [[coend]].
 
-The natural candidate is the statement that **every [[presheaf]] is a [[colimit]] of [[representable functor|representables]]** which may be stated as
+The natural candidate is the statement that:
+
+
++-- {: .num_prop #coYonedaLemma}
+###### Proposition
+
+Every [[presheaf]] $F$ is a [[colimit]] of [[representable functor|representables]], in that
 
 $$
-  F(c) \simeq \int^{c' \in C} C(c,c')\otimes F(c')
+  F(c) \simeq \int^{c' \in C} \mathcal{C}(c,c')\otimes F(c')
 $$
 
 hence
 
 $$
-  F(-) \simeq \int^{c' \in C} Y(c')\otimes F(c')
+  F(-) \simeq \int^{c' \in \mathcal{C}} Y(c')\otimes F(c')
   \,,
 $$
 
-where $Y$ denotes the [[Yoneda embedding]]. In [[module]] language, using the [[tensor product of functors]], this reads
+where $Y$ denotes the [[Yoneda embedding]]. In [[module]]-language, using the [[tensor product of functors]], this reads
 
 $$
-  F(c) \simeq C(c,-)\otimes_C F
+  F(c) \simeq \mathcal{C}(c,-)\otimes_{\mathcal{C}} F
   \,.
 $$
-
-This statement we call the **co-Yoneda lemma**.
 
 Yet another way to state this is as a [[colimit]] over the [[comma category]] $(Y,F)$, for $Y$ the [[Yoneda embedding]]:
 
@@ -78,36 +99,184 @@ $$
 $$
 
 
+=--
+
+This statement we call the **co-Yoneda lemma**.
+
+
 
 +-- {: .proof}
 ######Proof
 
-To show that a presheaf $F: C^{op} \to Set$ is canonically presented as a colimit of representables, we exhibit a natural isomorphism 
+To show that a presheaf $F \colon \mathcal{C}^{op} \to V$ is canonically presented as a colimit of representables, we exhibit a natural isomorphism 
 
-$$\int^{c: C} F(c) \times \hom_C(-, c) \cong F$$
+$$
+  \int^{c} F(c) \otimes \mathcal{C}(-, c) 
+   \;\cong\; 
+  F
+$$
 
-By the definition of coend, maps $\int^c F(c) \times \hom_C(-, c) \to G(-)$ are in natural bijection with families of maps $F(c) \times \hom_C(d, c) \to G(d)$ extranatural in $c$ and natural in $d$. Those are in natural bijection with families of maps $F(c) \to \hom(\hom_C(d, c), G(d))$ natural in $c$ and extranatural in $d$. These are in natural bijection with families of maps $F(c) \to Nat(\hom_C(-, c), G) \cong G(c)$ (natural in $c$), where the isomorphism is by the Yoneda lemma. Thus we have exhibited a natural isomorphism 
+By the definition of the [[coend]], maps 
 
-$$Nat(\int^c F(c) \times \hom_C(-, c), G) \cong Nat(F, G)$$ 
+$$
+  \int^c F(c) \times \mathcal{C}(-, c) \to G(-)
+$$ 
 
-(natural in $G$). By Yoneda again, this gives $\int^c F(c) \times \hom_C(-, c) \cong F$. 
+are in [[natural bijection]] with families of maps 
+
+$$
+  F(c) \otimes \mathcal{C}(d, c) \to G(d)
+$$ 
+
+[[extranatural transformation|extranatural]] in $c$ and [[natural transformation|natural]] in $d$. Those are in natural bijection with families of maps 
+
+$$
+  F(c) \to V(\mathcal{C}(d, c), G(d))
+$$ 
+
+natural in $c$ and extranatural in $d$. These are in natural bijection with families of maps 
+
+$$
+  F(c) \to Nat(\mathcal{C}(-, c), G) \cong G(c)
+$$ 
+
+(natural in $c$), where the isomorphism is by the Yoneda lemma. Thus we have exhibited a natural isomorphism 
+
+$$
+  Nat(\int^c F(c) \times \mathcal{C}(-, c), G) \cong Nat(F, G)
+$$ 
+
+(natural in $G$). By Yoneda again, this gives 
+
+$$
+  \int^c F(c) \times \mathcal{C}(-, c) \cong F
+  \,.
+$$
+ 
 =--
 
-If one follows the Yoneda-lemma argument at the end, one arrives at the explicit isomorphism 
++-- {: .num_remark}
+###### Remark
 
-$$\int^c F(c) \times \hom_C(-, c) \to F$$ 
+The statement of the [[co-Yoneda lemma]] in prop. \ref{coYonedaLemma} is a kind of [[categorification]] of the following statement in [[analysis]] (whence the notation with the integral signs):
+
+For $X$ a [[topological space]], $f \colon X \to\mathbb{R}$ a [[continuous function]] and $\delta(-,x_0)$ denoting the [[Dirac distribution]], then
+
+$$
+  \int_{x \in X} \delta(x,x_0) f(x)
+  = 
+  f(x_0)
+  \,.
+$$
+
+=--
+
+
+
++-- {: .num_remark}
+###### Remark
+
+If one follows the Yoneda-lemma argument at the end of the proof of prop. \ref{coYonedaLemma}, one arrives at the explicit isomorphism 
+
+$$
+  \int^c F(c) \times \mathcal{C}(-, c) \to F
+  \,.
+$$ 
 
 Namely, it corresponds to the family of maps 
 
-$$F(c) \times \hom_C(d, c) \to F(d)$$ 
+$$
+  F(c) \times \mathcal{C}(d, c) \to F(d)
+$$ 
 
 (extranatural in $c$ and natural in $d$) which in turn corresponds to the natural family 
 
-$$\hom_C(d, c) \to \hom(F(c), F(d))$$ 
+$$
+  \mathcal{C}(d, c) \to \hom(F(c), F(d))
+$$ 
 
-associated with the structure of the functor $F: C^{op} \to Set$. 
+associated with the structure of the functor $F \colon \mathcal{C}^{op} \to V$. 
+
+=--
+
++-- {: .num_example #CoYonedaInSetViaCoequalizer}
+###### Example
+
+Let $V = $ [[Set]], and recall the definition of the [[coend]] as a [[coequalizer]]
+
+$$
+  \underset{c,d \in \mathcal{C})}{\coprod} 
+   \mathcal{C}(c,d) \times \mathcal{C}(c_0,c) \times F(d)
+   \underoverset
+     {\underset{\underset{c,d}{\sqcup} \rho_{(d,c)}(c) }{\longrightarrow}}
+     {\overset{\underset{c,d}{\sqcup} \rho_{(c,d)}(d) }{\longrightarrow}}
+     {\phantom{AAAAAAAA}}
+  \underset{c \in \mathcal{C}}{\coprod} \mathcal{C}(c_0,c) \times F(c)
+   \overset{coeq}{\longrightarrow}
+  \overset{c\in \mathcal{C}}{\int} \mathcal{C}(c_0,c) \times F(c)
+  \,.
+$$
+
+This says that the coend is the set of [[equivalence classes]] of [[pairs]]
+
+$$
+  ( c_0 \overset{}{\to} c,\; x \in F(c) )
+  \,,
+$$
+
+where two such pairs
+
+$$
+  ( c_0 \overset{f}{\to} c,\; x \in F(c) )
+  \,,\;\;\;\;
+  ( c_0 \overset{g}{\to} d,\; y \in F(d) )  
+$$
+
+are regarded as equivalent if there exists
+
+$$
+  c \overset{\phi}{\to} d
+$$
+
+such that 
+
+$$
+  g = \phi \circ f
+  \,,
+  \;\;\;\;\;and\;\;\;\;\;
+  x = \phi^\ast(y)
+  \,.
+$$
+
+(Because then the two pairs are the two images of the pair $(f,y)$ under the two morphisms being coequalized.)
+
+But now considering the case that $c = c_0$ and $f = id_{c_0}$, so that $g= \phi$ shows that any pair
+
+$$
+  ( c_0 \overset{\phi}{\to} d, \; y \in F(d))
+$$
+
+is identified, in the coequalizer, with the pair
+
+$$
+  (id_{c_0},\; \phi^\ast(y) \in F(c_0))
+  \,,
+$$ 
+
+hence with $\phi^\ast(y)\in F(c_0)$, and that this coequalizing operation is the action
+
+$$
+  Hom(c_0,d)\times F(d)\longrightarrow F(c_0)
+$$
+
+of morphisms on elements of the presheaf by pullback.
+
+
+=--
+
 
 ## MacLane's co-Yoneda lemma
+ {#MacLanesCoYonedaLemma}
 
 In a brief uncommented exercise on [MacLane, p. 62](#MacLane)  
 the following statement, which is atrributed to Kan, is called the **co-Yoneda lemma**.
@@ -184,14 +353,15 @@ This yields the co-Yoneda lemma in the sense of MacLane's exercise.
 
 ## References
 
-The coYoneda lemma appears as a brief uncommented exercise on p. 63 of 
+For enrichment over $V = Top^{\ast/}_{cg}$  ([[pointed topological spaces|pointd]] [[compactly generated topological spaces]]) the co-Yoneda lemma in the sense of [every presheaf is a colimit of representables](#EveryPresheafIsAColimitOfRepresentables) appears for instance as
 
-* [[Saunders MacLane]], _[[Categories Work|Categories for the Working Mathematician]]_,
- {#MacLane}
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], lemma 1.6 of _[[Model categories of diagram spectra]]_, Proceedings London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
 
-where it is atributed to Kan.
+The [co-Yoneda lemma in the sense of MacLane](#MacLanesCoYonedaLemma) appears as a brief uncommented exercise on p. 63 of 
 
-A blog discussion which led to the creation of this entry is [here](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c023106).
+* {#MacLane} [[Saunders MacLane]], _[[Categories Work|Categories for the Working Mathematician]]_,
+ 
+where it is atributed to [[Daniel Kan]].
 
 
 [[!redirects Coyoneda lemma]]
