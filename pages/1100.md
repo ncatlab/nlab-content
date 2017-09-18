@@ -459,7 +459,7 @@ This work used 1-categorical [[site]]s. The generalization to [[(∞,1)-category
 
 and "model topos"-theory was also developed in
 
-* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+* {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
 
 The intrinsic [[higher category theory|category-theoretic]] definition of an [[(∞,1)-topos]] was given in section 6.1 of
 
@@ -518,3 +518,5 @@ More on this with an eye on [[associated ∞-bundle]]s is in
 
 [[!redirects (infinity,1)-Giraud theorem]]
 [[!redirects (∞,1)-Giraud theorem]]
+
+[[!redirects infinity,1-topos]]
