@@ -24,6 +24,8 @@ $$
 
 Here the [[term]] $t$ is one witness for the [[contractible type|contractibility]] of the [[type]] $A$. Since $IsContr(A)$ is itself [contractible](contractible+type#properties_18), we could say that $t$ is *the* witness for the contractibility of the type $A$, which may explain why we do not generally mention it.
 
+If we wish to extend this treatment to types which are [[propositions]], we might call such types $FactThat(P)$, for some statement $P$. Then if $P$ holds, we can introduce a term $the(FactThat(P))$.
+
 [[!redirects the]]
 [[!redirects generalised the]]
 [[!redirects generalized the]]
