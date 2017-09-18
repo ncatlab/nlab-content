@@ -55,7 +55,7 @@ $$
 
 where $B \Sigma_n$ denotes the [[homotopy type]] of the [[classifying space]] of the [[symmetric group]] on $n$ elements (given for instance by the [[topological space]] $Emb(\{1, \cdots, n\}, \mathbb{R}^{\infty})/\Sigma(n)$).
 
-In particular for $R = \mathbb{S}$ the [[sphere spectrum]], then  $Sym_{\mathbb{S}}\mathbb{S}$ is nontrivial. This, and its structure of a [[Hopf ring spectrum]], is discussed in [Strickland-Turner 97](#StricklandTurner97).
+In particular for $R = \mathbb{S}$ the [[sphere spectrum]], then  the _absolute [[spectral affine line]]_ $Sym_{\mathbb{S}}\mathbb{S}$ is nontrivial. This, and its structure of a [[Hopf ring spectrum]], is discussed in [Strickland-Turner 97](#StricklandTurner97).
 
 {#OnSuspensionOfGroundRingInIntroduction} Similarly, if $E = \Sigma^n R \simeq R \wedge S^n$ is a [[suspension]] of $R$, regarded as an $R$-[[module spectrum]], then
 $$
@@ -87,6 +87,15 @@ These correspond to [[power operation]] in [[generalized (Eilenberg-Steenrod) co
 
 ## Examples
 
+### Spectral affine lines
+
+For $R$ a ([[connective spectrum|connective]]) [[E-∞ ring]], the 
+
+$$
+  \mathbb{A}^1_R \coloneqq Spec( Sym_R(R) )
+$$
+
+is the [[spectral affine line]] over $R$.
 
 ### Spectral superpoints
 
