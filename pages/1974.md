@@ -17,18 +17,18 @@
 
 ## Idea 
 
-The term _Grothendieck group_ has a restricted and a more general meaning
+The term _Grothendieck group_ has two closely related meanings:
 
 * [Grothendieck group of commutative monoids](#OfCommutativeMonoids)
 
 * [Grothendieck group of stable infinity-categories](#OfStableCategories)
 
 
-In its restricted sense the _[[Grothedieck group of a commutative monoid]]_ (i.e. of a commutative [[semi-group]] with [[unitality|unit]]) $A$ is a specific presentation of its [[group completion]], given as a certain [[group]] structure on a [[quotient]] of the [[Cartesian product]] $A \times A$. This is such that applied to the additive monoid of [[natural numbers]] $\mathbb{N}$ it produces the additive group of [[integers]] $\mathbb{Z}$ represented by pairs of natural numbers $(n_+, n_-)$ subject to an [[equivalence relation]] which identifies them with their [[difference]] $n_+ - n_-$.
+In its restricted sense the Grothedieck group of a commutative monoid (i.e. of a commutative [[semi-group]] with [[unitality|unit]]) $A$ is a specific presentation of its [[group completion]], given as a certain [[group]] structure on a [[quotient]] of the [[Cartesian product]] $A \times A$. This is such that applied to the additive monoid of [[natural numbers]] $\mathbb{N}$ it produces the additive group of [[integers]] $\mathbb{Z}$ represented by pairs of natural numbers $(n_+, n_-)$ subject to an [[equivalence relation]] which identifies them with their [[difference]] $n_+ - n_-$.
 
-A vaguely similar procedure applied to [[decategorification|isomorphism classes]] of certain [[Quillen exact category|Quillen exact categories]] happens to compute a group that is called the [[algebraic K-theory]] of these categories. There is a very simple very general nonsense behind this, that is described at [[K-theory]].
+A vaguely similar procedure applied to [[decategorification|isomorphism classes]] of certain [[Quillen exact category|Quillen exact categories]] happens to compute a group that is called the [[algebraic K-theory]] of these categories. See [[K-theory]] for some general abstract nonsense behind this.
 
-Notably the Grothendieck group completion of the [[decategorification]] of the category of [[topological vector bundles]] on some ([[compact Hausdorff space|compact Hausdorff]]) [[topological space]] $X$ produces the group known as the [[topological K-theory]] of $X$.
+Notably, the Grothendieck group completion of the [[decategorification]] of the category of [[topological vector bundles]] on some ([[compact Hausdorff space|compact Hausdorff]]) [[topological space]] $X$ produces the group known as the [[topological K-theory]] of $X$.
 
 Given this one speaks more generally of the ([[algebraic K-theory|algebraic]]) [[K-theory]] group of a suitable category (one presenting a [[stable (∞,1)-category]] in some way) as its _Grothendieck group_ .
 
@@ -41,7 +41,7 @@ We now first state the definition of "Grothendieck group completion" -- which is
 ## Of commutative monoids
  {#OfCommutativeMonoids}
 
-Every [[abelian  group]] is in particular a [[commutative monoid]]. The [[forgetful functor]] $U \colon Ab \to CMon$ from the [[category]] [[Ab]] ot the category [[CMon]] has a [[left adjoint]] $F$ (the correspnding [[free functor]]), the _[[group completion]]_ functor
+Every [[abelian  group]] is in particular a [[commutative monoid]]. The [[forgetful functor]] $U \colon Ab \to CMon$ from the [[category]] [[Ab]] ot the category [[CMon]] has a [[left adjoint]] $F$ (the corresponding [[free functor]]), the _[[group completion]]_ functor
 
 $$
   Ab
@@ -148,21 +148,22 @@ $$
 ## Of stable $\infty$-categories
  {#OfStableCategories}
 
-Fundamentally a Grothendieck group is something assigned to a [[stable (∞,1)-category]]. It is the group structure 
-$+ : K(C)\times K(C) \to K(C)$ on the [[decategorification]] $K(C)$ of $C$ defined by the rule that for every [[fibration sequence]] 
+In this sense, a Grothendieck group is fundamentally something assigned to a [[stable (∞,1)-category]].  We start with the naive [[decategorification]] of $C$, i.e. the set of [[equivalence]] classes of objects, which inherits the structure of an abelian monoid.  Then in addition to group-completing it as above, we add additional [[generators and relations|relations]] by the rule that for every [[fibration sequence]] 
 
 $$
   A \to X \to B
 $$ 
 
-in $C$ the equivalence classes $[A]$, $[B]$ and $[X]$ satisfy
+in $C$, the equivalence classes $[A]$, $[B]$ and $[X]$ must satisfy
 
 $$
   [X] = [A] + [B]
   \,.
 $$
 
-In particular the inverse $-[A]$ of an element $[A]$ is the class of its [[loop space object]] $\Omega A$ or equivalently of its [[delooping]] $\mathbf{B} A$ called the _suspension_ $\Sigma A$, since by definition the sequences
+The result is also called the [[K-theory]] of $C$.
+
+In particular, the additive inverse $-[A]$ of an element $[A]$ is the class of its [[loop space object]] $\Omega A$, or equivalently of its [[delooping]] $\mathbf{B} A$ called the _suspension_ $\Sigma A$, since by definition the sequences
 
 $$
   \Omega A \to 0 \to A
