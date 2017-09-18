@@ -52,7 +52,7 @@ such that
     X_n \wedge S^{k} \stackrel{\sigma_n \wedge id}{\longrightarrow} X_{n+1} \wedge S^{k-1} \stackrel{\sigma_{n+1}\wedge id}{\longrightarrow} \cdots \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
   $$
 
-  [[intertwiner|intertwines]] the $\Sigma_{n+k}$-[[action]].
+  [[intertwiner|intertwines]] the $\Sigma_{n} \times \Sigma_k$-[[action]].
 
 A [[morphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
