@@ -19,16 +19,16 @@
 
 ## Idea
 
-The _May spectral sequence_ is [[spectral sequence]] used to compute the first page of the [[Adams spectral sequence]].
+The _May spectral sequence_ is a [[spectral sequence]] used to compute the first page of the [[classical Adams spectral sequence]].
 
-It can be regarded as the spectrral sequence obtained by filtering the (dual) [[Steenrod algebra]] by (co)powers of the unit (co)ideal. ([Ravenel, chapter 3, section 2](#Ravenel))
+It may be regarded as the spectral sequence obtained by filtering the (dual) [[Steenrod algebra]] by (co)powers of the unit (co)ideal. (see [Ravenel 86, chapter 3, section 2](#Ravenel86), [Kochman 96, section 5.3](#Kochman96))
 
 ## References
 
 The origin is in 
 
-* [[Peter May]],  _The cohomology of restricted Lie algebras and of Hopf algebras; application to the Steenrod algebra_, Prinstpon, Univ., 1964, Thesis.
- {#May64}
+* {#May64} [[Peter May]],  _The cohomology of restricted Lie algebras and of Hopf algebras; application to the Steenrod algebra_, Prinstpon, Univ., 1964, Thesis.
+ 
 
 More on the $E_2$-term is in 
 
@@ -40,10 +40,9 @@ A computation of the first 70 differentials for the case of the [[Steenrod algeb
 
 Review includes
 
-* {#Ravenel} [[Doug Ravenel]], chapter 3, section 2 of _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986
- 
+* {#Ravenel86} [[Doug Ravenel]], chapter 3, section 2 of _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986
 
-* {#Kochmann96} [[Stanley Kochmann]], section 5.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 5.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * Wikipedia, _[May spectral sequence](http://en.wikipedia.org/wiki/May_spectral_sequence)_
 
