@@ -2084,7 +2084,7 @@ All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}
 
 
 
-### Hausdorff spaces
+### $T_n$ spaces
  {#TnTopologicalSpaces}
 
 
@@ -2130,28 +2130,6 @@ For definiteness, we re-state these conditions formally. Write $x,y \in X$ for p
 * **((T1)** $\underset{x \neq y}{\forall} \left(\underset{U_x,U_y}{\exists} \left(\left( \{x\} \cap U_y = \emptyset\right) \,\wedge \, \left( U_x \cap \{y\}  = \emptyset \right)\right) \right)$
 
 * **(T2)** $\underset{x \neq y}{\forall} \left( \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right) \right)$
-
-=--
-
-In the same spirit, there are various further stronger conditions
-
-+-- {: .num_defn #NormalSubspace}
-###### Definition
-
-Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
-
-Consider the following further conditions
-
-* **(T3)** For $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$, 
-  then there exist disjoint [[open neighbourhoods]] $U_x \supset \{x\}$ and $U_C \supset C$.
-
-* **(T4)** For $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset})
-  then there exist disjoint [[open neighbourhoods]] $U_{C_i} \supset C_i$.
-
-If $(X,\tau)$ satisfies $T_3$ it is also called a _[[regular topological space]]_.
-
-If $(X,\tau)$ satisfies $T_4$ it is also called a _[[normal topological space]]_.
-
 
 =--
 
@@ -2284,6 +2262,47 @@ and hence this means that every points $(x,y) \in X \times X$ not on the diagona
 not containing the diagonal, i.e. such that $U_x \cap U_y = \emptyset$. Hence $X$ is Hausdorff.
 
 =--
+
+$\,$
+
+**Further separation axioms**
+
+Clearly one may and does consider further variants of the 
+separation axioms $T_0$, $T_1$ and $T_2$ from def. \ref{HausdorffTopologicalSpace}. 
+
+
++-- {: .num_defn #NormalSubspace}
+###### Definition
+
+Let $(X,\tau)$ be a $T_1$-[[topological space]] (def. \ref{HausdorffTopologicalSpace}).
+
+Consider the following further conditions
+
+* **(T3)** For $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$,
+  then there exist disjoint [[open neighbourhoods]] $U_x \supset \{x\}$ and $U_C \supset C$.
+
+* **(T4)** For $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset})
+  then there exist disjoint [[open neighbourhoods]] $U_{C_i} \supset C_i$.
+
+If $(X,\tau)$ satisfies $T_3$ it is also called a _[[regular topological space]]_.
+
+If $(X,\tau)$ satisfies $T_4$ it is also called a _[[normal topological space]]_.
+
+=--
+
+
+In summary:
+
+**Separation Axioms**
+
+| number | name | statement | reformulation |
+|--------|------|-----------|---------------|
+| $T_0$  | Kolmogorov | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
+| $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
+| $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
+| $T_3$  | [[regular topological space|regular]] |  all points are closed and  given two closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
+| $T_4$  | [[normal topological space|normal]] | all points are closed and given two closed subsets, both of then have open neighbourhoods not intersecting the other closed subset |  |
+
 
 
 
