@@ -985,8 +985,8 @@ $$
 
 
 
-+-- {: .num_defn #TowerOfFibrations}
-###### Definition
++-- {: .num_remark #UnrolledExactCoupleOfAFiltrationOnASpectrum}
+###### Remark
 
 Given a filtered spectrum as in def. \ref{FilteredSpectrum},
 write $A_k$ for the [[homotopy cofiber]] of its $k$-stage, such that in the diagram
@@ -1061,7 +1061,7 @@ $$
   \,.
 $$
 
-If understand 
+If we understand the [[connecting homomorphism]]
 
 $$
   \delta_k \colon \pi_\bullet(A_k) \longrightarrow \pi_\bullet(X_{k+1})
@@ -1081,15 +1081,131 @@ $$
      &\stackrel{\pi_\bullet(f_1)}{\longrightarrow}& 
    \pi_\bullet(X_0)
    \\
-   && \downarrow &{}_{\mathllap{\delta_2}}& \downarrow &{}_{\mathllap{\delta_1}}& \downarrow &{}_{\mathllap{\delta_0}}\nwarrow& \downarrow
+   && 
+   \downarrow &{}_{\mathllap{\delta_2}}\nwarrow & 
+   \downarrow &{}_{\mathllap{\delta_1}}\nwarrow &
+   \downarrow &{}_{\mathllap{\delta_0}}\nwarrow
+   & \downarrow
    \\
    && \pi_\bullet(A_3) && \pi_\bullet(A_2) && \pi_\bullet(A_1) && \pi_\bullet(A_0)
   }
+  \,,
+$$
+
+where each triangle is a rolled-up incarnation of a [[long exact sequence of homotopy groups]] (and in particular is _not_ a commuting diagram!).
+
+If we furthermore consider the [[bigraded object|bigraded]] [[abelian groups]] $\pi_\bullet(X_\bullet)$ and $\pi_\bullet(A_\bullet)$, then this information may further be rolled-up to a single diagram of the form
+
+$$
+  \array{
+     \pi_\bullet(X_\bullet)
+       & \stackrel{\pi_\bullet(f_\bullet)}{\longrightarrow} &
+     \pi_\bullet(X_\bullet)
+     \\
+       & {}_{\mathllap{\delta}}\nwarrow 
+       & \downarrow^{\mathrlap{\pi_\bullet(cofib(f_\bullet))}}
+     \\
+     && 
+     \pi_\bullet(A_\bullet)
+  }
+$$
+
+where the morphisms $\pi_\bullet(f_\bullet)$, $\pi_\bullet(cofib(f_\bullet))$ and $\delta$ have bi-degree $(0,-1)$, $(0,0)$ and $(-1,1)$, respectively.
+
+Here it is convenient to shift the bigrading, equivalently, by setting
+
+$$
+  \mathcal{D}^{s,t} \coloneqq \pi_{t-s}(X_s)
+$$
+
+$$
+  \mathcal{E}^{s,t} \coloneqq \pi_{t-s}(A_s)
+  \,,
+$$
+
+because then $t$ counts the cycles of going around the triangles:
+
+$$
+  \cdots
+   \to 
+  \mathcal{D}^{s+1,t+1}
+    \stackrel{\pi_{t-s}(f_s)}{\longrightarrow}
+  \mathcal{D}^{s,t}
+    \stackrel{\pi_{t-s}(cofib(f_s))}{\longrightarrow}
+  \mathcal{E}^{s,t}
+    \stackrel{\delta_s}{\longrightarrow}
+  \mathcal{D}^{s+1,t}
+    \to
+  \cdots
+$$
+
+=--
+
+Data of this form is called an _[[exact couple]]_.
+
++-- {: .num_defn}
+###### Definition
+
+An _unrolled [[exact couple]]_ (of Adams-type) is a diagram of [[abelian gorups]] of the form
+
+$$
+  \array{
+     \cdots 
+       &\stackrel{}{\longrightarrow}& 
+     \mathcal{D}^{3,\bullet} 
+       &\stackrel{i_2}{\longrightarrow}& 
+     \mathcal{D}^{2,\bullet} 
+       &\stackrel{i_1}{\longrightarrow} & 
+     \mathcal{D}^{1,\bullet} 
+       &\stackrel{i_0}{\longrightarrow}& 
+     \mathcal{D}^{0,\bullet}
+     \\
+     && 
+     \downarrow^{\mathrlap{}}  &{}_{\mathllap{k_2}}\nwarrow & 
+     {}^{\mathllap{j_2}}\downarrow &{}_{\mathllap{k_1}}\nwarrow &
+     {}^{\mathllap{j_1}}\downarrow &{}_{\mathllap{k_0}}\nwarrow
+     & {}_{\mathllap{j_0}}\downarrow
+     \\
+     && \mathcal{E}^{3,\bullet} && \mathcal{E}^{2,\bullet} 
+     && \mathcal{E}^{1,\bullet} && \mathcal{E}^{0,\bullet}
+   }
+$$
+
+such that each triangle is a rolled-up [[long exact sequence]] of [[abelian groups]] of the form
+
+$$
+  \cdots
+   \to 
+  \mathcal{D}^{s+1,t+1}
+    \stackrel{i_s}{\longrightarrow}
+  \mathcal{D}^{s,t}
+    \stackrel{j_s}{\longrightarrow}
+  \mathcal{E}^{s,t}
+    \stackrel{k_s}{\longrightarrow}
+  \mathcal{D}^{s+1,t}
+    \to
+  \cdots
   \,.
 $$
 
+The collection of this "un-rolled" data into a single diagram
+
+$$
+  \array{
+    \mathcal{D}^{\bullet,\bullet}
+    &\stackrel{i}{\longrightarrow}&
+    \mathcal{D}^{\bullet,\bullet}
+    \\
+    & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}^{\bullet,\bullet}
+  }
+$$
+
+is called the corresponding _[[exact couple]]_.
 
 =--
+
 
 
 
