@@ -258,7 +258,11 @@ $$
 
 be the canonical inclusion of the standard [[n-sphere|(n-1)-sphere]] as the [[boundary]] of the standard [[n-disk]] (both regarded as [[topological spaces]] with their [[subspace topology]] as subspaces of the [[Cartesian space]] $\mathbb{R}^n$).
 
-Then the colimit in [[Top]] under the diagram 
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"></div>
+
+Then the colimit in [[Top]] under the diagram, i.e. the [[pushout]] of $i_n$ along itself,
 
 $$
   \left\{
@@ -268,7 +272,7 @@ $$
   \,,
 $$
 
-(i.e. the [[pushout]] of $i_n$ along itself) is the [[n-sphere]] $S^n$:
+is the [[n-sphere]] $S^n$:
 
 $$
   \array{
@@ -280,6 +284,8 @@ $$
   }
   \,.
 $$
+
+(graphics from Ueno-Shiga-Morita 95)
 
 =--
 
