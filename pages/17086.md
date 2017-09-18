@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+## Related entries
+
+* [[observable universe]]
+
+## References
+
+### General
+
+* Wikipedia, _[Hydrogen line](https://en.wikipedia.org/wiki/Hydrogen_line)_
+
+* Hyperphysics, _[The Hydrogen 21-cm line](http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/h21.html)_
+
+
+### Astrophysical and cosmological observation
+
+In observational [[cosmology]]:
+
+* Jonathan Pritchard, _Cosmological probes if inflation and the 21 cm line_ ([video recording](http://www.perimeterinstitute.ca/videos/cosmological-probes-inflation-and-21-cm-line))
+
+
