@@ -10,30 +10,30 @@
 
 ## Formalism
 
-The mathematics is perhaps cleanest using [[JBW-algebras]], that is [[Jordan algebra|Jordan]] [[W*-algebras]].  That is, we have:
+There are various ways to formulate [[quantum mechanics]] mathematically, but the following elements are fairly common:
 
-* a [[Banach space]] $A$ whose elements are thought of as (bounded, real-valued) [[observables]],
-* a [[Banach space]] $A_*$ whose positive norm-$1$ elements are thought of ([[normal state|normal]], [[mixed state|mixed]]) [[states]],
-* with $A$ expressed as the [[dual Banach space|dual]] of $A_*$,
-* with a commutative (but [[nonassociative algebra|nonassociative]]) multiplication operation on $A$,
-* with the nonassociative [[Banach algebra]] $A$ satisfying a couple of technical conditions ([[power-associative algebra|power-associativity]], positivity, and the [[B-identity]]).
+*  There is an algebra $A$ of [[observables]]; some or all of the elements of this algebra correspond to physically observable quantities.
+*  There is a space $S$ of [[states]], by which we mean [[mixed states]] in general.
+*  Given a state $\psi$ and an observable $O$, we obtain a [[probability distribution]] (a [[probability measure]] on the [[real line]] or something like it).
 
-If the multiplication on $A$ happens to be [[associative algebra|associative]], then there exists a [[measure space]] $X$ such that $A_*$ is the [[Lebesgue space]] $L^1(X)$ and $A$ is $L^\infty(X)$.  It is always possible to take $X$ to be [[localizable measure space|localizable]], in which case the [[Radon--Nikodym theorem]] applies and we can identify $L^1(X)$ with the space of [[absolutely continuous measures]] on $X$.  At this point, the measure on $X$ is irrelevant except for its specification of [[full set|full]] (or [[null set|null]]) subsets, so we may treat $X$ as simply a [[localizable measurable space]] (which includes this data).  Then the choice of $X$ is actually [[the|essentially unique]].
+Roughly speaking, this probability distribution tells us the probability of observing the value of $O$ to take particular values given that the system has state $\psi$.  Let us write $O_*\psi(E)$ for the probability that the value of $O$ will be observed to belong to the [[measurable set]] $E$ for a system in state $\psi$.
 
-In this way, the associative case reduces to [[probability theory]].  We have a measurable space $X$, an observable is an [[essentially bounded function]], and a state is a [[probability measure]].  It is true that we only have localizable spaces, but these are the only ones that satisfy the nice theorems (such as Radon--Nikodym, aforementioned) anyway.  (Similarly, the observables are defined only up to [[almost equality]],and the states must be [[absolutely continuous measures]].)
+So for example, we could actually be talking about a [[classical physics|classical]] system, in which we have a [[state space]] or [[phase space]] $X$, an observable is a function on $X$, a [[pure state]] is a point in $X$, and a general state is a probability measure on $X$.
 
-In the general (nonassociative) case, we still think of the elements of $A$ (the observables) as essentially bounded functions, but now on a sort of [[noncommutative geometry|noncommutative]] (or rather nonassociative) space, and we still think of the elements of $A_*$ (the states) as probability measures on that space.  Because $A$ is a Jordan algebra instead of an associative algebra, *all* of its elements may be thought of as observables, but this is more of a convenience than an essential feature.
+Or we could be talking about a quantum system given by a [[Hilbert space]] $H$, in which an observable is a [[self-adjoint operator]] on $H$, a pure state is a $1$-dimensional subspace of $H$, and a general state is a [[density matrix]] on $H$.
 
-We might also want to consider generalized (non-normal) states, that is norm-$1$ [[positive operator|positive]] [[linear functionals]] on $A$.  (Every state in $A_*$ may be so interpreted, using the natural map $A_* \to (A_*)^{**} = A^*$).  In the associative case, the [[delta measure]]s (corresponding to points of $X$) belong here; more generally, [[pure states]] live in $A^*$.  (Pure states *can* exist in $A_*$, but only in the simplest cases.)  One may go further and consider [[quasistate]]s, if any exist.
-
-In particular, if $A$ is the space of [[bounded operators|bounded]] [[self-adjoint operators]] on some [[Hilbert space]] $H$, then $A_*$ is the space of [[trace-class operator|trace-class]] self-adjoint on $H$.  Then a (normal) state is a trace-class [[density matrix]], while a generalized state in $A^*$ is an arbitrary density matrix.  The pure states (of the form ${|\psi\rangle\langle\psi|}$ for $\psi$ a unit vector in $H$) always belong to $A^*$ but only belong to $A_*$ when the dimension of $H$ is finite.
+Or we could use a more abstract formulation, such as those of [[AQFT]], [[FQFT]], and so forth; but all of these still have observables and states.
 
 
 ## Interpretation
 
-A state (a unit vector in $A_*$) represents a _state of knowledge_ about the world.  Just as a Bayesian probability measure is not an objective feature of the world (the territory) but rather an expression what a rational observer might know about the world (a map), so a quantum state in $A_*$ is also a map, not the territory.  There is (except when $A$ is associative) *no* possible complete specification of the actual values of all observables, only a probabilistic specification of what one might know about them.
+The point of the Bayesian interpretation is that the probabilities $O_*\psi(E)$ are to be interpreted as Bayesian probabilities.  That is, they are not objective features of reality (the territory) but rather an expression of what a rational observer might know about the world (a map).
 
-In the [[Schroedinger picture]] (assuming a notion of [[time]]), states evolve deterministically, unitarily, and with conservation of [[entropy]].  (Or in the [[Heisenberg picture]], they don\'t evolve at all.)  But a state may change otherwise, if one\'s knowledge changes.  If this is an increase in knowledge as a result of a [[measurement]], then this change in the state may be called the 'collapse of the wavefunction'.  But this collapse takes place in the map, not the territory; it is not a physical process.
+Thus, a state $\psi$ represents a _state of knowledge_ about the world.  The algebra $A$ of observables may be objective (or fully known), but the particular state $\psi$ that the system is in depends on what is known about that particular system.  There is (except in the classical case) *no* possible complete specification of the actual values of all observables, only a probabilistic specification of what one might know about them.
+
+In the [[Schroedinger picture]] (assuming a notion of [[time]]), states evolve deterministically, unitarily, and with conservation of [[entropy]].  (Or in the [[Heisenberg picture]], they don\'t evolve at all.)  But a state may change otherwise, if one\'s knowledge changes.  If this is an increase in knowledge as a result of a [[measurement]], then this change in the state may be called the 'collapse of the wavefunction'.  But this collapse takes place in the map, not the territory; unlike time evolution, it is not a physical process.
+
+Given a specification of $S$ and $A$, it may be that there exist certain states $\psi$ in $S$ such that $O_*\psi$ is a [[delta measure]] (giving a probability of $1$ for one value and $0$ for all others) for every $O$ in $A$.  Then the system is classical.  Depending on the mathematical formalism used, such states may not actually belong to $S$ (which might, for example, own only the [[absolutely continuous measure|absolutely continuous]] probability measures in some sense, as is natural in the [[JBW-algebraic quantum mechanics|W*-algebraic approach]]); so in general, we say that the system is __classical__ if there exists a [[net]] $(\psi_n)_n$ of states such that, for each observable $O$, the net $(O_*\psi_n)_n$ of measures on the real line [[convergence in measure|converges in measure]] to a delta measure.  (Hopefully this is general enough!)
 
 
 ## History
