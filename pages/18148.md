@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{: toc}
+
+## Definition
+
+A [[magma]] $(S,\cdot)$ is called _unital_ if it has an [[identity element]] $1 \in 1$, hence an element such that for all $x \in X$ it satisfies the [[equation]]
+
+$$
+  1 \cdot x = x = x \cdot 1
+$$
+
+holds.
+
+Some authors take a magma to be unial by default (cf. [[Borceux-Bourn]] Def. 1.2.1). 
+
+## Examples
+
+Examples include [[unital rings]] etc.
+
+
+## Related concepts
+
+* [[unital magma]]
+
+* [[commutative magma]]
+
+
+
+[[!redirects unital magmas]]
+[[!redirects unitary magma]]
+[[!redirects unitary magmas]]
