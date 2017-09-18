@@ -124,8 +124,9 @@ Also [[William Lawvere]] was there, lecturing on [[hyperdoctrines]]. Lawvere tol
 
 * [[William Lawvere]] interviewed by Felice Cardone, _The role of Cartesian closed categories in foundations_, March 2000 ([pdf](http://conceptualmathematics.files.wordpress.com/2013/02/cartesian-closed-categories.pdf))
 
-But the story is much older. There is what has been called the [[Brouwer-Heyting-Kolmogorov interpretation]] of [[intuitionistic logic]], highlighted for instance in ([Troelstra 91](#Troelstra91)), which identifies a proposition with the collection of its proofs. This seems to be due to a paper by Kolmogorov written immediately after first world war but there seems to be no joint paper by these authors.
+But the story started earlier with what has been called the [[Brouwer-Heyting-Kolmogorov interpretation]] of [[intuitionistic logic]], highlighted for instance in ([Troelstra 91](#Troelstra91)), which identifies a proposition with the collection of its proofs. This view goes back to an observation of Kolmogorov that the formalisation of Brouwer's ideas by Heyting in 1930 can be semantically interpreted as a calculus of 'Aufgaben' - exercises (and solutions), reported in
 
+* A. Kolmogoroff, _Zur Deutung der intuitionistischen Logik_ , Math. Z. **35** 1932 pp.58-65. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002373467))
 
 A historical account is in the section on types in
 
