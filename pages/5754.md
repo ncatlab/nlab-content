@@ -171,3 +171,11 @@ Further discussion of the manifestly covariant equivalence between the Peierls b
 * [[Igor Khavkine]], _Characteristics, Conal Geometry and Causality in Locally Covariant Field Theory_, section 5, ([arXiv:1211.1914](http://arxiv.org/abs/1211.1914))
 
 [[!redirects Peierls brackets]]
+
+[[!redirects Peierls-Poisson bracket]]
+[[!redirects Peierls-Poisson brackets]]
+
+
+[[!redirects Poisson-Peierlsbracket]]
+[[!redirects Poisson-Peierls brackets]]
+
