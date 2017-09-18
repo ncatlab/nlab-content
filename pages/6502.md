@@ -100,7 +100,10 @@ A standard textbook reference is
 * R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
  {#Sharpe}
 
+
 See also
+
+* [[Gabriel Catren]], _Geometrical Foundations of Cartan Gauge Gravity_ ([arXiv:1407.7814](http://arxiv.org/abs/1407.7814))
 
 * wikipedia [Cartan connection](http://en.wikipedia.org/wiki/Cartan_connection)
 
