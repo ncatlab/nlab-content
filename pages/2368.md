@@ -683,7 +683,7 @@ which is given objectwise by a [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
 $$
   (Lan_p F)
   \;\colon\;
-  c 
+  d
   \;\mapsto \;
   \overset{c\in \mathcal{C}}{\int}
    \mathcal{D}(p(c),d) \wedge F(c)
