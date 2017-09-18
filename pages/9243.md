@@ -17,6 +17,12 @@
 
 In [[theories of physics]] described by [[action functionals]] the _interaction_ of [[field (physics)|fields]]/[[particles]] is described by [[polynomial]] expression of the fields.
 
+## Examples
+
+For instance the [[holonomy]] of a [[circle bundle with connection]] gives the _[[gauge theory|gauge]] interaction_ term for a [[particle]] [[sigma-model]] charged under an [[electromagnetic field]] given by a [[line bundle with connection]].
+
+More generally the [[volume holonomy]] of a [[circle n-bundle with connection]] gives the _[[higher gauge theory|higher gauge]]_ interaction of an $(n-1)$-[[brane]] [[sigma model]], for instance the [[string]] sigma-model charged under the [[B-field]] or the [[membrane]] sigma-model charged under the [[supergravity C-field]].
+
 ## Related concepts
 
 * [[perturbation theory]]
@@ -28,5 +34,5 @@ In [[theories of physics]] described by [[action functionals]] the _interaction_
 [[!redirects interaction term]]
 [[!redirects interaction terms]]
 
-
+[[!redirects gauge interaction]]
 
