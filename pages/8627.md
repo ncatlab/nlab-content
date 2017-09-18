@@ -21,7 +21,7 @@
 
 The _coherence theorem for [[symmetric monoidal categories]]_, like many [[coherence theorems]], has several forms (or, alternatively, refers to several different theorems):
 
-1. Every diagram in a free [[symmetric monoidal category]] made up of [[associators]] and [[unitors]] and symmetries, and in which both sides have the same underlying [[permutation]], commutes.
+1. Every diagram in a free [[symmetric monoidal category]] made up of [[associators]] and [[unitors]] and symmetries ([[braidings]]), and in which both sides have the same underlying [[permutation]], commutes.
 
 1. The free symmetric monoidal category on some given data is equivalent to the free [[symmetric strict monoidal category]] on the same data.
 
