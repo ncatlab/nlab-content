@@ -46,7 +46,7 @@ $$
   (-)^\ast \colon \mathcal{C}^{op} \longrightarrow \mathcal{C}
 $$
 
-such that there is a [[natural equivalence]]
+such that there is a [[natural isomorphism]]
 
 $$
   \mathcal{C}(A \otimes B, C^\ast) \simeq \mathcal{C}(A, (B\otimes C)^\ast)
