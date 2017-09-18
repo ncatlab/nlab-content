@@ -73,7 +73,7 @@ Similar comments apply to [[type II superstring theory]], where $N=1$ target spa
 
 Original references include
 
-* Candelas, Horowitz, [[Andrew Strominger]], and [[Edward Witten]], _Vacuum Configurations for Superstrings_ , Nucl. Phys. B 258 (1985), p. 46. 
+* [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], and [[Edward Witten]], _Vacuum Configurations for Superstrings_ , Nucl. Phys. B 258 (1985), p. 46. 
 
 * {#BDFF88} [[Tom Banks]], [[Lance Dixon]], [[Dan Friedan]], [[Emil Martinec]], _Phenomenology and Conformal Field Theory or Can String Theory Predict the Weak Mixing Angle?_, Nucl. Phys. B299 (1988) 613.  ([pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-4377.pdf))
 
@@ -81,7 +81,7 @@ Original references include
 
 * [[Andrew Strominger]], _Special Geometry_, Comm. Math. Phys. 133 (1990) 163.
 
-* P. Candelas and X. De la Ossa, _Moduli Space of Calabi-Yau Manifolds_, Nucl. Phys. B355 (1991) 455.
+* [[Philip Candelas]] and X. De la Ossa, _Moduli Space of Calabi-Yau Manifolds_, Nucl. Phys. B355 (1991) 455.
 
 * [[Edward Witten]], _Phases of N=2 Theories in Two Dimensions_, Nucl. Phys. B403 (1993) 159 ([arXiv:hep-th/9301042](http://arxiv.org/abs/hep-th/9301042))
 
