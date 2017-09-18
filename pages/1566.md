@@ -43,6 +43,8 @@ Commutative monoids with [[homomorphisms]] between them form a _[[category of co
 
 * [[symmetric monoidal category]]
 
+* [[model structure on commutative monoids in a symmetric monoidal model category]]
+
 * [[commutative ∞-monoid]]
 
 * [[E-infinity algebra]]
