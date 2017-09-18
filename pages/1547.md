@@ -108,7 +108,7 @@ Much else to be discussed...
 
 * [[principal bundle]], [[associated bundle]]
 
-* **vector bundle**, [[holomorphic vector bundle]]
+* **vector bundle**, [[holomorphic vector bundle]], [[pseudoholomorphic vector bundle]]
 
   * [[universal vector bundle]]
 
