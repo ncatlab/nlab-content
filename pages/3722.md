@@ -73,6 +73,59 @@ Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is 
 
 =--
 
+
+### Relation to interior subspaces
+
++-- {: .num_lemma #RelationClAndInt}
+###### Lemma
+
+Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]].
+Then the [[topological interior]] $Int(S)$ of $S$  equals the [[complement]] of the
+[[topological closure]] $Cl(X\backslash S)$ of the complement of $S$:
+
+$$
+  Int(S) 
+    = 
+  X \backslash Cl\left(
+    X \backslash S
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By taking [[complements]] once more, the statement is equivalent to
+
+$$
+  X \backslash Int(S)
+  =
+  Cl( X \backslash S )
+  \,.
+$$
+
+Now we compute:
+
+$$
+  \begin{aligned}
+    X \backslash Int(S)
+    & =
+    X \backslash \left(  \underset{{U \, open} \atop {U \subset S}}{\cup}U \right)
+    \\
+    & = \underset{U \subset S}{\cap} X \backslash U
+    \\
+    & = \underset{{C\, closed} \atop {C \supset X \backslash S}}{\cap} C
+    \\
+    & = Cl(X \backslash S)
+  \end{aligned}
+$$
+
+=--
+
+
+
 #### Relation to compact subspaces
 
 The relation of closed subspaces to [[compact subspaces]] is expressed by the following statements
