@@ -15783,7 +15783,7 @@ Given an $n$-dimensional [[topological manifold]] $X$ (def. \ref{TopologicalMani
      \mathbb{R}^n
    $$
 
-   is called the _[[gluing function]]_ from chart $i$ to chart $j$.
+   is called the _[[coordinate transformation]]_ or _[[gluing function]]_ from chart $i$ to chart $j$.
 
 > graphics grabbed from [[The Geometry of Physics - An Introduction|Frankel]]
 
@@ -15961,7 +15961,56 @@ from remark \ref{CategoryDiff}).
 
 =--
 
-Here it is important to note that while being a [[topological manifold]] is just a [[property]]
++-- {: .num_remark #BasicPropertiesOfDiffeomorphisms}
+###### Remark
+**(basic properties of [[diffeomorphisms]])
+
+Let $X,Y$ be [[differentiable manifolds]] (def. \ref{DifferentiableManifold}).
+Let 
+
+$$
+  f \colon X \longrightarrow Y
+$$ 
+
+be a [[diffeomorphisms]] (def. \ref{Diffeomorphism}) with inverse differentiable function
+
+$$
+  g \colon Y \to X
+  \,.
+$$
+
+Then:
+
+1. $f$ is in particular a [[homeomorphism]] (def. \ref{Homeomorphism}) between the underlying [[topological spaces]].
+
+   Because, by definition, $f$ is in particular a [[continuous function]], as is its [[inverse function]] $g$.
+
+1. The [[derivative]] (def. \ref{DifferentiableFunctionBetweenCartesianSpaces}) $d f$ of
+   takes values in invertible linear maps, i.e. $d f_x \colon T_x X \overset{\simeq}{\to} T_{f(x)} X$ is a linear isomorphsm 
+   for all $x \in X$.
+
+   This is because by the [[chain rule]] (prop. \ref{ChainRuleOnEuclideanSpace}) the defining equations
+   
+   $$
+     g \circ f = id_X \phantom{AAAAA}  f \circ g = id_{Y}
+   $$
+   
+   imply that
+   
+   $$
+     d g_{f(x)} \circ d f_x = d (id_X)_x = id_{T_x X}
+     \phantom{AAAAA}
+     d f_{x} \circ d g_{f(x)} = d (id_Y)_{f(x)} = id_{T_{f(x)} Y}
+     \,.
+   $$
+
+=--
+
+Beware that just as with homeomorphisms (counter-example \ref{ExponentialMapFromHalfOpenIntervalToCircle})
+a differentiable [[bijective function]] of underlying sets need not be a diffeomorphism, see example \ref{BijectiveSmoothFunctionNotADiffeomorphism} below.
+
+
+It is important to note that while being a [[topological manifold]] is just a [[property]]
 of a [[topological space]], a [[differentiable manifold]] carries [[extra structure]] encoded in the
 [[atlas]]:
 
@@ -16061,6 +16110,31 @@ Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped w
 
 =--
 
++-- {: .num_example #BijectiveSmoothFunctionNotADiffeomorphism}
+###### Counter-Example
+**([[bijective function|bijective]] [[smooth function]] which is not a [[diffeomorphism]])**
+
+Regard the [[real line]] $\mathbb{R}^1$ as a [[smooth manifold]] via example \ref{DifferentiableManifoldCartesianSpace}.
+Consider the function
+
+$$
+  \array{
+    \mathbb{R}^1 &\longrightarrow& \mathbb{R}^1
+    \\
+    x &\mapsto& x^3
+  }
+  \,.
+$$
+
+This is clearly a [[smooth function]] and its underlying function of sets is a [[bijective function|bijection]].
+
+But it is _not_ a [[diffeomorphism]] (def. \ref{Diffeomorphism}): The [[derivative]]
+vanishes at $x = 0$,
+and hence it cannot be a diffeomorphism by remark \ref{BasicPropertiesOfDiffeomorphisms}.
+
+=--
+
+
 +-- {: .num_example #SmoothManifoldnSphere}
 ###### Example
 **([[n-sphere]] as a [[smooth manifold]])**
@@ -16155,6 +16229,43 @@ Similarly it is immediate that $S$ is still [[locally Euclidean space|locally Eu
 
 For the differentiable structure we pick these Euclidean neighbourhoods from the given atlas.
 Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold differentiable follows since these are restrictions of the gluing functions for the atlas of $X$.
+
+=--
+
++-- {: .num_example #DiffeoCoord}
+###### Example
+**([[coordinate transformations]] are [[diffeomorphisms]])**
+
+Let $\left( X, \left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to}  U_i \subset X \right\}_{i \in I} \right)$
+be a [[differentiable manifold]] (def. \ref{DifferentiableManifold}). By example
+\ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds} for all $i,j \in I$ the open subsets
+$$
+  \phi_i^{-1}(U_i \cap U_j) \subset \mathbb{R}^n
+$$
+
+canonically are diffrentiable manifolds themselves. By definition of differentiable manifolds, the
+[[coordinate transformation]] functions
+
+$$
+  \phi_i^{-1}(U_i \cap U_j)
+    \overset{\phi_i}{\longrightarrow}
+  U_i \cap U_j
+    \overset{\phi_j^{-1}}{\longrightarrow}
+  \phi_j^{-1}(U_i \cap U_j)
+$$
+
+and
+
+$$
+  \phi_j^{-1}(U_i \cap U_j)
+    \overset{\phi_j}{\longrightarrow}
+  U_i \cap U_j
+    \overset{\phi_i^{-1}}{\longrightarrow}
+  \phi_i^{-1}(U_i \cap U_j)
+$$
+
+both are differentiable functions. Moreover they are [[bijective functions]] by assumption and by construction.
+This means that they are [[diffeomorphisms]] (def. \ref{Diffeomorphism}).
 
 =--
 
@@ -16452,7 +16563,8 @@ $$
   \,.
 $$
 
-Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are linear isomorphisms, this says that the derivative of $\gamma_n^j$ is related to that of $\gamma_n^i$ by a linear isomorphism , and hence
+Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are 
+linear isomorphisms (by remark \ref{DiffeoCoord}), this says that the derivative of $\gamma_n^j$ is related to that of $\gamma_n^i$ by a linear isomorphism , and hence
 
 $$
   \left(
