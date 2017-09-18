@@ -54,7 +54,7 @@ One of the central theorems of the subject is that in good cases, the two give e
 
 Let $C$ be a [[category with weak equivalences]] and let $D$ be a (small) [[diagram]] category.  Make the [[functor category]] $[D,C]$ into a category with weak equivalences by taking the weak equivalences to be those [[natural transformation]]s which are objectwise weak equivalences in $C$.
 
-The ordinary [[limit]] and [[colimit]] operations on $D$-diagrams are (as described there) the right and left [[adjoint functor|adjoints]] of the functor $const : C \to [D,C]$, or equivalently left and right [[Kan extension]] along the unique functor $!\colon C\to *$ to the terminal category.
+The ordinary [[limit]] and [[colimit]] operations on $D$-diagrams are (as described there) the right and left [[adjoint functor|adjoints]] of the functor $const : C \to [D,C]$, or equivalently left and right [[Kan extension]] along the unique functor $!\colon D\to *$ to the terminal category.
 
 $$
   [D,C]
@@ -63,7 +63,7 @@ $$
   \,.
 $$
 
-The (globally defined) _homotopy limit_ and _colimit_ are accordingly the right and left [[homotopy Kan extension]] along $!\colon C\to *$:
+The (globally defined) _homotopy limit_ and _colimit_ are accordingly the right and left [[homotopy Kan extension]] along $!\colon D\to *$:
 
 * The **homotopy limit** of a functor $F : D \to C$ is, if it exists, the image of $F$ under the right [[derived functor]] of the [[limit]] functor $lim_D : [D,C] \to C$ with respect to the given weak equivalences on $C$ and the objectwise weak equivalences on $[D,C]$:
 $$
