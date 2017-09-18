@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -59,7 +61,7 @@ It is traditional to introduce the concept of [[supermanifolds]] in the form of 
 Recall the following from the discussion at _[[geometry of physics -- smooth sets]]_.
 
 
-+-- {: .num_defn}
++-- {: .num_defn #SiteCartSp}
 ###### Definition
 
 Write [[CartSp]] for the [[category]] of [[Cartesian space]] $\mathbb{R}^n$ for $n \in\mathbb{N}$ with [[smooth functions]] between them. Say that a collection of morphisms $\{U_i \to X\}$ in $CartSp$ is [[covering]] if this is a [[good open cover]] in that every finite non-empty intersection of the charts is [[diffeomorphism|diffeomorphic]] to a Cartesian space.
@@ -108,7 +110,7 @@ Hence the set that the Cartesian space $X$, regarded as a sheaf, assigns to a co
 
 Hence given any $X \in Smooth0Type$, we are entitled to think of it as a [[generalized smooth space]] which need not be given as a [[set]] equipped with [[smooth structure]], but whose nature we instead we detect or _probe_ by mapping Cartesian spaces into it: given  $\mathbb{R}^n$ then we think of the set $X(\mathbb{R}^n)$ which $X$, being a [[sheaf]] on [[CartSp]], assigns, as playing the role of the set of all smooth functions "$\mathbb{R}^n \longrightarrow X$" into the would-be space $X$. 
 
-The [[Yoneda lemma]] gives that this is not circular, but consistent: once we identify Cartesian spaces themselves as smooth spaces via the Yoneda embedding, then this becomes literally true and we may remove the quotation marks:
+The [[Yoneda lemma]] gives that this is not circular, but consistent: once we identify Cartesian spaces themselves as smooth spaces via the Yoneda embedding, then the previous statement becomes literally true and we may remove the quotation marks:
 
 $$
   X(\mathbb{R}^n)
@@ -120,24 +122,249 @@ $$
   \,.
 $$
 
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+The strategy is then to work with this nice category (a [[topos]]) of [[smooth spaces]], and find in their [[subcategories]] of more specific objects having extra properties which one may need in given applications:
+
+$\{$[[coordinate systems]]$\}$ 
+ $\hookrightarrow$
+$\{$[[smooth manifolds]]$\}$ 
+ $\hookrightarrow$
+$\{$[[Hilbert manifolds]]$\}$
+ $\hookrightarrow$
+$\{$[[Banach manifolds]]$\}$
+ $\hookrightarrow$
+$\{$[[Fréchet manifolds]]$\}$
+ $\hookrightarrow$
+$\{$[[diffeological spaces]]$\}$ 
+ $\hookrightarrow$
+$\{$[[smooth spaces]]$\}$ 
+ $\hookrightarrow$
+$\{$[[orbifold|smooth orbifolds]]$\}$ 
+ $\hookrightarrow$
+$\{$[[smooth groupoids]]$\}$ 
+ $\hookrightarrow $
+$\{$[[smooth 2-groupoids]]$\}$ 
+ $\hookrightarrow 
+ \cdots
+ \hookrightarrow $
+$\{$[[smooth ∞-groupoids]]$\}$ 
+
+The identification of (super-)[[smooth manifolds]] inside all (super-)[[smooth spaces]] we consider [below](#TheCurvedCase).
+
+=--
+
+In view of the above, it is immediate that in order to generalize [[differential geometry]], we should focus on generalizing the category of [[coordinate systems]]. To that end recall a basic fact about [[smooth functions]]:
+
++-- {: .num_prop #EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras}
+###### Proposition
+
+The [[functor]]
+
+$$
+  C^\infty(-) \colon CartSp \longrightarrow CAlg_{\mathbb{R}}^{op}
+$$
+
+which sends a [[Cartesian space]] to (the [[formal dual]] of) its $\mathbb{R}$-[[commutative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
+
+
+In other words, for two [[Cartesian spaces]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the algebra homomorphisms $C^\infty(X)\leftarrow C^\infty(Y)$.
+
+=--
+
+See at _[[embedding of smooth manifolds into formal duals of R-algebras]]_ for more on this.
+
+It is an observation from [[experiment]], oiginating in the [[Stern-Gerlach experiment]], that spaces of [[physical fields]] for [[physical theories]] that contain [[fermions]] behave as if they have [[algebras of functions]] which are not quite [[commutative algebras]], but where the functions depending on the [[fermions]] ony commute with each other up to picking up a minus sign. 
+
++-- {: .num_defn}
+###### Definition
+
+A _[[super-commutative superalgebra]]_ (or just _[[commutative superalgebra]]_ for short)  is a $\mathbb{Z}/2\mathbb{Z}$-[[graded algebra|graded]] [[associative algebra]] $A = A_{even} \oplus A_{odd}$ such that for $a,b$ any two elements in homogeneous degree $deg(a), deg(b)\in \mathbb{Z}/2\mathbb{Z}$, then their product is related by
+
+$$
+  a \cdot b = (-1)^{deg(a) dag(b)} b \cdot a
+  \,.
+$$
+
+Write $SuperCAlg_{\mathbb{R}}$ for the [[category]] of commutative superalgebras over $\mathbb{R}$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $q\in \mathbb{N}$, the real [[Grassmann algebra]] $C^\infty(\mathbb{R}^{0|q})$ is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^1$ subject to the relation 
+
+$$
+  \theta^i \theta^j = - \theta^j \theta^i
+  \,.
+$$
+
+For $p,q \in \mathbb{N}$, the [[super-Cartesian space]] $\mathbb{R}^{p|q}$ is the [[formal dual]] of the commutative superalgebra written 
+ $C^\infty(\mathbb{R}^{p|q})$ whose underlying 
+$\mathbb{Z}/2\mathbb{Z}$-[[graded vector space]] is
+
+
+$$
+  C^\infty(\mathbb{R}^{p|q})
+  \coloneqq
+  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \langle\theta^1, \cdots, \theta^q\rangle 
+$$
+
+with the product given by the relations
+
+$$
+  \begin{aligned}
+  \left(
+    f \theta^{i_1}\cdots \theta^{i_k}
+  \right)
+  \left(
+    g \theta^{j_1}\cdots \theta^{j_l}
+  \right)
+  & =
+  f \cdot g \; \theta^{i_1}\cdots \theta^{i_k} \theta^{j_1}\cdots \theta^{j_l}
+  \\
+  & = 
+  (-1)^{k l} g\cdot f \; \theta^{j_1}\cdots \theta^{j_l} \theta^{i_1}\cdots \theta^{i_k}
+  \end{aligned}
+$$
+
+where $f \cdot g$ is the ordinary pointwise product of [[smooth functions]].
+
+Write
+
+$$
+ SuperCartSp \hookrightarrow SuperCAlg_{\mathbb{R}}^{op}
+$$
+
+for the [[full subcategory]] of the [[opposite category]] of [[commutative superalgebras]] on those of this form. We write 
+$\mathbb{R}^{p|q} \in SuperCartSp$ for the [[formal dual]] of 
+$C^\infty(\mathbb{R}^{p|q})$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Say that a collection of morphisms $\{U_i \to X\}$ in $SuperCartSp$ is [[covering]] if all $U_i$ and the $X$ are $\mathbb{R}^{p|q}$ (for the same $p$ and $q$), the morphisms are the identity on the odd generators $\{\theta_i\}$, and the underlying map of [[Cartesian spaces]] is a [[good open cover]] in the sense of def. \ref{SiteCartSp}. Write
+
+$$
+  SuperSmooth0Type \coloneqq Sh(SuperCartSp)
+$$
+
+for the [[sheaf topos]] over that site. We call this the collection of _[[smooth super spaces]]_.
+
+=--
+
+This is the [[topos]] that hosts traditional [[supergeometry]]. However for our purposes it is useful to refine this a little more to a context for [[synthetic differential supergeometry]]. To that end first observe that
+
++-- {: .num_remark}
+###### Remark
+
+The even-degree part $C^\infty(\mathbb{R}^{p|q})_{even}$ is an ordinary [[commutative algebra]], but if $q \geq 1$ then it is not the algebra of functions on any [[smooth manifold]], because it has a non-trivial [[nilpotent ideal]]. Instead, a nilpotent element of an [[algebra of functions]] may be thought of as a function depending on an _infinitesimal direction_.
+
+For instance $C^\infty(\mathbb{R}^{0|2})_{even}$ is isomorphic to what is known as the [[ring of dual numbers]] $(\mathbb{R}\oplus \epsilon \mathbb{R})/(\epsilon^2)$ with $\epsilon = \theta^1 \theta^2$.
+
+This is traditionally more familiar from the theory of [[formal schemes]], but the same kind of general abstract theory goes through in the context of [[differential geometry]], a point of view known as _[[synthetic differential geometry]]_.
+ 
+But this means that in passing to commutative superalgebras there are _two_ stages of generalizations of plain differential geometry involved:
+
+1. [[smooth manifolds]] are generalized to [[formal smooth manifolds]];
+
+1. [[formal smooth manifolds]] are further generalized to formal smooth [[supermanifolds]].
+
+=--
+
+It will be useful to make this explicit.
+
+
++-- {: .num_defn}
+###### Definition
+
+Write 
+
+$$
+  InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
+$$ 
+
+for the [[full subcategory]] of the [[opposite category]] of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]] of [[commutative algebras]] over the [[real numbers]] of the form $\mathbb{R}\oplus V$ with $V$ a finite-dimensional  [[nilpotent ideal]]. We call this the category of _[[infinitesimally thickened points]]_.
+
+Write moreover
+
+$$
+  CartSp \rtimes InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
+$$
+
+for the [[full subcategory]] on [[formal duals]] of those algebras which are [[tensor products]] of commutative $\mathbb{R}$-algebras of the form
+
+$$
+  C^\infty(\mathbb{R}^n) \otimes C^\infty(D)
+$$
+
+of algebras $C^\infty(\mathbb{R}^p)$ of [[smooth functions]] $\mathbb{R}^n$ as in def. \ref{EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras} with algebras corresponding to infinitesimally thickened points $D$ as above.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Write $\mathbb{D}$ for the [[formal dual]] of the [[algebra of dual numbers]]. Then morphisms
+
+
+$$
+  \mathbb{R}^n \times \mathbb{D}\longrightarrow \mathbb{R}^n
+$$
+
+which are the identity after restricton along $\mathbb{R}^n \to \mathbb{R}^n \times \mathbb{D}$, are equivalently algebra homomorphisms of the form
+
+
+$$
+  C^\infty(\mathbb{R}^n)\otimes_{\mathbb{R}} \langle \epsilon\rangle
+  \longrightarrow
+  C^\infty(\mathbb{R}^n)
+$$
+
+which are the identity modulo $\epsilon$. Such a morphism has to take any function $f \in C^\infty(\mathbb{R}^n)$ to 
+
+$$
+  f + (\partial f) \epsilon
+$$
+
+for some smooth function $(\partial f) \in C^\infty(\mathbb{R}^n)$. The condition that this assignment makes an algebra homomorphism is equivalent to the statement that for all $f_1,f_2 \in C^\infty(\mathbb{R}^n)$
+
+$$
+  (f_1 f_2 + (\partial (f_1 f_2))\epsilon )
+  =
+  (f_1 + (\partial f_1) \epsilon)
+  (f_2 + (\partial f_2) \epsilon)
+  \,.
+$$
+
+Multiplying this out and using that $\epsilon^2 = 0$ this in turn is equivalent to
+
+$$
+  \partial(f_1 f_2) = (\partial f_1) f_2 + f_1 (\partial f_2)
+  \,.
+$$
+
+This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]]. But derivations of algebras of [[smooth functions]] are equivalent to [[vector fields]].
+
+Similarly one finds that maps
+
+$$
+  \mathbb{D} \longrightarrow \mathbb{R}^n
+$$
+
+are equivalently single [[tangent vectors]].
 
 
 =--
 
 
-[[superalgebra]], [[Grassmann algebra]]
-
-[[super-Cartesian space]]
-
-sheaves on that
-
-formal super-Cartesian space
-
-sheaves on that
-
-* [[CartSp]] for the site of [[Cartesian spaces]];
-
-* $InfPoint \coloneqq WAlg^{op}$ for the category of first-order [[infinitesimally thickened points]] (i.e. the [[abstract duality|formal duals]] of [[commutative algebras]] over the [[real numbers]] of the form $\mathbb{R}\oplus V$ with $V$ a finite-dimensional  square-0 [[nilpotent ideal]]).
 
 * $SuperPoint \coloneqq WAlg_{super}^{op}$ for the category of [[superpoints]], by which we here mean the [[formal duals]] to commutative [[superalgebras]] which 
 are super-[[Weil algebras]].
@@ -307,6 +534,7 @@ $$
 $$
 
 #### The curved case
+ {#TheCurvedCase}
 
 given $X,Y\in SuperSmooth0Type$ then a morphism $f \colon X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if
 
@@ -350,6 +578,8 @@ with both morphisms being local diffeos and the right one in addition being a [[
 
 ## References
 
+Traditional literature that involves super-Cartan geometry more or less explicitly includes
+
 * {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
@@ -359,3 +589,7 @@ with both morphisms being local diffeos and the right one in addition being a [[
 * {#FigueroaOFarrill08} [[José Figueroa-O'Farrill]], _The homogeneity conjecture for supergravity backgrounds_, J.Phys.Conf.Ser.175:012002, 2009 ([arXiv:0812.1258](http://arxiv.org/abs/0812.1258))
 
 * {#EgeilehChami13} Michel Egeileh, Fida El Chami, _Some remarks on the geometry of superspace supergravity_, J.Geom.Phys. 62 (2012) 53-60 ([spire](http://inspirehep.net/record/1333125))
+
+A formalization as discussed above is considered in 
+
+* _[[schreiber:differential cohomology in a cohesive topos]]_
