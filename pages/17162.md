@@ -7,7 +7,11 @@
 
 The [[generalized homology]] of [[MU]].
 
-A key ingredient in [[Quillen's theorem on MU]] giving the [[homotopy groups]] of $MU$.
+A key ingredient in [[Quillen's theorem on MU]] giving the [[homotopy groups of a spectrum|homotopy groups]] of $MU$.
+
+## Related concepts
+
+* [[homology of MO]]
 
 ## References
 
