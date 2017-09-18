@@ -259,7 +259,7 @@ A simpler version of the proof apparently appears on page 60 of
 
 and is reproduced in
 
-* MO [here](http://mathoverflow.net/a/212595/381))
+* MO [here](http://mathoverflow.net/a/212595/381)
 
 Apparently this proof is little known. For instance in a remark below lemma 10.5.5 of
 
