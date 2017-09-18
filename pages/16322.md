@@ -10,7 +10,9 @@ $$
 \array{U & \overset{a}{\underset{\ell}{\rightleftarrows}} & U^U} 
 $$
 
-such that $a \circ \ell = 1$.  In other words, a reflexive object is an object $U$ together with data exhibiting $U^U$ as a [[retract]] of $U$.   A reflexive object is said to be *strict* when this is actually an isomorphism $U \cong U^U$.  Note that this definition may be naturally generalized to any [[closed category]], not necessarily cartesian.
+such that $a \circ \ell = 1$.  In other words, a reflexive object is an object $U$ together with data $U^U \lhd U$ exhibiting $U^U$ as a [[retract]] of $U$.   A reflexive object is said to be *strict* when also $\ell \circ a = 1$, so that there is an isomorphism $U^U \cong U$.
+
+Note that this definition may be naturally generalized to any [[closed category]], not necessarily cartesian.
 
 ## Examples
 
