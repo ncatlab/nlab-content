@@ -21,11 +21,32 @@
 
 ## Definition
 
+### Explicitly
+
 A **section** of a [[morphism]] $f : A \to B$ in some [[category]] is a **right-[[inverse]]**: a [[morphism]] $\sigma : B \to A$ such that
 $$
   f \circ \sigma : B \stackrel{\sigma}{\to} A \stackrel{f}{\to} B
 $$
 equals the [[identity morphism]] on $B$.
+
+### In terms of dependent product
+ {#InTermsOfDependentProduct}
+
+In a [[locally cartesian closed category]] $\mathcal{C}$, regard the morphism $f\colon A \to B$ as an object $[f] \in \mathcal{C}_{/B}$ in the [[slice category]] over $B$. Then there is the [[dependent product]]
+
+$$
+  \underset{B}{\prod} [f] \in \mathcal{C}
+  \,.
+$$
+
+This is the [[space of sections]] of $f$. A single section $\sigma$ is a [[global element]] in here
+
+$$
+  \sigma \colon \ast \to \underset{B}{\prod} [f]
+  \,.
+$$ 
+
+See at _[dependent product -- In terms of spaces of sections](dependent%20product#RelationToSpacesOfSections)_ for more on this.
 
 ## Split idempotents
 
