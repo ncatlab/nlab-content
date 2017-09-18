@@ -26,6 +26,87 @@ More generally, for a Hilbert space $\mathcal{H}$, $U(\mathcal{H})$ is the group
 
 The unitary groups are naturally [[topological group]]s and [[Lie groups]] (infinite dimensional if $\mathcal{H}$ is infinite dimensional).
 
++-- {: .num_prop #UnitaryGroupIsCompact}
+###### Proposition
+
+The unitary group $U(n)$ is [[compact topological space]], hence in particular a [[compact Lie group]].
+ 
+=--
+
+
+### Homotopy groups
+
++-- {: .num_prop #InclusionOfUnitaryGroupnIntoUnitaryGroupnPlusIneIsnMinus1Equivalence}
+###### Proposition
+
+For $n,k \in \mathbb{N}$, $n \leq k$, then the canonical inclusion of unitary groups
+
+$$
+  U(n) \hookrightarrow U(k)
+$$
+
+is a [[n-equivalence|2n-equivalence]], hence induces an [[isomorphism]] on [[homotopy groups]] in degrees $\lt 2n$ and a [[surjection]] in degree $2n$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  U(n)
+  \longrightarrow
+  U(n+1)
+  \longrightarrow
+  U(n+1)/U(n)
+  \,.
+$$
+
+By prop. \ref{UnitaryGroupIsCompact} and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal), the projection $U(n+1)\to U(n+1)/U(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsUnitaryCosetSpace} identifies the [[coset]] with the [[n-sphere|(2n+1)-sphere]] 
+
+$$
+  S^{2n+1}\simeq U(n+1)/U(n)
+  \,.
+$$
+
+Therefore the [[long exact sequence of homotopy groups]] of the [[fiber sequence]] $U(n)\to U(n+1) \to S^{2n+1}$ is of the form
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet+1}(S^{2n+1})
+    \longrightarrow
+  \pi_\bullet(U(n))
+    \longrightarrow
+  \pi_\bullet(U(n+1))
+    \longrightarrow
+  \pi_\bullet(S^{2n+1})
+   \to
+  \cdots
+$$
+
+Since $\pi_{\leq 2n}(S^{2n+1}) = 0$, this implies that 
+
+$$
+  \pi_{\lt 2n}(U(n))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\lt 2n}(U(n+1))
+$$
+
+is an isomorphism and that
+
+$$
+  \pi_{2n}(U(n))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{2n}(U(n+1))
+$$
+
+is surjective. Hence now the statement follows by induction over $k-n$.
+
+=--
+
+
 ### In infinite dimension
 
 +-- {: .num_prop}
@@ -113,6 +194,86 @@ This intersection property makes a [[G-structure]] for $G = U(n)$ (an [[almost H
 ## Examples
 
 $U(1)$ is the [[circle group]].
+
+### Coset spaces
+
++-- {: .num_example #nSphereAsUnitaryCosetSpace}
+###### Example
+
+The [[n-spheres|(2n+1)-spheres]] are [[coset spaces]] of unitary groups
+
+$$
+  S^{2n+1} \simeq U(n+1)/U(n)
+  \,.
+$$
+
+=--
+
+
+
++-- {: .num_example #ComplexStiefelManifold}
+###### Example
+
+For $n \leq n$, the [[coset]]
+
+$$
+   V_n(\mathbb{C}^k) \coloneqq U(k)/U(k-n)
+$$
+
+is called the $n$th _real [[Stiefel manifold]]_ of $\mathbb{C}^k$.
+
+=--
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+The complex [[Stiefel manifold]] $V_n(\mathbb{C}^k)$ (example \ref{ComplexStiefelManifold}) is [[n-connected topological space|2(k-n)-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  U(k-n)
+    \longrightarrow
+  U(k)
+    \longrightarrow
+  U(k)/U(k-n) 
+    = 
+  V_n(\mathbb{C}^k)
+  \,.
+$$
+
+By prop. \ref{UnitaryGroupIsCompact} and by [this corolarry](QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $U(k)\to U(k)/U(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfUnitaryGroupnIntoUnitaryGroupnPlusIneIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet \leq 2(k-n)}(U(k-n))
+    \overset{epi}{\longrightarrow}
+  \pi_{\bullet \leq 2(k-n)}(U(k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet \leq 2(k-n)}(V_n(\mathbb{C}^k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet-1 \lt 2(k-n)}(U(k))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\bullet-1 \lt 2(k-n)}(U(k-n))
+    \to
+  \cdots
+  \,.
+$$
+
+This implies the claim. 
+
+
+=--
+
+
 
 ## Related concepts
 
