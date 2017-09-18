@@ -36,7 +36,22 @@ This page is to provide non-technical or maybe semi-technical discussion of the 
 
 ### What is homotopy type theory?
 
+#### For laymen
 
+(...)
+
+#### For set theorists
+ {#WhatIsHoTTForSetTheorists}
+
+When you prove something in [[ZF]], it is automatically also true in all [[forcing]] extensions.  The same is true for [[constructive set theory]], except that there are more forcing extensions since we don't have to force the [[law of excluded middle]]; those constructive notions of forcing (which also subsume [[permutation models]]) are called "[[sites]]" and their [[models]] are called "[[topos|1-toposes]]".  Now in HoTT we have an even more general sort of forcing appropriate for [[homotopy theory]], called [[(∞,1)-sites]], whose models are called [[(∞,1)-toposes]].
+
+#### For type theorists
+
+(...)
+
+#### For homotopy theorists
+
+(...)
 
 ### Does HoTT have interpretation/semantics/models in $\infty$-toposes?
  {#InterpretationInInfinityToposes}
@@ -82,6 +97,12 @@ If one wishes to prove statements that hold only in some class of $\infty$-topos
 
 ### Is homotopy type theory limited to constructive mathematics?
 
+No. 
+
+For a longer answer, see for instance
+
+* [[Andrej Bauer]], _[Univalent foundations subsume classical mathematics](http://math.andrej.com/2014/01/13/univalent-foundations-subsume-classical-mathematics/)_ (2013)
+
 ### What advantages does homotopy type theory have over set theory?
 
 ### In what sense does homotopy type theory already contain logic?
@@ -89,5 +110,4 @@ If one wishes to prove statements that hold only in some class of $\infty$-topos
 ### Can category theory be carried out in homotopy type theory?
 
 ### Can $(\infty,1)$-categories be defined in homotopy type theory?
-
 
