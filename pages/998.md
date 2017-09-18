@@ -137,6 +137,7 @@ Discussion of noncommutative [[formal geometry]] around ordinary abelian schemes
 
 * {#Kapranov98} [[Mikhail Kapranov]], _Noncommutative geometry based on commutator expansions_ ([arXiv:9802041](http://arxiv.org/abs/math/9802041))
 
+For more on this see at _[[Kapranov's noncommutative geometry]]_.
 See also the references at _[[derived noncommutative geometry]]_
 
 
