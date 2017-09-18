@@ -1,47 +1,46 @@
-
-Let $\{U_i \subset X\}_{i \in I}$ be an open cover over which the covering space trivializes. Then the pre-images $\{\eta^{-1}(U_i) \subset Y \times [0,1]\}_{i \in I}$ is an open cover of the product space. By nature of the [[product space|product space topology]] and the [[Euclidean topology]] on $[0,1]$, each of the $\eta^{-1}(U_i)$ is a union of Cartesian products $V_j \times I_j$ with $V_i \subset Y$ an open subset of $Y$ and $I_i \subset [0,1]$ an interval. Hence there is an open cover of the form
-
-$$
-  \{
-    V_j \times I_j \subset Y \times [0,1]
-  \}_{j \in J}
-$$
-
-with the property that for each $j$ there exists $i \in I$ with $\eta(V_j \times I_j) \subset U_i$.
-
-Now by the fact that $[0,1]$ is a [[compact topological space]], for each $y \in Y$ there exists a finite set $K_y \subset J$ such that
-
-$$
-  \{ V_k \times I_k \}_{k \in K_y \subset K}
-$$
-
-still restricts to a cover of $\{y\} \times [I]$. Since $K$ is finite, the intersection
-
-$$
-  V_y \;\coloneqq\; \underset{k \in K_y}{\cap}
-$$
-
-is still open, and so also 
-
-$$
-  \{ V_y \times I_k \}_{k \in K_y}
-$$
-
-still restricts to a cover of $\{y\} \times [0,1]$. Finally, by the assumption that $Y$ is locally connected, there exists a connected open subset $C_y \subset Y$ with $y \in C_y \subset V_y$, and so 
-
-$$
-  \{C_y \times I_k\}_{k \in K_y} 
-$$
-
-restricts to an open cover of $\{y\} \times [I]$. Now since $C_y$ is connected, its image $\eta(C_y \times \{t\})$ lifts to a fingle leaf of $E\vert_{U_i}$.
-
-This means that the same argument as for the path lifting in lemma \ref{CoveringSpacePathLifting} provides a unique lift $\widehat{\eta\vert_{C_y \times [0,1]}}$ for each $y \in Y$.
-
-Moreover, for $y_1, y_2 \in Y$ two points, these lifts clearly have to agree on $C_{y_1} \cap C_{y_2}$. 
-
-Since $\{C_y \times [0,1] \subset Y \times [0,1]\}_{y \in Y}$ is an open cover, means that there is a unique function $\hat \eta$ that restricts to all these local lifts ([this prop](Top#ClosedSubspacesGluing)). This is the required lift.
-
-
-
-
+<div>
+<div style="float:left">
+ <div>(1 2 3)</div>
+ <div>(1 2)(3)</div>
+ <div>(1)(2)(3)</div>
+</div>
+<div style="float:left">
+<div>
+ <svg width="80" height="30" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <desc>Young diagram (3)</desc>
+ <g>
+  <title>Layer 1</title>
+  <rect x="10" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_1"/>
+  <rect x="30" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_2"/>
+  <rect x="50" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_3"/>
+ </g>
+ </svg>
+</div>
+<div>
+ <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <desc>Young diagram (2,1)</desc>
+ <g>
+  <title>Layer 1</title>
+  <rect x="10" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_1"/>
+  <rect x="30" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_2"/>
+  <rect x="10" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_3"/>
+ </g>
+ </svg>
+</div>
+<div>
+ <svg width="40" height="90" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <desc>Young diagram (1,1,1)</desc>
+ <g>
+  <title>Layer 1</title>
+  <rect x="10" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_1"/>
+  <rect x="10" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_2"/>
+  <rect x="10" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_3"/>
+ </g>
+ </svg>
+</div>
+</div>
+<div style="float:left">
+<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="100">
+</div>
+</div>
 
