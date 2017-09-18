@@ -97,7 +97,18 @@ In the context of [[algebraic geometry]] and [[D-geometry]] the comonad structur
 
 * {#Lurie} [[Jacob Lurie]], above prop. 0.9 in _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)), 2009
 
+Discussion in [[differential cohesion]] is in
+
+* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
+Discussion in differentially cohesive [[homotopy type theory]] is in
+
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
+
+
 For more references see at _[[jet bundle]]_.
+
+
 
 [[!redirects jet comonads]]
 
