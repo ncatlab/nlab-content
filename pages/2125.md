@@ -45,7 +45,7 @@ Analogous statements apply to the dual Dold-Kan correspondence, where the monoid
 
 A crucial fact about the [[Dold-Kan correspondence]] is that
 
-* The two functors in the Dold-Kan correspondence individually respect these monoidal structures, in the sense that they are lax [[monoidal functors]].
+* The two functors in the Dold-Kan correspondence individually respect these monoidal structures, in the sense that they are lax [[monoidal functors]] (but not [[strong monoidal functors]], see remark \ref{RemarkOnLaxStrongDistinction}).
 
 However, the [[adjunction]] fails to be a [[monoidal adjunction]] of any sort (i.e. the unit and counit are not monoidal natural transformations).  (Note that if it were a monoidal adjunction, then by [[doctrinal adjunction]], both functors would necessarily be strong monoidal, and hence an equivalence of monoidal categories.)  As a result, the Dold-Kan equivalence of categories does not induce an [[equivalence of categories]] or even an adjunction between (co)simplicial rings and (co)chain complexes.
 
@@ -224,10 +224,10 @@ Since the normalized Moore complex functor $N_\bullet$ is an equivalence of cate
 
 For more details see [[oplax monoidal functor]].
 
-+-- {: .num_remark }
++-- {: .num_remark #RemarkOnLaxStrongDistinction}
 ###### Remark
 
-The upshot is that $N$ and $G$ are both pretty close to being [[strong monoidal functor]]s, but fail to be so. If they were, the monoidal 
+The upshot is that $N$ and $G$ are both pretty close to being [[strong monoidal functors]], but fail to be so. If they were, the monoidal 
 Dold-Kan correspondence would be a simple corollary of the Dold-Kan correspondence and would hold at the level of 1-categories.
 
 Explicitly, the failure of $N$ to be strong monoidal is in that 
