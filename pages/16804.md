@@ -12,7 +12,8 @@ And here is the arc diagram obtained by cutting the chord diagram at the segment
 [[!include chord diagram > arc diagram]]
 </center>
 
-An arc diagram of order $n$ is entirely determined by specifying a [[fixed point]] free [[involution]] $\alpha$ on the [[ordinal]] $\mathbf{2n} = \{0 \to 1 \to \dots \to 2n{-}1\}$.  (In the above example, $\alpha = (02)(13)(45)$.)  The [[cyclic group]] $\mathbb{Z}_{2n}$ acts naturally on arc diagrams of order $n$ by [[conjugation action|conjugation]], which to any $0 \le k \lt 2n$ associates the transformation $\alpha \mapsto \tau_k\circ\alpha\circ\tau_k^{-1}$, where $\tau_k$ is addition modulo $2n$.  Conversely, taking the [[quotient]] by this [[action]] recovers the set of chord diagrams of order $n$.
+An arc diagram of order $n$ is entirely determined by specifying a [[fixed point]] free [[involution]] $\alpha$ on the [[ordinal]] $\mathbf{2n} = \{0 \to 1 \to \dots \to 2n{-}1\}$.  (In the above example, $\alpha = (02)(13)(45)$.)  The 
+[[symmetric group]] $S_{2n}$ acts naturally on arc diagrams of order $n$ by [[conjugation action|conjugation]].  In particular, the generator $\tau$ of the cyclic group $\mathbb{Z}_{2n}$ ($\tau$ = addition by 1 modulo $2n$) acts by sending $\alpha \mapsto \tau\circ\alpha\circ\tau^{-1}$, which has the effect of moving the first vertex to the end and shifting all other vertices to the left.  Then taking the [[quotient]] of arc diagrams by the [[action]] of $\mathbb{Z}_{2n}$ recovers the set of chord diagrams of order $n$.
 
 ## Related concepts
 
