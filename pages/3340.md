@@ -80,6 +80,10 @@ If $I\subset A$ is an ideal, then the **relative cyclic homology** groups $HC_n(
 
 * [[Sullivan model of free loop space]]
 
+* [[dihedral homology]]
+
+* [[topological cyclic homology]]
+
 ## References
 
 Foundational articles:
