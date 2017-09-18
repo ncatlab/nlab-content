@@ -51,6 +51,8 @@ The [[philosophy]] of [[physics]].
 
 * [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
 
+* {#Albert12} [[David Albert]], _[On the origin of Everything](http://www.nytimes.com/2012/03/25/books/review/a-universe-from-nothing-by-lawrence-m-krauss.html?_r=1&adxnnl=1&adxnnlx=1415727315-pCXR9NUmWeBxo+FViR+NlA)_, 2012
+
 * [[Gabriel Catren]] et al. (org.) _Philosophy of Mechanics: Mathematical Foundations_, Workshop Feb 12-14, 2014 ([website](http://phil.physico-math.gie.im), [poster](http://phil.physico-
 math.gie.im/static/PhilosophyofMechanics25size.jpg))
 
@@ -60,4 +62,4 @@ math.gie.im/static/PhilosophyofMechanics25size.jpg))
 
 Reference specifically on the [[interpretation of quantum mechanics]] include
 
-* [[Roland Omnès]], _[[The Interpretation of Quantum Mechanics]]_
+* [[Roland Omnès]], _[[The Interpretation of Quantum Mechanics]]
