@@ -45,6 +45,10 @@ may be interpreted as sending any [[bundle]] over $X$ to its [[jet bundle]].
 
 The [[Eilenberg-Moore category]] of [[coalgebras]] over the Jet comonad has the interpretation of the category of [[partial differential equations]] with [[variables]]  in $X$. The [[co-Kleisli category]] of the Jet comonad has the interpretation as being the category of bundles over $X$ with [[differential operators]] between them as morphisms ([Marvan 86](#Marvan86), [Marvan 89](#Marvan89)).
 
+## Related concepts
+
+* [[topos of coalgebras over a comonad]]
+
 ## References
 
 In the context of [[differential geometry]] the comonad structure on the jet bundle construction, as well as the interpretation of its EM-category as that of partial differential equations, is due to
