@@ -175,6 +175,8 @@ As with the concept of [[compact topological spaces]] ([this remark](compact#spa
 
 * every paracompact finite-dimensional [[manifold]] has a [[partition of unity]]
 
+* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
+
 * For paracompact spaces, [[numerable open cover|numerable open covers]] are cofinal in all open covers (in $Top$).
 
 Care should be taken as to which category one constructs partitions of unity on paracompact spaces. For example, analytic partitions of unity generally do not exist on smooth (finite dimensional) manifolds, even when smooth ones do.
