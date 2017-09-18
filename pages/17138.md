@@ -1526,11 +1526,11 @@ These are still [[nLab:differentials]]: $\partial^2 = 0$.
 ###### Proof
 
 By the very definition of $Z^r_{p,q}$ it consists of elements in filtering degree $p$ on which $\partial$ decreases the filtering degree to $p-r$. Also by definition of differential on a chain complex, $\partial$ decreases the actual degree $p+q$ by one. This explains that $\partial$ restricted to $Z^r_{p,q}$ lands in $Z^\bullet_{p-r,q+r-1}$. 
-Now the image constists indeed of actual boundaries, not just $r$-almost boundaries. But since actual boundaries are in particular $r$-almost boundaries, we may take the codomain to be $Z^r_{p-r,q+r-1}$.
+Now the image constists indeed of actual boundaries, not just $r$-almost boundaries. But since actual boundaries are in particular $r$-almost boundaries, we may take the [[codomain]] to be $Z^r_{p-r,q+r-1}$.
 
 =--
 
-As before, we will in general index these differentialy by their codomain and hence write in more detail
+As before, we will in general index these differentials by their [[codomain]] and hence write in more detail
 
 $$
   \partial^r 
