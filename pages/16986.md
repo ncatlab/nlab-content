@@ -37,9 +37,9 @@ $$
   }
 $$
 
-of the 15-sphere over the 8-sphere with [[fiber]] the 7-sphere. Because of the noncommutativity of the octonions, we cannot simply imitate the construction for the quaternions in [[quaternionic Hopf fibration]]. 
+of the 15-sphere over the 8-sphere with [[fiber]] the 7-sphere. 
 
-First, we decompose $\mathbb{O}^2$ into the octonionic lines, 
+To construct the fibration, first we decompose $\mathbb{O}^2$ into the octonionic lines, 
 
 $l_m := \{(x, m x)|x \in \mathbb{O}\}$ and $l_{\infty} := \{(0, y)|y \in \mathbb{O}\}$. 
 
