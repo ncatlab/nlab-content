@@ -422,17 +422,17 @@ One needs to show that with the Mittag-Leffler condition, then the [[cokernel]] 
 
 ### For homotopy groups
 
-+-- {: .num_prop}
++-- {: .num_prop #MilnorExactSequence}
 ###### Proposition
-**(Milnor exact sequence)**
+**(Milnor exact sequence for homotopy groups)**
 
 Let 
 
 $$
-  \cdots \to X_3 \to X_2 \to X_1 \to X_0
+  \cdots \to X_3 \overset{p_2}{\longrightarrow} X_2 \overset{p_1}{\longrightarrow} X_1 \overset{p_0}{\longrightarrow} X_0
 $$
 
-be a [[tower of fibrations]], for instance a tower of [[simplicial sets]] with each map a [[Kan fibration]]. Then for each $q \in \mathbb{N}$ there is a [[short exact sequence]]
+be a [[tower of fibrations]], for instance a tower of [[simplicial sets]] with each map a [[Kan fibration]] (and $X_0$, hence each $X_n$ a [[Kan complex]]), or a tower of [[topological spaces]] with each map a [[Serre fibration]]. Then for each $q \in \mathbb{N}$ there is a [[short exact sequence]]
 
 $$
   0 
@@ -447,11 +447,67 @@ $$
   \,,
 $$
 
-for $\pi_\bullet$ the [[homotopy group]]-functor. (Exact as [[pointed sets]] for $i = 0$, as [[groups]] for $i \geq 1$.)
+for $\pi_\bullet$ the [[homotopy group]]-functor (exact as [[pointed sets]] for $i = 0$, as [[groups]] for $i \geq 1$) which says that 
+
+1. the failure of the [[limit]] over the homotopy groups of the stages of the tower to equal the homotopy groups of the [[limit]] of the tower is at most in the [[kernel]] of the canonical comparison map;
+
+1. that kernel is the $\underset{\longleftarrow}{\lim}^1$ (def. \ref{Lim1ViaCokernel}) of the homotopy groups of the stages. 
+
 
 =--
 
 e.g. ([Bousfield-Kan 72, chapter IX, theorem 3.1](#BousfieldKan72), [Goerss-Jardine 96, section VI. prop. 2.15](#GoerssJardine96))
+
++-- {: .proof}
+###### Proof
+
+With respect to the [[classical model structure on simplicial sets]] or the [[classical model structure on topological spaces]], a tower of fibrations as stated is a fibrant object in the injective [[model structure on functors]] $[(\mathbb{N},\geq), sSet]_{inj}$ ($[(\mathbb{N},\geq), Top]_{inj}$) ([prop](projectively+cofibrant+diagram#CofibrantCotowerDiagram)). Hence the plain [[limit]] over this diagram represents the [[homotopy limit]]. By the discussion there, up to weak equivalence that homotopy limit is also the pullback in 
+
+$$
+  \array{
+    holim X_\bullet &\longrightarrow& \underset{n}{\prod} Path(X_n)
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    \underset{n}{\prod} X_n &\underset{(id,p_n)_n}{\longrightarrow}&
+    \underset{n}{\prod} X_ n \times X_n
+  }
+  \,,
+$$
+
+where on the right we have the product over all the canonical fibrations out of the [[path space objects]]. Hence also the left vertical morphism is a fibration, and so by taking its [[fiber]] over a basepoint, the [[pasting law]] gives a [[homotopy fiber sequence]]
+
+$$
+  \underset{n}{\prod} \Omega X_n
+    \longrightarrow
+  holim X_\bullet
+    \longrightarrow
+  \underset{n}{\prod} X_n
+  \,.
+$$
+
+The [[long exact sequence of homotopy groups]] of this fiber sequence goes
+
+$$
+  \cdots
+   \to
+  \underset{n}{\prod} \pi_{q+1}(X_n)  
+   \longrightarrow
+  \underset{n}{\prod} \pi_{q+1}(X_n)
+    \longrightarrow
+  \pi_q (\underset{\longleftarrow}{\lim} X_\bullet)
+    \longrightarrow
+  \underset{n}{\prod} \pi_q(X_n)
+    \longrightarrow
+  \underset{n}{\prod} \pi_q(X_n)
+   \to
+  \cdots
+  \,.
+$$
+
+Chopping that off by forming kernel and cokernel yields the claim for positive $q$. For $q = 0$ it follows by inspection.
+
+=--
 
 ### For chain homology
 
@@ -490,6 +546,7 @@ $$
 
 +-- {: .num_prop #MilorSequenceForReducedCohomologyOnCWComplex}
 ###### Proposition
+**(Milnor exact sequence for generalized cohomology)**
 
 Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longleftarrow}{\lim}_n X_n$ and let $\tilde E^\bullet$ an additive [[reduced cohomology theory]]. 
 
