@@ -1,4 +1,6 @@
 
+$\notin$
+
 [[UrysohnConstruction.png:file]]
 
 
