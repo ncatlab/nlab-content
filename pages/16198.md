@@ -7,6 +7,8 @@
 
 The [[spontaneously broken symmetry|spontaneous breaking]] of [[supersymmetry]]. Key to all [[phenomenology]] with global low energy supersymmetry.
 
+In [[supergravity]] for instance due to _[[gravitino condensation]]_.
+
 ## Related concepts
 
 * [[Starobinsky model of cosmic inflation]]
