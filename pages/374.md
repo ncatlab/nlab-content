@@ -166,7 +166,11 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 ### Specific examples
 
-* [[point]]
+* [[empty space]]
+
+* [[point space]]
+
+* [[Sierpinski space]]
 
 * [[simplex]]
 
