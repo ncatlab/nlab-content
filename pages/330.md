@@ -44,15 +44,15 @@ For example:
 
 Many (but not all) of the examples above are [[cartesian closed categories]].  In a more general [[closed category]], a morphism from the unit object to $x$ can be called an _element_ of $x$. For example, an element of an [[abelian group]] $x$ is a morphism from the group $\mathbf{Z}$ of integers to $x$, and of course this is equivalent to the usual notion of element of $x$. But here the adjective 'global' is not used.
 
-Relatedly, there is [^1] a usage defining the informal notion "name of a morphism" as follows: if $\mathcal{C}$ is any [[closed monoidal category]], then 
+Somewhat relatedly, there is[^1] a usage defining the informal notion "name of a morphism" as follows: if $\mathcal{C}$ is any [[closed monoidal category]], then 
 
- ( *name* of a morphism $A\overset{f}{\rightarrow}B$ in $\mathcal{C}$) 
+ (*name* of a morphism $A\overset{f}{\rightarrow}B$ in $\mathcal{C}$) 
 
 $:=$ 
 
-( global element $1\overset{\text{"" f " "}}{\rightarrow} [A,B]$ of the internal hom $[A,B]$ in $\mathcal{C}$), 
+(global element $I\overset{\text{"f"}}{\rightarrow} [A,B]$ of the internal hom $[A,B]$ in $\mathcal{C}$), 
 
-where $1$ denotes [[the]] terminal object of $\mathcal{C}$. 
+where $I$ denotes [[the]] monoidal unit of $\mathcal{C}$. When $C$ is cartesian closed or even [[semicartesian monoidal category|semicartesian monoidal]] closed, this name is a global element in the sense of this article (but may sometimes be called a global element regardless, even for the more general case). 
 
 [^1]: Cf. John Baez, Quantum Gravity Seminar, University of California, Riverside, Fall 2006, notes taken by Derek Wise, lecture of 2 November 2006.
 
