@@ -108,6 +108,9 @@ It\'s easy to extend the suspension operation $S$ to a [[functor]] from [[Top]] 
 
 For [[CW-complexes]] suspension and [[reduced suspension]] agree, up to [[weak homotopy equivalence]].
 
+### Cogroup structure
+
+In the pointed case ([[reduced suspension]]): [[suspensions are H-cogroup objects]]
 
 ## Examples
 
