@@ -31,7 +31,7 @@ For $n \leq 3$ two alternative semi-strictifications are known:
 * Every [[quasi-category]] is equivalently modeled by a [[simplicially enriched category]], which is a model for an [[(∞,1)-category]] in which 
 all horizontal composition is strict. See [[relation between quasi-categories and simplicial categories]].
 
-* A [[dg-category]] is an [[A-infinity-category]] in which horizontal composition is defined strictly. Every $A_\infty$-category is $A_\infty$-equivalent to a [[dg-category]]. This is at least rouhgly the [[stable (∞,1)-category]] analog of the above statement.
+* A [[dg-category]] is an [[A-infinity-category]] in which horizontal composition is defined strictly. Every $A_\infty$-category is $A_\infty$-equivalent to a [[dg-category]]. This is at least roughly the [[stable (∞,1)-category]] analog of the above statement.
 
 ## Related concepts
 
