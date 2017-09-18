@@ -1,0 +1,1 @@
+[This](http://www.ams.org/journals/bull/1949-55-05/S0002-9904-1949-09213-3/S0002-9904-1949-09213-3.pdf) is a link to the online copy of J. H. C. WHitehead's second paper on Combinatorial Homotopy.
