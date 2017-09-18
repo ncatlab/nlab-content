@@ -16,7 +16,7 @@
 
 ## Idea
 
-Given a [[G-structure]] one may ask if it is "integrable" in that a certain [[torsion]] vanishes.
+Given a [[G-structure]] one may ask if it is "integrable" in that a certain [[torsion]] vanishes. ([[torsion of a Cartan connection]]).
 
 For instance 
 
