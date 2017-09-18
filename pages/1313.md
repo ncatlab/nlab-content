@@ -1,4 +1,8 @@
 
+> See also _[[exponential map]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -127,8 +131,6 @@ Note that any cartesian closed category with finite coproducts must be distribut
 * [[exponential ideal]]
 
 
-[[!redirects exponential]]
-[[!redirects exponentials]]
 [[!redirects exponential object]]
 [[!redirects exponential objects]]
 [[!redirects exponentiable object]]
@@ -143,5 +145,3 @@ Note that any cartesian closed category with finite coproducts must be distribut
 [[!redirects exponentiating object]]
 [[!redirects exponentiating objects]]
 
-[[!redirects exponentiation]]
-[[!redirects exponent]]
