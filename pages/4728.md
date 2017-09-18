@@ -41,6 +41,10 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[area]]
 
+## References
+
+* [[Manifold Atlas]], _[2-manifolds](www.map.mpim-bonn.mpg.de/2-manifolds)_
+
 
 [[!redirects surface]]
 [[!redirects surfaces]]
