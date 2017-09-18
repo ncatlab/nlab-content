@@ -150,6 +150,8 @@ In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of 1/2 BP
 
 * [[positive energy theorem]]
 
+* [[enhanced gauge symmetry]]
+
 * [[geometry of physics -- BPS charges]]
 
 
@@ -295,3 +297,6 @@ Discussion of the relation of that to the traditional discussion of current alge
 
 [[!redirects BPS charge]]
 [[!redirects BPS charges]]
+
+[[!redirects BPS brane]]
+[[!redirects BPS branes]]
