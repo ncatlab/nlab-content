@@ -23,6 +23,10 @@ The _May spectral sequence_ is a [[spectral sequence]] used to compute the first
 
 It may be regarded as the spectral sequence obtained by filtering the (dual) [[Steenrod algebra]] by (co)powers of the unit (co)ideal. (see [Ravenel 86, chapter 3, section 2](#Ravenel86), [Kochman 96, section 5.3](#Kochman96))
 
+## Related concepts
+
+* [[Curtis algorithm]]
+
 ## References
 
 The origin is in 
