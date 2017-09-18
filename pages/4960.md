@@ -451,7 +451,7 @@ We have [[commuting diagrams]], [[natural transformation|natural]] in $X \in \ma
 
 $$
   \array{
-    p_*X  &\stackrel{\eta_{p^* X}^{-1}}{\longrightarrow}& p_! p^* p_*X
+    p_*X  &\underoverset{\simeq}{\eta_{p^* X}^{-1}}{\longrightarrow}& p_! p^* p_*X
     \\
     {}^{\mathllap{p_*(i_X)}}\downarrow 
     &\searrow^{\mathrlap{\theta_X}}& 
@@ -1020,6 +1020,7 @@ $$
 $$
 
 +-- {: .num_lemma}
+
 ###### Observation
 
 If $C$ has a [[terminal object]] $*$ then 
