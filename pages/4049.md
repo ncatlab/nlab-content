@@ -1,25 +1,44 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea 
 
-An _enriched natural transformation_ is the appropriate notion of morphism between functors enriched in a monoidal category $V$. 
+An _enriched natural transformation_ is the appropriate notion of [[homomorphism]] between [[enriched functors]], the analog in [[enriched category theory]] of the ordinary notion of [[natural transformation]] in ordinary [[category theory]].
 
 
 ## Definition 
 
-Let $C$ and $D$ be categories [[enriched category|enriched]] in a monoidal category $V$, and let $F, G: C \to D$ be [[enriched functor|enriched functors]]. We abbreviate hom-objects $\hom_C(c, d)$ to $C(c, d)$. An **enriched natural transformation** $\eta: F \to G$ is a family of morphisms of $V$ 
+Let $C$ and $D$ be  [[enriched category|categories enriched]] in a [[monoidal category]] $V$, and let $F, G \colon C \to D$ be [[enriched functors]]. We abbreviate [[hom-objects]] $\hom_C(c, d)$ to $C(c, d)$. 
 
-$$\eta c: I \to D(F c, G c)$$ 
+An **enriched natural transformation** $\eta \colon F \to G$ is a family of morphisms of $V$ 
 
-indexed over $Ob(C)$, such that for any two objects $c$, $d$ of $C$ the following diagram commutes: 
+$$
+  \eta_c
+  \;\colon\; 
+  I 
+    \longrightarrow 
+  D(F c, G c)
+$$ 
+
+(out of the [[tensor unit]] $I$ of $V$) indexed over $Ob(C)$, such that for any two objects $c$, $d$ of $C$ the following [[commuting diagram|diagram commutes]]: 
 
 $$\array{
-C(c, d) & \stackrel{\rho}{\cong} & C(c, d) \otimes I & \stackrel{G_{c, d} \otimes \eta c}{\to} & D(G c, G d) \otimes D(F c, G c) \\
+C(c, d) & \stackrel{\rho}{\cong} & C(c, d) \otimes I & \stackrel{G_{c, d} \otimes \eta_c}{\to} & D(G c, G d) \otimes D(F c, G c) \\
 \stackrel{\lambda}{\cong} \downarrow & & & & \downarrow \circ_D \\
-I \otimes C(c, d) & \underset{\eta d \otimes F_{c, d}}{\to} & D(F d, G d) \otimes D(F c, F d) & \underset{\circ_D}{\to} & D(F c, G d) 
+I \otimes C(c, d) & \underset{\eta_d \otimes F_{c, d}}{\to} & D(F d, G d) \otimes D(F c, F d) & \underset{\circ_D}{\to} & D(F c, G d) 
 }$$
 
 (Should expand to include other notions of enriched category.) 
@@ -28,6 +47,10 @@ I \otimes C(c, d) & \underset{\eta d \otimes F_{c, d}}{\to} & D(F d, G d) \otime
 ## Reference 
 
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982) [(pdf)](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)
+
+* [[Emily Riehl]], chapter 3 _Basics of enriched category theory_ in _[[Categorical Homotopy Theory]]_
+
+For more references see at _[[enriched category]]_.
 
 
 [[!redirects enriched natural transformation]]
