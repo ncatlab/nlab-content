@@ -24,6 +24,8 @@ The Parmenides dialogue has influenced, and its topics (and mysterious style) ha
 
 * Wikipedia _[Parmenides (dialogue)](http://en.wikipedia.org/wiki/Parmenides_%28dialogue%29)_
 
+* [Stanford Encyclopedia entry](http://plato.stanford.edu/entries/plato-parmenides/)
+
 * {#HegelWdL} [[Georg Hegel]], _[[Science of Logic]]_
 
 
