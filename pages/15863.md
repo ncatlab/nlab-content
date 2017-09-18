@@ -33,7 +33,7 @@ In general, co-Heyting algebras are [[duality|dual]] to Heyting algebras and lik
 
 ##Definition
 
-A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with a binary _subtraction_ operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\vee z$.[^Dist]
+A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with a binary _[[subtraction]]_ operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\vee z$.[^Dist]
 
 [^Dist]: Existence of $\backslash$ amounts to an [[adjunction]] \_$\backslash y\dashv y\vee$\_ and the existence of a left adjoint implies that $y\vee$\_ preserves limits $\wedge$ hence the assumption of distributivity in the definition is redundant and has been put in for emphasis only.
 
