@@ -421,3 +421,5 @@ See also
 
 [[!redirects string perturbation series]]
 [[!redirects perturbative string theory]]
+
+[[!redirects tring perturbation theory]]
