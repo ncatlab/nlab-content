@@ -1,0 +1,9 @@
+**examples of [universal constructions of topological spaces](Top#UniversalConstructions):**
+
+| $\phantom{AAAA}$[[limits]] | $\phantom{AAAA}$[[colimits]] |
+|------------|--------------|
+| $\,$[[product topological space]]  $\,$| $\,$ [[disjoint union topological space]] $\,$ |
+| $\,$ [[topological subspace]] $\,$ | $\,$ [[quotient topological space]] $\,$ |
+| $\,$ fiber space $\,$ | $\,$ [[attaching space]] $\,$ |
+| $\,$ [[mapping cocylinder]], [[mapping cocone]] $\,$ | $\,$ [[mapping cylinder]], [[mapping cone]], [[mapping telescope]] $\,$ |
+|  |  $\,$ [[cell complex]], [[CW-complex]] $\,$  |
