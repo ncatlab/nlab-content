@@ -19,7 +19,7 @@
 
 ## Idea
 
-An _$(\infty,1)$-sheaf_ or _$(\infty,1)$-stack_ is the higher analog of an [[(∞,1)-sheaf]] / [[∞-stack]].
+An _$(\infty,2)$-sheaf_ or _$(\infty,2)$-stack_ is the higher analog of an [[(∞,1)-sheaf]] / [[∞-stack]].
 
 For $\mathcal{C}$ an [[(∞,1)-category]] equipped with the structure of an [[(∞,1)-site]], an $(\infty,2)$-sheaf on $\mathcal{C}$ is an [[(∞,1)-functor]]
 
