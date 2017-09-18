@@ -20,7 +20,7 @@ $\;\;\;\;\;\;\;\;\;\;\;$ **Stable Homotopy Theory**
 
 $\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
 
-[Lecture](#Introduction) and [Seminar](#ComplexOrientedCohomology)
+[[Introduction to Stable homotopy theory|Lecture]] and [[Introduction to Stable homotopy theory -- S|Seminar]]
 
 =--
 
@@ -39,7 +39,15 @@ Lecture notes.
 
 Main page: _[[Introduction to Stable homotopy theory]]_.
 
+Previous section: _[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_
+
+This section: _Part 1 -- Stable homotopy theory_
+
+Next section: _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_
+
 ***
+
+$\,$
 
 
 #Contents#
