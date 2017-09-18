@@ -3445,6 +3445,7 @@ Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The 
 
 
 #### Classifying spaces, $G$-Structure and Bordism
+ {#ClassifyingSpaces}
 
 **Idea.** Every [[manifold]] $X$ of [[dimension]] $n$ carries a canonical [[vector bundle]] of [[rank]] $b$: its [[tangent bundle]]. There is a [[universal vector bundle]] of rank $n$, of which all others arise by [[pullback]], up to [[isomorphism]]. The base space of this universal bundle is hence called the [[classifying space]] and denoted $B GL(n) \simeq B O(n)$ (for $O(n)$ the [[orthogonal group]]), which may be realized as the [[homotopy type]] of a [[direct limit]] of [[Grassmannian manifolds]]. In particular the tangent bundle of a manifold $X$ is classified by a map $X \longrightarrow B O(n)$, unique up to homotopy. For $G$ a [[subgroup]] of $O(n)$, then a lift of this map through the canonical map $B G \longrightarrow B O(n)$ of classifying spaces is a _[[G-structure]]_ on $X$
 
@@ -3466,27 +3467,38 @@ All this generalizes, for instance from tangent bundles to [[normal bundles]] wi
 
 
 #### Thom spectra
+ {#ThomSpectra}
  
+**Idea**. Given a [[vector bundle]] $V$ of rank $n$ over a [[compact topological space]], then its [[one-point compactification]] is equivalently the result of forming the bundle $D(V) \hookrightarrow V$ of unit [[n-balls]], and identifying with one single point all the boundary unit [[n-spheres]] $S(V)\hookrightarrow V$. Generally, this construction $D(V)/S(V)$ is called the _[[Thom space]]_ of $V$. 
+
+Thom spaces occur notably as codomains for would-be [[left inverses]] of [[embeddings]] of [[manifolds]] $X \hookrightarrow Y$. The _[[Pontrjagin-Thom collapse map]]_ $Y \to Th(N X)$ of such an embedding is a continuous function going the other way around, but landing not quite in $X$ but in the [[Thom space]] of the [[normal bundle]] of $X$ in $Y$. Composing this further with the classifying map of the [[normal bundle]] lands in the Thom space of the [[universal vector bundle]] over the [[classifying space]] $B O(k)$, denoted $M O(k)$. In particular in the case that $Y = S^n$ is an [[n-sphere]] (and every manifold embeds into a large enough $n$-sphere, see also at [[Whitney embedding theorem]]), the [[Pontryagin-Thom collapse map]] hence associated with every manifold a [[homotopy group]] of a universal Thom space $M O(k)$.
+
+This curious construction turns out to have excellent formal properties: as the dimension ranges, the universal Thom spaces arrange into a [[spectrum]], called the _[[Thom spectrum]]_, and the homotopy groups defined by the Pontryagin-Thom collapse pass allong to [[stable homotopy groups]] of this spectrum. 
+
+Moreover, via [[Whitney sum]] of [[vector bundle]] the [[Thom spectrum]] naturally is a [[ring spectrum]], and under the Pontryagin-Thom collapse the [[Cartesian product]] of manifolds is compatible with this ring structure.
 
 **Literature.** ([Kochmann 96, 1.5](#Kochmann96))
-
-* [[Pontrjagin-Thom collapse map]]
-
-* [[Thom space]]
-
-* [[Thom spectrum]], [[MO]]
 
 
 #### Thom's theorem
  {#ThomTheorem}
 
+**Idea.** By the [[Pontryagin-Thom collapse]] construction [above](#ThomSpectra), there is an assignment
+
+$$
+  n Manifolds \longrightarrow \pi_n(M O)
+$$
+
+which sends [[disjoint union]] and [[Cartesian product]] of manifolds to sum and product in the [[ring]] of [[stable homotopy groups]] of the [[Thom spectrum]]. One finds then that two manifolds map to the same element in $\pi_\bullet(M O)$ precisely if they are connected by a [[bordism]] as [above](#ClassifyingSpaces). The [[bordism]]-classes $\Omega_\bullet^O$ of manifolds  form a [[commutative ring]] under [[disjoint union]] and [[Cartesian product]], called the _[[bordism ring]]_, and hence Pontrjagin-Thom collapse produces a ring [[homomorphism]]
+
+$$
+  \Omega_\bullet^O \longrightarrow \pi_\bullet(M O)
+  \,.
+$$
+
+[[Thom's theorem]] states that this homomorphism is an [[isomorphism]].
+
 **Literature.** ([Kochmann 96, 1.5](#Kochmann96))
-
-* [[cobordism ring]]
-
-* [[stable homotopy groups]]
-
-* [[Thom's theorem]]
 
 
 #### Thom isomorphism
@@ -3507,11 +3519,7 @@ All this generalizes, for instance from tangent bundles to [[normal bundles]] wi
  {#OrientationAndFiberIntegration}
 
 
-**Idea.** From the way the [[Thom isomorphism]] via a [[Thom class]] works in [[ordinary cohomology]] (as [above](#ThomIsomorphism)), one sees what the general concept of [[orientation in generalized cohomology]] ought to be.
-
-[[orientation in generalized cohomology]]
-
-[[fiber integration in generalized cohomology]]
+**Idea.** From the way the [[Thom isomorphism]] via a [[Thom class]] works in [[ordinary cohomology]] (as [above](#ThomIsomorphism)), one sees what the general concept of [[orientation in generalized cohomology]] and of [[fiber integration in generalized cohomology]] ought to be.
 
 **Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part III, section 10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
