@@ -71,3 +71,7 @@ abelian variety) over a cohomology theory $A$? To what extent do such objects be
 * 7.2 The Case of a Trivial Square-Zero Extension
 * 7.3 Proof of the Serre-Tate Theorem 
 * 7.4 Application: Lifting Abelian Varieties from Classical to Spectral Algebraic Geometry
+
+category: reference
+
+[[!redirects Elliptic Cohomology I: Spectral Abelian Varieties]]
