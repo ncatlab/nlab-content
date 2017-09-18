@@ -24,7 +24,7 @@ The generalization of the concept of [[suspension spectrum]] from [[stable homot
 
 ## Definition
 
-The equivariant suspension spectrum $\Sigma^\infty_G X$ of a [[pointed topological space|pointed]] [[topological G-space]] $X$ is the [[G-spectrum]] which in degree $n$ is the [[smash product]]
+The _equivariant suspension spectrum_ $\Sigma^\infty_G X$ of a [[pointed topological space|pointed]] [[topological G-space]] $X$ is the [[G-spectrum]] which in degree $n$ is the [[smash product]]
 
 $$
   (\Sigma^\infty_G X)_n \coloneqq X \wedge S^n
@@ -56,7 +56,13 @@ $$
 
 for $S^0$ regarded as equipped with the (necessarily) trivial $G$-action. It follows that for $V$ an orthogonal linear $G$-representation then in [[RO(G)-degree]] $V$ the equivariant sphere spectrum is the corresponding [[representation sphere]] $\mathbb{S}(V) \simeq S^V$.
 
+### Equivariant homotopy groups and fixed point spectra
+
+The [[equivariant homotopy groups]] and the [[fixed point spectra]] of equivariant suspension spectra $\Sigma^\infty-G$ decompose into the naive [[fixed points]] of the $G$-action on $X$. This is the _[[tom Dieck splitting]]_, see there for details.
 
 ## References
 
 * {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+[[!redirects equivariant suspension spectra]]
+
