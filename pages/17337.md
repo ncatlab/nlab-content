@@ -6,4 +6,4 @@
 * Yitzhak Mandelbaum, David Walker, [[Robert Harper]], _An Effective Theory of Type Refinements_, ([pdf](http://www.cs.cmu.edu/~rwh/papers/effref/icfp03.pdf))
 * [[Frank Pfenning]], _Church and Curry: Combining Intrinsic
 and Extrinsic Typing_, ([pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf))
-* [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1601.06098](http://arxiv.org/abs/1601.06098)
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
