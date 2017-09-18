@@ -20,11 +20,13 @@ According to [[Georg Hegel]]:
 
 * idealism
 
-  * [[objective idealism]]
+  * [[objective idealism]], [[objective logic]]
 
   * [[subjective idealism]]
 
   * [[absolute idealism]]
+
+
 
 ## References
 
