@@ -14,7 +14,7 @@ This page collects material related to the book collection
 
 * [[Mike Duff]]
 
-  _The world in eleven dimensions: Supgergravity, Supermembranes and $M$-theory_
+  _The world in eleven dimensions: Supergravity, Supermembranes and $M$-theory_
 
   IoP 1999
 
