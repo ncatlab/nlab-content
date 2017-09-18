@@ -1459,6 +1459,7 @@ $$
 
 is identified, via the identification $\flat_{dR}\mathbf{B}G \simeq \Omega^1_{flat}(-,\mathfrak{g})$  of prop. \ref{DeRhamCoefficientsOfLieGroup} and the [[Yoneda lemma]], with the traditional [[Maurer-Cartan form]] 
 
+
 $$
   \theta_G \in \Omega^1_{flat}(G, \mathfrak{g})
   \,.
@@ -3283,8 +3284,6 @@ $Sh_{\mathbf{H}}(X)$. This is indeed the standard expression in
 ## **Classical mechanics via prequantized Lagrangian correspondences**
  {#ClassicalMechanicsByPrequantizedLagrangianCorrespondences}
 
-The following is effectively a derivation of, and an introduction to, [[classical mechanics]] by studying [[correspondences]] in what is called (as we will explain) the _[[slice topos]] over the [[moduli stack]] of [[prequantum line bundles]]_. One such correspondence in this slice topos is precisely a _[[prequantized Lagrangian correspondence]]_ and the reader looking for just these should skip ahead to the section _[The classical action functional prequantizes Lagrangian correspondences](#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences)_. But for completeness and to introduce the technology used here, we start with introducing also more basic concepts, such as [[phase space]] etc.
-
 This chapter is at _[[prequantized Lagrangian correspondence]]_.
 
 
@@ -3324,6 +3323,7 @@ In the previous chapters we have set up [[prequantum field theory]] and [[classi
 1. [1d Chern-Simons theory](#1dCSTheory)
 
 1. [Nonabelian charged particle and Wilson loops](#ModLayerNonabelianChargedParticle)
+
 
 1. [2d Chern-Simons theory](#2dCSTheory)
 
