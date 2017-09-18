@@ -27,6 +27,8 @@ Evaluating at $n=2$, we compute that there are 5 order-preserving functions from
 
 ## Properties
 
+### Relation to zeta polynomial
+
 The order polynomial is related to the [[zeta polynomial]] by the equation[^Note]
 $$
 \Omega(P;n+2) = Z(I(P);n)
@@ -38,6 +40,17 @@ $$Hom(P, [n+1]) \cong Hom(P, [[n],[1]]) \cong Hom(P\times [n],[1]) \cong Hom([n]
 
 [^Note]: Note that the definition we use for $Z(P;n)$ has an index shift from the definition that seems to be more standard in combinatorics (see the footnote at [[zeta polynomial]]), so this equation is sometimes expressed as $\Omega(P;n) = Z(I(P);n)$.
 
+### Relation to the strict order polynomial
+
+Let $\bar{\Omega}(P;n)$ be the number of [[strict order-preserving functions]] from $P$ to $\mathbf{n}$, that is, functions $f : P \to \mathbf{n}$ such that $x \lt y$ implies $f(x) \lt f(y)$. This again defines a polynomial in $n$, called the **strict order polynomial** of $P$. The strict order polynomial is related to the order polynomial via a _combinatorial reciprocity theorem_ in the sense of [Stanley](#Stanley74).
+
++-- {: .num_prop }
+###### Proposition
+
+[(Stanley 1972, 1974)](#Stanley74): Let $P$ be a finite partially order set of cardinality $p$. Then $\bar{\Omega}(P;n) = (-1)^p \Omega(P;-n)$.
+
+=--
+
 ## Related concepts
 
 * [[zeta polynomial]]
@@ -46,6 +59,10 @@ $$Hom(P, [n+1]) \cong Hom(P, [[n],[1]]) \cong Hom(P\times [n],[1]) \cong Hom([n]
 
 ## References
 
-* Richard P. Stanley. Ordered structures and partitions. Memoirs of the AMS 119, 1972. ([doi](http://www.ams.org/books/memo/0119/)) (Free copy available from the [author's website](http://www-math.mit.edu/~rstan/pubs/).)
+* Richard P. Stanley. Ordered structures and partitions. Memoirs of the AMS 119, 1972. ([doi](http://www.ams.org/books/memo/0119/)) (Free copy available from the [author's website](http://www-math.mit.edu/~rstan/pubs/), see #9.)
+ {#Stanley72}
+
+* Richard P. Stanley. Combinatorial Reciprocity Theorems. Advances in Mathematics 14:194-253, 1974. (Free copy available from the [author's website](http://www-math.mit.edu/~rstan/pubs/), see #22.)
+ {#Stanley74}
 
 * Joseph P. S. Kung, [[Gian-Carlo Rota]], Catherine H. Yan. Combinatorics: The Rota Way. Cambridge, 2009.
