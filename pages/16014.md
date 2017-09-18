@@ -1,0 +1,129 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[modal logic]], two key [[modalities]] that one wants to consider are those of _necessity_ and _possibility_.
+
+The idea is to consider for any [[proposition]] $p$ 
+
+* a proposition labeled $\Box p$ expressing the idea that "$p$ is necessarily true";
+
+* a proposition labeled $ p$ expressing the idea that "$p$ is possibly true".
+
+### In propositional logic
+
+As a minimum requirement on any formalization with this interpretation it is typically taken that
+
+* $\Box p \rightarrow p$
+
+* $p \rightarrow \lozenge p$.
+
+expressing that if something is necessarily true, then that should mean that it is true in all instances, and that if something is true in one instance, then it is evidently possible for it to be true.
+
+By similar plausibility arguments one typically demands that
+
+* $\Box p \to \Box \Box p$
+
+* $\lozenge \lozenge p \to \lozenge p$
+
+which may be read as expressing that iterating the previous reasoning does not yield any new insight.
+
+Finally for every [[modality]] one typically demands that it preserves implication in that
+
+* $\Box(p \to q) \to (\Box p \to \Box q)$
+
+* $\lozenge (p \to q) \to (\lozenge p \to \lozenge q)$.
+
+If one equips plain [[propositional logic]] with these additional modal operators satisfying these rules, then one speaks of _[[S4 modal logic]]_. This is often the default meaning of [[modal logic]].
+
+However, in terms of [[categorical logic]] the above axioms just say that 
+
+* $\Box$ is an ([[idempotent comonad|idempotent]]) [[comonad]];
+
+* $\lozenge$ is an [[idempotent monad|idempotent]] [[monad]]
+
+on the [[category]] ([[poset]]) of [[propositions]], and while the above reasoning makes plausible that any operator expressing "necessity" and "possibility" should at least satisfy these (co)monad axioms, not every (co)monad is sensibly interpreted this way.
+
+This becomes evident as one generalizes from the small realm of [[propositional logic]] to include
+
+* [[types]] more general than [[propositions]];
+
+* [[first-order logic]] with [[quantifiers]], hence [[hyperdoctrines]]/[[dependent types]].
+
+There are many [[modal operators]] in such contexts which are all modeled by (idempotent) (co)monads but which do not have the interpretation of expressing the modes of "necessity" or "possibility". See at _[[modal operator]]_ for some examples.
+
+Therefore it makes sense to ask which _additional_ axioms on a modal operator make it an accurate formalization of the concepts of necessity and possibility. The answer to this may depend on context and intention (after all one is trying to find a precise formulation of an a priori informal idea). 
+
+### In first-order logic and type theory
+
+On the other hand, the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established, this is just the interpretation of the [[universal quantifier]] "for all" $\for all$ and of the [[existential quantifier]] "there exists" $\exists$.
+
+Moreover, in [[categorical logic]] these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induces a [[comonad]] and a monad with just the interpretation of "necessarily true" and "possibly true".
+
+More in detail, let $W$ be the [[context]] [[type]] of [[variables]]/[[terms]] on which the propositions under consideration depend. In the field of [[modal logic]] it is traditional to speak of $W$ as being the collection "of all possible worlds". Conversely any specific choice of $W$ may be taken as specifying what is to be understood as a "possible world".
+
+Writing $\mathbf{H}_{\ast}$ for the [[category]] of all context-free [[types]] under consideration and writing $\mathbf{H}_{/X}$ for the category of types in [[context]] "W", then in [[categorical logic]] (for instance $\mathbf{H}_{/(-)}$ might be a [[hyperdoctrine]] over a [[category of contexts]] containing objects $W$ and $\ast$) the [[quantifiers]] $\forall_{x\colon X}$ and $\exists_{x\colon X}$ participate in an [[adjoint triple]] 
+
+$$
+  (\exists_W \dashv W^\ast \dashv \forall_W)
+  \;\colon\;
+  \mathbf{H}_{/W}
+    \stackrel{\stackrel{\forall_{w \colon W}}{\longrightarrow}}{\stackrel{\stackrel{W^\ast}{\longleftarrow}}{\underset{\exists_{w\colon W}}{\longrightarrow}}}
+  \mathbf{H}
+  \,.
+$$
+
+In a context of pure [[logic]] this would be called
+
+[[existential quantifier]] $\dashv$ [[context extension]] $\dashv$ [[universal quantifier]]
+
+whereas in a context of [[dependent type theory]] this would be called
+
+[[dependent sum]] $\dashv$ [[context extension]] $\dashv$ [[dependent product]].
+
+In either case, under the suitable version of [[propositions as types]] (and using [[bracket types]] etc. if desired), the operations $\forall$ and $\exists$ have the usual interpretation of "for all" and $there exists$.
+
+But they these operations do change the context from $W$ to $\ast$. The idea of a ncessity and a possibility modality is to send propositions about $W$ to propositions that again depend on $W$  -- even if they now depend trivially on $W$, being [[context extension|extended]] back from the absolute context $\ast$ to $W$.
+
+This is just what is accomplished by passing from the above [[adjoint triple]] to the induced [[adjoint pair]] by forming composites with the [[context extension]] operation $W^\ast$
+
+$$
+  (\lozenge_W \dashv \Box_X)
+  \coloneqq
+  \left(
+     W^\ast \circ \underset{w\colon W}{\exists}
+     \dashv
+     W^ast \circ \underset{w\colon W}{\forall}
+  \right)
+  \;\colon\;
+  \mathbf{H}_{/W}
+    \longrightarrow
+  \mathbf{H}_{/W}
+  \,.
+$$
+
+With this, if $p\in \mathbf{H}_{/W}$ is a [[proposition]] about terms $w$ of $W$ (a $W$-[[dependent type]]) then 
+
+* $\lozenge_W p$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\exists} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is the standard interpretation of the [[quantifier]]) if it is possible for $p(w)$ to be true for some $w$;
+
+* $\Box_W p$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\for} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is again the standard interpretation of the quantifier) if $p(w)$ necessarily holds for all $w$.
+
+
+[[!redirects necessity]]
+[[!redirects possibility]]
+
+[[!redirects necesecarily]]
+[[!redirects possibly]]
