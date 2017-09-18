@@ -39,8 +39,8 @@ In terms of the classical language of separation axioms, this says that $a$ and 
 
 Sometimes one includes in the definition that a regular space must be $T_0$:
 +-- {: .un_defn}
-###### Definition (of $T_0$)
-Given any two points, if each neighbourhood of either is a neighbourhood of the other, then they are equal.
+###### Definition 
+A space is $T_0$ if, given any two points, if each neighbourhood of either is a neighbourhood of the other, then they are equal.
 =--
 Other authors use the weaker definition above but call a regular $T_0$ space a __$T_3$ space__, but then that term is also used for a (merely) regular space.  An unambiguous term for the weaker condition is an __$R_2$ space__, but hardly anybody uses that.
 
