@@ -2140,6 +2140,129 @@ $$
 
 
 
+##### Functors with smash product
+ {#FunctorsWithSmashProduct}
+
+
++-- {: .num_prop #DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
+###### Proposition
+
+Let $(\mathcal{C},\otimes I)$ be a pointed [[topologically enriched category]] ([[symmetric monoidal category]]) [[monoidal category]] (def. \ref{MonoidalCategory}). Regard $(Top_{cg}^{\ast/}, \wedge , S^0)$ as a topological [[symmetric monoidal category]] as in example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}.
+
+Then ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[Day convolution]] monoidal category $([\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{C}}))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[braided monoidal functor|braided]]) [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) of the form
+
+$$
+  (\mathcal{C},\otimes, I) \longrightarrow (Top^{\ast}_{cg}, \wedge, S^0)
+  \,,
+$$
+
+called **functors with smash products** on $\mathcal{C}$, i.e. there are [[equivalences of categories]] of the form
+
+$$
+  \begin{aligned}
+    Mon([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{C}}))
+      &\simeq
+    MonFunc(\mathcal{C},Top^{\ast/}_{cg})
+    \\
+    CMon([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{C}}))
+      &\simeq
+    SymMonFunc(\mathcal{C},Top^{\ast/}_{cg})
+  \end{aligned}
+  \,.
+$$
+
+Moreover, [[module objects]] over these monoid objects are equivalent to the corresponding [[modules over monoidal functors]].
+
+=--
+
+This is stated in some form in ([Day 70, example 3.2.2](Day+convolution#Day70)). It is highlighted again in ([MMSS 00, prop. 22.1](#MMSS00)). 
+
++-- {: .proof}
+###### Proof
+
+By definition \ref{LaxMonoidalFunctor}, a [[lax monoidal functor]] $F \colon \mathcal{C} \to Top^{\ast/}_{cg}$ is a topologically enriched functor equipped with a morphism of [[pointed topological spaces]] of the form
+
+$$
+  S^0 \longrightarrow F(1_{\mathcal{C}})
+$$
+
+and equipped with a [[natural transformation|natural]] system of maps of pointed topological spaces of the form
+
+$$
+  F(c_1) \wedge F(c_2) \longrightarrow F(c_1 \otimes_{\mathcal{C}} c_2)
+$$
+
+for all $c_1,c_2 \in \mathcal{C}$.
+
+Under the [[Yoneda lemma]] (prop. \ref{YonedaReductionTopological}) the first of these is equivalently a morphism in $[\mathcal{C}, Top^{\ast/}_{cg}]$ of the form
+
+$$
+  y(S^0) \longrightarrow F
+  \,.
+$$
+
+Moreover, under the [[natural isomorphism]] of corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} the second of these is equivalently a morphism in $[\mathcal{C}, Top^{\ast/}_{cg}]$ of the form
+
+$$
+  F \otimes_{Day} F \longrightarrow F
+  \,.
+$$
+
+Translating the conditions of def. \ref{LaxMonoidalFunctor} satisfied by a [[lax monoidal functor]] through these identifications gives precisely the conditions of def. \ref{MonoidsInMonoidalCategory} on a ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoid in]] object $F$ under $\otimes_{Day}$.
+
+Similarly for [[module objects]] and [[modules over monoidal functors]].
+
+=--
+
+
++-- {: .num_prop #PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution}
+###### Proposition
+
+Let $f \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between pointed [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). Then the induced functor
+
+$$
+  f^\ast
+    \;\colon\;
+  [\mathcal{D}, Top^{\ast/}_{cg}]
+    \longrightarrow
+  [\mathcal{C}, Top_{cg}^{\ast}]
+$$
+
+given by $(f^\ast X)(c)\coloneqq X(f(c))$ preserves [[monoid in a monoidal category|monoids]] under [[Day convolution]]
+
+$$
+  f^\ast
+    \;\colon\;
+  Mon([\mathcal{D}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{D}}))
+    \longrightarrow
+  Mon([\mathcal{C}, Top_{cg}^{\ast}], \otimes_{Day}, y(1_{\mathcal{C}})
+$$
+
+
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $f$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}), then $f^\ast$ also preserves [[commutative monoids in a symmetric monoidal category|commutative monoids]]
+
+$$
+  f^\ast
+    \;\colon\;
+  CMon([\mathcal{D}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{D}}))
+    \longrightarrow
+  CMon([\mathcal{C}, Top_{cg}^{\ast}], \otimes_{Day}, y(1_{\mathcal{C}})
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, since the composite of two (braided) lax monoidal functors is itself canonically a (braided) lax monoidal functor.
+
+=--
+
+
+
+
 
 #### Pre-Excisive functors
  {#OnPreExcisiveFunctors}
@@ -2228,17 +2351,14 @@ $$
 
 =--
 
-### For symmetric and orthogonal spectra
-
-
-#### Diagram spectra
+We now consider restricting the domain of the pre-excisive functors of def. \ref{FinitePointedCWComplexes}.
 
 +-- {: .num_defn #TopologicalDiagramCategoriesForSpectra}
 ###### Definition
 
-Define the following [[pointed topologically enriched categories|pointed topologically enriched]] [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] (the [[tensor product]] is a [[pointed topologically enriched functor]]):
+Define the following [[pointed topologically enriched categories|pointed topologically enriched]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}):
 
-1. $Seq$ has as objects the [[natural numbers]] and has only identity morphisms, tensor product is the addition of natural numbers, tensor unit is 0. As a $Top^{\ast/}$-[[enriched category]] the hom-spaces are
+1. $Seq$ is the category whose objects are the [[natural numbers]] and which has only identity morphisms and [[zero morphisms]] on these objects, hence the [[hom-spaces]] are
 
    $$
      Seq(n_1,n_2) = 
@@ -2251,7 +2371,9 @@ Define the following [[pointed topologically enriched categories|pointed topolog
     \right.
    $$
 
-1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]], objects are the sets $\{1, \cdots,n\}$ for $n \in \mathbb{N}$, all morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma_n$, tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]]; we turn this into a $Top^{\ast/}$-[[enriched category]] by adjoining a basepoint:
+   The tensor product is the addition of natural numbers, $\otimes = +$, and the [[tensor unit]] is 0. 
+
+1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]] with [[zero morphisms]] adjoined: its [[objects]] are the [[finite sets]] $\{1, \cdots,n\}$ for $n \in \mathbb{N}$, all non-[[zero morphism|zero]] morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma_n$, hence the [[hom-spaces]] are the following [[discrete topological spaces]]:
 
    $$
      Sym(n_1, n_2) =
@@ -2264,7 +2386,9 @@ Define the following [[pointed topologically enriched categories|pointed topolog
      \right.
    $$
 
-1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}$-enriched category by adjoining a basepoint to the hom-spaces;
+   The tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]].
+
+1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as non-zero morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}$-enriched category by adjoining a basepoint to the hom-spaces;
   
   $$
     Orth(V_1,V_2) 
@@ -2279,9 +2403,7 @@ Define the following [[pointed topologically enriched categories|pointed topolog
   $$
 
 
-1. $Top_{fin}^{\ast/}$ is the [[full subcategory]] of [[pointed topological space]] on those [[homeomorphism|homeomorphic]] to [[finite CW-complexes]], tensor product is their [[smash product]], tensor unit is the [[0-sphere]] $S^0$.
-
-Denote the canonical [[faithful functor|faithful]] [[subcategory]] inclusions by
+There is a sequence of canonical [[faithful functor|faithful]] pointed topological [[subcategory]] inclusions 
 
 $$
  \array{
@@ -2291,7 +2413,7 @@ $$
     &\stackrel{sym}{\hookrightarrow}& 
    Orth 
      &\stackrel{orth}{\hookrightarrow}& 
-   Top_{fin}^{\ast/}
+   Top_{cg,fin}^{\ast/}
    \\
    n 
     &\mapsto& 
@@ -2310,138 +2432,76 @@ $$
   \,,
 $$
 
-where $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon (\Sigma_n)_+ \hookrightarrow (O(n))_+$ is the inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V)_+ \hookrightarrow Aut(S^V)$ is on $O(V)$ the topological subspace inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometries of $V$.
+into the pointed topological categroy of pointed compactly generated topological spaces of finite CW-type (def. \ref{FinitePointedCWComplexes}).
 
-=--
-
-+-- {: .num_prop #PropertiesOfTopologicalDiagramCategoriesForSpectra}
-###### Proposition
-
-The sequence of inclusions in def. \ref{TopologicalDiagramCategoriesForSpectra} satisfies the following properties:
-
-1. All three inclusions are [[strong monoidal functors]].
-
-1. Under passing to [[enriched functor categories]], restriction $(-)^\ast$ along these inclusions and [[left Kan extension]] $(-)_!$ along them yields a sequence of [[adjunctions]]
-
-   $$
-    \array{
-      [Top_{fin}^{\ast/}, Top^{\ast/}]
-        \stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}
-      [Orth, Top^{\ast/}]
-        \stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}
-      [Sym, Top^{\ast/}] 
-        \stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}
-      [Seq, Top^{\ast/}] 
-    }
-     \,.
-   $$
-
-1. All four [[enriched functor categories]] become [[symmetric monoidal categories]] with the [[Day convolution]] monoidal product structure induced by the monoidal structure of their [[sites]]. 
-
-1. With respect to this all [[adjunctions]] above are symmetric [[monoidal adjunctions]] (the [[right adjoint]] is a [[symmetric monoidal functor|symmetric]] [[lax monoidal functor]], the [[left adjoint]] is even a [[symmetric monoidal functor|symmetric]] [[strong monoidal functor]]).
-
-=--
-
-(e.g. [MMSS 00, I.3](#MMSS00))
+Here $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon (\Sigma_n)_+ \hookrightarrow (O(n))_+$ is the canonical inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V)_+ \hookrightarrow Aut(S^V)$ is on $O(V)$ the [[topological subspace]] inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometries of $V$ ("[[representation spheres]]").
 
 
-
-Notice the following:
-
-+-- {: .num_lemma #DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite}
-###### Lemma
-
-For $\mathcal{C}$ a $V$-[[enriched category|enriched]] [[monoidal category]], under the [[Yoneda embedding]]
+Consider the sequence of restrictions of topological diagram categories, according to prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution} along the above inclusions:
 
 $$
-  y \colon \mathcal{C}^{op} \hookrightarrow [\mathcal{C}, Top^{\ast/}]
+  Exc(Top_{cg})
+    \overset{orth^\ast}{\longrightarrow}
+  [Orth,Top^{\ast/}_{cg}]
+    \overset{sym^\ast}{\longrightarrow}
+  [Sym,Top^{\ast/}_{cg}]
+    \overset{seq^\ast}{\longrightarrow}
+  [Seq,Top^{\ast/}_{cg}]
+  \,.
 $$
 
-the [[tensor unit]] in $\mathcal{C}$ goes to the tensor unit of the induced [[Day convolution]] structure on $[\mathcal{C}, Top^{\ast/}]$.
-
-=--
-
-(see at _[[Day convolution]]_ [this lemma](Day+convolution#DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite))
-
-
-+-- {: .num_defn #StandardRepresentativeOfTheSphereSpectrum}
-###### Definition
-
-Write
+Write 
 
 $$
-  \mathbb{S} \coloneqq y(S^0) \in [Top_{fin}^{\ast/}, Top^{\ast/}]
-$$
-
-for the image under the [[Yoneda embedding]] of the [[tensor unit]] in $Top_{fin}^{\ast/}$ with its [[smash product]] (the [[0-sphere]]), which by lemma \ref{DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite} is the tensor unit in $([Top_{fin}^{\ast/}, Top^{\ast/}], \otimes_{Day})$.
-
-Since this is going to be the standard presentation of the [[sphere spectrum]] in the [[model structure for excisive functors]] on $[Top_{fin}^{\ast/}, Top^{\ast/}]$ we refer to it as _[[generalized the|the]] [[sphere spectrum]]_.
-
-For its restrictions along the above sub-site inclusions, prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra}, write
-
-$$
-  \mathbb{S}_{Orth} \coloneqq orth^\ast \mathbb{S} 
+  \mathbb{S}_{Orth} \coloneqq orth^\ast \mathbb{S}_{exc} 
   \,,
   \;
   \mathbb{S}_{Sym} \coloneqq sym^\ast \mathbb{S}_{orth} 
   \,,
   \;
   \mathbb{S}_{Seq} \coloneqq seq^\ast \mathbb{S}_{sym} 
-  \,.
 $$
 
+for the restriction of the excisive functor incarnation of the [[sphere spectrum]] (from def. \ref{FinitePointedCWComplexes}) along these inclusions.
 
 =--
 
-+-- {: .num_remark #RestrictionsOfSphereSpectrumAreStillMonoidObjects}
+
++-- {: .num_remark}
 ###### Remark
 
-While $\mathbb{S}$ in def. \ref{StandardRepresentativeOfTheSphereSpectrum} is the [[tensor unit]] in $([Top_{fin}^{\ast/}, Top^{\ast/}], \otimes_{Day})$, neither of its restrictions $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ is the tensor unit in $([Orth, Top^{\ast/}],\otimes_{Day}), ([Sym, Top^{\ast/}],\otimes_{Day}), ([Seq, Top^{\ast/}],\otimes_{Day})$, respectively. 
 
-Nevertheless, because by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} the restriction functors are [[strong monoidal functors]] and because the tensor unit $\mathbb{S}$ canonically has the structure of a [[monoid object]], each of $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ inherts the structure of a [[monoid object]] in the respective [[Day convolution]] [[monoidal category]].
+Since $\mathbb{S}_{exc}$ is the [[tensor unit]] with repect to the [[Day convolution]] product on pre-excisive functors, and since it is therefore canonically a [[commutative monoid]], by prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution}, all these restricted sphere spectra are still [[monoid object|monoids]]. However, while $orth$ and $sym$ are [[braided monoidal functors]], the functor $seq$ is not braided, hence $\mathbb{S}_{orth}$ and $\mathbb{S}_{sym}$ are commutative monoids, but $\mathbb{S}_{Seq}$ is not commutative.
 
-Moreover, $\mathbb{S}_{Orth}$ and $\mathbb{S}_{Sym}$ are [[commutative monoid objects]], while $\mathbb{S}_{Seq}$ is not commutative (due to the [graded commutativity in the smash product of spheres](smash+product+of+spectra#GradedCommutativity) which is not reflected in the trivial symmetry of the tensor product on $Seq$).
+
 
 | | $\mathbb{S}$ | $\mathbb{S}_{Orth}$ | $\mathbb{S}_{Sym}$ | $\mathbb{S}_{Seq}$ |
 |--|--------------|---------------------|--------------------|-------------------|
-| [[monoid object]] | yes | yes | yes | yes |
-| [[commutative monoid object]] | yes | yes | yes | no |
+| [[monoid in a monoidal category|monoid]] | yes | yes | yes | yes |
+| [[commutative monoid in a symmetric monoidal category|commutative monoid]] | yes | yes | yes | no |
 | [[tensor unit]] | yes | no | no | no |
-
-Explicitly, by the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, monoids with resepct to Day convolution are equivalently [[lax monoidal functors]] on the site, and as such $\mathbb{S}_{Orth}$ is the one given by the canonical [[natural transformations]]
-
-$$
-  S^{V_1} \wedge S^{V_2} \longrightarrow S^{V_1 \oplus V_2}
-$$
-
-and $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ the ones given by the canonical natural transformations
-
-$$
-  S^{n_1} \wedge S^{n_2} \longrightarrow S^{n_1 + n_2}
-  \,.
-$$
 
 
 =--
 
 
-Therefore we may consider [[module objects]] over the restrictions of [[generalized the|the]] [[sphere spectrum]] from def. \ref{StandardRepresentativeOfTheSphereSpectrum}.
+Therefore we may consider [[module objects]] over the restrictions of [[generalized the|the]] [[sphere spectrum]] from def. \ref{TopologicalDiagramCategoriesForSpectra}.
 
 +-- {: .num_prop #HighlyStructuredSpectraAsDayConvolutionSModules}
 ###### Proposition
 
-The category of right [[module objects]] over $\mathbb{S}_{Orth}$, $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ from def. \ref{StandardRepresentativeOfTheSphereSpectrum}, which are [[monoid objects]] by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra}, remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects}, are [[equivalence of categories|equivalent]], respectively, to the categories of [[orthogonal spectra]], [[symmetric spectra]] and [[sequential spectra]] (in [[compactly generated topological spaces]]):
+The [[categories of modules]] (def. \ref{ModulesInMonoidalCategory}) over $\mathbb{S}_{Orth}$, $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) are [[equivalence of categories|equivalent]], respectively, to the categories of [[orthogonal spectra]], [[symmetric spectra]] and [[sequential spectra]] (in [[compactly generated topological spaces]]):
 
 $$
-  \mathbb{S}_{Orth} Mod_r \simeq OrthSpec(Top)
-$$
-
-$$
-  \mathbb{S}_{Sym} Mod_r \simeq SymSpec(Top)
+  \mathbb{S}_{Orth} Mod \simeq OrthSpec(Top_{cg})
 $$
 
 $$
-  \mathbb{S}_{Seq} Mod_r \simeq SeqSpec(Top)
+  \mathbb{S}_{Sym} Mod \simeq SymSpec(Top_{cg})
+$$
+
+$$
+  \mathbb{S}_{Seq} Mod \simeq SeqSpec(Top_{cg})
   \,.
 $$
 
@@ -2450,16 +2510,16 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Write $\mathbb{S}_{dia}$ for any of the three monoids. By the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, right modules with respect to [[Day convolution]] are equivalently right [[modules over monoidal functors]] over the monoidal functor corresponding to $\mathbb{S}_{dia}$ as in remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects}. This means that for $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ they are functors $X \colon Sym \longrightarrow sSet^{\ast/}$ or $X \colon Seq \longrightarrow sSet^{\ast/}$, respectively equipped with [[natural transformations]]
+Write $\mathbb{S}_{dia}$ for any of the three monoids. By prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, left modules with respect to [[Day convolution]] are equivalently [[modules over monoidal functors]] over the monoidal functor corresponding to $\mathbb{S}_{dia}$. This means that for $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ they are functors $X \colon Sym \longrightarrow sSet^{\ast/}$ or $X \colon Seq \longrightarrow sSet^{\ast/}$, respectively equipped with [[natural transformations]]
 
 $$
-  X_p \wedge S^{q}  \longrightarrow X_{p+q}
+  S^1 \wedge X_p   \longrightarrow X_{p+q}
 $$
 
 satisfying the evident [[categorification|categorified]] [[action]] property. In the present case this action property says that these morphisms are determined by 
 
 $$
-  X_p \wedge S^1 \longrightarrow X_{p+1}
+  S^1 \wedge X_p  \longrightarrow X_{p+1}
 $$
 
 under the isomorphisms $S^p \simeq S^1 \wedge S^{p-1}$. Naturality of all these morphisms as functors on $Sym$ is the equivariance under the symmetric group actions in the definition of [[symmetric spectra]]. 
@@ -2467,7 +2527,7 @@ under the isomorphisms $S^p \simeq S^1 \wedge S^{p-1}$. Naturality of all these 
 Similarly, modules over $\mathbb{S}_{Orth}$ are equivalently functors
 
 $$
-  X_V \wedge S^{W}  \longrightarrow X_{V \oplus W}
+  S^W \wedge X_V   \longrightarrow X_{V \oplus W}
 $$
 
 etc. and their functoriality embodies the [[orthogonal group]]-equivariance in the definition of [[orthogonal spectra]].
@@ -2475,114 +2535,12 @@ etc. and their functoriality embodies the [[orthogonal group]]-equivariance in t
 
 =--
 
-+-- {: .num_remark #PreExcisiveFunctorsAreSModules}
-###### Remark
-
-For completeness, we may, trivially, add to the three statements in prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} the equivalence
-
-$$
-  \mathbb{S} Mod_r \simeq [Top^{\ast/}_{fin}, Top^{\ast/}]
-  \,,
-$$
-
-which holds tautologically because by def. \ref{StandardRepresentativeOfTheSphereSpectrum} $\mathbb{S}$ is in fact the [[tensor unit]] in $([Top^{\ast/}_{fin}, Top^{\ast/}],\otimes_{Day})$, so that every object here is canonically a module object over $\mathbb{S}$.
-
-Now the [[model structure on excisive functors]] shows that the category $[Top^{\ast/}_{fin}, Top^{\ast/}]$ constitutes a model for [[stable homotopy theory]], while this is not the case for either of its restrictions. 
-
-Hence we may read prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} as saying that while restricting the domain of [[excisive functors]] breaks their property of being a model for [[stable homotopy theory]], but at the same time retaining the correspondingly restricted [[sphere spectrum]]-[[module]] structure first of all becomes non-tautological after restriction and second restores the property of the objects to model spectra.
-
-=--
-
-+-- {: .num_defn #SymmetricSmashProductOfDiagramSpectra}
-###### Definition
-
-By remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects} the categories $\mathbb{S}_{Sym} Mod_r$, $\mathbb{S}_{Orth} Mod_r$ and $\mathbb{S}_{Orth} Mod_r$ are [[categories of modules]] over a [[commutative monoid object]] and as such they inherit [[symmetric monoidal category]] structure themselves.  Via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} this is equivalently symmetric monoidal product structure 
-
-$$
-  (SymSpec(Top), \wedge)
-$$
-
-on the category of [[symmetric spectra]] and 
-
-$$
-  (OrthSpec(Top), \wedge)
-$$
-
-on that of [[orthogonal spectra]]. This is called the _[[symmetric monoidal smash product of spectra]]_.
-
-=--
-
-
-+-- {: .num_remark #SystemOfStructuredSpectraAndDiagrams}
-###### Remark
-
-Combined with the [[free-forgetful adjunctions]] for [[module objects]] ([[free modules]] $\dashv$ underlying objects) the situation described by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} and prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} jointly is the following diagram of [[adjunctions]]
-
-$$
- \array{
-   && OrthSpec(Top) && SymSpec(Top) && SeqSpec(Top)
-   \\
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   \\
-   \mathbb{S} Mod_r && \mathbb{S}_{Orth} Mod_r && \mathbb{S}_{Sym} Mod_r && \mathbb{S}_{Seq} Mod_r
-   \\
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   &&
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   &&
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   &&
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   \\
-   [Top_{fin}^{\ast/}, Top^{\ast/}]
-     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
-   [Orth, Top^{\ast/}]
-     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
-   [Sym, Top^{\ast/}] 
-      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
-   [Seq, Top^{\ast/}] 
- }
-  \,.
-$$
-
-=--
-
-In order to conveniently speak about all columns of the system of adjunctions in remark \ref{SystemOfStructuredSpectraAndDiagrams} in a unified way, we introduce the following notation.
-
-+-- {: .num_defn #NotationForGenericDiagramSpectra}
-###### Definition
-
-We write $dia \in \{Top^{\ast/, Orth, Sym, Seq}\}$ generically for any one of the four sites in def. \ref{TopologicalDiagramCategoriesForSpectra}.
-
-Accordingly we write $\mathbb{S}_{dia} \in \{\mathbb{S}, \mathbb{S}_{Orth}, \mathbb{S}_{Sym}, \mathbb{S}_{Seq}\}$ generically for any one of the four incarnations of [[generalized the|the]] [[sphere spectrum]] according to def. \ref{StandardRepresentativeOfTheSphereSpectrum}, over these sites.
-
-Finally we will write
-
-
-$$
-  \mathbb{S}_{dia}Mod 
-   \stackrel{\overset{seq!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}
-  \mathbb{S}_{Seq}Mod
-  \simeq
-  SeqSpec(Top)
-$$
-
-for the [[composition]] of the sequence of [[adjunctions]] to the right of the corresponding category of modules in the diagram below in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, regarded via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} and landing in the category of [[sequential spectra]].
-
-=--
 
 
 
 
 
-#### Symmetric and orthogonal spectra
- {#SymmetricSpectra}
-
-**Literature.** ([Schwede 12](#Schwede12)) 
-
-$\,$
+### For symmetric and orthogonal spectra
 
 In order to accomodate the graded commutativity phenomenon of spheres in prop. \ref{GradedCommutativityOfSmashOfSpheres}, we enrich the model of [[stable homotopy theory]] based on [[sequential spectra]], def. \ref{SequentialSpectra}, by adding in [[mathematical structure|structure]] which captures the fact that the $n$th component $X_n$ of a sequential spectrum $X$ is to be thought of as the evaluation on the [[n-sphere]] and thus ought to be [[action|acted]] on by the [[automorphisms]] of the $n$-sphere. 
 
