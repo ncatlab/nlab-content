@@ -62,7 +62,7 @@ The category of quivers in $C$, [[Quiv]]$(C)$, is the [[functor category]] $C^{X
 In the basic case where $C$ is [[Set]], the category Quiv(Set) is equivalent to the category of [[presheaves]] on $X^{op}$.  So: the category of quivers, [[Quiv]], is the category of presheaves on the category $X^{op}$.
 
 
-[^1]: Also called "the elementary "parallel process" " by [[William Lawvere]] in [p. 272](#GeneralizedGraphs).
+[^1]: Also called "the elementary "parallel process" " by [[William Lawvere|Lawvere]] in [p. 272](#GeneralizedGraphs), "a category that has no compositions in it" and "the graph that is also a category, automatically" again by  [[William Lawvere|Lawvere]], this time in his lecture at [[Como]].
 
 ### Nuts-and-bolts definitions 
 
