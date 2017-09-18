@@ -42,7 +42,7 @@ The _Hochschild--Serre spectral sequence_
 is the [[Grothendieck spectral sequence]] for the composition of these functors. Its $E_2$-page is
 
 $$
-  E^{p,q}_2 = H^p(G/H,H^q(H,A))
+  E^{p,q}_2 = H^p(G/K,H^q(K,A))
 $$ 
 
 and it is converging to the [[group cohomology]] $E^n_\infty = H^n(G,A)$.  
