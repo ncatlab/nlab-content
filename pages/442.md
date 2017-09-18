@@ -17,7 +17,7 @@
 
 The notion of _Lawvere theory_ is a joint generalization of the notions of [[group]], [[ring]], [[associative algebra]], etc. 
 
-In his 1963 doctoral dissertation, Bill Lawvere introduced a new categorical method for doing [[universal algebra]], alternative to the usual way of presenting an algebraic concept by means of its logical [[signature (in logic)|signature]] (with generating operations satisfying equational axioms). The rough idea is to define an [[algebraic theory]] as a [[category]] with finite [[product]]s and possessing a "generic algebra" (e.g., a generic [[group]]), and then define a [[model]] of that [[theory]] (e.g., a group) as a product-preserving [[functor]] out of that [[category]]. This type of category is what is nowadays called a _Lawvere algebraic theory_, or just Lawvere theory. 
+In his [[Functorial Semantics of Algebraic Theories|1963 doctoral dissertation]], Bill Lawvere introduced a new categorical method for doing [[universal algebra]], alternative to the usual way of presenting an algebraic concept by means of its logical [[signature (in logic)|signature]] (with generating operations satisfying equational axioms). The rough idea is to define an [[algebraic theory]] as a [[category]] with finite [[product]]s and possessing a "generic algebra" (e.g., a generic [[group]]), and then define a [[model]] of that [[theory]] (e.g., a group) as a product-preserving [[functor]] out of that [[category]]. This type of category is what is nowadays called a _Lawvere algebraic theory_, or just Lawvere theory. 
 
 
 ## Definition
@@ -388,18 +388,21 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 The origin of the categorical formulation of [[algebraic theories]] as Lawvere theories is in
 
-* [[Bill Lawvere]], _Functorial Semantics of algebraic theories_ Originally published as: Ph.D. thesis, Columbia University, 1963
-and
-in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
-Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
+* [[Bill Lawvere]], [[Functorial Semantics of Algebraic Theories]] , Ph.D. thesis Columbia University (1963).  (published with an author's comment and a supplement in: Reprints in Theory and Applications of Categories **5** (2004) pp 1--121. ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)).
 
-A standard textbook treatment is chapter 3 of
+Textbook treatments are
 
-* [[Francis Borceux]], _Handbook of categorical algebra 2 -- Categories and structures_ , Encyclopedia of Mathematics and its Applications, Cambridge University Press (1994)
+* [[Francis Borceux]], _Handbook of categorical algebra 2 -- Categories and structures_ , Encyclopedia of Mathematics and its Applications, Cambridge University Press (1994). (chap. 3)
+
+* M. C. Pedicchio,  F. Rovatti, _Algebraic Categories_ , pp.269-310 in Pedicchio, Tholen (eds.), _Categorical Foundations_ , Encyclopedia of Mathematics and its Applications **97**, Cambridge UP 2004.
+
+A recent monograph is
+
+* [[Jiri Adamek|J. Adámek]], [[Jiri Rosicky|J. Rosicky]], [[Enrico Vitale|E. M. Vitale]], _Algebraic Theories - a Categorical Introduction to General Algebra_ , Cambrige UP 2010. ([draft](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf))
 
 Other references are
 
-* [[Steve Lack]], [[Jiri Rosicky]], _Notions of Lawvere theory_ ([arXiv:0810.2578](http://arxiv.org/abs/0810.2578))
+* [[Steve Lack]], [[Jiri Rosicky]], _Notions of Lawvere theory_ ([arXiv:0810.2578](http://arxiv.org/abs/0810.2578)).
 
 [[!redirects lawvere theory]]
 [[!redirects Lawvere theory]]
