@@ -20,6 +20,8 @@
 The _tensor product_ of two vector spaces is a new vector space with the property that [[bilinear maps]] out of the [[Cartesian product]] of the two spaces are equivalently [[linear maps]] out of the tensor product.
 
 The tensor product of vector spaces is just the special case of the [[tensor product of modules]] over some [[ring]] $R$ for the case that this ring happens to be a [[field]].
+
+The tensor product of vector spaces makes the [[category]] [[Vect]] of all [[vector spaces]] into a [[monoidal category]], in fact a [[distributive monoidal category]].
  
 ## Definition
 
