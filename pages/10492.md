@@ -92,7 +92,7 @@ $$
 
 If this were all the data in $E$, it would manifestly exhibit $E_\bullet$ as being equivalently an [[Omega spectrum]]. And indeed this is all the data in $E$: 
 
-Since [[finite homotopy types]] are given by a finite number of sphere attachments, hence a finite number of [[homotopy pushouts]] with $n$-spheres, it follows that the value of $E$ on any pointed finite homotopy type $X$ is the [[smash product]] $\Omega^\infty(X \wedge E_\bullet)$, hence the [[generalized homology]] $E(X)$. That this assignment still sends all possible homotopy pushouts to homotopy pullback is then the excision axiom for the [[generalized homology]] theory thus given, and it does hold due to the [[Brown representability theorem]].
+Since [[finite homotopy types]] are given by a finite number of sphere attachments, hence a finite number of [[homotopy pushouts]] with $n$-spheres, it follows that the value of $E$ on any pointed finite homotopy type $X$ is the [[smash product]] $\Omega^\infty(X \wedge E_\bullet)$, hence the [[generalized homology]] $E(X)$ (see also [Lurie, remark 1.4.3.3](#HigherAlg)). That this assignment still sends all possible homotopy pushouts to homotopy pullback is then the excision axiom for the [[generalized homology]] theory thus given, and it does hold due to the [[Brown representability theorem]].
 
 =--
 
