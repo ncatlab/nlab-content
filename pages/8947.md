@@ -48,6 +48,15 @@ The $n$-epimorphisms in an [[(∞,1)-topos]] are the left half of the [[(n-epi, 
 
 * [[n-types cover]]
 
+## References
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+Disucssion in [[homotopy type theory]] is in 
+
+* [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+
 [[!redirects n-epimorphisms]]
 
 [[!redirects 1-epimorphism]]
