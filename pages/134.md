@@ -57,7 +57,12 @@ $$
 
 a [[topological subspace]] inclusion.
 
-Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the final topology $\tau_{final}(p_S)$ on $S$ is the [[quotient topology]].
+=--
+
++-- {: .num_example #QuotientTopology}
+###### Example
+
+Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the final topology $\tau_{final}(p_S)$ on $S$ is the _[[quotient topology]]_.
 
 =--
 
@@ -193,11 +198,11 @@ $$
   coeq(f,g)
 $$
 
-(hence the [[quotient set]] by the [[equivalence relation]] $f(x) \sim g(y)$)  and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+(hence the [[quotient set]] by the [[equivalence relation]] $f(x) \sim g(y)$)  and equipped with the [[quotient topology]], example \ref{QuotientTopology}.
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #PushoutInTop}
 ###### Example
 
 For 
@@ -245,7 +250,7 @@ of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]]
 +-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
 
-Let 
+As an important special case of example \ref{PushoutInTop},  let 
 
 $$
   i_n \colon S^{n-1}\longrightarrow D^n
