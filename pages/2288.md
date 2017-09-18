@@ -48,7 +48,9 @@ A tool of central importance in stable homotopy theory and its application to [[
 
 * [[stable (infinity,1)-category]]
 
-* [[parameterized homotopy theory]]
+* [[parameterized homotopy theory]], [[parameterized stable homotopy theory]]
+
+* [[rational stable homotopy theory]]
 
 * [[cohesive stable homotopy theory]]
 
