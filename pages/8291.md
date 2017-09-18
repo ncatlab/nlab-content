@@ -82,6 +82,39 @@ Conversely, $R$ is a [[Noetherian ring]] if [[direct sums]] of injective $R$-[[m
 This is due to Bass and Papp. See ([Lam, Theorem 3.46](#Lam)).
 
 
+
+### Preservation of injectives
+
++-- {: .num_lemma #RightAdjointsOfExactFunctorsPreserveInjectives}
+###### Lemma
+
+Given a pair of [[additive functor|additive]] [[adjoint functors]]
+
+$$
+  (L \dashv R)
+  \;\colon\;
+  \mathcal{B}
+    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+  \mathcal{A}
+$$
+
+between [[abelian categories]] such that the [[left adjoint]] $L$ is an [[exact functor]], then the [[right adjoint]] preserves injective objects.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that an object is injective precisely if the [[hom-functor]] into it sends [[monomorphisms]] to [[epimorphisms]], and that $L$ preserves monomorphisms by assumption of exactness. With this the statement follows via adjunction isomorphism
+
+$$
+  Hom_{\mathcal{A}}(-,R(I))\simeq Hom_{\mathcal{B}}(L(-),I)
+  \,.
+$$
+
+=--
+
+
 ### Existence of enough injectives
  {#ExistenceOfEnoughInjectives}
 
@@ -124,127 +157,90 @@ Here $\tilde A$ is divisible because the [[direct sum]] of divisible groups is a
 
 =--
 
-+-- {: .num_prop #ModEnoughInjectives}
-###### Proposition
-
-Assuming the [[axiom of choice]],
-for $R$ a [[ring]], the category $R$[[Mod]] has [[injective object|enough injectives]].
-
-=--
-
-The proof uses the following lemma.
-
-Write $U\colon R Mod \to Ab$ for the [[forgetful functor]] that forgets the $R$-module structure on a module $N$ and just remembers the underlying abelian group $U(N)$. 
-
-+-- {: .num_lemma #CoextensionOfScalarsForRModToZMod}
++-- {: .num_lemma #TransferOfEnoughInjectivesAlongAdjunctions}
 ###### Lemma
 
-The [[functor]] $U\colon R Mod \to Ab$ has a [[right adjoint]] 
+Given a pair of [[additive functor|additive]] [[adjoint functors]]
 
 $$
-  R_* : Ab \to R Mod
+  (L \dashv R)
+  \;\colon\;
+  \mathcal{B}
+    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+  \mathcal{A}
 $$
 
-given by sending an [[abelian group]] $A$ to the abelian group
+between [[abelian categories]] such that the [[left adjoint]] $L$ is 
 
-$$
-  U(R_*(A)) \coloneqq Ab(U(R),A)
-$$
+1. an [[exact functor]],
 
-equipped with the $R$-[[module]] struture by which for $r \in R$ an element $(U(R) \stackrel{f}{\to} A) \in U(R_*(A))$ is sent to the element $r f$ given by
+1. a [[faithful functor]]. 
 
-$$
-  r f : r' \mapsto f(r' \cdot r)
-  \,.
-$$ 
-
-This is called the **[[coextension of scalars]]** along the ring homomorphism $\mathbb{Z} \to R$.
-
-The [[unit of an adjunction|unit]] of the $(U \dash R_*)$ [[adjunction]]
-
-$$
-  \epsilon_N : N \to R_*(U(N))
-$$
-
-is the $R$-module homomorphism
-
-$$
-  \epsilon_N : N \to Hom_{Ab}(U(R), U(N))
-$$
-
-given on $n \in N$ by
-
-$$
-  j(n) : r \mapsto r n
-  \,.
-$$
+Then if $\mathcal{B}$ has enough injectives, also $\mathcal{A}$ has enough injectives.
 
 =--
 
-+-- {: .proof} 
-###### Proof 
-**of prop. \ref{ModEnoughInjectives}**
++-- {: .proof}
+###### Proof
 
-Let $N \in R Mod$. We need to find a monomorphism $N \to \tilde N$ such that $\tilde N$ is an injective $R$-module.
-
-
-By prop. \ref{AbHasEnoughInjectives} there exists a monomorphism
+Consider $A \in \mathcal{A}$. By the assumption that $\mathcal{B}$ has enough injectives, there is an injective object $I \in \mathcal{B}$ and a monomorphism $i \colon L(A) \hookrightarrow I$. The [[adjunct]] of this is a morphism
 
 $$
-  i \colon U(N) \hookrightarrow D
+  \tilde i \colon A \longrightarrow R(I)
 $$
 
-of the underlying abelian group into an injective abelian group $D$.
+and so it is sufficient to show that
 
+1. $R(I)$ is injective in $\mathcal{A}$;
 
-Now consider the [[adjunct]] $N \to R_*(D)$ of $i$, hence the composite
+1. $\tilde i$ is a monomorphism.
+
+The first point is the statement of lemma \ref{RightAdjointsOfExactFunctorsPreserveInjectives}.
+
+For the second point, consider the [[kernel]] of $\tilde i$ as part of the [[exact sequence]]
 
 $$
-  N \stackrel{\eta_N}{\to} R_*(U(N)) \stackrel{R_*(i)}{\to} R_*(D)
-$$
-
-with $R_*$ and $\eta_N$ from lemma \ref{CoextensionOfScalarsForRModToZMod}. On the underlying abelian groups this is
-
-$$
-  U(N) \stackrel{U(\eta_N)}{\to} Hom_{Ab}(U(R), U(N)) \stackrel{Hom_{Ab}(U(R),i)}{\to}
-  Hom_{Ab}(U(R),U(D))
+  ker(\tilde i)\longrightarrow A \stackrel{\tilde i}{\longrightarrow} R(I)
   \,.
 $$
 
-Once checks on components that this is a [[monomorphism]]. Therefore it is now sufficient to see that $Hom_{Ab}(U(R), U(D))$ is an injective $R$-module.
-
-This follows from the existence of the [[adjunction]] [[isomorphism]] given by lemma \ref{CoextensionOfScalarsForRModToZMod}
+By the assumption that $L$ is an [[exact functor]], the image of this sequence under $L$ is still exact
 
 $$
-  Hom_{Ab}(U(K),U(D))
-  \simeq
-  Hom_{R Mod}(K, Hom_{Ab}(U(R), U(D)))
-$$
-
-[[natural isomorphism|natural]] in $K \in R Mod$ and from the injectivity of $D \in Ab$. 
-
-$$
-  \array{
-      U(K) &\to& D
-      \\
-      \downarrow & \nearrow
-      \\
-      U(L)
-  }
-  \;\;\;\;\;
-  \leftrightarrow
-  \;\;\;\;\;
-  \array{
-      K &\to& R_*D
-      \\
-      \downarrow & \nearrow
-      \\
-      L
-  }
+  L(ker(\tilde i)) \longrightarrow L(A) \stackrel{L(\tilde i)}{\longrightarrow} L(R(I))
   \,.
 $$
+
+Now observe that $L(\tilde i)$ is a monomorphism: this is because its composite $L(A) \stackrel{L(\tilde i)}{\longrightarrow} L(R(I)) \stackrel{\epsilon}{\longrightarrow} I$ with the [[adjunction unit]] is (by the formula for [[adjuncts]]) the original morphism $i$, which by construction is a monomorphism. Therefore the exactness of the above sequence means that $L(ker(\tilde i)) \to L(A)$ is the [[zero morphism]]; and by the assumption that $L$ is a [[faithful functor]] this means that already $ker(\tilde i) \to A$ is zero, hence that $ker(\tilde i) = 0$, hence that $\tilde i$ is a monomorphism.
 
 =--
+
++-- {: .num_prop #RModHasEnoughInjectives}
+###### Proposition
+
+As soon as the category [[Ab]] of [[abelian groups]] has enough injectives, so does the [[abelian category]] $R$[[Mod]] of [[modules]] over some [[ring]] $R$.  
+
+In particular if the [[axiom of choice]] holds, then $R Mod$ has enough injectives.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that the [[forgetful functor]] $U\colon R Mod \to AbGp$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $R$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]]. Thus the statement follows via lemma \ref{TransferOfEnoughInjectivesAlongAdjunctions} from prop. \ref{AbHasEnoughInjectives}.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $R = k$ a [[field]], hence $R$[[Mod]] = $k$[[Vect]], every object is both injective as well as [[projective object|projective]].
+
+=--
+
+
+
+
 
 ## Examples
 
