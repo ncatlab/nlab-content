@@ -17,24 +17,25 @@
 
 * [[Pavel Safronov]], _Quasi-Hamiltonian reduction via classical Chern--Simons theory_, 2013, [arXiv:1311.6429](http://arxiv.org/abs/1311.6429).
 
+* [[James Wallbridge]], _Derived smooth stacks and prequantum categories_, [arxiv/1610.00441](https://arxiv.org/abs/1610.00441)
+
 [[Darboux theorem]]:
 
 * [[Chris Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A Darboux theorem for derived schemes with shifted symplectic structure_, 2013, [arXiv:1305.6302](http://arxiv.org/abs/1305.6302).
 
-* [[Oren Ben-Bassat]], [[Christopher Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A 'Darboux Theorem' for shifted symplectic structures on derived Artin stacks, with applications_ ([arXiv:1312.0090](http://arxiv.org/abs/1312.0090))
+* [[Oren Ben-Bassat]], [[Christopher Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A 'Darboux Theorem' for shifted symplectic structures on derived Artin stacks, with applications_, [arXiv:1312.0090](http://arxiv.org/abs/1312.0090)
 
-* [[Pavel Safronov]], [[Dominic Joyce]], _A Lagrangian Neighbourhood Theorem for shifted symplectic derived schemes_ ([arXiv:1506.04024](http://arxiv.org/abs/1506.04024))
+* [[Pavel Safronov]], [[Dominic Joyce]], _A Lagrangian Neighbourhood Theorem for shifted symplectic derived schemes_, [arXiv:1506.04024](http://arxiv.org/abs/1506.04024)
 
 Shifted Poisson structures
 
-* [[Damien Calaque]], [[Tony Pantev]], [[Bertrand Toen]], [[Michel Vaquie]], [[Gabriele Vezzosi]], _Shifted Poisson structures and Deformation Quantization_ ([arXiv:1506.03699](http://arxiv.org/abs/1506.03699))
+* [[Damien Calaque]], [[Tony Pantev]], [[Bertrand Toen]], [[Michel Vaquie]], [[Gabriele Vezzosi]], _Shifted Poisson structures and deformation quantization_, [arXiv:1506.03699](http://arxiv.org/abs/1506.03699)
 
-* [[Valerio Melani]], _Poisson bivectors and Poisson brackets on affine derived stacks_ ([arXiv:1409.1863](http://arxiv.org/abs/1409.1863))
+* Valerio Melani, _Poisson bivectors and Poisson brackets on affine derived stacks_, [arXiv:1409.1863](http://arxiv.org/abs/1409.1863)
 
-* [[J.P. Pridham]], _Shifted Poisson and symplectic structures on derived N-stacks_ ([arXiv:1504.01940](http://arxiv.org/abs/1504.01940))
+* [[J.P. Pridham]], _Shifted Poisson and symplectic structures on derived N-stacks_, [arXiv:1504.01940](http://arxiv.org/abs/1504.01940)
 
-* [[Pavel Safronov]], _Poisson reduction as a coisotropic intersection_ ([arXiv:1509.08081](http://arxiv.org/abs/1509.08081))
-
+* [[Pavel Safronov]], _Poisson reduction as a coisotropic intersection_, [arXiv:1509.08081](http://arxiv.org/abs/1509.08081)
 
 
 [[!redirects shifted symplectic structures]]
