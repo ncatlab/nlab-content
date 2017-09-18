@@ -2024,10 +2024,15 @@ such that
 
    $$
      \array{
+         && Y
+         \\
          & \nearrow&& \searrow
-         \\ 
+         \\
+         X 
          &&
          \longrightarrow
+         &&
+         Z 
      }
    $$
       
@@ -2168,6 +2173,70 @@ dually:
 
 =--
 
++-- {: .num_defn #WeakFactorizationSystem}
+###### Definition
+
+A **[[weak factorization system]]** (WFS) on a [[category]] $\mathcal{C}$ is a [[pair]] $(Proj,Inj)$ of [[classes]] of [[morphisms]] of $\mathcal{C}$ such that
+
+1. Every [[morphism]] $f \colon X\to Y$ of $\mathcal{C}$ may be factored as the [[composition]] of a morphism in $Proj$ followed by one in $Inj$ 
+
+   $$
+     f\;\colon\;  X \overset{\in Proj}{\longrightarrow} Z \overset{\in Inj}{\longrightarrow} Y
+     \,.
+   $$
+
+1. The classes are closed under having the [[lifting property]], def. \ref{LiftingAndExtension}, against each other:
+
+   1. $Proj$ is precisely the class of morphisms having the [[left lifting property]] against every morphisms in $Inj$;
+
+   1. $Inj$ is precisely the class of morphisms having the [[right lifting property]] against every morphisms in $Proj$.
+
+=--
+
++-- {: .num_defn #FunctorialFactorization}
+###### Definition
+
+For $\mathcal{C}$ a [[category]], a **[[functorial factorization]]** of the morphisms in $\mathcal{C}$ is a [[functor]] 
+
+$$
+  fact \;\colon\; \mathcal{C}^{\Delta[1]} \longrightarrow \mathcal{C}^{\Delta[2]}
+$$ 
+
+which is a [[section]] of the [[composition]] functor $d_1 \;\colon \;\mathcal{C}^{\Delta[2]}\to \mathcal{C}^{\Delta[1]}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In def. \ref{FunctorialFactorization} we are using the following standard notation, see at _[[simplex category]]_ and at _[[nerve of a category]]_:
+
+Write $[1] = \{0 \to 1\}$ and $[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image. 
+By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]} \longrightarrow \mathcal{C}^{\Delta[1]}$. Here 
+
+* $d_1$ sends a pair of composable morphisms to their [[composition]];
+
+* $d_2$ sends a pair of composable morphisms to the first morphisms;
+
+* $d_0$ sends a pair of composable morphisms to the second morphisms.
+
+=--
+
++-- {: .num_defn #FunctorialWeakFactorizationSystem}
+###### Definition
+
+A weak factorization system, def. \ref{WeakFactorizationSystem}, is called a **functorial weak factorization system** if the factorization of morphisms may be chosen to be a [[functorial factorization]] $fact$, def. \ref{FunctorialFactorization}, i.e. such that $d_2 \circ fact$ lands in $Proj$ and $d_0\circ fact$ in $Inj$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Not all weak factorization systems are functorial, def. \ref{FunctorialWeakFactorizationSystem}, although most (including those produced by the [[small object argument]] (prop. \ref{SmallObjectArgument} below), with due care) are.
+
+=--
+
+
 +-- {: .num_prop #ClosurePropertiesOfInjectiveAndProjectiveMorphisms}
 ###### Proposition
 
@@ -2301,7 +2370,7 @@ $$
   \,.
 $$
 
-Now the pasting composite of the two squares on the right has a lift, by assumption,
+Here the pasting composite of the two squares on the right has a lift, by assumption:
 
 $$
   \array{
@@ -2309,7 +2378,7 @@ $$
     \\
     \downarrow^{\mathrlap{j}} 
       && 
-    \downarrow^{\mathrlap{i}}_{\mathrlap{\in K Proj}} 
+    \downarrow^{\mathrlap{i}}_{} 
       && 
     \nearrow 
       && 
@@ -2563,7 +2632,8 @@ $$
 Consider a [[composition|composite]] morphism
 
 $$
-  f \;\colon\; \stackrel{i}{\longrightarrow} \stackrel{p}{\longrightarrow}
+  f \;\colon\; 
+  X \stackrel{i}{\longrightarrow} A \stackrel{p}{\longrightarrow} Y
   \,.
 $$
 
@@ -2641,68 +2711,6 @@ $$
 =--
 
 
-+-- {: .num_defn #WeakFactorizationSystem}
-###### Definition
-
-A **[[weak factorization system]]** (WFS) on a [[category]] $\mathcal{C}$ is a [[pair]] $(Proj,Inj)$ of [[classes]] of [[morphisms]] of $\mathcal{C}$ such that
-
-1. Every [[morphism]] $f \colon X\to Y$ of $\mathcal{C}$ may be factored as the [[composition]] of a morphism in $Proj$ followed by one in $Inj$ 
-
-   $$
-     f\;\colon\;  X \overset{\in Proj}{\longrightarrow} Z \overset{\in Inj}{\longrightarrow} Y
-     \,.
-   $$
-
-1. The classes are closed under having the [[lifting property]], def. \ref{LiftingAndExtension}, against each other:
-
-   1. $Proj$ is precisely the class of morphisms having the [[left lifting property]] against every morphisms in $Inj$;
-
-   1. $Inj$ is precisely the class of morphisms having the [[right lifting property]] against every morphisms in $Proj$.
-
-=--
-
-+-- {: .num_defn #FunctorialFactorization}
-###### Definition
-
-For $\mathcal{C}$ a [[category]], a **[[functorial factorization]]** of the morphisms in $\mathcal{C}$ is a [[functor]] 
-
-$$
-  fact \;\colon\; \mathcal{C}^{\Delta[1]} \longrightarrow \mathcal{C}^{\Delta[2]}
-$$ 
-
-which is a [[section]] of the [[composition]] functor $d_1 \;\colon \;\mathcal{C}^{\Delta[2]}\to \mathcal{C}^{\Delta[1]}$.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-In def. \ref{FunctorialFactorization} we are using the following standard notation, see at _[[simplex category]]_ and at _[[nerve of a category]]_:
-
-Write $[1] = \{0 \to 1\}$ and $[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image. 
-By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]} \longrightarrow \mathcal{C}^{\Delta[1]}$. Here 
-
-* $d_1$ sends a pair of composable morphisms to their [[composition]];
-
-* $d_2$ sends a pair of composable morphisms to the first morphisms;
-
-* $d_0$ sends a pair of composable morphisms to the second morphisms.
-
-=--
-
-+-- {: .num_defn #FunctorialWeakFactorizationSystem}
-###### Definition
-
-A weak factorization system, def. \ref{WeakFactorizationSystem}, is called a **functorial weak factorization system** if the factorization of morphisms may be chosen to be a [[functorial factorization]] $fact$, def. \ref{FunctorialFactorization}, i.e. such that $d_2 \circ fact$ lands in $Proj$ and $d_0\circ fact$ in $Inj$.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-Not all weak factorization systems are functorial, def. \ref{FunctorialWeakFactorizationSystem}, although most (including those produced by the [[small object argument]], with due care) are.
-
-=--
 
 **Small object argument**
 
@@ -2815,11 +2823,19 @@ The concept of _[[small object]]_ is just what makes this intuition precise and 
 
 For $\mathcal{C}$ a [[category]] and $C \subset Mor(\mathcal{C})$
 a sub-[[class]] of its morphisms, say that these have _small [[domains]]_
-if for every $c\in C$ and for every $C$-[[relative cell complex]] 
-$f\colon X \longrightarrow \hat X$ every morphism 
-$dom(c)\longrightarrow \hat X$ factors through a finite relative subcomplex.
+if there is an [[ordinal]] $\alpha$ (def. \ref{PosetsWosetTosetsAndOrdinals}) such that for every $c\in C$ and for every $C$-[[relative cell complex]] given by a [[transfinite composition]] (def. \ref{TransfiniteComposition})
+
+$$
+  f
+  \;\colon\; 
+  X \to X_1 \to \cdots  \longrightarrow \hat X
+$$ 
+
+every morphism  $dom(c)\longrightarrow \hat X$ factors through a stage $X_\beta \to \hat X$ of order $\beta \lt \alpha$.
 
 =--
+
+The above discussion shows the following:
 
 +-- {: .num_prop #SmallObjectArgument}
 ###### Proposition
@@ -2835,6 +2851,8 @@ $$
 $$
  
 =--
+
+([Quillen 67, II.3 lemma](#Quillen67))
 
 ##### Homotopy 
 
@@ -2884,18 +2902,18 @@ For instance in the [[classical model structure on topological spaces]] which we
 Let $\mathcal{C}$ be a [[model category]]. If $X \in \mathcal{C}$ is cofibrant, then for every [[cylinder object]] $Cyl(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(i_0,i_1) \colon X \sqcup X \to X$ a cofibration, but each
 
 $$
-  i_0, i_1 \colon X \longrightarrow X
+  i_0, i_1 \colon X \longrightarrow Cyl(X)
 $$
 
-is an acyclic cofibration.
+is an acyclic cofibration separately.
 
-Dually, if $X \in \mathcal{C}$ is fibranr, then for every [[path space object]] $Path(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(p_0,p_1) \colon Path(X)\to X \times X$ a cofibration, but each
+Dually, if $X \in \mathcal{C}$ is fibrant, then for every [[path space object]] $Path(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(p_0,p_1) \colon Path(X)\to X \times X$ a cofibration, but each
 
 $$
   p_0, p_1 \colon Path(X) \longrightarrow X
 $$
 
-is an acyclic fibration.
+is an acyclic fibration separately.
 
 =--
 
@@ -2932,22 +2950,30 @@ If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{Mo
 
 $$
   \array{
+     X &\overset{\Delta_X}{\longrightarrow}&  X \times X
+     \\
+     \downarrow && \downarrow
+     \\
      Path_1(X) \underset{X}{\times} Path_2(X) 
      &\longrightarrow&
      Path_1(X)\times Path_2(X)
      \\
-     {}^{\mathllap{\in Fib}}\downarrow && \downarrow^{\mathrlap{\in Fib}}
+     {}^{\mathllap{\in Fib}}\downarrow 
+     &(pb)& 
+     \downarrow^{\mathrlap{\in Fib}}
      \\
      X \times X \times X
      &\overset{(id,\Delta_X,id)}{\longrightarrow}& X \times X\times X \times X
      \\
      \downarrow^{\mathrlap{(pr_1,pr_3)}}_{\mathrlap{\in Fib}}
+     &&
+     \downarrow^{\mathrlap{(p_1, p_4)}}
      \\
-     X\times X
+     X\times X &=& X \times X 
   }
 $$
 
-gives that the induced projection is again a fibration.
+gives that the induced projection is again a fibration. Using lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} and [[two-out-of-three]] gives that $X \to Path_1(X) \times_X Path_2(X)$ is a weak equivalence.
 
 For the case of the canonical topological path space objects of def \ref{TopologicalPathSpace}, with $Path_1(X) = Path_2(X) = X^I = X^{[0,1]}$  then this new path space object is $X^{I \vee I} = X^{[0,2]}$, the [[mapping space]] out of the standard interval of length 2 instead of length 1.
 
@@ -3050,7 +3076,7 @@ $$
   \array{
     X \sqcup X &\overset{}{\longrightarrow}& \hat X &\longrightarrow& Z
     \\
-    \downarrow && & {}^{\mathllap{\ell}}\nearrow & \downarrow
+    {}^{\mathllap{\in Cof}}\downarrow && & {}^{\mathllap{\ell}}\nearrow & \downarrow^{\mathrlap{\in W \cap Fib}}
     \\
     Cyl(X) &\longrightarrow& &\longrightarrow& Y 
   }
@@ -3060,7 +3086,7 @@ $$
   \array{
     \hat X &\overset{\eta}{\longrightarrow}& Y
     \\
-    \downarrow &{}^{\mathllap{k}}\nearrow& \downarrow
+    {}^{\mathllap{\in Cof}}\downarrow &{}^{\mathllap{k}}\nearrow& \downarrow^{\mathrlap{\in W }}
     \\
     Z &\longrightarrow& \ast 
   }
@@ -3235,7 +3261,7 @@ $$
     \\
     {}^{\mathllap{\iota_X}}{}_{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W \cap Fib}}
     \\
-    Cyl(X) &\underset{f\circ \sigma}{\longrightarrow}& y
+    Cyl(X) &\underset{f\circ \sigma}{\longrightarrow}& Y
   }
   \,,
 $$
@@ -3616,7 +3642,7 @@ $$
   Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
     \longrightarrow
   Hom_{\mathcal{C}}(P X, Y)/_{\sim}
-    \longrigtharrow
+    \longrightarrow
   Hom_{\mathcal{C}}(X,Y)/_{\sim}
   \,.
 $$
