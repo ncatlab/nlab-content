@@ -116,7 +116,7 @@ $$
   X
 $$
 
-from the [[mapping telescope]], def. \ref{MappingTelescope}, is a [[homotopy equivalence]].
+from the [[mapping telescope]], def. \ref{MappingTelescope}, is a [[weak homotopy equivalence]].
 
 =--
 
@@ -124,15 +124,13 @@ from the [[mapping telescope]], def. \ref{MappingTelescope}, is a [[homotopy equ
 +-- {: .proof}
 ###### Proof
 
-We show that the map is a [[weak homotopy equivalence]]. Because domain and codomain are [[CW-complexes]], by [[Whitehead's theorem]] it is then also a homotopy equivalence.
-
 Write in the following $Tel(X)$ for $Tel(X_\bullet)$ and write $Tel(X_n)$ for the mapping telescop of the substages of the finite stage $X_n$ of $X$. It is intuitively clear that each of the projections at finite stage
 
 $$
   Tel(X_n) \longrightarrow X_n
 $$
 
-is a homotopy equivalence. A concrete construction of a homotopy inverse is given for instance in ([Switzer 75, proof of prop. 7.53](#Switzer75)).
+is a [[homotopy equivalence]], hence a [[weak homotopy equivalence]]. A concrete construction of a homotopy inverse is given for instance in ([Switzer 75, proof of prop. 7.53](#Switzer75)).
 
 Moreover, since spheres are [[compact object|compact]], so that elements of [[homotopy groups]] $\pi_q(Tel(X))$ are represented at some finite stage $\pi_q(Tel(X_n))$ it follows that 
 
