@@ -26,14 +26,78 @@ The [[topological Hochschild homology]]-spectra $E = THH(A)$ are naturally cyclo
 
 Cyclotomic structure is the origin of the [[cyclotomic trace]] map $THH \longrightarrow TC$ from [[topological Hochschild homology]] to [[topological cyclic homology]].
 
+## Definition
+ {#Definition}
+
+Throughout, for $p$ a [[prime number]] write $C_p \subset S^1$ for the [[cyclic group]] $\mathbb{Z}/p\mathbb{Z}$ of order $p$, regarded as a subgroup of the [[circle group]].
+
+A definition says that a cyclotomic spectrum  is an [[circle group]]-[[genuine equivariant spectrum]] $X$ (modeled on [[orthogonal spectra]]) equipped with equivalences to its naive point-set fixed point spectra $\Phi^{C_p} X$ for all the [[cyclic group|cyclic]] [[subgroups]] $C_p \subset S^1$.
+ 
+A more abstract definition was given in ([Nikolaus-Scholze 17](#NikolausScholze17)):
+
++-- {: .num_defn #CyclotomicSpectrumViaTateSpectra}
+###### Definition
+
+A _cyclotomic spectrum_ is 
+
+1. a [[spectrum]] $X$ 
+
+1. a [[circle group]] [[∞-action]] on $X$, i.e. an [[(∞,1)-functor]] $B S^1 \to Spectra$ which takes [[generalized the|the]] unique point of $B S^1$ to $X$;
+
+1. for each prime number $p$ a homomorphism of spectra with such circle group action
+
+   $$
+     X \longrightarrow X^{t C_p}
+   $$
+
+   to the [[Tate spectrum]] (the [[homotopy cofiber]] $X^{t C_p} \coloneqq cofib( X_{C_p} \overset{norm_p}{\to} X^{C_p} )$ of the [[norm map]]), where the circle action on the Tate spectrum comes from the canonical identification $S^1/C_p \simeq C_p$.
+
+=--
+
+([Nikolaus-Scholze 17, def. 1.3, def. II.1.1](#NikolausScholze17)).
+
+This is equivalent to the traditional definition for spectra whose [[stable homotopy groups]] are bounded from below ([Nikolaus-Scholze 17, theorem 1.4](#NikolausScholze17)).
+
+## Examples
+ {#Examples}
+
++-- {: .num_example #THHCarriesCyclotomicStructure}
+###### Example
+**([[topological Hochschild homology]])**
+
+For every [[A-∞ ring]] $A$, the [[topological Hochschild homology]] spectrum $THH(A)$ naturally carries the structure of a cyclotomic spectrum (def. \ref{CyclotomicSpectrumViaTateSpectra}).
+
+=--
+
+([Nikolaus-Scholze 17, section II.2, def. III.2.3](#NikolausScholze17))
+
++-- {: .num_example #CyclotomicSphereSpectrum}
+###### Example
+**(cyclotomic sphere spectrum)**
+
+Consider the [[sphere spectrum]] $\mathbb{S}$ equipped with the trivial [[circle group]] [[∞-action]]. For each prime number $p$ there is a canonical morphism
+
+$$
+   f_p
+   \;\colon\;
+   \mathbb{S} \longrightarrow \mathbb{S}^{C_p} \longrightarrow \mathbb{S}^{t C_p}
+$$
+
+(the first being the $( B C_p \times (-) \dashv (-)^{C_p} )$-[[unit of an adjunction|unit]] into the [[homotopy fixed points]], the second the defining morphism into the [[Tate spectrum]]  ). These canonically carry equivariant structure (...) and hence make $\mathbb{S}$ a cyclotomic spectrum.
+
+As such it is equivalently $\mathbb{S} \simeq THH(\mathbb{S})$ according to example \ref{THHCarriesCyclotomicStructure}.
+
+=--
+
+([Nikolaus-Scholze 17, example II.1.2 (ii)](#NikolausScholze17))
+
 ## Properties
 
 ### Monoidal structure
  {#MonoidalStructure}
 
-The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclotomic spectra is the [[global equivariant sphere spectrum]] for all the [[cyclic groups]] over the [[circle group]], equipped with a canonical cyclotomic structure. ([Blumberg-Mandell 13, example 4.9](#BlumbergMandell13))
+The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclotomic spectra is the cyclotomic sphere spectrum from example \ref{CyclotomicSphereSpectrum} ([Blumberg-Mandell 13, example 4.9](#BlumbergMandell13))
 
-This is equivalently the [[topological Hochschild homology]] of the sphere spectrum, $THH(\mathbb{S})\simeq \mathbb{S}$.
 
 ## Related concepts
 
