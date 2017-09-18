@@ -67,3 +67,7 @@ Here, too, one can consider the analog of [[extended quantum field theory]] and 
 
 [[!redirects local field theory]]
 [[!redirects local field theories]]
+
+[[!redirects local QFT]]
+[[!redirects local QFTs]]
+
