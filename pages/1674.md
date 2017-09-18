@@ -106,7 +106,7 @@ Over ZF (or ETCS), the axiom of choice holds iff every infinite set $Y$ can be p
 ###### Proof 
 The more interesting direction is the "if", so we assume every infinite set can be put into bijection with its square. 
 
-It suffices to prove that every $X$ can be well-ordered. WLOG we prove this for infinite $X$, since every $X$ embeds in a Dedekind infinite set (such as $X + \mathbb{N}$), and we can pull back a well-order on the latter along such an embedding to one on the former. 
+It suffices to prove that every $X$ can be well-ordered. WLOG we prove this for (Dedekind) infinite $X$, since every $X$ embeds in a Dedekind infinite set (such as $X + \mathbb{N}$), and we can pull back a well-order on the latter along such an embedding to one on the former. 
 
 For infinite $X$, let $Y$ be the disjoint union $X + \aleph(X)$, and let $\phi: Y \times Y \to Y$ be a bijection. We claim that for all $x \in X$, there exist $\alpha, \beta \in \aleph(X)$ such that $\phi(x, \alpha) = \beta$. If that were not true, then there would exist $x \in X$ such that for all $\alpha \in \aleph(X)$ we have $\phi(x, \alpha) \notin \aleph(X)$, or in other words for all $\alpha \in \aleph(X)$ we have $\phi(x, \alpha) \in X$, so that $\phi(x, -)$ defines an injection $\aleph(X) \rightarrowtail X$. This is impossible. 
 
@@ -117,12 +117,12 @@ A very similar method establishes the following claim.
 
 +-- {: .num_prop} 
 ###### Proposition 
-Over ZF, AC is equivalent to the statement that every set admits a group structure. 
+Over ZF, AC is equivalent to the statement that every inhabited set admits a group structure. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Every finite set admits a cyclic group structure, and under AC any infinite set can be put into bijection with the collection of finite subsets, which forms a group under symmetric difference. 
+Every inhabited finite set admits a cyclic group structure, and under AC any infinite set can be put in bijection with the collection of its finite subsets, which forms a group under symmetric difference. 
 
 Conversely, suppose $Y = X + \aleph(X)$ admits a group structure. Then for every $x \in X$, there exist $\alpha, \beta \in \aleph(X)$ such that $x\alpha = \beta$. For if that were not true, then there exists $x \in X$ such that for all $\alpha \in \aleph(X)$, we have $x \alpha \notin \aleph(X)$, i.e., for all $\alpha \in \aleph(X)$ we have $x\alpha \in X$, which implies left multiplication by $x$ defines an injection $\aleph(X) \rightarrowtail X$, contradiction. 
 
