@@ -267,9 +267,9 @@ Original reference on self-dual/chiral fields include
 
 * [[Xavier Bekaert]], [[Marc Henneaux]], _Comments on Chiral $p$-Forms_ ([arXiv:hep-th/9806062](http://arxiv.org/abs/hep-th/9806062))
 
-* Mans Henningson, Bengt E.W. Nilsson, Per Salomonson, _Holomorphic factorization of correlation functions in (4k+2)-dimensional (2k)-form gauge theory_ ([arXiv:hep-th/9908107](http://arxiv.org/abs/hep-th/9908107))
+* [[Mans Henningson]], [[Bengt Nilsson]], Per Salomonson, _Holomorphic factorization of correlation functions in (4k+2)-dimensional (2k)-form gauge theory_ ([arXiv:hep-th/9908107](http://arxiv.org/abs/hep-th/9908107))
 
-* M. Henningson, _The quantum Hilbert space of a chiral two-form in $d = 5 + 1$ dimensions_ ([arxiv:hep-th/0111150](http://arxiv.org/abs/hep-th/0111150))
+* [[Mans Henningson]], _The quantum Hilbert space of a chiral two-form in $d = 5 + 1$ dimensions_ ([arxiv:hep-th/0111150](http://arxiv.org/abs/hep-th/0111150))
 
 The chiral boson in 2d is discussed in detail in 
 
