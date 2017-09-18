@@ -157,7 +157,66 @@ In a sense, a [[digraph]] is a "strictly-Lawvere-irreflexive graph".
 
 From a graph-theoretical point of view, every digraph is a quiver, but not every quiver is a digraph (again, in the sense of [Gutin and Bang-Jensen 2009](#DG2nd)).
 
-## Cultural differences in what to regard as simpler 
+## Cultural differences of style and correctness
+
+### Lawvere's Como comments  
+
+At the [[Como]] conference in 1990, [[William Lawvere]] gave a videotaped lecture, in which he makes thoughtful remarks, relevant to the present article and section: 
+
+
+> I have great problems reading books on graph theory, books and papers on graph theory, because they never tell you exactly what they are talking about. 
+Sometimes the graphs are [word inaudible, even when played slower], sometimes they are absolutely reflexive, sometimes they are not. 
+Even if they go so far as talking about homomorphisms, I still don't know exactly what that is, i.e., which category are we in? 
+What they should do is admit that they are working in three or four *different* categories and they don't know how to pass from one to the other, and so on, and [inaudible words] to simplify.  
+But no, they prefer to talk in a vague way and smushing these together. [inaudible] tried to understand some of the problems of graph theorists and get [bogged? locked?] in the first page. 
+Does anybody actually know what a graph minor is? 
+[some interjection from the audience] Graph minor. Big problem. 
+(..) you see, this famous [inaudible works] problem on graph minors. 
+Looks like that that might be interesting. 
+But I can't determine *exactly* what it is, because, if you read the first parts of the paper, they waffle, you see, they don't give you a *property* (...)
+([William Lawvere] in his 1990 lecture at [[Como]], Italy, Villa Olmo)
+
+The above should be understood *in its historical context*, in particular one should be  aware that in 1990 several of the textbooks in graph theory now in use had not yet been written, and the [[Graph Minor Theorem]] had not been proved, rather being chipped away at in pioneering reasearch papers since the early 1980s. 
+
+And yet, [[Lawvere]] touches differences in style, presentation, verifiability and *preservability* that are important to this day, and similar concerns have been voiced by other mathematicians, for example by  [[William Thurston]] and [[Jean-Pierre Serre]].
+
+
+Concerns about mathematics written in the more semantic, or geometric, style, in particular its *preservation in the minds of people* are known for long, and have been voiced about other fields than [[graph theory]], most notably about [[topology]]. 
+
+
+[[William Thurston|Thurston]] said:
+
+> It's very hard to do, you know, a brain dump. 
+It's very hard to do that. 
+William Thurston, Lecture _The Mystery of 3-Manifolds_ at the Clay Research Conference 2010
+
+and
+
+> ... many, many questions about three-manifolds are probably algorithmically doable, it is just a question of whether they are sort-of-humanly-comprehensible. 
+I want to say one thing, which is that you can get the software. 
+If you really want to look at examples of three-manifolds, it's good to get the software    that I am using on my [machine]. There's a program called [[SnapPea]], it's written mainly by [[Jeff Weeks]], with some other collaborators, and you can get it from [outdated], the best version is for [outdated technical comments], but there are also versions that run on the garden-variety machine with a C-compiler. 
+With it, you can do a lot. 
+And I think, ultimately, you know, how do you *conserve a theory of mathematics*, I mean, it's a hard thing to do, but, hopefully, I think, there's a chance that somehow the computers will become the experts, down the line, when the current experts are all, senile, or dead, or whatever.
+William Thurston, Lecture _Three-dimensional geometry and topology_, Landau Lectures, 1995/6, Part 3, Hebrew University of Jerusalem
+
+
+There are two interrelated aspects of this concern: 
+
+* How to preserve the insights of mathematicians writing in the semantic style for posterity?
+
+* How to communicate mathematics written in the semantic styles to learners? 
+
+
+[[Jean-Pierre Serre|Serre]], who is often praised for the clarity and arithmeticality of his style, made remarks similar to Lawvere's and Thurston's, with (pioneering) topology corresponding to (pioneering) graph theory:
+
+> Some theories get simplified. 
+Some just drop out of sight. 
+For instance, in 1949, I remember I was depressed because every issue of the Annals of Mathematics would contain another paper on topology which was more difficult to understand than the previous ones. 
+But nobody looks at these papers any more; they are forgotten (...)
+C. T. Chong and Y. K. Leong: _An Interview with Jean-Pierre Serre_. Mathematical Conversations. Selections from The Mathematical Intelligencer. Springer. 2001. pp. 32--38
+
+
+### To say no, or not to say no: what is simpler? 
 
 The convention of formalising directed graphs like in [[digraph]] is widespread in modern combinatorics, but it is mostly just that: conventional. 
 In particular, forbidding parallel arcs, and in particular, forbidding loops by yaking the  [[relative complement]] of $V\times V$ and the diagonal $\{(v,v)\colon v\in V\}$ is sometimes[^1] regarded to be a negative complication. 
