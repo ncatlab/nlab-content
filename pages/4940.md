@@ -101,3 +101,6 @@ The co-Heyting algebra perspective and the accompanying _mereo-logic of theories
 
 [[!redirects frontier]]
 [[!redirects frontiers]]
+
+[[!redirects topological boundary]]
+[[!redirects topological boundaries]]
