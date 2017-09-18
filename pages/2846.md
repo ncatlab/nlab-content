@@ -97,6 +97,51 @@ In the theory of [[real closed fields]] with signature $(0, 1, +, \cdot, \leq)$,
 
 Another application is described at [[Löwenheim-Skolem theorem]]. 
 
+## Properties
+
++-- {: .num_prop #Elementary embeddings are natural transformations}
+###### Proposition
+
+Let $T$ be a [[first-order theory]], and $M, N : \mathsf{Syn}(T) \to \mathbf{Set}$ two [[models]] of $T$.
+
+Let $(\mathsf{Syn}(T))_0$ denote the objects (definable sets of $T$) of $\mathsf{Syn}(T)$.
+
+A $(\mathsf{Syn}(T))_0$-indexed collection of maps $f \overset{df}{=} \left(M(X) \overset{f_X}{\to} N(X) \right)_X$ is a [[natural transformation]] if and only if it preserves and reflects [[first-order logic]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Suppose $f$ is a natural transformation. Then certainly whenever $X$ is a definable set, $x \in M(X) \implies f(x) \in N(X).$
+
+If $f(x) \in N(X)$ but $x$ is _not_ in $M(X)$, then $x \in M(\neg X)$, which implies $f(x) \in N(\neg X)$. Since the functor $N$ preserves disjoint unions, $N(\neg X) \cap N(X)$ is empty, which is impossible. So whenever $f(x) \in N(X)$, $x \in M(X)$.
+
+Now suppose $f$ preserves and reflects first-order logic. If $X \overset{\gamma}{\to} Y$ is a map in $\mathsf{Syn}(T)$ and $y \in M(Y)$, then
+
+$$
+M \models \gamma(y) \in M(X) \iff N \models \gamma(f(y)) \in N(X)
+$$
+
+and $\gamma(f(y)) = f(\gamma(y))$ since
+
+$$
+M \models \Gamma(y,\gamma(y)) \iff N \models \Gamma(f(y), f \gamma(y))
+$$
+
+where $\Gamma$ is the graph of the definable function $\gamma$.
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the above, we can actually weaken the assumption that we start with a collection of $(\mathsf{Syn}(T))_0$-indexed maps to just starting with a collection of maps $f_C : M(C) \to N(C)$, where $C$ runs along the maximal objects (the [[types]]) in $\mathsf{Syn}(T)$.
+
+Then: the $(\mathsf{Syn}(T))_0$-indexed collection of _pullbacks_ along the canonical embeddings $N(X) \hookrightarrow N(C)$ is a natural transformation $M \to N$ if and only if the maps $f_C$ preserved and reflected first-order logic.
+
+=--
+
+
 ## Elementary embeddings between models of set theory
 
 ### In material set theory
