@@ -1,3 +1,6 @@
+
+([[GeometricSupergravityErrata.pdf:file]]) 
+
 | Name | Condition for nearness | Condition for apartness | Condition for proximal neighbourhoods | Condition for proximal unions |
 | - | - | - | - | - |
 | Isotony (left) | If $A \supseteq B \;\delta\; C$, then $A \;\delta\; C$ | If $A \subseteq B \bowtie C$, then $A \bowtie C$ | If $A \subseteq B \ll C$, then $A \ll C$ | If $A\subseteq B$ and $A\Cup C = X$, then $B\Cup C = X$ |
