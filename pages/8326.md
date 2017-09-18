@@ -67,7 +67,9 @@ Hegel's system is meant to be the revelation of a dynamical [[ontology|ontologic
 
 Other philosophical systems, Hegel claims (see also ([[Lectures on the History of Philosophy|Lect Hist Phil]], [Result](Lectures+on+the+History+of+Philosophy#BisHierher))), are subsumed by and find their place in his more comprehensive and "scientific" system, notably
 
-* [[Heraclitus]]'s _[[logos (in philosophy)|logos]]_ ([HistPhil](Heraclitus#HegelHistory1b)) and _[[becoming]]_,
+* [[Parmenides]]' _[[being]]_
+
+* [[Heraclitus]]'s _[[becoming]]_ and the _[[logos (in philosophy)|logos]]_ ([HistPhil](Heraclitus#HegelHistory1b)),
 
 * [[Plato]]'s [[doctrine of ideas]] as "actualized" by [[Aristotle]] ([HistPhil](doctrine+of+ideas#HegelPerspective)),
 
