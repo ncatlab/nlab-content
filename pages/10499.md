@@ -299,7 +299,7 @@ where
 
 * $A Mod$ is the [[stable (∞,1)-category|stable]] [[(∞,1)-category of modules]], i.e. of [[∞-modules]] over $A$;
 
-* $A Mod_{\mathfrak{a}tor}$ and $A Mod_{\mathfrak{a} comp}$ are the [[full sub-(∞,1)-categories]] of $\mathfrak{a}$-[[torsion approximation|torsion]] and of $\mathfrak{a}$-[[completion of a module|complete]] $A$-[[∞-modules]], respectively;
+* $A Mod_{\mathfrak{a}tors}$ and $A Mod_{\mathfrak{a} comp}$ are the [[full sub-(∞,1)-categories]] of $\mathfrak{a}$-[[torsion approximation|torsion]] and of $\mathfrak{a}$-[[completion of a module|complete]] $A$-[[∞-modules]], respectively;
 
 * $(-)^{op}$ denotes the [[opposite (∞,1)-category]];
 
@@ -323,7 +323,7 @@ This is effectively the content of ([Lurie "Proper morphisms", section 4](#Lurie
 +-- {: .num_cor #FractureFromCohesion}
 ###### Corollary
 
-The traditional arithmetic fracture square of prop. \ref{SullivanArithmeticFracture}, regarded as in remark \ref{TwoThirdHexagon}, is the left part of the "[differential cohomology diagram](differential+cohomology+diagram#TheHexagonDiagram)" induced by the [[adjoint modality]] $(\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )$ of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, for the special case that $A = \mathbb{S}$ is the [[sphere spectrum]] and $\mathfrak{a} = (p)$ a [[prime ideal]]
+The traditional arithmetic fracture square of prop. \ref{SullivanArithmeticFracture}, regarded as in remark \ref{TwoThirdHexagon}, is the left part of the "[differential cohomology diagram](differential+cohomology+diagram#TheHexagonDiagram)" induced by the [[adjoint modality]] $(\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )$ of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, for the special case that $X = \mathbb{S}$ is the [[sphere spectrum]] and $\mathfrak{a} = (p)$ a [[prime ideal]]
 
 $$
   \array{
@@ -331,11 +331,11 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow && \searrow
     \\
-    \flat \Pi_{\mathfrak{a}dR} X  && \Downarrow && X && \Downarrow && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
+    \Pi_{\mathfrak{a}dR} \flat  X  && \Downarrow && X && \Downarrow && \Pi_{\mathfrak{a}} \flat_{\mathfrak{a}dR} X
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
-    && \flat_{\mathfrak{a}} A && \longrightarrow && \Pi_{\mathfrak{a}} A
+    && \flat_{\mathfrak{a}} X && \longrightarrow && \Pi_{\mathfrak{a}} X
   }
   \,,
 $$
@@ -354,20 +354,20 @@ The special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}
 +-- {: .num_remark #FracturingOnEInfinityAlgebras}
 ###### Remark
 
-By the discussion at _[[completion of modules]]_ in the section _[Monoidalness](completion+of+a+module#Monoidalness)_, the [[adjoint modality]] of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} is by [[monoidal (∞,1)-functors]] on $A Mod$. This means that $(\Pi_{\mathfrak{a}}\dashv \flat_{\mathfrak{a}})$ passes to [[commutative monoid in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]] in $A Mod$, hence to ([[Isbell duality|formal duals of]]) [[E-∞ algebras]], hence to affine [[spaces]] in [[E-∞ geometry]]
+By the discussion at _[[completion of modules]]_ in the section _[Monoidalness](completion+of+a+module#Monoidalness)_, the [[adjoint modality]] of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} is a [[monoidal (∞,1)-functor]] without, possibly, respect the [[tensor unit]] in $A Mod$. This means that $(\Pi_{\mathfrak{a}}\dashv \flat_{\mathfrak{a}})$ passes to "[[commutative monoid in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]]-without unit" in $A Mod$, hence to ([[Isbell duality|formal duals of]]) [[nonunital E-∞ algebras]]. 
+By [this proposition](nonunital+Ek-algebra#RelationToAugmentedEkAlgebras) ([Lurie "Algebra", prop. 5.2.3.15](#LurieAlgebra)) [[nonunital E-∞ rings]]  are [[equivalence of (∞,1)-categories|equivalent]] to [[augmented E-∞ rings]] over the [[sphere spectrum]], hence this is [[E-∞ arithmetic geometry]] under $Spec(\mathbb{S})$.
 
-$$
-  (\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )  \colon
-  E_\infty Alg_A^{op} \to E_\infty Alg_A^{op}
-  \,.
-$$
+Notice that in addition $\Pi_{\mathfrak{a}}$ here should preserve [[finite products]] (because by the discussion at  [completion of a module -- monoidalness](completion%20of%20a%20module#Monoidalness) the underlying $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$ preserves all small [[(∞,1)-colimits]] and because by 
+[this proposition](commutative+monoid+in+a+symmetric+monoidal+%28infinity%2C1%29-category#LimitsInCRing) finite coproducts in $CRng(A Mod)$ are computed in the underlying $A Mod$.
 
-Notice that in addition $\Pi_{\mathfrak{a}}$ here preserves [[finite products]]. (because by the discussion at  [completion of a module -- monoidalness](completion%20of%20a%20module#Monoidalness) the underlying $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$ preserves all small [[(∞,1)-colimits]] and because by 
-[this proposition](commutative+monoid+in+a+symmetric+monoidal+%28infinity%2C1%29-category#LimitsInCRing} finite coproducts in $CRing(A Mod)$ are computed in the underlying $A Mod$.
+Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine [[E-∞ geometry|E-∞]]-[[arithmetic geometry]] under $Spec(\mathbb{S})$ -- namely on [[Isbell duality|formal duals]] of [[nonunital E-∞ rings]] .
 
-Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine $E_\infty$-[[arithmetic geometry]].
+(It may be entertaining to note that on the level of [[∞-groups of units]] then [[E-∞ arithmetic geometry]] under $Spec(\mathbb{S})$ translates to [[abelian ∞-groups]] of [[twisted cohomology|twists]] over the [[sphere spectrum]] -- which has been argued to be the homotopy-theoretic incarnation of [[superalgebra]], see at _[superalgebra -- abstract idea](super+algebra#AbstractIdea)_ for more on this.)
 
 =--
+
+For more discussion of this see also _[[differential cohesion and idelic structure]]_.
+
 
 #### The arithmetic fracture square for chain complexes
  {#CompletionAndTorsionOnDerivedCategories}
@@ -382,6 +382,7 @@ We discuss here arithmetic fracturing on [[chain complexes]] of modules. Under t
 Let $A$ be a [[commutative ring]], let $\mathfrak{a} \subset A$ be be an ideal generated by a single regular element (i.e. not a zero divisor). Write $A Mod_{\infty}^{op}$ for the [[opposite (∞,1)-category]] of the [[(∞,1)-category of modules]] over $A$.
 
 Write 
+
 
 * $\flat_{\mathfrak{a}}\colon A Mod_\infty^{op} \to A Mod_{\infty}^{op}$ for the [[derived functor]] of [[formal completion]] (adic completion) of modules at $\mathfrak{a}$; 
 
