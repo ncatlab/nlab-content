@@ -1,42 +1,53 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
 # Contents #
 * table of contents 
 {: toc}
 
 ## Idea 
 
-Peano arithmetic refers to a [[theory]] which formalizes arithmetic operations on the [[natural numbers]] $\mathbb{N}$ and their properties. There is a [[first-order theory|first-order]] Peano arithmetic and a second-order Peano arithmetic, and one may speak of Peano arithmetic in higher-order type theory. 
+Peano arithmetic refers to a [[theory]] which formalizes [[arithmetic]] operations on the [[natural numbers]] $\mathbb{N}$ and their properties. There is a [[first-order theory|first-order]] Peano arithmetic and a [[second-order logic|second-order]] Peano arithmetic, and one may speak of Peano arithmetic in higher-order type theory. 
 
-As first-order logic has certain syntactic and model-theoretic advantages over second-order logic, and has been much further developed, the default notion of Peano arithmetic is usually taken to be the first-order one. However, we will describe both the first- and second-order notions. Note that Peano's original treatment was second-order.
+As first-order logic has certain [[syntax|syntactic]] and [[model theory|model-theoretic]] advantages over second-order logic, and has been much further developed, the default notion of Peano arithmetic is usually taken to be the first-order one. However, we will describe both the first- and second-order notions. Note that Peano's original treatment was second-order.
 
 ## Second-order Peano arithmetic 
 
-Against a fixed background of "sets" (which we consider categorically, e.g., a model of [[ETCS]], or even just any [[topos]]), Peano arithmetic is formalized by stipulating a set $N$ with an element $0: 1 \to N$ and an unary function $s: N \to N$, subject to the following axioms: 
+Against a fixed background of "[[sets]]" (which we consider [[category theory|categorically]], e.g., a model of [[ETCS]], or even just any [[topos]]), Peano arithmetic is formalized by stipulating a set $N$ with an element $0: 1 \to N$ and an unary [[function]] $s: N \to N$, subject to the following [[axioms]]: 
 
 * $\forall_x \neg s(x) = 0$; 
 
 * $\forall_{x, y} s(x) = s(y) \Rightarrow x = y$; 
 
-* (Second-order induction) $\forall_{I \subseteq N} [0 \in I \wedge (\forall_x x \in I \Rightarrow s(x) \in I] \Rightarrow I = N$. 
+* (Second-order [[induction]]) $\forall_{I \subseteq N} [0 \in I \wedge (\forall_x x \in I \Rightarrow s(x) \in I] \Rightarrow I = N$. 
 
-Regarding $N$ as an [[algebra of an endofunctor]] $F(X) = 1 + X$, the first two axioms say that the structure map $(0, s): 1 + N \to N$ is monic, and the induction axiom says that the only $F$-subalgebra of $N$ is $N$ itself. (In particular, $(0, s): F N \to N$ is tautologically an $F$-algebra map where $F N$ is given the $F$-algebra structure $F(0, s): F F N \to F N$. Being monic, the subalgebra $(0, s): F N \to N$ is an isomorphism, by induction.) 
+Regarding $N$ as an [[algebra of an endofunctor]] $F(X) = 1 + X$, the first two axioms say that the structure map $(0, s): 1 + N \to N$ is [[monomorphism|monic]], and the [[induction]] axiom says that the only $F$-subalgebra of $N$ is $N$ itself. (In particular, $(0, s): F N \to N$ is tautologically an $F$-[[algebra of an endofunctor|algebra]] map where $F N$ is given the $F$-algebra structure $F(0, s): F F N \to F N$. Being [[monomorphism|monic]], the subalgebra $(0, s): F N \to N$ is an [[isomorphism]], by induction.) 
 
 It may be shown that these properties determine $N$ up to isomorphism (one says second-order Peano arithmetic is 'categorical', but this is not at all related to the notion of [[category]]), and moreover: 
 
 +-- {: .num_prop} 
 ###### Proposition 
-In a topos, an object which satisfies the Peano axioms is a [[natural numbers object]] (and natural numbers objects satisfy the Peano axioms). 
+In a [[topos]], an object which satisfies the Peano axioms is a [[natural numbers object]] (and natural numbers objects satisfy the Peano axioms). 
 =-- 
 
-This is a special case of a much more general result which is part of the general theory of recursion and [[well-founded coalgebras]]: 
+This is a special case of a much more general result which is part of the general theory of [[recursion]] and [[well-founded coalgebras]]: 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-If $\mathbf{E}$ is a topos and $F: \mathbf{E} \to \mathbf{E}$ is a [[taut functor]], then any $F$-algebra $X$ whose structure map $\xi: F X \to X$ is monic and for which the only $F$-subalgebra of $X$ is $X$ itself is an initial $F$-algebra. 
+If $\mathbf{E}$ is a topos and $F: \mathbf{E} \to \mathbf{E}$ is a [[taut functor]], then any $F$-[[algebra of an endofunctor|algebra]] $X$ whose structure map $\xi: F X \to X$ is [[monomorphism|monic]] and for which the only $F$-subalgebra of $X$ is $X$ itself is an [[initial object|initial]] $F$-algebra. 
 =-- 
 
 ## First-order Peano arithmetic 
 
-Here we cannot quantify over subsets, as in the second-order induction scheme, and the initial algebra techniques that can be used to manufacture addition and multiplication do not apply. Instead, addition and multiplication need to be built into the [[signature]]. Induction becomes an induction scheme over formulas in the language generated by the signature. 
+Here we cannot [[quantifier|quantify]] over [[subsets]], as in the second-order induction scheme, and the initial algebra techniques that can be used to manufacture addition and multiplication do not apply. Instead, addition and multiplication need to be built into the [[signature]]. Induction becomes an induction scheme over formulas in the language generated by the signature. 
 
 Thus, the signature of first-order Peano arithmetic consists of a constant $0$, an unary function symbol $s$, and binary function symbols $+, \cdot$. The Peano axioms are 
 
