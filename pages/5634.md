@@ -25,6 +25,8 @@ What is known in the literature as _discrete torsion_ are phenomena of [[equivar
 
 ## References
 
+The identification of "discrete torsion" in [[type II string theory]] as a choice of [[orbifold]] equivariance on a [[principal 2-bundle]]/[[bundle gerbe]] is due to
+
 * [[Eric Sharpe]], 
 
   _Discrete Torsion and Gerbes I_ ([arXiv:hep-th/9909108](http://arxiv.org/abs/hep-th/9909108))
@@ -33,3 +35,14 @@ What is known in the literature as _discrete torsion_ are phenomena of [[equivar
 
   _Discrete Torsion, Quotient Stacks, and String Orbifolds_ ([arXiv:math/0110156](http://arxiv.org/abs/math/0110156))
 
+Generalization to [[heterotic string theory]] is discussed in
+
+* [[Eric Sharpe]]  _Discrete Torsion in Perturbative Heterotic String Theory_, Phys.Rev. D68 (2003) 126005 ([arXiv:hep-th/0008184](https://arxiv.org/abs/hep-th/0008184))
+
+and the analog for the [[C-field]] [[2-gerbe]] in [[M-theory]] in 
+
+* [[Eric Sharpe]], _Analogues of Discrete Torsion for the M-Theory Three-Form_, Phys.Rev. D68 (2003) 126004 ([arXiv:hep-th/0008170](https://arxiv.org/abs/hep-th/0008170))
+
+See also
+
+* [[Cumrun Vafa]], [[Edward Witten]], _On Orbifolds with Discrete Torsion_, J.Geom.Phys.15:189-214,1995 ([arXiv:hep-th/9409188](https://arxiv.org/abs/hep-th/9409188))
