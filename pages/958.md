@@ -54,7 +54,7 @@ $$
 
 =--
 
-Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAndColimits)) this is just the [[coproduct]] in the [[undercategory]] $\mathcal{C}^{\ats/}$ of [[pointed objects]].
+Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAndColimits)) this is just the [[coproduct]] in the [[undercategory]] $\mathcal{C}^{\ast/}$ of [[pointed objects]].
 
 
 ## Examples
