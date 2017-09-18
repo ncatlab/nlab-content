@@ -234,7 +234,7 @@ Second Series, Vol. 87, No. 1 (Jan., 1968), pp. 56-88 ([JSTOR](http://www.jstor.
 
 ### General
 
-* {#Hatcher12} [[Alan Hatcher]], _A 50-Year View of DiffeomorphismGroups_, talk at the 50th Cornell Topology Festival in May 2012 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
+* {#Hatcher12} [[Alan Hatcher]], _A 50-Year View of Diffeomorphism Groups_, talk at the 50th Cornell Topology Festival in May 2012 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf), [[HatcherDiffeomorphismReview.pdf:file]])
 
 
 
