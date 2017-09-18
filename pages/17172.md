@@ -24,13 +24,17 @@ thus refilling the drilled portion, but in a new way (along $\phi$). This gives 
 
 Some further notes: the surgery can be done one solid torus at a time. A homeomorphism on a boundary torus $S^1 \times S^1$ sends a meridian $S_1 \times \{1\}$ to some simple closed curve that is homotopic to a curve of rational slope $p/q$ (the curve which is the image of the line $y = (p/q)x$ in $\mathbb{R}^2$ under the quotient map $\mathbb{R}^2 \to \mathbb{R}^2/\mathbb{Z}^2 \cong S^1 \times S^1$). It turns out that the result of the surgery depends, up to homeomorphism, only on the quantity $p/q$, called a *surgery coefficient*. If all the surgery coefficients are integers, we speak of an *integral surgery*. 
 
+Put a bit different: given a [[framed link]] in an oriented 3-manifold like $S^3$, an integral surgery drills out a solid torus, [[Dehn twist|twists]] it an integral number of times according to the framing, and then reattaches it. 
+
 ## Results 
 
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Lickorish-Wallace)** 
-Every [[connected space|connected]] [[orientation|oriented]] [[closed manifold|closed]] 3-manifold $N$ arises by performing a Dehn surgery along a link $L \hookrightarrow S^3$. 
+Every [[connected space|connected]] [[orientation|oriented]] [[closed manifold|closed]] 3-manifold $N$ arises by performing an integral Dehn surgery along a link $L \hookrightarrow S^3$ (i.e., surgery along a framed link). 
 =-- 
+
+
 
 
 ## References 
