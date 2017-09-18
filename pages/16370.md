@@ -1,0 +1,12 @@
+## Definition
+
+Let $U$ be a [[subterminal object]] of a [[topos]] $E$.  Then $c_U(V) \coloneqq U\cup V$ defines a [[Lawvere-Tierney topology]] on $E$, whose corresponding [[subtopos]] is called the **closed subtopos** associated to $U$.
+
+The reflector into the sheaves can be constructed explicitly as the [[join]] with $U$, i.e. $C_U(X)$ is the [[pushout]] of $X$ and $U$ under $X\times U$.
+
+## Related pages
+
+* [[(dense,closed)-factorization]]
+* [[open subtopos]]
+
+[[!redirects closed subtoposes]]
