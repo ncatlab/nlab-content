@@ -1,0 +1,3 @@
+Given a positive integer $n$, the __complex $n$-dimensional space__ $\mathbb{C}^n$ is the set of $n$-tuples of complex numbers considered as a $n$-dimensional topological vector over the field of complex numbers $\mathbb{C}$ (such a Hausdorff topology is unique). For a continuous map from a complex $n$-dimensional space to a complex $m$-dimensional space this structure is enough to define complex [[differentiability]] of a map, hence the complex analytic structure is induced.
+
+[[!redirects Complex n-dimensional space]]
