@@ -725,6 +725,11 @@ Discussion of this in [[stable homotopy theory]] and the full generality of [[hi
 
 * {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
 
+This and further generalization is in
+
+* Tobias Barthel, Drew Heard, _Local duality in algebra and topology_ ([arXiv:1511.03526](http://arxiv.org/abs/1511.03526))
+
+
 [[!redirects fracture theorems]]
 
 [[!redirects arithmetic square]]
