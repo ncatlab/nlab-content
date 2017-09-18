@@ -8102,7 +8102,7 @@ $$
 $$
 
 
-+-- {: .num_example}
++-- {: .num_example #Commutative1DimFormalGroupLaw}
 ###### Example
 
 A 1-dimensional commutative formal group law according to def. \ref{GroupObjectFormalGroupLaw} is equivalently a [[formal power series]]
@@ -8191,6 +8191,123 @@ $$
 Hence 1-dimensional formal group laws over $R$ are equivalently [[monoids]] in $Adic R CAlg^{op}$ on $R[ [ x ] ]$.
 
 =--
+
+##### Formal group laws from complex orientation
+
+Let again $B U(1)$ be the [[classifying space]] for [[complex line bundles]], modeled, in particular, by infinite [[complex projective space]] $\mathbb{C}P^\infty)$.
+
+
++-- {: .num_lemma #BU1HomotopyGroupStructure}
+###### Lemma
+
+There is a [[continuous function]]
+
+$$
+  \mu
+    \;\colon\;
+  \mathbb{C}P^\infty \times \mathbb{C}P
+    \longrightarrow
+  \mathbb{C}P^\infty
+$$
+
+which represents the [[tensor product of line bundles]] in that under the defining equivalence, and for $X$ any [[paracompact topological space]], then
+
+$$
+  \array{
+     [X, \mathbb{C}P^\infty \times \mathbb{C}P^\infty]
+     &\simeq&
+     \mathbb{C}LineBund(X)_{/\sim} \times \mathbb{C}LineBund(X)_{/\sim}
+     \\
+     {}^{\mathllap{[X,\mu]}}\downarrow
+       &&
+     \downarrow^{\mathrlap{\otimes}}
+     \\
+     [X,\mathbb{C}P^\infty]
+       &\simeq&
+     \mathbb{C}LineBund(X)_{/\sim}
+  }
+  \,,
+$$
+
+where $[-,-]$ denotes the [[hom-sets]] in the (Serre-Quillen-)[[classical homotopy category]] and $\mathbb{C}LineBund(X)_{/\sim}$ denotes the set of [[isomorphism classes]] of [[complex line bundles]] on $X$.
+
+Together with the canonical point inclusion $\ast \to \mathbb{C}P^\infty$, this makes $\mathbb{C}P^\infty$ an [[abelian group|abelian]] [[group object]] in the [[classical homotopy category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[Yoneda lemma]] (the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) there exists such a morphism $\mathbb{C}P^\infty \times \mathbb{C}P^\infty \longrightarrow \mathbb{C}P^\infty$ in the [[classical homotopy category]]. But since $\mathbb{C}P^\infty$ admits the structure of a [[CW-complex]] (prop. \ref{CellComplexStructureOnComplexProjectiveSpace})) it is cofibrant in the [[standard model structure on topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)), as is its [[Cartesian product]] with itself ([prop.](CW+complex#ClosureOfCWComplexesUnderCartesianProduct)). Since moreover all spaces are fibrant in the [[classical model structure on topological spaces]], it follows (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)) that there is an actual [[continuous function]] representing that morphism in the homotopy category.
+
+That this gives the structure of an [[abelian group|abelian]] [[group object]] now follows via the [[Yoneda lemma]] from the fact that each $\mathbb{C}LineBund(X)_{/\sim}$ has the structure of an [[abelian group]] under [[tensor product of line bundles]], with the [[trivial bundle|trivial]] line bundle (wich is classified by maps factoring through $\ast \to \mathbb{C}P^\infty$) being the neutral element, and that this group structure is [[natural transformation|natural]] in $X$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The space $B U(1) \simeq \mathbb{C}P^\infty$ has in fact more structure than that of a homotopy group from lemma \ref{BU1HomotopyGroupStructure}. As an object of the [[homotopy theory]] represented by the [[classical model structure on topological spaces]], it is a _[[2-group]]_, a [[truncated object in an (infinity,1)-category|1-truncated]] [[infinity-group]].
+
+=--
+
++-- {: .num_prop #ComplexOrientedCohomologyTheoryFormalGroupLaw}
+###### Proposition
+
+Let $(E, c_1^E)$ be a [[complex oriented cohomology theory]]. Under the identification
+
+$$
+  E^\bullet(\mathbb{C}P^\infty)
+   \simeq
+  \pi_\bullet(E)[ [ c^E_1 ] ]
+  \;\;\;\,,
+  \;\;\;
+  E^\bullet(\mathbb{C}P^\infty \times \mathbb{C}P^\infty)
+   \simeq
+  \pi_\bullet(E)[ [ c^E_1 \otimes 1 , \, 1 \otimes c^E_1 ] ]
+$$
+
+from prop. \ref{CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}, the operation 
+
+$$
+  \pi_\bullet(E)
+  [ [ c^E_1 ] ]
+    \simeq
+  E^\bullet(\mathbb{C}P^\infty)
+    \longrightarrow
+  E^\bullet( \mathbb{C}P^\infty \times \mathbb{C}P^\infty )
+    \simeq
+  \pi_\bullet(E)[ [ c_1^E \otimes 1, 1 \otimes c_1^E ] ]
+$$
+
+of pullback in $E$-cohomology along the maps from lemma \ref{BU1HomotopyGroupStructure} constitutes a 1-dimensional
+graded-commutative [[formal group law]] (example \ref{Commutative1DimFormalGroupLaw})over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)). If we consider $c_1^E$ to be in degree 2, then this formal group law is compatibly graded.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The associativity and commutativity conditions follow directly from the respective properties of the map $\mu$ in lemma \ref{BU1HomotopyGroupStructure}. The grading follows from the nature of the identifications in prop. \ref{CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+That the grading of $c_1^E$ in prop. \ref{ComplexOrientedCohomologyTheoryFormalGroupLaw} is in negative degree is because by definition
+
+$$
+  \pi_\bullet(E) = E_\bullet = E^{-\bullet}
+$$
+
+([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)).
+
+Under different choices of orientation, one obtains different but isomorphic formal group laws. 
+
+
+=--
+
 
 
 
