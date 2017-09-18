@@ -1458,7 +1458,7 @@ $$
 
 Often it is useful to reformulate def. \ref{ClosedSubset} of [[closed subsets]] as follows:
 
-+-- {: .num_lemma}
++-- {: .num_lemma #UnionOfOpensGivesClosure}
 ###### Lemma
 
 Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] of its underlying
@@ -3413,7 +3413,7 @@ Incidentally, also the [[topological closure]] of $\{0\}$  (def. \ref{ClosedSubs
 **([[line with two origins]])**
 
 Consider the [[disjoint union space]] $\mathbb{R} \sqcup \mathbb{R}$ (example \ref{DisjointUnionOfTopologicalSpaces}) of two copies of the [[real line]] $\mathbb{R}$ regarded as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}), which is equivalently the [[product topological space]] (example \ref{BinaryProductTopologicalSpace})
-of $\mathbb{R}$ with the [[discrete topological space]] on the 2-element set (example \ref{CoDiscreteTopology}): 
+of $\mathbb{R}$ with the [[discrete topological space]] on the 2-element set (example \ref{CoDiscreteTopology}):
 
 $$
   \mathbb{R} \sqcup \mathbb{R} \;\simeq\; \mathbb{R} \times Disc(\{0,1\})
@@ -3511,15 +3511,15 @@ $$
   \mathbb{R}/\sim
 $$
 
-is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}), 
+is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}),
 hence its topology does not distinguish any distinct proper subsets.
 
 =--
 
-In many applications one wants to exclude at least some such exotic examples 
-of topologial spaces from the discussion and instead concentrate on those examples for which 
+In many applications one wants to exclude at least some such exotic examples
+of topologial spaces from the discussion and instead concentrate on those examples for which
 the topology recognizes the separation of distinct points, or of more general
-disjoint subsets. 
+disjoint subsets.
 The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _[[separation axioms]]_
 which we discuss in the following.
 
@@ -3548,7 +3548,7 @@ All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}
 ### $T_n$ spaces
  {#TnTopologicalSpaces}
 
-There are many variants of separation axims. The classical ones are labeled $T_n$ 
+There are many variants of separation axims. The classical ones are labeled $T_n$
 (for German "Trennungsaxiom"). These we now introduce in def. \ref{HausdorffTopologicalSpace} and def. \ref{NormalSpace}:
 
 +-- {: .num_defn #HausdorffTopologicalSpace}
@@ -3591,11 +3591,11 @@ $$
 For definiteness, we re-state these conditions formally. Write $x,y \in X$ for points in $X$, write $U_x, U_y \in \tau$ for open [[neighbourhoods]] of these points. Then:
 
 * **(T0**) $\underset{x \neq y}{\forall} \left(
-    \left( \underset{U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \right) \right) 
-      \,\text{or}\, 
+    \left( \underset{U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \right) \right)
+      \,\text{or}\,
     \left( \underset{U_x}{\exists} \left( U_x \cap \{y\} = \emptyset  \right) \right) \right)$
 
-* **((T1)** $\underset{x \neq y}{\forall} \left(\underset{U_x,U_y}{\exists} \left(\left( \{x\} \cap U_y = \emptyset\right) 
+* **((T1)** $\underset{x \neq y}{\forall} \left(\underset{U_x,U_y}{\exists} \left(\left( \{x\} \cap U_y = \emptyset\right)
   \, \text{and} \, \left( U_x \cap \{y\}  = \emptyset \right)\right) \right)$
 
 * **(T2)** $\underset{x \neq y}{\forall} \left( \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right) \right)$
@@ -3604,7 +3604,7 @@ For definiteness, we re-state these conditions formally. Write $x,y \in X$ for p
 
 
 
-+-- {: .num_example}
++-- {: .num_example #TnCounter}
 ###### Example
 
 Examples of topological spaces that are _not_ [[Hausdorff topological spaces|Hausdorff]] (def. \ref{HausdorffTopologicalSpace})
@@ -3614,17 +3614,8 @@ include
 
 1. the [[line with two origins]] (example \ref{LineWithTwoOrigins}),
 
-1. the [[quotient topological space]] $\mathbb{R}/\mathbb{R}$ (example \ref{RQuotientedByQ}.) 
+1. the [[quotient topological space]] $\mathbb{R}/\mathbb{R}$ (example \ref{RQuotientedByQ}).
 
-
-=--
-
-+-- {: .num_example #HausdorffMetricSpace}
-###### Example
-**(metric spaces are Hausdorff)**
-
-Every [[metric space]] (def \ref{MetricSpace}), regarded as a [[topological space]] via its [[metric topology]] (example \ref{MetricTopology})
-is a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}).
 
 =--
 
@@ -3641,12 +3632,23 @@ the following are equivalent:
 
 =--
 
++-- {: .num_example #HausdorffMetricSpace}
+###### Example
+**(metric spaces are Hausdorff)**
+
+Every [[metric space]] (def \ref{MetricSpace}), regarded as a [[topological space]] via its [[metric topology]] (example \ref{MetricTopology})
+is a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}).
+
+=--
+
+
+
 +-- {: .num_example #TiSubspaces}
 ###### Example
 **(subspace of $T_n$-space is $T_n$)**
 
-Let $(X,\tau)$ be a [[topological space]] satisfying the $T_i$ [[separation axiom]] according to
-def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] $S \subset X$ (example \ref{SubspaceTopology}) satisfies $T_i$.
+Let $(X,\tau)$ be a [[topological space]] satisfying the $T_n$ [[separation axiom]] for some $n \in \{0,1,2\}$ according to
+def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] $S \subset X$ (example \ref{SubspaceTopology}) satisfies $T_n$.
 
 =--
 
@@ -3665,12 +3667,12 @@ The conditions $T_0$, $T_1$ and $T_2$ have the following equivalent formulation 
 **($T_0$ in terms of topological closures)**
 
 A [[topological space]] $(X,\tau)$ is $T_0$ (def. \ref{HausdorffTopologicalSpace})
-precisely if the function $Cl(\{-\})$
+precisely if the function $Cl(\{-\})$ that forms [[topolgical closures]] (def. \ref{ClosedSubset}) of [[singleton]] [[subsets]]
 from the underlying set of $X$ to the set of [[irreducible closed subsets]] of $X$ (def. \ref{ClosedIrreducible},
 which is well defined according to example \ref{IrreducibleClosureOfPoint}), is [[injective function|injective]]:
 
 $$
-  Cl(\{-\}) \;\colon\; X \hookrightarrow IrrClSub(X)
+  Cl(\{-\}) \;\colon\; X \overset{\phantom{AAA}}{\hookrightarrow} IrrClSub(X)
 $$
 
 
@@ -3679,9 +3681,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Assume first that $X$ is $T_0$. Then we need to show that if $x,y \in X$ are such that
-$Cl(\{x\}) = Cl(\{y\})$ then $x = y$. Hence assume that $Cl(\{x\}) = Cl(\{y\})$.
-Since the closure of a point is the [[complements]] of the union of the open subsets not containing the point,
+In one direction, assume that $X$ is $T_0$. and consider $x,y \in X$ such that
+$Cl(\{x\}) = Cl(\{y\})$. We need to show that $x = y$.
+
+Since the closure of a point is the [[complement]] of the union of the open subsets not containing the point
+(lemma \ref{UnionOfOpensGivesClosure}),
 this means that the union of open subsets that do not contain $x$
 is the same as the union of open subsets that do not contain $y$. Hence every
 open subset that does not contain $x$ also does not contain $y$, and vice versa.
@@ -3689,9 +3693,9 @@ By $T_0$ this is not the case when $x \neq y$, hence it follows that $x = y$.
 
 Conversely, assume that if $x,y \in X$ are such that $Cl\{x\} = Cl\{y\}$ then $x = y$.
 We need to show that if $x \neq y$ then there exists an open neighbourhood around one of the
-two points not containing the other. Hence assume that $x \neq y$.
+two points not containing the other. Hence consider  $x \neq y \in X$.
 By assumption it follows that $Cl(\{x\} \neq Cl(\{y\})$.
-Since the closure of a point is the [[complements]] of the union of the open subsets not containing the point, this
+Since, as before, the closure of a point is the [[complement]] of the union of the open subsets not containing the point, this
 means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
 By definition this means that $(X,\tau)$ is $T_0$.
 
@@ -3717,7 +3721,7 @@ if every point $y \neq x$ is member of at least one open subset not containing $
 
 Conversely, assume that for all $x \in X$ then $Cl(\{x\}) = \{x\}$. Then for $x \neq y \in X$ two
 distinct points we need to produce an open subset of $y$ that does not contain $x$. But as before,
-since $Cl(\{x\})$ is the complement of the union of all open subsets that do not contain $x$, and
+since $Cl(\{x\})$ is the complement of the union of all open subsets that do not contain $x$, 
 the assumption $Cl\{x\} = \{x\}$ means that $y$ is member of one of these open subsets that do not
 contain $x$.
 
@@ -3739,7 +3743,7 @@ precisely if the [[diagonal]] function $\Delta_X \colon (X, \tau_X) \longrightar
 If $(X,\tau_X)$ is Hausdorff, then by definition for every pair of distinct points $x \neq y \in X$ there exists open neighbourhoods
 $U_x, U_y \in \tau_X$ such that $U_x \cap U_y = \emptyset$. In terms of the [[product topology]] (example \ref{BinaryProductTopologicalSpace})
 this means that every point $(x,y) \in X \times X$ which is not on the diagonal has an open neighbourhood $U_x \times U_y$ which
-still does not contain the diagonal. By definition, this means that in fact every [[subset]] of the diagonal is a
+still does not contain the diagonal. By definition this means that in fact every [[subset]] of the diagonal is a
 [[closed subset]] of $X \times X$, hence in particular those that are in the image under $\Delta_X$ of closed subsets of $X$.
 Hence $\Delta_X$ is a closed map.
 
@@ -3764,10 +3768,10 @@ Let $(X,\tau)$ be [[topological space]] (def. \ref{HausdorffTopologicalSpace}).
 
 Consider the following conditions
 
-* **(T3)** $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$,
+* **(T3)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$,
   then there exist disjoint [[open neighbourhoods]] $U_x \supset \{x\}$ and $U_C \supset C$.
 
-* **(T4)** $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset})
+* **(T4)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset})
   then there exist disjoint [[open neighbourhoods]] $U_{C_i} \supset C_i$.
 
 If $(X,\tau)$ satisfies $T_3$ it is said to be a _$T_3$-space_ also called a _[[regular Hausdorff topological space]]_.
@@ -3842,7 +3846,7 @@ $\,$
 
 Not every [[universal construction]] of [[topological spaces]] applied to $T_n$-spaces
 results again in a $T_n$ topological space, notably [[quotient space]] constructions need not
-(example \ref{LineWithTwoOrigins} below).
+(as in example \ref{LineWithTwoOrigins}).
 
 But at least for $T_0$, $T_1$ and $T_2$  there is a  universal way, called _[[reflective subcategory|reflection]]_ (prop. \ref{HausdorffReflection} below),
 to approximate any topological space "from the left" by a $T_n$ topological spaces.
@@ -3859,7 +3863,7 @@ and then apply the $T_n$-reflection to the result.
 **($T_n$-reflection)**
 
 Let $n \in \{0,1,2\}$. Then for every [[topological space]] $X$ there exists
-a $T_n$-topological space $T_n X$ for  and a [[continuous function]]
+a $T_n$-topological space $T_n X$ and a [[continuous function]]
 
 $$
   t_n(X)
@@ -3886,16 +3890,19 @@ $$
   f = \tilde f \circ t_n(X)
   \;\colon\;
     X
-      \overset{h_X}{\longrightarrow}
+      \overset{ t_n(X)}{\longrightarrow}
     T_n X
       \overset{\tilde f}{\longrightarrow}
     Y
   \,.
 $$
 
-Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ may be called the _$T_n$-reflection_ of $X$.
-For $n = 0$ this is known as the _[[Kolmogorov quotient]]_ construction (see prop. \ref{KolmogorovQuotient} below). For $n = 2$
-it is known as _[[Hausdorff reflection]]_ or _Hausdorffication_ or similar.
+Here $X \overset{t_n(X)}{\longrightarrow} T_n(X)$ is called the _$T_n$-reflection_ of $X$.
+
+* For $n = 0$ this is known as the _[[Kolmogorov quotient]]_ construction (see prop. \ref{KolmogorovQuotient} below). 
+
+* For $n = 2$
+this is known as _[[Hausdorff reflection]]_ or _Hausdorffication_ or similar.
 
 
 
@@ -3918,7 +3925,7 @@ $$
   \,
 $$
 
-Finally, the comparison map is compatible with this in that the follows [[commuting squares|squares commute]]:
+Finally, the comparison map is compatible with this in that the following [[commuting squares|squares commute]]:
 
 $$
   \array{
@@ -4008,15 +4015,16 @@ It follows by definition of $t_n(X)$ that the factorization exists at the level 
 since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then
 by definition they have the same image under all continuous surjective functions to a $T_n$-space, hence in particular
 under $X \to f(X)$. This means that $\tilde f$ as above is well defined.
+Moreover, by the nature of the quotient topology, $\tilde f$ is continuous.
 
 What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space.
-Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to open neighbourhoods
+Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to produce open neighbourhoods
 around one or both of these point not containing the other point and possibly disjoint to each other.
 
-Now by definition of $T_n X$ this means that there exists a $T_n$-topological space $Y$ and a surjective continuous function
+Now by definition of $T_n X$ the assumption $[x] \neq [y]$ means that there exists a $T_n$-topological space $Y$ and a surjective continuous function
 $f \colon X \longrightarrow Y$ such that $f(x) \neq f(y) \in Y$. Accordingly, since $Y$ is $T_n$,
 there exist the respective kinds of neighbourhoods around these image points in $Y$. Moreover, by the previous statement there
-exists a continuous function $\tilde f \colon T_n X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
+exists the continuous function $\tilde f \colon T_n X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
 By the nature of continuous functions,
 the pre-images of these open neighbourhoods in $Y$ are still open in $X$ and still
 satisfy the required disjunction properties. Therefore $T_n X$ is a $T_n$-space.
