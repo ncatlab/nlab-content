@@ -687,6 +687,7 @@ In the application to Hopf algebroids induced from [[commutative ring spectra]] 
 
 ### Ext-groups 
 
+
 +-- {: .num_lemma #CoModuleExtFromAToAForPrimitivelyGeneratedExteriorAlgebra}
 ###### Lemma
 
