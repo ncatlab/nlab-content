@@ -22,7 +22,7 @@
 
 ## Idea
 
-The _nonabelian Stokes theorem_ is a generalization of the [[Stokes theorem]] for [[Lie algebra valued differential 1-forms]] and with [[integration of differential forms]] refined to [[parallel transport]].
+The _nonabelian Stokes theorem_ (e.g. [Schreiber-Waldorf 11, theorem 3.4](#SchreiberWaldorf11)) is a generalization of the [[Stokes theorem]] to [[Lie algebra valued differential 1-forms]] and with [[integration of differential forms]] refined to [[parallel transport]].
 
 ## Statement
 
@@ -43,8 +43,8 @@ For $F_A = 0$ the nonabelian Stokes theorem may be regarded as proving that the 
 
 ## References
 
-For instance in 
+For instance theorem 3.4 in 
 
-* [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors vs. Differential Forms_ ([arXiv:0802.0663](http://arxiv.org/abs/0802.0663))
+* {#SchreiberWaldorf11} [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors vs. Differential Forms_, Homology, Homotopy Appl., 13(1), 143-203 (2011) ([arXiv:0802.0663](http://arxiv.org/abs/0802.0663))
 
 
