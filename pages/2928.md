@@ -24,7 +24,11 @@ defined by $false = inl$ and $xor = [id,not]$ (here we make use of the isomorphi
 $$
 X \mapsto 2 \otimes X \cong X + X
 $$
-thus extends to a [[monad]] on $C$, sending any object $X$ to the free object equipped with an involution over $X$. Explicitly, the unit $\eta_X : X \to 2\otimes X$ and the multiplication $\mu_X : 2\otimes 2\otimes X \to 2\otimes X$ of the monad are defined by tensoring the unit and the multiplication of the monoid with the identity on $X$, while the involution on $2 \otimes X$ is likewise defined by tensoring the involution on 2 with the identity on $X$. We then have that involutions in $C$ are precisely the [[module over a monad|algebras]] of the monad $(2\otimes-,false\otimes-,xor\otimes-)$.
+thus extends to a [[monad]] on $C$, sending any object $X$ to the free object equipped with an involution over $X$. Explicitly, the unit $\eta_X : X \to 2\otimes X$ and the multiplication $\mu_X : 2\otimes 2\otimes X \to 2\otimes X$ of the monad are defined by tensoring the unit and the multiplication of the monoid with the identity on $X$, while the involution on $2 \otimes X$ is likewise defined by tensoring the involution on 2 with the identity on $X$.
+
+We then have that involutions in $C$ are precisely the [[module over a monad|algebras]] of the monad $(2\otimes-,false\otimes-,xor\otimes-)$. In the forward direction, given an involution $f : X \to X$, we define a monad algebra structure $\alpha : 2\otimes X \to X$ on $X$ by $\alpha = [id,f]$ (again using the isomorphism $2\otimes X \cong X+X$). Conversely, given a monad algebra $\alpha : 2\otimes X \to X$, we can define an endomorphism $f : X \to X$ by $f = \alpha \circ inr$. The monad algebra laws imply that
+$$\alpha \circ inr \circ \alpha \circ inr = \alpha \circ (2\otimes \alpha) \circ (2\otimes inr) \circ inr = \alpha \circ (xor\otimes id) \circ (2\otimes inr) \circ inr$$
+and since $xor$ is defined such that $(xor\otimes id) \circ (2\otimes inr) \circ inr = id$, we derive that $\alpha \circ inr$ is an involution.
 
 ## Properties
 
