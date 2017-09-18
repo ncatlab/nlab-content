@@ -53,6 +53,22 @@ Stated in this form, it's easy to see that the [[theory of algebraically closed 
 
 * Finally, one may expand the model $M$ a larger model $M'$. The elements of automorphism group of the larger model will move the "points" around and a type will become an orbit for the larger model $M'$. This point of view is used especially for the generalization, so called [[Galois type]]s.
 
+## Omitting types theorem
+
+We start with some definitions:
+
+* A theory $T$ _locally realizes_ a type $\Sigma$ if there is a formula $\varphi$ in the context of $\Sigma$ such that $\varphi$ is consistent with $T$ and for all $\sigma \in \Sigma$, $T \vDash \varphi \to \sigma$.
+
+* $T$ _locally omits_ $\Sigma$ if and only if $T$ does not locally realize $\Sigma$.
+
+Note that for a complete theory $T$, if $T$ has any model that omits $\Sigma$, then $T$ locally omits $\Sigma$. The omitting types theorem is a converse for any consistent theory in a countable language:
+
++-- {: .num_example #OmittingTypes}
+###### Theorem 
+**(Omitting Types Theorem)**
+Let $T$ by a consistent theory in a countable language, and let $\Sigma$ be a type. If $T$ locally omits $\Sigma$, then $T$ has a countable model that omits $\Sigma$.
+=--
+
 ## Relation to measures
 
 ## Related concepts
@@ -70,3 +86,4 @@ Stated in this form, it's easy to see that the [[theory of algebraically closed 
 
 
 [[!redirects type in model theory]]
+[[!redirects omitting types theorem]]
