@@ -1,0 +1,4 @@
+
+* [webpage](http://faculty.tcu.edu/gfriedman/)
+
+category: people
