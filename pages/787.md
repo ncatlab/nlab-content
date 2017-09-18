@@ -320,6 +320,10 @@ The relation to [[schreiber:∞-Chern-Simons theory]] is discussed in
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models]]_
 
+See also
+
+* Xu Xiaomeng, _Twisted Courant algebroids and coisotropic Cartan geometries_ ([arXiv:1206.2282](http://arxiv.org/abs/1206.2282))
+
 [[!redirects Courant Lie algebroid]]
 [[!redirects Courant Lie algebroids]]
 
