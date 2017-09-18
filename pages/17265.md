@@ -473,7 +473,7 @@ $$
     \underset{i}{\coprod} S^{n_i - 1} &\longrightarrow& X_{k-1}
     \\
     {}^{\mathllap{\underset{i}{\coprod}\iota_{n_i}}}\downarrow 
-     &(pb)& \downarrow  
+     &(po)& \downarrow  
     \\
     \underset{i}{\coprod} D^{n_i} &\longrightarrow& X_{k}
   }
