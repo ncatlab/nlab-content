@@ -147,7 +147,7 @@ Moreover,
 
 Introductions and surveys include
 
-* Alex Writght, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://www.math.uchicago.edu/~amwright/HomotopyGroupsOfSoheres.pdf))
+* Alex Writght, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://web.stanford.edu/~amwright/HomotopyGroupsOfSoheres.pdf))
 
 * [[Alan Hatcher]], _Stable homotopy groups of spheres_ ([html](http://www.math.cornell.edu/~hatcher/stemfigs/stems.html))
  {#Hatcher}
