@@ -66,9 +66,7 @@ For $k$ an [[algebraically closed field]] of [[characteristic zero]], then a _$k
 
 1. [[rigid monoidal category|rigid]] 
 
-1. [[symmetric monoidal category|symmetric]] 
-
-1. [[braided monoidal category|braided]]
+1. [[symmetric monoidal category|symmetric]] [[braided monoidal category|braided]]
 
 1. [[monoidal category]] 
 
@@ -148,7 +146,7 @@ Such $E$ is called an _$\otimes$-generator_ for $\mathcal{A}$.
 ([Deligne 02, 0.1](#Deligne02))
 
 
-The following is the main size constraint needed in the theorem. Notice that it is a "mild" constraint at least in the intuitive sense that it states just a minimum assumption on the expected behaviour of dimension ([[lengh of an object|lengh]]) under tensor powers.
+The following is the main size constraint needed in the theorem. Notice that it is a "mild" constraint at least in the intuitive sense that it states just a minimum assumption on the expected behaviour of dimension ([[length of an object|lengh]]) under tensor powers.
 
 +-- {: .num_defn #SubexponentialGrowth}
 ###### Definition
