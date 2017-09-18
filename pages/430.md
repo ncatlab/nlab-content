@@ -33,7 +33,7 @@ A **field** is a [[commutative ring]] in which every nonzero element has a multi
 
 Fields are studied in *field theory* which is a branch of [[commutative algebra]]. 
 
-Not assuming the commutativity axiom, then the result is a [[skewfield]] (also in some contexts simply called a "field"). For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
+Not assuming the commutativity axiom, then the result is a [[skewfield]] or [[division ring]] (also in some contexts simply called a "field"). For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
 
 
 ### Constructive notions
@@ -128,6 +128,8 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 =--
 
 ## Related concepts
+
+* [[division ring]] 
 
 * [[subfield]]
 
