@@ -1,0 +1,33 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An [[alternating group]] $A_n$ is a [[subgroup]] of a [[symmetric group]] $S_n$ consisting of the _even_ [[permutations]].
+
+## Examples
+
+The alternating group $A_4$ on four elements is [[isomorphism|isomorphic]] to the orientation-preserving [[tetrahedral group]].
+
+## Related concepts
+
+* [[finite group]]
+
+## References
+
+* Wikipedia, _[Alternating group](https://en.wikipedia.org/wiki/Alternating_group)_
+
+[[!redirects alternating groups]]
