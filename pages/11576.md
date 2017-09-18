@@ -80,7 +80,10 @@ Observe then finally that since $f^\ast$ is a [[full and faithful functor|full a
 
 =--
 
+## Relation to Aufhebung of the initial opposition
+ {#RelationToAufhebung}
 
+For a cohesive 1-topos, if the pieces-to-points transform is an [[epimorphism]] then there is [[Aufhebung]] of the initial opposition $(\emptyset \dashv \ast)$ in that $\sharp \emptyset \simeq \emptyset$ ([Lawvere-Menni 15, lemma 4.1](#LawvereMenni15)). Conversely, if the [[base topos]] is a [[Boolean topos]], then this Aufhebung implies that the pieces-to-points transform is epi ([Lawvere-Menni 15, lemma 4.2](#LawvereMenni15)).
 
 ## Examples
 
@@ -114,6 +117,10 @@ In [[infinitesimal cohesion]] the points-to-pieces transform in an [[equivalence
 ## Related concepts
 
 [[!include cohesion - table]]
+
+## References
+
+* {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
 [[!redirects points-to-pieces transforms]]
 
