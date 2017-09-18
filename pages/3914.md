@@ -54,9 +54,7 @@ $$
   S^n \simeq Th(\mathbb{R}^n) \overset{Th(j_x)}{\longrightarrow} Th(V)
 $$ 
 
-(for $\mathbb{R}^n \overset{fib_x}{\hookrightarrow} V$ the [[fiber]] of $V$ over $x$)
-
-is a _generator_, in that it is of the form
+(for $\mathbb{R}^n \overset{fib_x}{\hookrightarrow} V$ the [[fiber]] of $V$ over $x$) is a _generator_, in that it is of the form
 
 $$
   i^\ast u = \epsilon \cdot \gamma_n 
@@ -113,12 +111,12 @@ $$
 +-- {: .num_defn #EOrientationOfABfStructure}
 ###### Definition
 
-Let $E$  be a [[multiplicative cohomology theory]] and let $\mathcal{B}$ be a multiplicative [[(B,f)-structure]]. Then a **universal $E$-orientation for vector bundles with $\mathcal{B}$-structure** is an $E$-orientation, according to def. \ref{EOrientationOfAVectorBundle} for each rank-$n$ universal vector bundle with $\mathcal{B}$-strcuture
+Let $E$  be a [[multiplicative cohomology theory]] and let $\mathcal{B}$ be a multiplicative [[(B,f)-structure]]. Then a **universal $E$-orientation for vector bundles with $\mathcal{B}$-structure** is an $E$-orientation, according to def. \ref{EOrientationOfAVectorBundle} for each rank-$n$ universal vector bundle with $\mathcal{B}$-structure
 
 $$
   \xi_n 
     \in 
-  \tilde E^n(Th(f_n^\ast(E O(n)\underset{O(n)}{\times} \mathbb{R}^n)))
+  \tilde E^n(Th(V_n^{\mathcal{B}}))
   \;\;\;\;
   \forall n \in \mathbb{N}
 $$
@@ -159,9 +157,84 @@ such that these are compatible in that
 1. for all $n_1, n_2 \in \mathbb{N}$ then
 
    $$
-     \xi_{n+1} \cup \xi_{n+2} = \xi_{n_1 + n_2}
+     \xi_{n+1} \cdot \xi_{n+2} = \xi_{n_1 + n_2}
      \,.
    $$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+A universal $E$-orientation, in the sense of def. \ref{EOrientationOfABfStructure} for vector bundles with [[(B,f)-structure]] $\mathcal{B}$ is equivalently a homomorphism of [[ring spectra]]
+
+$$
+  \xi \;\colon\; M\mathcal{B} \longrightarrow E
+$$
+
+from the universal $\mathcal{B}$-[[Thom spectrum]] to a spectrum which under [[Brown representability theorem]] represents the given [[generalized (Eilenberg-Steenrod) cohomology theory]] (which we denote by the same symbol).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[Thom spectrum]] $M\mathcal{B}$ has a standard structure of a [[CW-spectrum]]. Let now $E$ denote a [[sequential spectrum|sequential]] [[Omega-spectrum]] representing the multiplicative cohomology theory of the same name. Then we are looking at actual morphism of sequential spectra
+
+$$
+  \xi
+   \;\colon\;
+  M \mathcal{B}
+    \longrightarrow
+  E
+  \,.
+$$
+
+This is equivalently a sequence of base-point preserving [[continuous functions]]
+
+$$
+  \xi_n 
+    \;\colon\;
+  (M\mathcal{B})_n
+   =
+  Th(V_n^{\mathcal{B}})
+    \longrightarrow
+  E_n
+$$
+
+for $n \in \mathbb{N}$, such that they are compatible with the structure maps $\sigma_n$ and equivalently with their $(S^1 \wedge(-)\dashv Maps(S^1,-)_\ast)$-[[adjuncts]] $\tilde \sigma_n$, in that these diagrams commute:
+
+$$
+  \array{
+    S^1 \wedge Th(V^{\mathcal{B}}_n)
+     &\overset{S^1 \wedge \xi_n}{\longrightarrow}&
+    S^1 \wedge E_n
+    \\
+    {}^{\mathllap{\sigma^{M\mathcal{B}}_n}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\sigma^E_n}}
+    \\
+    Th(V^{\mathcal{B}}_{n+1})
+      &\underset{\xi_{n+1}}{\longrightarrow}&
+    E_{n+1}
+  }
+  \;\;\;\;
+  \leftrightarrow
+  \;\;\;\;
+  \array{
+     Th(V^{\mathcal{B}}_n)
+       &\overset{\xi_n}{\longrightarrow}&
+     E_n
+     \\
+     {}^{\mathllap{\tilde \sigma^{M\mathcal{B}}_n}}\downarrow 
+       && 
+     \downarrow^{\mathrlap{\tilde \sigma^E_n}}
+     \\
+     Maps(S^1,Th(V_{n+1}))
+       &\underset{Maps(S^1,\xi_{n+1})_\ast}{\longrightarrow}&
+     Maps(S^1, E_{n+1})_{\ast}
+  }
+$$
 
 =--
 
