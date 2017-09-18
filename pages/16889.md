@@ -109,6 +109,65 @@ You can also zoom the main diagram using the scroll wheel of your mouse, and scr
 
 <i>Globular</i> is written in Javascript, and performs all its computations client-side, in the browser. Most of the computations it has to perform are linear in the size of the diagram, so this is quite computationally feasible, even for large proofs. The back-end is a Node.js server that allows the saving, sharing and publishing of workspaces. Graphics are implemented in SVG. Project data is compressed using the LZ4 algorithm.
 
+## Singularities ##
+
+### Overview ###
+
+In a 2-category, a 1-morphism and a 2-morphism can be composed in one direction (horizontal composition), and two 2-morphisms can be composed in two directions (horizontal and vertical composition.) In general, in a traditional globular $n$-category, a $p$-cell and an $q$-cell can be composed in $\text{min}(p,q)$ different directions: along a common boundary 0-cell, or 1-cell, and so on, up to a common boundary $(\text{min}(p,q)-1)$-cell.
+
+In _Globular_, composition works differently: a $p$-morphism and a $q$-morphism can be composed in just _one_ way: along a common boundary $(\text{min}(p,q)-1)$-cell. The reason for this design decision is that in terms of the graphical calculus, of all the different composites that an ordinary globular $n$-category allows, this is the only composition that results in a diagram in _generic position_. Nothing is lost by this restriction, since (conjecturally) the other composites can be recovered up to isomorphism by whiskering, in just the same way that horizontal composition of 2-morphisms in a 2-category can be expressed in terms of vertical composites and whiskering of 2-morphisms by identity 1-morphisms.
+
+For every way that _Globular_ _doesn't_ let you compose morphisms---that is, for every $p,q$ and every $0 \leq n \lt \text{min}(p,q)$---there exists in _Globular_ an $(p+q-n-1)$-cell, which _resolves_ the singularity that would be created if this composite were actually formed. These singularity resolutions manifest in _Globular_ as higher-dimensional cells, which allow parts of a diagram to move around each other; using them effectively is a key part of formalizing higher-dimensional proofs.
+A significant effort in the development of _Globular_ has been writing code that allows _Globular_ to understand each of them.
+
+In this section we list the singularities which _Globular_ recognizes. We organize them by categorical dimension, because to formalize a proof in an $n$-category, you may need to make use of every type of $k$-category singularity for $k \leq n$. Also, every cell listed as an $n$-category singularity can be realized as a $k$-cell for every $k>n$. (For example: interchangers arise first for 2-categories, with the interchanger of two 2-cells being a 3-cell, but in general we can also form the interchanger of two $k$-cells, which will be a $(k+1)$-cell.)
+
+### 2-category singularities ###
+
+#### Interchangers ####
+
+**Composite:** two $k$-cells composed along a common boundary $(k-2)$-cell, forming a $(k+1)$-cell.
+
+**Renderings:**
+
+**Interface:**
+
+### 3-category singularities ###
+
+#### Naturality of the interchanger in one variable ####
+
+**Composite:** a $k$-cell and a $k+1$-cell composed along a common boundary $(k-2)$-cell, forming a $(k+2)$-cell.
+
+**Renderings:**
+
+**Interface:**
+
+### 4-category singularities ###
+
+#### Naturality of naturality of the interchanger in one variable ####
+
+**Composite:** a $k$-cell and a $(k+2)$-cell composed along a common boundary $(k-2)$-cell, forming a $(k+3)$-cell.
+
+**Renderings:**
+
+**Interface:**
+
+#### Naturality of the interchanger in two variables ####
+
+**Composite:** two $k$-cells composed along a common boundary $(k-3)$-cell, forming a $(k+2)$-cell.
+
+**Renderings:**
+
+**Interface:**
+
+#### Naturality of invertibility of the interchanger ####
+
+**Composite:** ...
+
+**Renderings:**
+
+**Interface:**
+
 ## Other features
 
 ### Invertibility ###
