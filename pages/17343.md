@@ -1628,7 +1628,7 @@ $$
     \\
     {}^{\mathllap{(id,\delta_0)}}\downarrow && \downarrow^{\mathrlap{p}}
     \\
-    \Delta^n\times I &\longrightarrow& B
+    D^n\times I &\longrightarrow& B
   }
   \,.
 $$
