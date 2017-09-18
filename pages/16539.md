@@ -38,6 +38,12 @@ Discussion in the context of [[superconformal group|superconformal symmetry]] is
 * Piet Claus, [[Renata Kallosh]], _Superisometries of the $adS\times S$ Superspace_, JHEP 9903:014,1999 ([arXiv:hep-th/9812087](http://arxiv.org/abs/hep-th/9812087))
 
 [[!redirects superisometry supergroupd]]
+
 [[!redirects superisometry]]
 [[!redirects superisometries]]
+
+[[!redirects super-isometry]]
+[[!redirects super-isometries]]
+
+
 
