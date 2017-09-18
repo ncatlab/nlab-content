@@ -401,7 +401,7 @@ The observation that the off-shell bracket has a symplectic foliation by the lev
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Pedro Ribeiro]], _Algebraic Structure of Classical Field Theory I: Kinematics and Linearized Dynamics for Real Scalar Fields_ ([arXiv:1209.2148](http://arxiv.org/abs/1209.2148))
   {#BrunettiFredenhagenRibeiro12}
 
-All this and the interpretation of the resulting symplectoc foliation as a foliation by source terms has been highlighted by
+All this and the interpretation of the resulting symplectic foliation as a foliation by source terms has been highlighted by
 
 * [[Igor Khavkine]], personal communication
   {#Khavkine13}
