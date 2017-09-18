@@ -37,7 +37,7 @@ between the [[category of models]] in the [[presheaf topos]] over $\mathcal{C}^{
 
 For instance ([Johnstone, cor. D1.2.14](#Johnstone)).
 
-Note that this continues to work for theories which involve infinitary limits as well. (The key observation is just that limits in $[\mathcal{C}, Set]$ are taken pointwise)
+Note that this continues to work for theories which involve infinitary limits as well. (The key observation is just that limits in $[\mathcal{C}, Set]$ are taken pointwise.)
 
 ## Examples
 
