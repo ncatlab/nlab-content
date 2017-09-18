@@ -92,6 +92,13 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * Description of seminar on stability conditions and Stokes factors in Bonn, [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)
 
+Also ([Gaiotto-Moore-Witten 15](#GaiottoMooreWitten15)).
+
+### Categorification
+
+A [[categorification]] of wall crossing formulas to an [[(infinity,2)-category]] of sorts is discussed in 
+
+* {#GaiottoMooreWitten15} [[Davide Gaiotto]], [[Gregory Moore]], [[Edward Witten]], _An Introduction To The Web-Based Formalism_ ([arXiv.1506.04086](http://arxiv.org/abs/1506.04086))
 
 
 [[!redirects wall crossing]]
