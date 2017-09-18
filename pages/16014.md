@@ -23,15 +23,15 @@ The idea is to consider for any [[proposition]] $p$
 
 * a proposition labeled $\lozenge p$ expressing the idea that "$p$ is possibly true".
 
-### In propositional logic
+## The S4 axioms
 
-For every [[modality]] one typically demands that it preserves implication in that
+For every [[modality]] one typically demands that it preserves implication, in that
 
 * $\Box(p \to q) \to (\Box p \to \Box q)$
 
 * $\lozenge (p \to q) \to (\lozenge p \to \lozenge q)$.
 
-This is called the [[K modal logic|K-axiom]] and in traditional non-[[categorical logic]] this is often all that is considered, because in traditional classical modal logic, the operators are considered dual, i.e. $\Box A= \neg (\lozenge (\neg A))$.
+This preservation of implication is called the [[K modal logic|K-axiom]].  In traditional non-[[categorical logic]] this is often all that is considered, because in traditional classical modal logic, the operators are considered dual, i.e. $\Box A= \neg (\lozenge (\neg A))$.
 
 A minimum requirement on a formalization of $\lozenge$ and $\Box$ with interpretation of "necessity" and "possibility" is arguably that there are [[implications]]
 
@@ -51,24 +51,25 @@ which may be read as expressing that iterating the previous reasoning does not y
 
 If one equips plain [[propositional logic]] with these additional modal operators satisfying these rules, then one speaks of _[[S4 modal logic]]_. 
 
-However, in terms of [[categorical logic]] the above axioms just say ([Bierman & de Paiva 92](#BiermanPaiva92)) that 
+### The generality of S4 
+
+In terms of [[categorical logic]], the S4 axioms just say ([Bierman & de Paiva 92](#BiermanPaiva92)) that 
 
 * $\Box$ is an ([[idempotent comonad|idempotent]]) [[comonad]];
 
 * $\lozenge$ is an ([[idempotent monad|idempotent]]) [[monad]]
 
-on the [[category]] ([[poset]]) of [[propositions]] (see at _[[monad in computer science]]_), and while the above reasoning makes plausible that any operator expressing "necessity" and "possibility" should at least satisfy these (co)monad axioms, not every (co)monad is sensibly interpreted this way.
+on the [[category]] ([[poset]]) of [[propositions]] (see at _[[monad in computer science]]_).  The above reasoning makes plausible that any operator expressing "necessity" and "possibility" should *at least* satisfy these (co)monad axioms, but not every (co)monad is sensibly interpreted this way.
 
 For example there is
 
-* the (idempotent) monad $\emptyset$ which sends every proposition to [[false]] (the [[nothing|non-being]]-modality);
+* the (idempotent) comonad $\emptyset$ which sends every proposition to [[false]] (the [[nothing|non-being]]-modality);
 
-* the (idempotent) comonad $\ast$ which sends every proposition to [[true]] (the [[being]]-modality).
+* the (idempotent) monad $\ast$ which sends every proposition to [[true]] (the [[being]]-modality).
 
-These $\emptyset \dashv \ast$ satisfy all of the above axioms (as well as more axioms that are being considered, such as those called [[S5 modal logic]]) but they clearly do not formalize the informal concept of "possibility" and "necessity", because there is not a single informal concept of "necessity". To believe that the constant modality $\ast$ is one sensible formalization of "necessity" is to believe that the sentence "Every proposition is necessarily true." is sensible, in particular that "False is necessarily true" is sensible. 
-(This might be sensible in a world where everything is necessarily false.)
+These $\emptyset \dashv \ast$ satisfy all of the above axioms (as well as more axioms that are being considered, such as those called [[S5 modal logic]]) but they are not a very good interpretation of the informal concepts of "possibility" and "necessity".  Under this interpretation nothing is necessarily true, and everything is possibly true.  While this is not nonsensical, it is not very interesting and doesn't correspond well to our intuitive meanings of "necessary" and "possible".
 
-This issue becomes more pronounced (and also finds a resolution, see [below](#InFirstOrderLogicAndTypeTheory)) as one generalizes from the small realm of [[propositional logic]] to include both or either of:
+This issue becomes more pronounced as one generalizes from the small realm of [[propositional logic]] to include both or either of:
 
 * [[types]] more general than [[propositions]] (in [[modal type theory]]);
 
@@ -76,18 +77,18 @@ This issue becomes more pronounced (and also finds a resolution, see [below](#In
 
 There are many [[modal operators]] in such contexts which are all modeled by (idempotent) (co)monads but which do not have the interpretation of expressing the modes of "necessity" or "possibility". See at _[[modal operator]]_ for some examples.
 
-Therefore it makes sense to ask which _additional_ axioms on a modal operator make it an accurate formalization of the informal concepts of necessity and possibility. The answer to this may depend on context and intention (after all one is trying to find a precise formulation of an a priori informal idea). 
+Therefore it makes sense to ask which _additional_ axioms on a modal operator make it an accurate formalization of the informal concepts of necessity and possibility.  The answer to this may depend on context and intention (after all one is trying to find a precise formulation of an a priori informal idea).
 
-### In first-order logic and dependent type theory
+## Possible worlds via first-order logic and type theory
  {#InFirstOrderLogicAndTypeTheory}
 
-On the other hand, the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established, this is just the interpretation of the [[universal quantifier]] "for all" $\forall$ and of the [[existential quantifier]] "there exists" $\exists$.
+One common philosophical interpretation of "necessarily" and "possibly" is in terms of a collection of "possible worlds" that are similar to the "real world", but not the same.  Under this interpretation, a proposition is necessarily true if it is true in all possible worlds, and possibly true if it is true in some possible world.
 
-Moreover, in [[categorical logic]] these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induce a [[comonad]] and a [[monad]] with just the interpretation of "necessarily true" and "possibly true".
+Now the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established in *predicate* logic: it is just the interpretation of the [[universal quantifier]] "for all" $\forall$ and of the [[existential quantifier]] "there exists" $\exists$.  In [[categorical logic]], these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induce a [[comonad]] and a [[monad]].  Thus, if we interpret "necessarily" and "possibly" in terms of possible worlds, we can model them by this base change adjoint triple.
 
-#### Globally
+### Globally
 
-More in detail, let $W$ be the [[context]] [[type]] of [[variables]]/[[terms]] on which the propositions under consideration depend. In the field of [[modal logic]] it is traditional to speak of $W$ as being the collection "of all [[possible worlds semantics|possible worlds]]". Conversely any specific choice of $W$ may be taken as specifying what is to be understood as a "possible world".
+In more detail, let $W$ be the [[context]] [[type]] of [[variables]]/[[terms]] on which the propositions depend, i.e. the collection "of all [[possible worlds semantics|possible worlds]]".  Any specific choice of $W$ may be taken as specifying what is to be understood as a "possible world".
 
 Writing $\mathbf{H}_{\ast}$ for the [[category]] of all context-free [[types]] under consideration and writing $\mathbf{H}_{/W}$ for the category of types in [[context]] "$W$", then in [[categorical logic]] (for instance $\mathbf{H}_{/(-)}$ might be a [[hyperdoctrine]] over a [[category of contexts]] containing objects $W$ and $\ast$) the [[quantifiers]] $\forall_{x\colon X}$ and $\exists_{x\colon X}$ participate in a [[base change]] [[adjoint triple]] 
 
@@ -110,9 +111,9 @@ whereas in a context of [[dependent type theory]] this would be called
 
 In either case, under the suitable version of [[propositions as types]] (and using [[bracket types]] etc. if desired), the operations $\forall$ and $\exists$ have the usual interpretation of "for all" and "there exists".
 
-But these operations do change the context from $W$ to $\ast$. The idea of a necessity and a possibility modality is to send propositions about $W$ to propositions that again depend on $W$  -- even if they now depend trivially on $W$, being [[context extension|extended]] back from the absolute context $\ast$ to $W$.
+Note, however, that these operations change the context from $W$ to $\ast$.  In other words, if a proposition $P$ depends on $W$, so that it may be true in some worlds and false in others, then $\exists_W P$ and $\forall_W P$ no longer depend on $W$.  The idea of a necessity and a possibility modality is to send a proposition in some context to a proposition in the *same* context, so that we can for instance say that $\Box P \to P$ and so on.  Thus we need to make $\exists_W P$ and $\forall_W P$ into propositions that again depend on $W$ --- even if they now depend trivially on $W$, being [[context extension|extended]] back from the absolute context $\ast$ to $W$.
 
-This is just what is accomplished by passing from the above [[adjoint triple]] to the induced [[adjoint pair]] by forming composites with the [[context extension]] operation $W^\ast$
+This is just what is accomplished by passing from the above [[adjoint triple]] to the induced [[adjoint pair]] on $\mathbf{H}_{/W}$ by forming composites with the [[context extension]] operation $W^\ast$
 
 $$
   (\underset{W}{\lozenge} \dashv \underset{W}{\Box})
@@ -139,7 +140,9 @@ With this, if $p\in \mathbf{H}_{/W}$ is a [[proposition]] about terms $w$ of $W$
 
 * $\underset{W}{\Box}(p)$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\forall} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is again the standard interpretation of the quantifier) if $p(w)$ necessarily holds for all $w$.
 
-This is arguably an accurate [[syntax|syntactic]] formalization of the informal meaning of "necessity" and  "possibilty". The natural [[semantics]] for these [[base change]] operations subsumes (but is more general) that tradtionally known as the _[[possible worlds semantics]]_ of necessity and possibility modalities, where here the "dependency on the possible world $w$" is given by $W$-[[dependent type theory]].
+(Note that there is also an adjoint pair on $\mathbf{H}_{/\ast}$ in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$.  However, these modalities are not as interesting and do not very well represent necessity and possibility.)
+
+Thus, this gives one [[syntax|syntactic]] formalization of the informal meaning of "necessity" and "possibility".  The natural [[semantics]] for these [[base change]] operations is a generalization of the simple traditional _[[possible worlds semantics]]_ of propositional necessity and possibility modalities.  (There are, however, more complicated possible worlds semantics.)
 
 Moreover, with this formalization, the modal operator $\underset{W}{\lozenge}$ is [[left adjoint]] to $\underset{W}{\Box}$ and hence both form an [[adjoint modality]]. As discussed there, this is a formalization of [[unity of opposites|opposite]] concepts, which reflects well the opposition of necessity and possibility in their informal meaning.
 
@@ -149,7 +152,7 @@ Some technical remarks:
 
 1. While [[base change]]-[[adjunctions]] are essentially unique and not free to choose, there is a genuine choice in the above given by the choice of [[context]] $W$. This is reflected in the subscripts of $\underset{W}{\lozenge}$ and $\underset{W}{\Box}$ above. It is the choice of this $W$ that gives different kinds of possibility and necessity. More generally there is in fact not just a choice of a context, but of a morphism of contexts, reflecting what is often called "accessibility of possible worlds". This we come to [below](#ViaBaseChangeRelatively).
 
-#### Relatively
+### Relatively
   {#ViaBaseChangeRelatively}
 
 With this axiomatization via [[base change]], it is immediate to consider the relative case where instead of [[base change]] to a [[unit type]] $W \to \ast$ one considers [[base change]] 
@@ -195,8 +198,6 @@ If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it e
 *  $\underset{\omega}{\lozenge} p$ is true/inhabited at $w\in W$ iff it is true/inhabited at at least one $\tilde w$ in the same equivalence class of $w$;
 
 *  $\underset{\omega}{\Box} p$ is true/inhabited at $w\in W$ iff it is true/inhabited at all $\tilde w$ in the same equivalence classes of $w$.
-
-This accurately reflects the informal concept of "possibly true in some cases" and "necessarily true in all cases" (or "in some worlds"/"in all worlds", if one wishes).
 
 ## Related concepts
 
