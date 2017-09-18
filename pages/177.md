@@ -85,12 +85,6 @@ A *signed graph* should *not* be regarded a "directed graph", though they *are* 
 
 
 
-## Oriented graphs
-
-An *oriented graph* is a [[simple undirected graph|graph]] *each of whose edges has  been given one of the two orientations*. 
-As such, *no* multiplicities whatsoever are possible, not even *directed 2-cycles*($=$antiparallel arcs). 
-This is the standard meaning of *oriented graph* in combinatorics, the term generally being perceived to signal that even 2-cycles are forbidden, in contrast to [[digraphs]] which may have them. 
-There are several ways to formalize "oriented graph", and here we do not describe any of them. 
 
 
 
@@ -165,7 +159,7 @@ From a graph-theoretical point of view, every digraph is a quiver, but not every
 * [[quiver]]
 * [[n-quiver]]
 * [[ribbon graph]]
-
+* [[oriented graph]] 
 
 
 ## References
