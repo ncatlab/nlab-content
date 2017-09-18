@@ -866,8 +866,8 @@ Reviews are in
 
 * [[Joaquim Gomis]], J. Paris, S. Samuel, _Antibrackets, Antifields and Gauge Theory Quantization_ ([arXiv:hep-th/9412228](http://arxiv.org/abs/hep-th/9412228))
 
-* J. Park, _Pursuing the quantum world_ ([pdf](http://cds.cern.ch/record/638963/files/0308130.pdf))
- {#Park}
+* {#Park} J. Park, _Pursuing the quantum world_ ([pdf](http://cds.cern.ch/record/638963/files/0308130.pdf))
+ 
 
 Geometrical aspects were pioneered in 
 
@@ -919,8 +919,8 @@ The interpretation of the BV quantum master equation as a description of closed 
 * [[Edward Witten]], _A note on the antibracket formalism_, Modern Physics Letters A, __5__, n. 7, 487--494, [MR91h:81178](http://www.ams.org/mathscinet-getitem?mr=91h:81178), [doi](http://dx.doi.org/10.1142/S0217732390000561), [scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090)
 {#Witten90}
 
-* [[Albert Schwarz]], _Geometry of Batalin-Vilkovisky quantization_ ([arXiv:hep-th/9205088](http://arxiv.org/abs/hep-th/9205088))
- {#Schwarz92}
+* {#Schwarz92} [[Albert Schwarz]], _Geometry of Batalin-Vilkovisky quantization_ ([arXiv:hep-th/9205088](http://arxiv.org/abs/hep-th/9205088))
+ 
 
 This isomorphisms between the [[de Rham complex]] and the complex of [[polyvector field]]s is reviewed for instance on p. 3 of
 
@@ -1022,9 +1022,9 @@ BRST formalism is discussed in
 
 The original references on Hamiltonian BFV formalism are
 
-* I.A. Batalin, G.A. Vilkovisky, _Relativistic S-matrix of dynamical systems with boson and fermion constraints_ , Phys. Lett. __B69__ (1977) 309-312; 
+* [[Igor Batalin]], [[Grigori Vilkovisky]], _Relativistic S-matrix of dynamical systems with boson and fermion constraints_ , Phys. Lett. __B69__ (1977) 309-312; 
 
-* I.A. Batalin, E.S. Fradkin, _A generalized canonical formalism and quantization of reducible gauge theories_ , Phys. Lett.
+* [[Igor Batalin]], [[Efim Fradkin]], _A generalized canonical formalism and quantization of reducible gauge theories_ , Phys. Lett.
 B122 (1983) 157-164.
 
 Homological Poisson reduction is discussed in 
