@@ -5155,6 +5155,48 @@ $$
 
 =--
 
++-- {: .num_remark #OrdinaryCohomologyOfThomSpaceInLowDegree}
+###### Remark
+
+Given a [[vector bundle]] $V \to X$ of [[rank]] $n$, then the [[reduced cohomology|reduced]] [[ordinary cohomology]] of its [[Thom space]] $Th(V)$ (def. \ref{ThomSpace}) vanishes in degrees $\lt n$:
+
+$$
+ \tilde H^{\bullet \lt n}(Th(V))
+  \simeq
+  H^{\bullet \lt n}(D(V), S(V))
+  \simeq 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[long exact sequence]] of [[relative cohomology]] (from [above](#ExactnessUnreduced))
+
+$$
+  \cdots
+    \to
+  H^{\bullet-1}(D(V))
+   \overset{i^\ast}{\longrightarrow}
+  H^{\bullet-1}(S(V))
+   \longrightarrow
+  H^\bullet(D(V), S(V))
+    \longrightarrow
+  H^{\bullet}(D(V))
+   \overset{i^\ast}{\longrightarrow}
+  H^{\bullet}(S(V))
+    \to
+  \cdots  
+  \,.
+$$
+
+Since the cohomology in degree $k$ only depends on the $k$-skeleton, and since for $k \lt n$ the $k$-skeleton of $S(V)$ equals that of $X$, and since $D(V)$ is even homotopy equivalent to $X$, the morhism $i^\ast$ is an isomorphism in degrees lower than $n$. Hence by exactness of the sequence it follows that $H^{\bullet \lt n}(D(V),S(V)) = 0$.
+
+=--
+
+
 
 ##### Universal Thom spectra $M G$
 
@@ -6308,7 +6350,7 @@ $$
   \,.
 $$ 
 
-By the second point above this is [[split exact sequence|split]], as shown by the diagonal isomorphism in the top right. By the third point above there is the horizontal exact sequence, as shown, which is the [exact sequence in relative cohomology](generalized+%28Eilenberg-Steenrod%29+cohomology#ExactnessUnreduced) $\cdots \to H^\bullet(E,B) \to H^\bullet(E) \to H^\bullet(B) \to \cdots$ induced from the section $B \hookrightarrow E$.
+By the second point above this is [[split exact sequence|split]], as shown by the diagonal isomorphism in the top right. By the third point above there is the horizontal exact sequence, as shown, which is the [exact sequence in relative cohomology](generalized+cohomology#ExactnessUnreduced) $\cdots \to H^\bullet(E,B) \to H^\bullet(E) \to H^\bullet(B) \to \cdots$ induced from the section $B \hookrightarrow E$.
 
 Hence using the splitting to decompose the term in the middle as a [[direct sum]], and then using horizontal and vertical exactness at that term yields
 
