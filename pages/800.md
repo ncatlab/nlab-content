@@ -31,13 +31,13 @@ Equivalence of categories generalises to [[higher category theory|higher categor
 +-- {: .num_defn}
 ###### Definition
 
-An **equivalence** between two categories $C$ and $D$ is a pair of [[functor]]s 
+An **equivalence** between two categories $C$ and $D$ is the following data: a pair of [[functor]]s 
 
 $$
-  C \stackrel{\overset{G}{\leftarrow}}{\underset{F}{\to}} D
+  C \stackrel{\overset{G}{\leftarrow}}{\underset{F}{\to}} D,
 $$
 
-such that there are [[natural isomorphism]]s 
+and [[natural isomorphism]]s 
 
 $$
   F \circ G \cong Id_D
@@ -51,7 +51,7 @@ $$
 $$
 =--
 
-This is called an **[[adjoint equivalence]]** if in addition $F$ and $G$ form a pair of [[adjoint functor]]s.
+This is called an **[[adjoint equivalence]]** if the natural isomorphisms above satisfy the [[triangle identities]], thus exhibiting $F$ and $G$ as a pair of [[adjoint functor]]s.
 
 +-- {: .num_defn}
 ###### Definition
