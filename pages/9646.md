@@ -33,7 +33,11 @@ we have the [[classical inverse scattering method|classical]] and the [[quantum 
 
 * [[scattering amplitude]]
 
-* [[S-matrix]], [[n-point function]], [[correlator]]
+* [[scattering cross section]]
+
+* [[scattering matrix]]
+
+* [[n-point function]], [[correlator]]
 
 * [[Feynman diagram]]
 
