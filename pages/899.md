@@ -222,6 +222,12 @@ The [[category]] [[TopGrp]] of topological groups and [[continuous function|cont
 
 A proof is spelled out by [[Todd Trimble]] [here on MO](http://mathoverflow.net/questions/133110/why-is-topgrp-the-category-of-topological-groups-and-continous-homomorphisms-prot/133601#133601).
 
+## Examples
+
+* The [[classical Lie groups]] are in particular topological groups, such as the [[general linear group]] and its subgroups.
+
+* ...
+
 
 ## Related concepts
 
