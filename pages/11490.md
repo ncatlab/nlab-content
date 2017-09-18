@@ -1,3 +1,6 @@
 * [McMaster webpage](http://www.math.mcmaster.ca/index.php/people/faculty-emerti/66-/faculty-emeriti/340-banaschewski-bernhard.html)
 
 category:people
+
+[[!redirects Bernhard Banaschewski]]
+[[!redirects Banaschewski]] 
