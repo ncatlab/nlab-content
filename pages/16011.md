@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-More generally, for $Het \colon \mathcal{C}^{op}\times \mathcal{D}\to Set$ a [[profunctor]] from $\mathcal{C}$ to $\mathcal{D}$, then $Het(c,d)$ may be called its set of heteromorphisms. 
+More generally, for $Het \colon \mathcal{C}^{op}\times \mathcal{D}\to Set$ a [[profunctor]] from $\mathcal{C}$ to $\mathcal{D}$, then $Het(c,d)$ may be called its set of heteromorphisms from $c$ to $d$.
 
 The general heteromorphic treatment of [[adjunctions]] is due to [Pareigis 1970](#Pareigis70). A pair of adjoint functors arise when a Het profunctor is a [[representable functor]] on both the left and right. The [[left adjoint]] is representing functor on the left:
 $$
