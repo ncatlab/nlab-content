@@ -47,13 +47,13 @@ The following texts contain useful material for teaching **elementary geometry**
 
 * Robin Hartshorne, _Geometry - Euclid and Beyond_ , UTM Springer 2000.
 
-* [[David Hilbert]], Stefan Cohn-Vossen, _Anschauliche Geometrie_ , Springer Berlin 1932. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/toc/?PID=PPN379425343))
+* [[David Hilbert]], Stephan Cohn-Vossen, _Anschauliche Geometrie_ , Springer Berlin 1932. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/toc/?PID=PPN379425343))
 
 * David Henderson, Daina Taimina, _Experiencing Geometry_ , Prentice-Hall Upper Saddle River 2005. (Supplementary online material: [link](http://www.math.cornell.edu/~henderson/ExpGeom/ExpGeomSuppl.html))
 
 * John Stillwell, _The Four Pillars of Geometry_ , UTM Springer 2005.
 
-The following book is a unique attempt to teach an introductory [[category theory]] course at the high school level:
+The following book is a unique attempt by two prominent mathematicians to give an elementary introduction to [[category theory]] directed at beginning students and general readers which is relevant to school education as well:
 
 * [[F. William Lawvere]], [[Stephen H. Schanuel]], _Conceptual Mathematics: A First Introduction to Categories_ , Cambridge UP 1997.
 
