@@ -26,13 +26,13 @@ An __equivalence relation__ on a set $S$ is a binary [[relation]] $\equiv$ on $S
 
 ## Setoids
 
-A __[[setoid]]__ is a set equipped with an equivalence relation.  (However, we should be cautious with this terminology, since the people who typically use setoids begin with an impoverished notion of set and then introduce setoids specifically to fix this, as described below.)
+A __setoid__ is a set equipped with an equivalence relation.  (However, we should be cautious with this terminology, since the people who typically use setoids begin with an impoverished notion of set and then introduce setoids specifically to fix this, as described below.)
 
 Equivalently, a setoid is a [[groupoid]] [[enriched category|enriched]] over the [[cartesian monoidal category]] of [[truth values]].  Equivalently, a setoid is a [[groupoid]] that is [[0-truncated]].  Then the equivalence relation on $S$ is a way of making $S$ into the set of objects of such a groupoid. Equivalently, a setoid is a [[(0,1)-category]] whose each morphism is iso, or a [[symmetric relation|symmetric]] [[preordered set]]. 
 
 It may well be useful to consider several possible equivalence relations on a given set.  When considering a single equivalence relation once and for all, however, it is common to take the [[quotient set]] $S/{\equiv}$ and use that instead.  As a groupoid, any setoid is [[equivalence of categories|equivalent]] to a [[set]] in this way (although in the absence of the [[axiom of choice]], it is only a "weak" or [[anafunctor|ana-equivalence]]).
 
-Setoids are still important in [[foundations]] of mathematics where quotient sets don\'t always exist and the above equivalence cannot be carried out.  However, arguably this is a terminological mismatch, and such people should say 'set' where they say 'setoid' and something else (such as '[[preset]]', '[[type]]', or '[[completely presented set]]') where they say 'set'.  (See page 9 of [these lecture notes](http://www.cs.chalmers.se/Cs/Research/Logic/TypesSS05/Extra/palmgren.pdf).)
+Setoids are still important in [[foundations]] of mathematics where quotient sets don\'t always exist and the above equivalence cannot be carried out.  However, arguably this is a terminological mismatch, and such people should say 'set' where they say 'setoid' and something else (such as '[[preset]]', '[[type]]', or '[[completely presented set]]') where they say 'set'.  (See [[Bishop set]] and page 9 of [these lecture notes](http://www.cs.chalmers.se/Cs/Research/Logic/TypesSS05/Extra/palmgren.pdf).)
 
 
 ## Variants and generalizations
@@ -46,7 +46,7 @@ Setoids are still important in [[foundations]] of mathematics where quotient set
 
 ## Related concepts
 
-* [[setoid]]
+* [[Bishop set]]
 
 * [[congruence]]
 
@@ -55,5 +55,9 @@ Setoids are still important in [[foundations]] of mathematics where quotient set
 
 For the history of the notion of equivalence relation see _[this MO discussion](http://mathoverflow.net/questions/135347/who-introduced-the-terms-equivalence-relation-and-equivalence-class)_.
 
+
 [[!redirects equivalence relation]]
 [[!redirects equivalence relations]]
+
+[[!redirects setoid]]
+[[!redirects setoids]]
