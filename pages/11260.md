@@ -1,6 +1,10 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Alfred_North_Whitehead)
 
+## related $n$Lab entries
+
+* _[[Principia Mathematica]]_
+
 category: people
 
 [[!redirects Alfred North Whitehead]]
