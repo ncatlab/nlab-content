@@ -22,7 +22,7 @@
 
 The notion of _center of a monoidal category_ or _Drinfeld center_ is the [[categorification]] of the notion of [[center]] of a [[monoid]]([[associative algebra]], [[group]], etc.) from monoids to [[monoidal categories]].
 
-Where the [[center]] of a monoid is just a sub-monoid with the [[property]] that it commutes with everything else, under categorification this becomes a [[stuff, structure, property]], since we have to specify _how_ the objects in the Drinfeld center commute ([[braided monoidal category|braide]]) with everything else.
+Where the [[center]] of a monoid is just a sub-monoid with the [[property]] that it commutes with everything else, under categorification this becomes a [[stuff, structure, property]], since we have to specify _how_ the objects in the Drinfeld center commute ([[braided monoidal category|braid]]) with everything else.
 
 ## Definition
 
@@ -57,7 +57,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Unwinding the definitions, we find that an [[object]] of $Z(\mathcal{C}, \otimes)$ $\Phi \colon id_{\mathbf{B}_\otimes \mathcal{C}} \to id_{\mathbf{B}_\otimes \mathcal{C}}$ has components being pseudonaturality squares
+Unwinding the definitions, we find that an [[object]] of $Z(\mathcal{C}, \otimes)$, $\Phi \colon id_{\mathbf{B}_\otimes \mathcal{C}} \to id_{\mathbf{B}_\otimes \mathcal{C}}$, has for components  pseudonaturality squares
 
 $$
   \array{
@@ -71,7 +71,7 @@ $$
   }
 $$
 
-for each $Y \in Obj(\mathcal{C})$. As shown, these consist of a choice of an object $X \in \mathcal{C}$ togetehr with a [[natural isomorphism]]
+for each $Y \in Obj(\mathcal{C})$. As shown, these consist of a choice of an object $X \in \mathcal{C}$ together with a [[natural isomorphism]]
 
 $$
   \Phi_{(-)} \colon X \otimes (-) \to (-) \otimes X
