@@ -27,6 +27,8 @@ See also
 
 Textbook accounts include
 
+* [[Doug Ravenel]], section 3.3 of _[[Complex cobordism and stable homotopy groups of spheres]]_ 1986/2003
+
 * {#Kochman96} [[Stanley Kochman]], section 5.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 
