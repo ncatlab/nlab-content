@@ -99,7 +99,7 @@ Special properties these may have:
 ...
 ## Related concepts
 
-* [[map]]
+* [[map]], [[operation]]
 
 * [[partial function]], [[partial recursive function]]
 
