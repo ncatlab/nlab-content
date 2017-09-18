@@ -275,4 +275,4 @@ Idea of proof: the analogous statement for simplicial Lie algebras replaced by r
 
 * {#Shipley02} [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_ , Amer. Jour. of Math. 129 (2007) 351-379. ([arXiv:math/0209215](http://arxiv.org/abs/math/0209215))
 
-
+* [[schreiber:thesis Schlegel]]
