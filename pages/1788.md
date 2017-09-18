@@ -19,3 +19,7 @@ $$
     & = 0     
   \end{aligned}
 $$
+
+Note: This is a note
+
+[note1]: This also a note
