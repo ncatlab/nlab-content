@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -54,8 +52,6 @@ Since full [[2d CFTs]] are what is relevant in [[string theory]], where these co
 * [[CFT]]
 
 * [[holographic principle]]
-
-* [[local-global principle]]
 
 ## References
 
