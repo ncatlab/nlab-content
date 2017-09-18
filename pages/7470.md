@@ -82,6 +82,9 @@ Further discussion of [[(infinity,n)-categories]] as $\infty$-categories enriche
  
 * {#BergnerRezk14} [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_ ([arXiv:1406.4182](http://arxiv.org/abs/1406.4182))
 
+See also
+
+* {#Haugseng15} [[Rune Haugseng]], _Bimodules and natural transformations for enriched ∞-categories_ ([arXiv:1506.07341](http://arxiv.org/abs/1506.07341))
 
 [[!redirects enriched (∞,1)-category]]
 [[!redirects enriched (∞,1)-categories]]
