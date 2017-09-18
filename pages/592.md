@@ -1,13 +1,26 @@
-
-<div markdown="1" class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Infinity-limits
++-- {: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
 
 # Contents
 * automatic table of contents goes here
 {: toc}
 
 ## Idea
+
+A **pushout** is an ubiquitous construction in [[category theory]] providing a  a [[colimit]] for the diagram $\bullet\leftarrow\bullet\rightarrow\bullet$. It is dual to the notion of a [[pullback]].
+
+## Pushouts in $Set$
 
 In the category [[Set]] a 'pushout' is a quotient of the disjoint union of two sets.  Given a diagram of sets and functions like this:
 
@@ -151,6 +164,23 @@ The concept of pushout is a special case of the notion of **[[cofiber coproduct|
 Note that the concept of pushout is dual to the concept of [[pullback]]: that is, a pushout in $C$ is the same as a pullback in $C^{op}$.
 
 See [[pullback]] for more details.
+
+## Examples
+
+...
+
+## Related entries
+
+* [[amalgamation property]]
+
+* [[wide pushout]]
+
+* [[coequalizer]]
+
+* [[colimit]]
+
+* [[pullback]]
+
 
 
 [[!redirects pushout]]
