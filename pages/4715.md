@@ -264,6 +264,10 @@ This has been shown in ([Godin](#Godin)). One of the $B U(1)$-summands is also p
 
 * **ribbon graph**
 
+* [[topological map]]
+
+* [[combinatorial map]]
+
 ## References
 
 Original references include
