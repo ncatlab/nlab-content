@@ -1,22 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 #### Operator algebra
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -73,6 +72,11 @@ There is also
 
 * Wikipedia on [operator algebras] (http://en.wikipedia.org/wiki/Operator_algebras)
 
+
 category: analysis, noncommutative geometry
 
+[[!redirects operator algebra]]
 [[!redirects operator algebras]]
+
+[[!redirects algebra of operators]]
+[[!redirects algebras of operators]]
