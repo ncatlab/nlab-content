@@ -10,6 +10,6 @@
 
 The first chapter of her forthcoming book `Lattices of theories'.
 
-* Olivia Caramello, _Topos theoretic background_, [PDF](http://www.oliviacaramello.it/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf)
+* Olivia Caramello, _Topos theoretic background_, [PDF](http://www.oliviacaramello.com/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf)
 
 category: people
