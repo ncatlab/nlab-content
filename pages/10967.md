@@ -25,7 +25,7 @@
 
 ## Idea
 
-In [[quantum physics]] the _no-cloning theorem_ is the statement that one cannot produce a secod copy of an arbitrary given [[quantum state]] by a quantum physical process.
+In [[quantum physics]] the _no-cloning theorem_ is the statement that one cannot produce a second copy of an arbitrary given [[quantum state]] by a quantum physical process.
 
 More in detail, in its original version the statement is that given a quantum system with [[Hilbert space]] $H$ and with a chosen initial pure [[quantum state]] $e \in H$, then there is no [[unitary operator]] on the [[tensor product]] $H \otimes H$ which would take states of the form $(\psi, e)$ to $(\psi,\psi)$. 
 
@@ -62,7 +62,7 @@ General reviews include
 
 * Wikipedia, _[No-cloning theorem](http://en.wikipedia.org/wiki/No-cloning_theorem)_
 
-Discussion from the point of view of [[monoidal category]]-theory ([[finite quantum mechanics in terms of dagger-compact categories]]) inclides
+Discussion from the point of view of [[monoidal category]]-theory ([[finite quantum mechanics in terms of dagger-compact categories]]) includes
 
 * {#Abramsky09} [[Samson Abramsky]], _No-Cloning in categorical quantum mechanics_, (2008) in I. Mackie and S. Gay (eds), _Semantic Techniques for Quantum Computation_ , Cambridge University Press ([arXiv:0910.2401](http://arxiv.org/abs/0910.2401))
 
