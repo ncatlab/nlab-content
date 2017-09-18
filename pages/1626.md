@@ -288,7 +288,7 @@ $$
         \gamma(1) = y
       \right)
     \right)
-  \right\
+  \right\}
 $$
 
 is called the _path-connected component_ of $x$. 
