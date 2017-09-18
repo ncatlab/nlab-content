@@ -632,7 +632,12 @@ Given a Lie algebroid $A\to M$, an $A$-path (a Lie algebroid path), is a Lie alg
 An (end-fixing) $A$-homotopy (a Lie algebroid homotopy) is a Lie algebroid morphism from $T\square \to A$ satisfying certain boundary conditions. Let us be more precise: a vector bundle morphism $T\square \to A$ can be denoted by $a dt + b ds$ (see [example](https://ncatlab.org/nlab/show/Lie+groupoid#example_2) ). Then the boundary condition is that $b(s,0)=0$ and $b(s,1)=0$. The fact that $adt+bds$ is a Lie algebroid morphism is equivalent to the following PDE:
 
 
+$$\partial_t b- \partial_s a= \nebla_{\rho \alpha} \beta - \nebla_{\rho \beta} \alpha +[\alpha, \beta] $$
+where $\nebla$ is a TM connection on $A$ and $\alpha$ and $\beta$ are certain time dependent sections of $A$ extending $a$ and $b$ respectively. Notice that there is also a way writing down the right hand side independent of choice of sections. See Section 1 of [Crainic-Fernandes 01]. 
 
+Then the universal groupoid associated to $A$ is the space of $A$-paths ($P_a A$) dividing by $A$-homotopies. It is naturally a topological groupoid. But only when the obstruction vanishes, it becomes a Lie groupoid and is the source-simply connected Lie groupoid integrating $A$. 
+
+Fortunately $A$-homotopies form finite codimensional foliation $F$, even though the quotient might not be always representible. Thus, $Mon_F(P_aA)$ represents a differentiable stack which becomes a stacky Lie groupoid over $M$. It turns out that there is a one-to-one correspondence between \'etale stacky Lie groupoid and Lie algebroid. This correspondence provides a positive answer to [[Lie's third theorem]] for Lie algebroids.  [Tseng-Zhu 04](#TZ). 
 
 ## Related concepts
 
