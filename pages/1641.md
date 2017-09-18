@@ -101,6 +101,12 @@ It also follows that $U$ is a [[Street fibration|fibration]] and opfibration, in
 
 *  In particular, if $D$ is [[Set]], then $C$ is a concrete category that is complete, cocomplete, well powered, and well copowered.
 
+## Functors
+
+* A functor $F\colon C\to C'$ between topological concrete categories $C/D$, $C'/D$ with the same base category $D$ preserves initial lifts iff it is right adjoint. It preserves final lifts iff it is left adjoint.
+
+* More generally: If a functor $F\colon C\to C'$ between topological concrete categories $C/D$, $C'/D'$ with different base categories lying over a functor $F_0: D\to D'$. If $F$ is right (left) adjoint, then $F_0$ is right (left) adjoint and $F$ preserves initial (final) lifts. A partial converse holds: If $F_0$ is right (left) adjoint to $G_0$ and $F$ preserves initial (final) lifts, then there is functor $G$ lying over $G_0$ so that $F$ is right (left) adjoint to $G_0$.
+
 
 ## Special cases
 
