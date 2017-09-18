@@ -1,4 +1,4 @@
-
+a
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -39,7 +39,7 @@ The idea of $(\infty,1)$-toposes is to generalize the above situation from $1$ t
 +-- {: .num_defn #ToposByLocalization}
 ###### Definition
 
-A [[Alexander Grothendieck|Grothendieck]]--[[Charles Rezk|Rezk]]--[[Jacob Lurie|Lurie]] **$(\infty,1)$-topos** $\mathbf{H}$ is an [accesible](reflective%20sub-%28infinity,1%29-category#AccessibleReflectiveSubcategory) [left exact](reflective+sub-%28infinity%2C1%29-category#ExactLocalizations) [[reflective sub-(∞,1)-category]] of an [[(∞,1)-category of (∞,1)-presheaves]]
+A [[Alexander Grothendieck|Grothendieck]]--[[Charles Rezk|Rezk]]--[[Jacob Lurie|Lurie]] **$(\infty,1)$-topos** $\mathbf{H}$ is an [accessible](reflective%20sub-%28infinity,1%29-category#AccessibleReflectiveSubcategory) [left exact](reflective+sub-%28infinity%2C1%29-category#ExactLocalizations) [[reflective sub-(∞,1)-category]] of an [[(∞,1)-category of (∞,1)-presheaves]]
 
 $$
   \mathbf{H}
