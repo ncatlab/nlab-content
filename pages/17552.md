@@ -1,1 +1,1 @@
-I am a PhD student working on [[Cartan geometry]] at the University of Auckland.
+I am a PhD student at the University of Auckland, working on [[Cartan geometry]], and more specifically [[Parabolic geometry]], 
