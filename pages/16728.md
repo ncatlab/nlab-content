@@ -21,7 +21,7 @@
 
 The **dense topology** is a [[Grothendieck topology]] on a small category $\mathcal{C}$ whose [[sieves]] generalize the idea of a 'downward dense' [[poset]]. The dense topology is important for sheaf-theoretic approaches to [[forcing]].
 
-There is also a closely related but slightly more general concept of a _dense_ [[Lawvere-Tierney topology]] which is discussed at [[dense subtopos]].
+There is also a closely related but more general concept of a _dense_ [[Lawvere-Tierney topology]] which is discussed at [[dense subtopos]].
 
 ## Definition
 
@@ -30,6 +30,15 @@ Let $\mathcal{C}$ be a category. The _dense topology_ $J_d$ is the [[Grothendiec
 A sieve $S$ is in $J_d(Y)$ iff for all $f:X\to Y$ there exists a $g:Z\to X$ such that $f\circ g:Z\to Y$ is in $S$.
 
 ## Properties
+
+Recall that a category $\mathcal{C}$ satisfies the [[Ore condition]] if every diagram $X\rightarrow W\leftarrow Y$ can be completed to a commutative square. When this happens, the dense topology has a simpler description as the collection of all nonempty sieves and is called the [[atomic site|atomic topology]] $J_{at}$ on $\mathcal{C}$:
+
++-- {: .num_prop #atomic_dense}
+###### Proposition
+Let $\mathcal{C}$ be a [[category]] satisfying the [[Ore condition]]. Then the dense topology $J_d$ coincides with the atomic topology $J_{at}$. 
+=--
+
+For the (easy) proof see at [[atomic site]].
 
 +-- {: .num_prop}
 ###### Proposition
