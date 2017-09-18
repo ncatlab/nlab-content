@@ -74,7 +74,7 @@ This immediately raises the question for natural classes of examples of such pre
 
 One such class arises in [[infinity-Lie theory]], where $\omega$ is a [[left invariant form]] on a [[smooth infinity-group]] given by a [[cocycle]] in [[L-infinity algebra cohomology]]. The [[prequantum n-bundles]] arising this way are the higher [[WZW terms]] discussed here.
 
-In low degree of traditional [[Lie theory]] this appears as follows: An important class of examples of closed differential forms,  first of all, are closed [[left invariant forms]] on [[Lie groups]]. Via the general theory of [[Chevalley-Eilenberg algebras]] these may be identified with degree $(p+2)$-[[cocycles]] $\mu$ in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ corresponding to $G$. These in turn may arise, via the [[van Est map]], as the [[Lie differentiation]] of a degree-$(p+2)$-[[cocycle]] $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+2}U(1)$ in the [[Lie group cohomology]] of $G$ itself, with [[coefficients]] in the [[circle group]] $U(1)$. 
+In low degree of traditional [[Lie theory]] this appears as follows: On [[Lie groups]] $G$, those closed $(p+2)$-forms $\omega$ which are [[left invariant forms]] may be identified, via the general theory of [[Chevalley-Eilenberg algebras]], with degree $(p+2)$-[[cocycles]] $\mu$ in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ corresponding to $G$. These in turn may arise, via the [[van Est map]], as the [[Lie differentiation]] of a degree-$(p+2)$-[[cocycle]] $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+2}U(1)$ in the [[Lie group cohomology]] of $G$ itself, with [[coefficients]] in the [[circle group]] $U(1)$. 
 
 This happens to be the case notably for $G$ a [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[semisimple Lie group]] such as [[special unitary group|SU]] or [[spin group|Spin]], where $\mu = \langle -,[-,-]\rangle$ is the [[Lie algebra cohomology|Lie algebra 3-cocycle]] in [[transgression]] with the [[Killing form]] [[invariant polynomial]] $\langle -,-\rangle$. This is, up to normalization, a representative of the de Rham image of a generator $\mathbf{c}$ of $H^3(\mathbf{B}G, U(1)) \simeq H^4(B G, \mathbb{Z}) \simeq \mathbb{Z}$. 
 
@@ -92,35 +92,42 @@ $$
 
 whose higher [[Dixmier-Douady class]] class $ \int \Omega \mathbf{c} \in H^{p+2}(X,\mathbb{Z})$ is an integral lift of the real cohomology class encoded by $\omega$ under the [[de Rham isomorphism]]. In the example of [[spin group|Spin]] and $p = 1$ this extension is the [[string 2-group]].
 
-Diagrammatically, this natural [[Lie theory|Lie theoretic]] data give a diagram of [[smooth homotopy types]] of the form
+Such a [[Lie theory|Lie theoretic]] situation is concisely expressed by a diagram of [[smooth homotopy types]] of the form
 
 $$
   \array{
      && &\longrightarrow& \mathbf{B}^{p+1}U(1)
      \\
-     &{}^{\mathllap{\Omega \mathbf{c}}}\nearrow& &\swArrow_\simeq& \downarrow
+     &{}^{\mathllap{\Omega \mathbf{c}}}\nearrow& &\swArrow_\simeq& \downarrow^{\mathrlap{\theta_{\mathbf{B}^p U(1)}}}
      \\
      G &\stackrel{\omega}{\longrightarrow}& \mathbf{\Omega}_{cl}^{p+2} &\stackrel{}{\longrightarrow}& \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
   }
-  \,.
+  \,,
 $$
 
-Now, by the very [[homotopy pullback]]-characterization of the [[Deligne complex]] $\mathbf{B}^{p+1}U(1)_{conn}$, such a diagram is equivalently a [[prequantization]] of $\omega$:
+where $\flat_{dR}\mathbf{B}^{p+2}\mathbb{R} \simeq \flat_{dR}\mathbf{B}^{p+2}U(1)$ is the [de Rham coefficients](cohesive+infinity-topos+--+structures#deRhamCohomology) (see also at _[[geometry of physics -- de Rham coefficients]]_) and where the homotopy filling the diagram is what exhibits $\omega$ as a de Rham representative of $\Omega \mathbf{c}$.
+
+Now, by the very [[homotopy pullback]]-characterization of the [[Deligne complex]] $\mathbf{B}^{p+1}U(1)_{conn}$ ([here](Deligne+cohomology#TheExactDifferentialCohomologyHexagon)), such a diagram is equivalently a [[prequantization]] of $\omega$:
 
 $$
   \array{
      && \mathbf{B}^{p+1}U(1)_{conn} &\longrightarrow& \mathbf{B}^{p+1}U(1)
      \\
-     &{}^\mathllap{\nabla_\mu}\nearrow& \downarrow &\swArrow_\simeq& \downarrow
+     &{}^\mathllap{\nabla}\nearrow& \downarrow &\swArrow_\simeq& \downarrow^{\mathrlap{\theta_{\mathbf{B}^p U(1)}}}
      \\
      G &\stackrel{\omega}{\longrightarrow}& \mathbf{\Omega}_{cl}^{p+2} &\stackrel{}{\longrightarrow}& \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
   }
   \,.
 $$
 
-For $\mu = \langle -,[-,-]\rangle$ as above, we have $p= 1$ and so $\nabla_\mu$ here is a [[circle n-bundle with connection|circle 2-bundle with connection]], often referred to as a [[bundle gerbe]] [[connection on a bundle gerbe|with connection]]. As such, this is also known as the _WZW gerbe_ or similar.
+For $\omega = \langle -,[-,-]\rangle$ as above, we have $p= 1$ and so $\nabla$ here is a [[circle n-bundle with connection|circle 2-bundle with connection]], often referred to as a [[bundle gerbe]] [[connection on a bundle gerbe|with connection]]. As such, this is also known as the _WZW gerbe_ or similar.
 
-This terminology arises as follows. In ([Wess-Zumino 84](Wess-Zumino-Witten+model#WessZumino71)) the [[sigma-model]] for a [[string]] propagating on the [[Lie group]] $G$ was considered, with only the standard [[kinetic action]] term. Then in ([Witten 84](Wess-Zumino-Witten+model#Witten84)) it was observed that for this [[action functional]] to give a [[conformal field theory]] after [[quantization]], a certain [[higher gauge theory|higher gauge]] [[interaction term]] has to the added. The resulting [[sigma-model]] came to be known as the _[[Wess-Zumino-Witten model]]_ or _WZW model_ for short, and the term that Witten added became the _WZW term_. In ([Gawedzki 87](Wess-Zumino-Witten+model#Gawedzki87)) it was observed that when formulated properly and generally, this term is the [[surface holonomy]] functional of a [[connection on a bundle gerbe]] on $G$. 
+This terminology arises as follows. In ([Wess-Zumino 84](Wess-Zumino-Witten+model#WessZumino71)) the [[sigma-model]] for a [[string]] propagating on the [[Lie group]] $G$ was considered, with only the standard [[kinetic action]] term. Then in ([Witten 84](Wess-Zumino-Witten+model#Witten84)) it was observed that for this [[action functional]] to give a [[conformal field theory]] after [[quantization]], a certain [[higher gauge theory|higher gauge]] [[interaction term]] has to the added. The resulting [[sigma-model]] came to be known as the _[[Wess-Zumino-Witten model]]_ or _WZW model_ for short, and the term that Witten added became the _WZW term_. In terms of [[string theory]] it describes the propagation of the [[string]] on the group $G$ subject to a [[force]] of [[gravity]] given by the [[Killing form]] [[Riemannian metric]] and subject to a [[B-field]] [[higher gauge field|higher gauge force]] whose [[field strength]] is $\omega$.  In ([Gawedzki 87](Wess-Zumino-Witten+model#Gawedzki87)) it was observed that when formulated properly and generally, this WZW term is the [[surface holonomy]] functional of a [[connection on a bundle gerbe]] $\nabla$ on $G$. This is equivalently the $\nabla$ that we just motivated above.
+
+Later WZW terms, or at least their curvature forms $\omega$, were recognized all over the place in [[quantum field theory]]. For instance the [[Green-Schwarz sigma-models for super p-branes]] each have an [[action functional]] that is the sum of the standard [[kinetic action]] plus a WZW term of degree $p+2$. 
+
+In general WZW terms are "[[gauged WZW model|gauged]]" which means, as we will see, that they are not defined on the give [[smooth infinity-group]] $G$ itself, but on a bundle $\tilde G$ of differential moduli stacks over that group, such that a map $\Sigma \to \tilde G$ is a pair consisting of a map $\Sigma \to G$ and of a [[higher gauge field]] on $\Sigma$ (a "tensor multiplet" of fields).
+
 
 
 #### Generally
@@ -134,7 +141,7 @@ $$
   \iota \colon
   \mathbf{\Omega}^2_{cl}(-,\mathbb{G})
   \longrightarrow
-  \flat_{dR} \mathbf{B}^2 \mathb{G}
+  \flat_{dR} \mathbf{B}^2 \mathbb{G}
 $$
 
 to its [de Rham coefficients]()
@@ -184,7 +191,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-Let $\mathbf{H} = $ [[Smooth∞Grpd]] and $\mathbb{G} = \mathbf{B}^p U(1)$ the [[circle n-group|circle (p+1)-group]] 
+Let $\mathbf{H} = $ [[Smooth∞Grpd]] and $\mathbb{G} = \mathbf{B}^p U(1)$ the [[circle n-group|circle (p+1)-group]].
 
 For $G$ an ordinary [[Lie group]], then $\mu$ may be taken to be the [[Lie algebra cohomology|Lie algebra cocycle]] corresponding to $\mathbf{c}$ and $\tilde G \simeq G$.
 
