@@ -111,7 +111,11 @@ Note that $J_{at}$ is well defined as the intersection of all Grothendieck topol
 Let $(\mathcal{C}, J_{at})$ be an atomic site. Then $Sh(\mathcal{C}, J_{at})$ is an [[atomic topos|atomic Grothendieck topos]].
 =--
 
-For the proof see Caramello ([2012](#Ca12), prop.1.4).
++-- {: .proof}
+###### Proof
+The main idea is to consider the full subcategory $\mathcal{C}'$ on those objects $U$ with $\emptyset\notin J_{at}(U)$ together with the [[dense sub-site|induced topology]] $J'_{at}=J_{at}|_{\mathcal{C}'}$. Then one shows that $\mathcal{C}'$ satisfies the Ore condition and concludes by the [[comparison lemma]] that $Sh(\mathcal{C}', J'_{at})\simeq Sh(\mathcal{C}, J_{at})$. For the details see Caramello ([2012](#Ca12), prop.1.4).
+=--
+
 
 ## Related entries
 
@@ -134,4 +138,3 @@ For the proof see Caramello ([2012](#Ca12), prop.1.4).
 * {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (pp.115, 126)
 
 [[!redirects atomic topology]]
-
