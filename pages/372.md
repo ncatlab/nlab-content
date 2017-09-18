@@ -46,6 +46,19 @@ Hence the initial object may also be viewed as the [[colimit]] over the [[empty 
 
 An initial object $\emptyset$ is called a **[[strict initial object]]** if any morphism $x\to \emptyset$ must be an [[isomorphism]].  The initial objects of a poset, of $Set$, $Cat$, $Top$, and of any [[topos]] (in fact, any [[extensive category]]) are strict.  At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
 
+## Cones over the identity
+ {#ConesOverTheIdentity}
+
+By definition, an initial object is equipped with a universal [[cocone]] under the unique functor $\emptyset\to C$ from the [[empty category]].  On the other hand, the unique morphisms $!:\emptyset \to x$ form a cone *over* the [[identity functor]], i.e. a natural transformation $\Delta_\emptyset \to Id_C$ from the [[constant functor]] at the initial object to the identity functor.  In fact this is almost another characterization of an initial object:
+
++--{: .un_theorem}
+###### Theorem
+Suppose $I\in C$ is an object equipped with a natural transformation $p:\Delta_I \to Id_C$ such that $p_I = 1_I : I\to I$.  Then $I$ is an initial object of $C$.
+=--
++--{: .proof}
+###### Proof
+Obviously $I$ has at least one morphism to every other object $X\in C$, namely $p_X$, so it suffices to show that any $f:I\to X$ must be equal to $p_X$.  But the naturality of $p$ implies that $\Id_C(f) \circ p_I = p_X \circ \Delta_I(f)$, and since $p_I = 1_I$ this is to say $f \circ 1_I = p_X \circ 1_I$, i.e. $f=p_I$ as desired.
+=--
 
 ## Related concepts
 
