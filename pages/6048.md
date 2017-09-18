@@ -40,6 +40,7 @@ On the other hand the M2 also appears as a [[black brane]], hence as a solution 
 See at _[[Green-Schwarz sigma model]]_ and _[[brane scan]]_.
 
 ### As a black brane
+ {#AsABlackBrane}
 
 As a [[black brane]] solution to the [[equations of motion]] of [[11-dimensional supergravity]] the M2 is the [[spacetime]] $\mathbb{R}^{2,1} \times (\mathbb{R}^8-\{0\})$ with [[pseudo-Riemannian metric]] being
 
@@ -67,6 +68,24 @@ For $\alpha \beta \neq 0$ this is a 1/2 [[BPS state]] of 11d sugra.
 The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactification]] [[anti de Sitter spacetime|AdS4]]$\times$[[7-sphere|S7]]. For more on this see at _[[AdS-CFT]]_.
 
 [[!include black branes in supergravity -- table]]
+
+More generally, one may classify those solutions of [[11-dimensional supergravity]] of the form $AdS_4 \times X_7$ for some [[closed manifold]] $X_7$, that are at least 1/2 [[BPS states]]. One finds ([Medeiros-Figueroa 10](#MedeirosFigueroa10)) that all these are of the form $AdS_4 \times S^7/G_{ADE}$, where $S^7 / G_{ADE}$ is an [[orbifold]] of the [[7-sphere]] by a [[finite group|finite]] [[subgroup]] $G_{ADE} \hookrightarrow SU(2)$ of the [[special unitary group]], i.e. a finite group in the [[ADE-classification]]
+
+[[!include ADE -- table]]
+
+Here for $ 5 \leq \mathcal{N} \leq 8$-supersymmetry then the action of $G_{ADE}$ on $S^7$ is via the canonical action of $SU(2)$ as in the [[quaternionic Hopf fibration]] ([Medeiros-Figueroa 10](#MedeirosFigueroa10)), while for $\mathcal{N} = 4$ then there is an extra twist to the action  ([MFFGME 09](#MFFGME09)):
+
+
+
+| $AdS_4 \times S^7/G_{ADE}$ [[BPS state]] | Dynkin label |  $G_{ADE} \subset SU(2)$ | [[AdS-CFT]]-dual worldvolume theory | 
+|-----|-----------|----|---|
+| $\mathcal{N} = 8$ | $A_1$ | $\mathbb{Z}/2$ ([[group of order 2]])  | [[BLG model]] |
+| $\mathcal{N} = 6$ | $A_{n-1}$ | $\mathbb{Z}/n$ ([[cyclic group]]) | [[ABJM model]] |
+| $\mathcal{N} = 5$ | $D_{n+2}$ | $2 \mathcal{D}_{2n}$ ([[binary dihedral group]]) | ? |
+| $\mathcal{N} = 5$ | $E_6$ | $2 \mathcal{T}$ ([[binary tetrahedral group]]) | ? |
+| $\mathcal{N} = 5$ | $E_7$ | $2 \mathcal{O}$ ([[binary octahedral group]]) | ? |
+| $\mathcal{N} = 5$ | $E_8$ | $2 \mathcal{I}$ ([[binary icosahedral group]]) | ? |
+
 
 ## Properties
 
@@ -142,7 +161,7 @@ Meanwhile [[AdS-CFT duality]] was recognized in
  
 where a dual description of the [[worldvolume]] theory of M2-brane appears in seciton 3.2.  More on this is in 
 
-* {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
+* {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_, Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
 
 An account of the history as of 1999 is in
 
@@ -152,6 +171,13 @@ An account of the history as of 1999 is in
 A detailed discussion of this [[black brane]]-realization of the M2 and its relation to [[AdS-CFT]] is in 
 
 * Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
+
+The generalization of this to $\geq 1/2$ BPS sugra solutions of the form $AdS_4 \times X_8$ is due to
+
+* {#MFFGME09} Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+
+* {#MedeirosFigueroa10} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+
 
 Discussion of the history includes
 
@@ -196,13 +222,13 @@ Discussion from the point of view of [[Green-Schwarz action functional]]-[[schre
 
 The role of and the relation to [[duality in string theory]] of the membrane is discussed in the following articles.
 
-Relation to [[T-duality]]:
+Relation to [[T-duality]] is discussed in:
 
 * J.G. Russo, _T-duality in M-theory and supermembranes_ ([arXiv:hep-th/9701188](http://arxiv.org/abs/hep-th/9701188))
 
 * M.P. Garcia del Moral, J.M. Pena, A. Restuccia, _T-duality Invariance of the Supermembrane_ ([arXiv:1211.2434](http://arxiv.org/abs/1211.2434))
 
-Relation to [[U-duality]]:
+Relation to [[U-duality]] is discussed in:
 
 * [[Martin Cederwall]], _M-branes on U-folds_ ([arXiv:0712.4287](http://arxiv.org/abs/0712.4287))
 
