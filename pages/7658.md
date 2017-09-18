@@ -29,6 +29,7 @@ A _double cover_ is equivalently
 
 ## Examples
 
+
 ### Orientation double cover
 
 For $X$ a [[manifold]], not necessarily [[orientation|oriented]] or even orientable, write 
