@@ -98,7 +98,7 @@ the following are equivalent:
 
 1. The [[right adjoint]] $Q_*$ is [[full and faithful functor|fully faithful]]. (In this case $B$ is equivalent to its essential image in $A$ under $Q_*$, a reflective full subcategory of $A$.) 
 
-2. The [[counit of an adjunction|counit]] $\varepsilon : Q^* Q_*\to 1_A$ of the [[adjunction]] is a [[natural isomorphism]] of functors.
+2. The [[counit of an adjunction|counit]] $\varepsilon : Q^* Q_*\to 1_B$ of the [[adjunction]] is a [[natural isomorphism]] of functors.
 
 3. The [[monad]] $(Q_* Q^*,Q_*\varepsilon Q^*,\eta)$ associated with the adjunction is [[idempotent monad|idempotent]], the right adjoint $Q_*$ is [[conservative functor|conservative]], and the left adjoint $Q^*$ is [[essentially surjective functor|essentially surjective on objects]].
 
@@ -278,6 +278,13 @@ The [[category of sheaves]] on a [[site]] $S$ is a reflective subcategory of the
 ###### Example
 
 A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [[concrete site]] is a reflective subcategory.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The category of [[affine schemes]] is a reflective subcategory of the [[category of schemes]], with the reflector given by $X \mapsto Spec \Gamma(X,\mathcal{O}_X)$.
 
 =--
 
