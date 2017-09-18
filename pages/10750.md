@@ -3430,7 +3430,7 @@ Define the following [[pointed topologically enriched categories|pointed topolog
    is given by the canonical [[permutation]] in $\Sigma(n_1+n_2)$ that [[shuffle|shuffles]] the first $n_1$ elements past the remaining $n_2$ elements.
 
 
-1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as non-zero morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}_{cg}$-enriched category by adjoining a basepoint to the hom-spaces;
+1. $Orth$ has as objects the finite dimenional real linear [[inner product spaces]] $(\mathbb{R}^n, \langle -,-\rangle)$ and as non-zero morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(\mathbb{R}^n, \langle -,-\rangle)$ is the [[orthogonal group]] $O(n)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}_{cg}$-enriched category by adjoining a basepoint to the hom-spaces;
   
    $$
      Orth(V_1,V_2) 
@@ -3485,12 +3485,6 @@ $$
    \mathbb{R}^n 
     &\mapsto& 
    S^n
-   \\
-    && 
-    && 
-   V
-    &\mapsto& 
-   S^V
   }
   \,,
 $$
@@ -4428,6 +4422,27 @@ $$
 
 for the resulting [[category]] of symmetric [[commutative ring spectra]].
 
+We regard a  symmetric ring spectrum in particular as a [[symmetric spectrum]] (def. \ref{SymmetricSpectrum}) by taking the structure maps to be
+
+$$
+  \sigma_n
+    \;\colon\;
+  S^1 \wedge E_n
+    \overset{\iota_1 \wedge id}{\longrightarrow}
+  E_1 \wedge E_n
+    \overset{\mu_{1,n}}{\longrightarrow}
+  E_{n+1}
+  \,.
+$$
+
+This defines a [[forgetful functor]]
+
+$$
+  CRing(SymSpec(Top_{cg}))
+   \longrightarrow
+  SymSpec(Top_{cg})
+$$
+
 There is an analogous definition of **[[orthogonal ring spectrum]]** and we write
 
 $$
@@ -4460,6 +4475,25 @@ $$
   \,.
 $$
 
+Moreover, under these identifications the canonical forgetful functor 
+
+$$
+  CMon( \mathbb{S}_{sym}Mod, \otimes_{\mathbb{S}_{sym}}, \mathbb{S}_{sym} )
+    \longrightarrow
+  SymSpec(Top_{cg})
+$$
+
+and
+
+$$
+  CMon( \mathbb{S}_{orth}Mod, \otimes_{\mathbb{S}_{orth}}, \mathbb{S}_{orth} )
+    \longrightarrow
+  OrthSpec(Top_{cg})
+$$
+
+coincides with the forgetful functor defined in def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}
+
+
 =--
 
 +-- {: .proof}
@@ -4467,7 +4501,7 @@ $$
 
 We discuss this for symmetric spectra. The proof for orthogonal spectra is directly analogous.
 
-By prop. \ref{AlgebrasOverAAreMonoidsUnderA} and def. \ref{SsymModuleSymmetricSpectra}, the commutative monoids in $\mathbb{S}_{sym}Mod$ are equivalently commtutative monoids $E$ in $([Sym,Top^{\ast/}_{cg}], \otimes_{Day}, y(0))$ equipped with a homomorphism of monoids $\mathbb{S}_{sym} \longrightarrow E$. in turn, by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} this are equivalently braided lax monoidal functors (which we denote by the same symbols, for convenience) of the form
+By prop. \ref{AlgebrasOverAAreMonoidsUnderA} and def. \ref{SsymModuleSymmetricSpectra}, the commutative monoids in $\mathbb{S}_{sym}Mod$ are equivalently commtutative monoids $E$ in $([Sym,Top^{\ast/}_{cg}], \otimes_{Day}, y(0))$ equipped with a homomorphism of monoids $\mathbb{S}_{sym} \longrightarrow E$. In turn, by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} this are equivalently braided lax monoidal functors (which we denote by the same symbols, for convenience) of the form
 
 $$
   E \;\colon\; (Sym, +, 0) \longrightarrow (Top^{\ast/}_{cg}, \wedge, S^0)
@@ -4483,6 +4517,19 @@ $$
 The structure morphism of such a lax monoidal functor $E$ has as components precisely the morphisms $\mu_{n_1, n_2}\colon E_{n_1} \wedge E_{n_2} \to E_{n_1 + n_2}$.
 
 In terms of these, the associativity and braiding condition on the lax monoidal functor are manifestly the above associativity and commutativity conditions.
+
+Moreover, by the proof of prop. \ref{AlgebrasOverAAreMonoidsUnderA} the $\mathbb{S}_{sym}$-module structure on an an $\mathbb{S}_{sym}$-algebra $E$ has action given by
+
+$$
+  \mathbb{S}_{sym} \wedge E
+    \overset{e \wedge id}{\longrightarrow}
+  E \wedge E
+   \overset{\mu}{\longrightarrow}
+  E
+  \,,
+$$
+
+which shows, via the identification in prop \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, that the forgetful functors to underlying symmetric spectra coincide as claimed.
 
 
 Hence it only remains to match the nature of the units. The above unit morphism $\iota$ has components
@@ -9059,70 +9106,64 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-For $A$ a [[countable set|countable]] [[abelian group]], then the [[orthogonal spectrum]] incarnation of the **[[Eilenberg-MacLane spectrum]]** $H A$ is the [[orthogonal spectrum]] with
+For $A$ a [[countable set|countable]] [[abelian group]], then the **orthogonal [[Eilenberg-MacLane spectrum]]** $H A$ is the [[orthogonal spectrum]] (def. \ref{OrthogonalSpectrum}) with
 
 * components spaces
 
   $$
-    (H A)_V \coloneqq A[S^V]_\ast
+    (H A)_n \coloneqq A[S^n]_\ast
   $$
 
-  being the reduced $A$-linearization (def. \ref{ReducedALinearizationOfnSphere}) of the [[representation sphere]] $S^V$;
+  being the reduced $A$-linearization (def. \ref{ReducedALinearizationOfnSphere}) of the [[representation sphere]] $S^n$;
 
-  hence for $V = \mathbb{R}^n$ then
-
-  $$
-    (H A)_n = A[S^n]_\ast
-  $$
-
-* $O(n)$-[[action]] on $A[S^n]_\ast$ induced from the canonical $O(n)$-action on $S^V$ ([[representation sphere]]);
+* $O(n)$-[[action]] on $A[S^n]_\ast$ induced from the canonical $O(n)$-action on $S^n$ ([[representation sphere]]);
 
 * structure maps 
 
   $$
-    \sigma_{V,W}
+    \sigma_n
       \;\colon\;
-    (H A)_V \wedge S^W 
+    S^1 (H A)_n  
       \longrightarrow
-    (H A)_{V\oplus W}
+    (H A)_{n+1}
   $$
 
   hence
 
   $$
-    A[S^V] \wedge S^W
+    S^1 \wedge A[S^n]
       \longrightarrow
-    A[S^{V \oplus W}]
+    A[S^{n+1}]
   $$    
 
   given by
 
   $$
     \left(
+     x,
     \left(
-       \underset{i}{\sum} a_i x_i
+       \underset{i}{\sum} a_i y_i
     \right),
-    y
     \right)
       \mapsto
-    \underset{i}{\sum} a_i (x_i, y)
+    \underset{i}{\sum} a_i (x,y_i)
     \,.
   $$
 
 The incarnation of $H A$ as a [[symmetric spectrum]] is the same, with the group action of $O(n)$ replaced by the [[subgroup]] action of the [[symmetric group]] $\Sigma(n) \hookrightarrow O(n)$.
 
-If $R$ is a [[commutative ring]], then the Eilenberg-MacLane spectrum $H R$ becomes a commutative [[orthogonal ring spectrum]] (or [[symmetric ring spectrum]], respectively) by 
+If $R$ is a [[commutative ring]], then the Eilenberg-MacLane spectrum $H R$ becomes a commutative [[orthogonal ring spectrum]] or [[symmetric ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) by 
 
 1. taking the multiplication
 
    $$
-     (H R)_{V_1} \wedge (H R)_{V_2}
+     (H R)_{n_1} \wedge (H R)_{n_2}
        =
-     R[S^{V_1}]_\ast \wedge R[S^{V_2}]_\ast 
+     R[S^{n_1}]_\ast \wedge R[S^{n_2}]_\ast 
        \longrightarrow
-     R[S^{V_1 \oplus V_2}]
+     R[S^{n_1 + n_2}]
       =
-     (H R)_{V_1 \oplus V_2}
+     (H R)_{n_1 + n_2}
    $$
 
    to be given by
@@ -9145,9 +9186,9 @@ If $R$ is a [[commutative ring]], then the Eilenberg-MacLane spectrum $H R$ beco
 1. taking the unit maps
 
    $$
-     S^V 
+     S^n
        \longrightarrow
-     A[S^V]_\ast = (H R)_V 
+     A[S^n]_\ast = (H R)_n 
    $$
 
    to be given by the canonical inclusion of generators
@@ -9160,6 +9201,49 @@ If $R$ is a [[commutative ring]], then the Eilenberg-MacLane spectrum $H R$ beco
 =--
 
 ([Schwede 12, example I.1.14](#Schwede12))
+
+##### Thom spectra
+
++-- {: .num_defn}
+###### Definition
+
+As an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}), the **universal [[Thom spectrum]]** $M O$ has
+
+* component spaces 
+
+  $$
+    (M O)_n \coloneqq E O(n) \underset{O(n)}{\wedge} S^n
+  $$
+
+  the [[Thom spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#ThomSpace)) of the [[universal vector bundle]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#EOn)) of [[rank]] $n$;
+
+* left $O(n)$-action induced by the remaining canonical left action of $E O(n)$;
+
+* canonical multiplication maps
+
+  $$
+    (E O(n_1) \underset{O(n_1)}{\wedge} S^{n_1})
+      \wedge
+    (E O(n_2) \underset{O(n_2)}{\wedge} S^{n_2}  
+      \longrightarrow
+    E O(n_1 + n_2) 
+      \underset{O(n_1 + n_2)}{\wedge} 
+    S^{n_1 + n_2}
+  $$
+
+* unit maps
+
+  $$
+    S^n \simeq O(n)_+ \wedge_{O(n)} S^n
+      \longrightarrow
+    E O(n) \wedge_{O(n)} S^n
+  $$
+
+  induced by the fiber inclusion $O(V) \to E O(V)$.
+
+=--
+
+
 
 
 #### Conclusion
