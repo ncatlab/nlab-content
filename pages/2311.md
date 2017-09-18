@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A [[multiplicative cohomology theory|multiplicative]] [[cohomology theory]] $E$ is called _even_ if its [[cohomology ring]] is trivial in all odd degrees:
 
 $$
@@ -5,6 +12,10 @@ $$
   \,.
 $$
 
-#related entries#
+## Related entries
+
+* [[even periodic ring spectrum]]
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
+
+[[!redirects even cohomology theories]]
