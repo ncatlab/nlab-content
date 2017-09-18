@@ -1,0 +1,9 @@
+
+
+* [webpage](http://ribf.riken.jp/~jschmude/index.html)
+
+## related $n$Lab entries
+
+* [[Kaluza-Klein monopole]]
+
+category: people
