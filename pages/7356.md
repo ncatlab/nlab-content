@@ -28,7 +28,7 @@ Or rather, this is type IIB string theory with some [[non-perturbative effects]]
 
 ## Properties
 
-### Relation to (or motivation from) 11d supergravity
+### Relation to M-theory
  {#From11dSupergravity}
 
 The following line of argument shows why first compactifying M-theory on a torus $S_1^A \times S_1^B$ to get type IIA on a circle and then T-dualizing that circle to get type IIB indeed only depends on the shape $\frac{R_A}{R_B}$ of the torus, but not on its other geometry.
@@ -77,6 +77,15 @@ $$
    \,.
 $$
 
+
+### Relation to M-theory on $G_2$-manifolds
+
+In order to get minimal [[N=1 d=4 supergravity]] after [[KK-compactification]], one needs [[M-theory on G2-manifolds]] and [[F-theory on CY4-manifolds]].
+
+The relation between then [[G2-manifold]] fibers and the corresponging [[Calabi-Yau manifold|Calabi-Yau 4-manifold]] fibers  is discussed in ([Gukov-Yau-Zaslow 02](#GukovYauZaslow02)).
+
+
+
 ### Relation to orientifold type II backgrounds
  {#RelationToOrientifolds}
 
@@ -91,6 +100,19 @@ The degeneration locus of the elliptic fibration -- where the [[discriminant]] $
 
 Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
 
+### Relation to heterotic string theory
+
+The [[duality between F-theory and heterotic string theory]]:
+
+F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] on a 2-[[torus]]. An early argument for this is due to ([Sen 96](#Sen96)).
+
+More generally, heterotic string theory on an elliptically fibered Calabi-Yau $Z \to B$ of complex dimension $(n-1)$ is supposed to be equivalent $F$-theory on an $n$-dimensional $X\to B$ with elliptic K3-fibers.
+
+A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]] is originally due to ([Friedman-Morgan-Witten 97](#FriedmanMorganWitten97)). A review of this is in ([Donagi 98](#Donagi98)).
+
+
+
+
 ### F-brane scan
  {#Fbranescan}
 
@@ -104,16 +126,6 @@ Namely in the F-theory picture this comes from [[wrapped brane|wrapping]] the [[
 
 (e.g. [Johnson 97, p. 4](#Johnson97))
 
-
-### Relation to heterotic string theory
-
-The [[duality between F-theory and heterotic string theory]]:
-
-F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] on a 2-[[torus]]. An early argument for this is due to ([Sen 96](#Sen96)).
-
-More generally, heterotic string theory on an elliptically fibered Calabi-Yau $Z \to B$ of complex dimension $(n-1)$ is supposed to be equivalent $F$-theory on an $n$-dimensional $X\to B$ with elliptic K3-fibers.
-
-A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]] is originally due to ([Friedman-Morgan-Witten 97](#FriedmanMorganWitten97)). A review of this is in ([Donagi 98](#Donagi98)).
 
 ### Model building and phenomenology
 
@@ -190,11 +202,15 @@ A series of articles arguing for a relation between the [[elliptic fibration]] o
 
 * {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, 	JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
 
-### Relation to the heterotic string
+### Relation to heterotic string string theory
 
 * {#FriedmanMorganWitten97} Robert Friedman, [[John Morgan]], [[Edward Witten]], _Vector Bundles And F Theory_ ([arXiv:hep-th/9701162](http://arxiv.org/abs/hep-th/9701162))
 
 * {#Donagi98} [[Ron Donagi]], _ICMP lecture on heterotic/F-theory duality_ ([arXiv:hep-th/9802093](http://arxiv.org/abs/hep-th/9802093))
+
+### Relation to M-theory on $G_2$-manifolds
+
+* {#GukovYauZaslow02} [[Sergei Gukov]], [[Shing-Tung Yau]], [[Eric Zaslow]], _Duality and Fibrations on $G_2$ Manifolds_ ([arXiv:hep-th/0203217](http://arxiv.org/abs/hep-th/0203217))
 
 ### Relation to the 6d superconformal theory
 
