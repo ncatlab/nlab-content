@@ -12,7 +12,7 @@ Jordan--Banach algebras, $JB$-algebras, and the like fill out the following gran
 | [[associative algebra|associative]] $*$-[[star-algebra|algebra]] | [[Jordan algebra]] | [[Jordan–Lie algebra]] |
 | associative [[Banach algebra|Banach]] $*$-algebra | Jordan--Banach algebra | [[Jordan–Lie–Banach algebra]] |
 | $C^*$-[[C-star-algebra|algebra]] | $JB$-algebra | $JLB$-[[JLB-algebra|algebra]] |
-| [[von Neumann algebra]] | $JBW$-algebra | $JLBW$-algebra |
+| [[von Neumann algebra]] | $JBW$-algebra | $JLBW$-[[JLBW-algebra|algebra]] |
 
 Just as a [[Jordan algebra]] that happens to be associative is the same thing as an [[associative algebra|associative]] $*$-[[star-algebra|algebra]] with trivial [[involution]] (aka simply an associative algebra) that happens to be [[commutative algebra|commutative]], the analogous result holds in the lower rows.
 
