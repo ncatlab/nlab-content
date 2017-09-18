@@ -37,7 +37,7 @@ Then
 
 A [[complex]] $I$ is an [[injective object]] with respect to monomorphic quasi-isomorphisms precisely if
 
-* it is homotopically injective in the sense of complexes in $\mathcal{A}$;
+* it is homotopically injective in the sense of complexes in $\mathcal{A}$; and
 
 * it is injective as an object of $\mathcal{A}$ (with respect to morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is exact).
 
