@@ -33,10 +33,11 @@ Either sentence alone seems perfectly reasonable, and could meaningfully be said
 
 * [[Cantor's paradox]]
 
-
 ### From natural science
 
 In [[physics]]:
+
+* [[Zeno's paradox of motion]]
 
 * [[hole paradox]]
 
