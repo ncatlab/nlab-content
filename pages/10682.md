@@ -29,16 +29,18 @@ Let $X$ be a [[topological space]], and let $A,B \subset X$ be disjoint [[closed
 
 * a [[continuous function]] $f \colon X \to [0,1]$
 
-to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]], that takes the value 0 on $A$ and the value 1 on $B$:
+to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]], such that 
 
-$$
-  f(A) = \{0\}
-  \phantom{AAA}
-  \text{and}
-  \phantom{AAA}
-  f(B) = \{1\}
-  \,.
-$$ 
+* it takes the value 0 on $A$ and the value 1 on $B$:
+
+  $$
+    f(A) = \{0\}
+    \phantom{AAA}
+    \text{and}
+    \phantom{AAA}
+    f(B) = \{1\}
+    \,.
+  $$ 
 
 =--
 
@@ -127,7 +129,7 @@ $$
   }
 $$
 
-and so on, labeled by the [[dyadic rational numbers]]
+and so on, labeled by the [[dyadic rational numbers]] $\mathbb{Q}_{dy} \subset \mathbb{Q}$ within $(0,1]$
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/UrysohnConstruction.png" width="400">
@@ -135,13 +137,13 @@ and so on, labeled by the [[dyadic rational numbers]]
 
 
 $$
- \{ U_{r} \subset X \}_{r \in \mathbb{Q}_{dy}}
+ \{ U_{r} \subset X \}_{r \in (0,1] \cap \mathbb{Q}_{dy}}
 $$
 
-with the property that 
+with the property 
 
 $$
-  \underset{r \in \mathbb{Q}_{dy}}{\forall}
+  \underset{r \in (0,1] \cap \mathbb{Q}_{dy}}{\forall}
   \left(
      A \subset U_r \subset X\backslash B
   \right)
@@ -150,16 +152,15 @@ $$
 and
 
 $$
+  \underset{r_1,r_2 \in (0,1] \cap \mathbb{Q}_{dy}}{\forall}
   \left(
-     r_1 \lt r_2
-  \right)
-   \Rightarrow
-  \left(
-     \left(U_{r_1} \subset U_{r_2}\right)
-     \,\text{and}\,
-     \left(
-      U_1 \neq U_2
-     \right)
+    \left(
+       r_1 \lt r_2
+    \right)
+     \Rightarrow
+    \left(
+      U_{r_1} \subset Cl(U_{r_1}) \subset U_{r_2}
+    \right)
   \right)
   \,.
 $$
@@ -196,29 +197,30 @@ $$
   \,.
 $$
 
-To see this, observe that it is immediate from the definition that $(x \in U_r) \Rightarrow (f(x) \leq r)$ and that $(f(x) \lt r) \Rightarrow (x \in U_r \subset Cl(U_r))$. For the remaining implications, it is sufficient to observe the case that
+To see this, observe that it is immediate from the definition that $(x \in U_r) \Rightarrow (f(x) \leq r)$ and that $(f(x) \lt r) \Rightarrow (x \in U_r \subset Cl(U_r))$. For the remaining implications, it is sufficient to observe that
  
 $$
-  (x \in \partial U_r) \Rightarrow (f(x) = r)
+  (x \in \partial U_r) \Leftrightarrow (f(x) = r)
   \,,
 $$
 
 where $\partial U_r \coloneqq Cl(U_r) \backslash U_r$ is the [[boundary]] of $U_r$.
 
-This holds because the [[dyadic numbers]] are [[dense subset|dense]] in $\mathbb{R}$. (And this would fail if we stopped the above decomposition into $U_{a/2^n}$-s at some finite $n$.) Namely if $x \in \partial U_r$ then for every small positive real number $\epsilon$ there exists a dyadic rational number $r'$ with $r \lt r' \lt r + \epsilon$, and since $x \in U_{r'}$ it follows that $\underset{U_r \supset \{x\}}{\lim} = r$.
+This holds because the [[dyadic numbers]] are [[dense subset|dense]] in $\mathbb{R}$. (And this would fail if we stopped the above decomposition into $U_{a/2^n}$-s at some finite $n$.) Namely, in one direction, if $x \in \partial U_r$ then for every small positive real number $\epsilon$ there exists a dyadic rational number $r'$ with $r \lt r' \lt r + \epsilon$, and by construction $U_{r'} \supset Cl(U_r)$ hence  $x \in U_{r'}$. This implies that $\underset{U_r \supset \{x\}}{\lim} = r$.
+
 
 Now we claim that for all $\alpha \in [0,1]$ then
 
-1. $f^{-1}((\alpha, 1])$ is open.
+1. $f^{-1}(\,(\alpha, 1]\,)$ is open.
 
-1. $f^{-1}([0,\alpha))$ is open;
+1. $f^{-1}(\,[0,\alpha)\,)$ is open;
 
 Regarding the first point: By $(\star)$ we have
 
 $$
   f^{-1}( (\alpha,1] )
     =
-  \underset{r \leq \alpha}{\cup} X \backslash Cl(U_r)
+  \underset{r \leq \alpha}{\cup} \left( X \backslash Cl(U_r) \right)
   \,.
 $$
 
