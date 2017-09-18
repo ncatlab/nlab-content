@@ -3636,7 +3636,7 @@ $$
   \,.
 $$
 
-This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](spectral+sequence#ExtensionProblem) for computing the homotopy groups that the spectral sequence converges to:
+This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](Introduction+to+Stable+homotopy+theory+--+S#ExtensionProblemForSpectralSequences) for computing the homotopy groups that the spectral sequence converges to:
 
 * a dot at the top of a vertical sequence of dots denotes the group $\mathbb{Z}/p\mathbb{Z}$;
 
@@ -5510,6 +5510,7 @@ of $[X,Y]_\bullet$.
 
 
 
+
 ### **2.2)** Examples
  {#ExamplesOfAdamsSpectralSequences}
 
@@ -6022,8 +6023,9 @@ $$
 
 ##### The May spectral sequence
 
-The cobar complex (def. \ref{CobarComplex}) relizes the second page of the [[classical Adams spectral sequence]] (cor. \ref{ClassicalAdamsSpectralSequenceEstablished}) as the [[cochain cohomology]] of a [[cochain complex]]. This is still hard to compute directly, but we now oberserve that this cochain complex admits a [[filtered complex|filtration]] so that the induced [[spectral sequence of a filtered complex]] has a computable first page. This is called the _[[May spectral sequence]]_.
+The cobar complex (def. \ref{CobarComplex}) realizes the second page of the [[classical Adams spectral sequence]] (cor. \ref{ClassicalAdamsSpectralSequenceEstablished}) as the [[cochain cohomology]] of a [[cochain complex]]. This is still hard to compute directly, but we now discuss that this cochain complex admits a [[filtered complex|filtration]] so that the induced [[spectral sequence of a filtered complex]] is computable and has trivial extension problem ([rmk.](Introduction+to+Stable+homotopy+theory+--+S#ExtensionProblemForSpectralSequences)). This is called the _[[May spectral sequence]]_.
 
+We obtain this spectral sequence in prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence} below. First we need to consider some prerequisites.
 
 +-- {: .num_lemma #CoModuleExtFromAToAForPrimitivelyGeneratedExteriorAlgebra}
 ###### Lemma
@@ -6171,7 +6173,7 @@ converging to the [[Ext]] over $\Gamma$ from $A$ to itself, whose first page is 
 +-- {: .proof}
 ###### Proof
 
-The filtering induces a filtering on the cobar complex (def. \ref{CobarComplex}) which computes $Ext_\Gamma$ (prop. \ref{CobarComplexGivesExtGroupsOutOfA}). The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]]. Its first page is the homology of the associated graded complex (by this [prop.](spectral+sequence+of+a+filtered+complex#FirstPages)).
+The filtering induces a filtering on the cobar complex (def. \ref{CobarComplex}) which computes $Ext_\Gamma$ (prop. \ref{CobarComplexGivesExtGroupsOutOfA}). The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]]. Its first page is the homology of the associated graded complex (by this [prop.](spectral+sequence+of+a+filtered+complex#FirstPages)), which hence is the homology of the cobar complex (def. \ref{CobarComplex}) of the [[associated graded]] Hopf algebra $gr_\bullet \Gamma$. By prop. \ref{CobarComplexGivesExtGroupsOutOfA} this is the [[Ext]]-groups as shown.
 
 =--
 
@@ -6198,22 +6200,27 @@ where we set $\xi_0 \coloneqq 1$.
 +-- {: .num_defn #hGeneratorsinClassicalAdamsSpectralSequence}
 ###### Definition
 
-Write
+Introduce new generators
 
 $$
-  h_{i,n} \coloneqq \xi_i^{2^n}
-  \,.
+  h_{i,n} 
+    \coloneqq 
+  \left\{
+    \array{
+      \xi_i^{2^n} & for \; i \geq 1, \, k \geq 0
+      \\
+      1 & for \; i = 0
+    }
+  \right.
 $$
-
 
 =--
 
-By binary expansion of powers, there is a unique way to express every monomial in $\mathbb{F}_2[\xi_1, \xi_2, \cdots]$ as a product of elements
++-- {: .num_remark #hGeneratorsForSteenrodAlgebraGiveUniqueDecompositionOfMonomials}
+###### Remark
 
-$$
-  h_{i,n} \coloneqq \xi_i^{2^n}
-$$
 
+By binary expansion of powers, there is a unique way to express every monomial in $\mathbb{F}_2[\xi_1, \xi_2, \cdots]$ as a product of the new generators in def. \ref{hGeneratorsinClassicalAdamsSpectralSequence}
 such that each such element appears at most once in the product. E.g.
 
 $$
@@ -6227,6 +6234,8 @@ $$
   \end{aligned}
   \,.
 $$
+
+=--
 
 +-- {: .num_prop #CoproductOnDualSteenrodInTermsOfAdaptedGenerators}
 ###### Proposition
@@ -6253,7 +6262,7 @@ $$
     & = 
     \Psi\left(\xi_i^{2^n}\right)
     \\
-    & = (\Psi(\xi_i))^{2n}
+    & = (\Psi(\xi_i))^{2^n}
     \\
     & = 
     \left(\underoverset{k = 0}{i}{\sum} \xi_{i-k}^{2^k} \otimes \xi_k\right)^{2^n}
@@ -6273,21 +6282,23 @@ $$
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #MaySpectralSequenceForClassicalAdamsSpectralSequence}
 ###### Proposition
 
-There exists a homological spectral sequence of graded $\mathbb{F}_2$-vector spaces
+There exists a converging [[spectral sequence]] of graded $\mathbb{F}_2$-vector spaces of the form
 
 $$
-  Ext_{gr_\bullet \mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)
+  E_1^{s,t,p}
   =
-  \mathbb{F}_2[\{h_{i,n}\}_{{i \geq 1,} \atop {n \geq 0}}]  
+  \mathbb{F}_2[ \{ h_{i,n} \}_{{i \geq 1,} \atop {n \geq 0}}]  
+    \;\Rightarrow\;
+  Ext^{s,t}_{\mathcal{A}_2^\ast}(\mathbb{F}_2, \mathbb{F}_2)
   \,,
 $$
 
-called a **[[May spectral sequence]]**, with 
+called the **[[May spectral sequence]]** (where $s$ and $t$ are from the bigrading of the spectral sequence itself, while the index $p$ is that of the graded $\mathbb{F}_2$-vector spaces), with 
 
-1. $deg(h_{i,n}) = 2i -1$;
+1. $h_{i,n} \in E_1^{1, 2^{2^{i+n} - 2^n - 1, 2i - 1 }}$
 
 1. first differential given by
 
@@ -6303,13 +6314,15 @@ called a **[[May spectral sequence]]**, with
    $$
      d_r
        \;\colon\;
-     F^p E_r^{s,t}
+     E_r^{s,t, p}
        \longrightarrow
-     F^{p-2r+1} E_r^{s+1,t-1,}
+     E_r^{s+1, t-1, p-2r+1}
      \,,
    $$
 
    where the filtration is by maximal degree.
+
+Notice that since everything is $\mathbb{F}_2$-linear, the [extension problem](Introduction+to+Stable+homotopy+theory+--+S#ExtensionProblemForSpectralSequences) of this spectral sequence is trivial.
 
 =--
 
@@ -6320,7 +6333,7 @@ called a **[[May spectral sequence]]**, with
 ###### Proof
 
 
-Define a [[graded algebra|grading]] on $\mathcal{A}^\bullet_{2}$ by setting (this is due to ([Ravenel 86, p.69](#Ravenel86)))
+Define a [[graded algebra|grading]] on the dual [[Steenrod algebra]] $\mathcal{A}^\bullet_{2}$ (theorem \ref{MilnorTheoremOnDualSteenrodAlgebra}) by taking the degree of the generators from def.\ref{hGeneratorsinClassicalAdamsSpectralSequence} to be (this idea is due to ([Ravenel 86, p.69](#Ravenel86)))
 
 $$
   {\vert h_{i,n} \vert}
@@ -6328,10 +6341,9 @@ $$
   2i-1
 $$
 
-and extending this additively to these unique representative.
+and extending this additively to monomials, via the unique decomposition of remark \ref{hGeneratorsForSteenrodAlgebraGiveUniqueDecompositionOfMonomials}.
 
-
-For instance
+For example
 
 $$
   \begin{aligned}
@@ -6345,8 +6357,7 @@ $$
   \,.
 $$
 
-
-Consider the corresponding [[filtered object|filtering]]
+Consider the corresponding increasing [[filtration]]
 
 $$
   \cdots 
@@ -6362,19 +6373,19 @@ $$
 
 with filtering stage $p$ containing all elements of total degree $\leq p$.
 
-Observe that
+Observe via prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} that
 
 $$
   \begin{aligned}
-    \Psi(\xi_i)
+    \Psi(h_{i,n})
     &
    =
-   \underset{deg = 2i-1}{\underbrace{\xi_{i} \otimes 1}}
+   \underset{deg = 2i-1}{\underbrace{h_{i,n} \otimes 1}}
    +
     \underoverset{0 \lt k \lt i}{}{\sum} 
-     \underset{deg = 2i-2}{\underbrace{\xi_{i-k}^{p^k} \otimes \xi_k}}
+     \underset{deg = 2i-2}{\underbrace{h_{i-k,n+k} \otimes h_{k,n}}}
    +
-    \underset{deg = 2i-1}{\underbrace{1 \otimes \xi_i}}
+    \underset{deg = 2i-1}{\underbrace{1 \otimes h_{i,n} }}
   \end{aligned}
   \,.
 $$
@@ -6385,6 +6396,8 @@ $$
   F_\bullet \mathcal{A}^\ast_{2}
    \longrightarrow
   gr_\bullet \mathcal{A}^\ast_{2}
+  \coloneqq
+  F_\bullet( \mathcal{A}^\ast_2)/F_{\bullet-1}( \mathcal{A}^\ast_2 ) 
 $$ 
 
 all the generators $h_{i,n}$ become [[primitive elements]]:
@@ -6411,7 +6424,7 @@ Hence lemma \ref{CoModuleExtFromAToAForPrimitivelyGeneratedExteriorAlgebra} appl
 
 $$
   Ext_{gr_\bullet \mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)
-  =
+    \simeq
   \mathbb{F}_2[\{h_{i,n}\}_{{i \geq 1,} \atop {n \geq 0}}]  
   \,.
 $$
@@ -6427,9 +6440,7 @@ $$
   \,.
 $$
 
-This is the _[[May spectral sequence]]_ for the computation of $Ext_{\mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)$. Notice that since everything is $\mathbb{F}_2$-linear, its [extension problem](spectral+sequence#ExtensionProblem) is trivial.
-
-Moreover, again by lemma \ref{SpectralSequenceConvergingToExtForFilteredHopfAlgebra}, the differentials on any $r$-page are the restriction of the differentials of the bar complex to the $r$-almost cycles ([prop.](Introduction+to+Stable+homotopy+theory+--+I#DifferentialsOnAlmostChains)). The differential of the bar complex is the alternating sum of the coproduct on $\mathcal{A}^\ast_{2}$, hence by prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} this is:
+Moreover, again by lemma \ref{SpectralSequenceConvergingToExtForFilteredHopfAlgebra}, the differentials on any $r$-page are the restriction of the differentials of the bar complex to the $r$-almost cycles ([prop.](Introduction+to+Stable+homotopy+theory+--+I#DifferentialsOnAlmostChains)). Now the differential of the cobar complex is the alternating sum of the coproduct on $\mathcal{A}^\ast_{2}$, hence by prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} this is:
 
 $$
   d_1 (h_{i,n})
@@ -6441,72 +6452,15 @@ $$
 
 ##### The second page
 
-Now we use the above formula to explicitly compute the cohomology of the second page of the [[classical Adams spectral sequence]].
+Now we use the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) to compute the second page of the [[classical Adams spectral sequence]] in low internal degrees $t-s$.
 
-In doing so it is now crucial that the differential in the standard bar complex resolution for $Ext$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears:
 
-$$
-  d \;\colon\;
-  A \otimes_A \Gamma \otimes_A \Gamma
-  \longrightarrow
-  A \otimes_A \Gamma \otimes_A \Gamma \otimes_A A
-$$
 
-$$
-  \begin{aligned}
-    d(1,h,1) & = 
-    (d 1 , h , 1) - (1 , d h , 1) + (1 , h , d 1)
-    \\
-    & = (1,1,h,1) - (1, \Psi(h) , 1 ) + (1 , h, 1, 1)
-  \end{aligned}  
-  \,.
-$$
 
-Hence we find for instance, using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} that
 
-$$
-  \begin{aligned}
-    d_1(h_n)
-    & \coloneqq
-    d_1(h_{1,n})
-    \\
-    & =   
-    \Psi(h_{1,n})
-    \\
-    & =
-    h_{1,n+1} \underset{= 0}{\underbrace{ h_{0,n} }}
-    + 
-    \underset{= 0}{\underbrace{ h_{0,n+1} }} h_{1,n}
-    \\
-    & = 
-    0
-  \end{aligned}
-$$
-
-and hence all the elements $h_n$ are cocycles.
-
-Similarly for instance
-
-$$
-  d_1(h_{2,0}) 
-    = 
-  h_{2,0} \underset{= 0}{\underbrace{h_{0,0}}}
-  + 
-  h_{1,1} h_{1,0}
-  +
-  \underset{= 0}{\underbrace{h_{0,2}}} h_{2,0}
-$$
-
-and so this is not a cocycle, but gives the relation that the product
-
-$$
-  h_{1,1} h_{1,0} = 0
-$$
-
-in cohomology. Proceeding this way by explicit inspection, one obtains:
-
-+-- {: .num_lemma }
++-- {: .num_lemma #TermsOnSecondPageOfMaySpectralSequenceInLowDegrees}
 ###### Lemma
+**(terms on the second page of May spectral sequence)**
 
 In the range $t - s \leq 13$, the second page of the May spectral sequence for $Ext_{\mathbb{A}^\ast_{\mathbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)$ has as generators all the 
 
@@ -6526,9 +6480,127 @@ subject to the relations
 
 * $h_2 x_7 = h_0 b_{2,1}$.
 
-The differentials in this range are
+=--
 
-1. $d_r(h_{n}) = 0$
+e.g. ([Ravenel 86, lemma 3.2.8 and lemma 3.2.10](#Ravenel86), [Kochman 96, lemma 5.3.2](#Kochman96))
+
++-- {: .proof}
+###### Proof
+
+Remember that the differential in the cobar complex (def. \ref{CobarComplex}) lands not in $\Gamma = \mathcal{A}^\ast_2$ itself, but in the unit coideal $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
+
+Using this we find for the differential $d_1$ of the generators in low degree on the first page of the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) via the formula for the differential from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators}, the following expressions:
+
+$$
+  \begin{aligned}
+    d_1(h_n)
+    & \coloneqq
+    d_1(h_{1,n})
+    \\
+    & =   
+    \overline{\Psi}(h_{1,n})
+    \\
+    & =
+    h_{1,n} \otimes \underset{= 0}{\underbrace{ h_{0,n} }}
+    + 
+    \underset{= 0}{\underbrace{ h_{0,n+1} }} \otimes h_{1,n}
+    \\
+    & = 
+    0
+  \end{aligned}
+$$
+
+and hence all the elements $h_n$ are cocycles on the first page of the May spectral sequence.
+
+Also, since $d_1$ is a [[derivation]] (by definition of the cobar complex, def. \ref{CobarComplex}) and since the product of the image of the cobar complex in the first page of the May spectral sequence is graded commutative, we have for all $n,k$ that
+
+$$
+  \begin{aligned}
+    d_1 (h_{n,k})^2
+    & =
+    2 h_{n,k} (d_1 (h_{n,k}))
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+(since $2 = 0 \; mod \; 2$).
+
+
+Similarly we compute $d_1$ on the other generators. These terms do not vanish, but so they impose relations on products in the cobar complex:
+
+$$
+  \begin{aligned}
+    d_1(h_{2,0}) 
+    & = 
+    h_{1,1} \otimes h_{1,0}
+    \\
+    d_1( h_{2,1} )
+    & =
+    h_{1,2} \otimes h_{1,1}
+    \\
+    d_1( h_{2,2} )
+     & =
+    h_{1,3} \otimes h_{1,2}
+    \\
+    d_1( h_{2,3} )
+    & =
+    h_{1,4} \otimes h_{1,3}
+    \\
+    d_1( h_{3,0} )
+     & =
+    h_{2,1} \otimes h_{1,0}
+    +
+    h_{1,2} \otimes h_{2,0}
+  \end{aligned}
+$$
+
+This shows that $h_n h_{n+1} = 0$ in the given range.
+
+The remaining statements follow similarly.
+
+=--
+
++-- {: .num_remark #PictureFromTermsOnSecondPageOfMaySpectralSequence} 
+###### Remark
+
+With lemma \ref{TermsOnSecondPageOfMaySpectralSequenceInLowDegrees}, so far we see the following picture in low degrees.
+
+$$
+  \array{
+    \vdots & \vdots
+    \\
+    3 & h_0^4 & & &  {h_1^3},\; {h_0^2 h_2}
+    \\
+    2 & h_0^2 & & h_1^2 & h_0 h_2
+    \\
+    1& h_0 & h_1 & & h_2
+     \\
+     & 0 & 1 & 2& 3 & 4
+  }
+$$
+
+Here the relation 
+
+$$
+  h_0 \otimes h_1 = 0
+$$ 
+
+removes a vertical tower of elements above $h_1$.
+
+So far there are two different terms in degree $(s,t-s) = (3,3)$. The next lemma shows that these become identified on the next page.
+
+=--
+
+
+
++-- {: .num_lemma #DifferentialsOnSecondPageOfMaySpectralSequence}
+###### Lemma
+**(differentials on the second page of the May spectral sequence)**
+
+The differentials on the second page of the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) relevant for internal degrees $t-s \leq 12$ are
+
+1. $d_2(h_{n}) = 0$
 
 1. $d_2(b_{2,n}) = h_n^2 h_{n+2} + h_{n+1}^3$
 
@@ -6536,32 +6608,200 @@ The differentials in this range are
 
 1. $d_2(b_{3,0}) = h_1 b_{2,1} + h_3 b_{2,0}$
 
-1. $d_4(b_{2,0}^2) = h_0^4 h_3$.
+=--
+
+([Kochman 96, lemma 5.3.3](#Kochman96))
+
++-- {: .proof}
+###### Proof
+
+The first point follows as before in lemma \ref{TermsOnSecondPageOfMaySpectralSequenceInLowDegrees}, in fact the $h_n$ are infinite cycles in the May spectral sequence.
+
+We spell out the computation for the second item:
+
+We may represent $b_{2,k}$ by $\xi_2^{2^k} \times \xi_2^{2^k}$
+plus terms of lower degree. Choose the representative
+
+$$
+  B_{2,k}
+    =
+  \xi_2^{2^k} \otimes \xi_2^{2^k}
+    \;+\;
+   \xi_1^{2^{k + 1}} \otimes \xi_1^{2^k} \xi_2^{2^k} 
+     \;+\;
+   \xi_1^{2^{k+1}} \xi^{2^k} \otimes \xi_1^{2^k}
+   \,.
+$$
+
+Then we compute $d B_{2,k}$, using the definition of the cobar complex (def. \ref{CobarComplex}), the value of the coproduct on dual generators (theorem \ref{MilnorTheoremOnDualSteenrodAlgebra}), remembering that the coproduct $\Psi$ on a Hopf algebra is a homomorphism for the underlying commutative ring, and using [[freshman's dream]] arithmetic to evaluate prime-2 powers of sums. For the three summands we obtain
+
+$$
+  \begin{aligned}
+    d ( \xi_2^{2^k}  \otimes \xi_2^{2^k})
+    & = 
+    \overline{\Psi} (\xi_2^{2^k}) \otimes \xi_2^{2^k}
+    +  
+    \xi_2^{2^k} \otimes \overline{\Psi}(\xi_2^{2 k})
+    \\
+    & =
+    \underset{c_1}{\underbrace{\xi_1^{2^{k+1}} \otimes \xi_1^{2^k} \otimes \xi_2^{2^k}}}
+    \;+\; 
+    \underset{c_2}{\underbrace{\xi_2^{2^k} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}}}
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    d ( \xi_1^{2^{k + 1}} \otimes \xi_1^{2^k} \xi_2^{2^k} )
+    & =
+    \xi_1^{2^k} \otimes \overline{\Psi}( \xi_1^{2^k} \xi_2^{2^k})
+    \\
+    & = 
+    \xi_1^{2^{k + 1}} 
+    \otimes
+    \left(
+      \xi_1^{2^k} \otimes 1
+        + 
+      1 \otimes \xi_1^{2^k}
+    \right)
+    \left(
+      \xi_2^{2^k} \otimes 1
+        +
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}
+        +
+      1 \otimes \xi_2^{2^k}
+    \right)
+    \\
+    & =
+    \underset{b}{
+    \underbrace{
+      \xi_1^{2^{k + 1}} \otimes \xi_1^{2^{k+1}+ 2^k} \otimes \xi_1^{2^k}
+    }}
+      \;+\;
+    \underset{c_1}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k} \otimes \xi_2^{2^k}
+    }}
+      \;+\; 
+    \underset{a}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_2^{2^k} \otimes \xi_1^{2^k}
+    }}
+      \;+\;
+    \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}}
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    d( \xi_1^{2^{k+1}} \xi^{2^k} \otimes \xi_1^{2^k} )
+    &
+    =
+    \overline{\Psi}( \xi_1^{2^{k+1}} \xi^{2^k} ) \otimes \xi_1^{2^k}
+    \\
+    & =
+    \left(
+      \xi_1^{2^{k+1}} \otimes 1
+        +
+      1 \otimes \xi_1^{2^{k+1}}
+    \right)
+    \left(
+      \xi_2^{2^k} \otimes 1
+        +
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}
+        +
+      1 \otimes \xi_2^{2^k}
+    \right)
+      \otimes
+    \xi_1^{2^k}
+    \\
+    & =
+    \xi_1^{2^{k+2}} \otimes \xi_1^{2^k} \otimes \xi_1^{2^k}
+      \;+\;
+    \underset{a}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_2^{2^k} \otimes \xi_1^{2^k}
+    }}
+      \;+\;
+    \underset{c_2}{\underbrace{
+      \xi_2^{2^k} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^k} 
+    }}
+      \;+\;
+    \underset{b}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1} + 2^k} \otimes \xi_1^{2^k}
+    }}
+  \end{aligned}
+  \,.
+$$
+
+The labeled summands appear twice in $d B_{2,k}$ hence vanish (mod 2). The remaining terms are
+
+$$
+  d B_{2,k}
+  =
+  \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}}
+   \;+\;
+  \xi_1^{2^{k+2}} \otimes \xi_1^{2^k} \otimes \xi_1^{2^k}
+$$
+
+and these indeed represent the claimed elements.
+
 
 =--
 
-e.g. ([Ravenel 86, lemma 3.2.8 and lemma 3.2.10](#Ravenel86), [Kochman 96, lemma 5.3.2 and lemma 5.3.3](#Kochman96))
++-- {: .num_remark } 
+###### Remark
 
-Hence this solves the May spectral sequence, hence gives the second page of the classical Adams spectral sequence. Inspection just of the degrees then shows that in this range there is no non-trivial differential in the Adams spectral sequece in this range. This way one arrives at:
+With lemma \ref{DifferentialsOnSecondPageOfMaySpectralSequence} the picture from remark \ref{PictureFromTermsOnSecondPageOfMaySpectralSequence} is further refined:
 
-+-- {: .num_theorem}
+For $k = 0$ the differentia $d_2(b_{2,n}) = h_n^2 h_{n+2} + h_{n+1}^3$ means that on the third page of the May spectral sequence there is an identification
+
+$$
+  h_1^3 = h_0^2 h_2
+  \,.
+$$
+
+Hence where on page two we saw two distinct elements in bidegree $(s,t-s) = (3,3)$, on the next page these merge:
+
+
+$$
+  \array{
+    \vdots & \vdots
+    \\
+    3 & h_0^4 & & &  {h_1^3} = {h_0^2 h_2}
+    \\
+    2 & h_0^2 & & h_1^2 & h_0 h_2
+    \\
+    1& h_0 & h_1 & & h_2
+     \\
+     & 0 & 1 & 2& 3 & 4
+  }
+$$
+
+
+=--
+
+Proceeding in this fashion, one keeps going until the 4-page of the May spectral sequence ([Kochman 96, lemma 5.3.5](#Kochman96)). Inspection of degrees shows that this is sufficient, and one obtains:
+
++-- {: .num_theorem #TheStablePageOfTheClassicalAdamsSpectralSequenceInLowDegree}
 ###### Theorem
+**(stable page of classical Adams spectral sequence)**
 
-In low $t-s$ the group $Ext_{\mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)$ is spanned by the items in the following table
+In internal degree $t-s \leq 12$ the infinity page (def. \ref{InfinityPageEAdams}) of the [[classical Adams spectral sequence]] (cor. \ref{ClassicalAdamsSpectralSequenceEstablished}) is spanned by the items in the following table
 
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
-
+Here every dot is a generator for a copy of $\mathbb{Z}/2\mathbb{Z}$. Vertical edges denote multiplication with $h_0$ and diagonal edges denotes multiplication with $h_1$. 
 
 =--
 
 e.g. ([Ravenel 86, theorem 3.2.11](#Ravenel86), [Kochman 96, prop. 5.3.6](#Kochman96)), graphics taken from ([[Symmetric spectra|Schwede 12]]))
 
-
 ##### The first dozen stable stems
  {#StableStems}
 
-Hence we have found
+Theorem \ref{TheStablePageOfTheClassicalAdamsSpectralSequenceInLowDegree} gives the stable page of the [[classical Adams spectral sequence]] in low degree. By corollary \ref{ClassicalAdamsSpectralSequenceEstablished} and def. \ref{EAdamsConvergingCompletely} we have that a vertical sequence of dots encodes an 2-primary part of the stable homotopy groups of spheres according to the graphical calculus of remark \ref{PrimaryDecompositionGraphicalRepresentation} (the rules for determining group extensions there is just the solution to the extension problem ([rmk.](Introduction+to+Stable+homotopy+theory+--+S#ExtensionProblemForSpectralSequences)) in view of def. \ref{EAdamsConvergingCompletely}):
 
 
 
@@ -6581,6 +6821,12 @@ And expanding the range yields this :
 <img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D2pic.gif" alt="stable homotopy groups of spheres at 2" width="800" />
 
 (graphics taken from [Hatcher's website](http://www.math.cornell.edu/~hatcher/))
+
+
+
+
+
+
 
 
 #### The case $E = H \mathbb{F}_p$ and $X = M U$ 
