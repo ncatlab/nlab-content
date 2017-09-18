@@ -1,7 +1,56 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-$K$ is an [[absolute extensor]] of a [[topological space]] $X$ if for every [[closed subspace]] $A\subset X$ and function $f:A\to K$ there is an [[extension]] $\tilde{f}:X\to K$, i.e., $\tilde{f}=f\circ i$, where $i:A\hookrightarrow X$ is the closed embedding.
+A [[topological space]] $K$ is called an _absolute extensor_ if for
+
+1. $X$ any [[nice topological space|nice]] [[topological space]]
+
+1. $A \overset{i}{\hookrightarrow} X$ any [[closed subspace]]  
+
+1. $f\colon A \longrightarrow K$ any [[continuous function]] 
+
+there is an [[extension]] to a [[continuous function]] $\tilde{f}:X\to K$, i.e., such that $\tilde{f}=f\circ i$:
+$$
+  \array{
+    A &\overset{f}{\longrightarrow}& K
+    \\
+    {}^{\mathllap{i}}\downarrow & \nearrow_{\mathrlap{\exists \tilde f}}
+    \\
+    X
+  }
+$$
+
+Here "[[nice topological space]]" is variously taken to mean [[metrizable topological space]] or at least [[normal topological space]]. 
+
+## Examples
+
+The [[Tietze extension theorem]] implies that the [[real line]] $\mathbb{R}$ equipped with its [[Euclidean space]] [[metric topology]] is an absolute extensor. It follows that so are the [[closed interval]] [[subspace]] $[0,1] \subset \mathbb{R}$ and the [[circle]] $S^1$.
+
+## Related concepts
+
+* [[Tietze extension theorem]]
+
+* [[quasi-finite CW-complex]]
+
+* [[absolute retract]]
+
+
+## References
+
+* [[eom]], _[Absolute neighbourhood extensor](https://www.encyclopediaofmath.org/index.php/Absolute_neighbourhood_extensor)_
+
+[[!redirects absolute extensors]]
