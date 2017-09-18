@@ -82,6 +82,8 @@ An edition which emphasises the tree structure of the work is
 
 * {#Russell10}Bertrand Russell, _[[Principia Mathematica]]_, 1910
 
+* Kai F. Wehmeier, _Wittgensteinian Predicate Logic_ , Notre Dame J. Formal  Logic **45** no.1 (2004) pp.1-11. ([projecteuclid](http://projecteuclid.org/euclid.ndjfl/1094155275))
+
 * {#Wehmeier11}Wehmeier, Vortrag _The First-Order Logic of the Tractatus_, [Video](https://www.youtube.com/watch?v=e75U1fgBC6g)
 
 category: reference
