@@ -30,3 +30,5 @@ The $n$Lab entry [[homotopy theory]] takes homotopy in a rather general sense in
 
 * [[homotopical algebraic quantum field theory]]
 
+
+[[!redirects homotopical algebras]]
