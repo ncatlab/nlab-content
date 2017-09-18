@@ -3,7 +3,9 @@
 
 ## related $n$Lab entries
 
-* [[10d super Yang-Mills theory]]
+* [[10d super Yang-Mills theory]], [[IKKT matrix model]]
 
 category: people
 
+
+[[!redirects Michael Movshev]]
