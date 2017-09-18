@@ -15,7 +15,7 @@ $$
   U : (\infty,1)StabCat \to N
 $$
 
-to a stable $(\infty,1)$-category which is universal with the property that it respects colimits and exact sequences in a suitable way. Given any stable $(\infty,1)$-category $A$, its (connective or non-connective, depending on details) algebraic K-theory spectrum is the hom-object
+to a stable $(\infty,1)$-category which is universal with the property that it respects [[filtered colimits]] and exact sequences in a suitable way. Given any stable $(\infty,1)$-category $A$, its (connective or non-connective, depending on details) algebraic K-theory spectrum is the hom-object
 
 $$
   K(A) \simeq Hom(U(Sp), U(A))
