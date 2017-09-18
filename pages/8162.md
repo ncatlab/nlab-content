@@ -49,3 +49,7 @@ $$
 * [[associated graded ring]] (or algebra)
 [[!redirects associated graded]]
 [[!redirects associated graded objects]]
+
+## References
+
+Discussion of the universal property of the associated graded construction on [mathoverflow](http://mathoverflow.net/questions/263/what-is-the-universal-property-of-associated-graded)
