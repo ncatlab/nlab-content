@@ -1,4 +1,3 @@
-[[!redirects fundamental product theorem in K-theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -49,7 +48,13 @@ $$
 
 (by [this prop.](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)).
 
-(Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)).)
+Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)). This element 
+
+$$
+  h - 1 \in \tilde K_{\mathbb{C}}(S^2)
+$$
+
+is called the _[[Bott element]]_ of complex [[topological K-theory]].
 
 It follows that there is a [[ring homomorphism]] of the form
 
@@ -83,7 +88,7 @@ $$
   }
 $$
 
-to the topological K-theory ring of the [[product topological space]] $X \times S^^2$, where the second map is the [[external tensor product of vector bundles]].
+to the topological K-theory ring of the [[product topological space]] $X \times S^^2$, where the second map is the [[external tensor product of vector bundles]]. 
 
 +-- {: .num_prop #FundamentalProductTheorem}
 ###### Proposition
@@ -128,6 +133,8 @@ $$
 is an [[isomorphism]] in [[topological K-theory]].
 
 =--
+
+## Bott periodicity
 
 When restricted to [[reduced K-theory]] then the external product theorem yields the statement of [[Bott periodicity]]:
 
@@ -213,7 +220,40 @@ $$
   \,,
 $$
 
-where on the right we used that [[smash product]] with the 2-sphere is the same as double [[suspension]]. Finally $\tilde K(S^2) \simeq \mathbb{Z}$ (example \ref{TopologicalKTheoryRingOfThe2Sphere}), so that the left hand reduces to $\tilde K(X)$.
+where on the right we used that [[smash product]] with the 2-sphere is the same as double [[suspension]]. 
+
+Finally there is an [[isomorphism]]
+
+$$
+  \array{
+    \mathbb{Z} 
+      &\underoverset{\simeq}{ \beta }{\longrightarrow}&
+    \tilde K_{\mathbb{C}}(S^2)
+    \\
+    1 &\overset{\phantom{AAA}}{\mapsto}& (h-1)
+  }
+$$
+
+(example \ref{TopologicalKTheoryRingOfThe2Sphere}). The composite
+
+$$
+  \array{
+    \tilde K_{\mathbb{C}}(X)
+      &
+      \simeq
+    \mathbb{Z} \otimes \tilde K_{\mathbb{C}}(X)
+      \overset{ \beta \otimes id }{\longrightarrow}
+    \tilde K_{\mathbb{C}}(S^2) \otimes \tilde K_{\mathbb{C}}(X)
+      \underoverset{\simeq}{\boxtimes}{\longrightarrow}
+    \tilde K_{\mathbb{C}}(S^2 \wedge X)
+      =
+    \tilde K_{\mathbb{C}}(\Sigma^2 X)
+    \\
+    E &\overset{\phantom{AAAA}}{\mapsto}& (h-1) \boxtimes E
+  }
+$$
+
+is the isomorphism to be established.
 
 =--
 
@@ -269,3 +309,6 @@ $$
 
 
 [[!redirects external product theorem]]
+[[!redirects fundamental product theorem in K-theory]]
+
+[[!redirects fundamental product theorem in K-theory]]
