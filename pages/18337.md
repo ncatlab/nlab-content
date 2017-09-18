@@ -1,4 +1,4 @@
-An informal term, usually synonymous with [[operation]], and useful to avoid terms like [[function]] or [[map]] which are 
+An informal term, usually synonymous with [[operation]], whose being and remaining _undefined_ is the very point of its usefulness: it is a useful catch-all, avoiding terms like [[function]] or [[map]] which are 
 
 * usually precisely defined within a given context, 
 
