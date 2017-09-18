@@ -68,6 +68,8 @@ Unlike in the usual [[classical mechanics|classical mechanical]] systems, in som
 * Wikipedia, _[Euler-Lagrange equation](http://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation)_.
 * Robert Bryant, Phillip Griffiths, Daniel Grossman, _Exterior differential systems and Euler-Lagrange partial differential equations_, Chicago Lectures in Mathematics 2003, 205+xiv pp. [math.DG/0207039](http://arxiv.org/abs/math/0207039) [bookpage](http://www.press.uchicago.edu/ucp/books/book/chicago/E/bo3637779.html)
 
+* _[Higher prequantum geometry II: The principle of extremal action -- comonadically](https://www.physicsforums.com/insights/higher-prequantum-geometry-ii-principle-extremal-action-comonadically/)_
+
 [[!redirects Euler-Lagrange equations]]
 
 [[!redirects Euler-Lagrange equation of motion]]
