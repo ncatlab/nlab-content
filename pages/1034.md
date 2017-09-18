@@ -30,11 +30,14 @@ To free the notion from membership-based set theory, we must replace _sets of se
 
 ## Definition 
 
-A **universe** in a topos $\mathcal{E}$ is a morphism $el\colon E \to U$ satisfying the axioms to follow.  We think of $el\colon E \to U$ as a $U$-indexed family of objects (sets), and we define a morphism $a\colon A \to I$ (regarded as an $I$-indexed family of objects) to be **$U$-small** if there exists a morphism $f\colon I \to U$ and a [[pullback]] square
+A **universe** in a topos $\mathcal{E}$ is a morphism $el\colon E \to U$ satisfying the axioms to follow.  We think of $el\colon E \to U$ as an $U$-indexed family of objects/sets (fibers of $el$ being those objects), and we define a morphism $a\colon A \to I$ (regarded as an $I$-indexed family of objects) to be **$U$-small** if there exists a morphism $f\colon I \to U$ and a [[pullback]] square
 $$\array{A & \to & E\\
   ^a\downarrow && \downarrow^{el}\\
   I& \underset{f}{\to} & U.}
 $$
+
+The arrow $f$ is sometimes called the **name** of $a\colon A \to I$, since in the case when $I=*$, the arrow $f:* \to U$ _points_ at the term in the universe $U$ representing the object $A$. (See also this [discussion](http://nforum.mathforge.org/discussion/6564/elementary-formulation-of-groupautomorphism-group/?Focus=53083#Comment_53083) and references there.) 
+
 Note that $f$ is not, in general, unique: a universe can contain many isomorphic sets.  With this definition, the pullback of a $U$-small morphism is automatically again $U$-small.  We say that an object $X$ is $U$-small if $X\to 1$ is $U$-small.
 
 The axioms which must be satisfied are:
