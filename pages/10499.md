@@ -710,7 +710,7 @@ Discussion of rational functions as functions on the [[Ran space]] is in
 
 Discussion of $\mathfrak{a}$-[[adic completion]] and $\mathfrak{a}$-[[torsion approximation]] as derived idempotent (co-)monads on a [[derived category]] of chain complexes of modules -- _Greenlees-May duality_ -- is in 
 
-* {#PortaShaulYekutieli10} Marco Porta, Liran Shaul, [[Amnon Yekutieli]], _On the Homology of Completion and Torsion_ ([arXiv:1010.4386](http://arxiv.org/abs/1010.4386))
+* {#PortaShaulYekutieli10} Marco Porta, [[Liran Shaul]], [[Amnon Yekutieli]], _On the Homology of Completion and Torsion_ ([arXiv:1010.4386](http://arxiv.org/abs/1010.4386))
 
 building on
 
@@ -728,7 +728,7 @@ Discussion of this in [[stable homotopy theory]] and the full generality of [[hi
 
 And in the context of commutative DG-rings in
 
-* Liran Shaul, _Completion and torsion over commutative DG rings_, [arXiv:1605.07447](http://arxiv.org/abs/1605.07447)
+* [[Liran Shaul]], _Completion and torsion over commutative DG rings_, [arXiv:1605.07447](http://arxiv.org/abs/1605.07447)
 
 This and further generalization is in
 
