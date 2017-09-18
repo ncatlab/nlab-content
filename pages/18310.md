@@ -36,6 +36,7 @@ For a non-commutative monoid one distinguishes left and right cancellability, in
 ## Related concepts
 
 * [[Grothendieck group]]
+* [[left cancellative category]]
 
 ## References
 
