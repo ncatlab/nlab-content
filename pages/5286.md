@@ -114,7 +114,7 @@ The BV-algebra structure on [[multivector field]]s on an [[oriented]] [[smooth m
 
 and on p. 6 of 
 
-* [[Claude Roger]], _Gerstenhaber and Batalin-Vilkovisky algebras_ ([ps](http://www.emis.de/journals/AM/09-4/roger.ps.gz))
+* [[Claude Roger]], _Gerstenhaber and Batalin-Vilkovisky algebras_ , Archivum mathematicum, Volume 45 (2009), No. 4 ([pdf](http://www.emis.de/journals/AM/09-4/roger.pdf))
 
 
 The BV-algebra structure on  [[Hochschild cohomology]] is discussed for instance in
