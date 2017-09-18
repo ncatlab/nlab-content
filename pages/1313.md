@@ -1,27 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Monoidal categories
-+--{: .hide}
++-- {: .hide}
 [[!include monoidal categories - contents]]
 =--
 #### Mapping space
-+--{: .hide}
++-- {: .hide}
 [[!include mapping space - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
-
+{: toc}
 
 ## Idea 
 
@@ -53,9 +51,11 @@ As before, let $C$ be a category and $X,Y\in C$.
 
 Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian coclosed category]]__ has all of these (and an [[initial object]]).  Some coexponential objects occur naturally in algebraic categories (such as [[rings]] or [[frames]]) whose opposites are viewed as categories of spaces (such as [[schemes]] or [[locales]]).  Cf. also [[cocartesian closed category]].
 
+
 ## Examples 
 
 Of course, in any cartesian closed category every object is exponentiable and exponentiating.  In general, exponentiable objects are more common and important than exponentiating ones, since the existence of $X^Y$ is usually more related to properties of $Y$ than properties of $X$.
+
 
 ### Exponentiation of sets and of numbers
 
@@ -77,18 +77,16 @@ $$
 
 If $b = 0$ is [[zero]], the expression on the right is 1, reflecting the fact that $0$ is the [[cardinality]] of the [[empty set]], which is the [[initial object]] in [[Set]].
 
-When the natural numbers are embedded into larger [[rig]]s or [[ring]]s, the operation of exponentiation may extend to these larger context. It yields for instance an exponentiation operation on the [[real number]]s $\mathbb{R}$, and on the [[complex number]]s $\mathbb{C}$.
-
+When the natural numbers are embedded into larger [[rig]]s or [[ring]]s, the operation of exponentiation may extend to these larger context. It yields for instance an exponentiation operation on the [[positive real numbers]].
 
 
 ### More examples
-
 
 * In [[Top]] (the category of _all_ topological spaces), the exponentiable spaces are precisely the [[core-compact spaces]].  In particular, this includes [[locally compact Hausdorff space]]s.  However, most [[nice category of spaces|nice categories of spaces]] are cartesian closed, so that all objects are exponentiable; note that usually the cartesian product in such categories has a slightly different topology than it does in $Top$.
 
 * There are similar characterizations of exponentiable [[locales]] (see [[locally compact locale]] and [[continuous poset]] and (in the 2-categorical sense) [[toposes]] (see [[metastably locally compact locale]] and [[continuous category]]).
 
-* In [[algebraic set theory]] one often assumes that only small objects (and morphisms) are exponentiable.  This is  analogous to how in material [[set theory] one can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.
+* In [[algebraic set theory]] one often assumes that only small objects (and morphisms) are exponentiable.  This is  analogous to how in material [[set theory]] one can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.
 
 * In a [[type theory]] with [[dependent product]]s, every display morphism is exponentiable in the category of [[context]]s ---even in a type theory without identity types, so that not every morphism is display and the relevant slice category need not have all products.
 
@@ -108,12 +106,14 @@ $$ (X^Y)^Z \cong X^{Y\times Z}. $$
 Similarly, $X \cong X^1$, where $1$ is a [[terminal object]].  Thus, a product of exponentiable objects is exponentiable.
 
 Other natural isomorphisms that match equations from ordinary algebra include:
+
 *  $(X \times Y)^Z = X^Z \times Y^Z$;
 *  $1^Z \cong 1$.
 
 These show that, in a cartesian monoidal category, a product of exponentiating objects is also exponentiating.
 
 Now suppose that $C$ is a [[distributive category]].  Then we have these isomorphisms:
+
 *  $X^{Y + Z} \cong X^Y \times X^Z$;
 *  $X^0 \cong 1$.
 
@@ -121,11 +121,15 @@ Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object
 
 Note that any cartesian closed category with finite coproducts must be distributive, so all of the isomorphisms above hold in any closed [[2-rig]] (such as [[Set]], of course).
 
+
 ## Related concepts
 
 * [[exponential ideal]]
 
 
+[[!redirects exponential]]
+[[!redirects exponentials]]
+[[!redirects exponential object]]
 [[!redirects exponential objects]]
 [[!redirects exponentiable object]]
 [[!redirects exponentiable objects]]
@@ -136,9 +140,8 @@ Note that any cartesian closed category with finite coproducts must be distribut
 [[!redirects powerful object]]
 [[!redirects powerful objects]]
 
+[[!redirects exponentiating object]]
+[[!redirects exponentiating objects]]
+
 [[!redirects exponentiation]]
 [[!redirects exponent]]
-
-[[!redirects exponentials]]
-
-
