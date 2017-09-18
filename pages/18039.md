@@ -1,0 +1,1 @@
+See [Pivotal Category](https://ncatlab.org/nlab/show/pivotal+category)
