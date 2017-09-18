@@ -112,7 +112,7 @@ The de Rham theorem also holds internally in the context of suitable [[smooth to
 
 Specifically 
 
-* the internal [[singular cohomology|singular chain complex]] in $\mathcal{T}$ is given as the $R$-linear dual of the free interal $R$-module on the [[internal hom]] objects $[\Delta^n,X]$, where $R$ is the internal incarnation of the real numbers;
+* the internal [[singular cohomology|singular chain complex]] in $\mathcal{T}$ is given as the $R$-linear dual of the free internal $R$-module on the [[internal hom]] objects $[\Delta^n,X]$, where $R$ is the internal incarnation of the real numbers;
 
 * the de Rham complex is given by [[differential forms in synthetic differential geometry]].
 
