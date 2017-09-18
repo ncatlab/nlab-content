@@ -64,7 +64,7 @@ In particular the theorem hence asserts that the $G$-[[equivariant homotopy theo
 +-- {: .num_remark}
 ###### Remark
 
-There is an evident generalization of the [[orbit category]] of a fixed group to the [[global orbit category]]. Under this generalization an analog of Elmendorf's theorem plays a cental role in [[global equivariant homotopy theory]] ([Rezk 14](#Rezk14)).
+There is an evident generalization of the [[orbit category]] of a fixed group to the [[global orbit category]]. Under this generalization an analog of Elmendorf's theorem plays a central role in [[global equivariant homotopy theory]] ([Rezk 14](#Rezk14)).
 
 =--
 
