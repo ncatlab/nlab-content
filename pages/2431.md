@@ -481,7 +481,7 @@ A **reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory** on $\mathca
    $$
 
 
-   (from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy categiry]] of $\mathcal{C}$ into $\mathbb{Z}$-[[graded abelian groups]]);
+   (from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ into $\mathbb{Z}$-[[graded abelian groups]]);
 
 1. a [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
 
