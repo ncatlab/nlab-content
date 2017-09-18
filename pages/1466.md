@@ -22,7 +22,7 @@ A _uniform structure_ or _uniformity_ on a [[set]] $X$ consists of a collection 
 
 ## Definitions
 
-The definition described above is based on [[entourages]]; it was the original one published in [[Bourbaki]] and is still most commonly seen today.  There is an equivalent (but less directly generalisable) definition based on [[uniform covers]].  The relationship with [[gauge spaces]] (defined below) also allows for another definition.
+The definition described above is based on [[entourages]]; it was the original one published in [[Bourbaki]] and is still most commonly seen today.  There is an equivalent definition based on [[uniform covers]], although it is more difficult to generalize in some ways (e.g. to [[quasiuniform spaces]]).  The relationship with [[gauge spaces]] (defined below) also allows for another definition.
 
 
 ### Entourage uniformities
