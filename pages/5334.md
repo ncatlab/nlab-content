@@ -12,6 +12,7 @@ Errett Bishop (1928--1983) was responsible for reviving interest in [[constructi
 While [[Brouwer]] had insisted that mathematics was primary to [[logic]], the [[intuitionism|intuitionists]] who followed him went more into intuitionistic [[foundations]] and [[philosophy]] than into mathematics as such.  The [[Russian constructivism|Russian school]] of constructivism focussed on [[recursion theory]] and was far removed from modern [[Bourbaki]]-style mathematics.  There was a pervasive feeling that constructive mathematics, particularly constructive [[analysis]], was simply unworkable; Bishop attacked this idea, not by arguing against it, but by simply demonstrating how constructive analysis could be done.
 
 Bishop\'s important works in constructive mathematics include:
+
 *  _[[Foundations of Constructive Analysis]]_ (1967), the work which made him famous;
 *  "Schizophrenia in contemporary mathematics" (1973), a philosophical attack on nonconstructive mathematics;
 *  _Constructive Measure Theory_ (1972, with [[Henry Cheng]]), featuring a better [[measure theory]] than in _FCA_;
