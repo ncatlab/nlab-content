@@ -13,6 +13,8 @@ The _translation group_ in [[dimension]] $n$ is the [[Cartesian space]] $\mathbb
 
 * [[translation Lie algebra]]
 
+* [[affine group]]
+
 * [[super translation group]]
 
 * [[rotation group]]
