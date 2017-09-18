@@ -691,3 +691,5 @@ Vol. 13, No. 2 (Apr., 1962), pp. 293-297 ([JSTOR]( http://www.jstor.org/stable/2
 [[!redirects chain complex of singular simplices]]
 [[!redirects chain complexes of singular simplices]]
 
+[[!redirects singular chain homology]]
+
