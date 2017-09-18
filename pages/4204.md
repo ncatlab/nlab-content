@@ -23,9 +23,9 @@ A _2-dimensional TQFT_ is a [[TQFT|topological quantum field theory]] on [[cobor
 
 ## Classification
 
-When formulated as an (only) "globally" as 1-[[functors]] on a 1-[[category of cobordisms]] (see at _[[FQFT]]_ for more), then 2d TQFTs have a comparativle simple classification: the [[bulk field theory]] is determined by a commutative [[Frobenius algebra]] structure on the [[finite dimensional vector space]] assigned to the circle ([Abrams 96](#Abrams96)).
+When formulated as an (only) "globally" as 1-[[functors]] on a 1-[[category of cobordisms]] (see at _[[FQFT]]_ for more), then 2d TQFTs have a comparatively simple classification: the [[bulk field theory]] is determined by a commutative [[Frobenius algebra]] structure on the [[finite dimensional vector space]] assigned to the circle ([Abrams 96](#Abrams96)).
 
-However, such global 2d TQFTs with [[coefficients]]in [[Vect]] 
+However, such global 2d TQFTs with [[coefficients]] in [[Vect]] 
 do not capture the 2d TQFTs of most interest in [[quantum field theory]], which instead are "[[cohomological quantum field theories]]" ([Witten 91](#Witten91)) such as the [[topological string]] [[A-model]] and [[B-model]] that participate in [[homological mirror symmetry]].
 
 These richer 2d TQFTs are instead local TQFTs in the sense of _[[extended TQFT]]_, i.e. they are [[(∞,2)-functors]] on a suitable [[(∞,2)-category of cobordisms]] (see at _[[FQFT]]_ for more), typically on "non-compact" 2-d cobordisms, meaning on those that have non-vanishing outgoing bounary. As such they are now classified by [[Calabi-Yau objects]] in an [[symmetric monoidal (infinity,2)-category]] ([Lurie 09, section 4.2](#Lurie09)). For coefficients in the [[(∞,2)-category]] of [[(∞,n)-vector space|(∞,2)-vector space]] (i.e. [[A-∞ algebras]] with [[(∞,1)-bimodules]] between them in the [[(∞,1)-category of chain complexes]]), these theories had been introduced under the name "[[TCFT]]" in ([Getzler 92](#Getzler92), [Segal 99](#Segal99)) following ideas of [[Maxim Kontsevich]], and have been classified in ([Costello 04](#Costello04)), see ([Lurie 09, theorem 4.2.11, theorem 4.2.14](#Lurie09)).
