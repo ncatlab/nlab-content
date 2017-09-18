@@ -37,7 +37,7 @@ The dual notion is that of [[power]]ing.
 +-- {: .un_defn}
 ###### Definition
 
-Let $V$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]].  In a $V$-[[enriched category]] $C$, the **copower** of an object $x\in C$ by an object $k\in V$ is an object $k\odot x \in C$ with a [[natural isomorphism]]
+Let $V$ be a [[closed monoidal category|closed]] [[monoidal category]].  In a $V$-[[enriched category]] $C$, the **copower** of an object $x\in C$ by an object $k\in V$ is an object $k\odot x \in C$ with a [[natural isomorphism]]
 
 $$
   C(k\odot x, y) \cong V(k, C(x,y))
