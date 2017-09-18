@@ -235,13 +235,13 @@ This is a special case of [[Higher Topos Theory|HTT, prop 2.1.2.1]] and [[Higher
 +-- {: .num_prop #FinalFunctorsInduceEquivalentSlices}
 ###### Proposition
 
-For $v \colon K \to \tilde K$ a map of small [[(∞,1)-categories]] and $\mathcal{C}$ any $(\infty,1)$-category, the induced [[(∞,1)-functor]] between slice $(\infty,1)$-categories
+Let $v \colon K \to \tilde K$ be a map of small [[(∞,1)-categories]], $\mathcal{C}$ an $(\infty,1)$-category, $\tilde{p}: \tilde{K} \to \mathcal{C}$ and $p = \tilde{p}v$. The induced [[(∞,1)-functor]] between slice $(\infty,1)$-categories
 
 $$
-  \mathcal{C}_{/ K}} \to \mathcal{C}_{/\tilde{K}}
+  \mathcal{C}_{/ \tilde{p}} \to \mathcal{C}_{/p}
 $$
 
-is an [[equivalence of (∞,1)-categories]] for each diagram $\tilde{K} \to \mathcal{C}$ precisely if $v$ is an op-[[final (∞,1)-functor]] (hence if $v^{op}$ is final).
+ is an [[equivalence of (∞,1)-categories]] for each diagram $\tilde{p}$ precisely if $v$ is an op-[[final (∞,1)-functor]] (hence if $v^{op}$ is final).
 
 =--
 
