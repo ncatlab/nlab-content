@@ -40,6 +40,6 @@ Review includes
 
 * {#Bhatt14} [[Bhargav Bhatt]], _What is... a perfectoid space?_, Notices of the AMS, volume 61, number 9 ([[BhattPerfectoidSpace.pdf:file]])
 
-* [[Peter Scholze]], _Perfectoid spaces: a survey_, [arXiv](arxiv.org/abs/1303.5948).
+* [[Peter Scholze]], _Perfectoid spaces: a survey_, [arXiv](http://arxiv.org/abs/1303.5948).
 
 [[!redirects perfectoid spaces]]
