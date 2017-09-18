@@ -24,9 +24,20 @@ $\,$
 **Abstract** _We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. In the accompanying [[Introduction to Stable homotopy theory -- S|seminar]] we consider applications to [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
 
 
-$\,$
+***
+
+Lecture notes.
+
+Main page: _[[Introduction to Stable homotopy theory]]_.
+
+Previous section: _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable homotopy theory]]_
+
+This section: **Interlude -- Spectral sequences**
+
+Next section: _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_
 
 ***
+
 
 #Contents#
 * table of contents
