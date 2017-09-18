@@ -41,6 +41,9 @@ The term 'point' is often used for a [[global element]]; that is the meaning, fo
 
 * [[generalized element]]
 
+* [[infinitesimally thickened point]]
+
+* [[superpoint]]
 
 [[!redirects point]]
 [[!redirects points]]
