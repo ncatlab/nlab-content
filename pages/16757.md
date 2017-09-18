@@ -9,7 +9,7 @@ An _ADE singularity_ is a [[orbifold]] fixed point locally of the form $\mathbb{
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="200" alt="ADE 2Cycle" /></div> 
  
-These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-up|blowing up]] at singular pointes. The resulting exceptional fiber (the blow-up of the singular point) is a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the corresponding [[Dynkin diagram]].
+These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-up|blowing up]] at singular pointes. The resulting exceptional fiber (the blow-up of the singular point, an [[ALE space]]) is a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the corresponding [[Dynkin diagram]].
 
 > (graphics grabbed from [Wijnholt 14, part III](string+phenomenology#Wijnholt14))
 
@@ -20,6 +20,8 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 * [[quiver gauge theory]]
 
 * [[M-theory on G2-manifolds]]
+
+* [[D7-brane]]
 
 ## References
 
@@ -40,7 +42,7 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
 
 
-* M. Wijnholt, slides 6-10 of  _String compactification_, PITP 2014 ([pdf](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
+* [[Martin Wijnholt]], slides 6-10 of  _String compactification_, PITP 2014 ([pdf](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
 
 
 
@@ -48,3 +50,10 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 
 [[!redirects ADE-singularity]]
 [[!redirects ADE-singularities]]
+
+[[!redirects ADE orbifold]]
+[[!redirects ADE orbifolds]]
+
+[[!redirects ADE-orbifold]]
+[[!redirects ADE-orbifolds]]
+
