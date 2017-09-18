@@ -83,6 +83,9 @@ For $\mathcal{C}$ an [[abelian category]] this definition reduces ([Barwick 14](
 
 * [[equivariant sphere spectrum]]
 
+* [[KR cohomology theory]]
+
+* [[equivariant connective topological K-theory]]
 
 ## Equivariant cohomology
 
