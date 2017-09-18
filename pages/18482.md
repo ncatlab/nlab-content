@@ -29,7 +29,7 @@ $$
 
 (e.g. [Nikolaus-Scholze 17, p. 13](#NikolausScholze17))
 
-What is called _Farrell-Tate cohomology_ is a generalization of this construction to possibly infinite [[discrete groups]] $G$ of finite virtual cohomological dimension.
+What is called _Farrell-Tate cohomology_ is a generalization of this construction to possibly infinite [[discrete groups]] $G$ of finite [[virtual cohomological dimension]].
 
 (e.g. [Nikolaus-Scholze 17, section I.4](#NikolausScholze17))
 
