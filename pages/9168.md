@@ -681,7 +681,7 @@ Using the [[canonical commutation relation]] of the mode functions (eq:Canonical
 $$
   \label{2PointFunctionFreeScalarFieldOnMinkowski}
   \begin{aligned}
-    \omega(x,y)
+    -i \omega(x,y)
      & \coloneqq
      \{ \phi^{(-)}(x), \phi^{(+)}(y) \}
     \\
