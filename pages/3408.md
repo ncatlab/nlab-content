@@ -40,6 +40,7 @@ A third description comes from Stone duality (see below).
 
 
 ## Stone duality 
+ {#StoneDuality}
 
 Classical [[Stone duality]] comes about as follows. The two-element Boolean algebra can be regarded as a Boolean algebra object $\mathbf{2}$ in the category of [[compact Hausdorff spaces]] $CH$. Thus, for each finitary Boolean algebra operation $\theta\colon \mathbf{2}^n \to \mathbf{2}$, there is a corresponding operation on the representable functor $CH(-, \mathbf{2}): CH^{op} \to Set$ given by 
 
