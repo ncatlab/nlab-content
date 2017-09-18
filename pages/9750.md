@@ -20,7 +20,14 @@ What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mec
 ## Definition
  {#Definition}
 
-Let $\mathbf{H}$ be the [[smooth infinity-groupoid|smooth topos]]. For $p+1 \in \mathbb{N}$ write $\mathbf{B}^{p+1}U(1)_{conn} \in \mathbf{H}$ for the universal [[moduli stack]] of [[circle n-bundles with connection]] (given by the [[Deligne complex]]). Notice that for $\Sigma$ an [[orientation|oriented]] [[closed manifold]] of [[dimension]] $k \leq p+1$, then [[fiber integration]] in [[ordinary differential cohomology]] is reflected by a morphism of the form
+Let $\mathbf{H}$ be the [[smooth infinity-groupoid|smooth topos]]. For $p+1 \in \mathbb{N}$ write $\mathbf{B}^{p+1}U(1)_{conn} \in \mathbf{H}$ for the universal [[moduli stack]] of [[circle n-bundles with connection]] (given by the [[Deligne complex]]). 
+
+Notice that [[fiber integration in ordinary differential cohomology]] has the following stacky incarnation (see [here](fiber+integration+in+ordinary+differential+cohomology#ViaSmoothHomotopyType)):
+
++-- {: .num_prop}
+###### Proposition
+
+For $\Sigma$ an [[orientation|oriented]] [[closed manifold]] of [[dimension]] $k \leq p+1$, then [[fiber integration]] in [[ordinary differential cohomology]] is reflected by a morphism of the form
 
 $$
   \array{
@@ -38,6 +45,11 @@ $$
 $$
 
 where the vertical morphisms are the [[curvature]] maps and the bottom morphims reflects ordinary [[fiber integration]] of [[differential forms]].
+
+=--
+
++-- {: .num_defn #DoubleDimensionalReductionForDifferentialCocycles}
+###### Definition
 
 Given a [[cocycle]] 
 
@@ -59,9 +71,31 @@ $$
 
 where the first morphism is the [[unit of an adjunction|unit]] of the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]].
 
-If here for instance $\Sigma = S^1$ is the [[circle]], $X \times S^1$ is a [[spacetime]] of [[11-dimensional supergravity]], $\nabla \colon X \times S^1 \to \mathbf{B}^3 U(1)_{conn}$ represents the [[supergravity C-field]] as a cocycle in ordinary differential cohomology, then its double dimensional reduction in the above sense is the differential cocycle representing the [[B-field]] on $X$, in accord with usgae of the terminology in [[string theory]].
+=--
+
 
 ## Examples
+
+### Reduction on the circle
+ {#ReductionOnTheCircle}
+
++-- {: .num_example #ReductionOnTheCircle}
+###### Example
+
+When $\Sigma = S^1$ is the [[circle]], and we think of $X \times S^1$ as a [[spacetime]] of [[11-dimensional supergravity]], then $\nabla \colon X \times S^1 \to \mathbf{B}^3 U(1)_{conn}$ may represent the [[supergravity C-field]] as a cocycle in ordinary differential cohomology. Then its double dimensional reduction in the sense of def. \ref{DoubleDimensionalReductionForDifferentialCocycles} is the differential cocycle representing the [[B-field]] on $X$, in the sense of [[string theory]].
+
+=--
+
++-- {: .num_remark #Cyclotomic}
+###### Remark
+
+For $\Sigma = S^1$ a circle as in example \ref{ReductionOnTheCircle}, then the morphism $X \longrightarrow [\Sigma, X \times \Sigma]$ in def. \ref{DoubleDimensionalReductionForDifferentialCocycles} sends each point of $X$ to the loop in $X\times S^1$ that winds identically around the copy of $S^1$ at that point. Hence in this case it would make sense to consider, more generally, for each $p \in \mathbb{Z}$ the "order $p$" double dimensional reduction, given by the operation where one instead considers the map that lets the loop wind $p$ times around the $S^1$.
+
+The resulting double dimensional reduction is just $p$-times the original one, so in a sense nothing much is changed, but maybe it is suggestive that now we are looking at the space of $C_p$-[[fixed points]] of the [[free loop space]] (for $C_p$ the [[cyclic group]] of order $p$). In [[E-infinity geometry]] this fixed-point structure on the [[free loop spaces]] makes the derived function algebras -- the [[topological Hochschild homology]] of the original function algebras -- be [[cyclotomic spectra]].
+
+=--
+
+
 
 ### For general super $p$-branes
 
