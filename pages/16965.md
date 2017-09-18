@@ -19,7 +19,7 @@
 {:toc}
 ## Idea
 
-The _tom Dieck splitting_ in [[equivariant stable homotopy theory]] is a means to decompose certain $G$-equivariant constructiones into a sequence of the analogous non-equivariant constructions for [[Weyl group]]-[[homotopy quotients]] of $H$-[[fixed points]] spaces, for (closed) subgroups.
+The _tom Dieck splitting_ in [[equivariant stable homotopy theory]] is a means to decompose certain $G$-equivariant constructions into a sequence of the analogous non-equivariant constructions for [[Weyl group]]-[[homotopy quotients]] of $H$-[[fixed points]] spaces, for (closed) subgroups.
 
 More concretely, the tom Dieck splitting is a decomposition of [[fixed point spectra]] and hence of [[equivariant homotopy groups]] of [[equivariant suspension spectra]] into a [[direct sum]] of ordinary [[homotopy groups]] of [[homotopy quotients]] of _naive_ [[fixed point]] spaces by their residual [[Weyl group]] [[action]].
 
@@ -36,7 +36,7 @@ For $H\subset G$ a [[subgroup]], write
 ### For fixed point spectra
 
 
-The [[fixed point spectrum]] of an [[equivariant suspension spectrum]] is given by the formula
+The [[fixed point spectrum]] of an [[equivariant suspension spectrum]] is given by the [[wedge sum]] formula
 
 $$
   F^G(\Sigma^\infty_G X)
