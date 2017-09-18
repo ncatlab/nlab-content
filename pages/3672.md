@@ -74,6 +74,8 @@ The relation of the division algebras to ordinary (Lie algebraic) extensions of 
 
 * Jerzy Lukierski, Francesco Toppan, _Generalized Space-time Supersymmetries, Division Algebras and Octonionic M-theory_ ([pdf](http://cbpfindex.cbpf.br/publication_pdfs/NF00102.2010_08_03_10_47_48.pdf))
 
+* A. Anastasiou, L. Borsten, [[Mike Duff]], L. J. Hughes, S. Nagy, _An octonionic formulation of the M-theory algebra_ ([arXiv:1402.4649](http://arxiv.org/abs/1402.4649))
+
 Normed division algebras are used to describe the construction of [[Lie 2-algebra]] extensions of the [[super Poincare Lie algebra]] in
 
 * [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_ ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
@@ -88,4 +90,3 @@ Normed division algebras are used to describe the construction of [[Lie 2-algebr
 
 [[!redirects supersymmetry and division algebra]]
 [[!redirects supersymmetry and division algebras]]
-
