@@ -189,7 +189,15 @@ is just the identity map, using that $Obj(G) = G$ and $Mor(\mathbf{B}G) = G$.
 
 There is also a notion of delooping which takes a pointed $(n, k+1)$-category $C$ to a pointed $(n+1, k)$-category $\mathbf{B} C$ in which $\mathbf{B} C$ has a single $0$-cell $\bullet$, and where $\hom(\bullet, \bullet) = C$. This is a tautological construction if one accepts the [[delooping hypothesis]], which views a $(n, k+1)$-category $C$ as a special type of $(n+k+1)$-category, namely a pointed $k$-connected $(n+k+1)$-category: by viewing such as *a fortiori* a pointed $(k-1)$-connected $(n+k+1)$-category, we get the delooping $\mathbf{B} C$. 
 
-This is just a generalization of the fact that a [[monoid]] $M$ gives rise to a one-object category (which we are denoting $\mathbf{B} M$). Similarly, a pointed monoidal category gives rise to a **delooping bicategory**, and the delooping of a braided monoidal category produces a monoidal bicategory. See [[delooping hypothesis]] for more. 
+This is just a generalization of the fact that a [[monoid]] $M$ gives rise to a one-object category (which we are denoting $\mathbf{B} M$). For an important example: a [[monoidal category]] $M$ has an associated **delooping [[bicategory]]** $\mathbf{B} M$, where 
+
+* $\mathbf{B} M$ has a single $0$-cell $\bullet$, 
+
+* the $1$-cells $\bullet \to \bullet$ of $\mathbf{B} M$ are named by objects of $M$, and the composite of $\bullet \stackrel{a}{\to} \bullet \stackrel{b}{\to} \bullet$ is $\bullet \stackrel{a \otimes b}{\to} \bullet$ (using the monoidal product $\otimes$ of $M$), 
+
+* the $2$-cells of $\mathbf{B} M$ are similarly named by morphisms of $M$; the vertical composition of $2$-cells in $\mathbf{B} M$ is given by composition of morphisms of $M$, and the horizontal composition of $2$-cells in $\mathbf{B} M$ is given by taking the monoidal product of the morphisms that name them in $M$. 
+
+Along similar lines, the delooping of a [[braided monoidal category]] produces a [[monoidal bicategory]], and delooping of *that* is a [[tricategory]] or (weak) $3$-category. See [[delooping hypothesis]] for more. 
 
 ## Related concepts
 
