@@ -70,12 +70,16 @@ $$\forall_{y_1, \ldots, y_k} [\phi(0, \vec{y}) \wedge \forall_x (\phi(x; \vec{y}
 
 The third axiom is actually redundant, being an instance of the induction scheme (take $\phi(x) = [x = 0 \vee \exists_y x = s(y)]$). We include it because it is needed for weaker systems of arithmetic in which the induction schema is curtailed or dropped, notably [[Robinson arithmetic]]. 
 
+By the [[Lowenheim-Skolem theorem]], there are [[nonstandard model of arithmetic|"nonstandard" models]] of any infinite cardinality of Peano arithmetic, all of them [[elementary embedding|elementarily embedding]] the standard model of arithmetic.
+
 
 ## Related concepts
 
 * [[Robinson arithmetic]]
 
 * [[Heyting arithmetic]]
+
+* [[nonstandard model of arithmetic]]
 
 ## References
 
