@@ -1,0 +1,6 @@
+A formal approach to [[linguistics]], due to [[Richard Montague]].
+
+##References
+
+* [SEP: Montague Semantics](http://plato.stanford.edu/entries/montague-semantics/)
+* Dowty, D., Wall, R., and Peters, S., 1981, _Introduction to Montague Semantics_ (Synthese Language Library 11), Dordrecht: Reidel.
