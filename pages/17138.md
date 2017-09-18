@@ -6131,13 +6131,32 @@ Hence to conclude it remains to show that on this group the differential $d_1$ c
 +-- {: .num_prop #AHSSForMultiplicativeCohomologyIsMultiplicative}
 ###### Proposition
 
-For $A$ a [[multiplicative cohomology theory]], then the 
-Atiyah-Hirzebruch spectral sequences for $A^\bullet(X)$ are
+For $E$ a [[multiplicative cohomology theory]] ([[ring spectrum]]), then the 
+Atiyah-Hirzebruch spectral sequences for $E^\bullet(X)$ are
 [[multiplicative spectral sequences]].
 
 =--
 
-A decent proof is spelled out in ([Kochman 96, prop. 4.2.9](#Kochman96)). Use the [graded commutativity of smash products of spheres](smash+product+of+spectra#GradedCommutativity) to get the sign in the graded derivation law for the differentials. See also the proof at _[multiplicative spectral sequence -- Examples -- AHSS for multiplicative cohomology](multiplicative+spectral+sequence#AHSSForMultiplicativeCohomology)_.
+A decent proof is spelled out in ([Kochman 96, prop. 4.2.9](#Kochman96)). Use the [graded commutativity of smash products of spheres](smash+product+of+spectra#GradedCommutativity) to get the sign in the graded derivation law for the differentials. See also the proof via [[Cartan-Eilenberg systems]] at _[multiplicative spectral sequence -- Examples -- AHSS for multiplicative cohomology](multiplicative+spectral+sequence#AHSSForMultiplicativeCohomology)_.
+
+
++-- {: .num_prop #AHSSPairing}
+###### Proposition
+
+For $E$ a [[ring spectrum]] and $X$ a finite [[CW-complex]], then the [[Kronecker pairing]]
+
+$$
+  \langle-,-\rangle_X 
+    \;\colon\; 
+   E^{\bullet_1}(X) \otimes E_{\bullet_2}(X) \longrightarrow \pi_{\bullet_2-\bullet_1}(E)
+$$ 
+
+extends to a compatible pairing of [[Atiyah-Hirzebruch spectral sequences]].
+
+=--
+
+([Kochman 96, prop. 4.2.10](#Kochman96))
+
 
 
 ### **Part S2) Cobordism theory**
@@ -6559,7 +6578,7 @@ Hence [[complex oriented cohomology theory]] is just [[higher algebra]] over [[M
 #### Homology of $M U$
  {#HomologyOfMU}
 
-**Idea.** Since, by the above, every [[complex oriented cohomology theory]] $E$ is indeed [[orientation in generalized cohomology|oriented]] over [[complex vector bundles]], there is a [[Thom isomorphism]] which reduces the computation of the $E$-[[homology of MU]], $E_\bullet(M U)$ to that of the [[classifying space]] $B U$. The homology of $M U$ may be determined via duality of homology with cohomology (and the duality of the corresponding [[Atiyah-Hirzebruch spectral sequences]]) from the the Conner-Floyed classes [above](#ConnerFloydChernClasses). Finally, via the [[Hurewicz homomorphism]]/[[Boardman homomorphism]] the homology of $M U$ gives a first approximation to the [[homotopy groups]] of [[MU]].
+**Idea.** Since, by the above, every [[complex oriented cohomology theory]] $E$ is indeed [[orientation in generalized cohomology|oriented]] over [[complex vector bundles]], there is a [[Thom isomorphism]] which reduces the computation of the $E$-[[homology of MU]], $E_\bullet(M U)$ to that of the [[classifying space]] $B U$. The homology of $B U$, in turn, may be determined by the duality with its cohomology ([[universal coefficient theorem]]) via [[Kronecker pairing]] and the induced duality of the corresponding [[Atiyah-Hirzebruch spectral sequences]] (prop. \ref{AHSSPairing}) from the Conner-Floyed classes [above](#ConnerFloydChernClasses). Finally, via the [[Hurewicz homomorphism]]/[[Boardman homomorphism]] the homology of $M U$ gives a first approximation to the [[homotopy groups]] of [[MU]].
 
 **Literature.** ([Kochman 96, section 2.4, 4.3](#Kochman96), [Lurie 10, lecture 7](#Lurie10))
 
