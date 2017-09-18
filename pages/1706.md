@@ -668,6 +668,7 @@ $$
 
 =--
 
+Some examples are discussed at _[[prequantum field theory]]_ in the section _[Higher Chern-Simons field theory -- Levels](prequantum+field+theory#HigherChern-SimonsLocalPrequantumFieldTheoryLevels)_.
 
 #### For HQFTs
   {#ForHQFTs}
