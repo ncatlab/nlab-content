@@ -1167,7 +1167,7 @@ such that
 +-- {: .num_prop #EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor}
 ###### Proposition
 
-For every additive [[reduced cohomology theory]] $\tilde E^\bullet$ (def. \ref{ReducedGeneralizedCohomology}), each degree $\tilde E^n$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
+For every additive [[reduced cohomology theory]] $\tilde E^\bullet(-)$ (def. \ref{ReducedGeneralizedCohomology}), each degree $\tilde E^n(-)$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
 
 =--
 
@@ -1223,30 +1223,33 @@ for each $n \in \mathbb{N}$.
 +-- {: .num_prop }
 ###### Proposition
 
-Every additive [[reduced cohomology theory]] $\tilde E^\bullet \colon (Top_{CW}^\ast)^{op} \longrightarrow Ab^{\mathbb{Z}}$ according to def. \ref{ReducedGeneralizedCohomology}, when restricted to [[connected topological space|connected]] spaces is [[representable functor|represented]] by an [[Omega-spectrum]] $E$ (def. \ref{OmegaSpectrum}) in that in each degree $n \in \mathbb{N}$
+Every additive [[reduced cohomology theory]] $\tilde E^\bullet(-) \colon (Top_{CW}^\ast)^{op} \longrightarrow Ab^{\mathbb{Z}}$ according to def. \ref{ReducedGeneralizedCohomology}, when restricted to [[connected topological space|connected]] spaces is [[representable functor|represented]] by an [[Omega-spectrum]] $E$ (def. \ref{OmegaSpectrum}) in that in each degree $n \in \mathbb{N}$
 
-1. $\tilde E^n$ is represented by $E_n$;
+1. $\tilde E^n(-)$ is represented by $E_n \in Top$;
 
-1. the [suspension isomorphisms](#SuspensionIsomorphismForReducedGeneralizedCohomology) $\sigma_n$ is represented by the structure map $\tilde \sigma_n$ in that for all $X \in Top^{\ast/}_{CW,cn}$ the following [[commuting diagram|diagram commutes]]:
+1. the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) $\sigma_n$ of $\tilde E^\bullet$ is represented by the structure map $\tilde \sigma_n$ of the Omega-spectrum in that for all $X \in Top^{\ast/}_{CW,cn}$ the following [[commuting diagram|diagram commutes]]:
 
    $$
      \array{
        \tilde E^{n}(X) 
          &\overset{\sigma_n(X)}{\longrightarrow}& 
+         &\longrightarrow&
        \tilde E^{n+1}(\Sigma X) 
        \\
-       {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+       {}^{\mathllap{\simeq}}\downarrow 
+         && && 
+       \downarrow^{\mathrlap{\simeq}}
        \\
        [X,E_n]_\ast
-         \overset{[X,\tilde \sigma_n]_\ast}{\longrightarrow}
+         &\overset{[X,\tilde \sigma_n]_\ast}{\longrightarrow}&
        [X, \Omega E_{n+1}]_\ast
-        \simeq
-       [\Sigma X,E_{n+1}]_\ast
+         &\simeq&
+       [\Sigma X, E_{n+1}]_\ast
      }
      \,,
    $$
 
-   where $[-,-]_\ast \coloneqq Hom_{Ho(Top_{CW,cn}^{\ast/})}$ and where in the bottom right we have the $(\Sigma\dashv \Omega)$-[[adjunction]] isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopAreAdjointOnHomotopyCategory)).
+   where $[-,-]_\ast \coloneqq Hom_{Ho(Top_{CW,cn}^{\ast/})}$ denotes the [[hom-sets]] in the [[classical pointed homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnPointedTopologicalSpaces)) and where in the bottom right we have the $(\Sigma\dashv \Omega)$-[[adjunction]] isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopAreAdjointOnHomotopyCategory)).
 
 =--
 
