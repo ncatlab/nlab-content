@@ -28,6 +28,10 @@ As a [[symmetric spectrum]]: ([Schwede 12, example I.2.6](#Schwede12))
 
 ## Properties
 
+### Completion to an $\Omega$-spectrum
+
+See at [Omega spectrum -- Completion of a suspension spectrum](Omega-spectrum#CompletionOfSuspensionSpectra).
+
 ### Relation to looping and stabilization
 
 As an [[infinity-functor]] $\Sigma^\infty\colon Top_* \to Spec$ the suspension spectrum functor exhibits the [[stabilization]] of [[Top]].
