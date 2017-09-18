@@ -158,7 +158,7 @@ r(p a a') & = & (\lambda z. z a a')(\lambda x. \lambda y. y) \\
 }$$ 
 
 That out of the way, let $P(A)$ be the power set of $A$ and let $X$ be a set. 
-Put a preorder structure on $P(A)^X$ as follows: given $f, g \in P(A)^X$, let $Hom(f, g)$ be the set of $a$ in $A$ such that for all $x$ in $X$ and $a'$ in $f(x)$, $a$ is an element of $g(x)$, and $a a'$ is defined (that is, $a$ is applicable to $a'$. We can turn this into a partial order by taking $f \leq g$ just in case $Hom(f, g)$ is inhabited. 
+Put a preorder structure on $P(A)^X$ as follows: given $f, g \in P(A)^X$, let $Hom(f, g)$ be the set of $a$ in $A$ such that for all $x$ in $X$ and $a'$ in $f(x)$, $a a'$ is defined (that is, $a$ is applicable to $a'$), and $a a'$ is an element of $g(x)$. We can turn this into a preorder by taking $f \leq g$ just in case $Hom(f, g)$ is inhabited. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
