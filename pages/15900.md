@@ -133,17 +133,21 @@ To extend it to all of $X$, one uses the commutative diagram of localization [[e
 The first row comes from the [[Gersten-Quillen resolution]] for K-theory.
 =--
 
-+-- {: .num_defn}
-###### Definition
-=--
-
-+-- {: .num_defn}
-###### Definition
-=--
-
 #### Relative cohomology
 
+If $E$ and $F$ are [[toposes]] and $u^* : E \rightleftarrows F : u_*$ is a [[morphism of toposes]], consider the [[topos]] whose objects are morphisms $u^*(x) \to y$ for $x \in E$, $y \in F$, and morphisms are commutative diagrams.
+
++-- {: .num_defn}
+###### Definition
+
+=--
+
++-- {: .num_defn}
+###### Definition
+=--
 #### Complexes with logarithmic singularities
+
+
 
 #### Deligne cohomology for algebraic varieties
 
