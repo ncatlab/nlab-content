@@ -136,10 +136,12 @@ $$
   \,.
 $$
 
-Notice that using "[[Schwinger parameterization]]" the [[propagator]] is equivalently rewritten as a [[Mellin transform]] [[integral]]:
+This means, incidentally. that in the non-finite case of interest in physics, $A$ is not actually naively invertible after all, as $p^2 = m^2$ on the mass [[shell]]. In this case one has to replace the naive $A^{-1}$ with its [[zeta function regularization|zeta-function regularized version]].
+
+The way this works is insightful even when the naive $A^{-1}$ does exist. Notice that using "[[Schwinger parameterization]]" the [[propagator]] is equivalently rewritten as a [[Mellin transform]] [[integral]]:
 
 $$
-  A^{-1}_{x,y} = \int_0^\infty \exp(- \tau A_{x,y}) d\tau
+  A^{-1}_{p,p} = \int_0^\infty \exp(- \tau A_{p,p}) d\tau
   \,.
 $$ 
 
@@ -157,7 +159,7 @@ $$
   \,.
 $$
 
-This happens to be the standard [[action functional]] ([[Polyakov action]]) for a [[sigma model]] describing the propagation of a particle along its [[worldline]].
+This now happens to be the standard [[action functional]] ([[Polyakov action]]) for a [[sigma model]] describing the propagation of a particle along its [[worldline]].
 This means that the propagator of the [[scalar field]] may be thought of as coming from the [[path integral]] of a scalar particle along its [[worldline]]. This perspective is called the "[[worldline formalism]]", it is a formalization of [[second quantization]], expressing the dynamics of [[field (physics)|fields]] in terms of that of their particle "quanta" running along [[worldlines]] of the form of the corresponding Feynman diagrams (to which we finally come in a moment).
 
 Back to the computation of the $n$-point function. By construction, it is now equally expressed by [[partial derivatives]] of the [[generating function]] with respect to the [[source]] [[variable]] $J$ and evaluated at $J = 0$, and this in turn is a combinatorial expression just in products of the [[propagator]]:
