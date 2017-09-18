@@ -28,6 +28,9 @@ on a unified construction and comparison of the [[Bousfield-Friedlander model st
 
 Related references include
 
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+
+
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_ (2012)
 
 ***
@@ -483,7 +486,7 @@ Here we discuss model structures for plain spectra, [below](ModelStructuresOnRin
 
 #### Statement of the model structure
 
-First we consider, def. \ref{StrictModelStructureOnDiagramSpectra} below, the "strict" model structures which regard spectra only as diagrams of topological spaces, ignoring the fact that it is not the degreewise [[homotopy groups]] but the [[stable homotopy groups]] that are to be invariants of [[stable homotopy types]] (with an extra subtlety in the case of symmetric spectra, see prop. \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} below). Incorporating the latter is accomplished by a Bousfield localization of the strict model structures to the genuine stabel model structures below in theorem \ref{StableModelStructuresOnDiagramSpectra}
+First we consider, def. \ref{StrictModelStructureOnDiagramSpectra} below, the "strict" model structures which regard spectra only as diagrams of topological spaces, ignoring the fact that it is not the degreewise [[homotopy groups]] but the [[stable homotopy groups]] that are to be invariants of [[stable homotopy types]] (with an extra subtlety in the case of symmetric spectra, see prop. \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} below). Incorporating the latter is accomplished by a Bousfield localization of the strict model structures to the genuine stable model structures below in theorem \ref{StableModelStructuresOnDiagramSpectra}
 
 +-- {: .num_defn #StrictModelStructureOnDiagramSpectra}
 ###### Definition
@@ -984,7 +987,7 @@ In def. \ref{StableEquivalencesForDiagramSpectra} every stable weak homotopy equ
 
 =--
 
-([MMSS 00, prop. 8.8](#MMSS00))
+([MMSS 00, prop. 8.8](#MMSS00), following [Hovey-Shipley-Smith 00, theorem 3.1.11](#HoveyShipleySmith00))
 
 
 (...)
@@ -1042,7 +1045,15 @@ The morphisms of def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are those 
  
 =--
 
-([MMSS 00, lemma 8.5](#MMSS00))
+([MMSS 00, lemma 8.5](#MMSS00), following [Hovey-Shipley-Smith 00, remark 2.2.12](#HoveyShipleySmith00))
+
+
++-- {: .proof}
+###### Proof idea
+
+Check the statement of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} for the special case that $X = F_n^{dia} S^0$. From this the general statement follows by chasing the image of the identity on $F_n^{dia} S^0$.
+
+=--
 
 
 +-- {: .num_lemma}
