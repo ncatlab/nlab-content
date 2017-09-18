@@ -1,35 +1,38 @@
 $$
   \array{
-    && \underset{n}{\sqcup} X_n
+    \partial^\ast
+     \colon
+    & C^{s-1}(X,A^t(\ast))
+      & =&  \underset{i \in I_{s-1}}{\prod} A^t(\ast)
+      && \longrightarrow &&
+    \underset{i \in I_s}{\prod} A^t(\ast)
+    & = & 
+    C^{s}(X,A^t(\ast))
     \\
-    & \swarrow && \searrow
+    && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
     \\
-    \underset{n}{\sqcup} X_{2n+1} &\longrightarrow& X' &\longleftarrow& \underset{n}{\sqcup} X_{2n}
+    && & \underset{i \in I_{s-1}}{\prod} \tilde A^{s+t-1}(S^{s-1}) 
+      && &&
+    \underset{i \in I_s}{\prod} \tilde A^{s+t}(S^{s}) 
     \\
-    & {}_{\mathllap{(\eta_{2n+1})_{n}}}\searrow& \downarrow^{\mathrlap{\exists \eta}} & \swarrow_{\mathrlap{(\eta_{2n})_n}}
+    && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
     \\
-    && F    
+    && d_1 \colon &
+    A^{s+t-1}(X_{s-1}, X_{s-2})
+      &\overset{}{\longrightarrow}&
+    A^{s+t-1}(X_{s-1})
+      &\overset{\delta}{\longrightarrow}&
+    A^{s+t}(X_s, X_{s-1})
+    \\
+    && & 
+    \downarrow && \downarrow && \downarrow
+    \\
+    && & 
+    A^{s+1-1}(S^{s-1}, \emptyset)
+      &\overset{}{\longrightarrow}&
+    A^{s+t-1}(S^{s-1})
+      &\overset{\delta}{\longrightarrow}&
+    A^{s+t}(D^s , S^{s-1})
   }
-  \;\;\;\;\;\;\;\;\;
-  \Leftrightarrow
-  \;\;\;\;\;\;\;\;\;
-  \array{
-    && F(X')
-    \\
-    &{}^{\mathllap{\exists \eta}}\nearrow& \downarrow^{\mathrlap{epi}}
-    \\
-    &\ast \overset{(\eta_n)_n}{\longrightarrow}& \underset{\longleftarrow}{\lim}_n F(X_n)
-    \\
-    & \swarrow && \searrow
-    \\
-    \underset{n}{\prod}F(X_{2n+1})
-    && &&
-    \underset{n}{\prod}(X_{2n})
-    \\
-    & \searrow && \swarrow
-    \\
-    && \underset{n}{\prod}F(X_n)
-  }
-  \,,
+  \,.
 $$
-
