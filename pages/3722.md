@@ -35,7 +35,7 @@ A subset is closed precisely if
 
 * it contains all its [[limit points]] (in either sense). 
 
-A topological closure operator is a [[Moore closure]] operator $Cl: P(X) \to P(X)$ that preserves finite unions ($Cl(0) = 0$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$), and in fact it is east to see that all such closure operators come from a topology whose closed sets are the fixed points of $Cl$. 
+A topological closure operator is a [[Moore closure]] operator $Cl: P(X) \to P(X)$ that preserves finite unions ($Cl(0) = 0$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$), and in fact it is easy to see that all such closure operators come from a topology whose closed sets are the fixed points of $Cl$. 
 
 #### Kuratowski's closure-complement problem 
 
