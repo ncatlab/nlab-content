@@ -81,6 +81,10 @@ A ring of integers is a [[Dedekind domain]].
 
 * Wikipedia, _[Ring of integers](http://en.wikipedia.org/wiki/Ring_of_integers)_
 
+The following paper show that the subset of integers is definable in $\mathbb{Q}$ by a universal first-order formula in the language of rings.
+
+* Jochen Koenigsmann, _Defining $\mathbb{Z}$ in $\mathbb{Q}$_, Annals of Mathematics,  **183**, issue 1 (2016) pp 73-93, doi:[10.4007/annals.2016.183.1.2](http://dx.doi.org/10.4007/annals.2016.183.1.2), arXiv:[1011.3424](https://arxiv.org/abs/1011.3424)
+
 
 [[!redirects ring of integers]]
 [[!redirects rings of integers]]
