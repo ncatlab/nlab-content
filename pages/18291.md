@@ -1,4 +1,3 @@
-[[!redirects transfinite arithmetic]]
 
 #Contents#
 * table of contents
@@ -6,14 +5,17 @@
 
 ## Idea
 
-[[arithmetic]] with [[ordinals]]
+[[arithmetic]] with [[ordinals]]. A kind of [[transfinite arithmetic]].
 
 ## Related concepts
 
 * [[well-ordering theorem]]
+
+* [[cardinal arithmetic]]
 
 ## References
 
 See also 
 
 * Wikipedia, _[Ordinal arithmetic](https://en.wikipedia.org/wiki/Ordinal_arithmetic)_
+
