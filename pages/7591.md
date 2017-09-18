@@ -407,33 +407,3 @@ The group of units of [[tmf]] is analyzed from section 12 on in
 [[!redirects ∞-groups of units]]
 [[!redirects infinity-groups of units]]
 
-[[!redirects ∞-group ∞-ring]]
-[[!redirects ∞-group ∞-rings]]
-
-[[!redirects ∞-group E-∞-ring]]
-[[!redirects ∞-group E-∞-rings]]
-
-[[!redirects ∞-group E-∞ ring]]
-[[!redirects ∞-group E-∞ rings]]
-
-[[!redirects ∞-group E-infinity-ring]]
-[[!redirects ∞-group E-infinity-rings]]
-
-[[!redirects ∞-group E-infinity ring]]
-[[!redirects ∞-group E-infinity rings]]
-
-
-[[!redirects ∞-group ring]]
-[[!redirects ∞-group rings]]
-
-[[!redirects group ∞-ring]]
-[[!redirects group ∞-rings]]
-
-[[!redirects infinity-group infinity-ring]]
-[[!redirects infinity-group infinity-rings]]
-
-[[!redirects infinity-group ring]]
-[[!redirects infinity-group rings]]
-
-[[!redirects group infinity-ring]]
-[[!redirects group infinity-rings]]
