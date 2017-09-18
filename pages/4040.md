@@ -146,6 +146,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Tietze extension theorem]]
 
+* [[tube lemma]]
+
 * [[Tychonoff theorem]]
 
 * [[Heine-Borel theorem]]
