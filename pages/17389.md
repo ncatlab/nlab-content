@@ -127,13 +127,61 @@ First we claim that both inclusion maps $D^n \to X \cup_f D^n$ and $X \to X \cup
 1. That $i_X$ is closed follows on abstract grounds, since by construction it is the [[pushout]] of the closed map $S^{n-1} \to D^n$ and pushout preserves closed subspace inclusions by [this lemma](subspace+topology#pushout). (To see that $S^{n-1} \to D^n$ is a closed map observe that $S^{n-1} \subset D^n$ is a closed subspace and that [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]).
 
 
-   For the record, here is also an easy explict argument that $i_X$ is closed:
-
-   Consider a closed subset in $X$. Its image in $X \cup_f D^n$ has closed pre-image under $f$ in $S^{n-1}$ since $f$ is continuous. Now since $S^{n-1} \subset D^n$ is a closed subspace and since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] if follows that this pre-image is also closed in $D^n$, hence it is closed in $X \cup_f D^n$. 
+   More explicitly: Consider a closed subset in $X$. Its image in $X \cup_f D^n$ has closed pre-image under $f$ in $S^{n-1}$ since $f$ is continuous. Now since $S^{n-1} \subset D^n$ is a closed subspace and since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] if follows that this pre-image is also closed in $D^n$, hence it is closed in $X \cup_f D^n$. 
 
 Now let $\{ U_i \subset X \cup_f D^n \}_{i \in I}$ be any open cover of the attachment space. We need to produce a locally finite refinement.
 
-The pre-images of these open subsets in $D^n$ and in $X$ yield open covers of these spaces, and by their paracompactness we find locally finite refinements there. Since [[paracompact Hausdorff spaces are normal]] we may apply the [[shrinking lemma]] to the resulting locally finite refinements to get smaller locally finite refinements the [[topological closures]] of whose patches are still contained in the original locally finite patches. Since the two inclusion maps are closed, by the above observation, [this lemma](saturated+subset#FindSatureatedOpenInsideOpenNeighbourhood) says that we may find a locally finite cover intermediate to these two consisting of open [[saturated subsets]]. Their images in $X \cup_f D^n$ are therefore still open (by the nature of the [[final topology]]) still locally finite (being composed of two locally finite sts of subsets) and are still a cover by construction of the attachment space. Hence this is a locally finite refinement as required.
+The pre-images of these open subsets in $D^n$ and in $X$ yield open covers $\{i_X^{-1}(U_i) \subset X\}_{i \in I}$ and $\{i_{D^n}^{-1}(U_i) \subset D^n\}_{i \in I}$ of these spaces. 
+
+Now $X$ is paracompact Hausdorff by assumption and $D^n$ is paracompact Hausdorff by basic results (for instance use that [[locally compact and sigma-compact spaces are paracompact]]). 
+
+Hence by paracompactness of $X$ and $D^n$ there are locally finite refinements 
+
+$$
+  \{V_j \subset X\}_{j \in J_X}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \{W_j \subset D^n\}_{j \in J_{D^n}}
+$$
+
+of these covers.
+ 
+Since [[paracompact Hausdorff spaces are normal]] we may apply the [[shrinking lemma]] to these to obtain further locally finite refinements 
+
+$$
+  V'_j \subset Cl(V'_j) \subset V_j
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  W'_j \subset Cl(W'_j) \subset W_j
+$$
+
+such that the [[topological closures]] of their patches are still contained in the original locally finite patches. 
+
+Since the two inclusion maps are closed, by the above observation, 
+
+> and we need that the $Cl(V'_j)$,  $Cl(W'_j)$ are (replaced by something) saturated... 
+
+[this lemma](saturated+subset#FindSatureatedOpenInsideOpenNeighbourhood) says that we may find a locally finite cover intermediate to these two consisting of open [[saturated subsets]] $V^{sat}_j$ and $W^{sat}_j$:
+
+$$
+  V'_j \subset Cl(V'_j) \subset V^{sat}_j \subset V_j
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  W'_j \subset Cl(W'_j) \subset W^{sat}_j \subset W_j
+$$
+
+The images in $X \cup_f D^n$ of these saturated subsets are 
+
+1. still open (by the nature of the [[final topology]], since saturated subsets are equal to the pre-images of their images) 
+
+1. still locally finite (being composed of two locally finite sets of subsets) 
+
+1. still a cover, by construction of the attachment space. 
+
+Hence this is a locally finite refinement of the original cover, as required.
 
 =--
 
