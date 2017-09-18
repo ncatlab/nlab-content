@@ -356,6 +356,8 @@ Textbook accounts include
 
 Lecture notes include
 
+* P. Binetruy, G. Girardi, R. Grimm, _Supergravity couplings: a geometric formulation_, Phys.Rept.343:255-462,2001 ([arXiv:hep-th/0005225](http://arxiv.org/abs/hep-th/0005225))
+
 * [[Friedemann Brandt]], _Lectures on supergravity_ ([arXiv:hep-th/0204035](http://arxiv.org/abs/hep-th/0204035))
 
 * [[Bernard de Wit]], _Supergravity_ ([arXiv:hep-th/0212245](http://arxiv.org/abs/hep-th/0212245))
