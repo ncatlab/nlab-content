@@ -14,27 +14,99 @@
 * table of contents
 {:toc}
 
+## Idea 
+
+What is called _the line with two origins_ is the [[topological space]] which results by "gluing" a copy of the real line identically to itself, except at the origin. This is a basic example of a [[non-Hausdorff topological space]] and of the fact that [[quotient topological spaces]] of [[Hausdorff topological spaces]] need not be Hausdorff themselves.
 
 ## Definition
 
-The _line with two origins_ is the [[topological space]] which is the [[quotient topological space]] of the [[disjoint union]] 
+Consider the [[disjoint union]] $\mathbb{R} \sqcup \mathbb{R}$ of two copies of the [[real line]] $\mathbb{R}$ regarded with its [[metric topology]]. Moreover, consider the [[equivalence relation]] on the underlying set which identifies every
+point $x_i$ in the $i$th copy of $\mathbb{R}$ ($i \in \{0,1\}$) with the corresponding point in the other, the $(1-i)$th copy, except when $x = 0$:
 
 $$
-  \mathbb{R} \sqcup \mathbb{R}
-  \simeq
-  \mathbb{R} \times \{a\}
-  \,\sqcup\,
-  \mathbb{R} \times \{b\}
-$$ 
-
-of two copies of the [[real line]] $\mathbb{R}$ by the [[equivalence relation]] $\sim$ which identifies all pairs of points, except the two origins:
-
-$$
-  \underset{x \neq 0}{\forall}: \, (x,a) \sim (x,b)
+  \left(
+    x_i \sim y_j
+  \right)
+   \;\Leftrightarrow\;
+  \left(
+    \left(
+      x = y
+    \right)
+    \,\text{and}\,
+    \left(
+      \left(
+        x \neq 0
+      \right)
+      \,\text{or}\,
+      \left(
+        i = j
+      \right)
+    \right)
+  \right)
   \,.
 $$
 
-This is a basic example of a topological space which is [[non-Hausdorff topological space]].
+
+
+The [[quotient topological space]] 
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/LineWithTwoOrigins.png" width="300">
+</div>
+
+$$
+  \left(
+    \mathbb{R} \sqcup \mathbb{R}
+  \right)/\sim
+$$
+
+by this equivalence relation is called the **line with two origins**.
+
+
+## Properties
+
+The line with two origins is a [[non-Hausdorff topological space]]:
+
+Because by definition of the [[quotient topological space|quotient space topology]], the [[open neighbourhoods]] of $0_i \in   \left( \mathbb{R} \sqcup \mathbb{R} \right)/\sim$ are precisely those that contain subsets of the form
+
+$$
+ (-\epsilon, \epsilon)_i
+  \;\coloneqq\; 
+ (-\epsilon,0) \cup \{0_i\} \cup (0,\epsilon)
+ \,.
+$$
+
+But this means that the "two origins" $0_0$ and $0_1$ may not be [separated by neighbourhoods](separation+axioms#SeparatedByNeighbourhoods), since the intersection of 
+$(-\epsilon, \epsilon)_0$ with $(-\epsilon, \epsilon)_i$ is always non-empty:
+
+$$
+  (-\epsilon, \epsilon)_0
+   \cap
+  (-\epsilon, \epsilon)_1
+  \;=\;
+  (-\epsilon, 0) \cup (0, \epsilon)
+  \,.
+$$
+
+
+
+The [Hausdorff reflection](Hausdorff+space#HausdorffReflection)
+
+$$
+  H \;\colon\; Top \longrightarrow Top_{Haus}
+$$
+
+of the line with two origns is the [[real line]] itself:
+
+$$
+  H\left(
+    \left(
+      \mathbb{R} \sqcup \mathbb{R}
+    \right)/\sim
+  \right)
+  \;\simeq\;
+  \mathbb{R}
+$$
 
 ## Related concepts
 
