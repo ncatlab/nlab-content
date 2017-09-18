@@ -212,7 +212,6 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 * [[nerve theorem]]
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/topology+-+contents)</div>
 
 
 
