@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Morris_Hirsch)
+
+## related $n$Lab entries
+
+* [[differential topology]]
+
+category: people
