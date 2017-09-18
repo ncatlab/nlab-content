@@ -139,7 +139,7 @@ and in a few places they also use the [[axiom of choice]]/[[Zorn's lemma]].
 Hence we discuss [[topology]] in its traditional form with [[classical logic]]. 
 
 We do however highlight the role of [[frame]] homomorphisms (def. \ref{HomomorphismOfFramesOfOpens} below) and that of [[sober topological spaces]] (def. \ref{Sober} below). These concepts pave the way to a [[constructive mathematics|constructive]]
-formulation of [[topology]] in terms not of [[topological spaces]]but in terms of _[[locales]]_, 
+formulation of [[topology]] in terms not of [[topological spaces]] but in terms of _[[locales]]_, 
 see remark \ref{Locales} below.
 The reader interested in questions of [[intuitionistic mathematics]] in topology may benefit from looking at ([Waaldijk 96](topology#Waaldijk96)).
 
@@ -159,7 +159,7 @@ or is content with ignoring the motivation coming from analysis should skip righ
 
 +-- {: .num_defn #MetricSpace}
 ###### Definition
-**(metric space)**
+**([[metric space]])**
 
 A _[[metric space]]_ is
 
@@ -3877,10 +3877,24 @@ the following are equivalent:
 
 +-- {: .num_example #HausdorffMetricSpace}
 ###### Example
-**(metric spaces are Hausdorff)**
+**([[metric spaces]] are [[Hausdorff topological space|Hausdorff]])**
 
 Every [[metric space]] (def \ref{MetricSpace}), regarded as a [[topological space]] via its [[metric topology]] (example \ref{MetricTopology})
 is a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}).
+
+Because for $x \neq y \in X$ two distinct points, then the [[distance]] $d(x,y)$ between them is [[positive number]],
+by the non-degeneracy axiom in def. \ref{MetricSpace}. Accordingly the [[open balls]] (def. \ref{OpenBalls})
+
+$$
+  B^\circ_x(d(x,y)) \supset \{x\}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  B^\circ_y(d(x,y)) \supset \{y\}
+$$
+
+are disjoint open neighbourhoods. 
+
 
 =--
 
@@ -4103,7 +4117,7 @@ If $(X,\tau)$ satisfies $T_4$ it is to be a _$T_4$-space_ also called a _[[norma
 
 +-- {: .num_example #MetricSpacesAreNormal}
 ###### Example
-**([[metric spaces]] are [[normal space|normal]])**
+**([[metric spaces]] are [[normal Hausdorff space|normal Hausdorff]])**
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}) regarded as a [[topological space]]
 via its [[metric topology]] (example \ref{MetricTopology}). Then this is a [[normal Hausdorff space]] (def. \ref{NormalSpace}).
@@ -4131,7 +4145,7 @@ computing distances from a subset $S \subset X$ (example \ref{DistanceFunctionFr
 $$
   U_{C_1}
     \coloneqq
-  \underset{x_1 \in C_1}{\cup} B^\circ_{x_1}( d(C_2,x_1) )
+  \underset{x_1 \in C_1}{\cup} B^\circ_{x_1}( d(C_2,x_1)/2 )
 $$
 
 and
@@ -4139,7 +4153,7 @@ and
 $$
   U_{C_2}
     \coloneqq
-  \underset{x_2 \in C_2}{\cup} B^\circ_{x_2}( d(C_1,x_2) )
+  \underset{x_2 \in C_2}{\cup} B^\circ_{x_2}( d(C_1,x_2)/2 )
   \,.
 $$
 
