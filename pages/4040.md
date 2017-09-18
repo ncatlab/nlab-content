@@ -167,6 +167,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[locally compact and sigma-compact spaces are paracompact]]
 
+* [[locally compact and second-countable spaces are sigma-compact]]
+
 * [[second-countable regular spaces are paracompact]]
 
 ## Theorems
