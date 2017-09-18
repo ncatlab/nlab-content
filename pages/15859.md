@@ -19,12 +19,14 @@
 
 
 ##Idea##
-In the mid 1970s Julian Cole proposed a topos-theoretic construction of spectra arising as right adjoints to forgetful functors that generalized [[Monique Hakim|M. Hakim's]] approach to the [[spectrum of a commutative ring]].
 
-Basic ingredients are pairs of geometric theories $S$ and $T$ over the same language such that $T$ results from $S$ by addition of further axioms. Then $T-Mod_\mathcal{E}$ is a full subcategory of $S-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretical flavor.
+In the mid 1970s [[Julian Cole]] proposed a [[topos theory|topos-theoretic]] construction of spectra arising in the sense of [[spectrum of a commutative ring]] but for more general [[algebraic theories]], as [[right adjoints]] to [[forgetful functors]] that generalized [[Monique Hakim|M. Hakim's]] approach to the [[spectrum of a commutative ring]].
+
+Basic ingredients are pairs of [[geometric theories]] $S$ and $T$ over the same [[language]] such that $T$ results from $S$ by addition of further [[axioms]]. Then $T-Mod_\mathcal{E}$ is a [[full subcategory]] of $S-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretical flavor.
 
 ###Definition###
-Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _T-modelled toposes_ is given as follows: 
+
+Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _[[T-modelled toposes]]_ is given as follows: 
 
 * objects are pairs $(\mathcal{E},M)$ where $\mathcal{E}$ is a topos and $M$ a $T$-model in $\mathcal{E}$, 
 
@@ -35,6 +37,7 @@ Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _T-modelle
 $T-\mathfrak{Top}_N$ is the full sub-2-category such that $\mathcal{E}$ has a [[natural numbers object]].
 
 ###Definition###
+
 Let $T$ be a (geometric) quotient theory of $S$. A class $A$ of $T$-model morphisms is called _admissible_ if
 
 * $A$ is closed under [[inverse image functor|inverse image functors]]: $p^*f\in A$ for $f\in A$.
@@ -78,7 +81,7 @@ Beside Cole's unpublished paper, Johnstone (1977b) is a good source for this mat
 
 * [[Olivia Caramello|O. Caramello]], _Topos-theoretic background_ , ms. 2014. ([pdf](http://www.oliviacaramello.com/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf))
 
-* J. C. Cole, _The Bicategory of Topoi, and Spectra_ , ms. ([pdf](http://www.oliviacaramello.com/Unification/ColeBicategoryTopoiSpectra.pdf))
+* [[Julian Cole]], _The Bicategory of Topoi, and Spectra_ , ms. ([pdf](http://www.oliviacaramello.com/Unification/ColeBicategoryTopoiSpectra.pdf))
 
 * M. Coste, _Localisation, spectra and sheaf representation_ , pp.212-238 in Fourman, Mulvey & Scott (eds.), _Applications of
 Sheaves_ , LNM **753** (1979).
