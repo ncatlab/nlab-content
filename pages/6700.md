@@ -168,7 +168,7 @@ $$
 
 with a possibly fractional power of the [[determinant line bundle]], def. \ref{PowerOfDeterminantLine}, produces a modular functor with vanishing central charge.
 
-To make sense of this however one needs to consistently define the fractional power. For that one needs to pass to surfaces equipped with a bit more structure, sich that the 
+To make sense of this however one needs to consistently define the fractional power. For that one needs to pass to surfaces equipped with a bit more structure.
 
 +-- {: .num_defn #RiggedSurfaces}
 ###### Definition
