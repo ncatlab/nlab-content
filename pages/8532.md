@@ -40,48 +40,75 @@ The mathematics of 2-vector spaces is often referred to as _[higher linear algeb
 While the underlying mathematics of 2-vector spaces is elegant and natural, the combinatorics of these basic operations can make calculations difficult to perform by hand. _TwoVect_ implements the basic operations of higher linear algebra, and can make calculations a lot easier.
 
 Here are some example uses for the package.
+
 * You've worked out the associator and unitors for a [semisimple](semisimple+category) [[monoidal category]], and you want to check the pentagon and triangle equations.
+
 * You've worked out other structure, like a [braiding](braided+monoidal+category), [symmetry](symmetric+monoidal+category) or [ribbon](ribbon+category) structure, and you want to check the defining equations are satisfied.
+
 * You want to use Mathematica's built-in solvers to help find these structures.
+
 * You want to calculate the value of a [[string diagram]] in a semisimple monoidal category.
+
 * You want to check algebraic properties of a semisimple monoidal category. Does it have [duals for objects](dualizable+object)? Is it [modular](modular+tensor+category)?
+
 * You want to check the axioms are satisfied for an [internal monoid object](monoid#inamonoidalcategory) in a semisimple monoidal category, or you want Mathematica to help you find such an object.
+
 * You have chosen higher linear maps to associate to the generators of some [higher algebraic structure](higher+algebra), and want to check the relations are satisfied.
+
 * You want to verify correctness of a quantum protocol, described in terms of the [2-categorical approach to quantum information](http://arxiv.org/abs/1207.4563).
 
 ## How does it work? ##
 
 The basic package _TwoVect_ implements a completely skeletal version of **2Vect**, the symmetric monoidal bicategory of finite-dimensional semisimple complex 2-vector spaces, in the following way:
+
 * **2-vector spaces** are represented by natural numbers.
+
 * **[Linear functors](linear+functor)** between 2-vector spaces are represented by matrices of natural numbers.
+
 * **[Natural transformations](natural+transformation)** between linear functors are represented by matrices of matrices of complex numbers.
 
 The three primitive composition operations of **2Vect** are implemented:
+
 * **Tensor product** $\odot$ is a binary operation for which the arguments can be 0-cells, 1-cells or 2-cells.
+
 * **Horizontal composition** $\circ$ is a binary operation, for which the arguments must 1-cells or 2-cells.
+
 * **Vertical composition** $\cdot$ is a binary operation for which the arguments must be 2-cells.
 
 The nonidentity invertible structural 2-cells are also implemented, which account for weakness of horizontal composition and tensor product:
+
 * The **interchanger**: $\tau_{f,g,h,i} : (f \circ g) \odot (h \circ i) \to (f \odot h) \circ (g \odot i)$
+
 * The **compositer**: $\omega_{f,g,h} : f \circ (g \circ h) \to (f \circ g) \circ h$
+
 * The **symmetrizer**: $\sigma_{f,g}: \mathrm{swap} \circ (f \odot g) \to (g \odot f) \circ \mathrm{swap}$
 
 There are also two add-on packages:
+
 * _MTCategories_ provides implementations of the equations for symmetric or braided semisimple monoidal categories.
+
 * _MTCategory_ provides a simplified syntax for working 'inside' a particular choice of monoidal category. Once this is defined, the value of string diagrams can be computed by typing them in using ordinary string diagram syntax.
 
 ## How could this be developed? ##
 
 There are several exciting ways this could evolve. If you want to help out, get in touch! Lots of things on this list would involve original research, and could form a part of a Masters or PhD dissertation.
+
 * A graphical front end would be a powerful addition. Compare to [Quantomatic](https://sites.google.com/site/quantomatic/), a GUI for _ordinary_ linear algebra.
+
 * Can _TwoVect_ be connected in a useful way to [computational methods in higher type theory](Coq)?
+
 * It should be possible to write code that inserts the structural isomorphisms $\tau$, $\omega$ and $\sigma$ _automatically_ where necessary. This would make the package enormously more powerful for certain applications.
+
 * Many more things could be implemented - a test for modularity of a braided monoidal category, quantum doubles, Hopf algebra axioms, module category axioms ...
 
 There are also some more mundane issues that need dealing with.
+
 * The basic functions that perform 2-cell tensor product, horizontal composition and vertical composition haven't been optimized, and run slowly for large inputs. There should be a lot of scope for improving the code, and perhaps also for compilation, which Mathematica supports.
+
 * There are some other strange issues around speed; different ways to tell Mathematica to compute the same thing can give rise to very different calculation times.
+
 * We're not sure how to test systematically whether everything has been implemented correctly.
+
 * There is probably some scope to restructure the packages and make them easier to use.
 
 category: software
