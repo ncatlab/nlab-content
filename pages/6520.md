@@ -46,6 +46,10 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 ## Related concepts
 
+* [[Yang-Mills instanton]]
+
+* [[contact instanton]]
+
 * [[instanton sector]]
 
 * [[non-perturbative effect]], [[non-perturbative quantum field theory]], [[non-perturbative string theory]]
