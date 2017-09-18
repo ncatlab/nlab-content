@@ -55,7 +55,11 @@ If we regard sets as [[discrete categories]], then a **function** is a [[functor
 
 ## For classes
 
-See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow.net/questions/63265/what-are-maps-between-proper-classes)
+One can also speak of functions between proper [[classes]], although the precise details may vary depending on the status of classes with respect to the formal theory. 
+
+In [[ZFC]] for example, proper classes are by design not formal objects in the theory; rather they are proxied by a formula in the language (for instance, the class $V$ of all sets is proxied by the formula $x = x$; intuitively we may think of $V$ as consisting of all $x$ satisfying that formula). In that case a function between classes is (to be continued). 
+
+See the MathOverflow discussion: [what-are-maps-between-proper-classes](http://mathoverflow.net/questions/63265/what-are-maps-between-proper-classes)
 
 ## Examples
 
