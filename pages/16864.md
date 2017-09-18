@@ -24,7 +24,7 @@
 
 ## Idea
 
-_Adjoint logic_ is [[formal logic]] or [[type theory]] which natively expresses [[adjunctions]] of [[modal operators]], [[adjoint modalities]].
+_Adjoint logic_ or _adjoint type theory_ is [[formal logic]] or [[type theory]] which natively expresses [[adjunctions]] of [[modal operators]], [[adjoint modalities]].
 
 ## References
 
@@ -40,3 +40,6 @@ An adjoint logic version of [[homotopy type theory]] giving [[cohesive homotopy 
 * [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_ ([arXiv:1509.07584](http://arxiv.org/abs/1509.07584))
 
 [[!redirects adjoint logics]]
+
+[[!redirects adjoint type theory]]
+[[!redirects adjoint type theories]]
