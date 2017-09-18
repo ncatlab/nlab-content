@@ -801,7 +801,7 @@ Somewhat more generally, for any [[Mal'cev category]] $C$, a simplicial object $
 
 ### Singular simplicial complexes / fundamental $\infty$-groupoids
 
-For $X$ a [[topological space]], its _singular simplicial complex_ is the [[simplicial set]] $\Pi(X)$ (often denoted  $S(X)$) whose set of $n$-simplices is the [[hom-set]]
+For $X$ a [[topological space]], its _[[singular simplicial complex]]_ is the [[simplicial set]] $\Pi(X)$ (often denoted  $S(X)$ or $Sing(X)$) whose set of $n$-simplices is the [[hom-set]]
 
 $$
   \Pi(X)_n := Top(\Delta^n_{Top}, X)
