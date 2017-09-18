@@ -1045,6 +1045,13 @@ and so functoriality completely fixes the former by the latter:
 
 Further [below](#StrictModelStructureOnSequentialSpectra) we use prop. \ref{SequentialSpectraAsDiagramSpectra} to naturally induce a model  structure on the category of topological sequential spectra.
 
++-- {: .num_remark #TensoringOfSeqSpectraOverSpacesAsSpecialCaseOfTensoringTopologicalFunctors}
+###### Remark
+
+Under the equivalence of prop. \ref{SequentialSpectraAsDiagramSpectra}, the general concept of tensoring of [[topologically enriched functors]] over topological spaces (according to [this def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)) restricts to the concept of tensoring of sequential spectral over topological spaces of def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+
+=--
+
 +-- {: .num_prop #LimitsAndColimitsOfSequentialSpectra}
 ###### Proposition
 
@@ -1178,7 +1185,7 @@ For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
 
    1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$ ([[smash product]] on the left ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)))
 
-   1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma_n)$.
+   1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma^X_n)$.
 
    in the sense of def. \ref{SequentialSpectra};
 
@@ -1186,7 +1193,7 @@ For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
 
    1. $(\Omega X)_n \coloneqq Maps(S^1,X_n)_\ast$;
 
-   1. $\tilde \sigma_n^{\Omega X} \coloneqq Maps(S^1,\tilde \sigma_n)_\ast$
+   1. $\tilde \sigma_n^{\Omega X} \coloneqq Maps(S^1,\tilde \sigma^X_n)_\ast$
 
    in the sense of def. \ref{SequentialSpectrumViaAdjunctStructureMaps}.
 
@@ -1265,7 +1272,7 @@ The second is a special case of prop. \ref{AdjunctionBetweenSmashTensoringAndPow
 
 The third follows by applying the [[smash product]]$\dashv$[[pointed mapping space]]-adjunction isomorphism twice, like so:
 
-Morphisms $f\colon \Sigma X \to Y$ are in components given by commuting diagrams of this form:
+Morphisms $f\colon \Sigma X \to Y$ in the sense of def. \ref{SequentialSpectra} are in components given by commuting diagrams of this form:
 
 $$
   \array{  
@@ -1282,7 +1289,25 @@ $$
   \,.
 $$
 
-Applying the adjunction isomorphism diagonally gives a bijection to diagrams of this form:
+Applying the adjunction isomorphism diagonally  (for instance for the [[adjunct]]] of the left and bottom morphism chase the identity $id_{S^1 \wedge X_{n+1}}$ in both ways 
+
+$$
+  \array{
+    Hom(S^1 \wedge X_{n+1}, S^1 \wedge X_{n+1})
+      &\overset{\simeq}{\longrightarrow}&
+    Hom(X_{n+1}, Maps(S^1, S^1 \wedge X_{n+1})_\ast)
+    \\
+    {}^{\mathllap{Hom(S^1 \wedge \sigma^X_n, f_{n+1})}}\downarrow 
+    && 
+    \downarrow^{\mathrlap{Hom(\sigma^X_n, Maps(S^1, f_{n+1})_\ast)}}
+    \\
+    Hom(S^1 \wedge S^1 \wedge X_n, Y_{n+1})
+     &\overset{\simeq}{\longrightarrow}&
+    Hom(S^1 \wedge X_n, Maps(S^1, Y_{n+1})_\ast)
+  }
+$$
+
+through the adjunction naturality square) gives a natural bijection to diagrams of this form:
 
 $$
   \array{
@@ -1299,25 +1324,26 @@ Then applying the adjunction isomorphism diagonally once more gives a further bi
 
 $$
   \array{
-    X_n &\overset{\tilde f_n}{\longrightarrow}& Maps(S^1,Y_n)_\ast
+    X_n &\overset{\widetilde {f_n}}{\longrightarrow}& Maps(S^1,Y_n)_\ast
     \\
     {}^{\mathllap{\tilde \sigma_n}}\downarrow 
       && 
     \downarrow^{\mathrlap{Maps(S^1,\tilde \sigma^Y_n)_\ast}}
     \\
     Maps(S^1, X_{n+1})_\ast
-      &\underset{Maps(S^1,\tilde f_n)_\ast}{\longrightarrow}&
+      &\underset{Maps(S^1,\widetilde{f_{n+1}})_\ast}{\longrightarrow}&
     Maps\left(S^1, Maps(S^1,Y_{n+1})_\ast\right)_\ast
   }
   \,.
 $$
 
-This, finally, equivalently exhibits morphisms of the form
+This, finally, equivalently exhibits homomorphisms of the form
 
 $$
   X \longrightarrow \Omega Y
-  \,.
 $$
+
+in the sense of def. \ref{SequentialSpectrumViaAdjunctStructureMaps}.
 
 =--
 
@@ -1341,14 +1367,17 @@ $$
      \\
      SeqSpec(Top_{cg})
      &
-     \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{\simeq}
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
      &
      SeqSpec(Top_{cg})
   }
   \,,
 $$
 
-Here the top horizontal adjunction is from prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, the vertical adjunction is from prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} and then bottom adjunction is from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}.
+Here the top horizontal adjunction is from prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, the vertical adjunction is from prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} and the bottom adjunction is from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}.
 
 =--
 
@@ -1439,7 +1468,7 @@ $$
   J_{Top^{\ast/}} \coloneqq \{D^n \overset{(id,\delta_0)_+}{\longrightarrow} D^n \times I\}_{n \in \mathbb{N}}
 $$
 
-of standard generating cofibrations and generating acyclic cofibrations, respectively, of the [[classical model structure on pointed topological spaces]].
+of standard generating (acyclic) cofibrations ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) of the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantGenerationOfPointedTopologicalSpaces)).
 
 
 +-- {: .num_defn #GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict}
@@ -1448,7 +1477,7 @@ of standard generating cofibrations and generating acyclic cofibrations, respect
 Write
 
 $$
-  I_{SeqSpec}^{stric} 
+  I_{SeqSpec}^{strict} 
     \coloneqq 
   \left\{ 
     y(S^n) \cdot i_+ 
@@ -1463,14 +1492,14 @@ $$
   J_{SeqSpec}^{strict}
     \coloneqq 
   \left\{ 
-    y(S^n) \otimes j_+ 
+    y(S^n) \cdot j_+ 
   \right\}_{{ S^n \in StdSpheres} \atop {j_+ \in J_{Top^{\ast/}}}}
   \;\;
   \in [StdSpheres, Top^{\ast/}] \simeq SeqSpec(Top)
   \,,
 $$
 
-for the set of morphisms arising as the [[tensoring]] of a [[representable functor|representable]] with a generating acyclic cofibration of the [[classical model structure on pointed topological spaces]].
+for the set of morphisms arising as the [[tensoring]] (remark \ref{TensoringOfSeqSpectraOverSpacesAsSpecialCaseOfTensoringTopologicalFunctors}) of a [[representable functor|representable]] with a generating acyclic cofibration of the [[classical model structure on pointed topological spaces]].
 
 =--
 
@@ -1479,7 +1508,7 @@ for the set of morphisms arising as the [[tensoring]] of a [[representable funct
 +-- {: .num_theorem #StrictModelStructureOnSequentialPrespectraIsModelCategory}
 ###### Theorem
 
-The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(Top)_{strict}$, called the **strict [[model structure on topological sequential spectra]]**.
+The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} give the structure of a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) to be denoted $SeqSpec(Top)_{strict}$ and called the **strict [[model structure on topological sequential spectra]]** (or: **level model structure**).
 
 This is a [[cofibrantly generated model category]] with generating (acyclic) cofibrations the set $I_{SeqSpec}^{strict}$ (resp. $J_{SeqSpec}^{strict}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict}.
 
@@ -1499,7 +1528,7 @@ $$
   \,.
 $$
 
-Accordingly, this carries the [[projective model structure on enriched functors]], and unwinding the definitions, this gives the statement for the fibrations and the weak equivalences.
+Accordingly, this carries the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)). This immediately gives the statement for the fibrations and the weak equivalences.
 
 It only remains to check that the cofibrations are as claimed. To that end, consider a [[commuting square]] of sequential spectra
 
@@ -1514,7 +1543,7 @@ $$
   \,.
 $$
 
-By definition, this is equivalently a $\mathbb{N}$-collection of commuting diagrams of simplicial sets of the form
+By definition, this is equivalently a $\mathbb{N}$-collection of commuting diagrams in $Top_{cg}$ of the form
 
 $$
   \array{
@@ -1590,7 +1619,7 @@ $$
   \,.
 $$
 
-This is a [[cocone]] under the the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$, while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
+This is a [[cocone]] under the the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProduct)), while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
 
 $$
   \array{
@@ -1643,7 +1672,7 @@ $$
 
 its image.
 
-Since, the structure maps in a [[suspension spectrum]], example \ref{SuspensionSpectrum}, are all isomorphisms we have for all $n \in \mathbb{N}$ an isomorphism
+Since the structure maps in a [[suspension spectrum]], example \ref{SuspensionSpectrum}, are all isomorphisms, we have for all $n \in \mathbb{N}$ an isomorphism
 
 $$
   (\Sigma^\infty X)_{n+1}
