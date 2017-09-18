@@ -401,6 +401,13 @@ and shown to be equivalent to categories with attributes in
 
 * Martin Hofmann, *Syntax and semantics of dependent types*, [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985).
 
+The initial category with families was constructed in
+
+* [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, (2015) ([pdf](http://www.cs.nott.ac.uk/~txa/publ/tt-in-tt.pdf)), ([formalisation in Adga](https://bitbucket.org/akaposi/tt-in-tt)).
+{#AltKap2015}
+
+inside type theory with set quotients of [[higher inductive types]].
+
 Contextual categories are defined in
 
 * John Cartmell, *Generalised algebraic theories and contextual categories*, Ann. Pure Appl. Logic 32 (1986), no. 3, 209--243
