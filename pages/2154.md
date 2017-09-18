@@ -35,6 +35,10 @@ Conversely, knowing angles and lengths, we may recover the inner product on $V$;
 $$ \langle{x - z, y - z}\rangle = {\|\overline{x z}\|} {\|\overline{y z}\|} \cos \angle x z y ,$$
 and other inner products are recovered by linearity.  (We must then use the axioms of [[Euclidean geometry]] to prove that this is well defined and actually an inner product.)  It's actually possible to recover the inner product and angles from lengths alone; this is discussed at [[Hilbert space]].
 
+## Related concepts
+
+* [[super-Euclidean space]]
+
 
 [[!redirects Euclidean space]]
 [[!redirects Euclidean spaces]]
