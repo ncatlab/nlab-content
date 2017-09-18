@@ -3317,7 +3317,7 @@ $$
     \\
     & 
     \simeq
-    im(g^{R-}) \cap ker(g)
+    im(g^{R-1}) \cap ker(g)
   \end{aligned}
 $$
 
