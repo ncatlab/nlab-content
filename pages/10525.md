@@ -1,5 +1,5 @@
 
-# $JB$-algebras
+# Jordan--Banach algebras
 * table of contents
 {: toc}
 
@@ -18,7 +18,7 @@ Just as a [[Jordan algebra]] that happens to be associative is the same thing as
 
 One can also consider Jordan $*$-algebras and the like, but the interesting thing is that important results about $C^*$-[[C-star-algebra|algebras]] have analogues already for $JB$-algebras. Instead of an involution, we can add a compatible [[Lie algebra]] structure to a Jordan algebra; then even *without* assuming associativity or commutativity, a [[Jordan–Lie algebra]] over the [[real numbers]] is the same thing as an associative $*$-algebra over the [[complex numbers]], up to [[equivalence of categories]], and this extends to lower rows.
 
-The right column is discussed at [[JLB-algebra]]; here we discuss the middle column (assuming the top row and left column as known).
+The right column is discussed at [[Jordan–Lie–Banach algebra]]; here we discuss the middle column (assuming the top row and left column as known).
 
 
 ## Definitions
@@ -56,7 +56,7 @@ People might state the last clause as ${\|1\|} = 1$, which follows (using shortn
 The Jordan--Banach algebra $A$ is a __$JB$-algebra__ if it satisfies these identities:
 
 * __$B$-identity__: ${\|x \circ x\|} = {\|x\|^2}$,
-* _positivity_: ${\|x \circ x\|} \leq {\|x \circ x + y \circ y\|}$.
+* _[[formally real algebra|positivity]]_: ${\|x \circ x\|} \leq {\|x \circ x + y \circ y\|}$.
 =--
 
 Shortness of the multiplication follows from the $B$-identity (via the [[polarization identities]] and the triangle identity), so it may be left out of a direct definition of $JB$-algebras; the same goes for the norm of $1$ in the unital case.  (Compare the analogous results for $C^*$-[[C-star-algebra|algebras]].)  Conversely, given shortness of multiplication (or even of squaring), these two identities may be combined into the single inequality
@@ -114,11 +114,12 @@ $JB$-algebras have nice properties like those of $C^*$-algebras, and $JBW$-algeb
 
 An associative $JB$-algebra is the same thing as a commutative $C^*$-algebra with trivial involution, which (over the [[real numbers]]) is in turn the same thing as the algebra of (real-valued) [[continuous maps]] vanishing at infinity on a [[local compactum]] (which is a [[compactum]] iff the algebra is unital, and then every continuous map vanishes at infinity).
 
-Like any Jordan algebra, a $JB$-algebra $A$ is [[power-associative algebra|power-associative]], so each element $x$ generates an associative [[subalgebra]] and hence a local compactum $Spec(x)$; in a unital $JB$-algebra, each element generates an associative unital subalgebra and hence a compactum (which we will also write $Spec(x)$).  Any [[continuous map]] $f\colon Spec(x) \to \mathbb{R}$ therefore defines an element $f(x)$ of $A$.  More generally, any associative subalgebra $X$ generates a (local) compactum $Spec(X)$, its [[spectrum]], and any continuous map on $Spec(X)$ defines an element of $A$ (in fact belonging to $X$).  Thus we have a [[functional calculus]] on $JB$-algebras.  In a $JBW$-algebra, we may instead interpret the spectrum as a [[localizable measure space]], with $X$ identified as the algebra of [[essentially bounded function|essentially bounded]] [[measurable functions]] (modulo [[almost equality]]) on the spectrum, so that the functional calculus extends to measurable functions.
+Like any Jordan algebra, a $JB$-algebra $A$ is [[power-associative algebra|power-associative]], so each element $x$ generates an associative (and of course commutative) [[subalgebra]] and hence a local compactum.  In a unital $JB$-algebra, each element generates an associative unital subalgebra and hence a compactum $Spec(x)$.  Any [[continuous map]] $f\colon Spec(x) \to \mathbb{R}$ therefore defines an element $f(x)$ of $A$.  More generally, any associative unital subalgebra $X$ generates a compactum $Spec(X)$, its [[spectrum]], and any continuous map on $Spec(X)$ defines an element of $A$ (in fact belonging to $X$).  Thus we have a [[functional calculus]] on $JB$-algebras.  In a $JBW$-algebra, we may instead interpret the spectrum as a [[localizable measure space]], with $X$ identified as the algebra of [[essentially bounded function|essentially bounded]] [[measurable functions]] (modulo [[almost equality]]) on the spectrum, so that the functional calculus extends to measurable functions.
 
 Since every $JB$-algebra $A$ is [[formally real algebra|formally real]], it comes equipped with a [[partial order]]: $x \leq y$ iff $y - x$ is a sum of squares.
 
-The [[order-theoretic structure in quantum mechanics]] fixes the JB-algebra structure of a $C^*$-algebra, but not the JLB-algebra structure.
+The [[order-theoretic structure in quantum mechanics]] fixes the $JB$-algebra structure of a $C^*$-algebra, but not the $JLB$-algebra structure.
+
 
 ## Related concepts
 
@@ -147,8 +148,8 @@ of which a lot is already on pages 1--4 (the only ones that Google Books would s
 ## Related pages
 
 * [[Jordan algebra]]
-* **$JB$-algebra**
-* [[JLB-algebra]]
+* **Jordan--Banach algebra**
+* [[Jordan–Lie–Banach algebra]]
 
 
 [[!redirects Jordan Banach algebra]]
