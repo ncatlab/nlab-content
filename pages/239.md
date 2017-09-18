@@ -77,16 +77,16 @@ While the universal property referred to above (every bilinear map $A,B\to C$ fa
 
 ### In terms of heteromorphisms
 
-An alternative approach is to define the tensor product via an inter-categorical universal property involving [[heteromorphism|heteromorphisms]]. Tensor products do not arise via an adjunction, but we can observe that $ hom (a \otimes b, c) \simeq het (\langle a, b \rangle, c) $, which is to say that any morphism from $a \otimes b$ to $c$ in some category $C$ corresponds to a heteromorphism from $\langle a, b \rangle$ in $C \times C$ to $c$ in $C$.
+An alternative approach is to define the tensor product via an inter-categorical universal property involving [[heteromorphism|heteromorphisms]]. Tensor products do not always arise via an adjunction, but we can observe that $ hom (a \otimes b, c) \simeq het (\langle a, b \rangle, c) $ in general. That is to say, any morphism from $a \otimes b$ to $c$ in some category $C$ corresponds to a heteromorphism from $\langle a, b \rangle$ in $C \times C$ to $c$ in $C$. In other words, the tensor product is a left representation of $het (\langle a, b \rangle, c)$.
 
-When tensor products exists, we have a canonical het $\eta_{\langle a, b \rangle} \colon \langle a, b \rangle \to a \otimes b$. Given another het $\phi \colon \langle a, b \rangle \to c$, we get the following commutative diagram.
+When tensor products exist, we have a canonical het $\eta_{\langle a, b \rangle} \colon \langle a, b \rangle \to a \otimes b$ from $id_{a \otimes b} \in hom (a \otimes b, a \otimes b)$. Given another het $\phi \colon \langle a, b \rangle \to c$, we get the following commutative diagram.
 
 
 $$
 \begin{array}{cccC}
                                                  & {\langle a, b \rangle} &  &   & \\
           \eta_{\langle a, b \rangle} & \downarrow           & \overset{\phi}\searrow       &     & \\
-                                                 & a \otimes b            & \underset{f}\dashrightarrow & C &  \\ \end{array}
+                                                 & a \otimes b            & \underset{f}\dashrightarrow & c &  \\ \end{array}
 $$
 
 
