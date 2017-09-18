@@ -3638,11 +3638,11 @@ If the sides are identified with opposite orientation, the result is the _[[Möb
 **([[stereographic projection]])**
 
 For $n \in \mathbb{N}$ then there is a [[homeomorphism]] (def. \ref{Homeomorphism})
-between btween nthe [[n-sphere]] $S^n$ with one point $p \in S^n$ removed
+between between the [[n-sphere]] $S^n$ (example \ref{SpheresAndDisks}) with one point $p \in S^n$ removed
 and the $n$-dimensional [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}):
 
 $$
-  S^n \backslash \{p\} \overset{\simeq}{\longrightarrow} \mathbb{R}^n
+  S^n \backslash \{p\} \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow} \mathbb{R}^n
   \,.
 $$
 
@@ -3651,8 +3651,9 @@ $$
 </div>
 
 This homeomorphism is given by "[[stereographic projection]]":
-One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] (example \ref{SubspaceTopology}) of $\mathbb{R}^{n+1}$ in the standard way (example \ref{SpheresAndDisks}), such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corresponding poles. Then the homeomorphism is the 
-function which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to the equatorial plane.
+One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] (example \ref{SubspaceTopology}) of $\mathbb{R}^{n+1}$ in the standard way (example \ref{SpheresAndDisks}), such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corresponding poles, then the homeomorphism is the 
+function which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to 
+the point $y$ where this line intersects the equatorial plane.
 
 In the canonical ambient [[coordinates]] this [[stereographic projection]] is given as follows:
 
@@ -3661,7 +3662,7 @@ $$
     \mathbb{R}^{n+1} \supset \;\;\;
     &
     S^n \backslash (1,0, \cdots, 0)
-      &\overset{\phantom{AA} \phantom{AA}}{\longrightarrow}&
+      &\overset{\phantom{AA} \simeq \phantom{AA}}{\longrightarrow}&
     \mathbb{R}^{n}
     &
     \;\;\;
