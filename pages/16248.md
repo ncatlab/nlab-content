@@ -15,7 +15,8 @@ The five [[regular polyhedron|regular]] [[convex set|convex]] [[polyhedron]] in 
 
 [[!include ADE -- table]]
 
-* [[Johannes Kepler]]
+* [[Johannes Kepler]], [[Music of the Spheres]]
+
 * Plato's [[Timaeus]]
 
 ## References
