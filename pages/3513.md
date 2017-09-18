@@ -126,6 +126,15 @@ We have
 
 =--
 
+An alternative characterization of this model structure is:
+
++-- {: .num_theorem #AsLocalization}
+###### Theorem
+The model structure for left fibrations is the left [[Bousfield localization]] of the [[model structure on an overcategory|overcategory]] model structure on $SSet/X$ induced by the [[model structure for quasicategories]] on $SSet$ at the set of maps $\{ \Delta^n_0 \hookrightarrow \Delta^n | n\ge 0, \Delta^n \to X \}$ indexed by all the simplices of $X$.
+=--
+
+This is mentioned in [Heuts-Moerdijk](#HeutsMoerdijk13), p.5; see also [this discussion](http://nforum.ncatlab.org/discussion/915/model-structure-for-left-fibrations/?Focus=53814#Comment_53814).
+
 ## Properties
 
 ### Weak equivalences {#WeakEquivalences}
@@ -258,6 +267,10 @@ This is the content of section 2.1.4 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 There the model structure $(sSet/S)_{lfib}$ is called the **covariant model structure** and the model structure $(sSet/S)_{rfib}$  the **contravariant model structure**.
+
+The alternative construction as a localization is mentioned in
+
+* {#HeutsMoerdijk13} [[Gijs Heuts]], [[Ieke Moerdijk]], _Left fibrations and homotopy colimits_ ([arXiv:1308.0704](http://arxiv.org/abs/1308.0704))
 
 [[!redirects model structure for right fibrations]]
 [[!redirects covariant model structure]]
