@@ -47,17 +47,17 @@ The group $O(k)$ [[transitive action|acts transitively]] on the set of $n$-dimen
 
 ### Relation to Stiefel manifolds and universal bundles
 
-Similarly, the _[[Stiefel manifold]]_ is the [[coset]]
+Similarly, the _real [[Stiefel manifold]]_ is the [[coset]]
 
 $$
-  V_n(k) \coloneqq O(k)/O(n)
+  V_n(k) \coloneqq O(k)/O(k-n)
   \,.
 $$
 
 The [[quotient]] [[projection]]
 
 $$
-  V_{k-n}(k)\longrightarrow Gr_n(k)
+  V_{n}(k)\longrightarrow Gr_n(k)
 $$
 
 is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(k)\times_{O(n)} \mathbb{R}^n$ a [[vector bundle]] of [[rank]] $n$. In the limit ([[colimit]]) that $k \to \infty$ is this gives a presentation of the $O(n)$-[[universal principal bundle]] and of the [[universal vector bundle]] of rank $n$, respectively.. The base space $Gr_n(\infty)\simeq_{whe} B O(n)$ is the [[classifying space]] for $O(n)$-[[principal bundles]] and rank $n$ vector bundles.
