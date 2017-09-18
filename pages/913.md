@@ -68,11 +68,16 @@ Not all that related, but similar sounding:
 
 [[!redirects sequential net]]
 [[!redirects sequential nets]]
+
 [[!redirects presequence]]
 [[!redirects presequences]]
 
+[[!redirects pre-sequence]]
+[[!redirects pre-sequences]]
+
+
 [[!redirects subsequence]]
-[[!redirects subsequence]]
+[[!redirects subsequences]]
 
 [[!redirects sub-sequence]]
-[[!redirects sub-sequence]]
+[[!redirects sub-sequences]]
