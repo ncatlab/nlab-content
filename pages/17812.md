@@ -1476,7 +1476,7 @@ $$
 Proposition \ref{ImAction} means that for $X$ for instance an ordinary [[smooth manifold]] (as in remark \ref{ASheafAsASpace})
 then $\Im X$ is a rather exotic kind of [[generalized smooth space]]: it has the same finite smooth curves and other
 finie smooth shapes as $X$ does, but every _infinitesimal_ curve or shape inside it is necssarily constant.
-A good way to think kabout this (which is also the precise way to thinkk about it, if we speak in the [[internal langauge]]
+A good way to think kabout this (which is also the precise way to thinkk about it, if we speak in the [[internal language]]
 of the [[sheaf topos]]) is that $\Im X$ is the result obtained from $X$ by **identifying all infinitesimally close points**
 with each other. In [[algebraic geometry]] this construction is often known as forming the _[[de Rham shape]]_ of $X$
 ([simpson 96](#de+Rham+space#Simpson96)). Here we will say **[[infinitesimal shape]]**.
@@ -1491,7 +1491,7 @@ For $X \in SuperFormalSmoothSet$ (def. \ref{FormalSmoothSets}) then we say that 
 
 $$
   \array{
-    T^\infty X &\lngrightarrow& X
+    T^\infty X &\longrightarrow& X
     \\
     {}^{\mathllap{p}}\downarrow &\stackrel{(pb)}{}& \downarrow^{\mathrlap{\eta_X}}
     \\
@@ -1508,7 +1508,7 @@ $$
   \array{
     \mathbb{D}_x &\longrightarrow& T^\infty X &\lngrightarrow& X
     \\
-    \downarrw &\stackrel{(pb)}{}& {}^{\mathllap{p}}\downarrow &\stackrel{(pb)}{}& \downarrow^{\mathrlap{\eta_X}}
+    \downarrow &\stackrel{(pb)}{}& {}^{\mathllap{p}}\downarrow &\stackrel{(pb)}{}& \downarrow^{\mathrlap{\eta_X}}
     \\
     \ast &\underset{x}{\longrightarrow}& X &\underset{\eta_X}{\longrightarrow}& \Im X
   }
@@ -1524,8 +1524,8 @@ $$
 +-- {: .num_defn #LocalDiffeomorphisms}
 ###### Definition
 
-Given $X,Y\in SuperFormalSmoothSet$ then a morphism $f \;\colon\; X\longrightarrow Y$ is called a _[[local diffeomorphism]]_ 
-or _[[formally étale morphism]]_ if its 
+Given $X,Y\in SuperFormalSmoothSet$ then a morphism $f \;\colon\; X\longrightarrow Y$ is called a _[[local diffeomorphism]]_
+or _[[formally étale morphism]]_ if its
 [[natural transformation|naturality square]] of the [[infinitesimal shape modality]] (prop. \ref{ImAction})
 
 $$
@@ -1546,7 +1546,7 @@ $$
   \array{
     X &&&& X &\longrightarrow& \Im X
     \\
-    {}^{\mathllap{et}}\downarrow^{\mathrlap{f}} &&\Leftrightarrow&& \downarrow^{\mathrlap{f}} &\stackrel{(pb)}{}& \downarrow^{\mathrlap{\Im f}}
+    {}^{\mathllap{f}}\downarrow^{\mathrlap{et}} &&\Leftrightarrow&& {}^{\mathllap{f}}\downarrow &\stackrel{(pb)}{}& \downarrow^{\mathrlap{\Im f}}
     \\
     Y &&&& Y &\longrightarrow& \Im Y
   }
@@ -1601,7 +1601,8 @@ $$
 
 =--
 
-+-- {: .proof
+
++-- {: .proof}
 ###### Proof
 
 Since $\Im$ is a [[left adjoint]] by prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, def \ref{ProgressionOfIdempotentEndofunctors},
@@ -1620,7 +1621,7 @@ $$
 $$
 
 Moreover, in any [[sheaf topos]] [[universal colimits|colimits are universal]], which means that maps out of colimits
-are preserves under [[pullback]]. Moreover, the pullback of an [[isomorphism]] is an isomorphism, 
+are preserves under [[pullback]]. Moreover, the pullback of an [[isomorphism]] is an isomorphism,
 and so we deduce that we have a pullback diagram of the form
 
 $$
@@ -1634,8 +1635,8 @@ $$
   \,.
 $$
 
-But, again because $\Im$ preserves colimits, this is manifestly the $\Im$-naturality square of the 
-original morphism. 
+But, again because $\Im$ preserves colimits, this is manifestly the $\Im$-naturality square of the
+original morphism.
 
 =--
 
@@ -1659,7 +1660,7 @@ $$
 
 with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphisms}, and the right one in addition being an [[epimorphism]].
 
-By prop. \ref{ProjectioonOutOfCoproductIsFormllyEtale} this means that $X$ is in particular a $V$-manifold 
+By prop. \ref{ProjectioonOutOfCoproductIsFormllyEtale} this means that $X$ is in particular a $V$-manifold
 if there exists a [[set]] $I$ and a morphism out of the [[coproduct]] of $I$ copies of $V$ to $X$ which is a locally diffeomorphic
 epimorphism:
 
@@ -1672,8 +1673,8 @@ $$
     X
   }
 $$
- 
-Specifically if $V = \mathbb{R}^{p\vert q}$ be a [[super Cartesion space]] regarded as a [[group object]] under a
+
+Specifically if $V = \mathbb{R}^{p\vert q}$ be a [[super Cartesian space]] regarded as a [[group object]] under a
 [[translation supergroup]] action. Then we say that $X$ is a **[[supermanifold]]** of [[dimension]] $(p\vert q)$
 if there exists
 
@@ -1707,7 +1708,7 @@ But later on the choice affects for instance the concept of [[torsion of a G-str
 ###### Example
 
 Let $X$ be a [[smooth manifold]] of [[dimension]] $n$ and $E \to X$ a smooth [[vector bundle]] over $X$ of [[rank]]
-$k \in \mathbb{N}$. Then there is a [[supermanifold]] (def. \ref{VManifold}) of dimension 
+$k \in \mathbb{N}$. Then there is a [[supermanifold]] (def. \ref{VManifold}) of dimension
 $(n \vert k)$, denoted $\Pi E$, as follows.
 
 Write
@@ -1715,7 +1716,7 @@ Write
 $$
   \mathcal{O}(\Pi E)
     \;\coloneqq\;
-  \wedge^\bullet_{C^\infty(X)} \Ganma_X(E)
+  \wedge^\bullet_{C^\infty(X)} \Gamma_X(E)
   =
   C^\infty(X) \oplus \Gamma_X(E^\ast) \oplus \Gamma_X(E^\ast) \wedge_{C^\infty(X)} \Gamma_X(E^\ast)
   \oplus \cdots
@@ -1724,7 +1725,7 @@ $$
 for the [[supercommutative superalgebra]] which is the [[exterior algebra]] over $C^\infty(x)$ of the $C^\infty(X)$-[[module]]
 $\Gamma_X(E^\ast)$ of [[smooth sections]] (as in the [[smooth Serre-Swan theorem]]) of the [[dual vector bundle]] $E^\ast$.
 
-The underlying [[functor of points]] of $\Pi E$  (remark \ref{ASheafAsASpace}) 
+The underlying [[functor of points]] of $\Pi E$  (remark \ref{ASheafAsASpace})
 
 $$
   \Pi E \;\colon\; SuperCartSp^{op} \longrightarrow Set
@@ -1734,16 +1735,16 @@ is the one that is [[representable functor|represented]]
 by this algebra:
 
 $$
-  \Pi E \;\colon\; \mathbb{R}^{p \vert q} 
-   \mapsto 
-   Hom_{sCalg_{\mathbb{R}}}( 
-     \wedge^\bullet_{C^\infty(X)} \Ganma_X(E) , \;
-     C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} \wedge^\bullet_{\mathbb{R}} (\mathbb{R}^q)^\ast 
+  \Pi E \;\colon\; \mathbb{R}^{p \vert q}
+   \mapsto
+   Hom_{sCalg_{\mathbb{R}}}(
+     \wedge^\bullet_{C^\infty(X)} \Gamma_X(E) , \;
+     C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} \wedge^\bullet_{\mathbb{R}} (\mathbb{R}^q)^\ast
   )
   \,.
 $$
 
-For instance if $E = T X$ is the [[tangent bundle]] of $X$, so that the dual bundle is the [[cotangent bundle]], then 
+For instance if $E = T X$ is the [[tangent bundle]] of $X$, so that the dual bundle is the [[cotangent bundle]], then
 
 $$
   \mathcal{O}(\Pi T X)
@@ -1760,7 +1761,7 @@ This $\Pi T X$ is often called the **[[odd tangent bundle]]**.
 
 Notice that generally we may think of $\Pi E$ as being the [[superspace]] which is obtained form the base manifold
 $X$ by adding an (odd-graded) infinitesimal thickening where an "infinitesimal step" away from some point $x \in X$
-is a [[vector]] in the [[fiber]] $E_x$. This is particularly suggestive in the case that $E$ is the tangent bundle, 
+is a [[vector]] in the [[fiber]] $E_x$. This is particularly suggestive in the case that $E$ is the tangent bundle,
 because tangent vectors precisely want to be thought of as the infinitesimal paths in $X$.
 
 Below we see that this is not a coincidence, and discuss the formal proof that $\Pi T X$ is the superspace of
@@ -1863,11 +1864,95 @@ a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-
 
 ## Super mapping spaces
 
-We now discuss [[mapping spaces]] in supergeometry. These are interesting in two ways:
+We now discuss [[mapping spaces]] in [[supergeometry]]. These are interesting in two ways:
 
 1. for the theory -- mapping spaces nicely exhibit the usage and the power of the [[functor of points]] perspective;
- 
-1. for applications -- the [[phase spaces]] of interst in [[physics]] are [[mapping spaces]] (in the generality of spaces of [[sections]], namely of a [[field bundle]]).
+
+1. for applications -- the [[phase spaces]] of interest in [[physics]] are [[mapping spaces]] (in the generality of spaces of [[sections]], namely of a [[field bundle]]).
+
+The key idea is that [[sets]] of functions between sets have the following [[universal property]]:
+
++-- {: .num_example #FunctionSet}
+###### Example
+
+Let $X,Y \in $ [[Set]] be two [[sets]], then set 
+
+$$
+  Y^X \coloneqq \{X \to Y\}
+$$
+
+of [[functions]] from $X$ to $Y$ is characterized by the fact that for $Z \in Set$ any further set,
+there is a [[natural bijection]]
+
+$$
+  Hom( Z \times X, Y ) \stackrel{\simeq}{\longrightarrow} Hom(Z, Y^X) 
+$$ 
+
+between functions of two [[vaiables]] into $Y$ and functions of one variable into $Y^X$. This is given by sending 
+any function $f(-,-)$ of two variables to the function $\tilde f$ which sends any $z$ to the function
+$x \mapsto f(z,x)$. Hence this simply reinterprets "taking two arguments at once" by "taking two arguments consecutively".
+
+=--
+
+It is immediate how to generalize example \ref{FunctionSet}:
+
++-- {: .num_defn #InternalHom}
+###### Definition
+
+Let $\mathcal{C}$ be a [[category]] with [[Cartesian products]] of its [[objects]],
+hence a [[cartesian monoidal category]]. Then an [[internal hom]]-functor for $\mathcal{C}$
+is, it it exists, a functor of the form
+
+$$
+  [-,-] \;\colon\; \mathcal{C}^{op} \times \mathcal{C} \longrightarrow \mathcal{C}
+$$
+
+such that there is a [[natural bijection]] between [[hom sets]] of the form
+
+$$
+  Hom_{\mathcal{C}}(Z \times X, Y) 
+  \simeq  
+  Hom_{\mathcal{C}}(Z, [X,Y])
+$$
+
+for all [[objects]] $X,Y,Z \in \mathcal{C}$.
+
+=--
+
+The class of example that we are interested in is the following
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C} = Sh(\mathcal{S})$ be a [[category of sheaves]] over some [[site]] $\mathcal{S}$.
+
+Then the [[Cartesian product]] between any two sheaves $X,Y \in Sh(\mathcall{C})$ exists and
+is given objectwise by the [[Cartesian product]] of sets:
+
+$$
+  (X \times Y) \;\colon\; U \mapsto X(U) \times Y(U)
+$$
+
+for $U \in \mathcal{S}$.
+
+Moreover, an [[internal hom]]-functor according to def. \ref{InternalHom} exist. It sends
+any two [[sheaves]] $X,Y \in Sh(\mathcal{S})$ to the sheaf 
+
+$$
+  [X,Y] \;\colon\; \mathcal{S}^{op} \longrightarrow Set
+$$
+
+given by
+
+$$
+  U \mapsto Hom_{Sh(\mathcal{S})( X \times y(U), Y )
+  \,,
+$$
+
+where $y \colon \mathcal{S} \hookrightarrow Sh(\mathcal{S})$ is the [[Yoneda embedding]].
+
+=--
+
 
 (...)
 
