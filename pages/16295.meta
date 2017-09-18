@@ -1,0 +1,1 @@
+Name:  (X,d) is said to be a pseudometric space if we change the first assertion of a metric by: d(x, x) = 0. (It means that one may have d(x, y) = 0 for distinct values x ̸= y). Say why a pseudometric space will not be Hausdorff.
