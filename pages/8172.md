@@ -74,7 +74,18 @@ The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mat
 +-- {: .num_defn #EAdamsSpectralSequence}
 ###### Definition
 
-Let $X,Y \in Ho(Spectra)$ be two [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)), and let $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)). Then the **$E$-[[Adams spectral sequence]]** for the computation of the [[graded abelian group]] $[X,Y]_\bullet$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a tower of fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the tower
+Let $X,Y \in Ho(Spectra)$ be two [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)), and let $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) in the [[tensor triangulated category|tensor triangulated]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)) [[stable homotopy category]] $(Ho(Spectra), \wedge, \mathbb{S})$. 
+
+Then the **$E$-[[Adams spectral sequence]]** for the computation of the [[graded abelian group]] 
+
+$$
+  [X,Y]_\bullet
+  \coloneqq
+  [X, \Sigma^{-\bullet} Y]
+$$ 
+
+of morphisms in the [[stable homotopy category]]
+([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a tower of fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the tower
 
 $$
   \array{
@@ -124,7 +135,7 @@ $$
   E \wedge Y_{n}
 $$
 
-is the composition of the inverse derived [[unitor]] on $Y_n$ with the smash product of the unit $e$ of $E$ and the identity on $Y_n$.
+is the composition of the inverse derived [[unitor]] on $Y_n$ with the derived [[smash product of spectra]] of the unit $e$ of $E$ and the identity on $Y_n$.
 
 =--
 
@@ -133,7 +144,7 @@ is the composition of the inverse derived [[unitor]] on $Y_n$ with the smash pro
 +-- {: .num_defn #HomotopyFiberOfUnitOfCommutativeRingSpectrum}
 ###### Definition
 
-For $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)), write $\bar E$ for the [[homotopy fiber]] of its unit $e \colon \mathbb{S}\to E$, i.e. such that there is a [[homotopy fiber sequence]] (equivalently a [[homotopy cofiber sequence]], [prop](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)) in the [[stable homotopy category]] $Ho(Spectra)$ of the form
+For $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)), write $\bar E$ for the [[homotopy fiber]] of its unit $e \colon \mathbb{S}\to E$, i.e. such that there is a [[homotopy fiber sequence]] (equivalently a [[homotopy cofiber sequence]], [prop.](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)) in the [[stable homotopy category]] $Ho(Spectra)$ of the form
 
 $$
   \bar E 
@@ -226,838 +237,6 @@ where by induction assumption the morphism on the right is $f_p$. Hence it follo
 
 =--
 
-#### $E$-Adams resolutions
-
-A streamlined discussion of $E$-[[Adams resolutions]] in close analogy to [[injective resolutions]] in [[homological algebra]] was given in ([Miller 81](#Miller81)), advertized in ([Hopkins 99](#Hopkins99)) and worked out in more detail in ([Aramian](#Aramian)).
-
-
-Notice that the standard concept of [[exact sequences]] and [[injective objects]] makes sense in [[abelian categories]], but not in the [[stable homotopy category]] of [[spectra]], as the latter is only an [[additive category]]. Of course this is because the [[stable homotopy theory|stable homotopy theoretic]] analog of what are [[exact sequences]] in abelian categories are [[homotopy fiber sequences]] of spectra. But for computational purposes it turns out useful to consider a blend between these two concepts (due to [Miller 81](#Miller81)), where a sequence of spectra $X_\bullet$ is regarded as exact if the [[homotopical functor]] to the abelian category of [[abelian groups]] that it [[representable functor|represents]] takes values in [[exact sequences]]. With respect to this hybrid concept, $E$-Adams resolutions in the [[stable homotopy category]] are the direct analog of [[injective resolutions]] in an [[abelian category]].
-
-
-
-+-- {: .num_defn #HomotopicalFunctorCoRepresentedByASpectrum}
-###### Definition
-
-For $X$ a [[spectrum]], we say that the _[[homotopical functor]]_
-that it [[representable functor|co-represents]] is the functor of [[stable homotopy groups]] of the [[mapping spectrum]]-construction out of $X$, regarded as a functor on the [[stable homotopy category]]:
-
-$$
-  \pi_\bullet[X, -] \colon Ho(Spectra) \longrightarrow Ab^{\mathbb{Z}}
-  \,.
-$$
-
-(Regarded as an [[(∞,1)-functor]] on the [[stable (∞,1)-category of spectra]] this is also called the _[[homological functor]]_ co-represented by $X$.)
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-For $X = \mathbb{S}$ the [[sphere spectrum]] then the homotopical functor that it co-represents according to def. \ref{HomotopicalFunctorCoRepresentedByASpectrum}
-
-$$
-  \pi_\bullet[\mathbb{S},- ]\simeq \pi_\bullet(-)
-$$
-
-is the [[stable homotopy group]]-functor.
-
-=--
-
-
-Throughout,$E$ is a [[ring spectrum]].
-
-+-- {: .num_defn #ExactSequences}
-###### Definition
-
-Say that 
-
-1. a sequence of [[spectra]]
-
-   $$
-     A_1 \longrightarrow A_2 \longrightarrow \cdots \longrightarrow A_n
-   $$
-
-   is 
-
-   1. a (long) _exact sequence_ if the induced sequence of [[homotopy functors]] according to def. \ref{HomotopicalFunctorCoRepresentedByASpectrum}, is a [[long exact sequence]] in $[HoSpectra,Ab^{\mathbb{Z}}]$;
-
-   2. (for $n = 2$) a _short exact sequence_ if
-
-      $$
-        0 \longrightarrow A_1 \longrightarrow A_2 \longrightarrow A_3 \longrightarrow 0
-      $$
-
-      is (long) exact in the above sense;
-
-
-1. a morphism $A \longrightarrow B$  is 
-
-   1. a _monomorphism_ if $0 \longrightarrow A \longrightarrow B$ is an exact sequence in the above sense;
-
-   1. an _epimorphism_ if $A \longrightarrow B \longrightarrow 0$ is an exact sequence in the above sense.
-
-For $E$ a [[ring spectrum]], then a sequence of spectra is called (long/short) _$E$-exact_ and a morphism is epi/mono, respectively, if becomes long/short exact or epi/mono, respectively, after taking [[smash product of spectra|smash product]] with $E$.
-
-=--
-
-+-- {: .num_example #HomotopyCofiberSequencesAreExactSequencesOfSpectra}
-###### Example
-
-Every [[homotopy cofiber sequence]] of spectra is exact in the sense of def. \ref{ExactSequences}. 
-
-=--
-
-+-- {: .num_example #SuspensionPreservesExactSequencesOfSpectra}
-###### Example
-
-The [[suspension]] functor $\Sigma \colon Ho(Spectra) \to Ho(Spectra)$ preserves exact sequences in the sense of def. \ref{ExactSequences}.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the suspension/looping [[adjunction]]-[[isomorphism]] $[\Sigma A_\bullet, -]\simeq [A_\bullet, \Omega(-)]$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#AlternativeLoopingAndSuspensionIsQuillenEquivalenceOnStableModelStructure)) and so the statement follows from the assumption that $A_\bullet$ is long exact.
-
-=--
-
-+-- {: .num_example #HomotopyRetractionsAreMonomorphismsOfSpectra}
-###### Example
-
-If a morphism, $s \colon A \to B$ has a [[retraction]] $r \colon B \to A$ in [[Ho(Spectra)]] then it is a monomorphism in the sense of def. \ref{ExactSequences}.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We need to check that for every $X$ the morphism $i^\ast \colon [B, X]\to [A,X]$ is surjective. By retraction, given $f \colon A \to X$, then $r \circ f \colon B \stackrel{r}{\to} A \stackrel{f}{\to} X$ is a preimage.
-
-=--
-
-+-- {: .num_example #TensoringWithUnitOfRingSpectrumIsMonomorphismOfSpectra}
-###### Example
-
-For any spectrum $X$ the morphism
-
-$$
-  X \simeq \mathbb{S} \wedge X \stackrel{e \wedge id}{\longrightarrow}
-  E \wedge X
-$$
-
-is an $E$-monomorphism in the sense of def. \ref{ExactSequences}.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We need to check that $E \wedge X \stackrel{id \wedge e \wedge id}{\longrightarrow} E \wedge E \wedge X$ is a monomorphism in the sense of def. \ref{ExactSequences}. Observe that this morphism has a [[retraction]] given by $\mu \wedge id$. Therefore it is a monomorphism by 
-example  \ref{HomotopyRetractionsAreMonomorphismsOfSpectra}.
-
-=--
-
-+-- {: .num_remark}
-###### Remark/Warning
-
-Consecutive morphisms in an $E$-exact sequence according to def. \ref{ExactSequences} in general need not compose up to homotopy, to the [[zero morphism]]. But this does become true (lemma \ref{ConsecutiveMapsInEAdamsResolutionComposeToZero} below) for sequences of $E$-injective objects, defined below in def. \ref{EInjective}. 
-
-=--
-
-+-- {: .num_lemma #CharacterizationOfEpiMonomorphismsOfSpectra}
-###### Lemma
-
-1. If $f \colon B\longrightarrow A$ is a monomorphism in the sense of def. \ref{ExactSequences}, then there exists a morphism $g \colon C \longrightarrow A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
-
-   $$
-     f \vee g \;\colon\; B \wedge C \stackrel{\simeq}{\longrightarrow} A
-     \,.
-   $$
-
-   In particular, every morphism in [[Ho(Spectra)]] has an [[extension]] along a monomorphism in this sense. 
-
-1. If $f \colon A \longrightarrow B$ is an epimorpimsm in the sense of def. \ref{ExactSequences}, then there exists a homotopy [[section]] $s \colon B\to A$, i.e. $f\circ s\simeq Id$, together with a morphism $g \colon C \to A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
-
-   $$
-     s \vee f \colon B\vee C \stackrel{\simeq}{\longrightarrow} A
-     \,.
-   $$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Given a monomorphism $f \colon A \longrightarrow B$, consider the correspondiing [[homotopy cofiber sequence]]
-
-$$
-  A\stackrel{f}{\longrightarrow} B \stackrel{r}{\longrightarrow} C  \stackrel{\delta}{\longrightarrow} \Sigma A \stackrel{-\Sigma f}{\longrightarrow} \Sigma B
-  \,.
-$$
-
-We first observe that the [[connecting homomorphism]] is equivalent to the [[zero morphism]] $\delta \simeq 0$. This follows because by example \ref{HomotopyCofiberSequencesAreExactSequencesOfSpectra} the sequence
-
-$$
-  [C,X] 
-    \stackrel{\delta^\ast_\bullet}{\longleftarrow} 
-  [\Sigma A, X]
-    \stackrel{(-\Sigma f)^\ast_\bullet}{\longleftarrow}
-  [\Sigma B, X]
-$$
-
-is an [[exact sequence]] (of homotopy groups) for every $X$, while by example \ref{SuspensionPreservesExactSequencesOfSpectra} the morphism on the right is epi, so that $\delta^\ast_\bullet = 0$.
-
-Now since $B \stackrel{r}{\longrightarrow} C \stackrel{\delta \simeq 0}{\longrightarrow}$ is also a [[homotopy fiber sequence]], the [[pasting law]] identifies $B \simeq C \times A \simeq C \vee A$:
-
-$$
-  \array{
-    B \simeq C \times A &\longrightarrow& A &\longrightarrow& 0 
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    C &\longrightarrow& 0 &\longrightarrow& \Sigma A
-  }
-  \,.
-$$
-
-
-=--
-
-+-- {: .num_defn #EInjective}
-###### Definition
-
-For $E$ a [[ring spectrum]], say that a spectrum $S$ is _$E$-injective_ if for each morphism $A \longrightarrow S$ and  each $E$-monomorphism $f \colon A \longrightarrow S$ in the sense of def. \ref{ExactSequences}, there is a [[diagram]] in [[HoSpectra]] of the form
-
-$$
-  \array{
-    A &\longrightarrow & S 
-    \\
-    \downarrow & \nearrow_{\mathrlap{\exists}}
-    \\
-    B
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .num_lemma #EInjectiveSpectraAreRetractsOfFreeEModules}
-###### Lemma
-
-A spectrum is $E$-injective in the sense of def. \ref{EInjective}, precisely if it is a [[retract]] in [[HoSpectra]] of a free $E$-modules, hence of $E \wedge X$ for some spectrum $X$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-In one direction, assume that $S$ is $E$-injective and consider the diagram
-
-$$
-  \array{
-    S &\stackrel{id}{\longrightarrow}& S
-    \\
-    {}^{\mathllap{e \wedge id}}\downarrow
-    \\
-    E \wedge S
-  }
-  \,.
-$$
-
-By example \ref{TensoringWithUnitOfRingSpectrumIsMonomorphismOfSpectra} here the vertical morphism is an $E$-monomorphism, and so by assumption there is a lift
-
-$$
-  \array{
-    S &\stackrel{id}{\longrightarrow}& S
-    \\
-    \downarrow & \nearrow
-    \\
-    E \wedge S
-  }
-$$
-
-which exhibits $S$ as a retract of $E \wedge S$.
-
-In the other direction, given a retraction $S \stackrel{\overset{r}{\longleftarrow}}{\underset{s}{\longrightarrow}} E \wedge X$ we show that there exist extensions in
-
-$$
-  \array{
-    A &\stackrel{g}{\longrightarrow} & S
-    \\
-    {}^{\mathllap{f}}\downarrow 
-    \\
-    B
-  }
-$$
-
-whenever the vertical morphism is an $E$-monomorphism. To see this, complete the extension problem to the following [[commuting diagram]]
-
-$$
-  \array{
-    A &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge A
-    \\
-    {}^{\mathllap{f}}\downarrow &\searrow^{\mathrlap{g}} & &&  & {}^{\mathllap{{\mu \wedge id} \atop {\circ id \wedge s g }}}\swarrow & \downarrow^{\mathrlap{id \wedge f}}
-    \\
-    && S &\stackrel{r}{\longleftarrow}& E \wedge X
-    \\
-    \downarrow && &&  && \downarrow
-    \\
-    B &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge B
-  }
-  \,.
-$$
-
-Now, since $f$ is assumed to be an $E$-monomorphism, the morphism $Eid\wedge f$ on the right is a monomorphism in the sense of def. \ref{ExactSequences}, and so by lemma \ref{CharacterizationOfEpiMonomorphismsOfSpectra} there exists an extension $h$ in 
-
-$$
-  \array{
-    A &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge A
-    \\
-    {}^{\mathllap{f}}\downarrow &\searrow^{\mathrlap{g}} & &&  & {}^{\mathllap{{\mu \wedge id} \atop {\circ id \wedge s g }}}\swarrow & \downarrow^{\mathrlap{id \wedge f}}
-    \\
-    && S &\stackrel{r}{\longleftarrow}& E \wedge X
-    \\
-    \downarrow && &&  &\nwarrow^{\mathrlap{h}}& \downarrow
-    \\
-    B &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge B
-  }
-  \,.
-$$
-
-By composition and commutativity, this gives the required extension of $g$ along $f$.
-
-
-=--
-
-
-
-+-- {: .num_defn #EAdamsResolution}
-###### Definition
-
-For $E$ a [[ring spectrum]], then an _$E$-Adams resolution_ of an spectrum $S$ is a long exact sequence, in the sense of def. \ref{ExactSequences}, of the form
-
-
-$$
-  0 \longrightarrow S \longrightarrow I_0 \longrightarrow I_1 \longrightarrow I_2 \longrightarrow \cdots
-$$
-
-such that each $I_j$ is $E$-injective, def. \ref{EInjective}.
-
-=--
-
-+-- {: .num_lemma #ConsecutiveMapsInEAdamsResolutionComposeToZero}
-###### Lemma
-
-Any two consecutive maps in an $E$-Adams resolution, def. \ref{EAdamsResolution}, compose to the [[zero morphism]].
-
-=--
-
-The following lemma says that $E$-Adams resolutions may be [[extension|extended]] along morphisms.
-
-+-- {: .num_lemma}
-###### Lemma
-
-For $X \to X_\bullet$ an $E$-Adams resolution, def. \ref{EAdamsResolution}, and for $X \longrightarrow Y$ any morphism, then there exists an $E$-Adams resolution $Y \to J_\bullet$ and a [[commuting diagram]]
-
-$$
-  \array{
-     X &\longrightarrow& I_\bullet
-     \\
-     \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g_\bullet}}
-     \\
-     Y &\longrightarrow& J_\bullet
-  }
-  \,.
-$$
-
-=--
-
-There are two $E$-Adams resolutions that we will consider. Following ([Hopkins 99](#Hopkins99)) we call them the "normalized resolution" and the "standard resolution". But beware that what all the traditional literature ([Adams 74](#Adams74), [Bousfield 79](#Bousfield79), [Ravenel 86](#Ravenel86), ...) considers (and somewhat implicitly) is the "normalized" resolution, not the standard resolution. The standard resolution is standard only from the more recent perspective of [[E-∞ geometry]]: it is the [[Amitsur complex]] of the $\mathbb{S}$-algebra $E$, exhibiting the formal dual of the [[Cech nerve]] of $Spec(E) \to Spec(\mathbb{S})$.
-
-+-- {: .num_example #NormalizedEResolution}
-###### Example
-**(normalized $E$-Adams resolution)**
-
-Let $\overline{E}$ denote the [[homotopy fiber]] of the unit of the ring spectrum $E$, fitting into a [[homotopy fiber sequence]]
-
-$$
-  \overline{E}
-    \overset{i}{\longrightarrow}
-  \mathbb{S}
-    \overset{e}{\longrightarrow}
-  E
-    \longrightarrow  
-  \Sigma \overline{E}
-  \,.
-$$
-
-For $X$ a spectrum, its **normalized $E$-Adams resolution** is the top row of
-
-$$
-  \array{
-    X 
-      &\overset{(e,id)}{\longrightarrow}& 
-    E \wedge X 
-      && \longrightarrow  && 
-    E \wedge (\Sigma \overline{E}) \wedge X
-      && \longrightarrow &&
-    E \wedge (\Sigma \overline{E}) \wedge (\Sigma \overline{E}) \wedge X
-      && \longrightarrow &&
-    \cdots
-    \\
-    && & \searrow && \nearrow_{\mathrlap{(e,id)}}
-    &&    \searrow && \nearrow_{\mathrlap{(e,id)}}
-    \\
-    && && (\Sigma \overline{E})\wedge X
-    &&&&  (\Sigma \overline{E}) \wedge \overline{E} \wedge X
-  }
-$$
-
-=---
-
-(e.g. [Hopkins 99, corollary 5.3](#Hopkins99)).
-
-
-+-- {: .num_remark}
-###### Remark
-
-The notation for $\overline{E}$ in def. \ref{NormalizedEResolution} follows ([Bousfield 79, section 5](#Bousfield79)). In ([Hopkins 99](#Hopkins99)) the same notation is used not for the homotopy fiber but for the homotopy cofiber. While our notation makes plenty of "$\Sigma$"s appear in the above resolution, the advantage is that in the induced inverse sequence of a normalized resolution below in example \ref{NormalizedEResolutionAssociatedSequence} these all drop out and we are left with the original form of the expressions as considered by ([Adams 74](#Adams74)) and followed in most of the literature. 
-
-=--
-
-
-+-- {: .num_example #StandardEResolution}
-###### Example
-**(standard $E$-Adams resolution)**
-
-Any [[ring spectrum]] $E$ gives rise to an [[augmentation|augmented]] [[cosimplicial object|cosimplicial]] [[spectrum]]  (its _[[bar construction]]_)
-
-$$
-  \mathbb{S} \longrightarrow E 
-    \stackrel{\longrightarrow}{\longrightarrow} 
-  E \wedge E 
-    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
-  E \wedge E \wedge E 
-    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
- \cdots
-$$
-
-whose
-
-* coface maps are given by inserting the unit $\mathbb{S} \stackrel{e}{\to} E$
-
-  $$
-    d^i 
-      \colon
-    E^{\wedge^n}
-      \simeq
-    E^{\wedge^i} \wedge \mathbb{S} \wedge E^{\wedge^{n-i}}
-      \stackrel{id \wedge e \wedge id}{\longrightarrow}
-    E^{\wedge^{n+1}}
-    \,;
-  $$
-
-* codegeneracy maps are given by the product operation $\mu \colon E \wedge E \to E$
-
-  $$
-    s^j
-      \colon
-    E^{\wedge^{n+1}}
-      \simeq
-    E^{\wedge^{i}} \wedge E \wedge E \wedge E^{\wedge n-1-i}
-      \stackrel{id \wedge \mu \wedge id}{\longrightarrow}
-    E^n
-    \,.
-  $$
-
-The corresponding [[Amitsur complex]] is given by forming alternating sums of the coface maps
-
-$$
-  \mathbb{S}
-    \stackrel{e}{\longrightarrow}
-  E
-    \stackrel{e\wedge id - id \wedge e}{\longrightarrow}
-  E \wedge E
-    \stackrel{e \wedge id - id\wedge e \wedge id + id \wedge e}{\longrightarrow}
-  E \wedge E \wedge E
-    \stackrel{}{\longrightarrow}
-  \cdots
-  \,.
-$$
-
-Given any [[spectrum]] $X$, then forming the [[smash product]] $(-)\wedge X$ with this sequence yields a sequence of the form
-
-$$
-  X
-    \stackrel{}{\longrightarrow}
-  E \wedge X
-    \stackrel{}{\longrightarrow}
-  E \wedge E \wedge X
-    \stackrel{}{\longrightarrow}
-  E \wedge E \wedge E \wedge X
-    \stackrel{}{\longrightarrow}
-  \cdots
-  \,.
-$$
-
-This is called the **standard $E$-Adams resolution** of $X$.
-
-=--
-
-(e.g. [Hopkins 99, def. 5.4](#Hopkins99)).
-
-+-- {: .num_prop #StandardAdamsResolutionIsIndeedAdamsResolution}
-###### Proposition
-
-The standard resolution of example \ref{StandardEResolution}
-is indeed an $E$-Adams resolution of $X$ in the sense of def. \ref{EAdamsResolution}.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-As generally for [[bar resolutions]], one checks that the alternating sum of the codegeneracy maps constitute homotopy operators that give contracting homotopies when commuted with the alternating sum of the coface maps. This gives that the sequence is $E$-exact.
-Moreover, the terms in the sequence are all $E$-injective by lemma \ref{EInjectiveSpectraAreRetractsOfFreeEModules}.
-
-=--
-
-##### $E$-Adams towers
-
-+-- {: .num_defn #EAdamsTower}
-###### Definition
-
-An _$E$-Adams tower_ of a spectrum $X$ is a [[commuting diagram]] in the [[stable homotopy category]] of the form
-
-$$
-  \array{
-    && \vdots
-    \\
-    && \downarrow^{\mathrlap{p_2}}
-    \\
-    && X_2 &\stackrel{\kappa_2}{\longrightarrow}& \Omega^2 I_3
-    \\
-    &\nearrow& \downarrow^{\mathrlap{p_1}}
-    \\
-    && X_1 &\stackrel{\kappa_1}{\longrightarrow}& \Omega I_2
-    \\
-    &\nearrow& \downarrow^{\mathrlap{p_0}}
-    \\
-    X 
-    &\underset{}{\longrightarrow}&
-    X_0 = I_0
-    &\stackrel{\kappa_0}{\longrightarrow}&
-    I_1
-  }
-$$
-
-such that 
-
-1. each hook is a [[homotopy fiber sequence]];
-
-1. the [[composition]] of the $(\Sigma \dashv \Omega)$-[[adjuncts]] of $\Sigma_{p_{n-1}}$ with $\Sigma^n \kappa_n$
-
-   $$
-     i_{n+1} \;\colon\; I_n \stackrel{\widetilde {\Sigma p_{n-1}}}{\longrightarrow}
-     \Sigma^n X_n \stackrel{\Sigma^{n}\kappa_n}{\longrightarrow} I_{n+1}
-   $$
-
-   constitute an $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}:
-
-   $$
-     0 \to X \stackrel{i_0}{\to} I_0 \stackrel{i_1}{\to} I_1 \stackrel{}{\to} \cdots
-     \,.
-   $$
-
-Call this the **associated $E$-Adams resolution** of the $E$-Adams tower.
-
-=--
-
-([Hopkins 99, def. 4.10](#Hopkins99))
-
-The following is the main statement of the above little theory of $E$-injective spectra.
-
-+-- {: .num_prop #RelationBetweenEAdamsTowersAndEAdamsResolutions}
-###### Proposition
-
-Every $E$-Adams resolution $X \to I_\bullet$ (def. \ref{EAdamsResolution}) induces an $E$-Adams tower, def. \ref{EAdamsTower} of which it is the associated $E$-Adams resolution.
-
-=--
-
-+-- {: .proof}
-###### Proof idea
-
-Given an $E$-Adams resolution
-
-$$
-  X \overset{i_0}{\longrightarrow} I_0 \overset{i_1}{\longrightarrow} I_1 \longrightarrow \cdots
-$$
-
-consider the induced diagram
-
-$$
-  \array{
-    && && C_1 && && && && C_3
-    \\
-    && & {}^{\mathllap{\rho_1}}\nearrow && \searrow^{\mathrlap{\sigma_1}} 
-    && && && {}^{\mathllap{\rho_3}}\nearrow
-    \\
-    && 
-    I_0 
-    && 
-     \underset{i_1}{\longrightarrow} 
-    &&
-    I_1 
-    &&
-      \overset{i_2}{\longrightarrow}
-    &&
-    I_2
-    &&
-      \underset{i_3}{\longrightarrow}
-    & 
-    \cdots
-    \\
-    & {}^{\mathllap{\sigma_0 \coloneqq i_0}}\nearrow
-    && && && {}_{\mathllap{\rho_2}}\searrow
-    && \nearrow_{\mathrlap{\sigma_2}}
-    \\
-    C_0 \coloneqq X && && && && C_2
-  }
-$$
-
-constructed [[induction|inductively]] as follows:
-
-To start with, $\rho_1$ is the [[homotopy cofiber]] of $i_0$, and $\sigma_1$ is the morphism universally induced from this by the fact that $i_1 \circ i_0 \simeq 0$, by lemma \ref{ConsecutiveMapsInEAdamsResolutionComposeToZero}. Observe that  $\sigma_1$ is an $E$-monomorphism and $\rho_1$ is an $E$-epimorphism in the sense of def. \ref{ExactSequences}.
-
-Then assume that an $E$-epi/mono factorization 
-
-$$
-  i_n \colon I_{n_1} \overset{\rho_n}{\longrightarrow} C_n \overset{\sigma_n}{\to} I_n
-$$ 
-
-has been constructed. Let now $\rho_{n+1}$ be its homotopy cofiber.  Since $\rho_{n}$ is $E$-epi, the equivalence $0 \simeq i_{n+1} \circ i_n = i_{n+1}\circ \sigma_n \circ \rho_n$ from lemma \ref{ConsecutiveMapsInEAdamsResolutionComposeToZero} implies that already $i_{n+1} \circ \sigma_n \simeq 0$. With this, the universal property of the homotopy cofiber induces a morphism $\sigma_{n+1}\colon C_{n+1}\to I_{n+1}$. As before, $\rho_{n+1}$ is $E$-epi and $\sigma_{n+1}$ is $E$-mono, and so the induction proceeds.
-
-Using this, we now construct an $E$-Adams tower as follows (...).
-
-=--
-
-There is another tower associated with an $E$-Adams resolutions:
-
-+-- {: .num_defn #AssociatedInverseSequence}
-###### Definition
-
-Given an $E$-Adams resolutions $X \to I_\bullet$ (def. \ref{EAdamsResolution}), its **associated inverse sequence** is 
-
-$$
-  \array{
-    X 
-      = 
-    C_0
-      &\stackrel{\gamma_0}{\longleftarrow}&
-    \Sigma^{-1} C_1 
-      &\stackrel{\gamma_1}{\longleftarrow}&
-    \Sigma^{-2} C_2 
-      &\longleftarrow&
-    \cdots
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    I_0 && \Sigma^{-1} I_1 && ^\Sigma^{-2} I_2
-  }
-$$
-
-with the $C_i$ as in the proof of prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions} and 
-$\gamma_n \coloneqq \Sigma^{-} hofib(\sigma_n)$.
-
-=--
-
-+-- {: .num_example #NormalizedEResolutionAssociatedSequence}
-###### Example
-
-Let $X \to I_\bullet = (E \wedge (\Sigma \overline{E})^{\wedge^{\bullet-1}}\wedge E)$ be a _normalized $E$-Adams resolution_ according to example \ref{NormalizedEResolution}. Then its associated inverse sequence according to def. \ref{AssociatedInverseSequence} is 
-
-
-$$
-  \array{
-    X 
-      &\stackrel{\gamma_0}{\longleftarrow}&
-    \overline{E} \wedge X
-      &\stackrel{\gamma_1}{\longleftarrow}&
-    \overline{E} \wedge \overline{E} \wedge X
-      &\longleftarrow&
-    \cdots
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    E \wedge X 
-      && 
-    \Sigma^{-1}(E \wedge (\Sigma \overline{E}) \wedge X)
-      && 
-    \Sigma^{-2}(E \wedge (\Sigma\overline{E}) \wedge (\Sigma \overline{E}) \wedge X
-    \\
-      && \simeq && \simeq 
-    \\
-    &&
-    E \wedge \overline{E} \wedge X
-      && 
-    E \wedge \overline{E} \wedge \overline{E} \wedge X
-  }
-$$
-
-This is the tower of spectra considered in the original texts ([Adams 74, p. 318](#Adams74)) and ([Bousfield 79, p. 271](#Bousfield79)).
-
-=--
-
-
-+-- {: .num_remark}
-###### Remark
-
-
-In ([Ravenel 84, p. 356](#Ravenel84)) it is the associated inverse sequence as in example \ref{NormalizedEResolutionAssociatedSequence} that is called the "Adams tower", while in ([Ravenel 86, def. 2.21](#Ravenel86)) this is called an "$E$-Adams resolution". We instead follow ([Hopkins 99](#Hopkins99)) in using "$E$-Adams resolution" for "$E$-injective resolution" as in def. \ref{EAdamsResolution}, "$E$-Adams tower" for def. \ref{EAdamsTower} and follow ([Aramian](#Aramian)) in saying "associated inverse sequence" for the above.
-
-=--
-
-
-##### $E$-Adams spectral sequences
-
-
-+-- {: .num_defn #EAdamsSpectralSequence}
-###### Definition
-
-Given [[spectra]] $X$ and $Y$, and given an $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, or equivalently (by prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions}) an $E$-Adams tower over $X$, def. \ref{EAdamsTower}, 
-
-$$
-  \array{
-    && \vdots
-    \\
-    && \downarrow^{\mathrlap{p_2}}
-    \\
-    && X_2 &\stackrel{\kappa_2}{\longrightarrow}& \Omega^2 I_3
-    \\
-    &\nearrow& \downarrow^{\mathrlap{p_1}}
-    \\
-    && X_1 &\stackrel{\kappa_1}{\longrightarrow}& \Omega I_2
-    \\
-    &\nearrow& \downarrow^{\mathrlap{p_0}}
-    \\
-    X 
-    &\underset{}{\longrightarrow}&
-    X_0 = I_0
-    &\stackrel{\kappa_0}{\longrightarrow}&
-    I_1
-  }
-$$
-
-then the corresponding **$E$-Adams spectral sequence** for the [[mapping spectrum]] $[Y,X]$ is the associated [[spectral sequence of a tower of fibrations]] of the image of that [[tower of fibrations]] under the [[mapping spectrum]] operation $[Y,-]$:
-
-$$
-  \array{
-    && \vdots
-    \\
-    && \downarrow^{\mathrlap{[Y,p_2]}}
-    \\
-    && [Y,X_2] &\stackrel{[Y,\kappa_2]}{\longrightarrow}& [Y,\Omega^2 I_3]
-    \\
-    &\nearrow& \downarrow^{\mathrlap{[Y,p_1]}}
-    \\
-    && [Y,X_1] &\stackrel{[Y,\kappa_1]}{\longrightarrow}& [Y,\Omega I_2]
-    \\
-    &\nearrow& \downarrow^{\mathrlap{[Y,p_0]}}
-    \\
-    [Y,X] 
-    &\underset{}{\longrightarrow}&
-    [Y,X_0] = [Y,I_0]
-    &\stackrel{[Y,\kappa_0]}{\longrightarrow}&
-    [Y,I_1]
-  }
-  \,.
-$$
-
-
-More in detail, the associated [[exact couple]] of the tower is
-
-$$
-  \array{
-    \mathcal{D} && \stackrel{p}{\longrightarrow} &&  \mathcal{D}
-    \\
-    & {}_{\mathllap{\partial}}\nwarrow && \swarrow_{\mathrlap{\kappa}} 
-    \\
-    && \mathcal{E}    
-  }
-$$
-
-with 
-
-$$
-  \mathcal{D} \coloneqq
-  \oplus_{s,t} \mathcal{D}^{s,t}
-  \coloneqq
-  \oplus_{s,t} \pi_{t-s}([Y,X_s])
-$$
-
-$$
-  \mathcal{E} \coloneqq 
-  \oplus_{s,t} \mathcal{E}^{s+1,t}
-  \coloneqq
-  \oplus_{s,t} \pi_{t-s}([Y,\Omega^s I_{s+1}])
-$$
-
-and
-
-$$
-  p 
-    \colon 
-  \pi_{t-s}([Y,X_{s+1}])
-    \stackrel{\pi_{t-s}([Y,p_s])}{\longrightarrow}
-   X_{t-s}([Y,X_s])
-$$
-
-$$
-  \kappa 
-    \colon 
-  \pi_{t-s}([Y,X_s])
-    \stackrel{\pi_{t-s}([Y,\kappa_s])}{\longrightarrow} 
-  \pi_{t-s}([Y,\Omega^s I_{s+1}])
-$$
-
-$$
-  \partial 
-    \colon 
-  \pi_{t-s}([Y,\Omega^s I_{s+1}])
-    \stackrel{\pi_{t-s}([Y,\partial_s])}{\longrightarrow}
-  \pi_{t-s}([Y,\Sigma X_{s+1}])
-  \,.
-$$
-
-The _$E$-Adams spectral sequence_ of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this [[exact couple]].
-
-=--
-
-
-+-- {: .num_prop #UniquenessOfEAdamsSpectralSequence}
-###### Proposition
-
-Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corresponding two $E$-Adams spectral sequences, def. \ref{EAdamsSpectralSequence}, are [[isomorphism|isomorphic]] from the $\mathcal{E}_2$-page on.
-
-=--
-
-+-- {: .num_prop #TowerSpectralSequencesOfAdamsTowerAndInverseSequenceCoincide}
-###### Proposition
-
-Given an $E$-Adams resolution (def. \ref{EAdamsResolution}), there is an [[isomorphism]] of spectral sequences between 
-
-1. the [[tower spectral sequence]] of its associated $E$-Adams tower (def. \ref{EAdamsTower}), i.e. the spectral sequence of def. \ref{EAdamsSpectralSequence};
-
-1. the [[tower spectral sequence]] of its associated inverse sequence (def. \ref{AssociatedInverseSequence}).
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-Hence both of these construction are to be called the $E$-Adams spectral sequence. It is in fact the second construction -- for the case of the normalized resolution as in example \ref{NormalizedEResolutionAssociatedSequence} -- that is considered in the original sources ([Adams 74, p. 318](#Adams74), [Bousfield 79, p. 271](#Bousfield79)). 
-
-=--
 
 #### The first page
  {#FirstPageAndHopfAlgebroid}
@@ -2206,6 +1385,840 @@ $$
 
   This is the _[[Adams-Novikov spectral sequence]]_.
 
+
+=--
+
+
+### $E$-Adams resolutions
+
+A streamlined discussion of $E$-[[Adams resolutions]] in close analogy to [[injective resolutions]] in [[homological algebra]] was given in ([Miller 81](#Miller81)), advertized in ([Hopkins 99](#Hopkins99)) and worked out in more detail in ([Aramian](#Aramian)).
+
+
+Notice that the standard concept of [[exact sequences]] and [[injective objects]] makes sense in [[abelian categories]], but not in the [[stable homotopy category]] of [[spectra]], as the latter is only an [[additive category]]. Of course this is because the [[stable homotopy theory|stable homotopy theoretic]] analog of what are [[exact sequences]] in abelian categories are [[homotopy fiber sequences]] of spectra. But for computational purposes it turns out useful to consider a blend between these two concepts (due to [Miller 81](#Miller81)), where a sequence of spectra $X_\bullet$ is regarded as exact if the [[homotopical functor]] to the abelian category of [[abelian groups]] that it [[representable functor|represents]] takes values in [[exact sequences]]. With respect to this hybrid concept, $E$-Adams resolutions in the [[stable homotopy category]] are the direct analog of [[injective resolutions]] in an [[abelian category]].
+
+
+
++-- {: .num_defn #HomotopicalFunctorCoRepresentedByASpectrum}
+###### Definition
+
+For $X$ a [[spectrum]], we say that the _[[homotopical functor]]_
+that it [[representable functor|co-represents]] is the functor of [[stable homotopy groups]] of the [[mapping spectrum]]-construction out of $X$, regarded as a functor on the [[stable homotopy category]]:
+
+$$
+  \pi_\bullet[X, -] \colon Ho(Spectra) \longrightarrow Ab^{\mathbb{Z}}
+  \,.
+$$
+
+(Regarded as an [[(∞,1)-functor]] on the [[stable (∞,1)-category of spectra]] this is also called the _[[homological functor]]_ co-represented by $X$.)
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $X = \mathbb{S}$ the [[sphere spectrum]] then the homotopical functor that it co-represents according to def. \ref{HomotopicalFunctorCoRepresentedByASpectrum}
+
+$$
+  \pi_\bullet[\mathbb{S},- ]\simeq \pi_\bullet(-)
+$$
+
+is the [[stable homotopy group]]-functor.
+
+=--
+
+
+Throughout,$E$ is a [[ring spectrum]].
+
++-- {: .num_defn #ExactSequences}
+###### Definition
+
+Say that 
+
+1. a sequence of [[spectra]]
+
+   $$
+     A_1 \longrightarrow A_2 \longrightarrow \cdots \longrightarrow A_n
+   $$
+
+   is 
+
+   1. a (long) _exact sequence_ if the induced sequence of [[homotopy functors]] according to def. \ref{HomotopicalFunctorCoRepresentedByASpectrum}, is a [[long exact sequence]] in $[HoSpectra,Ab^{\mathbb{Z}}]$;
+
+   2. (for $n = 2$) a _short exact sequence_ if
+
+      $$
+        0 \longrightarrow A_1 \longrightarrow A_2 \longrightarrow A_3 \longrightarrow 0
+      $$
+
+      is (long) exact in the above sense;
+
+
+1. a morphism $A \longrightarrow B$  is 
+
+   1. a _monomorphism_ if $0 \longrightarrow A \longrightarrow B$ is an exact sequence in the above sense;
+
+   1. an _epimorphism_ if $A \longrightarrow B \longrightarrow 0$ is an exact sequence in the above sense.
+
+For $E$ a [[ring spectrum]], then a sequence of spectra is called (long/short) _$E$-exact_ and a morphism is epi/mono, respectively, if becomes long/short exact or epi/mono, respectively, after taking [[smash product of spectra|smash product]] with $E$.
+
+=--
+
++-- {: .num_example #HomotopyCofiberSequencesAreExactSequencesOfSpectra}
+###### Example
+
+Every [[homotopy cofiber sequence]] of spectra is exact in the sense of def. \ref{ExactSequences}. 
+
+=--
+
++-- {: .num_example #SuspensionPreservesExactSequencesOfSpectra}
+###### Example
+
+The [[suspension]] functor $\Sigma \colon Ho(Spectra) \to Ho(Spectra)$ preserves exact sequences in the sense of def. \ref{ExactSequences}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the suspension/looping [[adjunction]]-[[isomorphism]] $[\Sigma A_\bullet, -]\simeq [A_\bullet, \Omega(-)]$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#AlternativeLoopingAndSuspensionIsQuillenEquivalenceOnStableModelStructure)) and so the statement follows from the assumption that $A_\bullet$ is long exact.
+
+=--
+
++-- {: .num_example #HomotopyRetractionsAreMonomorphismsOfSpectra}
+###### Example
+
+If a morphism, $s \colon A \to B$ has a [[retraction]] $r \colon B \to A$ in [[Ho(Spectra)]] then it is a monomorphism in the sense of def. \ref{ExactSequences}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to check that for every $X$ the morphism $i^\ast \colon [B, X]\to [A,X]$ is surjective. By retraction, given $f \colon A \to X$, then $r \circ f \colon B \stackrel{r}{\to} A \stackrel{f}{\to} X$ is a preimage.
+
+=--
+
++-- {: .num_example #TensoringWithUnitOfRingSpectrumIsMonomorphismOfSpectra}
+###### Example
+
+For any spectrum $X$ the morphism
+
+$$
+  X \simeq \mathbb{S} \wedge X \stackrel{e \wedge id}{\longrightarrow}
+  E \wedge X
+$$
+
+is an $E$-monomorphism in the sense of def. \ref{ExactSequences}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to check that $E \wedge X \stackrel{id \wedge e \wedge id}{\longrightarrow} E \wedge E \wedge X$ is a monomorphism in the sense of def. \ref{ExactSequences}. Observe that this morphism has a [[retraction]] given by $\mu \wedge id$. Therefore it is a monomorphism by 
+example  \ref{HomotopyRetractionsAreMonomorphismsOfSpectra}.
+
+=--
+
++-- {: .num_remark}
+###### Remark/Warning
+
+Consecutive morphisms in an $E$-exact sequence according to def. \ref{ExactSequences} in general need not compose up to homotopy, to the [[zero morphism]]. But this does become true (lemma \ref{ConsecutiveMapsInEAdamsResolutionComposeToZero} below) for sequences of $E$-injective objects, defined below in def. \ref{EInjective}. 
+
+=--
+
++-- {: .num_lemma #CharacterizationOfEpiMonomorphismsOfSpectra}
+###### Lemma
+
+1. If $f \colon B\longrightarrow A$ is a monomorphism in the sense of def. \ref{ExactSequences}, then there exists a morphism $g \colon C \longrightarrow A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
+
+   $$
+     f \vee g \;\colon\; B \wedge C \stackrel{\simeq}{\longrightarrow} A
+     \,.
+   $$
+
+   In particular, every morphism in [[Ho(Spectra)]] has an [[extension]] along a monomorphism in this sense. 
+
+1. If $f \colon A \longrightarrow B$ is an epimorpimsm in the sense of def. \ref{ExactSequences}, then there exists a homotopy [[section]] $s \colon B\to A$, i.e. $f\circ s\simeq Id$, together with a morphism $g \colon C \to A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
+
+   $$
+     s \vee f \colon B\vee C \stackrel{\simeq}{\longrightarrow} A
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Given a monomorphism $f \colon A \longrightarrow B$, consider the correspondiing [[homotopy cofiber sequence]]
+
+$$
+  A\stackrel{f}{\longrightarrow} B \stackrel{r}{\longrightarrow} C  \stackrel{\delta}{\longrightarrow} \Sigma A \stackrel{-\Sigma f}{\longrightarrow} \Sigma B
+  \,.
+$$
+
+We first observe that the [[connecting homomorphism]] is equivalent to the [[zero morphism]] $\delta \simeq 0$. This follows because by example \ref{HomotopyCofiberSequencesAreExactSequencesOfSpectra} the sequence
+
+$$
+  [C,X] 
+    \stackrel{\delta^\ast_\bullet}{\longleftarrow} 
+  [\Sigma A, X]
+    \stackrel{(-\Sigma f)^\ast_\bullet}{\longleftarrow}
+  [\Sigma B, X]
+$$
+
+is an [[exact sequence]] (of homotopy groups) for every $X$, while by example \ref{SuspensionPreservesExactSequencesOfSpectra} the morphism on the right is epi, so that $\delta^\ast_\bullet = 0$.
+
+Now since $B \stackrel{r}{\longrightarrow} C \stackrel{\delta \simeq 0}{\longrightarrow}$ is also a [[homotopy fiber sequence]], the [[pasting law]] identifies $B \simeq C \times A \simeq C \vee A$:
+
+$$
+  \array{
+    B \simeq C \times A &\longrightarrow& A &\longrightarrow& 0 
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    C &\longrightarrow& 0 &\longrightarrow& \Sigma A
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #EInjective}
+###### Definition
+
+For $E$ a [[ring spectrum]], say that a spectrum $S$ is _$E$-injective_ if for each morphism $A \longrightarrow S$ and  each $E$-monomorphism $f \colon A \longrightarrow S$ in the sense of def. \ref{ExactSequences}, there is a [[diagram]] in [[HoSpectra]] of the form
+
+$$
+  \array{
+    A &\longrightarrow & S 
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists}}
+    \\
+    B
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_lemma #EInjectiveSpectraAreRetractsOfFreeEModules}
+###### Lemma
+
+A spectrum is $E$-injective in the sense of def. \ref{EInjective}, precisely if it is a [[retract]] in [[HoSpectra]] of a free $E$-modules, hence of $E \wedge X$ for some spectrum $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, assume that $S$ is $E$-injective and consider the diagram
+
+$$
+  \array{
+    S &\stackrel{id}{\longrightarrow}& S
+    \\
+    {}^{\mathllap{e \wedge id}}\downarrow
+    \\
+    E \wedge S
+  }
+  \,.
+$$
+
+By example \ref{TensoringWithUnitOfRingSpectrumIsMonomorphismOfSpectra} here the vertical morphism is an $E$-monomorphism, and so by assumption there is a lift
+
+$$
+  \array{
+    S &\stackrel{id}{\longrightarrow}& S
+    \\
+    \downarrow & \nearrow
+    \\
+    E \wedge S
+  }
+$$
+
+which exhibits $S$ as a retract of $E \wedge S$.
+
+In the other direction, given a retraction $S \stackrel{\overset{r}{\longleftarrow}}{\underset{s}{\longrightarrow}} E \wedge X$ we show that there exist extensions in
+
+$$
+  \array{
+    A &\stackrel{g}{\longrightarrow} & S
+    \\
+    {}^{\mathllap{f}}\downarrow 
+    \\
+    B
+  }
+$$
+
+whenever the vertical morphism is an $E$-monomorphism. To see this, complete the extension problem to the following [[commuting diagram]]
+
+$$
+  \array{
+    A &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge A
+    \\
+    {}^{\mathllap{f}}\downarrow &\searrow^{\mathrlap{g}} & &&  & {}^{\mathllap{{\mu \wedge id} \atop {\circ id \wedge s g }}}\swarrow & \downarrow^{\mathrlap{id \wedge f}}
+    \\
+    && S &\stackrel{r}{\longleftarrow}& E \wedge X
+    \\
+    \downarrow && &&  && \downarrow
+    \\
+    B &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge B
+  }
+  \,.
+$$
+
+Now, since $f$ is assumed to be an $E$-monomorphism, the morphism $Eid\wedge f$ on the right is a monomorphism in the sense of def. \ref{ExactSequences}, and so by lemma \ref{CharacterizationOfEpiMonomorphismsOfSpectra} there exists an extension $h$ in 
+
+$$
+  \array{
+    A &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge A
+    \\
+    {}^{\mathllap{f}}\downarrow &\searrow^{\mathrlap{g}} & &&  & {}^{\mathllap{{\mu \wedge id} \atop {\circ id \wedge s g }}}\swarrow & \downarrow^{\mathrlap{id \wedge f}}
+    \\
+    && S &\stackrel{r}{\longleftarrow}& E \wedge X
+    \\
+    \downarrow && &&  &\nwarrow^{\mathrlap{h}}& \downarrow
+    \\
+    B &&& \stackrel{e \wedge id}{\longrightarrow} &&& E \wedge B
+  }
+  \,.
+$$
+
+By composition and commutativity, this gives the required extension of $g$ along $f$.
+
+
+=--
+
+
+
++-- {: .num_defn #EAdamsResolution}
+###### Definition
+
+For $E$ a [[ring spectrum]], then an _$E$-Adams resolution_ of an spectrum $S$ is a long exact sequence, in the sense of def. \ref{ExactSequences}, of the form
+
+
+$$
+  0 \longrightarrow S \longrightarrow I_0 \longrightarrow I_1 \longrightarrow I_2 \longrightarrow \cdots
+$$
+
+such that each $I_j$ is $E$-injective, def. \ref{EInjective}.
+
+=--
+
++-- {: .num_lemma #ConsecutiveMapsInEAdamsResolutionComposeToZero}
+###### Lemma
+
+Any two consecutive maps in an $E$-Adams resolution, def. \ref{EAdamsResolution}, compose to the [[zero morphism]].
+
+=--
+
+The following lemma says that $E$-Adams resolutions may be [[extension|extended]] along morphisms.
+
++-- {: .num_lemma}
+###### Lemma
+
+For $X \to X_\bullet$ an $E$-Adams resolution, def. \ref{EAdamsResolution}, and for $X \longrightarrow Y$ any morphism, then there exists an $E$-Adams resolution $Y \to J_\bullet$ and a [[commuting diagram]]
+
+$$
+  \array{
+     X &\longrightarrow& I_\bullet
+     \\
+     \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g_\bullet}}
+     \\
+     Y &\longrightarrow& J_\bullet
+  }
+  \,.
+$$
+
+=--
+
+There are two $E$-Adams resolutions that we will consider. Following ([Hopkins 99](#Hopkins99)) we call them the "normalized resolution" and the "standard resolution". But beware that what all the traditional literature ([Adams 74](#Adams74), [Bousfield 79](#Bousfield79), [Ravenel 86](#Ravenel86), ...) considers (and somewhat implicitly) is the "normalized" resolution, not the standard resolution. The standard resolution is standard only from the more recent perspective of [[E-∞ geometry]]: it is the [[Amitsur complex]] of the $\mathbb{S}$-algebra $E$, exhibiting the formal dual of the [[Cech nerve]] of $Spec(E) \to Spec(\mathbb{S})$.
+
++-- {: .num_example #NormalizedEResolution}
+###### Example
+**(normalized $E$-Adams resolution)**
+
+Let $\overline{E}$ denote the [[homotopy fiber]] of the unit of the ring spectrum $E$, fitting into a [[homotopy fiber sequence]]
+
+$$
+  \overline{E}
+    \overset{i}{\longrightarrow}
+  \mathbb{S}
+    \overset{e}{\longrightarrow}
+  E
+    \longrightarrow  
+  \Sigma \overline{E}
+  \,.
+$$
+
+For $X$ a spectrum, its **normalized $E$-Adams resolution** is the top row of
+
+$$
+  \array{
+    X 
+      &\overset{(e,id)}{\longrightarrow}& 
+    E \wedge X 
+      && \longrightarrow  && 
+    E \wedge (\Sigma \overline{E}) \wedge X
+      && \longrightarrow &&
+    E \wedge (\Sigma \overline{E}) \wedge (\Sigma \overline{E}) \wedge X
+      && \longrightarrow &&
+    \cdots
+    \\
+    && & \searrow && \nearrow_{\mathrlap{(e,id)}}
+    &&    \searrow && \nearrow_{\mathrlap{(e,id)}}
+    \\
+    && && (\Sigma \overline{E})\wedge X
+    &&&&  (\Sigma \overline{E}) \wedge \overline{E} \wedge X
+  }
+$$
+
+=---
+
+(e.g. [Hopkins 99, corollary 5.3](#Hopkins99)).
+
+
++-- {: .num_remark}
+###### Remark
+
+The notation for $\overline{E}$ in def. \ref{NormalizedEResolution} follows ([Bousfield 79, section 5](#Bousfield79)). In ([Hopkins 99](#Hopkins99)) the same notation is used not for the homotopy fiber but for the homotopy cofiber. While our notation makes plenty of "$\Sigma$"s appear in the above resolution, the advantage is that in the induced inverse sequence of a normalized resolution below in example \ref{NormalizedEResolutionAssociatedSequence} these all drop out and we are left with the original form of the expressions as considered by ([Adams 74](#Adams74)) and followed in most of the literature. 
+
+=--
+
+
++-- {: .num_example #StandardEResolution}
+###### Example
+**(standard $E$-Adams resolution)**
+
+Any [[ring spectrum]] $E$ gives rise to an [[augmentation|augmented]] [[cosimplicial object|cosimplicial]] [[spectrum]]  (its _[[bar construction]]_)
+
+$$
+  \mathbb{S} \longrightarrow E 
+    \stackrel{\longrightarrow}{\longrightarrow} 
+  E \wedge E 
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+  E \wedge E \wedge E 
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
+ \cdots
+$$
+
+whose
+
+* coface maps are given by inserting the unit $\mathbb{S} \stackrel{e}{\to} E$
+
+  $$
+    d^i 
+      \colon
+    E^{\wedge^n}
+      \simeq
+    E^{\wedge^i} \wedge \mathbb{S} \wedge E^{\wedge^{n-i}}
+      \stackrel{id \wedge e \wedge id}{\longrightarrow}
+    E^{\wedge^{n+1}}
+    \,;
+  $$
+
+* codegeneracy maps are given by the product operation $\mu \colon E \wedge E \to E$
+
+  $$
+    s^j
+      \colon
+    E^{\wedge^{n+1}}
+      \simeq
+    E^{\wedge^{i}} \wedge E \wedge E \wedge E^{\wedge n-1-i}
+      \stackrel{id \wedge \mu \wedge id}{\longrightarrow}
+    E^n
+    \,.
+  $$
+
+The corresponding [[Amitsur complex]] is given by forming alternating sums of the coface maps
+
+$$
+  \mathbb{S}
+    \stackrel{e}{\longrightarrow}
+  E
+    \stackrel{e\wedge id - id \wedge e}{\longrightarrow}
+  E \wedge E
+    \stackrel{e \wedge id - id\wedge e \wedge id + id \wedge e}{\longrightarrow}
+  E \wedge E \wedge E
+    \stackrel{}{\longrightarrow}
+  \cdots
+  \,.
+$$
+
+Given any [[spectrum]] $X$, then forming the [[smash product]] $(-)\wedge X$ with this sequence yields a sequence of the form
+
+$$
+  X
+    \stackrel{}{\longrightarrow}
+  E \wedge X
+    \stackrel{}{\longrightarrow}
+  E \wedge E \wedge X
+    \stackrel{}{\longrightarrow}
+  E \wedge E \wedge E \wedge X
+    \stackrel{}{\longrightarrow}
+  \cdots
+  \,.
+$$
+
+This is called the **standard $E$-Adams resolution** of $X$.
+
+=--
+
+(e.g. [Hopkins 99, def. 5.4](#Hopkins99)).
+
++-- {: .num_prop #StandardAdamsResolutionIsIndeedAdamsResolution}
+###### Proposition
+
+The standard resolution of example \ref{StandardEResolution}
+is indeed an $E$-Adams resolution of $X$ in the sense of def. \ref{EAdamsResolution}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As generally for [[bar resolutions]], one checks that the alternating sum of the codegeneracy maps constitute homotopy operators that give contracting homotopies when commuted with the alternating sum of the coface maps. This gives that the sequence is $E$-exact.
+Moreover, the terms in the sequence are all $E$-injective by lemma \ref{EInjectiveSpectraAreRetractsOfFreeEModules}.
+
+=--
+
+#### $E$-Adams towers
+
++-- {: .num_defn #EAdamsTower}
+###### Definition
+
+An _$E$-Adams tower_ of a spectrum $X$ is a [[commuting diagram]] in the [[stable homotopy category]] of the form
+
+$$
+  \array{
+    && \vdots
+    \\
+    && \downarrow^{\mathrlap{p_2}}
+    \\
+    && X_2 &\stackrel{\kappa_2}{\longrightarrow}& \Omega^2 I_3
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_1}}
+    \\
+    && X_1 &\stackrel{\kappa_1}{\longrightarrow}& \Omega I_2
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_0}}
+    \\
+    X 
+    &\underset{}{\longrightarrow}&
+    X_0 = I_0
+    &\stackrel{\kappa_0}{\longrightarrow}&
+    I_1
+  }
+$$
+
+such that 
+
+1. each hook is a [[homotopy fiber sequence]];
+
+1. the [[composition]] of the $(\Sigma \dashv \Omega)$-[[adjuncts]] of $\Sigma_{p_{n-1}}$ with $\Sigma^n \kappa_n$
+
+   $$
+     i_{n+1} \;\colon\; I_n \stackrel{\widetilde {\Sigma p_{n-1}}}{\longrightarrow}
+     \Sigma^n X_n \stackrel{\Sigma^{n}\kappa_n}{\longrightarrow} I_{n+1}
+   $$
+
+   constitute an $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}:
+
+   $$
+     0 \to X \stackrel{i_0}{\to} I_0 \stackrel{i_1}{\to} I_1 \stackrel{}{\to} \cdots
+     \,.
+   $$
+
+Call this the **associated $E$-Adams resolution** of the $E$-Adams tower.
+
+=--
+
+([Hopkins 99, def. 4.10](#Hopkins99))
+
+The following is the main statement of the above little theory of $E$-injective spectra.
+
++-- {: .num_prop #RelationBetweenEAdamsTowersAndEAdamsResolutions}
+###### Proposition
+
+Every $E$-Adams resolution $X \to I_\bullet$ (def. \ref{EAdamsResolution}) induces an $E$-Adams tower, def. \ref{EAdamsTower} of which it is the associated $E$-Adams resolution.
+
+=--
+
++-- {: .proof}
+###### Proof idea
+
+Given an $E$-Adams resolution
+
+$$
+  X \overset{i_0}{\longrightarrow} I_0 \overset{i_1}{\longrightarrow} I_1 \longrightarrow \cdots
+$$
+
+consider the induced diagram
+
+$$
+  \array{
+    && && C_1 && && && && C_3
+    \\
+    && & {}^{\mathllap{\rho_1}}\nearrow && \searrow^{\mathrlap{\sigma_1}} 
+    && && && {}^{\mathllap{\rho_3}}\nearrow
+    \\
+    && 
+    I_0 
+    && 
+     \underset{i_1}{\longrightarrow} 
+    &&
+    I_1 
+    &&
+      \overset{i_2}{\longrightarrow}
+    &&
+    I_2
+    &&
+      \underset{i_3}{\longrightarrow}
+    & 
+    \cdots
+    \\
+    & {}^{\mathllap{\sigma_0 \coloneqq i_0}}\nearrow
+    && && && {}_{\mathllap{\rho_2}}\searrow
+    && \nearrow_{\mathrlap{\sigma_2}}
+    \\
+    C_0 \coloneqq X && && && && C_2
+  }
+$$
+
+constructed [[induction|inductively]] as follows:
+
+To start with, $\rho_1$ is the [[homotopy cofiber]] of $i_0$, and $\sigma_1$ is the morphism universally induced from this by the fact that $i_1 \circ i_0 \simeq 0$, by lemma \ref{ConsecutiveMapsInEAdamsResolutionComposeToZero}. Observe that  $\sigma_1$ is an $E$-monomorphism and $\rho_1$ is an $E$-epimorphism in the sense of def. \ref{ExactSequences}.
+
+Then assume that an $E$-epi/mono factorization 
+
+$$
+  i_n \colon I_{n_1} \overset{\rho_n}{\longrightarrow} C_n \overset{\sigma_n}{\to} I_n
+$$ 
+
+has been constructed. Let now $\rho_{n+1}$ be its homotopy cofiber.  Since $\rho_{n}$ is $E$-epi, the equivalence $0 \simeq i_{n+1} \circ i_n = i_{n+1}\circ \sigma_n \circ \rho_n$ from lemma \ref{ConsecutiveMapsInEAdamsResolutionComposeToZero} implies that already $i_{n+1} \circ \sigma_n \simeq 0$. With this, the universal property of the homotopy cofiber induces a morphism $\sigma_{n+1}\colon C_{n+1}\to I_{n+1}$. As before, $\rho_{n+1}$ is $E$-epi and $\sigma_{n+1}$ is $E$-mono, and so the induction proceeds.
+
+Using this, we now construct an $E$-Adams tower as follows (...).
+
+=--
+
+There is another tower associated with an $E$-Adams resolutions:
+
++-- {: .num_defn #AssociatedInverseSequence}
+###### Definition
+
+Given an $E$-Adams resolutions $X \to I_\bullet$ (def. \ref{EAdamsResolution}), its **associated inverse sequence** is 
+
+$$
+  \array{
+    X 
+      = 
+    C_0
+      &\stackrel{\gamma_0}{\longleftarrow}&
+    \Sigma^{-1} C_1 
+      &\stackrel{\gamma_1}{\longleftarrow}&
+    \Sigma^{-2} C_2 
+      &\longleftarrow&
+    \cdots
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    I_0 && \Sigma^{-1} I_1 && ^\Sigma^{-2} I_2
+  }
+$$
+
+with the $C_i$ as in the proof of prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions} and 
+$\gamma_n \coloneqq \Sigma^{-} hofib(\sigma_n)$.
+
+=--
+
++-- {: .num_example #NormalizedEResolutionAssociatedSequence}
+###### Example
+
+Let $X \to I_\bullet = (E \wedge (\Sigma \overline{E})^{\wedge^{\bullet-1}}\wedge E)$ be a _normalized $E$-Adams resolution_ according to example \ref{NormalizedEResolution}. Then its associated inverse sequence according to def. \ref{AssociatedInverseSequence} is 
+
+
+$$
+  \array{
+    X 
+      &\stackrel{\gamma_0}{\longleftarrow}&
+    \overline{E} \wedge X
+      &\stackrel{\gamma_1}{\longleftarrow}&
+    \overline{E} \wedge \overline{E} \wedge X
+      &\longleftarrow&
+    \cdots
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    E \wedge X 
+      && 
+    \Sigma^{-1}(E \wedge (\Sigma \overline{E}) \wedge X)
+      && 
+    \Sigma^{-2}(E \wedge (\Sigma\overline{E}) \wedge (\Sigma \overline{E}) \wedge X
+    \\
+      && \simeq && \simeq 
+    \\
+    &&
+    E \wedge \overline{E} \wedge X
+      && 
+    E \wedge \overline{E} \wedge \overline{E} \wedge X
+  }
+$$
+
+This is the tower of spectra considered in the original texts ([Adams 74, p. 318](#Adams74)) and ([Bousfield 79, p. 271](#Bousfield79)).
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+
+In ([Ravenel 84, p. 356](#Ravenel84)) it is the associated inverse sequence as in example \ref{NormalizedEResolutionAssociatedSequence} that is called the "Adams tower", while in ([Ravenel 86, def. 2.21](#Ravenel86)) this is called an "$E$-Adams resolution". We instead follow ([Hopkins 99](#Hopkins99)) in using "$E$-Adams resolution" for "$E$-injective resolution" as in def. \ref{EAdamsResolution}, "$E$-Adams tower" for def. \ref{EAdamsTower} and follow ([Aramian](#Aramian)) in saying "associated inverse sequence" for the above.
+
+=--
+
+
+#### $E$-Adams spectral sequences
+
+
++-- {: .num_defn #EAdamsSpectralSequence}
+###### Definition
+
+Given [[spectra]] $X$ and $Y$, and given an $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, or equivalently (by prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions}) an $E$-Adams tower over $X$, def. \ref{EAdamsTower}, 
+
+$$
+  \array{
+    && \vdots
+    \\
+    && \downarrow^{\mathrlap{p_2}}
+    \\
+    && X_2 &\stackrel{\kappa_2}{\longrightarrow}& \Omega^2 I_3
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_1}}
+    \\
+    && X_1 &\stackrel{\kappa_1}{\longrightarrow}& \Omega I_2
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_0}}
+    \\
+    X 
+    &\underset{}{\longrightarrow}&
+    X_0 = I_0
+    &\stackrel{\kappa_0}{\longrightarrow}&
+    I_1
+  }
+$$
+
+then the corresponding **$E$-Adams spectral sequence** for the [[mapping spectrum]] $[Y,X]$ is the associated [[spectral sequence of a tower of fibrations]] of the image of that [[tower of fibrations]] under the [[mapping spectrum]] operation $[Y,-]$:
+
+$$
+  \array{
+    && \vdots
+    \\
+    && \downarrow^{\mathrlap{[Y,p_2]}}
+    \\
+    && [Y,X_2] &\stackrel{[Y,\kappa_2]}{\longrightarrow}& [Y,\Omega^2 I_3]
+    \\
+    &\nearrow& \downarrow^{\mathrlap{[Y,p_1]}}
+    \\
+    && [Y,X_1] &\stackrel{[Y,\kappa_1]}{\longrightarrow}& [Y,\Omega I_2]
+    \\
+    &\nearrow& \downarrow^{\mathrlap{[Y,p_0]}}
+    \\
+    [Y,X] 
+    &\underset{}{\longrightarrow}&
+    [Y,X_0] = [Y,I_0]
+    &\stackrel{[Y,\kappa_0]}{\longrightarrow}&
+    [Y,I_1]
+  }
+  \,.
+$$
+
+
+More in detail, the associated [[exact couple]] of the tower is
+
+$$
+  \array{
+    \mathcal{D} && \stackrel{p}{\longrightarrow} &&  \mathcal{D}
+    \\
+    & {}_{\mathllap{\partial}}\nwarrow && \swarrow_{\mathrlap{\kappa}} 
+    \\
+    && \mathcal{E}    
+  }
+$$
+
+with 
+
+$$
+  \mathcal{D} \coloneqq
+  \oplus_{s,t} \mathcal{D}^{s,t}
+  \coloneqq
+  \oplus_{s,t} \pi_{t-s}([Y,X_s])
+$$
+
+$$
+  \mathcal{E} \coloneqq 
+  \oplus_{s,t} \mathcal{E}^{s+1,t}
+  \coloneqq
+  \oplus_{s,t} \pi_{t-s}([Y,\Omega^s I_{s+1}])
+$$
+
+and
+
+$$
+  p 
+    \colon 
+  \pi_{t-s}([Y,X_{s+1}])
+    \stackrel{\pi_{t-s}([Y,p_s])}{\longrightarrow}
+   X_{t-s}([Y,X_s])
+$$
+
+$$
+  \kappa 
+    \colon 
+  \pi_{t-s}([Y,X_s])
+    \stackrel{\pi_{t-s}([Y,\kappa_s])}{\longrightarrow} 
+  \pi_{t-s}([Y,\Omega^s I_{s+1}])
+$$
+
+$$
+  \partial 
+    \colon 
+  \pi_{t-s}([Y,\Omega^s I_{s+1}])
+    \stackrel{\pi_{t-s}([Y,\partial_s])}{\longrightarrow}
+  \pi_{t-s}([Y,\Sigma X_{s+1}])
+  \,.
+$$
+
+The _$E$-Adams spectral sequence_ of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this [[exact couple]].
+
+=--
+
+
++-- {: .num_prop #UniquenessOfEAdamsSpectralSequence}
+###### Proposition
+
+Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corresponding two $E$-Adams spectral sequences, def. \ref{EAdamsSpectralSequence}, are [[isomorphism|isomorphic]] from the $\mathcal{E}_2$-page on.
+
+=--
+
++-- {: .num_prop #TowerSpectralSequencesOfAdamsTowerAndInverseSequenceCoincide}
+###### Proposition
+
+Given an $E$-Adams resolution (def. \ref{EAdamsResolution}), there is an [[isomorphism]] of spectral sequences between 
+
+1. the [[tower spectral sequence]] of its associated $E$-Adams tower (def. \ref{EAdamsTower}), i.e. the spectral sequence of def. \ref{EAdamsSpectralSequence};
+
+1. the [[tower spectral sequence]] of its associated inverse sequence (def. \ref{AssociatedInverseSequence}).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Hence both of these construction are to be called the $E$-Adams spectral sequence. It is in fact the second construction -- for the case of the normalized resolution as in example \ref{NormalizedEResolutionAssociatedSequence} -- that is considered in the original sources ([Adams 74, p. 318](#Adams74), [Bousfield 79, p. 271](#Bousfield79)). 
 
 =--
 
