@@ -58,7 +58,7 @@ If the generalized [[continuum hypothesis]] holds, then the
 
 +-- {: .proof} 
 ###### Proof 
-In fact we will show that any set $Y$ can be well-ordered, which implies AC (see the article [[Zorn's lemma]]). We may restrict attention to infinite $Y$, and since there is a singleton embedding of $Y$ in its power set $X = P(Y)$, we need only exhibit a well-ordering of $X$ (since we can then well-order $Y$ by restriction along singletons). In fact the only property of such $X$ that we require below is $|X| = 2|X|$. 
+In fact we will show that any set $Y$ can be well-ordered, which implies AC (see the article [[Zorn's lemma]]). We start with a technical trick: any $Y$ can be embedded in a set $X$ with the property $|X| = |X + X|$ (consider for example $X = P(\mathbb{N} + Y)$), and then it suffices to well-order such $X$, since we can then pull back the well-ordering along the embedding to well-order $Y$. Iterated power sets of $X$ also have that property. 
 
 Now, the Hartogs number $\aleph(X)$ can be constructed explicitly in ZF as a subset of the triple power set $P^3(X) = P P P(X)$. We will show for $n \in \{1, 2, 3\}$ that under GCH, the hypothesis $|\aleph(X)| \leq |P^n(X)|$, true for $n = 3$, leads to one of two conclusions: 
 
@@ -68,7 +68,7 @@ Now, the Hartogs number $\aleph(X)$ can be constructed explicitly in ZF as a sub
 
 If we land in case 2, then we loop around and feed that conclusion back into the hypothesis and iterate. Iterating this, we cannot descend through case 2 all the way down to $|\aleph(X)| \leq |P^0(X)| = |X|$, so after a few iterations we wind up in case 1 anyway: $X$ can be well-ordered. 
 
-To show this, we need a spot of cardinal arithmetic in ZF. First, we already observed that $|P| = |2P|$ if $P$ is an infinite power set (easy exercise). Second, we **claim** 
+To show this, we need a spot of cardinal arithmetic in ZF. First, we already observed that any $P = P^n(X)$ for $n \geq 0$ has the property $|P| = |2P|$. Second, we **claim** 
 
 * If $P, A$ are sets such that $|P| = |2P|$ and $|A+P| = |2^P|$, then $|2^P| \leq |A|$  
 
