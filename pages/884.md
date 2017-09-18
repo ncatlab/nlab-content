@@ -62,4 +62,5 @@ Often the objects of study are the same,  and there is an enormous interaction b
 ##References
 *  [[Hans-Joachim Baues]], _[[Algebraic Homotopy]]_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989); 
 *   [[Hans-Joachim Baues]], _[[Combinatorial Homotopy and 4-Dimensional Complexes]]_, de Gruyter Expositions in Mathematics 2, Walter de Gruyter, (1991);
-*   [[Hans-Joachim Baues]], _[[Homotopy Types]]_, in I.M.James, ed., _Handbook of Algebraic Topology_, 1--72, Elsevier, (1995);
+*   [[Hans-Joachim Baues]], _[[Homotopy Types]]_, in I.M.James, ed., _Handbook of Algebraic Topology_, 1--72, Elsevier, (1995).
+[[!redirects Algebraic Homotopy Theory]]
