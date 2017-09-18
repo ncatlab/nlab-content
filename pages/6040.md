@@ -24,6 +24,8 @@ An example: [[elliptic curve]].
 
 * [[singular point of a curve]]
 
+* [[torsion of a curve]]
+
 [[!include infinitesimal and local - table]]
 
 
