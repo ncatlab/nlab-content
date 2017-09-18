@@ -250,3 +250,6 @@ category: topology
 [[!redirects quasiuniformities]]
 [[!redirects quasi-uniformity]]
 [[!redirects quasi-uniformities]]
+
+[[!redirects uniformity space]]
+[[!redirects uniformity spaces]]
