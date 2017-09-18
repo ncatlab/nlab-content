@@ -3,6 +3,8 @@
 
 * [[perturbation theory]]
 
+* [[resurgence theory]]
+
 ## References
 
 * Wikipedia, _[Borel summation](http://en.wikipedia.org/wiki/Borel_summation)_
