@@ -1,0 +1,8 @@
+
+
+An [[experiment]] designed to directly detect [[gravitational waves]].
+
+## References
+
+* [LIGO website](https://www.ligo.caltech.edu)
+
