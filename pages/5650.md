@@ -367,6 +367,13 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[Taylor tower]]
 
+#### 7.1.6 Norm maps
+
+* [[norm map]]
+
+
+
+
 ## 8. Algebra in stable homotopy theory
 
 * [[stable homotopy category]]
