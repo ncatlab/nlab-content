@@ -1,0 +1,93 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+[[!redirects demorganization]]
+[[!redirects DeMorganization]]
+[[!redirects de Morganization]]
+[[!redirects De Morganisation]]
+[[!redirects De Morgan topology]]
+[[!redirects de Morgan topology]]
+[[!redirects DeMorgan topology]]
+
+
+## Idea
+
+The **De Morganization** of a [[topos]] $\mathcal{E}$ is a universal way to turn $\mathcal{E}$ into a [[de Morgan topos]] $Sh_m(\mathcal{E})$ with the use of a certain [[Lawvere-Tierney topology]] $m$, called the **De Morgan topology** on $\mathcal{E}$.
+
+This can be viewed as an analogue to the Booleanization $Sh_{\neg\neg}(\mathcal{E})$ of $\mathcal{E}$ with the help of the [[double negation|double negation topology]] $\neg\neg$ .
+
+## Definition
+
+Let $\mathcal{E}$ be a [[topos]]. The _De Morgan topology_ $m$ on $\mathcal{E}$ is defined as the smallest [[Lawvere-Tierney topology]] $j$ such that the canonical monomorphism $(\top,\bot): 1\coprod 1\rightarrowtail \Omega_{\neg\neg}$ is $j$-dense. The _De Morganization_ of $\mathcal{E}$ is the associated topos $Sh_m(\mathcal{E})$ of $m$-sheaves.
+
+### Remark
+
+Here $\Omega_{\neg\neg}$ denotes the [[subobject classifier]] for $Sh_{\neg\neg}(\mathcal{E})$ with $\neg\neg$ the [[double negation|double negation topology]] on $\mathcal{E}$. The De Morgan topology $m$ is well-defined due to _Joyal's lemma_ (cf. [Johnstone 1977](#Johnstone77), p.99; or [Johnstone 2002](#Johnstone), p.215). Compare its definition to this [proposition](double+negation#smallest_j-dense) about $Sh_{\neg\neg}(\mathcal{E})$ .
+
+## Example
+
++--{: .num_prop}
+###### Proposition
+The De Morganization of the [[classifying topos]] for the theory of [[field|fields]] is the classifying topos for the geometric theory of fields of finite characteristic, in which every element is algebraic over the [[prime field]].
+=--
+
+This is proposition 2.3 in [Caramello-Johnstone (2009)](#CJ09).
+
+## Properties
+
++--{: .num_prop}
+###### Proposition
+The De Morgan topology $m$ is the [[dense subtopos|smallest dense topology]] $j$ on $\mathcal{E}$ , i.e. $j\leq \neg\neg$ , such that $Sh_j(\mathcal{E})$ is a [[De Morgan topos]].
+=--
+
+This appears as theorem 1 in [Caramello (2009)](#Caramello09).
+
++--{: .num_prop}
+###### Proposition
+Let $\mathcal{E}$ be a [[topos]] and $m$ be the De Morgan topology on it.
+
+* $Sh_m(\mathcal{E})=\mathcal{E}$ is a iff $\mathcal{E}$ is a [[De Morgan topos]].
+
+* For any [[dense subtopos|dense topology]] $j$ on $\mathcal{E}$ , $Sh_m(Sh_j(\mathcal{E}))=Sh_{m\vee j}(\mathcal{E})$.
+=--
+
+[Caramello (2009)](#Caramello09), prop.1.5.
+
+## Related entries
+
+* [[De Morgan topos]]
+* [[De Morgan algebra]]
+* [[double negation]]
+* [[dense subtopos]]
+* [[dense topology]]
+
+## References
+
+* {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Adv. in Math. **222** (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
+
+* {#Caramello12}[[Olivia Caramello]], _Topologies for intermediate logics_ , arXiv:1205.2547 (2012). ([arXiv:1205.2547](http://arxiv.org/abs/1205.2547))
+
+* {#CJ09}[[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the Theory of Fields_ , Adv. in Math. **222** (2009) pp.2145-2152. ([arXiv:0808.1572](http://arxiv.org/abs/0808.1572))
+
+* {#Johnstone77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint New York 2014)
+
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. I_, Oxford UP 2002.
+
+
