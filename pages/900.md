@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -26,13 +26,15 @@ The category of pro-objects of $C$ is written $pro$-$C$. Such a category is some
 
 ## Definition 
 
-### Via formal filtered limits
+### Via formal co-filtered limits
 
 The [[objects]] of the [[category]] $pro$-$C$ are [[diagrams]] $F:D\to C$ where $D$ is a [[small category|small]] [[filtered category|cofiltered]] category.  The [[hom set]] of [[morphisms]] between $F:D\to C$ and $G:E\to C$ is 
 
-\[pro\text{-}C(F,G) = lim_{e\in E} colim_{d\in D} C(F d, G e)\]
+\[
+  pro\text{-}C(F,G) = \underset{e\in E}{lim}\, \underset{d\in D}{colim} C(F d, G e)
+\]
 
-The [[limit]] and [[colimit]] is taken in the category [[Set]] of sets. 
+Notice that here the [[limit]] and [[colimit]] is taken in the category [[Set]] of sets. 
 
 
 Cofiltered limits in [[Set]] are given by sets of [[thread]]s and filtered colimits by [[germs]] (classes of equivalences), thus a representative of $s\in\mathrm{pro}C(F,G)$ is a thread whose each component is a germ:  
