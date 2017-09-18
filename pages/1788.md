@@ -1,11 +1,8 @@
 $$
-  \array{
-    \mathbb{R}^{d-1,1\vert \mathbf{N}}
-      && \overset{}{\longrightarrow} &&
-    V/\mathfrak{g}
-    \\
-    & \searrow && \swarrow
-    \\
-    && B \mathfrak{g}
-  }
+  sCAlg_{\mathbb{R}}
+    \underoverset
+      {\underset{per}{\longrightarrow}}
+      {\overset{forget}{\longleftarrow}}
+      {\bot}
+  sCAlg^{\mathbb{Z}}_{\mathbb{R}}
 $$
