@@ -464,7 +464,7 @@ Commun. Math. Phys. __109__ (1987) 525--536, [project euclid](http://projecteucl
 {Jones} [[Edward Witten]], _Quantum field theory and the Jones polynomial_,
 Commun. Math. Phys. __121__ (1989) 351--399, [project euclid](http://projecteuclid.org/euclid.cmp/1104178138).
 
-{Dynamics} [[Edward Witten]], _String theory dynamics in various dimensions_,
+{Dynamics} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_,
 Nucl. Phys. __B443__ (1995) 85-126,
 [hep-th/9503124](http://arXiv.org/abs/hep-th/9503124).
 
