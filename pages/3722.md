@@ -19,7 +19,7 @@
 
 ## Definitions
 
-A subset $C$ of a [[topological space]] $X$ is _closed_ if its [[complement]] is an [[open subset]], or equivalently if it contains all its [[limit points]]. When equipped with the [[subspace topology]], we may call $C$ (or its inclusion $C \hookrightarrow X$) a *closed subspace*. More abstractly, a [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is a [[closed map]]. 
+A subset $C$ of a [[topological space]] (or more generally a [[convergence space]]) $X$ is _closed_ if its [[complement]] is an [[open subset]], or equivalently if it contains all its [[limit points]]. When equipped with the [[subspace topology]], we may call $C$ (or its inclusion $C \hookrightarrow X$) a *closed subspace*. More abstractly, a [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is a [[closed map]]. 
 
 The collection of closed subsets of a space $X$ is closed under arbitrary intersections. If $A \subseteq X$, then the intersection of all closed subsets containing $A$ is the smallest closed subset that contains $A$, called the _[[closure]]_ of $A$, and variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. It follows that $A \subseteq B$ implies $Cl(A) \subseteq Cl(B)$ and $Cl(Cl(A)) = Cl(A)$, so that $A \mapsto Cl(A)$ forms a [[Moore closure]] operator on the power set $P(X)$. 
 
@@ -95,9 +95,41 @@ For some details on these remarks (and quite a bit more), see [Gardner and Jacks
 
 ### Locales
 
-In [[locale]] theory, every open $U$ in the locale defines a closed subspace which is given by the __closed [[nucleus]]__
-$$ j_{U'}\colon V \mapsto U \cup V .$$
-The idea is that this subspace is the part of $X$ which does not involve $U$ (hence the notation $U'$, or any other notation for a [[complement]]), and we may identify $V$ with $U \cup V$ when we are looking only away from $U$.
+In [[locale]] theory, every open $U$ in a locale $X$ defines a closed [[sublocale]] $\mathsf{C} U$ which is given by the __closed [[nucleus]]__
+$$ j_{\mathsf{C} U}\colon V \mapsto U \cup V .$$
+The idea is that $\mathsf{C}U$ is the part of $X$ which does not involve $U$ (hence the notation $\mathsf{C}U$, or any other notation for a [[complement]]), and we may identify $V$ with $U \cup V$ when we are looking only away from $U$.
+
+The sublocale $\mathsf{C}U$ is literally a complement of $U$ in the lattice of sublocales of $X$, i.e. $U\cap \mathsf{C}U = \emptyset$ and $U\cup \mathsf{C}U = X$ as sublocales.  Moreover, if $X$ is a ([[sober space|sober]]) topological space regarded as a locale, then the locale $U$ is also spatial, and so is $\mathsf{C}U$, corresponding exactly to the topological closed set $X\setminus U$.  (The fixed points of $j_{\mathsf{C}U}$ can be identified with the open sets containing $U$, which are bijectively related to the open subsets of $X\setminus U$.)  Thus there is really only one notion of "closed subspace" whether we regard $X$ as a space or as a locale (at least as long as $X$ is sober).
+
+### Constructive mathematics
+
+In [[constructive mathematics]], however, there are many possible *inequivalent* definitions of a closed subspace, including:
+
+1. A subspace $C\subset X$ is closed if it is the complement of an open subspace, i.e. if $C = X\setminus U$ for some open subspace $U$;
+1. A subspace $C\subset X$ is closed if its complement $X\setminus C$ is open;
+1. A subspace $C\subset X$ is closed if it contains all its [[limit points]], i.e. if for any $x\in X$ such that $U\cap C$ is [[inhabited set|inhabited]] for all [[neighborhoods]] $U$ of $x$, we have $x\in C$.
+1. Finally, we can also consider closed sublocales of the locale corresponding to $X$.
+
+Definition (1) coincides with definition (2) or (3) only if excluded middle holds, since under (2) or (3) every subspace of a [[discrete space]] is closed, while under (1) the only closed subspaces are those that are complements, and if every proposition is a negation then the [[law of double negation]] follows.
+
+Note also that definition (2) is the classical contrapositive of definition (3): $X\setminus C$ is open if for any $x\notin C$ there exists a neighborhood $U$ of $x$ such that $U\cap C = \emptyset$.  This makes it seem unlikely that they are constructively equivalent, but I do not have a specific example.
+
+Of the first three "topological" definitions, the closest to the localic one is definition (1), since both are defined as a "complement" of some open subspace.  However, in definition (1) we may not have $X = U \cup (X\setminus U)$ even as sets, whereas it remains true constructively that $X = U \cup \mathsf{C}U$ in the lattice of sublocales.  In fact, we have the following:
+
++-- {: .un_theorem}
+###### Theorem
+The following are equivalent:
+
+1. The law of [[excluded middle]].
+1. Every closed sublocale of a spatial locale is spatial.
+1. Every closed sublocale of a [[discrete locale]] is spatial.
+=--
++-- {: .proof}
+###### Proof
+We remarked above that (1)$\Rightarrow$(2), and of course (2)$\Rightarrow$(3).  So assume (3).  Every spatial sublocale is a union of its points, and in a discrete space points are open; thus if closed sublocales are spatial, they are also open.  Since $X = U \cup \mathsf{C}U$ is constructively true, it follows that every open set is complemented in the open-set lattice of any discrete locale, which is to say that all powersets are [[Boolean algebras]], i.e. excluded middle holds.
+=--
+
+This constructive variety of notions of closed subspace gives rise to a corresponding variety of notions of [[Hausdorff space]] when applied to the diagonal subspace.
 
 
 ## Related concepts
@@ -119,6 +151,8 @@ The idea is that this subspace is the part of $X$ which does not involve $U$ (he
 * [[closed subtopos]]
 
 * [[co-Heyting boundary]]
+
+* [[closed morphism]], [[proper morphism]]
 
 ## References
 
