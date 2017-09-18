@@ -25,9 +25,15 @@ This page collects links related to the lecture notes
 
   ([web](http://www.math.harvard.edu/~lurie/252x.html))
 
-on [[chromatic homotopy theory]].
+on [[complex oriented cohomology]], the [[Adams spectral sequence]] and [[chromatic homotopy theory]] from the modern point of view of [[E-infinity geometry]].
 
-See also _[[A Survey of Elliptic Cohomology]]_.
+First indications of the big picture developed here are due to
+
+* [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999
+
+Via the chromatic stratification of the [[moduli stack of formal groups]] one recovers as, roughly, the second chromatic stage the [[moduli stack of elliptic curves]]. For the story in that case see
+
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_.
 
 **Lectures**
 
