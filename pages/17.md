@@ -630,10 +630,41 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} &  P(1)^{\mathrl
 
    <img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
 
+
+## Vertical bars and reversed brackets {#vbar}
+
+This is basically working around some missing features of iTeX.  Even in real TeX, typing `|x|` (or equivalently `\vert x\vert` for $|x|$ is not entirely correct; you should either type `\mathopen|x\mathclose|` or `\lvert x\rvert` to guarantee proper spacing.  This rarely makes any visible difference, although `|-|` *is* dramatically wrong.  (The same goes for `\|`, `\Vert`, `\lVert`, and `\rVert`.)
+
+This is not just a lesson in the fine points of TeX, however, since iTeX does not support any of these nuances!  Furthermore, iTeX renders `|` (or equivalently `\vert`) into MathML as an operator rather than as an ordinary symbol (as real TeX does), so that bad spacing comes up much more often.  To work around this, you usually need to put braces around the bars, and sometimes you need to put them inside the bars as well.  (In any case, it never hurts.)
+
+Much the same applies to reversed brackets.  In real TeX, `[x[` should really be `[x\mathclose[`; in iTeX, you can write this effectively as `{[x[}`.
+
+Thus:
+
+* `$|a|$` is fine: $|a|$.
+* `$|a| + \|x\|$` has bad spacing: $|a| + \|x\|$.
+* `${|a|} + {\|x\|}$` is fine: ${|a|} + {\|x\|}$.
+* `$|-|$` has bad spacing: $|-|$.
+* `$|{-}|$` is fine: $|{-}|$.
+* `${|{-}|} + {\|{-}\|}$` (but nothing simpler) is fine: ${|{-}|} + {\|{-}\|}$.
+
+Similarly:
+
+* `$]0,2[$` is fine: $]0,2[$.
+* `$]0,2[ - ]1,2[$` has bad spacing: $]0,1[ - ]1,2[$.
+* `${]0,2[} - {]1,2[}$` is fine: ${]0,1[} - {]1,2[}$.
+* `$]-1,0[$` has bad spacing: $]-1,0[$.
+* `$]{-1,0}[$` is fine: $]{-1,0}[$.
+* `${]{-2,0}[} - {]{-1,0}[}$` (but nothing simpler) is fine: ${]{-2,0}[} - {]{-1,0}[}$.
+
+Some of these examples of bad spacing will also be bad in real TeX; but iTeX exaggerates the errors and limits the ways that you can fix them.
+
+
 # How to use the SVG editor 
  {#svgedit}
 
 There is now a WYSIWYG SVG-editor embedded within Instiki (the software running the nLab).  The homepage for this editor is [here](http://code.google.com/p/svg-edit/).
+
 
 ## Quick Start
 
