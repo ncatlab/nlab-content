@@ -1048,11 +1048,11 @@ Write $\sharp_n$ for the [[n-image]] of itd [[unit of a monad|unit]].
 +-- {: .num_prop #CoDiscretizationOfActions}
 ###### Proposition
 
-Given a $G$-action on some $X$, there is canonically induced an $\sharp_n G$-action on $\sharp_n X$ such that the projection $X \to \sharp_n X$ carries the structure of a homomorphism of $G$-actions.
+Given an [[∞-group]] $G$ in $\mathbf{H}$ and a $G$-action on some $X$, then $\sharp_n G$ is itself canonically an $\infty$-group equipped with a canonically induced action on $\sharp_n X$ such that the projection $X \to \sharp_n X$ carries the structure of a homomorphism of $G$-actions.
 
 =--
 
-We indicate two proofs, the first non-elementary (making use of the homotopy [[Giraud axioms]]), the second [[elementary (infinity,1)-topos|elementary]]. (Following [this](http://nforum.mathforge.org/discussion/4576/nimage/?Focus=51743#Comment_51743) discussion.)
+We indicate two proofs, the first non-elementary (making use of the [[Giraud-Rezk-Lurie theorem]]), the second [[elementary (infinity,1)-topos|elementary]]. (Following [this](http://nforum.mathforge.org/discussion/4576/nimage/?Focus=51743#Comment_51743) discussion.)
 
 +-- {: .proof}
 ###### Proof
