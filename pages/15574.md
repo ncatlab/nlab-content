@@ -436,7 +436,7 @@ The discussion so far might suggest that being self-sublating is a property pecu
 
 +-- {: .num_defn #quintessentialloc}
 ###### Definition 
-Let $\mathcal{C}$ be a finitely complete category. An [[level|essential localization]] $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ is called **quintessential** if $l$ is naturally isomorphic to $r$.
+Let $\mathcal{C}$ be a finitely complete category. An [[level|essential localization]] $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ is called **quintessential** if $l$ is naturally isomorphic to $i$.
 =--
 
 To say that $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ is a quintessential localization amounts to say in Lawvere's terminology ([2007](#07)) that $i:\mathcal{L}\to\mathcal{C}$ exhibits $\mathcal{C}$ as a [[quality type]] over $\mathcal{L}$ with $r$ providing the right adjoint to $i\simeq l$ (provided $\mathcal{L}$, $\mathcal{C}$ are [[extensive category|extensive]]).
