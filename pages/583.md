@@ -481,6 +481,8 @@ Part D of
 
 is comprehensive.
 
+Phoa has a presentation of the internal logic of a topos over a dependent type theory, as opposed to other systems which use simple type theory. This is system is not minimal, but close to what is used in practice [PS](http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-208/ECS-LFCS-92-208.ps.gz).
+
 The book
 
 * Jacobs, _Categorical Logic and Type Theory_ 
