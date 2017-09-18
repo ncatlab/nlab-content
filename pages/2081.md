@@ -21,7 +21,9 @@ A [[sheaf]] $F$ of [[set]]s on (the [[category of open subsets]] of) a [[topolog
 
 ## Properties
 
-Flabbiness is a local property: if $F|_U$ is flabby for every sufficiently small open subset, then $F$ is flabby. Given a continuous map $f:X\to Y$ and a flabby sheaf $F$ on $X$, the [[direct image]] sheaf $f_* F : V\mapsto F(f^{-1}V)$ is also flabby. Any [[exact sequence]] of sheaves of [[abelian groups]] $0\to F_1\to F_2\to F_3\to 0$ in which $F_1$ is exact, is also an exact sequence in the category of presheaves (the exactness for stalks implies exactness for groups of sections over any fixed open set). As a corollary, if $F_1$ and $F_2$ are flabby, then $F_3$ is flabby. 
+* Flabbiness is a local property: if $F|_U$ is flabby for every sufficiently small open subset, then $F$ is flabby.
+* Given a continuous map $f:X\to Y$ and a flabby sheaf $F$ on $X$, the [[direct image]] sheaf $f_* F : V\mapsto F(f^{-1}V)$ is also flabby.
+* Any [[exact sequence]] of sheaves of [[abelian groups]] $0\to F_1\to F_2\to F_3\to 0$ in which $F_1$ is exact, is also an exact sequence in the category of presheaves (the exactness for stalks implies exactness for groups of sections over any fixed open set). As a corollary, if $F_1$ and $F_2$ are flabby, then $F_3$ is flabby. 
 
 
 ## Examples
@@ -34,6 +36,52 @@ $$
 
 where $F_x$ denotes the [[stalk]] of $F$ at point $x$. 
 
+
+## Characterization using the internal language
+
++-- {: .num_prop}
+###### Proposition
+
+Let $F$ be a sheaf on a topological space (or [[locale]]) $X$. Then the following statements are equivalent.
+
+1. $F$ is flabby.
+2. For any open subset $U \subseteq X$, any section $s \in F(U)$, and any point $x \in X$, there is an open neighbourhood $V$ of $x$ and an extension of $s$ to $U \cup V$ (that is, a section $s' \in F(U \cup V)$ such that $s'|_U = s$).
+3. From the point of view of the [[internal language]] of the [[topos]] of sheaves over $X$, for any [[subsingleton]] $K \subseteq F$ there exists an element $s : F$ such that $s \in K$ if $K$ is [[inhabited]]. More precisely,
+$$ Sh(X) \models
+  \forall K \subseteq F.
+  (\forall s,s':K. s = s') \Rightarrow \exists s:F.
+  (K \text{ is inhabited} \Rightarrow s \in K). $$
+4. The canonical map $F \to \mathcal{P}_{\leq 1}(F), s \mapsto \{s\}$ is [[final functor|final]] from the internal point of view, that is
+$$ Sh(X) \models
+  \forall K : \mathcal{P}_{\leq 1}(F).
+  \exists s : F.
+  K \subseteq \{s\}. $$
+Here $\mathcal{P}_{\leq 1}(F)$ is the object of subsingletons of $F$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The implication "1 $\Rightarrow$ 2" is trivial. The converse direction uses a typical argument with [[Zorn's lemma]], considering a maximal extension.
+The equivalence "$2 \Leftrightarrow 3$" is routine, using the [[Kripke-Joyal semantics]] to interpret the internal statement. We omit details for the time being.
+Condition 4 is a straightforward reformulation of condition 3.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Condition 2 of the proposition is, unlike the standard definition of flabbiness given at the top of the article, manifestly local. Also the equivalence with condition 3 and condition 4 is [[intuitionistic logic|constructively valid]]. Therefore one could consider to adopt condition 2 as the definition of flabbiness.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The object $\mathcal{P}_{\leq 1}(F)$ of subsingletons of $F$ can be interpreted as the object of "partially-defined elements" of $F$. The sheaf $F$ is flabby if and only if any such partially-defined element can be refined to an honest element of $F$.
+
+=--
 
 ## Related concepts
 
