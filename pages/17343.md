@@ -938,6 +938,32 @@ If here $\eta_2$ is constant along $I$, $f$ is is said to exhibit $X$ as a **[[d
 
 =--
 
++-- {: .num_example #ProjectionFromStandardCylinderIsHomotopyEquivalence}
+###### Example
+
+For $X$ a [[topological space]] and $X \times I$ its standard [[cylinder object]] of def. \ref{TopologicalInterval}, then the projection $p \colon X \times I \longrightarrow X$ and the inclusion $(id, \delta_0) \colon X \longrightarrow X\times I$ are [[homotopy equivalences]], def. \ref{HomotopyEquivalence}, and in fact are homotopy inverses to each other:
+ 
+The composition 
+
+$$
+  X \overset{(id,\delta_0)}{\longrightarrow} X\times I \overset{p}{\longrightarrow} X
+$$ 
+
+is immediately the identity on $X$ (i.e. homotopic to the identity by a trivial homotopy), while the composite 
+
+$$
+  X 
+    \times I \overset{p}{\longrightarrow} 
+  X 
+    \overset{(id, \delta_0)}{\longrightarrow} 
+  X\times I
+$$ 
+
+is homotopic to the identity on $X \times I$ by a homotopy that is pointwise in $X$ that of example \ref{StandardContractionOfStandardInterval}.
+
+ 
+=--
+
 
 +-- {: .num_defn #WeakHomotopyEquivalenceOfTopologicalSpaces}
 ###### Definition
@@ -1016,13 +1042,13 @@ By the previous observation, the vertical morphisms here are isomorphisms, and h
 +-- {: .num_remark #NotEveryHomotopyEquivalenceIsAWeakHomotopyEquivalence}
 ###### Remark
 
-The converse of prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences} is not true generally: not every weak homotopy equivalence between topological spaces is a homotopy equivalence.  (For an example with full details spelled out see for instance Fritsch, Piccinini: "Cellular Structures in Topology", p. 289-290).
+The converse of prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences} is not true generally: not every [[weak homotopy equivalence]] between topological spaces is a [[homotopy equivalence]].  (For an example with full details spelled out see for instance Fritsch, Piccinini: "Cellular Structures in Topology", p. 289-290).
 
-However, as we will explain and prove below, it turns out that
+However, as we will discuss below, it turns out that
 
-1. every weak homotopy equivalence between [[CW-complexes]] is a homotopy equivalence;
+1. every weak homotopy equivalence between [[CW-complexes]] is a homotopy equivalence ([[Whitehead's theorem]], cor. \ref{WhiteheadTheorem});
 
-1. every topological space is connected by a weak homotopy equivalence to a CW-complex.
+1. every topological space is connected by a weak homotopy equivalence to a CW-complex ([[CW approximation]], remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}).
 
 =--
 
@@ -1394,9 +1420,124 @@ Every $J_{Top}$-[[relative cell complex]] (def. \ref{TopologicalGeneratingAcycli
 +-- {: .proof}
 ###### Proof
 
-Let $X \longrightarrow \hat X$ be a $J_{Top}$-relative cell complex. 
+Let $X \longrightarrow \hat X = \underset{\longleftarrow}{\lim}_{\beta \leq \alpha} X_\beta$ be a $J_{Top}$-[[relative cell complex]]. 
 
-Notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{\alpha} \to X_{\alpha+1}$ in the [[transfinite composition]] defining $\hat X$ is a [[homotopy equivalence]], hence, by prop.  \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. 
+First observe that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ being [[homotopy equivalences]] for all $n \in \mathbb{N}$ (by example \ref{ProjectionFromStandardCylinderIsHomotopyEquivalence}), each of the stages $X_{\beta} \longrightarrow X_{\beta + 1}$ in the relative cell complex is also a homotopy equivalence. We make this fully explicit:
+
+By definition, such a stage is a [[pushout]] of the form
+
+$$
+  \array{
+     \underset{i \in I}{\sqcup} D^{n_i}
+     &\longrightarrow&
+     X_\beta
+     \\
+     {}^{\mathllap{\underset{i \in I}{\sqcup} (id, \delta_0)} }\downarrow 
+      &(po)& 
+     \downarrow
+     \\
+     \underset{i \in I}{\sqcup} D^{n_i} \times I
+     &\longrightarrow&
+     X_{\beta + 1}
+  }
+  \,.
+$$
+
+Then the fact that the projections $p_{n_i} \colon D^{n_i} \times I \to D^{n_i}$ are strict left inverses to the inclusions $(id, \delta_0)$ gives a [[commuting square]] of the form
+
+$$
+  \array{
+     \underset{i \in I}{\sqcup} D^{n_i}
+     &\longrightarrow&
+     X_\beta
+     \\
+     {}^{\mathllap{\underset{i \in I}{\sqcup} (id, \delta_0)} }\downarrow 
+       && 
+     \downarrow^{\mathrlap{id}}
+     \\
+     \underset{i \in I}{\sqcup} D^{n_i} \times I
+     \\
+     {}^{\mathllap{\underset{i \in I}{\sqcup} p_{n_i} }}\downarrow && \downarrow
+     \\
+     \underset{i \in I}{\sqcup} D^{n_i}
+       &\longrightarrow& 
+     X_\beta
+  }
+$$
+
+and so the [[universal property]] of the [[colimit]] ([[pushout]]) $X_{\beta + 1}$ gives a factorization of the identity morphism on the right through $X_{\beta + 1}$
+
+$$
+  \array{
+     \underset{i \in I}{\sqcup} D^{n_i}
+     &\longrightarrow&
+     X_\beta
+     \\
+     {}^{\mathllap{\underset{i \in I}{\sqcup} (id, \delta_0)} }\downarrow 
+       && 
+     \downarrow^{}
+     \\
+     \underset{i \in I}{\sqcup} D^{n_i} \times I
+       &\longrightarrow&
+     X_{\beta + 1}
+     \\
+     {}^{\mathllap{\underset{i \in I}{\sqcup} p_{n_i} }}\downarrow 
+       && 
+     \downarrow
+     \\
+     \underset{i \in I}{\sqcup} D^{n_i}
+       &\longrightarrow& 
+     X_\beta
+  }
+$$
+
+which exhibits $X_{\beta + 1} \to X_\beta$ as a strict left inverse to $X_{\beta} \to X_{\beta + 1}$. Hence it is now sufficient to show that this is also a homotopy right inverse.
+
+To that end, let
+
+$$
+  \eta_{n_i} \colon D^{n_i}\times I \longrightarrow D^{n_i} \times I
+$$
+
+be the [[left homotopy]] that exhibits $p_{n_i}$ as a homotopy right inverse to $p_{n_i}$ by example \ref{ProjectionFromStandardCylinderIsHomotopyEquivalence}. For each $t \in [0,1]$ consider the [[commuting square]]
+
+$$
+  \array{
+    \underset{i \in I}{\sqcup} D^{n_i}
+      &\longrightarrow&
+    X_\beta
+    \\
+    \downarrow && \downarrow
+    \\
+    \underset{i \in I}{\sqcup} D^{n_i} \times I
+    && X_{\beta + 1}
+    \\
+    {}^{\mathllap{\eta_{n_i}(-,t)}}\downarrow && \downarrow^{\mathrlap{id}}
+    \\
+    \underset{i \in I}{\sqcup} D^{n_i} \times I
+     &\longrightarrow&
+    X_{\beta + 1}
+  }
+  \,.
+$$
+
+Regarded as a [[cocone]] under the [[span]] in the top left, the [[universal property]] of the [[colimit]] ([[pushout]]) $X_{\beta + 1}$ gives a continuous function
+
+$$
+  \eta(-,t) \;\colon\; X_{\beta + 1} \longrightarrow X_{\beta + 1}
+$$
+
+for each $t \in [0,1]$. For $t = 0$ this construction reduces to the provious one in that $\eta(-,0) \colon X_{\beta +1 } \to X_{\beta} \to X_{\beta + 1}$ is the composite which we need to homotope to the identity; while $\eta(-,1)$ is the identity. 
+Since $\eta(-,t)$ is clearly also continuous in $t$ it constitutes a continuous function
+
+$$
+  \eta \;\colon\; X_{\beta + 1}\times I \longrightarrow X_{\beta + 1}
+$$
+
+which exhibits the required left homotopy.
+
+
+So far this shows that each stage $X_{\beta} \to X_{\beta+1}$ in the [[transfinite composition]] defining $\hat X$ is a [[homotopy equivalence]], hence, by prop.  \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a [[weak homotopy equivalence]]. 
 
 This means that all morphisms in the following diagram (notationally suppressing basepoints and showing only the finite stages)
 
