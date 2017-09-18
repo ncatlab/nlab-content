@@ -142,9 +142,11 @@ As explained at _[What is HoTT for set theorists?](#WhatIsHoTTForSetTheorists)_,
 ### Is homotopy type theory limited to constructive mathematics?
  {#IsHoTTLimitedToConstructiveMathematics}
 
-No. 
+No. On the [[0-types]] (the [[h-sets]]) the axioms of [[classical logic]] may be imposed, such as the [[law of excluded middle]] (details are [here](excluded+middle#ReferencesInHomotopyTypeTheory)) and the [[axiom of choice]] (details are [here](axiom+of+choice#ReferencesInHomotopy)).
 
-For a longer answer, see
+One [[model]] that interprets the resulting axioms is the standard model in [[simplicial sets]] ([here](model%20structure%20on%20simplicial%20sets#KapulkinLumnsdaineVoevodsky12)) inside [[ZFC]]+[[inaccessible cardinals]]. The [[0-types]] in this model are precisely the ordinary sets in ZFC. See also the discussion at _[What is HoTT? For set theorists](#WhatIsHoTTForSetTheorists)_.
+
+For more exposition see also
 
 * [[Andrej Bauer]], _[Univalent foundations subsume classical mathematics](http://math.andrej.com/2014/01/13/univalent-foundations-subsume-classical-mathematics/)_ (2013)
 
