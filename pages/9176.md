@@ -5,7 +5,7 @@
 
 ## Idea
 
-The concept of __Hyperdeterminant__ (or Cayley determinant) is a generalization of the concent of [[determinant]] to multidimensional matrices ([[hypermatrices]], i.e. [[tensors]]). 
+The concept of __Hyperdeterminant__ (or Cayley determinant) is a generalization of the concent of [[determinant]] to multidimensional matrices ([[hypermatrices]], i.e. representations of [[tensors]] in a choice of [[linear basis]]). 
 
 ## References
 
