@@ -14,7 +14,7 @@
  [[cut rule]]                   |   [[composition]] of [[classifying morphisms]] / [[pullback]] of [[display maps]]        |   [[substitution]]
  [[cut elimination]] for [[implication]]           |   [[counit]] for hom-tensor adjunction           |   [[beta reduction]]
 introduction rule for [[implication]]              |   [[unit]] for hom-tensor adjunction            |   [[eta conversion]]
- [[conjunction]]                |   [[product]]                   |  [[product type]]
+ [[logical conjunction]]                |   [[product]]                   |  [[product type]]
  [[disjunction]]                |   [[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of)
  [[implication]]                |   [[internal hom]]                        |  [[function type]]
  [[negation]]                   |   [[internal hom]] into [[initial object]] | [[function type]] into [[empty type]]
