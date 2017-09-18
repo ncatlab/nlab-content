@@ -1,0 +1,9 @@
+
+## References
+
+* Wikipedia, _[Triality](http://en.wikipedia.org/wiki/Triality)_
+
+* [[John Baez]], _[Spinors and trialities](http://math.ucr.edu/home/baez/octonions/node7.html)_
+
+[[!redirects trialities]]
+
