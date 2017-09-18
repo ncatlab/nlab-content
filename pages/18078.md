@@ -1,11 +1,101 @@
 
 
-+-- {: .num_prop }
-###### Proposition
+Regarding the second point, in one direction we have the immediate implication
 
-Given a [[set]] $X$ and a [[filter]] of subsets $\mathcal{F} \subset P(X)$ (def. \ref{Filter}), then $\mathcal{F}$ is the [[eventuality filter]] (def. \ref{EventualityFilter}) of its filter net (def. \ref{FilterNet}).
+$$
+  \begin{aligned}
+    & 
+    p \in \underset{i \in I}{\cup} V(\mathcal{F}_i)
+    \\
+    \Leftrightarrow\;
+    &
+    \underset{i \in I}{\exists}
+    \left(
+      \mathcal{F}_i \subset p
+    \right)
+    \\
+    \Rightarrow \;   
+    &
+    \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i}{\forall}
+    \left(
+      \underset{i \in I}{\prod} f_i \in p
+    \right)
+    \\
+    \Leftrightarrow\;
+    &
+    p
+    \in
+    V\left(
+      \underset{i \in I}{\prod} \mathcal{F}_i
+    \right) 
+    \,.
+  \end{aligned}
+$$
 
-=--
+For the converse direction we need to show that
+
+$$
+  \left(
+    p
+    \in
+      V\left(
+        \underset{i \in I}{\prod} \mathcal{F}_i
+      \right) 
+   \right)
+     \;\Rightarrow\;
+   \left(
+     p
+     \in 
+     \underset{i \in I}{\cup} V(\mathcal{F}_1)   
+   \right)
+  \,.
+$$
+
+hence that 
+
+$$
+  \left(
+    \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i }{\forall}
+    \left(
+      \underset{i \in I}{\prod} f_i \in p
+    \right)
+  \right)
+  \;\Rightarrow\;
+  \left(
+    \underset{i \in I}{\exists}
+    \left(
+      \underset{f_i \in \mathcal{F}_i}{\forall}
+      \left(
+         f_i \in p
+      \right)
+    \right)
+  \right)
+  \,.
+$$
+
+By [[excluded middle]], this is equivalent to its [[contraposition]], which by [[de Morgan's law]] is
+
+$$
+  \left(
+    \underset{i \in I}{\forall}
+    \left(
+      \underset{f_i \in \mathcal{F}_i}{\exists}
+      \not
+      \left(
+         f_i \in p
+      \right)
+    \right)
+  \right)
+  \;\Rightarrow\;
+  \left(
+    \underset{(f_i) \in \underset{i \in I}{\prod} \mathcal{F}_i }{\exists}
+    \not
+    \left(
+      \underset{i \in I}{\prod} f_i \in p
+    \right)
+  \right)
+  \,.
+$$
 
 
-
+This holds by the assumption that $p$ is a [[prime ideal]].
