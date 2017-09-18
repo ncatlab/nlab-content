@@ -62,6 +62,8 @@ Introduction and survey is in
 
 * [[Alexandru Buium]], _Lectures on arithmetic differential equations_ ([pdf](http://www.lorentzcenter.nl/lc/web/2009/342/presentations/lectures%20A.%20Buium.pdf))
 
+* [[Alexandru Buium]], _Foundations of arithmetic differential geometry_, 2017, AMS, Mathematical Surveys and Monographs Vol. 222, ([AMS](http://bookstore.ams.org/surv-222/), [Preface and Introduction](http://www.math.unm.edu/~buium/foundationsintro.pdf)).
+
 Discussion in the context of the [[function field analogy]] is in 
 
 * {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
