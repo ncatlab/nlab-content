@@ -1,0 +1,37 @@
+## Idea
+
+The [[simplicial localization]] of the category of [[dg-categories]] at the class of [[Dwyer-Kan equivalences of dg-categories|Dwyer-Kan equivalences]] is the _[[(infinity,1)-category]] of [[dg-categories]]_. It is presented by the _Dwyer-Kan [[model structure]]_ which we discuss below.
+
+We also discuss two interesting [[left Bousfield localizations]] of this [[model structure]] which present [[reflective sub-(infinity,1)-categories]].
+
+## Definition
+
+(details to be filled in)
+
+### Dwyer-Kan model structure
+
+The [[weak equivalences]] are the [[Dwyer-Kan equivalences of dg-categories]]. The fibrant objects are the locally fibrant dg-categories, i.e. for which all [[mapping complexes]] are [[fibrant objects]] in the category of [[chain complexes]].
+
+### Quasi-equiconic model structure
+
+The [[fibrant objects]] are the [[pretriangulated dg-categories]].
+
+### Morita model structure
+
+The [[weak equivalences]] are the Morita equivalences, i.e. functors $u : A \to B$ inducing [[equivalences of dg-categories|equivalences]] of [[derived dg-categories]]
+  $$ D(B) \to D(A). $$
+The [[fibrant objects]] are the [[idempotent complete]] [[dg-categories]].
+
+## References
+
+For a summary of the various model structures on dg-categories, see Section 2 of the paper
+
+* {#CisinskiTabuada11} [[Denis-Charles Cisinski]], [[Goncalo Tabuada]], _Non-connective K-theory via universal invariants_, Compositio Math. 147 (2011), 1281-1320, [arXiv:0903.3717](http://arxiv.org/abs/0903.3717), [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/Non-connective-K-theory.pdf).
+
+[[!redirects Dwyer-Kan model structure on dg-categories]]
+[[!redirects canonical model structure on dg-categories]]
+[[!redirects quasi-equiconic model structure on dg-categories]]
+[[!redirects Morita model structure on dg-categories]]
+
+[[!redirects (infinity,1)-category of dg-categories]]
+[[!redirects infinity-category of dg-categories]]
