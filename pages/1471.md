@@ -17,7 +17,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -82,7 +82,7 @@ By the [[Yoneda lemma]], $Hom(T,Bun_G) \cong Bun_G(T)$ for all $T$. Moreover, if
 
   * [[algebraic stack]]
 
-  * **topological stack**, [[topological groupoid]]
+  * **topological stack**, [[topological groupoid]], [[topological infinity-groupoid]]
 
   * [[differentiable stack]], [[Lie groupoid]]
 
