@@ -26,6 +26,10 @@ A _paracompact Hausdorff topological space_ is a  [[topological space]] such tha
 
 * [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
 
+## Examples
+
+* [[topological manifolds]]
+
 ## Related entries
 
 * [[compact  Hausdorff space]]
@@ -36,5 +40,6 @@ A _paracompact Hausdorff topological space_ is a  [[topological space]] such tha
 
 [[!redirects paracompact Hausdorff spaces]]
 
-
+[[!redirects paracompact Hausdorff topological space]]
+[[!redirects paracompact Hausdorff topological spaces]]
 
