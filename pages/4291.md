@@ -112,7 +112,7 @@ Every [[short exact sequence]] of vector spaces is split.
 ###### Lemma
 
 If in a [[short exact sequence]] $0 \to A \to B \to C \to 0$ 
-in an [[abelian category]] the first object $A$ is an [[injective object]] or the last object is a [[projective object]] then it is split.
+in an [[abelian category]] the first object $A$ is an [[injective object]] or the last object is a [[projective object]] then the sequence  is split  exact.
 
 =--
 
