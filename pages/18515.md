@@ -202,6 +202,8 @@ It is given, up to addition by a smooth function, as the difference between the 
 
 ([Radzikowski 96, above theorem 6.3 with theorem 5.1](#Radzikowski96))
 
+In fact there exist infinitely many Hadamard distributions on any globally hyperbolic spacetime ([Junker-Schrohe 02](#JunkerSchrohe02), [Fulling-Narcowich-Wald 81](#FullingNarcowichWald81)).
+
 ## Examples
 
 ### In Minkowski spacetime
@@ -240,6 +242,18 @@ Review and further deveopments are in
 
 *  {#KM14} [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
 
+See also
+
+* {#JunkerSchrohe02} W. Junker and E. Schrohe: _Adiabatic vacuum states on general spacetime manifolds: Definition, construction, and physical properties_, Annales Poincare Phys. Theor. 3, 1113
+(2002)
+
+* S. A. Fulling, M. Sweeny, [[Robert Wald]], _Singularity Structure Of The Two Point Function In Quantum Field Theory In Curved Space-Time_, Commun. Math.
+Phys. 63, 257 (1978).
+
+* {#FullingNarcowichWald81} S. A. Fulling, F. J. Narcowich, [[Robert Wald]], _Singularity Structure Of The Two Point Function In Quantum Field Theory In Curved Space-Time_, Annals Phys. 136, 243 (1981), 
+
+
+* Marcos Brum, [[Klaus Fredenhagen]], _"Vacuum-like" Hadamard states for quantum fields on curved spacetimes_, Classical and Quantum Gravity, Volume 31, Number 2 ([arXiv:1307.0482](https://arxiv.org/abs/1307.0482))
 
 [[!redirects Hadamard distributions]]
 
