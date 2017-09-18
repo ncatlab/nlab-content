@@ -86,11 +86,11 @@ agrees with the original one. (...)
 ###### Proposition
 **(Peierls bracket is the canonical Poisson bracket in field theory)
 
-Given a [[local Lagrangian field theory]], assume that its [[gauge symmetries]] are globally recognizable ([Khavine 14, section 3.2.2](#Khavine14)). Then the Peierls bracket (def. \ref{PeirlsFormula}) is the [[Poisson bracket]] corresponding to the [[symplectic form]] on the [[reduced phase space|reduced]] [[covariant phase space]].
+Given a [[local Lagrangian field theory]], assume that its [[gauge symmetries]] are globally recognizable ([Khavkine 14, section 3.2.2](#Khavkine14)). Then the Peierls bracket (def. \ref{PeirlsFormula}) is the [[Poisson bracket]] corresponding to the [[symplectic form]] on the [[reduced phase space|reduced]] [[covariant phase space]].
 
 =--
 
-([Khavine 14, theorem 3.2](#Khavine14))
+([Khavkine 14, theorem 3.2](#Khavkine14))
 
 
 ## References
@@ -109,7 +109,7 @@ which is also the first to explicitly check the [[Jacobi identity]] for the Peir
 
 A comprehensice account putting the construction into context with the [[covariant phase space]] construction is in
 
-* {#Khavine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, International Jorunal of Modern Physics A, 2014 ([arXiv.1402.1282](https://arxiv.org/abs/1402.1282))
+* {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, Int. J. Mod. Phys. A, 29, 1430009 (2014) ([arXiv.1402.1282](https://arxiv.org/abs/1402.1282))
 
 The off-shell generalization to a [[Poisson bracket]] on configuration space (history space) was first given in 
 
