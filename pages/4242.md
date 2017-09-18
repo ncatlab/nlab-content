@@ -96,6 +96,11 @@ A summary of these two reviews is in
 
 * H. Lee, _Review of topological field theory and homological mirror symmetry_ ([pdf](http://people.maths.ox.ac.uk/leeh/files/CYMSmini.pdf))
 
+That the B-model [[Lagrangian]] arises in [[AKSZ theory]] by [[gauge fixing]] the [[Poisson sigma-model]] was observed in
+
+* {#AKSZ} M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, around page 28 in _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997
+
+
 For survey of the literature see also 
 
 * [[Kevin H. Lin]], MO comment on _[Matrix factorization and physics](http://mathoverflow.net/a/9748/381), 2009
