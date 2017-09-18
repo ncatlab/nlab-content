@@ -115,6 +115,10 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
     * [[quantum lattice systems]], [[string-localized quantum field]]
 
+    * [[locally covariant perturbative quantum field theory]]
+
+    * [[homotopical algebraic quantum field theory]]
+
   * [[FQFT]]
 
 * [[constructive quantum field theory]]
