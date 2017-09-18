@@ -134,7 +134,14 @@ An important theorem for the physical interpretation of states is [[Fell's theor
 
 ## Related concepts
 
+
 * [[state]], [[quasi-state]]
+
+* [[quasi-free state]]
+
+* [[vacuum state]]
+   
+* [[Hadamard state]]
 
 * [[Alfsen-Shultz theorem]]
 
