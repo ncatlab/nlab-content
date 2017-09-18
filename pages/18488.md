@@ -1,0 +1,40 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_example}
+###### Definition
+
+A _cyclotomic space_ is 
+
+1. a [[topological space]] $X$
+
+1. equipped with a [[continuous function|continuous]] [[circle group]] [[action]]] 
+
+   (hence a [[topological G-space]] for $G = S^1$)
+
+1. for all $n \in \mathbb{N}$ compatible [[weak homotopy equivalence]]
+
+   $$
+     X^{C_n} \overset{\simeq}{\longrightarrow} X
+   $$
+
+   from the [[homotopy fixed point]] space of the induced [[cyclic group]] action $C_p \coloneqq \mathbb{Z}/n\mathbb{Z}$, 
+
+   which are $S^1$-equivariant, for $X^{C_p}$ equipped with the residual $S^1 \simeq S^1/C_p$-action.
+
+
+=--
+
+([AGHL 12, def. 3.6](#AGHL12))
+
+## Related concepts
+
+* [[cyclotomic spectrum]]
+
+## References
+
+* {#AGHL12} [[Vigleik Angeltveit]], [[Teena Gerhardt]], [[Michael Hill]], Ayelet Lindenstrauss, _On the algebraic K-theory of truncated polynomial algebras in several variables_ ([arXiv:1206.0247](https://arxiv.org/abs/1206.0247))
