@@ -1,3 +1,5 @@
+*This page is about the programming language.  $Eff$ is also a commonly used name for the [[effective topos]].*
+
 #Contents#
 * table of contents
 {:toc}
