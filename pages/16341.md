@@ -33,6 +33,21 @@ and the **left and right unit laws**:
 
 Here $\alpha$ is the [[associator]] in $C$, while $\lambda$ and $\rho$ are the left and right [[unitor|unitors]].
 
+## Morphism of monoids
+
+The analogue of a monoid homomorphism, called a morphism of monoids, is a morphism, $\f: M \to M'$  between two monoid objects, satisfying the equations;
+
+
+$f \circ \mu = \mu' \circ (f \otimes f)$
+
+$f \circ \eta = \eta'$
+
+corresponding to the commutative diagrams;
+
+![A pic](https://upload.wikimedia.org/wikipedia/commons/0/07/Category_monoids_mu.svg)
+
+![A pic](https://upload.wikimedia.org/wikipedia/commons/c/cd/Category_monoids_eta.svg)
+
 ## As categories with one object
 
 Just as the category of regular [[monoid|monoids]] is equivalent to the category of locally small (i.e. Set-enriched) categories with one object, the category of monoids in $C$ (with the obvious morphisms) is equivalent to the category of $C$-[[enriched category|enriched categories]] with one object.
