@@ -196,6 +196,11 @@ A survey of the use of effect algebras in [[quantum mechanics]] is in
 
 * Hans de Groote, _On a canonical lattice structure on the effect algebra of a von Neumann algebra_ [arXiv:0410018](http://arxiv.org/abs/math-ph/0410018){#DeGroote}
 
+Discussion in relation to [[presheaves]] on [[FinSet]]${}^{op}$ (hence in the [[classifying topos]] for objects) is in
+
+* Sam Staton, Sander Uijlen, _Effect algebras, presheaves, non-locality and contextuality_ ([pdf](http://www.cs.ru.nl/S.Uijlen/ICALP-camera-ready.pdf))
+
+
 [[!redirects effect]]
 [[!redirects effects]]
 
