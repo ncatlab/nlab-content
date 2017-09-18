@@ -13,10 +13,10 @@ The zeta polynomial of $[2] = \{ 0 \lt 1 \lt 2 \}$ is
 $$3 + 3n + \binom{n}{2} = \frac{n^2 + 5n + 6}{2}$$
 For example, evaluating the polynomial at $n=0$ and $n=1$ confirms that $[2]$ contains 3 points and 6 intervals, while evaluating it at $n=2$ confirms that there are 10 order-preserving functions from $[2]$ to itself.
 
-The zeta polynomial of the 3-element poset
-$$P = \array{&&c&& \\ &\nearrow& &\nwarrow& \\ a &&&& b}$$
-is $2n + 3$.
-Evaluating at $n=1$, we compute that $P$ contains 5 distinct intervals.
+The zeta polynomial of the 5-element poset
+$$P = \array{&&v&& \\ &&\uparrow&& \\ &&u&& \\ &\nearrow& &\nwarrow& \\ y &&&& z \\ &\nwarrow& &\nearrow& \\ &&x&&}$$
+is $5 + 9n + 7\binom{n}{2} + 2\binom{n}{3} = \frac{2n^3 + 15n^2 + 37n + 30}{6}$.
+Evaluating at $n=1$, we compute that $P$ contains 14 distinct intervals.
 
 ## Properties
 
