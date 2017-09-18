@@ -523,6 +523,8 @@ A famous example of this is the [[topological twist|topologically twisted]][[2d 
 
 ## Related concepts
 
+* [[Wick algebra]]
+
 * [[Gaussian probability distribution]], [[Gaussian integral]]
 
 * [[Wick's lemma]]
@@ -551,3 +553,7 @@ Discussion on Euclidean manifolds and in terms of [[BV-formalism]] is in
 
 [[!redirects free field]]
 [[!redirects free fields]]
+
+
+[[!redirects free quantum field theory]]
+[[!redirects free quantum field theories]]
