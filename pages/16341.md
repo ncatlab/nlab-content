@@ -52,6 +52,10 @@ corresponding to the commutative diagrams;
 
 Just as the category of regular [[monoid|monoids]] is equivalent to the category of locally small (i.e. Set-enriched) categories with one object, the category of monoids in $C$ (with the obvious morphisms) is equivalent to the category of $C$-[[enriched category|enriched categories]] with one object.
 
+## Examples
+
+A monoid in a [[category of modules]] is an [[associative unital algebra]].
+
 ## Related concepts
 
 * [[monoid]]
