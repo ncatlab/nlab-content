@@ -1199,7 +1199,7 @@ The non-vanishing dg-Lie brackets on this complex are defined to be
 
 * $[v_1 + \overline{\alpha}_1, v_2 + \overline{\alpha}_2] \coloneqq [v_1, v_2] + \mathcal{L}_{v_1}\overline{\alpha}_2 - \mathcal{L}_{v_2}\overline{\alpha}_1$
 
-* $[v+ \overline{\theta}, \overline{\eta}] = - [\eta, v + \overline{\theta}] = \mathcal{L}_v \overline{\eta}$.
+* $[v+ \overline{\alpha}, \overline{\eta}] = - [\overline{\eta}, v + \overline{\alpha}] = \mathcal{L}_v \overline{\eta}$.
 
 =--
 
