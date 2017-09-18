@@ -49,6 +49,13 @@ Moreover, the description of the [[supergravity C-field]] (in the physics litera
 
 [[!include F-theory compactifications -- table]]
 
+* [[M-theory on G2-manifolds]]
+
+* [[M-theory on Calabi-Yau manifolds]]
+
+  * [[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]
+
+
 ## References
 
 Reviews of the general setup include
