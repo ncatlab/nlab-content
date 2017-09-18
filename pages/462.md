@@ -88,7 +88,7 @@ A particularly interesting application of items 1) and 2) above is to the case w
 
 $$
   X \stackrel{Id \times Id}{\to}
-  X
+  X \times X
   \stackrel{Id \times Id}{\leftarrow}
   X
   \,.
