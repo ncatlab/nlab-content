@@ -1,36 +1,16 @@
-+-- {: .num_defn #ClosedMonoidalCategory}
-###### Definition
-
-Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $Y \in \mathcal{C}$ the functor $Y \otimes(-)\simeq (-)\otimes X$ has a [[right adjoint]], denoted $[Y,-]$
-
 $$
-  \mathcal{C}
-    \underoverset
-      {\underset{[Y,-]}{\longrightarrow}}
-      {\overset{(-) \otimes Y}{\longleftarrow}}
-      {\bot}
-  \mathcal{C}
-  \,,
+  \begin{aligned}
+    (F_n^{Orth} K)(\mathbb{R}^q)
+    & \simeq
+    \overset{n_1 \in Orth}{\int}
+     \underset{= \left\{ \array{ O(q)_+ & if \, n_1+n = q \\ \ast & otherwise} \right.}{\underbrace{Orth(n_1 + n,q)}} 
+       \wedge 
+     S^{n_1} 
+       \wedge 
+     K
+    \\
+    & \simeq
+    \overset{n_1 = \ast \in \mathbf{B}(O(q-n))}{\int}
+    O(q)_+ \underset{O(q-n)}{\wedge} S^{q-n} \wedge K
+  \end{aligned}
 $$
-
-hence if there are [[natural isomorphisms]]
-
-$$
-  Hom_{\mathcal{C}}(X \otimes Y, Z)
-   \;\simeq\;
-  Hom_{\mathcal{C}}{C}(X, [Y,Z])
-$$
-
-for all objects $X,Z \in \mathcal{C}$. 
-
-Since for the case that $X = 1$ is the [[tensor unit]] of $\mathcal{C}$ this means that
-
-$$
-  Hom_{\mathcal{C}}(1,[Y,Z]) \simeq Hom_{\mathcal{C}}(Y,Z)
-  \,,
-$$
-
-the object $[Y,Z] \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]] $Hom_{\mathcal{C}}(Y,Z)$ to an object in $\mathcal{C}$.
-Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$. 
-
-=--
