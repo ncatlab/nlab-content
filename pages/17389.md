@@ -31,7 +31,7 @@ For one textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#Fr
 Let $X_n$ denote the $n^{th}$ skeleton of $X$. We argue by [[induction]] that each skeleton is a paracompactum. Vacuously $X_{-1} = \emptyset$ is a paracompactum. Now suppose $X_{n-1}$ is a paracompactum, and suppose $X_n$ is formed as an [[attachment space]] with attaching map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, so that 
 
 $$\array{
-\sum_{i \in I} S_i^{n-1} & \stackrel{h}{\hookrightarrow} & \sum_{i \in I} D_i^{n-1} \\ 
+\sum_{i \in I} S_i^{n-1} & \stackrel{h}{\hookrightarrow} & \sum_{i \in I} D_i^{n} \\ 
 \mathllap{f} \downarrow & po & \downarrow \mathrlap{g} \\ 
 X_{n-1} & \underset{k}{\hookrightarrow} & X_n
 }$$ 
