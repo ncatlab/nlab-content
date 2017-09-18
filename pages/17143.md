@@ -450,9 +450,11 @@ $$
   }
 $$
 
-commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. But this is the statement of prop. \ref{ThomClassesCFClass}: the Chern classes are universal Thom classes.
+commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. But this is the statement of prop. \ref{ThomClassesCFClass}: the Chern classes are universal Thom classes. 
 
-The respect for the product demands that the square
+Hence componentwise all these triangles commute up to some homotopy. Now we invoke the [[Milnor sequence]] for generalized cohomology of spectra ([prop.](lim^1+and+Milnor+sequences#CohomologyOfSpectraMilnorSequence)) Observe that the [[tower]] of abelian groups $n \mapsto E^{n_1}(S^n)$ is actually constant ([[suspension isomorphism]]) hence trivially satisfies the [[Mittag-Leffler condition]] and so a homotopy of morphisms of spectra $\mathbb{S} \to E$ exists as soon as there are componentwise homotopies ([cor.](lim^1+and+Milnor+sequences#WithSomeLefflerTheHomsOfSpectraAreHomotopicIfComponentsAre)).
+
+Next, the respect for the product demands that the square
 
 $$
   \array{
@@ -472,7 +474,7 @@ $$
 
 commutes in the [[stable homotopy category]] $Ho(Spectra)$. In order to rephrase this as a condition on the components of the ring spectra, regard this as happening in the [[homotopy category of a model category|homotopy category]] $Ho(OrthSpec(Top_{cg}))_{stable}$ of the [[model structure on orthogonal spectra]], which is [[equivalence of categories|equivalent]] to the [[stable homotopy category]]  ([thm.](Introduction+to+Stable+homotopy+theory+--+1-2#SequentialSpectraQuillenEquivalence)).
 
-Here the derived [[symmetric monoidal smash product of spectra]] is given by [[Day convolution]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#SsymModuleSymmetricSpectra)) and maps out of such a product are equivalently as in the above diagram is equivalent ([cor](Introduction+to+Stable+homotopy+theory+--+1-2#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) to a suitably equivariant collection diagrams of the form
+Here the derived [[symmetric monoidal smash product of spectra]] is given by [[Day convolution]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#SsymModuleSymmetricSpectra)) and maps out of such a product are equivalently as in the above diagram is equivalent ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) to a suitably equivariant collection diagrams of the form
 
 $$
   \array{
@@ -485,7 +487,7 @@ $$
     \downarrow
     \\
     M U_{2(n_1 + n_2)}
-      &\underset{c_{n_1 + n_2}}{\longrightarrow}&
+      &\underset{c_{(n_1 + n_2)}}{\longrightarrow}&
    E_{2 (n_1 + n_2)}
   }
   \,,
@@ -494,6 +496,8 @@ $$
 where on the left we have the standard pairing operations for $M U$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#OrthogonalComplexThomSpectrum)) and on the right we have the given pairing on $E$.
 
 That this indeed commutes up to homotopy is the Whitney sum formula for Chern classes ([prop.](Chern+class#WhitneySumChernClasses)).
+
+Hence again we have componentwise homotopies. And again the relevant [[Mittag-Leffler condition]] on $n \mapsto E^{n-1}((MU \wedge MU)_n)$-holds, by the nature of the universal [[Conner-Floyd classes]] ([prop.](Conner-Floyd+Chern+class#ConnerFloyedClasses)). Therefore these componentwise homotopies imply the required homotopy of morphisms of spectra ([cor.](lim^1+and+Milnor+sequences#WithSomeLefflerTheHomsOfSpectraAreHomotopicIfComponentsAre)).
 
 =--
 
