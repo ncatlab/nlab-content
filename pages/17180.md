@@ -514,10 +514,10 @@ where, by ([Lydakis 98, prop. 3.23](#Lydakis98)),  $\wedge_\ast$ is the [[left a
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #SmashProductCompatibleWithTheOneOnSpectra}
 ###### Proposition
 
-Under the Quillen equivalence of prop. \ref{QuillenEquivalenceBetweenSequentialSpectraAndExcisiveFunctors} the symmetric monoidal [[Day convolution product]] on excisive simplicial functors (prop. \ref{LydakisTensorProductIsDayConvolution}) is identified with the [[smash product of spectra]].
+Under the Quillen equivalence of prop. \ref{QuillenEquivalenceBetweenSequentialSpectraAndExcisiveFunctors} the symmetric monoidal [[Day convolution product]] on excisive simplicial functors (prop. \ref{LydakisTensorProductIsDayConvolution}) is identified with the proper [[smash product of spectra]] realized on sequential spectra by the [standard formula](sequential+spectrum#SmashProductByDoublingDegrees).
 
 =--
 
