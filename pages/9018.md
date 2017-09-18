@@ -60,7 +60,7 @@ The [[KK-compactification]] of vaccuum [[11-dimensional supergravity]] on a _[[s
 
 But when $Y$ is a $G_2$-[[orbifold]] then:
 
-1. at an [[ADE classification|ADE orbifold]] singularity the gauge group becomes nonabelian ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07));
+1. at an [[ADE singularity]] the [[gauge group]] becomes [[nonabelian group|nonabelian]] ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07));
 
 1. at a [[conifold singularity]] [[chiral fermions]] appear ([Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)).
 
