@@ -11,7 +11,19 @@ Consider the 24-element set $X = \{1,\ldots,24\}$, and the free vector space on 
 The automorphism group of the binary Golay code is the [[Mathieu group]] $M_{24}$, and the other Mathieu group are obtained as stabilisers of various sets in the Golay code. There is a unique central extension of the binary Golay code by $\mathbb{Z}/2$ which is not a group but a [[code loop]], and can be used to construct the [[Monster group]].
 
 
-## Related concepts
+## Related entries
+
+* [[coding theory]]
+
+* [[binary linear code]]
 
 * [[Mathieu group]]
+
+* [[combinatorial design]]
+
+* [[Leech lattice]]
+
+* [[adinkra]] 
+
+
 
