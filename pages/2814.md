@@ -55,9 +55,9 @@ satisfying the following conditions
 
   $$
     \array{
-      I_D  \otimes F(x) &\stackrel{l_{F(x)}}{\leftarrow}& F(x)
+      I_D  \otimes F(x) &\stackrel{\lambda^{-1}_{F(x)}}{\leftarrow}& F(x)
       \\
-      {}^{\mathllap{\epsilon \otimes Id}}\downarrow && \downarrow^{\mathrlap{F(l_x)}}
+      {}^{\mathllap{\epsilon \otimes Id}}\downarrow && \downarrow^{\mathrlap{F(\lambda^{-1}_x)}}
       \\
       F(I_C) \otimes F(x)
       &\stackrel{\mu_{I,x}}{\to}& F(I_C \otimes x)
@@ -68,14 +68,16 @@ satisfying the following conditions
 
   $$
     \array{
-      F(x) \otimes I_D &\stackrel{r_{F(x)}}{\leftarrow}& F(x)
+      F(x) \otimes I_D &\stackrel{\rho^{-1}_{F(x)}}{\leftarrow}& F(x)
       \\
-      {}^{\mathllap{Id \otimes \epsilon }}\downarrow && \downarrow^{\mathrlap{F(r_x)}}
+      {}^{\mathllap{Id \otimes \epsilon }}\downarrow && \downarrow^{\mathrlap{F(\rho^{-1}_x)}}
       \\
       F(x) \otimes F(I_C)
       &\stackrel{\mu_{x,I}}{\to}& F(x \otimes I_C)
     }
   $$
+
+Where $\lambda$ and $\rho$ are respectively the left and right [[unitor]]s.  We do not explicitly mention the category in which they live, as it is clear from where the subscripted object lives.
 
 Lax monoidal functors are the [[lax morphism]] for an appropriate [[2-monad]].
 
