@@ -70,8 +70,6 @@ form the accessible [[equational hull]] of the bicategory
 of [[varieties of algebras]] and continuous functors
 that preserve sifted colimits.
 
-Generally speaking, small colimits do not distribute over finite products.
-
 ## For more general types of limits than products
 
 Even more generally, one can prove
