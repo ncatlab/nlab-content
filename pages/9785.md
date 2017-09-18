@@ -149,7 +149,7 @@ with amplification in
   
 Discussion of a formulation in terms of [[octonions]] (see also at _[[division algebra and supersymmetry]]_) includes
 
-* A. Anastasiou, L. Borsten, [[Michael Duff]], L. J. Hughes, S. Nagy, _An octonionic formulation of the M-theory algebra_ ([arXiv:1402.4649](http://arxiv.org/abs/1402.4649))
+* A. Anastasiou, [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _An octonionic formulation of the M-theory algebra_ ([arXiv:1402.4649](http://arxiv.org/abs/1402.4649))
 
 Arguments that the charges of the M-theory super Lie algebra may be identified inside [[E11]] are given in 
 
