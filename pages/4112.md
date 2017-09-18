@@ -16,7 +16,7 @@
 
 ## Idea
 
-Cantor space, named after [[Georg Cantor]], is a famous [[space]].  Cantor studied it primarily as a [[subspace]] of the [[real line]], but it is also important as a space in its own right.
+Cantor space, named after [[Georg Cantor]], is a famous [[topological space]].  Cantor studied it primarily as a [[subspace]] of the [[real line]], but it is also important as a space in its own right.
 
 
 ## Definition
@@ -102,6 +102,14 @@ $\widebar{X}$ is also second-countable, compact Hausdorff and therefore compact 
 =-- 
 
 It follows from this result that all such spaces $X$ are homeomorphic: they all have Cantor space as their one-point compactifications, and so they are all homeomorphic to the space obtained obtained by removing a single point from Cantor space. This applies for example to spaces obtained by removing a finite number $n \geq 1$ of points from Cantor space. 
+
+## Related concepts
+
+* [[Sierpinski space]]
+
+* [[long line]], [[Warsaw circle]],
+
+* [[line with two origins]]
 
 [[!redirects Cantor space]]
 [[!redirects Cantor set]]
