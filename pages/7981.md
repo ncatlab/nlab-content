@@ -5,7 +5,7 @@
 
 ## Idea
 
-In [[physics]], recall that a [[state]] of a [[physical system]] is (in the Bayesian interpretation) a specification of the information that one might have about the system (typically relative to some fixed background information).  States form (at least) a [[poset]] where $\psi \leq \phi$ means that $\phi$ contains all of the information of $\psi$ (and possibly more).  A __pure state__ is a [[maximal element]] of this poset: a state that specifies as much information as possible about the system.  A __mixed state__ is a state that is not pure.
+In [[physics]], recall that a [[state]] of a [[physical system]] is (in the [[Bayesian interpretation of quantum mechanics|Bayesian interpretation]]) a specification of the information that one might have about the system (typically relative to some fixed background information).  States form (at least) a [[poset]] where $\psi \leq \phi$ means that $\phi$ contains all of the information of $\psi$ (and possibly more).  A __pure state__ is a [[maximal element]] of this poset: a state that specifies as much information as possible about the system.  A __mixed state__ is a state that is not pure.
 
 
 ## Definitions
