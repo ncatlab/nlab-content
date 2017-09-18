@@ -1,17 +1,15 @@
++-- {: .num_prop}
+###### Proposition
+
+For $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via prop. \ref{KenBrownLemma}, form a pair of [[adjoint functors]]
 
 $$
-  \mathbb{S}_{Seq}FreeMod(F(k_2),F(k_1))
-  \simeq
-  F(k_1)_{k_2} 
-  \simeq
-  \left\{
-    \array{
-      S^{k_2-k_1} & for \; k_2 \geq k_1
-      \\
-      \ast & otherwise
-    }
-  \right.
+  Ho(\mathcal{C})
+    \stackrel{\overset{\mathbb{L}L}{\longleftarrow}}{\underoverset{\mathbb{R}R}{\bot}{\longrightarrow}}
+  Ho(\mathcal{D})
   \,.
 $$
 
-$x^y$
+=--
+
+([Quillen 67, I.4 theorem 3](#Quillen67))
