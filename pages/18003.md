@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Supergeometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,7 +24,7 @@ In [[physics]] one says "superfield" when referring to a [[field (physics)]] in 
 
 Technically, given a [[supermanifold]] $X$ ("[[superspace]]"), then the superspace of _superfields_ is the [[internal hom]] $\underline{Hom}(X,\mathbb{R})$ or $\underline{Hom}(X,\mathbb{C})$ of real or complex valued functions on $X$.
 
-See at _[[geometry of physics -- supergeometry]]_ for more
+See at _[[geometry of physics -- supergeometry]]_ [this example](geometry+of+physics+--+supergeometry#Superfields).
 
 ## Related concepts
 
