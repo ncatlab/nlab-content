@@ -116,6 +116,8 @@ vector fields and flows)
 
 ## Related concepts
 
+* [[integrand]]
+
 * [[Lebesgue integration]]
 
 * [[Lebesgue space]]
