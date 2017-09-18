@@ -100,6 +100,8 @@ Divided into two parts:
 
 1. [Geometric quantization](#GeometricQuantization)
 
+   1. [Geometric quantization with KU-coefficients](#GeometricQuantizationWithKUCoefficients)
+
 =--
 
 
@@ -1200,6 +1202,7 @@ $$
     \omega \in \Omega^1(U,\mathfrak{g}) |
     F_\omega = \mathbf{d} \omega + [\omega, \omega] = 0
   \right\}
+
   \,.
 $$
 
@@ -2048,6 +2051,7 @@ $$
 #### Differential-form curvatures
 
 
+
 $$
   \array{
      \mathbf{B}^n \mathbb{G} &\to& \Omega^{n+1}_{cl}(-)
@@ -2531,6 +2535,7 @@ $$
   \omega = f \mathbf{d} x^1 \wedge \mathbf{d} x^2 \wedge \cdots \wedge \mathbf{d} x^n
   \,.
 $$
+
 
 Let $Partitions(C^k)$ be the [[poset]] whose elements are partitions of the unit $n$cube $C^n$ into $N^n$ subcubes, for $N \in \mathbb{N}$, ordered by inclusion. 
 
@@ -4756,6 +4761,11 @@ This section is at _[[geometry of physics -- quantum mechanics]]_
 #### 1-Geometric quantization
 
 * [[geometric quantization]]
+
+#### Geometric quantization with KU-coefficients
+ {#GeometricQuantizationWithKUCoefficients}
+
+this is at _[[geometric quantization with KU-coefficients]]_
 
 #### Quantum 3d Chern-Simons theory for compact simple gauge group
 
