@@ -56,9 +56,13 @@ Conversely, generally the [[topological closure]] of every singleton is irreduci
 
 * [[a CW-complex is a Hausdorff space]]
 
+* [[map from compact space to Hausdorff space]]
+
+* [[closed subsets of compact spaces are compact]]
+
 * [[compact subspaces of Hausdorff spaces are closed]]
 
-* [[map from compact space to Hausdorff space]]
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 
 ## References
