@@ -48,4 +48,8 @@ This entry collects material related to
 
 #### VIII
 
+## Related entries
+
+* _[[Grundlage der gesamten Wissenschaftslehre]]_
+
 category: reference
