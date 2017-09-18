@@ -298,7 +298,7 @@ which encode the idea of substituting an $n$-ary operation into the $i-th$ argum
 For example, this notion of composition allows the consideration of [[non-unital operad]]s without identity operations (called "pseudo-operads" by [(Markl, Shnider, and Stasheff)](#MarklShniderStasheff)).
 On the other hand, in the presence of identity operations, the two forms of operadic composition are mutually definable (see Chapter 2 of [(Fresse, HOGTG I)](#FresseHOGTG)).
 
-* Finally, some authors restrict the definition of "operad" to only allow operations of positive arity [(Markl, Shnider, and Stasheff)](#MarklShniderStasheff), while others give such operads a special status: Fresse refers to operads with no nullary operations as **non-unitary operads** (see 3.1.10 of [(Fresse 2009)](#FresseMOF) and 1.1.19 [(Fresse, HOGTG I)](#FresseHOGTG)), while Berger and Moerdijk call these "reduced operads" [(Berger and Moerdijk 2003)](https://arxiv.org/abs/math/0206094).
+* Finally, some authors restrict the definition of "operad" to only allow operations of positive arity [(Markl, Shnider, and Stasheff)](#MarklShniderStasheff), while others give such operads a special status: Fresse refers to operads with no nullary operations as **non-unitary operads** (see 3.1.10 of [(Fresse 2009)](#FresseMOF) and 1.1.19 [(Fresse, HOGTG I)](#FresseHOGTG)).
 Certainly, non-unitary operads (which have no nullary operations) should not be confused with non-unital operads (which have no identity operation).
 However, observe that the original definition of the [[associahedron|associahedral operad]] due to [[James D. Stasheff|Stasheff]] is an example of an operad which is _both_ non-unital and non-unitary.
 
