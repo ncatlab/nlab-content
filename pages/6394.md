@@ -5,4 +5,8 @@
 
 * [[spinning string]]
 
+* [[supergravity torsion constraints]]
+
 category: people
+
+[[!redirects P. S. Howe]]
