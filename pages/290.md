@@ -163,7 +163,10 @@ The early history of the subject is outlined in
 
 * [Scharf 95, section 0.0](#Scharf95)
 
-A short introduction to different aspects of QFT usually covered in a first course is this:
+
+Introductions include
+
+* [[Arnold Neumaier]], chapter B of _[Theoretical Physics FAQ](http://www.mat.univie.ac.at/~neum/physfaq/physics-faq.html)_
 
 * Gerald B. Folland, _Quantum field theory: A tourist guide for mathematicians_, Math. Surveys and Monographs __149__ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81003&format=complete))
 
@@ -172,6 +175,8 @@ A short introduction to different aspects of QFT usually covered in a first cour
 A standard textbook written from the perspective of [[effective field theory]] is
 
 * {#Weinberg95} [[Steven Weinberg]] _The Quantum Theory of Fields_, Cambridge University Press (1995)
+
+
 
 An extensive compilation of material on QFT aiming for mathematical precision is
 
