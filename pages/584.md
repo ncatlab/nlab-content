@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -48,11 +50,7 @@ The $(\infinity,n)$-category of cobordisms is the subject of the [[cobordism hyp
 ### As an $n$-fold complete Segal space
 
 Here is an outline of the idea of the definition of 
-$Bord_{(\infty,n)}$ as given in 
-
-*  [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ .
-
-where the main point, apart from the [[(∞,n)-category]] machinery in the background, is definition 2.2.9.
+$Bord_{(\infty,n)}$ as given in ([Lurie](#LurieQFT)) where the main point, apart from the [[(∞,n)-category]] machinery in the background, is definition 2.2.9.
 
 The idea is to start with thinking of $n$-dimensional cobordisms as forming something like an [[n-fold category]] by simply saying that the collection of composites of cobordisms is given by big cobordisms with markings on them, indicating where we think of them as being composed.
 
@@ -106,6 +104,23 @@ This, then, is a model for the [[(∞,n)-category]] of extended $n$-dimensional 
 
 There is a definition of a [[blob n-category]] of $n$-cobordisms. See there for more details.
 
+## Examples
+
+### $Bord_2^{fr}$
+ {#Framed2Bordisms}
+
+Some comments on 2-[[framed manifold|framed]] 2-cobordisms.
+
+Consider the pictures in ([Schommer-Pries 13, figure 5](#SchommerPries13)).
+
+> Somebody should produce pictures like this here...
+
+Let $\gamma$ be a 1-dimensional manifold of the form of the interval $[0,1]$. A 2-[[framing]] of $\gamma$ is a trivialization of $T\gamma \oplus \mathbb{R}$. Let $\{1\} \subset \mathbb{R}$ be the canonical [[basis]] of $\mathbb{R}$. If we think of the plane $\mathbb{R}^2$ as equipped with its canonical 2-framing, then a 2-framing of $\gamma$ is induced by embedding $\gamma$ into the plane and shading one of its two sides. This identifies at each point  $x \in \gamma$ the tangent space to $\gamma$ at that point with the tangent vector to the embedding of $\gamma$ as a vector in $\mathbb{R}^2$ and identifies $1\in \mathbb{R}$ with the vector in $\mathbb{R}^2$ orthogonal to this tangent vector and pointing into the shaded region.
+
+This shows that if $\gamma$ is regarded with its two endpoints both as incoming or both as outgoing, then the induced 2-framing of these endpoints is opposite to each other. This way such an arc is a morphism from the union of the "positive point" and the "negative point" to the empty 0-manifold, hence is a unit/counit exhibiting these as [[dual objects]].
+
+
+
 
 ## Properties 
  {#Properties}
@@ -148,7 +163,7 @@ to some symmetric monoidal $\infty$-groupoid $S$ is a [[genus]].
 
 A specific realization of this idea in terms of [[(∞,n)-category]] modeled as [[n-fold complete Segal space]] is in (definition 2.2.9, page 36)
 
-*  [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ .
+*  {#LurieQFT} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ .
 
 * [[Jacob Lurie]], [Video Stream](http://www.youtube.com/watch?v=Bo8GNfN-Xn4)
 
@@ -160,6 +175,9 @@ In that article a proof of the [[cobordism hypothesis]] is indicated. A review i
 A detailed construction of the [[(n,r)-category|(2,2)-category]] of 2-dimensional cobordisms is
 
 * [[Chris Schommer-Pries]], [[2-category of 2-dimensional cobordisms]] .
+
+* {#SchommerPries13} [[Chris Schommer-Pries]], _Dualizability in Low-Dimensional Higher Category Theory_ ([arXiv:1308.3574](http://arxiv.org/abs/1308.3574))
+
 
 For a discussion of the relation of $Bord_{(\infty,\infty)}$ to the [[Thom spectrum]] and the [[cobordism ring]] see also
 
