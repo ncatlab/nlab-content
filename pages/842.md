@@ -891,6 +891,7 @@ A detailed account is in [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
  {#Lurie}
 
+* [[Denis-Charles Cisinski]], _Do homotopy limits compute limits in the associated quasicategory in the non-combinatorial model category case?_, [MO/176111/176142](http://mathoverflow.net/questions/176111/do-homotopy-limits-compute-limits-in-the-associated-quasicategory-in-the-non-com/176142#176142).
 
 ### In homotopy type theory
 
