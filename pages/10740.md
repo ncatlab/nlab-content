@@ -27,7 +27,7 @@ A theorem due to ([Adams 60](#Adams60)) says that these correspond precisely to 
 
 [[!include exceptional spinors and division algebras -- table]]
 
-* [[Kervaire invariant one]]
+* [[Arf-Kervaire invariant problem]]
 
 ## References
 
