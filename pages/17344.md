@@ -3846,7 +3846,165 @@ Hence the $\eta$-naturality square of $f$ is the retract of a homotopy pullback 
 ##### Proof of the stable model structure
  {#ProofOfTheStableModelStructure}
 
-We show now that the operation of [[Omega-spectrification]] from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad}. Via the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}). This establishes a stable model structure on topological sequential spectra.
+We show now that the operation of [[Omega-spectrification]] from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad}. Via the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}) this establishes a stable model structure on topological sequential spectra.
+
++-- {: .num_lemma #OmegaSpectrificationOfSequentiaSpectraPreservesHomotopyPullback}
+###### Lemma
+
+The [[Omega-spectrification]] $(Q,j)$ from def. \ref{SpectrificationForTopologicalSequentialSpectra}  preserves [[homotopy pullbacks]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) in the strict model structure $SeqSpec(Top_{cg})_{strict}$ from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+
+=--
+
+([Schwede 97, lemma 2.1.3 (e)](#Schwede97))
+
++-- {: .proof}
+###### Proof
+
+Since, by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, $Q$ preserves weak equivalences, it is sufficient to show that every square in $SeqSpec(Top_{cg})$ of the form
+
+$$
+  \array{
+    B \underset{Y}{\times} X
+     &\longrightarrow&
+    X
+    \\
+    \downarrow && \downarrow^{\mathrlap{\in Fib}}
+    \\
+    B &\longrightarrow& Y
+  }
+$$
+
+is taken by $Q$ to a homotopy pullback square. By prop. \ref{LimitsAndColimitsOfSequentialSpectra} we need to check that this is the case for the $k$th component spaces of the sequential spectra in the diagram, for all $k \in \mathbb{N}$.  
+
+Let $Z^X_{i,k}$, $Z^Y_{i,k}$ etc. denote the objects appearing in the definition of $Q X$, $Q Y$, etc. (def. \ref{SpectrificationForTopologicalSequentialSpectra}). 
+
+
+Use the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) for the set $J_{(Top^{\ast/})}$ of acylic generating cofibrations in $Top^{\ast/}_{cg}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) to construct a [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)) through acyclic relative cell complex inclusions in each degree
+
+$$
+  Z^X_{i,k}
+   \overset{\in J_{Top} Cell}{\longrightarrow}
+  W_\bullet
+    \overset{\in Fib_{cl}}{\longrightarrow}
+  Z^Y_{\bullet,k}
+  \,.
+$$
+
+Notice that by construction $Z^K_{\bullet,k}$ and $Z^Y_{\bullet,k}$ are sequences of [[relative cell complexes]]. This implies by the way the [[small object argument]] works and the commutativity of each
+
+$$
+  \array{
+    Z^X_{i,k} 
+     &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
+    W_i
+    \\
+    {}_{\mathllap{\in I_{(Top^{\ast/})}Cell }}\downarrow 
+     && 
+    \downarrow
+    \\
+    Z^X_{i+1,k} 
+     &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
+    W_{i+1}
+  }
+$$
+
+that also $W_\bullet$ is a sequence of relative cell complex inclusions.
+
+Therefore, forming the colimit over these sequences sends the degreewise Serre fibration to a Serre fibration ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PropertiesOfColimitOverSequencesOfRelativeCellComplexes)) (because we may test for a [[Serre fibration]] by lifting against morphisms with [[compact topological space|compact]] domain and codomain, and these may be taken inside the colimit over relative cell complex inclusions (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes))) and so we have a [[Serre fibration]]
+
+$$
+  \underset{\longrightarrow}{\lim}_i W_i
+   \overset{\in W_{cl}}{\longrightarrow}
+  (Q Y)_k
+$$
+
+for each $k \in \mathbb{N}$. 
+
+Consider then the commuting diagrams
+
+$$
+  \array{
+     Z^B_{i,k} 
+       &\longrightarrow& 
+     Z^Y_{i,k} 
+       &\overset{\in Fib_{cl}}{\longleftarrow}&
+     W_i 
+       &\overset{\in W_{cl}\in Cof_{cl}}{\longleftarrow}& 
+     Z^X_{i,k}
+     \\
+      \downarrow^{\mathrlap{\in W_{cl}}}
+      &&
+      \downarrow^{\mathrlap{\in W_{cl}}}
+      &&
+      &_{\mathllap{\in W_{cl}}}\searrow&
+      \downarrow^{\mathrlap{\in W_{cl}}}
+      \\
+      \Omega^i B_{k+i}
+       &\longrightarrow&
+      \Omega^i Y_{k+i}
+        &\longleftarrow&
+        &\underset{\in Fib_{cl}}{\longleftarrow}&
+      \Omega^i X_{k+i}
+  }
+$$
+
+where the diagonal is a chosen lift, which is a weak equivalence by [[two-out-of-three]]. This way we have exhibited a weak equivalence of [[cospan]]-diagram with right leg a fibration. Therefore, since forming the [[limit]] over these cospan diagrams is a [[homotopy pullback]] (all objects here being fibrant), this induces a weak equivalence on these limits ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackPreservesWeakEquivalencesOfSpans))
+
+$$
+  Z^B_{i,k}
+  \underset{Z^Y_{i,k}}{\times}
+  W_i
+   \overset{\in W_{cl}}{\longrightarrow}
+  \Omega^i B_{k+i} \underset{\Omega^i Y_{k+i}}{\times} \Omega^i X_{k+i}
+   \simeq
+  \Omega^i (
+     B_{k+i} \underset{Y_{k+i}}{\times} X_{k+i}
+   )
+  \,.
+$$
+
+By universality of the pullback there is a commuting triangle
+
+$$
+  \array{
+     Z^{B\times_Y X}_{i,k}
+     && \longrightarrow &&
+      Z^B_{i,k} \underset{Z^Y_{i,k}}{\times}
+     W_i
+     \\
+     & {}_{\mathllap{\in W_{cl}}}\searrow && \swarrow_{\mathrlap{\in W_{cl}}}
+     \\
+     && 
+     \Omega^i(
+       B_{i+k}\underset{Y_{i+k}}{\times} X_{i+k}
+     )
+}
+$$
+
+and hence by [[two-out-of-three]] also the top morphism is a weak equivalence.
+
+Finally, since colimits over sequences of relative cell inclusions preserve finite limits up to weak equivalence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PropertiesOfColimitOverSequencesOfRelativeCellComplexes)) this implies that we have a weak equivalence of the form
+
+$$
+  (Q(B \underset{Y}{\times} X))_k
+  =
+  \underset{\longrightarrow}{\lim}_i Z^{B \times_Y X}_{i,k}
+    \overset{\in W_{cl}}{\longrightarrow}
+  \left(\underset{\longrightarrow}{\lim}_i Z^B_{i,k}\right)
+    \underset{
+         \underset{\longrightarrow}{\lim}_i Z^Y_{i,k}
+    }{\times}
+   \left(
+     \underset{\longrightarrow}{\lim}_i W_i
+   \right)
+   =
+  (Q B)_k \underset{(Q Y)_k}{\times} \underset{\longrightarrow}{\times}_i W_i
+  \,.
+$$
+
+This exhibits (degreewise and hence globally) the [[homotopy pullback]] property to be show.
+
+=--
 
 +-- {: .num_prop #OmegaSpectrificationOnTopologicalSequentialSpectraIsQuillenIdempotentMonad}
 ###### Proposition
@@ -3864,7 +4022,7 @@ $$
 
 =--
 
-([Schwede 97, lemma 2.1.3 (e), prop. 2.1.5](#Schwede97))
+([Schwede 97, prop. 2.1.5](#Schwede97))
 
 
 +-- {: .proof}
@@ -3872,63 +4030,12 @@ $$
 
 First notice that the strict model structure is indeed [[right proper model category|right proper]], as demanded in def. \ref{QuillenIdempotentMonad}: Since every object in $SeqSpec(Top_{cg})$ is fibrant (this being so degreewise in $(Top_{cg}^{\ast/})_{Quillen}$) this follows from [this lemma](Introduction+to+Stable+homotopy+theory+--+P#InCfPullbackAlongFibrationPreservesWeakEquivalences).
 
-Now the first two conditions required on a Quillen idempotent monad in def. \ref{QuillenIdempotentMonad} are explicit in prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}. It remains to check the third condition:
+The first two conditions required on a Quillen idempotent monad in def. \ref{QuillenIdempotentMonad} are explicit in prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}. 
 
-First we claim that given a [[pullback]] of a strict fibration
-
-$$
-  \array{
-    X \underset{B}{\times}Y &\longrightarrow& Y
-    \\
-    \downarrow &(pb)& \downarrow^{\mathrlap{\in Fib_{strict}}}
-    \\
-    X &\longrightarrow& B
-  }
-$$
-
-then for any factorization
-
-$$
-  Q(Y) 
-    \overset{\in W_{strict} Cof_{strict}}{\longrightarrow} 
-  \widehat {Q(Y)}
-    \overset{\in Fib_{strict}}{\longrightarrow}
-  Q(X)
-$$
-
-the induced morphism
-
-$$
-  Q(X \underset{B}{\times} Y)
-    \longrightarrow
-  Q(X)\underset{Q(B)}{\times} \widehat {Q(Y)}
-$$
-
-is a weak equivalence.
-
-(...)
-
-Now to see that this implies the pullback property in item 3 of \ref{QuillenIdempotentMonad}.
-
-Since in $SeqSpec(Top_{cg})_{strict}$ all objects are fibrant (a property directly inherited from $Top_{cg}^{\ast/}$) it follows (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#InCfPullbackAlongFibrationPreservesWeakEquivalences)) that pullback along fibrations preserves weak equivalences. Hence
-
-$$
-  \array{
-    Q(X \underset{B}{\times}Y) &\longrightarrow& Q(Y)
-    \\
-    {}^{\mathllap{\in W_{strict}}}\downarrow && \downarrow^{\mathrlap{\in W_{strict}}}
-    \\
-    X \underset{B}{\times} \widehat{Q X} &\overset{\in W_{strict}}{\longrightarrow}& \widehat{Q Y}
-    \\
-    \downarrow &(pb)& \downarrow^{\mathrlap{\in Fib_{strict}}}
-    \\
-    X &\underset{\in W_{strict}}{\longrightarrow}& B
-  }
-$$
-
-Now it follows by [[two-out-of-three]] that also the top morphism is in $W_{strict}$.
+The third condition follows from lemma \ref{OmegaSpectrificationOfSequentiaSpectraPreservesHomotopyPullback}: A pullback of a $Q$-equivalence along a fibration is a [[homotopy pullback]] and is hence sent by $Q$ to another homotopy pullback square. By definition of $Q$-equivalence that resulting homotopy pullback square has one edge a weak equivalence, and hence also the opposite edge is a weak equivalence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)).
 
 =--
+
 
 
 +-- {: .num_theorem #StableModelStructureOnSequentialSpectraIsModelCategory}
