@@ -18,20 +18,20 @@
 
 ## Idea
 
-A _Cartan connection_ is a _[[principal connection]]_ on a [[smooth manifold]] equipped with a certain compatibility condition with the [[tangent bundle]] of the manifold. This combination allows to express various types of geometric structures on $X$ -- such as notably ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian geometry]], [[conformal geometry]] and many more (see [below](#TableOfExamples)) -- in terms of [[connection on a bundle|connection]] data, i.e. in terms of [[nonabelian cohomology|nonabelian]] [[differential cohomology]]-data. In particular the [[first order formulation of gravity]] in terms of Cartan connections has been one of the historical motivations ([Cartan 23](#Cartan23)).
+A _Cartan connection_ is a _[[principal connection]]_ on a [[smooth manifold]] equipped with a certain compatibility condition with the [[tangent bundle]] of the manifold. This combination allows us to express various types of geometric structures on $X$ -- such as notably ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian geometry]], [[conformal geometry]] and many more (see [below](#TableOfExamples)) -- in terms of [[connection on a bundle|connection]] data, i.e. in terms of [[nonabelian cohomology|nonabelian]] [[differential cohomology]]-data. In particular the [[first order formulation of gravity]] in terms of Cartan connections has been one of the historical motivations ([Cartan 23](#Cartan23)).
 
 In a little bit more detail, a Cartan connection on a manifold $X$ for a given [[subgroup]] inclusion $H \hookrightarrow G$ is data that identifies all the [[tangent spaces]] $T_x X$ of $X$ with the tangent space $\mathfrak{g}/\mathfrak{h} = T_{e H} (G/H)$ of the [[coset space]] [[Klein geometry]] $G/H$, such that the choice of these identifications is transported along compatibly.
 
 Therefore a manifold equipped with a Cartan connection is also called a _[[Cartan geometry]]_ (see also there), a generalization (globalization) of the concept of [[Klein geometry]].
 
 
-In yet a little bit more detail, an _$(H \hookrightarrow G)$-Cartan connection_ on $X$ is a $G$-[[principal connection]] on $X$ equipped with a [[reduction of structure groups|reduction of its structure group]] along $H \to G$ and such that the connection 1-form linearly identifies each [[tangent space]] $T_X X$ of $X$ with tangent space $\mathfrak{g}/\mathfrak{h} = T_{e H} (G/H)$ of the [[coset space]].
+In yet a little bit more detail, an _$(H \hookrightarrow G)$-Cartan connection_ on $X$ is a $G$-[[principal connection]] on $X$ equipped with a [[reduction of structure groups|reduction of its structure group]] along $H \to G$ and such that the connection 1-form linearly identifies each [[tangent space]] $T_x X$ of $X$ with the tangent space $\mathfrak{g}/\mathfrak{h} = T_{e H} (G/H)$ of the [[coset space]].
 
 ## History
 
 The concept essentially originates around ([Cartan 23](#Cartan23)), but the formulation in terms of [[principal connections]] and in fact the terminology "Cartan connection" is due to [[Charles Ehresmann]] who formulated principal connections as what, in turn, today are called _[[Ehresmann connections]]_ ([Ehresmann 50](#Ehresmann50)). 
 
-In ([Ehresmann 50](#Ehresmann50)) Cartan's idea  are formalized (see [Marle 14, page 9, 10](#Marle14) for review) by saying that an $(G \hookrightarrow H)$-Cartan connection is a $G$-Ehresmann connection on a $G$-[[principal bundle]] $P$ equipped with an $H$-principal subbundle $Q$, such that the restriction of the connection form along this inclusion yields a form that determines an isomorphism of each tangent space of $Q$ with $\mathfrak{g}$. 
+In ([Ehresmann 50](#Ehresmann50)) Cartan's ideas  are formalized (see [Marle 14, page 9, 10](#Marle14) for review) by saying that an $(G \hookrightarrow H)$-Cartan connection is a $G$-Ehresmann connection on a $G$-[[principal bundle]] $P$ equipped with an $H$-principal subbundle $Q$, such that the restriction of the connection form along this inclusion yields a form that determines an isomorphism of each tangent space of $Q$ with $\mathfrak{g}$. 
 
 ## Definition
 
