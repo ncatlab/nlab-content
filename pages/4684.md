@@ -53,7 +53,7 @@ The "local" [[topological properties]] of Euclidean space are inherited by local
 ###### Proposition
 **([[locally Euclidean spaces]] are $T_1$-[[separation axiom|separated]], [[sober topological space|sober]] and [[locally compact topological space|locally compact]])**
 
-Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then 
+Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then
 
 1. $X$ satisfies the $T_1$ [[separation axiom]];
 
@@ -80,13 +80,13 @@ $$
   Cl(\{-\}) \;\colon\; X \to IrrClSub(X)
 $$
 
-that sends points to the [[topological closure]] of their singleton sets is a [[bijection]] with the set of [[irreducible closed subsets]]. By the first statement above the map is [[injective function|injective]] (via [this lemma](separation+axioms#T1InTermsOfClosureOfPoints)). 
+that sends points to the [[topological closure]] of their singleton sets is a [[bijection]] with the set of [[irreducible closed subsets]]. By the first statement above the map is [[injective function|injective]] (via [this lemma](separation+axioms#T1InTermsOfClosureOfPoints)).
 
 Hence it remains to see that every irreducible closed subset is the topological closure of a singleton. We will show something stronger: every irreducible closed subset is a singleton.
 
 Let $P \subset X$ be an open proper subset such that if there are two open subsets $U_1, U_2 \subset X$ with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$. By [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible) we need to show that there exists a point $x \in X$ such that $P = X \setminus \{x\}$ it its [[complement]].
 
-Now since $P \subset X$ is a proper subset, and since the locally Euclidean space $X$ is covered by Euclidean neighbourhoods, there exists a Euclidean neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U \subset X$ such that $P \cap U \subset U$ is a proper subset. In fact this still satisfies the condition that for $U_1, U_2 \underset{\text{open}}{\subset} U$ then $U_1 \cap U_2 \subset P \cap U$ implies $U_1 \subset P \cap U$ or $U_2 \subset P \cap U$. Accordingly, by [that prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible) it follows that $\mathbb{R}^n \setminus \phi^{-1}(P \cap U)$ is an irreducible closed subset of [[Euclidean space]]. Sine [[metric spaces]] are [[sober topological space]] as well as $T_1$-[[separation axiom|separated]], this means that there exists $x \in \mathbb{R}^n$ such that $\phi^{-1}(P \cap U) = \mathbb{R}^n \setminus \{x\}$. 
+Now since $P \subset X$ is a proper subset, and since the locally Euclidean space $X$ is covered by Euclidean neighbourhoods, there exists a Euclidean neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U \subset X$ such that $P \cap U \subset U$ is a proper subset. In fact this still satisfies the condition that for $U_1, U_2 \underset{\text{open}}{\subset} U$ then $U_1 \cap U_2 \subset P \cap U$ implies $U_1 \subset P \cap U$ or $U_2 \subset P \cap U$. Accordingly, by [that prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible) it follows that $\mathbb{R}^n \setminus \phi^{-1}(P \cap U)$ is an irreducible closed subset of [[Euclidean space]]. Sine [[metric spaces]] are [[sober topological space]] as well as $T_1$-[[separation axiom|separated]], this means that there exists $x \in \mathbb{R}^n$ such that $\phi^{-1}(P \cap U) = \mathbb{R}^n \setminus \{x\}$.
 
 In conclusion this means that the restriction of an irreducible closed subset in $X$ to any Euclidean chart is either empty or a singleton set. This means that the irreducible closed subset must be a disjoint union of singletons that are separated by Euclidean neighbourhoods. But by irreducibiliy, this union has to consist of just one point.
 
@@ -120,6 +120,27 @@ An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) w
 
 =--
 
++-- {: .num_lemma #PathConnectedFromConnectedLocallyEuclideanSpace}
+###### Lemma
+**(connected locally Euclidean spaces are path-connected)**
+
+A locally Euclidean space which is [[connected topological space|connected]] is also [[path-connected topological space|path-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Fix any $x \in X$. Write $PConn_x \subset X$ for the subset of all those points of $x$ which are connected to $x$ by a path. Since by assumption every point has a Euclidean neighbourhood, and since Euclidean space is path-connected, it follows that $PConn_x \subset X$ is an [[open subset]], but also that its [[complement]] $X \setminus PConn_x$ is open. Hence
+
+$$
+  X = PConn_x \sqcup (X \setminus PConn_x)
+$$
+
+is the [[disjoint union]] of two open subsets. By the assumption that $X$ is connected, one of these needs to be empty. Since $PConn_x$ is not empty, as it contains $x$, it follows that $PConn_x = X$.
+
+=--
+
 
 +-- {: .num_prop #RegularityConditionsForTopologicalManifoldsComparison}
 ###### Proposition
@@ -140,22 +161,57 @@ Then the following are equivalent:
 +-- {: .proof}
 ###### Proof
 
+First observe that $X$ is locally compact:
+By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact, and since $X$ as assumed to be Hausdorff, this holds for all of the variants of definition of local compactness, by [this prop.](locally+compact+topological+space#InHausdorffSpacesDefinitionsOfLocalCompactnessAgree). 
+
 Let $X$ be sigma-compact. We show that then $X$ is second-countable:
 
 By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in I}$ of compact subspaces. By $X$ being locally Euclidean, each admits an [[open cover]] by restrictions of [[Euclidean spaces]]. By their compactness, each of these has a subcover $\{ \mathbb{R}^n \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}$ with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have obtained  a countable cover by Euclidean spaces $\{ \mathbb{R}^n  \overset{\phi_{i,j}}{\to} X\}_{i \in I, j \in J_i}$. Now Euclidean space itself is second countable (by [this example](second-countable+space#SecondCountableEuclideanSpace)), hence admits a countable set $\beta_{\mathbb{R}^n}$ of base open sets. As a result the union $\underset{{i \in I} \atop {j \in J_i}}{\cup} \phi_{i,j}(\beta_{\mathbb{R}^n})$ is a base of opens for $X$. But this is a countable union of countable sets, and since [[countable unions of countable sets are countable]] we have obtained a countable base for the topology of $X$. This means that $X$ is second-countable.
 
 Let $X$ be sigma-compact. We show that then $X$ is paracompact with a countable set of connected components:
 
-By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact, and since $X$ as assumed to be Hausdorff, this holds for all of the variants of definition of local compactness, by [this prop.](locally+compact+topological+space#InHausdorffSpacesDefinitionsOfLocalCompactnessAgree) Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. Since, by the above, $X$ is also second-countable, it cannot have an uncountable set of connected components.
+Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. Since, by the previous statement, $X$ is also second-countable, it cannot have an uncountable set of connected components.
 
 Let $X$ be paracompact with countably many connected components. We show that $X$ is sigma-compact.
 
-Since $X$ is locally compact, there exists a cover $\{K_i = Cl(U_i) \subset X\}_{i \in I}$ by compact subsets.
-By paracompactness we find a locally finite refinement of this cover. Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies and yields a locally finite cover $\{Cl(V_i) \subset X\}_{j \in J}$ by closed subsets. Since this is a refinement of the orignal cover, all the $Cl(V_i)$ are contained in compact closed subspaces. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], the $Cl(V_j)$ are also closed as subsets of the $K_i$. Since [[closed subsets of compact spaces are compact]] it follows that the $Cl(V_i)$ form in fact a locally finite cover by compact subspaces.
+Since $X$ is locally compact, there exists a cover $\{K_i = Cl(U_i) \subset X\}_{i \in I}$ by [[compact topological space|compact]] [[subspaces]].
+By paracompactness there is a locally finite refinement of this cover. Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies to this refinement and yields a locally finite open cover 
 
-Now...
+$$
+  \mathcal{V} \coloneqq \{V_j \subset X \}_{j \in J}
+$$
 
-(...)
+as well as a locally finite cover $\{Cl(V_j) \subset X\}_{j \in J}$ by closed subsets. Since this is a refinement of the orignal cover, all the $Cl(V_j)$ are contained in one of the compact subspaces $K_i$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], the $Cl(V_j)$ are also closed as subsets of the $K_i$. Since [[closed subsets of compact spaces are compact]] it follows that the $Cl(V_j)$ are themselves compact and hence form a locally finite cover by compact subspaces.
+
+Now fix any $j_0 \in J$. 
+
+We claim that for every $j \in J$ there is a finite sequence of indices $(j_0, j_1, \cdots, j_n = j)$ with the property
+that $V_{j_k} \cap V_{j_{k+1}} \noteq \emptyset$. 
+
+To see this, first obserse that it is sufficient to show sigma-compactness for the case that $X$ is [[connected topological space|connected]]. From this the general statement follows since [[countable unions of countable sets are countable]]. Hence assume that $X$ is connected.
+It follows from lemma \ref{PathConnectedFromConnectedLocallyEuclideanSpace} that  $X$ is [[path-connected topological space|path-connected]].
+
+Hence for any $x \in V_{j_0}$ and $y \in V_{j}$ there is a path $\gamma \colon [0,1] \to X$ connecting $x$ with $y$. Since the [[closed interval]] is compact and since [[continuous images of compact spaces are compact]], it follows that there is a finite subset of the $V_i$ that covers the image of this path. This proves the claim.
+
+It follows that there is a function
+
+$$
+  f \;\colon\; \mathcal{V} \longrightarrow \mathbb{N}
+$$
+
+which sends each $V_j$ to the [[minimum]] natural number as above. 
+
+We claim now that for all $n \in \mathbb{N}$ the [[preimage]] of $\{0,1, \cdots, n\}$ under this function is a [[finite set]]. Since [[countable unions of countable sets are countable]] this implies that $\{ Cl(V_j) \subset X\}_{j \in J}$ is a countable cover of $X$ by compact subspaces, hence that $X$ is sigma-compact.
+
+We proove this last claim by [[induction]]. It is true for $n = 0$ by construction. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)) it follows that 
+
+$$
+  K_n
+    \coloneqq
+  \underset{V \in f^{-1}(\{0,\cdots, n\})}{\cup} V
+$$
+
+is compact. Now...
 
 =--
 
@@ -185,10 +241,10 @@ for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be of d
 ###### Definition
 **([[local chart]] and [[atlas]] and [[gluing function]])
 
-Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold}), then 
+Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold}), then
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/ChartsOfAManifold.png" width="400"> 
+<img src="https://ncatlab.org/nlab/files/ChartsOfAManifold.png" width="400">
 </div>
 
 
@@ -200,7 +256,7 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 
    $$
      U_{i j} \coloneqq U_i \cap U_j
-   $$ 
+   $$
 
    then the induced homeomorphism
 
@@ -231,27 +287,27 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 ###### Definition
 **([[differentiable manifold|differentiable]] and [[smooth manifolds]])**
 
-For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ is 
+For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ is
 
 1. a [[topological manifold]] $X$ (def. \ref{TopologicalManifold});
 
 1. an [[atlas]] $\{\mathbb{R}^n \overset{\phi_i}{\to} X\}$ (def. \ref{Charts}) all whose [[gluing functions]]  are $p$ times continuously [[differentiable function|differentiable]].
 
-A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds 
+A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds
 
 $$
   (X, \{\mathbb{R}^{n} \overset{\phi_i}{\to} U_i \subset X\}_{i \in I})
    \overset{\phantom{AA}f\phantom{AA}}{\longrightarrow}
   (Y, \{\mathbb{R}^{n'} \overset{\psi_j}{\to} V_j \subset Y\}_{j \in J})
-$$ 
+$$
 
-is 
+is
 
-* a [[continuous function]] $f \colon X \to Y$ 
+* a [[continuous function]] $f \colon X \to Y$
 
-such that 
+such that
 
-* for all $i \in I$ and $j \in J$ then 
+* for all $i \in I$ and $j \in J$ then
 
   $$
      \mathbb{R}^n
