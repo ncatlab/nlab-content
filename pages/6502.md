@@ -389,6 +389,7 @@ the $\mathbb{R}^{d+1}$-valued part of the connection is the [[vielbein]].
 
 
 ## References
+ {#References}
 
 The idea originates in [[Élie Cartan]]'s "method of moving frames" (cf. [[Cartan geometry]]).
 
