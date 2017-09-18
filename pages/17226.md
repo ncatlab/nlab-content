@@ -1,0 +1,10 @@
+
+## Idea
+
+The [[generalized homology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]]. The dual concept of [[cobordism cohomology theory]].
+
+## Related concepts
+
+* [[bordism]]
+
+[[!redirects bordism homology theories]]
