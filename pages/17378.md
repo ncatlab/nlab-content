@@ -1,0 +1,14 @@
+
+This page is about the book
+
+* [[John F. Jardine]]
+
+  _Local homotopy theory_
+
+  Springer Monographs in Mathematics,
+
+  2015
+
+on the abstract [[homotopy theory]] ([[model category]] theory) of [[presheaves]] of [[homotopy types]] and [[stable homotopy types]] ([[model structures on simplicial presheaves]], model structures on [[sheaves of spectra]], etc.).
+
+category: reference
