@@ -243,11 +243,14 @@ This is the setup in which one can derive [[Feynman diagram]] rules form cohomol
 
   * [[path integral quantization]]
 
+  * [[stochastic quantization]]
+
   * [[semiclassical approximation]]
 
   * [[light-cone gauge quantization]]
 
   * [[quantization via the A-model]]
+
 
 * [[second quantization]]
 
