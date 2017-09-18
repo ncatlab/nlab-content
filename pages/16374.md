@@ -1,3 +1,4 @@
+[[!redirects Martin Rocek]]
 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Martin_Rocek)
