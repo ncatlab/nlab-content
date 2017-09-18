@@ -19,7 +19,7 @@
 
 ## Idea
 
-In the context of [[algebraic topology]], _conditional convergence_ referes to a more general kind of convergence of [[spectral sequences]] than actual ("strong") convergence.
+In the context of [[algebraic topology]], _conditional convergence_ refers to a more general kind of convergence of [[spectral sequences]] than actual ("strong") convergence ([def.](spectral+sequence#Convergence)). It is the right concept of convergence for spectral sequences that are not concentrated in the first or third quadrant.
 
 Notably an $E$-[[Adams spectral sequence]]  is in general only conditionally convergent (to the $E$-[[nilpotent completion]]), unless finiteness conditions are imposed
 
@@ -60,7 +60,7 @@ then it is said to **converge conditionally** to $\mathcal{D}^{0,\bullet}$ if, w
 ([Boardman 99, def. 5.10](#Boardman99), see also [Rognes 12, def. 2.20](#Rognes12))
 
 
-The point is that: Given a spectral sequence $\{E_r^{\bullet,\bullet}, d_r\}_r$ as above, that converges conditionally, then sufficient condition that it converges strongly is that also the [[lim^1]] over its pages vanishes:
+The point is that: Given a spectral sequence $\{E_r^{\bullet,\bullet}, d_r\}_r$ as above, that converges conditionally, then sufficient condition that it converges strongly ([def.](spectral+sequence#Convergence)) is that also the [[lim^1]] over its pages vanishes:
 
 $$
   \underset{\longleftarrow}{\lim}^1_r E_r = 0
