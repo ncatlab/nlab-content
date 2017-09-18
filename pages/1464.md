@@ -8,8 +8,9 @@
 =--
 =--
 =--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -21,6 +22,7 @@ It is therefore of interest to list the special conditions under which certain l
 This page lists some of these.
 
 ## Filtered colimits commute with finite limits 
+ {#FilteredColimitsCommuteWithFiniteLimits}
 
 For $C$ a small [[filtered category]], the functor $colim_C : [C,Set] \to Set$ commutes with finite limits.
 
