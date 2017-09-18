@@ -159,21 +159,34 @@ The last three morphisms are more or less equivalent, that is they give arise to
 
 A [[2-morphism]] between bibundle functors is simply a bibundle isomorphism (of course preserving all the structures of bibundles). 
 
-A [[2-morphism]] from generalised morphism $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$ to $X \stackrel{\simeq}{\leftarrow} \hat X' \to Y$ is indicated by the following 2-commutative diagram
+A strict [[2-morphism]] from generalised morphism $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$ to $X \stackrel{\simeq}{\leftarrow} \hat X' \to Y$ is given by a morphism $\hat X \to \hat X'$ such that  the following diagram commutes
 $$
 \begin{matrix}
   &          & \hat X \\
-  & \nearrow &    \uparrow        & \searrow \\
+  & \enarrow &           & \searrow \\
+X &          & \downarrow &          & Y \\
+  & \esarrow &           & \nearrow \\
+  &          & \hat X'
+\end{matrix}
+$$
+This forces the morphism $\hat X \to \hat X'$ to be a weak equivalence by [[2-out-of-3]] for weak equivalences. A [[2-morphism]] from $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$ to $X \stackrel{\simeq}{\leftarrow} \hat X' \to Y$ is provided by a [[span]] of strict 2-morphisms:
+
+$$
+\begin{matrix}
+  &          & \hat X \\
+  & \enarrow &     \uparrow      & \searrow \\
 X &          & \hat X'' &          & Y \\
-  & \searrow &     \downarrow       & \nearrow \\
+  & \esarrow &       \downarrow    & \nearrow \\
   &          & \hat X'
 \end{matrix}
 $$
 
 
+A [[2-morphism]] between [[anafunctor]]s are defined like above, however the left legs are required to be [[acyclic]] fibrations between Lie groupoids.  (think this time what may you say about the morphism $\hat X \to \hat X'$?)
 
+Then these three (2,1)-categories are  all [[equivalent]] to each other. For a nice survey on this statement, we refer to Section 1.5 of [Du Li's thesis](http://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0022-5F4F-A). 
 
-[[2-morphism]]s between [[anafunctor]]s 
+## Morphisms of Lie algebroids
 
 
 
