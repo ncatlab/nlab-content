@@ -227,7 +227,7 @@ If $(f,g,h)$ is a [[distinguished triangle]], then $(f,g,-h)$ is not generally d
 
 * The [[homotopy category of chain complexes]] $K(\mathcal{A})$ in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the [[suspension of chain complexes]] and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$ in $Ch_\bullet(\mathcal{A})$.
 
-* The [[stable homotopy category]] (the [[homotopy category of an (∞,1)-category|homotopy category]] of the [[stable (∞,1)-category of spectra]]) is a triangulated category.  This is also true for [[parameterized spectra|parametrized]], [[equivariant spectra|equivariant]], etc. spectra.
+* The [[stable homotopy category]] (the [[homotopy category of an (∞,1)-category|homotopy category]] of the [[stable (∞,1)-category of spectra]]) is a triangulated category.  This is also true for [[parameterized spectra|parametrized]], [[equivariant spectra|equivariant]], etc. spectra. Also the [[full subcategory]] called the [[Spanier-Whitehead category]] is triangulated.
 
 * The stable category of a [[Quillen exact category]] is [[suspended category]] as exhibited by [[Bernhard Keller]]. If the exact category is Frobenius, i.e. has enough injectives and enough projective and these two classes coincide, then the suspension of the stable category is in fact invertible, hence the stable category is triangulated. A triangulated category equivalent to a triangulated categories is said to be an [[algebraic triangulated category]]. 
 
