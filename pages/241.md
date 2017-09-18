@@ -130,6 +130,13 @@ This result is in the spirit of saying "every Grothendieck topos is the category
 One can deduce formally that lex total categories are [[locally cartesian closed category|locally cartesian closed]] [[Heyting pretoposes]]. 
 =-- 
 
+### As localic groupoids
+ {#AsLocalicGroupoids}
+
+Every Grothendieck topos is equivalent to the [[classifying topos of a localic groupoid]], every Grothendieck topos [[point of a topos|with enough points]] is equivalent to the classifying topos of a [[topological groupoid]], and in fact the 2-category [[Topos]] of Grothendieck toposes is equivalent to a localization of that of [[localic groupoids]].
+
+See at _[[classifying topos of a localic groupoid]]_ for more.
+
 ## In weak foundations
 
 We have two definitions of a Grothendieck topos:
@@ -167,7 +174,8 @@ The theorem that every Grothendieck topos is [[cocomplete category|cocomplete]] 
 
 A quick introduction of the basic facts of sheaf-topos theory is chapter I, "Background in topos theory" in 
 
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, 
+Springer (1995)
 
 
 A standard textbook on this case is
@@ -184,8 +192,8 @@ The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 
 Street's characterization of Grothendieck toposes is given in 
 
-* [[Ross Street]], _Notions of topos_, Bull. Australian Math. Soc. 23 (1981), 199-208; MR83a:18014. ([pdf link](http://journals.cambridge.org/download.php?file=%2FBAZ%2FBAZ23_02%2FS000497270000705Xa.pdf&code=c6248e4fa6a517c9bb451e4f5abcf862)) 
- {#Street} 
+* {#Street}  [[Ross Street]], _Notions of topos_, Bull. Australian Math. Soc. 23 (1981), 199-208; MR83a:18014. ([pdf link](http://journals.cambridge.org/download.php?file=%2FBAZ%2FBAZ23_02%2FS000497270000705Xa.pdf&code=c6248e4fa6a517c9bb451e4f5abcf862)) 
+ 
 
 
 [[!redirects Grothendieck toposes]]
