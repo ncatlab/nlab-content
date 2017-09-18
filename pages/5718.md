@@ -241,7 +241,7 @@ with further developments in
 
 In the context of algebraic geometry, the abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
 
-* {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
+* {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_, 2009 ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
 
 The explicit description in terms of formal duals of [[commutative monoids]] in [[D-module]]s is in
 
