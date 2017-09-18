@@ -119,9 +119,9 @@ In [[algebraic topology]], it is common to define Hopf algebras without mentioni
 
 Note that the definition of Hopf algebra (or, really, of [[Hopf monoid]]) is [[duality|self-dual]]: a Hopf monoid in a [[symmetric monoidal category]] $V$ is the same as a Hopf monoid in the [[opposite category]] $V^{op}$ (i.e. a "Hopf comonoid").  Thus we can view a Hopf algebra as "like a group" in two different ways, depending on whether the group multiplication corresponds to the multiplication or the comultiplication of the Hopf algebra.  The formal connections between Hopf monoids and group objects are:
 
-1. A Hopf monoid in a [[cartesian monoidal category]] $V$ is the same as a group object in $V$.  Such Hopf monoids are always _cocommutative_ (that is, their underlying comonoid is cocommutative).  This is because every object of a cartesian monoidal category is a cocommutative comonoid object in a unique way, and every morphism is a comonoid homomorphism.
+1. A Hopf monoid in a [[cartesian monoidal category]] $V$ is the same as a group object in $V$.  Such Hopf monoids are always _cocommutative_ (that is, their underlying comonoid is cocommutative).  This is because every object of a cartesian monoidal category is a cocommutative comonoid object in a unique way, and every morphism is a comonoid homomorphism. 
 
-1. A _commutative_ Hopf monoid in a [[symmetric monoidal category]] $V$ is the same as a [[group object]] in the [[opposite category]] $CMon(V)^{op}$, where $CMon(V)$ is the category of commutative monoids in $V$, hence a [[cogroup]] object in $CMon(V)$ (a point highlighted by [[Haynes Miller]], see ([Ravenel 86, appendix A1](#Ravenel86))).  This works because the tensor product of commutative algebras is the categorical [[coproduct]], and hence the [[product]] in its [[opposite category]]. In particular, a commutative Hopf algebra is the same as a group object in the category $Alg^{op}$ of affine schemes.
+1. A _commutative_ Hopf monoid in a [[symmetric monoidal category]] $V$ is the same as a [[group object]] in the [[opposite category]] $CMon(V)^{op}$, where $CMon(V)$ is the category of commutative monoids in $V$, hence a [[cogroup]] object in $CMon(V)$ (a point highlighted by [[Haynes Miller]], see ([Ravenel 86, appendix A1](#Ravenel86))).  This works because the tensor product of commutative algebras is the categorical [[coproduct]], and hence the [[product]] in its [[opposite category]]. In particular, a [[commutative Hopf algebra]] is the same as a group object in the category $Alg^{op}$ of affine schemes.
 
 Corresponding to these two, an ordinary group $G$ gives us two different Hopf algebras (here $k$ is the [[ground ring]]):
 
@@ -140,7 +140,7 @@ Mike, can you do something with these notes that I took at some point as a grad 
 
 >Given a (finite, discrete) group $G$ and a ground ring (field?) $K$, then the group ring $K[G]$ is a cocommutative Hopf algebra, with $M(g_0,g_1) = g_0 g_1$, $I = 1$, $D(g) = g \otimes g$, $E(g) = 1$, and the nifty Hopf antipodal operator $S(g) = g^{-1}$.  Notice that the coalgebra operations $D,E$ depend only on $Set|G|$.
 
->Given a (finite, discrete) group $G$ and a ground ring (field?) $K$, then the function ring $Fun(G,K)$ is a commutative Hopf algebra, with $M(f_0,f_1)(g) = f_0(g)f_1(g)$, $I(g) = 1$, $D(f)(g,h) = f(g h)$, $E(f) = f(1)$, and the nifty Hopf antipodal operator $S(f)(g) = f(g^{-1})$.  Notice that the algebra operations $M,I$ depend only on $Set|G|$.
+>Given a (finite, discrete) group $G$ and a ground ring (field?) $K$, then the function ring $Fun(G,K)$ is a [[commutative Hopf algebra]], with $M(f_0,f_1)(g) = f_0(g)f_1(g)$, $I(g) = 1$, $D(f)(g,h) = f(g h)$, $E(f) = f(1)$, and the nifty Hopf antipodal operator $S(f)(g) = f(g^{-1})$.  Notice that the algebra operations $M,I$ depend only on $Set|G|$.
 
 >Given a (simply connected) Lie group $G$ and the complex (real?) field $K$, then the universal enveloping algebra $U(G)$ is a cocommutative Hopf algebra, with $M(\mathbf{g}_0,\mathbf{g}_1) = \mathbf{g}_0 \mathbf{g}_1$, $I = 1$, $D(\mathbf{g}) = \mathbf{g} \otimes 1 + 1 \otimes \mathbf{g}$, $E(\mathbf{g}) = 0$, and the nifty Hopf antipodal operator $S(\mathbf{g}) = -\mathbf{g}$.  Notice that the coalgebra operation $D,E$ depend only on $K Vect|\mathfrak{g}|$.
 
@@ -253,9 +253,4 @@ Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod alg
 [[!redirects antipode]]
 [[!redirects skew-antipode]]
 
-[[!redirects commutative Hopf algebra]]
-[[!redirects commutative Hopf algebras]]
-
-[[!redirects graded commutative Hopf algebra]]
-[[!redirects graded commutative Hopf algebras]]
 
