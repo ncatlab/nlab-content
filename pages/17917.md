@@ -3,5 +3,13 @@
 
 Named after [[Hendrik Casimir]].
 
+Discussion in the context of [[causal perturbation theory]] is in 
+
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], pages 45-47 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
+
+See also
+
 * Wikipedia, _[Casimir effect](https://en.wikipedia.org/wiki/Casimir_effect)_
 
+
+[[!redirects Casimir effects]]
