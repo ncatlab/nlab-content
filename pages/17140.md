@@ -1,3 +1,4 @@
+[[!redirects E-nilpotent completion]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
