@@ -55,7 +55,7 @@ A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
 
 =--
 
-This appears for instance as ([Sharpe, section 5.1](#Sharpe)).
+This appears for instance as ([Sharpe, section 5.1, section 5.3](#Sharpe)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -187,6 +187,8 @@ Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_
 .
 
 =--
+
+
 
 
 
