@@ -419,7 +419,7 @@ $$
   \psi_{\dot \alpha} \overline{\omega}^{\dot \alpha}
 $$
 
-reflecting the fact that $(X^{\dot \alpha \alpha})$ is a hermitian matrix, instead of a general $2\times 2$ matrix. (For $d = 10$ there is no elegant statement like this, due to the non-associativity of the [[octonions]] $\mathbb{K} = \mathbb{O}$).
+reflecting the fact that $(X^{\dot \alpha \alpha})$ is a hermitian matrix, instead of a general $2\times 2$ matrix. (For $d = 10$ there is no elegant statement like this, due to the non-associativity of the [[octonions]] $\mathbb{K} = \mathbb{O}$. But there is nevertheless an analogue of the twistor transform in 10d [Witten 86](#Witten86)).
 
 Hence the subspace inclusion
 
@@ -568,6 +568,10 @@ Surveys of the resulting modern application of twistors in field theory include
 Discussion of twistors in dimensions 3,4,6 and 10 using the [[normed division algebras]] (as in [[supersymmetry and division algebras]]) is in
 
 * {#BengtssonCederwall88} [[Ingemar Bengtsson]], [[Martin Cederwall]], _Particles, Twistors and the Division Algebras_, Nucl.Phys. B302 (1988) 81-103 ([spire](http://inspirehep.net/record/247269))
+
+and specifically for dimension 10 in 
+
+* {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics, Section B, Volume 266, Issue 2, p. 245-264. (1986) <a href="http://dx.doi.org/10.1016/0550-3213(86)90090-8">10.1016/0550-3213(86)90090-8</a>
 
 #### Application to the 6d self-dual 2-form field
  {#ReferencesApplicationToSelfDual2FormField}
