@@ -21,9 +21,9 @@
 
 The term _brave new algebra_ has been coined to refer to the [[higher algebra]] of [[E-infinity rings]] ("brave new rings"), amplifying the step from more traditional [[algebra]].
 
-Specifically, the term is typically used for the particular presentation of [[E-infinity rings]] by way of [[highly structured ring spectra]] such as [[commutative monoids]] of [[symmetric spectra]].
+Specifically, the term is typically used for the particular presentation of [[E-infinity rings]] by way of [[highly structured ring spectra]] such as ([[commutative monoids|commutative]]) [[monoids]] with respect to a [[symmetric monoidal smash product of spectra]] (such as available on [[orthogonal spectra]], [[symmetric spectra]] and [[S-modules]]).
 
-In consequence people also speak for instance of _brave new Hopf algebroids_ when referring to the [[Hopf algebroids]] of (dual) $E$-[[Steenrod algebras]] for some [[ring spectrum]] $E$. See at _[Steenrod algebra -- Hopf algebroid structure](#Steenrod+algebra)_.
+In consequence people also speak for instance of _brave new Hopf algebroids_ when referring to the [[Hopf algebroids]] of (dual) $E$-[[Steenrod algebras]] for some [[ring spectrum]] $E$ as appearing in the [[Adams spectral sequence]]. See at _[Steenrod algebra -- Hopf algebroid structure](#Steenrod+algebra)_.
 
 ## Related entries
 
