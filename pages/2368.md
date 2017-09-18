@@ -75,6 +75,8 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 
 * [[mapping spectrum]]
 
+* [[functor with smash product]]
+
 [[model structure on spectra]]
 
 * [[symmetric spectrum]], [[model structure on symmetric spectra]]
@@ -134,6 +136,9 @@ See also
 
 [[!redirects structured ring spectrum]]
 [[!redirects structured ring spectra]]
+
+
+[[!redirects symmetric smash products of spectra]]
 
 [[!redirects symmetric monoidal smash product of spectra]]
 
