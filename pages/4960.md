@@ -342,7 +342,7 @@ These extra axioms are proposed in ([Lawvere, Axiomatic cohesion](#LawvereAxioma
 ###### Definition
 
 For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that 
-its **subobject classifier is contractible** if for the [[subobject classifier]] $\Omega \in \mathcal{E}$ we have
+its **subobject classifier is connected** if for the [[subobject classifier]] $\Omega \in \mathcal{E}$ we have
 
 $$
   f_!(\Omega) \simeq *
@@ -1360,7 +1360,7 @@ Let $\mathcal{E}$ be a cohesive topos and $X \in \mathcal{E}$ an object.
 
 A necessary conditions that the [[over topos]] $\mathcal{E}/X$ is a [[connected topos]] is that
 
-1. $X$ is contractible $\Pi_0(X) \simeq *$;
+1. $X$ is connected $\Pi_0(X) \simeq *$;
 
 Sufficient condition for $\mathcal{E}/X$ to be a [[local topos]] is that
 
