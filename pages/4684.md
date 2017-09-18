@@ -124,7 +124,7 @@ But this is not so, Hausdorffness is a "non-local condition".
 ###### Nonexample
 **([[non-Hausdorff locally Euclidean spaces]])**
 
-An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) which is not [[non-Hausdorff topological space]], is the [[line with two origins]].
+An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) which is a [[non-Hausdorff topological space]], is the [[line with two origins]].
 
 =--
 
