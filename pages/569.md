@@ -22,7 +22,7 @@ Given any category $C$, the [[functor category]]
 
 $$End(C) = C^C $$
 
-is called the **endofunctor category** of $C$.  The objects of $End(C)$ are endofunctors $F: C \to C$, and the morphisms are natural transformations between such endofunctors.  
+is called the **endofunctor category** of $C$.  The objects of $End(C)$ are endofunctors $F: C \to C$, and the morphisms are [[natural transformations | natural transformation]] between such endofunctors.  
 
 ## Properties
 
