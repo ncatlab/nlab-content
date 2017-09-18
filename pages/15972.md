@@ -36,10 +36,7 @@ A more explicit description of the loop space (that is obtained by using the hom
 $$P_Y X=Y\times^h_X Y,$$
 which clearly has an interesting meaning only in the setting of derived geometry.
 
-
-Over a base field of characteristic $0$ and for a derived analytic space (that is not a stack), the [[Hochschild-Kostant-Rosenberg theorem]] implies that $P_Y X\cong T_Y[-1]X$ and $LX\cong T[-1]X$.
-
-To make the above construction work for general Artin stacks, one needs to make it local for the smooth topology. This is done by replacing the loop space groupoid $P_Y X$ acting on $Y$ by its formal completion along the identity morphism. This gives a formal groupoid $\hat{P}_Y X$ that is also equivalent modulo HKR's theorem to $T_Y[-1]X$ for a general Artin stack. Similarly, we will have $\hat{L}M:=\hat{P}_M(M\times M)\cong T[-1]M$ by [[HKR]].
+To make the above construction work for general Artin stacks, one needs to make it local for the smooth topology. This is done by replacing the loop space groupoid $P_Y X$ acting on $Y$ by its formal completion along the identity morphism. This gives a formal groupoid $\hat{P}_Y X$ that is equivalent modulo the [[HKR]] theorem (in characteristic $0$) to $T_Y[-1]X$ for a general Artin stack. Similarly, we will have $\hat{L}M:=\hat{P}_M(M\times M)\cong T[-1]M$ by [[HKR]].
 
 The deformation to the normal bundle in strict derived global analytic geometry is then simply given by the formula (with $D^1=\mathbb{M}(R\{X\}^\dagger)$ for $R$ the base ind-Banach ring)
 $$
