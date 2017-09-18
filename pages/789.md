@@ -127,9 +127,9 @@ $$
   \,,
 $$
 
-where the left hand is identified as $U(n,n) = O(2n,2n) \cap GL(2n, \mathbb{C})$.
+where the left hand is identified as $U(n,n) = O(2n,2n) \cap GL(2n, \mathbb{C})$ ([Gualtieri, prop. 4.6](#Gualtieri)).
 
-([Gualtieri, prop. 4.6](#Gualtieri))
+The analog of this with the unitary group replaced by the orthogonal group yields _[[type II geometry]]_.
 
 ## Properties
 
@@ -168,7 +168,7 @@ It was in particular motivated by the observation that this provides a natural f
 
 * [[type II geometry]]
 
-* [[exceptional generalized complex geometry]]
+* [[exceptional generalized geometry]]
 
 * [[Bn-geometry]]
 
@@ -189,7 +189,7 @@ A survey set of slides with an eye towards  the description of the [[Kalb-Ramond
 
 * [[Nigel Hitchin]], _B-Fields, gerbes and generalized geometry_ Oxford Durham Symposium 2005 ([pdf](http://www.maths.dur.ac.uk/events/Meetings/LMS/2005/GCFTST/Talks/hitchin1.pdf)) 
 
-* [[Nigel Hitchin]], _Lectures on generalized geometry_ ([arxiv/1008.0988](http://arxiv.org/abs/1008.0988))
+* [[Nigel Hitchin]], _Lectures on generalized geometry_ ([arxiv/1008.0973](http://arxiv.org/abs/1008.0973))
 
 #### As targets for $\sigma$-models
 
@@ -213,6 +213,7 @@ Generalized complex geometry and variant of [[exceptional generalized complex ge
 * [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Daniel Waldram]], _T-duality, generalized geometry and non-geometric backgrounds_,  J. High Energy Phys. 2009, no. 4, 075, 39 pp. [arXiv:0807.4527](http://xxx.lanl.gov/abs/0807.4527) [MR2010i:81323](http://www.ams.org/mathscinet-getitem?mr=2505954) [doi](http://dx.doi.org/10.1088/1126-6708/2009/04/075)
 
 * David Andriot, Ruben Minasian, Michela Petrini, _Flux backgrounds from twists_,  J. High Energy Phys. 2009, no. 12, 028 [arXiv:0903.0633](http://arxiv.org/abs/0903.0633) [MR2011c:81201](http://www.ams.org/mathscinet-getitem?mr=2593014) [doi](http://dx.doi.org/10.1088/1126-6708/2009/12/028)
+
 
 [[!redirects generalized complex structure]]
 [[!redirects generalized complex structures]]
