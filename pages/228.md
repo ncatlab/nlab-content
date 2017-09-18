@@ -63,7 +63,7 @@ If you generalise from inequality spaces to allow non-tight apartness relations,
 
 ### The apartness topology
 
-Let $S$ be a set equipped with a tight apartness relation $\ne$. Using $\ne$, many [[topology|topological]] notions may be defined on $S$. (It\'s not really necessary that the apartness be tight; this corresponds to the $T_0$ [[separation axiom]] in topology.)
+Let $S$ be a set equipped with an apartness relation $\ne$. Using $\ne$, many [[topology|topological]] notions may be defined on $S$. (Often one assumes that the apartness is tight; this corresponds to the $T_0$ [[separation axiom]] in topology.)
 
 If $U$ is a [[subset]] of $S$ and $x$ is an element, then $U$ is a $\ne$-**[[neighbourhood]]** (or $\ne$-**neighborhood**) of $x$ if, given any $y\colon S$, $x \ne y$ or $y \in U$; note that $x \in U$ by irreflexivity. The neighbourhoods of $x$ form a [[filter]]: a superset of a neighbourhood is a neighbourhood, and the intersection of $0$ or $2$ (hence of any finite number) of neighbourhoods is a neighbourhood.
 
@@ -73,7 +73,7 @@ The $\ne$-**complement** of $x$ is the subset $\{y\colon S \;|\; x \ne y\}$; thi
 $$ \tilde{A} \coloneqq \{y \;|\; \forall{x} \in A,\; x \ne y\} .$$
 This is not in general open, but you would use it where you would classically use the set-theoretic complement. However, if $A$ is open to begin with, then $\tilde{A}$ equals the set-theoretic complement.
 
-If $x \ne y$, then $x \in \tilde{y}$ and $y \in \tilde{x}$, which shows that $(S, \ne)$ satisfies the $T_1$ [[separation axiom]]. Symmetry is important here; if we removed symmetry from the axioms of apartness, then we would still get a $T_0$ topology, but it would not be $T_1$. This is a version of the fact that failure of $T_1$ is given by a [[partial order]] (or a [[preorder]] if $T_0$ might also fail).
+If $x \ne y$, then $x \in \tilde{y}$ and $y \in \tilde{x}$.  Thus, if $\ne$ is tight, then $(S, \ne)$ satisfies the $T_1$ [[separation axiom]]. Symmetry is important here; if we removed symmetry from the axioms of apartness (obtaining a [[quasi-apartness]]) but retained tightness, then we would still get a $T_0$ topology, but it would not be $T_1$. This is a version of the fact that failure of $T_1$ is given by a [[partial order]] (or a [[preorder]] if $T_0$ might also fail).
 
 The $\ne$-**[[closure]]** $\bar{A}$ of a subset $A$ is the complement of its complement. This closure is a [[closure operator]]: $A \subset \bar{A}$, $\overline{\bar{A}} = \bar{A}$ (in fact, $\overline{\tilde{A}} = \tilde{A}$), $\bar{A} \subset \bar{B}$ whenever $A \subset B$, $\overline{S} = S$ (in fact, $\bar{\empty} = \empty$ too), and $\overline{A \cap B} = \bar{A} \cap \bar{B}$ (but *not* $\overline{A \cup B} = \bar{A} \cup \bar{B}$).
 
@@ -131,6 +131,8 @@ Now by definition, $j_{\mathsf{C}U}(V) = V\cup U$.  Thus, the elements of this e
 Recall that the negation of an apartness relation on $X$ is an equivalence relation on the *set* $X$.  This is the spatial part of the above closed localic equivalence relation, which in general (constructively) need not be itself spatial.  The apartness relation is tight just when this spatial part is the diagonal.  (By contrast, to say that the closed localic equivalence relation is *itself* the diagonal is to say that the discrete locale $X$ is [[Hausdorff space|Hausdorff]], which is only true if $X$ has [[decidable equality]].)
 
 
+
+
 ## In algebra
 
 Since inequality spaces have finite limits, the usual constructions of [[universal algebra]] apply; it\'s straightforward to define inequality [[groups]], inequality [[rings]], and so on.
@@ -151,27 +153,6 @@ The localic perspective on apartness relations extends naturally to anti-algebra
 ## References
 
 The notion of apartness as fundamental in metric spaces may be found in [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) (or the 1985 edition with Douglas Bridges, _Constructive Analysis_). But as I recall, this doesn\'t introduce the concept in general; that came in Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988). For apartness in algebra, see _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg. A great reference for point-set topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)_ (1996). Please note that I ([[Toby Bartels]]) have not read the algebra book.
-
-
-## Discussion
-
-_[[Urs Schreiber|Urs]] says_: What you say at the entry [[vector space]] about the relation between apartness relations and topology and the continuum sounds very interesting. It would be nice if you could move these comments here and maybe flesh them out a little. Because, while it sounds interesting, I don't yet understand what you are saying!
-
-*  _[[Toby Bartels|Toby]] replies_: I will try to write a bit about the topological ideas that come up. But keep in mind that classically it is all trivial, unless you rephrase it internal to some more general notion of category than a boolean topos, and these things are not normally so phrased.
-
-   _[[Urs Schreiber|Urs]] replies to the reply:_ Okay, I'll keep it in mind. But I am still interested! :-)
-
-I already have problems with the above definition. When you say "coproduct" do you mean to equip $\{true, false\}$ with the monoidal structure given by logical OR? This is the only meaning I can give this word here, but a category enriched over $(\{true, false\},\otimes = OR)$ seems necessarily  to be an indiscrete groupoid over its set of objects. (Because $hom(a,a) = true$ for all objects $a$ and then $hom(a,b) = hom(a,a) OR hom(a,b) = true$, too, for all $b$.)
-
-*  _[[Toby Bartels|Toby]] replies_: To begin with, I defined it incorrectly; the trouble with these slick category-theoretic definitions is that a small error makes things completely messed up! I rephrased it quite a bit, but the key point is the new word 'opposite'. That said, your analysis of even my original definition is unsound; keep in mind that the unit of disjunction is *false*.
-
-   _Toby adds_: Also, it\'s an enriched *groupoid*, not an enriched *category*.
-
-I am also not sure in which sense you refer to the law of the excluded middle. Should we maybe more generally say that the 0-category of (-1)-categories internal to a given topos $T$ is the subobject classifier, $(-1)Cat := \Omega$?
-
-*  _[[Toby Bartels|Toby]] replies_: Yes, that is correct; $(-1)\Cat = \Omega$. Even when $T := \Set$, you have $(-1)\Cat = \{\top, \bot\}$ *only* if you believe excluded middle, which constructivists do not. Thus, constructivists will talk about apartness relations in $\Set$, while a classical mathematician will have to put the discussion internal to $T$ to get nontrivial results.
-
-   _[[Urs Schreiber|Urs]] replies to the reply:_ I like this statement "$(-1)\Cat = \Omega$". Would we also want to say $(-2)Cat = \{1 \stackrel{\top}{\to} \Omega\}$?
 
 
 [[!redirects apart]]
