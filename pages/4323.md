@@ -97,6 +97,8 @@ $$
 
 Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$, $String(n)$, $Fivebrane(n)$,..., i.e., any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum, which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
 
+As a [[symmetric spectrum]]: [Schwede 12, Example I.2.8](#Schwede12)
+
 ### For spherical fibrations
  {#ForSphereBundles}
 
@@ -556,6 +558,8 @@ Lecture notes include
 
   Lecture 2 _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
   {#Francis3}
+
+* {#Schwede12} [[Stefan Schwede]], Example I.2.6 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
 Textbook discussion with an eye towards the [[generalized (Eilenberg-Steenrod) cohomology]] of [[topological K-theory]] and [[cobordism cohomology theory]] is in 
 
