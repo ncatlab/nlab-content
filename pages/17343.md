@@ -8508,7 +8508,7 @@ $$
   }
 $$
 
-is a fibration. 
+is a weak equivalence. 
 
 First of all, using the [[factorization lemma]] \ref{FactorizationLemma}
 we may factor $B' \to B$ as
