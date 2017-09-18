@@ -33,7 +33,9 @@ A simple example of a non-Boolean scattered topos is the [[Sierpinski topos]] $S
 
 ##Properties
 
-....
+* That the Sierpinski-topos is $\bot$-scattered is an instance of the more general fact that _the topos $Sh(X)$ of sheaves on a $T_0$-space $X$ is $\bot$-scattered_ iff _open points are dense in $X$_ .[^ref] 
+
+[^ref]: cf. Esakia-Jibladze-Pataraia ([2000](#EJP00), p.101).
 
 ##Related entries
 
@@ -49,4 +51,10 @@ A simple example of a non-Boolean scattered topos is the [[Sierpinski topos]] $S
 
 ##References
 
+The concept was introduced in
+
 * {#EJP00} Leo Esakia, [[Mamuka Jibladze]], Dito Pataraia, _Scattered Toposes_ , APAL **103** (2000) pp.97-107.
+
+For the wider context see also
+
+* Leo Esakia, _Quantification with a provability smack_ , Bull. Sect. Log. **27**  (1998) pp.26-28. ([pdf](http://www.filozof.uni.lodz.pl/bulletin/pdf/27_12_6.pdf))
