@@ -1,13 +1,69 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
 
-+-- {: .un_theorem}
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The Paley-Wiener-Schwartz theorem characterizes [[compact support|compactly supoorted]] [[smooth functions]] ([[bump functions]]) and [[compactly supported distributions]] in terms of the decay property of their [[Fourier transform]] ([[Fourier transform of distributions|of distributions]]).
+
+Conversely this means that for a general distribution those [[covectors]] along which its [[Fourier transform of distributions|Fourier transform]] does not suitably decay detect the singular nature of the distribution (its failure to be represented by a smooth function) in a refined form which records not only the [[singular support of a distribution|singular support]] (the point at which that covector is based), but also the "direction of [[propagation of singularities theorem|propagation of singularities]]". The collection of these covectors is called the _[[wave front set]]_ of the distribution. The study of [[functional analysis]] with attention to the [[wave front sets]] is called _[[microlocal analysis]]_. This plays a central role in the definition of various operations on distributions, such as the [[pullback of distributions]] and the [[product of distributions]].
+
+
+## Statement
+
+
++-- {: .num_theorem}
 ###### Theorem
-**(Paley-Wiener for $C^{\infty}_0$)**
+**(Paley-Wiener-Schwartz theorem)**
 
 
-The vector space of smooth compactly supported functions is (algebraically and topologically) [[isomorphism|isomorphic]], via the [[Fourier transform]], to the space of entire functions $F$ which satisfy the following estimate: there is a positive constant $B$ such that for every [[integer]] $n \gt 0$ there is a constant $C_n$ such that:
+For $n \in \mathbb{N}$ the vector space $C^\infty_c(\mathbb{R}^n)$ of [[compact support|compactly supported]] [[smooth functions]] ([[bump functions]]) on [[Euclidean space]] $\mathbb{R}^n$ is (algebraically and topologically) [[isomorphism|isomorphic]], via the [[Fourier transform]], to the space of [[entire functions]] $F$ on $\mathbb{C}^n$ which satisfy the following estimate: there is a [[positive number|positive]] [[real number]] $B$ such that for every [[integer]] $N \gt 0$ there is a real number $C_N$ such that:
+
 $$ 
-      F(z) \le C_n (1 + |z|)^{-n} \exp{ (B \; |\operatorname{Im}(z)|)}
+  \underset{\xi \in \mathbb{C}^n}{\forall} 
+  \left(
+    {\Vert  F(\xi) \Vert}
+    \le C_N (1 + {\vert \xi\vert })^{-N} \exp{ (B \; |Im(\xi)|)}
+  \right)
+  \,.
 $$ 
+
+More generally, the space of [[compactly supported distributions]] on $\mathbb{R}^n$ of [[order of a distribution|order]] $N$ is isomorphic via [[Fourier transform of distributions]] to those [[entire functions]] on $\mathbb{C}^n$ for which there exists positive [[real numbers]] $C$ and $B$ such that
+
+$$ 
+  \underset{\xi \in \mathbb{C}^n}{\forall} 
+  \left(
+    {\Vert F(\xi)  \Vert}
+      \le 
+    C_N (1 + {\vert \xi\vert })^{-N} \exp{ (B \; |Im(\xi)|)}
+  \right)
+  \,.
+$$ 
+
+(Notice that the [[Fourier transform of distributions|Fourier transform]] of a [[compactly supported distribution]] is guaranteed to be a [[smooth function]], by [this prop.](Fourier+transform+of+distributions#FourierTransformOfCompactlySupportedDistributions).)
 
 =--
+
+(e.g. [Hoermander 90, theorem 7.3.1](#Hoermander90))
+
+## Refereces
+
+* {#Hoermander90} [[Lars Hörmander]], section 7.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+
+See also
+
+* Wikipedia, _[Paley-Wiener theorem](https://en.wikipedia.org/wiki/Paley%E2%80%93Wiener_theorem)_
+
+[[!redirects Paley-Wiener theorem]]
