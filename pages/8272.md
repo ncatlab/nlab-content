@@ -8,7 +8,7 @@ There are many theorems which are called Abel's theorem.
 
 * Springer [eom]: [abel theorem](http://www.encyclopediaofmath.org/index.php/Abel_theorem)
 
-Abel-Ruffini's theorem -- generic algebaric equation of order 5 or higher is insoluble in radicals. 
+Abel-Ruffini's theorem -- generic algebraic equation of order 5 or higher is insoluble in radicals. 
 
 Abel-Jacobi's theorem is treated under [[Jacobian variety]]. 
 
