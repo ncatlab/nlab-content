@@ -25,7 +25,7 @@ Schubert calculus is a formal calculus in [[enumerative geometry]], which geomet
 
 Schubert calculus is concerned with the [[ring]] structure on the [[cohomology]] of [[flag varieties]] and [[Schubert varieties]]. Traditionally this is considered for [[ordinary cohomology]] (see [References -- traditional](#ReferencesTraditional)) later also for [[generalized cohomology theories]] (see [References -- In generalized cohomology](#ReferencesInGeneralizedCohomology)), notably in [[complex oriented cohomology theory]] such as [[K-theory]], [[elliptic cohomology]] and [[algebraic cobordism]].
 
-The rigorous foundations of Schubert calculus is the content of 15th of [[Hilbert's problems]].
+The rigorous foundations of Schubert calculus is the content of the 15th of [[Hilbert's problems]].
 
 ## Details
 
