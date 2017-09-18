@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A concept of _Weyl n-algebra_ is to be a refinement to [[higher algebra]] of the concept of _[[Weyl algebra]]_.
+
+## Definitions
+
+Since a traditional [[Weyl algebra]] is a [[universal enveloping algebra]] of a [[Heisenberg Lie algebra]] of a [[symplectic vector space]], and since there is a sensible notion of [[Heisenberg Lie n-algebra]], one may go and defne a _Weyl n-algebra_ to be a [[universal enveloping E-n algebra]] of a [[Heisenberg Lie n-algebra]].
+
+Another definition is considered in ([Markarian 15](#Markarian15)).
+
+## References
+
+* {#Markarian15} [[Nikita Markarian]], _Weyl $n$-algebras_ ([arXiv:1504.01931](http://arxiv.org/abs/1504.01931))
+
+[[!redirects Weyl n-algebra]]
