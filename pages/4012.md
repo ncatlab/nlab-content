@@ -133,6 +133,8 @@ This latter is actually a special case of a general situation.  If $T$ is a (2-)
 * Charles Walker, *Distributive Laws via Admissibility*, [arXiv](https://arxiv.org/abs/1706.09575)
  {#WalkerDL}
 
+*  Jiri Adamek and Lurdes Sousa, *KZ-monadic categories and their logic*, [tac](http://tac.mta.ca/tac/volumes/32/10/32-10abs.html)
+
 [[!redirects KZ monad]]
 [[!redirects KZ-monad]]
 [[!redirects KZ doctrine]]
