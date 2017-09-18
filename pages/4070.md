@@ -25,6 +25,8 @@ and right-handed; they give rise to left and right chiral fields. CFT in 2d, in 
 
 * [[factorization algebra]]
 
+* [[full field algebra]]
+
 ## References
 
 The standard textbook is
