@@ -79,6 +79,10 @@ Argument in favor of its use are:
 
 * [[Arithmetic cryptography]]
 
+* [[global analytic index theory]]
+
+* [[overconvergent global analytic geometry]]
+
 ## References
 
 
