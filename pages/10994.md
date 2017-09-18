@@ -1,5 +1,5 @@
 
-The term _arrow_ is sometimes used as a synony for _[[morphism]]_, _[[map]]_.
+The term _arrow_ is sometimes used as a synonym for _[[morphism]]_, _[[map]]_.
 
 In [[computer science]] it may also refer to a concept generalizing [[monad (in computer science)|monads]], see at _[[arrow (in computer science)]]_.
 
