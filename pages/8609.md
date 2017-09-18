@@ -161,6 +161,44 @@ $$
 
 =--
 
++-- {: .num_prop #NaturalitySquareOfCounitIsPullback}
+###### Proposition
+
+For $\mathcal{C}$ a category with [[finite limits]] and $X\in \mathcal{X}$ any object, the [[naturality square]] of the [[counit of an adjunction|counit]] of the  $(\underset{X}{\sum} \dashv X^\ast)$-[[adjunction]] on any morphism $(f \colon A \to B)$ in $\mathcal{C}$
+
+$$
+  \array{
+    \underset{X}{\sum} X^\ast A &\longrightarrow& A
+    \\
+    \downarrow^{\mathrlap{\underset{X}{\sum}X^\ast f}} && \downarrow^{\mathrlap{f}}
+    \\
+    \underset{X}{\sum} X^\ast B &\longrightarrow& B
+  }
+$$
+
+is a [[pullback]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [[Frobenius reciprocity]] the diagram is equivalent to
+
+$$
+  \array{
+    X\times A & \longrightarrow& A
+    \\
+    \downarrow^{\mathrlap{(id,f)}} && \downarrow^{\mathrlap{f}}
+    \\
+    X \times B &\longrightarrow& B
+  }
+  \,.
+$$
+
+
+
+=--
 
 ## Related concepts
 
