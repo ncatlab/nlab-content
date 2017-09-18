@@ -997,6 +997,31 @@ If one assumes that [[string theory]] is part of the answer as to what underlies
 
 (...)
 
+## **Related expositions**
+
+* [[fiber bundles in physics]]
+
+* [[motivation for sheaves, cohomology and higher stacks]]
+
+* [[string theory FAQ]]
+
+* [[higher category theory and physics]]
+
+* [[motivation for higher differential geometry]]
+
+* [[applications of (higher) category theory]]
+
+* [[motivation for cohesion]]
+
+* [[Hilbert's sixth problem]]
+
+* [[motives in physics]]
+
+* [[model theory and physics]]
+
+* [[L-infinity algebras in physics]]
+
+
 
 ## **References**
  {#References}
