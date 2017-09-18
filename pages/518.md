@@ -28,6 +28,7 @@ As such, this article is a forerunner of the development of the full [[model cat
 
 But the [[homotopy category of an (∞,1)-category|homotopy category]] of these [[(∞,1)-topos]]es -- that category which remembers just the [[∞-stack]] [[cohomology]] classes, and not the [[cocycle]]s -- is precisely what Kenneth Brown constructed, studied and identified correctly in its nature back then in 1973.
 
+See also at _[[Ken Brown's lemma]]_.
 
 category: reference
 
