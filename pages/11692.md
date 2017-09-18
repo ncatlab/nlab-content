@@ -19,7 +19,7 @@
 
 ## Definition
 
-For $X$ a suitably well behaved ([[smooth variety|smooth]] [[complex variety|complex]], [[projective variety|projective]]) [[algebraic variety]] of [[dimension]] $dim(X)$ then its _Albanes variety_ $Alb(X)$ is the [[intermediate Jacobian]] in degree $2 dim(X)-1$:
+For $X$ a suitably well behaved ([[smooth variety|smooth]] [[complex variety|complex]], [[projective variety|projective]]) [[algebraic variety]] of [[dimension]] $dim(X)$ then its _Albanese variety_ $Alb(X)$ is the [[intermediate Jacobian]] in degree $2 dim(X)-1$:
 
 $$
   Alb(X) \coloneqq J^{2 dim(X)-1}(X)
