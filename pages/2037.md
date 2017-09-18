@@ -39,9 +39,8 @@ The standard example is the sequence of consecutive doubles starting with $\math
 
 *  [[M M Postnikov]], _Lectures on geometry, Semester V: Lie groups and Lie algebras_, Lec. 14 (russian and english editions)
 
-*  [[John Baez]], [The Cayley--Dickson construction](http://math.ucr.edu/home/baez/octonions/node5.html)
-
-*  John Baez, [This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)
+* [[John Baez]], _Octonions_, Bull. Amer. Math. Soc. 39 (2002), 145-205 [doi](http://dx.doi.org/10.1090/S0273-0979-01-00934-X)
+*  [[John Baez]], [The Cayley--Dickson construction](http://math.ucr.edu/home/baez/octonions/node5.html); [This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)
 
 
 [[!redirects Cayley-Dickson construction]]
