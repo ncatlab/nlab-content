@@ -750,6 +750,12 @@ A detailed discussion of the [[quantum anomaly]] of the supergravity C-field -- 
 
 * [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_ , Communications in mathematical physics,  Volume 263, Number 1, 89-132, DOI: 10.1007/s00220-005-1482-7  ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135))
 
+Discussion of the dual 6-form field to the 3-form C-field (required notably in the context of [[exceptional generalized geometry]]) includes
+
+* [[Eugene Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]], _Dualisation of Dualities, II: Twisted self-duality of doubled fields and superdualities_, Nucl.Phys.B535:242-292,1998 ([arXiv:hep-th/9806106](http://arxiv.org/abs/hep-th/9806106))
+
+* [[Eric Bergshoeff]], Mees de Roo, [[Olaf Hohm]], _Can dual gravity be reconciled with E11?_, 	Phys.Lett.B675:371-376,2009 ([arXiv:0903.4384](http://arxiv.org/abs/0903.4384))
+
 [[!redirects C3-field]]
 [[!redirects C-field]]
 
