@@ -29,7 +29,7 @@ In other words, a quandle is a set $Q$ equipped with two binary operations, $\tr
 
 \[ (a \triangleright b)\triangleleft a = b \]
 
-\[ a \triangleright (b \triangleleft a) = a \]
+\[ a \triangleright (b \triangleleft a) = b \]
 
 \[    a \triangleright a = a \]
 
