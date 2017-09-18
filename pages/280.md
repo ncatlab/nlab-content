@@ -37,7 +37,7 @@ For fixed $x \in X$ this produces an [[endofunction]] $act(x,-) \colon Y \to Y$ 
 
 Here $(x\mapsto act(x,-))$ is the _[[currying|curried]]_ function $\widehat{act}\colon X \to Y^Y$ of the original $act$, which maps $X$ to the [[function set|set of]] of [[endofunctions]] on $Y$.[^SetActions] Quite generally one has these two perspectives on actions.
 
-[^SetActions]: In the category [[Set]] there is no difference between the above left action and the right action  $actR\colon Y \times X \to Y$ because the [[cartesian product]] is [[symmetric monoidal category|symmetric monoidal]]. However for the action of a [[monoid]] on a set (sometimes called [[MSet| M-set]] or M-act) the product of a monoid and a set does not  commute so the left and right actions are different.  The action of a set on a set is the same as an arrow labeled [[directed graph]] $arrows\colon vertices \times labels \to vertices$ which specifies  that each vertex must have a set of arrows leaving it with one arrow per label, and is also the same as a simple (non halting) [[deterministic automaton]]  $transition\colon inputs \times states \to states$.
+[^SetActions]: In the category [[Set]] there is no difference between the above left action and the right action  $actR\colon Y \times X \to Y$ because the [[cartesian product]] is [[symmetric monoidal category|symmetric monoidal]]. However for the action of a [[monoid]] on a set (sometimes called [[MSet| M-set]] or M-act) the product of a monoid and a set does not  commute so the left and right actions are different.  The action of a set on a set is the same as an arrow-labelled [[directed graph]] $arrows\colon vertices \times labels \to vertices$ which specifies  that each vertex must have a set of arrows leaving it with one arrow per label, and is also the same as a simple (non halting) [[deterministic automaton]]  $transition\colon inputs \times states \to states$.
 
 Usually the key aspect of an action of some $X$ is that $X$ itself carries an algebraic structure, such as being a [[group]] (or just a [[monoid]]) or being a [[ring]] or an [[associative algebra]]. (If these structures act on an [[abelian group]] or [[vector space]] $Y$ by [[linear functions]], then one calls the action also a _[[module]]_ or _[[representation]]_.)
 
@@ -92,7 +92,9 @@ The _category of actions_ of $M$ in $C$ is then defined to be the [[functor cate
 
 ### Actions of a category
 
-One can also define an [[action of a category on a set|action of a category]] $D$ on the category $C$ as a functor from $D$ to $C$, but usually one just calls this a [[functor]]. 
+One can[^2] also define an [[action of a category on a set|action of a category]] $D$ on the category $C$ as a functor from $D$ to $C$, but usually one just calls this a [[functor]].
+
+[^2]: One example of this relatively rare usage is [[William Lawvere]]: _Qualitative Distinctions Between Some Toposes of Generalized Graphs_, Contemporary Mathematics 92 (1989) in which this sense of action is routinely used.
 
 Another perspective on the same situation is: a (small) category is a [[monad]] in the category of [[span]]s in [[Set]]. An action of the category is an algebra for this monad. See [[action of a category on a set]]. 
 
