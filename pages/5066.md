@@ -74,6 +74,8 @@ If the filtered spaces $U^f_*$ are [[connected filtered space]]s for all finite 
 
 1. (Iso) The fundamental [[crossed complex]] functor $\Pi$ takes the above coequaliser diagram of filtered spaces to a coequaliser diagram of crossed complexes.
 
+A full account is given in ([Brown-Higgins-Sivera](#NAT) and the methodology is discussed in ([Brown](#RBrown)). 
+
 =--
 
 **Remarks**
@@ -82,7 +84,7 @@ If the filtered spaces $U^f_*$ are [[connected filtered space]]s for all finite 
 
 * The proof of the theorem is not direct but goes via the fundamental cubical $\omega$-groupoid with connections of the filtered spaces, as that context allows the notions of _algebraic inverse to subdivision_ and of _commutative cube_. However the proof is a direct generalisation of a proof for the [[van Kampen theorem]] for the [[fundamental groupoid]].  
 
-* Applications of this theorem include many basic facts in algebraic topology, such as the Relative Hurewicz Theorem, the Brouwer degree theorem, and new nonabelian results on 2nd relative homotopy groups, not of course obtainable by the traditional wholly abelian methods. No use is made of _singular homology theory_ or of _simplicial approximation_.
+* Applications of this theorem include many basic facts in algebraic topology, such as the Relative Hurewicz Theorem, the Brouwer degree theorem, and new nonabelian results on 2nd relative homotopy groups, not of course obtainable by the traditional wholly abelian methods. No use is made of _singular homology theory_ or of _simplicial approximation_. Also included is a version of the "small simplex theorem", see Theorem 10.4.20 of ([Brown-Higgins-Sivera](#NAT)). 
 
 
 
@@ -101,7 +103,7 @@ Here is one application in dimension 2 not easily obtainable by traditional [[al
 
 Let $0 \to P \to Q \to R \to 0$ be an [[exact sequence]] of [[abelian groups]]. Let $X$  be the [[mapping cone]] of the induced map $K(P,1) \to K(Q,1)$ of [[Eilenberg-Mac Lane space]]s. Then a [[crossed module]] representing the [[homotopy 2-type]] of $X$ is $\mu: C \to Q$ where $C$ is abelian and is the direct sum $\oplus_{r \in R} P^r$  of copies of $P$ one for each $r \in R$ and the action of $Q$ is via $R$ and permutes the copies by $(p,r)^s=(p,r+s)$. Similar examples for $P,Q,R$ nonabelian are do-able,   more complicated, and certainly **not** obtainable by traditional methods.
 
-See also the CT2015 presentation ([Brown 2015](#RBrown))
+ 
 
 
 
@@ -114,12 +116,16 @@ The version for topological spaces and the [[fundamental infinity-groupoid]] fun
 
 The version for filtered topological spaces and the strict homotopy $\infty$-groupoid functor is discussed in
 
-* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_
+* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_ (#NAT)
 
-while the general method is discussed in 
+while the general methodology is discussed in 
 
-* [[Ronnie Brown]] "A philosophy of modelling and computing homotopy types", Seminar 
-to CT2015, Aveiro, June 2015. [pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/aveiro-beamer-handout.pdf ) {#RBrown}
+* [[Ronnie Brown]] "Modelling and computing homotopy types: I" to appear in 2017 in a special issue of Indagationes Math in honour of L.E.J. Brouwer. (https://arxiv.org/abs/1610.07421) (#RBrown)
+
+One area of application of work of Brown and Loday is to a nonabelian tensor product of groups, see:
+
+* [[Ronnie Brown]] Bibliography on the nonabelian tensor product. (http://www.groupoids.org.uk/nonabtens.html) (#tens)
+
 
 [[!redirects Higher Homotopy van Kampen Theorem]]
 [[!redirects higher homotopy van Kampen Theorem]]
