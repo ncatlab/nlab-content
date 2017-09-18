@@ -1,0 +1,20 @@
+
+This page collects material related to 
+
+* [[William Dwyer]], J. Spalinski,
+
+  _Homotopy theories and model categories_
+
+  ([pdf](http://folk.uio.no/paularne/SUPh05/DS.pdf))
+
+  in 
+
+  [[Ioan Mackenzie James]],
+
+  _[[Handbook of Algebraic Topology]]_
+
+  1995
+
+on [[homotopy theory]] and [[model category]] theory,
+
+category: reference
