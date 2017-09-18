@@ -1,0 +1,60 @@
+[[!redirects Pseudo-Banach ring]]
+[[!redirects pseudo-Banach rings]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea and motivations
+
+The notion of pseudo-Banach ring is a generalization of the notion of [[Banach rings]], essentially obtained by replacing the usual triangular inequality $|a+b|\leq |a|+|b|$ by the more natural (in a categorical sense) weak triangular inequality
+$|a+b|\leq C\cdot\max(|a|,|b|)$.
+
+Their use allows the definition of an $\mathbb{R}_+^*$-action on various categories of [[global analytic spaces]].
+
+They are also the natural objects that appear as $\pi_0$ of spectral rings in
+[[spectral global analytic geometry]].
+
+## Definition
+
+A pseudo-Banach ring is a ring object in the rig category $(\mathbb{R}_{+\leq}^\mathrm{Sets},\oplus_\infty,\otimes_m)$
+of $\mathbb{R}_+$-graded sets (with bounded maps between them).
+This means a set $R$ with a norm
+$|\cdot|_R:R\to \mathbb{R}_+$ such that there exists $C$, $D$ and $E$ with
+
+* $|a+b|\leq C\cdot \max(|a|,|b|)$,
+
+* $|ab|\leq D\cdot|a|\cdot|b|$,
+
+* $|0|=0$,
+
+* $|1|\leq E\cdot 1$ (one often supposes additionally that $|1|=1$).
+
+## Modules and their operations
+
+If $X$ is an $\mathbb{R}_+$-graded set, and $R$ is a pseudo-Banach ring, one may define an associated pseudo-normed free module $R^{(X)}$ by putting on
+the usual free module a convenient grading (not given by the usual $\ell^1$ grading). Using this, and the coproduct and product of $\mathbb{R}_+$-graded sets, one defines direct sums and tensor products of modules.
+
+One may also work with the category of ind-pseudo-Banach ring, and of ind-pseudo-Banach modules over them.
+
+## A natural flow
+
+The action of $\mathbb{R}_+^*$ on all these objects is simply given by acting on the grading through
+$$|\cdot|\mapsto |\cdot|^t:=e^{t\mathrm{ln}|\cdot|}.$$
+
+## Related subjects
+
+[[global analytic geometry]]
+
+[[overconvergent global analytic geometry]]
