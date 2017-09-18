@@ -52,6 +52,10 @@ The [[long exact sequences of homotopy groups]] for each of the hooks in the tow
 
 * [[filtered object in an (infinity,1)-category]]
 
+  * [[filtered chain complex]]
+
+  * [[filtered spectrum]]
+
 [[!redirects towers of homotopy fibers]]
 
 [[!redirects tower of fibrations]]
