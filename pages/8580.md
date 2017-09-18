@@ -80,6 +80,8 @@ Divided into two parts:
 
 1. [WZW terms](#WZWTerms)
 
+1. [BPS charges](#BPSCharges)
+
 **Part II) [Physics](#PHYSICS)**
 
 1. [Physics in Higher Geometry: Motivation and Survey](#PhysicsMotivationAndSurvey)
@@ -481,6 +483,8 @@ We begin by laying the foundations of [[differential geometry]]. Doing this in t
 
 1. [WZW terms](#WZWTerms)
 
+1. [BPS charges](#BPSCharges)
+
 =--
 
 
@@ -590,6 +594,11 @@ this chapter is at _[[geometry of physics -- supergeometry]]_
  {#WZWTerms}
 
 this chapter is at _[[geometry of physics -- WZW terms]]_
+
+## BPS charges
+ {#BPSCharges}
+
+this chapter is at _[[geometry of physics -- BPS charges]]_
 
 +-- {: bluebox #PHYSICS}
 ###### Contents
