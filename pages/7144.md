@@ -188,7 +188,7 @@ However, in contrast to the classical situation, this morphism is not in general
 
 ## Examples
 
-### For an $\infty$-group acting on itself
+### For a group acting on itself
 
 For $G$ any [[∞-group]] in an [[(∞,1)-topos]] $\mathbf{H}$, its (right) [[action]] on itself is given by the [[looping and delooping|looping/delooping]] [[fiber sequence]]
 
@@ -313,6 +313,29 @@ $$
 Here the bottom map is indeed the name of $\alpha \circ p_1$ and so again by the pullback characterization of [Hom-spaces in a slice](over-%28infinity%2C1%29-category#HamSpacesInASlice) this pasting diagram does exhibit $\mathbf{H}_{/\mathbf{B}G}(A\times_{\mathbf{B}G} Y, X)$ as indicated.
 
 =--
+
+### For the canonical action on a coset space
+
+Conversely, for $H \to G$ given, then the canonical $G$-action for which $H$ is the stabilizer group of a point is the canonical action on (the "[[coset]]") $G/H$.
+
+This follows from def. \ref{StabilizerInInfinityTopos} by observing that the homotopy fiber sequence of prop. \ref{InfinityAction} for the $G$-action on $G/H$ is just 
+
+$$
+  \array{
+    G/H &\stackrel{}{\longrightarrow}& \mathbf{B}H
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+so that for any point $x \colon \ast \to G/H$ we have
+
+$$
+  Stab(x) \simeq \Omega_{x}(\mathbf{B}H) \simeq \Omega_\ast \mathbf{B}H \simeq H
+  \,.
+$$
 
 ## Related concepts
 
