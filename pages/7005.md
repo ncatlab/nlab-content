@@ -292,7 +292,7 @@ An accessible account of Voevodsky's proof that the universal [[Kan fibration]] 
 
 A quick elegant proof of the [[object classifier]]/universal [[associated infinity-bundle]] in simplicial sets/$\infty$-groupoids is in 
 
-* {#Moerdijk} [[Ieke Moerdijk]] (notes by Chris Kapulkin), _Fiber bundles and univalence_ ([pdf](http://www.pitt.edu/~krk56/fiber_bundles_univalence.pdf))
+* {#Moerdijk} [[Ieke Moerdijk]] (notes by Chris Kapulkin), _Fiber bundles and univalence_ ([pdf](http://www-home.math.uwo.ca/~kkapulki/notes/fiber_bundles_univalence.pdf))
  
 See also 
 
