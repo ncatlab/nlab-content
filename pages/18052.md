@@ -13,7 +13,7 @@
 {:toc}
 
 ## Idea
-Countable dense linear orders without endpoints are unique up to isomorphism, and are canonically modeled by $(\mathbb{Q}, &lt;)$.
+Countable dense linear orders without endpoints are unique up to isomorphism, and are canonically modeled by the [[rational numbers]] $(\mathbb{Q}, &lt;)$.
 
 ## Definition
 The theory $\mathsf{DLO}$ of the _dense linear order without endpoints_ is the [[first-order theory]] of $(\mathbb{Q}, &lt;0$. It is axiomatized by the usual axioms of a linear order, plus the sentences which state that the order is dense and that there is neither an upper nor lower bound on the order.
