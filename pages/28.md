@@ -1,4 +1,7 @@
 
+> This article is about the notion prevalent in [[category theory]] and [[homotopy theory]], also known as a Brandt groupoid. For the notion involving a globally defined binary operation, see [[magma]]. 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,7 +17,57 @@
 {: toc}
 
 
-*(This article is about the notion prevalent in category theory and homotopy theory, also known as a Brandt groupoid. For the notion involving a globally defined binary operation, see [[magma]].)* 
+
+## Idea
+
+Where a _[[group]]_ may be thought of as a _group of transformations_ that [[isomorphism|isomorphically]] relates one [[object]] to itself (the _[[symmetries]]_ of one objects, such as the [[isometries]] of a [[polyhedron]]) a _groupoid_ is a collection of isomorphic transformations acting between possibly more than one object.
+
+Hence a groupoid consists of a set of objects $x, y, z, \cdots$ and for each [[pair]] of objects $(x,y)$ there is a set of transformations, usually denoted by arrows
+
+$$
+  x \overset{f}{\longrightarrow} y
+$$
+
+which may be composed if they are composable (i.e. if the first ends where the second starts)
+
+$$
+  \array{
+    && y
+    \\
+    & {}^{\mathllap{f}}\nearrow && \searrow^{\mathrlap{g}}
+    x && \underset{g \circ f}{\longrightarrow}  && z
+  }
+$$
+
+such that this composition is [[associativity|associative]] and such that for each object $x$ there is identity transformation $x \overset{id_X}{\longrightarrow} x$ in that this is a [[neutral element]] for the composition of transformations, whenever defined.
+
+So far this structure is what is called a _[[small category]]_. What makes this a _([[small groupoid]]) groupoid_ is that all these transformations are to be "symmetries" in that they are [[invertible morphisms]] meaning that for each transformation $x \overset{f}{\longrightarrow} y$ there is a transformation the other way around $y \overset{f^{-1}}{\longrightarrow} x$ such that 
+
+$$
+  f^{-1} \circ f  = id_x 
+  \phantom{AAAA}
+  f \circ f^{-1} = id_y
+  \,.
+$$
+
+If there is only a single object $x$, then this definition reduces to that of a [[group]], and in this sense groupoids are "groups with many objects". Conversely, given any groupoid $\mathcal{G}$ and a choice of one of its objects $x$, then the subcollection of transformations from and to $x$ is a group, sometimes called the [[automorphism group]] $Aut_{\mathcal{G}}(x)$ of $x$ in $\mathcal{G}$.
+
+Just as for groups, the "transformations" above need not necessarily be given by concrete transformations (say by [[bijections]] between [[objects]] which are [[sets]]). Just as for groups, such a concrete realization is always possible, but is an extra choice (called a [[representation]] of the groupoid).
+
+An archetypical example of a groupoid is the [[fundamental groupoid]] $\Pi_1(X)$ of a [[topological space]] (for introduction see [here](Introduction+to+Topology+--+2#Homotopy)): For $X$ a topological space, this is the groupoid whose 
+
+* [[objects]] are the points $x \in X$;
+
+* [[morphisms]] $x \overset{[\gamma]}{\longrightarrow} y$ are the [[homotopy relative boundary]]-[[equivalence classes]] $[\gamma]$ of [[paths]] $\gamma \colon [0,1] \to X$ in $X$, with $\gamma(0) = x$ and $\gamma(1) = y$; 
+
+and [[composistion]] is given, on representatives, by [[concatenation]] of paths. Here the class of the [[reverse path]] $\bar\gamma \;\colon\; t \mapsto \gamma(1-t)$ constitutes the inverse morphism, making this a groupoid.
+
+If one _chooses_ a point $x \in X$, then the corresponding group at that point is the _[[fundamental group]]_ $\pi_1(X,x) \coloneqq Aut_{\Pi_1(X)}(x)$ of $X$ at that point. 
+
+This highlights one of the reasons for being interested in groupoids over groups: Sometimes this allows to avoid unnatural ad-hoc choices and it serves to streamline and simplify the theory. 
+
+On the other hand, 
+
 
 ## Definition
 
