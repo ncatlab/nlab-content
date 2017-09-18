@@ -25,7 +25,11 @@ holds whenever $i \geq \alpha$.  It is easy to prove that this is an [[equivalen
 
 This definition comes in two steps: one to identify the Cauchy sequences from among the infinite sequences, another to identify equivalent sequences.  Actually, we can do this in one step by placing a [[partial equivalence relation]] on the set of *all* infinite sequences of rational numbers.  Two sequences $x,y$ are considered equivalent if, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that
 $$ {|x_i - y_j|} \leq \epsilon $$
-holds whenever $i \geq \alpha$.  It is immediate that a sequence $x$ is Cauchy if and only if it equivalent to itself, and it is easy to prove that two Cauchy sequences $x,y$ are equivalent if and only if they are equal as real numbers using the definition above.  Thus, we can construct $\mathbb{R}$ immediately as a [[subquotient]] of the [[function set]] $\mathbb{Q}^{\mathbb{N}}$.
+holds whenever $i \geq \alpha$.  
+
+**Remark:** Should this rather be replaced by "... holds whenever $i,j \geq \alpha$"?
+
+It is immediate that a sequence $x$ is Cauchy if and only if it equivalent to itself, and it is easy to prove that two Cauchy sequences $x,y$ are equivalent if and only if they are equal as real numbers using the definition above.  Thus, we can construct $\mathbb{R}$ immediately as a [[subquotient]] of the [[function set]] $\mathbb{Q}^{\mathbb{N}}$.
 
 
 ### Moduli of convergence
