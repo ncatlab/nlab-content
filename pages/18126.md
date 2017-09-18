@@ -8743,14 +8743,14 @@ always decompose _at least as sets_ into their connected components:
 
 For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
 are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
-regards two points as equivalent if they both sit in some [[open subset]]
+regards two points as equivalent if they both sit in some [[subset]]
 which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
 
 $$
   (x \sim y)
     \;\coloneqq\;
   \left(
-    \underset{ U \subset X \; \text{open} }{\exists}
+    \underset{ U \subset X  }{\exists}
     \left(
        \left( x,y \in U \right)
         \phantom{A}\text{and}\phantom{A}
