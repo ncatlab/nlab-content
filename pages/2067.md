@@ -147,7 +147,7 @@ We discuss equivalent reformulations of the above definition of Cartesian
 morphism that lend themselves better to generalization to 
 [[higher category theory]].
 
-For the following, we need this notionation: let 
+For the following, we need this notation: let 
 
 * $X/x_2$ by the [[overcategory]] of $X$ over the object $x_2$;
 
