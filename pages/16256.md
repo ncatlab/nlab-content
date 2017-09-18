@@ -55,7 +55,7 @@ where
 
 Away from $\{0\} \in \mathbb{R}^3$ this gives a [[circle bundle]] with [[first Chern class]] measured by the integral of $R_0 \coloneqq d A$ (the [[RR-field]] of the [[D0-brane]]) over any [[sphere]] surrounding the singular locus in $\mathbb{R}^3 - \{0\}$. By the [[electric-magnetic duality]] between [[D0-branes]] and [[D6-branes]] (due to the [[self-dual higher gauge theory|self-duality]] of the [[RR-field]]) this means, from the 10-dimensional perspective, that at $0 \in \mathbb{R}^3$ a [[D6-brane]] is located.
 
-Generalization of this discussion to the case that the locus of the D6 is not taken out is in ([Gaillard-Schmude 09](#GaillardSchmude09)).
+Discussion as an [[ADE singularity|A-type ADE singularity]] is in ([Sen 97, section 2](#Sen97)). Generalization to [[ADE singularity|D-type singularities]] and hence D6-branes in [[orientifolds]] is in ([Sen 97 ,section 3](#Sen97)). Generalization to the case that the locus of the D6 is not taken out is in ([Gaillard-Schmude 09](#GaillardSchmude09)).
 
 For more on this see at _[D6-brane -- Relation to other branes](D6-brane#RelationToOtherBranes)_.
 
@@ -114,6 +114,8 @@ Review includes
 * {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187,1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
 * {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
+
+* {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
