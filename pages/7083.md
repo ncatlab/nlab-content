@@ -42,7 +42,7 @@ In other words, any two parallel paths in $A$ are equal.
 
 A provably [[equivalence in homotopy type theory|equivalent]] definition is
 $$isSet(A) \coloneqq \prod_{x\colon A} \prod_{p\colon x=x} (p=id_x)$$
-This says that a version of Streicher's "axiom K" holds for h-sets.
+This says that a version of Streicher's "[[axiom K]]" holds for h-sets. (See also at _[[axiom UIP]]_.)
 
 
 ## Examples
