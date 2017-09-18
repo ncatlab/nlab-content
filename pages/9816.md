@@ -44,7 +44,7 @@ There is a universal [[orientation in generalized cohomology]] of
 
 * [[KO]] over [[spin structure]]
 
-hence [[E-infinity ring]] homomorphisms
+hence [[E-infinity ring]] homomorphisms out of the [[Thom spectrum]] [[MSpin]]
 
 $$
   M Spin \longrightarrow KO
