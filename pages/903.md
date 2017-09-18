@@ -93,7 +93,7 @@ These magmas are in fact [[groups]]; in particular:
 +-- {: .num_remark}
 ###### Remark
 
-This is closely related to the statement that the [[n-spheres]] are [[cogroup]] objects (see there) in the [[homotopy category]] of [[pointed topological spaces]].
+This is closely related to the statement that the [[positive dimension spheres are H-cogroup objects]] (see there) in the [[homotopy category]] of [[pointed topological spaces]].
 
 =--
 
