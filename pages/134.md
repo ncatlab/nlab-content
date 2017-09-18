@@ -29,12 +29,12 @@ The [[homotopy category]] of $Top$ given by its [[localization]] at the [[weak h
 
 ### Universal constructions
 
-We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc.
+We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc. The following definition suggests that universal constructions be seen in the context of $Top$ as a [[topological concrete category]] (see Proposition \ref{topcat} below): 
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
 
-Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[set]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
+Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
 
 * For $\{S \stackrel{f_i}{\to} S_i \}_{i \in I}$ a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I}))\to X_i$ are [[continuous function|continuous]].
 
@@ -63,7 +63,7 @@ a [[topological subspace]] inclusion.
 
 
 +-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
-###### Poposition
+###### Proposition
 
 Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$ be an $I$-[[diagram]] in [[Top]] (a [[functor]] from $I$ to $Top$), with components denoted $X_i = (S_i, \tau_i)$, where $S_i \in Set$ and $\tau_i$ a topology on $S_i$. Then:
 
@@ -229,7 +229,7 @@ for the [[forgetful functor]] that sends a topological space $X = (S,\tau)$ to i
 Prop. \ref{DescriptionOfLimitsAndColimitsInTop} means in particular that:
 
 +-- {: .num_prop }
-###### Poposition
+###### Proposition
 
 The category [[Top]] has all small [[limits]] and [[colimits]]. The [[forgetful functor]] $U \colon Top \to Set$ from def. \ref{ForgetfulFunctorFromTopToSet} [[preserved limit|preserves]] and [[lifted limit|lifts]] limits and colimits.
 
@@ -253,7 +253,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #topcat}
 ###### Proposition
 
 The [[forgetful functor]] $U$ from def. \ref{ForgetfulFunctorFromTopToSet} exhibits $Top$ as 
