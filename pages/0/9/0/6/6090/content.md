@@ -220,39 +220,49 @@ The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]]
 
 $\,$
 
-> under construction
-
 
 #### Spacetime and Causality
  {#SpacetimeAndCausality}
 
 
 
-Let $X$ be a [[time orientation|time-oriented]] [[globally hyperbolic Lorentzian manifold]] ([[spacetime]]) of [[dimension]]
+Throughout, let
+$\Sigma$ be a [[time orientation|time-oriented]] [[globally hyperbolic Lorentzian manifold]] of [[dimension]]
 
 $$
   p + 1 \in \mathbb{N}
 $$
 
-+-- {: .num_defn}
+This is to model the [[spacetime]] over which we consider [[field theory]]. Hence we will often refer to $\Sigma$
+just as _[[spacetime]]_, for short. 
+
+We need to consider the following concepts and constructions related to the [[causal structure]] of $\Sigma$.
+
++-- {: .num_defn #CausalPastAndFuture}
 ###### Definition
 **(causal [[past]] and [[future]])**
 
 For $x \in \Sigma$ a point in spacetime, we write
 
 $$
-  V^+(x), V^-(x) \subset \mathbb{R}^{d-1,1}
+  V^+(x), V^-(x) \subset \Sigma
 $$
 
 for its [[open future cone]] and [[open past cone]], respectively, and
 
 $$
-  \overline{V}^+(x), \overline{V}^-(x) \subset \mathbb{R}^{d-1,1}
+  \overline{V}^+(x), \overline{V}^-(x) \subset \Sigma
 $$
 
-for the corresponding closed cones.
+for the corresponding closed cones. We write 
 
-For $S \subset \mathbb{R}^{d-1,1}$ a [[subset]] we write
+$$
+  J(x) \coloneqq \overline{V}^+(x) \cup \overline{V}^-(x)
+$$
+
+for the full [[causal cone]].
+
+For $S \subset \Sigma$ a [[subset]] we write
 
 $$
   \overline{V}^\pm(S)
@@ -264,11 +274,16 @@ for the union of the future/past closed cones of all its points.
 
 =--
 
+
+
 +-- {: .num_defn #CausalOrdering}
 ###### Definition
-**(causal ordering)**
+**(causal order)**
 
-Consider the [[relation]] on the set $P(\mathbb{R}^{d})$ of [[subsets]] of spacetime given by
+Consider the [[relation]] on the set $P(\Sigma)$ of [[subsets]] of spacetime 
+which says a [[subset]] $S_1 \subset \Sigma$ is _not prior_ to a subset $S_2 \subset \Sigma$, 
+denoted $S_1 \geq S_2$, if $S_1$ does not [[intersection|intersect]] the [[causal past]] of $S_2$ (def. \ref{CausalPastAndFuture}),
+or equivalently that $S_2$ does not intersect the [[causal future]] of $S_1$:
 
 $$
   \begin{aligned}
@@ -276,7 +291,7 @@ $$
     & \coloneqq
     S_1 \cap \overline{V}^-(S_2) = \emptyset
     \\
-    \Leftrightarrow & S_2 \cap \overline{V}^+(S_1) = \emptyset
+    & \Leftrightarrow S_2 \cap \overline{V}^+(S_1) = \emptyset
    \end{aligned}
    \,.
 $$
@@ -285,27 +300,57 @@ If $S_1 \geq S_2$ and $S_2 \geq S_1$ we say that the two subsets are _[[spacelik
 
 =--
 
++-- {: .num_example #CausalComplementOfSubsetOfLorentzianManifold}
+###### Definition
+**([[causal complement]] of subset of [[spacetime]])**
+
+For $S \subset X$ a [[subset]] of [[spacetime]], its _[[causal complement]]_ $S^\perp$ is the [[complement]] of the [[causal cone]]:
+
+$$
+  S^\perp \;\coloneqq\; S \setminus J_X(S)
+  \,.
+$$
+
+The causal complement $S^{\perp \perp}$ of the causal complement $S^\perp$ is called the _[[causal closure]]_. If
+
+$$
+  S = S^{\perp \perp}
+$$
+
+then the subset $S$ is called a _[[causally closed subset]]_.
+
+=--
+
+
 +-- {: .num_defn #CutoffFunctions}
 ###### Definition
-**(cutoff functions)**
+**([[adiabatic switching]])**
 
-For a [[causally closed subset]] $\mathcal{S} \subset X$ let
+For a [[causally closed subset]] $\mathcal{O} \subset \Sigma$ of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold}) say that an
+_[[adiabatic switching]] function_ or  _cutoff function_ for $\mathcal{O}$
+is a [[smooth function]] $g_{sw}$ of [[compact support]] (a [[bump function]]) whose 
+restriction to some [[neighbourhood]] of $\mathcal{O}$ is the [[constant function]] 
+with value $1$:
 
 $$
-  Cutoffs(S)
-  \coloneqq
+  Cutoffs(\mathcal{O})
+  \;\coloneqq\;
   \left\{
     g_{sw} \in \mathcal{C}^\infty_c(\Sigma)
-    \;\|\;
+    \;\vert\;
     \underset{ {U \supset \mathcal{O}} \atop { \text{neighbourhood} } }{\exists}
     \left(
-      g_{sw}\vert_U = const_1
+      g_{sw}\vert_S = const_1
     \right)
   \right\}
+  \,.
 $$
 
-be the set of those [[adiabatic switching]] functions which are [[constant function|constant]] on $1 \in \mathbb{R}$
-on a [[neighbourhood]] $U$ of $\mathcal{O}$ in $X$.
+Often we consider the vctor space space $C^\infty(\Sigma)\langle g \rangle $ spanned by a formal
+variable $g$ under multiplication with smooth functions, and consider as adiabatic switching functions
+the corresponding images in this space, which are hence bump functions constant on $g$ over 
+a neighbourhood of $\mathcal{O}$.
+
 
 =--
 
@@ -313,11 +358,11 @@ on a [[neighbourhood]] $U$ of $\mathcal{O}$ in $X$.
 ###### Lemma
 **(causal partition)**
 
-Let $\mathcal{O} \subset \Sigma$ be a [[causally closed subset]]
+Let $\mathcal{O} \subset \Sigma$ be a [[causally closed subset]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
 and let $f \in C^\infty_c(\Sigma)$ be a [[compact support|compactly supported]] [[smooth function]] which vanishes
 on a [[neighbourhood]] $U \supset \mathcal{O}$, i.e. $f\vert_U = 0$.
 
-Then there exists a causal partition of $f$ in that there
+Then there exists a _causal partition_ of $f$ in that there
 exist compactly supported smooth functions $a,r \in C^\infty_c(\Sigma)$
 such that
 
@@ -344,8 +389,8 @@ extended to a Cauchy surface $\Sigma_p$ of $\Sigma$, such that this is one [[lea
 of a [[foliation]] of $\Sigma$ by Cauchy surfaces, given by a [[diffeomorphism]]
 $\Sigma \simeq (-1,1) \times \Sigma_p$ with the original $\Sigma_p$ at zero.
 There exists then $\epsilon \in (0,1)$ such that
-the restriction of $supp(f)$ to the interval $(-\epsion, \epsilon)$ is
-in the [[causal complement]] $\overline{\mathcal{O}}$ of the given region:
+the restriction of $supp(f)$ to the interval $(-\epsilon, \epsilon)$ is
+in the [[causal complement]] $\overline{\mathcal{O}}$ of the given region (def. \ref{CausalComplementOfSubsetOfLorentzianManifold}):
 
 $$
   supp(f) \cap (-\epsilon, \epsilon) \times \Sigma_p
@@ -378,6 +423,20 @@ are smooth functions as required.
 
 #### Free fields and Propagators
 
+The definition and construction of a perturbative S-matrix below proceeds on the backdrop of a 
+([[formal deformation quantization|formal]]) [[quantization]] of the underlying [[free field theory]],
+in particular a corresponding [[algebra of observables]], the _[[Wick algebra]]_ $\mathcal{W}$.
+
+Just stating the [[axioms]] for the S-matrix ([below](#PerturbativeSMatrixAndTimeOrderedProducts)) only requires knowing that there is a well behaved map
+
+$$
+  \widehat{(-)} 
+    \;\colon\; 
+  \mathcal{F}_{loc} \longrightarrow \mathcal{W}
+$$
+
+from [[local observables]] to the Wick algebra. The actual construction of the S-matrix ([further below](#ExistenceAndRenormalization)) and the proof of the
+[[main theorem of perturbative renormalization]] requires more details, which we briefly summarize here.
 
 Let $E \coloneqq \Sigma \times \mathbb{R} \overset{pr_1}{\to} \Sigma$ be the [[field bundle]] for the real
 [[scalar field]] and write $\Gamma_\Sigma(E) = C^\infty(\Sigma,\mathbb{R
@@ -979,7 +1038,7 @@ $$
 $$
 
 We claim now that the [[support of a distribution|support]] of $R$ is inside the subset for which
-$\mathbf{Y}$ is in the causal past of $\mathbf{X}$. This will imply the claim, because by
+$\mathbf{Y}$ is in the [[causal past]] of $\mathbf{X}$. This will imply the claim, because by
 multi-linearity of $R(-,-)$ it then follows that
 
 $$
@@ -2234,5 +2293,3 @@ An entertaining account of some of the history and the sociology of S-matrix the
 
 [[!redirects S-matrix theory]]
 [[!redirects S-matrix theories]] 
-
-[[!redirects Feynman perturbation series]]
