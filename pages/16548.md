@@ -53,7 +53,10 @@ In the context of [[differential geometry]] the comonad structure on the jet bun
 
   (notice that prop. 1.3 there holds only if the equalizer exists in the first place)
 
-* {#Marvan89} [[Michal Marvan]] section 1.1 of _On the horizontal cohomology with general coefficients_, 1989 ([web announcement](http://old.math.slu.cz/People/MichalMarvan/Annotations/horizontal.php), [web archive](http://dml.cz/dmlcz/701469))
+* {#Marvan89} [[Michal Marvan]], _On the horizontal cohomology with general coefficients_, 1989 ([web announcement](http://old.math.slu.cz/People/MichalMarvan/Annotations/horizontal.php), [web archive](http://dml.cz/dmlcz/701469))
+
+* {#Marvan93} [[Michal Marvan]], section 1.1 of _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
+
 
 
 In the conext of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in 
