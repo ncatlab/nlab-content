@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -29,7 +28,7 @@
 
 Regarding [[Aristotelian logic]]:
 
-> _Concepts ... serve as predicates of possible judgements._ ([[Critique of Pure Reason]] A69/B94)
+> _Concepts [Begriffe] ... serve as predicates of possible judgements._ ([[Critique of Pure Reason]] A69/B94)
 
 Compare to the identification of concepts with the [[types]] in the sense of [[type theory]], see the references [here](Science+of+Logic#ReferencesConceptLogicAsTypeTheory).
 
