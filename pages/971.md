@@ -28,13 +28,13 @@ An accessible [[category]] is a possibly [[large category]] which is however ess
 +-- {: .num_defn }
 ###### Definition 
 
-A [[locally small category]] $C$ is **accessible** if for some [[regular cardinal]] $\kappa$:
+A [[locally small category]] $C$ is **$\kappa$-accessible** for a [[regular cardinal]] $\kappa$ if:
 
 1.  the category has $\kappa$-[[directed colimits]] (or, equivalently, $\kappa$-filtered colimits), and
 
 1.  there is a [[set]] of $\kappa$-[[compact objects]] that generate the category under $\kappa$-directed colimits.
 
-If $C$ satisfies these properties for some $\kappa$, we say that it is **$\kappa$-accessible**.
+Then $C$ is an **accessible category** if there exists a $\kappa$ so that it is $\kappa$-accessible.
 
 =--
 
