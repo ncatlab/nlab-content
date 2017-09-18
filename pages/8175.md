@@ -156,6 +156,41 @@ for $E$ a [[ring spectrum]], then the AHSS is multiplicative...
 
 ([MO discussion](http://mathoverflow.net/q/225579/381))
 
+### Kronecker pairing
+
++-- {: .num_prop #KroneckerPairingOnAHSS}
+###### Proposition
+
+For $E$ a [[ring spectrum]] and $X$ a [[CW complex]] of finite [[dimension]], then the [[Kronecker pairing]] $\langle -,-\rangle \colon E^\bullet(X)\otimes E_\bullet(X)\to \pi_\bullet(E)$ passes to a page-wise pairing of the corresponding Atiyah-Hirzebruch spectral sequences for $E$-cohomology/homology
+
+$$
+  \langle-,-\rangle_r
+  \;\colon\;
+  \mathcal{E}_r^{n,-s}
+  \otimes
+  \mathcal{E}^r_{n,t}
+  \longrightarrow
+  \pi_{s+t}(E)
+$$
+
+such that
+
+1. on the $\mathcal{E}_2$-page this restricts to the Kronecker pairing for [[ordinary cohomology]]/[[ordinary homology]] with [[coefficients]] in $\pi_\bullet(E)$;
+
+1. the [[differentials]] act as [[derivations]] 
+
+   $$
+     \langle d_r(-),-\rangle = \langle -, d^r(-)\rangle
+     \,,
+   $$
+
+1. The pairing on the $\mathcal{E}_\infty$-page is compatible with the Kronecker pairing. 
+
+=--
+
+([Kochmann 96, prop. 4.2.10](#Kochmann96))
+
+
 ## Examples and Applications
 
 ### To complex oriented cohomology theory
