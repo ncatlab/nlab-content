@@ -30,11 +30,14 @@ A _D-module_ (introduced by [[Mikio Sato]]) is a [[abelian sheaf|sheaf]] of [[mo
 
 ### In terms of sheaves on the deRham space
 
-The category of D-modules on a smooth scheme $X$ may equivalently be identified with the category of [[quasicoherent sheaf|quasicoherent sheaves]] on its [[deRham space]] $dR(X)$ (in non-smooth case one needs to work in derived setting, with de Rham stack instead). 
+The category of $\mathcal{D}$-modules on a smooth scheme $X$ may equivalently be identified with the category of [[quasicoherent sheaf|quasicoherent sheaves]] on its [[deRham space]] $dR(X)$ (in non-smooth case one needs to work in derived setting, with de Rham stack instead). 
+
+([Lurie, above theorem 0.4](#LurieCrystal))
+
 
 Remembering, from this discussion there, that 
 
-* the deRham space is the decategorification of the infinitesimal path groupoid of $X$;
+* the deRham space is the decategorification of the [[infinitesimal shape modality|infinitesimal path groupoid]] $\Pi_{inf}(X)$ of $X$;
 
 * a quasicoherent sheaf on $dR(X)$ is a generalization of a [[vector bundle]] on $X$;
 
@@ -102,6 +105,9 @@ A comprehensive account is in chapter 2 of
 
 
 Lecture notes include
+
+* {#LurieCrystal} [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
+
 
 * S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. xii+207 pp.
 
