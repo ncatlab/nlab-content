@@ -52,7 +52,7 @@ Any [[p-local spectrum|p-local]] [[finite spectrum]] $X$ admits a $v_n$ periodic
 
 The periodicity theorem is due to 
 
-* [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeff Smith]], 2980s
+* [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeff Smith]], 1980s
 
 A quick review is in
 
