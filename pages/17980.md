@@ -31,6 +31,8 @@ The classification of adinkras, and hence of adinkraic representations, turns ou
 
 ## Definition
 
+For background, see at _[[geometry of physics -- supersymmetry]]_.
+
 For $N \in \mathbb{N}$, write $\mathbb{R}^{1 \vert N}$
 for the [[super Lie algebra]] over the [[real numbers]] that is spanned by a single generator $P$ in even (i.e., bosonic) degree and $N$ generators $Q_I$, $I \in \{1, 2, \cdots, N\}$ in odd (i.e., fermionic) degree, whose only non-trivial components of the super [[Lie bracket]] is
 
