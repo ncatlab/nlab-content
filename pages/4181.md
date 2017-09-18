@@ -45,7 +45,7 @@ In fact it was Gerstenhaber who coined the term 'pre-Lie algebra', for this reas
 
 ## Relation to the work of Connes and Kreimer
 
-Connes and Kreimer formalized the process of [renormalization](http://ncatlab.org/nlab/show/renormalization#hopfalgebraic_renormalization_3) using a certain [Hopf algebra] built from Feynman diagrams.  More abstractly we can understand the essence of their construction using a Hopf algebra built from rooted trees, as explained here:
+Connes and Kreimer formalized the process of [renormalization](http://ncatlab.org/nlab/show/renormalization#hopfalgebraic_renormalization_3) using a certain [[Hopf algebra]] built from Feynman diagrams.  More abstractly we can understand the essence of their construction using a Hopf algebra built from rooted trees, as explained here:
 
 * John Baez, This Week's Finds in Mathematical Physics, Week 299.  ([web](http://math.ucr.edu/home/baez/week299.html))  ([blog](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html))
 
