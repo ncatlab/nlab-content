@@ -60,12 +60,13 @@ Notice that this means that $S$ is in particular
 For $\mathcal{A}$ taken to be (the [[derived category]]) of an [[abelian category]] (or better: postcomposed with a [[homological functor]] ) this definition reduces ([Barwick 14](#Barwick14)) to that of Mackey functors as originally defined in ([Dress 71](#Dress71)).
 
 
-### Genuine equivariant spectra
+### Genuine equivariant spectra for finite groups
 
-For $G$ a [[finite group]] let $\mathcal{C}= G Set$ be its category of [[permutation representations]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ (possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here).
+Let $G$ be a [[finite group]]. Let $\mathcal{C}= G Set$ be its category of [[permutation representations]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ (possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here).
 
 Then Mackey functors on $\mathcal{C}$ are equivalently  genuine [[G-spectra]] ([Guillou-May 11, theorem 0.1](#GuillouMay11), [Barwick 14, below example B.6](#Barwick14)).
 
+(This equivalence does not in general hold if $G$ is not a finite group.)
 
 (...)
  
@@ -76,7 +77,7 @@ $$
   \,,
 $$
 
-where on the right we have the $G$-equivariant [[mapping spectrum]] from the (equivariant) [[suspension spectrum]] of the orbit $G/H$ to $E$.
+where on the right we have the $G$-equivariant [[mapping spectrum]] from the (equivariant) [[suspension spectrum]] of the [[orbit]] $G/H$ to $E$.
 
 (e.g. [Guillou-May 11, remark 2.5](#GuillouMay11))
 
@@ -123,6 +124,8 @@ The construction of [[equivariant stable homotopy theory]] in terms of [[Mackey 
   _Permutative $G$-categories in equivariant infinite loop space theory ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_ ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
+
+* {#Barwick15} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (II)_ ([arXiv:1505.03098](http://arxiv.org/abs/1505.03098))
 
 * {#BohmannOsorno14} [[Anna Marie Bohmann]], [[Angélica Osorno]], _Constructing equivariant spectra via categorical Mackey functors_ ([arXiv:1405.6126](http://arxiv.org/abs/1405.6126))
 
