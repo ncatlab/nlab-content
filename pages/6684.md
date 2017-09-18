@@ -56,3 +56,9 @@ In graph theory, the Moore path category is known as the __[[free category]]__ o
 
 [[!redirects Moore path]]
 [[!redirects Moore paths]]
+
+[[!redirects path concatenation]]
+[[!redirects path concatenations]]
+
+[[!redirects reverse path]]
+[[!redirects reverse paths]]
