@@ -65,6 +65,9 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 
 * [[embedding of smooth manifolds]]
 
+[[!include universal constructions of topological spaces -- table]]
+
+
 ## References
 
 * {#Bourbaki71} [[Nicolas Bourbaki]], _Elements of Mathematics -- General topology_, 1971, 1990
