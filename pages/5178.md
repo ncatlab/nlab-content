@@ -146,6 +146,10 @@ Also, via this indexed category, $f$ exhibits $\mathcal{C}$ as a [[2-sheaf]] (se
 
 See also _[[indexed monoidal category]]_, _[[indexed closed monoidal category]]_ and  _[[dependent linear type theory]]_.
 
+### Indexed $(\infty, 1)$-category
+
+See _[[indexed (infinity, 1)-category]]_.
+
 ## Properties
 
 ### Extensions of adjunctions to indexed categories
