@@ -184,7 +184,7 @@ and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure 
 
 See also [[functors and comma categories]].
 
-For the analog statement in [[(∞,1)-category]] theory see
+For the analogous statement in [[(∞,1)-category]] theory see
  <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-category+of+(infinity%2C1)-presheaves#interaction_with_forming_overcategories_19">(∞,1)-category of (∞,1)-presheaves -- Interaction with overcategories</a>
 
 at [[(∞,1)-category of (∞,1)-presheaves]].
