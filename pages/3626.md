@@ -24,7 +24,7 @@ Frobenius algebras have connections to [[TQFT]]s; for some more historical motiv
 
 There are a number of equivalent definitions of the concept of Frobenius algebra.
 
-The origial definition is an associative algebra with a suitable [[linear form]] on it.
+The original definition is an associative algebra with a suitable [[linear form]] on it.
 
 * [As an associative algebra with linear form](#AsAssociativeAlgebraWithLinearForm).
 
