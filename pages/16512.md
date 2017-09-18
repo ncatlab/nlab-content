@@ -1,0 +1,44 @@
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A model structure $M_1$ is a right Bousfield
+localization of a model structure $M_2$ on the same
+category if $M_1$ and $M_2$ have the same fibrations
+and the weak equivalences of $M_1$ contain those
+of $M_2$
+
+The notion of right Bousfield delocalization
+reverses this relation: $M_1$ is a right
+Bousfield delocalization of $M_2$
+if $M_2$ is a right Bousfield localization of $M_1$.
+
+Of course, the nontrivial task here
+is to establish interesting existence criteria
+for right Bousfield delocalizations.
+
+## Existence theorem
+
++-- {: .un_theorem}
+###### Theorem (Corrigan-Salter)
+If $M_1$ and $M_2$ are two [[cofibrantly generated]]
+model structures on the same category
+with coinciding classes of fibrations,
+then there is a third cofibrantly generated
+model structure $M_3$
+with the same fibrations and whose weak equivalences
+are the intersection of weak equivalences in $M_1$
+and $M_2$.
+This model structure is a right Bousfield delocalization
+of both $M_1$ and $M_2$.
+=--
+
+## Related entries
+
+* [[right Bousfield localization]]
+
+## References
+
+* {#CS} [[Bruce Corrigan-Salter]], _Right delocalization of model categories_, arXiv:1504.04545v1.
