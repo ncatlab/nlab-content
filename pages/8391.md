@@ -78,6 +78,8 @@ For [[simple type theory]], type inhabitation is  decidable, whereas it is undec
 
 * [[definability]]
 
+* [[quantifier elimination]]
+
 ## References
 
 * Wikipedia, _[Decidablility (logic)](http://en.wikipedia.org/wiki/Decidability_%28logic%29)_ 
