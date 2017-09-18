@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -117,7 +116,7 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 ## References
 
-* [[Bertrand Russell]], _[[Principia Mathematics]]_, 1910
+* [[Bertrand Russell]], _[[Principia Mathematica]]_, 1910
 
 * {#Harrington} L. A. Harrington (ed.), _Harvey Friedman's Research on the Foundations of Mathematics_, Studies in Logic and the Foundations of Mathematics (2012)
  
