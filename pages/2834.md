@@ -27,6 +27,11 @@ For variations on the definition and some history, see
 * [[Tom Goodwillie]], email to Don Davis and others, 16 May 2001, 
   [txt](www.lehigh.edu/~dmd1/tg516.txt)
 
+Also see 
+
+* [[Peter May]], _Weak Equivalences and Quasifibrations_, 
+  [txt](http://www.math.uchicago.edu/~may/PAPERS/67.pdf)
+
 [[!redirects quasifibrations]]
 [[!redirects quasi-fibration]]
 [[!redirects quasi-fibrations]]
