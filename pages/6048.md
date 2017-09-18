@@ -117,11 +117,13 @@ Meanwhile [[AdS-CFT duality]] was recognized in
 
 * {#Maldacena97} [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); 
  
-
 where a dual description of the [[worldvolume]] theory of M2-brane appears in seciton 3.2.  More on this is in 
 
 * {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
-  
+ 
+A detailed discussion of this [[black brane]]-realization of the M2 and its relation to [[AdS-CFT]] is in 
+
+* Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
 Discussion of the history includes
 
@@ -174,4 +176,3 @@ Relation to [[U-duality]]:
 
 [[!redirects M-theory membrane]]
 [[!redirects M-theory membranes]]
-
