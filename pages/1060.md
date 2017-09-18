@@ -158,6 +158,10 @@ The notion is originally due to
 
 * [[Michael Barr]], _$*$-Autonomous Categories_. LNM 752, Springer-Verlag 1979.
 
+See also
+
+* [[Michael Barr]], _Topological $\ast$-autonomous categories, revisited_, rewrite of TAC, 16 (2006), 700-708 ([arXiv:1609.04241](http://arxiv.org/abs/1609.04241))
+
 The relation to [[linear logic]] was first described in 
 
 *  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
