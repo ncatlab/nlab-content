@@ -17,7 +17,7 @@
 
 In [[stable homotopy theory]], a _sequential ([[prespectrum|pre-]])[[spectrum]]_ $E$ (also _Boardman spectrum_, after ([Boardman 65](#Boardman65))) is a sequence of [[pointed homotopy types]] ([[pointed topological spaces]], pointed [[simplicial sets]]) $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
 
-This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one predominently meant be default. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]], [[excisive functors]], [[equivariant spectra]]) or that are of different flavor altogether (such as [[combinatorial spectra]]), one says _sequential spectrum_ for emphasis.
+This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one predominently meant be default. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]], [[excisive functors]], [[equivariant spectra]]) or that are of different flavor altogether (such as [[combinatorial spectra]]), one says _sequential spectrum_ for emphasis (e.g. [Schwede 12, def. 2.1](#Schwede12)).
 
 
 ## Definition
@@ -347,6 +347,9 @@ Under the Quillen equivalence of prop.
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
 * {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
+
+
+* {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 [[!redirects sequential spectra]]
 
