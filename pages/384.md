@@ -528,6 +528,8 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 * [[CW approximation]]
 
+* [[quasi-finite CW-complex]]
+
 * [[cellular homology]]
 
 * [[simplicial set]], [[geometric realization]]
