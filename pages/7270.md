@@ -106,7 +106,7 @@ The first algebraic $K$-group of the ring $R$ is $G\ell(R)^{ab}$, the [[abeliani
 
 The Steinberg relations are modelled on observed relations amongst the elementary matrices, so sending $x_{ij}(a)$ to $e_{ij}(a)$ defines an epimorphism $St(R)\to E(R)$.
 
-This is a [[universal central extension]] and its kernel is [[Milnor's $K_2(R)$]].
+This is a [[universal central extension]] and its kernel is [[Milnor's K2]].
 
 
 
