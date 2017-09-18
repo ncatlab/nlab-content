@@ -66,6 +66,8 @@ Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[mor
 
 * homomorphisms are to [[functions]] as [[logical relations]] are to [[relations]]
 
+* [[heteromorphism]]
+
 [[!redirects homomorphism]]
 [[!redirects homomorphisms]]
 
