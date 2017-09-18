@@ -30,7 +30,7 @@ In general, the problem with "elementary-izing" the notion of $(\infty,1)$-topos
 
 There are at least two ambiguities in the above sketch of a definition based on type theory: what exactly do we assume of the universes, and what general class of HITs do we ask for?  One reasonable answer to the universe question is that every object should be contained in a universe closed under all the relevant operations, and one reasonable answer to the HITs question is just the non-recursive ones.  This leads to the following definition.
 
-+--{: .un_defn}
++--{: .num_defn}
 ###### Definition
 An **elementary $(\infty,1)$-topos** is an $(\infty,1)$-category $\mathbf{E}$ such that
 
@@ -44,11 +44,11 @@ Note that this definition is "impredicative" just like an [[elementary topos]], 
 
 ## Properties
 
-It is reasonable to hope for a coherence theorem showing that any elementary $(\infty,1)$-topos in the above sense admits a model of homotopy type theory with non-recursive [[higher inductive type|HITs]] (corresponding to the the finite colimits), univalent [[type of types|universes]] (perhaps only weakly Tarski ones), and [[propositional resizing]].  See, for instance, [[homotopytypetheory:model of type theory in an (infinity,1)-topos]] and [relation between type theory and category theory -- Univalent homotopy type theory and infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence).
+It is reasonable to hope for a coherence theorem showing that any elementary $(\infty,1)$-topos in the above sense admits a model of homotopy type theory with non-recursive [[higher inductive type|HITs]] (corresponding to the the finite colimits), univalent [[type of types|universes]] (perhaps only weakly Tarski ones), and [[propositional resizing]].  See, for instance, _[[homotopytypetheory:model of type theory in an (infinity,1)-topos]]_ and _[relation between type theory and category theory -- Univalent homotopy type theory and infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_.
 
 In an elementary 1-topos we can construct finite colimits and dependent exponentials from non-dependent exponentials and the subobject classifier (or equivalently from [[power objects]]).  In the $\infty$-case this seems less likely to be true, since subobjects tell us less about objects that are not 0-truncated.  However, there is still a good deal of extra structure that "comes for free" from the above definition.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 The initial object $0$ of $\mathbf{E}$ is [[strict initial object|strict]], i.e. any morphism $A\to 0$ is an equivalence.
 =--
@@ -57,7 +57,7 @@ The initial object $0$ of $\mathbf{E}$ is [[strict initial object|strict]], i.e.
 Just as for 1-categories, this is true in any cartesian closed $(\infty,1)$-category.  For if there is a morphism $f:A\to 0$ then the projection $A\times 0 \to A$ has a section $(1_A,f)$, so that $A$ is a retract of $A\times 0$; but $A\times 0 \cong 0$ by cartesian closedness since $(A\times -)$ has a right adjoint and hence preserves colimits.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Binary coproducts in $\mathbf{E}$ are [[disjoint coproducts|disjoint]], i.e. the injections $i:A\to A+B$ and $j:B\to A+B$ are monic, and their pullback is initial.
 =--
@@ -74,7 +74,7 @@ Now we claim that any two morphisms $f,g:S\to X$ with domain $S$ are equivalent.
 Finally, since $0$ is a strict initial object, $0\to S$ is monic.  And of course $1_S : S\to S$ is also monic, and these two monomorphisms are classified by two maps $f,g:S\to \Omega$ into the subobject classifier.  By the previous paragraph, $f\simeq g$, hence $S\cong 0$ and is initial.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 For any finite family of morphisms $\{f_i : Y_i \to X_i\}_{i\in I}$, there exists a universe classifying all the $f_i$.
 =--
@@ -85,12 +85,12 @@ Since $f_i$ is the pullback of $\sum_i f_i$ along the injection $X_i \to \sum_i 
 
 In particular, we have "universe cumulativity":
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 For any universe $p:V\to U$, there is a universe $p':V'\to U'$ that classifies both $p$ and $U\to 1$.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 All finite colimits are [[van Kampen colimit|van Kampen]].
 =--
@@ -101,14 +101,14 @@ Since $\mathcal{E}$ is locally cartesian closed, all colimits are pullback-stabl
 Since $\alpha^\rhd$ is colimiting under $\alpha:D\to \mathcal{E}^\to$, we have an induced map $\alpha_\star \to p$, where $\star\in D^\rhd$ is the cocone vertex.  But since colimits are pullback-stable, the pullback of $G^\rhd$ along $p$ is a colimiting cocone under $F$, and hence isomorphic to $F^\rhd$.  Thus, $\alpha^\rhd$ is equifibered.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 There exists a [[natural numbers object]].
 =--
 
 Intuitively, it seems as if $\Omega(S^1)$ (which can be constructed using finite limits and colimits) ought to be the [[integers]] and we should be able to construct the natural numbers from it; but it is unclear to the authors of this page how to do that.  Instead, we can (using the impredicative subobject classifier) define the smallest subobject of an object classifier $p:V\to U$ that contains the initial object and is closed under taking coproducts with the terminal object.  This is almost right, but it is not 0-truncated.  We could 0-truncate it, but to get a universal property relative to all objects rather than only 0-truncated ones, we can instead impose structure making the objects rigid, such as a partial order or a graph.  This argument is formalized in type theory [here](#ConstructingNat); to be precise either it would have to be translated manually into category-theoretic language, or the above conjecture about interpreting type theory in an elementary $(\infty,1)$-topos would have to be proven.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 There is an [[(n-connected, n-truncated) factorization system]].
 =--
@@ -159,7 +159,7 @@ higher inductive types_, ([slides](http://home.sandiego.edu/~shulman/papers/stth
 
 The construction of $n$-truncations without recursive HITs is in
 
-* {#Rijke17} [[Egbert Rijke]], *The join construction*, [arxiv](https://arxiv.org/abs/1701.07538)
+* {#Rijke17} [[Egbert Rijke]], *The join construction*, [arxiv:1701.07538](https://arxiv.org/abs/1701.07538)
 
 The construction of natural numbers from propositional resizing and univalence is in
 
