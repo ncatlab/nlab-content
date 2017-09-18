@@ -80,7 +80,7 @@ $$
 
 * Dino Lorenzini, _An Invitation to Arithmetic Geometry_ (Graduate Studies in Mathematics, Vol 9) GSM/9
 
-An almost entirely self-contained introduction and (according to Werner Kleinert) "the most comprehensive and detailed elaboration of the theory of algebraic schemes available in (text-)book form [after Grothendieck's [[EGA]]]":
+An almost entirely self-contained introduction and (according to Werner Kleinert) "the most comprehensive and detailed elaboration of the theory of algebraic schemes available in (text-)book form (after Grothendieck's [[EGA]])":
 
 * Qing Liu, _Algebraic Geometry and Arithmetic Curves_, Oxford Graduate Texts in Mathematics __6__, 2002/2006, 600pp.
 
