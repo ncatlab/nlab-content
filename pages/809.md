@@ -114,6 +114,10 @@ $\gamma_i^\alpha   : I^{n+1} \to
 
 The first hint of such a general structure came in the paper by Brown and Spencer given below. The term "[[connection]]" was used there because of a relation of a generalisation of this idea to [[connection on a bundle|path-connections]] in differential geometry. A principal $G$-bundle $E$ over $B$ gives rise to the Ehresmann  groupoid $Equ(E)$ of $G$-maps between the fibres, and the Moore paths $\Lambda$ on this form a double category $D$ with $Equ(E)$ and $\Lambda(B)$ as edge categories. A connection $\Gamma$ is then a functor from $\Lambda(B)$ to one of the category structures on $D$ which gives a smooth lifting of paths to transport of the fibres. This is the origin of the term [[transport law]] for the relation of connections to composition. 
 
+**Discussion** 
+
+There is a discussion of cubical vs simplicial singular homology and for other aspects at ([this mathoverflow] (http://mathoverflow.net/questions/3656/cubical-vs-simplicial-singular-homology)). 
+
 
 
 ## References
