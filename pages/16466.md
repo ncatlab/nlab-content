@@ -90,9 +90,9 @@ Of course the category [[Vect]] has some special properties. Not only are its ob
 
 Let $\mathcal{C}$ be a [[category]]. 
 
-1. Say that $\mathca{C}$ has **[[direct sums]]** if its has [[finite products]] and [[finite coproducts]] and if the canonical comparison  morphism between these is an [[isomorphism]]. We write $V \oplus W$ for the direct sum of two objects of $\mathcal{C}$ in this.
+1. Say that $\mathcal{C}$ has **[[direct sums]]** if it has [[finite products]] and [[finite coproducts]] and if the canonical comparison  morphism between these is an [[isomorphism]]. We write $V \oplus W$ for the direct sum of two objects of $\mathcal{C}$ in this.
 
-1. Say that $\mathcal{C}$ is an **[[additive category]]** if it has [[direct sums]] and in addition it is [[Ab-enriched category|enriched in abelian groups]], meaning that every [[hom-set]] is equipped with the stucture of an [[abelian group]] such that [[composition]] of morphisms is a [[bilinear map]].
+1. Say that $\mathcal{C}$ is an **[[additive category]]** if it has [[direct sums]] and in addition it is [[Ab-enriched category|enriched in abelian groups]], meaning that every [[hom-set]] is equipped with the structure of an [[abelian group]] such that [[composition]] of morphisms is a [[bilinear map]].
 
 1.Say that $\mathcal{C}$ is an **[[abelian category]]** if it is an [[additive category]] and has property that its [[monomorphisms]] are precisely the inclusions of [[kernels]] and its [[epimorphisms]] are precisely the projections onto [[cokernels]].
 
@@ -192,7 +192,7 @@ More abstractly this means that the [[tensor product of vector spaces]] is the v
 
 =--
 
-The existence of the [[tensor product of vector spaces]], def. \ref{TensorProductOfVectorSpaces}, equips the category [[Vect]] of vector spaces with extra structure, which is a "[[categorification]]" of the familair structure of a [[semi-group]]. One also says "[[monoid]]" for [[semi-group]] and therefore [[categories]] equippd with a [[tensor product]] operation are also called  _[[monoidal categories]]_:
+The existence of the [[tensor product of vector spaces]], def. \ref{TensorProductOfVectorSpaces}, equips the category [[Vect]] of vector spaces with extra structure, which is a "[[categorification]]" of the familiar structure of a [[semi-group]]. One also says "[[monoid]]" for [[semi-group]] and therefore [[categories]] equipped with a [[tensor product]] operation are also called  _[[monoidal categories]]_:
  
 
 +-- {: .num_defn #MonoidalCategory} 
@@ -566,7 +566,7 @@ $$
   f_{odd} \;\colon\; (V_1)_{odd} \longrightarrow (V_1)_{odd}
 $$
 
-between then summands in evem degree and in odd degree, respectively:
+between then summands in even degree and in odd degree, respectively:
 
 $$
   f = f_{even} \oplus f_{odd}
@@ -644,7 +644,7 @@ $$
   (\mathcal{C}, \otimes, 1)
 $$ 
 
-for the [[full subcategory]] on those $L \in \mathcal{C}$ which are [[invertible objects]] under the [[tensor product]], i.e. such that there is an object $L^{-1} \in \mahcal{C}$ with $L \otimes L^{-1} \simeq 1$ and $L^{-1} \otimes L \simeq 1$. Since the [[tensor unit]] is clearly in $Line(L)$ (with $1^{-1} \simeq 1$) and since with $L_1, L_2 \in Line(\mathcal{C}) \hookrightarrow \mathcal{C}$ also $L_1 \otimes L_2 \in Line(\mathcal{C})$ (with $(L_1 \otimes _2)^{-1} \simeq L_2^{-1} \otimes L_1^{-1}$) the [[monoidal category]] structure on $\mathcal{C}$ restricts to $Line(\mathcal{C})$. 
+for the [[full subcategory]] on those $L \in \mathcal{C}$ which are [[invertible objects]] under the [[tensor product]], i.e. such that there is an object $L^{-1} \in \mathcal{C}$ with $L \otimes L^{-1} \simeq 1$ and $L^{-1} \otimes L \simeq 1$. Since the [[tensor unit]] is clearly in $Line(L)$ (with $1^{-1} \simeq 1$) and since with $L_1, L_2 \in Line(\mathcal{C}) \hookrightarrow \mathcal{C}$ also $L_1 \otimes L_2 \in Line(\mathcal{C})$ (with $(L_1 \otimes L_2)^{-1} \simeq L_2^{-1} \otimes L_1^{-1}$) the [[monoidal category]] structure on $\mathcal{C}$ restricts to $Line(\mathcal{C})$. 
 
 
 Accordingly any [[braiding]] on $(\mathcal{C}, \otimes,1)$ restricts to a braiding on $(Line(\mathcal{C}), \otimes, 1)$. Hence it is sufficient to show that there is an essentially unique non-trivial symmetric braiding on $(Line(\mathcal{C}), \otimes, 1)$, and that this is the restriction of a braiding on $(\mathcal{C}, \otimes, 1)$.
@@ -684,7 +684,7 @@ $$
 and
 
 $$
-  k^{0 \vert 1} \otimes_k^{0 \vert 1} \simeq k^{1 \vert 0}
+  k^{0 \vert 1} \otimes_k k^{0 \vert 1} \simeq k^{1 \vert 0}
   \,.
 $$
 
@@ -780,7 +780,7 @@ $$
 $$
   (\widetilde{Line}(sVect), \otimes, k, \tau^{super})
   \;\simeq\;
-  \tau_1 \Omega \mathbb{S}
+  \pi_1 \Omega \mathbb{S}
   \,.
 $$
 
