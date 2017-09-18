@@ -25,7 +25,7 @@ Applied to the symplectic current (in the sense of [[covariant phase space]] the
 ## Definition
  {#Definition}
 
-Throughout, Let $X$ be a [[smooth manifold]] and $\omega \in \Omega^{n+1}_{cl}(X)$ a closed [[differential n-form]] on $X$. The pair $(X,\omega)$ we may regard as a [[pre-n-plectic manifold]].
+Throughout, Let $X$ be a [[smooth manifold]], let $n \geq 1$ a natural number  and $\omega \in \Omega^{n+1}_{cl}(X)$ a closed [[differential n-form|differential (n+1)-form]] on $X$. The pair $(X,\omega)$ we may regard as a [[pre-n-plectic manifold]].
 
 We define two [[L-∞ algebras]] defined from this data and discuss their [[equivalence]]. Either of the two or any further one equivalent to the two is the _Poisson bracket Lie $n$-albebra_ of $(X,\omega)$. The first definition is due to ([Rogers 10](#Rogers10)), the second due to ([FRS 13b](#FRS13b)). Here in notation we follow ([FRS 13b](#FRS13b)).
 
