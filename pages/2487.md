@@ -21,7 +21,7 @@ This group can be considered as a (quasi-affine) sub[[variety]] of the [[affine 
 
 This [[variety]] is an algebraic $k$-group, and if $k$ is the field of real or complex numbers it is a [[Lie group]] over $k$.
 
-One can in fact consider the set of invertible matrices over an arbitrary unital [[ring]], not necessarily commutative. Thus $GL_n: R\mapsto GL_n(R)$ becomes a [[presheaf]] of [[group]]s on $Aff=Ring^{op}$ where one can take rings either in commutative or in noncommutative sense. In the commutative case, this functor defines a [[group scheme]]; it is in fact an affine group scheme represented by the commutative ring $R = \mathbb{Z}[x_{11}, \ldots, x_{n n}, t]/(det(X)t - 1)$. 
+One can in fact consider the set of invertible matrices over an arbitrary unital [[ring]], not necessarily commutative. Thus $GL_n: R\mapsto GL_n(R)$ becomes a [[presheaf]] of [[group]]s on $Aff=Ring^{op}$ where one can take rings either in commutative or in noncommutative sense. In the commutative case, this functor defines a [[group scheme]]; it is in fact the affine group scheme represented by the commutative ring $R = \mathbb{Z}[x_{11}, \ldots, x_{n n}, t]/(det(X)t - 1)$. 
 
 Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear group]]s. 
 
@@ -46,7 +46,7 @@ The above is sometimes referred to as the unstable general linear group, whilst 
 
 * [[jet group]]
 
-* [[general linear supergroup]]
+* [[general linear supergroup]], [[quantum linear group]]
 
 ## References 
 
