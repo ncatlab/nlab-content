@@ -19,7 +19,9 @@
 
 ## Idea
 
-The _Bousfield-Friedlander model structure_ ([Bousfield-Friedlander 78, section 2](#BousfieldFriedlander78)) is a [[model structure for spectra]]; a [[model category]] structure on the [[category]] of [[sequential spectrum|sequential]] [[prespectra]] which [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, whose [[homotopy category]] is the classical [[stable homotopy category]].
+The _Bousfield-Friedlander model structure_ ([Bousfield-Friedlander 78, section 2](#BousfieldFriedlander78)) is a [[model structure for spectra]], specifically a [[model structure on sequential spectra]] in [[simplicial sets]]. 
+
+As such its [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, its [[homotopy category]] is the classical [[stable homotopy category]].
 
 ## Definition
  {#Definition}
