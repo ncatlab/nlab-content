@@ -447,6 +447,8 @@ This means that Connes' [[spectral triple]] whose particle spectrum reproduces t
 
 * [[model theory and physics]]
 
+* [[L-infinity algebras in physics]]
+
 ## References
 
 We list various references related to higher category  theory and fundamental physics.
