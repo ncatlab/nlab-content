@@ -149,6 +149,13 @@ More generally, the ideals form a [[Moore collection]] of subsets of $R$ or $L$,
 [[!redirects ideals in a poset]]
 [[!redirects ideals in posets]]
 
+[[!redirects left ideal]]
+[[!redirects left ideals]]
+[[!redirects right ideal]]
+[[!redirects right ideals]]
+[[!redirects two-sided ideal]]
+[[!redirects two-sided ideals]]
+
 [[!redirects proper ideal]]
 [[!redirects proper ideals]]
 
