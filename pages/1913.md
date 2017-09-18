@@ -17,8 +17,7 @@
 
 A differential form is a geometrical object on a [[manifold]] that can be integrated. A differential form $\omega$ is a [[section]] of the [[exterior algebra]] $\Lambda^* T^* X$ of a [[cotangent bundle]], which makes sense in many contexts (e.g. [[manifolds]], [[algebraic varieties]], [[analytic space]]s, ...). 
 
-
-
+What we\'re actually describing here are the *exterior* differential forms; for more general concepts, see [[absolute differential form]] and [[cogerm differential form]].
 
 
 ## Definitions
@@ -175,71 +174,14 @@ Given manifolds $X$ and $Y$ and a [[continuously differentiable map]] $f\colon X
 
 Thus, the operation that maps $X$ to $\Omega^*(X)$ extends to a [[contravariant functor]] $\Omega^*$.  Perhaps confusingly, forms are traditionally known in physics as 'covariant' concepts, because of how the components transform under a change of coordinates.  (Ultimately, this confusion goes back to that between active and passive [[coordinate transformation]]s.)
 
-Note that twisted and (more general) vector-valued forms cannot be pulled back so easily.  One needs some extra structure on $f$ to do so; see the discussion of integration of $p$-pseudoforms below for an example.
+Note that twisted and (more general) vector-valued forms cannot be pulled back so easily.  One needs some extra structure on $f$ to do so; see the discussion of integration of $p$-pseudoforms at [[integration of differential forms]] for an example.
 
 
 ### Integration of forms
 
-For more see at _[[integration of differential forms]]_.
+Let $X$ be an $n$-dimensional manifold, and let $\omega$ be an $n$-pseudoform on $X$.  At least when $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], we may turn $\omega$ into a [[measure]] on $X$ and thereby find its [[integral]].  Conversely, any [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$ arises in this way from a unique $n$-pseudoform $\omega$.
 
-Let $X$ be an $n$-dimensional manifold, and let $\omega$ be an $n$-pseudoform on $X$.  Suppose that $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], so that we may find a [[locally finite cover]] of $X$ with a subordinate smooth [[partition of unity]] and a smooth coordinate chart on each patch.  Then $\omega$ defines a [[measure space|measure]] on $X$ as follows:
-
-*  On each coordinate patch $U$, fix the orientation given by the coordinates to turn $\omega$ into an untwisted $n$-form $\hat{\omega}$; then write $\hat{\omega}$ in coordinates as
-   $$ \hat{\omega} = \omega_U \wedge \mathrm{d}x^1 \wedge \cdots \wedge \mathrm{d}x^n .$$
-   In this situation, it is convenient also to write
-   $$ \omega = \omega_U \mathrm{d}x^1 \cdots \mathrm{d}x^n ;$$
-   in other words, we interpret $\mathrm{d}x^1 \cdots \mathrm{d}x^n$ as the absolute value of $\mathrm{d}x^1 \wedge \cdots \wedge \mathrm{d}x^n$.
-
-*  The coordinates on $U$ define a [[diffeomorphism]] between $U$ and an open subset of $\mathbf{R}^n$ that we\'ll also call $U$; so use the latter formula to interpret
-   \[ \label{absvalposs} \int_U \omega = \int_U \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n ,\]
-   where the right-hand side is now interpreted in the usual way as as integral with respect to [[Lebesgue measure]].
-
-*  Using the partition of unity, write
-   $$ \omega = \sum_U w_U \omega_U ,$$
-   where $w_U$ is a weight function defined on $U$ and $\omega_U$ is the [[restriction]] of $\omega$ to $U$.
-   Then we have
-   $$ \int_X \omega = \sum_U \int_U w_U(x^1,\ldots,x^n) \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n ,$$
-   or more generally,
-   $$ \int_E \omega = \sum_U \int_U \chi_E(x^1,\ldots,x^n) w_U(x^1,\ldots,x^n) \omega_U(x^1,\ldots,x^n)\, \mathrm{d}x^1 \cdots \mathrm{d}x^n $$
-   for $E$ a measurable subset of $X$ and $\chi_E$ the [[characteristic function]] of $E$.
-
-_A priori_, this definition depends not only on the particular coordinate patches chosen but also on the partition of unity chosen to go with them.  Furthermore, the defintion could be done just as easily (perhaps even more easily) for something other than an $n$-pseudoform.  But the (perhaps surprising) fact that justifies it all is this:
-
-+-- {: .num_theorem #IntegrationTheorem}
-###### Theorem
-When $\omega$ is an $n$-pseudoform, the definition of $\int_E \omega$ is independent of the coordinates and partition chosen.  Furthermore, the map from $n$-pseudoforms to measures is linear.
-=--
-
-Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the definition would depend on the orientation of the coordinates chosen.  We could fix that by using the absolute value ${|\omega_U|}$ in place of $\omega_U$ in (eq:absvalposs) and the following equations, but then the map from forms to measures would not be linear.
-
-
-It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
-
-*  Given a point $a$, choose one of the two local orientations at $a$.
-*  Given $n$ linearly independent vectors $(v_1,\ldots,v_n)$ at $a$, develop them into a coordinate system on a neighbourhood $U$ of $a$.
-*  For sufficiently large natural number $k$, the coordinate cube $C_k$ of points with coordinates in $[0,1/k]^n$ exists (lies within $U$).
-*  Let $L$ be $\lim_{k \to \infty} k^n \omega(C_k)$.
-*  If the coordinate system on $U$ is positively oriented at $a$, then let $\omega(v_1,\ldots,v_n)$ be $L$; if the coordinate system on $U$ is negatively oriented at $a$, then let $\omega(v_1,\ldots,v_n)$ be $-L$.
-*  Extend the definition to $n$ arbitrary vectors by continuity (which necessarily maps a linearly dependent tuple of vectors to zero).
-
-Again, this definition is independent of the coordinate system chosen (as long as it extends the given vectors); or if that\'s not true, then we messed up and need to add further restrictions to the absolutely continuous Radon measure $\omega$.  The definition is *not* independent of the orientation chosen, of course; thus we get a pseudoform rather than an untwisted form.  You might try to ignore the orientation and take $\omega(v_1,\ldots,v_n)$ to be $L$ always, but that does not define an exterior form, as is most easily seen if two vectors are switched (which does not change $L$).
-
-
-One can integrate forms other than $n$-pseudoforms, of course, but only over certain structures within the manifold $X$.  Specifically, if $R$ is a $p$-dimensional [[submanifold]] of $X$ (that is a $p$-dimensional manifold $U$ equipped with a map $R\colon U \to X$), then we would like to integrate $p$-forms or $p$-pseudoforms (defined on $X$) over $R$.  Here is how we do this:
-
-*  We may integrate a $p$-form $\eta$ over $R$ if $R$ is _oriented_, that is if $U$ is oriented.  We pull back $\eta$ from $X$ to $U$, then use the orientation on $U$ to turn $\eta$ into a $p$-pseudoform, which we can then integrate on the $p$-dimensional manifold $U$.
-
-*  We may integrate a $p$-pseudoform $\eta$ over $R$ if $R$ is _pseudooriented_, that is if it is equipped with a map that, for each point $a$ on $U$, takes a local orientation of $X$ at $R(a)$ to a local orientation of $U$ at $a$, continuously in $a$ and taking opposite orientations to opposite orientations.  Then locally, we turn $\eta$ into a $p$-form on $X$ using a local orientation on $X$, pull that back to $U$, and use the corresponding local orientation on $U$ to turn that back into a $p$-pseudoform, which we can then integrate on $U$.
-
-Thus, while integration of $n$-pseudoforms is the most basic, integration of general $p$-forms is actually a bit simpler than integration of general $p$-pseudoforms.  Integration of other twisted or vector-valued forms can also be done, again given appropriate structure on $R$.
-
-Note that, if $X$ is thought of a submanifold of itself, then it has a natural pseudoorientation that takes each local orientation to itself, and so we recover the original definition of integration of $n$-pseudoforms on $X$.  Also, if $X$ is an oriented manifold, then it may be viewed as an oriented submanifold of itself, giving a definition of integration of $n$-forms on $X$.
-
-
-One often sees the definition of integration given for *parametrised* submanifolds, that is submanifolds where $U$ is an open subset of $\mathbf{R}^p$.  This amounts to a combination of the concepts above, with the two uses of $U$ (as a coordinate patch in $X$ or as the source of a submanifold of $X$) identified.  The theorem that the integral of an $n$-pseudoform on $X$ is independent of the coordinates chosen now becomes a theorem that the integral of a parametrised submanifold is independent of the parametrisation (up to some details about orientation), which in the end returns the result that one can integrate forms over arbitrary submanifolds (given an orientation or pseudoorientation as above).
-
-
-To integrate on *unoriented* submanifolds of arbitrary dimension, use [[absolute differential forms]] (at least once we figure out what those are).
+If we wish to integrate untwisted (or differently twisted or vector-valued) forms and/or forms of smaller rank, then we may do so on [[submanifolds]] of $X$ equipped with some appropriate structure.  In particular, if $X$ itself is equipped with an [[orientation]], then $n$-pseudoforms on $X$ are the same as (untwisted) $n$-forms, and so we can integrate those on $X$.  See [[integration of differential forms]] for the general case.
 
 
 +-- {: .query}
