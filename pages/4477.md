@@ -32,7 +32,7 @@ $$
   }
 $$
 
-there exists a morphism $N \overset{\phi}{\to} A$ making a [[commuting diagram]] of the form
+there exists a [[lift]], hence a morphism $N \overset{\phi}{\to} A$ making a [[commuting diagram]] of the form
 
 $$
   \array{
