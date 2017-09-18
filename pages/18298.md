@@ -1715,6 +1715,7 @@ With this the statement follows by prop. \ref{TopologicalSubBundlesOverParacompa
 
 =--
 
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -1997,6 +1998,57 @@ $$
 $$
 
 With this the statement follows by prop. \ref{ConcondanceOfTopologicalVectorBundles}.
+
+=--
+
++-- {: .num_example #HomotopyInvarianceOfIsomorphismClassesOfVectorBundles}
+###### Example
+**([[homotopy invariance]] of isomorphism classes of vector bundles)**
+
+Let $X$ and $Y$ be [[paracompact Hausdorff spaces]] and let
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+be a [[continuous function]] which is a [[homotopy equivalence]]. Then 
+pullback along $f$ constitutes a [[bijection]] on sets of isomorphism classes
+of topological vector bundles:
+
+$$
+  f^\ast  
+   \;\colon\;
+  Vect(Y)/_\sim
+    \overset{\simeq}{\longrightarrow}
+  Vect(X)/_\sim
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of homotopy equivalence, there is a continuous function
+$g \colon Y \longrightarrow X$ and [[left homotopies]]
+
+$$
+  g \circ f \Rightarrow id
+  \phantom{AAAA}
+  f \circ g \Rightarrow id
+  \,.
+$$
+
+Hence corollary \ref{PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic} implies that
+
+$$
+  f^\ast \circ g^\ast = (g \circ f)^\ast = id
+  \phantom{AAAAA}
+  g^\ast \circ f^\ast = (g \circ g)^\ast = id
+  \,.
+$$
+
+This mean that $g^\ast$ is the [[inverse function]] to $f^\ast$, and hence both are bijections.
 
 =--
 
