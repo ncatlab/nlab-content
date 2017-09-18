@@ -268,6 +268,9 @@ Discussion of [[black branes]] and [[BPS states]] includes
 
 * Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](http://arxiv.org/abs/1312.0578))
 
+Discussion of [[black hole]] horizons includes
+
+* [[Jan Gutowski]], [[George Papadopoulos]], _Static M-horizons_ ([arXiv:1106.3085](http://arxiv.org/abs/1106.3085))
 
 ### Truncations and compactifications
 
