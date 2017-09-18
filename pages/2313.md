@@ -19,3 +19,5 @@ Specifically for complex [[topological K-theory]] there is an element of degree 
 
 [[!redirects Bott class]]
 
+[[!redirects Bott generator]]
+[[!redirects Bott generators]]
