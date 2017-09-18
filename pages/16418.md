@@ -22,8 +22,8 @@
 
 The _orthosymplectic supergroup_ $Osp(N|2p)$ is the sub-[[supergroup]] of the [[general linear supergroup]] $GL(N|2p)$ on those elements which preserve the canonical graded-symmetric [[bilinear form]] on $\mathbb{R}^{N|2p}$, i.e. the form which is the canonical symmetric bilinear form on the even elements $\mathbb{R}^{N}$, is the canonical [[symplectic form]] on the odd elements in $\mathbb{R}^{0|2p}$ and is zero on mixed pairs of elements.
 
-Its [[super Lie algebra]] is the _orthosymplectic Lie algebra_ $\mathfrak{osp}(N|2p)$. This is one the classes of classical simple [[super Lie algebras]]. 
-It is closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Lledo-Varadarajan 00](#DAuriaFerrareLledoVaradarajan00)).
+The corresponding [[super Lie algebras]] are called the _orthosymplectic Lie algebras_ $\mathfrak{osp}(N|2p)$. Over a [[field]] of [[characteristic zero]] these constitute the infinite $B$- and $D$-series in the [classification of simple super Lie algebras](super%20Lie%20algebra#Classification). 
+They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Lledo-Varadarajan 00](#DAuriaFerrareLledoVaradarajan00)), see at _[supersymmetry -- Classification -- Superconformal symmetry](supersymmetry#ClassificationSuperconformal)_.
 
 
 ## Related concepts
@@ -33,6 +33,8 @@ It is closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Lledo
 ## References
 
 ### General
+
+* {#Kac77b} [[Victor Kac]], pages 9-10 of _A sketch of Lie superalgebra theory_, Comm. Math. Phys. Volume 53, Number 1 (1977), 31-64. ([EUCLID](https://projecteuclid.org/euclid.cmp/1103900590))
 
 * [[Manfred Scheunert]], chapter II, 4.3.A of _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
 
