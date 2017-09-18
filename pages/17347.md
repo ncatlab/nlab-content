@@ -329,20 +329,24 @@ In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topolo
 +-- {: .num_defn #GeneralizedCohomologyTheory}
 ###### Definition
 
-A _[[cohomology theory]]_ (unreduced, [[relative cohomology|relative]]) is a [[functor]]
+A _[[cohomology theory]]_ (unreduced, [[relative cohomology|relative]]) is 
 
-$$
-  E^\bullet : (Top_{CW}^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
-$$
+1. a [[functor]]
 
-to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] of degree +1, to be called the **[[connecting homomorphism]]**, of the form
+   $$
+     E^\bullet : (Top_{CW}^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
+   $$
 
-$$
-  \delta_{(X,A)} 
-    \;\colon\;  
-  E^\bullet(A, \emptyset) \to E^{\bullet + 1}(X, A)
-  \,.
-$$ 
+   to the category of $\mathbb{Z}$-[[graded abelian groups]], 
+
+1. {#ConnectingHomomorphismOfUnreducedCohomology} a [[natural transformation]] of degree +1, to be called the **[[connecting homomorphism]]**, of the form
+
+   $$
+     \delta_{(X,A)} 
+       \;\colon\;  
+     E^\bullet(A, \emptyset) \to E^{\bullet + 1}(X, A)
+     \,.
+   $$ 
 
 such that:
 
@@ -2091,7 +2095,7 @@ where $X_{p} \coloneqq \pi^{-1}(B_{p})$ is the fiber over the $p$th stage of the
 
 =--
 
-+-- {: .proof}
++-- {: .proof #ProofOfTheAHSS}
 ###### Proof
 
 The [exactness axiom](#ExactnessUnreduced) for $A$ gives an [[exact couple]], def. \ref{ExactCoupleAndDerivedExactCouple}, of the form
@@ -2125,6 +2129,15 @@ $$
 
 In order to determine the $E_2$-page, we analyze the $E_1$-page:
 
+By definition
+
+$$
+  E_1^{s,t}
+   =
+  A^{s+t}(X_s, X_{s-1})
+$$
+
+
 Let $C(s)$ be the set of $s$-dimensional cells of $B$, and notice that for $\sigma \in C(s)$ then
 
 $$
@@ -2156,10 +2169,60 @@ $$
 $$
 
 where we used the relation to [[reduced cohomology]] $\tilde A$, prop. \ref{ReducedToUnreducedGeneralizedCohomology} together with lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}, 
-then the [wedge axiom](#WedgeAxiom) and the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) of the latter. The last group is that of [[singular cohomology|singular cochains]] of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
+then the [wedge axiom](#WedgeAxiom) and the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) of the latter. 
 
-Hence to conclude, it remains to show that on this group the differential $d_1$ coincides with the differential in the [[singular simplicial complex]]. This takes a tad of fiddling, see for instance ([Kochman 96, pages 124-125](#Kochman96)).
+The last group appearing in this sequence of isomorphisms is that of [[cellular cohomology|cellular cochains]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)) of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
 
+Hence to conclude, it remains to show that on this group the differential $d_1$ coincides with the differential in the [[cellular cochain complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). 
+
+We discuss this now for $F = \ast$. The general case works the same, just with various factors of $F$ appearing in the following:
+
+Consider the following commuting diagram
+
+$$
+  \array{
+    \partial^\ast
+     \colon
+    & C^{s-1}(X,A^t(\ast))
+      & =&  \underset{i \in I_{s-1}}{\prod} A^t(\ast)
+      && \longrightarrow &&
+    \underset{i \in I_s}{\prod} A^t(\ast)
+    & = & 
+    C^{s}(X,A^t(\ast))
+    \\
+    && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
+    \\
+    && & \underset{i \in I_{s-1}}{\prod} \tilde A^{s+t-1}(S^{s-1}) 
+      && &&
+    \underset{i \in I_s}{\prod} \tilde A^{s+t}(S^{s}) 
+    \\
+    && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
+    \\
+    && d_1 \colon &
+    A^{s+t-1}(X_{s-1}, X_{s-2})
+      &\overset{}{\longrightarrow}&
+    A^{s+t-1}(X_{s-1})
+      &\overset{\delta}{\longrightarrow}&
+    A^{s+t}(X_s, X_{s-1})
+    \\
+    && & 
+    \downarrow && \downarrow && \downarrow
+    \\
+    && & 
+    A^{s+1-1}(S^{s-1}, \emptyset)
+      &\overset{}{\longrightarrow}&
+    A^{s+t-1}(S^{s-1})
+      &\overset{\delta}{\longrightarrow}&
+    A^{s+t}(D^s , S^{s-1})
+  }
+  \,.
+$$
+
+Here the bottom vertical morphisms are those induced from any chosen cell inclusion $(D^s , S^{s-1}) \hookrightarrow (X_s, X_{s-1})$ and $\delta$ are the [connecting homomorphisms](#ConnectingHomomorphismOfUnreducedCohomology).
+ 
+The differential $d_1$ in the spectral sequence is the middle horizontal composite, the vertical isomorphisms give the top horizontal map. But the bottom horizontal map identifies this top horizontal morphism componentwise with the restriction to the boundary of cells. Hence the top horizontal morphism is indeed the coboundary operator $\partial^\ast$ for the [[cellular cohomology]] of $X$ with coefficients in $A^\bullet(\ast)$ ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). This cellular cohomology coincides with [[singular cohomology]] of the [[CW-complex]] $X$ ([thm.](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence computes the [[ordinary cohomology]] of $X$.
+
+ 
 =--
 
 ##### Multiplicative structure
