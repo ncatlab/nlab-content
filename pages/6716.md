@@ -77,11 +77,11 @@ where $U(1) \to Spin^c$ is the canonical inclusion into the defining product $U(
 ### As the homotopy fiber of the smooth $\mathbf{W}_3$
  {#AsHomotopyFiberOfSmoothW3}
 
-We dicuss in the following that 
+We discuss in the following that 
 
-1. the universal third [[integral Stiefel-Whitney class]] $W_3$ has an esentially unique lift from [[∞Grpd]] $\simeq$ [[Top]] to [[Smooth∞Grpd]];
+1. the universal third [[integral Stiefel-Whitney class]] $W_3$ has an essentially unique lift from [[∞Grpd]] $\simeq$ [[Top]] to [[Smooth∞Grpd]];
 
-* the smooth [[delooping]] $\mathbf{B}Spin^c \in Smooth\infty Grpd$ is the [[homotopy fiber]] of $\mathbf{W}_3$, hence is the [[circle n-bundle|circle 2-bundle]] over $\mathbf{B} SO$ classified by $\mathbf{W}_3$. 
+1. the smooth [[delooping]] $\mathbf{B}Spin^c \in Smooth\infty Grpd$ is the [[homotopy fiber]] of $\mathbf{W}_3$, hence is the [[circle n-bundle|circle 2-bundle]] over $\mathbf{B} SO$ classified by $\mathbf{W}_3$. 
 
 
 
