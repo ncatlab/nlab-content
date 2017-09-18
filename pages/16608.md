@@ -1,0 +1,17 @@
+## Idea
+
+## Examples
+
+Burnside rings, representation rings, homotopy groups of equivariant $E_{\infty}$-ring spectra in stable homotopy theory.
+
+Some other examples are related to [[Witt rings]] in the sense of Dress and Siebeneicher.
+
+## Related concepts
+
+* [[Mackey functor]]
+* [[polynomial functor]]
+* [[Witt vectors]]
+
+##References
+
+[[Neil Strickland]], _Tambara Functors_, [arXiv:1205.2516](http://arxiv.org/abs/1205.2516)
