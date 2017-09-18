@@ -41,6 +41,11 @@ Discussion for $n = 1$, hence universal [[A-∞ algebra|A-∞]]-enveloping algeb
 
 * [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
 
+
+and more details have been worked out here:
+
+* Vladimir Baranovsky, _A universal enveloping for L-infinity algebras_ ([https://arxiv.org/abs/0706.13960](https://arxiv.org/abs/0706.1396))
+
 Aspects of general enveloping $E_n$-alebras are mentioned in the context of [[factorization homology]] in section 5 and in particular around the bottom of p. 18 in
 
 * [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://arxiv.org/abs/1206.5522))
