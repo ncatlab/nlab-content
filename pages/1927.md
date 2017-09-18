@@ -61,10 +61,15 @@ Every effective epimorphism is, of course, a [[regular epimorphism]] and hence a
 
 ## References
 
-In toposes effective epimorphisms are considered in section IV.7 of 
+In [[toposes]] effective epimorphisms are considered in 
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
- {#MacLaneMoerdijk}
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], section IV.7  of _[[Sheaves in Geometry and Logic]]_
+ 
+
+Disucssion in [[homotopy type theory]] is in 
+
+* [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
 
 
 [[!redirects effective epi]]
