@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -448,6 +447,10 @@ $$
   * [[Fredholm module]]
 
   * [[completion of a module]]
+
+  * [[quasicoherent module]]
+
+    [[module over a derived stack]]
 
 * [[representation]], [[∞-representation]]
 
