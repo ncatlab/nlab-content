@@ -16,11 +16,23 @@
 {:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
-> This entry contains one chapter of _[[geometry of physics]]_, see there for context and background.
 
-> previous chapters: _[[geometry of physics -- homotopy types|homotopy types]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
+$\,$
 
-> next chapters: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- geometric quantization with KU-coefficients|geometric quantization with KU-coefficients]]_
++-- {: .standout}
+
+$\;\;\;\;\;\;\;\;\;\;\;$ **[[nLab:stable homotopy theory|Stable Homotopy Theory]]**
+
+$\;\;\;\;\;\;\;\;\;\;\;$ An introduction.
+
+=--
+
+
+
+
+$\,$
+
+> under construction
 
 ***
 
@@ -32,7 +44,8 @@
 
 ## Introduction
 
-### Stable homotopy theory
+### 1) Stable homotopy theory
+ {#StableHomotopyTheory}
 
 We discuss [[spectra]] in the sense of [[algebraic topology]]: the proper generalization of [[abelian groups]] to [[homotopy theory]]. Since these are universally characterized as being the [[stabilization]] of plain [[homotopy types]] under [[looping and delooping]], one speaks of _[[stable homotopy theory]]_.
 
@@ -45,7 +58,8 @@ $$
 
 Most of [[linear algebra]] and [[algebraic geometry]] passes along as [[abelian groups]] are generalized to [[spectra]] and turns into something remarably rich, called _[[brave new algebra]]_, _[[higher algebra]]_ and _[[E-∞ geometry|spectral geometry]]_. In particular the analog of the theory of ([[commutative ring|commutative]]) [[rings]] and their [[modules]] exist, given by ([[commutative ring spectrum|commutative]]) [[ring spectra]] ([[E-∞ rings]], [[A-∞ rings]]) and [[module spectra]] ([[∞-modules]]). 
 
-### Adams-Novikov spectral sequences
+### 2) Adams spectral sequences
+ {#ANSS}
 
 Since spectra are considerably richer than abelian groups, stable homotopy is much concerned with "[[fracture theorem|fracturing]]" stable homotopy types into more tractable components:
 
@@ -65,10 +79,10 @@ $$
 
 Therefore the study of spectra "[[fracture theorem|fractures]]" into the various [[localizations]] and [[formal completions]] of $Spec(S)$. Since this is like the white light of $Spec(S)$ decomposing into various wavelengths, one speaks of _[[chromatic homotopy theory]]_. 
 
-In particular, an  [[E-∞ ring]] $E$ is [[formal dual|dually]] a morphism of $E_\infty$-algebraic spaces $Spec(E) \longrightarrow Spec(\mathbb{S})$ and under good conditions the [[1-image]] of this map is the formal dual of the [[formal completion]] at $E$:
+In particular, an  [[E-∞ ring]] $E$ is [[formal dual|dually]] a morphism of $E_\infty$-algebraic spaces $Spec(E) \longrightarrow Spec(\mathbb{S})$ and under good conditions the [[1-image]] of this map is the formal dual of the [[Bousfield localization of spectra|localization]] at $E$:
 
 $$
-  Spec(E) \stackrel{epi_1}{\longrightarrow} Spec(\mathbb{S}_E^\wedge) \stackrel{mono_1}{\longrightarrow} Spec(\mathbb{S})
+  Spec(E) \stackrel{epi_1}{\longrightarrow} Spec(L_E \mathbb{S}) \stackrel{mono_1}{\longrightarrow} Spec(\mathbb{S})
  \,.
 $$
 
@@ -76,27 +90,277 @@ This means that $Spec(E) \longrightarrow Spec(\mathbb{S}_E^\wedge)$ is a [[cover
 
 The computation of [[homotopy groups]] of spectra that make use of their decomposition this way into $E$-[[∞-modules]] equipped with [[descent]] data is the _$E$-[[Adams spectral sequence]]_, a central tool of the theory.
 
-### Geometry over $Spec(\mathbb{S})$
+### S) Complex oriented cohomology
 
 For this reason special importance is carried by those [[E-∞ rings]] such that $Spec(E) \to Spec(\mathbb{S})$ is already a [[covering]], for these the $E$-[[∞-modules]] equipped with descent data give an equivalent, but in general more tractable, incarnation of the stable homotopy theory of spectra.
 
-Curiously, a good bit of [[differential geometry]] and of structures known from [[physics]] arises within the abstract stable homotopy theory this way: the archetypical $Spec(E)$ which covers $Spec(\mathbb{S})$ is $E = $ [[MU]], the [[Thom spectrum]] for [[complex vector bundles]].
+Curiously, a good bit of [[differential geometry]] and of structures known from [[physics]] arises within the abstract stable homotopy theory this way: the archetypical $Spec(E)$ which covers $Spec(\mathbb{S})$ is $E = $ [[MU]], the [[Thom spectrum]] for [[complex vector bundles]]. 
 
-Now [[Quillen's theorem on MU]] says that $Spec(MU)$ is a refined version of the [[moduli stack of formal groups]] $\mathcal{M}_{fg}$. This in turn naturally admits a [[stratification]] by the [[height of formal groups]]. 
+An [[E-∞ algebra]] $E$ over $MU$, hence a $Spec(E)\to Spec(MU)$ is now a [[multiplicative cohomology theory|multiplicative]] "[[complex oriented cohomology theory]]".
 
-(...) 
+(...)
 
-## **1)** Stable homotopy theory
+## **Part 1) Stable homotopy theory**
  
 * [[stable homotopy theory]]
+
+We follow ([Schwede 12](#Schwede12), [Schwede 15](#Schwede15)).
 
 ### Spectra
 
 * [[spectrum]], [[symmetric smash product of spectra]]
 
-* [[symmetric spectra]]
 
-* [[suspension spectrum]], [[sphere spectrum]]
++-- {: .num_defn #OrthogonalSpectrum}
+###### Definition
+
+An _[[orthogonal spectrum]]_ $X$ consists of for each $n \in \mathbb{N}$
+
+1. a sequence of [[pointed topological spaces]] $X_n$ (the _$n$th level_);
+
+1. a base-point preserving [[continuous function|continuous]] [[action]] of the [[topological group|topological]] [[orthogonal group]] $O(n)$ on $X_n$;
+
+1. based-point preserving [[continuous functions]] $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ from the [[smash product]] with the [[1-sphere]] (the _$n$th structure map_)
+
+such that for all $n,k \in \mathbb{N}$ with $k \geq 1$
+
+* the [[continuous functions]] $\sigma^k \colon X_n \wedge S^k \longrightarrow X_n \wedge S^k$ given as the [[compositions]]
+
+  $$
+    \sigma^k \colon
+    X_n \wedge S^k  
+     \stackrel{\sigma_n \wedge S^{k-1}}{\longrightarrow}
+    X_{n+1} \wedge S^{k-1}
+     \stackrel{\sigma_{n-1} \wedge S^{k-2}}{\longrightarrow}
+    X_{n+2} \wedge S^{k-2}
+     \stackrel{\sigma_{n-2} \wedge S^{k-3}}{\longrightarrow}
+     \cdots
+     \stackrel{\sigma_{n+k-2} \wedge S^{1}}{\longrightarrow}
+   X_{n+k-1} \wedge S^1
+     \stackrel{\sigma_{n+k-1} }{\longrightarrow}
+    X_{n+k}  
+  $$
+
+  is $O(n) \times O(k)$-equivariant
+
+  (with respect to the $O(k)$-[[action]] on $S^k$ regarded as the [[representation sphere]] of the defining action on $\mathbb{R}^k$ and via the diagonal embedding $O(n)\times O(k) \hookrightarrow O(n+k)$).
+
+A [[homomorphism]] $f \colon X \longrightarrow Y$ of orthogonal spectra is a sequence of $O(n)$-equivariant based continuous functions $f_n \colon X_n \longrightarrow Y_n$ [[commuting diagram|commuting]] with the structure maps
+
+$$
+  \array{
+    X_n \wedge S^1 & \stackrel{\sigma_n^X}{\longrightarrow} & X_{n+1}  
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
+    \\
+    Y_n \wedge S^1 & \stackrel{\sigma_n^Y}{\longrightarrow} & Y_{n+1}      
+  }
+  \,.
+$$
+
+We write $OrthSpectra$ for the [[category]] of orthogonal spectra with homomorphisms between them.
+
+=--
+
++-- {: .num_defn #StabilizationMap}
+###### Definition
+
+Given an orthogonal spectrum $X$, def. \ref{OrthogonalSpectrum},
+then for $n,k \in \mathbb{N}$ the _stabilization map_ $\iota_{n,k}$ on [[homotopy groups]] $\pi_\bullet(X_\bullet)$ of the level spaces $X_\bullet$ is 
+
+$$
+  \iota_{n,k}
+    \;\colon\;
+  \pi_{n+k} X_n
+    \stackrel{(-)\wedge S^1}{\longrightarrow}
+  \pi_{n+k+1}(X_n \wedge S^1)
+    \stackrel{(\sigma_n)_\ast}{\longrightarrow}
+  \pi_{n+k+1} X_{n+1}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #StableHomotopyGroup}
+###### Definition
+
+Given an orthogonal spectrum $X$, def. \ref{OrthogonalSpectrum}, then for $k \in \mathbb{Z}$ its $k$th _stable [[homotopy group]]_ is the [[colimit]]
+
+$$
+  \pi_k X 
+  \;\coloneqq\;
+  \underset{\longrightarrow}{\lim}_n
+  \pi_{n+k} X_n
+$$
+
+of the [[homotopy groups]] of the level spaces, taken with respect to the stabilization maps, def. \ref{StabilizationMap}.
+
+=--
+
++-- {: .num_defn #WeakHomotopyEquivalences}
+###### Definition
+
+A homomorphism $f\colon X \longrightarrow Y$ of orthogonal spectra, def. \ref{OrthogonalSpectrum}, is a _[[weak homotopy equivalence]]_ if it induces [[isomorphisms]] (of [[abelian groups]])
+
+$$
+  \pi_\bullet(f) \;\colon\;  \pi_\bullet(X) \longrightarrow \pi_\bullet(Y)
+$$
+
+on all stable homotopy groups, def. \ref{StableHomotopyGroup}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[simplicial localization]] of the category of orthogonal spectra, def. \ref{OrthogonalSpectrum}, at the weak homotopy equivalences, def. \ref{WeakHomotopyEquivalences}, is [[equivalence of (infinity,1)-categories|equivalent]] to the [[(infinity,1)-category of spectra]]:
+
+$$
+  L_{whe} OrthSpectra \simeq Spectra
+  \,.
+$$
+
+See at _[[model structure on orthogonal spectra]]_.
+
+=--
+
++-- {: .num_defn #SmashProduct}
+###### Definition
+
+Given two orthogonal spectra $X,Y\in OrthSpectra$, def. \ref{OrthogonalSpectrum}, their _[[smash product of spectra]]_ is the orthongal spectrum
+
+$$
+  X \wedge Y \in OrthSpectrum
+$$
+
+whose $n$th level space is the [[coequalizer]] 
+
+$$
+  \left(
+    \underset{p+1+q = n}{\bigvee}
+     O(n)_+  \underset{O(p)\times 1 \times O(q)}{\wedge} X_p \wedge S^1 \wedge X_q
+  \right)
+  \stackrel{\overset{}{\longrightarrow}}{\underset{}{\longrightarrow}}
+  \left(
+   \underset{p+q = n}{\bigvee}
+    O(n)_+ \underset{O(p)\times O(q)}{\wedge} X_p \wedge X_q
+   \right)
+   \longrightarrow
+   \left(X\wedge Y\right)_{n}
+$$
+
+of the two maps whose components are $\sigma_p^X \wedge Y_q$ and $X_p \wedge \sigma_q^Y \circ X_p \wedge braid_{S^1, Y_q}$, respectively, and whose structure maps are induced, under the coequalizer, by the component maps $X_p\wedge \sigma_q^Y$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[smash product of spectra]] from def. \ref{SmashProduct} naturally extends to a [[functor]]
+
+$$
+  (-)\wedge (-)
+  \;\colon\;
+  OrthSpectra \times OrthSpectra
+  \longrightarrow
+  OrthSpectra
+$$
+
+which makes $OrthSpectra$ into a [[symmetric monoidal category]] with [[unit]] the orthogonal [[sphere spectrum]] $\mathbb{S}$, example \ref{OrthogonalSphereSpectrum}.
+
+=--
+
++-- {: .num_defn #BilinearHomomorphisms}
+###### Definition
+
+For $X,Y,Z \in OrthSpectrum$, def. \ref{OrthogonalSpectrum}, a _[[bilinear map|bilinear]]-homomorphism_ 
+$$
+  b 
+    \;\colon\;
+  (X,Y)
+   \longrightarrow
+  Z
+  \,,
+$$
+
+is a collection of, for each $p,q\in \mathbb{N}$, base-point preserving $O(p) \times O(q)$-equivariant [[continuous functions]]
+
+$$
+  b_{p,q}
+   \;\colon\;
+  X_p \wedge X_q 
+    \longrightarrow
+  Z_{p+q}
+$$
+
+(out of the [[smash product]] of [[pointed topological spaces]]) which are _[[bilinear map|bilinear]]_ in that the following [[diagrams]] [[commuting diagram|commutes]]:
+
+$$
+  \array{
+    X_p \wedge X_q \wedge S^1
+     &\stackrel{b_{p,q} \wedge S^1}{\longrightarrow}&
+    Z_{p+q} \wedge S^1
+    \\
+    \downarrow^{\mathrlap{X_p \wedge \sigma_q}} 
+      && 
+    \downarrow^{\mathrlap{\sigma_{p+q}}}
+    \\
+    X_p \wedge Y_{q+1}
+     &\stackrel{b_{p,q+1}}{\longrightarrow}&
+    Z_{p+q+1}
+  }
+  \;\;\;\;,\;\;\;\;\;
+  \array{
+    X_p \wedge X_q \wedge S^1
+     &\stackrel{b_{p,q} \wedge S^1}{\longrightarrow}&
+    Z_{p+q} \wedge S^1
+    \\
+    \downarrow^{\mathrlap{X_p \wedge braid_{X_q, S^1}}}
+     &&
+    \downarrow^{\mathrlap{id}}
+    \\
+    X_p \wedge S^1 \wedge X_q 
+     &&
+    Z_{p+q} \wedge S^1
+    \\
+    \downarrow^{\mathrlap{\sigma_p \wedge Y_q}} 
+      && 
+    \downarrow^{\mathrlap{\sigma_{p+q}}}
+    \\
+    X_p \wedge Y_{q+1}
+     &\stackrel{b_{p,q+1}}{\longrightarrow}&
+    Z_{p+q+1}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The smash product of orthogonal spectra $X \wedge Y$, def. \ref{SmashProduct}, is the [[universal construction|universal]] recipient in $OrthSpectra$ of bilinear maps, def. \ref{BilinearHomomorphisms}, out of $(X,Y)$.
+
+=--
+
++-- {: .num_example #OrthogonalSphereSpectrum}
+###### Example
+
+The canonical incarnation of the [[sphere spectrum]] $\mathbb{S}$ as as orthogonal spectrum, def. \ref{OrthogonalSpectrum}, has $n$th level space
+
+$$
+  \mathbb{S}_n = S^n
+$$
+
+the [[representation sphere]] of the defining [[linear representation]] of $O(n)$ on $\mathbb{R}^n$, and as structure maps the canonical [[smash product]] [[isomorphisms]] ([[homeomorphisms]])
+
+$$
+  S^p \wedge S^1  \longrightarrow S^{p+1}
+  \,.
+$$
+
+=--
+
 
 * [[Thom spectrum]]
 
@@ -104,7 +368,7 @@ Now [[Quillen's theorem on MU]] says that $Spec(MU)$ is a refined version of the
 
 * [[smash product of spectra]],
 
-* [[model structures on symmetric spectra]]
+* [[model structure on orthogonal spectra]]
 
 
 ### Ring spectra
@@ -119,7 +383,12 @@ Now [[Quillen's theorem on MU]] says that $Spec(MU)$ is a refined version of the
 
 * [[model structure on algebras over an operad]]
 
-## **2)** Adams-Novikov spectral sequences
+
+## **Part 2) Adams spectral sequences**
+
+We follow ([Hopkins 99, section 5](#Hopkins99), [Aramian](#Aramian)).
+
+$\,$
 
 Write $HoSpectra$ for the [[stable homotopy category]] and write 
 
@@ -610,15 +879,40 @@ For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal com
 
 #### The case $E = H \mathbb{F}_p$
 
-(...)
+(... [Hatcher 04](#Hatcher04), [Rognes 12](#Rognes12)... )
 
 #### The case $E = MU$
 
 (...)
 
 
-## **3)** Geometry over $Spec(\mathbb{S})$
+## **Seminar: Complex oriented cohomology**
+ {#ComplexOrientedCohomology}
 
+
+We follow (..., [Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10)) 
+
+### Thom spectra
+
+* [[Thom space]]
+
+* [[Pontrjagin-Thom collapse map]]
+
+* [[Thom spectrum]], [[MO]], [[MU]]
+
+### Quillen's theorem on $MU$
+
+* [[formal group law]], 
+
+* [[Lazard ring]], 
+
+* [[Quillen's theorem on MU]]
+
+### Complex oriented cohomology
+
+* [[complex oriented cohomology theory]]
+
+* [[Brown-Peterson spectrum]]
 
 ### Fracturing
 
@@ -764,19 +1058,6 @@ is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
 e.g. ([Bauer 11, prop. 2.2](#Bauer11))
 
 
-
-### Complex oriented cohomology and $MU$, $BP$
-
-* [[MU]], 
-
-* [[formal group law]], [[Lazard ring]], [[Quillen's theorem on MU]]
-
-* [[complex oriented cohomology theory]]
-
-* [[Brown-Peterson spectrum]]
-
-### Chromatic fracturing
-
 +-- {: .num_remark #ExampleOfChromaticFracturing}
 ###### Remark
 
@@ -813,15 +1094,19 @@ In particular it is used for instance in the construction of [[tmf]], see exampl
 
 ## References
 
+### Basic
+
 For section **1) Stable homotopy theory** we follow
 
 * {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
-For further reading an excellent collection is
+(for [[symmetric spectra]]) or rather 
 
-* {#James95} [[Ioan Mackenzie James]],_[[Handbook of Algebraic Topology]]_ 1995
+* {#Schwede15} [[Stefan Schwede]], _Global homotopy theory_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/global.pdf))
 
-For **2) Adams-Novikov spectral sequence** we follow the streamlined presentation due to 
+(for [[orthogonal spectra]]; for our purposes take throughout $\mathcal{F} = \{1\}$ on p. 4 to be the trivial collection of groups).
+
+For **2) Adams spectral sequence** we follow the streamlined presentation due to 
 
 * {#Miller81} [[Haynes Miller]], _On relations between Adams spectral sequences, with an application to the stable homotopy of a Moore space_, J. Pure Appl. Algebra 20 (1981) ([pdf](http://math.mit.edu/~hrm/papers/miller-relations-between-adams-spectral-sequences.pdf))
 
@@ -833,20 +1118,35 @@ For the case $E =$ [[MU]] we may follow
 
 * {#Adams74} [[Frank Adams]], _Stable homotopy and generalized homology_, Chicago Lectures in mathematics, 1974
 
-For the modern picture of **3) spectral geometry over $Spec(\mathbb{S})$** we follow
+For  **S) Complex oriented cohomology ** we follow
 
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
 
-Useful **survey** of this picture has been given in
+### Further reading
 
-* {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
+For further reading on stable homotopy theory an excellent collection is
+
+* {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
+
+Useful quick survey of the modern big picture may be found in
+
+* {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([[DylanWilsonOnANSS.pdf:file]])
 
 * {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf), [notes pdf](http://math.berkeley.edu/~aaron/writing/tmf-seminar-talk.pdf))
 
-Further references pointed to above include the following.
+Further lecture notes include
+
+* {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
+
+* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
+
+Further original references pointed to above include the following:
 
 * {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology 18 (1979), no. 4, 257--281. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
 
 * {#Ravenel84} [[Douglas Ravenel]], _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf))
+
+[[!redirects geometry of physics -- stable homotopy types]]
+
