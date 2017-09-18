@@ -184,7 +184,7 @@ Under this identification, then left and right base change long a morphism of th
 
 As the special case of the [above](#AlongDeloopingsOfGroupHomomorphisms) for $H = 1$ the trivial group we obtain the following:
 
-+-- {: .num_prop #GeneralReduction}
++-- {: .num_prop #CyclicLoopSpace}
 ###### Proposition
 
 Let $\mathbf{H}$ be any  [[(∞,1)-topos]] and let $G$ be a group object in $\mathbf{H}$ (an [[∞-group]]). Then the base change along the canonical point inclusion 
