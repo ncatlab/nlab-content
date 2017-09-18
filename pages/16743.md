@@ -196,6 +196,8 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 
 * {#Mielke84} M. V. Mielke, _Homotopically Trivial Toposes_ , Pacific J. Math. **110** no.1 (1984) pp.171-182. ([euclid](https://projecteuclid.org/euclid.pjm/1102711108))
 
+* {#Mielke93} M. V. Mielke, _Topos based homology theory_ , Comment. Math. Univ. Carolinae **34** (1993) pp.549-565. ([pdf](http://www.kurims.kyoto-u.ac.jp/EMIS/journals/CMUC/pdf/cmuc9303/mielke.pdf))
+
 * [[Chris Mulvey]], _The Maximality of Filters_ , JPAA **68** (1990) pp.253-258.
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
