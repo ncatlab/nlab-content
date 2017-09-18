@@ -2,12 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Stable Homotopy theory
+#### Goodwillie calculus
 +--{: .hide}
-[[!include stable homotopy theory - contents]]
+[[!include Goodwillie calculus - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -18,9 +19,16 @@
 +-- {: .num_defn}
 ###### Definition
 
-Polynomial (∞,1)-functors, sometimes known simply as *polynomial functors* (but not to be confused with [[polynomial functors]]), are (∞,1)-functors which are [[n-excisive (∞,1)-functor|n-excisive]] for some $n$. Such a functor has degree $k$ when the smallest value of $n$ for which it is $n$-excisive is $k$. 
+In the context of [[Goodwillie calculus]]: Polynomial (∞,1)-functors, sometimes known simply as *polynomial functors* (but not to be confused with [[polynomial functors]]), are (∞,1)-functors which are [[n-excisive (∞,1)-functor|n-excisive]] for some $n \in \mathbb{N}$. Such a functor has degree $k$ when the smallest value of $n$ for which it is $n$-excisive is $k$. 
 
-An (∞,1)-functor can be approximated by polynomial (∞,1)-functors of any degree. 
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+An (∞,1)-functor may be approximated by polynomial (∞,1)-functors of any degree, see at _[[Goodwillie-Taylor tower]]_.
+
 =--
 
 +-- {: .num_remark}
@@ -30,9 +38,14 @@ A polynomial (∞,1)-functor of degree $k$ is a **homogeneous** polynomial if it
 
 =--
 
-##Related concepts
+## Related concepts
 
 * [[Goodwillie calculus]]
+
 * [[n-excisive (∞,1)-functor]]
  
 [[!redirects polynomial (∞,1)-functors]]
+
+[[!redirects polynomial (infinity,1)-functor]]
+[[!redirects polynomial (infinity,1)-functors]]
+
