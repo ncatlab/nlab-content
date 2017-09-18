@@ -26,17 +26,63 @@ A _monoidal model category_ is a [[model category]] which is also a [[closed mon
 
 ## Definition 
 
-A (symmetric) **monoidal model category** is a category equipped with 
 
-* the structure of a  [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric monoidal category]] 
++-- {: .num_defn #MonoidalModelCategory}
+###### Definition
 
-* the structure of a [[model category]];
+A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
+equipped with the structure of a  [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$
+such that the following two compatibility conditions are satisfied
 
-such that
+1. ([[pushout-product axiom]]) For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
 
-* the [[pushout-product axiom]] is satisfied, and
+   $$
+     (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
+     \longrightarrow
+     Y \otimes Y'
+     \,,
+   $$
 
-* For any cofibrant object $X$, the map $Q e \otimes X \to e\otimes X \cong X$ is a weak equivalence, where $e$ is the unit object of the monoidal structure and $Q e\to e$ is a cofibrant [[resolution]] for it.  This is automatically satisfied if $e$ is cofibrant, as it is in most (but not all) cases.
+   is itself a cofibration, which, furthermore, is acyclic if $f$ or $f'$ is.
+
+   (Equivalently this says that the [[tensor product]] $\otimes : C \times C \to C$ is a left [[Quillen bifunctor]].)
+
+1. (unit axiom) For every cofibrant object $X$ and every cofibrant resolution $\emptyset \hookrightarrow Q I \stackrel{p_I}{\longrightarrow} \ast$ of the [[tensor unit]] $I$, the resulting morphism
+
+   $$
+     Q I \otimes X \stackrel{p_I \otimes X}{\longrightarrow} I\otimes X \stackrel{\simeq}{\longrightarrow} X
+   $$ 
+
+  is a weak equivalence.
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The [[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that for $X$ a cofibrant object, then the functor $X \otimes (-)$ preserves cofibrations and acyclic cofibrations.
+
+In particular if the [[tensor unit]] $I$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is implied by the pushout-product axiom. 
+
+=--
+
++-- {: .num_defn #MonoidAxiom}
+###### Definition
+
+We say a [[monoidal model category]], def. \ref{MonoidalModelCategory}, satisfies the **[[monoid axiom]]**, def. \ref{MonoidalModelCategory}, if every morphism that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a weak equivalence.
+
+=--
+
+([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley)).
+
++-- {: .num_remark}
+###### Remark
+
+In particular, the axiom in def. \ref{MonoidAxiom} says that for every object $X$ the functor $X \otimes (-)$ sends acyclic cofibrations to weak equivalences.
+
+=--
+
 
 ## Properties 
 
@@ -47,7 +93,7 @@ such that
 +-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
 ###### Proposition
 
-Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]]. Then the [[left derived functor]] of the tensor product exsists and makes the [[homotopy category of a model category|homotopy category]] into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(I))$.
+Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]]. Then the [[left derived functor]] of the tensor product exists and makes the [[homotopy category of a model category|homotopy category]] into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(I))$.
 
 If in in addition $(\mathcal{C}, \otimes)$ satisfies the [[monoid axiom in a monoidal model category|monoid axiom]], then the [[localization]] functor $\gamma\colon \mathcal{C}\to Ho(\mathcal{C})$ carries the structure of a [[lax monoidal functor]]
 
