@@ -179,7 +179,7 @@ The last two conditions we demonstrate now.
 +-- {: .num_prop}
 ###### Proposition
 
-The functor $Pi : Sh_{(\infty,1)}(C) \to \infty Grpd$ whose existence is guaranteed by the above proposition preserves [[product]]s:
+The functor $\Pi : Sh_{(\infty,1)}(C) \to \infty Grpd$ whose existence is guaranteed by the above proposition preserves [[product]]s:
 
 $$
   \Pi(A \times B) \simeq \Pi(A) \times \Pi(B)
