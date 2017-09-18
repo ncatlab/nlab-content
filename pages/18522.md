@@ -6,7 +6,7 @@ $$\binom{V}{2} \hookleftarrow E \stackrel{\sigma}{\to} \{+, -\}.$$
 
 Signed graphs should *not* be regarded as *directed graphs*: signs on undirected edges are not the same as directional information. If a [[linear order]] has been imposed on the vertex set, then the sign function can be interpreted as imparting directions to edges (say if $x \lt y$ in the order and an edge $e$ between $x$ and $y$ has sign $+$, then the direction is $x \to y$; if $e$ has sign $-$, then the direction is $y \to x$). However, such linear orders on vertices will not be preserved by morphisms of signed graphs, so this does not give a [[functor|functorial]] way to derive directed graphs from signed graphs. 
 
-Signed graphs (and the basic theorems of their theory) are notorious for being rediscovered over and over again; a critically annotated bibliography on signed graphs and their various guises is [Zaslavsky](#ZaslavskyBibliography).
+Signed graphs (and the basic theorems of their theory) seem to be rediscovered again and again. See [Zaslavsky](#ZaslavskyBibliography) for an annotated bibliography on signed graphs and their various guises.  
 
 
 ## References 
