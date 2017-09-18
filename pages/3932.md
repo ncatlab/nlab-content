@@ -12,7 +12,7 @@ $$
   Chains(X)\otimes Chains(Y)\to Chains(X\times Y).
 $$
 
-When the [[abelian group]] $A$ has a commutative ring structure, one can take $A'=A$ and postcompone with $A\otimes A\to A$ to obtain the pairing
+When the [[abelian group]] $A$ has a commutative ring structure, one can take $A'=A$ and postcompose with $A\otimes A\to A$ to obtain the pairing
 
 $$
 H_q(X,A)\otimes H^n(X\times Y,A)\to H^{n-q}(Y,A).
