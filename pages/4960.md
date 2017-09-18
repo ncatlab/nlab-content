@@ -137,7 +137,7 @@ such that $f_!$ preserves finite products.
 
 With $f^*$ being a [[full and faithful functor]] also $f^!$ is, as indicated (for instance by the discussion at [[adjoint triple]]). 
 
-Hence the definition of cohesion specifies two [[full subcategories]], equivalent to each other, both [[coreflective subcategory|coreflective]] and one also [[reflective subcategory|reflective]].
+Hence the definition of cohesion specifies two [[full subcategories]], equivalent to each other, both [[reflective subcategory|reflective]] and one also [[coreflective subcategory|coreflective]].
 
 Since a [[topos]] is a [[cartesian closed category]] it follows with the
 discussion [here](http://ncatlab.org/nlab/show/reflective+subcategory#ReflectiveSubcategoriesOfCartesianClosedCategotries) that both of these are [[exponential ideals]]. In fact the condition that the $f^*$-inclusion is an exponential ideal is equivalent to the condition that $f_!$ preserves finite products. 
