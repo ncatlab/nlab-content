@@ -51,7 +51,7 @@ $$
   }
 $$
 
-admit an extension
+admit an [[extension]]
 
 $$
   \array{
@@ -64,9 +64,17 @@ $$
   \,.
 $$
 
-If $J$ is the class of all [[monomorphism]]s, we speak merely of an **injective object**.  
+If $J$ is the class of all [[monomorphisms]], we speak merely of an **injective object**.  
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+If $C$ has a [[terminal object]] $\ast$, then the $J$-injective objects $I$ according to def. \ref{InjectiveObjects} are those for which $I \stackrel{\exists!}{\to} \ast$ is called a $J$-[[injective morphisms]].
+
+=--
+
 
 +-- {: .num_defn #EnoughInjectives}
 ###### Definition
