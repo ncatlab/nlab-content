@@ -18,12 +18,22 @@
 
 ## Idea
 
-The _Hartogs number_ of a [[cardinal number]] $\kappa$ is the number of ways to [[well-order]] a set of cardinality at most $\kappa$.  Assuming the [[axiom of choice]], it is the smallest [[ordinal number]] whose cardinality is greater than $\kappa$ and therefore the [[successor]] of $\kappa$ as a cardinal number.  But even without the axiom of choice, it makes sense and is often an effective substitute for such a successor.
+The _Hartogs number_ of a [[cardinal number]] $\kappa$ is the number of ways to [[well-order]] a set of cardinality at most $\kappa$.[^term]
+
+[^term]: The spelling _Hartogs' number_, or even _Hartog's number_, is also in use. The later based presumably on a misapprehension since the concept was originally proposed by a German mathematician named F. Hartogs in 1915.
+
+Assuming the [[axiom of choice]], it is the smallest [[ordinal number]] whose cardinality is greater than $\kappa$ and therefore the [[successor]] of $\kappa$ as a cardinal number.  But even without the axiom of choice, it makes sense and is often an effective substitute for such a successor.
 
 +--{: .query}
 TH: The orthography here worries me! To the best of my knowledge it should be _Hartogs number_ or _Hartogs' number_ as the guy's name was _Hartogs_ .
 
 CZ: I changed the name of the entry from _Hartog's number_, which is certainly wrong. Probably it should be _Hartogs number_ now that I am really thinking about it. _Hartogs'_ and _Hartogs's_ are both acceptable variants of the possessive.
+
+TH: Ok, but if you prefer the second variant possessive -no problem, it was just I've never seen it before. In school we were taught the first variant, foreign language course though.
+
+The spelling _Hartog's_ seems to be wide-spread in the literature (e.g. Smullyan-Fitting) I'll mention it in the intro in order to feed external searches.
+
+I think the query box has served its purpose. Thanks!
 =--
 
 ## Definition
