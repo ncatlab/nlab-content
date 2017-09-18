@@ -174,7 +174,8 @@ The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([
 In terms of a [[coordinate chart]] $(x^i, u^\alpha,u^\alpha_i,u^\alpha_{i j},\cdots)$ of $E$ covering a coordinate chart $(X^i)$ of $X$, the action of the horizontal differential on functions $f \in C^\infty(Jet(E))$ is given by the formula for the [[total derivative]] operation, but with concrete differentials substituted by the respective jet coordinates:
 
 $$
-  d f = 
+  d_h f 
+    \;\coloneqq\; 
   \sum_i
   \left(
     \frac{\partial f}{\partial x^i}
@@ -201,7 +202,7 @@ More abstractly, the horizontal differential is characterized as follows:
 The horizontal differential takes horizontal forms to horizontal forms, and for all sections $\phi \in \Gamma(E)$ it respects [[pullback of differential forms]] along the jet prolongation $j_\infty \phi \in \Gamma(Jet(E))$
 
 $$
-  (j_\infty \phi)^\ast \circ d = d \circ (j^\infty \phi)^\ast
+  (j^\infty \phi)^\ast \circ d_h = d \circ (j^\infty \phi)^\ast
 $$
 
 (where on the right we have the ordinary de Rham differential on the base space).
