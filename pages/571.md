@@ -23,7 +23,7 @@ Common jargon includes "is a mono" or "is monic" for "is a monomorphism", and "i
  
 ## Definition
 
-A [[morphism]] $f \colon X \to Y$ in some [[category]] is called a _monomorphism_ (sometimes abbrieviated to _mono_), or described as being _monic_, if for every [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Z \to X$ then
+A [[morphism]] $f \colon X \to Y$ in some [[category]] is called a _monomorphism_ (sometimes abbrieviated to _mono_, or described as being _monic_), if for every [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Z \to X$ then
 
 $$
   \left(
