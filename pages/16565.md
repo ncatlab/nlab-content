@@ -36,7 +36,7 @@ For the full story of [[string theory]] this needs to be refined in three ways (
 
    (The need for this has broadly been ignored, one place where it is mentioned is ([Witten 86, p. 17](#Witten86)).)
 
-1. For the inclusion of $p_2$-brane charges of $p_2$-branes on which $p_1$-branes may end (for $p_1 = 1$: [[type II strings]] ending on [[D-branes]], for $p_1= 2$ and $p_2 = 5$ [[M2-branes]] ending on [[M5-branes]]) then $X$ is to be locally modeled on an [[extended super Minkowski spacetime]], hence on a [[super formal smooth infinity-groupoid|super orbispace]], hence a curved spacetime now is an object in [[higher Cartan geometry]] and one needs to make sense of [[Noether currents]] there.
+1. For the inclusion of charges of $p_2$-branes on which $p_1$-branes may end (for $p_1 = 1$: [[type II strings]] ending on [[D-branes]], for $p_1= 2$ and $p_2 = 5$ [[M2-branes]] ending on [[M5-branes]]) then $X$ is to be locally modeled on an [[extended super Minkowski spacetime]], hence on a [[super formal smooth infinity-groupoid|super orbispace]], hence a curved spacetime now is an object in [[higher Cartan geometry]] and one needs to make sense of [[Noether currents]] there.
 
    (Arguments in this direction for the [[D-branes]] have been given in ([Hammer 97](BPS+state#Hammer97)) and for the [[M5-brane]] in ([Sorokin-Townsend 97](BPS+state#SorokinTownsend97)).)
 
