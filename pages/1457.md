@@ -20,9 +20,9 @@ A **metric space** is a [[set]] which comes equipped with a [[function]] which m
 
 ## Definitions
 
-Traditionally, a __metric space__ is defined to be a [[set]] $X$ equipped with a __distance__ function 
+Traditionally, a __metric space__ is defined to be a [[set]] $X$ equipped with a __distance__ [[function]] 
 $$ d\colon X \times X \to [0, \infty) $$ 
-(valued in nonnegative [[real numbers]]) satisfying the following axioms: 
+(valued in [[nonnegative number|non-negative]] [[real numbers]]) satisfying the following axioms: 
 
 * [[triangle inequality|Triangle inequality]]: $d(x, y) + d(y, z) \geq d(x, z)$;
 
@@ -74,7 +74,7 @@ then we get __ultrametric spaces__, a more restricted concept.  (This include fo
 
 ## Lawvere metric spaces 
 
-In [Lawvere, 1973](#Lawvere), [[Bill Lawvere]] has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be [[supremum]] instead, enriched categories amount to Lawvere ultrametric spaces.
+In [Lawvere, 73](#Lawvere73), it was pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be [[supremum]] instead, enriched categories amount to Lawvere ultrametric spaces.
 
 Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of [[enriched category theory]].  This includes for example the notion of [[Cauchy complete category|Cauchy completion]], which in general enriched category theory is related to [[Karoubi envelope|Karoubi envelopes]] and [[Morita equivalence]].
 
@@ -139,11 +139,15 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 ## References
 
-*  {#Lawvere} [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
-   {#Lawvere1973}
+* Wikipedia, _[Metric space](https://en.wikipedia.org/wiki/Metric_space)_
 
-* [[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
- {#Meng}
+*  {#Lawvere73}  [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
+   
+
+* {#Meng} [[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
+ 
+
+
 
 [[!redirects metric space]]
 [[!redirects metric spaces]]
