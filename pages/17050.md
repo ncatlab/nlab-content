@@ -8,6 +8,8 @@
 
 ## References
 
+* [[Timo Schürg]], [[Bertrand Toën]], [[Gabriele Vezzosi]], _Derived algebraic geometry, determinants of perfect complexes, and  applications to obstruction theories for maps and complexes_, [arXiv:1102.1150](http://arxiv.org/abs/1102.1150v4).
+
 * [[Alexander Beilinson]], _Topological $\epsilon$-factors_, [arXiv:math/0610055](http://arxiv.org/abs/math/0610055).
 
 * [[Bhargav Bhatt]], [[Peter Scholze]], _Projectivity of the Witt vector affine Grassmannian_, [arXiv:1507.06490](http://arxiv.org/abs/1507.06490).
