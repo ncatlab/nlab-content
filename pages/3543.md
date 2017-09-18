@@ -85,10 +85,12 @@ More generally, a setup by [[Bertrand Toen]] serves to provide a more comprehens
 
 ## Properties {#Properties}
 
+### Preservation of homotopy pullbacks
+
 +-- {: .num_theorem}
 ###### Theorem
 
-The left [[derived functor]] of the [[Quillen functor|Quillen left adjoint]] $\Omega^\bullet : sSet \to dgAlg_{\mathbb{Q}}$ preserves [[homotopy pullbacks]] of objects of [[finite type]] (each rational homotopy group is a [[finite dimensional vector space]] over the [[ground field]).
+The left [[derived functor]] of the [[Quillen functor|Quillen left adjoint]] $\Omega^\bullet : sSet \to dgAlg_{\mathbb{Q}}$ preserves [[homotopy pullbacks]] of objects of [[finite type]] (each rational homotopy group is a [[finite dimensional vector space]] over the [[ground field]]).
 
 In other words in the induced pair of [[adjoint (∞,1)-functors]]
 
@@ -228,6 +230,13 @@ Being a Quillen right adjoint, the right derived functor of $K$ of course preser
 
 =--
 
+### Rationalization of spectra
+ {#RationalizationOfSpectra}
+
+On [[spectra]], rationalization is a [[smashing localization]], given by [[smash product]] with the [[Eilenberg-MacLane spectrum]] $H \mathbb{Q}$. (e.g. [Bauer 11, example 1.7 (4)](#Bauer11)).
+
+For more see at _[[rational stable homotopy theory]]_.
+
 ## Related concepts
 
 * [[p-localization]], [[p-completion]]
@@ -243,5 +252,7 @@ Being a Quillen right adjoint, the right derived functor of $K$ of course preser
 Around definition 1.4 in 
 
 * [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math/0604626](http://arxiv.org/abs/math.AT/0604626))
+
+* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
 [[!redirects rationalizations]]
