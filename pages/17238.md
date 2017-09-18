@@ -1,0 +1,4 @@
+
+* [[pointed object]]
+
+* [[pointed category]]
