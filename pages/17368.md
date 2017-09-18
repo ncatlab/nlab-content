@@ -14,3 +14,7 @@ Several big questions provide new angles on mathematics as an endeavor:
 * **premathematics** What concepts express intuitions that are prior to explicit mathematics and make it possible?
 * **history** How can the history of mathematical discovery inform frameworks for the future development of mathematics?
 * **humanity** What parts or aspects of mathematics are specific to the human mind, body, culture, society, and what might be more broadly meaningful to other species in the universe?
+
+### Related pages ###
+
+* [[The QED Project]] had a manifesto which addressed the big picture in math.
