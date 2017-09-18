@@ -64,6 +64,8 @@ For the analogous construction in [[equivariant stable homotopy theory]] -- yiel
 
 See the references at _[[stable homotopy theory]]_, in particular
 
+* [[Frank Adams]], Part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
+
 * [[Dieter Puppe]], _On the stable homotopy category_, Topology and its application (1973)  ([[PuppeStableHomotopyCategory.pdf:file]])
 
 * [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
