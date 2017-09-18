@@ -295,7 +295,7 @@ $$
      \\
      && \downarrow
      \\
-     && \mathbf{B}H
+     && \mathbf{B}G
   }
 $$
 
@@ -319,7 +319,7 @@ It therefore makes sense to set:
 +-- {: .num_defn #SemiCartanGeometry}
 ###### Definition
 
-An _$(H \to G)$ semi-Cartan geometry_ on a [[differential cohesion|differentically cohesive]] $X$ is
+An _$(H \to G)$ semi-Cartan geometry_ on a [[differential cohesion|differentially cohesive]] $X$ is
 
 1. a $G$-[[principal bundle]] $P$ on $X$;
 
