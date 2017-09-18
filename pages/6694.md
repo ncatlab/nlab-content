@@ -117,6 +117,10 @@ The idea captured by corollary \ref{ContinuousBijectionsFromCompactSpacesToHausd
 
 * [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
 
+* [[paracompact Hausdorff spaces are normal]]
+
+* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
+
 [[!redirects map from compact space to Hausdorff space]]
 [[!redirects map from compact space to Hausdorff space]]
 [[!redirects map from a compact space to a Hausdorff space]]
