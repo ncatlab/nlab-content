@@ -135,6 +135,7 @@ Certain kinds of Frobenius algebras have nice [[PROPs]] or [[PRO|PROs]].  The PR
 
 [[frobenius_algebra.jpg:pic]]
 
+
 Lauda and Pfeiffer [Lauda (2008)](#Lauda2008) showed that the PROP for _symmetric_ Frobenius algebras is the category of 'topological open strings', since it obeys this extra axiom:
 
 [[symmetric_frobenius_algebra_law.jpg:pic]]
@@ -200,14 +201,14 @@ Their role in [[2d TQFT]] is discussed for instance in
 * [[Joachim Kock]] (2004), _Frobenius Algebras and 2d Topological Quantum Field Theories_, Cambridge U. Press, Cambridge.
 {#Kock2004}
 
-* Joachim Kock (2006), Remarks on the history of the Frobenius equation.  ([web](http://mat.uab.es/~kock/TQFT.html#history))
+* [[Joachim Kock]] (2006), Remarks on the history of the Frobenius equation.  ([web](http://mat.uab.es/~kock/TQFT.html#history))
 {#Kock2006}
 
 * [[Aaron Lauda]] (2006), Frobenius algebras and ambidextrous adjunctions, _Theory and Applications of Categories_ **16**, 84-122.   ([web](http://tac.mta.ca/tac/volumes/16/4/16-04abs.html)  ([arXiv](http://arxiv.org/abs/math/0502550)) 
 {#Lauda2006}
 
-* Aaron Lauda and Hendryk Pfeiffer (2008), Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155**, 623-666. ([web](http://arxiv.org/abs/math/0602047))
-{#Lauda2008}
+* {#Lauda2008} [[Aaron Lauda]], [[Hendryk Pfeiffer]] (2008), Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155**, 623-666. ([web](http://arxiv.org/abs/math/0602047))
+
 
 For applications in proof theory of classical and [[linear logic]] or linguistics:
 
@@ -220,16 +221,16 @@ and Frobenius Algebras_ , arXiv:1401.5980 (2014). ([pdf](http://arxiv.org/pdf/14
 
 See also
 
-* B. Fauser, _Some Graphical Aspects of Frobenius Structures_ ,  preprint (2012).  [arXiv:1202.6380](http://arxiv.org/pdf/1202.6380v1) 
+* [[Bertfried Fauser]], _Some Graphical Aspects of Frobenius Structures_ ,  preprint (2012).  [arXiv:1202.6380](http://arxiv.org/pdf/1202.6380v1) 
 
-* [[Stephen Lack]] (2004), Composing PROPs, _Theory and Applications of Categories_ **13**, 147--163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
-{#Lack2004}
+* {#Lack2004} [[Stephen Lack]] (2004), Composing PROPs, _Theory and Applications of Categories_ **13**, 147--163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
+
 
 * R. Rosebrugh, N. Sabadini and R.F.C. Walters (2005), Generic commutative separable algebras and cospans of graphs, _Theory and Applications of Categories_ **15** (Proceedings of CT2004), 164--177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
 {#Rosebrugh2005}
 
-* R. Street (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
-{#Street2004}
+* {#Street2004} [[Ross Street]] (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
+
 
 * R. F. C. Walters, R. J. Wood, _Frobenius Objects in Cartesian Bicategories_ , TAC **20** no. 3 (2008) pp.25-47. ([pdf](http://www.tac.mta.ca/tac/volumes/20/3/20-03.pdf))
 
