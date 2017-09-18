@@ -18,7 +18,7 @@
 
 Algebraic K-theory is about natural constructions of [[cohomology theories]]/[[spectra]] from [[algebra|algebraic]] data such as [[commutative rings]], [[symmetric monoidal categories]] and various [[homotopy theory|homotopy theoretic]] refinements of these. 
 
-From a modern perspective, the algebraic K-theory [[spectrum]] $\mathbf{K}(R)$ of a [[commutative ring]] is simply the [[K-theory of a symmetric monoidal category|∞-group completion]] of [[algebraic vector bundles]] on $Spec(R)$, this will be discussed in more detail [below](#AsTheKTheoryOfAlgebraicVectorBundles). In particular there is a natural concept of algebraic K-theory of "[[brave new rings]]" ([[ring spectra]], [[E-∞ rings]])
+From a modern perspective, the algebraic K-theory [[spectrum]] $\mathbf{K}(R)$ of a [[commutative ring]] is simply the [[K-theory of a symmetric monoidal category|∞-group completion]] of [[algebraic vector bundles]] on $Spec(R)$; this will be discussed in more detail [below](#AsTheKTheoryOfAlgebraicVectorBundles). In particular there is a natural concept of algebraic K-theory of "[[brave new rings]]", i.e. of [[ring spectra]]/[[E-∞ rings]].
 
 Historically, the _algebraic K-theory_ of a [[commutative ring]] $R$ (what today is the "0th" algebraic K-theory group) was originally defined to be the [[Grothendieck group]] of its [[symmetric monoidal category]] of [[projective modules]] (under [[tensor product]] of modules). Under the [relation between modules and vector bundles](module#RelationToVectorBundlesInIntroduction), this is directly analogous to the basic definition of [[topological K-theory]] and hence the common term. (In fact when applied to the _[[stack]]_ of [[vector bundles]] then algebraic K-theory subsumes [[topological K-theory]] and also [[differential K-theory]], see [below](#OnMonoidalStacks)).
 
@@ -200,10 +200,11 @@ It is explained in ([Bunke-Tamme 12, section 3.3](#BunkeTamme12) that the preshe
 
 Regard the [[stack]] $\mathbf{Vect}^\oplus$ of [[algebraic vector bundles]]
 on $Sch$ as taking values in [[symmetric monoidal (∞,1)-categories]], via the [[direct sum]] of vector bundles. Then apply the [[K-theory of a symmetric monoidal (∞,1)-category]]-construction $\mathcal{K}$ to this, yielding a [[sheaf of spectra]].
-The fact that it is identified with the usual Thomason-Trobaugh K-theory sheaf follows from
+This identifies with the usual Thomason-Trobaugh K-theory sheaf,a fact that follows from
 
-* Zariski descent for Thomason-Trobaugh K-theory,
-* the Zariski-local equivalence between Thomason-Trobaugh K-theory, Quillen K-theory, and direct sum K-theory.
+1. Zariski descent for Thomason-Trobaugh K-theory,
+
+1. the Zariski-local equivalence between Thomason-Trobaugh K-theory, Quillen K-theory, and direct sum K-theory.
 
 ### Relation to non-commutative topology and non-commutative motives
  {#RelationToKKAndMotives}
@@ -299,6 +300,11 @@ Further review includes
 
 * {#Gerhardt14} [[Teena Gerhardt]], _Computations in algebraic K-theory_, talk at [CUNY Workshop on differential cohomologies 2014](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html) ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1800/in/channel/55/))
 
+Relation to [[Dennis trace]], [[topological Hochschild homology]] etc.:
+
+* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], _The local structure of algebraic K-theory_, Springer 2013
+
+
 ### Classical
 
 Original articles include
@@ -329,6 +335,8 @@ A reference for classical constructions is
 For [[complex varieties]]:
 
 * {#PedriniWeibel01} Claudio Pedrini, [[Charles Weibel]],  _The higher K-theory of complex varieties_, K-theory 21 (2001), 367-385 ([web](http://www.math.uiuc.edu/K-theory/0403/))
+
+* Michael Paluch, _Algebraic K-theory and topological spaces_ ([pdf](http://www.math.uiuc.edu/K-theory/0471/alg-top.pdf))
 
 For discussion of stable phenomena in algebraic K-theory, see section 4 of 
 
