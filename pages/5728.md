@@ -24,7 +24,7 @@ A [[ring]] $R$ is said to be an **Artinian ring** if it satisfies the [[descendi
 
 Depending whether this condition is satisfied by left ideals, right ideals or two-sided ideals, one speaks of _left Artinian_, _right Artinian_, or _two-sided Artinian_ rings, respectively. Clearly, in the context of [[commutative algebra]] all these notions coincide.
 
-A **local Artin algebra** with [[residue field]] $\mathbb{K}$ is a finitely generated $\mathbb{K}$-[[associative algebra|algebra]] $A$, which is a commutative Artin ring (with unit) with a unique maximal ideal $\mathfrak{m}_A$, such that the residue field $A/\mathfrak{m}_A$ is $\mathbb{K}$. As a $\mathbb{K}$ [[vector space]] one has a splitting $A=\mathbb{K}\oplus \mathfrak{m}_A$. Moreover, the descending chain condition implies that $(\mathfrak{m}_A)^n=0$ for some $n\gt\gt 0$. This is a consequence of [[Nakayama lemma]]. 
+A **local Artin algebra** with [[residue field]] $\mathbb{K}$ is a finitely generated $\mathbb{K}$-[[associative algebra|algebra]] $A$, which is a commutative Artin ring (with unit) with a unique maximal ideal $\mathfrak{m}_A$, such that the residue field $A/\mathfrak{m}_A$ is $\mathbb{K}$. As a $\mathbb{K}$ [[vector space]] one has a splitting $A=\mathbb{K}\oplus \mathfrak{m}_A$. Moreover, the descending chain condition implies that $(\mathfrak{m}_A)^n=0$ for some $n\gg 0$. This is a consequence of [[Nakayama lemma]]. 
 
 ## Examples
 
