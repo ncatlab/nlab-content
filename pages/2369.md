@@ -23,9 +23,11 @@
 
 A  _(commutative) ring spectrum_ refers to a ([[commutative monoid|commutative]]) [[monoid]] in the [[stable homotopy category]] regarded as [[monoidal category]] via the [[smash product of spectra]]. Hence a ring spectrum is a [[spectrum]] equipped with a product operation, which is associative (and commutative) up to unspecified [[homotopy]].
 
+Under the [[Brown representability theorem]], a ring spectrum represents a [[multiplicative cohomology theory]].
+
 Since the concept of [[spectrum]] is the refinement of the concept of [[abelian group]] to [[homotopy theory]]/[[(∞,1)-category theory]]. The concept of **ring spectrum** is the corresponding generalization of the notion of ([[commutative ring|commutative]]) [[ring]].
 
-Therefore the use of monoids in the [[homotopy category]] is limited, what one really needs are [[coherence|homotopy coherent]] [[A-infinity rings]]/[[E-∞ rings]]. 
+Therefore the use of monoids in the [[homotopy category]] is limited, what one often needs is further enhancement to the structure of a [[coherence|homotopy coherent]] [[A-∞ rings]]/[[E-∞ rings]]. 
 
 It turns out that these may still be modeled as ordinary ([[commutative monoid|commutative]]) [[monoids]] with respect to a sufficiently good [[symmetric monoidal smash product of spectra]] as they exist on [[orthogonal spectra]], [[symmetric spectra]] and [[S-modules]]. To contrast with the naive monoids in the [[stable homotopy category]], these monoids are called _[[highly structured ring spectra]]_. 
 
