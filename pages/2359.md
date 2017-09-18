@@ -18,7 +18,7 @@
 
 The _stable homotopy category_ $Ho(Spectra)$ is the [[category]] of [[spectra]] and [[homotopy classes]] of morphisms between them, the object of study in classical [[stable homotopy theory]]. Equivalently this is the [[homotopy category of an (∞,1)-category]] of the [[stable (∞,1)-category of spectra]] and the latter is the proper context for [[stable homotopy theory]]. But with due care exercised, the stable homotopy category itself is useful.
 
-The stable homotopy category may be thought of as the [[stabilization]] of the classical [[homotopy category]] $Ho(Top)$ under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the classical [[homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
+The stable homotopy category may be thought of as the [[stabilization]] of the [[classical homotopy category]] $Ho(Top)$ under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the [[classical homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
 
 $$
   \array{
@@ -42,7 +42,7 @@ $$
 $$
 
 
-In contrast to the classical [[homotopy category]], the stable homotopy category is a [[triangulated category]] (a shadow of the fact that the [[(∞,1)-category of spectra]] is a [[stable (∞,1)-category]]). As such it may be thought of as a refinement of the [[derived category]] [[category of chain complexes|of chain complexes]] (of [[abelian groups]]): every [[chain complex]] gives rise to a [[spectrum]] and every [[chain map]] to a map between these spectra (the [[stable Dold-Kan correspondence]]), but there are many more spectra and maps between them than arise from chain complexes and chain maps.
+In contrast to the [[classical homotopy category]], the stable homotopy category is a [[triangulated category]] (a shadow of the fact that the [[(∞,1)-category of spectra]] is a [[stable (∞,1)-category]]). As such it may be thought of as a refinement of the [[derived category]] [[category of chain complexes|of chain complexes]] (of [[abelian groups]]): every [[chain complex]] gives rise to a [[spectrum]] and every [[chain map]] to a map between these spectra (the [[stable Dold-Kan correspondence]]), but there are many more spectra and maps between them than arise from chain complexes and chain maps.
 
 Equipped with the [[smash product of spectra]] "$\wedge$" and with [[function spectra]] $[-,-]$, the stable homotopy category becomes a [[symmetric monoidal category|symmetric]] [[closed monoidal category]]. 
 
