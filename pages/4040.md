@@ -1,61 +1,64 @@
 
 
-**[[topology]]**
+**[[topology]]** ([[point-set topology]]) 
 
-[[algebraic topology]]
+see also _[[algebraic topology]]_ and _[[homotopy theory]]_
+
+[[Introduction to Topology|Introduction]]
 
 ## Basic concepts
 
-* [[space]]
+* [[open subset]], [[closed subset]]
 
-* [[locale]]
+* [[topological space]] (see also _[[locale]]_)
 
-* [[topological space]]
+* [[separation axiom]]
   
-  * [[continuous map]]
+* [[continuous function]], [[homeomorphism]]
 
-  * [[homeomorphism]]
+* [[open map]], [[closed map]]
 
-* [[Top]]
+* [[topological subspace|subspace]], [[quotient topological space|quotient space]], [[product topological space|product space]]
 
-  * [[nice topological space]]
+* [[initial topology]], [[final topology]]
 
-  * [[nice category of spaces]]
+* [[category]] [[Top]]
 
   * [[convenient category of topological spaces]]
 
-* **[[homotopy theory]]**
-
-  * [[homotopy group]]
-
-  * [[covering space]]
-
-## Theorems
-
-* [[Whitehead's theorem]]
-
-* [[Freudenthal suspension theorem]]
-
-* [[nerve theorem]]
-
 ## Extra stuff, structure, properties
 
-* [[CW-complex]], [[Hausdorff space]], [[second-countable space]], [[sober space]]
+* [[nice topological space]]
 
-* [[compact space]], [[paracompact space]]
+* [[metric space]]
+
+* [[Kolmogorov space]], [[Hausdorff space]], [[regular space]], [[normal space]] 
+
+* [[sober space]]
+
+* [[compact space]], [[paracompact space]], [[compactly generated space]]
 
 * [[connected space]], [[locally connected space]], [[contractible space]], [[locally contractible space]]
 
+* [[second-countable space]]
+
 * [[topological vector space]], [[Banach space]], [[Hilbert space]]
 
-* [[manifold]]
+* [[topological manifold]]
 
+* [[CW-complex]]
 
 ## Examples
 
-* [[point]], [[real line]], [[plane]]
+* [[discrete space]], [[codiscrete space]]
+
+* [[Euclidean space]]
+
+  * [[point]], [[real line]], [[plane]]
 
 * [[sphere]], [[ball]], [[annulus]]
+
+* [[circle]], [[torus]]
 
 * [[polytope]], [[polyhedron]]
 
@@ -64,6 +67,41 @@
 * [[Cantor space]], [[Sierpinski space]]
 
 * [[long line]], [[Warsaw circle]]
+
+* [[line with two origins]]
+
+## Basic statements
+
+* [[Hausdorff spaces are sober]]
+
+* [[CW-complexes are Hausdorff]]
+
+* [[compact Hausdorff spaces are normal]]
+
+* [[continuous image of a compact space is compact]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
+
+## Theorems
+
+* [[topological invariance of dimension]]
+
+## Basic **[[homotopy theory]]**
+
+  * [[homotopy group]]
+
+  * [[covering space]]
+
+**Theorems**
+
+* [[Whitehead's theorem]]
+
+* [[Freudenthal suspension theorem]]
+
+* [[nerve theorem]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/topology+-+contents)</div>
 
