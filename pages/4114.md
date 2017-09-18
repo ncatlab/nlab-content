@@ -43,8 +43,20 @@ The following says that if there exists a [[locally finite cover|locally finite]
 ###### Lemma
 **(locally finite refinement induces locally finite cover with original index set)**
 
-Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I, \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
+Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $\{V_j \subset X\}_{j \in J}$, be a [[refinement]] to a [[locally finite cover]]. 
 
+By definition of [[refinement]] we may [[axiom of choice|choose]] a [[function]] 
+
+$$
+  \phi \colon J \to I
+$$
+
+such that 
+
+$$
+  \underset{j \in J}{\forall}\left( V_j \subset U_{\phi(j)} \right)
+  \,.
+$$
 Then  $\left\{ W_i \subset X \right\}_{i \in I}$ with 
 
 $$
