@@ -40,11 +40,15 @@ A prominent example is [[Georg Hegel]]'s [[natural philosophy]] as expressed in 
 
 ## Related concepts
 
+* [[doctrine of ideas]]
+
 * [[idealism]]
 
   * objective idealism
 
   * [[subjective idealism]]
+
+  * [[absolute idealism]]
 
 ## References
 
