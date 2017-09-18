@@ -60,6 +60,7 @@ Using this construction of an "abstraction operator" in the combinatory logic, w
 The construction of an abstraction operator in combinatory logic is analogous to a [[cut admissibility]] theorem; the resulting translation of $\lambda$-calculus into combinatory logic is then analogous to the corresponding [[cut-elimination]] theorem.
 
 ## Linear (BCI) and affine (BCK) combinatory logic 
+ {#LinearAndAffine}
 
 Versions of combinatory logic that correspond to [[linear logic]] and [[affine logic]] have been studied under the names **BCI logic** and **BCK logic**  respectively, with the letters indicating the combinators used, where
 
