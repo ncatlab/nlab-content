@@ -28,7 +28,7 @@ The shrinking lemma is needed in the proof that [[ paracompact Hausdorff spaces 
 ###### Lemma
 **(shrinking lemma for locally finite covers)**
 
-Assuming [[excluded middle]] and the [[axiom of choice]] then:
+Assuming the [[axiom of choice]] then:
 
 Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]].
 
