@@ -259,85 +259,6 @@ $$
 
 ([Lydakis 98, example 3.8, def. 4.4](#Lydakis98))
 
-In order to compare this to to [[sequential spectra]] consider also the following variant.
- 
-+-- {: .num_defn #CategoriesOfStandardSpheres}
-###### Definition
-
-Write $S^1_{std} \coloneqq \Delta[1]/\partial\Delta[1]\in sSet^{\ast/}$ for the standard minimal pointed simplicial [[1-sphere]].
-
-Write 
-
-$$
-  \iota \;\colon\; StdSpheres \longrightarrow sSet^{\ast/}_{fin}
-$$
-
-for the non-full $sSet^{\ast/}$-[[enriched category|enriched]] [[subcategory]] of pointed [[simplicial object|simplicial]] [[finite sets]], def. \ref{SimplicialSetsPointedAndFinite} whose
-
-* [[objects]] are the [[smash product]] powers $S^n_{std} \coloneqq (S^1_{std})^{\wedge^n}$ (the standard minimal simplicial [[n-spheres]]);
-
-* [[hom-objects]] are
-
-  $$
-    [S^{n}_{std}, S^{n+k}_{std}]_{StdSpheres}
-    \coloneqq
-    \left\{
-      \array{
-        \ast & for & k \lt 0
-        \\
-        im(S^{k}_{std} \stackrel{}{\to} [S^n_{std}, S^{n+k}_{std}]_{sSet^{\ast/}_{fin}})
-        & otherwise
-      }
-    \right.
-  $$
-
-=--
-
-([Lydakis 98, def. 4.2](#Lydakis98))
-
-
-
-+-- {: .num_prop #SequentialSpectraAsSimplicialFunctorsOnStandardSpheres}
-###### Proposition
-
-There is an $sSet^{\ast/}$-[[enriched functor]] 
-
-$$
-  (-)^seq
-  \;\colon\;
-  [StdSpheres,sSet^{\ast/}]
-    \longrightarrow
-  SeqSpec(sSet)
-$$
-
-(from the category of $sSet^{\ast/}$-[[enriched presheaves|enriched copresheaves]] on the categories of standard simplicial spheres of def. \ref{CategoriesOfStandardSpheres} to the category of sequential prespectra in [[sSet]], def. \ref{Spectra}) given on objects by sending $X \in [StdSpheres,sSet^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
-
-$$
-  X^{seq}_n \coloneqq X(S^n_{std})
-$$
-
-and with structure maps
-
-$$
-  \frac{S^1_{std} \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n}{S^1_{std} \longrightarrow [X^{seq}_n, X^{seq}_{n+1}]}
-$$
-
-given by
-
-$$
-  S^1_{std} 
-    \stackrel{\widetilde{id}}{\longrightarrow}
-  [S^n_{std}, S^{n+1}_{std}]
-    \stackrel{X_{S^n_{std}, S^{n+1}_{std}}}{\longrightarrow}
-  [X^{seq}_n, X^{seq}_{n+1}]
-  \,.
-$$
-
-This is an $sSet^{\ast/}$ [[enriched category theory|enriched]] [[equivalence of categories]].
-
-=--
-
-([Lydakis 98, prop. 4.3](#Lydakis98))
 
 
 +-- {: .num_prop #QuillenEquivalenceBetweenSequentialBFAndExcisiveFunctors}
@@ -355,12 +276,11 @@ $$
   SeqSpec(sSet)_{BF}
 $$
 
-(given by restriction $\iota^\ast$ along the defining inclusion $\iota$ of def. \ref{CategoriesOfStandardSpheres} and by left [[Kan extension]] $\iota_\ast$ along $\iota$, and combined with the equivalence $(-)^{seq}$ of prop. \ref{SequentialSpectraAsSimplicialFunctorsOnStandardSpheres}) is a  [[Quillen adjunction]] and in fact a [[Quillen equivalence]] between the [[Bousfield-Friedlander model structure]] on sequential prespectra and Lydakis' [[model structure for excisive functors]].
+(given by restriction $\iota^\ast$ along the defining inclusion $\iota$ of def. \ref{CategoriesOfStandardSpheres} and by left [[Kan extension]] $\iota_\ast$ along $\iota$, and combined with the equivalence $(-)^{seq}$ of prop. \ref{SequentialSpectraAsDiagramSpectra}) is a  [[Quillen adjunction]] and in fact a [[Quillen equivalence]] between the [[Bousfield-Friedlander model structure]] on sequential prespectra and Lydakis' [[model structure for excisive functors]].
 
 =--
 
-([Lydakis 98, theorem 11.3](#Lydakis98)) For more details see at _[[model structure 
-for excisive functors]]_.
+([Lydakis 98, theorem 11.3](#Lydakis98)) For more details see at _[[model structure for excisive functors]]_. The analogous statement for spectra in $Top$ is in ([MMSS 00](#MMSS00)).
 
 +-- {: .num_remark}
 ###### Remark
