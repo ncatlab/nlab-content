@@ -12,7 +12,7 @@
 ***
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -81,36 +81,266 @@ The nerve functor may be viewed as a [[singular functor]] of the functor $i$.
 
 ## Examples ##
 
-### Ordinary nerve of a category ###
+### Nerve of a 1-category 
+ {#NerveOfACategory}
 
-Recall that the [[nLab:simplex category|simplex category]] $\Delta$ is equivalent to the full subcategory 
-$$
-  i : \Delta \hookrightarrow Cat
-$$
-of [[nLab:Cat|Cat]] on linear [[nLab:quiver|quivers]], meaning that the object $[n] \in Obj(\Delta)$ can be identified with the category $[n] = \{0 \to 1 \to 2 \to \cdots \to n\}$. The morphisms of $\Delta$ are all functors between these "linear quiver" categories.
+For fixing notation, recall that 
 
-For $D$ any [[nLab:locally small category|locally small category]], the **nerve** $N(D)$ of $D$ is the [[nLab:simplicial set]] given by
++-- {: .num_defn #SmallCategory}
+###### Definition
+
+A _[[small category]]_ $\mathcal{C}_\bullet$ is
+
+* a pair of [[sets]] $\mathcal{C}_0 \in Set $ (the set of [[objects]]) and $\mathcal{C}_1 \in Set$ (the set of [[morphisms]])
+
+* equipped with [[functions]]
+
+  $$
+    \array{
+      \mathcal{C}_1 \times_{\mathcal{C}_0} \mathcal{C}_1
+      &\stackrel{\circ}{\to}&
+      \mathcal{C}_1
+      & \stackrel{\overset{t}{\to}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\to}}}&
+      \mathcal{C}_0
+    }\,,
+  $$
+
+  where the [[fiber product]] on the left is that over $\mathcal{C}_1 \stackrel{t}{\to} \mathcal{C}_0 \stackrel{s}{\leftarrow} \mathcal{C}_1$, 
+
+such that
+
+* $i$ takes values in [[endomorphisms]];
+
+  $$
+    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\; 
+  $$
+
+* $\circ$ defines a partial [[composition]] operation which is [[associativity|associative]] and [[unitality|unital]] for $i(\mathcal{C}_0)$ the [[identities]]; in particular
+
+  $s (g \circ f) = s(f)$ and $t (g \circ f) = t(g)$.
+
+=--
+
+#### Definition
+
++-- {: .num_defn #NerveOfSmallCategory}
+###### Definition
+
+For $\mathcal{C}_\bullet$ a [[small category]], def. \ref{SmallCategory}, 
+its _simplicial nerve_ $N(\mathcal{C}_\bullet)_\bullet$ is 
+the [[simplicial set]] with 
 
 $$
-  N(D) : \Delta^{op} 
+  N(\mathcal{C}_\bullet)_n \coloneqq \mathcal{C}_1^{\times_{\mathcal{C}_0}^n}
+$$ 
+
+the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$;
+
+with face maps
+
+$$
+  d_k \colon N(\mathcal{C}_\bullet)_{n+1} \to N(\mathcal{C}_\bullet)_{n}
+$$
+
+being
+
+* for $n = 0$ the functions that remembers the $k$th object;
+
+* for $n \geq 1$ 
+
+  * the two outer face maps $d_0$ and $d_n$ are given by forgetting the first and the last morphism in such a sequence, respectively; 
+
+  * the $n-1$ inner face maps $d_{0 \lt k \lt n}$ are given by composing the $k$th morphism with the $k+1$st in the sequence.
+
+The degeneracy maps
+
+$$
+  s_k \colon N(\mathcal{C}_\bullet)n \to N(\mathcal{C}_\bullet)_{n+1}
+  \,.
+$$
+
+are given by inserting an [[identity]] morphism on $x_k$.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Spelling this out in more detail: write
+
+$$
+  \mathcal{C}_n = 
+  \left\{
+    x_0 
+      \stackrel{f_{0,1}}{\to} 
+    x_1
+      \stackrel{f_{1,2}}{\to}
+    x_2
+      \stackrel{f_{2,3}}{\to}
+    \cdots
+      \stackrel{f_{n-1,n}}{\to}
+    x_n
+  \right\}
+$$
+
+for the set of sequences of $n$ composable morphisms. Given any element of 
+this set and $0 \lt k \lt n $, write 
+
+$$
+  f_{i-1,i+1} \coloneqq f_{i,i+1} \circ f_{i-1,i}
+$$
+
+for the comosition of the two morphism that share the $i$th vertex. 
+
+With this, face map $d_k$ acts simply by "removing the index $k$":
+
+$$
+  d_0
+  \colon 
+  (x_0 \stackrel{f_{0,1}}{\to}  x_1 \stackrel{f_{1,2}}{\to} x_{2} \cdots \stackrel{f_{n-1,n}}{\to} x_n )
+  \mapsto
+  (x_1 \stackrel{f_{1,2}}{\to} x_{2} \cdots \stackrel{f_{n-1,n}}{\to} x_n )  
+$$
+
+$$
+  d_{0\lt k \lt n}
+   \colon
+  (
+    x_0 
+    \cdots 
+    \stackrel{}{\to}
+    x_{k-1}
+    \stackrel{f_{k-1,k}}{\to}
+    x_k
+    \stackrel{f_{k,k+1}}{\to}
+    x_{k+1}
+    \stackrel{}{\to}
+    \cdots
+    x_n
+  )
+  \mapsto
+  (
+    x_0 
+    \cdots 
+    \stackrel{}{\to}
+    x_{k-1}
+    \stackrel{f_{k-1,k+1}}{\to}
+    x_{k+1}
+    \stackrel{}{\to}
+    \cdots
+    x_n
+  )  
+$$
+
+$$
+  d_n 
+  \colon
+  (
+    x_0 \stackrel{f_{0,1}}{\to}
+    \cdots
+    \stackrel{f_{n-2,n-1}}{\to} 
+    x_{n-1}
+    \stackrel{f_{n-1,n}}{\to}
+    x_n
+  )
+  \mapsto
+  (
+    x_0 \stackrel{f_{0,1}}{\to}
+    \cdots
+    \stackrel{f_{n-2,n-1}}{\to} 
+    x_{n-1}
+  )
+  \,.
+$$
+
+
+Similarly, writing
+
+$$
+  f_{k,k} \coloneqq id_{x_k}
+$$
+
+for the identity morphism on the object $x_k$, 
+then the degenarcy map acts by "repeating the $k$th index"
+
+$$
+  s_k
+  \colon
+  (
+    x_0 \stackrel{}{\to}
+    \cdots 
+    \to
+    x_k
+    \stackrel{f_{k,k+1}}{\to}
+    x_{k+1}
+    \to
+    \cdots
+  )
+  \mapsto
+  (
+    x_0 \stackrel{}{\to}
+    \cdots 
+    \to
+    x_k
+     \stackrel{f_{k,k}}{\to}
+    x_k
+    \stackrel{f_{k,k+1}}{\to}
+    x_{k+1}
+    \to
+    \cdots
+  )
+  \,.
+$$
+
+This makes it manifest that these functions organise into a [[simplicial set]].
+
+=--
+
+More abstractly, this construction is described as follows. Recall that 
+
++-- {: .num_defn}
+###### Definition
+
+The [[nLab:simplex category|simplex category]] $\Delta$ is equivalent to the [[full subcategory]] 
+$$
+  i \colon \Delta \hookrightarrow Cat
+$$
+of [[Cat]] on non-empty finite [[linear orders]] regarded as categoris, meaning that the object $[n] \in Obj(\Delta)$ may be identified with the category $[n] = \{0 \to 1 \to 2 \to \cdots \to n\}$. The morphisms of $\Delta$ are all functors between these total linear categories.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $\mathcal{C}$ a [[small category]] its _nerve_ 
+$N(\mathcal{C})$ is the [[simplicial set]] give by
+
+
+$$
+  N(\mathcal{C}) 
+  \colon 
+  \Delta^{op} 
      \hookrightarrow
      Cat^{op}
-    \stackrel{Cat(-,D)}{\to}
+    \stackrel{Cat(-,\mathcal{C})}{\to}
     Set
   \,,
 $$
-where [[nLab:Cat|Cat]] is regarded as an ordinary 1-category with objects locally small categories, and morphisms being [[nLab:functor|functors]] between these.
+where [[Cat]] is regarded as a [[1-category]] with objects locally small categories, and morphisms being [[functors]] between these.
 
-So the set $N(D)_n$ of $n$-[[nLab:simplex|simplices]] of the nerve is the set of functors $\{0 \to 1 \to \cdots \to n\} \to D$. This is clearly the same as the set of sequences of composable morphisms in $D$ of length $n$:
+=--
+
+So the set $N(\mathcal{C})_n$ of $n$-[[simplices]] of the nerve is the set of functors $\{0 \to 1 \to \cdots \to n\} \to \mathcal{C}$. This is clearly the same as the set of sequences of composable morphisms in $D$ of length $n$:
 
 $$
-  N(D)_n = 
+  N(\mathcal{C})_n = 
    \underbrace{
-   Mor(D) {}_t \times_s Mor(D) {}_t \times_s \cdots
-   \times_s Mor(D) {}_t}_{n factors}
+   Mor(\mathcal{C}) {}_t \times_s Mor(D) {}_t \times_s \cdots
+   \times_s Mor(\mathcal{C}) {}_t}_{n factors}
 $$
 
-The collection of all functors between linear quivers 
+The collection of all functors between linear orders
 $$
   \{
     0 \to 1 \to \cdots \to n
@@ -140,20 +370,20 @@ is generated from those that map almost all generating morphisms $k \to k+1$ to 
 
 It follows that, for instance
 
-* for $(d_0 \stackrel{f_1}{\to} d_1, d_1 \stackrel{f_2}{\to} d_2, d_2 \stackrel{f_3}{\to} d_3) \in N(D)_3$ the image under $d_1 := N(D)(\delta_1) : N(D)_3 \to N(D)_2$ is obtained by composing the first two morphisms in this sequence: $(d_0 \stackrel{f_2 \circ f_1}{\to} d_2, d_2 \stackrel{f_3}{\to} d_3) \in N(D)_2$
+* for $(d_0 \stackrel{f_1}{\to} d_1, d_1 \stackrel{f_2}{\to} d_2, d_2 \stackrel{f_3}{\to} d_3) \in N(D)_3$ the image under $d_1 := N(\mathcal{C})(\delta_1) : N(\mathcal{C})_3 \to N(\mathcal{C})_2$ is obtained by composing the first two morphisms in this sequence: $(d_0 \stackrel{f_2 \circ f_1}{\to} d_2, d_2 \stackrel{f_3}{\to} d_3) \in N(\mathcal{C})_2$
 
-* for $(d_0 \stackrel{f_1}{\to} d_1) \in N(D)_1$ the image under $s_1 := N(D)(\sigma_1) : N(D)_1 \to N(D)_2$ is obtained by inserting an identity morphism: 
-$(d_0 \stackrel{f_1}{\to} d_1, d_1 \stackrel{Id_{d_1}}{\to} d_1) \in N(D)_2$.
+* for $(d_0 \stackrel{f_1}{\to} d_1) \in N(\mathcal{C})_1$ the image under $s_1 := N(\mathcal{C})(\sigma_1) : N(\mathcal{C})_1 \to N(\mathcal{C})_2$ is obtained by inserting an identity morphism: 
+$(d_0 \stackrel{f_1}{\to} d_1, d_1 \stackrel{Id_{d_1}}{\to} d_1) \in N(\mathcal{C})_2$.
 
 In this way, generally the face and degeneracy maps of the nerve of a category come from composition of morphisms and from inserting identity morphisms.
 
-In particular in light of their generalization to nerves of higher categories, discussed below, the cells in the nerve $N(D)$ have the following interpretation:
+In particular in light of their generalization to nerves of higher categories, discussed below, the cells in the nerve $N(\mathcal{C})$ have the following interpretation:
 
-* $S_0 = \{d | d \in Obj(D)\} $ is the collection of objects of $D$;
+* $N(\mathcal{C})_0 = \{d | d \in Obj(\mathcal{C})\} $ is the collection of [[objects]] of $\mathcal{C}$;
 
-* $S_1 = Mor(D) = \{d \stackrel{f}{\to} d' | f \in Mor(D)\}$ is the collection of morphisms of $D$;
+* $N(\mathcal{C})_1 = Mor(\mathcal{C}) = \{d \stackrel{f}{\to} d' | f \in Mor(D)\}$ is the collection of [[morphisms]] of $D$;
 
-* $S_2 = \left\{
+* $N(\mathcal{C})_2 = \left\{
     \left.
     \array{
       && d_1
@@ -164,9 +394,9 @@ In particular in light of their generalization to nerves of higher categories, d
     }
     \right|
     (f_1, f_2) \in Mor(D) {}_t \times_s Mor(D)
-  \right\}$ is the collection of composable morphisms in $D$: the 2-cell itself is to be read as the _composition operation_, which is unique for an  ordinary category (there is just one way to compose to morphisms);
+  \right\}$ is the collection of composable morphisms in $\mathcal{C}$: the 2-cell itself is to be read as the _composition operation_, which is unique for an  ordinary category (there is just one way to compose to morphisms);
 
-* $S_3 =
+* $N(\mathcal{C})_3 =
     \left\{
       \left.
         \array{
@@ -197,9 +427,13 @@ In particular in light of their generalization to nerves of higher categories, d
     \right\}
   $ is the collection of triples of composable morphisms, to be read as the unique associators that relate one way to compose three morphisms using the above 2-cells to the other way.
 
+#### Examples
 
++-- {: .num_example}
+###### Example
+**(bar construction)** 
 
-**example: bar construction ** Let $A$ be a [[monoid]] (for instance a [[group]]) and write $\mathbf{B} A$ for the corresponding one-object [[category]] with $Mor(\mathbf{B} A) = A$. Then the nerve $N(\mathbf{B} A)$ of $\mathbf{B}A$ is the simplicial set which is the usual [[bar construction]] of $A$
+Let $A$ be a [[monoid]] (for instance a [[group]]) and write $\mathbf{B} A$ for the corresponding one-object [[category]] with $Mor(\mathbf{B} A) = A$. Then the nerve $N(\mathbf{B} A)$ of $\mathbf{B}A$ is the simplicial set which is the usual [[bar construction]] of $A$
   $$
     N(\mathbf{B}A)
     =
@@ -211,8 +445,9 @@ In particular in light of their generalization to nerves of higher categories, d
   $$
   In particular, when $A = G$ is a discrete group, then the [[geometric realization]] $|N(\mathbf{B} G)|$ of the nerve of $\mathbf{B}G$ is the [[classifying space|classifying]] [[topological space]] $ \cdots \simeq B G$ for $G$-[[principal bundles]].
 
+=--
 
-#### Properties of the nerve of a category 
+#### Properties
  {#PropNerveCat}
 
 The following lists some characteristic properties of simplicial sets that are nerves of categories.
