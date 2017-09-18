@@ -1409,7 +1409,7 @@ with
 
 ### For symmetric and orthogonal spectra
 
-... restrict the [above](#OnPreExcisiveFunctors) discussion for excisive functors along rhe inclusions
+... restrict the [above](#OnPreExcisiveFunctors) discussion for excisive functors along the inclusions
 
 $$
   Sym \hookrightarrow Orth \hookrightarrow Top^{\ast/}_{cg,fin}
