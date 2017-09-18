@@ -109,6 +109,9 @@ The observation that perturbative quantum field theory is equivalently the [[for
 
 * {#DuetschFredenhagen01} [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_, Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/abs/hep-th/0101079)) 
 
+* {#HirschfeldHenselder02} A. C. Hirshfeld, P. Henselder, _Star Products and Perturbative Quantum Field Theory_, Annals Phys. 298 (2002) 382-393 ([arXiv:hep-th/0208194](https://arxiv.org/abs/hep-th/0208194))
+
+
 and for interacting field theories ([[causal perturbation theory]]/[[perturbative AQFT]]) due
 
 * {#Collini16} [[Giovanni Collini]], _Fedosov Quantization and Perturbative Quantum Field Theory_ ([arXiv:1603.09626](https://arxiv.org/abs/1603.09626))
