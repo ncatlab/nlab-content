@@ -6,4 +6,8 @@ Ensifer also intends a campanion to _Canons and Giants_ which provides mathemati
 
 Ensifer benefits a lot form nLab when preparing drafts for TM and his special thanks go to Urs Schreiber for his bring this site into existence.
 
-category: people
+[[ensifer:HomePage]]
+
+http://ncatlab.org/ensifer/show/HomePage
+
+category:people
