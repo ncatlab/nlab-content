@@ -47,9 +47,13 @@ Discussion in the language of the  [[D'Auria-Fre formulation of supergravity]] (
 
 * [[José de Azcárraga]], J. M. Izquierdo, _Superalgebra cohomology, the geometry of extended superspaces and superbranes_ ([arXiv:hep-th/0105125](http://arxiv.org/abs/hep-th/0105125))
 
+and particularly with emphasis of the extended super Minkowski spacetimes as targets for the [[Green-Schwarz super-p brane sigma models]] with gauge fields on the [[worldvolume]] (tensor multiplets) in 
+
+* {#Azcarraga05} [[José de Azcárraga]], _Superbranes, $D=11$ CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf.Proc.767:243-267,2005 ([arXiv:hep-th/0501198](http://arxiv.org/abs/hep-th/0501198))
+
 Discussion that makes the [[super L-infinity algebra]] [[homotopy theory]] underlying this manifest is in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]],  _[[schreiber:The brane bouquet]]_, 2013
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]],  _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_,  International Journal of Geometric Methods in Modern Physics. Volume 12, Issue 02 (2015) 1550018 (35 pages) 2013 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 [[!redirects extended super Minkowski spacetimes]]
 [[!redirects extended super-spacetime]]
@@ -63,5 +67,4 @@ Discussion that makes the [[super L-infinity algebra]] [[homotopy theory]] under
 [[!redirects extended super Minkowski  spacetime]]
 [[!redirects extended superspacetime]]
 [[!redirects extended superspacetime]]
-
 
