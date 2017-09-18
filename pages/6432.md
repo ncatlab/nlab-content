@@ -40,6 +40,8 @@ $$\pi_*\mu hom(F,G)\cong \mathbb{R}Hom(F,G).$$
 
 [[Index theory]]
 
+[[Microlocal formulation of index theory]]
+
 [[Global analytic index theory]]
 
 [[Derived microlocalization]]
