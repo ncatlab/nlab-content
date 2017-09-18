@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 # Pure sets
-* toc
+* table of contents
 {: toc}
 
 ## Motivation
@@ -11,12 +22,14 @@ The primary motivation for [[structural set theory]] is that this conception of 
 
 There is also a very practical point to this exercise: the translation between material and structural set theories.  Any model of a material set theory is already a model of a corresponding structural set theory, but we go through the yoga below to construct a model of a material set theory out of a model of a structural set theory.  In particular, we must do this to prove that two set theories (one material and one structural) are equiconsistent.
 
+See also at _[[material-structural adjunction]]_.
+
 
 ## Idea
 
 Taking a structural notion of [[set]] as granted, we wish to define a __pure set__ to be a set of pure sets.  On the face of it, this is a circular definition, but like many such definitions, it can be made precise in (at least) two ways: [[recursion|recursively]] and [[corecursion|corecursively]].
 
-* The 'recursive' meaning is that all pure sets must be *constructed*, starting from nothing, as sets of other previously constructed pure sets.  This results in the **[[well-founded relation|well-founded]] pure sets**.  Thus, at first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  In this way we can obtain at least all [[hereditarily finite sets]]; if we use an axiom of infinity as well, we can jump to the [[countably infinite set]] of all hereditarily finite sets and continue from there.
+* The 'recursive' meaning is that all pure sets must be *constructed*, starting from nothing, as sets of other previously constructed pure sets.  This results in the **[[well-founded relation|well-founded]] pure sets**.  Thus, at first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  In this way we can obtain at least all [[hereditarily finite sets]]; if we use an [[axiom of infinity]] as well, we can jump to the [[countably infinite set]] of all hereditarily finite sets and continue from there.
 
 * The 'corecursive' meaning is that any pure set can be *deconstructed* into a set of other pure sets, and every possible such deconstruction defines a unique pure set.  In this way we obtain not just well-founded pure sets but also **ill-founded pure sets**.  (The inclusion of well-founded sets among the ill-founded sets is an example of the [[red herring principle]].)  Possible examples of non-well-founded sets include a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.
 
