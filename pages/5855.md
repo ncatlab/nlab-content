@@ -95,7 +95,7 @@ $$
 
 given by [[tensor product of modules]] with $S$ regarded as an $S$-$R$-[[bimodule]]: the left [[action]] being the canonical action of $S$ on itself, the right being the [[restriction of scalars]]-action along $f$.
 
-Explicitly, for $N \in S Mod$ 
+Explicitly, for $N \in R Mod$ 
 
 * the elements of $f_! N$ are [[equivalence classes]] of pairs $(s,n) \in S \times N$ under the [[equivalence relation]] $ (s \cdot f(r), n) = (s, r\cdot n) $ for all $s \in S$;
 
