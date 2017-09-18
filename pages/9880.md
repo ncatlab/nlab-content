@@ -86,6 +86,8 @@ A review specifically in [[type II string theory]] is in
 
 
 [[!redirects non-perturbative effects]]
+[[!redirects non-perturvative effects]]
+
 
 [[!redirects nonperturbative effect]]
 [[!redirects nonperturbative effects]]
