@@ -3,6 +3,8 @@
 
 > previous chapters: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- principal connections|principal connections]]_
 
+***
+
 #Contents#
 * table of contents
 {:toc}
@@ -171,7 +173,7 @@ From the discussion at _[[Lie integration]]_:
    for $G$ the simply connected [[Lie group]] associated to $\mathfrak{g}$ by traditional [[Lie theory]]. If $\mathfrak{g}$ is furthermore a [[semisimple Lie algebra]], then also
 
    $$
-     cosk_k \exp(\mathfrak{g}) \simeq \mathbf{B}G_\bullet
+     cosk_3 \exp(\mathfrak{g}) \simeq \mathbf{B}G_\bullet
    $$
 
 1. for $\mathfrak{g} = b^{p}\mathbb{R}$ the [[line Lie n-algebra|line Lie p+1]]-algebra, then 
@@ -197,7 +199,7 @@ it prolongs to a homomorphism of presheaves
 
 $$
   \mu \colon \Omega^1_{flat}(-,\mathfrak{g})
-  \longrightarrow \Omega^1(-,mathfrak{h})
+  \longrightarrow \Omega^1(-,\mathfrak{h})
 $$
 
 and of [[simplicial presheaves]]
@@ -237,23 +239,38 @@ $$
      \\
      \mathbf{B}G_\bullet
      &\stackrel{\mathbf{c}}{\longrightarrow}&
-     \mathbf{B}^{p+2} (\mathbb{R}/\Gamma)_\bulllet
+     \mathbf{B}^{p+2} (\mathbb{R}/\Gamma)_\bullet
   }
   \,.
 $$
 
 =--
 
-This is discussed in ([FSS 12](Lie+integration#FSS12)).
+This is discussed in detail in ([FSS 12](Lie+integration#FSS12)). 
+
 
 #### The WZW terms
 
 +-- {: .num_prop }
 ###### Proposition
 
-Given an $L_\infty$-cocycle $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$ for $\mathfrak{g}$ concentrated in degrees $\leq p+1$, then the canonical [[commuting diagram]] of [[simplicial presheaves]]
+Given an [[L-∞ algebra cohomology|L-∞ cocycle]] $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$, then the canonical [[commuting diagram]] of [[simplicial presheaves]]
 
 $$
+   \array{
+    \Omega^1_{flat}(-,G)
+    &\stackrel{\mu}{\longrightarrow}&
+    \Omega^2_{cl}(-,\mathbb{G})
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat_{dR}\mathbf{B}G
+    &\stackrel{\flat_{dR} \mathbf{c}}{\longrightarrow}&
+    \flat_{dR}\mathbf{B}^2 \mathbb{G}
+  }
+  \;\;\;
+  \coloneqq
+  \;\;\;
   \array{
     \Omega^1_{flat}(-,\mathfrak{g})
     &\stackrel{\mu}{\longrightarrow}&
@@ -266,14 +283,26 @@ $$
     \stackrel{\flat_{dR}\exp(\mu)_\bullet}{\longrightarrow}
     &
     \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}_\bullet
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat_{dR}\mathbf{B}G
+    &\stackrel{\flat_{dR}\mathbf{c}}{\longrightarrow}&
+    \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
   }
 $$
 
-given by def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra}, 
+given 
+
+* on the top by def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra}, 
 example \ref{ExamplesOfLieIntegration},
-remark \ref{LieIntegrationIsFunctorial}, presents a 
+remark \ref{LieIntegrationIsFunctorial}, 
+
+* on the bottom by prop. \ref{TruncatedLieIntegrationOfCocycle},
+
+presents a 
 refinement of the canonical [[Hodge filtration]] on $\mathbf{B}^{p}(\mathbb{R}/\Gamma)$, def. \ref{RefinementOfHodgeFiltration}, 
-along the cocycle $\athbf{c}$ which Lie integrates $\mu$
+along the cocycle $\mathbf{c}$ which Lie integrates $\mu$
 via prop. \ref{TruncatedLieIntegrationOfCocycle}.
 
 =--
@@ -295,6 +324,7 @@ Throughout, let
 * $G \in \mathbf{H}$ be any object equipped with [[∞-group]] structure, i.e. with specified [[delooping]] $\mathbf{B}G$;
 
 * $\mathbf{c} \;\colon\; \mathbf{B}G \longrightarrow \mathbf{B}^2 \mathbb{G}$ a morphism, hence a [[cocycle]] in the [[group cohomology]] of $G$ with [[coefficients]] in $\mathbb{G}$.
+
 
 Write
 
@@ -318,7 +348,7 @@ $$
     \downarrow && \downarrow
     \\
     \flat_{dR}\mathbf{B}G
-    &\stackrel{\Omega \mathbf{c}}{\longrightarrow}&
+    &\stackrel{\flat_{dR} \mathbf{c}}{\longrightarrow}&
     \flat_{dR}\mathbf{B}^2 \mathbb{G}
   }
 $$
@@ -401,8 +431,10 @@ $$
      \\
      G &\stackrel{\Omega \mathbf{c}}{\longrightarrow}& \mathbf{B}\mathbb{G}
   }
-  \,.
+  \,,
 $$ 
+
+where the top square is from def. \ref{RefinementOfHodgeFiltration} and where the bottom square is the naturality square of the [[homotopy fiber sequence]] that defines the [[Maurer-Cartan forms]] (see [here](Maurer-Cartan+form#OnCohesiveHomotopyTypes)).
 
 =--
 
@@ -411,4 +443,5 @@ $$
 
 ## References
 
-* [[schreiber:differential cohomology in a cohesive topos]]
+* _[[schreiber:differential cohomology in a cohesive topos]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/dcct.pdf))
+
