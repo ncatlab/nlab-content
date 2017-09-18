@@ -43,7 +43,7 @@ See also _[[proofs as programs]]_.
 ### Formal proofs
  {#FormalProof}
 
-A formal proof is whatever is called a 'proof' in a formal system; a formal system for [[mathematics]] then gives methods for producing a proof in the above sense.  Typically, a formal system is [[induction|inductively]] defined, and hence its proofs are fully circumscribed; this is the case for [[deductive systems]] such as [[natural deduction]], [[sequent calculus]], and [[Hilbert systems]].  [[incompleteness theorem|Gödel's theorem]] suggests, however, that no such system can encapsulate all of mathematics.
+A formal proof is whatever is called a 'proof' in a formal system; a formal system for [[mathematics]] then gives rules for producing a proof in the above sense.  Typically, a formal system is [[induction|inductively]] defined, and hence its proofs are fully circumscribed; this is the case for [[deductive systems]] such as [[natural deduction]], [[sequent calculus]], and [[Hilbert systems]].  [[incompleteness theorem|Gödel's theorem]] suggests, however, that no such system can encapsulate all of mathematics.
 
 ## Relation to observation in physics
 
@@ -51,6 +51,7 @@ In ([Jaffe-Quinn 93, p. 2](JaffeQuinn93)) it was argued that
 
 > the role of rigorous [[proof]] in mathematics is functionally [[analogy|analogous]] to the role of [[experiment]] in the natural sciences 
 
+Responses to this claim and its implications may be found [here](http://arxiv.org/abs/math/9404229). Mac Lane in particular considers the analogy faulty, arguing for theorems and proofs as the final goal of a piece of developed mathematics, and emphasizing the explanatory function of proofs. 
 
 ## Related concepts
 
