@@ -189,6 +189,8 @@ and hence in $[\Sigma^\infty_G S^7, \Sigma^\infty_G S^4]_G$.
 
 =--
 
+See also at _[[equivariant stable cohomotopy]]_
+
 ## Related concepts
 
 * [[real Hopf fibration]]
