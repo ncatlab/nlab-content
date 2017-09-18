@@ -211,3 +211,5 @@ category: foundational axiom
 
 [[!redirects type-theoretic axiom of choice]]
 [[!redirects type theoretic axiom of choice]]
+[[!redirects external axiom of choice]]
+[[!redirects internal axiom of choice]]
