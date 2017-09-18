@@ -35,21 +35,21 @@ $$
   \,.
 $$
 
-By the assumption that $Y$ is closed, the [[complement]] $X \backslash Y$ is an open subset of $X$, and therefore
+By the assumption that $Y$ is closed, the [[complement]] $X \setminus Y$ is an open subset of $X$, and therefore
 
 $$
-  \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
+  \{ X \setminus Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
 $$
 
 is an [[open cover]] of $X$. Now by the assumption that $X$ is compact, this latter cover has a finite subcover,
 hence there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that 
 
 $$
-  \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
+  \{ X \setminus Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
 $$
 
 is still an oopen cover of $X$, hence in particular intersects to a finite open cover of $Y$. 
-But since $Y \cap ( X \backsalsh Y ) = \empty$, it follows that indeed
+But since $Y \cap ( X \setminus Y ) = \empty$, it follows that indeed
 
 $$
   \{V_i \subset Y\}_{i \in J \subset I}
@@ -61,6 +61,8 @@ is a cover of $Y$, and in indeed a finite subcover of the original one.
 
 
 ## Related statements
+
+* [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]]
 
 * [[open subspaces of compact Hausdorff spaces are locally compact]]
 
