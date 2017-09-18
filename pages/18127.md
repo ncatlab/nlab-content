@@ -76,7 +76,7 @@ This intuition is made precise by observing that there is a [[continuous functio
 ([this example](Introduction+to+Topology+--+1#BinaryProductTopologicalSpace)) of the open ball with the [[closed interval]]
 
 $$
-  \eta \colon [0,1] \times B_0^\circ(1)  \longrightarrow \mathbb{R}^n
+  \eta \colon [0,1] \times B_0^\circ(1)  \longrightarrow B_0^\circ(1)
 $$
 
 which is given by rescaling:
@@ -86,7 +86,7 @@ $$
   \,.
 $$
 
-This continuously interpolates between the open ball and the point in that for $t = 1$ then it restricts to the defining inclusion $B_0^\circ(1)$, while for $t = 0$ then it restricts to the map constant on the origin.
+This continuously interpolates between the open ball and the point, in that for $t = 1$ it restricts to the identity, while for $t = 0$ it restricts to the map constant on the origin.
 
 
 We may summarize this situation by saying that there is a
@@ -110,25 +110,33 @@ $$
 
 Such "continuous deformations" are called _[[homotopies]]_:
 
++-- {: .num_defn #SheavesOnCartSp}
+###### Definition
+
+=--
+
 +-- {: .num_defn #LeftHomotopy}
 ###### Definition
-**(homotopy)**
+**([[homotopy]])**
 
 For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a _[[left homotopy|(left) homotopy]]_
+from $f$ to $g$, to be denoted
 
 $$
   \eta \colon f \,\Rightarrow_L\, g
+  \,,
 $$
 
 is a [[continuous function]]
 
 $$
-  \eta \;\colon\; X \times I \longrightarrow Y
+  \eta \;\colon\; X \times [0,1] \longrightarrow Y
 $$
 
 
-out of the [[product topological space]] (example \ref{ProductTopologicalSpace})
-of the open ball with the standard interval, such that this fits into a [[commuting diagram]] of the form
+out of the [[product topological space]] ([this example](Introduction+to+Topology+--+1#ProductTopologicalSpace))
+of $X$ with the standard [[closed interval]] $[0,1]$ with its [[Euclidean space|Euclidean]] [[metric topology]], 
+such that this fits into a [[commuting diagram]] of the form
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
@@ -502,31 +510,56 @@ We now discuss a "dual incarnation" of fundamental groups, which often helps to 
 
 +-- {: .num_defn #CoveringSpace}
 ###### Definition
-**(covering space)**
+**([[covering space]])**
 
-A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]]
+Let $X$ be a [[topological space]].
+A _[[covering space]]_ of $X$ is a [[continuous function]]
 
 $$
-  p \colon E \to X
+  p \colon E \longrightarrow X
 $$
 
 such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted
 to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$
-to the [[product topological space]] (example \ref{ProductTopologicalSpace}) of $U_i$
-with the [[discrete topological space]] (example \ref{CoDiscreteTopology}) on a [[set]] $F_i$
+to the [[product topological space]] ([this example](Introduction+to+Topology+--+1#ProductTopologicalSpace)) of $U_i$
+with the [[discrete topological space]] ([this example](Introduction+to#topology+--+1#CoDiscreteTopology)) on a [[set]] $F_i$,
+
+In summary this says that $p \colon E \to X$ is a covering space if there exists a [[pullback]] [[diagram]] in [[Top]]
+of the form
 
 $$
   \array{
-    \underset{i}{\sqcup} U_i \times F_i &\longrightarrow&  E
+    \underset{i}{\sqcup} U_i \times Disc(F_i) &\longrightarrow&  E
     \\
     \downarrow &(pb)& \downarrow^{\mathrlap{p}}
     \\
-    \underset{i}{\sqcup} U_i &\underset{}{\longrightarrow}& X
+    \underset{i \in I}{\sqcup} U_i &\underset{}{\longrightarrow}& X
   }
   \,.
 $$
 
-For $x \in U_i \subset X$ a point, then the elements in $F_x  = F_i$ are called the _leaves_ of the covering at $x$.
+For $x \in U_i \subset X$ a point, then the elements in $F_x  = F_i$ are called the _[[leaves]]_ of the covering at $x$.
+
+Given two covering spaces $p_i \colon E_i \to X$ , then a [[homomorphism]] between them is
+a [[continuous function]] $f \colon E_1 \to E_2$ between the total covering spaces, which respects
+the [[fibers]] in that the following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+    E_1 && \overset{f}{\longrightarrow} && E_2
+    \\
+    & \searrow && \swarrow
+    \\
+    && X
+  }
+  \,.
+$$
+
+This defines a [[category]] $Cov(X)$ whose
+
+* [[objects]] are the covering spaces over $X$;
+
+* [[morphisms]] are the homomorphisms between these.
 
 =--
 
@@ -667,9 +700,19 @@ $$
 
 One says that $\rho$ is an _[[action]]_ or _[[permutation representation]]_ of $\pi_1(X,x)$ on $F_x$.
 
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
 For $G$ any [[group]], then there is a [[category]] $G Set$ whose [[objects]] are [[sets]]
 equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function|functions]] which respect
-these actions. The above construction yields a [[functor]]
+these actions. 
+
+
+The construction in def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} is a [[functor]] 
+of the form
 
 $$
   Cov(X) \longrightarrow \pi_1(X,x) Set
