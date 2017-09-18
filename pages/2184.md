@@ -115,9 +115,11 @@ From the [[nPOV]], it is often possible to describe notions of subgraph in terms
 
 in the [[category of simple graphs]], and similarly for suitable categories of other types of graph. 
 
-One synonym in the nLab for _induced subgraph_ is *full subgraph*, for brevity, and for harmony with other uses of _full_ in category theory (but also for more precise reasons).
+One synonym,[^2] in the nLab for _induced subgraph_ is *full subgraph*, for brevity, and for harmony with other uses of _full_ in category theory (but also for more precise reasons).
 
 The precise meaning of _subgraph_ depends on the chosen formalization of *graph*, needless to say.
+
+[^2]: Incidentally, the term _full_ was in use in mid-twentieth century graph theory, then seems to have fallen out of favor.
 
 ## Definition in terms of action on a set of half-edges
 
