@@ -42,13 +42,14 @@ The generalization to the [[Waldhausen S-construction]] is due to
 
 
 
-Refinement of the construction to [[stable (∞,1)-categories]] is discussed in
+Refinement of the construction to [[stable (∞,1)-categories]] and [[exact (infinity,1)-categories]] is discussed in
 
 
 * {#Haugseng10} [[Rune Haugseng]], _the Q-construction for stable $\infty$-Categories_, 2010 ([pdf](http://people.mpim-bonn.mpg.de/haugseng/talks/qconstr.pdf))
 
 * {#Barwick13} [[Clark Barwick]], _On the Q construction for exact quasicategories_ ([arXiv:1301.4725](http://arxiv.org/abs/1301.4725))
 
+* [[C. Barwick]], _On exact infinity-categories and the Theorem of the Heart_, [arXiv:1212.5232](http://arxiv.org/abs/1212.5232).
 
 [[!redirects Q-construction]]
 
