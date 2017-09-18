@@ -261,13 +261,13 @@ Such a structure _[[presheaf]]_ of [[groupoids]] is a common joint generalizatio
 ###### Remark
 **on how not to define smooth groupoids**
 
-One could be tempted to define smooth groupoids to be [[internal groupoids]] in [[smooth sets]]. Restricting this definition to groupoids internal to [[diffeological spaces]] yields the concept of _[[diffeological groupoid]]_, restricting it further to groupoids internal to [[smooth manifolds]] yields the concept of _[[Lie groupoid]]_. While these are respectable definitions in themselves, care needs to be exercized in interpreting them correctly: they do _not_ in themselves exhibit the correct [[homotopy theory]] of smooth groupoids. One may of course fix this by changing the concept of [[morphisms]] to generalized morphisms called _[[Morita morphisms]]_ or _[[bibundles]]_. These are certainly useful tools for working with smooth groupoids, and they serve to present their correct homotopy theory, but they do not serve well as the definition of this homotopy theory. For instance without further insight it is rather impossible to guess form the concept of [[bibundles]] between groupoids its correct generalization to [[smooth 2-groupoids]] etc.
+One could be tempted to define smooth groupoids to be [[internal groupoids]] in [[smooth sets]]. Restricting this definition to groupoids internal to [[diffeological spaces]] yields the concept of _[[diffeological groupoid]]_, restricting it further to groupoids internal to [[smooth manifolds]] yields the concept of _[[Lie groupoid]]_. While these are respectable definitions in themselves, care needs to be exercised in interpreting them correctly: they do _not_ in themselves exhibit the correct [[homotopy theory]] of smooth groupoids. One may of course fix this by changing the concept of [[morphisms]] to generalized morphisms called _[[Morita morphisms]]_ or _[[bibundles]]_. These are certainly useful tools for working with smooth groupoids, and they serve to present their correct homotopy theory, but they do not serve well as the definition of this homotopy theory. For instance without further insight it is rather impossible to guess form the concept of [[bibundles]] between groupoids its correct generalization to [[smooth 2-groupoids]] etc.
 
 But just as the definition of [[smooth sets]], contrasted with that of [[smooth manifolds]], is not only more powerful but also _simpler_, so there is a definition of smooth groupoids which not only does give the correct homotopy theory, but it does so while being much more transparent than these more traditional presentations.
 
-Now, this definition, given below, amounts to saying that smooth groupoids are stacks on the site of smooth manifolds, and that in turn may tend to not sound like a simple definition at all. But there is a further simplification at work. Traditional texts tend to define stacks in terms of the comparatively intricate structures of [[pseudofunctors]] or (dually under the [[Grothendieck construction]]) [[fibered categories]] satisying [[descent]], and the rich structure of these combinatorial objects tends to become unwieldy already for fairly simple examples. But the theory of [[localization]] of categories turns out to handle the same theory of stacks by much more tractable means (e.g. [Hollander 01](stack#Hollander01)). Here a stack is _presented_ by a plain functor with no [[descent]] condition imposed, something that is hence as simple as a pair of two presheaves. The nature of stacks is then instead just encoded in remembering that some of the morphisms of presheaves of groupoids are to be labeled as [[weak equivalences]], namley those that locally restrict to equivalences of groupoids. 
+Now, this definition, given below, amounts to saying that smooth groupoids are stacks on the site of smooth manifolds, and that in turn may tend to not sound like a simple definition at all. But there is a further simplification at work. Traditional texts tend to define stacks in terms of the comparatively intricate structures of [[pseudofunctors]] or (dually under the [[Grothendieck construction]]) [[fibered categories]] satisfying [[descent]], and the rich structure of these combinatorial objects tends to become unwieldy already for fairly simple examples. But the theory of [[localization]] of categories turns out to handle the same theory of stacks by much more tractable means (e.g. [Hollander 01](stack#Hollander01)). Here a stack is _presented_ by a plain functor with no [[descent]] condition imposed, something that is hence as simple as a pair of two presheaves. The nature of stacks is then instead just encoded in remembering that some of the morphisms of presheaves of groupoids are to be labeled as [[weak equivalences]], namely those that locally restrict to equivalences of groupoids. 
 
-This style of definition combines the simplicity of the naive definition of Lie groupoids with the full power of [[homotopy theory]], and it immediately generalizes to a definition of [[∞-stacks]] which is just as simple, hence, in the present contex, to a definition of [[smooth ∞-groupoid]].
+This style of definition combines the simplicity of the naive definition of Lie groupoids with the full power of [[homotopy theory]], and it immediately generalizes to a definition of [[∞-stacks]] which is just as simple, hence, in the present context, to a definition of [[smooth ∞-groupoid]].
 
 =--
 
@@ -303,7 +303,7 @@ from [[CartSp]] to the [[1-category]] [[Grpd]].
 
 =--
 
-See at _[geometry of physics -- homotopy types -- groupoids](geometry+of+physic+--+homotopy+types#Groupoids)_ for more on bare groupoids. Here will freely assume familiarity with these.
+See at _[geometry of physics -- homotopy types -- groupoids](geometry+of+physic+--+homotopy+types#Groupoids)_ for more on bare groupoids. Here we will freely assume familiarity with these.
 
 +-- {: .num_remark #YonedaIntuition}
 ###### Remark
@@ -347,7 +347,7 @@ $$
   Grpd
 $$
 
-betweem them has 
+between them has 
 
 * as [[objects]] the [[natural transformations]] $f \colon X \to Y$ between $X$ and $Y$ regarded as [[functors]], hence collections $\{f(\mathbb{R}^n)\}_{n \in \mathbb{N}}$ of [[functors]] between [[groupoids]] of probes
 
@@ -355,7 +355,7 @@ betweem them has
      f(\mathbb{R}^n) \colon X(\mathbb{R}^n) \longrightarrow Y(\mathbb{R}^n)
   $$
 
-  such that for every [[smooth function]] $\phi \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ between abstract coordinate charts, these form a (stricly) [[commuting diagram]] with the probe-pullback functors of $X$ and $Y$:
+  such that for every [[smooth function]] $\phi \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ between abstract coordinate charts, these form a (strictly) [[commuting diagram]] with the probe-pullback functors of $X$ and $Y$:
 
   $$
     \array{
@@ -418,7 +418,7 @@ The following is the [[Yoneda lemma]] in this context, and it says that this int
 +-- {: .num_prop #YonedaForPreSmoothGroupoids}
 ###### Proposition
 
-Every [[Cartesian space]] $\mathbb{R}^n$ defines a pre-smooth groupoid $\underline{\mathbb{R}}^n$, def. \ref{PreSmoothGroupoid}, by the assinment
+Every [[Cartesian space]] $\mathbb{R}^n$ defines a pre-smooth groupoid $\underline{\mathbb{R}}^n$, def. \ref{PreSmoothGroupoid}, by the assignment
 
 $$
   \underline{\mathbb{R}}^n \colon \mathbb{R}^k  \mapsto C^\infty(\mathbb{R}^k, \mathbb{R}^n)
@@ -452,7 +452,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The last statement of the [[Yoneda lemma]] in prop. \ref{YonedaForPreSmoothGroupoids} expresses just the intuition of remark \ref{YonedaIntuition} and justifies to remove the quotation marks displayed there. It also justifies dropping the extra underline denoting the [[Yoneda embedding]]. We will freely identify from now on $\mathbb{R}^n$ with the pre-smooth groupoid that it represents.
+The last statement of the [[Yoneda lemma]] in prop. \ref{YonedaForPreSmoothGroupoids} expresses just the intuition of remark \ref{YonedaIntuition} and justifies removing the quotation marks displayed there. It also justifies dropping the extra underline denoting the [[Yoneda embedding]]. We will freely identify from now on $\mathbb{R}^n$ with the pre-smooth groupoid that it represents.
 
 =--
 
@@ -578,13 +578,13 @@ More specifically, the following class of examples plays a special role in the t
 
 For $X$ a [[smooth manifold]], let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. Its _[[Cech groupoid]]_ is the [[Lie groupoid]] ([[diffeological groupoid]]) $C(\{U_i\})_\bullet$ whose
 
-* manifold of objects is $C(\{U_i\})_0 \coloneqq \underset{i \in I}{\coprod} U_i$ is the [[disjoint union]] of all the [charts]] of the cover;
+* manifold of objects is $C(\{U_i\})_0 \coloneqq \underset{i \in I}{\coprod} U_i$ is the [[disjoint union]] of all the [[charts]] of the cover;
 
 * manifold of morphisms is $C(\{U_i\})_1 \coloneqq  \underset{i,j \in I}{\coprod}U_i \underset{X}{\times} U_j$ is the [[disjoint union]] of all [[intersections]] of charts.
 
 and whose source, target and identity maps are the evident inclusions. There is then a _unique_ composition operation.
 
-So a global point $\ast \to C(\{U_i\})_\bullet$ may be thought of as a pair $(x,i)$ of a point in the manifold $X$ and a lable $i$ of a chart $U_i$ that contains it, and there is is precisely one morphism between two such global point $(x,i)\to (y,j)$ whenever $x = y$ in $X$ and both $U_i$ as well as $U_j$ contain $x$, hence one morphism for each point in an intersection of two patches. Composition of morphism is just re-remembering which intersections they sit in, the schematic picture of the Cech groupoid is this this:
+So a global point $\ast \to C(\{U_i\})_\bullet$ may be thought of as a pair $(x,i)$ of a point in the manifold $X$ and a label $i$ of a chart $U_i$ that contains it, and there is is precisely one morphism between two such global point $(x,i)\to (y,j)$ whenever $x = y$ in $X$ and both $U_i$ as well as $U_j$ contain $x$, hence one morphism for each point in an intersection of two patches. Composition of morphism is just re-remembering which intersections they sit in, the schematic picture of the Cech groupoid is this this:
 
 $$
   C(\{U_i\})_\bullet
@@ -777,7 +777,7 @@ $$
   C(\{U_i\}) \longrightarrow X
 $$
 
-and is so via the "restriction" map that takes the former and precomposes it with the canonical map $C(\{U_i\}) \to X$.
+and is so via the "restriction" map that takes the former and precomposes it with the canonical map $C(\{U_i\}) \to \mathbb{R}^n$.
 
 $$
   \array{
@@ -785,7 +785,7 @@ $$
     \\
     \downarrow & \nearrow
     \\
-    X
+    \mathbb{R}^n
   }
   \,.
 $$
@@ -802,7 +802,7 @@ $$
   PreSmooth1Type(C(\{U_i\}),X)
 $$
 
-given by pre-composition with $C(\{U_i\}) \to X$, is an [[equivalence of groupoids]].
+given by pre-composition with $C(\{U_i\}) \to \mathbb{R}^n$, is an [[equivalence of groupoids]].
 
 =--
 
@@ -816,7 +816,7 @@ The condition in def. \ref{DescentForPreSmoothGroupoids} is called the _stack co
 +-- {: .num_prop}
 ###### Proposition
 
-Let $X \in Premooth0Type \hookrightarrow PreSmooth1Type$ be a pre-smooth groupoid which is really just a pre-smooth set, hence a presheaf on $CartSp$ that takes values in groupoids with only identity morphisms
+Let $X \in PreSmooth0Type \hookrightarrow PreSmooth1Type$ be a pre-smooth groupoid which is really just a pre-smooth set, hence a presheaf on $CartSp$ that takes values in groupoids with only identity morphisms
 
 $$
   X \colon CartSp^{op} \longrightarrow Set \hookrightarrow Grp
@@ -830,7 +830,7 @@ Then $X$ is a smooth groupoid in the sense of def. \ref{DescentForPreSmoothGroup
 +-- {: .num_example #SmoothManifoldsSatisfyDescentAsPreSmoothGroupoids}
 ###### Example
 
-In particular, for $X \in SmoothMfs \hookrightarrow PreSmooth0Type \hookrightarrow PreSmooth1Type$ a [[smooth manifold]], it satisfies descent as a pre-smooth groupoid.
+In particular, for $X \in SmoothMfd \hookrightarrow PreSmooth0Type \hookrightarrow PreSmooth1Type$ a [[smooth manifold]], it satisfies descent as a pre-smooth groupoid.
 
 =--
 
@@ -866,7 +866,7 @@ $PreSmooth1Type(C(\{U_i\}),(\mathbf{B}G)_\bullet)$
 is the groupoid of [[Cech cohomology|Cech 1-cocycles and coboundaries]]
 with coeffcients in $G$ on $\mathbb{R}^n$ relative to the cover.
 But this is equivalently the groupoid of $G$-principal bundles
-on $\mmathbb{R}^n$. Now because the underlying [[topological space]]
+on $\mathbb{R}^n$. Now because the underlying [[topological space]]
 of $\mathbb{R}^n$ is [[contractible topological space|contractible]],
 all $G$-principal bundles on it are equivalent to the trivial one. 
 But this is evidently represented by the image of point
@@ -1142,7 +1142,7 @@ equivalently the groupoid of $G$-principal bundles.
 ###### Remark
 
 The content of prop. \ref{StackMapsFromXtoDeloopingOfG} is in 
-common jargon that: _$\mathbf{B}G \in SmoothGrpd is the [[moduli stack]] of $G$-[[principal bundles]]".
+common jargon that: _$\mathbf{B}G \in SmoothGrpd$ is the [[moduli stack]] of $G$-[[principal bundles]]".
 
 =--
 
