@@ -14,7 +14,7 @@
 * automatic table of contents goes here
 {:toc}
 
-## Defnition 
+## Definition 
 
 +-- {: .un_defn}
 ###### Definition
