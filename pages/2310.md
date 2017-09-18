@@ -80,7 +80,9 @@ The analogue of the [[Landweber exact functor theorem]] for even 2-periodic coho
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 , Lecture 18 _Even periodic cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture18.pdf))
 
-See also 
+Review includes
+
+* section 5.1 by [[Markus Land]] in these "TMF seminar" notes: [pdf](https://math.berkeley.edu/~aaron/livetex/TMF.pdf)
 
 * [[Akhil Mathew]], Lennart Meier, section 2.1 of _Affineness and chromatic homotopy theory_, J. Topol. 8 (2015), no. 2, 476--528 ([arXiv:1311.0514](https://arxiv.org/abs/1311.0514))
 
