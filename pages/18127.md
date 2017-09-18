@@ -12,7 +12,8 @@ This page is a detailed introduction to basic [[topology]].
 Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
 it first develops standard [[point-set topology]] ([[topological spaces]]).
 In passing, some basics of [[category theory]] make an informal appearance,
-used to transparently summarize some conceptually important aspects of the theory, such as the [[reflective subcategory|reflection]] into
+used to transparently summarize some conceptually important aspects of the theory, such as [[initial topology|initial]]
+and [[final topologies]] and the [[reflective subcategory|reflection]] into
 [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
 and ends with their first application to the classification of [[covering spaces]].
@@ -67,10 +68,12 @@ classification of [[covering spaces]].
 ## Homotopy
   {#Homotopy}
 
-We have seen above that for $n \geq 1$  then the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ is _not_ [[homeomorphic]] to, notably, the point $\ast = \mathbb{R}^0$ (example \ref{OpenBallsHomeomorphicToRn}, theorem \ref{TopologicalInvarianceOfDimension}). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
+It is clear that for $n \geq 1$ the [[Euclidean space]] $\mathbb{R}^n$ or equivalently the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$
+is _not_ [[homeomorphic]] to the [[point space]] $\ast = \mathbb{R}^0$ (simply because there is not even a [[bijection]] bewteen the
+underlying [[sets]]). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
 
 This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]]
-(example \ref{BinaryProductTopologicalSpace}) of the open ball with the closed [[interval]]
+([this example](Introduction+to+Topology+--+1#BinaryProductTopologicalSpace)) of the open ball with the [[closed interval]]
 
 $$
   \eta \colon [0,1] \times B_0^\circ(1)  \longrightarrow \mathbb{R}^n
@@ -85,24 +88,21 @@ $$
 
 This continuously interpolates between the open ball and the point in that for $t = 1$ then it restricts to the defining inclusion $B_0^\circ(1)$, while for $t = 0$ then it restricts to the map constant on the origin.
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/ShrinkingBalls.png" width="200">
-</div>
 
 We may summarize this situation by saying that there is a
 [[diagram]] of [[continuous functions]] of the form
 
 $$
   \array{
-    B_0^\circ(1) \times \{0\}
+    B_0^\circ(1) \times \{0\} &\overset{\exists !}{\longrightarrow}& \ast
     \\
-    \downarrow & \searrow^{\mathrlap{x \mapsto 0}}
+    \downarrow & & \downarrow^{\mathrlap{const_0}}
     \\
     [0,1] \times B_0^\circ(1)
     &\overset{(t,x) \mapsto t \cdot x}{\longrightarrow}&
-    \mathbb{R}^n
+    B^\circ_0(1)
     \\
-    \uparrow & \nearrow_{\mathrlap{inclusion}}
+    \uparrow & \nearrow_{\simeq}
     \\
     B_0^\circ(1) \times \{1\}
   }
@@ -813,35 +813,8 @@ $\,$
 
 ## References
 
-Introductory textbooks to topology include
-
-* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
-
-* {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
-
-* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
-
-See also
-
-* [[Alan Hatcher]], _[Algebraic Topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
-
-and see also the references at _[[algebraic topology]]_.
 
 Lecture notes include
 
-* [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
+* [[Friedhelm Waldhausen]], second half of _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
-* Alex Kuronya, _Introduction to topology_, 2010 ([pdf](https://www.uni-
-frankfurt.de/64271720/TopNotes_Spring
-10.pdf))
-
-* Anatole Katok, Alexey Sossinsky, _Introduction to modern topology and geometry_ ([pdf](http://www.personal.psu.edu/axk29/MASS-07/Background-forMASS.pdf))
-
-Disucssion of [[sober topological spaces]] is in
-
-* {#Johnstone82} [[Peter Johnstone]], section II 1. of _Stone Spaces_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
-
-
-See also
-
-* [[Topospaces]], a Wiki with basic material on topology.
