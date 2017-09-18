@@ -15,7 +15,7 @@
 
 ## Idea
 
-A __knot invariant__ is map from [[isotopy]] [[equivalence class]]es of [[knots]] to any kind of structure you could imagine.  These are helpful because it is much easier to check that the structures one maps to (numbers, groups, etc.) are different than it is to check that knots are different.
+A __knot invariant__ is map from [[isotopy]] [[equivalence class]]es of [[knots]] to any kind of structure you could imagine.  These are helpful because it is often much easier to check that the structures one maps to (numbers, groups, etc.) are different than it is to check that knots are different.  To define a knot invariant, it suffices to define its value on [[knot diagrams]] and check that this value is preserved under the [[Reidemeister moves]] (possibly with the exception of the first Reidemeister move, in the case of an invariant of [[framed knots]]).
 
 ## Examples
 
@@ -25,13 +25,14 @@ A __knot invariant__ is map from [[isotopy]] [[equivalence class]]es of [[knots]
 * [[unknotting number]]
 * [[colorability]]
 * [[knot group]]= the [[fundamental group]] of the complement of the knot.
+* [[quandles]] and [[racks]]
 * [[knot genus]]
 * [[Jones polynomial]]
 * [[HOMFLY polynomial]]
 * [[Alexander polynomial]]
 * [[Reshetikhin-Turaev invariant]]s for any object in a [[ribbon category]]
 * [[Khovanov homology]]
-* [[Kauffman bracket]] technically, an invariant of [[framed links]] but closely related to the [[Jones polynomial]]
+* [[Kauffman bracket]] (an invariant of [[framed links]] closely related to the [[Jones polynomial]])
 
 
 Many of these extend to [[link invariant|link invariants]] or have variants that depend on the knot being oriented.
