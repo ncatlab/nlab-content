@@ -44,7 +44,34 @@ Notice that there is also a certain [[Grothendieck topology]] on small categorie
 
 ## Properties
 
-### A basic observation
+### Some basic observations
+
+Of course, the composition $k\circ j$ of dense inclusions $j,k$ is again dense. Conversely, we have
+
++-- {: .num_prop #dense_factors}
+###### Proposition
+Given the following commutative diagram
+$$
+  \array{
+    \mathcal{E}_i &\overset{j}{\to}& \mathcal{E}
+    \\
+     &{i}{\searrow}& \uparrow k
+    \\
+     & & \mathcal{E}_k 
+  }
+$$
+where $i,j,k$ are subtopos inclusions. When $j$ is dense, then $i$ and $k$ are dense as well.
+=--
+
+**Proof**: Suppose $\emptyset =i^\ast (Z)$. Since $k$ is an inclusion we have that the counit $\epsilon:k^\ast k_\ast\to id_{\mathcal{E}_k}$ is a natural isomorphism whence $Z= k^\ast k_\ast (Z)$ and therefore 
+
+$$\emptyset =i^\ast(Z)=i^\ast(k^\ast k_\ast (Z))=i^\ast k^\ast (k_\ast (Z))=j^\ast(k_\ast(Z))\quad .$$ 
+
+From which $k_\ast(Z)=\emptyset$ since $j$ is dense by assumption.
+
+Then $Z=k^\ast k_\ast (Z)=k^\ast (\emptyset)=\emptyset$ since $k^\ast$ preserves colimits, in other words, we have shown that $i$ is dense.
+
+But from $k_\ast (Z)=\emptyset$ and $Z=\emptyset$ follows that $k$ is dense as well. $\qed$
 
 Given two dense topologies $j_1$, $j_2$ on a topos $\mathcal{E}$, their join $j_1\vee j_2$ is again dense.
 
@@ -54,7 +81,7 @@ In other words, the intersection of two dense subtoposes is still dense!
 
 Somewhat surprisingly, this still holds if one takes the intersection of _all_ dense subtoposes, as the next section details.
 
-### Relation to double-negation topology
+### Relation to double-negation topology {#double_negation}
 
 For any topos $\mathcal{E}$, its [double negation topology](double+negation#DoubleNegationTopology) gives the _smallest_ dense subtopos. This agrees with the [situation for locales](double+negation#double_negation_locale) but contrasts with the [[dense subspace|situation for topological spaces]] where, in general, smallest dense subspaces do not exist.
 
