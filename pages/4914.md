@@ -103,4 +103,6 @@ By the [[Yoneda lemma for bicategories]], the object $P$ determines (up to canon
 
 * [[P. T. Johnstone]], _Topos theory_, 1977, chapter 2 
 
+* [[Elephant]], B2.3
+
 [[!redirects internal diagrams]]
