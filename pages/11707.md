@@ -5,7 +5,7 @@
 
 ## Idea
 
-"Transcendental syntax" ([Girard 13](#Girard13)) is the name of a proposal (or maybe a pamphlete) by [[Jean-Yves Girard]] which means to rethink fundamental aspects of [[formal logic]], of [[syntax]]/[[semantics]]. According to Girard, _[[linear logic]]_ and _[[Geometry of Interaction]]_ are but exercises in trascendental syntax ([Girard 13b](#Girard13b)).
+"Transcendental syntax" ([Girard 13](#Girard13)) is the name of a proposal (or maybe a pamphlete) by [[Jean-Yves Girard]] which means to rethink fundamental aspects of [[formal logic]], of [[syntax]]/[[semantics]]. According to Girard, _[[linear logic]]_ and _[[Geometry of Interaction]]_ are but exercises in transcendental syntax ([Girard 13b](#Girard13b)).
 
 While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusci-Pistone 12](#AbrusciPistone12), [Rouleau 13](#Rouleau13)). 
 
@@ -20,7 +20,7 @@ While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusc
 
 * {#AbrusciPistone12} V. M. Abrusci, P. Pistone, _Transcendental Syntax and GoI: interplays between logic and philosophy_, 2012  ([GoogleScholar](http://scholar.googleusercontent.com/scholar?q=cache:478L1dYoWicJ:scholar.google.com/&hl=en&as_sdt=0,5))
 
-* {#Rouleau13} [[Vincent Laurence Rouleau]], _Towards an understanding of Girard's transcendental syntax: Syntax by testing_, PhdD thesis 2013  ([pdf](https://www.ruor.uottawa.ca/fr/bitstream/handle/10393/23680/Laurence_Rouleau_Vincent_2013_thesis.pdf?sequence=3))
+* {#Rouleau13} [[Vincent Laurence Rouleau]], _Towards an understanding of Girard's transcendental syntax: Syntax by testing_, PhD thesis 2013  ([pdf](https://www.ruor.uottawa.ca/fr/bitstream/handle/10393/23680/Laurence_Rouleau_Vincent_2013_thesis.pdf?sequence=3))
 
 
 
