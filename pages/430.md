@@ -123,7 +123,7 @@ There are the fields of:
 +-- {: .num_example}
 ###### Example
 
-The canonical [[ring object]] of the [[Zariski site|gros Zariski topos]] of any [[scheme]] (given by $S \mapsto \Gamma(S, \mathcal{O}_S)$) is a field in the sense of definition \ref{classical}. The ring $\mathcal{O}_X$ (the [[structure sheaf]]) in the [[category of sheaves|sheaf topos]] (i.e. the petit Zariski topos) is a [[residue field]] if $X$ is a [[reduced scheme|reduced]] scheme.
+The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zariski topos]] of any [[scheme]] (given by $S \mapsto \Gamma(S, \mathcal{O}_S)$, that is to say, the affine line $\mathbb{A}^{1}_{S}$) is in fact moreover a field object, where the latter is defined by requiring that Definition \ref{classical} holds in the internal logic of this topos. For a proof, see Proposition 2.2 in the article [Universal projective geometry via topos theory](http://www.sciencedirect.com/science/article/pii/0022404976900025) of Anders Kock. The ring $\mathcal{O}_X$ (the [[structure sheaf]]) in the [[category of sheaves|sheaf topos]] (i.e. the petit Zariski topos) is a [[residue field]] if $X$ is a [[reduced scheme|reduced]] scheme.
 
 =--
 
