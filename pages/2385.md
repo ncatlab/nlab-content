@@ -138,8 +138,11 @@ The de Rham space construction on spaces ([[schemes]]) is described in [section 
 
 * {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _de Rham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
  
-
 which goes on to assert the existence of its [[derived functor]] on the [[homotopy category]] $Ho Sh_\infty(C)$ of [[∞-stack]]s in proposition 3.3. on the same page.
+
+Similar discussion in a context of [[derived algebraic geometry]] is in 
+
+* [[Dennis Gaitsgory]], [[Nick Rozenblyum]], section 1 of _Crystals and D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/GL/Crystalstext.pdf))
 
 The characterization of [[formally smooth scheme]] as above is also on that page.
 
