@@ -91,7 +91,7 @@ acts by
 $$
   (S_a)_{a \in A}
   \mapsto
-  \left(\coprod_{b \in B} S_a \times X_{a b} \right)_{b \in B}
+  \left(\coprod_{a \in A} S_a \times X_{a b} \right)_{b \in B}
   \,.
 $$
 
