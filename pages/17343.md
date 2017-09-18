@@ -9219,7 +9219,7 @@ this represents the [[homotopy cofiber]], def. \ref{HomotopyFiber}, of $f$ with 
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{StandardContractionOfStandardInterval}, for $X$ a [[CW-complex]] then the standard topological cylinder object $X\times I$ is indeed a  cyclinder object in $Top_{Quillen}$. Therefore by prop. \ref{ConeAndMappingCylinder} and the [[factorization lemma]] \ref{FactorizationLemma}, the mapping cone construction indeed produces first a cofibrant replacement of $f$ and then the ordinary cofiber of that, hence a model for the homotopy cofiber.
+By prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}, for $X$ a [[CW-complex]] then the standard topological cylinder object $X\times I$ is indeed a  cyclinder object in $Top_{Quillen}$. Therefore by prop. \ref{ConeAndMappingCylinder} and the [[factorization lemma]] \ref{FactorizationLemma}, the mapping cone construction indeed produces first a cofibrant replacement of $f$ and then the ordinary cofiber of that, hence a model for the homotopy cofiber.
 
 =--
 
