@@ -42,7 +42,7 @@ For $A$ an abelian group, the Eilenberg--Mac Lane space $K(A,n)$ is the image of
 $$
   \begin{aligned}
     [\mathbf{B}^n A] &=
-     (  \cdots \to [\mathbf{B}^n A]_{n+1} \to [\mathbf{B}^nA]_{n} \to 
+     (  \cdots \to [\mathbf{B}^n A]_{n+1} \to [\mathbf{B}^n A]_{n} \to 
      [\mathbf{B}^n A]_{n-1} \cdots \to [\mathbf{B}^n A]_{1} \stackrel{\to}{\to} [\mathbf{B}^n A]_{0})
       \\ &=
     (  \cdots \to {*} \to A \to 
