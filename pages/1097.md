@@ -51,6 +51,12 @@ $$ \bigcup_i U_i = U .$$
   $$
 
 
+## Related concepts
+
+* [[spatial locale]]
+
+* [[spatial topos]]
+
 [[!redirects category of opens]]
 [[!redirects categories of opens]]
 [[!redirects category of open sets]]
