@@ -1,4 +1,8 @@
 
 * [webpage](http://www.math.uni-bielefeld.de/~ambrogio/)
 
+## Related $n$Lab entries
+
+* [[Spanier-Whitehead category]]
+
 category: people
