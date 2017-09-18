@@ -74,14 +74,29 @@ as the [[generalized tangent bundle]]-structure to the 7-dimensional fiber space
 
 ## References
 
+### General
+
 * wikipedia, _[E7](http://en.wikipedia.org/wiki/E%E2%82%87)_
 
 * {#CacciatoriEtAl10} Sergio L. Cacciatori, Francesco Dalla Piazza, Antonio Scotti, _E7 groups from octonionic magic square_ ([arXiv:1007.4758](http://arxiv.org/abs/1007.4758))
+
+### In view of U-duality
+
+The hidden [[E7]]-[[U-duality]] symmetry of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional fiber to [[4d supergravity]] was first noticed in
+
+* [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en)) 
+
+and more generally in 
+
+* [[Bernard de Wit]], [[Hermann Nicolai]], _D = 11 Supergravity With Local SU(8) Invariance_, Nucl. Phys. B 274, 363 (1986) ([spire](http://inspirehep.net/record/227409?ln=en)),  _Local SU(8) invariance in $d = 11$ supergravity_ ([spire](http://inspirehep.net/record/218601?ln=en))
+
+The proposal to make this hidden $E_7$-symmetry manifest via [[exceptional generalized geometry]] is due to
 
 * {#Hull07} [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
 
 * {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]], appendix B of _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
    
+Further discussion includes
 
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], section 3.1 of  _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
  
