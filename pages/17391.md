@@ -1,0 +1,7 @@
+Time series is a (finite) sequence of measurement data of the same quantity taken at equal intervals in time. 
+
+* wikipedia [time series](https://en.wikipedia.org/wiki/Time_series)
+* related $n$Lab entries include [[statistics]]
+* N. H. Packard, J. P. Crutchfield, J. D. Farmer, R. S. Shaw, _Geometry from a time series_, Phys. Rev. Lett. 45, 712 
+
+category: probability
