@@ -23,7 +23,7 @@ In the mid 1970s Julian Cole proposed a topos-theoretic construction of spectra 
 
 Basic ingredients are pairs of geometric theories $S$ and $T$ over the same language such that the axioms of $T$ results from $S$ by addition of further axioms. Then $T-Mod_\mathcal{E}$ is a full subcategory of $S-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretical flavor.
 
-##Definition##
+###Definition###
 Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _T-modelled toposes_ is given as follows: 
 
 * objects are pairs $(\mathcal{E},M)$ where $\mathcal{E}$ is a topos and $M$ a $T$-model in $\mathcal{E}$, 
@@ -33,6 +33,17 @@ Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _T-modelle
 * 2-cells $(p,f)\to(q,g)$ are [[natural transformations]] $\eta:p\to q$ such that $f=g\circ\eta_M$.
 
 $T-\mathfrak{Top}_N$ is the full sub-2-category such that $\mathcal{E}$ has a [[natural numbers object]].
+
+###Definition###
+Let $T$ be a (geometric) quotient theory of $S$. A class $A$ of $T$-model morphisms is called _admissible_ if
+
+* $A$ is closed under [[inverse image functor|inverse image functors]]: $p^*f\in A$ for $f\in A$.
+
+* $A$ contains all identity morphisms and given $g\in A$: composible $f\in A$ iff $gf\in A$.
+
+* Given an $S$-model morphism $f:M\to L$ with $L$ a $T$-model, there exists a factorization $M\overset{q}{\to}M_f\overset{\hat{f}}{\to}L$ such that $M_f$ is a $T$-model and $\hat{f}\in A$ such that any other such factorization $M\overset{r}{\to}P\overset{p}{\to}L$ factors with $gh=\hat{f}$ and $hq=r$ for a unique $h:M_f\to P$. Moreover, this factorization is preserved by inverse image functors.
+
+The sub-category $A-\mathfrak{Top}$ of $T-\mathfrak{Top}$ for such an admissible class has 1-cells $(p,f)$ with $f\in A$.
 
 
 ##Theorem##
