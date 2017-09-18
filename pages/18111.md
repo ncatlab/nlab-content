@@ -1,0 +1,19 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[set]] $X$, then a [[subset]] $S \subset X$ is called _cofinite_ if the [[complement]] $X \backslash S$ is a [[finite set]].
+
+
+## Related concepts
+
+* [[cofinite topology]]
+
+[[!redirects cofinite subsets]]
+
+[[!redirects cofinite set]]
+[[!redirects cofinite sets]]
