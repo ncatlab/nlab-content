@@ -58,7 +58,7 @@ $$
   \,,
 $$
 
-each pairing the [[curvature]] 2-form with itself in an [[invariant polynomial]], but the first involving the [[Hodge star operator]] dual, and the second not. One can combine the coefficients $\frac{1}{e^2}$ and $i \theta$ into a single [[complex number]]
+each pairing the [[curvature]] 2-form with itself in an [[invariant polynomial]], but the first involving the [[Hodge star operator]] dual, and the second not. One can combine the coefficients $\frac{1}{e^2}$ and $i \theta$ into a single _[[complex number|complex]] [[coupling constant]]_
 
 $$
   \tau = \frac{\theta}{2 \pi} +  \frac{4 \pi i}{e^2}
@@ -307,3 +307,5 @@ Exposition of this is in
 
 
 [[!redirects Montonen-Olive duality]]
+
+[[!redirects complexified coupling constant]]
