@@ -853,8 +853,12 @@ from [[CartSp]] to [[simplicial object|simplicial]] [[smooth loci]]. Effectively
 
 ## References
 
-Infinitesimal spaces and their properties were familiar in all
-those areas where spaces are characterized by the algebras of functions on them.
+Discussion of [[infinitesimals]] goes back to [[Leibniz]].
+
+* {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
+
+Nowadays infinitesimal spaces and their properties were familiar in all
+those areas of mathematics where spaces are characterized by the algebras of functions on them.
 
 It was in a seminal lecture 
 
