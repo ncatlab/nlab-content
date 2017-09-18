@@ -41,6 +41,8 @@ Among the model structures with a [[symmetric monoidal smash product of spectra]
 
 * [[model structure on presheaves of spectra]]
 
+* [[model structure for ring spectra]] 
+
 * [[model structure for dendroidal left fibrations]]
 
 * [[higher algebra]], [[brave new algebra]], [[higher linear algebra]]
@@ -60,5 +62,6 @@ A discussion of model structures on spectra in general ambient model categories 
 
 [[!redirects model structures of spectra]]
 
-
+[[!redirects model structure for spectra]]
+[[!redirects model structures for spectra]]
 
