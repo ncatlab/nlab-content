@@ -191,6 +191,13 @@ Hence:
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+[[continuous images of compact spaces are compact]]
+
+=--
+
 +-- {: .num_prop }
 ###### Proposition
 
