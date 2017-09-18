@@ -59,9 +59,10 @@ This is where the concept of automorphic forms originates (for more on the histo
 
 
 ### Modular forms as adelic automorphic forms on $GL(2,\mathbb{A})$
- {#ModularForms}
+ {#ModularFormsAdAdelicAutomorphicForms}
 
-The formulation of [[modular forms]] as automorphic forms for $G = PSL(2,\mathbb{R})$ [above](#ModularForms) has in turn an equivalent formulation in terms of certain automorphic forms on $GL(2,\mathbb{A})$, where $\mathbb{A}$ is the [[ring of adeles]] (e.g. [Martin 13, p. 8](#Martin13), also [Goldfeld-Hundley 11, lemma 5.5.10](#GoldfeldHundley11), [Bump, section 3.6](#Bump), [Gelbhart 84, p. 22](#Gelbhart84)): we have
+Where by the [above](#ModularForms) an ordinary [[modular form]] is equivalently a suitably periodic function on $SL(2,\mathbb{R})$, one may observe that the [[real numbers]] $\mathbb{R}$ appearing as [[coefficients]] in the latter are but one of many [[p-adic number]] completions of the [[rational numbers]]. Hence it is natural to consider suitably periodic functions on $SL(2,\mathbb{Q}_p)$ of all these completions at once. This means to consider functions on $SL(2,\mathbb{A})$, for $\mathbb{A}$ the [[ring of adeles]]. These are the _adelic automorphic forms_. The may be thought of as subsuming ordinary modular forms for all [[level structures]]. 
+(e.g. [Martin 13, p. 8](#Martin13), also [Goldfeld-Hundley 11, lemma 5.5.10](#GoldfeldHundley11), [Bump, section 3.6](#Bump), [Gelbhart 84, p. 22](#Gelbhart84)): we have
 
 $$
   \Gamma \backslash PSL(2,\mathbb{R})
@@ -77,7 +78,8 @@ This leads to the more general concept of _adelic automorphic forms_ [below](#In
 ### General adelic automorphic forms
  {#InNumberTheory}
 
-For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with [[coefficients]] in a [[ring of adeles]] $\mathbb{A}_F$ of some [[number field]] $F$, and for the subgroup $GL_n(F)$, then sufficiently well-behaved functions on $GL_n(F)\backslash GL_n(\mathbb{A}_F)$ form [[representations]] of $GL_n(\mathbb{A}_{F})$ which are called _[[automorphic representations]]_. Here "well-behaved" typically means
+
+More generally, for the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with [[coefficients]] in a [[ring of adeles]] $\mathbb{A}_F$ of some [[number field]] $F$, and for the subgroup $GL_n(F)$, then sufficiently well-behaved functions on $GL_n(F)\backslash GL_n(\mathbb{A}_F)$ form [[representations]] of $GL_n(\mathbb{A}_{F})$ which are called _[[automorphic representations]]_. Here "well-behaved" typically means
 
 1. **finiteness** -- the functions [[invariant]] under the [[action]] of the [[maximal compact subgroup]] [[span]] a [[finite number|finite]] [[dimension|dimensional]] [[vector space]];
 
