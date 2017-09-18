@@ -31,7 +31,7 @@ Often this is referred to just as "global stable homotopy theory" or even just "
 
 More precisely, given an [[orthogonal spectrum]] $X$, then every [[representation]] $\rho \colon G \to O(n)$ of a [[compact Lie group]] on the [[Cartesian space]] $\mathbb{R}^n$ by [[orthogonal group]] [[actions]] induces a $G$-[[equivariant spectrum]] and hence a notion of $G$-equivariant [[homotopy groups]]. 
 
-One says that a morphism of [[orthogonal spectra]] is a **global equivariant equivalence** if it induces [[isomorphisms]] on all $G$-equivariant [[homotopy groups]], for all $G$, this way. (This definition appears for instance as ([Schwede 13, def. 2.9](#Schwede13)), there referred to just as "global equivalence", which is maybe arguably a bit unsuggestive and possibly misleading.)
+One says that a morphism of [[orthogonal spectra]] is a **global equivariant equivalence** if it induces [[isomorphisms]] on all $G$-equivariant [[homotopy groups]], for all $G$, this way. (This definition appears for instance as ([Schwede 13, def. 2.9](#Schwede13)), there referred to just as "global equivalence".)
 
 The **global equivariant stable homotopy category** $\mathcal{GH}$ is the ([[simplicial localization|simplicial]]) [[localization]] of the [[category]] of [[orthogonal spectra]] at these global equivariant equivalences (this is a [[stable (infinity,1)-category]]/[[triangulated category]].)
 
@@ -77,11 +77,12 @@ Discussion specifically in terms of equivariant [[orthogonal spectra]] is in
   
 Discussion for collections of [[finite group|finite]] [[subgroups]] includes
 
+* [[Wolfgang Lueck]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](http://arxiv.org/abs/math/0504051))
+
 * [[Irakli Patchkoria]], _Proper equivariant stable homotopy and virtual cohomological dimension_, in _Oberwolfach Report_ No. 14/2015 ([pdf](https://www.mfo.de/document/1511/preliminary_OWR_2015_14.pdf))
 
-relating to
+* [[Markus Hausmann]], _Symmetric spectra model global homotopy theory of finite groups_ ([arXiv:1509.09270](http://arxiv.org/abs/1509.09270))
 
-* [[Wolfgang Lueck]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](http://arxiv.org/abs/math/0504051))
 
 [[!redirects global stable homotopy theory]]
 [[!redirects global equivariant homotopy theory]]
