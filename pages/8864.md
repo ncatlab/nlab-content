@@ -141,6 +141,41 @@ $$
 
 =--
 
+## Examplesc
+
++-- {: .num_example #DirectSumOnDisjointUnionSpace}
+###### Example
+
+Let $X$ and $Y$ be [[topological spaces]], and write  $X \sqcup Y$
+for their [[disjoint union space]]. 
+
+Then every [[topological vector bundle]] on $X \sqcup Y$ is the direct sum of a vector bundle that has [[rank of a vector bundle|rank]] zero on $Y$ and one that has rank zero on $X$. 
+
+More explicitiy: let
+
+$$
+  i_X \colon Vect(X) \longrightarrow Vect(X \sqcup Y)
+$$
+
+and
+
+$$
+  i_Y \colon Vect(Y) \longrightarrow Vect(X \times Y)
+$$
+
+be the operations of extending a vector bundle on the other [[connected component]] by a rank-0 vector bundle, then 
+
+$$
+  Vect(X) \times Vect(Y)
+    \overset{ i_X \oplus_{(X \sqcup Y)} i_Y }{\longrightarrow}
+  Vect(X \sqcup Y)
+$$
+
+is an [[isomorphism]] of [[isomorphism classes]] of vector bundles (and an [[equivalence of categories]] of [[Vect(X)|categories of vector bundles]] before passing to isomorphism classes).
+
+
+=--
+
 ## Properties
 
 +-- {: .num_prop #TopologicalSubBundlesOverParacompactHausdorffSpacesAreDirectSummands}
