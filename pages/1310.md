@@ -297,6 +297,15 @@ $$
 exhibiting an $\infty$-action of the [[string Lie 2-algebra]] on $\mathbf{B}^7 \mathbb{R}$, and analogously for the [[supergravity Lie 3-algebra]], the [[supergravity Lie 6-algebra]] and for all the other extensions in [[schreiber:The brane bouquet]].
 
 
+## Relations to (co-)modules over the CE (co-)algebra
+
+Under identifying [[L-infinity algebras]] with graded (co-)commutative [[dg-coalgebras]]/[[dg-algebras]] (their [[Chevalley-Eilenberg algebras]]) then their representations correspond to dg-(co-)modules whose underlying graded (co-)algebras are (co-)free. See at
+
+* [[model structure on dg-comodules]]
+
+* [[model structure on dg-modules]]
+
+
 
 ## References
  {#References}
