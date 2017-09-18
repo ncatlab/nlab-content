@@ -3267,7 +3267,7 @@ $$
   }
 $$
 
-for the system of [[full subcategory]] inclusions on the cofibrant objects ($\mathcal{C}_c$), the fibrant objects ($\mathcal{C}_f$) and the objects which are both fibrant and cofibrant ($\mathcal{C}_{fc}$), all regarded a [[categories with weak equivalences]], via the weak equivalences inherited from $\mathcal{C}$.
+for the system of [[full subcategory]] inclusions, the [[category of cofibrant objects]] ($\mathcal{C}_c$), the [[category of fibrant objects]] ($\mathcal{C}_f$) and the category of fibrant-cofibrant objects ($\mathcal{C}_{fc}$), all regarded a [[categories with weak equivalences]], via the weak equivalences inherited from $\mathcal{C}$.
 
 =--
 
@@ -5818,6 +5818,8 @@ This establishes the claim.
 
 We here discuss the homotopy-theoretic properties of the mapping cone and mapping co-cone constructions [above](#MappingCones).
 
+**Literature** ([[BrownAHT|Brown 73, section 4]]).
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -5834,13 +5836,167 @@ $$
   \,.
 $$
 
-The following says that, up to equivalence, this situation now is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution:
+=--
+
+The following lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says that, up to equivalence, this situation now is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution. But first we need two helpful facts about [[categories of fibrant objects]]
+
+
+
+
++-- {: .num_lemma #InCfPullbackAlongFibrationPreservesWeakEquivalences}
+###### Lemma
+
+In a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, the pullback of a weak equivalence along a fibration is again a weak equivalence.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+
+Let 
+$u : B' \to B$ be a weak equivalence and
+$ p : E \to B$ be a fibration. We want to show that the
+left vertical morphism in the [[pullback]]
+
+$$
+  \array{
+    E \times_B B' &\to& B'
+    \\
+    \;\;\;\;\downarrow^{\mathrlap{\Rightarrow \in W} } 
+    && \;\downarrow^{\mathrlap{\in W}}
+    \\
+    E &\stackrel{\in F}{\to}& B
+  }
+$$
+
+is a fibration. 
+
+First of all, using the [[factorization lemma]] \ref{FactorizationLemma}
+we may always factor $B' \to B$ as
+
+$B ' \stackrel{\in W}{\to} Path(u) 
+ \stackrel{\in W \cap F}{\to} B$
+
+with the first morphism a weak equivalence that is
+a right inverse to an acyclic fibration
+and the right one an acyclic fibration.
+
+Then the pullback diagram in question may be decomposed
+into two consecutive pullback diagrams
+
+$$
+  \array{
+    E \times_B B' &\to& B'
+    \\
+    \downarrow && \downarrow
+    \\
+    Q &\stackrel{\in F}{\to}& Path(u)
+    \\
+    \;\;\downarrow^{\mathrlap{\in W \cap F}} 
+    && \;\;\downarrow^{\mathrlap{\in W \cap F}}
+    \\
+    E &\stackrel{\in F}{\to}& B
+  }
+  \,,
+$$
+
+where the morphisms are indicated as fibrations and
+acyclic fibrations using the stability of these
+under arbitrary pullback.
+
+This means that the proof reduces to proving that weak equivalences
+$u : B' \stackrel{\in W}{\to} B$ 
+that are right inverse to some acyclic fibration
+$v : B \stackrel{\in W \cap F}{\to} B'$
+map to a weak equivalence under pullback along a fibration.
+
+Given such $u$ with right inverse $v$, 
+consider the pullback diagram
+
+$$
+  \array{
+    E
+    \\
+    & {}_{\in W}\searrow^{p \times Id} && \searrow^{Id}
+    \\
+    &&
+       E_1 \coloneqq B \times_{B'} E 
+    &
+       \stackrel{\in W \cap F}{\to} 
+    & 
+       E
+    \\
+    &&\downarrow^{\mathrlap{\in F}} && \downarrow^{\mathrlap{p \in F}}
+    \\
+    &&&& B 
+    \\
+    &&\downarrow && \downarrow^{\mathrlap{v \in F \cap W}}
+    \\
+    &&B &\stackrel{v \in W \cap F}{\to}& B'
+  }
+  \,.
+$$
+
+Notice that the indicated universal morphism 
+$p \times Id \colon E \stackrel{\in W}{\to} E_1$ 
+into the pullback is a weak equivalence
+by [[two-out-of-three]].
+
+The above lemma says that weak equivalences between fibrations over $B$
+are themselves preserved by base extension along
+$u \colon B' \to B$. In total this yields the following diagram
+
+$$
+  \array{
+    u^* E = B' \times_B E
+    &\longrightarrow &E
+    \\
+    &{}_{\in W}\searrow^{u^*(p \times Id)}
+    && {}_{\in W}\searrow^{p \times Id} && \searrow^{Id}
+    \\
+    &&
+    u^* E_1
+    &\longrightarrow&
+       E_1     &
+       \stackrel{\in W \cap F}{\to} 
+    & 
+       E
+    \\
+    &&\downarrow^{\mathrlap{\in F}}&&\downarrow^{\mathrlap{\in F}} 
+    && \downarrow^{\mathrlap{p \in F}}
+    \\
+    &&&&&& B 
+    \\
+    &&\downarrow&&\downarrow && \downarrow^{\mathrlap{v \in F \cap W}}
+    \\
+    &&
+    B'
+    &\stackrel{u}{\to}&
+    B &\stackrel{v \in W \cap F}{\to}& B'
+  }
+$$
+
+so that with $p \times Id  : E \to E_1$ a
+weak equivalence also $u^* (p \times Id)$ 
+is a weak equivalence, as indicated.
+
+Notice that $u^* E = B' \times_B E \to E$ is the morphism that we want to show is a weak equivalence.
+By 2-out-of-3 for that it is now sufficient to 
+show that $u^* E_1  \to E_1$ is a weak equivalence.
+
+That finally follows now since by assumption the
+total bottom horizontal morphism is the identity.
+Hence so is the top horizontal morphism. Hence
+$u^* E_1  \to E_1$ is right inverse to a weak
+equivalence, hence is a weak equivalence.
 
 =--
 
 
 
-+-- {: .num_lemma }
++-- {: .num_lemma #FiberOfFibrationIsCompatibleWithWeakEquivalences}
 ###### Lemma
 
 In [[pointed objects]] $\mathcal{C}_f^{\ast/}$ of a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, consider a morphism of [[fiber]]-diagrams, hence a [[commuting diagram]] of the form
@@ -5857,6 +6013,45 @@ $$
 $$
 
 If the two vertical morphisms on the right are weak equivalences, then so is the vertical morphism in the left
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Factor the diagram in question
+
+$$
+  \array{
+    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
+  }
+$$
+
+through the pullback of the bottom horizontal line:
+
+$$
+  \array{
+    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{id}}
+    \\
+    fib(\phi) &\longrightarrow& f^\ast X_2 &\underoverset{\in Fib}{\phi}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}    
+    \\
+    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
+  }
+$$
+
+Here $f^\ast X_2 \to X_2$ is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} and with this $X_1 \to f^\ast X_2$ is a weak equivalence by assumption and [[two-out-of-three]].
+
+Moreover, this diagram exhibits $fib(f_1)\to fib(\phi)$ as the base change (along $\ast \to Y_2$) of $X_1 \to f^\ast X_2$. 
+
+Hence it is now sufficient to observe that in category of fibrant objects, base change preserves weak equivalences (...).
 
 =--
 
