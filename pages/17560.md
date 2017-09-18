@@ -1,0 +1,12 @@
+
+## Idea
+
+An extra 1-parameter odd symmetry enjoyed by [[Green-Schwarz action functionals]] for [[super p-branes]].
+
+## References
+
+Review includes
+
+* [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101,2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+
+[[!redirects kappa symmetry]]
