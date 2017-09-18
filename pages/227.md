@@ -27,7 +27,7 @@ All the familiar number systems such as the [[integer numbers]], [[rational numb
 
 Other basic examples of rings are the [[cyclic groups]] $\mathbb{Z}_n$ under their mod-$n$ operations inherited from the integers; the [[polynomial rings]], etc.
 
-More abstractly, a [[ring]] is a [[monoid]] [[internalization|internal to]] [[abelian groups]] (with their [[tensor product of abelian groups]]), and this prespective helps to explain the central relevance of the concept, owing to the fundamental nature of the notion of _[[monoid objects]]_. Accordingly monoids internal to other [[abelian categories]] and more generally [[stable infinity-categories]] constitute generalizations of the notion of _ring_ that are of interest. Notably when abelian groups are generalized to their analogs in [[stable homotopy theory]], namely to [[spectra]], the corresponding internal monoids are [[E-infinity rings]], a basic structure in [[higher algebra]].
+More abstractly, a [[ring]] is a [[monoid]] [[internalization|internal to]] [[abelian groups]] (with their [[tensor product of abelian groups]]), and this perspective helps to explain the central relevance of the concept, owing to the fundamental nature of the notion of _[[monoid objects]]_. Accordingly monoids internal to other [[abelian categories]] and more generally [[stable infinity-categories]] constitute generalizations of the notion of _ring_ that are of interest. Notably when abelian groups are generalized to their analogs in [[stable homotopy theory]], namely to [[spectra]], the corresponding internal monoids are [[E-infinity rings]], a basic structure in [[higher algebra]].
 
 ## Definition
 
