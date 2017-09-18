@@ -2,6 +2,8 @@
 
 In [[type theory]], a type may be classed as having a polarity, either [[positive type|positive]] or [[negative type|negative]], according to whether its _constructors_ or _eliminators_ are regarded as primary. The idea is due to [[Jean-Marc Andreoli]] and [[Jean-Yves Girard]].
 
+Positive types are inductively defined by their introduction rules and correspond to [[colimits]]; negative types are coinductively defined by their elimination rules and correspond to [[limits]]. Some types may be defined as both positive and negative, see, for instance, [[product type]].
+
 ### Related concepts
 
 * [[positive type]]
