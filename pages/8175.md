@@ -80,7 +80,7 @@ where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coeff
 ###### Proposition
 
 
-Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[simply connected topological space|simply connected]] [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$ (well defined up to [[weak homotopy equivalence]] by connectedness ([this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)), and well defined up to unique iso in the homotopy category by simply connectedness): 
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]], such that all its [[fibers]] are [[weakly contractible topological space|weakly contractible]] or such that $B$ is [[simply connected topological space|simply connected]]. In either case all [[fibers]] are identified with a typical fiber $F$ up to [[weak homotopy equivalence]] by connectedness ([this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)), and well defined up to unique iso in the homotopy category by simply connectedness: 
 
 $$
   \array{
@@ -97,7 +97,7 @@ If at least one of the following two conditions is met
 
 * $B$ is [[finite number|finite]]-dimensional as a [[CW-complex]];
 
-* $A^\bullet(F)$ is bounded below in degree and the sequences $\cdots to A^p(X_{n+1}) \to A^p(X_n) \to \cdots$ satisfy the [[Mittag-Leffler condition]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#MittagLefflerCondition)) for all $p$;
+* $A^\bullet(F)$ is bounded below in degree and the sequences $\cdots \to A^p(X_{n+1}) \to A^p(X_n) \to \cdots$ satisfy the [[Mittag-Leffler condition]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#MittagLefflerCondition)) for all $p$;
 
 then there is a cohomology [[spectral sequence]], ([def.](Introduction+to+Stable+homotopy+theory+--+S#CohomologySpectralSequence)), whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
 
@@ -125,6 +125,8 @@ $$
 $$
 
 where $X_{p} \coloneqq \pi^{-1}(B_{p})$ is the fiber over the $p$th stage of the [[CW-complex]] $B = \underset{\longleftarrow}{\lim}_n B_n$.
+
+Generally, without assumptions on the connectivity of $B$, there is a spectral sequence of this form with ordinary cohomology with coefficients in $A^\bullet(F)$ replaced by ordinary cohomology with [[local coefficients]] $(b \mapsto A^\bullet(F_b))$.
 
 =--
 
