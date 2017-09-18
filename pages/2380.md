@@ -46,6 +46,8 @@ Deep relations between [[type theory]], [[category theory]] and [[computer scien
 
 ## Related concepts
 
+* [[category (philosophy)]]
+
 * [[fibrant type]]
 
 [[!include notions of type]]
