@@ -3,3 +3,10 @@ of <a href="http://ncatlab.org/nlab/show/Q-category#InfinitesimalThickening">inf
 of [[Q-category#InfinitesimalThickening]]infinitesimal thickening of rings and let
 
 of [[Q-category#InfinitesimalThickening|infinitesimal thickening of rings]] and let
+
+
+## Heading1 {#anchorname}
+
+link to [[#anchorname|heading1]].
+
+link to [heading1](#anchorname).
