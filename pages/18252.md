@@ -32,6 +32,7 @@ equipped with their [[Euclidean space|Euclidean]] [[metric topology]]
 
 +-- {: .num_defn}
 ###### Definition
+**(topological projective space)**
 
 Let $n \in \mathbb{C}$. Consider the[[Euclidean space]] $k^{n+1}$ equipped with its [[metric topology]], let $k^{n+1} \setminus \{0\} \subset k^{n+1}$ be the [[topological subspace]] which is the [[complement]] of the origin, and consider on its underlying set the [[equivalence relation]] which identifies two points if they differ by [[multiplication]] with some $c \in k$ (necessarily non-zero):
 
@@ -64,7 +65,7 @@ $$
 
 =--
 
-+-- {: .num_defn #SheavesOnCartSp}
++-- {: .num_defn #TopologicalProjectiveSpace}
 ###### Definition
 
 For $n \in \mathbb{N}$ the _standard open cover_ of the projective space $k P^n$ is 
@@ -94,7 +95,58 @@ These subsets are open in the [[quotient topology]], since their [[pre-image]] u
 
 =--
 
-## * The [[basic complex line bundle on the 2-sphere]] is the tautological [[complex line bundle]] over the [[complex projective space]] $\mathbb{C}P^1 \simeq S^2$ (the [[Riemann sphere]])
++-- {: .num_defn #TautologicalTopologicalLineBundle}
+###### Definition
+**(tautological topological line bundle)
+
+For $n \in \mathbb{N}$, the _tautological line bundle_ over the [[projective space]] $k P^n$ is the [[subspace]]
+
+$$
+  T 
+   \coloneqq
+  \left\{
+    ( [x_1: \cdots : x_{n+1}], \vec v)
+    \in 
+    k P^n \times k^{n+1}
+    \;\vert\;
+    \vec v \in k \vec x 
+  \right\}
+$$
+
+(hence the space of pairs consisting of the "name" of a $k$-line in $\mathbb{R}^{n+1}$ together with an element of that $k$-line)
+equipped with the function
+
+$$
+  \array{
+    T &\overset{\pi}{\longrightarrow}& k P^n
+    \\
+    ([x_1: \cdots : x_{n+1}], \vec v) &\mapsto& [x_1: \cdots : x_{n+1}]
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The tautological line bundle in def. \ref{TautologicalTopologicalLineBundle} is well defined in that it indeed admits a [[local trivialization]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+...
+
+=--
+
+
+
+## Examples
+
+
+* The [[basic complex line bundle on the 2-sphere]] is the tautological [[complex line bundle]] over the [[complex projective space]] $\mathbb{C}P^1 \simeq S^2$ (the [[Riemann sphere]])
 
 ## References
 
