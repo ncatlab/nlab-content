@@ -34,23 +34,27 @@ Write $RelCat$ for the [[category]] of relative categories and such morphisms be
 
 ### Model category structure
 
-The model category structure on $RelCat$ is obtained from that on [[bisimplicial set]]s modelling [[complete Segal space]]s in section 6.1  of
+The model category structure on $RelCat$ is obtained from that on [[bisimplicial set]]s modelling [[complete Segal space]]s in Theorem 6.1  of
 
-* [[Clark Barwick]] and [[Dan Kan]], _Relative categories; another model for the homotopy theory of homotopy theories -- Part I: the model structure_ ([pdf](http://www.math.harvard.edu/~clarkbar/barwick-kan.pdf))
+* [[Clark Barwick]] and [[Dan Kan]], _Relative categories; another model for the homotopy theory of homotopy theories_ ([arXiv:math/1011.1691](http://arxiv.org/abs/1011.1691))
 
 
 ### Nerve functors
 
 The compatibility of the various nerve and simplicial localization functors is in section 1.11 of 
 
-* [[Clark Barwick]] and [[Dan Kan]], _Relative categories; another model for the homotopy theory of homotopy theories -- Part II: the weak equivalences_ ([pdf](http://www.math.harvard.edu/~clarkbar/bar-kan-we.pdf))
+* [[Clark Barwick]] and [[Dan Kan]], _A characterization of simplicial localization functors_ ([arXiv:math/1012.1540](http://arxiv.org/abs/1012.1540))
 
 ## References
 
 * [[Clark Barwick]] and [[Dan Kan]], 
 
-  * _Relative categories; another model for the homotopy theory of homotopy theories -- Part I: the model structure_ ([pdf](http://www.math.harvard.edu/~clarkbar/barwick-kan.pdf))
+  * _Relative categories: another model for the homotopy theory of homotopy theories_ ([arXiv:math/1011.1691](http://arxiv.org/abs/1011.1691))
 
-  * _Relative categories; another model for the homotopy theory of homotopy theories -- Part II: the weak equivalences_ ([pdf](http://www.math.harvard.edu/~clarkbar/bar-kan-we.pdf))
+  * _A characterization of simplicial localization functors_ ([arXiv:math/1012.1540](http://arxiv.org/abs/1012.1540))
 
-  * Partial model categories and their simplicial nerves, a relative Yoneda embedding, and a Quillen theorem $B_n$ for homotopy pullbacks ([pdf](http://www.math.harvard.edu/~clarkbar/partmodcat.pdf))
+  * _In the category of relative categories the Rezk equivalences are exactly the DK-equivalences_ ([arXiv:math/1012.1541](http://arxiv.org/abs/1012.1541))
+
+  * _A Thomason-like Quillen equivalence between quasi-categories and relative categories_ ([arXiv:math/1101.0772](http://arxiv.org/abs/1101.0772))
+
+  * _Partial model categories and their simplicial nerves_ ([arXiv:math/1102.2512](http://arxiv.org/abs/1102.2512))
