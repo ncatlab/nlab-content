@@ -20,7 +20,7 @@ A _Lie algebra_ is the [[infinitesimal object|infinitesimal]] approximation to a
 
 ### Ordinary definition
 
-A _Lie algebra_ is a [[vector space]] $\mathfrak{g}$ equipped with a bilinear skew-symmetric map $[-,-]  : \mathfrak{g} \vee \mathfrak{g} \to \mathfrak{g}$ which satisfies the [[Jacobi identity]]:
+A _Lie algebra_ is a [[vector space]] $\mathfrak{g}$ equipped with a bilinear skew-symmetric map $[-,-]  : \mathfrak{g} \wedge \mathfrak{g} \to \mathfrak{g}$ which satisfies the [[Jacobi identity]]:
 
 $$
   \forall x,y,z \in \mathfrak{g} : [x,[y,z]] + [z,[x,y]] + [y,[z,x]] = 0
