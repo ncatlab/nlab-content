@@ -40,3 +40,5 @@ More recent treatments can be found in:
 * Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
 [[!redirects topological maps]]
+[[!redirects embedded graph]]
+[[!redirects embedded graphs]]
