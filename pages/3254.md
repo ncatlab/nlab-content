@@ -42,6 +42,140 @@ $$
 
 a weak homotopy equivalence.
 
+## Statement
+
+### For topological spaces
+
++-- {: .num_prop #nConnectedCWApproximationOfContinuousFunction}
+###### Proposition
+
+Let $f \;\colon\; A \longrightarrow X$ be a [[continuous function]] between [[topological spaces]]. Then there exists for each $n \in \mathbb{N}$ a [[relative CW-complex]] $\hat f \colon A \hookrightarrow \hat Y$ together with an [[extension]] $\phi \colon Y \to X$, i.e.
+
+$$
+  \array{
+    A &\overset{f}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\hat f}}\downarrow & \nearrow_{\mathrlap{\phi}}
+    \\
+    \hat X
+  }
+$$ 
+
+such that $\phi$ is [[n-connected continuous function|n-connected]].
+
+Moreover:
+
+* if $f$ itself is [[n-connected continuous function|k-connected]], then the relative CW-complex $\hat f$ may be chosen to have cells only of [[dimension]] $k + 1 \leq dim \leq n$.
+
+* if $A$ is already a [[CW-complex]], then $\hat f \colon A \to X$ may be chosen to be a subcomplex inclusion.
+
+=--
+
+([tomDieck 08, theorem 8.6.1](#tomDieck08))
+
++-- {: .num_prop #CWApproximationForContinuousFunctions}
+###### Proposition
+
+For every [[continuous function]] $f \colon A \longrightarrow X$ out of a [[CW-complex]] $A$, there exists a [[relative CW-complex]] $\hat f \colon A \longrightarrow \hat X$ that factors $f$ followed by a [[weak homotopy equivalence]] 
+
+$$
+  \array{   
+     A && \overset{f}{\longrightarrow} && X
+     \\
+     & {}_{\mathllap{\hat f}}\searrow && \nearrow_{\mathrlap{{\phi} \atop {\in WHE}}}
+     \\
+     && \hat X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply prop. \ref{nConnectedCWApproximationOfContinuousFunction} iteratively for all $n$ to produce a sequence with [[cocone]] of the form
+
+$$
+  \array{
+    A &\overset{f_1}{\longrightarrow}& X_1 &\overset{f_2}{\longrightarrow}& X_2 &\longrightarrow & \cdots
+    \\
+    &{}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\phi_1}} & \swarrow_{\mathrlap{\phi_2}} & \cdots 
+    \\
+    && X
+  }
+  \,,
+$$
+
+where each $f_i$ is a [[relative CW-complex]] and where $\phi_n$ in [[n-connected continuous function|n-connected]]. 
+
+Let then $\hat X$ be the [[colimit]] over the sequence (its [[transfinite composition]]) and $\hat f \colon A \to X$ the induced component map. By definition of relative CW-complexes, this $\hat f$ is itself a relative CW-complex.
+
+By the [[universal property]] of the colimit this factors $f$ as
+
+$$
+  \array{
+    A &\overset{f_1}{\longrightarrow}& X_1 &\overset{f_2}{\longrightarrow}& X_2 &\longrightarrow & \cdots
+    \\
+    &{}_{\mathllap{}}\searrow & \downarrow^{\mathrlap{}} & \swarrow_{\mathrlap{}} & \cdots 
+    \\
+    && \hat X
+    \\
+    && \downarrow^{\mathrlap{\phi}}
+    \\
+    && X
+  }
+  \,.
+$$
+
+Finally to see that $\phi$ is a weak homotopy equivalence: since [[n-spheres]] are [[compact topological spaces]], then every map $\alpha \colon S^n \to \hat X$ factors through a finite stage $i \in \mathbb{N}$ as $S^n \to X_i \to  \hat X$ (by [this lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes)). By possibly including further into higher stages, we may choose $i \gt n$.  But then the above says that further mapping along $\hat X \to X$ is the same as mapping along $\phi_n$, which is $n$-connected and hence an isomorphism on the homotopy class of $\alpha$.
+
+=--
+
+### For sequential topological spectra
+
++-- {: .num_prop #CWApproximationForSequentialSpectra}
+###### Proposition
+
+For $X$ any [[sequential spectrum]] in [[Top]], then there exists a [[CW-spectrum]] $\hat X$ and a homomorphism $\phi \colon  \hat X \to X$ which is degreewise a [[weak homotopy equivalence]], hence in particular a [[stable weak homotopy equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First let $\hat X_0 \longrightarrow X_0$ be a CW-approximation of the component space in degree 0, via prop. \ref{CWApproximationForContinuousFunctions}. Then proceed by [[induction]]: suppose that for $n \in \mathbb{N}$ a [[CW-approximation]] $\phi_{k \leq n} \colon  \hat X_{k \leq n} \to X_{k \leq n}$ has been found such that all the structure maps are respected. Consider then the continuous function
+
+$$
+  \Sigma \hat X_n \overset{\Sigma \phi_n}{\longrightarrow} \Sigma X_n \overset{\sigma_n}{\longrightarrow} X_{n+1}
+  \,.
+$$
+
+Applying prop. \ref{CWApproximationForContinuousFunctions} to this function factors it as
+
+$$
+  \Sigma X_n \hookrightarrow \hat X_{n+1} \overset{\phi_{n+1}}{\longrightarrow} X_{n+1}
+  \,.
+$$
+
+Hence we have obtained the next stage of the CW-approximation. The respect for the structure maps is just this factorization property:
+
+$$
+  \array{  
+    \Sigma \hat X_n 
+      &\overset{\Sigma \phi_n}{\longrightarrow}& 
+    \Sigma X_n
+    \\
+    {}^{incl}\downarrow && \downarrow^{\mathrlap{\sigma_n}}
+    \\
+    \hat X_{n+1} &\underset{\phi_{n+1}}{\longrightarrow}& X_{n+1}
+  }
+  \,.
+$$
+
+=--
+
+
 ## Related concepts
 
 * [[Whitehead's theorem]]
