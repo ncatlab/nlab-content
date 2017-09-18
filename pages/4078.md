@@ -27,6 +27,8 @@ Notice that for $t= 1$ this is also the [[anti de Sitter group]], the [[isometry
 
 ## Related concepts
 
+* [[conformal invariance and scale invariance]]
+
 * [[Möbius group]]
 
 * [[conformal geometry]]
