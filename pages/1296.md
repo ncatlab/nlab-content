@@ -26,7 +26,7 @@ $$
 $M'$ is in $T$ iff $M$ and $M''$ are in $T$. 
 
 
-##Terminology:
+##Terminology
  
 This notion in general is called a [[thick subcategory]] in Gabriel's thesis, [[Des Catégories Abéliennes]]. The terminology is a minefield as there are variants that occur in the literature, see [[thick subcategory]], and also the [Stack's Project section on this](http://stacks.math.columbia.edu/tag/02MN). Some of these variants are mentioned below.
 
