@@ -71,7 +71,9 @@ Any [[retract]] of a tiny object is tiny, since [[split idempotent|splitting of 
 ### In categories of modules over rings
  {#InCategoriesOfModulesOverRings}
 
-The only tiny object in the [[category of modules]] over some [[ring]] is the zero module: If $M$ is a tiny object in a category of modules, the map
+The notion of tiny object is clearly highly dependent on the base of enrichment. For example, for a [[ring]] $R$, the tiny objects in the category of left $R$-[[category of modules|modules]] $Ab^R$, considered as an $Ab$-enriched category, are the finitely generated projective modules. Certainly f.g. projective modules are tiny because $R$ is tiny (the forgetful functor $\hom(R, -): Ab^R \to Ab$ preserves $Ab$-colimits) and the closure of $R$ under finite direct sums and retracts, which are absolute $Ab$-colimits, comprise finitely generated projective modules. See also [[Cauchy completion]]. 
+
+On the other hand, when the category $Ab^R$ is considered as a $Set$-category, the only tiny object is the zero module: If $M$ is a tiny object in a category of modules, the map
 $$
   Hom(M,M) \amalg Hom(M,M) \longrightarrow Hom(M,M \oplus M)
 $$
