@@ -1,46 +1,42 @@
 $$
   \array{
-    && & \searrow && \nearrow
+    \mathcal{D} &\stackrel{i}{\longrightarrow}& \mathcal{D}
     \\
-    && && \pi_{t-s-1}(X_{s+1})
+    &{}_{\mathllap{k}}\nwarrow& \downarrow^{\mathrlap{j}}
     \\
-    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
-    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
-    && && && \nearrow
+    && \mathcal{E}
+  }
+  \;\;\;\;\;\;
+    \coloneqq
+  \;\;\;\;\;\;
+  \array{
+    \underset{s,t}{\oplus} D^{s,t}(X,Y)
+      &\overset{[X,f]}{\longrightarrow}&
+    \underset{s,t}{\oplus} D^{s,t}(X,Y)
     \\
-    && \pi_{t-s}(A_s) && \underset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
-    && \stackrel{d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    & {}_{\mathllap{\delta}}\nwarrow & \downarrow^{[X,g]}
     \\
-    & \nearrow && && && {}_{\mathllap{\delta_{t-s-1}^{s+1}}}\searrow 
-    && \nearrow_{\mathrlap{\pi_{t-s-2}(cofib(f_{s+2}))}}
+    && \underset{s,t}{\oplus} E^{s,t}(X,Y)
+  }
+  \;\;\;\;
+   \coloneqq
+  \;\;\;\;
+  \array{
+    \underset{s,t}{\oplus} [X,Y_s]_{t-s}
+      &\overset{[X,f]}{\longrightarrow}&
+    \underset{s,t}{\oplus} [X,Y_s]_{t-s}
     \\
-    && && && && \pi_{t-s-2}(X_{s+2})
+    & {}_{\mathllap{\delta}}\nwarrow & \downarrow^{\mathrlap{[X,g]}}
     \\
-    && && && & \nearrow && \searrow
+    && [X,A_s]_{t-s}
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\,\;\;\;\;deg = \;\;\;\;
+  \array{
+    \mathcal{D} &\stackrel{(-1,-1)}{\longrightarrow}& \mathcal{D}
+    \\
+    &{}_{\mathllap{(1,0)}}\nwarrow& \downarrow^{\mathrlap{(0,0)}}
+    \\
+    && \mathcal{E}
   }
 $$
 
-$$
-  \array{
-    && & \searrow && \nearrow
-    \\
-    && && [X,Y_{s+1}]_{t-s-1}
-    \\
-    && & {}^{\mathllap{\delta}}\nearrow 
-    && \searrow^{\mathrlap{ [X,g]  }}
-    && && && \nearrow
-    \\
-    && [X,A_s]_{t-s} 
-    && \underset{d_1 }{\longrightarrow} 
-    && [X, A_{s+1}]_{t-s-1}
-    && \stackrel{d_1 }{\longrightarrow} 
-    && [X,A_{s+2}]_{t-s-2}
-    \\
-    & \nearrow && && && {}_{\mathllap{ \delta }}\searrow 
-    && \nearrow_{\mathrlap{ [X,g] }}
-    \\
-    && && && && [X,Y_{s+2}]_{t-s-2}
-    \\
-    && && && & \nearrow && \searrow
-  }
-$$
