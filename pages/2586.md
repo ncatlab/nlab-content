@@ -187,7 +187,7 @@ See for instance ([Garrett 13](#Garrett13)). See also _[[division algebra and su
 
 We have
 
-* in [[Riemannian manifold|Riemannian]] signature
+* in [[Euclidean geometry|Euclidean]] signature
 
   * $Spin(1) \simeq O(1)$
 
@@ -228,6 +228,10 @@ We have
   * $Spin(3,2) \simeq Sp(4,\mathbb{R})$
 
   * $Spin(4,2) \simeq SU(2,2)$
+
+* in mixed signature
+
+  * $Spin(3,3) \simeq SL(4,\mathbb{R})$ ([Garrett 13 (2.12)](#Garrett13))
 
 Beyond these dimensions there are still some interesting identifications, but the situation becomes much more involved.
 
