@@ -1,4 +1,7 @@
-(Higher) Chow groups with modulus are supposed to be a relative version of [[motivic cohomology]] (with respect to some divisor).  They do not satisfy $\mathbf{A}^1$-homotopy invariance, but rather the weaker condition of [[reciprocity sheaf|reciprocity]] in the sense of Kahn-Saito-Yamakazi.  It is expected that the various [[motives|motivic categories]] should embed into larger categories of non-homotopy invariant motives.  In these latter categories there should be a relative version of the motivic [[Eilenberg-Mac Lane spectrum]], representing [[motivic cohomology]] with modulus (= higher Chow groups with modulus).
+(Higher) Chow groups with modulus are supposed to be a relative version of [[motivic cohomology]] (with respect to some divisor).
+Hence they are supposed to play the role of [[motivic cohomology]] for [[relative K-theory]] of smooth schemes.
+
+They do not satisfy $\mathbf{A}^1$-homotopy invariance, but rather the weaker condition of [[reciprocity sheaf|reciprocity]] in the sense of Kahn-Saito-Yamakazi.  It is expected that the various [[motives|motivic categories]] should embed into larger categories of non-homotopy invariant motives.  In these latter categories there should be a relative version of the motivic [[Eilenberg-Mac Lane spectrum]], representing [[motivic cohomology]] with modulus (= higher Chow groups with modulus).
 
 ## See also
 
@@ -9,9 +12,13 @@
 
 * Federico Binda, [[Shuji Saito]], _Relative cycles with moduli and regulator maps_, [arXiv:1212.0385](http://arxiv.org/abs/1412.0385v2).
 
-* [[Moritz Kerz]], [[Shuji Saito]], _Chow group of 0-cycles with modulus and higher dimensional class fiedl theory_, [arXiv:1304.4400](http://arxiv.org/abs/1304.4400).
+* [[Moritz Kerz]], [[Shuji Saito]], _Chow group of 0-cycles with modulus and higher dimensional class field theory_, [arXiv:1304.4400](http://arxiv.org/abs/1304.4400).
 
 * [[Amalendu Krishna]], [[Jinhyun Park]], _A module structure and a vanishing theorem for cycles with modulus_, [arXiv:1412.7396](http://arxiv.org/abs/1412.7396).
+
+* [[Amalendu Krishna]], _0-cycles with modulus on surfaces_, [arXiv:1504.03125](http://arxiv.org/abs/1504.03125).
+
+* [[Kay Rülling]], [[Shuji Saito]], _Higher Chow groups with modulus and relative Milnor K-theory_, [arXiv:1504.02669](http://arxiv.org/abs/1504.02669).
 
 ### Historical precursors
 
