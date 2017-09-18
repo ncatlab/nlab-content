@@ -55,7 +55,7 @@ $$
 
 (see also the discussion at _[characters and fundamental groups of tori](http://ncatlab.org/nlab/show/group+character#CharactersAndFundamentalGroupsOfTori)_).
 
-Here a single [[flat connection]] is just a choice of pair of of two commuting elements in $G$, and $G$ acts on that by [[conjugation]]. Now any two commuting elements can be taken to sit in a [[maximal torus]] $T \hookrightarrow G$, and up to [[conjugation]] we can take this to be one fixed maximal torus. This means that the moduli space is actually
+Here a single [[flat connection]] is just a choice of pair of two commuting elements in $G$, and $G$ acts on that by [[conjugation]]. Now any two commuting elements can be taken to sit in a [[maximal torus]] $T \hookrightarrow G$, and up to [[conjugation]] we can take this to be one fixed maximal torus. This means that the moduli space is actually
 
 $$
   \pi_0 \left(
