@@ -54,6 +54,8 @@ Alternatively, since the [[axiom of infinity]] states the existence of a set (an
 
 * [[nothing]]
 
+* [[empty category]], [[empty diagram]]
+
 category: foundational axiom
 
 [[!redirects empty set]]
