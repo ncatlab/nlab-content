@@ -31,7 +31,53 @@ The Extreme Value Theorem states that such a range must also have an [[infimum]]
 
 ## Statements
 
-The classical statement is this:
+We first discuss the statement
+
+* [for continuous functions](#ForContinuousFunctions)
+
+and then the general case
+
+* [for semicontinuous function](#ForSemicontinuousFunctions).
+
+### For continuous functions
+ {#ForContinuousFunctions}
+
++-- {: .num_prop}
+###### Proposition
+**(extreme value theorem)**
+
+Let $C$ be a [[compact topological space]], and let 
+
+$$
+  f \;\colon\; C \longrightarrow \mathbb{R}
+$$
+
+be a [[continuous function]] to the [[real numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]]. 
+
+Then $f$ attains is [[maximum]] and its [[minimum]], i.e. there exist $x_{min}, x_{max} \in C$ such that for all $x \in C$ it is true that
+
+$$
+  f(x_{min})
+    \leq
+  f(x)
+   \leq 
+  f(x_{max})
+  \,.
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[continuous images of compact spaces are compact]] the image $f([a,b]) \subset \mathbb{R}$ is a [[compact topological space|compact]] [[subspace]]. 
+
+Suppose this image did not contain its maximum. Then $\{(-\infty,x)\}_{x \in f([a,b])}$ were an [[open cover]] of the image, and hence, by its compactness, there would be a finite subcover, hence a finite set $(x_1 \lt x_2 \lt \cdots \lt x_n)$ of points $x_i \in f([a,b])$, such that the union of the $(-\infty,x_i)$ and hence the single set $(-\infty, x_n)$ alone would cover the image. This were in contradiction to the assumption that $x_n \in f([a,b])$ and hence we have a [[proof by contradiction]].
+
+Similarly for the minimum.
+
+=--
+
 
 +-- {: .num_example }
 ###### Example
@@ -47,11 +93,11 @@ be a [[continuous function]] from a [[bounded set|bounded]] [[closed interval]] 
 regarded as a [[topological subspace]] of [[real numbers]] to the [[real numbers]], with the
 latter regarded with their [[Euclidean space|Euclidean]] [[metric topology]].
 
-Then $f$ attains its [[maximum]] and [[minimum]]: there exists $x_{max}, x_{min} \in [a,b]$ such that 
-for all $x \in [a,b]$ we have
+Then $f$ attains its [[minimum]] $f(x_{min})$ and [[maximum]] $f(x_{max})$ and the [[image]] of $f$ is the [[closed interval]]
+
 
 $$
-  f(x_{min}) \leq f(x) \leq f(x_{max})
+  f([a,b]) = [f(x_{min}), f(x_{max})]
   \,.
 $$
 
@@ -61,22 +107,17 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Since [[continuous images of compact spaces are compact]]  
-the image $f([a,b]) \subset \mathbb{R}$ is a [[compact topological space|compact]] [[subspace]]. 
-By the [[Heine-Borel theorem]] this is a [[bounded set|bounded]] [[closed subset]]. By the nature of the [[Euclidean space|Euclidean]] [[metric topology]], the image is hence a union of [[closed intervals]]. Finally by continuity of $f$ it needs to be a single closed interval, hence of the form
+Since [[continuous images of compact spaces are compact]] the image $f([a,b]) \subset \mathbb{R}$ is a [[compact topological space|compact]] [[subspace]]. 
 
-$$
-  f([a,b]) =  [f(x_{min}), f(x_{max})] \;\subset\; \mathbb{R}
-  \,.
-$$
-
+By the [[Heine-Borel theorem]] the image, being compact, is a [[bounded set|bounded]] [[closed subset]], hence a [[finite set|finite]] union of bounded [[closed intervals]] and [[singleton]] subsets. By continuity of $f$, this union cannot be disjoint, for if $f([a,b])$ were a disjoint union $C_1 \sqcup C_2$ of closed inhabited subsets, then also the pre-image were a disjoint union of closed inhabited subsets $f^{-1}(C_1) \sqcup f^{-1}(C_2)$, contradicting the fact that the pre-image of the image is the connected interval $[a,b]$.
 
 =--
 
-More generally:
 
+### For semicontinuous functions
+ {#ForSemicontinuousFunctions}
 
-If $I$ is a [[compact space]] (such as a closed bounded [[interval]] in the [[real line]] and especially the [[unit interval]] $[{0,1}]$), and if $f$ is an [[upper semicontinuous function]] from $I$ to the [[upper real numbers]] $[{-\infty,\infty}[$, then the [[range]] of $f$ is not only bounded above and not only has a finite [[supremum]], but it actually has a [[maximum]] value (unless $I$ is [[empty space|empty]]).
+If $I$ is a [[compact space]], and if $f$ is an [[upper semicontinuous function]] from $I$ to the [[upper real numbers]] $[{-\infty,\infty}[$, then the [[range]] of $f$ is not only bounded above and not only has a finite [[supremum]], but it actually has a [[maximum]] value (unless $I$ is [[empty space|empty]]).
 
 Similarly, and consequently (by replacing $f$ with $-f$), if $f$ is [[lower semicontinuous function|lower semicontinuous]] to the [[lower real numbers]] $]{-\infty,\infty}]$, then $\ran f$ is bounded below by a finite [[infimum]] which is its [[minimum]] value.  Consequently, if $f$ is [[continuous function|continuous]] to the [[real numbers]] $]{-\infty,\infty}[$, then $\ran f$ is [[bounded subset|bounded]] and has both a maximum and a minimum.)
 
