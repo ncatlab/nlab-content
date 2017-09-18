@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Any model of [[material set theory]] gives rise to a [[category]] of [[set]]s, which is a model of [[structural set theory]].  Conversely, from any structural set theory we can construct a model of material set theory by using [[graph]]s to model hereditary membership relations, as described at [[pure set]].  Viewed in the correct context, these two constructions are a pair of [[adjoint functors]].  Moreover, the adjunction is [[idempotent adjunction|idempotent]], and thus induces an equivalence between models of the two types of set theory which satisfy appropriate "foundation-type" axioms.
+Any model of [[material set theory]] gives rise to a [[category]] of [[sets]], which is a model of [[structural set theory]].  Conversely, from any [[structural set theory]] we can construct a model of material set theory by using [[graphs]] to model hereditary membership relations, as described at _[[pure set]]_.  Viewed in the correct context, these two constructions are a pair of [[adjoint functors]].  Moreover, the adjunction is [[idempotent adjunction|idempotent]], and thus induces an equivalence between models of the two types of set theory which satisfy appropriate "foundation-type" axioms.
 
 ## Definition
 
