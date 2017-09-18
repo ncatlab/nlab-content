@@ -18,6 +18,9 @@ A category is (sometimes) called __pointed__ if it has a [[zero object]]. Every 
 
 * A slight weakening of the concept of a pointed category is that of a [[quasi-pointed category]].
 
+## Related concepts
+
+* [[linear model category]]
 
 [[!redirects pointed category]]
 [[!redirects pointed categories]]
