@@ -47,15 +47,22 @@ Next section: _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spe
  {#SpectralSequences}
 
 
-In the end, what one wants to compute in stable homotopy 
-theory are [[stable homotopy groups]] of [[spectra]] that are built
-from other spaces and spectra in some way. Notably one wants to 
-know the homotopy groups of [[mapping spectra]] $[X,E]$ ([[generalized cohomology|generalized]] [[cohomology groups]] $E^\bullet(X) \coloneqq \pi_\bullet([X,E])$)
-and of [[smash products of spectra]] $E \wedge X$ ([[generalized homology|generalized]] [[homology groups]] $E_\bullet(X)\coloneqq \pi_\bullet(E \wedge X)$).
+In _[[Introduction to Stable homotopy theory -- 1|part 1 -- Stable homotopy theory]]_ we have set up the concept of [[spectra]] $X$ and their [[stable homotopy groups]] $\pi_\bullet(X)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)). More generally for $X$ and $Y$ two spectra then there is the graded stable homotopy group $[X,Y]_\bullet$ of homotopy classes of maps bewteen them ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)). These may be thought of as [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] groups ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-1#ForASpectrumXGeneralizedECohomology)). Moreover, in _[[Introduction to Stable homotopy theory -- 1-2|part 1.2]]_ we discussed the [[symmetric monoidal smash product of spectra]] $X \wedge Y$. The stable homotopy groups of such a smash product spectrum may be thought of as [[generalized homology]] groups ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)). 
+
+These stable homotopy and generalized (co-)homology groups are the fundamental invariants in [[algebraic topology]]. In general they are as rich and interesting as they are hard to compute, as famously witnessed by the [[stable homotopy groups of spheres]], some of which we compute in [[Introduction to Stable homotopy theory -- 2|part 2]].
+
 
 In general the only practicable way to carry out such computations is by doing them along a decomposition of the given spectrum into a "sequence of stages" of sorts. The concept of _[[spectral sequence]]_ is what formalizes this idea.
 
 (Here the re-occurence of the root "spectr-" it is a historical coincidence, but a lucky one.)
+
+Here we give a expository introduction to the concept of spectral sequences, building up in detail to the spectral sequence of a filtered complex. 
+
+We put these spectral sequences to use in 
+
+* _[[Introduction to Stable homotopy theory -- 2|part 2 -- Adams spectral sequences]].
+
+* _[[Introduction to Stable homotopy theory -- S|part S -- Complex oriented cohomology theory]]_
 
 
 ### For filtered complexes
@@ -1964,6 +1971,10 @@ $$
 This is also called the Adams-type _[[spectral sequence of a tower of fibrations|spectral sequence of the tower of fibrations]]_ $X_{n+1} \to X_n$.
 
 =--
+
+This we discuss in detail in _[[Introduction to Stable homotopy theory -- 2|part 2 -- Adams spectral sequences]]_.
+
+
 
 ## References
  {#References}
