@@ -12,6 +12,6 @@ Examples include:
 
 ## References 
 
-* James Munkres, _Topology_ (2nd edition), Prentice-Hall, 2000. 
+* [[James Munkres]], _Topology_ (2nd edition), Prentice-Hall, 2000. 
 
 * Wikipedia, _Metrization theorem_. ([link](http://en.wikipedia.org/wiki/Metrization_theorem)) 
