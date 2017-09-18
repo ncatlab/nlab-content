@@ -53,6 +53,10 @@ The original articles are
 Review for [[KK-compactification]] to [[5d supergravity]], hence for [[E6]]-[[U-duality]], includes
 
 * {#BaguetHohmSamtleben15} Arnaud Baguet, [[Olaf Hohm]], [[Henning Samtleben]], _$E_{6(6)}$ Exceptional Field Theory: Review and Embedding of Type IIB_ ([arXiv:1506.01065](http://arxiv.org/abs/1506.01065))
+
+Discussion for [[E11]] includes
+
+* Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
  
 
 [[!redirects exceptional field theories]]
