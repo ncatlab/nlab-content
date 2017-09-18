@@ -1,0 +1,11 @@
+
+
+* [webpage](http://www.indiana.edu/~jfdavis/)
+
+## related $n$Lab pages
+
+* [[Atiyah-Hirzebruch spectral sequence]] (in [[equivariant cohomology theory]])
+
+category: people
+
+[[!redirects Jim Davis]]
