@@ -1,22 +1,3 @@
-$$
-  \array{
-    \tilde K_{\mathbb{C}}(X/A)
-      &\overset{q^\ast}{\longrightarrow}&
-    \tilde K_{\mathbb{C}}(X)
-      &\overset{i^\ast}{\longrightarrow}&
-    \tilde K_{\mathbb{C}}(A)
-    \\
-    {}^{\mathllap{id}}\downarrow && \downarrow && \downarrow
-    \\
-    \tilde K_{\mathbb{C}}(X/A)
-      &\overset{q^\ast}{\longrightarrow}&
-    K_{\mathbb{C}}(X)
-      &\overset{i^\ast}{\longrightarrow}&
-    K_{\mathbb{C}}(A)
-    \\
-    &&
-    \downarrow && \downarrow
-    \\
-    && K_{\mathbb{C}}(\ast) &\underset{id}{\longrightarrow}& K_{\mathbb{C}}(\ast)
-  }
-$$
+
+
+ssgg
