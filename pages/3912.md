@@ -1,4 +1,8 @@
 
+> This entry is about the isomorphisms in [[cohomology]] induced by [[Thom classes]]. For the [[Pontrjagin-Thom isomorphism]] in [[cobordism theory]] see at _[[Thom's theorem]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
