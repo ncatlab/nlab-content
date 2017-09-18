@@ -42,7 +42,7 @@ As with rings, one sometimes considers non-associative or non-unital versions (w
 
 Many rigs are either [[ring]]s or [[distributive lattice]]s.  Indeed, a ring is precisely a rig that forms a group under addition, while a distributive lattice is precisely a commutative rig in which the operations are idempotent.  Note that a [[Boolean algebra]] is a rig in both ways: as a lattice and as a [[Boolean ring]].
 
-Any rig can be completed to a ring by adding negatives, in the same way that the natural numbers are completed to the integers.  When applied to the set of isomorphism classes of objects in a rig category, the result is part of [[algebraic K-theory]].
+Any rig can be "completed" to a ring by adding negatives, in the same way that the natural numbers are completed to the integers.  When applied to the set of isomorphism classes of objects in a rig category, the result is part of [[algebraic K-theory]]. More formally, the ring completion of a rig $R$ is obtained by applying the [[group completion]] functor to the underlying additive monoid of $R$, and extending the rig multiplication to a ring multiplication by exploiting distributivity; this gives the [[left adjoint]] $F: Rig \to Ring$ to the forgetful functor $U: Ring \to Rig$. Note however that the unit of the [[adjunction]] $R \to U F(R)$ is not [[monomorphism|monic]] if the additive monoid of $R$ is not [[cancellation monoid|cancellative]], despite an informal convention that "[[completion]]" should usually mean a [[monad]] where the unit *is* monic. 
 
 Matrices of rigs can be used to formulate versions of [[matrix mechanics]].
 
