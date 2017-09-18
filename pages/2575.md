@@ -155,9 +155,9 @@ Zuckerman states that on the reduced phase space of $GL(2,\mathbb{R})$-Chern-Sim
 #### With Wilson line observables
  {#WithWilsonLineObservables}
 
-More generally, configurations of Chern-Simons theory are defined on 3-dimensional manifolds $\Sigma$ with a [[closed manifold|closed]] 1-dimensional [[submanifold]] $\Sigma^{def} \hookrightarrow \Sigma$ where each connected component ([[diffeomorphism|diffeomorphic]] to a [[circle]]) is labeled by an [[irreducible representation|ireeducible]] [[unitary representation]] $R_i$ of the [[gauge group]].
+More generally, configurations of Chern-Simons theory are defined on 3-dimensional manifolds $\Sigma$ with a [[closed manifold|closed]] 1-dimensional [[submanifold]] $\Sigma^{def} \hookrightarrow \Sigma$ where each connected component ([[diffeomorphism|diffeomorphic]] to a [[circle]]) is labeled by an [[irreducible representation|irreducible]] [[unitary representation]] $R_i$ of the [[gauge group]].
 
-In [[path integral]] formulation of Chern-Simons theory this means that to the integrand is added the [[Wilson loop]] $W(\Sigma^{def},R, A)$ of the principal connection around $\Sigma^def$ 
+In the [[path integral]] formulation of Chern-Simons theory this means that to the integrand is added the [[Wilson loop]] $W(\Sigma^{def},R, A)$ of the principal connection around $\Sigma^def$ 
 
 $$
   Z(\Sigma^{def}, \Sigma)
@@ -166,7 +166,7 @@ $$
   \,.
 $$
 
-But more fundamentally, the whole [[Wilson loop]] $W(\cdots)$ itself here is to be regarded as the result of a path integral for a [[1-dimensional Chern-Simons theory]] with moduli space a [[coadjoint orbit]] of $G$ and with the representation $R$ arising by the _[[orbit method]]_ (see there for mor details).
+But more fundamentally, the whole [[Wilson loop]] $W(\cdots)$ itself here is to be regarded as the result of a path integral for a [[1-dimensional Chern-Simons theory]] with moduli space a [[coadjoint orbit]] of $G$ and with the representation $R$ arising by the _[[orbit method]]_ (see there for more details).
 
 This means that the [[configuration space]] of Chern-Simons theory over $(\Sigma^{def} \hookrightarrow \Sigma)$ is the space of $G$-[[principal connections]] on $\Sigma$ and of maps to the [[coadjoint orbit]] on $\Sigma^{def}$, with the [[action functional]] now being the sum of 3-dimensional Chern-Simons theory over $\Sigma$ as above and of a [[1-dimensional Chern-Simons theory]] along $\Sigma^{def}$ for which the $G$-principal connection serves as a [[background gauge field]].
 
