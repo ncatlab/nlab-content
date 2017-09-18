@@ -1,0 +1,8 @@
+
+* [Mathematics genealogy page](http://www.genealogy.ams.org/id.php?id=69259)
+
+## related $n$Lab entries
+
+* [[classifying topos of a topological groupoid]]
+
+category: people
