@@ -36,7 +36,10 @@ In the $1$-categorical setup, the coCartesian arrows in op/co-fibrations are ind
 
 ## Related concepts
 
-* [[fibration]], [[resolution]], [[cofibrant object]]
+* [[fibration]]
+* [[resolution]]
+* [[cofibrant object]]
+* [[codiscrete cofibration]]
 
 [[!redirects cofibration]]
 [[!redirects cofibrations]]
