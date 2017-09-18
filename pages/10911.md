@@ -48,11 +48,12 @@ Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[
 
 * Daiji Ennyu, Hiroshi Kawabe, Naohito Nakazawa, _Note on a Closed String Field Theory from Bosonic IIB Matrix Model_, JHEP 0301 (2003) 025 ([arXiv:hep-th/0212044](http://arxiv.org/abs/hep-th/0212044))
 
-
-
 Possibilities of generalizing the IKKT model from [[Lie algebras]] to [[Lie 2-algebras]] in some [[membrane matrix model]] are explored in 
 
 * [[Patricia Ritter]], [[Christian Saemann]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
 
+Discussion of [[standard model of particle physics|standard model]] [[phenomenology]] within the IKKT model includes
+
+* [[Harold Steinacker]], Jochen Zahn, _An extended standard model and its Higgs geometry from the matrix model_, PTEP 2014 (2014) 8, 083B03 ([arXiv:1401.2020](http://arxiv.org/abs/1401.2020))
 
 [[!redirects IIB matrix model]]
