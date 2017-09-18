@@ -55,7 +55,7 @@ Given a cocontinuous functor $F \colon Mod_R \to Mod_S$, the reconstructed $R$-$
     \,,
   $$
 
-  where $r \cdot (-) \colon R \to R$ denotes the right $R$-module homomorphism given by left multiplication by $R$.
+  where $r \cdot (-) \colon R \to R$ denotes the right $R$-module homomorphism given by left multiplication by $r$.
 =--
 
 +-- {: .num_remark}
