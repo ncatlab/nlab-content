@@ -417,7 +417,7 @@ $$
   }
 $$
 
-This gives rise to the horizontal composites $d_1$, as show above, and by the fact that the diagonal sequences are long exact, these are differentials: $d_1^2 = 0$, hence give a [[cochain complex]]:
+This gives rise to the horizontal ([[splicing of short exact sequences|splicing]]) composites $d_1$, as show above, and by the fact that the diagonal sequences are long exact, these are [[differentials]] in that they square to zero: $d_1^2 = 0$. Hence there is a [[cochain complex]]:
 
 $$
   \array{
@@ -425,15 +425,15 @@ $$
        & 
      \overset{}{\longrightarrow}
        && 
-     \pi_{t-s}(A_s) [X,A_s]_{t-s} 
+     [X,A_s]_{t-s} 
        && 
      \overset{d_1}{\longrightarrow} 
        && 
-     \pi_{t-s-1}(A_{s+1})  [X,A_{S+1}]_{t-s-1}
+     [X,A_{S+1}]_{t-s-1}
        && 
      \stackrel{d_1 }{\longrightarrow} 
        && 
-     \pi_{t-s-2}(A_{s+2}) [X,A_{s+2}]_{t-s-2}
+     [X,A_{s+2}]_{t-s-2}
        &&
      \longrightarrow & \cdots
   }
@@ -463,7 +463,7 @@ $$
   }
 $$
 
-This means that the [[cochain cohomology]] of the complex $([X,A_\bullet]_\bullet, d_1)$ produces elements of $[X,Y_\bullet]_\bullet$ and hence of $[X,Y]_\bullet$. (Which elements exactly arise this way is the question of the convergence of the induced spectral sequence, def. \ref{ExactCoupleSpectralSequence} below).
+This means that the [[cochain cohomology]] of the complex $([X,A_\bullet]_\bullet, d_1)$ produces elements of $[X,Y_\bullet]_\bullet$ and hence of $[X,Y]_\bullet$. (Which elements exactly arise this way is the question of the convergence of the induced spectral sequence, def. \ref{ExactCoupleSpectralSequence} below, which we turn to [further below](#Convergence)).
 
 In order to organize this observation, notice that in terms of the exact couple of remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}, the differential 
 
@@ -500,7 +500,7 @@ $$
   }
 $$
 
-its **page** is the [[chain complex]]
+its **page** is the [[graded object|graded]][[chain complex]]
 
 $$
   (\mathcal{E}^{\bullet,\bullet}, d \coloneqq j \circ  k)
@@ -524,6 +524,18 @@ $$
     \\
     && \widetilde{\mathcal{E}}
   }
+  \;\;\;\;
+    \coloneqq
+  \;\;\;\;
+  \array{
+    im(i) 
+      &\stackrel{i}{\longrightarrow}&
+    im(i)
+    \\
+    & \searrow & \downarrow
+    \\
+    && H(\mathcal{E}, j \circ k)
+  }
 $$
 
 with 
@@ -541,12 +553,13 @@ with
 
 =--
 
-+-- {: .num_prop #DerivedExactCoupleIsExactCouple}
-###### Proposition
+By direct inspection one checks that:
+
++-- {: .num_lemma #DerivedExactCoupleIsExactCouple}
+###### Lemma
 
 The derived exact couple in def. \ref{DerivedExactCouple}
-is well defined and 
-is itself an exact couple, def. \ref{ExactCouple}.
+is well defined and is itself an exact couple, def. \ref{ExactCouple}.
 
 =--
 
@@ -556,9 +569,17 @@ is itself an exact couple, def. \ref{ExactCouple}.
 Given an exact couple, def. \ref{ExactCouple},
 then the induced 
 **[[spectral sequence]] of the exact couple** 
-is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
+is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, lemma \ref{DerivedExactCoupleIsExactCouple}. 
+
+The **$r$th page** of the spectral sequence is the page (def. \ref{PageOfAnExactCouple}) of the $r$th exact couple, denoted 
+
+$$
+  \{\mathcal{E}_r, d_r\}
+  \,.
+$$
 
 =--
+
 
 
 +-- {: .num_defn #AdamsTypeSpectralSequenceOfATower}
@@ -1901,6 +1922,7 @@ With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of th
 
 
 #### Convergence 
+ {#Convergence}
 
 ##### $E$-Nilpotent completion
 
