@@ -29,7 +29,7 @@ This may be generalized by replacing [[Set]] with a more general [[cocomplete ca
 ### For monoidal categories
  {#ForMonoidalCategories}
 
-For $(C, \otimes)$ a [[monoidal category]] and $F, G : C^{op} \to Set$ two [[presheaf|presheaves]] on $C$, their _Day convolution product_ $F \star G$ is the presheaf given by the [[coend]]
+For $(C, \otimes)$ a [[small category|small]] [[monoidal category]] and for $F, G \colon C^{op} \to Set$ two [[presheaf|presheaves]] on $C$, their _Day convolution product_ $F \star G$ is the presheaf given by the [[coend]]
 
 $$
   F \star G
@@ -41,14 +41,13 @@ $$
 
 More generally: 
 
-Let $V$ be a good [[symmetric monoidal category]] for $V$-[[enriched category theory]] (a [[Benabou cosmos]]).
-
+Let $V$ be a good [[symmetric monoidal category]] for $V$-[[enriched category theory]] (in particular having all small [[colimits]], e.g. a [[Benabou cosmos]]).
 For $\mathcal{C}$ a $V$-[[enriched category]], write $[\mathcal{C},V]$ for the $V$-[[enriched functor category]] to $V$, etc.
 
 +-- {: .num_defn #DayConvolutionProduct}
 ###### Definition
 
-For $(\mathcal{C}, \otimes)$ a [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on $[\mathcal{C},V]$ is the [[functor]]
+For $(\mathcal{C}, \otimes)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on $[\mathcal{C},V]$ is the [[functor]]
 
 $$
   \otimes_{Day} \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow [\mathcal{C},V]
@@ -69,7 +68,7 @@ $$
 
 We may think of this equivalently as a [[Kan extension]]:
 
-+-- {: .num_defn #DayConvolutionProduct}
++-- {: .num_defn #ExternalTensorProduct}
 ###### Definition
 
 For $(\mathcal{C}, \otimes)$ a [[monoidal category|monoidal]] $V$-[[enriched category]], its _[[external tensor product]]_ is the $V$-functor
@@ -91,10 +90,10 @@ $$
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}
 ###### Proposition
 
-The Day convolution product, def. \ref{DayConvolutionProduct}, is equivalently given by left [[Kan extension]] $Lan_\otimes$ (along the tensor product $\otimes$) of the result of the external tensor product, def. \ref{DayConvolutionProduct}: there is a [[natural isomorphism]]
+The Day convolution product, def. \ref{DayConvolutionProduct}, is equivalently given by left [[Kan extension]] $Lan_\otimes$ (along the tensor product $\otimes$) of the result of the external tensor product, def. \ref{ExternalTensorProduct}: there is a [[natural isomorphism]]
 
 $$
   X \otimes_{Day} Y
@@ -105,7 +104,7 @@ $$
 
 =--
 
-This perspective is highlighted in [MMSS 00, p. 60](#MMSS00)
+This perspective is highlighted in ([MMSS 00, p. 60](#MMSS00)).
 
 +-- {: .proof}
 ###### Proof
@@ -145,6 +144,28 @@ $$
 
 =--
 
++-- {: .num_cor #DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
+###### Corollary
+
+Day convolution $\otimes_{Day}$, def. \ref{DayConvolutionProduct}, is universally characterized by the property that there are [[natural isomorphisms]]
+
+$$
+  [\mathcal{C},V](X \otimes_{Day} Y, Z) 
+    \simeq 
+  [\mathcal{C}\times \mathcal{C},V](X \tilde{\otimes} Y, Z \circ \otimes)
+  \,,
+$$
+
+where $\tilde \otimes$ is the external product of def. \ref{ExternalTensorProduct}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} and since left [[Kan extension]] along any $f$ is the [[left adjoint]] to precomposition with $f$.
+
+=--
 
 ### For promonoidal categories
 
