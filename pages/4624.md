@@ -49,7 +49,7 @@ The reader can probably think of other variations on this theme.
 ## References
 
 * {#Johnstone}  [[Elephant]] 
-* {#MO} Martin Brandenburg (https://mathoverflow.net/users/2841/martin-brandenburg), Concise definition of subobjects, URL (version: 2014-10-11): [https://mathoverflow.net/q/184196](https://mathoverflow.net/q/184196) 
+* {#MO} mathoverflow (https://mathoverflow.net/users/2841/martin-brandenburg), Concise definition of subobjects, URL (version: 2014-10-11): [https://mathoverflow.net/q/184196](https://mathoverflow.net/q/184196) 
 
 
 
