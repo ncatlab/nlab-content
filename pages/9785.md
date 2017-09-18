@@ -95,7 +95,7 @@ where (a further fermionic extension of it) is derived as a [[super Lie algebra]
 
 See also 
 
-* Laura Andrianopoli, [[Riccardo D'Auria]], Lucrezia Ravera, _On the M-algebra and its relation with $\mathfrak{osp}(1|32)$_ ([arXiv1705.06251](https://arxiv.org/abs/1705.06251))
+* Laura Andrianopoli, [[Riccardo D'Auria]], Lucrezia Ravera, _More on the Hidden Symmetries of 11D Supergravity_ ([arXiv1705.06251](https://arxiv.org/abs/1705.06251))
 
 That a limiting case of this is given by the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$ is due to
 
