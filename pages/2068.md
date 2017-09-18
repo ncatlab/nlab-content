@@ -23,7 +23,7 @@ In the presence of a notion of [[fibration]] and a given class of such, a morphi
 
 The standard example, often taken to be the default, is that of morphisms in the category [[sSet]] of [[simplicial sets]] which have the left lifting property against all [[Kan fibrations]]. In this case, anodyne morphisms are equivalent to [[acyclic cofibrations]] in the standard [[model structure on simplicial sets]].
 
-Typically one says _anodyne morphism_ or, actually, _anodyne extension_ if one thinks of these morphisms produced by [[retracts]] and [[transfinite composition]] of [[pushouts]] of a certain generating set of morphisms.
+Typically one says _anodyne morphism_ or, actually, _anodyne extension_ if one thinks of these morphisms produced by [[retracts]] of [[transfinite composition]] of [[pushouts]] of [[coproducts]] of a certain generating set of morphisms.
 
 So in the standard example of left lifting against Kan fibrations, one typically speaks of _anodyne extension_ if one produces morphisms by these operations from the set of [[horn]] inclusions. (see for instance ([Jardine](#Jardine))).
 
