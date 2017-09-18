@@ -168,7 +168,7 @@ If $Id: F_1 \hookrightarrow F_2 \to F_1$ is a [[retract]] in the category $[J^{\
 
 We give a direct and a more abstract argument.
 
-**Direct argument**. We can directly check the [[universal property]] of the limit: for $G$ any other [[cone]] over $i^* F_1$, the composite $i^* G = i^* F_1 \to i^* F_2$ exhibits $G$ also as a cone over $i^* F_2$. By the pullback property of $F_2$ this extends to a morphism of cones $G \to F_2$. Postcompisition with $F_2 \to F_1$ makes this a morphism of cones $G \to F_1$. By the injectivity of $F_1 \to F_2$ and the universality of $F_2$, any two such cone morphisms are equals.
+**Direct argument**. We can directly check the [[universal property]] of the limit: for $G$ any other [[cone]] over $i^* F_1$, the composite $i^* G = i^* F_1 \to i^* F_2$ exhibits $G$ also as a cone over $i^* F_2$. By the pullback property of $F_2$ this extends to a morphism of cones $G \to F_2$. Postcomposition with $F_2 \to F_1$ makes this a morphism of cones $G \to F_1$. By the injectivity of $F_1 \to F_2$ and the universality of $F_2$, any two such cone morphisms are equals.
 
 **More abstract argument**. The limiting cone over a diagram $D : J \to C$ may be regarded as the right [[Kan extension]] $i_* D := Ran_i D$ along $i$
 
