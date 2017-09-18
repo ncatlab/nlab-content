@@ -25,7 +25,7 @@
 
 ## Idea
 
-A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a context for doing [[homotopy theory]].    Quillen developed the definition of a model category to formalize the similarities between [[homotopy theory]] and [[homological algebra]]: the key examples which motivated his definition were the category of [[topological space|topological spaces]], the category of [[simplicial set|simplicial sets]], and the category of [[chain complex|chain complexes]].
+A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_, but **not** related to "[[closed category]]") is a context for doing [[homotopy theory]].    Quillen developed the definition of a model category to formalize the similarities between [[homotopy theory]] and [[homological algebra]]: the key examples which motivated his definition were the category of [[topological space|topological spaces]], the category of [[simplicial set|simplicial sets]], and the category of [[chain complex|chain complexes]].
 
 So, what is a model category?  For starters, it is a [[category]] equipped with three [[classes]] of [[morphisms]], each closed under [[composition]] and  called _[[weak equivalences]]_, _[[fibrations]]_ and _[[cofibrations]]_:
 
@@ -39,9 +39,9 @@ A bit more technically: we can define an [[(∞,1)-category]] starting from any 
 
 In this sense model categories are 'models for [[homotopy theory]]' or 'categories of models for homotopy theory'.  (The latter sense was the one intended by Quillen, but the former is also a useful way to think.)
 
-Recall that the idea of [[category with weak equivalences|categories with weak equivalences]] is to work just with 1-morphisms instead of with [[n-morphisms]] for all $n$, but to carry around extra information to remember which 1-morphisms are really [[equivalence|equivalences]] in the full [[(∞,1)-category]], i.e. [[isomorphism]]s in the corresponding [[homotopy category]].
+Recall that the idea of [[category with weak equivalences|categories with weak equivalences]] is to work just with 1-morphisms instead of with [[n-morphisms]] for all $n$, but to carry around extra information to remember which 1-morphisms are really [[equivalence|equivalences]] in the full [[(∞,1)-category]], i.e. [[isomorphisms]] in the corresponding [[homotopy category]].
 
-In a model category the data of weak equivalences is accompanied by further auxiliary data that helps to compute the [[(∞,1)-categorical hom-space]], the [[homotopy category]] and [[derived functor|derived functors]]. See [[homotopy theory]] for more on that.
+In a model category the data of weak equivalences is accompanied by further auxiliary data that helps to compute the [[(∞,1)-categorical hom-space]], the [[homotopy category]] and [[derived functor|derived functors]]. See [[homotopy category of a model category]] for more on that.
 
 If the model category happens to be a [[combinatorial simplicial model category]] $\mathbf{A}$ it [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-category|category]] $\mathbf{A}^\circ$ in the form of a [[simplicially enriched category]] given by the full [[SSet]]-[[enriched category|enriched subcategory]] on objects that are both fibrant and cofibrant.
 
@@ -271,6 +271,8 @@ and applying a general technique called [[Bousfield localization]] which forces 
 ## Related concepts
 
 * [[synthetic homotopy theory]]
+
+* [[homotopy category of a model category]]
 
 * [[localization of model categories]]
 
