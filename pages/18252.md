@@ -21,6 +21,7 @@ The canonical [[line bundle]] over a [[projective space]] is sometimes called it
 ## Definition
 
 ### As a topological line bundle
+  {#AsAtopologicalLieBundle}
 
 We discuss the tautological line bundle as a [[topological vector bundle]]. Hence let $k$ be the [[topological field]] either
 
@@ -126,10 +127,11 @@ $$
   \,.
 $$
 
-=--
+=-- 
 
-+-- {: .num_prop}
++-- {: .num_prop #WellDefinedTautologicalTopologicalLineBundle}
 ###### Proposition
+**(tautological topological line bundle is well defined)**
 
 The tautological line bundle in def. \ref{TautologicalTopologicalLineBundle} is well defined in that it indeed admits a [[local trivialization]].
 
@@ -153,12 +155,10 @@ $$
 
 This is clearly a [[bijection]] of underlying sets.
 
-To see that it is continuous, notice that this map is the [[extension]] to the [[quotient topological space]] of the analogous map
+To see that this function and its inverse function are continuous, hence that this is a [[homeomorphism]] notice that this map is the [[extension]] to the [[quotient topological space]] of the analogous map
 
 $$
   \array{
-    k^{n} \times k & \longrightarrow& k^{n} \times k^{n+1}
-    \\
     ( (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1}) , c)
      &\mapsto&
     ( (x_1, \cdots, x_{i-1}, x_{i+1}, \cdots, x_{n+1}) , (c x_1, \cdots c x_{i-1}, c, c x_{i+1}, \cdots, c x_{n+1}) )
@@ -166,8 +166,9 @@ $$
   \,.
 $$
 
-This is a [[polynomial]] function on [[Euclidean space]] and since [[polynomials are continuous]], this is continuous. Hence by the [[universal property]] of the [[quotient topology]], also the original function is continuous.
+This is a [[polynomial]] function on [[Euclidean space]] and since [[polynomials are continuous]], this is continuous. Similarly the [[inverse function]] lifts to a [[rational function]] on a subspace of Euclidean space, and since [[rational functions are continuous]] on their domain of definition, also this lift is continuous. 
 
+Therefore by the [[universal property]] of the [[quotient topology]], also the original functions are continuous.
 
 
 =--
