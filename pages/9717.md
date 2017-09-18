@@ -65,6 +65,10 @@ See also
 
 * [[volume conjecture]]
 
+* [[Selberg zeta function]]
+
+* [[prime geodesic]]
+
 ## References
 
 * Wikipedia, _[Hyperbolic manifold](http://en.wikipedia.org/wiki/Hyperbolic_manifold)_
