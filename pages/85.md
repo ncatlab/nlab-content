@@ -334,7 +334,7 @@ $$
 ### Monoids with respect to Day convolution
  {#Monoids}
 
-Given any [[monoidal category]] then one may consider [[monoid objects]] inside it.
+Given any [[monoidal category]] then one may consider [[monoid objects]] and [[module objects]] inside it.
 
 +-- {: .num_prop #DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
 ###### Proposition
@@ -355,6 +355,7 @@ $$
   \,.
 $$
 
+Moreover, [[module objects]] over these monoid objects are equivalent to the corresponding [[modules over monoidal functors]].
 
 =--
 
@@ -384,6 +385,8 @@ $$
 $$
 
 satisfying analogous conditions. This is just the structure of a [[monoid object]] on $F$ under $\otimes_{Day}$.
+
+Similarly for [[module objects]] and [[modules over monoidal functors]].
 
 =--
 
