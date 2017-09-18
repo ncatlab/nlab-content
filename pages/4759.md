@@ -56,14 +56,81 @@ For $n \geq 1$ the Chern universal [[characteristic classes]] $c_i \in H^{2i}(B 
 +-- {: .num_prop}
 ###### Proposition
 
-The [[cohomology ring]] of $B U(n)$ is the [[polynomial]] algebra on the Chern classes:
+The [[cohomology ring]] of the [[classifying space]] $B U(n)$ for the [[unitary group]] $U(n)$ is the [[polynomial ring]] on the Chern classes:
 
 $$
   H^\bullet(B U(n), \mathbb{Z})
-  \simeq
-  \mathbb{Z}(c_1, \cdots, c_n)
+    \simeq
+  \mathbb{Z}[c_1, \cdots, c_n]
   \,.
 $$
+
+Moreover, for $i \colon B U(n_1) \longrightarrow BU(n_2)$ the canonical inclusion for $n_1 \leq n_2 \in \mathbb{N}$, then the induced pullback map on cohomology 
+
+$$
+   i^\ast 
+     \;\colon\;
+   H^\bullet(B U(n_2))
+     \longrightarrow
+   H^\bullet(B U(n_1))
+$$
+
+is given by
+
+$$
+  i^\ast(c_k)
+  \;=\;
+  \left\{
+    \array{
+      c_k & for \; 1 \leq k \leq n_1
+      \\
+      0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+=--
+
+(e.g. [Kochmann 96, theorem 2.3.1](#Kochmann96))
+
++-- {: .proof}
+###### Proof
+
+For $n = 1$, in which case $B U(1) \simeq \mathbb{C}P^\infty$ is the infinite [[complex projective space]], we have ([prop](complex projective space#OrdinaryCohomologyOfComplexProjectiveSpace))
+
+$$
+  H^\bullet(B U(1)) \simeq \mathbb{Z}[ c_1 ]
+  \,,
+$$
+
+where $c_1$ is the [[first Chern class]]. From here we proceed by [[induction]]. So assume that the statement has been shown for $n-1$.
+
+Observe that the canonical map $B U(n-1) \to B U(n)$ has as [[homotopy fiber]]  the [[n-sphere](2n-1)-sphere]] ([prop.](classifying+space#SphereFibrationOverInclusionOfClassifyingSpaces)) hence there is a [[homotopy fiber sequence]] of the form
+
+$$
+  S^{2n-1} \longrightarrow B U(n-1) \longrightarrow B U(n)
+  \,.
+$$
+
+Consider the induced [[Thom-Gysin sequence]]. In odd degrees
+
+$$
+  \cdots
+   \to
+  H^{2k}(B U(n-1))
+   \longrightarrow
+  H^{2k+1-2n}(B U(n))
+   \longrightarrow
+  H^{2k+1}(B U(n))
+   \overset{i^\ast}{\longrightarrow}
+  \underset{\simeq 0}{\underbrace{H^{2k+1}(B U(n-1))}}
+  \to 
+  \cdots
+  \,.
+$$
+
+(...)
 
 =--
 
