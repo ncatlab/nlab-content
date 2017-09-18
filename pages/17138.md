@@ -95,19 +95,26 @@ Now [[Quillen's theorem on MU]] says that $Spec(MU)$ is a refined version of the
 
 * [[symmetric spectra]]
 
-* model structures on symmetric spectra
+* [[suspension spectrum]], [[sphere spectrum]]
+
+* [[Thom spectrum]]
 
 * [[stable homotopy category]]
 
+* [[smash product of spectra]],
+
+* [[model structures on symmetric spectra]]
+
+
 ### Ring spectra
 
-* [[ring spectrum]]
+* [[ring spectrum]], [[E-∞ ring]]
 
 * model structure for ring spectra
 
 ### Module spectra
 
-* [[module spectrum]]
+* [[module spectrum]], [[∞-module]]
 
 * model structure for module spectra
 
@@ -471,11 +478,32 @@ is a [[flat morphism]].
 
 =--
 
++-- {: .num_example}
+###### Example
+
+Examples of ring spectra that are flat according to def. \ref{FlatE} include
+
+* $E = H \mathbb{F}_p$ an [[Eilenberg-MacLane spectrum]] with $mod\;p$ [[coefficients]];
+
+* $E = B P$ the [[Brown-Peterson spectrum]];
+
+* $E = MU$ the [[complex cobordism cohomology theory|complex cobordism spectrum]];
+
+Examples of ring spectra that are _not_ flat include
+
+* $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]] for [[integers|integer]] [[coefficients]];
+
+* $E = M S U$.
+
+=--
+
+
+
 +-- {: .num_prop}
 ###### Proposition
 
 For $E$ flat, def. \ref{FlatE}, then
-$(E_\bullet, E_\bullet(E))$ is canonically a [[Hopf algebroid]].
+$(E_\bullet, E_\bullet(E))$ (the dual $E$-[[Steenrod operations]]) is canonically a [[Hopf algebroid]].
 
 =--
 
@@ -513,9 +541,71 @@ where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[E
 
 =--
 
-#### Convergence and $E$-completion
+#### Convergence, $E$-nilpotent completion and $E$-localization
 
-... convergence conditionally to $\pi_\bullet(\underset{\longrightarrow}{\lim} E^{\wedge^n} \wedge X$)...
+... $E$-ANSS [[converges conditionally]] to the [[E-nilpotent completion]]...
+
+...([Ravenel 84](#Ravenel84))...
+
+
+...[[Bousfield localization of spectra]]... $L_E$
+
+
++-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
+###### Remark
+
+There is a canonical map
+
+$$
+  L_E X \stackrel{}{\longrightarrow} \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+$$
+
+from the $E$-[[Bousfield localization of spectra]] of $X$ into the [[totalization]].
+
+
+=--
+
+We consider now conditions for this morphism to be an [[equivalence]].
+
++-- {: .num_defn #CoreOfARing}
+###### Definition
+
+For $R$ a [[ring]], its _core_ $c R$ is the [[equalizer]] in
+
+$$
+  c R 
+    \longrightarrow 
+  R 
+    \stackrel{\longrightarrow}{\longrightarrow}
+  R \otimes R
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
+###### Proposition
+
+Let $E$ be a [[connective spectrum|connective]] [[E-∞ ring]] such that the core of $\pi_0(E)$, def. \ref{CoreOfARing}, is either of
+
+* the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \mathbb{Z}[J^{-1}]$;
+
+* $\mathbb{Z}_n$ for $n \geq 2$.
+
+Then the map in remark \ref{CanonicalMapFromELocalizationToTotalization} is an equivalence
+
+$$
+  L_E X \stackrel{\simeq}{\longrightarrow} 
+  \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+  \,.
+$$
+
+=--
+
+([Bousfield 79](#Bousfield79)).
+
+For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
+
 
 #### The case $E = H \mathbb{F}_p$
 
@@ -528,35 +618,42 @@ where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[E
 
 ## **3)** Geometry over $Spec(\mathbb{S})$
 
-### Bousfield localization
-
-* [[Bousfield localization of spectra]]
 
 ### Fracturing
 
-+-- {: bluebox}
-**Summary:**
++-- {: .num_prop #SullivanArithmeticFracture}
+###### Proposition
+**(Sullivan arithmetic square)**
 
-**[[nLab:generalized (Eilenberg-Steenrod) cohomology theory|Generalized]] [[nLab:differential cohomology theories]]**
-
-are [[nLab:smooth spectra]]
-
-hence are smoothly parameterized [[nLab:quasicoherent infinity-stacks|quasicoherent modules]] over [[nLab:Spec(S)]] for $\mathbb{S}$ the [[nLab:sphere spectrum]]:
+For every [[spectrum]] $X$ the canonical square
 
 $$
-  \begin{aligned}
-    DifferentialCohomology
-    & = 
-    Sh(Mfd, Spectra) 
+  \array{
+    && L_{\mathbb{Q}}X
     \\
-    & \simeq Sh(Mfd, QMod(Spec(\mathbb{S}))) = QMod(Mfd\times Spec(\mathbb{S}))
-  \end{aligned}
-  \,.
-$$ 
+    & \swarrow && \nwarrow
+    \\
+    L_{\mathbb{Q}}
+    \left(
+      \prod_p L_p X
+    \right)
+    &&  &&
+    X
+    \\
+     & \nwarrow && \swarrow
+    \\
+    && \prod_p L_p X
+  }
+$$
 
-***
+is a [[homotopy pushout]] (hence also a [[homotopy pullback]]).
 
-The [[nLab:arithmetic fracture square]] from [[nLab:Weil uniformization theorem|Weil uniformization]] over [[nLab:Spec(S)]] synthesizes these from their formal completion and torsion approximation:
+=--
+
+Original statements of this include ([Bousfield 79](#Bousfield79), [Sullivan 05, prop. 3.20](#Sullivan05)). Review includes ([van Koughnett 13, prop. 4.5](#VanKoughnett13), [Bauer 11, lemma 2.1](#Bauer11)). 
+
+
+So the [[nLab:arithmetic fracture square]] from [[nLab:Weil uniformization theorem|Weil uniformization]] over [[nLab:Spec(S)]] synthesizes spectra from their formal completion and torsion approximation:
 
 $$
   \array{
@@ -576,35 +673,134 @@ $$
 
 (and there is further fracturing of the $p$-local part by [[nLab:chromatic homotopy theory]]).
 
-***
++-- {: .num_prop #ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
+###### Proposition
 
-The [[nLab:differential hexagon]] from [[nLab:cohesion]] over [[nLab:SmoothMfd]] synthesizes them instead from their [[nLab:étale homotopy type]] and [[nLab:flat modality|flat]] components:
+The product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at the [[wedge sum]] $\vee_p S \mathbb{F}_p$ of all [[Moore spectra]]
+
 
 $$
-  \array{
-    &&  {{connection\;forms} \atop {on\;trivial\;bundles}} && \stackrel{{de\;Rham} \atop {differential}}{\longrightarrow} && {curvature \atop forms}
-    \\
-    & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{{de\;Rham} \atop {theorem}}}
-    \\
-    {flat \atop {differential\;forms}}  && && {{geometric\;bundles} \atop {with \;connection}} && && {rationalized \atop bundles}
-    \\
-    & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol. \atop class}} && \nearrow_{\mathrlap{Chern\;character}}
-    \\
-    && {{geometric\;bundles} \atop {with\;flat\;connection}} && \underset{comparison}{\longrightarrow} && {{etale\;homotopy\;type} \atop {of\;bundle}}
-  }
- \,.
+  \prod_p L_p X
+  \simeq
+   L_{\vee_p S \mathbb{F}_p} X
+  \,.
 $$
+
+Moreover there is a  [[Bousfield equivalence]] 
+
+$$
+  S (\mathbb{Q}/\mathbb{Z}) \simeq_{Bousf} \vee_p S \mathbb{F}_p
+  \,,
+$$ 
+
+and therefore also an equivalence
+
+$$
+  \prod_p L_p X
+  \simeq
+   L_{S (\mathbb{Q}/\mathbb{Z})} X
+  \,.
+$$
+
 
 =--
 
+The first statement originates around ([Bousfield 79, prop. 2.6](Bousfield+localization+of+spectra#Bousfield79)), review includes ([van Koughnett 13, prop. 4.4](Bousfield+localization+of+spectra#VanKoughnett13), [Bauer 11, below prop. 2.2](#Bauer11)); the second is highlighted in ([Strickland 12, MO comment](http://mathoverflow.net/a/91057/381)).
 
-### Complex oriented cohomology
+
+By prop. \ref{ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
+the arithmetic fracture square of prop. \ref{SullivanArithmeticFracture} is equivalently of the form
+
+$$
+  \array{
+
+    && L_{H\mathbb{Q}}X
+    \\
+    & \swarrow && \nwarrow
+    \\
+    L_{H\mathbb{Q}}
+    L_{S \mathbb{Q}/\mathbb{Z}} X
+    &&  &&
+    X
+    \\
+     & \nwarrow && \swarrow
+    \\
+    && L_{S \mathbb{Q}/\mathbb{Z}} X
+  }
+  \,.
+$$
+
+In this form the statement holds much more generally:
+
++-- {: .num_prop #GeneralFractureSquare}
+###### Proposition
+
+Let $E, F, X$ be [[spectra]] such that the $F$-[[Bousfield localization of spectra|localization]] of $X$ is $E$-acyclic, i.e.  $E_\bullet(L_F X) \simeq 0$, then the canonical square [[diagram]]
+
+
+$$
+  \array{
+    && L_F X
+    \\
+    & \swarrow && \nwarrow
+    \\
+    L_F
+    L_E X
+    &&  &&
+    L_{E\vee F} X
+    \\
+     & \nwarrow && \swarrow
+    \\
+    && L_E X
+  }
+$$
+
+is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
+
+
+=--
+
+e.g. ([Bauer 11, prop. 2.2](#Bauer11))
+
+
+
+### Complex oriented cohomology and $MU$, $BP$
 
 * [[MU]], 
 
 * [[formal group law]], [[Lazard ring]], [[Quillen's theorem on MU]]
 
 * [[complex oriented cohomology theory]]
+
+* [[Brown-Peterson spectrum]]
+
+### Chromatic fracturing
+
++-- {: .num_remark #ExampleOfChromaticFracturing}
+###### Remark
+
+The general version of the fracture statement in prop. \ref{GeneralFractureSquare} is used frequently in [[chromatic homotopy theory]] for decomposition in [[Morava K-theory]] and [[Morava E-theory]]-localizations. For example there is a **chromatic** fracture square:
+
+$$
+  \array{
+    && L_{E(n-1)} X
+    \\
+    & \swarrow && \nwarrow
+    \\
+    L_{E(n-1)}
+    L_{K(n)} X
+    &&  &&
+    L_{E(n)} X
+    \\
+     & \nwarrow && \swarrow
+    \\
+    && L_{K(n)} X
+  }
+$$
+
+In particular it is used for instance in the construction of [[tmf]], see example \ref{ConstructionOfTmf} below.
+
+=--
 
 
 ### $E_\infty$-stacks
@@ -618,7 +814,7 @@ $$
 
 For section **1) Stable homotopy theory** we follow
 
-* [[Stefan Schwede]], _Symmetric spectra_, 2007 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+* {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 For further reading an excellent collection is
 
@@ -642,8 +838,14 @@ For the modern picture of **3) spectral geometry over $Spec(\mathbb{S})$** we fo
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
 
-Useful survey of this picture has been given in
+Useful **survey** of this picture has been given in
 
 * {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
 
 * {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf), [notes pdf](http://math.berkeley.edu/~aaron/writing/tmf-seminar-talk.pdf))
+
+Further references pointed to above include the following.
+
+* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology 18 (1979), no. 4, 257--281. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+
+* {#Ravenel84} [[Douglas Ravenel]], _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf))
