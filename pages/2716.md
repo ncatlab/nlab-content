@@ -210,7 +210,7 @@ An article with more details on this:
 
 The notion originates somewhere in the school of [[Alan Weinstein]]'s school of [[higher category theory|higher categorial]] [[symplectic geometry]]. The first published appearance of the notion at least for $0 \leq n \leq 3$ is
 
-* [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ PhD thesis ([arXiv](http://arxiv.org/abs/math/9910078))
+* [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ PhD thesis ([arXiv:9910078](http://arxiv.org/abs/math/9910078))
 
 A good writeup of this material is in
 
@@ -235,7 +235,7 @@ A discussion of aspects of how [[multisymplectic geometry]] related to $n$-sympl
 
 A discussion of symplectic Lie n-algebroids from an [[infinity-Lie theory]] perspective as discussed here is in 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_, Int. J. Geom. Methods Mod. Phys. 10 (2013) 1250078 ([arXiv:1108.4378](http://arxiv.org/abs/1108.4378))
 
 [[!redirects symplectic Lie n-algebroids]]
 
