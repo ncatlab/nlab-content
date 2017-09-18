@@ -53,7 +53,7 @@ There is a [[model category]] structure on $sSet_0$ whose
 
 * and cofibrations
 
-are those in the standard [[model structure on simplicial sets]].
+are those in the [[classical model structure on simplicial sets]].
 
 =--
 
