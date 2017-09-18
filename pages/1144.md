@@ -50,7 +50,7 @@ The connection between these two appoaches is discussed in ([Majewski 00](#Majew
 
 $\,$
 
-Rational homotopy theory is mostly restricted to [[simply connected topological spaces]]. This is due to the existence of [[acyclic groups]] $\Gamma$ whose [[classifying space]] $B \Gamma$ is an "acyclic space" in that its [[ordinary cohomology]] vanishes in positive degrees. This means that [[Sullivan algebras]] do not distinguish classifying spaces of rational groups from [[contractible spaces]]. But by [[Hurewicz theorem]] asking that all spaces be [[simply connected topological space|simply connected]] precisely makes all "acyclic spaces" be [[contractible topological space|contractible]].
+{#ClassifyingSpacesOfAcyclicGroups} Rational homotopy theory is mostly restricted to [[simply connected topological spaces]]. This is due to the existence of [[acyclic groups]] $\Gamma$ whose [[classifying space]] $B \Gamma$ is an "acyclic space" in that its [[ordinary cohomology]] vanishes in positive degrees. This means that [[Sullivan algebras]] do not distinguish classifying spaces of acyclic groups from [[contractible spaces]]. But by [[Hurewicz theorem]] asking that all spaces be [[simply connected topological space|simply connected]] precisely makes all "acyclic spaces" be [[contractible topological space|contractible]].
 
 
 ## Generalities
