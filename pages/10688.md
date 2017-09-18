@@ -46,6 +46,7 @@ $$
   \,.
 $$
 
+(Here $P$ is by definition the [[homotopy fiber]] of $E$, the notation refers to _[[Whitehead product]]_.)
 
 This "EHP-[[long homotopy fiber sequence]]" gives rise to the corresponding [[long exact sequence of homotopy groups]] and so to an [[exact couple]] of the form
 
