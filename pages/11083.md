@@ -636,7 +636,7 @@ has
 * as [[objects]] the [[Cech cohomology|Cech cocycles]] of degree 1 on $X$ relative to the cover and with values in $G$; i.e. collections of smooth functions
 
   $$
-    g_{ i j} \;\colon\; U_i \underset{X}{\times} U_j \longrightarrow G
+    g_{i j} \;\colon\; U_i \underset{X}{\times} U_j \longrightarrow G
   $$
 
   satisfying on each triple intersection the cocycle condition
@@ -673,9 +673,87 @@ $$
 +-- {: .proof}
 ###### Proof
 
-It is a matter of unwinding the definitions that the statement holds disregarding smooth structure everywhere, hence after evaluating the morphisms of pre-smooth groupoids on $\mathbb{R}^0$. That the component functions that one finds this way all have to be smooth then follows componentwise with the [[Yoneda lemma]] for presheaves of sets on $CartSp$ (as discussed at _[[geometry of physics -- smooth sets]]_).
+The components of a morphism $C(\{U_i\})\longrightarrow \mathbf{B}G$ look as follows
+
+$$
+  \left(
+    \array{
+       && (x,j)
+       \\
+       & \nearrow && \searrow
+       \\
+      (x,i) &&\to&& (x,k)
+    }
+  \right)
+  \mapsto
+  \left(
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{g_{i j}(x)}}\nearrow
+       && \searrow^{\mathrlap{g_{j k}(x)}}
+       \\
+      \bullet &&\stackrel{g_{i k}(x)}{\to}&& \bullet
+    }
+  \right)
+  \,.
+$$
+
+This means that evaluating the morphism on the point $\ast = \mathbb{R}^0$, hence after forgetting the smooth structure, then it is a [[functor]] of groupoids as shown. Since $\mathbf{B}G(\mathbb{R}^0)$ has a single object, there is no choice for this functor on the level of objects. On morphisms it has to send each point $(x,i,j)$ in a double intersection of the cover to a group element $g_{i j}(x)\in G$. Hence the functor is given by functions
+
+$$
+  ( g_{i j} )_{i,j \in I} \colon \underset{i,j}{\coprod} U_i \underset{X}{\times} U_j \longrightarrow G
+  \,.
+$$ 
+
+The [[Yoneda lemma]] gives that these must be [[smooth functions]] (as discussed at _[[geometry of physics -- smooth sets]]_). Finally functoriality says that composition on the left needs to be taken to composition on the right, which means here that these functions satisfy
+
+$$
+  g_{i j}(x) g_{j k}(x) = g_{i k}(x)
+$$
+
+for all $(x,i,j)$. This is precisely the data of a $G$-valued [[Cech cohomology]] cocycle.
+
+Similarly, a homotopy between two such morphisms $h \colon g \Rightarrow \tilde g$ is in components a [[natural transformation]] of the form
+
+$$
+  \array{
+    (x,i)
+    \\
+    \downarrow
+    \\
+    (x,j)
+  }
+  \;\;\;
+  \mapsto
+  \;\;\;
+  \array{
+     \bullet &\stackrel{h_i(x)}{\longrightarrow}& \bullet
+     \\
+     {}^{\mathllap{g_{i j}(x)}}\downarrow && \downarrow^{\mathrlap{\tilde g_{i j}(x)}}
+     \\
+     \bullet &\underset{h_j(x)}{\longrightarrow}& \bullet
+  }
+$$
+
+hence is given by smooth functions
+
+$$
+  (h_i)_{i \in I} \colon \underset{i}{\coprod} U_i \longrightarrow G
+$$
+
+such that 
+
+$$
+  h_i(x) \tilde g_{i j}(x) = g_{i j}(x) h_j(x)
+  \,.
+$$
+
+This is precisely the formula characterizing $(h_i)_{i \in I}$ as a Cech [[coboundary]].
 
 =--
+
+More along these lines is at _[[geometry of physics -- principal bundles]]_.
 
 
 ###### Gluing 
