@@ -17,7 +17,7 @@
 ## Statement
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #FundamentalTheoremOfFinitelyGeneratedAbelianGroups}
 ###### Theorem
 **(fundamental theorem of finitely generated abelian groups)**
 
@@ -60,6 +60,9 @@ Specifically, for each natural number $d$ dividing $n$ it contains $\mathbb{Z}/d
 (e.g. [Roman 12, theorem 13.4](#Roman12), [Navarro 03](#Navarro03)) for cyclic groups e.g. ([Aluffi 09, pages 83-84](#Aluffi09))
 
 This is a special case of the _[[ structure theorem for finitely generated modules over a principal ideal domain]]_.
+
+
+
 
 ## Examples
 
@@ -124,6 +127,52 @@ $$
 
 =--
 
+## Graphical representation
+
+Theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} says that for any [[prime number]] $p$, the [[p-primary group|p-primary part]] of any finitely generated abelian group is determined uniquely up to [[isomorphism]] by
+
+* a total number $k \in \mathbb{N}$ of powers of $p$;
+
+* a [[partition]] $k = k_1 + k_2 + \cdots + k_q$.
+
+The corresponding [[p-primary group]] is
+
+$$
+  \underoverset{i = 1}{\bigoplus}^q \mathbb{Z}/p^{k_i} \mathbb{Z}
+  \,.
+$$ 
+
+In the context of [[Adams spectral sequences]] it is conventional to depict this information graphically by
+
+* $k$ dots;
+
+* of which sequences of length $k_i$ are connected by vertical lines, for $i \in \{1, \cdots, q\}$.
+
+For instance, for $p= 2$, the corresponding graphical representation of 
+
+$$
+  \mathbb{Z}/2\mathbb{Z} 
+    \oplus 
+  \mathbb{Z}/2\mathbb{Z}
+    \oplus 
+  \mathbb{Z}/2^3 \mathbb{Z}
+$$
+
+is
+
+$$
+  \array{
+      && \bullet
+      \\
+      && \vert
+      \\
+      && \bullet
+      \\
+      && \vert
+      \\
+     \bullet & \bullet & \bullet
+  }
+$$
 
 ## References
 
