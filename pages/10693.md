@@ -358,10 +358,7 @@ where $C_{k+1} \coloneqq hocofib(i_k)$.
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-In ([Ravenel](#Ravenel)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
+(In ([Ravenel](#Ravenel)) it is is the associated inverse sequence that is called the associated resolution.)
 
 =--
 +-- {: .num_example}
