@@ -283,7 +283,7 @@ such that
 
 Finally we need the following terminology:
 
-+-- {: .num_defn }
++-- {: .num_defn #AdditiveOrdinary}
 ###### Definition
 
 Let $\tilde E^\bullet$ be a [[reduced cohomology theory]] according to either of def. \ref{ReducedGeneralizedCohomology}, def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically}, def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor} or def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}.
@@ -1593,6 +1593,78 @@ The [additivity](#WedgeAxiom) is immediate from the construction.
 The [exactnes](#ReducedExactnessAxiom) follows from the [[long exact sequences]] of [[homotopy cofiber sequences]] given by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence).
 
 =--
+
+
+##### Application to ordinary cohomology
+ {#BrownRepresentabilityAppliedToOrdinaryCohomology}
+
++-- {: .num_example #EilenbergMacLaneSpectrum}
+###### Example
+
+Let $A$ be an [[abelian group]]. Consider [[singular cohomology]] $H^n(-,A)$ with [[coefficients]] in $A$.  The corresponding [[reduced cohomology]] evaluated on [[n-spheres]] satisfies
+
+$$
+  \tilde H^n(S^q,A)
+  \simeq
+  \left\{
+    \array{
+      A & if \; q = n
+      \\
+      0 & otherwise
+    }
+  \right.
+$$
+
+Hence singular cohomology is a [generalized cohomology theory](#S1GeneralizedCohomology) which is "[[ordinary cohomology]]" in the sense of def. \ref{AdditiveOrdinary}. 
+
+Applying the [[Brown representability theorem]] as in prop. \ref{AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum} hence produces an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) whose $n$th component space is characterized as having [[homotopy groups]] concentrated in degree $n$ on $A$. These are called _[[Eilenberg-MacLane spaces]]_  $K(A,n)$
+
+$$
+  \pi_q(K(A,n))
+    \simeq
+  \left\{
+    \array{
+      A & if \; q = n
+      \\
+      0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+Here for $n \gt 0$ then $K(A,n)$ is connected, therefore with an essentially unique basepoint, while $K(A,0)$ is (homotopy equivalent to) the underlying set of the group $A$.
+
+Such spectra are called **[[Eilenberg-MacLane spectra]]** $H A$:
+
+$$
+  (H A)_n \simeq K(A,n)
+  \,.
+$$
+
+=--
+
+As a consequence of example \ref{EilenbergMacLaneSpectrum} one obtains the uniqueness result of Eilenberg-Steenrod:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\tilde E_1$ and $\tilde E_2$ be ordinary (def. \ref{AdditiveOrdinary}) [[generalized (Eilenberg-Steenrod) cohomology theories]]. If there is an isomorphism
+
+$$
+  \tilde E_1(S^0) \simeq \tilde E_2(S^0)
+$$
+
+of [[cohomology groups]] of the [[0-sphere]], then there is an [[isomorphism]] of cohomology theories
+
+$$
+  \tilde E_1 \overset{\simeq}{\longrightarrow} \tilde E_2
+  \,.
+$$
+
+=--
+
+(e.g. [Aguilar-Gitler-Prieto 02, theorem 12.3.6](#AguilarGitlerPrieto02))
+
 
 ##### Homotopy-theoretic discussion
 
@@ -4630,6 +4702,8 @@ A **$(B,f)$-structure** is
 1. for all $n_1 \leq n_2$ a pointed continuous function
 
    $\iota_{n_1, n_2} \;\colon\; B_{n_1} \longrightarrow B_{n_2}$
+
+   which is the identity for $n_1 = n_2$;
 
 such that for all $n_1 \leq n_2 \in \mathbb{N}$ these [[commuting square|squares commute]]
 
