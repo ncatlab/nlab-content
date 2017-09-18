@@ -1,3 +1,4 @@
+[[!redirects tubular neighbourhood]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
