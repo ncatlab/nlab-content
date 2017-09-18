@@ -1,4 +1,12 @@
 
+Neil Lambert is professor for theoretical [[physics]] at King's College London.
+
 * [webpage](http://www.kcl.ac.uk/nms/depts/mathematics/people/atoz/lambertn.aspx)
+
+## related $n$Lab entries
+
+* [[BLG model]] ([[M2-brane]])
+
+* [[n-Lie algebra]]
 
 category: people
