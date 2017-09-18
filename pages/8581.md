@@ -47,14 +47,20 @@ This style of definition combines the simplicity of the naive definition of Lie 
 
 =--
 
+### Pre-smooth groupoids
+
+
 +-- {: .num_defn }
 ###### Definition
 
-Write [[CartSp]] for the [[category]] of [[Cartesian spaces]] $\mathbb{R}^n$, $n \in \mathbb{N}$, with [[smooth functions]] between them. (The [[full subcategory]] of [[SmoothMfd]] on the Cartesian spaces.) Regard this as a [[site]] by equipping it with the [[coverage]] of (differntiably) [[good open covers]].
+Write [[CartSp]] for the [[category]] of [[Cartesian spaces]] $\mathbb{R}^n$, $n \in \mathbb{N}$, with [[smooth functions]] between them. (The [[full subcategory]] of [[SmoothMfd]] on the Cartesian spaces.) Regard this as a [[site]] by equipping it with the [[coverage]] of (differentiably) [[good open covers]].
 
 =--
 
-In view of the [[motivation for sheaves, cohomology and higher stacks]] and in direct [[analogy]] with the discussion at _[[geometry of physics -- ]]_, just replacing [[sets]] by [[groupoids]], we set:
+For more on this see at _[[geometry of physics -- coordinate systems]]_.
+
+
+In view of the [[motivation for sheaves, cohomology and higher stacks]] and in direct [[analogy]] with the discussion at _[[geometry of physics -- smooth sets]]_, just replacing [[sets]] by [[groupoids]] throughout, we set:
 
 +-- {: .num_defn #PreSmoothGroupoid}
 ###### Definition
@@ -67,36 +73,117 @@ $$
 
 from [[CartSp]] to the [[1-category]] [[Grpd]].
 
-We write  
-
-$$
-  PreSmooth0Type
-  \coloneqq
-  Funct(CartSp^{op}, Grpd)
-$$ 
-
-for the [[functor category]], the _[[category]] of pre-smooth groupoids_.
 
 =--
 
 +-- {: .num_remark #YonedaIntuition}
 ###### Remark
 
-The intuition is the following: a smooth structure on a groupoid is to be determined by which maps from abstract [[coordinate systems]] $\mathbb{R}^n$ into it are to be regarded as smooth maps. Since, by its groupoidal nature, two such maps may be related by a smooth [[homotopy]]/[[gauge transformation]] (in physics: "twisted sectors"), the collection of all smooth functions from $\mathbb{R}^n$  into the smooth groupoid $X$ is itself a bare groupoid. We here _define_ a pre-smooth groupoid as something that assigns to each abstract coordinate systems a groupoid of would-be smooth maps into it
+The intuition for def. \ref{PreSmoothGroupoid} is the following: a smooth structure on a groupoid is to be determined by which maps from abstract [[coordinate systems]] $\mathbb{R}^n$ into it are to be regarded as smooth maps. Since, by its groupoidal nature, two such maps may be related by a smooth [[homotopy]]/[[gauge transformation]] (in physics: "twisted sectors"), the collection of all smooth functions from $\mathbb{R}^n$  into the smooth groupoid $X$ is itself a bare groupoid. We here _define_ a pre-smooth groupoid as something that assigns to each abstract coordinate systems a groupoid of would-be smooth maps into it
 
 "$X(\mathbb{R}^n) = \left\{ \array{
      & \nearrow \searrow^{\mathrlap{smooth}}
+     \\
     \mathbb{R}^n
-    &\Rightarrow&
+    &\Downarrow&
     X
     \\
     & \searrow \nearrow_{\mathrlap{smooth}}
  } \right\}$"
 
+We sometimes therefore speak of $X(\mathbb{R}^n)$ as the groupoid of _plots_ or of _probes_ of $X$ (which here is only defined by these!) by $n$-dimensional coordinate systems.
 
 =--
 
-The following is the [[Yoneda lemma]] in this context, which says that this intuition is fully correct:
+The [[Yoneda lemma]] will turn this intuition into a theorem. For that we need to speak of [[homomorphisms]] of pre-smooth groupoids, hence of "smooth functors" betwen pre-smooth groupoids.
+
++-- {: .num_defn #HomGroupoidsOfPreSmoothGroupoids}
+###### Definition
+
+A [[homomorphism]] or _smooth map_ between pre-smooth groupoids is a [[natural transformation]] between the [[presheaves]] that they are. We write  
+
+$$
+  PreSmooth1Type
+  \coloneqq
+  Funct(CartSp^{op}, Grpd)
+$$ 
+
+for the [[functor category]], the _[[category]] of pre-smooth groupoids_, def. \ref{PreSmoothGroupoid}, regarded naturally as a [[Grpd]]-[[enriched category]].
+
+This means that for $X,Y \in PreSmooth1Type$ two pre-smooth groupoids, then the bare [[hom-groupoid]] 
+
+$$
+  PreSmooth1Type(X,Y)_\bullet
+  \in 
+  Grpd
+$$
+
+betweem them has 
+
+* as [[objects]] the [[natural transformations]] $f \colon X \to Y$ between $X$ and $Y$ regarded as [[functors]], hence collections $\{f(\mathbb{R}^n)\}_{n \in \mathbb{N}}$ of [[functors]] between [[groupoids]] of probes
+
+  $$
+     f(\mathbb{R}^n) \colon X(\mathbb{R}^n) \longrightarrow Y(\mathbb{R}^n)
+  $$
+
+  such that for every [[smooth function]] $\phi \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ between abstract coordinate charts, these form a (stricly) [[commuting diagram]] with the probe-pullback functors of $X$ and $Y$:
+
+  $$
+    \array{
+       X(\mathbb{R}^{n_1}) &\overset{f(\mathbb{R}^n)}{\longrightarrow}& Y(\mathbb{R}^{n_1})
+       \\
+       {}^{\mathllap{X(\phi)}}\downarrow && \downarrow^{\mathrlap{Y(\phi)}}
+       \\
+       X(\mathbb{R}^{n_2}) &\overset{f(\mathbb{R}^n)}{\longrightarrow}& Y(\mathbb{R}^{n_2})       
+    }
+    \,;
+  $$
+
+* as [[morphisms]] $H \colon f \rightarrow g$ the "[[modifications]]" of these, hence collections $H(\mathbb{R}^n) \colon f(\mathbb{R}^n)\to g(\mathbb{R}^n)$ of [[natural transformations]], such that for every [[smooth function]] $\phi \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ the [[whiskering]] of these satisfies
+
+  $$
+    \array{
+       X(\mathbb{R}^{n_1})
+       \\
+       \downarrow^{\mathrlap{X(\phi)}}
+       \\
+       & \nearrow \searrow^{\mathrlap{f(\mathbb{R}^{n_2})}}
+       \\
+       X(\mathbb{R}^{n_2})
+       &\Downarrow^{H(\mathbb{R}^{n_2})}&
+       Y(\mathbb{R}^{n_2})
+       \\
+       & \searrow \nearrow_{\mathrlap{g(\mathbb{R}^{n_1})}}
+    }
+    \;\;\;
+    =
+    \;\;\;
+    \array{
+       & \nearrow \searrow^{\mathrlap{f(\mathbb{R}^{n_1})}}
+       \\
+       X(\mathbb{R}^{n_1})
+       &\Downarrow^{H(\mathbb{R}^{n_1})}&
+       Y(\mathbb{R}^{n_1})
+       \\
+       & \searrow \nearrow_{\mathrlap{g(\mathbb{R}^{n_1})}}
+       \\
+       && \downarrow^{\mathrlap{Y(\phi)}}
+       \\
+       && Y(\mathbb{R}^{n_2}) 
+    }
+  $$
+ 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Despite the size of the diagrams in def. \ref{HomGroupoidsOfPreSmoothGroupoids}, what they encode is immediate: this just says that smooth maps between pre-smooth groupoids take all probes of $X$ by abstract coordinate charts to probes of $Y$ by these charts, and gauge transformations between these to gauge transformations between those, in a way that it compatible with changing probes along smooth maps.
+
+=--
+
+
+The following is the [[Yoneda lemma]] in this context, and it says that this intuition in remark \ref{YonedaIntuition} is fully correct:
 
 
 +-- {: .num_prop }
@@ -117,14 +204,14 @@ where the [[set]] of [[smooth functions]] on the right is regarded as a [[groupo
 $$
   \underline{(-)}
   \colon
-  CartSp \hookrightarrow PreSmooth0Type
+  CartSp \hookrightarrow PreSmooth1Type
 $$
 
 making [[CartSp]] a [[full subcategory]] of that of pre-smooth groupoids (the [[Yoneda embedding]]).
-Under this embedding for any pre-smooth groupoid $X\in PreSmooth0Type$ and any Cartesian space $\mathbb{R}^n$, there is a [[natural equivalence]] of [[groupoids]]
+Under this embedding for any pre-smooth groupoid $X\in PreSmooth1Type$ and any Cartesian space $\mathbb{R}^n$, there is a [[natural equivalence]] of [[groupoids]]
 
 $$
-  Hom_{PreSmooth0Type}(\underline{\mathbb{R}^n}, X)
+  PreSmooth1Type(\underline{\mathbb{R}^n}, X)
   \simeq
   X(\mathbb{R}^n)
 $$
@@ -133,7 +220,144 @@ $$
 
 =--
 
-This statement expresses just the intuition of remark \ref{YonedaIntuition} and justifies the remove the quotation marks shown there. It also justifies dropping the extra underline denoting the [[Yoneda embedding]]. We will freely identify from now on $\mathbb{R}^n$ with the pre-smooth groupoid that it represents.
+This statement expresses just the intuition of remark \ref{YonedaIntuition} and justifies to remove the quotation marks displayed there. It also justifies dropping the extra underline denoting the [[Yoneda embedding]]. We will freely identify from now on $\mathbb{R}^n$ with the pre-smooth groupoid that it represents.
+
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[smooth set]] (e.g. a [[smooth manifold]]), hence in particular a functor
+
+$$
+  X \colon CartSp^{op} \to Set
+$$
+
+then its embedding into groupoids
+
+$$
+  X \colon CartSp^{op} \to Set \hookrightarrow Grpd
+$$
+
+is a pre-smooth groupoid.
+
+=--
+
+In fact these will be smooth groupoids proper. To define these, we first need the following
+
++-- {: .num_example #ExternalYonedaEmbeddingsIntoPreSmooth1Type}
+###### Example
+
+Let 
+
+$$
+  \mathcal{G}_\bullet
+  = 
+  \left\{
+    \mathcal{G}_1
+      \stackrel{\overset{s}{\longrightarrow}}{\stackrel{\overset{i}{\longleftarrow}}{\underset{t}{\longrightarrow}}}
+    \mathcal{G}_0
+  \right\}
+$$ 
+
+be an [[internal groupoid]] in [[smooth sets]], hence a pair $\mathcal{G}_0, \mathcal{G}_1 \in Smooth0Type$ of smooth sets, equipped with source,target, identity homomrophisms of smooth sets between them, and equipped with a compatibly unital, associative and invertible composition map $\mathcal{G}_1 \overset{\times}{\mathcal{G}_0} \mathcal{G}_1 \to \mathcal{G}_1$. By definition of [[smooth sets]], this means that for every abstract coordinate system $\mathbb{R}^n$ then 
+
+$$
+  \mathcal{G}(\mathbb{R}^n)_\bullet
+  = 
+  \left\{
+    \mathcal{G}(\mathbb{R}^n)_1
+      \stackrel{\overset{s(\mathbb{R}^n)}{\longrightarrow}}{\stackrel{\overset{i(\mathbb{R}^n)}{\longleftarrow}}{\underset{t(\mathbb{R}^n)}{\longrightarrow}}}
+    \mathcal{G}(\mathbb{R}^n)_0
+  \right\}
+$$ 
+
+is a bare [[groupoid]]. Moreover, this assignment is functorial and hence defines a pre-smooth groupoid
+
+$$
+  \mathbb{R}^n 
+  \mapsto
+  \mathcal{G}(\mathbb{R}^n)_\bullet
+  \,.
+$$
+
+This exhibits sequence of [[full subcategory]] inclusions
+
+$$
+  Grp
+  \hookrightarrow
+  LieGrpd
+  \hookrightarrpw
+  DiffGrpd
+  \hookrightarrow
+  Grpd(Smooth0Type)
+  \hookrightarrow
+  PreSmooth1Type
+$$
+
+of [[internal groupoids]] in [[smooth sets]] into pre-smooth groupoids, and hence (by further restriction) also of [[diffeological groupoids]], of [[Lie groupoids]] and of course of just bare [[groupoids]], too. 
+
+Regarding a bare groupoid $\mathcal{G}_\bullet$ as a pre-smooth groupoid this way means to regard it as equipped with [[discrete object|discrete]] [[smooth structure]]. It is given by the [[constant presheaf]]
+
+$$
+  \mathbb{R}^n \mapsto \mathcal{G}_\bullet
+$$
+
+exhibiting the fact that smooth functions from an $\mathbb{R}^n$ into a geometrically discrete space are constant on one of the points of this space, a situation which here is only refined by the fact that every morphism in the groupoid thus gives a [[homotopy]]/[[gauge transformation]] between the two smooth functions that are constant on the two endpoints of this morphism.
+
+=--
+
+
+More specifically, the following class of examples play a special role in the theory.
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[smooth manifold]], let $\{U_i \to X\}_{i \in I}$ be a differentiably [[good open cover]] of $X$. Its _[[Cech groupoid]]_ is the [[Lie groupoid]] ([[diffeological groupoid]]) $C(\{U_i\})_\bullet$ whose
+
+* manifold of objects is $C(\{U_i\})_0 \coloneqq \underset{i \in I}{\coprod} U_i$ is the [[disjoint union]] of all the [charts]] of the cover;
+
+* manifold of morphisms is $C(\{U_i\})_1 \coloneqq  \underset{i,j \in I}{\coprod}U_i \underset{X}{\times} U_j$ is the [[disjoint union]] of all [[intersections]] of charts.
+
+and whose source, target and identity maps are the evident inclusions. There is then a _unique_ composition operation.
+
+So a global point $\ast \to C(\{U_i\})_\bullet$ may be thought of as a pair $(x,i)$ of a point in the manifold $X$ and a lable $i$ of a chart $U_i$ that contains it, and there is is precisely one morphism between two such global point $(x,i)\to (y,j)$ whenever $x = y$ in $X$ and both $U_i$ as well as $U_j$ contain $x$, hence one morphism for each point in an intersection of two patches. Composition of morphism is just re-remembering which intersections they sit in, the schematic picture of the Cech groupoid is this this:
+
+$$
+  C(\{U_i\})_\bullet
+  \left\{
+    && (x,j)
+    \\
+    & \nearrow && \searrow
+    \\
+    (x,i)
+    && \longrightarrow &&
+    (x,k)
+  \right\}
+  \,.
+$$
+
+Under the embedding of example \ref{ExternalYonedaEmbeddingsIntoPreSmooth1Type} there is an evident morphism of pre-smooth groupoids
+
+$$
+  C(\{U_i\})
+  \longrightarrow
+  X
+$$
+
+from this Cech groupoid of the cover to the manifold that is being covered. This morphism simply forgets the information of which chart or intersection of charts a point is regarded to be in, and just remembers it as a point of $X$. 
+
+$$
+  ((x,i) \to (x,j))
+  \mapsto
+  (x \stackrel{id_x}{\to} x)
+  \,.
+$$
+
+=--
+
+### Smooth groupoids 
+
+(...)
 
 
 
