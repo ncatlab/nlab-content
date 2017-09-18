@@ -59,6 +59,14 @@ The De Morgan topology $m$ is the [[dense subtopos|smallest dense topology]] $j$
 
 This appears as theorem 1 in [Caramello (2009)](#Caramello09). In other words, $Sh_{m}(\mathcal{E})$ is the _largest dense De Morgan subtopos_ of $\mathcal{E}$
 
+
++--{: .num_prop #DeMorgan_mono}
+###### Proposition
+The De Morgan topology $m$ is the smallest [[Lawvere-Tierney topology|topology]] $j$ on $\mathcal{E}$ such that all monomorphisms of the form $\neg A\vee\neg\neg A\rightarrowtail E$ for subobjects $A\rightarrowtail$ in $\mathcal{E}$ are $j$-dense.
+=--
+
+This appears as proposition 6.2 in [Caramello (2012a)](#Caramello12a).
+
 +--{: .num_prop #DeMorgan_prop}
 ###### Proposition
 Let $\mathcal{E}$ be a [[topos]] and $m$ be the De Morgan topology on it.
@@ -97,6 +105,8 @@ By the [above proposition](#DeMorgan_prop), $Sh_m(Sh_{j}(\mathcal{E}))\hookright
 ## References
 
 * {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Adv. in Math. **222** (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
+
+* {#Caramello12a}[[Olivia Caramello]], _Universal models and definability_ , Math. Proc. Cam. Phil. Soc. (2012) pp.279-302. ([arXiv:0096.3061](http://arxiv.org/abs/0096.3061))
 
 * {#Caramello12}[[Olivia Caramello]], _Topologies for intermediate logics_ , arXiv:1205.2547 (2012). ([arXiv:1205.2547](http://arxiv.org/abs/1205.2547))
 
