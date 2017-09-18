@@ -175,6 +175,8 @@ In conclusion this means that it is not really the passage to homology groups wh
 
 * [[Serre long exact sequence]]
 
+* [[long exact sequence of homotopy groups]]
+
 ## References
 
 Lecture notes include
