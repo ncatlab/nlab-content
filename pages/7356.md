@@ -95,7 +95,7 @@ The [[target space]] data of an [[orientifold]] is a $\mathbb{Z}_2$-[[principal 
 
 An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory data does induce the [[orientifold]] data along the [[subgroup]] inclusion $\mathbb{Z}_2 \hookrightarrow SL_2(\mathbb{Z})$.
 
-The degeneration locus of the elliptic fibration -- where the [[discriminant]] $\Delta$ vanishes and its fibers are the [[nodal curve]] -- is interpreted as that of [[D7-branes]] and [[O-planes|O7-planes]] (e.g. [Sen 97, (3)](#Sen97), [Blumenhagen 10, (11)](#Blumenhagen10)).
+The degeneration locus of the elliptic fibration -- where the [[discriminant]] $\Delta$ vanishes and its fibers are the [[nodal curve]] -- is interpreted as that of [[D7-branes]] and [[O-planes|O7-planes]] (e.g. [Sen 97, (3)](#Sen97), [Blumenhagen 10, (11)](#Blumenhagen10)), see [below](#SingularLocusAndD7Branes).
 
 
 Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
@@ -143,7 +143,7 @@ $$
 
 The [[poles]] $j\to \infty$ of the [[j-invariant]] correspond to the [[nodal curve]], and hence it is at these poles that the [[D7-branes]] are located. Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$) there are necessarily _24 D7-branes_.
 
-([Sen 96, page 5](#Sen96))
+([Sen 96, page 5](#Sen96), see also [Morrison 04, sections 8 and 17](#Morrison04))
 
 
 
@@ -196,7 +196,12 @@ A more recent survey is
 
 Lecture notes include
 
+* {#Morrison04} [[David Morrison]], _TASI Lectures on Compatification and Duality_ ([arXiv:hep-th/0411120](http://arxiv.org/abs/hep-th/0411120))
+
 * [[Timo Weigand]], _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
+
+
+
 
 Textbook accounts include
 
@@ -219,9 +224,9 @@ Related conferences include
 
 F-theory lifts of [[orientifold]] backgrounds were first identified in
 
-* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
+* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_, Nucl.Phys.B475:562-578,1996 ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
-* {#Sen97} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+* {#Sen97} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_, Nucl. Phys. Proc. Suppl. 68 (1998) 92 (Nucl. Phys. Proc. Suppl. 67 (1998) 81) ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
 
 with more details including
 
