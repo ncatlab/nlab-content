@@ -40,9 +40,9 @@ We initiated the first several talks, which give a gentle introduction to the to
 
 * Dec. 2, 2014: An introduction to operads by Malte. $End$-operad, the definitions of (unital) operads, and algebras over operads. LV, F.
 
-* Dec. 9, 2014: (1) A computation of 1d massive free scalars: quantum observables and Weyl algebra by Dorothea. CG: Chap 4.3. (2) $E_n$ operads by Malte. LV, F.
+* Dec. 9, 2014: (1) A computation of 1d massive free scalars: quantum observables and Weyl algebra by Dorothea. CG: Chap 4.3. (2) $E_n$ operads and examples of $E_\infty$ operad by Malte. LV, F.
 
-* Dec. 16, 2014: A talk on T-dualities. 
+* Dec. 16, 2014: A talk on T-dualities by Bei. 
 
 * Jan. 6, 2015: Factorization algebra by Dennis. CG: Chap 6-7.
 
