@@ -46,7 +46,7 @@ An [[irreducible representation]] of the [[super Poincaré Lie algebra]] is call
 
 Reviews and lecture notes include
 
-* V. Varadarajan, _Unitary representations of super Lie groups_ ([pdf](http://www.math.ucla.edu/~vsv/urtr.pdf))
+* [[Veeravalli Varadarajan]], _Unitary representations of super Lie groups_ ([pdf](http://www.math.ucla.edu/~vsv/urtr.pdf))
 
 * [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
 
