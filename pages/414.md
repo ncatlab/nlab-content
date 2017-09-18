@@ -72,7 +72,12 @@ There are variations of the definition where "epimorphism" is replaced by some o
 
 The [[duality|dual]] notion is that of _[[injective objects]]_. 
 
-=--
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+There is also a stronger notion of projective object, where $\hom(C, -)$ preserves coequalizers. See more at [[tiny object]], which can be defined as projective [[connected objects]] with "projective" used in this stronger sense. 
+=-- 
 
 
 +-- {: .num_defn #EnoughProjectives}
