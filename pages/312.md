@@ -242,3 +242,5 @@ and
 [[!redirects subtype]]
 [[!redirects subtypes]]
 
+[[!redirects sub-type]]
+[[!redirects sub-types]]
