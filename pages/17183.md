@@ -36,6 +36,9 @@ __Quantum linear groups__ are Hopf algebras which are quantum deformations of Ho
 The usual notation for one-parametric versions is $\mathcal{O}(GL_q(n))$, $\mathcal{O}(SL_q(n))$ and variants thereof.
 
 
+## Bibliography
+
+* related $n$Lab pages: [[quantum group]], [[quantum Gauss decomposition]], [[quantized function algebra]], [[general linear group]]
 * Yu. I. Manin, _Quantum groups and non-commutative geometry_, CRM,
 Montreal 1988.
 * Yu. I. Manin, _Multiparametric quantum deformation of the general
