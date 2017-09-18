@@ -1,4 +1,6 @@
 
+> This entry is about the concept in functional analysis. For the concept in differential geometry and Lie theory see at _[[distribution of subspaces]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,11 +15,10 @@
 * table of contents
 {:toc}
 
-For an unrelated notion in differential geometry see [[distribution of subspaces]]. 
 
 ## Idea
 
-In [[functional analysis]], a _distribution_ (or generalized function) is a [[linear functional|linear]] [[functional]] on a [[topological vector space]] of sufficiently well-behaved functions which may be given by [[integration]] against a fixed such function, but may be more general than that. In fact on a manifold, one may more properly distinguish the generalized functions from distributions, in the sense that generalized functions be functionals on densities, and distributions functionals on functions. They extend traditional spaces of Lebesgue integrable functions in such a way to have possibility to define generalized derivatives without exceptions and to treat fundamental solutions of linear partial differential equations as "functions". 
+In [[functional analysis]], a _distribution_ (or generalized function) is a [[continuous linear functional]] on a [[topological vector space]] of sufficiently well-behaved functions which may be given by [[integration]] against a fixed such function, but may be more general than that. In fact on a manifold, one may more properly distinguish the generalized functions from distributions, in the sense that generalized functions be functionals on densities, and distributions functionals on functions. They extend traditional spaces of Lebesgue integrable functions in such a way to have possibility to define generalized derivatives without exceptions and to treat fundamental solutions of linear partial differential equations as "functions". 
 
 Generalized functions were introduced by S. L. Sobolev in 1935, and independently (under the name _distributions_) by [[Laurent Schwartz]] in the 1940's, who unaware of Sobolev's work developed an extensive theory for them. For an infinite-dimensional variant used in the foundation of Feynman [[path integral]] see also [[Connes distribution]].
 
