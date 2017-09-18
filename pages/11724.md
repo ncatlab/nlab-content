@@ -13,6 +13,8 @@ The [[(∞,1)-category]] refinement of a _[[idempotent monad]]_.
 
 * [[modal operator]]
 
+* [[Bousfield-Friedlander theorem]]
+
 [[!redirects idempotent (infinity,1)-monads]]
 
 [[!redirects idempotent (∞,1)-monad]]
