@@ -80,3 +80,6 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 [[!redirects adjunction space]]
 [[!redirects adjunction spaces]]
 
+[[!redirects cell attachment]]
+[[!redirects cell attachments]]
+
