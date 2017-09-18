@@ -50,9 +50,16 @@ There are some [[F-theory]] backgrounds whose supposed dual in [[heterotic strin
 
 ## References
 
+
+* {#MorrisonVafa96a} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- I_, Nucl.Phys. B473 (1996) 74-92 ([arXiv:hep-th/9602114](http://arxiv.org/abs/hep-th/9602114))
+
+* {#MorrisonVafa96b} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- II_, Nucl.Phys.B476:437-469,1996 ([arXiv:hep-th/9603161](http://arxiv.org/abs/hep-th/9603161))
+
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
 * {#FriedmanMorganWitten97} Robert Friedman, [[John Morgan]], [[Edward Witten]], _Vector Bundles And F Theory_, Commun.Math.Phys.187:679-743, 1997 ([arXiv:hep-th/9701162](http://arxiv.org/abs/hep-th/9701162))
+
+* {#Aspinwall97} [[Paul Aspinwall]], _M-Theory Versus F-Theory Pictures of the Heterotic String_, Adv.Theor.Math.Phys.1:127-147, 1998 ([arXiv:hep-th/9707014](http://arxiv.org/abs/hep-th/9707014))
 
 Reviews include
 
