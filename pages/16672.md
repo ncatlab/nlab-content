@@ -1,0 +1,5 @@
+
+
+* [webpage](http://theory.uchicago.edu/~sethi/)
+
+category: people
