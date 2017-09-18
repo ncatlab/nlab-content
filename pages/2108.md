@@ -1015,8 +1015,8 @@ Introductions and lecture notes include
 
 Lecture notes with an emphasis on [[semiclassical states]] are in
 
-* Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_, ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
- {#BatesWeinstein}
+* {#BatesWeinstein}Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_, AMS 1997 ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
+ 
 
 A careful discussion of the polarization-step from prequantization to quantization is in 
 
