@@ -26,3 +26,6 @@ The proof using [[epsilontic analysis]] is spelled out for instance in
 
 * Kyle Miller, _Polynomials are continuous functions_, 2014 ([pdf](https://math.berkeley.edu/~kmill/math1afa2014/poly.pdf))
 
+
+[[!redirects polynomials are continuous functions]]
+
