@@ -52,6 +52,7 @@ See [Wischnewsky](#Wischnewsky).
 
 * [[comodule spectrum]]
 
+
 ## References
 
 Properties of the category of comodules over a [[coalgebra]] are studied in
