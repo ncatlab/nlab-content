@@ -25,6 +25,7 @@ $$
 
 The [[invariants]] of the conjugation action are the $G$-action [[homomorphism]].
 
+In the case that the $G$-action on $V_2$ is trivial, this is the _precomposition action_ and in the case that the action on $V_1$ is trivial this is the _postcomposition action_.
 
 ## Definition
  {#Definition}
@@ -154,3 +155,17 @@ Regarding the conjugation action as the [[internal hom]] of actions immediately 
 
 
 [[!redirects conjugation actions]]
+
+[[!redirects precomposition action]]
+[[!redirects precomposition actions]]
+
+[[!redirects postcomposition action]]
+[[!redirects postcomposition actions]]
+
+[[!redirects pre-composition action]]
+[[!redirects pre-composition actions]]
+
+[[!redirects post-composition action]]
+[[!redirects post-composition actions]]
+
+
