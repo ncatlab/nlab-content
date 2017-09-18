@@ -98,7 +98,7 @@ _Globular_ can currently present string-diagram visualizations of 0-, 1- and 2-d
 
 <i>Globular</i> is written in Javascript, and performs all its computations client-side, in the browser. Most of the computations it has to perform are linear in the size of the diagram, so this is quite computationally feasible, even for large proofs. The back-end is a Node.js server that allows the saving, sharing and publishing of workspaces. Graphics are implemented in SVG. Project data is compressed using the LZ4 algorithm.
 
-## Advanced features
+## Other features
 
 ### Invertibility ###
 {#invertibility}
@@ -131,3 +131,9 @@ Concretely, let $D$ be the current diagram, which is $k$-dimensional, and let $s
  * An invertible $(k+1)$-generator $P$ with source $T$ and with target $D$
 
 The generator $T$ can be used in future proofs to 'stand in' for the diagram $D$. At any point, the generator $P$ can be used to replace $T$ with the content of diagram $D$. Since $P$ is invertible, it could also be used to identify $D$ as a subdiagram of a larger proof, and replace it with $T$, making the larger proof easier to understand.
+
+### Coordinates
+
+Composites produced by <i>Globular</i> are in generic position; for example, no two vertices ever appear at the same height. As a result, there is a simple coordinate system that can be used to refer to elements of a diagram. For a $k$-dimensional cell in an $n$-dimensional diagram, $(n-k+1)$ coordinates must be provided; that is, the number of coordinates is the codimension of the cell, plus 1. Moving the mouse cursor over a diagram in the screen shows the coordinate of the element underneath the cursor.
+
+The coordinate system for an $n$-diagram is defined in the following way. An $n$-cell at height $y$ has coordinate $[y]$. A $k$-cell for $k \lt n$ has leading coordinate given by its height $z$ in the diagram, and subsequent coordinates given by its coordinate in the slice diagram at that height.
