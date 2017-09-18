@@ -36,7 +36,7 @@ A (partial) **cogerm differential 1-form** on $X$ is a [[partial function]] $\om
 
 * We also have the second differential $\mathrm{d}^2f$, defined by
   $$ \langle \mathrm{d}^2f | c \rangle = (f\circ c)''(0),$$
-  which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *[[cojet differential form|cojet differential 1-form]]*.
+  which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *cojet differential 1-form*.
 
 * For an example of a cogerm differential form that is not a cojet differential form, let $\langle{\omega|c}\rangle$ be $0$ or $1$ according as $c$ is or is not [[analytic function|analytic]] (say for $X$ the real line).  We do not know any more interesting examples.
 
@@ -317,9 +317,11 @@ This limit can only exist if the integral $\oint_{c(\partial A)} \omega$ is inva
 
 It is unclear whether there is a notion of exterior differential which is significantly more general.  Similarly, it is unclear whether the wedge product of exterior forms can be sensibly extended to cogerm ones, or whether there is a sensible commutative cogerm differential $\mathrm{d}$ acting on cogerm $k$-forms for $k\gt 1$.
 
+
 ## References
 
-* nForum discussions: [I](nforum.mathforge.org/discussion/5402/what-is-a-variable/), [II](http://nforum.mathforge.org/discussion/5518/differentials/), [III](http://nforum.mathforge.org/discussion/5700/cogerm-forms/), [IV](http://nforum.mathforge.org/discussion/5817/cojet-differential-forms/).
+* nForum discussions: [I](http://nforum.mathforge.org/discussion/5402/what-is-a-variable/), [II](http://nforum.mathforge.org/discussion/5518/differentials/), [III](http://nforum.mathforge.org/discussion/5700/cogerm-forms/), [IV](http://nforum.mathforge.org/discussion/5817/cojet-differential-forms/).
+
 
 [[!redirects cogerm differential form]]
 [[!redirects cogerm differential forms]]
