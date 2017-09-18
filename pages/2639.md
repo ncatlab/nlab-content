@@ -116,15 +116,15 @@ Let $X$ and $Y$ be two [[topological spaces]]. Their [[chain homology]] complexe
 $$
   \begin{aligned}
     C_\bullet(X \times Y)
-    & :=
+    & \coloneqq
     C_\bullet( \mathbb{Z}[Sing X \times Sing Y] )
     \\
     &=
     C_\bullet( diag \mathbb{Z}[Sing X_\bullet] 
       \otimes \mathbb{Z}[Sing Y_\bullet] )
     \\
-    & \stackrel{R}{\to_\simeq}
-    Tot C_\bullet(\mathbb{Z}[Sing X]) \otimes C_\bullet(\mathbb{Z}[Sing Y])
+    & \underoverset{\simeq}{R}{\longrightarrow}
+      Tot C_\bullet(\mathbb{Z}[Sing X]) \otimes C_\bullet(\mathbb{Z}[Sing Y])
     \\
     & = Tot C_\bullet(X) \otimes C_\bullet(Y) 
   \end{aligned}
