@@ -140,8 +140,8 @@ takes morphisms in $J$ to [[epimorphism]]s in [[Set]].
 
 The term _injective object_ is used most frequently in the context that $C$ is an [[abelian category]].  
 
-+-- {: .num_remark}
-###### Remark
++-- {: .num_prop}
+###### Proposition
 
 
 For $C$ an [[abelian category]] the class $J$ of monomorphisms is the same as the class of morphisms $f : A \to B$ such that $0 \to A \stackrel{f}{\to} B$ is [[exact sequence|exact]].  
@@ -201,6 +201,8 @@ $$
 $$
 
 =--
+
+By the [[formal dual]] of [this prop.](projective+module#NProjectiveIFFHomNExact).
 
 ### In chain complexes
 
