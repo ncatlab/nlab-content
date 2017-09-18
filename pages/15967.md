@@ -57,7 +57,7 @@ $$
 only gives a strict analytic space that is not equipped with an analytic group structure
 (except if one works in a non-archimedean setting).
 
-One may however associate to $M_n^{\leq 1}$ a simplicial analytic space (kind of nerve) given by forcing the multiplication to be defined:
+One may however associate to $M_n^{\leq 1}$ a [[simplicial object|simplicial]] [[analytic space]] (a kind of [[nerve]]) given by forcing the multiplication to be defined:
 $$
 BM_n^{\leq 1}_{[k]}\coloneqq
 \{(A_i)\in (M_n^{\leq 1})^{k},\;
@@ -90,7 +90,7 @@ $$\|A\|_{max}:=\max(|a_{ij}|)\leq \|A\|_2,$$
 where $\|A\|_2$ is the operator norm for the hermitian norm on $\mathbb{C}^n$.
 This thus gives a natural morphism
 $$BU_{n}(\mathbb{C})\to BU(n)(\mathbb{C})$$
-from the simplicial classifying space of the classical unitary group $U_{n}(\C)$ to the complex points of the simplicial `classifying space` $BU(n)$.
+from the simplicial classifying space of the classical unitary group $U_{n}(\C)$ to the complex points of the simplicial "classifying space" $BU(n)$.
 
 It is also clearly compact (contained in a product of polydiscs) and contained in the non-strict analytic group $\GL_{n}(\mathbb{C})$. Since $U(n)(\mathbb{C})$ is a maximal compact subgroup, we have that $U(n)$ is indeed the complex unitary group over $\mathbb{C}$.
 
