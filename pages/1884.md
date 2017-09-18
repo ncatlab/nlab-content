@@ -98,7 +98,6 @@ Assumed background for the following is the content of
 * _[[pointed topological spaces]]_
 
 
-
 Throughout, let $k$ be a [[topological field]], usually the [[real numbers]] $\mathbb{R}$ or of [[complex numbers]] $\mathbb{C}$.
 
 In the following we take
@@ -106,6 +105,8 @@ In the following we take
 1. _[[vector space]]_ to mean _[[finite dimensional vector space]]_ over $k$.
 
 1. _[[vector bundle]]_ to mean _[[topological vector bundle]] over $k$ of finite [[rank of a vector bundle|rank]]_.
+
+We say _[[monoid]]_ for _[[semigroup]] with [[unitality|unit]]_.
 
 
 For the most part below we will invoke the assumption that the base [[topological space]] $X$ is a [[compact Hausdorff space]].
@@ -134,7 +135,7 @@ The starting point is the simple observation that the operation of [[direct sum 
 
 +-- {: .num_defn #SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX}
 ###### Definition
-**([[semi-group]] of [[isomorphism classes]] of [[topological vector bundles]] on $X$)
+**([[monoid]] of [[isomorphism classes]] of [[topological vector bundles]] on $X$)
 
 For $X$ a [[topological space]], write $Vect(X)_{/\sim}$ for the [[set]] of [[isomorphism classes]] of [[topological vector bundles]] over $X$. The operation of [[direct sum of vector bundles]]
 
@@ -191,7 +192,8 @@ $$
   \,.
 $$
 
-Now since the [[natural numbers]] under [[addition]] are just a [[monoid]] ([[semi-group]] with [[unitality|unit]]), with no element except zero having an [[inverse element]] under the additive operation, it follows immediately that a necessary condition for the [[isomorphism class]] of a [[topological vector bundle]] to be invertible under [[direct sum of vector bundles]] is that its [[rank of a vector bundle]] be zero. But there is only one such class of vector bundles, in fact there is only one such vector bundle, namely the unique rank-zero bundle $X \times k^0$, necessarily a [[trivial bundle]].
+Now since the [[natural numbers]] under [[addition]] are just a [[monoid]] ([[semi-group]] with [[unitality|unit]]), with no element except zero having an [[inverse element]] under the additive operation, it follows immediately that a necessary condition for the [[isomorphism class]] of a [[topological vector bundle]] to be invertible under [[direct sum of vector bundles]] is that its [[rank of a vector bundle]] be zero. But there is only one such class of vector bundles, in fact there is only one such vector bundle, 
+namely the unique rank-zero bundle $X \times k^0$, necessarily a [[trivial bundle]].
 
 Now for the [[monoid]] of [[natural numbers]] $(\mathbb{N},+)$ it is a time honored fact that it is interesting and useful to rectify its failure of being a [[group]] by [[universal construction|universally]] forcing it to become one. This is a process called _[[group completion]]_ and the group completion of the natural numbers is the additive group of [[integers]] $(\mathbb{Z},+)$.
 
@@ -346,8 +348,8 @@ $$
 **([[commutative ring]] structure on $K(X)$ from [[tensor product of vector bundles]])**
 
 Also the operation of [[tensor product of vector bundles]] over $X$ descends to
-[[isomorphism classes]] of [[topological vector bundles]] and makes $(Vect(X)_{\sim}, \oplus, \times)$
-a [[semi-ring]] ( [[rig]]).
+[[isomorphism classes]] of [[topological vector bundles]] and makes $(Vect(X)_{\sim}, \oplus, \otimes )$
+a [[semi-ring]] ([[rig]]).
 
 (This is the shadow under passing to isomorphism classes of the fact that the [[category]] $Vect(X)$
 is a [[distributive monoidal category]] under [[tensor product of vector bundles]].)
@@ -630,7 +632,7 @@ $$
   f \;\colon\; X \longrightarrow \mathbb{R}
 $$
 
-is said to [[vanishing at infinity|vanish at infinity]] if it [[extension|extends]] by zero 
+is said to [[vanishing at infinity|vanish at infinity]] if it [[extension|extends]] by zero
 to the [[one-point compactification]] $X^* \coloneqq (X \sqcup \{\infty\}, \tau_{cpt})$
 
 $$
@@ -648,12 +650,12 @@ Now the [[one-point compactification]] $X^\ast$ is a [[compact Hausdorff space]]
 and canonically a [[pointed topological space]] with basepoint the element $\infty \in X^\ast$.
 
 Moreover, every [[compact Hausdorff space]] $X$ arises this way as the [[one-point compactification]]
-of the [[complement]] [[subspace]] of any of its points: $X \simeq (X \setminus \{x\})^\ast$ 
+of the [[complement]] [[subspace]] of any of its points: $X \simeq (X \setminus \{x\})^\ast$
 (by [this remark](one-point+compactification#CompactHausdorffSpaceIsCompactificationOfComplementOfAnyPoint)).
 
 Since [[open subspaces of compact Hausdorff spaces are locally compact]],
 this complement [[subspace]] $X \setminus \{x\} \subset X$ is a [[locally compact topological space|locally compact]]
-[[Hausdorff space]], and every locally compact Hausdorff spaces arises 
+[[Hausdorff space]], and every locally compact Hausdorff spaces arises
 this way (by [this prop.](one-point+compactification#InclusionIntoOnePointExtensionIsOpenEmbedding)).
 
 Therefore one may think of the [[reduced K-groups]] $\tilde K(X)$ (def. \ref{KernelReducedKGroup})
@@ -669,7 +671,7 @@ of compact Hausdorff spaces as the those K-groups of locally compact Hausdorff s
 
 By the functoriality of the unreduced K-groups (remark \ref{FunctorialityOfKGroup})
 on (the [[opposite category|opposite]] of) the [[category]] [[Top]] of all topological spaces,
-the reduced K-groups (def. \ref{KernelReducedKGroup}) becomes functorial 
+the reduced K-groups (def. \ref{KernelReducedKGroup}) becomes functorial
 on the category $Top^{\ast/}$ of _[[pointed topological spaces]]_
 (whose [[morphisms]] are the [[continuous functions]] that preserve the base-point):
 
@@ -694,7 +696,7 @@ $$
      K(\{x\})
      \\
      \uparrow^{\mathrlap{\exists !}} && \uparrow^{\mathrlap{f^\ast}} && \uparrow^{\mathrlap{f^\ast}}
-     \\     
+     \\
      ker(const_y^\ast)
        &\longrightarrow&
      K(Y)
@@ -988,7 +990,7 @@ $$
   K^0(X,A) \oplus K^1(X.A)
 $$
 
-regarded as $\mathbb{Z}/2$-graded groups. 
+regarded as $\mathbb{Z}/2$-graded groups.
 
 Under [[tensor product of vector bundles]] this becomes a non-unital $\mathbb{Z}/2$-
 [[graded-commutative ring]] (discussed [below](#GradedRingStructure)).
@@ -1048,7 +1050,7 @@ It follows that
 $$
   K_{\mathbb{C}}(S^1) \simeq \mathbb{Z}
   \phantom{AA} \text{and} \phantom{AA}
-  \tilde K_{ \mathbb{C} } \simeq 0
+  \tilde K_{ \mathbb{C} }(S^1) \simeq 0
   \,.
 $$
 
@@ -2206,9 +2208,109 @@ $$
 is a model for the [[classifying space]] of reduced K-theory.
 
 ### As a generalized cohomology theory
+ {#AsAGeneralizedCohomologyTheory}
 
 That topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]]
-was shown (at least) in [Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61))
+was shown (at least) in [Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61).
+
+
+### Complex orientation and formal group law
+ {#ComplexOrientationAndFormalGroupLaw}
+
+A [[generalized (Eilenberg-Steenrod) cohomology]] theory $E$ is called _[[complex oriented cohomology|complex oriented]]_
+if the element $1 \in E(\ast) \simeq \tilde E(S^0)$ is in the image of the pullback morphism
+
+$$
+  \tilde i^\ast \;\colon\; \tilde E^2(B U(1)) \longrightarrow \tilde E^2(S^2) \simeq \tilde E^0(S^0)
+  \,.
+$$ 
+
+If so, then a choice of pre-image $c^E_1 \in E^2(B U(1))$ is a choice of _complex orientation_ ([this def.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheory)).
+
+Now for $E = K_{\mathbb{C}}$ being complex topological K-theory regarded as a generalized cohomology theory
+as [above](#AsAGeneralizedCohomologyTheory), then by [[Bott periodicity]] (prop. \ref{BottPeriodicity})
+and by $\tilde K_{\mathbb{Z}}(S^2) \simeq \mathbb{Z} \cdot (h-1)$ (example \ref{ComplexTopologicalKTheoryOfTheCircle})
+this reduces to the statement that there is an element $c^K_1 \in \tilde K_{\mathbb{C}}(B U(1))$ such that its image
+under 
+
+$$
+  \tilde i^\ast
+    \;\colon\;
+  \tilde K_{\mathbb{C}}(B U(1)) 
+    \longrightarrow
+  \tilde K_{\mathbb{C}}(S^2) 
+    \simeq  
+  \mathbb{Z} \cdot (h-1)
+$$
+
+is the [[Bott element]] $h-1$, the [[virtual vector bundle]] difference between the [[basic complex line bundle on the 2-sphere]]
+and the [[trivial vector bundle|trivial]] [[complex line bundle]] spring.
+
+By the very nature of the [[basic complex line bundle on the 2-sphere]] $h$, it is the restriction of the [[universal complex line bundle]]
+$\mathcal{O}(1)$ on $B U(1) \simeq \mathbb{C}P^\infty$ along the defining cell inclusion $i \colon S^2 \hookrightarrow \mathbb{C}P^\infty \simeq B U(1)$.
+Hence if we set 
+
+$$
+  c_K^1 \;\coloneqq\; \mathcal{O}(1)-1 \; \in \tilde K_{\mathbb{C}}(B U(1))
+$$
+
+then this is a [[complex oriented cohomology|complex orientation]] for complex topological K-theory.
+
+From this we obtain the [[formal group law]] associated with topological K-theory (from [this prop.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheoryFormalGroupLaw)):
+
+By the nature of the [[classifying space]] $B U(1)$ we have that for 
+
+$$
+  \mu \;\colon\; B U(1) \times B U(1) \longrightarrow B U(1)
+$$
+
+the group product operation, which classifies the [[tensor product of vector bundles|tensor product of line bundles]], that
+
+$$
+  \mu^\ast \mathcal{O}(1) \simeq pr_1^\ast \mathcal{O}(1) \otimes_{B U(1)} pr_2^\ast \mathcal{O}(1)
+  \,,
+$$
+
+where 
+
+$$
+  pr_i\colon B U(1) \times B U(1) \to B U(1)
+$$
+
+are the two [[projections]] out of the [[Cartesian product]]. Hence
+
+$$
+  \begin{aligned}
+    \mu^\ast c_1^K
+    &\coloneqq 
+    \mu^\ast (\mathcal{O}(1) - 1)
+    \\
+      & =
+    \left(pr_1^\ast \mathcal{O}(1)\right)  \cdot  \left(pr_2^\ast \mathcal{O}(1)\right) - 1
+    \\
+      &  = 
+    \left(pr_1^\ast (\mathcal{O}(1) -1)\right) \cdot \left(pr_2^\ast( \mathcal{O}(1) -1)\right)
+    + pr_1^\ast \mathcal{O}(1)
+    + pr_2^\ast \mathcal{O}(2)
+    - 2
+    \\
+     & =
+    \left(pr_1^\ast (\mathcal{O}(1) -1)\right) \cdot \left(pr_2^\ast( \mathcal{O}(1) -1)\right)  
+     +
+    \left(pr_1^\ast \mathcal{O}(1) - 1\right)
+     +
+    \left(pr_2^\ast \mathcal{O}(1) - 1\right)
+  \end{aligned}
+$$
+
+This shows that the [[formal group law]] associated with the complex orientation of complex topological K-theory
+is that of the _[[formal multiplicative group]]_ given by
+
+$$
+  f(x,y) = x + y + x y
+  \,.
+$$
+
 
 ### Spectrum
 
