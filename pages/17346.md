@@ -1541,7 +1541,7 @@ For that case the $\mathcal{E}_1$ page is given by prop. \ref{E1PageOfStandardEA
 
 1. the graded chain complex of prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex} is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$.
 
-These two statements are prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} and lemma \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
+These two statements are prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} and prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
 
 =--
 
@@ -1607,7 +1607,7 @@ formed in $\Gamma CoMod$ has underlying it the corresponding comparison morphism
 
 =--
 
-+-- {: .num_prop #CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}
++-- {: .num_prop #IfCounitOfHopfAlgebroidIsFlatThenCofreeModulesAreInjective}
 ###### Proposition
 
 If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} is such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], then 
@@ -1645,8 +1645,8 @@ Observe that the [[left adjoint]] is a [[faithful functor]] (being a [[forgetful
 =--
 
 
-+-- {: .num_lemma #CoFreeHopfComodulesAreHomNAcyclicForProjectiveN}
-###### Lemma
++-- {: .num_prop #CoFreeHopfComodulesAreHomNAcyclicForProjectiveN}
+###### Proposition
 
 Let $\Gamma$ be a [[commutative Hopf algebroid]] over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], 
 Let $N \in \Gamma CoMod$ be a Hopf [[comodule]], def. \ref{CommutativeHopfAlgebroidComodule}, such that the underlying $A$-module is a [[projective module]] (a [[projective object]] in $A$[[Mod]]). 
@@ -1660,7 +1660,7 @@ Then  (assuming the [[axiom of choice]]) every co-free comodule, prop. \ref{CoFr
 
 We need to show that the [[derived functors in homological algebra|derived functors]] $R^{\bullet} Hom_{\Gamma}(N,-)$ vanish in positive degree on all co-free comodules, hence on $\Gamma \otimes_A K$, for $K \in A Mod$. 
 
-To that end, let $I^\bullet$ be an [[injective resolution]] of $K$ in $A Mod$. By prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} then $\Gamma \otimes_A I^\bullet$ is a sequence of [[injective objects]] in $\Gamma CoMod$ and by the assumption that $\Gamma$ is flat over $A$ it is an [[injective resolution]] of $\Gamma \otimes_A K$ in $\Gamma CoMod$. Therefore the derived functor in question is given by
+To that end, let $I^\bullet$ be an [[injective resolution]] of $K$ in $A Mod$. By prop. \ref{IfCounitOfHopfAlgebroidIsFlatThenCofreeModulesAreInjective} then $\Gamma \otimes_A I^\bullet$ is a sequence of [[injective objects]] in $\Gamma CoMod$ and by the assumption that $\Gamma$ is flat over $A$ it is an [[injective resolution]] of $\Gamma \otimes_A K$ in $\Gamma CoMod$. Therefore the derived functor in question is given by
 
 $$
   \begin{aligned}
@@ -1680,7 +1680,7 @@ Here the second equivalence is the cofree/forgetful adjunction isomorphism of pr
 
 =--
 
-With lemma \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence} is completed.
+With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence} is completed.
 
 
 ### **2.2)** Examples
