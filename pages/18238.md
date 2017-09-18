@@ -71,6 +71,26 @@ Then $f$ is
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+**([[proper maps to locally compact spaces are closed]])**
+
+Let
+
+1. $(X,\tau_X)$ be a [[topological space]],
+
+1. $(Y,\tau_Y)$ a [[locally compact topological space]] according to def. \ref{LocallyCompactSpace},
+
+1. $f \colon X \to Y$ a [[continuous function]].
+
+Then:
+
+If $f$ is a [[proper map]], then it is a [[closed map]].
+
+=--
+
+
+
 ## Related concepts
 
 * [[closed morphism]]
