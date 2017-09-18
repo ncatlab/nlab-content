@@ -27,6 +27,7 @@ For details see at
 
 * _[[unitary representation of the super Poincaré group]]_.
 
+Usese a method that goes back to Frobenius and came to be known as "Wigner's little group method" or the "Mackey machine" ([Mackey 68](#Mackey68)). 
 
 ## Related concepts
 
