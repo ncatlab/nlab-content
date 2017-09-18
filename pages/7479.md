@@ -289,10 +289,10 @@ exhibiting the $A$-cocycle that classifies the extension $\hat G \to G$.
 
 
 
-### Infinitesimal cohesion
- {#InfinitesimalCohesion}
+### Differential cohesion
+ {#DifferentialCohesion}
 
-The leftmost adjoint, $\Pi$, of the string of four adjoints exhibiting cohesion [above](#Cohesion) itself possesses a left adjoint, $X \mapsto [0 \to X]$. Taking this functor along with the leftmost three adjoints of this previous string yields a second quadruple adjunction which exhibits infinitesimal cohesion. 
+The leftmost adjoint, $\Pi$, of the string of four adjoints exhibiting cohesion [above](#Cohesion) itself possesses a left adjoint, $X \mapsto [0 \to X]$. Taking this functor along with the leftmost three adjoints of this previous string yields a second quadruple adjunction which exhibits [[differential cohesion]]. 
 
 For $\mathbf{H}$ any [[cohesive (∞,1)-topos]], we have the "Sierpinski $(\infty,1)$-topos relative to $\mathbf{H}$" given by the [[arrow category]] $\mathbf{H}^{\Delta[1]}$, whose [[geometric morphism]] to the [[base topos]] is the [[domain cofibration]]
 
@@ -303,7 +303,7 @@ $$
   \,.
 $$
 
-Conversely, we may think of $\mathbf{H}^{\Delta[1]}$ as being an "infinitesimal thickening" of $\mathbf{H}$, as formalized at _[[infinitesimal cohesion]]_, where we regard
+Conversely, we may think of $\mathbf{H}^{\Delta[1]}$ as being an "infinitesimal thickening" of $\mathbf{H}$, as formalized at _[[differential cohesion]]_, where we regard
 
 $$
   (i_! \dashv i^* \dashv i_* \dashv i^*)
@@ -353,14 +353,14 @@ $$
 
 =--
 
-Therefore an object of $\mathbf{H}^{\Delta[1]}$ given by a morphism $[P \to X]$ in $\mathbf{H}$ is regarded by the infinitesimal cohesion $i : \mathbf{H} \hookrightarrow \mathbf{H}^{\Delta[1]}$ as being an infinitesimal thickening of $X$ by the fibers of $P$: where before we just had that the fibers of $P$ are "contractible cohesive thickenings" of the discrete object $X$, now $X$ is "discrete relative to $\mathbf{H}$" (hence not necessarily discrete in $\mathbf{H}$) and  the fibers are in addition regarded as being infinitesimal.
+Therefore an object of $\mathbf{H}^{\Delta[1]}$ given by a morphism $[P \to X]$ in $\mathbf{H}$ is regarded by the differential cohesion $i : \mathbf{H} \hookrightarrow \mathbf{H}^{\Delta[1]}$ as being an infinitesimal thickening of $X$ by the fibers of $P$: where before we just had that the fibers of $P$ are "contractible cohesive thickenings" of the discrete object $X$, now $X$ is "discrete relative to $\mathbf{H}$" (hence not necessarily discrete in $\mathbf{H}$) and  the fibers are in addition regarded as being infinitesimal.
 
 This is of course a very crude notion of infinitesimal extension. Notice for instance the following
 
 +-- {: .num_prop}
 ###### Proposition
 
-With respect to the above infinitesimal cohesion $i : \mathbf{H} \hookrightarrow \mathbf{H}^{\Delta[1]}$, every morphism in $\mathbf{H}$ is a [[formally étale morphism]].
+With respect to the above differential cohesion $i : \mathbf{H} \hookrightarrow \mathbf{H}^{\Delta[1]}$, every morphism in $\mathbf{H}$ is a [[formally étale morphism]].
 
 =--
 
