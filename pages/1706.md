@@ -706,7 +706,7 @@ For more on this see at _[[QFT with defects]]_.
 ### For noncompact cobordisms
  {#ForNoncompactCobordisms}
 
-One important variant of the category of cobordisms is obtained by discarding all those morphisms which have non-empty incoming (say, dually one could use outgoing) bounrary component. Then a representation of this category imposes on its values "cups but no caps", hence only half of the data of a [[dualizable object]] in the given degree. 
+One important variant of the category of cobordisms is obtained by discarding all those morphisms which have non-empty incoming (say, dually one could use outgoing) boundary component. Then a representation of this category imposes on its values "cups but no caps", hence only half of the data of a [[dualizable object]] in the given degree. 
 
 Accordingly, in this case the cobordism hypothesis says that such a functor is given not quite by a [[fully dualizable object]], but by a weaker structure called a _[[Calabi-Yau object]]_ (see there for more).
 
