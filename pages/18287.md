@@ -15,7 +15,7 @@ Assuming the [[axiom of choice]] then the following are equivalent:
 
 ([Stone 48](#Stone48))
 
-Since [[metric spaces are fully normal]] it follows that [[metric spaces are paracompact]].
+Since [[metric spaces are fully normal]] it follows as a corollary that [[metric spaces are paracompact]]. Accordingly, this statement is now also known as _Stone's theorem_.
 
 ## References
 
