@@ -25,7 +25,7 @@ A _ring_ (also: _number ring_) is a basic structure in [[algebra]]: a [[set]] eq
 
 All the familiar number systems such as the [[integer numbers]], [[rational numbers]], [[real numbers]], [[complex]] numbers are rings under the standard operations of addition and multiplication. Except for the first in this list they are indeed [[fields]], which are rings in which also the multiplication operation has an inverse for every element except 0 (the additive neutral element).
 
-Other basic examples of rings are the [[cyclic groups]] $\mathbb{Z}_n$ under their mod-$n$ operations inherited from the integers; the [[polynomial rings]], etc.
+Other basic examples of rings are the [[cyclic groups]] $\mathbb{Z}_n$ under their mod-$n$ operations inherited from the integers ([[cyclic rings]]); the [[polynomial rings]], etc.
 
 More abstractly, a [[ring]] is a [[monoid]] [[internalization|internal to]] [[abelian groups]] (with their [[tensor product of abelian groups]]), and this perspective helps to explain the central relevance of the concept, owing to the fundamental nature of the notion of _[[monoid objects]]_. Accordingly monoids internal to other [[abelian categories]] and more generally [[stable infinity-categories]] constitute generalizations of the notion of _ring_ that are of interest. Notably when abelian groups are generalized to their analogs in [[stable homotopy theory]], namely to [[spectra]], the corresponding internal monoids are [[E-infinity rings]], a basic structure in [[higher algebra]].
 
@@ -157,7 +157,7 @@ Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]
 
 * The [[integers]] $\mathbb{Z}$ are a ring under the standard addition and multiplication operation. 
 
-* For each  $n$, this induces a ring structure on the [[cyclic group]] $\mathbb{Z}_n$, given by operations in $\mathbb{Z}$ modulo $n$.
+* For each  $n$, this induces a ring structure on the [[cyclic group]] $\mathbb{Z}_n$, given by operations in $\mathbb{Z}$ modulo $n$ ([[cyclic rings]]).
 
 * The [[rational numbers]] $\mathbb{Q}$, [[real numbers]] $\mathbb{R}$ and [[complex numbers]] are rings under their standard operations, in fact these are even _[[fields]]_.
 
