@@ -23,6 +23,26 @@ be sure to check for improperly replied posts with the same subject in that and 
 
 *  _[The fundamental theorem of algebra: a constructive development without choice](http://math.fau.edu/Richman/HTML/DOCS.HTM)_ by [[Fred Richman]]
 
+Even with choice, algebraic closure is not [[functor|functorial]] in any reasonable sense. For example, it is very easy to demonstrate that there is no algebraic closure functor $F \mapsto \widebar{F}$ that renders the inclusion $i: F \to \widebar{F}$ natural: 
+
++-- {: .num_example} 
+###### Example 
+Supposing there were such an algebraic closure functor $F \mapsto \widebar{F}$, consider its application to the (equalizer) diagram 
+
+$$\mathbb{R} \to \mathbb{C} \underoverset{conj}{id}{\rightrightarrows} \mathbb{C}.$$ 
+
+We would have a commutative naturality diagram (meaning serially commutative on the right) 
+
+$$\array{
+\mathbb{R} & \stackrel{i}{\to} & \mathbb{C} & \underoverset{conj}{id}{\rightrightarrows} & \mathbb{C} \\ 
+\mathllap{i} \downarrow & & \mathllap{id} \downarrow & & \downarrow \mathrlap{id} \\ 
+\widebar{\mathbb{R}} & \stackrel{\widebar{i}}{\to} & \widebar{\mathbb{C}} & \underoverset{\widebar{conj}}{\widebar{id}}{\rightrightarrows} & \widebar{\mathbb{C}} 
+}$$ 
+
+where serial commutativity of the right square(s) forces $\widebar{id} \neq \widebar{conj}$, but functoriality applied to the equation $id \circ i = conj \circ i$ on the top forces $\widebar{id} = \widebar{conj}$ (no matter which isomorphism $\widebar{i}$ is taken to be, $id$ or $conj$). 
+=-- 
+
+Thus, any two algebraic closures are isomorphic, but [[unnatural isomorphism|not naturally]] so. 
 
 ## Classical invariants 
 
@@ -66,7 +86,11 @@ Well-definedness of transcendence degree then follows from abstract consideratio
 
 * [[separable closure]]
 
-* [[geometric point]]
+* [[geometric point]] 
+
+The algebraic closure of a field $F$ is the splitting field of the set of all [[monic polynomials]] over $F$. Thus for relevant material, see 
+
+* [[splitting field]] 
 
 [[!redirects algebraically closed field]]
 [[!redirects algebraically closed fields]]
