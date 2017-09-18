@@ -24,7 +24,7 @@ A morphism $f : X \to Y$ of [[schemes]] is **locally of finite type** if
 
 * for every [[open cover]] $\{U_i \to Y\}$ by [[affine scheme]]s, $U_i \simeq Spec B_i$;
 
-* and every cover $\{U_{i j_i} \to X\}$ by affine schemes $U_{i j_i} = A_{i j_i}$, fitting into a [[commuting diagram]] (this always exists, see [[coverage]])
+* and every cover $\{U_{i j_i} \to X\}$ by affine schemes $U_{i j_i} = Spec A_{i j_i}$, fitting into a [[commuting diagram]] (this always exists, see [[coverage]])
 
   $$
     \array{
