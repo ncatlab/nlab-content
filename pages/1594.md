@@ -67,6 +67,8 @@ It has been noticed that the topological invariants of the underlying topologica
 
 ## Related concepts
 
+* [[discrete torsion]]
+
 * [[motivation for higher differential geometry]]
 
 * [[orbifold Euler characteristic]]
