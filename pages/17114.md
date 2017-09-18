@@ -26,6 +26,8 @@ This is the canonical [[tensor product]] in the [[symmetric monoidal (infinity,1
 
 ## Definitions
 
+* _[smash product of excisive functors](model+structure+for+excisive+functors#SmashProduct)_
+
 * _[smash product of symmetric spectra](symmetric+spectrum#SmashProduct)_
 
 * _[smash product of orthogonal spectra](orthogonal+spectrum#SmashProduct)_
