@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Variational calculus
++-- {: .hide}
+[[!include variational calculus - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The theory of _variational sequences_ is an approach to [[variational calculus]], a variant of approach of the _[[variational bicomplex]]_.
+
+## References
+
+* M. Palese, O. Rossi, E. Winterroth, J. Musilova, _Variational sequences, representation sequences and applications in physics_ ([arXiv:1508.01752](http://arxiv.org/abs/1508.01752))
+
+[[!redirects variational sequences]]
