@@ -66,6 +66,8 @@ See also
 
 * [[Doug Ravenel]], chapter 2, def. 2.1.14 _[[Complex cobordism and stable homotopy groups of spheres]]_
 
+* {#Rognes12} [[John Rognes]], section 4.6 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
+
 [[!redirects p-completions]]
 
 [[!redirects p-complete ring]]
