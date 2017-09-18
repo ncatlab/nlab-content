@@ -3867,7 +3867,8 @@ and as usual:
 
 
 
-We prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satifies the conditions for a [[model category]] structure on the category [[Top]].
+We prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure on the category [[Top]]:
+
 
 +-- {: .num_prop #QuillenWeakEquivalencesSatisfyTwoOutOfThree}
 ###### Proposition
@@ -3892,9 +3893,9 @@ $$
   f
   \;\colon\;
   X 
-    \stackrel{cofib}{\longrightarrow}
+    \stackrel{\in Cof}{\longrightarrow}
   \hat X
-    \stackrel{fib_{we}}{\longrightarrow}
+    \stackrel{\in W \cap Fib}{\longrightarrow}
   Y
   \,.
 $$
@@ -3906,20 +3907,20 @@ $$
 
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
 the set $I_{Top} = \{S^{n-1}\hookrightarrow D^n\}$ of 
-topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-spheres]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $I_{Top}$-relative cell complex, hence just a plain relative cell complex, followed by an $I_{Top}$-fibration, def. \ref{RightLiftingProperty}.
+topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-spheres]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $I_{Top}$-relative cell complex, hence just a plain relative cell complex, followed by an $I_{Top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}.
 
 $$
   f 
   \;\colon\;
   X 
-   \stackrel{\in cofib}{\longrightarrow}
+   \stackrel{\in Cof}{\longrightarrow}
   \hat X
-   \stackrel{\in I_{top} fib}{\longrightarrow}
+   \stackrel{\in I_{top} Inj}{\longrightarrow}
   Y
   \,.
 $$
 
-By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to X$ is both a weak equivalence as well as a Serre fibration.
+By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to Y$ is both a weak equivalence as well as a Serre fibration.
 
 =--
 
@@ -3932,9 +3933,9 @@ $$
   f
   \;\colon\;
   X 
-    \stackrel{cofib_{we}}{\longrightarrow}
+    \stackrel{\in W \cap Cof}{\longrightarrow}
   \hat X
-    \stackrel{fib}{\longrightarrow}
+    \stackrel{\in Fib}{\longrightarrow}
   Y
   \,.
 $$
@@ -3948,24 +3949,24 @@ By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} 
 
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
 the set $J_{Top} = \{D^n \hookrightarrow D^n\times I\}$ of 
-topological [[generating acyclic cofibrations]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-disks]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $J_{Top}$-relative cell complex, followed by an $J_{top}$-fibration, def. \ref{RightLiftingProperty}:
+topological [[generating acyclic cofibrations]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-disks]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $J_{Top}$-relative cell complex, followed by an $J_{top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}:
 
 $$
   f
   \;\colon\;
   X 
-   \stackrel{J_{Top} cell}{\longrightarrow}
+   \stackrel{\in J_{Top} Cell}{\longrightarrow}
   \hat X
-    \stackrel{J_{Top} fib}{\longrightarrow}
-  X
+    \stackrel{\in J_{Top} Inj}{\longrightarrow}
+  Y
   \,.
 $$
 
-By definition this makes $\hat X \to X$ a [[Serre fibration]], hence a fibration.
+By definition this makes $\hat X \to Y$ a [[Serre fibration]], hence a fibration.
 
 By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex and hence $X \to \hat X$ is a cofibration.
 
-Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equivalences, first notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{k} \to X_{k+1}$ in the construction of $\hat X$ via the [[small object argument]] is a [[strong deformation retract]], hence, by prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. Now the [[small object argument]] with lemma \ref{CompactSubsetsAreSmallInCellComplexes} applies once more to give that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exist at some stage $X_n$, hence that also $\underset{\longrightarrow}{\lim}_{k} \pi_\bullet(X_k)\to \pi_\bullet(\hat X)$ is an isomorphism. (...)
+Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equivalences, first notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{k} \to X_{k+1}$ in the construction of $\hat X$ via the [[small object argument]] is a [[strong deformation retract]], hence, by example \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. Now the [[small object argument]] with lemma \ref{CompactSubsetsAreSmallInCellComplexes} applies once more to give that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exist at some stage $X_n$, hence that also $\underset{\longrightarrow}{\lim}_{k} \pi_\bullet(X_k)\to \pi_\bullet(\hat X)$ is an isomorphism. (...)
 
 
 =--
@@ -3979,7 +3980,7 @@ $$
   \array{
     &\longrightarrow&
     \\
-    {}^{\mathllap{{g \in} \atop { cof}}}\downarrow && \downarrow^{\mathrlap{{f \in }\atop fib}}
+    {}^{\mathllap{{g \in} \atop { Cof}}}\downarrow && \downarrow^{\mathrlap{{f \in }\atop Fib}}
     \\
     &\longrightarrow&
   }
@@ -3998,11 +3999,43 @@ admits a [[lift]] as soon as one of the two is also a weak equivalence.
 **B)** If the cofibration $g$ on the left is also a weak equivalence, consider any factorization into a relative $J_{Top}$-cell complex, def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCCellComplex}, followed by a fibration,
 
 $$
-  g \;\colon\; \stackrel{J_{Top} cell}{\longrightarrow} \stackrel{fib}{\longrightarrow}
+  g \;\colon\; \stackrel{\in J_{Top} Cell}{\longrightarrow} \stackrel{\in Fib}{\longrightarrow}
   \,,
 $$
 
-as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. Now by [[two-out-of-three]], prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}, the factorizing fibration is actually an acyclic fibration. By case A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so the [[retract argument]], lemma \ref{RetractArgument}, gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally lemma \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
+as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. Now by [[two-out-of-three]], prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}, the factorizing fibration is actually an acyclic fibration. By case A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so the [[retract argument]], lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally lemma \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
+
+=--
+
+Finally:
+
++-- {: .num_prop #LiftingExhausted}
+###### Proposition
+
+The systems $(Cof , W \cap Fib)$ and $(\W \cap Cof, Fib)$ are [[weak factorization systems]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have already seen the factorization and the lifting property, it remains to see that the given left/right classes exhaust the class of morphisms with the given lifting property. 
+
+For the fibrations this is by definition, for the the acyclic fibrations this is by lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
+
+The remaining statement for $Cof$ and $W\cap Cof$ follows from a general argument ([here](cofibrantly+generated+model+category#RetractsOfCellComplexesExchaustLLPOfRLP)) for [[cofibrantly generated model categories]]:
+
+So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract of a relative cell complex. To that end, apply the [[small object]] argument to factor $f$ as 
+
+$$
+  f \;\colon \; X \overset{}{\longrightarrow} \hat Y \overset{\in I Inj}{\longrightarrow} Y
+  \,.
+$$
+
+It follows that $f$ has the left lefting property again $\hat Y \to Y$, and hence by the [[retract argument]] it is a retract of $X \to \hat Y$, which proves the claim for $Cof$.
+
+The argument for $W \cap Cof$ is analogous, using the [[small object argument]] now for $J_{Top}$.
+
 
 =--
 
@@ -4020,7 +4053,7 @@ The classes of morphisms in $Mor(Top)$ of def.  \ref{ClassesOfMorhismsInTopQuill
 
 * $C = $ [[retracts]] of [[relative cell complexes]]
 
-define a [[model category]] structure (def. \ref{ModelCategory})  $Top_{Quillen}$, the "[[classical model structure on topological spaces]]".
+define a [[model category]] structure, $Top_{Quillen}$.
 
 =--
 
