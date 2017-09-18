@@ -44,3 +44,6 @@ A related problem is that of the [maximal Cauchy development for the Einstein eq
 * {#Sbierski} Jan Sbierski, _On the Existence of a Maximal Cauchy Development for the Einstein Equations - a Dezornification_ [PDF](http://arxiv.org/abs/1309.7591)
 
 [[!redirects Penrose-Hawking singularity theorem]]
+
+
+[[!redirects Penrose singularity theorem]]
