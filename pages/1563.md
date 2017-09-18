@@ -87,7 +87,7 @@ On this, in ([interview, p. 15](http://www.mat.uc.pt/~picado/lawvere/interview.p
 
 Then ([interview, p. 16](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)):
 
-> Q: Back to the origins of Synthetic Differential Geometry, where did the idea of organizing such a joint course on Mechanics originate ? Apparently, Chandra had suggested that Saunders give some courses relevant to physics, and our joint course was the rst of a sequence. Eventually Mac Lane gave a talk about the [[Hamilton-Jacobi equation]] at the Naval Academy in summer 1970 that was published in the American Mathematical Monthly
+> Q: Back to the origins of Synthetic Differential Geometry, where did the idea of organizing such a joint course on Mechanics originate ? Apparently, Chandra had suggested that Saunders give some courses relevant to physics, and our joint course was the first of a sequence. Eventually Mac Lane gave a talk about the [[Hamilton-Jacobi equation]] at the Naval Academy in summer 1970 that was published in the American Mathematical Monthly
 
 > A: $[...]$ I began to apply the Grothendieck topos theory that I had learned from Gabriel to the problem of simplied foundations of [[continuum mechanics]] as it had been inspired by [[Clifford Truesdell|Truesdell]]'s teachings, [[Walter Noll|Noll]]'s [[axiom|axiomatizations]], and by my 1958 efforts to render categorical the subject of [[topological dynamics]].
 
@@ -104,7 +104,7 @@ In the same talk, a few lines later after discussion of [[infinitesimally thicke
 > The basic [[spaces]] which are needed for [[functional analysis]] and theories of [[physical fields]] are thus in some sense available in any [[topos]] with a suitable [[object]] $T$.
 
 
-In 2000 in the article_[[Comments on the development of topos theory]]_ Lawvere writes in the closing section 7 titled "From and to continuum physics":
+In 2000 in the article _[[Comments on the development of topos theory]]_ Lawvere writes in the closing section 7 titled "From and to continuum physics":
 
 > What was the impetus which demanded the simplification and generalization of [[Grothendieck]]'s concept of [[topos]], if indeed the application to [[logic]] and [[set theory]] were not decisive. $[...]$ My own motivation came from my earlier study of [[physics]]. The [[foundation]] of the [[continuum physics]] of general materials, in the spirit of [[Clifford Truesdell|Truesdell]], [[Walter Noll|Noll]] and others, involves powerful and clear physical ideas, which unfortunately have been submerged under a mathematical apparatus $[...]$. But, as Fichera $[25]$ lamented, all this apparatus gives often a very uncertain fit to the phenomena. The apparatus may well be helpful in the solution of certain problems, but can the problems themselves and the needed axioms be stated in a direct and clear manner? And might this not lead to a simpler, equally rigorous account? These were the questions to which I began to apply the [[topos]] method in my 1967 Chicago lectures $[$ _[[Categorical dynamics]]_ $]$. It was clear that work on the notion of topos itself would be needed to achieve the goal. I had spent 1961-62 with the Berkeley logicians, believing that listening to experts on [[foundations]] might be the road to clarifying foundational questions. 
 
