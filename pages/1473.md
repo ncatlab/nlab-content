@@ -10,8 +10,6 @@
 =--
 =--
 
-
-# The Tychonoff Theorem
 * table of contents
 {: toc}
 
@@ -21,11 +19,11 @@ What is known as **Tychonoff's theorem** ([Tychonoff 35](#Tychonoff35)) is a bas
 
 For a [[finite number]] of factors the proof of this statement is elementary (see [below](#ElementaryProofOfFinitaryCase)), but this already essentially  implies for instance the [[Heine-Borel theorem]]. For an arbitrary [[set]] of factors the proof is non-trivial, but is conveniently given using [[ultrafilters]] (see [below](#ProofViaUltrafilters)).
 
-In its [[classical mathematics|classical]] form, the Tychonoff theorem is equivalent to the [[axiom of choice]]. (Compare the statement of the axiom of choice: a product of sets is [[inhabited set|inhabited]] if each set is inhabited.) 
+In its [[classical mathematics|classical]] form, Tychonoff's theorem is equivalent to the [[axiom of choice]]. (Compare the statement of the axiom of choice: a product of sets is [[inhabited set|inhabited]] if each set is inhabited.) 
 
 Notice that no [choice](axiom+of+choice#Variants) whatsoever is needed to prove the analogous theorem for [[locales]]: even in [[constructive mathematics]], a [[Cartesian product]] of locales is compact if each of the locales is compact.  From that perspective, the statement equivalent to the axiom of choice is this: a product of locales is [[spatial locale|spatial]] if each of the locales is spatial.  Either of these may be considered a Tychonoff theorem for locales.
 
-To prove the Tychonoff theorem for [[Hausdorff topological spaces]] only, the full [[axiom of choice]] is not needed; the [[ultrafilter theorem]] (and possibly [[excluded middle]]) are enough.
+To prove Tychonoff's theorem for [[Hausdorff topological spaces]] only, the full [[axiom of choice]] is not needed; the [[ultrafilter theorem]] (and possibly [[excluded middle]]) are enough.
 
 
 ## Proofs
@@ -33,7 +31,7 @@ To prove the Tychonoff theorem for [[Hausdorff topological spaces]] only, the fu
 ### Elementary proof of finitary case
  {#ElementaryProofOfFinitaryCase}
 
-The finitary case of the Tychonoff theorem, where products with only a [[finite number]] of factors are considered, may be proven with elementary means from basic topology. Such a proof is spelled out _[here](Introduction+to+Topology+--+1#BinaryTychonoffTheorem)_ at _[[Introduction to Topology -- 1]].
+The finitary case of Tychonoff's theorem, where products with only a [[finite number]] of factors are considered, may be proven with elementary means from basic topology. Such a proof is spelled out _[here](Introduction+to+Topology+--+1#BinaryTychonoffTheorem)_ at _[[Introduction to Topology -- 1]].
 
 ### Proof via ultrafilter convergence 
  {#ProofViaUltrafilters}
@@ -48,7 +46,7 @@ One method of proof uses [[ultrafilter]] [[convergence]]. Let $\langle X_\alpha 
 
 +-- {: .num_remark #TyCH} 
 ###### Remark 
-The axiom of choice is used in step 2 to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The ultrafilter theorem is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies the Tychonoff theorem for Hausdorff spaces. 
+The axiom of choice is used in step 2 to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The ultrafilter theorem is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies Tychonoff's theorem for Hausdorff spaces. 
 =-- 
 
 +--{.query}
@@ -69,9 +67,9 @@ _Toby_:  Great, hard results!  Although I\'m not sure that his ultrafilter theor
 
 ### Proof of converses
 
-Now we will prove that the Tychonoff theorem implies the axiom of choice, while the Tychonoff theorem for Hausdorff spaces implies the ultrafilter theorem.  This is done by judicious choice of examples.
+Now we will prove that Tychonoff's theorem implies the axiom of choice, while Tychonoff's theorem for Hausdorff spaces implies the ultrafilter theorem.  This is done by judicious choice of examples.
 
-**Tychonoff theorem implies axiom of choice**: let $\{X_\alpha\}_{\alpha \in A}$ be a family of nonempty sets. Let $Y_\alpha$ be obtained by adjoining a point $p$ to $X_\alpha$. Topologize $Y_\alpha$ by taking the nontrivial open sets to be $X_\alpha$ and $\{p\}$. Then $Y_\alpha$ is compact; assuming Tychonoff, $Y = \prod_\alpha Y_\alpha$ is compact. For each $\alpha$, put 
+**Tychonoff's theorem implies axiom of choice**: let $\{X_\alpha\}_{\alpha \in A}$ be a family of nonempty sets. Let $Y_\alpha$ be obtained by adjoining a point $p$ to $X_\alpha$. Topologize $Y_\alpha$ by taking the nontrivial open sets to be $X_\alpha$ and $\{p\}$. Then $Y_\alpha$ is compact; assuming Tychonoff, $Y = \prod_\alpha Y_\alpha$ is compact. For each $\alpha$, put 
 
 $$K_\alpha = \{y \in Y: y_\alpha \in X_\alpha\}$$ 
 
@@ -81,7 +79,7 @@ $$\prod_\alpha X_\alpha = \bigcap_\alpha K_\alpha$$
 
 is nonempty as well, by compactness. Thus the axiom of choice follows. 
 
-**Tychonoff theorem for Hausdorff spaces implies ultrafilter theorem**: let $F$ be a filter on a set $X$, i.e., a filter in the Boolean algebra $P X$. An ultrafilter $U$ containing $F$ is tantamount to a Boolean algebra map $2^X \to 2$ which sends all of $F$ to $1$, or equivalently to a Boolean algebra map $\phi: B = 2^X/F \to 2$. Thus it suffices to prove the following result: 
+**Tychonoff's theorem for Hausdorff spaces implies ultrafilter theorem**: let $F$ be a filter on a set $X$, i.e., a filter in the Boolean algebra $P X$. An ultrafilter $U$ containing $F$ is tantamount to a Boolean algebra map $2^X \to 2$ which sends all of $F$ to $1$, or equivalently to a Boolean algebra map $\phi: B = 2^X/F \to 2$. Thus it suffices to prove the following result: 
 
 +-- {: .num_prop #nonempty} 
 ###### Proposition 
@@ -90,7 +88,7 @@ For every (non-terminal) Boolean algebra $B$, there exists a homomorphism $B \to
 
 +-- {: .proof} 
 ###### Proof 
-Let $|B|$ denote the underlying set of $B$. The set of all functions $f: |B| \to 2$ is a $|B|$-indexed product of copies of $2$; considering $2$ as a compact Hausdorff space, this set is compact Hausdorff, assuming the Tychonoff theorem for Hausdorff spaces. For each finite subset $S \subseteq |B|$, let $K_S$ be the [[subspace]] of functions $f: |B| \to 2$ for which the equations 
+Let $|B|$ denote the underlying set of $B$. The set of all functions $f: |B| \to 2$ is a $|B|$-indexed product of copies of $2$; considering $2$ as a compact Hausdorff space, this set is compact Hausdorff, assuming Tychonoff's theorem for Hausdorff spaces. For each finite subset $S \subseteq |B|$, let $K_S$ be the [[subspace]] of functions $f: |B| \to 2$ for which the equations 
 
 $$f(x \wedge y) = f(x) \wedge f(y) \qquad f(\neg x) = \neg f(x)$$ 
 
@@ -99,9 +97,9 @@ hold for all $x, y \in S$. As the space $2^{|B|}$ is Hausdorff, $K_S$ being defi
 
 * This proof may be seen as a classical illustration of the [[compactness theorem]] for propositional logic. We may think of a Boolean algebra $B$ as a Lindenbaum algebra for a [[propositional logic|propositional]] [[theory]], and a Boolean algebra map $\phi: B \to 2$ as a [[model]] for that theory. A model exists iff a model exists for every theory generated by a finite subset of propositions, by the compactness theorem. In fact, the proof above suggests the topological provenance of the term "compactness theorem". 
 
-## Tychonoff theorem for locales 
+## Tychonoff's theorem for locales 
 
-Given the close connection between the Tychonoff theorems and choice principles, it may come as a surprise that the Tychonoff theorem for [[locales]] -- the product of a small collection of compact locales is compact, equivalently that the coproduct of a small collection of compact [[frames]] is compact -- may be proved without the [[axiom of choice]] and even [[constructive mathematics|constructively]]. 
+Given the close connection between Tychonoff's theorems and choice principles, it may come as a surprise that Tychonoff's theorem for [[locales]] -- the product of a small collection of compact locales is compact, equivalently that the coproduct of a small collection of compact [[frames]] is compact -- may be proved without the [[axiom of choice]] and even [[constructive mathematics|constructively]]. 
 
 More details to appear at [[Tychonoff theorem for locales]]. 
 
@@ -143,3 +141,5 @@ See also
 [[!redirects Tihonov's theorem]]
 [[!redirects Tihonov theorem]]
 [[!redirects Tihonov's topology]]
+[[!redirects The Tychonoff theorem]]
+
