@@ -65,7 +65,7 @@ To avoid any misunderstanding: we are not suggesting that one should write the m
 
 ## Writing mathematics and physics 
 
-All nLab editors are expected to use MathML. If you know TeX or LaTeX, this should not be very difficult to adapt to; most mathematical typesetting commands will be the same. 
+All nLab editors are expected to use the "iTeX" mathematics typesetting language of the instiki software, which displays in web browsers as MathML. If you know TeX or LaTeX, this should not be very difficult to adapt to; most mathematical typesetting commands will be the same. 
 
 In the first place, to get started, writing a "stub" article (even just a sentence of two, just to get an idea down) is perfectly fine. Hopefully that will grow into something more polished, maybe with the input of others, but you shouldn't worry -- just make the stub intelligible enough for someone else to pick up the thread. Some people at this stage start a list of references to come back to, which can also be a good idea. 
 
