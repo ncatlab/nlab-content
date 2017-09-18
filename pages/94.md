@@ -129,7 +129,7 @@ An $L_\infty$-algebra is
 
 1. a $\mathbb{Z}$-[[graded vector space]] $\mathfrak{g}$;
 
-1. for each $n \in \mathbb{N}$ a [[multilinear map]], called the _$n$-ary bracket_, of the form
+1. for each $n \in \mathbb{N}$, $n \geq 1$ a [[multilinear map]], called the _$n$-ary bracket_, of the form
 
    $$
      l_n(\cdots) 
@@ -142,6 +142,8 @@ An $L_\infty$-algebra is
    $$
   
    and of degree $n-2$
+
+   (if one includes here $n = 0$ then one speaks of a _[[curved L-infinity algebra]]_)
   
 such that the following conditions hold:
 
