@@ -227,6 +227,8 @@ The term _Yoneda lemma_ originated in an interview of [[Nobuo Yoneda]] by [[Saun
 
 In _[[Categories for the Working Mathematician]]_ MacLane writes that this happened in 1954.
 
+<img src="http://ncatlab.org/nlab/files/YonedaObituary.jpg">
+
 
 Reviews and expositions include
 
