@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[topology]], the [[fundamental theorem of covering spaces]] asserts that for $X$ a [[locally connected topological space|locally connected]] and [[semi-locally simply-connected topological space]] the [[functor]] given by sending a [[covering space]] over $X$ to its [[monodromy]] [[permutation representation]] of the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ 
+In [[topology]], the _[[fundamental theorem of covering spaces]]_ asserts that for $X$ a [[locally connected topological space|locally connected]] and [[semi-locally simply-connected topological space]], then the [[functor]] given by sending a [[covering space]] over $X$ to its [[monodromy]] [[permutation representation]] of the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ 
 
 $$
   Fib
@@ -43,12 +43,146 @@ which is an [[inverse functor]] up to [[natural isomorphism]]. This functor "rec
 
 
 ## Details
+ {#Details}
+
+We give several equivalent discussions:
+
+1. An [Elementary description](#ElementaryDescription) using just basic [[point-set topology]];
+
+1. A [Description via Coends](#InTermsOfACoend) using [[category theory|category theoretic]] tools.
 
 ### Elementary description
+ {#ElementaryDescription}
 
+The following is a description of the reconstruction in terms of elementary [[point-set topology]].
 
++-- {: .num_defn #ElementaryReconstructionCoveringSpace}
+###### Definition
+
+Let 
+
+1. $(X,\tau)$ be a [[locally connected topological space|locally connected]] [[semi-locally simply connected topological space|semi-locally simply connected]] [[topological space]],
+
+1. $\rho \in Set^{\Pi_1(X)}$ a [[permutation representation]] of its [[fundamental groupoid]].
+
+Consider the [[disjoint union]] [[set]] of all the sets appearing in this representation
+
+$$
+  E(\rho) \;\coloneqq\;  \underset{x \in X}{\sqcup} \rho(x)
+$$
+
+For an [[open subset]] $U \subset X$ for which every element of the [[fundamental group]] $\pi_1(U,x)$ becomes trivial under $\pi_1(U,x) \to \pi_1(X,x)$, and for $\hat x \in \rho(x)$ with $x \in U$ consider the subset
+
+$$
+  V_{U,\hat x}
+    \coloneqq
+  \left\{
+    \rho(\gamma)(\hat x)
+    \;\vert\;
+    x' \in U
+    \,,\phantom{A}
+    \gamma \,\text{path from}\, x \,\text{to}\, x'
+  \right\}
+  \;\subset\;
+  E(\rho)
+  \,.
+$$
+
+The collection of these defines a [[base for a topology]] (prop. \ref{ElementaryReconstructedCoveringSpaceWellDefined} below). Write $\tau_{\rho}$ for the corresponding topology. Then 
+
+$$
+  (E(\rho), \tau_{\rho})
+$$
+
+is a [[topological space]]. It canonically comes with the function
+
+$$
+  \array{
+    E(\rho) &\overset{p}{\longrightarrow}& X
+    \\
+    \hat x \in \rho(x) &\mapsto& x
+  }
+  \,.
+$$
+
+Finally, for 
+
+$$
+  f \;\colon\; \rho_1 \longrightarrow \rho_2
+$$
+
+a [[homomorphism]] of permutation representations, there is the evident induced function
+
+$$
+  \array{
+    E(\rho_1)
+     &\overset{Rec(f)}{\longrightarrow}&
+    E(\rho_2)
+    \\
+    (\hat x \in \rho_1(x)) &\mapsto& (f_x(\hat x) \in \rho_2(x))
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #ElementaryReconstructedCoveringSpaceWellDefined}
+###### Proposition
+
+The construction $\rho \mapsto E(\rho)$ in def. \ref{ElementaryReconstructionCoveringSpace} 
+is well defined and yields a [[covering space]] of $X$.
+
+Moreover, the construction $f \mapsto Rec(f)$ yields a homomorphism of covering spaces.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First to see that we indeed have a [[topological space|topology]], we need to check  (by [this prop.](topological+base#Recognition)) that every point is contained in some base element, and that every point in the intersection of two base elements has a base neighbourhood that is still contained in that intersection. Both these statements are immediate consequences of the assumption that $X$ is [[semi-locally simply connected topological space|semi-locally simply connected]].
+
+Then we need to see that $p \colon E(\rho) \to X$ is a [[continuous function]]. Since taking pre-images preserves unions ([this prop.](interactions+of+images+and+pre-images+with+unions+and+intersections#PreImagePreservesUnionsAndIntersections)), and since by semi-local simply connectedness every neighbourhood contains an open $U \subset X$ that labels a base open, it is sufficient to see that $p^{-1}(U)$ is a base open. But by the very assumption on $U$, there is a unique morphism in $\Pi_1(X)$ from any point $x \in U$ to any other point in $U$, so that $\rho$ applied to these paths establishes a bijection of sets 
+
+$$
+  p^{-1}(U) 
+    \;\simeq\; 
+  \underset{\hat x \in \rho(x)}{\sqcup} V_{U,\hat x}
+    \;\simeq\;
+  U \times \rho(x)
+  \,,
+$$ 
+
+thus exhibiting $p^{-1}(U)$ as a union of base opens.
+
+Finally we need to see that this continuous function $p$ is a covering projection, hence that every point $x \in X$ has a neighbourhood $U$ such that $p^{-1}(U) \simeq U \times \rho(x)$. But this is again the case for those $U$ all whose loops are contractible in $X$, by the above identification via $\rho$, and these exist around every point by semi-local simply-connetedness of $X$.
+
+This shows that $p \colon E(\rho) \to X$ is a covering space. It remains to see that $Ref(f) \colon E(\rho_1) \to E(\rho_2)$ is a homomorphism of covering spaces. Now by construction it is immediate that this is a function over $X$, in that this [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    E(\rho_1) && \overset{Rec(f)}{\longrightarrow}&& E(\rho_2)
+    \\
+    & \searrow && \swarrow
+    \\
+    && X
+  }
+  \,.
+$$
+
+So it only remains to see that $Ref(f)$ is a [[continuous function]]. So consider $V_{U, y_2 \in \rho_2(x)}$ a base open of $E(\rho_2)$. By [[natural transformation|naturality]] of $f$ its pre-image under $Rec(f)$ is
+
+$$
+  Rec(f)^{-1}(V_{U, y_2 \in \rho_2(x)})
+  =
+  \underset{y_1 \in f^{-1}(y_2)}{\sqcup} V_{U,y_1}
+$$
+
+and hence a union of base opens.
+
+=--
 
 ### In terms of a coend
+ {#InTermsOfACoend}
 
 The following is a description of the reconstruction functor in terms of tolls from [[category theory]].
 
@@ -263,3 +397,6 @@ Obj(G) & \to & G &
 $$
 or equivalently the slice $Obj(G)\downarrow id_G$ for an internal groupoid $G$ (internal in $Top$, but extensions to other categories work too). The tangent groupoid at a point $g$ is just the subgroupoid of this gotten by pulling back $TG \to Obj(G)$ along the inclusion $\{g\} \to Obj(G)$. I hadn't thought about applying this construction to my personal universal covering space recipe, so maybe we need to take the discrete topology on $Obj(G)$. That's what your pullback square above seems to indicate. Urs' and my paper [arXiv:0708.1741] has stuff on tangent groupoids for anyone who interested in pitching in.
 =--
+
+
+
