@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+=--
+=--
+
 > under construction
 
 #Contents#
@@ -405,14 +419,19 @@ $$
 
 [[!include geometric quantization extensions - table]]
 
+## Related entries
+
+* [[definite parameterization of WZW terms]]
+
+* [[definite globalization of WZW terms]]
 
 ## References
 
 See also the references at _[[n-plectic geometry]]_ and at _[[higher geometric quantization]]_
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher prequantum geometry]]_
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive infinity-topos]]_
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
 
@@ -421,5 +440,3 @@ See also the references at _[[n-plectic geometry]]_ and at _[[higher geometric q
 
 [[!redirects higher pre-quantization]]
 [[!redirects higher pre-quantizations]]
-
-
