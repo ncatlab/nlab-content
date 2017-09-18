@@ -19,9 +19,9 @@
 
 ***
 
-> With all due respect to anyone interested in them, the stable homotopy groups of spheres are a mess. ([[Stable homotopy and generalised homology|J. F. Adams 74, p 204]])
-
 > My initial inclination was to call this book _[[The Music of the Spheres]]_, but I was dissuaded from doing so by my diligent publisher, who is ever mindful of the sensibilities of librarians. ([D. Ravenel 86, preface](#Ravenel86))
+
+> With all due respect to anyone interested in them, the stable homotopy groups of spheres are a mess. ([[Stable homotopy and generalised homology|J. F. Adams 74, p 204]])
 
 ***
 
@@ -73,22 +73,22 @@ The horizontal index is the degree $n$ of the stable homotopy group $\pi_n$. The
 
 See at _[fundamental theorem of finitely generated abelian grouops -- Graphical representation](fundamental+theorem+of+finitely+generated+abelian+groups#GraphicalRepresentation)_ for details on the notation used in these table, and  see example \ref{InterpretTable} below for illustration.
 
-(the following graphics are taken from [Hatcher's website](http://www.math.cornell.edu/~hatcher/), based on  ([Ravenel 86](#Ravenel86))
+(the following graphics are taken from [Hatcher](#Hatcher), based on  ([Ravenel 86](#Ravenel86))
 
 
 **$p = 2$-primary component**
 
-<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D2pic.gif" alt="stable homotopy groups of spheres at 2" width="800" />
+<img src="https://www.math.cornell.edu/~hatcher/stemfigs/stems1.jpg" alt="stable homotopy groups of spheres at 2" width="800" />
 
 
 **$p = 3$-primary component**
 
-<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D3pic.gif" alt="stable homotopy groups of spheres at 3" width="800" />
+<img src="https://www.math.cornell.edu/~hatcher/stemfigs/stems2.jpg" alt="stable homotopy groups of spheres at 3" width="800" />
 
 
 **$p = 5$-primary component**
 
-<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D5pic.gif" alt="stable homotopy groups of spheres at 5" width="800" />
+<img src="https://www.math.cornell.edu/~hatcher/stemfigs/stems3.jpg" alt="stable homotopy groups of spheres at 5" width="800" />
 
 
 +-- {: .num_example #InterpretTable}
@@ -236,7 +236,7 @@ Introductions and surveys include
 
 * {#Putnam} [[Andrew Putman]], _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf))
 
-* {#Hatcher} [[Allen Hatcher]], _Stable homotopy groups of spheres_ ([html](http://www.math.cornell.edu/~hatcher/stemfigs/stems.html))
+* {#Hatcher} [[Allen Hatcher]], _Pictures of stable homotopy groups of spheres_ ([html](http://www.math.cornell.edu/~hatcher/stemfigs/stems.html))
 
 * [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
 
