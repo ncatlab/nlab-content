@@ -22,6 +22,31 @@ for $E$ a [[generalized cohomology theory]], the analog of the [[first Chern cla
 
 The generalized Chern classes serve as the generalized [[Thom classes]] that make every [[complex vector bundle]] have [[orientation in generalized cohomology]] with respect to any [[complex oriented cohomology theory]] ([Lurie 10, lecture 5, prop. 6](#Lurie10)).
 
+## Properties
+
+### Existence
+
++-- {: .num_prop #ConnerFloyedClasses}
+###### Proposition
+
+Given a [[complex oriented cohomology theory]] $E$ with complex orientation $c_1^E$, then the $E$-[[generalized cohomology]] of the [[classifying space]] $B U(n)$ is freely generated over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) by classes $c_k^E$ for $0 \leq \leq n$ of degree $2k$, these are called the **[[Conner-Floyd-Chern classes]]**
+
+$$
+  E^\bullet(B U(n))
+    \;\simeq\;
+  \pi_\bullet(E)[ [ c_1^E, c_2^E, \cdots, c_n^E ] ]
+  \,.
+$$
+
+Moreover, pullback along the canonical inclusion $B U(n) \to B U(n+1)$ is the identity on $c_k^E$ for $k \leq n$ and sends $c_{n+1}^E$ to zero.
+
+For $E = $ [[HA|HZ]] this reduces to the standard [[Chern classes]].
+
+=--
+
+for details see ([Pedrotti 16, prop. 3.1.14](#Pedrotti16))
+
+
 
 ## References
 
