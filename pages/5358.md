@@ -47,7 +47,7 @@ is an [[isomorphism]].
 +-- {: .num_remark}
 ###### Remark
 
-Any Galois object is [[locally constant object]]: since $X \to *$ is epi we may take it as a cover $U = X \to *$ and then then above principality condition says that pulled back to this cover $X$ becomes constant.
+Any Galois object is  a [[locally constant object]]: since $X \to *$ is epi we may take it as a cover $U = X \to *$ and then then above principality condition says that pulled back to this cover $X$ becomes constant.
 
 =--
 
