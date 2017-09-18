@@ -26,9 +26,17 @@ _Globular_ is a web-based [[proof assistant]] for finitely-presented [[semistric
 
 * [http://globular.science](http://globular.science)
 
-**We recommend the Chrome browser.** <i>Globular</i> currently operates up to the level of 3-categories. By the yoga of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]], this also allows one to construct proofs in monoidal 2-categories and braided monoidal 1-categories. An extension to 4-categories is actively in development.
+**We recommend the Chrome browser.**
 
-The model of [[semistrict]] higher categories that _Globular_ uses puts all the weak structure in the interchangers, and higher associated structures. For [[3-categories]], this means that _Globular_ implements the axioms of a [[Gray category]]. Since every tricategory is equivalent to a semistrict 3-category, this means that any algebraic proof in a finitely-presented tricategory can be formalized.
+<i>Globular</i> currently operates up to the level of 4-categories. By the yoga of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]], this also allows one to construct proofs in the following settings:
+
+* Monoidal 3-category
+* Monoidal 2-category, optionally with a braiding
+* Monoidal category, optionally with a braiding or symmetry
+
+The 4-category structure went live on 8 March 2016, and should be used with care until it has been thoroughly tested. The 3-category structure has been robustly tested and can be used confidently.
+
+The model of [[semistrict]] higher categories that _Globular_ uses puts all the weak structure in the interchangers, and higher associated structures. At the level of 4-categories, this is an implementation of a new definition of semistrict 4-category which is not yet published, and for which it is conjectured that every weak 4-category is equivalent to a semistrict 4-category. At the level of [[3-categories]], _Globular_ implements the axioms of a [[Gray category]]; since every tricategory is known to be equivalent to a semistrict 3-category, this means that any algebraic proof in a finitely-presented tricategory can be formalized.
 
 _Globular_ is free to use, and [open-source](https://github.com/jamievicary/globular). There is a lot to be done, on both a theoretical and practical level, and anybody can get involved with development. If you are interested, please get in touch with [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary/). _Globular_ has been developed in the [Quantum Group](http://www.cs.ox.ac.uk/activities/quantum/) of the [Department of Computer Science](http://www.cs.ox.ac.uk/) at the [University of Oxford](http://www.ox.ac.uk/), by [Krzysztof Bar](https://www.cs.ox.ac.uk/people/krzysztof.bar/), Katherine Casey, [Aleks Kissinger](http://www.cs.ru.nl/A.Kissinger/), [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary/) and [Caspar Wylie]().
 
@@ -78,6 +86,7 @@ The menu on the right-hand side of the screen gives further commands. Each of th
 * **Target _t_.** Saves the current diagram as the target of a new generator.
 * **Restrict _r_.** Replaces the current diagram with the subdiagram currently being viewed (see [Changing the view](#changingtheview).)
 * **Theorem _h_.** Creates a new theorem witnessing the current diagram (see [Invertibility](#invertibility).)
+* **Graphic _g_.** Downloads a PNG representation of the current diagram.
 
 Also, the user can click and click-and-drag on the diagram to produce various effects. When a command is ambiguous, a menu will be presented to allow the user to choose their preferred action.
 
@@ -93,6 +102,8 @@ _Globular_ can currently present string-diagram visualizations of 0-, 1- and 2-d
 
 * **Project.** This determines the number of dimensions to be projected; it can take any value $p$ in the range $0 \leq p \leq k$. Projecting a dimension causes it to be effectively ignored by _Globular_; it is as if you are looking at a shadow of the true image. The resulting diagrams are exactly the _singularity graphics_ which are a common tool in [[Morse theory|higher Morse theory]].
 * **Slice.** Having decided to project out $p$ dimensions, and supposing the image being displayed is $v$-dimensional (for $v \in \{0,1,2\}$), that leaves $k - p - v$ dimensions still to be handled. If this sum is positive, coordinates must be chosen using the slice controls to position the view within an appropriate $v$-dimensional subdiagram.
+
+You can also zoom the main diagram using the scroll wheel of your mouse, and scroll around by clicking-and-dragging with the right mouse button.
 
 ### Technical implementation details
 
