@@ -61,16 +61,19 @@ The stable homotopy groups of spheres are notorious for their immense computatio
 ## Tables
  {#Tables}
 
-The first stable homotopy groups of the [[sphere spectrum]] $\mathbb{S}$
+The first stable homotopy groups of the [[sphere spectrum]] $\mathbb{S}$ are
 
 | $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | $\cdots$ | 
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | $\pi_k(\mathbb{S}) = $ | $\mathbb{Z}$  | $\mathbb{Z}_2$  |  $\mathbb{Z}_2$ |  $\mathbb{Z}_{24}$ |  $0$ |  $0$ | $\mathbb{Z}_2$ |   $\mathbb{Z}_{240}$ | $(\mathbb{Z}_2)^2$ |  $(\mathbb{Z}_2)^3$ | $\mathbb{Z}_6$ | $\mathbb{Z}_{504}$ | $0$ | $\mathbb{Z}_3$ | $(\mathbb{Z}_2)^2$ | $\mathbb{Z}_{480} \oplus \mathbb{Z}_2$ | $\cdots$ |
 
-The following tables for the [[p-primary components]] of $\pi_\bullet$ in low degrees  are taken from ([Hatcher](#Hatcher)), where in turn they were generated based on ([Ravenel 86](#Ravenel86)).
+The following tables show the [[p-primary group|p-primary decomposition]] of these and the following stable homotopy groups.
 
 The horizontal index is the degree $n$ of the stable homotopy group $\pi_n$. The appearance of a string of $k$ connected dots vertically above index $n$ means that there is a [[direct sum|direct summand]] [[primary group]] of [[order of a group|order]] $p^k$. The bottom rows in each case are given by the [[image of the J-homomorphism]].
-See example \ref{InterpretTable} below for illustration (graphics taken from [Hatcher's website](http://www.math.cornell.edu/~hatcher/)).
+
+See at _[fundamental theorem of finitely generated abelian grouops -- Graphical representation](fundamental+theorem+of+finitely+generated+abelian+groups#GraphicalRepresentation)_ for details on the notation used in these table, and  see example \ref{InterpretTable} below for illustration.
+
+(the following graphics are taken from [Hatcher's website](http://www.math.cornell.edu/~hatcher/), based on  ([Ravenel 86](#Ravenel86))
 
 
 **$p = 2$-primary component**
