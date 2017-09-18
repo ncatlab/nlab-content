@@ -23,7 +23,7 @@
 A [[topological space]] $X$ is called _[[locally compact topological space|locally compact]]_
 if for every point $x \in X$ and every [[open neighbourhood]] $U_x \supset \{x\}$
 there exists a smaller open neighbourhood $V_x \subset U_x$ whose [[topological closure]]
-is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) and still contained in $U$:
+is [[compact topological space|compact]] and still contained in $U$:
 
 $$
   \{x\} \subset V_x \subset \underset{\text{compact}}{Cl(V_x)} \subset U_x
@@ -38,9 +38,11 @@ $$
 ###### Proposition
 **(open subspaces of compact Hausdorff spaces are locally compact)**
 
-Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\sub} K$
-of a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
-[[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}) is a [[locally compact topological space]] (def. \ref{LocallyCompactSpace}).
+Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\subset} K$
+of a [[compact topological space|compact]]
+[[Hausdorff space]] $K$ is a [[locally compact topological space]].
+
+In particular every [[compact Hausdorff space]] itself is [[locally compact topological space|locally compact]].
 
 =--
 
