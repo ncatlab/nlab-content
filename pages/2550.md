@@ -477,7 +477,7 @@ The slice filtration was defined in
 
 An equivariant version of the theory is developed in
 
-* [[Gunnar Carlsson]], Ray Joshua, _Equivariant motivic homotopy theory_, [arXiv](http://arxiv.org/abs/1404.1597v1).
+* [[Gunnar Carlsson]], Roy Joshua, _Equivariant motivic homotopy theory_, [arXiv](http://arxiv.org/abs/1404.1597v1).
 {#CJ2014}
 
 Discussion related to [[étale homotopy]] is in 
