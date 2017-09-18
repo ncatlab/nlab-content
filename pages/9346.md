@@ -177,7 +177,11 @@ On the other hand, no other theoretical framework was equally tested by this ast
 
 To understand this question and its answer, it is important to know that in general symmetries in physics (and in mathematics) come in a _[[local symmetry|local]]_ and in a _[[global symmetry|global]]_ flavor. For instance the _theory_ of [[gravity]] is a theory which has as a _local symmetry_ the [[Lorentz group]]. But any [[model (physics)|model]] of the theory -- a [[spacetime]] -- may or may not have global Lorentz symmetry. In fact, the generic solution to the [[Einstein equations]] has _no_ global Lorentz symmetry left. A global Lorentz symmetry of spacetime with all [[matter]] and [[force]] fields in it would mean that the world looks the same if we arbitrarily translate in some direction, or arbitrarily rotate in some plane. It would be rather bizarre to live in a spacetime with such a property!
 
+(Mathematically the distinction is this: given a [[coset space]] $G/H$, then the corresponding _[[Klein geometry]]_ has global $G$-symmetry, while the corresponding _[[Cartan geometries]]_ have local $G$-symmetry.)
+
 Now [[supersymmetry]] refers to a [[super Lie group]] extension of the [[Lorentz group]]. Here the theory of [[supergravity]] has _local_ supersymmetry just as Einstein gravity has local Lorentz symmetry, but the general [[model (physics)|model]] in supergravity has no _global_ supersymmetry left. This is just as unlikely as, and directly analous to, a spacetime having a global translation symmetry.
+
+(Mathematically this is now the situation of _[[super Cartan geometry]]_.)
 
 Contrary to that, _local_ supersymmetry is rather generic in low dimensions. For instance the [[worldline]] theory of any [[spinning particle]] -- such as an [[electron]] -- is locally supersymmetric. (See the references [here](http://ncatlab.org/nlab/show/spinning%20particle#WorldlineSupersymmtryReferences).) So _local_ supersymmetry has been experimentally verified for the [[observable universe]] when [[fermions]] were first observed to exist, which is since the [[Stern-Gerlach experiment]].
 
@@ -185,7 +189,11 @@ Similarly, if one proceeds from the [[worldline formalism]] for [[spinning parti
 
 The miracle that then happens is that while the [[second quantization]] of [[spinning particles]] (which is fermionic [[quantum field theory]]) does not necessarily itself exhibit local supersymmetry, the [[second quantization]] of [[spinning strings]] (which is [[string theory]] with fermions) _does_ itself also exhibit local supersymmetry: the [[effective field theory]] induced by spinning strings is not just [[Einstein-Yang-Mills-Dirac theory]], but is locally supersymmetric in that it is higher dimensional _[[supergravity]]_.
 
-So: string theory implies that if there are [[fermions]] at all, then there is _local_ supersymmetry.
+So: string theory implies that if there are [[fermions]] at all, then there is _local_ supersymmetry, hence [[supergravity]].
+
+$$
+  strings \;\; \& \;\; fermions \;\;\; \Rightarrow \;\;\; supergravity
+$$
 
 On the other hand, any _[[model (physics)|model]]_ in string theory may or may not retain [[global supersymmetry]] at some energy scale, after [[spontaneous symmetry breaking]].
 
