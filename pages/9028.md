@@ -5,9 +5,11 @@
 
 ## Idea
 
-A [[manifold]] of [[special holonomy]] [[spin group|Spin(7)]].
+A [[manifold]] of [[special holonomy]] [[Spin(7)]].
 
 ## Related concepts
+
+* [[Spin(7)-instanton]]
 
 [[!include special holonomy table]]
 
@@ -20,4 +22,8 @@ A [[manifold]] of [[special holonomy]] [[spin group|Spin(7)]].
 
 
 [[!redirects Spin(7) manifolds]]
+
+[[!redirects Spin(7)-manifold]]
+
+[[!redirects Spin(7)-manifolds]]
 
