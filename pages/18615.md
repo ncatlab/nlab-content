@@ -11,6 +11,10 @@ Let $C$ be a category and $C_0\subset C$ a full subcategory. $(\Lambda, X, p)$ i
 $r:Y\to X_{\lambda''}$ in pro-$C$ such that 
 $$p_{\lambda\lambda''}\circ r = p_{\lambda\lambda'}\circ h.$$
 
+## Movability of topological spaces
+
+Term movability comes from topology where it denotes a property studied by Borsuk and which generalizes the class of topological spaces having the [[shape]] of an [[absolute neighborhood retract]]. This can be restated using expansions by pro-objects. There are versions for topological spaces and for pointed topological spaces. As pointed space is a special case of a pair of topological spaces it is natural to define  the movability of pairs by requiring that there exist an expansion of the pair by the pro-object in the category of pairs in the homotopy category of polyhedra which is movable as an abstract pro-object. 
+
 ## Properties
 
 Every [[retract]] in pro-$C$ of a movable pro-object is a movable pro-object.  
