@@ -80,6 +80,8 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 ## Related concepts
 
+* [[Boardman homomorphism]]
+
 * The _[[Adams spectral sequence]]_ is a vast generalization of the computation of [[homotopy groups]] from [[cohomology groups]] via the Hurewicz theorem.
 
 ## References
@@ -98,7 +100,7 @@ See also
 * wikipedia, _[Hurewicz theorem](http://en.wikipedia.org/wiki/Hurewicz_theorem)_
 
 
-In the generality of [[stable homotopy theory]], [[generalized homology theory]]:
+In the generality of the [[Boardman homomorphism]]:
 
 * [[Frank Adams]], Part II.6 of _[[Stable homotopy and generalised homology]]_, 1974
 
