@@ -22,9 +22,41 @@ A [[topological space]] $X$ is _(semi-)locally simply connected_ if every neighb
 
 A [[topological space]] $X$ is **semi-locally simply-connected** if it has a [[basis of the topology|basis]] of [[neighbourhood]]s $U$ such that the inclusion $\Pi_1(U) \to \Pi_1(X)$ of [[fundamental groupoid]]s factors through the canonical functor $\Pi_1(U) \to codisc(U)$ to the [[codiscrete groupoid]] whose objects are the elements of $U$. The condition on $U$ is equivalent to the condition that the homomorphism $\pi_1(U, x) \to \pi_1(X, x)$ of [[fundamental group]]s induced by inclusion $U \subseteq X$ is trivial. 
 
-## Properties
+## Examples
 
-A semi-locally simply connected space need not be locally simply connected. For a simple counterexample, take the cone on the [[Hawaiian earring space]]. 
+
++-- {: .num_example #LocallySimplyConnectedCircle}
+###### Example
+**([[circle]] is locally simply connected)**
+
+The [[Euclidean space|Euclidean]] [[circle]] 
+
+$$
+  S^1 = \left\{ x \in \mathbb{R}^2 \;\vert\;  {\Vert x\Vert} = 1\right\}
+  \subset \mathbb{R}^2
+$$
+
+is locally simply connected
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of the [[subspace topology]] and the defining [[topological base]] of the [[Euclidean plane]], a [[base for a topology|base for the topology]] of $S^1$ is given by the [[images]] of [[open intervals]] under the [[local homeomorphism]]
+
+$$
+  (cos(-), sin(-)) \;\colon\; \mathbb{R}^1 \to S^1
+  \,.
+$$
+
+But these open intervals are simply connected [this example](fundamental group#EuclideanSpaceFundamentalGroup).
+
+=--
+
+
+
+* A semi-locally simply connected space need not be locally simply connected. For a simple counterexample, take the cone on the [[Hawaiian earring space]]. 
 
 ## Application 
 
