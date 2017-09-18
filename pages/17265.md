@@ -1755,7 +1755,70 @@ Theorem \ref{TopQuillenModelStructure} in itself implies only that every topolog
 
 (...)
 
-## The model structure on $Top_{Quillen}$-enriched functors
+## Related model structures
+
+### Classical model structure on pointed topological spaces
+
+Every [[coslice category]] $\mathcal{C}^{X/}$ of a [[model category]] $\mathcal{C}$ inherits the [[coslice model structure]], whose classes of morphisms are those of $\mathcal{C}$ as seen by the [[forgetful functor]] $U \colon \mathcal{C}^{X/}\longrightarrow \mathcal{C}$.
+
+Accordingly there is the induced [[classical model structure on pointed topological spaces]] $Top^{\ast/}_{Quillen}$.
+
+Write
+
+$$
+  (-)_+
+  \;\colon\;
+  Top \longrightarrow Top^{\ast/}
+  \,,
+$$
+
+for the operation of freely adjoining a basepoint, the [[left adjoint]] to the [[forgetful functor]] $U \colon Top^{\ast/} \to Top$.
+
++-- {: .num_defn #GeneratingCofibrationsForPointedTopologicalSpaces}
+###### Definition
+
+Write
+
+$$
+  I_{Top^{\ast/}}
+  = 
+ \left\{
+    S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+
+ \right\}
+  \;\;
+  \subset Mor(Top^{\ast/})
+$$
+
+and
+
+$$
+  J_{Top^{\ast/}}
+  = 
+ \left\{
+    D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+
+ \right\}
+  \;\;\;
+  \subset Mor(Top^{\ast/})
+ \,,
+$$
+
+respectively, for the classes of morphisms obtained from the classical generating cofibrations, def. \ref{TopologicalGeneratingCofibrations}, and the classical generating acyclic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations}, under adjoining of basepoints.
+
+=--
+
++-- {: .num_theorem #CofibrantGenerationOfPointedTopologicalSpaces}
+###### Theorem
+
+The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]], $Top^{\ast/}_{Quillen}$ as a [[cofibrantly generated model category]].
+
+=--
+
+This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties). But it also follows by a proof directly analogous to that of theorem \ref{TopQuillenModelStructure}.
+
+
+
+
+### The model structure on $Top_{Quillen}$-enriched functors
  {#ModelStructureOnTopEnrichedFunctors}
 
 The [[projective model structure on enriched functors]], enriched over the classical model structure on topological spaces above, is an immediate corollary of the above proof ([Piacenza 91](#Piacenza91)). 
@@ -1791,12 +1854,14 @@ A **[[topologically enriched category]]** $\mathcal{C}$ is a [[Top]]-[[enriched 
 
 such that the composition is [[associativity|associative]] and [[unitality|unital]].
 
+Similarly a **pointed topologically enriched category** is such a structire with $Top_k$ replaced by [[pointed topological spaces]] and with the [[Cartesian product]] replaced by the [[smash product]] of pointed topological spaces.
+
 =--
 
 +-- {: .num_remark #UnderlyingCategoryOfTopEnrichedCategory}
 ###### Remark
 
-Given a [[topologically enriched category]] as in def. \ref{TopEnrichedCategory}, then forgetting the topology on the [[hom-spaces]] (along the [[forgetful functor]] $U \colon Top_k \to Set$) yields an ordinary [[locally small category]] with
+Given a (pointed) [[topologically enriched category]] as in def. \ref{TopEnrichedCategory}, then forgetting the topology on the [[hom-spaces]] (along the [[forgetful functor]] $U \colon Top_k \to Set$) yields an ordinary [[locally small category]] with
 
 $$
   Hom_{\mathcal{C}}(a,b) = U(\mathcal{C}(a,b))
@@ -1864,18 +1929,20 @@ $$
   \,.
 $$
 
+Similarly, [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] $Top_k^{\ast/}$ form a pointed topologically enriched category.
+
 =--
 
 +-- {: .num_defn #TopologicallyEnrichedFunctor}
 ###### Definition
 
-A [[topologically enriched functor]] between two [[topologically enriched categories]] 
+A (pointed) [[topologically enriched functor]] between two (pointed) [[topologically enriched categories]] 
 
 $$
   F \;\colon\;  \mathcal{C}  \longrightarrow \mathcal{D}
 $$
 
-is a [[Top]]-[[enriched functor]], hence:
+is a (pointed) [[Top]]-[[enriched functor]], hence:
 
 1. a [[function]]
 
@@ -1952,6 +2019,8 @@ $$
   \,.
 $$
 
+All this applies verbatim also to the pointed case, with Cartesian product replaced by [[smash product]].
+
 =--
 
 +-- {: .num_defn #GeneratingCofibrationsForProjectiveStructureOnFunctors}
@@ -1981,6 +2050,28 @@ for the classes (here: sets) of morphisms given by [[tensoring]] the representab
 
 These are going to be called the **[[generating cofibrations]]** and **acyclic generating cofibrations** for the projective model structure on topologically enriched functors on $\mathcal{C}$.
 
+Similarly, for $\mathcal{C}$ a pointed topologically enriched category, write 
+
+$$
+  I_{Top^{\ast/}}^{\mathcal{C}}
+  \;\coloneqq\;
+  \left\{
+    y(c)\cdot (S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+)
+  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+$$
+
+and 
+
+$$
+  J_{Top^{\ast/}}^{\mathcal{C}}
+  \;\coloneqq\;
+  \left\{
+    y(c)\cdot (D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+)
+  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+$$
+
+for the same construction applied to the pointed generating (acyclic) cofibrations of def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces}.
+
 =--
 
 +-- {: .num_remark #MorphismsFromTensoredRepresentableToTopologicallyEnrichedFunctor}
@@ -2007,7 +2098,7 @@ between
 +-- {: .num_defn #ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors}
 ###### Definition
 
-Given a [[small category|small]] [[topologically enriched category]] $\mathcal{C}$, def. \ref{TopEnrichedCategory}, say that a morphism in the category of topologically enriched copresheaves $[\mathcal{C}, Top_k]$, example \ref{TopologicallyEnrichedFunctorsToTopk}, hence a [[natural transformation]] between topologically enriched functors, $\eta \colon F \to G$ is
+Given a [[small category|small]] (pointed) [[topologically enriched category]] $\mathcal{C}$, def. \ref{TopEnrichedCategory}, say that a morphism in the category of (pointed) topologically enriched copresheaves $[\mathcal{C}, Top_k]$ ($[\mathcal{C},Top_k^{\ast/}]$), example \ref{TopologicallyEnrichedFunctorsToTopk}, hence a [[natural transformation]] between topologically enriched functors, $\eta \colon F \to G$ is
 
 * a **projective weak equivalence**, if for all $c\in Obj(\mathcal{C})$ the component $\eta_c \colon F(c) \to G(c)$ is a [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces});
 
