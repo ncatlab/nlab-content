@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _3-manifold_ is a [[manifold]] of [[dimension]] 3.
+A _3-manifold_ is a [[manifold]] of [[dimension]] 3. (Here we shall mean a [[topological manifold]], unless a qualifier is added, e.g., *smooth* manifold.) 
 
 ## Properties
 
