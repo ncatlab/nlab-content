@@ -174,6 +174,8 @@ Many categorical properties of interest are preserved by one or more of the regu
 
 * If $C$ is regular, locally cartesian closed, and has a *generic mono*, i.e. a monomorphism $\tau\colon \Upsilon\to \Lambda$ such that every monomorphism is a pullback of $\tau$ (not necessarily uniquely), then $C_{ex/reg}$ is a topos (Menni 2000).
 
+* If $C$ is an [[additive category]], then $C_{ex/lex}$ is an [[abelian category]].
+
 On the other hand, some properties are *not* preserved by the completions.
 
 * Of course, all the completions are regular categories, but the inclusions are not [[regular functor]]s, since they do not preserve regular epis.
