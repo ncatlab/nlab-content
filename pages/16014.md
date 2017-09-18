@@ -49,21 +49,19 @@ Finally for every [[modality]] one typically demands that it preserves implicati
 
 If one equips plain [[propositional logic]] with these additional modal operators satisfying these rules, then one speaks of _[[S4 modal logic]]_. This is often the default meaning of [[modal logic]]. 
 
-However, in terms of [[categorical logic]] the above axioms just say that 
+However, in terms of [[categorical logic]] the above axioms just say ([Bierman & de Paiva 92](#BiermanPaiva92)) that 
 
 * $\Box$ is an ([[idempotent comonad|idempotent]]) [[comonad]];
 
 * $\lozenge$ is an [[idempotent monad|idempotent]] [[monad]]
 
-on the [[category]] ([[poset]]) of [[propositions]], and while the above reasoning makes plausible that any operator expressing "necessity" and "possibility" should at least satisfy these (co)monad axioms, not every (co)monad is sensibly interpreted this way.
+on the [[category]] ([[poset]]) of [[propositions]] (see at _[[monad in computer science]]_), and while the above reasoning makes plausible that any operator expressing "necessity" and "possibility" should at least satisfy these (co)monad axioms, not every (co)monad is sensibly interpreted this way.
 
 For instance there is
 
 * the (idempotent) monad $\emptyset$ which sends every proposition to [[false]] (the [[nothing|non-being]]-modality);
 
 * the (idempotent) monad $\ast$ which sends every proposition to [[true]] (the [[being]]-modality).
-
-Both satisfy all of the above axioms, but clearly they do not have the interpretation of "necessarily" and "possibly".
 
 This issue becomes more pronounced (and also finds a resolution, see [below](#InFirstOrderLogicAndTypeTheory)) as one generalizes from the small realm of [[propositional logic]] to include both or either of:
 
@@ -115,9 +113,13 @@ $$
   (\lozenge_W \dashv \Box_W)
   \coloneqq
   \left(
+     \left(
      W^\ast \circ \underset{w\colon W}{\exists}
+     \right)
      \dashv
+     \left(
      W^\ast \circ \underset{w\colon W}{\forall}
+     \right)
   \right)
   \;\colon\;
   \mathbf{H}_{/W}
@@ -144,7 +146,7 @@ Notice however that, in general, $\lozenge_W$ and $\Box_W$ as defined above are,
 With this axiomatization via [[base change]], it is immediate to consider the relative case where instead of [[base change]] to a [[unit type]] $W \to \ast$ one considers [[base change]] 
 
 $$
-  (\exists_\omega \dashv W^\ast \dashv \forall_\omega)
+  (\exists_\omega \dashv \omega^\ast \dashv \forall_\omega)
   \;\colon\;
   \mathbf{H}_{/W}
     \stackrel{\stackrel{\forall_{w \colon \omega^{-1}(-)}}{\longrightarrow}}{\stackrel{\stackrel{\omega^\ast}{\longleftarrow}}{\underset{\exists_{w\colon \omega^{-1}(-)}}{\longrightarrow}}}
@@ -164,9 +166,13 @@ $$
   (\lozenge_\omega \dashv \Box_\omega)
   \coloneqq
   \left(
+     \left(
      \omega^\ast \circ \underset{w\colon \omega^{-1}(-)}{\exists}
+     \right)
      \dashv
+     \left(
      \omega^\ast \circ \underset{w\colon \omega^{-1}(-)}{\forall}
+     \right)
   \right)
   \;\colon\;
   \mathbf{H}_{/W}
@@ -175,7 +181,7 @@ $$
   \,.
 $$
 
-If here $\omega$ is a [[1-epimorphism]] then it exibits an [[equivalence relation]] on $W$, where $w_1\sim w_2$ is given by $\omega(w_1) = \omega(w_2)$. In [[possible worlds semantics]] such equivalence relation is called an "accessibility relation between possible worlds". Now 
+If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it exibits an [[equivalence relation]] on $W$, where $w_1\sim w_2$ is given by $\omega(w_1) = \omega(w_2)$. In [[possible worlds semantics]] such equivalence relation is called an "accessibility relation between possible worlds". Now 
 
 *  $\lozenge_\omega p$ is true/inhabited at $w\in W$ if it is true/inhabited at at least one $\tilde w$ in the same equivalence class of $w$;
 
@@ -196,6 +202,7 @@ If here $\omega$ is a [[1-epimorphism]] then it exibits an [[equivalence relatio
 
 * [[Jake Chandler]], _Modality: Necessity and Possibility_, lecture notes ([pdf](http://www.jakechandler.com/assets/2006MetaphysicsBBK/%5B6%5D%20%5BModality%5D.pdf))
 
+* {#BiermanPaiva92} Gavin Bierman [[Valeria de Paiva]], _On an Intuitionistic Modal Logic_, Studia Logica (65):383-416, 2000 (preprint from 1992) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.5279))
 
 
 [[!redirects necessity]]
