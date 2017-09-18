@@ -169,6 +169,9 @@ moreover, every [[integral modular function]] arises in this way.
 
 ## References
 
+* [[Stephan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_ in _Topology, geometry and quantum field theory_ , London Math. Soc. LNS 308, Cambridge Univ. Press (2004), 247-343. ([pdf](http://web.me.com/teichner/Math/Reading_files/Elliptic-Objects.pdf))
+
+
 * Pokman Cheung, _Supersymmetric field theories and cohomology_ ([arXiv:0811.2267](http://arxiv.org/abs/0811.2267))
 
 
