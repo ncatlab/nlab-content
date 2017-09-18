@@ -1,4 +1,17 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context
+#### Riemannian geometry
++-- {: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,11 +21,56 @@
 
 The concept of a _causal complement_ is suitable to establish a [[causal disjointness relation]] on index sets where the indices are subsets of a given set. This generalizes the concept of causal complement of subsets of the [[Minkowski spacetime]], see for example [[Haag-Kastler vacuum representation]].
 
-## Definition ##
+## Definition 
+
+
+The concept of causal complement, as the name indicates, a concept related to [[causality]] on [[spacetimes]], hence a concept associated with [[Lorentzian manifolds]]:
+
+* _[On Lorentzian manifolds](#OnLorentzianManifolds)_.
+
+One may abstract away some of the key properties of causal complements on Lorentzian manifolds to obtain a more general concept:
+
+* _[Abstract definition](#AbstractDefinition)_
+
+### On Lorentzian manifolds
+ {#OnLorentzianManifolds}
+
+Let $X$ be [[Lorentzian manifold]] (a [[spacetime]]), hence a [[pseudo-Riemannian manifold]] with one [[time-like]] dimension in each tangent space. 
+
+Then for $S \subset X$ any [[subset]], its _[[causal cone]]_ $J(S)$ is the subset of all points in $X$ which may be joined to a point of $S$ by a [[smooth function|smooth]] [[curve]] $\gamma \colon [0,1] \to X$ which is everywere [[timelike]] or [[lightlike]].
+
+
++-- {: .num_example #CausalComplementOfSubsetOfLorentzianManifold}
+###### Definition
+**(causal complement of subset of Lorentzian manifold)**
+
+For $S \subset X$ a [[subset]] of a [[Lorentzian manifold]], its _causal complement_ $S^\perp$ is the [[complement]] of the [[causal cone]]:
+
+$$
+  S^\perp \;\coloneqq\; S \setminus J(S)
+  \,.
+$$
+
+The causal complement $S^{\perp \perp}$ of the causal complement $S^\perp$ is called the _[[causal closure]]_. If 
+
+$$
+  S = S^{\perp \perp}
+$$
+
+then the subset $S$ is called a _[[causally closed subset]]_.
+
+=--
+
+### Abstract definition
+ {#AbstractDefinition}
+
+
 Let $X$ be an arbitrary set and $M \subset X$. An assignment 
+
 $$
-M \mapsto M^{\perp} \subset X
+  M \mapsto M^{\perp} \subset X
 $$
+
 is called a **causal complement** if the following conditions hold:
 
 (i) $M \subseteq M^{\perp\perp}$
@@ -23,7 +81,7 @@ is called a **causal complement** if the following conditions hold:
 
 A set $M$ is **[[causally closed subset|causally closed]]** iff $M = M^{\perp\perp}$.
 
-The set $M^{\perp\perp}$ is the **causal closure** of $M$.
+The set $M^{\perp\perp}$ is the **[[causal closure]]** of $M$.
 
 ## Properties ##
 Causal complements are always causally closed. The intersection of two causally closed sets is again a causally closed set. The causal complement of a set may be empty.
@@ -38,6 +96,12 @@ if all sets $M$ have a causal complement and if
 
 The latter condition is needed to get a _$\sigma$-bounded_ [[poset]]; the $\sigma$-boundedness is part of the definition of a  [[causal index set]].
 
+
+## Related concepts
+
+* [[causal locality]]
+
+* [[causal additivity]]
 
 [[!redirects causal complement]]
 [[!redirects causal complements]]
