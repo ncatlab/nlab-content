@@ -33,6 +33,8 @@ A long list of mathematical structures happens to have a classification that is 
 
 and many more. 
 
+[[!include ADE -- table]]
+
 The obvious question for what might be the conceptual origin of this joint classification is attributed to ([Arnold 76](#Arnold76)). 
 
 Starting with ([Douglas-Moore 96](#DouglasMoore96)) is the observation that many of these structures are naturally aspects of the description of [[string theory]] [[KK-compactification|KK-compactified]] on _[[orbifolds]] with [[ADE singularities]]_ of the form $\mathbb{C}^n //\Gamma$ for $\Gamma$ a [[finite group|finite]] [[subgroup]] of $SL_2(\mathbb{C})$.
@@ -60,6 +62,12 @@ which in turn is summarized in
 See also
 
 * Wikipedia, _[ADE classification](http://en.wikipedia.org/wiki/ADE_classification)_
+
+Related stuff includes...
+
+on [[immersions]] of [[3-spheres]] into $\mathbb{R}^4$:
+
+* Shumi Kinjo, _Immersions of 3-sphere into 4-space associated with Dynkin diagrams of types A and D_ ([arXiv:1309.6526](http://arxiv.org/abs/1309.6526))
 
 ### In string theory
 
