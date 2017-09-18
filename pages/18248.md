@@ -226,3 +226,7 @@ is an open neighbourhood of $c \in \mathbb{C}$, and by lemma \ref{EscapeRadius} 
 * [[Julia set]]
 
 [[!redirects Mandelbrot sets]]
+
+[[!redirects Mandelbrot space]]
+[[!redirects Mandelbrot spaces]]
+
