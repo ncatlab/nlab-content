@@ -1,0 +1,8 @@
+
+[[!include ADE -- table]]
+
+## References
+
+* Wikipedia, _[Dihedron](https://en.wikipedia.org/wiki/Dihedron)_
+
+[[!redirects dehedra]]
