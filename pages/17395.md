@@ -1,0 +1,15 @@
+##Idea
+
+**Relevance logics**, also known as **relevant logics**, are non-classical logics designed to avoid what some consider to be paradoxical about classical [[implication]].  In particular, certain hypothetical propositions in which antecedent and consequent are irrelevant to one another occur as [[tautologies]] in [[classical logic]], whereas one might consider that a claim that '$P$ implies $Q$' suggests that the truth of $P$ gives us reason to accept the truth of $Q$.
+
+###Related concepts
+
+* [[linear logic]]
+
+##References
+
+* [Stanford Encyclopedia of Philosophy](http://plato.stanford.edu/entries/logic-relevance/)
+
+[[!redirects relevance logics]]
+[[!redirects relevant logic]]
+[[!redirects relevant logics]]
