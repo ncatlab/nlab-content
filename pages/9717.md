@@ -24,6 +24,10 @@ A [[Riemannian manifold]] $(X,g)$ is a _hyperbolic manifold_ of constant [[secti
 
 ## Properties
 
+### Zeta functions
+
+There are canonical [[zeta functions]] associated with suitable (odd-dimensional) hyperbolic manifolds, see at _[[Selberg zeta function]]_ and _[[Ruelle zeta function]]_.
+
 ### Relation to Chern-Simons theory
 
 There is a curious relation of [[volumes]] of hyperbolic 3-manifolds to the [[action functional]] of [[Chern-Simons theory]]/[[Dijkgraaf-Witten theory]].
@@ -49,11 +53,11 @@ For $n = 2$ this is well understood conceptually. For $n \geq 3$ it has been che
 The combination $CS(\omega) + i vol$ is also called the _[[complex volume]]_  or _[[Cheeger-Simons class]]_ of a hyperbolic 3-manifold (e.g. [Neumann 11, section 2.3](#Neumann11). [Garoufalidis-Thurston-Zickert 11](#GaroufalidisThurstonZickert11)). 
 
 (It is maybe noteworthy that the same kind of combination appears as the contribution of [[membrane instantons]].)
-## Properties
 
 ### Mostow rigidity theorem
 
 The [[Mostow rigidity theorem]] states that every [[hyperbolic manifold]] of [[dimension]] $\geq 3$ and of [[finite number|finite]] [[volume]] is uniquely determined by its [[fundamental group]].
+
 
 
 ## Related concepts
