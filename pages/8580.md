@@ -399,7 +399,7 @@ Fundamental [[judgements]] in [[cohesive homotopy type theory]] include those in
 | A general connection $\nabla$ is the equivalence between the curvature $curv(\mathbf{c})$ of a bundle $\mathbf{c}$ and a closed differential form $\omega$. | $\nabla \colon \underset{{\mathbf{c} \colon \mathbf{B}^n \mathbb{G}} \atop { \omega \colon \Omega^{n+1}_{cl} }}\sum \left( curv\left(\mathbf{c}\right) = \omega\right) $ | $ \begin{matrix} \mathbf{B}^n \mathbb{G}_{conn}  & \stackrel{F_{(-)}}{\begin{svg} [[!include SVG rightarrow]]\end{svg}}& \Omega^{n+1}_{cl} \\ \begin{svg}[[!include SVG downarrow]]\end{svg} & \mathclap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} & \space{10}{0}{30} \\ \space{10}{30}{1} & \swArrow}} & \begin{svg}[[!include SVG downarrow]]\end{svg} \\ \mathbf{B}^n \mathbb{G} &\stackrel{curv}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}& \flat_{dR} \mathbf{B}^{n+1}\mathbb{G} \end{matrix} $  | The [[coefficients]] for smooth [[differential cohomology]]: abelian ([[higher gauge theory|higher]]) [[gauge fields]]. | _[Circle principal n-connections](CirclePrincipalConnections)_ |
 | There is a cohesive function from $G$-gauge fields to higher $\mathbb{G}$-gauge fields. | $\vdash \; \exp(i S) \colon \mathbf{B}G_{conn} \to \mathbf{B}^n \mathbb{G}_{conn}$ | A [[differential cohomology|differential]] [[universal characteristic class]]. | An extended [[action functional]]/[[prequantum circle n-bundle|prequantum n-bundle]] for extended [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons-type]] [[gauge theory]].   |  |
 
-... and their _[[schreiber:∞-geometric prequantization]]_ (see there for a more comprehensive disctionary):
+... and their _[[schreiber:∞-geometric prequantization]]_ (see there for a more comprehensive dictionary):
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
@@ -1383,6 +1383,7 @@ $$
   \theta_{\mathbb{R}} = \mathbf{d} \colon \mathbb{R} \to \Omega^1_{cl} \hookrightarrow \Omega^1
   \,.
 $$
+
 
 
 
@@ -3171,6 +3172,7 @@ Fix now
 $$
   \mathbb{G} \in Grp(\mathbf{H})
 $$ 
+
 
 a [[group object in an (∞,1)-category|group object]], hence a cohesive [[∞-group]], to be the object that the [[action functional]] is to take values in. In $\mathbf{H} = $ [[Smooth∞Grpd]] the standard choice is $\mathbb{G} = U(1)$, the [[circle group]], for "exponentiated action functionals" or $\mathbb{R} = \mathbb{R}$, the additive Lie group of [[real numbers]].
 
