@@ -56,6 +56,8 @@ The really clear term for a topological locale is 'locale with enough points to 
 
 ## Related concepts
 
+* [[spatial topos]], [[localic topos]]
+
 * [[locale]]
 
 * [[topological space]]
