@@ -19,10 +19,10 @@
 
 ## Idea
 
-_Stereographic projection_ is the name for a specific [[homeomorphism]] (for any $n \in \mathbb{N}$) from the [[Euclidean space]] $\mathbb{R}^n$ to the [[n-sphere]] $S^n$ with one point $p \in S^n$ removed
+_Stereographic projection_ is the name for a specific [[homeomorphism]] (for any $n \in \mathbb{N}$) form the [[n-sphere]] $S^n$ with one point $p \in S^n$ removed to the [[Euclidean space]] $\mathbb{R}^n$ 
 
 $$
-  \mathbb{R}^n \simeq S^n \backslash p
+  S^n \backslash \{p\} \overset{\simeq}{\longrightarrow} \mathbb{R}^n
   \,.
 $$
 
@@ -30,11 +30,8 @@ $$
 <img src="https://ncatlab.org/nlab/files/StereographicProjection.png" width="300" >
 </div>
 
-Namely one thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] of $\mathbb{R}^{n+1}$ in a standard way, such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. Taking then then point $p \in S^n$ to be one of the resulting "poles", hence at maximal distance form the equatorial hyperplane, one considers the relation
+One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] of $\mathbb{R}^{n+1}$ in the standard way, such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corrsponding poles, the _stereorgraphic projection_ is the  map which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to the equatorial plane. 
 
-"The point $x \in S^n \backslash p$ and $y \in \mathbb{R}^n$ sit on a straight line with the point $p$."
-
-This relation is the "stereographic projection" from the $n$-sphere without that point to the $n$-plane, and vice versa. It establishes a [[bijection]] between $S^n \backslash p$ and $\mathbb{R}^n$. Inspection shows that this bijection is a [[homeomorphism]].
 
 If one applies stereographic projection to _both_ possible poles $p_+, p_- \in S^n$ of the sphere given a fixed equatorial plane, then one obtains two different [[homeomorphisms]]
 
@@ -47,27 +44,17 @@ $$
   \,.
 $$
 
-This constitutes an [[atlas]] that exhibits the [[n-sphere]] as a [[topological manifold]], in fact a [[differentiable manifold]] and in fact as a [[smooth manifold]]. 
+The set of these two projections constitutes an [[atlas]] that exhibits the [[n-sphere]] as a [[topological manifold]], in fact a [[differentiable manifold]] and in fact as a [[smooth manifold]]. 
 
-Moreover, for $n = 2$ and with $\mathbb{R}^2 \simeq_{\mathbb{R}} \mathbb{C}$ regarded as the [[complex plane]], then this atlas realizes the [[2-sphere]] as a [[complex manifold]]: the _[[Riemann sphere]]_.
+For $n = 2$ and with $\mathbb{R}^2 \simeq \mathbb{C}$ regarded as the [[complex plane]], then this atlas realizes the [[2-sphere]] as a [[complex manifold]]: the _[[Riemann sphere]]_.
 
 ## Definition
 
-Consider a (unit, say) [[sphere]] $S^n \subset \mathbb{R}^{n+1}$, and a point $p\in S^n$, considered as a [[vector]] in $\mathbb{R}^{n+1}$. Let $W\subset \mathbb{R}^{n+1}$ be the [[linear subspace]] that is the [[orthogonal complement]] to the [[linear span]] $span\{v\}$. There is a [[homeomorphism]]
-
-$$
-  \sigma \;\colon\; S^n\setminus \{v\} \stackrel{\simeq}{\longrightarrow} W
-$$
-
-given by sending a point $p\in S^n\setminus \{v\}$ to the point in $W$ that is the intersection of the line through $v$ and $p$ with $W$.
-
-More concretely:
-
-We consider the ambient canonical [[coordinates]] of $\mathbb{R}^{n+1}$, in terms of which the $n$-sphere is the [[topological subspace]] whose underlying [[subset]] is 
+We consider the ambient canonical [[coordinates]] of $\mathbb{R}^{n+1}$, in terms of which the $n$-sphere is the [[topological subspace]] whose underlying [[subset]] is presented as follows:
 
 $$
   S^n 
-   \simeq
+   \;\simeq\;
   \left\{
      x = (x_1, \cdots, x_{n+1})  \in \mathbb{R}^{n+1}
      \,\vert\,
@@ -78,7 +65,7 @@ $$
   \,.
 $$
 
-Without restriction, we may identify the given pole point with
+Without restriction, we may identify the given pole point in the coordinates with
 
 $$
   p = (1,0,\ldots,0)
@@ -88,31 +75,37 @@ hence the corresponding equatorial hyperplane with
 
 $$
   \mathbb{R}^n
-    \simeq
+    \;\simeq\;
   \left\{
     x = (x_1, x_2, \cdots, x_{n+1}) \in \mathbb{R}^{n+1}
     \,\vert\,
     x_1 = 0
   \right\}
-   \;\suubset\;
+   \;\subset\;
   \mathbb{R}^{n+1}
   \,.
 $$
 
-+-- {: .num_prop}
++-- {: .num_prop #StandardStereographicProjection}
 ###### Proposition
 **(standard stereographic projection)**
 
-The function which sends a point $x \in S^{n} \backslash p \subset \mathbb{R}^{n+1}$ the the intersection of the line through $p$ and $x$ with the equaltorial hyperplane is a [[homeomorphism]] which is given in terms of ambient coordinates by
+The function which sends a point $x \in S^{n} \backslash p \subset \mathbb{R}^{n+1}$ to the  intersection of the line through $p$ and $x$ with the equaltorial hyperplane is a [[homeomorphism]] which is given in terms of ambient coordinates by
 
 $$
   \array{
+    \mathbb{R}^{n+1} \supset \;\;\;
+    &
     S^n \backslash (1,0, \cdots, 0)
       &\overset{\phantom{AA} \phantom{AA}}{\longrightarrow}&
     \mathbb{R}^{n}
+    &
+    \;\;\;
+    \subset \mathbb{R}^{n+1}
     \\
+    &
     (x_1, x_2, \cdots, x_{n+1})
-    &\ovesrset{\phantom{AAAA}}{\mapsto}&
+    &\overset{\phantom{AAAA}}{\mapsto}&
     \frac{1}{1 - x_1}
     \left(
       0 , x_2, \cdots, x_{n+1}
@@ -147,7 +140,7 @@ $$
   \,.
 $$
 
-Since the only condition on $y$ is that $y_1 = 0$ this condition implies that 
+Since the only condition on $y$ is that $y_1 = 0$ this implies that 
 
 $$ 
   p_1 + d(x_1-p_1) = 0 
@@ -157,7 +150,7 @@ $$
 This equation has a unique solution for $d$ given by
 
 $$ 
-  d = 1/(1-x_1)
+  d = \frac{1}{1 - x_1}
 $$
 
 and hence it follow that
@@ -169,7 +162,7 @@ $$
   \,
 $$
 
-Since [[rational functions are continuous]], this function $\sigma$ is continuous and since the topology on $S^n\backslash p$ is the [[subspace topology]] under the canonical embedding $S^n \backslash p \subset \mathbb{R}^{n+1} \backslash p$ it follows that the restiction
+Since [[rational functions are continuous]], this function $\sigma$ is continuous and since the topology on $S^n\backslash p$ is the [[subspace topology]] under the canonical embedding $S^n \backslash p \subset \mathbb{R}^{n+1} \backslash p$ it follows that the restriction
 
 $$
   \sigma\vert_{S^n \backslash p}
@@ -189,27 +182,36 @@ $$
 
 there is a unique $(x_1, \cdots , x_{n+1})$ satisfying
 
-1. $x_1 \lt 1$;
+1. $(x_1, \cdots, x_{n+1}) \in S^{n} \backslash \{p\}$, hence
 
-1. $\underoverset{i = 1}{n+1}{\sum} (x_i)^2 = 1$;
+   1. $x_1 \lt 1$;
+
+   1. $\underoverset{i = 1}{n+1}{\sum} (x_i)^2 = 1$;
 
 1. $\underset{i \in \{2, \cdots, n+1\}}{\forall} \left(y_i = \frac{x_i}{1-x_1} \right)$.
 
-The last condition uniquely fixes the $x_{i \geq 2}$ in terms of the given $y_{i \geq 2}$ and the remaining $x_1$ as $x_{i \geq 2} = y_i \cdot (1-x_1)$. The second condition then says that 
+The last condition uniquely fixes the $x_{i \geq 2}$ in terms of the given $y_{i \geq 2}$ and the remaining $x_1$, as 
+
+$$
+  x_{i \geq 2} = y_i \cdot (1-x_1)
+  \,.
+$$ 
+
+With this, the second condition says that 
 
 
 $$
   (x_1)^2 + (1-x_1)^2 \underset{r^2}{\underbrace{\underoverset{i = 2}{n+1}{\sum}(y_i)^2}} = 1
 $$
 
-hence that 
+hence equivalently that 
 
 $$
   (r^2 + 1) (x_1)^2 - (2 r^2) x_1 + (r^2 - 1) = 0
   \,.
 $$
 
-By the [[binomial theorem]] the solutions of this equation are
+By the [[quadratic formula]] the solutions of this equation are
 
 $$
   \begin{aligned}
@@ -219,7 +221,7 @@ $$
       { 2 r^2 \pm \sqrt{ 4 r^4 - 4 (r^4 - 1)  } }
       { 2 (r^2 + 1) }
     \\
-    = 
+    & = 
     \frac
       { 2 r^2 \pm 2  }
       { 2 r^2 + 2 }
@@ -227,16 +229,38 @@ $$
   \,.
 $$
 
-Precisely one these two solutions also satisfies the first condition. Therefore we have a unique solution.
+The solution $\frac{ 2 r^2 + 2  }{ 2 r^2 + 2 } = 1$ violates the first condition above, while the solution $\frac{ 2 r^2 - 2  }{ 2 r^2 + 2 } \lt 1$ satisfies it.
 
-So far we have shown that stereographic projection is a bijective continuous function as claimed. To see that it is a homeomorphism, it is now sufficient to see that $\sigma$ is an [[open map]]. This is clear by inspection.
+Therefore we have a unique solution.
+
+So far we have shown that stereographic projection is a bijective continuous function as claimed. To conclude that this is a homeomorphism, it is now sufficient to see that $\sigma$ the [[inverse function]] of $\sigma$ is also continuous, hence that $\sigma$ itself  (under taking [[images]]) sends open subsets of $S^n \backslash \{p\}$ to open subsets of $\mathbb{R}^n$.
+
+Since taking images preserves unions, it is sufficient to check this on the canonical [[base for the topology]], which is given by those subsets that are intersections 
+
+$$
+  B^\circ_x(\epsilon) \cap S^n \backslash \{p\}
+$$
+
+
+of [[open balls]] $B^\circ_x(\eosilon) \subset \mathbb{R}^{n+1}$ in the ambient Euclidean space. It is clear (...) that the images of these intersections in the equatorial hyperplane are open.
 
 
 =--
 
 
 ## Generalizations
-1
+
+Of course the construction in prop. \ref{StandardStereographicProjection} does not really depend on the specific [[coordinates]] chosen there.
+
+More generally, for any point $p\in S^n$, considered as a [[vector]] in $\mathbb{R}^{n+1}$, let $W\subset \mathbb{R}^{n+1}$ be the [[linear subspace]] that is the [[orthogonal complement]] to the [[linear span]] $span\{v\}$. Then there is a [[homeomorphism]]
+
+$$
+  \sigma \;\colon\; S^n\setminus \{v\} \stackrel{\simeq}{\longrightarrow} W
+$$
+
+given by sending a point $p\in S^n\setminus \{v\}$ to the point in $W$ that is the intersection of the line through $v$ and $p$ with $W$.
+
+
 More generally, one may take for $W$ any _[[affine space|affine]]_ subspace of $\mathbb{R}^{n+1}$ normal to $span\{v\}$ and not containing $v$. For instance one option is to take $W$ to be the tangent space to $S^n$ at $-v$, embedded as a subspace of $\mathbb{R}^{n+1}$.
 
 (see e.g. [Cook-Crabb 93, section 1](#CookCrabb93))
