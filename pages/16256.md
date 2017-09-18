@@ -27,9 +27,9 @@ In the context of [[Kaluza-Klein theory]] where an [[electromagnetic field]] in 
 
 This situation is of particular interest in the reduction of [[11-dimensional supergravity]]/[[M-theory]] to [[type IIA string theory]], where the Kaluza-Klein magnetic monopole charge is interpreted as [[D6-brane]] charge.
 
-The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the product $N_4\times \mathbb{R}^{11-5,1}$ of Euclidean [[Taub-NUT spacetime]] with Minkowski spacetime. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name.
+The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the [[product]] $N_4\times \mathbb{R}^{11-5,1}$ of Euclidean [[Taub-NUT spacetime]] with [[Minkowski spacetime]]. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name.
 
-Upon [[KK-compactification]] on a 6-dimensional fiber, with the 11d KK-monopole / [[D6-brane]] completely wrapping the fiber, the KK-monopole in [[11d supergravity]] becomes the KK-monopole in [[5d supergravity]]. Further compactifying on a circle leads a [[black hole]] in 4d, incarnated as a D0/D6 bound state (e.g. [Nelson 93](#Nelson93)).
+Upon [[KK-compactification]] on a 6-dimensional [[fiber]], with the 11d KK-monopole / [[D6-brane]] completely [[wrapped brane|wrapping]] the fiber, the KK-monopole in [[11d supergravity]] becomes the KK-monopole in [[5d supergravity]]. Further compactifying on a circle leads a [[black hole]] in 4d, incarnated as a D0/D6 bound state (e.g. [Nelson 93](#Nelson93)).
 
 ## Relation to the D6-brane in type IIA string theory 
  {#RelationToTheD6Brane}
