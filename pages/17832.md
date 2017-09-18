@@ -18,6 +18,8 @@
 
 An _anti-D-brane_ is the higher dimensional analog for [[D-branes]] of what [[antiparticles]] are for [[fundamental particles]].
 
+In [[perturbative string theory]] the strings stretching between a D-brane and an anti-D-brane have a [[tachyon]] mode. The analog of [[Sen's conjecture]] for this case is the statement that the tachyon potential energy is precisely the energy density of the brane and that the [[condensation]] of the tachyon mode witnesses the annihiliation of the brane/anti-brane pair. ([Sen 98](#Sen98))
+
 ## Relation to K-theory
 
 In general there are $n$ D-branes and $n'$ anti D-branes coinciding, carrying
@@ -57,6 +59,10 @@ This is one of the arguments which suggest that the true home of the gauge field
 
 ## References
 
+The version of [[Sen's conjecture]] for brane/anti-brane annihilation is due to
+
+* {#Sen98} [[Ashoke Sen]], _Tachyon Condensation on the Brane Antibrane System_, JHEP 9808:012,1998 ([arXiv:hep-th/9805170](https://arxiv.org/abs/hep-th/9805170))
+
 Textbook accounts on anti-D-branes include
 
 * [[Koji Hashimoto]], section 5.3.1 of _D-brane_, Springer 2012
@@ -68,6 +74,11 @@ The relation between brane/anti-brane annihilation and the [[topological K-theor
 and the argument that this implies that also the [[RR-fields]] are in K-theory is due to
 
 * {#MooreWitten99} [[Gregory Moore]], [[Edward Witten]], p. 6 of _Self-Duality, Ramond-Ramond Fields, and K-Theory_, JHEP 0005:032 (2000) ([arXiv:hep-th/9912279](https://arxiv.org/abs/hep-th/9912279))
+
+Review of this is in 
+
+* [[Edward Witten]], _Overview Of K-Theory Applied To Strings_,  	Int.J.Mod.Phys.A16:693-706,2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
+
 
 [[!redirects anti D-branes]]
 
