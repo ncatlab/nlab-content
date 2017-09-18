@@ -243,14 +243,18 @@ Examples of cofibrant objects in the projective model structure are discussed at
 
 * [[model structure on homotopical presheaves]], [[model structure on simplicial presheaves]]
 
+* [[model structure for n-excisive functors]]
+
 ## References
 
-The plain situation is the topic of section A.2.8 of
+The projective model structure on functors to [[sSet]] was maybe originally discussed in
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* [[Boris Chorny]], [[William Dwyer]], _Homotopy theory of small diagrams over large categories_, [arXiv:math/0607117](http://arxiv.org/abs/math/0607117)
 
-The enriched situation is section A.3.3 there.
+A comprehensive discussion is in
+
+* {#Lurie} [[Jacob Lurie]],  sections A.2.8 (unenriched) and section A.3.3 (enriched) of _[[Higher Topos Theory]]_
+
 
 See also 
 
