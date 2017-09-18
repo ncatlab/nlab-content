@@ -733,6 +733,11 @@ and a detailed proof of the statement in homology is in section 3 of
 
 ### For generalized (co)homology
 
+The universal coefficient theorem in [[symmetric smash product of spectra|symmetric monoidal]] [[model categories of spectra]] is discussed in
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 8 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+
 Universal coefficient theorems for [[generalized homology]] are discussed in 
 
 * [[Friedrich Bauer]], _Remarks on universal coefficient theorems for generalized homology theories_ Quaestiones Mathematicae
