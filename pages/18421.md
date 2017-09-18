@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _topological ∞-groupoid_ is meant to be an [[∞-groupoid]] that is equipped with [[topology|topological]] structure. For instance a [[0-truncated object|0-truncated]] topological $\infty$-groupoid should just be a [[topological space]], and 1-truncated topological $\infty$-groupoids should repproduce [[topological groupoids]]/[[topological stacks]], etc.
+A _topological ∞-groupoid_ is meant to be an [[∞-groupoid]] that is equipped with [[topology|topological]] structure. For instance a [[0-truncated object|0-truncated]] topological $\infty$-groupoid should just be a [[topological space]], and 1-truncated topological $\infty$-groupoids should reproduce [[topological groupoids]]/[[topological stacks]], etc.
 
 A generic way to make sense of this in a _[[gros topos]]_ perspective is to pick some small [[subcategory]] $Top_{sm}$ of the category [[Top]] of [[topological spaces]], regard it as a [[site]] with respect to an evident [[coverage]] by [[open covers]], and then take the [[(∞,1)-topos]] of generalized topological $\infty$-groupoids to be the [[(∞,1)-category of (∞,1)-sheaves]] on this site:
 
