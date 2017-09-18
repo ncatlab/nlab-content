@@ -1108,7 +1108,7 @@ When forming [[nLab:cell complexes]] from disks, then each relative dimension wi
 +-- {: .num_defn #WedgeSum}
 ###### Definition
 
-For $\{x_i \colon * \to X_i\}_i$ a set of [[nLab:topological spaces]], their _[[nLab:wedge sum]]_ $\vee_i X_i$ is the result of identifying all base points in their [[nLab:disjoint union]], hence the quotient
+For $\{x_i \colon * \to X_i\}_i$ a [[set]] of [[pointed topological spaces]], their _[[nLab:wedge sum]]_ $\vee_i X_i$ is the result of identifying all base points in their [[nLab:disjoint union]], hence the quotient
 
 $$
   \left(
@@ -1132,7 +1132,7 @@ The wedge sum of two pointed [[nLab:circles]] is the "figure 8"-topological spac
 +-- {: .num_prop #ReducedHomologyRespectsWedgeSum}
 ###### Proposition
 
-Let $\{* \to X_i\}_i$ be a set of [[nLab:pointed object|pointed]] [[nLab:topological spaces]]. Write $\vee_i X_i \in Top$ for their [[nLab:wedge sum]] and write
+Let $\{* \to X_i\}_i$ be a set of [[pointed topological spaces]]. Write $\vee_i X_i \in Top$ for their [[nLab:wedge sum]] and write
 $\iota_i \colon X_i \to \vee_i X_i$ for the canonical inclusion functions.
 
 
