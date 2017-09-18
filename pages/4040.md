@@ -119,7 +119,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Peano curve]]
 
-* [[long line]], [[line with two origins]]
+* [[line with two origins]], [[long line]], [[Sorgenfrey line]]
 
 * [[K-topology]], [[Dowker space]]
 
