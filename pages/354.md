@@ -837,7 +837,9 @@ This example is the universal one: up to [[model structure on simplicial sets|we
 
 This is the statement of the [[homotopy hypothesis]] (which is a theorem for $\infty$-groupoids modeled as Kan complexes.
 
+## Cubical analogue
 
+The simplicial notion of a Kan complex has an analogue for [[cubical set | cubical sets]], discussed at: [[cubical Kan complex]].
 
 ## Related concepts
 
@@ -845,10 +847,10 @@ This is the statement of the [[homotopy hypothesis]] (which is a theorem for $\i
 
 Other concepts:
 
-
 * [[Eilenberg subcomplex]]
 
 * [[weak Kan complex]]
+
 
 ## References
 
