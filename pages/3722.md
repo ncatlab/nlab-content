@@ -39,7 +39,7 @@ A topological closure operator is a [[Moore closure]] operator $Cl: P(X) \to P(X
 
 #### Kuratowski's closure-complement problem 
 
-This mildly amusing curiosity asks how many set-theoretic operations on a topological space $X$ are derivable from closure $C$ and [[complementation]] $\neg$ and applying finite composition. The answer is that at most 14 operations are so derivable (and there are examples showing this number is achievable). 
+This mildly amusing curiosity asks how many set-theoretic operations on a topological space $X$ are derivable from closure $C$ and [[complementation]] $\neg$ and applying finite composition. The answer is that at most 14 operations are so derivable (and there are examples showing this number is achievable). As the proofs below indicate, this fact has little to do with topology; it actually has more to do with general Moore closures. 
 
 Let $P(X)$ denote the [[power set]] (ordered by [[subset|inclusion]]) and $M$ the [[monoid]] of [[endofunctions]] $P(X) \to P(X)$ with order defined pointwise. Then $C^2 = C$ and $\neg^2 = 1$ in $M$, with $C$ order-preserving and $\neg$ order-reversing. Also 
 
@@ -81,7 +81,7 @@ $$\neg C \neg C, \qquad C \neg C \neg, \qquad \neg C \neg C \neg, \qquad C \neg 
 with any further alternating words reducible by replacing a substring $C \neg C \neg C \neg C$ by $C \neg C$. Thus each element in the monoid presented as above is represented by one of these 14 words. 
 =-- 
 
-These 14 words actually name distinct set-theoretic operations $P(X) \to P(X)$ for a judicious choice of space $X$ (and as a corollary, the monoid presented above has exactly 14 elements). For instance (courtesy of Wikipedia), taking $X = \mathbb{R}$ with its standard topology, the orbit of the element $(0, 1) \cup (1, 2) \cup \{3\} \cup ([4, 5] \cap \mathbb{Q})$ under the monoid action consists of 14 distinct elements. 
+These 14 words actually name distinct set-theoretic operations $P(X) \to P(X)$ for a judicious choice of space $X$; as a corollary, the monoid presented above has exactly 14 elements. For instance (courtesy of Wikipedia), taking $X = \mathbb{R}$ with its standard topology, the orbit of the element $(0, 1) \cup (1, 2) \cup \{3\} \cup ([4, 5] \cap \mathbb{Q})$ under the monoid action consists of 14 distinct elements. 
 
 ### Locales
 
