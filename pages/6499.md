@@ -1,3 +1,4 @@
+[[!redirects global analytic geometry]]
 [[!redirects global analytic spaces]]
 [[!redirects global analytic space]]
 
@@ -49,7 +50,7 @@ disc are not so well adapted to the study of torsion phenomena in the characteri
 * get back the p-adic analytic de Rham Chern character (on Ayoub's motivic cohomology) of dagger spaces when one works with dagger p-adic spaces.
 * get back the usual de Rham Chern character when one works over $\C$.
 
-This first set of constraints is worked out with the theory of [[overconvergent global analytic geometry]].
+This first set of constraints is worked out in the theory of [[overconvergent global analytic geometry]].
 
 ## A more optimistic set of constraints
 
