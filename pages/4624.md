@@ -23,7 +23,7 @@
 
 ## Idea
 
-Given any [[object]] $X$ in any [[category]] $C$, the [[subobjects]] of $X$ form a [[poset]] (though in general it may be a [[large category|large]] one, i.e. a partially ordered [[proper class]]), called (naturally enough) the __poset of subobjects__ of $X$, or the __subobject poset__ of $X$.
+Given any [[object]] $X$ in any [[category]] $C$, the [[subobjects]] of $X$ form a [[poset]] (though in general it may be a [[large category|large]] one, i.e. a partially ordered [[proper class]]; cf. [[well-powered category]]). This is called, naturally enough, the __poset of subobjects__ of $X$, or the __subobject poset__ of $X$.
 
 Sometimes it is the __poset of [[regular subobjects]]__ that really matters (although these are the same in any ([[pretopos|pre]])[[topos]]).
 
@@ -44,7 +44,9 @@ The reader can probably think of other variations on this theme.
 
 [^1]: Discussions of this can be found in [A.1.3](#Johnstone) of Johnstone's Elephant, and also [this MO discussion](#MO). 
 
-* [[lattice of subgroups]]
+* [[lattice of subgroups]] 
+
+* [[well-powered category]] 
 
 ## References
 
