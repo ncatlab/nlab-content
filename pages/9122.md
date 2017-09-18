@@ -61,7 +61,7 @@ For $X$ a [[geometric homotopy type]], the result of applying the infinitesimal 
 
 ### Relation to jet bundles
 
-For $E$ a [[dependent type]] on $X$, its [[dependent product]] along the [[unit of a monad|unit]] of the infinitesimal shape modality has the interpretation of the [[jet type]] $j(E)$. See there for more.
+For any object $X$ in [[differential cohesion]], the [[base change]] [[comonad]] $Jet \coloneqq i^\ast i_\ast$ along the [[unit of a monad|unit]] $i \colon X \to \Im X$ has the interpretation of being the [[jet comonad]] which sends [[bundles]] over $X$ to their [[jet bundles]].
 
 ### Relation to crystalline cohomology
 
