@@ -346,6 +346,10 @@ See at _[[rational n-sphere]]_.
 
 * [[formal dg-algebra]]
 
+### Free loop spaces
+
+* [[Sullivan model of free loop space]]
+
 ## References
 
 In
