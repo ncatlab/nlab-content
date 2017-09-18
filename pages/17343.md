@@ -19,7 +19,7 @@ $\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
 
 
 
-**Abstract** _We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. In the accompanying [seminar](#ComplexOrientedCohomology) we work through related classical results in [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
+**Abstract** _We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. In the accompanying [[Introduction to Stable homotopy theory -- S|seminar]] we consider applications to [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
 
 ***
 
@@ -8230,7 +8230,7 @@ is the morphism in the [[homotopy category of a model category|homotopy category
 +-- {: .num_prop #HomotopyFiberIndependentOfChoiceOfFibrantReplacement}
 ###### Proposition
 
-The homotopy fiber in def. \ref{HomotopyFiber} is indeed well defined,in that for $f_1$ and $f_2$ two fibration replacements of any morphisms $f$ in $\mathcal{C}_f$, then their fibers are isomorphic in $Ho(\mathcal{C}^{\ast/})$.
+The homotopy fiber in def. \ref{HomotopyFiber} is indeed well defined, in that for $f_1$ and $f_2$ two fibration replacements of any morphisms $f$ in $\mathcal{C}_f$, then their fibers are isomorphic in $Ho(\mathcal{C}^{\ast/})$.
 
 =--
 
