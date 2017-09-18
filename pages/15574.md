@@ -340,7 +340,7 @@ By prop. \ref{OverCohesiveSiteBecomingIsResolved} we have that $(\flat\dashv \sh
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #OnDoubleNegation}
 ###### Remark
 As mentioned above, the Aufhebung of $\emptyset\dashv \ast$ is necessarily given by a _dense_ subtopos $\mathcal{E}_j$. Since $\neg\neg$ is the unique largest dense topology (cf.
 [[double negation topology]] or the references cited there) it follows in general that $\mathcal{E}_{\neg\neg}\subseteq\mathcal{E}_j$ , in particular $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is [[essential geometric morphism|essential]]. Another consequence is that $\mathcal{E}_j$ is [[Boolean topos|Boolean]] precisely when $\mathcal{E}_{\neg\neg}$ is essential e.g. for Boolean $\mathcal{E}$ this happens trivially and accordingly the Aufhebung of $\emptyset\dashv \ast$ is $\mathcal{E}$ in this case. It also follows from the preceding proposition that for [[cohesive sites]] over [[Set]]: $Sets=\mathbf{H}_{\neg\neg}$.
