@@ -69,13 +69,13 @@ In [[twisted cohomology]].
 
 A comprehensive textbook account on parameterized spectra in [[∞Grpd]] $\simeq$ $L_{whe}$[[Top]] is in
 
-* [[Peter May]], J. Sigurdsson, _[[Parametrized Homotopy Theory]]_, 2006
-  {#MaySigurdsson06]
+* {#MaySigurdsson06} [[Peter May]], J. Sigurdsson, _[[Parametrized Homotopy Theory]]_, 2006
+  
 
 A formulation of aspects of this in [[(∞,1)-category theory]] is in 
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
-  {#AndoBlumbergGepner11}
+* {#AndoBlumbergGepner11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
+  
 
 See also the further references at _[[(∞,1)-module bundle]]_.
 
