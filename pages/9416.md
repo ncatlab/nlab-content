@@ -14,6 +14,7 @@ Kazhdan and Lusztig geometrically realized the Springer correspondence via the s
 * Mikhail Grinberg, _A generalization of Springer theory using nearby cycles_, Represent. Theory __2__ (1998), 410-431 [pdf](http://www.ams.org/journals/ert/1998-002-12/S1088-4165-98-00053-3/S1088-4165-98-00053-3.pdf)
 
 * Julia Sauter, _A survey on Springer theory_, [arxiv/1307.0973](http://arxiv.org/abs/1307.0973)
+* Gwyn Bellamy, Travis Schedler, _Kostka polynomials from nilpotent cones and Springer fiber cohomology_, [arxiv/1509.02520](http://arxiv.org/abs/1509.02520)
 
 Some higher categorical aspects are more explicitly present in the works of Nadler and coworkers:
 
