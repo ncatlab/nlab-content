@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
+#### Cobordism theory
++--{: .hide}
+[[!include cobordism theory -- contents]]
+=--
 #### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
