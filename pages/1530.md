@@ -93,6 +93,10 @@ In [[physics]] terminology this corresponds to "locally gauging" the [[symmetry 
 
 Aspects of Klein geometry may be generalized from groups to [[groupoids]] and even [[category|categories]] or $\infty$-[[infinity-groupoid|groupoids]]. See at _[[higher Klein geometry]]_.
 
+### Logicality and invariance
+
+Logicians have attempted to demonstrate that specifically _logical_ constructions are those invariant under the largest group of transformations, in the sense of the Erlangen program. See [[logicality and invariance]]. 
+
 
 ## References 
 
