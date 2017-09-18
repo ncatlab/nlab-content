@@ -1,6 +1,14 @@
-_Categories Work_ is a book on [[category theory]] by Saunders Mac Lane.
 
-The full title is _Categories for the Working Mathematician_. The original edition has the following chapters
+* [[Saunders MacLane]],
+
+  _Categories for the Working Mathematician_
+
+is a classical textbook on [[category theory]]. See also
+
+* [[Saunders MacLane]], _[[Lectures on category theory]], Bowdoin Summer School 1969, Notes taken by [[Ellis Cooper]] 
+
+
+The original edition has the following chapters
 
 *  I. Categories, functors, and natural transformations
 *  II. Constructions on categories
