@@ -57,6 +57,8 @@ In the presence of the [[axiom of choice]], a [[cardinal number]] can be defined
 
 * [[countable ordinal]], [[uncountable ordinal]]
 
+* [[ordinal arithmetic]]
+
 * [[cardinal]]
 
 * [[plump ordinal]]
