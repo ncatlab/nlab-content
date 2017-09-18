@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,7 +24,9 @@ This group can be considered as a sub[[variety]] of the [[affine scheme|affine s
 
 ## Related concepts
 
-* [[general linear group]], [[projective linear group]]
+* [[general linear group]], 
+
+* [[projective special linear group]]
 
 * [[special unitary group]]
 
