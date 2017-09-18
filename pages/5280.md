@@ -114,7 +114,7 @@ which implies that $A$ is a fixed point of $\neg_X \exists_g \neg_Y \exists_f$, 
 
 ### Beta reduced proof 
 
-The preceding proofs are sometimes considered too abstract to easily visualize, but this is slightly misleading: the second proof, involving the construction of a maximal fixed point as a countable limit, can be "beta-reduced" to produce one of the standard "more concrete" proofs. 
+The preceding proofs are sometimes considered too abstract to easily visualize, but this is slightly misleading: the second proof, involving the construction of a maximal fixed point as a countable limit, can be "[[beta-reduced]]" to produce one of the standard "more concrete" proofs. 
 
 In a nutshell, the maximal fixed point of the operator $\neg \exists_g \neg \exists_f: P X \to P X$ can be expressed as an alternating series of iterated direct images: 
 
