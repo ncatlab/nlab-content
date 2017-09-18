@@ -43,7 +43,7 @@ This section may duplicate/contradict other nLab accounts of similar lemmas. Thi
 
 **Closedness of pullback squares under composition.**
 
-* The composition of two pullback squares is a pullback square
+* The composition of two pullback squares is a pullback square.
 
 **Outer square being a pullback implies left-hand square being a pullback, in the presence of a jointly monic span.**
 
@@ -79,20 +79,27 @@ O_{0,1} & \to & O_{1,1} \\
 \downarrow m &&\downarrow h  \\
 O_{0,0} & \to & O_{1,0}
 }$$
-is a commutative diagram in a category $\mathcal{C}$  such that 
+is a commutative diagram in $\mathrm{C}$ such that 
 
-* * $\mathcal{C}$ is $\mathrm{C}$
-* * $m$ is $\mathrm{T}$ in $\mathcal{C}$
-* * the diagram is a pushout in $\mathcal{C}$
+* * $m$ is $\mathrm{T}$ in $\mathrm{C}$
+* * the diagram is a pushout in $\mathrm{C}$
 
 
 Then 
 
-* * $h$ is $\mathrm{T}$ in $\mathcal{C}$
-* * the diagram is a pullback in $\mathcal{C}$
+* * $h$ is $\mathrm{T}$ in $\mathrm{C}$
+* * the diagram is a pullback in $\mathrm{C}$
 
 
-(cf. [[quasitopos]], Section "Properties"). Note that the result for quasitoposes immediately implies the result for toposes, since all monomorphisms $i: A \to B$ in a topos are regular ($i$ being the equalizer of the arrows $\chi_i, t \circ !: B \to \Omega$ where $\chi_i$ is the classifying map of $i$) and therefore strong. 
+(cf. [[quasitopos]], Section "Properties"). Note that the result for quasitoposes immediately implies the result for toposes, since all monomorphisms $i: A \to B$ in a topos are [[regular monomorphism|regular]] ($i$ being the equalizer of the arrows $\chi_i, t \circ !: B \to \Omega$ in 
+
+$$\array{
+ & & 1 \\ 
+ & \mathllap{!} \nearrow & \downarrow \mathrlap{t} \\ 
+B & \underset{\chi_i}{\to} & \Omega
+}$$ 
+
+where $\chi_i$ is the classifying map of $i$) and therefore strong. 
 
 
 ### lemmas on equalizers 
