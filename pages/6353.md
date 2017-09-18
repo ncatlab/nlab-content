@@ -6,9 +6,13 @@
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
 =--
-#### Quantum field theory
-+--{: .hide}
-[[!include functorial quantum field theory - contents]]
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
 =--
 =--
 =--
@@ -20,9 +24,14 @@
 
 ## Idea
 
-A _T-fold_ is a [[space]] that locally looks like a [[Riemannian manifold]] equipped with a [[B-field]], but is glued together from these not just by [[diffeomorphisms]] but also by [[T-duality]] transformations.
+A _T-fold_ ([Hull 04](#Hull04)) is supposed to be a kind of [[space]] that locally looks like a [[Riemannian manifold]] equipped with a [[B-field]], but which is is glued together from these not just by [[diffeomorphisms]] but also by [[T-duality]] transformations along some [[torus]] [[fibers]].
 
 The idea is that a T-fold is a [[target space]] for a [[string]] [[sigma-model]] that is only locally a [[Riemannian manifold]] but globally a more general kind of [[geometry]]. In the literature sometimes the term _non-geometric backgrounds_ is used for such "generalized geometric" backgrounds.
+
+It is expected that T-folds should have a description in terms of spaces that locally are [[fiber products]] of one [[torus]] [[fiber bundle]] with its T-dual. (One proposed formalization is that these are the total spaces of [[principal 2-bundles]] for the [[T-duality 2-group]]). 
+
+One may then consider [[local field theory]] on these double torus fibrations, and this is, or is closely related to, what is called _[[double field theory]]_ ([Hull 06](#Hull06)).
+
 
 ## Related concepts
 
@@ -32,11 +41,14 @@ The idea is that a T-fold is a [[target space]] for a [[string]] [[sigma-model]]
 
 The idea was originally introduced in 
 
-* [[Chris Hull]], _A Geometry for Non-Geometric String Backgrounds_, JHEP0510:065,2005 ([arXiv:hep-th/0406102](http://arxiv.org/abs/hep-th/0406102))
+* {#Hull04} [[Chris Hull]], _A Geometry for Non-Geometric String Backgrounds_, JHEP0510:065,2005 ([arXiv:hep-th/0406102](http://arxiv.org/abs/hep-th/0406102))
+
+The relation to [[double field theory]] goes back to
+
+* {#Hull06} [[Chris Hull]], _Doubled geometry and T-folds_ JHEP0707:080,2007  ([arXiv:hep-th/0605149](http://arxiv.org/abs/hep-th/0605149))
+
 
 Further developments are in 
-
-* [[Chris Hull]], _Doubled geometry and T-folds_ JHEP0707:080,2007  ([arXiv:hep-th/0605149](http://arxiv.org/abs/hep-th/0605149))
 
 * [[Chris Hull]], _Global Aspects of T-Duality, Gauged Sigma Models and T-Folds_ ([arXiv:hep-th/0604178](http://arxiv.org/abs/hep-th/0604178))
 
