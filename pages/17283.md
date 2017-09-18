@@ -241,10 +241,13 @@ The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ e
 
 =--
 
-### Homological algebra of Hopf comodules
- {#HomologicalAlgebraOfHopfComodulles}
 
-+-- {: .num_prop }
+### Homological algebra of Hopf comodules
+ {#HomologicalAlgebraOfHopfComodules}
+
+We discuss aspects of the [[homological algebra]] in [[categories]] of Hopf comodules, def. \ref{CommutativeHopfAlgebroidComodule}.
+
++-- {: .num_prop #CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}
 ###### Proposition
 
 If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} is such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], then the [[category]] $\Gamma CoMod$ of [[comodules]] over $\Gamma$, def. \ref{CommutativeHopfAlgebroidComodule}, is an [[abelian category]].
@@ -258,7 +261,7 @@ If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopf
 
 It is clear that, without any condition the Hopf algebroid, $\Gamma CoMod$ is an [[additive category]]. 
 
-We discuss that with the assumption that $\Gamma$ is flat over $A$, then this is also a [[pre-abelian category]] in that [[kernels]] and [[cokernels]] exist. Let $f \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of Hopf comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
+We need to show that with the assumption that $\Gamma$ is flat over $A$, then this is also a [[pre-abelian category]] in that [[kernels]] and [[cokernels]] exist. Let $f \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of Hopf comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
 
 $$
   \array{
@@ -302,11 +305,88 @@ formed in $\Gamma CoMod$ has underlying it the corresponding comparison morphism
 
 =--
 
++-- {: .num_prop #CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}
+###### Proposition
+
+If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} is such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], then 
+
+1. every co-free $\Gamma$-[[comodule]], def. \ref{CoFreeComodules}, on an [[injective module]] over $A$ is an [[injective object]] in $\Gamma CoMod$;
+
+1. $\Gamma CoMod$ has [[enough injectives]] (if the [[axiom of choice]] holds in the ambient [[set theory]]).
+
+=--
+
+(e.g. [Ravenel 86, lemma A1.2.2](#Ravenel86))
+
++-- {: .proof}
+###### Proof
+
+First of all, assuming the [[axiom of choice]], then the [[category of modules]] $A Mod$ has [[enough injectives]] (see [this proposition](injective+object#AbHasEnoughInjectives)).
+Now by prop. \ref{CoFreeComodules} we have the [[adjunction]]
+
+$$
+  \Gamma CoMod
+   \stackrel{\overset{co-free}{\longleftarrow}}{\underset{forget}{\longrightarrow}}
+  A Mod
+ \,.
+$$
+
+Observe that the [[left adjoint]] is a [[faithful functor]] (being a [[forgetful functor]]) and that, by the proof of prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}, it is an [[exact functor]]. With this a standard lemma applies ([here](injective+object#TransferOfEnoughInjectivesAlongAdjunctions)) which says that
+
+1. with $I \in A Mod$ an [[injective module]], then the co-free comodule $\Gamma \otimes_A I$ is an [[injective object]] in $\Gamma CoMod$;
+
+1. for $N \in \Gamma CoMod$ any object, and for $i \colon U(N) \hookrightarrow I$ a monomorphism of $A$-modules into an injective $A$-module, then the [[adjunct]] $\tilde i \colon N \hookrightarrow \Gamma\otimes_A I$ is a monomorphism in $\Gamma CoMod$ (and into an injective comodule).
+
+=--
+
+
++-- {: .num_lemma #CoFreeHopfComodulesAreHomNAcyclicForProjectiveN}
+###### Lemma
+
+Let $\Gamma$ be a [[commutative Hopf algebroid]] over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], 
+Let $N \in \Gamma CoMod$ be a Hopf [[comodule]], def. \ref{CommutativeHopfAlgebroidComodule}, such that the underlying $A$-module is a [[projective module]] (a [[projective object]] in $A$[[Mod]]). 
+
+Then  (assuming the [[axiom of choice]]) every co-free commodule, prop. \ref{CoFreeComodules}, is an $F$-[[acyclic object]] for $F$ the [[hom functor]] $Hom_{\Gamma CoMod}(N,-)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that the [[derived functors in homological algebra|derived functors]] $R^{\bullet} Hom_{\Gamma}(N,-)$ vanish in positive degree on all co-free comodules, hence on $\Gamma \otimes_A K$, for $K \in A Mod$. 
+
+To that end, let $I^\bullet$ be an [[injective resolution]] of $K$ in $A Mod$. By prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} then $\Gamma \otimes_A I^\bullet$ is a sequence of [[injective objects]] in $\Gamma CoMod$ and by the assumption that $\Gamma$ is flat over $A$ it is an [[injective resolution]] of $\Gamma \otimes_A K$ in $\Gamma CoMod$. Therefore the derived functor in question is given by
+
+$$
+  \begin{aligned}
+    R^{\bullet \geq 1} Hom_\Gamma(N, \Gamma \otimes_A K)
+    & \simeq
+    H_{\bullet \geq 1}( Hom_\Gamma( N, \Gamma \otimes_A I^\bullet ) )
+    \\
+    & \simeq H_{\bullet \geq 1}( Hom_A(N, I^\bullet) )
+    \\
+    & \simeq 0
+  \end{aligned}
+  \,.
+$$
+
+Here the second equivalence is the cofree/forgetful adjunction isomorphism of prop. \ref{CoFreeComodules}, while the last equality then follows from the assumption that the $A$-module underlying $N$ is a [[projective module]] (since [[hom functors]] out of [[projective objects]] are [[exact functors]] ([here](projective+object#EquivalenceOfDefinitionsInAbelian)) and since derived functors of exact functors vanish in positive degree ([here](derived+functor+in+homological+algebra#DerivedFunctorOfExactFunctor))).
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the application to Hopf algebroids induced from [[commutative ring spectra]] $E$ ([below](#FromRingSpectra)), lemma \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} is the key statement that identifies the entries of the second page of the $E$-[[Adams spectral sequence]] with [[Ext]]-groups of Hof comodules. See at _[Adams spectral sequence -- The second page](Adams+spectral+sequence#TheE2TermOfTheEAdamsSpectralSequence)_.
+
+=--
 
 
 ## Examples
 
 ### From ring spectra
+ {#FromRingSpectra}
 
 The [[cosimplicial object|cosimplicial]] spectra of certain [[commutative ring spectra]] $E$ (their [[Amitsur complexes]]) yield commutative Hopf algebroids when truncated. The Hopf algebroids appearing this way govern the corresponding $E$-[[Adams spectral sequences]].
 
