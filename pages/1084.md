@@ -1401,6 +1401,11 @@ $$ A\to Cyl(u)\to Cone(u)\to A[1]$$
 
 for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly induced by $u$. 
 
+## Related concepts
+
+* [[mapping cylinder]]
+
+* [[mapping telescope]]
 
 ## References
 
