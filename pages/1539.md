@@ -70,7 +70,7 @@ In a quasitopos the [[pushout]] of a [[strong monomorphism]] is again a strong m
 
 =--
 
-This appears as [Elephant, Lemma 2.6.2](#Elephant), using the synonym _cocover_ for _strong monomorphism_.
+This appears as [Elephant, Lemma A.2.6.2](#Elephant), using the synonym _cocover_ for _strong monomorphism_. Since a topos is a quasitopos in which all monomorphisms are strong, this implies that the pushout of a mono in a topos is again a mono and that the resulting square is a pullback. Together with the fact that colimits are universal in a topos, this implies that a topos is an [[adhesive category]]. 
 
 +-- {: .un_corollary}
 ###### Corollary
