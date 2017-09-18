@@ -43,7 +43,7 @@ The full [[perturbation series]] is the [[sum]] of all these (finite) contributi
 +-- {: .num_remark}
 ###### Remark
 
-A string scattering amplitude is called _UV-finite_ at a given loop order ([[genus]] of a [[Riemann surface]] $\Sigma$ with $n$ marked points/string insertions) if the [[correlation function]] $\langle \phi_1, \cdots, \phi_n\rangle_{\Sigma}$ is finite for every single such [[Riemann surface]]. The actual string amplitude at order $(g,n)$ though is the avraging of this over all possible [[conformal structures]] on $\Sigma$, hence the  [[integration]] of the [[correlation function]], as a function on the conformal structure, over the compactified [[moduli space of conformal structures]] $\mathcal{M}_{g,n}$ (a [[Deligne-Mumford stack]]). 
+A string scattering amplitude is called _UV-finite_ at a given loop order ([[genus]] of a [[Riemann surface]] $\Sigma$ with $n$ marked points/string insertions) if the [[correlation function]] $\langle \phi_1, \cdots, \phi_n\rangle_{\Sigma}$ is finite for every single such [[Riemann surface]]. The actual string amplitude at order $(g,n)$ though is the averaging of this over all possible [[conformal structures]] on $\Sigma$, hence the  [[integration]] of the [[correlation function]], as a function on the conformal structure, over the compactified [[moduli space of conformal structures]] $\mathcal{M}_{g,n}$ (a [[Deligne-Mumford stack]]). 
 
 If also this integral is finite, hence if the total [[measure]] on the [[moduli space of conformal structures]] is finite, then one says the amplitude is _IR-finite_.
 
