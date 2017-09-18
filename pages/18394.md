@@ -41,4 +41,4 @@ A space that admits only Hausdorff cospaces is equivalently an H-closed space, i
 * G. E. Strecker and G. Viglino, _Cotopology and Minimal Hausdorff Spaces_ 1969,  Proceedings of the American Mathematical Society
 Vol. 21 No. 3.
 
-[[!redirects compact space]]
+[[!redirects cocompact space]]
