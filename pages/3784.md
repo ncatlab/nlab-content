@@ -51,6 +51,8 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
   * [[Kerr spacetime]] 
 
+* [[asymptotically flat spacetime]]
+
 * [[gravitational wave]]
 
 * [[anti de Sitter spacetime]]
