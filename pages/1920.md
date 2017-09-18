@@ -157,7 +157,7 @@ Note also that for any virtual double category $X$, there is another virtual dou
 
 * [[Geoff Cruttwell]] and [[Mike Shulman]], _A unified framework for generalized multicategories_, [arxiv/0907.2460](http://arxiv.org/abs/0907.2460)
 
-* [[Tom Leinster]], _Generalized enrichement for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
+* [[Tom Leinster]], _Generalized enrichment for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
 
 * A blog post (of probably many; someone should find some others): [Generalized Operads in Classical Algebraic Topology](http://golem.ph.utexas.edu/category/2009/10/generalized_operads_in_classic.html)
 
