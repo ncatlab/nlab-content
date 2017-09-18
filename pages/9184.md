@@ -40,7 +40,7 @@ $$
 
 but that -- since the term $tr(F_\nabla \wedge F_\nabla)$ causes parity violation, which is strongly constrained by [[experiment]] -- there must be some reason why $\theta$ vanishes or else is extremely small.
 
-(Here the term $tr(F_\nabla \wedge F_\nabla$ is the [[invariant polynomial]] for the [[second Chern class]], measuring the [[instanton number]] of the [[gauge field]] $\nabla$.)
+(Here the term $tr(F_\nabla \wedge F_\nabla)$ is the [[invariant polynomial]] for the [[second Chern class]], measuring the [[instanton number]] of the [[gauge field]] $\nabla$.)
 
 The solution to this problem via axions is to assume that $\theta$ is not really a fundamental parameter, but instead is the [[vacuum expectation value]] of a dynamical [[field (physics)|field]] $a$ (the axion). 
 
