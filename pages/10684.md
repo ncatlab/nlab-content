@@ -162,7 +162,7 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 * [[p-typical formal group]]
 
-* [universal complex orientation on MU](cobordism+cohomology+theory#UniversalComplexOrientation)
+* [universal complex orientation on MU](cobordism+cohomology+theory#UniversalComplexOrientation), [[complex orientation and MU]]
 
 * [[Adams-Quillen theorem]]
 
