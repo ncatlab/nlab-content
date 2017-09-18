@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -49,6 +49,8 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 * [[irreducible 3-manifold]]
 
 * [[atoroidal 3-manifold]]
+
+* [[Seifert 3-manifold]]
 
 * [[knot theory]]
 
