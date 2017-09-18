@@ -361,7 +361,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{OverCohesiveSiteBecomingIsResolved} we have that $(\flat\dashv \sharp)$ resolves $(\emptyset \dashv \ast)$ and so it remains to see that it is the minimal [[level of a topos|level]] with this property. But the [[subtopos]] of [[sharp modality|sharp]]-[[modal types]] is $\simeq$ [[Set]] which is clearly a 2-valued [[Boolean topos]]. By [this proposition](subtopos#BooleantoposesAreAtoms) these are the [[atoms]] in the [[subtopos lattice]] hence are minimal as non-trivial subtoposes and hence also as non-trivial [[level of a topos|levels]].
+By prop. \ref{OverCohesiveSiteBecomingIsResolved} we have that $(\flat\dashv \sharp)$ resolves $(\emptyset \dashv \ast)$ and so it remains to see that it is the minimal [[level of a topos|level]] with this property. But the [[subtopos]] of [[sharp modality|sharp]]-[[modal types]] is $\simeq$ [[Set]] which is clearly a [[two-valued topos|two-valued]] [[Boolean topos]]. By [this proposition](subtopos#BooleantoposesAreAtoms) these are the [[atoms]] in the [[subtopos lattice]] hence are minimal as non-trivial subtoposes and hence also as non-trivial [[level of a topos|levels]].
 
 =--
 
