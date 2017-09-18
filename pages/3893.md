@@ -47,7 +47,7 @@ The original article is
 
 Textbook accounts are in 
 
-* R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
+* R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlangen program_ Springer (1997)
 
 * {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
