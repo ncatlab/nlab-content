@@ -5237,7 +5237,7 @@ $$
 
 The maps $\lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0$  in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are 
 
-1. [[stable weak homotopy equivalences]] for sequential spectra, symmetric spectra and pre-excisive functors, i.e. for ${Dia} \in \{Top^{\ast/}, Orth, Seq\}$;
+1. [[stable weak homotopy equivalences]] for [[sequential spectra]], [[orthogonal spectra]] and [[pre-excisive functors]], i.e. for ${Dia} \in \{Top^{\ast/}, Orth, Seq\}$;
 
 1. **not** stable weak homotopy equivalences for the case of symmetric spectra ${Dia} = {Sym}$.
 
@@ -7110,16 +7110,39 @@ Unwinding this, one finds that it is sufficient to show that
 $$
   \eta_{F_{n_1} S^{n_2}}
   \;\colon\;
-  F_{n_1} S^{n_2}  
+  F_{n_1} S^{n_2}_+  
     \longrightarrow
   seq^\ast seq_! F_{n_1} S^{n_2}
 $$
 
 is a stable weak homotopy equivalence for all $n_1, n_2 \in \mathbb{N}$.
 
-Now...
+Consider this for $n_2 \geq n_2$. Then there are canonical morphisms
 
-Now ...
+$$
+  F_{n_1} S^{n_2} \longrightarrow F_{0} S^{n_2-n_1} 
+$$
+
+whose components in degree $q \geq n_1$ are the identity. These are the composites of the maps $\lambda_k \wedge S^{k+n_2-n_1}$ for $k \lt n_1$ with $\lambda_n$ from def. \reg{CorepresentationOfAdjunctsOfStructureMaps}. By prop. \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} also $seq^\ast seq_! \lambda_n$ are weak homotopy equivalences. Hence we have [[commuting diagrams]] of the form
+
+$$
+  \array{
+    F^{seq}_{n_1} S^{n_2} &\longrightarrow& F_0 S^{n_2-n_1}
+    \\
+    {}^{\mathllap{\eta}}\downarrow
+    &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    seq^\ast F^{orth}_{n_1}S^{n_2-n_1} 
+      &\longrightarrow&
+    seq^\ast F_0^{orth} S^{n_2-n_1}
+  }
+  \,,
+$$
+
+where the horizontal maps are stable weak homotopy equivalences by the previous argument and the right vertical morphism is an isomorphism by the formula in prop. \ref{ExplicitFormOfFreeSpectra}.Hence the left vertical morphism is a stable weak homotopy equivalence by [[two-out-of-three]].
+
+If $n_2 \lt n_1$ then one reduces this to the above case by smashing with $S^{n_1-n_2}$.
 
 =--
 
