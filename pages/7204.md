@@ -30,7 +30,9 @@ _Type II supergravity_ is a [[supergravity]] in [[dimension]] 10 which is the lo
 
 * [[type II supergravity Lie 2-algebra]]
 
-* [[type II geometry]], [[generalized complex geometry]], [[T-duality]]
+* [[type II geometry]], [[generalized complex geometry]]
+
+* [[T-duality]], [[double field theory]]
 
 * [[11-dimensional supergravity]]
 
