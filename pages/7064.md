@@ -189,7 +189,6 @@ Introductions and surveys include
 * Alex Writght, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://web.stanford.edu/~amwright/HomotopyGroupsOfSoheres.pdf))
 
 * {#Hatcher} [[Alan Hatcher]], _Stable homotopy groups of spheres_ ([html](http://www.math.cornell.edu/~hatcher/stemfigs/stems.html))
- 
 
 * [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
 
@@ -197,8 +196,9 @@ Introductions and surveys include
 
 * [[eom]], _[Spheres, homotopy groups of the](http://www.encyclopediaofmath.org/index.php/Spheres,_homotopy_groups_of_the)_
 
-* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
+* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, since 1986 ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
  
+* {#Kochmann96} [[Stanley Kochmann]], section 5 of  of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 A tabulation of stable homotopy groups of spheres is in 
 
