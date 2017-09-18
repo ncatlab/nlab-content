@@ -96,7 +96,7 @@ Here we define the set of propositions:
 *  Every propositional variable is a proposition.
 *  For each proposition $A$, there is a proposition $A^\perp$, the __[[negation]]__ of $A$.
 *  For each proposition $A$ and proposition $B$, there are four additional propositions:
-   *  $A \& B$ (read 'with'), the __additive [[conjunction]]__ of $A$ and $B$;
+   *  $A \& B$ (read 'with'), the __additive [[logical conjunction|conjunction]]__ of $A$ and $B$;
    *  $A \oplus B$ (read 'plus'), the __additive [[disjunction]]__ of $A$ and $B$;
    *  $A \otimes B$ (read 'times'), the __[[multiplicative conjunction]]__ of $A$ and $B$;
    *  $A \parr B$ (read 'par' and sometimes written $A \mid B$), the __multiplicative disjunction__ of $A$ and $B$.
@@ -328,6 +328,13 @@ All of these justify the rules for the exponentials, so again we see that there 
 * [[transcendental syntax]]
 
 * [[propositions as projections]]
+
+* [[substructural logic]]
+  * [[structural rule]]
+  * [[affine logic]]
+  * [[relevance logic]]
+  * [[bunched logic]]
+  * [[separation logic]]
 
 ## References
 
