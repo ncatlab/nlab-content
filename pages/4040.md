@@ -90,6 +90,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Tychonoff theorem]]
 
+* [[Heine-Borel theorem]]
+
 * [[topological invariance of dimension]]
 
 * [[Brouwer's fixed point theorem]]
