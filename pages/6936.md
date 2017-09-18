@@ -26,6 +26,8 @@
 
 While HITs are already useful in [[extensional type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of [[cell complexes]], [[homotopy colimits]], [[n-truncated|truncations]], [[Bousfield localization of model categories|localizations]], and many other objects from classical [[homotopy theory]].
 
+Defining what a HIT is "in general" is an open research problem.  One mostly precise proposal may be found in ([ShulmanLumsdaine16](#ShulmanLumsdaine16)).  A more syntactic description of a class of HITs may be found in ([Brunerie16](#Brunerie16)).
+
 ## Examples
 
 All higher inductive types described below are given together with some pseudo-[[Coq]] code, which would implement that HIT if Coq supported HITs natively.
@@ -223,6 +225,10 @@ Expositions include
 Details are in 
 
 * {#ShulmanLumsdaine12} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics of higher inductive types_, 2012 ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semantics.pdf/410646692/semantics.pdf))
+
+* {#ShulmanLumsdaine16} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics and syntax of higher inductive types_, 2016, ([slides]((http://home.sandiego.edu/~shulman/papers/stthits.pdf))
+
+* {#Brunerie16} [[Guillaume Brunerie]], _Implementation of higher inductive types in HoTT-Agda_, 2016, [github](https://github.com/HoTT/HoTT-Agda/blob/master/core/lib/types/HIT_README.txt)
 
 An experimental implementation is described in:
 
