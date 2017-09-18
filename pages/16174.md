@@ -34,7 +34,7 @@ More generally, any [[distributive category]] determines a Burnside rig ([Schanu
 
 ### In equivariant homotopy theory
 
-It turns out that the Burnside ring is isomorphic to the [[colimit]]
+It turns out that the Burnside ring of a group $G$ is isomorphic to the [[colimit]]
 
 $$
   A(G) \simeq \underset{\longrightarrow}{\lim}_V [S^V,S^V]_G
