@@ -13,7 +13,7 @@
 * table of contents
 {:toc}
 
-**Warning** on terminology: This is unrelated to the notion of _[[type]]_ in [[type theory]]. 
+**Warning** on terminology: This is a different notion than that of _[[type]]_ in [[type theory]], which is what model theorists call _sorts_.
 
 ## Idea
 The [[syntactic category]] of a Boolean coherent theory has a Boolean algebra structure on each of its subobject posets. Types are ultrafilters of the Boolean algebras of subobjects of the maximal objects in these syntactic categories (those corresponding to formulas of the form "$x=x$").
@@ -45,11 +45,15 @@ In modern model theory it is customary to work in a Grothendieck universe-sized 
 
 Stated in this form, it's easy to see that the theory of algebraically closed fields codes at least all finite parameter sets. This paves the way for [[model-theoretic Galois theory]].
 
-## More heuristics
+## Examples
 
-The simplest first order theories are generalizations of algebraic geometry where points correspond to special (e.g. maximal, prime) ideals in a ring; types generalize points in some of such cases. Other "spectral" intuition also applies. 
+* In the theory of an equivalence relation with two infinite classes, the type (over the empty set) of a point in any model is isolated in the Stone space by the formula which says which equivalence class that point belongs to.
+
+Types generalize points by replacing them with their principal ultrafilters of definable sets. The simplest first order theories are generalizations of algebraic geometry where points correspond to special (e.g. maximal, prime) ideals in a ring; types generalize points in some of such cases. Other "spectral" intuition also applies. 
 
 Finally, one may expand the model $M$ a larger model $M'$. The elements of automorphism group of the larger model will move the "points" around and a type will become an orbit for the larger model $M'$. This point of view is used especially for the generalization, so called [[Galois type]]s.
+
+## Relation to measures
 
 ## Related concepts
 
