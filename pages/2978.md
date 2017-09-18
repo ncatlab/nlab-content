@@ -1,18 +1,20 @@
 
 # Totally bounded spaces
-* tic
+* table of contents
 {: toc}
 
 ## Idea
 
 A space is _totally bounded_ if it may be covered by finitely many sets of arbitrarily small size.
 
-The [[Heine-Borel theorem|Heine–Borel theorem]], which states that a closed and bounded subset of the [[real line]] is [[compact space|compact]] (in the finite open subcover sense), applies to all [[cartesian spaces]] but not to general [[metric spaces]].  However, if we use two facts about the real line (which hold for all cartesian spaces) ---that a subset is [[closed subspace|closed]] if and only if it is [[complete space|complete]] and that a subset is [[bounded space|bounded]] if and only if it is _totally bounded_---, then we get a theorem that *does* apply to all metric spaces (at least assuming the [[axiom of choice]]): that a complete and totally bounded space is compact.
+The [[Heine-Borel theorem|Heine–Borel theorem]], which states that a [[closed subset|closed]] and [[bounded subset|bounded]] [[subset9] of the [[real line]] is [[compact space|compact]] (in the finite open subcover sense), applies to all [[cartesian spaces]] but not to general [[metric spaces]].  However, if we use two facts about the real line (which hold for all cartesian spaces) ---that a subset is [[closed subspace|closed]] if and only if it is [[complete space|complete]] and that a subset is [[bounded space|bounded]] if and only if it is _totally bounded_---, then we get a theorem that *does* apply to all metric spaces (at least assuming the [[axiom of choice]]): that a complete and totally bounded space is compact.
 
 The concept (and the Heine--Borel theorem, in this sense) apply not only to metric spaces but to [[uniform spaces]]; like completeness, total boundedness is a uniform property.
 
 
 ## Definition
+
+### Basic definitions
 
 In the following definitions, '[[finite set|finite]]' means Kuratowski-finite, or finitely indexed, for the purposes of [[constructive mathematics]].  All of these definitions are constructively equivalent.
 
@@ -49,18 +51,7 @@ A metric space $X$ is __totally bounded__ if, for every positive number $\epsilo
 =--
 
 
-## Properties
-
-All of these results hold constructively unless otherwise noted.
-
-Every [[compact space]] is totally bounded; this is immediate from Definition \ref{slick}, since every uniform cover is an open cover.  Conversely, if one assumes the [[ultrafilter principle]], then every [[complete space]] and totally bounded space is compact.
-
-Any [[product]] of totally bounded spaces is totally bounded.  The totally bounded subspaces of a given space $X$ form an [[ideal]] in the [[power set]] of $X$.
-
-A [[subspace]] of a [[Cartesian space]] is totally bounded if and only if it is [[bounded space|bounded]].  Every totally bounded metric space is [[separable space|separable]].
-
-
-## Precompact spaces
+### Precompact spaces
 
 Here is another definition of total boundedness, different in style from the others.  It makes sense even more generally, for any [[Cauchy space]]:
 
@@ -74,11 +65,28 @@ It is immediate that a Cauchy space is compact if and only if it is both complet
 
 Every precompact uniform space is totally bounded; using Definition \ref{slick}, this may be proved by checking that any uniform cover of $X$ generates a uniform cover of $\overline{X}$.  The converse, that every totally bounded space is precompact, is equivalent to the [[ultrafilter principle]].  Of course, many totally bounded spaces may be proved precompact on weaker assumptions; in particular, that a bounded subset of a cartesian space is precompact is equivalent to the [[fan theorem]] (and so also follows from the principle of [[excluded middle]]), a fact related to the [[Heine–Borel theorem]].
 
-
-## Proximity spaces
+### Proximity spaces
 
 The category of totally bounded uniform spaces and uniformly continuous functions is equivalent to the category of [[proximity spaces]] and proximally continuous functions.  Thus, proximity spaces can be considered yet another axiomatization of "totally bounded space" that doesn't rely on a pre-existing kind of "space".
 
+
+
+## Properties
+
+All of these results hold constructively unless otherwise noted.
+
+Every [[compact space]] is totally bounded; this is immediate from Definition \ref{slick}, since every uniform cover is an open cover.  Conversely, if one assumes the [[ultrafilter principle]], then every [[complete space]] and totally bounded space is compact.
+
+Any [[product]] of totally bounded spaces is totally bounded.  The totally bounded subspaces of a given space $X$ form an [[ideal]] in the [[power set]] of $X$.
+
+A [[subspace]] of a [[Cartesian space]] is totally bounded if and only if it is [[bounded space|bounded]].  Every totally bounded metric space is [[separable space|separable]].
+
+
+
+
+## Related concepts
+
+* [[bounded subset]]
 
 ## References
 
