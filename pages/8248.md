@@ -187,3 +187,6 @@ A review with an eye towards application to the [[Adams spectral sequence]] is i
 * [[Doug Ravenel]], chapter 2, section 1 of _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 [[!redirects exact couples]]
+
+[[!redirects spectral sequence of an exact couple]]
+[[!redirects spectral sequences of exact couples]]
