@@ -122,7 +122,7 @@ $Smooth \infty Grpd$ is a [[cohesive (∞,1)-topos]].
 +-- {: .proof}
 ###### Proof
 
-The [[site]] [[CartSp]]${}_{smooth}$ is (as discussed there) an [[∞-cohesive site]] (see there).
+The [[site]] [[CartSp]]${}_{smooth}$ is (as discussed there) an [[∞-cohesive site]]. See there for the implication.
 
 =--
 
