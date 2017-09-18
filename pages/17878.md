@@ -1,0 +1,38 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _differential graded-commutative algebra_ (also _CDGA_, for short) is a [[differential-graded algebra]] which is [[supercommutative superalgebras|supercommutative]] in that for $v,w$ any two elements in homogeneous degree $deg(v), deg(w) \in \mathbb{Z}$, respectively, then  the product in the algebra satisfies
+
+$$
+  v w \;=\; (-1)^{deg(v) deg(w)} w v 
+  \,.
+$$
+
+Equivalently this is a [[commutative monoid]] in the [[symmetric monoidal category|symmetric monoidal]] [[category of chain complexes]] equipped with the [[tensor product of chain complexes]].
+
+## Related concepts
+
+* [[rational homotopy theory]]
+
+* [[monoidal Dold-Kan correspondence]]
+
+* [geometry of physics -- superalgebra -- Z-graded commutativ superalgebra](https://ncatlab.org/nlab/show/geometry+of+physics+--+superalgebra#ZGradedSupercommutativeSuperalgebra)
+
+[[!redirects differential graded-commutative algebras]]
+
+[[!redirects DGCA]]
+[[!redirects DGCAs]]
+
+[[!redirects CDGA]]
+[[!redirects CDGAs]]
+
+[[!redirects dgca]]
+[[!redirects dgca-s]]
+
+[[!redirects cdga]]
+[[!redirects cdga-s]]
+
