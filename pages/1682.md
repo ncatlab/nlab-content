@@ -505,10 +505,10 @@ and for more on the [[sigma-orientation]] see
 
 
 Discussion of [[twisted cohomology]]  with [[coefficients]] in $tmf$
-is in section 8 of
+is in 
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
- {#ABG10}
+* {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], section 8 of _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ 
 
 Topological modular forms with _[[level N-structure]]_ -- $tmf(N)$ -- is discussed in 
 
