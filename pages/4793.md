@@ -37,6 +37,9 @@ Using the conjugation operation one can define an inner product $\langle q,p\ran
 
 [[!include exceptional spinors and division algebras -- table]]
 
+* [[supersymmetry and division algebra]]
+
+* [[quaternionic quantum mechanics]]
 
 ## References
 
