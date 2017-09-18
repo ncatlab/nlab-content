@@ -26,6 +26,12 @@ This is a [[monoid|monoid object]] internal to the category of  [[abelian group|
 Ring objects can be defined in more general [[symmetric monoidal categories]] as the corresponding module over a [[ring operad]]. 
 
 
+## Definition 
+
+Let $T$ be the [[Lawvere theory]] for rings, viz. the category [[opposite category|opposite]] to the category of [[finitely generated object|finitely generated]] [[free object|free]] rings (which are non-commutative [[polynomial rings]] $\mathbb{Z}\langle X_1, \ldots, X_n\rangle$) and ring maps between them. Then for $C$ a category with finite products, a _ring object_ in $C$ may be identified with a product-preserving functor $T \to C$. 
+
+The more traditional definition, based on a traditional presentation of the [[equational theory]] of rings, is that a ring object consists of an object $R$ in $C$ together with morphisms $a: R \times R \to R$ (addition), $m: R \times R \to R$ (multiplication), $0: 1 \to R$ (zero), $e: 1 \to R$ (multiplicative identity), $-: R \to R$ (additive inversion), subject to [[commutative diagrams]] in $C$ that express the usual ring axioms. 
+
 ## Examples
 
 * A ring object in [[Top]] is a [[topological ring]].
