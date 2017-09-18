@@ -243,11 +243,12 @@ For the discussion of [[ring spectra]] we pass to [[symmetric spectra]] and [[or
 
 For **Interlude: Spectral sequences** a discussion streamlined for our purposes is in ([Rognes 12, section 2](#Rognes12)).
 
-In **2) Adams spectral sequence** for the general theory we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
+In **2) Adams spectral sequence** for the general theory we follow 
 
-* {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
+* {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
-and we take some further clues from ([Adams 74, III.15](#Adams74)).
+* {#Bousfield79} [[Aldridge Bousfield]], sections 5 and 6 of _The localization of spectra with respect to homology_, Topology 18 (1979), no. 4, 257--281. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+
 
 For the special case of the [[classical Adams spectral sequence]] we follow ([Kochman 96, chapter V](#Kochman96)).
 
@@ -267,11 +268,7 @@ For **S.2) Cobordism theory** an efficient collection of the highlights is in
 
 except that it omits proof of the [[Leray-Hirsch theorem]]/[[Serre spectral sequence]] and that of the [[Thom isomorphism]], but see the references there and see ([Kochman 96](#Kochman96), [Aguilar-Gitler-Prieto 02, section 11.7](#AguilarGitlerPrieto02)) for details.
  
-For **S.3) Complex oriented cohomology** besides ([Kochman 96, chapter 4](#Kochman96)) have a look at part II of 
-
-* {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
-
-and
+For **S.3) Complex oriented cohomology** besides ([Kochman 96, chapter 4](#Kochman96)) have a look at [Adams 74, part II](#Adams74) and
 
 * {#Lurie10} [[Jacob Lurie]], lectures 1-10 of _[[Chromatic Homotopy Theory]]_, 2010
 
