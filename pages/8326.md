@@ -612,14 +612,14 @@ $$
       \\
       being && existence && reality
       \\
-       pure being && determinate being 
+       pure\,being && determinate\,being 
       \\
       \\
-      && && Red
+      && && Red & \subset & id
       \\
-     && && \bot
+     && && \bot && \bot
       \\
-      && \int & \subset & \int_{inf}
+      && \int & \subset & \int_{inf} & \subset & id
       \\
       && \bot && \bot 
       \\
