@@ -107,11 +107,11 @@ is a [[compact closed category]].
 Conversely, if the $\ast$-autonomous category is not compact closed, then by this linear " [[de Morgan duality]]" the tensor product induces a second binary operation
 
 $$
-  (A \otimes B)^\perp \equiv A^\perp \parr B^\perp
+  A \parr B \coloneqq  (A^\perp \otimes B^\perp)^\perp
   \,.
 $$
 
-Here the notation on the right is that used in [[linear logic]], see below at _[Properties -- Internal logic](#InternalLogic)_.
+making it into a [[linearly distributive category]].  Here the notation on the left is that used in [[linear logic]], see below at _[Properties -- Internal logic](#InternalLogic)_.
 
 =--
 
