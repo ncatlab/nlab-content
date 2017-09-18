@@ -11,4 +11,6 @@
 
 * [[analytic philosophy]]
 
+* _[[A History of Western Philosophy]]_
+
 category: people
