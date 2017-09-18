@@ -444,7 +444,7 @@ Another version of this which also applies to [[intensional identity types]] and
 
 * [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _The local universes model: an overlooked coherence construction for dependent type theories_ ([arXiv:1411.1736](http://arxiv.org/abs/1411.1736))
 
-The analogous statement relating [[homotopy type theory]] and [[locally cartesian closed (infinity,1)-categories]] was fromally conjectured around
+The analogous statement relating [[homotopy type theory]] and [[locally cartesian closed (infinity,1)-categories]] was formally conjectured around
 
 * {#Joyal} [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
  
