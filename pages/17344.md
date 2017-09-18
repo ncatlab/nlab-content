@@ -184,7 +184,7 @@ We start with plain sequential spectra in [1.1)](#SequentialSpectra) as a transp
 
 The most lighweight model for [[spectra]] are _[[sequential spectra]]_. They support most of [[stable homotopy theory]] in a straightforward way, and have the advantage that examples tend to be immediate (for instance the proof of the [[Brown representability theorem]] spits out sequential spectra). 
 
-The key disadvantage of sequential spectra is that they do not support a functorial [[smash product of spectra]] before passing to the [[stable homotopy category]], much less a [[symmetric smash product of spectra]]. This is the structure needed for a decent discussion of the [[higher algebra]] of [[ring spectra]]. To accomodate this, further [below](#SymmetricSpectra) we enhance sequential spectra to the slightly richer model of [[symmetric spectra]]. But both these models are connected by a [[free-forgetful adjunction]] and for workinbg with either model it is useful to pass back and forth.
+The key disadvantage of sequential spectra is that they do not support a functorial [[smash product of spectra]] before passing to the [[stable homotopy category]], much less a [[symmetric smash product of spectra]]. This is the structure needed for a decent discussion of the [[higher algebra]] of [[ring spectra]]. To accomodate this, further [below](#SymmetricSpectra) we enhance sequential spectra to the more [[highly structured spectrum|highly structured]] models given by [[symmetric spectra]] and [[orthogonal spectra]]. But all these models are connected by a [[free-forgetful adjunction]] and for working with either it is useful to have the means to pass back and forth between them.
 
 #### Sequential pre-spectra 
 
@@ -226,7 +226,7 @@ Write $SeqSpec(Top_{cg})$ for this [[category]] of topological sequential spectr
 +-- {: .num_example #SuspensionSpectrum}
 ###### Example
 
-For $X\in Top^{\ast/_{cg}}$ a [[pointed topological space]], its **[[suspension spectrum]]** $\Sigma^\infty X$ is the [[sequential spectrum]] , def. \ref{SequentialSpectra} with
+For $X\in Top^{\ast/_{cg}}$ a [[pointed topological space]], its **[[suspension spectrum]]** $\Sigma^\infty X$ is the [[sequential spectrum]] , def. \ref{SequentialSpectra}, with
 
 * $(\Sigma^\infty X)_n \coloneqq S^n \wedge X$;
 
@@ -278,9 +278,12 @@ Let $X\in SeqSpec(Top_{cg})$ be a [[sequential spectrum]] (def. \ref{SequentialS
 
 1. $Maps(K,X)_\ast$ (the **[[powering]]** of $K$ into $X$) is the sequential spectrum with
 
-   * $(Maps(K,X)_\ast)_n \coloneqq Maps(K,X_n)_\ast$ (compactly generated [[pointed mapping space]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces), [def.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)))
+   * $(Maps(K,X)_\ast)_n \;\coloneqq\; Maps(K,X_n)_\ast$ (compactly generated [[pointed mapping space]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces), [def.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)))
 
-   * $\sigma_n^{Maps(K,X)_\ast} \colon S^1 \wedge Maps(K,X_n) \to Maps(K,S^1 \wedge X_n)_\ast \overset{Maps(K,\sigma_n)_\ast}{\longrightarrow} Maps(K,X_{n+1})_\ast$.
+   * $\sigma_n^{Maps(K,X)_\ast} \;\colon\; S^1 \wedge Maps(K,X_n) \overset{(const,id)}{\longrightarrow} Maps(K,S^1 \wedge X_n)_\ast \overset{Maps(K,\sigma_n)_\ast}{\longrightarrow} Maps(K,X_{n+1})_\ast$,
+
+   where $(const, id) \;\colon\; [s,\phi] \mapsto [const_s,\phi]$.
+
 
 These operations canonically extend to [[functors]]
 
@@ -357,7 +360,7 @@ $$
   \,.
 $$
 
-The adjunction
+Applying degreewise the adjunction
 
 $$
   Top_{cg}^{\ast/}
@@ -368,7 +371,7 @@ $$
   Top_{cg}^{\ast/}
 $$
 
-(from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)) gives that these squares are in natural bijection with squares of the form
+from [[Introduction to Stable homotopy theory -- P|classical homotopy theory]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)) gives that these squares are in [[natural bijection]] with squares of the form
 
 $$
   \array{
@@ -381,31 +384,21 @@ $$
     \downarrow^{\mathrlap{Maps(K,\sigma_n^Y)_\ast}}
     \\
     X_{n+1} 
-      &\overset{\tilde f_{n+1}}{\longrightarrow}&
+      &\overset{\widetilde{f_{n+1}}}{\longrightarrow}&
     Maps(K, Y_{n+1})_\ast
   }
   \,.
 $$
 
-But since the map $S^1 \wedge f_n$ is the smash product of two maps, only one of which involves the smash factor of $K$, one sees that here the top map factors through the inclusion of the space of those functions $K \to S^1 \wedge Y^n$ whose first component is constant on the basepoint, hence through 
+But since the map $S^1 \wedge f_n$ is the smash product of two maps, only one of which involves the smash factor of $K$, one sees that here the top map factors through the map $(const,id)$ from def. \ref{TensoringAndPoweringOfSequentialSpectra}.
 
-$$
-  S^1 \wedge Maps(K,Y_n)_\ast 
-    \longrightarrow 
-  Maps(K, S^1 \wedge Y_n)_\ast
-$$
-
-$$
-  [s,\phi] \mapsto [const_s,\phi]
-  \,.
-$$
 
 Hence the commuting square above factors as
 
 $$
   \array{
     S^1 \wedge X_n
-      &\overset{S^1 \wedge \tilde f_n}{\longrightarrow}&
+      &\overset{S^1 \wedge \widetilde{f_n}}{\longrightarrow}&
     S^1 \wedge Maps(K, Y_n)_\ast
     \\
     {}^{\mathllap{\sigma_n^X}}\downarrow 
@@ -413,7 +406,7 @@ $$
     \downarrow^{\mathrlap{\sigma_n^{Maps(K,Y)_\ast}}}
     \\
     X_{n+1}
-      &\overset{\tilde f_{n+1}}{\longrightarrow}&
+      &\overset{\widetilde {f_{n+1}}}{\longrightarrow}&
     Maps(K, Y_{n+1})_\ast
   }
   \,.
@@ -435,7 +428,7 @@ Running this argument backwards shows that the map $f \mapsto \tilde f$ given th
 +-- {: .num_remark}
 ###### Remark
 
-For the [[adjunction]] of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} it is crucial that the smash tensoring in def. \ref{TensoringAndPoweringOfSequentialSpectra} is from the _right_, at least as long as the structure maps in def. \ref{SequentialSpectra} are defined as they are, with the circle smash factor on the left. We could change both at once: take the structure maps to be from smash products with the circle on the right, and take smash tensoring to be from the left. But having both on the right or both on the left does not work.
+For the [[adjunction]] of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} it is crucial that the smash tensoring in def. \ref{TensoringAndPoweringOfSequentialSpectra} is from the _right_, at least as long as the structure maps in def. \ref{SequentialSpectra} are defined as they are, with the circle smash factor on the left. We could change both jointly: take the structure maps to be from smash products with the circle on the right, and take smash tensoring to be from the left. But having both on the right or both on the left does not work.
 
 =--
 
@@ -443,7 +436,7 @@ For the [[adjunction]] of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering}
 +-- {: .num_example #StandardCylinderSpectrumSequential}
 ###### Example
 
-For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, its **standard [[cylinder spectrum]]** is its [[smash product|smash]] [[tensoring]] $X \wedge (I_+)$, def. \ref{TensoringAndPoweringOfSequentialSpectra}, with the standard interval ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalInterval)) with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). The component spaces of the [[cylinder spectrum]] are the standard [[reduced cylinders]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) of the component spaces of $X$:
+For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, its **standard [[cylinder spectrum]]** is its [[smash product|smash]] [[tensoring]] $X \wedge (I_+)$, according to def. \ref{TensoringAndPoweringOfSequentialSpectra}, with the standard interval ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalInterval)) with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). The component spaces of the [[cylinder spectrum]] are the standard [[reduced cylinders]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) of the component spaces of $X$:
 
 $$
   (X \wedge (I_+))_n
@@ -464,9 +457,9 @@ $$
   \nabla_X
   \;\colon\;
   X \vee X 
-    \longrightarrow
+    \overset{X \wedge (S^0 \vee S^0  \to I_+)}{\longrightarrow}
   X \wedge (I_+)
-   \longrightarrow
+   \overset{X \wedge (I_+ \to S^0) }{\longrightarrow}
   X
 $$
 
@@ -527,7 +520,7 @@ $$
   \,,
 $$
 
-given by picking the 0-comonent space:
+given by picking the 0-component space:
 
 $$
   \Omega^\infty(X) = X_0
@@ -1684,7 +1677,9 @@ We now apply to this localize $SeqSpec(Top)_{strict}$ at "stable weak equivalenc
 
 Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(Top)$, def. \ref{SequentialSpectra} is
 
-* a **stable weak equivalence** if for all [[Omega-spectra]] $X$ the morphism $[f,E]_{strict}$ is a [[bijection]] (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{strict})$ of the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+* a **stable weak equivalence** if for all [[Omega-spectra]] $X$ the morphism $[f,E]_{strict}$ is a [[bijection]] 
+
+  (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{strict})$ of the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 
 * a **stable cofibration** if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
 
