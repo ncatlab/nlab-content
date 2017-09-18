@@ -12,7 +12,7 @@
 =--
 =--
 =--
-
+is r
 
 #Contents#
 * table of contents
@@ -114,9 +114,11 @@ From this law for the variation of the Lagrangian, one derives both the [[Euler-
 
   (here $p_\phi$ is the [[canonical momentum]] of the [[field (physics)|field]] $\phi$) is called the _[[Noether current]]_ and the above says that this is (on-shell) a  [[conserved current]] precisely if $\delta \phi$ is a symmetry of the Lagrangian.
 
-This is at least the way that Noether's theorem has been introduced and is often considered. But this formulation is more restrictive than is natural. Namely it is unnatural to demand of a symmetry that it leaves the Lagrangian entirely invariant, $\delta L = 0$. More generally for the symmetry to be a symmetry of the [[action functional]] $\int L$ over a [[closed manifold]] it is sufficient that the Lagrangian changes by a [[divergence]], $\delta L = \nabla \cdot \sigma$, for some term $\sigma$. 
+This is at least the way that Noether's theorem has been introduced and is often considered. But this formulation is more restrictive than is natural. Namely it is unnatural to demand of a symmetry that it leaves the Lagrangian entirely invariant, $\delta L = 0$:
+ 
+{#WeakSymmetrySchematicIdea} More generally for the symmetry to be a symmetry of the [[action functional]] $\int L$ over a [[closed manifold]] it is sufficient that the Lagrangian changes by a [[divergence]], $\delta L = \nabla \cdot \sigma$, for some term $\sigma$. 
 
-(This is really a sign of a [[higher gauge symmetry]], where the symmetry holds only up to a [[homotopy]] $\sigma$. It happens for instance for the gauge-coupling term in the [[Wess-Zumino-Witten model]] because the WZW term is not strictly invariant under [[gauge transformations]], but instead transforms by a total derivative.)
+(This is really a sign of a [[higher gauge symmetry]], where the symmetry holds only up to a [[homotopy]] $\sigma$. It happens for instance for the gauge-coupling term in the [[Wess-Zumino-Witten model]] because the WZW term is not strictly invariant under [[gauge transformations]], but instead transforms by a total derivative. See at _[conserved current -- In higher prequantum geometry](conserved+current#InHigherPrequantumGeometry)_).
 
 In this more general case the above [[conservation law]] induced by the "weak" symmetry becomes
 
