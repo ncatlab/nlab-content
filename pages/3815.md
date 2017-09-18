@@ -21,7 +21,7 @@
 
 ## Idea
 
-The notion if $(\infty,1)$-Kan extension is the generalization of the notion of [[Kan extension]] from [[category theory]] to [[(∞,1)-category theory]].
+The notion of $(\infty,1)$-Kan extension is the generalization of the notion of [[Kan extension]] from [[category theory]] to [[(∞,1)-category theory]].
 
 
 ## Definition
