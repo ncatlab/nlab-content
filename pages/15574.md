@@ -62,7 +62,7 @@ Clearly, these remarks can not do justice to the richness and subtlety of Hegel'
 
 ## Lawvere's path to _Aufhebung_
 
-> In early 1985, while I was studying the foundations of homotopy theory, it occurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Lawvere96), p.167)
+> In early 1985, while I was studying the foundations of homotopy theory, it occurred to me that the explicit use of a certain simple categorical structure might serve as a link between mathematics and philosophy. ([Lawvere 1996](#Law96), p.167)
 
 ## Extracting the rational kernel 
 
@@ -445,7 +445,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law94b} [[F. W. Lawvere]], _Tools for the Advancement of Objective Logic: Closed Categories and Toposes_, pp.43-56 in: J. Macnamara, G. E. Reyes (eds.), _The Logical Foundations of Cognition_ , Oxford UP 1994.
 
-* {#Law96} [[F. W. Lawvere]], _Unity and Identity of Opposites in Calculus and Physics_ , App. Cat. Struc **4** (1996) pp.167-174.
+* {#Law96} [[F. W. Lawvere]], _[[Unity and Identity of Opposites in Calculus and Physics]]_ , App. Cat. Struc **4** (1996) pp.167-174.
 
 * {#Law99} [[F. W. Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
