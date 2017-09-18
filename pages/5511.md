@@ -118,20 +118,10 @@ In words this means that a map is an effective epimorphism if it induces an epim
 
 =--
 
-This is true generally in the [[internal logic]] of the $(\infty,1)$-topos (i.e. in [[homotopy type theory]], see at [[1-epimorphism]] for more on this), but in [[∞Grpd]] $\simeq L_{whe}$ [[sSet]] it is also true externally (prop. \ref{EffectiveEpisOfInfinityGroupoids} below):
+This is true generally in the [[internal logic]] of the $(\infty,1)$-topos (i.e. in [[homotopy type theory]], see at [[1-epimorphism]] for more on this), but in [[∞Grpd]] $\simeq L_{whe}$ [[sSet]] it is also true externally (prop. \ref{EffectiveEpisOfInfinityGroupoids} below).
 
-+-- {: .num_example}
-###### Example
 
-A morphism of [[∞-groupoids]] $f \colon X \to Y$ is an effective epimorphism precisely if it is a [[surjection]] on connected components, hence if
 
-$$
-  \pi_0(f) \colon \pi_0(X) \to \pi_0(Y)
-$$
-
-is a surjection of sets. In particular, if $S^1$ is the circle, then the unique morphism $S^1 \to \Delta^0$ is an effective epimorphism, but it not an epimorphism because the [[suspension]] of $S^1$ is the sphere $S^2$, which is not contractible.
-
-=--
 
 ### In a sheaf $\infty$-topos
 
@@ -152,17 +142,27 @@ This is clear.  See [MO/177325/2503](http://mathoverflow.net/a/177325/2503) by [
 
 ## Examples
 
-As a corollary of prop. \ref{CharacterizationAsEpiOnZeroTruncation} we have
+### In $\infty Grpd$
+
+As a corollary of prop. \ref{CharacterizationAsEpiOnZeroTruncation} we have:
 
 +-- {: .num_prop #EffectiveEpisOfInfinityGroupoids}
 ###### Proposition
 **(effective epis of $\infty$-groupoids**)
 
-In $C = $ [[∞Grpd]] a morphism $f : Y \to X$ is an effective epimorphism precisely if it induces an [[epimorphism]] $\pi_0 f : \pi_0 Y \to \pi_0 X$ in [[Set]] on connected components.
+In $C = $ [[∞Grpd]] a morphism $f : Y \to X$ is an effective epimorphism precisely if it induces an [[epimorphism]] $\pi_0 f : \pi_0 Y \to \pi_0 X$ in [[Set]] on [[connected components]].
  
 =--
 
 This appears as [[Higher Topos Theory|HTT, cor. 7.2.1.15]].  
+
++-- {: .num_example #AnEffectiveEpiNotBeingEpiInInfinityGroupoids}
+###### Example
+
+
+If $S^1 = \ast \underset{\ast \coprod \ast}{\coprod} \ast$ denotes the [[homotopy type]] of the [[circle]], then the unique morphism $S^1 \to \Delta^0$ is an effective epimorphism, by prop. \ref{EffectiveEpisOfInfinityGroupoids}, but it not an [[epimorphism in an (infinity,1)-category|epimorphism]], because the [[suspension]] of $S^1$ is the [[sphere]] $S^2$, which is not [[contractible]].
+
+=--
 
 
 
