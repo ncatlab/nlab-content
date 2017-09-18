@@ -57,14 +57,14 @@ The formal duals of frames, hence the objects in the [[opposite category]] [[Loc
 
 =--
 
-+-- {: .remark_remark}
++-- {: .num_remark}
 ###### Remark
 
 The notation $\mathcal{O}$ to supposed to remind us that every frame is like a [[frame of opens]] of the corresponding [[locale]].
 
 =--
 
-+-- {: .remark_remark}
++-- {: .num_remark}
 ###### Remark
 
 So in particular a frame is a _[[lattice]]_ which has not only finite [[joins]] but all small joins. 
@@ -118,7 +118,7 @@ $$
 that forms the [[product]] with $x$ has a [[right adjoint]]
 
 $$
-  (-) \Rightarrow x : \mathcal{O} \to \mathcal{O}
+  x \Rightarrow (-) : \mathcal{O} \to \mathcal{O}
 $$
 
 +-- {: .proof}
