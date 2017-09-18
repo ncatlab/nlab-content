@@ -81,6 +81,7 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 * [[theorem]], [[axiom]]
 
+* [[propositions as projections]]
 
 ## References
 
