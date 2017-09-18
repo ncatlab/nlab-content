@@ -244,7 +244,7 @@ The definition of globular set, without using that term, is in 2.2 and 2.3 of th
 * [[Ronnie Brown]] and Philip J. Higgins,  "The equivalence of $\infty$-groupoids
 and crossed  complexes",  Cah. Top. G\'eom. Diff. 22 (1981) 371-386.
 
-The following paper constructs from the cubical case  a strict globular $\infty$-groupoid of a filtered space: 
+The following paper constructs from the cubical case  a strict globular $\omega$-groupoid of a filtered space: 
 
 * [[Ronnie Brown]] "A new higher homotopy groupoid: the fundamental  globular
 $\omega$-groupoid of a filtered space", Homotopy, Homology and
