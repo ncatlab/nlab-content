@@ -152,7 +152,7 @@ These assert some hierarchy of inductive defined sets of natural numbers.
 * PA is first-order Peano arithmetic
 * $\widehat{\mathrm{ID}}_\nu$ extends PA by $\nu$ iterated fixed points of monotone operators (not necessarily least).
 * ID$_1^#$ is $\widehat{\mathrm{ID}}_1$ with induction only for positive formulas.
-* ID$_\nu$ extends PA by $\nu$ iterated least fixed points of monotone operators.
+* ID$_\nu$, the theory of $\nu$-times [[iterated inductive definitions]], extends PA by $\nu$ iterated least fixed points of monotone operators.
 
 Many of the results in the table concerning these can be summarized as
 
