@@ -1,7 +1,7 @@
 
 This entry is about the book
 
-* [[Marcelo Aguiar]], [[Swapneel Mahajan]], _Monoidal Functors, Species and Hopf Algebras_, ([pdf, over 6 Mb](http://www.math.tamu.edu/~maguiar/a.pdf)) version June 18, 2009, 672 pages.
+* [[Marcelo Aguiar]], [[Swapneel Mahajan]], _Monoidal Functors, Species and Hopf Algebras_, ([author pdf](http://www.math.cornell.edu/~maguiar/a.pdf)) finished May 2010, 784 pages.
 {#AguiarMahajan}
 
 
