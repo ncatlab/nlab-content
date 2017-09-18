@@ -217,7 +217,7 @@ $$
   \right\}
 $$
 
-which makes it manifest that
+where we take $I = [0,1]$ and $t \in I$. This makes manifest that
 
 $$
   \Sigma S^{n-1} \simeq S^n
