@@ -1,5 +1,5 @@
 
-> This is about tensor quantities in the sense of [[multilinear algebra]], [[differential geometry]] and [[physics]]. For the different notion of a tensor in [[enriched category theory]] see under _[[copower]]_. 
+> This is about tensor quantities in the sense of [[multilinear algebra]], [[differential geometry]] and [[physics]], as in [[tensor calculus]]. For the different notion of a tensor in [[enriched category theory]] see under _[[copower]]_. 
 
 ***
 
@@ -57,6 +57,8 @@ A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-t
 
 
 ## Related concepts
+
+* [[tensor calculus]]
 
 * [[decomposable tensor]]
 
