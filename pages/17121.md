@@ -2,9 +2,17 @@
 
 ## Idea
 
-A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[normed division algebras]] and including all the [[exceptional Lie groups]] except [[G2]].
+A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[normed division algebras]] and including all the [[exceptional Lie groups]] except [[G2]]. Three constructions give this square, namely, the Tits construction, the Vinberg construction and the triality construction (see [BaezMagic](#BaezMagic)).
 
-It has been extended to a [[magic triangle]].
+[[Michael Atiyah]] ([AtiyahMagic](#AtiyahMagic)) has proposed using the magic square to explain the [[Kervaire invariant problem]] similarly to how the existence of the four normed division algebras explains the [[Hopf invariant one]] problem.
+
+## Extensions
+
+* Several mathematicians have constructed a larger triangle of Lie groups, known as the [[magic triangle]], which contains the magic square. 
+
+* [[Michael Duff]] and colleagues ([ABDHN](#ABDHN)) have proposed a magic _pyramid_ whose base is the magic square.
+
+* [[Bruce Westbury]] ([Westbury](#Westbury)) has proposed an extension to a $5 \times 5$-square with the new row and column indexed by the [[sextonion|sextonions]].
 
 ## References
 
@@ -13,5 +21,13 @@ Named after [[Hans Freudenthal]].
 * Wikipedia, _[Freudenthal magic square](https://en.wikipedia.org/wiki/Freudenthal_magic_square)_
 
 * {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics, volume 1, (1965) pp. 145 - 190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
+
+* {#BaezMagic} [[John Baez]], _4.3 The Magic Square_, [webpage](http://math.ucr.edu/home/baez/octonions/node16.html)
+
+* {#AtiyahMagic} [[Michael Atiyah]], _The Geometry and Topology of the Freudenthal Magic Square_, [videos](http://webhost1.ust.hk/~ias/en/IAS_0910_MATH_seminar_abstract.pdf)
+
+* {#ABDHN} A. Anastasiou, L. Borsten, [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic pyramid of supergravities_, [arXiv:1312.6523](http://arxiv.org/abs/1312.6523)
+
+* {#Westbury} [[Bruce Westbury]], _Sextonions and the magic square_, ([pdf](http://homepages.warwick.ac.uk/~masdbn/sex2.pdf))
 
 [[!redirects Freudenthal-Tits magic square]]
