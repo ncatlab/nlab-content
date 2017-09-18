@@ -5,6 +5,8 @@
 
 * [[super p-brane]]
 
+* [[kappa-symmetry]]
+
 * [[M5-brane]]
 
 category: people
