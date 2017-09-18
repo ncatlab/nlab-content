@@ -69,6 +69,7 @@ Finishing the motivating example, a __[[flat functor]]__ may be defined as one t
 
 * [[created limit]]
 
+* [[lifted limit]]
 
 [[!redirects preserved limit]]
 [[!redirects preserved limits]]
