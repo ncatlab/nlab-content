@@ -53,7 +53,7 @@ $$
   \hat C := Func(C^{op}, \infty Grpd)
 $$ 
 
-is the [[free cocompletion|free (∞,1)-cocompletion]] of $X$, hence the free completion under [[(∞,1)-colimit]]s. Under the interpretation of colimits as sums, this means that it is analogous to the vector spaces _spanned_ by the [[basis]] $C$.
+is the [[free cocompletion|free (∞,1)-cocompletion]] of $C$, hence the free completion under [[(∞,1)-colimit]]s. Under the interpretation of colimits as sums, this means that it is analogous to the vector spaces _spanned_ by the [[basis]] $C$.
 
 Accordingly an arbitrary locally presentable $(\infty,1)$-category is analogous in this sense to a sub-space of a vector space spanned by a basis.
 
