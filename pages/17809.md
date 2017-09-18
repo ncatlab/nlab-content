@@ -44,6 +44,10 @@ that in supersymmetry two odd spinorial transformations pair to a spacetime tran
 same bilinear spinor pairing also underlies other algebraic phenomena, such as the inner workings of [[twistors]] or the
 positivity relations that enter the spinorial proof of the [[positive energy theorem]].
 
+<div style="float:right;margin:0 20px 10px 20px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Fano_plane.svg/330px-Fano_plane.svg.png" width="360" alt="The Fano place" title="A picture of the Fano plane">
+</div>
+
 Since [[real structure|real]] [[spin representations]] have a comparatively rigid classification, there are algebraic constraints on
 supersymmetry groups in various dimensions. By a remarkable algebraic coincidence, the [[real structure|real]] [[spin representations]]
 in spacetime dimensions 3,4,5,6,7,10, and 11 are given by simple [[linear algebra]] over the real [[normed division algebras]]:
@@ -51,6 +55,11 @@ the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[oct
 deep relation between [[supersymmetry]] and fundamental structres in mathematics ([[stable homotopy theory]])
 where these algebras, and their associated [[Hopf fibrations]],
 play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectral sequence]].
+
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
+</div>
 
 Conversely, it turns out that the [[super Minkowski spacetimes]] in these dimensions may be characterized by
 forming iterated invariant [[central extensions]], starting with the [[superpoint]]. This shows that
@@ -2583,6 +2592,48 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have a particularly simple expression in terms of 
 [[Hermitian matrices]] over the four real [[normed division algebras]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. For more on this see also at _[[supersymmetry and division algebras]]_. We follow ([Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)).
 
+
+
+
+
+
+
+
+### Real normed division algebras
+
+
++-- {: .num_defn}
+###### Definition
+
+The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real numbers]] which is [[generators and relations|generated]] from seven generators $\{e_1, \cdots, e_7\}$ subject to the [[generators and relations|relations]]
+
+1. for all $i$
+
+   $e_i^2 = -1$
+
+1. for $e_i \to e_j \to e_k$ an edge or circle in the following diagram (a labeled version of the [[Fano plane]]) the relations
+
+   1. $e_i e_j  = e_k$
+
+   1. $e_j e_i  = -e_k$
+
+<img src="https://ncatlab.org/nlab/files/OctonionMultiplicationTable.jpg" width="400" alt="octonion multiplication table">
+
+> (graphics grabbed from [Baez 02](#Baez02))
+
+=--
+
+
+
+
+[[!include exceptional spinors and division algebras -- table]]
+
+
+
+
+
+
+
 Some notation:
 
 * For $\mathbb{K}$ one of the four real [[normed division algebras]], write $(-)^\ast \colon \mathbb{K} \stackrel{\simeq}{\to} \mathbb{K}^{op}$ for the conjugation anti-automorphism;
@@ -2593,6 +2644,15 @@ Some notation:
 
 
 * write $\tilde A \coloneqq A - (tr A) 1_{n\times n}$ for the matrix minus its [[trace]] times the identity matrix ("trace reversal").
+
+
+
+
+
+
+
+
+
 
 
 ### In dimensions 3,4,6,10
@@ -3512,5 +3572,8 @@ Streamlined proof and exposition regarding [[supersymmetry and division algebras
 
 * {#BaezHuerta10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410  ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
 
+A neat collection of background on the real [[normed division algebras]] themselves is in
+
+* {#Baez02} [[John Baez]], _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html))
 
 
