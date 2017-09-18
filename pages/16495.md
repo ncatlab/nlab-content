@@ -3,7 +3,7 @@
 Let $X$ be a smooth projective [[complex manifold]].
 The _integral Hodge conjecture_ states that every integral [[Hodge cycle]], i.e. $2k$-degree [[cohomology class]] of $X$ which lies in the $(k,k)$-piece of the [[Hodge decomposition]], is _algebraic_, i.e. the class of an [[algebraic cycle]].
 
-This conjecture is known to be false, hence the refinement of the [[Hodge conjecture]] to rational cohomology classes.
+This conjecture is known to be false, hence the refinement of the [[Hodge conjecture]] to rational cohomology classes.  However it is true for $k=1$ by the [[Lefschetz theorem on (1,1)-classes]].
 
 ## Related concepts
 
