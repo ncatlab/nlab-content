@@ -1,0 +1,98 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Throughout, let $X$ be a [[differentiable manifold]] and let $v \in \Gamma(T X)$ be a differentiable [[vector field]] on $X$.
+
+
++-- {: .num_defn #IntegralCurve}
+###### Definition
+**(integral curve or flow line)**
+
+
+An _integral curve_ or _flow line_ of the vector field $v$ is a [[differentiable function]] of the form
+
+$$
+  \gamma
+    \;\colon\;
+  \mathbb{R}
+    \longrightarrow
+  X    
+$$
+
+with the property that its [[tangent vector]] at any $t \in \mathbb{R}$ equals the value of the vector field $v$ at the point $\gamma(t)$
+
+$$
+  \underset{t \in \mathbb{R}}{\forall}
+  \left(
+     d \gamma_t = v_{\gamma(t)}
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #IntegralCurvesUniqueness}
+###### Proposition
+**(uniqueness of integral curves)
+
+For each point $x \in X$ and vector $v_0 \in T_{x} X$ there is a unique integral curve $\gamma \colon \mathbb{R} \to X$ (def. \ref{IntegralCurve}) with the properties 
+
+1. $\gamma(0) = x$;
+
+1. $d \gamma_0 = v_0$.
+
+Moreover, the function
+
+$$
+  \Phi_v \;\colon\; X \times \mathbb{R} \longrightarrow X
+$$
+
+such that for each $x \in X$ the function $\Phi(x,-) \colon \mathbb{R} \to X$
+is the integral curve of $v$ through $x$, is a [[differentiable function]].
+
+
+=--
+
++-- {: .num_defn #FlowOfAVectorField}
+###### Definition
+**(flow of a vector field)
+
+Given a differentiable vector field $v$ on a [[differentiable manifold]] $X$, then 
+the function $\Phi_v$ from prop. \ref{IntegralCurvesUniqueness} called the _flow_ of the vector field $v$. One also writes $\exp(t v) \coloneqq \phi_v(-,t)$.
+
+=--
+
+## Properties
+
++-- {: .num_defn #SheavesOnCartSp}
+###### Definition
+
+The flow of a vector field $v$ (def. \ref{FlowOfAVectorField}) yields an [[action]] of the additive group $(\mathbb{R},+)$ of [[real numbers]] on the [[differentiable manifold]] $X$ by [[diffeomorphisms]], in that 
+
+* $\phi_v(-,0) = id_X$;
+
+* $\phi_n(-,t_2) \circ \phi_v(-,t_1) = \phi_v(-, t_1 + t_2)$;
+
+* $\phi_v(-,-t) = \phi_v(-,t)^{-1}$.
+
+=--
+
+## References
+
+* John Lee, chapter 12 "Integral curves and flows" of _Introduction to smooth manifolds_ ([pdf](http://webmath2.unito.it/paginepersonali/sergio.console/lee.pdf))
+
+[[!redirects flows of a vector field]]
+
+[[!redirects flow]]
+[[!redirects flows]]
+[[!redirects flow line]]
+[[!redirects flow lines]]
+
+
+[[!redirects integral curve]]
+[[!redirects integral curves]]
+
