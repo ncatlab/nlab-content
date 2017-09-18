@@ -1,8 +1,81 @@
 
-In [[quantum mechanics]], [[canonical quantization]] replaces the [[momentum]] $p$ with the operator $-\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d}x}$.  After this substitution, [[position]] and momentum fail to commute:
-\[ \array{[p,x] x^n &=& \left(-\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d}x} x x^n\right) - \left(x \cdot -\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d}x} x^n\right) \\ &=& -\mathrm{i}\hbar [(n+1)x^n - n x^n] \\ &=& -\mathrm{i}\hbar x^n} \]
-This is related to the [[combinatorics]] of placing a ball into a box and removing a ball from a box.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
 
 
-[[!redirects canonical commutation relation]]
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In contexts related to [[quantum mechanics]] and [[quantum field theory]], by the "canonical commutation relations" (CCR) one refers to the [[commutator]] relations in [[Weyl algebras]], i.e. [[associative algebras]] generated from elements $\{a_k, a^\ast_k\}_{k \in K}$ subject to the "canonical" expressions for the [[commutators]] $[a,b] \coloneqq a \cdot b - b \cdot a$
+
+$$
+  \underset{i,j \in K}{\forall} \left(  [a_i, a_j] = 0 = [a^\ast_i, a^\ast_j] \right)
+$$
+
+$$
+  \underset{i,j \in K}{\forall}\left( [a_i, a^\ast_j] = diag((a_k))_{i, j} \right)
+  \,,
+$$
+
+where $diag((a_k))$ is some [[diagonal matrix]] with entries $(a_k)_{k \in K}$.
+
+The archetypical example is the [[deformation quantization]] of the simple [[phase space]] which is the [[symplectic vector space]] $\mathbb{R}^2$ equipped with the [[symplectic form]] $\omega = \left( \array{ 0 & -1 \\ 1 & 0 } \right)$. 
+
+The resulting algebra is equivalently the [[quotient]] of the [[universal enveloping algebra]] of the [[Heisenberg Lie algebra]] $h_2$ which identifies the central element with a multiple of the 1 (the multiplicative neutral element).
+
+More concretely, in the [[quantization]] of a single particle propagating on the [[real line]] the [[Hilbert space]] of [[quantum states]] is identified with the the space of [[square integrable functions]] $L^2(\mathbb{R})$. On this the operators
+
+$$
+  a \coloneqq \tfrac{1}{\sqrt{2}}\left(x + i \hbar \frac{\partial}{\partial x} \right)
+  \phantom{AAAAA}
+  a^\ast \coloneqq \tfrac{1}{\sqrt{2}}\left(x - i \hbar \frac{\partial}{\partial x}\right)
+$$
+
+act (where "$x$" denotes the operator that multiplies a function with the canonical coordinate function, and $\frac{\partial}{\partial x}$ is the operator that forms the [[derivative]] with respect to this coordinate).
+
+These operators satisfy the canonical commutation relations with 
+
+$$  
+  [a, a^\ast] = i \hbar
+$$
+
+If the particle being quantized here is equipped with [[Hamiltonian]] that represents the [[energy]] of a [[harmonic oscillator]], then one may show that the operator $a$ has the interpretation of removing one quantum of energy from the oscillator, while $a^\ast$ has the interpretation of adding one quantum.
+
+(Accordingly the CCR relations in this case have been argued to be related to the [[combinatorics]] of placing a ball into a box and removing a ball from a box.)
+
+More generally, in the [[quantum field theory]] of the [[free fields|free]] [[scalar field]] on [[Minkowski spacetime]] of [[dimension]] $d+1 \in \mathbb{N}$, each [[Fourier transform|Fourier mode]] [[amplitude]] $a_k$ of the field behaves independently like a [[harmonic oscillator]] and hence the [[Wick algebra]] of [[quantum observables]] of this free field is a [[Weyl algebra]] with a [[countable set]] $\{a_k, a^\ast_k\}_{k \in \mathbb{Z}^d}$ of generator, subject to the "canonical commutation relations"
+
+$$
+  [a_k, a^\ast_{k'}] = i \hbar \delta_{k, k'}
+$$
+
+(where on the right we have the [[Kronecker delta]]). Now $a_k$ is interpreted as having the effect of "annihilating" a paticle/quantum in mode $k$, while $a_k^\ast$ has the effect of "creating" one. 
+
+Therefore operators satisfying the "canonical commutation relations" are often referred to as (particle) _creation and annihilation operators_.
+
+One a curved [[spacetime]] these relations become more complicated, see at _[[Wick algebra]]_ for more.
+
+If the field in question is not a [[bosonic field]] but a [[fermionic field]] then all of the above has to be understood in [[superalgebra]] with the fermionic variabled in off super-degree. This yields [[anti-commutator]] relations as above, heence often called "canonical anti-commutation relations".
+
+
+
 [[!redirects canonical commutation relations]]
+
+[[!redirects canonical anti-commutation relation]]
+[[!redirects canonical anti-commutation relations]]
+
