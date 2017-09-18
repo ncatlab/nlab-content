@@ -170,6 +170,10 @@ The original article is
 
 *  [[W. S. Massey]], _Exact Couples in Algebraic Topology (Parts I and II)_, Annals of Mathematics, Second Series, Vol. 56, No. 2 (Sep., 1952), pp. 363-396 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/massey6.pdf))
 
+also
+
+* [[Beno Eckmann]], [[Peter Hilton]], _Exact couples in an abelian category_, Journal of Algebra Volume 3, Issue 1, January 1966, Pages 38-87 ([jorunal](http://www.sciencedirect.com/science/article/pii/0021869366900196))
+
 A class of examples leading to what later came to be known as the [[Atiyah-Hirzebruch spectral sequence]] is discussed in section XV.7 of 
 
 * {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956)
