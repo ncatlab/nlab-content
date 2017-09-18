@@ -9,6 +9,15 @@ A _graded commutative algebra_ is an [[commutative algebra]] [[internalization|i
 
 * [[commutative differential graded algebra]]
 
-[[!redirects graded-commutative algebra]]
 
 [[!redirects graded commutative algebras]]
+
+[[!redirects graded-commutative algebra]]
+[[!redirects graded-commutative algebras]]
+
+
+[[!redirects graded commutative ring]]
+[[!redirects graded commutative rings]]
+
+[[!redirects graded-commutative ring]]
+[[!redirects graded-commutative rings]]
