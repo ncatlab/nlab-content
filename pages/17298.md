@@ -657,7 +657,7 @@ $$
 
 We here spell out the proof of the existence of the stable model structure on $\mathbb{S}_{dia}Mod$ in theorem \ref{StableModelStructuresOnDiagramSpectra}.
 
-The generating cofibrations and acylic cofibrations are going to be the those induced from the [[classical model structure on topological spaces]], except that we add a set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
+The generating cofibrations and acylic cofibrations are going to be the those induced via [[tensoring]] of representables from the [[classical model structure on topological spaces]] (giving the strict model structure), together with an additional set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
 
 
 +-- {: .num_defn #FreeStructuredSpectrum}
@@ -879,7 +879,7 @@ A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $K$-[[injective mor
 ([MMSS 00, prop. 9.5](#MMSS00))
 
 +-- {: .proof}
-###### Proof idea
+###### Proof
 
 Lifting against $F J$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]], equivalent to left lifting $i_+$ against the dual pullback product of $f^{k_n}$, which means that $f^{k_n}$ is a weak homotopy equivalence. But by construction (lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}) $f^{k_n}$ is the comparison morphism into the homotopy pullback under consideration. 
 
@@ -946,8 +946,9 @@ In the other direction, if $f$ is a stable equivalence and strict cofibration, b
 (...)
 
 #### Relating stable equivalences and stable weak homotopy equivalences
+ {#RelatingStableEquivalencesAndStableWeakHomotopyEquivalences}
 
-Here we discuss that the two concepts of stable equivalences and of stable weak homotopy equivalences in def. \ref{StableEquivalencesForDiagramSpectra} agree in the cases of pre-[[excisive funtors]], [[orthogonal spectra]] and [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalence:
+Here we discuss that the two concepts of stable equivalences and of stable weak homotopy equivalences in def. \ref{StableEquivalencesForDiagramSpectra} agree in the cases of pre-[[excisive functors]], [[orthogonal spectra]] and [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalence:
 
 +-- {: .num_theorem #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
 ###### Theorem
@@ -978,7 +979,66 @@ but the reverse implication is false.
 
 This is important in practice, since the stable equivalences are the weakequivalences in the stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra}, while the [[stable weak homotopy equivalences]] are typically more readily identified.
 
-The argument that every stable weak homotopy equivalence is in particular a stable equivalence is fairly abstract ("formal"). This we turn to first in prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} below. The converse statement however relies on explicit analysis of the class $K$ of generatinc acylic cofibrations in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}. This takes a bit more work below.
+The argument that every stable weak homotopy equivalence is in particular a stable equivalence is fairly formal; this we turn to first in prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} below. The converse statement however relies on explicit analysis of the class $K$ of generatinc acylic cofibrations in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}. This takes a bit more work below, starting with prop. \ref{ExplicitFormOfFreeSpectra}.
+
++-- {: .num_defn #AKindOfAlmostSpectrification}
+###### Definition
+
+For $\lambda_0 \colon F^{dia}_1 S^1 \to F^{dia}_0 S^0$ from lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, consider the [[natural transformation]] in $X \in \mathbb{S}_{dia}Mod$ given by the left vertical morphism in 
+
+$$
+  \array{
+    X &\simeq& \mathbb{S}_{dia} Mod(F^{dia}_0 S^0, X)
+    \\
+    \downarrow^{\mathrlap{\lambda_0^\ast(X)}} && \downarrow^{\mathrlap{\mathbb{S}_{dia}Mod(\lambda_0, X)}}
+    \\
+    R X &\coloneqq& \mathbb{S}_{dia}Mod(F^{dia}_1 S^1, X)
+  }
+  \,,
+$$
+
+where the top morphism is the $(F^{dia}_0 \dashv (-)_0)$-adjunction isomorphism.
+Write
+
+$$
+  R^\infty X
+  \coloneqq
+  \underset{\longrightarrow}{\lim}
+  \left(
+    X 
+     \stackrel{\lambda_0^\ast(X)}{\longrightarrow}
+    R X
+     \stackrel{R(\lambda_0^\ast(X))}{\longrightarrow}
+    R R X  
+     \stackrel{R R(\lambda_0^\ast(X))}{\longrightarrow}
+    \cdots
+  \right)
+$$
+
+for the [[homotopy colimit]] over the resulting sequence of iterations. Write 
+
+$$
+  r_X \colon X \longrightarrow R^\infty X
+$$
+
+for the 0th-component map into the colimit.
+
+=--
+
+
++-- {: .num_lemma #PropertiesOfAKindOfAlmostSpectrification}
+###### Lemma
+
+The functor $R^\infty$ from def. \ref{AKindOfAlmostSpectrification} has the following properties.
+
+1. for $E$ an Omega-spectrum according to def. \ref{StableEquivalencesForDiagramSpectra}, then, by lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, $\lambda_0^\ast(E)$ is weak equivalence in the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}), and hence so is $r_E$;
+
+1. for $f\colon X \longrightarrow Y$ a stable weak homotopy equivalence according to def. \ref{StableEquivalencesForDiagramSpectra}, then $R^\infty f \colon R^\infty X \longrightarrow R^\infty Y$ is a weak equivalence in the strict model structure.
+
+=--
+
+([MMSS 00, prop. 8.8](#MMSS00))
+
 
 +-- {: .num_prop #StableWeakHomotopyEquivalenceIsStableEquivalence}
 ###### Proposition
@@ -990,10 +1050,86 @@ In def. \ref{StableEquivalencesForDiagramSpectra} every stable weak homotopy equ
 ([MMSS 00, prop. 8.8](#MMSS00), following [Hovey-Shipley-Smith 00, theorem 3.1.11](#HoveyShipleySmith00))
 
 
-(...)
++-- {: .proof}
+###### Proof
+
+Let $E$ be an Omega-spectrum. Then by the first item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, for every $X$ the morphism
+
+$$
+  [X,r_E]_{strict}
+    \;\colon\; 
+  [X,E]_{strict} 
+    \longrightarrow 
+  [X, R^\infty E]_{strict}
+$$
+
+is an isomorphism. Since $r_{(-)}$ is a [[natural transformation]] (by def. \ref{AKindOfAlmostSpectrification}), the naturality squares gives a factorization of this morphism as
+
+$$
+  [X,r_E]_{strict}
+    \;\colon\;
+  [X,E]_{strict} 
+    \stackrel{R^\infty}{\longrightarrow}
+  [R^\infty X, R^\infty E]_{strict}
+    \stackrel{[r_X,E]_{strict}}{\longrightarrow}
+  [X, R^\infty E]_{strict}  
+$$
+
+Combining this with vertical morphisms as below, which are isomorphisms again by item 1 of lemma \ref{AKindOfAlmostSpectrification},
+
+$$
+  \array{
+     &
+      &&
+    [R^\infty X, E]_{strict}
+      &\stackrel{}{\longrightarrow}&
+    [X, E]_{strict}  
+    \\
+    & &\nearrow& 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[R^\infty X,r_E]}} 
+     && 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X,r_E]}}
+    \\
+    [X,r_E]_{strict}
+      \;\colon\;
+     &
+    [X,E]_{strict} 
+      &\stackrel{R^\infty}{\longrightarrow}&
+    [R^\infty X, R^\infty E]_{strict}
+      &\stackrel{[r_X,E]_{strict}}{\longrightarrow}&
+    [X, R^\infty E]_{strict}  
+  }
+$$
+
+exhibits a [[retraction]] 
+
+$$
+  id \colon [X,E]_{strict} \longrightarrow [R^\infty X,E]_{strict} \longrightarrow [X,E]_{strict}
+  \,,
+$$ 
+
+which is natural in $X$. This naturality now implies a retraction of morphisms
+
+$$
+  \array{
+    id_{[Y,E]_{strict}} \colon & [Y,E]_{strict} &\longrightarrow& [R^\infty Y,E]_{strict} &\longrightarrow& [Y,E]_{strict}
+    \\
+    & \downarrow^{\mathrlap{[f,E]_{strict}}} && \downarrow^{\mathrlap{[R^\infty f,E]_{strict}}}
+     &&
+     \downarrow^{\mathrlap{[f,E]_{strict}}}
+    \\
+    id_{[X,E]_{strict}} \colon & [X,E]_{strict} &\longrightarrow& [R^\infty X,E]_{strict} &\longrightarrow& [X,E]_{strict}
+  }
+  \,.
+$$
+
+Finally, by the second item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([here](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f^\ast$ is a stable equivalence.
 
 
-Now for the converse
+=--
+
+
+Now for the converse.
 
 
 
@@ -1071,7 +1207,7 @@ The maps $\lambda_n$ in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are
 
 =--
 
-([MMSS 00, def. 8.6](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
+([Hovey-Shipley-Smith 00, example 3.1.10](#HoveyShipleySmith00), [MMSS 00, lemma 8.6](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
 
 +-- {: .proof}
 ###### Proof
