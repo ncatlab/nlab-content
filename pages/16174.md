@@ -1,9 +1,12 @@
-[[!redirects burnside ring]]
+
+
+## Idea
+
+The Burnside ring $A(G)$ of a [[finite group]] $G$ is the analogue of the [[representation ring]] in the category of [[finite sets]], as opposed to the category of [[finite dimensional vector spaces]] over a field $F$.
+
+Elements of the Burnside ring are thus formal differences of [[G-sets]] (with respect to [[disjoint union]]).
 
 $A$ is a contravariant functor $\text{FinGrp} \xrightarrow{A} \text{AbRing}$.
 
-## Idea
-The Burnside ring $A(G)$ of a finite group $G$ is the analogue of the [[representation ring]] in the category of finite sets, as opposed to the category of finite dimensional vector spaces over a field $F$.
 
-Elements of the Burnside ring are thus formal differences of $G$-sets (with respect to [[disjoint union]]).
-
+[[!redirects burnside ring]]
