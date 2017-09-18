@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -220,7 +219,7 @@ If we modify Def. \ref{CategoryWithFamilies} by requiring only that the functors
 =--
 
 
-### Contextual categories
+### Contextual categories, or C-systems
 
 Recall that if $C$ is a comprehension category, $\Gamma\in C$ is a "context" and $A\in E^\Gamma$ is a "type" in context $\Gamma$, we denote by $\Gamma.A$ the "extended context" in $C$.
 
@@ -447,3 +446,5 @@ Strictification is discussed in
 [[!redirects categories with families]]
 [[!redirects contextual category]]
 [[!redirects contextual categories]]
+[[!redirects C-system]]
+[[!redirects C-systems]]
