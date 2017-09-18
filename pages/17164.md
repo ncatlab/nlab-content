@@ -5,13 +5,14 @@
 
 ## Idea
 
-For $S_\bullet$ a [[spectrum]], its _cylinder spectrum_ $Cyl(E)_\bullet$ has as component spaces
+For $S_\bullet$ a [[spectrum]], its _cylinder spectrum_ $Cyl(E)_\bullet$ has as component spaces the [[reduced cylinder]] spaces over the original component spaces:
 
 $$
   Cyl(E)_n \coloneqq I_+ \wedge E_n
+  \,,
 $$
 
-the [[smash product]] (of [[pointed topological spaces]]) of $E_n$ with the unit inveral with a dijoint basepoint adjoint.
+i.e. the [[smash product]] (of [[pointed topological spaces]]) of $E_n$ with the unit inveral with a dijoint basepoint adjoined.
 
 Cylinder spectra serve to define [[left homotopy]] of spectra as for other [[cylinder objects]].
 
