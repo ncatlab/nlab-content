@@ -129,6 +129,14 @@ The following are equivalent
 +-- {: .num_prop}
 ###### Proposition
 
+If $f \colon x \to y$ and $g \colon y \to z$ are epimorphisms, so is their composite $g f$.  If $g f$ is an epimorphism, so is $g$.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
 Every [[coequalizer]] $x \to y$
 
 $$
@@ -138,6 +146,8 @@ $$
 is an epimorphism.
 
 =--
+
+The converse of the above proposition fails, and an epimorphism is called a [[regular epimorphism]] if it is the coequalizer of some pair of morphisms.
 
 
 +-- {: .num_prop}
