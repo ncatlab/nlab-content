@@ -4670,7 +4670,16 @@ $$
   f_{2n} \colon B_{2n} \longrightarrow B O(2n)
 $$
 
-indexed only on the even natural numbers.
+indexed only on the even natural numbers. 
+
+Generally, an **$S^k$-$(B,f)$-structure** for $k \in \mathbb{N}$, $k \geq 1$ is a compatible system
+
+$$
+  f_{k n} \colon B_{ kn} \longrightarrow B O( kn)
+$$
+
+for all $n \in \mathbb{N}$, hence for all $k n \in k \mathbb{N}$.
+
 
 =--
 
@@ -4687,9 +4696,16 @@ Examples of $(B,f)$-structures (def. \ref{BfStructure}) include the following:
 
 1. $B_n = B Spin(n) = E O(n)/Spin(n)$ the classifying space of the [[spin group]] and $f_n$ the canonical projection is **[[spin structure]]**.
 
-Examples of $S^2$-$(B,f)$-structures include
+Examples of $S^2$-$(B,f)$-structures (def. \ref{BfStructure}) include
 
-1. $B_{2n} = B U(n) = E O(2n)/U(n)$ the classifying space of the [[unitary group]], and $f_{2n}$ the canonical projection is **[[almost complex structure]]**.
+1. $B_{2n} = B U(n) = E O(2n)/U(n)$ the classifying space of the [[unitary group]], and $f_{2n}$ the canonical projection is **[[almost complex structure]]** (or rather: **[[almost Hermitian structure]]**).
+
+1. $B_{2n} = B Sp(2n) = E O(2n)/Sp(2n)$ the classifying space of the [[symplectic group]], and $f_{2n}$ the canonical projection is **[[almost symplectic structure]]**.
+
+Examples of $S^4$-$(B,f)$-structures (def. \ref{BfStructure}) include
+
+1. $B_{4n} = B U_{\mathbb{H}}(n) = E O(4n)/U_{\mathbb{H}}(n)$ the classifying space of the [[quaternionic unitary group]], and $f_{4n}$ the canonical projection is **[[almost quaternionic structure]]**.
+
 
 =--
 
@@ -4985,7 +5001,7 @@ where the bottom morphism is the canonical inclusion ([def.](classifying+space#I
 +-- {: .num_defn #UniversalThomSpectrum}
 ###### Definition
 
-The **[[Thom spectrum]]** $M O$ is the [[spectrum]], which is represented by the [[sequential prespectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra)) whose $n$th component space is the [[Thom space]] (def. \ref{ThomSpace})
+The **universal real [[Thom spectrum]]** $M O$ is the [[spectrum]], which is represented by the [[sequential prespectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra)) whose $n$th component space is the [[Thom space]] (def. \ref{ThomSpace})
 
 $$
   (M O)_n \coloneqq Th(E O(n)\underset{O(n)}{\times}\mathbb{R}^n)
@@ -5010,7 +5026,7 @@ $$
 
 
 
-More generally, there are universal Thom spectra associated with any other tangent structure ("[[(B,f)]-structure]"), notably for the orthogonal group replaced by the [[special orthogonal groups]] $SO(n)$, or the [[spin groups]] $Spin(n)$, or the [[string 2-group]] $String(n)$, or the [[fivebrane 6-group]] $Fivebrane(n)$,..., or any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum (denoted, respectively, $M SO$, $M Spin$, $M String$, $M Fivebrane$, etc.), which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
+More generally, there are universal Thom spectra associated with any other tangent structure ("[[(B,f)]-structure]]"), notably for the orthogonal group replaced by the [[special orthogonal groups]] $SO(n)$, or the [[spin groups]] $Spin(n)$, or the [[string 2-group]] $String(n)$, or the [[fivebrane 6-group]] $Fivebrane(n)$,..., or any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum (denoted, respectively, $M SO$, [[MSpin]], $M String$, $M Fivebrane$, etc.), which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.:
 
 
 +-- {: .num_defn #VectorBundleAssociatedWithBfStructure}
@@ -5082,10 +5098,10 @@ where the second but last step is due to prop. \ref{PullbackOfUniversalOnBundleU
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #UniversalThomSpectrumForBfStructure}
 ###### Definition
 
-Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), its Thom spectrum $M \mathcal{B}$ is, as a [[sequential prespectrum]], given by component spaces being the [[Thom spaces]] (def. \ref{ThomSpace}) of the $\mathcal{B}$-associated vector bundles of def. \ref{VectorBundleAssociatedWithBfStructure}
+Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), its **universal Thom spectrum** $M \mathcal{B}$ is, as a [[sequential prespectrum]], given by component spaces being the [[Thom spaces]] (def. \ref{ThomSpace}) of the $\mathcal{B}$-associated vector bundles of def. \ref{VectorBundleAssociatedWithBfStructure}
 
 $$
   (M \mathcal{B})_n
@@ -5110,9 +5126,9 @@ $$
   \,.
 $$
 
-Similarly for a $(B,f)$-structure indexed on the even natural numbers, there is the corresponding Thom spectrum as an $S^2$-sequential spectrum ([def.](model+structure+on+topological+sequential+spectra#SequentialS2Spectra)).
+Similarly for an $S^k-(B,f)$-structure indexed on every $k$th natural number (such as [[almost complex structure]], [[almost quaternionic structure]], example \ref{ExamplesOfBfStructures}), there is the corresponding Thom spectrum as a sequential $S^k$ spectrum ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialTSpectra)).
 
-If $B_n = B G_n$ for some natural system of groups $G_n \to O(n)$, then one usually writes $M G$ for $M \mathcal{B}$. For instance $M SO$, $M Spin$, $M U$ etc.
+If $B_n = B G_n$ for some natural system of groups $G_n \to O(n)$, then one usually writes $M G$ for $M \mathcal{B}$. For instance $M SO$, [[MSpin]], [[MU]], [[MSp]] etc.
 
 If the $(B,f)$-structure is multiplicative (def. \ref{BfStructure}), then the Thom spectrum $M \mathcal{B}$ canonical becomes a [[ring spectrum]]: the multiplication maps $B_{n_1} \times B_{n_2}\to B_{n_1 + n_2}$ are covered by maps of vector bundles
 
@@ -5139,7 +5155,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-The Thom spectrum of the _[[framing]] structure_ ([exmpl.](G-structure#ExamplesOfBfStructures)) is equivalently the [[sphere spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#StandardSphereSpectrum))
+The universal [[Thom spectrum]] (def. \ref{UniversalThomSpectrumForBfStructure}) for _[[framing]] structure_ ([exmpl.](G-structure#ExamplesOfBfStructures)) is equivalently the [[sphere spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#StandardSphereSpectrum))
 
 $$
   M 1 \simeq \mathbb{S}
