@@ -185,6 +185,8 @@ Modern textbooks on mathematical logic include
 
 * [[Lambek]], J.; [[Philip Scott|Scott]], P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
 
+* [[Jim Lambek]], [[Phil Scott]], _Reflections on the categorical foundations of mathematics_ ([pdf](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf))
+
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 * [[Bart Jacobs]], _Categorical Logic and Type Theory_, (1999) Elsevier 
