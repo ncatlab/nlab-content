@@ -36,6 +36,11 @@ $$
 
 * [[classical model structure on pointed topological spaces]]
 
+## References
+
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], chapter V.7 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+
+
 [[!redirects pointed topological spaces]]
 
 [[!redirects based topological space]]
