@@ -184,6 +184,10 @@ $$
 
 ([Lewis-May-Steinberger 86, p. 3](#LewisMaySteinberger86))
 
+In the special case that $E = \Sigma^\infty X$ a [[suspension spectrum]], i.e. with $E_n = \Sigma^n X$, then  $(L E)_0$ is the [[free infinite loop space]] construction.
+
+If the pre-spectrum $E$ is not a [[CW-spectrum]] then the construction of the spectrification is more involved ([Lewis 86](#Lewis86)).
+
 For $E$ a [[sequential spectrum|sequential]] [[prespectrum]] in [[pointed object|pointed]] [[simplicial sets]] the spectrification may be constructed by ([Bousfield-Friedlander 78, section 2.3](#BousfieldFriedlander78))
 
 $$
@@ -192,9 +196,10 @@ $$
 
 (i.e. by the previous formula combined with [[geometric realization]]/[[Kan fibrant replacement]]).
 
-For $E = \Sigma^\infty X$ a [[suspension spectrum]], i.e. with $E_n = \Sigma^n X$, then  $(L E)_0$ is the [[free infinite loop space]] construction.
+The spectrificatin functor on sequential prespectra satisfies the conditions of the [[Bousfield-Friedlander theorem]], and hence the [[left Bousfield localization]] of pre-spectra with degree-wise fibrations weak equivalences at the morphisms of prespectra that become weak equivalences under spectrification exists. This is the stable _[[Bousfield-Friedlander model structure]]_.
 
-If the pre-spectrum $E$ is not a [[CW-spectrum]] then the construction of the spectrification is more involved ([Lewis 86](#Lewis86)).
+
+
 
 ### For coordinate-free spectra
 
