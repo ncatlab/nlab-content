@@ -92,6 +92,8 @@ $$
 
 * [[direct sum of vector bundles]]
 
+* [[inner product on vector bundles]]
+
 * [[dual vector bundle]]
 
 * [[tensor product]]
