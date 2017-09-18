@@ -1,6 +1,6 @@
-I am a postdoc at Harvard University.
+I am an Assistant Professor in the Department of Mathematics at [Johns Hopkins University](http://www.math.jhu.edu).
 
-My webpage can be found [here](http://www.math.harvard.edu/~eriehl/).
+My webpage can be found [here](http://www.math.jhu.edu/~eriehl/).
 
 ## some writings
 
