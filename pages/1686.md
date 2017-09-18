@@ -750,28 +750,22 @@ An elementary pedagogical introduction is in
 * [[Timothy Chow]], _You could have invented spectral sequences_, Notices of the AMS (2006) ([pdf](http://www.ams.org/notices/200601/fea-chow.pdf))
  {#Chow}
 
-Standard textbook references are 
+Textbook accounts include
 
 * [[John McCleary]], _A User's Guide to Spectral Sequences_, Cambridge University Press 
 
-chapter 5 of 
+* {#Weibel} [[Charles Weibel]], chapter 5, _An introduction to homological algebra_ Cambridge studies in advanced mathematics 38 (1994)
 
-* [[Charles Weibel]], _An introduction to homological algebra_ Cambridge studies in advanced mathematics 38 (1994)
-{#Weibel}
 
-and section 14 of
+* [[Raoul Bott]], [[Loring Tu]], section 14 of _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
-* [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
-
-and
 
 * [[Hal Schenck]], _Chapter 9: Cohomology and spectral sequences_ ([pdf](http://www.math.uiuc.edu/~schenck/tapp.pdf)) .
 
+* {#Hatcher} [[Alan Hatcher]], _Spectral sequences in algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html))
+ 
+* {#Kochmann96} [[Stanley Kochmann]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-A textbook with a focus on applications in [[algebraic topology]] is
-
-* [[Alan Hatcher]], _Spectral sequences in algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html))
- {#Hatcher}
 
 The general discussion in the context of [[stable (∞,1)-category]] theory (the [[spectral sequence of a filtered stable homotopy type]]) is in section 1.2.2 of 
 
