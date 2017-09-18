@@ -1,3 +1,4 @@
+[[!redirects closed subsets of compact spaces are compact]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -59,11 +60,13 @@ is a cover of $Y$, and in indeed a finite subcover of the original one.
 =--
 
 
-## Related entries
+## Related statements
 
 * [[compact subspaces of Hausdorff spaces are closed]]
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[compact Hausdorff spaces are normal]]
 
 * [[a CW-complex is a Hausdorff space]]
 
