@@ -41,12 +41,22 @@ Under [[Kaluza-Klein mechanism|reduction]] to [[type II supergravity]] the M2 an
 
 ## References
 
-See the references at _[[M-theory]]_ and thos at the separate M-brane entries.
+See the references at _[[M-theory]]_ and those at the separate M-brane entries.
 
 Further references include
 
 * Chan Park, _2d SCFT from M-branes and its spectral network_ ([pdf](http://theory.caltech.edu/~chan/documents/2013_String_Math_proceedings.pdf))
 
+The [[brane intersection]] laws of M-branes are discussed in
+
+* [[Eric Bergshoeff]], M. Roo, E. Eyras, [[Bert Janssen]], J. P. Schaar, _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. 14 2757 ([publisher](http://iopscience.iop.org/0264-9381/14/10/005/))
+
+* [[Eric Bergshoeff]], [[Joaquim Gomis]], [[Paul Townsend]], _M-brane intersections from worldvolume superalgebras_, Phys.Lett. B421 (1998) 109-118 ([arXiv:hep-th/9711043](http://arxiv.org/abs/hep-th/9711043))
+
+* {#Townsend97} [[Paul Townsend]], section 4 of _M-theory from its superalgebra_ ([arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004))
+
+
+
+
 
 [[!redirects M-branes]]
-
