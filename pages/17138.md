@@ -107,6 +107,7 @@ An [[commutative ring spectrum]] $E$ over $MU$, hence a $Spec(E)\to Spec(MU)$ is
 We follow ([Malkiewich 14](#Malkiewich14)). 
 
 ### Spectra
+ {#Spectra}
 
 * [[pointed object]]
 
@@ -124,7 +125,14 @@ We follow ([Malkiewich 14](#Malkiewich14)).
 
 * [[stable homotopy category]]
 
+### Ring spectra
+ {#RingSpectra}
+
 * [[smash product of spectra]]
+
+* [[symmetric monoidal category]]
+
+* [[monoid object]], [[commutative monoid object]], [[module object]]
 
 * [[ring spectrum]]
 
@@ -132,11 +140,13 @@ We follow ([Malkiewich 14](#Malkiewich14)).
 
 
 ### Examples
+ {#Examples}
 
-...[[S]]. [[HA]], [[MO]], [[MU]], [[KO]], [[KU]]...
+...[[S]], [[HA]], [[MO]], [[MU]], [[KO]], [[KU]]...
 
 
 ### Localization
+ {#Localization}
 
 [[Bousfield localization of spectra]] and [[fracture theorem]]
 
@@ -401,8 +411,7 @@ e.g. ([Bauer 11, prop. 2.2](#Bauer11))
 
 ## **Part 2) Adams spectral sequences**
 
-We follow ([Hopkins 99, section 5](#Hopkins99), [Aramian](#Aramian)).
-
+We follow ([Hopkins 99, section 5](#Hopkins99),  [Aramian](#Aramian)).
 
 
 #### $E$-Adams resolutions
@@ -838,6 +847,8 @@ For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrie
 
 * [[ordinary cohomology]], [[topological K-theory]]
 
+(-from here on we need the basics of [Part 1), Spectra](#Spectra)-)
+
 [[Brown representability theorem]]
 
 * [[multiplicative cohomology theory]]
@@ -863,17 +874,19 @@ For instance ([Malkiewich 11](#Malkiewich11)).
 
 ### **Part S2) Complex oriented cohomology**
 
-For instance ([Adams 74](#Adams74), [Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10)) 
+Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10)).
+
+
+
 
 #### Complex orientation
+
+(-from here on we need the basics of [Part 1), Ring spectra](#RingSpectra)-)
 
 * [[complex oriented cohomology theory]]
 
   * generalized [[Chern classes]]
 
-* [[complex cobordism cohomology]] 
-
-  * [[MU]]
 
 * [[Lazard's theorem]]
 
@@ -881,13 +894,22 @@ For instance ([Adams 74](#Adams74), [Hopkins 99](#Hopkins99), [Lurie 10](#Lurie1
 
   * [[Lazard ring]], 
 
+* [[Landweber exact functor theorem]]
+
+(-from here on we need basics from [Part 1), Examples](#Examples)-)
+
+* [[complex cobordism cohomology]] 
+
+  * [[MU]]
+
 * [[Quillen's theorem on MU]]
 
 * [[universal complex orientation on MU]]
 
-* [[Landweber exact functor theorem]]
 
 #### Geometry of $Spec(MU)$
+
+(-from here on we need basics of [Part 1), Localization](#Localization)-)
 
 * [[moduli space of formal groups]]
 
@@ -918,19 +940,19 @@ For **2) Adams spectral sequence** we follow ([Hopkins 99, section 5](#Hopkins99
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
 
-For **S1) Generalized cohomology** these here provide a neat account:
+For **S1) Generalized cohomology** a neat account is in:
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 * {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
  
-For **S2) Complex oriented cohomology** try
+For **S2) Complex oriented cohomology** we follow
 
 * {#Adams74} [[Frank Adams]], parts I and II of _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
-* {#Hopkins99} [[Mike Hopkins]], sections 1-7 of _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 
-
 * {#Lurie10} [[Jacob Lurie]], lectures 1-16 of _[[Chromatic Homotopy Theory]]_, 2010
+
+(These overlap. [Lurie 10](#Lurie10) at some point invokes [[A-∞ rings]] where [Adams 74](#Adams74) sticks with [[ring spectra]]. )
 
 ### Further reading
 
@@ -938,11 +960,15 @@ For further reading on stable homotopy theory an excellent collection is
 
 * {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
 
-Useful survey of the modern big picture may be found in
+The modern chromatic picture originates around
+
+* {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 
+
+a useful survey is in
 
 * {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/)_, March 2013 ([[DylanWilsonOnANSS.pdf:file]])
 
-Further lecture notes pointed to above include
+Further useful lecture notes include
 
 * {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
 
