@@ -187,12 +187,14 @@ This means that a sheaf topos $Sh(\mathcal{C},J)$ is the classifying topos for t
 We list and discuss explicit examples of classifying toposes.
 
 ### For objects
+ {#ForObjects}
 
 The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the classifying topos for the [[theory of objects]], sometimes called the "object classifier" This is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]]  and maybe better called in full the _[[classifying topos for the theory of objects]]_.
 
 For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$.
 
 ### For pointed objects
+ {#ForPointedObjects}
 
 Similarly, the presheaf topos $[FinSet_*, Set]$ (where $FinSet_*$ is the category of finite [[pointed sets]]) classifies [[pointed objects]]; cf. [this question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify) and answer.  This is the topos of "$\Gamma$-sets"; see [[Gamma-space]].
 
