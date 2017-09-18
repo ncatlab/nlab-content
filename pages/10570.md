@@ -51,7 +51,7 @@ this induces
 * the _[[partial flag varieties]]_ $G/P_J$
 
 
-A **Bruhat decomposition** is, if it exists, a [[coproduct]] decomposition
+A **Bruhat decomposition** is, if it exists, a [[coproduct]] decomposition into a disjoint union of [[double cosets]]
 
 $$
   G = \underset{w \in W_0}{\coprod} B w B
