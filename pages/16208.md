@@ -29,5 +29,6 @@
 
 * [[Jeremy Avigad]],  [[Leonardo de Moura]],  Soonho Kong, _Theorem Proving in Lean_ ([pdf](https://leanprover.github.io/tutorial/tutorial.pdf))
 
+* [[Floris van Doorn]], _[The Lean Theorem Prover](http://homotopytypetheory.org/2015/12/02/the-proof-assistant-lean/)_
 
 * _The Lean Homotopy Type Theory Library_ ([GitHub](https://github.com/leanprover/lean/blob/master/hott/hott.md))
