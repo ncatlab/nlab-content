@@ -1,6 +1,6 @@
 ##The development of the cohomology of categories.
 
-The [[cohomology of categories|cohomology of (small) categories]] went through several preliminary stages before the major publication by Baues and Wirshing.  The actual method and ideas that they use can be found earlier in an unpublished document by Charles Wells from 1979.  That paper traces the theory back to Leech earlier in the 1970s for the related situation of  cohomology of monoids. It handles non-Abelian coefficients as well as the Abelian ones that the Baues and Wirsching theory uses.
+The [[cohomology of categories|cohomology of (small) categories]] went through several preliminary stages before the  publication by Baues and Wirshing.  In fact, the actual method and ideas that they use can be found earlier in an unpublished document by Charles Wells from 1979.  That paper traces the theory back to Leech earlier in the 1970s for the related situation of  cohomology of monoids. It handles non-Abelian coefficients as well as the Abelian ones that the Baues and Wirsching theory uses.
 
 ##Idea
 
