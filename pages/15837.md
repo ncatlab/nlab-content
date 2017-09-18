@@ -1,7 +1,17 @@
 
+# Christopher Fuchs
+* table of contents
+{: toc}
+
+## Related entries
+
+* [[quantum Bayesianism]]
+* [[POVM]]
+
+
+## External links
 
 * [webpage](http://perimeterinstitute.ca/personal/cfuchs/)
-
 
 
 category: people
