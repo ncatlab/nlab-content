@@ -216,7 +216,11 @@ The Beilinson regulator with values in [[Deligne cohomology]] is due to
 
 * {#Bloch81} [[Spencer Bloch]], _The dilogarithm and extensions of Lie algebras_, Algebraic K-Theory Evanston 1980, Lecture Notes in Mathematics Volume 854, 1981, pp 1-23
 
-* {#Beilinson85} [[Alexander Beilinson]], _Higher regulators and values of L-functions_, J. Soviet Math. 30 (1985), 2036-2070 (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88))
+* {#Beilinson85} [[Alexander Beilinson]] _Higher regulators and values of L-functions_, Journal of Soviet Mathematics 30 (1985), 2036-2070, ([mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng), [DOI](http://dx.doi.org/10.1007%2FBF02105861))
+
+* {#Beilinson80} [[Alexander Beilinson]], _Higher regulators of curves_, Funct. Anal. Appl. 14 (1980), 116-118, [mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=faa&paperid=1800&option_lang=eng).
+
+* {#Beilinson87} [[Alexander Beilinson]], _Height pairing between algebraic cycles_, in _K-Theory, Arithmetic and Geometry_, Lecture Notes in Mathematics Volume 1289, 1987, pp 1-26, [DOI](http://dx.doi.org/10.1007/BFb0078364).
 
 reviewed in
 
