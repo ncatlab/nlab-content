@@ -14,7 +14,7 @@
 * table of contents
 {:toc}
 
-**Hermann Cohen** (1842-1918) was a German Philosopher of Jewish origin. He was one of the main protagonists of the _Marburg school of Neo-Kantianism_ together with _Paul Natorp_ and _Ernst Cassirer_.
+**Hermann Cohen** (1842-1918) was a German Philosopher of Jewish origin. He was one of the main protagonists of the _Marburg school of neo-Kantianism_ together with _Paul Natorp_ and _[[Ernst Cassirer]]_.
 
 According to _Hans-Georg Gadamer_ who was PhD-student of Natorp, the principal idea of the Marburg school is the formulation of the _transcendental concepts_ of [[Kant]] as methods of the generation of reality through pure thought modeled on the role of continuity and infinitesimals in the mathematical sciences programmatically expressed in ([Cohen 1883](#Cohen83)).
 
@@ -26,6 +26,7 @@ Cohen's views of the role of continuity have affinities with Hegelianism and can
 * [[synthetic differential geometry]]
 * [[infinitesimal]]
 * [[William Lawvere]]
+* [[Ernst Cassirer]]
 * [[Charles Sanders Peirce]]
 
 ## Links
@@ -47,6 +48,8 @@ Cohen's views of the role of continuity have affinities with Hegelianism and can
 * [[Gottlob Frege|G. Frege]], _Rezension von: [Cohen 1883](#Cohen83)_, Z.Phil.Phil.Kr. **87** (1885) pp.324-329, reprinted on pp.99-102 in Frege, _Kleine Schriften_ , Olms Hildesheim 1990.
 
 * H.-G. Gadamer, _Festrede zum 100. Geburtstag von Paul Natorp gehalten am 24.1.1954_ , pp.XI-XVII in Natorp, _Philosophische Systematik_ , Meiner Hamburg 1958. 
+
+* M. G. Katz, T. Mormann, _Infinitesimals as an issue in neo-Kantian philosophy of science_ , arXiv:1304.1027v1 (2013) . ([pdf](http://arxiv.org/pdf/1304.1027v1))
 
 * [[F. W. Lawvere]], _Toposes of Laws of Motion_ , Talk Montreal 1997.
 
