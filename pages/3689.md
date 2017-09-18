@@ -89,7 +89,7 @@ $$
   \,.
 $$
 
-This says that $Mod \to Ring$ is the [[tangent category]] of $CRing$: the above equivalence regards an $R$-module $N$ equivalently as the [[square-0 extension]] ring $R \oplus N$ (with producte $(r_1,n_1) \cdots (r_2,n_2) = (r_1 r_2, r_1 n_2 + r_2 n_1)$), which may be thought of as the ring of functions on the infinitesimal neighbourhood of the 0-section of the [[vector bundle]] (or rather [[quasicoherent sheaf]]) over $Spec R$ that is given by $N$.
+This says that $Mod \to Ring$ is the [[tangent category]] of $CRing$: the above equivalence regards an $R$-module $N$ equivalently as the [[square-0 extension]] ring $R \oplus N$ (with multiplication $(r_1,n_1) \cdots (r_2,n_2) = (r_1 r_2, r_1 n_2 + r_2 n_1)$), which may be thought of as the ring of functions on the infinitesimal neighbourhood of the 0-section of the [[vector bundle]] (or rather [[quasicoherent sheaf]]) over $Spec R$ that is given by $N$.
 
 There is thus another natural projection from $Mod$ to rings, namely the functor that remembers these [[square-0 extensions]]
 
