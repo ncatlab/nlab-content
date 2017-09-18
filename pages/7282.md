@@ -26,6 +26,9 @@ For a finite-dimensional vector space equipped with a nondegenerate inner produc
 
 In the TVS case, with the appropriate meaning of basis understood, the Gram-Schmidt process extends without difficulty to any well-ordered basis, because the process yields a linearly independent orthogonal set with the same span as the original basis. 
 
+## Related concepts
+
+* [[frame field]]
 
 [[!redirects orthogonal set]]
 [[!redirects orthogonal sets]]
