@@ -51,6 +51,15 @@ A directed set is a [[proset]] which is a [[filtered category]]: a **filtered [[
 =--
 
 
+In analogy with the definition there, we can provide an [[biased definition|unbiased definition]] that is also commonly used in the literature:
+
++-- {: .num_defn}
+###### Definition
+
+A directed set is a [[proset]] in which every finite subset has an upper bound.
+
+=--
+
 ### Higher cardinality
 
 More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-directed set** is equipped with a preorder $\leq$ such that, given any index set $A$ with $|A| \lt \kappa$ and function $i \mapsto x_i$ from $A$, there exists an element $z$ such that $x_i \leq z$ for all $i$. Then a finitely directed set is the same as an $\aleph_0$-directed set.  An **infinitely directed set** allows any index set $A$ whatsoever, but this reduces to the statement that the proset has a [[top]] element.
