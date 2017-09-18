@@ -61,7 +61,7 @@ In particular, taking $S$ to be the set of all monic polynomials in $k[x]$, this
 Any two splitting fields of a given set $S$ of polynomials are isomorphic. 
 =-- 
 
-We will not carry out the proof here, but confine ourselves to the remark that the uniqueness also uses only the [[ultrafilter principle]]. Both [Andres Caicedo](#AC) and [Joel David Hamkins](#JDH) gave illuminating proofs of this result in the aforementioned MathOverflow thread, with Caicedo recapitulating Banaschewski's argument, explicitly formulated in terms of the [[Tychonoff theorem]] for [[compact Hausdorff spaces]], and Hamkins recounting a more explicitly [[model theory|model-theoretic]] proof which ultimately devolves on the Compactness Theorem for first-order logic, and using amalgamation arguments. 
+We will not carry out the proof here, but confine ourselves to the remark that the uniqueness also uses only the [[ultrafilter principle]]. Both [Andres Caicedo](#AC) and [Joel David Hamkins](#JDH) gave illuminating proofs of this result at MathOverflow, with Caicedo recapitulating an argument due to Banaschewski, explicitly formulated in terms of the [[Tychonoff theorem]] for [[compact Hausdorff spaces]], and Hamkins recounting a more explicitly [[model theory|model-theoretic]] proof which ultimately devolves on the Compactness Theorem for first-order logic, and using amalgamation arguments. 
 
 ## References 
 
