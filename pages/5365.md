@@ -40,6 +40,8 @@ A _relative $\mathcal{I}$-cell complex_ (relative to any object $A$) is any morp
 
 * A [[Sullivan model]] is a cell complex with respect to the generating cofibrations in the standard [[model structure on dg-algebras]].
 
+* A [[cell spectrum]] is a cell complex in the category of topological [[sequential spectra]].
+
 ## References
 
 A discussion in the context of [[algebraic model categories]] is in 
