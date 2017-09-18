@@ -30,7 +30,7 @@ $$
   (-) \times (-)\colon V \times V \to V
 $$
 
-given, upon choosing any oriented basis for $V$, by the formula above.
+given, upon choosing any oriented orthonormal basis for $V$, by the formula above.
 
 
 ### Binary
