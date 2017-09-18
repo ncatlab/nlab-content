@@ -294,4 +294,8 @@ and realization of [[GUTs]] in
 
 * [[Bobby Acharya]], Krzysztof Bozek, Miguel Crispim Romao, Stephen F. King, Chakrit Pongkitivanichkul, _$SO(10)$ Grand Unification in M theory on a $G_2$ manifold_ ([arXiv:1502.01727](http://arxiv.org/abs/1502.01727))
 
+The phenomenology of compactifications on Kovalev's compact $G_2$-manifolds ([Kovalev 00](G2+manifold#Kovalev00)) is in
+
+* {#GHKY17} Thaisa C. da C. Guio, [[Hans Jockers]], [[Albrecht Klemm]], Hung-Yu Yeh, _Effective action from M-theory on twisted connected sum $G_2$-manifolds_ ([arXiv:1702.05435](https://arxiv.org/abs/1702.05435), [talk video](https://lecture2go.uni-hamburg.de/l2go/-/get/v/21906)) 
+
 [[!redirects G2 compactifications of M-theory]]
