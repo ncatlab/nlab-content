@@ -2872,7 +2872,7 @@ $$
 
 and say that the two topological spaces _are homeomorphic._
 
-A [[property]]/[[predicate]] $P$ of [[topological spaces]] which is [[invariant]] under homeomorphism in that 
+A [[property]]/[[predicate]] $P$ of [[topological spaces]] which is [[invariant]] under homeomorphism in that
 
 $$
   \left(
@@ -2881,7 +2881,7 @@ $$
        \simeq
      \,
      (Y,\tau_Y)
-  \right)   
+  \right)
   \;\Rightarrow\;
   \left(
     P(X,\tau_X)
@@ -3636,7 +3636,7 @@ The following is evident but important:
 
 The separation properties $T_n$ from def. \ref{HausdorffTopologicalSpace} are
 _[[topological properties]]_ in that if two topological spaces
-are [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) then 
+are [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) then
 one of them satisfies $T_n$ precisely if the other does.
 
 Moreover, these properties imply each other as
@@ -3727,23 +3727,38 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In one direction, assume that $X$ is $T_0$. and consider $x,y \in X$ such that
-$Cl(\{x\}) = Cl(\{y\})$. We need to show that $x = y$.
-
+Assume first that $X$ is $T_0$. Then we need to show that if $x,y \in X$ are such that
+$Cl(\{x\}) = Cl(\{y\})$ then $x = y$. Hence assume that $Cl(\{x\}) = Cl(\{y\})$.
 Since the closure of a point is the [[complement]] of the union of the open subsets not containing the point
 (lemma \ref{UnionOfOpensGivesClosure}),
 this means that the union of open subsets that do not contain $x$
-is the same as the union of open subsets that do not contain $y$. Hence every
-open subset that does not contain $x$ also does not contain $y$, and vice versa.
-By $T_0$ this is not the case when $x \neq y$, hence it follows that $x = y$.
+is the same as the union of open subsets that do not contain $y$.
+
+$$
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
+  \;=\;
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
+$$
+
+But if the two points were distinct, $x \neq y$, then by $T_0$ one of the above unions would contain $x$ or $y$, while the other would not, in contradiction to the above equality. Hence we have a [[proof by contradiction]].
 
 Conversely, assume that if $x,y \in X$ are such that $Cl\{x\} = Cl\{y\}$ then $x = y$.
 We need to show that if $x \neq y$ then there exists an open neighbourhood around one of the
-two points not containing the other. Hence consider  $x \neq y \in X$.
-By assumption it follows that $Cl(\{x\} \neq Cl(\{y\})$.
-Since, as before, the closure of a point is the [[complement]] of the union of the open subsets not containing the point, this
-means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
-By definition this means that $(X,\tau)$ is $T_0$.
+two points not containing the other.
+
+Hence assume that $x \neq y$.
+By assumption it follows that $Cl(\{x\} \neq Cl(\{y\})$, hence that now
+
+$$
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
+  \;\neq\;
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
+ \,.
+$$
+
+This means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
+
+
 
 
 =--
@@ -4105,7 +4120,7 @@ prop. \ref{TiSubspaces} also $f(X)$ is a $T_n$-topological space if $Y$ is.
 It follows by definition of $t_n(X)$ that the factorization exists at the level of sets as stated,
 since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then
 by definition they have the same image under all continuous surjective functions to a $T_n$-space, hence in particular
-under $X \to f(X)$. This means that $\tilde f$ as above is well defined. 
+under $X \to f(X)$. This means that $\tilde f$ as above is well defined.
 Moreover, it is clear that this is the unique factorization.
 
 To see that $\tilde f$ is continuous, consider $U \in Y$ an open subset. We need to show that $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[quotient topological space|quotient topology]], this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
