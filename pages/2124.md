@@ -236,6 +236,10 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [
 
 * Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](http://arxiv.org/abs/1312.0578))
 
+Discussion in the context of multiple [[M2-branes]] in the  [[BLG model]] is in
+
+* {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, section 1.6 of _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+
 Discussion for [[4d supergravity]], hence in [[KK-compactification]] of [[type II supergravity]] on a [[Calabi-Yau manifold]] is due to
 
 * {#Denef00} [[Frederik Denef]], _Supergravity flows and D-brane stability_, JHEP 0008:050,2000 ([arXiv:hep-th/0005049](http://arxiv.org/abs/hep-th/0005049))
