@@ -41,7 +41,7 @@ Waldhausen in his work in [[K-theory]] introduced the notion of a category with 
 
 * (C2) there is a zero object $0$ and for any object $a$ the unique morphism $O\to a$ is a cofibration
 
-* (C3) if $a\hookrightarrow b$ is a cofibration and $b\to d$ any morphism then the pushout $d\to a\cup_b d$ is a cofibration
+* (C3) if $a\hookrightarrow b$ is a cofibration and $a\to c$ any morphism then the pushout $c\to b\cup_a c$ is a cofibration
 
 * (W1) all isomorphisms are weak equivalences
 
