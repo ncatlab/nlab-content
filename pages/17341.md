@@ -108,7 +108,18 @@ Below will be the presentation, speculation, and important work. Please feel fre
 Philosophical explanation.
 
 ### Thoughts ###
-Potential mathematical connections.
+
+Example speculation
+
+The first Judgement in Subjectivity of Subjective Logic, the [Judgement of Existence](https://www.marxists.org/reference/archive/hegel/works/hl/hl631.htm), is closely related to the [free] (http://archive.numdam.org/article/CTGDC_1986__27_1_81_0.pdf)[adjunction](http://arxiv.org/pdf/1310.8279v4.pdf).
+
+Example suggestive juxtaposition of concepts
+
+: [Bisimplicial Realization](https://ncatlab.org/nlab/show/bisimplicial+set)
+: [End](https://ncatlab.org/nlab/show/end) (coend should really have its own page)
+: [Heteromorphism](https://ncatlab.org/nlab/show/profunctor)
+: [Topological End](https://ncatlab.org/nlab/show/end+compactification)
+: [Teleological End](https://www.marxists.org/reference/archive/hegel/works/hl/hlteleol.htm)
 
 ### Work ###
 Relevant papers and concepts.
