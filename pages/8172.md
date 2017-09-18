@@ -1086,6 +1086,9 @@ $$
 
 =--
 
+##### Generalizing from $\pi_\bullet(Y)$ to $\pi_\bullet([X,Y])$
+ {#GeneralizingToMappingSpectra}
+
 Under suitable conditions this generalizes from a computation of homotopy groups of the $E$-localization of spectra $X$
 
 $$
@@ -1103,6 +1106,8 @@ $$
   \,.
 $$
 
+We discuss how this works:
+
 +-- {: .num_prop #AdamsUCT}
 ###### Proposition
 
@@ -1119,6 +1124,7 @@ is an [[isomorphism]].
 =--
 
 This is one of the [[universal coefficient theorems]] of [[Frank Adams]] ([Adams 74, chapter III, prop. 13.5](#Adams74), [Schwede 12, chapter II, prop. 6.20](#Schwede12)).
+
 
 Now given the standard $E$-Adams tower for some $X$, then applying $[Y,-]$ yields another [[tower of homotopy fibers]] whose tower spectral sequence on page one has $[Y, E^{\wedge^{\bullet}}\wedge X]$. This sits in a commuting diagram of the form
 
