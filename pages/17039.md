@@ -114,7 +114,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 ### Homotopy type theory: the logic of homotopy spaces (Mike Shulman)
  
-[[Mike Shulman]] on [[homotopy type theory]].
+[[Mike Shulman]] on [[homotopy type theory]] ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
 
 ## 5. Spaces in classical & quantum mechanics
 
@@ -128,7 +128,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 [[Urs Schreiber]] on [[schreiber:Higher Prequantum Geometry]].
 
-([video recording](https://www.youtube.com/watch?v=EaYMuyr9KII))
+([arXiv:1601.05956](http://arxiv.org/abs/1601.05956), [video recording](https://www.youtube.com/watch?v=EaYMuyr9KII))
 
 
 ### Cobordisms and extended quantum field theories (Dan Freed)
