@@ -1,3 +1,4 @@
+[[!redirects Derived microlocalization]]
 [[!redirects derived microlocalization]]
 
 #Contents#
@@ -15,7 +16,7 @@ In non-smooth situations, the usual normal and conormal bundle used in classical
 
 ## Loop space and deformation to the normal bundle
 
-[[Microlocalization]] in derived geometry involves the proper definition of the deformation to the normal bundle of a closed embedding $Y\subset X$ of global analytic spaces (or even stacks). One needs to consider a loop space approach to this construction because it allows to avoid the use of denominators in the definition of the [[Chern character]] (following Connes-Loday-Toen-Vezzosi) and in the development of more general [[global analytic index theory]] with integral coefficients.
+[[Microlocalization]] in [[derived geometry]] involves the proper definition of the deformation to the [[normal bundle]] of a closed embedding $Y\subset X$ of global analytic spaces (or even stacks). One needs to consider a [[derived loop space]] approach to this construction because it allows to avoid the use of denominators in the definition of the [[Chern character]] (following Connes-Loday-Toen-Vezzosi) and in the development of more general [[global analytic index theory]] with integral coefficients.
 
 The space of paths on $X$ based on $Y$ is the groupoid acting on $Y$ given by
 $$P_Y X:=\{f\in \Hom(\Delta^1,X),\;f(0)\in Y,\;f(1)\in Y\}.$$
@@ -29,12 +30,12 @@ $$
     Y\times Y &\to& X\times X
 }
 $$
-Remark that the natural projection $P_Y X\to Y\times Y$ makes $P_Y X$ a groupoid (of paths in $X$) acting on $Y$. In the case of the diagonal immersion $Y=M\hookrightarrow M\times M=X$, we get
+Notice that the natural projection $P_Y X\to Y\times Y$ makes $P_Y X$ a groupoid (of paths in $X$) acting on $Y$. In the case of the diagonal immersion $Y=M\hookrightarrow M\times M=X$, we get
 $$P_Y X\cong LX:=\Hom(S^1,X).$$
 There is a natural projection $p:P_Y X\to \Hom(\Delta^1,X)\sim X$ and $P_Y X$ is equiped with the natural structure of a groupoid acting on $Y$ through the projection $P_Y X\to Y\times Y$.
 A more explicit description of the loop space (that is obtained by using the homotopy $\Delta^1\sim \Delta^0$) is given by the homotopy pullback
 $$P_Y X=Y\times^h_X Y,$$
-which clearly has an interesting meaning only in the setting of derived geometry.
+which clearly has an interesting meaning only in the setting of derived geometry. See also at _[[derived loop space]]_ and at _[[Hochschild cohomology]]_.
 
 To make the above construction work for general Artin stacks, one needs to make it local for the smooth topology. This is done by replacing the loop space groupoid $P_Y X$ acting on $Y$ by its formal completion along the identity morphism. This gives a formal groupoid $\hat{P}_Y X$ that is equivalent modulo the [[HKR]] theorem (in characteristic $0$) to $T_Y[-1]X$ for a general Artin stack. Similarly, we will have $\hat{L}M:=\hat{P}_M(M\times M)\cong T[-1]M$ by [[HKR]].
 
