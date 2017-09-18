@@ -172,7 +172,15 @@ The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of 
 +-- {: .num_prop }
 ###### Proposition
 
-[[compact subspaces of Hausdorff spaces are closed]].
+We have:
+
+1. [[compact subspaces of Hausdorff spaces are closed]].
+
+1. [[closed subsets of compact spaces are compact]]
+
+Hence:
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 =--
 
