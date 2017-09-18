@@ -1,4 +1,4 @@
-*Locally Presentable and Accessible Categories* is a book by [[Jiří Adámek]] and [[Jiří Rosický]] about, unsurprisingly, [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories.  It was published by Cambridge University Press in the London Mathematical Society Lecture Note Series, number 189, in 1994.
+*Locally Presentable and Accessible Categories* is a book by [[Jiří Adámek]] and [[Jiří Rosický]] about, unsurprisingly, [[locally presentable category|locally presentable]] and [[accessible category|accessible]] [[categories]].  It was published by Cambridge University Press in the London Mathematical Society Lecture Note Series, number 189, in 1994.
 
 ## Content
 
@@ -16,6 +16,12 @@
 1. **[[Vopěnka's principle]]**
 
 * Appendix: [[large cardinals]]
+
+
+## Related concepts
+
+[[!include locally presentable categories - table]]
+
 
 category: reference
 
