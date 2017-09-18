@@ -29,6 +29,8 @@ Bill Thurston was an American mathematician (Fields Medalist, 1982) who made imp
 
 * On proof and progress in mathematics, Bull. AMS 30 (1994), 161-177. ([web](http://www.ams.org/journals/bull/1994-30-02/S0273-0979-1994-00502-6/home.html))
 
+* Geometry and topology of three-manifolds (1980), electronic version 1.1 (2002) available from MSRI ([web](http://library.msri.org/books/gt3m/))
+
 category: people
 
 [[!redirects William P. Thurston]]
