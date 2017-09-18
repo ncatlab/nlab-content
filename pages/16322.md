@@ -1,0 +1,26 @@
+## Idea
+
+A _reflexive object_ is a model of the pure (untyped) [[lambda calculus]] validating the $\beta$ equation (and sometimes also the $\eta$ equation).
+
+## Definition
+
+A **reflexive object** in a [[cartesian closed category]] is an object $D$ equipped with a pair of maps
+
+$$
+\array{D & \overset{a}{\underset{\ell}{\rightleftarrows}} & D^D} 
+$$
+
+such that $a \circ \ell = 1$.  In other words, a reflexive object is an object $D$ together with data exhibiting $D^D$ as a [[retract]] of $D$.   A reflexive object is said to be *strict* when this is actually an isomorphism $D \cong D^D$.  Note that this definition may be naturally generalized to any [[closed category]], not necessarily cartesian.
+
+## References
+
+* Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976.
+
+* Dana Scott. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
+
+* [[Martin Hyland]]. Classical lambda calculus in modern dress. To appear in _Mathematical Structures in Computer Science_, 2013. [arxiv](http://arxiv.org/abs/1211.5762)
+
+## Related concepts
+
+* [[lambda calculus]]
+* [[domain theory]]
