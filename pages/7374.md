@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _reduced Segal space_ is a [[category object in an (∞,1)-category|category object]] in [[∞Grpd]] with "a single [[object]]". So it is the [[delooping]] of a [[monoid in an (∞,1)-category]].
+A _reduced Segal space_ is a [[category object in an (∞,1)-category|category object]] in [[∞Grpd]] equipped with an (essentially) surjective functor from the terminal such. So it is the [[delooping]] of a [[monoid in an (∞,1)-category]].
 
 Accordingly, if the reduced Segal space happens to be actually a [[groupoid object in an (∞,1)-category|groupoid object]], then it is the [[delooping]] of a [[group object in an (∞,1)-category|group object]] in [[∞Grpd]]: an [[∞-group]].
 
