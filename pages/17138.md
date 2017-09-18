@@ -110,7 +110,7 @@ $\,$
 We are concerned with the theory of _[[spectra]]_ in the sense of [[algebraic topology]]: the proper generalization of [[abelian groups]] to [[homotopy theory]]. 
 
 ### 1) Stable homotopy theory
- {#StableHomotopyTheory}
+ {#StableHomotopyTheorySurvey}
 
 A [[group]] in homotopy theory is equivalently a [[loop space]] under concatenation of loops ("[[∞-group]]"). A double loop space is a group with some commutativity structure ("[[Eckmann-Hilton argument]]"), a triple loop space has more commutativity structure, and so forth. A _spectrum_ is where this progression of [[looping and delooping]] _stabilizes_ (an "$\infty$-abelian group"). Therefore one speaks of _[[stable homotopy theory]]_:
 
@@ -752,9 +752,81 @@ More generally one may ask functions $p$ to have such [[homotopy lifting propert
 
 =--
 
+The [[proof]] ([below](#VerificationOfTopQuillen)) that def. \ref{ClassesOfMorhismsInTopQuillen} defines a [[model category]] structure involves two technical lemmas which concern the special nature of [[topological spaces]].  With these two lemmas in hand, the rest of the proof is a routine argument in model category theory.
+
++-- {: .num_lemma #CompactSubsetsAreSmallInCellComplexes}
+###### Lemma
+
+Every [[compact topological space|compact]] [[topological subspace|subspace]] of a topological [[cell complex]], def. \ref{TopologicalCellComplex}, is contained in the [[union]] of a [[finite number]] of cells.
+
+=--
+
+A proof is spelled out for instance in ([Hirschhorn 15, section 3.1](#Hirschhorn15)).
+
++-- {: .num_lemma #AcyclicSerreFibrationsAreTheJTopFibrations}
+###### Lemma
+
+The continuous functions with the [[right lifting property]], def. \ref{RightLiftingProperty} against the set $I_{Top} = \{S^{n-1}\hookrightarrow D^n\}$ of topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, are precisely those which are both [[weak homotopy equivalences]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces} as well as [[Serre fibrations]], def. \ref{SerreFibration}.
+
+=--
 
 
-#### Model category theory
++-- {: .proof}
+###### Proof
+
+We break this up into three sub-statements:
+
+**A) $I_{Top}$-injective morphisms are in particular weak homotopy equivalences**
+
+Let $p \colon \hat X \to X$ have the [[right lifting property]] against $I_{Top}$
+
+$$
+  \array{
+    S^{n-1}  &\longrightarrow & \hat X
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow &{}^{\mathllap{\exists}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    D^n &\longrightarrow& X
+  }
+$$
+
+We check that the lifts in these diagrams exhibit $\pi_\bullet(f)$ as being an [[isomorphism]] on all [[homotopy groups]], def. \ref{HomotopyGroupsOftopologicalSpaces}:
+
+
+For $n = 0$ the existence of these lifts says that every point of $X$ is in the image of $p$, hence that $\pi_0(\hat X) \to \pi_0(X)$ is [[surjection|surjective]]. Let then $S^0 = \ast \coprod \ast \longrightarrow \hat X$ be a map that hits two connected components, then the existence of the lift says that if they have the same image in $\pi_0(X)$ then they were already the same connected component in $\hat X$. Hence $\pi_0(\hat X)\to \pi_0(X)$ is also [[injection|injective]] and hence is a [[bijection]].
+
+Similarly, for $n \geq 1$, if $S^n \to \hat X$ represents an element in $\pi_n(\hat X)$ that becomes trivial in $\pi_n(X)$, then the existence of the lift says that it already represented the trivial element itself. Hence $\pi_n(\hat X) \to \pi_n(X)$ has trivial [[kernel]] and so is injective. 
+
+Finally, to see that $\pi_n(\hat X) \to \pi_n(X)$ is also surjective, hence bijective, observe that every elements in $\pi_n(X)$ is equivalently represented by a commuting diagram of the form
+
+$$
+  \array{
+    S^{n-1} &\longrightarrow& \ast &\longrightarrow& \hat X
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    D^n &\longrightarrow& X &=& X
+  }  
+$$
+
+and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
+
+**B) $I_{Top}$-fibrations are in particular Serre fibrations**
+
+By lemma \ref{SaturationOfGeneratingCofibrations} an $I_{Top}$-fibration has also the [[right lifting property]] against all [[relative cell complexes]], and hence by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} it is also a $J_{Top}$-fibration, hence a Serre fibration.
+
+**C) Acyclic Serre fibrations are in particular $I_{Top}$-fibrations**
+
+A proof of this is spelled out in ([Hirschhorn 15, section 6](#Hirschhorn15)).
+
+
+=--
+
+
+
+
+#### Abstract homotopy theory
+ {#ModelCategoryTheory}
 
 
 In the [above](#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology) we discussed three classes of [[continuous functions]] between [[topological spaces]]
@@ -768,6 +840,10 @@ In the [above](#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology) we d
 and we saw first aspects of their interplay via [[lifting properties]]. 
 
 A fundamental insight due to ([Quillen 67](#Quillen67)) is that in fact _all_ constructions in [[homotopy theory]] are elegantly expressible via just the abstract interplay of these classes of morphisms. This was distilled in ([Quillen 67](#Quillen67)) into a small set of [[axioms]] called a **[[model category]] structure** (because it serves to make all [[objects]] be _models_ for [[homotopy types]].)
+
+This _abstract homotopy theory_ is the royal road for handling any flavor of [[homotopy theory]], in particular the [[stable homotopy theory]] that we are after below in [Part 1)](#StableHomotopyTheory). Here we discuss the basic constructions and facts in abstract homotopy theory, then [below](#TheClassicalModelStructureOfTopologicalSpaces) we conclude P1) by showing that the above system of classes of maps of topological spaces is indeed an example.
+
+$\,$
 
 First of all:
 
@@ -814,15 +890,28 @@ such that
 
 1. the class $W$ makes $\mathcal{C}$ into a **[[category with weak equivalences]]**, def. \ref{CategoryWithWeakEquivalences};
 
-1. The systems $(W \cap Cof\;,\; Fib)$ and $(Cap\;,\; W\cap Fib)$ are [[weak factorization systems]], def. \ref{WeakFactorizationSystem}.
+1. The pairs $(W \cap Cof\;,\; Fib)$ and $(Cap\;,\; W\cap Fib)$ are both [[weak factorization systems]], def. \ref{WeakFactorizationSystem}.
+
+One says:
+
+* elements in $W$ are _[[weak equivalences]]_,
+
+* elements in $Cof$ are _[[cofibrations]]_,
+
+* elements in $Fib$ are _[[fibrations]]_,
+
+* elements in $W\cap Cof$ are _[[acyclic cofibrations]]_,
+
+* elements in $W \cap Fib$ are _[[acyclic fibrations]]_.
  
 =--
 
-We now expand on what this means.
 
+We now dicuss what this means.
 
-##### Weak factorization systems
+##### Factorization systems
  {#WeakFactorizationSystems}
+
 
 +-- {: .num_defn #LiftingAndExtension}
 ###### Definition
@@ -878,7 +967,7 @@ $$
   \,.
 $$
 
-Combining these cases: given a square [[commuting diagram]] 
+Combining these cases: given a [[commuting square]] 
 
 $$
   \array{
@@ -903,10 +992,363 @@ $$
   \,.
 $$
 
-Given a sub-[[class]] of morphhisms $C \subset Mor(\mathcal{C})$, then a morphism $p_r$ as above is said to have the **[[right lifting property]]** against $C$ if in all square diagrams with $p_r$ on the right and any $p_l \in C$ on the left a lift exists. Dually, a fixed $p_l$ is said to have the **[[left lifting property]]** against $C$ if in all square diagrams with $p_l$ on the left and any $p_r \in C$ on the left a lift exists.
+Given a sub-[[class]] of morphisms $K \subset Mor(\mathcal{C})$, then 
+
+* a morphism $p_r$ as above is said to have the **[[right lifting property]] against $K$** or to be a **$K$-[[injective morphism]]** if in all square diagrams with $p_r$ on the right and any $p_l \in K$ on the left a lift exists. 
+
+dually:
+
+* a morphism $p_l$ is said to have the **[[left lifting property]] against $K$** or to be a **$K$-[[projective morphism]]**  if in all square diagrams with $p_l$ on the left and any $p_r \in K$ on the left a lift exists.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]] and let $K\subset Mor(\mathcal{C})$ be a [[class]] of [[morphisms]]. Write $K Proj$ and $K Inj$, respectively, for the sub-classes of $K$-[[projective morphisms]] and of $K$-[[injective morphisms]], def. \ref{LiftingAndExtension}. Then:
+
+1. Both classes contain the class of [[isomorphism]] of $\mathcal{C}$.
+
+1. Both classes are closed under [[composition]] in $\mathcal{C}$.
+
+   $K Proj$ is also closed under [[transfinite composition]].
+
+1. Both classes are closed under forming [[retracts]] in the [[arrow category]] $\mathcal{C}^{\Delta[1]}$ (see remark \ref{RetractsOfMorphisms}).
+
+1. $K Proj$ is closed under forming [[pushouts]] of morphisms in $\mathcal{C}$ ("[[cobase change]]").
+
+   $K Inj$ is closed under forming [[pullback]] of morphisms in $\mathcal{C}$ ("[[base change]]").
+
+1. $K Proj$ is closed under forming [[coproducts]] in $\mathcal{C}^{\Delta[1]}$.
+
+   $K Inj$ is closed under forming [[products]] in $\mathcal{C}^{\Delta[1]}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We go through each item in turn.
+
+**containing isomorphisms**
+
+Given a [[commuting square]]
+
+$$
+  \array{
+    A &\overset{f}{\rightarrow}& X
+    \\
+    {}_{\mathllap{\in Iso}}^{\mathllap{i}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    B &\underset{g}{\longrightarrow}& Y
+  }
+$$
+
+with the left morphism an isomorphism, the a [[lift]] is given by using the [[inverse]] of this isomorphism ${}^{{f \circ i^{-1}}}\nearrow$. Hence in particular there is a lift when $p \in K$ and so $i \in K Proj$. The other case is [[formal dual|formally dual]].
+
+**closure under composition**
+
+Given a [[commuting square]] of the form
+
+$$
+  \array{
+    A &\longrightarrow& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in K Inj}}
+    \\
+    {}^{\mathllap{i}}_{\mathllap{\in K}}\downarrow && \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in K Inj}}
+    \\
+    B &\longrightarrow& Y
+  }
+$$
+
+consider its [[pasting]] decomposition as
+
+$$
+  \array{
+    A &\longrightarrow& X
+    \\
+    \downarrow 
+    &\searrow& \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in K Inj}}
+    \\
+    {}^{\mathllap{i}}_{\mathllap{\in K}}\downarrow && \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in K Inj}}
+    \\
+    B &\longrightarrow& Y
+  }
+  \,.
+$$
+
+Now the bottom commuting square has a lift, by assumption. This yields another [[pasting]] decomposition
+
+$$
+  \array{
+    A &\longrightarrow& X
+    \\
+    {}^{\mathllap{i}}_{\mathllap{\in K}}\downarrow 
+    && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in K Inj}}
+    \\
+    \downarrow &\nearrow& \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in K Inj}}
+    \\
+    B &\longrightarrow& Y
+  }
+$$
+
+and now the top commuting square has a lift by assumption. This is now equivalently a lift in the total diagram, showing that $p_1\circ p_1$ has the right lifting property against $K$ and is hence in $K Inj$. The case of composing two morphisms in $K Proj$  is [[formal dual|formally dual]]. From this the closure of $K Proj$ under [[transfinite composition]] follows since the latter is given by [[colimits]] of sequential composition and successive lifts against the underlying sequence as above constitutes a [[cocone]], whence the extension of the lift to the colimit follows by its [[universal property]].
+
+**closure under retracts**
+
+Let $j$ be the [[retract]] of an $i \in K Proj$, i.e. let there be a [[commuting diagram]] of the form.
+
+$$
+  \array{
+    id_A \colon & A &\longrightarrow& C &\longrightarrow& A
+    \\
+    & \downarrow^{\mathrlap{j}} && \downarrow^{\mathrlap{i}}_{\mathrlap{\in K Proj}} && \downarrow^{\mathrlap{j}}
+    \\
+    id_B \colon & B &\longrightarrow& D &\longrightarrow& B
+  }
+  \,.
+$$
+
+Then for 
+
+$$
+  \array{
+     A &\longrightarrow& X
+     \\
+     {}^{\mathllap{j}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
+     \\
+     B &\longrightarrow& Y
+  }
+$$
+
+a [[commuting square]], it is equivalent to its [[pasting]] composite with that retract diagram 
+
+$$
+  \array{
+    A &\longrightarrow& C &\longrightarrow& A &\longrightarrow& X
+    \\
+    \downarrow^{\mathrlap{j}} && \downarrow^{\mathrlap{i}}_{\mathrlap{\in K Proj}} && \downarrow^{\mathrlap{j}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
+    \\
+    B &\longrightarrow& D &\longrightarrow& B &\longrightarrow & Y
+  }
+  \,.
+$$
+
+Now the pasting composite of the two squares on the right has a lift, by assumption,
+
+$$
+  \array{
+    A &\longrightarrow& C &\longrightarrow& A &\longrightarrow& X
+    \\
+    \downarrow^{\mathrlap{j}} 
+      && 
+    \downarrow^{\mathrlap{i}}_{\mathrlap{\in K Proj}} 
+      && 
+    \nearrow 
+      && 
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
+    \\
+    B &\longrightarrow& D &\longrightarrow& B &\longrightarrow & Y
+  }
+  \,.
+$$
+
+By composition, this is also a lift in the total outer rectangle, hence in the original square. Hence $j$ has the left lifting property against all $p \in K$ and hence is in $K Proj$. The other case is [[formal duality|formally dual]].
+
+
+
+**closure under pushout and pullback**
+
+Let $p \in K Inj$ and and let 
+
+$$
+  \array{
+    Z \times_f X &\longrightarrow& X
+    \\
+    {}^{\mathllap{{f^* p}}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    Z &\stackrel{f}{\longrightarrow} & Y 
+  }
+$$
+
+be a [[pullback]] diagram in $\mathcal{C}$. We need to show that $f^* p$ has the [[right lifting property]] with respect to all $i \in K$. So let
+
+$$
+  \array{
+     A &\longrightarrow& Z \times_f X
+     \\
+     {}^{\mathllap{i}}_{\mathllap{\in K}}\downarrow && \downarrow^{\mathrlap{\mathrlap{f^* p}}}
+     \\
+     B &\stackrel{g}{\longrightarrow}& Z
+  }
+$$
+
+be a [[commuting square]]. We need to construct a diagonal lift of that square. To that end, first consider the [[pasting]] composite with the pullback square from above to obtain the commuting diagram
+
+$$
+  \array{
+     A &\longrightarrow& Z \times_f X &\longrightarrow& X
+     \\
+     {}^{\mathllap{i}}\downarrow && \downarrow^{\mathrlap{f^* p}} 
+     && \downarrow^{\mathrlap{p}}
+     \\
+     B &\stackrel{g}{\longrightarrow}& Z &\stackrel{f}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+By the right lifting property of $p$, there is a diagonal lift of the total outer diagram
+
+$$
+  \array{
+    A &\longrightarrow& X
+    \\
+    \downarrow^{\mathrlap{i}} &{}^{\hat {(f g)}}\nearrow&  \downarrow^{\mathrlap{p}}
+    \\
+    B &\stackrel{f g}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+By the [[universal property]] of the [[pullback]] this gives rise to the lift $\hat g$ in
+
+$$
+  \array{
+     && Z \times_f X &\longrightarrow& X
+     \\
+     &{}^{\hat g} \nearrow& \downarrow^{\mathrlap{f^* p}} 
+     && \downarrow^{\mathrlap{p}}
+     \\
+     B &\stackrel{g}{\longrightarrow}& Z &\stackrel{f}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+In order for $\hat g$ to qualify as the intended lift of the total diagram, it remains to show that 
+
+$$
+  \array{
+     A &\longrightarrow& Z \times_f X
+     \\
+     \downarrow^{\mathrlap{i}} & {}^{\hat g}\nearrow
+     \\
+     B
+  }
+$$
+
+commutes. To do so we notice that we obtain two [[cones]] with tip $A$:
+
+* one is given by the morphisms 
+  1. $A \to Z \times_f X \to X$
+  2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$
+
+  with universal morphism into the pullback being
+
+  * $A \to Z \times_f X$
+
+* the other by
+  1. $A \stackrel{i}{\to} B \stackrel{\hat g}{\to} Z \times_f X \to X$
+  2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$.
+  
+  with universal morphism into the pullback being
+  
+  * $A \stackrel{i}{\to} B \stackrel{\hat g}{\to} Z \times_f X$.
+
+The commutativity of the diagrams that we have established so far shows that the first and second morphisms here equal each other, respectively. By the fact that the universal morphism into a pullback diagram is _unique_ this implies the required identity of morphisms.
+
+The other case is [[formal dual|formally dual]].
+
+**closure under (co-)products**
+
+Let $\{(A_s \overset{i_s}{\to} B_s) \in K Proj\}_{s \in S}$ be a set of elements of $K Proj$. Since [[colimits]] in the [[presheaf category]] $\mathcal{C}^{\Delta[1]}$ are computed componentwise, their [[coproduct]] in this [[arrow category]] is the universal morphism out of the coproduct of objects $\underset{s \in S}{\coprod} A_s$ induced via its [[universal property]] by the set of morphisms $i_s$:
+
+$$
+  \underset{s \in S}{\sqcup} A_s
+  \overset{(i_s)_{s\in S}}{\longrightarrow}
+  \underset{s \in S}{\sqcup} B_s  
+  \,.
+$$
+
+Now let 
+
+$$
+  \array{
+    \underset{s \in S}{\sqcup} A_s &\longrightarrow& X
+    \\
+    {}^{\mathllap{(i_s)_{s\in S}}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
+    \\
+    \underset{s \in S}{\sqcup} B_s
+    &\longrightarrow&
+    Y
+  }
+$$
+
+be a [[commuting square]]. This is in particular a [[cocone]] under the [[coproduct]] of objects, hence by the [[universal property]] of the coproduct, this is equivalent to a set of commuting diagrams
+
+$$
+  \left\{
+  \;\;\;\;\;\;\;\;\;
+  \array{
+    A_s &\longrightarrow& X
+    \\
+    {}^{\mathllap{i_s}}_{\mathllap{\in K Proj}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
+    \\
+    B_s
+    &\longrightarrow&
+    Y
+  }
+  \;\;\;\;
+  \right\}_{s\in S}
+  \,.
+$$
+
+By assumption, each of these has a lift $\ell_s$. The collection of these lifts
+
+$$
+  \left\{
+  \;\;\;\;\;\;\;\;\;
+  \array{
+    A_s &\longrightarrow& X
+    \\
+    {}^{\mathllap{i_s}}_{\mathllap{\in Proj}}\downarrow 
+      &{}^{\ell_s}\nearrow& \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
+    \\
+    B_s
+    &\longrightarrow&
+    Y
+  }
+  \;\;\;\;
+  \right\}_{s\in S}
+$$
+
+is now itself a compatible [[cocone]], and so once more by the [[universal property]] of the coproduct, this is equivalent to a lift $(\ell_s)_{s\in S}$ in the original square
+
+$$
+  \array{
+    \underset{s \in S}{\sqcup} A_s &\longrightarrow& X
+    \\
+    {}^{\mathllap{(i_s)_{s\in S}}}\downarrow 
+     &{}^{(\ell_s)_{s\in S}}\nearrow& 
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
+    \\
+    \underset{s \in S}{\sqcup} B_s
+    &\longrightarrow&
+    Y
+  }
+  \,.
+$$
+
+This shows that the coproduct of the $i_s$ has the left lifting property against all $f\in K$ and is hence in $K Proj$. The other case is [[formal dual|formally dual]].
+
 
 
 =--
+
+
+
 
 +-- {: .num_remark #RetractsOfMorphisms}
 ###### Remark
@@ -936,14 +1378,13 @@ $$
 
 
 
-
 +-- {: .num_lemma #SaturationOfGeneratingCofibrations}
 ###### Lemma
 
 Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
-and let $C\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
+and let $K\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
 
-Then every $C$-[[injective morphism]], def. \ref{RightLiftingProperty}, has the [[right lifting property]], def. \ref{LiftingAndExtension}, against all $C$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
+Then every $K$-[[injective morphism]], def. \ref{LiftingAndExtension}, has the [[right lifting property]], def. \ref{LiftingAndExtension}, against all $K$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
 
 =--
 
@@ -966,7 +1407,6 @@ $$
 
 +-- {: .proof}
 ###### Proof 
-(of lemma \ref{RetractArgument})
 
 We discuss the first statement, the second is [[formal duality|formally dual]].
 
@@ -1030,23 +1470,71 @@ $$
   \,.
 $$
 
-
 =--
+
 
 +-- {: .num_defn #WeakFactorizationSystem}
 ###### Definition
 
-A **[[weak factorization system]]** on a [[category]] $\mathcal{C}$ is a [[tuple]] $L,R \subset Mor(\mathcal{C})$ of [[classes]] of [[morphisms]] of $\mathcal{C}$ such that
+A **[[weak factorization system]]** (WFS) on a [[category]] $\mathcal{C}$ is a [[pair]] $(Proj,Inj)$ of [[classes]] of [[morphisms]] of $\mathcal{C}$ such that
 
-1. Every morphism $f$ of $\mathcal{C}$ may be factored as $f = r\circ l$ with $l \in L$ and $r \in R$.
+1. Every [[morphism]] $f \colon X\to Y$ of $\mathcal{C}$ may be factored as the [[composition]] of a morphism in $Proj$ followed by one in $Inj$ 
 
-1. $L$ is the class of morphisms which have the [[left lifting property]] with respect to every morphism of $R$.
+   $$
+     f\;\colon\;  X \overset{\in Proj}{\longrightarrow} Z \overset{\in Inj}{\longrightarrow} Y
+     \,.
+   $$
 
-1. $R$ is the class of morphisms which have the [[right lifting property]] with respect to every morphism of $L$.
+1. The classes are closed under having the [[lifting property]], def. \ref{LiftingAndExtension}, against each other:
+
+   1. $Proj$ is precisely the class of morphisms having the [[left lifting property]] against every morphisms in $Inj$;
+
+   1. $Inj$ is precisely the class of morphisms having the [[right lifting property]] against every morphisms in $Proj$.
 
 =--
 
-... closure...
++-- {: .num_defn #FunctorialFactorization}
+###### Definition
+
+For $\mathcal{C}$ a [[category]], a **[[functorial factorization]]** of the morphisms in $\mathcal{C}$ is a [[functor]] 
+
+$$
+  fact \;\colon\; \mathcal{C}^{\Delta[1]} \longrightarrow \mathcal{C}^{\Delta[2]}
+$$ 
+
+which is a [[section]] of the [[composition]] functor $d_1 \;\colon \;\mathcal{C}^{\Delta[2]}\to \mathcal{C}^{\Delta[1]}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In def. \ref{FunctorialFactorization} we are using the following standard notation, see at _[[simplex category]]_ and at _[[nerve of a category]]_:
+
+Write $[1] = \{0 \to 1\}$ and $[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image. 
+By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]} \longrightarrow \mathcal{C}^{\Delta[1]}$. Here 
+
+* $d_1$ sends a pair of composable morphisms to their [[composition]];
+
+* $d_2$ sends a pair of composable morphisms to the first morphisms;
+
+* $d_0$ sends a pair of composable morphisms to the second morphisms.
+
+=--
+
++-- {: .num_defn #FunctorialWeakFactorizationSystem}
+###### Definition
+
+A weak factorization system, def. \ref{WeakFactorizationSystem}, is called a **functorial weak factorization system** if the factorization of morphisms may be chosen to be a [[functorial factorization]] $fact$, def. \ref{FunctorialFactorization}, i.e. such that $d_2 \circ fact$ lands in $Proj$ and $d_0\circ fact$ in $Inj$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Not all weak factorization systems are functorial, def. \ref{FunctorialWeakFactorizationSystem}, although most (including those produced by the [[small object argument]], with due care) are.
+
+=--
 
 **Small object argument**
 
@@ -1180,13 +1668,14 @@ $$
  
 =--
 
-##### Homotopy and The homotopy category
+##### Homotopy 
 
+We discuss how the concept of [[homotopy]] is abstractly realized in [[model categories]], def. \ref{ModelCategory}.
 
 +-- {: .num_defn #PathAndCylinderObjectsInAModelCategory}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]] and $X \in \mathcal{C}$ an [[object]].
+Let $\mathcal{C}$ be a [[model category]], and $X \in \mathcal{C}$ an [[object]].
 
 * A **[[path object]]** $Path(X)$ for $X$ is a factorization of the [[diagonal]] $\nabla_X \colon X \to X \times X$ as
 
@@ -1479,11 +1968,14 @@ is again a [[cylinder object]], def. \ref{PathAndCylinderObjectsInAModelCategory
 
 =--
 
+##### The homotopy category
+ 
+We discuss the construction that takes a [[model category]], def. \ref{ModelCategory}, and then universally forces all its [[weak equivalences]] into actual [[isomorphisms]].
 
 +-- {: .num_defn #HomotopyCategoryOfAModelCategory}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]]. Write $Ho(\mathcal{C})$ for the [[category]] whose
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Write $Ho(\mathcal{C})$ for the [[category]] whose
 
 * [[objects]] are those objects of $\mathcal{C}$ which are both fibrant and cofibrant;
 
@@ -1892,7 +2384,8 @@ $$
 
 
 
-##### Derived functors and Quillen adjunctions
+##### Derived functors
+ {#DerivedFunctors}
 
 
 +-- {: .num_defn #HomotopicalFunctor}
@@ -2042,6 +2535,9 @@ Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \m
 
 =--
 
+##### Quillen adjunctions
+ {#QuillenAdjunctions}
+
 In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied in the following neat way:
 
 +-- {: .num_defn #QuillenAdjunction}
@@ -2176,7 +2672,10 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
 =--
 
 
-#### The classical model structure $Top_{Quillen}$
+#### The classical model structure on topological spaces
+ {#TheClassicalModelStructureOfTopologicalSpaces}
+
+We now discuss that the [above](#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology) classes of maps of topological spaces indeed satisfy the axioms of abstract homotopy theory ([[model category]]) theory, def. \ref{ModelCategory}.
 
 +-- {: .num_defn #ClassesOfMorhismsInTopQuillen}
 ###### Definition
@@ -2199,82 +2698,7 @@ and as usual:
 
 
 
-##### Technical lemmas
-
-The [[proof]] ([below](#VerificationOfTopQuillen)) that def. \ref{ClassesOfMorhismsInTopQuillen} defines a [[model category]] structure involves two technical lemmas which concern the special nature of [[topological spaces]].  With these two lemmas in hand, the rest of the proof is a routine argument in model category theory.
-
-+-- {: .num_lemma #CompactSubsetsAreSmallInCellComplexes}
-###### Lemma
-
-Every [[compact topological space|compact]] [[topological subspace|subspace]] of a topological [[cell complex]], def. \ref{TopologicalCellComplex}, is contained in the [[union]] of a [[finite number]] of cells.
-
-=--
-
-A proof is spelled out for instance in ([Hirschhorn 15, section 3.1](#Hirschhorn15)).
-
-+-- {: .num_lemma #AcyclicSerreFibrationsAreTheJTopFibrations}
-###### Lemma
-
-The continuous functions with the [[right lifting property]], def. \ref{RightLiftingProperty} against the set $I_{Top} = \{S^{n-1}\hookrightarrow D^n\}$ of topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, are precisely those which are both [[weak homotopy equivalences]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces} as well as [[Serre fibrations]], def. \ref{SerreFibration}.
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-We break this up into three sub-statements:
-
-**A) $I_{Top}$-injective morphisms are in particular weak homotopy equivalences**
-
-Let $p \colon \hat X \to X$ have the [[right lifting property]] against $I_{Top}$
-
-$$
-  \array{
-    S^{n-1}  &\longrightarrow & \hat X
-    \\
-    {}^{\mathllap{\iota_n}}\downarrow &{}^{\mathllap{\exists}}\nearrow& \downarrow^{\mathrlap{p}}
-    \\
-    D^n &\longrightarrow& X
-  }
-$$
-
-We check that the lifts in these diagrams exhibit $\pi_\bullet(f)$ as being an [[isomorphism]] on all [[homotopy groups]], def. \ref{HomotopyGroupsOftopologicalSpaces}:
-
-
-For $n = 0$ the existence of these lifts says that every point of $X$ is in the image of $p$, hence that $\pi_0(\hat X) \to \pi_0(X)$ is [[surjection|surjective]]. Let then $S^0 = \ast \coprod \ast \longrightarrow \hat X$ be a map that hits two connected components, then the existence of the lift says that if they have the same image in $\pi_0(X)$ then they were already the same connected component in $\hat X$. Hence $\pi_0(\hat X)\to \pi_0(X)$ is also [[injection|injective]] and hence is a [[bijection]].
-
-Similarly, for $n \geq 1$, if $S^n \to \hat X$ represents an element in $\pi_n(\hat X)$ that becomes trivial in $\pi_n(X)$, then the existence of the lift says that it already represented the trivial element itself. Hence $\pi_n(\hat X) \to \pi_n(X)$ has trivial [[kernel]] and so is injective. 
-
-Finally, to see that $\pi_n(\hat X) \to \pi_n(X)$ is also surjective, hence bijective, observe that every elements in $\pi_n(X)$ is equivalently represented by a commuting diagram of the form
-
-$$
-  \array{
-    S^{n-1} &\longrightarrow& \ast &\longrightarrow& \hat X
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    D^n &\longrightarrow& X &=& X
-  }  
-$$
-
-and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
-
-**B) $I_{Top}$-fibrations are in particular Serre fibrations**
-
-By lemma \ref{SaturationOfGeneratingCofibrations} an $I_{Top}$-fibration has also the [[right lifting property]] against all [[relative cell complexes]], and hence by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} it is also a $J_{Top}$-fibration, hence a Serre fibration.
-
-**C) Acyclic Serre fibrations are in particular $I_{Top}$-fibrations**
-
-A proof of this is spelled out in ([Hirschhorn 15, section 6](#Hirschhorn15)).
-
-
-=--
-
-##### Verification of the axioms
- {#VerificationOfTopQuillen}
-
-We use the above to prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satifies the conditions for a [[model category]] structure on the category [[Top]].
+We prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satifies the conditions for a [[model category]] structure on the category [[Top]].
 
 +-- {: .num_prop #QuillenWeakEquivalencesSatisfyTwoOutOfThree}
 ###### Proposition
@@ -2431,10 +2855,6 @@ define a [[model category]] structure (def. \ref{ModelCategory})  $Top_{Quillen}
 
 =--
 
-
-##### The classical homotopy theory
-
-(...)
 
 +-- {: .num_remark} 
 ###### Remark
@@ -3655,7 +4075,7 @@ Use prop. \ref{SingDetextsAndReflectsFibrations} and prop. \ref{GeometricRealiza
 
 =--
 
-#### The classical model structure $sSet_{Quillen}$
+#### The classical model structure on simplicial sets
 
 
 +-- {: .num_defn #ClassesOfMorphismsOnsSetQuillen}
@@ -4490,8 +4910,9 @@ Here $\delta$ is called the _[[connecting homomorphism]]_.
 ...see also below the [unrolled exact couple of a filtered spectrum](#UnrolledExactCoupleOfAFiltrationOnASpectrum)...
 
 ## **Part 1) Stable homotopy theory**
+ {#StableHomotopyTheory}
 
-We set up [[stable homotopy theory]].
+We now set up [[stable homotopy theory]].
  
 **Literature.** For a decent quick idea see ([Malkiewich 14](#Malkiewich14)).
 For a little more details the original lecture ([Adams 74, part III sections 2-7](#Adams74)) is still recommendable (except where it considers the [[stable homotopy category]] in its incarnation as the [[Adams category]], better to consider the [[homotopy category]] of the [[Bousfield-Friedlander model structure]]; we go through this [below](#Spectra)). A genuine textbook account is ([Schwede 12](#Schwede12)).
@@ -4953,7 +5374,7 @@ A homomorphism of [[sequential spectra]], def. \ref{SequentialSpectrum}, is a [[
 
 
 
-#### The stable model structure $SeqSpec_{stable}$
+#### The stable model structure on sequential spectra
 
 
 In order to do [[stable homotopy theory]] with [[sequential spectra]], we need to equip the [[category]] of sequential [[pre-spectra]] of def. \ref{SequentialSpectrum} with a [[model category]] structure whose weak equivalences are the [[stable weak homotopy equivalences]] of def. \ref{StableWeakEquivalenceOfSequentialsSetSpectra}. This class contains the degreewise weak homotopy equivalences of the strict model structure of def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} but is strictly larger. There are then different choices for the fibrations and cofibrations, but it is particularly convenient to keep the cofibrations those of the strict model structure, for then we are in the situation of [[Bousfield localization of model categories]]:
@@ -5537,8 +5958,10 @@ We write $OrthSpectra$ for the [[category]] of orthogonal spectra with homomorph
 =--
 
 
-#### Monoidal and enriched categories
+#### Categorical algebra
  {#MonoidalAndEnrichedCategories}
+
+##### Monoidal categories
 
 * [[monoidal category]] 
 
@@ -5550,13 +5973,14 @@ We write $OrthSpectra$ for the [[category]] of orthogonal spectra with homomorph
 
 * [[monoid object]], [[module object]]
 
+
+##### Enriched categories
+
 * [[enriched category]]
 
   * [[enriched functor category]]
 
 * [[Day convolution]]
-
-(...)
 
 
 
@@ -5576,7 +6000,9 @@ We now give a unified discussion of the categories of
 
 (all in [[topological spaces]]) as [[categories of modules]] with respect to [[Day convolution]] monoidal structures on [[Top]]-[[enriched functor categories]] over restrictions to [[faithful functor|faithful]] sub-[[sites]] of the canonical representative of the [[sphere spectrum]] as an excisive functor on $Top^{\ast/}_{fin}$.
 
-This approach is due to ([Mandell-May-Schwede-Shipley 01](#MandellMaySchwedeShipley01)).
+This approach is due to ([Mandell-May-Schwede-Shipley 00](#MMSS00)).
+
+##### Diagram spectra
 
 +-- {: .num_defn #TopologicalDiagramCategoriesForSpectra}
 ###### Definition
@@ -5785,10 +6211,10 @@ etc. and their functoriality embodies the [[orthogonal group]]-equivariance in t
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #PreExcisiveFunctorsAreSModules}
 ###### Remark
 
-For completeness we may trivially add to the three statements in prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} the equivalence
+For completeness, we may, trivially, add to the three statements in prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} the equivalence
 
 $$
   \mathbb{S} Mod_r \simeq [Top^{\ast/}_{fin}, Top^{\ast/}]
@@ -6103,11 +6529,12 @@ is a [[bijection]]. Therefore the pre-image of $[id_X] \in [X,X]_{strict}$ is an
 
 
 
+spring
 
-#### Free spectra
+##### Free spectra
  {#FreeSpectra}
 
-> This is a technical section with discussion of certain [[free construction|free]] objects  in the categories of spectra of prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules}. This discussion is used in the proof of the stable model structures [below](#ProofOfTheStableModelStructure) and of the Quillen equivalences between them [further below](#QuillenEquivalencesOfStableModelStructures).
+> This is a technical section with discussion of certain [[free construction|free]] objects  in the categories of spectra of prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules}. The discussion here provides technical lemmas that are used in the proof of the stable model structures [below](#ProofOfTheStableModelStructure), the proof of the Quillen equivalences between them [further below](#QuillenEquivalencesOfStableModelStructures) and [then](#MonoidalStableModelStructure) the proof that the model structure is monoidal.
 
 The concept of _[[free spectrum]]_ is a generalization of that of _[[suspension spectrum]]_. In fact the [[stable homotopy types]] of free spectra are precisely those of iterated [[loop space objects]] of [[suspension spectra]]. But for the development of the theory what matters is free spectra before passing to stable homotopy types, for as such they play the role of the basic cells for the stable [[model structures on spectra]] analogous to the role of the [[n-spheres]] in the [[classical model structure on topological spaces]] (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} below).
 
@@ -6594,10 +7021,338 @@ does _not_ become highly connected as $q$ increases, due to the [[discrete topol
 
 =--
 
+Another use of free spectra is that their [[pushout products]] may be explicitly analyzed, and checking the [[pushout-product axiom]] for general cofibrations may be reduced to checking it on morphisms between free spectra.
+
++-- {: .num_lemma #SmashProductOfFreeSpectra}
+###### Lemma
+
+For $A, B \in Top^{\ast/}$ and for $k,\ell \in \mathbb{N}$, then the [[symmetric monoidal smash product of spectra]], def. \ref{SymmetricSmashProductOfDiagramSpectra}, applied to the corresponding [[free spectra]] from def. \ref{FreeStructuredSpectrum} relates to the plain [[smash product]] of [[pointed topological spaces]] via [[natural isomorphisms]]
+
+$$
+  (F_k A)\wedge_{\mathbb{S}_{dia}} (F_\ell B)
+  \simeq
+  F_{k+\ell}(A\wedge B)
+  \,.
+$$
+
+=--
+
+([MMSS 00, lemma 1.8, lemma 21.3](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+Consider the following sequence of [[natural isomorphisms]]
+
+$$
+  \begin{aligned}
+    [\mathbb{S}_{dia} FreeMod^{op},Top^{\ast/}]((F_k A)\wedge_{\mathbb{S}_{dia}} (F_\ell B), Z)
+    & \simeq
+     [\mathbb{S}_{dia} FreeMod^{op}\times \mathbb{S}_{dia} FreeMod^{op}, Top^{\ast/}]((F_k A)\tilde \wedge (F_\ell B), Z \circ \wedge)
+    \\
+    & \simeq 
+    Top^{\ast/}( A\wedge B, F_{k+\ell})
+    \\
+    & \simeq
+    [\mathbb{S}_{dia} FreeMod^{op},Top^{\ast/}](
+      F_{k+\ell}(A \wedge B), Z
+    )    
+  \end{aligned}
+  \,,
+$$
+
+where we used the adjoint characterization ([here](Day+convolution#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) of the [[Day convolution]]. Since this is natural in $Z$, the [[Yoneda lemma]] implies the claim.
+
+=--
+
++-- {: .num_lemma #PushoutSmashProductOfFreeSpectraOnGeneratingCofibrationsOfTop}
+###### Lemma
+
+The [[symmetric monoidal smash product of spectra]] of the [[free spectrum]] constructions (def. \ref{FreeStructuredSpectrum}) on the generating cofibrations $\{S^{n-1}\overset{i_n}{\hookrightarrow} D^n\}_{n \in \mathbb{B}}$ of the [[classical model structure on topological spaces]] is given by addition of indices
+
+$$
+  (F_k i_{n_1}) \Box_{\mathbb{S}_{dia}} (F_\ell i_{n_2})
+  \simeq
+  F_{k+\ell}( i_{n_1 + n_2})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{SmashProductOfFreeSpectra} the [[commuting diagram]] defining the [[pushout product]] of [[free spectra]]
+
+$$
+  \array{
+    && F_k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
+    \\
+    & \swarrow && \searrow
+    \\
+    F_k D^{n_1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
+    &&
+    &&
+    F_k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} D^{n_2-1}_+
+    \\
+    & \searrow && \swarrow
+    \\
+    && F_k D^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_k D^{n_2-1}_+
+  }
+$$
+
+is equivalent to this diagram:
+
+$$
+  \array{
+    && F_{k+\ell}((S^{n_1-1}\times S^{n_2-1})_+)
+    \\
+    & \swarrow && \searrow
+    \\
+    F_{k+\ell}((D^{n_1} \times S^{n_2-1})_+)
+    &&
+    &&
+    F_{k+\ell}((S^{n_1-1} \times D^{n_2})_+)
+    \\
+    & \searrow && \swarrow
+    \\
+    && F_{k+ \ell}( (D^{n_1}\times D^{n_2})_+ )
+  }
+  \,.
+$$
+
+Since the [[free spectrum]] construction is a left adjoint, it preserves pushouts, and so 
+
+$$
+  (F_{k}i_{n_1}) 
+    \Box_{\mathbb{S}_{dia}}
+  (F_{\ell}i_{n_2})
+   \simeq
+  F_{k + \ell}( i_{n_1} \Box i_{n_2})
+   \simeq
+  F_{k + \ell}( i_{n_1 + n_2})
+ \,,
+$$
+
+where in the second step we used [this lemma](pushout-product#PushoutProductOfSpheresInclusionsIntoDisks).
+
+=--
+
+##### Stable equivalences
+
+We discuss that the two concepts of _stable equivalences_ and of _stable weak homotopy equivalences_ in def. \ref{StableEquivalencesForDiagramSpectra} actually agree in the cases of a) pre-[[excisive functors]], b) [[orthogonal spectra]] and c) [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalences. 
+
+This is important in practice, since the stable equivalences are the weakequivalences in the stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra}, while the [[stable weak homotopy equivalences]] are typically more readily identified.
+
+
+> Parts of the proof in the following rely on the verification of the stable model structure established further [below](#TheStableModelStructures), which is independent of the discussion here.
+
++-- {: .num_theorem #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
+###### Theorem
+
+In $\mathbb{S}Mod$, $\mathbb{S}_{Orth} Mod$ and in $\mathbb{S}_{Seq} Mod$ we have for the concepts from def. \ref{StableEquivalencesForDiagramSpectra} that
+
+$$
+  stable\;weak\;homotopy\;equivalence 
+  \;\Leftrightarrow\;
+  stable \; equivalence
+  \,.
+$$
+
+In $\mathbb{S}_{Sym}Mod$ however we only have
+
+$$
+  stable\;weak\;homotopy\;equivalence 
+  \;\Rightarrow\;
+  stable \; equivalence
+$$
+
+but the reverse implication is false.
+
+=--
+
+([MMSS00, prop. 8.7, prop. 8.8](#MMSS00))
+
+We break up this statement below as prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} and prop. \ref{StableEquivalencesThatAreStableWeakHomotopyEquivalences}.
+
+The argument that every stable weak homotopy equivalence is in particular a stable equivalence is fairly formal; this we turn to first in prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} below. The converse statement in prop. \ref{StableEquivalencesThatAreStableWeakHomotopyEquivalences} however relies on explicit analysis of the class $K$ of generating acylic cofibrations in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}. 
+
++-- {: .num_defn #AKindOfAlmostSpectrification}
+###### Definition
+
+For $\lambda_0 \colon F^{dia}_1 S^1 \to F^{dia}_0 S^0$ from lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, consider the [[natural transformation]] in $X \in \mathbb{S}_{dia}Mod$ given by the left vertical morphism in 
+
+$$
+  \array{
+    X &\simeq& \mathbb{S}_{dia} Mod(F^{dia}_0 S^0, X)
+    \\
+    \downarrow^{\mathrlap{\lambda_0^\ast(X)}} && \downarrow^{\mathrlap{\mathbb{S}_{dia}Mod(\lambda_0, X)}}
+    \\
+    R X &\coloneqq& \mathbb{S}_{dia}Mod(F^{dia}_1 S^1, X)
+  }
+  \,,
+$$
+
+where the top morphism is the $(F^{dia}_0 \dashv (-)_0)$-adjunction isomorphism.
+Write
+
+$$
+  R^\infty X
+  \coloneqq
+  \underset{\longrightarrow}{\lim}
+  \left(
+    X 
+     \stackrel{\lambda_0^\ast(X)}{\longrightarrow}
+    R X
+     \stackrel{R(\lambda_0^\ast(X))}{\longrightarrow}
+    R R X  
+     \stackrel{R R(\lambda_0^\ast(X))}{\longrightarrow}
+    \cdots
+  \right)
+$$
+
+for the [[homotopy colimit]] over the resulting sequence of iterations. Write 
+
+$$
+  r_X \colon X \longrightarrow R^\infty X
+$$
+
+for the 0th-component map into the colimit.
+
+=--
+
+
++-- {: .num_lemma #PropertiesOfAKindOfAlmostSpectrification}
+###### Lemma
+
+The functor $R^\infty$ from def. \ref{AKindOfAlmostSpectrification} has the following properties.
+
+1. for $E$ an Omega-spectrum according to def. \ref{StableEquivalencesForDiagramSpectra}, then, by lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, $\lambda_0^\ast(E)$ is weak equivalence in the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}), and hence so is $r_E$;
+
+1. for $f\colon X \longrightarrow Y$ a stable weak homotopy equivalence according to def. \ref{StableEquivalencesForDiagramSpectra}, then $R^\infty f \colon R^\infty X \longrightarrow R^\infty Y$ is a weak equivalence in the strict model structure.
+
+=--
+
+([MMSS 00, prop. 8.8](#MMSS00))
+
+
++-- {: .num_prop #StableWeakHomotopyEquivalenceIsStableEquivalence}
+###### Proposition
+
+In def. \ref{StableEquivalencesForDiagramSpectra} every stable weak homotopy equivalence is a stable equivalence.
+
+=--
+
+([MMSS 00, prop. 8.8](#MMSS00), following [Hovey-Shipley-Smith 00, theorem 3.1.11](#HoveyShipleySmith00))
+
+
++-- {: .proof}
+###### Proof
+
+Let $E$ be an Omega-spectrum. Then by the first item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, for every $X$ the morphism
+
+$$
+  [X,r_E]_{strict}
+    \;\colon\; 
+  [X,E]_{strict} 
+    \longrightarrow 
+  [X, R^\infty E]_{strict}
+$$
+
+is an isomorphism. Since $r_{(-)}$ is a [[natural transformation]] (by def. \ref{AKindOfAlmostSpectrification}), the naturality squares gives a factorization of this morphism as
+
+$$
+  [X,r_E]_{strict}
+    \;\colon\;
+  [X,E]_{strict} 
+    \stackrel{R^\infty}{\longrightarrow}
+  [R^\infty X, R^\infty E]_{strict}
+    \stackrel{[r_X,E]_{strict}}{\longrightarrow}
+  [X, R^\infty E]_{strict}  
+$$
+
+Combining this with vertical morphisms as below, which are isomorphisms again by item 1 of lemma \ref{AKindOfAlmostSpectrification},
+
+$$
+  \array{
+     &
+      &&
+    [R^\infty X, E]_{strict}
+      &\stackrel{}{\longrightarrow}&
+    [X, E]_{strict}  
+    \\
+    & &\nearrow& 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[R^\infty X,r_E]}} 
+     && 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X,r_E]}}
+    \\
+    [X,r_E]_{strict}
+      \;\colon\;
+     &
+    [X,E]_{strict} 
+      &\stackrel{R^\infty}{\longrightarrow}&
+    [R^\infty X, R^\infty E]_{strict}
+      &\stackrel{[r_X,E]_{strict}}{\longrightarrow}&
+    [X, R^\infty E]_{strict}  
+  }
+$$
+
+exhibits a [[retraction]] 
+
+$$
+  id \colon [X,E]_{strict} \longrightarrow [R^\infty X,E]_{strict} \longrightarrow [X,E]_{strict}
+  \,,
+$$ 
+
+which is natural in $X$. This naturality now implies a retraction of morphisms
+
+$$
+  \array{
+    id_{[Y,E]_{strict}} \colon & [Y,E]_{strict} &\longrightarrow& [R^\infty Y,E]_{strict} &\longrightarrow& [Y,E]_{strict}
+    \\
+    & \downarrow^{\mathrlap{[f,E]_{strict}}} && \downarrow^{\mathrlap{[R^\infty f,E]_{strict}}}
+     &&
+     \downarrow^{\mathrlap{[f,E]_{strict}}}
+    \\
+    id_{[X,E]_{strict}} \colon & [X,E]_{strict} &\longrightarrow& [R^\infty X,E]_{strict} &\longrightarrow& [X,E]_{strict}
+  }
+  \,.
+$$
+
+Finally, by the second item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([here](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f^\ast$ is a stable equivalence.
+
+
+=--
+
+
+Now for the converse.
 
 
 
-#### The stable model structures $Spec_{stable}$
++-- {: .num_prop #StableEquivalencesThatAreStableWeakHomotopyEquivalences}
+###### Proposition
+
+In the case $Dia \in \{Top^{\ast/}, Orth, Seq\}$, hence for [[sequential spectra]], [[orthogonal spectra]] and pre-[[excisive functors]], stable equivalences are stable weak homotopy equivalences (def. \ref{StableEquivalencesForDiagramSpectra}).
+
+=--
+
+([MMSS 00, p.31-32](#MMSS00))
+
++-- {: .proof}
+###### Proof idea
+
+By theorem ref. \ref{StableModelStructuresOnDiagramSpectra}, and by lemmas  \ref{KInjectiveStableEquivalencesAreStrictEquivalences} and \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations}, every stable weak equivalence factors as a $K$-[[relative cell complex]] followed by weak equivalence in the strict model structure. Since the latter is degreewise a [[weak homotopy equivalence]] it is in particular a [[stable weak homotopy equivalence]]. Hence we are reduced to showing that every $K$-[[relative cell complex]] is a stable weak homotopy equivalence.
+
+Observe now that we know this to be true for the elements of $K$ itself (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}): first of all, the elements in $F J$ are [[retracts]] of [[deformation retracts]] and therefore stable weak homotopy equivalences. Second, the morphisms denoted $k_n$ in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}, which resolve the maps $\lambda_n$ from def. \ref{CorepresentationOfAdjunctsOfStructureMaps}, as stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}.  This implies that so are their pushout products $k_n \Box i$. 
+
+=--
+
+This completes the proof of theorem \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}.
+
+
+
+
+#### The stable model structures on structured spectra
  {#TheStableModelStructures}
 
 +-- {: .num_theorem #StableModelStructuresOnDiagramSpectra}
@@ -6866,213 +7621,6 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 =--
 
-#### Stable equivalences
-
-Here we discuss that the two concepts of _stable equivalences_ and of _stable weak homotopy equivalences_ in def. \ref{StableEquivalencesForDiagramSpectra} actually agree in the cases of a) pre-[[excisive functors]], b) [[orthogonal spectra]] and c) [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalences:
-
-+-- {: .num_theorem #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
-###### Theorem
-
-In $\mathbb{S}Mod$, $\mathbb{S}_{Orth} Mod$ and in $\mathbb{S}_{Seq} Mod$ we have for the concepts from def. \ref{StableEquivalencesForDiagramSpectra} that
-
-$$
-  stable\;weak\;homotopy\;equivalence 
-  \;\Leftrightarrow\;
-  stable \; equivalence
-  \,.
-$$
-
-In $\mathbb{S}_{Sym}Mod$ however we only have
-
-$$
-  stable\;weak\;homotopy\;equivalence 
-  \;\Rightarrow\;
-  stable \; equivalence
-$$
-
-but the reverse implication is false.
-
-=--
-
-([MMSS00, prop. 8.7, prop. 8.8](#MMSS00))
-
-We break up this statement below as prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} and prop. \ref{StableEquivalencesThatAreStableWeakHomotopyEquivalences}.
-
-This is important in practice, since the stable equivalences are the weakequivalences in the stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra}, while the [[stable weak homotopy equivalences]] are typically more readily identified.
-
-The argument that every stable weak homotopy equivalence is in particular a stable equivalence is fairly formal; this we turn to first in prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} below. The converse statement in prop. \ref{StableEquivalencesThatAreStableWeakHomotopyEquivalences} however relies on explicit analysis of the class $K$ of generating acylic cofibrations in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}. 
-
-+-- {: .num_defn #AKindOfAlmostSpectrification}
-###### Definition
-
-For $\lambda_0 \colon F^{dia}_1 S^1 \to F^{dia}_0 S^0$ from lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, consider the [[natural transformation]] in $X \in \mathbb{S}_{dia}Mod$ given by the left vertical morphism in 
-
-$$
-  \array{
-    X &\simeq& \mathbb{S}_{dia} Mod(F^{dia}_0 S^0, X)
-    \\
-    \downarrow^{\mathrlap{\lambda_0^\ast(X)}} && \downarrow^{\mathrlap{\mathbb{S}_{dia}Mod(\lambda_0, X)}}
-    \\
-    R X &\coloneqq& \mathbb{S}_{dia}Mod(F^{dia}_1 S^1, X)
-  }
-  \,,
-$$
-
-where the top morphism is the $(F^{dia}_0 \dashv (-)_0)$-adjunction isomorphism.
-Write
-
-$$
-  R^\infty X
-  \coloneqq
-  \underset{\longrightarrow}{\lim}
-  \left(
-    X 
-     \stackrel{\lambda_0^\ast(X)}{\longrightarrow}
-    R X
-     \stackrel{R(\lambda_0^\ast(X))}{\longrightarrow}
-    R R X  
-     \stackrel{R R(\lambda_0^\ast(X))}{\longrightarrow}
-    \cdots
-  \right)
-$$
-
-for the [[homotopy colimit]] over the resulting sequence of iterations. Write 
-
-$$
-  r_X \colon X \longrightarrow R^\infty X
-$$
-
-for the 0th-component map into the colimit.
-
-=--
-
-
-+-- {: .num_lemma #PropertiesOfAKindOfAlmostSpectrification}
-###### Lemma
-
-The functor $R^\infty$ from def. \ref{AKindOfAlmostSpectrification} has the following properties.
-
-1. for $E$ an Omega-spectrum according to def. \ref{StableEquivalencesForDiagramSpectra}, then, by lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, $\lambda_0^\ast(E)$ is weak equivalence in the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}), and hence so is $r_E$;
-
-1. for $f\colon X \longrightarrow Y$ a stable weak homotopy equivalence according to def. \ref{StableEquivalencesForDiagramSpectra}, then $R^\infty f \colon R^\infty X \longrightarrow R^\infty Y$ is a weak equivalence in the strict model structure.
-
-=--
-
-([MMSS 00, prop. 8.8](#MMSS00))
-
-
-+-- {: .num_prop #StableWeakHomotopyEquivalenceIsStableEquivalence}
-###### Proposition
-
-In def. \ref{StableEquivalencesForDiagramSpectra} every stable weak homotopy equivalence is a stable equivalence.
-
-=--
-
-([MMSS 00, prop. 8.8](#MMSS00), following [Hovey-Shipley-Smith 00, theorem 3.1.11](#HoveyShipleySmith00))
-
-
-+-- {: .proof}
-###### Proof
-
-Let $E$ be an Omega-spectrum. Then by the first item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, for every $X$ the morphism
-
-$$
-  [X,r_E]_{strict}
-    \;\colon\; 
-  [X,E]_{strict} 
-    \longrightarrow 
-  [X, R^\infty E]_{strict}
-$$
-
-is an isomorphism. Since $r_{(-)}$ is a [[natural transformation]] (by def. \ref{AKindOfAlmostSpectrification}), the naturality squares gives a factorization of this morphism as
-
-$$
-  [X,r_E]_{strict}
-    \;\colon\;
-  [X,E]_{strict} 
-    \stackrel{R^\infty}{\longrightarrow}
-  [R^\infty X, R^\infty E]_{strict}
-    \stackrel{[r_X,E]_{strict}}{\longrightarrow}
-  [X, R^\infty E]_{strict}  
-$$
-
-Combining this with vertical morphisms as below, which are isomorphisms again by item 1 of lemma \ref{AKindOfAlmostSpectrification},
-
-$$
-  \array{
-     &
-      &&
-    [R^\infty X, E]_{strict}
-      &\stackrel{}{\longrightarrow}&
-    [X, E]_{strict}  
-    \\
-    & &\nearrow& 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[R^\infty X,r_E]}} 
-     && 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X,r_E]}}
-    \\
-    [X,r_E]_{strict}
-      \;\colon\;
-     &
-    [X,E]_{strict} 
-      &\stackrel{R^\infty}{\longrightarrow}&
-    [R^\infty X, R^\infty E]_{strict}
-      &\stackrel{[r_X,E]_{strict}}{\longrightarrow}&
-    [X, R^\infty E]_{strict}  
-  }
-$$
-
-exhibits a [[retraction]] 
-
-$$
-  id \colon [X,E]_{strict} \longrightarrow [R^\infty X,E]_{strict} \longrightarrow [X,E]_{strict}
-  \,,
-$$ 
-
-which is natural in $X$. This naturality now implies a retraction of morphisms
-
-$$
-  \array{
-    id_{[Y,E]_{strict}} \colon & [Y,E]_{strict} &\longrightarrow& [R^\infty Y,E]_{strict} &\longrightarrow& [Y,E]_{strict}
-    \\
-    & \downarrow^{\mathrlap{[f,E]_{strict}}} && \downarrow^{\mathrlap{[R^\infty f,E]_{strict}}}
-     &&
-     \downarrow^{\mathrlap{[f,E]_{strict}}}
-    \\
-    id_{[X,E]_{strict}} \colon & [X,E]_{strict} &\longrightarrow& [R^\infty X,E]_{strict} &\longrightarrow& [X,E]_{strict}
-  }
-  \,.
-$$
-
-Finally, by the second item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([here](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f^\ast$ is a stable equivalence.
-
-
-=--
-
-
-Now for the converse.
-
-
-
-+-- {: .num_prop #StableEquivalencesThatAreStableWeakHomotopyEquivalences}
-###### Proposition
-
-In the case $Dia \in \{Top^{\ast/}, Orth, Seq\}$, hence for [[sequential spectra]], [[orthogonal spectra]] and pre-[[excisive functors]], stable equivalences are stable weak homotopy equivalences (def. \ref{StableEquivalencesForDiagramSpectra}).
-
-=--
-
-([MMSS 00, p.31-32](#MMSS00))
-
-+-- {: .proof}
-###### Proof idea
-
-By theorem ref. \ref{StableModelStructuresOnDiagramSpectra}, and by lemmas  \ref{KInjectiveStableEquivalencesAreStrictEquivalences} and \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations}, every stable weak equivalence factors as a $K$-[[relative cell complex]] followed by weak equivalence in the strict model structure. Since the latter is degreewise a [[weak homotopy equivalence]] it is in particular a [[stable weak homotopy equivalence]]. Hence we are reduced to showing that every $K$-[[relative cell complex]] is a stable weak homotopy equivalence.
-
-Observe now that we know this to be true for the elements of $K$ itself (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}): first of all, the elements in $F J$ are [[retracts]] of [[deformation retracts]] and therefore stable weak homotopy equivalences. Second, the morphisms denoted $k_n$ in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}, which resolve the maps $\lambda_n$ from def. \ref{CorepresentationOfAdjunctsOfStructureMaps}, as stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}.  This implies that so are their pushout products $k_n \Box i$. 
-
-=--
-
-This completes the proof of theorem \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}.
 
 
 #### Quillen equivalences of stable model structures
@@ -7164,6 +7712,147 @@ Since both adjoints in the present case preserve [[colimits]], [[tensoring]] wit
 
 =--
 
+#### Symmetric smash monoidal model structure
+ {#MonoidalStableModelStructure}
+
+
++-- {: .num_theorem}
+###### Theorem
+
+The stable model structures from theorem \ref{StableModelStructuresOnDiagramSpectra} on the [[categories of modules]] from prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules}, remark \ref{PreExcisiveFunctorsAreSModules}
+
+$$
+  \mathbb{S}Mod_r \simeq [Top_{fin}^{\ast/}, Top^{\ast/}]
+$$
+
+$$
+  \mathbb{S}_{Orth} Mod_r \simeq OrthSpec(Top)
+$$
+
+$$
+  \mathbb{S}_{Sym} Mod_r \simeq SymSpec(Top)
+$$
+
+are compatible with their [[monoidal category]] structure given by the [[symmetric monoidal smash product of spectra]] $\wedge$ of def. \ref{SymmetricSmashProductOfDiagramSpectra}, in that $(\mathbb{S}_{dia} Mod_{stable}, \wedge_{\mathbb{S}_{dia}})$ in these cases
+
+1. is a [[stable model category]];
+
+1. satisfying the [[monoid axiom in a monoidal model category]].
+
+=--
+
+([MMSS 00, theorem 12.1 (iii) with prop. 12.3](#MMSS00)) 
+
+We give the proof below (...) after a sequence of lemmas.
+
++-- {: .num_lemma #PushoutSmashProductOfStableCofibsIsStableCofib}
+###### Lemma
+
+The [[pushout product]] of two cofibrations in $\mathbb{S}_{dia}Mod_{stable}$ is again a cofibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A general abstract fact about [[pushout-products]] ([Hovey-Shipley-Smith 00, prop. 5.3.4](#HoveyShipleySmith00), see _[here](pushout-product#PushoutProductOfCofClassIsCofClassOfPushoutProduct)_) is that for $I_1, I_2$ two classes of morphisms in a [[symmetric monoidal category|closed]] [[symmetric monoidal category]] with [[finite limits]] and [[finite colimits]], and writing $I_i Cof$ for their saturated classes, then under [[pushout-product]] $\Box$:
+
+$$
+  (I_1 Cof) \Box (I_2 Cof)
+  \subset 
+  (I_1 \Box I_2) Cof
+  \,.
+$$
+
+Since the cofibrations of the stable model structure, theorem \ref{StableModelStructuresOnDiagramSpectra}, are elements in
+
+
+$$
+  Cof_{stable} = (F I) Cof
+$$
+
+with $F I$ the class of [[free spectra]] on the class of generating cofibrations $I$ of the [[classical model structure on topological spaces]], def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}, this implies in the present case that 
+
+$$
+  Cof_{stable} \Box Cof_{stable}
+  \subset
+  (F I \Box F I) Cof
+  \,.
+$$
+
+Now lemma \ref{PushoutSmashProductOfFreeSpectraOnGeneratingCofibrationsOfTop} implies that 
+
+$$
+  F I \Box F I
+  =
+  F(I \Box I)
+  =
+  F I 
+$$
+
+and hence the claim follows.
+
+=--
+
+
+
++-- {: .num_lemma }
+###### Lemma
+
+Let $Y \in \mathbb{S}_{dia} Mod_{stable}$ be cofibrant.
+Then the [[smash product of spectra]]-[[functor]] (def. \ref{SymmetricSmashProductOfDiagramSpectra})
+
+$$
+  X \wedge_{\mathbb{S}_{dia}}(-)
+    \;\colon\;
+  \mathbb{S}_{dia} Mod
+    \longrightarrow
+  \mathbb{S}_{dia} Mod
+$$
+
+preserves [[stable weak homotopy equivalences]] as well as stable equivalences (def. \ref{StableEquivalencesForDiagramSpectra}).
+
+=--
+
+([MMSS 00, prop. 12.3](#MMSS00))
+
++-- {: .num_lemma }
+###### Lemma
+
+The functor
+
+$$
+  X \wedge_{\mathbb{S}_{dia}}(-)
+    \;\colon\;
+  \mathbb{S}_{dia} Mod
+    \longrightarrow
+  \mathbb{S}_{dia} Mod
+$$
+
+sends acylic cofibrations in the stable model structure to morphisms that are stable equivalences and [[h-cofibrations]].
+
+=--
+
+([MMSS 00, prop. 12.5](#MMSS00))
+
++-- {: .num_prop #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
+###### Proposition
+
+The [[symmetric monoidal smash product of spectra]] $\wedge_{\mathbb{S}_{dia}}$ on $\mathbb{S}_{dia} Mod$, def. \ref{SymmetricSmashProductOfDiagramSpectra} satisfies the [[pushout-product axiom]] with respect to the stable model structure $\mathbb{S}_{dia} Mod$ of theorem \ref{StableModelStructuresOnDiagramSpectra}.
+
+=--
+
+([MMSS 00, prop. 12.6](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+That the pushout product of two stable cofibrations is again a stable cofibration is the content of lemma \ref{PushoutSmashProductOfStableCofibsIsStableCofib}. It remains to show that if at least one of them is a stanble equivalence, def. \ref{StableEquivalencesForDiagramSpectra}, then so is the pushout-product.
+That follows with a laborious argument using the above lemmas (...).
+
+=--
+
+(...)
 
 
 
@@ -12413,7 +13102,7 @@ For the discussion of [[ring spectra]] we pass to [[symmetric spectra]]. A compr
 
 In order to construct and understand the [[model structure on symmetric spectra]] via the [[model structure on orthogonal spectra]] we develop the approach of 
 
-* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
 For **Interlude: Spectral sequences** a discussion streamlined for our purposes is in ([Rognes 12, section 2](#Rognes12)).
 
