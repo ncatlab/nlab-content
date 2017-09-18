@@ -226,7 +226,7 @@ The term became fully established with surveys including
 
 * {#Duff96} [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
-* [[Michael Duff]], _The Theory Formerly Known as Strings_, Scientific American 1998 ([pdf](https://www.nikhef.nl/pub/services/biblio/bib_KR/sciam14395569.pdf))
+* {#Duff98} [[Michael Duff]], _The Theory Formerly Known as Strings_, Scientific American 1998 ([pdf](https://www.nikhef.nl/pub/services/biblio/bib_KR/sciam14395569.pdf))
 
 * [[Michael Duff]], _A Layman's Guide to M-theory_ ([arXiv:hep-th/9805177](https://arxiv.org/abs/hep-th/9805177))
 
