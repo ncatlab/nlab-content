@@ -111,7 +111,7 @@ to be the [[supremum]] over the [[absolute values]] of the components of the seq
 More generally, for $(X,\mu)$ a [[measure space]], write $L^p(X)$ for the [[vector space]] of [[equivalence classes]] of those [[measurable functions]] $f \colon X \to \mathbb{R}$, for which the [[integral]]
 
 $$
-  \int_X {\vert f \vert} d\mu \;\lt\; \infty
+  \int_X {\vert f \vert}^p  d\mu \;\lt\; \infty
 $$
 
 exists, and where two such functioons are regarded as equivalent, $f_1 \sim f_2$, if
@@ -137,8 +137,6 @@ $$
 
 defines a [[norm]]. The [[triangle inequality]] holds due to [[Minkowki's inequality]].  The [[normed vector space]] $(L^p(X), {\Vert- \Vert}_p)$ is also called a _[[Lebesgue space]]_.
 
-
-g
 
 ## References
 
