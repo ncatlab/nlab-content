@@ -29,11 +29,11 @@ For $T$ a [[nLab:Lawvere theory]], the _geometry_ modeled on $T$ is encoded in t
 
 This statement generalizes to [[nLab:(∞,1)-category theory]]: for $T$ an [[nLab:(∞,1)-algebraic theory]] and $C \subset T Alg^{op}$ a [[nLab:(∞,1)-site]] of formal duals of $\infty$-algebras over $T$, one says that the [[nLab:(∞,1)-topos]] $\mathbf{H} = \infty Sh(C)$ over $C$ encodes **[[nLab:derived geometry]]** modeled on $T$. The objects of $\mathbf{H}$ are also called _[[nLab:derived stack]]s_ on $C$.
 
-The term "derived" here is meant to specifically contrast with [[nLab:∞-stack]]s on just a 1-categorical site. Even if $T$ happens to be just an ordinary Lawvere theory, regarded as a 1-[[nLab:truncated]] $(\infty,1)$-theory, the $\infty$-topos over $T Alg_\infty^{op}$ behaves considerably different from that over just $T Alg^{op}$.
+The term "derived" here is meant to specifically contrast with [[nLab:∞-stack]]s on just a 1-categorical site. Even if $T$ happens to be just an ordinary Lawvere theory, regarded as a 1-[[nLab:truncated]] $(\infty,1)$-theory, the $\infty$-topos over $T Alg_\infty^{op}$ behaves considerably differently from that over just $T Alg^{op}$.
 
-An object $X$ in derived geometry has both, an [[nLab:∞-groupoid]] of internal symmetries as well as an $\infty$-[[nLab:function algebras on ∞-stacks|algebra of functions]]:
+An object $X$ in derived geometry has both an [[nLab:∞-groupoid]] of internal symmetries as well as an $\infty$-[[nLab:function algebras on ∞-stacks|algebra of functions]]:
 
-1. passing from a  sheaf topos over a site to the $\infty$-stacks over that site makes _[[nLab:colimit]]s_ behave well in [[nLab:cohomology]]. For instance a singular [[nLab:quotient]] becomes an [[nLab:orbifold]]. 
+1. passing from a sheaf topos over a site to the $\infty$-stacks over that site makes _[[nLab:colimit]]s_ behave well in [[nLab:cohomology]]. For instance a singular [[nLab:quotient]] becomes an [[nLab:orbifold]]. 
 
 1. passing to derived geometry by making the site a genuine $(\infty,1)$-category makes _[[nLab:limit]]s_ behave well in cohomology. For instance the intersection pairing of non-[[nLab:transversal map|transversal]] [[nLab:smooth manifold]]s comes out correctly when regarding them as [[nLab:derived smooth manifold]]s.
 
@@ -55,7 +55,7 @@ The rough plan is that we
 
 1. and finally look at the specific case of derived _smooth differential_ geometry.
 
-The following is the beginning of a detailed schedule of talks. The first few talks have been fixed by now, the later talks will be fixed as me move along.
+The following is the beginning of a detailed schedule of talks. The first few talks have been fixed by now, the later talks will be fixed as we move along.
 
 ### $\infty$-Sites from $\infty$-algebraic theories {#Sites}
 
@@ -181,6 +181,7 @@ Next, in order to handle $\infty T Alg$ and to compare it to other known structu
   such as [[nLab:A-∞ algebra]]s / [[nLab:A-∞ space]]s, 
   [[nLab:E-∞ algebra]]s, [[nLab:L-∞ algebra]]s. 
   
+
 
 
 ### Derived geometry over $\infty-C^\infty$-rings {#Smooth}
