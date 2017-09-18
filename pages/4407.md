@@ -74,13 +74,13 @@ we obtain a solution (since $x^2 - y^2 = a$ and $4 x^2 y^2 = b^2$).
 
 ## Classical FTA via advanced calculus 
 
-As noted above, many proofs of the fundamental theorem are known. The following proof, ultimately rooted in the fact that polynomial mappings on $\mathbb{C}$ are open mappings, has the advantage that it requires very little machinery. From what I ([[Todd Trimble]]) understand, it is close to the method used by Argand to give his proof (1814)[^1]. 
+As noted above, many proofs of the fundamental theorem are known. The following proof, ultimately rooted in the fact that polynomial mappings on $\mathbb{C}$ are [[open mappings]], has the advantage that it requires very little machinery. From what I ([[Todd Trimble]]) understand, it is close to the method used by Argand to give his proof (1814)[^1]. 
 
 [^1]: Despite the credit given to Gauss for his demonstration of 1799, Argand's proof is often credited as the first one that is *fully rigorous*. The proof given here also uses the Bolzano-Weierstrass theorem, first proven by Bolzano in 1817, making it somewhat contemporaneous. Argand is also widely credited as the one who introduced the cutting-edge idea of viewing complex numbers and their operations *geometrically*, which the proof here also uses (the complex plane $\mathbb{C}$ being also known as the Argand plane). 
 
 Let $f\colon \mathbb{C} \to \mathbb{C}$ be a nonconstant polynomial mapping, and suppose $f$ has no zero. 
 
-1. Let $s$ be the [[infimum]] of values ${|f(z)|}$; choose a [[sequence]] $z_1, z_2, z_3, \ldots$ such that ${|f(z_n)|} \to s$. Since $\lim_{z \to \infty} f(z) = \infty$, the sequence $z_n$ must be bounded; by the Bolzano-Weierstrass theorem it has a subsequence $z_{n_k}$ that converges to some point $z_0$. Then ${|f(z_{n_k})|}$ converges to ${|f(z_0)|}$ by continuity, and converges to $s$ as well, so ${|f(z)|}$ attains an absolute minimum $s$ at $z = z_0$. By supposition, $f(z_0) \neq 0$. 
+1. Let $s$ be the [[infimum]] of values ${|f(z)|}$; choose a [[sequence]] $z_1, z_2, z_3, \ldots$ such that ${|f(z_n)|} \to s$. Since $\lim_{z \to \infty} f(z) = \infty$, the sequence $z_n$ must be bounded; by the Bolzano-Weierstrass theorem it has a [[sequence|subsequence]] $z_{n_k}$ that converges to some point $z_0$. Then ${|f(z_{n_k})|}$ converges to ${|f(z_0)|}$ by continuity, and converges to $s$ as well, so ${|f(z)|}$ attains an absolute minimum $s$ at $z = z_0$. By supposition, $f(z_0) \neq 0$. 
 
 2. The polynomial $f$ may be uniquely written in the form 
 $$f(z) = f(z_0) + g(z)(z - z_0)^n$$ 
