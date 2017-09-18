@@ -400,6 +400,8 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 
 ## References 
 
+* [[eom]], _[Locale](https://www.encyclopediaofmath.org/index.php/Locale)_
+
 An introduction to and survey of the use of locales instead of topological spaces ("[[pointless topology]]") is in
 
 * [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41-53. ([Bulletin AMS](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html))
