@@ -1,0 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
+
+## Idea
+
+On [[super smooth infinity-groupoids]] there is a [[modal operator]] $\beta$ which projects onto the bosonic components of the [[supergeometry]]. On [[formal dual]] [[superalgebras]] this is given by passing to the _[[body]]_. Together with its [[left adjoint]] $\epsilon$ (which on superalgebras passes to the even-graded sub-algebra) this forms an [[adjoint modality]] which may be thought of as characterizing the [[supergeometry]]. See at _[super smooth infinity-groupoid -- Cohesion](http://ncatlab.org/nlab/show/super+smooth+infinity-groupoid#Cohesion)_.
+
+
