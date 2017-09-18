@@ -237,10 +237,10 @@ one sees that $(R Q g)\circ (R Q f)$ is a lift of $g \circ f$ and hence the same
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #UniversalPropertyOfHomotopyCategoryOfAModelCategory}
 ###### Theorem
 
-For $\mathcal{C}$ a [[model category]], the functor $\gamma$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $R$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]]: 
+For $\mathcal{C}$ a [[model category]], the functor $\gamma_{R,Q}$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $R$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]]: 
 
 For $F \colon \mathcal{C} \longrightarrow D$ any [[functor]] that takes weak equivalences to [[isomorphisms]], it factors through $\gamma$ up to a [[natural isomorphism]]
 
@@ -329,9 +329,97 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .num_remark #EssentialUniquenessOfLocalizationFunctorOfModelCategory}
+###### Remark
+
+Due to theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory} we may suppress the choices of cofibrant $Q$ and fibrant replacement $R$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} and just speak of [[generalized the|the]] [[localization functor]]
+
+$$
+  \gamma \;\colon\;
+  \mathcal{C}
+  \longrightarrow
+  Ho(\mathcal{C})
+$$
+
+up to [[natural isomorphism]].
 
 =--
 
+
+While the construction of the homotopy category in def. \ref{HomotopyCategoryOfAModelCategory} combines the restriction to good (fibrant/cofibrant) objects with the passage to [[homotopy classes]] of morphisms, it is often useful to consider intermediate stages:
+
++-- {: .num_defn #FullSubcategoriesOfFibrantCofibrantObjects}
+###### Definition
+
+Given a [[model category]] $\mathcal{C}$, write 
+
+$$
+  \array{
+   && \mathcal{C}_{fc}
+   \\
+   & \swarrow && \searrow
+   \\
+   \mathcal{C}_c && && \mathcal{C}_f
+   \\
+   & \searrow && \swarrow
+   \\
+   && \mathcal{C}
+  }
+$$
+
+for the system of [[full subcategory]] inclusions on the cofibrant objects ($\mathcal{C}_c$), the fibrant objects ($\mathcal{C}_f$) and the objects which are both fibrant and cofibrant ($\mathcal{C}_{fc}$), all regarded a [[catgeories with weak equivalences]], via the weak equivalences inherited from $\mathcal{C}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Of course the subcategories in def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} inherit more structure than just that of [[categories with weak equivalences]] from $\mathcal{C}$. $\mathcal{C}_f$ and $\mathcal{C}_c$ each inherit "half" of the factorization axioms. One says that $\mathcal{C}_f$ has the structure of a "[[fibration category]]" called a "[[category of fibrant objects]]", while $\mathcal{C}_c$ has the structure of a "[[cofibration category]]".
+
+=--
+
+The proof of theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory} immediately implies the following:
+
++-- {: .num_cor}
+###### Corollary
+
+For $\mathcal{C}$ a [[model category]], the restriction of the localization functor $\gamma\;\colon\; \mathcal{C} \longrightarrow Ho(\mathcal{C})$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (using remark \ref{EssentialUniquenessOfLocalizationFunctorOfModelCategory}) to any of the sub-[[categories with weak equivalences]] of def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}
+
+$$
+  \array{
+   && \mathcal{C}_{fc}
+   \\
+   & \swarrow && \searrow
+   \\
+   \mathcal{C}_c && && \mathcal{C}_f
+   \\
+   & \searrow && \swarrow
+   \\
+   && \mathcal{C}
+   \\
+   && \downarrow^{\mathrlap{\gamma}}
+   \\
+   && Ho(\mathcal{C})
+  }
+$$
+
+exhibits $Ho(\mathcal{C})$ equivalrntly as the [[homotopy category]] also of these subcategories. In particular there are [[equivalences of categories]]
+
+$$
+  Ho(\mathcal{C})
+   \simeq
+  Ho(\mathcal{C}_{f})
+   \simeq
+  Ho(\mathcal{C}_{c})
+   \simeq
+  Ho(\mathcal{C}_{fc})
+  \,.
+$$
+
+
+=--
 
 ## References
 
