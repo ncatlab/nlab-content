@@ -121,7 +121,7 @@ In order to say what _locally_ $T$-ringed means, one needs the extra structure o
 
 * In some applications the ringed topos is refined to a [[lined topos]] when instead of a [[ring]] object an [[algebra]]-object is required.
 
-* For $A \in Alg$ any (possibly non-commutative) algebra, let $\mathcal{C}(A)$ be its [[poset of commutative subalgebras]]. The [[presheaf topos]] $[\mathcal{C}(A) Set]$ naturally carries the commutative ring object $\underline A : (C \in \mathcal{C}(A)) \mapsto C$. This example appears in the description of [[state]]s in [[quantum mechanics]] after "[[Bohrification]]".
+* For $A \in Alg$ any (possibly non-commutative) algebra, let $\mathcal{C}(A)$ be its [[poset of commutative subalgebras]]. The [[presheaf topos]] $[\mathcal{C}(A), Set]$ naturally carries the commutative ring object $\underline A : (C \in \mathcal{C}(A)) \mapsto C$. This example appears in the description of [[state]]s in [[quantum mechanics]] after "[[Bohrification]]".
 
 
 ## Properties
