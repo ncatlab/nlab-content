@@ -86,6 +86,8 @@ For the moment see at _[[Harish Chandra transform]]_.
 
 * [[D-scheme]]
 
+* [[D-algebra]]
+
 
 * [[crystalline cohomology]]
 
