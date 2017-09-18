@@ -73,6 +73,8 @@ and the classification of weak orthogonal structures is essentially a study of h
 
 ## Related concepts
 
+* [[orthogonality]], [[orthogonal basis]], [[normal vector]]
+
 * A choice of orthogonal structure on a [[manifold]] is also equivalently called a choice of _[[vielbein]]_. See there for more details.
 
 * [integrability of G-structures -- Examples -- Orthogonal structure](integrability+of+G-structures#ExamplesOrthogonalStructure)
