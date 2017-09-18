@@ -6,10 +6,6 @@
 +-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
-#### Higher geometry
-+-- {: .hide}
-[[!include higher geometry - contents]]
-=--
 =--
 =--
 
@@ -21,27 +17,141 @@
 
 A _bump function_ is a [[smooth function]] with [[compact support]], especially one that is not zero on a space that it not [[compact space|compact]].
 
-One reason the category [[SmthMfd]] of [[smooth manifolds]] and [[smooth functions]] is important is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to [[analytic geometry]] or [[algebraic varieties]] (since non-zero analytic or algebraic functions with compact support exist only on compact spaces). For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to smoothly patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]]. 
+One reason the category [[SmthMfd]] of [[smooth manifolds]] and [[smooth functions]] is important, hence one reason why [[differential geometry]] is special, is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to [[analytic geometry]] or [[algebraic varieties]] (since non-zero analytic or algebraic functions with compact support exist only on compact spaces). For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to smoothly patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]]. 
 
 
 ## Constructions
 
-Define a function $\phi(x)$ on the standard [[open ball|open unit ball]] of the [[cartesian space]] $\mathbb{R}^n$ by 
-$$
-  \phi(x) = \exp\left(
-   \frac1{{\|x\|^2} - 1}
-  \right)
-$$ 
-so that $\phi(x)$ and all of its higher [[derivatives]] vanish rapidly as $x$ approaches the [[boundary]]. This gives a [[smooth function]] [[compact support|compactly supported]] on the [[unit ball]] centered at the origin. 
++-- {: .num_defn #BumpFunction}
+###### Definition
 
-For $\varepsilon \gt 0$, define $\phi_\varepsilon(x) \coloneqq \phi(x/\varepsilon)$, and define 
-$$\psi_\varepsilon = \frac{\phi_\varepsilon}{{\|\phi_\varepsilon\|}_1}$$ 
+A _bump function_ is a [[function]] on [[Cartesian space]] $\mathbb{R}^n$, for some $n \in \mathbb{R}$ with values in the [[real numbers]] $\mathbb{R}$
+
+$$
+  b 
+    \;\colon\;
+  \mathbb{R}^n
+    \longrightarrow
+  \mathbb{R}
+$$
+
+such that
+
+1. $b$ is [[smooth function|smooth]];
+
+1. $b$ has [[compact support]].
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+For every [[closed ball]] $B_{x_0}(\epsilon) = \{x \in \mathbb{R}^n \,\vert\, {\Vert x - x_0 \Vert} \leq \epsilon\} \subset \mathbb{R}^n$ there exists a bump function $b \colon \mathbb{R}^n \to \mathbb{R}$ (def. \ref{BumpFunction}) with 
+
+$$
+  Supp(b) = B_x(\epsilon)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the function
+
+$$
+  \phi \;\colon\; \mathbb{R}^n \longrightarrow \mathbb{R}
+$$
+
+given by
+
+$$
+  \phi(x) 
+    \;\coloneqq\;
+  \left\{
+    \array{
+      \exp\left(
+       \frac{1}{{\Vert x \Vert}^2 - 1}
+      \right)
+       & \vert & { \Vert x \Vert} \lt 1
+      \\
+      0 &\vert & \text{otherwise}
+     }
+  \right.
+  \,.
+$$ 
+
+By construction the [[support]] of this function is the closed unit ball at the origin, $Supp(\phi) = B_0(1)$. 
+
+We claim that $\phi$ is smooth. That it is smooth away from $r \coloneqq {\Vert x \Vert} = 0$ is clear, hence smoothness only need to be checked at $r = 0$, where it amounts to demanding that all the [[derivatives]] of the exponential function vanish as $r \to 0$.
+
+But that is the case since
+
+$$
+  \frac{d}{d r}
+  \left(
+    \exp\left(
+     \frac
+       {1}
+       {
+         r^2 - 1
+       }
+    \right)
+  \right)
+  =
+  \frac{
+    -2 r
+  }
+  {
+    \left( r^2 - 1 \right)^2
+  }
+    \exp\left(
+     \frac
+       {1}
+       {
+         r^2 - 1
+       }
+    \right)
+  \,.
+$$
+
+This clearly tends to zero as $r \to 1$. The form of the higher derivatives is the same but with higher inverse powers of $(r^2 -1)$ and so this conclusion remains the same for all derivatives. Hence $\phi$ is smooth.
+
+Now for arbitrary radii $\varepsilon \gt 0$ define 
+
+$$
+  \phi_\varepsilon(x) \coloneqq \phi(x/\varepsilon)
+  \,.
+$$
+
+This is clearly still smooth and $Supp(\phi_{\varepsilon}) = B_0(\epsilon)$.
+
+Finally the function $x \mapsto \phi_\varepsilon(x-x_0)$ has support the closed ball $B_{x_0}(\varepsilon)$.
+
+=--
+
+Define
+
+$$
+  \psi_\varepsilon 
+    \coloneqq
+  \frac{\phi_\varepsilon}{{\|\phi_\varepsilon\|}_1}
+$$ 
+
 so that the family $(\psi_\varepsilon)_\varepsilon$ is a smooth [[approximation to the identity]] (of convolution, the [[Dirac distribution|Dirac functional]]), compactly supported on the closed ball of radius $\varepsilon$ and having an $L^1$-norm equal to $1$. Then, it is standard that for any pair $K \subset V$ with $K$ [[compact subspace|compact]] and $V$ [[open subspace|open]] in a cartesian space $\mathbb{R}^n$, we can choose an open $U$ containing $K$ and with compact [[closure]] contained in $V$, and then taking the [[convolution]] product 
 $$\psi_\varepsilon \ast \chi_U$$ 
 of $\psi_\varepsilon$ with the [[characteristic function]] $\chi_U$, for $\varepsilon$ sufficiently small, we obtain a smooth function equal to $1$ on $K$ and equal to $0$ outside $V$.
 
 By performing the above construction in [[charts]], we obtain, in any [[smooth manifold]], a smooth function equal to $1$ on any [[compact subspace]] $K$ and equal to $0$ outside any [[neighbourhood]] $V$ of $K$.  (This is a smooth [[completely regular space|regularity property]].)
 
+
+## Applications
+
+* [Smooth manifolds admit smooth partitions of unity](partition+of+unity#ExistenceOnSmoothManifolds)
+
+...
 
 
 ## References
