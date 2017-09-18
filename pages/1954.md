@@ -269,6 +269,9 @@ A formulation and discussion of Ehresmann connections using language and tools f
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
 
+Generalization to [[principal 2-bundles]] is discussed in
+
+* {#Waldorf16} [[Konrad Waldorf]], _A global perspective to connections on principal 2-bundles_ ([arXiv:1608.00401](https://arxiv.org/abs/1608.00401))
 
 [[!redirects Ehresmann-connection]]
 
