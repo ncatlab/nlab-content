@@ -81,7 +81,7 @@ $$
   eval_{X,Y} : [X,Y] \otimes X \to Y
 $$
 
-is the $((-)\otimes X \vdash [X,-])$-[[adjunct]] of the [[identity]] $id_{[X,Y]} : [X,Y] \to [X,Y]$.
+is the $((-)\otimes X \dashv [X,-])$-[[adjunct]] of the [[identity]] $id_{[X,Y]} : [X,Y] \to [X,Y]$.
 
 =--
 
@@ -122,7 +122,7 @@ $$
   [X, Z]
 $$
 
-is the $((-)\times X \vdash [X,-])$-[[adjunct]] of the following composite of two [[evaluation maps]], def. \ref{EvalMap}:
+is the $((-)\times X \dashv [X,-])$-[[adjunct]] of the following composite of two [[evaluation maps]], def. \ref{EvalMap}:
 
 $$
   [Y, Z] \times [X , Y] \times X 
@@ -591,7 +591,6 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 A discussion query (R. Brown, T. Bartels, M. Shulman) about internal hom is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3372&Focus=27648).
 
 
-[[!redirects internal hom]]
 [[!redirects internal homs]]
 [[!redirects inner hom]]
 [[!redirects inner homs]]
