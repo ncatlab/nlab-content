@@ -16,16 +16,15 @@
 
 ## Idea
 
-**Number theory** (or **[[arithmetic]]**) studies [[numbers]], especially the [[natural numbers]] and the [[integers]]. Typical questions are the distrubution of [[prime numbers]] and the study of integer (or rational) [[solutions]] of [[algebraic equations]] with [[integer]] [[coefficients]], also called **[[Diophantine equations]]**. 
+**Number theory** (or **[[arithmetic]]**) studies [[numbers]], especially the [[natural numbers]] and the [[integers]]. Typical questions are the distribution of [[prime numbers]] and the study of integer (or rational) [[solutions]] of [[algebraic equations]] with [[integer]] [[coefficients]], also called **[[Diophantine equations]]**. 
 
-(Notice that by a theorem of [[Matiyasevich]] (spelled also Matiyasevich), for every statement in [[mathematics]] (say ZF [[set theory]]) there is [[Diophantine equation]] whose [[solution|solvability]] is equivalent to the validity of the statement. Of course, that does not mean that addressing a problem as a Diophantine equation helps in solving it. )
+(Notice that by a theorem of [[Matiyasevich]] (spelled also Matijasevich), for every statement in [[mathematics]] (say ZF [[set theory]]) there is [[Diophantine equation]] whose [[solution|solvability]] is equivalent to the validity of the statement. Of course, that does not mean that addressing a problem as a Diophantine equation helps in solving it. )
 
-The analytic study of the asymptotic behaviour of the distrubution of prime numbers on the positive integer line is the main subject of **analytic number theory**; it also studies the distribution of rational numbers with small denominators. 
+The analytic study of the asymptotic behaviour of the distribution of prime numbers on the positive integer line is the main subject of [[analytic number theory]]; it also studies the distribution of rational numbers with small denominators. 
 
-A root of an algebraic equation with integral (or equivalently, with rational) coefficients is called an [[algebraic number]]. Extending the field $\mathbb{Q}$ of rational numbers by abstract solutions of such an algebraic equation in a minimal way leads to an algebraic extensions of rationals, so called [[number field]]. There is a number of algebraic structures related to the study of algebraic integers and number fields in particular; these questions comprise [[algebraic number theory]] including its central part, the [[class field theory]]. 
-The [[Galois theory]] is one of the principal ways of study of such questions. [[algebraic geometry|Algebraic geometry]] is very effective in the expression and study to more elaborate questions in this study which in its historical development brought up very many major concepts of [[algebra]] and algebraic geometry including central notions like a [[group]], [[ideal]], and Grothendieck [[motive]].
+A root of an algebraic equation with integral (or equivalently, with rational) coefficients is called an [[algebraic number]]. Extending the field $\mathbb{Q}$ of rational numbers by abstract solutions of such an algebraic equation in a minimal way leads to an algebraic extensions of rationals, a so called [[number field]]. There are a number of algebraic structures related to the study of algebraic integers and number fields in particular; these questions comprise [[algebraic number theory]] including its central part, [[class field theory]]. [[Galois theory]] is one of the principal ways of studying such questions. [[algebraic geometry|Algebraic geometry]] is very effective in the investigation of more elaborate questions in this area, and through its historical development it has given rise to many major concepts, such as [[group]], [[ideal]], and Grothendieck [[motive]].
 
-It is one of the oldest branches of mathematics and very popular as many difficult problems can be stated in a rather elementary and simple manner, e.g. the Fermat's Last Theorem and [[Riemann hypothesis]]. 
+It is one of the oldest branches of mathematics and very popular as many difficult problems can be stated in a rather elementary and simple manner, e.g. Fermat's Last Theorem and the [[Riemann hypothesis]]. 
 
 ## Related concepts
 
