@@ -26,24 +26,26 @@ $$F : V \to V$$
 
 is usually defined as a natural transformation 
 
-$$ v \otimes F(w) \to F(v \otimes w)$$
+$$ \beta_{v, w}: v \otimes F(w) \to F(v \otimes w)$$
 
 making two diagrams commute: 
 
-\begin{tikzcd}[]
-(u\otimes v)\otimes F(w) \arrow[rr,"\beta_{u\otimes v,w}"] \arrow[d,"\alpha_{u,v,w}"]
-&
-& F((u\otimes v)\otimes w) \arrow[d,"F(\alpha_{u,v,w})"] \\
-u\otimes (v\otimes F(w)) \arrow[r,"1_u\otimes\beta_{v,w}"]
-& u\otimes F(v\otimes w) \arrow[r,"\beta_{u,v\otimes w}"] 
-& F(u\otimes v\otimes w)
-\end{tikzcd}
-
-\begin{tikzcd}[]
-I\otimes F(v) \arrow[r,"\beta_{I,v}"] \arrow[dr, "\lambda_{F(v)}"']
-& F(I\otimes v) \arrow[d, "F(\lambda_v)"] \\
-& F(v)
-\end{tikzcd}
+$$
+\array{
+  (u \otimes v) \otimes F(w) & & \overset{\beta_{u\otimes v,w}}{\to} & & F((u\otimes v)\otimes w)\\
+  ^\mathllap{\alpha_{u,v,w}}\downarrow & & & & \downarrow^{\mathrlap{F(\alpha_{u,v,w})}}\\
+  u\otimes (v\otimes F(w)) & \underset{1_u\otimes\beta_{v,w}}{\to} & u\otimes F(v\otimes w) & \underset{\beta_{u,v\otimes w}}{\to} & F(u\otimes v\otimes w)
+}
+$$
+and
+$$
+\array{
+I\otimes F(v) & \overset{\beta_{I,v}}{\to} & F(I\otimes v) \\
+& _\mathllap{\lambda_{F(v)}}\searrow & \downarrow^\mathrlap{F(\lambda_v)}\\
+& & F(v)
+}
+$$
+where $\alpha$ is the [[associator]] and $\lambda$ is the [[unitor]].
 
 A functor equipped with a tensorial strength is called a **strong functor** (not to be confused with a *strong 2-functor*, which is another name for a [[pseudofunctor]], i.e. a [[lax 2-functor]] whose coherence cells are invertible).
 
