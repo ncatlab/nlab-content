@@ -410,7 +410,7 @@ Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over
 
 1. the **unit disk bundle** $D(V) \to X$ is the subbundle of elements of [[norm]] $\leq 1$;
 
-1. the **unit sphere bundle** $S(V)\to X$ is the subbundle of elements of norm $= 1$;
+1. the **[[unit sphere]] bundle** $S(V)\to X$ is the subbundle of elements of norm $= 1$;
 
    $S(V) \overset{i_V}{\hookrightarrow} D(V) \hookrightarrow V$;
 
