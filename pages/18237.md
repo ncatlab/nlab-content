@@ -1,0 +1,124 @@
+
+> This page is about the concept in [[topology]]. For the more general concept see at _[[open morphism]]_.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
++-- {: .num_defn #OpenMap}
+###### Definition
+**([[open maps]] and [[closed maps]])**
+
+A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ between [[topological spaces]]  is called
+
+*  an _[[open map]]_ if the [[image]] under $f$ of an [[open subset]] of $X$ is an open subset of $Y$;
+
+* a _[[closed map]]_ if the [[image]] under $f$ of a [[closed subset]] of $X$  is a closed subset of $Y$.
+
+=--
+
+## Examples
+
++-- {: .num_example #OpenClosedImageProjection}
+###### Example
+**([[image]] projections of [[open map|open]]/[[closed maps]] are themselves open/closed)**
+
+If a [[continuous function]] $f \colon (X,\tau_X) \to (Y,\tau_Y)$ is an [[open map]] or [[closed map]] (def. \ref{OpenMap})
+then so is its [[image]] projection $X \to f(X) \subset Y$, respectively, for $f(X) \subset Y$ regarded with its
+[[subspace topology]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $f$ is an open map, and $O \subset X$ is an open subset, so that $f(O) \subset Y$ is also open in $Y$, then, since $f(O) = f(O) \cap f(X)$, it is also still open in the subspace topology, hence $X \to f(X)$ is an open map.
+
+If $f$ is a closed map, and $C \subset X$ is a closed subset so that also $f(C) \subset Y$ is a closed subset, then the [[complement]] $Y \backslash f(C)$ is open in $Y$ and  hence $(Y \backslash f(C)) \cap f(X) = f(X) \backslash f(C)$ is open in the subspace topology, which means that $f(C)$ is closed in the subspace topology.
+
+
+=--
+
++-- {: .num_example #ProjectionsAreOpenContinuousFunctions}
+###### Example
+**([[projections]] are [[open map|open]] [[continuous functions]] )**
+
+For $(X_1,\tau_{X_1})$ and $(X_2,\tau_{X_2})$ two [[topological spaces]], then the projection maps
+
+$$
+  pr_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
+$$
+
+out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace})
+
+$$
+  \array{
+    X_1 \times X_2 &\overset{pr_1}{\longrightarrow}& X_1
+    \\
+    (x_1, x_2) &\overset{\phantom{AAA}}{\mapsto}& x_1
+  }
+$$
+
+$$
+  \array{
+    X_1 \times X_2 &\overset{pr_2}{\longrightarrow}& X_2
+    \\
+    (x_1, x_2) &\overset{\phantom{AAA}}{\mapsto}& x_2
+  }
+$$
+
+are [[open maps|open]] [[continuous functions]]  (def. \ref{OpenMap}).
+
+This is because, by definition, every open subset $O \subset X_1 \times X_2$ in the product space topology is a union of products of
+open subsets $U_i \in X_1$ and $V_i \in X_2$ in the factor spaces
+
+$$
+  O = \underset{i \in I}{\cup} \left( U_i \times V_i  \right)
+$$
+
+and because taking the image of a function preserves unions of subsets
+
+$$
+  \begin{aligned}
+    pr_1\left(
+      \underset{i \in I}{\cup} \left( U_i \times V_i \right)
+    \right)
+    & =
+    \underset{i \in I}{\cup}
+    pr_1
+    \left(
+      U_i \times V_i
+    \right)
+    \\
+    & =
+    \underset{i \in I}{\cup} U_i
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+## Related concepts
+
+* [[open morphism]]
+
+* [[embedding of topological spaces]]
+
+[[!redirects open maps]]
+[[!redirects open mapping]]
+[[!redirects open mappings]]
