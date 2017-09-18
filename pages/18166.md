@@ -79,7 +79,7 @@ Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$
 such that with 
 
 $$
-  Supp(f_i) \coloneqq Cl(f_i^{-1}( (0,] ))
+  Supp(f_i) \coloneqq Cl\left( f_i^{-1}( (0,1] ) \right)
 $$
 
 denoting the [[support]] of $f_i$ (the [[topological closure]] of the subset of points on which it does not vanish) then
@@ -165,7 +165,7 @@ Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows th
 
 Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
 
-Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is cotained in the original patches:
+Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is contained in the original patches:
 
 $$
   \underset{i \in I}{\forall}
