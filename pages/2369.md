@@ -38,6 +38,8 @@ But beware that this terminology, in turn, is often abbreviated again to just "r
 
 * [[module spectrum]], [[algebra spectrum]]
 
+* [[functor with smash products]]
+
 * [[periodic ring spectrum]]
 
 * [[model structure for ring spectra]]
