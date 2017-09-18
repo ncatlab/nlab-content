@@ -1,0 +1,62 @@
+[[!redirects reader monad]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[locally Cartesian closed category]] $\mathcal{C}$ and an [[object]] $W \in \mathcal{C}$, then the [[base change]] [[adjoint triple]]
+
+$$
+  \mathcal{C}_{/W}
+    \stackrel{\overset{\sum_W}{\longrightarrow}}{\stackrel{\overset{W^\ast}{\longleftarrow}}{\underset{\prod_W}{\longrightarrow}}}
+  \mathcal{C}
+$$
+
+induces, in particular, the [[monad]] 
+
+$$
+  \prod_W W^\ast = [W,-] \;\colon\; \mathcal{C} \longrightarrow \mathcal{C}
+$$
+
+that produces the [[internal hom]] out of $W$, i.e. the [[function type]] out of $W$. This may be called the _function monad_.
+
+In the context of [[monad (in computer science)|monads in computer science]] (notably in the [[Haskell]] [[programming language]]) this is called the _reader monad_ or the _environment monad_.
+
+(While, from the perspective of [[modal type theory]], its siblings $W^\ast \prod_W$ and $W^\ast \sum_W$ may be called _[[necessity]]_ and _[[possibility]]_, respectively).
+
+## Related concepts
+
+* [[maybe monad]]
+
+* [[continuation monad]]
+
+* [[state monad]]
+
+## References
+
+* Wikipedia, _[Environment monad](http://en.wikipedia.org/wiki/Monad_%28functional_programming%29#Environment_monad)_.
+
+[[!redirects reader monads]]
+
+[[!redirects function monad]]
+[[!redirects function monads]]
+
+[[!redirects environment monad]]
+[[!redirects environment monads]]
