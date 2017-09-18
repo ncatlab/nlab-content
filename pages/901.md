@@ -92,17 +92,21 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-Let $ind\text{-}C \subset PSh(C)$ be the [[full subcategory]] of the [[presheaf]] [[category]] $PSh(C) = [C^{op},Set]$ on those [[functor]]s which are [[filtered colimits]] of [[representable functor|representables]], i.e. those for which 
+Let $Ind(\mathcal{C}) \subset PSh(\mathcal{C})$ be the [[full subcategory]] of the [[presheaf category]] $PSh(\mathcal{C}) = [\mathcal{C}^{op},Set]$ on those [[functors]]/[[presheaves]] which are [[filtered colimits]] of [[representable functor|representables]], i.e. those for which 
 $$
-  X \simeq colim_{d \in D} Y(\alpha(d))
+  X \simeq colim_{d \in \mathcal{D}} Y(\alpha(d))
 $$
-with $D$ a [[filtered category]].
+
+for $\mathcal{D}$ some [[filtered category]].
+
+Those for which $\mathcal{D}$ may be chosen to be $\mathbb{N}^{\leq}$, i.e. those that arise as [[sequential colimits]], are also called _[[strict ind-objects]]_.
+
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The functors $C^{op}\to Set$ belonging to $ind\text{-}C$ under this definition --- those which are filtered colimits of representables --- have an equivalent characterization as the [[flat functors]]: those which "would preserve all finite colimits if $C$ had them".  In particular, if $C$ has finite colimits, then $ind\text{-}C$ consists exactly of the finitely cocontinuous presheaves.
+The functors $\mathcal{C}^{op}\to Set$ belonging to $Ind(\mathcal{C})$ under this definition --- those which are filtered colimits of representables --- have an equivalent characterization as the [[flat functors]]: those which "would preserve all finite colimits if $\mathcal{C}$ had them".  In particular, if $\mathcal{C}$ has finite colimits, then $Ind(\mathcal{C})$ consists exactly of the finitely cocontinuous presheaves.
 
 For more equivalent characterizations see at _[accessible category -- Definition](accessible+category#definition)_.
 
@@ -113,41 +117,41 @@ For more equivalent characterizations see at _[accessible category -- Definition
 +-- {: .num_remark}
 ###### Remark
 
-Given that $[C^{op},Set]$ is the [[free cocompletion]] of $C$, $ind$-$C$ defined in this way is its "free cocompletion under filtered colimits."
+Given that $[\mathcal{C}^{op},Set]$ is the [[free cocompletion]] of $\mathcal{C}$, $Ind(\mathcal{C})$ defined in this way is its "free cocompletion under filtered colimits."
 
 =--
 
-To compare with the first definition, notice that indeed the formula for the [[hom-set]]s is reproduced:
+To compare with the first definition, notice that indeed the formula for the [[hom-sets]] is reproduced:
 
 Generally we have
 
 $$
   \begin{aligned}
-     [C^{op},Set](X,Y)
+     [\mathcal{C}^{op},Set](X,Y)
      & \simeq
-     [C^{op}, Set](colim_{d \in D} Y F d, colim_{d' \in D'} Y G d)
+     [\mathcal{C}^{op}, Set](colim_{d \in \mathcal{D}} Y F d, colim_{d' \in \mathcal{D}'} Y G d)
      \\
      & \simeq 
-     lim_{d \in D} [C^{op}, Set]( Y F d, colim_{d' \in D'} Y G d)
+     lim_{d \in \mathcal{D}} [\mathcal{C}^{op}, Set]( Y F d, colim_{d' \in \mathcal{D}'} Y G d)
   \end{aligned}
 $$
 
-by the fact that the [[hom-functor]] sends [[colimit]]s to [[limit]]s in its first argument (see _properties_ at [[colimit]]). 
+by the fact that the [[hom-functor]] sends [[colimits]] to [[limits]] in its first argument (see _properties_ at _[[colimit]]_). 
 
 By the [[Yoneda lemma]] this is
 
 $$
   \cdots \simeq 
-   lim_{d \in D} (colim_{d' \in D'} Y G d')(F d)
+   lim_{d \in \mathcal{D}} (colim_{d' \in \mathcal{D}'} Y G d')(F d)
   \,.
 $$
 
-Using that [[colimit]]s in $PSh(C)$ are computed objectwise (see again _properties_ at [[colimit]]) this is
+Using that [[colimits]] in $PSh(\mathcal{C})$ are computed objectwise (see again _properties_ at _[[colimit]]_) this is
 
 $$
   \cdots \simeq 
-   lim_{d \in D} colim_{d' \in D'} 
-   C(F d, G d')  \,.
+   lim_{d \in D} colim_{d' \in \mathcal{D}'} 
+   \mathcal{C}(F d, G d')  \,.
 $$
 
 
