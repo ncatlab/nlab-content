@@ -50,6 +50,10 @@ The idea that the inflaton field in cosmology might be the [[Higgs field]] from 
 
 see _[[axion inflation]]_
 
+### Higher curvature inflation (Starobinsky model)
+
+see _[[Starobinsky model of cosmic inflation]]_
+
 ## Related concepts
 
 
