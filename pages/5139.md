@@ -70,6 +70,9 @@ An $E_\infty$-algebra in [[spectra]] is an [[E-∞ ring]].
 
 See [[Ek-Algebras]].
 
+### In $(\infty,n)$-categories
+
+See _[[symmetric monoidal (∞,n)-category]]_.
 
 ## References
 
