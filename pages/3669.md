@@ -5,7 +5,7 @@
 
 ## Idea
 
-An **ind-scheme** is an [[ind-object]] in the category of [[algebraic scheme]]s. Various variants of 'the' category of [[formal scheme]]s is a proper subcategory of the category of ind-schemes. While many analytic varieties have a structure of [[algebraic variety|algebraic varieties]], and loops in a manifold or in an analytic variety can be treated via infinite-dimensional manifolds, their algebraic analogues are examples of ind-schemes.
+An **ind-scheme** is an [[ind-object]] in the category of [[algebraic scheme]]s. Various variants of 'the' category of [[formal scheme]]s are proper subcategories of the category of ind-schemes. While many analytic varieties have a structure of [[algebraic variety|algebraic varieties]], and loops in a manifold or in an analytic variety can be treated via infinite-dimensional manifolds, their algebraic analogues are examples of ind-schemes.
 
 ## Related concepts
 
