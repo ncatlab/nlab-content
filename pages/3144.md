@@ -89,6 +89,8 @@ An introduction is in chapter 4 of
 
 * [[Bertrand Toën]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
 
+See [[model structure on simplicial algebras]] for references on the model structure discussed above.
+
 Some of the above material is taken from <a href="http://mathoverflow.net/questions/45273/what-facts-in-commutative-algebra-fail-miserably-for-simplicial-commutative-rings">this MO entry</a>.
 
 [[!redirects simplicial rings]]
