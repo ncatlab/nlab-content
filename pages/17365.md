@@ -5878,7 +5878,13 @@ $$
 Then using the additivity of morphisms, it follows that for $f_i \;\colon\; X_i \to Q$ any two morphisms, the sum 
 
 $$
-  \phi \;\colon\; f_1 \circ p_1 + f_2 \circ p_2
+  \phi 
+    \;\coloneqq\; 
+  f_1 \circ p_1 + f_2 \circ p_2
+    \;\colon\;
+  X_1 \times X_2
+    \longrightarrow
+  Q
 $$
 
 gives a morphism of [[cocones]]
