@@ -88,6 +88,7 @@ The instance in the full induction scheme where $\varphi$ is the formula $n \in 
 
 The theory described above gives full second-order arithmetic. However, in [[reverse mathematics]], one often studies subsystems of weaker proof-theoretic strength than SOA, by limiting in some way the comprehension scheme (often also beefing up the single induction axiom with more instances of the induction scheme, to offset the weakening). The main examples are given in [Wikipedia](http://en.wikipedia.org/wiki/Reverse_mathematics); a standard reference is [Simpson](#Sim). 
 
+Many important subsystems for SOA have been the subject of an [[ordinal analysis]].
 
 ## Related concepts
 
