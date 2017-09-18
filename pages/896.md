@@ -32,7 +32,15 @@ This means that equivalently we can say:
 A functor $F : S \to C$ exhibits $S$ as a **full subcategory** of $C$ precisely if it is a [[full and faithful functor]].
 ($S$ is the [[essential image]] of $F$).
 
+## Related concepts
 
+* [[reflective subcategory]]
+
+* [[coreflective subcategory]]
+
+* [[fully faithful functor]]
+
+* [[sub-(infinity,1)-category]]
 
 [[!redirects full subcategories]]
 [[!redirects full embedding]]
@@ -40,4 +48,4 @@ A functor $F : S \to C$ exhibits $S$ as a **full subcategory** of $C$ precisely 
 [[!redirects full imbedding]]
 [[!redirects full imbeddings]]
 [[!redirects full inclusion]]
-[[!redirects full inclusion]]
+[[!redirects full inclusions]]
