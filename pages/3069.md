@@ -160,6 +160,8 @@ $$
 
 * The [[family fibration]] $Fam(C)\to Set$ of any category $C$ with small sums satisfies the Beck--Chevalley condition at every pullback square in $Set$.
 
+* [Mackey's restriction formula](double+coset#MackeyFormula) for group representations.
+
 
 ### For categories of presheaves
  {#PullbacksOfOpfibrations}
