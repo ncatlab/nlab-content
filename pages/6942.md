@@ -28,7 +28,7 @@ There is an evident generalization of the concept of moduli stacks in the more g
 
 Notice that every stack is the moduli stack of _something_ and in fact in general of different things at the same time (see below). So to some extent saying "moduli stack" is redundant. It is usually used to indicate, roughly, that there are some [[spaces]]/[[stacks]] that one is working on/over, and then there are apart from this stacks, the moduli stacks, that one is mapping _into_. 
 
-This distinction however easily disappears. For instance a historically famous moduli stack is the [[moduli stack of elliptic curves]] which started out as an object used to classify [[bundles]] of elliptic curves over other spaces. Later in the study of [[elliptic cohomology]] and [[tmf]] the "moduli stack" of elliptic curves came to be regarded as an space interesting in itself for the geometry _on_ it, specifically since this is naturally a [[derived algebraic geometry]].
+This distinction however easily disappears. For instance a historically famous moduli stack is the [[moduli stack of elliptic curves]] which started out as an object used to classify [[bundles]] of elliptic curves over other spaces. Later in the study of [[elliptic cohomology]] and [[tmf]] the "moduli stack" of elliptic curves came to be regarded as a space interesting in itself for the geometry _on_ it, specifically since this is naturally a [[derived algebraic geometry]].
 
 Analogous comments apply to other moduli stacks. For instance for $G$ a [[topological group]], the moduli stack $\mathbf{B}G \simeq \ast //G$ for topological $G$-[[principal bundles]] is itself interesting for its own geometry. Notably it is the base stack of the [[universal principal bundle]] which as such may be equipped with [[differential geometry]] such as a [[connection on a bundle]] etc.
 
@@ -47,7 +47,7 @@ In conclusion then "moduli stack" pretty much means "stack" or more precisely "s
 
 Let $\mathbf{H} := Sh_\infty(SmthMnfd)$ be collection of [[differentiable stack]]s and generally of [[stacks]] and [[∞-stack]]s over the [[site]] of [[smooth manifold]]s (see [[Smooth∞Grpd]] for details). 
 
-Then every [[Lie group]] $G$ is canonically an [[∞-group|group object]] in $\mathbf{H}$ -- a "group stack" -- and its [[delooping]] in $\mathbf{H}$ produces a stack denoted $\mathbf{B}G$. This is simply the ([[stackification]] of) the [[Lie groupoid]] $*//G$ with a single object and $G$ worth of automorphisms on this object.
+Then every [[Lie group]] $G$ is canonically a [[∞-group|group object]] in $\mathbf{H}$ -- a "group stack" -- and its [[delooping]] in $\mathbf{H}$ produces a stack denoted $\mathbf{B}G$. This is simply the ([[stackification]] of) the [[Lie groupoid]] $*//G$ with a single object and $G$ worth of automorphisms on this object.
 
 Let the $X$ be any [[smooth manifold]], also regarded as a stack, via the [[Yoneda embedding]]. Then one finds that morphisms of stacks
 
