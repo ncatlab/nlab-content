@@ -66,7 +66,7 @@ If there is only a single object $x$, then this definition reduces to that of a 
 
 Just as for groups, the "transformations" above need not necessarily be given by concrete transformations (say by [[bijections]] between [[objects]] which are [[sets]]). Just as for groups, such a concrete realization is always possible, but is an extra choice (called a [[representation]] of the groupoid). Generally one calls these "transformations" _[[morphisms]]_: $x \overset{f}{\longrightarrow} y$ is a morphism with "[[source]]" $x$ and "[[domain]]" $y$.
 
-An archetypical example of a groupoid is the [[fundamental groupoid]] $\Pi_1(X)$ of a [[topological space]] 
+An archetypical example of a groupoid is the [[fundamental groupoid]] $\Pi_1(X)$ of a [[topological space]]
 (def. \ref{FundamentalGroupoid} below, for introduction see [here](Introduction+to+Topology+--+2#Homotopy)): For $X$ a topological space, this is the groupoid whose
 
 * [[objects]] are the points $x \in X$;
@@ -153,7 +153,7 @@ The correct concept of homomorphisms between [[Lie groupoids]] for instance goes
 
 +-- {: .num_defn #GroupoidDependentlyTypes}
 ###### Definition
-**(groupoid -- dependently typed definition)
+**(groupoid -- [[dependent type theory|dependently typed]] definition)
 
 A _[[small groupoid]]_ $\mathcal{G}$ is
 
@@ -722,9 +722,9 @@ This is usually denoted $Ho(Grpd)$.
 
 =--
 
-Of course what the above really means is that, without quotienting out homotopies, 
+Of course what the above really means is that, without quotienting out homotopies,
 groupoids form a [[2-category]], in fact a [[(2,1)-category]], in fact an [[enriched category]]
-which is enriched over the naive 1-category of groupoids from remark \ref{1CategoryOfGroupoids}, 
+which is enriched over the naive 1-category of groupoids from remark \ref{1CategoryOfGroupoids},
 hece a [[strict 2-category]] with [[hom-groupoids]].
 
 
@@ -742,7 +742,7 @@ $$
 
 is an _[[equivalence of groupoids|equivalence]]_ it it is an [[isomorphism]]
 in the [[homotopy category]] $Ho(Grpd)$ (def. \ref{HomotopyCategoryOfGroupoids}), hence if there exists a homomorphism the
-other way around 
+other way around
 
 $$
   G \;\colon\; \mathcal{G}_2 \longrightarrow \mathcal{G}_1
@@ -912,12 +912,13 @@ called the [[representation category]] $Rep_{Grpd}(\mathcal{G})$.
 
 ## Examples
 
+
 +-- {: .num_example #FundamentalGroupoid}
 ###### Example
 **([[fundamental groupoid]])**
 
 Let $X$ be a [[topological space]]. For $x,y \in X$ two points, write $P_{x,y}X
-for the set of [[paths]] in $X$ from $x$ to $y$. Consider the [[equivalence relationo]]
+for the set of [[paths]] in $X$ from $x$ to $y$. Consider the [[equivalence relation]]
 "[[homotopy relative boundary]]" on this set and write
 
 $$
@@ -946,6 +947,20 @@ on [[homotopy categories]].
 
 =--
 
+
+
++-- {: .num_example #DiscreteGroupoid}
+###### Example
+**([[discrete groupoid]])**
+
+For $X$ any set, there is the _[[discrete groupoid]]_ $Disc(X)$, whose set of objects
+is $X$ and whose only morphisms are [[identity morphisms]].
+
+This is also the  [[fundamental groupoid]] (example \ref{FundamentalGroupoid}) 
+of the [[discrete topological space]] on the set $X$.
+
+=--
+
 +-- {: .num_example #GroupoidFromDelooping}
 ###### Example
 **([[delooping]] of a  [[group]])**
@@ -960,6 +975,82 @@ the elements of $G$, with composition the multiplication in $G$, with identity m
 
 This is also called the _[[delooping]]_ of $G$ (because the [[loop space object]] of $B G$ at the unique point is the given group:
 $\Omega B G \simeq G$).
+
+For $G_1, G_2$ two groups, then there is a [[natural bijection]] between [[group homomorphisms]]
+$\phi \colon G_1 \to G_2$ and groupoid homomorphisms $G G_1 \to B_ G_2$: the latter are all of the form
+$B \phi$, with $(B \phi)_0$ uniquely fixed and $(B \phi)_{p,p} = \phi$.
+
+This means that the construction $B(-)$ is a  [[fully faithful functor]]
+
+$$
+  B(-) \;\colon\; Grp \hookrightarrow Grpd_1
+$$
+
+into from the category [[Grp]] of groups to the [[1-category]] of [[groupoids]].
+
+But beware that this functor is not fully faithful when homotopies of groupoids are taken into acount,
+because there are in general non-trivial homotopies between morphims of the form 
+
+$$
+  B \phi_1, B \phi_2
+  \;\colon\;
+  B G \longrightarrow B H
+$$
+
+By definition, such a homotopy (natural transformation) $\eta \;\colon\; B \phi_1 \Rightarrow B \phi_2$
+is a choice of a single elemet $\eta_p \in H$ such that for all $g \in G$
+we have
+
+$$
+  \phi_2(g) = h \cdot \phi_1(g) \cdot h^{-1}
+  \phantom{AAAAAAAAA}
+  \array{
+    p &\overset{h}{\longrightarrow}& p
+    \\
+    {}^{\mathllap{\phi_1(g)}}\downarrow && \downarrow^{\mathrlap{\phi_2(g)}}
+    \\
+    p &\underset{h}{\longrightarrow}& p
+  }
+$$
+
+hence such that 
+
+$$
+  \phi_2 = Ad_h \circ \phi_1
+  \,.
+$$
+
+Therefore notably the induced functor
+
+$$
+  B(-) \;\colon\; Grp \longrightarrow Ho(Grp)
+$$
+
+to the [[homotopy category]] of groupoids is not fully faithful. 
+
+But since $B G$ is canonically a [[pointed object]] in groupoids, we may also regard [[delooping]]
+as a functor
+
+$$
+  B(-) \;\colon\; Grp \longrightarrow Grpd^{\ast/}
+$$
+
+to the [[category of pointed objects]] of [[Grpd]]. Since groupoid homomorphisms $B G_1 \to B G_2$
+necessarily preserve the basepoint, this makes no difference at this point. But as we now
+pass to the [[homotopy category]]
+
+$$
+  B(-) \;\colon\; Grp \hookrightarrow Ho(Grpd^{\ast/})
+$$
+
+then also the homotopies are required to preserve the absepoint, and for 
+homotopies between homomorphisms between delooped groups this means, since there only
+is a single point, that these homotopies are all trivial. Hence regarded this way
+the functor is a [[fully faithful functor]] again, hence an [[equivalence of categories]]
+onto its [[essential image]]. By prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings} below
+this essential image consists precisely of the (pointed) [[connected object|connected]] groupoids:
+
+_Groups are equivalently pointed connected groupoids_.
 
 =--
 
@@ -1057,11 +1148,7 @@ $\,$
 
 > Here is some further examples that should be merged into the above text.
 
-$\,$
 
-1. Any [[group]] $H$ gives rise to a groupoid, sometimes denoted $\mathbf{B}H$ but often conflated with $H$ itself, which has exactly one object $*$ and with $\mathbf{B}H(*,*) = H$.  That is, there is an inclusion of categories $Group \to Groupoids$, and this functor has a left adjoint, giving the _universal group_ of a groupoid. Any inhabited connected groupoid is [[equivalence of categories|equivalent]] to one arising in this way.
-
-2. A [[disjoint union]] of (the one-object groupoids corresponding to) groups is naturally a groupoid, also called a _bundle of groups_.  The [[axiom of choice]] is equivalent to the claim that any groupoid is equivalent to one of this form.
 
 3. From any [[group action|action]] of a [[group]] $H$ on a [[set]] $X$ we obtain an [[action groupoid]] or "[[weak quotient]]" $X/ \!\! /H$. This is also written $X \rtimes H$, a semidirect product, since it is a special case of the semidirext product of an action of a groupoid on a groupoid.  If $X=\{*\}$ this gives the groupoid $\mathbf{B}H$, above.
 
