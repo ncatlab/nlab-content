@@ -81,6 +81,8 @@ The last example is not predicative, and this is in part *why* one studies forma
 
 *  [[Giovanni Sambin]] (2001); _Some points in formal topology_; [pdf](http://www.math.unipd.it/~sambin/txt/SP.pdf).  This has newer results, alternative formulations, etc.
 
+* {#Palmgren05} [[Erik Palmgren]], _From Intuitionistic to Point-Free Topology: On the Foundation of Homotopy Theory_, Logicism, Intuitionism, and Formalism Volume 341 of the series Synthese Library pp 237-253, 2005 ([pdf](http://www2.math.uu.se/~palmgren/homotopy_rev2.pdf))
+
 
 [[!redirects formal topology]]
 [[!redirects formal topologies]]
