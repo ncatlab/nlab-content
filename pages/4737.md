@@ -22,7 +22,7 @@
 
 ## Idea
 
-For $\mathcal{G}$ a [[groupoid object in an (infinity,1)-category|groupoid object]] a _$\mathcal{G}$-principal bunde_ is a [[morphism]] $P \to X$ with an principal [[action]] of $\mathcal{G}$ on $P$.
+For $\mathcal{G}$ a [[groupoid object in an (infinity,1)-category|groupoid object]] a _$\mathcal{G}$-principal bundle_ is a [[morphism]] $P \to X$ with an principal [[action]] of $\mathcal{G}$ on $P$.
 
 ## Definition
 
