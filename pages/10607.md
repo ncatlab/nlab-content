@@ -120,7 +120,7 @@ In the same vein there is an example for an adjunction of the form $\bigcirc \da
 Consider the inclusion $\iota \colon (\mathbb{Z}, \lt) \hookrightarrow (\mathbb{R}, \lt)$ of the [[integers]] into the [[real numbers]], both regarded [[linear orders]]. This inclusion has a [[left adjoint]] given by $ceiling$ and a right adjoint civen by $floor$. The composite $Ceiling \coloneqq \iota ceiling$ is an [[idempotent monad]] and the composite $Floor \coloneqq \iota floor$ is an [[idempotent comonad]] on $\mathbb{R}$. Both express a _moment of integrality_ in an real number, but in opposite ways, each real number $x\in \mathbb{R}$ sits in between its floor and celling
 
 $$
-  Floor(x) \lt x \lt Ceiling(x)
+  Floor(x) \leq x \leq Ceiling(x)
   \,.
 $$
 
