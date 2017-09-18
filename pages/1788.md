@@ -22,3 +22,13 @@ $$
   \right)
 $$
 
+
+[[StringSMatrixFromPolchinski.jpg:file]]
+
+<img src="https://ncatlab.org/nlab/files/StringSMatrixFromPolchinski.jpg" width = "600">
+
+
+[[StringSMatrixSuperFromPolchinski.jpg:file]]
+
+<img src="https://ncatlab.org/nlab/files/StringSMatrixSuperFromPolchinski.jpg" width = "600">
+
