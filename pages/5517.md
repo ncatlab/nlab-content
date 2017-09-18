@@ -187,12 +187,12 @@ for the [[cohomology]] in $\mathcal{X}$ of the [[terminal object]] with coeffici
 There is a canonical bijection 
 
 $$
-  \pi_0 EM n Gerbe
+  \pi_0 EM n Gerbe_A
    \simeq
   H^{n+1}_{\mathcal{X}}(X, A)
-  \,.
+  \,,
 $$ 
-
+where $EM n Gerbe_A$ is the category of all $EM$ $n$-gerbes banded over $A$.
 =--
 
 This appears as [[Higher Topos Theory|HTT, cor. 7.2.2.27]].
