@@ -38,3 +38,4 @@ For [[infinity-actions]] see at _[infinity-action -- Conjugation action](infinit
 
 
 
+[[!redirects conjugation actions]]
