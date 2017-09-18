@@ -986,3 +986,6 @@ See also
 
 
 [[!redirects commutative Hopf algebroids]]
+
+[[!redirects graded commutative Hopf algebroid]]
+[[!redirects graded commutative Hopf algebroids]]
