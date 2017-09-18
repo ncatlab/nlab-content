@@ -94,6 +94,7 @@ The mathematics of inclusions of _subfactors_ is giving deep structural insights
   _Hecke algebra representations of braid groups and link polynomials_, Ann. Math. __126__, 335 (1987)
 
 * [[Vaughan Jones]], [[Scott Morrison]], [[Noah Snyder]], _The classification of subfactors of index at most 5_ ([arXiv:1304.6141](http://arxiv.org/abs/1304.6141))
+* Vaughan F. R. Jones, David Penneys, _Infinite index subfactors and the GICAR categories_, [arxiv/1410.0856](http://arxiv.org/abs/1410.0856)
 
 
 
