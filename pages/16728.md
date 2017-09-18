@@ -1,0 +1,49 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The **dense topology** is a [[Grothendieck topology]] on a small category $\mathcal{C}$ whose [[sieves]] generalize the idea of a 'downward dense' [[poset]]. The dense topology is important for sheaf-theoretic approaches to [[forcing]].
+
+There is also a closely related but slightly more general concept of a _dense_ [[Lawvere-Tierney topology]] which is discussed at [[dense subtopos]].
+
+## Definition
+
+......
+
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+For every small category $\mathcal{C}$, the [[Lawvere-Tierney topology]] on the [[presheaf topos]] $Set^{\mathcal{C}^{op}}$ corresponding to the dense topology on $\mathcal{C}$ is the [[double negation|double negation topology]] $\neg\neg$ on $Set^{\mathcal{C}^{op}}$.
+=--
+
+This appears as ([MacLaneMoerdijk, corollary VI 5](#MacLaneMoerdijk)).
+
+In particular, the [[Lawvere-Tierney topology]] corresponding to the dense topology is [[dense subtopos|dense as a Lawvere-Tierney topology]] !
+
+## Related entries
+
+* [[double negation]]
+* [[dense subtopos]]
+* [[continuum hypothesis]]
+
+## Reference
+
+* {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (pp.115, 273)
