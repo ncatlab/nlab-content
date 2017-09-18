@@ -17,7 +17,7 @@
 
 The 2-[[sphere]] with its canonical structure of a [[complex manifold]] is called the _[[Riemann sphere]]_.
 
-As such this is [[complex projective space]] $\mathbb{C}P^1$.
+As such this is [[complex plane|complex]] [[projective space]] $\mathbb{C}P^1$.
 
 ## Properties
 
@@ -30,6 +30,8 @@ The [[biholomorphisms]], i.e. the bijective [[conformal transformations]] from t
 * [[celestial sphere]]
 
 * [[branched cover of Riemann sphere]]
+
+* [[stereographic projection]]
 
 ## References
 
