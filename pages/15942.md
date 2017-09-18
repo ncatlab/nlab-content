@@ -46,13 +46,13 @@ We initiated the first several talks, which give a gentle introduction to the to
 
 * Jan. 6, 2015: Factorization algebra by Dennis. Weiss cover and Ran space, descent condition with respect to three topologies (a la Beilinson-Drinfeld, Lurie and Costello-Gwilliam), (co)sheafification vs glue, a recast of $E_n$-algebras, locally constant factorization algebras and $E_n$-algebras are equivalent (as $(\infty,1)$-categories). Lurie: Chap 5, CG: Chap 6, Ginot: Chap 4.
 
-* Jan. 13, 2015: TBA by Owen Gwilliam.
+* Jan. 13, 2015: Guest lecture by Owen Gwilliam. The general picture of QFT: classical field theory is about critical loci, while quantization involves integration over the critical loci plus that along the "normal directions". To deal with the singular critical loci, one considers the derived deformation theory. A family version of it leads to $L_\infty$ spaces. Derived loop spaces as an example. GG.
 
-* Jan. 20, 2015:
+* Jan. 20, 2015: BV formalism (I) by Dennis. CG: Chap 11-14.
 
 * Jan. 27, 2015:
 
-* Feb. 3, 2015:
+* Feb. 3, 2015: TBA by Dmitri.
 
 * Feb. 10, 2015:
 
@@ -95,3 +95,7 @@ For the perturbative quantum field theory, and for the intuition of BV formalism
 For the application to topological manifold, see
 
 * D. Ayala, J. Francis and H. Tanaka, Structured singular manifolds and factorization homology, arXiv:1206.5164[math.AT].
+
+On $L_\infty$ space, see
+
+* [GG] R. Grady and O. Gwilliam, L-infinity spaces and derived loop spaces, arXiv:1404.5426[math.AG].
