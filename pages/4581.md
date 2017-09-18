@@ -526,9 +526,9 @@ Write
 * $Jet_\Sigma \coloneqq i^\ast i_\ast$ for the induced [[jet comonad]];
 
 
-* $PDE(\mathbf{H})_{\Sigma} \stackrel{\overset{free}{\longleftarrow}}{\longrightarrow}$ for the [[Eilenberg-Moore category]] of $Jet_\Sigma$-[[algebras over a monad|coalgebras]] (the objects are [[differential equations]] with [[variables]] in $\Sigma$, the morphisms are [[differential operators]] between these, preserving solution spaces), manifested as a [[topos of coalgebras]] over $\mathbf{H}$;
+* $PDE(\mathbf{H})_{\Sigma} \stackrel{\overset{free}{\longleftarrow}}{\longrightarrow} \mathbf{H}_{/\Sigma}$ for the [[Eilenberg-Moore category]] of $Jet_\Sigma$-[[algebras over a monad|coalgebras]] (the objects are [[differential equations]] with [[variables]] in $\Sigma$, the morphisms are [[differential operators]] between these, preserving solution spaces), manifested as a [[topos of coalgebras]] over $\mathbf{H}$;
 
-  the (non-full) [[inverse image]] of this [[geometric morphism]] is the [[co-Kleisli category]] of the [[jet comonad]] and so for $\phi \colon free(E) \to free(F)$ a morphism in $PDE(\mathbf{H})_\Sigma$, we write $\tilde f \colon Jet(E) \to F$ for the corresponding co-Kleisli morphism in $\mathbf{H}_{\Sigma}$;
+  the (non-full) [[inverse image]] of this [[geometric morphism]] is the [[co-Kleisli category]] of the [[jet comonad]] and so for $\phi \colon free(E) \to free(F)$ a morphism in $PDE(\mathbf{H})_\Sigma$, we write $\tilde f \colon Jet(E) \to F$ for the corresponding co-Kleisli morphism in $\mathbf{H}_{/\Sigma}$;
 
 * $\kappa$ generically for all the composite functors
 
@@ -584,7 +584,7 @@ which holds generally since the [[jet comonad]] $Jet_\Sigma$ is a [[right adjoin
 +-- {: .num_prop #JetSigmaPreservesSigma}
 ###### Proposition
 
-The essentially unique mophism 
+The essentially unique morphism 
 
 $$
   Jet(\Sigma) \stackrel{\simeq}{\longrightarrow} \Sigma
