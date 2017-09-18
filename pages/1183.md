@@ -112,7 +112,7 @@ What is called an _$n$-dimensional $\sigma$-model_ is first of all an instance o
 
 1. these arise from a simpler kind of field theory -- called a [[classical field theory]] -- by a process called [[quantization]] 
 
-1. moreover, this simpler kind of field theory encoded by[[geometry|geometric data]] in a nice way: it describes physical [[configuration space]]s that are [[mapping space]]s into a [[geometry|geometric]] [[space]] equipped with some [[synthetic differential geometry|differential geometric]] [[structure]].
+1. moreover, this simpler kind of field theory encoded by [[geometry|geometric data]] in a nice way: it describes physical [[configuration space]]s that are [[mapping space]]s into a [[geometry|geometric]] [[space]] equipped with some [[synthetic differential geometry|differential geometric]] [[structure]].
 
 We give expositions of these items step-by-step:
 
