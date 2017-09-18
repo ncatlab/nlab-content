@@ -71,6 +71,8 @@
 
 * [[elimination of imaginaries]]
 
+* [[hyperimaginary element | elimination of hyperimaginaries]]
+
 * [[elimination of quantifiers]]
 
 * [[omega-categorical structure]]
