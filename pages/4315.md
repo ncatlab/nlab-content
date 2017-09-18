@@ -213,6 +213,7 @@ We call $(X//\mathcal{G})_\bullet$ also the **[[action groupoid]]** of the actio
 
 =--
 
+
 +-- {: .num_example }
 ###### Example
 
@@ -381,6 +382,7 @@ The left one just forgets the top vertical morphism, the right one composes it w
 
 Finally then for $\mathcal{X}_\bullet$ and $\mathcal{G}_\bullet$ two Lie groupoids and $f \;\colon\; \mathcal{X} \to \mathcal{G}$ a morphism in [[Smooth∞Grpd]] between the corresponding [[differentiable stacks]], we obtain first the $\mathcal{G}$-[[groupoid principal bundle]] $f^* \mathcal{G}_0 \stackrel{p}{\to} \mathcal{X}$ and then by further homotopy pullback also the left $\mathcal{X}$-[[groupoid principal bundle]] $p^* \mathcal{X}_0$:
 
+
 +-- {: .num_defn }
 ###### Definition
 
@@ -430,9 +432,24 @@ Thus we arrive at an equivalent, however more basic definition of Lie groupoid b
 Given Lie groupoids $G:=G_1\Rightarrow G_0$ and $H:=H_1\Rightarrow H_0$, a $G$-$H$-**bibundle** is a principal $H$-bundle $E \xrightarrow{\pi_G} G_0$ over $G_0$ with anchor $E\xrightarrow{\pi_H} H_0$ together with a left $G$-action (see [here](http://ncatlab.org/nlab/show/groupoid+principal+bundle#lie_groupoid_principal_bundles) ) with anchor $\pi_G$, such that the two actions commute. If the $G$-action also gives arise to a principal bundle over $H_0$, then $E$ induces a [[Morita equivalence]] between $G$ and $H$ and it is sometimes called a **Morita bibundle** in this case.
 =--
 
++-- {: .num_defn }
 ###### Example
 
-Given a manifold $M$, and two open covers $\{U_i\}$ and $\{V_i\}$, we may form two Cech groupoids (see [here](http://ncatlab.org/nlab/show/Lie+groupoid#examples_for_lie_groupoids) ) $\sqcup U_{ij} \Rightarrow \sqcup U_i$ and $\sqcup V_{ij} \Rightarrow \sqcup V_i$. 
+Given a manifold $M$, and two open covers $\{U_i\}$ and $\{V_\alpha\}$, we may form two Cech groupoids (see [here](http://ncatlab.org/nlab/show/Lie+groupoid#examples_for_lie_groupoids) ) $\sqcup U_{ij} \Rightarrow \sqcup U_i$ and $\sqcup V_{\alpha \beta} \Rightarrow \sqcup V_\alpha$. Then $\sqcup_{i, \alpha} U_i \times_{M} V_\alpha 
+$ (which is a common refinement of $\{U_i\}$ and $\{V_\alpha\}$) is a Morita bibundle. The actions are
+
+$$(x_i, x_j)\cdot (x_j, x_\alpha)=(x_i, x_\alpha), \quad (x_i, x_\alpha)\cdot (x_\alpha, x_\beta)=(x_i, x_\beta). $$
+
+Obviously these actions are free. Moreover, it is also not hard to see that $\sqcup U_i\times_M V_\alpha/\sqcup V_{\alpha \beta} = \sqcup U_i$ and $\sqcup U_i\times_M V_\alpha/\sqcup U_{ij} = \sqcup V_\alpha$. When a free action has representible quotient, it must automatically be proper.
+ 
+=--
+
+##### Composition
+
+Given a bibundle functor $E: G\to H$ and a bibundle functor $F: H\to K$ between Lie groupoids, the composition $E\circ F: G\to K$ is the quotient manifold $E\times_{H_0} F/H_1$ equipped by remained $G$ and $K$ action. Here $H$ acts on $E\times_{H_0} F$ from right by $(x, y)\cdot h_1=(x\cdot h_1^{-1}, y \cdot h_1)$. It is free and proper because the right action of $H$  on $E$ is so. Then $G$ action and $K$ action descend to the quotient $E\times_{H_0} F/H_1$. Moreover, those who free and proper is (are), remains so. 
+
+Thus bibundle functors compose to a bibundle functor, and Morita bibundles compose to a Morita bibundle.
+
 
 
 
@@ -536,6 +553,7 @@ We write ${\vert \Lambda\vert^{1/2}}(T^\tau E)$ for the bundle of [[half-densiti
 Let $\mathcal{G}_\bullet$ be a [[Lie groupoid]] and let ($E \stackrel{\tau}{\to} \mathcal{G}_0, \rho)$ be a $\mathbb{G}_\bullet$-[[groupoid-principal bundle]] $E \to E//\mathcal{G}$ (with anchor $\tau$ and action map $\rho$). 
 
 Then the bundle of [[vertical vector fields]] $T^\tau E$ equipped with the anchor map $T^\tau E \stackrel{d \tau}{\to} T \mathcal{G}_0 \to \mathcal{G}_0$ inherits a canonical $\mathcal{G}_\bullet$-action itself.
+
 
 The [[quotient]] map
 
