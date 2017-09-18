@@ -4993,7 +4993,7 @@ $$
   }
 $$
 
-where the bottom morphism is the canonical inclusion ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)). Under taking [[colimit]] over $k$, this produces the claimed pullback.
+where the bottom morphism is the canonical inclusion ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)). Under taking [[colimit]] over $k$, this produces the claimed pullback. (To see that the colimit commutes with the pullback here, remembering that we work in compactly generated spaces, use that each of the four colimits if over a sequence of relative cell complex inclusions, then use that the universal property of the resulting pullback may be tested by mapping compact spaces into it. These maps may be taken into the colimits.)
 
 =--
 
