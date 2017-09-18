@@ -59,19 +59,19 @@ The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{sugra}(10,1))$ is generated on
 with the differential defined by
 
 $$
-  d_{CE} \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+  d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
 $$
 
 $$
-  d_{CE} e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
 $$
 
 $$
-  d_{CE} \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
 $$
 
 $$
-  d_{CE} c = \frac{1}{2}\bar \psi \Gamma^{a b} \wedge \psi \wedge e_a \wedge e_b
+  d_{CE} \, c = \frac{1}{2}\bar \psi \Gamma^{a b} \wedge \psi \wedge e_a \wedge e_b
   \,.
 $$
 
@@ -111,7 +111,7 @@ etc.
 
 =--
 
-This observation appears implicitly in ([Castellani05, section 3.1](#Castellani05)), see ([FSS 13](#FSS13)). 
+This observation appears implicitly in ([Castellani 05, section 3.1](#Castellani05)), see ([FSS 13](#FSS13)). 
 
 
 +-- {: .proof}
@@ -180,8 +180,8 @@ The manifest interpretation of this as a [[Lie 3-algebra]] and the supergravity 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
- {#FSS13}
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+ 
 
 A systematic study of the super-[[Lie algebra cohomology]] involved is in
 
@@ -193,8 +193,8 @@ See also [[division algebra and supersymmetry]].
 
 The computation of the automorphism Lie algebra of $\mathfrak{sugra}(10,1)$ is in 
 
-* [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors and the M-theory superalgebra_ ([arXiv:hep-th/0508213](http://arxiv.org/abs/hep-th/0508213))
- {#Castellani05}
+* {#Castellani05} [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors and the M-theory superalgebra_, J. Phys. Math. Volume 3 (2011), 1-7. ([arXiv:hep-th/0508213](http://arxiv.org/abs/hep-th/0508213))
+ 
 
 A similar argument with more explicit use of the Lie 3-algebra as underlying the [[Green-Schwarz action functional|Green-Schwarz-like action functional]] for the [[M5-brane]] is in 
 
