@@ -41,6 +41,8 @@ If the signature of a manifold with dimension not divisible by 4 is taken to be 
 
 ## Related concepts
 
+* [[Hirzebruch signature theorem]]
+
 [[!include quadratic invariants - table]]
 
 ## References
