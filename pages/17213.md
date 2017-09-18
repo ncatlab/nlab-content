@@ -1008,7 +1008,7 @@ Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric mon
 
 =--
 
-+-- {: .num_defn #MonoidsInMonoidalCategory}
++-- {: .num_defn #ModulesInMonoidalCategory}
 ###### Definition
 
 Given a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), then a **left [[module object]]** in $(\mathcal{C}, \otimes, 1)$ over $(A,\mu,e)$ is
@@ -1060,9 +1060,45 @@ such that
      \,,
    $$
 
+A [[homomorphism]] of left $A$-module objects 
+
+$$
+  (N_1, \rho_1) \longrightarrow (N_2, \rho_2)
+$$
+
+is a morphism 
+
+$$
+  f\;\colon\; N_1 \longrightarrow N_2
+$$
+
+in $\mathcal{C}$, such that the following [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    A\otimes N_1 &\overset{A \otimes f}{\longrightarrow}& A\otimes N_2
+    \\
+    {}^{\mathllap{\rho_1}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho_2}}
+    \\
+    N_1 &\underset{f}{\longrightarrow}& N_2
+  }
+  \,.
+$$
+
+For the resulting [[category of modules]] of left $A$-modules in $\mathcal{C}$ with $A$-module homomorphisms between them, we write
+
+$$
+  A Mod(\mathcal{C})
+  \,.
+$$
+
+This is naturally a (pointed) [[topologically enriched category]] itself.
+
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #TensorProductOfModulesOverCommutativeMonoidObject}
 ###### Definition
 
 Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
@@ -1080,6 +1116,13 @@ $$
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), and given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}). If all [[coequalizers]] exist in $\mathcal{C}$, then the [[tensor product of modules]] $\otimes_A$ from def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} makes the [[category of modules]] $A Mod(\mathcal{C})$ into a [[symmetric monoidal category]], $(A Mod, \otimes_A, A)$ with [[tensor unit]] the object $A$ itself.
+
+=--
+
 
 +-- {: .num_example #TopAsASymmetricMonoidalCategory} 
 ###### Example
@@ -1089,17 +1132,6 @@ The category [[Set]] of [[sets]] and [[functions]] between them, regarded as enr
 Similarly the $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) becomes a [[symmetric monoidal category]] with [[tensor product]] the corresponding [[Cartesian products]], hence the operation of forming k-ified ([cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) [[product topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#ProductTopologicalSpace)). The underlying functions of the [[associator]], [[unitor]] and [[braiding]] isomorphisms are just those of the underlying sets, as above. 
  
 Symmetric monoidal categories, such as these, for which the tensor product is the [[Cartesian product]] are called _[[Cartesian monoidal categories]]_.
-
-=--
-
-+-- {: .num_example #CanonicalR2PhaseSpace}
-###### Example
-
-The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]].
-
-This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]].
-
-A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ is equivalently a [[ring]]. A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] in $(Ab, \otimes_{\mmathbb{Z}}, \mathbb{Z})$ is equivalently a [[commutative ring]].
 
 =--
 
@@ -1118,6 +1150,25 @@ The components of the [[associator]], the [[unitors]] and the [[braiding]] are t
 
 =--
 
+
++-- {: .num_example #ExampleAbelianGroupsOfMonoidalCategory}
+###### Example
+
+The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
+
+This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]: 
+
+1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]]. 
+
+1. A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[commutative ring]] $R$.
+
+1. An $R$-[[module object]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{ModulesInMonoidalCategory}) is equivalently an $R$-[[module]];
+
+1. The tensor product of $R$-module objects (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[tensor product of modules]].
+
+1. The [[category of modules|category of module objects]] $R Mod(Ab)$ (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[category of modules]] $R Mod$.
+
+=--
 
 ### Day convolution
 
@@ -1535,24 +1586,30 @@ $$
 
 ## Functors with smash product
 
-Given any [[monoidal category]] then one may consider [[monoid objects]] and [[module objects]] inside it.
 
 +-- {: .num_prop #DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
 ###### Proposition
 
-For $(\mathcal{C}, \otimes)$ a [[small category|small]] ([[symmetric monoidal category|symmetric]]) [[monoidal category|monoidal]] $V$-[[enriched category]],
-then ([[commutative monoid object|commutative]]) [[monoid objects]] in the Day convolution monoidal category $([\mathcal{C},V], \otimes_{Day}, y(I))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[symmetric monoidal functor|symmetric]]) [[lax monoidal functors]] $\mathcal{C} \to V$:
+Let $(\mathcal{C},\otimes I)$ be a a pointed [[topologically enriched category]] (def. \ref{MonoidalCategory}).
+
+Then ([[commutative monoid in a symmetric monoidal category||commutative]]) [[monoid in a monoidal category|monoids in]] in the Day convolution monoidal category $([\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(S^0))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[symmetric monoidal functor|symmetric]]) [[lax monoidal functors]] 
 
 $$
-  Mon([\mathcal{C},V], \otimes_{Day}, y(I))
-  \simeq
-  MonFunc(\mathcal{C},V)
+  (\mathcal{C},\otimes, I) \longrightarrow (Top^{\ast}_{cg}, \wedge, S^0)
 $$
 
+called _functors with smash products_ on $\mathcal{C}$, i.e. there are [[equivalences of categories]] of the form
+
 $$
-  CMon([\mathcal{C},V], \otimes_{Day}, y(I))
-  \simeq
-  SymMonFunc(\mathcal{C},V)
+  \begin{aligned}
+    Mon([\mathcal{C},Top^{\ast/}_{cg}], \wedge_{Day}, y(S^0))
+      &\simeq
+    MonFunc(\mathcal{C},Top^{\ast/}_{cg})
+    \\
+    CMon([\mathcal{C},V], \otimes_{Day}, y(I))
+      &\simeq
+    SymMonFunc(\mathcal{C},Top^{\ast/}_{cg})
+  \end{array}
   \,.
 $$
 
@@ -1565,27 +1622,35 @@ This is stated in some form in ([Day 70, example 3.2.2](Day+convolution#Day70)).
 +-- {: .proof}
 ###### Proof
 
-A [[lax monoidal functor]] $F \colon \mathcal{C} \to V$ is given by [[natural transformations]]
+By definition, a [[lax monoidal functor]] $F \colon \mathcal{C} \to Top^{\ast/}_{cg}$ is determined by [[natural transformations|natural]] maps of pointed topological spaces
 
 $$
-  I_V \longrightarrow F(I_{\mathcal{C}})
+  S^0 \longrightarrow F(I_{\mathcal{C}})
 $$
 
-$$
-  F(c_1) \otimes_V F(c_2) \longrightarrow F(c_1 \otimes_{\mathcal{C}} c_2)
-$$
-
-satisfying compatibility conditions. Under the [[natural isomorphism]] of corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} these are identified with natural transformations
+and
 
 $$
-  y(I) \to F
+  F(c_1) \wedge F(c_2) \longrightarrow F(c_1 \otimes_{\mathcal{C}} c_2)
 $$
+
+for all $c_1,c_2 \in \mathcal{C}$.
+
+Under the [[Yoneda lemma]] (prop. \ref{YonedaReductionTopological}) the first of these is identified with a morphism of the form
+
+$$
+  y(S^0) \longrightarrow F
+  \,.
+$$
+
+Moreover, under the [[natural isomorphism]] of corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} the second of these is identified with a morphism of the form
 
 $$
   F \otimes_{Day} F \longrightarrow F
+  \,.
 $$
 
-satisfying analogous conditions. This is just the structure of a [[monoid object]] on $F$ under $\otimes_{Day}$.
+Translating the conditions satisfied by a [[lax monoidal functor]] through these identifications gives precisely the conditions on a ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoid in]] on $F$ under $\otimes_{Day}$.
 
 Similarly for [[module objects]] and [[modules over monoidal functors]].
 
@@ -1704,14 +1769,14 @@ $$
  [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
 $$
 
-is the category of _[[pre-excisive functors]]_. Its [[symmetric monoidal smash product of spectra]] is the [[Day convolution]] $\wedge_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) of the plain smash product. By prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} this gives a topological [[monoidal category]]
+is the category of _[[pre-excisive functors]]_. Its [[symmetric monoidal smash product of spectra]] is the [[Day convolution]] $\otimes_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) of the plain smash product. By prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} this gives a topological [[monoidal category]]
 
 
 $$
   \left( 
     [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
     ,\;
-    \wedge_{Day}
+    \otimes_{Day}
     , y(S^0)
   \right)
 $$
