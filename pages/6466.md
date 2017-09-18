@@ -250,6 +250,10 @@ Therefore, if $E = Sh(S)$ for some site $S$, then $\mathbb{R}_E$ is the sheaf on
 
 To deduce the previous theorem from this one, it suffices to observe that if $S\subset Top$ is closed under open subspaces and their pullbacks and equipped with the open-cover coverage, then every subobject of $y X\in Sh(S)$, for any $X\in S$, is uniquely representable by an open subset of $X$.
 
++--{: .query}
+There is some dispute about this, see [here](http://nforum.mathforge.org/discussion/6289/when-is-the-internal-real-line-the-external-real-line/?Focus=50275#Comment_50275).
+=--
+
 
 ## Generalizations
 
