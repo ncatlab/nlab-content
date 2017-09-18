@@ -41,7 +41,7 @@ $$
 
 * For an [[idempotent comonad]] the co-Kleisli category is the [[coreflective subcategory]] of its [[modal types]].
 
-* For $P= Jet$ the [[jet bundle]] construction then morphisms in its coKleisli category are [[differential operators]].
+* For $P= Jet$ a [[jet comonad]], then morphisms in its coKleisli category are [[differential operators]].
 
 [[!redirects co-Kleisli categories]]
 [[!redirects coKleisli category]]
