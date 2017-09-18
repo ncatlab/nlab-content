@@ -10,7 +10,7 @@
 +-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
-=-- 
+=--
 =--
 
 #Contents#
@@ -92,7 +92,7 @@ Now since $P \subset X$ is a proper subset, and since the locally Euclidean spac
 
 In conclusion this means that the restriction of an irreducible closed subset in $X$ to any Euclidean chart is either empty or a singleton set. This means that the irreducible closed subset must be a disjoint union of singletons that are separated by Euclidean neighbourhoods. But by irreducibiliy, this union has to consist of just one point.
 
-Regarding the third statement: 
+Regarding the third statement:
 
 Let $x \in X$ be a point and $U_x \supset \{x\}$ a neighbourhood. We need to find a [[connected topological space|connected]] open neighbourhood $Cn_x \subset U_x$.
 
@@ -100,7 +100,7 @@ By local Euclideanness, there is also a Euclidean neighboruhood $\mathbb{R}^n \u
 
 Regarding the fourth statement:
 
-Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. We need to find a compact nighbourhood $K_x \subset U_x$.
+Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. We need to find a compact neighbourhood $K_x \subset U_x$.
 
 By assumption there exists a Euclidean open neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$. By definition of the [[subspace topology]] the intersection $U_x \cap V_x$ is still open as a subspace of $V_x$ and hence $\phi^{-1}(U_x \cap V_x)$ is an open neighbourhood of $\phi^{-1}(x)  \in \mathbb{R}^n$.
 
@@ -139,7 +139,7 @@ A locally Euclidean space which is [[connected topological space|connected]] is 
 +-- {: .proof}
 ###### Proof
 
-Fix any $x \in X$. Write $PConn_x(X) \subset X$ for the subset of all those points of $x$ which are connected to $x$ by a path, hence 
+Fix any $x \in X$. Write $PConn_x(X) \subset X$ for the subset of all those points of $x$ which are connected to $x$ by a path, hence
 
 $$
   PConn_x(X)
@@ -169,7 +169,7 @@ $$
   \array{
      [0,1] &\overset{\tilde \gamma\cdot\gamma}{\longrightarrow}& X
      \\
-     t &\overset{\phantom{AAA}}{\mapsto}& 
+     t &\overset{\phantom{AAA}}{\mapsto}&
     \left\{
       \array{
          \gamma(2t) &\vert& t \leq 1/2
@@ -217,7 +217,7 @@ Then the following are equivalent:
 ###### Proof
 
 Generally, observe that $X$ is [[locally compact]]:
-By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the sense that every point has a [[neighbourhood base]] of compact neighbourhoods, and since $X$ is assumed to be Hausdorff, this implies all the other variants of definition of local compactness, by [this prop.](locally+compact+topological+space#InHausdorffSpacesDefinitionsOfLocalCompactnessAgree). 
+By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the sense that every point has a [[neighbourhood base]] of compact neighbourhoods, and since $X$ is assumed to be Hausdorff, this implies all the other variants of definition of local compactness, by [this prop.](locally+compact+topological+space#InHausdorffSpacesDefinitionsOfLocalCompactnessAgree).
 
 **1) $\Rightarrow$ 2)**
 
@@ -231,7 +231,7 @@ Let $X$ be sigma-compact. We show that then $X$ is paracompact with a countable 
 
 Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. By [[locally connected topological space|local connectivity]] (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace}) $X$ is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)). Since, by the previous statement, $X$ is also second-countable it cannot have an uncountable set of connected components.
 
-**2)$\Rightarrow$ 1)** Let $X$ be second-countable, we need to show that it is sigma-compact.  
+**2)$\Rightarrow$ 1)** Let $X$ be second-countable, we need to show that it is sigma-compact.
 
 This follows since [[locally compact and second-countable spaces are sigma-compact]].
 
@@ -240,7 +240,7 @@ This follows since [[locally compact and second-countable spaces are sigma-compa
 Now let $X$ be paracompact with countably many connected components. We show that $X$ is sigma-compact.
 
 Since $X$ is locally compact, there exists a cover $\{K_i = Cl(U_i) \subset X\}_{i \in I}$ by [[compact topological space|compact]] [[subspaces]].
-By paracompactness there is a locally finite refinement of this cover. Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies to this refinement and yields a locally finite open cover 
+By paracompactness there is a locally finite refinement of this cover. Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies to this refinement and yields a locally finite open cover
 
 $$
   \mathcal{V} \coloneqq \{V_j \subset X \}_{j \in J}
@@ -248,10 +248,10 @@ $$
 
 as well as a locally finite cover $\{Cl(V_j) \subset X\}_{j \in J}$ by closed subsets. Since this is a refinement of the orignal cover, all the $Cl(V_j)$ are contained in one of the compact subspaces $K_i$. Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], the $Cl(V_j)$ are also closed as subsets of the $K_i$. Since [[closed subsets of compact spaces are compact]] it follows that the $Cl(V_j)$ are themselves compact and hence form a locally finite cover by compact subspaces.
 
-Now fix any $j_0 \in J$. 
+Now fix any $j_0 \in J$.
 
 We claim that for every $j \in J$ there is a finite sequence of indices $(j_0, j_1, \cdots, j_n = j)$ with the property
-that $V_{j_k} \cap V_{j_{k+1}} \neq \emptyset$. 
+that $V_{j_k} \cap V_{j_{k+1}} \neq \emptyset$.
 
 To see this, first obserse that it is sufficient to show sigma-compactness for the case that $X$ is [[connected topological space|connected]]. From this the general statement follows since [[countable unions of countable sets are countable]]. Hence assume that $X$ is connected.
 It follows from lemma \ref{PathConnectedFromConnectedLocallyEuclideanSpace} that  $X$ is [[path-connected topological space|path-connected]].
@@ -264,11 +264,11 @@ $$
   f \;\colon\; \mathcal{V} \longrightarrow \mathbb{N}
 $$
 
-which sends each $V_j$ to the [[minimum]] natural number as above. 
+which sends each $V_j$ to the [[minimum]] natural number as above.
 
 We claim now that for all $n \in \mathbb{N}$ the [[preimage]] of $\{0,1, \cdots, n\}$ under this function is a [[finite set]]. Since [[countable unions of countable sets are countable]] this implies that $\{ Cl(V_j) \subset X\}_{j \in J}$ is a countable cover of $X$ by compact subspaces, hence that $X$ is sigma-compact.
 
-We prove this last claim by [[induction]]. It is true for $n = 0$ by construction. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)) it follows that 
+We prove this last claim by [[induction]]. It is true for $n = 0$ by construction. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)) it follows that
 
 $$
   K_n
@@ -296,6 +296,7 @@ A _topological manifold is a [[topological space]] which is
 
 1. [[paracompact Hausdorff topological space|paracompact Hausdorff]].
 
+
 If the local [[Euclidean spaces|Euclidean]] neighbourhoods $\mathbb{R}^n \overset{\simeq}{\to} U \subset X$ are all of [[dimension]] $n$
 for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be a _$n$-dimensional manifold_ or _$n$-fold_. This is usually assumed to be the case.
 
@@ -305,8 +306,7 @@ for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be a _$
 ###### Remark
 **(varying terminology)**
 
-Often a topological manifold (def. \ref{TopologicalManifold}) is required to be [[sigma-compact]]. But by prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} this is not an extra condition as long as there is a [[countable set]] of [[connected components]]. 
-Moreover, manifolds with uncountably many connected components are rarely considered in practice.
+Often a topological manifold (def. \ref{TopologicalManifold}) is required to be [[sigma-compact]]. But by prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} this is not an extra condition as long as there is a [[countable set]] of [[connected components]].
 
 =--
 
@@ -422,11 +422,11 @@ inclusion map $S \hookrightarrow X$ is an [[open embedding|open]]
 ###### Proof
 
 
-Since the underlying [[topological space]] of $X$ is [[locally connected topological space|locally connected]] ([this prop.](topological+manifold#LocalPropertiesOfLocallyEuclideanSpace)) it is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)). 
+Since the underlying [[topological space]] of $X$ is [[locally connected topological space|locally connected]] ([this prop.](topological+manifold#LocalPropertiesOfLocallyEuclideanSpace)) it is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)).
 
 Therefore we are reduced to showing the statement for the case that $X$ has a single [[connected component]]. By [this prop](topological+manifold#RegularityConditionsForTopologicalManifoldsComparison) this implies that $X$ is [[second-countable topological space]].
 
-Now a [[subspace]] of a second-countable Hausdorff space is clearly itself second countable and Hausdorff. 
+Now a [[subspace]] of a second-countable Hausdorff space is clearly itself second countable and Hausdorff.
 
 Similarly it is immediate that $S$ is still [[locally Euclidean space|locally Euclidean]]: since $X$ is locally Euclidean every point $x \in S \subset X$ has a Euclidean neighbourhood in $X$ and since $S$ is open there exists an open ball in that (itself [[homeomorphism|homeomorphic]] to Euclidean space) which is a Euclidean neighbourhood of $x$ contained in $S$.
 
