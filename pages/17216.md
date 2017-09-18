@@ -32,7 +32,11 @@ $$
 
 This is a [[triangulated category]].
 
-Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this is usefully thought as just the [[full subcategory]] on the (shifted) [[suspension spectra]]  inside the larger category of [[spectra]]: the [[stable homotopy category]]. 
+But the Spanier-Whiethead category lacks other desirable properties, for instance it does not have all [[coproducts]] and the canonical functor from the homotopy category of [[pointed topological spaces]] does not preserve the coproducts that already exist. As a consequence, in particular a [[Brown representability theorem]] does not hold in the SW-category.
+
+Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this all this is fixed by regardeding the SW-category as a [[full subcategory]] on the (shifted) [[suspension spectra]]  inside the larger category of [[spectra]]: the [[stable homotopy category]]. 
+
+Except for [[finite spectra]], these are presented by the SW-category on [[finite CW-complexes]].
 
 ## Related concepts
 
@@ -46,9 +50,12 @@ The definition is due to
 
 * {#SpanierWhitehead53} [[Edwin Spanier]], [[George Whitehead]], _A first approximation to homotopy theory_ Proc. Nat. Acad. Sci. U.S.A., 39 (1953), 655-660. 
 
-Early survey includes
+Survey includes
 
 * {#Whitehead62} [[George Whitehead]], _Some aspects of stable homotopy theory_, International Confress of Mathematics 1962 ([pdf](http://www.mathunion.org/ICM/ICM1962.1/Main/icm1962.1.0502.0506.ocr.pdf))
+
+* H. R. Margolis, _Spectra and the Steenrod algebra_, volume 29 of North-Holland
+Mathematical Library. North-Holland Publishing Co., Amsterdam, 1983 
 
 Discussion in the abstract generality of categories equipped with an abstract suspension-like functor is in
 
