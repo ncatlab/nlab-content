@@ -316,8 +316,8 @@ Key developments concerning [[scattering amplitudes]] are due to
 
 The relation to [[self-dual Yang-Mills theory]] is due to 
 
-* R. S. Ward, _On Selfdual gauge fields_, Phys. Lett. A61 (1977) 81-82.
- {#Ward77}
+* {#Ward77} R. S. Ward, _On Selfdual gauge fields_, Phys. Lett. A61 (1977) 81-82.
+ 
 
 Introductions and surveys include
 
@@ -345,8 +345,8 @@ A discussion in the general context of [[geometric representation theory]] is in
 
 and the further generalization to [[Cartan geometry]]/[[parabolic geometry]] is discussed in
 
-* [[Andreas Cap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
-  {#Cap01}
+* {#Cap01} [[Andreas Čap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
+  
 
 ### Application to quantum field theory
 
@@ -359,6 +359,7 @@ The relation of twistor geometry to [[MHV amplitudes]] in 4d [[Yang-Mills theory
 
 * [[Edward Witten]], _Perturbative Gauge Theory As A String Theory In Twistor Space_, Commun. Math. Phys. 252:189-258, 2004 ([arXiv:hep-th/0312171](http://arxiv.org/abs/hep-th/0312171))
   {#Witten03}
+
 
 Surveys of the resulting modern application of twistors in field theory include
 
