@@ -1,3 +1,7 @@
 * [Homepage](http://math.haifa.ac.il/chorny/)
 
+## related $n$Lab pages
+
+* [[Goodwillie calculus]]
+
 category:people
