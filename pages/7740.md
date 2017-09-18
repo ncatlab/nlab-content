@@ -16,7 +16,9 @@
 ## Definition
  {#Definition}
 
-+-- {: .num_defn #DifferebtialOperatorVia}
+Depending on which definition of differential operators one regards as fundamental, the following are either definitions or are propositions.
+
++-- {: .num_defn #DifferentialOperatorViaJetBundles}
 ###### Definition/Proposition
 
 For $X$ a [[smooth manifold]] and $(E\to X)$ a smooth [[bundle]] over $X$, write $(Jet(E)\to X)$ for its [[jet bundle]].
@@ -44,10 +46,87 @@ is a bundle morphism from the [[jet bundle]] of $E_1$ to the bundle $E_2$.
 
 =--
 
-In this form this appears for instance as ([Saunders 89, def. 6.2.22](#Saunders89)).  Discussion showing the equivalence of this definition with the maybe more traditional definition is in ([Krasil'shchikVerbovetsky 98, def. 1.1, prop. 1.1, prop. 1.9](#KrasilshchikVerbovetsky98)).
+In this form this appears for instance as ([Saunders 89, def. 6.2.22](#Saunders89)).  Discussion showing the equivalence of this definition with the maybe more traditional definition is in ([Krasil'shchikVerbovetsky 98, def. 1.1, prop. 1.1, prop. 1.9](#KrasilshchikVerbovetsky98), [Krasilshchik 99, theorem 10](#Krasilshchik99)).
+
++-- {: .num_remark }
+###### Remark
+
+The [[jet bundle]] construction $Jet \colon \mathbf{H}_{/X} \to \mathbf{H}_{/X}$ is (by the discussion there) a [[comonad]] on the category of bundles over $X$. In terms of this def. \ref{DifferentialOperatorViaJetBundles} says that a differential operators from a bundle $E_1$ to a bundle $E_2$ is a morphism from $E_1$ to $E_2$ in the [[co-Kleisli category]] of the jet comonad.
+
+=--
+
+Indeed, also the composition of differential operators is the composition in this [[co-Kleisli category]]:
+
++-- {: .num_prop #CompositionOfDifferentialOperatorsViaCoKleisli}
+###### Proposition
+
+The [[composition]] $D_2 \circ D_1 \colon \Gamma_X(E_1) \to \Gamma_X(E_3)$ of two differential operators $D_1 \colon \Gamma_X(E_1) \to \Gamma_X(E_2)$ and $D_2 \colon \Gamma_X(E_2)\to \Gamma_X(E_3)$ , def. \ref{DifferentialOperatorViaJetBundles}, is given,under the identification of def. \ref{DifferentialOperatorViaJetBundles}, by the composite
+
+$$
+  \widetilde{D_2 \circ D_1}
+  \;\colon\;
+  Jet(E_1)
+  \longrightarrow
+  Jet(Jet(E_1))
+  \stackrel{Jet(\tilde D_1)}{\longrightarrow}
+  Jet(E_2)
+  \stackrel{\tilde D_2}{\longrightarrow}
+  E_3
+  \,,
+$$
+
+where the first morphism is the [[counit of a comonad|counit]] of the [[jet bundle]] [[comonad]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Abbreviating $P_i \coloneqq \Gamma_X(E_i)$ and $J^\infty(P_i) = \Gamma_X(Jet(E_i))$, consider the following pasting diagram:
 
 
-Notice that (by the discussion there) the [[jet bundle]] construction $Jet \colon \mathbf{H}_{/X} \to \mathbf{H}_{/X}$ is a [[comonad]] on the category of bundles over $X$. In terms of this the above says that a differential operators from a bundle $E_1$ to a bundle $E_2$ is a morphism from $E_1$ to $E_2$ in the [[co-Kleisli category]] of the jet comonad.
+$$
+  \array{
+    P_1 &\stackrel{id}{\longrightarrow}& P_1 &\stackrel{D_1}{\longrightarrow}& P_2 &\stackrel{D_2}{\longrightarrow}& P_3
+    \\
+    \downarrow^{\mathrlap{id}} 
+      && 
+    \downarrow^{\mathrlap{j_\infty}} 
+      && 
+    \downarrow^{\mathrlap{j_\infty}} 
+      && 
+    \downarrow^{\mathrlap{id}}
+    \\
+    P_1 
+     &\stackrel{j_\infty}{\longrightarrow}& 
+    J^\infty(P_1)
+    &\stackrel{J^\infty(D_1)}{\longrightarrow}&
+    J^\infty(P_2)
+    \\
+    \downarrow^{\mathrlap{j_\infty}} 
+      && 
+    \downarrow^{\mathrlap{j_\infty}}
+      &&
+    \downarrow^{\mathrlap{id}}
+      &&
+    \downarrow^{\mathrlap{id}}
+    \\
+    J^\infty (P_1) 
+      &\stackrel{c^{\infty,\infty}}{\longrightarrow}& 
+    J^\infty(J^\infty(P_1))
+     &\stackrel{J^\infty (\tilde D_1)}{\longrightarrow}&
+    J^\infty(P_2)
+     &\stackrel{\tilde D_2}{\longrightarrow}&
+    P_3
+  }
+  \,.
+$$
+
+Here all the nontrivial squares are as in ([Krasil'shchik-Verbovetsky 98, p. 12-13](#KrasilshchikVerbovetsky98)), with the bottom middle square being the image under $J^\infty$ of the square defining $\tilde D_1$. The bottom horizontal fillers of these squares are unique by ([Krasil'shchik 99, theorem 10](#Krasilshchik99)) (which is just our def/prop. \ref{DifferentialOperatorViaJetBundles}), hence the identification of the middle bottom morphism as displayed in the diagram.
+
+With this, the morphism that our proposition claims is the correct composite is the total bottom morphism, and the differential operator that this defines by def. \ref{DifferentialOperatorViaJetBundles} is the further composite with the left vertical morphism. Therefore the commutativity of the total diagram gives that this is equal to the total top morphisms, which is the composite of the two differential operators as claimed.
+
+=--
 
 ## Entries
 
@@ -78,5 +157,6 @@ Notice that (by the discussion there) the [[jet bundle]] construction $Jet \colo
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
 
+* {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_ ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
 
 [[!redirects differential operators]]
