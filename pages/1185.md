@@ -1,17 +1,20 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Foundations
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Type theory
 +-- {: .hide}
-[[!include foundations - contents]]
-=--
-#### Mathematics
-+-- {: .hide}
-[[!include mathematicscontents]]
+[[!include type theory - contents]]
 =--
 =--
 =--
+
+
 
 # Contents
 * table of contents
@@ -19,7 +22,7 @@
 
 ## Idea 
 
-The _cardinal numbers_ (or just _cardinals_) constitute a generalisation of a [[natural number|natural numbers]] to possibly infinite magnitudes.  Specifically, cardinal numbers generalise the concept of 'the number of ...'.  In particular, the number of natural numbers is the first infinite cardinal number.
+The _cardinal numbers_ (or just _cardinals_) constitute a generalisation of a [[natural number|natural numbers]] to [[numbers] of ] possibly infinite magnitudes.  Specifically, cardinal numbers generalise the concept of 'the number of ...'.  In particular, the number of natural numbers is the first infinite cardinal number.
 
 
 ## Definition 
