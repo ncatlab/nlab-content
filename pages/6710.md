@@ -255,9 +255,10 @@ $$
     \downarrow && \downarrow^{\mathrlap{c_1 \, mod\, 2}}
     && \downarrow
     \\
-   \mathbf{B}SO &\stackrel{\mathbf{w}_2}{\to}&
+   \mathbf{B}SO 
+    &\stackrel{\mathbf{w}_2}{\to}&
    \mathbf{B}^2 \mathbb{Z}_2
-   \stackrel{\mathbf{\beta}_2}{\to}
+   &\stackrel{\mathbf{\beta}_2}{\to}&
    \mathbf{B}^2 U(1)
   }
   \,.
