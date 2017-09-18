@@ -22,7 +22,7 @@ Together with the [[Ext-functor]] it constitutes one of the central operations o
 
 ## Definition
 
-Given a [[ring]] $R$ the [[bifunctor]] $\otimes_R : Mod_{R}\times _{R}Mod\to Ab$
+Given a [[ring]] $R$ the [[bifunctor]] $\otimes_R : Mod_{R} \times {}_{R}Mod\to Ab$
 from two copies of $R$-[[Mod]] to [[Ab]] is a [[right exact functor]]. Its 
 [[left derived functors]] are the **Tor-functors
 
@@ -43,7 +43,7 @@ $$
 with respect to one argument with fixed another, if they exist, are parts of a bifunctor 
 
 $$
-  Tor : Mod_{R}\times _{R}Mod\to Ab
+  Tor : Mod_{R}\times {}_{R}Mod\to Ab
   \,.
 $$ 
 
