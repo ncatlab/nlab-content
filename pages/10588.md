@@ -68,7 +68,7 @@ Moreover, understanding $Spec E^\bullet(BU(1))$ as being about [[moduli space of
 
 ## Related concepts
 
-* [[elliptic cohomology]], [[elliptic genus]]
+* [[elliptic cohomology]], [[elliptic genus]], [[tmf]]
 
 * [[Eilenberg-MacLane spectrum]]
 
