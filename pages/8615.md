@@ -1,4 +1,14 @@
 
+Neil Ghani is professor for [[computer science]] at University of Strathclyde in Galsgow.
+
 * [webpage](https://personal.cis.strath.ac.uk/neil.ghani/)
+
+## related $n$Lab entries
+
+* [[logical relation]]
+
+* [[polymorphism]]
+
+* [[verified software]]
 
 category: people
