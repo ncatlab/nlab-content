@@ -61,13 +61,13 @@ where on the left we have the [[groupoid]] of smooth $G$-principal bundles with 
 
 #### In Cech-Deligne cohomology {#InCechDelineCohomology}
 
-In ([Brylinski-McLaughlin I](#GeomConstructionFirst)) is spelled out an explicit constructin of $\hat c(\nabla)$ for given $\nabla$ in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. This is a special case of the general construction presented in ([Brylinski-McLaughlin II](#CechCocyclesForCharClasses)).
+In ([Brylinski-McLaughlin I](#GeomConstructionFirst)) there is spelled out an explicit construction of $\hat c(\nabla)$ for given $\nabla$ in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. This is a special case of the general construction presented in ([Brylinski-McLaughlin II](#CechCocyclesForCharClasses)).
 
 
-In this section here we review this exlicit cocycle construction. In the [next section](#InInfChernWeil) we discuss a systematic way to derive this construction.
+In this section here we review this explicit cocycle construction. In the [next section](#InInfChernWeil) we discuss a systematic way to derive this construction.
 
 
-Assume that $G$ is a [[simply connected]] compact simple [[Lie group]] such as the [[spin group]] and take the characteristic class $c$ to be that whose [[transgression]] to $G$ has as image in [[de Rham cohomology]] the de Rham class of the normalized canonical [[Lie algebra cohomology|Lie algebra cocycle]] $\mu \in CE(\mathfrak{g})$.
+Assume that $G$ is a [[simply connected]] compact simple [[Lie group]], such as the [[spin group]], and take the characteristic class $c$ to be that whose [[transgression]] to $G$ has as image in [[de Rham cohomology]] the de Rham class of the normalized canonical [[Lie algebra cohomology|Lie algebra cocycle]] $\mu \in CE(\mathfrak{g})$.
 
 
 For $P \to X$ a $G$-bundle with connection $\nabla$, there exists an [[open cover]] $\{U_i \to X\}$ such that we have a [[Cech cohomology]] cocycle for $P$ given by a smooth transition function
@@ -107,10 +107,10 @@ Therefore we can always find (possibly after refining the cover) a lift of this 
       \searrow^{g_{i j} \cdot \mathrlap{\hat g_{j k}}}
       \\
       e &&\underset{\hat g_{i k}}{\to}&& g_{i k}
-    }
+    }.
   $$
 
-  (this can be done because $\pi_1(G) = *$)
+  (This can be done because $\pi_1(G) = *$.)
 
 * on quadruple intersection choose smooth functions
 
@@ -120,7 +120,7 @@ Therefore we can always find (possibly after refining the cover) a lift of this 
 
   such that these 3-balls fill the evident tetrahedra.
 
-  (this can be done because $\pi_2(G) = 0$).
+  (This can be done because $\pi_2(G) = 0$.)
 
 
 +-- {: .num_prop }
@@ -167,9 +167,9 @@ where
 +-- {: .proof}
 ###### Proof
 
-First notice that this is indeed well-defined: by compactness and simplicty of $G$ we have$\pi_3(G) = \mathbb{Z}$. By assumption on $\mu \in \Omega^3(G)$ we have that for any map $f : S^3 \to G$ we have $\int_{S^3} f^*\mu \in \mathbb{Z} \subset \mathbb{R}$. This implies that $c(g)$ is indeed a Cech cocycle.
+First notice that this is indeed well-defined: by compactness and simplicty of $G$ we have $\pi_3(G) = \mathbb{Z}$. By assumption on $\mu \in \Omega^3(G)$, for any map $f : S^3 \to G$, we have $\int_{S^3} f^*\mu \in \mathbb{Z} \subset \mathbb{R}$. This implies that $c(g)$ is indeed a Cech cocycle.
 
-Then the proof is effectively just the observation that the given collection of differential forms indeed does refine this to a Cech-cocycle with coefficients in the Deligne complex, and that therefore we can read off the image of the integral cohomoloy class $[c(g)]$ in de Rham cohomology from the curvature 4-form of this Deligne cocycle. That is by construction $\langle F_\nabla \wedge F_\nabla \rangle \in \Omega^4_{cl}(X)$, which by [[Chern-Weil theory]] is indeed the image of the claimed integral class.
+Then the proof is effectively just the observation that the given collection of differential forms indeed does refine this to a Cech-cocycle with coefficients in the Deligne complex, and that therefore we can read off the image of the integral cohomology class $[c(g)]$ in de Rham cohomology from the curvature 4-form of this Deligne cocycle. That is by construction $\langle F_\nabla \wedge F_\nabla \rangle \in \Omega^4_{cl}(X)$, which by [[Chern-Weil theory]] is indeed the image of the claimed integral class.
 
 =--
 
@@ -179,7 +179,7 @@ So the only mystery about this construction is really: where does it come from? 
 
 #### In $\infty$-Chern-Weil theory {#InInfChernWeil}
 
-The above Cech-Deligne cocycle construction of $\hat c(\nabla)$ may be understood as a special case of the general construction of Chern-Weil homomorphism by the methods discussed at [[∞-Chern-Weil theory]]. 
+The above Cech-Deligne cocycle construction of $\hat c(\nabla)$ may be understood as a special case of the general construction of Chern-Weil homomorphisms by the methods discussed at [[∞-Chern-Weil theory]]. 
 
 We briefly recall the general approach and then spell out the details.
 
@@ -189,7 +189,7 @@ $$
   \mathbf{H}_{conn}(X,\mathbf{B}G) \to \mathbf{H}_{diff}(X, \mathbf{B}^k U(1))
 $$
 
-from the $G$-principal bundles with connection to [[ordinary differential cohomology]] are this:
+from the $G$-principal bundles with connection to [[ordinary differential cohomology]] are these:
 
 1. for a given [[Lie algebra]] $\mathfrak{g}$ the realization of the corresponding [[Lie group]] as a truncation of the simplicial presheaf
 
@@ -281,7 +281,7 @@ $$
   \,,
 $$
 
-where here and in the following differential forms $\omega$ on simplices are taken to have _sitting instants_ in that for all $k \in \mathbb{N}$ there exists for every $k$-face of $\Delta^n$ an open neighbourhood such that $\omega$ restricted to that open neighbourhood is constant in the direction perpendicular to the boundary.
+where here and in what follows differential forms $\omega$ on simplices are taken to have _sitting instants_ in that for all $k \in \mathbb{N}$ there exists for every $k$-face of $\Delta^n$ an open neighbourhood such that $\omega$ restricted to that open neighbourhood is constant in the direction perpendicular to the boundary.
 
 =--
 
@@ -330,7 +330,7 @@ $$
   \int_{\Delta^\bullet}  : \exp(b^2 \mathbb{R}) \stackrel{\simeq}{\to} \mathbf{B}^3 \mathbb{R}
 $$
 
-discussed at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfBnR">Integration to Line n-groups</a> with the evident quotient $\mathbf{B}^3 \mathbb{R} \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}$, where the copy of $\mathbb{Z}$ in $\mathbb{R}$ is the lattice of periods of $\mu$ over 3-speheres in $G$.
+discussed at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfBnR">Integration to Line n-groups</a> with the evident quotient $\mathbf{B}^3 \mathbb{R} \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}$, where the copy of $\mathbb{Z}$ in $\mathbb{R}$ is the lattice of periods of $\mu$ over 3-spheres in $G$.
 
 =--
 
@@ -356,7 +356,7 @@ $$
   U \mapsto \int_{\Delta^3} \mu^*(A) \;\;\; \in C^\infty(U;\mathbb{R}) 
 $$
 
-and regards the result then modulo $\mathbb{Z}$. That this indeed gives a morphism down at the bottom is the statement that for a 4-morphism in $\mathbf{cosk}_3 \exp(\mathfrak{g})$ -- which is a 3-sphere $V : S^3 \to G$ -- we have that $\int_{S^3} V^* \mu^*(A) = 0 \;mod\; \mathbb{Z}$, which is true by the fact that we take $\mathbb{Z}$ to be precisely generated by these periods. (Alternatively we can assume $\mu$ to be  normalized such that it generates the image in deRham cohomology of $H^3(G,\mathbb{Z}) \simeq \mathbb{Z}$).
+and regards the result then modulo $\mathbb{Z}$. That this indeed gives a morphism down at the bottom is the statement that for a 4-morphism in $\mathbf{cosk}_3 \exp(\mathfrak{g})$ -- which is a 3-sphere $V : S^3 \to G$ -- we have that $\int_{S^3} V^* \mu^*(A) = 0 \;mod\; \mathbb{Z}$, which is true by the fact that we take $\mathbb{Z}$ to be precisely generated by these periods. (Alternatively we can assume $\mu$ to be  normalized such that it generates the image in deRham cohomology of $H^3(G,\mathbb{Z}) \simeq \mathbb{Z}$.)
 
 We shall by slight abuse of notation write $\exp(\mu)$ also for the morphism $\mathbf{cosk}_3 \exp(\mathfrak{g}) \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}$.
 
@@ -455,7 +455,7 @@ $$
  \,.
 $$
 
-This differential equation has a unique solition for the boundary condition $A_{i j}(0) = A_i$ given by
+This differential equation has a unique solution for the boundary condition $A_{i j}(0) = A_i$ given by
 
 $$
   A_{i j}(t) = \hat g_{i j}(t)^{-1}(A_i + d)\hat g_{i j}(t)
@@ -493,7 +493,7 @@ $$
   }
 $$
 
-indudes a morphism $\exp(\mathfrak{g})_{diff} \to \exp(b^2\mathbb{R})_{diff}$ and we obtain a commuting diagram
+induces a morphism $\exp(\mathfrak{g})_{diff} \to \exp(b^2\mathbb{R})_{diff}$ and we obtain a commuting diagram
 
 $$  
   \array{
@@ -515,7 +515,7 @@ Here we are using the object $\mathbf{B}^3 U(1)_{ch,diff}$ described in detail a
 +-- {: .num_remark }
 ###### Remark
 
-The deeper reason for this construction is that the zig-zag comosite 
+The deeper reason for this construction is that the zig-zag composite 
 
 $$
   \mathbf{B}G
@@ -571,13 +571,13 @@ This is is exactly equal to the cocycle discussed [above](#InCechDelineCohomolog
 
 =--
 
-Notice by the way that this construciton also serves as a manifest proof that this collection of data indeed does constitute a Deligne cocycle.
+Notice by the way that this construction also serves as a manifest proof that this collection of data indeed does constitute a Deligne cocycle.
 
 
 +-- {: .proof}
 ###### Proof
 
-This is a matter of plugging the above pieces into each other. For instance on double intersections we have that the 3-form $CS(\hat A_{i j})$ is the image of the degree 3-generator on $W(b^2 \mathbb{R})$ under the composite
+This is a matter of plugging the above pieces into each other. For instance, on double intersections we have that the 3-form $CS(\hat A_{i j})$ is the image of the degree 3-generator on $W(b^2 \mathbb{R})$ under the composite
 
 $$
   \Omega^\bullet(U \times \Delta^k)_{vert}
@@ -609,7 +609,7 @@ We indicate (for the moment) the way the Chern-Simons 3-bundle is realized as a 
 
 One first constructs the canonical [[bundle gerbe]] $\mathcal{G} \to G$ on the Lie group and notices that (more or less implicitly by recourse to its [[delooping]] 2-gerbe on $\mathbf{B}G$) that this has a _multiplicative structure_ .
 
-Using this one see that for $P \to X$ any $G$-[[principal bundle]] and $P^{[2]} : = P \times_X P \to P \times G$ the principality isomorphism, the pullback of $\mathcal{G}$ along 
+Using this we see that for $P \to X$ any $G$-[[principal bundle]] and $P^{[2]} : = P \times_X P \to P \times G$ the principality isomorphism, the pullback of $\mathcal{G}$ along 
 
 $$
   f : P^{[2]} \to P \times G \stackrel{p_2}{\to} G
