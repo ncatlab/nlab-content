@@ -71,6 +71,28 @@ Since $\triangle\dashv\sqcap$ the closed inclusion is [[essential geometric morp
 
 $$ j_!\colon Set \to \mathbf{Gl}(\sqcap)\qquad X\mapsto ((X,X), X,  X\overset{\langle id_X,id_X\rangle}{\to} X\times X)\quad .$$
 
+Since $\sqcup\dashv \triangle$ there is a somewhat surprising further left adjoint:
+
+$$ j^\circ\colon\mathbf{Gl}(\sqcap)\to Set \qquad ((X,Y),Z,u)\mapsto X\sqcup_u Y\quad .$$
+
+Here $ X\sqcup_u Y$ denotes the [[pushout]] of $X\overset{u_0}{\leftarrow} Z\overset{u_1}{\rightarrow} Y$ where $u_0$, $u_1$ are the pair of maps provided by the universal property of the product from $u\colon Z\overset{\langle u_0, u_1\rangle}{\rightarrow} X\times Y$ . Since a map from $((X,Y),Z,u)$ to $j_!(W)$ is a triple $(f_0,f_1,f_2)$ such that the following diagram commutes:
+$$
+\array{
+Z & \overset{\langle u_0, u_1\rangle}{\rightarrow} & X\times Y 
+\\
+f_2\downarrow &  &f_0\downarrow \downarrow f_1 
+\\
+W & \overset{\langle id_W, id_W\rangle}{\rightarrow} & W\times W
+} 
+$$
+$(f_0,f_1,f_2)$ has to satisfy the two conditions $f_0 u_0= f_2$ and $f_1 u_1=f_2$, or equivalently, $f_0 u_0=f_1 u_1$ . But this is the same as giving a map from $j^\circ ((X,Y),Z,u)= X\sqcup_u Y$ to $W$ by the universal property of the pushout.
+
+Whence we get an adjoint string:
+
+$$j^\circ\dashv j_!\dashv j^\ast \dashv j_\ast \colon Set\to \mathbb{Gl}(\sqcap)$$
+
+with $j_!$, $j_\ast$ [[fully faithful]], exhibiting $\mathbf{Gl}(\sqcap)$ almost as a [[cohesive topos]] over $Set$. Of course, since $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is spatial it is not expected to satisfy all of Lawvere's axioms. In particular, the [[Nullstellensatz]] is violated since neither of the copies of $Set$ is dense in $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$.
+
 Let $Q$ be the diagram category $N\overset{s}{\underset{t}{\rightrightarrows}} A$ underlying the topos $Set^{Q^{op}}$ of directed graphs or [[quiver|quivers]]. Consider the [[Yoneda embedding]] of the object $A$ into the presheaves: $Y(A)=Hom_Q(-,A)$. Viewed as a graph this gives the basic figure type of an _a_rrow $K_2=\bullet\to\bullet$ , the other basic figure being the _n_ode $\bullet$ given by $Y(N)$ .
 
 The [[category of elements]] $\int_Q Y(A)$ is just the category $\bullet\rightarrow \bullet\leftarrow\bullet$ underlying the hypergraphs. Since $Y(A)$ is the representable presheaf coresponding to $A$ this is equivalent to the [[slice category]] $Q/A$. Then the following equivalence exhibits $Set^{Q^{op}}$ as an [[étendue|étendue topos]] using a general formula for [[slice topos|slices]] of [[presheaf topos|presheaf toposes]]:
