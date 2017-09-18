@@ -58,34 +58,92 @@ Let $d_1, \dots, d_n$ be distinct new constant symbols. Write $d = \vec{d} = (d_
 
 Claim: $T \cup \Phi(d) \models \varphi(d).$
 
-Proof of claim: suppose towards a contradiction that there exists an $A \models T \cup \Phi(d) \cup \{\not \varphi(d)\}.$ Let $d^A$ be the interpretation of $d$ in $A$. Consider the finitely-generated $\mathcal{L}$-substructure of $A$
+(This claim says, roughly, that knowing the principal ultrafilter of quantifier-free definable sets containing $\varphi(x)$ suffices to pin down $\varphi(x)$. After establishing the claim, it will be easy to improve it to full quantifier elimination.)
+
+Proof of claim: suppose towards a contradiction that there exists an $A \models T \cup \Phi(d) \cup \{\not \varphi(d)\}.$ (This is a structure in the language $\mathcal{L}$ of $T$, expanded by $d$.) Let $d^A$ be the interpretation of the new constants $d$ in $A$. Consider the finitely-generated $\mathcal{L}$-substructure of $A$ around $d^A$:
 
 $$
 C \overset{\operatorname{df}}{=} \langle d^A \rangle_{\mathcal{L}}.
 $$
 
-Subclaim: $T \cup \{\varphi(d^A)\} \cup \mathsf{Diag}(C)$ is satisfiable.
+Subclaim: $T \cup \{\varphi(d^A)\} \cup \mathsf{Diag}(C)$ _is_ satisfiable.
 
-Proof of subclaim: this will be a standard [[compactness theorem|compactness argument]]. Suppose otherwise; by compactness there exist sentences $\theta_1, \dots, \theta_m \in \mathsf{Diag}(C)$ such that
+(This subclaim amounts to saying that while $A$ models $\neg \varphi(d^A)$, we can find another model $B \models T$, embedding $C$, such that $B$ _does_ models $\varphi(d^A)$.)
+
+Proof of subclaim: this will be a standard [[compactness theorem|compactness argument]]. Suppose not; by compactness there exist finitely many sentences $\theta_1, \dots, \theta_m \in \mathsf{Diag}(C)$ such that
 
 $$
-T \cup \{\varphi(d^A)\} \cup \{\theta_i\}_{i \leq m}
+T \cup \{\varphi(d^A)\} \cup \{\theta_i\}_{1 \leq i \leq m}
 $$ 
 
-is not sastisfiable. By how we obtain [[quantifier-free diagram|quantifier-free diagrams]], we can write $\theta_i = \theta'_i(d^A)$, where $\theta'_i$ is an $\mathcal{L}$-formula.
+is not satisfiable. By the definition of [[quantifier-free diagram]],  we can write $\theta_i = \theta'_i(d^A)$, where $\theta'_i$ is a quantifier-free $\mathcal{L}$-formula.
 
 Therefore,
 
 $$
-T \cup \{\varphi(d^A), \theta_0(x), \theta'_1(d^A), \dots, \theta_m'(d^A)\}
+T \cup \{\varphi(d^A), \theta'_0(d^A), \theta'_1(d^A), \dots, \theta_m'(d^A)\}
 $$
 
-is not satisfiable, where $\theta_0(x)$ [to be continued]
+is not satisfiable, where (remembering that $d^A$ is now just a tuple of constant symbols) $\theta'_0(x)$ specifies that all the entries of $x$ are distinct.
+
+Therefore,
+
+$$
+T \models \varphi(d^A) \rightarrow \bigvee_{i = 0}^m \neg \theta'_i(d^A).
+$$
+
+Since there are no constraints on the constant symbols $d^A$ and $\theta'_0$ specifies that they are all distinct, we may generalize them, so that 
+
+$$
+T \models \forall x \left( \varphi(x) \to \bigvee_{i = 0}^m \neg \theta'_i(x) \right)
+$$
+
+hence
+
+$$
+\bigvee_{i = 0}^m \neg \theta'_i(x) \in \Phi(x).
+$$
+
+Now, by assumption, $A \models \Phi(d)$. This means in particular that $A \models \bigvee_{i = 0}^m \neg \theta'_i(d^A).$
+
+Since that disjunction is quantifier-free, it transfers down to $C$. Therefore, there is some $0 \leq j \leq m$ such that $C \models \neg \theta'_j(d^A).$ Since the $d^A$ were distinct when we obtained $A$ (from which we obtained $C$), we can rule out $j \neq 0$. But for each $j = 1, \dots, m$, $\theta_j = \theta'_j(d^A) \in \mathsf{Diag}(C)$. This is a contradiction.
+
+This proves the subclaim.
+
+Now we proceed with proving the claim.
+
+Let $\mathbf{B} \models T \cup \{\varphi(d^A)\} \cup \mathsf{Diag}(C).$
+
+Then:
+
+$$
+A \models \neg \varphi(d^A), \text{ and } B \models \varphi(d^A),
+$$
+
+which contradicts substructure completeness over $C$.
+
+This proves the claim.
+
+Now we proceed with proving the theorem.
+
+With the claim in hand, the [[compactness theorem]] tells us that the entailment $T \cup \Phi(x) \models \varphi(d)$ is finitely supported, so that there are finitely many $\varphi^*_1, \dots, \varphi^*_m \in \Phi(x)$ such that
+
+$$
+T \cup \{\varphi_i^*(d)\}_{i \leq m} \models \varphi(d).
+$$
+
+Write $\varphi^* \overset{\operatorname{df}}{=} \bigvee_{i \leq m} \varphi_i^*.$ Again, we generalize the constants $d$, obtaining
+
+$$
+T \models \forall x \left( \varphi \leftrightarrows \varphi^* \right).
+$$
+
+Since the $\varphi^*_i$ are all quantifier-free, and $\varphi$ was arbitrary, we have proved that $T$ eliminates quantifiers.
 =--
 
 ## Examples
 
-* By the above theorem, any theory which [[quantifier elimimation | eliminates quantifiers]] is substructure complete.
+* By the above theorem, any theory which [[quantifier elimination|eliminates quantifiers]] is substructure complete.
 
 * So e.g. the [[countable random graph]], the theory [[ACF]] of algebraically closed fields, the theory [[DLO]] of dense linear orders...
 
@@ -101,9 +159,11 @@ is not satisfiable, where $\theta_0(x)$ [to be continued]
 
 * [[existentially closed model]]
 
+* [[diagram of a first-order structure]]
+
 ## References
 
-* {#JohnSmith01}John Smith, blah blah
+* {#Marker}Dave Marker, _Model theory: an introduction_, theorem 3.14
 
 [[!redirects substructure-complete]]
 
