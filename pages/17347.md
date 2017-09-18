@@ -7419,9 +7419,9 @@ $$
 
 the [[Thom-Gysin exact sequence]], a special case of the [[Serre spectral sequence]]. 
 
-Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B U(n)$ identifies them with the [[symmetric polynomials]] in the [[first Chern class]] in $H^2(B U(1))$. This is the _[[splitting principle]]_.
+Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B U(n)$ identifies them with the [[elementary symmetric polynomials]] in the [[first Chern class]] in $H^2(B U(1))$. This is the _[[splitting principle]]_.
 
-**Literature.** ([Kochman 96, section 2.2 and 2.3](#Kochman96), [Switzer 75, section 15.3](#Switzer75) [Lurie 10, lecture 5, prop. 6](#Lurie10))
+**Literature.** ([Kochman 96, section 2.2 and 2.3](#Kochman96), [Switzer 75, section 16](#Switzer75), [Lurie 10, lecture 5, prop. 6](#Lurie10))
 
 $\,$
 
