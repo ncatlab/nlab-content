@@ -22,7 +22,7 @@ It is a means to handle $(\infty,1)$-categories that are not [[essentially small
 
 An _accessible_ $(\infty,1)$-category is one which may be [[large category|large]], but can entirely be _accessed_ as an $(\infty,1)$-category of "conglomerates of objects" in a small $(\infty,1)$-category -- precisely: that it is a category of $\kappa$-small [[ind-object]]s in some small $(\infty,1)$-category $C$.
 
-An accessible $(\infty,1)$-category which is also [[locally presentable (∞,1)-category|locally presentable]] is called a _[[compactly generated (∞,1)-category]]_.
+A $\kappa$-accessible $(\infty,1)$-category which is also [[locally presentable (∞,1)-category|locally presentable]] is called a _$\kappa$-[[compactly generated (∞,1)-category]]_.
 
 ## Definition 
 
@@ -60,7 +60,9 @@ A [[(∞,1)-category]] $\mathcal{C}$ is **$\kappa$-accessible** if it satisfies 
 
    1. there is _some_ [[essentially small (∞,1)-category|essentially small]][[sub-(∞,1)-category]] $\mathcal{C}' \hookrightarrow \mathcal{C}$ of $\kappa$-[[compact objects]] which generates $\mathcal{C}$ under $\kappa$-[[filtered (∞,1)-colimits]].
 
-1. $\mathcal{C}$ is an [[idempotent-complete (∞,1)-category]].
+The notion of accessibility is mostly interesting for _large_ (∞,1)-categories. For
+
+* If $\mathcal{C}$ is small, then there exists a $\kappa$ such that $\mathcal{C}$ is $\kappa$-accessible if and only if $\mathcal{C}$ is an [[idempotent-complete (∞,1)-category]].
 
 Generally, $\mathcal{C}$ is called an **accessible $(\infty,1)$-category** if it is $\kappa$-accessible for some regular cardinal $\kappa$.
 
