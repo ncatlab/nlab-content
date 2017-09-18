@@ -33,6 +33,8 @@ But if extra [[gauge fields]] or [[higher gauge field]] beyond pure gravity are 
 
 A well-studied example is 6-dimensional [[Einstein-Maxwell theory]] with magnetic [[flux]] on a 2-dimensional [[fiber]] spaces over a 4-dimensional base space ([Freund-Rubin 80](#FreundRubin80), [RDSS 83](#RDSS83)).
 
+(On the other hand, Freund-Rubin compactifications usually have fibers the site of the curvature radius of the base, and hence not "small".)
+
 Similarly, in [[string theory]] it is argued that the extra fields and further string theoretic effects may stabilize the compact dimensions, namely a combination of [[flux compactification]] and [[non-perturbative effect|non-perturbative]] [[brane]] effects ([Acharya 02](#Acharya02), [KKLT 03](#KKLT03)). However, these arguments typically focus on fluctuations that preserve given [[special holonomy]] ([[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]] in type II or [[M-theory on G2-manifolds|G2-manifolds in M-theory]]). There is also a more generic argument for volume compactification by string winding modes ("[[Brandenberger-Vafa mechanism]]" [Brandenberger-Vafa 89](#BrandenbergerVafa89), [Watson-Brandenberger 03](#WatsonBrandenberger03)) and the claim ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) that in the non-perturbative [[IKKT model]] computer simulations show a spontaneous stable compactification to 3+1 dimensions.
 
 ## In string theory
@@ -75,7 +77,7 @@ The problem of generic in-stability of moduli of pure gravity KK-compactificatio
 
 ### Freund-Rubin flux compactifications
 
-[[Freund-Rubin compactifcation|Freund-Rubin]] [[flux compactifications]] are due to
+[[Freund-Rubin compactification|Freund-Rubin]] [[flux compactifications]] are due to
 
 A class of stable compactifications of 6d Einstein-Maxwell theory down to four dimensions is due to
 
@@ -87,7 +89,7 @@ and the special case of compactifications of 6d Einstein-Maxwell theory to 4d is
 
 Further discussion of these models as toy models for [[flux compactifications]] in [[string theory]] is in
 
-* {#DouglasKachru07} [[Michael Douglas]], [[Shamit Kachru]], section D.1 of _Flux compactification_, Rev. Mod. Phys. 79, 733 (2007)
+* {#DouglasKachru07} [[Michael Douglas]], [[Shamit Kachru]], section II.D.1 of _Flux compactification_, Rev. Mod. Phys. 79, 733 (2007) ([arXiv:hep-th/0610102](https://arxiv.org/abs/hep-th/0610102))
 
 
 ### In string theory
