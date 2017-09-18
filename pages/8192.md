@@ -1,5 +1,5 @@
 
-* [[adjunction]]
+* [[adjunction]], [[adjoint morphism]]
 
 * [[adjoint functor]]
 
