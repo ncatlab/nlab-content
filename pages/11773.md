@@ -1,17 +1,37 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _[[quantum field theory]]_ which arises via [[quantization]] from a [[Lagrangian]]/an [[action functional]], hence from a [[prequantum field theory]].
+In [[physics]], a _Lagrangian quantum field theory_ is a _[[quantum field theory]]_ (QFT) which arises via some version of [[quantization]] from a [[Lagrangian density]], hence from a [[prequantum field theory]].
 
-## Examples and counter examples
+Most QFTs that are being considered are Lagrangian quantum field theories. Indeed all of traditional [[perturbative quantum field theory]], subsuming in particular [[QED]], [[EW]], [[QCD]], [[pQG]] and hence the [[standard model of particle physics]], is Lagrangian. 
 
-By far most QFTs that appear in textbooks are Lagrangian.
+But not all QFTs are Lagrangian. For example [[self-dual higher gauge theory]] (such as for example the _chiral_ [[WZW model]], which is "one half" of the Lagrangian WZW model) is not Lagrangian. Still, this is thought be be defined via the [[holographic principle]] as the holographic boundary of a QFT that is Lagrangian: [[higher dimensional Chern-Simons theory]].
 
-But not all QFTs are Lagrangian, for instance [[self-dual higher gauge theory]] is not Lagrangian, but is defined via a [[holographic principle]] as the holographic boundary of a QFT that is Lagrangian: [[higher dimensional Chern-Simons theory]].
+
+## Related concepts
+
+* [[local quantum field theory]]
+
+* [[algebraic quantum field theory]]
+
+* [[perturbative algebraic quantum field theory]]
+
 
 [[!redirects Lagrangian quantum field theories]]
 
