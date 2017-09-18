@@ -32,7 +32,7 @@ $$
   dim X = 4 k + 2 
 $$
 
-then the [[Hodge star]] operator squares to $+1$ (Lorentian signature) or $-1$ (Euclidean signature) on $\Omega^{k+1}(X)$. Therefore it makes sense in these dimensions to impose the _self-duality_ or _chirality_ constraint
+then the [[Hodge star]] operator squares to $+1$ (Lorentzian signature) or $-1$ (Euclidean signature) on $\Omega^{k+1}(X)$. Therefore it makes sense in these dimensions to impose the _self-duality_ or _chirality_ constraint
 
 $$
   \pm F_\nabla = \star F_\nabla
