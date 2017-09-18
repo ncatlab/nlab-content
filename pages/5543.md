@@ -104,11 +104,13 @@ See the dicussion [here](https://nforum.ncatlab.org/discussion/7220/dense-subsit
 
 ## Remark
 
-There is also the notion of _[[dense subcategory]]_, which is however is only remotly related to the concept of a _dense sub-site_ by both vaguely invoking the topological concept of a [[dense subspace]].
+There is also the notion of _[[dense subcategory]]_, which is however only remotly related to the concept of a _dense sub-site_ by both vaguely invoking the topological concept of a [[dense subspace]].
 
 ## Related entries
 
 * [[comparison lemma]]
+
+* [[covering lifting property]]
 
 ## References
 
@@ -123,6 +125,8 @@ A more general form is used to give a site condition for [[étendue|étendue top
 See also 
 
 * {#JTT02}[[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]] vol 2_ , Oxford UP 2002. (Section C2.2, p.546)
+
+* {#Shulman12}[[Mike Shulman]], _Exact Completions and Small Sheaves_ , TAC **27** no.7 (2012) pp.97-173. ([abstract](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html); Section 11)
 
 [[!redirects induced coverage]]
 [[!redirects dense sub-site]]
