@@ -81,7 +81,7 @@ Since the tensor product is zero if one of its factors is zero, this result also
 A natural question is what happens if the conditions  that $m,n \geq 3$ and $C$ simply connected are weakened.   For example in the case $m=n=2$  we have the additional structure that the morphisms $\pi_2(A,C) \to \pi_1(C), \pi_2(B,C) \to \pi_1(C)$ are crossed modules, and so the required relative homotopy groups are in general nonabelian. If $m \geq 3 ,n \geq 3$ then $\pi_m(A,C), \pi_n(B,C)$ are still $\pi_1(C)$-modules.
 
 
-The extension to the non simply connected case was given by Brown and Loday; one simply replaces the usual tensor product by the nonabelian tensor product of groups which act on each other and on themselves by conjugation. This result is a special case of Seifert-van Kampen Theorem for $n$-cubes of spaces. Notice that the assumption (i) of the theorem is reminiscent of such a type of theorem. The useful fact is that one gets such a theorem for a certain kind of _structured space_ which allows for the development of algebraic structures which have structures in a range of dimensions.
+The extension to the non simply connected case was given by Brown and Loday; one simply replaces the usual tensor product by the nonabelian tensor product of groups which act on each other and on themselves by conjugation. This result is a special case of a Seifert-van Kampen Theorem for $n$-cubes of spaces. Notice that the assumption (i) of the theorem is reminiscent of such a type of theorem. The useful fact is that one gets such a theorem for a certain kind of _structured space_ which allows for the development of algebraic structures which have structures in a range of dimensions.
 
 Thus one of the intuitions is that the Blakers-Massey Theorem, and hence also the FST,  is of the Seifert-van Kampen type, since we are assuming that $X$ is the union of the interiors of $A,B$. 
 
@@ -145,26 +145,27 @@ This would constitute a purely [[homotopy theory|homotopy-theoretic]] proof.
 The generalisation of the algebraic statement is Theorem 4.3 in: 
 
 * [[Ronnie Brown|R. Brown]] and [[Jean-Louis Loday]], Homotopical excision, and Hurewicz theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._
-(3) 54 (1987) 176-192.
+(3) 54 (1987) 176-192.  [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/VKTEVANS2.pdf) 
 
 which relies essentially on the paper 
 
 * [[Ronnie Brown| R. Brown]] and J.-L. Loday, Van Kampen theorems for diagrams of
 spaces,  _Topology_ 26 (1987) 311-334, 
 
-for the van Kampen Theorem and for the nonabelian tensor product of groups. Here is a link to a bibliography of 131 items on the [nonabelian tensor product](http://pages.bangor.ac.uk/~mas010/nonabtens.html ). 
+for the van Kampen Theorem and for the nonabelian tensor product of groups. Here is a link to a bibliography of 137 items on the [nonabelian tensor product](http://pages.bangor.ac.uk/~mas010/nonabtens.html ). 
 
 Further applications are explained in 
 
 [[Ronnie Brown|R. Brown]],  Triadic Van Kampen theorems and Hurewicz theorems, _
 Algebraic  Topology, Proc. Int. Conf. March 1988_, Edited
-M.Mahowald and S.Priddy,  Cont. Math. 96 (1989) 39-57.
+M.Mahowald and S.Priddy,  Cont. Math. 96 (1989) 39-57.  [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/VKTEVANS2.pdf) 
+
 
 The following paper  applies the methods of the above two Brown-Loday papers to the well known problem of $n$-ad connectivity and to determination of the critical group, see Theorem 3.8 of: 
 
 * Ellis, G.J. and Steiner, R. Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$-ads. _J. Pure Appl. Algebra_ 46 (1987) 117--136. 
 
-The methods work because of their equivalence between cat$^n$-groups and crossed $n$-cubes of groups. This can be explained by saying that wee need two kinds of algebraic categories for calculations with $(n+1)$-types: _broad_ categories for conjecturing and proving theorems, and _narrow_ algebraic categories for calculations and relations with classical ideas. In this case the broad category is that of cat$^n$-groups, and the narrow category is that of crossed $n$-cubes of groups, which are related geometrically to the homotopy groups of $r$-ads and to generalised Whitehead products. The tricky equivalence between the two kinds of categories is one of the engines behind the results, since it enables the use of whichever category is most convenient at any given time. Note also these two categories model weak, pointed, homotopy $(n+1)$-types, as shown by Loday in his paper
+The methods work because of their equivalence between cat$^n$-groups and crossed $n$-cubes of groups. This can be explained by saying that we need two kinds of algebraic categories for calculations with $(n+1)$-types: _broad_ categories for conjecturing and proving theorems, and _narrow_ algebraic categories for calculations and relations with classical ideas. In this case the broad category is that of cat$^n$-groups, and the narrow category is that of crossed $n$-cubes of groups, which are related geometrically to the homotopy groups of $r$-ads and to generalised Whitehead products. The tricky equivalence between the two kinds of categories is one of the engines behind the results, since it enables the use of whichever category is most convenient at any given time. Note also these two categories model weak, pointed, homotopy $(n+1)$-types, as shown by Loday in his paper
 
 * [[Jean-Louis Loday]],  Spaces with finitely many non-trivial homotopy groups, _J. Pure Appl. Algebra_ 24 (1982)  179-202. 
 
