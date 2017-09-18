@@ -1,33 +1,12 @@
-For more of my svg examples see [Sandbox/838](https://ncatlab.org/nlab/revision/Sandbox/838).
+In order to see this, it is convenient to adopt the following notation: for $f \colon X \to Y$ a morphism, then we denote the collection of [[generalized element]] of its homotopy fiber as
 
-A 5 Quotient
+$$
+  hofib(f)
+  = 
+  \left\{
+    (x, f(x) \rightsquigarrow \ast)
+  \right\}
+$$
 
-<svg class="CachedO" width="30px" height="30px" viewBox="0 0 30 30" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>QuC14$e00000</title>
-<defs id="Def_QuC14$e00000">
-<g class="ClockObj" id="QuC14$e00000">
-<defs>
-<circle class="FYC" id="Clkd24_5Out" r="14" cy="15" cx="15" style="fill: yellow; stroke: black; stroke-width: 1px;"/>
-</defs>
-<use xlink:href="#Clkd24_5Out"/>
-<g class="Face" id="Clk14v5">
-<circle class="cI" r="12" cy="15" cx="15" style="fill: orange"/>
-<circle class="d" id="Cir5p0" r="2" cx="15" cy="3" style="fill: black; stroke-width: 0;"/>
-<circle class="d" id="Cir5p1" r="2" cx="26.412" cy="11.291" style="fill: black; stroke-width: 0;"/>
-<circle class="d" id="Cir5p2" r="2" cx="22.053" cy="24.708" style="fill: black; stroke-width: 0;"/>
-<circle class="d" id="Cir5p3" r="2" cx="7.9465" cy="24.708" style="fill: black; stroke-width: 0;"/>
-<circle class="d" id="Cir5p4" r="2" cx="3.5873" cy="11.291" style="fill: black; stroke-width: 0;"/>
-</g>
-<g class="Edges" id="Clk14v5_Edges_0_1_1_2_2_3_3_4_4_0">
-<line class="edge" id="Clk14v5_Edge0_1" x1="15" y1="3" x2="26.412" y2="11.291" style="stroke: black; stroke-width: 2px"/>
-<line class="edge" id="Clk14v5_Edge1_2" x1="26.412" y1="11.291" x2="22.053" y2="24.708" style="stroke: black; stroke-width: 2px"/>
-<line class="edge" id="Clk14v5_Edge2_3" x1="22.053" y1="24.708" x2="7.9465" y2="24.708" style="stroke: black; stroke-width: 2px"/>
-<line class="edge" id="Clk14v5_Edge3_4" x1="7.9465" y1="24.708" x2="3.5873" y2="11.291" style="stroke: black; stroke-width: 2px"/>
-<line class="edge" id="Clk14v5_Edge4_0" x1="3.5873" y1="11.291" x2="15" y2="3" style="stroke: black; stroke-width: 2px"/>
-</g>
-</g>
-</defs>
-<use xlink:href="#QuC14$e00000"/>
-</svg>
-
+indicating that these elements are pairs consisting of an element $x$ of $X$ and a "path" (an element of the given path space object) from $f(x)$ to the basepoint.
 
