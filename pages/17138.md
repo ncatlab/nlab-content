@@ -1098,24 +1098,26 @@ $\,$
 ### Generalised cohomology
 
 
-**Cohomology theory and Spectra
+#### Cohomology theory and Spectra
 
-See for instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02)).
+For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02)).
+
+[[generalized cohomology theory]]
 
 * [[ordinary cohomology]], [[topological K-theory]]
-
-* [[generalized (Eilenberg-Steenrod) cohomology]]
 
 * [[Brown representability theorem]]
 
 
-**Cobordism cohomology theory**
+#### Cobordism theory
 
-See maybe ([Francis 10](#Francis10))
+For instance ([Rudyak 98](#Rudyak98))
+
+[[cobordism theory]]
 
 * [[Pontrjagin-Thom construction]]
 
-  * [[Thom isomorphism]]
+* [[Thom isomorphism]]
 
 * [[Thom space]], [[Thom spectrum]], [[MO]]
 
@@ -1128,9 +1130,9 @@ See maybe ([Francis 10](#Francis10))
 
 ### Complex oriented cohomology
 
-See ([Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10)) 
+For instance ([Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10)) 
 
-**Complex orientation**
+#### Complex orientation
 
 * [[complex oriented cohomology theory]]
 
@@ -1152,7 +1154,7 @@ See ([Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10))
 
 * [[Landweber exact functor theorem]]
 
-**Geometry of $Spec(MU)$**
+#### Geometry of $Spec(MU)$
 
 * [[moduli space of formal groups]]
 
@@ -1200,6 +1202,8 @@ For  **S) Complex oriented cohomology ** we follow
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
+* {#Rudyak98} [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
@@ -1219,9 +1223,6 @@ Useful quick survey of the modern big picture may be found in
 Further lecture notes pointed to above include
 
 * {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
-
-* {#Francis10} [[John Francis]] (notes by [[Owen Gwilliam]]), _[Topology of manifolds](http://math.northwestern.edu/~jnkf/classes/mflds/)_, 2010, _Lecture 2: Cobordism_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf)), _Lecture 3: Thom's theorem_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf))
-
 
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011  ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
