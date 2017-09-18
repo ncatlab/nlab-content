@@ -114,7 +114,7 @@ A\times T\, B & \xrightarrow{t_{A,B}} & T(A\times B)\\
 \\
 A\times\mu_{B}\uparrow\phantom{A\times\mu_{B}} &  &  & \phantom{\mu_{A\times B}}\nwarrow\mu_{A\times B}\\
 \\
-A\times T^{2}\, B & \xrightarrow{t_{A,TB}} & T(A\times TB) & \xrightarrow{T\: t_{A,B}} & T^{2}(A\times B)
+A\times T^{2}\, B & \xrightarrow{t_{A,T B}} & T(A\times T B) & \xrightarrow{T\: t_{A,B}} & T^{2}(A\times B)
 \end{array}
 \]
 
