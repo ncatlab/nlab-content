@@ -201,8 +201,22 @@ We have
 
   * $Spin(4) \simeq Sp(1)\times Sp(1) \simeq S^3 \times S^3$
 
-    the inclusion $Spin(3) \hookrightarrow Spin(4)$ corresponds to the [[diagonal]] $S^3 \hookrightarrow S^3 \times S^3$
+    this is given by identifying $\mathbb{R}^4 \simeq \mathbb{H}$ with the [[quaternions]] and $SU(2) \simeq S^3$ with the group of unit quternions. Then left and right quaternion multiplication gives a [[homomorphism]]
 
+    $$
+      SU(2) \times SU(2) \longrightarrow SO(4)
+    $$
+
+    $$
+      (g,h) \mapsto ( x \mapsto \; g^{-1}  x h )
+    $$
+
+    which is a [[double cover]] and hence exhibits the isomorphism.
+
+    In particular therefore the inclusion $Spin(3) \hookrightarrow Spin(4)$ corresponds to the [[diagonal]] $S^3 \hookrightarrow S^3 \times S^3$.
+
+    At the level of [[Lie algebras]] $\mathfrak{so}(4) \simeq \wedge^2 \mathbb{R}^4$ and the $\pm 1$-[[eigenspaces]] of the [[Hodge star operator]] $\star \colon \Wedge^2 \mathbb{R}^4 \to \mathbb{R}^4$ gives the [[direct sum]] decomposition $\mathfrak{so}(4) \simeq \mathfrak{su}(2) \oplus \mathfrak{su}(2) \simeq \mathfrak{so}(3) \oplus \mathfrak{so}(3)$
+ 
   * $Spin(5) \simeq Sp(2)$
 
   * $Spin(6) \simeq SU(4)$ (the [[special unitary group]] [SU(4)](special+unitary+group#SU4))
