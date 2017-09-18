@@ -1,83 +1,100 @@
 
-**[[differential geometry]]**
-
-**[[synthetic differential geometry]]**
-
-## Axiomatics
-
-* [[smooth topos]]
-
-  * [[infinitesimal space]]
-
-    * [[amazing right adjoint]]
-
-  * [[Kock-Lawvere axiom]]
-
-  * [[integration axiom]]
-
-  * [[microlinear space]]
-
-* [[synthetic differential supergeometry]]
-
-  * [[super smooth topos]]
-
-* . [[cohesive (infinity,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]]
-
-  * [[de Rham space]] 
-
-  * [[formally smooth morphism]], [[formally unramified morphism]], 
-    [[formally étale morphism]]
-
-  * [[jet bundle]]
-
-## Models ##
-{#models_2}
-
-* [[Models for Smooth Infinitesimal Analysis]]
-
-  * [[Fermat theory]]
-
-  * [[smooth algebra]] ($C^\infty$-ring)
-
-  * [[smooth locus]]
-
-  * [[smooth manifold]], [[formal smooth manifold]], [[derived smooth manifold]]
-
-  * [[smooth space]], [[diffeological space]], [[Frölicher space]]
-
-  * [[smooth natural numbers]]
-
-* [[Cahiers topos]]
-
-* [[smooth ∞-groupoid]]
-
-* [[synthetic differential ∞-groupoid]]
+**[[synthetic differential geometry|synthetic]] [[differential geometry]]**
 
 
+**Introductions**
 
-## Concepts
+[[Introduction to Topology -- 1|from point-set topology to differentiable manifolds]]
 
-* [[tangent bundle]], 
+[[geometry of physics]]: [[geometry of physics -- coordinate systems|coordinate systems]], [[geometry of physics -- smooth spaces|smooth spaces]], [[geometry of physics -- manifolds and orbifolds|manifolds]], [[geometry of physics -- smooth homotopy types|smooth homotopy types]], [[geometry of physics -- supergeometry|supergeometry]]
+
+
+**Basic concepts**
+
+* [[differentiation]], [[chain rule]]
+
+* [[differentiable function]]
+
+* [[differentiable manifold]], [[coordinate chart]], [[atlas]]
+
+* [[smooth manifold]],  [[formal smooth manifold]], [[derived smooth manifold]]
+
+* [[V-manifold]]
+
+* [[smooth space]], [[diffeological space]], [[Frölicher space]]
+
+* [[infinitesimal space]], [[infinitesimally thickened point]], [[amazing right adjoint]]
+
+**Tangency**
+
+* [[tangent bundle]], [[frame bundle]]
 
   * [[vector field]], [[tangent Lie algebroid]];
 
-  * [[differentiation]], [[chain rule]]
+  * [[differential forms in synthetic differential geometry|differential forms]]
 
-* [[differential forms in synthetic differential geometry|differential forms]]
+* [[local diffeomorphism]], [[formally étale morphism]]
 
-* [[differential equation]], [[variational calculus]]
+* [[submersion]], [[formally smooth morphism]], 
 
-  * [[Euler-Lagrange equation]], [[de Donder-Weyl formalism]], [[variational bicomplex]], [[phase space]]
+* [[immersion]], [[formally unramified morphism]], 
+
+* [[de Rham space]], [[crystal]]
+
+**[[Lie theory]], [[∞-Lie theory]]**
+
+* [[Lie algebra]], [[L-∞ algebra]]
+
+* [[Lie group]], [[smooth ∞-group]]
+
+**[[differential equation]], [[variational calculus]]**
+
+* [[jet bundle]]
+
+* [[variational bicomplex]], [[Euler-Lagrange complex]]
+
+* [[Euler-Lagrange equation]], [[de Donder-Weyl formalism]], 
+
+*[[phase space]]
+
+**[[Chern-Weil theory]], [[∞-Chern-Weil theory]]**
 
 * [[connection on a bundle]], [[connection on an ∞-bundle]]
 
-* [[Riemannian manifold]]
+* [[parallel transport]], [[higher parallel transport]]
 
-  * [[isometry]], [[Killing vector field]]
+* [[gauge theory]]
 
 
+**[[Cartan geometry]] ([[super Cartan geometry|super]], [[higher Cartan geometry|higher]])**
 
-## Theorems
+  * [[Klein geometry]], ([[higher Klein geometry|higher]])
+
+  * [[G-structure]], [[torsion of a G-structure]]
+
+  * [[Euclidean geometry]], [[hyperbolic geometry]], [[elliptic geometry]]
+
+  * ([[pseudo-Riemannian geometry|psuedo]]-)[[Riemannian geometry]]
+
+    * [[isometry]], [[Killing vector field]], [[Killing spinor]]
+
+  * [[complex geometry]]
+
+  * [[symplectic geometry]]
+
+  * [[conformal geometry]]
+  
+
+**The magic algebraic facts**
+
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
+
+* [[smooth Serre-Swan theorem]]
+
+* [[derivations of smooth functions are vector fields]]
+
+
+**Theorems**
 
 * [[Hadamard lemma]]
 
@@ -89,30 +106,47 @@
 
 * [[Steenrod-Wockel approximation theorem]]
 
+* [[Whitney embedding theorem]]
+
 * [[Poincare lemma]]
 
 * [[Stokes theorem]]
 
 * [[de Rham theorem]]
 
-* [[Chern-Weil theory]]
 
-## Applications
+**Axiomatics**
 
-* [[Lie theory]], [[∞-Lie theory]]
+* [[Kock-Lawvere axiom]]
 
-* [[Chern-Weil theory]], [[∞-Chern-Weil theory]]
+  * [[smooth topos]], [[super smooth topos]]
 
-  * [[gauge theory]]
+  * [[microlinear space]]
 
-  * [[∞-Chern-Simons theory]]
+  * [[integration axiom]]
 
-* [[Klein geometry]], [[Klein 2-geometry]], [[higher Klein geometry]]
+[[!include cohesion - table]] 
 
-* [[Euclidean geometry]], [[Cartan geometry]], [[higher Cartan geometry]]
+**Models**
+{#models_2}
 
-* [[Riemannian geometry]]
+* [[Models for Smooth Infinitesimal Analysis]]
 
-  * [[gravity]], [[supergravity]]
+  * [[smooth algebra]] ($C^\infty$-ring)
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/synthetic+differential+geometry+-+contents)</div>
+  * [[smooth locus]]
+
+  * [[Fermat theory]]
+
+* [[Cahiers topos]]
+
+* [[smooth ∞-groupoid]]
+
+* [[formal smooth ∞-groupoid]]
+
+* [[super formal smooth ∞-groupoid]]
+
+
+
+
+
