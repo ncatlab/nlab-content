@@ -135,6 +135,21 @@ $$f=h\circ\langle id_A, t_0\circ !_A\rangle\quad and\quad g=h\circ\langle id_A, 
 (In this case, $h$ is also called an (I-)homotopy between $f$ and $g$.)
 =--
 
+In general, we can get a map $\mu:\Omega^X\times\Omega\to\Omega^X$ from the conjunction $\wedge :\Omega\times\Omega\to \Omega$ by the following steps:
+
+$$
+\array{
+\Omega\times\Omega &{\to} & \Omega
+\\
+\Omega& \to&\Omega^{\Omega}\quad\text{by transposal}
+\\ 
+\Omega^X&\to&(\Omega^{\Omega})^{X}\quad\text{by taking powers at X}
+\\
+\Omega^X &\to&(\Omega^X)^{\Omega}\quad\text{by using rules for powers}
+\\
+\Omega^X\times\Omega&\overset{\mu}{\to}&\Omega^X\quad \text{by reversing transposal .}
+}
+$$
 
 
 (...
