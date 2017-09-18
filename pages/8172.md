@@ -629,7 +629,7 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #TermsOfNextPageOnSpectralSequence}
 ###### Remark
 
 So the spectral sequence of an exact couple (def. \ref{ExactCoupleSpectralSequence}) is a sequence of cochain complexes $(\mathcal{E}_r, d_r)$, where the cohomology of one is the terms of the next one: 
@@ -1816,7 +1816,7 @@ such that
 
 It is now striaghtforward, if somewhat tedious, to check that:
 
-+-- {: .num_prop}
++-- {: .num_prop #DualESteenrodAlgebrasIsCommutativeHopfAlgebroid}
 ###### Proposition
 
 Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}, then the dual $E$-[[Steenrod algebra]] $ (E_\bullet(E), \pi_\bullet(E))$ with the
@@ -2845,13 +2845,48 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The first page is given by theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, and so by the standard theory of [[derived functors in homological algebra]] (see the section _[Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_), it is now sufficient to see that:
+By theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, under the given assumptions the first page reads
 
-1. the category $E_\bullet(E) CoMod$ is an [[abelian category]];
+$$
+  E_1^{s,t}(X,Y)
+    \;\simeq\;
+  Hom^t_{E_\bullet(E)}(E_\bullet(X), E_{\bullet-s}(A_s))
+  \;\;\,,
+  \;\;\;\;\;
+  d_1 
+    \;=\;
+  Hom_{E_\bullet(E)}(E_\bullet(X), E_\bullet( g \circ h ))
+$$
 
-1. the first page graded chain complex of theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$.
+$\,$
 
-That $E_\bullet(E) CoMod$ is an [[abelian category]] is lemma \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} below.
+
+$$
+  0 
+    \to 
+  Hom_{E_\bullet(E)}^t(E_\bullet(X),E_\bullet(A_0))
+    \stackrel{d_1}{\longrightarrow}
+  Hom_{E_\bullet(E)}^t(
+     E_\bullet(X),
+     E_{\bullet-1}(A_1)
+  )
+    \stackrel{d_1}{\longrightarrow}
+  Hom_{E_\bullet(E)}^t(
+     E_\bullet(X),
+     E_{\bullet-2}(A_2)
+   )
+    \stackrel{d_1}{\longrightarrow}
+   \cdots
+  \,.
+$$
+
+By remark \ref{TermsOfNextPageOnSpectralSequence} the second page is the [[cochain cohomology]] of this complex. Hence by the standard theory of [[derived functors in homological algebra]] (see the section _[Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_), it is now sufficient to see that:
+
+1. the category $E_\bullet(E) CoMod$ (def. \ref{CommutativeHopfAlgebroidComodule}, prop. \ref{DualESteenrodAlgebrasIsCommutativeHopfAlgebroid}) is an [[abelian category]] with [[enough injectives]] (so that all [[right derived functors|right]] [[derived functor in homological algebra|derived functors]] on $E_\bullet(E) CoMod$ exist);
+
+1. the first page graded chain complex $(E^{\bullet,t}_1(X,Y), d_1)$ is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$ (so that its cohomology indeed computes the [[Ext]]-derived functor ([theorem](derived+functor+in+homological+algebra#DerivedFFromFInjectiveResolution))).
+
+That $E_\bullet(E) CoMod$ is an [[abelian category]] is lemma \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} below, and that it has enough injectives is lemma \ref{IfCounitOfHopfAlgebroidIsFlatThenCofreeModulesAreInjective}.
 
 Lemma \ref{ResolutionEWp} below shows that $E_\bullet(A_\bullet)$ is a resolution of $E_\bullet(Y)$ in $E_\bullet(E) CoMod$. By prop. \ref{EnHomology} it is a resolution by cofree comodules (def. \ref{CoFreeComodules}). That these are $F$-acyclic is lemma \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
 
@@ -2861,7 +2896,7 @@ Lemma \ref{ResolutionEWp} below shows that $E_\bullet(A_\bullet)$ is a resolutio
 
 ##### $E$-Adams resolutions
 
-We discuss that the first page of the $E$-Adams spectral sequence indeed exhibits a resolutions as required by the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence}.
+We discuss that the first page of the $E$-Adams spectral sequence indeed exhibits a [[resolution]] as required by the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence}.
 
 
 +-- {: .num_lemma #ResolutionEWp}
@@ -2916,7 +2951,7 @@ $$
   }
 $$
 
-is a [[long exact sequence]], exhibiting the graded [[chain complex]] $(E_\bullet(A_\bullet), \partial)$ as a resolution of $E_\bullet(Y)$.
+is a [[long exact sequence]], exhibiting the graded [[chain complex]] $(E_\bullet(A_\bullet), \partial)$ as a [[resolution]] of $E_\bullet(Y)$.
 
 =--
 
@@ -2957,7 +2992,7 @@ $$
     \overset{ E_\bullet(f_p) }{\longrightarrow}
   E_\bullet(Y_p)
     \overset{ E_\bullet(g_p) }{\longrightarrow}
-  E_\bullet(W_p)
+  E_\bullet(A_p)
     \overset{ E_\bullet(h_p) }{\longrightarrow}
   E_{\bullet-1}(Y_{p+1})
     \overset{ E_{\bullet-1}(f_p) }{\longrightarrow}
