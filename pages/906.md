@@ -31,7 +31,7 @@ Equivalently, a topological space is sequential iff it is a [[quotient space]] (
 
 * Every [[Frechet–Uryson space]] is a sequential space.
 
-* Every topological space satisfying the [[first-countable space|first countability axiom]] is Frechet--Uryson, hence a sequential space.  In particular, this includes any [[metric space|metrizable]] space.
+* Every topological space satisfying the [[first-countable space|first countability axiom]] is Frechet--Uryson, hence a sequential space.  In particular, this includes any [[metrizable space]] .
 
 * Every [[quotient object|quotient]] of a sequential space is sequential.  In particular, every [[CW complex]] is also a sequential space.  (Conversely, every sequential space is a quotient of a metrizable space, giving the alternative definition).
 
