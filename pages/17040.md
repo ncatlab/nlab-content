@@ -1,0 +1,10 @@
+
+
+* [webpage](https://www.perimeterinstitute.ca/people/cecilia-flori-0)
+
+## related $n$Lab entries
+
+
+* [[Bohr topos]]
+
+category: people
