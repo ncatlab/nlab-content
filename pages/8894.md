@@ -1,4 +1,4 @@
 
-* [webpage](http://huji.academia.edu/YonatanHarpaz)
+* [webpage](https://sites.google.com/site/yonatanharpaz/)
 
 category: people
