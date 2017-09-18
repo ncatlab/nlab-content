@@ -11,7 +11,7 @@ A [[set]] equipped with a [[permutation representation]] of a ([[discrete group|
 
 * A $\mathbb{Z}_2$-set is a set equipped with an [[involution]].
 
-* Any [[permutation]] $\pi : X \to X$ gives $X$ the structure of a $\mathbb{Z}$-set, with the action of $\mathbb{Z}$ on $X$ defined by iterated composition of $\pi$.
+* Any [[permutation]] $\pi : X \to X$ gives $X$ the structure of a $\mathbb{Z}$-set, with the action of $\mathbb{Z}$ on $X$ defined by iterated composition of $\pi$ or $\pi^{-1}$.
 
 ## Related concepts
 
