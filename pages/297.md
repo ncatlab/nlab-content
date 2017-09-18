@@ -1983,7 +1983,16 @@ to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$ under the [[group charac
 +-- {: .num_remark}
 ###### Remark
 
-It follows that in a discussion of [[quantization]] the [[path integral]] for the [[partition function]] of 1d DW theory is given by the [[Schur inner product|Schur integral]] over the [[group character]] $c$. (...)
+It follows that in a discussion of [[quantization]] the [[path integral]] for the [[partition function]] of 1d DW theory is given by the [[Schur inner product|Schur integral]] over the [[group character]] $c$.
+
+$$
+  \frac{1}{\vert G \vert}
+  \underset{g\in G}{\sum}
+  c(g)
+  =
+  \langle c,1\rangle
+  \,.
+$$
 
 =--
 
