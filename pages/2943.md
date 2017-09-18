@@ -46,10 +46,10 @@ as well as in
 See also
 
 * wikipedia: [thermodynamics](http://en.wikipedia.org/wiki/Thermodynamics), [fundamental thermodynamic relation](http://en.wikipedia.org/wiki/Fundamental_thermodynamic_relation)
-
 * Azimuth Project, _[Thermodynamics](http://www.azimuthproject.org/azimuth/show/Thermodynamics)_
+* A. Bravetti, C. S. Lopez-Monsalvo, F. Nettel, _Contact symmetries and Hamiltonian thermodynamics_, [arxiv/1409.7340](http://arxiv.org/abs/1409.7340)
 
-A survey of [[irreversible theoremodynamics]] is in 
+A survey of [[irreversible thermodynamics]] is in 
 
 * Ivan Vavruch, _Conceptual problems of modern irreversible thermodynamics_, Chem. Listy 96 (2002) ([pdf](http://www.chemicke-listy.cz/docs/full/2002_05_01.pdf))
 
@@ -63,10 +63,8 @@ Mathematical analogies and generalizations include also
 
 * [[John Baez]], Mike Stay, _Algorithmic thermodynamics_, [pdf](http://math.ucr.edu/home/baez/thermo.pdf), [cafe](http://golem.ph.utexas.edu/category/2010/02/algorithmic_thermodynamics.html)
 * [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
-* M. Zinsmeister, _Thermodynamic formalism and holomorphic dynam-
-ical systems_, Amer. Math. Soc. 2000.
+* M. Zinsmeister, _Thermodynamic formalism and holomorphic dynamical systems_, Amer. Math. Soc. 2000.
 * I. Itenberg, G. Mikhalkin, Geometry in the tropical limit, [arXiv/1108.3111](http://arxiv.org/abs/1108.3111)
-
 
 [[!redirects statistical mechanics]]
 [[!redirects statistical physics]]
