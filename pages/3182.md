@@ -946,7 +946,7 @@ By definition we have that $\mathbf{\Pi}_{dR}$ is the [[(∞,1)-pushout]] $\math
 
 ## Homotopy localization
 
-We discuss that the[[homotopy localization]] of topological $\infty$-groupoids reproduces [[Top]] $\simeq$ [[∞Grpd]], following ([Dugger](#Dugger)).
+We discuss that the [[homotopy localization]] of topological $\infty$-groupoids reproduces [[Top]] $\simeq$ [[∞Grpd]], following ([Dugger](#Dugger)).
 
 
 ### Idea
