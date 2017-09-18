@@ -98,6 +98,8 @@ Notice that this is precisely the argument which for $G = U(1)$ the [[circle gro
 ## References
  {#References}
 
+(See also the general references at _[[instanton]]_.)
+
 Physics-style  surveys include the introductory lecture notes
 
 * [[Marcos Marino]], _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
