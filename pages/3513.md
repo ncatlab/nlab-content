@@ -272,6 +272,11 @@ The alternative construction as a localization is mentioned in
 
 * {#HeutsMoerdijk13} [[Gijs Heuts]], [[Ieke Moerdijk]], _Left fibrations and homotopy colimits_.  [DOI](http://dx.doi.org/10.1007/s00209-014-1390-7), ([arXiv:1308.0704](http://arxiv.org/abs/1308.0704))
 
+Further discussion is in 
+
+* {#Stevenson15} [[Danny Stevenson]], _Covariant Model Structures and Simplicial Localization_ ([arXiv:1512.04815](http://arxiv.org/abs/1512.04815))
+
+
 [[!redirects model structure for right fibrations]]
 [[!redirects covariant model structure]]
 [[!redirects contravariant model structure]]
