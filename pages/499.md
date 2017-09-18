@@ -86,6 +86,17 @@ $$
   \,.
 $$
 
+
+## Remarks
+
+We can also curry the Hom functor in the other variable, thus obtaining a contravariant functor
+$$
+C^{op} \to [C, Set]
+$$
+which is explicitly given by $c \mapsto C(c,-)$. This is sometimes jokingly called the **Yoda embedding** ("the Yoda embedding, contravariant it is"). 
+
+However, since $C^{op}(-,c)=C(c,-)$, it is easy to see that the Yoda embedding is just the Yoneda embedding $Y: C^{\op} \to [(C^{op})^{op}, Set]=[C, Set]$ of $C^{op}$, and hence does not require special treatment.  
+
 ## Properties
 
 It follows from the [[Yoneda lemma]] that the functor $Y$ is [[full and faithful functor|full and faithful]]. It is also [[limit]] preserving (= [[continuous functor]]), but does in general not preserve [[colimit]]s. 
