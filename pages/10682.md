@@ -1,8 +1,13 @@
+*Urysohn's lemma* is the following assertion, due to [[Pavel Urysohn]]. 
 
++-- {: .num_theorem} 
+###### Theorem 
+Let $X$ be a [[separation axiom|normal]] (or $T_4$) [[topological space|space]], and let $C, D$ be two disjoint [[closed sets]] of $X$. Then there exists a [[continuous function]] $f: X \to [0, 1]$ such that $f(x) = 0$ for all $x \in C$ and $f(x) = 1$ for all $x \in D$. 
+=-- 
 
 ## References
 
-Due to [[Pavel Urysohn]]
+* [Proof at planetmath](http://planetmath.org/proofofurysohnslemma)
 
 Lectures notes include 
 
