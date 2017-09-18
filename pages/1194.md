@@ -564,7 +564,7 @@ Original articles include
 
 * [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
-* [[Per Martin-Löf]], _Intuitionistic type theory_, Studies in Proof Theory 1, Bibliopolis, Naples, 1984.
+* [[Per Martin-Löf]], _Intuitionistic type theory_, Studies in Proof Theory 1, Bibliopolis, Naples, 1984 ([pdf](http://intuitionistic.files.wordpress.com/2010/07/martin-lof-tt.pdf))
 
 * [[Thomas Streicher]], _Investigations into intensional type theory_, habilitation 2003, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf); 
 
