@@ -23,6 +23,8 @@ A __natural number__ is traditionally one of the numbers $1$, $2$, $3$, and so o
 
 The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\omega$, or $\aleph_0$.  The last two notations refer to this set\'s structure as an [[ordinal number]] or [[cardinal number]] respectively, and they often (usually for $\aleph$) have a subscript $0$ allowing them to be generalised.  In the [[foundations]] of mathematics, the [[axiom of infinity]] states that this actually forms a set (rather than a proper class).  At a foundational level, it\'s completely irrelevant whether $0$ counts as a natural number or not; as [[sets]] (and even as [[natural numbers objects]]), the two options are equivalent, so we are really talking about the choice of [[rig]] structure (or [[inclusion map]] into the set of [[integers]], etc).
 
+By default, our natural numbers always include $0$.
+
 
 ## Natural numbers objects
 
@@ -73,9 +75,11 @@ For instance, any finitely generated vector space over a [[field|residue field]]
 
 ### Decreasing sequences of natural numbers
 
-Classically, any weakly decreasing sequence of natural numbers $(a_n)$ is eventually constant, i.e. admits an index $N$ such that $a_N = a_{N+1} = a_{N+2} = \cdots$. Constructively, one can only prove that there exists an index $N$ such that $a_N = a_{N+1}$ (by induction on $a_0$); the classical principle is equivalent to the [[principle of omniscience|limited principle of omniscience]] for $\mathbb{N}$.
+Classically, any *weakly* decreasing sequence of natural numbers $(a_n)_n$ is eventually constant, i.e. admits an index $N$ such that $a_N = a_{N+1} = a_{N+2} = \cdots$. Constructively, one can only prove for each $M$ that there exists an index $N$ such that $a_N = a_{N+1} = \cdots = a_{N+M}$.  (One may prove this by induction on $a_0$; indeed, you can always find $N$ so that $N \leq a_0 M$.)  The classical principle is equivalent to the [[limited principle of omniscience]] for $\mathbb{N}$ (which follows already when $a_0 = 1$).
 
-This is relevant to constructive algebra, as this shows that formulating chain conditions needs some care.
+On the other hand, there can be no *strictly* decreasing sequence of natural numbers.  This is constuctively valid (proved by contradiction and induction on $a_0$).
+
+This is relevant to [[constructive algebra]], as this shows that formulating chain conditions needs some care.  (It is easier to say 'weakly' than 'strictly' in the hypothesis, but then it\'s unclear how to state the conclusion.)
 
 
 ## Related concepts
