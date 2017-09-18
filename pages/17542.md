@@ -76,11 +76,11 @@ Thus, using these properties, we can model [[PROPs]] and [[properads]] with gene
 
 
 
-* Philip Hackney, Marcy Robertson and Donald Yau. _Infinity Properads and Infinity Wheeled Properads_,  Lecture Notes in Mathematics, 2147. Springer, Cham, 2015. [(arxiv version)](http://arxiv.org/pdf/1410.6716v2.pdf)
-{#HRY} 
+* {#HRY}  [[Philip Hackney]], [[Marcy Robertson]] and [[Donald Yau]]. _Infinity Properads and Infinity Wheeled Properads_,  Lecture Notes in Mathematics, 2147. Springer, Cham, 2015. [(arxiv version)](http://arxiv.org/pdf/1410.6716v2.pdf)
 
-* Joachim Kock. _Graphs, hypergraphs, and properads_, [arXiv:1407.3744](https://arxiv.org/pdf/1407.3744v3.pdf). 
-{#kock}
+
+* {#kock} [[Joachim Kock]]. _Graphs, hypergraphs, and properads_, [arXiv:1407.3744](https://arxiv.org/pdf/1407.3744v3.pdf). 
+
 
 
 
