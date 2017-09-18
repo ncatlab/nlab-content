@@ -27,7 +27,13 @@ The [[equivariance|equivariant]] version of [[rational homotopy theory]].
 
 ## Related concepts
 
+* [[rational homotopy theory]]
+
+* [[rational stable homotopy theory]]
+
 * [[rational equivariant stable homotopy theory]]
+
+* [[rational parameterized stable homotopy theory]]
 
 ## References
 
