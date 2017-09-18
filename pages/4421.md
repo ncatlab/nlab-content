@@ -230,7 +230,7 @@ $$
 $$ 
 
 Particularly for $n = 2$ and using the definition of the 
-[[curvature]] 2-form $F_A = d_{dR} A + [A \wdge A]$ we get 
+[[curvature]] 2-form $F_A = d_{dR} A + [A \wedge A]$ we get 
 
 $$
   CS(A)
