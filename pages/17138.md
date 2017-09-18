@@ -3502,6 +3502,8 @@ An important example of a generalised cohomology theory other than [[ordinary co
 
 Whitehead observed that indeed every [[spectrum]] represents a generalized (co)homology theory.  The _[[Brown representability theorem]]_ states that, conversely, every generalized (co)homology theory is represented by a spectrum.
 
+As a first application, [[Eilenberg-MacLane spectra]] representing [[ordinary cohomology]] may be characterized via Brown representability.
+
 Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not fully apply here, since a (co)homology functor is equipped with the extra structure of the [[natural isomorphism|natural]] [[suspension isomorphism]]).
 
 In applications and modern theory, it is mostly the spectra that matter, and hence the Brown representability theory is used to transfer extra structure on spectra to extra structure on cohomology theories. For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
