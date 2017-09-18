@@ -1284,6 +1284,8 @@ between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{p
 
 * [[model structure on simplicial sheaves]]
 
+* [[model structure on sSet-enriched presheaves]]
+
 * [[model structure on cubical presheaves]]
 
 * [[model structure on presheaves of spectra]]
