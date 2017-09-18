@@ -10,6 +10,8 @@
 
 * [[Thom spectrum]]
 
+* [[Thom's theorem]]
+
 * [[Thom's transversality theorem]]
 
 * [[Pontrjagin-Thom collapse map]]
