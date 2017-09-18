@@ -14,6 +14,102 @@
 
 ## Statement
 
++-- {: .num_lemma #SigmaOmegaAdjunctionUnitOnNConnectedSpaceIsHigherConnected}
+###### Lemma
+
+Let $X$ be an [[n-connected topological space]]. Then the [[adjunction unit]] of the ([[suspension]] $\dashv$ [[loop space]])-[[adjunction]]
+
+$$
+  X \longrightarrow \Omega \Sigma X
+$$
+
+is [[n-connected continuous function|(2n+1)-connected]].
+
+=--
+
+(e.g. [Kochmann 96, prop. 3.2.2](#Kochmann96))
+
++-- {: .proof}
+###### Proof
+
+The [[Serre long exact sequence]] ([prop.](Serre+long+exact+sequence#SerreLongExactSequenceForHighlyConnectedBaseAndFiber)) applied to the based [[path space]] [[Serre fibration]] of any [[n-connected topological space]]
+
+$$
+  \Omega X \longrightarrow Path_\ast(X) \longrightarrow X
+$$
+
+is of the form
+
+$$
+  H_{2n}(\Omega X)
+    \overset{i_\ast}{\longrightarrow}
+  H_{2n}(Path_\ast(X))
+    \overset{p_\ast}{\longrightarrow}
+  H_{2n}(X)
+    \overset{\tau}{\longrightarrow}
+  H_{2n-1}(\Omega X)
+    \overset{i_\ast}{\longrightarrow}
+  \cdots
+    \overset{i_\ast}{\longrightarrow}
+  H_1(X)        
+$$
+
+and hence yields (using that $Path_\ast(X)$ is [[contractible topological space|contractible]]) isomorphisms
+
+$$
+  \tau \colon H_k(X) \simeq H_{k-1}(\Omega X)
+$$
+
+for $k \leq 2n$. Applied to $\Sigma X$, which is $(n+1)$-connected this hence yields isomorphisms
+
+$$
+ \tau \colon H_{k}(\Sigma X) \simeq H_{k-1}(\Omega \Sigma X)
+$$
+
+for $k \leq 2n+2$.
+
+To get a comparison map, observe that there is a [[commuting diagram]] of the form
+
+$$
+  \array{
+     X 
+       &\longrightarrow&  
+     Cone(X)
+       &\overset{q}{\longrightarrow}& 
+     \Sigma X
+     \\
+     {}^{\mathllap{j}}\downarrow && \downarrow && \downarrow
+     \\
+     \Omega \Sigma X
+       &\longrightarrow&
+     Path_\ast(\Sigma X)
+       &\underset{p}{\longrightarrow}&
+     \Sigma X
+  }
+$$
+
+which induces a diagram of [[relative homology]] groups of the form
+
+$$
+  \array{
+    \tilde H_k(X) 
+      &\underoverset{\simeq}{\partial}{\longleftarrow}& 
+    H_{k+1}(Cone(X),X)
+      &\underoverset{\simeq}{}{\longrightarrow}&
+    \tilde H_{k+1}(\Sigma X)
+    \\
+    {}^{\mathllap{j_\ast}}\downarrow && \downarrow && \downarrow^{\mathrlap{id}}
+    \\
+    \tilde H_k(\Omega \Sigma X)
+      &\underoverset{\simeq}{\partial}{\longleftarrow}&
+    H_{k+1}(Path_\ast(\Sigma X),\Omega \Sigma X)
+      &\underoverset{}{p_\ast}{\longrightarrow}&
+    \tilde H_{k+1}(\Sigma X)
+  }
+$$
+
+=--
+
 The **Freudenthal suspension theorem** ([Freudenthal 37](#Freudenthal37)) is the following theorem about [[homotopy groups]] of [[n-spheres]]:
 
 
@@ -38,7 +134,9 @@ is an [[isomorphism]] for $k \leq 2n$.
 
 =--
 
-This follows from the [[Blakers-Massey theorem]] (e.g. [Kochmann 96, p. 70](#Kochmann96)). 
+The suspension isomorphism is equivalently given by the map in lemma \ref{SigmaOmegaAdjunctionUnitOnNConnectedSpaceIsHigherConnected}.
+
+An alternative proof proceeds from the [[Blakers-Massey theorem]] (e.g. [Kochmann 96, p. 70](#Kochmann96)). 
 
 The following more general statement is also often referred to as the Freudenthal suspension theorem:
 
@@ -55,22 +153,7 @@ are [[isomorphisms]]. In particular $[Y,X]$ canonically has the structure of an 
 
 =--
 
-This follows from the fact that:
 
-+-- {: .num_prop}
-###### Proposition
-
-If $X$ is an [[n-connected]] [[CW-complex]], then the [[unit of an adjunction|unit]] 
-
-$$
-  X \longrightarrow \Omega \Sigma X
-$$
-
-of the ([[suspension]]$\dashv$[[loop space]])-[[adjunction]] is an isomorphism on $\pi_{\leq 2n}$.
-
-=--
-
-This follows from applying the [[Serre long exact sequence]] (which itself follows from the [[Serre spectral sequence]]) to the [[path space]] fibration (e.g. [Kochmann 96, prop. 3.2.2](#Kochmann96)).
 
 ## Properties
 
