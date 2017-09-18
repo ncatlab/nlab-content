@@ -70,7 +70,6 @@ Textbook accounts include
 
 Lecture notes include
 
-
 * {#Grozin05} Andrey Grozin, _Lectures on QED and QCD_ ([arXiv:hep-ph/0508242](http://arxiv.org/abs/hep-ph/0508242))
 
 * {#GFP} _Green functions and propagators_ ([[GreenFunctionsAndPropagators.pdf:file]])
@@ -79,6 +78,11 @@ Lecture notes include
 * _Green functions for the Klein-Gordon operator_ ([pdf](http://sgovindarajan.wdfiles.com/local--files/serc2009/greenfunction.pdf))
 
 * {#Kleinert11} [[Hagen Kleinert]], V. Schulte-Frohlinde, _Critical properties of $\phi^4$-Theories_ 2001 ([pdf](http://users.physik.fu-berlin.de/~kleinert/b8/psfiles/08.pdf))
+
+An overview of the [[Green functions]] of the [[Klein-Gordon operator]], hence of the [[Feynman propagator]], [[advanced propagator]], [[retarded propagator]], [[causal propagator]] etc. is given in
+
+* {#Kocic16} [[Mikica Kocic]], _Invariant Commutation and Propagation Functions Invariant Commutation and Propagation Functions_, 2016 ([[KGPropagatorsOnMinkowskiTable.pdf:file]])
+
 
 The zeta function regularization method originates around
 
