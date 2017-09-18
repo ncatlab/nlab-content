@@ -17,15 +17,15 @@
 * table of contents
 {:toc}
 
-## Idea 
+## Idea
 
 A _differentiable manifold_ is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] (a [[topological manifold]]) and such that the [[gluing functions]] which relate these Euclidean [[local charts]] to each other are [[differentiable functions]], for a fixed degree of differentiability. If one considers arbitrary differentiablity then one speaks of _[[smooth manifolds]]_ and if one demands [[analytic function|analytic]] gluing functions then one speaks of _[[analytic manifolds]]_. For a general discussion see at _[[manifold]]_.
 
-Accordingly, a differentiable manifold is a space to which the tools of ([[infinitesimal analysis|infinitesimal]]) [[analysis]] may be applied _locally_. 
+Accordingly, a differentiable manifold is a space to which the tools of ([[infinitesimal analysis|infinitesimal]]) [[analysis]] may be applied _locally_.
 Notably we may ask whether a [[continuous function]] between differentiable manifolds is [[differentiation|differentiable]]
-by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate charts]]. 
+by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate charts]].
 
-In particular one may consider smooth functions from the [[real line]] into any smooth manifold $X$, "smooth curves" in $X$. The [[equivalence classes]] of these that have the same first [[derivative]] at a given point capture the idea of "infinitsimal smooth paths" through that point in the manifold, called its _[[tangent vectors]]_. All the tangent vectors at one point $x \in X$ constitute the [[tangent space]] $T_x X$, and the collection of all these tangent spaces yields another differentiable manifold, called the _[[tangent bundle]]_ $T X$. This happens to be a [[vector bundle]] which is [[associated bundle|associated]] to a [[principal bundle]], called the _[[frame bundle]]_ $Fr(X)$. 
+In particular one may consider smooth functions from the [[real line]] into any smooth manifold $X$, "smooth curves" in $X$. The [[equivalence classes]] of these that have the same first [[derivative]] at a given point capture the idea of "infinitsimal smooth paths" through that point in the manifold, called its _[[tangent vectors]]_. All the tangent vectors at one point $x \in X$ constitute the [[tangent space]] $T_x X$, and the collection of all these tangent spaces yields another differentiable manifold, called the _[[tangent bundle]]_ $T X$. This happens to be a [[vector bundle]] which is [[associated bundle|associated]] to a [[principal bundle]], called the _[[frame bundle]]_ $Fr(X)$.
 
 By equipping the [[tangent bundle]] or [[frame bundle]] of a differentiable manifold with [[extra properties]] or [[extra structure]] one encodes _[[geometry]]_ on the manifold. For example equipping them with [[orthogonal structure]] encodes [[Riemannian geometry]] on manifolds. More generally one may consider any _[[G-structure]]_ on the frame bundle and thereby equip the manifold with the corresponding _[[Cartan geometry]]_, for instance _[[complex geometry]]_, _[[conformal geometry]]_ etc.
 
@@ -33,16 +33,16 @@ This way differential and smooth manifolds are the basis for [[differential geom
 
 If one relaxes the condition on differentiable manifold from it being locally isomorphic to a Euclidean space to it just admitting local smooth maps from a Euclidean space, then one obtains the more general concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this. If one generalizes here [[differentiable functions]] to [[simplicial algebra|simplicial]] differentiable functions one obtains concepts of _[[derived smooth manifold]]_.
 
-The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]]. 
+The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]].
 
 
 ## Definition
 
-For convenience, we first recall the basic definition of 
+For convenience, we first recall the basic definition of
 
 * [Topological manifolds](#TopologicalManifolds)
 
-and of 
+and of
 
 * [Differntiable functioons between Euclidean spaces](#DifferentiableFunctionsBetweenCartesianSpaces)
 
@@ -77,7 +77,7 @@ for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be a _$
 ###### Remark
 **(varying terminology)**
 
-Often a topological manifold (def. \ref{TopologicalManifold}) is required to be [[sigma-compact]]. But by [this prop.](topological#manifold#RegularityConditionsForTopologicalManifoldsComparison) this is not an extra condition as long as there is a [[countable set]] of [[connected components]]. 
+Often a topological manifold (def. \ref{TopologicalManifold}) is required to be [[sigma-compact]]. But by [this prop.](topological#manifold#RegularityConditionsForTopologicalManifoldsComparison) this is not an extra condition as long as there is a [[countable set]] of [[connected components]].
 Moreover, manifolds with uncountably many connected components are rarely considered in practice.
 
 =--
@@ -87,10 +87,10 @@ Moreover, manifolds with uncountably many connected components are rarely consid
 ###### Definition
 **([[local chart]], [[atlas]] and [[gluing function]])
 
-Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold}), then 
+Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold}), then
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/ChartsOfAManifold.png" width="400"> 
+<img src="https://ncatlab.org/nlab/files/ChartsOfAManifold.png" width="400">
 </div>
 
 
@@ -102,7 +102,7 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 
    $$
      U_{i j} \coloneqq U_i \cap U_j
-   $$ 
+   $$
 
    then the induced homeomorphism
 
@@ -140,26 +140,26 @@ between [[Euclidean spaces]].
 
 Let $n \in \mathbb{N}$ and let $U \subset \mathbb{R}^n$ be an [[open subset]].
 
-Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}$ is called  **differentiable** at $x\in U$ 
+Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}$ is called  **differentiable** at $x\in U$
 if there exists a [[linear map]] $d f_x : \mathbb{R}^n \to \mathbb{R}$ such that the following [[limit of a sequence|limit]]
 exists as $h$ approaches zero "from all directions at once":
 
-$$ 
-  \lim_{h\to 0} \frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} = 0. 
+$$
+  \lim_{h\to 0} \frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} = 0.
 $$
 
 This means that for all $\epsilon \in (0,\infty)$ there exists an [[open subset]] $V\subseteq U$ containing $x$ such that whenever $x+h\in V$ we have $\frac{f(x+h)-f(x) - d f_x(h)}{\Vert h\Vert} \lt \epsilon$.
 
 We say that $f$ is _differentiable on_ a [[subset]] $I$ of $U$ if $f$ is differentiable at every $x\in I$, and _differentiable_ if $f$ is differentiable on all of $U$. We say that $f$ is *continuously differentiable* if it is differentiable and  $d f$ is a [[continuous function]].
 
-The map $d f_x$ is called the **derivative** or **differential of $f$ at $x$**.  
+The map $d f_x$ is called the **derivative** or **differential of $f$ at $x$**.
 
-More generally, let $n_1, n_2 \in \mathbb{N}$ and let $U\subseteq \mathbb{R}^{n_1}$ be an [[open subset]]. 
+More generally, let $n_1, n_2 \in \mathbb{N}$ and let $U\subseteq \mathbb{R}^{n_1}$ be an [[open subset]].
 
 Then a [[function]] $f \;\colon\; U \longrightarrow \mathbb{R}^{n_2}$ is _differentiable_  if for all $i \in \{1, \cdots, n_2\}$ the component function
 
 $$
-  f_i \;\colon\; U \overset{f}{\longrightarrow} \mathbb{R}^{n_2} \overset{pr_u}{\longrightarrow}  \mathbb{R} 
+  f_i \;\colon\; U \overset{f}{\longrightarrow} \mathbb{R}^{n_2} \overset{pr_u}{\longrightarrow}  \mathbb{R}
 $$
 
 is differentiable in the previous sense
@@ -181,6 +181,36 @@ to the space of [[linear maps]] from $\mathbb{R}^{n_1}$ to $\mathbb{R}^{n_2}$, w
 
 Generally then, for $k \in \mathbb{N}$ the function $f$ is called _$k$-fold continuously differentiable_ or _of class $C^k$_ if the $k$-fold differential $d^k f$ exists and is a continuous function.
 
+Finally, if $f$ is $k$-fold continuously differentiable for all $k \in \mathbb{N}$ then it is called a _[[smooth function]]_
+or _of class $C^\infty$_.
+
+=--
+
+Of the various properties satisfied by [[differentiation]], the following plays a special role in the theory of 
+differentiable manifolds (notably in the discussion of their [[tangent bundles]]):
+
++-- {: .num_prop #ChainRuleOnEuclideanSpace}
+###### Proposition
+**([[chain rule]] for [[differentiable functions]] between [[Euclidean spaces]])**
+
+Let $n_1, n_2, n_3 \in \mathbb{N}$ and let 
+
+$$
+  \mathbb{R}^{n_1}
+    \overset{f}{\longrightarrow}
+  \mathbb{R}^{n_2}
+    \overset{g}{\longrightarrow}
+  \mathbb{R}^{n_3}
+$$
+
+be two [[differentiable functions]] (def. \ref{DifferentiableFunctionBetweenCartesianSpaces}). Then the
+[[derivative]] of their [[composition|composite]] is the composite of their derivatives:
+
+$$
+  d(g \circ f)_x = d g_{f(x)} \circ d f
+  \,.
+$$
+
 =--
 
 
@@ -194,27 +224,27 @@ Generally then, for $k \in \mathbb{N}$ the function $f$ is called _$k$-fold cont
 ###### Definition
 **(differentiable manifold)**
 
-For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ or _$C^p$-manifold_ for short is 
+For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ or _$C^p$-manifold_ for short is
 
 1. a [[topological manifold]] $X$ (def. \ref{TopologicalManifold});
 
 1. an [[atlas]] $\{\mathbb{R}^n \overset{\phi_i}{\to} X\}$ (def. \ref{Charts}) all whose [[gluing functions]]  (def. \ref{Charts}) are $p$ times continuously [[differentiable function|differentiable]] (def. \ref{DifferentiableFunctionBetweenCartesianSpaces}).
 
-A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds 
+A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds
 
 $$
   \left(X,\, \{\mathbb{R}^{n} \overset{\phi_i}{\to} U_i \subset X\}_{i \in I} \right)
    \overset{\phantom{AA}f\phantom{AA}}{\longrightarrow}
   \left(Y,\, \{\mathbb{R}^{n'} \overset{\psi_j}{\to} V_j \subset Y\}_{j \in J} \right)
-$$ 
+$$
 
-is 
+is
 
-* a [[continuous function]] $f \colon X \to Y$ 
+* a [[continuous function]] $f \colon X \to Y$
 
-such that 
+such that
 
-* for all $i \in I$ and $j \in J$ then 
+* for all $i \in I$ and $j \in J$ then
 
   $$
      \mathbb{R}^n
@@ -238,36 +268,6 @@ Hence there is a [[category]] [[Diff]]${}_p$ whose [[objects]] are $C^p$-[[diffe
 =--
 
 
-## Properties
-
-+-- {: .num_prop #OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}
-###### Proposition
-
-Let $X$ be a $k$-fold differentiable manifold and let $S \subset X$
-be an [[open subset]] of the underlying [[topological space]] $(X,\tau)$.
-
-Then $S$ carries the structure of a $k$-fold differentiable manifold such that the
-inclusion map $S \hookrightarrow X$ is an [[open embedding|open]]
-[[embedding of differentiable manifolds]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-Since the underlying [[topological space]] of $X$ is [[locally connected topological space|locally connected]] ([this prop.](topological+manifold#LocalPropertiesOfLocallyEuclideanSpace)) it is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)). 
-
-Therefore we are reduced to showing the statement for the case that $X$ has a single [[connected component]]. By [this prop](topological+manifold#RegularityConditionsForTopologicalManifoldsComparison) this implies that $X$ is [[second-countable topological space]].
-
-Now a [[subspace]] of a second-countable Hausdorff space is clearly itself second countable and Hausdorff. 
-
-Similarly it is immediate that $S$ is still [[locally Euclidean space|locally Euclidean]]: since $X$ is locally Euclidean every point $x \in S \subset X$ has a Euclidean neighbourhood in $X$ and since $S$ is open there exists an open ball in that (itself [[homeomorphism|homeomorphic]] to Euclidean space) which is a Euclidean neighbourhood of $x$ contained in $S$.
-
-For the differentiable structure we pick these Euclidean neighbourhoods from the given atlas.
-Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold differentiable follows since these are restrictions of the gluing functions for the atlas of $X$.
-
-=--
 
 
 ## Examples
@@ -286,24 +286,68 @@ Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped w
 ###### Example
 **([[n-spheres]] as [[smooth manifolds]])**
 
-For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manfold, with [[atlas]] consisting of the two [[local charts]] that are given by the [[inverse functions]] of the [[stereographic projection]] from the two poles of the sphere onto the [[equator|equatorial]] hyperplane 
+For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manfold, with [[atlas]] consisting of the two [[local charts]] that are given by the [[inverse functions]] of the [[stereographic projection]] from the two poles of the sphere onto the [[equator|equatorial]] hyperplane
 
 $$
   \left\{
-     \mathbb{R}^n 
+     \mathbb{R}^n
        \underoverset{\simeq}{\sigma^{-1}_i}{\longrightarrow}
      S^n
   \right\}_{i \in \{+,-\}}
   \,.
 $$
 
-By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \backslash \{0\} \to \mathbb{R}^n \backslash \{0\}$ is smooth.
+By the formulas given in [this prop.](stereographic+projection#StandardStereographicProjection) the induced [[gluing function]] $\mathbb{R}^n \backslash \{0\} \to \mathbb{R}^n \backslash \{0\}$ is a [[rational function]], and hence a [[smooth function]].
 
 Finally the $n$-sphere is a [[paracompact Hausdorff topological space]]. Ways to see this include:
 
-1.$S^n \subset \mathbb{R}^{n+1}$ is a [[compact subspace]] by the [[Heine-Borel theorem]]. Compact spaces are evidently also paracompact. Moreover, [[Euclidean space]], like any [[metric space]], is Hausdorff, and [[subspaces]] of Hausdorff spaces are Hausdorff.
+1. $S^n \subset \mathbb{R}^{n+1}$ is a [[compact subspace]] by the [[Heine-Borel theorem]]. Compact spaces are evidently also paracompact. Moreover, [[Euclidean space]], like any [[metric space]], is Hausdorff, and [[subspaces]] of Hausdorff spaces are Hausdorff;
 
 1. The $n$-sphere has an evident structure of a [[CW-complex]] and [[CW-complexes are paracompact Hausdorff spaces]].
+
+=--
+
++-- {: .num_example #OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}
+###### Example
+**([[open subsets]] of differentiable manifolds are again differentiable manifolds)**
+
+Let $X$ be a $k$-fold differentiable manifold and let $S \subset X$
+be an [[open subset]] of the underlying [[topological space]] $(X,\tau)$.
+
+Then $S$ carries the structure of a $k$-fold differentiable manifold such that the
+inclusion map $S \hookrightarrow X$ is an [[open embedding|open]]
+[[embedding of differentiable manifolds]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Since the underlying [[topological space]] of $X$ is [[locally connected topological space|locally connected]] ([this prop.](topological+manifold#LocalPropertiesOfLocallyEuclideanSpace)) it is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)).
+
+Therefore we are reduced to showing the statement for the case that $X$ has a single [[connected component]]. By [this prop](topological+manifold#RegularityConditionsForTopologicalManifoldsComparison) this implies that $X$ is [[second-countable topological space]].
+
+Now a [[subspace]] of a second-countable Hausdorff space is clearly itself second countable and Hausdorff.
+
+Similarly it is immediate that $S$ is still [[locally Euclidean space|locally Euclidean]]: since $X$ is locally Euclidean every point $x \in S \subset X$ has a Euclidean neighbourhood in $X$ and since $S$ is open there exists an open ball in that (itself [[homeomorphism|homeomorphic]] to Euclidean space) which is a Euclidean neighbourhood of $x$ contained in $S$.
+
+For the differentiable structure we pick these Euclidean neighbourhoods from the given atlas.
+Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold differentiable follows since these are restrictions of the gluing functions for the atlas of $X$.
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[general linear group]])**
+
+For $n \in \mathbb{N}$, the [[general  linear group]] $Gl(n,\mathbb{R})$
+is a smooth manifold 
+(as an [[open subspace]] of [[Euclidean space]] $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R} \simeq \mathbb{R}^{(n^2)})$,
+via example \ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds} and example \ref{DifferentiableManifoldCartesianSpace}).
+
+The group operations are [[smooth functions]] with respect to this smooth manifold structure, and thus $GL(n,\mathbb{R})$
+is a [[Lie group]].
 
 =--
 
@@ -331,7 +375,7 @@ Lecture notes include
 
 * {#Schlichtkrull08} [[Henrik Schlichtkrull]], _Differentiable manifolds_, 2008 ([pdf](http://www.math.ku.dk/~jakobsen/geom2/manusgeom2.pdf))
 
-See also 
+See also
 
 * Wikipedia, _[Differentiable manifold](https://en.wikipedia.org/wiki/Differentiable_manifold)_
 
