@@ -383,7 +383,7 @@ $$
   \,.
 $$
 
-Then a [[cone]] (def. \ref{Cone}) over this feee diagram with tip the [[singleton]] set $\ast$ is a _[[solution]]_ to
+Then a [[cone]] (def. \ref{Cone}) over this free diagram with tip the [[singleton]] set $\ast$ is a _[[solution]]_ to
 the [[equation]] $f(x) = g(x)$
 
 $$
