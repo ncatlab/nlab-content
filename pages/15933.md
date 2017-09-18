@@ -1,0 +1,10 @@
+
+## Related concepts
+
+* [[mapping class group]]
+
+## References
+
+* Wikipedia, _[Dehn twist](http://en.wikipedia.org/wiki/Dehn_twist)_
+
+[[!redirects Dehn twists]]
