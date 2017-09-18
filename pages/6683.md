@@ -82,3 +82,5 @@ See also
 * Nadav Drukker, [[Marcos Marino]], Pavel Putrov, _From weak to strong coupling in ABJM theory_ ([arXiv:1007.3837](http://arxiv.org/abs/1007.3837))
 
 [[!redirects ABJM model]]
+[[!redirects ABJM-model]]
+
