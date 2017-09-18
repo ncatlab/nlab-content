@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An "ex-space" is a general [[bundle]] of [[topological spaces]]/[[homotopy types]] (hence any map of spaces $E \to X$) equipped with a global [[section]] $X \to E$. More generally, an _ex-object_ in any [[category]] or [[(infinity,1)-category]] $\mathcal{C}$ is a [[diagram]] in $\mathcal{C}$ of the form
+
+$$
+  \array{
+    && E
+    \\
+    & \nearrow & \downarrow
+    \\
+    X &\underset{id}{\longrightarrow}& X
+  }
+  \,.
+$$
+
+(In an [[(infinity,1)-category]] this diagram is filled with a [[2-morphism]], a [[homotopy]]. Often this is considered in a [[category of fibrant objects]], or similar, presenting an $(\infty,1)$-category and then $E \to X$ is required to be a [[fibration]].)
+
+One may think of this as a parameterization of [[pointed objects]] over $X$. As such this is a topic in [[parameterized homotopy theory]]. For instance, passing to the fiberwise [[suspension spectra]] of an ex-space $E \to X$ yields a [[parameterized spectrum]] over $X$.
+
+When the ambient category $\mathcal{C}$ is suitably monoidal, then the category of ex-objects with its fiberwise [[smash product]] forms a [[monoidal fibration]]. See at [[dependent linear type theory]] for more on this.
+
+
+## References
+
+* {#MaySigurdsson04} [[Peter May]], J. Sigurdsson, section 1.3 and 8.5 of _[[Parametrized Homotopy Theory]]_ ([arXiv:math/0411656](http://arxiv.org/abs/math/0411656)) 
+
+
+[[!redirects ex-spaces]]
+
+[[!redirects ex-object]]
+[[!redirects ex-objects]]
