@@ -49,7 +49,7 @@ A **monoidal category** is a [[category]] $\mathcal{C}$ equipped with
       \mathcal{C}
    $$
 
-   called the **[[tensor product]]**, 
+   out of the [[product category]] of $\mathcal{C}$ with itself, called the **[[tensor product]]**, 
 
 1. an object
 
