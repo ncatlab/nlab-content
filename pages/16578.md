@@ -15,5 +15,5 @@ as the **oriented cartographic group**.  [[transitive action|Transitive]] [[perm
 
 ## References
 
-* [[Esquisse d'un programme]] (section 3)
+* [[Alexander Grothendieck]]. [[Esquisse d'un programme]] (section 3)
 * [[Gareth Jones]] and [[David Singerman]]. Maps, hypermaps, and triangle groups.  In _The Grothendieck Theory of Dessins d'Enfants_, [[L. Schneps]] (ed.), London Mathematical Society Lecture Note Series 200, Cambridge University Press, 1994.
