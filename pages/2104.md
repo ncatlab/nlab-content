@@ -283,8 +283,8 @@ A historical discussion by [[Zoran Škoda|one]] of the $n$labizants is here: [ma
 
 The [[quantization via the A-model]]-method is described in
 
-* [[Sergey Gukov]], [[Edward Witten]], _Branes and quantization_, [arxiv/0809.0305](hhttp://arxiv.org/abs/0809.0305) 
- {#GukovWitten08}
+* {#GukovWitten08} [[Sergey Gukov]], [[Edward Witten]], _Branes and quantization_, ([arxiv/0809.0305](http://arxiv.org/abs/0809.0305))
+ 
  
 The perspective of [[geometric quantization|geometric]] pre-quantization as a canonical construction in higher [[Lie theory]] is discussed in 
 
@@ -302,4 +302,3 @@ Some discussion of quantization in terms of [[Bohr toposes]] is in
 
 
 [[!redirects quantizations]]
-
