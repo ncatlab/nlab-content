@@ -10,7 +10,14 @@
 =--
 =--
 
+# Contents
+* automatic table of contents goes here
+{:toc}
 
+##Idea
+A **subtopos** of a topos is a generalization of the concept of a subspace of a [[topological space]].
+
+##Definition
 For $\mathcal{E}$ a [[topos]], a **subtopos** is another topos $\mathcal{F}$ equipped with a  [[geometric embedding]] $\mathcal{F} \hookrightarrow \mathcal{E}$.
 
 If this is an [[open geometric morphism]] (or an [[essential geometric morphism]]) one speaks of an **open subtopos** (an **essential subtopos**, respectively).
@@ -20,15 +27,19 @@ If this is an [[open geometric morphism]] (or an [[essential geometric morphism]
 
 * If $\mathcal{E}$ is a [[Grothendieck topos]] then subtoposes correspond to [[Lawvere-Tierney topologies]] $j$ on $\mathcal{E}$,  to [[localization|localizations]] of $\mathcal{E}$ as well as to [[closure operator|universal closure operators]] on $\mathcal{E}$.
 
-* The inclusions induce an ordering on the subtoposes of $\mathcal{E}$ that makes them a [[lattice]] with a co-Heyting algebra structure  i.e. the join operator has a left adjoint 'subtraction' operator.
+* The inclusions induce an ordering on the subtoposes of $\mathcal{E}$ that makes them a [[lattice]] with a [[co-Heyting algebra]] structure i.e. the join operator has a left adjoint _subtraction_ operator. This corresponds to a dual [[Heyting algebra]] structure on the Lawvere-Tierney topologies.
 
-* $\mathcal{E}$ (as every Grothendieck topos over $Set$) is the [[classifying topos]] of some [[geometric theory]] $T$ and it can be shown that subtoposes of $\mathcal{E}$ correspond precisely to  deductively closed quotient theories of $T$ (cf. Caramello (2009), thm.3.6 p.15) i.e. passage to a subtopos corresponds to adding further geometric axioms to $T$ - localizing geometrically amounts to theory refinement logically.
+* The _atoms in the lattice of subtoposes of $\mathcal{E}$ are precisely the Boolean two-valued subtoposes_ of $\mathcal{E}$ (cf. Caramello (2009) prop.10.1 p.58).
+
+* $\mathcal{E}$ (as every Grothendieck topos over $Set$) is the [[classifying topos]] of some [[geometric theory]] $T$ and it can be shown that subtoposes of $\mathcal{E}$ correspond precisely to **deductively closed quotient theories** of $T$ (cf. Caramello (2009), thm.3.6 p.15) i.e. passage to a subtopos corresponds to adding further geometric axioms to $T$ - localizing geometrically amounts to theory refinement logically.
 
 ##References
 
 * {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
 * [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1))
+
+* H. Forssell, _Subgroupoids and quotient theories_ , TAC **28** no.18 (2013) pp.541-551. ([pdf](http://www.emis.de/journals/TAC/volumes/28/18/28-18.pdf))
 
 * [[Peter Johnstone]], _Sketches of an [[Elephant]] I_, Oxford UP 2002. pp.195-223.
 
