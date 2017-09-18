@@ -146,7 +146,7 @@ The diagram appearing in prop. \ref{CategoriesAreSemicategoriesWithUnits} is a s
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #idempotents}
 ###### Proposition
 
 
