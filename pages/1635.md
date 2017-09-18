@@ -192,6 +192,11 @@ The first homotopy group, $\pi_1(X,x)$, is also called the _[[fundamental group]
 
 ## Properties
 
+### Relation to topological homotopy groups
+
+The simplicial homotopy groups of a Kan complex coincide with the homotopy groups of its [[geometric realization]], see e.g. ([Goerss-Jardine 96, page 60](#GoerssJardine96)).
+
+
 ### Relation to homotopy equivalence
 
 A morphism of simplicial sets which induces an [[isomorphism]] on all simplicial homotopy groups is called a [[weak homotopy equivalence]]. If it goes between [[Kan complexes]] then it is actually a [[homotopy equivalence]].
