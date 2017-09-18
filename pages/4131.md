@@ -162,6 +162,10 @@ This coverage is *not* in general a [[basis for the Grothendieck topology]], bec
 
 [[!redirects subbase for a topology]]
 [[!redirects subbasis for a topology]]
+
+[[!redirects sub-basis for a topology]]
+[[!redirects sub-bases for a topology]]
+
 [[!redirects subbases for a topology]]
 [[!redirects subbases for topologies]]
 [[!redirects subbase of a topology]]
@@ -195,3 +199,5 @@ This coverage is *not* in general a [[basis for the Grothendieck topology]], bec
 [[!redirects fundamental systems of neighborhoods]]
 [[!redirects fundamental system of neighbourhoods]]
 [[!redirects fundamental systems of neighbourhoods]]
+
+
