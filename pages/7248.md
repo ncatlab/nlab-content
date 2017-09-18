@@ -25,7 +25,7 @@ on [[simplicial homotopy theory]].
 
 
 
-There is also an article by Curtis with this name, from 1971.
+There is also an article by [[E. B. Curtis]] with this name, from 1971.
 
 We list the notions explained in the book for searchability. 
 
