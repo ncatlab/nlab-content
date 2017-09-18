@@ -1,18 +1,95 @@
 
 $$
-  Ext_{gr_\bullet \mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)
+  \begin{aligned}
+    d ( \xi_2^{2^k}  \otimes \xi_2^{2^k})
+    & = 
+    \overline{\Psi} (\xi_2^{2^k}) \otimes \xi_2^{2^k}
+    +  
+    \xi_2^{2^k} \otimes \overline{\Psi}(\xi_2^{2 k})
+    \\
+    & =
+    \underset{c_1}{\underbrace{\xi_1^{2^{k+1}} \otimes \xi_1^{2^k} \otimes \xi_2^{2^k}}}
+    \;+\; 
+    \underset{c_2}{\underbrace{\xi_2^{2^k} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}}}
+  \end{aligned}
 $$
 
 $$
-  \array{
-    \vdot & \vdots
+  \begin{aligned}
+    d ( \xi_1^{2^{k + 1}} \otimes \xi_1^{2^k} \xi_2^{2^k} )
+    & =
+    \xi_1^{2^k} \otimes \overline{\Psi}( \xi_1^{2^k} \xi_2^{2^k})
     \\
-    3 & h_0^3 & & &  {h_1^3}, {h_0^2 h_2}
+    & = 
+    \xi_1^{2^{k + 1}} 
+    \otimes
+    \left(
+      \xi_1^{2^k} \otimes 1
+        + 
+      1 \otimes \xi_1^{2^k}
+    \right)
+    \left(
+      \xi_2^{2^k} \otimes 1
+        +
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}
+        +
+      1 \otimes \xi_2^{2^k}
+    \right)
     \\
-    2 & h_0^2 & & h_1^2 & h_0 h_2
+    & =
+    \underset{b}{
+    \underbrace{
+      \xi_1^{2^{k + 1}} \otimes \xi_1^{2^{k+1}+ 2^k} \otimes \xi_1^{2^k}
+    }}
+      \;+\;
+    \underset{c_1}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k} \otimes \xi_2^{2^k}
+    }}
+      \;+\; 
+    \underset{a}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_2^{2^k} \otimes \xi_1^{2^k}
+    }}
+      \;+\;
+    \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}}
+  \end{aligned}
+$$
+
+$$
+  \begin{aligned}
+    d( \xi_1^{2^{k+1}} \xi^{2^k} \otimes \xi_1^{2^k} )
+    &
+    =
+    \overline{\Psi}( \xi_1^{2^{k+1}} \xi^{2^k} ) \otimes \xi_1^{2^k}
     \\
-    1& h_0 & h_1 & & h_2
-     \\
-     & 0 & 1 & 2& 3 & 4
-  }
+    & =
+    \left(
+      \xi_1^{2^{k+1}} \otimes 1
+        +
+      1 \otimes \xi_1^{2^{k+1}}
+    \right)
+    \left(
+      \xi_2^{2^k} \otimes 1
+        +
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}
+        +
+      1 \otimes \xi_2^{2^k}
+    \right)
+      \otimes
+    \xi_1^{2^k}
+    \\
+    & =
+    \xi_1^{2^{k+2}} \otimes \xi_1^{2^k} \otimes \xi_1^{2^k}
+      \;+\;
+    \underset{a}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_2^{2^k} \otimes \xi_1^{2^k}
+    }}
+      \;+\;
+    \underset{c_2}{\underbrace{
+      \xi_2^{2^k} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^k} 
+    }}
+      \;+\;
+    \underset{b}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1} + 2^k} \otimes \xi_1^{2^k}
+    }}
+  \end{aligned}
 $$
