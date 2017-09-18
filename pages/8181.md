@@ -22,7 +22,7 @@ As symplectic geometry naturally describes [[classical mechanics]] and, via [[ge
 
 ## Examples
 
-* A [[semisimple Lie group]] is canonical a 2-plectic manifold, with the canonical 3-form $\langle -, [-,-]\rangle$ on the [[Lie algebra]] (the canonical [[Lie algebra cohomology|Lie algebra cocycle]]), extended to a [[left invariant differential form]].
+* A [[semisimple Lie group]] is canonically a 2-plectic manifold, with the canonical 3-form $\langle -, [-,-]\rangle$ on the [[Lie algebra]] (the canonical [[Lie algebra cohomology|Lie algebra cocycle]]), extended to a [[left invariant differential form]].
 
 * A [[G2-manifold]] is manifold of [[dimension]] 7 characterized by carrying a 2-plectic form. 
 
