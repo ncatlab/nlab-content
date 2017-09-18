@@ -4572,8 +4572,53 @@ $$
 
 where the bottom map is the canonical one from def. \ref{InclusionOfBOnIntoBOnPlusOne}.
 
+The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical such maps 
+
+$$
+  \array{
+    B_{n_1} \times B_{n_2}
+      &\longrightarrow&
+    B_{n_1 + n_2}
+    \\
+    \downarrow && \downarrow
+    \\
+    B O(n_1) \times B O(n_2)
+     &\longrightarrow&
+    B O(n_1 + n_2)
+  }
+$$
+ 
+and which satisfy the evident versions of [[associativity]] and [[unitality]].
+
+Similarly, an **$S^2$-$(B,f)$-structure** is a compatible system
+
+$$
+  f_{2n} \colon B_{2n} \longrightarrow B O(2n)
+$$
+
+indexed only on the even natural numbers.
 
 =--
+
++-- {: .num_example #ExamplesOfBfStructures}
+###### Example
+
+Examples of $(B,f)$-structures (def. \ref{BfStructure}) include the following:
+
+1. $B_n = B O(n)$ and $f_n = id$ is **orthogonal structure** (or "no structure");
+
+1. $B_n = E O(n)$ and $f_n$ the [[universal principal bundle]]-projection is **[[framing]]-structure**;
+
+1. $B_n = B SO(n) = E O(n)/SO(n)$ the classifying space of the [[special orthogonal group]] and $f_n$ the canonical projection is **[[orientation]] structure**;
+
+1. $B_n = B Spin(n) = E O(n)/Spin(n)$ the classifying space of the [[spin group]] and $f_n$ the canonical projection is **[[spin structure]]**.
+
+Examples of $S^2$-$(B,f)$-structures include
+
+1. $B_{2n} = B U(n) = E O(2n)/U(n)$ the classifying space of the [[unitary group]], and $f_{2n}$ the canonical projection is **[[almost complex structure]]**.
+
+=--
+
 
 +-- {: .num_defn }
 ###### Definition
