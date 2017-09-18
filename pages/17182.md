@@ -82,7 +82,7 @@ $$
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-A _[[Omega-spectrum]]_ is a sequentiial prespectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahsv$pointed-hom [[adjuncts]]
+A _[[Omega-spectrum]]_ is a sequential prespectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahsv$pointed-hom [[adjuncts]]
 
 $$
   {\vert X_n\vert} \stackrel{}{\longrightarrow} {\vert X^{n+1}\vert}^{{\vert S^1\vert}}
