@@ -1,10 +1,23 @@
 $$
-  \Sigma X
-    \underset{\in W_{st}}{\longleftarrow} 
-  L_2 R_2 (\Sigma X) 
-    \underoverset{\in Iso \subset W_{st}}{L\tau}{\longrightarrow}
-  L_2 R_2 (X \wedge S^1)
-    \underset{\in W_{st}}{\longrightarrow}
-  X \wedge S^1
-  \,.
+  \array{  
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{i_X}} && {}^{\mathllap{i_X}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow 
+     && X \sqcup Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
+    \\
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow && X \times Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{p_X}} && {}_{\mathllap{p_Y}}\searrow
+    \\
+    X && && Y
+  }
 $$
+
