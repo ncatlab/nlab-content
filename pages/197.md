@@ -91,14 +91,14 @@ Conversely, let $X$ be a quiver with at most one edge $x\to y$ between any pair 
 
 +-- {: .num_prop #negneg_subcats} 
 ###### Proposition
-A quiver $X$ is separated for the double negation topology $\neg\neg$ precisely if there exists at most an edge $a\to b$ between any pair $(a,b)$ of vertices. $X$ is a $\neg\neg$-sheaf precisely if there exists a unique edge $a\to b$ between any pair $(a,b)$.$\hfill\Box$
+A quiver $X$ is separated for the double negation topology $\neg\neg$ precisely if there exists at most an edge $a\to b$ between any pair $(a,b)$ of vertices. $X$ is a $\neg\neg$-sheaf precisely if there exists a unique edge $a\to b$ between any pair $(a,b)$. $\Box$
 =--
 
-The corresponding the full subcategories are denoted by $Sep_{\neg\neg}(Quiv)$ and $Sh_{\neg\neg}(Quiv)$ , respectively. By generalities, it follows that $Sep_{\neg\neg}(Quiv)$ is a [[quasitopos]] and $Sh_{\neg\neg}(Quiv)$ is a [[Boolean topos]].
+The corresponding full subcategories are denoted by $Sep_{\neg\neg}(Quiv)$ and $Sh_{\neg\neg}(Quiv)$ , respectively. By generalities, it follows that $Sep_{\neg\neg}(Quiv)$ is a [[quasitopos]] and $Sh_{\neg\neg}(Quiv)$ is a [[Boolean topos]].
 
 Quivers that have at most one edge between any vertices can be called 'simple' with the caveat that contrary to (the usual concept of) a simple graph they are allowed to have loops.
 
-Since the edges of $\neg\neg$-separated quivers simply encode a binary endorelation on their vertex sets and being a morphism between $\neg\neg$-separated quivers then amounts to preserve that relation one sees that $Sep_{\neg\neg}(Quiv)$ and $Sh_{\neg\neg}(Quiv)$ are equivalent to the categories $EndoRel$ with objects $(X,\rho)$ where $X$ is a set and $\rho$ a binary endorelation on $X$, and, respectively, the category  $TotalRel$ of sets equipped the total relations. The latter can be identified with $Set$ since morphisms between sets equipped with the total relation behave just like ordinary functions between sets. 
+Since the edges of $\neg\neg$-separated quivers simply encode a binary endorelation on their vertex sets and being a morphism between $\neg\neg$-separated quivers then amounts to preserve that relation one sees that $Sep_{\neg\neg}(Quiv)$ and $Sh_{\neg\neg}(Quiv)$ are equivalent to the categories $EndoRel$ with objects $(X,\rho)$ where $X$ is a set and $\rho$ a binary endorelation on $X$, and, respectively, the category  $TotalRel$ of sets equipped with the total relation. The latter can be identified with $Set$ since morphisms between sets equipped with the total relation behave just like ordinary functions between sets. 
 
 
 ## Related entries
