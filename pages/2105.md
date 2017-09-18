@@ -5,7 +5,7 @@
 
 ## Idea
 
-A variety of algebras is a classical notion from [[universal algebra]] that includes nearly all of the usual kinds of algebraic objects, such as [[groups]], [[rings]], [[vector spaces]] (over a fixed [[field]]), and so on.  Those algebraic objects that don\'t form a variety of algebras, such as [[fields]], can still usually be easily described as a subclass of an algebraic variety (in this case, [[commutative rings]]).
+A variety of algebras is a classical notion from [[universal algebra]] that includes nearly all of the usual kinds of algebraic objects, such as [[groups]], [[rings]], [[vector spaces]] (over a fixed [[field]]), and so on.  Those algebraic objects that don\'t form a variety of algebras, such as [[fields]], can still usually be easily described as a subcategory of some variety of algebras (in this case, [[commutative rings]]).
 
 A variety of algebras is not to be confused with an [[algebraic variety]], although in fact there is a connection: both concepts are (roughly speaking) given by a set of equations, but an algebraic variety is the set of elements (of a fixed generic structure) that satisfy the equations, while a variety of algebras is the class of structures in which *every* element satisfies the equations.
 
@@ -16,7 +16,7 @@ A __signature__ (in this context) is a [[set]], whose elements are called __oper
 
 [^1]: For a finitary signature, we may without loss of generality use the set $V \coloneqq \{x_0, x_1, x_2, \ldots\}$, effectively the set of [[natural numbers]], as the only set of variables; similar remarks apply to other arity classes.
 
-An __algebraic variety__ is given precisely by a theory in this sense, but it is more usual to think of the variety as being the class (or [[category]]) of models, so we continue with the definitions.
+A __variety of algebras__ is given precisely by a theory in this sense, but it is more usual to think of the variety as being the class (or [[category]]) of models, so we continue with the definitions.
 
 Given a theory $T$, a __model__ or __algebra__ of $T$ consists of a [[set]] $A$ together with, for each operation of $T$ with arity $\kappa$, a [[function]] to $A$ from its $\kappa$th [[cartesian power]] $A^\kappa$ such that, for each axiom $\vdash v = w$ and each assignment of elements of $A$ to the variables in that axiom, the equation holds that is given by applying the operations to the elements of $A$ as indicated by the trees defining $v$ and $w$ (the meaning of which we hope is obvious).  We say that $A$ __carries__ the operations and __satisfies__ the axioms.
 
