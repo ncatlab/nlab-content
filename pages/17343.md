@@ -6561,7 +6561,7 @@ The model strcuture as claimed is immediate by inspection.
 +-- {: .num_example #ClassicalPointedHomotopyCategory}
 ###### Example
 
-For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$. Its [[homotopy category of a model category]] is the _[[classical pointed homotopy theory]]_ $Ho(Top^{\ast/})$. We discuss this in more detail starting with def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} below.
+For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$. Its [[homotopy category of a model category]] is the _pointed [[classical homotopy theory]]_ $Ho(Top^{\ast/})$. We discuss this in more detail starting with def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} below.
 
 =--
 
