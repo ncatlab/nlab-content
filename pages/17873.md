@@ -28,7 +28,7 @@ A **sufficiently cohesive topos** is a [[topos]] that has enough connected objec
 
 ## Terminological preliminaries
 
-Sufficient cohesion is a relative concept and requires minimally the presence of an [[essential geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$. Here we state it for an [[adjoint quadruple]]
+Sufficient cohesion is a relative concept and requires minimally the presence of an [[essential geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$. Here we state it for an [[adjoint quadruple]] between toposes 
 
 $$p_!\dashv p^* \dashv p_* \dashv p^!:\mathcal{S}\to\mathcal{E}$$
 
@@ -73,8 +73,31 @@ Following Lawvere ([2007](#Law07)) we have defined only sufficiently cohesively 
 
 ## Properties
 
+Let us first record some easy but useful facts concerning the interplay between connectedness and constancy.
+
+Recall that in a category with a terminal object a morphism $c:X\to Y$ is called _constant_ if $c$ factors through the [[terminal object]] $1$:
+$$X\overset{c}{\to} Y=X\overset{!_X}{\to}1\overset{c_\ast}{\to} Y\quad .$$
+
++-- {: .num_prop #constant_identity}
+###### Observation
+An object $X$ is a terminal object iff $id_X$ is constant.
+=--
+
+**Proof**. "$\Leftarrow$": By assumption $id_X=(id_X)_\ast\circ !_X$. Since $X$ has a point $(id_X)_\ast$ there exists for every object $Z$ at least one map $Z\to X$. Suppose then that $f$ is some map $Z\to X$:
+
+$$f=id_X\circ f=(id_X)_\ast\circ !_X\circ f=(id_X)_\ast\circ !_Z\quad .$$
+
+But the righthand side does not depend on $f$ hence it is the only map $Z\to X$. $\qed$
+
++-- {: .num_prop #constant_homotopy}
+###### Observation
+Let $X$ be an object in a weakly cohesive topos and $c:X\to X$ be a constant endomap such that $p_!(c)=p_!(id_X)$. Then $X$ is connected i.e. $p_!(X)=1$.
+=--
+
+**Proof**. Since by assumption $p_!(1)=1$, $p_!(c)$ and, accordingly, $p_!(id_X)=id_{p_!(X)}$ are constants. $\qed$
+
 +-- {: .num_prop #connected_retract}
-###### Proposition
+###### Observation
 In a weakly cohesive topos, retracts of connected objects are connected themselves.
 =--
 
@@ -111,7 +134,7 @@ The [[Sierpinski topos]] $Set^\to$ is weakly cohesive over $Set$ since there exi
 
 The Nullstellensatz fails as does the continuity principle. As a right adjoint $\Pi$ preserves all limits and the terminal object in particular whence $1$ is connected in $Set^\to$. Since the underlying category $\to$ satisfies the [[Ore condition]] trivially, it follows then from a general result[^bouquet] of Lawvere that $\Omega$ is not connected[^bouquet] and, accordingly, that the _Sierpinski topos is not sufficiently cohesive!_
 
-On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a connected subobject classifier but lacks the right adjoint $B$ nor does its connected components functor $\Pi$ preserve finite products.
+On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a connected subobject classifier but lacks the right adjoint $B$ nor does its connected components functor $\Pi$ preserve finite products. $\qed$
 =--
 
 [^bouquet]: (Theorem 12.2.3 in La Palme Reyes et al. ([2004](#RRZ04), p.221)). Of course, this can also easily be proved directly or read off the concrete objects and properties worked out in La Palme Reyes et al (2004) where the Sierpinski topos is called the category of bouquets.
