@@ -41,6 +41,11 @@ If $\mathcal{C}$ is even a [[topos]], then a proposition $Q$ in $\Gamma$ may be 
 
 In general, we may intuitively think of an object $A$ in the [[slice category]] $\mathcal{C}/\Gamma$ as the 'set' (object) of possible values of terms $t$ of type $A$ in context $\Gamma$, and think of a predicate $P$ with a free variable of type $A$ (in the same context) as being the 'subset' (subobject) on those $t$ for which the statement $P(t)$ is [[true]].
 
+## In type theory
+ {#InTypeTheory}
+
+In [[type theory]] under the _[[propositions as types]]_ paradigm, every [[type]] represents the proposition that it is [[inhabited type|inhabited]]. Hence the types which have at most one term may be identified with propositions ("propositions as some types"). In [[homotopy type theory]] these are the [[(-1)-types]]. The [[reflective subuniverse|reflection]] that sends types to their underlying proposition qua [[(-1)-truncation]] is the [[n-truncation modality]] for $n = (-1)$, also called [[bracket type]]-formation.
+
 
 ## Propositional and predicate logic
 
