@@ -139,7 +139,7 @@ The interpretation of the membrane as as an object related to [[string theory]],
 
 around the time when [[M-theory]] became accepted due to
 
-* {#Witten95} [[Edward Witten]], _String Theory Dynamics In Various Dimensions_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
  
 
 The interpretation of the M2-brane [[worldvolume]] theory as related to the matrix model of [[D0-branes]] is discussed in some detail in 
