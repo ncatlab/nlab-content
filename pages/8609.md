@@ -109,7 +109,7 @@ The following table shows how the [[natural deduction]] rules for dependent sum 
 For $\mathcal{C}$ a category with [[finite limits]] and $X \in \mathcal{C}$ an object, then dependent sum
 
 $$
-  \underset{X}{\sum} \mathcal{C}_{/X} \longrightarrow \mathcal{C}
+  \underset{X}{\sum}: \mathcal{C}_{/X} \longrightarrow \mathcal{C}
 $$ 
 
 [[preserved limit|preserves]] and [[reflected limit|reflects]] [[fiber products]].
