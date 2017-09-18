@@ -229,7 +229,7 @@ The definitions are reviewed for instance in
  
 * {#Ferolito} Ferolito _The octonions and $G_2$_ ([pdf](https://www2.bc.edu/~reederma/Ferolito.pdf))
 
-* {#Baez} [[John Baez]], _$G_2$_ ([web](http://math.ucr.edu/home/baez/octonions/node14.html))
+* {#Baez} [[John Baez]], section 4.1 _[G2](http://math.ucr.edu/home/baez/octonions/node14.html)_, of _The Octonions_ ([arXiv:math/0105155](http://arxiv.org/abs/math/0105155))
 
 * Ruben Arenas, _Constructing a Matrix Representation of the Lie Group $G_2$_, 2005 ([pdf](https://www.math.hmc.edu/seniorthesis/archives/2005/rarenas/rarenas-2005-thesis.pdf))
 
