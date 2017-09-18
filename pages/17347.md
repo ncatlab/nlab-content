@@ -3185,16 +3185,20 @@ $$
     \\
     && H(E, h \circ f)
   }
-  \,.
+  \,,
 $$
 
+where $g^{-1}$ denotes the operation of sending one equivalence class to the equivalenc class of any preimage under $g$ of any of its representatives.
+
 =--
+
+
 
 +-- {: .num_prop #CohomologicalSpectralSequenceOfAnExactCouple}
 ###### Proposition
 **(cohomological spectral sequence of an exact couple)**
 
-Given an exact couple, def. \ref{ExactCoupleAndDerivedExactCouple}, of the form
+Given an exact couple, def. \ref{ExactCoupleAndDerivedExactCouple}, 
 
 $$
   \array{
@@ -3206,7 +3210,7 @@ $$
   }
 $$
 
-then its derived exact couple 
+its derived exact couple 
 
 $$
   \array{
@@ -3228,8 +3232,6 @@ $$
     \\
     && E_r
   }
-  \;\;\;\;\;\;
-  for \; r \in \mathbb{N}
   \,.
 $$
 
@@ -3249,20 +3251,20 @@ $$
   \end{aligned}
 $$
 
-is a cohomological [[spectral sequence]], def. \ref{CohomologySpectralSequence}.
+is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}. 
 
-If for each bidegree $(s,t)$ there exists $R \gg 1$ such that for all $r \geq R$ 
+(As before in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple}, the notation $g^{-n}$ with $n \in \mathbb{N}$ denotes the function given by choosing, on representatives, a [[preimage]] under $g^n = \underset{n\;times}{\underbrace{g \circ \cdots \circ g \circ g}}$, with the implicit claim that all possible choices represent the same equivalence class.)
+
+If for every bidegree $(s,t)$ there exists $R_{s,t} \gg 1$ such that for all $r \geq R_{s,t}$ 
 
 1. $g \colon D^{s+R,t-R} \stackrel {\simeq}{\longrightarrow} D^{s+R -1, t-R-1}$;
 
-1. $g\colon D^{s-R+1, t+R-1} \stackrel{0}{\longrightarrow} D^{s-R,t+R-1}$ 
+1. $g\colon D^{s-R+1, t+R-2} \stackrel{0}{\longrightarrow} D^{s-R,t+R-1}$ 
 
 then this spectral sequence converges to the [[inverse limit]] group
 
 $$
-  G^\bullet 
-    \coloneqq 
-  \underset{\longleftarrow}{\lim}
+  G^\bullet \coloneqq \underset{}{\lim}
   \left(
     \cdots \stackrel{g}{\to} D^{s,\bullet-s} \stackrel{g}{\longrightarrow} D^{s-1, \bullet - s + 1}
    \stackrel{g}{\to}
@@ -3279,10 +3281,14 @@ $$
 
 =--
 
+(e.g. [Kochmann 96, lemma 2.6.2](#Kochmann96))
+
 +-- {: .proof}
 ###### Proof
 
-By exactness of the exact couple, the [[kernel]]
+We check the claimed form of the $E_\infty$-page:
+
+Since $ker(h) = im(g)$ in the exact couple, the kernel
 
 $$
   ker(d_{r-1}) \coloneqq ker(h \circ g^{-r+2} \circ f)
@@ -3291,13 +3297,15 @@ $$
 consists of those elements $x$ such that $g^{-r+2} (f(x)) = g(y)$, for some $y$, hence 
 
 $$
-  ker(d_{r-1}) = f^{-1}(g^{r-1}(D^{s+r-1,t-r+1}))
+  ker(d_{r-1})^{s,t} \simeq f^{-1}(g^{r-1}(D^{s+r-1,t-r+1}))
   \,.
 $$
 
-By assumption there is for each $(s,t)$ an $R$ such that for all $r \geq R$ then $ker(d_{r-1})$ is independent of $r$. 
+By assumption there is for each $(s,t)$ an $R_{s,t}$ such that for all $r \geq R_{s,t}$ then $ker(d_{r-1})^{s,t}$ is independent of $r$. 
 
-Moreover, $im(d_{r-1})$ consists of the image under $h$ of those $x$ such that $g^{r-2}(x)$ is in the image of $f$, hence (by exactness of the exact couple) such that $g^{r-2}(x)$ is in the kernel of $g$, hence such that $x$ is in the kernel of $g^{r-1}$. If $r \gt R$ then by assumption $g^{r-1} = 0$ and so then $im(d_{r-1}) = im(h)$.
+Moreover, $im(d_{r-1})$ consists of the image under $h$ of those $x \in D^{s-1,t}$ such that $g^{r-2}(x)$ is in the image of $f$, hence (since $im(f) = ker(g)$ by exactness of the exact couple) such that $g^{r-2}(x)$ is in the kernel of $g$, hence such that $x$ is in the kernel of $g^{r-1}$. If $r \gt R$ then by assumption $g^{r-1}|_{D^{s-1,t}} = 0$ and so then $im(d_{r-1}) = im(h)$.
+
+(Beware this subtlety: while $g^{R_{s,t}}|_{D^{s-1,t}}$ vanishes by the convergence assumption, the expression $g^{R_{s,t}}|_{D^{s+r-1,t-r+1}}$ need not vanish yet. Only the higher power $g^{R_{s,t}+ R_{s+1,t+2}+2}|_{D^{s+r-1,t-r+1}}$ is again guaranteed to vanish. ) 
 
 It follows that
 
@@ -3312,7 +3320,7 @@ $$
     f^{-1}(im(g^{R-1}))/im(h)
     \\
     &
-    \simeq
+    \underoverset{\simeq}{f}{\longrightarrow}
     im(g^{R-1}) \cap im(f)
     \\
     & 
@@ -3323,15 +3331,18 @@ $$
 
 where in last two steps we used once more the exactness of the exact couple.
 
-The last group is that of elements $x \in G^n$ which map to zero in $D^{p-1,n-p+1}$ and where two such are identified if they agree in $D^{p,n-p}$, hence indeed 
+{#InfinityPageIsSubgroupOfImageOfFirstPageUnderf}(Notice that the above equation means in particular that the $E_\infty$-page is a sub-group of the image of the $E_1$-page under $f$.)
+
+The last group above is that of elements $x \in G^n$ which map to zero in $D^{p-1,n-p+1}$ and where two such are identified if they agree in $D^{p,n-p}$, hence indeed 
 
 $$
   E_\infty^{p,n-p} \simeq F^p G^n / F^{p+1} G^n
   \,.
 $$
 
-
 =--
+
+
 
 +-- {: .num_remark #ExtensionProblemForSpectralSequences}
 ###### Remark
@@ -6032,7 +6043,7 @@ Composed with pullback along the [[Pontryagin-Thom collapse map]], the Thom isom
 
 The _[[Thom-Gysin sequence]]_ is a type of [[long exact sequence in cohomology]] induced by a [[spherical fibration]] and expressing the [[cohomology groups]] of the total space in terms of those of the base plus correction. The sequence may be obtained as a corollary of the [[Serre spectral sequence]] for the given fibration. It induces, and is induced by, the [[Thom isomorphism]].
 
-+-- {: .num_prop }
++-- {: .num_prop #ThomGysinSequence}
 ###### Proposition
 
 Let $R$ be a [[commutative ring]] and let
@@ -6357,14 +6368,32 @@ Observe that this has the following properties
 
 1. $E \overset{p}{\to} B$ is an [[n-sphere]] [[fiber bundle]], hence in particular a [[Serre fibration]];
 
-1. $E \overset{p}{\to} B$ has a global [[section]] $B \overset{s}{\to} E$ (given over any point $b \in B$ by the class of any point in the fiber of $S(V) \to B$ over $b$);
+1. the [[Thom space]] $Th(V)\simeq E/B$ is the quotient of $E$ by the base space, because of the [[pasting law]] applied to the following pasting diagram of [[pushout]] squares
 
-1. the [[Thom space]] $Th(V)\simeq E/B$ ((def. \ref{ThomSpace})) is the [[quotient topological space|quotient]] of $E$ by the base space, hence the [[reduced cohomology]] (def. \ref{ReducedGeneralizedCohomology}) of the Thom space is (def. \ref{ReducedToUnreducedGeneralizedCohomology}) the [[relative cohomology]] of $E$ relative $B$
+   $$
+     \array{ 
+       S(V) &\longrightarrow& D(V)
+       \\
+       \downarrow &(po)& \downarrow
+       \\
+       B &\longrightarrow& D(V)/_B S(V)
+       \\
+       \downarrow &(po)& \downarrow
+       \\
+       \ast &\longrightarrow& Th(V)
+     }
+   $$
+
+1. hence the [[reduced cohomology]] of the Thom space is ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedToUnreducedGeneralizedCohomology)) the [[relative cohomology]] of $E$ relative $B$
 
    $$
      \tilde H^\bullet(Th(V);R) \simeq H^\bullet(E,B;R)
      \,.
    $$
+
+1. $E \overset{p}{\to} B$ has a global [[section]] $B \overset{s}{\to} E$ (given over any point $b \in B$ by the class of any point in the fiber of $S(V) \to B$ over $b$; or abstractly: induced via the above pushout by the commutation of the projections from $D(V)$ and from $S(V)$, respectively).
+
+
 
 In the following we write $H^\bullet(-)\coloneqq H^\bullet(-;R)$, for short.
 
