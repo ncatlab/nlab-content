@@ -27,6 +27,8 @@ In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] 
 
 This instanton sea model suffers however from infrared divergencies that either require a finite-volume cutoff or appeal to other effects (e.g. [Witten 98](#Witten98)). 
 
+But [[lattice gauge field theory]] simulations demonstrate numerically that the QCD vacuum is filled with instantons (e.g. [Gruber 13, esp. sections 5 and 7](#Gruber13)). Whether or not their density and distribution may be or has been theoretically derived from first principles is still being discussed (e.g. [Schaefer 02](#Schaefer02))
+
 ## Experimental evidence
 
 An instanton vacuum is argued to account for
@@ -154,7 +156,7 @@ Discussion of instantons in [[lattice gauge theory]] includes
 
 Discussion of the $\eta'$-mass from instantons includes
 
-* [[Thomas Schaefer]], _QCD and the eta prime Mass: Instantons or Confinement?_, Phys.Rev. D67 (2003) 074502 ([arXiv:hep-lat/0211035](http://arxiv.org/abs/hep-lat/0211035))
+* {#Schaefer02} [[Thomas Schaefer]], _QCD and the eta prime Mass: Instantons or Confinement?_, Phys.Rev. D67 (2003) 074502 ([arXiv:hep-lat/0211035](http://arxiv.org/abs/hep-lat/0211035))
 
 
 [[!redirects instantons in QCD]]
