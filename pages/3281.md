@@ -87,7 +87,7 @@ An $Sp$-enriched category is a homotopy-theoretic analog of an [[Ab-enriched cat
 
 Hence:
 
-+-- {: .num_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 If if in prop. \ref{ModuleProp} there is just one compact generator $P \in \mathcal{C}$, then there is a one-object $Sp$-enriched category, hence an [[A-infinity algebra]] $A$, which is the [[endomorphisms]] $A \simeq End_{\mathcal{C}}(P)$, and the stable model category is its [[category of modules]]:
@@ -113,7 +113,7 @@ This may be thought of as a homotopy-theoretic analog of the [[Freyd-Mitchell em
 +-- {: .num_remark}
 ###### Remark
 
-Hence one way to read this is to say that presentable [[stable infinity-categories]] are a model for ("[[derived noncommutative geometry|derived]]") [[noncommutative geometry]].
+One way to read this is that [[formal duals]] of presentable [[stable infinity-categories]] are a model for [[spaces]] in ("[[derived noncommutative geometry|derived]]") [[noncommutative geometry]].
 
 =--
 
