@@ -756,12 +756,16 @@ Invariant polynomials for Lie algebras of [[simple Lie groups]] are disussed in
 
 A standard textbook account of the traditional theory is in volume III of 
 
-* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
- {#GHV}
+* {#GHV} [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+ 
 
 The notion of invariant polynomials of $L_\infty$-algebras has been introduced in 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos+--+references#SSSI">web</a>).
+
+The abstract characterization is due to 
+
+* {#FreedHopkins13} [[Daniel Freed]], [[Michael Hopkins]], _Chern-Weil forms and abstract homotopy theory_, Bull. Amer. Math. Soc. 50 (2013), 431-468 ([arXiv:1301.5959](http://arxiv.org/abs/1301.5959))
 
 An account in the more general context of Lie theory in [[cohesive (infinity,1)-toposes]] is in section 3.3.11 of 
 
