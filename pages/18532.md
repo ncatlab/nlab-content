@@ -30,7 +30,8 @@ $$
   }
 $$
 
-Regarding that we the distributions are not the maps from the underlying space we need to replace pre-composition $X\to\tilde{X}$ by the appropriate [[pullback of distributions]]; if $X\to\tilde{X}$ is an [[open embedding]] this will be the operation of [[restriction of distributions]] ([this example](pullback+of+a+distribution#RestrictionOfDistributions)) dual to the operation of extension by zero of test functions. 
+Regarding that we the distributions are not the maps from the underlying space we need to replace pre-composition $X\to\tilde{X}$ by the appropriate [[pullback of distributions]] always defined say if $X\to\tilde{X}$ is
+a submersion; in the case of an [[open embedding]]  (see [this example](pullback+of+a+distribution#RestrictionOfDistributions)) this operation is the _restriction of distributions_, the operation dual to the operation of extension by zero of test functions. 
 
 ## Definition
 
