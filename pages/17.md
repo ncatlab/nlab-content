@@ -733,7 +733,11 @@ Here are some useful specifics:
 
 ## survey of available math typesetting commands ##
 
-* [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html)
+* [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html) 
+
+This is worth perusing carefully; for example, did you know that subscripts and superscripts both to the left and right of an expression can easily be typeset using a \multiscripts command? For instance, typing \multiscripts{_0^2_1}{R}{_i^j_k} in math mode produces 
+
+$$\multiscripts{_0^2_1}{R}{_i^j_k}$$ 
 
 
 category: meta
