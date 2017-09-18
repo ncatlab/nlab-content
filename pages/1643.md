@@ -16,7 +16,7 @@
 
 ## Definitions
 
-A __binary operation__ on a [[set]] $S$ is a [[function]] $(-)\cdot (-) \colon S \times S \to S$ from the [[Cartesian product]] $S \times S$ to $S$.  A __magma__ (or binary algebraic structure) $(S,\cdot)$ is a set equipped with a binary operation on it. 
+A __binary operation__ on a [[set]] $S$ is a [[function]] $(-)\cdot (-) \colon S \times S \to S$ from the [[Cartesian product]] $S \times S$ to $S$.  A __magma__ (or binary algebraic structure, or, alternatively, a mono-binary algebra) $(S,\cdot)$ is a set equipped with a binary operation on it. 
 
 A magma is called
 
