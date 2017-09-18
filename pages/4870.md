@@ -36,9 +36,7 @@ In detail:
 
 * [[pasting diagram]]
 
-* Usual whiskering diagrams have 1-cells which constitute a *plane digraph*. 
-The *boundary walk* of the *exterior face* has arc-repetitions. (Two repetitions of multiplicity two, for that matter.)
-These terms are explained in [[digraph|plane digraphs]]. 
+* [[digraph|plane digraphs]] 
 
 ## References
 
