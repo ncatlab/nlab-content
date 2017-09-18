@@ -2,8 +2,16 @@ Physicist
 
 * [webpage](http://www.sns.ias.edu/dyson)
 
-##Related concepts
+## related $n$Lab entries
+
+* [[Dyson series]]
 
 * [[stability of matter]]
+
+* [[perturbation theory]]
+
+  * {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum
+electrodynamics_, Phys. Rev. 85, 631 (1952)
+
 
 category: people
