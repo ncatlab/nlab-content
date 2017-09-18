@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statetement
+
+Given a [[polynomial]] $P \in \mathbb{R}[X]$ over the [[real numbers]], we may regard it as a [[function]] $P \colon \mathbb{R} \longrightarrow \mathbb{R}$. If here $\mathbb{R}$ is regarded as a [[Euclidean space]] (equipped with its [[metric topology]]), then this is a [[continuous function]].
+
+
+## References
+
+The proof using [[epsilontic analysis]] is spelled out for instance in
+
+* Kyle Miller, _Polynomials are continuous functions_, 2014 ([pdf](https://math.berkeley.edu/~kmill/math1afa2014/poly.pdf))
+
