@@ -58,6 +58,8 @@ There are several different incarnations of the superstring.
 
     * [[type II superstring]], [[type I superstring]], [[heterotic superstring]]
 
+    * [[superstring in 3d]]
+
     * [[Freed-Witten anomaly cancellation]]
 
     * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
