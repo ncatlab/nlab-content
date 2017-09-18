@@ -13,16 +13,18 @@
 * table of contents
 {: toc}
 
-## Idea
+## Idead
+ {#Idea}
 
-A _compactum_, or _compact Hausdorff space_, is a [[space]] in which every [[limit of a sequence|limit]] that should exist does exist and does so uniquely. Slightly more generally, one sometimes wants to speak of a _compact regular space_.
+A _compact Hausdorff space_ or _compactum_, for short, is a [[topological space]] which is both a [[Hausdorff space]] as well as a [[compact space]].
+This is precisely the kind of topological space in which every [[limit of a sequence|limit]] of a [[sequence]] or more generally of a [[net]] that should exist does exist ([this prop.](net#CompactSpacesEquivalentlyHaveConvergetSubnets)) and does so uniquely ([this prop](#NetsDetectHausdorff)). 
 
-One can define this literally for [[topological spaces]], or in terms of [[convergence spaces|convergence]], or for [[locales]]; although these are all different contexts, the resulting notion of compactum is (at least assuming the [[axiom of choice]]) always the same.  Interestingly, there is even an algebraic definition, not one that uses only finitary operations, but one which uses a [[monad]]. 
+One may consider the analogous condition for [[convergence spaces]], or for [[locales]] (see also at _[Hausdorff locale](Hausdorff+space#HausdorffLocale)_ and _[[compact locale]]_). Even though these are all different contexts, the resulting notion of compactum is (at least assuming the [[axiom of choice]]) always the same.  Interestingly, there is even an algebraic definition, not one that uses only finitary operations, but one which uses a [[monad]]. 
 
 
 ## Definitions
 
-If you know what a [[compact space]] is and what a [[Hausdorff space]] is, then you know what a compact Hausdorff space is, so let\'s be fancy. (Full justifications will be provided in section on [compacta as algebras](http://ncatlab.org/nlab/show/compactum#algebras).) 
+If you know what a [[compact space]] is and what a [[Hausdorff space]] is, then you know what a compact Hausdorff space is, so let\'s be fancy. (Full justifications will be provided in section on [compacta as algebras](compactum#algebras).) 
 
 Given a [[set]] $S$, let $\beta S$ be the set of [[ultrafilters]] on $S$.  Note that $\beta$ is an [[endofunctor]] on [[Set]]; every [[function]] $f: S \to T$ induces a function $\beta f: \beta S \to \beta T$ using the usual application of functions to [[filters]].  In fact, $\beta$ is a [[monad]]; it comes with a [[natural transformation|natural]] (in $S$) unit $\eta_S: S \to \beta S$, which maps a point $x$ to the [[principal ultrafilter]] that $x$ generates, and multiplication $\mu_S: \beta \beta S \to \beta S$, which maps an ultrafilter $U$ on ultrafilters to the ultrafilter of sets whose principal ultrafilters of ultrafilters belong to $U$.  That is,
 
