@@ -141,6 +141,7 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 
 ## Related concepts
+ {#RelatedConcepts}
 
 One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of [[weak complicial sets]].
 
@@ -205,9 +206,11 @@ The relation between [[quasi-category|quasi-categories]] and [[simplicially enri
 
 * [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
 
-Related reviews includes
+Survey includes
 
 * [[Emily Riehl]], _Categorical homotopy theory_, Lecture notes ([pdf](http://www.math.harvard.edu/~eriehl/266x/lectures.pdf))
+
+* {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, 2016 ([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf ))
 
 An in-depth study of adjunctions between quasi-categories and the monadicity theorem is given in
 
@@ -218,18 +221,6 @@ An in-depth study of adjunctions between quasi-categories and the monadicity the
 
 
 
-## Discussion
-
-A previous version of this entry led to the following discussion.
-
-+-- {: .query}
-_Stephen Gaito_: If we want to weaken this even further to provide a simplicial model of, for example, a [[(∞,2)-category]], how would we do this?
-
-Would we apply the lifting condition on all but three of the indices... and if so which three?  (The first, last and ????)
-
-[[Mike Shulman]]: You may be looking for something along the lines of a [[weak complicial set]].
-
-=--
 
 
 
