@@ -5,7 +5,24 @@
 
 ## Idea
 
-A [[function]] from the [[real numbers]] to themselves which is [[constant function|constant]] everywhere except at one single point (or a [[finite number]] of points).
+Generally, a _step function_ is a  [[function]] from the [[real numbers]] to themselves which is [[constant function|constant]] everywhere except at one single point (or a [[finite number]] of points).
+
+Specifically the function
+
+$$
+  \Theta \colon x
+  \mapsto
+  \left\{
+    \array{
+      0 &\vert& x \lt 0
+      \\
+      1 &\vert& x \geq 0
+    }
+  \right.
+$$
+
+is sometimes called the _Heaviside step function_. If this is regarded as a [[distribution]] then it is also called the _Heaviside distribution_.
+
 
 ## References
 
@@ -18,3 +35,9 @@ A [[function]] from the [[real numbers]] to themselves which is [[constant funct
 
 [[!redirects Heaviside step function]]
 [[!redirects Heaviside step functions]]
+
+[[!redirects Heaviside distribution]]
+[[!redirects Heaviside distributions]]
+
+[[!redirects Heaviside step distribution]]
+[[!redirects Heaviside step distributions]]
