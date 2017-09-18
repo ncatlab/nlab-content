@@ -6,4 +6,6 @@
 
 * [[Adams spectral sequence]]
 
+* [[Steenrod algebra]]
+
 category: people
