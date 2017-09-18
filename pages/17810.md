@@ -89,11 +89,11 @@ Of course the category [[Vect]] has some special properties. Not only are its ob
 
 Let $\mathcal{C}$ be a [[category]].
 
-1. Say that $\mathcal{C}$ has **[[direct sums]]** if it has [[finite products]] and [[finite coproducts]] and if the canonical comparison  morphism between these is an [[isomorphism]]. We write $V \oplus W$ for the direct sum of two objects of $\mathcal{C}$ in this.
+1. Say that $\mathcal{C}$ has **[[direct sums]]** if it has [[finite products]] and [[finite coproducts]] and if the canonical comparison  morphism between these is an [[isomorphism]]. We write $V \oplus W$ for the direct sum of two objects of $\mathcal{C}$.
 
 1. Say that $\mathcal{C}$ is an **[[additive category]]** if it has [[direct sums]] and in addition it is [[Ab-enriched category|enriched in abelian groups]], meaning that every [[hom-set]] is equipped with the structure of an [[abelian group]] such that [[composition]] of morphisms is a [[bilinear map]].
 
-1.Say that $\mathcal{C}$ is an **[[abelian category]]** if it is an [[additive category]] and has property that its [[monomorphisms]] are precisely the inclusions of [[kernels]] and its [[epimorphisms]] are precisely the projections onto [[cokernels]].
+1. Say that $\mathcal{C}$ is an **[[abelian category]]** if it is an [[additive category]] and has property that its [[monomorphisms]] are precisely the inclusions of [[kernels]] and its [[epimorphisms]] are precisely the projections onto [[cokernels]].
 
 =--
 
@@ -112,7 +112,7 @@ and the underlying additive [[abelian group]] structure of these [[hom-spaces]] 
 
 In other words, a $k$-linear category is an [[abelian category]] with the additional structure of a [[Vect]]-[[enriched category]] (generally $k$[[Mod]]-enriched) such that the underlying [[Ab-enriched category|Ab-enrichment]] according to def. \ref{AdditiveAndAbelianCategories} is obtained from the $Vect$-enrichment under the [[forgetful functor]] $Vect \to Ab$.
 
-A [[functor]] between $k$-linear categories is called a **$k$-[[linear functor]]** if its component functions on [[hom-sets]] are [[linear maps]] with respect to the given $k$-linear structure.
+A [[functor]] between $k$-linear categories is called a **$k$-[[linear functor]]** if its component functions on [[hom-sets]] are [[linear maps]] with respect to the given $k$-linear structure, hence if it is a [[Vect]]-[[enriched functor]].
 
 =--
 
@@ -126,12 +126,13 @@ Here the abstract [[direct sum]] is the usual direct sum of [[vector spaces]], w
 For $V,W$ two $k$-vector spaces, the vector space structure on the [[hom-set]] $Hom_{Vect}(V,W)$ of [[linear maps]] $\phi \colon V \to W$ is given by "pointwise" multiplication and addition of functions:
 
 $$
-  (k_1 \phi_1 + k_2 \phi_2)
+  (c_1 \phi_1 + c_2 \phi_2)
   \;\colon\,
    v \;\mapsto\;
-   k_1 \phi_1(v) + k_2 \phi_2(v)
-  \,.
+   c_1 \phi_1(v) + c_2 \phi_2(v)
 $$
+
+for all $c_1, c_2 \in k$ and $\phi_1, \phi_2 \in Hom_{Vect}(V,W)$.
 
 
 =--
@@ -150,7 +151,7 @@ $$
 whose elements are [[equivalence classes]] of  [[tuples]] of elements $(v_1,v_2)$ with $v_i \in V_i$, for the [[equivalence relation]] given by
 
 $$
-  (k v_1 , v_2) \;\sim\; (v_1, k v_2)
+  (c v_1 , v_2) \;\sim\; (v_1, c v_2)
 $$
 
 $$
@@ -302,7 +303,7 @@ As expected, we have the following basic example:
 
 For $k$ a [[field]], the category [[Vect]]${}_k$ of $k$-[[vector spaces]] becomes a [[monoidal category]] (def. \ref{MonoidalCategory}) as follows
 
-* the abstract [[tensor product]] is the [[tensor product of vector spaces]] $\otimes_k$ from def. \ref{TensorProductOfVectorSpaces}
+* the abstract [[tensor product]] is the [[tensor product of vector spaces]] $\otimes_k$ from def. \ref{TensorProductOfVectorSpaces};
 
 * the [[tensor unit]] is the [[field]] $k$ itself, regarded as a 1-dimensional vector space over itself;
 
@@ -362,7 +363,7 @@ $$
   \,.
 $$
 
-This defines a [[category]], denoted $Vect^G$. Equip this category with a [[tensor product]] which on the underlying vector spaces is just the [[tensor product of vector spaces]] from def. \ref{TensorProductOfVectorSpaces}, equipped with the $G$-grading with is obtained by multiplying degree labels in $G$:
+This defines a [[category]], denoted $Vect^G$. Equip this category with a [[tensor product]] which on the underlying vector spaces is just the [[tensor product of vector spaces]] from def. \ref{TensorProductOfVectorSpaces}, equipped with the $G$-grading which is obtained by multiplying degree labels in $G$:
 
 $$
   (V \otimes W)_g
@@ -447,9 +448,10 @@ Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and 
 
 =--
 
-The above discussion makes it clear that a [[monoidal category]] is like a [[monoid]]/[[semi-group]], but "[[categorified]]". Accordingly we may consider additional properties of [[monoids]]/[[semi-groups]] and correspondingly lift them to monoidal categories. A key such property is _[[commutative ring|commutativity]]_. But while for a monoid, commutativity is just an extra [[property]], for a [[monoidal category]] it involves choices of commutativity-[[isomorphisms]] and hence is [[stuff, structure and property|extra structure]]. This might  seem like a subtle point, but in fact, as we will see [below](#SuperGroupsAsSuperHopfAlgebras), this is the very source of [[superalgebra]].
+The above discussion makes it clear that a [[monoidal category]] is like a [[monoid]]/[[semi-group]], but "[[categorified]]". Accordingly we may consider additional properties of [[monoids]]/[[semi-groups]] and correspondingly lift them to monoidal categories. A key such property is _[[commutative ring|commutativity]]_. But while for a monoid commutativity is just an extra [[property]], for a [[monoidal category]] it involves choices of commutativity-[[isomorphisms]] and hence is [[stuff, structure and property|extra structure]]. 
+We will see [below](#SuperGroupsAsSuperHopfAlgebras) that this is the very source of [[superalgebra]].
 
-The [[categorification]] of "commutativity" comes in two stages, [[braiding]] and [[symmetric monoidal category|symmetric braiding]].
+The [[categorification]] of "commutativity" comes in two stages: [[braiding]] and [[symmetric monoidal category|symmetric braiding]].
 
 +-- {: .num_defn #BraidedMonoidalCategory}
 ###### Definition
@@ -576,20 +578,20 @@ The [[tensor product]] of $\mathbb{Z}/2$-graded vector space is the [[tensor pro
 
 $$
   (V_1 \otimes V_2)_{even}
-    \coloneqq
-  (V_1)_{even} \otimes (V_2)_{even}
+    \;\coloneqq\;
+  \left((V_1)_{even} \otimes (V_2)_{even}\right)
     \oplus
-  (V_1)_{odd} \otimes (V_2)_{odd}
+  \left((V_1)_{odd} \otimes (V_2)_{odd}\right)
 $$
 
 and
 
 $$
   (V_1 \otimes V_2)_{odd}
-    \coloneqq
-  (V_1)_{even} \otimes (V_2)_{odd}
+    \;\coloneqq\;
+  \left((V_1)_{even} \otimes (V_2)_{odd}\right)
     \oplus
-  (V_1)_{odd} \otimes (V_2)_{even}
+  \left((V_1)_{odd} \otimes (V_2)_{even}\right)
   \,.
 $$
 
@@ -609,9 +611,9 @@ $$
 $$
 
 
-on the [[monoidal category]] $(Vect_k^{\mathbb{Z}/2}, \otimes_k)$ of $\mathbb{Z}/2$-[[graded vector spaces]] from def. \ref{Z2Zgradedvectorspaces}.
+on the [[monoidal category]] $(Vect_k^{\mathbb{Z}/2}, \otimes_k)$ of $\mathbb{Z}/2$-[[graded vector spaces]] from def. \ref{Z2Zgradedvectorspaces}:
 
-1. the **trivial braiding** whch is the [[natural transformation|natural]] [[linear map]] given on tuples $(v_1,v_2)$ representing an element in $V_1 \otimes V_2$ (according to def. \ref{TensorProductOfVectorSpaces}) by
+1. the **trivial braiding** which is the [[natural transformation|natural]] [[linear map]] given on tuples $(v_1,v_2)$ representing an element in $V_1 \otimes V_2$ (according to def. \ref{TensorProductOfVectorSpaces}) by
 
    $$
      \tau^{triv}_{V_1, V_2} \;\colon\; (v_1,v_2) \mapsto (v_2, v_1)
@@ -708,13 +710,13 @@ $$
   = 1
 $$
 
-Due to the symmetry condition,
+Due to the [[symmetric monoidal category<symmetry]] condition (def. \ref{SymmetricMonoidalCategory}) we have
 
 $$
   (\tau^{super}_{k^{0\vert 1}, k^{0 \vert 1}})^2 = id
 $$
 
-and hence
+which implies that
 
 $$
   \tau^{super}_{k^{0\vert 1}, k^{0 \vert 1}}
@@ -1050,7 +1052,7 @@ We write $MonFun(\mathcal{C},\mathcal{D})$ for the resulting [[category]] of lax
 +-- {: .num_remark #SymmetricMonoidalFunctor}
 ###### Remark
 
-In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a _strong monoidal functor_.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a _strong monoidal functor_.   
 
 If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**.
 
@@ -1087,68 +1089,6 @@ $$
 =--
 
 
-+-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
-###### Proposition
-
-Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}},1_{\mathcal{D}})$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}) and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them.
-
-Then for $(A,\mu_A,e_A)$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), its image $F(A) \in \mathcal{D}$ becomes a monoid $(F(A), \mu_{F(A)}, e_{F(A)})$ by setting
-
-$$
-  \mu_{F(A)}
-   \;\colon\;
-  F(A) \otimes_{\mathcal{C}} F(A)
-    \overset{}{\longrightarrow}
-  F(A \otimes_{\mathcal{C}} A)
-    \overset{F(\mu_A)}{\longrightarrow}
-  F(A)
-$$
-
-(where the first morphism is the structure morphism of $F$) and setting
-
-$$
-  e_{F(A)}
-    \;\colon\;
-  1_{\mathcal{D}}
-    \longrightarrow
-  F(1_{\mathcal{C}})
-    \overset{F(e_A)}{\longrightarrow}
-  F(A)
-$$
-
-(where again the first morphism is the corresponding structure morphism of $F$).
-
-This construction extends to a functor
-
-$$
-  Mon(F)
-   \;\colon\;
-  Mon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
-    \longrightarrow
-  Mon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
-$$
-
-from the [[category of monoids]] of $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) to that of $\mathcal{D}$.
-
-Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor
-
-$$
-  CMon(F)
-   \;\colon\;
-  CMon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
-    \longrightarrow
-  CMon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This follows immediately from combining the associativity and unitality (and symmetry) constraints of $F$ with those of $A$.
-
-=--
 
 
 
@@ -1529,6 +1469,11 @@ then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
 
 
 
+
+
+
+
+
 ## Commutative algebra in tensor categories and Affine super-spaces
  {#CommutativeAlgebraInTensorCategories}
 
@@ -1774,8 +1719,8 @@ The [[formal dual]] $Spec(A)$ of a supercommutative superalgebra $A$, according 
 
 =--
 
-+-- {: .num_defn #GrassmannAlgebra}
-###### Definition
++-- {: .num_example #GrassmannAlgebra}
+###### Example
 
 The [[supercommutative superalgebra]] which is [[free construction|freely generated]] over $k$ from $n$ generators
 $\{\theta_i\}_{i = 1}^n$ is the [[quotient]] of [[tensor algebra]] $T \mathbb{R}^n$ by the ideal generated by the 
@@ -1919,7 +1864,70 @@ are monoid homomorphisms, with $E \otimes E$ equipped with the above monoid stru
 
 
 
+Monoids are preserves by [[lax monoidal functors]]:
 
++-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
+###### Proposition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}},1_{\mathcal{D}})$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}) and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them.
+
+Then for $(A,\mu_A,e_A)$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), its image $F(A) \in \mathcal{D}$ becomes a monoid $(F(A), \mu_{F(A)}, e_{F(A)})$ by setting
+
+$$
+  \mu_{F(A)}
+   \;\colon\;
+  F(A) \otimes_{\mathcal{C}} F(A)
+    \overset{}{\longrightarrow}
+  F(A \otimes_{\mathcal{C}} A)
+    \overset{F(\mu_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where the first morphism is the structure morphism of $F$) and setting
+
+$$
+  e_{F(A)}
+    \;\colon\;
+  1_{\mathcal{D}}
+    \longrightarrow
+  F(1_{\mathcal{C}})
+    \overset{F(e_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where again the first morphism is the corresponding structure morphism of $F$).
+
+This construction extends to a functor
+
+$$
+  Mon(F)
+   \;\colon\;
+  Mon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  Mon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+$$
+
+from the [[category of monoids]] of $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) to that of $\mathcal{D}$.
+
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor
+
+$$
+  CMon(F)
+   \;\colon\;
+  CMon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  CMon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows immediately from combining the associativity and unitality (and symmetry) constraints of $F$ with those of $A$.
+
+=--
 
 
 
@@ -3751,6 +3759,11 @@ $$
   \omega(\pi(\mathcal{A}))
   \,.
 $$
+
+Here on the right we are using that $\omega$ is a [[strong monoidal functor]] so that it preserves 
+[[commutative monoids]] as well as [[comonoids]] by prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}, 
+hence preserves [[commutative Hopf algebras]].
+
 
 =--
 
