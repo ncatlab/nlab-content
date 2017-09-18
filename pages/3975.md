@@ -50,8 +50,8 @@ which satisfy the following axioms.
 
 * The following diagram commutes for any $X$.
   $$\array{F([I,X]) & \overset{\hat{F}}{\to} & [F(I),F(X)]\\
-  ^{\mathllap{F(j)}}\downarrow && \downarrow^{\mathrlap{[F^0 ,1]}}\\
-  F(X) & \underset{j}{\to} & [I,F(X)]}$$
+  ^{\mathllap{F(i^{-1})}}\downarrow && \downarrow^{\mathrlap{[F^0 ,1]}}\\
+  F(X) & \underset{i}{\to} & [I,F(X)]}$$
 
 * The following diagram commutes for any $X,Y,Z$.
   $$\array{F([Y,Z]) & \overset{F(L)}{\to} & F([[X,Y],[X,Z]]) & \overset{\hat{F}}{\to} & [F([X,Y]),F([X,Z])]\\
