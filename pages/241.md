@@ -37,7 +37,7 @@ Since smallness can be relative, we also have:
 
 +-- {: .num_defn}
 
-For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck topos__ over $S$ is a [[category of sheaves]] ($S$-valued [[presheaves]] satisfying the sheaf condition) over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$.
+For a given fixed [[ETCS|category of sets]] $S$, a __sGrothendieck topos__ over $S$ is a [[category of sheaves]] ($S$-valued [[presheaves]] satisfying the sheaf condition) over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$.
 =--
 
 Note that a Grothendieck topos is a [[topos]] because (or if) $S$ is.
@@ -58,6 +58,15 @@ By the general theory of [[geometric morphisms]], every Grothendieck topos sits 
 ## Properties
 
 ### General
+
++-- {: .num_prop #LocallyPresentable}
+###### Proposition
+
+Every Grothendieck topos is a [[locally presentable category]].
+
+=--
+
+([Borceux 94, vol 3, prop. 3.4.16](#Borceux94))
 
 +-- {: .num_prop #total}
 ###### Proposition
@@ -178,11 +187,12 @@ The theorem that every Grothendieck topos is [[cocomplete category|cocomplete]] 
 
 A quick introduction of the basic facts of sheaf-topos theory is chapter I, "Background in topos theory" in 
 
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, 
-Springer (1995)
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
 
 
-A standard textbook on this case is
+Textbook accounts include
+
+* {#Borceux94} [[Francis Borceux]], vol 3 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
