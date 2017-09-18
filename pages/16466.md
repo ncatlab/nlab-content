@@ -182,7 +182,11 @@ $$
 
 ### Schur functors
 
-The first step in the proof of the theorem is the proposition (prop. \ref{LenghtOfObjectIsBounded} below) that all objects that have subexponential growth of lenght (def. \ref{SubexponentialGrowth}) are actually annihilated by some [[Schur functor]] for the [[symmetric group]]. This is a (considerable) generalization of the familiar fact that for every [[finite dimensional vector space]] $V$ there exists an [[symmetric algebra|exterior power]] that vanishes, $\wedge^n V = 0$ (namely for all $n \gt dim (V)$). Similarly, if $V$ is a [[super vector space]] of dimension $(d,p)$, then the combined $(d+1)$st skew-symmetric tensor power and $(p+1)$st symmetric tensor power annihilates it. In this way prop. \ref{LenghtOfObjectIsBounded} below already goes a good way in the direction of establishing that all objects of bounded length, in the sense of def. \ref{LenghtOfObjectIsBounded}, behave like having underlying super-vector spaces.
+A [[finite dimensional vector space]] $V$ has the property that a high enough [[alternating power]] of it vanishes $\wedge^n V = 0$, namely this is the case for all $n \gt dim(V)$, and hence this vanishing is just another reflection of the finiteness of the [[dimension]] of $V$. For a [[super vector space]] $V$ of degreewise finite dimension the analog statement is still true if we also consider [[symmetric powers]]: for $n_{0} dim(V_0)$ and $n_1 \gt dim(V_1)$ then $Sym^{n_0 n_1} \wedge^{n_0} V = 0$.
+
+The operation of forming [[symmetric powers]] and [[alternating powers]] makes sense in every [[tensor category]]. Moreover, these operations are the two extreme cases of the more general concept of [[Schur functors]]: Given any [[object]] $X$ and given any choice of [[irreducible representation]] $V_\lambda$ of the [[symmetric group]] $\Sigma_n$, then one consider the [[subobject]] $S_\lambda(X^{\otimes^n})$ of the $n$-fold [[tensor power]] that is [[invariant]] under this action.
+
+The first step in the proof of the main theorem (theorem \ref{TheTheorem} below) is the proposition (prop. \ref{LenghtOfObjectIsBounded} below) that all objects that have subexponential growth of lenght (def. \ref{SubexponentialGrowth}) are actually annihilated by some [[Schur functor]] for the [[symmetric group]]. 
 
 
 +-- {: .num_defn #SchurFunctor}
@@ -267,7 +271,6 @@ For $V \in SuperVect_k$ a [[super vector space]] of super-dimension $(p\vert q)$
 
 =--
 
-### Fiber functor
 
 
 ### Supergroups
