@@ -43,38 +43,6 @@ $$
 $$
 
 
-### General abstract definition
- {#GeneralAbstractDefinition}
-
-We may abstractly formalize this in an [[(infinity,1)-topos]] $\mathbf{H}$ with [[differential cohesion]] as follows.
-
-Recall that a [[groupoid object in an (infinity,1)-topos]] is equivalently an [[1-epimorphism]] $X \longrightarrow \mathcal{G}$, thought of as exhibiting an [[atlas]] $X$ for the groupoid $\mathcal{G}$.
-
-Now an $\infty$-Lie algebroid is supposed to be an $\infty$-groupoid which is only infinitesimally extended over its base space $X$. Hence we are after those 1-epis $X \longrightarrow \mathcal{G}$ such that under the [[infinitesimal shape modality]] $\Im$ they become equivalences.
-
-For example the tangent $\infty$-Lie algebroid $T X$ of any $X$ is the [[unit of a monad|unit]] 
-
-$$
-  \eta^{\Im}_X \;\colon\; X \stackrel{}{\longrightarrow} \Im X
-  \,.
-$$
-
-It follows for instance that every such $\infty$-Lie algebroid $X \to \mathcal{G}$ canonically maps to the tangent $\infty$-Lie algebroid of $X$ (the anchor map). The naturatity square of the unit $\eta^{\Im}_{p}$ exhibits the morphism:
-
-$$
-  \array{
-     X & \stackrel{id}{\longrightarrow} & X
-     \\
-     \downarrow^{\mathrlap{p}} && \downarrow
-     \\
-      &&  \Im X
-     \\
-     \downarrow && \downarrow^{\mathrlap{\Im p}}_\simeq
-     \\
-     \mathcal{G}
-     &\stackrel{\eta^{\Im}_{\mathcal{G}}}{\longrightarrow}& \Im \mathcal{G}
-  }
-$$
 
 
 ### Presentation by dg-algebras and simplicial presheaves
@@ -110,7 +78,6 @@ be the [[full subcategory]] on the [[opposite category]] of cochain [[dg-algebra
 
 We call this the category of **$L_\infty$-algebroids**.
 
-=--
 
 More in detail, an object $\mathfrak{a} \in L_\infty Algd$ may be identified (non-canonically) with a pair $(CE(\mathfrak{a}), X)$, where
 
@@ -296,6 +263,40 @@ We do not consider the standard [[model structure on dg-algebras]] and do not co
 
 =--
 
+### General abstract definition
+ {#GeneralAbstractDefinition}
+
+We may abstractly formalize this in an [[(infinity,1)-topos]] $\mathbf{H}$ with [[differential cohesion]] as follows.
+
+Recall that a [[groupoid object in an (infinity,1)-category]] is equivalently an [[1-epimorphism]] $X \longrightarrow \mathcal{G}$, thought of as exhibiting an [[atlas]] $X$ for the groupoid $\mathcal{G}$.
+
+Now an $\infty$-Lie algebroid is supposed to be an $\infty$-groupoid which is only infinitesimally extended over its base space $X$. Hence: 
+
+A groupoid object $p \colon X \longrightarrow \mathcal{G}$ is _infinitesimal_ if under the [[reduction modality]] $\Re$ (equivalently under the [[infinitesimal shape modality]] $\Im$) the [[atlas]] becomes an [[equivalence in an (infinity,1)-category|equivalence]]: $\Re(p), \Im(p) \in Equiv$.
+
+For example the tangent $\infty$-Lie algebroid $T X$ of any $X$ is the [[unit of a monad|unit]] of the [[infinitesimal shape modality]].
+
+$$
+  \eta^{\Im}_X \;\colon\; X \stackrel{}{\longrightarrow} \Im X
+  \,.
+$$
+
+It follows that every such $\infty$-Lie algebroid $X \to \mathcal{G}$ canonically maps to the tangent $\infty$-Lie algebroid of $X$ -- the _anchor map_. The naturality square of the unit $\eta^{\Im}_{p}$ exhibits the morphism:
+
+$$
+  \array{
+     X & \stackrel{id}{\longrightarrow} & X
+     \\
+     \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{\eta^\Im_X}}
+     \\
+      &&  \Im X
+     \\
+     \downarrow && \downarrow^{\mathrlap{\Im p}}_\simeq
+     \\
+     \mathcal{G}
+     &\stackrel{\eta^{\Im}_{\mathcal{G}}}{\longrightarrow}& \Im \mathcal{G}
+  }
+$$
 
 
 ## Properties
