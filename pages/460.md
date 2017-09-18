@@ -627,6 +627,11 @@ The following non-example shows that sobriety is not a hereditary separation pro
 * The [[Alexandroff topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words ([[lists]]) with the "extends" preorder), then the soberification of its Alexandroff topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words ([[streams]]).
 
 
+## Related concepts
+
+* [[nice topological space]]
+
+
 ## References
 
 * {#Johnstone82} [[Peter Johnstone]], section II.1, from II.1 on in _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
@@ -644,7 +649,7 @@ The following non-example shows that sobriety is not a hereditary separation pro
 [[!redirects sober topologies]]
 [[!redirects sober space]]
 [[!redirects sober spaces]]
-
+#
 [[!redirects soberification]]
 [[!redirects soberifications]]
 
