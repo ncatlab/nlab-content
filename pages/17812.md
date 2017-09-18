@@ -1432,7 +1432,7 @@ on $SuperFormalSmoothset$ that is induced via the above procedure from the
 system of adjunctions in prop. \ref{SuperSmoothSetsSystemOfAdjunctions} as follows:
 
 $$
-  \array{
+  \begin{array}{ccccccccc}
     id &\dashv& id
     \\
     \vee && \vee
@@ -1445,12 +1445,12 @@ $$
     \\
     && && \vee && \vee
     \\
-    && && &#643; &\dashv&  \flat && \sharp
+    && && &#643; &\dashv&  \flat &\dashv& \sharp
     \\
     && && && \vee && \vee
     \\
     && && && \emptyset &\dashv& \ast
-  }
+  \end{array}
 $$
 
 Sometimes it is useful to re-arrange this diagram equivalently as follows. Here we label each
