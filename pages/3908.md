@@ -4,3 +4,4 @@ category: people
 
 [[!redirects P. Etingof]]
 [[!redirects Etingof]]
+[[!redirects Pavel Etinghof]]
