@@ -115,6 +115,7 @@ $E$-orientations of manifolds (def. \ref{EOrientationOfAManifold}) are equivalen
 (e.g. [Rudyak 98, chapter V, theorem 2.4](#Rudyak98)) (also [Kochmann 96, prop. 4.3.5](#Kochmann96), but maybe that proof needs an extra argument)
 
 #### Universal orientation of vector bundles
+ {#UniversalOrientationOfVectorBundles}
 
 +-- {: .num_remark}
 ###### Remark
