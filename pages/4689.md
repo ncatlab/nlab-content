@@ -93,13 +93,15 @@ Some of the standard lore about necessity of and the problems of quantum gravity
 
 * [[Hermann Nicolai]], _Quantum Gravity: the view from particle physics_ ([arXiv:1301.5481](http://arxiv.org/abs/1301.5481))
 
+* [[Steven Carlip]], Dah-Wei Chiou, Wei-Tou Ni, Richard Woodard, _Quantum Gravity: A Brief History of Ideas and Some Prospects_, Int. J. Mod. Phys. D  ([arXiv:1507.08194](http://arxiv.org/abs/1507.08194))
+
 Exposition from the point of view of [[worldline formalism]] is in
 
 * {#Witten11} [[Edward Witten]], _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
 
 ### Non-renormalizablity
 
-That [[Einstein gravity]] is not pertrubatively [[renormalization|renormaliable]] was shown in 
+That [[Einstein gravity]] is not pertrubatively [[renormalization|renormalizable]] was shown in 
 
 * M. H. Goroff, A. Sagnotti, _Quantum Gravity At Two Loops_, Phys. Lett. B 160 (1985) 81.
 
