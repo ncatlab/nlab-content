@@ -28,19 +28,19 @@ In a context of [[synthetic differential geometry]]/[[differential cohesion]] th
 A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]] forming two pairs of [[adjoint modalities]]
 
 $$
-  Red \dashv &#643;_{inf} \dashv \flat_{inf}
+  \Re \dashv \Im \dashv \&
   \,,
 $$
 
-where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
+where $\Re$ and $\& $ are [[idempotent monad|idempotent]] [[comonads]] and $\Im$ is an [[idempotent monad]].
 
-Here $\flat_{inf}$ is the **infinitesimal flat modality**. 
+Here $\& $ is the **infinitesimal flat modality**. 
 
 ## Properties
 
 ### Relation to crystalline cohomology
 
-For $A$ a [[geometric homotopy type]], $\flat_{inf} A $ is the [[coefficient]]
+For $A$ a [[geometric homotopy type]], $\& A $ is the [[coefficient]]
 for [[crystalline cohomology]] with [[coefficients]] in $A$. See there for more.
 
 ## Related concepts
