@@ -33,9 +33,9 @@ $Top_{Quillen}$ and $sSet_{Quillen}$, the [[classical model structure on simplic
 There are also other model structures on [[Top]] itself, see at _[[model structure on topological spaces]]_ for more. This entry here focuses on just the classical model structure on topological spaces.
 
 
-## Background from algebraic topology
+## Background from point-set topology
 
-This section recalls basic relevant concepts from [[algebraic topology]] and highlights some basic facts that may serve to motivate the Quillen model structure.
+This section recalls basic relevant concepts from [[topology]] ("point-set topology") and highlights some basic facts that may serve to motivate the Quillen model structure below.
 
 ### Homotopy
 
@@ -640,11 +640,139 @@ $$
   \,.
 $$
 
-
-
 =---
 
++-- {: .num_prop #SerreFibrationGivesExactSequenceOfHomotopyGroups}
+###### Proposition
 
+Let $f\colon X \longrightarrow Y$ be a [[Serre fibration]], def. \ref{SerreFibration}, let $y \colon \ast \to Y$ be any point and write 
+
+$$
+  F_y \overset{\iota}{\hookrightarrow} X \overset{f}{\longrightarrow} Y
+$$
+
+for the [[fiber]] inclusion over that point. Then for every choice $x \colon \ast \to X$ of lift of the point $y$ through $f$, the induced sequence of [[homotopy groups]]
+
+$$
+
+  \pi_{\bullet}(F_y, x)
+    \overset{\iota_\ast}{\longrightarrow}
+  \pi_\bullet(X, x)
+    \overset{f_\ast}{\longrightarrow}
+  \pi_\bullet(Y)
+$$
+
+is [[exact sequence|exact]], in that the [[kernel]] of $f_\ast$ is canonically identified with the [[image]] of $\iota_\ast$: 
+
+$$
+  ker(f_\ast) \simeq im(\iota_\ast)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear that the image of $\iota_\ast$ is in the kernel of $f_\ast$ (every sphere in $F_y\hookrightarrow X$ becomes constant on $y$, hence contractible, when sent forward to $Y$).
+
+For the converse, let $[\alpha]\in \pi_{\bullet}(X,x)$ be represented by some $\alpha \colon S^{n-1} \to X$. Assume that $[\alpha]$ is in the kernel of $f_\ast$. This means equivalently that $\alpha$ fits into a [[commuting diagram]] of the form
+
+$$
+  \array{
+    S^{n-1} &\overset{\alpha}{\longrightarrow}& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    D^n &\overset{\kappa}{\longrightarrow}& Y
+  }
+  \,,
+$$
+
+where $\kappa$ is the contracting homotopy witnessing that $f_\ast[\alpha] = 0$.
+
+Now since $x$ is a lift of $y$, there exists a [[left homotopy]] 
+
+$$
+  \eta  \;\colon\; \kappa \Rightarrow const_y
+$$ 
+
+as follows:
+
+$$
+  \array{
+    && S^{n-1} &\overset{\alpha}{\longrightarrow}& X
+    \\
+    && {}^{\mathllap{\iota_n}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    && D^n &\overset{\kappa}{\longrightarrow}& Y
+    \\
+    && \downarrow^{\mathrlap{(id,1)}} && \downarrow^{\mathrlap{id}}
+    \\
+    D^n &\overset{(id,0)}{\longrightarrow}& D^n \times I &\overset{\eta}{\longrightarrow}& Y
+    \\
+    \downarrow && &&  \downarrow
+    \\
+    \ast && \overset{y}{\longrightarrow} && Y
+  }
+$$
+
+(for instance: regard $D^n$ as embedded in $\mathbb{R}^n$ such that $0 \in \mathbb{R}^n$ is identified with the basepoint on the boundary of $D^n$ and set $\eta(\vec v,t) \coloneqq \kappa(t \vec v)$).
+
+The [[pasting]] of the top two squares that have appeared this way is equivalent to the following commuting square
+
+$$
+  \array{
+    S^{n-1} &\longrightarrow& &\overset{\alpha}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{(id,1)}}\downarrow 
+    &&
+    && \downarrow^{\mathrlap{f}}
+    \\
+    S^{n-1} \times I 
+      &\overset{(\iota_n, id)}{\longrightarrow}& 
+    D^n \times I 
+      &\overset{\eta}{\longrightarrow}& 
+    Y
+  }
+  \,.
+$$
+
+Because $f$ is a [[Serre fibration]], this has a [[lift]] 
+$$
+  \tilde \eta \;\colon\; S^{n-1} \times I \longrightarrow X
+  \,.
+$$
+(Explicitly: consider the restriction of the horizontal maps to the upper and lower hemisphere $S_\pm^{n-1} \simeq D^{n-1}$ of $S^{n-1}$, respectively. Both these restricted diagrams have a lift by the immediate definition of Serre fibration, and both lifts glue along the equator and hence give a lift in the above diagram).
+
+Notice that $\tilde \eta$ is a basepoint preserving [[left homotopy]] from $\alpha = \tilde \eta|_1$ to some $\alpha' \coloneqq \tilde \eta|_0$. Being homotopic, they represent the same element of $\pi_{n-1}(X,x)$:
+
+$$
+  [\alpha'] = [\alpha]
+  \,.
+$$
+
+But the new representative $\alpha'$ has the special property that its image in $Y$ is not just trivializable, but trivialized:
+combining $\tilde \eta$ with the previous diagram shows that it sits in the following commuting diagram
+
+$$
+  \array{
+    \alpha' \colon & S^{n-1} &\overset{(id,0)}{\longrightarrow}& S^{n-1}\times I &\overset{\tilde \eta}{\longrightarrow}& X
+    \\
+    & \downarrow^{\iota_n} && \downarrow^{\mathrlap{(\iota_n,id)}} && \downarrow^{\mathrlap{f}}
+    \\
+    & D^n &\overset{(id,0)}{\longrightarrow}& D^n \times I &\overset{\eta}{\longrightarrow}& Y
+    \\
+    & \downarrow && &&  \downarrow
+    \\
+    & \ast && \overset{y}{\longrightarrow} && Y
+  }
+  \,.
+$$
+
+The commutativity of the outer square says that $f_\ast \alpha'$ is constant, hence that $\alpha'$ is entirely contained in the fiber $F_y$. Said more abstractly, the [[universal property]] of [[fibers]] gives that $\alpha'$ factors through $F_y\overset{\iota}{\hookrightarrow} X$, hence that $[\alpha'] = [\alpha]$ is in the image of $\iota_\ast$.
+
+=--
 
 
 ## Background from model category theory
@@ -946,8 +1074,9 @@ and as usual:
 
 
 ### Technical lemmas
+ {#TechnicalLemmas}
 
-The [[proof]] ([below](#VerificationOfTopQuillen)) that def. \ref{ClassesOfMorhismsInTopQuillen} defines a [[model category]] structure involves two technical lemmas which concern the special nature of [[topological spaces]].  With these two lemmas in hand, the rest of the proof is a routine argument in model category theory.
+The [[proof]] ([below](#VerificationOfTopQuillen)) that def. \ref{ClassesOfMorhismsInTopQuillen} defines a [[model category]] structure involves two technical lemmas which concern the special nature of [[topological spaces]] ("point-set topology").  With these two lemmas in hand, the rest of the proof is a routine argument in model category theory.
 
 +-- {: .num_lemma #CompactSubsetsAreSmallInCellComplexes}
 ###### Lemma
@@ -1076,7 +1205,6 @@ By lemma \ref{SaturationOfGeneratingCofibrations} an $I_{Top}$-[[injective morph
 
 **C) Acyclic Serre fibrations are in particular $I_{Top}$-[[injective morphisms]]**
 
-([Hirschhorn 15, section 6](#Hirschhorn15)).
 
 Let $f\colon X \to Y$ be a Serre fibration that induces isomorphisms
 on homotopy groups. In degree 0 this means that $f$ is an isomorphism on [[connected components]], and this means that there is a lift in every [[commuting square]] of the form
@@ -1133,7 +1261,7 @@ $$
   \,.
 $$
 
-It is now sufficient to show that any such $\kappa'$ may be deformed tho a $\rho'$ which keeps making this upper triangle commute but also makes the remaining lower triangle commute.
+It is now sufficient to show that any such $\kappa'$ may be deformed to a $\rho'$ which keeps making this upper triangle commute but also makes the remaining lower triangle commute.
 
 To that end, notice that by the commutativity of the original square, we already have at least this commuting square:
 
@@ -1148,7 +1276,7 @@ $$
   \,.
 $$
 
-This induces the universal map from the [[pushout]] of its [[cospan]] in the top left, which is the [[n-sphere]] (see [this](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself) example):
+This induces the universal map $(\kappa,f \circ \kappa')$ from the [[pushout]] of its [[cospan]] in the top left, which is the [[n-sphere]] (see [this](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself) example):
 
 $$
   \array{
@@ -1251,20 +1379,14 @@ $$
   \,.
 $$
 
-It is now sufficient to show that every situation like this, for $f$ a Serre fibration, we may further deform the lift such as to make the diagram genuinely commute.
-
-(...)
-
-...use remark \ref{SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions} to build a deformation...
-
-(...)
+It is now sufficient to show that every situation like this, for $f$ a Serre fibration, we may further deform the lift such as to make the diagram genuinely commute. This works by the same argument as in the proof of prop. \ref{SerreFibrationGivesExactSequenceOfHomotopyGroups}.
 
 =--
 
 ### Verification of the axioms
  {#VerificationOfTopQuillen}
 
-We use the above to prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satifies the conditions for a [[model category]] structure on the category [[Top]].
+We use the lemmas [above](#TechnicalLemmas) to prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure on the category [[Top]].
 
 +-- {: .num_prop #QuillenWeakEquivalencesSatisfyTwoOutOfThree}
 ###### Proposition
@@ -1424,7 +1546,7 @@ define a [[model category]] structure, $Top_{Quillen}$.
 
 ### The homotopy theory
 
-(...)
+We may now pass to the [[homotopy category of a model category]] and find [[Ho(Top)]] the "[[classical homotopy category]]" (or maybe "Quillen-Serre homotopy category"). For discussion of the [[Quillen equivalence]] to the [[classical model structure on simplicial sets]] (the "[[homotopy hypothesis]]"), see there.
 
 +-- {: .num_remark} 
 ###### Remark
