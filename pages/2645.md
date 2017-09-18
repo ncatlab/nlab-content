@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include infinity-Chern-Weil theory - contents]]
 =--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Differential cohomology
 +--{: .hide}
 [[!include differential cohomology - contents]]
