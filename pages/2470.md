@@ -77,10 +77,16 @@ Notice that the [[derived category]] of coherent sheaves on a variety does _not_
 
 ## References
 
-* L. Katzarkov, M. Kontsevich, T. Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv:0806.0107](http://arxiv.org/abs/0806.0107)
+Survey includes
+
+* [[Maxim Kontsevich]], _Geometry in triangulated categories_, talk at _[New Spaces for Mathematics & Physics](http://ercpqg-espace.sciencesconf.org/program)_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=XnmO9RAbl50))
+
+Original articles include
+
+* L. Katzarkov, [[Maxim Kontsevich]], [[Tony Pantev]], _Hodge theoretic aspects of mirror symmetry_, [arxiv:0806.0107](http://arxiv.org/abs/0806.0107)
 {#KatzarkovKontsevichPantev}
 
-and a bit earlier treatise on formal (infinitesimal in the sense of [[formal schemes]]) aspect as used in the [[deformation theory]] is in
+and a bit earlier this treatise on formal (infinitesimal in the sense of [[formal schemes]]) aspect as used in the [[deformation theory]] is in
 
 * {#KontsevichSoibelman} [[Maxim Kontsevich]], [[Yan Soibelman]], _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_, [math.AG/0606241](http://arxiv.org/abs/math/0606241)
  
