@@ -19,7 +19,7 @@
 
 ## Idea
 
-Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples roughly consisting of
+Recall that _geometric_ [[T-duality]] is an operation acting on tuples roughly consisting of
 
 * a [[smooth manifold]] $X$ with the structure of a torus-[[principal bundle]] $T^n \to X \to X/T^n$ -- modelling [[spacetime]]
 
