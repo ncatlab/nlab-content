@@ -1005,195 +1005,6 @@ This is the archetypical case that motivates the notation "$\otimes$" for the pa
 
 =--
 
-+-- {: .num_defn #LaxMonoidalFunctor}
-###### Definition
-
-Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). A topologically enriched **lax monoidal functor** between them is
-
-1. a [[topologically enriched functor]] 
-
-   $$
-     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
-     \,,
-   $$
-
-1. a morphism
-
-   $$
-     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
-   $$  
-
-1. a [[natural transformation]]
-
-   $$
-     \mu_{x,y} 
-       \;\colon\; 
-     F(x) \otimes_{\mathcal{D}} F(y) 
-       \longrightarrow 
-     F(x \otimes_{\mathcal{C}} y)
-   $$
-
-   for all $x,y \in \mathcal{C}$
-
-satisfying the following conditions:
-
-1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
-
-   $$
-     \array{
-       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(z)
-         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
-       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
-       \\
-       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
-         && 
-       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
-       \\
-       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
-        &&
-       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
-       \\
-       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
-         && 
-       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
-       \\
-       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
-         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
-       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
-     }
-     \,,
-   $$
-
-   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
-
-
-1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]
-
-   $$
-     \array{
-       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
-         &\overset{\epsilon \otimes id}{\longrightarrow}&
-       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
-       \\
-       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow 
-         && 
-       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
-       \\
-       F(x) 
-         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
-       F(1 \otimes_{\mathcal{C}} x  )
-     }
-   $$
-
-   and  
-
-   $$
-     \array{
-       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
-         &\overset{id \otimes \epsilon }{\longrightarrow}&
-       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}}) 
-       \\
-       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow 
-         && 
-       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
-       \\
-       F(x) 
-         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
-       F(x \otimes_{\mathcal{C}} 1  )
-     }
-     \,,
-   $$
-
-   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
-
-If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
-
-If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}), then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
-
-$$
-  \array{
-    F(x) \otimes_{\mathcal{C}} F(y)
-      &\overset{\tau^{\mathcal{D}}_{F(x), F(y)}}{\longrightarrow}&
-    F(y) \otimes_{\mathcal{D}} F(x)
-    \\
-    {}^{\mathllap{\mu_{x,y}}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{\mu_{y,x}}}
-    \\
-    F(x \otimes_{\mathcal{C}} y )
-      &\underset{F(\tau^{\mathcal{C}}_{x,y}  )}{\longrightarrow}&
-    F( y \otimes_{\mathcal{C}} x )
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-In the literature often the term "monoidal functor" refers by default to what in def. \ref{LaxMonoidalFunctor} is called a strong monoidal functor.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
-
-If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a braided monoidal functor (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
-
-=--
-
-+-- {: .num_defn #ModuleOverAMonoidalFunctor}
-###### Definition
-
-Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}), and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[topologically enriched functor|topologically enriched]] [[lax monoidal functor]] between them, with product operation $\mu$.
-
-Then a left **[[module over a monoidal functor|module over the lax monoidal functor]]** is 
-
-1. a [[topologically enriched functor]] 
-
-   $$
-     G \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
-     \,;
-   $$
-
-1. a [[natural transformation]] 
- 
-   $$
-     \rho_{x,y} 
-       \;\colon\; 
-     F(x) \otimes_{\mathcal{D}} N(y)
-      \longrightarrow
-    N(x \otimes_{\mathcal{C}} y )
-   $$
-
-such that
-
-* **(action property)** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
-
-   $$
-     \array{
-       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} G(z)
-         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
-       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} G(z) )
-       \\
-       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
-         && 
-       \downarrow^{\mathrlap{id\otimes \rho_{y,z}}}
-       \\
-       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} G(z)
-        &&
-       F(x) \otimes_{\mathcal{D}} ( G(x \otimes_{\mathcal{C}} y) )
-       \\
-       {}^{\mathllap{\rho_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
-         && 
-       \downarrow^{\mathrlap{\rho_{ x, y \otimes_{\mathcal{C}} z  }}}
-       \\
-       G( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
-         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
-       G( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
-     }
-     \,,
-   $$
-
-=--
-
-
 ### Algebras and modules
  {#AlgebrasAndModules}
 
@@ -2198,6 +2009,257 @@ $$
 
 ## Functors with smash product
  {#FunctorsWithSmashProduct}
+
++-- {: .num_defn #LaxMonoidalFunctor}
+###### Definition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). A topologically enriched **lax monoidal functor** between them is
+
+1. a [[topologically enriched functor]] 
+
+   $$
+     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,,
+   $$
+
+1. a morphism
+
+   $$
+     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
+   $$  
+
+1. a [[natural transformation]]
+
+   $$
+     \mu_{x,y} 
+       \;\colon\; 
+     F(x) \otimes_{\mathcal{D}} F(y) 
+       \longrightarrow 
+     F(x \otimes_{\mathcal{C}} y)
+   $$
+
+   for all $x,y \in \mathcal{C}$
+
+satisfying the following conditions:
+
+1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
+
+   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
+
+
+1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]
+
+   $$
+     \array{
+       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
+         &\overset{\epsilon \otimes id}{\longrightarrow}&
+       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
+       \\
+       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
+       \\
+       F(x) 
+         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(1 \otimes_{\mathcal{C}} x  )
+     }
+   $$
+
+   and  
+
+   $$
+     \array{
+       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
+         &\overset{id \otimes \epsilon }{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}}) 
+       \\
+       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
+       \\
+       F(x) 
+         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(x \otimes_{\mathcal{C}} 1  )
+     }
+     \,,
+   $$
+
+   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
+
+If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
+
+If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}), then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
+
+$$
+  \array{
+    F(x) \otimes_{\mathcal{C}} F(y)
+      &\overset{\tau^{\mathcal{D}}_{F(x), F(y)}}{\longrightarrow}&
+    F(y) \otimes_{\mathcal{D}} F(x)
+    \\
+    {}^{\mathllap{\mu_{x,y}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{y,x}}}
+    \\
+    F(x \otimes_{\mathcal{C}} y )
+      &\underset{F(\tau^{\mathcal{C}}_{x,y}  )}{\longrightarrow}&
+    F( y \otimes_{\mathcal{C}} x )
+  }
+  \,.
+$$
+
+A [[homomorphism]] $f\;\colon\; (F_1,\mu_1, \epsilon_1) \longrightarrow (F_2, \mu_2, \epsilon_2)$ between two (braided) lax monoidal functors is a **[[monoidal natural transformation]]**, in that it is
+
+* a [[natural transformation]] $f_x \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
+
+compatible with the product and the unit in that the following [[commuting diagram|diagrams commute]] for all objects $x,y \in \mathcal{C}$:
+
+$$
+  \array{
+    F_1(x) \otimes_{\mathcal{D}} F_1(y)
+      &\overset{f(x)\otimes_{\mathcal{D}} f(y)}{\longrightarrow}&
+    F_2(x) \otimes_{\mathcal{D}} F_2(y)
+    \\
+    {}^{\mathllap{(\mu_1)_{x,y}}}\downarrow
+     &&
+    \downarrow^{\mathrlap{(\mu_2)_{x,y}}}
+    \\
+    F_1(x\otimes_{\mathcal{C}} y)
+     &\underset{f(x \otimes_{\mathcal{C}} y ) }{\longrightarrow}&
+    F_2(x \otimes_{\mathcal{C}} y)
+  }
+$$
+
+and 
+
+$$
+  \array{
+    && 1_{\mathcal{D}}
+    \\
+    & {}^{\mathllap{\epsilon_1}}\swarrow && \searrow^{\mathrlap{\epsilon_2}}
+    \\
+    F_1(1_{\mathcal{C}})
+     &&\underset{f(1_{\mathcal{C}})}{\longrightarrow}&&
+    F_2(1_{\mathcal{C}})
+  }
+  \,.
+$$
+
+We write $MonFun(\mathcal{C},\mathcal{D})$ for the resulting [[category]] of lax monoidal functors between monoidal categories $\mathcal{C}$ and $\mathcal{D}$, similarly $BraidMonFun(\mathcal{C},\mathcal{D})$ for the category of braided monoidal functors between [[braided monoidal categories]], and $SymMonFun(\mathcal{C},\mathcal{D})$ for the category of braided monoidal functors between [[symmetric monoidal categories]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a strong monoidal functor.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+
+If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a braided monoidal functor (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
+
+=--
+
++-- {: .num_defn #ModuleOverAMonoidalFunctor}
+###### Definition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}), and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[topologically enriched functor|topologically enriched]] [[lax monoidal functor]] between them, with product operation $\mu$.
+
+Then a left **[[module over a monoidal functor|module over the lax monoidal functor]]** is 
+
+1. a [[topologically enriched functor]] 
+
+   $$
+     G \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,;
+   $$
+
+1. a [[natural transformation]] 
+ 
+   $$
+     \rho_{x,y} 
+       \;\colon\; 
+     F(x) \otimes_{\mathcal{D}} N(y)
+      \longrightarrow
+    N(x \otimes_{\mathcal{C}} y )
+   $$
+
+such that
+
+* **(action property)** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} G(z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} G(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{id\otimes \rho_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} G(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( G(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\rho_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
+         && 
+       \downarrow^{\mathrlap{\rho_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       G( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       G( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
+
+A [[homomorphism]] $f\;\colon\; (G_1, \rho_1) \longrightarrow (G_2,\rho_2)$ between two modules over a monoidal functor $(F,\mu,\epsilon)$ is 
+
+* a [[natural transformation]] $f_x \;\colon\; N_1(x) \longrightarrow N_2(x)$ of the underlying functors
+
+compatible with the action in that the following [[commuting diagram|diagram commute]] for all objects $x,y \in \mathcal{C}$:
+
+$$
+  \array{
+    F(x) \otimes_{\mathcal{D}} N_1(y)
+      &\overset{id \otimes_{\mathcal{D}} f(y)}{\longrightarrow}&
+    F(x) \otimes_{\mathcal{D}} N_2(y)
+    \\
+    {}^{\mathllap{(\rho_1)_{x,y}}}\downarrow
+     &&
+    \downarrow^{\mathrlap{(\rhi_2)_{x,y}}}
+    \\
+    N_1(x\otimes_{\mathcal{C}} y)
+     &\underset{f(x \otimes_{\mathcal{C}} y ) }{\longrightarrow}&
+    N_2(x \otimes_{\mathcal{C}} y)
+  }
+$$
+
+We write $F Mod$ for the resulting category of modules over the monoidal functor $F$.
+
+=--
 
 
 +-- {: .num_prop #DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
