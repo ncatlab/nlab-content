@@ -205,6 +205,8 @@ Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is no
 
 * [[pseudocompact ring]]
 
+* [[Day convolution]]
+
 * [[∞-group ∞-ring]]
 
 ## References
