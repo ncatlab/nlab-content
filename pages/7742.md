@@ -18,18 +18,27 @@
 * table of contents
 {:toc}
 
+## Idea
+In a model $M$ of a first-order theory $T$ a definable set $G$ might have additional algebraic stucture (e.g. that of a [[group]], [[ring]], [[groupoid]], [[category]], etc.) also given by definable functions and predicates. Since this set with extra structure is given by some collection of formulas in the language of $T$, it is interpreted in every model of $T$, and is hence an invariant of the [[syntactic category]] (walking model) $\mathbf{Def}(T)$ of $T$.
+
 ## Definition
+To make this precise:
 
-Let $L$ be a first order language and $T$ a [[theory]] over $L$. One can consider the [[category]] $\mathcal{M}_{el}(L)$ of [[structure in model theory|structures]] over $L$ and [[elementary monomorphisms]]. Define $\mathcal{M}_{el}(T)$ as a [[full subcategory]] of $\mathcal{M}_{el}(L)$, whose [[objects]] are [[models]] of $T$. 
+* A definable group is just a [[group object]] in $\mathbf{Def}(T)$.
+* A definable groupoid is just a groupoid object, i.e. an [[internal groupoid]] in $\mathbf{Def}(T)$.
+* A definable ring is just a semigroup object in the category of abelian group objects of $\mathbf{Def}(T)$.
+* A definable category is just a category object, i.e. an [[internal category]] in $\mathbf{Def}(T)$.
 
-### Groupoids and categories
- 
-A __definable groupoid__ over a theory $T$ is an [[internal groupoid]] in the category of [[definable sets]] and definable functions, i.e. the internal groupoid in the [[category of functors]] $\mathcal{M}_{el}(T)\to Set$.  Similarly, for more general notion of a __definable category__ over $T$. 
+Since groups, groupoids, rings, and categories can be given by algebraic theories, a definition (modulo having [[elimination of imaginaries|EI]]) of one of these in $T$ is just an interpretation of one of those theories in $T$ is just a logical functor from the walking models of one of these to $\mathbf{Def}(T)$.
 
+### Remarks
+* Evaluating the unit of the [[Makkai duality]] adjunction at $T$ yields $\mathbf{Def}(T) \simeq \operatorname{Hom}_{\mathbf{Ult}}(\mathbf{Mod}(T), \mathbf{Set})$ the category of [[ultrafunctors]] from the category of models (logical functors $\mathbf{Def}(T) \to \mathbf{Set}$) to $\mathbf{Set}$ viewed as [[ultracategories]], so that one may identify a definable set (and definable sets with extra definable structure on them) $X \in \mathbf{Def}(T)$ with a [[functor of points]] $M \mapsto X(M)$ on the category of models.
 
-### Groups
+* The fact that the [[external axiom of choice]] (all epimorphisms split) holds in $\mathbf{Set}$ if and only if every [[fully faithful]] [[essentially surjective]] [[functor]] between [[small]] categories is a true [[equivalence of categories]] can be word-for-word internalized to $\mathbf{Def}(T)$. This means: if the theory has two constants, then $T$ has definable Skolem functions if and only if every fully faithful essentially surjective definable functor between definable categories admits a [[pseudoinverse]].
 
-In particular, there is much studied case of __definable groups__, cf. e.g. ([Peterzil-Pillay](#PeterzilPillay))
+* With a suitable amount of choice (definable Skolem functions, for example) Freyd's general adjoint functor theorem also carries over word-for-word to the setting of internal categories in $\mathbf{Def}(T)$.
+
+* In particular, there is much studied case of __definable groups__, cf. e.g. ([Peterzil-Pillay](#PeterzilPillay))
 
 ## Properties
 
@@ -37,7 +46,7 @@ In particular, there is much studied case of __definable groups__, cf. e.g. ([Pe
 +-- {: .num_defn}
 ###### Theorem
 
-There is a [[bijection|bijective]] correspondence between internal imaginary sorts of $T$ and definable concrete groupoids with a single isomorphism class (both up to equivalence.)
+There is a [[bijection|bijective]] correspondence between internal imaginary sorts of $T$ and definable concrete groupoids with a single isomorphism class, up to bi-interpretability over $T$ for the internal imaginary sorts and Hrushovski-equivalence for the definable concrete groupoids.
 
 =--
 
