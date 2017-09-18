@@ -85,6 +85,18 @@ All [[local field theories]] in physics are prominently embodied by key [[nLab:e
 
 But [[perturbative string theory]] is not a [[local field theory]]. Instead it is an [[S-matrix theory]] (see _[What is string theory?](#WhatIsStringTheory)_). Therefore instead of being given by an [[equation]] that picks out the physical trajectories, it is given by a prescription for how to compute [[scattering amplitudes]]. That prescription is the [[string perturbation series]]: it says that the [[probability amplitude]] for $n_{in}$ asymptotic states of strings coming in (into a particle collider experiment, say), scattering, and $n_{out}$ other asymptotic string states emerging (and hitting a detector, say) is a sum over all [[Riemann surfaces]] with $n$-punctures of the [[n-point functions]] of the given [[2d CFT]] that defines the scattering [[vacuum]].
 
+On the other hand, there is an analog of the [[second quantization|second quantized]] field-theory-with-equations for string scattering, called [[nLab:string field theory]], and this again is quiven by equations of motion. For instance the equations of motion of closed bosonic string field theory are of the form
+
+$$
+  Q \Psi + \tfrac{1}{2} \psi \star \psi + \tfrac{1}{6} \psi \star \psi \star \psi + \cdots = 0
+  \,,
+$$
+
+where $\Psi$ is the string field, $Q$ is the [[BRST complex|BRST operator]] and $\star$ is the string field star product.
+
+The string field $\Psi$ has infinitely many components, one for each excitation mode of the string. Its lowest excitations are the modes that correspond to massless [[fundamental particles]], such as the [[graviton]]. Expanding the equations of motion of string field theory in mode expansions ("level expansion") does reproduce the equations of motions of these fields as a [[perturbation series]] around a background solution and together with [[higher curvature corrections]].
+
+
 ### Why is string theory controversial?
 
 As a [[theory (physics)|theory]] of the [[observable universe]] that is supposed to checked by [[experiment]] and which predicts that all [[fundamental particles]] of the [[standard model of particle physics]] are secretly, if one probes at high enough [[energy]], excitations of [[superstrings]], string theory is an unproven hypothesis.  
