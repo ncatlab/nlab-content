@@ -113,7 +113,7 @@ such that for all $c \in \mathbb{R}$, $v , w \in V$ it holds true that
 
 1. ([[triangle inequality]]) ${\Vert v+w \Vert} \leq {\Vert v \Vert } + {\Vert w \Vert}$;
 
-1. (non-degenracy) if ${\Vert v \Vert} = 0$ then $v = 0$.
+1. (non-degeneracy) if ${\Vert v \Vert} = 0$ then $v = 0$.
 
 =--
 
@@ -219,7 +219,7 @@ $$
 
 where $B^\circ$ denotes the [[open ball]] (definition \ref{OpenBalls}).
 
-The function $f$ is^said to be _continuous_ if it is continuous at every point $x \in X$.
+The function $f$ is said to be _continuous_ if it is continuous at every point $x \in X$.
 
 =--
 
@@ -232,11 +232,11 @@ Consider the [[real line]] $\mathbb{R}$ regarded as the
 For $P \in \mathbb{R}[X]$ a [[polynomial]], then the function
 
 $$
-  f_P \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
-$$
-
-$$
-  x \mapsto P(X)
+  \array{
+    f_P &\colon& \mathbb{R} &\longrightarrow& \mathbb{R}
+    \\
+    && x &\mapsto& P(X)
+  }
 $$
 
 is a [[continuous function]] in the sense of def. \ref{EpsilonDeltaDefinitionOfContinuity}.
@@ -247,6 +247,8 @@ at which it changes its value.
 
 
 =--
+
+
 
 
 
@@ -387,7 +389,8 @@ By example \ref{OpenAndClosedIntervals}, the last of these preimages listed is n
 ### Topological spaces
  {#TopologicalSpaces}
 
-Therefore we should pay attention to [[open subsets]]. It turns out that the following closure
+Due to prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} 
+we should pay attention to [[open subsets]]. It turns out that the following closure
 property is what _characterizes_ the concept:
 
 +-- {: .num_prop }
@@ -413,6 +416,8 @@ and
 This motivates the following generalized definition, which abstracts away from the concept of [[metric space]]
 just its system of [[open subsets]]:
 
+#### Topologies
+
 +-- {: .num_defn #TopologicalSpace}
 ###### Definition
 **(topological spaces)**
@@ -429,82 +434,28 @@ such that this is closed under forming
 
 1. arbitrary [[unions]].
 
-A _[[topological space]]_ is a set $X$ equipped with such a [[topology]].
+A set $X$ equipped with such a [[topology]] is called a _[[topological space]]_.
 
 =--
 
-+-- {: .num_example}
-###### Example
++-- {: .num_terminology}
+###### Remark
 
-
-The following shows all the topologies on the 3-element set (up to [[permutation]] of elements)
-
-<img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
-
-> graphics grabbed from [Munkres 75](#Munkres75)
+In the field of [[topology]] it is common to eventually simply say "[[space]]" as shorthand for "[[topological space]]".
+This is especially so as further qualifiers are added, such as "Hausdorff  space" (def. \ref{HausdorffTopologicalSpace} belwo).
+But beware that there are other kinds of spaces in mathematics.
 
 =--
-
-It is now immediate to formally implement the
-
-+-- {: principle}
-**principle of continuity**
-
-$\,$ $\,$ _Pre-Images of open subsets are open._
-
-=--
-
-+-- {: .num_defn #ContinuousMaps}
-###### Definition
-**(continuous maps)**
-
-A _[[continuous function]]_ between [[topological spaces]] (def. \ref{TopologicalSpace})
-
-$$
-  f \colon (X, \tau_X) \to (Y, \tau_Y)
-$$
-
-is a [[function]] between the underlying sets,
-
-$$
-  f \colon X \longrightarrow Y
-$$
-
-such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X$.
-
-=--
-
-
-The simple definition of [[open subsets]] and the simple _principle of equivalence_
-gives topology its fundamental and universal flavor. The combinatorial nature of these definitions makes
-topology closely related to [[formal logic]] (for more on this see at _[[locale]]_).
-
 
 +-- {: .num_remark}
 ###### Remark
-**(the category of topological spaces)**
 
-The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]].
-
-One says that
-
-1. [[topological spaces]] constitute the [[objects]]
-
-1. [[continuous maps]] constitute the [[morphisms]] ([[homomorphisms]])
-
-of  a _[[category]]_. The _[[category of topological spaces]]_ ("[[Top]]" for short).
-
-It is useful to depict collections of [[objects]] with [[morphisms]] between them
-by [[diagrams]], like this one:
-
-
-<img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
-
-> graphics grabbed from [Lawvere-Schanuel 09](#category+theory#LawvereSchanuel09).
+The simple definition of [[open subsets]] in def. \ref{TopologicalSpace} and the simple 
+implementation of the _principle of continuity_ below in def. \ref{ContinuousMaps}
+gives the field of [[topology]] its fundamental and universal flavor. The combinatorial nature of these definitions makes
+topology be closely related to [[formal logic]] (for more on this see at _[[locale]]_).
 
 =--
-
-
 
 Our motivating example now reads as follows:
 
@@ -534,11 +485,95 @@ be a [[subset]] of its set of [[open subsets]]. We say that
 
 1. $B$ is a _[[topological base|sub-basis for the topology]]_ if every open subset $O \in \tau $ is a [[union]] of [[finitary intersections]] of elements of $B$.
 
-
 =--
 
 Often it is convenient to define topologies by defining some (sub-)basis. An example is the definition of the
 [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
+
+While example of [[metric space]] topologies (example \ref{MetricTopology}) is the motivating example
+for the concept of [[topological spaces]], it is important to notice that the concept
+of topological spaces is considerably more general. 
+
+
++-- {: .num_example}
+###### Example
+
+The following shows all the topologies on the 3-element set (up to [[permutation]] of elements)
+
+<img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+=--
+
+
+
+
+#### Continuous functions
+ {#ContinuousFunctions}
+
+
+
+With the concept of [[topological spaces]] (def. \ref{TopologicalSpace}) 
+it is now immediate to formally implement in abstract generality the
+statement of prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}:
+
++-- {: principle}
+**principle of continuity**
+
+$\,$ $\,$ _Pre-Images of open subsets are open._
+
+=--
+
++-- {: .num_defn #ContinuousMaps}
+###### Definition
+**(continuous function)**
+
+A _[[continuous function]]_ between [[topological spaces]] (def. \ref{TopologicalSpace})
+
+$$
+  f \colon (X, \tau_X) \to (Y, \tau_Y)
+$$
+
+is a [[function]] between the underlying sets,
+
+$$
+  f \colon X \longrightarrow Y
+$$
+
+such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X$.
+
+=--
+
+
+
+
++-- {: .num_remark}
+###### Remark
+**(the category of topological spaces)**
+
+The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]].
+
+One says that
+
+1. [[topological spaces]] constitute the [[objects]]
+
+1. [[continuous maps]] constitute the [[morphisms]] ([[homomorphisms]])
+
+of  a _[[category]]_. The _[[category of topological spaces]]_ ("[[Top]]" for short).
+
+It is useful to depict collections of [[objects]] with [[morphisms]] between them
+by [[diagrams]], like this one:
+
+
+<img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
+
+> graphics grabbed from [Lawvere-Schanuel 09](#category+theory#LawvereSchanuel09).
+
+=--
+
+
+
 
 #### Homeomorphism
 
@@ -758,11 +793,37 @@ Originally there were four separation axioms $T_1, T_2, T_3, T_4$; nowadays one 
 
 There are also axioms that do not follow the pattern of "if certain two subsets are separated in some weak sense, then they are also separated in some stronger sense", but that still axiomatize some kind of separatedness. For example the condition on a [[topological space]] being [[sober topological space|sober]] is of a different nature, but is implied by $T_2$ and implies $T_0$. Notice that via their [[full subcategory|full embdding]] into [[locales]], [[sober topological spaces]] may be understood without reference to their underlying set pf points at all.
 
-All separation axioms are satisfied by [[metric spaces]], from whom the concept of topological space was originally abstracted. Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
-
-Several separation axioms may also be interpreted in broader contexts that plain topological spaces, for instance for [[convergence space]] or for [[locales]]; or the may be considered under weaker assumptions, such as those of [[constructive mathematics]] and [[predicative mathematics]].
+All separation axioms are satisfied by [[metric spaces]], from whom the concept of topological space was originally abstracted [above](#TopologicalSpaces). Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
 
 
++-- {: .num_defn #HausdorffTopologicalSpace}
+###### Definition
+
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
+
+For $x \neq y \in X$ any two points in the underlying set of $X$ which are not [[equality|equal]] as elements of this set, 
+consider the following [[propositions]]:
+
+* **(T0)** _There exists a [[neighbourhood]] of one of the two points which does not contain the other point._
+
+* **(T1)** _There exist [[neighbourhoods]] of both points which do not contain the other point._
+
+* **(T2)** _There exists [[neighbourhoods]]_ of both points which do not intersect each other._
+
+Notice that these propositions imply each other as
+
+$$
+  T2 \Rightarrow T1 \Rightarrow T0
+  \,.
+$$
+
+The topological space $X$ is called a _$T_n$-topological space_ or just _$T_n$-space_, for short, 
+if it satisfies proposition $T_n$ above for
+all pairs of distinct points.
+
+A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
+
+=--
 
 
 
