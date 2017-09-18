@@ -26,7 +26,7 @@
 
 A **sufficiently cohesive topos** is a [[topos]] that has enough connected objects in the sense that every object embeds into a [[connected object]]. This can be viewed as a strong form of [[cohesive topos|cohesiveness]] in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[gros toposes]].
 
-## Terminological preliminaries
+## Terminology
 
 Sufficient cohesion is a relative concept and requires minimally the presence of an [[essential geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$. Here we state it for an [[adjoint quadruple]] between toposes 
 
@@ -189,6 +189,23 @@ $$p_!(\mathsf{true})=p_!(\chi_1\circ t_1)=p_!(\chi_1)\circ p_!(t_1)=p_!(\chi_1)\
 
 This says that $\mathsf{true}$ and $\mathsf{false}$ are in the same connected component but a lattice whose top and bottom elements are in the same component is necessarily connected. $\qed$
 
+For the following the monoid structure of $\Omega$ will be capital. So let us briefly recall the basics:
+
+In a general topos, the Heyting algebra structure endows the subobject classifier with the structure of an [[internal monoid]]: The multiplication is given by conjunction
+
+$$\Omega\times\Omega\overset{\wedge}{\to}\Omega\quad ,\\
+\text{ and the unit by }\mathsf{true}\quad .
+$$
+Importantly, the other truth value $\mathsf{false}$ plays the role of a _zero_ with respect to this multiplication.
+
++-- {: .num_prop #connected_action}
+###### Proposition
+Let $\mathcal{E}$ be a weakly cohesive topos with connected subobject classifier $p_!(\Omega)$. If an object $X\in\mathcal{E}$ has an internal monoid action $\mu:\Omega\times X\to X$ by $\Omega$ then $p_!(X)=1.
+=--
+
+**Proof**.
+...
+
 One can use connectors to define a (generalized) homotopy relation between maps that behaves well under taking connected components.
 
 +-- {: .num_defn #I-homotopy}
@@ -250,9 +267,9 @@ $$
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
-* {#JS11} [[Peter Johnstone|P. Johnstone]], _Remarks on Punctual Local Connectedness_ , TAC **25** no.3 (2011) pp.51-63. ([pdf](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
-
 * {#J02} [[Peter Johnstone|P. Johnstone]], _Sketches of an Elephant vol. 1_ , Cambridge UP 2002. 
+
+* {#JS11} [[Peter Johnstone|P. Johnstone]], _Remarks on Punctual Local Connectedness_ , TAC **25** no.3 (2011) pp.51-63. ([pdf](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
