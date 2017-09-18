@@ -38,7 +38,7 @@ In the language of [[bi-brane]]s a topological T-duality transformation is a bi-
 
 ## Definition
 
-Two tuples $(X_i \to B, G_i)_{i = 1,2}$ consisting of a $T^n$-bundle $X_i$ over a manifold $B$ and a line [[bundle gerbe]] $G_i \to X_i$ over $X$ are **topological T-duals** if there exists an isomorphism $u$ of the two [[bundle gerbes]] pulled back to the [[fiber product]] correspondence space $X_1 \times_B X_2$:
+Two tuples $(X_i \to B, G_i)_{i = 1,2}$ consisting of a $T^n$-bundle $X_i$ over a manifold $B$ and a line [[bundle gerbe]] $G_i \to X_i$ over $X$ are **topological T-duals** if there exists an isomorphism $u$ of the two [[bundle gerbes]] pulled back to the [[fiber product]] [[correspondence]] space $X_1 \times_B X_2$:
 
 $$
   \array{
@@ -90,8 +90,7 @@ In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does 
 
 and
 
-* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_ ([arXiv](http://arxiv.org/abs/math.GT/0501487))
-{#BunkeRumpfSchick08}
+* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. 18, 1103 (2006). ([arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487))
 
 A refined description is in 
 
