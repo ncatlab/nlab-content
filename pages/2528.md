@@ -36,7 +36,7 @@ A given preset may define many different sets, depending on the equality relatio
 
 ## Prefunctions and prerelations
 
-As [[functions]] go between sets, so __prefunctions__ go between presets.  Bishop used the term 'operation' instead of 'prefunction', but 'operation' has many other meanings.)  Even if $X$ and $Y$ are sets, a prefunction from $X$ to $Y$ is not the same as a function from $X$ to $Y$, because a prefunction need not preserve equality; that is, we may have $a = b$ without $f(a) = f(b)$.  Conversely, we may define a function as a prefunction (between sets) that preserves equality.
+As [[functions]] go between sets, so __prefunctions__ go between presets.  (Bishop used the term 'operation' instead of 'prefunction', but 'operation' has many other meanings.)  Even if $X$ and $Y$ are sets, a prefunction from $X$ to $Y$ is not the same as a function from $X$ to $Y$, because a prefunction need not preserve equality; that is, we may have $a = b$ without $f(a) = f(b)$.  Conversely, we may define a function as a prefunction (between sets) that preserves equality; such a prefunction is said to be __extensional__.
 
 For example, consider the identity prefunction on the underlying preset of both $Q$ and $Z \times Z$, as defined above.  From $Z \times Z$ to $Q$, this is a function, since $a/b = c/d$ if $(a,b) = (c,d)$.  But from $Q$ to $Z \times Z$, it is not a function, since (for example) $2/4 = 3/6$ but $(2,4) \neq (3,6)$.  A related example is the operation of taking the numerator of a (positive) rational number; from $Q$ to $Z$, we may view this as a prefunction but not as a function, although it is a function on $Z \times Z$.
 
@@ -99,6 +99,15 @@ In general, the [[category]] of sets is the [[ex/lex completion]] of the origina
 [[!redirects prefunctions]]
 [[!redirects pre-function]]
 [[!redirects pre-functions]]
+
+[[!redirects extensional function]]
+[[!redirects extensional functions]]
+[[!redirects extensional operation]]
+[[!redirects extensional operations]]
+[[!redirects extensional prefunction]]
+[[!redirects extensional prefunctions]]
+[[!redirects extensional pre-function]]
+[[!redirects extensional pre-functions]]
 
 [[!redirects prerelation]]
 [[!redirects prerelations]]
