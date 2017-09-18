@@ -107,3 +107,9 @@ There are also crossed modules for racks:
 
 [[!redirects rack]]
 [[!redirects racks]]
+[[!redirects shelf]]
+[[!redirects shelves]]
+[[!redirects left shelf]]
+[[!redirects left shelves]]
+[[!redirects right shelf]]
+[[!redirects right shelves]]
