@@ -223,7 +223,7 @@ theorem 2.1.14 in
 
 or section 10.5 in
 
-* [[Philip Hirschhorn]], _Model categories and their localization_, volume 99 of Mathematical Surveys and Monographs, American Math- ematical Society, cited here as **ModLoc** 
+* [[Philip Hirschhorn]], _Model categories and their localization_, volume 99 of Mathematical Surveys and Monographs, American Mathematical Society, cited here as **ModLoc** 
 
 A reference with an eye towards [[combinatorial model category|combinatorial model categories]] and [[Smith's theorem]] is
 
