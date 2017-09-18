@@ -249,7 +249,7 @@ Prop. \ref{SuspensionOfThomSpaces} implies that for every vector bundle $V$ the 
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #ThomSpaceConstructionReducingToSuspension}
 ###### Example
 
 By prop. \ref{SuspensionOfThomSpaces} and remark \ref{ThomSpaceForRankZeroBundle}  the Thom space (def. \ref{ThomSpace}) of a trivial vector bundle of rank $n$ is the $n$-fold [[suspension]] of the base space 
@@ -265,6 +265,8 @@ $$
 $$
 
 Therefore a general Thom space may be thought of as a "twisted [[reduced suspension]]", with twist encoded by a vector bundle (or rather by its underlying [[spherical fibration]]). See at _[Thom spectrum -- For infinity-module bundles](Thom+spectrum#ForInfinityModuleBundles)_ for more on this.
+
+Correspondingly the _[[Thom isomorphism]]_ for a given Thom space is a twisted version of the _[[suspension isomorphism]]_.
 
 =--
 
