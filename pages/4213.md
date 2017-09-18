@@ -26,7 +26,7 @@ Here $T$-$Alg_l$ is the 2-category of strict $T$-algebras, [[lax morphism|lax T-
 
 ## Statement
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $f \dashv u$ be an [[adjunction]] in some [[2-category]] $K$ and let $T$ be a [[2-monad]] on $K$.
@@ -38,7 +38,7 @@ There is a [[bijection]] between [[2-morphism]]s $\bar u$ making $(u,\bar u)$ a 
 The proof ([Kelly](#Kelly))
 relies solely on the properties of the mate correspondence.
 
-+-- {: .un_proposition}
++-- {: .num_prop #strength}
 ###### Proposition
 
 For the unit and counit of the adjunction $f \dashv u$ to be $T$-transformations, and hence for the adjunction to live in $T$-$Alg_l$, it is necessary and sufficient that $\tilde f$ have an inverse $\bar f$ that makes $(f,\bar f)$ into a lax $T$-morphism, and hence $(f,\bar f)$ into a strong $T$-morphism.
@@ -49,7 +49,7 @@ Again, the proof hinges on the properties of mates:  we take the conditions for 
 
 It follows that 
 
-+-- {: .un_prop}
++-- {: .num_prop #mate}
 ###### Proposition
 
 $(f, \bar f) \dashv (u, \bar u)$ in $T$-$Alg_l$ if and only if $f \dashv u$ in $K$ and $\bar f$ has inverse $\tilde f$ = the mate of $\bar u$.
