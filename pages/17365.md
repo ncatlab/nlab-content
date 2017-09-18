@@ -26,37 +26,24 @@ The standard [[model category]] structure on the [[category]] of [[sequential sp
 As such, the model structure on topological sequential spectra [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, its [[homotopy category]] is the classical [[stable homotopy category]].
 
 
-## Background on sequential spectra
+The following def. \ref{SequentialSpectra} is the traditional component-wise definition of [[sequential spectra]], was first stated in ([Lima 58](spectrum#Lima58)) and became widely appreciated with ([Boardman 65](spectrum#Boardman65)).  
 
-### Sequential pre-spectra
+> It is generally supposed that [[George Whitehead|G. W. Whitehead]] also had something to do with it, but the latter takes a modest attitude about that. ([Adams 74, p. 131](#Adams74))
 
-Write $S^1 \in Top^{\ast/}$ for the standard topological circle.  Write
+Below in prop. \ref{SequentialSpectraAsDiagramSpectra} we discuss an equivalent definition of sequrntial spectra as "topological diagram spectra" ([Mandell-May-Schwede-Shipley 00](#MMSS00)), namely as [[topologically enriched functors]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) on [[n-spheres]], which is useful for establishing the [[stable model category]] structure ([below](#StableModelStructureOnSequentialSpectra)) and for establishing the [[symmetric monoidal smash product of spectra]] (in [1.2](#DiagramSpectra)).
 
-$$
-  \wedge 
-  \;\colon\;
-  Top^{\ast/}
-  \times
-  Top^{\ast/}
-  \longrightarrow
-  Top^{\ast/}
-$$
-
-for the [[smash product]] of [[pointed topological spaces]].
-
-
-The following is the standard component-wise definition of sequential spectra. 
+Throughout we say "[[topological space]]" for [[compactly generated topological space]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#kTop))
 
 +-- {: .num_defn #SequentialSpectra}
 ###### Definition
 
 A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]**, or just **[[sequential spectrum]]** for short (or even just **[[spectrum]]), is
 
-* an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space]] $X_\bullet$ 
+1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]  $X_\bullet = (X_n \in Top_{cg}^{\ast/})_{n \in \mathbb{N}}$ (the **component spaces**); 
 
-* equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$.
+1. pointed [[continuous functions]] $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$ (the **structure maps**) from the [[smash product]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects))  of one component space with the standard [[1-sphere]] to the next component space.
 
- A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
+ A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous function, such that all [[diagrams]] of the form
 
 $$
   \array{
@@ -70,29 +57,635 @@ $$
 
 [[commuting diagram|commute]].
 
-Write $SeqSpec(Top)$ for this [[category]] of topological sequential spectra.
+Write $SeqSpec(Top_{cg})$ for this [[category]] of topological sequential spectra.
 
 =--
 
-+-- {: .num_example #SmashProductOfSpectrumWithSimplicialSet}
++-- {: .num_example #SuspensionSpectrum}
 ###### Example
 
-For $X \in SeqSpec(Top)$ and $K \in $ [[Top]], hence $K_+ \in Top^{\ast/}$ then $X \wedge K_+$ is the sequential spectrum degreewise given by the [[smash product]] of pointed objects
+For $X\in Top^{\ast/_{cg}}$ a [[pointed topological space]], its **[[suspension spectrum]]** $\Sigma^\infty X$ is the [[sequential spectrum]] , def. \ref{SequentialSpectra} with
+
+* $(\Sigma^\infty X)_n \coloneqq S^n \wedge X$;
+
+* $\sigma_n \colon S^1 \wedge S^n \wedge X \overset{\simeq}{\longrightarrow} S^{n+1}X$ the canonical [[homeomorphism]].
+
+This construction extends to a [[functor]]
 
 $$
-  (X \wedge K_+)_n \coloneqq (X_n \wedge K_+)
+  \Sigma^\infty
+    \;\colon\;
+  Top^{\ast/}_{cg}
+    \longrightarrow
+  SeqSpec(Top_{cg})
+  \,.
 $$
 
-and with structure maps given by
+
+=--
+
++-- {: .num_example #SuspensionSpectrum}
+###### Example
+
+The [[suspension spectrum]] (example \ref{SuspensionSpectrum}) of the point is the **standard sequential [[sphere spectrum]]** 
 
 $$
-  S^1 \wedge (X_n \wedge K_+) \simeq (S^1 \wedge X_n) \wedge K_+ \stackrel{\sigma_n \wedge K_+}{\longrightarrow} X_{n+1}\wedge K_+
+  \mathbb{S}_{seq} \coloneqq \Sigma^\infty \ast
+  \,.
+$$
+
+Its $n$th component space is the standard [[n-sphere]]
+ 
+$$ 
+  (\mathbb{S}_{seq})_n = S^n
   \,.
 $$
 
 =--
 
-The following is an equivalent reformulation of the component-wise definition of sequential spectra which will be useful.
++-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
+###### Definition
+
+Let $X\in SeqSpec(Top_{cg})$ be a [[sequential spectrum]] (def. \ref{SequentialSpectra}) and $K \in Top^{\ast/}_{cg}$ a [[pointed topological space|pointed]] [[compactly generated topological space]]. Then
+
+1. $X \wedge K$ (the **[[smash product|smash]] [[tensoring]]** of $X$ with $K$) is the sequential spectrum with 
+
+   * $(X \wedge K)_n \coloneqq X_n \wedge K$ ([[smash product]] on component spaces ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)))
+
+   * $\sigma_n^{X \wedge K} \coloneqq \sigma_n^{X} \wedge id_{K}$.
+
+1. $Maps(K,X)_\ast$ (the **[[powering]]** of $K$ into $X$) is the sequential spectrum with
+
+   * $(Maps(K,X)_\ast)_n \coloneqq Maps(K,X_n)_\ast$ (compactly generated [[pointed mapping space]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces), [def.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)))
+
+   * $\sigma_n^{Maps(K,X)_\ast} \colon S^1 \wedge Maps(K,X_n) \to Maps(K,S^1 \wedge X_n)_\ast \overset{Maps(K,\sigma_n)_\ast}{\longrightarrow} Maps(K,X_{n+1})_\ast$.
+
+These operations canonically extend to [[functors]]
+
+$$
+  (-)\wedge (-)
+    \;\colon\;
+  SeqSpec(Top_{cg}) \times Top^{\ast/}_{cg}
+    \longrightarrow
+  SeqSpec(Top^{\ast}_{cg})
+$$
+
+and
+
+$$
+  Maps(-,-)_\ast
+    \;\colon\;
+  (Top^{\ast/}_{cg})^{op}
+  \times
+  SeqSpec(Top_{cg})
+    \longrightarrow
+  SeqSpec(Top_{cg})
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #AdjunctionBetweenSmashTensoringAndPowering}
+###### Proposition
+
+For any $K \in Top^{\ast/}_{cg}$ the functors of smash tensoring and powering with $K$, from def. \ref{TensoringAndPoweringOfSequentialSpectra}, constitute a pair of [[adjoint functors]]
+
+$$
+  SeqSpec(Top_{cg})
+    \underoverset
+    {
+      \underset{Maps(K,-)_\ast}{\longrightarrow}
+    }
+    {
+      \overset{(-) \wedge K}{\longleftarrow}
+    }
+    {\bot}
+  SeqSpec(Top_{cg})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $X, Y\in SeqSpec(Top_{cg})$ and $K \in Top_{cg}^{\ast/}$, let
+
+$$
+  X \wedge K \overset{f}{\longrightarrow} Y
+$$
+
+be a morphism, with component maps fitting into commuting squares of the form
+
+$$
+  \array{
+    S^1 \wedge X_n \wedge K 
+      &\overset{S^1 \wedge f_n}{\longrightarrow}&
+    S^1 \wedge Y_n
+    \\
+    {}^{\mathllap{\sigma^X_n \wedge K}}\downarrow 
+      && 
+    \downarrow^{\sigma^Y_n}
+    \\
+    X_{n+1} \wedge K
+     &\overset{f_{n+1}}{\longrightarrow}&
+   Y_{n+1}
+  }
+  \,.
+$$
+
+The adjunction
+
+$$
+  Top_{cg}^{\ast/}
+    \underoverset
+     {\underset{Maps(K,-)_\ast}{\longrightarrow}}
+     {\overset{(-) \wedge K}{\longleftarrow}}
+     {\bot}
+  Top_{cg}^{\ast/}
+$$
+
+(from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)) gives that these squares are in natural bijection with squares of the form
+
+$$
+  \array{
+    S^1 \wedge X_n
+      &\overset{\widetilde{S^1 \wedge f_n}}{\longrightarrow}&
+    Maps(K,S^1 \wedge Y_n)_\ast
+    \\
+    {}^{\mathllap{\sigma_n^X}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{Maps(K,\sigma_n^Y)_\ast}}
+    \\
+    X_{n+1} 
+      &\overset{\tilde f_{n+1}}{\longrightarrow}&
+    Maps(K, Y_{n+1})_\ast
+  }
+  \,.
+$$
+
+But since the map $S^1 \wedge f_n$ is the smash product of two maps, only one of which involves the smash factor of $K$, one sees that here the top map factors through the inclusion of the space of those functions $K \to S^1 \wedge Y^n$ whose first component is constant on the basepoint, hence through 
+
+$$
+  S^1 \wedge Maps(K,Y_n)_\ast 
+    \longrightarrow 
+  Maps(K, S^1 \wedge Y_n)_\ast
+$$
+
+$$
+  [s,\phi] \mapsto [const_s,\phi]
+  \,.
+$$
+
+Hence the commuting square above factors as
+
+$$
+  \array{
+    S^1 \wedge X_n
+      &\overset{S^1 \wedge \tilde f_n}{\longrightarrow}&
+    S^1 \wedge Maps(K, Y_n)_\ast
+    \\
+    {}^{\mathllap{\sigma_n^X}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\sigma_n^{Maps(K,Y)_\ast}}}
+    \\
+    X_{n+1}
+      &\overset{\tilde f_{n+1}}{\longrightarrow}&
+    Maps(K, Y_{n+1})_\ast
+  }
+  \,.
+$$
+
+This gives the structure maps for a homomorphism
+
+$$
+  \tilde f 
+    \;\colon\;
+  X \longrightarrow Maps(K,Y)_\ast
+  \,.
+$$
+
+Running this argument backwards shows that the map $f \mapsto \tilde f$ given thereby is a bijection.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For the [[adjunction]] of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} it is crucial that the smash tensoring in def. \ref{TensoringAndPoweringOfSequentialSpectra} is from the _right_, at least as long as the structure maps in def. \ref{SequentialSpectra} are defined as they are, with the circle smash factor on the left. We could change both at once: take the structure maps to be from smash products with the circle on the right, and take smash tensoring to be from the left. But having both on the right or both on the left does not work.
+
+=--
+
+
++-- {: .num_example #StandardCylinderSpectrumSequential}
+###### Example
+
+For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, its **standard [[cylinder spectrum]]** is its [[smash product|smash]] [[tensoring]] $X \wedge (I_+)$, def. \ref{TensoringAndPoweringOfSequentialSpectra}, with the standard interval ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalInterval)) with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). The component spaces of the [[cylinder spectrum]] are the standard [[reduced cylinders]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) of the component spaces of $X$:
+
+$$
+  (X \wedge (I_+))_n
+  =
+  X_n \wedge I_+
+  \,.
+$$
+
+By the functoriality of the [[smash product|smash]] [[tensoring]], the factoring 
+
+$$
+  \nabla_{S^0} \;\colon\; S^0 \vee S^0 \longrightarrow I_+ \longrightarrow S^0
+$$
+
+of the [[codiagonal]] on the [[0-sphere]] through the standard interval with a base point adjoined, gives a factoring of the [[codiagonal]] of $X$ through its standard cylinder spectrum
+
+$$
+  \nabla_X
+  \;\colon\;
+  X \vee X 
+    \longrightarrow
+  X \wedge (I_+)
+   \longrightarrow
+  X
+$$
+
+(where we are using that [[wedge sum]] is the [[coproduct]] in [[pointed topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct)).)
+
+=--
+
++-- {: .num_example #StandardPathSpaceSpectrumSequential}
+###### Example
+
+For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, its **standard path space spectrum** is its [[powering]] $Maps(I_+,X)$, def. \ref{TensoringAndPoweringOfSequentialSpectra}, with the standard interval ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalInterval)) with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). The component spaces of the path space spectrum are the standard path space objects of the component spaces of $X$:
+
+$$
+  (Maps(I_+, X)_\ast)_n
+  =
+  Maps(I_+, X)_\ast
+  \,.
+$$
+
+By the functoriality of the [[powering]], the factoring 
+
+$$
+  \nabla_{S^0} \;\colon\; S^0 \vee S^0 \longrightarrow I_+ \longrightarrow S^0
+$$
+
+of the [[codiagonal]] on the [[0-sphere]] through the standard interval with a base point adjoined, gives a factoring of the [[diagonal]] of $X$ through its standard path space spectrum
+
+$$
+  \Delta_X
+    \;\colon\;
+  X
+   \overset{Maps(I_+ \to S^0, X)_\ast, }{\longrightarrow}
+  Maps(I_+,X)_\ast
+   \overset{Maps(S^0 \vee S^0 \to I_+, X)_\ast}{\longrightarrow}
+  X \times X
+$$
+
+(where we are using that [[wedge sum]] is the [[coproduct]] in [[pointed topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct))).
+
+=--
+
+
+
++-- {: .num_prop #SigmaInfinityOmegaInfinity}
+###### Proposition
+
+The functor $\Sigma^\infty$ that forms [[suspension spectra]] (def. \ref{SuspensionSpectrum}) has a [[right adjoint]] functor $\Omega^\infty$
+
+$$
+  (\Sigma^\infty \dashv \Omega^\infty)
+  \;\colon\;
+  SeqSpec(Top_{cg})
+    \underoverset
+      {\underset{\Omega^{\infty}}{\longrightarrow}}
+      {\overset{\Sigma^\infty}{\longleftarrow}}
+      {\bot}
+  Top_{cg}^{\ast/}
+  \,,
+$$
+
+given by picking the 0-comonent space:
+
+$$
+  \Omega^\infty(X) = X_0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By def. \ref{SequentialSpectra} the components $f_n$ of a homomorphism of [[sequential spectra]] of the form 
+
+$$
+  \Sigma^\infty X \overset{f}{\longrightarrow} Y
+$$ 
+
+have to make these diagrams commute
+
+$$
+  \array{
+    S^1 \wedge S^n X &\overset{S^1 \wedge f_n}{\longrightarrow}& S^1 \wedge Y_{n}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\sigma^Y_n}}
+    \\
+    S^{n+1} \wedge X
+    &\overset{f_{n+1}}{\longrightarrow}& Y_{n+1}
+  }
+$$
+
+for all $n \in \mathbb{N}$. Since here the left vertical map is an isomorphism by def. \ref{SuspensionSpectrum}, this uniquely fixes $f_{n+1}$ in terms of $f_n$. Hence the only freedom in specifying $f$ is in the choice of the component $f_0 \colon X \longrightarrow Y_0$, which is equivalently a morphism
+
+$$
+  X \overset{\tilde f}{\longrightarrow} \Omega^\infty Y
+  \,.
+$$
+
+
+=--
+
+##### Suspension and looping
+
+We discuss models for the operation of [[reduced suspension]] and forming [[loop space objects]] of sequential spectra.
+
++-- {: .num_defn #SequentialSpectrumRealSuspension}
+###### Definition
+
+For $X$ a sequential spectrum, then
+
+1. the **standard suspension** of $X$ is $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
+
+1. the **standard looping** of $X$ is $Maps(S^1,X)_\ast$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+
+The standard suspension is equivalently the [[cofiber]] of the canonical inclusion of boundaries into the standard [[cylinder spectrum]]  $X \wedge (I_+)$ of example \ref{StandardCylinderSpectrumSequential}:
+
+$$
+  X \wedge S^1 
+    \simeq
+  cofib\left(
+    X \vee X \to X \wedge (I_+)
+  \right)
+  \,.
+$$
+
+The standard looping is equivalently the [[fiber]] of the canonical projection from the standard path space spectrum $Maps(I_+,X)_\ast$ (exmple \ref{StandardPathSpaceSpectrumSequential}):
+
+$$
+  Maps(S^1,X)_\ast 
+   \simeq
+  fib\left(
+    Maps(I_+,X)_\ast \to X \times X
+  \right)
+  \,.
+$$
+
+
+=--
+
+There are two other models for suspension and looping of spectra, which will turn out to be isomorphic in the [[stable homotopy category]]:
+
++-- {: .num_defn #ShiftedSpectrum}
+###### Definition
+
+For $X$ a [[sequential spectrum]] (def. \ref{SequentialSpectra}) and $k \in \mathbb{Z}$, the $k$-fold **shifted spectrum** of $X$ is the sequential spectrum denoted $X[k]$ given by
+
+* $(X[k])_n \coloneqq \left\{ \array{X_{n+k} & for \; n+k \geq 0 \\ \ast & otherwise } \right. $;
+
+* $\sigma_n^{X[k]} \coloneqq \left\{ \array{ \sigma^X_{n+k} & for \; n+k \geq 0 \\ 0 & otherwise} \right. $.
+
+=--
+
+
++-- {: .num_defn #SequentialSpectrumFakeSuspension}
+###### Definition
+
+For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
+
+1. the **alternative suspension** of $X$ is the sequential spectrum $\Sigma X$ with
+
+   1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$
+
+   1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma_n)$.
+
+1. the **alternative looping** of $X$ is the sequential spectrum $\Omega X$ with
+
+   1. $(\Omega X)_n \coloneqq Maps(S^1,X_n)_\ast$;
+
+   1. $\tilde \sigma_n^{\Omega X} \coloneqq Maps(S^1,\sigma_n)_\ast$.  
+
+Here $\tilde \Sigma_n$ denotes the $(\Sigma\dashv \Omega)$-[[adjunct]] of $\sigma_n$.
+
+=--
+
+In some references this "alternative suspension" is called the "fake suspension" e.g. ([Jardine 15, section 10.4](sequential+spectrum#Jardine15)).
+
++-- {: .num_remark #StandardAndAlternativeSuspensionAreNotDirectlyComparable}
+###### Remark
+
+There is no direct comparison morphism between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial graded commutativity of smash products of spheres (prop. \ref{GradedCommutativityOfSmashOfSpheres}): 
+
+namely a comparison morphism $\Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way round) would have to make the following diagrams commute:
+
+$$
+  \array{
+     S^1 \wedge S^1 \wedge X_n &\longrightarrow& S^1 \wedge X_n \wedge S^1
+     \\
+     {}^{\mathllap{S^1 \wedge \sigma_n}}\downarrow 
+       &(nc)& 
+     \downarrow^{\mathrlap{\sigma_n \wedge S^1}}
+     \\
+     S^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S^1
+  }
+$$
+
+Clearly the only way to go about achieving this is to have the horizontal morphisms be the [[braiding]] homomorphisms of the [[smash product]]. To see this more clearly, consider labeling the two copies of the circle appearing here as $S^1_a$ and $S^1_b$. Then the diagram we are dealing with looks like this:
+
+$$
+  \array{
+     S_a^1 \wedge S_b^1 \wedge X_n &\longrightarrow& S_b^1 \wedge X_n \wedge S_a^1
+     \\
+     {}^{\mathllap{S^1_a \wedge \sigma_n}}\downarrow 
+       &(nc)& 
+     \downarrow^{\mathrlap{\sigma_n \wedge S^1_a}}
+     \\
+     S_a^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S_a^1
+  }
+$$
+
+This makes it manifest that as $S^1_a$ passes along the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\p_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
+
+=--
+
++-- {: .num_defn #ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}
+###### Remark
+
+The looping and suspension operations in def. \ref{SequentialSpectrumRealSuspension} and def. \ref{SequentialSpectrumFakeSuspension} commute with shifting, def. \ref{ShiftedSpectrum}. Therefore in expressions like $\Sigma (X[1])$ etc. we may omit the parenthesis.
+
+=--
+
++-- {: .num_prop #AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
+###### Proposition
+
+The constructions from def. \ref{SequentialSpectrumRealSuspension}, def. \ref{ShiftedSpectrum} and def. \ref{SequentialSpectrumFakeSuspension} form pairs of [[adjoint functors]] $SeqSpec \to SeqSpec$ like so:
+
+1. $(-)[1] \;\dashv\; (-)[-1] \;\dashv\; (-)[1] \;\dashv\; \cdots $;
+
+1. $(-)\wedge S^1 \dashv Maps(S^1,-)_\ast$;
+
+1. $\Sigma \dashv \Omega$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first is immediate from the definition. 
+
+The second is just degreewise the adjunction [[smash product]]$\dashv$[[pointed mapping space]] (discussed [here](pointed+object#ClosedMonoidalStructure)), since by definition the smash product and mapping spaces here do not interact non-trivially with the structure maps.
+
+The third follows by applying the [[smash product]]$\dashv$[[pointed mapping space]]-adjunction isomorphism twice, like so:
+
+Morphisms $f\colon \Sigma X \to Y$ are in components given by commuting diagrams of this form:
+
+$$
+  \array{  
+    S^1 \wedge S^1 \wedge X_{n} 
+      &\overset{S^1 \wedge f_{n}}{\longrightarrow}&
+    S^1 \wedge Y_{n}
+    \\
+    {}^{\mathllap{S^1 \wedge \sigma_n^X}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{\sigma^Y_n}}
+    \\
+    S^1 \wedge X_{n+1} &\underset{f_{n+1}}{\longrightarrow}& Y_{n+1}
+  }
+  \,.
+$$
+
+Applying the adjunction isomorphism diagonally gives a bijection to diagrams of this form:
+
+$$
+  \array{
+   S^1 \wedge X_n &\overset{f_n}{\longrightarrow}& Y_n
+   \\
+   {}^{\mathllap{\sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
+   \\
+   X_{n+1} &\underset{\tilde f_{n+1}}{\longrightarrow}& Maps(S^1,Y_{n+1})_\ast
+  }
+  \,.
+$$
+
+Then applying the same isomorphism diagonally once more gives a further bijection to  commuting diagrams of this form:
+
+$$
+  \array{
+    X_n &\overset{\tilde f_n}{\longrightarrow}& Maps(S^1,Y_n)_\ast
+    \\
+    {}^{\mathllap{\tilde \sigma_n}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{Maps(S^1,\tilde \sigma^Y_n)_\ast}}
+    \\
+    Maps(S^1, X_{n+1})_\ast
+      &\underset{Maps(S^1,\tilde f_n)_\ast}{\longrightarrow}&
+    Maps\left(S^1, Maps(S^1,Y_{n+1})_\ast\right)_\ast
+  }
+  \,.
+$$
+
+This, finally, equivalently exhibits morphisms of the form
+
+$$
+  X \longrightarrow \Omega Y
+  \,.
+$$
+
+=--
+
+In conclusion:
+
++-- {: .num_prop #StabilizationAdjunctionSquareExists}
+###### Proposition
+
+The following diagram of [[adjoint pairs]] of [[functors]] commutes:
+
+$$
+  \array{
+     Top_{cg}^{\ast/}
+      &
+      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      &
+     Top^{\ast/}_{cg}
+     \\
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     &&
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     \\
+     SeqSpec(Top_{cg})
+     &
+     \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{\simeq}
+     &
+     SeqSpec(Top_{cg})
+  }
+  \,,
+$$
+
+Here the top horizontal adjunction is from prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, the vertical adjunction is from prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} and then bottom adjunction is from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to check 
+
+$$
+  \Sigma^\infty \circ \Sigma \simeq \Sigma \circ \Sigma^\infty 
+  \,.
+$$
+
+From this the statement
+
+$$
+  \Omega^\infty \circ \Omega \simeq \Omega \circ \Omega^\infty
+$$
+
+follows by uniqueness of adjoints.
+
+So let $X \in Top_{cg}^{\ast/}$. Then 
+
+* $(\Sigma \Sigma^\infty X)_n = S^1 \wedge S^n \wedge X$,
+
+* $\sigma^{(\Sigma \Sigma^\infty X)}_n \colon S^1 \wedge S^1 \wedge S^n \wedge X \overset{S^1 \wedge id}{\longrightarrow} S^1 \wedge S^{1+n} \wedge X$,
+
+while
+
+* $(\Sigma^\infty \Sigma X)_n = S^n \wedge S^1 \wedge X$,
+
+
+* $\sigma_n^{(\Sigma^\infty \Sigma X)}\colon S^1\wedge S^n \wedge S^1 \wedge X \overset{id \wedge S^1 \wedge X}{\longrightarrow} S^{1+n} \wedge S^1 \wedge X$,
+
+where we write "id" for the canonical isomorphism. Clearly there is a natural isomorphism given by the canonical identifications
+
+$$
+  S^1 \wedge S^n \wedge X
+    \overset{\simeq}{\longrightarrow}
+  (S^1)^{\wedge^{n+1}}\wedge X
+     \overset{\simeq}{\longrightarrow}
+  S^n \wedge S^1 \wedge X
+  \,.
+$$
+
+(As long as we are not smash-permuting the $S^1$ with the $S^n$ -- and here we don't -- then the fact that they get mixed under this isomorphism is irrelevant. The point where this does become relevant is the content of remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable} below.)
+
+=--
+
+
+##### As topological diagrams
+
+The following is an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). 
+
 
 +-- {: .num_defn #CategoriesOfStandardSpheres}
 ###### Definition
@@ -103,24 +696,45 @@ $$
   \iota \;\colon\; StdSpheres \longrightarrow Top_{cg}^{\ast/}
 $$
 
-for the non-full [[topologically enriched category|topologically enriched]] [[subcategory]] of [[pointed topological spaces]] whose
+for the non-full [[topologically enriched category|topologically enriched]] [[subcategory]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) of that of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopkAsATopologicallyEnrichedCategory)):
 
-* [[objects]] are the standard [[n-spheres]] identified as the [[smash product]] powers $S^n \coloneqq (S^1)^{\wedge^n}$ of the standard circle;
+* [[objects]] are the standard [[n-spheres]] $S^n$, for $n \in \mathbb{N}$, identified as the [[smash product]] powers $S^n \coloneqq (S^1)^{\wedge^n}$ of the standard circle;
 
 * [[hom-spaces]] are
 
   $$
-    StdSpheres(S^{n}, S^{n+k})
+    StdSpheres(S^{n}, S^{k+n})
       \coloneqq
     \left\{
       \array{
         \ast & for & k \lt 0
         \\
-        im \left( S^{k} \stackrel{}{\to} (S^{n+k})^{S^n} \right)
+        S^k 
         & otherwise
       }
     \right.
   $$
+
+* [[composition]] is induced from compistion in $Top^{\ast/}_{cg}$ by regarding the [[hom-space]] $S^k$ above as its [[image]] in $Maps({S^n},S^{k+n})_\ast$ under the [[adjunct]]
+
+$$
+  S^{k} \stackrel{}{\to} Maps({S^n},S^{k+n})_\ast
+$$
+
+of the canonical isomorphism
+
+$$
+  S^k \wedge S^n \overset{\simeq}{\longrightarrow} S^{k+n}
+  \,.
+$$
+
+This induces the category 
+
+$$
+  [StdSpheres, Top^{\ast/}_{cg}]
+$$
+
+of [[topologically enriched functors]] on $StdSpheres$ with values in $Top_{cg}^{\ast/}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)).
 
 =--
 
@@ -132,13 +746,13 @@ There is an [[equivalence of categories]]
 
 $$
   (-)^seq
-  \;\colon\;
+    \;\colon\;
   [StdSpheres,Top_{cg}^{\ast/}]
-    \longrightarrow
-  SeqSpec(Top)
+    \overset{\simeq}{\longrightarrow}
+  SeqSpec(Top_{cg})
 $$
 
-from the category of [[topologically enriched functors]] on the category of standard spheres of def. \ref{CategoriesOfStandardSpheres} to the category of topological sequential spectra, def. \ref{SequentialSpectra} given on objects by sending $X \in [StdSpheres,Top^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
+from the category of [[topologically enriched functors]] on the category of standard spheres of def. \ref{CategoriesOfStandardSpheres} to the category of topological sequential spectra, def. \ref{SequentialSpectra}, which is given on objects by sending $X \in [StdSpheres,Top^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
 
 $$
   X^{seq}_n \coloneqq X(S^n)
@@ -147,7 +761,11 @@ $$
 and with structure maps
 
 $$
-  \frac{S^1 \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n}{S^1 \longrightarrow (X^{seq}_{n+1})^{X^{seq}_n}}
+  \frac{
+    S^1 \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n
+  }{
+    S^1 \longrightarrow Maps(X^{seq}_n, X^{seq}_{n+1})_\ast
+  }
 $$
 
 given by
@@ -155,21 +773,13 @@ given by
 $$
   S^1
     \stackrel{\widetilde{id}}{\longrightarrow}
-  (S^{n+1})^{S^n}
+  Maps(S^n,S^{n+1})_\ast
     \stackrel{X_{S^n, S^{n+1}}}{\longrightarrow}
-  (X^{seq}_{n+1})^{X^{seq}_n}
+  Maps(X^{seq}_n, X^{seq}_{n+1})
   \,.
 $$
 
-
 =--
-
-The version of this in [[simplicial sets]] appears as ([Lydakis 98, prop. 4.3](#Lydakis98)), see also ([MMSS 00](#MMSS00)) [this example](Model+categories+of+diagram+spectra#SequentialSpectraAsFunctorsOnFreeSSequModules).
-
-
-
-
-
 
 
 
@@ -920,7 +1530,70 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 ## Properties
 
-### Fibrations and cofibrations
+We discuss properties of the stable model structure. One key property is that it is indeed the [[stabilization]] of the [[classical model structure on pointed topological spaces]]. Recall the following key property of that:
+
+The _[[Introduction to Stable homotopy theory -- P|Prelude on Classical homotopy theory]]_ ended with the following phenomenon:
+
++-- {: .num_defn #SuspensionAndLoopingOnPointedTopologicalSpaces}
+###### Definition
+
+The [[reduced suspension]]/[[loop space object|looping]] operation on [[pointed topological space|pointed]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryOfPointedObjects)) [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) is the smash-tensor/hom-[[adjunction]] ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)) for the standard [[1-sphere]] smash product form the left:
+
+$$
+  (\Sigma \dashv \Omega)
+  \;\colon\;
+  Top_{cg}^{\ast/}
+   \;
+   \underoverset
+     {\underset{Maps(S^1,-)_\ast}{\longrightarrow}}
+     {\overset{S^1 \wedge (-)}{\longleftarrow}}
+     {\bot}
+   \;
+  Top_{cg}^{\ast/}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}
+###### Proposition
+
+With respect to the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces $(Top^{\ast/}_{cg})_{Quillen}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory))
+
+1. the adjunction in def. \ref{SuspensionAndLoopingOnPointedTopologicalSpaces} is a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction))
+
+   $$
+     (\Sigma \dashv \Omega)
+     \;\colon\;
+     (Top_{cg}^{\ast/})_{Quillen}
+      \underoverset
+       {\underset{Maps(S^1,-)_\ast}{\longrightarrow}}
+       {\overset{S^1 \wedge (-)}{\longleftarrow}}
+       {\bot}
+     (Top_{cg}^{\ast/})_{Quillen}
+     \,,
+   $$
+
+1. its induced [[adjoint pair]] of [[derived functors]] on the [[classical pointed homotopy category]] (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) is the canonical suspension/looping adjunction (according to [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory))
+
+   $$
+     (\Sigma \dashv \Omega)
+       \;\colon\;
+     Ho(Top^{\ast/})
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\bot}
+     Ho(Top^{\ast/})
+     \,.
+   $$
+
+=--
+
+See ([this prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopAreAdjointOnHomotopyCategory)).
+
+
+### CW-spectra
  {#FibrantAndCofibrantObjects}
 
 +-- {: .num_prop #CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}
@@ -996,142 +1669,157 @@ Now by the assumption that $X$ is a [[CW-spectrum]], each $X_{n}$ is a CW-comple
 
 ### Looping and suspension
 
-We discuss models for the operation of [[reduced suspension]] and forming [[loop space objects]] of spectra.
++-- {: .num_prop #SigmaInfinityIsQuillenOnStrictModelStructureOnSequential}
+###### Proposition
 
-First, recall the [[tensoring]] and [[powering]] of sequential spectra over [[pointed topological spaces]]/[[pointed simplicial sets]].
-
-+-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
-###### Definition
-
-Let $X$ be a sequential spectrum and $K$ a [[pointed topological space]]/[[pointed simplicial set]]. Then
-
-1. $X \wedge K$ is the sequential spectrum with 
-
-   * $(X \wedge K)_n \coloneqq X_n \wedge K$ ([[smash product]])
-
-   * $\sigma_n^{X\wedge K} \coloneqq \sigma_n^{X} \wedge id_{K}$.
-
-1. $X^K$ is the sequential spectrum with
-
-   * $(X^K)_n \coloneqq (X_n)^K$ ([[pointed mapping space]])
-
-   * $\sigma_n^{(X^k)} \colon S^1 \wedge X_n^K \to (S^1 \wedge X_n)^K \overset{(\sigma_n)^K}{\longrightarrow} (X_{n+1})^K$.
- 
-=--
-
-
-+-- {: .num_defn #ShiftedSpectrum}
-###### Definition
-
-For $X$ a [[sequential spectrum]] (def. \ref{SequentialSpectra}) and $k \in \mathbb{Z}$, the $k$-fold **shifted spectrum** of $X$ is the sequential spectrum denoted $X[k]$ given by
-
-* $(X[k])_n \coloneqq \left\{ \array{X_{n+k} & for \; n+k \geq 0 \\ \ast & otherwise } \right. $;
-
-* $\sigma_n^{X[k]} \coloneqq \left\{ \array{ \sigma^X_{n+k} & for \; n+k \geq 0 \\ 0 & otherwise} \right. $.
-
-=--
-
-
-+-- {: .num_defn #SequentialSpectrumRealSuspension}
-###### Definition
-
-For $X$ a sequential spectrum, then
-
-1. the **standard suspension** of $X$ is $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
-
-1. the **standard looping** of $X$ is $X^{S^1}$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
-
-=--
-
-+-- {: .num_remark #StandardSuspensionIsCorrectSuspension}
-###### Remark
-
-The standard suspension of def. \ref{SequentialSpectrumRealSuspension} is equivalently the [[cofiber]] of the canonical inclusion of boundaries into the [[reduced cylinder]]  
+The $(\Sigma^\infty \dashv \Omega^\infty)$-adjunction from prop. \ref{SigmaInfinityOmegaInfinity} is a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) and the strict [[model structure on topological sequential spectra]] of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}:
 
 $$
-  X \vee X \longrightarrow X \wedge I_+ \longrightarrow X \wedge S^1
+  (\Sigma^\infty \dashv \Omega^\infty)
+  \;\colon\;
+  SeqSpec(Top_{cg})_{strict}
+    \underoverset
+      {\underset{\Omega^{\infty}}{\longrightarrow}}
+      {\overset{\Sigma^\infty}{\longleftarrow}}
+      {\bot}
+  (Top_{cg}^{\ast/})_{Quillen}
   \,.
 $$
 
-If $X$ is a [[CW-spectrum]], then by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood} this is a good [[cylinder object]] and so then $X\wedge S^1$ is a homotopy-correct model for the reduced suspension.
 
 =--
 
-But it turns out that for proving the [[stable model category|stability]] of the stable model structure [below](#Stability) it is convenient to replace this by a stably equivalent model:
++-- {: .proof}
+###### Proof
 
-+-- {: .num_defn #SequentialSpectrumFakeSuspension}
+Let $f \colon X\longrightarrow Y$ be a morphism in $Top^{\ast/}_{cg}$ and 
+
+$$
+  \Sigma^\infty f \colon \Sigma^\infty X \longrightarrow \Sigma^\infty Y
+$$
+
+its image.
+
+Since, the structure maps in a [[suspension spectrum]], example \ref{SuspensionSpectrum}, are all isomorphisms we have for all $n \in \mathbb{N}$ an isomorphism
+
+$$
+  (\Sigma^\infty X)_{n+1}
+    \underset{S^1 \wedge (\Sigma^\infty X)_n}{\coprod} 
+   S^1 \wedge (\Sigma^\infty Y)_n
+    \simeq 
+  S^1 \wedge (\Sigma^\infty Y)_n
+  \,.
+$$
+
+Therefore $\Sigma^\infty f$ is a strict cofibration, according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}, precisely if $(\Sigma^\infty f)_0 = f$ is a classical cofibration and all the structure maps of $\Sigma^\infty Y$ are classical cofibrations. But the latter are even isomorphisms, so that this is no extra condition. Hence $\Sigma^\infty$ sends cofibrations to cofibrations.
+
+Furthermore, it is clear that $\Sigma^\infty$ sends weak equivalences to weak  equivalences. Hence it preserves also acyclic cofibrations, hence is a left Quillen functor.
+
+
+=--
+
++-- {: .num_prop #AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential}
+###### Proposition
+
+The $(\Sigma \dashv \Omega)$-[[adjunction]] from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} is a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) with respect to the strict model structure on sequential spectra of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+
+$$
+   SeqSpec(Top_{cg})_{strict}  
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+   SeqSpec(Top_{cg})_{strict}   
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the (acyclic) fibrations of $SeqSpec(Top_{cg})_{strict}$ are by definition those morphisms that are degreewise (acylic) fibrations in $(Top^{\ast/}_{cg})_{Quillen}$, the statement follows immediately from the fact that the right adjoint $\Omega$ is degreewise given by $Maps(S^1, -)_\ast \colon (Top^{\ast/}_{cg})_{Quillen} \to (Top^{\ast/}_{cg})_{Quillen}$, which is a right Quillen functor by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}.
+
+=--
+
+In summary, prop. \ref{StabilizationAdjunctionSquareExists}, prop. \ref{SigmaInfinityIsQuillenOnStrictModelStructureOnSequential} and prop.  \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} say that 
+
++-- {: .num_cor #SuspensionLoopingAdjunctionSystemForStrictModelStructure}
+###### Corollary
+
+
+The commuting square of adjunctions in prop. \ref{StabilizationAdjunctionSquareExists} is a square of [[Quillen adjunctions]] with respect to the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) and the strict [[model structure on topological sequential spectra]] of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}:
+
+$$
+  \array{
+     (Top_{cg}^{\ast/})_{Quillen}
+      &
+      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      &
+     (Top^{\ast/}_{cg})_{Quillen}
+     \\
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     &&
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     \\
+     SeqSpec(Top_{cg})_{strict}
+     &
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+     &
+     SeqSpec(Top_{cg})_{strict}
+  }
+  \,,
+$$
+
+
+=--
+
+
+
+
+### Stability
+ {#Stability}
+
+
+We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation $\Sigma$ is an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
+
++-- {: .num_defn #StableModelCategory}
 ###### Definition
 
-For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
+A [[pointed category|pointed]] [[model category]] $\mathcal{C}$ is called a **[[stable model category]]** if the canonically induced [[reduced suspension]] and [[loop space object]]-[[functors]] ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory))is an [[equivalence of categories]]
 
-1. the **alternative suspension** of $X$ is the sequential spectrum $\Sigma X$ with
-
-   1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$
-
-   1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma_n)$.
-
-1. the **alternative looping** of $X$ is the sequential spectrum $\Omega X$ with
-
-   1. $(\Omega X)_n \coloneqq (X_n)^{S^1}$;
-
-   1. $\tilde \sigma_n^{\Omega X} \coloneqq (\sigma_n)^{S^1}$.  
-
-Here $\tilde \Sigma_n$ denotes the $(\Sigma\dashv \Omega)$-[[adjunct]] of $\sigma_n$.
+$$
+  (\Sigma \dashv \Omega)
+  \;\colon\;
+  Ho(\mathcal{C})
+   \underoverset
+     {\underset{\Omega}{\longrightarrow}}
+     {\overset{\Sigma}{\longleftarrow}}
+     {\simeq}
+  Ho(\mathcal{C})
+  \,.
+$$
 
 =--
 
-In some references this "alternative suspension" is called the "fake suspension" e.g. ([Jardine 15, section 10.4](sequential+spectrum#Jardine15)).
+In order to prove that this is the case for $SeqSpec(Top_{cg})$ we first relate now the operations of "standard suspension" and of "alternative suspension" as well as the canonical suspension operation on the homotopy category to each other:
 
-+-- {: .num_remark #StandardAndAlternativeSuspensionAreNotDirectlyComparable}
-###### Remark
 
-There is no direct comparison morphism between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial "[graded commutativity](smash product of spectra#GradedCommutativityOfSmashOfSpheres)" of smash products of spheres: 
-
-namely a comparison morphism $\Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way round) would have to make the following diagrams commute:
-
-$$
-  \array{
-     S^1 \wedge S^1 \wedge X_n &\longrightarrow& S^1 \wedge X_n \wedge S^1
-     \\
-     {}^{\mathllap{S^1 \wedge \sigma_n}}\downarrow 
-       &(nc)& 
-     \downarrow^{\mathrlap{\sigma_n \wedge S^1}}
-     \\
-     S^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S^1
-  }
-$$
-
-Clearly the only way to go about achieving this is to have the horizontal morphisms be the [[braiding]] homomorphisms of the [[smash product]]. To see this more clearly, consider labeling the two copies of the circle appearing here as $S^1_a$ and $S^1_b$. Then the diagram we are dealing with looks like this:
-
-$$
-  \array{
-     S_a^1 \wedge S_b^1 \wedge X_n &\longrightarrow& S_b^1 \wedge X_n \wedge S_a^1
-     \\
-     {}^{\mathllap{S^1_a \wedge \sigma_n}}\downarrow 
-       &(nc)& 
-     \downarrow^{\mathrlap{\sigma_n \wedge S^1_a}}
-     \\
-     S_a^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S_a^1
-  }
-$$
-
-This makes it manifest that as $S^1_a$ passes along the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\p_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
-
-However, we may get around this by considering two consecutive structure maps, such that $S_a^2$ is to be braided around. Then it works.
-
-=--
 
 +-- {: .num_lemma #IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}
 ###### Lemma
 
-There is a [[natural isomorphism]] in the [[stable homotopy category]]  between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}):
+There is a [[natural isomorphism]] in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}):
 
 $$
   \Sigma (-)
-  \simeq
+   \; \simeq \;
   (-) \wedge S^1
-  \;\;\;
-  \in Ho(SeqSpec(Top))
+  \;\;\;\;\;
+  \in Ho(SeqSpec(Top_{cg})_{stable})
 $$
 
 =--
@@ -1140,7 +1828,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $(L \dashv R) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ for the [[Quillen equivalence]] between standard spectra with structure morphisms $S^1 \wedge X_n \to X_{n+1}$ to doubly-staged sequential spectra with structure morhisms $S^2 \wedge X'_n \to X'_{n+1}$. (...) 
+Let $(L \dashv R) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ for the [[Quillen equivalence]] between standard spectra with structure maps $S^1 \wedge X_n \to X_{n+1}$ to doubly-staged sequential spectra with structure morhisms $S^2 \wedge X'_n \to X'_{n+1}$. (...) 
 
 
 Via the discussion in remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable}, there is a [[natural isomorphism]] in $SeqSpec(Top)$ between the image under $R$ of the two suspension operations
@@ -1163,9 +1851,10 @@ Let $Q$ be any choice of cofibrant replacement, i.e. a factorization for each ob
 
 $$  
   \emptyset
-   \overset{\in Cof}{\longrightarrow}
+    \underoverset{\in Cof}{i_X}{\longrightarrow}
   Q X
-   \overset{\in W \cap Fib}{\longrightarrow}
+    \underoverset{\in W \cap Fib}{p_X}{\longrightarrow}
+  X
   \,.
 $$
 
@@ -1177,7 +1866,7 @@ $$
     \\
     \downarrow &{}^{\mathllap{Q f}}\nearrow& \downarrow
     \\
-    Q X \overset{f \circ p_X}{\longrightarrow}& Y
+    Q X &\overset{f \circ p_X}{\longrightarrow}& Y
   }
   \,.
 $$
@@ -1209,92 +1898,6 @@ This gives an isomorphism $\Sigma X \to X \wedge S^1$ in the homotopy category, 
 
 =--
 
-
-+-- {: .num_defn #ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}
-###### Remark
-
-The looping and suspension operations in def. \ref{SequentialSpectrumRealSuspension} and def. \ref{SequentialSpectrumFakeSuspension} commute with shifting, def. \ref{ShiftedSpectrum}. Therefore in expressions like $\Sigma (X[1])$ etc. we may omit the parenthesis.
-
-=--
-
-+-- {: .num_prop #AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
-###### Proposition
-
-The constructions from def. \ref{ShiftedSpectrum}, def. \ref{SequentialSpectrumRealSuspension} and def. \ref{SequentialSpectrumFakeSuspension} form pairs of [[adjoint functors]] $SeqSpec \to SeqSpec$ like so:
-
-1. $(-)[1] \;\dashv\; (-)[-1] \;\dashv\; (-)[1] \;\dashv\; \cdots $;
-
-1. $(-)\wedge S^1 \dashv (-)^{S^1}$;
-
-1. $\Sigma \dashv \Omega$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The first is immediate from the definition. 
-
-The second is just degreewise the adjunction [[smash product]]$\dashv$[[pointed mapping space]] (discussed [here](pointed+object#ClosedMonoidalStructure)), since by definition the smash product and mapping spaces here do not interact non-trivially with the structure maps.
-
-The third follows by applying the [[smash product]]$\dashv$[[pointed mapping space]]-adjunction isomorphism twice, like so:
-
-Morphisms $f\colon \Sigma X \to Y$ are in components given by commuting diagrams of this form:
-
-$$
-  \array{  
-    S^1 \wedge S^1 \wedge X_{n} 
-      &\overset{S^1 \wedge f_{n}}{\longrightarrow}&
-    S^1 \wedge Y_{n}
-    \\
-    {}^{\mathllap{S^1 \wedge \sigma_n^X}}\downarrow 
-     && 
-    \downarrow^{\mathrlap{\sigma^Y_n}}
-    \\
-    S^1 \wedge X_{n+1} &\underset{f_{n+1}}{\longrightarrow}& Y_{n+1}
-  }
-  \,.
-$$
-
-Applying the adjunction isomorphism diagonally gives a bijection to diagrams of this form:
-
-$$
-  \array{
-   S^1 \wedge X_n &\overset{f_n}{\longrightarrow}& Y_n
-   \\
-   {}^{\mathllap{\sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
-   \\
-   X_{n+1} &\underset{\tilde f_{n+1}}{\longrightarrow}& (Y_{n+1})^{S^1}
-  }
-  \,.
-$$
-
-Then applying the same isomorphism diagonally once more gives a further bijection to  commuting diagrams of this form:
-
-$$
-  \array{
-    X_n &\overset{\tilde f_n}{\longrightarrow}& (Y_n)^{S^1}
-    \\
-    {}^{\mathllap{\tilde \sigma_n}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{(\tilde \sigma^Y_n)^{S^1}}}
-    \\
-    (X_{n+1})^{S^1}
-    &\underset{(\tilde f_n)^{S^1}}{\longrightarrow}&
-    \left((Y_{n+1})^{S^1}\right)^{S^1}
-  }
-  \,.
-$$
-
-This finally equivalently exhibits morphisms of the form
-
-$$
-  X \longrightarrow \Omega Y
-  \,.
-$$
-
-=--
-
 +-- {: .num_lemma #FakeLoopingPreservesOmegaSpectra}
 ###### Lemma
 
@@ -1302,14 +1905,31 @@ With $\Sigma$ and $\Omega$ the alternative suspension and alternative looping fu
 
 1. $\Omega$ preserves [[Omega-spectra]] (def. \ref{OmegaSpectrum});
 
-1. $\Sigma$ preserves stable equivalences (def. \ref{StableWeakEquivalenceOfSequentialsTopologicalSpectra}).
+1. $\Sigma$ preserves stable equivalences (def. \ref{StableWeakEquivalenceOfSequentialTopologicalSpectra}).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The first statement is clear. Moreover it is clear that $\Omega$ preserves strict fibrations and strict acyclic fibrations (since this is equivalently degreewise the statement that $(-)^{S^1} \colon Top^{\ast/}_{Quillen}\to Top^{\ast/}_{Quillen}$ does so). Therefore the adjunction $(\Sigma \dashv \Omega)$ from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} is a [[Quillen adjunction]] on $SeqSpec(Top)_{strict}$, hence passes to an adjunction on the [[homotopy category of a model category|homotopy category]]. 
+Regarding the first statement:
+
+By prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, $\Omega$ acts on component spaces and adjunct structure maps as the [[Quillen adjunction|right Quillen functor]]
+
+$$
+  Maps(S^1,-)_\ast
+  \;\colon\;
+  (Top_{cg}^{\ast/})_{Quillen}
+    \longrightarrow
+  (Top_{cg}^{\ast/})_{Quillen}
+$$
+
+on the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). Since in this model structure all objects are fibrants, [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)) implies says that with $\tilde \sigma^X_n$ a [[weak homotopy equivalence]], so is
+$\tilde \sigma^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
+
+Regarding the second statement: 
+
+By prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} $(\Sigma \dashv \Omega)$ is a [[Quillen adjunction]] for the strict model structure, hence (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) it passes to an adjunction of its [[derived functors]] on the [[homotopy category of a model category|homotopy category]]. 
 
 Therefore with $f$ a stable equivalence and $Y$ any Omega-spectrum, then
 
@@ -1319,7 +1939,7 @@ $$
   [f,\Omega Y]_{strict}
 $$
 
-is an isomorphism, and hence $\Sigma f$ is a stable equivalence.
+is an isomorphism by the first statement above, and hence $\Sigma f$ is a stable equivalence.
 
 =--
 
@@ -1337,7 +1957,7 @@ For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithL
      X
    $$
 
-   and this is a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra})
+   and this is a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}),
 
 1. the adjunct structure maps constitute a homomorphism
 
@@ -1425,11 +2045,6 @@ $$
 =--
 
 
-### Stability
- {#Stability}
-
-We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation induced an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
-
 +-- {: .num_lemma #FakeSuspensionInducesEquivalenceOfHomotopyCategories}
 ###### Lemma
 
@@ -1444,6 +2059,7 @@ $$
   \,.
 $$
 
+
 =--
 
 +-- {: .proof}
@@ -1455,10 +2071,32 @@ and remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}, th
 
 =--
 
++-- {: .num_lemma #StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension}
+###### Lemma
+
+The canonical suspension functor on the [[homotopy category of a model category|homotopy category]] of any [[model category]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) in the case of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) $Ho(Spectra) = Ho(SeqSpec(Top_{cg})_{stable})$ is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that via [[CW-approximation]], every object in the stable homotopy category is represented by a [[CW-spectrum]]. For instance by the [[Quillen equivalence]] to the stable [[Bousfield-Friedlander model structure]] $SeqSpec(sSet)_{stable}$ (prop. \ref{QuillenEquivalenceToStableBFModelStructure}) every topological sequential spectrum $X$ is stably equivalent to the [[CW-spectrum]] which is degreewise the [[geometric realization]] of a BF-cofibrant replacement of its degreewise [[singular simplicial complex]]
+
+$$
+  {\vert Q Sing X \vert}
+  \overset{\in W_{stable}}{\longrightarrow}
+  X
+$$
+
+By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] the canonical suspension functor on the homotopy category (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}. 
+
+=---
+
 +-- {: .num_theorem #StableModelStructureOnSequentiaSpectraIsStableModelCategory}
 ###### Theorem
 
-The stable model structure $SeqSpec(Top)_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} indeed gives a [[stable model category]] in that the canonically induced [[reduced suspension]] functor on its [[homotopy category of a model category|homotopy category]] is an [[equivalence of categories]]
+The stable model structure $SeqSpec(Top)_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} indeed gives a [[stable model category]] (def. \ref{StableModelCategory}) in that the canonically induced [[reduced suspension]] functor ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category of a model category|homotopy category]] is an [[equivalence of categories]]
 
 $$
   \Sigma 
@@ -1469,22 +2107,172 @@ $$
   \,.
 $$
 
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-As in remark \ref{StandardSuspensionIsCorrectSuspension}, on [[CW-spectra]] the canonical suspension functor is given by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}. By prop. \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory} however, this is naturally isomorphic -- on the level of the homotopy category -- to the alternative suspension operation of def. \ref{SequentialSpectrumFakeSuspension}. Therefor the claim follows with prop. \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories}.
+By lemma \ref{StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension}, the canonical suspension functor is represented, on fibrant-cofibrant objects, by the standard suspension functor of def. \ref{SequentialSpectrumRealSuspension}.
+By prop. \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory} however, this is naturally isomorphic -- on the level of the homotopy category -- to the alternative suspension operation of def. \ref{SequentialSpectrumFakeSuspension}. Therefore the claim follows with prop. \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories}.
+
+=--
+
+In fact this lifts to a Quillen equivalence:
+
++-- {: .num_prop #AlternativeLoopingAndSuspensionIsQuillenEquivalenceOnStableModelStructure}
+###### Proposition
+
+The $(\Sigma \dashv \Omega)$-[[adjunction]] from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} is a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence)) with respect to the stable model structure of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}:
+
+$$
+  SeqSpec(Top_{cg})_{stable}
+    \underoverset
+     {\underset{\Omega}{\longrightarrow}}
+     {\overset{\Sigma}{\longrightarrow}}
+     {\simeq_{\mathrlap{Q}}}
+  SeqSpec(Top_{cg})_{stable}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} and the fact that the stable model structure has the same cofibrations as the strict model structure,  $\Sigma$ preserves stable cofibrations. Moreover, by lemma \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves in fact all stable weak equivalences. Hence $\Sigma$ is a left Quillen functor and so $(\Sigma \dashv \Omega)$ is a [[Quillen adjunction]].
+
+With this, lemma \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories} gives that this Quillen adjunction is a Quillen equivalence.
+
+=--
+
+In summary, this concludes the characterization of the [[stable homotopy category]] as the result of stabilizing the canonucal $(\Sigma \dashv \Omega)$-adjunction on the [[classical homotopy category]]:
+
++-- {: .num_cor #StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory}
+###### Corollary
+
+The [[classical model structure on pointed topological spaces|classical model structure]] $(Top^{\ast/}_{cg})_{Quillen}$ on [[pointed topological space|pointed]] [[compactly generated topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) and the stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})$ (theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}) sit in a [[commuting diagram]] of [[Quillen adjunctions]] of the form
+
+$$
+  \array{
+     (Top_{cg}^{\ast/})_{Quillen}
+      &
+      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      &
+     (Top^{\ast/}_{cg})_{Quillen}
+     \\
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     &&
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     \\
+     SeqSpec(Top_{cg})_{strict}
+     &
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+     &
+     SeqSpec(Top_{cg})_{strict}
+     \\
+     {}^{\mathllap{id}}\downarrow \dashv \uparrow^{\mathrlap{id}}
+     &&
+     {}^{\mathllap{id}}\downarrow \dashv \uparrow^{\mathrlap{id}}
+     \\
+     SeqSpec(Top_{cg})_{stable}
+     &
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\simeq_{\mathrlap{Q}}}
+     &
+     SeqSpec(Top_{cg})_{stable}
+  }
+  \,,
+$$
+
+where the top parts is from corollary \ref{SuspensionLoopingAdjunctionSystemForStrictModelStructure}, the bottom vertical Quillen adjunction is the [[Bousfield localization of model categories|Bousfield localization]] of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} and the bottom horizontal adjunction is the [[Quillen equivalence]] of prop. \ref{AlternativeLoopingAndSuspensionIsQuillenEquivalenceOnStableModelStructure}.
+
+Hence (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) the [[derived functors]] of the functors in this diagram yield a commuting square of [[adjoint functors]] between the [[classical homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalHomotopyCategory)) and the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) of the form
+
+$$
+  \array{
+    Ho(Top^{\ast/})
+    &
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\bot}
+    &
+    Ho(Top^{\ast/})
+    \\
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+    &&
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+    \\
+    Ho(Spectra)
+    &
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\simeq}
+    &
+    Ho(Spectra)
+  }
+  \,,
+$$
+
+and here the horizontal adjunctions are the canonically induced (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory))suspension/looping functors by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory} and by lemma \ref{StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension} and theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}.
+
+
+=--
+
+### The triangulated stable homotopy category 
+
++-- {: .num_defn #TheStableHomotopyCategory}
+###### Definition
+
+Write
+
+$$
+  Ho(Spectra)
+  \coloneqq
+  Ho(SeqSpec(Top_{cg})_{stable})
+$$
+
+for the [[homotopy category of a model category|homotopy category]] of the stable [[model structure on topological sequential spectra]] from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}. 
+
+This is called the **[[stable homotopy category]]**.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[stable homotopy category]] $Ho(Spectra)$ from def. \ref{TheStableHomotopyCategory}, equipped with the suspension functor $\Sigma \colon Ho(Spectra) \overset{\simeq}{\longrightarrow} Ho(Spectra)$ from corollary \ref{StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory} is a [[triangulated category]].
 
 =--
 
 
 ### Relation to sequential spectra in $sSet$ and to combinatorial spectra
 
-+-- {: .num_prop}
++-- {: .num_prop #QuillenEquivalenceToStableBFModelStructure}
 ###### Proposition
 
-There is a [[zig-zag]] of [[Quillen equivalences]] relating the [[Bousfield-Friedlander model structure]] $SeqSpec(sSet)_{stable}$, with $SeqSpec(Top)_{stable}$ from def. \ref{StableModelStructureOnSequentialSpectraIsModelCategory} and with Kan's [[combinatorial spectra]].
+The [[Quillen equivalence]] $({\vert - \vert} \dashv Sing)$ between the [[classical model structure on topological spaces]] and the [[classical model structure on simplicial sets]] prolongs to a [[Quillen equivalence]] 
+
+$$
+  SeqSpec(Top_{cg})_{stable}
+    \underoverset
+      {\underset{Sing}{\longrightarrow}}
+      {\overset{\vert - \vert}{\longleftarrow}}
+      {\simeq_{\mathrlap{Q}}}
+  SeqSpec(sSet)_{stable}
+$$
+
+betwen the stable model structure on topological spectra from theorm \ref{StableModelStructureOnSequentialSpectraIsModelCategory}, and the stable [[Bousfield-Friedlander model structure]].
+
+Moreover there is a [[Quillen equivalences]] with a model structure on [[Daniel Kan]]'s [[combinatorial spectra]].
 
 =--
 
