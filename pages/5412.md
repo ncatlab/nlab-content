@@ -280,6 +280,11 @@ $$
 
 =--
 
+On objects this takes $F : (\int_C P)^{op} \to Set$ to 
+$$i(F)(A \in C) = \{ (p,a) | p \in P(A), a \in F(A,p) \} = \Sigma_{p \in P(A)} F(A,p)$$
+with obvious projection to $P$. The inverse takes $f : Q \to P$ to
+$$i^{-1}(f)(A, p \in P(A)) = f_A^{-1}(p)$$
+
 For a proof see [Kashiwara-Schapira (2006, p.26)](#KS06). For a more general statement involving slices of Grothendieck toposes see [Mac Lane-Moerdijk (1994, p.157)](#MacLaneMoerdijk).
 
 In particular, this equivalence shows that _slices of presheaf toposes are presheaf toposes_.
