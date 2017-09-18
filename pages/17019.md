@@ -47,16 +47,36 @@ A _cyclotomic spectrum_ is
 1. for each prime number $p$ a homomorphism of spectra with such circle group action
 
    $$
-     X \longrightarrow X^{t C_p}
+     F_p \;\colon\; X \longrightarrow X^{t C_p}
    $$
 
    to the [[Tate spectrum]] (the [[homotopy cofiber]] $X^{t C_p} \coloneqq cofib( X_{C_p} \overset{norm_p}{\to} X^{C_p} )$ of the [[norm map]]), where the circle action on the Tate spectrum comes from the canonical identification $S^1/C_p \simeq C_p$.
+
+(These morphisms $F_p$ are called the _[[Frobenius morphisms]]_ of the cyclotomic structure, due to [this def. ](Frobenius+morphism#EInfinityFrobenius), [this example](Frobenius+morphism#EInfinityFrobeniusReducesToOrdinaryFrobenius)).
 
 =--
 
 ([Nikolaus-Scholze 17, def. 1.3, def. II.1.1](#NikolausScholze17)).
 
-This is equivalent to the traditional definition for spectra whose [[stable homotopy groups]] are bounded from below ([Nikolaus-Scholze 17, theorem 1.4](#NikolausScholze17)). More formally, theorem II.6.9 states that the forgetful functor $CycSp^{gen} \to CycSp$ (Prop. II.3.4) induces an equivalence between the subcategories of those objects whose underlying non-equivariant spectra are bounded below.
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a spectrum with [[stable homotopy groups]] bounded below, then 
+def. \ref{CyclotomicSpectrumViaTateSpectra} is equivaent to the traditional: 
+
+There is an [[(∞,1)-functor]]
+
+$$
+  CycSp_-^{gen} \overset{\simeq}{\longrightarrow} CycSp_-
+$$ 
+
+from traditional ("genuine") cyclotomic spectra bounded below to bounded below cyclotomic spectra in the sense of def. \ref{CyclotomicSpectrumViaTateSpectra}, and this is an [[equivalence of (∞,1)-categories]].
+
+=--
+
+
+([Nikolaus-Scholze 17, prop. II.3.4, theorem II.6.9](#NikolausScholze17)). 
+  
 
 ## Examples
  {#Examples}
@@ -71,21 +91,73 @@ For every [[A-∞ ring]] $A$, the [[topological Hochschild homology]] spectrum $
 
 ([Nikolaus-Scholze 17, section II.2, def. III.2.3](#NikolausScholze17))
 
++-- {: .num_example #TrivialCyclotomicSpectra}
+###### Example
+**(trivial cyclotomic spectra)**
+
+Every [[spectrum]] $X$ becomes a cyclotomic spectrum $X^{triv}$ in the sense of def. \ref{CyclotomicSpectrumViaTateSpectra} by equipping it 
+
+1. with the trivial [[circle group]] [[∞-action]]
+
+1. for each prime $p$ with the composite morphism
+
+   $$
+     f_p
+      \;\colon\;
+     \mathbb{S} 
+      \longrightarrow 
+     \mathbb{S}^{C_p} 
+       \longrightarrow 
+     \mathbb{S}^{t C_p}
+   $$
+
+   (the first being the $( B C_p \times (-) \dashv (-)^{C_p} )$-[[unit of an adjunction|unit]] into the [[homotopy fixed points]], the second the defining morphism into the [[Tate spectrum]]  )
+
+1. the $S^1/C_p$-equivariant structure on these morphisms given under the [[adjunction]] between trivial action and homotopy fixed points by the [[adjunct]] morphisms
+
+   $$
+     X \longrightarrow \left(X^{t C_p}\right)^{S^1/C_p}
+   $$
+
+   as the composite
+
+   $$
+     X \to X^{S^1} 
+       \simeq 
+    \left( X^{C_p} \right)^{S^1/C_p}
+     \longrightarrow
+    \left( X^{t C_p} \right)^{S^1/C_p}
+    \,.
+   $$
+
+
+This construction constitutes a left [[adjoint (infinity,1)-functor]]
+to taking [[topological cyclic homology]]
+
+$$
+  CycSpectra
+    \underoverset{\underset{TC}{\longrightarrow}}{\overset{(-)^{triv}}{\longleftarrow}}{\bot}
+  Spectra
+  \,.
+$$
+
+=--
+
+([Nikolaus-Scholze 17, example II.1.2 (ii) and middle of p. 126](#NikolausScholze17))
+
+
 +-- {: .num_example #CyclotomicSphereSpectrum}
 ###### Example
 **(cyclotomic sphere spectrum)**
 
-Consider the [[sphere spectrum]] $\mathbb{S}$ equipped with the trivial [[circle group]] [[∞-action]]. For each prime number $p$ there is a canonical morphism
+The [[sphere spectrum]] regarded as a cyclotomic spectrum via example \ref{TrivialCyclotomicSpectra} is called the _cyclotomic sphere spectrum_.
+
+As such it is equivalently its [[topological Hochschild homology]] according to example \ref{THHCarriesCyclotomicStructure}:
 
 $$
-   f_p
-   \;\colon\;
-   \mathbb{S} \longrightarrow \mathbb{S}^{C_p} \longrightarrow \mathbb{S}^{t C_p}
+  \mathbb{S}^{triv} \simeq THH(\mathbb{S})
+  \,.
 $$
-
-(the first being the $( B C_p \times (-) \dashv (-)^{C_p} )$-[[unit of an adjunction|unit]] into the [[homotopy fixed points]], the second the defining morphism into the [[Tate spectrum]]  ). These canonically carry equivariant structure (...) and hence make $\mathbb{S}$ a cyclotomic spectrum in the sense of def. \ref{CyclotomicSpectrumViaTateSpectra}.
-
-As such it is equivalently $\mathbb{S} \simeq THH(\mathbb{S})$ according to example \ref{THHCarriesCyclotomicStructure}.
 
 =--
 
