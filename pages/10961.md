@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
@@ -13,10 +13,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
@@ -49,6 +48,9 @@ The need for and proper nature of such an interpretation may be subtle and is th
 
 * SEP: [Everett's relative-state formulation of qm](http://plato.stanford.edu/entries/qm-everett)
 
+* [[Bayesian interpretation of quantum mechanics]]
+
+
 ## Bohr's standpoint
  {#BohrStandpoint}
 
@@ -66,6 +68,7 @@ and continues:
 
 > The peculiar property of the quantum measuring process is that we have to use both descriptions for the same object: namely, the measuring apparatus obeys quantum dynamics while it interacts with the quantum system under study, and at a later stage the same apparatus is considered as a classical object, when it becomes the permanent depositary of information. This dichotomy is the root of the quantum measurement dilemma: there can be no unambiguous classical-quantum dictionary.
 
+
 ## Theorems
 
 * [[order-theoretic structure in quantum mechanics]]
@@ -82,6 +85,7 @@ and continues:
 
 * [[Bub-Clifton theorem]]
 
+
 ## Related entries
 
 * [[quantum logic]]
@@ -93,6 +97,7 @@ and continues:
 * [[coordination]]
 
 * [[computable quantum physics]]
+
 
 ## References
 
@@ -114,7 +119,6 @@ the contrary is argued. In
  {#Bohr49}
 
 is the famous assertion by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms".
-
 
 
 ### Textbooks and reviews
@@ -147,3 +151,9 @@ One quote above is taken from the first paragraphs of
  
 * Stanford Encyclopedia of Philosophy, _[Quantum mechanics](http://plato.stanford.edu/entries/qm/)_
  {#SEP}
+
+
+[[!redirects interpretation of quantum mechanics]]
+[[!redirects interpretations of quantum mechanics]]
+[[!redirects interpretation of quantum physics]]
+[[!redirects interpretations of quantum physics]]
