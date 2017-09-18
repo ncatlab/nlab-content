@@ -412,6 +412,11 @@ An explicit cocycle construction of the essentially unique [[string 2-group]]-[[
 
 * {#Roberts14} [[David Roberts]] _Explicit string bundles_, talk at _[Workshop on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html)_ 2014 ([[RobertsStringS5.pdf:file]])
 
+Discussion for indefinite (Lorentzian) signature is in
+
+* Hyung Bo Shim, _Indefinite string structure_, thesis 2013 ([web](http://d-scholarship.pitt.edu/19620/))
+
+
 
 [[!redirects String structure]]
 [[!redirects String-structure]]
