@@ -94,7 +94,7 @@ as desired.
 Let $C$ be a [[category]]. We give an elementary construction of the __Karoubi envelope__ $\bar{C}$ which formally splits [[idempotents]] in $C$. 
 
 
-The objects of $\bar{C}$ are pairs $(c, e: c \to c)$ where $e$ is an idempotent on an object $c$ of $C$. Morphisms $(c, e) \to (d, f)$ are morphisms $\phi: c \to d$ in $C$ such that $f \circ \phi = \phi = \phi \circ e$. NB: the identity on $(c, e)$ in $\bar{C}$ is the morphism $e: c \to c$. 
+The objects of $\bar{C}$ are pairs $(c, e: c \to c)$ where $e$ is an idempotent on an object $c$ of $C$. Morphisms $(c, e) \to (d, f)$ are morphisms $\phi: c \to d$ in $C$ such that $f \circ \phi = \phi = \phi \circ e$ (or equivalently, such that $\phi = f \circ \phi \circ e$). NB: the identity on $(c, e)$ in $\bar{C}$ is the morphism $e: c \to c$. 
 
 
 There is a functor 
