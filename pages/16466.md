@@ -25,11 +25,22 @@
 
 Deligne's theorem on tensor categories ([Deligne 02](#Deligne02)) establishes [[Tannaka duality]] between sufficiently well-behaved linear [[tensor categories]] in [[characteristic zero]] and [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
 
+## Relevance
+
+### For supersymmetry
+
 The theorem hence gives a purely mathematical "reason" for the relevance of [[superalgebra]] and [[supergeometry]]. 
 
 For instance one may wonder why of all possible generalizations of [[commutative algebra]], it is supercommutative superalgebras that are to be singled out (from alternatives such as plain $\mathbb{Z}_2$-[[graded algebras]], or in fact $\mathbb{Z}_n$-graded algebras or general [[noncommutative algebras]] or, the like), as they are singled out notably in theoretical [[physics]] ("[[supersymmetry]]"), but also in mathematical fields such as [[spin geometry]] and [[K-theory]]. On the other hand $k$-linear [[tensor categories]] need little extra motivation, they are on general abstract ground the canonical structure to consider in [[representation theory]]. Hence Deligne's theorem serves to base supercommutative superalgebra on this same general abstract foundation, showing that this is precisly the context in which full $k$-linear tensor categories exhibit full [[Tannaka duality]].
 
 More concretely, in [[quantum field theory]], under the [[Wigner classification]], [[fundamental particles]] are identified with [[irreducible representations]] of the [[isometry group]] of the local model of [[spacetime]]. Forming the [[tensor product]] of two such representations corresponds to combining them as two [[subsystems]] of a joint system. Therefore it is natural to demand that physical particle species should form complex-linear [[tensor categories]]. Deligne's theorm then gives that [[supersymmetry]] is the most general context in which this works out. (In physics the irreducible representation in this context here are called the _[[supermultiplets]]_.)
+
+### For Tannaka duality of Hopf algebras
+ {#RelevanceForHopfAlgebras}
+
+By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras whose category of representation in addition satisfies a certain regularity condition (def. \ref{Regularity} below) are equivalent to supercommutative Hopf algebras. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
+
+[[!include structure on algebras and their module categories - table]]
 
 
 
@@ -57,6 +68,7 @@ $$
   S_{\lambda}(X) \coloneqq (V_\lambda \otimes X^{\otimes_n})^{S_n}
   \coloneqq 
   \left(
+    \frac{1}{n!}
     \underset{g\in S_n}{\sum}
     \rho(g)
   \right)
@@ -71,7 +83,11 @@ where
 
 * $V_\lambda$ is the [[irreducible representation]] of $S_n$ corresponding to $\lambda$;
 
-* $\rho$ is the diagional [[action]] of $S_n$ on $V_\lambda \otimes X^{\otimes_n}$, coming from the canonical [[permutation]] action on $X^{\otimes_n}$.
+* $\rho$ is the diagional [[action]] of $S_n$ on $V_\lambda \otimes X^{\otimes_n}$, coming from the canonical [[permutation]] action on $X^{\otimes_n}$;
+
+* $(-)^{S_n}$ denotes the subspace of [[invariants]] under the action $\rho$ 
+
+* the last expression just rewrites this as a [[group averaging]].
 
 =--
 
@@ -209,9 +225,9 @@ A review is in
 
 * {#Ostrik04} [[Victor Ostrik]], _Tensor categories (after P. Deligne)_ ([arXiv:math/0401347](http://arxiv.org/abs/math/0401347))
 
-Further discussion in view of the theory of [[triangular Hopf algebras]] isin 
+Further discussion in view of the theory of [[triangular Hopf algebras]] is in 
 
-* [[Pavel Etingof]], [[Shlomo Gelaki]], _The classification of finite-dimensional triangular Hopf algebras over an algebraically closed field of characteristic 0_ ([arXiv:0202258](http://de.arxiv.org/abs/math/0202258))
+* {#EtingofGelaki02} [[Pavel Etingof]], [[Shlomo Gelaki]], _The classification of finite-dimensional triangular Hopf algebras over an algebraically closed field of characteristic 0_ ([arXiv:0202258](http://de.arxiv.org/abs/math/0202258))
 
 
 Tannaka duality for ordinary compact groups regarded as supergroups (hence equipped with "inner parity", def. \ref{InnerParity}, here just being an involutive central element) is discussed in
