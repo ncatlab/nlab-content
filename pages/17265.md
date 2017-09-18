@@ -810,7 +810,7 @@ Every [[compact topological space|compact]] [[topological subspace|subspace]] of
 
 =--
 
-A proof is spelled out for instance in ([Hirschhorn 15, prop.3.10, prop. 3.11, corollary 3.12](#Hirschhorn15)).
+A proof is spelled out for instance in ([Hirschhorn 15, section 3.1](#Hirschhorn15)).
 
 +-- {: .num_lemma #AcyclicSerreFibrationsAreTheJTopFibrations}
 ###### Lemma
@@ -866,7 +866,7 @@ By lemma \ref{SaturationOfGeneratingCofibrations} an $I_{Top}$-fibration has als
 
 **C) Acyclic Serre fibrations are in particular $I_{Top}$-fibrations**
 
-This is a bit of work, e.g. ([Hirschhorn 15, section 6](#Hirschhorn15)).
+A proof of this is spelled out in ([Hirschhorn 15, section 6](#Hirschhorn15)).
 
 
 =--
