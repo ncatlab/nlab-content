@@ -100,7 +100,7 @@ Given a sieve $S$ on $c$, the **subfunctor** $F_S \hookrightarrow Y(c)$ **define
 
 Given a subfunctor $F \hookrightarrow Y(c)$, the **sieve defined by the subfunctor** is given by
 
-* $S_F := \{g: d \to c \in Mor(C) | Y(d) \stackrel{Y(g)}\to Y(c) = Y(d)  \to F \to Y(c) \}$
+* $S_F := \{g: d \to c \in Mor(C) | (Y(d) \stackrel{Y(g)}\to Y(c)) = (Y(d)  \to F \to Y(c)) \}$
 
 or equivalently
 
