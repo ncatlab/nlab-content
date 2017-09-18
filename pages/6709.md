@@ -32,7 +32,7 @@ The _Stiefel-Whitney classes_ are [[characteristic classes]] $w_i \in H^{i}(B O(
 
 1. for $n = 1$,  $w_1 \neq 0$;
 
-1. for the inclusion $\iota : B O(n) \hookrightarrow B O(n-1)$ we have $\iota^* w_i^{(n+1)} = w_i^{(n)}$;
+1. for the inclusion $\iota : B O(n) \hookrightarrow B O(n+1)$ we have $\iota^* w_i^{(n+1)} = w_i^{(n)}$;
 
 1. **sum rule**: for all $k,l \in \mathbb{N}$ with the canonical inclusion
 
