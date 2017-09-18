@@ -116,7 +116,7 @@ where $i_\ast b \in C^\infty_c(X)$ is the result of extending $b$ by zero to all
 
 ## Related concepts
 
-* [[pullback of differential forms]]
+* [[pullback of differential forms]], [[change of integration variables]]
 
 * [[composition of distributions]]
 
