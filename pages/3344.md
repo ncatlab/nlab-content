@@ -125,6 +125,9 @@ The test category nature of the groupoidal [[Theta category]] is discussed in
 
 * [[Dimitri Ara]], _The groupoidal analogue $\tilde \Theta$ to Joyal's category $\Theta$ is a test category_ ([arXiv:1012.4319](http://arxiv.org/abs/1012.4319))
 
+A short introduction can be found in
+
+* Chris Kapulkin, _Introduction to Test Categories_ [PDF](www.math.uwo.ca/~kkapulki/notes/test_categories.pdf).
 [[!redirects test categories]]
 
 [[!redirects strict test category]]
