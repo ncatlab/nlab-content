@@ -16,7 +16,7 @@
 
 ## Idea
 
-The Paley-Wiener-Schwartz theorem characterizes [[compact support|compactly supoorted]] [[smooth functions]] ([[bump functions]]) and [[compactly supported distributions]] in terms of the decay property of their [[Fourier transform]] ([[Fourier transform of distributions|of distributions]]).
+The Paley-Wiener-Schwartz theorem characterizes [[compact support|compactly supported]] [[smooth functions]] ([[bump functions]]) and [[compactly supported distributions]] in terms of the decay property of their [[Fourier transform]] ([[Fourier transform of distributions|of distributions]]).
 
 Conversely this means that for a general distribution those [[covectors]] along which its [[Fourier transform of distributions|Fourier transform]] does not suitably decay detect the singular nature of the distribution (its failure to be represented by a smooth function) in a refined form which records not only the [[singular support of a distribution|singular support]] (the point at which that covector is based), but also the "direction of [[propagation of singularities theorem|propagation of singularities]]". The collection of these covectors is called the _[[wave front set]]_ of the distribution. The study of [[functional analysis]] with attention to the [[wave front sets]] is called _[[microlocal analysis]]_. This plays a central role in the definition of various operations on distributions, such as the [[pullback of distributions]] and the [[product of distributions]].
 
