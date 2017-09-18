@@ -289,7 +289,7 @@ If $S$ is equipped with a generalized Reedy structure, then an $S$-crossed group
 +-- {: .num_example }
 ###### Example
 
-The category $\Omega_{pl}$ of planar finite rooted [[trees]] is a strict [[Reedy categiry]]. The category $\Omega$ of non-planar finite rooted [[trees]] is the total category of an $\Omega_{pl}$-crossed group which to a planar tree $T$ assigns its group of non-planar automorphisms.
+The category $\Omega_{pl}$ of planar finite rooted [[trees]] is a strict [[Reedy category]]. The category $\Omega$ of non-planar finite rooted [[trees]] is the total category of an $\Omega_{pl}$-crossed group which to a planar tree $T$ assigns its group of non-planar automorphisms.
 
 =--
 
