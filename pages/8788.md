@@ -51,6 +51,10 @@ See at _[[geometric quantization]]_ the sections
 
 * [[metaplectic quantization]]
 
+* [[real polarization]], [[Kähler polarization]]
+
+* [[almost Kähler quantization]]
+
 [[!include orientations in higher quantization - table]]
 
 
