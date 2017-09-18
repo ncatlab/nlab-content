@@ -89,29 +89,29 @@ A **power allegory** is an allegory $\mathcal{A}$ such that the inclusion functo
 
 $$\ni_B \colon P(B) \to B$$ 
 
-and we have the [[comprehension axiom]] that to each $r \colon A \to B$ there is a map $\chi_r \colon A \to P(B)$ such that $r = \ni_B \circ \chi_r$. 
+and we have the [[comprehension axiom]] that to each $r \colon A \to B$ there is a unique map $\chi_r \colon A \to P(B)$ such that $r = \ni_B \circ \chi_r$. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-A power allegory is a division allegory. 
+A power allegory with coproducts is a division allegory. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof (sketch) 
-Let $r \colon A \to C$ and $s \colon B \to C$ be morphisms; we construct a right Kan lift $s \backslash r$ of $r$ through $s$. This means that for all $t \colon A \to B$ we have $s \circ t \leq r$ if and only if $t \leq s \backslash r$. 
+Let $r: A \to C$ and $s: B \to C$ be morphisms; we construct a right Kan lift $s \backslash r$ of $r$ through $s$. This means that for all $t \colon A \to B$ we have $s \circ t \leq r$ if and only if $t \leq s \backslash r$. 
 
-We construct $s \backslash r$ as $\chi_s^o [\geq] \chi_r$ where $[\geq] \colon P(C) \to P(C)$ is a relation opposite to the internalization $[\leq]$ of the external order. One way to define $[\leq]$ is 
+We construct $s \backslash r$ as $\chi_s^o [\Leftarrow] \chi_r$ where $[\Leftarrow]: P(C) \to P(C)$ is a relation opposite to the internalization $[\Rightarrow]$ of the external order. One way to define $[\Rightarrow]$ is 
 
 $$[\leq] = (P(C) \stackrel{\ni^o}{\to} P P(C) \stackrel{\bigcup}{\to} P(C)$$ 
 
-where $\bigcup \colon P P(C) \to P(C)$ internalizes the union operation, and is defined to be the map that classifies the composite 
+where $\bigcup \colon P P(C) \to P(C)$ internalizes the union operation, and is defined to be $P(\ni_C)$; alternatively, as the map that classifies the composite 
 
 $$P P(C) \stackrel{\ni_{P(C)}}{\to} P(C) \stackrel{\ni_C}{\to} C.$$
 
-(Full details to appear.) 
+Full details may be found [here](https://ncatlab.org/toddtrimble/published/Note+on+power+allegories). 
 =--
 
-In other language, a power allegory is a division allegory which associates to each object $B$ a morphism $\ni_B \colon P(B) \to B$ such that for all $r \colon A \to B$
+Freyd and Scedrov proceed a bit differently. For them, a power allegory is defined to be a division allegory which associates to each object $B$ a morphism $\ni_B \colon P(B) \to B$ such that for all $r \colon A \to B$
 
 * $1_A \leq (r \backslash \ni_B) \circ (\ni_B \backslash r)$ 
 
