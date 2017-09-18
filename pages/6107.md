@@ -24,6 +24,10 @@ Curved dg-algebras appear in the description of various [[TQFT]]s.
 
 (...)
 
+## Related concepts
+
+* [[curved L-infinity algebra]]
+
 ## References
 
 A basic exposition of the definition is in
