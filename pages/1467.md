@@ -198,6 +198,8 @@ For topological spaces, this is either a definition of "proper map" (closed with
 
 ## Related concepts
 
+* [[sequentially compact space]]
+
 * [[paracompact topological space]], [[strongly compact topological space]]
 
 * [[compactification]]
@@ -219,10 +221,17 @@ For topological spaces, this is either a definition of "proper map" (closed with
 
 ## References
 
+
+On compact [[metric spaces]]:
+
+* Roland Speicher, _Compact metric spaces- [pdf](http://www.mast.queensu.ca/~speicher/Chapter10.pdf)
+
+* Alan Sokal, _Compactness of metric spaces_ ([pdf](http://www.ucl.ac.uk/~ucahad0/3103_handout_2.pdf))
+
 For [[proper base change theorem]] e.g.
 
-* [[James Milne]], section 17 of _[[Lectures on Étale Cohomology]]_
- {#Milne}
+* {#Milne} [[James Milne]], section 17 of _[[Lectures on Étale Cohomology]]_
+ 
 
 
 [[!redirects compact space]]
