@@ -98,8 +98,7 @@ Under the term _categories of cohesion_ these axioms are discussed in
 
 Another definition of gros vs petit toposes and remarks on applications in [[Galois theory]] is in
 
-* Nick Duncan, _Gros and petit toposes_ ([pdf]
-(http://www.cheng.staff.shef.ac.uk/pssl88/pssl88-duncan.pdf))
+* Nick Duncan, _Gros and petit toposes_ ([pdf](http://www.cheng.staff.shef.ac.uk/pssl88/pssl88-duncan.pdf))
 
 and yet another one is in 
 
