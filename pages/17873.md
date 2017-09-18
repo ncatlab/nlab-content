@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
 #### Cohesion
-+--{: .hide}
++-- {: .hide}
 [[!include cohesive infinity-toposes - contents]]
 =--
 =--
@@ -15,12 +15,7 @@
 
 # Contents
 * table of contents
-{:toc}
-[[!redirects Sufficiently cohesive topos]]
-[[!redirects contractible object]]
-[[!redirects sufficient cohesion]]
-[[!redirects sufficiently cohesive toposes]]
-[[!redirects Sufficient Cohesion]]
+{: toc}
 
 ## Idea
 
@@ -46,7 +41,7 @@ A pre-cohesive topos that furthermore satisfies the _continuity principle_ that 
 
 +-- {: .num_defn #Contractible_object}
 ###### Definition 
-An object $X$ in a weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _contractible_ if for every object $Y\in\mathcal{E}$: $p_!(X^Y)=1$. 
+An object $X$ in a weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _[[contractible object|contractible]]_ if for every object $Y\in\mathcal{E}$: $p_!(X^Y)=1$. 
 =--
 
 +-- {: .num_remark}
@@ -307,8 +302,11 @@ For convenience and summary let us collect all the equivalent formulations of su
 
 * {#Shulman15} [[Mike Shulman|M. Shulman]], _Brouwer's Fixed Point Theorem in Real-Cohesive Homotopy Type Theory_ , arXiv:1509.07584 (2015). ([abstract](http://arxiv.org/abs/1509.07584)) 
 
-[[!redirects empty 162]]
+
+[[!redirects sufficiently cohesive topos]]
+[[!redirects Sufficiently cohesive topos]]
 [[!redirects sufficiently cohesive toposes]]
 [[!redirects sufficiently cohesive topoi]]
 [[!redirects sufficiently cohesive]]
 [[!redirects sufficient cohesion]]
+[[!redirects Sufficient Cohesion]]
