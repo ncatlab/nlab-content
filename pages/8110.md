@@ -25,6 +25,12 @@ Discussion in [[GAGA]] include
 
 * Kai-Wen Lan, _Comparison between analytic and algebraic constructions of toroidal compactifications of PEL-type Shimura varieties_ [pdf](http://math.umn.edu/~kwlan/articles/cpt-ana-alg.pdf)
 
+Discussion relating to [[moduli space of Calabi-Yau spaces]] includes
+
+* Alice Garbagnati, Bert van Geemen, _Examples of Calabi-Yau threefolds parametrised by Shimura varieties_ ([arXiv:1005.0478](http://arxiv.org/abs/1005.0478))
+
+
+
 
 [[!redirects Shimura varieties]]
 
