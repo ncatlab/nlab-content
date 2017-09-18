@@ -1,4 +1,10 @@
 
 * [webpage](http://www.ms.unimelb.edu.au/~craigw/)
 
+## related $n$Lab pages
+
+* [[E-theory]]
+
+* [[Hisham Sati]]
+
 category: people
