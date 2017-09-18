@@ -26,7 +26,7 @@ This causal stucture is closely related to the underlying [[conformal structure]
 
 ## In algebraic quantum field theory
 
-In the formalization of [[quantum field theory]] in terms of [[locally covariant AQFT]] a QFT over a [[background field]] of classical [[gravity]] is axiomatized as a [[local net]] on a category of [[Lorentzian manifolds]]. Making more of the degrees of freedom of [[gravity]] become quantized themselves would mean to replace the latter with a category of manifolds with less structure than [[Lorentzian manifold]] structure. Since the causal structure is necessary to express "[[local net]]" at all, one idea is to consider local nets on a category of causal manifolds. 
+In the formalization of [[quantum field theory]] in terms of [[locally covariant AQFT]] a QFT over a [[background field]] of classical [[gravity]] is axiomatized as a [[causally local net of observables]] on a category of [[Lorentzian manifolds]]. Making more of the degrees of freedom of [[gravity]] become quantized themselves would mean to replace the latter with a category of manifolds with less structure than [[Lorentzian manifold]] structure. Since the causal structure is necessary to express "[[local net]]" at all, one idea is to consider local nets on a category of causal manifolds. 
 
 This idea is mentioned as motivation for developing concepts of causal manifolds for instance in [Rainer 99](#Rainer99), and in a more sophisticated version in [Khavkine 12](#Khavkine12).
 
@@ -34,11 +34,9 @@ This idea is mentioned as motivation for developing concepts of causal manifolds
 
 * [[causal set]]
 
-* [[causal closure]]
+* [[causal complement]], [[causal closure]]
 
-* [[causal locality]]
-
-* [[causal additivity]]
+* [[causal locality]], [[causal additivity]]
 
 * [[causal perturbation theory]]
 
