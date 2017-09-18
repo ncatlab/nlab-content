@@ -1,9 +1,31 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Given a point in [[Minkowski spacetime]], its _light cone_ is the subspace of all [[lightlike]] vectors at that point.
 
-More generally for a point on a [[Lorentzian manifold]], its lightcone is the lightcone in the [[tangent space]].
+More generally for a point $x$ in a [[Lorentzian manifold]] $(X,g)$, its lightcone is the lightcone in the [[tangent space]] $T_x X$.
+
+Sometimes one also calls the collection of all [[time-like]] vectors the light cone, then denoted $V_x \subset T_x X$. On a [[time orientation|time oriented]] spacetime this decomposes into the _[[future cone]]_ $V_x^+$ and the _[[past cone]]_ $V_x^-$.
 
 ## Related concepts
 
