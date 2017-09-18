@@ -32,7 +32,9 @@ and a **counit**
 
 $$ e: A \to k$$
 
-satisfying the **coassociative** and left/right **counit** laws.  The commutative diagrams for these laws are obtained by taking the diagrams for the associative and left/right unit laws and turning all the arrows around.  To see these diagrams, try the [Wikipedia entry](http://en.wikipedia.org/wiki/Coalgebra#Formal_definition).  (Someone please put these diagrams here!)
+satisfying the **coassociative** and left/right **counit** laws.  The commutative diagrams for these laws are obtained by taking the diagrams for the associative and left/right unit laws and turning all the arrows around.
+
+![axioms](http://presheaf.com/cache/d1n601e593w4j122e1nrx3j1d3v68b.png)
 
 We can express this idea much more efficiently using the concept of the [[opposite category|opposite]] of a [[category]], together with [[internalization]].  Namely: a **coalgebra** is a [[monoid]] [[internalization|in]] the $Vect^{op}$, just as an algebra is a monoid in $Vect$.
 
