@@ -149,7 +149,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-Given symplectic manifolds $(X_1, \omega_1)$ and $(X_2, \omega_2)$ and a [[symplectomorphism]] $(X_1 \times X_2 , p_1^\ast \omega_1 - p_2^\ast \omega_2) \stackrel{\simeq}{\longrightarrow} (X,\omega)$, then certain Lagrangian correspondences between $(X_1, \omega_1)$ and $(X_2, \omega_2)$ ar identified with functions on $X$. This is identified with the calculus of generating functions for [[canonical transformations]] as used in [[classical mechanics]]. ([Weinstein 83, p. 5](#Weinstein83))
+Given symplectic manifolds $(X_1, \omega_1)$ and $(X_2, \omega_2)$ and a [[symplectomorphism]] $(X_1 \times X_2 , p_1^\ast \omega_1 - p_2^\ast \omega_2) \stackrel{\simeq}{\longrightarrow} (X,\omega)$, then certain Lagrangian correspondences between $(X_1, \omega_1)$ and $(X_2, \omega_2)$ are identified with functions on $X$. This is identified with the calculus of generating functions for [[canonical transformations]] as used in [[classical mechanics]]. ([Weinstein 83, p. 5](#Weinstein83))
 
 =--
 
