@@ -43,7 +43,15 @@ See also the _[[Lectures on Equivariant Stable Homotopy Theory]]_ and on _[[Glob
 
 ### 6. Homology and cohomology
 
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
+* [[generalized homology]]
+
 ### 7. Finite spectra
+
+* [[Spanier-Whitehead category]]
+
+* [[finite spectra]]
 
 ### 8. Connective covers and Postnikov sections
 
