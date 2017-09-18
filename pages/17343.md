@@ -130,6 +130,7 @@ Dually, a **[[colimit]]** over the diagram is a universal co-cone, denoted $\und
 
 =--
 
+
 We now discuss limits and colimits in $\mathcal{C}= $ [[Top]]. The key for understanding these is the fact that there are initial and final topologies:
 
 +-- {: .num_defn #InitialAndFinalTopologies}
@@ -564,6 +565,7 @@ $$
 
 
 We now turn to the discussion of [[mapping spaces]]/[[exponential objects]].
+
 
 +-- {: .num_defn #CompactOpenTopology}
 ###### Definition
@@ -2052,7 +2054,7 @@ It turns out that a [[category with weak equivalences]], def. \ref{CategoryWithW
 
 A **[[model category]]** is
 
-1. a [[category]] $\mathcal{C}$ with all small [[limits]] and [[colimits]];
+1. a [[category]] $\mathcal{C}$ with all [[limits]] and [[colimits]] (def. \ref{LimitsAndColimits});
 
 1. three sub-[[classes]] $W, Fib, Cof \subset Mor(\mathcal{C})$ of its [[morphisms]];
 
@@ -3144,13 +3146,13 @@ $$
  (-) \circ [f] \;\colon\; Hom_{Ho(\mathcal{C})}(Y,Z) \to Hom_{Ho(\mathcal{C}(X,Z))}
 $$
 
-to be well defined, we need that with $(g\sim h)\colon Y \to Z$ also $(f g \sim f h)\colon X \to Z$. But by prop \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations} we may take the homotopy $\sim$ to be exhibited by a right homotopy $\eta \colon Y \to Path(Z)$, for which case the statement is evident from this diagram:
+to be well defined, we need that with $(g\sim h)\;\colon\; Y \to Z$ also $(f g \sim f h)\;\colon\; X \to Z$. But by prop \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations} we may take the homotopy $\sim$ to be exhibited by a right homotopy $\eta \colon Y \to Path(Z)$, for which case the statement is evident from this diagram:
 
 $$
   \array{
     && && Z
     \\
-    && & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{p_1}}
+    && & {}^{\mathllap{g}}\nearrow & \uparrow^{\mathrlap{p_1}}
     \\
     X 
       &\overset{f}{\longrightarrow} & 
@@ -3158,14 +3160,14 @@ $$
       &\overset{\eta}{\longrightarrow}&
     Path(Z)
     \\
-    && & {}_{\mathllap{g}}\searrow & \downarrow_{\mathrlap{p_0}}
+    && & {}_{\mathllap{h}}\searrow & \downarrow_{\mathrlap{p_0}}
     \\
     && && Z
   }
   \,.
 $$
 
-For postcomposition we may choose to exhibit homotopy by left homotopy and argue dually.
+For postcomposition we may choose to exhibit homotopy by left homotopy and argue [[formal dual|dually]].
 
 =--
 
@@ -3184,7 +3186,7 @@ Let $\mathcal{C}$ be a [[model category]]. A [[weak equivalence]] between two ob
 +-- {: .proof}
 ###### Proof
 
-By the factorization axioms in $\mathcal{C}$, every weak equivalence $f\colon X \longrightarrow Y$ factors through an object $Z$ as an acyclic cofibration followed by an acyclic fibration. In particular it follows that with $X$ and $Y$ both fibrant and cofibrant, so is $Z$, and hence it is sufficient to prove that acyclic (co-)fibrations between such objects are homotopy equivalences.
+By the factorization axioms in the model category $\mathcal{C}$ and by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}), every weak equivalence $f\colon X \longrightarrow Y$ factors through an object $Z$ as an acyclic cofibration followed by an acyclic fibration. In particular it follows that with $X$ and $Y$ both fibrant and cofibrant, so is $Z$, and hence it is sufficient to prove that acyclic (co-)fibrations between such objects are homotopy equivalences.
 
 So let $f \colon X \longrightarrow Y$ be an acyclic fibration between fibrant-cofibrant objects, the case of acyclic cofibrations is [[formal dual|formally dual]]. Then in fact it has a genuine [[right inverse]] given by a lift $f^{-1}$ in the diagram
 
@@ -3230,9 +3232,9 @@ which [[commuting square|commutes]] due to $f^{-1}$ being a genuine right invers
 
 Given a [[model category]] $\mathcal{C}$, consider a _choice_ for each object $X \in \mathcal{C}$ of 
 
-1. a factorization $\emptyset \underoverset{\in Cof}{i_X}{\longrightarrow} Q X \underoverset{\in W \cap Fib}{p_X}{\longrightarrow} X$ of the initial morphism, such that when $X$ is already cofibrant then $p_X = id_X$;
+1. a factorization $\emptyset \underoverset{\in Cof}{i_X}{\longrightarrow} Q X \underoverset{\in W \cap Fib}{p_X}{\longrightarrow} X$ of the [[initial object|initial morphism]], such that when $X$ is already cofibrant then $p_X = id_X$;
 
-1. a factorization $X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} P X \underoverset{\in Fib}{q_X}{\longrightarrow} \ast$ of the terminal morphism, such that when $X$ is already fibrant then $j_X = id_X$.
+1. a factorization $X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} P X \underoverset{\in Fib}{q_X}{\longrightarrow} \ast$ of the [[terminal object|terminal morphism]], such that when $X$ is already fibrant then $j_X = id_X$.
 
 Write then 
 
@@ -3368,6 +3370,21 @@ one sees that $(P Q g)\circ (P Q f)$ is a lift of $g \circ f$ and hence the same
 
 =--
 
+For the following, recall the concept of [[natural isomorphism]] between [[functors]]: for $F, G \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ two functors, then a _[[natural transformation]]_ $\eta \colon F \Rightarrow G$ is for each object $c \in Obj(\mathcal{C})$ a morphism $\eta_c \colon F(c) \longrightarrow G(c)$ in $\mathcal{D}$, such that for each morphism $f \colon c_1 \to c_2$ in $\mathcal{C}$ the following is a [[commuting square]]:
+
+$$
+  \array{
+    F(c_1) &\overset{\eta_{c_1}}{\longrightarrow}& G(c_1)
+    \\
+    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{G(f)}}
+    \\
+    F(c_2) &\underset{\eta_{c_2}}{\longrightarrow}& G(c_2)
+  }
+  \,.
+$$
+
+Such $\eta$ is called a _[[natural isomorphism]]_ if its $\eta_c$ are [[isomorphisms]] for all objects $c$.
+
 +-- {: .num_defn #HomotopyCategoryOfACategoryWithWeakEquivalences}
 ###### Definition
 
@@ -3438,8 +3455,10 @@ uniquely up to unique [[natural isomorphism]]. Now by construction of $P$ and $Q
 
 $$
   \tilde F([f]) \simeq F(f)
-  \,.
+  \,,
 $$ 
+
+(hence in particular $\tilde F(\gamma_{P,Q}(f)) = F(P Q f)$).
 
 But by def. \ref{HomotopyCategoryOfAModelCategory} that already fixes $\tilde F$ on all of $Ho(\mathcal{C})$, up to unique [[natural isomorphism]]. Hence it only remains to check that with this definition of $\tilde F$ there exists any [[natural isomorphism]] $\rho$ filling the diagram above. 
 
@@ -3869,7 +3888,53 @@ Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \m
 ##### Quillen adjunctions
  {#QuillenAdjunctions}
 
-In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied in the following neat way:
+In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied by pairs of [[adjoint functors]]. Recall that this is a pair of [[functors]] $L$ and $R$ going back and forth between two categories
+
+$$
+  \mathcal{C}
+    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+  \mathcal{D}
+$$
+
+such that there is a [[natural bijection]] between [[hom-sets]] with $L$ on the left and those with $R$ on the right:
+
+$$
+  Hom_{\mathcal{C}}(L(d),c)
+   \underoverset{\simeq}{\phi_{c,d}}{\longrightarrow}
+  Hom_{\mathcal{D}}(d, R(c))
+$$
+
+for all objects $d\in \mathcal{D}$ and $c \in \mathcal{C}$. This being natural means that $\phi \colon Hom_{\mathcal{D}}(L(-),-) \Rightarrow Hom_{\mathcal{C}}(-, R(-))$ is a [[natural transformation]], hence that for all morphisms $g \colon d_2 \to d_1$ and $f \colon c_1 \to c_2$ the following is a [[commuting square]]:
+
+$$
+  \array{
+    Hom_{\mathcal{C}}(L(d_1), c_1)
+     & \underoverset{\simeq}{\phi_{d_1,c_1}}{\longrightarrow} &
+    Hom_{\mathcal{D}}(d_1, R(c_1))
+    \\
+    {}^{\mathllap{L(f) \circ (-)\circ g}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{g\circ (-)\circ R(g)}}
+    \\
+    Hom_{\mathcal{C}}(L(d_2), c_2)
+     & \underoverset{\phi_{d_1,c_1}}{\simeq}{\longrightarrow} &
+    Hom_{\mathcal{D}}(d_2, R(c_2))
+  }
+  \,.
+$$
+
+We write $(L \dashv R)$ to indicate this and call $L$ the _[[left adjoint]]_ and $R$ the _[[right adjoint]]_ of the adjoint pair. If $f \colon L(d) \to c$ is any morphism, then the image $\phi_{d,c}(f) \colon d \to R(c)$ is called its _[[adjunct]]_, and conversely. The fact that adjuncts are in bijection is also expressed by the notation
+
+$$
+  \frac{
+    L(c) \overset{f}{\longrightarrow} d
+  }{
+    c \overset{\tilde f}{\longrightarrow} R(d)
+  }
+  \,.
+$$
+
+The archetypical example of a pair of adjoint functors is that consisting of forming [[Cartesian products]] $Y \times (-)$ and forming [[mapping spaces]] $(-)^Y$, as in the category of [[compactly generated topological spaces]] of def. \ref{kTop}.
 
 +-- {: .num_defn #QuillenAdjunction}
 ###### Definition
