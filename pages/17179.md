@@ -175,6 +175,7 @@ See at _[n-excisive functor -- n-Excisive approximation and reflection](n-excisi
 
 ### For sequential spectra
 
+
 For $E$ a [[sequential spectrum|sequential]] [[CW-spectrum|CW-]][[pre-spectrum]], its spectrification to an [[Omega-spectrum]] may be constructed
 
 $$
@@ -188,6 +189,7 @@ In the special case that $E = \Sigma^\infty X$ a [[suspension spectrum]], i.e. w
 
 If the pre-spectrum $E$ is not a [[CW-spectrum]] then the construction of the spectrification is more involved ([Lewis 86](#Lewis86)).
 
+
 For $E$ a [[sequential spectrum|sequential]] [[prespectrum]] in [[pointed object|pointed]] [[simplicial sets]] the spectrification may be constructed by ([Bousfield-Friedlander 78, section 2.3](#BousfieldFriedlander78))
 
 $$
@@ -196,7 +198,9 @@ $$
 
 (i.e. by the previous formula combined with [[geometric realization]]/[[Kan fibrant replacement]]).
 
-The spectrificatin functor on sequential prespectra satisfies the conditions of the [[Bousfield-Friedlander theorem]], and hence the [[left Bousfield localization]] of pre-spectra with degree-wise fibrations weak equivalences at the morphisms of prespectra that become weak equivalences under spectrification exists. This is the stable _[[Bousfield-Friedlander model structure]]_.
+Generally, for sequential spectra in any [[proper model category|proper]] [[pointed category|pointed]] [[simplicial model category]] which admits a [[small object argument]], spectrification is discussed in ([Schwede 97, section 2.1](#Schwede97)).
+
+These spectrification functors on sequential prespectra satisfy the conditions of the [[Bousfield-Friedlander theorem]], and hence the [[left Bousfield localization]] of pre-spectra with degree-wise fibrations weak equivalences at the morphisms of prespectra that become weak equivalences under spectrification exists. This is the stable _[[Bousfield-Friedlander model structure]]_.
 
 
 
