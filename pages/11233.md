@@ -5,7 +5,7 @@
 
 ## Idea
 
-The *Henstock integral* (also attributed to Kurzweil, Denjoy, Luzin, and Perron) is a way to define the [[integral]] of a (partial) function $f:\mathbb{R}\to \mathbb{R}$ which applies to more functions than either the [[Riemann integral]] or the [[Lebesgue integral]] and is in some ways better behaved as well.
+The *Henstock integral* (also attributed to *Kurzweil*, *Denjoy*, *Luzin*, and *Perron*, and sometimes called, neutrally but perhaps ambiguously, the *gauge integral*) is a way to define the [[integral]] of a (partial) function $f:\mathbb{R}\to \mathbb{R}$ which applies to more functions than either the [[Riemann integral]] or the [[Lebesgue integral]] and is in some ways better behaved as well.
 
 For instance, the (even) function
 $$
@@ -86,12 +86,22 @@ Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ 
 
 [[!redirects Henstock integral]]
 [[!redirects Henstock integrals]]
+[[!redirects Henstock integrable]]
+[[!redirects Henstock-integrable]]
 [[!redirects Henstock integrable function]]
 [[!redirects Henstock integrable functions]]
+[[!redirects Henstock-integrable function]]
+[[!redirects Henstock-integrable functions]]
+
 [[!redirects Kurzweil integral]]
 [[!redirects Kurzweil integrals]]
+[[!redirects Kurzweil integrable]]
+[[!redirects Kurzweil-integrable]]
 [[!redirects Kurzweil integrable function]]
 [[!redirects Kurzweil integrable functions]]
+[[!redirects Kurzweil-integrable function]]
+[[!redirects Kurzweil-integrable functions]]
+
 [[!redirects Henstock-Kurzweil integral]]
 [[!redirects Henstock-Kurzweil integrals]]
 [[!redirects Henstock–Kurzweil integral]]
@@ -104,6 +114,7 @@ Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ 
 [[!redirects Henstock–Kurzweil integrable functions]]
 [[!redirects Henstock--Kurzweil integrable function]]
 [[!redirects Henstock--Kurzweil integrable functions]]
+
 [[!redirects Kurzweil-Henstock integral]]
 [[!redirects Kurzweil-Henstock integrals]]
 [[!redirects Kurzweil–Henstock integral]]
@@ -116,17 +127,27 @@ Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ 
 [[!redirects Kurzweil–Henstock integrable functions]]
 [[!redirects Kurzweil--Henstock integrable function]]
 [[!redirects Kurzweil--Henstock integrable functions]]
+
 [[!redirects Denjoy integral]]
 [[!redirects Denjoy integrals]]
 [[!redirects Denjoy integrable function]]
 [[!redirects Denjoy integrable functions]]
+
 [[!redirects Luzin integral]]
 [[!redirects Luzin integrals]]
 [[!redirects Luzin integrable function]]
 [[!redirects Luzin integrable functions]]
 
-
 [[!redirects Perron integral]]
 [[!redirects Perron integrals]]
 [[!redirects Perron integrable function]]
 [[!redirects Perron integrable functions]]
+
+[[!redirects gauge integral]]
+[[!redirects gauge integrals]]
+[[!redirects gauge integrable]]
+[[!redirects gauge-integrable]]
+[[!redirects gauge integrable function]]
+[[!redirects gauge integrable functions]]
+[[!redirects gauge-integrable function]]
+[[!redirects gauge-integrable functions]]
