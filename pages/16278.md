@@ -11,7 +11,7 @@
 
 ## Related entries
 
-* [[hermeticism]]
+* [[hermeticism]], [[gnosticism]]
 
 * [[Meister Eckhart]]
 
