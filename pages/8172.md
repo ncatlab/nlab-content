@@ -1258,11 +1258,17 @@ For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal com
 
 
 
-#### The case $E = H \mathbb{F}_p$
+#### The case $X = \mathbb{S}$ and $E = H \mathbb{F}_p$
 
 (...)
 
-#### The case $E = MU$
+<img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
+
+(graphics taken from ([[Symmetric spectra|Schwede 12]]))
+
+(...)
+
+#### The case $X = \mathbb{S}$ and $E = MU$
 
 (...)
 
@@ -1711,9 +1717,8 @@ and is reproduced in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
-For full details of some of the steps involved see
+For full details of some of the steps involved see also ([Schwede 12](#Schwede12)).
 
-* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 Reviews include
 
@@ -1730,6 +1735,8 @@ Reviews include
 * [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
 
 * {#Bruner} R. Bruner, _An Adams spectral sequence primer_ ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
+
+* [[Stefan Schwede]], chapter II, section 10.3 of  _[[Symmetric spectra]]_, 2012
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
