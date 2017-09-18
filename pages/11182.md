@@ -225,9 +225,17 @@ There are forms whose genuine integral exists, but is not parametrization-invari
 
 ### Affine integration 
 
-When $X$ is a finite-dimensional real [[affine space]], regarded as a smooth manifold, there is an equivalent definition of the genuine integral of a 1-cojet differential 1-form that is more obviously parametrization-invariant.  It relies on the fact that in this case, we can canonically identify all the tangent spaces of $X$ with the same vector space $V$.
+For 1-cojet differential 1-forms satisfying a weak sublinearity condition, there is an equivalent definition of the genuine integral that is more obviously parametrization-invariant.
 
-Let $c:[a,b]\to X$ be a curve in such an affine space $X$, and $\omega$ a 1-cojet differential 1-form on $X$.  Then we can regard $\omega$ as a function $X\times V\to \mathbb{R}$.  Now for any [[tagged partition]] $a = t_0 \lt t_1 \cdots \lt t_{n-1} \lt t_n = b$ with tags $t^*_i \in [t_{i-1},t_i]$, we define the corresponding [[Riemann sum]] to be
+A 1-cojet form can be considered as a function on tangent vectors $(x,v)$ where $v\in T_x X$.  Let us say that such a form $\omega$ is **tangent-Lipschitz** if for each $x\in X$ there is a constant $L\gt 0$ such that
+$$ {|\omega(x,v) - \omega(x,w)|} \lt L \,\Vert v-w\Vert $$
+for all $v,w\in V$.  Here we are using a [[norm]] on the tangent space $T_x X$.  Since this vector space is finite-dimensional, the notion of tangent-Lipschitz is independent of the norm chosen (although the numerical value of $L$ will vary with the norm).
+
+Note that this says nothing at all about the continuity of $\omega$ as a function of $x$.  In particular, if each $\omega(x,-)$ is separately either linear or absolute, then $\omega$ is tangent-Lipschitz.  Thus, tangent-Lipschitz is a weak replacement for linearity in the tangent variable.
+
+To define our new version of the integral, suppose first that $X$ is a finite-dimensional real [[affine space]], regarded as a smooth manifold.  Then we can canonically identify all its tangent spaces with the same vector space $V$.
+
+Let $c:[a,b]\to X$ be a curve in such an affine space $X$, and $\omega$ a 1-cojet differential 1-form on some open subset $U\subseteq X$ containing the image of $c$.  Then we can regard $\omega$ as a function $U\times V\to \mathbb{R}$.  Now for any [[tagged partition]] $a = t_0 \lt t_1 \cdots \lt t_{n-1} \lt t_n = b$ with tags $t^*_i \in [t_{i-1},t_i]$, we define the corresponding [[Riemann sum]] to be
 
 $$ \sum_{i=1}^n \omega(c(t^*_i), \Delta c_i) $$
 
@@ -235,23 +243,39 @@ where $\Delta c_i = c(t_i) - c(t_{i-1})$, the subtraction being the usual way to
 
 Note that this Riemann sum manifestly depends only on the points $c(t_i)$ and $c(t^*_i)$ (and the order in which they occur).  Thus, any increasing bijection $\phi:[a',b'] \to [a,b]$ induces a bijection between tagged partitions which respects their Riemann sums.  It also maps intervals to intervals, so any gauge on one interval induces one on the other interval.  Thus the limits also coincide (in the strong sense that one exists if and only if the other does, and in that case they are equal), and so the affine integral is completely parametrization-independent.
 
-It remains to show that the affine integral agrees with the genuine integral.  Let us say that a 1-cojet form $\omega$ is **Lipschitz** if for each $x\in X$ there is a constant $L\gt 0$ such that
-$$ {|\omega(x,v) - \omega(x,w)|} \lt L \,\Vert v-w\Vert $$
-for all $v,w\in V$.  Here we are using a [[norm]] on $V$.  Since $V$ is finite-dimensional, the notion of Lipschitz is independent of the norm chosen (although the numerical value of $L$ will vary with the norm).
-
-Of course, linear and absolute forms are both Lipschitz.
+We now show that the affine integral agrees with the genuine integral.  
 
 +-- {: .un_theorem}
 ###### Theorem
-If $\omega$ is a Lipschitz 1-cojet form on an affine space $X$, then its genuine and affine integrals over any differentiable curve agree, in the strong sense that each exists if and only if the other does and in that case they are equal.
+If $\omega$ is a tangent-Lipschitz 1-cojet form on an open subset of an affine space $X$, then its genuine and affine integrals over any differentiable curve agree, in the strong sense that each exists if and only if the other does and in that case they are equal.
 =--
 +-- {: .proof}
 ###### Proof
 Let $c:[a,b]\to X$ be differentiable.  Then by definition of differentiability, for any $t_1 \lt t^*\lt t_2$ in $[a,b]$ we can write
 $$ c(t_2) - c(t_1) - c'(t^*)(t_2-t_1) = g(t^*,t_1,t_2)(t_2-t_1) $$
-where $g(t^*,t_1,t_2) \to 0$ as $t_2-t_1 \to 0$.  Thus, since $\omega$ is Lipschitz, for any tagged partition we have
+where $g(t^*,t_1,t_2) \to 0$ as $t_2-t_1 \to 0$.  Thus, since $\omega$ is tangent-Lipschitz, for any tagged partition we have
 $$ {|\omega(c(t^*_i), \Delta c_i) - \omega(c(t^*_i),\Delta t_i \cdot c'(t^*))|} \lt L \Vert g(t^*,t_1,t_2) \Vert \cdot \Delta t_i. $$
 Since $g(t^*,t_1,t_2) \to 0$ as $t_2-t_1 \to 0$, we can choose gauges to make this difference vanish in the limit, just as we did for integrating $o(dx)$ forms.  But $\omega(c(t^*_i), \Delta c_i)$ and $\omega(c(t^*_i),\Delta t_i \cdot c'(t^*))$ are exactly the terms in the Riemann sums for the affine and genuine integrals.
+=--
+
+Finally, a similar argument shows that the affine integral can be extended to all finite-dimensional smooth manifolds by local charts.
+
++-- {: .un_theorem}
+###### Theorem
+Let $U\subseteq X$ and $V\subseteq Y$ be open subsets of affine spaces and $\phi:U\to V$ be differentiable.  Let $\omega$ be a tangent-Lipschitz 1-cojet form on $V$ and $c:[0,1]\to U$ a differentiable curve.  Then for the affine integrals we have
+$$ \int_c \phi^*\omega = \int_{\phi c} \omega. $$
+=--
++-- {: .proof}
+###### Proof
+By definition, $\phi^*\omega(x,v) = \omega(\phi(x),d_x\phi(v))$.  Thus, the LHS is a limit of Riemann sums of the form
+$$ \sum_i \omega(\phi(c(t^*_i)),d_{c(t^*_i)}\phi(\Delta c_i)). $$
+while the RHS is a limit of sums of the form
+$$ \sum_i \omega(\phi(c(t^*_i)),\Delta (\phi c)_i). $$
+Since $\phi$ is differentiable, for any point $c(t^*_i)$ we have
+$$ \Delta (\phi c)_i = \phi(c(t_{i})) - \phi(c(t_{i-1})) = d_{c(t^*_i)}\phi(\Delta c_i) + E(c(t^*_i),\Delta c_i)\cdot {\Vert \Delta c_i \Vert } $$
+where $E(c(t^*_i),\Delta c_i)\to 0$ as $t_i - t_{i-1} \to 0$.  Since $\omega$ is tangent-Lipschitz, this gives
+$$  \Big\Vert \omega(\phi(c(t^*_i)),\Delta (\phi c)_i) - \omega(\phi(c(t^*_i)),d_{c(t^*_i)}\phi(\Delta c_i)) \Big\Vert \lt L \cdot E(c(t^*_i),\Delta c_i) \cdot {\Vert \Delta c_i \Vert }. $$
+Now $L$ and $E$ depend on the point chosen, but nevertheless, we can choose gauges as before to make this term vanish in the limit.  Thus, the two integrals agree.
 =--
 
 ### Stieltjes integrals, $\delta$-fuctions, and distributions
