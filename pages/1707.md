@@ -42,7 +42,7 @@ More generally, $A$ here may be equipped with a $G$-[[action]] $\rho \colon A \t
 
 $$
   \array{
-    \mathbf{B}G && \stackrel{\mathbf{c}}{\to}  && \mathbf{B}A \sslash G
+    \mathbf{B}G && \stackrel{\mathbf{c}}{\to}  && \mathbf{B}^n A \sslash G
     \\
     & \searrow &\swArrow& \swarrow 
     \\
@@ -57,7 +57,7 @@ All this generalizes to $G$ itself any [[∞-group]] and $\mathbf{B}^n A$ replac
 
 $$
   \array{
-    \mathbf{B}G && \stackrel{\mathbf{c}}{\to}  && \mathbf{B}A \sslash G
+    \mathbf{B}G && \stackrel{\mathbf{c}}{\to}  && V \sslash G
     \\
     & \searrow &\swArrow& \swarrow 
     \\
