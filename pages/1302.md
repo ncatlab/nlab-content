@@ -490,7 +490,7 @@ Now if $(\mathcal{X},\mathcal{O})$ is [[locally representable structured (infini
 
 Given an affine scheme $X=\mathrm{Spec}\,R$ (where $R$ is a commutative unital ring), the affine Serre theorem establishes the equivalence of the category $Qcoh(\mathrm{Spec}\,R)$ of quasicoherent sheaves (in Zariski topology) and the category of $R$-modules. Similarly on a projective scheme of the type $Proj(A)$ where
 $A$ is a nonnegatively graded ring, the (projective) Serre theorem establishes the equivalence of $Qcoh(\mathrm{Proj}\,(A))$ and 
-the localization of the category of graded $A$-modules by the subcategory of modules of finite length (and similarly, of coherent sheaves and graded $A$-modules of finite type modulo finite-length). These theorems are among basic motivating theorems for [[noncommutative algebraic geometry]]. An interesting in-depth comparison of the notions of quasi-coherent sheaves in commutative and noncommutative context are also in the Orlov's article quoted above.
+the localization of the category of graded $A$-modules by the subcategory of modules of finite length (and similarly, of coherent sheaves and graded $A$-modules of finite type modulo finite-length). These theorems are among basic motivating theorems for [[noncommutative algebraic geometry]]. An interesting in-depth comparison of the notions of quasi-coherent sheaves in commutative and noncommutative context are also in Orlov's article quoted above.
 
 ### The category of quasicoherent sheaves 
 
