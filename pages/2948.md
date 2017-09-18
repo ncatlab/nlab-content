@@ -69,14 +69,15 @@ $$
   \,.
 $$
 
-Notice that this adjunct is the composite
+By the formula for [[adjuncts]] in terms of the [[adjunction counit]] ([this prop.](adjunct#AdjunctionCoUnitGiveesAllAdjuncts)) this adjunct is the composite
 
 $$
-  L(x \otimes y) \stackrel{L(i_x \otimes i_y)}{\to}
+  L(x \otimes y) 
+    \stackrel{L(i_x \otimes i_y)}{\longrightarrow}
   L(R L x \otimes R L y)
-  \stackrel{L(\nabla_{L x, L y})}{\to}
+    \stackrel{L(\nabla_{L x, L y})}{\longrightarrow}
   L R(L x \otimes L y)
-  \stackrel{\epsilon_{L x \otimes L y}}{\to}
+    \stackrel{\epsilon_{L x \otimes L y}}{\longrightarrow}
   L x \otimes L y
   \,.
 $$
