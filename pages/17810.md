@@ -2004,7 +2004,7 @@ and if $B$ is any superalgebra,
 ### Example: Super Lie algebras and Super $L_\infty$-algebras
 
 As an example of the general principle of [[internalization|internalizing]] ordinary [[algebra]]
-in [[super vector spaces]] in order to obtain the analogous concept in [[superalgebra]], we consider the concepts 
+in [[super vector spaces]] in order to obtain the analogous concept in [[superalgebra]], we consider the concepts
 of _[[super Lie algebras]]_ and of [[super L-∞ algebras]] ([[super Lie n-algebras]] for arbitrary $n$).
 
 
@@ -2363,6 +2363,16 @@ $$
 
 of the [[opposite category]] of [[dg-algebras]] on those that are CE-algebras as above.
 
+Finally, the [[cochain cohomology]] of the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ of a super $L_\infty$ algebra of [[finite type]] is its _[[L-∞ algebra cohomology]]_ with [[coefficients]] in $\mathbb{R}$:
+
+$$
+  H^\bullet(\mathfrak{g}, \mathbb{R})
+   \;=\;
+  H^\bullet(CE(\mathfrak{g}))
+  \,.
+$$
+
+
 =--
 
 +-- {: .num_remark #SuperLInfintiyAsFDA}
@@ -2383,6 +2393,7 @@ The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergrav
 
 
 ### $\mathbb{Z}$-Graded Supercommutative superalgebra
+  {#ZGradedSupercommutativeSuperAlgebra}
 
 
 It may happen that the $\mathbb{Z}/2$-grading of a [[supercommutative superalgebra]] [[lift|lifts]] to a finer grading
@@ -2510,7 +2521,7 @@ $$
   H_\bullet
     \;\colon\;
   dgCAlg_k
-    \lognrightarrow
+    \longrightarrow
   sCAlg_k^{\mathbb{Z}}
   \,.
 $$
@@ -2569,7 +2580,7 @@ Then there are [[strong monoidal functors]]
 
 $$
   k[\beta,\beta^{-1}] Mod
-    \underovrset
+    \underoverset
       {\underset{(-)|_{0,1}}{\longrightarrow}}
       {\overset{}{\longleftarrow}}
       {\simeq}
@@ -2654,7 +2665,7 @@ By prop. \ref{kbetaModules} and prop. \ref{AlgebrasOverAAreMonoidsUnderA}.
 
 As before, all these considerations of course work also for $\mathbb{R}$ replaced by any other [[ground ring]].
 
-+-- {: .num_example}
++-- {: .num_example #SpectralSuperSchemes}
 ###### Example
 
 Let $E$ be an [[even cohomology theory|even]]
@@ -2665,7 +2676,7 @@ $$
   \pi_\bullet(E) \simeq \pi_0(E)[\beta, \beta^{-1}]
 $$
 
-with $\beta$ an invertible generator in degree 2 (the [[complex oriented cohomology theory|coomplex orientation]]).
+with $\beta$ an invertible generator in degree 2 (the [[complex oriented cohomology theory|complex orientation]]).
 
 Accordingly, for $A$ an [[E-infinity algebra]] over $E$, hence an [[E-infinity ring]] equipped with
 an $E_\infty$-homomorphism $E \to A$, then its underlying $\mathbb{Z}$-graded commutative algebra
@@ -2673,7 +2684,7 @@ $\pi_\bullet(E)$ (according to example \ref{HomotopyCommutativeRingSpectrum}) is
 $\pi_0(E)[\beta, \beta^{-1}]$. Hence via prop. \ref{kbetaModules} $\pi_\bullet(A)$ is canonically
 identified with a [[supercommutative superalgebra]] over $\pi_0(E)[\beta, \beta^{-1}]$.
 
-This is amplified in [Rezk 09, section 2](periodic+ring+spectrum#Rezk09)
+This is amplified in [Rezk 09, section 2](periodic+ring+spectrum#Rezk09). See at _[[spectral super-scheme]]_ for more.
 
 =--
 
