@@ -7,4 +7,4 @@ Milnor fiber and Milnor fibration
 
 There is also a rigid analytic version __analytic Milnor fiber__, which is a rigid variety over the [[nonarchimedean field]] of complex Laurent series associated to a complex hypersurface singularity. It has been used in the study of motivic zeta function via motivic integration on rigid varieties in  
 
-* J. Nicaise, J. Sebag, _The motivic Serre invariant, ramification, and the analytic Milnor fiber_, Invent. Math. 168:1, 133--173 (2007)
+* J. Nicaise, J. Sebag, _Motivic Serre invariants, ramification, and the analytic Milnor fiber_, Invent. Math. 168:1, 133--173 (2007) [MR0239612](http://www.ams.org/mathscinet-getitem?mr=2285749)
