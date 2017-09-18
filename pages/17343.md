@@ -8274,7 +8274,7 @@ $$
 
 as in the proof of lemma \ref{FactorizationLemma}. Now by repeatedly using prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences}:
 
-1. the bottom square gives a weak equivalence form the fiber of $Path(f_1) \to Path(Y)$ to the fiber of $f_1$;
+1. the bottom square gives a weak equivalence from the fiber of $Path(f_1) \to Path(Y)$ to the fiber of $f_1$;
 
 1. The square
 
@@ -8284,15 +8284,40 @@ as in the proof of lemma \ref{FactorizationLemma}. Now by repeatedly using prop.
         \\
         \downarrow && \downarrow
         \\
-        Path(Y) &\longrightarrow& Y
+        Path(Y) &\underset{p_0}{\longrightarrow}& Y
      }
    $$
 
-   gives a weak equivalence form the fiber of $Path(f_1) \to Path(Y)$ to the fiber of $Path(f_1)\to Y$.
+   gives a weak equivalence from the fiber of $Path(f_1) \to Path(Y)$ to the fiber of $Path(f_1)\to Y$.
 
-1. Similarly the total vertical composite gives a weak equivalence from the fiber of $Path(f) \to Y$ to the fiber of $Path(f_1)\to Y$.
+1. Similarly the total vertical composite gives a weak equivalence via 
 
-Together this is a [[zig-zag]] of weak equivalences between the fiber of $Path(f) \to Y$ and the fiber of $f_1$. This gives an isomorphism in the homotopy category.
+   $$
+     \array{
+        Path(f) &\overset{\in W}{\longrightarrow}& Path(f_1)
+        \\
+        \downarrow && \downarrow
+        \\
+        Y &\underset{id}{\longrightarrow}& Y
+     }
+   $$
+
+
+from the fiber of $Path(f) \to Y$ to the fiber of $Path(f_1)\to Y$.
+
+Together this is a [[zig-zag]] of weak equivalences of the form
+
+$$
+  fib(f_1)
+    \overset{\in W}{\longleftarrow}
+  fib(Path(f_1)\to Path(Y))
+    \overset{\in W}{\longrightarrow}
+  fib(Path(f_1)\to Y)
+    \overset{\in W}{\longleftarrow}
+  fib(Path(f) \to Y)
+$$
+
+between the fiber of $Path(f) \to Y$ and the fiber of $f_1$. This gives an isomorphism in the [[homotopy category of a model category|homotopy category]].
 
 =--
 
