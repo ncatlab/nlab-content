@@ -77,7 +77,7 @@ $$
 
 where now $[T,S^1]$ is the [[character group]] of the [[maximal torus]].
 
-In this form the moduli space of flat connections appears prominently for instance in the discussion of [[equivariant elliptic cohomology]].
+In this form the moduli space of flat connections appears prominently for instance in the discussion of [[equivariant elliptic cohomology]]. But beware that the above interpretation in [[algebraic geometry]] is at least more subtle, see ([Lurie 15](#Lurie15)).
 
 
 ## Related concepts
@@ -117,8 +117,11 @@ Detailed discussion of moduli space of flat connections also on higher dimension
 
 * {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], pp. 154 (11 of 76) of _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753)) 
 
-
 For more references see at _[[Hitchin connection]]_.
+
+Discussion in [[algebraic geometry]] includes
+
+* {#Lurie15} [[Jacob Lurie]], _[MO comment](http://mathoverflow.net/a/226716/381)_ 2015
 
 [[!redirects moduli spaces of connections]]
 
