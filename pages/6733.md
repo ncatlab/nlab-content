@@ -18,6 +18,33 @@
 
 In [[11-dimensional supergravity]] the [[brane]] electrically charged under the [[supergravity C-field]] is the [[M2-brane]]/[[membrane]]. The dual under [[electric-magnetic duality]] is the M5-brane.
 
+## Definition
+
+### As a Green-Schwarz type sigma-model
+
+As a [[Green-Schwarz sigma-model]]: [BLNPST 97](#BLNPST97)
+
+### As a black $p$-brane
+
+As a [[black brane]] solution of [[11-dimensional supergravity]] the M5-brane is given ([Gueven 92](#Gueven92)) by the [[spacetime]] $\mathbb{R}^{5,1} \times (\mathbb{R}^5-\{0\})$ with [[pseudo-Riemannian metric]] given by
+
+$$
+  g = H^{-1/3} g_{\mathbb{R}^{5,1}} \oplus H^{2/3} g_{\mathbb{R}^5-\{0\}}
+$$
+
+for $H = 1 + \frac{1}{r}$ and $r$ the distance in $\mathbb{R}^5$ from the origin, and with [[field strength]] of the [[supergravity C-field]] being
+
+$$
+  F = \star_{\mathbb{R}^5} \mathbf{d}H
+  \,.
+$$
+
+This is a $1/2$-[[BPS state]] of 11-dimensional supergravity.
+
+The [[near horizon geometry]] of this spacetime is [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere|S4]]. For more on this see at _[[AdS-CFT]]_.
+
+
+
 ## Properties
 
 ### Worldvolume theory
@@ -249,7 +276,7 @@ See at _[[M5-brane charge]]_
 
 The M5 was maybe first found as a [[black brane]] of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
 
-* R. Gueven, _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49.
+* {#Gueven92} [[Rahmi Gueven]], _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49 and in [[Mike Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 135-141 ([spire](http://inspirehep.net/record/338203?ln=en))
 
 The history as of the 1990 is reviewed in 
 
