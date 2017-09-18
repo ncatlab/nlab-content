@@ -447,7 +447,7 @@ So we are trying to guess the content of the not-yet-existsting
 
 Let $A$ be an [[E-infinity ring]]. 
 
-Define its [[spectrum of an E-infinity ring]] $Spec A$ as  the [[ringed space]] $(|Spec A|, \mathcal{O}_{Spec A})$ whose underlying [[topological space]] is the ordinary spectrum of the degroo-0 ring
+Define its [[spectrum of an E-infinity ring]] $Spec A$ as  the [[ringed space]] $(|Spec A|, \mathcal{O}_{Spec A})$ whose underlying [[topological space]] is the ordinary spectrum of the degree-0 ring
 
 $$
   |Spec A| := Spec \pi_0 A
@@ -469,7 +469,7 @@ Here $A \to A[f^{-1}]$ is characterized by the following equivalent ways:
 1. $\forall$ $E_\infty$-rings the induced map 
    $Hom(A[f^{-1}],B) \to Hom(A,B)$ is a [[homotopy equivalence]] of the left hand side with the subspace of the right hand side which takes $f \in \pi_0 A$ to an invertible element of $\pi_0 B$.
 
-This geometry over [[E-infinity ring]]s is in [[spectral algebraic geometry]]/[[brave new algebraic geometry]].
+This geometry over [[E-infinity ring]]s is in [[spectral algebraic geometry]]/[[brave new algebra|brave new algebraic geometry]].
 
 The analog for [[simplicial commutative ring]]s instead of  is what is discussed at [[derived scheme]].
 
