@@ -174,29 +174,27 @@ to assign to a point $x \in X$ the [[infimum]] of the labels of those open subse
 $$
   f(x) 
      \coloneqq
-  inf\left\{ r \,\vert\,  x\in U_r \right\}
+  \underset{U_r \supset \{x\}}{\lim} r
 $$
+
+Here the [[limit of a net|limit]] is over the [[directed set]] of those $U_r$ that contain $x$, ordered by reverse inclusion.
 
 
 This function clearly has the property that $f(A) = \{0\}$  and $f(B) = \{1\}$. It only remains to see that it is continuous.
+For this it is sufficient to see that for $\alpha \in [0,1]$ then the [[pre-images]] $f^{-1}((\alpha, 1])$ and $f^{-1}([0,\alpha))$ are open
 
-Observe that for $\alpha \in [0,1]$ then
+We claim that 
 
-$$
-  f^{-1}((\alpha, 1])
-    =
-  \underset{r \gt \alpha}{\cup} U_r
-$$
+1. $f^{-1}([0,\alpha)) = \underset{r \lt \alpha}{\cup} U_r$;
 
-and
+1. $f^{-1}((\alpha, 1]) = \underset{r \gt \alpha}{\cup} X\backslash C_r$.
 
-$$
-  f^{-1}([0,\alpha))
-    =
-  \underset{r \lt \alpha}{\cup} U_r
-$$
+Regarding the first point: If $x \in X$ is such that $f(x) \coloneqq\underset{U_r \supset \{x\}}{\lim} r \,\lt \alpha$ this means  that there exists a positive real number $\epsilon$ such that $( f(x)-\epsilon, f(x)+ \epsilon ) \lt \alpha$ and hence, by definition of [[limit of a net]], that there exists $r \in \mathbb{Q}_{dy}$ such that $x \in U_r$ and  $r \lt f(x)+ \epsilon \lt \alpha$, hence such that $r \lt \alpha$.
 
-These are open subsets. Now every [[topological basis|basic]] open subset of $[0,1]$ is a finite intersection of those of the form $[0,\alpha)$ and $(\alpha, 1]$, and hence all pre-images undr $f$ of these are open. Therefore $f$ is continuous.
+Regarding the second point: ...
+
+
+
 
 
 =--
