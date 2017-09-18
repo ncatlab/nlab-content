@@ -61,9 +61,14 @@ Survey talks include
 
 An influential argument that this relation implies that [[entanglement]] in the boundary theory is what makes spacetime as such appear in the bulk theory is due to
 
-* Mark Van Raamsdonk, _Building up spacetime with quantum entanglement_, Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010 ([arXiv:1005.3035](https://arxiv.org/abs/1005.3035)) 
+* [[Mark Van Raamsdonk]], _Building up spacetime with quantum entanglement_, Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010 ([arXiv:1005.3035](https://arxiv.org/abs/1005.3035)) 
 
 Review is in 
 
-* Mark Van Raamsdonk, _Lectures on Gravity and Entanglement_, chapter 5 in  New Frontiers in Fields and Strings
+* [[Mark Van Raamsdonk]], _Lectures on Gravity and Entanglement_, chapter 5 in  New Frontiers in Fields and Strings
 TASI 2015 Proceedings of the 2015 Theoretical Advanced Study Institute in Elementary Particle Physics 2015 Theoretical Advanced Study Institute in Elementary Particle Physics ([arXiv:1609.00026](https://arxiv.org/abs/1609.00026))
+
+
+Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
+
+* Jun Nian, Xinyu Zhang, _Entanglement Entropy of ABJM Theory and Entropy of Topological Black Hole_ ([arXiv:1705.01896](https://arxiv.org/abs/1705.01896))
