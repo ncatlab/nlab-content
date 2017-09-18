@@ -30,6 +30,10 @@ In the category of $T_0$ [[topological spaces]] (see at _[[separation axiom]]_),
 
 * [[domain theory]]
 
+* [[specialization topology]]
+
+* [[order topology]]
+
 [[!redirects Scott topology]]
 [[!redirects Scott topologies]]
 
