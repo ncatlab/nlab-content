@@ -16,7 +16,7 @@ Matrix models are studied mainly in the context of [[statistical mechanics]] (se
 
 Matrix models that have been argued to capture [[D-brane]] dynamics and [[nonperturbative effects]] in [[string theory]] include
 
-* [[BFSS matrix model]], [[IKKT matrix model]], [[membrane matrix model]]
+* [[BFSS matrix model]], [[IKKT matrix model]], [[membrane matrix model]], [[K-matrix model]]
 
 
 category: physics
