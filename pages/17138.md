@@ -5910,6 +5910,7 @@ The other two follow from inspection of the explicit form of the map according t
 =--
 
 #### Quillen equivalences of stable model structures
+ {#QuillenEquivalencesOfStableModelStructures}
 
 +-- {: .num_theorem #QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra}
 ###### Theorem
