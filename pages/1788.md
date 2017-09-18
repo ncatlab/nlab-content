@@ -1,274 +1,708 @@
 
-### Super Fiber functors and their automorphism supergroups
- {#FiberFunctors}
+### Modules in tensor categories and Super vector bundles
+ {#Modules InTensorCategories}
 
-The first step in exhibiting a given [[tensor category]] $\mathcal{A}$ as being a [[category of representations]] is to exhibit its objects as having an [[forgetful functor|underlying]] representation space of sorts, and then an [[action]] represented on that space. Hence a necessary condition on $\mathcal{A}$ is that there exists a [[forgetful functor]]
+Above (in def. \ref{Affines}) we considered spaces $X$ from a dual perspective, as determined by their [[algebras of functions]] $\mathcal{O}(X)$. In the same spirit then we are to express various constructions on and with spaces in terms of dual algebraic constructions.
+
+A key such construction is that of [[vector bundles]] over $X$. Suppose that $X$ is a [[smooth manifold]], and $V \stackrel{p}{\to} X$ is an ordinary smooth real [[vector bundle]] over $X$. A [[section]] of this vector bundle is a smooth function $\sigma \colon X \to V$ such that $p \circ \sigma = id$
 
 $$
-   \omega \;\colon\; \mathcal{A} \longrightarrow \mathcal{V}
+  \array{
+     && V
+    \\ & {}^{\mathllap{\sigma}}\nearrow & \downarrow^{\mathrlap{p}}
+    \\
+    X &=& X
+  }
+  \,.
 $$
 
-to some other [[tensor category]], such that $\omega$ satisfies a list of properties, in particular it should be a [[symmetric monoidal functor|symmetric]] [[strong monoidal functor]].
 
-Such functors are called _[[fiber functors]]_. The idea is that we think of $\mathcal{A}$ as a [[bundle]] over $\mathcal{V}$, and over each $V \in \mathcal{V}$ we find the [[fiber]] $\omega^{-1}(V)$ of that "bundle", consisting of all those objects in $\mathcal{A}$ whose underlying object in the given $V$.
+Write $\Gamma_X(V)$ for the set of all such sections. Observe that this set inherits various extra [[stuff, structure, property|structure]]. 
 
-The main point of [[Tannaka duality]] of tensor categories is the observation that if $\mathcal{A}$ is a [[category of representations]] of some [[group]] $G$, then $G$ also [[action|acts]] by [[automorphisms]] on that [[fiber functor]] (i.e. via [[natural isomorphisms]] of functors). In good cases then this may be turned around, and the full [[automorphism group]] of a fiber functor is identified with the group $G$ for which the objects in its fibers are [[representations]], this is the process of [[Tannaka reconstruction]].
+First of all, since $V \to X$ is a vector bundle, we have [[fiber]]-wise the vector space operations. This means that
+given two elements $c_1, c_2 \in \mathbb{R}$ in the [[real numbers]], and given two sections $\sigma_1$ and $\sigma_2$, we may form in each [[fiber]] $V_x$ the [[linear combination]] $c_1 \sigma_1(x) + c_2 \sigma_2(x)$. This hence yields a new section $c_1 \sigma_1 + c_2 \sigma_2$. Hence the set of sections of a vector bundle naturally forms itself a vector space.
 
-There are slight variants on what one requires of a fiber functor. For the present purpose we fix the following definition
+But there is more structure. We need not multiply with the same element $c \in \mathbb{R}$ in each fiber, but we may multiply the section in each fiber by a different element, as long as the choice of element varies smoothly with the fibers, so that the resulting section is still smooth.
 
-+-- {: .num_defn #FiberFunctor} 
+In other words, every element $f \in C^\infty(X)$ in the $\mathbb{R}$-algebra of [[smooth functions]] on $X$, takes a smooth section $\sigma$ of $V$ to a new smooth section $f \cdot \sigma$. This operation enjoys some evident properties. It is [[bilinear map|bilinear]] in the real vector spaces $C^\infty(X)$ and $\Gamma_X(V)$, and it satisfies the "[[action|action property]]" 
+
+$$
+  (f g) \cdot \sigma = f\cdot (g \cdot \sigma)
+$$
+
+for any two smooth functions $f,g \in C^\infty(X)$.
+
+One says that a [[vector space]] such as $\Gamma_X(V)$ equipped with an [[action]] of an algebra $R$ this way is a _[[module]]_ over $R$.
+
+(...)
+
++-- {: .num_defn #AdditiveAndAbelianCategories} 
 ###### Definition
 
-Let $\mathcal{A}$ and $\mathcal{T}$ be two $k$-[[tensor categories]] (def. \ref{TensorCategory}) such that 
-
-1. all [[object of finite length|objects have finite length]];
-
-1. all [[hom spaces]] are of [[finite number|finite]] [[dimension]] over $k$.
-
-Let $R \in CMon(Ind(\mathcal{T}))$ be a [[commutative monoid in a symmetric monoidal category|commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) in the category of [[ind-objects]] in $\mathcal{T}$ (prop. \ref{IndObjectsInATensorCategory}).  
-
-Then a **[[fiber functor]] on $\mathcal{A}$ over $R$** is a [[functor]]
-
-$$
-  \omega \;\colon\; \mathcal{A} \longrightarrow R Mod(Ind(\mathcal{T}))
-$$ 
-
-from $\mathcal{A}$ to the [[category of modules|category of]] [[module objects]] over $R$ (def. \ref{ModulesInMonoidalCategory}) in the [[category of ind-objects]] $Ind(\mathcal{T})$ (def. \ref{IndObjectsInATensorCategory}), which is
-
-1. a [[braided monoidal functor|braided]] [[strong monoidal functor]];
-
-1. an [[exact functor]] in both variables.
-
-If here $\mathcal{T} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}), then this is called a **super fiber functor**.
 
 =--
 
-([Deligne 02, 3.1](#Deligne02))
-
-Given a super fiber functor $\omega \colon \mathcal{A} \to sVect_k$ (def. \ref{FiberFunctor}) there is an evident notion of its [[automorphism group]]: a [[homomorphism]] between [[functors]] is a [[natural transformation]], and that between [[monoidal functors]] is a [[monoidal natural transformation]], according to def. \ref{LaxMonoidalFunctor}, and this is an [[automorphism]] of functors if it is a [[natural automorphism]]. We write
-
-$$
-  Aut(\omega) \in Grp
-$$
-
-for this automorphism group.
-
-So far this is a group without geometric structure (a [[discrete group]]). But it is naturally equipped with [[supergeometry]] (super-[[algebraic geometry]]) exhibited by a rule for what the "geometrically parameterized families" of its elements are. (For exposition of this perspective see at _[[motivation for sheaves, cohomology and higher stacks]]_).
-
-Concretely, this means that for each [[supercommutative superalgebra]] $A$ with corresponding affine [[super scheme]] $Spec(A)$ (def. \ref{Affines}, def. \ref{SupercommutativeSuperalgebra}) we are to say what the set
-
-$$
-  \underline{Aut}(\omega)(Spec(A))
-   \in
-  Set
-$$
-
-of $Spec(A)$-parameterized elements of $Aut(\omega)$ is. In fact, under parameter-wise multiplication in the group, any such set must inherit group structure, so that we should have not one discrete group, but a system of them, labeled by supercommutative superalgebras:
-
-$$
-  \underline{Aut}(\omega)(Spec(A))
-   \in
-  Grp
-  \,.
-$$
-
-Moreover, if $A_1 \longrightarrow A_2$ is an algebra homomorphism, hence 
-
-$$
-  Spec(A_2) \longrightarrow Spec(A_1)
-$$ 
-
-a map of affine super schemes according to def. \ref{SupercommutativeSuperalgebra}, then there should be a group homomorphism 
-
-$$
-  \underline{Aut}(\omega)(Spec(A_2))
-    \longleftarrow
-  \underline{Aut}(\omega)(Spec(A_1))
-$$
-
-that expresses how a $Spec(A_1)$-parameterized family of elements of $Aut(\omega)$ becomes a $Spec(A_1)$-parameterized family, under this map.
-
-For a minimum of consistency, this assignment must be such that the identity map on $Spec(A)$ induces the identity on $\underline{Aut}(\omega)(Spec(A))$, and that the composite of two maps of affine superschemes goes to the correspondng composite group homomorphisms.
-
-In conclusion, this says that an algebraic supergeometric structure on $Aut(\omega)$ is the datum of a [[presheaf]] of groups, hence of a [[functor]]
-
-$$
-  \underline{Aut}(\omega)
-   \;\colon\;
-  Aff(sVect)^{op} \simeq CMon(sVect)
-   \longrightarrow
-  Grp
-$$
-
-such that the underlying points are those of $Aut(\omega)$:
-
-$$
-  \underline{Aut}(\omega)(Spec(k))
-  \simeq
-  Aut(\omega)
-  \,.
-$$
-
-We say this is [[representable functor|representable]] if there exists a [[supercommutative Hopf algebra]] $H$ and a [[natural isomorphism]]
-
-
-$$
-  \underline{Aut}(\omega)
-  \simeq
-  Hom_{CMon(sVect)}(H,-)
-  \,.
-$$
-
-+-- {: .num_defn #AutomorphismGroupOfFiberFunctor} 
++-- {: .num_defn #ModulesInMonoidalCategory}
 ###### Definition
 
-Let $\omega \colon \mathcal{A} \to \mathcal{B}$ be a  [[fiber functor]]  (def \ref{FiberFunctor}).
+Given a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidalCategory}), and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), then a **left [[module object]]** in $(\mathcal{C}, \otimes, 1)$ over $(A,\mu,e)$ is
 
-For $A \in CMon(\mathcal{B})$ a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}), write
+1. an [[object]] $N \in \mathcal{C}$;
+
+1. a [[morphism]] $\rho \;\colon\; A \otimes N \longrightarrow N$ (called the _[[action]]_);
+
+such that 
+
+1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       1 \otimes N 
+         &\overset{e \otimes id}{\longrightarrow}&
+       A \otimes N
+       \\
+       & {}_{\mathllap{\ell}}\searrow 
+       & \downarrow^{\mathrlap{\rho}} 
+       \\
+       && N
+     }
+     \,,
+   $$
+
+   where $\ell$ is the left unitor isomorphism of $\mathcal{C}$.
+
+
+1. (action property) the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (A\otimes A) \otimes N
+         &\underoverset{\simeq}{a_{A,A,N}}{\longrightarrow}&
+       A \otimes (A \otimes N)
+         &\overset{A \otimes \rho}{\longrightarrow}&
+       A \otimes N
+       \\
+       {}^{\mathllap{\mu \otimes N}}\downarrow  
+         && &&
+       \downarrow^{\mathrlap{\rho}}
+       \\
+       A \otimes N
+         &\longrightarrow&
+         &\overset{\rho}{\longrightarrow}&
+       N
+     }
+     \,,
+   $$
+
+A [[homomorphism]] of left $A$-module objects 
 
 $$
-  \omega_A 
-   \;\colon\;
-  \mathcal{A}
-    \stackrel{\omega}{\longrightarrow}
-  \mathcal{B}
-   \stackrel{A \otimes(-)}{\longrightarrow}
-  A Mod(\mathcal{B})
+  (N_1, \rho_1) \longrightarrow (N_2, \rho_2)
 $$
 
-for its image under [[extension of scalars]] to $A$ (prop. \ref{MonoidModuleOverItself}).
-
-With this, the **automorphism group** of $\omega$
+is a morphism 
 
 $$
-  \underline{Aut}(\omega)
-  \in 
-  PSh(Aff(\mathcal{B}))
+  f\;\colon\; N_1 \longrightarrow N_2
 $$
 
-is defined by
+in $\mathcal{C}$, such that the following [[commuting diagram|diagram commutes]]:
 
 $$
-  \underline{Aut}(\omega)(Spec(A))
-   \coloneqq
-  Aut(\omega_{A})
+  \array{
+    A\otimes N_1 &\overset{A \otimes f}{\longrightarrow}& A\otimes N_2
+    \\
+    {}^{\mathllap{\rho_1}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho_2}}
+    \\
+    N_1 &\underset{f}{\longrightarrow}& N_2
+  }
+  \,.
+$$
+
+For the resulting **[[category of modules]]** of left $A$-modules in $\mathcal{C}$ with $A$-module homomorphisms between them, we write
+
+$$
+  A Mod(\mathcal{C})
   \,.
 $$
 
 
 =--
 
-Specializing def. \ref{AutomorphismGroupOfFiberFunctor} to $\mathcal{B} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}), where a commutative monoid is a [[supercommutative superalgebra]] (def. \ref{SupercommutativeSuperalgebra}) it reads as follows:
-
-+-- {: .num_example #AutomorphismSuperGroupOfSuperFiberFunctor} 
++-- {: .num_example #EveryObjectIsModuleOverTensorUnit}
 ###### Example
 
-Let $\omega \colon \mathcal{A} \to sVect$ be a  [[fiber functor|super fiber functor]]  (def \ref{FiberFunctor}).
-
-For $A \in CMon(sVect)$ a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}), write
+Given a [[monoidal category]] $(\mathcal{C},\otimes, 1)$ (def. \ref{MonoidalCategory}) with the [[tensor unit]] $1$ regarded as a [[monoid in a monoidal category]] via example \ref{MonoidGivenByTensorUnit}, then the left [[unitor]]
 
 $$
-  \omega_A 
-   \;\colon\;
-  \mathcal{A}
-    \stackrel{\omega}{\longrightarrow}
-  sVect
-   \stackrel{A \otimes(-)}{\longrightarrow}
-  A Mod(sVect)
+  \ell_C 
+    \;\colon\;
+  1\otimes C \longrightarrow C
 $$
 
-
-For $A \in CMon(sVect)$ a [[supercommutative algebra]], write
-
-$$
-  \omega_A 
-   \;\colon\;
-  \mathcal{A}
-    \stackrel{\omega}{\longrightarrow}
-  sVect
-   \stackrel{A \otimes(-)}{\longrightarrow}
-  A Mod(sVect)
-$$
-
-for its image under [[extension of scalars]] to $A$ (prop. \ref{MonoidModuleOverItself}).
-
-With this, the **automorphism super-group** of $\omega$
+makes every object $C \in \mathcal{C}$ into a left module, according to def. \ref{ModulesInMonoidalCategory}, over $C$. The action property holds due to lemma \ref{kel1}. This gives an [[equivalence of categories]]
 
 $$
-  \underline{Aut}(\omega)
-  \in 
-  PSh(Aff(sVect))
+  \mathcal{C} \simeq 1 Mod(\mathcal{C})
 $$
 
-is defined by
+of $\mathcal{C}$ with the [[category of modules]] over its tensor unit.
 
-$$
-  \underline{Aut}(\omega)(Spec(A))
-   \coloneqq
-  Aut(\omega_{A})
-  \,.
-$$
+
+=--
+
++-- {: .num_example #RingsAreMonoidsInAb}
+###### Example
+
+The topic of general [[algebra]], not necessarily over [[ground fields]], is the above general concepts of mnoids and their modules spcialized to the ambient [[symmetric monoidal category]] being the category [[Ab]] of  [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ (whose [[tensor unit]] is the additive group of [[integers]] $\mathbb{Z}$):
+
+1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]]. 
+
+1. A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[commutative ring]] $R$.
+
+1. An $R$-[[module object]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{ModulesInMonoidalCategory}) is equivalently an $R$-[[module]];
+
+1. The tensor product of $R$-module objects (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[tensor product of modules]].
+
+1. The [[category of modules|category of module objects]] $R Mod(Ab)$ (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[category of modules]] $R Mod$.
 
 =--
 
 
 
-+-- {: .num_prop #AutomorphismSupergroupOfFiberFunctorIsRepresentable} 
+
++-- {: .num_prop #MonoidModuleOverItself} 
 ###### Proposition
 
-For $k$ an [[algebraically closed field]] of [[characteristic zero]], and for $\mathcal{A}$ a $k$-[[tensor category]] equipped with a [[fiber functor|super fiber functor]] $\omega$, then its automorphism supergroup (def. \ref{AutomorphismSuperGroupOfSuperFiberFunctor}) is [[representable functor|representable]]: there exists a [[supercommutative Hopf algebra]] $H_\omega$ and a [[natural isomorphism]]
+In the situation of def. \ref{ModulesInMonoidalCategory}, the monoid $(A,\mu, e)$ canonically becomes a left module over itself by setting $\rho \coloneqq \mu$. More generally, for $C \in \mathcal{C}$ any object, then $A \otimes C$ naturally becomes a left $A$-module by setting:
 
 $$
-  \underline{Aut}(\omega)
-    \simeq
-  Hom_{CMon(sVect)}(H_\omega,-)
+  \rho
+  \;\colon\;
+  A \otimes (A \otimes C)
+   \underoverset{\simeq}{a^{-1}_{A,A,C}}{\longrightarrow}
+  (A \otimes A) \otimes C
+    \overset{\mu \otimes id}{\longrightarrow}
+  A \otimes C
+  \,.
+$$
+
+The $A$-modules of this form are called **[[free modules]]**.
+
+The [[free functor]] $F$ constructing free $A$-modules is [[left adjoint]] to the [[forgetful functor]] $U$ which sends a module $(N,\rho)$ to the underlying object $U(N,\rho) \coloneqq N$.
+
+$$
+  A Mod(\mathcal{C})
+    \underoverset
+     {\underset{U}{\longrightarrow}}
+     {\overset{F}{\longleftarrow}}
+     {\bot}
+  \mathcal{C}
   \,.
 $$
 
 =--
 
-([Deligne 90, prop. 8.11](#Deligne90))
++-- {: .proof}
+###### Proof
 
-+-- {: .num_lemma #MonoidalTransformationBetweenFiberFunctorIsIso} 
-###### Lemma
+A homomorphism out of a free $A$-module is a morphism in $\mathcal{C}$ of the form
 
-every [[monoidal natural transformation]] (def. \ref{LaxMonoidalFunctor}) between two [[fiber functors]] (def. \ref{FiberFunctor}) is an [[isomorphism]] (i.e. a [[natural isomorphism]]).
+$$
+  f \;\colon\; A\otimes C \longrightarrow N
+$$
+
+fitting into the diagram (where we are notationally suppressing the [[associator]])
+
+$$
+  \array{
+    A \otimes A \otimes C
+      &\overset{A \otimes f}{\longrightarrow}&
+    A \otimes N
+    \\
+    {}^{\mathllap{\mu \otimes id}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho}}
+    \\
+    A \otimes C
+      &\underset{f}{\longrightarrow}&
+    N
+  }
+  \,.
+$$
+
+Consider the composite
+
+$$
+  \tilde f
+    \;\colon\;
+  C
+    \underoverset{\simeq}{\ell_C}{\longrightarrow}
+  1 \otimes C
+    \overset{e\otimes id}{\longrightarrow}
+  A \otimes C
+    \overset{f}{\longrightarrow}
+  N
+  \,,
+$$
+
+i.e. the restriction of $f$ to the unit "in" $A$. By definition, this fits into a [[commuting square]] of the form (where we are now notationally suppressing the [[associator]] and the [[unitor]])
+
+$$
+  \array{
+   A \otimes C
+     &\overset{id \otimes \tilde f}{\longrightarrow}&
+   A \otimes N
+   \\
+   {}^{\mathllap{id \otimes e \otimes id}}\downarrow 
+     && 
+   \downarrow^{\mathrlap{=}}
+   \\
+   A \otimes A \otimes C
+    &\underset{id \otimes f}{\longrightarrow}&
+   A \otimes N
+  }
+  \,.
+$$
+
+Pasting this square onto the top of the previous one yields
+
+$$
+  \array{
+   A \otimes C
+     &\overset{id \otimes \tilde f}{\longrightarrow}&
+   A \otimes N
+   \\
+   {}^{\mathllap{id \otimes e \otimes id}}\downarrow 
+     && 
+   \downarrow^{\mathrlap{=}}
+    \\
+    A \otimes A \otimes C
+      &\overset{A \otimes f}{\longrightarrow}&
+    A \otimes N
+    \\
+    {}^{\mathllap{\mu \otimes id}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho}}
+    \\
+    A \otimes C
+      &\underset{f}{\longrightarrow}&
+    N
+  }
+  \,,
+$$
+
+where now the left vertical composite is the identity, by the unit law in $A$. This shows that $f$ is uniquely determined by $\tilde f$ via the relation
+
+$$
+  f = \rho \circ (id_A \otimes \tilde f)
+  \,.
+$$
+
+This natural bijection between $f$ and $\tilde f$ establishes the adjunction.
+
 
 =--
 
-([Deligne 02, lemma 3.2](#Deligne02))
-
-
-+-- {: .num_defn #FundamentalSupergroup} 
++-- {: .num_defn #TensorProductOfModulesOverCommutativeMonoidObject}
 ###### Definition
 
-Let $\mathcal{A}$ be a [[tensor category]] and regard the [[identity]] functor on it as a fiber functor (def. \ref{FiberFunctor}). Then the automorphism group of $id_{\mathcal{A}}$ according to def. \ref{AutomorphismSuperGroupOfSuperFiberFunctor} is called the **fundamental group** of $\mathcal{A}$, denoted:
+Given a [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then 
 
-$$
-  \pi(\mathcal{A})
-   \coloneqq
-  \underline{Aut}(id_{\matchcal{A}})
-$$
+1. the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
 
+   $$
+     N_1 \otimes A \otimes N_2
+     \underoverset
+       {\underset{\rho_{1}\circ (\tau_{N_1,A} \otimes N_2)}{\longrightarrow}}
+       {\overset{N_1 \otimes \rho_2}{\longrightarrow}}
+       {\phantom{AAAA}}
+     N_1 \otimes N_1
+       \overset{coeq}{\longrightarrow}
+     N_1 \otimes_A N_2
+   $$
+
+   and if $A \otimes (-)$ preserves these coequalizers, then this is equipped with the left $A$-action induced from the left $A$-action on $N_1$ 
+
+1. the **function module** $hom_A(N_1,N_2)$ is, if it exists, the [[equalizer]]
+
+   $$
+     hom_A(N_1, N_2)
+       \overset{equ}{\longrightarrow}
+     hom(N_1, N_2)
+       \underoverset
+         {\underset{hom(A \otimes N_1, \rho_2)\circ (A \otimes(-))}{\longrightarrow}}
+         {\overset{hom(\rho_1,N_2)}{\longrightarrow}}
+         {\phantom{AAAAAA}}
+       hom(A \otimes N_1, N_2)
+     \,.
+   $$
+
+   equipped with the left $A$-action that is induced by the left $A$-action on $N_2$ via
+
+   $$
+     \frac{
+       A \otimes hom(X,N_2) \longrightarrow hom(X,N_2)
+     }{
+      A \otimes hom(X,N_2) \otimes X 
+        \overset{id \otimes ev}{\longrightarrow}
+      A \otimes N_2 \overset{\rho_2}{\longrightarrow} N_2
+     }
+     \,.
+   $$
 
 =--
 
-([Deligne 90, 8.12, 8.13](#Deligne90))
+(e.g. [Hovey-Shipley-Smith 00, lemma 2.2.2 and lemma 2.2.8](#HoveyShipleySmith00))
 
-+-- {: .num_example #FundamentalGroupOfCategoryOfSuperVectorSpaces} 
+
+
++-- {: .num_prop #MonoidalCategoryOfModules}
+###### Proposition
+
+Given a [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), and given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}). If all [[coequalizers]] exist in $\mathcal{C}$, then the [[tensor product of modules]] $\otimes_A$ from def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} makes the [[category of modules]] $A Mod(\mathcal{C})$ into a [[symmetric monoidal category]], $(A Mod, \otimes_A, A)$ with [[tensor unit]] the object $A$ itself, regarded as an $A$-module via prop. \ref{MonoidModuleOverItself}.
+
+If moreover all [[equalizers]] exist, then this is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) with [[internal hom]] given by the function modules $hom_A$ of def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}.
+
+=--
+
+(e.g. [Hovey-Shipley-Smith 00, lemma 2.2.2, lemma 2.2.8](#HoveyShipleySmith00))
+
++-- {: .proof}
+###### Proof sketch
+
+The associators and braiding for $\otimes_{A}$ are induced directly from those of $\otimes$ and the [[universal property]] of [[coequalizers]]. That $A$ is the tensor unit for $\otimes_{A}$ follows with the same kind of argument that we give in the proof of example \ref{FreeModulesTensorProduct} below.
+
+=--
+
++-- {: .num_example #FreeModulesTensorProduct}
 ###### Example
 
-The fundamental group (def. \ref{FundamentalSupergroup}) of the [[category of super vector spaces]] [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}) is $\mathbb{Z}/2$:
+For $(A,\mu,e)$ a [[monoid in a monoidal category|monoid]] (def. \ref{MonoidsInMonoidalCategory}) in a [[symmetric monoidal category]] $(\mathcal{C},\otimes, 1)$ (def. \ref{MonoidalCategory}), the [[tensor product of modules]] (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) of two [[free modules]] (def. \ref{MonoidModuleOverItself}) $A\otimes C_1$ and $A \otimes C_2$ always exists and is the free module over the tensor product in $\mathcal{C}$ of the two generators:
 
 $$
-  \pi(sVect)
-    \simeq
-  \mathbb{Z}/2
+  (A \otimes C_1) \otimes_A (A \otimes C_2)
+  \simeq
+  A \otimes (C_1 \otimes C_2)
   \,.
 $$
 
-The non-trivial element in $\pi(sVect)$ acts on any super-vector space as the [[endomorphism]] which is the identity on even graded elements, and multiplication by $(-1)$ on odd graded elements.
+Hence if $\mathcal{C}$ has all [[coequalizers]], so that the [[category of modules]] is a [[monoidal category]] $(A Mod, \otimes_A, A)$ (prop. \ref{MonoidalCategoryOfModules}) then the free module functor (def. \ref{MonoidModuleOverItself}) is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor})
+
+$$
+  F
+    \;\colon\;
+  (\mathcal{C}, \otimes, 1)
+    \longrightarrow
+  (A Mod, \otimes_A, A)
+  \,.
+$$
 
 =--
 
-([Deligne 90, 8.14 iv)](#Deligne90))
++-- {: .proof}
+###### Proof
+
+It is sufficient to show that the diagram
+
+$$
+  A \otimes A \otimes A
+   \underoverset
+    {\underset{id \otimes \mu}{\longrightarrow}}
+    {\overset{\mu \otimes id}{\longrightarrow}}
+    {\phantom{AAAA}}
+  A \otimes A
+    \overset{\mu}{\longrightarrow}
+  A 
+$$
+
+is a [[coequalizer]] diagram (we are notationally suppressing the [[associators]]), hence that $A \otimes_A A \simeq A$, hence that the claim holds for $C_1 = 1$ and $C_2 = 1$.
+
+To that end, we check the [[universal property]] of the [[coequalizer]]:
+
+First observe that $\mu$ indeed coequalizes $id \otimes \mu$ with $\mu \otimes id$, since this is just the [[associativity]] clause in def. \ref{MonoidsInMonoidalCategory}. So for $f \colon A \otimes A \longrightarrow Q$ any other morphism with this property, we need to show that there is a unique morphism $\phi \colon A \longrightarrow Q$ which makes this [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    A \otimes A &\overset{\mu}{\longrightarrow}& A
+    \\
+    {}^{\mathllap{f}}\downarrow & \swarrow_{\mathrlap{\phi}}
+    \\
+    Q
+  }
+  \,.
+$$
+
+We claim that 
+
+$$
+  \phi 
+    \;\colon\;
+  A 
+    \underoverset{\simeq}{r^{-1}}{\longrightarrow} 
+  A \otimes 1 
+    \overset{id \otimes e}{\longrightarrow}
+  A \otimes A
+    \overset{f}{\longrightarrow}
+  Q
+  \,,
+$$
+
+where the first morphism is the inverse of the right [[unitor]] of $\mathcal{C}$.
+
+First to see that this does make the required triangle commute, consider the following pasting composite of [[commuting diagrams]]
+
+$$
+  \array{
+    A \otimes A &\overset{\mu}{\longrightarrow}& A
+    \\
+    {}^{\mathllap{id \otimes r^{-1}}}_{\mathllap{\simeq}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{r^{-1}}}_{\simeq}
+    \\
+    A \otimes A \otimes 1 
+      &\overset{\mu \otimes id}{\longrightarrow}&
+    A \otimes 1
+    \\
+    {}^{\mathllap{id \otimes e}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{id \otimes e} }
+    \\
+    A \otimes A \otimes A 
+      &\overset{\mu \otimes id}{\longrightarrow}&
+    A \otimes A
+    \\
+    {}^{\mathllap{id \otimes \mu}}\downarrow
+      &&
+    \downarrow^{\mathrlap{f}}
+    \\
+    A \otimes A 
+      &\underset{f}{\longrightarrow}& 
+    Q
+  }
+  \,.
+$$
+
+Here the the top square is the [[natural transformation|naturality]] of the right [[unitor]], the middle square commutes by the functoriality of the tensor product $\otimes \;\colon\; \mathcal{C}\times \mathcal{C} \longrightarrow \mathcal{C}$ and the definition of the [[product category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), while the commutativity of the bottom square is the assumption that $f$ coequalizes $id \otimes \mu$ with $\mu \otimes id$. 
+
+Here the right vertical composite is $\phi$,  while, by [unitality](#UnitalityMonoid) of $(A,\mu ,e)$, the left vertical composite is the identity on $A$, Hence the diagram says that $\phi \circ \mu = f$, which we needed to show.
+
+It remains to see that $\phi$ is the unique morphism with this property for given $f$. For that let $q \colon A \to Q$ be any other morphism with $ q\circ \mu = f$. Then consider the [[commuting diagram]]
+
+$$
+  \array{
+    A \otimes 1 &\overset{\simeq}{\longleftarrow}& A
+    \\
+    {}^{\mathllap{id\otimes e}}\downarrow & \searrow^{\simeq}
+    & \downarrow^{\mathrlap{=}}
+    \\
+    A \otimes A &\overset{\mu}{\longrightarrow}& A
+    \\
+    {}^{\mathllap{f}}\downarrow & \swarrow_{\mathrlap{q}}
+    \\
+    Q
+  }
+  \,,
+$$
+
+where the top left triangle is the [unitality](#UnitalityMonoid) condition and the two isomorphisms are the right [[unitor]] and its inverse. The commutativity of this diagram says that $q = \phi$. 
+
+
+=--
+
+
+
++-- {: .num_defn #AAlgebra}
+###### Definition
+
+Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ as in prop. \ref{MonoidalCategoryOfModules}, then a [[monoid in a monoidal category|monoid]] $(E, \mu, e)$ in  $(A Mod , \otimes_A , A)$ (def. \ref{MonoidsInMonoidalCategory}) is called an **$A$-[[associative algebra|algebra]]**.
+
+=--
+
++-- {: .num_prop #AlgebrasOverAAreMonoidsUnderA}
+###### Propposition
+
+Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ in a [[monoidal category]] $(\mathcal{C},\otimes, 1)$ as in prop. \ref{MonoidalCategoryOfModules}, and an $A$-algebra $(E,\mu,e)$ (def. \ref{AAlgebra}), then there is an [[equivalence of categories]]
+
+$$
+  A Alg_{comm}(\mathcal{C}) 
+    \coloneqq 
+  CMon(A Mod)
+   \simeq
+  CMon(\mathcal{C})^{A/}
+$$
+
+between the [[category of commutative monoids]] in $A Mod$ and the [[coslice category]] of commutative monoids in $\mathcal{C}$ under $A$, hence between commutative $A$-algebras in $\mathcal{C}$ and commutative monoids $E$ in $\mathcal{C}$ that are equipped with a homomorphism of monoids $A \longrightarrow E$.
+
+=--
+
+(e.g. [EKMM 97, VII lemma 1.3](#EKMM97))
+
++-- {: .proof}
+###### Proof
+
+In one direction, consider a $A$-algebra $E$ with unit $e_E \;\colon\; A \longrightarrow E$ and product $\mu_{E/A} \colon E \otimes_A E \longrightarrow E$. There is the underlying product $\mu_E$ 
+
+$$
+  \array{
+    E \otimes A \otimes E
+    & 
+    \underoverset
+      {\underset{}{\longrightarrow}}
+      {\overset{}{\longrightarrow}}
+      {\phantom{AAA}}
+    &
+    E \otimes E
+     &\overset{coeq}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    && & {}_{\mathllap{\mu_E}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    && && E
+  }
+  \,.
+$$
+
+By considering a diagram of such coequalizer diagrams with middle vertical morphism $e_E\circ e_A$, one find that this is a unit for $\mu_E$ and that $(E, \mu_E, e_E \circ e_A)$ is a commutative monoid in $(\mathcal{C}, \otimes, 1)$.
+
+Then consider the two conditions on the unit $e_E \colon A \longrightarrow E$. First of all this is an $A$-module homomorphism, which means that
+
+$$
+  (\star)
+  \;\;\;\;\;
+  \;\;\;\;\;
+  \array{
+    A \otimes A &\overset{id \otimes e_E}{\longrightarrow}& A \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow && \downarrow^{\mathrlap{\rho}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E
+  }
+$$
+
+[[commuting diagram|commutes]]. Moreover it satisfies the unit property
+
+$$
+  \array{
+    A \otimes_A E 
+      &\overset{e_A \otimes id}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    & {}_{\mathllap{\simeq}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    && E
+  }
+  \,.
+$$
+
+By forgetting the tensor product over $A$, the latter gives
+
+$$
+  \array{
+    A \otimes E 
+      &\overset{e \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    \downarrow && \downarrow^{\mathrlap{}}
+    \\
+    A \otimes_A E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    {}^{\mathllap{\simeq}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    E &=& E
+  }
+  \;\;\;\;\;\;\;\;
+   \simeq
+  \;\;\;\;\;\;\;\;
+  \array{
+    A \otimes E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\rho}}\downarrow && \downarrow^{\mathrlap{\mu_{E}}}
+    \\
+    E &\underset{id}{\longrightarrow}& E  
+  }
+  \,,
+$$
+
+where the top vertical morphisms on the left the canonical coequalizers, which identifies the vertical composites on the right as shown. Hence this may be [[pasting|pasted]] to the square $(\star)$ above, to yield a [[commuting square]]
+
+$$
+  \array{
+    A \otimes A
+     &\overset{id\otimes e_E}{\longrightarrow}&
+    A \otimes E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow
+      &&
+    {}^{\mathllap{\rho}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{E}}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E &\underset{id}{\longrightarrow}& E  
+  }  
+  \;\;\;\;\;\;\;\;\;\;
+   =
+  \;\;\;\;\;\;\;\;\;\;
+  \array{
+    A \otimes A 
+     &\overset{e_E \otimes e_E}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\mu_E}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E
+  }
+  \,.
+$$
+
+This shows that the unit $e_A$ is a homomorphism of monoids $(A,\mu_A, e_A) \longrightarrow (E, \mu_E, e_E\circ e_A)$.
+
+Now for the converse direction, assume that $(A,\mu_A, e_A)$ and $(E, \mu_E, e'_E)$ are two commutative monoids in $(\mathcal{C}, \otimes, 1)$ with $e_E \;\colon\; A  \to E$ a monoid homomorphism. Then $E$ inherits a left $A$-[[module]] structure by
+
+$$
+  \rho
+    \;\colon\;
+  A \otimes E 
+    \overset{e_A \otimes id}{\longrightarrow} 
+  E \otimes E
+    \overset{\mu_E}{\longrightarrow}
+  E
+  \,.
+$$
+
+By commutativity and associativity it follows that $\mu_E$ coequalizes the two induced morphisms $E \otimes A \otimes E \underoverset{\longrightarrow}{\longrightarrow}{\phantom{AA}} E \otimes E$. Hence the [[universal property]] of the [[coequalizer]] gives a factorization through some $\mu_{E/A}\colon E \otimes_A E \longrightarrow E$. This shows that $(E, \mu_{E/A}, e_E)$ is a commutative $A$-algebra.
+
+Finally one checks that these two constructions are inverses to each other, up to isomorphism.
+
+=--
+
+When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
+
++-- {: .num_prop #CoproductsInCMon}
+###### Proposition
+
+Let $\mathcal{A}$ be a [[tensor category]] and let $R \in CMon(\mathcal{A})$ be a [[commutative monoid]] in $\mathcal{A}$, def. \ref{MonoidsInMonoidalCategory}. Then $R CAlg(\mathcal{A})$ has binary [[coproducts]] and these are given by the [[tensor product of modules]] of the underlying $R$-modules.
+
+Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]]:
+
+$$
+  Spec(A_1) \times Spec(A_2) \simeq Spec(A_1 \otimes_R A_2)
+  \,.
+$$
+
+=--
+
+See at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+
