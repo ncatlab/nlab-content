@@ -43,7 +43,7 @@ then the possible special holonomy groups are the following
 
 ### Relation to $G$-reductions
 
-A manifold having special holonmy means that there is a corresponding
+A manifold having special holonomy means that there is a corresponding
 [[reduction of structure groups]]. 
 
 +-- {: .num_theorem}
