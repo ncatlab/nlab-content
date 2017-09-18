@@ -66,6 +66,8 @@ The proof is spelled out at [[affine line]].
 
 * for $\mathbb{C}P^n$  see at _[[complex projective space]]_
 
+* for $\mathbb{R}P^n$ see at _[[real projective space]]_
+
 ## Related concepts
 
 * [[projective plane]]
