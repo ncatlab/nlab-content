@@ -24,6 +24,155 @@ A [[model category]] structure for [[excisive functors]] on [[functors]] from ([
 
 Special case of a [[model structure for n-excisive functors]].
 
+## Definition
+
+### The underlying category
+
++-- {: .num_defn #SimplicialSetsPointedAndFinite}
+###### Definition
+
+Write 
+
+* [[sSet]] for the [[category]] of [[simplicial sets]];
+
+* $sSet^{\ast/}$ for the category of [[pointed object|pointed]] simplicial sets;
+
+* $sSet_{fin}^{\ast/}\simeq s(FinSet)^{\ast/}$ for the [[category]] of [[pointed object|pointed]] [[simplicial object|simplicial]] [[finite sets]] . 
+
+Write
+
+$$
+  sSet^{\ast/}
+  \stackrel{\overset{(-)_+}{\longleftarrow}}{\underset{u}{\longrightarrow}}
+  sSet
+$$
+
+for the [[free-forgetful adjunction]], where the [[left adjoint]] functor $(-)_+$ freely adjoins a base point.
+
+Write
+
+$$
+  \wedge \colon sSet^{\ast/} \times sSet^{\ast/} \longrightarrow sSet^{\ast/}
+$$
+
+for the [[smash product]] of [[pointed object|pointed]] [[simplicial sets]], similarly for its restriction to $sSet_{fin}^{\ast}$:
+
+$$
+  X \wedge Y 
+    \coloneqq 
+  cofib\left(
+    \; 
+    \left(\,
+      (u(X),\ast) \sqcup (\ast, u(Y)) 
+    \,\right) 
+      \longrightarrow 
+     u(X) \times u(Y) 
+    \;
+  \right)
+  \,.
+$$
+
+This gives $sSet^{\ast/}$ and $sSet^{\ast/}_{fin}$ the structure of a [[closed monoidal category]] and we write 
+
+$$
+  [-,-]_\ast \;\colon\; (sSet^{\ast/})^{op} \times sSet^{\ast/} \longrightarrow sSet^{\ast/}
+$$
+
+for the corresponding [[internal hom]], the pointed [[function complex]] functor.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+For $X,Y\in sSet^{\ast/}$, the internal hom $[X,Y] \in sSet^{\ast/}$ is the simplicial set
+
+$$
+  [X,Y]_n = Hom_{sSet^{\ast/}}(X \wedge \Delta[n]_+, Y)
+$$
+
+regarded as pointed by the [[zero morphism]] (the one that factors through the base point), and the [[composition]] morphism
+
+$$
+  \circ \:\colon\; [X,Y] \wedge [Y,Z] \longrightarrow [X,Z]
+$$
+
+is given by
+
+$$
+  \begin{aligned}
+    \circ_n 
+      & \;\colon\; 
+    ( 
+      X \wedge \Delta[n]_+ \stackrel{f}{\longrightarrow} Y \;,\; Y \wedge \Delta[n]_+ \stackrel{g}{\longrightarrow} Z 
+    )
+    \\
+    &
+    \mapsto
+    (
+      X \wedge \Delta[n]_+
+        \stackrel{X \wedge (diag_{\Delta[n]})_+}{\longrightarrow}
+      X \wedge (\Delta[n] \times \Delta[n])_+
+        \simeq
+      X \wedge \Delta[n]_+ \wedge \Delta[n]_+
+        \stackrel{f \wedge id}{\longrightarrow}
+      Y \wedge \Delta[n]_+
+        \stackrel{g}{\longrightarrow}
+      Z
+    )
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+We regard all the categories in def. \ref{SimplicialSetsPointedAndFinite} canonically as [[simplicially enriched categories]], and in fact regard $sSet^{\ast/}$ and $sSet^{\ast/}_{fin}$ as $sSet^{\ast/}$-[[enriched categories]]. 
+
++-- {: .num_remark }
+###### Remark
+
+The [[smash product]] as an $sSet^{\ast/}$-[[enriched functor]] takes
+
+$$
+  \wedge \;\colon\; [X_1,Y_1] \wedge [X_2, Y_2] \longrightarrow [X_1 \wedge X_2, Y_1\wedge Y_2]
+$$ 
+
+by
+
+$$
+  \begin{aligned}
+    \wedge_n 
+    & \colon
+    ( 
+      X_1 \wedge \Delta[n]_+ \stackrel{f_1}{\longrightarrow} Y_1 \;,\;
+      X_2 \wedge \Delta[n]_+ \stackrel{f_2}{\longrightarrow} Y_2
+    )
+    \\
+    & \mapsto
+    X_1 \wedge X_2 \wedge \Delta[n]_+
+      \stackrel{id \wedge diag_+}{\longrightarrow}
+    X_1 \wedge X_2 \wedge (\Delta[n] \times \Delta[n])_+
+      \simeq
+    X_1 \wedge X_2 \wedge \Delta[n]_+ \wedge \Delta[n]_+
+      \simeq
+    (X_1 \wedge \Delta[n]_+) \wedge (X_2 \wedge \Delta[n]_+)
+      \stackrel{(f_1)_n \wedge (f_2)_n}{\longrightarrow}
+    Y_1 \wedge Y_2
+  \end{aligned}
+$$
+
+=--
+
+The category we are interested in is the $sSet^{\ast/}$-[[enriched functor category]]
+
+$$
+  [sSet^{\ast/}_{fin}, sSet^{\ast/}]
+  \,.
+$$
+
+([Lydakis 98, example 3.8, def. 4.4](#Lydakis98))
+
+
 ## Properties
 
 ### Model structure for spectra
