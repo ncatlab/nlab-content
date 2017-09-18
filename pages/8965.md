@@ -17,13 +17,14 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 In [[type theory]]: the the _natural numbers type_ is the [[type]] of [[natural numbers]]. 
+
 
 ## Definition
 
@@ -32,38 +33,65 @@ In [[type theory]]: the the _natural numbers type_ is the [[type]] of [[natural 
 
 The [[type of natural numbers]] $\mathbb{N}$ is the [[inductive type]] defined as follows.
 
-1. **[[term introduction rule]]**
+1. **[[type formation rule]]**
 
    $$
-     \frac{}{0 \in \mathbb{N}}
-     \;\;
-     \frac{n \in \mathbb{N}}{s(n) \in \mathbb{N}}
+     \frac{}{\mathbb{N} : Type}
    $$
 
-1. **[[term elimination rule]]**
+2. **[[term introduction rules]]**
+
+   $$
+     \frac{}{0 : \mathbb{N}}
+   $$
+   and
+   $$
+     \frac{n : \mathbb{N}}{s n : \mathbb{N}}
+   $$
+
+3. **[[term elimination rule]]**
 
    $$
      \frac{
-        \left(
-        x \in \mathbb{N} \vdash  P(x) : Type
-        \;\;
-        \vdash p_0 : C(0)
-        \;\;\;
-        x \in \mathbb{N}, p : C(x) \vdash p : P(s x)
-       \right)
+       x : \mathbb{N} \vdash P(x) : Type;
        \;\;
-       \vdash n \in \mathbb{N}
+       \vdash p_0 : P(0);
+       \;\;
+       x : \mathbb{N}, p : P(x) \vdash p_s(x,p) : P(s x);
+       \;\;
+       \vdash n : \mathbb{N}
      }{
-       p(n) : P(n)
+       rec^n_P(p_0,p_s) : P(n)
      }
    $$
-
-   (check, this probably still has syntax errors...)
    
-1. **[[computation rule]]**
+4. **[[computation rules]]**
 
-   (...)
-
+   $$
+     \frac{
+       x : \mathbb{N} \vdash  P(x) : Type;
+       \;\;
+       \vdash p_0 : P(0);
+       \;\;
+       x : \mathbb{N}, p : P(x) \vdash p_s(x,p) : P(s x)
+     }{
+       rec^0_P(p_0,p_s) = p_0 : P(0)
+     }
+   $$
+   and
+   $$
+     \frac{
+       x : \mathbb{N} \vdash  P(x) : Type;
+       \;\;
+       \vdash p_0 : P(0);
+       \;\;
+       x : \mathbb{N}, p : P(x) \vdash p_s(x,p) : P(s x);
+       \;\;
+       \vdash n : \mathbb{N}
+     }{
+       rec^{s n}_P(p_0,p_s) = p_s(n,rec^n_P(p_0,p_s)) : P(s n)
+     }
+   $$
 =--
 
 See for instance ([Pfenning, section 2](#Pfenning)).
@@ -97,6 +125,7 @@ $$
 $$
 
 In the following we write of course for short $0 : * \to \mathbb{N}$ and $s : \mathbb{N} \to \mathbb{N}$.
+
 
 ## Properties
 
@@ -242,7 +271,6 @@ $$
 $$
 
 The categorical interpretation of this is as a morphism $p : \mathbb{N} \to P$ in $\mathcal{C}_{/\mathbb{N}}$. The existence of this is indeed exactly what the interpretation of the elimination rule, def. \ref{InterpretationOfTheRules}, gives, or (equivalently by prop. \ref{BothFormulationsOfInitialityAreEquivalent}) exactly what the initiality of the $F$-algebra $\mathbb{N}$ gives.
-
 =--
 
 
@@ -293,7 +321,8 @@ commutes. This means precisely that $f$ is the function defined recursively by
 
 =--
 
-## Related concept
+
+## Related concepts
 
 * [[natural numbers]], [[natural numbers object]]
 
@@ -304,6 +333,8 @@ commutes. This means precisely that $f$ is the function defined recursively by
   {#Pfenning}
 
 
+[[!redirects natural number type]]
+[[!redirects natural-number type]]
+[[!redirects natural numbers type]]
+[[!redirects natural-numbers type]]
 [[!redirects type of natural numbers]]
-
-
