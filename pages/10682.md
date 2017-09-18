@@ -284,3 +284,6 @@ Lectures notes include
 [[!redirects Urysohn's theorem]]
 [[!redirects Urysohn theorem]]
 [[!redirects Urysohn lemma]]
+
+[[!redirects Urysohn function]]
+[[!redirects Urysohn functions]]
