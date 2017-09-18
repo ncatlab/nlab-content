@@ -196,13 +196,19 @@ Under [[Tannaka duality]], forming the Drinfeld center of a [[category of module
 
 ## References
 
-A standard textbook reference is
+A standard textbook references are
 
-* Kassel, _Quantum groups_
+* [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge Univ. Press
+* C. Kassel, _Quantum groups_
 
 A general discussion of centers of [[monoid objects]] in [[braided monoidal 2-categories]] (which reduces to the above for the 2-category [[Cat]] with its [[cartesian product]]) is in 
 
-* [[Ross Street]], _The monoidal center as a limit_ ([pdf](http://maths.mq.edu.au/~street/centre.pdf))
+* [[Ross Street]], _The monoidal center as a limit_, [pdf](http://maths.mq.edu.au/~street/centre.pdf)
+
+An application to character sheaves is in 
+
+* [[George Lusztig]], _Non-unipotent character sheaves as a categorical centre_, [arxiv/1506.04598](http://arxiv.org/abs/1506.04598)
+
 
 [[!redirects Drinfeld centers]]
 
