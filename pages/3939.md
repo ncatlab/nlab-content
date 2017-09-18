@@ -9,4 +9,4 @@ The precise definition is as follows.
 Let $E$ be a [[locally convex space|locally convex topological vector space]].  A subset $A$ of $E$ is **radial** if $r A \subseteq A$ for each $r \in [0,1]$.
 =--
 
-A radial set is clearly a [[star-shaped region]].
+A radial set is clearly a [[star-shaped domain]].
