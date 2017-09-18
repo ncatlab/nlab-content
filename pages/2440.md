@@ -24,45 +24,202 @@ See also [[supersymmetry]].
 
 ## Definition
 
-+-- {: .num_defn}
+There are various equivalent ways to state the definition of super Lie algebras. Here are a few (for more discussion see at _[[geometry of physics -- superalgebra]]_):
+
+### As Lie algebras internal to super vector spaces
+
++-- {: .num_defn #SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}
 ###### Definition
 
-A **super Lie algebra** over a [[field]] $k$ is a [[Lie algebra]] [[internalization|internal]] to the [[symmetric monoidal category|symmetric monoidal]] $k$-linear [[category]] [[SVect]] of [[super vector space]]s.
+A _[[super Lie algebra]]_ is a [[Lie algebra]] [[internalization|internal]]
+to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]].
+Hence this is
 
-=--
+1. a [[super vector space]] $\mathfrak{g}$;
 
-+-- {: .num_note}
-###### Note
-
-This means that a super Lie algebra is 
-
-1. a [[super vector space]] $\mathfrak{g} = \mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
-
-1. equipped with a bilinear bracket
- 
-   $$
-     [-,-] : \mathfrak{g}\otimes \mathfrak{g} \to \mathfrak{g}
-   $$
-
-   that is _graded_ skew-symmetric: it is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
-
-1. that satisfies the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three element $x,y,z \in \mathbb{g}$ of homogeneous degree $deg(x),deg(y),deg(z))\in \mathbb{Z}$ then
+1. a homomorphism
 
    $$
-     [x, [y, z]] = [[x,y],z] + (-1)^{deg(x)\cdot deg(y)} [y, [x,z]]
+     [-,-] \;\colon\; \mathfrak{g} \otimes_k \mathfrak{g} \longrightarrow \mathfrak{g}
+   $$
+
+   of super vector spaces (the _super Lie bracket_)
+
+such that
+
+1. the bracket is skew-symmetric in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g}
+         &
+           \overset{\tau^{super}_{\mathfrak{g},\mathfrak{g}}}{\longrightarrow}
+         &
+       \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       {}^{\mathllap{[-,-]}}\downarrow && \downarrow^{\mathrlap{[-,-]}}
+       \\
+       \mathfrak{g} &\underset{-1}{\longrightarrow}& \mathfrak{g}
+     }
+   $$
+
+   (here $\tau^{super}$ is the [[braiding]] [[natural isomorphism]] in the category of [[super vector spaces]])
+
+1. the [[Jacobi identity]] holds in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       &&
+         \overset{\tau^{super}_{\mathfrak{g}, \mathfrak{g}} \otimes_k id }{\longrightarrow}
+       &&
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       & {}_{\mathllap{[-,[-,-]]} - [[-,-],-] }\searrow && \swarrow_{\mathrlap{[-,[-,-]]}}
+       \\
+       && \mathfrak{g}
+     }
      \,.
    $$
 
 =--
 
-+-- {: .num_note}
-###### Note
 
-Equivalently, a super Lie algebra is a "super-representable" Lie algebra internal to the [[cohesive (∞,1)-topos]] [[Super∞Grpd]] over the site of [[super points]]. 
+
+
+### As super-graded Lie algebras
+
+
+Externally this means the following:
+
++-- {: .num_prop #SuperLieAlgebraTraditional}
+###### Proposition
+
+A [[super Lie algebra]] according to def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces} is equivalently
+
+1. a $\mathbb{Z}/2$-[[graded vector space]] $\mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
+
+1. equipped with a [[bilinear map]] (the _super Lie bracket_)
+
+   $$
+     [-,-] : \mathfrak{g}\otimes_k \mathfrak{g} \to \mathfrak{g}
+   $$
+
+   which is _graded_ skew-symmetric: for $x,y \in \mathfrak{g}$ two elements of homogeneous degree $\sigma_x$, $\sigma_y$, respectively, then
+
+   $$
+     [x,y] = -(-1)^{\sigma_x \sigma_y} [y,x]
+     \,,
+   $$
+
+1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that
+for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
+
+   $$
+     [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
+     \,.
+   $$
+
+A [[homomorphism]] of super Lie algebras is a homomorphisms of the underlying [[super vector spaces]]
+which preserves the Lie bracket. We write
+
+$$
+  sLieAlg
+$$
+
+for the resulting [[category]] of super Lie algebras.
+
+=--
+
+
+### As formal duals of a Chevalley-Eilenberg super-algebras
+
++-- {: .num_defn #CEAlgebraofSuperLieAlgebra}
+###### Definition
+
+For $\mathfrak{g}$ a [[super Lie algebra]] of [[finite number|finite]] [[dimension]], then its _[[Chevalley-Eilenberg algebra]]_ $CE(\mathfrak{g})$ is the super-[[Grassmann algebra]] on the [[dual vector space|dual]] super vector space
+
+$$
+  \wedge^\bullet  \mathfrak{g}^\ast
+$$
+
+equipped with a [[differential]] $d_{\mathfrak{g}}$ that on generators is the linear dual of the super Lie bracket
+
+$$
+  d_{\mathfrak{g}} \;\coloneqq\; [-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
+$$
+
+and which is extended to $\wedge^\bullet \mathfrak{g}^\ast$ by the graded Leibniz rule (i.e. as a graded [[derivation]]).
+
+$\,$
+
+Here all elements are $(\mathbb{Z} \times \mathbb{Z}/2)$-bigraded, the first being the _cohomological grading_ $n$ in $\wedge^\n \mathfrak{g}^\ast$, the second being the _super-grading_ $\sigma$ (even/odd).
+
+For $\alpha_i \in CE(\mathfrak{g})$ two elements of homogeneous bi-degree $(n_i, \sigma_i)$, respectively,
+the [[signs in supergeometry|sign rule]] is
+
+$$
+  \alpha_1 \wedge \alpha_2 = (-1)^{n_1 n_2} (-1)^{\sigma_1 \sigma_2}\; \alpha_2 \wedge \alpha_1
+  \,.
+$$
+
+(See at _[[signs in supergeometry]]_ for discussion of this sign rule and of an alternative sign rule that is also in use. )
+
+=--
+
+We may think of $CE(\mathfrak{g})$ equivalently as the [[dg-algebra]] of [[invariant differential form|left-invariant]]
+[[super differential forms]] on the [[Lie theory|corresponding]] simply connected [[super Lie group]] .
+
+
+The concept of [[Chevalley-Eilenberg algebras]] is traditionally introduced as a means to define
+[[Lie algebra cohomology]]:
+
++-- {: .num_defn #SuperLieAlgebraCohomology}
+###### Definition
+
+Given a [[super Lie algebra]] $\mathfrak{g}$, then
+
+1. an _$n$-cocycle_ on $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is an element of degree $(n,even)$ in its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ (def. \ref{CEAlgebraofSuperLieAlgebra}) which is $d_{\mathbb{g}}$ closed.
+
+1. the cocycle is non-trivial if it is not $d_{\mathfrak{g}}$-exact
+
+1. hene the _super-[[Lie algebra cohomology]]_ of $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is the [[cochain cohomology]] of its [[Chevalley-Eilenberg algebra]]
+
+   $$
+     H^\bullet(\mathfrak{g}, \mathbb{R}) = H^\bullet(CE(\mathfrak{g}))
+     \,.
+   $$
+
+=--
+
+
+
+The following says that the [[Chevalley-Eilenberg algebra]] is an equivalent incarnation of the [[super Lie algebra]]:
+
++-- {: .num_prop}
+###### Proposition
+
+The functor
+
+$$
+  CE \;\colon\; sLieAlg^{fin}  \hookrightarrow dgAlg^{op}
+$$
+
+that sends a finite dimensional [[super Lie algebra]] $\mathfrak{g}$ to its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$
+(def. \ref{CEAlgebraofSuperLieAlgebra}) is a [[fully faithful functor]] which hence exibits [[super Lie algebras]]
+as a [[full subcategory]] of the [[opposite category]] of [[differential-graded algebras]].
+
+=--
+
+
+### As super-representable Lie algebras in the topos over superpoints
+
+
+
+Equivalently, a super Lie algebra is a "super-representable" Lie algebra [[internalization|internal]] to the [[cohesive (∞,1)-topos]] [[Super∞Grpd]] over the site of [[super points]] ([Sachse 08](#Sachse08)). 
 
 See the discussion at [[superalgebra]] for details on this.
 
-=--
 
 
 ## Properties
@@ -135,7 +292,60 @@ reviewed e.g. in ([Farmer 84, p. 25,26](#Farmer84), [Minwalla 98, section 4.1](#
 
 ## Examples
 
-* The [[super Poincare Lie algebra]] and various of its polyvector extension are super-extension of the ordinary [[Poincare Lie algebra]]. These are the [[supersymmetry algebra]]s in the strict original sense of the word. 
+Some obvious but important classes of examples are the following:
+
++-- {: .num_example #SuperVectorSpaceAsAbelianSuperLieAlgebra}
+###### Example
+
+every $\mathbb{Z}/2$-[[graded vector space]] $V$ becomes a
+[[super Lie algebra]]
+(def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional})
+by taking the super Lie bracket to be the [[zero morphism|zero map]]
+
+$$
+  [-,-] = 0
+  \,.
+$$
+
+These may be called the "abelian" super Lie algebras.
+
+=--
+
+
++-- {: .num_example #OrdinaryLieAlgebraAsSuperLieAlgebra}
+###### Example
+
+Every ordinary [[Lie algebras]] becomes a [[super Lie algebra]]
+(def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional})
+concentrated in even degrees. This constitutes a [[fully faithful functor]]
+
+$$
+  LieAlg \hookrightarrow sLieAlg
+  \,.
+$$
+
+which is a  [[coreflective subcategory]] inclusion in that it has a [[left adjoint]]
+
+$$
+  LieAlg
+    \underoverset
+     {\underset{ \overset{ \rightsquigarrow}{(-)} }{\longleftarrow}}
+     {\hookrightarrow}
+     {\bot}
+  sLieAlg
+$$
+
+given on the underlying super vector spaces by restriction to the even graded part
+
+$$
+  \overset{\rightsquigarrow}{\mathfrak{s}} = \mathfrak{s}_{even}
+  \,.
+$$
+
+=--
+
+
+* The [[super Poincare Lie algebra]] and various of its polyvector extension are super-extension of the ordinary [[Poincare Lie algebra]]. These are the [[supersymmetry algebras]] in the strict original sense of the word.  For more on this see at _[[geometry of physics -- supersymmetry]]_.
 
 * [[super q-Schur algebra]]
 
@@ -196,6 +406,12 @@ Introductions and surveys include
 
 * {#Minwalla98} [[Shiraz Minwalla]], _Restrictions imposed by superconformal invariance on quan tum field theories_ Adv. Theor. Math. Phys. 2, 781 (1998)
 ([arXiv:hep-th/9712074](http://arxiv.org/abs/hep-th/9712074)).
+
+
+Discussion in the topos over superpoints is in 
+
+* {#Sachse08} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+
 
 Discussion of  [[Lie algebra extensions]] for super Lie algebras includes
 
