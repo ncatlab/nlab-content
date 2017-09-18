@@ -161,7 +161,7 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 * More generally, for $i : C \hookrightarrow D$ a [[subcategory]] of a locally small category $D$, every object $d \in D$ gives rise to the presheaf
 
   $$
-    Hom_D(i(-), D) : C^{op} \to Set
+    Hom_D(i(-), d) : C^{op} \to Set
     \,.
   $$
 
@@ -210,11 +210,14 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
   [[category of open subsets]] $Op(X)$ of a [[topological space]] 
   or [[smooth manifold]] $X$.
   
-  Traditional standard examples include: the presheaf of [[smooth function]]s
+*  Traditional standard examples include: the presheaf of [[smooth function]]s
   on $X$, that assigns to each $U \subset X$ the set 
-  $C^\infty(C,\mathbb{R})$ of smooth functions and to each unclusion 
-  $V \subset U$ the corresponding restriction operation of functions.
+  $C^\infty(U,\mathbb{R})$ of smooth functions and to each inclusion 
+  $V \subset U$ the corresponding restriction operation of functions. This is further a sheaf.
 
+*  Traditional standard example which is a presheaf but not a sheaf: the presheaf of exact forms on $X$, that assigns to $U \subset X$ the set 
+  $\Omega^\bullet_{exact}(U)$ of exact forms on $U$ and to each inclusion 
+  $V \subset U$ the corresponding restriction operation of functions. Here, and like above, the site is made up by open sets in $X$ with inclusions as morphisms.
 
 ... etc. pp.
 
