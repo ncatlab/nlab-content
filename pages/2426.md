@@ -51,5 +51,7 @@ See also [[pseudo-Riemannian manifold]]
 
 * [[analytic torsion]]
 
+* [[Lorentzian manifold]], [[causal manifold]]
+
 [[!redirects Riemannian manifolds]]
 [[!redirects Riemannian structure]]
