@@ -143,13 +143,9 @@ For more on what the $n$Lab is see also
 ## column
  {#column}
 
-I am writing an irregular column at [PhysicsForums Insights](https://www.physicsforums.com/insights/). Recent articles in the series include these:
+I am writing an irregular column at [PhysicsForums Insights](https://www.physicsforums.com/insights/). Artices in the series include these:
 
-* _[It was 20 years ago today -- the M-theory conjecture](https://www.physicsforums.com/insights/20-years-ago-today-m-theory-conjecture/)_
-
-* _[Homotopy Lie n-algebras in Supergravity](https://www.physicsforums.com/insights/homotopy-lie-n-algebras-supergravity/)_
-
-* _[Emergence from the superpoint](https://www.physicsforums.com/insights/emergence-from-the-superpoint/)_
+**on pre-quantum field theory**
 
 * _[Higher prequantum geometry I: The need for prequantum geometry](https://www.physicsforums.com/insights/higher-prequantum-geometry-need-prequantum-geometry/)_
 
@@ -169,6 +165,18 @@ I am writing an irregular column at [PhysicsForums Insights](https://www.physics
 
 * _[Examples of Prequantum field theories IV: Wess-Zumino-Witten-type theories](https://www.physicsforums.com/insights/examples-prequantum-field-theories-iv-wess-zumino-witten-type-theories/)_
 
+**on perturbative quantum field theory**
+
+* _[Introduction to Perturbative Quantum Field Theory](https://www.physicsforums.com/insights/paqft-idea-references/)_
+
+**on string theory**
+
+* _[It was 20 years ago today -- the M-theory conjecture](https://www.physicsforums.com/insights/20-years-ago-today-m-theory-conjecture/)_
+
+* _[Homotopy Lie n-algebras in Supergravity](https://www.physicsforums.com/insights/homotopy-lie-n-algebras-supergravity/)_
+
+* _[Emergence from the superpoint](https://www.physicsforums.com/insights/emergence-from-the-superpoint/)_
+
 * _[Why supersymmetry? Because of Deligne's theorem](https://www.physicsforums.com/insights/supersymmetry-delignes-theorem/)_
 
 * _[11d Gravity from just the Torsion Constraint](https://www.physicsforums.com/insights/11d-gravity-just-torsion-constraint/)_
@@ -179,7 +187,6 @@ I am writing an irregular column at [PhysicsForums Insights](https://www.physics
 
 * _[Super p-Brane Theory from Super Homotopy Theory](http://www.physicsforums.com/insights/super-p-brane-theory-emerging-super-homotopy-theory/)_
 
-* _[Introduction to Perturbative Quantum Field Theory](https://www.physicsforums.com/insights/paqft-idea-references/)_
 
 ## more on the web
 
