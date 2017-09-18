@@ -676,12 +676,12 @@ $$
 where each square and hence each rectangle is an [[(∞,1)-pullback]] in $\mathbf{H}$. This shows that the automorphism $\infty$-group of $T \Sigma$ in the context of $\mathbf{B}GL(n)$ is just the absolute automorphism $\infty$-group freely [[context extension|context extended]]. The [[categorical semantics]] of the [[dependent type]]
 
 $$
-  D^n :\mathbf{B}GL(n), T \Sigma : \mathbf{B}\mathbf{Aut}(T \Sigma)
-  : 
-  T \Sigma : Type
+  D^n \colon \mathbf{B}GL(n), T \Sigma \colon \mathbf{B}\mathbf{Aut}(T \Sigma)
+  \vdash
+  T \Sigma \colon Type
 $$
 
-is the third column from the right in the above diagram. This means that the dependent sum in 
+is the third column from the left in the above diagram. This means that the dependent sum in 
 
 $$
   \mathbf{Conf}
