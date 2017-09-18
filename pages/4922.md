@@ -67,7 +67,7 @@ $$
   \,.
 $$
 
-See at _[[∞-action]]_ for more on this definition. See at _[[higher Klein geometry]_ and _[[higher Cartan geometry]]_ for the corresponding concepts of [[higher geometry]].
+See at _[[∞-action]]_ for more on this definition. See at _[[higher Klein geometry]]_ and _[[higher Cartan geometry]]_ for the corresponding concepts of [[higher geometry]].
 
 ## Properties 
 
