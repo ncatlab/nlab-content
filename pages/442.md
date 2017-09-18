@@ -209,12 +209,14 @@ Ostensibly there is a whole class of infinitary sup-operations for sup-lattices 
 
 In fact these criteria are necessary and sufficient: 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #RecognizingAConcreteCategoryAsAlgebrasOverALawvereTherey} 
 ###### Theorem 
-A [[concrete category]] $U: C \to Set$ is a category of algebras over a Lawvere theory iff $U$ is monadic and preserves filtered colimits. 
+
+A [[concrete category]] $U: C \to Set$ is a category of algebras over a Lawvere theory iff $U$ is [[monadic functor|monadic]] and preserves [[filtered colimits]]. 
+
 =-- 
 
-Another characterization is Birkhoff's HSP theorem. In this case one is given a class of structures of a *given* set of (single-sorted) finitary operations, and one would like to know if the class is exactly one that is axiomatized by universally quantified equations. The HSP theorem gives necessary and sufficient conditions: this is so if 
+Another characterization is [[Birkhoff's HSP theorem]]. In this case one is given a class of structures of a *given* set of (single-sorted) finitary operations, and one would like to know if the class is exactly one that is axiomatized by universally quantified equations. The HSP theorem gives necessary and sufficient conditions: this is so if 
 
 * (H) The class is closed under homomorphic [[images]], 
 
