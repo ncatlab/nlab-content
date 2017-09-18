@@ -58,6 +58,8 @@ Some historically influential general considerations are in
 
 Introductory lecture notes include
 
+* [[Yuri Manin]], chapter 4 of _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
+
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
 
 * L. Caston, R. Fioresi, _Mathematical Foundations of Supersymmetry_ ([arXiv:0710.5742](http://arxiv.org/abs/0710.5742))
