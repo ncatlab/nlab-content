@@ -347,17 +347,23 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 
 ## Related concepts
 
-* [[derivative of a distribution]]
 
 * [[order of a distribution]]
 
 * [[support of a distribution]]
 
+  * [[point-supported distribution]]
+
 * [[scaling degree of a distribution]]
 
-* [point-supported distribution]]
+* [[derivative of a distribution]]
 
 * [[extension of distributions]]
+
+* [[tensor product of distributions]]
+
+* [[product of distributions]]
+
 
 ## References
 
