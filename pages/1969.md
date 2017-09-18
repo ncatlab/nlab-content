@@ -40,7 +40,7 @@ There are many ways to present an [[(∞,1)-category]] by [[category theory|cate
 
 The most basic data is that of a [[category with weak equivalences]]. Here the derived hom spaces can be constructed in terms of zig-zags of morphisms by a process called _[[simplicial localization]]_. This we discuss below in _[For a category with weak equivalences](#ForACategoryWithWeakEquivalences)_.
 
-Particularly useful extra structure on a [[category with weak equivalences]] that helps with computing the derived hom spaces is the structure of a _[[model category]]_. Using this one can construc simplicial resolutions of objects -- called _framings_ -- that generalize [[cylinder objects]] and [[path objects]], and then construct the derived hom spaces in terms of direct morphisms between these resolutions. This we discuss below in _[For a model category](#Framings)_.
+Particularly useful extra structure on a [[category with weak equivalences]] that helps with computing the derived hom spaces is the structure of a _[[model category]]_. Using this one can construct simplicial resolutions of objects -- called _framings_ -- that generalize [[cylinder objects]] and [[path objects]], and then construct the derived hom spaces in terms of direct morphisms between these resolutions. This we discuss below in _[For a model category](#Framings)_.
 
 Still a bit more helpful structure on top of a bare model category is that of a [[simplicial model category]]. Here, after a choice of cofibrant and fibrant resolutions of opjects, the derived hom spaces are given already by the [[sSet]]-[[hom objects]]. This we discuss below in _[For a simplicial model category](#EnrichedHomsCofToFib)_.
 
