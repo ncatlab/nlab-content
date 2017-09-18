@@ -9,11 +9,11 @@ We shall make use of the notation established at [[cubical set]], and the notati
 +-- {: .num_defn}
 ###### Definition
 
-A [[cubical set]] $X$ is a _Kan complex_ if, for every integer $n \geq 1$ and every morphism $f : \sqcap^{n} \rightarrow X$ of cubical sets, there is, for every integer $1 \leq i \leq n$ and every integer $0 \leq \epsilon \leq 1$, a morphism $g : \square^{n} \rightarrow X$ of cubical sets such that the following diagram in $\mathsf{Set}^{\square^{op}}$ commutes. 
+A [[cubical Kan complex]] is a [[cubical set] $X$ equipped with the following structure: for every integer $n \geq 1$, every integer $1 \leq i \leq n$, every integer $0 \leq \epsilon \leq 1$, and every morphism $f : \sqcap^{n,i,\epsilon} \rightarrow X$ of cubical sets, there is a morphism $g : \square^{n} \rightarrow X$ of cubical sets such that the following diagram in $\mathsf{Set}^{\square^{op}}$ commutes. 
 
 $$
    \array{
-      \sqcap^{n}                         &                                            & \\
+      \sqcap^{n,i,\epsilon}                         &                                            & \\
       \mathllap{i_{i,\epsilon}} \downarrow  & \overset{f}{\searrow}    & \\
       \square^{n}                        & \underset{g}{\rightarrow} & X
    }
