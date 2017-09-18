@@ -148,6 +148,11 @@ While the correspondence $(\Sigma^\infty_+ X) \wedge H R \sim C_\bullet(X,R)$ un
 
 ## References
 
+Discussion in terms of [[module objects]] in [[symmetric smash product of spectra|symmetric monoidal]] [[model categories of spectra]] includes
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 5 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+
 Modules over algebras over an arbitrary [[(∞,1)-operad]] are discussed in  section 3.3 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
