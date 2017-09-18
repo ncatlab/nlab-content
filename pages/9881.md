@@ -98,6 +98,10 @@ Survey of the presence and role of divergencies includes
 
 * [[Ashoke Sen]], _Ultraviolet and Infrared Divergences in Superstring Theory_ ([arXiv:1512.00026](http://arxiv.org/abs/1512.00026))
 
+See also 
+
+* {#Moore93} [[Gregory Moore]], _Symmetries of the Bosonic String S-Matrix_ ([arXiv:hep-th/9310026](https://arxiv.org/abs/hep-th/9310026))
+
 For more references see also at _[[string theory results applied elsewhere]]_.
 
 
