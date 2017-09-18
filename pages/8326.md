@@ -377,7 +377,7 @@ $$
     && &&  &&  &\stackrel{starre \atop Materie}{}& \rho(\e) &
     \stackrel{Aussereinandersein}{\dashv} & \rho(\rightsquigarrow) & \stackrel{Licht}{}
     \\
-    && &&  &&  && \bot & \stackrel{{feste} \atop {Materie}}{} & \bot
+    && &&  &&  && \bot & \stackrel{{Festigkeit} }{} & \bot
     \\
     && &&  &&  && \rho(\rightsquigarrow) & \stackrel{Schwere}{\dashv} & \rho(\,\,)
     \\
