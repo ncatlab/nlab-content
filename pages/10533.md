@@ -25,6 +25,7 @@ The skew-symmetric solutions ($r_{1 2} = - r_{2 1}$) of AYBE give rise to
 * Travis Schedler, _Poisson algebras and Yang-Baxter equations_, [math.QA/0612493](http://arxiv.org/abs/math.QA/0612493)
 * V. Sokolov, _Classification of constant solutions for associative Yang-Baxter on $gl(3)$_, [arxiv/1212.6421](http://arxiv.org/abs/1212.6421)
 * A. Odesskii, V. Rubtsov, V. Sokolov, _Double Poisson brackets on free associative algebras_, [arxiv/1208.2935](http://arxiv.org/abs/1208.2935)
+* V.N. Zhelyabin, _Jordan bialgebras of symmetric elements and Lie bialgebras_, Siberian Mathematical Journal __39__ (1998, 261-276, [open access pdf in Russian](http://www.mathnet.ru/links/da921ffaf25317abe8ca0e15e9c91eda/smj275.pdf)) 
 
 category: algebra, physics
 [[!redirects AYBE]]
