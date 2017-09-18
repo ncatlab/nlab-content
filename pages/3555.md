@@ -280,7 +280,7 @@ $$
 
 Every 
 
-* [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] or [[∞-connected (∞,1)-topos]] 
+* [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]] 
 
 * and hence also every [[cohesive (∞,1)-topos]] 
 
