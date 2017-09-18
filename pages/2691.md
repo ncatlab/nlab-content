@@ -26,15 +26,15 @@ The case of model structures on unbounded dg-algebras may be thought of as induc
 
 The category of [[dg-algebra]]s is that of [[monoid]]s in a [[category of chain complexes]]. Accordingly general results on a [[model structure on monoids in a monoidal model category]] apply.  
 
-Below we spellout special cases, such as restricting to commutative monoids when working over a field of characteristic 0, or restricting to non-negatively graded cochain dg-algebras.
+Below we spell out special cases, such as restricting to [[commutative monoids]] when working over a [[ground field]] of [[characteristic zero]], or restricting to non-negatively graded cochain dg-algebras.
 
 ## Non-negatively graded cochain dg-algebras
 
 ### Definition 
 
-Write $dgAlg$ for the [[category]] of cochain [[dg-algebra]]s in non-negative degree over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset dgAlg$ for the [[subcategory]] of (graded-)commutative dg-algebras.
+Write $dgAlg$ for the [[category]] of cochain [[dg-algebras]] in non-negative degree over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset dgAlg$ for the [[subcategory]] of [[differential graded-commutative algebras]].
 
-+-- {: .num_defn}
++-- {: .num_defn #ProjectiveModelStructureOnCdgAlg}
 ###### Definition
 
 The  **projective** [[model category]] structure on $C dgAlg$ and on $dgAlg$ is given by setting:
@@ -54,12 +54,8 @@ At least on $C dgAlg$ this is a [[cofibrantly generated model category]].
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 See the references below.
 
-=--
 
 +-- {: .num_remark }
 ###### Remark
@@ -76,7 +72,7 @@ The nature of the cofibrations is discussed below.
 
 #### Cofibrations: Sullivan algebras {#SullivanAlgebras}
 
-In this section we describe the cofibrations in the model structure on $C dgAlg_\mathbb{N}$ of **non-negatively graded** dg-algebras. Notice that it is these that are in the image of the dual [[monoidal Dold-Kan correspondence]].
+In this section we describe the cofibrations in the model structure on $C dgAlg_\mathbb{N}$ of **non-negatively graded** dg-algebras (def. \ref{ProjectiveModelStructureOnCdgAlg}). Notice that it is these that are in the image of the dual [[monoidal Dold-Kan correspondence]].
 
 Before we characterize the cofibrations, first some notation.
 
@@ -131,7 +127,7 @@ Sullivan algebras were introduced by [[Dennis Sullivan]] in his development of [
 ###### Remark
 **($L_\infty$-algebras)**
 
-Because they are [[semifree dga]]s, Sullivan dg-algebras $(\wedge^\bullet V,d)$ are (at least for degreewise finite dimensional $V$) [[Chevalley-Eilenberg algebra]]s of [[L-∞-algebra]]s.
+Because they are [[semifree dgas]], Sullivan dg-algebras $(\wedge^\bullet V,d)$ are (at least for degreewise finite dimensional $V$) [[Chevalley-Eilenberg algebra]]s of [[L-∞-algebra]]s.
 
 The co-commutative differential co-algebra encoding the corresponding [[L-∞-algebra]] is the free cocommutative algebra $\vee^\bullet V^*$ on the degreewise dual of $V$ with differential $D = d^*$, i.e. the one given by the formula
 
