@@ -15,9 +15,24 @@
 
 ## Idea
 
-Complex projective space $\mathbb{C}P^n$ the the [[projective space]] $\mathbb{A}P^n$ for $\mathbb{A} = \mathbb{C}$ the [[complex numbers]].
+Complex projective space $\mathbb{C}P^n$ the the [[projective space]] $\mathbb{A}P^n$ for $\mathbb{A} = \mathbb{C}$ the [[complex numbers]] (and for $n \in \mathbb{N}$), a [[complex manifold]] of complex [[dimension]] $n$ (real dimension $2n$). Equivalently, this is the complex [[Grassmannian]] $Gr_1(\mathbb{C}^{n+1})$. For the special case $n = 1$ then $\mathbb{C}P^1 \simeq S^2$ is the [[Riemann sphere]].
 
-Equivalently, this is the complex [[Grassmannian]] $Gr_1(\mathbb{C}^{n+1})$
+As $n$ ranges, there are natural inclusions
+
+$$
+  \ast = \mathbb{C}P^0 
+    \hookrightarrow 
+  \mathbb{C}P^1 
+    \hookrightarrow 
+  \mathbb{C}P^2
+    \hookrightarrow
+  \mathbb{C}P^3
+    \hookrightarrow
+  \cdots
+  \,.
+$$
+
+The [[sequential colimit]] over this sequence is the infinite complex projective space $\mathbb{C}P^\infty$. This is a model for the [[classifying space]] $B U(1)$ of [[circle principal bundles]]/[[complex line bundles]].
 
 ## Definition
 
@@ -30,44 +45,117 @@ $$
   \mathbb{C}P^n \coloneqq (\mathbb{C}^{n+1}-\{0\})/_\sim
 $$ 
 
-where $(z \sim w) \Leftrightarrow (z = \kappa w)$.
+of the [[Cartesian product]] of $(n+1)$-copies of the [[complex plane]], with the origin removed, by the [[equivalence relation]]
+
+$$
+  (z \sim w) \Leftrightarrow (z = \kappa \cdot w)
+$$
+
+for some $\kappa \in \mathbb{C} - \{0\}$ and using the canonical multiplicative [[action]] of $\mathbb{C}$ on $\mathbb{C}^{n+1}$.
 
 =--
 
 The following equivalent characterizations are immediate but useful:
 
-+-- {: .num_prop #ComplexProjectiveSpaceAsS1Quotient}
++-- {: .num_prop #ComplexProjectiveSpaceAsGrassmannian}
 ###### Proposition
 
-For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently the quotient of the [[n-sphere|(2n+1)-sphere]] by the [[circle group]] $S^1 \simeq \{ \kappa  \in \mathbb{C}| {\vert \kappa \vert} = 1\}$
+For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently the complex [[Grassmannian]]
 
 $$
-  \mathbb{C}P^n \simeq S^{2n+1}/S^1
+  \mathbb{C}P^n \simeq Gr_1(\mathbb{C}^{n+1})
   \,.
 $$
 
 =--
 
-+-- {: .num_prop #ComplexProjectiveSpaceAsQutientOfDisk}
++-- {: .num_prop #ComplexProjectiveSpaceAsS1Quotient}
 ###### Proposition
 
-For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently the quotient of the [[n-disk|2n-disk]] with bounary quotiented by $S^1$.
+For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently 
 
+1. the [[coset]] 
+
+   $$
+     \mathbb{C}P^n \simeq U(n+1)/(U(n) \times U(1))
+     \,,
+   $$
+
+1. the quotient of the [[n-sphere|(2n+1)-sphere]] by the [[circle group]] $S^1 \simeq \{ \kappa  \in \mathbb{C}| {\vert \kappa \vert} = 1\}$
+
+  $$
+    \mathbb{C}P^n \simeq S^{2n+1}/S^1
+    \,.
+  $$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+To see the second characterization from def. \ref{ComplexProjectiveSpace}:
+
+With ${\vert -\vert} \colon \mathbb{C}^{n} \longrightarrow \mathbb{R}$ the standard [[norm]], then every element $\vec z \in \mathbb{C}^{n+1}$ is identified under the defining equivalence relation with 
+
+$$
+  \frac{1}{\vert \vec z\vert}\vec z \in S^{2n-1} \hookrightarrow \mathbb{C}^{n+1}
+$$
+
+lying on the unit $(2n-1)$-sphere. This fixes the action of $\mathbb{C}-0$ up to a remaining action of complex numbers of unit [[absolute value]]. These form the [[circle group]] $S^1$.
+
+The first characterization follows via prop. \ref{ComplexProjectiveSpaceAsGrassmannian} from the general discusion at _[[Grassmannian]]_. With this the second characterization follows also with the [[coset]] identification of the $(2n+1)$-sphere: $S^{2n+1} \simeq U(n+1)/U(n)$ ([exmpl.](unitary+group#nSphereAsUnitaryCosetSpace)).
+
+=--
+
 
 ## Properties
 
 ### Cell structure
 
-+-- {: .num_prop #CellComplexStructure}
++-- {: .num_prop #CellComplexStructureOnComplexProjectiveSpace}
 ###### Proposition
 
-There is a [[cell complex]] structure on the $\mathbb{C}P^n$ for $n \in \mathbb{N}$, given by [[induction]], where $\mathbb{C}P^{n+1}$ arises from $\mathbb{C}P^n$ by attaching a single cell of dimension $2n$ with attaching map the [[projection]] $S^{2n+1} \longrightarrow \mathbb{C}P^n$ from prop. \ref{ComplexProjectiveSpaceAsS1Quotient}.
+There is a [[CW-complex]] structure on complex projective space $\mathbb{C}P^n$ (def. \ref{ComplexProjectiveSpace}) for $n \in \mathbb{N}$, given by [[induction]], where $\mathbb{C}P^{n+1}$ arises from $\mathbb{C}P^n$ by attaching a single cell of dimension $2(n+1)$ with attaching map the [[projection]] $S^{2n+1} \longrightarrow \mathbb{C}P^n$ from prop. \ref{ComplexProjectiveSpaceAsS1Quotient}:
+
+$$
+  \array{
+     S^{2n+1} &\longrightarrow& S^{2n+1}/S^1 \simeq \mathbb{C}P^n
+     \\
+     {}^{\mathllap{\iota_{2n+2}}}\downarrow 
+       &(po)& \downarrow
+     \\
+     D^{2n+2} &\longrightarrow& \mathbb{C}P^{n+1}
+  }
+  \,.
+$$
 
 =--
 
-Proof: by combining prop. \ref{ComplexProjectiveSpaceAsQutientOfDisk} with prop. \ref{ComplexProjectiveSpaceAsS1Quotient}.
++-- {: .proof}
+###### Proof
+
+Given homogenous coordinates $(z_0, z_1, \cdots, z_n, z_{n+1}, z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let 
+
+$$
+  \phi \coloneqq -arg(z_{n+2})
+$$ 
+
+be the [[phase]] of $z_{n+2}$. Then under the equivalence relation defining $\mathbb{C}P^{n+1}$ these coordinates represent the same element as
+
+$$
+  \frac{1}{\vert \vec z\vert}(e^{i \phi} z_0, e^{i \phi}z_1,\cdots, e^{i \phi}z_{n+1}, r)
+  \,,
+$$ 
+
+where 
+
+$$
+  r = {\vert z_{n+2}\vert}\in [0,1) \subset \mathbb{C}
+$$ 
+
+is the [[absolute value]] of $z_{n+2}$. Representatives $\vec z'$ of this form (${\vert \vec z' \vert = 1}$ and $z'_{n+2} \in [0,1]$) parameterize the [[n-disk|2n+2-disk]] $D^{2n+2}$ ($2n+3$ real parameters subject to the one condition that the sum of their norm squares is unity) with [[boundary]] the $(2n+1)$-sphere at $r = 0$. The only remaining part of the action of $\mathbb{C}-\{0\}$ which fixes the form of these representatives is $S^1$ acting on the elements with $r = 0$ by phase shifts on the $z_0, \cdots, z_{n+1}$. The quotient of this remaining action on $D^{2(n+1)}$ identifies its boundary $S^{2n+1}$-sphere with $\mathbb{C}P^{n}$, by prop. \ref{ComplexProjectiveSpaceAsS1Quotient}.
+
+=--
 
 ### Homology and Cohomology 
  {#Cohomology}
@@ -75,13 +163,13 @@ Proof: by combining prop. \ref{ComplexProjectiveSpaceAsQutientOfDisk} with prop.
 +-- {: .num_prop #OrdinaryCohomologyOfComplexProjectiveSpace}
 ###### Proposition
 
-The [[ordinary homology]] of complex projective space $\mathbb{C}P^n$ is
+For $A \in $ [[Ab]] any [[abelian group]], then the [[ordinary homology]] of complex projective space $\mathbb{C}P^n$ with [[coefficients]] in $A$ is
 
 $$
-  H_k(\mathbb{C}P^n)\simeq
+  H_k(\mathbb{C}P^n,A)\simeq
   \left\{
     \array{
-       \mathbb{Z} & for \; k \;even\; and \; k \leq 2n 
+       A & for \; k \;even\; and \; k \leq 2n 
        \\
        0 & otherwise
     }
@@ -89,20 +177,7 @@ $$
   \,.
 $$
 
-The [[ordinary cohomology]] of $\mathbb{C}P^n$ is 
-
-$$
-  H^k(\mathbb{C}P^n)\simeq
-  \left\{
-    \array{
-       \mathbb{Z} & for \; k \;even\; and \; k \leq 2n 
-       \\
-       0 & otherwise
-    }
-  \right.
-  \,.
-$$
-The analogue remains true for general [[coefficient]] [[groups]] $A$
+Similarly the [[ordinary cohomology]] of $\mathbb{C}P^n$ is 
 
 $$
   H^k(\mathbb{C}P^n,A)
@@ -119,7 +194,65 @@ $$
 
 =--
 
-(Use the [[universal coefficient theorem]] and the fact ([prop.](projective+object#ProjectiveObjectsInAbAreFreeGroups)) that the free group $H_k(\mathbb{C}P^n)$ is projective, so that the $Ext^1$-correction vanishes.)
++-- {: .proof}
+###### Proof
+
+First consider the case that the coefficients are the [[integers]] $A = \mathbb{Z}$. 
+
+Since $\mathbb{C}P^n$ admits the structure of a [[CW-complex]] by prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, we may compute its [[ordinary homology]] equivalently as its [[cellular homology]] ([thm.](Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)). By definition ([defn.](cellular+homology#CellularChainComplex)) this is the [[chain homology]] of the chain complex of [[relative homology]] groups
+
+$$
+  \cdots
+    \overset{\partial_{cell}}{\longrightarrow}   
+  H_{q+2}((\mathbb{C}P^n)_{q+2}, (\mathbb{C}P^n)_{q+1})
+   \overset{\partial_{cell}}{\longrightarrow}   
+  H_{q+1}((\mathbb{C}P^n)_{q+1}, (\mathbb{C}P^n)_{q})
+   \overset{\partial_{cell}}{\longrightarrow}
+  H_{q}((\mathbb{C}P^n)_{q}, (\mathbb{C}P^n)_{q-1})
+    \overset{\partial_{cell}}{\longrightarrow}   
+  \cdots  
+  \,,
+$$
+
+where $(-)_q$ denotes the $q$th stage of the [[CW-complex]]-structure. Using the CW-complex structure provided by prop. \ref{CellComplexStructureOnComplexProjectiveSpace}, then there are cells only in every second degree, so that 
+
+$$
+  (\mathbb{C}P^n)_{2k+1} = (\mathbb{C}P)_{2k}
+$$
+
+for all $k \in \mathbb{N}$. It follows that the cellular chain complex has a zero group in every second degree, so that all differentials vanish. Finally, since prop. \ref{CellComplexStructureOnComplexProjectiveSpace} says that $(\mathbb{C}P^n)_{2k+2}$ arises from $(\mathbb{C}P^n)_{2k+1} = (\mathbb{C}P^n)_{2k}$ by attaching a single $2k+2$-cell it follows that (by passage to [[reduced homology]])
+
+$$
+  H_{2k}(\mathbb{C}P^n, \mathbb{Z})
+    \simeq
+  \tilde H_{2k}(S^{2k})((\mathbb{C}P^n)_{2k}/(\mathbb{C}P^n)_{2k-1})
+   \simeq
+  \tilde H_{2k}(S^{2k})
+    \simeq
+  \mathbb{Z}
+  \,.
+$$
+
+This establishes the claim for ordinary homology with integer coefficients.
+
+In particular this means that $H_q(\mathbb{C}P^n, \mathbb{Z})$ is a [[free abelian group]] for all $q$. Since free abelian groups are the [[projective objects]] in [[Ab]] ([prop.](projective+object#ProjectiveObjectsInAbAreFreeGroups)) it follows (with the discussion at _[[derived functors in homological algebra]]_) that the [[Ext]]-groups vanishe:
+
+$$
+  Ext^1(H_q(\mathbb{C}P^n, \mathbb{Z}),A) = 0
+$$
+
+and the [[Tor]]-groups vanishes:
+
+$$
+ Tor_1(H_q(\mathbb{C}P^n), A) = 0
+  \,.
+$$
+
+With this, the full statement to be proven now follows with the [[universal coefficient theorem]] for ordinary homology ([thm.](universal+coefficient+theorem#TheoremInOrdinaryHomology)) and for ordinary cohomology ([thm.](universal+coefficient+theorem#OrdinaryStatementInCohomology)).
+
+
+=--
+
 
 
 Under [[cup product]] this forms a [[graded ring]]
