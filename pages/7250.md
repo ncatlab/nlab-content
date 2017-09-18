@@ -12,4 +12,4 @@ See section IV.1 of
 
 See also
 
-* [_Motivation/interpretation for Quillen's Q-construction?_](http://mathoverflow.net/questions/1006/motivation-interpretation-for-quillens-q-construction), MathOverflow.
+* [[Dustin Clausen]], _Plus construction considerations_, [MO/121351/2503](http://mathoverflow.net/a/121351/2503).
