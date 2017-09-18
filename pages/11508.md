@@ -319,8 +319,9 @@ Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 
 * {#KrizSati04b} [[Igor Kriz]], [[Hisham Sati]], _Type IIB String Theory, S-Duality, and Generalized Cohomology_, Nucl.Phys. B715 (2005) 639-664 ([arXiv:hep-th/0410293](http://arxiv.org/abs/hep-th/0410293))
 
-
 * {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, 	JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
+
+* [[Igor Kriz]], Hao Xing, _On effective F-theory action in type IIA compactifications_ ([arXiv:hep-th/0511011](http://arxiv.org/abs/hep-th/0511011))
 
 * {#Sati05} [[Hisham Sati]], _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 ([arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087))
 
