@@ -2156,3 +2156,6 @@ The above discussion of cocycles on super-Minkowski spacetimes draws from
 
 [[!redirects Majorana fermion]]
 [[!redirects Majorana fermions]]
+
+[[!redirects real spin representation]]
+[[!redirects real spin representations]]
