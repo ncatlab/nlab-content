@@ -35,6 +35,7 @@ See [[Cartan connection]].
 
 * [[Cartan connection]]
 
+* [[Cartan geometry, Supergravity and Branes]]
 
 ## References
 
