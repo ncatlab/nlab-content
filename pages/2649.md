@@ -20,7 +20,7 @@ A connected object is a generalisation of the concept of [[connected space]] fro
 
 ## Definitions
 
-Let $C$ be an [[extensive category]].
+Let $C$ be an [[extensive category]], then:
 
 +-- {: .num_defn #ConnectedObject}
 ###### Definition
@@ -59,12 +59,12 @@ If $C$ is a [[infinitary extensive category]] then for $X \in Ob(C)$ to be conne
 
 ### Characterization in terms of coproducts
 
-Let $C$ be an infinitary [[extensive category]].
+Let $C$ be an infinitary [[extensive category]], then
 
 +-- {: .num_theorem #RespectForBinaryCoproductsIsSufficient}
 ###### Theorem 
 
- Then an [[object]] $X$ of $C$ is connected, def. \ref{ConnectedObject}, if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
+ An [[object]] $X$ of $C$ is connected, def. \ref{ConnectedObject}, if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
 
 =-- 
 
