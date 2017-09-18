@@ -61,6 +61,10 @@ Again assuming $A$ independent and $B$ is a finite basis, now we show that $card
 
 Vector spaces, algebraic closures, graphs, restrictions, localizations, ... 
 
+* A *graphic matroid* is a matroid derived from a [[simple graph]] $G$ by considering those embedded subgraphs that are [[forests]] as the independent sets. In other words, the matroid is on the set $V$ of vertices, where a subset $S \subseteq V$ is considered independent if there is no cycle within the subgraph whose vertices belong to $S$ and whose edges are edges of $G$ between elements of $S$. 
+
+* If $M$ is a matroid, then the *matroid dual* $M^\ast$ of $M$ has the same underlying set as $M$, and where a subset is considered independent in $M^\ast$ if it is disjoint from some basis of $M$. It turns out that $M{^\ast\ast} \cong M$. 
+
 ## Model-theoretic geometry 
 
 Essentially the very same notion arises in model theory, except instead of being called a matroid it is called a "pregeometry" or "geometry", and in contrast to combinatorialists, model theorists usually mean _infinite_ matroids. The notion arises in the study of geometry of strongly minimal sets, with applications to stability theory (part of Shelah's classification theory). 
