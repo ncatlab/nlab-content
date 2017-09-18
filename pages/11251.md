@@ -32,6 +32,8 @@ The book states seven "propositions" (with sub-propositions):
 
 1. A thought is a proposition with a sense.
 
+   {#4.11} 4.11 The totality of true propositions is the whole of natural science (or the whole corpus of the natural sciences).
+
 1. A proposition is a truth-function of elementary propositions. (An elementary proposition is a truth-function of itself.)
 
 1. The general form of a proposition is the general form of a truth function, ...
