@@ -39,9 +39,16 @@ Formally, there is a [[category]] of fiber bundles over manifolds with [[morphis
 
 Also "contravariantly natural" bundles such as bundle of [[covectors]] are sometimes referred to as natural bundles (e.g. [Kolar-Michor-Slovak](#KolarMichorSlovak)). But these are covariantly natural not with respect to all smooth functions between manifolds, but only for [[local diffeomorphisms]].
 
+## Examples
+
+* [[tractor bundle]]
+
 ## References
 
 * {#KolarMichorSlovak} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], section 14 of _[[Natural operators in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
 
 
 [[!redirects natural bundles]]
+
+[[!redirects natural vector bundle]]
+[[!redirects natural vector bundles]]
