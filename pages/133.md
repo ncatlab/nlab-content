@@ -137,6 +137,12 @@ There are also "internal" versions of these axioms.
 
 * We can also replace the $(-1)$-truncation by the assertion of $k$-connectedness, obtaining the **axiom of $k$-connected choice**.
 
+### In type theory
+
+In [[Martin-Lof type theory]], if "there exists" and "for all" are interpreted in the classical way according to [[propositions as types]], then the statement of the axiom of choice comes out as simply the statement that products distribute over coproducts.  (See [[distributivity pullback]] for a discussion in terms of the internal type theory of a locally cartesian closed category.)  Since this statement is provable, traditionally type theorists say that "the axiom of choice is provable" in type theory.  However, this is arguably not really a faithful representation of the axiom of choice, not only because it is provable, but because it lacks the usual strong consequences of the set-theoretic axiom of choice.
+
+A better type-theoretic form of the axiom of choice is obtained by inserting [[propositional truncations]] in the notion of "exists".  See for instance the [HoTT Book](#HoTTBook) for further discussion.
+
 ## Consequences
 
 * The axiom of choice implies the [[principle of excluded middle]] (due to Diaconesu 1975) see [McLarty, theorem 17.9](#McLarty), and see at _[excluded middle -- Relation to axiom of choice](excluded+middle#RelationToTheAxiomOfChoice)_
