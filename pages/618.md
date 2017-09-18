@@ -1,6 +1,7 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context###
+### Context
 #### Topos theory
 +-- {: .hide}
 [[!include topos theory - contents]]
@@ -39,14 +40,16 @@ A **coverage** on a [[category]] $C$ consists of a [[function]] assigning to eac
 
 $$
   \array{
-    V_j &\stackrel{\exists}{\to}& U_i
+    V_j &\overset{k}{\to}& U_i
     \\
-    \downarrow^{h_j} && \downarrow^{f_i}
+    \llap{{}^{h_j}}\downarrow & & \downarrow\rlap{^{f_i}}
     \\
-    V &\underset{\forall g}{\to}& U
+    V &\underset{g}{\to}& U
   }
   \,.
 $$
+
+The logic here is: $\forall f, \forall g, \exists h, \forall j, \exists k, \exists i, =$.
 
 =--
 
