@@ -60,7 +60,7 @@ For $G$ a Lie group and $p \colon P \to X$ a $G$-principal bundle, the **Atiyah 
 
 ### The integrated Atiyah sequence
 
-The Atiyah groupoid sits in an sequence of groupoids
+The Atiyah groupoid sits in a sequence of groupoids
 
 $$
   Ad(P) \to At(P) \to Pair(X)
