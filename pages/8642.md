@@ -62,8 +62,9 @@ A __Cauchy filter__ on a uniform space is a [[proper filter]] $F$ with, for each
 
 (It is sufficient to consider a base of uniform covers.)
 
-All of the above have non-symmetric versions: [[quasimetric spaces]], [[quasigauge spaces]], [[topological monoid]]s, [[quasiuniform spaces]].  The definition of Cauchy filter for these is the same, with these caveats:
-* for a topological monoid, there is a difference between left and right in $x n = y$ in Definition \ref{topgroup};
+All of the above have non-symmetric versions: [[quasimetric spaces]], [[quasigauge spaces]], [[topological monoids]], [[quasiuniform spaces]].  The definition of Cauchy filter for these is the same, with these caveats:
+
+* for a topological monoid, there is a difference between left and right in $x n = y$ in Definition \ref{topgroup}, giving left-Cauchy and right-Cauchy filters;
 * there is no notion of quasiuniform cover to generalise Definition \ref{ucover}.
 
 The most general context is that of a [[Cauchy space]], where the notion of Cauchy filter is axiomatic.
@@ -95,7 +96,7 @@ In [[nonstandard analysis]], the hyperpoints of a (quasi)uniform space have a re
 
 A hyperpoint $x$ is __[[finite hyperpoint|finite]]__ (or __limited__) if there is a proper filter $F$ (necessarily Cauchy) such that $F^*$ contains a hyperset whose elements are all adequal to $x$.  In the analogy between hyperpoints and [[ultrafilters]], the finite hyperpoints correspond to the Cauchy ultrafilters.
 
-A map $f$ between (quasi)uniform spaces is Cauchy-continuous iff its nonstandard extension $f^*$ has the property that $f^*(x)$ and $f^*(y)$ are adequal whenever $x$ and $y$ are adequal and $x$ is finite.  Presumably one can define a [[Cauchy space]] in nonstandard analysis by specifying the finite hyperpoints and the relation of adequality only with these (although perhaps not every Cauchy space arises in this way).
+A map $f$ between (quasi)uniform spaces is Cauchy-continuous iff its nonstandard extension $f^*$ has the property that $f^*(x)$ and $f^*(y)$ are adequal whenever $x$ and $y$ are adequal and $x$ is finite.  (Compare that $f$ is [[uniformly continuous]] iff $f^*$ has this property regardless of whether $x$ is finite.)  Presumably one can define a [[Cauchy space]] in nonstandard analysis by specifying the finite hyperpoints and the relation of adequality only with these (although perhaps not every Cauchy space arises in this way).
 
 
 [[!redirects Cauchy filter]]
