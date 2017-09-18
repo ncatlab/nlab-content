@@ -1,8 +1,10 @@
 
-* [webpage](http://www.cs.nott.ac.uk/~ngk/)
+* [webpage](http://www.cs.nott.ac.uk/~psznk/)
 
 ## related $n$Lab entries
 
 * [[internal category in homotopy type theory]]
+
+* [[category object in an (infinity,1)-category]]
 
 category: people
