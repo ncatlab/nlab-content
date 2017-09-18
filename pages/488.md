@@ -71,7 +71,7 @@ Let $j$ be a [[Lawvere-Tierney topology]] on $\mathcal{E}$. Then $\mathcal{E}_j$
 $\mathcal{E}$ is Boolean iff the only dense subtopos of $\mathcal{E}$ is $\mathcal{E}$ itself.
 =-- 
 
-**Proof**.  Suppose $\mathcal{E}$ is Boolean. Then $\mathcal{E}_{\neg\neg}=\mathcal{E}$ is the only dense Boolean subtopos (cf. [[double negation]]{#boolean_subtopos}).
+**Proof**.  Suppose $\mathcal{E}$ is Boolean. $\mathcal{E}_{\neg\neg}=\mathcal{E}$ is the smallest dense subtopos (cf. [[double negation]]{#boolean_subtopos}).
 Conservely, suppose $\mathcal{E}$ is not Boolean then $\mathcal{E}_{\neg\neg}$ is a second dense subtopos.
 
 +-- {: .num_prop}
@@ -89,11 +89,11 @@ With [[excluded middle]] in the meta-logic, every [[well-pointed topos]] is a Bo
 
 The topos of [[canonical topology|canonical]] sheaves on a [[Boolean algebra]] is Boolean. 
 
-If $E$ is any topos, the category of [[sheaf|sheaves]] for the [[double negation|double-negation topology]] is a Boolean [[subtopos]] of $E$. 
+If $\mathcal{E}$ is any topos, the category of [[sheaf|sheaves]] for the [[double negation|double-negation topology]] is a Boolean [[subtopos]] of $\mathcal{E}$. 
 
 Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R. Diaconescu; see [[excluded middle]] for a brief discussion. 
 
-[[Barr's theorem]] implies that any topos $E$ can be covered by a Boolean topos $F$, in the sense of there being a [[surjective geometric morphism]] $f \colon F \to E$. 
+[[Barr's theorem]] implies that any topos $\mathcal{E}$ can be covered by a Boolean topos $\mathcal{F}$, in the sense of there being a [[surjective geometric morphism]] $f \colon \mathcal{F} \to \mathcal{E}$. 
 
 ## References
 
