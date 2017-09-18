@@ -154,7 +154,8 @@ A closely related way of defining an $F$-algebra is via the monad attached to an
 Note that this definition still makes sense when $v$ lives in any symmetric monoidal $V$-[[enriched category]], not only $V$ itself.
 
 
-## A detailed conceptual treatment {#Conceptual}
+## A detailed conceptual treatment 
+ {#Conceptual}
 
 We describe here a compact one-sentence definition of operad first worked out by [[Max Kelly]], after a few preliminaries which are important in their own right. The treatment is essentially an exercise in [[enriched category theory]] and the formalism of [[Day convolution]]. We will work this out fully in the case of ordinary [[category theory]] first, that is for categories [[enriched category|enriched in]] $V = Set$; the case for categories enriched in a complete, cocomplete, [[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] $V$ is completely parallel. 
 
@@ -273,6 +274,7 @@ $$(F \circ G)[n] = \sum_k F[k] \otimes_{S_k} (\sum_{[n] = T_1 + \ldots + T_k} G[
 and it is clear from our discussion above that substitution is a monoidal product. The monoidal unit $I$ is a functor $\mathbb{P}^{op} \to Set$ where $I[n]$ is terminal if $n = 1$, else is initial. 
 
 ### Definition as monoid 
+ {#DefinitionAsMonoid}
 
 We are at last ready for the one-sentence **definition**: 
 
@@ -438,6 +440,8 @@ The [[Boardman-Vogt tensor product]] makes the category of symmetric colored ope
 
 
 ## Related concepts
+
+* [[symmetric colored sequence]]
 
 * [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
 
