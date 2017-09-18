@@ -34,6 +34,8 @@ equals the [[identity morphism]] on $X$.
 
 * The inverse of an inverse morphism is the original morphism, $(f^{-1})^{-1} = f$.
 
+* An [[identity morphism]], $i$, is a morphism which is its own inverse: $i^{-1} = i$.
+
 * A category in which all morphisms have inverses is called a [[groupoid]].
 
 * An amusing exercise is to show that if $f,g,h$ are morphisms such that $f\circ g,\; g\circ h$ are defined and are isomorphisms, then $f,g,h$ are all isomorphisms. 
@@ -42,6 +44,7 @@ equals the [[identity morphism]] on $X$.
 
   * When this is applied to a [[homotopy category]] such as that of [[Top]] for the standard [[model structure on topological spaces]] it implies the construction of and formulae for certain homotopies.
 
+* In a [[balanced category]], such as a [[topos]] or more particularly [[Set]], every morphism that is both [[monomorphism|monic]] and [[epimorphism|epic]] is an [[isomorphism]] and thus has an inverse. A [[partial order]] is an unbalanced category where every morphism is both monic and epic. Only its [[identity morphisms]] have inverses. 
 
 ## In non-associative contexts
 
