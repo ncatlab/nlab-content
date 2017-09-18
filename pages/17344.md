@@ -57,7 +57,7 @@ For a little more details the original lecture ([Adams 74, part III sections 2-7
 
 $\,$
 
-Recall from the classical homotopy theory ([prop.](Introduction+to+Stable+homotopy+theory -- P#SuspensionAndLoopAreAdjointOnHomotopyCategory)) that the [[loop space]] functor $\Omega$ and the [[reduced suspension]] functor $\Sigma$ on the [[classical homotopy category]] of [[pointed topological spaces]] are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
+Recall from the [[Introduction to Stable homotopy theory -- P|classical homotopy theory]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopAreAdjointOnHomotopyCategory)) that the [[loop space]] functor $\Omega$ and the [[reduced suspension]] functor $\Sigma$ on the [[classical homotopy category]] of [[pointed topological spaces]] are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
 
 $$
   (\Sigma \dashv \Omega)
