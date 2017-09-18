@@ -56,11 +56,14 @@ The $N=1$-version arises from [[KK-reduction]] via [[M-theory on G2-manifolds]].
 
 ## References
 
-4d Supergravity was the first [[supergravity]] theory to be constructed, in
+Minmal 4d Supergravity was the first [[supergravity]] theory to be constructed, in
 
 * {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
 
 See also at _[supergravity -- History](supergravity+History)_.
+
+
+
 
 ### Geometric construction
 
@@ -83,9 +86,21 @@ based on
 
 ### On $N=8$ $d=4$ supergravity
 
+
+The maximal $N=8$ supergravity in 4d was obtained by [[KK-reduction]] of [[11-dimensional supergravity]] on a [[torus|7-torus]] in 
+
+* {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en))
+
+* [[Eugene Cremmer]], [[Bernard Julia]], Phys. Lett. 80B (1978) 48; Nucl. Phys. B159 (1979) 141.
+
+Its $SO(8)$-[[gauged supergravity|gauged]] version was obtained in 
+
 * [[Bernard de Wit]], [[Hermann Nicolai]], Phys. Lett. 108 B (1982) 285; 
 
-* [[Bernard de Wit]]. [[Hermann Nicolai]], Nucl. Phys. B208 (1982) 323.
+* [[Bernard de Wit]]. [[Hermann Nicolai]], Nucl. Phys. B208 (1982) 323
+
+and further gaugings by non-compact gauge groups in
+
 
 * [[Chris Hull]], Phys. Rev. D30 (1984) 760; 
 
@@ -93,12 +108,9 @@ based on
 
 * [[Chris Hull]], Phys. Lett. 148B (1984) 297; 
 
-* [[Chris Hull]], Physica 15D (1985)
-230; Nucl. Phys. B253 (1985) 650.
+* [[Chris Hull]], Physica 15D (1985) 230; Nucl. Phys. B253 (1985) 650.
 
 * [[Chris Hull]], Class. Quant. Grav. 2 (1985) 343.
-
-* [[Eugene Cremmer]], [[Bernard Julia]], Phys. Lett. 80B (1978) 48; Nucl. Phys. B159 (1979) 141.
 
 * [[Chris Hull]], _New Gauged $N=8$, $D=4$ Supergravities_, _Class.Quant.Grav.20:5407-5424,2003_ ([arXiv:hep-th/0204156](https://arxiv.org/abs/hep-th/0204156))
 
@@ -180,11 +192,7 @@ Survey includes
 ### Gauged 4d supergravity
  {#ReferencesGauged}
 
-Discussion of [[gauged supergravity]] in 4d originates around
-
-* [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en))
-
-(where the [[E7]]-[[U-duality]] group was first seen)
+Discussion of [[gauged supergravity]] in 4d originates around ([Cremmer-Julia 79](#CremmerJulia79) (where the [[E7]]-[[U-duality]] group was first seen)
 
 Discussion of reduction from [[string theory]] includes
 
