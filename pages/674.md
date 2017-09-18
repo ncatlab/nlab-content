@@ -37,11 +37,21 @@ If $C$ has a [[terminal object]] $1$, then $U$ is subterminal precisely if the u
 
 If the [[product]] $U \times U$ exists, it is equivalent to saying that the  [[diagonal]] $U \to U \times U$ is an [[isomorphism]].
 
+Therefore for a [[sheaf topos]] over a [[topological space]] the subterminal objects of the topos are the [[open subsets]] of the topological space. Accordingly, the subterminal objects in any [[topos]] are also called _open objects_ (e.g. [Johnstone 77, p. 94](#Johnstone77))
+
+The [[classifying topos]] for subterminal objects (hence open objects) in [[toposes]] is the [[Sierpinski topos]] (see e.g. [Johnstone 77, p. 117](#Johnstone77)).
+
 ## Examples
 
 The subterminal objects in a [[topos]] can be viewed as its "external [[truth value]]s."  For example, in the topos $Sh(X)$ of [[sheaf|sheaves]] on a [[topological space]] $X$, the subterminal objects are precisely the open sets in $X$.
 
+## References
+
+* {#Johnstone77} [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977
 
 [[!redirects subterminal]]
 [[!redirects subterminals]]
 [[!redirects subterminal objects]]
+
+[[!redirects open object]]
+[[!redirects open objects]]
