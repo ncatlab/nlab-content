@@ -252,7 +252,7 @@ A standard reference is
 
 In 
 
-* [[Emily Riehl]], _Weighted limits and colimits_ (2008) ([pdf](http://www.math.harvard.edu/~eriehl/weighted.pdf)) is given an account of lectures by [[Mike Shulman]] on the subject. The definition appears there as [definition 3.1, p. 4](http://www.math.uchicago.edu/~eriehl/cat/weighted.pdf#page=4) (in a form a bit more general than the one above).
+* [[Emily Riehl]], _Weighted limits and colimits_ (2008) ([pdf](http://www.math.jhu.edu/~eriehl/weighted.pdf)) is given an account of lectures by [[Mike Shulman]] on the subject. The definition appears there as [definition 3.1, p. 4](http://www.math.jhu.edu/~eriehl/weighted.pdf#page=4) (in a form a bit more general than the one above).
 
 [[!redirects weighted limits]]
 
