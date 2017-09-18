@@ -23,6 +23,8 @@ Fall 2014 [[seminar on factorization algebras]].
 ***
 Academic Activities:
 
+June 11-22, 2018, [SMS 2018, Derived and Higher Structures in Geometry and Physics](https://ncatlab.org/higherstructureconferences/show/sms2018)
+
 July 2017, [Lie Theory and Mathematical Physics](https://ncatlab.org/higherstructureconferences/show/Lie+Theory+and+Mathematical+Physics)
 
 16.04.2017--21.04.2017, [Banff](http://www.birs.ca/events/2017/5-day-
