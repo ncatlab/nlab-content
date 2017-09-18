@@ -46,6 +46,13 @@ Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]], it turns ou
 
 For $n = 2$ this is well understood conceptually. For $n \geq 3$ it has been checked by the [[computer algebra]] system [SnapPy](http://scienceblogs.de/mathlog/2010/02/24/snappy/) ([Zickert 07](#Zickert07)), but the conceptual reason remains unclear.
 
+## Properties
+
+### Mostow rigidity theorem
+
+The [[Mostow rigidity theorem]] states that every [[hyperbolic manifold]] of [[dimension]] $\geq 3$ and of [[finite number|finite]] [[volume]] is uniquely determined by its [[fundamental group]].
+
+
 ## Related concepts
 
 A Riemannian manifold 
