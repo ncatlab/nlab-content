@@ -24,7 +24,7 @@ A [[functor]] $F : C \to D$ satisfies the **solution set condition** if for ever
 
 $$
   F(t) \circ f_i
-  : 
+  \colon 
   Y \stackrel{f_i}{\to}
   F(X_i)
   \stackrel{F(t)}{\to}
