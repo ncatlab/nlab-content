@@ -91,7 +91,7 @@ $(k,0) = (\wedge^\bullet 0, 0)$.
 ###### Definition
 **(Sullivan algebras)**
 
-A **relatived Sullivan algebra** is a [[morphism]] of dg-algebras that is an inclusion
+A **[[relative Sullivan algebra]]** is a [[morphism]] of dg-algebras that is an inclusion
 
 $$
   (A,d) \to (A \otimes_k \wedge^\bullet V, d')
@@ -110,7 +110,7 @@ for $(A,d)$ some dg-algebra and for $V$ some graded vector space, such that
     \,.
   $$
 
-This is called a **minimal** relative Sullivan algebra if in addition the condition
+This is called a **minimal** [[relative Sullivan algebra]] if in addition the condition
 
 $$
   (\alpha \lt \beta) \Rightarrow (deg v_\alpha  \leq deg v_\beta)
@@ -149,7 +149,7 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 ###### Proposition
 **(cofibrations are relative Sullivan algebras)**
 
-The cofibration in $C dgAlg_{\mathbb{N}}$ are precisely the [[retract]]s of relative  Sullivan algebras $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
+The cofibration in $C dgAlg_{\mathbb{N}}$ are precisely the [[retract]]s of [[relative  Sullivan algebras]] $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
 
 Accordingly, the cofibrant objects in $C dgAlg$ are precisely the Sullivan algebras $(\wedge^\bullet V, d)$
 
