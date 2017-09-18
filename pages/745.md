@@ -103,7 +103,7 @@ $$
 
 (in the 1-category [[Cat]] of categories).
 
-Compare this with the construction at [[generalized universal bundle]] and with the definition of [[loop space object]]. 
+Compare this with the construction of [[homotopy pullback]] ([here](homotopy+pullback#HomotopyPullbackByFactorizationLemma)), hence wth the definition of [[loop space object]] and also with [[generalized universal bundle]].
 
 ### As a 2-pullback
  {#AsA2Pullback}
