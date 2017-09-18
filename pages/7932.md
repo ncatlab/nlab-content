@@ -1481,7 +1481,9 @@ This is mentioned for instance as exercise 4.2 in
 
 * {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes Copenhagen (June, 2008) [pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf)
 
+An alternative proof in terms of [[relative categories]] is in 
 
+* {#Sharma15} Amit Sharma, _On the homotopy theory of $G$-spaces_ ([arXiv:1512.03698](http://arxiv.org/abs/1512.03698))
 
 Closely related discussion of homotopy fiber sequences and homotopy action but in terms of [[Segal spaces]] is in section 5 of
 
