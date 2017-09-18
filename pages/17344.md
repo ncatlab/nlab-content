@@ -2308,7 +2308,178 @@ $$
 
 =--
 
+##### Topological enrichement
 
+In _[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_ we discussed, in the section _[Topological enrichment](Introduction+to+Stable+homotopy+theory+--+P#TopologicalEnrichment)_, that the [[classical model structure on topological spaces]] (when restricted to [[compactly generated topological spaces]]) interacts well with forming [[smash products]] and pointed [[mapping spaces]]. Concretely, the smash [[pushout product]] of two classical cofibrations is a classical cofibration, and is acyclic if either of the factors is:
+
+$$
+  Cof_{cl} \Box Cof_{cl} \subset Cof_{cl}
+  \;\,,
+  \;\;\;\;\;\;\;
+  (Cof_{cl} \cap W_{cl}) \Box Cof_{cl} \subset Cof_{cl} \cap W_{cl}
+  \,.
+$$
+
+By [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)) this is equivalent to the the _pullback powering_ satisfying the analogous relation
+
+$$
+  Fib_{cl}^{\Box Cof_{cl}}
+  \subset 
+  Fib_{cl} 
+  \;\,,
+  \;\:\;\;
+  Fib_{cl}^{\Box (Cof_{cl} \cap W_{cl})}
+  \subset 
+  Fib_{cl} \cap W_{cl}
+  \;\,,
+  \;\;\;
+  (Fib_{cl} \cap W_{cl})^{\Box Cof_{cl}}
+  \subset
+  Fib_{cl} \cap W_{cl}  
+  \,.
+$$ 
+
+Now that we passed from spaces to spectra, def. \ref{TensoringAndPoweringOfSequentialSpectra} generalizes the smash product of spaces to the smash tensoring of sequential spectra by spaces, and the pointed mapping space of spaces to the powering of a space into a sequential spectrum. Accordingly there is now the analogous concept of _[[pushout product]]_ with respect to smash tensoring, and of _pullback powering_ with respect to smash powering. 
+
+From the way things are presented, it is immediate that these operations on spectra satisfy the analogous compatibility condition with the strict model structure on spectra from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, in fact this follows generally for topologically enriched functor categories via prop. \ref{SequentialSpectraAsDiagramSpectra}. But since this will be important for some of the discussion to follow, we here make it explicit.
+
+
++-- {: .num_defn #PushoutProductWithRespectToSmashTensoring}
+###### Definition
+
+Let $f \;\colon \; X \to Y$ be a morphism in $SeqSpec(Top_{cg})$ (def. \ref{SequentialSpectra}) and for $i \;\colon\; A \to B$ a morpism in $Top_{cg}^{\ast/}$. 
+
+Their **[[pushout product]] with respect to smash [[tensoring]]** is the universal morphism 
+
+$$
+  f \Box i
+  \coloneqq
+  \left((id,i), (f,id)\right)
+$$
+
+in
+
+$$
+  \array{
+    && X \wedge A
+    \\
+    & {}^{\mathllap{(f,id)}}\swarrow && \searrow^{\mathrlap{(id,i)}}
+    \\
+    Y \wedge A && (po) && X \wedge B
+    \\
+    & {}_{\mathllap{}}\searrow && \swarrow
+    \\
+    && (Y \wedge A) \underset{X \wedge A}{\sqcup} (X \wedge B)
+    \\
+    && \downarrow^{\mathrlap{((id, i), (f,id))}}
+    \\
+    && Y \wedge B
+  }
+  \,,
+$$
+
+where $(-)\wedge(-)$ denotes the smash tensoring from def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+
+Dually, their **pullback powering** is the universal morphism
+
+$$
+  f^{\Box i}
+  \coloneqq
+  (Maps(B,f)_\ast, Maps(i,X)_\ast)
+$$
+
+in
+
+$$
+  \array{
+    && Maps(B,X)_\ast
+    \\
+    && \downarrow^{\mathrlap{(Maps(B,f)_\ast, Maps(i,X)_\ast)}}
+    \\
+    && Maps(B,Y)_\ast \underset{Maps(A,Y)_\ast}{\times} Maps(A,X)_\ast
+    \\
+    & \swarrow && \searrow
+    \\
+    Maps(B,Y)_\ast && (pb) && Maps(A,X)_\ast
+    \\
+    & {}_{\mathllap{Maps(i,Y)_\ast}}\searrow 
+      && 
+    \swarrow_{\mathrlap{Maps(A,p)_\ast}}
+    \\
+    && Maps(A,Y)_\ast
+  }
+  \,,
+$$
+
+where $Maps(-,-)_\ast$ denotes the smash powering from def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+
+=--
+
++-- {: .num_prop #PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms}
+###### Proposition
+
+The operation of forming pushout products with respect to smash tensoring in def. \ref{PushoutProductWithRespectToSmashTensoring} is compatible with the strict model structure on sequential spectra from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} and with the classical model structure on compactly generated pointed topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) in that it takes two cofibrations to a cofibration, and to an acyclic cofibration if at least one of the inputs is acyclic:
+
+$$
+  Cof_{strict} \Box Cof_{cl}
+  \;\subset\;
+  Cof_{strict}
+$$
+
+$$
+  Cof_{strict} \Box (Cof_{cl} \Box W_{cl})
+  \;\subset\;
+  Cof_{strict} \cap W_{strict}
+$$
+
+$$
+  Cof_{strict} \cap (W_{strict})
+  \Box
+  Cof_{cl}
+  \;\subset\;
+  Cof_{strict} \cap W_{strict}
+  \,.
+$$
+
+Dually, the pullback powering satisfies
+
+$$
+  Fib_{strict}^{\Box Cof_{cl}}
+  \;\subset\;
+  Fib_{strict}
+$$
+
+$$
+  Fib_{strict}^{\Box ( Cof_{cl} \cap W_{cl})}
+  \;\subset\;
+  Fib_{strict}\cap W_{strict}
+$$
+
+$$
+  (Fib_{strict} \cap W_{strict})^{\Box Cof_{cl}}
+  \;\subset\;
+  Fib_{strict} \cap W_{strict}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The statement concering the pullback powering follows directly form the analogous statement for topological spaces ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PullbackPowering)) by the fact that via theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} the fibrations and weak equivalences in $SeqSpec(Top_{cg})_{strict}$ are degree-wise those in $(Top_{cg}^{\ast/})_{Quillen}$.
+
+From this the statement about the pushout product with respect to smash tensoriung follows formally by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the language of [[model category]]-theory, prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} is most of the statement that $SeqSpec(Top_{cg})_{strict}$ is an [[enriched model category]], enriched over the $(Top_{cg}^{\ast/})_{Quillen}$, often referred to simply as a "topological model category".
+
+=--
 
 
 #### The stable model structure on sequential spectra
