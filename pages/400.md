@@ -32,7 +32,7 @@ Roughly speaking, a **factorization system** on a [[category]] consists of two c
 
 * In an [[enriched category]] it is natural to consider [[enriched factorization system|enriched (orthogonal) factorization systems]].  The enriched version of WFS falls under [[enriched model category|enriched model categories]].
 
-* In a [[bicategory]] (i.e. a possibly non-strict [[2-category]]) one wants instead the notion of [[factorization system in a 2-category]], which is like a Cat-enriched OFS "up to isomorphism."  The situation in an [[n-category]] is analogous; see for instance [[orthogonal factorization system in an (∞,1)-category]].
+* In a [[bicategory]] (i.e. a possibly non-strict [[2-category]]) one wants instead the notion of [[factorization system in a 2-category]], which is like a Cat-enriched OFS "up to isomorphism."  The situation in an [[n-category]] is analogous; see for instance [[orthogonal factorization system in an (∞,1)-category]] and [[orthogonal factorization system in a derivator]].
 
 * In a [[strict 2-category]] there is also the notion of an [[enhanced factorization system|enhanced (orthogonal) factorization system]], of which the main example is [[bo-ff factorization system|(bo,ff)]] in [[Cat]].
 
