@@ -1,0 +1,9 @@
+##Idea
+Let $K$ be the strict [[2-category]] [[Cat]] and $C$ a [[category]] in $K$. Then we can identify a [[monad]] on $C$ with an [[endofunctor]] $T:C\to C$ which is a [[monoid] in $K(C,C)$. We recall that for any [[object]] $c$ of $C$, we obtain a certain sort of [[resolution]] of $c$. Note that the canonical resolution is not a resolution in the sense of the above cited nLab page because it is not necessarily acyclic or [[contractible]] in the relevant sense. In other words, it does not always have trivial [[cohomology]], especially since our category may not even be equipped with such a notion. 
+
+##Definition
+The _canonical resolution_ of $c$ in $C$ with respect to a monad $T:C\to C$ is a [[augmented simplicial set|coaugmented]] [[simplicial object|cosimplicial object]] $CanRes_T:\Delta_+\to C$ such that $CanRes_T([-1])=c$ and $CanRes_T([n])=T^{n+1}c$ for each $n\geq 0$. It has [[coface]] [[morphisms]] $T^{n}c\to T^{n+1}c$ given by the unit map of $T$, and codegeneracies given by the monoid structure $T T c\to T c$. 
+
+###Monadic Cohomology
+
+Given a suitable functor $E:C\to A$, for $A$ an [[additive category]], we can define the _monadic cohomology_ of an object $c$ to be the [[cohomology]] of the [[cochain complex]] associated to the composition of [[functors]] $$E\circ CanRes_T:\Delta_+\to A.$$
