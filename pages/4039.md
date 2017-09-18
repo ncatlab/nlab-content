@@ -285,6 +285,7 @@ since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$
 
 * [[Lagrange multiplier]]
 
+* [[variational sequence]]
 
 ## References 
 
