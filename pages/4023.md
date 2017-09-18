@@ -24,7 +24,7 @@ $$\Lambda^j(V) = sgn_j \otimes_{k S_j} V^{\otimes j}.$$
 
 It is called the $j^{th}$ **alternating power** (of $V$). 
 
-Another point of view on the alternating power is via [[superalgebra]]. For any [[cosmos]] $\mathbf{V}$ let $CMon(\mathbf{V})$ be the category of [[commutative monoid]] objects in $\mathbf{V}$. The forgetful functor $CMon(\mathbf{)} \to \mathbf{V}$ has a [[left adjoint]] 
+Another point of view on the alternating power is via [[superalgebra]]. For any [[cosmos]] $\mathbf{V}$ let $CMon(\mathbf{V})$ be the category of [[commutative monoid]] objects in $\mathbf{V}$. The forgetful functor $CMon(\mathbf{V}) \to \mathbf{V}$ has a [[left adjoint]] 
 
 $$\exp(V) = \sum_{n \geq 0} V^{\otimes n}/S_n$$ 
 
@@ -34,12 +34,12 @@ This applies in particular to $\mathbf{V}$ the category of [[supervector spaces]
 
 +-- {: .num_prop} 
 ###### Proposition 
-$\Lambda^n(V \oplus W) \cong \sum_{j + k = n} \Lambda^j(V) \otimes \Lambda^k(W)$. 
+There is a canonical natural isomorphism $\Lambda^n(V \oplus W) \cong \sum_{j + k = n} \Lambda^j(V) \otimes \Lambda^k(W)$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Again take $\mathbf{V}$ to be the category of supervector spaces. Since the left adjoint $\exp: \mathbf{V} \to CMon(\mathbf{V})$ preserves coproducts and since the tensor product $\otimes$ of $\mathbf{V}$ provides the coproduct for commutative monoid objects, we have a natural isomorphism 
+Again take $\mathbf{V}$ to be the category of supervector spaces. Since the left adjoint $\exp: \mathbf{V} \to CMon(\mathbf{V})$ preserves [[coproducts]] and since the tensor product $\otimes$ of $\mathbf{V}$ provides the coproduct for commutative monoid objects, we have a natural isomorphism 
 
 $$\exp(V \oplus W) \cong \exp(V) \otimes \exp(W).$$ 
 
@@ -51,7 +51,7 @@ and now the result follows by considering the case where $V, W$ are concentrated
 =-- 
 
 +-- {: .num_cor}
-###### Proposition 
+###### Corollary 
 If $V$ is $n$-[[dimension|dimensional]], then $\Lambda^j(V)$ has dimension $\binom{n}{j}$. In particular, $\Lambda^n(V)$ is 1-dimensional. 
 =-- 
 
@@ -128,7 +128,7 @@ Other properties may be worked out, starting from the explicit formula or otherw
 
 * More generally, if $A$ is an upper (or lower) triangular matrix, then $\det(A)$ is the product of the diagonal entries. 
 
-* If $E/k$ is an extension field and $f$ is a $k$-linear map $V \to V$, then $\det(f) = \det(E \otimes_k f)$. Using the preceding properties and the [[Jordan normal form]] of a matrix, this means that $\det(f)$ is the product of its eigenvalues (counted with multiplicity), as computed in the algebraic closure of $k$. 
+* If $E/k$ is a [[field extension]] and $f$ is a $k$-linear map $V \to V$, then $\det(f) = \det(E \otimes_k f)$. Using the preceding properties and the [[Jordan normal form]] of a matrix, this means that $\det(f)$ is the product of its [[eigenvalues]] (counted with multiplicity), as computed in the [[algebraic closure]] of $k$. 
 
 * If $A^t$ is the transpose of $A$, then $\det(A^t) = \det(A)$. 
 
@@ -152,7 +152,7 @@ where $w$ occurs as the $i^{th}$ column vector on the right.
 This follows straightforwardly from properties 1 and 2 above. 
 =-- 
 
-For instance, given a square matrix $A$ such that $\det(A) \neq 0$, and writing $A = (v_1, \ldots, v_n)$, this allows us to solve the equation 
+For instance, given a square matrix $A$ such that $\det(A) \neq 0$, and writing $A = (v_1, \ldots, v_n)$, this allows us to solve for a vector $a$ in an equation 
 
 $$A \cdot a = w$$
 
