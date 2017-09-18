@@ -82,7 +82,39 @@ Let $X$ be a cubical set. Let $n \geq 0$ be an integer. By an _$n$-cube_ of $X$,
 
 =--
 
-### Boundary of the free standing $n$-cube
++-- {: .num_defn #NotationOneCubePictorial}
+###### Notation
+
+Let $f$ be a 1-cube of $X$. We shall often depict $f$ as $f : x_{0} \rightarrow x_{1}$ or as follows. 
+
+$$
+   \array{x_{0} & \overset{f}{\rightarrow} & x_{1}}
+$$
+
+In this case, $x_{0}$ is to be understood to be the $0$-cube $f \circ y(i_{0})$ of $X$, and $x_{1}$ is to be understood to be the $1$-cube $f \circ y(i_{1})$ of $X$. 
+
+=--
+
++-- {: .num_defn #NotationTwoCubePictorial}
+###### Notation
+
+Let $\sigma$ be a 2-cube of $X$. We shall often depict $\sigma$ as follows.
+
+$$
+   \array{
+      x_{0}            & \overset{f_{0}}{\rightarrow}  & x_{1} \\
+      f_{2} \downarrow & \sigma                & \downarrow f_{1} \\
+      x_{2}            & \underset{f_{3}}{\rightarrow} & x_{3}
+   }
+$$
+
+In this case, $f_{0}$ is to be understood to be the $1$-cube $\sigma \circ y(i_{0} \otimes I^{1})$ of $X$, $f_{1}$ is to be understood to be the $1$-cube $\sigma \circ y(I^{1} \otimes i_{1})$ of $X$, $f_{2}$ is to be understood to be the $1$-cube $\sigma \circ y(I^{1} \otimes i_{0})$ of $X$, and $f_{3}$ is to be understood to be the 1-cube $\sigma \circ y(i_{1} \otimes I^{1})$ of $X$.
+
+It can be checked that this notation is consistent with Notation \ref{NotationOneCubePictorial}.
+
+=--
+
+### Boundary of the free standing $n$-cube, and of an $n$-cube of a cubical set.
 
 +-- {: .num_defn}
 ###### Notation
@@ -112,30 +144,90 @@ Let $n \geq 1$ be an integer. We denote by $i_{n} : \partial \square^{n} \righta
 
 =--
 
++-- {: .num_defn}
+###### Terminology
+
+Let $n \geq 0$ be an integer, and let $\sigma : \square^{n} \rightarrow X$ be an $n$-cube of a cubical set $X$. We refer to the morphism of cubical sets
+
+$$
+   \array{\partial \square^{n} & \overset{i_{n}}{\rightarrow} & \square^{n} & \overset{\sigma}{\rightarrow} & X }
+$$
+
+as the _boundary_ of $\sigma$.
+
+=--
+
++-- {: .num_defn #NotationTwoCubeBoundaryPictorial}
+###### Notation
+
+Let $\sigma$ be a 2-cube of $X$ as follows.
+
+$$
+   \array{
+      x_{0}            & \overset{f_{0}}{\to}  & x_{1} \\
+      f_{2} \downarrow & \sigma                & \downarrow f_{1} \\
+      x_{2}            & \underset{f_{3}}{\to} & x_{3}
+   }
+$$
+
+We shall often depict the boundary of $\sigma$ as follows.
+
+$$
+   \array{
+      x_{0}            & \overset{f_{0}}{\to}  & x_{1} \\
+      f_{2} \downarrow &                     & \downarrow f_{1} \\
+      x_{2}            & \underset{f_{3}}{\to} & x_{3}
+   }
+$$
+
+=--
+
 ### Horns of the free-standing $n$-cube
 
 +-- {: .num_defn #NotationHorn}
 ###### Notation
 
-Let $n \geq 1$ be an integer, let $1 \leq i \leq n$ be an integer, and let $0 \leq \epsilon \leq 1$ be an integer. 
+We define inductively, for any integer $n \geq 1$, any integer $1 \leq i \leq n$, and any integer $0 \leq \epsilon \leq 1$, a cubical set $\sqcap^{n,i,\epsilon}$ and a morphism of cubical sets $i_{i, \epsilon} : \sqcap^{n,i,\epsilon} \rightarrow \square^{n}$.
 
-We denote (recalling that $\mathsf{Set}^{\square^{op}}$ is co-complete by construction) by $\sqcap^{n,i, \epsilon}$ a cubical set fitting into a [[pushout | co-cartesian square]] in $\mathsf{Set}^{\square^{op}}$ as follows.
+When $n=1$, we define both $\sqcap^{1,1,0}$ and $\sqcap^{1,1,1}$ to be $\square^{0}$. We define $i_{1,0} : \square^{0} \rightarrow \square^{1}$ to be $y(i_{0})$, and define $i_{1,1} : \square^{0} \rightarrow \square^{1}$ to be $y(i_{1})$.
+
+Suppose that, for some integer $n \geq 1$, we have defined $\sqcap^{n,i,\epsilon}$ and a morphism of cubical sets $i_{i, \epsilon} : \sqcap^{n,i,\epsilon} \rightarrow \square^{n}$ for all integers $1 \leq i \leq n$, and all integers $0 \leq \epsilon \leq 1$. For $1 \leq i \leq n$, we define (recalling that $\mathsf{Set}^{\square^{op}}$ is co-complete by construction) $\sqcap^{n+1,i, \epsilon}$ to be a cubical set fitting into a [[pushout | co-cartesian square]] in $\mathsf{Set}^{\square^{op}}$ as follows.
 
 $$
    \array{
-      \partial \square^{n-1} & \overset{\partial(\square^{i-1} \otimes y(i_{\epsilon}) \otimes \square^{n-i})}{\rightarrow}  & \partial \square^{n} \\
-       \mathllap{i_{n-1}} \downarrow    &                                    & \downarrow \mathrlap{r_{0}} \\
-      \square^{n-1}            & \underset{r_{1 }}{\rightarrow} & \sqcap^{n,i,\epsilon}
+      \sqcap^{n,i,\epsilon} \sqcup \sqcap^{n,i,\epsilon} & \overset{\big( \sqcap^{n,i,\epsilon} \otimes y(i_{0}) \big) \sqcup \big( \sqcap^{n,i,\epsilon} \otimes y(i_{1}) \big)}{\rightarrow}  & \sqcap^{n,i,\epsilon} \otimes \square^{1} \\
+       \mathllap{i_{i,\epsilon} \sqcup i_{i,\epsilon}} \downarrow    &                                    & \downarrow \mathrlap{r_{0}} \\
+      \square^{n} \sqcup \square^{n}  & \underset{r_{1 }}{\rightarrow} & \sqcap^{n+1,i,\epsilon}
    }
 $$
 
-We denote by $i_{i,\epsilon} : \sqcap^{n} \rightarrow \square^{n}$ the canonical arrow determined, by means of the universal property of $\sqcap^{n}$, by the following commutative square in $\mathsf{Set}^{\square^{op}}$.
+We denote by $i_{i,\epsilon} : \sqcap^{n+1,i,\epsilon} \rightarrow \square^{n+1}$ the canonical arrow determined, by means of the universal property of $\sqcap^{n+1,i,\epsilon}$, by the following commutative square in $\mathsf{Set}^{\square^{op}}$.
 
 $$
    \array{
-      \partial \square^{n-1} & \overset{\partial (\square^{i-1} \otimes y(i_{\epsilon}) \otimes \square^{n-i})}{\rightarrow}  & \partial \square^{n} \\
-       \mathllap{i_{n-1}} \downarrow    &                                    & \downarrow \mathrlap{i_{n}} \\
-      \square^{n-1}            & \underset{\square^{i-1} \otimes y(i_{\epsilon}) \otimes \square^{n-i}}{\rightarrow} & \square^{n}
+      \sqcap^{n,i,\epsilon} \sqcup \sqcap^{n,i,\epsilon} & \overset{\big( \sqcap^{n,i,\epsilon} \otimes y(i_{0}) \big) \sqcup \big( \sqcap^{n,i,\epsilon} \otimes y(i_{1}) \big)}{\rightarrow}  & \sqcap^{n,i,\epsilon} \otimes \square^{1} \\
+       \mathllap{i_{i,\epsilon} \sqcup i_{i,\epsilon}} \downarrow    &                                    & \downarrow \mathrlap{i_{i,\epsilon} \otimes \square^{1}} \\
+      \square^{n} \sqcup \square^{n}  & \underset{\big( \square^{n} \otimes y(i_{0}) \big) \sqcup \big( \square^{n} \otimes y(i_{1}) \big)}{\rightarrow} & \square^{n+1}
+   }
+$$
+
+We define $\sqcap^{n+1, n+1, \epsilon}$ to be a cubical set fitting into a [[pushout | co-cartesian square]] in $\mathsf{Set}^{\square^{op}}$ as follows.
+
+$$
+   \array{
+      \sqcap^{n,n,\epsilon} \sqcup \sqcap^{n,n,\epsilon} & \overset{\big( y(i_{0}) \otimes \sqcap^{n,n,\epsilon} \big) \sqcup \big( y(i_{1}) \otimes \sqcap^{n,n,\epsilon} \big)}{\rightarrow}  & \square^{1} \otimes \sqcap^{n,n,\epsilon} \\
+       \mathllap{i_{n,\epsilon} \sqcup i_{n,\epsilon}} \downarrow    &                                    & \downarrow \mathrlap{r_{0}} \\
+      \square^{n} \sqcup \square^{n}  & \underset{r_{1}}{\rightarrow} & \sqcap^{n+1,n+1,\epsilon}
+   }
+$$
+
+We denote by $i_{n+1,\epsilon} : \sqcap^{n+1,n+1,\epsilon} \rightarrow \square^{n+1}$ the canonical arrow determined, by means of the universal property of $\sqcap^{n+1,n+1,\epsilon}$, by the following commutative square in $\mathsf{Set}^{\square^{op}}$.
+
+$$
+   \array{
+      \sqcap^{n,n,\epsilon} \sqcup \sqcap^{n,n,\epsilon} & \overset{\big( y(i_{0}) \otimes \sqcap^{n,n,\epsilon} \big) \sqcup \big( y(i_{1}) \otimes \sqcap^{n,n,\epsilon} \big)}{\rightarrow}  & \square^{1} \otimes \sqcap^{n,n,\epsilon} \\
+       \mathllap{i_{n,\epsilon} \sqcup i_{n,\epsilon}} \downarrow    &                                    & \downarrow \mathrlap{\square^{1} \otimes i_{n,\epsilon}} \\
+      \square^{n} \sqcup \square^{n}  & \underset{\big( y(i_{0}) \otimes \square^{n} \big) \sqcup \big( y(i_{1}) \otimes \square^{n} \big)}{\rightarrow} & \square^{n+1}
    }
 $$
 
@@ -144,14 +236,7 @@ $$
 +-- {: .num_defn}
 ###### Terminology
 
-We refer to $\sqcap^{n}$ together with the morphism $i_{i,\epsilon}$ as a _horn_ of $\square^{n}$. 
-
-=--
-
-+-- {: .num_defn}
-###### Remark
-
-The choice of $i_{0}$ as opposed to $i_{1}$ in the upper row of the co-cartesian square defining $\sqcap^{n}$ in Notation \ref{NotationHorn} is arbitrary.
+We refer to $\sqcap^{n, i, \epsilon}$ together with the morphism $i_{i,\epsilon}$ as a _horn_ of $\square^{n}$. 
 
 =--
 
