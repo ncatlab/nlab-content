@@ -104,7 +104,7 @@ For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
 
 * [[essential sublocale]]
 
-* [[closed morphism]]
+* [[closed morphism]], [[proper morphism]]
 
 * [[étale map]]
 
