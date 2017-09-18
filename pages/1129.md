@@ -290,6 +290,16 @@ The group of [[rational numbers]] $\mathbb{Q}$ is injective in [[Ab]], as is the
 
 =--
 
+### In toposes 
+
+In any [[topos]], the [[subobject classifier]] $\Omega$ is an injective object, as is any power of $\Omega$ ([[Mac Lane-Moerdijk]], IV.10). 
+
+### In topological spaces 
+
+In the category [[Top]] of all topological spaces, the injective objects are precisely the [[inhabited set|inhabited]] [[indiscrete spaces]]. 
+
+In the category of $T_0$ spaces (see [[separation axiom]]), the injective objects are precisely those given by Scott topologies on [[continuous lattices]], which as [[locales]] are [[local compactum|locally compact]] and [[spatial locale|spatial]]. 
+
 ## Properties
 
 ### Preservation of injective objects
