@@ -18,7 +18,7 @@
 
 ## Idea
 
-The [[formal dual]] to the [[pushout product]] (frequently considered in the context of [[enriched model category]] theory) does not have a widely established name, but plausibly deserves to be called the _pullback powering_ operation.
+The [[formal dual]] to the [[pushout product]] (frequently considered in the context of [[enriched model category]] theory) does not have a widely established name, but plausibly deserves to be called the _pullback powering_ operation. Note that it sometimes called _pullback hom_.
 
 More precisely, a pushout product is defined with respect to a functor of the form $E_1\times E_2 \to E_3$, while a pullback power is defined with respect to a functor of the form $E_2^{op} \times E_3\to E_1$ or $E_1^{op}\times E_3 \to E_2$, of the sort that would be the right adjoints in a [[two-variable adjunction]].
 
@@ -77,5 +77,8 @@ into the evident [[fiber product]] on the right.
 [[!redirects pullback powers]]
 
 [[!redirects Leibniz cotensor]]
+
+[[!redirects pullback hom]]
+[[!redirects pullback-hom]]
 
 
