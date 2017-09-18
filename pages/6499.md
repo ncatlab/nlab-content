@@ -32,7 +32,7 @@ Global analytic geometry
 
 * treats all [[places]] on equal footing, contrary to scheme theory. This implies that it is closer in spirit to the automorphic philosophy and [[Langlands program]], and more historically to Tate's proof of the functional equation.
 
-The main aim of the theory is to define, using global analytic tools, a good Hodge theory for arithmetic varieties.
+The main aim of the theory is to define, using global analytic tools, a good [[Hodge theory]] for arithmetic varieties.
 
 ## Possible set of constraints
 for a [relaxed](http://en.wikipedia.org/wiki/Relaxation_(approximation)) approach to global Hodge theory: it is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they are useful to  understand better the motivations underlying the construction of global analytic spaces.
