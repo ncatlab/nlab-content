@@ -1,58 +1,25 @@
 
-+-- {: .num_prop #ExactSequenceOfHomotopyFiberAtOneStage}
-###### Proposition
++-- {: .num_lemma}
+###### Lemma
 
-Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \to Y$ any morphism of [[pointed objects]], and for $A$ a [[pointed object]], def. \ref{CategoryOfPointedObjects}, then the sequence
-
-$$
-  [A,hofib(f)]_\ast \longrightarrow [A,X]_\ast \longrightarrow [A,Y]_{\ast}
-$$
-
-is [[exact sequence|exact]] (the sequecne being the image of the [[homotopy fiber]] sequence of def. \ref{HomotopyFiber} under the hom-functor of the pointed [[homotopy category of a model category]]
-
-$$
-  [A,-]_\ast \;\colon\; Ho(\mathcal{C}^{/\ast}) \longrightarrow Set^{\ast/}
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We may choose representatives such that $A$ is cofibrant, and $f$ is a fibration. Then we are faced with an ordinary pullback diagram
+Let $f\colon X \longrightarrow Y$ be a morphism in a [[category of fibrant obects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then given any choice of [[path space objects]] $Path(X)$ and $Path(Y)$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a replacement of $Path(X)$ by a path object $\widetilde{Path(X)}$ along an acylic fibration, such that $\tilde{Path(X)}$ has a morphism $\phi$ to $Path(Y)$ which is compatible with the structure maps, in that the following diagram commutes
 
 $$
   \array{
-    hofib(f) &\overset{i}{\longrightarrow}& X
+    && X &\overset{f}{\longrightarrow}& Y
     \\
-    \downarrow && \downarrow^{\mathrlap{p}}
+    &\swarrow& \downarrow && \downarrow
     \\
-    \ast &\longrightarrow& Y
-  }
-$$ 
-
-and the hom-classes are represented by genuine morphisms in $\mathcal{C}$. From this it follows immediately that $ker(p_\ast)$ includes $im(i_\ast)$. Hence it remains to show that every element in $ker(p_\ast)$ indeed comes from $im(i_\ast)$.
-
-But an element in $ker(p_\ast)$ is represented by a morphism $\alpha \colon A \to X$ such that there is a left homotopy as in the following diagram
-
-$$
-  \array{
-     && A &\overset{\alpha}{\longrightarrow}& X
-     \\
-     && {}^{\mathllap{i_0}}\downarrow &{}^{\tilde \eta}\nearrow& \downarrow^{\mathrlap{p}}
-     \\
-     A &\overset{i_1}{\longrightarrow} & Cyl(A) &\overset{\eta}{\longrightarrow}& Y
-     \\
-     \downarrow && && \downarrow^{\mathrlap{=}}
-     \\
-     \ast && \longrightarrow && Y
+    Path(X) &\underset{\in W \cap Fib}{\longleftarrow}& \widetilde{Path(X)} &\overset{\phi}{\longrightarrow}& Path(Y)
+    \\
+    &{}_{\mathllap{(p^X_0,p^X_1)}}\searrow& \downarrow^{\mathrlap{(p^Y_0,p^Y_1)}} && \downarrow^{\mathrlap{(\tilde p^X_0,\tilde p^X_1)}}
+    \\
+    && X \times X &\overset{(f,f)}{\longrightarrow}& Y \times Y
   }
   \,.
 $$
 
-Now by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} the square here has a lift $\tilde \eta$, as shown. This means that $i_1 \circ\tilde \eta$ is left homotopic to $\alpha$. But by the universal property of the fiber, $i_1 \circ \tilde \eta$ factors through $i \colon hofib(f) \to X$.
-
 =--
+
+([[BrownAHT|Brown 73, section 2, lemma 2]])
 
