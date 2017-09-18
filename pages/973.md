@@ -17,19 +17,29 @@
 * table of contents
 {:toc}
 
+## Idea
+In a [[Lawvere theory]], one specifies an algebraic theory by giving a [[small category|small]] [[category]] $T$ with finite [[products]]. Then a [[model]] of the theory is given by a [[functor]] $T \to Set$ that [[preserved limit|preserves]] products. A **sketch** is a generalization of this idea, where we take a small category $T$, and pick some distinguished limit and colimit cones. Then a model of the sketch is a functor that preserves these limits and colimits.
+
 ## Definition
 
 +-- {: .num_defn }
 ###### Definition 
 
-A **sketch** is a [[small category]] equipped with a subset of its [[limit]] [[cones]] and [[colimit]] [[cocones]]. 
+A **sketch** is a [[small category|small]] [[category]] $T$ equipped with subsets $(L, C)$ of its [[limit]] [[cones]] and [[colimit]] [[cocones]]. 
 
-A **limit-sketch** is a sketch with just limits and no colimits specified.
+A **limit-sketch** is a sketch with just limits and no colimits specified, ie. with $C = \emptyset$. Dually, a **colimit-sketch** is a sketch with $L = \emptyset$.
 
 A **model of a sketch** is a [[Set]]-valued [[functor]] preserving the specified limits and colimits.
 
 A [[category]] is called **sketchable** if it is the category of models of a sketch.
 
+=--
+
+## Examples
+
++-- {: .num_example}
+###### Example
+A [[Lawvere theory]] is a special case of a (limit-)sketch, where the category is one with a distinguished object $X$ such that all objects are ([[isomorphic]] to) powers of $X$, and $C = \emptyset$ and $L$ is the set of all product cones.
 =--
 
 ## Properties
