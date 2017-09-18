@@ -1033,8 +1033,12 @@ The following simplistic example of a (metric) topological space is important fo
 
 +-- {: .num_example #Point}
 ###### Example
-**(the [[point]])**
+**([[empty space]] and [[point space]])**
 
+On the [[empty set]] there exists a unique topology. 
+We write $\emptyset$ also for the resulting [[topological space]], 
+which we call the _[[empty topological space]]_.
+ 
 On a [[singleton]] set $\{1\}$ there exists a unique topology $\tau$
 making it a [[topological space]] according to def. \ref{TopologicalSpace},
 namely
@@ -1058,7 +1062,7 @@ $$
   \right)
 $$
 
-for this topological space and call it _the [[point]]_.
+for this topological space and call it _the [[point topological space]]_.
 
 This is equivalently the [[metric topology]] (example \ref{MetricTopology}) on $\mathbb{R}^0$,
 regarded as the 0-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
@@ -1160,7 +1164,7 @@ is the topological space whose underlying set is the [[disjoint union]] of the u
 and whose open subsets are precisely the disjoint unions of the open subsets of the summand spaces.
 
 In particular, for $I$ any index set, then the disjoint union
-of $I$ copies of the [[point]] (example \ref{Point}) is equivalently the [[discrete topological space]] (example \ref{CoDiscreteTopology})
+of $I$ copies of the [[point space]] (example \ref{Point}) is equivalently the [[discrete topological space]] (example \ref{CoDiscreteTopology})
 on that index set:
 
 $$
@@ -1269,9 +1273,10 @@ of [[limits]] in the [[category of topological spaces]].
 
 =--
 
-The following example illustrates how all these ingredients and construction principles
+The following examples illustrate how all these ingredients and construction principles
 may be combined.
-We will examine this example in more detail below in example \ref{HomeomorphismBetweenTopologicalAndCombinatorialCircle},
+
+The following example we will examine in more detail below in example \ref{HomeomorphismBetweenTopologicalAndCombinatorialCircle},
 after we have introduced the concept of _[[homeomorphisms]]_ [below](#Homeomorphisms).
 
 +-- {: .num_example }
@@ -1300,6 +1305,27 @@ The further quotient by the relation that identifies the remaining pair of sides
 
 
 =--
+
++-- {: .num_example #SpheresAndDisks}
+###### Example
+**([[spheres]] and disks)**
+
+For $n \in \mathbb{N}$ write
+
+* $D^n$ for the [[n-disk]], the [[closed ball|closed unit ball]] (def. \ref{OpenBalls}) in the $n$-dimensional [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) and equipped with the induced [[subspace topology]] (example \ref{SubspaceTopology}) of the corresponding [[metric topology]] (example \ref{MetricTopology});
+
+* $S^{n-1}$ for the [[n-sphere|(n-1)-sphere]] (def. \ref{OpenBalls}) also equipped with the corresponding [[subspace topology]];
+
+* $i_n \;\colon\; S^{n-1} \hookrightarrow D^n$ for the [[continuous function]] that exhibits this [[boundary]] inclusion.
+
+Notice that
+
+* $S^{-1} = \emptyset$ is the [[empty topological space]] (example \ref{Point});
+
+* $S^0 = \ast \sqcup \ast$ is the [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}) of the [[point topological space]] (example \ref{Point}) with itself, equivalently the [[discrete topological space]] on two elements (example \ref{SierpinskiSpace}).
+
+=--
+
 
 
 $\,$
@@ -1482,7 +1508,7 @@ $$
 
 +-- {: .num_defn #IntSubset}
 ###### Definition
-**([[topological interior]])**
+**([[topological interior]] and [[boundary]])**
 
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let $S \subset X$ be a [[subset]].
 Then the _[[topological interior]]_ of $S$ is the largest [[open subset]] $Int(S) \in \tau$ still contained in $S$,
@@ -1490,6 +1516,13 @@ $Int(S) \subset S \subset X$:
 
 $$
   Int(S) \coloneqq \underset{{O \subset S} \atop {O \subset X\, \text{open}}}{\cup} \left( U \right)
+  \,.
+$$
+
+The _[[boundary]]_ $\partial S$ of $S$ is the [[complement]] by its interior inside its [[topological closure]] (def. \ref{ClosedSubset}):
+
+$$
+  \partial S \;\coloneqq\; Cl(S) \backslash Int(S)
   \,.
 $$
 
@@ -1868,7 +1901,7 @@ is a frame homomorphism according to def. \ref{HomomorphismOfFramesOfOpens}.
 =--
 
 For the following recall from example \ref{Point}
-the [[point]] topological space $\ast = (\{1\}, \tau_\ast = \left\{\emptyset, \{1\}\right\})$.
+the [[point topological space]]  $\ast = (\{1\}, \tau_\ast = \left\{\emptyset, \{1\}\right\})$.
 
 
 +-- {: .num_prop #FrameHomomorphismsToPointAreIrrClSub}
@@ -2311,7 +2344,7 @@ $$
   X \longrightarrow \ast
 $$
 
-from $X$ to the [[point]] (def. \ref{Point}).
+from $X$ to the [[point topological space]] (def. \ref{Point}).
 
 
 In the language of [[category theory]] (remark \ref{TopCategory}), example \ref{TerminalityOfThePoint}
@@ -2330,7 +2363,7 @@ $$
   x \;\colon\; \ast \longrightarrow X
 $$
 
-from the [[point]] (def. \ref{Point}), whose image in $X$ is that element. Hence there is a [[natural bijection]]
+from the [[point topological space]] (def. \ref{Point}), whose image in $X$ is that element. Hence there is a [[natural bijection]]
 
 $$
   \left\{
@@ -2841,7 +2874,7 @@ Now we consider some actual **examples** of [[homeomorphisms]]:
 Let $(X,\tau_X)$ be a [[inhabited|non-empty]] [[topological space]], and let $x \in X$ be any point.
 Regard the corresponding [[singleton]] [[subset]] $\{x\} \subset X$ as equipped with its
 [[topological subspace|subspace topology]] $\tau_{\{x\}}$ (example \ref{SubspaceTopology}). Then this is
-[[homomorphism|homeomorphic]] to the abstract [[point]] space from example \ref{Point}:
+[[homomorphism|homeomorphic]] to the abstract [[point space]] from example \ref{Point}:
 
 $$
   (\{x\}, \tau_{\{x\}} ) \,\simeq\, \ast
@@ -2948,7 +2981,7 @@ Then:
      \,.
    $$
 
-1. There are [[homeomorphism]] between $(X,\tau)$ and its [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) with the [[point]] $\ast$ (example \ref{Point}), called the left and right _[[unitors]]_:
+1. There are [[homeomorphism]] between $(X,\tau)$ and its [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) with the [[point space]] $\ast$ (example \ref{Point}), called the left and right _[[unitors]]_:
 
    $$
      \lambda_X \;\colon\; \ast \times (X, \tau_X)  \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow} (X,\tau_X)
@@ -4122,7 +4155,7 @@ sober topological spaces $(X, \tau_X)$ are entirely characterized by their [[fra
 We saw above in prop. \ref{HausdorffReflection} that every toopological space has a "best approximation from the left" by a [[Hausdorff topological space]]. We now discuss the analogous statement for [[sober topological spaces]].
 
 
-Recall again the [[point]] topological space $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$
+Recall again the [[point topological space]]  $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$
 (example \ref{Point}).
 
 
@@ -4579,7 +4612,7 @@ of the original cover.
 In order to see that $(\star)$ has a finite subcover, first fix a point $x \in X$ and
 write $\{x\} \subset X$ for the corresponding [[singleton]] [[topological subspace]].
 By example \ref{ConcreteAndAbstractPoint} this is [[homeomorphism|homeomorphic]] to the abstract
-[[point]] space $\ast$.
+[[point space]] $\ast$.
 By example \ref{CartesianSymmetricMonoidalTop} there is thus a [[homeomorphism]] of the form
 
 $$
@@ -5980,7 +6013,7 @@ $\,$
 +-- {: .num_example #PointTopologicalSpaceAsEmptyLimit}
 ###### Example
 
-The limit over the empty diagram in $Top$ is the [[point]] $\ast$ with its unique topology.
+The limit over the empty diagram in $Top$ is the [[point space]] $\ast$ (example \ref{Point}).
 
 =--
 
@@ -6082,6 +6115,11 @@ of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]]
 
 =--
 
+
+
+
+
+
 +-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
 
@@ -6124,6 +6162,181 @@ $$
 
 =--
 
+
+
++-- {: .num_defn #SingleCellAttachment}
+###### Definition
+**(single cell attachment)**
+
+For $X$ any [[topological space]] and for $n \in \mathbb{N}$, then an _$n$-cell attachment_ to $X$ is the result of gluing an [[n-disk]] to $X$, along a prescribed image of its bounding [[n-sphere|(n-1)-sphere]] (def. \ref{SpheresAndDisks}):
+
+Let
+
+$$
+  \phi \;\colon\; S^{n-1} \longrightarrow X
+$$
+
+be a [[continuous function]], then the "attaching space"
+
+$$
+  X \cup_\phi D^n \,\in Top
+$$
+
+is the topological space which is the [[pushout]] of the boundary inclusion of the $n$-sphere along $\phi$, hence the universal space that makes the following [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    S^{n-1} &\stackrel{\phi}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
+    \\
+    D^n &\longrightarrow& X \cup_\phi D^n
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example }
+###### Example
+
+A single cell attachment of a 0-cell, according to example \ref{SingleCellAttachment} is the same as forming the [[disjoint union space]] $X \sqcup \ast$ with the [[point]] space $\ast$:
+
+$$
+  \array{
+     (S^{-1} = \emptyset) &\overset{\exists !}{\longrightarrow}&  X
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     (D^0 = \ast) &\longrightarrow& X \sqcup \ast
+  }
+  \,.
+$$
+
+In particular if we start with the [[empty topological space]] $X = \emptyset$ itself, then by attaching 0-cells we obtain a [[discrete topological space]]. To this then we may attach higher dimensional cells.
+
+
+=--
+
+
++-- {: .num_defn #CellAttachments}
+###### Definition
+**(attaching many cells at once)**
+
+
+If we have a [[set]] of attaching maps $\{S^{n_i-1} \overset{\phi_i}{\longrightarrow} X\}_{i \in I}$ (as in def. \ref{SingleCellAttachment}), all to the same space $X$, we may think of these as one single continuous function out of the [[disjoint union space]] of their [[domain]] spheres
+
+$$
+  (\phi_i)_{i \in I}
+    \;\colon\;
+  \underset{i \in I}{\sqcup}
+  S^{n_i-1}
+   \longrightarrow
+  X
+  \,.
+$$
+
+Then the result of attaching _all_ the corresponding $n$-cells to $X$ is the pushout of the corresponding [[disjoint union]] of boundary inclusions:
+
+$$
+  \array{
+    \underset{i \in I}{\sqcup} S^{n_i - 1}
+      &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
+    X
+    \\
+    \downarrow
+      &(po)&
+    \downarrow
+    \\
+    \underset{i \in I}{\sqcup} D^n
+      &\longrightarrow&
+    X \cup_{(\phi_i)_{i \in I}} \left(\underset{i \in I}{\sqcup} D^n\right)
+  }
+  \,.
+$$
+
+=--
+
+Apart from attaching a set of cells all at once to a fixed base space, we may "attach cells to cells" in that after forming a given cell attachment, then we further attach cells to the resulting attaching space, and ever so on:
+
++-- {: .num_defn #RelativeCellComplexes}
+###### Definition
+**([[relative cell complexes]] and [[CW-complexes]])
+
+
+Let $X$ be a topological space, then
+A _topological [[relative cell complex]]_ of countable height based on $X$ is a [[continuous function]]
+
+$$
+  f \colon X \longrightarrow Y
+$$
+
+and a [[sequential diagram]] of [[topological space]] of the form
+
+$$
+  X = X_0 \hookrightarrow X_1 \hookrightarrow X_2 \hookrightarrow X_3 \hookrightarrow \cdots
+$$
+
+such that
+
+1. each $X_k \hookrightarrow X_{k+1}$ is exhibited as a cell attachment according to def. \ref{CellAttachments}, hence presented by a [[pushout]] diagram of the form
+
+   $$
+     \array{
+       \underset{i \in I}{\sqcup} S^{n_i - 1}
+         &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
+       X_k
+       \\
+       \downarrow
+         &(po)&
+       \downarrow
+       \\
+       \underset{i \in I}{\sqcup} D^{n_i}
+         &\longrightarrow&
+      X_{k+1}
+     }
+     \,.
+   $$
+
+1. $Y = \underset{k\in \mathbb{N}}{\cup} X_k$ is the [[union]] of all these cell attachments, and $f \colon X \to Y$ is the canonical inclusion; or stated more abstractly: the map $f \colon X \to Y$ is the inclusion of the first component of the diagram into its [[colimit|colimiting cocone]] $\underset{\longrightarrow}{\lim}_k X_k$:
+
+   $$
+     \array{
+       X = X_0 &\longrightarrow& X_1 &\longrightarrow& X_2 &\longrightarrow& \cdots
+       \\
+       & {}_{\mathllap{f}}\searrow & \downarrow & \swarrow && \cdots
+       \\
+       && Y = \underset{\longrightarrow}{\lim} X_\bullet
+     }
+   $$
+
+If here $X = \emptyset$ is the [[empty space]] then the result is a map $\emptyset \hookrightarrow Y$, which is equivalently just a space $Y$ built form "attaching cells to nothing". This is then called just a _topological [[cell complex]]_ of countable hight.
+
+Finally, a topological (relative) cell complex of countable hight is called a **CW-complex** is the $(k+1)$-st cell attachment $X_k \to X_{k+1}$ is entirely by $(k+1)$-cells, hence exhibited specifically by a pushout of the following form:
+
+$$
+  \array{
+    \underset{i \in I}{\sqcup} S^{k}
+      &\overset{(\phi_i)_{i \in I}}{\longrightarrow}&
+    X_k
+    \\
+    \downarrow
+      &(po)&
+    \downarrow
+    \\
+    \underset{i \in I}{\sqcup} D^{k+1}
+      &\longrightarrow&
+    X_{k+1}
+  }
+  \,.
+$$
+
+A _[[finite CW-complex]]_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps.
+
+Given a CW-complex, then $X_n$ is also called its $n$-[[skeleton]].
+
+=--
 
 
 
