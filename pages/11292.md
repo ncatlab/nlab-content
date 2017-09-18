@@ -12,7 +12,7 @@ Continuous truth provides a [[topos semantics]] for Brouwer's continuity princip
 
 * Mike Fourman, _Continuous Truth II: Reflections_ [PDF](http://homepages.inf.ed.ac.uk/mfourman/research/publications/pdf/fourman2013-continuous-truth-II.pdf)
 
-* van der Hoeven, Moerdijk,: On choice sequences determined by spreads. 
+* van der Hoeven, Moerdijk: On choice sequences determined by spreads. 
 
 * Xu, Escardo: A constructive model of uniform continuity. 2013 [PDF](http://www.cs.bham.ac.uk/~mhe/papers/xu-escardo.pdf)
 
