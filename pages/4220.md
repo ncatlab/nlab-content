@@ -12,7 +12,7 @@ which we wish to solve for $x$.  In certain contexts, the solutions are given by
 
 ## Discussion
 
-The coefficients $a,b,c$ are commonly taken from an [[algebraically closed field]] $K$ of [[characteristic]] $0$, such as the field $\mathbb{C}$ of [[complex numbers]], although any quadratically closed field whose characteristic is not $2$ would work just as well.  Alternatively, the coefficients can be taken from a [[real closed field]] $K$, such as the field $\mathbb{R}$ of [[real numbers]]; then the solutions belong to $K[\mathrm{i}]$.  (Note that $\mathbb{R}[\mathrm{i}]$ is simply $\mathbb{C}$ again.)  More generally, starting from any [[integral domain]] $K$ whose characteristic is not $2$, the solutions belong to some [[splitting field]] of $K$.  (Of course, there are solutions in *some* splitting field, regardless of the characteristic, but they are not given by the quadratic formula.)
+The coefficients $a,b,c$ are commonly taken from an [[algebraically closed field]] $K$ of [[characteristic]] $0$, such as the field $\mathbb{C}$ of [[complex numbers]], although any quadratically closed field whose characteristic is not $2$ would work just as well.  Alternatively, the coefficients can be taken from a [[real closed field]] $K$, such as the field $\mathbb{R}$ of [[real numbers]]; then the solutions belong to $K[\mathrm{i}]$.  (Of course, $\mathbb{R}[\mathrm{i}]$ is simply $\mathbb{C}$ again.)  More generally, starting from any [[integral domain]] $K$ whose characteristic is not $2$, the solutions belong to some [[splitting field]] of $K$.  (Of course, there are solutions in *some* splitting field, regardless of the characteristic, but they are not given by the quadratic formula if the characteristic is $2$.)
 
 Explicitly, the solutions of (eq:eqn) may be given by the __usual quadratic formula__
 \[ \label{usual} x_\pm = \frac { - b \pm \sqrt { b ^ 2 - 4 a c } } { 2 a } ,\]
@@ -26,8 +26,8 @@ So in general, we should be given $a \ne 0$, $b \ne 0$, or $c \ne 0$ for a nonde
 
 When the coefficients come from an [[ordered field]] $K$ (which we assume real closed), then we can write down a formula specially for the case when $b \ne 0$.  This is the __numerical analysts\' quadratic formula__
 \[ \label{numanal} \begin {gathered}
-   x_{\hat{b}} = \frac { 2 c } { - b - \hat{b} \sqrt { b ^ 2 - 4 a c } } ;\\
-   x_{-\hat{b}} = \frac { - b - \hat{b} \sqrt { b ^ 2 - 4 a c } } { 2 a } .\\
+   \displaystyle x_{\hat{b}} = \frac { 2 c } { - b - \hat{b} \sqrt { b ^ 2 - 4 a c } } ;\\
+   \displaystyle x_{-\hat{b}} = \frac { - b - \hat{b} \sqrt { b ^ 2 - 4 a c } } { 2 a } .\\
 \end {gathered} \]
 In this formula, $\hat{b}$ is the sign of $b$, that is ${|b|}/b$; also, we must choose a nonnegative principal square root, so that $\sqrt{b^2 - 4 a c} \lt 0$ in $K$ is avoided (and thus the common denominator of $x_{\hat{b}}$ and numerator of $x_{-\hat{b}}$ is nonzero even if not imaginary).  Despite the name, this formula is not sufficient for all purposes in [[numerical analysis]]; one still needs all three formulas and chooses between them based on whether $a \ne 0$, $b \ne 0$, or $c \ne 0$ is best established.
 
