@@ -1,24 +1,36 @@
-Term which is often used, mostly informally.
+Term which is often used, mostly informally, in mathematical discussions. 
 
 There does not exist a standard precise meaning.
 
+Unnatural isomorphisms _per se_ are not studied in category theory. 
+
+They are often even considered irrelevant. 
+
+But understanding underlying _reasons_ for failure  of naturality($\approx$functoriality$\approx$commutativity$\approx$dynamic compatability) of correspondences can be interesting, though, at least for educational purposes. 
+
+For example: whittling down the reservoir of morphisms available for deriving contradictions until _no_ contradictions  can be derived from naturality anymore can lead to unexpected insights. One can in this way conceive of the wide subcategory of finite-dimensional $K$-vector spaces with _morphisms only_ those $K$-linear maps which leave a bilinear form (fixed from the outset, kept behind the scenes, and not being _part_ of the category) invariant as the largest wide subcategory of $\mathcal{C}$ which makes the notoriously unnatural single-dual-endofunctor natural (well, sort of, see [[extranatural]] and Section (whittlingDown) below).  At a deeper level, both natural and unnatural isomorphisms are but two facets of the same logical principle. The purpose of this article is to help understanding the concept of natural transformations. 
 
 The most important distinction is that _unnatural isomorphism_ is used both to refer to 
 
  * size: a perceived non-unicity of choices needed to build some isomorphism (let us call this _noncanonical_ isomorphism)
  * structure: a perceived non-functoriality of the isomorphism built, relative to a category (let us call this _unnatural isomorphism_)
 
-This article is _not_ about the former informal meaning, which arguably is about size only (see [MO discussion](#MathOverflow2010) for a discussion of the adjective _canonical_ instead). Rather, it  focuses on the latter meaning, and, more precisely, on the concept of unnaturally-isomorphic [[functor]]s.  Understanding such functors better can help to appreciate the important concept of [[natural isomorphism]].
+This article is _not_ about the former informal meaning, which arguably is about size only (see [MO discussion](#MathOverflow2010) for a discussion of the adjective _canonical_ instead). Rather, it  focuses on the latter meaning only, and, more precisely, on the concept of unnaturally [[natural isomorphism|isomorphic functor]]s.  Understanding unnaturally isomorphic functors can help to better appreciate the important concept of [[natural isomorphism]].
 
 
-Caution: this article is _under construction_ and unfinished, please do not use it yet.
+**Caution**: this article is _under construction_ and in a rough state, please 
 
+ * do not yet read 
+
+ * let alone use 
+
+it.
 
 
 This article has both a 
 
 * a descriptive,  
-* an analytical,
+* a conceptual,
 
 part. 
 
@@ -33,12 +45,18 @@ In the latter, examples are analyzed mathematically, and some general remarks ar
 
 ## Ideas and intuitive introduction
 
-The term _unnatural isomorphism_ is born of a wish to speak about things which appear very similar, but the similarity is less compelling than in other situations. Then, [[category theory]] is useful in analysing and systematizing the underlying reasons. Understanding situations of unnatural isomorphism can help to better appreciate [[natural isomorphism]]s, in particular, to appreciate that---contrary to what the adjective _natural_ may suggest---many isomorphisms that occur in nature are not natural in the technical sense, while many others are, and the natural ones are particularly efficient to work with.
+The term _unnatural isomorphism_ is born of a wish to speak about things which appear very similar, but the similarity is less compelling than in other situations. [[Category theory]] is useful in analyzing and systematizing the underlying reasons. Understanding situations of unnatural isomorphism can help to better appreciate [[natural isomorphism]]s, in particular, to appreciate that---contrary to what the adjective _natural_ may suggest---many isomorphisms that occur in nature are not natural in the technical sense, while many others are, and the natural ones are particularly efficient to work with.
 
-Intuitively, image you analyze two methods of manu$F$acturing certain $O'$bjects. Suppose you are only interested in some fixed sense of _(a)l$i$keness_ of the these $O'$bjects. Now you would like to compare manu$F_0$acturing the $O'$bjects one way with manu$F_1$acturing the $O'$bjects another way. 
+Intuitively, at the risk of being banale, image you analyze two methods of manu$F$acturing certain $O'$bjects. Suppose you are only interested in some fixed sense of (a)l$i$keness of the these $O'$bjects. Now you would like to compare manu$F_0$acturing the $O'$bjects one way with manu$F_1$acturing the $O'$bjects another way. 
 
-Imagine also that, from the same input, both manu$F_i$acturing-styles always produce two $O'$bjects which look al$i$ke, though not necessarily _identical_. Then, in a (your) sense, manu$F_0$acturing one way is the same as manu$F_1$acturing the other way. But you may still find the two ways essentially different, without being able to say why. Now category theory can help. In a sense, you have only compared $F_0$ and $F_1$ pointwise---statically---on the level of $0$-cells. You might find it useful to compare $F_0$ and $F_1$ dynamically, too, and then the two manu$F_ii$acturing-styles may suddenly be patently different. 
+Imagine also that, from the same input, both manu$F_i$acturing-styles always produce two $O'$bjects which look al$i$ke (that is $F_0(O)\xrightarrow[]{}$)though not necessarily _identical_. Then, in a (your) sense, manu$F_0$acturing one way is the same as manu$F_1$acturing the other way. But you may still find the two ways essentially different, without being able to say why. Now category theory can help. In a sense, you have only compared $F_0$ and $F_1$ pointwise---statically---on the level of $0$-cells. You might find it useful to compare $F_0$ and $F_1$ dynamically, too, and then the two manu$F-i$acturing-styles may suddenly be patently different. 
 To discuss this mathematically, you have to fix a _notion of change_ within the world where your _raw_ $O$bjects are coming from, in other words, fix a _category_ that your $O$bjects are coming from. 
+An example could be _change of temperature_: the only changes you are paying attention to is the temperature of your raw $O$bjects.
+
+To briefly come back to the related, but less structural, notion of usage of _noncanonical_ isomorphism: we have (noncanonical)$=\mid{\Rightarrow}$(unnatural). 
+
+For example, (under construction)
+
 
 ## Terminology
 
@@ -97,7 +115,8 @@ While, in a sense, there are several "derived" sorts (the most elementary being 
 
 ### Notational remarks
 
- * In this article, the functors compared are invariably denoted $F_0$ and $F_1$, not $F$ and $G$, like in e.g. [MathOverflow2013](#MathOverflow2013) and in many other treatments involving pairs of functors, for one main reason: there is a long tradition of denoting functors in _opposite_ directions_ by $F$ and $G$, especially in discussions of adjunctions, but this is not what this article is about.
+ * Here, the functors compared are invariably denoted $F_0$ and $F_1$, not $F$ and $G$, like in e.g. [MathOverflow2013](#MathOverflow2013), for one main reason: there is a long tradition of denoting functors in _opposite_ directions by $F$ and $G$, especially in discussions of adjunctions, but this is not what this article is about. 
+ *  Here, we write endomorphism monoids of objects via the usual hom-set notation, that is, write $\mathcal{D}(O,O)$ instead of $\mathrm{End}_{\mathcal{D}}(O)$, since the former is more systematic and not longer than the latter (especially since we could not do without the subscript $\mathcal{D}$ in the latter noation).
 
 
 (rest under construction)
