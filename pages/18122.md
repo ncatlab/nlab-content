@@ -30,6 +30,8 @@ A [[topological space]] is called _countably compact_ if every [[open cover]] co
 
 ## Related concepts
 
+* [[countably paracompact topological space]]
+
 * [[compact topological space]]
 
 * [[countably compact topological space]]
