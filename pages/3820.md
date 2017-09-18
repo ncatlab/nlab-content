@@ -206,11 +206,11 @@ The [[Peierls bracket]] of two functions $A$ and $B$ is the antisymmetrized infl
 
 The [[BV-BRST complex]] of a [[local action functional]] is (the [[Isbell duality|formal dual]] to) a [[resolution]] of the _reduced_ covariant phase space (the quotient of the covariant phase space by symmetries). As discussed in more detail at _[[BV-BRST complex]]_ the ghost sector of that complex is a model for the quotient by the symmetries, whereas the antifield/antighost sector is a model for the [[critical locus]] of the action functional.
 
-Moreover, by the nature of its construction, the BV-complex is canonically equipped with a _graded_ symplectic form $\Omega$, whose [[Gerstenhaber algebra|(-1)-graded Poisson bracket]] is called the _antibracket_ (essentially the canonical [[Schouten bracket]] on graded derivations). This is not the canonical symplectic form  $\int_\Sigma \omega$ on the [[reduced phase space]], as discussed above, but it is  something like a potential for it.
+Moreover, by the nature of its construction, the BV-complex is canonically equipped with a _graded_ symplectic form $\Omega$, whose [[Gerstenhaber algebra|(-1)-graded Poisson bracket]] is called the _antibracket_ (essentially the canonical [[Schouten bracket]] on graded derivations, see at _[[schreiber:derived critical locus]]_). This is not the canonical symplectic form  $\int_\Sigma \omega$ on the [[reduced phase space]], as discussed above, but it is  something like a potential for it.
 
 We want to make the following
 
-+-- {: .un_claim}
++-- {: .un_claim #BVAntiFormAsHomotopyForPresymplecticCurrent}
 ###### Claim
 
 Given a [[local action functional]] on a space of fields over a spacetime $X$. Let $d_{BV}$ denote the [[differential]] of the [[BV-BRST complex]] and let $d$ denote the horizontal de Rham differential on $X$. Then
@@ -279,7 +279,7 @@ $$
     \right)
     \\
     & = 
-    - d_{var} (d_{BV} \int_\Sigma \var \Phi_a(x)) \wedge d_{var} \Phi^a(x)
+    - d_{var} (d_{BV} \int_\Sigma \bar \Phi_a(x)) \wedge d_{var} \Phi^a(x)
   \end{aligned}
 $$
 
