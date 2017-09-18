@@ -89,7 +89,7 @@ The procedure (or one of its equivalent variants) that constructs the [[(∞,1)-
 
 In fact, every [[(∞,1)-category]] may be presented this way (and indeed [[posets]] equipped with [[wide subcategory|wide subcategories]] of morphisms called weak equivalences are sufficient). This is discussed at
 
-* [[model structure on categories with weak equivalences]] .
+* [[model structure on categories with weak equivalences]].
 
 Alternatively, we may further project to the 1-category in which all weak equivalences become true [[isomorphism]]s: this is the [[homotopy category]] of $C$ with respect to $W$. Equivalently this is the [[homotopy category of an (∞,1)-category]] of $\mathbf{C}$.
 
