@@ -41,16 +41,16 @@ The [[supergravity Lie 3-algebra]] $\mathfrak{sugra}_3(10,1)$ carries an [[L-∞
 $$
   \mu_7
    \coloneqq
-   \bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
+   \frac{i}{2}\bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5}
    +
-  13 \mu_4 \wedge c_3
+  15 \mu_4 \wedge c_3
   \,,
 $$
 
 where
 
 $$
-  \mu_4 = \bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
+  \mu_4 = \frac{i}{2}\bar \psi \Gamma^{a_1 a_2} \psi \wedge e_{a_1} \wedge e_{a_2}
 $$
 
 is the 4-cocycle which defines $\mathfrak{sugra}_3(10,1)$ as an extension of $\mathbb{R}^{10,1\vert \mathbf{32}}$m and where $c_3$ is the generator that cancels the class of this cocycle, $d_{CE} c_3 \propto \mu_4$.
