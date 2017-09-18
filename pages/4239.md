@@ -102,7 +102,12 @@ This is however not the morally correct CY $A_\infty$-structure associated with 
 
 ## Properties
 
-Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is what actually one should expect. Indeed, TCFTs originally arose as an abstract version of the [[CFT]]s constructed from [[sigma-model]]s whose targets are [[Calabi-Yau space]]s.
+### Classification of 2d TQFT
+
+Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is what actually one should expect. Indeed, TCFTs originally arose as an abstract version of the [[CFT]]s constructed from [[sigma-model]]s whose targets are [[Calabi-Yau spaces]].
+
+[[!include 2d TQFT -- table]]
+
 
 ## Related concepts
 
