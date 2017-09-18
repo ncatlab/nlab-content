@@ -277,6 +277,7 @@ By the nature of spectral sequences induced from exact couples ([this prop.](exa
 
 
 ### Brown representability by ring spectra
+ {#BrownRepresentabilityByRingSpectra}
 
 A _multiplicative structure_ on a [[generalized (Eilenberg-Steenrod) cohomology]] theory is the structure of a [[ring spectrum]] on the [[spectrum]] that [[Brown representability theorem|represents]] it.
 
