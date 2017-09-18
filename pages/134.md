@@ -161,7 +161,7 @@ In the case that $S$ is a [[finite set]], such as for binary product spaces $X \
 =--
 
 
-+-- {: .num_example }
++-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
 
 Let 
