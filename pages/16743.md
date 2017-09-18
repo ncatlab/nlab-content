@@ -201,6 +201,8 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 
 * K. B. Lee, _Equational Classes of Distributed Pseudo-Complemented Lattices_ , Can. J. Math. **22** (1970) pp.881-891. ([pdf](http://cms.math.ca/openaccess/cjm/v22/cjm1970v22.0881-0891.pdf))
 
+* B. Loiseau, M.-M. Mawanda, _On Natural Number Objects, Finiteness and Kripke-Platek Models in Toposes_ , JPAA **61** (1989) pp.257-266.
+
 * {#Mawanda88} M.-M. Mawanda, _Well-ordering and Choice in Toposes_ , JPAA **50** (1988) pp.171-184.
 
 * {#Mielke84} M. V. Mielke, _Homotopically Trivial Toposes_ , Pacific J. Math. **110** no.1 (1984) pp.171-182. ([euclid](https://projecteuclid.org/euclid.pjm/1102711108))
@@ -210,3 +212,5 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 * [[Chris Mulvey]], _The Maximality of Filters_ , JPAA **68** (1990) pp.253-258.
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
+
+* M. E. Szabo, _Categorical De Morgan laws_ , Alg. Universalis **12** (1981) pp.93-102.
