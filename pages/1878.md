@@ -317,3 +317,6 @@ Some useful facts are discussed in the appendix of
  {#Dugger}
 
 [[!redirects cofibrantly generated model categories]]
+
+[[!redirects cofibrantly generated model structure]]
+[[!redirects cofibrantly generated model structures]]
