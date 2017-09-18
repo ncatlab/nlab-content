@@ -388,7 +388,7 @@ $$
   \,.
 $$
 
-By the general discussion at _[[nerve and realization]]_, this induces a pair of [[adjoint functors]] between $(dgcAlg_{\mathbb{Q}, \geq 0})^{op}$ (def. \ref{dgcAlgebras}) and the category $sSet$ of [[simplicial sets]], which we denote as follows:
+By the general discussion at _[[nerve and realization]]_, this induces a pair of [[adjoint functors]] between the [[opposite category]] of [[differential graded-commutative algebras]] $(dgcAlg_{\mathbb{Q}, \geq 0})^{op}$ (def. \ref{dgcAlgebras}) and the category [[sSet]] of [[simplicial sets]]:
 
 $$
   (\Omega^\bullet_{poly} \dashv \mathcal{K}_{poly})
@@ -542,7 +542,7 @@ The original articles are
 Survey and review includes
 
 
-* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
 
