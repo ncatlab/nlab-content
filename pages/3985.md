@@ -164,7 +164,7 @@ The following proposition characterizes the _reflectors_ of a reflective $(\inft
 
 Let $C$ be an [[(∞,1)-category]] and $D \hookrightarrow C$ a full [[sub-(∞,1)-category]]. Then this inclusion has a left [[adjoint (∞,1)-functor]] precisely if 
 
-* for every object $c \in C$ there is a _localization_ or _reflection_ : a morphism $f : c \to \bar c$ such that $\bar c \in D\hookrightarrow C$ and such that for all $e \in D \hookrightarrow C$ we have that 
+* for every object $c \in C$ there is a _localization_ or _reflection_: a morphism $f : c \to \bar c$ such that $\bar c \in D\hookrightarrow C$ and such that for all $e \in D \hookrightarrow C$ we have that 
 
   $$
     Hom_C(f,e) : Hom_C(\bar c,e) \to Hom_C(c,e)
