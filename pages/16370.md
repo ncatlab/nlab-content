@@ -19,9 +19,9 @@ The concept of a **closed subtopos** generalizes the concept of a closed subspac
 
 ## Definition
 
-Let $U$ be a [[subterminal object]] of a [[topos]] $\mathcal{E}$.  Then $c_U(V) \coloneqq U\cup V$ defines a [[Lawvere-Tierney topology]] on $\mathcal{E}$, whose corresponding [[subtopos]] is called the **closed subtopos** associated to $U$.
+Let $U$ be a [[subterminal object]] of a [[topos]] $\mathcal{E}$.  Then $c_U(V) \coloneqq U\cup V$ defines a [[Lawvere-Tierney topology]] on $\mathcal{E}$, whose corresponding [[subtopos]] is called the _closed subtopos_ associated to $U$.
 
-The reflector into the sheaves can be constructed explicitly as the [[join]] with $U$, i.e. $c_U(X)$ is the [[pushout]] of $X$ and $U$ under $X\times U$.
+The reflector into the sheaves can be constructed explicitly as the [[join]] with $U$, i.e. $C_U(X)$ is the [[pushout]] of $X$ and $U$ under $X\times U$.
 
 A _topology_ $j$ that is of this form for some [[subterminal object]] $U$ is called _closed_.
 
