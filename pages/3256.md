@@ -71,6 +71,7 @@ This is [DAG XI, Theorem 2.24](#DAGXI). As a consequence, [[Postnikov tower]]s a
 
 [[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ **Nisnevich site** $\to$ [[Zariski site]]
 
+* [[cd-structure]]
 
 ## References
 
