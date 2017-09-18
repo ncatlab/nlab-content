@@ -1545,6 +1545,8 @@ A canonical compendium is
 
 Introductory textbooks to topology include
 
+* {#Kelley55} [[John Kelley]] _General Topology_, Graduate Texts in Mathematics, Springer 1955
+
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
