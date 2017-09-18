@@ -25,7 +25,7 @@ $$
   \,,
 $$
 
-where $\Gamma^{fr}(\Sigma,\phi)\hookrightarrow \Gamma(\Sigma, or(\phi))$ is the [[subgroup]] of the [[mapping class group]] of $\Sigma$ (for the given [[orientation]]) which fixe the [[isotopy]] class of the framing $[\phi]$. 
+where $\Gamma^{fr}(\Sigma,\phi)\hookrightarrow \Gamma(\Sigma, or(\phi))$ is the [[subgroup]] of the [[mapping class group]] of $\Sigma$ (for the given [[orientation]]) which fixes the [[isotopy]] class of the framing $[\phi]$. 
 
 In particular this is a [[homotopy 1-type]] for every $\phi$, and so the whole
 
