@@ -16,7 +16,9 @@
 =--
 =--
 
-> see also _[[super p-brane]]_.
+> This article is about the general concept of branes. For more specific details see also also at _[[super p-brane]]_, _[[black brane]]_ and _[[D-brane]]_.
+
+***
 
 
 #Contents#
@@ -29,14 +31,27 @@ The term _brane_ in formal high energy [[physics]], and in particular in [[strin
 
 The term derives from the word _membrane_ that was originally used to describe 2-dimensional "particles". When the need was felt to speak also about 3-, 4- and higher dimensional such "particles" the usage "3-brane", "4-brane" etc. was introduced. Ordinary particles would be 0-branes in this counting, the strings in [[string theory]] would be 1-branes and membranes themselves 2-branes.
 
-There are two fundamentally different concrete realizations of this somewhat vague notion.
+Generally, there are two different incarnations of branes
 
-1. **[[D-brane]]s** and other boundary conditions
+1. **fundamental $p$-branes** (as in "[[fundamental particle]]"): these are given by [[sigma-models]] on $(p+1)$-dimensional [[worldvolumes]] describing propagation of single $p$-dimensional objects on certain [[target spacetimes]]. If these sigma-models are required to exhibit manifest [[target spacetime]] [[supersymmetry]] then they are [[Green-Schwarz sigma models]] which are classified by a "[[brane scan]]" in [[super L-infinity algebra]] [[L-infinity algebra cohomology|cohomology]];
 
-1. **fundamental** or $\sigma$-model branes or **[[NS-branes]]**
+1. **[[black branes|black p-branes]]** (as in "[[black hole]]"): these are [[soliton|solitonic]] solutions to [[field theories]], typically [[supergravity]] theories, with [[singularities]] of [[dimension]] $(p+1)$. In analogy to how a [[charged black hole]] ($p = 0$) [[source|sources]] an [[electromagnetic field]] with [[field strength]] 2-form, so black $p$-branes source $(p+2)$-form [[higher gauge fields]] and hence appear in those [[supergravity]] theories where such exists.
+
+In higher dimensional [[supergravity]] these two kinds of branes match (at least for extremal [[BPS solutions]]), in generalization of the [[no-hair theorem]] which says that in 4-dimensional [[gravity]] [[black hole]] configurations are characterized entirely by the parameters [[mass]], [[charge]] and [[angular momentum]], just as [[fundamental particles]] are (by the [[Wigner classification]]).
+
+In [[string theory]] there is a third incarnation, at least of those branes known as 
+
+* **[[D-branes]]**: these are the admissible [[boundary conditions]] for the 2-dimensional [[sigma models]] describing [[open strings]].  
+
+One envisions that as one passes from [[perturbative string theory]] to the [[non-perturbative effect|non-perturbative]] version of the theory ("[[M-theory]]") these [[D-branes]] show [[back-reaction]] and turn into the [[UV-completion]] of the [[black branes]] seen in the [[supergravity]] [[effective field theory]]. This relation is key in the microscopic computation of [[black hole entropy]] for [[black holes in string theory]].
+ 
+
 
 
 ### Boundary conditions or D-branes
+ {#Dbranes}
+
+Some words on [[D-branes]]
 
 #### In terms of the algebraic data of the QFT on the worldvolume
 
