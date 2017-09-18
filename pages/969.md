@@ -139,6 +139,21 @@ Dorette Pronk has extended this idea to construct a [[bicategory of fractions|bi
 
 Localization is especially well developed in abelian setup where several competing formalisms and input data are used. See [[localization of an abelian category]]. 
 
+## Properties
+
+* The localization of the [[product category]] of two [[categories with weak equivalences]] is (if it exists) the product of their localizations
+
+  $$
+    (\mathcal{C} \times \mathcal{D})[ (W_{\mathcal{C}} \times W_{\mathcal{D}})^{-1} ]
+    \;\;
+      \simeq
+    \;\;
+    ( \mathcal{C}[W_{\mathcal{C}}^{-1}] )
+     \times
+    ( \mathcal{D}[W_{\mathcal{D}}^{-1}] )
+    \,.
+  $$
+
 ## In higher category theory
 
 The notion of localization of a category has analogs in [[higher category theory]].
