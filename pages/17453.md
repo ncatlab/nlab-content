@@ -44,9 +44,13 @@ A topological space $X$ is called _scattered_ if $X$ doesn't contain nonempty de
 
 * [[perfect space]]
 
+* [[Magari algebra]]
+
 * [[provability logic]]
 
 ## Reference
+
+* L. Beklemishev, D. Gabelaia, _Topological interpretations of provability logic_ , arXiv:1210.7317 (2012).  ([abstract](http://arxiv.org/abs/1210.7317))
 
 * S. Willard, _General Topology_ , Addison-Wesley Reading 1970. (Dover reprint 2004, p.219)
 
