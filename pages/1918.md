@@ -199,3 +199,14 @@ Lecture notes include
 
 [[!redirects T0]]
 [[!redirects T1]]
+
+[[!redirects T0-space]]
+[[!redirects T0-spaces]]
+[[!redirects T0-topological space]]
+[[!redirects T0-topological spaces]]
+
+[[!redirects T1-space]]
+[[!redirects T1-spaces]]
+[[!redirects T1-topological space]]
+[[!redirects T1-topological spaces]]
+
