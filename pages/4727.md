@@ -686,6 +686,7 @@ In fact their full rheonomy constraint III.3.32 is essentialy the same horizonta
 [[!redirects ∞-groupoid of ∞-Lie-algebra valued forms]]
 
 [[!redirects L-∞ algebra valued forms]]
+[[!redirects L-infinity algebra valued differential form]]
 [[!redirects L-infinity algebra valued differential forms]]
 
 [[!redirects Lie algebroid valued differential forms]]
