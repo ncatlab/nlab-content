@@ -8,6 +8,18 @@ In [[physics]]:
 * [[prequantum field theory]]
 
 * [[quantum field theory]]
+  
+  * [[algebraic quantum field theory]]
+
+  * [[functorial quantum field theory]]
+
+  * [[local quantum field theory]]
+
+  * [[Lagrangian quantum field theory]]
+
+  * [[perturbative quantum field theory]]
+
+  * [[non-perturbative quantum field theory]]
 
 In [[mathematics]]:
 
