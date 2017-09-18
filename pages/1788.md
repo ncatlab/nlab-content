@@ -1,2 +1,9 @@
 
 nix
+
+$1+\frac{\alpha_{n}}{n} =$ $\frac{P_{ord_{C}(n)}}{n}$ 
+$\left(\frac{n-\sqrt{2n-3}}{P_{ord_{C}(n)}-\sqrt{2n-3}}+O(\frac{P_{ord_{C}(n)}}{n.N_{1}(n)})\right)$
+
+$\frac{\alpha_{n}}{n} = \frac{P_{ord_{C}(n)}}{n}$ $\frac{n-\sqrt{2n-3}}{P_{ord_{C}(n)}-\sqrt{2n-3}}$ $-\frac{n(P_{ord_{C}(n)}-\sqrt{2n-3})}{n(P_{ord_{C}(n)}-\sqrt{2n-3})}$
+
+$\alpha_{n}=\frac{n-P_{ord_{C}(n)}}{P_{ord_{C}(n)}-\sqrt{2n-3}}+O(\log^{2} n)$
