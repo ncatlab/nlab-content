@@ -22,9 +22,9 @@ Every [[category with weak equivalences]] $C$ presents under Dwyer-Kan [[simplic
 
 ## Details
 
-For the purposes of the present entry, we understand under a [[category with weak equivalences]] the absolute minimum structure that may deserve to go by that name, namely a **relative category**:
+For the purposes of the present entry, a [[category with weak equivalences]] means the bare minimum of what may reasonable go by that name: 
 
-**Definition** A **relative category** $(C,W)$ is a [[category]] $C$ equipped with a choice of [[wide subcategory]] $W$.
+**Definition** A [[relative category]] $(C,W)$ is a [[category]] $C$ equipped with a choice of [[wide subcategory]] $W$.
 
 A morphism in $W$ are called a **weak equivalence** in $C$. Notice that we do not require here that these weak equivalence satisfy [[category with weak equivalences|2-out-of-3]], nor even that they contain all [[isomorphism]]s. 
 
