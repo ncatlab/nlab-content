@@ -14,14 +14,14 @@
 
 ## Definition
 
-Let $(X, \tau)$ be a [[topological space]]. We say that a point $x \in X$ has a _neighborhood base_ at $x$ if there is a collection $\{U^x_i \subset X\}_{i \in I}$ of [[open neighbourhoods]] of $x$ such that every [[neighborhood]] $W^x$ of $x$ contains some $U^x_i$:
+Let $(X, \tau)$ be a [[topological space]], and $x \in X$ a point. A _neighborhood base_ at $x$ is a collection $\{U_i \subset X\}_{i \in I}$ of [[neighbourhoods]] of $x$ such that every [[neighborhood]] $W$ of $x$ (which WLOG we may assume open) contains some $U_i$:
 
 $$
-  \underset{ { W^x \underset{\text{open}}{\subset} X } \atop { W \supset \{x\} }   }{\forall}
+  \underset{ { W \underset{\text{open}}{\subset} X } \atop { W \supset \{x\} }   }{\forall}
   \left(
     \underset{i \in I}{\exists}
     \left(
-       U^x_i \subset W^x
+       U_i \subset W
     \right)
   \right)
   \,.
