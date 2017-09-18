@@ -6,7 +6,7 @@
 
 __Baez\'s law__ is the principle that fundamental discoveries are named after the person who made them famous, not the person who made them first, and these are often not the same person.
 
-Baez\'s law it is *not* due to [[John Baez]].  It is only named after him, in accordance with itself.  It is also called the __Matthew effect__, after Matthew 25:29. It is a variant of Arnold's law, which also applies to itself.
+Baez\'s law is *not* due to [[John Baez]].  It is only named after him, in accordance with itself.  It is also called the __Matthew effect__, after Matthew 25:29. It is a variant of Arnold's law, which also applies to itself.
 
 
 ## Examples
