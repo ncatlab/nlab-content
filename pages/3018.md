@@ -193,6 +193,8 @@ More should go here, but for now see [[compact closed double category]].
 
   * [[lax natural transformation]]
 
+* [[end]]
+
 
 ## References
 
