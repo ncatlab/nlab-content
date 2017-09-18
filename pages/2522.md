@@ -279,6 +279,7 @@ A quantitative analysis showing that locally supersymmetric [[spacetime]] theori
 
 * [[Matt Reece]], _Supersymmetry: Where do we stand?_, talk in Barcelona, May 2013 ([pdf](https://indico.cern.ch/getFile.py/access?contribId=71&sessionId=1&resId=0&materialId=slides&confId=210555))
 
+* {#Ellis13} [[John Ellis]], _Supersymmetric Fits after the Higgs Discovery and Implications for Model Building_ ([arXiv:1312.5426](http://arxiv.org/abs/1312.5426))
 
 [[!redirects supersymmetries]]
 
