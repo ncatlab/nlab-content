@@ -20,4 +20,39 @@ Global analytic index theory should give a setting for index theory on [[global 
 
 The starting point of this approach should be given by the settlement of a global analytic derived version of Kashiwara and Schapira's microlocal formulation of various index theorems. It is essential, for this approach to work, to have a viewpoint on the microlocalization techniques that is very close to Toen and Vezzosi's loop space approach to the Chern character, through Hochschild and negative cyclic homology of rigid symmetric monoidal stacks of $\infty$-categories over $\infty$-stacks, with an additional microlocal fashion.
 
-The microlocalization in derived geometry involves the proper definition of the deformation to the normal bundle of a closed embedding $Z\subset X$ of global analytic spaces (or even stacks). Simpson's construction of the deformation to the normal bundle of the diagonal $X\subset X\times X$ may easily be extended to this more general situation.
+## Microlocalization in derived global analytic geometry
+
+Microlocalization in derived geometry involves the proper definition of the deformation to the normal bundle of a closed embedding $Y\subset X$ of global analytic spaces (or even stacks), which is given by the following simple construction.
+The space of loops on $X$ based on $Y$ is the groupoid acting on $Y$ given by
+$$L_Y X:=\{f\in \Hom(\Delta^1,X),\;f(0)\in Y,\;f(1)\in Y\}.$$
+More concretely, this is given by the homotopy pullback
+$$
+\array{
+    L_Y X &\to& \Hom(\Delta^1,X)
+    \\
+    \downarrow && \downarrow^{\mathrlap{ev_0\times ev_1}}
+    \\
+    Y\times Y &\to& X\times X
+}
+$$
+Remark that the natural projection $L_Y X\to Y\times Y$ makes $L_Y X$ a groupoid (of paths in $X$) acting on $Y$.
+A more explicite description of this space (that is obtained by using the homotopy $\Delta^1\sim \Delta^0$ is given by the homotopy pullback
+$$L_Y X=Y\times^h_X Y,$$
+which clearly has an interesting meaning only in the setting of derived geometry.
+
+The deformation to the normal bundle in strict derived global analytic geometry is then simply given by
+$$
+\widetilde{L_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)\in Y,\;f(0,1)\in Y\},
+$$
+which means more precisely the homotopy pullback
+More concretely, this is given by the homotopy pullback
+$$
+\array{
+    \widetilde{L_Y X} &\to& \Hom_{D^1}(\Delta^1\times D^1,X\times D^1)
+    \\
+    \downarrow && \downarrow^{\mathrlap{ev_{(0,0)}\times ev_{(1,1)}}}
+    \\
+    Y\times Y &\to& X\times X
+}
+$$
+It has a natural projection $p:\widetilde{L_Y X}\to D^1$.
