@@ -72,6 +72,9 @@ There is also [[algebraic set theory]], in which a material set theory is interp
 
 * [[Kenneth Kunen]], _Set theory,an introduction to independence proofs_, North-Holland.
 
+
+* {#LawvereRosebrugh} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
+
 ...
 
 ### In homotopy type theory
