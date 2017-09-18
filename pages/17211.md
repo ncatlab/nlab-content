@@ -62,6 +62,8 @@ Named after [[Michael Boardman]].
 
 * {#Adams74} [[John Frank Adams]], part II, section 6 of _[[Stable homotopy and generalised homology]]_ (1974)
 
+* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * Dominique Arlettaz, _The generalized Boardman homomorphisms_, Central European Journal of Mathematics March 2004, Volume 2, Issue 1, pp 50-56
 
 * {#Lurie10} [[Jacob Lurie]], lecture 7 of _[[Chromatic Homotopy Theory]]_, 2010, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
