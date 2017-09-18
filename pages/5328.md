@@ -23,10 +23,42 @@
 {: toc}
 
 
+## Idea
+
+The notion of _commutative monoid_ (or _commutative monoid object_, _commutative algebra_, _commutative algebra object_) in a [[symmetric monoidal (infinity,1)-category]] is the [[(infinity,1)-category theory|(infinity,1)-categorical]] generalization of the notion of [[commutative monoid in a symmetric monoidal category]].
+It is the commutative version of [[monoid in a monoidal (infinity,1)-category]].
+
+Note that _commutative_ here really means $E_\infty$, in the sense of [[E-infinity operad]].
+
 ## Definition
 
-(...) [[symmetric monoidal (∞,1)-category]] (...)
+A **commutative monoid** in a [[symmetric monoidal (infinity,1)-category]] $C$ is a lax symmetric monoidal $(\infty,1)$-functor
 
+$$
+  * \to C
+  \,.
+$$
+
+In more detail, this means the following:
+
+
++-- {: .un_defn}
+###### Definition
+
+Given a [[symmetric monoidal (infinity,1)-category]] in its [[quasi-category|quasi-categorical]] incarnation as a coCartesian fibration of [[simplicial set]]s
+
+$$
+  p : C^\otimes \to N(FinSet_*)
+$$
+
+a **commutative monoid** in $C$ is a [[section]]
+
+$$
+  A : N(FinSet_*) \to C^\otimes
+$$
+
+such that $A$ carries collapsing morphisms in $FinSet_*$ to coCartesian morphisms in $C^\otimes$.
+=--
 
 ## $(\infty,1)$-Category of commutative monoids
 
@@ -47,7 +79,7 @@ For $C$ a [[symmetric monoidal (∞,1)-category]] write $CMon(C)$ for the $(\inf
 
 =--
 
-This is ([Lurie, section 4](#Lurie)).
+This is ([Lurie DAG III, section 4](#LurieDAG3)) or ([Lurie HA, sections 3.2.2 and 3.2.3](#LurieHA)).
 
 +-- {: .num_theorem }
 ###### Corollary
@@ -60,36 +92,56 @@ Because the [[simplex category]] is a [[sifted (infinity,1)-category]] (as discu
 
 ## Examples
 
-* In [[∞Grpd]]: [[E-∞ spaces]]
+* A commutative monoid in [[∞Grpd]] is a [[E-∞ space]].
+
+* A commutative monoid in the [[stable (infinity,1)-category of spectra]] is a [[commutative ring spectrum]] or [[E-infinity ring]].
 
 ## Related concepts
 
-* [[∞-group completion]]
+* [[monoid in a monoidal (infinity,1)-category]]
+* [[infinity-algebra over an (infinity,1)-operad]]
 
+* [[commutative monoid in a symmetric monoidal category]]
+* [[module over a monoid]]
+
+* [[∞-group completion]]
 
 ## References
 
-* {#Lurie} [[Jacob Lurie]], _[[higher algebra|Commutative algebra]]_
+* {#LurieDAG3} [[Jacob Lurie]], _[[Commutative Algebra]]_.
 
+* {#LurieHA} [[Jacob Lurie]], _[[Higher Algebra]]_.
+
+An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic theories]] is in
+
+* [[James Cranch]], _Algebraic Theories and $(\infty,1)$-Categories_ ([arXiv](http://arxiv.org/abs/1011.3243))
 
 [[!redirects commutative monoid in a symmetric monoidal (∞,1)-category]]
 
+[[!redirects commutative monoid in an (∞,1)-category]]
+[[!redirects commutative monoid in an (infinity,1)-category]]
+[[!redirects commutative monoid in a monoidal (∞,1)-category]]
+[[!redirects commutative monoid in a monoidal (infinity,1)-category]]
+[[!redirects commutative monoid in a symmetric monoidal (∞,1)-category]]
+[[!redirects commutative monoid in a symmetric monoidal (infinity,1)-category]]
+
+[[!redirects commutative monoids in an (∞,1)-category]]
+[[!redirects commutative monoids in an (infinity,1)-category]]
+[[!redirects commutative monoids in a monoidal (∞,1)-category]]
+[[!redirects commutative monoids in a monoidal (infinity,1)-category]]
 [[!redirects commutative monoids in a symmetric monoidal (∞,1)-category]]
 [[!redirects commutative monoids in a symmetric monoidal (infinity,1)-category]]
 
+[[!redirects commutative algebra in an (∞,1)-category]]
+[[!redirects commutative algebra in an (infinity,1)-category]]
+[[!redirects commutative algebra in a monoidal (∞,1)-category]]
+[[!redirects commutative algebra in a symmetric monoidal (∞,1)-category]]
+[[!redirects commutative algebras in an (∞,1)-category]]
+[[!redirects commutative algebras in an (infinity,1)-category]]
+[[!redirects commutative algebras in a monoidal (∞,1)-category]]
+[[!redirects commutative algebras in a symmetric monoidal (∞,1)-category]]
 
 [[!redirects commutative ∞-monoid]]
 [[!redirects commutative ∞-monoids]]
-
-[[!redirects commutative ∞-monoid]]
-[[!redirects commutative ∞-monoids]]
-
-
-[[!redirects commutative ∞-monoid]]
-[[!redirects commutative ∞-monoids]]
-
-[[!redirects commutative ∞-monoid]]
-[[!redirects commutative ∞-monoids]]
-
 [[!redirects commutative infinity-monoid]]
 [[!redirects commutative infinity-monoids]]
