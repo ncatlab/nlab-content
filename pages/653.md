@@ -31,7 +31,12 @@ $$
 t(m,n) = (1,\partial(m)n)
 $$
 for $m \in M$, $n \in N,$ we have that $(G,s,t)$ is a $cat^1$-group.
+
 =--
+
+#See also#
+
+* [[single-sorted definition of a category]]
 
 #References#
 
