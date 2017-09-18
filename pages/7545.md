@@ -11,7 +11,7 @@ I call these _absolute_ forms.  The term 'absolute' suggests a lack of additiona
 
 The main theorem of absolute forms is that, if $\omega$ is a (pseudo)-$p$-form and $R$ is a (pseudo)-oriented $p$-dimensional submanifold, then
 $$ {|\int_R \omega|} \leq \int_{|R|} {|\omega|} ,$$
-where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{R}|$ is simply $R$ with its (pseudo)-orientation ignored, and the absolute value on the left is the ordinary absolute value of scalars.  This theorem also applies if we start with an absolute $p$-form $\omega$, (although in that case $R$ starts out unoriented and so is the same as ${|R|}$).  If $R$ is a [[de Rham cohomology|de Rham]] chain (a formal [[linear combination]] of appropriately oriented submanifolds), we also take absolute values of the formal coefficients in ${|R|}$.
+where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{R}|$ is simply $R$ with its (pseudo)-orientation ignored, and the absolute value on the left is the ordinary absolute value of scalars.  This theorem also applies if we start with an absolute $p$-form $\omega$, (although in that case $R$ starts out unoriented and so is the same as ${|R|}$).  If $R$ is a [[de Rham cohomology|de Rham]] chain (a formal [[linear combination]] of appropriately oriented submanifolds), we also take absolute values of the formal coefficients in ${|R|}$.  (This operation does not respect the usual notion of equality of chains, but the theorem is true all the same.)
 
 
 ## Definitions
