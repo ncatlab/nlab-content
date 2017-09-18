@@ -16,50 +16,25 @@
 
 ## Idea ##
 
-Given a [[stable (∞,1)-category]] $C$, its [[decategorification]]
+Given a [[stable (∞,1)-category]] $C$, its naive [[decategorification]] (its set of objects modulo the relation of [[equivalence]]) naturally inherits the structure of an abelian [[monoid]] from the [[biproducts]] in $C$.  That is, we define $[a]+[b] = [a\oplus b]$.  We can then further pass to the [[Grothendieck group]], adding formal additive inverses to get an abelian [[group]].
 
-$$
-  K_0(C) = \{equivalence \,classes\; [c]\; of \,objects \,c \in C\}
-$$
-
-
-naturally inherits the structure of an abelian [[group]] from the [[fibration sequence]]s in $C$:
-
-for 
-
-$$
-  a \to x \to c
-$$ 
-
-a [[fibration sequence]] (i.e. a homotopy exact sequence) the abelian group operation
-
-$$
-  + : K_0(C) \times K_0(C) \to K_0(C)
-$$
-
-is such that
-
-$$
-  [x] = [a] + [c]
-  \,.
-$$
-
-The group $K_0(C)$ is called the **K-group** of $C$ or the [[Grothendieck group]] of $C$. See in particular the latter entry for more details.
+Note that such a biproduct sits in a [[split exact sequence|split]] (co)[[fibration sequence]] $a\to a\oplus b \to b$.  Often we would like to obtain an analogous additivity result for *arbitrary* (co)fibration sequences (a.k.a. [[distinguished triangles]]).  This requires imposing the [[generators and relations|relation]] $[c] = [a] + [b]$ for any fibration sequence $a\to c\to b$, thereby passing to a quotient abelian group called $K_0(C)$, the **K-group** or [[Grothendieck group]] of $C$; see the latter entry for more details.
 
 The "K" is chosen by Grothendieck for the German word _Klasse_ for "class". The K-group of $C$ is the group of equivalence classes of $C$: it is a group due to the existence of a notion of exact sequences in $C$.
 
-K-theory starts with the study of these K-groups and their higher analogues. Sometimes the K-groups themselves are called "K-theory". One would say for instance: "$K(C)$ is the K-theory of $C$."
+K-theory starts with the study of these K-groups and their higher analogues $K_n(C)$, collectively denoted $K(C)$. Sometimes the K-groups themselves are called "K-theory". One would say for instance: "$K(C)$ is the K-theory of $C$."
 
-More generally, there is a [[symmetric monoidal (infinity,1)-category|symmetric groupal ∞-groupoid]] $\mathbf{K}(C)$  -- i.e. a connective [[spectrum]] -- in between the [[decategorification]] from $C$ to $K(C)$ of which $K(C)$ is the set of [[simplicial homotopy group|connected components]]
+More generally, there is a [[symmetric monoidal (infinity,1)-category|symmetric groupal ∞-groupoid]] $\mathbf{K}(C)$  -- i.e. a connective [[spectrum]] -- in between the [[decategorification]] from $C$ to $K(C)$, for which $K_0(C)$ is the set of [[simplicial homotopy group|connected components]]
 
 $$
   C \mapsto \mathbf{K}(C) \to \pi_0 \mathbf{K}(C) = K(C)
   \,.
 $$
 
+and more generally $K_n(C) = \pi_n \mathbf{K}(C)$.
+
 In nice cases this is the degree 0 part of a non-connective [[spectrum]] which is then the **K-theory spectrum** of $C$.
 This is also called the **Waldhausen K-theory** of $C$.
-
 
 
 
