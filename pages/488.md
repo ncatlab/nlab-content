@@ -37,7 +37,7 @@ Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in 
 
 ### Relation to measure theory
 
-Boolean toposes are closed related to [[measurable spaces]] (e.g [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
+Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
 
 ### As atoms in the subtopos lattice
 
