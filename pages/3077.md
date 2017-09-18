@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Contents 
 * table of contents 
 {: toc}
 
 ## Idea 
 
-An ordinary "[[line]]" $\mathbb{R}$ is sometimes thought of as the result of gluing a [[countable set|countable]] number of copies of a half-open interval $[0, 1)$ end-to-end in both directions. A _long line_ is similarly obtained by gluing an [[uncountable set|uncountable]] number of copies of $[0, 1)$ end-to-end in both directions, and is demonstrably "longer" than an ordinary line on account of a number of peculiar properties. 
+The ordinary "[[line]]" $\mathbb{R}$ (i.e. the [[real numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]]) may be thought of as the result of gluing a [[countable set]]  of copies of the [[half-open interval]] $[0, 1)$ end-to-end in both directions. A _long line_ is similarly obtained by gluing an _[[uncountable set]]_ of copies of $[0, 1)$ end-to-end in both directions, and is demonstrably "longer" than an ordinary line on account of a number of peculiar properties. 
 
 The long line is a source of many counterexamples in [[topology]]. 
 
@@ -14,10 +24,12 @@ The long line is a source of many counterexamples in [[topology]].
 
 +-- {: .num_defn} 
 ###### Definition
-Let $\omega_1$ be the first [[uncountable ordinal]], and consider $[0, 1)$ as an [[total order|ordered set]]. A **long ray** is the ordered set $\omega_1 \times [0, 1)$ taken in the [[lexicographic order]]; as a [[topological space|space]], it is given the [[order topology]]. The **long line** is the space obtained by gluing two long rays together at their initial points. 
+
+Let $\omega_1$ be the [[first uncountable ordinal]], and consider the [[half-open interval]] $[0, 1)$ as an [[total order|totally ordered set]]. A **long ray** is the ordered set $\omega_1 \times [0, 1)$ taken in the [[lexicographic order]]; as a [[topological space|space]], it is given the [[order topology]]. The **long line** is the space obtained by gluing two long rays together at their initial points.
+
 =-- 
 
-The long line is a line in the sense of being a $1$-dimensional [[manifold]] (without boundary) that is not closed (so not a [[circle]]).  However, it is not [[paracompact space|paracompact]], so it is not [[homeomorphic]] to the [[real line]] (even though it is [[Hausdorff space|Hausdorff]]).
+The long line is a line in the sense of being a $1$-dimensional [[locally Euclidean space]] (without boundary) that is not closed (so not a [[circle]]).  However, it is not [[paracompact space|paracompact]], so it is not [[homeomorphic]] to the [[real line]] (even though it is [[Hausdorff space|Hausdorff]]).
 
 
 ## Properties 
@@ -28,7 +40,7 @@ Let $L$ denote the long line, and $R$ the long ray.
 
 2. $L$ is a [[normal space|normal]] ($T_4$) space, but the [[Tychonoff product]] $L \times \bar{L}$ with its one-point [[compactification]] is not normal. (See for example [Munkres](#Munk).) 
 
-3. Every continuous map $L \to L$ has a fixed point. 
+3. Every continuous map $L \to L$ has a [[fixed point]]. 
 
 4. $R$ is [[sequentially compact space|sequentially compact]] but not [[compact space|compact]]. 
 
@@ -42,11 +54,13 @@ is both closed and open. It also contains $0$, hence is all of $I$. But it can't
 
 ## References 
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Long_line_) 
-
 * Steen and Seebach, _Counterexamples in Topology_. Springer-Verlag, New York, 1978. Reprinted by Dover Publications, New York, 1995. 
 
 * [[James Munkres]], _Topology_ (2nd edition). Prentice-Hall, 2000. 
+
+See also
+
+* Wikipedia, _[Long line (topology)](https://en.wikipedia.org/wiki/Long_line_(topology))_
 
 
 [[!redirects long line]]
