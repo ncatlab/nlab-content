@@ -7425,10 +7425,13 @@ Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B 
 
 $\,$
 
+
+##### Existence
+
 +-- {: .num_prop #GeneratorsOfCohomologyOfBunChernClasses}
 ###### Proposition
 
-The [[cohomology ring]] of the [[classifying space]] $B U(n)$ (def. \ref{EOn}) is the [[polynomial ring]] on generators $\{c_k\}_{k = 1}^{n}$ of degree 2, called the _[[universal Chern classes]]_
+The [[cohomology ring]] of the [[classifying space]] $B U(n)$ (for the [[unitary group]] $U(n)$) is the [[polynomial ring]] on generators $\{c_k\}_{k = 1}^{n}$ of degree 2, called the _Chern classes_
 
 $$
   H^\bullet(B U(n), \mathbb{Z})
@@ -7437,10 +7440,10 @@ $$
   \,.
 $$
 
-Moreover, for $i \colon B U(n_1) \longrightarrow BU(n_2)$ the canonical inclusion for $n_1 \leq n_2 \in \mathbb{N}$, then the induced pullback map on cohomology 
+Moreover, for $B i \colon B U(n_1) \longrightarrow BU(n_2)$ the canonical inclusion for $n_1 \leq n_2 \in \mathbb{N}$, then the induced pullback map on cohomology 
 
 $$
-   i^\ast 
+   (B i)^\ast 
      \;\colon\;
    H^\bullet(B U(n_2))
      \longrightarrow
@@ -7450,7 +7453,7 @@ $$
 is given by
 
 $$
-  i^\ast(c_k)
+  (B i)^\ast(c_k)
   \;=\;
   \left\{
     \array{
@@ -7469,14 +7472,14 @@ $$
 +-- {: .proof}
 ###### Proof
 
-For $n = 1$, in which case $B U(1) \simeq \mathbb{C}P^\infty$ is the infinite [[complex projective space]] (def. \ref{ComplexProjectiveSpace}), we have by prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace} that
+For $n = 1$, in which case $B U(1) \simeq \mathbb{C}P^\infty$ is the infinite [[complex projective space]], we have by prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace}
 
 $$
   H^\bullet(B U(1)) \simeq \mathbb{Z}[ c_1 ]
   \,,
 $$
 
-where $c_1$ is called the [[first Chern class]]. From here we proceed by [[induction]]. So assume that the statement has been shown for $n-1$.
+where $c_1$ is the [[first Chern class]]. From here we proceed by [[induction]]. So assume that the statement has been shown for $n-1$.
 
 Observe that the canonical map $B U(n-1) \to B U(n)$ has as [[homotopy fiber]]  the [[n-sphere|(2n-1)sphere]] (prop. \ref{HomotopyFiberOfInclusionOfConsecutiveClassifyingSpaces}) hence there is a [[homotopy fiber sequence]] of the form
 
@@ -7497,7 +7500,7 @@ $$
   \underset{\simeq 0}{\underbrace{H^{2k+1-2n}(B U(n))}}
    \longrightarrow
   H^{2k+1}(B U(n))
-   \overset{i^\ast}{\longrightarrow}
+   \overset{(B i)^\ast}{\longrightarrow}
   \underset{\simeq 0}{\underbrace{H^{2k+1}(B U(n-1))}}
   \to 
   \cdots
@@ -7518,7 +7521,7 @@ $$
   H^{2k+1-2n}(B U(n))
    \longrightarrow
   H^{2k+1}(B U(n))
-   \overset{i^\ast}{\longrightarrow}
+   \overset{(B i)^\ast}{\longrightarrow}
   \underset{\simeq 0}{\underbrace{H^{2k+1}(B U(n-1))}}
   \to 
   \cdots
@@ -7551,7 +7554,7 @@ $$
   H^{2k-2n}(B U(n))
    \longrightarrow
   H^{2k}(B U(n))
-   \overset{i^\ast}{\longrightarrow}
+   \overset{(B i)^\ast}{\longrightarrow}
   H^{2k}(B U(n-1))
    \longrightarrow
   \underset{\simeq 0}{\underbrace{H^{2k +1 - 2n}(B U(n))}}
@@ -7568,7 +7571,7 @@ $$
   H^{2k-2n}(B U(n))
    \longrightarrow
   H^{2k}(B U(n))
-   \overset{i^\ast}{\longrightarrow}
+   \overset{(B i)^\ast}{\longrightarrow}
   H^{2k}(B U(n-1))
     \to
   0
@@ -7582,7 +7585,7 @@ $$
   \mathbb{Z}
    \overset{c_n \cup (-)}{\longrightarrow}
   H^{\bullet \leq 2n}(B U(n))
-   \overset{i^\ast}{\longrightarrow}
+   \overset{(B i)^\ast}{\longrightarrow}
   (\mathbb{Z}[c_1, \cdots, c_{n-1}])_{\bullet \leq 2n}
     \to
   0
@@ -7607,6 +7610,169 @@ $$
 Now by another induction over these short exact sequences, the claim follows. 
 
 =--
+
+
+##### Splitting principle
+
+
++-- {: .num_lemma #FromBUnTOBU1nPullbackInCohomologyIsInjective}
+###### Lemma
+
+For $n \in \mathbb{N}$ let $\mu_n \;\colon\; B (U(1)^n) \longrightarrow B U(n)$ be the canonical map. Then the induced pullback operation on [[ordinary cohomology]]
+
+$$
+  \mu^\ast_n
+  \;\colon\;
+   H^\bullet( B U(n); \mathbb{Z} )
+   \longrightarrow
+   H^\bullet( B U(1)^n; \mathbb{Z} )
+$$
+
+is a [[monomorphism]].
+
+=--
+
+(e.g. [Kochmann 96, p. 40](#Kochmann96))
+
+
++-- {: .num_prop #SplittingPrincipleForChernClasses}
+###### Proposition
+
+For $k \leq n \in \mathbb{N}$ let $B i_n \;\colon\; B (U(1)^n) \longrightarrow B U(n)$ be the canonical map. Then the induced pullback operation on [[ordinary cohomology]] is of the form 
+
+$$
+  (B i_n)^\ast 
+  \;\colon\;
+  \mathbb{Z}[c_1, \cdots, c_k]
+  \longrightarrow
+  \mathbb{Z}[(c_1)_1,\cdots (c_1)_n]
+$$
+
+and sends the $k$th Chern class $c_k$ (def. \ref{GeneratorsOfCohomologyOfBunChernClasses}) to the $k$th [[elementary symmetric polynomial]] in the $n$ copies of the [[first Chern class]]:
+
+$$
+  (B i_n)^\ast 
+    \;\colon\;
+  c_k \mapsto \sigma_k( (c_1)_1, \cdots, (c_1)_n )
+  \coloneqq
+  \underset{1 \leq i_1 \leq \cdots \leq i_k \leq n}{\sum}
+   (c_1)_{i_1} \cdots (c_1)_{i_n}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider the case $n = 1$.
+
+The [[classifying space]] $B U(1)$ (def. \ref{EOn}) is equivalently the infinite [[complex projective space]] $\mathbb{C}P^\infty$. Its [[ordinary cohomology]] is the [[polynomial ring]] on a single generator $c_1$, the [[first Chern class]] (prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace})
+
+$$
+  H^\bullet(B U(1))
+    \simeq
+  \mathbb{Z}[ c_1 ]
+  \,.
+$$
+
+Moreover, $B i_1$ is the identity and the statement follows.
+
+Now by the [[Künneth theorem]] for ordinary cohomology ([prop.](K%C3%BCnneth+theorem#KunnethInOrdinaryCohomology)) the cohomology of the [[Cartesian product]] of $n$ copies of $B U(1)$ is the [[polynomial ring]] in $n$ generators
+
+$$
+  H^\bullet(B U(1)^n)
+   \simeq
+  \mathbb{Z}[(c_1)_1, \cdots, (c_1)_n]
+  \,.
+$$
+
+By prop. \ref{GeneratorsOfCohomologyOfBunChernClasses} the domain of $(B i_n)^\ast$ is the [[polynomial ring]] in the Chern classes $\{c_i\}$, and by the previous statement the codomain is the polynomial ring on $n$ copies of the first Chern class
+
+$$
+  (B i_n)^\ast
+    \;\colon\;
+   \mathbb{Z}[ c_1, \cdots, c_n ]
+     \longrightarrow
+   \mathbb{Z}[ (c_1)_1, \cdots, (c_1)_n ]
+  \,.
+$$
+
+This allows to compute $(B i_n)^\ast(c_k)$ by [[induction]]:
+
+Consider $n \geq 2$ and assume that $(B i_{n-1})^\ast_{n-1}(c_k) = \sigma_k((c_1)_1, \cdots, (c_1)_{(n-1)})$. We need to show that then also $(B i_n)^\ast(c_k) = \sigma_k((c_1)_1,\cdots, (c_1)_n)$.
+
+Consider then the [[commuting diagram]]
+
+$$
+  \array{
+    B U(1)^{n-1}
+      &\overset{ B i_{n-1} }{\longrightarrow}&
+    B U(n-1)
+    \\
+    {}^{\mathllap{B j_{\hat t}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{B i_{\hat t}}}
+    \\
+    B U(1)^n
+     &\underset{B i_n}{\longrightarrow}&
+    B U(n)
+  }
+$$
+
+where both vertical morphisms are induced from the inclusion
+
+$$
+  \mathbb{C}^{n-1} \hookrightarrow \mathbb{C}^n
+$$
+
+which omits the $t$th coordinate.
+
+Since two embeddings $i_{\hat t_1}, i_{\hat t_2} \colon U(n-1) \hookrightarrow U(n)$ differ by [[conjugation]] with an element in $U(n)$, hence by an [[inner automorphism]], the maps $B i_{\hat t_1}$ and $B_{\hat i_{t_2}}$ are [[homotopy|homotopic]], and hence $(B i_{\hat t})^\ast = (B i_{\hat n})^\ast$, which is the morphism from prop. \ref{GeneratorsOfCohomologyOfBunChernClasses}.
+
+By that proposition, $(B i_{\hat t})^\ast$ is the identity on $c_{k \lt n}$ and hence by induction assumption
+
+$$
+  \begin{aligned}
+    (B i_{n-1})^\ast (B i_{\hat t})^\ast c_{k \lt n}
+    &=
+    (B i_{n-1})^\ast c_{k \lt n}
+    \\
+    = 
+    \sigma_k( (c_1)_1, \cdots, \widehat{(c_1)_t}, \cdots, (c_1)_n )
+  \end{aligned}
+  \,.
+$$
+
+Since pullback along the left vertical morphism sends $(c_1)_t$ to zero and is the identity on the other generators, this shows that
+
+$$
+  (B i_n)^\ast(c_{k \lt n})
+    \simeq
+   \sigma_{k\lt n}((c_1)_1, \cdots, \widehat{(c_1)_t}, \cdots, (c_1)_n)
+   \;\;
+   mod (c_1)_t
+  \,.
+$$
+
+This implies the claim for $k \lt n$. 
+
+For the case $k = n$ the commutativity of the diagram and the fact that the right map is zero on $c_n$ by prop. \ref{GeneratorsOfCohomologyOfBunChernClasses} shows that the element $(B j_{\hat t})^\ast (B i_n)^\ast c_n = 0$ for all $1 \leq t \leq n$. But by lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective} the morphism $(B i_n)^\ast$, is injective, and hence $(B i_n)^\ast(c_n)$ is non-zero. Therefore for this to be annihilated by the morphisms that send $(c_1)_t$ to zero, for all $t$, the element must be proportional to all the $(c_1)_t$. By degree reasons this means that it has to be the product of all of them
+
+$$
+  \begin{aligned}
+    (B i_n)^{\ast}(c_n) 
+     & = (c_1)_1 \otimes (c_1)_2 \otimes \cdots \otimes (c_1)_n
+     \\
+     & = \sigma_n( (c_1)_1, \cdots, (c_1)_n )
+  \end{aligned}
+  \,.
+$$
+
+This completes the induction step.
+
+=--
+
 
 
 
