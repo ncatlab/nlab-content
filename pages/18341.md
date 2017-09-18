@@ -1,11 +1,8 @@
-Term used in 
-[MathOverflow2013](#MathOverflow2013)
+Term used in [MathOverflow2013](#MathOverflow2013). 
 
+There, two functors $F\colon \mathsf{C}_\mathrm{l}\rightarrow\mathsf{C}_\mathrm{r}$ and $G\colon \mathsf{C}_\mathrm{l}\rightarrow\mathsf{C}_\mathrm{r}$  have been called _essentially pointwise isomorphic_ if 
 
-
-Two functors $F\colon \mathsf{C}_\mathrm{l}\rightarrow\mathsf{C}_\mathrm{r}$ and $G\colon \mathsf{C}_\mathrm{l}\rightarrow\mathsf{C}_\mathrm{r}$ may justifiably called _essentially pointwise isomorphic_ if 
-
-* there exists a [[class function (set theory)]] $\Phi\colon\mathrm{Ob}(\mathsf{C}_\upl)\rightarrow\mathrm{Ar}(\mathsf{C}_{\mathrm{r}})$ such that 
+* there exists a [[class function (set theory)]] $\Phi\colon\mathrm{Ob}(\mathsf{C}_\mathrm{l})\rightarrow\mathrm{Mor}(\mathsf{C}_{\mathrm{r}})$ such that 
 
 for each $O_{\mathrm{l}}\in\mathrm{Ob}(\mathsf{C}_{\mathrm{l}})$ the morphism 
 
