@@ -34,7 +34,7 @@ The passage from a [[manifold]] $M$ to its [[boundary]] $\partial M$ has some fo
 
 A __cobordism category__ is a triple $(D,\partial,i)$ where 
 
-* $D$ is a [[svelte category]] 
+* $D$ is a [[svelte category]] (i.e. an [[essentially small category]])
 
   * with finite [[coproduct]]s (called [[direct sum]]s, often denoted by $+$), 
 
