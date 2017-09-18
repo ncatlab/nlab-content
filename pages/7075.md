@@ -29,12 +29,14 @@
 
 ## Idea
 
-The _Hopf fibration_ (named after [[Heinz Hopf]]) is a canonical nontrivial  [[circle bundle]] over the [[2-sphere]] whose total space is the [[3-sphere]].
+The _complex Hopf fibration_ (named after [[Heinz Hopf]]) is a canonical nontrivial  [[circle principal bundle]] over the [[2-sphere]] whose total space is the [[3-sphere]].
 
 $$
   S^1 \hookrightarrow S^3 \to S^2 
   \,.
 $$
+
+Its canonically [[associated bundle|associated]] [[complex line bundle]] is the [[basic line bundle on the 2-sphere]].
 
 This we discuss below in 
 
