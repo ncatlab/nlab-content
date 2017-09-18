@@ -1,3 +1,0 @@
-Graduate student in Pure Mathematics at Queen Mary, University of London.
-
-Email: iulian.udrea at gmail.com
