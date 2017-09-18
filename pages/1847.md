@@ -71,14 +71,14 @@ Every [[compact space]] is paracompact.
 +-- {: .num_example }
 ###### Example
 
-Every [[locally compact topological group|locally compact]] [[topological group]] is paracompact ([this prop.](topological+group#ConnectedLocallyCompactTopologicalGroupsAreSigmaCompact)).
+Every [[locally connected topological space|locally connected]] [[locally compact topological group|locally compact]] [[topological group]] is paracompact ([this prop.](topological+group#ConnectedLocallyCompactTopologicalGroupsAreSigmaCompact)).
 
 =--
 
 +-- {: .num_prop }
 ###### Proposition
 
-[[locally compact space|locally compact]] and [[second-countable space|second-countable]] [[Hausdorff space]] are paracompac
+[[locally compact space|locally compact]] and [[second-countable space|second-countable]] [[Hausdorff space]] are paracompact.
 
 =--
 
