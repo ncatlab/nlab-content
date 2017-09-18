@@ -76,9 +76,17 @@ A _morphism of $n$-truncated cubical sets_ is an arrow of $\mathsf{Set}^{\square
 
 =--
 
++-- {: .num_defn}
+###### Terminology
+
+Let $X$ be an $n$-truncated cubical set. Let $0 \leq m \geq n$ be an integer. By an _$m$-cube_ of $X$, we shall mean an $m$-cube of $sk_{n}(X)$, where $sk_{n}$ is $n$-skeleton functor defined in Notation \ref{NotationNSkeleton}.
+
+=--
+
+
 ## Skeleton
 
-+-- {: .num_defn}
++-- {: .num_defn #NotationNSkeleton}
 ###### Notation
 
 Let $n \geq 0$ be an integer. By [[Kan extension | left Kan extension]], the functor $tr_{n} : \mathsf{Set}^{\square^{op}} \rightarrow \mathsf{Set}^{\square_{n}^{op}}$ admits a [[adjoint functor | left adjoint]] $i_{!} : \mathsf{Set}^{\square_{n}^{op}} \rightarrow \mathsf{Set}^{\square^{op}}$. We shall denote this functor by $sk_{n}$.
