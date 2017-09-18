@@ -514,7 +514,7 @@ $$
   }
 $$
 
-This makes it manifest that as $S^1_a$ passes along the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\p_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
+This makes it manifest that as $S^1_a$ passes along the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\pi_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
 
 =--
 
@@ -1070,7 +1070,7 @@ $$
   \,.
 $$
 
-This is a [[cocone]] under the the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$, while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
+This is a [[cocone]] under the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$, while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
 
 $$
   \array{
