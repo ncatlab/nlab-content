@@ -53,7 +53,7 @@ since $e, f, e f, f e$ are all idempotent, and so $f e = (e f)^\ast = e f$, whic
 
 Thus the idempotents in an inverse semigroup form a subsemigroup which is commutative and idempotent. Such a structure is the same as a meet-semilattice except for the fact that there might not have an empty meet or top element; that is, we define an order $\leq$ on idempotents by $e \leq f$ if and only if $e = e f$, whence multiplication of idempotents becomes the binary meet. 
 
-### The $\ast$ operation is an involution 
+### $\ast$ is an anti-involution 
 
 +-- {: .num_lemma #invol} 
 ###### Lemma 
@@ -180,7 +180,7 @@ Let $S$ be an [[inhabited set|inhabited]] semigroup with the property that for e
 ###### Proof 
 Since $S$ is inhabited, say by an element $b$, it has an idempotent $e$, for example $b b^\ast$. We will show that $x e = x$ for any $x$; by a similar argument $e x = x$, so that any idempotent $e$ is an identity (*the* identity $1$), whence the idempotents $a a^\ast$ and $a^\ast a$ equal $1$ for any $a$ and $S$ is a group. 
 
-If $a y a = a$ for unique $y$, then from $(a y a) y a = a y a = a$ it follows $y a y = a$ and hence $S$ is an inverse semigroup. The same observation means it is enough to show $(x e) x^\ast (x e) = x e$, since then also $x^\ast (x e) x^\ast = x^\ast$, which by uniqueness implies $x e = x$. 
+If $a y a = a$ for unique $y$, then from $(a y a) y a = a y a = a$ it follows $y a y = y$ and hence $S$ is an inverse semigroup. The same observation means it is enough to show $(x e) x^\ast (x e) = x e$, since then also $x^\ast (x e) x^\ast = x^\ast$, which by uniqueness implies $x e = x$. 
 
 The above results on inverse semigroups apply and we derive 
 
