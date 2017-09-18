@@ -156,7 +156,7 @@ The monad $G F$ is left adjoint to the comonad $H G$, with the structure maps be
 
 ### Specific examples
 
-* Given any [[ring]] [[homomorphism]] $f^\circ: R\to S$ (in commutative case dual to an [[affine morphism]] $f: Spec S\to Spec R$ of [[affine schemes]]), there is an adjoint triple $f^*\dashv f_*\dashv f^*$ where $f^*: {}_R Mod\to {}_S Mod$ is an [[extension of scalars]], $f_*: {}_S Mod\to {}_R Mod$ the restriction of scalars and $f^! : M\mapsto Hom_R ({}_R S, {}_R M)$ its [[right adjoint]]. This triple is affine in the above sense.
+* Given any [[ring]] [[homomorphism]] $f^\circ: R\to S$ (in commutative case dual to an [[affine morphism]] $f: Spec S\to Spec R$ of [[affine schemes]]), there is an adjoint triple $f^!\dashv f_*\dashv f^*$ where $f^*: {}_R Mod\to {}_S Mod$ is an [[extension of scalars]], $f_*: {}_S Mod\to {}_R Mod$ the restriction of scalars and $f^! : M\mapsto Hom_R ({}_R S, {}_R M)$ its [[coextension of scalars|right adjoint]]. This triple is affine in the above sense.
 
 * If $T$ is a [[lax-idempotent 2-monad]], then a $T$-algebra $A$ has an adjunction $a : T A \rightleftarrows A : \eta_A$.  If this extends to an adjoint triple with a further left adjoint to $a$, then $A$ is called a [[continuous algebra]].
 
