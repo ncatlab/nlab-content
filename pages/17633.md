@@ -16,8 +16,8 @@ An element $x$ of $A$ is:
 
 * __positive__ (or _positive semidefinite_) if $x \geq 0$,
 * __negative__ (or _negative semidefinite_) if $x \leq 0$,
-* __indefinite__ if $x # y$ whenever $y$ is positive or negative,
-* __semidefinite__ if $x # y$ whenever $y$ is indefinite,
+* __indefinite__ if $x$ is neither positive nor negative,
+* __semidefinite__ if $x$ is not indefinite,
 * __nondegenerate__ if $x # 0$,
 * __definite__ if $x$ is semidefinite and nondegenerate,
 * __positive definite__ if $x \gt 0$ (that is if $x$ is both positive and nondegenerate),
