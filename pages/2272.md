@@ -498,11 +498,19 @@ Now over each $U_i$ the the situation for the brackets is just that of corollary
 
 * [[Poisson Lie algebroid]]
 
-* [[Poisson bracket Lie n-algebra]]
 
 * [[deformation quantization]]
 
   * [[Moyal quantization]]
+
+* [[higher Poisson structure]]
+
+  * [[Nambu bracket]]
+
+  * [[Poisson n-algebra]]
+
+  * [[Poisson bracket Lie n-algebra]]
+
 
 [[!include Isbell duality - table]]
 
