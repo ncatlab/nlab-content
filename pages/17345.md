@@ -734,7 +734,7 @@ For $X$ a [[nLab:CW-complex]], def. \ref{CWComplex}, its
     \,,
   $$
 
-* the [[nLab:differential]] $\partial^{CW}_{n+1} \colon H_{n+1}^{CW}(X) \to H_n^{CW}(X)$ is the [[nLab:composition]]
+* {#DifferentialInCellularHomology} the [[nLab:differential]] $\partial^{CW}_{n+1} \colon H_{n+1}^{CW}(X) \to H_n^{CW}(X)$ is the [[nLab:composition]]
 
   $$
     \partial^{CW}_n 
