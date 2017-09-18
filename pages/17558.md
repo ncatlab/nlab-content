@@ -1,0 +1,4 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/John_C._Slater)
+
+category: people
