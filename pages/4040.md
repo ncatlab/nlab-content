@@ -51,7 +51,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[sober space]]
 
-* [[compact space]] ([[sequentially compact topological space|sequentially compact]], [[countably compact topological space|countably compact]], [[paracompact space|paracompact]], [[locally compact topological space|locally compact]], [[strongly compact topological space|strongly compact]]) 
+* [[compact space]] ([[sequentially compact topological space|sequentially compact]], [[countably compact topological space|countably compact]], [[paracompact space|paracompact]], [[countably paracompact topological space|countably paracompact]], [[locally compact topological space|locally compact]], [[strongly compact topological space|strongly compact]]) 
 
 * [[compactly generated space]]
 
@@ -97,7 +97,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[long line]], [[line with two origins]]
 
-* [[K-topology]]
+* [[K-topology]], [[Dowker space]]
 
 * [[Warsaw circle]]
 
