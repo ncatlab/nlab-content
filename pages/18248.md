@@ -50,6 +50,98 @@ $$
 
 <img src="https://ncatlab.org/nlab/files/MandelbrotSet.png" width="400" >
 
+## Properties
+
+### Topological properties
+
+
+Regard the Mandelbrot set as a [[topological space]] via the [[subspace topology]] inherited from the [[Euclidean space|Euclidean]] [[metric toplogy]] of $\mathbb{C} \simeq \mathbb{R}^2$.
+
++-- {: .num_prop }
+###### Proposition
+
+The Mandelbrot set is a [[compact topological space]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First we claim that for ${\vert c\vert} \gt 2$ then the sequence $(f_c^n(0))$ is not bounded, hence that the sequence of [[absolute values]] $( {\vert f_c^n(0)\vert} )_{n \in \mathbb{N}}$ diverges for ${\vert c \vert} \gt 2$.
+
+In fact we claim that for all $n \gt 1$ then ${\vert f_c^{n+1}(0)\vert } \gt {\vert f_c^n(0)\vert}$.
+
+This is true for $n = 2$ where $f_c(0) = 0$ and $f_c^2(0) = c^2 + c$.
+
+Then by [[induction]]:
+
+$$
+  \begin{aligned}
+  \frac{
+    {\vert f_c^{n+1}(0)\vert}
+  }{
+    \vert  f_c^n(0) \vert
+  }
+  & =
+  \frac{
+     {\vert (f_c^n(0))^2  + c \vert}
+  }{
+    f_c^n(0)
+  }
+  \\
+  & \geq
+  \frac{
+     {\vert f_c^n(0)\vert}^2 - {\vert c \vert}
+  }{
+    {\vert f_c^n(0)\vert}
+  }
+  \\
+  & =
+  {\vert f_c^n(0) \vert}
+  -
+  \frac{
+    {\vert c \vert}
+  }{
+    {\vert f_c^n(0) \vert}
+  }
+  \\
+  & 
+  \gt 
+  {\vert f_c^n(0)\vert} -1
+  \gt
+  1
+  \end{aligned}
+  \,.
+$$
+
+Now let $c \in \mathbb{C} \backslash Mdlbrt$ be a point not contained in the Mandelbrot set. To show compactness of the Mandelbrot set means to show that there is an [[open neighbourhood]] of $c$ which does not intersect the Mandelbrot set.
+
+Now that $c$ is not in the set means by definition that for every positive real number $r$ there is $n \in \mathbb{N}$ such that $\vert f_c^n(0)\vert \gt r$. This is true in particular for $r = 2$. 
+
+Let then
+
+$$
+  \epsilon \coloneqq \frac{  {\vert f_c^n(0) \vert} - 2 }{2}
+  \,.
+$$
+
+By the above, then the pre-image of the open subset
+
+$$
+  \left\{
+    z \in \mathbb{C}
+    \;\vert\;
+    {\vert f_c^n(0) \vert} - \epsilon \lt {\vert z\vert} \lt {\vert f_c^n(0) \vert} + \epsilon
+  \right\}
+$$
+
+under $f_c^n$ is an open subset of $\mathbb{C}$ which does not intersect the Madelbrot set.
+
+
+=--
+
+
+
 
 ## Related concepts
 
