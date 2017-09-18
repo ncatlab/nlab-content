@@ -35,7 +35,7 @@ is a [[triple]] of [[functors]]/morphisms $F,H \colon C \to D$ and $G \colon D \
 ###### Proposition
 ([Licata-Shulman, 5.1](#LicataShulman))
 
-An adjoint triple $(F\dashv G\dashv G)$, def. \ref{Defn} is equivalently an [[adjoint pair]] in the 2-category whose morphisms are adjoint pairs in the original 2-category, hence an adjunction of adjunctions
+An adjoint triple $(F\dashv G\dashv H)$, def. \ref{Defn} is equivalently an [[adjoint pair]] in the 2-category whose morphisms are adjoint pairs in the original 2-category, hence an adjunction of adjunctions
 
 $$
   (F \dashv G) \dashv (G \dashv H)
