@@ -15,22 +15,40 @@
 
 ## Idea
 
-The _Adams operations_ are endo-[[cohomology operations]] on [[K-theory]]. They are an example of [[power operations]].
+The _Adams operations_ are endo-[[cohomology operations]] on [[topological K-theory]], induced from its [[Lambda-ring]] structure. They are an example of [[power operations]].
 
 ## Definition
 
-For $k \in \mathbb{N}$, the $k$th Adams operation 
++-- {: .num_prop}
+###### Proposition
+
+The Adams operations
 
 $$
   \psi^k \;\colon\; K(X) \longrightarrow K(X)
 $$
 
-is characterized by the fact that 
+have the following properties, for all elements $x,y \in K(X)$ and $k, l \in \mathbb{N}$ and $p \; \text{prime}$:
 
-1. $\psi^k$ is a [[functor|functorial]] [[ring]] [[homomorphism]];
+1. $\psi^k$ is a [[functor|functorial]] [[abelian group]] [[homomorphism]]
 
-1. applied to a [[K-theory]] class $[L]$ represented by a [[line bundle]] $L$, $\psi^k$ is the $k$th [[tensor power]] $\psi^k(L) = L^{\otimes ^k}$;
+   $$
+     \psi^k(x + y) = \psi^k(x) + \psi^k(y)
+   $$
 
+1. applied to a [[topological K-theory]] class $x \coloneqq [L]$ represented by a [[line bundle]] $L$, $\psi^k$ is the $k$th [[tensor power]]: $\psi^k(x) = x^k$
+
+1. in fact $\psi^k$ is a [[functor|functorial]] [[ring]] [[homomorphism]] in that it also satisfies $\psi^k(x \cdot y) = \psi^k(x) \cdot \psi^k(y)$;
+
+1. $\psi^k(\psi^l(x)) = \psi^{k l}(x)$
+
+1. $\psi^p(x) = x^p \, \text{mod}\, p$
+
+1. if $x \in \tilde K(S^{2n})$ ([[reduced cohomology]]) then $\psi^k(x) = k^n \cdot x$.
+
+=--
+
+e.g. [Wirthmuller 12, section 11](#Wirthmuller12)
 
 ## Properties
 
