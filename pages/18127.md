@@ -19,7 +19,7 @@ and ends with their first application to the classification of [[covering spaces
 
 > Under construction.
 
-$\m$
+$\,$
 
 main page: _[[Introduction to Topology]]_
 
@@ -29,7 +29,7 @@ this chapter: **Introduction to Topology 2 -- Basic Homotopy Theory**
 
 $\,$
 
-For introduction to genuine _[[homotopy theory]]_ see instead
+For introduction to more general and abstract _[[homotopy theory]]_ see instead
 at _[[Introduction to Homotopy Theory]]_.
 
 
