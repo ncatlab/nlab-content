@@ -8282,26 +8282,11 @@ such that
 
    is in $CofSeq$, where the equivalence at the end is $e_{X,V}\circ \tau_{V, \Sigma Y}$.
 
-1. for all $n_1, n_2 \in \mathbb{Z}$ the following [[commuting diagram|diagram commutes]]
+Jointly this says that for all objects $V$ the equivalences $e$ give $V \otimes (-)$ the structure of a _[[triangulated functor]]_.
 
-   $$
-     \array{
-       (\Sigma^{n_1} 1) \otimes (\Sigma^{n_2} 1)
-       &\overset{\simeq}{\longrightarrow}&
-       \Sigma^{n_1 + n_2} 1
-       \\
-       {}^{\mathllap{\tau_{\Sigma^{n_1}1, \Sigma^{n_2}1}}}\downarrow
-         &&
-       \downarrow^{\mathrlap{(-1)^{n_1 \cdot n_2}}}
-       \\
-       (\Sigma^{n_2} 1) \otimes (\Sigma^{n_1} 1)
-       &\underset{\simeq}{\longrightarrow}&
-       \Sigma^{n_1 + n_2} 1
-     }
-     \,,
-   $$
+([Balmer 05, def. 1.1](tensor+triangulated+category#Balmer05))
 
-   where the horizontal isomorphisms are composites of the $e_{\cdot,\cdot}$ and the braidings.
+In addition we ask that
 
 1. (coherence) for all $X, Y, Z \in Ho$ the following [[commuting diagram|diagram commutes]]
 
@@ -8329,11 +8314,31 @@ such that
 
    where $\alpha$ is the [[associator]] of $(Ho, \otimes, 1)$.
 
+1. (graded commutativity) for all $n_1, n_2 \in \mathbb{Z}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (\Sigma^{n_1} 1) \otimes (\Sigma^{n_2} 1)
+       &\overset{\simeq}{\longrightarrow}&
+       \Sigma^{n_1 + n_2} 1
+       \\
+       {}^{\mathllap{\tau_{\Sigma^{n_1}1, \Sigma^{n_2}1}}}\downarrow
+         &&
+       \downarrow^{\mathrlap{(-1)^{n_1 \cdot n_2}}}
+       \\
+       (\Sigma^{n_2} 1) \otimes (\Sigma^{n_1} 1)
+       &\underset{\simeq}{\longrightarrow}&
+       \Sigma^{n_1 + n_2} 1
+     }
+     \,,
+   $$
+
+   where the horizontal isomorphisms are composites of the $e_{\cdot,\cdot}$ and the braidings.
+
 
 =--
 
-
-Definition \ref{TensorTriangulatedCG} without the clause that $V \otimes (-)$ be additive is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)), called there "symmetric monoidal structure compatible with the triangulation". The terminology "tensor triangulated category" goes back to ([Balmer 05, def. 1.1](tensor+triangulated+category#Balmer05)), which however states as axiom only that the "tensor product is exact in each variable", without further specification. But ([Balmer 05, p. 2](tensor+triangulated+category#Balmer05)) cites ([Hovey-Palmieri-Strickland 97](#HoveyPalmieriStrickland97)) as "dealing with tensor triangulated categories". The condition that in a tensor triangulated category $V \otimes (-)$ is also to preserve direct sums appears in ([Stevenson 11, Introduction](tensor+triangulated+category#Stevenson11)).
+([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97))
 
 +-- {: .num_prop #TensorTriangulatedStructureOnStableHomotopyCategory}
 ###### Proposition
