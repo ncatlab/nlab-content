@@ -35,7 +35,7 @@ poset of subobjects of $X \times X$, or in other words the posetal reflection of
 
 Between $Quot(X)$ and $Rel(X)$ there is a relation $\perp$ where $q \perp \langle e_1, e_2 \rangle$ means exactly $q \circ e_1 = q \circ e_2$. If the coequalizer $coeq(e_1, e_2)$ of the parallel pair $e_1, e_2: E \rightrightarrows X$ exists, then by definition we have $coeq(e_1, e_2) \leq q$ iff $q e_1 = q e_2$. On the other hand, if the [[kernel pair]] $\ker(q)$ of $q$ exists, then by definition we have $q e_1 = q e_2$ iff $\langle e_1, e_2 \rangle \leq \ker(q)$. 
 
-This indicates that to the extent that coequalizers and kernel pairs exist, we have 
+This indicates in a category which admits coequalizers and kernel pairs, we have 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -44,16 +44,26 @@ $coeq: Rel(X) \to Quot(X)$ is [[left adjoint]] to $\ker: Quot(X) \to Rel(X)$.
 
 Or, in other words, that $\ker$ and $coeq$ set up a [[Galois connection]] between $Quot(X)^{op}$ and $Rel(X)$. 
 
-In particular,  
+Restricting consideration to kernel pairs only of epis, or coequalizers only of jointly monic pairs, is no real restriction in the presence of epi-mono factorizations: 
 
-+-- {: .num_cor} 
-###### Corollary 
-Suppose $\mathbf{C}$ is a category where every morphism has an [[image|epi-mono factorization]]. If the kernel pair of a regular epi $q$ exists, then $q$ is the coequalizer of its kernel pair: $q = coeq \circ \ker(q)$. If the coequalizer of a kernel pair $i = \langle e_1, e_2 \rangle$ exists, then $i$ is the kernel pair of it coequalizer: $i = \ker \circ coeq(i)$. 
++-- {: .num_lemma} 
+###### Lemma 
+In a category where every morphism $f: A \to B$ has an [[image|epi-mono factorization]] $f = i \circ q$, we have $\ker(f) = \ker(q)$. Similarly, for a pair $f, g: X \rightrightarrows Y$, we have $coeq(f, g) = coeq(e_1, e_2)$ where $\langle f, g \rangle: X \to Y \times Y$ factors as an epi $p: X \to E$ followed by a mono $\langle e_1, e_2 \rangle: E \to Y \times Y$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-We just prove the first statement; the second is proved similarly. We have of course a [[counit]] $coeq \circ \ker(q) \leq q$. On the other hand, if $q = coeq(f, g)$ (where we may assume $\langle f, g \rangle$ is monic by the epi-mono factorization), then we have a unit $\langle f, g \rangle \leq \ker \circ coeq(f, g) = \ker(q)$; by applying $coeq$ to each side, we have $q \leq coeq \circ \ker(q)$, as desired. 
+We prove just the first statement; the second is proven similarly. It suffices to observe that the same class of jointly monic pairs $(e_1, e_2)$ are coequalized by $f$ as by $q$; the kernel pair is by definition the maximum of this class. If $q e_1 = q e_2$, then by applying $i$ to both sides we deduce $f e_1 = f e_2$. If $f e_1 = f e_2$, i.e., if $i q e_1 = i q e_2$, then $q e_1 = q e_2$ by monicity of $i$. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition  
+Suppose $\mathbf{C}$ is a category with coequalizers and kernel pairs and where every morphism has an epi-mono factorization. Then every regular epi $q$ is the coequalizer of its kernel pair: $q = coeq \circ \ker(q)$. And every kernel pair is the kernel pair of its coequalizer: $i = \ker \circ coeq(i)$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+We just prove the first statement; the second is proved similarly. We have of course a [[counit]] $coeq \circ \ker(q) \leq q$. On the other hand, if $q = coeq(f, g)$ (where we may assume $\langle f, g \rangle$ is monic by the lemma), then we have a unit $\langle f, g \rangle \leq \ker \circ coeq(f, g) = \ker(q)$; applying $coeq$ to each side, we have $q \leq coeq \circ \ker(q)$, as desired. 
 =-- 
 
 ## In higher category theory
