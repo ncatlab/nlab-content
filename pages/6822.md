@@ -1,3 +1,4 @@
+[[!redirects Pin group]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -107,4 +108,6 @@ A standard textbook account is
 See also
 
 * {#Varadarajan04} [[Veeravalli Varadarajan]], section 7 of _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
+
+
 
