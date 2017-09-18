@@ -13,29 +13,126 @@
 * table of contents
 {: toc}
 
+## Idea 
+
+A [[topological space]] is called _locally compact_ if every point has a [[compact topological space|compact]] [[neighbourhood]].
+
+Or rather, if one does not at the same time assume that the space is [[Hausdorff topological space]], then one needs to require that these compact neighbourhoods exist in a controlled way, e.g. such that one may find them inside every prescribed open neighbourhood (def. \ref{LocallyCompactSpace} below).
+
+A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _local compactum_; compare at _[[compactum]]_.
+
+
+Local compactness is one of the conditions that are often required by default for working with topological spaces: locally compact spaces are a class of  "[[nice topological spaces]]". 
+
+
+
 ## Definition
 
-A [[topological space]] is __locally compact__ if every point has a [[neighborhood base]] consisting of [[compact subspaces]]. It may be considered as an example of a [[nice topological space]]. 
++-- {: .num_defn}
+###### Definition
 
-Note: as observed in the discussion at [[compact space]], many authors choose to include the [[Hausdorff space|Hausdorff]] condition as a matter of course, calling locally compact not-necessarily-Hausdorff spaces 'locally quasi-compact'. We will not follow that convention here, but the reader should be warned that without the Hausdorff hypothesis, there are several inequivalent notions of local compactness in the literature; see [the English Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Locally_compact_space) for a survey and counterexamples.
+A [[topological space]] is __locally compact__ if every point has a [[neighborhood base]] consisting of [[compact subspaces]]. 
 
-A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _local compactum_; compare [[compactum]].
+=--
+
+Equivalently:
+
++-- {: .num_defn #LocallyCompactSpace}
+###### Definition
+**(locally compact topological space)**
+
+A [[topological space]] $X$ is called _[[locally compact topological space|locally compact]]_
+if for every point $x \in X$ and every [[open neighbourhood]] $U_x \supset \{x\}$
+there exists a smaller open neighbourhood $V_x \subset U_x$ whose [[topological closure]]
+is [[compact topological space|compact]] and still contained in $U$:
+
+$$
+  \{x\} \subset V_x \subset \underset{\text{compact}}{Cl(V_x)} \subset U_x
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(remark on terminology)**
+
+As for [[compact spaces]] ([this remark](compact+space#DifferingTerminology)), some authors choose to include the [[Hausdorff space|Hausdorff]] condition as a matter of course, calling locally compact not-necessarily-Hausdorff spaces 'locally quasi-compact'. We will not follow that convention here, but the reader should be warned that without the Hausdorff hypothesis, there are several inequivalent notions of local compactness in the literature; see [the English Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Locally_compact_space) for a survey and counterexamples.
+
+=--
+
 
 
 ## Examples
 
-1. Clearly, any [[discrete space]] is locally compact. 
 
-2. [[open subspaces of compact Hausdorff spaces are locally compact]]. In fact, every locally compact Haudorff space $X$ arises in this way, since it can be considered an open subspace in its [[one-point compactification]] $X \sqcup \{\infty\}$ (where the open neighborhoods of the adjoined point $\infty$ are precisely those of the form $K^c \sqcup \{\infty\}$, where $K^c$ is the complement of a compact subset $K \subseteq X$). 
++-- {: .num_example}
+###### Example
 
-3. The reals, complexes, and $\mathfrak{p}$-adic completions of [[algebraic number field]]s (with respect to a prime ideal $\mathfrak{p}$ in the ring of integers) are locally compact. In characteristic $p$, the field of [[Laurent series]] $\mathbb{F}_q((t))$ over a finite field with $q$ elements, topologized with respect to a discrete valuation, is locally compact. In fact, any non-discrete locally compact [[field]] must be of one of these types; they are called [[local field]]s. 
+Every [[discrete space]] is locally compact. 
 
-4. Finite products of locally compact spaces are locally compact. [[closed subspace|Closed subspaces]] of locally compact spaces are locally compact. (Hence locally compact spaces form a [[finitely complete category]].) 
+=--
 
-5. Topological [[manifold]]s (including "pathological examples" like [[long line]]s), being locally homeomorphic to $\mathbb{R}^n$, are locally compact. 
++-- {: .num_example #MetricSpacesAreLocallyCompact}
+###### Example
 
-6. The only Hausdorff [[topological vector space]]s that are locally compact are finite-dimensional Euclidean spaces. More generally, a TVS is locally compact if and only if its [[Hausdorff reflection]] has finite dimension. 
+[[metric spaces]], regarded with their [[metric topology]], are locally compact.
 
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[open subspaces of compact Hausdorff spaces are locally compact]])** 
+
+
+Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\subset} K$ of a [[compact topological space|compact]]
+[[Hausdorff space]] $K$ is a [[locally compact topological space]].
+
+In particular every [[compact Hausdorff space]] itself is [[locally compact topological space|locally compact]].
+
+Conversely, every locally compact Haudorff space $X$ arises in this way, since it can be considered an open subspace in its [[one-point compactification]] $X \sqcup \{\infty\}$ (where the open neighborhoods of the adjoined point $\infty$ are precisely those of the form $K^c \sqcup \{\infty\}$, where $K^c$ is the complement of a compact subset $K \subseteq X$). 
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The [[real numbers]], [[complex numbers]], and $\mathfrak{p}$-[[adic completions]] of [[algebraic number fields]] (with respect to a [[prime ideal]] $\mathfrak{p}$ in the [[ring of integers]]) are locally compact. In [[positive characteristic]] $p$, the field of [[Laurent series]] $\mathbb{F}_q((t))$ over a [[finite field]] with $q$ elements, topologized with respect to a discrete valuation, is locally compact. In fact, any non-discrete locally compact [[field]] must be of one of these types; they are called [[local fields]]
+
+=-- 
+
++-- {: .num_example }
+###### Example
+
+Finite [[product topological spaces]] of locally compact spaces are locally compact. 
+
+=--
+
++-- {: .num_example }
+###### Example
+
+[[closed subspace|Closed subspaces]] of locally compact spaces are locally compact. (Hence locally compact spaces form a [[finitely complete category]].) 
+
+=--
+
++-- {: .num_example #TopologicalManifoldsAreLocallyCompact}
+###### Example
+**([[topological manifolds]] are [[locally compact topological spaces]])**
+
+[[topological manifolds]], being locally [[homeomorphism|homeomorphic]] to the [[Euclidean space|Euclidean]] [[metric spaces]] $\mathbb{R}^n$, are locally compact, via example \ref{MetricSpacesAreLocallyCompact}.
+
+In fact this applies also to [[locally Euclidean spaces]] which are not necessarily [[Hausdorff topological spaces]], such as the [[long line]].
+
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The only Hausdorff [[topological vector spaces]] that are locally compact are finite-dimensional Euclidean spaces. More generally, a TVS is locally compact if and only if its [[Hausdorff reflection]] has [[finite number|finite]] [[dimension]]. 
+
+=--
 
 ## Properties
 
