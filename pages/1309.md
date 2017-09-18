@@ -88,3 +88,10 @@ It's good to see how the morphisms are counted.
 
 So $\Lambda$ is a kind of [product](http://golem.ph.utexas.edu/category/2006/10/euler_characteristic_of_a_cate.html#c010304) between $\Delta$ and the groupoid which is a union of one copy of each finite cyclic group.
 =--
+
+[[!redirects cyclic orders]]
+[[!redirects cyclic ordering]]
+[[!redirects cyclic orderings]]
+[[!redirects cyclically ordered]]
+[[!redirects cyclically ordered set]]
+[[!redirects cyclically ordered sets]]
