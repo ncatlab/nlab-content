@@ -13,6 +13,8 @@
 
 * [[classical anomaly]]
 
+* [[higher Poisson structure]]
+
 category: people
 
 [[!redirects Jose de Azcarraga]]
