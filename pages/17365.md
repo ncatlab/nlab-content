@@ -25,7 +25,7 @@ The standard [[model category]] structure on the [[category]] of [[sequential sp
 
 As such, the model structure on topological sequential spectra [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, its [[homotopy category]] is the classical [[stable homotopy category]].
 
-### Homotopy theory of topological sequence spectra
+### Homotopy theory of topological sequential spectra
  {#SequentialSpectraSection}
 
 The most lighweight model for [[spectra]] are _[[sequential spectra]]_. They support most of [[stable homotopy theory]] in a straightforward way, and have the advantage that examples tend to be immediate (for instance the proof of the [[Brown representability theorem]] spits out sequential spectra). 
