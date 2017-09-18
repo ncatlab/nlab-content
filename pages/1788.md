@@ -1,4 +1,19 @@
 
+$$
+  \array{
+     \pi_\bullet(X) 
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(f)\circ \pi_\bullet(g)}}
+     \\
+     \pi_\bullet(X \times I) &\stackrel{\pi_\bullet(\eta)}{\longrightarrow}& \pi_\bullet(Y)
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{\pi_\bullet(id)}}
+     \\
+     \pi_\bullet(X)
+  }
+  \,.
+$$
+
 
 [[AttachingSpace.jpg:file]]
 
