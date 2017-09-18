@@ -292,8 +292,8 @@ Some theorems in category theory are _[[folklore]]_.
 Category theory was introduced in
 
 
-* [[Samuel Eilenberg]], [[Saunders Mac Lane]], _General theory of natural equivalences, 1945 
-  {#EilenbergMaclane45}
+* {#EilenbergMaclane45} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _General theory of natural equivalences, 1945 
+  
 
 The reason for introducing [[category|categories]] was to introduce [[functors]], and the reason for introducing functors was to introduce [[natural transformations]] (more specifically natural equivalences) in order to define what _natural_ means in mathematics:
 
@@ -304,6 +304,9 @@ The reason for introducing [[category|categories]] was to introduce [[functors]]
 
 The paper [Eilenberg-Maclane 45](#EilenbergMaclane45) was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Since then category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
 
+This and much more history is recalled in
+
+* [[Saunders MacLane]], _Concepts and Categories in Perspective_, AMS ([pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf))
 
 ### Textbooks
  {#TextBooks}
