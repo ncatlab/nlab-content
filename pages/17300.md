@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _classical [[model category]] structure on [[pointed topological spaces]]_ $Top^{\ast/}_{Quillen}$ is the [[model structure on an undercategory]] of the [[classical model structure on topological spaces]] $Top_{Quillen}$ under the point.
+
+With the [[smash product]] this is a [[monoidal model category]].
+
+## References
+
+* [[Mark Hovey]], around corollary 2.4.20 of _Model categories_
