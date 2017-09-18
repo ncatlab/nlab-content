@@ -1,0 +1,10 @@
+
+Rodolfo Russo is reader in theoretical [[physics]] at Queen Mary College, London.
+
+* [webpage](http://strings.ph.qmul.ac.uk/directory/r.russo)
+
+## related $n$Lab entries
+
+* [[string theory]], [[causal locality]]
+
+category: people
