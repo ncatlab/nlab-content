@@ -232,7 +232,7 @@ A readable survey on nonabelian cohomology is
 
 A useful motivation is
 
-* Nicolas Addington, _Fiber bundles and nonabelian cohomology_ ([pdf](http://www2.imperial.ac.uk/~naddingt/notes/gstc2007.pdf))
+* Nicolas Addington, _Fiber bundles and nonabelian cohomology_ ([pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf))
 
 Early original references include
 
