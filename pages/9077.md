@@ -26,7 +26,7 @@
 
 Let $G$ be a [[compact topological group|compact]] [[Lie group]]. 
 
-A **[[torus]]** in $G$ is an [[abelian group|abelian]] [[subgroup]] $T \hookrightarrow G$ wich is [[connected topological space|connected]] (and [[compact topological group|compact]]).
+A **[[torus]]** in $G$ is an [[abelian group|abelian]] [[subgroup]] $T \hookrightarrow G$ which is [[connected topological space|connected]] (and [[compact topological group|compact]]).
 
 A **maximal torus** is a subgroup which is maximal with these properties.
 
@@ -35,7 +35,7 @@ The [[Lie algebra]] of a maximal torus of $G$ is called a [[Cartan subalgebra]] 
 ## Properties
  {#Properties}
 
-Let thoughout the [[compact Lie group]] $G$ be [[connected topological space|connected]].
+Suppose throughout that the [[compact Lie group]] $G$ is [[connected topological space|connected]].
 
 +-- {: .num_prop #CartanTheorem}
 ###### Proposition
@@ -65,7 +65,7 @@ Any two choices of maximal tori are conjugate.
 +-- {: .num_prop}
 ###### Proposition
 
-Any two elements of a maximal torus $T\hookrightarrow G$ are conjugate in $G$ precisely if theory are conjugate via the [[Weyl group]]. 
+Any two elements of a maximal torus $T\hookrightarrow G$ are conjugate in $G$ precisely if they are conjugate via the [[Weyl group]]. 
 
 =--
 
@@ -76,7 +76,17 @@ Any two elements of a maximal torus $T\hookrightarrow G$ are conjugate in $G$ pr
 
 The [[conjugacy classes]] of $G$ are in bijection to $T/W(G,T)$.
 
-=--
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+Under the assumptions on $G$, the exponential map $\exp: \mathfrak{g} \to G$ is surjective. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The [[exponential map]] $\mathbb{R} \to S^1$ is surjective; similarly, if $\mathfrak{h}$ is a [[Cartan subalgebra]] of $\mathfrak{g}$, then the exponential map $\mathfrak{g} \to G$ maps $\mathfrak{h}$ homomorphically onto a maximal torus. Also the exponential map $\mathfrak{g} \to G$ preserves conjugation by any element of $G$, i.e., $\exp(g x g^{-1}) = g\exp(x)g^{-1}$. Then surjectivity follows from Proposition \ref{CartanTheorem}. 
+=-- 
 
 
 ## Examples
@@ -92,7 +102,7 @@ The maximal torus of a [[unitary group]] $U(n)$ is the subgroup $U(1)^n\hookrigh
 ###### Example
 
 
-The maximal torus of the [[special unitary group]] $SU(n+1)$ is again $U(1)^n$ (one dimension lower) included as the subgroup of diagonal matrices with $n$ doiagonal entries arbitrary unitaries and the last diagonal entry the inverse of their product.
+The maximal torus of the [[special unitary group]] $SU(n+1)$ is again $U(1)^n$ (one dimension lower) included as the subgroup of diagonal matrices whose first $n$ diagonal entries are arbitrary elements of $U(1)$ and whose last diagonal entry is the inverse of their product.
 
 =--
 
