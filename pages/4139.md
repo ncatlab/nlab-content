@@ -6,7 +6,7 @@ John Stewart Bell was an Irish physicist credited with developing one of the mos
 
 * [biography](http://en.wikipedia.org/wiki/John_Stewart_Bell) (detailed)
 
-> (beware that there is also the mathematician and philopher [[John Lane Bell]])
+> (beware that there is also the mathematician and philosopher [[John Lane Bell]])
 
 ## related $n$Lab entries
 
