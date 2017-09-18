@@ -853,7 +853,7 @@ $$
   \,.
 $$
 
-If here $\eta_2$ is constant along $I$, $f$ is is said to exhibit $X$ as a **[[deformation retract]]** of $Y$.
+If here $\eta_2$ is constant along $I$, $f$ is said to exhibit $X$ as a **[[deformation retract]]** of $Y$.
 
 =--
 
