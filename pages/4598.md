@@ -112,6 +112,7 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 * [[Chern character]]
 
+* [[orthogonal calculus]]
 
 ## References
 
