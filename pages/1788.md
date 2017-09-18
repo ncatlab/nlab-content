@@ -1,37 +1,17 @@
 $$
   \array{
-    \alpha \colon
-    & 
-    A 
-      &\overset{(j_\alpha \circ \eta_A, \alpha)}{\longrightarrow}&
-    Z \underset{Q(X)}{\times} A
-      &\overset{}{\longrightarrow}&
-    X
+    X &\overset{\eta_X}{\longrightarrow}& Q(X)
     \\
-    & {}^{\mathllap{id}}\downarrow 
-      &&
-    {}^{\mathllap{\in W \cap Cof}}\downarrow
-      &{}^{\mathllap{\exists}}\nearrow&
-    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}&
+    \downarrow && \downarrow^{\mathrlap{i}}_{\mathrlap{\in W}}
     \\
-    & 
-    A 
-      &\longrightarrow& 
-      &\overset{\phantom{AAAAAAA}}{\longrightarrow}&
-    Y
+    Y \underset{Q(Y)}{\times} Z 
+      &\overset{p^\ast \eta_Y\in W}{\longrightarrow}&
+    Z
     \\
-    & {}^{\mathllap{i}}_{\mathllap{\in Cof}}\downarrow 
-      &{}^{\mathllap{\exists}}\nearrow&
-    \downarrow^{\mathrlap{\in W \cap Fib}}
-      &&
-    \downarrow^{\mathrlap{id}}&
+    {}^{\mathllap{\in Fib_Q}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib_Q}}
     \\
-    \beta \colon & 
-    B 
-      &\underset{(j_\beta\circ\eta_B,\beta)}{\longrightarrow}&
-    W \underset{Q(Y)}{\times} Y
-      &\longrightarrow&
-    Y
+    Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
   }
-  \,,
 $$
