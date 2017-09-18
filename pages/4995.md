@@ -1040,7 +1040,7 @@ This section is at
 ### Locally ringed cohesion
 
 Every cohesive $(\infty,1)$-topos $\mathbf{H}$ equipped with 
-[differential cohesion](#DifferentialCohesion) comes canonically equipped with a notion of [[formally étale morphism]]s (as discussed there). Combined with the canonical interpretation of $\mathbf{H}$ as the [[classifying topos]] of a [[theory]] of [[local algebra|local T-algebra]]s, this caninically induces a notion of [[locally algebra-ed topos|locally algebra-ed (∞,1)-toposes]] with cohesive structure, generalizing the notion of [[locally ringed space]]s and [[locally ringed topos]]es.
+[differential cohesion](#DifferentialCohesion) comes canonically equipped with a notion of [[formally étale morphism]]s (as discussed there). Combined with the canonical interpretation of $\mathbf{H}$ as the [[classifying topos]] of a [[theory]] of [[local algebra|local T-algebra]]s, this canonically induces a notion of [[locally algebra-ed topos|locally algebra-ed (∞,1)-toposes]] with cohesive structure, generalizing the notion of [[locally ringed space]]s and [[locally ringed topos]]es.
 
 This section is at 
 
@@ -1051,7 +1051,7 @@ This section is at
  {#Examples}
 
 We list examples of cohesive $(\infty,1)$-toposes,
-both specific ones as well as classes of examples constructed in a certan way.
+both specific ones as well as classes of examples constructed in a certain way.
 
 ### Cohesive diagram $(\infty,1)$-toposes
 
