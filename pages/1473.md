@@ -79,9 +79,7 @@ hold for all $x, y \in S$. As the space $2^{|B|}$ is Hausdorff, $K_S$ being defi
 
 ## Tychonoff theorem for locales 
 
-Given the close connection between the Tychonoff theorems and choice principles, it may come as a surprise that there is a point-free version of the Tychonoff theorem, that a product of a small collection of compact [[locales]] is compact, equivalently that the coproduct of a small collection of compact [[frames]] is compact, and that there is a *constructive proof* of this result. 
-
-The first proof of this result is due to [[Peter Johnstone]], who gave a ZF proof (so a proof not requiring the [[axiom of choice]]), but one which exploited virtually the full power of [[ZFC|ZF set theory]], including notably the [[axiom of replacement]]. Later [[Banaschewski]] made a significant advance by introducing the notion of [[preframe]], redefining compactness in terms of certain preframe maps, and focusing on coproducts of preframes as a critical stepping stone. He observed that his proof could be enacted in any [[Boolean topos]]. Finally Johnstone and [[Steven Vickers]] reexamined Banaschewski's account, showing that the category of frames can be seen as a full subcategory of the category of commutative monoids in preframes seen as a [[symmetric monoidal closed category]], providing a conceptual niche for a reasonably simple and [[constructive mathematics|constructive]] proof. 
+Given the close connection between the Tychonoff theorems and choice principles, it may come as a surprise that the Tychonoff theorem for [[locales]] -- the product of a small collection of compact locales is compact, equivalently that the coproduct of a small collection of compact [[frames]] is compact -- may be proved without the [[axiom of choice]] and even [[constructive mathematics|constructively]]. 
 
 More details to appear at [[Tychonoff theorem for locales]]. 
 
