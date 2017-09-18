@@ -177,4 +177,6 @@ Here it is explained how $*$-autonomous categories give Frobenius pseudomonads i
 [[!redirects star-autonomous categories]]
 [[!redirects *-autonomous category]]
 [[!redirects *-autonomous categories]]
+[[!redirects star-autonomous]]
+[[!redirects *-autonomous]]
 
