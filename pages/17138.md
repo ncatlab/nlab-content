@@ -831,8 +831,6 @@ Its corresponding [[Moore complex]] (the sequence whose maps are the alternating
 
 =--
 
-#### $E$-Adams towers
-
 +-- {: .num_defn #EAdamsTower}
 ###### Definition
 
@@ -1090,24 +1088,30 @@ $\;\;\;\;\;\;\;\;\;\;\;$
 
 =---
 
-***
 
-The following is a rough list of possible topics. Check again a little later for more.
+$\,$
+
+A list of possible topics. Check again a little later for more.
+
+$\,$
 
 ### Generalised cohomology
 
 
 **Cohomology theory and Spectra
 
-See for instance ([Aguilar-Gitler-Prieto 02, chapter 12](#AguilarGitlerPrieto02)).
+See for instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02)).
+
+* [[ordinary cohomology]], [[topological K-theory]]
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
 * [[Brown representability theorem]]
 
-* example: [[topological K-theory]]
 
 **Cobordism cohomology theory**
+
+See maybe ([Francis 10](#Francis10))
 
 * [[Pontrjagin-Thom construction]]
 
@@ -1124,8 +1128,7 @@ See for instance ([Aguilar-Gitler-Prieto 02, chapter 12](#AguilarGitlerPrieto02)
 
 ### Complex oriented cohomology
 
-We follow ([Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10)) 
-
+See ([Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10)) 
 
 **Complex orientation**
 
@@ -1209,13 +1212,16 @@ For further reading on stable homotopy theory an excellent collection is
 
 Useful quick survey of the modern big picture may be found in
 
-* {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([[DylanWilsonOnANSS.pdf:file]])
+* {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/)_, March 2013 ([[DylanWilsonOnANSS.pdf:file]])
 
 * {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf), [notes pdf](http://math.berkeley.edu/~aaron/writing/tmf-seminar-talk.pdf))
 
 Further lecture notes pointed to above include
 
 * {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
+
+* {#Francis10} [[John Francis]] (notes by [[Owen Gwilliam]]), _[Topology of manifolds](http://math.northwestern.edu/~jnkf/classes/mflds/)_, 2010, _Lecture 2: Cobordism_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf)), _Lecture 3: Thom's theorem_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf))
+
 
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011  ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
