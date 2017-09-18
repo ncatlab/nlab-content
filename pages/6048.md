@@ -17,7 +17,7 @@
 
 ## Idea
 
-The theory of [[11-dimensional supergravity]] contains a higher [[gauge field]] -- the [[supergravity C-field]] -- that naturally couples to higher electrically charged 2-[[brane]]s ([[membrane]]s). By a process called _double dimensional_ reduction, these are related to [[superstrings]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)).
+The theory of [[11-dimensional supergravity]] contains a higher [[gauge field]] -- the [[supergravity C-field]] -- that naturally couples to higher electrically charged 2-[[brane]]s ([[membrane]]s). By a process called _[[double dimensional reduction]]_, these are related to [[superstrings]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)).
 
 When in ([Witten95](#Witten95)) it was argued that the 10-dimensional [[target space]] theories of the five types of [[string theory|superstring theories]] are all limiting cases of one single 11-dimensional target space theory that extends [[11-dimensional supergravity]] ([[M-theory]]), it was natural to guess that this supergravity membrane accordingly yields a 3-dimensional [[sigma-model]] that reduces in limiting cases to the [[string]] [[sigma-models]].
 
