@@ -4,18 +4,44 @@ The traditional story in the [[physics]] textbooks (copied endlessly from one te
 
 $\,$
 
-The [[spacetime]] is [[Minkowski spacetime]] $\mathbb{R}^4$. The [[gauge group]] is the [[special unitary group]] $SU(2)$. 
+**Instantons**
 
-For just classifying instantons we may disregard all metric properties and hence regard spacetime just as the [[Cartesian space]] $\mathbb{R}^4$.
+For $G$ any [[gauge group]] (a [[Lie group]]) then a $G$-[[Yang-Mills instanton]] on some 4-dimensional [[spacetimes]] (a [[pseudo-Riemannian manifold]]) $X$ is a $G$-[[principal bundle]] on $X$ (this is going to be the "instanton sector"), equipped with a $G$-[[principal connection]] $\nabla$ (this is the actual [[gauge field]]) such that this is [[self-dual Yang-Mills theory|self-dual]], in that its [[curvature form]] $F_\nabla$ satisfies $F_\nabla = \star F_{\nabla}$, where $\star$ denotes the [[Hodge star]] operator for the given metric (field of [[gravity]]).
 
-An $SU(2)$-[[gauge field]] on any [[space]] $X$ is an $SU(2)$-[[principal connection]] on $X$, hence an $SU(2)$-[[principal bundle]] equipped with a [[connection on a bundle]] $\nabla$. 
+A standard theorem says that there is precisely one self-dual [[principal connection]] $\nabla$ on every [[isomorphism class]] of $SU(2)$-[[principal bundles]]. Therefore classifying and counting instantons amounts to classifying and counting $G$-[[principal bundles]]. 
+
+This is what makes instantons a "topological" structure in the parlance of physics, meaning that they do not depend on [[Riemannian metric]] information, after all. 
+
+We now take the [[spacetime]] to be [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ and the [[gauge group]] to be the [[special unitary group]] $SU(2)$. This is the case of "[[BPTS-instantons]]". Of course other choices are possible and may lead to richer situations, but this simple case is what the physics textbooks tend to focus on (not the least of course because these choices are relevant for [[phenomenology]] of the [[weak nuclear force]] as seen in accelerator experiments) and it already serves to highlight key points.
+Since, as we just said, we may disregard all metric properties, this means now that we regard spacetime to be just the [[Cartesian space]] $\mathbb{R}^4$.
+
+Or almost. At this point one needs to be careful with the [[boundary conditions]] in order to get the topology right.
+
+$\,$
+
+**Vanishing at infinity**
+
+The physical energy condition on an instanton is that the [[field strength]] $F_\nabla$ vanishes "at infinity". Mathematically, a [[continuous function]] on a [[locally compact topological space|locally compact]] [[topological space]] $X$ _[[vanishing at infinity|vanishes at infinity]]_ precisely if it extends to the "[[one-point compactification]]" $X^+ \coloneqq X \cup \{\infty\}$ of $X$ -- where we literally adjoin the "point at infinity" "$\infty$" and glue it to $X$ by defining a suitable [[topological space|topology]] on $X \cup \{\infty\}$.
 
 
-The physical energy condition that the [[field strength]] vanishes at infinity we may formalize by saying that our $SU(2)$-[[principal connection]] actually exists on the [[one-point compactification]] of $\mathbb{R}^4$. This is the [[4-sphere]] $S^4$.
+Hence we may formalize the boundary condition by saying that our $SU(2)$-[[principal connection]] actually exists on the [[one-point compactification]] of $\mathbb{R}^4$. This is the [[4-sphere]]
 
-With the boundary conditions taken care of this way, an $SU(2)$-instanton now is the [[isomorphism class]] of an $SU(2)$-[[principal bundle]]  on the [[4-sphere]] and equipped with a [[self-dual Yang-Mills theory|self-dual connection]]. A standard theorem says that there is precisely one self-dual connection on every isomorphism class of $SU(2)$-[[principal bundles]], so we are left with classifying these. Moreover, [[Chern-Weil theory]] says that for any [[principal connection]] $\nabla$ on the bundle then the integral of the 4-form $\langle F_\nabla \wedge F_\nabla\rangle $ is independent of the choice of the connection.
+$$
+  S^4
+  \simeq
+  \mathbb{R}^4 \cup \{\infty\}
+  \,.
+$$
 
-There is a [[classifying space]] for $SU(2)$-[[principal bundles]], denoted $B SU(2)$. This being a classifying space means that for $X$ any [[paracompact topological space]], the isomorphism classes of $SU(2)$-[[principal bundles]] on $X$ are in [[bijection]] with [[homotopy classes]] of [[continuous functions]] from $X$ to $B SU(2)$.
+It is this passage from $\mathbb{R}^4$ to $S^4$ which takes care of the subtleties that often tend to be glossed over.
+
+With the boundary conditions "at infinity" taken care of this way, an $SU(2)$-instanton now is the [[isomorphism class]] of an $SU(2)$-[[principal bundle]]  on the [[4-sphere]] $S^4$.
+
+$\,$
+
+**Instanton number**
+
+There is a [[classifying space]] for $SU(2)$-[[principal bundles]], denoted $B SU(2)$. This being a [[classifying space]] means that for $X$ any [[paracompact topological space]], then the [[isomorphism classes]] of $SU(2)$-[[principal bundles]] on $X$ are in [[bijection]] with [[homotopy classes]] of [[continuous functions]] from $X$ to $B SU(2)$.
 
 $$
   \{X \to B SU(2)\}_{/homotopy}
@@ -27,14 +53,82 @@ $$
 Now for $X = S^4$, then 
 
 $$
-   \{X \to B SU(2)\}_{/homotopy} 
+   \{S^4 \to B SU(2)\}_{/homotopy} 
    \simeq
    \pi_4(B SU(2))
    \simeq
    \mathbb{Z}
 $$
  
-is the 4th [[homotopy group]] of the [[classifying space]] $B SU(2)$, also called the [[second Chern class]]. This is an [[integer]], and so this integer labels [[isomorphism classes]] of instantons on $S^4$ (hence on $\mathbb{R}^4$). This is going to be the _[[instanton number]]_.
+is the 4th [[homotopy group]] of the [[classifying space]] $B SU(2)$. 
+
+This is an [[integer]], and so this integer labels [[isomorphism classes]] of instantons on $S^4$ (hence on $\mathbb{R}^4$). We see below that [[Chern-Weil theory]] identifies this number with the [[instanton number]].
+
+But this counting of instantons works more generally, if we use a suitable counting function. First of all, there is a [[topological space]] whose _only_ [[homotopy group]] is $\pi_4$, and such that this is the group of integers. This is the [[Eilenberg-MacLane space]] $K(\mathbb{Z},4)$:
+
+$$
+  \{S^4 \to K(\mathbb{Z},4)\}_{/homotopy}
+  \simeq
+  \mathbb{Z}
+  \;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;
+  \{S^{d\neq 4} \to K(\mathbb{Z},4)\}_{/homotopy} 
+  \simeq
+  0
+  \,.
+$$
+
+This space has the following remarkable property: [[homotopy classes]] of [[continuous functions]] into it compute [[ordinary cohomology]] with [[integer]] [[coefficients]]:
+
+$$
+  \left\{
+    X \longrightarrow K(\mathbb{Z},4)
+  \right\}_{/homotopy}
+  \;\simeq\;
+  H^4(X,\mathbb{Z})
+  \,.
+$$
+
+Now there is a [[continuous function]]
+
+$$
+  c_2 \;\colon\; B SU(2) \longrightarrow K(\mathbb{Z},4)
+$$
+
+called the _universal [[second Chern class]]_. This hence sends $SU(2)$-[[principal bundles]], classified by some map
+
+$$
+  \chi  \;\colon\; X \longrightarrow B SU(2)
+$$
+
+to classes in degree-4 cohomology
+
+$$
+  c_2(\chi)
+  \;\colon\;
+  X \longrightarrow B SU(2) \overset{c_2}{\longrightarrow} K(\mathbb{Z},4)
+  \,.
+$$
+
+This [[cohomology class]]
+
+$$
+  c_2(\chi) \in H^4(X,\mathbb{Z})
+$$
+
+is hence called the [[second Chern class]] of the $SU(2)$-[[principal bundle]].
+
+This is one in a whole sequence of _[[characteristic classes]]_ which are carried by $SU(2)$-[[principal bundles]], the _[[Chern classes]]_.
+
+But in the special case that the base space $X$ is 4-[[dimension|dimensional]], then only a single one of these classes may be non-trivial, namely the [[second Chern class]] $c_2$. Therefore this class completely characterizes $SU(2)$-[[principal bundles]] in 4d. 
+
+In conclusion: _Where an [[BPTS-instanton]] is manifested by an [[special unitary group|SU(2)]]-[[principal bundle]] of a 4-dimensional [[manifold]], the [[instanton number]] is the [[second Chern class]] of this bundle._
+
+$\,$
+
+**Constructing instantons from gauge transformations**
+
 
 We may construct the bundles that are classified this way explicitly by using [[Cech cohomology]]. This says that we get such a bundle by
 
@@ -120,6 +214,9 @@ $$
 
 So we get the same classification from [[Cech cohomology]] that we got from [[classifying space]] theory, as it must be. But now we know how that [[second Chern class]] may be concretely embodied in that "gauge transformation at infinity".
 
+$\,$
+
+**Gauge fields vanishing at infinity**
 
 Now we bring in connections. As discussed before, we may just as well consider any [[principal connection]]. In the [[Cech cohomology]] picture and still using the [[clutching construction]] this now means to choose
 
@@ -141,6 +238,10 @@ $$
 Because then the above just says that $A_+$ on $U_+$ becomes gauge trivial "at infinity", _by the given gauge transformation_ $g \colon S^3 \to SU(2)$ (the one whose winding number counts our instantons). 
 
 (In the present case this is really simple, but also generally there is a [[partition of unity]]-argument to construct connections on any bundle in generalization of this simple situation, see [here](connection+on+a+bundle#ExistenceOfConnections).)
+
+$\,$
+
+**Counting instantons by integrating $tr(F_\nabla \wedge F_\nabla)$**
 
 So far we have derived the physics picture of an instanton: An $SU(2)$-gauge field which becomes gauge trivial "at infinity", witnessed by a gauge transformation on the "annulus at infinity" $S^3 \to SU(2)$ whose winding number is the instanton number. But the key point is that we see that the little neighbourhood of infinity $U_-$ is part of the picture, and that is necessary now to understand the Chern 4-form.
 
@@ -218,5 +319,9 @@ $$
 $$
 
 is generally non-vanishing, and is in fact yet another incarnation of the same integer that we had before, the instanton number. That this is so is given to us by [[Chern-Weil theory]].
+
+$\,$
+
+**Outlook: Chern-Simons 2-Gerbes**
 
 In fact the full story is nicer still. Namely the local [[Chern-Simons 3-forms]] $CS(A_\pm)$ together with the gauge transformation at infinity form a [[Cech cohomology]] cocycle for a [[circle 3-bundle with connection]] (a [[bundle 2-gerbe]]). This is the [[Chern-Simons 2-gerbe]] of the gauge field. And the fourth incarnation of the instanton number is: the [[Dixmier-Douady class]] of this 2-gerbe
