@@ -17,7 +17,7 @@
 
 For [[sequential spectra]] and for [[highly structured spectra]] such as [[symmetric spectra]] and [[orthogonal spectra]], the [[functor]] $(-)_n$ which picks their $n$th component space, for any $n \in \mathbb{N}$, has a [[left adjoint]] $F_n$. 
 
-A structured spectrum in the image of this [[free functor]] is called a _free symmetric spectrum_ or _free orthogonal spectrum_, respectively ([Mandell-May-Schwede-Shipley 01, section 8](#MandellMaySchwedeShipley01), [Schwede 12, example 3.20](#Schwede12)). See also ([MMSS 01, def. 1.3 with construction 2.1 and  theorem 2.2](#MandellMaySchwedeShipley01)).
+A structured spectrum in the image of this [[free functor]] is called a _free symmetric spectrum_ or _free orthogonal spectrum_, respectively ([Hovey-Shipley-Smith 00, def. 2.2.5](HoveyShipleySmith00), [Mandell-May-Schwede-Shipley 01, section 8](#MandellMaySchwedeShipley01), [Schwede 12, example 3.20](#Schwede12)). For a general abstract account see also ([MMSS 01, def. 1.3 with construction 2.1 and  theorem 2.2](#MandellMaySchwedeShipley01)).
 
 
 +-- {: .num_prop #ExplicitFormOfFreeSpectra}
@@ -42,6 +42,9 @@ For $n = 0$ the free construction is [[isomorphism|isomorphic]] to the correspon
 
 
 ## References
+
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+
 
 * {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
