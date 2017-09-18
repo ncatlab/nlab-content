@@ -21,6 +21,11 @@ A _sifted colimit_ is a [[colimit]] of a [[diagram]] $D \to C$ where $D$ is a [[
 
 A motivating example is a [[reflexive coequalizer]]. In fact, sifted colimits can "almost" be characterized as combinations of [[filtered colimits]] and reflexive coequalizers.
 
+## Properties
+
+See at _[[distributivity of products and colimits]]_.
+
+
 ## See also
 
 * [[sifted (infinity,1)-colimit]]
