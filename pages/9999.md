@@ -21,7 +21,7 @@ A point of view in [[philosophy]].
 
 (...)
 
-A prominent example is [[Georg Hegel]]'s [[natural philosophy]] as expressed in his _[[Science of Logic]]_. In opposition to this is the school of [[analytic philosophy]].
+A prominent example is [[Georg Hegel]]'s [[natural philosophy]] as expressed in his _[[Science of Logic]]_. In opposition to this is the school of [[analytic philosophy]] which aims to make use of formal reasoning in [[first-order logic]]. However [[William Lawvere]] argued that key Hegelian concepts such as _[[unity of opposites]]_, _[[Aufhebung]]_, _[[category of being]]_, do have useful formalization in [[modal type theory]] (or its [[categorical semantics]]).
 
 
 ## Relation to physics
