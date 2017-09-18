@@ -1,12 +1,15 @@
 $$
   \array{
-    S^1 \wedge S^1 & = & StdSpheres(S^n, S^{n+1}) \wedge StdSpheres(S^{n+1}, S^{n+2})
+    Hom(S^1 \wedge X_{n+1}, S^1 \wedge X_{n+1})
+      &\overset{\simeq}{\longrightarrow}&
+    Hom(X_{n+1}, Maps(S^1, S^1 \wedge X_{n+1})_\ast)
     \\
-    {}^{\mathllap{\simeq}}\downarrow 
-      && 
-    {}^{\mathllap{\simeq}}\downarrow^{\circ}
+    {}^{\mathllap{Hom(S^1 \wedge \sigma^X_n, f_{n+1})}}\downarrow 
+    && 
+    \downarrow^{\mathrlap{Hom(\sigma^X_n, Maps(S^1, f_{n+1}))}}
     \\
-    S^2 & = & StdSpheres(S^n , S^{n+2})
+    Hom(S^1 \wedge S^1 \wedge X_n, Y_{n+1})
+     &\overset{\simeq}{\longrightarrow}&
+    Hom(S^1 \wedge X_n, Maps(S^1, Y_{n+1})_\ast)
   }
-  \,.
 $$
