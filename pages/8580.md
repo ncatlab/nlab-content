@@ -76,6 +76,10 @@ Divided into two parts:
 
 1. [Super-geometry](#SupergeometricCoordinateSystems)
 
+**Transition to part II**
+
+1. [WZW terms](#WZWTerms)
+
 **Part II) [Physics](#PHYSICS)**
 
 1. [Physics in Higher Geometry: Motivation and Survey](#PhysicsMotivationAndSurvey)
@@ -476,6 +480,8 @@ We begin by laying the foundations of [[differential geometry]]. Doing this in t
 
 1. [Super-geometry](#SupergeometricCoordinateSystems)
 
+1. [WZW terms](#WZWTerms)
+
 =--
 
 
@@ -581,6 +587,10 @@ this chapter is at _[[geometry of physics -- integration]]_
 
 this chapter is at _[[geometry of physics -- supergeometry]]_
 
+## WZW terms
+ {#WZWTerms}
+
+this chapter is at _[[geometry of physics -- WZW terms]]_
 
 +-- {: bluebox #PHYSICS}
 ###### Contents
