@@ -167,9 +167,11 @@ Therefore also the remaining morphism is an isomorphism ([[two-out-of-three]]). 
 
 ## Related concepts
 
-* [[mapping cylinder]], [[mapping cone]]
 
 * [[homotopy colimit]]
+
+[[!include universal constructions of topological spaces -- table]]
+
 
 
 ## References
