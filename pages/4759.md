@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _Chern classes_ are the [[integral cohomology|integral]] [[characteristic class]]es 
+The ordinary _Chern classes_ are the [[integral cohomology|integral]] [[characteristic classes]] 
 
 $$
   c_i : B U \to B^{2 i} \mathbb{Z}
@@ -23,11 +23,13 @@ $$
 
 of the [[classifying space]] $B U$ of the [[unitary group]].
 
-Accordingly these are characteristic classes of $U$-[[principal bundle]]s and hence of [[complex numbers|complex]] [[vector bundle]]s.
+Accordingly these are characteristic classes in [[ordinary cohomology]] of [[unitary group|U]]-[[principal bundles]] and hence of [[complex vector bundle]]
 
 The first Chern class is the unique characteristic class of [[circle group]]-principal bundles.
 
-The analogous classes for the [[orthogonal group]] are the [[Pontryagin class]]es.
+The analogous classes for the [[orthogonal group]] are the [[Pontryagin classes]].
+
+More generally, there are _[[generalized Chern classes]]_ for any [[complex oriented cohomology theory]] ([Adams 74](#Adams74), [Lurie 10](#Lurie10)).
 
 ## Definition
 
@@ -151,10 +153,11 @@ A brief introduction is in chapter 23, section 7
 
 * [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
-For generalized Chern classes in [[complex oriented cohomology theory]]
+For generalized Chern classes in [[complex oriented cohomology theory]]:
 
-* [[Frank Adams]], Part II.2 of _[[Stable homotopy and generalised homology]]_, 1974
+* {#Adams74} [[Frank Adams]], part II.2 and part III.10 of _[[Stable homotopy and generalised homology]]_, 1974
 
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010, lecture 4 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) and lecture 5 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
 
 
