@@ -43,7 +43,14 @@ A 7-dimensional 3-Sasakian manifold carries a 1-parameter family of $G_2$-[[G2 m
 
 * Wikipedia, _[Sasakian manifold](https://en.wikipedia.org/wiki/Sasakian_manifold)_
 
-* Ilka Agricola, Thomas Friedrich, _3-Sasakian manifolds in dimension seven, their spinors and G_2 structures_, J. Geom. Phys. 60 (2010), 326-332 doi:[10.1016/j.geomphys.2009.10.003](http://dx.doi.org/10.1016/j.geomphys.2009.10.003), [arXiv:0812.1651](http://arxiv.org/abs/0812.1651)
-{#AgFried10}
+Discussion related to [[spin structure]] and [[G2-structure]] includes
+
+* {#AgFried10} [[Ilka Agricola]], [[Thomas Friedrich]], _3-Sasakian manifolds in dimension seven, their spinors and G_2 structures_, J. Geom. Phys. 60 (2010), 326-332 doi:[10.1016/j.geomphys.2009.10.003](http://dx.doi.org/10.1016/j.geomphys.2009.10.003), [arXiv:0812.1651](http://arxiv.org/abs/0812.1651)
+
+
+Discussion relating to [[quiver gauge theories]] includes
+
+* [[Olaf Lechtenfeld]], Alexander Popov, [[Richard Szabo]], _Sasakian quiver gauge theories and instantons on Calabi-Yau cones_ ([arXiv:1412.4409](http://arxiv.org/abs/1412.4409))
+
 
 [[!redirects Sasakian manifolds]]
