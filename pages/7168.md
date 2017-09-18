@@ -82,6 +82,8 @@ This means that a quadratic refinement by a [[quadratic form]] always exists whe
 
 * [[Hermitian form]]
 
+* [[completing the square]]
+
 ## References
  {#References}
 
