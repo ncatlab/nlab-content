@@ -161,7 +161,7 @@ $$
   [\mathcal{G}] = \xi \in H^3(X, \mathbb{Z}_2)
 $$
 
-the [[Steifel-Whitney class]] of $X$. So [[spin structure]]s on $X$ are in corresppndence with trivializations of $\mathcal{G}$.
+the [[Stiefel-Whitney class]] of $X$. So [[spin structure]]s on $X$ are in corresppndence with trivializations of $\mathcal{G}$.
 
 On the other hand we have that [[orientation]]s of $L X$ correspond to [[section]]s of $L \mathcal{G}$. Inside there are the fusion preserving sections, which by the above are equivalent to trivializations of $\mathcal{G}$.
 
