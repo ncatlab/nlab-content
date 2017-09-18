@@ -68,6 +68,13 @@ Every [[group algebra]] $R[G]$ is canonically augmented, the augmentation map be
 
 =--
 
++-- {: .num_example}
+###### Example
+
+If $X$ is a variety over an algebraically closed field $k$ and $x\in X(k)$ is a closed point, then the local ring $\mathcal{O}_{X,x}$ naturally has the structure of an augmented $k$-algebra. The augmentation map $\mathcal{O}_{X,x}\rightarrow k$ is the evaluation map, and the augmentation ideal is the maximal ideal of $\mathcal{O}_{X,x}$.
+
+=--
+
 ## Related concepts
 
 * [[augmentation]]
