@@ -127,6 +127,10 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 
 * Jon Sterling, _Type theory and its Meaning Explanations_ , 2015 ([video recording](https://youtu.be/xMAqniX2Paw?list=PLE7tQUdRKcybh21_zOg8_y4f2oMKDHpUS))
 
+Proposal for [[homotopy type theory]]:
+
+* {#Tsementzis17} Dimitris Tsementzis, _A Meaning Explanation for HoTT_ ([philsci-archive.pitt.edu/12824](http://philsci-archive.pitt.edu/12824/)))
+
 [[!redirects meaning explanation]]
 [[!redirects meaning explanations]]
 [[!redirects the meaning explanation]]
