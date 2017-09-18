@@ -33,7 +33,7 @@ Adding [[axioms]] to type theory, such as the principle of [[excluded middle]] o
 
 For instance, if we assume the law of excluded middle, then we can build a term $case(LEM(Goldbach),0,1) \colon \mathbb{N}$ which is $0$ or $1$ according as the Goldbach conjecture is true or false.  Clearly this term doesn't "compute", but neither is it of canonical form (a numeral).
 
-Similarly, using the univalence axiom, we can obtain a term $p : (\mathbb{N}=\mathbb{N})$ corresponding to the automorphism of $\mathbb{N}$ which adds one to every even number and subtracts one from every odd number.  Then the term $transport(p,0)$ also has type $\mathbb{N}$, but doesn't "compute" because the computer gets "stuck" on the univalence term.
+Similarly, using the univalence axiom, we can obtain a term $p : (\mathbf{2}=\mathbf{2})$ corresponding to the automorphism of the type $\mathbf{2}$ which switches $0_\mathbf{2}$ and $1_\mathbf{2}$.  Then the term $transport(p,0_\mathbf{2})$ also has type $\mathbf{2}$, but doesn't "compute" because the computer gets "stuck" on the univalence term.
 
 It is conjectured that univalence, unlike excluded middle, can be given a "computational" interpretation while preserving canonicity.  Some partial progress towards this can be found [here](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/).
 
