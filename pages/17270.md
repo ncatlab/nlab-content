@@ -41,11 +41,23 @@ Say that a **Quillen idempotent monad** on $\mathcal{C}$ is
 
 such that
 
-1. $Q$ preserves weak equivalences;
+1. ([[homotopical functor]]) $Q$ preserves weak equivalences;
 
-1. all $Q(\eta_X) \colon Q(X) \longrightarrow Q(Q(X))$ are weak equivalences;
+1. (idempotency) for all $X \in \mathcal{C}$ the morphisms
 
-1. if in a [[pullback]] square in $\mathcal{C}$
+   $$
+     Q(\eta_X) \;\colon\; Q(X) \overset{\in W}{\longrightarrow} Q(Q(X))
+   $$
+
+   and
+
+   $$
+     \eta_{Q(X)} \;\colon\; Q(X) \overset{\in W}{\longrightarrow} Q(Q(X))
+   $$
+
+   are weak equivalences;
+
+1. (preservation of homotopy pullbacks) if in a [[pullback]] square in $\mathcal{C}$
 
    $$
      \array{
@@ -83,6 +95,9 @@ a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad}, say t
 Write $\mathcal{C}_Q$ for $\mathcal{C}$ equipped with these classes of morphisms.
 
 =--
+
+
+
 
 +-- {: .num_lemma #FirstLemmaForBousfieldFriedlander}
 ###### Lemma
@@ -292,11 +307,16 @@ Warning: this proof assumes that $\mathcal{C}$ admits [[functorial factorization
 +-- {: .proof}
 ###### Proof
 
-The [[two-out-of-three]] poperty for $Q$-fibrations is evident. We discuss the two factorization conditions, from these the lifting follows by the [[retract argument]].
+The existence of [[limits]] and [[colimits]] is guaranteed since $\mathcal{C}$ is already assumed to be a model category.
+The [[two-out-of-three]] poperty for $Q$-weak equivalences is an immediate consequence of two-out-of-three for the original weak equivalences of $\mathcal{C}$. 
 
-First, lemma \ref{FirstLemmaForBousfieldFriedlander} directly implies that every morphism factors as a $Q$-cofibration followed by a $Q$-acyclic $Q$-fibration, simply by factoring it as a cofibration followed by an acyclic fibration.
+Moreover, according to lemma \ref{FirstLemmaForBousfieldFriedlander} the pair of classes $(Cof_{Q}, W_Q \cap Fib_Q)$ equals the pair $(Cof, W \cap Fib)$, and this is a [[weak factorization system]] by the model structure $\mathcal{C}$.
 
-For the other factorization, let $f \colon X \longrightarrow Y$ be a morphism. By applying functorial fibrant replacement to $Q(f) \to \widehat{Q(f)}$ in $\mathcal{C}^{\Delta[1]}_{inj}$ and composing this with $\eta_f$ yields a diagram 
+Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]].
+
+Regarding factorization:
+
+Let $f \colon X \longrightarrow Y$ be any morphism. Application of functorial fibrant replacement to $Q(f) \to \widehat{Q(f)}$ and composition with $\eta_f$ yields a diagram 
 
 $$
   \array{
