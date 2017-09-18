@@ -31,7 +31,7 @@ $$
 
 If an [[(∞,1)-topos]] $\mathbf{H}$ has a genuine [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ to its [[constant ∞-stack]] functor $\Delta$, then that may be interpreted as sending each object to its [[fundamental ∞-groupoid]], see at _[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]]_.
 
-In general such left adjoint $\Pi$ does not exist, but the [[pro-left adjoint]] $\Pi_{pro}$ to $\Delta$ always exists. This hence produces a pro-version of the [[fundamental ∞-groupoid]]-construction known generally as the [[étale homotopy type]]. In [[algebraic geometry]] and [[arithmetic geometry]] this reproduces the content of [[Galois theory]] (the pro-etale fundamental gorup is the [[Galois group]]/[[algebraic fundamental group]])  while in [[topology]] this reproduces the concept of [[shape]]. (Whence the term _[[shape modality]]_ for $\Pi$).
+In general such a left adjoint $\Pi$ does not exist, but the [[pro-left adjoint]] $\Pi_{pro}$ to $\Delta$ always exists. This hence produces a pro-version of the [[fundamental ∞-groupoid]]-construction known generally as the [[étale homotopy type]]. In [[algebraic geometry]] and [[arithmetic geometry]] this reproduces the content of [[Galois theory]] (the pro-etale fundamental group is the [[Galois group]]/[[algebraic fundamental group]])  while in [[topology]] this reproduces the concept of [[shape]]. (Whence the term _[[shape modality]]_ for $\Pi$).
 
 ## Related concepts
 
