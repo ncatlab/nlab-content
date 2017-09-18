@@ -52,7 +52,7 @@ The [[first order logic|first-order]] analogue of HSP (theorem \ref{BirkhoffHSP}
 
 * Wikipedia, <a href="https://en.wikipedia.org/wiki/Variety_(universal_algebra)#Birkhoff.27s_theorem">Birkhoff's theorem</a>
 
-* {#ChangKeisler} Chang, Keisler ...
+* {#ChangKeisler} Chang, Keisler _Continuous Model Theory_, Princeton University Press, 1966. ISBN: 9780691079295
 
 [[!redirects Birkhoff HSP theorem]]
 
