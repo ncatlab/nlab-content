@@ -226,6 +226,8 @@ Standard references are
 [[!redirects categories of presheaves]]
 [[!redirects presheaf category]]
 [[!redirects presheaf categories]]
+[[!redirects presheaf-category]]
+[[!redirects presheaf-categories]]
 
 [[!redirects categories of presheaves]]
 
