@@ -86,6 +86,10 @@ negative probability.
 * [[statistical mechanics]]
 * [[stochastic Loewner equation]] has relation to [[conformal field theory]] discovered by Schramm and collaborators including Fields medalist Werner.
 
+## Related concepts
+
+* [[Bayesian reasoning]]
+
 ## References
 
 Related concepts: [[expectation value]], [[Radon-Nikodym derivative]], [[cumulant]], [[ergodic theory]], [[statistics]], [[stochastic process]], [[Wiener integral]]
