@@ -22,7 +22,7 @@ For $R$ a [[ring]], a _projective $R$-module_ is a [[projective object]] in the 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop }
 ###### Proposition
 
 A module $N$ is projective precisely if the [[hom functor]] 
@@ -169,7 +169,7 @@ Hence $\tilde f : N \to N \oplus N' \stackrel{\hat f}{\to} \tilde K$ is a lift o
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #ProjectiveIsPreciselyDirectSummandOfFreeModule}
 ###### Proposition
 
 An $R$-module $N$ is projective precisely if it is the [[direct summand]] of a [[free module]]. 
@@ -269,6 +269,14 @@ See at _[[projective resolution]]_.
 
 
 ## Examples
+
++-- {: .num_prop #ModuleOverAFieldIsProjective}
+###### Proposition
+
+Assuming the [[axiom of choice]], then by the [[basis theorem]] every module over a [[field]] is a [[free module]] and hence in particular every module over a field is a projective module (by prop. \ref{DirectSummandOfFreeIsProjective}).
+
+=--
+
 
 +-- {: .num_prop}
 ###### Proposition
