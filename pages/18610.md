@@ -1,0 +1,12 @@
+
+
+* [webpage](http://www.kapitza.ras.ru/~suslov/)
+
+## related $n$Lab entries
+
+* [[asymptotic series]]
+
+* [[Feynman perturbation series]]
+
+category: people
+
