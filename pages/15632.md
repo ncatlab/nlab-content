@@ -45,7 +45,7 @@ Quality types together with the **continuity axiom** are an essential ingredient
 
 >That Continuity axiom (preservation of infinite products by $\pi_0$) was introduced in order to obtain homotopy types that are "qualities" in an intuitive sense[^qual] (as they should be automatically in the continuous case). Lawvere ([message to catlist oct 26th 2011](http://permalink.gmane.org/gmane.science.mathematics.categories/7006))
 
-([Lawvere 1998](#Law98),[Lawvere 2008](#Law08), [Marmolejo-Menni 2016](#MarmoMenni16)) also point to the role of continuity in insuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
+([Lawvere 1998](#Law98), [Lawvere 2008](#Law08), [Marmolejo-Menni 2016](#MarmoMenni16)) also point to the role of continuity in insuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
 
 In the following we discuss the case for ordinary categories, for the higher order generalization see [[infinitesimal cohesive (infinity,1)-topos]].
 
@@ -53,7 +53,7 @@ In the following we discuss the case for ordinary categories, for the higher ord
 
 Let $\mathcal{S},\mathcal{F}$ be [[extensive categories]]. A [[fully faithful functor]] $q^*:\mathcal{S}\to\mathcal{F}$ is said to exhibit $\mathcal{F}$ as a **quality type** over $\mathcal{S}$ if $q^*$ has both a left and a right adjoint which moreover coincide: $q_!\dashv q^*\dashv q_*$ and $q_!\cong q_*$.
 
-Let $\mathcal{E}$ be a (pre)cohesive category over $\mathcal{S}$ and $q^*:\mathcal{S}\to\mathcal{F}$ a quality type over $\mathcal{S}$. A functor $s:\mathcal{E}\to\mathcal{F}$ is called an **intensive quality** on $\mathcal{E}$ if $s$ preserves finite products and finite coproducts and $q_*\circ s =p_*$.
+Let $\mathcal{E}$ be a (pre)cohesive category over $\mathcal{S}$ with adjoint string $p_!\dashv p^* \dashv p_* \dashv p^!:\mathcal{S}\to\mathcal{E}$ and $q^*:\mathcal{S}\to\mathcal{F}$ a quality type over $\mathcal{S}$. A functor $s:\mathcal{E}\to\mathcal{F}$ is called an **intensive quality** on $\mathcal{E}$ if $s$ preserves finite products and finite coproducts and $q_*\circ s =p_*$.
 
 Dually, a finite coproduct preserving functor $h:\mathcal{E}\to\mathcal{F}$ with $q_!\circ h=p_!$ is called an **extensive quality** on $\mathcal{E}$.
 
@@ -65,7 +65,7 @@ Intuitively, an intensive quality is compatible with the points of its domain sp
 
 * Kan complexes over $Set$: The role of Kan complexes in this context is discussed in Marmolejo-Menni ([2016](#MarmoMenni16)).
 
-* Galois theory - presheaves on the opposite of the category of finite-dimensional local k-algebras (Lawvere 2004) (...)
+* Galois theory - presheaves on the opposite of the category of finite-dimensional local k-algebras (Lawvere 2004).
 
 ####Remark
 
@@ -94,7 +94,7 @@ Let $\mathcal{C}$ be a finitely complete category. An [[level|essential localiza
 
 A trivial example of a quintessential localization is provided by $id_\mathcal{C}$.
 
-To say that $r\dashv i:\mathcal{L}\to\mathcal{C}$ is a quintessential localization amounts to say that $i:\mathcal{L}\to\mathcal{C}$ exhibits $\mathcal{C}$ as a quality type over $\mathcal{L}$ with $r$ providing the right adjoint to $i\simeq l$ (provided $\mathcal{L}$, $\mathcal{C}$ are extensive).
+To say that $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ is a quintessential localization amounts to say that $i:\mathcal{L}\to\mathcal{C}$ exhibits $\mathcal{C}$ as a quality type over $\mathcal{L}$ with $r$ providing the right adjoint to $i\simeq l$ (provided $\mathcal{L}$, $\mathcal{C}$ are extensive).
 
 Note that a quintessential subtopos is [[dense subtopos|dense]] since $i$ is up to natural isomorphism a left adjoint whence preserves all colimits and the initial object in particular!
 
@@ -102,10 +102,10 @@ Since the [[adjoint modality|adjoint modalities]] $l\cdot r\dashv i\cdot r$ corr
 
 +-- {: .num_defn #persistentloc}
 ###### Definition 
-Let $\mathcal{C}$ be a finitely complete category. A [[localization]]  $r\dashv i:\mathcal{L}\to\mathcal{C}$ is called **persistent** if $\mathcal{L}$ is closed under subobjects.
+Let $\mathcal{C}$ be a finitely complete category. A [[localization]]  $r\dashv i:\mathcal{L}\to\mathcal{C}$ is called **persistent** if $\mathcal{L}$ is closed under subobjects in $\mathcal{C}$.
 =--
 
-Quintessential localizations of toposes are persistent ([Johnstone 1996](#JS96), p.94). Since [[separated object|separated objects]] for a [[Lawvere-Tierney topology]] $j$ are precisely the subobjects of $j-sheaves$ it follows that a persistent (and, in particular, a quintessential) subtopos coincides with its quasitopos of $j$-separated objects.
+Quintessential localizations of toposes are persistent ([Johnstone 1996](#JS96), p.94). Since [[separated object|separated objects]] for a [[Lawvere-Tierney topology]] $j$ are precisely the subobjects of $j-sheaves$ it follows that a persistent (and, in particular, a quintessential) subtopos coincides with its [[quasitopos]] of $j$-separated objects. Conversely, a subtopos with the property that it coincides with the corresponding quasitopos is persistent.
 
 +-- {: .num_theorem #quintidempotent}
 ###### Theorem  
