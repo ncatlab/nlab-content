@@ -5,7 +5,7 @@
 
 ## Idea
 
-The concept of _reduced cyclinder_ is the analog for [[pointed objects]] of [[cylinder]] constructions.
+The concept of _reduced cylinder_ is the analog for [[pointed objects]] of [[cylinder]] constructions.
 
 The [[mapping cone]] of $X \to \ast$ formed with the standard reduced cylinder is the [[reduced suspension]] of $X$.
 
@@ -14,7 +14,7 @@ Applying the reduced cylinder construction degreewise to a [[sequential spectrum
 
 ## For pointed topological spaces
 
-Specifically in [[topological spaces]], with $I = [0,1] subset \mathbb{R} \in $ [[Top]] the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]] and $I_+ \in Top^{\ast/}$ its [[pointed topological space|pointed]] version with a basepoint freely adjoined, then for $X$ a [[pointed topological space]], the standard **reduced cylinder** over it is the [[smash product]]
+Specifically in [[topological spaces]], with $I = [0,1] \subset \mathbb{R} \in $ [[Top]] the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]] and $I_+ \in Top^{\ast/}$ its [[pointed topological space|pointed]] version with a basepoint freely adjoined, then for $X$ a [[pointed topological space]], the standard **reduced cylinder** over it is the [[smash product]]
 
 $$
   X \wedge (I_+) \;\; \in Top^{\ast/}
@@ -28,7 +28,7 @@ $$
   \,.
 $$
 
-For the purposes of [[generalized (Eilenberg-Steenrod) cohomology]] theory typoically it does not matter whether one evaluates on the standard cylinder or the reduced cylinder. For example for [[topological K-theory]] since since $\{x\} \times I$ is a [[contractible topological space|contractoble]] [[closed subspace]], then [this prop.](topological+vector+bundle#VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace) says that [[topological vector bundles]] do not see a difference as long as $X$ is a [[compact Hausdorff space]].
+For the purposes of [[generalized (Eilenberg-Steenrod) cohomology]] theory typically it does not matter whether one evaluates on the standard cylinder or the reduced cylinder. For example for [[topological K-theory]] since since $\{x\} \times I$ is a [[contractible topological space|contractible]] [[closed subspace]], then [this prop.](topological+vector+bundle#VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace) says that [[topological vector bundles]] do not see a difference as long as $X$ is a [[compact Hausdorff space]].
 
 ## References
 
