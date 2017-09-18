@@ -83,6 +83,7 @@ The first statment appears as ([Goerss-Jardine, ch. V, lemma 6.6.](#GoerssJardin
 =--
 
 ### Relation to pointed simplicial sets
+ {#RelationToPointedSimplicialSets}
 
 +-- {: .num_prop #CoreflectiveQuillenAdjunctionToPointedSimplicialSets}
 ###### Proposition
