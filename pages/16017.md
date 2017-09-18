@@ -5,7 +5,7 @@
 
 ## Idea
 
-In the context of [[modal logic]], by _possible world semantics_ one means the interpretation of the [[possibility]] and [[necessity]] [[modalities]] as [[existential quantification]] and [[universal quantification]] over a [[context]] of "possible worlds".
+In the context of [[modal logic]], by _possible world semantics_ one means the interpretation of the [[possibility]] and [[necessity]] [[modalities]] as [[existential quantification]] and [[universal quantification]] over a [[context]] of "possible worlds". Such a model is sometimes referred to as a [[Kripke frame]].
 
 For formalization of this in terms of [[hyperdoctrines]]/[[dependent type theory]] see at _[necessity and possibility -- In first-order logic and dependent type theory](http://ncatlab.org/nlab/show/necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_.
 
