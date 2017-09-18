@@ -34,6 +34,8 @@ The join of two [[embeddings]] is an embedding, and an embedding is [[idempotent
 
 The unique map of type $\mathbf{0} \to X$ is a unit for the join operation.
 
+The join of two [[mere propositions]], $P \ast Q$, is equal to the [[propositional truncation]] of their sum, $\vert \vert P + Q \vert \vert$.
+
 
 
 ##Related concepts
