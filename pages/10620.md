@@ -1,8 +1,20 @@
 
 * [mathematics genealogy page](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=22494)
 
+## books
+
+* _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
+on [[algebraic topology]] and [[stable homotopy theory]]
+
 ## Related pages
 
 * [[J-homomorphism]]
 
+* [[algebraic topology]]
+
+* [[stable homotopy theory]]
+
 [[!redirects R. M. Switzer]]
+
+category: people
