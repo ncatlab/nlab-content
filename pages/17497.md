@@ -9561,7 +9561,7 @@ For reference, we consider some basic examples of [[orthogonal ring spectra]] (d
 
 We make use of these examples of homotopy commutative ring spectra $E$ in [[Introduction to Stable homotopy theory -- 2|Part 2]] in the computation of $E$-[[Adams spectral sequences]].
 
-For constructing representations as [[orthogonal ring spectra]] of spectra that are already known as [[sequential spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectra)) two principles are usefully to be kept in mind:
+For constructing representations as [[orthogonal ring spectra]] of spectra that are already known as [[sequential spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectra)) two principles are usefully kept in mind:
 
 1. by prop. \ref{RingSpectraAreDayMonoids} it is sufficient to give an equivariant  multiplicative pairing $E_{n_1} \wedge E_{n_2} \to E_{n_1 + n_2}$ and equivariant unit maps $S^0 \to E_0$, $S^1 \to E_1$, from these the structure maps $S^{n_1} \wedge E_{n_2}\to E_{n_1+n_2}$ are already uniquely induced;
 
@@ -9962,7 +9962,6 @@ $$
        {\simeq_Q}
      &
     SeqSpec(Top_{cg})_{stable}
-    \\
     \\       
     {}^{\mathllap{seq_!}}\downarrow \simeq_Q \uparrow^{\mathrlap{seq^\ast}}
       &&
