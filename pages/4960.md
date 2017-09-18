@@ -288,6 +288,21 @@ is a [[monomorphism]] for all $S \in \mathcal{S}$ .
 
 =--
 
+It is also expressed in the following way
+
++-- {: .num_prop #RelationOfPiecesToPointsToInitialAufhebung}
+###### Prop
+
+If $\flat \to \int$ is epi, then there is [[Aufhebung]] of the initial opposition, in that $\sharp \emptyset \simeq \emptyset$. Conversely if this holds and the [[base topos]] is a [[Boolean topos]], then $\flat \to \int$ is epi.
+
+=--
+
+This is [Lawvere-Menni 15, lemma 4.1, 4.2](#LawvereMenni15).
+
+
+
+
+
 +-- {: .num_defn }
 ###### Definition
 
