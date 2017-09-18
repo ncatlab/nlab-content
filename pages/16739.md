@@ -61,3 +61,5 @@ The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in
 * [[Francis Borceux]], _Handbook of Categorical Algebra vol.3_ , Cambridge UP 1994. (sections 1.2, 7.3)
 
 * K. B. Lee, _Equational Classes of Distributed Pseudo-Complemented Lattices_ , Can. J. Math. **22** (1970) pp.881-891. ([pdf](http://cms.math.ca/openaccess/cjm/v22/cjm1970v22.0881-0891.pdf))
+
+* M. E. Szabo, _Categorical De Morgan Laws_ , Alg. Universalis **12** (1981) pp.93-102.
