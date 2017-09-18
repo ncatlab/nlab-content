@@ -7,12 +7,16 @@ if $f\circ h_0=f\circ h_1$, then $h_0=h_1$.
 
 ## Examples
 
-A-forteriori-examples: 
+
+Tautological-examples: 
 
  * any cancellative monoid
 
  * any groupoid
 
+Non-tautological example: 
+
+ * the (wide) subcategory of the category of fields obtained by removing the zero ring 
 
 ## Related concepts
 
