@@ -1,11 +1,19 @@
 
 $\notin$
 
-[[UrysohnConstruction.png:file]]
+[[Surfaces.png:file]]
+
 
 
 +-- {: .proof}
 ###### Proof
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/Surfaces.png" width="400">
+
+topologically distinct surfaces
+</div>
+
 
 Let $(X,\tau)$ be a [[normal topological space]] and let $A, B \subset X$ be two [[closed subsets]] which are disjoint
 
