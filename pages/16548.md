@@ -66,3 +66,6 @@ In the conext of [[algebraic geometry]] and [[D-geometry]] the comonad structure
 For more references see at _[[jet bundle]]_.
 
 [[!redirects jet comonads]]
+
+[[!redirects Jet comonad]]
+[[!redirects Jet comonads]]
