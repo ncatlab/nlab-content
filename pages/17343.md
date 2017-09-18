@@ -41,7 +41,7 @@ Next section: _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable ho
 ## **Prelude) Classical homotopy theory**
  {#ClassicalHomotopyTheory}
 
-We are interested in the [[stable homotopy category]] of [[spectra]], to which we turn in [[Introduction to Stable homotopy theory -- 1|section 1]]. But since its existence is an adjunct of the [[classical homotopy category]] [[Ho(Top)]] of [[homotopy types]] of [[topological spaces]], we here review that first.
+We are interested in the [[stable homotopy category]] of [[spectra]], to which we turn in [[Introduction to Stable homotopy theory -- 1|section 1]]. But since its existence is an adjunct of the [[classical homotopy category]] [[Ho(Top)]] of [[homotopy types]] of [[topological spaces]], we here review that first. (If you need background on [[point-set topology]], see _[[Introduction to Topology]]_.)
 
 
 While the field of [[algebraic topology]] clearly originates in [[topology]], it is not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]], namely [[homeomorphism]] ("point-set topology"), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "weak [[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are [[invariants]] of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class. 
@@ -560,7 +560,7 @@ We now turn to the discussion of [[mapping spaces]]/[[exponential objects]].
 +-- {: .num_defn #CompactOpenTopology}
 ###### Definition
 
-For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (in that for every point, every neighbourhood contains a compact neighbourhood), the **[[mapping space]]**
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (in that for every point, every [[neighbourhood]] contains a [[compact topological space|compact]] neighbourhood), the **[[mapping space]]**
 
 $$
   X^Y \in Top
