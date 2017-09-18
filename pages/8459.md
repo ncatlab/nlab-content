@@ -169,9 +169,11 @@ And applying the [[chain homology]] functor to this yields the long exact sequen
 
 In conclusion this means that it is not really the passage to homology groups which "makes a short exact sequence become long". It's rather that passing to homology groups is a shadow of passing to chain complexes regarded up to quasi-isomorphism, and _this_ is what makes every short exact sequence be realized as but a special presentation of a stage in a long [[homotopy fiber sequence]].
 
-## Examples
+## Related concepts
 
 * [[Gysin sequence]]
+
+* [[Serre long exact sequence]]
 
 ## References
 
