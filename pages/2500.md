@@ -216,7 +216,11 @@ In dimension $(1+0)$ supergravity coupled to [[sigma-model]] fields is the [[spi
 
 In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spinning string]]/[[NSR superstring]].
 
+## Phenomenology
 
+Discussion of evidence for supergravity from [[experiment]]/[[phenomenology]] includes the following:
+
+in  ([Dalianis-Farakos 15](#DalianisFarakos15)) it is argued that the [[Starobinsky model of cosmic inflation]], which is strongly preferred by experiment, further improves after embedding into supergravity.
 
 
 ## Related concepts
@@ -371,6 +375,11 @@ Discussion of solutions with $N = 1$ global supersymmetry left and their relatio
 
 * {#GMPT} [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Generalized structures of $N=1$ vacua_, [arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212)
   
+### Phenomenology
+
+Discussion of implications of supergravity for [[phenomenology]]/[[cosmology]] includes
+
+* {#DalianisFarakos15} Ioannis Dalianis, [[Fotis Farakos]], _On the initial conditions for inflation with plateau potentials: the $R + R^2$ (super)gravity case_ ([arXiv:1502.01246](http://arxiv.org/abs/1502.01246))
 
 
 [[!redirects supergravity]]
