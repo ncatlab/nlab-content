@@ -48,7 +48,7 @@ we obtain the **reflexive globe category**.
 
 * The globe category is used to define [[globular set|globular sets]].
 
-* M. Zaks has studied [[level of a topos|levels]] in the topos of [[globular set#ReflexiveGlobularSets|reflexive globular sets]] in the context of [[Bill Lawvere|F. W. Lawvere]]'s concept of [[Aufhebung]] (cf. [Kennett-Riehl-Roy-Zaks(2011)](#KRRZ11)).
+* M. Roy has studied [[level of a topos|levels]] in the topos of [[globular set#ReflexiveGlobularSets|reflexive globular sets]] in the context of [[Bill Lawvere|F. W. Lawvere]]'s concept of [[Aufhebung]] (cf. [Kennett-Riehl-Roy-Zaks(2011)](#KRRZ11)).
 
 ## Related concepts
 
