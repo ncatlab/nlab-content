@@ -48,7 +48,7 @@ We here list a few, calibrating our conventions according to [BJG2009](#DG2nd), 
 Remarks. For the definitions of _trail_ and _path_, which in particular involve negations, to be sensical, both the vertex [[set]] and the arc [[set]] of the digraph need to have an [[equality]] relation, and one has to work with a logic which allows negating equality.
 
 
-[^2]: One example of a use of digraph theory *sensu stricto* in category theory is giving a rigorous justification of the  notational practice called [[pasting scheme]]s, which was achieved in the late 1980s (cf. e.g. [Johnson87](#Johnson1987), [Johnson89](#Johnson1989), [Power90](#Power1990) ). 
+[^2]: One example of a use of digraph theory *sensu stricto* in category theory is giving a rigorous justification of the  notational practice of [[pasting diagrams]], which was achieved in the late 1980s (cf. e.g. [Johnson87](#Johnson1987), [Johnson89](#Johnson1989), [Power90](#Power1990) ). 
 There, parallel arcs or loops are of secondary importance. 
 
 
