@@ -83,6 +83,14 @@ pages 261{289. Etablissements Ceuterick, Louvain, 1957.
 
 * {#ToenVaquie05} [[Bertrand Toen]], [[Michel Vaquie]], _Under Spec Z_ ([arXiv:math/0509684](http://arxiv.org/abs/math/0509684))
 
+Around (0.4.24.2) in 
+
+* {#Durov07} [[Nikolai Durov]], _New Approach to Arakelov Geometry_ ([arXiv:0704.2030](http://arxiv.org/abs/0704.2030))
+
+the algebraic structure of $\mathbb{F}_1$ is regarded as being the [[maybe monad]], hence [[modules]] over $\mathbb{F}_1$ are defined to be [[algebra over a monad|monad-algebras]] over the [[maybe monad]], hence [[pointed sets]].
+
+Other approaches include
+ 
 * [[Alain Connes]], [[Caterina Consani]], [[Matilde Marcolli]], _Fun with $\mathbf{F}_1$_, [arxiv/0806.2401](http://arxiv.org/abs/0806.2401)
 
 * [[Yuri Manin]], _Cyclotomy and analytic geometry over $F_1$_, [arxiv/0809.1564](http://arxiv.org/abs/0809.1564)
