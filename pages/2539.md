@@ -36,16 +36,41 @@ One implication is that [[topological vector bundles]] over a topological space 
 +-- {: .num_theorem}
 ###### Theorem
 
-For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subspace]], there is for every [[continuous function]] $f \colon A \to \mathbb{R}$ to the [[real line]] a continuous function $F \colon X \to \mathbb{R}$ extending it, i.e. such that $F|_A = f$.
+For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subspace]], there is for every [[continuous function]] $f \colon A \to \mathbb{R}$ to the [[real line]] (with its [[Euclidean space|Euclidean]] [[metric topology]]) a continuous function $\hat f \colon X \to \mathbb{R}$ extending it, i.e. such that $\hat f|_A = f$:
 
-One also says that _$\mathbb{R}$ is an [[absolute extensor]]_.
+$$
+  \array{
+     A &\hookrightarrow & X
+     \\
+     {}^{\mathllap{f}}\downarrow & \swarrow_{\mathrlap{\exists \hat f} } 
+     \\
+     \mathbb{R}
+  }
+$$
+
+Therefore one also says that _$\mathbb{R}$ is an [[absolute extensor]]_ in [[topology]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
+First assume that $f$ is a [[bounded function]], so that there exists a bound $c \in \mathbb{R}$ with $\underset{a \in A}{\forall} {\vert f(a)\vert} \leq c$. 
 
+We produce a [[sequence]] of approximations to the desired extension by [[induction]]. Then we will observe that the sequence is a [[Cauchy sequence]] and conclude by observing that this implies that it [[limit of a sequence]] is an extension of $f$ as desired.
+
+To start the induction, define the [[pre-images]]
+
+$$
+  E_0 \coloneqq f^{-1}( (-\infty, -c/3] )
+  \phantom{AAAA}
+  F_0 \coloneqq f^{-1}( [c/3, \infty) )
+  \,.
+$$
+
+Since the subsets $(-\infty,-c/3], [8c/3,\infty) \subset \mathbb{R}$ are [[closed subsets]], and since $f$ is a [[continuous function]], these are [[closed subsets]] of $A$.
+
+Now...
 
 =--
 
