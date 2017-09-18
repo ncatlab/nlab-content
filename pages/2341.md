@@ -43,9 +43,9 @@ Then a $\mathcal{V}$-functor $F:C\rightarrow D$ consists of the following data:
 
 * a class-function $Ob(C)\rightarrow Ob(D)$
 
-* for each pair $o_0,o_1$ of objects of $C$, a morphism $C(o,o')\overset{F_{o_0,o_1}}{\rightarrow}D(F(o_0),F({o_1}))$ of the category $\mathcal{V}$
+* for each pair $o_0,o_1$ of objects of $C$, a morphism $C(o_0,o_1)\overset{F_{o_0,o_1}}{\rightarrow}D(F(o_0),F({o_1}))$ of the category $\mathcal{V}$
 
-* for each object $o$ of $C$ and for each triple $o,o',o''$ of objects of $C$, the following 2-morphisms (ensuring that the functoriality-morphisms are compatible with the unit- and composition morphisms).
+* for each object $o$ of $C$ and for each triple $o_0,o_1,o_2$ of objects of $C$, the following 2-morphisms (ensuring that the functoriality-morphisms are compatible with the unit- and composition morphisms).
 
 (... to be continued ...)
 
