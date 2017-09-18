@@ -11,6 +11,9 @@ To prove it, it suffices to verify it for the values $(x, y) = (p, q)$ ranging o
 There is more to be written on this in terms of [[species]], [[coalgebras]], etc. 
  
 [[!redirects Chu-Vandermonde formula]] 
+
+[[!redirects Chu-Vandermonde identity]]
+
 [[!redirects Vandermonde identity]] 
 [[!redirects Vandermonde formula]] 
 [[!redirects Vandermonde convolution identity]] 
