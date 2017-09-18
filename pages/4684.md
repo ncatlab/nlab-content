@@ -203,7 +203,9 @@ Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) whic
 
 Then the following are equivalent:
 
-1. $X$ is [[sigma-compact topological space|sigma-compact]].
+1. $X$ is [[sigma-compact topological space|sigma-compact]],
+
+1. $X$ is [[second-countable topological space|second-countable]],
 
 1. $X$ is [[paracompact topological space|paracompact]] and has a [[countable set]] of [[connected components]],
 
@@ -219,15 +221,21 @@ By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean sp
 
 **1) $\Rightarrow$ 2)**
 
-Let $X$ be sigma-compact. We first show that then $X$ is [[second-countable topological space|second-countable]]:
+Let $X$ be sigma-compact. We show that then $X$ is [[second-countable topological space|second-countable]]:
 
 By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in I}$ of compact subspaces. By $X$ being locally Euclidean, each admits an [[open cover]] by restrictions of [[Euclidean spaces]]. By their compactness, each of these has a subcover $\{ \mathbb{R}^n \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}$ with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have obtained  a countable cover by Euclidean spaces $\{ \mathbb{R}^n  \overset{\phi_{i,j}}{\to} X\}_{i \in I, j \in J_i}$. Now Euclidean space itself is second countable (by [this example](second-countable+space#SecondCountableEuclideanSpace)), hence admits a countable set $\beta_{\mathbb{R}^n}$ of base open sets. As a result the union $\underset{{i \in I} \atop {j \in J_i}}{\cup} \phi_{i,j}(\beta_{\mathbb{R}^n})$ is a base of opens for $X$. But this is a countable union of countable sets, and since [[countable unions of countable sets are countable]] we have obtained a countable base for the topology of $X$. This means that $X$ is second-countable.
 
+**1) $\Rightarrow$ 3)**
+
 Let $X$ be sigma-compact. We show that then $X$ is paracompact with a countable set of connected components:
 
-Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. By [[locally connected topological space|local connectivity]] (prop. \ref[LocalPropertiesOfLocallyEuclideanSpace}) $X$ is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)). Since, by the previous statement, $X$ is also second-countable it cannot have an uncountable set of connected components.
+Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. By [[locally connected topological space|local connectivity]] (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace}) $X$ is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)). Since, by the previous statement, $X$ is also second-countable it cannot have an uncountable set of connected components.
 
-**2) $\Rightarrow$ 1)**
+**2)$\Rightarrow$ 1)** Let $X$ be second-countable, we need to show that it is sigma-compact.  
+
+This follows since [[locally compact and second-countable spaces are sigma-compact]].
+
+**3) $\Rightarrow$ 1)**
 
 Now let $X$ be paracompact with countably many connected components. We show that $X$ is sigma-compact.
 
@@ -395,6 +403,40 @@ such that
 =--
 
 Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.
+
+## Properties
+
++-- {: .num_prop #OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}
+###### Proposition
+
+Let $X$ be a $k$-fold differentiable manifold and let $S \subset X$
+be an [[open subset]] of the underlying [[topological space]] $(X,\tau)$.
+
+Then $S$ carries the structure of a $k$-fold differentiable manifold such that the
+inclusion map $S \hookrightarrow X$ is an [[open embedding|open]]
+[[embedding of differentiable manifolds]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Since the underlying [[topological space]] of $X$ is [[locally connected topological space|locally connected]] ([this prop.](topological+manifold#LocalPropertiesOfLocallyEuclideanSpace)) it is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)). 
+
+Therefore we are reduced to showing the statement for the case that $X$ has a single [[connected component]]. By [this prop](topological+manifold#RegularityConditionsForTopologicalManifoldsComparison) this implies that $X$ is [[second-countable topological space]].
+
+Now a [[subspace]] of a second-countable Hausdorff space is clearly itself second countable and Hausdorff. 
+
+Similarly it is immediate that $S$ is still [[locally Euclidean space|locally Euclidean]]: since $X$ is locally Euclidean every point $x \in S \subset X$ has a Euclidean neighbourhood in $X$ and since $S$ is open there exists an open ball in that (itself [[homeomorphism|homeomorphic]] to Euclidean space) which is a Euclidean neighbourhood of $x$ contained in $S$.
+
+For the differentiable structure we pick these Euclidean neighbourhoods from the given atlas.
+Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold differentiable follows since these are restrictions of the gluing functions for the atlas of $X$.
+
+=--
+
+
+
 
 ## Examples
 
