@@ -11,6 +11,8 @@ The [[equivariant cohomology|equivariant]] [[generalized cohomology theory]] whi
 
 ## Properties
 
+### Equivariant stable $\pi_3^{\mathbb{S}}$
+
 See at _[quaternionic Hopf fibration --  Class in equivariant stable homotopy theory](quaternionic+Hopf+fibration#ClassInEquivariantStableHomotopyTheory)_
 
 
@@ -18,3 +20,12 @@ See at _[quaternionic Hopf fibration --  Class in equivariant stable homotopy th
 ## Related concepts
 
 * [[stable cohomotopy]]
+
+## References
+
+A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-equivariant stable cohomotopy is discussed in
+
+* _A stable cohomotopy refinement of Seiberg-Witten invariants: I_ ([arXiv:math/0204340](http://arxiv.org/abs/math/0204340))
+
+* _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ ([arXiv:math/0204267](http://arxiv.org/abs/math/0204267))
+
