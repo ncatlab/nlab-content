@@ -14,9 +14,16 @@
 
 ## Idea
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ChartsOfAManifold.png" width="500"> 
+</div>
+
 A _manifold_ is a [[topological space]] which looks locally like a [[Cartesian space]], commonly a finite-dimensional Cartesian space $\mathbb{R}^n$ but possibly an infinite-dimensional [[topological vector space]]-
 
 What "locally looks like" means depends on what sort of structure we are considering a Cartesian space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a [[topological space]]. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure, such as $C^k$-[[differential structure]], [[smooth structure]], piecewise-linear (PL) structure, real [[analytic function|analytic structure]], affine structure, hyperbolic structure, foliated structure, etc., etc. Accordingly we have notions of [[topological manifold]], [[differential manifold]], [[smooth manifold]], etc. By default these are modeled on finite [[dimension]]al spaces, but most notions have generalizations to a corresponding notion of [[infinite dimensional manifold]].
+
+> graphics grabbed from [[The Geometry of Physics - An Introduction|Frankel]]
+
 
 In any case, the type of geometry embodied in a particular flavor of manifold is controlled by a particular [[groupoid]] or, more generally, [[category]] of transformations which preserves whatever geometric features one is interested in; cf. Felix Klein's _[[Erlangen program|Erlanger Programm]]_.
 
