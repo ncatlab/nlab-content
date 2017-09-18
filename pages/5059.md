@@ -899,7 +899,7 @@ Quantization of the Green-Schwarz string using [[pure spinors]] is discussed in
 
 Review from the bigger perspective that also includes worlsheet supermanifolds is in
 
-* [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101,2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+* {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101,2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
 The observation that the Green-Schwarz action functional is an example of a [[WZW-model]] on [[super-Minkowski spacetime]] is due to
 
