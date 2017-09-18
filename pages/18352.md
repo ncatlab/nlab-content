@@ -2,7 +2,7 @@
 [[!redirects Kuratowski]]
 **Kazimierz Kuratowski** (b. February 2, 1896, d. June 18, 1980) was a Polish mathematician who worked primarily in [[general topology]] and [[mathematical logic]]. 
 
-He is probably best known for a celebrated theorem in [[graph]] theory: that a graph $G$ is [[planar graph|planar]] iff neither the complete graph $K_5$ on $5$ vertices nor the complete bipartite graph $K_{3, 3}$ on a pair of $3$-element sets appear as [[graph minors]] of $G$. 
+He is probably best known for a celebrated theorem in [[graph]] theory: that a graph $G$ is [[planar graph|planar]] iff neither the complete graph $K_5$ on $5$ vertices nor the complete bipartite graph $K_{3, 3}$ on a pair of $3$-element sets appear as edge [[subdivisions]] of subgraphs of $G$ (closely related to Wagner's theorem that this is the case iff neither $K_5$ nor $K_{3, 3}$ appear as [[graph minors]] of $G$). 
 
 ## Link
 
