@@ -369,7 +369,7 @@ and in the context of [[equivariant stable homotopy theory]] in ([Schwede 14](#S
 
 and in [[global equivariant stable homotopy theory]]:
 
-* {#Schwede15} [[Stefan Schwede]], _Global homotopy theory_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/global.pdf))
+* {#Schwede15} [[Stefan Schwede]], _[[Global homotopy theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/global.pdf))
 
 
 See also
