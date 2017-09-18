@@ -21,6 +21,9 @@ structures in profinite homotopy theory,
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Dennis_Sullivan)
 
+* interview by [[Kathryn Hess]]: [video](https://www.youtube.com/watch?v=K8kPS6FZBoc&feature=youtu.be)
+
+
 # related $n$Lab entries #
 
 * [[rational homotopy theory]]
