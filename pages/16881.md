@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
 =--
 =--
 
@@ -39,7 +43,7 @@ $$
   f \;\colon\; [a,b] \longrightarrow \mathbb{R}
 $$
 
-be a [[continuous function]] form a [[bounded set|bounded]] [[closed interval]] ($a \lt b \in \mathbb{R}$)
+be a [[continuous function]] from a [[bounded set|bounded]] [[closed interval]] ($a \lt b \in \mathbb{R}$)
 regarded as a [[topological subspace]] of [[real numbers]] to the [[real numbers]], with the
 latter regarded with their [[Euclidean space|Euclidean]] [[metric topology]].
 
@@ -59,7 +63,13 @@ $$
 
 Since [[continuous images of compact spaces are compact]]  
 the image $f([a,b]) \subset \mathbb{R}$ is a [[compact topological space|compact]] [[subspace]]. 
-By the [[Heine-Borel theorem]] this is a [[bounded set|bounded]] [[closed subset]]. Hence $f([a,b])$ has a [[maximum]] and a [[minimum]]. 
+By the [[Heine-Borel theorem]] this is a [[bounded set|bounded]] [[closed subset]]. By the nature of the [[Euclidean space|Euclidean]] [[metric topology]], the image is hence a union of [[closed intervals]]. Finally by continuity of $f$ it needs to be a single closed interval, hence of the form
+
+$$
+  f([a,b]) =  [f(x_{min}), f(x_{max})] \;\subset\; \mathbb{R}
+  \,.
+$$
+
 
 =--
 
