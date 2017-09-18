@@ -369,7 +369,7 @@ Let $R$ be a [[ring]].
 +-- {: .num_prop #ModuleIsFilteredColimitOverFinitelyGeneratedSubmodules}
 ###### Proposition
 
-Every $R$-module is the [[filtered colimit]] over is [[finitely generated module|finite generated]] [[submodules]].
+Every $R$-module is the [[filtered colimit]] over its [[finitely generated module|finite generated]] [[submodules]].
 
 =--
 
