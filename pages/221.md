@@ -92,9 +92,9 @@ __Proposition 3.__  0 is an initial object, _i.e._, for any $X$ there exists a u
  
 __Proof.__  Uniqueness:  if $f, g : 0 \to X$ are maps, then their equalizer $x : E \to 0$, which is monic, must be an isomorphism since 0 has no proper subsets.  Therefore $f = g$.  Existence:  there are monos
 
-$$\displaystyle 0 \to 1 \stackrel{t_X}{\to} PX$$
+$$\displaystyle 0 \to 1 \stackrel{t_X}{\to} P X$$
  
-$$\displaystyle X \stackrel{\sigma}{\to} PX$$
+$$\displaystyle X \stackrel{\sigma}{\to} P X$$
 
 where $t_X$ is "global truth" (classifying the subset $X \subseteq X$) on $X$ and $\sigma$ is the "singleton mapping $x \mapsto \{ x \}$" on $X$, defined as the classifying map of the diagonal map $\delta : X \subseteq X \times X$ (last time we saw $\sigma$ is monic).  Take their pullback.  The component of the pullback parallel to $\sigma$ is a mono $P \to 0$ which again is an isomorphism, whence we get a map $0 \cong P \to X$ using the other component of the pullback.  $\Box$
  
@@ -125,25 +125,25 @@ One of the major goals in this post is to construct finite coproducts in an ETCS
 To define the union $A \cup B \subseteq X$, the idea is to take the intersection of all subsets containing $A$ and $B$.  That is, we apply the internal intersection operator (constructed [last
 time](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic/) ),
 
-$$\displaystyle \bigcap : PPX \to PX,$$
+$$\displaystyle \bigcap : P P X \to P X,$$
 
-to the element $1 \to PPX$ that represents the set of all subsets of $X$ containing $A$ and $B$;  the resulting element $1 \to PX$ represents $A \cup B$.  The element $1 \to PPX$ corresponds to the intersection of two subsets $\{ C \in PX : A \subseteq C \} \:\cap\: \{ C \in PX : B \subseteq C \} \subseteq PX$.
+to the element $1 \to P P X$ that represents the set of all subsets of $X$ containing $A$ and $B$;  the resulting element $1 \to P X$ represents $A \cup B$.  The element $1 \to P P X$ corresponds to the intersection of two subsets $\{ C \in P X : A \subseteq C \} \:\cap\: \{ C \in P X : B \subseteq C \} \subseteq P X$.
 
-: __Remark.__  Remember that in ETCS we are using _generalized_ elements:  $C \in PX$ really means a function $C : U \to PX$ over some domain $U$, which in turn classifies a subset $\left[C\right] \subseteq U \times X$.  On the other hand, the $A$ here is a subset $A \subseteq X$.  How then do we interpret the condition "$A \subseteq C$"?  We first pull back $\chi_A : 1 \to PX$ over to the domain $U$;  that is, we form the composite $\displaystyle U \stackrel{!}{\to} 1 \stackrel{\chi_A}{\to} PX$ and consider the condition that this is bounded above by $C : U \to PX$.  (We will write $\chi_A \leq C$, thinking of the left side as constant over $U$.)  Externally, in terms of subsets, this corresponds to the condition $U \times A \subseteq \left[C\right]$.
+: __Remark.__  Remember that in ETCS we are using _generalized_ elements:  $C \in P X$ really means a function $C : U \to P X$ over some domain $U$, which in turn classifies a subset $\left[C\right] \subseteq U \times X$.  On the other hand, the $A$ here is a subset $A \subseteq X$.  How then do we interpret the condition "$A \subseteq C$"?  We first pull back $\chi_A : 1 \to P X$ over to the domain $U$;  that is, we form the composite $\displaystyle U \stackrel{!}{\to} 1 \stackrel{\chi_A}{\to} P X$ and consider the condition that this is bounded above by $C : U \to P X$.  (We will write $\chi_A \leq C$, thinking of the left side as constant over $U$.)  Externally, in terms of subsets, this corresponds to the condition $U \times A \subseteq \left[C\right]$.
 
-We need to construct the subsets $\{ C \in PX : A \subseteq C \}, \{ C \in PX : B \subseteq C \}$.  In ZFC, we could construct those subsets by applying the comprehension axiom scheme, but the axioms of ETCS have no such blanket axiom scheme.  (In fact, as we said earlier, much of the work on "internalizing logic" goes to show that in ETCS, we instead _derive_ a comprehension scheme!)  However, one way of defining subsets in ETCS is by taking loci of equations;  here, we express the condition $A \subseteq C$, more pedantically $A \subseteq \left[C\right]$ or $\chi_A \leq C$, as the equation
+We need to construct the subsets $\{ C \in P X : A \subseteq C \}, \{ C \in P X : B \subseteq C \}$.  In ZFC, we could construct those subsets by applying the comprehension axiom scheme, but the axioms of ETCS have no such blanket axiom scheme.  (In fact, as we said earlier, much of the work on "internalizing logic" goes to show that in ETCS, we instead _derive_ a comprehension scheme!)  However, one way of defining subsets in ETCS is by taking loci of equations;  here, we express the condition $A \subseteq C$, more pedantically $A \subseteq \left[C\right]$ or $\chi_A \leq C$, as the equation
 
 $$(\chi_A \Rightarrow C) = t_X$$
 
 where the right side is the predicate "true over $X$".
  
-Thus we construct the subset $\{C \in PX: A \subseteq C\}$ of $PX$ via the pullback:
+Thus we construct the subset $\{C \in P X: A \subseteq C\}$ of $P X$ via the pullback:
 
 $$
 \begin{matrix}
 \{ C : A \le C \} & \longrightarrow & 1 \\
 \downarrow & & \downarrow \mathrlap{\scriptsize{t_X}} \\
-PX & \underset{\chi_A \Rightarrow -}{\longrightarrow} & PX
+P X & \underset{\chi_A \Rightarrow -}{\longrightarrow} & P X
 \end{matrix}
 $$
 
@@ -154,25 +154,25 @@ $$\Rightarrow : P1 \times P1 \to P1$$
 
 and now, in the pullback diagram above, what we are implicitly doing is lifting this to an operator
 
-$$\Rightarrow_X : PX \times PX \to PX$$
+$$\Rightarrow_X : P X \times PX \to P X$$
 
-The easy and cheap way of doing this is to remember the isomorphism $PX \cong P1^X$ we used last time to uncover the cartesian closed structure, and apply this to
+The easy and cheap way of doing this is to remember the isomorphism $P X \cong P1^X$ we used last time to uncover the cartesian closed structure, and apply this to
 
 $$\displaystyle P1^X \times P1^X \cong (P1 \times P1)^X \stackrel{\Rightarrow^X}{\to} P1^X$$
 
-to define $\Rightarrow_X : PX \times PX \to PX$.  This map classifies a certain subset of $X \times PX \times PX$, which I'll just write down (leaving it as an exercise which involves just chasing the relevant definitions):
+to define $\Rightarrow_X : P X \times P X \to P X$.  This map classifies a certain subset of $X \times P X \times P X$, which I'll just write down (leaving it as an exercise which involves just chasing the relevant definitions):
  
-$$\{ (x, T, S) \in X \times PX \times PX : x \in_X T \Rightarrow x \in_X S \}$$
+$$\{ (x, T, S) \in X \times P X \times P X : x \in_X T \Rightarrow x \in_X S \}$$
 
-: __Remark.__  Similarly we can define a meet operator $\wedge_X : PX \times PX \to PX$ by exponentiating the internal meet $P1 \times P1 \to P1$.  It is important to know that the general Heyting algebra identities which we established last time for $P1$ lift to the corresponding identities for the operators $\wedge_X, \Rightarrow_X$ on $PX$.  Ultimately this rests on the fact that the functor $(-)^X$, being a right adjoint, preserves products, and therefore preserves any algebraic identity which can be expressed as a commutative diagram of operations between such products.
+: __Remark.__  Similarly we can define a meet operator $\wedge_X : P X \times P X \to P X$ by exponentiating the internal meet $P1 \times P 1 \to P 1$.  It is important to know that the general Heyting algebra identities which we established last time for $P1$ lift to the corresponding identities for the operators $\wedge_X, \Rightarrow_X$ on $P X$.  Ultimately this rests on the fact that the functor $(-)^X$, being a right adjoint, preserves products, and therefore preserves any algebraic identity which can be expressed as a commutative diagram of operations between such products.
 
-Hence, for the fixed subset $A \subseteq X$ (classified by $\chi_A : 1 \to PX$), the operator
+Hence, for the fixed subset $A \subseteq X$ (classified by $\chi_A : 1 \to P X$), the operator
 
-$$\chi_A \Rightarrow - : PX \to PX$$
+$$\chi_A \Rightarrow - : P X \to P X$$
 
 classifies the subset
 
-$$\{ (x, S) : x \in_X A \Rightarrow x \in_X S \} \hookrightarrow X \times PX$$
+$$\{ (x, S) : x \in_X A \Rightarrow x \in_X S \} \hookrightarrow X \times P X$$
 
 Finally, in the pullback diagram above, we are pulling back the operator $\chi_A \Rightarrow -$ against $t_X$.  But, from [last
 time](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic), that was exactly the method we used to construct [[universal quantification]].  That is, given a subset
@@ -183,7 +183,7 @@ we defined $\forall_Y R \subseteq X$ to be the pullback of $t_Y : 1 \hookrightar
 
 Putting all this together, the pullback diagram above expresses the definition
 
-$$\{ C \in PX : A \subseteq C \} := \{ C \in PX : \forall_{x \in X} \: x \in_X A \Rightarrow x \in_X C \}$$
+$$\{ C \in P X : A \subseteq C \} := \{ C \in P X : \forall_{x \in X} \: x \in_X A \Rightarrow x \in_X C \}$$
 
 that one would expect "naively".
  
@@ -249,13 +249,13 @@ $$\forall_Y R \times Y \subseteq R \subseteq S$$
 
 where the first inclusion follows from $\forall_Y R \subseteq \forall_Y R$.  $\Box$
  
-Next, recall from the [last post](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic) that the internal intersection of $F : 1 \to PPX$ was defined by interpreting the following formula on the right:
+Next, recall from the [last post](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic) that the internal intersection of $F : 1 \to P P X$ was defined by interpreting the following formula on the right:
 
-$$\displaystyle \bigcap F = \forall_{S \in PX} (S \in_{PX} F) \Rightarrow (x \in_X S)$$
+$$\displaystyle \bigcap F = \forall_{S \in P X} (S \in_{P X} F) \Rightarrow (x \in_X S)$$
 
-__Lemma 3.__  If $F \leq G : 1 \to PPX$, then $\displaystyle \bigcap G \leq \bigcap F : 1 \to PX$.
- 
-__Proof.__  $F : 1 \to PPX$ classifies the subset $\{ S \in PX : S \in_{PX} F \}$, _i.e._, $F$ is identified with the predicate $S \in_{PX} F$ in the argument $S$, so by hypothesis $(S \in_{PX} F) \leq (S \in_{PX} G)$ as predicates on $S$.  Internal implication $a \Rightarrow b$ is contravariant in the argument $a$ [see the following remark], so
+__Lemma 3.__  If $F \leq G : 1 \to P P X$, then $\displaystyle \bigcap G \leq \bigcap F : 1 \to P X$.
+  
+__Proof.__  $F : 1 \to P P X$ classifies the subset $\{ S \in P X : S \in_{P X} F \}$, _i.e._, $F$ is identified with the predicate $S \in_{P X} F$ in the argument $S$, so by hypothesis $(S \in_{P X} F) \leq (S \in_{P X} G)$ as predicates on $S$.  Internal implication $a \Rightarrow b$ is contravariant in the argument $a$ [see the following remark], so
 
 $$\left[(S \in G) \Rightarrow (x \in S)\right] \leq \left[(S \in F) \Rightarrow (x \in S)\right]$$
 
@@ -271,51 +271,51 @@ $$x \wedge (y \Rightarrow b) \leq y \wedge (y \Rightarrow b) \leq b \qquad (*)$$
 
 __Theorem 1.__  For subsets $A, B$ of $X$, the subset $A \cup B$ is an upper bound of $A$ and $B$, _i.e._, $A, B \subseteq A \cup B$.
  
-__Proof.__  It suffices to prove that $\displaystyle A = \bigcap \{C \in PX : A \subseteq C\}$, since then we need only apply Lemma 3 to the trivially true inclusion
+__Proof.__  It suffices to prove that $\displaystyle A = \bigcap \{C \in P X : A \subseteq C\}$, since then we need only apply Lemma 3 to the trivially true inclusion
  
-$$\{ C \in PX : A \subseteq C \} \:\cap\: \{ C \in PX : B \subseteq C \} \subseteq \{ C \in PX : A \subseteq C \}$$
+$$\{ C \in P X : A \subseteq C \} \:\cap\: \{ C \in P X : B \subseteq C \} \subseteq \{ C \in P X : A \subseteq C \}$$
  
-to infer $A \subseteq A \cup B$, and similarly $B \subseteq A \cup B$.  (Actually, we need only show $\displaystyle A \subseteq \bigcap \{ C \in PX : A \subseteq C \}$.  We'll do that first, and then show full equality.)
+to infer $A \subseteq A \cup B$, and similarly $B \subseteq A \cup B$.  (Actually, we need only show $\displaystyle A \subseteq \bigcap \{ C \in P X : A \subseteq C \}$.  We'll do that first, and then show full equality.)
  
 The condition we want,
 
-$$A \subseteq \{ x \in X : \forall_{S \in PX} (A \subseteq S) \Rightarrow (x \in_X S) \},$$
+$$A \subseteq \{ x \in X : \forall_{S \in P X} (A \subseteq S) \Rightarrow (x \in_X S) \},$$
 
-is, by the adjunction $(- \times PX) \dashv \forall_{PX} : Sub(X \times PX) \to Sub(X)$, equivalent to
+is, by the adjunction $(- \times P X) \dashv \forall_{P X} : Sub(X \times P X) \to Sub(X)$, equivalent to
 
-$$A \times PX \subseteq \{ (x, S) : A \subseteq S \Rightarrow (x \in_X S) \}$$
+$$A \times P X \subseteq \{ (x, S) : A \subseteq S \Rightarrow (x \in_X S) \}$$
 
 which, by a $\wedge$-$\Rightarrow$ adjunction, is equivalent to
 
-$$(A \times PX) \cap (X \times \{ S \in PX : A \subseteq S \}) \subseteq \: \in_X \qquad (1)$$
+$$(A \times P X) \cap (X \times \{ S \in P X : A \subseteq S \}) \subseteq \: \in_X \qquad (1)$$
 
-as subsets of $X \times PX$.  So we just have to prove (1).  At this point we recall, from our earlier analysis, that
+as subsets of $X \times P X$.  So we just have to prove (1).  At this point we recall, from our earlier analysis, that
 
-$$\{ S \in PX : A \subseteq S \} = \{ S \in PX : \forall_{x \in X} x \in_X A \Rightarrow x \in_X S \}$$
+$$\{ S \in P X : A \subseteq S \} = \{ S \in P X : \forall_{x \in X} x \in_X A \Rightarrow x \in_X S \}$$
 
 Using the adjunction $(X \times -) \dashv \forall_X$, as in the proof of Lemma 2, we have
  
-$$X \times \{ S \in PX : \forall_{x \in X} x \in_X A \Rightarrow x \in_X S \}$$
+$$X \times \{ S \in P X : \forall_{x \in X} x \in_X A \Rightarrow x \in_X S \}$$
  
-$$\subseteq \{ (x, S) : x \in_X A \Rightarrow x \in_X S \} := (A \times PX) \Rightarrow \in_X,$$
+$$\subseteq \{ (x, S) : x \in_X A \Rightarrow x \in_X S \} := (A \times P X) \Rightarrow \in_X,$$
  
 which shows that the left side of (1) is contained in
 
-$$(A \times PX) \cap ((A \times PX) \Rightarrow \in_X) \subseteq \: \in_X,$$
+$$(A \times P X) \cap ((A \times P X) \Rightarrow \in_X) \subseteq \: \in_X,$$
 
 where the last inclusion uses another $\wedge$-$\Rightarrow$ adjunction.  Thus we have established (1) and therefore also the inclusion
 
-$$\displaystyle A \subseteq \bigcap \{S \in PX : A \subseteq S\}$$
+$$\displaystyle A \subseteq \bigcap \{S \in P X : A \subseteq S\}$$
 
 Now we prove the opposite inclusion
 
-$$\displaystyle \bigcap \{ S \in PX : A \subseteq S \} \subseteq A,$$
+$$\displaystyle \bigcap \{ S \in P X : A \subseteq S \} \subseteq A,$$
 
 that is to say
 
-$$\{ x \in X : \forall_{S \in PX} A \subseteq S \Rightarrow x \in_X S \} \subseteq A \qquad (**)$$
+$$\{ x \in X : \forall_{S \in P X} A \subseteq S \Rightarrow x \in_X S \} \subseteq A \qquad (**)$$
 
-Here we just use Lemma 1, applied to the particular element $\chi_A : 1 \to PX$:  we see that the left side of $(**)$ is contained in
+Here we just use Lemma 1, applied to the particular element $\chi_A : 1 \to P X$:  we see that the left side of $(**)$ is contained in
 
 $$\{ x \in X : A \subseteq \left[\chi_A\right] \Rightarrow x \in_X A\}$$
 
@@ -325,9 +325,9 @@ __Theorem 2.__  $A \cup B$ is the least upper bound of $A, B$, _i.e._, if $C \su
  
 __Proof.__  We are required to show that
 
-$$\{ x \in X : \forall_{S \in PX} \: (A \subseteq S \wedge B \subseteq S) \Rightarrow x \in_X S \} \subseteq C.$$
+$$\{ x \in X : \forall_{S \in P X} \: (A \subseteq S \wedge B \subseteq S) \Rightarrow x \in_X S \} \subseteq C.$$
 
-Again, we just apply Lemma 1 to the particular element $\chi_C : 1 \to PX$: the left-hand side of the claimed inclusion is contained in
+Again, we just apply Lemma 1 to the particular element $\chi_C : 1 \to P X$: the left-hand side of the claimed inclusion is contained in
 
 $$\{ x \in X : (A \subseteq C \wedge B \subseteq C) \Rightarrow x \in_X C \}$$
 
@@ -347,7 +347,7 @@ $$\displaystyle \left[\pi_1\right] = P1 \times 1 \stackrel{1 \times t}{\hookrigh
  
 $$\displaystyle \left[\pi_2\right] = 1 \times P1 \stackrel{t \times 1}{\hookrightarrow} P1 \times P1$$
 
-and this operation satisfies all the expected identities.  In short, $P1$ carries an internal Heyting algebra structure, as does $PX \cong P1^X$ for any set $X$.
+and this operation satisfies all the expected identities.  In short, $P 1$ carries an internal Heyting algebra structure, as does $P X \cong P 1^X$ for any set $X$.
  
 We will come back to this point later, when we show (as a consequence of strong extensionality) that $P1$ is actually an internal Boolean algebra.
 
@@ -361,23 +361,25 @@ whose intersection is empty, and whose union or join in $Sub(Z)$ is all of $Z$. 
  
 __Theorem 3.__  A disjoint union of $X$ and $Y$ exists.
  
-__Proof.__  It's enough to embed $X, Y$ disjointly into _some_ set $C$, since the union of the two monos in $Sub(C)$ would then be the requisite $Z$.  The idea now is that if a disjoint union or coproduct $X+Y$ exists, then there's a canonical isomorphism $P(X + Y) \cong PX \times PY$.  Since the singleton map
++-- {: .proof} 
+###### Proof 
+It's enough to embed $X, Y$ disjointly into _some_ set $C$, since the union of the two monos in $Sub(C)$ would then be the requisite $Z$.  The idea now is that if a disjoint union or coproduct $X+Y$ exists, then there's a canonical isomorphism $P(X + Y) \cong P X \times P Y$.  Since the singleton map
 
-$$\sigma : X + Y \to P(X + Y) \cong PX \times PY$$
+$$\sigma : X + Y \to P(X + Y) \cong P X \times P Y$$
 
-is monic, one thus expects to be able to embed $X$ and $Y$ disjointly into $PX \times PY$.  Since we can easily work out how all this goes in ordinary naive set theory, we just write out the formulas and hope it works out in ETCS.
+is monic, one thus expects to be able to embed $X$ and $Y$ disjointly into $P X \times P Y$.  Since we can easily work out how all this goes in ordinary naive set theory, we just write out the formulas and hope it works out in ETCS.
  
-In detail, define $i_X : X \to PX \times PY$ to be
+In detail, define $i_X : X \to P X \times P Y$ to be
 
-$$\displaystyle X \cong X \times 1 \stackrel{\sigma_X \times \chi_0}{\to} PX \times PY$$
+$$\displaystyle X \cong X \times 1 \stackrel{\sigma_X \times \chi_0}{\to} P X \times P Y$$
 
-where $\sigma_X$ is the singleton mapping and $\chi_0$ classifies $0 \hookrightarrow Y$;  similarly, define $i_Y :Y \to PX \times PY$ to be
+where $\sigma_X$ is the singleton mapping and $\chi_0$ classifies $0 \hookrightarrow Y$;  similarly, define $i_Y :Y \to P X \times P Y$ to be
 
-$$\displaystyle Y \cong 1 \times Y \stackrel{\chi_0 \times \sigma_Y}{\to} PX \times PY.$$
+$$\displaystyle Y \cong 1 \times Y \stackrel{\chi_0 \times \sigma_Y}{\to} P X \times P Y.$$
 
 Clearly $i_X$ and $i_Y$ are monic, so to show disjointness we just have to show that their pullback is empty.  But their pullback is isomorphic to the cartesian product of the pullbacks of the diagrams
 
-$$\displaystyle X \stackrel{\sigma_X}{\to} PX \stackrel{\chi_0}{\leftarrow} 1 \qquad 1 \stackrel{\chi_0}{\to} PY \stackrel{\sigma_Y}{\leftarrow} Y$$
+$$\displaystyle X \stackrel{\sigma_X}{\to} P X \stackrel{\chi_0}{\leftarrow} 1 \qquad 1 \stackrel{\chi_0}{\to} P Y \stackrel{\sigma_Y}{\leftarrow} Y$$
 
 so it would be enough to show that each (or just one) of these two pullbacks is empty, let's say the first.
  
@@ -387,10 +389,10 @@ $$\array{
 \arrayopts{\rowalign{center axis center}}
 \A & \longrightarrow & 1 \\
 \mathllap{\scriptsize{h}} \downarrow & & \downarrow \mathrlap{\scriptsize{\chi_0}} \\
-X & \underset{\dlap{\sigma_X}}{\longrightarrow} & PX
+X & \underset{\dlap{\sigma_X}}{\longrightarrow} & P X
 }$$
 
-commute.  Using the pullback principle, the map $A \to 1 \stackrel{\chi_0}{\to} PX$ classifies
+commute.  Using the pullback principle, the map $A \to 1 \stackrel{\chi_0}{\to} P X$ classifies
 
 $$0 \times A \hookrightarrow X \times A$$
 
@@ -402,30 +404,33 @@ An elementary calculation shows this to be the equalizer of the pair of maps
 
 $$\pi_1, h\pi_2 : X \times A \stackrel{\to}{\to} X$$
 
-So this equalizer $E$ is empty.  But notice that $\langle h, 1 \rangle : A \to X \times A$ equalizes this pair of maps.  Therefore we have a map $A \to E \cong 0$.  By Corollary 2 above, we infer $A \cong 0$.  This applies to the case where $A$ is the pullback, so the pullback is empty, as was to be shown.  $\Box$
+So this equalizer $E$ is empty.  But notice that $\langle h, 1 \rangle : A \to X \times A$ equalizes this pair of maps.  Therefore we have a map $A \to E \cong 0$.  By Corollary 2 above, we infer $A \cong 0$.  This applies to the case where $A$ is the pullback, so the pullback is empty, as was to be shown. 
+=-- 
  
 __Theorem 4.__  Any two disjoint unions of $X, Y$ are canonically isomorphic.
- 
-__Proof.__  Suppose $i : X \rightarrow Z \leftarrow Y : j$ is a disjoint union.  Define a map
 
-$$\phi = \langle \phi_1, \phi_2 \rangle : Z \to PX \times PY$$
++-- {: .proof} 
+###### Proof 
+Suppose $i : X \rightarrow Z \leftarrow Y : j$ is a disjoint union.  Define a map
 
-where $\phi_1 : Z \to PX$ classifies the subset $\langle 1_X, i \rangle : X \to X \times Z$, and $\phi_2 : Z \to PY$ classifies the subset $\langle 1_Y, j \rangle : Y \to Y \times Z$.  Applying the pullback principle, the composite $\phi_1 i : X \to PX$ classifies
+$$\phi = \langle \phi_1, \phi_2 \rangle : Z \to P X \times P Y$$
+
+where $\phi_1 : Z \to P X$ classifies the subset $\langle 1_X, i \rangle : X \to X \times Z$, and $\phi_2 : Z \to P Y$ classifies the subset $\langle 1_Y, j \rangle : Y \to Y \times Z$.  Applying the pullback principle, the composite $\phi_1 i : X \to P X$ classifies
 
 $$(1_X \times i)^{-1}(\langle 1_X, i \rangle) \hookrightarrow X \times X$$
 
-which is easily seen to be the diagonal on $X$.  Hence $\phi_1 i = \sigma_X$.  On the other hand, $\phi_1 j : Y \to PX$ classifies the subset
+which is easily seen to be the diagonal on $X$.  Hence $\phi_1 i = \sigma_X$.  On the other hand, $\phi_1 j : Y \to P X$ classifies the subset
 
 $$(1_X \times j)^{-1}(\langle 1_X, i \rangle) \hookrightarrow X \times Y$$
 
-which is empty because $i$ and $j$ are disjoint embeddings, so $\phi_1 j = \chi_0 : Y \to PX$.  Similar
+which is empty because $i$ and $j$ are disjoint embeddings, so $\phi_1 j = \chi_0 : Y \to P X$.  Similar
 calculations yield
 
-$$\phi_2 i = \chi_0 : X \to PY \qquad \phi_2 j = \sigma_Y : Y \to PY.$$
+$$\phi_2 i = \chi_0 : X \to P Y \qquad \phi_2 j = \sigma_Y : Y \to P Y.$$
 
-Putting all this together, we conclude that $\phi i = i_X : X \to PX \times PY$ and $\phi j = i_Y : Y \to PX \times PY$, where $i_X$ and $i_Y$ were defined in the proof of Theorem 3.
+Putting all this together, we conclude that $\phi i = i_X : X \to P X \times P Y$ and $\phi j = i_Y : Y \to P X \times P Y$, where $i_X$ and $i_Y$ were defined in the proof of Theorem 3.
  
-Next, we show that $\phi$ is monic.  If not, then by strong extensionality, there exist distinct elements $c, d : 1 \to Z$ for which $\phi(c) = \phi(d)$;  therefore, $\phi_1 c = \phi_1 d : 1 \to PX$ and $\phi_2 c = \phi_2 d : 1 \to PY$.  By the pullback principle, these equations say (respectively)
+Next, we show that $\phi$ is monic.  If not, then by strong extensionality, there exist distinct elements $c, d : 1 \to Z$ for which $\phi(c) = \phi(d)$;  therefore, $\phi_1 c = \phi_1 d : 1 \to P X$ and $\phi_2 c = \phi_2 d : 1 \to PY$.  By the pullback principle, these equations say (respectively)
 
 $$ c^{-1}(i) = d^{-1}(i) \hookrightarrow 1 \qquad c^{-1}(j) = d^{-1}(j) \hookrightarrow 1$$
 
@@ -435,11 +440,14 @@ $$i \subseteq \neg c \qquad j \subseteq \neg c$$
 
 where $\neg = (- \Rightarrow 0) : Sub(Z) \to Sub(Z)$ is the negation operator.  But then $i \cup j \subseteq \neg c$.  And since $1 : Z \hookrightarrow Z$ is the union $i \cup j$ by assumption, $\neg c$ must be the top element $\top \in Sub(Z)$, whence $c : 1 \to Z$ is the bottom element 0.  This contradicts the assumption that the topos is nondegenerate.  Thus we have shown that $\phi$ must be monic.
  
-The argument above shows that $\phi : Z \hookrightarrow PX \times PY$ is an upper bound of $i_X : X \to PX \times PY$ and $i_Y : Y \to PX \times PY$ in $Sub(PX \times PY)$.  It follows that the join $X + Y$ constructed in Theorem 3 is contained in $\phi : Z \to PX \times PY$, and hence can be regarded as the join of $X$ and $Y$ in $Sub(Z)$.  But $Z$ is their join in $Sub(Z)$ by assumption of being a disjoint union, so the containment $X + Y \subseteq Z$ must be an equality.  The proof is now complete.  $\Box$
+The argument above shows that $\phi : Z \hookrightarrow P X \times P Y$ is an upper bound of $i_X : X \to P X \times P Y$ and $i_Y : Y \to P X \times P Y$ in $Sub(P X \times P Y)$.  It follows that the join $X + Y$ constructed in Theorem 3 is contained in $\phi : Z \to P X \times P Y$, and hence can be regarded as the join of $X$ and $Y$ in $Sub(Z)$.  But $Z$ is their join in $Sub(Z)$ by assumption of being a disjoint union, so the containment $X + Y \subseteq Z$ must be an equality.  The proof is now complete. 
+=-- 
  
 __Theorem 5.__  The inclusions $i_X : X \to X + Y$, $i_Y : Y \to X + Y$ exhibit $X + Y$ as the coproduct of $X$ and $Y$.
 
-__Proof.__  Let $f : X \to B$, $g : Y \to B$ be given functions.  Then we have monos
++-- {: .proof} 
+###### Proof 
+Let $f : X \to B$, $g : Y \to B$ be given functions.  Then we have monos
 
 $$\langle 1_X, f \rangle : X \hookrightarrow X \times B \qquad \langle 1_Y, g \rangle : Y \hookrightarrow Y \times B \qquad (1)$$
 
@@ -451,6 +459,7 @@ exhibit $(X + Y) \times B$ as a disjoint union of $X \times B, Y \times B$.  Com
 
 $$\langle 1, h \rangle : X + Y \hookrightarrow (X + Y) \times B$$
 
-whose restriction to $X$ yields $\langle i_X, f \rangle$ and whose restriction to $Y$ yields $\langle i_Y, g \rangle$.  Hence $h : X + Y \to B$ extends $f$ and $g$.  It is the unique extension, for if there were two extensions $h, h'$, then their equalizer would be an upper bound of $X, Y$ in $Sub((X + Y) \times B)$, contradicting the fact that $X + Y$ is the least upper bound.  This completes the proof.  $\Box$
+whose restriction to $X$ yields $\langle i_X, f \rangle$ and whose restriction to $Y$ yields $\langle i_Y, g \rangle$.  Hence $h : X + Y \to B$ extends $f$ and $g$.  It is the unique extension, for if there were two extensions $h, h'$, then their equalizer would be an upper bound of $X, Y$ in $Sub((X + Y) \times B)$, contradicting the fact that $X + Y$ is the least upper bound.  This completes the proof. 
+=-- 
 
 I think that's enough for one day.  I will continue to explore the categorical structure and logic of ETCS next time.
