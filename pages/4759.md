@@ -296,7 +296,7 @@ See also at _[splitting principle -- Examples -- Complex vector bundles and thei
 +-- {: .proof}
 ###### Proof
 
-The [[classifying space]] $B U(1)$ is equivalently the infinite [[complex projective space]] $\mathbb{C}P^\infty$. Its [[ordinary cohomology]] is the [[polynomial ring]] on a single generator $c_1$, the [[first Chern class]] ([prop.](complex projective space#OrdinaryCohomologyOfComplexProjectiveSpace))
+The [[classifying space]] $B U(1)$ is equivalently the infinite [[complex projective space]] $\mathbb{C}P^\infty$. Its [[ordinary cohomology]] is the [[polynomial ring]] on a single generator $c_1$, the [[first Chern class]] ([prop.](complex+projective+space#OrdinaryCohomologyOfComplexProjectiveSpace))
 
 $$
   H^\bullet(B U(1))
@@ -346,9 +346,8 @@ $$
   \,.
 $$
 
-The hard part of the proof now is to show that:
+The hard part of the proof now is to show that: $\mu_n^\ast$ is a [[monomorphism]] (e.g. [Kochmann 96, p. 40](#Kochmann96)).
 
-$\mu_n^\ast$ is a [[monomorphism]] (e.g. [Kochmann 96, p. 40](#Kochmann96)).
 
 This allows to compute $\mu_n^\ast(c_k)$ by [[induction]].
 
@@ -361,10 +360,10 @@ Consider then the [[commuting diagram]]
 $$
   \array{
     B U(1)^{n-1}
-      &\mu'_{n-1}&
-    B U(n)
+      &\overset{\mu'_{n-1}}{\longrightarrow}&
+    B U(n-1)
     \\
-    {J'_t}^{\mathllap}\downarrow
+    {}^{\mathllap{J'_t}}\downarrow
       &&
     \downarrow
     \\
@@ -376,7 +375,7 @@ $$
 
 where the left vertical morphism is the inclusion that omits the $t$th factor of $U(1)$, and the top horizontal morphism is the composite of $J'_t$ with with the map $B U(1)^n \to B U(1)^{n-1} \overset{\mu_{n-1}}{\longrightarrow} B U(n-1)$, where the first map projects out the last copy of $U(1)$.
 
-Since by inductoin assumption pullback along the right vertical morphism is an isomorphism on the classes $c_{k \leq n-1}$, the diagram gives for these that
+Since by induction assumption pullback along the right vertical morphism is an isomorphism on the classes $c_{k \leq n-1}$, the diagram gives for these that
 
 $$
   \mu_n^\ast(c_{k \lt n})
@@ -389,7 +388,19 @@ $$
 
 This implies the claim for $k \lt n$. 
 
-For the case $k = n$...
+For the case $k = n$ the commutativity of the diagram and the fact that the right map is zero on $c_n$ by prop. \ref{GeneratorsOfCohomologyOfBunChernClasses} shows that the element $(J'_t)^\ast \mu_n^\ast c_n = 0$ for all $1 \leq t \leq n$. But by injectivity of $\mu_n^\ast$, the element $\mu_n^\ast(c_n)$ itself is non-zero. Hence it must be proportional to all the $(c_1)_k$. By degree reasons this means that it has to be the product of all of them
+
+$$
+  \begin{aligned}
+    \mu^{\ast}_n(c_n) 
+     & = (c_1)_1 \otimes (c_1)_2 \otimes \cdots \otimes (c_1)_n
+     \\
+     & = \sigma_n( (c_1)_1, \cdots, (c_1)_n )
+  \end{aligned}
+  \,.
+$$
+
+This completes the induction step.
 
 =--
 
