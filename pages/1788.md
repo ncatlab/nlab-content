@@ -1,80 +1,34 @@
-Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in the pointed homotopy category $Ho(\mathcal{C}^{\ast/})$ (prop. \ref{ModelStructureOnSliceCategory}). Then:
-
-1. There is a long sequence to the left in $\mathcal{C}^{\ast/}$ of the form
-
-   $$
-     \cdots 
-       \longrightarrow 
-     \Omega X 
-       \overset{\overline{\Omega} f}{\longrightarrow}
-     \Omega Y 
-       \longrightarrow 
-     hofib(f) 
-       \longrightarrow 
-     X 
-       \overset{f}{\longrightarrow} 
-     Y
-     \,,
-   $$
-
-   where each morphism is the [[homotopy fiber]] (def. \ref{HomotopyFiber}) of the following one: the **[[homotopy fiber sequence]]** of $f$. Here $\overline{\Omega}f$ denotes $\Omega f$ followed by forming inverses with respect to the group structure on $\Omega(-)$ from prop. \ref{LoopingAsFunctorOnHomotopyCategory}.
-
-Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
-
-   $$
-     \cdots
-     \to 
-     [A,\Omega^2 Y]_\ast
-     \longrightarrow
-     [A,\Omega hofib(f)]_\ast
-     \longrightarrow
-     [A, \Omega X]_\ast 
-     \longrightarrow
-     [A,\Omega Y]
-     \longrightarrow
-     [A,hofib(f)]_\ast
-     \longrightarrow
-     [A,X]_\ast 
-     \longrightarrow
-     [A,Y]
-   $$ 
-
-   of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
-
-1. Dually, there is a long sequence to the right in $\mathcal{C}^{\ast/}$ of the form
-
-   $$
-     X 
-       \overset{f}{\longrightarrow} 
-     Y 
-       \overset{}{\longrightarrow}
-     hocofib(f)
-       \longrightarrow
-     \Sigma X
-       \overset{\overline{\Sigma} f}{\longrightarrow}
-     \Sigma Y
-       \to \cdots
-     \,,
-   $$
-
-   where each morphism is the [[homotopy cofiber]] (def. \ref{HomotopyFiber}) of the previous one: the **[[homotopy cofiber sequence]]** of $f$. Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
-
-   $$
-     \cdots
-     \to 
-     [\Sigma^2 X, A]_\ast
-     \longrightarrow
-     [\Sigma hocofib(f), A]_\ast
-     \longrightarrow
-     [\Sigma Y, A]_\ast 
-     \longrightarrow
-     [\Sigma X, A]
-     \longrightarrow
-     [hocofib(f),A]_\ast
-     \longrightarrow
-     [Y,A]_\ast 
-     \longrightarrow
-     [X,A]
-   $$ 
-
-   of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
+  $$
+    \array{
+      A 
+        &\overset{f}{\longrightarrow}& 
+      B 
+        &\overset{g}{\longrightarrow}& 
+      C 
+        &\overset{h}{\longrightarrow}&
+      \Sigma A
+      \\
+      {}^{\mathllap{=}}\downarrow && {}^{\mathllap{f'}}\downarrow && \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
+      \\
+      A 
+        &\underset{f' \circ f}{\longrightarrow}&
+      B
+        &\underset{g''}{\longrightarrow}&
+      E
+        &\underset{h''}{\longrightarrow}&
+      \Sigma A
+      \\
+      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} && \downarrow^{\mathrlap{\Sigma f}}
+      \\
+      && 
+      F 
+       &\underset{=}{\longrightarrow}& 
+      F
+        &\underset{h'}{\longrightarrow}& 
+      \Sigma B
+      \\
+      && {}^{\mathllap{h'}}\downarrow && \downarrow^{\mathrlap{(\Sigma g)\circ h'}}
+      \\
+      && \Sigma B &\underset{\Sigma g}{\longrightarrow}& \Sigma C
+    }
+  $$
