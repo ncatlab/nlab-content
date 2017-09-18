@@ -6149,6 +6149,58 @@ and whose action on morphisms is, under the above identification, just the [[com
 
 =--
 
++-- {: .num_prop #TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits}
+###### Proposition
+
+For $\mathcal{C}$ any [[small category|small]] [[topologically enriched category]], def. \ref{TopEnrichedCategory} then the [[enriched functor category]] $[\mathcal{C}, Top_{cg}]$ from example \ref{TopologicallyEnrichedFunctorsToTopk} has all [[limits]] and [[colimits]], and they are computed objectwise:
+
+if 
+
+$$
+  F_\bullet 
+    \;\colon\; 
+  I 
+    \longrightarrow
+  [\mathcal{C}, Top_{cg}]
+$$
+
+is a [[diagram]] of [[functors]] and $c\in \mathcal{C}$ is any object, then 
+
+$$
+  (\underset{\longleftarrow}{\lim}_i F_i)(c) \simeq \underset{\longleftarrow}{\lim}_i (F_i(c)) \;\;\in Top_{cg} 
+$$
+
+and
+
+$$
+  (\underset{\longrightarrow}{\lim}_i F_i)(c) \simeq \underset{\longrightarrow}{\lim}_i (F_i(c)) \;\; \in Top_{cg}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider the underlying diagram of functors $F_i^\circ$ where the topology on the [[hom-spaces]] of $\mathcal{C}$ and of $Top_{cg}$ has been forgotten. Then one finds
+
+$$
+  (\underset{\longleftarrow}{\lim}_i F^\circ_i)(c) \simeq \underset{\longleftarrow}{\lim}_i (F^\circ_i(c)) \;\;\in Set
+$$
+
+and
+
+$$
+  (\underset{\longrightarrow}{\lim}_i F^\circ _i)(c) \simeq \underset{\longrightarrow}{\lim}_i (F^\circ_i(c)) \;\; \in Set
+$$
+
+by the [[universal property]] of limits and colimits. (Given a morphism of diagrams then a unique compatible morphism between their limits or colimits, respectively, is induced as the universal factorization of the morphism of diagrams regarded as a cone or cocone, respectvely, over the codomain or domain diagram, respectively).
+
+Hence it only remains to see that equipped with topology, these limits and colimits in $Set$ become limits and colimits in $Top_{cg}$. That is just the statement of prop. \ref{DescriptionOfLimitsAndColimitsInTop} with corollary \ref{kTopIsCoreflectiveSubcategory}.
+
+
+=--
+
 
 +-- {: .num_defn #TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}
 ###### Definition
@@ -6472,7 +6524,9 @@ These are [[cofibrantly generated model category]], def. \ref{CofibrantlyGenerat
 +-- {: .proof}
 ###### Proof
 
-Via the enriched Yoneda lemma, prop. \ref{TopologicallyEnrichedYonedaLemma}, the statement reduces objectwise to the proof of theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}:
+By prop. \ref{TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits} the category has all limits and colimits, hence it remains to check the model structure
+
+But via the enriched Yoneda lemma, prop. \ref{TopologicallyEnrichedYonedaLemma}, proving that reduces objectwise to the proof of theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}:
 
 In particular, the technical lemmas \ref{CompactSubsetsAreSmallInCellComplexes}, \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and \ref{AcyclicSerreFibrationsAreTheJTopFibrations} generalize immediately to the present situation, with the evident small change of wording:
 
