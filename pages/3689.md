@@ -375,6 +375,10 @@ Every $R$-module is the [[filtered colimit]] over its [[finitely generated modul
 
 See for instance ([Kiersz, prop. 3](#Kiersz)).
 
+### Tiny objects
+
+For discussion of [[tiny objects]] in $Mod$, see at _[Tiny object -- In categories of modules over rings](tiny+object#InCategoriesOfModulesOverRings)_.
+
 ### Tannaka duality
 
 [[!include structure on algebras and their module categories - table]]
