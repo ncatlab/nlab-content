@@ -32,7 +32,6 @@ This page is currently under construction, and will be far from acceptable quali
 [relative adjunction](https://ncatlab.org/nlab/show/relative+adjoint+functor)
 
 [simplicial localization](https://ncatlab.org/nlab/show/simplicial+localization), 
-[infinity-hom space](https://ncatlab.org/nlab/show/infinity,1-categorical+hom-space), 
 [simplicial model category](https://ncatlab.org/nlab/show/simplicial+model+category), 
 [weak factorization](https://ncatlab.org/nlab/show/weak+factorization+system), 
 [semi-simplicial object](https://ncatlab.org/nlab/show/semi-simplicial+object)
