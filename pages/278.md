@@ -103,6 +103,10 @@ Textbooks include
 
 * [[Shlomo Sternberg]], _Lectures on differential geometry_
 
+Lecture notes include
+
+* {#Conrad} [[Brian Conrad]], Handouts on Differential Geometry ([web](http://math.stanford.edu/~conrad/diffgeomPage/handouts.html))
+ 
 An introduction with an eye towards applications in [[physics]], specifically to [[gravity]] and [[gauge theory]] is in 
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
