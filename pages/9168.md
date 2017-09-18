@@ -25,9 +25,9 @@ In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime
 
 One fundamental (complex, charged) scalar field is seen in [[experiment]], the _[[Higgs field]]_, which is one component of the [[standard model of particle physics]]. A widely hypothesized scalar field is the [[inflaton]] field in [[model (physics)|models]] of [[cosmic inflation]], which however remains speculative and might in any case be an effective compound of more fundamental fields.
 
-But scalar fields also serve as a key toy example in theoretical studies of [[field theory]], such as in [[phi^4 theory]] or in the [[Ising model]]. The usefulness of the scalar field as a toy example of [[classical field theory]] and [[perturbative quantum field theory]] is due to 
+But scalar fields also serve as a key toy example in theoretical studies of [[field theory]], such as in [[phi^4 theory]] or in the [[Ising model]]. The usefulness of the scalar field as a toy example of [[classical field theory]] and [[perturbative quantum field theory]] is due to
 it already exhibiting much of the core structure of [[field theory]]. For instance the general formulas for [[propagators]]
-and the [[S-matrix]] of general [[local field theories]] are structurally those of the 
+and the [[S-matrix]] of general [[local field theories]] are structurally those of the
 scalar field, just with some more fairly evident [[representation theory|representation theoretic]] structure thrown in.
 
 
@@ -36,18 +36,18 @@ scalar field, just with some more fairly evident [[representation theory|represe
 
 ### Free scalar field
 
-We discuss here the [[free field|free]] [[scalar field]] on general [[spacetimes]], 
+We discuss here the [[free field|free]] [[scalar field]] on general [[spacetimes]],
 hence the scalar field subject to the [[force]] of a [[background field]] of [[gravity]], but
 not [[interaction|interacting]] with itself. This means that its [[local Lagrangian density]]
 is [[quadratic form|quadratic]] in the fields and its first derivatives (def. \ref{LocalLagrangianOfFreeScalarField})
-and its [[equation of motion]] is the [[Klein-Gordon equation]] (hence the [[wave equation]] in the case of 
+and its [[equation of motion]] is the [[Klein-Gordon equation]] (hence the [[wave equation]] in the case of
 vanishing [[mass]]) (prop. \ref{FreeScalarFieldEOM} below).
 
-The [[Poisson bracket]] on the [[covariant phase space]] of this system (prop. \ref{FreeScalarFieldEOM} below) turns out 
-to have as [[integral kernel]] the [[causal propagator]] of the [[Klein-Gordon operator]] 
+The [[Poisson bracket]] on the [[covariant phase space]] of this system (prop. \ref{FreeScalarFieldEOM} below) turns out
+to have as [[integral kernel]] the [[causal propagator]] of the [[Klein-Gordon operator]]
 (i.e. the [[Green function]] whose [[support of a distribution|support]] is inside the [[light cone]]).
-Accordingly, the other associated [[Green functions]] of the [[Klein-Gordon operator]] 
-(the "[[propagators]]", such as the [[Feynman propagator]]) govern the 
+Accordingly, the other associated [[Green functions]] of the [[Klein-Gordon operator]]
+(the "[[propagators]]", such as the [[Feynman propagator]]) govern the
 [[perturbative quantum field theory]] of the scalar field (see at _[[S-matrix]]_ for more).
 
 #### Covariant phase space
@@ -302,8 +302,8 @@ Consider the covariant phase space over [[Minkowski spacetime]] of dimension $p+
 with [[pre-symplectic current]] according to prop. \ref{FreeScalarFieldEOM} given by
 
 $$
-  \omega 
-   = 
+  \omega
+   =
   \eta^{\mu \nu} d_V \phi_{,\mu} \wedge d_V \phi \wedge \iota_{\partial_\mu} dvol_\Sigma
   \,
 $$
@@ -384,6 +384,7 @@ as the transgression of elements in $\Omega^{p,0}(E)$, only their smearings such
 Nevertheless we may express the above Poisson bracket conveniently via the [[integral kernel]]
 
 $$
+  \label{PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime}
   \{\phi(t,\vec x), \phi(t,\vec y) \}
   =
   \delta(\vec x - \vec y)
@@ -418,26 +419,46 @@ $$
 where $Trajectories([t_1,t_2])$ is the space of solutions to the [[Klein-Gordon equation]]
 on $[t_1,t_2] \times \mathbb{R}^p \subset \mathbb{R}^{p,1}$.
 
-There is a unique function on $PhaeSpace(\Sigma^{t_1}_p)$ whose pullback to $Trajectories([t_1,t_2])$
+
+
+
+
+There is a unique function on $PhaseSpace(\Sigma^{t_1}_p)$ whose pullback to $Trajectories([t_1,t_2])$
 is the evaluation function $\phi(x)$ for any $x^0 \in [t_1,t_2]$. By convenient abuse of notation,
-we also call that function $\phi(x)$. 
+we also call that function $\phi(x)$.
+
 
 +-- {: .num_prop #IntegralKernelForPoissonBracketOfFreeScalarFieldOnMinkowskiSpacetime}
 ###### Proposition
 **([[integral kernel]] for [[Poisson bracket]] on [[Minkowski spacetime]] is the [[causal propagator]])
 
-The integral kernel on $\mathbb{R}^{p,1}$ for the Poisson bracket of the scalar field 
-over [[Minkowski spacetime]] (example \ref{PoissonBracketsOverMinkowskiSpacetime}) 
-is the _Minkowski [[causal propagator]]_ (equivalently the [[Peierls bracket]], [[Pauli-Jordan distribution]]):
+The integral kernel on $\mathbb{R}^{p,1}$ for the Poisson bracket of the scalar field
+over [[Minkowski spacetime]] (example \ref{PoissonBracketsOverMinkowskiSpacetime})
+is the _[[causal propagator]]_
 
 $$
-  \{ \phi(x), \phi(y) \}
-  \;=\;
-  (2 \pi)^{-p}
-  \int 
-    \delta( k_\mu k^\mu + m^2 ) sgn(k_0) \exp( -i k_\mu (x-y)^\mu )
-  d^{p+1} k
-  \,.
+  \Delta
+    \;\in\;
+  \mathcal{D}'(\Sigma \times \Sigma)
+$$
+
+(also known as the _[[Pauli-Jordan distribution]]_ or _[[Peierls bracket]]_)
+on Minkowski spacetime:
+
+$$
+  \begin{aligned}
+    \{ \phi(x), \phi(y) \}
+    & =
+    \Delta(x,y)
+    \\
+    & \coloneqq
+    -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left(
+    e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)}
+    -
+    e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)}
+  \right) d^p \vec k
+    \,.
+  \end{aligned}
 $$
 
 =--
@@ -453,38 +474,49 @@ By [[Fourier transform]] the general solution to the [[Klein-Gordon equation]] m
 $$
   \Phi(x)
     \;=\;
-  \int  Amp(k) \exp(- i k_\mu x^\mu ) \delta( k_\mu k^\mu + m^2 ) d^{p+1} k 
+  (2\pi)^{-p} \int  Amp(k) e^{- i k_\mu x^\mu } \delta( k_\mu k^\mu + m^2 ) d^{p+1} k
   \,,
 $$
 
-where $Amp(k) \in \mathbb{C}$ is the _complex amplitude_ of the $k$th mode $(k \in \mathbb{R}^{p+1})$ and 
+where $Amp(k) \in \mathbb{C}$ is the _complex amplitude_ of the $k$th mode $(k \in \mathbb{R}^{p+1})$.
 
 We may split this into the contributions with positive and those with negative [[energy]] $k_0$
-by decompositing the integral over $k_0$ as
-
-$$
-  \Phi(x)
-  =
-  \int_0^\infty  \int Amp(k_0, \vec k) \exp(- i k_0 x^0 - i \vec k \cdot \vec x) \delta(- k_0^2 + \vec k + m^2) d^p \vec k \, d k_0
-  +
-  \int_0^\infty  \int Amp(-k_0, \vec k) \exp(+ i k_0 x^0 - i \vec k \cdot \vec x) \delta(-k_0^2 + \vec k^2 + m^2) d^p \vec k \, d k_0  
-  \,.
-$$
-
-Changing integration variables via $k_0 = +\sqrt{ h }$ this yields
+by decomposing the integral over $k_0$ as
 
 $$
   \begin{aligned}
     \Phi(x)
-    & =
-    \int_0^\infty  \int Amp(\sqrt{h}, \vec k) \exp(- i \sqrt{h} x^0 - i \vec k \cdot \vec x) \delta(- h + \vec k + m^2) d^p \vec k \, \frac{d h}{2\sqrt{h}}
-    +
-    \int_0^\infty  \int Amp(- \sqrt{h}, \vec k) \exp(+ i \sqrt{h} x^0 - i \vec k \cdot \vec x) \delta(- h + \vec k^2 + m^2) d^p \vec k \, \frac{d h}{2 \sqrt{h}}
+    & = \phantom{+}
+    (2\pi)^{-p/2}
+    \int_0^\infty  \int Amp(k_0, \vec k) e^{- i k_0 x^0 - i \vec k \cdot \vec x} \delta(- k_0^2 + \vec k + m^2) d^p \vec k \, d k_0
     \\
-    & = 
-    \int Amp(E(\vec k), \vec k) \exp(- i E(\vec k) x^0 - i \vec k \cdot \vec x) d^p \vec k 
-    +
-    \int Amp(-E(\vec k), \vec k) \exp(+ i E(\vec k) x^0 - i \vec k \cdot \vec x) d^p \vec k 
+    & \phantom{=} +
+    (2\pi)^{-p/2}
+    \int_0^\infty  \int Amp(-k_0, \vec k) e^{+ i k_0 x^0 - i \vec k \cdot \vec x} \delta(-k_0^2 + \vec k^2 + m^2) d^p \vec k \, d k_0
+    \,.
+  \end{aligned}
+$$
+
+By [[changing integration variables]] via $k_0 = +\sqrt{ h }$ this yields
+
+$$
+  \begin{aligned}
+    \Phi(x)
+    & = \phantom{+}
+    (2\pi)^{-p/2}
+    \int_0^\infty  \int Amp(\sqrt{h}, \vec k) e^{- i \sqrt{h} x^0 - i \vec k \cdot \vec x} \delta(- h + \vec k + m^2) d^p \vec k \, \frac{d h}{2\sqrt{h}}
+    \\
+    & \phantom{=} +
+    (2\pi)^{-p/2}
+    \int_0^\infty  \int Amp(- \sqrt{h}, \vec k) e^{+ i \sqrt{h} x^0 - i \vec k \cdot \vec x} \delta(- h + \vec k^2 + m^2) d^p \vec k \, \frac{d h}{2 \sqrt{h}}
+    \\
+    & = \phantom{+}
+    (2\pi)^{-p/2}
+    \int Amp(E(\vec k), \vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x} d^p \vec k
+    \\
+    & \phantom{=} +
+    (2\pi)^{-p/2}
+    \int Amp(-E(\vec k), \vec k) e^{+ i E(\vec k) x^0 - i \vec k \cdot \vec x} d^p \vec k
   \end{aligned}
 $$
 
@@ -498,12 +530,17 @@ $$
 It is convenient to also change variables $\vec k \mapsto - \vec k$ in the second integral. This yields
 
 $$
-  \Phi(x)
-  =
-    \int Amp(E(\vec k), \vec k) \exp(- i E(\vec k) x^0 - i \vec k \cdot \vec x) d^p \vec k
-    +
-    (-1)^p
-    \int Amp(-E(\vec k), \vec k) \exp(+ i E(\vec k) x^0 + i \vec k \cdot \vec x) d^p \vec k
+  \begin{aligned}
+    \Phi(x)
+    &= \phantom{+}
+      (2\pi)^{-p/2}
+      \int Amp(E(\vec k), \vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x} d^p \vec k
+      \\
+      & \phantom{=} +
+      (-1)^p
+      (2\pi)^{-p/2}
+      \int Amp(-E(\vec k), \vec k) e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x} d^p \vec k
+  \end{aligned}
     \,.
 $$
 
@@ -515,40 +552,43 @@ $$
   \,.
 $$
 
-We abbreviate 
+We abbreviate (cf. [Scharf 01 (1.1.18)](#Scharf01))
 
 $$
   A(\vec k) \coloneqq E(\vec k) Amp(E(\vec k), \vec k)
   \,,
 $$
 
-where the prefactor just serves to make some of the following formulas come out more nicely.
+where the prefactor just serves to make some of the following formulas come out conveniently.
 
 With this the general solution to the Klein-Gordon equation is finally of the form
 
 $$
+  \label{FourierModeExpansionOfScalarFieldOnminkowskiSpacetime}
   \Phi(x)
   =
-    \int \frac{1}{\sqrt{2 E(\vec k)}} 
+    (2\pi)^{-p/2}
+    \int \frac{1}{\sqrt{2 E(\vec k)}}
       \left(
-        A(\vec k) \exp(- i E(\vec k) x^0 - i \vec k \cdot \vec x) 
+        A(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
         +
-        A(\vec k)^\ast \exp(+ i E(\vec k) x^0 + i \vec k \cdot \vec x) 
+        A(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
       \right)
     d^p \vec k
     \,.
 $$
 
-It follows that its time derivative is
+and hence its time derivative is
 
 $$
   \partial_0 \Phi(x)
   =
-    \int -i \srqt{E(k)/2}
+    (2\pi)^{-p/2}
+    \int -i \sqrt{E(k)/2}
       \left(
-        A(\vec k) \exp(- i E(\vec k) x^0 - i \vec k \cdot \vec x)
+        A(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
         -
-        A(\vec k)^\ast \exp(+ i E(\vec k) x^0 + i \vec k \cdot \vec x)
+        A(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
       \right)
     d^p \vec k
     \,.
@@ -559,34 +599,56 @@ This allows to express the modes in terms of the value of the field and its time
 $$
   A(\vec k)
   =
-   (2 \pi)^{-p}
-   \int 
-     \left( \sqrt{E(k)}\Phi(0,\vec x) + i \frac{1}{\sqrt{E(k)}} \partial_0 \Phi(0,\vec x)\right) \exp( i \vec k \cdot \vec x )
+   (2 \pi)^{-p/2}
+   \int
+     \left( \sqrt{E(k)/2}\Phi(0,\vec x) + i \frac{1}{2\sqrt{E(k)}} \partial_0 \Phi(0,\vec x)\right) \exp( i \vec k \cdot \vec x )
    d^p \vec x
    \,.
 $$
 
-As before we denote the corresponding evaluation functional by lower case 
+As in example \ref{PoissonBracketsOverMinkowskiSpacetime} we denote the corresponding evaluation functional
+
+$$
+  a(\vec k) \;\colon\; C^\infty(\Sigma) \longrightarrow \mathbb{C}
+$$
+
+by the corresponding lower case symbol:
 
 $$
   a(\vec k)
-  =
-   (2 \pi)^{-p}
+   \;\coloneqq\;
+   (2 \pi)^{-p/2}
    \int
-     \left( \sqrt{E(k)}\phi(\vec x) + i \frac{1}{\sqrt{E(k)}} \partial_0 \phi(\vec x)\right) \exp( i \vec k \cdot \vec x )
+     \left( \sqrt{E(k)/2}\phi(\vec x) + i \frac{1}{\sqrt{2 E(k)}} \partial_0 \phi(\vec x)\right) \exp( i \vec k \cdot \vec x )
    d^p \vec x
    \,.
 $$
 
-The (integral kernel for the) Poisson bracket of these mode functionals is therefore 
-that of the [[canonical commutation relation]]:
+With the Poisson bracket kernel $\{\phi(\vec x), \phi(\vec y)\} = \delta(\vec x - \vec y)$ from example \ref{PoissonBracketsOverMinkowskiSpacetime} (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime),
+it follow that the  (integral kernel for the) Poisson bracket of these mode functionals is 
+that of the [[canonical commutation relations]]:
 
 $$
-  \{ a(\vec k_1), a(\vec k_2)^\ast  \}
-  \;=\;
-  -i \delta(\vec k_1 - \vec k_2)
-  \,.
+  \begin{aligned}
+    \label{CanonicalPoissonCommutationOfModesOfFreeScalarFieldOnMinkowskiSpacetime}
+    \{ a(\vec k_1), a(\vec k_2)^\ast  \}
+    & =
+    -i
+    (2\pi)^{-p}
+    \int \delta(\vec x_1 - \vec x_2) e^{i  ( \vec k_1 \cdot \vec x_1 - \vec k_2 \cdot \vec x_2) } d \vec x_1 d\vec x_2
+    \\
+    & =
+    -i
+    (2\pi)^{-p}
+    \int e^{i (\vec k_1 - \vec k_2) \cdot \vec x } d \vec x
+    & =
+    \\
+    & =  -i \delta(\vec k_1 - \vec k_2)
+    \,,
+  \end{aligned}
 $$
+
+where in the last step we used the [[Fourier transform]] representation of the [[delta distribution]] ([this prop.](Dirac+distribution#FourierTransform)).
 
 In order to finally compute $\{\phi(x), \phi(y)\}$, it is convenient to break this up into two contributions:
 Write
@@ -594,57 +656,75 @@ Write
 $$
   \phi^{(+)}(x)
   \;\coloneqq\;
+    (2\pi)^{-p/2}
     \int \frac{1}{\sqrt{2 E(\vec k)}}
-        a(\vec k)^\ast \exp(+ i E(\vec k) x^0 + i \vec k \cdot \vec x)
+        a(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
     d^p \vec k
   \phantom{AAAA}
   \phi^{(-)}(x)
   \;\coloneqq\;
-  \phi^{(-)}(x)
-  \;\coloneqq\;
+    (2\pi)^{-p/2}
     \int \frac{1}{\sqrt{2 E(\vec k)}}
-        A(\vec k) \exp(- i E(\vec k) x^0 - i \vec k \cdot \vec x)
+        a(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
     d^p \vec k
 $$
 
-for the positive and negative energy contributions from the above Fourier expansion, so that
+for the positive and negative energy contributions from the Fourier expansion in (eq:FourierModeExpansionOfScalarFieldOnminkowskiSpacetime), so that
 
 $$
   \phi(x) = \phi^{(-)}(x)  + \phi^{(+)}(x)
   \,.
 $$
 
-Using the above [[canonical commutation relation]] of the mode functions, we find
+Using the [[canonical commutation relation]] of the mode functions (eq:CanonicalPoissonCommutationOfModesOfFreeScalarFieldOnMinkowskiSpacetime), we find
 
 $$
+  \label{2PointFunctionFreeScalarFieldOnMinkowski}
   \begin{aligned}
-    \{ \phi^{(-)}(x), \phi^{(-)}(y) \}
+    \omega(x,y)
+     & \coloneqq
+     \{ \phi^{(-)}(x), \phi^{(+)}(y) \}
+    \\
     &=
-    -i \int \tfrac{1}{2 E(\vec k)}\exp( i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y))
+    -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
     \\
     & =
-    -i \int \delta( k_\mu k^\mu + m^2 ) \Theta( k_0 ) \exp( i k_\mu (x-y)^\mu ) d^{p+1} k
+    -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+    \,,
   \end{aligned}
-  \,.
 $$
 
-This is called the _[[advanced propagator]]_. Similarly
+where in the last line we again applied [[change of integration variables]].
+This $\omega$ is known as the _[[2-point function]]_ or _[[Hadamard propagator]]_ on Minkowski spacetime (see def. \ref{2PointFunctionOfScalarFieldOnMinkowskiSpacetime} below).
+
+Similarly
 
 $$
   \begin{aligned}
   \{ \phi^{(+)}(x), \phi^{(-)}(y) \}
   & =
-  -i \int \delta( k_\mu k^\mu + m^2 ) \Theta( -k_0 ) \exp( i k_\mu (x-y)^\mu ) d^{p+1} k
+  + i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
   \\
-  & =
-  -\{ \phi^{(-)}(y), \phi^{(+)}(x) \}
-  \,,
+  \\
   \end{aligned}
+  \,.
 $$
 
-which is called the _[[retarded propagator]]_.
+In particular this says that
 
-Finally this yields the desired expression
+$$
+  \{ \phi^{(+)}(x), \phi^{(-)}(y) \}
+  =
+  - \omega(y,x) 
+  \coloneqq
+  -
+  \{ \phi^{(-)}(y), \phi^{(+)}(x) \}
+  \,.
+$$
+
+
+With this we finally obtain the expression for the [[causal propagator]] as the skew-symmetrization
+of the [[2-point function]]:
 
 $$
   \begin{aligned}
@@ -657,13 +737,47 @@ $$
   +
   \{\phi^{(+)}(x), \phi^{(-)}(y)\}
   \\
-  & =  
-  -i \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) \exp( i k_\mu (x-y)^\mu ) d^{p+1} k
+  & =
+  \omega(x,y) - \omega(y,x)
+  \\
+  & = 
+  -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left( 
+    e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)}
+    -
+    e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} 
+  \right) d^p \vec k
   \,.
   \end{aligned}
 $$
 
 =--
+
+We record the 2-point function that appeared in this computation:
+
++-- {: .num_defn #2PointFunctionOfScalarFieldOnMinkowskiSpacetime}
+###### Definition
+**([[2-point function]] of [[scalar field]] on [[Minkowski spacetime]])**
+
+The _[[2-point function]]_ or _[[Hadamard propagator]]_ of the scalar field on [[Minkowski spacetime]]
+
+$$
+  \omega \;\in\; \mathcal{D}'(\Sigma \times \Sigma)
+$$
+
+is  (eq:2PointFunctionFreeScalarFieldOnMinkowski)
+
+$$
+  \omega(x,y)
+    \;\coloneqq\;
+  i \{\phi^{(-)}(x), \phi^{(+)}(y)\}
+  \,.
+$$
+
+=--
+
+
+
+
 
 ##### On general spacetimes
 
@@ -727,6 +841,28 @@ The induced [[Poisson bracket]] on the [[covariant phase space]] of the free sca
 By [this prop.](Peierls+bracket#PeierlsPoissonBracket) (e.g. [Khavkine 14](Peierls+bracket#Khavkine14), [Collini 16, lemma 21](#Collini16)). See also [Fredenhagen-Rejzner 15, 3.3 Example](locally+covariant+perturbative+quantum+field+theory#FredenhagenRejzner15)
 
 
+### Interacting scalar field
+
+We discuss [[perturbative quantum field theory]] of the free scalar field perturbed by an [[interaction]] term
+via [[locally covariant perurbative algebraic quantum field theory]].
+
+#### On Minkowski spacetime
+
+We disscuss the interacting scalar field on [[Minkowski spacetime]] via [[causal perturbation theory]].
+
+By the discussion at _[[S-matrix]]_ we need to determine the [[Feynman propagator]], which
+is a linear combination of the [[2-point function]] with the [[advanced propagator]]:
+
++-- {: .num_defn }
+###### Definition
+
+$$
+  \Delta_A(x.y) \coloneqq \theta((x-y)^0) \Delta(x,y)
+$$
+
+=--
+
+
 ## Related concepts
 
 * [[wave equation]], [[Klein-Gordon equation]]
@@ -744,7 +880,7 @@ For instance
 Most of the literatur on [[causal perturbation theory]] and [[perturbative AQFT]] focuses on the scalar field, for ease of exposition.
 See the references there.
 
-The standard [[perturbative quantum field theory]] (made rigorous via [[causal perturbation theory]]) of the [[interaction|interacting]] scalar field is shown to be [[Fedosov deformation quantization]] of the corresponding [[covariant phase space]] in 
+The standard [[perturbative quantum field theory]] (made rigorous via [[causal perturbation theory]]) of the [[interaction|interacting]] scalar field is shown to be [[Fedosov deformation quantization]] of the corresponding [[covariant phase space]] in
 
 * {#Collini16} [[Giovanni Collini]], section 2.2 of _Fedosov Quantization and Perturbative Quantum Field Theory_ ([arXiv:1603.09626](https://arxiv.org/abs/1603.09626))
 
