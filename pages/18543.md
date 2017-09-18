@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Dmitry_Shirkov)
+
+## related $n$Lab entries
+
+* [[causal perturbation theory]]
+
+* [[Bogoliubov's formula]]
+
+category: people
