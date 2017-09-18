@@ -133,17 +133,19 @@ See [[CartSp]].
 
 In [[complex geometry]] for purposes of [[Cech cohomology]] the role of Cartesian spaces is played by [[Stein manifolds]].
 
+* [[topological invariance of dimension]]
+
 ## References
 
 Named after [[René Descartes]].
 
-* [[John Stallings]], _The piecewise linear structure of Euclidean space_ , Proc. Cambridge Philos. Soc. 58 (1962), 481-488. ([pdf](http://journals.cambridge.org/production/action/cjoGetFulltext?fulltextid=2118140))
-{#Stallings}
+* {#Stallings} [[John Stallings]], _The piecewise linear structure of Euclidean space_ , Proc. Cambridge Philos. Soc. 58 (1962), 481-488. ([pdf](http://journals.cambridge.org/production/action/cjoGetFulltext?fulltextid=2118140))
 
-* V. Ozols, _Largest normal neighbourhoods_ ,
+
+* {#Ozols} V. Ozols, _Largest normal neighbourhoods_ ,
 Proceedings of the American Mathematical Society
 Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672))
-{#Ozols}
+
 
 
 There are various slight variations of the category $CartSp$ that one can consider without changing its basic properties as a category of test spaces for [[generalized smooth space]]s. A different choice that enjoys some popularity in the literature is the category of open (contractible) subsets of Euclidean spaces. For more references on this see [[diffeological space]].
