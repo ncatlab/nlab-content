@@ -107,6 +107,8 @@ where $W$ is the category whose objects are morphisms in $W$ and whose morphisms
 
 ## Related concepts
 
+* [[homotopy category of a model category]]
+
 * [[homotopy category of an (infinity,1)-category]]
 
 * [[homotopy 2-category]]
