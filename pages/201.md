@@ -128,7 +128,7 @@ See at _[[tensor product of abelian groups]]_ for details.
 +-- {: .num_example }
 ###### Example
 
-The [[unit]] for the tensor produc of abelian groups is the additive group of [[integers]]: 
+The [[unit]] for the tensor product of abelian groups is the additive group of [[integers]]: 
 
 $$
   A \otimes \mathbb{Z} \simeq \mathbb{Z} \otimes A \simeq A
@@ -144,7 +144,7 @@ $$
 The [[tensor product of abelian groups]] [[distributivity law|distributes]] over arbitrary [[direct sums]]: 
 
 $$
-  A \otimes (\oplus_{i \in I} B_i) \simeq \oplus_{i \in I} A \otimes B_o
+  A \otimes (\oplus_{i \in I} B_i) \simeq \oplus_{i \in I} A \otimes B_i
   \,.
 $$
 
