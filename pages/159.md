@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -36,6 +36,8 @@ all horizontal composition is strict. See [[relation between quasi-categories an
 ## Related concepts
 
 * [[rectification]]
+
+* _[[Globular]]_ proof assistant
 
 ## References
 
