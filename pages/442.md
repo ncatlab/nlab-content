@@ -388,11 +388,17 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 The origin of the categorical formulation of [[algebraic theories]] as Lawvere theories is in
 
-* [[Bill Lawvere]], [[Functorial Semantics of Algebraic Theories]] , Ph.D. thesis Columbia University (1963).  (published with an author's comment and a supplement in: Reprints in Theory and Applications of Categories **5** (2004) pp 1--121. ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)).
+* [[Bill Lawvere]], [[Functorial Semantics of Algebraic Theories]] , Ph.D. thesis Columbia University (1963).  Published with an author's comment and a supplement in: Reprints in Theory and Applications of Categories **5** (2004) pp 1--121. ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)).
+
+Still worthwhile reading are the following early papers:
+
+* [[Gavin Wraith]], _Algebraic Theories_ , Aarhus Lecture Notes Series no.22 (1969). ([pdf, 3,7MB](http://homepages.inf.ed.ac.uk/s0894694/scans/wraith-algebraic-theories.pdf))
+
+* [[Gavin Wraith]], _Algebras over Theories_ , Colloquium Mathematicum **XXIII** no.2 (1971) pp.181-190. ([pdf](https://eudml.org/doc/archive%5Cdsc_569f%5Cdsc_40fc%5C/bwmeta1.element.desklight-374f9cbc-939c-4bdb-8b0c-c21872987c9a/full-text/cm23_2_01.pdf))
 
 Textbook treatments are
 
-* [[Francis Borceux]], _Handbook of categorical algebra 2 -- Categories and structures_ , Encyclopedia of Mathematics and its Applications, Cambridge University Press (1994). (chap. 3)
+* [[Francis Borceux]], _Handbook of categorical algebra 2 -- Categories and structures_ , Encyclopedia of Mathematics and its Applications, Cambridge UP 1994. (chap. 3)
 
 * M. C. Pedicchio,  F. Rovatti, _Algebraic Categories_ , pp.269-310 in Pedicchio, Tholen (eds.), _Categorical Foundations_ , Encyclopedia of Mathematics and its Applications **97**, Cambridge UP 2004.
 
@@ -400,9 +406,28 @@ A recent monograph is
 
 * [[Jiri Adamek|J. Adámek]], [[Jiri Rosicky|J. Rosicky]], [[Enrico Vitale|E. M. Vitale]], _Algebraic Theories - a Categorical Introduction to General Algebra_ , Cambrige UP 2010. ([draft](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf))
 
+The concept of an internal algebraic theory in topos theory is dicussed in
+
+* [[Peter Johnstone]], [[Gavin Wraith]], _Algebraic theories in toposes_ , pp.141-242 in LNM **661** Springer Heidelberg 1978. 
+
+* [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014; sec. 6.4, pp.190-198)
+
+For a comparison with the concept of monads see
+
+* [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_ , Electronic Notes in Theor. Comp. Sci. **172** (2007) pp.437-458. ([preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
+
+[[distributive law|Distributive laws]] for algebraic theories are discussed in
+
+* [[Eugenia Cheng]], _Distributive laws for Lawvere theories_ , arXiv:1112.3076 (2011). ([abstract](http://arxiv.org/abs/1112.3076))
+
 Other references are
 
-* [[Steve Lack]], [[Jiri Rosicky]], _Notions of Lawvere theory_ ([arXiv:0810.2578](http://arxiv.org/abs/0810.2578)).
+* [[Steve Lack]], [[Jiri Rosicky]], _Notions of Lawvere theory_ , arXiv:0810.2578. ([abstract](http://arxiv.org/abs/0810.2578))
+
+* [[Enrico Vitale]], _Localization of Algebraic Categories_ , JPAA **108** (1996) pp.315-320.
+
+* [[Enrico Vitale]], _Localization of Algebraic Categories 2_ , JPAA **133** (1998) pp.317-326.
+
 
 [[!redirects lawvere theory]]
 [[!redirects Lawvere theory]]
