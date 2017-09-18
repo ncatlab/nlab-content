@@ -9,7 +9,10 @@
 =--
 =--
 
-# Maps from compact spaces to Hausdorff spaces
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Properties
  {: #title}
@@ -32,13 +35,23 @@ The above theorem is a special case of a slightly more general result.
 Let $C$ be a [[compact space]] and $H$ be a [[Hausdorff space]]. Let $f\colon C \to H$ be a [[continuous map]]. Then $f$ is [[closed map|closed]] and [[proper map|proper]].
 =--
 
-+-- {: .proof }
++-- {: .proof}
+###### Proof
+
+
 To prove this, we need to show that a closed subset of $C$ is taken to a closed subset of $H$ and that the preimage of a compact subset of $H$ is compact in $C$.  Both follow from the fact that closed subsets of a compact set are compact and that compact subsets of a Hausdorff space are closed.
 
 For the first, let $D \subseteq C$ be closed. As it is a closed subset of a compact space, it is compact. Since $f$ is continuous, $f(D)$ is a compact subset of $H$. Thus as $H$ is a Hausdorff space, $f(D)$ is closed.
 
 For the second, let $G \subseteq H$ be compact.  As it is a compact subset of a Hausdorff space, it is closed.  Thus as $f$ is continuous, $f^{-1}(G)$ is closed in $C$.  Hence as $C$ is compact, $f^{-1}(G)$ is compact.
+
 =--
+
+## Related entries
+
+* [[compact subspaces of Hausdorff spaces are closed]]
+
+* [[a CW-complex is a Hausdorff space]]
 
 
 [[!redirects map from compact space to Hausdorff space]]
