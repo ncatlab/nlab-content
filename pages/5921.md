@@ -9,6 +9,49 @@
 =--
 =--
 
+## Idea
+
+**Disjunctive logic** is the [[internal logic]] of [[lextensive categories]].
+
 ## Definition
 
-_Disjunctive logic_ is the [[internal logic]] of [[lextensive categories]].
+...
+
+## Example
+
+The (coherent) theory of (geometric) [[field|fields]] is obtained from the axioms for the algebraic theory of commutative unital rings by adding the sequents
+
+$$(0=1)\vdash \bot\,\text{ (nontriviality) and }\,\top \vdash_x ((x=0) \vee
+((\exists y)(xy=1)))\quad.$$
+
+Since inverse elements in a commutative ring are unique when they exist the second sequent involves a legitimate existential quantification plus a legitimate disjunction (due to the nontriviality) whence the resulting theory is (finitary) disjunctive.
+
+## Properties
+
+...
+
+## Related entries
+
+* [[cartesian logic]]
+
+* [[regular logic]]
+
+* [[geometric logic]]
+
+* [[extensive category]]
+
+* [[disjoint union]]
+
+* [[connected limit]]
+
+## References
+
+* [[Peter Freyd]], _Cartesian Logic_ , Theor. Comp. Sci. **278** (2002) pp.3-21.
+
+* {#Johnstone79}[[Peter Johnstone]], _A Syntactic Approach to Diers' Localizable Categories_ , pp.466-478 in Springer LNMS **753** Heidelberg 1979.
+
+* [[Peter Johnstone]], _Sketches of an [[Elephant]] II_, Oxford UP 2002. (D1.3.6 p.834, D2.1.2(e) p.863, D2.2.6 p.872, D2.4.8 p.886)
+
+[[!redirects Disjunctive logic]]
+[[!redirects Disjunctive Logic]]
+[[!redirects disjunctive theory]]
