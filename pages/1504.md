@@ -743,9 +743,12 @@ Analogous discussion including also brane/[[anti-brane]] pairs in [[superstring]
 
 [[!redirects String field theory]]
 
+[[!redirects open string field theory]]
 [[!redirects closed string field theory]]
 
 [[!redirects bosonic string field theory]]
+
+
 
 [[!redirects closed bosonic string field theory]]
 [[!redirects open bosonic string field theory]]
