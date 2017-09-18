@@ -15,11 +15,43 @@
 
 ## Idea
 
-In a [[graph]] an **edge** is an element that goes from one [[vertex]] to another.
+
+
+In just about any concept of [[graph]], an **edge** is something which *connects two [[vertex|vertices]]*. 
+Whether an *edge* contains directional information, depends on the definition of [[graph]] used.  
+In the usual sense of "graph" in contemporary combinatoris, "edge" means a *nondirectional connection between two things*, carrying no information other than these two things being related. 
 
 If the [[graph]] underlies a [[category]] then an edge is a morphism.
 
 If the [[graph]] underlies a [[simplicial set]] then an edge is a 1-[[dimension|dimensional]] [[simplex]].
+
+
+
+## Terminological comments
+
+The canonical etymological explanation of why, even in abstract graphs, the connections are almost invariably called "edges" in modern graph theory is to see "edge" as a trace of the natural connections between [[graph theory]] and the theory of [[polyhedra]], in particular, as a legacy of  [[Ernst Steinitz|Steinitz's]] [[Steinitz's theorem|1916 theorem]] on the one-dimensional skeleta of [[polyhedra]] in three-dimensional [[Euclidean space]].
+Some deplore the geometric connotations of "edge", with its geometric connotations of straightness and rigidity
+The term "edge" is clearly the most usual one in modern graph theory by far. 
+
+An alternative term, unusual in contemporary graph-theory and considered old-fashioned, is 'line'. (Cf., notably, [Chapter 2](#HararyGraphTheory) and many other articles of Harary's). 
+The word 'line' lives on to this day in the standard technical term [[line graph]].
+
+
+
+
+## Related concepts
+
+* [[vertex]], [[simplex]], [[dendrex]]
+
+[[!redirects edges]]
+
+
+
+## References
+
+
+* Frank Harary: Graph Theory. Addison-Wesley. 1969
+{#HararyGraphTheory}
 
 
 ## Related concepts
