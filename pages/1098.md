@@ -72,12 +72,16 @@ Section 5.1 of
 
 [[!redirects ∞-prestack]]
 [[!redirects ∞-prestacks]]
+[[!redirects (∞,1)-prestack]]
+[[!redirects (∞,1)-prestacks]]
 
 [[!redirects infinity-presheaf]]
 [[!redirects infinity-presheaves]]
 
 [[!redirects infinity-prestack]]
 [[!redirects infinity-prestacks]]
+[[!redirects (infinity,1)-prestack]]
+[[!redirects (infinity,1)-prestacks]]
 
 
 
