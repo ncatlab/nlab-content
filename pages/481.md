@@ -30,7 +30,7 @@ A **Heyting category** (called a **[[logos]]** in [Freyd-Scedrov](#FreydScedrov)
 
 It follows that each [[poset of subobjects]] $Sub(X)$ is a [[Heyting algebra]] and the base-change functors $f^*$ are Heyting algebra homomorphisms. The Heyting implication can be defined as follows: if $A$ and $B$ are subobjects of $X$, where the subobject monomorphism from $A$ to $X$ is $m$, $(A\Rightarrow B) := \forall_m(A\wedge B)$, where $A\wedge B$ is considered as a subobject of $A$.  Any Heyting category has an [[internal logic]] which is full ([[type theory|typed]]) [[first order logic|first-order]] [[intuitionistic logic]]. The extra right adjoint $\forall_f$ provided by the above axiom gives the [[universal quantifier]] in this logic.
 
-A **Heyting functor** is a [[coherent functor]] betwen Heyting categories which additionally preserves the right adjoints $\forall_f$.  Such functors also preserve the [[internal logic|internal interpretation]] of [[first-order logic]].
+A **Heyting functor** is a [[coherent functor]] between Heyting categories which additionally preserves the right adjoints $\forall_f$.  Such functors also preserve the [[internal logic|internal interpretation]] of [[first-order logic]].
 
 ## Examples
 
