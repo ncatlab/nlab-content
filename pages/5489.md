@@ -60,4 +60,6 @@ This approach generalizes to any [[semigroup]] or to any category with binary ([
 [[!redirects biased]]
 [[!redirects unbiased]]
 [[!redirects biased definition]]
+[[!redirects biased definitions]]
 [[!redirects unbiased definition]]
+[[!redirects unbiased definitions]]
