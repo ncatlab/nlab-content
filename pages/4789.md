@@ -66,7 +66,7 @@ $$
 and an [[invariant polynomial]] of degree $n+1$ is equivalently a morphism
 
 $$
-  int(\mathfrak{g}) \leftarrow inv(b^{n-1}\mathbb{R}) = 
+  inv(\mathfrak{g}) \leftarrow inv(b^{n-1}\mathbb{R}) = 
   CE(b^n \mathbb{R}) : \langle - \rangle
 $$
 
@@ -77,7 +77,7 @@ in [[dgAlg]].
 +-- {: .num_prop}
 ###### Observation
 
-A **Chern-Simons element** $cs$ an $\mathfrak{a}$ witnessing the [[transgression]] of $\langle - \rangle$ to $\mu$ is equvivalently a morphism
+A **Chern-Simons element** $cs$ an $\mathfrak{a}$ witnessing the [[transgression]] of $\langle - \rangle$ to $\mu$ is equivalently a morphism
 
 $$
   W(\mathfrak{g}) \leftarrow W(b^{n-1} \mathbb{R})
@@ -103,7 +103,7 @@ such that we have a [[commuting diagram]] in [[dgAlg]]
     inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
     inv(b^{n-1} \mathbb{R})
     &&&
-    invariant polynomial
+    invariant\;polynomial
   }
   \,,
   \label{TheDiagram}
@@ -139,7 +139,7 @@ then the abov expresses the classical notion of transgression of forms from the 
 For a given transgressive cocycle $\mu$ and transgressing invariant polynomial $\langle - \rangle$ the set of Chern-Simons elements witnessing the [[transgression]] is a [[torsor]] (based over the point and) over the additive [[group]] 
 
 $$
-  \{\omega \in W(\mathfrak{g}) | d_{W(\mathfrak{g}) \omega = 0, i^* \omega = 0}\}
+  \{\omega \in W(\mathfrak{g}) | d_{W(\mathfrak{g})} \omega = 0, i^* \omega = 0\}
 $$
 
 of Chern-Simons elements for vanishing cocycle and vanishing invariant polynomial.
@@ -289,7 +289,7 @@ $$
     cs & := \tau \left( P_{a b} r^{a} \wedge r^b \right)
     \\
     & =
-    \tau
+     P_{a b} \tau
     \left(
       d_{W(\mathfrak{g})} t^a 
       + 
@@ -329,7 +329,7 @@ $$
     cs & = \tau \left( P_{a b} r^a \wedge r^b \right)
     \\
     & = 
-    P_{a b}
+    P_{a b}\tau
     \left(d_W t^a + \frac{1}{2}C^a{}_{a_1 a_2}t^{a_1} \wedge t^{a_2} \right)
     \wedge
     \left(d_W t^b + \frac{1}{2}C^b{}_{b_1 b_2}t^{b_1} \wedge t^{b_2} \right)
