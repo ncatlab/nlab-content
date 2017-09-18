@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _base_ or _subbase_ for a [[topological space]] is a way of generating its topology from something simpler.  This is the appliction to topology of the general concept of [[base]].
+A _base_ or _subbase_ for a [[topological space]] is a way of generating its topology from something simpler.  This is the application to topology of the general concept of [[base]].
 
 
 ## Definition {#ForTopologicalSpaces}
