@@ -32,8 +32,59 @@ More generally, for $A$ an $E$-algebra spectrum, an $E$-bundle is $A$-orientable
 
 ## Definition
 
+### Concretely
 
-### General abstract
++-- {: .num_defn #EOrientationOfAVectorBundle}
+###### Definition
+
+Let $E$  be a [[multiplicative cohomology theory]] and let $V \to X$ be [[vector bundle]] of [[rank]] $n$. Then an **$E$-orientation** of $V$ is an element of degree $n$ 
+
+$$
+  u \in \tilde E^n(Th(V))
+$$ 
+
+in the [[reduced cohomology|reduced]] $E$-[[cohomology ring]] of the [[Thom space]] of $V$, such that for every point $x \in X$ its restriction $i_x^* u$ along 
+
+$$
+  i_x 
+    \;\colon\; 
+  S^n \simeq Th(\mathbb{R}^n) \overset{Th(j_x)}{\longrightarrow} Th(V)
+$$ 
+
+(for $\mathbb{R}^n \overset{fib_x}{\hookrightarrow} V$ the [[fiber]] of $V$ over $x$)
+
+is a _generator_, in that it is of the form
+
+$$
+  i^\ast u = \epsilon \cdot \gamma_n 
+$$
+
+for
+
+* $\epsilon \in \tilde E^0(S^0) $ a [[unit]] in $E^\bullet$;
+
+* $\gamma_n \in \tilde E^n(S^n)$ the image of the multiplicative unit
+  under the [[suspension isomorphism]] $\tilde E^0(S^0) \stackrel{\simeq}{\to}\tilde E^n(S^n)$.   
+
+This $u$ is also called a **$E$-[[Thom class]]** for $V$. The [[isomorphism]] that $u$ induces under multiplication
+
+$$
+  (-)\cdot u 
+    \;\colon\; 
+  E^\bullet(X) 
+   \simeq
+  \tilde E^\bullet(X_+) \stackrel{\simeq}{\to} \tilde E^{\bullet + n}(Th(V))
+  \,.
+$$
+
+is called the **[[Thom isomorphism]]**.
+
+=--
+
+The existence of an $E$-orientation is necessary in order to have a notion of [[fiber integration]] in $E$-cohomology.
+
+
+### Abstractly
 
 Let $E$ be a [[E-∞ ring]] [[spectrum]]. Write $\mathbb{S}$ for the [[sphere spectrum]].
 
@@ -247,32 +298,6 @@ is discussed in ([Hopkins, last pages](#Hopkins)).
 
 =--
 
-### Concretely for vector bundles
-
-For $H$ the [[multiplicative cohomology theory]] corresponding to $E$, and $V \to X$ a [[vector bundle]] of rank $n$, an $H$-**orientation** of $V$ is an element $u \in H^n(Th(V))$ in the cohomology of the [[Thom space]] of $V$ -- a **Thom class** -- with the property that its restriction $i^* u$ along $i : S^n \to Th(V)$ to any fiber of $Th(V)$ is 
-
-$$
-  i^* u = \epsilon \cdot \gamma_n 
-  \,,
-$$
-
-where
-
-* $\epsilon \in H^0(S^0)$ is a multiplicatively invertible element;
-
-* $\gamma_n \in H^n(S^n)$ is the image of the multiplicative unit
-  under the [[suspension isomorphism]] $H^0(S^0) \stackrel{\simeq}{\to}H^n(S^n)$.   
-
-Multiplication with $u$ induces hence an [[isomorphism]]
-
-$$
-  (-)\cdot u : H^\bullet(X) \stackrel{\simeq}{\to} H^{\bullet + n}(Th(V))
-  \,.
-$$
-
-This is called the [[Thom isomorphism]].
-
-The existence of an $H$-orientation is necessary in order to have a notion of [[fiber integration]] in $H$-cohomology.
 
 ## Properties
 
