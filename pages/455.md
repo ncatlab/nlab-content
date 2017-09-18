@@ -70,7 +70,7 @@ We can recover the poset structure: $a \leq b$ iff $a \wedge b = a$. There is a 
 
 #### Principle of duality 
 
-However it is defined, the theory of Boolean algebras is **self-dual** in the sense that for any sentence stated in the language $(\leq, \wedge, \vee, 0, 1, \neg)$, the sentence is a theorem in the theory of Boolean algebras iff the dual sentence, obtained by interchanging $\wedge$ and $\vee$, $0$ and $1$, and replacing $\leq$ by the opposite relation $\leq^{op}$, is also a theorem. 
+However it is defined, the theory of Boolean algebras is **self-dual** in the sense that for any sentence stated in the language $(\leq, \wedge, \vee, \bot, \top, \neg)$, the sentence is a theorem in the theory of Boolean algebras iff the dual sentence, obtained by interchanging $\wedge$ and $\vee$, $\bot$ and $\top$, and replacing $\leq$ by the opposite relation $\leq^{op}$, is also a theorem. 
 
 This incredibly useful result can be rephrased in several ways; for example, if a poset $B$ is a Boolean algebra, then so is its opposite $B^{op}$. 
 
@@ -118,7 +118,7 @@ Boolean algebras and Boolean algebra homomorphisms form a [[concrete category]] 
 
 The concrete category $U: BoolAlg \to Set$ is [[monadic functor|monadic]]: the category of Boolean algebras is the [[Eilenberg-Moore category|category of algebras]] for a [[finitary monad]], or equivalently it is the category of algebras for a [[Lawvere theory]]. In this case the Lawvere theory is very easily described. 
 
-Ihe Lawvere theory is equivalent to the category opposite to the category of finitely generated free Boolean algebras, or of finitely generated free Boolean rings. As we observed earlier, the free Boolean algebra on $n$ elements is therefore isomorphic to $P(2^n)$, the [[power set]] of a $2^n$-element set. Applying a "toy" form of [[Stone duality]], the opposite of the category of finitely generated free Boolean algebras is equivalent to the category of finite sets of cardinality $2^n$. 
+The Lawvere theory is equivalent to the category opposite to the category of finitely generated free Boolean algebras, or of finitely generated free Boolean rings. As we observed earlier, the free Boolean algebra on $n$ elements is therefore isomorphic to $P(2^n)$, the [[power set]] of a $2^n$-element set. Applying a "toy" form of [[Stone duality]], the opposite of the category of finitely generated free Boolean algebras is equivalent to the category of finite sets of cardinality $2^n$. 
 
 Hence the Lawvere theory is identified with the category $Fin_{2^n}$ of finite sets of cardinality $2^n$, and the category of Boolean algebras is equivalent to the category of product-preserving functors 
 
