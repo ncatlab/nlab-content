@@ -60,14 +60,14 @@ for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base c
 +-- {: .num_prop}
 ###### Proposition
 
-A conservative functor [[reflected limit|reflects]] all [[limits]] and [[colimits]] that it [[preserved limit|preserves]].
+A conservative functor [[reflected limit|reflects]] all [[limits]] and [[colimits]] that it [[preserved limit|preserves]] and which exist in the source category.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $K : J \to C$ be a [[diagram]] in $X$ whose limit $\lim K$ exists and such that $\lim F\circ K \simeq F \lim K$. Then if $const_\theta \to K$ is a [[cone]] in $F$ that is sent to a limiting cone $F const_\theta$ in $D$, then by the [[universal property]] of the limit in $D$ the morphism $F( const_\theta \to \lim K)$ is an isomorphism in $D$, hence must have been an isomorphism in $C$, hence $const_\theta$ must have been a limiting cone in $C$.
+Let $K : J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and such that $\lim F\circ K \simeq F \lim K$. Then if $const_\theta \to K$ is a [[cone]] in $F$ that is sent to a limiting cone $F const_\theta$ in $D$, then by the [[universal property]] of the limit in $D$ the morphism $F( const_\theta \to \lim K)$ is an isomorphism in $D$, hence must have been an isomorphism in $C$, hence $const_\theta$ must have been a limiting cone in $C$.
 
 The arguments for colimits is analogous.
 =--
