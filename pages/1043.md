@@ -34,7 +34,7 @@ We first look at a few concrete examples of universal properties. These are all 
 
 +-- {: .num_example}
 ###### Example (products)
-The [[product]] of two objects (eg. sets, groups, rings etc.) is specified by the property that maps $f: X \to A \times B$ biject naturally with pairs of maps $(f_1: X \to A, f_2: X \to B)$. Any object that 
+The [[product]] of two objects (eg. sets, groups, rings etc.) is specified by the property that maps $f: X \to A \times B$ biject naturally with pairs of maps $(f_1: X \to A, f_2: X \to B)$.
 
 The naturality condition is that if $f: X \to A \times B$ corresponds to $f_1: X \to A, f_2: X \to B$, and $g: Y \to X$ is a map, then $f \circ g$ corresponds to $f_1 \circ g$ and $f_2 \circ g$, so that the bijection respects composition.
 
