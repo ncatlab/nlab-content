@@ -6,7 +6,7 @@
 
 ## Idea
 
-In a context of [[infinitesimal cohesion]] the **infinitesimal path $\infty$-groupoid** $\Pi_{inf}(X)$ of a type $X$ is the result identifying infinitesimally close points in $X$.
+In a context of [[infinitesimal cohesion]] the **infinitesimal path $\infty$-groupoid** $\Pi_{inf}X \coloneqq \Im(X)$ of a type $X$ is the result of identifying infinitesimally close points in $X$ by adding in further equivalences between all objects (points of $X$) that are infinitesimal neighbours. 
 
 
 ## Definition
@@ -31,7 +31,7 @@ $$
   \stackrel{\overset{i_!}{\leftarrow}}{\underset{i^\ast}{\to}}
   \mathbf{H}
   \stackrel{\overset{i^\ast}{\leftarrow}}{\underset{i_\ast}{\to}}
-  \mathbf{H}
+  \mathbf{H}_{th}
   \,.
 $$
 
@@ -49,7 +49,7 @@ and call it the **constant infinitesimal path inclusion** on $X$.
 The $(i_* \dashv i^*)$-[[unit of an adjunction|counit]] 
 
 $$
-  Red X \to X
+  \Re (X) \to X
 $$
 
 we call the **inclusion of the reduced part** of $X$.
