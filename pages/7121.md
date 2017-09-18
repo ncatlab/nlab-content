@@ -21,18 +21,6 @@ Historically what initiated much of this development was the observation in ([Vo
 
 Generally, the development of string theory has shown that its [[worldsheet]] is usefully regarded as an object in [[algebraic geometry]] (see also at _[[number theory and physics]]_) and mathematically the generalization from [[algebraic varieties]] over the [[complex numbers]] to more general algebraic varieties (or [[schemes]]) is often natural, if not compelling. For instance when the [[Witten genus]] (essentially the [[partition function]] of the [[superstring]]) is refined to the [[string orientation of tmf]] then the [[elliptic curves]] over the [[complex numbers]] which serve as the [[torus|toroidal]] [[worldsheets]] over the [[complex numbers]] are generalized to [[elliptic curves]] over general [[rings]] and by the [[fracture theorems]] the computations in [[tmf]] in fact typically proceed by decomposing the general problem into that of ellitpic curves over the [[rational numbers]] and over the [[p-adic integers]]. See at _[[p-adic string theory]]_ for more on this.
 
-## Related entries
-
-* [[number theory and physics]]
-
-* [[p-adic geometry]]
-
-* [[p-adic homotopy]]
-
-* [[p-adic cohomology]]
-
-* [[p-adic string theory]]
-
 ## References
 
 ### Textbooks
