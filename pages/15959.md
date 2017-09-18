@@ -658,7 +658,7 @@ $$
 
 
 
-Therefore a homomorphism of [[Kan complexes]]/[[simplical sets]] $c \colon (\mathbf{B}G)_\bullet \to (\mathbf{B}^2 A)_\bullet$ is in degree 2 a function
+Therefore a homomorphism of [[Kan complexes]]/[[simplicial sets]] $c \colon (\mathbf{B}G)_\bullet \to (\mathbf{B}^2 A)_\bullet$ is in degree 2 a function
 
 $$
   c_2
