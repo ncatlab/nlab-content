@@ -18,5 +18,16 @@ The **genus** of $M$ is defined as the [[genus of a surface|genus]] of the surfa
 
 ## References
 
+Fairly elementary sources for background material include:
+ 
+* Arthur T. White: 1984 _Graphs, groups and surfaces_
+  {#White1984}
+
+This gives the Edmonds algorithm which given a graph and some permutations outputs an embedding. The original source for that is:
+
+* J. Edmonds (1960), A combinatorial representation for polyhedral surfaces, Notices Amer. Math. Soc. 7, 646.
+
+More recent treatments can be found in:
+
 * Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
