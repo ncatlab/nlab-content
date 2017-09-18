@@ -28,7 +28,7 @@ In a [[monoidal category]], a [[dualizable object]] $A$ for which the structure 
 +-- {: .num_remark }
 ###### Remark
 
-A [[monoidal category]] in which all objects are invertible is called a _[[Picard groupoid]]_ or _[[2-group]]_.
+A [[monoidal category]] in which all objects are invertible is called a _[[2-group]]_. 
 =--
 
 +-- {: .num_defn }
