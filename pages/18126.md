@@ -3832,7 +3832,7 @@ an open set which contains one of the two points, but not the other.
 
 Assume there were no such open subset. By lemma \ref{UnionOfOpensGivesClosure} this would mean
 that $x \in \mathrm{Cl}(\{y\})$ and that $y \in \mathrm{Cl}(\{x\})$. But this would imply that
-$Cl(\{x\}) \subset \mathrm{Cl}(\{y\)$ and that $\mathrm{Cl}(\{y\}) \subset \mathrm{Cl}(\{x\})$,
+$Cl(\{x\}) \subset \mathrm{Cl}(\{y\})$ and that $\mathrm{Cl}(\{y\}) \subset \mathrm{Cl}(\{x\})$,
 hence that $\mathrm{Cl}(\{x\}) = \mathrm{Cl}(\{y\})$. This is a [[proof by contradiction]].
 
 =--
@@ -3849,16 +3849,52 @@ all its points are [[closed points]] (def. \ref{ClosedSubset}).
 +-- {: .proof}
 ###### Proof
 
-Assume first that $(X,\tau)$ is $T_1$. We need to show that for every point $x \in X$ we have
-$Cl(\{x\}) = \{x\}$. Since the closure of a point is the [[complement]] of the union of all open subsets not containing this point,
-this is the case precisely if the union of all open subsets not containing $x$ is $X \backslash \{x\}$, hence
-if every point $y \neq x$ is member of at least one open subset not containing $x$. This is true by $T_1$.
+We have
 
-Conversely, assume that for all $x \in X$ then $Cl(\{x\}) = \{x\}$. Then for $x \neq y \in X$ two
-distinct points we need to produce an open subset of $y$ that does not contain $x$. But as before,
-since $Cl(\{x\})$ is the complement of the union of all open subsets that do not contain $x$,
-the assumption $Cl\{x\} = \{x\}$ means that $y$ is member of one of these open subsets that do not
-contain $x$.
+$$
+  \begin{aligned}
+    \text{all points in}\, (X, \tau)\, \text{are closed}
+    &\coloneqq\,
+    \underset{x \in X}{\forall}
+    \left(
+        Cl(\{x\}) = \{x\}
+    \right)
+    \\
+    & \Leftrightarrow\,
+      X \backslash
+      \left(
+      \underset{ { U \subset X\, \text{open} } \atop { x \notin U }  }{\cup} \left( U \right)
+      \right)
+       \;=\;
+      \{x\}
+    \\
+    & \Leftrightarrow\,
+      \left(
+      \underset{ { U \subset X\, \text{open} } \atop { x \notin U }  }{\cup} \left( U \right)
+      \right)
+       \;=\;
+      X \backslash \{x\}
+    \\
+    & \Leftrightarrow
+    \underset{y \in Y}{\forall}
+    \left(
+      \left(
+        \underset{  { U \subset X \, \text{open} } \atop { x \notin U }  }{\exists}
+        \left(
+          y \in U
+        \right)
+      \right)
+      \Leftrightarrow
+      (y \neq x)
+    \right)
+    \\
+    & \Leftrightarrow\,
+    (X,\tau)\, \text{is}\, T_1
+  \end{aligned}
+  \,.
+$$
+
+Here the first step is the reformulation of closure from lemma \ref{UnionOfOpensGivesClosure}, the second is an application of the [[de Morgan law]] (remark \ref{deMorgan}).
 
 =--
 
@@ -3885,11 +3921,47 @@ $(X \times X, \tau_{X \times X})$.
 +-- {: .proof}
 ###### Proof
 
-The Hausdorff condition, that for $x \neq y \in X$ then there exist disjoint open neighbourhood $U_x, U_y \subset X$, is equivalently rephrased in terms of the product topology as: Every point $(x,y) \in X$ which is not on the diagonal has an open neighbourhood $U_x \times U_y$ which still does not intersect the diagonal.
+Observe that the Hausdorff condition is equivalently rephrased in terms of the product topology as: _Every point $(x,y) \in X$ which is not on the diagonal has an open neighbourhood $U_{(x,y)} \times U_{(x,y)}$ which still does not intersect the diagonal_, hence:
 
-Hence if $X$ is Hausdorff, then the diagonal $\Delta_X(X) \subset X \times X$ is the complement of a union of such open sets, and hence is closed.
+$$
+  \begin{aligned}
+    & (X,\tau)\,\text{Hausdorff}
+    \\
+    \Leftrightarrow
+    &
+  \underset{(x,y) \in (X \times X) \backslash \Delta_X(X) }{\forall}
+  \left(
+      \underset{U_{(x,y)} \times V_{(x,y)} \in \tau_{X \times Y}}{\exists}
+      \left(
+        \left(
+          (x,y) \in U_{(x,y)} \times V_{(x,y)}
+        \right)
+        \,\text{and}\,
+        \left(
+           U_{(x,y)} \times V_{(x,y)} \cap \Delta_X(X) = \emptyset
+        \right)
+      \right)
+  \right)
+  \end{aligned}
+$$
 
-Conversely, if the diagonal is closed, then (by [this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure)) every point $(x,y)$ not on the diagonal, hence with $x \neq y$, has an open neighbourhood $U_x \times U_y$ still not intersecting the diagonal, hence so that $U_x \cap U_y = \emptyset$. Thus $(X,\tau)$ is Hausdorff.
+Therefore if $X$ is Hausdorff, then the diagonal $\Delta_X(X) \subset X \times X$ is the complement of a union of such open sets, and hence is closed:
+
+
+$$
+  (X, \tau)\, \text{Hausdorff}
+  \;\;\;\Rightarrow \;\;\;
+  \Delta_X(X)
+  =
+  X \backslash
+  \left(
+    \underset{(x,y) \in (X \times X) \backslash \Delta_X(X)}{\cup}
+    U_{(x,y)} \times V_{(x,y)}
+  \right)
+  \,.
+$$
+
+Conversely, if the diagonal is closed, then (by [this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure)) every point $(x,y) \in X \times X$ not on the diagonal, hence with $x \neq y$, has an open neighbourhood $U_{(x,y)} \times V_{(x,y)}$ still not intersecting the diagonal, hence so that $U_{(x,y)} \cap V_{(x,y)} = \emptyset$. Thus $(X,\tau)$ is Hausdorff.
 
 =--
 
