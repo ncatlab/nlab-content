@@ -1,14 +1,25 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # Contents 
 * table of contents 
 {:toc} 
 
 ## Statement and proof 
 
-There are a number of categorically-flavored ways of characterizing [[compact spaces]]; for example, as [[relational beta-modules]] $X$ where the beta-module structure $\xi: \beta(X) \nrightarrow X$ is an [[entire relation]] (satisfies $1_{\beta(X)} \leq \xi^\circ \xi$). One of the more useful characterizations, as emphasized by [[Walter Tholen]], is given by the following elementary statement (also one of the definitions listed in [[compact space]]): 
+There are a number of [[category theory|categorically-flavored]] ways of characterizing [[compact spaces]]; for example, as [[relational beta-modules]] $X$ where the beta-module structure $\xi: \beta(X) \nrightarrow X$ is an [[entire relation]] (satisfies $1_{\beta(X)} \leq \xi^\circ \xi$). One of the more useful characterizations, as emphasized by [[Walter Tholen]], is given by the following elementary statement (also one of the definitions listed in [[compact space]]): 
 
 +-- {: .num_theorem #char} 
 ###### Theorem 
-A [[topological space]] $X$ is compact if and only if for every space $Y$, the [[projection map]] $\pi: Y \times X \to Y$ is a [[closed map]]. 
+A [[topological space]] $X$ is [[compact topological space|compact]] if and only if for every space $Y$, the [[projection map]] $\pi: Y \times X \to Y$ is a [[closed map]]. 
 =-- 
 
 In this article we will collect a number of proofs and points of view on this result, and show how it makes possible a very direct hands-on proof of the [[Tychonoff theorem]], without the need for infrastructure such as [[ultrafilters]] or [[nets]]. This type of proof may be adapted for use in undergraduate classrooms. 
@@ -17,12 +28,12 @@ The "only if" half is covered in essentially every textbook and should be routin
 
 +-- {: .num_prop #onlyif} 
 ###### Proposition 
-If $X, Y$ are spaces with $X$ compact, then $\pi: Y \times X \to Y$ is a closed map. 
+If $X, Y$ are [[topological spaces|spaces]] with $X$ [[compact topological space|compact]], then $\pi: Y \times X \to Y$ is a [[closed map]]. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Let $C \subseteq Y \times X$ be a closed set; we must show the [[direct image]] $\pi(C)$ is closed in $Y$. Suppose $y \notin \pi(C)$; equivalently, suppose $\pi^{-1}(y) = \{y\} \times X$ does not intersect $C$. We want to find an open neighborhood $V$ of $y$ that does not intersect $\pi(C)$, or equivalently such that $(V \times X) \cap C = \emptyset$. Consider the collection of all open $U \subseteq X$ such that $(W \times U) \cap C = \emptyset$ for some open neighborhood $W$ of $y$. This collection covers $X$, since $(y, x) \notin C$ for every $x \in X$ and by closure of $C$ we can therefore find a neighborhood $W \times U$ of $(y, x)$ that doesn't intersect $C$. By compactness of $X$, this collection has a finite subcover, say $U_1, \ldots, U_n$. For each of these $U_i$ there is a corresponding $W_i$ such that $(W_i \times U_i) \cap C = \emptyset$ (in fact there is a unique largest such $W_i$: just take the union of all such). Now put $V = \bigcap_{i=1}^n W_i$. We have for each $i$ between $1$ and $n$ that $V \times U_i \subseteq W_i \times U_i \subseteq \neg C$, hence 
+Let $C \subseteq Y \times X$ be a [[closed subset|closed set]]; we must show the [[direct image]] $\pi(C)$ is closed in $Y$. Suppose $y \notin \pi(C)$; equivalently, suppose $\pi^{-1}(y) = \{y\} \times X$ does not intersect $C$. We want to find an [[open neighborhood]] $V$ of $y$ that does not intersect $\pi(C)$, or equivalently such that $(V \times X) \cap C = \emptyset$. Consider the collection of all open $U \subseteq X$ such that $(W \times U) \cap C = \emptyset$ for some open neighborhood $W$ of $y$. This collection covers $X$, since $(y, x) \notin C$ for every $x \in X$ and by closure of $C$ we can therefore find a neighborhood $W \times U$ of $(y, x)$ that doesn't intersect $C$. By compactness of $X$, this collection has a finite subcover, say $U_1, \ldots, U_n$. For each of these $U_i$ there is a corresponding $W_i$ such that $(W_i \times U_i) \cap C = \emptyset$ (in fact there is a unique largest such $W_i$: just take the union of all such). Now put $V = \bigcap_{i=1}^n W_i$. We have for each $i$ between $1$ and $n$ that $V \times U_i \subseteq W_i \times U_i \subseteq \neg C$, hence 
 
 $$V \times X = V \times \bigcup_{i=1}^n U_i = \bigcup_{i=1}^n V \times U_i \subseteq \neg C$$ 
 
