@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 __Galois types__ are a generalization of types for [[abstract elementary class]]es with [[amalgamation property]].
@@ -9,6 +24,12 @@ Consider the [[type (in model theory)]] $tp(a/M)$ for a first order theory in la
 Let  $(K,\lt)$ be an [[abstract elementary class]] of structures.
 
 ...
+
+## Related entries
+
+* [[amalgamation property]]
+
+* [[type (in model theory)|type in model theory]]
 
 ## References
 
