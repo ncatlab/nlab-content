@@ -153,7 +153,9 @@ $X$ is compact iff for any space $Y$, the [[projection map]] $X \times Y \to Y$ 
 
 =--
 
-Contrary to possible appearance, the equivalence of this with definition \ref{hb} does not require the axiom of choice; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers, as well as [this page](/toddtrimble/published/Characterizations+of+compactness). See also the page [[compactness and stable closure]] (under construction).  This equivalence is also true for [[locales]], by way of proper maps; see below.
+Contrary to possible appearance, the equivalence of this with definition \ref{hb} does not require the axiom of choice; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers, as well as [this page](/toddtrimble/published/Characterizations+of+compactness). See also the page [[compactness and stable closure]] (under construction).  This equivalence is also true for [[locales]], by way of proper maps; see below. 
+
+Moreover, this characterization of compact spaces may be used to give an attractive proof of the [[Tychonoff theorem]], due to Clementino and Tholen. See [here](https://ncatlab.org/nlab/show/closed-projection%20characterization%20of%20compactness) for details. 
 
 Closely related to the previous definition, a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
 
