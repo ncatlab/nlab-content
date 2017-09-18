@@ -27,6 +27,74 @@ In particular [[compact Hausdorff spaces are normal]].
 
 =--
 
++-- {: .proof}
+###### Proof
+
+In one direction, let $(X,\tau)$ be a paracompact Hausdorff space, let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
+
+First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x_{c}} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so
+
+$$
+  \{U_c \subset X\}_{c \in C} \cup X \backslash C
+$$
+
+is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement of $X$, and by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet) we may assume its elements to share the original index set and be containd in the original elements
+
+$$
+ \{V_c \subset U_c \subset  X\}_{c \in C} \cup \{V_{X \backslash C} \subset X\}
+  \,.
+$$
+
+
+By intersecting the elements of this refinement with $C$, this yields a locally finite subcover $\{V_j \cap C \subset C\}_{j \in J}$ of $C$.
+
+By definition this means that there exists an open neighbourhood $W_x \supset \{x\}$ and a finite subset $K \subset J$ such $\underset{j \in J \backslash K}{\forall}( W_x \cap (V_j \cap C) = \emptyset )$ while $\underset{j \in K \subset J}{\forall}( W_x \cap (V_j \cap C) \neq \emptyset )$. Hence we may choose points
+in these non-empty intersections:
+
+$$
+  \left\{
+     c_k \in W_x \cap (V_k \cap C)
+  \right\}_{k \in K}
+  \,.
+$$
+
+Consider then 
+
+$$
+  U_x 
+   \;\coloneqq\;
+  W_x 
+    \cap 
+  \left( 
+    \underset{k \in K}{\cap}
+     \left(
+       U_{x_{(c_k)}}
+     \right)
+  \right)
+$$
+
+and
+
+$$
+  U_C
+   \;\coloneqq\;
+  \underset{i \in I}{\cup} V_{i}
+  \,.
+$$
+
+These are open neighbourhoods of $\{x\}$ and of $C$, respectively, as they are the finite intersection and union, respectively of open sets. Also these are disjoint,
+
+$$
+  U_x \cap U_C = \emptyset
+  \,.
+$$
+
+This is because only finitely many of the $V_i$ intersect $W$, by local finiteness, and those that do are the $V_{c_k} \subset U_{c_k}$ which by construction are each disjoint from $U_x$.
+
+In the other direction... 
+
+
+=--
 
 ## References
 
