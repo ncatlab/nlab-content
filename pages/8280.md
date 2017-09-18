@@ -10,4 +10,10 @@ There is also a notion of
 
 * [[spectral sequence]]
 
-which has no particular relation to other notions of _spectrum_ .
+which has no particular relation to other notions of _spectrum_, except that [[filtered spectra]] give rise to [[spectral sequences of filtered spectra]].
+
+
+In [[physics]]:
+
+* [[atomic spectrum]]
+
