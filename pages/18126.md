@@ -5658,6 +5658,46 @@ Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to fi
 
 =--
 
+In **summary** we have found
+
++-- {: .num_prop #SoberReflection}
+###### Proposition
+**([[sober reflection]])**
+
+For every [[topological space]] $X$ there exists 
+
+1. a [[sober topological spaces]] $S X$;
+
+1. a [[continuous function]] $s_n \colon X \longrightarrow S X$
+
+such that ...
+
+=--
+
+As before for the $T_n$-reflection in remark \ref{ReflectiveSubcategory}, 
+the statement of prop. \ref{SoberReflection} may neatly be re-packaged:
+
++-- {: .num_remark #SobertopologicalSpacesFormReflectiveSubcategory}
+###### Remark
+**([[sober topological spaces]] are a [[reflective subcategory]])**
+
+In the language of [[category theory]] (remark \ref{TopCategory})
+and in terms of the concept of [[adjoint functors]] (remark \ref{ReflectiveSubcategory}),
+proposition \ref{SoberReflection} simply says that [[sober topological spaces]]
+form a [[reflective subcategory]] $Top_{sob}$ of the category [[Top]] of all topological spaces
+
+$$
+  Top_{sob}
+    \underoverset
+      {\underset{}{\hookrightarrow}}
+      {\overset{s}{\longrightarrow}}
+      {\bot}
+  Top
+  \,.
+$$
+
+=--
+
 
 $\,$
 
@@ -5706,12 +5746,13 @@ $\,$
 ### Limits and colimits
  {#LimitsAndColimits}
 
-The concept of _[[limit]] of a [[diagram]] of [[topological spaces]]_ is a generalization of concepts like
-[[product topological space]] and [[topological subspaces]].
+We consider now the general definition of [[diagrams]] of [[topological spaces]] (def. \ref{Diagram} below),
+their [[cones]] and [[co-cones]] (def. \ref{Cone}) as well as [[limit|limiting cones]] and [[colimit|colimiting cocones]] (def. \ref{LimitingCone} below). Then we use these concepts to see generally why [[limits]] (such as [[product spaces]] and [[subspaces]]) 
+of $T_{n \leq 2}$-spaces and of [[sober spaces]] are again $T_n$ or sober, respectively, and to see that the 
+correct [[colimits]] (such as [[disjoint union spaces]] and [[quotient spaces]]) of $T_n$- or sober spaces
+are instead the _$T_n$-reflection_ (prop. \ref{HausdorffReflection}) or sober reflection (prop. \ref{SoberReflection}), respectively, of these
+colimit constructions performed in the context of unconstrained topological spaces.
 
-
-The concept of _[[colimit]] of a [[diagram]] of [[topological spaces]]_ is a generalization of concepts like
-[[disjoint union topological space]] and [[quotient topological space]]
 
 $\,$
 
@@ -5720,9 +5761,9 @@ $\,$
 ###### Definition
 **([[diagram]] in a [[category]])**
 
-A [[diagram]] $X_\bullet$ of [[sets]] or of [[topological spaces]] is
+A _[[diagram]]_ $X_\bullet$ of [[sets]] or of [[topological spaces]] is
 
-1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] (i.e. sets or topological spaces)
+1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] (i.e. of sets or topological spaces)
 
 1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
    $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects (i.e. [[functions]] or [[continuous functions]]);
@@ -6102,9 +6143,25 @@ Then
 
 =--
 
+
++-- {: .num_remark #ConesAreNaturalTransformations}
+###### Remark
+**([[cones]] are [[natural transformations]])**
+
+
+In the language of [[category theory]] (remark \ref{TopCategory}) 
+and in view of the interpretation of [[diagrams]] as [[functors]]  (remark \ref{FunctorialDefinitionOfDiagrams})
+then the definition of [[cone]] in def. \ref{Cone} simply says that a [[cone]]
+is a [[natural transformation]] from a _[[constant functor]]_ to the [[functor]] that exbits the 
+given diagram.
+
+
+=--
+
+
 +-- {: .num_example}
 ###### Example
-**()**
+**([[solutions]] to [[equations]] are [[cones]])**
 
 Let $f,g \colon \mathbb{R} \to \mathbb{R}$ two [[functions]], and consider the
 corresponding [[parallel morphism]] [[diagram]] of sets (example \ref{ParallelMorphisms}):
@@ -6289,6 +6346,13 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+**([[limit|limiting]]/[[colimit|colimiting]] [[cones]] are [[terminal object|terminal]]/[[initial objects|initial]] cones)**
+
+spring
+
+=--
 
 
 +-- {: .num_prop #SetLimits}
@@ -6382,10 +6446,10 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological s
 
 Other terminology used is:
 
-| [[initial topology]] | [[final topology]] |
-|----------------------|--------------------|
-|  weak topology       | strong  topology   |
-| coarse topology      | fine topology      |
+| $\,$ [[initial topology]]$\,$ | $\,$ [[final topology]] $\,$ |
+|-------------------------------|------------------------------|
+| $\,$  weak topology  $\,$     | $\,$ strong  topology $\,$   |
+| $\,$ coarse topology  $\,$    | $\,$ fine topology $\,$      |
 
 =--
 
