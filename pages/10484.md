@@ -167,9 +167,15 @@ $$
 
 ## Related concepts
 
+* [[super-Euclidean space]], [[super Minkowski spacetime]]
+
 * [[supergeometry]]
 
 * [[smooth super infinity-groupoid]]
+
+* [[smooth formal super infinity-groupoid]]
+
+* [[super-Cartan geometry]]
 
 [[!redirects super Cartesian spaces]]
 
