@@ -30,6 +30,8 @@ Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical
 
 * V. Vladimirov, _Equations of mathematical physics_, Moscow, Izdatel'stvo Nauka, (1976. 528 p. Russian;  English edition, Mir 198x); _Generalized functions in mathematical physics_, Moscow
 
+* Yvonne Choquet-Bruhat, Cecile Dewitt-Morette, *Analysis, manifolds and physics*, 1982 and 2001
+
 
 ## Classical mechanics 
 
