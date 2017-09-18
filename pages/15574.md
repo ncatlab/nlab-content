@@ -200,7 +200,7 @@ and hence by the [[Yoneda lemma]] $\emptyset \simeq \sharp \emptyset$.
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{S}$ be an [[∞-cohesive site]] and $\mathbf{H} = Sh_\infty(S)$ its [[cohesive (∞,1)-topos]]. Then in $\mathbf{H}$ we have $\sharp \emptyset \simeq \emptyset$.
+Let $\mathcal{S}$ be a [[cohesive site]] (or [[∞-cohesive site]]) and $\mathbf{H} = Sh(\mathcal{S})$ its [[cohesive topos|cohesive]] [[sheaf topos]] (or $\mathbf{H} = Sh_\infty(S)$ its [[cohesive (∞,1)-topos]] ). Then in $\mathbf{H}$ we have $\sharp \emptyset \simeq \emptyset$.
 
 =--
 
