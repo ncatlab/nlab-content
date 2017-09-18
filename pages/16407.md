@@ -1,6 +1,6 @@
 ## Definition
 
-A **topological map** (or **embedded graph**) $M = (G, \theta)$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ of $G$ into a ([[connected space|connected]], [[compact space|compact]]]) [[surface]] $X$ in such a way that:
+A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ of $G$ into a ([[connected space|connected]], [[compact space|compact]]) [[surface]] $X$ in such a way that:
 
 * vertices $x \in V$ are represented as distinct points $\theta(x) \in X$;
 
