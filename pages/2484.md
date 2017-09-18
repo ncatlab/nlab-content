@@ -2,6 +2,8 @@
 
 In [[algebraic geometry]], there are two equivalent ways of looking at a [[scheme]]: it can be viewed as a [[petit topos]] with a [[structure sheaf]] of [[commutative rings]] (i.e. [[locally ringed space]]), or as an object of the [[gros topos]] of [[sheaves]] on the [[site]] of [[commutative rings]] with the [[Zariski topology]]. In other words, a [[scheme]] may be identified with the [[sheaf]] it represents; this sheaf is called the _functor of points_ of the scheme.
 
+To see this, note that by the [[Yoneda lemma]] a [[scheme]] may be identified with the [[sheaf]] it [[representable functor|represents]] on the gros [[Zariski site]] of [[schemes]]; and since any scheme admits an affine open cover, the [[comparison lemma]] says that [[sheaves]] on the [[site]] of all schemes may be identified with [[sheaves]] on the [[site]] of [[affine schemes]].
+
 The functor of points approach has the advantage of making certain constructions much simpler (e.g. the [[fibered product]] in the category of schemes), and eliminating the need for certain constructions like the [[Zariski spectrum]]. In his famous 1973 Buffalo Colloquium talk, [[Alexander Grothendieck]] urged that his earlier definition of scheme via [[locally ringed spaces]] should be abandoned in favour of the functorial point of view.
 
 Of course, the above discussion generalizes to other types of [[geometry]] and even [[higher geometry]].
