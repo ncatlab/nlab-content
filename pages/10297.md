@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[6d (2,0)-superconformal QFT]] admits a [[soliton]] solution which is a [[string]] charged under the [[self-dual higher gauge field|self-dual]] [[B-field]]. Externally this is the [[boundary field theory|boundary]] of the [[M2-brane]] ending on the [[M5-brane]]. As such this is "the string in [[M-theory]]" ans hence is also called the _M-string_ (e.g.[Hohenegger-Iqbal 13](#HoheneggerIqbal13)).
+The [[6d (2,0)-superconformal QFT]] admits a [[soliton]] solution which is a [[string]] charged under the [[self-dual higher gauge field|self-dual]] [[B-field]]. Externally this is the [[boundary field theory|boundary]] of the [[M2-brane]] ending on the [[M5-brane]]. As such this is "the string in [[M-theory]]" and hence is also called the _M-string_ (e.g.[Hohenegger-Iqbal 13](#HoheneggerIqbal13)).
 
 ## Properties
 
@@ -33,6 +33,10 @@ The [[elliptic genus]] of the self-dual string at the boundary of the [[M2-brane
 [[!include genera and partition functions - table]]
 
 ## References
+
+As a [[black brane]] the self-dual string in 6d was maybe first seen in
+
+* [[Michael Duff]], J. X. Lu, _Black and super $p$-branes in diverse dimensions_ ([arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052)) 
 
 The appearance of self-dual string in six dimensions with an [[ADE classification]] was first observed in
 
