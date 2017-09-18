@@ -1,0 +1,23 @@
+
+
+## Idea
+
+A [[supergeometry|supergeometric]] analog of [[de Sitter spacetime]]. By the discussion at _[supersymmetry -- Classification -- Superconformal and super anti de Sitter symmetry](supersymmetry#ClassificationSuperconformal)_ this includes the following [[coset]] [[superspacetimes]]:
+
+| $d$ |  |
+|-----|---|
+| 4 | $\frac{OSp(8/4)}{Spin(3,1) \times SO(7)}$ |
+| 5 | $\frac{SU(2,2/5)}{}$
+| 7 | $\frac{OSp(6,2/4)}{Spin(6,1) \times SO(4)}$ |
+
+## Related concepts
+
+* [[super anti de Sitter group]]
+
+* [[super Minkowski spacetime]]
+
+## References
+
+See the references at _[Green-Schwarz sigma-model -- References -- AdS backgrounds](Green-Schwarz+action+functional#ReferencesAdSBackgrounds)_ 
+
+[[!redirects super anti de Sitter spacetimes]]
