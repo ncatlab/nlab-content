@@ -11,14 +11,7 @@ $$
   \rho : G \times X \to X
 $$
 
-of a group $G$ on a set $X$ is _transitive_ 
-if for every $x \in X$ the morphisms
-
-$$
-  \rho_x : G \to X
-$$
-
-is an [[epimorphism]], i.e. for every two points $x,x'$ there exists $g\in G$ such that $x' = g x$. 
+of a group $G$ on a set $X$ is _transitive_ if it has a single [[orbit]], i.e., if for every two points $x,x'$ there exists $g\in G$ such that $x' = g x$.  A set equipped with a transitive action of $G$ (and which is [[inhabited]]) is the same thing as a [[connected object]] in the category $G Set$.
 
 ## Related concepts
 
