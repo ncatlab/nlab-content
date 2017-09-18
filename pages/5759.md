@@ -34,9 +34,12 @@ Proofs of the conjecture have been given first by  [McClure-Smith](#McClureSmith
 A proof for general [[Ek-algebra]]s in [[symmetric monoidal (∞,1)-categories]] is in ([Lurie, section 2.5](#Lurie)).
 
 ### Geometric interpretation
+ {#GeometricInterpretation}
 
 A general geometric ([[higher geometry|higher geometric]]) interpretation has been indicated in [Ben-ZviFrancisNadler](#Ben-ZviFrancisNadler). They observed (see [[Hochschild cohomology]] for details) that the Hochschild _homology_ of $\mathcal{O}(X)$ is naturally interpreted as the algebra of functions on the [[derived loop space]] $\mathcal{L}X$. In the presence of good 
 [[geometric ∞-function theory]] this naturally induces an action of the [[little disk operad]] on $\mathcal{O}(\mathcal{L}X)$. Since a [[Gerstenhaber algebra]] is an algebra over the [[homology]] of the [[little disk operad]], this immediately explains the existence of this structure.
+
+See also [this prop](Hochschild+cohomology#DeligneConjectureViaDerivedMappingSpaces).
 
 ### For higher algebras and higher monoidal categories
 
