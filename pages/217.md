@@ -97,8 +97,8 @@ A longer version of Lawvere's 1965 paper appears in
 
 An undergraduate set-theory textbook using it is
 
-* [[William Lawvere]], [[Bob Rosebrugh|Robert Rosebrugh]], _Sets for Mathematics_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
-{#LawvereRosebrugh}
+* {#LawvereRosebrugh} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
+
 
 On the anticipation of 'structural sets' in [[Georg Cantor|Cantor]]:
 
