@@ -21,11 +21,15 @@
 
 ## Idea
 
-Derived categories were introduced by [[Jean-Louis Verdier]] in his thesis under the supervision of [[Alexandre Grothendieck]].  It was originally used to extend [[Serre duality]] to a relative context.  See [[Robin Hartshorne|Hartshorne]]'s lecture notes "Residues and duality".
+The _derived (infinity,1)-category_ or _derived category_ of an [[abelian category]] $\mathcal{A}$ is the setting for [[homological algebra]] in $\mathcal{A}$: the [[(infinity,1)-categorical localization]] of the [[category of chain complexes]] in $\mathcal{A}$ at the class of [[quasi-isomorphisms]]. The derived category is a fundamental example of a [[stable (infinity,1)-category]]. By the [[stable Dold-Kan correspondence]], it may be viewed as a linearization of the [[stable (infinity,1)-category of spectra]].
 
-The _derived category_ $D(\mathcal{A})$ of an [[abelian category]] $\mathcal{A}$ is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[(∞,1)-category of chain complexes]] in $\mathcal{A}$: the [[localization]] of the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ at the [[quasi-isomorphisms]].
+The derived (infinity,1)-category is presented by various [[dg-model structures]] on the [[category of chain complexes]], as described at [[model structures on chain complexes]]. As such it has also has a natural incarnation as a [[pretriangulated dg-category]], which might be called the _derived dg-category_.
 
-More in detail, associated to $\mathcal{A}$ is
+Like any [[stable (infinity,1)-category]], the [[homotopy category of an (infinity,1)-category|homotopy category]] of the derived (infinity,1)-category admits a canonical [[triangulated category]] structure. Often in the literature, the term _derived category_ refers to the [[homotopy category of an (infinity,1)-category|homotopy category]], viewed only as a [[triangulated category]]. The loss of information can often be problematic, but for many purposes is not important.
+
+In what follows, we will describe only the homotopy category. See [[(infinity,1)-category of chain complexes]] for the full [[(infinity,1)-category]].
+
+Associated to $\mathcal{A}$ is
 
 * the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ in $\mathcal{A}$ which is naturally a [[homotopical category]];
 
@@ -49,6 +53,10 @@ the [[quasi-isomorphisms]] of [[chain complexes]] become true [[isomorphisms]]
 and that $D(\mathcal{A})$ is [[universal property|universal]] with respect to this property.
 
 Hence the derived category is an approximation to the full [[simplicial localization]] of $K(\mathcal{A})$. It is or can be equipped with several further [[properties]] and [[structure]] that give a more accurate approximation. Notably every derived category is a _[[triangulated category]]_, which is a way of remembering the [[suspension]] and de-suspension operations on its objects -- the [[suspension of chain complexes]] -- hence its "[[stable (infinity,1)-category|stability]]".
+
+## History
+
+Derived categories were introduced by [[Jean-Louis Verdier]] in his thesis under the supervision of [[Alexandre Grothendieck]].  It was originally used to extend [[Serre duality]] to a relative context.  See [[Robin Hartshorne|Hartshorne]]'s lecture notes "Residues and duality".
 
 ## Definition 
 
@@ -241,3 +249,8 @@ For the applications of derived categories in [[algebraic geometry]], see
 [[!redirects derived categories]]
 [[!redirects bounded derived category]]
 [[!redirects bounded derived categories]]
+
+[[!redirects derived (infinity,1)-category]]
+[[!redirects derived (infinity,1)-categories]]
+[[!redirects derived dg-category]]
+[[!redirects derived dg-categories]]
