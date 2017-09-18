@@ -65,6 +65,11 @@ This generalizes the notion of _[[projective modules]]_ over a [[ring]].
 
 There are variations of the definition where "epimorphism" is replaced by some other type of morphism, such as a [[regular epimorphism]] or [[strong epimorphism]] or the left class in some [[orthogonal factorization system]].  In this case one may speak of **regular projectives** and so on.  In a [[regular category]] "projective" almost always means "regular projective."
 
+
+If the ambient category has an [[initial object]] $\emptyset$, then the injective objects $P$ are those for which $\emptyset \stackrel{\exists!}{\to} P$ is called an [[projective morphism]].
+
+
+
 =--
 
 +-- {: .num_remark}
