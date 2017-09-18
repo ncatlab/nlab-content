@@ -2646,7 +2646,7 @@ Use prop. \ref{SingDetextsAndReflectsFibrations} and prop. \ref{GeometricRealiza
 
 =--
 
-#### The classical model structure on $sSet_{Quillen}$
+#### The classical model structure $sSet_{Quillen}$
 
 
 +-- {: .num_defn #ClassesOfMorphismsOnsSetQuillen}
@@ -2664,41 +2664,10 @@ The classical [[model category]] structure on [[simplicial sets]], $sSet_{Quille
 
 ([Quillen 67, II.3](model+structure+on+simplicial+sets#Quillen67))
 
-##### Quillen equivalence with $Top_{Quillen}$
- {#QuillenEquivalenceWithTopQuillen}
-
-+-- {: .num_theorem}
-###### Theorem
-
-The [[singular simplicial complex]]/[[geometric realization]]-[[nerve and realization|adjunction]] of example \ref{TopologicalRealizationOfSimplicialSets}
-constitutes a [[Quillen equivalence]] of the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} with the  [[classical model structure on topological spaces]], def. \ref{ClassesOfMorhismsInTopQuillen}:
-
-$$
-  ({\vert -\vert}\dashv Sing)
-  \colon
-  Top_{Quillen}
-  \stackrel{\overset{{\vert -\vert}}{\leftarrow}}{\underset{Sing}{\to}}
-  sSet_{Quillen}
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-First of all, the adjunction is indeed a [[Quillen adjunction]]: prop. \ref{SingDetextsAndReflectsFibrations} says in particular that $Sing(-)$ takes [[Serre fibrations]] to [[Kan fibrations]] and prop. \ref{TopologicalRealizationOfsSetLandsInCWComplexes} gives that ${\vert-\vert}$ sends monomorphisms of simplicial sets to [[relative cell complexes]].
-
-Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that the derived adjunction unit and counit are weak equivalences, and hence the Quillen adjunction is a Quillen equivalence.
-
-=--
-
-#### Basic properties
-
 +-- {: .num_prop}
 ###### Proposition
 
-In model structure $sSet_{Quillen}$, def. \ref{ClassesOfMorphismsOnsSetQuillen}, the following holds.
+In the model structure $sSet_{Quillen}$, def. \ref{ClassesOfMorphismsOnsSetQuillen}, the following holds.
 
 * The fibrant objects are precisely the [[Kan complexes]].
 
@@ -2787,6 +2756,72 @@ One direction is easy: if $K$ is a Kan complex, then axiom SM7 for [[simplicial 
 Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi_0 K^X$ and the hom-set $Ho (sSet) (X, K)$, and thus by the [[Yoneda lemma]], a morphism $f : Z \to W$ such that the induced morphism $\pi_0 K^W \to \pi_0 K^Z$ is a bijection for all Kan complexes $K$ is precisely a morphism that becomes an isomorphism in $Ho (sSet)$, i.e. a weak homotopy equivalence.
 
 =--
+
+
+
+#### Quillen equivalence between $sSet_{Quillen}$ and $Top_{Quillen}$
+ {#QuillenEquivalenceWithTopQuillen}
+
+Let $C$ and $D$ be [[model category|model categories]] and let
+
+$$
+  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}}
+   D
+$$
+
+be a [[Quillen adjunction]] with $L$ [[left adjoint]] to $R$.
+
+Write $Ho C$ and $Ho D$ for the corresponding [[homotopy category|homotopy categories]].
+
+Notice that $Ho C$ may be regarded as obtained by first passing to the full [[subcategory]] on cofibrant objects and then [[localization|inverting]] [[weak equivalences]], and $L$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor 
+
+$$
+  \mathbb{L} : Ho C \to Ho D
+$$ 
+
+between the [[homotopy category|homotopy categories]], called its (total) left [[derived functor]].  Similarly (but dually), $R$ induces a (total) right derived functor $\mathbb{R} : Ho D \to Ho C$.
+
++-- {: .num_defn}
+###### Definition
+
+The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the following equivalent conditions are satisfied.
+
+* The total left [[derived functor]] $\mathbb{L} : Ho(C) \to Ho(D)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
+
+* The total right [[derived functor]] $\mathbb{R} : Ho(D) \to Ho(C)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
+
+* For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
+
+* For every cofibrant object $c\in C$, the composite $c \to R(L(c)) \to R(L(c)^{fib})$ is a weak equivalence in $C$, and for every fibrant object $d\in D$, the composite $L(R(d)^{cof}) \to L(R(d)) \to d$ is a weak equivalence in $D$, where $(-)^{fib}$ and $(-)^{cof}$ denote fibrant and cofibrant [[resolutions]], respectively.
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+The [[singular simplicial complex]]/[[geometric realization]]-[[nerve and realization|adjunction]] of example \ref{TopologicalRealizationOfSimplicialSets}
+constitutes a [[Quillen equivalence]] of the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} with the  [[classical model structure on topological spaces]], def. \ref{ClassesOfMorhismsInTopQuillen}:
+
+$$
+  ({\vert -\vert}\dashv Sing)
+  \colon
+  Top_{Quillen}
+  \stackrel{\overset{{\vert -\vert}}{\leftarrow}}{\underset{Sing}{\to}}
+  sSet_{Quillen}
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all, the adjunction is indeed a [[Quillen adjunction]]: prop. \ref{SingDetextsAndReflectsFibrations} says in particular that $Sing(-)$ takes [[Serre fibrations]] to [[Kan fibrations]] and prop. \ref{TopologicalRealizationOfsSetLandsInCWComplexes} gives that ${\vert-\vert}$ sends monomorphisms of simplicial sets to [[relative cell complexes]].
+
+Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that the derived adjunction unit and counit are weak equivalences, and hence the Quillen adjunction is a Quillen equivalence.
+
+=--
+
 
 
 ### **P.3)** Homotopy fiber sequences
@@ -3539,7 +3574,7 @@ The most lighweight model for [[spectra]] are _[[sequential spectra]]_. They sup
 
 The key disadvantage of sequential spectra is that they do not support a functorial [[smash product of spectra]] before passing to the [[stable homotopy category]], much less a [[symmetric smash product of spectra]]. This is the structure needed for a decent discussion of the [[higher algebra]] of [[ring spectra]]. To accomodate this, further [below](#SymmetricSpectra) we enhance sequential spectra to the slightly richer model of [[symmetric spectra]]. But both these models are connected by a [[free-forgetful adjunction]] and for workinbg with either model it is useful to pass back and forth.
 
-#### Sequential pre-spectra
+#### Sequential pre-spectra 
 
 +-- {: .num_defn #SequentialSpectra}
 ###### Definition
@@ -3594,6 +3629,177 @@ $$
 
 =--
 
+We now consider the [[homotopy theory]] of sequential pre-spectra. The true [[stable homotopy theory]] below is obtained from this by passing from all pre-spectra to the [[Omega-spectra]].
+
++-- {: .num_defn #ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}
+###### Definition
+
+Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(sSet)$, def. \ref{SequentialSpectra} is
+
+* a **strict weak equivalence** if each component $f_n \colon X_n \to Y_n$ is a weak equivalence in the [[classical model structure on simplicial sets]] (hence a [[weak homotopy equivalence]] of [[geometric realizations]]);
+
+* a **strict weak equivalence** if each component $f_n \colon X_n \to Y_n$ is a fibration in the [[classical model structure on simplicial sets]] (hence a [[Kan fibration]]);
+
+* a **strict cofibration** if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
+
+  $$
+    X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
+    \longrightarrow
+    Y_{n+1}
+  $$
+
+  are cofibrations of simplicial sets in the  [[classical model structure on simplicial sets]] (i.e.: [[monomorphisms]] of simplicial sets);
+
+=--
+
++-- {: .num_prop #StrictModelStructureOnSequentialPrespectraIsModelCategory}
+###### Proposition
+
+The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(sSet)_{strict}$, called the **strict [[Bousfield-Friedlander model structure]]** on sequential spectra.
+
+Moreover, this is
+
+* a [[proper model category]];
+
+* a [[simplicial model category]] with respect to the simplicial enrichment of prop. \ref{SimplicialEnrichment}.
+
+=--
+
+([Bousfield-Friedlander+model+structure#Bousfield-Friedlander 78, prop. 2.2](#BousfieldFriedlander78)).
+
+
++-- {: .proof}
+###### Proof
+
+Write $sSet^{\mathbb{N}}$ for the category of $\mathbb{N}$-sequences of simplicial sets. This may be thought of as the category of [[simplicial presheaves]] on the [[discrete category]] $\mathbb{N}^{op}$, and as such it carries the projective [[model structure on functors]]/[[model structure on simplicial presheaves]] $sSet^{\mathbb{N}}_{proj}$.
+
+Consider then the [[free-forgetful adjunction]]
+
+$$
+  SeqSpectra(sSet)
+  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
+  sSet^{\mathbb{N}}
+$$
+
+and the corresponding [[transferred model structure]] $SeqSpectra(sSet)_{strict}$,
+
+$$
+  SeqSpectra(sSet)_{strict}
+  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
+  sSet^{\mathbb{N}}_{proj}
+  \,.
+$$
+
+It only remains to check that the cofibrations are as claimed. To that end, consider a [[commuting square]] of sequential spectra
+
+$$
+  \array{
+    X_\bullet &\stackrel{h_\bullet}{\longrightarrow}& A_\bullet
+    \\
+    \downarrow^{\mathrlap{f_\bullet}} && \downarrow
+    \\
+    Y_\bullet &\longrightarrow& B_\bullet
+  }
+  \,.
+$$
+
+By definition, this is equivalently a $\mathbb{N}$-collection of commuting diagrams of simplicial sets of the form
+
+$$
+  \array{
+    X_n &\stackrel{h_n}{\longrightarrow}& A_n
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow
+    \\
+    Y_n &\longrightarrow& B_n
+  }
+$$
+
+such that all structure maps are respected.
+
+$$
+  \array{
+    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
+    \\
+    Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
+    \\
+    & \searrow && \searrow
+    \\
+    && B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
+  }
+  \;\;\;
+  \Rightarrow
+  \;\;\;
+  \array{
+    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    \\
+    & \searrow^{\mathrlap{h_n}} && \searrow^{\mathrlap{h_{n+1}}}
+    \\
+    && A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
+    \\
+    && \downarrow && \downarrow
+    \\
+    && B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
+  }
+  \,.
+$$
+
+Hence a [[lifting]] in the original diagram is a lifting in each degree $n$, such that the lifting in degree $n+1$ makes these diagrams of structure maps commute.
+
+Since components are parameterized over $\mathbb{N}$, this condition has solutions by [[induction]]. First of all there must be an ordinary lifting in degree 0. Then assume a lifting $l_n$ in degree $n$ has been found
+
+$$
+  \array{
+    X_n &\stackrel{h_n}{\longrightarrow}& A_n
+    \\
+    \downarrow^{\mathrlap{f_n}} &\nearrow_{\mathrlap{l_n}}& \downarrow
+    \\
+    Y_n &\longrightarrow& B_n
+  }
+$$
+
+the lifting $l_{n+1}$ in the next degree has to also make the following diagram commute
+
+$$
+  \array{
+    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{h_{n+1}}}
+    & \searrow 
+    \\
+    Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
+    && 
+    \\
+    & \searrow^{\mathrlap{l_n}} && \searrow^{\mathrlap{l_{n+1}}} & \downarrow
+    \\
+    && A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
+  }
+  \,.
+$$
+
+This is a [[cocone]] under the the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$, while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
+
+$$
+  \array{
+    Y_n \underset{X_n}{\sqcup} X_{n+1}
+    &\stackrel{(\sigma_n^A l_n,h_{n+1})}{\longrightarrow}&
+    A_{n+1}
+    \\
+    \downarrow &{}^{\mathllap{l_{n+1}}}\nearrow& \downarrow
+    \\
+    Y_{n+1} &\stackrel{}{\longrightarrow}& B_{n+1}
+  }
+  \,.
+$$
+
+
+=--
+
+
+#### Omega-spectra
+
 +-- {: .num_defn #StableHomotopyGroups}
 ###### Definition
 
@@ -3630,7 +3836,6 @@ $$
 
 
 
-#### Omega-spectra
 
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
@@ -3735,10 +3940,296 @@ A homomorphism of [[sequential spectra]], def. \ref{SequentialSpectra}, is a [[s
 
 =--
 
-#### The model structure $SeqSpec_{stable}$
 
 
-+-- {: .num_defn #ClassesOfMorphisms}
+
+
+#### The stable model structure $SeqSpec_{stable}$
+
+
+In order to do [[stable homotopy theory]] with [[sequential spectra]], we need to equip the [[category]] of sequential [[pre-spectra]] of def. \ref{SequentialSpectra} with a [[model category]] structure whose weak equivalences are the [[stable weak homotopy equivalences]] of def. \ref{StableWeakEquivalenceOfSequentialsSetSpectra}. This class contains the degreewise weak homotopy equivalences of the strict model structure of def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} but is strictly larger. There are then different choices for the fibrations and cofibrations, but it is particularly convenient to keep the cofibrations those of the strict model structure, for then we are in the situation of [[Bousfield localization of model categories]]:
+
++-- {: .num_defn #BousfieldLocalizationOfModelCategories}
+###### Definition
+
+
+A _left [[Bousfield localization of model categories|Bousfield localization]]_ $C_{loc}$ of a [[model category]] $C$ is another model category structure on the same underlying category with the same cofibrations, 
+
+$$
+  cof_{C_{loc}} = cof_c
+$$
+
+but more weak equivalences
+
+$$
+  W_{C_{loc}} \supset W_C
+  \,.
+$$
+
+=--
+
+While that's a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences.
+
++-- {: .num_remark }
+###### Remark 
+
+In def. \ref{BousfieldLocalizationOfModelCategories} it follows directly that 
+
+* $C_{loc}$ has as fibrations a subset of fibrations of $C$
+
+  $$
+    fib_{C_{loc}} = rlp(cof_{C_{loc}} \cap W_{C_{loc}})
+    \subset rlp(cof_{C_{loc}} \cap W_C) = fib_{C}
+    \,.
+  $$
+
+* $C_{loc}$ has the same acyclic fibrations as $C$
+
+  $$
+    fib_{C_{loc}} \cap W_{C_{loc}}
+    =
+    rlp(cof_{C_{loc}}) = rlp(cof_C) = fib_C \cap W_C
+    \,.
+  $$
+
+* on the underlying categories
+
+  * the identity functor $Id : C \to C_{loc}$ preserves cofibrations and weak equivalences
+
+  * the identity functor $Id : C_{loc} \to C$ preserves fibrations and acyclic fibrations
+
+  so that this pair of functors is a [[Quillen adjunction]]
+
+  $$
+    C_{loc} \stackrel{\leftarrow}{\to} C
+    \,,
+  $$
+
+The category $C^\circ$ _modeled_ by a model category $C$ is its [[full subcategory]] on fibrant-cofibrant objects. Under left Bousfield localization the fibrant-cofibrant objects of $C_{loc}$ are a subcollection of those of $C$, so that we have the full subcategory
+
+$$
+  (C_{loc})^\circ \subset C^\circ
+  \,.
+$$
+
+Moreover, as we shall see, every object in $C$ is weakly equivalent in $C_{loc}$ to one in $C_{loc}$: it _reflects into $C_{loc}$_ .
+
+Hence Bousfield localization is a model category version of reflecting onto a [[reflective subcategory]].
+
+=--
+
+(...)
+
+
+
+In the situation of sequential spectra, we have more structure controlling the left Bousfield localization:
+
+1. every sequential pre-spectrum is weakly equivalent to an [[Omega-spectrum]], def. \ref{OmegaSpectrum};
+
+1. the strict weak equivalences between [[Omega-spectra]] are already [[stable weak homotopy equivalences]].
+
+The structures in both these items are reflected by the [[spectrification]] [[endofunctor]] $Q$ of def. \ref{Spectrification}.
+
+The _[[Bousfield-Friedlander theorem]]_ which we discuss now  states that if an [[endofunctor]] $Q \colon \mathcal{C} \to \mathcal{C}$ on a [[model category]] $\mathcal{C}$ behaves like an [[idempotent monad]] in an appropriate model category theoretic sense, then the [[left Bousfield localization]] [[model category]] structure of $\mathcal{C}$ at the $Q$-equivalences exists.
+
+
+
++-- {: .num_defn #QuillenIdempotentMonad}
+###### Definition
+
+Let $\mathcal{C}$ be a [[proper model category]]. 
+Say that a **Quillen idempotent monad** on $\mathcal{C}$ is
+ 
+1. an [[endofunctor]] 
+
+   $Q \;\colon\;  \mathcal{C} \longrightarrow \mathcal{C}$
+
+1. a [[natural transformation]]
+
+   $\eta \colon id_{\mathcal{C}} \longrightarrow Q$
+
+such that
+
+1. $Q$ preserves weak equivalences;
+
+1. all $Q(\eta_X) \colon Q(X) \longrightarrow Q(Q(X))$ are weak equivalences;
+
+1. if in a [[pullback]] square in $\mathcal{C}$
+
+   $$
+     \array{
+       f^\ast W &\stackrel{f^\ast h}{\longrightarrow}& X
+       \\
+       \downarrow && \downarrow^{\mathrlap{f}}
+       \\
+       W &\stackrel{h}{\longrightarrow}& Y
+     }
+   $$
+
+   we have that
+
+   1. $f$ is a fibration and $Y$ is fibrant;
+
+   1. $Q(\eta_X)$, $Q(\eta_Y)$ and $Q(h)$ are weak equivalences
+
+   then $Q(f^\ast h)$ is a weak equivalence.
+
+=--
+
+
++-- {: .num_defn #ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}
+###### Definition
+
+For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
+a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad}, say that a morphism $f$ in $\mathcal{C}$ is
+
+1. a **$Q$-weak equivalence** if $Q(f)$ is a weak equivalence;
+
+1. **a $Q$-cofibation** if it is a cofibration.
+
+1. **a $Q$-fibration** if it has the [[right lifting property]] against the morphisms that are both ($Q$-)cofibrations as well as $Q$-weak equivalences.
+
+Write $\mathcal{C}_Q$ for $\mathcal{C}$ equipped with these classes of morphisms.
+
+=--
+
++-- {: .num_lemma #FirstLemmaForBousfieldFriedlander}
+###### Lemma
+
+In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}, 
+a morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyclic fibration in $\mathcal{C}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration. In the other direction, let $f$ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
+
+$$
+  f \colon \underoverset{\in Cof}{i}{\longrightarrow} \underoverset{\in W \cap Fib}{p}{\longrightarrow}
+  \,.
+$$
+
+Now the fact that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This means by assumption that $f$ has the [[right lifting property]] against $i$. Hence the [[retract argument]], implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
+
+=--
+
++-- {: .num_lemma #SecondLemmaForBousfieldFriedlander}
+###### Lemma
+
+In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}, if a morphism $f \colon X \longrightarrow Y$ is a fibration, and $\eta_X, \eta_Y$ are weak equivalences, then $f$ is a $Q$-fibration.
+
+=--
+
+The proof of this is a little fiddly. Full details are spelled out in ([Goerss-Jardine 96, chapter X, lemma 4.4](#GoerssJardine96)).
+
++-- {: .num_prop #BousfieldFriedlanderTheorem}
+###### Proposition
+**([[Bousfield-Friedlander theorem]])**
+
+For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
+a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
+then $\mathcal{C}_Q$, def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad} is a [[model category]].
+
+=--
+
+([Bousfield-Friedlander 78, theorem 8.7](Bousfield-Friedlander+theorem#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](Bousfield-Friedlander+theorem#Bousfield01))
+
+Warning: this proof assumes that $\mathcal{C}$ admits [[functorial factorization]].
+
++-- {: .proof}
+###### Proof
+
+The [[two-out-of-three]] poperty for $Q$-fibrations is evident. We discuss the two factorization conditions, from these the lifting follows by the [[retract argument]].
+
+First, lemma \ref{FirstLemmaForBousfieldFriedlander} directly implies that every morphism factors as a $Q$-cofibration followed by a $Q$-acyclic $Q$-fibration, simply by factoring it as a cofibration followed by an acyclic fibration.
+
+For the other factorization, let $f \colon X \longrightarrow Y$ be a morphism. By applying functorial fibrant replacement to $Q(f) \to \widehat{Q(f)}$ in $\mathcal{C}^{\Delta[1]}_{inj}$ and composing this with $\eta_f$ yields a diagram 
+
+$$
+  \array{
+     X &\underoverset{}{\eta_X}{\longrightarrow}& Q(X) &\underoverset{W\cap Cof}{u}{\longrightarrow}& \widehat{Q(X)}
+     \\
+     \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{Q(f)}} && \downarrow^{\mathrlap{{\widehat{Q(f)} \atop {\in Fib}}}}
+     \\
+     Y &\underoverset{}{\eta_Y}{\longrightarrow}& Q(Y) &\underoverset{W\cap Cof}{v}{\longrightarrow}& \widehat{Q(Y)}
+  }
+  \,.
+$$
+
+Since $u$ is a weak equivalence, using the weak idempotency of $Q$ and [[two-out-of-three]] in the naturality square of $\eta$ on $u$ gives that $\eta_{\widehat{Q(X)}}$ is a weak equivalence. By the same argument $\eta_{\widehat{Q(Y)}}$ is a weak equivalence. From this, lemma \ref{SecondLemmaForBousfieldFriedlander} gives that $\widehat{Q(f)}$ is a $Q$-fibration.
+
+Next, observe that the total bottom morphism $v \circ \eta_X$ is a $Q$-equivalence by the first two conditions on $Q$. Hence the third condition on $Q$ says that the pullback $\widehat{Q(f)}^\ast(v \circ \eta_X) \colon E \to \widehat{Q(X)}$ is also a $Q$-equivalence
+
+$$
+  \array{
+     E &\underoverset{\in W_Q}{}{\longrightarrow}& \widehat{Q(X)}
+     \\
+     {}^{\mathllap{g \atop {\in Fib_Q}}}\downarrow &(pb)& \downarrow^{\mathrlap{\widehat{Q(f)}}}
+     \\
+     Y &\underset{v \circ \eta_X}{\longrightarrow}& \widehat{Q(Y)}
+  }
+  \,.
+$$
+
+Then by [[two-out-of-three]] for $Q$-weak equivalences, the induced morphism $X \to E$ is a $Q$-weak equivalence, so by the previous factorization statement it factors as
+
+$$
+  X 
+    \overset{W_Q \cap Cof_Q}{\longrightarrow} 
+  D
+    \stackrel{W_Q \cap Fib_Q}{\longrightarrow} 
+  E
+  \,.
+$$
+
+The resulting composite
+
+$$
+  f  
+    \;\colon\;
+    X 
+      \overset{W_Q \cap Cof_Q}{\longrightarrow} 
+    D
+      \stackrel{W_Q \cap Fib_Q}{\longrightarrow} 
+      \underoverset{g}{Fib_Q}{\longrightarrow}
+    Y
+$$
+
+is the desired factorization.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
+a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
+then in the model structure $\mathcal{C}_Q$ from prop. \ref{BousfieldFriedlanderTheorem},
+a morphism $f\colon X \to Y$ is a $Q$-fibration precisely if 
+
+1. $f$ is a fibration;
+
+1. the $\eta$-naturality square on $f$ exhibits a [[homotopy pullback]]
+
+   $$
+     \array{
+       X &\stackrel{\eta_X}{\longrightarrow}& Q(X)
+       \\
+       {}^{\mathllap{f}}\downarrow &{}^{(pb)^h}& \downarrow^{\mathrlap{Q(f)}}
+       \\
+       Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
+     }
+     \,.
+   $$
+
+=--
+
+
+
++-- {: .num_defn #ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}
 ###### Definition
 
 Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(sSet)$, def. \ref{SequentialSpectra} is
@@ -3771,10 +4262,10 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 
 =--
 
-+-- {: .num_prop #IsModelCategory}
++-- {: .num_prop #StableModelStructureOnSequentialSpectraIsModelCategory}
 ###### Proposition
 
-The classes of morphisms in def. \ref{ClassesOfMorphisms} give the structure of a [[model category]] $SeqSpec(sSet)_{stable}$, called the **stable model structure** on sequential spectra.
+The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(sSet)_{stable}$, called the **stable model structure** on sequential spectra.
 
 Moreover, this is
 
@@ -3784,34 +4275,15 @@ Moreover, this is
 
 =--
 
-([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78)).
+([Bousfield-Friedlander 78, theorem 2.3](Bousfield#Friedlander+model+structure#BousfieldFriedlander78)).
 
 +-- {: .proof}
 ###### Proof
 
-Write $sSet^{\mathbb{N}}$ for the category of $\mathbb{N}$-sequences of simplicial sets. This may be thought of as the category of [[simplicial presheaves]] on the [[discrete category]] $\mathbb{N}^{op}$, and as such it carries the projective [[model structure on functors]]/[[model structure on simplicial presheaves]] $sSet^{\mathbb{N}}_{proj}$.
 
-Consider then the [[free-forgetful adjunction]]
-
-$$
-  SeqSpectra(sSet)
-  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
-  sSet^{\mathbb{N}}
-$$
-
-and the corresponding [[transferred model structure]] $SeqSpectra(sSet)_{strict}$,
-
-$$
-  SeqSpectra(sSet)_{strict}
-  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
-  sSet^{\mathbb{N}}_{proj}
-  \,.
-$$
-
-By corollary \ref{StableWeakHomotopyEquivalencesofSeqsSetSpectraIsDegreewsieWeakHomotopyEquivalencesOfSpectrification}, the stable model structure $SeqSpectra(sSet)_{stable}$ is, if indeed it exists, the [[left Bousfield localization]] of this strict model structure at the morphisms that become weak equivalences under the [[spectrification]] functor $Q \colon SeqSpectra(sSet) \longrightarrow SeqSpectra(sSet)$, def. \ref{Spectrification}. By prop. \ref{PropertiesOfStandardSpectrification}  $Q$ satisfies the conditions of the [[Bousfield-Friedlander theorem]], and this implies the claim.
+By corollary \ref{StableWeakHomotopyEquivalencesofSeqsSetSpectraIsDegreewsieWeakHomotopyEquivalencesOfSpectrification}, the stable model structure $SeqSpectra(sSet)_{stable}$ is, if indeed it exists, the [[left Bousfield localization]] of the strict model structure of prop. \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} at the morphisms that become weak equivalences under the [[spectrification]] functor $Q \colon SeqSpectra(sSet) \longrightarrow SeqSpectra(sSet)$, def. \ref{Spectrification}. By prop. \ref{PropertiesOfStandardSpectrification}  $Q$ satisfies the conditions of the [[Bousfield-Friedlander theorem]], and this implies the claim.
 
 =--
-
 
 +-- {: .num_remark}
 ###### Remark
@@ -4004,7 +4476,7 @@ such that
 
 [[symmetric spectra]]
 
-#### The model structure $SymSpec_{stable}$
+#### The stable model structure $SymSpec_{stable}$
 
 * [[model structure on symmetric spectra]]
 
@@ -9315,7 +9787,7 @@ a useful survey is in
 
 a wealth of details is in
 
-* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1987/2003 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]#]_, 1987/2003 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
 and new foundations have been laid in
 
