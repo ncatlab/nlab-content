@@ -56,6 +56,13 @@ This tensor product can be generalized to the case when $R$ is not commutative, 
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The tensor product of modules can be generalized to the [[tensor product of functors]].
+
+=--
+
 ## Properties
 
 ### Monoidal category structure
@@ -222,6 +229,8 @@ For a general module, a measure of the failure of $(-)\otimes_R N$ to be exact i
 * [[tensor product of chain complexes]]
 
 * [[tensor product of ∞-modules]]
+
+* [[tensor product of functors]]
 
 ## References
 
