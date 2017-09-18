@@ -67,7 +67,7 @@ So the collection of $f$-inductive sets is totally ordered by inclusion of initi
 +-- {: .num_remark }
 ###### Remark
 
-The [[empty set]] is not an exception to Zorn\'s lemma, as the chain $\emptyset$ does not have an upper bound.
+The [[empty set]] (with its unique structure as preordered set) is not an exception to Zorn\'s lemma, as the chain $\emptyset$ does not have an upper bound.
 =-- 
 
 +-- {: .num_remark} 
