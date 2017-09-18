@@ -75,9 +75,9 @@ I like to put information into context. For that purpose I had started the
 
 * [nLab wiki project](http://ncatlab.org/nlab/show/HomePage) 
 
-in November 2008. It has now more than 10,000 pages (some very short, but some very long). 
+in November 2008. It has now more than 11,000 pages (some very short, but some very long).  In May 2015 the $n$Lab installation migrated from a server paid out of my pocket to a server hosted at Carnegie-Mellon University in Pittsburgh, funded by [[Steve Awodey]]'s [MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/) for [[homotopy type theory]] research.
 
-For more on what this is see also
+For more on what the $n$Lab is see also
 
 * me on: _[[schreiber:What is... the nLab|What is... the nLab?]]_
 
