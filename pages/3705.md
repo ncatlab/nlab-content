@@ -11,7 +11,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea
@@ -25,19 +25,36 @@ If this is an [[open geometric morphism]] (or an [[essential geometric morphism]
 
 ##Properties
 
-* If $\mathcal{E}$ is a [[Grothendieck topos]] then subtoposes correspond to [[Lawvere-Tierney topologies]] $j$ on $\mathcal{E}$,  to [[localization|localizations]] of $\mathcal{E}$ as well as to [[closure operator|universal closure operators]] on $\mathcal{E}$.
+### Sheaves, localization, closure and reflection
 
-* The inclusions induce an ordering on the subtoposes of $\mathcal{E}$ that makes them a [[lattice]] with a [[co-Heyting algebra]] structure i.e. the join operator has a left adjoint _subtraction_ operator. This corresponds to a dual [[Heyting algebra]] structure on the Lawvere-Tierney topologies.
+If $\mathcal{E}$ is a [[Grothendieck topos]] then subtoposes correspond to [[Lawvere-Tierney topologies]] $j$ on $\mathcal{E}$,  to [[localization|localizations]] of $\mathcal{E}$ as well as to [[closure operator|universal closure operators]] on $\mathcal{E}$.
 
-* The _atoms in the lattice of subtoposes of $\mathcal{E}$ are precisely the Boolean two-valued subtoposes_ of $\mathcal{E}$ (cf. Caramello (2009) prop.10.1 p.58).
+### For classifying toposes
 
-* $\mathcal{E}$ (as every Grothendieck topos over $Set$) is the [[classifying topos]] of some [[geometric theory]] $T$ and it can be shown that subtoposes of $\mathcal{E}$ correspond precisely to **deductively closed quotient theories** of $T$ (cf. Caramello (2009), thm.3.6 p.15) i.e. passage to a subtopos corresponds to adding further geometric axioms to $T$ - localizing geometrically amounts to theory refinement logically.
+$\mathcal{E}$ (as every Grothendieck topos over $Set$) is the [[classifying topos]] of some [[geometric theory]] $T$ and it can be shown that subtoposes of $\mathcal{E}$ correspond precisely to **deductively closed quotient theories** of $T$ ([Caramello (2009), thm. 3.6 p.15](#Caramello09)) i.e. passage to a subtopos corresponds to adding further geometric [[axioms]] to $T$ - localizing geometrically amounts to theory refinement logically.
+
+
+### The lattice of subtoposes
+ {#LatticeOfSubtoposes}
+
+The inclusions induce an ordering on the subtoposes of $\mathcal{E}$ that makes them a [[lattice]] with a [[co-Heyting algebra]] structure i.e. the [[join]] operator has a [[left adjoint]] _subtraction_ operator. This corresponds to a dual [[Heyting algebra]] structure on the [[Lawvere-Tierney topologies]].
+
++-- {: .num_prop #BooleantoposesAreAtoms}
+###### Proposition
+
+The _[[atoms]] in the lattice of subtoposes of $\mathcal{E}$ are precisely the 2-valued [[Boolean topos|Boolean]]  subtoposes_ of $\mathcal{E}$.
+
+=--
+
+([Caramello (2009), prop. 10.1 p.58](#Caramello09)).
+
+
 
 ##References
 
 * {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
-* [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1))
+* {#Caramello09} [[Olivia Caramello|O. Caramello]], _Lattices of theories_ ,  (2009) ([arXiv:0905.0299](http://arxiv.org/abs/0905.0299))
 
 * H. Forssell, _Subgroupoids and quotient theories_ , TAC **28** no.18 (2013) pp.541-551. ([pdf](http://www.emis.de/journals/TAC/volumes/28/18/28-18.pdf))
 
@@ -52,3 +69,9 @@ If this is an [[open geometric morphism]] (or an [[essential geometric morphism]
 
 [[!redirects open subtopos]]
 [[!redirects open subtoposes]]
+
+[[!redirects lattice of subtoposes]]
+[[!redirects lattices of subtoposes]]
+
+[[!redirects subtopos lattice]]
+[[!redirects subtopos lattices]]
