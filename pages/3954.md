@@ -50,6 +50,8 @@ Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C
 
 ## Related concepts
 
+* [[double negation topology]]
+
 * [[homotopy type theory FAQ]] -- [What is homotopy type theory? -- For set theorists](http://ncatlab.org/nlab/show/homotopy+type+theory+FAQ)
 
 ## References
@@ -83,14 +85,18 @@ Volume 32, Number 4 (2002), 1071-1100. ([Euclid](http://projecteuclid.org/euclid
 ### In terms of sheaves and classifying toposes
  {#ReferencesInTermsOfClassifyingToposes}
 
-Reviews of the interpretation of forcing as the passge to [[classifying toposes]] include
+Discussion of the interpretation of forcing as the passage to [[classifying toposes]] includes
+
+* {#MakkaiReyes77} [[Michael Makkai]], [[Gonzalo Reyes]], _First Order Categorical Logic_,  Lecture Notes in Mathematics Volume 611, Springer 1977
+
+* {#Skedrov84} Andrej Skedrov, _Forcing and classifying topoi_, Memoirs of the American Mathematical Society 1984; 93 pp
 
 * [[Andreas Blass]], Andrej Skedrov, _Classifying topoi and finite forcing_ ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/25225/0000666.pdf;jsessionid=8D65C672D70D8E24A5ACD366C1815921?sequence=1))
 
-* Andrej Skedrov, _Forcing and classifying topoi_
-
-For more see
-
 * {#Roberts15} [[David Roberts]], _Class forcing and topos theory_, talk at _[Topos at l'IHES](https://indico.math.cnrs.fr/event/747/)_ 2015 ([talk notes pdf](https://www.dropbox.com/s/vk1efw7lsvta80p/Roberts_IHES.pdf?dl=0),  [video recording](https://youtu.be/4AaSySq8-GQ))
+
+On [Skedrov 84](#Skedrov84), [[Peter Johnstone]] writes in his review ([The Journal of Symbolic Logic Vol. 50, No. 3 (Sep., 1985), pp. 852-85]( http://www.jstor.org/stable/2274338 )):
+
+>  Until recently, logicians could have been forgiven for treating topos theory as a closed book, whose applications to logic (however interesting they might appear from the outside) were accessible only to insiders well schooled in the mysteries of category theory $[...]$ $[$ Skedrov's book makes $]$ a very clear case for the advantages of the topos-theoretic approach to forcing namely, that it provides a clear conceptual view of what generic structures really are, as well as a workable mean $[...]$ Although categorical ideas and terminology are inevitably present, they are handled so skilfully that the categoriphobic reader need have few qualms about them $[...]$ Skedrov's work ought to go a long way towards demolishing the wall of incomprehension that has hitherto prevented many logicians from appreciating what topos theory has to offer their subject.
 
 [[!redirects forcing]]
