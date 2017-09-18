@@ -92,6 +92,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Brouwer's fixed point theorem]]
 
+* [[Jordan curve theorem]]
+
 
 ## Basic **[[homotopy theory]]**
 
