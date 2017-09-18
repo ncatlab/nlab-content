@@ -3651,8 +3651,8 @@ $$
 </div>
 
 This homeomorphism is given by "[[stereographic projection]]":
-One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] (example \ref{SubspaceTopology}) of $\mathbb{R}^{n+1}$ in the standard way (example \ref{SpheresAndDisks}), such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corresponding poles, then the homeomorphism is the 
-function which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to 
+One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] (example \ref{SubspaceTopology}) of $\mathbb{R}^{n+1}$ in the standard way (example \ref{SpheresAndDisks}), such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corresponding poles, then the homeomorphism is the
+function which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to
 the point $y$ where this line intersects the equatorial plane.
 
 In the canonical ambient [[coordinates]] this [[stereographic projection]] is given as follows:
@@ -8439,8 +8439,15 @@ There are various variants of the concept of compact spaces.
 ###### Definition
 **([[locally compact topological space]])**
 
-A [[topological space]] is called _[[locally compact topological space|locally compact]]_
-if every point has a [[neighbourhood]] which is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}).
+A [[topological space]] $X$ is called _[[locally compact topological space|locally compact]]_
+if for every point $x \in X$ and every [[open neighbourhood]] $U_x \supset \{x\}$
+there exists a smaller open neighbourhood $V_x \subset U_x$ whose [[topological closure]]
+is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) and still contained in $U$:
+
+$$
+  \{x\} \subset V_x \subset \underset{\text{compact}}{Cl(V_x)} \subset U_x
+  \,.
+$$
 
 =--
 
@@ -8451,7 +8458,7 @@ if every point has a [[neighbourhood]] which is [[compact topological space|comp
 On top of the terminology issue inherited from that of "compact" (remark \ref{CompactTerminology}),
 the definition of "locally compact" is subject to further ambiguity in the literature.
 There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace}.
-For [[Hausdorff topological spaces]] all thse definitions used
+For [[Hausdorff topological spaces]] all these definitions used
 happen to be equivalent, but in general they are not.
 The version we state in def. \ref{LocallyCompactSpace} is the one that makes prop. \ref{ExponentialObjectCompactOpen}
 below work _without_ requiring the Hausdorff property.
