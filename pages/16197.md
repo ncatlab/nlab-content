@@ -140,7 +140,7 @@ gravity_, Prog. Theor. Exp. Phys. 2013, 123B04 ([pdf](http://ptep.oxfordjournals
 * {#DFKRU14} [[Ioannis Dalianis]], [[Fotis Farakos]], [[Alex Kehagias]], A. Riotto, [[Rikard von Unge]], _Supersymmetry Breaking and Inflation from Higher Curvature Supergravity_ ([arXiv:1409.8299](http://arxiv.org/abs/1409.8299))
 
 
-* {#DalianisFarakos15} [[Ioannis Dalianis]], [[Fotis Farakos]], _On the initial conditions for inflation with plateau potentials: the $R + R^2$ (super)gravity case_ ([arXiv:1502.01246](http://arxiv.org/abs/1502.01246))
+* {#DalianisFarakos15} [[Ioannis Dalianis]], [[Fotis Farakos]], _On the initial conditions for inflation with plateau potentials: the $R + R^2$ (super)gravity case_, [Journal of Cosmology and Astroparticle Physics, Volume 2015, July 2015 ](http://iopscience.iop.org/article/10.1088/1475-7516/2015/07/044/meta), ([arXiv:1502.01246](http://arxiv.org/abs/1502.01246))
 
 ### Embedding into superstring theory
  {#ReferencesEmbeddingIntoStringTheory}
