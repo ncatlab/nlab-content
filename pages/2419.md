@@ -151,6 +151,8 @@ $$
 
 * generalization to functions on moduli of higher dimensional [[abelian varieties]]: [[Hilbert modular form]], [[Siegel modular forms]]
 
+* [[modularity theorem]]
+
 ## References
 
 A basic and handy reference is
