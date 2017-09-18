@@ -97,9 +97,9 @@ The general [[vacuum]] of [[type II superstring theory]] (including [[type I sup
 
 The [[target space]] data of an [[orientifold]] is a $\mathbb{Z}_2$-[[principal bundle]]/[[local system]], possibly singular (hence possibly on a [[smooth stack]]). On the other hand, the non-singular part of the [[elliptic fibration]] that defines the F-theory is a $SL_2(\mathbb{Z})$-[[local system]] (being the "homological invariant" of the [[elliptic fibration]]). 
 
-An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory data does induce the [[orientifold]] data along the [[subgroup]] inclusion $\mathbb{Z}_2 \hookrightarrow SL_2(\mathbb{Z})$. See at _[[Sen limit]]_.
+An argument due to ([Sen 96](#Sen96), [Sen 97a](#Sen97a)) says that the F-theory data does induce the [[orientifold]] data along the [[subgroup]] inclusion $\mathbb{Z}_2 \hookrightarrow SL_2(\mathbb{Z})$. See at _[[Sen limit]]_. 
 
-The degeneration locus of the elliptic fibration -- where the [[discriminant]] $\Delta$ vanishes and its fibers are the [[nodal curve]] -- is interpreted as that of [[D7-branes]] and [[O-planes|O7-planes]] (e.g. [Sen 97, (3)](#Sen97), [Blumenhagen 10, (11)](#Blumenhagen10)), see [below](#SingularLocusAndD7Branes).
+The degeneration locus of the elliptic fibration -- where the [[discriminant]] $\Delta$ vanishes and its fibers are the [[nodal curve]] -- is interpreted as that of [[D7-branes]] and [[O-planes|O7-planes]] ([Sen 97a, (3)](#Sen97a), [Blumenhagen 10, (11)](#Blumenhagen10)), exhibiting [[gauge enhancement]] [Sen 97b](#Sen97b) see [below](#SingularLocusAndD7Branes).
 
 
 Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
@@ -147,7 +147,7 @@ $$
 
 The [[poles]] $j\to \infty$ of the [[j-invariant]] correspond to the [[nodal curve]], and hence it is at these poles that the [[D7-branes]] are located. Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$) there are necessarily _24 D7-branes_.
 
-([Sen 96, page 5](#Sen96), see also [Morrison 04, sections 8 and 17](#Morrison04))
+([Sen 96, page 5](#Sen96) [Sen 97b](#Sen97b), see also [Morrison 04, sections 8 and 17](#Morrison04))
 
 
 
@@ -232,7 +232,11 @@ F-theory lifts of [[orientifold]] backgrounds were first identified in
 
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_, Nucl.Phys.B475:562-578,1996 ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
-* {#Sen97} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_, Nucl. Phys. Proc. Suppl. 68 (1998) 92 (Nucl. Phys. Proc. Suppl. 67 (1998) 81) ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+* {#Sen97a} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_, Nucl. Phys. Proc. Suppl. 68 (1998) 92 (Nucl. Phys. Proc. Suppl. 67 (1998) 81) ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+
+and the corresponding [[gauge enhancement]] in
+
+* {#Sen97b} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
 with more details including
 
