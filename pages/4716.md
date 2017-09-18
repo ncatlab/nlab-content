@@ -60,7 +60,7 @@ The mapping class group for 2-dimensional manifolds controls the [[moduli stack 
 
 The [[classifying spaces]] of mapping class groups for 2-[[dimension]]al [[manifolds]] may also be encoded combinatorially in the [[geometric realization]] of a [[category]] of [[ribbon graphs]]. See there for details. 
 
-One of the classical results is that the (oriented) mapping class group of the torus $\mathbb{R}^2/\mathbb{Z}^2 \cong (S^1)^2$ is isomorphic to $SL_2(\mathbb{Z}$ (more generally, $MCG(\mathbb{R}^n/\mathbb{Z}^n) \cong SL_n(\mathbb{Z})$). Certain generators called Dehn twists may be visualized as cutting a torus along a circle $\{a\} \times S^1$ (or $S^1 \times \{b\}$), thus producing a cylinder, then twisting one of the ends of the cylinder through $2\pi$ and reattaching the two ends. 
+One of the classical results is that the (oriented) mapping class group of the torus $\mathbb{R}^2/\mathbb{Z}^2 \cong (S^1)^2$ is isomorphic to the [[special linear group]] $SL_2(\mathbb{Z})$ (more generally, $MCG(\mathbb{R}^n/\mathbb{Z}^n) \cong SL_n(\mathbb{Z})$). Certain generators called Dehn twists may be visualized as cutting a torus along a circle $\{a\} \times S^1$ (or $S^1 \times \{b\}$), thus producing a cylinder, then twisting one of the ends of the cylinder through $2\pi$ and reattaching the two ends. 
 
 Another example is a 2-disk with $n$ punctures. The group of diffeomorphisms (fixing the boundary pointwise) modulo isotopy is the [[braid group]] $B_n$. 
 
