@@ -31,6 +31,10 @@ A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[
 
 * [[Bruce Westbury]] ([Westbury](#Westbury)) has proposed an extension to a $5 \times 5$-square with the new row and column indexed by the [[sextonion|sextonions]].
 
+## Related concepts
+
+* [[magic supergravity]]
+
 ## References
 
 Named after [[Hans Freudenthal]].
