@@ -2,7 +2,7 @@
 
 * [website](http://sites.google.com/site/branislavjurco/)
 
-* some articles listed at [spires](http://www.slac.stanford.edu/spires/find/hep/www?rawcmd=FIND+AU+JURCO%2C+b&FORMAT=www&SEQUENCE=)
+* some articles listed at [INSPIRE](http://inspirehep.net/search?p=FIND+AU+JURCO%2C+b&FORMAT=www&SEQUENCE=)
 
 Books:
 
