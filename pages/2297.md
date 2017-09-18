@@ -1,4 +1,11 @@
-* [homepage](http://www.ms.unimelb.edu.au/~nganter), [uni personel data](http://www.ms.unimelb.edu.au/Personnel/profile.php?PC_id=662)
+* [Homepage](http://www.ms.unimelb.edu.au/~nganter)
+* [School staff page](http://www.ms.unimelb.edu.au/Personnel/profile.php?PC_id=662)
+
+## Research program
+
+* (with [[Matthew Ando]]), _Subtle symmetries and the refined Monster_, ([pdf](http://www.ms.unimelb.edu.au/~nganter@unimelb/research_program_ganter.pdf))
+
+## Publications
 * _Stringy power operations in Tate K-theory_, [math.AT/0701565](http://arxiv.org/abs/math/0701565) 
 * _Inner products of 2-representations_, [http://arxiv.org/abs/1110.1711](http://arxiv.org/abs/1110.1711)
 * _Hecke operators in equivariant elliptic cohomology and generalized moonshine_, [arxiv/0706.2898](http://arxiv.org/abs/0706.2898) 
