@@ -105,6 +105,13 @@ is _regular_ if
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The regularity condition in def. \ref{Regularity} excludes categories that are "obscenely large" in that the lengths of Jordan-Holder series grow super-exponentially. See [This MO comment](http://mathoverflow.net/questions/4427/what-is-the-conceptual-significance-of-supercommutativity#comment5298_4430).
+
+=--
+
 ### Supergroups
 
 +-- {: .num_defn #Supergroup}
