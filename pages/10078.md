@@ -57,8 +57,9 @@ Then it was related to actual worldline quantum field theory in
  {#Strassler92}
 
 
-* [[Matthew Strassler]], _The Bern-Kosower Rules and Their Relation to Quantum Field Theory_, PhD thesis, Stanford 1993 ([spires](http://inspirehep.net/record/364079?ln=de))
- {#Strassler93}
+* {#Strassler93} [[Matthew Strassler]], _The Bern-Kosower Rules and Their Relation to Quantum Field Theory_, PhD thesis, Stanford 1993 ([spires](http://inspirehep.net/record/364079?ln=de))
+ 
+
 
 
 Reviewes include
@@ -68,6 +69,11 @@ Reviewes include
 and a list of more literature is at
 
 * The Tangent Bundle, _[QFT Worldline formalism](http://www.physics.thetangentbundle.net/wiki/Quantum_field_theory/worldline_formalism)_
+
+Exposition with an eye towards [[quantum gravity]] is
+
+* {#Witten11} [[Edward Witten]], from 30:40 on in _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
+
 
 Discussion specifically for [[fermions]] is in 
 
