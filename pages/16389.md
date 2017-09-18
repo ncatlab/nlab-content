@@ -20,7 +20,7 @@ What is called _light-cone gauge quantization_ is one approach to the [[quantiza
 
 This typically fixes most of the available gauge freedom, and the strategy is then to apply [[quantization]] to what remains. For more on this general idea see at _[[quantization commutes with reduction]]_.
 
-Often this is considered for [[target space]] being [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ and with $X^+ \coloneqq X^0 - X^1$ denoting one of its canonical lightlike [[coordinates]]. If $\tau$ denotes similarly a lightlike coordinate function on the [[worldvolume]], then the condition of light-cone gaueg reads
+Often this is considered for [[target space]] being [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ and with $X^+ \coloneqq X^0 - X^1$ denoting one of its canonical lightlike [[coordinates]]. If $\tau$ denotes similarly a lightlike coordinate function on the [[worldvolume]], then the condition of light-cone gauge reads
 
 $$
   X^+ = p^+ \tau
