@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a sequential [[spectrum]] $E$, in the form of a sequence of component spaces $E_n$ with structure maps $\Sigma E_n \to E_{n+1}$, then for $k \in \mathbb{Z}$ the $n$th _homotopy group_ of $E$ is the [[colimit]]
+
+$$
+  \pi_n(E) 
+    \coloneqq 
+  \underset{\longrightarrow}{\lim}_k
+  \pi_{n+k}(E_k)
+$$
+
+over the [[homotopy groups]] of the component spaces.
+
+## Related concepts
+
+* [[homotopy group]]
+
+* [[equivariant homotopy group]]
+
+## Examples
+
+* The homotopy groups of a [[suspension spectrum]] $\Sigma^\infty X$ of a [[pointed topological space]] $X$ are the _[[stable homotopy groups]]_ of $X$.
+
+* In particular the homotopy groups of the [[sphere spectrum]] are the _[[stable homotopy groups of spheres]]_.
+
+* [[Thom's theorem]] says that the homotopy groups of the [[Thom spectrum]] $M O$ form the (unoriented) [[cobordism ring]].
+
+## References
+
+* [[Frank Adams]], part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
+
+[[!redirects homotopy groups of a spectrum]]
+
+[[!redirects homotopy groups of spectra]]
+
+[[!redirects stable homotopy group]]
+[[!redirects stable homotopy groups]]
+
