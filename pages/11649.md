@@ -66,3 +66,5 @@ Discussion of the [[duality between F-theory and heterotic string theory]] for c
 [[!redirects F-theory on CY4]]
 
 [[!redirects F-theory on CY4-manifolds]]
+
+[[!redirects F-theory on CY4-folds]]
