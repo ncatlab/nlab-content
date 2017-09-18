@@ -57,6 +57,8 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 * the inclusion of groups into monoids, where the right adjoint takes a monoid to its group of units.
 
+* [[Lie integration]], which constructs a simply connected Lie group from a finite-dimensional real Lie algebra. The coreflector is Lie differentiation. 
+
 ## References
 
 * [[Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series 189
