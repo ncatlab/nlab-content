@@ -27,6 +27,45 @@ The Extreme Value Theorem states that such a range must also have an [[infimum]]
 
 ## Statements
 
+The classical statement is this:
+
++-- {: .num_example }
+###### Example
+**(classical extreme value theorem)**
+
+Let 
+
+$$
+  f \;\colon\; [a,b] \longrightarrow \mathbb{R}
+$$
+
+be a [[continuous function]] form a [[bounded set|bounded]] [[closed interval]] ($a \lt b \in \mathbb{R}$)
+regarded as a [[topological subspace]] of [[real numbers]] to the [[real numbers]], with the
+latter regarded with their [[Euclidean space|Euclidean]] [[metric topology]].
+
+Then $f$ attains its [[maximum]] and [[minimum]]: there exists $x_{max}, x_{min} \in [a,b]$ such that 
+for all $x \in [a,b]$ we have
+
+$$
+  f(x_{min}) \leq f(x) \leq f(x_{max})
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since [[continuous images of compact spaces are compact]]  
+the image $f([a,b]) \subset \mathbb{R}$ is a [[compact topological space|compact]] [[subspace]]. 
+By the [[Heine-Borel theorem]] this is a [[bounded set|bounded]] [[closed subset]]. Hence $f([a,b])$ has a [[maximum]] and a [[minimum]]. 
+
+=--
+
+More generally:
+
+
 If $I$ is a [[compact space]] (such as a closed bounded [[interval]] in the [[real line]] and especially the [[unit interval]] $[{0,1}]$), and if $f$ is an [[upper semicontinuous function]] from $I$ to the [[upper real numbers]] $[{-\infty,\infty}[$, then the [[range]] of $f$ is not only bounded above and not only has a finite [[supremum]], but it actually has a [[maximum]] value (unless $I$ is [[empty space|empty]]).
 
 Similarly, and consequently (by replacing $f$ with $-f$), if $f$ is [[lower semicontinuous function|lower semicontinuous]] to the [[lower real numbers]] $]{-\infty,\infty}]$, then $\ran f$ is bounded below by a finite [[infimum]] which is its [[minimum]] value.  Consequently, if $f$ is [[continuous function|continuous]] to the [[real numbers]] $]{-\infty,\infty}[$, then $\ran f$ is [[bounded subset|bounded]] and has both a maximum and a minimum.)
