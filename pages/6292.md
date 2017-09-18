@@ -39,4 +39,7 @@ and
 
 proved that on compact [[Riemannian manifolds]] it coincides with [[analytic torsion]].
 
+Relation to the [[volume]] is discussed in
+
+* Pere Menal-Ferrer, Joan Porti, _Higher dimensional Reidemeister torsion invariants for cusped hyperbolic 3-manifolds_ ([arXiv:1110.3718](http://arxiv.org/abs/1110.3718))
 
