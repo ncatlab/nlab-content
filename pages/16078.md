@@ -20,7 +20,7 @@
 The [[integrability of G-structures]] exists precisely if a certain [[torsion]] [[obstruction]] vanishes. 
 
 
-The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_). ([Lott 90, p.10](#Lott90), [Joysce 00, section 2.6](#Joyce00)).
+The _torsion of a $G$-structure_ is defined to be the space in which the invariant part of the [[torsion of a Cartan connection]] takes values, for any [[Cartan connection]] compatible with the $G$-structure (see at _[Cartan connection -- Examples -- G-Structure](Cartan%20connection#ExampleGStructures)_). ([Sternberg 64, from p. 317 on](#Sternberg64), [Lott 90, p.10](#Lott90), [Joysce 00, section 2.6](#Joyce00)).
 
 Let $V$ be the linear space on which $G$ acts in this definition via [[Cartan connections]]. Then an $(G \to V \rtimes G)$-Cartan connection identifies each [[tangent space]] of the base manifold $X$ with $V$, $T_x X \simeq V$. Moreover, since $X$ is a [[manifold]], there is also an [[open neighbourhood]] $x \in U_x \subset X$ which is [[diffeomorphism|diffeomorphic]] to an open neighbourhood in $V$. But this identification may not preserve the relevant structure. Torsion is the obstruction to the existence of such neighbourhoods around each point which may be compatibly identified with open subsets of $V$.
 
@@ -33,6 +33,10 @@ It is in this sense that torsion manifestly obstructs "integrability" as it is o
 ## References
 
 The concept goes back to the work of [[Eli Cartan]] ([[Cartan geometry]]).
+
+Textbook accounts include
+
+* {#Sternberg64} [[Shlomo Sternberg]], section VII of _Lectures on differential geometry_, Prentice Hall 1964; Russian transl. Mir 1970
 
 Discussion with an eye towards [[torsion constraints in supergravity]] is in
 
