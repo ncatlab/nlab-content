@@ -20,7 +20,9 @@ Recall that a __[[binary digit]]__ is either $0$ or $1$; the [[set]] (or [[discr
 A __point__ in Cantor space is an [[infinite sequence]] of binary digits.  Accordingly, Cantor space may be denoted $\mathbb{B}^{\mathbb{N}}$, since its set of points is a [[function set]].
 
 An __open__ in Cantor space is a collection $G$ of [[list|finite sequences]] of binary digits (that is a [[subset]] of the [[free monoid]] $\mathbb{B}^*$) such that:
+
 *  If $u \in G$ and $v$ is an extension of $u$ (that is $u$ with possibly additional digits added to the end), then $v \in G$;
+
 *  If $u:0 \in G$ and $u:1 \in G$ (where $u:i$ is the immediate extension of $u$ by the digit $i$), then $u \in G$.
 
 A point $\alpha$ __belongs__ to an open $G$ if, for some $u$ in $G$, $\alpha$ is an extension of $u$.
@@ -46,12 +48,15 @@ One then checks that this [[function]] is in fact an embedding.
 From the localic perspective, a [[continuous map]] is given by a [[homomorphism]] of frames in the opposite direction.  Given an open $\sim$ in $\mathbb{R}$ (as a [[binary relation]] on [[rational numbers]], as described at [[locale of real numbers]]), this is mapped to the open $G$ in Cantor space such that $u \in G$ if and only if
 $$ \sum_{i=1}^{len(u)} \frac { 2 u_i } { 3^i } \sim \sum_{i=1}^{len(u)} \frac { 2 u_i } { 3^i } + \frac 1 { 3^{-len(u)} } .$$
 One then checks that this is an embedding.
+
 +-- {: .query}
 I should check this some day; for the moment, I am taking it on faith.  ---Toby
 =--
 
 In either case, the idea is:
+
 *  A point of Cantor space corresponds to a number written in base $3$ with infinitely many digits, using only the digits $0$ and $2$; while
+
 *  An open corresponds to a union of intervals, each of which is given by approximating a number in base $3$ to a finite number of digits, using only the digits $0$ and $2$.
 
 One sometimes speaks of the __Cantor set__ to stress that one is considering Cantor space as a subspace of the real line.
@@ -65,12 +70,18 @@ Cantor space, especially in its guise as a subspace of the real line, is quite f
 
 *  Cantor space is [[connected space|totally disconnected]]. 
 
-*  Every compact [[metric space]] is (as a topological space) a [[quotient space]] of Cantor space.
+*  Cantor space is [[metric space|metrizable]], and every compact metrizable space is a [[quotient space]] of Cantor space.
 
-*  As a subspace of $\mathbb{R}$, the Cantor set is perfect and [[uncountable set|uncountable]] but of [[Lebesgue measure|Lebesgue]] [[null set|measure zero]].
+*  As a subspace of $\mathbb{R}$, the Cantor set is [[perfect space|perfect]] and [[uncountable set|uncountable]] but of [[Lebesgue measure|Lebesgue]] [[null set|measure zero]].
 
-*  The Cantor set is a precisely self-similar [[fractal]] with [[Hausdorff dimension]] $\log_3 2 \approx 0.631$.
+*  The Cantor set is a precisely self-similar [[fractal]] with [[Hausdorff dimension]] $\log_3 2 \approx 0.631$. 
 
++-- {: .num_theorem} 
+###### Theorem 
+A space is [[homeomorphism|homeomorphic]] to Cantor space if and only if it is nonempty, compact, totally disconnected, metrizable, and perfect. 
+=-- 
+
+This result is sometimes called Brouwer's theorem. It can be seen from the perspective of [[Stone duality]], where the dual result is that any two [[countable set|countable]] [[atom|atomless]] [[Boolean algebras]] are [[isomorphism|isomorphic]]; this dual result can be proven by a [[back-and-forth argument]]. 
 
 [[!redirects Cantor space]]
 [[!redirects Cantor set]]
