@@ -1600,8 +1600,24 @@ $$
 
 ##### Stability
 
-
 We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation induced an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
+
++-- {: .num_defn #StableModelCategory}
+###### Definition
+
+A [[pointed category|pointed]] [[model category]] $\mathcal{C}$ is called a **[[stable model category]]** if the canonically induced [[reduced suspension]] and [[loop space object]]-[[functors]] ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory))is an [[equivalence of categories]]
+
+$$
+  (\Sigma \dashv \Omega)
+  \;\colon\;
+  Ho(\mathcal{C})
+   \stackrel{\overset{\Sigma}{\longleftarrow}}{\underoverset{\Omega}{\simeq}{\longrightarrow}}
+  Ho(\mathcal{C})
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_lemma #FakeSuspensionInducesEquivalenceOfHomotopyCategories}
 ###### Lemma
@@ -1631,7 +1647,7 @@ and remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}, th
 +-- {: .num_theorem #StableModelStructureOnSequentiaSpectraIsStableModelCategory}
 ###### Theorem
 
-The stable model structure $SeqSpec(Top)_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} indeed gives a [[stable model category]] in that the canonically induced [[reduced suspension]] functor on its [[homotopy category of a model category|homotopy category]] is an [[equivalence of categories]]
+The stable model structure $SeqSpec(Top)_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} indeed gives a [[stable model category]] (def. \ref{StableModelCategory}) in that the canonically induced [[reduced suspension]] functor ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category of a model category|homotopy category]] is an [[equivalence of categories]]
 
 $$
   \Sigma 
@@ -1651,6 +1667,461 @@ As in remark \ref{StandardSuspensionIsCorrectSuspension}, on [[CW-spectra]] the 
 
 =--
 
+##### Triangulated category structure
+
+The [[homotopy category of a model category|homotopy category]} of a [[stable model category]], def. \ref{StableModelCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) which happen to coincide in stable model category.
+
++-- {: .num_defn #AdditiveCategory}
+###### Definition
+
+An **[[additive category]]** is an [[Ab]]-[[enriched category]] (hence a [[category]] equipped with the structure of an [[abelian group]] on each [[hom-set]] such that [[composition]] is [[bilinear map|bilinear]]) and such that it has [[finite colimit|finite]] [[coproducts]].
+
+=--
+
++-- {: .num_remark #BiproductsInAdditiveCategories}
+###### Remark
+
+The first condition in def. \ref{AdditiveCategory} means in perticular that there are [[zero morphisms]] and with the second condition this means that the empty coproduct is a [[zero object]]. Since the zero morphisms allow to form the diagrams
+
+$$
+  \array{  
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{i_X}} && {}^{\mathllap{i_X}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow 
+     && X \sqcup Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
+    \\
+    X && && Y
+  }
+  \,.
+$$
+
+it follows that with the [[coproduct]] $X\sqcup Y$ also the [[product]] $X \times Y$ exists and is canonically identified with the coproduct, and in fact the above diagram is equivalent to
+
+$$
+  \array{  
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow && X \times Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{p_X}} && {}_{\mathllap{p_Y}}\searrow
+    \\
+    X && && Y
+  }
+  \,.
+$$
+
+One calls this a [[biproduct]] and writes
+
+$$
+  X \oplus Y \simeq  X \sqcup Y \simeq X \times Y
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #AdditiveFunctor}
+###### Definition
+
+A [[functor]] $F \colon  \mathcal{A} \to \mathcal{B}$ between [[additive categories]], def. \ref{AdditiveCategory} is called an **[[additive functor]]** if it preserves finite [[biproducts]] (remark \ref{BiproductsInAdditiveCategories}). That is, 
+
+1. $F$ maps a [[zero object]] to a zero object, $F(0) \simeq 0 \in \mathcal{B}$; 
+
+1. given any two [[objects]] $X, Y \in \mathcal{A}$, there is an [[isomorphism]] $F(X \oplus Y) \cong F(x) \oplus F(y)$, and this respects the inclusion and projection maps of the [[direct sum]]:
+
+$$
+\array { X &          &            &          & Y \\
+           & {}_{\mathllap{i_X}}\searrow &            & \swarrow_{\mathrlap{i_Y}} \\
+           &          & X \oplus Y \\
+           & {}^{\mathllap{p_X}}\swarrow &            & \searrow^{\mathrlap{p_Y}} \\
+         x &          &            &          & y }
+\quad\quad\stackrel{F}{\mapsto}\quad\quad
+\array { F(X) &          &                                      &          & F(Y) \\
+              & {}_{\mathllap{i_{F(X)}}}\searrow &   & \swarrow_{\mathrlap{i_{F(Y)}}} \\
+              &          & F(X \oplus Y) \cong F(X) \oplus F(Y) \\
+              & {}^{\mathllap{p_{F(X)}}}\swarrow &                                      & \searrow^{\mathrlap{p_{F(Y)}}} \\
+         F(X) &          &                                      &          & F(Y) }
+$$
+
+=--
+
+
+
++-- {: .num_defn #CategoryWithCofiberSequences}
+###### Definition
+
+A **[[triangulated category]]** is
+
+1. an [[additive category]] $Ho$ (def. \ref{AdditiveCategory});
+
+1. an [[additive functor]] (def. \ref{AdditiveFunctor}), called the **suspension functor** or **[[shift functor]]**
+
+   $$
+     \Sigma \;\colon\; Ho \overset{\simeq}{\longrightarrow} Ho
+   $$
+
+   which is required to be an [[equivalence of categories]];
+
+1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element is of the form
+
+   $$
+     A \overset{}{\longrightarrow} B \overset{}{\longrightarrow} C \overset{}{\longrightarrow} \Sigma A
+   $$
+
+   which is also denoted as
+
+   $$
+     \array{
+        A && \overset{f}{\longrightarrow} && B
+        \\
+        & {}_{\mathllap{[1]}}\nwarrow && \swarrow_{\mathrlap{}}
+        \\
+        && B/A
+     }
+   $$
+
+   (whence the name);
+
+such that the following conditions hold:
+
+* **T0** If $(f,g,h)$ is a distinguished triangle and there is a [[commuting diagram]] in $Ho$ of the form
+
+  $$
+    \array{    
+     A &\overset{}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     \\
+     \downarrow^{\mathrlap{\in Iso}} && \downarrow^{\mathrlap{\in Iso}} 
+     && \downarrow^{\mathrlap{\in Iso}}
+     && \downarrow^{\mathrlap{\in Iso}}
+     \\
+     A' &\overset{f'}{\longrightarrow}& B' &\overset{g'}{\longrightarrow}& B'/A' &\overset{h'}{\longrightarrow}& \Sigma A'      
+     
+    }
+  $$
+
+  then $(f',g',h')$ is also a distinguished triangle;
+
+
+* **T1** For every object $X \in Ho$ then $(0,id_X,0)$ is a distinguished triangle
+
+  $$
+    0 \longrightarrow X \overset{id_X}{\longrightarrow} X 
+    \overset{}{\longrightarrow} 0
+    \,;
+  $$
+
+
+* **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$ and conversely; hence if
+
+  $$
+    A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
+  $$
+
+  is, then so is
+
+  $$
+    B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A \overset{-\Sigma f}{\longrightarrow} \Sigma B
+  $$
+
+  and conversely.
+
+* **T3** Given a [[commuting diagram]] in $Ho$ of the form
+
+  $$
+    \array{    
+     A &\overset{}{\longrightarrow}& 
+     B &\overset{}{\longrightarrow}& 
+     B/A &\overset{}{\longrightarrow}& \Sigma A      
+     \\
+     \downarrow^{\mathrlap{\phi_A}}
+     && \downarrow^{\mathrlap{\phi_B}} 
+     && 
+     && 
+     \\
+     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'           
+    }
+  $$
+
+  where the top and bottom are distinguished triangles, then there exists a morphism $B/A \to B'/A'$ such as to make the completed diagram commute
+  
+  $$
+    \array{    
+     A &\overset{}{\longrightarrow}& B &\overset{}{\longrightarrow}& B/A &\overset{}{\longrightarrow}& \Sigma A      
+     \\
+     \downarrow^{\mathrlap{\phi_A}}
+     && \downarrow^{\mathrlap{\phi_B}} 
+     && \downarrow^{\mathrlap{\exists}}
+     && \downarrow^{\mathrlap{\Sigma \phi_A}}
+     \\
+     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'           
+    }
+  $$
+
+* **T4** 
+
+=--
+
+##### Long fiber-cofiber sequences
+
+
++-- {: .num_lemma #CompositesInADistinguishedTriangleAreZero}
+###### Lemma
+
+For $(Ho,\Sigma, CofSeq)$ a [[triangulated category]], def. \ref{CategoryWithCofiberSequences}, and 
+
+$$
+  A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
+$$
+
+a distinguished triangle, then 
+
+$$
+  g\circ f = 0
+$$
+
+is the [[zero morphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[commuting diagram]]
+
+$$
+  \array{
+    A 
+      &\overset{id}{\longrightarrow}& 
+    A 
+      &\overset{}{\longrightarrow}&
+    0
+      &\overset{}{\longrightarrow}&
+    \Sigma A
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+    \\
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A    
+  }
+  \,.
+$$
+
+Observe that the top part is a distinguished triangle by axioms T1 and T2 in def. \ref{CategoryWithCofiberSequences}. Hence by T3 there is an extension to 
+a commuting diagram of the form
+
+$$
+  \array{
+    A 
+      &\overset{id}{\longrightarrow}& 
+    A 
+      &\overset{}{\longrightarrow}&
+    0
+      &\overset{}{\longrightarrow}&
+    \Sigma A
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+    && \downarrow
+    && \downarrow^{\mathrlap{\Sigma f}}
+    \\
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A    
+  }
+  \,.
+$$
+
+Now the commutativity of the middle square proves the claim.
+
+=--
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(Ho,\Sigma, CofSeq)$ be a [[triangulated category]], def. \ref{CategoryWithCofiberSequences}, with [[hom-functor]] denoted by $[-,-]_\ast \colon Ho^{op}\times Ho \to Ab$. For $X\in Ho$ any object, and for $D\in CofSeq$ any distinguished triangle
+
+$$
+  D = (A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A)
+$$
+
+then the sequences of [[abelian groups]]
+
+1. (long cofiber sequence) 
+    
+   $$
+    [\Sigma A, X]_\ast
+      \overset{[h,X]_\ast}{\longrightarrow}
+    [B/A,X]_\ast
+      \overset{[g,X]_\ast}{\longrightarrow}
+    [B,X]_\ast
+      \overset{[f,X]_\ast}{\longrightarrow}
+    [A,X]_\ast
+   $$
+
+1. (long fiber sequence)
+
+   $$
+     [X,A]_\ast
+       \overset{[X,f]_\ast}{\longrightarrow}
+     [X,B]_\ast
+       \overset{[X,g]_\ast}{\longrightarrow}
+     [X,B/A]_\ast
+       \overset{[X,h]_\ast}{\longrightarrow}
+     [X,\Sigma A]_\ast 
+   $$
+
+are [[long exact sequences]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first case:
+
+Since $g \circ f = 0$ by lemma \ref{CompositesInADistinguishedTriangleAreZero}, we have an inclusion $im([g,X]_\ast) \subset ker([f,X]_\ast)$. Hence it is sufficient to show that if $\psi \colon B \to X$ is in the kernel of $[f,X]_\ast$ in that $\psi \circ f = 0$, then there is $\phi \colon C \to X$ with $\phi \circ g = \psi$. To that end, consider the commuting diagram
+
+$$
+  \array{
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A
+    \\
+    \downarrow && {}^{\mathllap{\psi}}\downarrow
+    \\
+    0 
+      &\overset{}{\longrightarrow}&
+    X
+      &\overset{id}{\longrightarrow}&
+    X
+      &\overset{}{\longrightarrow}&
+    0
+  }
+  \,,
+$$
+
+where the commutativity of the left square exhibits our assumption.
+
+The top part of this diagram is a distinguished triangle by assumption, and the bottom part is by condition $T1$ in def. \ref{CategoryWithCofiberSequences}. Hence by condition T3 there exists $\phi$ fitting into a commuting diagram of the form
+
+$$
+  \array{
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A
+    \\
+    \downarrow && {}^{\mathllap{\psi}}\downarrow && \downarrow^{\mathrlap{\phi}} && \downarrow
+    \\
+    0 
+      &\overset{}{\longrightarrow}&
+    X
+      &\overset{id}{\longrightarrow}&
+    X
+      &\overset{}{\longrightarrow}&
+    0
+  }
+  \,.
+$$
+
+Here the commutativity of the middle square exhibits the desired conclusion.
+
+This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished traingle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[C,X]_\ast$.
+
+Regarding the second case: 
+
+Again, from lemma \ref{CompositesInADistinguishedTriangleAreZero} it is immediate that 
+
+$$
+  im([X,f]_\ast) \subset ker([X,g]_\ast)
+$$
+
+so that we need to show that for $\psi \colon X \to B$ in the kernel of $[X,g]_\ast$, hence such that $g\circ \psi = 0$, then there exists $\phi \colon X \to A$ with $f \circ \phi = \psi$.
+
+To that end, consider the commuting diagram
+
+$$
+  \array{
+    X &\longrightarrow& 0 &\longrightarrow& \Sigma X &\overset{- id}{\longrightarrow}& \Sigma X
+    \\
+    \downarrow^{\mathrlap{\psi}} && \downarrow
+    \\
+     B 
+       &\overset{g}{\longrightarrow}&
+     B/A
+       &\overset{h}{\longrightarrow}&
+     \Sigma A
+       &\overset{-\Sigma f}{\longrightarrow}&
+     \Sigma B
+  }
+  \,,
+$$
+
+where the commutativity of the left square exhibits our assumption.
+
+Now the top part of this diagram is a distinguished triangle by conditions T1 and T2 in def. \ref{CategoryWithCofiberSequences}, while the bottom part is a distinguished triangle by applying T2 to the given distinguished triangle. Hence by T3 there exists $\tilde \phi \colon \Sigma X \to \Sigma A$ such as to extend to a commuting diagram of the form
+
+$$
+  \array{
+    X &\longrightarrow& 0 &\longrightarrow& \Sigma X &\overset{- id}{\longrightarrow}& \Sigma X
+    \\
+    \downarrow^{\mathrlap{\psi}} 
+      && 
+    \downarrow
+      &&
+    \downarrow^{\mathrlap{\tilde \phi}}
+      &&
+    \downarrow^{\mathrlap{\Sigma \psi}}
+    \\
+     B 
+       &\overset{g}{\longrightarrow}&
+     B/A
+       &\overset{h}{\longrightarrow}&
+     \Sigma A
+       &\overset{-\Sigma f}{\longrightarrow}&
+     \Sigma B
+  }
+  \,,
+$$
+
+At this point we appeal to the condition in def. \ref{CategoryWithCofiberSequences} that $\Sigma \colon Ho \to Ho$ is an [[equivalence of categories]], so that in particular it is a [[fully faithful functor]]. It being a [[full functor]] implies that there exists $\phi \colon X \to A$ with $\tilde \phi = \Sigma \phi$. It being faithful then implies that the whole commuting square on the right is the image under $\Sigma$ of a commuting square
+
+$$
+  \array{
+    X &\overset{-id}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\phi}}\downarrow && \downarrow^{\mathrlap{\psi}}
+    \\
+    A &\underset{-f}{\longrightarrow}& B
+  }
+  \,.
+$$
+
+This exhibits the claim to be shown.
+
+=--
 
 
 
