@@ -1759,6 +1759,23 @@ That the limits and colimits exist and are computed objectwise follows via prop.
 
 =--
 
++-- {: .num_example #InitialSequentialSpectrum}
+###### Example
+
+The [[initial object]] and the [[terminal object]] in $SeqSpec(Top_{cg})$ agree and are both given by the spectum constant on the point, which is also the [[suspension spectrum]] $\Sigma^\infty \ast$ (def. \ref{SuspensionSpectrum}) of the point). We will denote this spectrum $\ast$ or $0$ (since it is hence a [[zero object]] ):
+
+$$
+  \ast_n = \ast
+$$
+
+$$
+  S^1 \wedge \ast_n \simeq \ast \overset{\simeq}{\to} \ast
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_example #WedgeSumOfSpectra}
 ###### Example
 
@@ -2548,11 +2565,13 @@ Further [below](#StableModelStructureOnSequentialSpectra) we pass to the stable 
 +-- {: .num_defn #CWSpectrum}
 ###### Definition
 
-A **[[CW-spectrum]]** is a [[sequential spectrum]] $X_\bullet\in SeqSpec(Top_{cg})$, def. \ref{SequentialSpectra}, such that
+A [[sequential spectrum]] $X$ (def. \ref{SequentialSpectra}) is called a **[[cell spectrum]]** if 
 
-1. all component spaces $X_n$ are [[CW-complexes]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)), 
+1. all component spaces $X_n$ are [[cell complexes]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex));
 
-1. all structure maps $\Sigma X_n \longrightarrow X_{n+1}$ are inclusions of subcomplexes 
+1. all structure maps $\sigma_n \colon S^1 \wedge X_n \longrightarrow X_{n+1}$ are [[relative cell complex]] inclusions.
+
+A **[[CW-spectrum]]** is a [[cell spectrum]] such that all component spaces $X_n$ are [[CW-complexes]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)).
 
 =--
 
@@ -2572,18 +2591,27 @@ The class of CW-spectra is closed under the following operations:
 +-- {: .num_prop #CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}
 ###### Proposition
 
-A [[sequential spectrum]] $X \in SeqSpec(Top_{cg})$ is cofibrant in the strict model structure $SeqSpec(Top_{cg})_{strict}$ of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)). In particular [[CW-spectra]], def. \ref{CWSpectrum}, are cofibrant in $SeqSpec(Top)_{strict}$.
+A [[sequential spectrum]] $X \in SeqSpec(Top_{cg})$ is cofibrant in the strict model structure $SeqSpec(Top_{cg})_{strict}$ of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} precisely if
+
+1. $X_0$ is cofibrant;
+
+1. each structure map $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ is a cofibration
+
+in the [[classical model structure on pointed topological spaces|classical model structure]] $(Top^{\ast/}_{cg})_{Quillen}$ on [[pointed topological space|pointed]] [[compactly generated topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)).
+
+In particular [[cell spectra]] and specifically [[CW-spectra]] (def. \ref{CWSpectrum}) are cofibrant.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
+The [[initial object]] in $SeqSpec(Top_{cg})_{strict}$ is the spectrum $\ast$ that is constant on the point (example \ref{InitialSequentialSpectrum}).
 A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} if 
 
-1. The object $X_0$ is a classical cofibrant, hence a retract of a [[cell complex]];
+1. the morphism $\ast \to X_0$ is a classical cofibration, hence if the object $X_0$ is a classical cofibrant object, hence a [[retract]] of a [[cell complex]];
 
-1. The morphisms
+1. the morphisms
 
    $$
      \ast_{n+1}\underset{S^1 \wedge \ast_n}{\sqcup} S^1 \wedge X_n
@@ -2591,7 +2619,7 @@ A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphis
      X_{n+1}
    $$
 
-   are classical cofibrations. But in this case the [[pushout]] reduces to just its second summand, and so this is now equivalent to
+   are classical cofibrations. But since $S^1 \wedge \ast \simeq \ast \overset{\simeq}{\to} \ast$ is an isomorphism in this case the [[pushout]] reduces to just its second summand, and so this is now equivalent to
 
    $$
      S^1 \wedge X_n \longrightarrow X_{n+1}
@@ -2644,7 +2672,7 @@ Now by the assumption that $X$ is a [[CW-spectrum]], each $X_{n}$ is a CW-comple
 
 We now turn to discussion of [[CW-approximation]] of sequential spectra. First recall the relative version of CW-approximation for topological spaces.
 
-For the following, recall that a [[continuous function]] $f \colon X \to Y$ between [[topological spaces]] is called an **[[n-connected map]]** if the unduced morphism on [[homotopy groups]] $\pi_\bullet(f)\colon \pi_\bullet(X,x) \to \pi_\bullet(Y,f(x))$ is
+For the following, recall that a [[continuous function]] $f \colon X \to Y$ between [[topological spaces]] is called an **[[n-connected map]]** if the induced morphism on [[homotopy groups]] $\pi_\bullet(f)\colon \pi_\bullet(X,x) \to \pi_\bullet(Y,f(x))$ is
 
 1. an [[isomorphism]] in degree $\lt n$;
 
@@ -2755,7 +2783,7 @@ which is degreewise a [[weak homotopy equivalence]], hence a weak equivalence in
 +-- {: .proof}
 ###### Proof
 
-First let $\hat X_0 \longrightarrow X_0$ be a CW-approximation of the component space in degree 0, via prop. \ref{CWApproximationForContinuousFunctions}. Then proceed by [[induction]]: suppose that for $n \in \mathbb{N}$ a [[CW-approximation]] $\phi_{k \leq n} \colon  \hat X_{k \leq n} \to X_{k \leq n}$ has been found such that all the structure maps are respected. Consider then the continuous function
+First let $\hat X_0 \longrightarrow X_0$ be a CW-approximation of the component space in degree 0, via prop. \ref{CWApproximationForContinuousFunctions}. Then proceed by [[induction]]: suppose that for $n \in \mathbb{N}$ a [[CW-approximation]] $\phi_{k \leq n} \colon  \hat X_{k \leq n} \to X_{k \leq n}$ has been found such that all the structure maps in degrees $\lt n$ are respected. Consider then the composite continuous function
 
 $$
   S^1 \wedge \hat X_n 
@@ -2777,7 +2805,7 @@ $$
   \,.
 $$
 
-Hence we have obtained the next stage of the CW-approximation. The respect for the structure maps is just this factorization property:
+Hence we have obtained the next stage $\hat X_{n+1}$ of the CW-approximation. The respect for the structure maps is just this factorization property:
 
 $$
   \array{  
@@ -3128,7 +3156,7 @@ $$
 
 The [[adjunction unit]] $\eta_X \colon X \to L(X)$ "reflects" every object $X$ of $\mathcal{C}$ into one in the $\mathcal{C}_{loc}$, and therefore this is also called a _[[reflective subcategory]]_ inclusion.
 
-It is a classical fact that in this situation
+It is a classical fact ([[Calculus of fractions and homotopy theory|Gabriel-Zisman 67]], [prop.](reflective+subcategory#CharacterizationByLocalization)) that in this situation
 
 $$
   \mathcal{C}_{loc}
@@ -3159,17 +3187,16 @@ $$
 
 =--
 
-While that is a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences:
+Notice that:
 
-+-- {: .num_prop }
++-- {: .num_prop #BasicPropertiesOfLectBousfieldLocalizations}
 ###### Proposition
 
 Given a [[left Bousfield localization of model categories|left Bousfield localization]] $\mathcal{C}_{loc}$ of $\mathcal{C}$ as in def. \ref{BousfieldLocalizationOfModelCategories}, then
 
 1. $Fib_{loc} \subset Fib$;
 
-
-1. $W_{loc} \cap Cof_{loc} = W \cap Cof$;
+1. $W_{loc} \cap Fib_{loc} = W \cap Fib$;
 
 1. the identity functors constitute a [[Quillen adjunction]]
 
@@ -3183,6 +3210,18 @@ Given a [[left Bousfield localization of model categories|left Bousfield localiz
      \,.
    $$
 
+1. the induced adjunction of [[derived functors]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) exhibits a [[reflective subcategory]] inclusion of [[homotopy category of a model category|homotopy categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory))
+
+   $$
+     Ho(\mathcal{C}_{loc})
+       \underoverset   
+         {\underset{\mathbb{R} id}{\longrightarrow}}
+         {\overset{\mathbb{L}id}{\longleftarrow}}
+         {\bot}
+     Ho(\mathcal{C})
+     \,.
+   $$
+
 =--
 
 +-- {: .proof}
@@ -3190,7 +3229,7 @@ Given a [[left Bousfield localization of model categories|left Bousfield localiz
 
 Regarding the first two items:
 
-Using the properties of the [[weak factorization systems]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakFactorizationSystem)) of (acyclic cofibratiojns, fibrations) and (cofibrations, acyclic fibrations) for both model structures we get
+Using the properties of the [[weak factorization systems]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakFactorizationSystem)) of (acyclic cofibrations, fibrations) and (cofibrations, acyclic fibrations) for both model structures we get
 
 $$
   \begin{aligned}
@@ -3227,7 +3266,14 @@ Regarding the third point:
 
 By construction, $id \colon \mathcal{C}_{loc}\to \mathcal{C}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
 
+Regarding the fourth point:
+
+Since $Cof_{loc} = Cof$ the notion of [[left homotopy]] in $\mathcal{C}_{loc}$ is the same as that in $\mathcal{C}$, and hence the inclusion of the subcategory of local cofibrant-fibrant objects into the homotopy category of the original cofibrant-fibrant objects is clearly a full inclusion. Since $Fib_{loc} \subset Fib$ by the first statement, on these cofibrant-fibrant objects the [[right derived functor]] of the identity is just the identity and hence does exhibit this inclusion.
+The left adjoint to this inclusion is given by $\mathbb{L}id$, by the general properties of Quillen adjunctions ([prop](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)).
+
 =--
+
+
 
 In plain [[category theory]], given a [[reflective subcategory]] 
 
@@ -3268,7 +3314,7 @@ Say that a **Quillen idempotent monad** on $\mathcal{C}$ is
 
 1. a [[natural transformation]]
 
-   $\eta \colon id_{\mathcal{C}} \longrightarrow Q$
+   $\eta \;\colon\; id_{\mathcal{C}} \longrightarrow Q$
 
 such that
 
@@ -3288,13 +3334,13 @@ such that
 
    are weak equivalences;
 
-1. (preservation of homotopy pullbacks) if in a [[pullback]] square in $\mathcal{C}$
+1. (right-properness of the localization) if in a [[pullback]] square in $\mathcal{C}$
 
    $$
      \array{
        f^\ast W &\stackrel{f^\ast h}{\longrightarrow}& X
        \\
-       \downarrow && \downarrow^{\mathrlap{f}}
+       \downarrow &(pb)& \downarrow^{\mathrlap{f}}
        \\
        W &\stackrel{h}{\longrightarrow}& Y
      }
@@ -3329,10 +3375,13 @@ $$
   \mathcal{C}_Q
 $$ 
 
-for $\mathcal{C}$ equipped with these classes of morphisms. Notice that since $Q$ preserves weak equivalences (by def. \ref{QuillenIdempotentMonad}) then if these classes of morphisms do constitute a [[model category]] structure, then this is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$, according to def. \ref{BousfieldLocalizationOfModelCategories}.
+for $\mathcal{C}$ equipped with these classes of morphisms. 
 
 =--
 
+Since $Q$ preserves weak equivalences (by def. \ref{QuillenIdempotentMonad}) then if the classes of morphisms in def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad} do constitute a [[model category]] structure, then this is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$, according to def. \ref{BousfieldLocalizationOfModelCategories}.
+
+We establish a couple of lemmas that will prove that the model structure indeed exsists (prop. \ref{BousfieldFriedlanderTheorem} below).
 
 
 +-- {: .num_lemma #FirstLemmaForBousfieldFriedlander}
@@ -3346,7 +3395,7 @@ a morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyc
 +-- {: .proof}
 ###### Proof
 
-It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration (since both are the class of moprhisms with [[right lifting property]] against the respective cofibrations, and the $Q$-cofibrations by definition are just the cofibrations). 
+It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration (since both are the class of morphisms with [[right lifting property]] against the respective cofibrations, and the $Q$-cofibrations by definition are just the cofibrations). 
 
 In the other direction, let $f \;\colon\; X \longrightarrow Y $ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
 
@@ -3361,14 +3410,14 @@ $$
   \,.
 $$
 
-Observe that $Q$-equivalences satisfy [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)), by functoriality and since the plain equivalences do. Now the assumption that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This implies, by assumption on $f$, that $f$ has the [[right lifting property]] against $i$. Hence the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)), implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
+Observe that $Q$-equivalences satisfy [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)), by functoriality and since the plain equivalences do. Now the assumption that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This implies that $f$ has the [[right lifting property]] against $i$ (since $f$ is assumed to be a $Q$-fibration, which is defined by this lifting property). Hence the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)), implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
 
 =--
 
 +-- {: .num_lemma #SecondLemmaForBousfieldFriedlander}
 ###### Lemma
 
-In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}, if a morphism $f \colon X \longrightarrow Y$ is a fibration, and $\eta_X, \eta_Y$ are weak equivalences, then $f$ is a $Q$-fibration.
+In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}, if a morphism $f \colon X \longrightarrow Y$ is a fibration, and if $\eta_X, \eta_Y$ are weak equivalences, then $f$ is a $Q$-fibration.
 
 =--
 
@@ -3377,7 +3426,7 @@ In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillen
 +-- {: .proof}
 ###### Proof
 
-We need to show that for every [[commuting square]] of the form
+We need to show under the given assumptions that for every [[commuting square]] of the form
 
 $$
   \array{
@@ -3539,9 +3588,9 @@ Hence now it follows by [[two-out-of-three]] ([def.](Introduction+to+Stable+homo
 **(Bousfield-Friedlander theorem)**
 
 Let $\mathcal{C}$ be a [[model category]]. Let $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
-be a Quillen idempotent monad on according to def. \ref{QuillenIdempotentMonad}.
+be a Quillen idempotent monad on $\mathcal{C}$, according to def. \ref{QuillenIdempotentMonad}.
 
-Then the [[Bousfield localization of model categories|Bousfield localization]] model category $\mathcal{C}_Q$ at the $Q$-weak equivalences (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) exists.
+Then the [[Bousfield localization of model categories|Bousfield localization]] model category $\mathcal{C}_Q$ (def. \ref{BousfieldLocalizationOfModelCategories}) at the $Q$-weak equivalences (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) exists, hence the model structure on $\mathcal{C}$ with the classes of morphisms in def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}.
 
 =--
 
@@ -3551,14 +3600,12 @@ Then the [[Bousfield localization of model categories|Bousfield localization]] m
 ###### Proof
 
 The existence of [[limits]] and [[colimits]] is guaranteed since $\mathcal{C}$ is already assumed to be a model category.
-The [[two-out-of-three]] poperty for $Q$-weak equivalences is an immediate consequence of two-out-of-three for the original weak equivalences of $\mathcal{C}$. 
+The [[two-out-of-three]] poperty for $Q$-weak equivalences is an immediate consequence of two-out-of-three for the original weak equivalences of $\mathcal{C}$. Moreover, according to lemma \ref{FirstLemmaForBousfieldFriedlander} the pair of classes $(Cof_{Q}, W_Q \cap Fib_Q)$ equals the pair $(Cof, W \cap Fib)$, and this is a [[weak factorization system]] by the model structure $\mathcal{C}$.
 
-Moreover, according to lemma \ref{FirstLemmaForBousfieldFriedlander} the pair of classes $(Cof_{Q}, W_Q \cap Fib_Q)$ equals the pair $(Cof, W \cap Fib)$, and this is a [[weak factorization system]] by the model structure $\mathcal{C}$.
-
-Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]]. The lifting property here holds by definition of $Fib_Q$. We conclude by showing the existence of factorizations:
+Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]]. The lifting property here holds by definition of $Fib_Q$. Hence we may conclude by showing the existence of factorizations into $Q$-acyclic cofibrations followed by $Q$-fibrations:
 
 
-First we consider the case of morphisms of the form $f \colon Q(Y) \to Q(Y)$. This may be factored with respect to $\mathcal{C}$ as
+First we consider the case of morphisms of the form $f \colon Q(Y) \to Q(Y)$. These may be factored with respect to $\mathcal{C}$ as
 
 $$
   f 
@@ -3594,9 +3641,9 @@ $$
   &
   Q(Q(X))
     &\underoverset{Q(i)}{\in W}{\longrightarrow}&
-  Z
+  Q(Z)
     &\underset{}{\longrightarrow}&
-  Q(Y)
+  Q(Q(Y))
   }
   \,,
 $$
@@ -3614,7 +3661,7 @@ $$
   \,.
 $$
 
-Now for $g$ an arbitrary morphism $g \colon X \to Y$, form a factorization of $Q(g)$ as above and then decompose the naturality square for $\eta$ on $f$ into the pullback of the resulting $Q$-fibration along $\eta_Y$:
+Now for an arbitrary morphism $g \colon X \to Y$, form a factorization of $Q(g)$ as above and then decompose the naturality square for $\eta$ on $g$ into the pullback of the resulting $Q$-fibration along $\eta_Y$:
 
 $$
   \array{
@@ -3645,20 +3692,22 @@ $$
   \,.
 $$
 
-This exhibits $\eta'$ as the pullback of a $Q$-weak equivalence along a $Q$-fibration, and hence itself as a $Q$-weak equivalence. This way, [[two-out-of-three]] implies that $\tilde i$ is a $Q$-weak equivalence.
+This exhibits $\eta'$ as the pullback of a $Q$-weak equivalence along a $Q$-fibration, and hence itself as a $Q$-weak equivalence (by item 3 in def. \ref{QuillenIdempotentMonad}). This way, [[two-out-of-three]] implies that $\tilde i$ is a $Q$-weak equivalence.
 
 Finally, apply factorization in $(Cof,\; W\cap Fib)$ to $\tilde i$ to obtain the desired factorization
 
 $$
   f 
   \;\colon\;
-  \overset{W_Q \cap Cof}{\longrightarrow}
-  \overset{W \cap Fib = W_Q \cap Fib_Q}{\longrightarrow}
-  \overset{Fib_Q}{\longrightarrow}
+  \underoverset{W_Q \cap Cof}{\tilde i_L}{\longrightarrow}
+  \underoverset{W \cap Fib = W_Q \cap Fib_Q}{\tilde i_R}{\longrightarrow}
+  \underoverset{Fib_Q}{\tilde p}{\longrightarrow}
   \,.
 $$
 
 =--
+
+So far this leaves open a more explicit characterization of the $Q$-fibrations. This is provided by the next statement.
 
 
 +-- {: .num_prop #CharacterizationOfFibrationsInBFModelStructures}
@@ -3682,13 +3731,13 @@ then a morphism $f \colon X \to Y$ in $\mathcal{C}$ is a $Q$-fibration (def. \re
      }
    $$
 
-   exhibits a [[homotopy pullback]] in $\mathcal{C}$, in that for any factorization of $Q(f)$ trough a weak equivalence followed by a fibration $p$, then the universally induced morphism
+   exhibits a [[homotopy pullback]] in $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)), in that for any factorization of $Q(f)$ through a weak equivalence followed by a fibration $p$, then the universally induced morphism
 
-  $$
-    X \longrightarrow p^\ast Y
-  $$
+   $$
+     X \longrightarrow p^\ast Y
+   $$
 
-  is weak equivalence (in $\mathcal{C}$).
+   is weak equivalence (in $\mathcal{C}$).
 
 =--
 
@@ -3712,7 +3761,7 @@ $$
   \,.
 $$
 
-By the proof of prop. \ref{BousfieldFriedlanderTheorem} the morphism $p$ is also a $Q$-fibration. Hence by the existence of the $Q$-local model structure due to prop. \ref{BousfieldFriedlanderTheorem}, its pullback is also a $Q$-fibration
+By the proof of prop. \ref{BousfieldFriedlanderTheorem} the morphism $p$ is also a $Q$-fibration. Hence by the existence of the $Q$-local model structure, also due to prop. \ref{BousfieldFriedlanderTheorem}, its pullback is also a $Q$-fibration
 
 $$
   \array{
@@ -3764,9 +3813,9 @@ $$
   }
 $$
 
-As in the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) this is seen to exhibit $f$ as a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of the $Q$-fibration $\tilde p \circ \pi$. Hence by the existence of the $Q$-model structure and the closure properties for fibrations ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), also $f$ is a $Q$-fibration.
+As in the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) this diagram is seen to exhibit $f$ as a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of the $Q$-fibration $\tilde p \circ \pi$. Hence by the existence of the $Q$-model structure (prop. \ref{BousfieldFriedlanderTheorem}) and by the closure properties for fibrations ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), also $f$ is a $Q$-fibration.
 
-Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$ it is immediate that $f$ is also a fibration. We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
+Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$ it is immediate that $f$ is also a fibration. We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
 
 So factor $Q(f)$ as before, and consider the pasting composite of the factorization of the given square with the naturality squares of $\eta$:
 
@@ -3805,9 +3854,9 @@ $$
 
 The top and bottom horizontal weak equivalences are by the idempotency of $Q$, and $Q(i)$ is a weak equivalence since $Q$ preserves weak equivalences. Hence by [[two-out-of-three]] also $\eta_Z$ is a weak equivalence. Finally $p^\ast \eta_Y$ is a $Q$-weak equivalence since it is the pullback of a $Q$-weak equivalence along a fibration between objects whose $\eta$ is a weak equivalence, via the third clause in def. \ref{QuillenIdempotentMonad}.
 
-In particular, therefore the bottom right square is a homotopy pullback, and since the left square is even a genuine pullback, hence a homotopy pullback, the total bottom rectangle here exhibits a homotopy pullback.
+In particular, therefore the bottom right square is a homotopy pullback (since two opposite edges are weak equivalences, by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), and since the left square is even a genuine pullback, hence a homotopy pullback, the total bottom rectangle here exhibits a homotopy pullback by the [[pasting law]] for homotopy pullbacks ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)).
 
-Now by [[natural transformation|naturality]] of $\eta$, that total rectangle is the same as
+Now by [[natural transformation|naturality]] of $\eta$, that total bottom rectangle is the same as
 
 $$
   \array{
@@ -3832,11 +3881,9 @@ $$
   \,,
 $$
 
-where now $Q(p^\ast \eta_Y) \in W$ since $p^\ast \eta_Y \in W_Q$, by the previous remark. This means that the right square is again a homotopy pullback, and since the total rectangle still is, so is now also the left square.
+where now $Q(p^\ast \eta_Y) \in W$ since $p^\ast \eta_Y \in W_Q$, by the previous remark. This means again that the right square is a homotopy pullback ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), and since the total rectangle still is, so is now also the left square, by the other direction of the [[pasting law]] for homotopy pullbacks ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)).
 
-To conclude, use the observation from the first part of the proof that $f$ is a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of $\tilde p \circ \pi$, where $\pi$ is an acyclic fibration. Notice that the $\eta$-naturality square of a weak equivalence is a homotopy pullback ($Q$ preserves the weak equivalence) and that the composite of two morphisms with this property still has this property. Therefore $f$ is the retract of a morphism with this property, 
-
-Hence the $\eta$-naturality square of $f$ is the retract of a homotopy pullback square, and so it is itself a homotopy pullback square.
+To conclude, use the observation from the first part of the proof that $f$ is a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of $\tilde p \circ \pi$, where $\pi$ is an acyclic fibration. Notice that the $\eta$-naturality square of a weak equivalence is a homotopy pullback ($Q$ preserves the weak equivalence) and that the composite of two morphisms with this property still has this property. Therefore $f$ is the retract of a morphism whose $\eta$-naturality square is a homotopy pullback, and so it is itself a homotopy pullback square ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)).
 
 =--
 
@@ -3845,7 +3892,7 @@ Hence the $\eta$-naturality square of $f$ is the retract of a homotopy pullback 
 ##### Proof of the stable model structure
  {#ProofOfTheStableModelStructure}
 
-We show now that the operation of [[Omega-spectrification]] from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad}. Via the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}) this establishes a stable model structure on topological sequential spectra.
+We show now that the operation of [[Omega-spectrification]] of topological sequental spectra, from def. \ref{SpectrificationForTopologicalSequentialSpectra}, is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad}. Via the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}) this establishes a stable model structure on topological sequential spectra.
 
 +-- {: .num_lemma #OmegaSpectrificationOfSequentiaSpectraPreservesHomotopyPullback}
 ###### Lemma
@@ -3878,18 +3925,18 @@ is taken by $Q$ to a homotopy pullback square. By prop. \ref{LimitsAndColimitsOf
 Let $Z^X_{i,k}$, $Z^Y_{i,k}$ etc. denote the objects appearing in the definition of $Q X$, $Q Y$, etc. (def. \ref{SpectrificationForTopologicalSequentialSpectra}). 
 
 
-Use the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) for the set $J_{(Top^{\ast/})}$ of acylic generating cofibrations in $Top^{\ast/}_{cg}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) to construct a [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)) through acyclic relative cell complex inclusions in each degree
+Use the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) for the set $J_{(Top^{\ast/})}$ of acylic generating cofibrations in $Top^{\ast/}_{cg}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) to construct a [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)) through acyclic relative cell complex inclusions followed by [[Serre fibrations]] in each degree
 
 $$
   Z^X_{i,k}
    \overset{\in J_{Top} Cell}{\longrightarrow}
-  W_\bullet
+  W_i
     \overset{\in Fib_{cl}}{\longrightarrow}
-  Z^Y_{\bullet,k}
+  Z^Y_{i,k}
   \,.
 $$
 
-Notice that by construction $Z^K_{\bullet,k}$ and $Z^Y_{\bullet,k}$ are sequences of [[relative cell complexes]]. This implies by the way the [[small object argument]] works and the commutativity of each
+Notice that by construction $Z^K_{\bullet,k}$ and $Z^Y_{\bullet,k}$ are sequences of [[relative cell complexes]]. This implies, by the way the [[small object argument]] works and by the commutativity of each
 
 $$
   \array{
@@ -3905,11 +3952,12 @@ $$
      &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
     W_{i+1}
   }
+  \,,
 $$
 
 that also $W_\bullet$ is a sequence of relative cell complex inclusions.
 
-Therefore, forming the colimit over these sequences sends the degreewise Serre fibration to a Serre fibration ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PropertiesOfColimitOverSequencesOfRelativeCellComplexes)) (because we may test for a [[Serre fibration]] by lifting against morphisms with [[compact topological space|compact]] domain and codomain, and these may be taken inside the colimit over relative cell complex inclusions (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes))) and so we have a [[Serre fibration]]
+Therefore, forming the colimit over these sequences sends the degreewise Serre fibration to a Serre fibration ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PropertiesOfColimitOverSequencesOfRelativeCellComplexes)), because we may test for a [[Serre fibration]] by lifting against morphisms with [[compact topological space|compact]] domain and codomain, and these may be taken inside the colimit over relative cell complex inclusions (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes))). So we have a [[Serre fibration]]
 
 $$
   \underset{\longrightarrow}{\lim}_i W_i
@@ -3947,7 +3995,7 @@ $$
   }
 $$
 
-where the diagonal is a chosen lift, which is a weak equivalence by [[two-out-of-three]]. This way we have exhibited a weak equivalence of [[cospan]]-diagram with right leg a fibration. Therefore, since forming the [[limit]] over these cospan diagrams is a [[homotopy pullback]] (all objects here being fibrant), this induces a weak equivalence on these limits ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackPreservesWeakEquivalencesOfSpans))
+where the diagonal is a chosen lift (where we use that $\Omega = Maps(S^1,-)_{\ast}$ preserves Serre fibrations by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}). This lift is a weak equivalence by [[two-out-of-three]]. On the left of the diagram this exhibits now a weak equivalence of [[cospan]]-diagrams with right leg a fibration. Therefore, since forming the [[limit]] over these cospan diagrams is a [[homotopy pullback]] (all objects here being fibrant), this induces a weak equivalence on these limits ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackPreservesWeakEquivalencesOfSpans))
 
 $$
   Z^B_{i,k}
@@ -3967,7 +4015,7 @@ By universality of the pullback there is a commuting triangle
 $$
   \array{
      Z^{B\times_Y X}_{i,k}
-     && \longrightarrow &&
+     && \overset{\phi_i}{\longrightarrow} &&
       Z^B_{i,k} \underset{Z^Y_{i,k}}{\times}
      W_i
      \\
@@ -3988,7 +4036,7 @@ $$
   (Q(B \underset{Y}{\times} X))_k
   =
   \underset{\longrightarrow}{\lim}_i Z^{B \times_Y X}_{i,k}
-    \overset{\in W_{cl}}{\longrightarrow}
+    \underoverset{\in W_{cl}}{\underset{\longleftarrow}{\lim}_i \phi_i}{\longrightarrow}
   \left(\underset{\longrightarrow}{\lim}_i Z^B_{i,k}\right)
     \underset{
          \underset{\longrightarrow}{\lim}_i Z^Y_{i,k}
@@ -3997,7 +4045,11 @@ $$
      \underset{\longrightarrow}{\lim}_i W_i
    \right)
    =
-  (Q B)_k \underset{(Q Y)_k}{\times} \underset{\longrightarrow}{\times}_i W_i
+  (Q B)_k 
+    \underset{(Q Y)_k}{\times} 
+  \left(
+    \underset{\longrightarrow}{\lim}_i W_i
+  \right)
   \,.
 $$
 
