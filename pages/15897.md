@@ -11,3 +11,5 @@
 * [[3-manifold]]
 
 category: people
+
+[[!redirects F. Waldhausen]]
