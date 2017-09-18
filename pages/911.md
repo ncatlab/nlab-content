@@ -122,6 +122,9 @@ where $K(D)\colon c\mapsto [J c,D]_0$.
 
 Now for any $C$, the terminal object of $\mathbf{Set}^C$ is the functor $\Delta 1$ constant at the [[point]].  The category of elements of $\Delta 1$ is easily seen to be just $C$ itself, so the unique transformation $P\to \Delta 1$ induces a _projection functor_ $\pi_P: \el(P) \to C$ defined by $(c,x)\mapsto c$ and $u\mapsto u$.  The projection functor is a [[discrete opfibration]], and can be viewed also as a $C$-indexed [[family of sets]].  When we regard $\el(P)$ as equipped with $\pi_P$, we have an embedding of $\mathbf{Set}^C$ into $\mathbf{Cat}/C$.
 
+Note that while the canonical projection $\operatorname{El}(F) \to \mathbf{C}$ is surjective on objects, it is not usually [[full functor|full]]. For example, let $\mathbf{B}\mathbb{N}$ be the one-object category which carries the monoid $(\mathbb{N}, +)$ as its endomorphism monoid, and let $F$ be the action of $(\mathbb{N}, +)$ on the set $\mathbb{N}$ by $n.m = m + n$. Then the image of any hom-set between $k, k'$ is a singleton subset of $\mathbb{N}$.
+
+More generally, the [[universal covering groupoid]] of a groupoid is just the category of elements of its action on itself by composition. Since this action is faithful and transitive,  hom-sets in the category of elements are always $0$ or $1$, while objects in the groupoid might have nontrivial automorphism groups.
 
 ##Examples
 
