@@ -25,7 +25,7 @@
 
 ## Idea
 
-What may be called **$E_\infty$-geometry**, or **spectral algebraic geometry** is the "full" version of [[derived algebraic geometry]] where the spaces are locally modelled on [[E-infinity rings]] (as opposed to [[simplicial commutative rings]] or [[dg-algebras]]).
+What may be called **$E_\infty$-geometry**, or **[[spectral algebraic geometry]]** is the "full" version of [[derived algebraic geometry]] where the spaces are locally modelled on [[E-infinity rings]] (as opposed to [[simplicial commutative rings]] or [[dg-algebras]]).
 
 (In view of existing terms "[[arithmetic geometry]]" and "[[higher geometry]]" one might also tend call this **higher  [[arithmetic geometry]]**,but notice that the term _[[higher arithmetic geometry]]_ already has a different traditional usage. Maybe **$E_\infty$-arithmetic geometry** works well.)
 
@@ -75,7 +75,7 @@ and the Grothendieck Existence Theorem]]_
 
 * {#LurieAdic} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
 
-* [[Jacob Lurie]], _Spectral Algebraic Geometry_ ([pdf]( http://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
+* [[Jacob Lurie]], _[[Spectral Algebraic Geometry]]_ ([pdf]( http://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
 
 See also the overview
 
