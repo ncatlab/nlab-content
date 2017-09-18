@@ -32,10 +32,19 @@ In detail:
 * If $F,G\colon C \to D$ and $H\colon D\to E$ are functors and $\eta\colon F \to G$ is a natural transformation whose coordinate at any object $A$ of $C$ is $\eta_A$, then __whiskering__ $H$ and $\eta$ yields the natural transformation $H \circ \eta\colon (H \circ F) \to (H \circ G)$ whose coordinate at $A$ is $H(\eta_A)$.
 * If $F\colon C \to D$ and $G,H\colon D \to E$ are functors and $\eta\colon G\to H$ is a natural transformation whose coordinate at $A$ is $\eta_A$, then __whiskering__ $\eta$ and $F$ yields the natural transformation $\eta \circ F\colon (G \circ F) \to (H \circ F)$ whose coordinate at $A$ is $\eta_{F(A)}$.
 
+## Related concepts
+
+* [[pasting diagram]]
+
+* Usual whiskering diagrams have 1-cells which constitute a *plane digraph*. 
+The *boundary walk* of the *exterior face* has arc-repetitions. (Two repetitions of multiplicity two, for that matter.)
+These terms are explained in [[digraph|plane digraphs]]. 
 
 ## References
 
 * [A MathOverflow question about whiskering](http://mathoverflow.net/questions/40813/what-is-the-name-for-the-composition-of-a-functor-with-a-natural-transformation/40814#40814)
+
+* [[Peter Selinger]]: Introduction to categorical logic. [pdf](https://math.vanderbilt.edu/dept/conf/tacl2013/coursematerials/SelingerTACL20132.pdf), page 41
 
 
 [[!redirects whiskering]]
