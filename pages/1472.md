@@ -395,7 +395,7 @@ This way a single $\sigma$-model may encode a rich multiple particle content and
 
 An early proposal for a single unified connection $\nabla$ that would subsume both gravity as well as Yang-Mills forces in a phenomenologically realistic way is the [[Kaluza-Klein mechanism]]. This assumes a single [[Levi-Civita connection]] but on a [[pseudo-Riemannian manifold]] $X$ which is locally of the [[product]] form $X_4 \times F_{d}$ with $X_4$ a 4-[[dimension]]al pseudo-Riemannian manifold and $F_d$ a $d$-dimensional [[Riemannian manifold]] of very small Riemannian volume. As described in more detail at [[Kaluza-Klein mechanism]], this makes the [[isometry]] groups of $F_d$ appear as extra [[gauge group]] factors as seen on $X_4$. As also described in more detail there, while this Ansatz does reproduce the correct general form of gravity coupled to Yang-Mills forces, in its original form it does also have some phenomenologically unviable aspects.
 
-It was observed by [[Alain Connes]] and collaborators that the Kaluza-Klein mechanism works better when used not [[internalization|internal]] to the [[category]] [[Diff]] of [[smooth manifold]]s but in context for more general [[higher geometry|geometry]]: [[noncommutative geometry]].
+It was observed by [[Alain Connes]] and collaborators that the Kaluza-Klein mechanism works better when used not [[internalization|internal]] to the [[category]] [[Diff]] of [[smooth manifolds]] but in context for more general [[higher geometry|geometry]]: [[noncommutative geometry]]. This is the content of the _[[Connes-Lott-Chamseddine model]]_.
 
 This more general geometry turns out to model exactly the most general $\sigma$-model backgrounds for a 1-dimensional [[FQFT]]: because such is algebraically specified by
 
