@@ -141,7 +141,7 @@ has a simple description. The case
 
 * [For non-commutative monoids](#PushoutOfNoncommutativeMonoids)
 
-is more incolved.
+is more involved.
 
 
 #### Of commutative monoids
