@@ -1,7 +1,4 @@
 [[!redirects hyperbolic functions]]
-# Contents 
-* table of contents 
-{: toc} 
 
 #Contents#
 * table of contents
