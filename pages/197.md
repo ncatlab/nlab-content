@@ -85,9 +85,9 @@ $$
 
 A separated quiver $X$ is a $\neg\neg$-sheaf when such a unique $g$ always exists.
 
-Suppose that a quiver $X$ has a pair of parallel edges $w,z$. Then the subgraph $i:S\hookrightarrow X$ that is just like $X$ but has $w,z$ ommitted is dense in $X$. Let $\tau_{zw}:X\to X$ be the automorphism of $X$ that is just like the identity on $X$ but interchanges $w$ and $z$. Then $id_X\circ i=\tau_{zw}\circ i=i$ and one sees that $X$ is not separated.
+Suppose that a quiver $X$ has a pair of parallel edges $w,z$. Then the subgraph $i:S\hookrightarrow X$ that is just like $X$ but has $w,z$ ommitted is dense in $X$. Let $\tau_{zw}:X\to X$ be the automorphism of $X$ that is just like the identity on $X$ except that it interchanges $w$ and $z$. Then $id_X\circ i=\tau_{zw}\circ i=i$ and one sees that $X$ is not separated.
 
-Conversely, let $X$ be a quiver with at most one edge $x\to y$ between any pair $(x,y)$ of vertices and $f:S\to X$ be a map with $i:S\hookrightarrow Y$ is dense in $Y$. Since $i$ is a bijection on the vertex sets of $S$ and $Y$, if a factorization of $f$ through $g:Y\to X$ and $i$ exists the effect of $g$ on the vertices is uniquely determined by $f$ but since in $X$ there is at most one edge between any pair of vertices the image of any edge $a\to b$ in $Y$ under $g$ is already fixed: it is the unique edge between $g(a)$ and $g(b)$. In particular, one sees that a separated object $X$ is a sheaf precisely when there exists exactly one edge between any pair of vertices since then abitrary edges in abitrary factors $Y$ can be mapped to the appropriate edge in $X$. To sum up:
+Conversely, let $X$ be a quiver with at most one edge $x\to y$ between any pair $(x,y)$ of vertices and $f:S\to X$ be a map with $i:S\hookrightarrow Y$ is dense in $Y$. Since $i$ is a bijection on the vertex sets of $S$ and $Y$, if a factorization of $f$ through $g:Y\to X$ and $i$ exists the effect of $g$ on the vertices is uniquely determined by $f$ but since in $X$ there is at most one edge between any pair of vertices the image of any edge $a\to b$ in $Y$ under $g$ is already fixed: it is the unique edge between $g(a)$ and $g(b)$. In particular, one sees that a separated object $X$ is a sheaf precisely when there exists exactly one edge between any pair of vertices since then arbitrary edges in arbitrary factors $Y$ can be mapped to the appropriate edge in $X$. To sum up:
 
 +-- {: .num_prop #negneg_subcats} 
 ###### Proposition
@@ -96,10 +96,19 @@ A quiver $X$ is separated for the double negation topology $\neg\neg$ precisely 
 
 The corresponding full subcategories are denoted by $Sep_{\neg\neg}(Quiv)$ and $Sh_{\neg\neg}(Quiv)$ , respectively. By generalities, it follows that $Sep_{\neg\neg}(Quiv)$ is a [[quasitopos]] and $Sh_{\neg\neg}(Quiv)$ is a [[Boolean topos]].
 
-Quivers that have at most one edge between any vertices can be called 'simple' with the caveat that contrary to (the usual concept of) a simple graph they are allowed to have loops.
+Quivers that have at most one edge between any pair of vertices can be called 'simple' with the caveat that contrary to (the usual concept of) a simple graph they are allowed to have loops. Similarly, $\neg\neg$-sheaves can be called 'complete'.
 
-Since the edges of $\neg\neg$-separated quivers simply encode a binary endorelation on their vertex sets and being a morphism between $\neg\neg$-separated quivers then amounts to preserve that relation one sees that $Sep_{\neg\neg}(Quiv)$ and $Sh_{\neg\neg}(Quiv)$ are equivalent to the categories $EndoRel$ with objects $(X,\rho)$ where $X$ is a set and $\rho$ a binary endorelation on $X$, and, respectively, the category  $TotalRel$ of sets equipped with the total relation. The latter can be identified with $Set$ since morphisms between sets equipped with the total relation behave just like ordinary functions between sets. 
+Since the edges of $\neg\neg$-separated quivers simply encode a binary endorelation on their vertex sets and being a morphism between $\neg\neg$-separated quivers then amounts to preserve that relation one sees that $Sep_{\neg\neg}(Quiv)$ and $Sh_{\neg\neg}(Quiv)$ are equivalent to the categories $Bin$ with objects $(X,\rho)$ where $X$ is a set and $\rho$ a binary endorelation on $X$, and, respectively, the category  $TotalRel$ of sets equipped with the total relation. The latter can be identified with $Set$ since morphisms between sets equipped with the total relation behave just like ordinary functions between sets. 
 
+### Some subcategories and adjunctions
+
+The inclusion $Sh_{\neg\neg}(Quiv)\hookrightarrow Sep_{\neg\neg}(Quiv)$ is actually an [[level|essential localisation]] since it corresponds (from the relational perspective) to the [[adjoint triple|adjoint string]] $e\dashv u\dashv t:Set\hookrightarrow Bin$ where $t$ maps a set $X$ to $(X,\tau_X)$ with $\tau_X$ the total relation on $X$, $u$ is the forgetful functor mapping $(X,\rho)$ to $X$ and, $e$ maps a set $X$ to $(X,\empty)$.
+
+Similarly, $Sh_{\neg\neg}(Quiv)\overset{i}{\hookrightarrow} Quiv$ is an essential subtopos: if we identify sheavification $r$ with the functor that maps a quiver to the quiver on the same vertex set with edge set the total relation on the vertex set, then $l\dashv r\dashv i$ where $l$ forgets the edges of a complete quiver.
+
+In particular, it follows then from general properties of the [[double negation|double negation topology]] that $Sh_{\neg\neg}(Quiv)$ is the [[Aufhebung]] of $0\dashv 1$. Whence, there exists indeed a notion of 'codiscreteness' (= an Aufhebung of $0\dashv 1$) for quivers, namely 'completeness', but it does not arise from a right adjoint to the [[section|section functor]] $\Gamma: Quiv\to Set$ that maps a quiver to its set of loops. Indeed, the adjoint string $\Pi\dashv\Delta\dashv\Gamma:Quiv\to Set$ that comes with the 'discrete' inclusion $\Delta$ that maps a set to the quiver with vertex set $X$ and edge set precisely one loop for every vertex, is not a localisation since $\Pi\dashv\Delta$ is not a [[geometric morphism]] because $\Pi$ fails to preserve products.
+
+Furthermore, since it is a general result for presheaf toposes (cf. La Palme Reyes et al. [2004](#RRZ04), p.204) that $\Gamma$ has a right adjoint $B$ precisely if a generic figure has a point and in the case of Quiv neither the generic vertex nor the generic edge contains a loop, we see that the functor $\Gamma:Quiv\to Set$ has no right adjoint.
 
 ## Related entries
 
@@ -111,6 +120,8 @@ Since the edges of $\neg\neg$-separated quivers simply encode a binary endorelat
 * R. T. Bumpy, D. M. Latch, _Categorical Constructions in Graph Theory_ , Internat. J. Math. & Math. Sci. **9** no.1 (1986) pp.1-16.
 
 * {#Law89a} [[F. W. Lawvere]], *Qualitative Distinctions between some Toposes of Generalized Graphs*, Cont. Math. **92** (1989) pp.261-299.
+
+* {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, *Generic Figures and their Glueings*, Polimetrica Milano 2004.
 
 * {#Vigna03} S. Vigna, _A Guided Tour in the Topos of Graphs_ , arXiv.0306394 (2003). ([abstract](https://arxiv.org/abs/math/0306394))
 
