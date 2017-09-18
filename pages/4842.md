@@ -42,7 +42,7 @@ The degree of Vassiliev invariants defines a filtration on the space of knots (a
 
 A function which is constant on nonsingular knots may be extended to a Vassiliev invariant of degree 0 by applying the [[Vassiliev skein relations]], and conversely, any Vassiliev invariant of degree 0 must be constant on nonsingular knots.  Likewise, any Vassiliev invariant of degree 1 must be constant on nonsingular knots.
 
-## Chord diagram of a singular knot ##
+## Chord diagrams and weight systems ##
 
 Any singular knot $f : S^1 \to \mathbb{R}^3$ with $n$ distinct double points $x_1,\dots,x_n \in \mathbb{R}^3$ gives rise to a [[chord diagram]] of order $n$, consisting of the circle $S^1$ with a chord connecting each pair of points $f^{-1}(x_1), \dots, f^{-1}(x_n)$.
 
@@ -52,6 +52,8 @@ The importance of this construction for singular knots comes from the fact that 
 ######Theorem 
 Let $v$ be a Vassiliev invariant of degree $\le n$.  Then the value of $v$ on a singular knot with $n$ distinct double points depends only on the chord diagram of the knot, and not on the knot itself.
 =-- 
+
+Conversely, one can ask which functions on chord diagrams come from finite type invariants.  The answer is that Vassiliev invariants (of degree $\le n$) can essentially be identified with _weight systems_ (of order $n$), which are functions on chord diagrams (of order $n$) satisfying two properties called the "1-term relation" (or "framing independence") and the "4-term relation": see Theorem 1 of [Bar-Natan](#Bar-Natan) (or Theorem 6.2.13 of [Lando & Zvonkin](#LandoZvonkin)).
 
 ## Examples ##
 
@@ -68,14 +70,14 @@ Let $v$ be a Vassiliev invariant of degree $\le n$.  Then the value of $v$ on a 
 
 
 * [[V. A. Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992. 
-* [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
+* {#Bar-Natan} [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
 * There is a huge online bibliography on Vassiliev invariants maintained by [[Dror Bar-Natan]] and Sergei Duzhin [here](http://www.pdmi.ras.ru/~duzhin/VasBib/Long).
 * S. Chmutov, S. Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, [arxiv/1103.5628](http://arxiv.org/abs/1103.5628)
 * Wolframworld [Vassiliev invariant](http://mathworld.wolfram.com/VassilievInvariant.html)
 
 See also Chapter 6 of
 
-* Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
+* {#LandoZvonkin} Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
 category: geometry, topology
 [[!redirects Vassiliev knot invariant]]
