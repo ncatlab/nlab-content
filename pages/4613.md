@@ -101,6 +101,9 @@ The special meaning in the context of [[Chern-Weil theory]] in [[differential ge
 
 * {#Karlsson} Michelle Karlsson, _Characteristic classes and bounded cohomology_ ([pdf](http://www.math.ethz.ch/u/burger/karlsson.pdf))
 
+Lecture notes on secondary cohomology classes in [[differential cohomology]] for flat connections is presented in
+
+* {#Bunke12} Ulrich Bunke, _Differential cohomology_, arXiv:[1208.3961](https://arxiv.org/abs/1208.3961)
 
 Discussion in complex [[algebraic geometry]] is in 
 
