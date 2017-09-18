@@ -15,11 +15,11 @@
 
 ## Idea
 
-On the one hand, a map into a [[classifying space]] _classifies_ some kind of [[object]], it is a _[[classifying morphism]]_, meaning that it characterizes it (only) up to [[equivalence]]. 
+On the one hand, a map into a [[classifying space]] _classifies_ some kind of [[object]], it is a _[[classifying morphism]]_, meaning that it characterizes the object (only) up to [[equivalence]]. 
 
-On the other hand, the more refined concept of a [[moduli stack]] is such that [[morphisms]] into it characterize the object itself. Hence it makes sense to say that such maps not just classify, but **modulate** the given object.
+On the other hand, the more refined concept of a [[moduli stack]] is such that [[morphisms]] into it characterize the object itself. Hence it makes sense to say that such maps into moduli stacks not just classify, but **modulate** the given object.
 
-In fact apparently that is the idea that originally gave rise to the name _[[moduli]]_.  
+Indeed, that is the idea that originally gave rise to the name _[[moduli]]_.  
 Because, more specifically, a [[moduli stack]] $\mathbf{F}$ of a certain kind of objects is such that morphisms $X \stackrel{\chi}{\longrightarrow} \mathbf{F}$ into it determine a [[bundle]] 
 
 $$
@@ -45,7 +45,7 @@ $$
   B O(n) \longrightarrow B GL(n)
 $$
 
-for the [[orthogonal group]] and the [[general linear group]]. These classify, respectively, $O(n)$-[[principal bundles]] and $GL(n)$-[[principal bundles]]. While as geometric (e.g. topological or smooth) [[bundles]] these are different, their [[equivalence classes]] are the same. Accordingly the above map is in fact a [[homotopy equivalence]] and accordiingly for $\Sigma$ any $n$-dimensional [[manifold]] whose [[tangent bundle]] is classified by $\iota \tau_\Sigma \colon \Sigma \longrightarrow B GL(n)$, then the space of lifts $\iota \hat \tau_\Sigma$ in
+for the [[orthogonal group]] and the [[general linear group]]. These classify, respectively, $O(n)$-[[principal bundles]] and $GL(n)$-[[principal bundles]]. While as geometric (e.g. topological or smooth) [[bundles]] these are different, their [[equivalence classes]] are the same. Accordingly the above map is in fact a [[homotopy equivalence]] and accordingly for $\Sigma$ any $n$-dimensional [[manifold]] whose [[tangent bundle]] is classified by $\iota \tau_\Sigma \colon \Sigma \longrightarrow B GL(n)$, then the space of lifts $\iota \hat \tau_\Sigma$ in
 
 $$
   \array{
