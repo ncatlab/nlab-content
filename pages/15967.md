@@ -94,6 +94,10 @@ from the simplicial classifying space of the classical unitary group $U_{n}(\C)$
 
 It is also clearly compact (contained in a product of polydiscs) and contained in the non-strict analytic group $\GL_{n}(\mathbb{C})$. Since $U(n)(\mathbb{C})$ is a maximal compact subgroup, we have that $U(n)$ is indeed the complex unitary group over $\mathbb{C}$.
 
+### More general symmetry groups
+ {#Symmetry}
+In order to treat projective varieties in a way that respects their natural symmetries, one may try to replace the homogeneous polynomials that are usually used to define them by the corresponding multilinear forms. The situation is very similar to what one may observe in the perturbative approach to quantum field theory: using multilinear forms (see Dieudonn\'e's books; see also Bourbaki, Alg\`ebre, and Knus, Merkurjiv, Rost, and Tignol's "book of involutions") will give a better take at symmetries, because it allows the use of the corresponding symmetry groups even in the characteristic $p$ situation. It may thus be better adapted to the study of (characteristic $p$ or integral coefficients).
+
 ###  Arithmetic principal unitary bundles
 
 The good properties of the global analytic unitary group **may** imply that there is a natural bijection
@@ -115,5 +119,4 @@ It is thus quite a tempting idea to try to formulate the arithmetic [[Langlands 
 ## Reference
 
 * [[Frédéric Paugam]] _Overconvergent global analytic geometry_ ([arXiv:1410.7971](http://arxiv.org/abs/1410.7971))
-
 
