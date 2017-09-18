@@ -553,13 +553,13 @@ In the case that $V$ is [[pointed topological spaces]] or pointed [[simplicial s
 For $(\mathcal{C},\otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $\mathcal{C}$, write
 
 $$
-  R FreeMod \hookrightarrow R Mod
+  R Free_{\mathcal{C}}Mod \hookrightarrow R Mod
 $$
 
-for the [[full subcategory]] of the [[category of modules]] over $R$ on those that are [[free modules]]. Hence the [[objects]] of $R FreeMod$ are those of $\mathcal{C}$ and the [[hom-objects]] are
+for the [[full subcategory]] of the [[category of modules]] over $R$ on those that are [[free modules]] and moreover free on objects in $\mathcal{C}$ (under the [[Yoneda embedding]]). Hence the [[objects]] of $R Free_{\mathcal{C}}Mod$ are those of $\mathcal{C}$ and the [[hom-objects]] are
 
 $$
-    R FreeMod(c_1,c_2)
+    R Free_{\mathcal{C}}Mod(c_1,c_2)
       \;\coloneqq\;
     R Mod( y(c_1) \otimes_{Day} R , y(c_2) \otimes_{Day} R)
   \,.
@@ -573,7 +573,7 @@ $$
 For $(\mathcal{C},\otimes, I)$ a [[small category|small]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $\mathcal{C}$, then there is an [[equivalence of categories]]
 
 $$
-  Mod_R \simeq [R FreeMod^{op}, V]
+  Mod_R \simeq [R Free_{\mathcal{C}}Mod^{op}, V]
 $$
 
 between the [[category of modules|category of right modules]] over $R$ and the [[enriched functor category]] out of the [[opposite category]] of that of free $R$-modules from def. \ref{FreeModulesOverAMonoidInDayConvolution}.
@@ -585,35 +585,8 @@ between the [[category of modules|category of right modules]] over $R$ and the [
 +-- {: .proof}
 ###### Proof idea
 
-First observe that the hom-objects in $R FreeMod$ are equivalently rewritten as follows
 
-$$
-  \begin{aligned}
-    R FreeMod(c_2,c_1)
-      & =
-    R Mod( y(c_2) \otimes_{Day} R , y(c_1) \otimes_{Day} R)
-    \\
-      & \simeq
-    [\mathcal{C},V](y(c_2), y(c_1) \otimes_{Day} R)
-    \\
-      & \simeq
-    (y(c_1) \otimes_{Day} R)(c_2)
-    \\
-      & \simeq
-     \overset{c_3,c_4}{\int}
-       \mathcal{C}(c_3 \otimes c_4,c_2)
-         \otimes_V
-       \mathcal{C}(c_1, c_3) \otimes_V R(c_4)
-     \\
-     & \simeq 
-     \overset{c_4}{\int}
-       \mathcal{C}(c_1 \otimes c_4,c_2)
-       \otimes_V R(c_4)
-  \end{aligned}
-  \,.
-$$
-
-Then use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $R$ with a [[lax monoidal functor]] and of any $R$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
+Use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $R$ with a [[lax monoidal functor]] and of any $R$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
 
 $$
   N(c_1) \otimes R(c_2) \longrightarrow N(c_1 \otimes c_2)
@@ -645,7 +618,104 @@ $$
 
 and subject to certain identifications.
 
-It remains to see that this identification is compatible with the various conditions.
+Now observe that the hom-objects of $R FreeMod$ (def. \ref{FreeModulesOverAMonoidInDayConvolution}) have just this structure:
+
+$$
+  \begin{aligned}
+    R Free_{\mathcal{C}}Mod(c_2,c_1)
+      & =
+    R Mod( y(c_2) \otimes_{Day} R , y(c_1) \otimes_{Day} R)
+    \\
+      & \simeq
+    [\mathcal{C},V](y(c_2), y(c_1) \otimes_{Day} R)
+    \\
+      & \simeq
+    (y(c_1) \otimes_{Day} R)(c_2)
+    \\
+      & \simeq
+     \overset{c_3,c_4}{\int}
+       \mathcal{C}(c_3 \otimes c_4,c_2)
+         \otimes_V
+       \mathcal{C}(c_1, c_3) \otimes_V R(c_4)
+     \\
+     & \simeq 
+     \overset{c_4}{\int}
+       \mathcal{C}(c_1 \otimes c_4,c_2)
+       \otimes_V R(c_4)
+  \end{aligned}
+  \,.
+$$
+
+We claim that under this identification, composition in $R Free_{\mathcal{C}}Mod$ is given by
+
+$$
+  \begin{aligned}
+    R FreeMod(c_2, c_1) \otimes_V R FreeMod(c_3, c_2)
+    & =
+    \left(
+    \overset{c_4}{\int} \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4, c_2)     
+     \otimes_V R(c_4)
+    \right)
+      \otimes_V
+    \left(
+    \overset{c_5}{\int} \mathcal{C}(c_2 \otimes_{\mathcal{C}} c_5, c_3 )
+     \otimes_V R(c_5)
+    \right)
+    \\
+    & \simeq
+    \overset{c_4, c_5}{\int} 
+      \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4  , c_2  )
+        \otimes_V 
+      \mathcal{C}(c_2 \otimes_{\mathcal{C}} c_5, c_3)
+        \otimes_V
+      R(c_4) \otimes_V R(c_5)
+    \\
+    & \longrightarrow
+      \overset{c_4,c_5}{\int} 
+      \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}}  c_5 , c_2 \otimes_{\mathcal{C}} c_5  )
+        \otimes_V 
+      \mathcal{C}(c_2 \otimes c_5, c_3)
+        \otimes_V
+      R(c_4 \otimes_{\mathcal{C}} c_5 )
+     \\
+     & \longrightarrow
+      \overset{c_4, c_5}{\int} 
+      \mathcal{C}(c_1\otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}} c_5 , c_3)
+        \otimes_V
+      R(c_4 \otimes_{\mathcal{C}} c_5 )
+     \\
+     & \longrightarrow
+      \overset{c_4}{\int} 
+      \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4 , c_3)
+        \otimes_V
+      R(c_4 )
+  \end{aligned}
+  \,,
+$$
+
+where
+
+1. the first morphism is, in the integrand, the tensor product of 
+
+   1. forming the tensor product of hom-objects of $\mathcal{C}$ with the identity of $c_5$
+
+      $$
+        \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4, c_2 ) \simeq 
+       \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4, c_2 ) \otimes_V 1_V
+       \overset{}{\longrightarrow}
+       \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4, c_2 ) \otimes \mathcal{C}(c_5,c_5)
+       \longrightarrow
+       \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}} c_5, c_2 \otimes_{\mathcal{C}} c_5)
+      $$
+
+   1. the monoidal functor incarnation $R(c_4) \otimes_V R(c_5)\longrightarrow R(c_4 \otimes_{\mathcal{C}} c_5 )$ of the monoid structure on $R$;
+
+1. the second morphism is, in the integrand, given by composition in $\mathcal{C}$;
+
+1. the last morphism is the morphism induced on [[coends]] by regarding [[extranatural transformation|extranaturality]] in $c_4$ and $c_5$ separately as a special case of extranaturality in $c_6 \coloneqq c_4 \otimes c_5$ (and then renaming).
+
+It is fairly straightforward to see that, under the above identifications, functoriality under this composition is equivalently functoriality in $\mathcal{C}$ together with the action property over $R$.
+
 
 =--
 
