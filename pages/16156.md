@@ -20,7 +20,7 @@ The [[fibrant objects]] are the [[pretriangulated dg-categories]].
 
 The [[weak equivalences]] are the Morita equivalences, i.e. functors $u : A \to B$ inducing [[equivalences of dg-categories|equivalences]] of [[derived dg-categories]]
   $$ D(B) \to D(A). $$
-The [[fibrant objects]] are the [[idempotent complete]] [[dg-categories]].
+The [[fibrant objects]] are the [[idempotent complete dg-category|idempotent complete]] [[pretriangulated dg-categories]].
 
 ## References
 
