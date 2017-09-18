@@ -38,7 +38,13 @@ The point of Landweber-exactness is that if $f$ is Landweber exact (i.e. if the 
 +-- {: .num_prop}
 ###### Proposition 
 **Landweber criterion**  Let $f(x,y)$ be a [[formal group law]] and $p$ a [[prime]],
-$v_i$ the [[coefficient]] of $x^{p^i}$ in $[p]_f(x)=x+_f\cdots+_f x$.
+$v_i$ the [[coefficient]] of $x^{p^i}$ in 
+
+$$
+  [p]_f(x) \coloneqq \underset{p\,\text{summands}}{\underbrace{x+_f\cdots+_f x}}
+  \,.
+$$
+
 If $v_0,\ldots,v_i$ form a [[regular sequence]] for all $p$ and $i$ then $f(x,y)$ is Landweber exact and hence gives a 
 [[cohomology theory]] via the the formula above.
 
