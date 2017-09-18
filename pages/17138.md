@@ -316,3 +316,4 @@ and new foundations have been laid in
 
 
 [[!redirects geometry of physics -- stable homotopy types]]
+[[!redirects geometry of physics -- stable homotopy theory]]
