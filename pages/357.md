@@ -185,8 +185,11 @@ This is ([CruttwellShulman, page 7](#CruttwellShulman)).
 
 Virtual double categories can be viewed as "the natural place in which to enrich categories."  Specifically, for any set $A$, there is a virtual double category $A_{ch}$ which has $A$ as its objects, only identity vertical arrows, exactly one horizontal arrow from every object to every other object, and exactly one 2-cell in every possible niche.  For any other virtual double category $W$, a functor $A_{ch}\to W$ of virtual double categories is the same as a $W$-enriched category with object set $A$.
 
+## Related pages
 
-
+* [[double category]]
+* [[virtual equipment]]
+* [[hypervirtual double category]]
 
 ## References
 
