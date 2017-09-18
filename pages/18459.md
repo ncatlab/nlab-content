@@ -1,0 +1,14 @@
+
+This page collects material related to the article
+
+* [[William Lawvere]], 
+
+  _Equality in hyperdoctrines and comprehension schema as an adjoint functor_,
+
+  Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14. 
+
+  ([pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf))
+
+on [[hyperdoctrines]] and [[comprehension]] in terms of [[base change]] [[adjoint functors]].
+
+category: reference
