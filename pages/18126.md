@@ -162,9 +162,7 @@ $$
   \right\}
 $$
 
-for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
-
-Similarly we write
+for the [[open ball]] of [[radius]] $\epsilon$ around $x$. Similarly we write
 
 $$
   B_x(\epsilon)
@@ -212,7 +210,7 @@ A key source of metric spaces are [[norm|normed]] _[[vector spaces]]_:
 
 A _[[normed vector space]]_ is
 
-1. [[real vector space]] $V$;
+1. a [[real vector space]] $V$;
 
 1. a [[function]] (the _[[norm]]_)
 
@@ -326,10 +324,13 @@ $$
   f \;\colon\; X \longrightarrow Y
 $$
 
-is said to be _continuous at a point $x \in X$_ if for every $\epsilon \gt 0$ there exists $\delta\gt 0$ such that
+is said to be _continuous at a point $x \in X$_ if for 
+every [[positive number|positive]] [[real number]] $\epsilon \gt 0$ 
+there exists a [[positive number|positive]] [[real number]] $\delta\gt 0$ such that
+for all $y \in Y$
 
 $$
-  d_X(x,y) \lt \delta \;\;\Rightarrow\;\; d_Y(f(x), f(y)) \lt \epsilon
+  d_X(x,y) \lt \delta \;\;\Rightarrow\;\; d_Y(\,f(x), f(y)\,) \lt \epsilon
 $$
 
 or equivalently such that
@@ -346,6 +347,7 @@ The function $f$ is said to be _continuous_ if it is continuous at every point $
 
 +-- {: .num_example}
 ###### Example
+**([[polynomials are continuous functions]])**
 
 Consider the [[real line]] $\mathbb{R}$ regarded as the
 1-dimensional [[Euclidean space]] $\mathbb{R}$ from example \ref{EuclideanNorm}.
@@ -362,12 +364,11 @@ $$
 
 is a [[continuous function]] in the sense of def. \ref{EpsilonDeltaDefinitionOfContinuity}.
 
-On the other hand, a [[step function]] is continuous everywhere except at the [[finite number]] of points
-at which it changes its value.
-
-
-
 =--
+
+On the other hand, a [[step function]] is continuous everywhere except at the [[finite number]] of points
+at which it changes its value, see example \ref{StepFunction} below.
+
 
 We now reformulate the analytic concept of continuity from def. \ref{EpsilonDeltaDefinitionOfContinuity} in terms of the simple but important concept of _[[open sets]]_:
 
@@ -451,8 +452,9 @@ Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for ev
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #StepFunction}
 ###### Example
+**([[step function]])**
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/HeavisideFunction.png" width="300>
@@ -875,7 +877,7 @@ def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
 
    we write $CoDisc(S)$ for the resulting topological space.
 
-The reason for this terminology is best seen when considering [[continuous functions]] into these (co-)disctete topological spaces.
+The reason for this terminology is best seen when considering [[continuous functions]] into or out of these (co-)discrete topological spaces.
 See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
 
 =--
@@ -1029,14 +1031,15 @@ identifying the remaining sides (the _[[torus]]_).
 
 =--
 
-Sometimes it is useful to recognize topological quotient projections via [[saturated subsets]]:
+Sometimes it is useful to recognize topological quotient projections via [[saturated subsets]]
+(essentially another term for pre-images of underlying sets):
 
 +-- {: .num_defn #SubsetSaturated}
 ###### Definition
 **([[saturated subset]])**
 
 Let $f \;\colon\; X \longrightarrow Y$ be a [[function]] of [[sets]].
-Then a [[subset]] $S \subset S$ is called an _$f$-[[saturated subset]]_ (or just _separated subset_, if $f$ is understood)
+Then a [[subset]] $S \subset S$ is called an _$f$-[[saturated subset]]_ (or just _saturated subset_, if $f$ is understood)
 if $S$ is the [[pre-image]] of its [[image]]:
 
 $$
@@ -1047,6 +1050,17 @@ $$
   \right)
   \,.
 $$
+
+Here $f^{-1}(f(S))$ is also called the _$f$-saturation_ of $S$.
+
+=--
+
++-- {: .num_example #PreImagesAreSaturatedSubsets}
+###### Example
+**(pre-images are saturated subsets)**
+
+For $f \;\colon\; X \to Y$ any [[function]] of [[sets]], and $S_Y \subset Y$ any [[subset]] of $Y$, then the 
+[[pre-image]] $f^{-1}(S_Y) \subset X$ is an $f$-[[saturated subset]] of $X$ (def. \ref{SubsetSaturated}).
 
 =--
 
@@ -1679,7 +1693,62 @@ $\,$
 =--
 
 Beware that in general a continuous function itself (as opposed to its [[pre-image]] function) neighther
-preserves [[open subsets]], nor [[closed subsets]]. Those that happen to do so get a special name:
+preserves [[open subsets]], nor [[closed subsets]]:
+
++-- {: .num_example}
+###### Example
+
+Regard the [[real numbers]] $\mathbb{R}$ as the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm})
+equipped with the [[metric topology]] (def. \ref{MetricTopology}).
+For $a \in \mathbb{R}$ the [[constant function]]
+
+$$
+  \array{
+    \mathbb{R} &\overset{const_a}{\longrigharrow}& \mathbb{R}
+    \\
+    x &\mapsto& a
+  }
+$$
+
+maps every [[open subset]] $U \subset \mathbb{R}$ to the [[singleton set]] $\{a\} \subset \mathbb{R}$, which is not open.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Write $Disc(\mathbb{R})$ for the set of [[real numbers]] equipped with its [[discrete topology]] (def. \ref{CoDiscreteTopology})
+and $\mathbb{R}$ for the set of [[real numbers]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]] 
+(def. \ref{EuclideanNorm}, def. \ref{MetricTopology}). Then the [[identity function]] on the underlying sets
+
+$$
+  id_{\mathbb{R}} \;\colon\; Disc(\mathbb{R}) \longrightarrow \mathbb{R}
+$$
+
+is a [[continuous function]] (see also example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces}).
+A [[singleton set|singleton]] [[subset]] $\{a\} \in Disc(\mathbb{R})$ is open, but regarded as a subset
+$\{a\} \in \mathbb{R}$ it is not open.
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Regard the set of [[real numbers]] $\mathbb{R}$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]]
+(def. \ref{EuclideanNorm}, def. \ref{MetricTopology}). The [[exponential function]]
+
+$$
+  \exp(-) \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}
+$$
+
+maps all of $\mathbb{R}$ (which is a closed subset $\mathbb{R} = \mathbb{R} \backslash \emptyset$) to 
+the [[half-open interval]] $(0,\infty] \subset \mathbb{R}$, which is not closed.
+
+=--
+
+Those continuous function that do happen to preserve 
+open or closed subsets get a special name:
 
 +-- {: .num_defn #OpenMap}
 ###### Definition
@@ -1693,17 +1762,32 @@ A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ (def. \ref{Conti
 
 =--
 
++-- {: .num_example}
+###### Example
+
+For $(X_1,\tau_{X_1})$ and $(X_2,\tau_{X_2})$ two [[topological spaces]], then the projection maps
+
+$$
+  \pi_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
+$$
+
+out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) are [[open maps]] (def. \ref{OpenMap}). 
+
+=--
+
+Below in prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed} we find a large supply of [[closed maps]].
 
 +-- {: .num_lemma #SaturatedOpenNeighbourhoodsOfSaturatedClosedSubsets}
 ###### Lemma
+**(saturated open neighbourhoods of saturated closed subsets under closed maps)**
 
 Let
 
-1. $f \;\colon\; (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[closed map]] (def. \ref{OpenMap}).
+1. $f \;\colon\; (X, \tau_X) \longrightarrow (Y, \tau_Y)$ be a [[closed map]] (def. \ref{OpenMap});
 
-1. $C \subset X$ be a [[closed subset]] (def. \ref{ClosedSubset}) which is $f$-[[saturated subset|saturatd]] (def. \ref{DetectViaSaturatedSubsetsContinuousQuotientMap});
+1. $C \subset X$ be a [[closed subset]] of $X$ (def. \ref{ClosedSubset}) which is $f$-[[saturated subset|saturated]] (def. \ref{DetectViaSaturatedSubsetsContinuousQuotientMap});
 
-1. $U \supset C$ an [[open subset]] containing $C$
+1. $U \supset C$ an [[open subset]] containing $C$;
 
 then there exists a smaller open subset $V$ still containing $C$
 
@@ -1718,7 +1802,7 @@ and such that $V$ is $f$-[[saturated subset|saturated]].
 +-- {: .proof}
 ###### Proof
 
-We claim that
+We claim that the [[complement]] of $X$ by the $f$-saturation of the complement of $X$ by $U$ spring
 
 $$
   V \coloneqq X \backslash \left(  f^{-1}\left( f\left(  X \backslash U \right)  \right) \right)
@@ -1733,7 +1817,7 @@ has the desired properties. To see this, observe first that
 1. hence the pre-image $f^{-1}\left( f\left(  X \backslash U \right)\right)$ is closed, since $f$ is continuous
    (using prop. \ref{ClosedSubsetContinuity}), therefore its complement $V$ is indeed open;
 
-1. this pre-image $f^{-1}\left( f\left(  X \backslash U \right) \right)$ is saturated, as all pre-images clearly are,
+1. this pre-image $f^{-1}\left( f\left(  X \backslash U \right) \right)$ is saturated (example \ref{PreImagesAreSaturatedSubsets})
    and hence also its complement $V$ is saturated, by lemma \ref{ComplementOfSaturatedSubsetIsSaturated}.
 
 Therefore it now only remains to see that $U \supset V \supset C$.
@@ -1820,11 +1904,16 @@ Let $S$ be a [[set]] and let $(X,\tau)$ be a [[topological space]]. Recall from 
 
 1. the [[co-discrete topological space]] $CoDisc(S)$
 
-on the underlying set $S$. Then [[continuous functions]] (def. \ref{ContinuousMaps}) into these satisfy:
+on the underlying set $S$. Then [[continuous functions]] (def. \ref{ContinuousMaps}) into/out of these satisfy:
 
-1. every [[continuous function]] $(X,\tau) \longrightarrow Disc(S)$ is [[locally constant function|locally constant]] (def. \ref{FunctionLocallyConstant});
+1. every [[function]] (of sets) $Disc(S) \longrightarrow X$ out of a discrete space is [[continuous function|continuous]];
 
-1. every [[function]] (of sets) $X \longrightarrow CoDisc(S)$ is [[continuous function|continuous]].
+1. every [[function]] (of sets) $X \longrightarrow CoDisc(S)$ into a codiscrete space is [[continuous function|continuous]].
+
+Also:
+
+* every [[continuous function]] $(X,\tau) \longrightarrow Disc(S)$ into a discrete space is [[locally constant function|locally constant]] (def. \ref{FunctionLocallyConstant}).
+
 
 =--
 
