@@ -1,0 +1,14 @@
+
+
+This entry is going to become an exposition to the topics of 
+
+1. [[Cartan geometry]], 
+
+1. higher dimensional [[supergravity]] 
+
+1. the [[brane scan]] 
+
+and an indication of how these all naturally flow out of a common source when considered in [[higher differential geometry|higher differential]] [[supergeometry]].
+
+> However, for the time being this entry is under construction and mostly non-existent.  Nothing to be seen here yet, please move to another entry.
+
