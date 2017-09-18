@@ -68,9 +68,9 @@ The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactifi
 
 ## Properties
 
-### M2-branes at orbifold fixed points -- BLG and ABJM
+### M2-branes at ADE-orbifold singularities -- BLG and ABJM
 
-In some situations stacks of M2-branes are accurately described by [[ABJM theory]] of the [[BLG model]].
+The worldvolume theory of M2-branes sitting at [[ADE singularities]] is supposed to be described by [[ABJM theory]] and, for the special case of $SU(2)$ gauge group, by the [[BLG model]]. See also at _[[gauge enhancement]]_.
 
 ### AdS4-CFT3 duality
 
@@ -182,21 +182,27 @@ Other recent developments are discussed in
 
 Formulations of multiple M2-branes on top of each other are given by the _[[BLG model]]_ and the _[[ABJM model]]_. See there for more pointers. The relation of these to the above is discussed in section 3 of 
 
+Discusson of [[boundary conditions]] in the ABJM model (for M2-branes ending on [[M5-branes]]) is in
+
+* {#BermanThomson09} [[David Berman]], Daniel Thompson, _Membranes with a boundary_, Nucl.Phys.B820:503-533,2009 ([arXiv:0904.0241](http://arxiv.org/abs/0904.0241))
+
+A kind of [[double dimensional reduction]] of the ABJM model to something related to [[type II superstrings]] and [[D1-branes]] is discussed in
+
 * [[Horatiu Nastase]], Constantinos Papageorgakis, _Dimensional reduction of the ABJM model_,  JHEP 1103:094,2011 ([arXiv:1010.3808](http://arxiv.org/abs/1010.3808))
 
-Specifically, discussion of these in [[Horava-Witten theory]] and reducing to [[heterotic strings]] is in
+Discussion of the ABJM model in [[Horava-Witten theory]] and reducing to [[heterotic strings]] is in
 
 * {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
 
 
-Discussion of general phenomena of M-branes in [[higher geometry]] and [[generalized cohomology]] is in 
+Discussion of general phenomena of [[M-branes]] in [[higher geometry]] and [[generalized cohomology]] is in 
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
 
 Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
- {#FSS2013}
+* {#FSS2013} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
+ 
 
 
 ### Dualities
