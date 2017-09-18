@@ -101,12 +101,16 @@ An [[commutative ring spectrum]] $E$ over $MU$, hence a $Spec(E)\to Spec(MU)$ is
 
 
 ## **Part 1) Stable homotopy theory**
+
+[[stable homotopy theory]]
  
-For a good quick survey of [[stable homotopy theory]] see ([Malkiewich 14](#Malkiewich14)). 
+We follow ([Malkiewich 14](#Malkiewich14)). 
 
 ### Spectra
 
 * [[spectrum]]
+
+* [[stable homotopy category]]
 
 * [[smash product of spectra]]
 
@@ -117,12 +121,12 @@ For a good quick survey of [[stable homotopy theory]] see ([Malkiewich 14](#Malk
 
 ### Examples
 
-...[[HA]], [[MO]], [[MU]], [[KO]], [[KU]]...
+...[[S]]. [[HA]], [[MO]], [[MU]], [[KO]], [[KU]]...
 
 
 ### Localization
 
-* [[Bousfield localization of spectra]]
+[[Bousfield localization of spectra]] and [[fracture theorem]]
 
 +-- {: .num_defn #AcyclicAndLocal}
 ###### Definition
@@ -889,7 +893,7 @@ $\,$
 
 ### Basic
 
-For section **1) Stable homotopy theory** a good quick survey is
+For section **1) Stable homotopy theory** we follow 
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf))
 
@@ -901,16 +905,15 @@ as surveyed in ([Hopkins 99, section 5](#Hopkins99)) and expanded on in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
-For the case $E =$ [[MU]] we may follow ([Adams 74](#Adams74)).
 
-For **S1) Generalized cohomology** there are many standard texts, these here give a nice modern perspective:
+For **S1) Generalized cohomology** there are many sources, these here provide a nice modern perspective:
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 * {#Freed13} [[Dan Freed]], _Bordism: old and new_, 2013 ([pdf](http://www.ma.utexas.edu/users/dafr/bordism.pdf))
 
 
-For **S2) Complex oriented cohomology** see:
+For **S2) Complex oriented cohomology** see
 
 * {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
