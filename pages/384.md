@@ -280,3 +280,6 @@ An inconclusive discussion [here](http://nforum.mathforge.org/discussion/4135/si
 [[!redirects CW-complex]]
 [[!redirects CW complexes]]
 [[!redirects CW-complexes]]
+
+[[!redirects relative CW-complex]]
+[[!redirects relative CW-complexes]]
