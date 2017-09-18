@@ -69,6 +69,7 @@ in learning the subject rather then only the goals and supposed content matter. 
    * blog opinion [What Does Liping Ma REALLY say?](http://rationalmathed.blogspot.hr/2007/06/what-does-liping-ma-really-say.html)
 * [Guy Brousseau](http://www.ardm.eu/contenu/guy-brousseau-english) and at French [wikipedia](https://pt.wikipedia.org/wiki/Guy_Brousseau)
 * Harold W. Stevenson (educational psychologist), _Mathematics learning in early childhood_, NCTM, 1985
+* John A. Van de Walle et al. _Elementary and middle school mathematics. Teaching developmentally_, Pearson 2004, 2007, 2010, 2013
 
 ### Opinion articles
 
@@ -77,6 +78,9 @@ in learning the subject rather then only the goals and supposed content matter. 
 * [[Richard Askey]], _Good intentions are not enough_, [pdf](http://www.math.wisc.edu/~askey/ask-gian.pdf)
 
 ### Other references
+
+* G. Ziegler, "Teaching and learning "What is mathematics?", in Proc.ICM 2014, Seoul, vol. 4
+* Lingguo Bu, Robert Schoen (eds.), _Model centered learning_, Pathways to mathematical understanding using geogebra, vol. 6 of MODELING AND SIMULATIONS FOR LEARNING AND INSTRUCTION
 
 Cognitive, linguistic and cultural aspects of mathematics (which are of relevance for learning) are emphasized in
 
