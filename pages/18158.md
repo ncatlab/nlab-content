@@ -1226,7 +1226,7 @@ We now discuss how all of the above constructions and statements, and a bit more
 
 +-- {: .num_defn #GaloisConnection}
 ###### Definition
-**([[Galois connection]])**
+**([[Galois connection]] induced from a [[relation]])**
 
 Consider two [[sets]] $X,Y \in Set$ and a [[relation]]
 
