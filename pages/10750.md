@@ -2152,7 +2152,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-Let $Seq$ denote the category with objects the [[natural numbers]], and only the [[zero morphisms]] and [[identity morphisms]] on these objects:
+Let $Seq$ denote the category with objects the [[natural numbers]], and only the [[zero morphisms]] and [[identity morphisms]] on these objects (we consider this in a braoder context below in def. \ref{TopologicalDiagramCategoriesForSpectra}):
 
 $$
   Seq(n_1,n_2)
@@ -2319,7 +2319,7 @@ for the $Top^{\ast/}_{cg}$-[[Yoneda embedding]], so that for $c\in \mathcal{C}$ 
 +-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
 ###### Proposition
 
-For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}), the [[Day convolution]] tensor product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
+For $(\mathcal{C},\otimes, 1)$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}), the [[Day convolution]] tensor product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
 
 $$
   ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))
@@ -2336,7 +2336,7 @@ $$
     \overset{c_1,c_2}{\int} 
      \mathcal{C}(c_1 \otimes c_2) \wedge X(c_1) \wedge Y(c_2)
     \\
-    {}^{\mathllap{\tau}_{X,Y}(c)}\downarrow
+    {}^{\mathllap{\tau}^{Day}_{X,Y}(c)}\downarrow
     &&
     \downarrow^{\mathrlap{\overset{c_1,c_2}{\int} \mathcal{C}(\tau^{\mathcal{C}}_{c_1,c_2}, c  ) \wedge \tau^{Top^{\ast/}}_{X(c(1)), X(c_2)}  }}
     \\
@@ -2347,6 +2347,8 @@ $$
   }
   \,.
 $$
+
+Finally, if $\tau^{\mathcal{C}}$ is a [[symmetric monoidal category|symmetric braiding]] (def. \ref{SymmetricMonoidalCategory}) then also $\tau^{Day}$ is symmetric.
 
 =--
 
@@ -2360,35 +2362,152 @@ $$
     (X \otimes_{Day} ( Y \otimes_{Day} Z ))(c)
     & \simeq
     \overset{(c_1,c_2)}{\int}
-      \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2, \,c) 
+      \mathcal{C}(c_1 \otimes c_2, \,c) 
         \wedge
       X(c_1) 
        \wedge
       \overset{(d_1,d_2)}{\int}
-       \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c_2 )
-       (Y(d_2) \wedge Z(d_2))
+       \mathcal{C}(d_1 \otimes d_2, c_2 )
+       (Y(d_1) \wedge Z(d_2))
     \\
     &\simeq \overset{c_1, d_1, d_2}{\int}
-    \underset{\simeq \mathcal{C}(c_1 \otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c )}{
+    \underset{\simeq \mathcal{C}(c_1 \otimes d_1 \otimes_{\mathcal{C}} d_2, c )}{
       \underbrace{
        \overset{c_2}{\int} 
-         \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2 , c)
+         \mathcal{C}(c_1 \otimes c_2 , c)
            \wedge
-         \mathcal{C}(d_1 \otimes_{\mathcal{C}}d_2, c_2 )
+         \mathcal{C}(d_1 \otimes d_2, c_2 )
       }
     }
     \wedge X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
     \\
     &\simeq 
     \overset{c_1, d_1, d_2}{\int}
-     \mathcal{C}(c_1\otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c ) 
+     \mathcal{C}(c_1\otimes  ( d_1 \otimes  d_2), c ) 
        \wedge  
      X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
   \end{aligned}
   \,,
 $$
 
-where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). An analogous formula follows for $X \otimes_{Day}  (Y \otimes_{Day} Z)))(c)$, and so associativity follows via prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} from the associativity of the [[smash product]] and of the tensor product $\otimes_{\mathcal{C}}$.
+where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). Similarly
+
+Regarding [[associativity]], observe that
+
+$$
+  \begin{aligned}
+    (X \otimes_{Day} ( Y \otimes_{Day} Z ))(c)
+    & \simeq
+    \overset{(c_1,c_2)}{\int}
+      \mathcal{C}(c_1 \otimes c_2, \,c) 
+        \wedge
+      X(c_1) 
+       \wedge
+      \overset{(d_1,d_2)}{\int}
+       \mathcal{C}(d_1 \otimes d_2, c_2 )
+       (Y(d_1) \wedge Z(d_2))
+    \\
+    &\simeq \overset{c_1, d_1, d_2}{\int}
+    \underset{\simeq \mathcal{C}(c_1 \otimes (d_1 \otimes_{\mathcal{C}} d_2), c )}{
+      \underbrace{
+       \overset{c_2}{\int} 
+         \mathcal{C}(c_1 \otimes c_2 , c)
+           \wedge
+         \mathcal{C}(d_1 \otimes d_2, c_2 )
+      }
+    }
+    \wedge 
+    (X(c_1) \wedge (Y(d_1) \wedge Z(d_2)))
+    \\
+    &\simeq 
+    \overset{c_1, d_1, d_2}{\int}
+     \mathcal{C}(c_1\otimes  ( d_1 \otimes  d_2), c ) 
+       \wedge  
+     (X(c_1) \wedge (Y(d_1) \wedge Z(d_2)))
+    \\
+    & \simeq
+    \overset{c_1, c_2, c_3}{\int}
+     \mathcal{C}(c_1\otimes  ( c_2 \otimes  c_3), c ) 
+       \wedge  
+     (X(c_1) \wedge (Y(c_2) \wedge Z(c_3)))
+  \end{aligned}
+  \,,
+$$
+
+where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). Similarly
+
+$$
+  \begin{aligned}
+    (( X \otimes_{Day} Y ) \otimes_{Day} Z)(c)
+    & \simeq
+    \overset{(c_1,c_2)}{\int}
+     \mathcal{C}(c_1 \otimes c_2, c)
+     \wedge
+    \overset{(d_1,d_2)}{\int}
+    \mathcal{C}(d_1 \otimes d_2, c_1)
+     \wedge
+     (X(d_1) \wedge Y(d_2))
+    \wedge
+    Y(c_2)
+   \\
+   & \simeq
+   \overset{c_2,d_1,d_2}{\int}
+   \underset{\simeq \mathcal{C}((d_1 \otimes d_2) \otimes c_2) }{
+   \underbrace{
+     \overset{c_1}{\int}
+     \mathcal{C}(c_1\otimes c_2, c)
+     \wedge
+     \mathcal{C}(d_1 \otimes d_2, c_1)
+   }}
+   \wedge
+   ((X(d_1) \wedge Y(d_2)) \wedge Z(c_2))
+   \\
+   & \simeq
+   \overset{c_2,d_1,d_2}{\int}
+   \mathcal{C}((d_1 \otimes d_2) \otimes c_2)
+   \wedge
+   ((X(d_1) \wedge Y(d_2)) \wedge Z(c_2))
+   \\
+    &\simeq
+   \overset{c_1,c_2, c_3}{\int}
+   \mathcal{C}((c_1 \otimes c_2) \otimes c_3)
+   \wedge
+   ((X(c_1) \wedge Y(c_2)) \wedge Z(c_3))
+  \end{aligned}
+  \,.
+$$
+
+So we obtain an [[associator]] by combining, in the integrand, the associator $\alpha^{\mathcal{C}}$ of $(\mathcal{C}, \otimes, 1)$ and $\tau^{Top^{\ast/}}$ of $(Top^{\ast}_{cg}, \wedge, S^0)$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}):
+
+$$
+  \array{
+    ((X \otimes_{Day} Y) \otimes_{Day} Z)(c)
+     &\simeq&
+     \overset{c_1,c_2, c_3}{\int}
+     \mathcal{C}((c_1 \otimes c_2) \otimes c_3)
+     \wedge
+    ((X(c_1) \wedge Y(c_2)) \wedge Z(c_3))
+    \\
+    {}^{\mathllap{
+      \alpha^{Day}_{X,Y,Z}
+    }}\downarrow 
+      && 
+    \downarrow^{\mathrlap{
+      \overset{c_1,c_2,c_3}{\int}
+       \mathcal{C}( \alpha^{\mathcal{C}}_{c_1,c_2,c_3} , c )
+        \wedge
+       \alpha^{Top^{\ast/}_{cg}}_{X(c_1), X(c_2), X(c_3)}
+    }}
+   \\
+   (X \otimes_{Day} (Y \otimes_{Day} Z) )(c)
+   &\simeq&
+    \overset{c_1, c_2, c_3}{\int}
+     \mathcal{C}(c_1\otimes  ( c_2 \otimes  c_3), c ) 
+       \wedge  
+     (X(c_1) \wedge (Y(c_2) \wedge Z(c_3)))   
+  }
+$$
+
 
 Similarly, if $\mathcal{C}$ is braided then the hexagon identity for the [[braiding]] follows, under the coend, from the hexagon identities for the braidings in $\mathcal{C}$ and $Top^{\ast/}_{cg}$.
 
@@ -4117,17 +4236,18 @@ These are the objects and hom-spaces of the category $StdSpheres$. It is straigh
 +-- {: .num_defn #StableOrthStructureClassesOfMorphisms}
 ###### Definition
 
-For $OrthSpec(Top_{cg})$ the category of [[orthogonal spectra]] from def. \ref{SsymModuleSymmetricSpectra} we say that
+For $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym, Seq\}$ one of the shapes of structured spectra from def. \ref{TopologicalDiagramCategoriesForSpectra}, let $\mathbb{S}_{dia}Mod$ be the corresponding category of structured spectra (def. \ref{FinitePointedCWComplexes}, prop. \ref{SseqModulesAreSequentialSpectra}, def. \ref{SsymModuleSymmetricSpectra}).
 
-1. an object $X$ is a **structured [[Omega-spectrum]]** if the underlying [[sequential spectrum]] $seq^\ast X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) is a sequential [[Omega spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum))
 
-1. a morphism $f$ is a **[[stable weak homotopy equivalence]]** (or: **$\pi_\bullet$-isomorphism**) if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] of sequential spectra ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra));
+1. An object $X \in \mathbb{S}_{dia}Mod$ is a **structured [[Omega-spectrum]]** if the underlying [[sequential spectrum]] $seq^\ast X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) is a sequential [[Omega spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum))
+
+1. A morphism $f$ in $\mathbb{S}_{dia}Mod$ is a **[[stable weak homotopy equivalence]]** (or: **$\pi_\bullet$-isomorphism**) if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] of sequential spectra ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra));
 
 1. a morphism $f$ is a **stable cofibration** if it is a cofibration in the strict model structure $OrthSpec(Top_{cg})_{strict}$ from prop. \ref{StrictModelStructureOnDiagramSpectra}.
 
 =--
 
-(e.g. [MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
+([MMSS 00, def. 8.3 with the notation from p. 21](#MMSS00), [Mandell-May 02, III, def. 3.1, def. 3.2](#May02)) spring
 
 
 +-- {: .num_lemma #DegreewiseLESofHomotopyGroupsInducedStableLES}
@@ -4700,7 +4820,7 @@ $$
 
 =--
 
-([Mandell-May 02, prop. 2.2.6](#May02), [MMSS 00, lemma 1.8 with theorem 2.2](#MMSS00)) 
+([MMSS 00, lemma 1.8 with theorem 2.2](#MMSS00), [Mandell-May 02, prop. 2.2.6](#May02)) 
 
 +-- {: .proof}
 ###### Proof
@@ -6223,7 +6343,7 @@ First regarding strict cofibrations: By the [[Yoneda lemma]], the elements in $J
 
 Regarding stable weak homotopy equivalences: The morphisms in $J^{strict}$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. The morphisms $k_n$ are stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} and by [[two-out-of-three]].
 
-To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 99, p.46](#May99)): 
+To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 02, p.46](#May02)): 
 
 First $k_n \wedge (S^{n-1})_+$ is still a stable weak homotopy equivalence, by lemma. \ref{SmashTensoringWithFiniteCellComplexPreservesSWHE}. This implies by lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} that its pushout along $dom(k_n)\wedge i_+$ is still a stable weak homtopy equivalence, and so $k_n \Box i_+$ is by [[two-out-of-three]].
 
@@ -6448,11 +6568,11 @@ The model structure on orthogonal spectra and its [[Quillen equivalence]] to the
 
 The further Quillen equivalence to the [[model structure on S-modules]] is due to 
 
-* {#May02} [[Michael Mandell]], [[Peter May]], _Orthogonal spectra and $S$-modules_, Memoirs of the AMS,number 755 (2002) ([K-theory:0318](http://www.math.uiuc.edu/K-theory/0318/), [pdf](http://www.math.uchicago.edu/~may/PAPERS/mmLMSDec30.pdf))
+* {#May99} [[Michael Mandell]], [[Peter May]], _Orthogonal spectra and $S$-modules_, 1999 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmLMSDec30.pdf))
 
 The analogous result for [[equivariant spectra]] is in
 
-* {#May99} [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Memoirs of the AMS 2002  ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf))
+* {#May02} [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Memoirs of the AMS 2002  ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf))
 
 The $\mathbb{S}$-model structure on orthogonal spectra:
 
