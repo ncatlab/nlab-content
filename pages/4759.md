@@ -314,8 +314,6 @@ A **proof** of lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective} via anal
 
  
 
-https://ncatlab.org/nlab/show/splitting+principle#InjectivityOfPullbackInCohomologyToBT
-
 +-- {: .num_prop #SplittingPrincipleForChernClasses}
 ###### Proposition
 
@@ -451,6 +449,44 @@ This completes the induction step.
 
 =--
 
+### Whitney sum formula
+
++-- {: .num_prop #WhitneySumChernClasses}
+###### Proposition
+
+For $k\leq n \in \mathbb{N}$, consider the canonical map
+
+$$
+  \mu_{k,n-k}
+    \;\colon\;
+  B U(k) \times B U(n-k)
+    \longrightarrow
+  B U(n)
+$$
+
+(which classifies the [[Whitney sum]] of [[complex vector bundles]] of [[rank]] $k$ with those of rank $n-k$). Under pullback along this map the universal [[Chern classes]] (prop. \ref{GeneratorsOfCohomologyOfBunChernClasses}) are given by
+
+$$
+  (\mu_{k,n-k})^\ast(c_t)
+  \;=\;
+  \underoverset{i = 0}{t}{\sum} c_i \otimes c_{t-i}
+  \,,
+$$
+
+where we take $c_0 = 1$ and  $c_j = 0 \in H^\bullet(B U(r))$ if $j \gt r$.
+
+So particular
+
+$$
+  (\mu_{k,n-k})^\ast(c_n) \;=\; c_k \otimes c_{n-k}
+  \,.
+$$
+
+=--
+
+e.g. ([Kochmann 96, corollary 2.3.4](#Kochmann96)) 
+
+**Proof idea** Use the monomorphism of lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective} to embed the situation into $H^\bullet(B U(1)^n)$, and then use the [[splitting principle]] of prop. \ref{SplittingPrincipleForChernClasses}.
 
 ## Related concepts 
 
