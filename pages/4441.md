@@ -110,7 +110,7 @@ A standard reference is section B3.2 in
 
 The first proof of this result can be found in:
 
-* R. Diaconescu, _Change of base for toposes with generators_ , J. Pure Appl. Algebra __6__ (1975), no. 3, 191-218.
+* R. Diaconescu, _Change of base for toposes with generators_ , J. Pure Appl. Algebra __6__ (1975), no. 3, 191-218 [link](http://www.sciencedirect.com/science/article/pii/0022404975900158).
 
 Another proof is in 
 
