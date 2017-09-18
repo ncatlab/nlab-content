@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
+=--
 #### Complex geometry
 +--{: .hide}
 [[!include complex geometry - contents]]
