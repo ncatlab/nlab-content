@@ -16,7 +16,7 @@
 
 ## Idea
 
-**Number theory** (or **arithmetic**) studies numbers, especially [[integers]]. Typical questions are the distrubution of [[prime numbers]] and the study of integer (or rational) solutions of [[algebraic equations]] with integer coefficients, also called **[[Diophantine equations]]**. 
+**Number theory** (or **arithmetic**) studies numbers, especially [[integers]]. Typical questions are the distrubution of [[prime numbers]] and the study of integer (or rational) solutions of [[algebraic equations]] with [[integer]] [[coefficients]], also called **[[Diophantine equations]]**. 
 
 (Notice that by a theorem of [[Matiyasevich]] (spelled also Matiyasevich), for every statement in mathematics (say ZF set theory) there is a Diophantine equation whose solvability is equivalent to the validity of the statement. Of course, that does not mean that addressing a problem as a Diophantine equation helps in solving it. )
 
