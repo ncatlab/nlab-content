@@ -62,7 +62,7 @@ $$
   \,.
 $$
 
-The sign $sign(\mu,\nu) \in \{-1,1\}$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]].
+(The shift in the indices is to be coherent with the convention that the [[shuffle]] $(\mu, \nu)$ is a [[permutation]] of $\{1, \dots, p+q\}$. In many references the shift disappears by making it a permutation of $\{0, \dots, p+q-1\}$ instead.) The sign $sign(\mu,\nu) \in \{-1,1\}$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]].
 
 =--
 
@@ -178,12 +178,16 @@ The Eilenberg-Zilber map was introduced in (5.3) of
 See also 29.7 of 
 
 * [[Peter May]], _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, Chicago, (1967) ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
-{#May}
+{#May},
 
 * [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220, 
 
-and section 11.2 of
+section 11.2 of
 
-* [[Tim Porter]], _[[Crossed Menagerie]]_
+* [[Tim Porter]], _[[Crossed Menagerie]]_,
+
+or section 1.6 of
+
+* [[Jean-Louis Loday]], _Cyclic Homology_, Grund. Math. Wiss. 301, Springer, 1992.
 
 [[!redirects shuffle map]]
