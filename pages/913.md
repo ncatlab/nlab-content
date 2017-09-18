@@ -5,7 +5,9 @@
 
 ## Definitions
 
-A __sequence__ is a [[function]] whose [[source|domain]] is a [[subset]] of the set $\mathbb{N}$ of [[natural numbers]] (or more generally a subset of the set $\mathbb{Z}$ of [[integers]]).  Often one means an __infinite sequence__, which is a sequence whose domain is infinite.  Sequences (especially finite ones) are often called __[[lists]]__ in computer science.  (In [[constructive mathematics]], the domain of a sequence must be a [[decidable subset]] of $\mathbb{Z}$.)
+A __sequence__ is a [[function]] whose [[source|domain]] is a [[subset]] of the set $\mathbb{N}$ of [[natural numbers]] (or more generally a subset of the set $\mathbb{Z}$ of [[integers]]; cf. subsequences introduced below).  Often one means an __infinite sequence__, which is a sequence whose domain is infinite.  Sequences (especially finite ones) are often called __[[lists]]__ in computer science.  (In [[constructive mathematics]], the domain of a sequence must be a [[decidable subset]] of $\mathbb{Z}$.) 
+
+Sequences may also be indicated by functions $\omega \to X$ where $\omega$ is the first countably infinite [[ordinal]]: the key piece of structure on $\mathbb{N}$ relevant for the study of sequences, particularly in analysis, is the order structure. 
 
 Up to [[bijection]], the only possible sources are those of the form
 $$ \{i\colon \mathbb{Z} \;|\; 0 \leq i \lt n\} $$
@@ -13,7 +15,13 @@ for $n = 0, 1, 2, \ldots, \infty$; other domains are used for notational conveni
 
 An alternative generalisation takes the domain to be a set of [[ordinal numbers]], without loss of generality the set
 $$ \{i\colon \Ord \;|\; i \lt \alpha\} $$
-for $\alpha$ some specific ordinal number (or the [[proper class]] $\Ord$ of all ordinal numbers, if one wishes to allow for a proper class).
+for $\alpha$ some specific ordinal number (or the [[proper class]] $\Ord$ of all ordinal numbers, if one wishes to allow for a proper class). 
+
+A _subsequence_ of a sequence $a = a_n: \mathbb{N} \to X$ is a composition 
+
+$$\mathbb{N} \stackrel{i}{\to} \mathbb{N} \stackrel{a}{\to} X$$ 
+
+where $i$ is an order-preserving monomorphism. The salient point is that $i$ be [[cofinal diagram|cofinal]] as an embedding. 
 
 
 ## Notation
