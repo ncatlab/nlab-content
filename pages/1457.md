@@ -129,6 +129,14 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
   If the manifold might not be connected, then it still becomes an extended metric space.
 
+## Properties
+
+* [[Lebesgue number lemma]]
+
+* [[sequentially compact metric spaces are totally bounded]]
+
+* [[sequentially compact metric spaces are equivalently compact metric spaces]]
+
 ## Related concepts
 
 * [[metric jet]] -- a notion of "tangency" for maps of metric spaces
