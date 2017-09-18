@@ -1,17 +1,28 @@
 
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
 
 ## Related concepts
 
-* [[model theory]]
+* **definability**
 
-* [[definable set]]
+  * [[model theory]]
 
-* [[definable groupoid]]
+  * [[definable set]]
 
-* [[Beth definability theorem]]
+  * [[definable groupoid]]
 
-* [[Craig interpolation theorem]]
+  * [[Beth definability theorem]]
 
+  * [[Craig interpolation theorem]]
+
+* [[decidability]]
 
 
