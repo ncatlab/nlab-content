@@ -32,7 +32,7 @@ A Lie algebroid over a [[manifold]] $X$ is
 
  * equipped with a Lie brackets $[\cdot,\cdot] : \Gamma(E)\otimes \Gamma(E) \to \Gamma(E)$ (over the ground field) on its space of sections;
 
- * a morphisms of vector bundles $\rho : E \to TX$, whose tangent map preserves the bracket: $(d\rho)([\xi,\zeta]_{\Gamma E}) = [d\rho(\xi),d\rho(\zeta)]_{\Gamma TX}$;
+ * a morphisms of vector bundles $\rho : E \to TX$, whose tangent map preserves the bracket: $(d\rho)([\xi,\zeta]_{\Gamma E}) = [d\rho(\xi),d\rho(\zeta)]_{\Gamma TX}$; (but this property of preserving brackets is implied by the next property, reference?)
 
  * such that the _Leibniz rule_ holds: for all $X, Y \in \Gamma(E)$ and all $f \in C^\infty(X)$ we have
 $$
