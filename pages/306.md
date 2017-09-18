@@ -220,7 +220,7 @@ $\mathbf{C}$ is balanced, i.e., a morphism in $\mathbf{C}$ is an isomorphism iff
 
 +-- {: .num_prop} 
 ###### Proposition 
-ny two epi-mono factorizations of a map in $\mathbf{C}$ are canonically isomorphic. 
+Any two epi-mono factorizations of a map in $\mathbf{C}$ are canonically isomorphic. 
 =-- 
 
 +-- {: .proof} 
