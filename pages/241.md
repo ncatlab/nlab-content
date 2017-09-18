@@ -1,5 +1,5 @@
 
-> this entry should be merged with [[category of sheaves]]
+> [[Urs Schreiber]] thinks that this entry should be merged with [[category of sheaves]].  [[Toby Bartels]] is not so sure; it\'s a nontrivial theorem that the concepts match (for sheaves of sets).
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -107,6 +107,8 @@ See the [[Elephant]], theorem C.2.2.8.  See also [Wikipedia](https://secure.wiki
 
 Sometimes (3,4) are combined and strengthened to the statement that the category has all small [[colimits]], which are effective and pullback-stable.  However, this is a mistake for two reasons: it is a significantly stronger axiomatisation (since without the small generating set, not every infinitary pretopos has this property), and it is not valid in weak foundations (while the definition given above is).
 
+Many authorities add an additional clause that $C$ is [[locally small category|locally small]] (that each [[hom-set]] in $C$ is small), but other authorities seem to imply that this is a theorem.  On the other hand, in [[predicative mathematics]], $C$ need not be locally small, and instead we need that only a small number of morphisms have sources from the generating set $G$ (or equivalently, given that $G$ is small, that each hom-set $C(x,y)$ with $x \in G$ is small).  We are trying to figure out whether this is a theorem or not; see [the Math Overflow discussion](http://mathoverflow.net/questions/214737/grothendieck-toposes-in-very-weak-foundation).
+
 
 ## In weak foundations
 
@@ -115,15 +117,15 @@ We have two definitions of a Grothendieck topos:
 *  the category of sheaves on some small site,
 *  a category that satisfies Giraud\'s axioms (as listed above).
 
-The theorem that these are equivalent can be proved in quite weak foundations, whether [[finitist mathematics|finitist]], [[predicative mathematics|predicative]], or [[constructive mathematics|constructive]] (or all three at once).  Some hard-nosed predicativists (and even hard-nosed ZFC fundamentalists) may object to the language (on the ground that large things don\'t really exist), but they should accept the theorems when suitably phrased.
+The theorem that these are equivalent can be proved in quite weak foundations, whether [[finitist mathematics|finitist]], [[predicative mathematics|predicative]], or [[constructive mathematics|constructive]] (or all three at once), as long as we axiomatize correctly given the caveats listed in the previous section.  Some hard-nosed predicativists (and even hard-nosed ZFC fundamentalists) may object to the language (on the ground that large categories such as $Set$ and other nontrivial Grothendieck toposes don\'t really exist), but they should accept the theorems when suitably phrased.
 
 In predicative mathematics, however, we cannot prove that every Grothendieck topos is in fact a [[topos]]!  In fact, it is immediate that [[the category of sets]] is a Grothendieck topos, but $Set$ is an elementary topos if and only if [[power sets]] are small, which is precisely what predicativists doubt.  One can use the term __Grothendieck pretopos__ to avoid implying that we have an elementary topos.  On the other hand, since Grothendeick toposes came first, perhaps it is the definition of 'elementary topos' that is too strong.
 
 Similarly, in finitist mathematics, we cannot prove that every Grothendieck topos has a [[natural numbers object]]; while in strongly predicative mathematics, we cannot prove that every Grothendieck topos is [[cartesian closed category|cartesian closed]].  In each case, once a property is accepted of $Set$ (the [[axiom of infinity]] and small [[function sets]], in these examples), it can be proved for all Grothendieck toposes.
 
-Constructivism as such is irrelevant; even in [[classical mathematics]], most Grothendieck toposes are not [[boolean topos|boolean]].  However, for an analogous result, try the theorem that the [[category of presheaves]] on a [[groupoid]] is boolean.
+Constructivism as such is irrelevant; even in [[classical mathematics]], most Grothendieck toposes are not [[boolean topos|boolean]].  However, for an analogous result, try the theorem that the [[category of presheaves]] on a [[groupoid]] (and hence any category of sheaves contained within it) is boolean.  (Again, $Set$ itself is an example of this.)
 
-The theorem that every Grothendieck topos is [[cocomplete category|cocomplete]] is a subtle point; it fails only in finitist predicative mathematics.  (The key point in the proof is to generate the [[transitive relation|transitive closure]] $\sim^*$ of an binary relation $\sim$.  One proof defines $a \sim^* b$ to mean that $a \sim x_0 \sim \cdots \sim x_{n-1} \sim b$ for some $n$, which is predicative but infinitary; another defines $a \sim^* b$ to mean that $a \sim' b$ for every transitive relation $\sim'$ that contains $\sim$, which is finitary but impredicative.)
+The theorem that every Grothendieck topos is [[cocomplete category|cocomplete]] is a subtle point; it fails only in finitist predicative mathematics.  (The key point in the proof is to generate the [[transitive relation|transitive closure]] $\sim^*$ of a binary relation $\sim$.  One proof defines $a \sim^* b$ to mean that $a \sim x_0 \sim \cdots \sim x_{n-1} \sim b$ for some $n$, which is predicative but infinitary; another defines $a \sim^* b$ to mean that $a \sim' b$ for every transitive relation $\sim'$ that contains $\sim$, which is finitary but impredicative.)
 
 
 ## Related concepts
@@ -139,6 +141,7 @@ The theorem that every Grothendieck topos is [[cocomplete category|cocomplete]] 
   * [[(∞,1)-sheaf (∞,1)-topos]]
 
 [[!include locally presentable categories - table]]
+
 
 ## References
 
