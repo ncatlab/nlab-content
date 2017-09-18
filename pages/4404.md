@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 =--
 =--
 
@@ -89,6 +93,9 @@ It is conjectured that this exhausts in fact all examples of $n$-spheres without
 
 
 
+## Related concepts
+
+* [[differential topology]]
 
 
 ## References
