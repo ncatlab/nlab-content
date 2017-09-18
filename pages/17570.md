@@ -62,9 +62,14 @@ The following are examples of global families (def. \ref{GlobalFamily}): the cla
 
 1. all finite abelian groups.
 
+1. all [[topologically cyclic groups]].
+
 1. all finite [[cyclic groups]].
 
 1. all finite [[p-primary groups]].
+
+1. all finite [[solvable group|solvable]] p-groups.
+
 
 =--
 
