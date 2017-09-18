@@ -76,7 +76,7 @@ The traditional idea of field bundle is discussed for instance around section 7.
 
 Detailed discussion of field bundles in [[gauge theory]] with a fixed [[instanton sector]]/[[principal bundle]]-class is around section 2.5 of 
 
-* {#BDS} Marco Benini, [[Claudio Dappiaggi]], [[Alexander Schenkel]], _Quantized Abelian principal connections on Lorentzian manifolds_, Communications in Mathematical Physics 2013 ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
+* {#BDS} [[Marco Benini]], [[Claudio Dappiaggi]], [[Alexander Schenkel]], _Quantized Abelian principal connections on Lorentzian manifolds_, Communications in Mathematical Physics 2013 ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
 
 and the issue is highlighted more explicitly in 
 
@@ -84,6 +84,12 @@ and the issue is highlighted more explicitly in
 in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) 
 
 * {#Schreiber14} [[Urs Schreiber]], _Higher field bundles for gauge fields_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[schreiber:Higher field bundles for gauge fields|web]])
+
+The issue was then fixed in 
+
+* {#BeniniSchenkelSzabo15} [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Homotopy colimits and global observables in Abelian gauge theory_ ([arXiv:1503.08839](http://arxiv.org/abs/1503.08839))
+
+precisely by retaining to groupoids/stacks of fields, hence using a higher stacky field bundle.
 
 A discussion of the problems of the traditional notion and its rectification in [[higher geometry]] is at
 
