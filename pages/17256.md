@@ -61,7 +61,35 @@ Basic Examples:
 
 ### 7. Relation to other kinds of spectra
 
+#### 7.1 Orthogonal spectra
+
+* [[orthogonal spectrum]]
+
+#### 7.2 Unitary spectra
+
+#### 7.3 Continuous and simplicial functors
+
+* [[excisive functor]], [[model structure for excisive functors]]
+
+#### 7.4 $\Gamma$-spaces
+
+* [[Gamma-space]]
+
+#### 7.5 Permutative categories
+
+* [[permutative category]]
+
+#### 7.6 Spectra as enriched functors
+
+* [[enriched functor]]
+
 ### 8. Naive versus true homotopy groups
+
+### History, credits, further reading
+
+* [[highly structured spectra]]
+
+* [[symmetric monoidal smash product of spectra]]
 
 ## Chapter II. The stable homotopy category
 
@@ -114,6 +142,8 @@ Basic Examples:
 
 ### 8. Connective covers and Postnikov sections
 
+* [[connective cover]]
+
 * [[Postnikov tower]]
 
 ### 9. Localization and completion
@@ -130,6 +160,30 @@ Basic Examples:
 
 * [[model structure on symmetric spectra]]
 
+
+### 1. Symmetric spectra in a simplicial category
+
+### 2. Flat cofibrations
+
+### 3. Level model structures
+
+### 4. Stable model structures
+
+* [[model structure on symmetric spectra]]
+
+### 5. Operads and their algebras
+
+* [[operad]]
+
+* [[algebra over an operad]]
+
+### 6. Model structures for algebras over an operad
+
+* [[model structure on algebras over an operad]]
+
+### 7. Connective covers of structured spectra
+
+* [[connective cover]]
 
 ## Chapter IV. Module spectra
 
