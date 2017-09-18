@@ -114,7 +114,7 @@ for $i$ any morphism between two [[connected]] objects, as indicated, hence $\Om
 +-- {: .num_remark}
 ###### Remark
 
-For $X$ an object equipped with a $G$-[[action]] and $f : Y \to X$ any morphism, the higher Klein geometry induced by "the shape $Y$ in $X$" is given by taking $i : H \to G$ be the [[stabilizer ∞-group]] $Stab(f) \to G$ of $f$ in $X$.
+For $X$ an object equipped with a $G$-[[action]] and $f : Y \to X$ any morphism, the higher Klein geometry induced by "the shape $Y$ in $X$" is given by taking $i : H \to G$ be the [[stabilizer ∞-group]] $Stab(f) \to G$ of $f$ in $X$. See there at _[Examples -- Stabilizers of shapes / Klein geometry](stabilizer+group#KleinGeometry)_.
 
 =--
 
