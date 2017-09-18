@@ -28,17 +28,27 @@ is usually defined as a natural transformation
 
 $$ v \otimes F(w) \to F(v \otimes w)$$
 
-making two diagrams commute.  The first says that the two obvious morphisms from $u \otimes v \otimes F(w)$ to $F(u \otimes v \otimes w)$ are equal.  The second says that two obvious morphisms from $1 \otimes F(w)$ to $F(w)$ are equal.
+making two diagrams commute: 
+
+\begin{tikzcd}[]
+(u\otimes v)\otimes F(w) \arrow[rr,"\beta_{u\otimes v,w}"] \arrow[d,"\alpha_{u,v,w}"]
+&
+& F((u\otimes v)\otimes w) \arrow[d,"F(\alpha_{u,v,w})"] \\
+u\otimes (v\otimes F(w)) \arrow[r,"1_u\otimes\beta_{v,w}"]
+& u\otimes F(v\otimes w) \arrow[r,"\beta_{u,v\otimes w}"] 
+& F(u\otimes v\otimes w)
+\end{tikzcd}
+
+\begin{tikzcd}[]
+I\otimes F(v) \arrow[r,"\beta_{I,v}"] \arrow[dr, "\lambda_{F(v)}"']
+& F(I\otimes v) \arrow[d, "F(\lambda_v)"] \\
+& F(v)
+\end{tikzcd}
 
 A functor equipped with a tensorial strength is called a **strong functor** (not to be confused with a *strong 2-functor*, which is another name for a [[pseudofunctor]], i.e. a [[lax 2-functor]] whose coherence cells are invertible).
 
 More generally, the notion makes sense not just for endofunctors of $V$, but for functors between any categories that are "tensored over $V$."
  
-+-- {: .standout}
-
-Please, someone, add the diagrams.  They are the first two in the Wikipedia entry [strong monad](http://en.wikipedia.org/wiki/Strong_monad).
-
-=--
 
 +-- {: .standout}
 
