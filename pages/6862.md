@@ -31,7 +31,10 @@ In fact, taking into account that this [[divergence]] term itself in general has
 ## As a homotopy Lie algebra
  {#AsAHomotopyLieAlgebra}
 
-With [[local prequantum field theory]] formulated as [[de Donder-Weyl field theory]], every [[local Lagrangian]] is incarnated as a  [[circle n-bundle with connection]] $\mathbf{L}$ on some space $X$ (for instance on the [[jet bundle]] of a [[field bundle]]), such that its [[curvature]] form $\omega$ determines by its [[kernel]] the tangents to the solutions of the [[equations of motion]]. ([cftcht, 3.1, 3.2,  3.4](#cftcht)).
+With [[local prequantum field theory]] in [[dimension]] $d$ formulated as [[de Donder-Weyl field theory]], every [[local Lagrangian]] is incarnated as a  [[circle n-bundle with connection|principal d-form connection]] $\mathbf{L}$ on some [[space]] $X$, such that its [[curvature]] form $\omega$ determines by its [[kernel]] the tangents to the solutions of the [[equations of motion]]. (see [cftcht, sections 3.1, 3.2,  3.4](#cftcht)).
+
+What is traditionally considered in the literature is the special case of this where $X$ is the (dualized, first) [[jet bundle]] of a [[field bundle]] over a [[smooth manifold]] (see at _[[multisymplectic geometry]]_) and the underlying [[principal infinity-bundle]] of $\mathbf{L}$ is trivial, so that $\mathbf{L}$ is incarnated as a globally defined [[differential n-form|differential d-form]]. Moreover, this is traditionally expressed as the product $L \, vol$ of a [[smooth function]] times a prescribed [[volume form]]. This function $L$ then is what in much of the traditional literure is referred to as the Lagrangian of the [[theory (physics)|theory]].
+
 
 A [[symmetry]] of the theory which preserves the Lagrangian up to a [[divergence]] is then precisely a [[quantomorphism n-group|quantomorphism]] of $\mathbf{L}$, namely a pair consisting of the symmetry
 
@@ -46,7 +49,31 @@ $$
   \,.
 $$
 
-Under [[Lie differentiation]] this gives (this has strictly been proven only for low $n$, but is sort of obvious generally) the [[Poisson bracket Lie n-algebra]] $\mathfrak{Pois}(\mathbf{L})$. In its [[dg-Lie algebra]] version spelled out [here](Poisson+bracket+Lie+n-algebra#PoissondgAlgebra) this has, in degree 0,  precisely the Lie bracket of conserved currents as known from traditional literature, for instance ([Azcarraga-Townsend 89](#AzcarragaTownsend89)). Details are in [cftcht, 3.3](#cftcht).
+When expressing $\mathbf{L}$ as a [[modulating morphism]] $\mathbf{L} \colon X \ongrightarrow \mathbf{B}^d U(1)_{conn}$ into the [[smooth infinity-stack|smooth]] [[moduli infinity-stack]] of [[circle n-bundle with connection|circle d-bundles with connection]] then this is an equivalence in the [[slice (infinity,1)-topos]] over $\mathbf{B}^d U(1)_{conn}$:
+
+$$
+  \mathbf{QuantMorph}(\mathbf{L})
+  =
+  \left\{
+  \array{
+    X && \stackrel{\phi}{\longrightarrow} && X
+    \\
+    & \searrow &\swArrow_{\eta}& \swarrow
+    \\
+    && \mathbf{B}^d U(1)_{conn}
+  }
+  \right\}
+  \,.
+$$
+
+(The detailed definition of this [[quantomorphism n-group|quantomorphism d-group]] involved [[differential concretification]] of the naive [[automorphism infinity-group]] in the slice.)
+
+Under [[Lie differentiation]] this gives [^Lie] the [[Poisson bracket Lie n-algebra]] $\mathfrak{Pois}(\mathbf{L})$. In its [[dg-Lie algebra]] version spelled out [here](Poisson+bracket+Lie+n-algebra#PoissondgAlgebra) and restricted to the special case of globally defined Lagrangian form,  this has, in degree 0,  precisely the Lie bracket of conserved currents as known from traditional literature, for instance ([AGIT89, equations (13), (14)](#AGIT89)). Details are in [cftcht, 3.3](#cftcht).
+
+But the $\mathfrak{Pois}(\mathbf{L})$ contains in addition the equivalence between two central terms, coming from [[higher gauge transformations]]. Taking this into account, the [extension theorem](Poisson+bracket+Lie+n-algebra#ExtensionTheorem) for $\mathfrak{Pois}(X,\omega)$ says that its truncation to a Lie algebra is an extension by $H^{d-1}_{dR}(X)$.  This has been informally argued for instance in [AGIT 89, p. 8](#AGIT89).
+
+[^Lie This has strictly been proven only for low $n$, but is sort of obvious generally ]
+
 
 
 ## References
@@ -59,7 +86,9 @@ Under [[Lie differentiation]] this gives (this has strictly been proven only for
 
 General discussion and application to the [[Green-Schwarz super p-brane sigma models]] is in
 
-* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and the classification of supersymmetric extended objects_, Physical Review Letters Volume 62, Number 22 (1989)
+
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](http://inspirehep.net/record/26393?ln=en))
+
 
 Discussion from an [[nPOV]] is in
 
