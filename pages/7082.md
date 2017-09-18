@@ -238,7 +238,7 @@ and basic ideas are also indicated from [slide 60 of part 2](http://www.math.ias
 
 [[Coq]] code for homotopy equivalences is at
 
-* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Equivalences.v)
+* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/theories/Basics/Equivalences.v)
 
 
 [[!redirects isEquiv]]
