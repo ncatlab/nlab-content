@@ -209,3 +209,6 @@ Discussion in [[parameterized homotopy theory]] includes
 
 * {#Iriye95} Kouyemon Iriye, _Equivariant Hopf structures on a sphere_, J. Math. Kyoto Univ. Volume 35, Number 3 (1995), 403-412 ([Euclid](http://projecteuclid.org/euclid.kjm/1250518704))
 
+Discussion in [[homotopy type theory]] is in
+
+* [[Ulrik Buchholtz]], [[Egbert Rijke]], _The Cayley-Dickson Construction in Homotopy Type Theory_ ([arXiv:1610.01134](https://arxiv.org/abs/1610.01134))
