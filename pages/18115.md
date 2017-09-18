@@ -56,3 +56,5 @@ This constituted a [[sequence]] $(x_i)$, and by assumption of sequential compact
 * [[Lebesgue number lemma]]
 
 * [[sequentially compact metric spaces are equivalently compact metric spaces]]
+
+* [[countably compact metric spaces are equivalently compact metric spaces]]
