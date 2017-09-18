@@ -51,6 +51,8 @@ $$
 
 decomposes a full [[twist]] into a pair of half-twists.
 
+This is a special case of half-twists as described by [Egger](#Egger).
+
 ## Related concepts
 
 * [[inner product]]
@@ -60,7 +62,7 @@ decomposes a full [[twist]] into a pair of half-twists.
 * {#Selinger} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2012 ([[SelingerSelfDual.pdf:file]])
  
 
-* [[Jeff Egger]], _On involutive monoidal categories_, Theory and Applications of Categories, Vol. 25, 2011, No. 14, pp 368-393. ([TAC](http://www.tac.mta.ca/tac/volumes/25/14/25-14abs.html))
+* {#Egger}[[Jeff Egger]], _On involutive monoidal categories_, Theory and Applications of Categories, Vol. 25, 2011, No. 14, pp 368-393. ([TAC](http://www.tac.mta.ca/tac/volumes/25/14/25-14abs.html))
 
 [[!redirects self-dual objects]]
 
