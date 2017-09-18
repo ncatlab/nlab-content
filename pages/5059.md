@@ -670,6 +670,7 @@ Discussion including also the [[RR-field]] background includes
 * R. R. Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
 
 ### Relation to AdS-CFT
+ {#ReferencesRelationToAdSCFT}
 
 Detailed discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce, after [[diffeomorphism]] [[gauge fixing]], superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
 
