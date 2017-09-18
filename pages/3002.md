@@ -13,7 +13,7 @@ More generally, a homomorphism is a function between [[structured sets]] that pr
 
 ## Definitions
 
-### Traditional (magmas, semigroups, groups,rngs)
+### Traditional (magmas, semigroups, groups, rngs)
 
 Traditionally, a __homomorphism__ between two [[magmas]] $A$ and $B$ is a [[function]]
 
