@@ -1,469 +1,69 @@
 
 $$
   \array{
+    \Omega A &\longrightarrow& \ast
+    \\
+    \downarrow^{\mathrlap{\Omega f}} && \downarrow
+    \\
+    \Omega B & \longrightarrow & ker(f) &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow^{\mathrlap{g}} && \downarrow
+    \\
+    \ast &\longrightarrow & A &\stackrel{f}{\longrightarrow}& B
+  }
+  \;\;\;\;\;
+  \simeq  
+  \;\;\;\;\;
+  \left(
+  \array{
     \ast &\longrightarrow& \ast
     \\
     \downarrow && \downarrow
     \\
     ker(f) &\longrightarrow& \ast
     \\
-    \downarrow && \downarrow
+    \downarrow^{\mathrlap{g}} && \downarrow
     \\
-    A &\longrightarrow& B 
+    A &\stackrel{f}{\longrightarrow}& B
     \\
     \uparrow && \uparrow
     \\
     \ast &\longrightarrow& \ast
   }
-$$
-
-$$
- x^{\prime\prime}
-$$
-
-$$
-  \array{
-    H'(m, m+r) \otimes H''(n, n+r) &\stackrel{\mu_r}{\longrightarrow}& H(m+n,m+n+r)
-    \\
-    \downarrow^{\mathrlap{\partial' \oplus \eta'' \oplus \eta' \otimes \partial''}}
-    && 
-    \downarrow^{\mathrlap{\partial}}
-    \\
-    H'(m+r, m+r+1) \otimes H''(n,n+1) 
-    \\
-    \oplus     &\stackrel{\mu_1 + \mu_1}{\longrightarrow}& 
-    H_{p+q-1}(m+n+r, m+n+r+1)
-    \\
-    H'(m,m+1) \otimes H''(n+r, n+r+1)
-  }
-  \,.
-$$
-
-
-$$
-  \begin{aligned}
-    d_{res} \mu_{Dp}
-    & = 
-    \underset{= 0}{\underbrace{d \mu_{Dp}}} 
-    + 
-    h_3 \wedge \frac{\partial}{\partial f_2} [C \wedge \exp(f_2)]_{p+2}
-    \\
-    & = 
-    [C \wedge h_3 \wedge \exp(f_2)]_{p+3}
-    \\
-    & = h_3 \wedge [C \wedge \exp(f_2)]_{p}
-    \\
-    & = h_3 \wedge \mu_{D(p-1)}
-  \end{aligned}
-  \,.
-$$
-
-+-- {: .num_defn #CohomologySpectralSequence}
-###### Definition
-
-A _cohomology [[spectral sequence]]_ $\{E_r^{p,q}, d_r\}$ is
-
-1. a sequence $\{E_r^{\bullet,\bullet}\}$ $r \in \mathbb{Z}$, $r \geq 2$ of [[bigraded object|bigraded]] [[abelian groups]];
-
-1. a sequence of [[differentials]] $\{d_r \colon E_r^{\bullet,\bullet} \longrightarrow E_r^{\bullet+r, \bullet-r+1}\}$
-
-such that 
-
-* $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$:, i.e. $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$.
-
-Given a $\mathbb{Z}$-[[graded abelian group]]_ $C^\bullet$ equipped with a decreasing [[filtration]]
-
-$$
-  C^\bullet \supset \cdots \supset F^s C^\bullet \supset F^{s+1} C^\bullet \supset \cdots \supset 0$$
-
-such that
-
-$$
-  C^\bullet = \underset{s}{\cup} F^s C^\bullet \;\;\;\; and \;\;\;\; 0 = \underset{s}{\cap} F^s C^\bullet
-$$
-
-then the spectral sequence is said to _converge_ to  $C^\bullet$, denoted, 
-
-$$
-  E_2^{\bullet,\bullet} \Rightarrow C^\bullet
-$$
-
-if
-
-1.  in each bidegree $(s,t)$ the sequence $\{E_r^{s,t}\}_r$ eventually becomes constant on a group 
-
-    $E_\infty^{s,t} \coloneqq E_{\gg 1}^{s,t}$;
-
-1. $E_\infty^{\bullet,\bullet}$ is the [[associated graded]] of the the filtered $C^\bullet$ in that
-
-   $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$.
-
-
-The converging spectral sequence is called _multiplicative_ if 
-
-1. $\{E_2^{\bullet,\bullet}\}$ is equipped with the structure of a [[bigraded object]] [[associative algebra|algebra]];
-
-1. $F^\bullet C^\bullet$ is equipped with the structure of a filtered [[graded algebra]] ($F^p C^k \cdot F^q C^l \subset F^{p+q} C^{k+l}$);
-
-such that
-
-1. each $d_{r}$ is a [[derivation]] with respect to the (induced) algebra structure on ${E_r^{\bullet,\bullet}}$, graded of degree 1 with respect to total degree;
-
-1. the multiplication on $E_\infty^{\bullet,\bullet}$ is compatible with that on $C^\bullet$.
-
-=--
-
-+-- {: .num_defn #ExactCoupleAndDerivedExactCouple}
-###### Definition
-
-An _[[exact couple]]_ is three [[homomorphisms]] of [[abelian groups]] of the form
-
-$$
-  \array{
-    D && \stackrel{g}{\longrightarrow} && D
-    \\
-    & {}_{\mathllap{f}}\nwarrow && \swarrow_{\mathrlap{h}}
-    \\
-    && E
-  }
-$$
-
-such that the [[image]] of one is the [[kernel]] of the next.
-
-$$
-  im(h) = ker(f)\,,\;\;\; im(f) = ker(g)\,, \;\;\; im(g) = ker(f)
-  \,.
-$$
-
-Given an exact couple, then its _derived exact couple_ is
-
-$$
-  \array{
-    im(g) && \stackrel{g}{\longrightarrow} && im(g)
-    \\
-    & {}_{\mathllap{f}}\nwarrow && \swarrow_{\mathrlap{h \circ g^{-1}}}
-    \\
-    && H(E, h \circ f)
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop #CohomologicalSpectralSequenceOfAnExactCouple}
-###### Proposition
-**(cohomological spectral sequence of an exact couple)**
-
-Given an exact couple, def. \ref{ExactCoupleAndDerivedExactCouple}, 
-
-$$
-  \array{
-    D_1 && \stackrel{g_1}{\longrightarrow} && D_1
-    \\
-    & {}_{\mathllap{f_1}}\nwarrow && \swarrow_{\mathrlap{h_1}}
-    \\
-    && E_1
-  }
-$$
-
-its derived exact couple 
-
-$$
-  \array{
-    D_2 && \stackrel{g_2}{\longrightarrow} && D_2
-    \\
-    & {}_{\mathllap{f_2}}\nwarrow && \swarrow_{\mathrlap{h_2}}
-    \\
-    && E_2
-  }
-$$
-
-is itself an exact couple. Accordingly there is induced a sequence of exact couples 
-
-$$
-  \array{
-    D_r && \stackrel{g_r}{\longrightarrow} && D_r
-    \\
-    & {}_{\mathllap{f_r}}\nwarrow && \swarrow_{\mathrlap{h_r}}
-    \\
-    && E_r
-  }
-  \,.
-$$
-
-If the abelian groups $D$ and $E$ are equipped with [[bigraded object|bigrading]] such that
-
-$$
-  deg(f) = (0,0)\,,\;\;\;\; deg(g) = (-1,1)\,,\;\;\; deg(h) = (1,0)
-$$
-
-then $\{E_r^{\bullet,\bullet}, d_r\}$ with
-
-$$
-  \begin{aligned}
-    d_r & \coloneqq h_r \circ f_r
-     \\
-     & = h \circ g^{-r+1} \circ f
-  \end{aligned}
-$$
-
-is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}.
-
-If for each bidegree $(s,t)$ there exists $R \gg 1$ such that for all $r \geq R$ 
-
-1. $g \colon D^{s+R,t-R} \stackrel {\simeq}{\longrightarrow} D^{s+R -1, t-R-1}$;
-
-1. $g\colon D^{s-R+1, t+R-2} \stackrel{0}{\longrightarrow} D^{s-R,t+R-1}$ 
-
-then this spectral sequence converges to the [[inverse limit]] group
-
-$$
-  G^\bullet \coloneqq \underset{}{\lim}
+  \right)
+  \stackrel{\underset{\longleftarrow}{\lim}}{\mapsto}
   \left(
-    \cdots \stackrel{g}{\to} D^{s,\bullet-s} \stackrel{g}{\longrightarrow} D^{s-1, \bullet - s + 1}
-   \stackrel{g}{\to}
-   \cdots
+    \Omega A \stackrel{\Omega f}{\longrightarrow} \Omega B
   \right)
 $$
-
-filtered by 
-
-$$
-  F^p G^\bullet \coloneqq ker(G^\bullet \to D^{p-1, \bullet - p+1})
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By exactness of the exact couple, the kernel
-
-$$
-  ker(d_{r-1}) \coloneqq ker(h \circ g^{-r+2} \circ f)
-$$
-
-consists of those elements $x$ such that $g^{-r+2} (f(x)) = g(y)$, for some $y$, hence 
-
-$$
-  ker(d_{r-1}) = f^{-1}(g^{r-1}(D^{s+r-1,t-r+1}))
-  \,.
-$$
-
-By assumption there is for each $(s,t)$ an $R$ such that for all $r \geq R$ then $ker(d_{r-1})$ is independent of $r$. 
-
-Moreover, $im(d_{r-1})$ consists of the image under $h$ of those $x$ such that $g^{r-2}(x)$ is in the image of $f$, hence (by exactness of the exact couple) such that $g^{r-2}(x)$ is in the kernel of $g$, hence such that $x$ is in the kernel of $g^{r-1}$. If $r \gt R$ then by assumption $g^{r-1} = 0$ and so then $im(d_{r-1}) = im(h)$.
-
-It follows that
-
-$$
-  \begin{aligned}
-    E_\infty^{p,n-p}
-    & =
-    ker(d_R)/im(d_R)
-    \\
-    &
-    \simeq
-    f^{-1}(im(g^R))/im(h)
-    \\
-    &
-    \simeq
-    im(g^R) \cap im(f)
-    \\
-    & 
-    \simeq
-    im(g^R) \cap ker(g)
-  \end{aligned}
-$$
-
-where in last two steps we used once more the exactness of the exact couple.
-
-The last group is that of elements $x \in G^n$ which map to zero in $D^{p-1,n-p+1}$ and where two such are identified if they agree in $D^{p,n-p}$, hence indeed 
-
-$$
-  E_\infty^{p,n-p} \simeq F^p G^n / F^{p+1} G^n
-  \,.
-$$
-
-
-=--
-
-
-+-- {: .num_prop}
-###### Proposition
-**(Serre-Cartan-Eilenberg-Atiyah-Hirzebruch spectral sequence)**
-
-Let $A$ be a [[generalized (Eilenberg-Steenrod) cohomology]] functor such that $A^\bullet(\ast)$ is bounded below. Let $B$ be a [[simply connected topological space|simply connected]] finite [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[fibration]] with fibers $F$. Then there is a cohomology spectral sequence, def. \ref{CohomologySpectralSequence} whose $E_2$-page is the [[ordinary cohomology]] of $B$ with [[coefficients]] in the $A$-[[generalized cohomology]] of the fiber, and which converges to the $A$-cohomology of the total space
-
-$$
-  E_2^{p,q} = 
-  H^p(B, A^q(F)) \Rightarrow A^\bullet(X)
-$$ 
-
-with respect to the filtering given by
-
-$$
-  F^p A^\bullet(X) \coloneqq ker(A^\bullet(X) \to A^\bullet(X_{p-1}))
-$$
-
-where $X_{p} \coloneqq \pi^{-1}(B_{p})$ is the fiber over the $p$th stage of the [[CW-complex]] $B$.
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The [exactness axiom](generalized+%28Eilenberg-Steenrod%29+cohomology#ExactnessUnreduced) for $A$ gives an [[exact couple]], def. \ref{ExactCoupleAndDerivedExactCouple} of the form
 
 $$
   \array{
-    A^{s+t}(X_{s})
-    &&
-      \stackrel{}{\longrightarrow} 
-    &&
-    A^\bullet(X_{s})
+    ker(g) &\longrightarrow& \ast
     \\
-    & \nwarrow && \swarrow
+    \downarrow &\swArrow& \downarrow
     \\
-    && A^{s+t}(X_{s}, X_{s-1})
+    ker(f) &\stackrel{g}{\longrightarrow}& A
   }
-$$
-
-where we take $X_{\gg 1} = X$ and $X_{\lt 0} = \emptyset$. This immediately implies that the convergence conditions for the induced spectral sequence in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} are met, so that we indeed have convergence to 
-
-$$
-  \lim\left(
-    \cdots \stackrel{}{\to} A^\bullet(X_{s+1}) \longrightarrow A^\bullet(X_{s})
-    \to \cdots
-  \right)
+  \;\;\;
   \simeq
-  A^\bullet(X).
-$$
-
-In order to determine the $E_2$-page, we analyze the $E_1$-page:
-
-Let $C(s)$ be the set of $s$-cells of $B$, and notice that for $\sigma \in C(s)$ then
-
-$$
-  (\pi^{-1}(\sigma), \pi^{-1}(\partial \sigma)) \simeq (D^n, S^{n-1}) \times F
-  \,.
-$$
-
-This implies that 
-
-$$
-  \begin{aligned}
-    E_1^{s,t}
-    & \coloneqq
-    A^{s+t}(X_s, X_{s-1})
-    \\
-    & \simeq \tilde A^{s+t}(X_s/X_{s-1})
-    \\
-    & \simeq \tilde A^{s+t}(\underset{\sigma \in C(n)}{\vee} S^s \wedge F_+)
-    \\
-    & \simeq \underset{\sigma \in C(s)}{\prod} \tilde A^{s+t}(S^s \wedge F_+)
-    \\
-    & \simeq \underset{\sigma \in C(s)}{\prod} \tilde A^t(F_+)
-    \\
-    & \simeq \underset{\sigma \in C(s)}{\prod} A^t(F)
-    \\
-    & \simeq C^n(B,A^t(F))
-  \end{aligned}
-  \,,
-$$
-
-where we used the relation to [[reduced cohomology]] $\tilde A$, and the [[wedge axiom]] and the [[suspension isomorphism]] of the latter. The last group is that of [[singular cohomology|singular cochains]] of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
-
-Hence to conclude it remains to show that on this group the differential $d_1$ coincides with the differential in the [[singular simplicial complex]]. This takes a tad of fiddling, see for instance ([Kochman 96, pages 124-125](#Kochman96)).
-
-
-=--
-
-
-[[faceanddegeneracymaps.jpg:file]]
-
-<img src="http://ncatlab.org/nlab/files/faceanddegeneracymaps.jpg" width="500" >
-
-
-[[singularsimplices.jpg:file]]
-
-<img src="http://ncatlab.org/nlab/files/singularsimplices.jpg" width="500" >
-
-(graphics taken from [Friedman 08](https://ncatlab.org/nlab/show/simplicial+set#Friedman08))
-
-
-[[2horns.jpg:file]]
-
-<img src="http://ncatlab.org/nlab/files/2horns.jpg" width="500" >
-
-(graphics taken from [Friedman 08](https://ncatlab.org/nlab/show/simplicial+set#Friedman08))
-
-[[mappingcone.jpg:file]]
-
-<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="500" >
-
-(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
-
-[[adamstypedifferentials.jpg:file]]
-
-<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="300" >
-
-$$
-  \mathcal{D}' \; \mathcal{D}^\prime \; \mathcal{D}\prime
-$$
-
-
-
-$$
+  \;\;\;
   \array{
-    && & \searrow && \nearrow
+    \Omega B &\longrightarrow& \ast
     \\
-    && && \pi_{t-s-1}(X_{s+1})
+    \downarrow &\swArrow& \downarrow
     \\
-    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
-    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
-    && && && \nearrow
-    \\
-    && \pi_{t-s}(A_s) && \underset{def: \;\;d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
-    && \stackrel{def: \; d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
-    \\
-    & \nearrow && && && {}_{\mathllap{\delta_{t-s-1}^{s+1}}}\searrow 
-    && \nearrow_{\mathrlap{\pi_{t-s-2}(cofib(f_{s+2}))}}
-    \\
-    && && && && \pi_{t-s-2}(X_{s+2})
-    \\
-    && && && & \nearrow && \searrow
+    ker(f) &\stackrel{g}{\longrightarrow}& A
   }
-$$
-
-hh
-
-$$
+  \;\;\;\;
+  \neq
+  \;\;\;\;
   \array{
-    \cdots & \stackrel{}{\longrightarrow}
-    && \pi_{t-s}(A_s) && \overset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
-    && \stackrel{d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
-    &&\longrightarrow & \cdots
-  }
-$$
-
-
-hh
-
-$$
-  \array{
-    &\hat c \in & \pi_{t-s-1}(X_{s+2})
+    \Omega B &\longrightarrow& ker(f)
     \\
-    && & \searrow^{\mathrlap{\pi_{t-s-1}(f_{s+1})}} 
+    \downarrow &\swArrow& \downarrow
     \\
-    && && \pi_{t-s-1}(X_{s+1})
-    \\
-    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
-    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
-    \\
-    & c \in  & \pi_{t-s}(A_s) && \underset{def: \;\;d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    \ast &\longrightarrow& A
   }
 $$
 
