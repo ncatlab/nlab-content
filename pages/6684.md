@@ -16,7 +16,7 @@
 
 ## Definitions
 
-In [[topology]], a (parametrised, oriented) __path__ in a [[space]] $X$ is a map (a [[morphism]] in an appropriate [[category]] of [[spaces]], such as a [[continuous function]] between [[topological space]]) to $X$ from the [[unit interval]] $\mathbb{I} = [0,1]$.  
+In [[topology]], a (parametrised, oriented) __path__ in a [[space]] $X$ is a map (a [[morphism]] in an appropriate [[category]] of [[spaces]], such as a [[continuous function]] between [[topological space]]) to $X$ from the [[topological interval]] $\mathbb{I} = [0,1]$.  
 
 A __path from $a$ to $b$__ is a path $f$ such that $f(0) = a$ and $f(1) = b$.  An __unparametrised path__ is an [[equivalence class]] of paths, such that $f$ and $g$ are equivalent if there is an [[monotone function|increasing]] [[automorphism]] $\phi$ of $\mathbb{I}$ such that $g = f \circ \phi$.  An __unoriented path__ is an equivalence class of paths such that $f$ is equivalent to $(x \mapsto f(1 - x))$.  A __Moore path__ has domain $[0,n]$ for some [[natural number]] (or, more commonly, any non-negative [[real number]]) $n$.  All of these variations can be combined, of course.  (For unoriented paths, one usually says 'between $a$ and $b$' instead of 'from $a$ to $b$'.  Also, a Moore path from $a$ to $b$ has $f(n) = b$ instead of $f(1) = b$.  Finally, there is not much difference between unparametrised paths and unparametrised Moore paths, since we may interpret $(t \mapsto n t)$ as a reparametrisation $\phi$.)
 
@@ -40,10 +40,15 @@ In graph theory, the Moore path category is known as the __[[free category]]__ o
 
 * [[locally path-connected topological space]]
 
+* [[loop]]
 
-* [[loop]],
 * [[path space]],
-* [[fundamental groupoid]].
+
+* [[fundamental group]], [[fundamental groupoid]]
+
+* [[fundamental theorem of covering spaces]]
+
+
 
 
 [[!redirects path]]
