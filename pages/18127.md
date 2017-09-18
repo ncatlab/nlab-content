@@ -17,9 +17,6 @@ used to transparently summarize some conceptually important aspects of the theor
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
 and ends with their first application to the classification of [[covering spaces]].
 
-For introduction to genuine _[[homotopy theory]]_ see instead
-at _[[Introduction to Homotopy Theory]]_.
-
 > Under construction.
 
 ***
@@ -28,7 +25,11 @@ main page: _[[Introduction to Topology]]_
 
 previous chapter: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set topology]]_
 
-this chapter: **Introduction to Topology 2 -- Basic Homotopy Theory**
+**this chapter**: Introduction to Topology 2 -- Basic Homotopy Theory
+
+$\,$
+
+For introduction to more general and abstract _[[homotopy theory]]_ see instead at _[[Introduction to Homotopy Theory]]_.
 
 
 $\,$
