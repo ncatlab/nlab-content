@@ -17,11 +17,11 @@
 
 ## Idea
 
-An _anabelian group_ is a group that is "far from being an [[abelian group]]" in a precise sense.
+An _anabelian group_ is a group that is "far from being an [[abelian group]]" in a precise sense:
 
 ## Definition
 
-A non-[[trivial group]] for which every [[finite index subgroup]] has trivial [[center]].
+It is a non-[[trivial group]] for which every [[finite index subgroup]] has trivial [[center]].
 
 ## Related concepts
 
