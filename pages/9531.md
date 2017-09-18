@@ -13,6 +13,8 @@ A [[set]] equipped with a [[permutation representation]] of a ([[discrete group|
 
 * Any [[permutation]] $\pi : X \to X$ gives $X$ the structure of a $\mathbb{Z}$-set, with the action of $\mathbb{Z}$ on $X$ defined by iterated composition of $\pi$ or $\pi^{-1}$.
 
+* For $G$ a [[finite group]] then [[Mackey functors]] on [[finite set|finite]] $G$-sets are equivalent to genuine [[G-spectra]].
+
 ## Related concepts
 
 * [[topological G-space]]
