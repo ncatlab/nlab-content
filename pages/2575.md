@@ -1032,7 +1032,12 @@ Computations of flat Chern-Simons/[[Dijkgraaf-Witten theory]] [[action functiona
  {#Zickert 07}
 
 
+###Extension to supergroups
 
+* Victor Mikhaylov, _Aspects of Supergroup Chern-Simons Theories_, ([thesis](https://inspirehep.net/record/1466706/))
+
+* Victor Mikhaylov, _Analytic Torsion, 3d Mirror Symmetry,
+And Supergroup Chern-Simons Theories_ ([arXiv:1505.03130](https://arxiv.org/abs/1505.03130))
 
 ### Workshops and conferences
 
