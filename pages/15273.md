@@ -45,6 +45,8 @@ Discussion of the [[phase space]] with its complex symplectic form is in [Gukov 
 
 * [[Spin Chern-Simons theory]]
 
+* [[analytically continued Wess-Zumino-Witten theory]]
+
 ## References
 
 * {#Gukov03} [[Sergei Gukov]], _Three-Dimensional Quantum Gravity, Chern-Simons Theory, and the A-Polynomial_, Commun.Math.Phys. 255 (2005) 577-627 ([arXiv:hep-th/0306165](http://xxx.lanl.gov/abs/hep-th/0306165))
