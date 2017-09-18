@@ -7,12 +7,14 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
-#### Higher spin geometry
-+-- {: .hide}
-[[!include higher spin geometry - contents]]
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
@@ -31,7 +33,7 @@ Vector bundles are of central interest in large parts of [[mathematics]] and [[p
 
 To that end, observe that all natural operations on [[vector spaces]] generalize to vector bundles by applying them [[fiber]]-wise. Notably there is the fiberwise [[direct sum of vector bundles]], also called the _[[nLab:Whitney sum]]_ operation. This operation gives the set $Vect(X)_{/\sim}$ of [[nLab:isomorphism classes]] of vector bundles the structure of an [[semi-group]] ([[monoid]]) $(Vect(X)_{/\sim},\oplus)$.
 
-Now as cunder direct sum, the [[nLab:dimension]] of vector spaces adds, similarly under [[nLab:direct sum of vector bundles]] their [[nLab:rank]] adds.  Hence in analogy to how one passes from the  additive [[semi-group]] ([[monoid]]) of  [[natural numbers]] to the addtitive [[group]] of [[integers]] by adjoining formal additive inverses, so one may adjoin formal additive inverses to $(Vect(X)_{/\sim},\oplus)$. By a general prescription ("[[Grothendieck group]]") this is achieved by first passing to the larger class of [[pairs]] $(V_+,V_-)$ of vector bundles ("[[virtual vector bundles]]"), and then [[quotient|quotienting]] out the [[equivalence relation]] given by
+Now as cunder direct sum, the [[nLab:dimension]] of vector spaces adds, similarly under [[nLab:direct sum of vector bundles]] their [[nLab:rank]] adds.  Hence in analogy to how one passes from the  additive [[semi-group]] ([[monoid]]) of  [[natural numbers]] to the addtitive [[group]] of [[integers]] by adjoining formal additive inverses, so one may adjoin formal additive inverses to $(Vect(X)_{/\sim},\oplus)$. By a general prescription ("[[Grothendieck group of a commutative monoid]]") this is achieved by first passing to the larger class of [[pairs]] $(V_+,V_-)$ of vector bundles ("[[virtual vector bundles]]"), and then [[quotient|quotienting]] out the [[equivalence relation]] given by
 
 $$
   (V_+, V_-) \sim (V_+ \oplus W , V_- \oplus W)
@@ -153,7 +155,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The operation of [[direct sum of vector bundles]] on [[isomorphism clases]] in def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX} is indeed not a [[group]]: 
+The operation of [[direct sum of vector bundles]] on [[isomorphism classes]] in def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX} is indeed not a [[group]]: 
 
 Let $x \in X$ be a chosen point of $x$ and write
 
@@ -190,7 +192,7 @@ An explicit construction of [[group completion]] of a [[commutative monoid]] is 
 
 +-- {: .num_defn #KGroupByGrothendieckGroup}
 ###### Definition
-**(K-group as the [[Grothendieck group]] of [[isomorphism classes]] of [[topological vector bundles]])
+**(K-group as the [[Grothendieck group of a commutative monoid|Grothendieck group]] of [[isomorphism classes]] of [[topological vector bundles]])
 
 For $X$ a [[topological space]], write
 
@@ -198,7 +200,7 @@ $$
   K(X) \;\coloneqq\; K(Vect(X)_{/\sim}, +)
 $$
 
-for the [[Grothendieck group]] of the [[semi-group]] of [[isomorphism classes]] of [[topological vector bundles]] on $X$
+for the [[Grothendieck group of a commutative monoid|Grothendieck group]] of the [[commutative monoid]] (abelian [[semi-group]] with [[unitality|unit]]) of [[isomorphism classes]] of [[topological vector bundles]] on $X$
 from def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX}.
 
 This means that $K(X)$ is the [[group]] whose elements are [[equivalence classes]] of pairs
@@ -280,8 +282,7 @@ $$
   \,.
 $$
 
-Accordingly the K-group of the point is the [[Grothendieck group]] of the natural numbers, which is the
-additive group of [[integers]]:
+Accordingly the K-group of the point is the [[Grothendieck group of a commutative monoid|Grothendieck group]] of the [[natural numbers]], which is the additive group of [[integers]] ([this example](Grothendieck+group+of+a+commutative+monoid#GrothendieckGroupOfNaturalNumbersUnderAdditionIsTheIntegers)):
 
 $$
   K(\ast) \simeq (\mathbb{Z}, +)
@@ -465,10 +466,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The homomorphism of semigroups $Vect(X)_{/\sim} \to K(X)$ is the one given by the
-[[universal property]] of the [[Grothendieck group]] construction.
+The homomorphism of [[commutative monoids]] $Vect(X)_{/\sim} \to K(X)$ is the one given by the [[universal property]] of the [[Grothendieck group of a commutative monoid|Grothendieck group]] construction ([this prop.](Grothendieck+group+of+a+commutative+monoid#UniversalProperty)).
 
-By definition of the [[Grothendieck group]], two elements of the form
+By definition of the [[Grothendieck group of a commutative monoid|Grothendieck group]] ([this def.](Grothendieck+group+of+a+commutative+monoid#GrothendieckGroupViaQuotientOfCartesianProduct)), two elements of the form
 
 $$
   \left(
@@ -694,7 +694,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{KGrupDirectSummandReducedKGroup} $\tilde K(X)$ is the subgroup of the [[Grothendieck group]] $K(X)$
+By prop. \ref{KGrupDirectSummandReducedKGroup} $\tilde K(X)$ is the subgroup of the [[Grothendieck group of a commutative monoid|Grothendieck group]] $K(X)$
 on the elements of the form $[E]- [X \times k^{rk_x(E)}]$, which are cleraly entirely determined by
 $[E] \in Vect(X)_{/\sim}$. Hence we need to check if the equivalence relation of the Gorthendieck 
 goup coincides with $\sim_{red}$ on these representatives. 
