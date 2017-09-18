@@ -14,7 +14,7 @@ A [[cubical set]] $X$ is a _Kan complex_ if, for every integer $n \geq 1$ and ev
 $$
    \array{
       \sqcap^{n}                         &                                            & \\
-      i_{i,\epsilon} \downarrow  & \overset{f}{\searrow}    & \\
+      \mathllap{i_{i,\epsilon}} \downarrow  & \overset{f}{\searrow}    & \\
       \square^{n}                        & \underset{g}{\rightarrow} & X
    }
 $$
