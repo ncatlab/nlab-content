@@ -2,6 +2,14 @@
 
 * [German Wikipedia entry](https://de.wikipedia.org/wiki/Tammo_tom_Dieck)
 
+## related $n$Lab entries
+
+* [[algebraic topology]]
+
+* [[equivariant stable homotopy theory]]
+
+* [[CW-approximation]]
+
 category: people
 
 [[!redirects tom Diek]]
