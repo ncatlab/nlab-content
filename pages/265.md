@@ -297,6 +297,11 @@ This is how derived functors are traditionally introduced in homological algebra
 
 * A [[derived direct image]] functor computes [[abelian sheaf cohomology]]. See also _[[derived inverse image]]_.
 
+## Functoriality
+
+Passage to left derived functors is a [[pseudofunctor]] from a [[2-category]] of model categories, left Quillen functors, and natural transformations to [[Cat]], and similarly for right derived functors.  These can be combined into a [[double pseudofunctor]] from the [[double category]] [[double category of model categories|of model categories]] to the double category of [[quintets]] in [[Cat]], which implies that some [[mates]] are also preserved by deriving, even when they relate composites of left and right Quillen functors; see [(Shulman)](#Shulman).
+
+
 ## Related concepts
 
 * [[hyper-derived functor]], [[total derived functor]]
@@ -326,6 +331,10 @@ General discussion of derived functors in [[homotopy theory]] is for instance in
 Discussion in the context of [[(∞,1)-categories]] is in section 5.2.4 of 
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+The double-categorical functoriality is in
+
+* {#Shulman} [[Mike Shulman]], _Comparing composites of left and right derived functors_, [NYJM](http://nyjm.albany.edu/j/2011/17-5.html)
  
 
 ### In homological algebra
