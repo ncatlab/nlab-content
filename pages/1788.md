@@ -1,5 +1,55 @@
 
-([[GeometricSupergravityErrata.pdf:file]]) 
+
+$$
+  \begin{aligned}
+    \frac{15}{7}
+    \delta^{a_1 a_6}
+    \delta_{a_6 [a_1}
+    X^{(\mathbf{330})}_{a_2 \cdots a_5]}
+    & =
+    \frac{15}{7}  
+    \delta^{a_1}{}_{[a_1} X^{(\mathbf{330})}_{a_2 \cdots a_5]}
+    \\
+    & =
+    \frac{15}{7}
+    \frac{1}{5!}
+    \sum_{ \left\{\sigma \atop { {\text{permutation of}} \atop {\{1,\cdots , 5\}} } \right\}}
+    (-1)^{\vert \sigma\vert }
+    \delta^{a_1}{}_{a_{\sigma(1)}}
+    X_{a_{\sigma(2)} \cdots a_{(\sigma(5))}}
+    \\
+    & =
+    \frac{15}{7}
+    \frac{1}{5!}
+    \sum_{\left\{\sigma \atop { {\text{permutation of}} \atop {\{1,\cdots , 4\}} } \right\} }
+    (-1)^{\vert \sigma\vert } 
+    \left(  
+      \underset{= 11}{\underbrace{\delta^{a_1}_{a_1}}}
+      X^{(\mathbf{330})}_{a_{\sigma(1)}\cdots a_{\sigma(4)}}
+      -
+      4
+      \delta^{a_1}{}_{a_{\sigma(1)}}
+      X_{a_1 a_{\sigma(2)} \cdots a_{\sigma(4)}}
+    \right) 
+   \\
+   & =
+    \frac{15}{7}
+    (11-4)
+    \frac{1}{5}
+    \underset{X^{(\mathbf{330})}_{a_1\cdots a_4}}{
+    \underbrace{
+    \frac{1}{4!}
+    \sum_{ \left\{ \sigma \atop { {\text{permutation of}} \atop {\{1,\cdots , 4\}} } \right\} }
+    X^{(\mathbf{330})}_{a_{\sigma(1)}\cdots a_{\sigma(4)}}
+    }
+    }
+    \\
+    & =
+    3 X^{(\mathbf{330})}_{a_{\sigma(1)} \cdots a_{\sigma(4)}}
+  \end{aligned}
+$$
+
+
 
 | Name | Condition for nearness | Condition for apartness | Condition for proximal neighbourhoods | Condition for proximal unions |
 | - | - | - | - | - |
