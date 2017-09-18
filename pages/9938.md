@@ -23,7 +23,7 @@
 
 ## Idea
 
-The [[Bousfield localization of spectra|localization]] $MU_{(p)}$ of [[complex cobordism cohomology theory]] $MU$ at a [[prime]] $p$, the [[p-localization]] $MU_{(p)}$, decomposes as a [[direct sum]]. The direct summands are the _Brown-Peterson spectra_.
+The [[Bousfield localization of spectra|localization]] of [[complex cobordism cohomology theory]] $MU$ at a [[prime]] $p$, hence the [[p-localization]] $MU_{(p)}$, decomposes as a [[direct sum]]. The direct summands are the _Brown-Peterson spectra_.
 
 ## Definition
 
