@@ -1,23 +1,13 @@
 
 
+
+
 $$
   \array{
-     && &\mathfrak{D}(2p)\mathfrak{brane} &&& \mathfrak{D}(2p+1)\mathfrak{brane}
+     X && \stackrel{\mathbf{c}}{\longrightarrow} && \mathbf{B}G
      \\
-     &&& \downarrow && & \downarrow
+     & {}_{\mathllap{\tau_X}}\searrow &\swArrow_{\mathrlap{\simeq}}& \swarrow
      \\
-     && &  \mathfrak{string}_{IIA} && & \mathfrak{string}_{IIB}
-     \\
-     && & \searrow && \swarrow
-     \\
-     \mathfrak{sdstring} & && \mathbb{R}^{10 \vert N=(1,1)} &  & \mathbb{R}^{10 \vert N=(2,0)}  &&& \mathfrak{string}_{het}
-     \\
-     & \searrow &  && \downarrow && & \swarrow
-     \\
-     && \mathbb{R}^{6 \vert N=(2,0)} && \mathbb{R}^{10 \vert N=2} && \mathbb{R}^{10 \vert N=(1,0)} 
-     \\
-     && & \searrow & \downarrow & \swarrow
-     \\
-     && && \mathbb{R}^{0\vert N} &\leftarrow& \mathbb{R}^{11\vert N=1} &\leftarrow& \mathfrak{m}2\mathfrak{brane} &\leftarrow& \mathfrak{m}5\mathfrak{brane} 
+     && \mathbf{B}GL(n)
   }
 $$
