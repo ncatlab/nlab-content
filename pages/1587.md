@@ -927,7 +927,7 @@ Let $X$ be a [[path-connected topological space]] and let $E \overset{p}{\to} X$
 
 1. [[path-connected topological space|path-connected]] precisely if the [[monodromy]] $Fib_E$ is a [[transitive action]];
 
-1. [[simply connected topological space|simply connected]] precisely if the [[monodromy]] $Fib_E$ is [[free action]].
+1. [[simply connected topological space|simply connected]] precisely if the [[monodromy]] $Fib_E$ is a [[transitive action|transitive]] and [[free action]].
 
 =--
 
