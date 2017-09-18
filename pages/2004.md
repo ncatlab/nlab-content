@@ -42,13 +42,13 @@ Let $(T,\eta,\mu)$ be a [[monad]] in [[Cat]], where $T \colon C\to C$ is an [[en
 A (left) $T$-[[algebra for a monad|module]] (or $T$-algebra) in $C$ is a pair $(A,\nu)$ of an object $A$ in $C$ and a morphism $\nu\colon T(A)\to A$ which is a __$T$-[[action]]__, in that 
 
 $$
-  \nu\circ T(\nu)=\nu\circ\mu_{M} \colon T(T(M))\to M
+  \nu\circ T(\nu)=\nu\circ\mu_{A} \colon T(T(A))\to A
 $$ 
 
 and 
 
 $$
-  \nu\circ\eta_M = id_M
+  \nu\circ\eta_A = id_A
   \,.
 $$
 
@@ -56,7 +56,7 @@ $$
 A [[homomorphism]] of $T$-modules $f\colon (A,\nu^A)\to (B,\nu^B)$ is a morphism $f\colon A \to B$ in $C$ that commutes with the action, in that
 
 $$
-  f\circ\nu^M=\nu^N\circ T(f)\colon T(M)\to N
+  f\circ\nu^A=\nu^B\circ T(f)\colon T(A)\to B
   \,.
 $$ 
 
