@@ -1,0 +1,9 @@
+
+
+* [webpage](http://maths.dur.ac.uk/users/kasper.peeters/)
+
+## related $n$Lab entries
+
+* [[string theory]]
+
+category: people
