@@ -21,4 +21,6 @@
 
 * Wikipedia, _[Gnosticism](http://en.wikipedia.org/wiki/Gnosticism)_
 
+* [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Gnostics](Lectures+on+the+History+of+Philosophy#Gnostics)_
+
 [[!redirects gnosis]]
