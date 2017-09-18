@@ -175,14 +175,14 @@ For $q\in \mathbb{N}$, the real [[Grassmann algebra]]
 $$
   C^\infty(\mathbb{R}^{0|q})
   \coloneqq
-  \wedge^\bullet \langle \theta^1, \cdots, \theta^q\rangle
+  \wedge^\bullet \langle \theta_1, \cdots, \theta_q\rangle
 $$
 
-is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^q$
-in odd degree, subject to the relations
+is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta_i\}_{i = 1}^q$
+(now rgarded as being in odd degree), subject to the relations
 
 $$
-  \theta^i \theta^j = - \theta^j \theta^i
+  \theta_i \theta_j = - \theta_j \theta_i
 $$
 
 for all $i,j \in \{1,\cdots, q\}$. In particular
@@ -191,7 +191,7 @@ $$
   \theta_i \theta_i = 0
 $$
 
-for all $i \in \{1, \cdots, q\}$.
+for all $i \in \{1, \cdots, q\}$ (since $\mathbb{R}$ has [[characteristic zero]] and in particular $char(\mathbb{R}) \neq 2$).
 
 For $p,q \in \mathbb{N}$, the [[super-Cartesian space]] $\mathbb{R}^{p|q}$ is the [[formal dual]] of the [[supercommutative superalgebra]] written $\mathcal{O}(\mathbb{R}^{p\vert q})$ or $C^\infty(\mathbb{R}^{p|q})$ whose underlying
 $\mathbb{Z}/2\mathbb{Z}$-[[graded vector space]] is
@@ -200,7 +200,7 @@ $\mathbb{Z}/2\mathbb{Z}$-[[graded vector space]] is
 $$
   C^\infty(\mathbb{R}^{p|q})
   \coloneqq
-  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \wedge^\bullet\langle\theta^1, \cdots, \theta^q\rangle
+  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \wedge^\bullet\langle\theta_1, \cdots, \theta_q\rangle
 $$
 
 with the product given by the relations
@@ -208,16 +208,16 @@ with the product given by the relations
 $$
   \begin{aligned}
   \left(
-    f \theta^{i_1}\cdots \theta^{i_k}
+    f \theta_{i_1}\cdots \theta_{i_k}
   \right)
   \left(
-    g \theta^{j_1}\cdots \theta^{j_l}
+    g \theta_{j_1}\cdots \theta_{j_l}
   \right)
   & =
-  f \cdot g \; \theta^{i_1}\cdots \theta^{i_k} \theta^{j_1}\cdots \theta^{j_l}
+  f \cdot g \; \theta^{i_1}\cdots \theta^{i_k} \theta_{j_1}\cdots \theta_{j_l}
   \\
   & =
-  (-1)^{k l} g\cdot f \; \theta^{j_1}\cdots \theta^{j_l} \theta^{i_1}\cdots \theta^{i_k}
+  (-1)^{k l} g\cdot f \; \theta_{j_1}\cdots \theta_{j_l} \theta_{i_1}\cdots \theta_{i_k}
   \end{aligned}
 $$
 
