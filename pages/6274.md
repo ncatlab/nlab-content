@@ -23,7 +23,7 @@ In the context of [[quantum field theory]] conformal structure underlies the for
 
 ## Related concepts
 
-* [[conformal transformation]], [[conformal group]]
+* [[conformal map]], [[conformal transformation]], [[conformal group]]
 
 * [[Fefferman-Graham ambient construction]]
 
