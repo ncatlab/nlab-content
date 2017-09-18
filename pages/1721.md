@@ -965,7 +965,7 @@ on the [[0-sphere]] is an [[isomorphism]]. Then $\phi(X)\colon E(X)\to F(X)$ is 
 =--
 
 
-For $E$ and $F$ [[ordinary cohomology]]/[[ordinary homology]] functors a proof of this is in ([Eilenberg-Steenrod 52, section III.10](#EilenbergSteenrod52)). From this the general statement follows (e.g. [Kochman 96, theorem 3.4.3, corollary 4.2.8](#Kochman96)) via the [[natural transformation|naturality]] of the [[Atiyah-Hirzebruch spectral sequence]] (the classical result gives that $\phi$ induces an isomorphism between the second pages of the AHSSs for $E$ and $F$). 
+For $E$ and $F$ [[ordinary cohomology]]/[[ordinary homology]] functors a proof of this is in ([Eilenberg-Steenrod 52, section III.10](#EilenbergSteenrod52)). From this the general statement follows (e.g. [Kochman 96, theorem 3.4.3, corollary 4.2.8](#Kochman96)) via the [[natural transformation|naturality]] of the [[Atiyah-Hirzebruch spectral sequence]] (the classical result gives that $\phi$ induces an isomorphism between the second pages of the AHSSs for $E$ and $F$). A complete proof of the general result is also given as ([Switzer 75, theorem 7.55, theorem 7.67](#Switzer75))
 
 
 ## Related concepts
