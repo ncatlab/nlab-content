@@ -30,13 +30,18 @@ $$
   \,.
 $$
 
-This worldline formalism is equivalent to the traditional formulation. It has the conceptial advantage that it expresses the QFT (in [[perturbation theory]]) more manifestly as a [[second quantization]] of its particle content given explicitly of the [[superposition]] of all 1-particle processes.
+This worldline formalism is equivalent to the traditional formulation. It has the conceptual advantage that it expresses the QFT (in [[perturbation theory]]) more manifestly as a [[second quantization]] of its particle content given explicitly of the [[superposition]] of all 1-particle processes.
 
 The worldline formulation of QFT has an evident generalization to higher dimensional [[worldvolumes]]: in direct analogy one can consider summing the [[correlators]]/[[n-point functions]] over [[worldvolume]] [[theory (physics)|theories]] of "higher dimensional particles" ("[[branes]]") over all possible worldvolume geometries. Indeed, for 2-[[dimensional]] branes this is precisely the way in which [[perturbative string theory]] is defined: the [[string scattering amplitudes]] are given by the analogous "worldsheet formalism" known as the [[string perturbation series]] as the sum over all surfaces of the [[correlators]]/[[n-point functions]] of of a 2d [[SCFT]] of central charge 15.
 
 [[!include second quantization -- table]]
 
 Indeed, after decades of [[Feynman rules]], the worldline formalism for QFT was found only _via_ [[string theory]] in ([Bern-Kosower 91](#BernKosower91)), by looking at the point particle limit of [[string scattering amplitudes]]. Then ([Strassler 92](#Strassler92), [Strassler 93](#Strassler93)) observed that generally the worldline formlism is obtained from the correlators of the 1d QFT of [[relativistic particles]] on their [[worldline]]. 
+
+
+<img src="http://ncatlab.org/nlab/files/worldlineformalismoverview.jpg">
+
+(from ([Schmidt-Schubert 94](#SchmidtSchubert94)))
 
 ## Related entries
 
@@ -46,15 +51,15 @@ Indeed, after decades of [[Feynman rules]], the worldline formalism for QFT was 
 
 The worldline formalism was first derived from the point-particle limit of [[string scattering amplitudes]] in 
 
-* [[Zvi Bern]], D. Kosower, _Efficient calculation of one-loop QCD amplitudes_ Phys. Rev. D 66 (1991),([journal](http://prl.aps.org/abstract/PRL/v66/i13/p1669_1))
- {#BernKosower91}
+* {#BernKosower91} [[Zvi Bern]], D. Kosower, _Efficient calculation of one-loop QCD amplitudes_ Phys. Rev. D 66 (1991),([journal](http://prl.aps.org/abstract/PRL/v66/i13/p1669_1))
+ 
 
 * [[Zvi Bern]], D. Kosower, _The computation of loop amplitudes in gauge theories_, Nucl. Phys. B379 (1992)  ([journal](http://ccdb4fs.kek.jp/cgi-bin/img_index?9108076))
 
 Then it was related to actual worldline quantum field theory in 
 
-* [[Matthew Strassler]], _Field Theory Without Feynman Diagrams: One-Loop Effective Actions_, Nucl. Phys. B385:145-184,1992 ([arXiv:hep-ph/9205205](http://arxiv.org/abs/hep-ph/9205205))
- {#Strassler92}
+* {#Strassler92} [[Matthew Strassler]], _Field Theory Without Feynman Diagrams: One-Loop Effective Actions_, Nucl. Phys. B385:145-184,1992 ([arXiv:hep-ph/9205205](http://arxiv.org/abs/hep-ph/9205205))
+ 
 
 
 * {#Strassler93} [[Matthew Strassler]], _The Bern-Kosower Rules and Their Relation to Quantum Field Theory_, PhD thesis, Stanford 1993 ([spires](http://inspirehep.net/record/364079?ln=de))
@@ -64,7 +69,7 @@ Then it was related to actual worldline quantum field theory in
 
 Reviewes include
 
-* M. G. Schmidt, C. Schubert, _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
+* {#SchmidtSchubert94} M. G. Schmidt, C. Schubert, _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
 
 and a list of more literature is at
 
