@@ -26,6 +26,8 @@ The original _[[classical Adams spectral sequence]]_ is the case where $E = H\ma
 
 Generally, for $E$ a suitable [[E-infinity algebra]] there is a corresponding _$E$-Adams(-Novikov) spectral sequence_ whose second page is given by $E$-[[generalized cohomology]] and which arises as the [[spectral sequence of a simplicial stable homotopy type]] of the [[cosimplicial object|cosimplicial]] object which is the [[Cech nerve]]/[[Sweedler coring]]/[[Amitsur complex]] of $E$. As such the Adams spectral sequence is an analog in [[stable homotopy theory]] of the [[Bousfield-Kan spectral sequence|Bousfield-Kan]] [[homotopy spectral sequence]] in unstable [[homotopy theory]].
 
+For a detailed introduction see at _[[Introduction to the Adams Spectral Sequence]]_.
+
 Working with the Adams spectral sequence tends to be fairly involved, as is clear from the subtlety of the results it computes (notably [[stable homotopy groups of spheres]]) and as witnessed by the fact that one uses further [[spectral sequences]] just to compute the low pages of the Adams spectral sequence, e.g. the [[May spectral sequence]] and the  [[chromatic spectral sequence]]. 
 
 A clear conceptual picture in [[higher algebra]]  of what happens in the Adams spectral sequence ([Lurie 10](#Lurie10)) has emerged via the re-formulation in ([Miller 81](#Miller81), [Hopkins 99](#Hopkins99)). Survey of this perspective includes ([Wilson 13](#Wilson13)). 
@@ -8216,6 +8218,7 @@ Reviews of the traditional theory include
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner 09](#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
+* _[[Introduction to the Adams Spectral Sequence]]_
 
 The modern point of view in terms of derived $E_\infty$-descent is hinted at in ([Hopkins 99, remark 5.5 (ii)](#Hopkins99)) and is consistently adopted in
 
