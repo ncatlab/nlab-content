@@ -289,7 +289,7 @@ is an [[equivalence]] of $(n-2)$-categories.
 ### Preservation of Kan extensions
 {#Preservation}
 
-We say that a Kan extension $Lan_p F$ is *preserved* by a functor $G$ if the composite $G \circ Lan_p F$ is a Kan extension of $G F$ along $p$, and moreover the universal natural transformation $G F \to G(Lan_p F)p$ is the composite of $G$ with the universal transformation $F\to (Lan_p F)f$.
+We say that a Kan extension $Lan_p F$ is *preserved* by a functor $G$ if the composite $G \circ Lan_p F$ is a Kan extension of $G F$ along $p$, and moreover the universal natural transformation $G F \to G(Lan_p F)p$ is the composite of $G$ with the universal transformation $F\to (Lan_p F)p$.
 
 ### Pointwise or strong Kan extensions 
  {#Pointwise}
