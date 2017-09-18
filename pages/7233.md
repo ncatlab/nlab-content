@@ -355,6 +355,14 @@ That orientability and spinnability is necessary follows directly from the fact 
 
 The canonical [[Riemannian metric]] $G_2$ manifold is [[Ricci tensor|Ricci flat]]. More generally a manifold of weak $G_2$-holonomy, def. \ref{WeakG2Holonomy}, with weakness parameter $\lambda$ is an [[Einstein manifold]] with [[cosmological constant]] $\lambda$. 
 
+### As part of the Berger classification
+
+[[!include special holonomy table]]
+
+### As $\mathbb{O}$-Riemannian manifolds
+
+[[!include normed division algebra Riemannian geometry -- table]]
+
 
 ## Applications
 
@@ -363,8 +371,6 @@ The canonical [[Riemannian metric]] $G_2$ manifold is [[Ricci tensor|Ricci flat]
 In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]]/[[M-theory on G2-manifolds]] (see for instance [Duff](#Duff)) can have attractive [[phenomenology|phenomenological]] properties, see for instance the _[[G2-MSSM]]_. 
 
 ## Related concepts
-
-[[!include special holonomy table]]
 
 * [[associative submanifold]]
 
