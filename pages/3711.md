@@ -54,6 +54,6 @@ The term _$\mathcal{D}$-geometry_ refers to a [[synthetic differential geometry|
  
   _chapter 2, Geometry of D-schemes_ ([pdf](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch2.pdf))
 
-* [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
+* [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_, 2009 (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
 
 
