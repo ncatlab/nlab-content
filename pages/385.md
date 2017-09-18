@@ -81,7 +81,7 @@ A detailed discussion is in
 
 * F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71--118. [ArXiv](http://arxiv.org/abs/math/0007009){#Al-Agl/Brown/Steiner}
 
-* R. Brown, P.J.Higgins, R. Sivera, _Nonabelian algebraic topology: filtered spaces, crossed complexes, cubical homotopy groupoids_, EMS Tracts in Mathematics vol 15, 650 pages (autumn 2010 to appear). ([Nonabelian algebraic topology](http://www.bangor.ac.uk/r.brown/nonab-a-t.html))
+* R. Brown, P.J.Higgins, R. Sivera, _Nonabelian algebraic topology: filtered spaces, crossed complexes, cubical homotopy groupoids_, EMS Tracts in Mathematics vol 15, 650 pages (autumn 2010 to appear). ([Nonabelian algebraic topology](http://www.groupoids.org.uk/nonab-a-t.html))
 
 Some helpful remarks and diagrams are in 
 
