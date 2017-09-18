@@ -39,7 +39,7 @@ The most important aspects of monster models are _saturation_ and _homogeneity_:
 ## Examples
 Monster models in general tend to be hard to explicitly describe, except when theories are "well-behaved", e.g. stable (when type spatn the number of isomorphism classes of models in a certain cardinality is $1$). For example, both are true for $\mathsf{ACF}$.
 
-By a back-and-forth argument (e.g. the one used by Cantor to prove the uniqueness of the countable dense linear order without endpoints), one can show that any two monster models are well-defined up to isomorphism, up to cardinality.
+By a back-and-forth argument (e.g. the one used by Cantor to prove the uniqueness of the [[DLO|countable dense linear order without endpoints]]), one can show that any two monster models are well-defined up to isomorphism, up to cardinality.
 
 ## Comparison with scheme approach to algebraic geometry
 From Appendix B of Ehud Hrushovski's _Computing the Galois group of a linear differential equation_:
