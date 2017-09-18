@@ -68,7 +68,7 @@ satisfying the following conditions:
        \\
        F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
         &&
-       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
+       F(x) \otimes_{\mathcal{D}} ( F(y \otimes_{\mathcal{C}} z) )
        \\
        {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
          && 
