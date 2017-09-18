@@ -51,6 +51,9 @@ Generally speaking, the double $A^2$ of an algebra $A$ has a nice property iff $
 
 The standard example is the sequence of consecutive doubles starting with $\mathbb{R}$ itself (with the [[identity map]] as involution); these are the __Cayley--Dickson algebras__: the [[real numbers]] $\mathbb{R}$, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$, the [[octonions]] (or Cayley numbers) $\mathbb{O}$, the [[sedenions]] $\mathbb{S}$, etc. These are the [[normed division algebras]] ($\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, and $\mathbb{O}$), followed by further algebras which are not [[division algebras]].  All of these algebras are [[power-associative algebra|power-associative]] and unital and have all [[inverse elements]]; the subalgebra with $\overline{x} = x$ is always just $\mathbb{R}$.
 
+## Related concepts 
+
+* [[composition algebra]]
 
 ## References
 
