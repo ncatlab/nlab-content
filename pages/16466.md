@@ -499,7 +499,7 @@ $$
   V_1 \otimes_k V_2 \in Vect
 $$
 
-whose elements are [[equivalence classes of]] [[tuples]] of elements $(v_1,v_2)$ with $v_i \in V_i$, for the [[equivalence relation]] given by
+whose elements are [[equivalence classes]] of  [[tuples]] of elements $(v_1,v_2)$ with $v_i \in V_i$, for the [[equivalence relation]] given by
 
 $$
   (k v_1 , v_2) \;\sim\; (v_1, k v_2)
@@ -543,7 +543,7 @@ More abstractly this means that the [[tensor product of vector spaces]] is the v
 
 =--
 
-The existence of the [[tensor product of vector space]], def. \ref{TensorProductOfVectorSpaces}, equips the category [[Vect]] of vector spaces with extra structure, which is a "[[categorification]]" of the familair structure of a [[semi-group]]. One also says "[[monoid]]" for [[semi-group]] and therefore [[categories]] equippd with a [[tensor product]] operation are also called  _[[monoidal categories]]_:
+The existence of the [[tensor product of vector spaces]], def. \ref{TensorProductOfVectorSpaces}, equips the category [[Vect]] of vector spaces with extra structure, which is a "[[categorification]]" of the familair structure of a [[semi-group]]. One also says "[[monoid]]" for [[semi-group]] and therefore [[categories]] equippd with a [[tensor product]] operation are also called  _[[monoidal categories]]_:
  
 
 +-- {: .num_defn #MonoidalCategory} 
@@ -679,7 +679,7 @@ For $k$ a [[field]], the category [[Vect]]${}_k$ of $k$-[[vector spaces]] become
     \,.
   $$
 
-That this satisifes the [[pentagomn identity]] and the left and right unit identities is immediate on representing tuples.
+That this satisifes the [[pentagon identity]] (def. \ref{MonoidalCategory}) and the left and right unit identities is immediate on representing tuples.
 
 =--
 
@@ -885,13 +885,12 @@ In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{Coh
 
 =--
 
-Consider the simplest non-trivial special case of $G$-[[graded vector spaces]] from example ref, the case where $G = \mathbb{Z}/2$ is the [[cyclic group of order two]]
+Consider the simplest non-trivial special case of $G$-[[graded vector spaces]] from example \ref{GradedVectorSpacesAsAMonoidaCategory}, the case where $G = \mathbb{Z}/2$ is the [[cyclic group of order two]].
 
-+-- {: .num_example }
++-- {: .num_example #Z2Zgradedvectorspaces}
 ###### Example
 
-
-A $\mathbb{Z}/2$-[[graded vector space]] (where $\mathbb{Z}/2$ is the [[cyclic group of order 2]]) is a [[direct sum]] of two vector spaces
+A **$\mathbb{Z}/2$-[[graded vector space]]** is a [[direct sum]] of two vector spaces
 
 $$
   V = V_{even} \oplus V_{odd}
@@ -946,34 +945,61 @@ $$
 
 As in example \ref{GradedVectorSpacesAsAMonoidaCategory}, this definition makes $\mathbb{Z}/2$ a [[monoidal category]] def. \ref{MonoidalCategory}. 
 
-There are, up to equivalence, precisely two choices for a [[symmetric monoidal category|symmetric]] [[braiding]] (def. \ref{SymmetricMonoidalCategory}) on this monoidal category:
+=--
 
-1. the trivial braiding. The resulting [[symmetric monoidal category]] we call that of $\mathbb{Z}/2$-[[graded vector spaces]].
++-- {: .num_prop #IndObjectsInATensorCategory} 
+###### Proposition
 
-1. the braiding which is the identity on all [[direct sum|direct summands]] one of whose factors is in even degree, but is multiplication by -1 on the direct summand both whose factors are in odd degree: i.e. 
+There are, up to [[braided monoidal functor|braided monoidal]] [[equivalence of categories]], precisely two choices for a [[symmetric monoidal category|symmetric]] [[braiding]] (def. \ref{SymmetricMonoidalCategory})
+
+$$
+  V_1 \otimes V_2 
+     \stackrel{\tau_{V_1,V_2}}{\longrightarrow}
+  V_2 \otimes V_1
+$$
+
+
+on the [[monoidal category]] $(Vect_k^{\mathbb{Z}/2}, \otimes_k)$ of $\mathbb{Z}/2$-[[graded vector spaces]] from def. \ref{Z2Zgradedvectorspaces}.
+
+1. the **trivial braiding** whch is the natural linear map given on tuples $(v_1,v_2)$ representing an element in $V_1 \otimes V_2$ (according to def. \ref{TensorProductOfVectorSpaces}) by
 
    $$
-     V_1 \otimes V_2 
-       \stackrel{\tau_{V_1,V_2}}{\longrightarrow}
-     V_2 \otimes V_1
+     \tau^{triv}_{V_1, V_2} \;\colon\; (v_1,v_2) \mapsto (v_2, v_1)
    $$
 
-   is the linear function which on vectors $v_1, v_2$ in homogeneous degree is given by
+1. the **super-braiding** which is the natural linear function given on tuples $(v_1,v_2)$ of _homogeneous degree_ (i.e. $v_i \in (V_i)_{\sigma_i} \hookrightarrow V_i$, for $\sigma_i \in \mathbb{Z}/2$) by 
 
    $$
-     \tau_{V_1, V_2} 
+     \tau^{super}_{V_1, V_2} 
         \;\colon\;
      (v_1, v_2)
         \mapsto
      (-1)^{deg(v_1) deg(v_2)}
      \,
      (v_2,v_1)
+     \,.
    $$
-
-   The resulting [[symmetric monoidal category]] is called the category [[sVect]] of   **[[super vector spaces]]**.
 
 =--
 
+
++-- {: .num_defn} 
+###### Definition
+
+The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) 
+
+* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
+
+* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{IndObjectsInATensorCategory} is called the **[[category of super vector spaces]]**
+
+$$
+  sVect_k 
+    \;\coloneqq\;
+  (Vect_k^{\mathbb{Z}/2}, \otimes = \otimes_k, 1 = k, \tau = \tau^{super} )
+  \,.
+$$
+
+=--
 
 ...[[rigid monoidal category]]...
 
