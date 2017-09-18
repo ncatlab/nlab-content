@@ -37,6 +37,11 @@ The [[quotient]] of the bounded operators by the [[compact operators]] is called
 
 Every bounded operator on a [[Hilbert space]] has a [[polar decomposition]].
 
+The _[[Gelfand-Naimark theorem]]_ says that every [[C*-algebra]] is [[isomorphism|isomorphic]] to a $C^\ast$-algebra of [[bounded linear operators]] on a [[Hilbert space]].
+
+
+## Examples
+
 Important classes of bounded operators are the [[compact operators]], [[trace-class operator]]s and [[Hilbert-Schmidt operator]]s.
 
 
