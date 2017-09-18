@@ -1,7 +1,7 @@
 
 # Ronnie Brown
 
-* [website](http://pages.bangor.ac.uk/~mas010/)
+* [website](http://www.groupoids.org.uk)
 
 * [list of publications](http://pages.bangor.ac.uk/~mas010/publicfull.htm)
 
