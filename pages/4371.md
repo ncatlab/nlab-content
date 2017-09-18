@@ -17,6 +17,7 @@
 
 In [[logic]], double negation is the operation that takes $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself. This is a [[closure operator]]/[[modality]] and as such a special case of a [[continuation monad]].
 
+The _[[double negation translation]]_ says that a [[proposition]] $P$ is provable in [[classical logic]] precisely if its double negation $\not \not P$ is provable in [[constructive logic]].
 
 ## In logic
 
