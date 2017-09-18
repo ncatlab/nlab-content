@@ -686,6 +686,10 @@ Parallel transport for [[circle n-bundles with connection]] is discussed general
 
 see also the discussion at _[[fiber integration in ordinary differential cohomology]]_.
 
+Realization of this as an [[extended TQFT]] is discussed in 
+
+* [[Nersés Aramyan]], Research statement ([pdf](http://math.illinois.edu/~aramyan2/research.pdf))
+
 Parallel transport with [[coefficients]] in [[crossed complexes]]/[[strict infinity-groupoids]] is discussed in 
 
 * {#Kapranov15} [[Mikhail Kapranov]], _Membranes and higher groupoids_ ([arXiv:1502.06166](http://arxiv.org/abs/1502.06166))
@@ -693,8 +697,6 @@ Parallel transport with [[coefficients]] in [[crossed complexes]]/[[strict infin
 The integration of flat differential forms with values in chain complexes to flat $\infty$-parallel transport on $\infty$-vector bundles is in 
 
 * {#AbadSchaetz} [[Camilo Arias Abad]], [[Florian Schaetz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv](http://arxiv.org/abs/1011.4693))
-
-
 
 based on
 
