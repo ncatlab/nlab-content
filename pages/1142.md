@@ -122,7 +122,7 @@ $((-)\times y(U) \stackrel{p_2}{\to} y(U)) : PSh(S_X) \to PSh(S_X)/y(U)$;
 
 It is worth noting that in the case where $X$ is itself a [[monoidal category]] $(X, \otimes, I)$, $Psh(X)$ is equipped with another (bi)closed monoidal structure given by the [[Day convolution]] product and its componentwise right adjoints.  Let $F$ and $G$ be two presheaves over $X$.  Their tensor product $F \star G$ can be defined by the following [[coend]] formula:
 
-$$F\star G = U \mapsto \int^{U_1,U_2\in X} Hom_X(U_1\otimes U_2, U) \times F(U_1) \times G(U_2)$$
+$$F\star G = U \mapsto \int^{U_1,U_2\in X} Hom_X(U, U_1\otimes U_2) \times F(U_1) \times G(U_2)$$
 
 Then we can define two right adjoints 
 
