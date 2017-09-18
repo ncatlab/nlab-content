@@ -34,3 +34,6 @@ Spaces of solutions of Diophantine equations may be thought of as [[varieties]] 
 * Wikipedia, _[Diophantine equation](http://en.wikipedia.org/wiki/Diophantine_equation)_
 
 [[!redirects Diophantine equations]]
+
+[[!redirects diophantine equation]]
+[[!redirects diophantine equations]]
