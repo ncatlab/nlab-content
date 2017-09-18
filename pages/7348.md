@@ -73,7 +73,7 @@ An immersion whose underlying [[continuous function]] is an [[embedding of topol
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #ImmersionsThatAreNotEmbeddings}
 ###### Example
 **(immersions that are not embeddings)**
 
@@ -81,7 +81,8 @@ An immersion whose underlying [[continuous function]] is an [[embedding of topol
 <img src="https://ncatlab.org/nlab/files/Immersion.png" width="150">
 </div>
 
-Consider an immersion $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not a [[embedding of smooth manifolds]]: around the points where the image either crosses itself, or touches itself the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(0,1)$.
+Consider an immersion $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not a [[embedding of smooth manifolds]]: around the points where the image crosses itself, the function is not even injective, but even 
+at the points where it just touches itself, the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(a,b)$, hence do not yield the [[subspace topology]].
 
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/Figure8Immersion.png" width="400">
