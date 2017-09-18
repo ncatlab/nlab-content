@@ -1,0 +1,32 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What are called _advanced_ and _retarded propagators_ $\Delta_{A/R}$ are the [[Green functions]] for the [[wave operator]]/[[Klein-Gordon operator]] (hence "[[propagators]]") on a [[globally hyperbolic spacetime]] $(X,e)$ characterized by the fact that their [[support of a distribution|support]] as [[distributions]]
+
+$$
+  \Delta_{A/R}
+  \in \mathcal{D}'(X \times X)
+$$
+
+is such that 
+
+1. $(x,y) \in supp(\Delta_R)$ precisely if $x$ is in the [[causal future]] of $y$;
+
+1. $(x,y) \in supp(\Delta_A)$ precisely if $x$ is in the [[causal past]] of $y$.
+
+## Related concepts
+
+[[!include propagators - table]]
+
+
+
+
+
+[[!redirects advanced propagators]]
+
+[[!redirects retarded propagator]]
+[[!redirects retarded propagators]]
