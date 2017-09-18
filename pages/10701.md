@@ -150,7 +150,9 @@ See also
 
 ## Lecture 7 _The homology of MU_ 
 
-* [[Quillen's theorem on MU]]
+* [[Boardman homomorphism]]
+
+* [[homology of MU]]
 
 ##  Lecture 8 _The Adams spectral sequence_ 
 
