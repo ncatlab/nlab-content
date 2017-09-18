@@ -38,7 +38,7 @@ For $C$ any [[SSet]]-[[enriched category]], the canonical morphism
     |N(C)| \to C
   $$
 
-  is an equivalence in that it is essentially surjective on the underlying homotopy categories and a weak eqivalence of simplicial sets hom-wise (...details/links...)
+  is an equivalence in that it is essentially surjective on the underlying homotopy categories and a weak equivalence of simplicial sets hom-wise (...details/links...)
 
   For $S$ any [[simplicial set]], the canonical morphism
 
