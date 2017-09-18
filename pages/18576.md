@@ -43,7 +43,12 @@ What is now called the _Dirac propagator_ was first considered in
 
 * [[Paul Dirac]], _Classical theory of radiating electrons_, Proc. Roy. Soc.  A 167 (1983) 148-169
 
-See
+An overview of the [[Green functions]] of the [[Klein-Gordon operator]], hence of the [[Feynman propagator]], [[advanced propagator]], [[retarded propagator]], [[causal propagator]] etc. is given in
+
+* {#Kocic16} [[Mikica Kocic]], _Invariant Commutation and Propagation Functions Invariant Commutation and Propagation Functions_, 2016 ([[KGPropagatorsOnMinkowskiTable.pdf:file]])
+
+
+Discussion for general [[globally hyperbolic spacetimes]] includes
 
 * F. Friedlander, _The Wave Equation on a Curved Space-Time_, Cambridge: Cambridge University Press, 1975
 
@@ -57,27 +62,4 @@ Review in the context of [[perturbative algebraic quantum field theory]] include
 * [[Katarzyna Rejzner]], sections 4.1 and 6.2.3 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
 
-
-
-[[!redirects advanced propagators]]
-
-[[!redirects retarded propagator]]
-[[!redirects retarded propagators]]
-
-[[!redirects advanced Green function]]
-[[!redirects advanced Green functions]]
-
-[[!redirects retarded Green function]]
-[[!redirects retarded Green functions]]
-
-[[!redirects retarded and advanced Green functions]]
-[[!redirects advanced and retarded Green functions]]
-
-[[!redirects advanced Green's function]]
-[[!redirects advanced Green's functions]]
-
-[[!redirects retarded Green's function]]
-[[!redirects retarded Green's functions]]
-
-[[!redirects retarded and advanced Green's functions]]
-[[!redirects advanced and retarded Green's functions]]
+[[!redirects Dirac propagators]]
