@@ -204,6 +204,26 @@ If the [[ring]] $R$ is a [[principal ideal domain]] (in particular $R = \mathbb{
 
 The details are discussed at _[pid - Structure theory of modules](http://ncatlab.org/nlab/show/principal+ideal+domain#StructureTheoryOfModules)_.
 
++-- {: .num_prop}
+###### Proposition
+
+For an $R$-module $P$, the following statements are equivalent:
+
+1. $P$ is finite locally free in that there exists a partition $1 = \sum_i f_i \in R$ such that the localized modules $P[f_i^{-1}]$ are finite free modules over $R[f_i^{-1}]$.
+
+1. $P$ is finitely generated and projective.
+
+1. $P$ is a [[dualizable object]] in the category of $R$-modules (equipped with the tensor product as monoidal structure).
+
+1. There exist elements $x_1,\ldots,x_n \in P$ and linear forms $\vartheta_1,\ldots,\vartheta_n \in Hom(P,R)$ such that $x = \sum_i \vartheta_i(x) x_i$ for all $x \in P$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equivalence of 2., 3., and 4. is mostly formal. For the equivalence with 1., see [this math.SE discussion](http://math.stackexchange.com/questions/16814/finitely-generated-projective-modules-are-locally-free) for good references. Note that the equivalences are true without assuming that $R$ is [[Noetherian ring|Noetherian]] or that $P$ satisfies some finiteness condition.
+=--
 
 ### Relation to projective resolutions of chain complexes
  {#RelationToProjectiveResolution}
