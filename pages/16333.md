@@ -1,0 +1,10 @@
+## Idea
+
+The term formation rules for the [[simply typed lambda calculus]] can be expressed in inference rule notation like so
+
+$$
+\frac{\Gamma \vdash t:A\to B \quad \Gamma \vdash u:A}{\Gamma \vdash t(u) : B}
+\qquad
+\frac{\Gamma,x:A \vdash t:B}{\Gamma \vdash \lambda x.t : A \to B}
+$$
+
