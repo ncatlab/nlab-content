@@ -44,7 +44,7 @@ The identification of the concept of (super-)$L_\infty$-algebras has a non-linea
 [[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) were introduced in [Lada-Stasheff 92](#LadaStasheff92), based on the 
 example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was found in the construction of [[closed string field theory]] in [Zwiebach 92](#Zwiebach92). Zwiebach in turn had been following the [[BV-formalism]] of [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83), whose relation to $L_\infty$-algebras was later amplified in [Stasheff 96](#Stasheff96), [Stasheff 97](#Stasheff97)
 
-Some of this history is recalled in [Stasheff 16](#L-infinity-algebra#Stasheff16).
+Some of this history is recalled in [Stasheff 16](#Stasheff16).
 
 The observation that these systems of higher brackets are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
 is due to [Lada-Markl 94](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaMarkl94).
