@@ -9,6 +9,10 @@ Among his former students is [[Hisham Sati]].
 
 ## selected publications
 
+Selected works in the (pre-)history of [[M-theory]]:
+
+* Mike Duff _[[The World in Eleven Dimensions]]_ (1999)
+
 The [[brane scan]] which classifies super $p$-[[brane]] [[sigma-models]] given by the  [[Green-Schwarz action functional]] was highlighted in
 
 * Michael Duff, _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
