@@ -13,6 +13,8 @@
 =--
 =--
 
+*Note: This page is about [[categories]] (in the sense of [[category theory]]) built out of [[syntax]], i.e. "term models".  The phrase "syntactic category" is also sometimes used to mean a grouping of syntactic objects, so that e.g. [[terms]] belong to one syntactic category and [[formulas]] to another.*
+
 # Contents
 * table of contents
 {: toc}
