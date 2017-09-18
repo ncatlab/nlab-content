@@ -347,7 +347,7 @@ $$
   [D^{op}, Set]
 $$
 
-the left [[Kan extension]] $f_1$ also preserves finite limits and hence in this case $f^*$ is also the [[direct image]] of a geometric morphism going the other way round:
+the left [[Kan extension]] $f_!$ also preserves finite limits and hence in this case $f^*$ is also the [[direct image]] of a geometric morphism going the other way round:
 
 $$
   (f_! \dashv f^* ) : [D^{op},Set] \to [C^{op}, Set]
