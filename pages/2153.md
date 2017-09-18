@@ -61,6 +61,9 @@ This list is very incomplete, made mostly by searching for 'ground ring', 'base 
 
 * [[positive characteristic]]
 
+
+[[!redirects ground rings]]
+
 [[!redirects ground field]]
 [[!redirects ground fields]]
 
@@ -72,3 +75,5 @@ This list is very incomplete, made mostly by searching for 'ground ring', 'base 
 
 [[!redirects scalar]]
 [[!redirects scalars]]
+
+
