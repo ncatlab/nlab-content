@@ -25,7 +25,9 @@ A subspace $W\subset V$ in a symplectic vector space is **isotropic** if $\omega
 
 * [[symplectic manifold]]
 
-* [[symplectic group]]
+* [[quadratic Hamiltonian]]
+
+* [[symplectic group]], [[affine symplectic group]], [[metaplectic group]], [[extended affine symplectic group]], [[Heisenberg group]]
 
 [[!include (co)isotropic subspaces - table]]
 
