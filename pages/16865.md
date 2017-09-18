@@ -72,8 +72,6 @@ Note, since they are naturally equivalent to $Hom_\mathcal{C}(-,X)$ which preser
 
 * [[functorial geometry]]
 
-* [[functor of points]]
-
 * [[bornological topos]]
 
 * [[extensive category]]
