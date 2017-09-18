@@ -146,7 +146,9 @@ The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient
 
 ## Limits and colimits of topological spaces
 
-See at _[[Top]]_ the section _[Universal constructions](Top#UniversalConstructions)_
+
+[[!include universal constructions of topological spaces -- table]]
+
 
 ## Limits and colimits in a preordered set
 (..)
