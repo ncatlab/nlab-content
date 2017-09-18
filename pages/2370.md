@@ -21,6 +21,8 @@ the integers $\mathbb{Z}$, a coordinate free spectrum is a collection of
 [[topological space]]s index by all finite dimensional subspaces of
 a real inner product [[vector space]] $U$ isomorphic to $\mathbb{R}^\infty$.
 
+This construction can be seen as a [[G-spectrum]] over a [[G-universe]] for the trivial group.
+
 ## Definition
 
 Let $U$ be a real inner product [[vector space]] isomorphic to the [[direct sum]]
