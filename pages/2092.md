@@ -39,6 +39,8 @@ See [[states]].
 
 * [[bounded linear operator]] / [[unbounded linear operator]]
 
+  * [[compact operator]], [[Calkin algebra]]
+
 * **operator algebra**
 
 * [[C*-algebra]]
