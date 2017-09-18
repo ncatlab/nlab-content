@@ -57,6 +57,23 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 
 * In forming topological [[cell complexes]] such as [[CW-complexes]], one consecutively forms space attachments along [[n-sphere|(n-1)-sphere]] inclusions as [[boundaries]] of [[n-disks]]. These are called _cell attachments_.
 
+## Properties
+
++-- {: .num_defn #MetricSpaceBoundedSubset}
+###### Definition
+
+Let $A, X$ and $Y$ be [[Hausdorff spaces]]. Then also the space attachment $X \cup_f Y$ is a Hausdorff space.
+
+=--
+
++-- {: .num_defn #MetricSpaceBoundedSubset}
+###### Definition
+
+Let $A, X$ and $Y$ be [[paracompact spaces]]. Then also the space attachment $X \cup_f Y$ is a paracompact space.
+
+=--
+
+
 ## Related concepts
 
 [[!include universal constructions of topological spaces -- table]]
