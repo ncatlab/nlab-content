@@ -26,7 +26,7 @@ _Globular_ is a web-based [[proof assistant]] for finitely-presented [[semistric
 
 * [http://globular.science](http://globular.science)
 
-**We recommend the Chrome browser.** <i>Globular</i> currently operates up to the level 3-categories. By the yoga of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]], this also allows one to construct proofs in monoidal 2-categories and braided monoidal 1-categories. An extension to 4-categories is actively in development.
+**We recommend the Chrome browser.** <i>Globular</i> currently operates up to the level of 3-categories. By the yoga of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]], this also allows one to construct proofs in monoidal 2-categories and braided monoidal 1-categories. An extension to 4-categories is actively in development.
 
 The model of [[semistrict]] higher categories that _Globular_ uses puts all the weak structures in the interchangers, and higher associated structures. For [[3-categories]], this means that _Globular_ implements the axioms of a [[Gray category]]. Since every tricategory is equivalent to a semistrict 3-category, this means that any algebraic proof in a finitely-presented tricategory can be formalized.
 
