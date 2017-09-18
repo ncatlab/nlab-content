@@ -40,6 +40,14 @@ $$\ldots \mathcal{O}\mathcal{O}\mathcal{O}t_+
 
 Intuitively, the (graded set of) $0$-cells $\mathcal{O}t_+$ consists of planar trees where each inner node has two or more incoming edges, with trees graded by number of leaves; the extreme points are binary trees [corresponding to complete binary bracketings of words], whereas other trees are barycenters of higher-dimensional faces of Stasheff polytopes. The construction $B(\mathcal{O}, \mathcal{O}, t_+)$ carries a simplicial (non-permutative non-unital) operad structure, where the [[geometric realization]] of the simplicial set at grade (or [[arity]]) $n$ defines the barycentric subdivision of the Stasheff polytope $K_n$. As the operad structure on $B(\mathcal{O}, \mathcal{O}, t_+)$ is expressed in [[doctrine|finite product logic]] and geometric realization preserves finite products, the (simplicially subdivided) associahedra form in this way the components of a topological operad. 
 
+## Loday's realization
+
+[[Jean-Louis Loday]] gave a simple formula for realizing the Stasheff polytopes as a convex hull of integer coordinates in Euclidean space [(Loday 2004)](#Loday04).  Let $Y_n$ denote the set of (rooted planar) binary trees with $n+1$ leaves (and hence $n$ internal vertices).  For any binary tree $t \in Y_n$, define a vector $M(t) \in \mathbb{R}^n$ whose $i$th coordinate is the product $a_i b_i$ of the number of leaves to the left of the $i$th internal vertex ($a_i$) by the number of leaves to the right of the $i$th internal vertex ($b_i$).
+
++-- {: .un_thm}
+###### Theorem (Loday)
+The convex hull of the points $\{ M(t) \in \mathbb{R}^n \mid t \in Y_n \}$ is a realization of the Stasheff polytope of dimension $n-1$.
+=-- 
 
 
 ## Illustrations
@@ -109,6 +117,10 @@ The original articles that define associahedra and in which the operad $K$ that 
 A textbook discussion (slightly modified) is in section 1.6 of the book
 
 * [[Martin Markl]], [[Steven Shnider]], [[Jim Stasheff]], _Operads in Algebra, Topology and Physics_ ([web](http://books.google.de/books?id=fMhZjT9lQo0C&pg=PA56&lpg=PA56&dq=Stasheff+associahedra&source=bl&ots=ZuGXjT4zbp&sig=V-taGG2LHS0msHK-PTxmUXXCvEY&hl=de#PPP1,M1))
+
+Loday's original article on the Stasheff polytope is
+
+* {#Loday04} [[Jean-Louis Loday]], Realization of the Stasheff polytope, _Archiv der Mathematik_ 83 (2004), 267-278. ([doi](https://dx.doi.org/10.1007%2Fs00013-004-1026-y))
 
 Further explanations and references are collected at
 
