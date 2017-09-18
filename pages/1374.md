@@ -66,7 +66,11 @@ There are several [[presentable (infinity,1)-category|presentations]] of the $(\
 
 ## References
 
-the stable $(\infty,1)$-category of spectra is described in section 9 of 
+the stable $(\infty,1)$-category of spectra is described in chapter 1 of
+
+* [[Jacob Lurie]], [[Higher Algebra]]
+
+or section 9 of 
 
 * [[Jacob Lurie]], [[Stable Infinity-Categories]] .
 
