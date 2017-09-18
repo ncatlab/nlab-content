@@ -12,6 +12,12 @@
 * table of contents
 {: toc}
 
+## Idea
+
+**Totally connectedness** is a stronger form of _local connectedness_ that arose in the work of [[Marta Bunge|M. Bunge]] and [[Jonathon Funk|J. Funk]] on _topos distributions_.
+
+The properties of totally connected geometric morphisms are largely dual to those of [[local geometric morphisms]].
+
 ## Definition
 
 A [[geometric morphism]] $f\colon E\to S$ is **totally connected** if
@@ -24,7 +30,15 @@ When thinking of $E$ as a topos over $S$ via $f$, we say that it is a **totally 
 
 ## Properties
 
-Of course, any totally connected geometric morphism is [[connected geometric morphism|connected]], since the [[terminal object]] is a particular finite limit.  It is also [[strongly connected geometric morphism|strongly connected]], since finite products are also finite limits.
+* Of course, any totally connected geometric morphism is [[connected geometric morphism|connected]], since the [[terminal object]] is a particular finite limit.  It is also [[strongly connected geometric morphism|strongly connected]], since finite products are also finite limits.
+
+* Totally connected geometric morphisms are closed under composition and stable under pullback.
+
+* $f$ is totally connected iff $f$ is connected and has a right adjoint in $\mathfrak{Top}$, the [[topos|2-category of toposes]] and geometric morphisms.
+
+* Totally connected geometric morphisms are orthogonal to _grouplike morphisms_ (cf. Johnstone (2002)).
+
+* A connected, locally connected $p:\mathcal{E}\to\mathcal{S}$ that satisfies the [[Nullstellensatz|Lawvere Nullstellensatz]] (i.e. the canonical $\theta:p_*\to p_!$ is epic) is totally connected precisely iff it is a [[quality type]] over $\mathcal{S}$ (i.e. $\theta$ is iso; cf. Johnstone (2011)).
 
 ## Examples
 
@@ -74,9 +88,15 @@ and
 
 ## References
 
-Chapter C3.6 in 
+* [[Marta Bunge]], [[Jonathon Funk]], _Spreads and the Symmetric Topos_ , JPAA **113** (1996) pp.1-38.
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ .
+* [[Marta Bunge]], [[Jonathon Funk]], _Spreads and the Symmetric Topos II_ , JPAA **130** (1998) pp.49-84.
+
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002. (vol. 2, Section C.3.6, pp.707-710)
+
+* {#JS11} [[Peter Johnstone|P. Johnstone]], _Remarks on Punctual Local Connectedness_ , TAC **25** no.3 (2011) pp.51-63. ([pdf](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+
 
 [[!redirects totally connected]]
 [[!redirects totally connected geometric morphisms]]
