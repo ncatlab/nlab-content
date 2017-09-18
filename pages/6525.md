@@ -9,7 +9,7 @@
 
 $$(\omega^2 + 5\omega - 13)^{\frac1{3} - \frac{2}{\omega}} + \pi$$
 
-The term "surreal number" was introduced by Donald Knuth, who wrote a fictional account of a couple who find themselves stranded on a deserted island and who, finding an abundance of time to spend on things besides food and sex, discover surreal numbers and their delightful properties. 
+The term "surreal number" was introduced by Donald Knuth, who wrote a short novel about a couple who check out from Western civilization and live on a remote beach in India and who, finding a mysterious engraved stone and with an abundance of time to spend on things besides food and sex, discover for themselves surreal numbers and their delightful properties. 
 
 ## Conway-style definitions 
 
