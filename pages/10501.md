@@ -100,6 +100,10 @@ Let us say that a functor on the category of smooth projective [[varieties]] is 
 
 * [[derived category of coherent sheaves]]
 
+* [[perfect complex]]
+
+* [[deformation theory of sheaves]]
+
 ## References
 
 * [[SGA 6]]
