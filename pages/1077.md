@@ -148,7 +148,7 @@ For categories enriched over [[suplattices]], this extends to all small biproduc
 
 ### Biproducts from duals
 
-The existence of [[dual objects]] tends to imply (semi)additivity; see ([{Houston 06}](#Houston06), [MO discussion](http://mathoverflow.net/questions/14402/semiadditivity-and-dualizability-of-2/21307)).
+The existence of [[dual objects]] tends to imply (semi)additivity; see ([Houston 08](#Houston06), [MO discussion](http://mathoverflow.net/questions/14402/semiadditivity-and-dualizability-of-2/21307)).
 
 
 
