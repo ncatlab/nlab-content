@@ -1,0 +1,9 @@
+
+
+* [webpage](https://www.dur.ac.uk/mathematical.sciences/people/profile/?id=1630)
+
+## related $n$Lab entries
+
+* [[BPS state]]
+
+category: people
