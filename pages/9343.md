@@ -4,6 +4,8 @@
 
 * [[pole]]
 
+* [[angular deficit]]
+
 * [[singular point of a curve]]
 
 * [[differential form with logarithmic singularities]]
