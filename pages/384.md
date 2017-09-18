@@ -65,7 +65,9 @@ For instance ([Hatcher, prop. A.4](#Hatcher)).
 
 +-- {: .num_theorem} 
 ###### Theorem 
+
 Every CW complex is homotopy equivalent to (the [realization](/nlab/show/simplicial+complex#geometric_realisations_and_polyhedra) of) a [[simplicial complex]]. 
+
 =-- 
 
 See [Gray](#Gray), Corollary 16.44 (p. 149) and Corollary 21.15 (p. 206). 
@@ -77,10 +79,12 @@ Every CW complex is homotopy equivalent to a space that admits a [[good open cov
 
 +-- {: .num_theorem} 
 ###### Theorem 
-If $Y$ has the [[homotopy type]] of a CW complex and $X$ is a [[finite CW complex]], then the function space $Y^X$ with the [[compact-open topology]] has the homotopy type of a CW complex. 
+
+If $Y$ has the [[homotopy type]] of a CW complex and $X$ is a [[finite CW complex]], then the [[mapping space]] $Y^X$ with the [[compact-open topology]] has the homotopy type of a CW complex. 
+
 =-- 
 
-This is proven in [Milnor](#Milnor). 
+([Milnor 59](#Milnor59)) 
 
 ### Subcomplexes
  {#Subcomplexes}
@@ -261,7 +265,7 @@ Basic textbook accounts include
 
 Original articles include
 
-* {#Milnor} [[John Milnor]], _On spaces having the homotopy type of a CW-complex_, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280. 
+* {#Milnor59} [[John Milnor]], _On spaces having the homotopy type of a CW-complex_, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280. 
   
 
 * {#Milnor57} [[John Milnor]], _The geometric realization of a semi-simplicial complex_, Annals of Mathematics, 2nd Ser., __65__, n. 2. (Mar., 1957), pp. 357-362; [pdf](http://www.math.binghamton.edu/dwyer/Milnor-GeomReal.pdf)
