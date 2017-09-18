@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homotopy
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -90,10 +105,10 @@ $$
 
 ### For CW-complexes
 
-+-- {: .num_defn }
++-- {: .num_defn #TelescopeOfCWComplexEquivalentToTheOriginal}
 ###### Definition
 
-For $X_\bullet$ be the sequence of stages of a ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, then the canonical map
+For $X_\bullet$ the sequence of stages of a ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, then the canonical map
 
 $$
   Tel(X_\bullet)
@@ -150,44 +165,6 @@ Therefore also the remaining morphism is an isomorphism. Since this holds for al
 
 =--
 
-+-- {: .num_defn #CoverOfMappingTelescopeOfCWComplex}
-###### Definition
-
-For $X_\bullet$ be the sequence of stages of a ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, write
-
-$$
-  A_X \coloneqq \underset{n \in \mathbb{N}}{\sqcup} X_{2n} \times [2n,{2n}+1];
-$$
-
-$$
-  B_X \coloneqq \underset{n \in \mathbb{N}}{\sqcup} X_{(2n+1)} \times [2n+1,{2n}+2].
-$$
-
-There are canonical inclusion maps into the mapping telescope $Tel(X_\bullet)$, def. \ref{MappingTelescope}:
-
-$$
-  \array{
-    A_X && && B_X
-    \\
-    & \searrow && \swarrow
-    \\
-    && Tel(X_\bullet)
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-In the situation of def. \ref{CoverOfMappingTelescopeOfCWComplex}
-
-1. $A \cup B \simeq Tel(X_\bullet)$;
-
-1. $A \cap B \simeq \underset{n \in \mathbb{N}}{\sqcup} X_n$;
-
-=--
 
 
 ## Related concepts
