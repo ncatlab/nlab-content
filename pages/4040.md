@@ -12,6 +12,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[topological space]] (see also _[[locale]]_)
 
+* [[basis for the topology]], [[finer topology|finer/coarser topology]]
+
 * [[topological closure|closure]], [[topological interior|interior]], [[topological boundary|boundary]]
 
 * [[separation axiom]]
@@ -49,11 +51,17 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[sober space]]
 
-* [[compact space]], [[paracompact space]], [[compactly generated space]]
+* [[compact space]] ([[sequentially compact topological space|sequentially compact]], [[countably compact topological space|countably compact]], [[paracompact space|paracompact]], [[locally compact topological space|locally compact]], [[strongly compact topological space|strongly compact]]) 
 
-* [[connected space]], [[locally connected space]], [[contractible space]], [[locally contractible space]]
+* [[compactly generated space]]
 
-* [[second-countable space]]
+* [[second-countable space]], [[first-countable space]]
+
+* [[contractible space]], [[locally contractible space]]
+
+* [[connected space]], [[locally connected space]]
+
+* [[simply-connected space]], [[locally simply-connected space]]
 
 * [[topological vector space]], [[Banach space]], [[Hilbert space]]
 
@@ -77,7 +85,11 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[polytope]], [[polyhedron]]
 
-* [[mapping space]], [[loop space]], [[path space]]
+* [[projective space]] ([[real projective space|real]], [[complex projective space|complex]])
+
+* [[classifying space]]
+
+* [[compact-open topology|mapping space]], [[loop space]], [[path space]]
 
 * [[Zariski topology]]
 
