@@ -46,7 +46,7 @@ The epimorphisms in [[Set]] are the [[surjection|surjective]] functions; thus ep
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The following are equivalent
@@ -72,7 +72,7 @@ The following are equivalent
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every [[coequalizer]]
@@ -86,7 +86,7 @@ is an epimorphism.
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Epimorphisms are preserved by [[pushout]]: if $f : x \to y$ is an epimorphism and
@@ -112,7 +112,7 @@ Let $h_1,h_2 : b \to c$ be two morphisms such that $\stackrel{g}{\to} \stackrel{
 
 =---
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Epimorphisms are preserved by [[left adjoint]] [[functor]]s:
@@ -148,6 +148,22 @@ $$
 $$
 
 is a [[pushout]] diagram and observe that left adjoint functors preserve pushouts (and of course [[identity|identities]]).
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Epimorphisms are [[reflected limit|reflected]] by [[faithful functors]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ be a [[faithful functor]]. Consider $f \colon x \longrightarrow y$ a [[morphism]] in $\mathcal{C}$ such that $F(f) \colon F(x)\longrightarrow F(y)$ is an epimorphism in $\mathcal{D}$. We need to show that then $f$ itself is an epimorphism.
+
+So consider morphisms $g,h \colon y \longrightarrow z$ such that $g \circ f = h \circ f$. We need to show that this implies that already $g = h$ (injectivity of $Hom(f,z)$). But functoriality implies that $F(g)\circ F(f) = F(h) \circ F(f)$, and since $F(f)$ is epi this implies that $F(g) = F(h)$. Now the statement follows with the assumption that $F$ is faithful, hence [[injection|injective]] on morphisms.
 
 =--
 
