@@ -3194,6 +3194,7 @@ then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
 =--
 
 
+
 ### Super Fiber functors and their automorphism supergroups
  {#FiberFunctors}
 
@@ -3314,10 +3315,64 @@ $$
   \,.
 $$
 
-+-- {: .num_defn #AutomorphismSuperGroupOfSuperFiberFunctor} 
++-- {: .num_defn #AutomorphismGroupOfFiberFunctor} 
 ###### Definition
 
-Let $\omega \colon \mathcal{A} \to sVect_k$ be a  [[fiber functor|super fiber functor]]  (def \ref{FiberFunctor}).
+Let $\omega \colon \mathcal{A} \to \mathcal{B}$ be a  [[fiber functor]]  (def \ref{FiberFunctor}).
+
+For $A \in CMon(\mathcal{B})$ a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}), write
+
+$$
+  \omega_A 
+   \;\colon\;
+  \mathcal{A}
+    \stackrel{\omega}{\longrightarrow}
+  \mathcal{B}
+   \stackrel{A \otimes(-)}{\longrightarrow}
+  A Mod(\mathcal{B})
+$$
+
+for its image under [[extension of scalars]] to $A$ (prop. \ref{MonoidModuleOverItself}).
+
+With this, the **automorphism group** of $\omega$
+
+$$
+  \underline{Aut}(\omega)
+  \in 
+  PSh(Aff(\mathcal{B}))
+$$
+
+is defined by
+
+$$
+  \underline{Aut}(\omega)(Spec(A))
+   \coloneqq
+  Aut(\omega_{A})
+  \,.
+$$
+
+
+=--
+
+Specializing def. \ref{AutomorphismGroupOfFiberFunctor} to $\mathcal{B} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}), where a commutative monoid is a [[supercommutative superalgebra]] (def. \ref{SupercommutativeSuperalgebra}) it reads as follows:
+
++-- {: .num_example #AutomorphismSuperGroupOfSuperFiberFunctor} 
+###### Example
+
+Let $\omega \colon \mathcal{A} \to sVect$ be a  [[fiber functor|super fiber functor]]  (def \ref{FiberFunctor}).
+
+For $A \in CMon(sVect)$ a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}), write
+
+$$
+  \omega_A 
+   \;\colon\;
+  \mathcal{A}
+    \stackrel{\omega}{\longrightarrow}
+  sVect
+   \stackrel{A \otimes(-)}{\longrightarrow}
+  A Mod(sVect)
+$$
+
 
 For $A \in CMon(sVect)$ a [[supercommutative algebra]], write
 
@@ -3331,7 +3386,7 @@ $$
   A Mod(sVect)
 $$
 
-for its image under [[extension of scalars]] to $A$
+for its image under [[extension of scalars]] to $A$ (prop. \ref{MonoidModuleOverItself}).
 
 With this, the **automorphism super-group** of $\omega$
 
@@ -3352,7 +3407,9 @@ $$
 
 =--
 
-+-- {: .num_prop} 
+
+
++-- {: .num_prop #AutomorphismSupergroupOfFiberFunctorIsRepresentable} 
 ###### Proposition
 
 For $k$ an [[algebraically closed field]] of [[characteristic zero]], and for $\mathcal{A}$ a $k$-[[tensor category]] equipped with a [[fiber functor|super fiber functor]] $\omega$, then its automorphism supergroup (def. \ref{AutomorphismSuperGroupOfSuperFiberFunctor}) is [[representable functor|representable]]: there exists a [[supercommutative Hopf algebra]] $H_\omega$ and a [[natural isomorphism]]
@@ -3376,6 +3433,41 @@ every [[monoidal natural transformation]] (def. \ref{LaxMonoidalFunctor}) betwee
 =--
 
 ([Deligne 02, lemma 3.2](#Deligne02))
+
+
++-- {: .num_defn #FundamentalSupergroup} 
+###### Definition
+
+Let $\mathcal{A}$ be a [[tensor category]] and regard the [[identity]] functor on it as a fiber functor (def. \ref{FiberFunctor}). Then the automorphism group of $id_{\mathcal{A}}$ according to def. \ref{AutomorphismSuperGroupOfSuperFiberFunctor} is called the **fundamental group** of $\mathcal{A}$, denoted:
+
+$$
+  \pi(\mathcal{A})
+   \coloneqq
+  \underline{Aut}(id_{\mathcal{A}})
+$$
+
+
+=--
+
+([Deligne 90, 8.12, 8.13](#Deligne90))
+
++-- {: .num_example #FundamentalGroupOfCategoryOfSuperVectorSpaces} 
+###### Example
+
+The fundamental group (def. \ref{FundamentalSupergroup}) of the [[category of super vector spaces]] [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}) is $\mathbb{Z}/2$:
+
+$$
+  \pi(sVect)
+    \simeq
+  \mathbb{Z}/2
+  \,.
+$$
+
+The non-trivial element in $\pi(sVect)$ acts on any super-vector space as the [[endomorphism]] which is the identity on even graded elements, and multiplication by $(-1)$ on odd graded elements.
+
+=--
+
+([Deligne 90, 8.14 iv)](#Deligne90))
 
 ### Super-exterior powers and Schur functors
 
@@ -3505,7 +3597,6 @@ then there exists
 
 We outline key steps of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02).
 
-> under construction
 
 Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zero]] (for instance the [[complex numbers]]).
 
@@ -3711,11 +3802,11 @@ $$
   \mathcal{A} \simeq Rep( \underline{Aut}(\omega) ,\epsilon)
 $$
 
-of $\mathcal{A}$ with the [[category of representations|category of finite dimensional representations]], according to def. \ref{Superrepresentation} and prop. \ref{RegularTensorCategoriesOfSuperrepresentations}, of the internal automorphism group $\underline{Aut}(\omega)$ (def \ref{spring}) of the super fiber functor.
+of $\mathcal{A}$ with the [[category of representations|category of finite dimensional representations]], according to def. \ref{Superrepresentation} and prop. \ref{RegularTensorCategoriesOfSuperrepresentations}, of the automorphism supergroup $\underline{Aut}(\omega)$ (example. \ref{AutomorphismSuperGroupOfSuperFiberFunctor}, prop. \ref{AutomorphismSupergroupOfFiberFunctorIsRepresentable}) of the super fiber functor.
 
 =--
 
-([Deligne 90, 8.19](#Deligne90))(...)
+([Deligne 90, 8.19](#Deligne90))
 
 
 ## References
