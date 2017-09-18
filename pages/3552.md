@@ -31,7 +31,7 @@ Formally, (relative) Sullivan models are the (relative) [[cell complexes]] in th
 
 We now describe this in detail. First some notation and preliminaries:
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 **(finite type)**
 
@@ -54,7 +54,7 @@ With $k$ our ground [[field]] we write $(k,0)$ for the corresponding [[dg-algebr
 $(k,0) = (\wedge^\bullet 0, 0)$.
 
 
-+-- {: .un_def }
++-- {: .num_defn #SullivanAlgebra}
 ###### Definition
 **(Sullivan algebras)**
 
@@ -90,7 +90,7 @@ holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the 
 See also the section [Sullivan algebras](http://ncatlab.org/nlab/show/model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
 
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 The special condition on the ordering in the relative Sullivan algebra says precisely that these morphisms are composites of [[pushout]]s of the [[cofibrantly generated model category|generating cofibrations]] of the [[model structure on dg-algebras]], which are the inclusions
@@ -134,7 +134,7 @@ Notice that it follows in particular that the cofibrations in $dgAlg_{proj}$ are
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 **($L_\infty$-algebras)**
 
@@ -153,7 +153,7 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 
 
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 **(Sullivan models)**
 
@@ -176,7 +176,7 @@ For $X$ a [[conected|simply connected]] [[topological space]] $X$, a **Sullivan 
 ## Properties
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 **(cofibrations are relative Sullivan algebras)**
 
@@ -187,7 +187,7 @@ Accordingly, the cofibrant objects in $C dgAlg$ are precisely the Sullivan algeb
 =--
 
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 [[rational space|Rational homotopy types]] of simply connected spaces $X$ are in bijective corespondence with minimal Sullivan algebras $(\wedge^\bullet V,d)$
@@ -227,7 +227,7 @@ for the [[Quillen adjunction]] induced by forming Sullivan differential forms, a
 
 
 
-+-- {: .un_theorem }
++-- {: num_theorem }
 ###### Theorem
 
 Let $(\wedge^\bullet V^*, d_V)$ be a simply connected Sullivan algebra of finite type. Then
@@ -267,7 +267,7 @@ This is recalled for instance as theorem 1.24 in
 
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Sullivan mimimal models are unique up to [[isomorphism]]. 
@@ -287,7 +287,7 @@ This appears for instance as prop 1.18 in
 
 
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 Rational homotopy types of simply connected spaces $X$ are in bijective corespondence with minimal [[Sullivan model]]s $(\wedge^\bullet V,d)$
@@ -312,7 +312,7 @@ This appears for instance as corollary 1.26 in
 
 =--
 
-+-- {: .un_corollary }
++-- {: .num_corollary }
 ###### Corollary
 
 
