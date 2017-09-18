@@ -6,6 +6,8 @@
 
 * [[Goodwillie calculus]]
 
+* [[Goodwillie-Taylor tower]]
+
 category: people
 
 
