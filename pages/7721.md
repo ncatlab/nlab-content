@@ -363,7 +363,7 @@ A type II background where the structure group of the [[generalized tangent bund
 
 
 
-## Application in type II supergrabity
+## Application in type II supergravity
 
 The [[target space]] geometry for [[type II superstrings]] 
 in the NS-NS sector , [[type II supergravity]], is naturally
