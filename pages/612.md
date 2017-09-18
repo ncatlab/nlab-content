@@ -90,7 +90,7 @@ The foundations of [[higher geometry]]:
 
 Survey on the general program
 
-* PhD thesis, _derived algebraic geometry_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG.pdf))
+* PhD thesis, [[Derived Algebraic Geometry]]
 
   on [[derived algebraic geometry]]
 
