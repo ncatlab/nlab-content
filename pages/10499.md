@@ -728,7 +728,7 @@ Discussion of this in [[stable homotopy theory]] and the full generality of [[hi
 
 This and further generalization is in
 
-* Tobias Barthel, Drew Heard, _Local duality in algebra and topology_ ([arXiv:1511.03526](http://arxiv.org/abs/1511.03526))
+* Tobias Barthel, Drew Heard, Gabriel Valenzuela _Local duality in algebra and topology_ ([arXiv:1511.03526](http://arxiv.org/abs/1511.03526))
 
 See also
 
