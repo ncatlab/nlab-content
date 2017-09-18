@@ -593,7 +593,7 @@ higher versions
 
 * [[multicategory]], [[bicategory]], [[enriched category]], [[actegory]]
 
-* [[module category]]
+* [[module category]], [[bimodule category]]
 
 * [[semisimple category]]
 
