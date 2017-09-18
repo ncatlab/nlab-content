@@ -22,13 +22,18 @@ To be explicit, $X$ is __separable__ if there exists an [[infinite sequence]] $a
 
 ## Properties
 
-A [[second-countable space]] is separable and 
-[[first-countable space|first-countable]], but the converse need not
-(see Steen Seebach Example 51 ).
+A [[second-countable space]] is separable (and trivially it is 
+[[first-countable space|first-countable]]). However, first-countability plus separability do not imply second-countability; a counterexample is $\mathbb{R}$ with the half-open topology (see [Munkres](#Munk), page 192), denoted $\mathbb{R}_l$. 
 
-Many results in [[analysis]] are easiest for separable spaces.  This is particularly true if one wishes to avoid using strong forms of the [[axiom of choice]] or to be [[predicative mathematics|predicative]] over the natural numbers.
+A [[product]] of as many as a continuum number of separable spaces is separable (with the product computed in [[Top]]); a proof of the more general Hewitt-Marczewski-Pondiczery theorem can be found [here](#Brandsma). In particular, the space $\mathbb{R}^\mathbb{R}$ of _all_ [[functions]] $\mathbb{R} \to \mathbb{R}$ under pointwise convergence is separable, but is not even first-countable (and thus not second-countable either). A first-countable space need not be separable; a simple example of that is a [[discrete space]] of uncountable cardinality. 
+
+Subspaces of separable spaces need not be separable. Example: the product $\mathbb{R}_l \times \mathbb{R}_l$, also called the [[Sorgenfrey plane]], is separable, but the subspace defined by the equation $y = -x$ is uncountable and discrete and therefore not separable. However, open subspaces of separable spaces are separable. 
+
+Many results in [[analysis]] are easiest for separable spaces.  This is particularly true if one wishes to avoid using strong forms of the [[axiom of choice]] or to be [[predicative mathematics|predicative]] over the natural numbers. For example, the [[Hahn-Banach theorem]] for _separable_ [[Banach spaces]] can be established using only mild forms of choice, e.g., [[dependent choice]]. More precisely, it can be established in the weak subsystem $WKL_0$ of [[second-order arithmetic]]; see [Brown-Simpson](#BS). 
 
 ## Separable metric spaces 
+
+A classical fact is that metric space is separable if and only if it is second-countable. Similar in spirit but less well-known is the following (whose proof subsumes the aforementioned classical fact). 
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -37,13 +42,13 @@ A [[metric space]] $X$ is separable iff every open set is a countable union of b
 
 +-- {: .proof} 
 ###### Proof 
-One direction is easy: if $x_i$ is a countable dense subset of $X$ and $r_j$ is an enumeration of the rationals, then the balls $B_{r_j}(x_i)$ is a countable base ($X$ is a [[second-countable space]]), and in particular every open set is a union of a family of such balls that is at most countable. 
+One direction is not hard: if $x_i$ is a countable dense subset of $X$ and $r_j$ is an enumeration of the rationals, then by playing around with the triangle inequality, one can show that the balls $B_{r_j}(x_i)$ form a countable base ($X$ is a [[second-countable space]]), and in particular every open set is a union of a family of such balls that is at most countable. 
 
 The other direction is trickier. (This is based on a [MathOverflow discussion](http://mathoverflow.net/questions/181226/if-any-open-set-is-a-countable-union-of-balls-does-it-imply-separability), which for the moment we record with little adaptation.) Suppose $X$ is not separable; construct by recursion a sequence $x_\beta$ of length $\omega_1$ such that no $x_\beta$ lies in the closure of the set of its predecessors $x_\alpha$ (each such set is countable and therefore not dense, so such $x_\beta$ outside its closure can be found at each stage). 
 
 Therefore, for each $x_\beta$ we may choose a rational radius $r_\beta$ such that the ball $B_{r_\beta}(x_\beta)$ contains no predecessor $x_\alpha$. There are uncountably many $\beta$, so some rational radius $r$ was used uncountably many times. The collection of $x_\beta$ for which $r_\beta = r$ forms another $\omega_1$-sequence which we now use instead of the first; since all the radii are the same, this sequence has the property that each $B_r(x_\beta)$ contains no other $x_\alpha$, no matter whether $\alpha$ appears before or after $\beta$ in the sequence. 
 
-Provided that there uncountably many such $x_\alpha$ that are non-isolated in $X$, we can easily construct an open set $U$ that is not a countable union of balls. For around each such $x_\alpha$ we can find a point $p_\alpha$ within distance $r/4$ of $x_\alpha$; put $s_\alpha = d(x_\alpha, p_\alpha)$ and now let $U = \bigcup_\alpha B_{s_\alpha}(x_\alpha)$. Notice that $p_\alpha \notin U$. If $B_s(x)$ is any ball contained in $U$, then $d(x, x_\gamma) \lt r/4$ for some $\gamma$. Supposing we have distinct $x_\alpha, x_\beta \in B_s(x)$, then $s \gt r/2$ by the triangle inequality. But then from $d(x_\alpha, p_\alpha) \lt r/4$ and $d(x, x_\alpha) \lt r/4$, we have $d(x, p_\alpha) \lt r/2$ so that $p_\alpha \in B_s(x) \subset U$, a contradiction. We conclude that any ball contained in $U$ contains at most one $x_\alpha$, and so $U$ cannot be covered by countably many balls. 
+Provided that there uncountably many such $x_\alpha$ that are non-isolated in $X$, we can construct an open set $U$ that is not a countable union of balls. For around each such $x_\alpha$ we can find a point $p_\alpha \neq x_\alpha$ within distance $r/4$ of $x_\alpha$; put $U = \bigcup_\alpha B_{d(x_\alpha, p_\alpha)}(x_\alpha)$. Notice that $p_\alpha \notin U$. If $B_s(x)$ is any ball contained in $U$, then $d(x, x_\gamma) \lt r/4$ for some $\gamma$. Supposing we have distinct $x_\alpha, x_\beta \in B_s(x)$, then $r \lt d(x_\alpha, x_\beta) \leq d(x_\alpha, x) + d(x, x_\beta) \lt s + s$, so $r/2 \lt s$. But then from $d(x_\gamma, p_\gamma) \lt r/4$ and $d(x, x_\gamma) \lt r/4$, we have $d(x, p_\gamma) \lt r/2 \lt s$ so that $p_\gamma \in B_s(x) \subset U$, a contradiction. We conclude that any ball contained in $U$ contains at most one $x_\alpha$, and so $U$ cannot be covered by countably many balls. 
 
 We are therefore left to deal with the case where there are at most countably many non-isolated $x_\beta$. Discard these, so without loss of generality we may suppose all the $x_\beta$ are isolated points of $X$ and that for some fixed $r$ the ball $B_r(x_\beta)$ contains no other $x_\alpha$. For each $\beta$, let $t_\beta$ be the supremum over all $t$ such that $B_t(x_\beta)$ is countable. It follows that $B_{t_\beta}(x_\beta)$ is itself countable, as is $\{\alpha: \alpha \lt \beta\}$. At each stage $\beta$, there is a countable set $C_\beta$ disjoint from $B_{t_\beta}(x_\beta) \cup \{\alpha: \alpha \lt \beta\}$ such that for each $s \gt t_\beta$, there exists $y \in C_\beta$ with $d(x_\beta, y) \lt s$. By transfinite induction, we can construct a cofinal subset $I$ of $\omega_1$ such that $x_\beta \notin C_\alpha$ whenever $\alpha \lt \beta$. The set $Y = \{x_\alpha: \alpha \in I\}$ is open in $X$, and we claim that it is not a countable union of balls. For suppose otherwise. Let $F$ be such a countable family of balls; then there is some minimal $\alpha$ for which $B_t(x_\alpha) \in F$ is uncountable, so that $t \gt t_\alpha$. By construction of $C_\alpha$, there exists $y \in C_\alpha \cap B_t(x_\alpha)$. But since $Y = \bigcup F$, we have that $y = x_\beta$ for some $\beta \in I$, and this contradicts our condition on $I$. 
 =-- 
@@ -59,7 +64,18 @@ We are therefore left to deal with the case where there are at most countably ma
 
 * [[separable Hilbert space]]
 
-* [[Hausdorff topological space]]
+* [[Hausdorff topological space]] 
+
+## References 
+
+* James Munkres, _Topology, a first course_, Prentice-Hall (1975). 
+ {#Munk}
+
+* D. K. Brown and S. G. Simpson, _Which set existence axioms are needed to prove the separable Hahn-Banach theorem?_, Annals of Pure and Applied Logic 31 (1986), pp. 123-144. 
+ {#BS}
+
+* Henno Brandsma, Thread on Hewitt-Marczewski theorem, Ask a Topologist (2010) ([link](http://at.yorku.ca/cgi-bin/bbqa?forum=ask_a_topologist_2010;task=show_msg;msg=0487.0001)) 
+ {#Brandsma} 
 
 
 [[!redirects separable space]]
