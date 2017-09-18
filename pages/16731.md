@@ -1,9 +1,9 @@
 ##  Poisson Geometry and Mathematical Physics##
 
 ***
-Jan. 4-8, Tianjin at [Chern Institute, Nankai University]( http://www.nim.nankai.edu.cn/nim_e/index.htm) 
+2016 Jan. 4-8, Tianjin at [Chern Institute, Nankai University]( http://www.nim.nankai.edu.cn/nim_e/index.htm) 
 
-Registration: Jan. 3
+Registration: 2016 Jan. 3
 
 ***
 
