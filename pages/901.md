@@ -201,7 +201,7 @@ The following says that morphisms between ind-objects are represented by [[natur
 
 Let 
 
-1. $\mathcal{I}_1$ and $\mathcal{I}_2$ be two [[small category|small]] [[filtered category]];
+1. $\mathcal{I}_1$ and $\mathcal{I}_2$ be two [[small category|small]] [[filtered categories]];
 
 1. $\alpha_1 \colon \mathcal{I}_1 \longrightarrow \mathcal{C}$ and $\alpha_2 \colon \mathcal{I}_2 \longrightarrow \mathcal{C}$ be two [[functors]];
 
@@ -229,7 +229,7 @@ $$
       &\overset{\underset{\longrightarrow}{\lim}^f \phi}{\longrightarrow}&
     \underset{\longrightarrow}{\lim}^f(\alpha_2 \circ p_2)
     \\
-    {}^{\mathllap{\simeq}}\donwarrow
+    {}^{\mathllap{\simeq}}\downarrow
       &&
     \downarrow^{\mathrlap{\simeq}}
     \\
@@ -349,7 +349,14 @@ $$
   \,,
 $$
 
-such that $Ind(F)$ preserves small [[filtered colimits]].
+such that 
+
+$$
+  Ind(F)( \underset{\longrightarrow}{\lim}^f \alpha )
+  \simeq
+  \underset{\longrightarrow}{\lim}^f ( F \circ \alpha ) 
+  \,.
+$$
 
 Moreover, 
 
@@ -389,25 +396,35 @@ This is an [[equivalence of categories]].
 
 ([KashiwaraSchapira 06, chapter 6.3](#KashiwaraSchapira06))
 
-+-- {: .num_prop}
++-- {: .num_prop #ReflectionToYonedaEmbedding}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[category]] which has all small [[filtered colimits]]. Then the canonical functor $\mathcal{C} \longrightarrow Ind(\mathcal{C})$ defines a [[reflective subcategory]], i.e. it is a [[fully faithful functor]] with a [[left adjoint]]
+Let $\mathcal{C}$ be a [[category]] which has all small [[filtered colimits]]. Then the canonical functor $\mathcal{C} \longrightarrow Ind(\mathcal{C})$ defines a [[reflective subcategory]], i.e. it is a [[fully faithful functor]] with a [[left adjoint]] $L$
 
 $$
   \mathcal{C}
     \underoverset
      {\underset{}{\longrightarrow}}
-     {\overset{J}{\longleftarrow}}
+     {\overset{L}{\longleftarrow}}
      {\bot}
   Ind(\mathcal{C})
+$$
+
+which takes formal filtered colimits to actual filtered colimits in $\mathcal{C}$:
+
+$$
+  L 
+    \;\colon\; 
+  \underset{\longrightarrow}{\lim}^f \alpha
+    \mapsto
+  \underset{\longrightarrow}{\lim} \alpha  
 $$
 
 =--
 
 ([KashiwaraSchapira 06, prop. 6.3.1](#KashiwaraSchapira06))
 
-+-- {: .num_prop}
++-- {: .num_prop #JFIsFullyFaithful}
 ###### Proposition
 
 Let $F \colon \mathcal{J} \longrightarrow \mathcal{C}$ be a [[functor]] such that
@@ -424,11 +441,11 @@ $$
   Ind(\mathcal{J})
     \overset{Ind(F)}{\longrightarrow}
   Ind(\mathcal{C})
-    \overset{J}{\longrightarrow}
+    \overset{L}{\longrightarrow}
   \mathcal{C}
 $$
 
-is a [[fully faithful functor]].
+(with $Ind(F)$ from prop. \ref{FunctorialityOfInd} and $L$ from prop. \ref{ReflectionToYonedaEmbedding}) is a [[fully faithful functor]].
 
 =--
 
@@ -440,21 +457,21 @@ is a [[fully faithful functor]].
 
 If $\mathcal{C}$ is a [[category]] such that
 
-1. every object of $\mathcal{C}$ is a [[filtered colimit]] of [[compact object]];
+1. every object of $\mathcal{C}$ is a [[filtered colimit]] of [[compact objects]];
 
 1. $\mathcal{C}$ has all small [[filtered colimits]]
 
-then the functor
+then the composite functor
 
 $$
   Ind(\mathcal{C}_{cpt}) 
     \longrightarrow 
   Ind(\mathcal{C})
-    \overset{J}{\longrightarrow}
+    \overset{L}{\longrightarrow}
   \mathcal{C}
 $$
 
-is an [[equivalence of categories]].
+(from prop. \ref{JFIsFullyFaithful}, where $\mathcal{C}_{cpt} \hookrightarrow \mathcal{C}$ is the [[full subcategory]] of [[compact objects]]) is an [[equivalence of categories]].
 
 =--
 
