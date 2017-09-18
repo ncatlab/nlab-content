@@ -345,7 +345,9 @@ $$
 Data of this form is called an _[[exact couple]]_, def. \ref{ExactCouple} below. 
 
 
+
 =--
+
 
 
 +-- {: .num_defn #UnrolledExactCouple}
@@ -751,6 +753,7 @@ $$
   \,.
 $$
 
+
 In particular the first page is
 
 $$
@@ -821,6 +824,18 @@ It is conventional to depict this in tables where $s$ increases vertically and u
 * $t-s$ is the _total degree_;
 
 * $t$ is the _internal degree_.
+
+A priori all this is $\mathbb{N}\times \mathbb{Z}$-graded, but we regard it as being $\mathbb{Z} \times \mathbb{Z}$-graded by setting
+
+$$
+  \mathcal{D}^{s \lt 0,\bullet} \coloneqq 0
+  \;\;\;\;\,,
+  \;\;\;\;
+  \mathcal{E}^{s \lt 0, \bullet} \coloneqq 0
+$$
+
+and trivially extending the definition of the differentials to these zero-groups.
+
 
 =--
 
@@ -923,6 +938,16 @@ $$
   E_r^{s+r, t+r-1}(X,Y)
   \,.
 $$
+
+A priori $E_r^{\bullet,\bullet}(X,Y)$ is $\mathbb{N}\times \mathbb{Z}$-graded, but we regard it as being $\mathbb{Z} \times \mathbb{Z}$-graded by setting
+
+
+$$
+  E_r^{s \lt 0,\bullet}(X,Y) \coloneqq 0
+$$
+
+and trivially extending the definition of the differentials to these zero-groups.
+
 
 =--
 
@@ -1616,22 +1641,13 @@ Here the top square commutes by [[coherence theorem for symmetric monoidal categ
 =--
 
 
-+-- {: .num_example}
-###### Example
-
-Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of def. \ref{HopfAlgebroidStructureOnDualEOperations} where the left and right action of $\pi_\bullet(E)$ are not just isomorphic (via prop. \ref{EETwoLeftModuleStructures}) but actually equal according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the case $E = $ [[HA|H]]$\mathbb{F}_p$.
-
-=--
-
-
-
 The dual $E$-[[Steenrod algebras]] of def. \ref{HopfAlgebroidStructureOnDualEOperations} evidently carry a lot of structure. The concept organizing this is that of_[[commutative Hopf algebroids]]_.
 
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
 
-A **[[graded commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] $gCRing^{op}$ of [[graded commutative rings]], regarded with its [[cartesian monoidal category]] structure.
+A **[[graded commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] $gCRing^{op}$ of $\mathbb{Z}$-[[graded commutative rings]], regarded with its [[cartesian monoidal category]] structure.
 
 =--
 
@@ -1895,7 +1911,7 @@ For $X \in Ho(Spectra)$ any spectrum, say that the **comodule structure** on $E_
 +-- {: .num_defn #HopfComoduleRing}
 ###### Definition
 
-Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$ as in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, hence an [[internal groupoid]] in $CRing^{op}$, then a **comodule ring** over it is an [[action]] in $CRing^{op}$ of that internal groupoid.
+Given a [[graded commutative Hopf algebroid]] $\Gamma$ over $A$ as in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, hence an [[internal groupoid]] in $gCRing^{op}$, then a **comodule ring** over it is an [[action]] in $CRing^{op}$ of that internal groupoid.
 
 =--
 
@@ -1904,12 +1920,12 @@ In the same spirit, a **[[comodule]]** over a commutative Hopf algebroid (not ne
 +-- {: .num_defn #CommutativeHopfAlgebroidComodule}
 ###### Definition
 
-Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+Given a $\mathbb{Z}$-[[graded commutative Hopf algebroid]] $\Gamma$ over $A$ (def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents})
 then a **left [[comodule]]** over $\Gamma$ is
 
-1. an $A$-[[module]] $N$;
+1. a $\mathbb{G}$-[[graded module|graded]] $A$-[[module]] $N$;
 
-1. an $A$-[[module]] [[homomorphism]] (co-action)
+1. ([[co-action]]) a [[homomorphism]] of graded $A$-modules
 
    $\Psi_N \;\colon\; N \longrightarrow \Gamma \otimes_A N$;
 
@@ -1923,7 +1939,7 @@ such that
 
    $(\Psi \otimes_A id_N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
 
-A [[homomorphism]] between comodules $f \colon N_1 \to N_2$ is a homomorphism of underlying $A$-modules such that the following [[commuting diagram|diagram commutes]] 
+A [[homomorphism]] between graded comodules $f \colon N_1 \to N_2$ is a homomorphism of underlying graded $A$-modules such that the following [[commuting diagram|diagram commutes]] 
 
 $$
   \array{
@@ -1940,8 +1956,9 @@ $$
   \,.
 $$
 
-We write
 
+
+We write
 
 $$
   \Gamma CoMod
@@ -1956,7 +1973,10 @@ $$
   \,.
 $$
 
-These are naturally $A$-modules. If $(\Gamma,A)$ is graded then these are naturally graded $A$-modules, which we denote by
+A priori this is an [[Ab-enriched category]],  but it is naturally further [[enriched category|enriched]] in [[graded abelian groups]]:
+
+we may drop in the above definition of comodule homomorphisms $f\colon N_1 \to N_2$ the condition that the underlying morphism be grading-preserving. Say that $f$ has degree $n$ if it increases degree by $n$. This gives a $\mathbb{Z}$-graded hom-group
+
 
 $$
   Hom^\bullet_\Gamma(-,-)
@@ -2774,7 +2794,7 @@ $$
   \,.
 $$
 
-(On the right $s$ is the degree that goes with any [[Ext]]-functor, and $t$ is the additional degree of morphisms between graded modules.)
+(On the right $s$ is the degree that goes with any [[Ext]]-functor, and the "internal degree" $t$ is the additional degree of morphisms between graded modules from def. \ref{CommutativeHopfAlgebroidComodule}.) 
 
 In the special case that $X = \mathbb{S}$, then (by prop. \ref{ComoduleHomInTermsOfCotensorProduct}) these are equivalently [[Cotor]]-groups
 
@@ -3094,7 +3114,46 @@ With lemma \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of th
 #### Convergence 
  {#Convergence}
 
+We discuss here the convergence properties of $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence}), i.e. the identification of the "limit", in the appropriate sense, of the terms $E_r^{s,t}(X,Y)$ on the $r$th page of the spectral sequnce as $r$ goes to infinity.
+
+**Literature**: ([Bousfield 79](#Bousfield79))
+
+$\,$
+
++-- {: .num_defn}
+###### Definition
+
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and $X,Y \in Ho(Spectra)$ two [[spectra]] with associated $E$-[[Adams spectral sequence]] $\{E_r^{s,t}, d_r\}$ (def. \ref{AdamsEAdamsSpectralSequence}). 
+
+Observe that 
+
+$$
+  if \; r \gt s \; then \; \;
+  E^{s,\bullet}_{r+1}(X,Y)
+   \simeq
+  ker(d_r|_{E_r^{s,\bullet}(X,Y)})
+  \subset
+  E_r^{s,\bullet}(X,Y)  
+$$
+
+since the differential $d_r$ on the $r$th page has bidegree $(r,r-1)$, and since $E_r^{s \lt 0,\bullet(X,Y)} \simeq 0$, so that for $r \gt s$ the image of $d_r$ in $E_r^{s,t}(X,Y)$ vanishes.
+
+Thus define the biraded abelian group
+
+$$
+  E_\infty^{s,t}(X,Y)
+   \coloneqq
+  \underset{r \gt s}{\lim} E_r^{s,t}(X,Y)
+  =
+  \underset{r \gt s}{\cap} E_r^{s,t}(X,Y)
+$$
+
+called the "**infinity page**" of the $E$-Adams spectral sequence
+
+=--
+
 ##### $E$-Nilpotent completion
+
 
 
 For $X$ a spectrum and $E$ a [[ring spectrum]], consider the inverse sequence 
@@ -3181,21 +3240,6 @@ from the $E$-[[Bousfield localization of spectra]] of $X$ into the $E$-nilmpoten
 
 We consider now conditions for this morphism to be an [[equivalence]].
 
-+-- {: .num_defn #CoreOfARing}
-###### Definition
-
-For $R$ a [[ring]], its _core_ $c R$ is the [[equalizer]] in
-
-$$
-  c R 
-    \longrightarrow 
-  R 
-    \stackrel{\longrightarrow}{\longrightarrow}
-  R \otimes R
-  \,.
-$$
-
-=--
 
 +-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
 ###### Proposition
@@ -3256,25 +3300,122 @@ $$
 
 For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
 
-+-- {: .num_theorem #ConvergenceOfEAdamsSpectralSequenceToECompletion}
-###### Theorem
 
-For $X$ a [[spectrum]] and $E$ a [[ring spectrum]], consider [[generalized the|the]] $E$-Adams spectral sequence $\{\mathcal{E}_r^{\bullet,\bullet}, d_r\}$ of $X$ (def. \ref{EAdamsSpectralSequence}, prop. \ref{UniquenessOfEAdamsSpectralSequence}, prop. \ref{TowerSpectralSequencesOfAdamsTowerAndInverseSequenceCoincide}). If for each $s,t$ there is $r$ such that
+##### Convergence statements
 
-$$
-  \mathcal{E}_r^{s,t} \simeq \mathcal{E}_\infty^{s,t}
-$$
++-- {: .num_defn #CoreOfARing}
+###### Definition
 
-then the $E$-Adams spectral sequence converges strongly ([def.](spectral+sequence#Convergence)) to the [[stable homotopy groups]] of the [[E-nilpotent completion]] of $X$ (def. \ref{ENilpotentCompletion}):
+For $R$ a [[ring]], its _[[core of a ring|core]]_ $c R$ is the [[equalizer]] in
 
 $$
-  \mathcal{E}_1^{s,t} \;\Rightarrow\;  \pi_\bullet(E\hat{}X)
+  c R 
+    \longrightarrow 
+  R 
+    \stackrel{\longrightarrow}{\longrightarrow}
+  R \otimes R
   \,.
 $$
 
 =--
 
-([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
+([Bousfield 79, 6.4](#Bousfield79))
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and let $X,Y \in Ho(Spectra)$ be two [[spectra]] such that
+
+1. the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the 0-th [[stable homotopy group]] ring of $E$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommuta
+tiveRingSpectrum)) is the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of primes
+
+   $$
+     c \pi_0(E) \simeq \mathbb{Z}[J^{-1}] \subset \mathbb{Q}
+   $$
+
+1. $X$ is a [[CW-spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CWSpectrum)) with a [[finite number]] of cells ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra));
+
+then the $E$-[[Adams spectral sequence]] for $[X,Y]_\bullet$ (def. \ref{AdamsEAdamsSpectralSequence}) _converges completely_ to the localization
+
+$$
+  [X, Y^\wedge_E]_\bullet
+    =
+  \mathbb{Z}[J^{-1}] \otimes [X,Y]_\bullet
+$$
+
+of $[X,Y]_\bullet$ in that for
+
+$$
+  F^s [X, Y^\wedge_E]_\bullet
+   \coloneqq
+  ker( \; [X, Y^\wedge_E]_\bullet \to [X,\overline{E}_{s-1}\wedge Y] \; )
+$$
+
+then 
+
+$$
+  F^s [X, Y^\wedge_E]_{t-s} / F^{s+1} [ X , Y^\wedge_E ]_{t-s}
+    \overset{\simeq}{\longrightarrow}
+  E^{s,t}_\infty(X,Y)
+  \,.
+$$
+
+=--
+
+([Bousfield 79, theorem 6.5](#Bousfield79))
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and let $X,Y \in Ho(Spectra)$ be two [[spectra]] such that
+
+1. the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the 0-th [[stable homotopy group]] ring of $E$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) is a [[prime field]]
+
+   $c \pi_0(E) \simeq \mathbb{F}_p$
+
+   for some [[prime number]] $p$;
+
+1. $Y$ is a [[connective spectrum]] in that its [[stable homotopy groups]] $\pi_\bullet(Y)$ vanish in negative degree;
+
+1. $X$ is a [[CW-spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CWSpectrum)) with a [[finite number]] of cells ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra));
+
+1. $[X,Y]_\bullet$ is degreewise a [[finitely generated object|finitely generated]] group
+ 
+then the $E$-[[Adams spectral sequence]] for $[X,Y]_\bullet$ (def. \ref{AdamsEAdamsSpectralSequence}) _converges completely_ to the $p$-[[adic completion]] 
+
+$$
+  [X, Y^\wedge_E]_\bullet
+    =
+  \underset{\longrightarrow}{\lim}_n [X,Y]_\bullet/p^n[X,Y]_\bullet
+$$
+
+of $[X,Y]_\bullet$ in that for
+
+$$
+  F^s [X, Y^\wedge_E]_\bullet
+   \coloneqq
+  ker( \; [X, Y^\wedge_E]_\bullet \to [X,\overline{E}_{s-1}\wedge Y] \; )
+$$
+
+then 
+
+$$
+  F^s [X, Y^\wedge_E]_{t-s} / F^{s+1} [ X , Y^\wedge_E ]_{t-s}
+    \overset{\simeq}{\longrightarrow}
+  E^{s,t}_\infty(X,Y)
+  \,.
+$$
+
+
+=--
+
+([Bousfield 79, theorem 6.6](#Bousfield79))
+
+
+
+
 
 
 
