@@ -76,6 +76,16 @@ This is important because it implies that the [[internal logic]] of the free top
 
 In the [[foundations of mathematics]], [[Jim Lambek]] proposed to use the free topos as ambient world to do mathematics in; see ([Lambek 2004](#LambekWorld)). Being syntactically constructed, but universally determined, with higher-order [[intuitionistic type theory]] as [[internal language]] he saw it as a reconciliation of the three classical schools of [[philosophy of mathematics]], namely [[formalism]], [[platonism]], and [[intuitionism]]. His latest views on this variant of categorical foundations can be found in ([Lambek-Scott 2011](#LS11)).
 
+### Remark: Two properties of the free topos
+
+Lambek and Scott mention in their 1986 monograph ([pp.viii, 233, 250](#LambekScott86)) two further remarkable properties of the free topos $\mathcal{T}$:
+
+* Brouwer's theorem holds in $\mathcal{T}$ i.e. all maps $R\to R$ are continuous.
+
+* $\mathcal{T}$ has countable choice i.e. the natural numbers object $N$ is projective.
+
+The first result is attributed to [[André Joyal]], presumably unpublished, and for the second claim they refer to an unpublished manuscript by [[Michael Makkai]] and a manuscript by Friedman and Scedrov, presumably ([1983](#FriedmanScedrov83)).
+
 ## Related entries 
 
 * [[Freyd cover]] 
@@ -104,11 +114,15 @@ On the relation between the proof and the topos-theoretic techniques in the proo
 
 For textbook accounts of the free topos see
 
-* [[Jim Lambek]], [[Phil Scott]], _[[Introduction to Higher-Order Categorical Logic]]_ , Cambridge UP 1986. ([pdf](https://synrc.com/publications/cat/Category%20Theory/Categorical%20Logic/Lambek%20J.,%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf))
+* {#LambekScott86}[[Jim Lambek]], [[Phil Scott]], _[[Introduction to Higher-Order Categorical Logic]]_ , Cambridge UP 1986. ([pdf](https://synrc.com/publications/cat/Category%20Theory/Categorical%20Logic/Lambek%20J.,%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf))
 
 * [[Peter Freyd|P. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.  (1.(10)31, p.192)
 
 * [[Elephant]] F3, to appear.
+
+For dependent choice in intuitionistic type theory:
+
+* {#FriedmanScedrov83}H. M. Friedman, A. Scedrov, _Set existence property for intuitionistic theories with dependent choice_ , APAL **25** no.2 (1983) pp.129-140.
 
 For J. Lambek's views on the role of the free topos in [[foundations of mathematics]] see:
 
