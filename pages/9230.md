@@ -221,7 +221,7 @@ Here the first "theta diagram" summand corresponds to the Feynman diagram
 
 <img src="http://ncatlab.org/nlab/files/dumbbellFeynmanDiagramm.png" width="200" > 
 
-and the second "dumbbell duagram" summand coresponds to the Feynman diagram of the form
+and the second "dumbbell diagram" summand corresponds to the Feynman diagram of the form
 
 <img src="http://ncatlab.org/nlab/files/thetaFeynmanDiagramm.png" width="200">.
 
