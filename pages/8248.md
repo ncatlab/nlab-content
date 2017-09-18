@@ -83,6 +83,8 @@ The exact couple recipe for spectral sequences is notable in that it doesn't men
 
 ## Examples
 
+...[[spectral sequence of a tower of fibrations]]...
+
 +-- {: .num_example #ExactCoupleOfATower}
 ###### Example
 
@@ -98,7 +100,11 @@ $$
   }
 $$
 
-where each hook is a [[fiber sequence]] (i.e. a [[tower of homotopy fibers]], e.g. a [[Postnikov tower]] or [[Adams tower]]). Then the induced [[long exact sequences of homotopy groups]]
+where each hook is a [[fiber sequence]] (i.e. a [[tower of homotopy fibers]], e.g. a [[Postnikov tower]] or [[Adams tower]]). 
+
+> adjust this
+
+Then the induced [[long exact sequences of homotopy groups]]
 
 $$
   \cdots
