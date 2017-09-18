@@ -48,6 +48,10 @@ Combinatorics and coinvariants_, slides from a talk [pdf](http://garsia.math.yor
 * Lenny Tevlin, _Introduction to quasisymmetric and noncommutative
 symmetric functions_, slides, Fields Institute 2010  [pdf](http://www.fields.utoronto.ca/programs/scientific/10-11/schubert/Noncommutative-Symmetric-and-Quasi-Symmetric-Functions-Fields-2010.pdf)
 
-category: cominatorics
+
+category: combinatorics
+
+[[!redirects quasi-symmetric function]]
 [[!redirects quasi-symmetric functions]]
 [[!redirects quasisymmetric function]]
+[[!redirects quasisymmetric functions]]
