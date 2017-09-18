@@ -33,10 +33,12 @@ In this case, one distinguishes the concepts of the expectation value of the obs
 
 In relativistic quantum mechanics and relativistic [[quantum field theory]] the question of observables is more complicated: issues like causality and superselection sectors are involved. 
 
-### In AQFT
 
-In the [[AQFT]] approach to [[quantum field theory]] the observables are the very starting point of the theory: At the beginning one is handed an abstract $C^*$-algebra $C$, see [[C-star algebra]] (to be more precise: a net of such algebras). The selfadjoined elements of the algebras of the net are defined to be the observables of the theory. 
- 
+In the [[AQFT]] approach to [[quantum field theory]] the system of [[quantum observables]] localized in given spacetime regions are the very foundation of the theory, called a _[[local net of observables]]_ (the [[Haag-Kastler axioms]] for QFT).
+
+In [[non-perturbative quantum field theory]] the [[algebras of observables]] are meant to be [[C*-algebras]], while in [[perturbative quantum field theory]] ([[perturbative AQFT]]) they are [[formal power series algebras]].
+
+
 ## Related concepts
 
 * [[quantum observable]]
