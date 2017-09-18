@@ -53,6 +53,44 @@ $\,$
 Rational homotopy theory is mostly restricted to [[simply connected topological spaces]]. This is due to the existence of [[acyclic groups]] $\Gamma$ whose [[classifying space]] $B \Gamma$ is an "acyclic space" in that its [[ordinary cohomology]] vanishes in positive degrees. This means that [[Sullivan algebras]] do not distinguish classifying spaces of rational groups from [[contractible spaces]]. But by [[Hurewicz theorem]] asking that all spaces be [[simply connected topological space|simply connected]] precisely makes all "acyclic spaces" be [[contractible topological space|contractible]].
 
 
+## Generalities
+
++-- {: .num_prop #RationalHomotopyEquivalenceCoincidesWithRationalHomologyEquivalence}
+###### Proposition
+
+Let $X$ and $Y$ by [[simply connected topological spaces]]. Then a [[continuous function]] $f \colon X \to Y$ is a [[isomorphism]] on [[homotopy groups]] after [[tensor product of abelian groups|tensor product]] with the [[rational numbes]] $\mathbb{Q}$
+
+$$
+  \pi_\bullet(f) \otimes \mathbb{Q}
+    \;\colon\; 
+  \pi_\bullet(X) \otimes \mathbb{Q} 
+    \overset{\simeq}{\longrightarrow} 
+  \pi_\bullet(Y) \otimes \mathbb{Q}$ 
+$$
+
+precisely if it induces an [[isomorphism]] on [[ordinary homology]] with [[rational numbers]] [[coefficients]]:
+
+$$
+  H_\bullet(f,\mathbb{Q})
+    \;\colon\;
+  H_\bullet(X,\mathbb{Q})
+    \overset{\simeq}{\longrightarrow}
+  H_\bullet(Y,\mathbb{Q})
+  \,.
+$$
+
+
+=--
+
+[Serre 53](#Serre53)
+
++-- {: .num_defn }
+###### Definition
+
+A map $f$ satisfying the equivalent conditions of def. \ref{RationalHomotopyEquivalenceCoincidesWithRationalHomologyEquivalence} is called a _[[rational homotopy equivalence]]_.
+
+=--
+
 ## Sullivan approach
  {#SullivanApproach}
 
@@ -986,6 +1024,10 @@ One may think of this procedure as doing the following: we are taking the [[Lie 
 * [[integral chains homotopy theory]]
 
 ## References
+
+Precursors include
+
+* {#Serre53} [[Jean-Pierre Serre]], _Groupes d'homotopy et classes de groupes abelians_, Ann. of Math. 58 (1953) 258-294
 
 The original articles are
 
