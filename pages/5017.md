@@ -19,13 +19,44 @@
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 For $n \in \mathbb{N}$, the **Haefliger groupoid** $\Gamma^n$ is the [[groupoid]] whose set of [[objects]] is the [[Cartesian space]] $\mathbb{R}^n$ and for which a [[morphism]] $x \to y$ is a [[germ]] of a [[diffeomorphism]] $(\mathbb{R}^n ,x) \to (\mathbb{R}^n ,y)$.
 
 This is regarded as a [[topological groupoid|topological]] or [[Lie groupoid|Lie]] [[étale groupoid]] via the canonical [[topological space|topology]]/[[smooth structure]] on $(\Gamma^n)_0 = \mathbb{R}^n$ and taking $s \colon (\Gamma^n)_1 \to (\Gamma^n)_0$ to be the [[étale space]] [associated](etale+space#RelationToSheaves) to the [[sheaf]] on $\mathbb{R}^n$ (with its canonical [[open cover]] [[Grothendieck topology]]) which is the [[sheafification]] of the presheaf that sends $U \subset \mathbb{R}^n$ to the set of all open embeddings of $U$ into $\mathbb{R}^n$.
 
 The [[smooth stack]] represented by the smooth Haefliger gorupoid is also called the _Haefliger stack_.
 
+=--
+
+
+## Variants and Generalizations 
+ {#Variants}
+
++-- {: .num_remark}
+###### Remark
+
+There is also the full smooth structure on the space of germs of diffeomorphisms. This gives a Lie groupoid whose underlying bare groupoid is the same as that of the Haefliger groupoid, but whose smooth structure is different.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
 More generally for a given [[integrable G-stucture]] there is a corresponding Haefliger groupoid, for instance for [[symplectic structures]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Instead of considering [[germs]] of local diffeomorphisms one may consider (just) order-$k$ [[jets]] of these. The resulting Lie groupoids are known as [[jet groupoids]] (see [Lorenz 09](#Lorenz09))
+
+=--
+
+
 
 ## Properties
 
@@ -118,10 +149,10 @@ See also
 
 * Wikipedia, _[Haefliger structure](http://en.wikipedia.org/wiki/Haefliger_structure)_
 
-Discussion of [[jet]]-restrictions of the Haefliger groupoid is in 
+Discussion of [[jet groupoids]] includes
 
-* Arne Lorenz, _Jet Groupoids, Natural Bundles
-and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf))
+* {#Lorenz09} Arne Lorenz, _Jet Groupoids, Natural Bundles
+and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf)) 2009
 
 
 [[!redirects Haefliger groupoids]]
