@@ -73,6 +73,18 @@ Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is 
 
 =--
 
+#### Relation to compact subspaces
+
+The relation of closed subspaces to [[compact subspaces]] is expressed by the following statements
+
+* [[Heine-Borel theorem]]
+
+* [[closed subsets of compact spaces are compact]]
+
+* [[compact subspaces of Hausdorff spaces are closed]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
 
 
 #### Kuratowski's closure-complement problem 
