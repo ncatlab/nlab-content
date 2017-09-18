@@ -24,6 +24,13 @@ The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|pres
 A _symmetric spectrum_ is given by a sequence of [[topological spaces]]/[[simplicial sets]] which are compatibly equipped with an [[action]] of the [[symmetric group]].
 
 
+## Properties
+
+### Smash product
+
+e.g. ([Schwede 12](#Schwede12))
+
+
 ## Related concepts
 
 [[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
@@ -47,7 +54,7 @@ Brief reviews include
 
 A comprehensive textbook account is in 
 
-* [[Stefan Schwede]], _Symmetric spectra_ ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
+* {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
 
 [[!redirects symmetric spectra]]
