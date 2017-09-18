@@ -2041,63 +2041,15 @@ the [[trivial vector bundles]] over $X$.
 
 
 
-### Over subspaces
+### Over closed subspaces
+ {#OverClosedSubspaces}
 
-+-- {: .num_prop #VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace}
-###### Proposition
-
-Let $X$ be a [[compact Hausdorff space]] and $A \subset X$ a [[closed subset|closed]] [[subspace]]
-and write $X/A$ for the corresponding [[quotient topological space]] ([this example](quotient+space#QuotientBySubspace))
-with quotient coprojection denoted
-$q \colon X \longrightarrow X/A$.
-
-If $A$ is a [[contractible topological space]] then the [[pullback bundle]] construction
-
-$$
-  q^\ast \;\colon\; Vect(X/A)_{/\sim} \longrightarrow Vect(X)_{/\sim}
-$$
-
-is an [[isomorphism]].
-
-=--
-
-(e.g. [Hatcher, lemma 2.10](#Hatcher))
-
-Use that by example \ref{TopologicalVectorBundleOverContractibleSpaceIsTrivializable} every bundle
-is trivializable over the contractible subspace $A$.
-
-
-+-- {: .num_example }
-###### Example
-
-Let $(X,x)$ be a [[pointed topological space|pointed]] [[compact topological space]].
-
-For $[0,1] \subset \mathbb{R}$ the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]].
-
-There is
-
-1. the ordinary [[cylinder]], being the [[product space]] $X \times I$
-
-1. the [[reduced cylinder]] $X \wedge I_+ = (X \times I)/( \{x\} \times I )$
-   which is the [[smash product]] with the interval that has a base point freely adjoined
-
-and
-
-1. the ordinary [[suspension]] $S X \coloneqq (X \times I)/( X \times \{0,1\} )$;
-
-1. the [[reduced suspension]] $\Sigma X \coloneqq (S X)/( \{x\} \times I )$.
-
-In both cases the reduced space is obtained from the unreduced space by quotienting out the
-contractible closed subspace $I \simeq \{x\} \times I$ and hence topological vector bundles
-do not see the difference between the reduced and the unreduced spaces, by prop. \ref{VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace}.
-
-
-=--
-
+We discuss the behavour of vector bundles with respect to [[closed subspaces]] $A \subset X$
+of [[compact Hausdorff spaces]].
 
 +-- {: .num_lemma #IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtendsToOpenNeighbourhoods}
 ###### Lemma
-**(isomorphism of vector bundles on closed subset of compact Hausdorff spaces extends to open neighbourhood)
+**([[isomorphism]] of vector bundles on [[closed subset]] of [[compact Hausdorff spaces]] [[extension|extends]] to [[open neighbourhood]])**
 
 Let $k \in \{\mathbb{R}, \mathbb{C}\}$, let $X$ be a [[compact Hausdorff space]] and let $A \subset X$ a [[closed subset|closed]] [[subspace]].
 Let $E_i \overset{p_i}{\to} X$ be two topological vector bundles over $X$, $i \in \{1,2\}$.
@@ -2211,8 +2163,160 @@ extending $\sigma$, hence such that there is an isomorphism $E_1\vert_U \simeq E
 original isomorphism on $A$. 
 
 
+=--
+
+
++-- {: .num_prop #VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace}
+###### Proposition
+**(vector bundle trivial over closed subspace of compact Hausdorff space is pullback of bundle on quotient space)**
+
+Let $X$ be a [[compact Hausdorff space]] and let $A \subset X$ be a [[closed subspace]].
+
+If a topological vector bundle $E \overset{p}{\to} X$ is such that its restriction $E\vert_A$
+is [[trivializable vector bundle|trivializable]], then $E$ is [[isomorphism|isomorphic]] to 
+the [[pullback bundle]] $q^\ast E'$ of a topological vector bundle $E' \to X/A$
+over the [[quotient space]]..
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Let 
+
+$$
+  A \times k^n
+    \overset{\phi}{\longrightarrow}
+  E\vert_A 
+$$
+
+be an isomorphism of vector bundles over $A$, which exists by assumption.
+Consider then on the total space $E\vert_A$ the [[equivalence relation]] given by 
+
+$$
+  \phi(x,v) \sim \phi(x',v)
+$$
+
+for all $x,x' \in A$ and $v \in k^n$. Let
+
+$$
+  E' \coloneqq E/\sim
+$$
+
+be the corresponding [[quotient topological space]]. Since the composite continuous function 
+
+$$
+  E \overset{p}{\longrightarrow} X \overset{q}{\longrightarrow} X/A
+$$ 
+
+respects the equivalence relation (in that it sends any two equivalent points to the same image point) 
+the [[universal property]] of the quotient space yields
+a continuous function
+
+$$
+  p' \;\colon\; E' \to X/A
+$$
+
+such that the following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+    E &\longrightarrow& E'
+    \\
+    {}^{\mathllap{p}}\downarrow && \downarrow^{\mathrlap{p'}}
+    \\
+    X &\overset{q}{\longrightarrow}& X/A
+  }  
+  \,.
+$$
+
+In fact this is a [[pullback]] diagram, since $E \to E'$ is an isomorphism on each fiber, by construction.
+
+Hence it only remains to see that $E' \overset{p'}{\longrightarrow} X/A$ is a vector bundle. The
+fiberwise linearity is clear, we need to show that it is locally trivializable.
+
+To that end, let $\{U_i \subset X\}_{i \in I}$ be an open cover over which $E \overset{p}{\to} X$
+has a local trivialization. Since $A \subset X$ is assumed to be closed, it follows that 
+
+$$
+  \left\{ U_i \setminus A \subset X \setminus A\right\}_{i \jn I}
+$$
+
+is an open cover of the complement of $A$ in $X$. By the nature of the [[quotient space topology]], this 
+induces an open cover of $X\setminus A$ if we adjoin the quotient $U/A$  of an open neighbourhood $U \subset X$ of $A$ in $X$, 
+then
+
+$$
+  \{ U_i \setminus A \subset X/A \} \sqcup \{ U/A \subset X/A \}
+$$
+
+is an open cover of $X/A$. Moreover, by the construction of $E' \overset{p'}{\to} X/A$ it is clear that
+this bundle has a local trivialization over $U_i$, since $E \overset{p}{\to} X$ does,
+and similarly $E''$ trivializes over $U/A$ if $X$ trivializes over $U$. But such a $U$ does indeed exist by 
+lemma \ref{IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtendsToOpenNeighbourhoods}.
+
+=--
+
+
++-- {: .num_prop #VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace}
+###### Proposition
+
+Let $X$ be a [[compact Hausdorff space]] and $A \subset X$ a [[closed subset|closed]] [[subspace]]
+and write $X/A$ for the corresponding [[quotient topological space]] ([this example](quotient+space#QuotientBySubspace))
+with quotient coprojection denoted
+$q \colon X \longrightarrow X/A$.
+
+If $A$ is a [[contractible topological space]] then the [[pullback bundle]] construction
+
+$$
+  q^\ast \;\colon\; Vect(X/A)_{/\sim} \longrightarrow Vect(X)_{/\sim}
+$$
+
+is an [[isomorphism]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By example \ref{TopologicalVectorBundleOverContractibleSpaceIsTrivializable} every vector bundle
+$E \overset{p}{\to} X$ is trivializable over the contractible subspace $A$. 
+Therefore prop. \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace}
+implies that it is in the image of the pullback bundle map $q^\ast$. This says that $q^\ast$
+is surjective. Finally, it is clear that it is injective. Therefore it is bijective.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Let $(X,x)$ be a [[pointed topological space|pointed]] [[compact topological space]].
+
+For $[0,1] \subset \mathbb{R}$ the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]].
+
+There is
+
+1. the ordinary [[cylinder]], being the [[product space]] $X \times I$
+
+1. the [[reduced cylinder]] $X \wedge I_+ = (X \times I)/( \{x\} \times I )$
+   which is the [[smash product]] with the interval that has a base point freely adjoined
+
+and
+
+1. the ordinary [[suspension]] $S X \coloneqq (X \times I)/( X \times \{0,1\} )$;
+
+1. the [[reduced suspension]] $\Sigma X \coloneqq (S X)/( \{x\} \times I )$.
+
+In both cases the reduced space is obtained from the unreduced space by quotienting out the
+contractible closed subspace $I \simeq \{x\} \times I$ and hence topological vector bundles
+do not see the difference between the reduced and the unreduced spaces, by prop. \ref{VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace}.
+
+
+=--
+
+
+
 
 
 ## Related concepts
