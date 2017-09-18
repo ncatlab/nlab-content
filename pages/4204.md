@@ -368,3 +368,10 @@ following conjectures by [[Maxim Kontsevich]], e.g.
 This classification is a precursor of the full [[cobordism hypothesis]]-theorem. This, and the reformulation of the original TCFT constructions in full generality is in 
 
 * {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
+
+[[!redirects 2d topological field theory]]
+[[!redirects 2d topological field theories]]
+
+[[!redirects 2d topological quantum field theory]]
+[[!redirects 2d topological quantum field theories]]
+
