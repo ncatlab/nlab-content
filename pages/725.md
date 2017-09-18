@@ -18,6 +18,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+In a [[preordered set]] or [[partially ordered set]] then the _meet_ or _infimum_ of a [[subset]] of elements is, if it exists, the largest element which is smaller than all the elements in the set. If this element is member of the original subset, the it is also called the _minimum_ of that subset.
+
+If we think of the pre-ordered  ste as a [[category]], a [[(0,1)-category]], then the meet is the [[limit]] over the given subset, if it exists, regarded as a [[diagram]]. Thus in a  [[partially ordered set]] this is unique if it exists, otherwise it is unique up to [[isomorphism]].
+
 
 ## Definition
 
@@ -33,14 +39,25 @@ The above definition is for the meet of two elements of a poset, but it can easi
 
 A poset that has all finite meets is a **meet-[[semilattice]]**.  A poset that has all infima is an **[[inflattice]]**.
 
-A meet of [[subset]]s or [[subobject]]s is called an [[intersection]].
+A meet of [[subsets]] or [[subobjects]] is called an [[intersection]].
 
 
-## Special cases
+## Examples
 
-A meet of zero elements is a [[top]] element.  
+### General
 
-Any element $a$ is a meet of that one element.
+* A meet of no elements is a [[top]] element.  
+
+* Any element $a$ is a meet of that one element.
+
+### Infimum of real numbers
+
+Often one considers infima of subsets of the [[real numbers]] $\mathbb{R}$, regarded with their canonical [[preordering]], which in this case is in fact a [[total order]].
+
+For $S \subset \mathbb{R}$ a subset, say that a _lower bound_ is an element $b \in \mathbb{R}$ such that $\underset{s \in S \subset \mathbb{R}}{\forall}( b \leq s )$.
+
+Then the infimum of $S$ is, if it exists, that lower bound $inf(S)$ of $S$ such that for $b$ any other lower bound of $S$ then $b \leq inf(S)$.
+
 
 
 ## Properties
