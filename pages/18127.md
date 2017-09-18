@@ -1231,7 +1231,7 @@ $$
 
 +-- {: .num_defn #GroupoidDependentlyTypes}
 ###### Definition
-**(groupoid -- [[dependent type theory|dependently typed]] definition)
+**([[groupoid]])
 
 A _[[small groupoid]]_ $\mathcal{G}$ is
 
@@ -1468,15 +1468,89 @@ of the [[discrete topological space]] on the set $X$.
 
 +-- {: .num_example #GroupoidsCoproduct}
 ###### Example
-**([[disjoint union]]/[[coproduct]] of groupoids)
+**([[disjoint union]]/[[coproduct]] of [[groupoids]])
 
-Let $\{\mathcal{G}_i\}_{i \in I}$ be a [[set]] of groupoids. Then their [[disjoint union]] ([[coproduct]]) is the groupoid
+Let $\{\mathcal{G}_i\}_{i \in I}$ be a [[set]] of [[groupoids]]. Then their [[disjoint union]] ([[coproduct]]) is the groupoid
 
 $$
   \underset{i \in I}{\sqcup} \mathcal{G}_i
 $$
 
 whose set of objects is the disjoint union of the sets of objects of the summand groupoids, and whose sets of morphisms between two objects is that of $\mathcal{G}_i$ if both objects are form this groupoid, and is [[empty set|empty]] otherwise.
+
+=--
+
++-- {: .num_defn #ProductGroupoid}
+###### Definitio
+**([[product category|product]] of [[groupoids]])**
+
+Let $\{\mathcal{G}_i\}_{i \in I}$ be a [[set]] of [[groupoids]]. Their [[product category|product groupoid]]
+is the [groupoid]]
+
+$$  
+  \underset{i \in I}{\prod} \mathcal{G}_i
+$$
+
+whose set of objects is the [[Cartesion product]] of the sets of objects of the factor groupoids
+
+$$
+ \eft(
+   \underset{i \in I}{\prod} \mathcal{G}_i
+ \right)_0
+   \;\coloneqq\;
+ \underset{i \in I}{\prod} (\mathcal{G}_i)_0
+$$
+
+and whose set of [[morphisms]] between [[tuples]] $(x_i)_{i \in I}$ and $(y_i)_{i \in I}$
+is the corresponding Cartesian product of morphisms, with elements denoted
+
+$$
+  (x_i)_{i \in I} \overset{(f_i)_{i \in I}}{\longrightarrow} (y_i)_{i \in I}
+  \,.  
+$$
+
+For instance if each of the groupoids is the [[delooping]] $\mathcal{G}_i = B G_i$
+of a [[group]] $G_i$ (example \ref{GroupoidFromDelooping}) then the product groupoid is the 
+delooping groupoid of the [[direct product group]]:
+
+$$
+  \underset{i \in I}{\prod} B G_i
+   \simeq
+  B \underset{i \in I}{\prod} G_i
+  \,.
+$$
+
+As another example, if $\underset{i \in I}{\sqcup} \mathcal{G}_i$ is the [[coproduct]] groupoid from 
+example \ref{GroupoidsCoproduct}, and if $\mathcal{G}$ is any groupoid, then a groupoid homomorphism
+of the form
+
+$$
+  \underset{i \in I}{\sqcup} \mathcal{G}_i
+    \longrightarrow
+  \mathcal{G}
+$$
+
+is equivalently a [[tuple]] $(f_i)_{i \in I}$ of groupoid homomorphisms
+
+$$
+  \mathcal{G}_1 \overset{f_i}{\longrightarrow} \mathcal{G}
+  \,.
+$$
+
+The analogous statement holds for homotopies between groupoid homomorphisms, and so one find that the
+[[hom-groupoid]] out of a coproduct of groupoids is the product groupoid of the separate hom-groupoids:
+
+$$
+  Hom_{Grpd}\left( 
+    \underset{i \in I}{\sqcup} \mathcal{G}_i
+    \;,\;
+    \mathcal{G}
+  \right)
+  \;\simeq\;
+  \underset{i \in I}{\prod} 
+  Hom_{Grpd}( \mathcal{G}_1, \mathcal{G} )
+  \,.
+$$
 
 =--
 
@@ -3184,13 +3258,14 @@ $$
   \,.
 $$
 
-Then by the homotopy lifting property as in example \ref{CoveringSpacesHomotopyLifting}, there is a homotopy in $(E,e)$ fixing the starting point, of the form
+Then by the homotopy lifting property as in example \ref{CoveringSpacesHomotopyLifting}, there is a homotopy in $(E,e)$ relative
+to the basepoint
 
 $$
   \eta_{E} \;\colon\; \ell_E \Rightarrow \widehat{f \circ \ell_Y}
 $$
 
-and lifting the homotopy $\eta_X$. Since $\eta_X$ in addition fixes the endpoint, the uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) implies that also $\eta_{E}$ fixes the endpoint. Therefore $\eta_E$ is in fact a homotopy between loops, and so $\widehat{f \circ \ell_Y}$ is indeed a loop.
+and lifting the homotopy $\eta_X$. Therefore $\eta_E$ is in fact a homotopy between loops, and so $\widehat{f \circ \ell_Y}$ is indeed a loop.
 
 =--
 
@@ -3261,10 +3336,10 @@ $$
 Therefore
 
 $$
-  \hat f(y') \coloneqq \widehat{f \circ \gamma}
+  \hat f(y') \coloneqq \widehat{f \circ \gamma}(1)
 $$
 
-if a lift of $f(y')$.
+is a lift of $f(y')$.
 
 We claim now that this pointwise construction is independent of the choice $\gamma$, and that as a function of $y'$ it is indeed continuous. This will prove the claim.
 
@@ -3404,9 +3479,9 @@ This shows that the lifted function is continuous. Finally that this continuous 
  {#Monodromy}
 
 Since the lift of a path through a [[covering space]] [[projection]] is unique once the lift of the
-starting point is chosen, (lemma \ref{CoveringSpacePathLifting}) every path in the base space
-determuined a [[function]] between the [[fiber]] [[sets]] over its endpoints. By the
-[[homotopy lifting property]] of covering spaces (lemma \ref{CoveringSpacesHomotopyLifting})
+starting point is chosen (lemma \ref{CoveringSpacePathLifting}) every path in the base space
+determines a [[function]] between the [[fiber]] [[sets]] over its endpoints. By the
+[[homotopy lifting property]] of covering spaces as in example \ref{CoveringSpacesHomotopyLifting}
 this function only depends on the [[equivalence class]] of the path under [[homotopy relative boundary]].
 Therefore this fiber-assignment is in fact an _[[action]]_ of the [[fundamental groupoid]] of the base space on sets,
 called a _[[groupoid representation]]_ (def. \ref{GroupoidRepresentation} below).
@@ -3503,45 +3578,17 @@ is a [[natural transformation]] between these functors, hence is
     }
   $$
 
-Representations of $\mathcal{G}$ and homomorphisms between them constitute a [[category]],
-called the [[representation category]] $Rep_{Grpd}(\mathcal{G})$.
 
-=--
-
-
-
-+-- {: .num_defn #CoveringSpaceMonodromy}
-###### Definition
-**([[monodromy]] of a covering space)
-
-Let $X$ be a [[topological space]] and $E \overset{p}{\to} X$ a [[covering space]]. Write $\Pi_1(X)$ for the [[fundamental groupoid]] of $X$.
-
-Define a [[functor]]
+By def. \ref{GroupoidDependentlyTypes}
+the representations of $\mathcal{G}$ in $Core(\mathcal{C})$ and homomorphisms between them constitute a [[groupoid]]
+called the _[[representation category|representation groupoid]]_
 
 $$
-  Fib_E
-    \;\colon\;
-  \Pi_1(X)
-    \longrightarrow
-  Set
+  Rep(\mathcal{G})
+  \;\coloneqq\;
+  Hom_{Grpd}(\mathcal{G}, Core(\mathcal{C}))
+  \,.
 $$
-
-to the [[category]] [[Set]] of [[sets]], hence a [[permutation representation|permutation]] [[groupoid representation]], as follows:
-
-1. to a point $x \in X$ assign the [[fiber]] $p^{-1}(\{x\}) \in Set$;
-
-1. to the [[homotopy class]] of a [[path]] $\gamma$ connecting $x \coloneqq \gamma(0)$ with $y \coloneqq \gamma(1)$ in $X$ assign the function $p^{-1}(\{x\}) \longrightarrow p^{-1}(\{y\})$ which takes $\hat x \in p^{-1}(\{x\})$ to the endpoint of a path $\hat \gamma$ in $E$ which lifts $\gamma$ through $p$ with starting point $\hat \gamma(0) = \hat x$
-
-   $$
-     \array{
-       p^{-1}(x) &\overset{}{\longrightarrow}& p^{-1}(y)
-       \\
-       (\hat x = \hat \gamma(0)) &\mapsto& \hat \gamma(1)
-     }
-     \,.
-   $$
-
-This construction is well defined for a given representative $\gamma$ due to the unique path-lifting property of covering spaces ([this lemma](covering+space#CoveringSpacePathLifting)) and it is independent of the choice of $\gamma$ in the given homotopy class of paths due to the homotopy-lifting property ([this lemma](covering+space#CoveringSpacesHomotopyLifting)).  Similarly, these two lifting properties give that this construction respects composition in $\Pi_1(X)$ and hence is indeed a [[functor]].
 
 =--
 
@@ -3554,8 +3601,10 @@ We may also express this in terms of [[group representations]] of [[fundamental 
 
 Assuming the [[axiom of choice]] then the following holds:
 
-Let $\mathcal{G}$ be a [[groupoid]]. Then its [[category of representations|category of]]
-[[groupoid representations]] is [[equivalence of categories|equivalent]] to the [[product category]]
+Let $\mathcal{G}$ be a [[groupoid]]. Then its [[category of representations|groupoid of]]
+[[groupoid representations]] $Rep(\mathcal{G})$ (def. \ref{GroupoidRepresentation}) 
+is [[equivalence of groupoids|equivalent]] (def. \ref{EquivalenceOfGroupoids}) to 
+the [[product category|product groupoid]] (example \ref{ProductGroupoid})
 indexed by the set of [[connected components]] $\pi_0(\mathcal{G})$ (def. \ref{GroupoidConnectedComponents}) of [[group representations]]
 of the [[automorphism group]] $G_i \coloneqq Aut_{\mathcal{G}}(x_i)$ (def. \ref{InGrupoidAutomorphismGroup}) for $x_i$ any object in the $i$th
 connected component:
@@ -3572,14 +3621,14 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $\mmathcal{C}$ be the category that the representation is on. Then by definition
+Let $\mathcal{C}$ be the category that the representation is on. Then by definition
 
 $$
-  Rep(\mathcal{G}) = Hom( \mathcal{G} , \mathcal{C}  )
+  Rep(\mathcal{G}) = Hom_{Grpd}( \mathcal{G} , Core(\mathcal{C})  )
   \,.
 $$
 
-Consider the injection functor of the [[skeleton]] (from lemma \ref{DeloopingGroupoidEquivalence})
+Consider the injection functor of the [[skeleton]] from lemma \ref{DeloopingGroupoidEquivalence}
 
 $$
   inc
@@ -3598,12 +3647,52 @@ $$
 $$
 
 and by combining lemma \ref{DeloopingGroupoidEquivalence} with lemma \ref{HorizontalCompositionWithHomotopyIsNaturalTransformation}
-this is an [[equivalence of categories]]. Finally, by example \ref{GroupoidRepresentationOfDeloopingGroupoid} the
-category on the right is the product of group representation categories as claimed.
-
-
+this is an [[equivalence of groupoids]]. Finally, by example \ref{ProductGroupoid} the
+groupoid on the right is the product groupoid as claimed.
 
 =--
+
+
+
++-- {: .num_defn #CoveringSpaceMonodromy}
+###### Definition
+**([[monodromy]] of a [[covering space]])
+
+Let $X$ be a [[topological space]] and $E \overset{p}{\to} X$ a [[covering space]] (def. \ref{CoveringSpace}). Write $\Pi_1(X)$ for the [[fundamental groupoid]] of $X$ (example \ref{FundamentalGroupoid}).
+
+Define a groupoid homomorphism
+
+$$
+  Fib_E
+    \;\colon\;
+  \Pi_1(X)
+    \longrightarrow
+  Core(Set)
+$$
+
+to the groupoid core of the [[category]] [[Set]] of [[sets]] (example \ref{GroupoidRepresentation}), hence a [[permutation representation|permutation]] [[groupoid representation]] (example \ref{GroupoidRepresentation}), as follows:
+
+1. to a point $x \in X$ assign the [[fiber]] $p^{-1}(\{x\}) \in Set$;
+
+1. to the [[homotopy class]] of a [[path]] $\gamma$ connecting $x \coloneqq \gamma(0)$ with $y \coloneqq \gamma(1)$ in $X$ assign the function $p^{-1}(\{x\}) \longrightarrow p^{-1}(\{y\})$ which takes $\hat x \in p^{-1}(\{x\})$ to the endpoint of a path $\hat \gamma$ in $E$ which lifts $\gamma$ through $p$ with starting point $\hat \gamma(0) = \hat x$
+
+   $$
+     \array{
+       p^{-1}(x) &\overset{}{\longrightarrow}& p^{-1}(y)
+       \\
+       (\hat x = \hat \gamma(0)) &\mapsto& \hat \gamma(1)
+     }
+     \,.
+   $$
+
+This construction is well defined for a given representative $\gamma$ due to the unique path-lifting property of covering spaces 
+(lemma \ref{CoveringSpacePathLifting}) and it is independent of the choice of $\gamma$ in the given homotopy class of paths due 
+to the [[homotopy lifting property]] (example \ref{CoveringSpacesHomotopyLifting}).  
+Similarly, these two lifting properties give that this construction respects composition in $\Pi_1(X)$ and hence is indeed 
+a homomorphism of groupoids (a functor).
+
+=--
+
 
 
 
@@ -3643,14 +3732,28 @@ $$
   \,.
 $$
 
-This means that $f$ induces a [[natural transformation]] between the monodromy functors of $E_1$ and $E_2$, respectively, and hence that constructing monodromy is itself a functor from the [[category]] of [[covering spaces]] of $X$ to that of [[permutation representations]] of the [[fundamental groupoid]] of $X$:
+This means that $f$ induces a homotopy ([[natural transformation]]) between the monodromy homomorphisms (functors) 
+
+$$
+  \Pi_1(X)
+    \array{
+      \overset{Fib_{E_1}}{\longrightarrow}
+      \\
+        \Downarrow 
+      \\
+      \underset{Fib_{E_2}}{\longrightarrow}
+    }
+  Core(Set)
+$$
+
+of $E_1$ and $E_2$, respectively, and hence that constructing monodromy is itself a functor from the [[category]] of [[covering spaces]] of $X$ to that of [[permutation representations]] of the [[fundamental groupoid]] of $X$:
 
 $$
   Fib
    \;\colon\;
   Cov(X)
     \longrightarrow
-  Set^{\Pi_1(X)}
+  Rep(\Pi_1(X), Set)
   \,.
 $$
 
@@ -3669,7 +3772,7 @@ $$
 There are, up to [[isomorphism]], three different 3-sheeted [[covering spaces]] of the [[circle]] $S^1$.
 
 The one from example \ref{kForlCovringOfCircle} for $k = 3$. Another one. And the trivial one.
-Their corresponding [[permutation actions]] may be seen from the pictures on the right.
+Their corresponding [[permutation actions]] according to def. \ref{CoveringSpaceMonodromy} may be seen from the pictures on the right.
 > graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
 
 =--
@@ -3679,23 +3782,27 @@ Their corresponding [[permutation actions]] may be seen from the pictures on the
 ###### Example
 **([[fundamental groupoid]] of covering space)
 
-Let $E \overset{p}{\longrightarrow} X$ be a covering space.
+Let $E \overset{p}{\longrightarrow} X$ be a [[covering space]].
 
 Then the [[fundamental groupoid]] $\Pi_1(E)$ of the total space $E$ is
-[[equivalence of categories|equivalently]] the [[Grothendieck construction]]
-of the [[monodromy]] functor $Fib_E \;\colon\; \Pi_1(X) \to Set$
-
-$$
-  \Pi_1(E)
-   \;\simeq\;
-  \int_{\Pi_1(X)} Fib_E
-$$
+the groupoid
 
 whose
 
 * [[objects]] are pairs $(x,\hat x)$ consisting of a point $x \in X$ and en element $\hat x \in Fib_E(x)$;
 
 * [[morphisms]] $[\hat \gamma] \colon (x,\hat x) \to (x', \hat x')$ are morphisms $[\gamma] \colon x \to x'$ in $\Pi_1(X)$ such that $Fib_E([\gamma])(\hat x) = \hat x'$.
+
+
+This is also called the _[[Grothendieck construction]]_
+of the [[monodromy]] functor $Fib_E \;\colon\; \Pi_1(X) \to Core(Set)$, and denoted
+
+$$
+  \Pi_1(E)
+   \;\simeq\;
+  \int_{\Pi_1(X)} Fib_E
+  \,.
+$$
 
 =--
 
