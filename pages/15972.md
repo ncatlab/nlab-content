@@ -14,7 +14,17 @@ Derived microlocalization is an adaptation of the theory of microlocalization to
 
 In non-smooth situations, the usual normal and conormal bundle used in classical microlocalization is not well behaved, and one needs to take derived versions of them. Moreover, to study [[global analytic index theory]], one needs a formulation of the theory of microlocalization in terms of derived loop stacks, in order to work out a cyclic and Hochshild version of index theorems (similar to the one developed by Kashiwara and Schapira in the [[microlocal formulation of index theory]]) that works on an arbitrary (e.g. integral) basis.
 
-## Loop space and deformation to the normal bundle
+## Loop space and deformation to the normal bundle: method I
+
+We would like to define a family over (say) the disc $D^1$ whose fiber
+at $0$ is $LX:=\Hom(S^1,X)$ and whose fiber at $1$ is $[LX/S^1]$.
+In the case of a usual scheme, this is done (by Vezzosi) by showing that
+$LX$ identifies with $\Hom(BG_a,X)$, and by making $G_a$ act
+multiplicatively on the action of $BG_a$ on $LX$, to get the trivial
+action at $0$ and the usual action at $1$. This gives the desired family.
+Recall that $BG_a$ is the affinization of $B\mathbb{Z}\cong S^1$.
+
+## Loop space and deformation to the normal bundle: method II
 
 [[Microlocalization]] in [[derived geometry]] involves the proper definition of the deformation to the [[normal bundle]] of a closed embedding $Y\subset X$ of global analytic spaces (or even stacks). One needs to consider a [[derived loop space]] approach to this construction because it allows to avoid the use of denominators in the definition of the [[Chern character]] (following Connes-Loday-Toen-Vezzosi) and in the development of more general [[global analytic index theory]] with integral coefficients.
 
