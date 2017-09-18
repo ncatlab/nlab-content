@@ -326,6 +326,21 @@ But the latter is the case precisely if this is equal to a combination $\sum_j (
 
 ### Relation to projective modules
 
++-- {: .num_prop #ProjectiveModulesAreFlat}
+###### Proposition
+
+Every [[projective module]] is flat.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Clearly every ring $R$ is a flat module over itself, and [[direct sums]] as well as direct summands of flat modules are flat. Hence direct summands of [[free modules]] are flat, and these are precisely the projective modules ([prop.](projective+module#ProjectiveIsPreciselyDirectSummandOfFreeModule))
+
+=--
+
+
 +-- {: .num_prop}
 ###### Proposition
 **([[Lazard's criterion]])**
