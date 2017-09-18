@@ -1,10 +1,8 @@
 ## Statements and proofs 
 
-The **tube lemma** refers to one of several fundamental lemmas in topology (point-set topology to be more exact[^1]) that underlies many arguments involving [[compact spaces]]. Much like the [[Yoneda lemma]] of pure [[category theory]], there are various closely related statements that can be said to fall under the rubric "tube lemma"; we consider several examples here. 
+The **tube lemma** may refer to one of several fundamental lemmas in topology (point-set topology to be more exact[^1]) that underlie many arguments involving [[compact spaces]]. That is to say: much like the [[Yoneda lemma]] of pure [[category theory]], there are various closely related statements that can be said to fall under the rubric "tube lemma"; we consider several examples here. 
 
 [^1]: The use of the phrase "point-set topology" signals that the tube lemma proper does refer to *points*, as opposed to the "point-free" or "pointless" topology as developed in the theory of [[locales]]. Point-free analogues of the main consequences of the tube lemma, such as the fact that the product of two compact topological spaces is again compact, are quite nontrivial and require a significantly different approach. 
-
-One such statement is as follows. 
 
 * If $X$ is any [[topological space|space]] and $Y$ is compact, then the [[projection map]] $p: X \times Y \to X$ is a [[closed map]], i.e., the left adjoint $\exists_p: P (X \times Y) \to P(X)$ to the [[inverse image]] map $p^\ast: P(X) \to P(X \times Y)$ takes [[closed sets]] in $X \times Y$ to closed sets in $X$. 
 
@@ -45,6 +43,7 @@ $$\{U\; open\; in\; X: U \times Y \subseteq B \; for\; some\; B \in \mathcal{B}\
 covers $X$, whence by compactness of $X$ there is a finite subcover $U_1, \ldots, U_n$ for which $U_i \times Y \subseteq B_i$ for some $B_i \in \mathcal{B}$, and then $B = B_1 \cup \ldots \cup B_n$ belongs to $\mathcal{B}$ and is all of $X \times Y$. 
 =-- 
 
+For another application, see [[compact-open topology]]. 
 
 ## References
 
