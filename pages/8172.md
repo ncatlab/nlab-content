@@ -1068,12 +1068,16 @@ $$
 
 =--
 
+spring
+
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
 
 A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] [[CRing]]${}^{op}$ of [[commutative rings]], regarded with its [[cartesian monoidal category]] structure.
 
 =--
+
+(e.g. [Ravenel 86, def. A1.1.1](#Ravenel86))
 
 +-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
 ###### Remark
@@ -1097,7 +1101,7 @@ $$
   \,,
 $$
 
-(where the [[fiber product]] at the top is over $s$ and the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
+(where the [[fiber product]] at the top is over $s$ on the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
 
 $$
   inv \;\colon\; Spec(\Gamma) \longrightarrow Spec(\Gamma)
@@ -1138,18 +1142,24 @@ $$
   c \; \colon \; \Gamma \longrightarrow \Gamma
 $$
 
-and satisfying dual conditions. Here 
+and satisfying [[formal duality|formally dual]] conditions, spelled out as def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} below. Here 
+
+* $\eta_L, \etaR$ are called the left and right _[[unit]] maps_;
+
+* $\epsilon$ is called the _co-unit_;
 
 * $\Psi$ is called the _[[comultiplication]]_;
 
-* $c$ is called the _[[antipode]]_.
+* $c$ is called the _[[antipode]]_ or _conjugation_
+
+
 
 =--
 
 +-- {: .num_remark #HopfAlgebrasAsHopfAlgebroids}
 ###### Remark
 
-Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they mayke $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the tensor product of bimodules that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
+Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they make $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the [[tensor product]] of [[bimodules]] that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
 
 An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
 
@@ -1157,6 +1167,95 @@ Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\lon
 
 =--
 
+Writing out the formally dual axioms of an [[internal groupoid]] as in remark \ref{CommutativeHopfAlgebroidSpelledOut} yields the following equivalent but maybe more explicit definition of commutative Hopf algebroids, def. \ref{CommutativeHopfAlgebroid}
+
++-- {: .num_defn #CommutativeHopfAlgebroidDefinitionInExplicitComponents}
+###### Definition
+
+A **[[commutative Hopf algebroid]]** is
+
+1. two [[commutative rings]], $R$ and $\Gamma$;
+
+1. ring [[homomorphisms]]
+
+   1. (left/right unit) 
+  
+      $\eta_L,\eta_R \colon A \longrightarrow \Gamma$; 
+
+   1. (comultiplication) 
+ 
+      $\Psi \colon \Gamma \longrightarrow \Gamma \underset{A}{\otimes} A$;
+
+   1. (counit) 
+ 
+      $\epsilon \colon \Gamma \longrightarrow A$;
+
+   1. (conjugation) 
+
+      $c \colon \Gamma \longrightarrow \Gamma$
+
+such that
+
+1. (co-[[unitality]])
+
+   1.  $\epsilon \circ \eta_L = \epsilon \circ \eta_R = id_A$;
+
+   1. $(id_\Gamma\otimes_A\epsilon) \circ \Delta  = (\epsilon \otimes_A id_\Gamma) \circ \Delta = id_\Gamma$;
+
+1. (co-[[associativity]]) $(id_\Gamma \otimes_A \Psi) \circ \Psi = (\Psi \otimes_A id_\Gamma) \circ \Psi$;
+
+1. ([[inverses]])
+
+   1. $c \circ c = id_\Gamma$;
+
+   1. $c\circ \eta_L = \eta_R$; $c \circ \eta_R = \eta_L$;
+
+   1. the universally induced $\nabla_c \colon \Gamma \otimes_A \Gamma \longrightarrow \Gamma$ satifies
+
+      $\nabla_c \circ \Psi = \epsilon \circ \eta_L = \epsilon \circ \eta_R$.
+   
+=--
+
++-- {: .num_defn #HopfComoduleRing}
+###### Definition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$ as in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, hence an [[internal groupoid]] in $CRing^{op}$, then a **comodule ring** over it is an [[action]] in $CRing^{op}$ of that internal groupoid.
+
+=--
+
+In the same spirit, a **[[comodule]]** over a commutative Hopf algebroid (not necessarily a comodule ring) is a [[quasicoherent sheaf]] on the corresponding [[internal groupoid]] (regarded as a ([[algebraic stack|algebraic]]) [[stack]]) (e.g. [Hopkins 99, prop. 11.6](#Hopkins99)). Explicitly in components:
+
++-- {: .num_defn #CommutativeHopfAlgebroidComodule}
+###### Definition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+then a **left [[comodule]]** over $\Gamma$ is
+
+1. an $A$-[[module]] $N$;
+
+1. an $A$-[[module]] [[homomorphism]] (co-action)
+
+   $\Psi_N \;\colon\; N \longrightarrow \Gamma \otimes_A N$;
+
+such that
+
+1. ([[unitality]])
+
+   $(\epsilon \otimes_A id_N) \circ \Psi_N = id_N$;
+
+1. ([[associativity]])
+
+   $(\Psi \otimes_A N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
+
+A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. Write
+
+$$
+  \Gamma CoMod
+$$
+
+for the resulting [[category]] of (left) comodules over $\Gamma$.
+
+=--
 
 
 +-- {: .num_prop #CoFreeComodules}
@@ -1170,11 +1269,12 @@ $$
   A Mod
 $$
 
-between the [[category]] of $\Gamma$-[[comodules]] and the [[category of modules]] over $A$, where the [[cofree functor]] is [[right adjoint]]. 
+between the [[category]] of $\Gamma$-[[comodules]], def. \ref{CommutativeHopfAlgebroidComodule} and the [[category of modules]] over $A$, where the [[cofree functor]] is [[right adjoint]]. 
 
 The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
 
 =--
+
 
 Now we identify the [[commutative Hopf algebroids]] arising in the $E$-Adams spectral sequence:
 
@@ -1369,8 +1469,8 @@ Therefore also the top morphism is an iso.
 
 In conclusion:
 
-+-- {: .num_cor #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
-###### Corollary
++-- {: .num_prop #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
+###### Proposition
 
 For $X, Y$ [[spectra]], and for $E$ a [[commutative ring spectrum]] from the list in example \ref{ExamplesOfFlatRingSpectra}, then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$, induced by of the standard $E$-Adams resolution for $X$, example \ref{StandardEResolution}, is of the form
 
@@ -1400,23 +1500,15 @@ The next step is to identify the chain homology of this $d_1$ with the comodule 
 #### The second page and homological co-algebra
  {#TheE2TermOfTheEAdamsSpectralSequence}
 
-+-- {: .num_prop}
-###### Proposition
 
-For $E$ flat, def. \ref{FlatE}, then the $\mathcal{E}_2$-page
-of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for any $X$ is the [[Ext]] of [[Hopf algebroid]]-[[comodules]] for the [[Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from corollary \ref{HopfAlgebroidStructureOnDualEOperations}
++-- {: .num_theorem #SecondPageOfEAdamsSpectralSequence}
+###### Theorem
 
-$$
-  \mathcal{E}^{s,t}_\bullet
-  \simeq
-  Ext^{s,t}_{E_\bullet(E)}(E_\bullet, E_\bullet(X))
-  \,,
-$$
-
-More generally, if $E$ satisfies the conditions of prop. \ref{AdamsUCT}, for $Y$ any spectrum then the $E$-Adams spectral sequence for $[Y,X]$ has as $\mathcal{E}_2$-page the
+If $E$ is flat, def. \ref{FlatE}, and satisfies the conditions of prop. \ref{AdamsUCT}, and $E_\bullet(Y)$ a [[projective module]] over $\pi_\bullet(E)$, then the entries of the $\mathcal{E}_2$-page
+of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$ are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
 
 $$
-  \mathcal{E}^{s,t}_\bullet
+  \mathcal{E}^{s,t}_2
   \simeq
   Ext^{s,t}_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(X))
   \,,
@@ -1426,15 +1518,151 @@ $$
 =--
 
 +-- {: .proof}
-###### Proof idea
+###### Proof
 
 By prop. \ref{UniquenessOfEAdamsSpectralSequence} it is sufficient to show this for the standard $E$-Adams resolution of prop. \ref{StandardAdamsResolutionIsIndeedAdamsResolution}. 
-For that case the $\mathcal{E}_1$ is given by corollary \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}. It remains to see that the sequences of differentials $d_1$ on this page constitute the standard bar complex resolution for computation of Hopf co-module [[Ext]]-[[derived functors]]. (...)
+For that case the $\mathcal{E}_1$ page is given by prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}, and so by the standard theory of [[derived functors in homological algebra]] (see the section _[Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_), it is now sufficient to see that:
+
+1. the category $E_\bullet(E) CoMod$ is an [[abelian category]];
+
+1. the graded chain complex of prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex} is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$.
+
+These two statements are prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} and lemma \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
 
 =--
 
-(...)
 
+We now discuss the relevant general aspects of [[homological algebra]] in [[categories]] of [[comodules]] over [[commutative Hopf algebroids]] needed for the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence} from prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}.
+
++-- {: .num_prop #CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}
+###### Proposition
+
+If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} is such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], then the [[category]] $\Gamma CoMod$ of [[comodules]] over $\Gamma$, def. \ref{CommutativeHopfAlgebroidComodule}, is an [[abelian category]].
+
+=--
+
+(e.g. [Ravenel 86, theorem A1.1.3](#Ravenel86)) 
+
++-- {: .proof}
+###### Proof
+
+It is clear that, without any condition the Hopf algebroid, $\Gamma CoMod$ is an [[additive category]]. 
+
+We need to show that with the assumption that $\Gamma$ is flat over $A$, then this is also a [[pre-abelian category]] in that [[kernels]] and [[cokernels]] exist. Let $f \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of Hopf comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
+
+$$
+  \array{
+    N_1 &\stackrel{f}{\longrightarrow}& N_2
+    \\
+    \downarrow^{\mathrlap{\Psi_{N_1}}} && \downarrow^{\mathrlap{\Psi_{N_2}}}
+    \\
+    \Gamma \otimes_A N_1
+    &\stackrel{id_\Gamma \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A N_2
+  }
+  \,.
+$$
+
+Consider the kernel $ker(f)$ of $f$ in $A$[[Mod]] and its image under $\Gamma \otimes_A (-)$
+
+$$
+  \array{
+    ker(f) &\longrightarrow& N_1 &\stackrel{f}{\longrightarrow}& N_2
+    \\
+    \downarrow && \downarrow^{\mathrlap{\Psi_{N_1}}} && \downarrow^{\mathrlap{\Psi_{N_2}}}
+    \\
+    \Gamma \otimes_A ker(f) 
+      &\longrightarrow& 
+    \Gamma \otimes_A N_1
+      &\stackrel{id_\Gamma \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A N_2
+  }
+  \,.
+$$
+
+By the assumption that $\Gamma$ is a [[flat module]] over $A$, also $\Gamma \otimes_A ker(f) \simeq ker(\Gamma \otimes_A f)$ is a [[kernel]]. By its [[universal property]] this induces uniquely a morphism as shown on the left, making the above [[commuting diagram|diagram commute]]. This means that the $A$-module $ker(f)$ uniquely inherits the structure of a $\Gamma$-comodule such as to make $ker(f) \to N_1$ a comodule homomorphism. By the same universal property it follows that $ker(f)$ with this comodule structure is in fact the kernel of $f$ in $\Gamma CoMod$.
+
+The argument for the existence of [[cokernels]] proceeds [[formal dual|formally dually]]. Therefore it follows that the comparison morphism
+
+$$
+  coker(ker(f)) \longrightarrow ker(coker(f))
+$$
+
+formed in $\Gamma CoMod$ has underlying it the corresponding comparison morphism in $A Mod$. There this is an [[isomorphism]], hence it is an isomorphism also in $\Gamma CoMod$, and so the latter is not just a [[pre-abelian category]] but in fact an [[abelian category]] itself.
+
+=--
+
++-- {: .num_prop #CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}
+###### Proposition
+
+If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} is such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], then 
+
+1. every co-free $\Gamma$-[[comodule]], def. \ref{CoFreeComodules}, on an [[injective module]] over $A$ is an [[injective object]] in $\Gamma CoMod$;
+
+1. $\Gamma CoMod$ has [[enough injectives]] (if the [[axiom of choice]] holds in the ambient [[set theory]]).
+
+=--
+
+(e.g. [Ravenel 86, lemma A1.2.2](#Ravenel86))
+
++-- {: .proof}
+###### Proof
+
+First of all, assuming the [[axiom of choice]], then the [[category of modules]] $A Mod$ has [[enough injectives]] (see [this proposition](injective+object#AbHasEnoughInjectives)).
+Now by prop. \ref{CoFreeComodules} we have the [[adjunction]]
+
+$$
+  \Gamma CoMod
+   \stackrel{\overset{co-free}{\longleftarrow}}{\underset{forget}{\longrightarrow}}
+  A Mod
+ \,.
+$$
+
+Observe that the [[left adjoint]] is a [[faithful functor]] (being a [[forgetful functor]]) and that, by the proof of prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}, it is an [[exact functor]]. With this a standard lemma applies ([here](injective+object#TransferOfEnoughInjectivesAlongAdjunctions)) which says that
+
+1. with $I \in A Mod$ an [[injective module]], then the co-free comodule $\Gamma \otimes_A I$ is an [[injective object]] in $\Gamma CoMod$;
+
+1. for $N \in \Gamma CoMod$ any object, and for $i \colon U(N) \hookrightarrow I$ a monomorphism of $A$-modules into an injective $A$-module, then the [[adjunct]] $\tilde i \colon N \hookrightarrow \Gamma\otimes_A I$ is a monomorphism in $\Gamma CoMod$ (and into an injective comodule).
+
+=--
+
+
++-- {: .num_lemma #CoFreeHopfComodulesAreHomNAcyclicForProjectiveN}
+###### Lemma
+
+Let $\Gamma$ be a [[commutative Hopf algebroid]] over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], 
+Let $N \in \Gamma CoMod$ be a Hopf [[comodule]], def. \ref{CommutativeHopfAlgebroidComodule}, such that the underlying $A$-module is a [[projective module]] (a [[projective object]] in $A$[[Mod]]). 
+
+Then  (assuming the [[axiom of choice]]) every co-free commodule, prop. \ref{CoFreeComodules}, is an $F$-[[acyclic object]] for $F$ the [[hom functor]] $Hom_{\Gamma CoMod}(N,-)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that the [[derived functors in homological algebra|derived functors]] $R^{\bullet} Hom_{\Gamma}(N,-)$ vanish in positive degree on all co-free comodules, hence on $\Gamma \otimes_A K$, for $K \in A Mod$. 
+
+To that end, let $I^\bullet$ be an [[injective resolution]] of $K$ in $A Mod$. By prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} then $\Gamma \otimes_A I^\bullet$ is a sequence of [[injective objects]] in $\Gamma CoMod$ and by the assumption that $\Gamma$ is flat over $A$ it is an [[injective resolution]] of $\Gamma \otimes_A K$ in $\Gamma CoMod$. Therefore the derived functor in question is given by
+
+$$
+  \begin{aligned}
+    R^{\bullet \geq 1} Hom_\Gamma(N, \Gamma \otimes_A K)
+    & \simeq
+    H_{\bullet \geq 1}( Hom_\Gamma( N, \Gamma \otimes_A I^\bullet ) )
+    \\
+    & \simeq H_{\bullet \geq 1}( Hom_A(N, I^\bullet) )
+    \\
+    & \simeq 0
+  \end{aligned}
+  \,.
+$$
+
+Here the second equivalence is the cofree/forgetful adjunction isomorphism of prop. \ref{CoFreeComodules}, while the last equality then follows from the assumption that the $A$-module underlying $N$ is a [[projective module]] (since [[hom functors]] out of [[projective objects]] are [[exact functors]] ([here](projective+object#EquivalenceOfDefinitionsInAbelian)) and since derived functors of exact functors vanish in positive degree ([here](derived+functor+in+homological+algebra#DerivedFunctorOfExactFunctor))).
+
+
+=--
+
+With lemma \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence} is completed.
 
 
 #### Convergence and $E$-completion
