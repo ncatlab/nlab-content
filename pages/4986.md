@@ -36,7 +36,7 @@ When thinking of $E$ as a topos over $S$ via $f$, we say that it is a **totally 
 
 * $f$ is totally connected iff $f$ is connected and has a right adjoint in $\mathfrak{Top}$, the [[topos|2-category of toposes]] and geometric morphisms.
 
-* Totally connected geometric morphisms are orthogonal to _grouplike morphisms_ (cf. Johnstone (2002)).
+* Totally connected geometric morphisms are orthogonal to [[grouplike geometric morphism|grouplike geometric morphisms]] (cf. Johnstone (2002)).
 
 * A connected, locally connected $p:\mathcal{E}\to\mathcal{S}$ that satisfies the [[Nullstellensatz|Lawvere Nullstellensatz]] (i.e. the canonical $\theta:p_*\to p_!$ is epic) is totally connected precisely iff it is a [[quality type]] over $\mathcal{S}$ (i.e. $\theta$ is iso; cf. Johnstone (2011)).
 
