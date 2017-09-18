@@ -36,6 +36,22 @@ The [[algebra of functions]] on the space of field configurations becomes a [[Po
 
 > under construction
 
++-- {: .num_defn #PeirlsFormula}
+###### Definition
+(...)
+
+...suitable PDE with advanced/retarded [[Green's function]] $\Delta_S^{A/R}$, then the _causal Gree's function_ is their difference
+
+$$
+  \Delta_S \coloneqq \Delta_S^{R} - \Delta_S^A
+$$
+
+(...)
+
+=--
+
+([Khavkine 14, def. 3.9](#Khavkine14))
+
 ### The off-shell Peierls bracket
 
 The idea of ([Marolf 93](#Marolf93), section II) is this: 
@@ -70,7 +86,7 @@ agrees with the original one. (...)
 ###### Proposition
 **(Peierls bracket is the canonical Poisson bracket in field theory)
 
-Given a [[classical field theory]] specified by a [[field bundle]] $E \to X$ and a [[local Lagrangian density]] $L \in \Omega^{n,0}(J^\infty_X(E))$ on its [[jet bundle]], assume that its [[gauge symmetries]] are globally recognizable ([Khavine 14, section 3.2.2](#Khavine14)). Then the Peierls bracket is the [[Poisson bracket]] corresponding to the [[symplectic form]] on the [[reduced phase space|reduced]] [[covariant phase space]].
+Given a [[local Lagrangian field theory]], assume that its [[gauge symmetries]] are globally recognizable ([Khavine 14, section 3.2.2](#Khavine14)). Then the Peierls bracket (def. \ref{PeirlsFormula}) is the [[Poisson bracket]] corresponding to the [[symplectic form]] on the [[reduced phase space|reduced]] [[covariant phase space]].
 
 =--
 
