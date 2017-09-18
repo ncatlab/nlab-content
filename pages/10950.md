@@ -25,6 +25,8 @@ The [[philosophy]] of [[physics]].
 
 ## Related concepts
 
+* [[coordination]], [[measurement problem]]
+
 * [[natural philosophy]]
 
 * [[metaphysics]]
