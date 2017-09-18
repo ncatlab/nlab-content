@@ -1,10 +1,16 @@
-
-
 $$
-    (a_+,a_-)
-      \sim
-    (b_+,b_-)
-     \;\Leftrightarrow\;
-    a__+ + b_- = b_+ + a_-
-  \,.
+  \array{
+    && E_1
+    \\
+     & {}^{\mathllap{\phi^1_i \circ f_i^{-1}}}\nearrow 
+     &
+       \uparrow^{\mathrlap{f^{-1}}}
+     & \nwarrow^{\mathrlap{ \phi^1_j \circ f_j^{-1} }}
+    \\
+    U_i \times k^n
+      &\underset{\phi^2_i}{\longrightarrow}& 
+    (E_2)\vert_{U_i \cap U_i}
+      &\underset{\phi^2_j^{-1}}{\longrightarrow}&
+    U_i \times k^n
+  }
 $$
