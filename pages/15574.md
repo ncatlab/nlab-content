@@ -497,11 +497,11 @@ For further properties of quintessential localizations see at [[quality type]].
 
 ##A guide to the literature
 
-On the philosophical side, the lectures notes [Koch (2009)](#Koch09) that suggest the use of [[non-wellfounded set theory]] as interpretative tool may serve as a good general introduction to Hegel's ideas on logic and metaphysics.
+On the philosophical side, the lectures notes [Koch (2009)](#Koch09) that suggest the use of [[pure set|non-wellfounded set theory]] as interpretative tool may serve as a good general introduction to Hegel's ideas on logic and metaphysics.
 
-On the mathematical side, the book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good entry to the mathematics of Lawvere from an elementary point of view and contains even a page on the adjoint cylinder. Goldblatt's book on [[topos theory]] ([Goldblatt 1984](#Goldblatt84)) covers a good deal of ground yet rests accessible and is available online.
+On the mathematical side, the book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good general entry to the 'mathematics of Lawvere' from an elementary point of view and contains even a page on the adjoint cylinder. Goldblatt's book on [[topos theory]] ([Goldblatt 1984](#Goldblatt84)) covers a good deal of ground yet stays accessible and is available online.
 
-Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92)) with the latter containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation with the latter containing a discussion of the relevant concepts. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
+Lawvere introduced the Hegelian concepts in Lawvere ([1989b](#Law89b)). They get some attention in Lawvere ([1991a](#Law91a),[1992](#Law92),[1994a](#Law94a)) with the second containing his 'philosophical program'. By all means have a look at [Lawvere (1996)](#Law96), this together with Lawvere ([1989a](#Law89a),[1999](#Law99)) exposes his ideas on homotopy theory. The  work on graphic toposes ([1989b](#Law89b),[1991b](#Law91b),[2002](#Law02)) concerns the _Aufhebungs_ relation with the latter containing a discussion of the relevant concepts. [Kelly-Lawvere (1989)](#KL89) provides the technical prerequisites on essential localizations for _Aufhebung_.
 
 The known mathematical results on the Aufhebungs relation are contained in the paper by [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) which is based on older phd-works by some of the authors.
 
@@ -544,7 +544,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law89a} [[F. W. Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
-* {#Law89b} [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Ioowa, May 22-24 1989, Iowa City, pp.51-74. 
+* {#Law89b} [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
 
 * {#Law91a} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in Springer LNM **1488** (1991).
 
