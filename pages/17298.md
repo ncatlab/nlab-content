@@ -941,6 +941,8 @@ $$
 
 =--
 
+The following property of the maps from def. \ref{CorepresentationOfAdjunctsOfStructureMaps} to be or not to be stable weak homotopy equivalences will be the key technical fact that implies ([below](#RelatingStableEquivalencesAndStableWeakHomotopyEquivalences)) that stable equivalences of spectra are or are not the same as stable weak homotopy equivalences.
+
 +-- {: .num_lemma #AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}
 ###### Lemma
 
@@ -1011,7 +1013,7 @@ $$
   \,.
 $$
 
-By prop. ... $\lambda_n$ is a stable weak homotopy equivalence precisely if any of its [[reduced suspension|suspensions]] is. Hence consider instead $\Sigma^n \lambda_n$, whose $q$-component is (...)
+By the [suspension isomorphism](homotopy+group+of+a+spectrum#SuspensionIsomorphismOfStableHomotopyGroups) for [[stable homotopy groups]], $\lambda_n$ is a stable weak homotopy equivalence precisely if any of its [[reduced suspension|suspensions]] is. Hence consider instead $\Sigma^n \lambda_n \coloneqq S^n \wedge \lambda_n$, whose $q$-component is 
 
 $$
   (\Sigma^n\lambda_n)_q 
@@ -1022,8 +1024,7 @@ $$
   \,.
 $$
 
-
-Now observe that due to the fact that $O(q-k)$-action on $S^q$ lifts to an $O(q)$-action, the quotients of the diagonal action of $O(q-k)$ equivalently become quotients of just the left action. Formally this is due to the existence of the [[commuting diagram]]
+Now due to the fact that $O(q-k)$-action on $S^q$ lifts to an $O(q)$-action, the quotients of the diagonal action of $O(q-k)$ equivalently become quotients of just the left action. Formally this is due to the existence of the [[commuting diagram]]
 
 $$
   \array{
@@ -1067,7 +1068,9 @@ $$
   O(q)/O(q-n)
 $$
 
-is $(2q - n -1 )$-connected (...). The key here is the growth with $q$. This implies that for each $s$ there exists $q$ such that $\pi_{s+q}((\Sigma^n \lambda_n)_q)$ becomes an isomorphism. Hence $\Sigma^n \lambda_n$ is a stable weak homotopy equivalence and therefore so is $\lambda_n$.
+is $(q - n -1 )$-connected (see [here](homogeneous+space#CofiberSequencesOfCosetsOfOrthogonalGroups)). Hence its smash product with $S^q$ is $(2q - n -1 )$-connected.
+
+The key here is the fast growth of the connectivity with $q$. This implies that for each $s$ there exists $q$ such that $\pi_{s+q}((\Sigma^n \lambda_n)_q)$ becomes an isomorphism. Hence $\Sigma^n \lambda_n$ is a stable weak homotopy equivalence and therefore so is $\lambda_n$.
 
 **symmetric case**
  
@@ -1135,7 +1138,7 @@ Moreover $\mathbb{S}_{dia} Mod_{stable}$ is a
 
 ([MMSS00, theorem 9.2](#MMSS00)) 
 
-We given the proof of theorem \ref{StableModelStructuresOnDiagramSpectra} [below](#StableModelStructureOnDiagramSpectraProof), it involves the following definitions and lemmas.
+We give the proof of theorem \ref{StableModelStructuresOnDiagramSpectra} [below](#StableModelStructureOnDiagramSpectraProof), it involves the following definitions and lemmas.
 
 The generating cofibrations and acylic cofibrations are going to be the those induced via [[tensoring]] of representables from the [[classical model structure on topological spaces]] (giving the strict model structure), together with an additional set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
 
