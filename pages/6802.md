@@ -22,6 +22,8 @@ The [[D-brane]] of [[dimension]] $3+1$ in [[type IIB string theory]].
 
 For small string coupling its [[worldvolume]] theory is [[super Yang-Mills theory]]. At strong coupling it forms a [[black brane]] solution of [[type II supergravity]] with near horizon [[anti de Sitter spacetime]] geometry $AdS_5$. The relation between the two description in the [[AdS/CFT correspondence|AdS5/CFT4-correspondence]].
 
+[[!include electric-magnetic duality -- table]]
+
 ## Related concepts
 
 * [[D3-brane instanton]]
