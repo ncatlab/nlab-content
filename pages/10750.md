@@ -4085,10 +4085,332 @@ These are the objects and hom-spaces of the category $StdSpheres$. It is straigh
 
 
 
+##### Stable weak homotopy equivalences
+
++-- {: .num_defn #StableOrthStructureClassesOfMorphisms}
+###### Definition
+
+For $OrthSpec(Top_{cg})$ the category of [[orthogonal spectra]] from def. \ref{SsymModuleSymmetricSpectra} we say that
+
+1. an object $X$ is a **structured [[Omega-spectrum]]** if the underlying [[sequential spectrum]] $seq^\ast X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) is a sequential [[Omega spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum))
+
+1. a morphism $f$ is a **[[stable weak homotopy equivalence]]** (or: **$\pi_\bullet$-isomorphism**) if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] of sequential spectra ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra));
+
+1. a morphism $f$ is a **stable cofibration** if it is a cofibration in the strict model structure $OrthSpec(Top_{cg})_{strict}$ from prop. \ref{StrictModelStructureOnDiagramSpectra}.
+
+=--
+
+(e.g. [MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
+
+
++-- {: .num_lemma #DegreewiseLESofHomotopyGroupsInducedStableLES}
+###### Lemma
+
+Given a morphism $f\;\colon\; X \longrightarrow Y$ in $\mathbb{S}_{dia}Mod$, then there are [[long exact sequence]] of [[stable homotopy groups]] (def. \ref{StableOrthStructureClassesOfMorphisms}) of the form
+
+$$
+  \cdots
+   \longrightarrow
+  \pi_{\bullet + 1}(Y)
+    \overset{}{\longrightarrow}
+  \pi_\bullet(Path_\ast(f))
+    \overset{}{\longrightarrow}
+  \pi_\bullet(X)
+    \overset{f_\ast}{\longrightarrow}
+  \pi_\bullet(Y)
+    \longrightarrow
+  \pi_{\bullet-1}(Path_\ast(f))
+    \longrightarrow
+  \cdots
+$$
+
+and
+
+$$
+  \cdots
+   \longrightarrow
+  \pi_{\bullet+1}(Y)
+    \overset{}{\longrightarrow}
+  \pi_{\bullet+1}(Cone(f))
+    \overset{}{\longrightarrow}
+  \pi_\bullet(X)
+    \overset{f_\ast}{\longrightarrow}
+  \pi_\bullet(Y)
+    \longrightarrow
+  \pi_{\bullet}(Cone(f))
+    \longrightarrow
+  \cdots
+  \,,
+$$
+
+where $Cone(f)$ denotes the [[mapping cone]] and $Path_\ast(f)$ the [[mapping cocone]] of $f$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#MappingConeAndMappingCocone)) formed with respect to the standard [[cylinder spectrum]] $X \wedge (I_+)$ hence formed degreewise with respect to the standard [[reduced cylinder]] of pointed topological spaces.
 
 
 
+=--
 
+[MMSS 00, theore 7.4 (vi) ](#MMSS00)
+
++-- {: .proof}
+###### Proof
+
+Since limits and colimits in the diagram category $\mathbb{S}_{dia}Mod$ are computed objectwise, the functor $seq^\ast$ that restricts $\mathbb{S}_{dia}$-modules to their underlying [[sequential spectra]] preserves both limits and colimits, hence it is sufficient to consider the statement for sequential spectra.
+
+For the first case, there is degreewise the [[long exact sequence of homotopy groups]] to the left of pointed topological spaces ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#LongExactSequeceOfHomotopyGroups))
+
+$$
+  \cdots
+   \to
+  \pi_2(Y)
+    \longrightarrow
+  \pi_1(Path_\ast(f))
+    \longrightarrow
+  \pi_1(X)
+   \overset{f_\ast}{\longrightarrow}
+  \pi_1(Y)
+   \longrightarrow
+  \pi_0(Path_\ast(f))
+    \longrightarrow
+  \pi_0(X_n)
+    \overset{f_\ast}{\longrightarrow}
+  \pi_0(Y_n)
+  \,.
+$$
+
+Observe that the [[sequential colimit]] that defines the [[stable homotopy groups]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) preserves [[exact sequences]] of [[abelian groups]], because generally [[filtered colimits]] in [[Ab]] are [[exact functors]] ([prop.](Mod#FilteredColimitsInRModAreExact)). This implies that by taking the colimit over $n$ in the above sequences, we obtain a long exact sequence of stable homotopy groups as shown.
+
+Now use that in sequential spectra the canonical morphism morphism $Path_\ast(f) \longrightarrow \Omega Cone(f)$ is a stable weak homotopy equivalence and is compatible with the map $f$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)) so that there is a commuting diagram of the form
+
+$$
+  \array{
+    \cdots
+      &\longrightarrow&
+    \pi_{\bullet + 1}(Y)
+      &\overset{}{\longrightarrow}&
+    \pi_\bullet(Path_\ast(f))
+      &\overset{}{\longrightarrow}&
+    \pi_\bullet(X)
+      &\overset{f_\ast}{\longrightarrow}&
+    \pi_\bullet(Y)
+      &\longrightarrow&
+    \pi_{\bullet-1}(Path_\ast(f))
+      &\longrightarrow&
+    \cdots
+    \\
+      && 
+    \downarrow^{\mathrlap{=}}
+      && 
+    \downarrow^{\mathrlap{\simeq}}
+      && 
+    \downarrow^{\mathrlap{=}}
+      && 
+    \downarrow^{\mathrlap{=}}
+      && 
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \cdots
+      &\longrightarrow&
+    \pi_{\bullet + 1}(Y)
+      &\overset{}{\longrightarrow}&
+    \pi_{\bullet+1}(Cone(f))
+      &\overset{}{\longrightarrow}&
+    \pi_\bullet(X)
+      &\overset{f_\ast}{\longrightarrow}&
+    \pi_\bullet(Y)
+      &\longrightarrow&
+    \pi_{\bullet}(Cone(f))
+      &\longrightarrow&
+    \cdots
+  }
+  \,.
+$$
+
+Since the top sequence is exact, and since all vertical morphisms are isomorphisms, it follows that also the bottom sequence is exact.
+
+
+=--
+
++-- {: .num_lemma #SmashTensoringWithFiniteCellComplexPreservesSWHE}
+###### Lemma
+
+For $K \in Top^{\ast/}_{cg,fin}$ a finite CW-complex (def. \ref{FinitePointedCWComplexes}) then the operation of smash tensoring $(-) \wedge K$ preserves [[stable weak homotopy equivalences]] in $\mathbb{S}_{dia}Mod$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since limits and colimits in the diagram category $\mathbb{S}_{dia}Mod$ are computed objectwise, the functor $seq^\ast$ that restricts $\mathbb{S}_{dia}$-modules to their underlying [[sequential spectra]] preserves both limits and colimits, and it also preserves smash tensoring. Hence it is sufficient to consider the statement for sequential spectra.
+
+
+Write 
+
+$$
+  \ast = K_0 \hookrightarrow \cdots \hookrightarrow K_i \hookrightarrow K_{i+1} \hookrightarrow \cdots \hookrightarrow K
+$$ 
+
+for the stages of the [[cell complex]] $K$, so that for each $i$ there is a [[pushout]] diagram in $Top^{}_{cg}$ of the form
+
+$$
+  \array{
+    S^{n_i-1} &\longrightarrow& K_i &\longrightarrow& \ast
+    \\
+    {}^{\mathllap{}}\downarrow &(po)& \downarrow &(po)& \downarrow
+    \\
+    D^{n_i-1} &\longrightarrow& K_{i+1} &\longrightarrow& S^{n_i}
+  }  
+  \,.
+$$
+
+Equivalently these are pushoutdiagrams in $Top^{\ast/}_{cg}$ of the form
+
+$$
+  \array{
+    S^{n_i-1}_+ &\longrightarrow& K_i &\longrightarrow& \ast
+    \\
+    {}^{\mathllap{}}\downarrow &(po)& \downarrow &(po)& \downarrow
+    \\
+    D^{n_i-1}_+ &\longrightarrow& K_{i+1} &\longrightarrow& S^{n_i}
+  }  
+  \,.
+$$
+
+Notice that it is indeed $S^{n_i}$ that appears in the top right, not $S^{n_i}_+$.
+
+Now forming the smash [[tensoring]] of any morphism $f\colon X \longrightarrow Y$ in $\mathbb{S}_{dia}Mod(Top_{cg})$ by the morphisms in the pushout on the right yields a commuting diagram in $\mathbb{S}_{dia}Mod$ of the form
+
+$$
+  \array{
+    X \wedge K_i
+      &\longrightarrow&
+    X \wedge K_{i+1}
+     &\longrightarrow&
+    X \wedge S^{n_i}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    Y \wedge K_i
+      &\longrightarrow&
+    Y \wedge K_{i+1}
+     &\longrightarrow&
+    Y \wedge S^{n_i}
+  }
+  \,.
+$$
+
+Here the horizontal morphisms on the left are degreewise cofibrations in $Top^{\ast/}_{cg}$, hence the morphism on the right is degreewise their homotopy cofiber. This way lemma \ref{DegreewiseLESofHomotopyGroupsInducedStableLES} implies that there are commuting diagrams 
+
+$$
+  \array{
+    \pi_{\bullet+1}(X \wedge S^{n_i})
+      &\longrightarrow&
+    \pi_\bullet(X \wedge K_i)
+      &\longrightarrow&
+    \pi_\bullet(X \wedge K_{i+1})
+      &\longrightarrow&
+    \pi_\bullet(X \wedge S^{n_i})
+      &\longrightarrow&
+    \pi_{\bullet-1}(X \wedge K_i)
+    \\
+    \downarrow &&
+    \downarrow && \downarrow^{\mathrlap{f \wedge K_{i+1}}} && \downarrow
+    && \downarrow
+    \\
+    \pi_{\bullet+1}(Y \wedge S^{n_i})
+      &\longrightarrow&
+    \pi_\bullet(Y \wedge K_i)
+      &\longrightarrow&
+    \pi_\bullet(Y \wedge K_{i+1})
+     &\longrightarrow&
+    \pi_\bullet(Y \wedge S^{n_i})
+      &\longrightarrow&
+    \pi_{\bullet-1}(X \wedge K_i)
+  }
+  \,,
+$$
+
+where the top and bottom are [[long exact sequences]] of [[stable homotopy groups]].
+
+Now proceed by [[induction]]. For $i = 0$ then clearly smash tensoring with $K_0 = \ast$ preserves stable weak homotopy equivalences. So assume that smash tensoring with $K_i$ does, too. Observe that $(-)\wedge S^n$ preserves stable weak homotopy equivalences, since $\Sigma X[1]\to X$ is a stable weak homotopy equivalence ([lemma](Introduction+to+Stable+homotopy+theory+
+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)). Hence in the above the two vertical morphisms on the left and the two on the right are isomorphism. Now the [[five lemma]] implies that also $f \wedge K_{i+1}$ is an isomorphism. 
+
+=--
+
++-- {: .num_lemma #PushoutOfSWHEAlongDegreewiseCofibration}
+###### Lemma
+
+The pushout in $\mathbb{S}_{dia}Mod$ of a [[stable weak homotopy equivalence]] along a morphism that is degreewise a cofibration in $(Top^{\ast/}_{cg})_{Quillen}$ is again a stable weak homotopy equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Given a pushout square
+
+$$
+  \array{
+     X &\overset{g}{\longrightarrow}& Z
+     \\
+     {}^{\mathllap{f}}\downarrow &(po)& \downarrow
+     \\
+     Y &\underset{}{\longrightarrow}& Y \underset{X}{\sqcup}Z
+  }
+$$
+
+observe that the [[pasting law]] implies an isomorphism between the horizontal [[cofibers]]
+
+$$
+  \array{
+     X &\overset{g}{\longrightarrow}& Z &\longrightarrow& cofib(g)
+     \\
+     {}^{\mathllap{f}}\downarrow &(po)& \downarrow && \downarrow^{\mathrlap{\simeq}}
+     \\
+     Y &\underset{}{\longrightarrow}& Y \underset{X}{\sqcup}Z &\longrightarrow& cofib(g) 
+  }
+  \,.
+$$
+
+Moreover, since cofibrations in $(Top^{\ast/}_{cg})_{Quillen}$ are preserves by pushout, and since pushout of spectra are computed degreewise, both the top and the bottom horizontal sequences here are degreewise homotopy cofiber sequence in $(Top^{\ast/}_{cg})_{Quillen}$.  Hence lemma \ref{DegreewiseLESofHomotopyGroupsInducedStableLES} applies and gives a commuting diagram
+
+$$
+  \array{
+     \pi_{\bullet+1}(cofib(g))
+      &\longrightarrow&
+     \pi_\bullet(X) 
+       &\overset{}{\longrightarrow}& 
+     \pi_\bullet(Z) 
+       &\longrightarrow& 
+     \pi_\bullet(cofib(g))
+       &\longrightarrow&
+     \pi_{\bullet-1}(X)
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+       &&
+     {}^{\mathllap{\pi_\bullet(f)}}_{\mathllap{\simeq}}\downarrow 
+       && 
+     \downarrow 
+       && 
+     \downarrow^{\mathrlap{\simeq}}
+       &&
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     \pi_{\bullet+1}(cofib(g))
+      &\longrightarrow&
+     \pi_\bullet(Y) 
+       &\underset{}{\longrightarrow}& 
+     \pi_\bullet(Y \underset{X}{\sqcup}Z) 
+       &\longrightarrow& 
+     \pi_\bullet(cofib(g))
+       &\longrightarrow&
+     \pi_{\bullet-1}(Y)
+  }
+  \,,
+$$
+
+where the top and the bottom row are both [[long exact sequences]] of [[stable homotopy groups]]. Hence the claim now follows by the [[five lemma]].
+
+=--
 
 
 ##### Suspension spectra
@@ -5756,20 +6078,6 @@ By the very definition of the [[projective model structure on functors]] ([thm.]
 
 
 
-+-- {: .num_defn #StableOrthStructureClassesOfMorphisms}
-###### Definition
-
-For $OrthSpec(Top_{cg})$ the category of [[orthogonal spectra]] from def. \ref{SsymModuleSymmetricSpectra} we say that
-
-1. an object $X$ is a **structured [[Omega-spectrum]]** if the underlying [[sequential spectrum]] $seq^\ast X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) is a sequential [[Omega spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum))
-
-1. a morphism $f$ is a **[[stable weak homotopy equivalence]]** (or: **$\pi_\bullet$-isomorphism**) if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] of sequential spectra ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra));
-
-1. a morphism $f$ is a **stable cofibration** if it is a cofibration in the strict model structure $OrthSpec(Top_{cg})_{strict}$ from prop. \ref{StrictModelStructureOnDiagramSpectra}.
-
-=--
-
-(e.g. [MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
 
 
 +-- {: .num_theorem #OrthogonalSpectraStableModelStructure}
@@ -5872,7 +6180,7 @@ for the [[disjoint union]] of the strict acyclic generating cofibration with the
 +-- {: .num_lemma #ElementsOfKAreStableEquivalencesAndStrictCofibrations}
 ###### Lemma
 
-Every element in $J^{stable}_{\mathbb{S}_{dia}Mod(Top_{cg})}
+Let $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Seq\}$ (but not $Sym$). Then every element in $J^{stable}_{\mathbb{S}_{dia}Mod(Top_{cg})}
 $ (def. \ref{StableGeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) is both:
 
 1. a cofibration with respect to the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra});
@@ -5886,9 +6194,12 @@ $ (def. \ref{StableGeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra})
 
 First regarding strict cofibrations: By the [[Yoneda lemma]], the elements in $J$ have [[right lifting property]] against the strict fibrations, hence in particular they are strict cofibrations. Moreover, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^{\Box i}$. By prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} the latter is still a strict acyclic fibration. Since $k_n$ by construction is a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
 
-Regarding stable weak homotopy equivalences: The morphisms in $J^{strict}$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. Similarly, the morphisms $k_n$ by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalence}and by [[two-out-of-three]] are stable weak homotopy equivalences.
+Regarding stable weak homotopy equivalences: The morphisms in $J^{strict}$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. The morphisms $k_n$ are stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} and by [[two-out-of-three]].
 
-To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 99, p.46](#May99)): first $k_n \wedge (S^{n-1})_+$ is still a stable weak homotopy equivalence, by prop. \ref{SmashTensoringWithCellComplexIsLeftQuillen}. The restriction functor $seq^\ast$ preserves pushouts and so we need to check that the pushout of the underlying morphism of sequential spectra is still a stable weak homotopy equivalence. (...)
+To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 99, p.46](#May99)): 
+
+First $k_n \wedge (S^{n-1})_+$ is still a stable weak homotopy equivalence, by lemma. \ref{SmashTensoringWithFiniteCellComplexPreservesSWHE}. This implies by lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} that its pushout along $dom(k_n)\wedge i_+$ is still a stable weak homtopy equivalence, and so $k_n \Box i_+$ is by [[two-out-of-three]].
+
 
 =--
 
@@ -5898,9 +6209,9 @@ The point of the class $K$ in def. \ref{GeneratingAndGeneratingAcyclicCofibratio
 +-- {: .num_lemma #KInjectivesAreAcyclicCofibrations}
 ###### Lemma
 
-A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $K$-[[injective morphism]] (for $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) precisely if 
+A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $J^{stable}$-[[injective morphism]] (for $K$ from def. \ref{StableGeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) precisely if 
 
-1. it is a fibration in the strict model structure (hence degreewise a fibration)
+1. it is a fibration in the strict model structure (hence degreewise a fibration);
 
 1. for all $n \in \mathbb{N}$ the [[commuting squares]] of structure map compatibility on the underlying [[sequential spectra]] 
 
@@ -5914,7 +6225,7 @@ A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $K$-[[injective mor
      }
    $$
 
-   exhibit [[homotopy pullbacks]].  
+   are [[homotopy pullbacks]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)).  
 
 =--
 
@@ -5923,14 +6234,14 @@ A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $K$-[[injective mor
 +-- {: .proof}
 ###### Proof
 
-By prop \ref{CofibrantGenerationOfStrictModelStructure}, lifting against $F J$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]], equivalent to left lifting $i_+$ against the dual pullback product of $f^{\Box k_n}$, which means that $f^{\Box k_n}$ is a weak homotopy equivalence. But by construction (lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}) $f^{\Box k_n}$ is the comparison morphism into the homotopy pullback under consideration. 
+By prop \ref{CofibrantGenerationOfStrictModelStructure}, lifting against $J^{strict}$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]], equivalent to left lifting $i_+$ against the dual pullback product of $f^{\Box k_n}$, which means that $f^{\Box k_n}$ is a weak homotopy equivalence. But by construction of $k_n$ and by lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, $f^{\Box k_n}$ is the comparison morphism into the homotopy pullback under consideration. 
 
 =--
 
 +-- {: .num_cor #KInjectivesObjectsAreOmegaSpectra}
 ###### Corollary
 
-The $K$-[[injective objects]] (for $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) are precisely the [[Omega-spectra]], def. \ref{StableEquivalencesForDiagramSpectra}.
+The $J^{stable}$-[[injective objects]] are precisely the [[Omega-spectra]] (def. \ref{StableOrthStructureClassesOfMorphisms}).
 
 =--
 
@@ -5940,9 +6251,9 @@ The $K$-[[injective objects]] (for $K$ from def. \ref{GeneratingAndGeneratingAcy
 
 A morphism in $\mathbb{S}_{dia}Mod$ which is both 
 
-1. a stable equivalence (def. \ref{StableEquivalencesForDiagramSpectra});
+1. a stable weak homotopy equivalence (def. \ref{StableOrthStructureClassesOfMorphisms});
 
-1. a $K$-[[injective morphisms]] (with respect to $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) 
+1. a $J^{stable}$-[[injective morphisms]]
 
 is an acyclic fibration in the strict model structure of prop. \ref{StrictModelStructureOnDiagramSpectra}, hence is degreewise a [[weak homotopy equivalence]] and [[Serre fibration]] of topological spaces;
 
@@ -5953,11 +6264,10 @@ is an acyclic fibration in the strict model structure of prop. \ref{StrictModelS
 +-- {: .proof}
 ###### Proof
 
-Let $f\colon X \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains, by prop. \ref{CofibrantGenerationOfStrictModelStructure}, the generating acyclic cofibrations for the strict model structure of prop. \ref{StrictModelStructureOnDiagramSpectra}, $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the fiber $F$ of $f$ is its [[homotopy fiber]] in the strict model structure. 
+Let $f\colon X \to B$ be both a stable weak homotopy equivalence as well as a $J^{stable}$-injective morphism. Since $J^{stable}$ contains, by prop. \ref{CofibrantGenerationOfStrictModelStructure}, the generating acyclic cofibrations for the strict model structure of prop. \ref{StrictModelStructureOnDiagramSpectra}, $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the fiber $F$ of $f$ is its [[homotopy fiber]] in the strict model structure. 
 
 
-We claim now that $F \to \ast$ is a stable weak homotopy equivalence. This is because of the long exact sequence
-
+Hence by lemma \ref{DegreewiseLESofHomotopyGroupsInducedStableLES} there is an [[exact sequence]] of [[stable homotopy groups]] of the form
 
 $$
   \pi_{\bullet+1}(X)
@@ -5969,24 +6279,26 @@ $$
   \pi_\bullet(X) 
     \overset{\pi_\bullet(f)}{\longrightarrow}
   \pi_\bullet(Y)
+  \,.
 $$
 
-and the assumption that $\pi_\bulllet(f)$ is an iso.
+By exactness and by the assumption that $\pi_\bullet(f)$ is an isomorphism, this implies that $\pi_\bullet(F) \simeq 0$, hence that $F\to \ast$ is a stable weak homotopy equivalence.
 
 
-Observe also that $F$, being the pullback of a $K$-injective morphisms (by the standard [closure properties](injective+or+projective+morphism#ClosureProperties)) is a $K$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Together this implies with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+
+Observe also that $F$, being the pullback of a $J^{stable}$-injective morphisms (by the standard [closure properties](injective+or+projective+morphism#ClosureProperties)) is a $J^{stable}$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Since stable weak homotopy equivalences between Omega-spectra are already degreewise weak homotopy equivalences, together this says that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
 
 
-To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that, by assumption of $K$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrations} gives that $f_n$ is a homotopy pullback (in topological spaces) of $\Omega (f_{n+1})$. But, by the above, $\Omega (f_{n+1})$ is a weak homotopy equivalence, since $\pi_\bullet(\Omega(-)) = \pi_{\bullet+1}(-)$. Therefore $f_n$ is the homotopy pullback of a weak homotopy equivalence and hence itself a weak homotopy equivalence.
+To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that, by assumption of $J^{stable}$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrations} gives that $f_n$ is a homotopy pullback (in topological spaces) of $\Omega (f_{n+1})$. But, by the above, $\Omega (f_{n+1})$ is a weak homotopy equivalence, since $\pi_\bullet(\Omega(-)) = \pi_{\bullet+1}(-)$. Therefore $f_n$ is the homotopy pullback of a weak homotopy equivalence and hence itself a weak homotopy equivalence.
 
 =--
 
 +-- {: .num_lemma #RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations}
 ###### Lemma
 
-For $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}  the [[retracts]] of $K$-[[relative cell complexes]] are precisely the morphisms which are
+The [[retracts]] of $J^{stable}$-[[relative cell complexes]] are precisely the morphisms which are
 
-1. stable weak homotopy equivalences (def. \ref{StableEquivalencesForDiagramSpectra}), 
+1. stable weak homotopy equivalences (def. \ref{StableOrthStructureClassesOfMorphisms}), 
 
 1. as well as cofibrations with respect to the strict model structure  of prop. \ref{StrictModelStructureOnDiagramSpectra}.
 
@@ -5998,9 +6310,9 @@ For $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpect
 +-- {: .proof}
 ###### Proof
 
-Since all elements of $K$ are stable weak homotopy equivalences and strict cofibrations by lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrations}, it follows that every retract of a relative $K$-cell complex has the same property.
+Since all elements of $J^{stable}$ are stable weak homotopy equivalences as well as strict cofibrations by lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrations}, it follows that every retract of a relative $K$-cell complex has the same property.
 
-In the other direction, if $f$ is a stable weak homotopy equivalence and a strict cofibration, by the [[small object argument]] it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $K$-cell complex $i$ followed by a $K$-[[injective morphism]] $p$. By the previous statement $i$ is a stable weak homotopy equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] implies that $f$ is a retract of the relative $K$-cell complex $i$.
+In the other direction, if $f$ is a stable weak homotopy equivalence and a strict cofibration, by the [[small object argument]] it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $J^{stable}$-cell complex $i$ followed by a $J^{stable}$-[[injective morphism]] $p$. By the previous statement $i$ is a stable weak homotopy equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] implies that $f$ is a retract of the relative $K$-cell complex $i$.
 
 
 =--
@@ -6008,8 +6320,8 @@ In the other direction, if $f$ is a stable weak homotopy equivalence and a stric
 +-- {: .num_cor #KInjectivesAreIndeedTheStableFibrations}
 ###### Corollary
 
-For $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}  the $K$-[[injective morphisms]] are precisely those which are
-[[injective morphism|injective]] with respect to the cofibrations of the strict model structure that are also stable equivalences.
+The $J^{stable}$-[[injective morphisms]] are precisely those which are
+[[injective morphism|injective]] with respect to the cofibrations of the strict model structure that are also stable weak homotopy equivalences.
 
 =--
 
@@ -6019,13 +6331,13 @@ For $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpect
 +-- {: .num_lemma #StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations}
 ###### Lemma
 
-A morphism in $\mathbb{S}_{dia}Mod$ is both
+A morphism in $\mathbb{S}_{dia}Mod$ (for $Diq \neq Sym$) is both
 
 1. a stable weak homotopy equivalence (def. \ref{StableEquivalencesForDiagramSpectra})
 
-1. [[injective morphism|injective]] with respect to the cofibrations of the strict model structure that are also stable equivalences;
+1. [[injective morphism|injective]] with respect to the cofibrations of the strict model structure that are also stable weak homotopy equivalences;
 
-precisely if it is an acylic fibration in the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}).
+precisely if it is an acylic fibration in the strict model structure of theorem \ref{StrictModelStructureOnDiagramSpectra}.
 
 =--
 
@@ -6034,9 +6346,9 @@ precisely if it is an acylic fibration in the strict model structure (prop. \ref
 +-- {: .proof}
 ###### Proof
 
-Every acyclic fibration in the strict model structure is injective with respect to strict cofibrations by the strict model structure; and it is a stable equivalence by item 1 of prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences}.
+Every acyclic fibration in the strict model structure is injective with respect to strict cofibrations by the strict model structure; and it is a clearly a stable weak homotopy equivalence.
 
-Conversely, a morphism injective with respect to strict cofibrations that are stable weak homotopy equivalences is a $K$-[[injective morphism]] by corollary \ref{KInjectivesAreIndeedTheStableFibrations}, and hence if it is also a stable equivalence then by lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} it is a strict acylic fibration.
+Conversely, a morphism injective with respect to strict cofibrations that are stable weak homotopy equivalences is a $J^{stable}$-[[injective morphism]] by corollary \ref{KInjectivesAreIndeedTheStableFibrations}, and hence if it is also a stable equivalence then by lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} it is a strict acylic fibration.
 
 =--
 
