@@ -282,6 +282,8 @@ different morphisms $\mathbf{3} \to \mathbf{2}$, corresponding to the four funct
 1. $f(0) = f(1) = f(2) = 0$
 1. $f(0) = f(1) = f(2) = 1$
 
+A more direct [[bijective proof]] of the identity $|\Delta_a(\mathbf{m},\mathbf{n})| = \binom{n+m-1}{m}$ is also possible: see [this comment](http://nforum.ncatlab.org/discussion/3636/number-of-morphisms-in-the-simplex-category/?Focus=29835#Comment_29835) on the nForum.
+
 As some interesting special cases, taking $m=n$ gives the number of monotone endofunctions on $\mathbf{n}$ (OEIS sequence [A088218](https://oeis.org/A088218), or [A001700](https://oeis.org/A001700) if we consider endomorphisms $[n] \to [n] \in \Delta$), while taking $m=2$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
 
 ## Related constructions ##
