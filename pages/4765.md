@@ -15,7 +15,7 @@
 
 ## Idea 
 
-For each of various classical types of [[algebras]], like [[associative algebra|associative]], [[Lie algebra|Lie]], [[Liebniz algebra|Leibniz]], [[commutative algebra|commutative]] and so on, one can form a version where the required identities hold only up to [[homotopy]]. The most important modification is that the required identities hold up to *coherent* homotopy; such were traditionally called _strong homotopy algebras_. If $P$ is an [[operad]] in some homotopical context then to obtain the homotopy generalization of $P$-[[algebra of an operad|algebras]], one needs to [[resolution|resolve]] the operad $P$ to an appropropriate replacement $P_\infty$ which is minimal or cofibrant in certain sense. 
+For each of various classical types of [[algebras]], like [[associative algebra|associative]], [[Lie algebra|Lie]], [[Leibniz algebra|Leibniz]], [[commutative algebra|commutative]] and so on, one can form a version where the required identities hold only up to [[homotopy]]. The most important modification is that the required identities hold up to *coherent* homotopy; such were traditionally called _strong homotopy algebras_. If $P$ is an [[operad]] in some homotopical context then to obtain the homotopy generalization of $P$-[[algebra of an operad|algebras]], one needs to [[resolution|resolve]] the operad $P$ to an appropropriate replacement $P_\infty$ which is minimal or cofibrant in certain sense. 
 
 
 ## Terminology in the case of dg-operads
