@@ -19,11 +19,14 @@
 {: toc}
 
 ## Idea
-Since every [[adjunction]] gives rise to a [[monad]] on the domain of its left adjoint, we might ask if every monad can be construed as arising from an adjunction. This is in fact true, and the [[initial object|initial]] such adjunction in the [[adjoint functor#RelationToMonads|category of adjunctions]] for the given monad has the Kleisli category as the codomain of its left adjoint.
 
-More precisely, a [[monad]] $T$ on some [[category]] $\mathcal{C}$, the _Kleisli category_ of $T$ has as [[objects]] the objects of $\mathcal{C}$, but a morphism $X \to Y$ in the Kleisli category is a morphism $X \to T(Y)$ in $\mathcal{C}$. The monad structure induces a natural [[composition]] of such "$T$-shifted" morphisms.
+Given a [[monad]] $T$ on some [[category]] $\mathcal{C}$, then its _Kleisli category_ is the [[full subcategory]] of the [[Eilenberg–Moore category]] of $T$, hence the category of [[algebras over a monad|T-algebras]], on those that are _[[free construction|free]]_ [[algebra for a monad|T-algebras]] (free $T$-[[modules]]).
 
-Equivalently, the Kleisli category is the full [[subcategory]] of the [[Eilenberg–Moore category]] of $T$ on the [[free construction|free]] [[algebra for a monad|T-algebras]] (the free $T$-[[modules]]).
+Explicitly one may describe the _Kleisli category_ of $T$ to have as [[objects]] the objects of $\mathcal{C}$, and a morphism $X \to Y$ in the Kleisli category is a morphism in $\mathcal{C}$ of the form $X \to T(Y)$ in $\mathcal{C}$. The monad structure induces a natural [[composition]] of such "$T$-shifted" morphisms.
+
+The Kleisli category is also characterized by the following [[universal property]]:
+
+Since every [[adjunction]] gives rise to a [[monad]] on the [[domain]] of its [[left adjoint]], we might ask if every monad may be construed as arising from an adjunction. This is in fact true, and the [[initial object|initial]] such adjunction in the [[adjoint functor#RelationToMonads|category of adjunctions]] for the given monad has the Kleisli category as the codomain of its left adjoint.
 
 
 ## Definition
