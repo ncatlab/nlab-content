@@ -462,36 +462,15 @@ See also the references at _[[relation between type theory and category theory]]
 
 The basic [[Coq]]-code libraries that set up [[identity types]] and the resulting homotopy type theory are at
 
-* [https://github.com/HoTT/HoTT/tree/master/theories](https://github.com/HoTT/HoTT/tree/master/theories)
+* [[Vladimir Voevodsky]], _Experimental library of univalent formalization of mathematics_ ([arXiv:1401.0053](http://arxiv.org/abs/1401.0053)) [github](https://github.com/UniMath/)
 
-* [[Vladimir Voevodsky]], _Experimental library of univalent formalization of mathematics_ ([arXiv:1401.0053](http://arxiv.org/abs/1401.0053))
+* _The HoTT Library: A formalization of homotopy type theory in Coq_, 
+Andrej Bauer, Jason Gross, Peter LeFanu Lumsdaine, Mike Shulman, Matthieu Sozeau, Bas Spitters, 2016 [arxiv](https://arxiv.org/abs/1610.04591) and on [github](https://github.com/HoTT/HoTT/wiki)
+
 
 A slightly more human readable version is collected as a single pdf in
 
 * _HoTT-Coq code_ ([[HoTT-Coq-code.pdf:file]]) .
-
-A collection of all this code equipped with html-functionality that does display also the proofs (which otherwise only display when the code is loaded into a Coq-system) is at 
-
-* _[Proviola/HoTT](http://mws.cs.ru.nl/proviola/HoTT/)_ .
-
-A further translation of these proofs into ordinary text is in 
-
-
-* Carlo Angiuli, _Univalence implies function extensionality_ ([pdf](http://hottheory.files.wordpress.com/2011/12/hott.pdf))
-
-More is in the repositories of various authors:
-
-* [[Andrej Bauer]], ([GitHub](https://github.com/andrejbauer/Homotopy))
-
-* [[Peter LeFanu Lumsdaine]], ([GitHub](https://github.com/peterlefanulumsdaine/Oberwolfach-explorations))
-
-* [[Mike Shulman]] and others, _Higher inductive types_ ([GitHub](https://github.com/HoTT/HoTT/tree/master/Coq/HIT))
-
-* [[Mike Shulman]], _Reflective subcategories and cohesive toposes_ ([GitHub](https://github.com/mikeshulman/HoTT/tree/master/Coq/Subcategories))
-
-* [[Vladimir Voevodsky]], _Foundations_ ([GitHub](https://github.com/vladimirias/Foundations/))
-
-
 
 [[!redirects homotopy type theory]]
 [[!redirects (∞,1)-type theory]]
