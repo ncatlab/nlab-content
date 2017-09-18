@@ -23,20 +23,22 @@ In traditional mathematics and [[set theory]], the [[category]] [[Set]] of all [
 
 ## Definition
 
+There are various notions of predicative topos in the literature (see references below); here we discuss the notion advocated by [[Benno van den Berg]]. 
+
 +-- {: .num_defn }
 ###### Definition
 
-A **predicative topos** is a [[ΠW-pretopos]] satisfying the [[axiom of multiple choice]].
+A **predicative topos** is a [[ΠW-pretopos]] satisfying [[WISC]].
 
 =--
 
-This is ([van den Berg, def. 6.1](#vdBerg)).
+This is ([van den Berg, def. 6.1](#vdBerg)), who however calls what we call WISC the "axiom of multiple choice", and the usual [[axiom of multiple choice]] the "strong axiom of multiple choice".
 
 
 +-- {: .num_remark }
 ###### Remark
 
-The [[axiom of multiple choice]] appears in different strengths in the literature, see at _[[WISC]]_. Accordingly there is the notion of strong/weak predicative topos if it satisfies the strong/weak version of this axiom.
+In other words, the [[axiom of multiple choice]] appears in different strengths in the literature; see at _[[WISC]]_. Accordingly there is the notion of strong/weak predicative topos if it satisfies the strong/weak version of this axiom; van den Berg's notion of predicative topos is the weak version.
 
 =--
 
@@ -49,7 +51,7 @@ A [[category]] of [[internal sheaves]] over an [[internal site]] in a predicativ
 
 =--
 
-This is ([van den Berg, therem 7.5](#vdBerg)), using [vdBerg-Moerdijk, theorem 4.21](#vdBergMoerdijk)
+This is ([van den Berg, theorem 7.5](#vdBerg)), using [vdBerg-Moerdijk, theorem 4.21](#vdBergMoerdijk)
 
 
 ## Examples
