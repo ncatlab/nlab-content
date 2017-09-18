@@ -103,7 +103,7 @@ In the unitization $\mathbb{Z} \oplus A$ we have $(n,0) + (0,a) = (n,a)$ and hen
 
 ###### Remark
 
-One can also think of the unitisation as the quotient of the polynomial ring "$A[x]$" ($A$ "with a generic element adjoined", i.e. a term algebra) quotiented by the relations $ax - a = 0, xa - a = 0$, so that this $x$ must be a right and left identity for multiplication $a$. Cosets must be represented by expressions of the form $a + nx$; this provides an obvious isomorphism to the above definition, and motivates the multiplication defined above.
+One can also think of the unitisation as the quotient of the polynomial ring "$A[x]$" ($A$ "with a generic element adjoined", i.e. a term algebra) quotiented by the relations $ax - a = 0, xa - a = 0$, so that this $x$ must be a right and left identity for multiplication $a$. Cosets must be represented by expressions of the form $a + nx$; this provides an obvious isomorphism to the above definition, and motivates the multiplication for $\mathbb{Z} \oplus A$ above.
 
 =--
 
