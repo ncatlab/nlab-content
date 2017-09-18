@@ -1,20 +1,36 @@
-
 $$
   \array{
-     \widehat{\flat \mathbf{B}^n \mathbb{R}}_\bullet &\longrightarrow& \widehat{(\flat \mathbf{B}^{n}(\mathbb{R}/\mathbb{Z}))}_\bullet &\longrightarrow& 0
-     \\
-     \downarrow && \downarrow && \downarrow^{}
-     \\
-     \mathbf{\Omega}^{\bullet \leq n}
-     &\longrightarrow& (\mathbf{B}^n U(1)_{conn})_\bullet
-     &\stackrel{(F_{(-)}_\bullet)}{\longrightarrow}&
-     \mathbf{\Omega}^{n+1}_{cl}
-     \\
-     && \downarrow^{\mathrlap{DD_\bullet}} && \downarrow^{\mathrlap{\iota_\bullet}}
-     \\     
-     && \widehat{(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
-     &\stackrel{\widehat{ch}_\bullet}{\longrightarrow}&
-     \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+    0 & && && && & 0
+    \\
+    & \searrow && && &&  \nearrow 
+    \\
+    && \Omega^{n}(X)/\Omega^n_{int}(X) && \stackrel{\mathbf{d}}{\longrightarrow} &&  \Omega^{n+1}_{cl}(X)
+    \\
+    & \nearrow && \searrow^{\mathrlap{a}} && {}^{\mathllap{F_{(-)}}}\nearrow && \searrow
+    \\
+    H^{n}(X, \mathbb{R})
+    && &&
+    H^{n+1}_{conn}(X,\mathbb{Z})
+    && &&
+    H^{n+1}(X,\mathbb{R})
+    \\
+    & \searrow && \nearrow && \searrow^{\mathrlap{DD}} && \nearrow
+    \\
+    && H^{n}(X,U(1)) && \underset{\beta}{\longrightarrow} && H^{n+1}(X,\mathbb{Z})
+    \\
+    & \nearrow && && &&  \searrow 
+    \\
+    0 & && && && & 0
+    \\
+    \\
+    &&  {{connection\;forms} \atop {on\;trivial\;bundles}} && \stackrel{de\;Rham\;differential}{\longrightarrow} && curvature\;forms
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{de\;Rham\;theorem}}
+    \\
+    flat\;differential\;forms  && && geometric\;bundles\;with \;connection && && rationalized\;bundle
+    \\
+    & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
+    \\
+    && geometric\;bundles\;with\;flat\;connection && \underset{Bockstein\,homomorphism}{\longrightarrow} && shape\;of\;bundle
   }
-  \,.
 $$
