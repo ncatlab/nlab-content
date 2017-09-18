@@ -43,7 +43,7 @@ The motivation for the terminology stems from the observation that the compactne
 
 As the compactness theorem is arguably the most fundamental result of model theory, there are too many examples of its use for us to do it much justice here. But perhaps a few examples here will help illustrate some typical uses. 
 
-### Total orders 
+### Total orders {#totalorder}
 
 +-- {: .num_prop #total} 
 ###### Proposition 
