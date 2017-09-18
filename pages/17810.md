@@ -732,9 +732,9 @@ $$
   \,.
 $$
 
-Therefore for classifying just the symmetric braidings, it is sufficient to restrict the [[hom-spaces]] in $Line(Vect^{\mathbb{Z}/2})$ from being either $k$ or empty, to [[hom-sets]] being $\mathbb{Z}/2 = \{+1-1\} \hookrightarrow k$ or empty. Write $\widetilde{Line}(sVect)$ for the resulting [[2-group]].
+Therefore for classifying just the symmetric braidings, it is sufficient to restrict the [[hom-spaces]] in $Line(Vect^{\mathbb{Z}/2})$ from being either $k$ or empty, to [[hom-sets]] being $\mathbb{Z}/2 = \{+1-1\} \hookrightarrow k$ or empty. Write $\widetilde{Line}(Vect^{\mathbb{Z}/2})$ for the resulting [[2-group]].
 
-In conclusion then the [[equivalence classes]] of possible [[k-invariants]] of $B^3 Line(sVect)$, hence the possible symmetric braiding on $Line(Vect^{\mathbb{Z}/2})$ are in the degree-4 [[ordinary cohomology]] of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}/2,3)$ with [[coefficients]] in $\mathbb{Z}/2$. One finds (...)
+In conclusion then the [[equivalence classes]] of possible [[k-invariants]] of $B^3 Line(Vect^{\mathbb{Z}/2})$, hence the possible symmetric braiding on $Line(Vect^{\mathbb{Z}/2})$ are in the degree-4 [[ordinary cohomology]] of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}/2,3)$ with [[coefficients]] in $\mathbb{Z}/2$. One finds (...)
 
 
 $$
@@ -744,6 +744,25 @@ $$
   \,.
 $$
 
+
+=--
+
+
++-- {: .num_defn #CategoryOfSuperVectorSpaces}
+###### Definition
+
+The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
+
+* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
+
+* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
+
+$$
+  sVect_k
+    \;\coloneqq\;
+  (Vect_k^{\mathbb{Z}/2}, \otimes = \otimes_k, 1 = k, \tau = \tau^{super} )
+  \,.
+$$
 
 =--
 
@@ -777,23 +796,7 @@ It has been suggested (in [Kapranov 15](super+algebra#Kapranov15)) that this and
 
 =--
 
-+-- {: .num_defn #CategoryOfSuperVectorSpaces}
-###### Definition
 
-The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
-
-* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
-
-* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
-
-$$
-  sVect_k
-    \;\coloneqq\;
-  (Vect_k^{\mathbb{Z}/2}, \otimes = \otimes_k, 1 = k, \tau = \tau^{super} )
-  \,.
-$$
-
-=--
 
 The following is evident but important
 
@@ -1891,7 +1894,7 @@ See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy
 
 =--
 
-The following is an elementary but fundamental fact about the relation between 
+The following is an elementary but fundamental fact about the relation between
 commutative algbra and supercommutative superalgebra. It is implicit in much of the
 literature, but maybe the only place where it has been made explicit before is
 ([Carchedi-Roytenberg 12, example 3.18](#CarchediRoytenberg12)).
@@ -1914,15 +1917,15 @@ $$
 
 of [[commutative algebras]] (example \ref{MonoidsInVectAreAssociativeAlgebras})
 into [[supercommutative superalgebras]] (def. \ref{SupercommutativeSuperalgebra})
-induced via prop. \ref{MonoidsPreservedByLaxMonoidalFunctor} from the full inclusion 
+induced via prop. \ref{MonoidsPreservedByLaxMonoidalFunctor} from the full inclusion
 
 $$
   i \;\colon\; Vectk \hookrightarrow sVect_k
 $$
 
-of [[vector spaces]] (def. \ref{VectorSpaces}) into [[super vector spaces]] 
+of [[vector spaces]] (def. \ref{VectorSpaces}) into [[super vector spaces]]
 (def. \ref{CategoryOfSuperVectorSpaces}), which is a [[braided monoidal functor]]
-by prop. \ref{InclusionOfVectorSpacesIntoSupervectorSpaces}. Hence this regards a 
+by prop. \ref{InclusionOfVectorSpacesIntoSupervectorSpaces}. Hence this regards a
 commutative algebra as a superalgebra concentrated in even degree.
 
 This inclusion functor has both a [[left adjoint|left]] [[adjoint functor]] and a [[right adjoint|right]] [[adjoint functor]] ,
@@ -1938,7 +1941,7 @@ $$
   \,.
 $$
 
-Here 
+Here
 
 1. the [[right adjoint]] $(-)_{even}$ sends a supercommutative superalgebra to its even part $A \mapsto A_{even}$;
 
@@ -1950,18 +1953,18 @@ Here
 ###### Proof
 
 The full inclusion $i$ is evident. To see the [[adjunctions]] observe their characteristic
-[[natural bijections]] between [[hom-sets]]: 
+[[natural bijections]] between [[hom-sets]]:
 If $A_{ordinary}$ is an ordinary commutative algebra regarded as a superalgeba $i(A_{ordinary})$ concentrated in even degree,
-and if $B$ is any superalgebra, 
+and if $B$ is any superalgebra,
 
 1. then every super-algebra homomorphism of the form $A_{ordinary} \to B$ must factor
    through $B_{even}$, simply because super-algebra homomorpism by definition respect the $\mathbb{Z}/2$-grading. This gives a natual bijection
-   
+
    $$
      Hom_{sCAlg_k}(i(A_{ordinary}), B) \simeq Hom_{CAlg_k}(A_{ordinary,B_{even}})
      \,,
    $$
-   
+
 1. every super-algebra homomorphism of the form $B \to i(A_{ordinary})$ must send every odd element of $B$ to 0, again because homomorphism have to respect the $\mathbb{Z}/2$-grading, and since homomorphism of course also preserve products, this means that the entire ideal generated by $B_{odd}$ must be sent to zero, hence the homomorphism must facto through the [[projection]] $B \to B/B_{odd}$, which gives a natural bijection
 
    $$
@@ -2005,13 +2008,27 @@ for the same object, regarded in the category of commutative monoids. We also ca
 
 =--
 
++-- {: .num_defn #AffineSuperSchemes}
+###### Definition
+
+For the special case that $\mathal{C} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces})
+in def. \ref{Affines}, then we say that the objects in 
+
+$$
+  Aff(sVect_k) = scAlg_k^{op} =  CMon(sVect_k)^{op}
+$$
+
+are **affine [[super schemes]]** over $k$.
+
+=--
+
 +-- {: .num_example #OrdinaryCAlgAssCAlg}
 ###### Example
 
 For $A \in CAlg_{\mathbb{R}}$ an ordinary [[commutative algebra]] over $\mathbb{R}$,
-then of course this isbecomes a [[supercommutative superalgebra]] by regarding it
-as being concentrated in even degrees. Accordingly, ordinary [[affine schemes]]
-[[full subcategory|fully embed]] into affine [[super schemes]]
+then of course this becomes a [[supercommutative superalgebra]] by regarding it
+as being concentrated in even degrees. Accordingly, via def. \ref{Affines}, ordinary [[affine schemes]]
+[[full subcategory|fully embed]] into affine [[super schemes]] (def. \ref{AffineSuperSchemes})
 
 $$
   Aff(Vect_k)
