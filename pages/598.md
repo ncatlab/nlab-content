@@ -679,37 +679,38 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 A standard reference for the case of _abelian_ simplicial groups is [chapter 5](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi) of
 
-* [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
-{#GoerssJardine}
+* {#GoerssJardine} [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+
 
 Also chapter IV of
 
-* [[Peter May]], _Simplicial Objects in Algebraic Topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)).
-  {#MaySimplicialObjects}
+* {#MaySimplicialObjects} [[Peter May]], _Simplicial Objects in Algebraic Topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)).
+  
 
 and chapter 8 of
 
-* [[Charles Weibel]], _An introduction to homological algebra_ Cambridge (1994)
- {#Weibel}
+* {#Weibel} [[Charles Weibel]], _An introduction to homological algebra_ Cambridge (1994)
+ 
 
 The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. 
 
 This proof that simplicial groups are Kan complexes is originally due to theorem 3.4 in 
 
-* [[John Moore]],  _Semi-Simplicial Complexes And Postnikov Systems, in _Symposium International De
-Topologia Algebraica_ , 1956 conference, book published in 1958
+* [[John Moore]],  _Semi-Simplicial Complexes And Postnikov Systems, in _Symposium International De Topologia Algebraica_ , 1956 conference, book published in 1958
 
 which apears in more detail as  theorem 3 on p. 18-04 of
 
-* [[John Moore]], _Homotopie des complexes monoideaux, I_ , Seminaire Henri Cartan, 1954-55. ([numdam](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)) 
- {#Moore54}
-
+* {#Moore54} [[John Moore]], _Homotopie des complexes monoideaux, I_ , Seminaire Henri Cartan, 1954-55. ([numdam](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)) 
+ 
 and is often attributed to
 
-* [[John Moore]], _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
- {#Moore}
-
+* {#Moore} [[John Moore]], _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
+ 
 In fact, it seems that this is the origin of the very notion of [[Kan complex]].
+
+A proof is also also on p. 14 of
+
+* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] chapter I of _An introduction to simplicial homotopy theory_, 2005  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01))
 
 
 Section 1.3.3 of
@@ -717,7 +718,6 @@ Section 1.3.3 of
 * [[Tim Porter]], _[[Tim Porter:crossed menagerie|The Crossed Menagerie]]_ 
 
 discusses simplicial groups in the context of [[nonabelian algebraic topology]].
-
 
 * [[Rick Jardine]], Luo, _Higher order principal bundles_ ([web](http://www.math.uiuc.edu/K-theory/0681/))
  {#JardineLuo}
