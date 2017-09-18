@@ -22,8 +22,19 @@
 In the mid 1970s Julian Cole proposed a topos-theoretic construction of spectra arising as right adjoints to forgetful functors that generalized [[Monique Hakim|M. Hakim's]] approach to the [[spectrum of a commutative ring]].
 
 ##Definition##
+Let $T$ be [[geometric theory]]. The 2-category $T-\mathfrak{Top}$ of _T-modelled toposes_ has 
+
+* objects pairs $(\mathcal{E},M)$ where $\mathcal{E}$ is a topos and $M$ a $T$-model in $\mathcal{E}$, 
+
+* 1-cells $(\mathcal{F},L)\to (\mathcal{E},M)$ pairs $(p,f)$ with $p:\mathcal{F}\to\mathcal{E}$ a geometric morphism and $f:p^*M\to L$ a $T$-model homomorphism, and 
+
+* 2-cells $(p,f)\to(q,g)$ is a [[natural transformation]] $\eta:p\to q$ such that $f=g\circ\eta_M$.
+
+$T-\mathfrak{Top}_N$ is the full sub-2-category such that $\mathcal{E}$ has a [[natural numbers object]].
+
 
 ##Theorem##
+Let $S$ and $T$ be finitely presented geometric theories such that $T$ is a quotient theory of $S$, and let $A$ be an admissible class of morphisms of $T$-models. Then the inclusion functor $A-\mathfrak{Top}_N\to S-\mathfrak{Top}_N$ has a right adjoint $Spec:S-\mathfrak{Top}_N\to A-\mathfrak{Top}_N$.
 
 ##Example##
 
@@ -41,6 +52,8 @@ In the context of his work with C. Lair on 'locally free diagrams' [[René Guita
 *[[geometric theory]]
 
 *[[ringed topos]]
+
+*[[Structured Spaces]]
 
 ##References##
 
