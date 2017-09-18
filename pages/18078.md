@@ -1,12 +1,11 @@
-**examples of [universal constructions of topological spaces](Top#UniversalConstructions)**
-
-| $\phantom{AAAA}$[[limits]] | $\phantom{AAAA}$[[colimits]] |
-|------------|--------------|
-| $\,$[[product topological space]]  $\,$| $\,$ [[disjoint union topological space]] $\,$ |
-| $\,$ [[topological subspace]] $\,$ | $\,$ [[quotient topological space]] $\,$ |
-| $\,$ fiber space $\,$ | $\,$ [[attaching space]] $\,$ |
-| $\,$ [[mapping cocylinder]], [[mapping cocone]] $\,$ | $\,$ [[mapping cylinder]], [[mapping cone]], [[mapping telescope]] $\,$ |
-|  |  $\,$ [[cell complex]], [[CW-complex]] $\,$  |
+*  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
 
 
-[[universal constructions of topological spaces -- table]]
+   In terms of arrows,  the following map is well-defined: 
+   $S_{F,G}: S \longrightarrow  \{F,G,x\}$ such that 
+
+   $S_{F,G}{x)=F$ for $x \in F$, $S_{F,G}{x)=G$ for $x \in G$, 
+   and $S_{F,G}{x)=x$ for $x \notin F\cup G$.
+
+
+$S_{F,G}(x)=F$ for $x \in F$, $S_{F,G}(x)=G$ for $x \in G$, 
