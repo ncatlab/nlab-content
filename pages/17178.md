@@ -186,8 +186,20 @@ Prop. \ref{SequentialSpectraAsDiagramSpectra} is a special case of a more genera
 
 
 ### Model category structures
+ {#ModelCategoryStructures}
 
 There is a standard [[model structure on spectra]] for sequential spectra in [[Top]] ([Kan 63](#Kan63)) and for sequential spectra in [[simplicial sets]]: this is the [[Bousfield-Friedlander model structure]] ([Bousfield-Friedlander 78](#BousfieldFriedlander78)).
+
+The _strict_ Bousfield-Friedlander model structure (of which the actual stable version is the [[Bousfield localization of model categories|left Bousfield localization]] at the [[stable weak homotopy equivalences]]) is equivalently the [[projective model structure on enriched functors]] for the presentation of sequential spectra from prop. \ref{SequentialSpectraAsDiagramSpectra}:
+
+$$
+  SeqSpec(sSet)_{stable}
+  \stackrel{\longleftarrow}{\overset{Bousf.\;loc}{\longrightarrow}}
+  SeqSpec(sSet)_{strict}
+  =
+  [StdSpheres, Top^{\ast/}_{Quillen}]_{proj}
+  \,.
+$$
 
 
 ### Relation to excisive functors
