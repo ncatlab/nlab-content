@@ -10,5 +10,7 @@
 
 category: people
 
+[[!redirects Nikolay Bogoliubov]]
+
 [[!redirects Bogoliubov]]
 [[!redirects Bogolyubov]]
