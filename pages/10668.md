@@ -49,12 +49,16 @@ see at _[[differential cohesion and idelic structure]]_
 
 [[!include arithmetic cohesion -- table]]
 
+## Examples
+
+* [[Spec(S)]]
+
 ## References
 
 The basic definitions are in
 
-* [[Jacob Lurie]], _[[Spectral Schemes]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Spectral Schemes]]_
+ 
 
 Fundamental properties of $E_\infty$-geometry are discussed in
 
