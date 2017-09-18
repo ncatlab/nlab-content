@@ -193,7 +193,7 @@ This is discussed at
 
 Introductory survey includes
 
-* [[Anders Kock]], _Synthetic differential geometry - new methods for old spaces_, talk at _[[New Spaces for Mathematics and Physics]]_ IHP Paris, 2015 ([video recording](https://www.youtube.com/watch?v=AXz7xu3WrPE))
+* [[Anders Kock]], _Synthetic differential geometry - new methods for old spaces_, talk at _[[New Spaces for Mathematics and Physics]]_ IHP Paris, 2015 ([video recording](https://www.youtube.com/watch?v=AXz7xu3WrPE)); _New methods for old spaces: synthetic differential geometry_, [arxiv/1610.00286](https://arxiv.org/abs/1610.00286)
 
 The idea of axiomatizing [[differential geometry]] using ideas inspired by [[topos]] theory originates in 
 
@@ -268,4 +268,4 @@ Useful introductory expositions of basic ideas of synthetic differential geometr
 
 *  [[John Lane Bell]], _An invitation to smooth infinitesimal analysis_ ([pdf](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf))
 
-* R. P. Kostecki, _Differential Geometry in Toposes_ , ms. University of Warsaw (2009). ([pdf](http://www.fuw.edu.pl/~kostecki/sdg.pdf))
+* R. P. Kostecki, _Differential Geometry in Toposes_ , ms. University of Warsaw (2009) [pdf](http://www.fuw.edu.pl/~kostecki/sdg.pdf)
