@@ -5,7 +5,7 @@
 
 ## Idea
 
-What is called _resurgence theory_ is a mathematical formalization of what in physics is known as reading off [[non-perturbative effects]] from perturbation series in [[perturbation theory]].
+What is called _resurgence theory_ is a mathematical formalization of what in [[quantum field theory]] is known as reading off [[non-perturbative effects]] from the [[Feynman perturbation series]] ([[S-matrix]]) in [[perturbative quantum field theory]]. It tries to regard this non-converging [[formal power series]] in the [[coupling constant]] $g$ as an [[asymptotic series]] of a function involving [[analytic function|non-analytic]] contributions such as $e^{-1/g^2}$.
 
 ## Related concepts
 
