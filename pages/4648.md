@@ -36,7 +36,7 @@ $$
 for ${}^L G$ the [[Langlands dual group]]. Moreover, the conjecture asserts that there is canonical such an equivalence which is a [[non-abelian cohomology|non-abelian]] analogue of the [[Fourier-Mukai transform|Fourier-Mukai]] [[integral transform]] and takes [[skyscraper sheaves]] on the left ([[categorification|categorified Dirac distributions]]) to what are called "[[Hecke eigensheaves]]" on the right.
 This equivalence is in turn supposed to be a certain limit of the more general [[quantum geometric Langlands correspondence]] that identifies [[twisted D-modules]] on both sides.
 
-For the abelian case that $G$ is a [[torus]] the abive equivalence has indeed been proven, given by a [[Fourier-Mukai transform]]  ([Laumon 85](#Laumon85), [Laumon 96](#Laumon96), [Rothstein 96](#Rothstein96)), see also [below](#AbelianCase).
+For the abelian case that $G$ is a [[torus]] the above equivalence has indeed been proven, given by a [[Fourier-Mukai transform]]  ([Laumon 85](#Laumon85), [Laumon 96](#Laumon96), [Rothstein 96](#Rothstein96)), see also [below](#AbelianCase).
 
 However, in general the above version of the conjecture is false. For instance it fails in the case $G = SL_2$ and $\Sigma= \mathbb{P}^1$ ([Lafforgue 09](#Lafforgue09)).
 
