@@ -79,11 +79,11 @@ Moreover, observe that an [[action]] of $\mathbf{Aut}(\mathbb{R}^{0|1})$ on a [[
 
 That an action of the endomorphism/automorphism supergroup of the odd line on a supermanifold is equivalent to a choice of grading and a [[differential]] first observed in
 
-* [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds, I_, Lett. Math. Phys. 66:157-216,2003 ([arXiv:q-alg/9709040](http://arxiv.org/abs/q-alg/9709040))
+* {#Kontsevich97} [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds, I_, Lett. Math. Phys. 66:157-216,2003 ([arXiv:q-alg/9709040](http://arxiv.org/abs/q-alg/9709040))
 
 It was later amplified in section 3.2 of
 
-* Denis Kochan, [[Pavol Ševera]], _Differential gorms, differential worms_ ([arXiv:math/0307303](http://arxiv.org/abs/math/0307303)),
+* {#KochanSevera03} Denis Kochan, [[Pavol Ševera]], _Differential gorms, differential worms_ ([arXiv:math/0307303](http://arxiv.org/abs/math/0307303)),
 
 where it is used to exhibit the canonical [[de Rham differential]] action on the [[odd tangent bundle]] $Maps(\mathbb{R}^{0|1}, X)$ of a [[supermanifold]] $X$.
 
