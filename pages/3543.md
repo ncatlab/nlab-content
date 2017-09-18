@@ -233,6 +233,10 @@ Being a Quillen right adjoint, the right derived functor of $K$ of course preser
 
 * [[fracture square]]
 
+* [[rational homotopy theory]]
+
+* [[rational equivariant stable homotopy theory]]
+
 ## References
 
 Around definition 1.4 in 
