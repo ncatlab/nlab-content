@@ -2756,17 +2756,17 @@ Define the following [[pointed topologically enriched categories|pointed topolog
 
 1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as non-zero morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}$-enriched category by adjoining a basepoint to the hom-spaces;
   
-  $$
-    Orth(V_1,V_2) 
-    \simeq
-    \left\{
-       \array{
-         O(V_1)_+ & for \; dim(V_1) = dim(V_2)
-         \\
-         \ast & otherwise
-       }
-    \right.
-  $$
+   $$
+     Orth(V_1,V_2) 
+     \simeq
+     \left\{
+        \array{
+          O(V_1)_+ & for \; dim(V_1) = dim(V_2)
+          \\
+          \ast & otherwise
+        }
+     \right.
+   $$
 
    The [[tensor product]] is the [[direct sum]] of linear inner product spaces, tensor unit is the 0-vector space. The [[braiding]] is that of $Sym$, under the canonical embedding $\Sigma_{n_1+n_2} \hookrightarrow O(n_1+n_2)$ of the [[symmetric group]] into the [[orthogonal group]].
 
