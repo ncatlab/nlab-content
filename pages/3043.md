@@ -125,6 +125,8 @@ In order to satisfy the Jacobi identity, this pair needs to form a nonabelian 2-
 
 * [[central extension]], [[central charge]]
 
+* [[Lie algebra contraction]]
+
 ## References
 
 Discussion in the generality of [[super Lie algebras]] includes
