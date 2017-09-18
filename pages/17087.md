@@ -19,7 +19,7 @@
 
 ## Idea
 
-A certain [[moduli space]] that appears in [[super Yang-Mills theory]]. The topic of [[Seiberg-Witten theory]]. [[duality in physics|Dual]] to it under a version of [[mirror symmetry]] is the _[[Higgs branch]]_.
+A certain [[moduli space]] that appears in [[super Yang-Mills theory]]. The topic of [[Seiberg-Witten theory]]. [[duality in physics|Dual]] to it under a version of [[mirror symmetry]] is the _Higgs branch_. Depending on whether the scalars of the "[[vector multiplets]]" (the gauge field sector) or of the "[[hypermultiplet]]" (the matter field sector) vanish.
 
 ## References
 
@@ -38,3 +38,6 @@ For mathematical discussion see
 * Alexander Braverman, Michael Finkelberg, Hiraku Nakajima, _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, II_ ([arXiv:1601.03586](http://arxiv.org/abs/1601.03586))
 
 [[!redirects Coulomb branches]]
+
+[[!redirects Higgs branch]]
+[[!redirects Higgs branches]]
