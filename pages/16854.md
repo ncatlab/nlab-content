@@ -1,4 +1,4 @@
-Jacques Penon is a category theorist who has worked on [[synthetic differential geometry]] and higher categories. He introduecd the concept of a [[quasitopos]] in ([Penon 1973](#Penono73)) and gave a definition of weak n-category that was later proved to be too strict, but this proposal has been updated to take this particular objection into account.
+Jacques Penon is a category theorist who has worked on [[synthetic differential geometry]] and higher categories. He introduced the concept of a [[quasitopos]] in ([Penon 1973](#Penono73)) and gave a definition of weak n-category that was later proved to be too strict, but this proposal has been updated to take this particular objection into account.
 
 * [Publications in NUMDAM](http://www.numdam.org/numdam-bin/search?h=aur&aur=Penon,+Jacques&format=short)
 
