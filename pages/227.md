@@ -65,7 +65,7 @@ $$
 and
 
 $$
-  (r_1 + r_2) \cdot r = (r_1 + r_2) \cdot r
+  (r_1 + r_2) \cdot r = r_1 \cdot r + r_2 \cdot r
   \,.
 $$
 
