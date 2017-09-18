@@ -24,19 +24,17 @@
 ## Idea
 
 _Algebraic topology_ refers to the application of methods of [[algebra]] to problems in [[topology]]. More specifically,
-the method of algebraic topology is to assign invariants to
-[[topological space]]s, or more systematically, to the construction 
-and applications of functors from some category of topological objects 
-(e.g. [[Hausdorff space]]s, topological [[fibre bundle]]s) to some algebraic category (e.g. Abelian groups,
-modules over the [[Steenrod algebra]]).
-Landing in algebraic category aids to the computability, 
-but typically looses some information (say getting from 
-a topological spaces with continuum or more points 
+the method of algebraic topology is to assign [[homeomorphism]]/[[homotopy]]-[[invariants]] to [[topological spaces]], or more systematically, to the construction  and applications of [[functors]] from some [[category]] of topological objects 
+(e.g. [[Hausdorff spaces]], topological [[fibre bundles]]) to some algebraic category (e.g. [[abelian groups]],
+[[modules]] over the [[Steenrod algebra]]).
+Landing in an algebraic category aids to the computability, 
+but typically loses some information (say getting from 
+a topological spaces with a continuum or more points 
 to rather discrete algebraic structures).
 The basic aim is to attack a classification problem (for
 spaces or maps) or existence of maps 
 (typically the problems for finding 
-[[lifting]], [[section]], [[extension]] and [[retraction]], 
+[[liftings]], [[sections]], [[extensions]] and [[retractions]], 
 cf. [[basic problems of algebraic topology]])
 and, more rarely, the uniqueness problem for maps. 
 With the development of the subject, however the invariants 
