@@ -107,7 +107,7 @@ $$
   N(D)_n = 
    \underbrace{
    Mor(D) {}_t \times_s Mor(D) {}_t \times_s \cdots
-   {}_t \times_s Mor(D)}_{n factors}
+   \times_s Mor(D) {}_t}_{n factors}
 $$
 
 The collection of all functors between linear quivers 
