@@ -57,8 +57,6 @@ $\mathsf{Stab}$ is left-inverse to $\mathsf{Fix}$: for $H$ a subgroup of $\opera
 
 In particular, since $H.\gamma$ is finite, $c$ is actually $H.\gamma$-definable, hence $A$-definable. Since $A$ is definably closed, $c \in A$, and so $c \in \mathsf{Fix}(H)$. If $g \in \mathsf{Stab}(\mathsf{Fix}(H))$, $g$ in particular fixes $c$, hence $g \in H$, and it's clear that $H \subseteq \mathsf{Stab}(\mathsf{Fix}(H))$. $\square$
 
-
-
 ## Classifying intermediate extensions inside a model-theoretic algebraic closure
 We'll get the case for infinite extensions by just classifying everything at once.
 
@@ -80,7 +78,9 @@ $$ \mathsf{Fix} : \operatorname{Sub}_{\text{Krull-closed}}\left(\operatorname{Ga
 
 given by taking a subgroup closed in the [[profinite topology]] of $\operatorname{Gal}(A)$ to its fixed points and by taking a definably-closed intermediate extension of $\operatorname{acl}(A)/\operatorname{dcl}(A)$ to its stabilizer.
 
-_Proof._
+_Proof._ That $\mathsf{Fix}$ is left-inverse to $\mathsf{Stab}$ again follows from being in a monster.
+
+
 ## Examples
 If $T = \mathsf{ACF}$ the [[theory of algebraically closed fields]], this recovers the classical fundamental theorem of Galois theory (at least in characteristic zero, since in $\mathsf{ACF}$ there is no way to talk about separability.
 
