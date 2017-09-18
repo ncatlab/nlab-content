@@ -33,6 +33,8 @@ Note also that there is a growing literature now on the concept of 'explanatory 
 
 For some, abduction also signifies the creative process of coming up with a good explanation. Otherwise, if it is merely a case of assessing a range of existing rival hypotheses as explanations, it may be possible to employ [[Bayesian reasoning]], generally taken to be a form of [[inductive reasoning]].
 
+>If you really can find an explanation having sufficient probability to be worth consideration, you escape in great measure from reposing upon retroduction [abduction] and make your inference inductive. (Peirce, [Harvard Lectures, p. 193](#Harvard))
+
 ## Abduction as lifting
 
 In Peirce's [Harvard lectures, p. 315](#Harvard), he describes the triad deduction, induction, abduction in terms of the logical relations between 3 concepts, $M$, $P$ and $S$.
