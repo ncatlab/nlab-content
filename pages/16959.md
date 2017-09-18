@@ -104,7 +104,7 @@ $$\,$$
 
 $$(a + b i, t, c + d i) \mapsto t^{1/2}(a + b i) + (1 - t)^{1/2}(c + d i)$$ 
 
-is an explicit realization of the unit sphere $S^3$ as $X \star Y$. 
+is an explicit realization of the [[unit sphere]] $S^3$ as $X \star Y$. 
 =-- 
 
 +-- {: .num_example} 
