@@ -50,7 +50,7 @@ that takes the generic monoid $[1]$ to $F U$ and generally $[n]$ to $(F U)^{\cir
 
 If furthermore $A$ is a $T$-algebra, there is an [[evaluation]] functor 
 
-$$[\mathbf{E}^T, \mathbf{E}^T] \stackrel{eval_A}{\to} \mathbf{E}$$ 
+$$[\mathbf{E}^T, \mathbf{E}^T] \stackrel{eval_A}{\to} \mathbf{E}^T$$ 
 
 and we have the following definition: 
 
