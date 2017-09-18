@@ -80,10 +80,11 @@ such that
 
 * for all $i\in\alpha$, if $i+1\in\alpha$, then $(P(i),P(i+1))\in A$.
 
-If $\alpha=0$, then $P$ is called *the empty walk*. 
 The phrase *$\alpha$-vertex path* means any *path whose domain is $\alpha$*.
 
 =-- 
+
+Some special cases: If $\alpha=0$, then $P$ is called *the empty walk*. We have already seen that a $1$-walk is tantamount to a vertex, and that a 2-walk is tantamount to an edge. We call a walk $\omega \to D$ a *ray* in $D$. 
 
 ## Monomorphisms of digraphs 
 
@@ -116,7 +117,7 @@ A *path* in $D$ is a walk $P: \alpha \to D$ whose underlying function is [[injec
 
 =--
 
-Or what is the same, that $\mathsf{Dgr}(1, P)$ is a [[monomorphism]] in $Set$. In view of Proposition \ref{Mono}, we may also define a path to be a monic walk. 
+Or what is the same, that $\mathsf{Dgr}(1, P)$ is a [[monomorphism]] in $Set$. In view of Proposition \ref{Mono}, we may also define a path to be a monic walk. (Notice this digraph concept of path is at variance with the concept of [[path]] in topology which is simply a continuous map $[0, 1] \to X$ into a [[topological space]], where there is no assumption that its underlying function is injective.)
 
 +-- {: .num_defn #Trail}
 ###### Definition
@@ -143,14 +144,14 @@ Since we just observed that a path $P$ is the same as a monic walk, and since re
 
 ## Symmetrizing and "weak" notions 
 
-It is often useful to relate digraphs = directed graphs to *undirected* graphs, and give parallels for some of the digraph notions above in the context of undirected graphs. A slick way of doing this is by invoking a "symmetrizing" construction. 
+For various digraph (directed graph) notions above, it can be useful to consider parallel notions for *undirected* graphs. A slick method for doing this is by invoking a "symmetrizing" [[functor]] construction. 
 
 +-- {: .num_defn} 
 ###### Definition 
 For a digraph $D$, we define $Symm(D)$ to have the same vertices as $D$, and the arc relation to be the symmetric closure of $D$. In other words, $(v, w)$ is an arc of $Symm(D)$ iff $(v, w)$ or $(w, v)$ is an arc of $D$. 
 =-- 
 
-Clearly the symmetric closure of an irreflexive relation remains irreflexive, so $Symm(D)$ is again a digraph, and the assignment $D \mapsto Symm(D)$ is the object part of an obvious functor $Symm: \mathsf{Dgr} \to \mathsf{Dgr}$. Also the obvious monomorphism $D \to Symm(D)$ is the component $u_D$ of a [[natural transformation]] 
+Clearly the symmetric closure of an irreflexive relation remains irreflexive, so $Symm(D)$ is again a digraph, and the assignment $D \mapsto Symm(D)$ is the object part of an obvious functor $Symm: \mathsf{Dgr} \to \mathsf{Dgr}$. Also the monomorphism $D \to Symm(D)$ that is the identity on vertices is the component $u_D$ of a [[natural transformation]] 
 
 $$u: 1_\mathsf{Dgr} \to Symm.$$ 
 
@@ -164,9 +165,21 @@ The functor $Symm$ carries an [[idempotent monad]] structure.
 It is clear that $u_{Symm(D)}: Symm(D) \to Symm^2(D)$ is an [[isomorphism]] because taking the symmetric closure of a relation is itself idempotent. The multiplication $m: Symm^2 \to Symm$ of the monad is defined by taking the inverse: $m = u_{Symm}^{-1}$. Then $m$ is natural and the unit law $m \circ u_{Symm} = 1$ is automatic. The associativity of $m$ follows by inverting a naturality square for $u$. 
 =-- 
 
-Morally we may define the category of undirected graphs to be the category of algebras over the monad $Symm$. In any case, this is a full subcategory of $\mathsf{Dgr}$, and we may proceed to "weaken" various of the notions above to the undirected context. (To be continued) 
+Morally we may consider the category of undirected graphs to be the category of algebras over the monad $Symm$. In any case, this is a full subcategory of $\mathsf{Dgr}$ consisting of digraphs of the form $Symm(D)$. 
 
+We proceed to "weaken" various of the notions above to take into account the undirected context, simply by applying the functor $Symm$. For example: 
 
+* If $\alpha$ is an ordinal digraph, a *weak walk* $\alpha \to D$ is defined to be a walk $\alpha \to Symm(D)$. 
+
+(Obviously, a weak walk $\alpha \to D$ need not be literally a walk $\alpha \to D$; cf. [[red herring principle]].)  
+
+Alternatively, we could define a weak walk to be a digraph morphism $Symm(\alpha) \to Symm(D)$ where $\alpha$ is an ordinal digraph: the two ways of defining weak walks are (naturally) equivalent. 
+
+Similarly, 
+
+* A *weak trail* $\alpha \to D$ is defined to be a trail $\alpha \to Symm(D)$. 
+
+For example
 
 ## Miscellaneous notions 
 
@@ -226,53 +239,18 @@ If $A=\{a\}$ and $B=\{b\}$ are singletons, one also writes $a$--$b$-path for *$\
 =--
 
 
-
-While having *walk* imply that all the arcs be *aligned* is very *common*, the following is a rather *un*common definition, which nevertheless has an important role in Power's [proof](#Power1990) of unique interpretability of [[pasting schemes]]: 
-
-+-- {: .num_defn #WeakWalkElementary}
-###### Definition
-**(weak walk in a digraph)**
-Read the (elementary) definition of *walk* with  "weak walk" instead of "walk" , and "then (  $(P(i),P(i+1))\in A$   [[or]]    $(P(i+1),P(i))$   )" instead of "then $(P(i),P(i+1))\in A$".
-
-=--
-
-Note that a *weak walk* validates the usual [[red herring principle]]: a red herring need not be a herring (yet may happen to, and a  wealk walk need not be walk (yet may happen to).
-
-Evidently, *weak walks* in $D$ bijectively correspond to (the weak walks obtained by reinstating the directions of) the walks in the undirected graph underlying $D$.
-
-+-- {: .num_defn #WeakTrail}
-###### Definition
-**(weak trail in a digraph)**
-
-Suppose $D=(V,A)$ is a digraph. 
-A *weak trail* in $D$ is a weak walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[function]] $\alpha\rightarrow A$ with $\alpha(i)=(P(i),P(i+1))$ is  injective.
-
-=--
+Earlier discussion of weak trails mentioned Power's [proof](#Power1990) of unique interpretability of [[pasting schemes]]. 
 
 
 
 
-Note that the standard meaning of "path" in (di)graph theory is different to the standard topological meaning of [[path]]. 
-In (di)graph theory, a path never has self-intersections, and hence is a (di)graph isomorphism onto its image, while in topology the term *path* signals that self-intersections *are* permitted. 
+
+
+
+
 The standard term in topology for a path which is *free of self-intersections* is [[arc]] (eg [Kowalksky 1965](#Kowalksky65), Definition 29b). 
 As a saving grace, the standard way to rigorously define the arcs of *plane* digraphs uses precisely the topological [[arcs]]. 
 
-
-+-- {: .num_defn #Ray}
-###### Definition
-**(ray in a digraph)**
-
-Suppose $D=(V,A)$ is a digraph. 
-A *ray* in $D$ is a path $P$ in $D$ such that $\mathrm{dom}(P)=\omega$ is the first limit ordinal.
-
-=--
-
-
-+-- {: .num_example} 
-###### Example 
-Every ray is isomorphic in $\mathsf{Dgr}$ to the digraph $\omega$ from example \ref{ExampleDigraph}.
-
-=--
 
 
 +-- {: .num_defn #CycleInDigraph}
