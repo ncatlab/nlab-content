@@ -3,7 +3,7 @@
 
 * [website](http://www.groupoids.org.uk)
 
-* [list of publications](http://pages.bangor.ac.uk/~mas010/publicfull.htm)
+* [list of publications](http://groupoids.org.uk/publicfull.htm)
 
 
 ## Research Areas
@@ -20,7 +20,7 @@ My first two papers were on the exponential law for topological spaces, and led 
 
 * Seifert van Kampen Theorems 
 
-This has been a major area of work, starting with the theorem for the fundamental groupoid on a _set_ of base points, instead of just the fundamental group, (8). This use of groupoids was publicised in a book published  in 1968 as "Elements of Modern Topology" and now in its third revised edition, published in 2006,  as [Topology and Groupoids](http://pages.bangor.ac.uk/~mas010/topgpds.html). 
+This has been a major area of work, starting with the theorem for the fundamental groupoid on a _set_ of base points, instead of just the fundamental group, (8). This use of groupoids was publicised in a book published  in 1968 as "Elements of Modern Topology" and now in its third revised edition, published in 2006,  as [Topology and Groupoids](http://groupoids.org.uk/topgpds.html). 
 
 The writing of this book led to the notion that all of 1-dimensional homotopy theory was better expressed in terms of groupoids rather than groups, and hence to the question of whether groupoids can be useful, or not, in higher dimensional homotopy theory.  A clue was that whereas group objects internal to groups were just abelian groups, this was not so for group objects internal to groupoids, or the equivalent groupoid objects internal to groups. So there was a possibility of realising the dreams of the algebraic topologists of the early 20th century of finding higher dimensional versions of the fundamental group, since it was recognised that the nonabelian nature of the fundamental group was of importance in problems of geometry and analysis. 
 
