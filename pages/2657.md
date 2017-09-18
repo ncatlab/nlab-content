@@ -88,8 +88,17 @@ The main historical contributors to Hodge theory include [[William Hodge]], [[Ph
 
 ### Relation to motives
 
-Discussion of Hodge theory in relation to [[motives]] is in 
+Discussions of Hodge theory in relation to [[motives]] can be found in:
 
 * [[Chris Peters]], _Tata Lectures on Motivic Aspects of Hodge Theory_ ([pdf](http://www-fourier.ujf-grenoble.fr/~peters/Books/motivic.f/Tatalects.pdf))
 
-* [[Chris Peters]], _Lectures on Motivic Aspects of Hodge Theory: The Hodge Characteristic._, Summer School Istanbul 2014, [pdf](http://www-fourier.ujf-grenoble.fr/~peters/Books/motivic.f/MotAspects.pdf).
+* [[Chris Peters]], _Lectures on Motivic Aspects of Hodge Theory: The Hodge Characteristic._, Summer School Istanbul 2014, [pdf](http://www-fourier.ujf-grenoble.fr/~peters/Books/motivic.f/MotAspects.pdf)
+
+### Nonabelian Hodge theory
+
+General references on nonabelian Hodge theory include:
+
+* [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands
+conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
+
+* [[Alberto García Raboso]], [[Steven Rayan]], _Introduction to Nonabelian Hodge Theory: flat connections, Higgs bundles, and complex variations of Hodge structure_,  Fields Inst. Monogr. 34 (2015), 131--171 ([arXiv](https://arxiv.org/abs/1406.1693)) ([Springer](http://link.springer.com/chapter/10.1007/978-1-4939-2830-9_5))
