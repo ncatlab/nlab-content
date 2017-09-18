@@ -16,7 +16,7 @@
 
 ## Idea
 
-_Cartier [[duality]]_ is a refinement of [[Pontryagin duality]] form [[topological groups]] to [[group schemes]].
+_Cartier [[duality]]_ is a refinement of [[Pontryagin duality]] from [[topological groups]] to [[group schemes]].
 
 ## Definition
 
