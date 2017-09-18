@@ -1,4 +1,4 @@
-An image of a variety under a regular map is not necessarily a variety. A standard example is to take the map $\mathbf{A}^2\to\mathbf{A}^2$ which takes $(x,y)\mapsto (x,x y)$; the image of the affine plane consists of all points $(x,y)$ with $y\neq 0$ union $(0,0)$. This set is clearly not locally closed, hence not a quasiaffine subvariety of $\mathbf{A}^2$.
+An image of a variety under a regular map is not necessarily a variety. A standard example is to take the map $\mathbf{A}^2\to\mathbf{A}^2$ which takes $(x,y)\mapsto (x,x y)$; the image of the affine plane consists of all points $(x,y)$ with $x\neq 0$ union $(0,0)$. This set is clearly not locally closed, hence not a quasiaffine subvariety of $\mathbf{A}^2$.
 
 However, the image of a variety under a regular map is always a [[constructible set]] (finite union of [[locally closed set]]s). More generally, 
 
