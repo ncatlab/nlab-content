@@ -995,12 +995,12 @@ $$
   \begin{aligned}
     (X \otimes_{Day} Y)_n
     & =
-    \overset{(n_1,n_2) \in\mathbb{N}\times\mathbb{N}}{\int}
+    \overset{(n_1,n_2)}{\int}
      Seq(n_1 + n_2 , n)
      \wedge 
      X_{n_1} \wedge X_{n_2}
     \\
-    & = \underset{n_1+n_2 = n}{\coprod} X_{n_1}\wedge X_{n_2}
+    & = \underset{{n_1+n_2} \atop {= n}}{\coprod} X_{n_1}\wedge X_{n_2}
   \end{aligned} 
   \,.
 $$
@@ -1055,6 +1055,25 @@ $$
   X \otimes_{Day} Y
   \simeq
   Lan_{\otimes_{\mathcal{C}}} (X \overline{\wedge} Y)
+  \,.
+$$
+
+Hence the [[adjunction unit]] is a [[natural transformation]] of the form
+
+$$
+  \array{
+    \mathcal{C} \times \mathcal{C}
+    &&
+      \overset{X \overline{\wedge} Y}{\longrightarrow}
+    &&
+      Top^{\ast/}_{cg}
+    \\
+    & {}^{\mathllap{\otimes}}\searrow 
+     &\Downarrow&
+    \nearrow_{\mathrlap{X \otimes_{Day} Y}}
+    \\
+    && \mathcal{C}
+  }
   \,.
 $$
 
