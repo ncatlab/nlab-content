@@ -1,6 +1,6 @@
 
 
-> This entry contains one chapter of the material at _[[geometry of physics]]_.
+> This entry contains one chapter of _[[geometry of physics]]_, see there for context and background.
 
 > previous chapter: _[[geometry of physics -- smooth spaces|smooth sets]]_, 
 
@@ -255,7 +255,7 @@ $$
 +-- {: .num_defn #SingularSimplex}
 ###### Definition
 
-For $X \in $ [[nLab:Top]]  and $n \in \mathbb{N}$, a **singular $n$-simplex** in $X$ is a [[nLab:continuous map]]
+For $X \in $ [[Top]] a [[topological space]] and $n \in \mathbb{N}$ a [[natural number]], a **singular $n$-simplex** in $X$ is a [[nLab:continuous map]]
 
 $$
   \sigma : \Delta^n \to X
@@ -339,7 +339,7 @@ The **simplicial identities** satisfied by face and degeneracy maps as above are
 
 =--
 
-It is straightforward to check by explicit inspection that the evident injection and restriction maps between the sets of [[nLab:singular simplices]] make $(Sing X)_\bullet$ into a simplicial set. We now briefly indicate a systematic way to see this using basic [[nLab:category theory]], but the reader already satisfied with this statement should jump ahead to the abelianization of $(Sing X)_n$ in prop. \ref{FreeAbelianGroup} below.
+It is straightforward to check by explicit inspection that the evident injection and restriction maps between the sets of [[nLab:singular simplices]] make $(Sing X)_\bullet$ into a simplicial set. We now briefly indicate a systematic way to see this using basic [[nLab:category theory]], but the reader already satisfied with this statement should skip ahead to the _[Singular chain complex](#MotivationSingularChainComplex)_.
 
 +-- {: .num_defn}
 ###### Definition
@@ -424,7 +424,7 @@ With this now the structure of a simplicial set on $(Sing X)_\bullet$ is manifes
 +-- {: .num_defn}
 ###### Definition
 
-For $X$ a [[nLab:topological space]] its **[[nLab:singular simplicial complex|simplicial set of singular simplicies]]**  (often called the **[[nLab:singular simplicial complex]]**)
+For $X$ a [[topological space]] its **[[nLab:singular simplicial complex|simplicial set of singular simplicies]]**  (often called the **[[nLab:singular simplicial complex]]**)
 
 $$
   (Sing X)_\bullet : \Delta^{op} \to Set
@@ -447,6 +447,7 @@ It turns out that that [[nLab:homotopy type]] of the topological space $X$ is en
 =--
 
 ##### Singular chain complex
+ {#MotivationSingularChainComplex}
 
 Now we [[nLab:abelian group|abelianize]] the singular simplicial complex $(Sing X)_\bullet$ in order to make it _simpler_ and hence more tractable.
 
@@ -513,7 +514,7 @@ For $S_\bullet$ a [[nLab:simplicial set]], def. \ref{SimplicialSet}, the free ab
 +-- {: .num_defn }
 ###### Definition
 
-For $X$ a [[nLab:topological space]], an $n$-chain on the [[nLab:singular simplicial complex]] $Sing X$ is called a **singular $n$-chain** on $X$.
+For $X$ a [[topological space]], an $n$-chain on the [[nLab:singular simplicial complex]] $Sing X$ is called a **singular $n$-chain** on $X$.
 
 =--
 
@@ -542,7 +543,7 @@ defined on [[nLab:basis]] elements $\sigma \in S_n$ to be the alternating sum of
 +-- {: .num_prop }
 ###### Proposition
 
-The simplicial identity def. \ref{SimplicialIdentities} (1) implies that the alternating sum boundary map of def. \ref{TheAlternatingFaceMapDifferential} squares to 0:
+The simplicial identity, def. \ref{SimplicialIdentities} part 1), implies that the alternating sum boundary map of def. \ref{TheAlternatingFaceMapDifferential} squares to 0:
 
 $$
   \partial \circ \partial = 0
@@ -935,7 +936,7 @@ is the [[nLab:free abelian group]] on the set of [[nLab:connected components]] o
 +-- {: .num_example #FundamentalClass}
 ###### Example
 
-For $X$ a [[nLab:connected topological space]], [[nLab:orientation|oriented]] [[nLab:manifold]] of [[nLab:dimension]] $n$ we have
+For $X$ a [[connected topological space|connected]], [[nLab:orientation|orientable]] [[manifold]] of [[dimension]] $n$ we have
 
 $$
   H_n(X) \simeq \mathbb{Z}
@@ -1078,7 +1079,7 @@ We close this section by stating the basic properties of [[nLab:singular homolog
 +-- {: .num_prop }
 ###### Proposition
 
-If $f : X \to Y$ is a [[nLab:continuous map]] between [[nLab:topological spaces]] which is a [[nLab:weak homotopy equivalence]], def, \ref{WeakHomotopyEquivalence}, then the induced morphism on singular homology groups
+If $f : X \to Y$ is a [[nLab:continuous map]] between [[nLab:topological spaces]] which is a [[nLab:weak homotopy equivalence]], then the induced morphism on singular homology groups
 
 $$
   H_n(f) : H_n(X) \to H_n(Y)
@@ -1140,8 +1141,8 @@ This clearly induces an isomorphism on all homology groups. But there is not eve
 
 =--
 
-Accordingly, as for [[nLab:homotopy types]] of topological spaces, in [[nLab:homological algebra]] one regards to [[nLab:chain complexes]] 
-$C_\bullet$, $D_\bullet$ as essentially equivalent, as of the same "weak homology type" if there is a [[nLab:zigzag]] of quasi-isomorphisms
+Accordingly, as for [[nLab:homotopy types]] of topological spaces, in [[nLab:homological algebra]] one regards two [[nLab:chain complexes]] 
+$C_\bullet$, $D_\bullet$ as essentially equivalent -- "of the same weak homology type" -- if there is a [[zigzag]] of quasi-isomorphisms
 
 $$
   C_\bullet \leftarrow \to \leftarrow \cdots \to D_\bullet
@@ -1249,7 +1250,7 @@ of chain complexes. This is essentially what [[nLab:homological algebra]] is abo
 
 ### **Model layer**
 
-A _[[homotopy 0-type]]_ is equivalently just a [[set]] (an [[h-set]]). A _[[homotopy 1-type]]_ is equivalently a _[[gropoid]]_. These we introduce and discuss below in 
+A _[[homotopy 0-type]]_ is equivalently just a [[set]] (an [[h-set]]). A _[[homotopy 1-type]]_ is equivalently a _[[groupoid]]_. These we introduce and discuss below in 
 
 * _[Groupoids -- Homotopy 1-types](#Groupoids)_.
 
@@ -1265,9 +1266,13 @@ But a simpler and more familiar structure turns out to be a model for the import
 
 * _[Chain complexes --  Abelian homotopy types](#ChainComplexes)_. 
 
-As a model for abelian homotopy theory, this is nothing but _[[homological algebra]]_. We present the key constructions of homological algebra from the "derived" perspective that makes them fit well into homotopy theory below in _[Simplicial homtopy theory](#SimplicialHomotopyTheory)_.
+As a model for abelian homotopy theory, this is nothing but _[[homological algebra]]_. We present the key constructions of homological algebra from the "derived" perspective that makes them fit well into homotopy theory below in
 
-The construction that embeds chain complexes into simplicial homotopy theory is the _[[Dold-Kan correspondence]]_ and the _[[Eilenberg-Zilber theorem]]_. This we discuss below in _[Dold-Kan correspondence](#DoldKanCorrespondence)_
+* _[Abelian homtopy theory](#AbelianHomotopyTheory)_.
+
+The construction that embeds chain complexes into simplicial homotopy theory is the _[[Dold-Kan correspondence]]_ and the _[[Eilenberg-Zilber theorem]]_. This we discuss below in 
+
+* _[Dold-Kan correspondence](#DoldKanCorrespondence)_
 
 
 #### Groupoids -- Homotopy 1-types
@@ -5220,6 +5225,122 @@ The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $
 
 ##### Definition 
 
+Let 
+
+$$
+  \Delta[n] = \mathbf{\Delta}( -, [n]) \in  Simp Set
+$$
+
+be the standard simplicial $n$-[[simplex]] in [[SimpSet]].
+
++-- {: .num_defn #SimplicialHorn}
+###### Definition
+
+For each $i$, $0 \leq i \leq n$, the **$(n,i)$-horn** or **$(n,i)$-box** 
+is the subsimplicial set 
+
+$$
+  \Lambda^i[n]
+  \hookrightarrow
+  \Delta[n] 
+$$
+
+which is the [[union]] of all faces _except_ the  $i^{th}$ one.
+
+This is called an **outer horn** if $k = 0$ or $k = n$.  Otherwise it is an **inner horn**.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+
+Since [[sSet]]  is a [[presheaf topos]], [[unions] of [[subobjects]] make sense and they are calculated objectwise, thus in this case dimensionwise.  This way it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f: [m] \to [n]$ which do not have the element $k$ in the image.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The inner horn, def. \ref{SimplicialHorn} of the [[simplex|2-simplex]]
+
+$$
+  \Delta^2 
+  =    
+  \left\{
+      \array{
+        && 1
+        \\
+        & \nearrow &\Downarrow& \searrow
+        \\
+        0 &&\to&& 2
+      } 
+     \right\}
+$$
+
+with [[boundary]]
+
+$$\partial \Delta^2 =   \left\{
+      \array{
+        && 1
+        \\
+        & \nearrow && \searrow
+        \\
+        0 &&\to&& 2
+      } 
+     \right\}
+$$ 
+
+looks like
+
+$$ 
+\Lambda^2_1
+  =
+   \left\{
+      \array{
+        && 1
+        \\
+        & \nearrow && \searrow
+        \\
+        0 &&&& 2
+      } 
+     \right\}
+ \,.
+$$
+
+The two outer horns look like
+
+$$\Lambda^2_0 =   
+\left\{
+      \array{
+        && 1
+        \\
+        & \nearrow && 
+        \\
+        0 &&\to&& 2
+      } 
+     \right\}
+$$ 
+
+and
+
+$$\Lambda^2_2 =   
+\left\{
+      \array{
+        && 1
+        \\
+        & && \searrow
+        \\
+        0 &&\to&& 2
+      } 
+     \right\}
+$$ 
+
+respectively. 
+
+=--
+
+
 +-- {: .num_defn #KanComplexes}
 ###### Definition
 
@@ -5229,7 +5350,7 @@ A _[[Kan complex]]_ is a [[simplicial set]] $S$ that satisfies the _Kan conditio
 
 * which means equivalently that the unique homomorphism $S \to pt$ from $S$ to the [[point]] (the [[terminal object|terminal]] [[simplicial set]]) is a [[Kan fibration]];
 
-* which means equivalently that for all [[diagrams]] of the form
+* which means equivalently that for all [[diagrams]] in [[sSet]] of the form
 
   $$
   \array{
@@ -5283,7 +5404,7 @@ $$
 
 =--
 
-##### Groupoids as Kan complexes -- Grothendieck simplicial senver
+##### Groupoids as Kan complexes -- Grothendieck simplicial nerve
  {#GroupoidsAsKanComplexes}
 
 
@@ -5357,7 +5478,7 @@ $$
 ##### Chain complexes as Kan complexes -- Dold-Kan-Moore correspondence
  {#DoldKanCorrespondence}
 
-In the familiar construction of [[singular homology]] recalled spring [above](#SimplicialHomology) one constructs the _alternating face map chain complex_ of the [[simplicial abelian group]] of singular simplices, def. \ref{ComplexOfChainsOnASimplicialSet}. This construction is natural and straightforward, but the result chain complex tends to be very "large" even if its [[chain homology groups]] end up being very "small". But in the context of [[homotopy theory]] one is to consider all objects notup to [[isomorphism]], but of to [[weak equivalence]], which for [[chain complexes]] means up to _[[quasi-isomorphisms]]_. Hence one should look for the natural construction of "smaller" chain complexes that are still quasi-isomorphic to these alternating face map complexes. This is accomplished by the [[normalized chain complex]] construction:
+In the familiar construction of [[singular homology]] recalled [above](#SimplicialHomology) one constructs the _alternating face map chain complex_ of the [[simplicial abelian group]] of singular simplices, def. \ref{ComplexOfChainsOnASimplicialSet}. This construction is natural and straightforward, but the result chain complex tends to be very "large" even if its [[chain homology groups]] end up being very "small". But in the context of [[homotopy theory]] one is to consider all objects notup to [[isomorphism]], but of to [[weak equivalence]], which for [[chain complexes]] means up to _[[quasi-isomorphisms]]_. Hence one should look for the natural construction of "smaller" chain complexes that are still quasi-isomorphic to these alternating face map complexes. This is accomplished by the [[normalized chain complex]] construction:
 
 +-- {: .num_defn #AlternatingFaceMapComplex}
 ###### Definition
