@@ -9,6 +9,8 @@ A _superconformal super Lie group_ is a [[Lie group]] [[analogy|analog]] of a [[
 
 * [[super anti de Sitter group]], [[super anti de Sitter spacetime]]
 
+* [[superconformal multiplet]]
+
 [[!include table of orthogonal groups and related]]
 
 [[!redirects superconformal group]]
