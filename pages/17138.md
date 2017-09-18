@@ -110,6 +110,12 @@ Curiously, this way a good bit of [[differential topology]] -- [[cobordism theor
 
 An [[commutative ring spectrum]] $E$ over $MU$, hence a $Spec(E)\to Spec(MU)$ is now a [[multiplicative cohomology theory|multiplicative]] "[[complex oriented cohomology theory]]". 
 
+$\,$
+
+***
+
+$\,$
+
 
 ## **Prelude) Classical homotopy theory**
  {#ClassicalHomotopyTheory}
@@ -3359,7 +3365,7 @@ We need this [below](#ComplexCobordismCohomology) in the discussion of the [[uni
 
 #### Atiyah-Hirzebruch spectral sequence
 
-**Idea.** Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of any finite [[CW-complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E^\bullet(\ast)$.
+**Idea.** Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of $F$-[[fiber bundles]] over a [[simplicial complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E^\bullet(F)$. For $E = $ [[HA]] this is known as the _[[Serre spectral sequence]]_.
 
 The [[Atiyah-Hirzebruch spectral sequence]] in turn is a direct consequence of the "[[Cartan-Eilenberg spectral sequence]]" which arises from the [[exact couple]] of [[relative cohomology]] groups of the skeleta of the CW-complex, and whose first page is the relative cohomology groups for codimension-1 skeleta.
 
@@ -3462,19 +3468,16 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 **Literature.** ([Kochmann 96, section 2.3](#Kochmann96))
 
-* [[complex vector bundle]]
-
-* [[classifying space]]
-
-* [[complex projective space]]
-
-* [[splitting principle]]
+* [[Thom-Gysin sequence]]
 
 * [[Chern classes]]
 
+* [[splitting principle]]
+
+
 #### Conner-Floyd Chern classes
 
-**Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part I.4, part II.2, part III.10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
+**Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part I.4, part II.2, part III.10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
 * [[splitting principle]]
 
