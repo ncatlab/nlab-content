@@ -1,0 +1,52 @@
+
+
+* [[Frank Adams]], 
+
+  _Stable homotopy and generalized homology_, 
+
+  Chicago Lectures in mathematics, 1974
+
+
+on [[complex cobordism cohomology theory|complex]] [[cobordism theory]], [[complex oriented cohomology theory]], and the [[Adams spectral sequence]]/[[Adams-Novikov spectral sequence]].
+
+## Part I
+
+* [[cobordism ring]]
+
+* [[cobordism theory]]
+
+* [[Novikov operations]]
+
+* [[Umkehr map]]
+
+## Part II
+
+* [[formal group law]]
+
+* [[Lazard ring]]
+
+* [[Quillen's theorem on MU]]
+
+* [[BP]]
+
+## Part III
+
+* [[spectrum]]
+
+* [[smash product of spectra]]
+
+* [[Spanier-Whitehead duality]]
+
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
+* [[Atiyah-Hirzebruch spectral sequence]]
+
+* [[derived functor]], [[homotopy limit]]
+
+* [[Steenrod algebra]]
+
+* [[universal coefficient theorem]]
+
+* [[Adams spectral sequence]]
+
+category: reference
