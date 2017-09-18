@@ -23,7 +23,7 @@ This page collects material related to
 
 an early account aiming to lay [[foundations of mathematics]].
 
-Among other things, this book,inspired by work of [[Gottlob Frege]], introduces concepts of [[type theory|typing]], called the "extensional hierarchy of type" to prevent [[paradoxes]] of [[set theory]] such as [[Russell's paradox]], and a
+Among other things, this book, inspired by work of [[Gottlob Frege]], introduces concepts of [[type theory|typing]], called the "extensional hierarchy of type" to prevent [[paradoxes]] of [[set theory]] such as [[Russell's paradox]], and a
 "[ramified hierarchy of types](http://en.wikipedia.org/wiki/Principia_Mathematica#Ramified_types_and_the_axiom_of_reducibility)", in order to avoid [[paradoxes]] such as the [[liar's paradox]].
 (See also [SEP -- Type theory](http://plato.stanford.edu/entries/type-theory/)).
 
