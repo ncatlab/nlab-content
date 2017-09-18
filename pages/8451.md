@@ -5,14 +5,20 @@
 
 ## Idea
 
-Bayesian [[reasoning]] is an application of [[probability theory]] to [[inductive reasoning]] (and [[abductive reasoning]]).  The perspective here is that, when done correctly, inductive reasoning is simply a generalisation of [[deductive reasoning]]; the latter simply restricts to the probabilities $0$ and $1$.
+Bayesian [[reasoning]] is an application of [[probability theory]] to [[inductive reasoning]] (and [[abductive reasoning]]).  It relies on an interpretation of probabilities as expressions of an agent's uncertainty about the world, rather than as concerning some notion of objective chance in the world. The perspective here is that, when done correctly, inductive reasoning is simply a generalisation of [[deductive reasoning]], where knowledge of the truth or falsity of a proposition  corresponds to the extreme probabilities $1$ and $0$.
 
 
-## Stuff
+## Dutch Book justification
 
-This was moved from [[inductive reasoning]], and I hope to edit it further today, but now I have to go:
+It can be shown by so-called "Dutch Book" arguments, that a rational agent must set their degrees of belief in the outcomes of events in such a way that they satisfy the axioms of probability theory. The idea here is that to believe a proposition to degree $p$ is equivalent to being prepared to accept a wager at the corresponding odds. For instance, if I believe there is a 0.25 chance of rain today, then I should be prepared to accept a wager so that I receive $S$ units of currency if it does not rain, and pay out $3 S$ units if it does rain. Note that $S$ may be chosen to be negative by the bettor.
 
-It can be shown by so-called "Dutch Book" arguments, that a rational agent must set their degrees of belief in such a way that they satisfy the axioms of probability theory. For example, if your degree of belief that the next toss of a coin will show heads is $p$, then you should believe it will show tails to degree $(1 - p)$, otherwise it will be possible for someone to take betting positions against you making a loss certain whatever the outcome.
+It can be shown then that such betting odds must satisfy the probability axioms, otherwise it will be possible for someone to place multiple bets with you which will cause you to suffer a certain loss whatever the outcome. For example, if your degree of belief that the next toss of a coin will show heads is $p$, then you should believe it will show tails to degree $(1 - p)$.  Of course, real bookmakers have odds which sum to more than 1, but they suffer no guaranteed loss since clients are only allowed positive stakes.
+
+##Cox's axioms
+
+Some consider the reliance on the idea of the undesirability of certain financial loss to be unbefitting for a justification of what is supposed to be an extension of ordinary deductive logic ([Jaynes 2003](#Jaynes)). Axiomatisations in terms of the properties one should expect of degrees of plausibility have been given, and it can be shown from such axioms that these degrees satisfy the axioms of probability. Richard Cox is responsible for one such axiomatisation (for the moment see [Wikipedia: Cox's theorem](http://en.wikipedia.org/wiki/Cox's_theorem)).
+
+##Conditionalizing
 
 Using [[Bayes' Rule]], degrees of belief can be updated on receipt of new evidence.
 
@@ -32,9 +38,17 @@ $$
 
 How to assign prior probabilities to hypotheses when you don't think you have an exhaustive set of rivals is not obvious. When astronomers in the nineteenth century tried to account for the anomalies in the position of Mercury's perihelion, they tried out all manner of explanations: maybe there was a planet inside Mercury's orbit, maybe there was a cloud of dust surrounding the sun, maybe the power in the inverse square law ought to be (2 - $\epsilon$),... Assigning priors and changing these as evidence comes in is one thing, but it would have been wise to have reserved some of the prior for 'none of the above'.
 
-Interestingly, one of the first people to give a qualitative sketch of how such an approach would work was [[George Polya]] in 'Mathematics and Plausible Reasoning' ([Polya](#Polya)), where examples from mathematics are widely used. The idea of a Bayesian account of plausible reasoning in mathematics surprises many, it being assumed that mathematicians rely solely on [[deductive reasoning|deduction]].
+Interestingly, one of the first people to give a qualitative sketch of how such an approach would work was [[George Polya]] in 'Mathematics and Plausible Reasoning' ([Polya](#Polya)), where examples from mathematics are widely used. The idea of a Bayesian account of plausible reasoning in mathematics surprises many, it being assumed that mathematicians rely solely on [[deductive reasoning|deduction]]. See also Chap. 4 of [Corfield03](#Corfield)).
 
+##Objective Bayesianism
 
+For some Bayesians, degrees of belief must satisfy further restrictions. One extreme form of this view holds that given a particular state of knowledge, there is a single best set of degrees of belief that should be adopted for any proposition. If, for example, all I know of an event is that it has $n$ possible outcomes, the objective Bayesian will apply the principle of indifference to set their degrees of belief to $1/n$ for each outcome. Other principles include maximum entropy (see [Jaynes 2003](#Jaynes)).
+
+##References
+
+* {#Corfield} [[David Corfield]], _Towards a Philosophy of Real Mathematics_, Cambridge University Press, 2003.
+* {#Jaynes} [[Edwin Jaynes]], _Probability Theory: The Logic of Science_, Cambridge University Press, 2003.
+* {#Polya} [[George Polya]], _Mathematics and Plausible Reasoning: Vol. II: Patterns of Plausible Inference_, Princeton University Press, 1954.
 [[!redirects Bayesian reasoning]]
 [[!redirects Bayesian induction]]
 [[!redirects Bayesian probability]]
