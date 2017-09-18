@@ -98,6 +98,8 @@ The beautiful and powerful Eckmann-Hilton argument is due to [[Beno Eckmann]] an
 
 ## References
 
+* [[Beno Eckmann]], [[Peter Hilton]], ...
+
 An expositions of the argument is given here:
 
 * [[The Catsters]]
