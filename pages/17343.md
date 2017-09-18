@@ -5479,7 +5479,7 @@ we call the **[[classical pointed homotopy category]]**.
 
 The fibrant objects in the pointed model structure $\mathcal{C}^{\ast/}$, prop. \ref{ModelStructureOnSliceCategory}, are those that are fibrant as objects of $\mathcal{C}$. But the cofibrant objects in $\mathcal{C}^{\ast}$ are now those for which the basepoint inclusion is a cofibration in $X$.
 
-For $\mathcal{C}^{\ast/} = Top^{\ast/}_{Quillen}$ from def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}, then the corresponding cofibrant pointed topological spaces are tyically referred to as spaces _with non-degenerate basepoints_. Notice that the point itself is cofibrant in $Top_{Quillen}$, so that cofibrant pointed topological spaces are in particular cofibrant topological spaces.
+For $\mathcal{C}^{\ast/} = Top^{\ast/}_{Quillen}$ from def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}, then the corresponding cofibrant pointed topological spaces are tyically referred to as spaces **with non-degenerate basepoints** or . Notice that the point itself is cofibrant in $Top_{Quillen}$, so that cofibrant pointed topological spaces are in particular cofibrant topological spaces.
 
 =--
 
@@ -5681,10 +5681,14 @@ for every $X \in Top_{cg}$ then the operation $X\times (-) \times (-)\times X$ o
 
 $$
   Top_{cg}
-    \stackrel{\overset{X \times (-)}{\longleftarrow}}{\underset{(-)^X}{\longrightarrow}}
+    \underoverset
+      {\underset{(-)^X}{\longrightarrow}}
+      {\overset{X \times (-)}{\longleftarrow}}
+      {\bot}
   Top_{cg}
   \,.
 $$
+
 
 =--
 
@@ -5847,6 +5851,18 @@ The [[product topological space]] of a [[CW-complex]] with a [[compact topologic
 
 ([Hatcher "Topology of cell complexes", theorem A.6](CW+complex#HatcherTopologyOfCellComplexes))
 
+More generally:
+
++-- {: .num_example #ProductOfCompactlyGeneratedWithLocallyCompactHausdorff}
+###### Proposition
+
+For $X$ a [[compactly generated space]] and $Y$ a [[locally compact topological space|locally compact]] [[Hausdorff space]], then the [[product topological space]] $X\times Y$ is compactly generated.
+
+=--
+
+e.g. ([Strickland 09, prop. 26](#Strickland09))
+
+Finally we check that the concept of [[homotopy]] and [[homotopy groups]] does not change under passing to compactly generated spaces:
 
 +-- {: .num_prop #kificationComparisonIsWeakHomotopyEquivalence}
 ###### Proposition
@@ -5871,7 +5887,7 @@ The restriction of the [[model category]] structure on $Top_{Quillen}$ from theo
 $$
   (Top_{cg})_{Quillen}
     \underoverset
-      {\underoverset{k}{\longleftarrow}}
+      {\underset{k}{\longleftarrow}}
       {\hookrightarrow}
       {\bot}
   Top_{Quillen}
@@ -6563,7 +6579,7 @@ With these three lemmas in hand, the remaining formal part of the proof goes thr
 
 ##### Topological enrichment
 
-So far the [[classical model structure on topological spaces]] which we established in theorem \ref{TopQuillenModelStructure}, as well as the [[projective model structure on functors|projective model structures on topologically enriched functors]] induced from it in theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, concern the [[hom-sets]], but not the [[hom-spaces]] (def. \ref{TopEnrichedCategory}), i.e. the model structure so far has not been related the topology on [[hom-spaces]]. The following statements say that in fact the model structure and the enrichment by topology on the hom-spaces are compatible in a suitable sense: we have an "[[enriched model category]]".
+So far the [[classical model structure on topological spaces]] which we established in theorem \ref{TopQuillenModelStructure}, as well as the [[projective model structure on functors|projective model structures on topologically enriched functors]] induced from it in theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, concern the [[hom-sets]], but not the [[hom-spaces]] (def. \ref{TopEnrichedCategory}), i.e. the model structure so far has not been related to the topology on [[hom-spaces]]. The following statements say that in fact the model structure and the enrichment by topology on the hom-spaces are compatible in a suitable sense: we have an "[[enriched model category]]". This implies in particular that the product/hom-adjunctions are [[Quillen adjunctions]], which is crucial for a decent discusson of the derived functors of the suspension/looping adjunction [below](#TheSuspensionLoopingDiscussion).
 
 
 +-- {: .num_defn #PushoutProduct}
@@ -6702,7 +6718,7 @@ $$
 +-- {: .num_defn #PullbackPowering}
 ###### Definition
 
-Let $i \colon A \to B$ and $p \colon X \to Y$ be two morphisms in $Top_{cg}$, def. \ref{kTop}. Their **pullback powering** is
+Let $i \colon A \to B$ and $p \colon X \to Y$ be two morphisms in $Top_{cg}$, def. \ref{kTop}. Their **pullback powering** is 
 
 $$
   p^{\Box i}
@@ -6710,7 +6726,7 @@ $$
   (p^B, X^i)
 $$ 
 
-for the universal morphism in 
+being the universal morphism in 
 
 $$
   \array{
@@ -6735,7 +6751,7 @@ $$
 +-- {: .num_prop #JoyalTierneyCalculus}
 ###### Proposition
 
-Let $i_1, i_2 , p$ be three morphisms in $Top_{cg}$, def. \ref{kTop}. Then for their [[pushout-products]] (def. \ref{PushoutProduct}) and pullback-powerings (def. \ref{PullbackPowering}) the following [[lifting properties]] are equivalent:
+Let $i_1, i_2 , p$ be three morphisms in $Top_{cg}$, def. \ref{kTop}. Then for their [[pushout-products]] (def. \ref{PushoutProduct}) and pullback-powerings (def. \ref{PullbackPowering}) the following [[lifting properties]] are equivalent ("[[Joyal-Tierney calculus]]"):
 
 $$
   \array{
@@ -6753,7 +6769,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the [[cartesian closed category|cartesian closure]] of $Top_{cg}$:
+By the [[cartesian closed category|cartesian closure]] of $Top_{cg}$ (prop. \ref{CartesianClosureOfTopcg}) there is a natural bijection of commuting diagrams of the form
 
 $$
   \array{
@@ -6775,8 +6791,10 @@ $$
     \\
     P \times B & \underset{\tilde g_1}{\longrightarrow} & Y
   }
-  \,.
+  \,,
 $$
+
+and there is a natural bijection between the lifts in these diagrams.
 
 =--
 
@@ -6842,7 +6860,7 @@ $$
   \,,
 $$
 
-where all logical equivalences used are those of prop. \ref{JoyalTierneyCalculus} and where all implications appearing are by the closure property of lifting problems ([prop.](injective+or+projective+morphism#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)).
+where all logical equivalences used are those of prop. \ref{JoyalTierneyCalculus} and where all implications appearing are by the closure property of lifting problems (prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}).
 
 Regarding the second point: By example \ref{PushoutProductOfITopwithITopAndJTop} we moreover have
 
@@ -6857,7 +6875,7 @@ and the conclusion follows by the same kind of reasoning.
 +-- {: .num_prop #HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen}
 ###### Proposition
 
-For $X \in (Top_{cg})_{Quillen}$ cofibrant (a [[retract]] of a [[cell complex]]) then the product-hom-adjunction from prop. \ref{CartesianClosureOfTopcg}  is a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}):
+For $X \in (Top_{cg})_{Quillen}$ cofibrant in the [[classical model structure on topological spaces|classical model structure]] on compactly generated spaces from theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces} (hence a [[retract]] of a [[cell complex]]) then the product-hom-adjunction from prop. \ref{CartesianClosureOfTopcg}  is a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}):
 
 $$
   (Top_{cg})_{Quillen}
@@ -6874,11 +6892,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By example \ref{PushoutProductWithInitialMorphism} we have that the [[left adjoint]] functor is equivalently the [[pushout product]] functor with the initial morphism of $X$: 
+By example \ref{PushoutProductWithInitialMorphism} the [[left adjoint]] functor is equivalently the [[pushout product]] functor with the initial morphism of $X$: 
 
 $$
   X \times (-)
-  \simeq
+  \;\simeq\;
   (\emptyset \to X) \Box (-)
   \,.
 $$
@@ -6886,6 +6904,27 @@ $$
 By assumption $(\emptyset \to X)$ is a cofibration, and hence prop. \ref{PushoutProductInTopCGSendsCofCofToCof} says that this is a left Quillen functor.
 
 =--
+
+This discussion has a direct analog for [[pointed topological spaces|pointed]] [[compactly generated topological spaces]]. Here we consider the **smash pushout product** and **smash pullback powering** in the evident sense. Everything goes through as before, and one finds the pointed analog of prop. \ref{HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen}:
+
++-- {: .num_prop #HomProductAdjunctionForCofibrantObjectInPointedTopCGIsQuillen}
+###### Proposition
+
+For $X \in (Top^{\ast/}_{cg})_{Quillen}$ cofibrant with respect to the [[classical model structure on pointed topological spaces|classical model structure on pointed]] compactly generated spaces (theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}, prop. \ref{ModelStructureOnSliceCategory}) (a retract of a cell complex with non-degenerate basepoint, remark \ref{NonDegenerateBasepointAsCofibrantObjects}) then the pointed product-hom-adjunction from corollary \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces}  is a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}):
+
+$$
+  (Top^{\ast/}_{cg})_{Quillen}
+   \underoverset
+     \underset{(-)^X}{\longrightarrow}
+     \overset{X \times (-)}{\longleftarrow}
+     {\bot}
+  (Top^{\ast/}_{cg})_{Quillen}
+  \,.
+$$
+
+=--
+
+
 
 ### **P.2)** Simplicial homotopy theory 
  {#SimplicialSets}
@@ -9784,6 +9823,7 @@ behaves like one degree in an [additive](Introduction+to+Stable+homotopy+theory+
 
 
 ### The suspension/looping adjunction
+ {#TheSuspensionLoopingDiscussion}
 
 We conclude this discussion of classical homotopy theory with the key statement that leads over to [[stable homotopy theory]] in _[[Introduction to Stable homotopy theory -- 1]]_: the suspension and looping adjunction on the classical pointed homotopy category.
 
@@ -9795,7 +9835,7 @@ Consider the general [[loop space object]] and [[reduced suspension]] functors f
 
 In [[pointed topological spaces]] $Top^{\ast/}$, 
 
-* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) for [[cylinder object]] beng the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]], for later purposes we choose to smash **on the left** and write
+* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) for [[cylinder object]] being the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]], for later purposes we choose to smash **on the left** and write
 
   $$
     \Sigma X \simeq S^1 \wedge X 
@@ -9895,7 +9935,7 @@ $$
   \,.
 $$
 
-By prop. \ref{HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen} this is a [[Quillen adjunction]]. Hence the statement follows with prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}.
+By prop. \ref{HomProductAdjunctionForCofibrantObjectInPointedTopCGIsQuillen} this is a [[Quillen adjunction]]. Hence the statement follows with prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}.
 
 =--
 
@@ -9908,6 +9948,8 @@ What is called _[[stable homotopy theory]]_ is the result of universally forcing
 =--
 
 This is the topic of the next section at _[[Introduction to Stable homotopy theory -- 1]]_.
+
+$\,$
 
 
 ## References
