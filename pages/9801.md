@@ -118,6 +118,8 @@ The [[partition function]] of the gauged WZW model as an [[elliptic genus]] is c
 
 * [[coset WZW model]]
 
+* [[gauged linear sigma model]]
+
 ## References
 
 The original articles are
