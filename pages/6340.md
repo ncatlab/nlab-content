@@ -184,6 +184,8 @@ _The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[lo
 
 * [[analytical index]]
 
+* [[fiber integration in K-theory]]
+
 * [[index of a Dirac operator]]
 
 * [[index theorem]]
