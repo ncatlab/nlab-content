@@ -157,7 +157,7 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 ###### Definition
 **(Sullivan models)**
 
-For $X$ a [[conected|simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is 
+For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is 
 
 * a quasi-free [[dg-algebra]] $(\wedge^\bullet V^*, d_V)$ which is a (minimal) Sullivan algebra 
 
