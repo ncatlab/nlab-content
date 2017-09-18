@@ -124,4 +124,7 @@ Discussion in the context of [[M-theory on G2-manifolds]] includes
 * {#BBS07} [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 423 of _String Theory and M-Theory: A Modern Introduction_, 2007
 
 
+[[!redirects ADE classifications]]
+
 [[!redirects A-D-E classification]]
+[[!redirects A-D-E classifications]]
