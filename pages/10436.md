@@ -106,7 +106,9 @@ This translates to an [[internal language]] proof of Blakers-Massey valid in all
 
 
 
+## Related concepts
 
+* [[analytic (∞,1)-functor]]
 
 
 
