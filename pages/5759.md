@@ -29,7 +29,7 @@
 
 The original _Deligne conjecture_ on the structure of [[Hochschild cohomology]] of an [[associative algebra]] and more generally an [[A-∞ algebra]] states that Hochschild cohomology naturally has the structure of a [[BV-algebra]] and that moreover the full Hochschild cohomology complex has the structure of an [[algebra over an operad]] over the ([[framed little disk operad|framed]]) [[little disk operad]]. (The second statement implies the first since ([[BV-algebra|BV]]-)[[nLab:Gerstenhaber algebra]]s are [[algebras over an operad]] over the (framed) little disk operad.)
 
-Proofs of the conjecture have been given first by  [McLure-Smith](#McLureSmith) and others, then also by [Kontsevich-Soibelman](#KontsevichSoibelman), and [Tamarkin](#Tamarkin).
+Proofs of the conjecture have been given first by  [McClure-Smith](#McClureSmith) and others, then also by [Kontsevich-Soibelman](#KontsevichSoibelman), and [Tamarkin](#Tamarkin).
 
 A proof for general [[Ek-algebra]]s in [[symmetric monoidal (∞,1)-categories]] is in ([Lurie, section 2.5](#Lurie)).
 
@@ -65,15 +65,17 @@ In [Hu-Kriz-Voronov (2003)](#HuKrizVoronov) it was further shown that for $A$ an
 
 Direct proofs of the Deligne conjecture have been given in.
 
-* McLure-Smith, ...
-{#McLureSmith}
+* James McClure, Jeffrey Smith, *A solution of Deligne's conjecture* ([arXiv:math/9910126](http://arxiv.org/abs/math/9910126))
+{#McClureSmith}
 
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]], ...
+* [[Maxim Kontsevich]], [[Yan Soibelman]], *Deformations of algebras over operads and Deligne's conjecture* ([arXiv:math/0001151](http://arxiv.org/abs/math/0001151))
 {#KontsevichSoibelman}
 
-* Tamarkin, ...
+* [[Dmitry Tamarkin]], *Another proof of M. Kontsevich formality theorem* ([arXiv:math/9803025](http://arxiv.org/abs/math/9803025))
 {#Tamarkin}
+
+* [[Clemens Berger]], [[Benoit Fresse]], *Combinatorial operad actions on cochains* ([arXiv:math/0109158](http://arxiv.org/abs/math/0109158))
 
 A review is in 
 
