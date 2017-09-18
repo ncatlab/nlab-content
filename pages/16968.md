@@ -1,0 +1,62 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The generalization of the concept of [[suspension spectrum]] from [[stable homotopy theory]] to $G$-[[equivariant stable homotopy theory]]. 
+
+## Definition
+
+The equivariant suspension spectrum $\Sigma^\infty_G X$ of a [[pointed topological space|pointed]] [[topological G-space]] $X$ is the [[G-spectrum]] which in degree $n$ is the [[smash product]]
+
+$$
+  (\Sigma^\infty_G X)_n \coloneqq X \wedge S^n
+$$
+
+of $X$ with the [[n-sphere]], equipped with the canonical [[action]] of the [[orthogonal group]] $O(n)$ just on the $S^n$-factor and equipped with the given action  of $G$ on just $X$.
+
+(e.g. [Schwede 15, example 2.11](#Schwede15))
+
+## Properties
+ {#Properties}
+
+### $RO(G)$-degrees
+ {#ROGDegrees}
+
+For $V$ an orthogonal linear $G$-[[representation]] then the value if the equivariant suspension spectrum in that degree is the [[smash product]] of $X$ with the corresponding [[representation sphere]].
+
+$$
+  (\Sigma^\infty_G X)(V) \simeq X \wedge S^V
+$$
+
+## Examples
+
+The $G$-[[equivariant sphere spectrum]] is 
+
+$$
+  \mathbb{S} = \Sigma^\infty_G S^0
+$$ 
+
+for $S^0$ regarded as equipped with the (necessarily) trivial $G$-action. It follows that for $V$ an orthogonal linear $G$-representation then in [[RO(G)-degree]] $V$ the equivariant sphere spectrum is the corresponding [[representation sphere]] $\mathbb{S}(V) \simeq S^V$.
+
+
+## References
+
+* {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
