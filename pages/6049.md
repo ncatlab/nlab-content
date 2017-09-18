@@ -102,6 +102,14 @@ Discussion from the point of view of [[Green-Schwarz action functional]]-[[schre
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
 
+### Under dualities
+
+Discussion of the effect of [[T-duality]] on NS5-branes includes
+
+* Eduardo Eyras, Bert Janssen, Yolanda Lozano, _5-branes, KK-monopoles and T-duality_, Nucl.Phys. B531 (1998) 275-301 ([arXiv:hep-th/9806169](https://arxiv.org/abs/hep-th/9806169))
+
+* [[David Tong]], _NS5-Branes, T-Duality and Worldsheet Instantons_, JHEP 0207:013,2002 ([arXiv:hep-th/0204186](https://arxiv.org/abs/hep-th/0204186))
+
 ### Relation to the M5-brane
 
 Most of the following references are more on the [[M5-brane]].
