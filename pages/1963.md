@@ -35,7 +35,7 @@ $$
   \,,
 $$
 
-This identity is called the __[[Leibniz rule]]__; compare it to the product rule in ordinary calculus (first written down by [[Gottfried Leibniz]]).
+This identity is called the __[[Leibniz rule]]__; compare it to the product rule in ordinary calculus (first written down by [[Gottfried Leibniz]]). 
 
 
 ### Derivations with values in a bimodule
@@ -55,7 +55,9 @@ $$
 
 where on the dot on the right-hand side denotes the right (first term) and left (second term) [[action]] of $A$ on the bimodule $N$. 
 
-The previous definition is a special case of this one, where the bimodule is $N = A$, the algebra itself with its canonical left and right action on itself.
+The previous definition is a special case of this one, where the bimodule is $N = A$, the algebra itself with its canonical left and right action on itself. 
+
+A special case is where $A$ is a [[group algebra]] $k G$ of a [[group]] $G$, and $N$ is a left $G$-module, regarded as a bimodule where the right action is trivial. Here a derivation is also called a 1-[[cocycle]], as used in [[group cohomology]]. 
 
 
 ### Graded derivations
