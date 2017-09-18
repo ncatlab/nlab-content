@@ -37,6 +37,11 @@ Sometimes people call $\tilde f$ the "adjoint" of $f$, and vice versa, but this 
 
 ## Properties
 
++-- {: .num_prop #AdjunctionCoUnitGiveesAllAdjuncts}
+###### Proposition
+**(adjuncts in terms of adjunction (co-)unit)**
+
+
 Let $i_X : X \to R L X$ be the [[unit of an adjunction|unit of the adjunction]] and $\eta_X : L R X \to X$ the counit.
 
 Then 
@@ -52,6 +57,8 @@ Then
   $$  
     \tilde g : X \stackrel{i_X}{\to} R L X \stackrel{R g}{\to} R Y
   $$
+
+=--
 
 ## Related concepts
 
