@@ -23,7 +23,7 @@
 ## Idea
   {#LieModels}
 
-Rational homotopy theory is the [[homotopy theory]] of [[rational topological spaces]] (rational homotopy types), hence of [[homotopy types]] (modeled as [[topological spaces]] or [[simplicial sets]]): simply connected spaces whose [[homotopy groups]] are [[vector spaces]] over the [[rational numbers]]. 
+Rational homotopy theory is the [[homotopy theory]] of [[rational topological spaces]], hence of rational [[homotopy types]]: [[simply connected topological space|simply connected]] [[topological spaces]] whose [[homotopy groups]] are [[vector spaces]] over the [[rational numbers]]. 
 
 Much of the theory is concerned with [[rationalization]], the process that sends a general homotopy type to its closest rational approximation, in a precise sense. On the level of [[homotopy groups]] this means to retain precisely the non-[[torsion subgroups]] of the homotopy groups. 
 
@@ -31,7 +31,7 @@ Two algebraic models of rational homotopy types exist, via differential-graded-c
 
 This way rational homotopy theory connects [[homotopy theory]] and [[differential graded algebra]]. Akin to the [[Dold-Kan correspondence]], the [[Sullivan construction]] in rational homotopy theory connects the conceptually powerful perspective of [[homotopy theory]] with the computationally powerful perspective of [[differential graded algebra]]. 
 
-Moreover, via the [[homotopy hypothesis]] the study of [[topological spaces]] is connected to that of [[infinity-groupoids]], so that rational homotopy theory induces a bridge between [[infinity-groupoids]] and [[differential graded algebra]]. It was observed essentially by Ezra Getzler that this bridge is nothing but higher [[Lie theory]] of [[L-infinity-algebras]], see at _[[Lie integration]]_.
+Moreover, via the [[homotopy hypothesis]] the study of [[topological spaces]] is connected to that of [[∞-groupoids]], so that rational homotopy theory induces a bridge (the [[Sullivan construction]]) between [[∞-groupoids]] and [[differential graded algebra]]. It was observed essentially by ([Henriques 08](Lie+integration#Henriques), [Getzler 09](Lie+integration#Getzler04)) that this bridge is [[Lie integration]] (see there) in the [[∞-Lie theory]] of [[L-∞ algebras]].
 
 $\,$
 
@@ -45,6 +45,8 @@ is formed by taking on each simplex the dg-algebra of ordinary rational [[polyno
 
 
 The connection between these two appoaches is discussed in ([Majewski 00](#Majewski00)): The Sullivan dg-algebra of forms is the [[formal dual]] (the [[Chevalley-Eilenberg algebra]]) of an [[L-infinity algebra]] that may be rectified (see at _[[model structure for L-infinity algebras]]_) to a [[dg-Lie algebra]], and that is the one from Quillen's construction.
+
+(Beware that --  while both rational homotopy types as well as $L_\infty$-algebras are presented by [[formal duals]] of [[dg-algebras]] (via [[Sullivan construction]] and via forming [[Chevalley-Eilenberg algebras]], respectively) -- the class of [[weak equivalences]] in the former case strictly includes that in the latter. See [this remark](model+structure+for+L-infinity+algebras#OndgCoAlgWEs) at _[[model structure for L-∞ algebras]]_.)
 
 
 ## Sullivan approach
