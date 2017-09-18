@@ -127,6 +127,8 @@ This is ([Lurie, cor. 4.3.5.15](#Lurie)).
 
 ## Related concepts
 
+* [[Morita equivalence]]
+
 * [[additive functor]], [[Tor]]
 
 ## References
