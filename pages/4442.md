@@ -170,6 +170,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 ## Related concepts
 
+* [[near-horizon geometry]]
+
 * [[Fefferman-Graham ambient construction]]
 
 * [[duality in physics]], [[duality in string theory]]
@@ -246,6 +248,7 @@ Further references include:
 * [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
 
 Review of [[Yangian]] symmetry includes
+
 
 * [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J.Phys.A44:263001,2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
 
