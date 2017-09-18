@@ -48,9 +48,10 @@ Notice that every $(1,1)$-[[Grothendieck topos]] comes from a [[localic groupoid
 
 ## References
 
-section 6.4.2 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[John Baez|J. C. Baez]], [[Mike Shulman|M. Shulman]], _Lectures on n-categories and cohomology_ , pp.1-68 in J. C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf); section 5.3)
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ , Princeton UP 2009. (section 6.4.2)
 
 
 [[!redirects Grothendieck (0,1)-topos]]
