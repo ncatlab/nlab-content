@@ -31,7 +31,7 @@ In what follows, [[sSet]] denotes the [[category]] of [[simplicial sets]] and $s
 
 A _sequential_ [[pre-spectrum]] in [[simplicial sets]], is an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
 
-A [[homomorphism]] $f \colon X \to Y$ of sequential prespectra is a collection $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
+A [[homomorphism]] $f \colon X \to Y$ of sequential prespectra is a collection $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of [[pointed simplicial sets]], such that all [[diagrams]] of the form
 
 $$
   \array{
@@ -127,7 +127,7 @@ for the non-full $sSet^{\ast/}$-[[enriched category|enriched]] [[subcategory]] o
 
 =--
 
-([Lydakis 98, def. 4.2](#Lydakis98)), see also ([MMSS 00](#MMSS00))
+([Lydakis 98, def. 4.2](#Lydakis98)), see also ([MMSS 00](#MMSS00)) [this example](Model+categories+of+diagram+spectra#SequentialSpectraAsFunctorsOnFreeSSequModules).
 
 
 
@@ -213,9 +213,9 @@ Write
 
 * [[sSet]] for the [[category]] of [[simplicial sets]];
 
-* $sSet^{\ast/}$ for the category of [[pointed object|pointed]] simplicial sets;
+* $sSet^{\ast/}$ for the category of [[pointed simplicial sets]];
 
-* $sSet_{fin}^{\ast/}\simeq s(FinSet)^{\ast/} \hookrightarrow sSet^{\ast/}$ for the [[full subcategory]] of [[pointed object|pointed]] [[simplicial object|simplicial]] [[finite sets]].
+* $sSet_{fin}^{\ast/}\simeq s(FinSet)^{\ast/} \hookrightarrow sSet^{\ast/}$ for the [[full subcategory]] of [[pointed simplicial set|pointed simplicial]] [[finite sets]].
 
 Write
 
