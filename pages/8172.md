@@ -978,32 +978,50 @@ $$
 
 with the differentials being the image under $\pi_\bullet$ of the alternating sum of the morphisms that insert unit elements. 
 
-We discuss now how, under favorable conditions, these homotopy groups of mapping spectra of the form $[Y,E^{\wedge (s+1)}\wedge X]$ may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$. Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-homology of the $\mathcal{E}_1$-page is seen to compute the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules.
+We discuss now how, under favorable conditions, these homotopy groups of mapping spectra of the form $[Y,E^{\wedge (s+1)}\wedge X]$ may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$. Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-homology of the $\mathcal{E}_1$-page is seen to compute the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules. This re-formulation of the $\mathcal{E}_2$-page is the one that makes it be useful for computations.
 
-The condition needed for this to work is the following.
+The first condition needed for this to work is the following.
 
 +-- {: .num_defn #FlatE}
 ###### Definition
 
-Call the [[ring spectrum]] $E$ _flat_ if one, equivalently both, of the morphisms
+Call the [[commutative ring spectrum]] $E$ _flat_ if one, equivalently both, of the morphisms
 
 $$
-  \eta_L \coloneqq \pi_\bullet(e \wedge id) \colon E_\bullet \longrightarrow E_\bullet(E)
+  \eta_L \coloneqq \pi_\bullet(e \wedge id) 
+  \;\colon\; 
+  E_\bullet \longrightarrow E_\bullet(E)
 $$
 
 $$
-  \eta_r \coloneqq \pi_\bullet(id \wedge e) \colon E_\bullet \longrightarrow E_\bullet(E)
+  \eta_r 
+  \;\coloneqq\; 
+  \pi_\bullet(id \wedge e) \colon E_\bullet \longrightarrow E_\bullet(E)
 $$
 
 is a [[flat morphism]].
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example }
 ###### Example
 
 Examples of ring spectra that are flat according to def. \ref{FlatE} include
-[[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]].
+$E = $
+
+* [[sphere spectrum|S]], 
+
+* [[HR]] for $R = \mathbb{F}_p$ a [[prime field]],
+
+* [[MO]], [[MU]], [[MSp]], 
+
+* [[KO]], [[KU]].
+
+
+=--
+
++-- {: .num_example}
+###### Example
 
 Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} include [[HA|H]][[integers|Z]], and $M S U$.
 
@@ -1123,9 +1141,9 @@ acting as assigning [[inverses]].
 The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
 
 $$
-  Spec(R_1) \underset{S}{\times} Spec(R_2) 
+  Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2) 
   \simeq
-  Spec(R_1 \otimes_S R_2)
+  Spec(R_1 \otimes_{R_3} R_2)
   \,.
 $$
 
@@ -1165,8 +1183,8 @@ satisfying dual conditions. Here
 +-- {: .num_cor #HopfAlgebroidStructureOnDualEOperations}
 ###### Corollary
 
-If $E$ is flat, def. \ref{FlatE}, then,
-via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}, the cosimplicial spectrum $E^{\wedge^\bullet} X$ (the $E$-standard resolution, example \ref{StandardEResolution}) exhibits:
+If $E$ is flat according to def. \ref{FlatE}, then,
+via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}, the cosimplicial spectrum $E^{\wedge^\bullet} \wedge X$ (the $E$-standard resolution of $X$ from example \ref{StandardEResolution}) exhibits:
 
 1. for $X = E$: [[Hopf algebroid]]-structure, def. \ref{CommutativeHopfAlgebroid}, remark \ref{CommutativeHopfAlgebroidSpelledOut}, on the "dual $E$-[[Steenrod operations]]" $E_\bullet(E)$ over $\pi_\bullet(E)$;
 
