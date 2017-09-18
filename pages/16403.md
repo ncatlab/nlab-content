@@ -585,7 +585,7 @@ Here
 +-- {: .num_example #BasicExamplesOfChainBoundaries}
 ###### Example
 
-Let $X$ be a topological space. Let $\sigma^1 : \Delta^1 \to X$
+Let $X$ be a [[topological space]]. Let $\sigma^1 : \Delta^1 \to X$
 be a singular 1-simplex, regarded as a 1-chain
 
 $$
@@ -2605,7 +2605,7 @@ $$
 $$
 
 for a collection of maps $\{\lambda_k : X_k \to Y_{k+1}\}$. This are
-precisely the [[nLab:null homotopies]].
+precisely the [[null homotopies]].
 
 =--
 
@@ -5629,7 +5629,7 @@ These subcategories -- or any category [[nLab:equivalence of categories|equivale
 +-- {: .num_remark}
 ###### Remark
 
-Often one defines the [[nLab:derived category]] by more general abstract means than we have introduced here, namely as the _[[nLab:localization]]_ of the category of chain complexes at the quasi-isomorphims. If one does this, then the simple definition def. \ref{DerivedCategory} is instead a _theorem_. The interested reader can find more details and further pointers _[here](http://ncatlab.org/nlab/show/derived%20category#InTermsOfResolutions)_.
+Often one defines the [[nLab:derived category]] by more general abstract means than we have introduced here, namely as the _[[nLab:localization]]_ of the category of chain complexes at the [[quasi-isomorphisms]]. If one does this, then the simple definition def. \ref{DerivedCategory} is instead a _theorem_. The interested reader can find more details and further pointers _[here](http://ncatlab.org/nlab/show/derived%20category#InTermsOfResolutions)_.
 
 =--
 
@@ -8512,7 +8512,9 @@ $$
 
 of all its finitely generated [[nLab:subgroups]] (this is discussed at _[Mod - Limits and colimits](http://ncatlab.org/nlab/show/Mod#LimitsAndColimits)_). Each of these is a [[nLab:direct sum]] of [[nLab:cyclic groups]]. 
 
-By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves these colimits. By prop. \ref{TorOutOfCyclicGroup} every summand is sent to a torsion subgroup (of either $A$ or $B$).  Therefore by prop. \ref{TorOutOfCyclicGroup} $Tor_1(A,B)$ is a filtered colimit of direct sums of torsion groups. This is itself a torsion group.
+By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves these colimits. By prop. \ref{TorOutOfCyclicGroup} every summand is sent to a torsion subgroup (of either $A$ or $B$).  Therefore by prop. \ref{TorOutOfCyclicGroup} $Tor_1(A,
+
+B)$ is a filtered colimit of direct sums of torsion groups. This is itself a torsion group.
 
 =--
 
@@ -8520,11 +8522,376 @@ By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves th
 #### The Dold-Kan correspondence
  {#DoldKanCorrespondence}
 
-* [[Dold-Kan correspondence]]
+In the familiar construction of [[singular homology]] recalled spring [above](#SimplicialHomology) one constructs the _alternating face map chain complex_ of the [[simplicial abelian group]] of singular simplices, def. \ref{ComplexOfChainsOnASimplicialSet}. This construction is natural and straightforward, but the result chain complex tends to be very "large" even if its [[chain homology groups]] end up being very "small". But in the context of [[homotopy theory]] one is to consider all objects notup to [[isomorphism]], but of to [[weak equivalence]], which for [[chain complexes]] means up to _[[quasi-isomorphisms]]_. Hence one should look for the natural construction of "smaller" chain complexes that are still quasi-isomorphic to these alternating face map complexes. This is accomplished by the [[normalized chain complex]] construction:
 
-* [[Eilenberg-Zilber theorem]]
++-- {: .num_defn #AlternatingFaceMapComplex}
+###### Definition
+
+For $A$ a [[simplicial abelian group]] its **[[alternating face map complex]]** $(C A)_\bullet$ of $A$ is the [[chain complex]] which 
+
+* in degree $n$ is given by the group $A_n$ itself
+
+  $$
+    (C A)_n := A_n
+  $$
 
 
+* with [[differential]] given by the alternating sum of face maps (using the abelian group structure on $A$)
+
+  $$
+    \partial_n \coloneqq \sum_{i = 0}^n (-1)^i d_i  \;\colon\; (C A)_n \to (C A)_{n-1}
+    \,.
+  $$
+
+=--
+
+
++-- {: .num_defn #NormalizedChainComplexOnGeneralGroup}
+###### Definition
+
+Given a [[simplicial abelian group]] $A$, its _[[normalized chain complex]]_ or _Moore complex_ is the $\mathbb{N}$-graded [[chain complex]] $((N A)_\bullet,\partial )$ which
+
+* is in degree $n$ the joint [[kernel]] 
+
+  $$
+    (N A)_n=\bigcap_{i=1}^{n}ker\,d_i^n 
+  $$
+
+  of all face maps except the 0-face;
+
+* with differential given by the remaining 0-face map
+
+  $$
+   \partial_n := d_0^n|_{(N A)_n} : (N A)_n \rightarrow (N A)_{n-1}
+   \,.
+  $$ 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We may think of the elements of the complex $N A$, def. \ref{NormalizedChainComplexOnGeneralGroup}, in degree $k$
+as being $k$-dimensional [[disks]] in $A$ all whose [[boundary]] is captured by a single face:
+
+* an element $g \in N G_1$ in degree 1 is a 1-disk
+
+  $$
+    1 \stackrel{g}{\to} \partial g
+    \,,
+  $$
+
+* an element $h \in N G_2$ is a 2-disk
+
+  $$
+    \array{
+       && 1 
+       \\
+       & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h}
+       \\
+       1
+       &&\stackrel{1}{\to}&&
+       1
+    }
+    \,,
+  $$
+
+* a degree 2 element in the kernel of the boundary map is such a 2-disk that is closed to a 2-[[sphere]]
+
+  $$
+    \array{
+       && 1 
+       \\
+       & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h = 1}
+       \\
+       1
+       &&\stackrel{1}{\to}&&
+       1
+    }
+    \,,
+  $$
+
+etc.
+
+=--
+
++-- {: .num_defn #ComplexModuloDegeneracies}
+###### Definition
+
+For $A$ a [[simplicial abelian group]] its **complex modulo degeneracies**, $(C A)/D(A)$ is the [[chain complex]]
+
+* which in degree $n$ is given by the [[quotient]] group obtained by dividing out the group
+
+  $$
+    D A_n := \langle \cup_i \sigma_i(A_{n-1}) \rangle
+  $$ 
+
+  generated by the degenerate elements in $A_n$
+
+  $$
+    ((C A)/D(A))_n := A_n / D(A_n)
+  $$
+
+* with differential being the induced action of  the alternating sum of faces on the quotient.
+
+=--
+
+
+
++-- {: .num_lemma #LeftCosetsDisjoint}
+###### Lemma
+
+Def. \ref{ComplexModuloDegeneracies} is indeed well defined in that
+the alternating face boundary map satisfies 
+$\partial \circ \partial = 0$ in $C_\bullet(A)$
+and restricts to a boundary map on the degenerate subcomplex
+$\partial : A_n|_{s(A_{n-1})} \to A_{n-1}|_{s(A_{n-2})}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement one checks
+
+$$
+  \begin{aligned}
+    \partial_n \partial_{n+1}
+    & =
+    \sum_{i, j} 
+      (-1)^{i+j}
+      d_i \circ d_{j}
+    \\
+    &=
+    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
+    + 
+    \sum_{i \lt j} (-1)^{i+j}
+      d_i \circ d_j 
+    \\
+    &=
+    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
+    + 
+    \sum_{i \lt j} (-1)^{i+j}
+      d_{j-1} \circ d_i 
+    \\
+    &=
+    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
+    -
+    \sum_{i \leq k} (-1)^{i+k}
+      d_{k} \circ d_i 
+    \\
+    &=
+    0
+  \end{aligned}
+$$
+
+using the [[simplicial identities|simplicial identity]] $d_i \circ d_j = d_{j-1} \circ d_i$ for $i \lt j$.
+
+Similarly, using the mixed [[simplicial identities]] we find that for $s_j(a) \in A_n$ a degenerate element, its boundary is
+
+$$
+  \begin{aligned}
+     \sum_i (-1)^i d_i s_j(a)
+     &=
+     \sum_{i \lt j} (-1)^i  s_{j-1} d_i(a)
+     +
+     \sum_{i = j, j+1} (-1)^i  a
+     +
+     \sum_{i \gt j+1} (-1)^i s_j d_{i-1}(a)
+     \\
+     &=
+     \sum_{i \lt j} (-1)^i  s_{j-1} d_i(a)
+     +
+     \sum_{i \gt j+1} (-1)^i s_j d_{i-1}(a)
+  \end{aligned}
+$$
+
+which is again a combination of elements in the image of the degeneracy maps.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For $A$ a [[simplicial abelian group]], there is a splitting
+
+$$
+  C_\bullet(A) \simeq N_\bullet(A) \oplus D_\bullet(A)
+$$
+
+of the alternating face map complex, def. \ref{AlternatingFaceMapComplex} as a [[direct sum]],
+where the first direct summand is [[natural isomorphism|naturally isomorphic]] to the [[normalized chain complex]] of def. \ref{NormalizedChainComplexOnGeneralGroup} and the second is the degenerate cells from def. \ref{ComplexModuloDegeneracies}.
+
+Explicitly, the evident composite of natural morphisms
+
+$$
+  N A \stackrel{i}{\hookrightarrow} A 
+  \stackrel{p}{\to}
+  (C A)/(D A)
+$$
+
+(inclusion followed by projection to the quotient) is a [[natural isomorphism]] of chain complexes.
+
+=--
+
+(e.g. [Goerss-Jardine, theorem 2.1](Moore+complex#GoerssJardine)).
+
++-- {: .num_theorem #EMTheorem}
+###### Theorem (Eilenberg-MacLane)
+
+The inclusion 
+
+$$
+  N A \hookrightarrow C A
+$$
+
+of the [[normalized chain complexes]] into the [[alternating face map complex]]  is a [[natural transformation|natural]] [[quasi-isomorphism]] and in fact a natural chain [[homotopy equivalence]], i.e. the complex $D_\bullet(X)$ is [[null homotopy|null-homotopic]].
+
+=--
+
+The statement of the _[[Dold-Kan correspondence]]_ now is the following.
+
++-- {: .num_theorem }
+###### Theorem 
+
+For $A$ an [[abelian category]] 
+there is an [[equivalence of categories]]
+
+$$
+  N \;\colon\; A^{\Delta^{op}}
+      \stackrel{\leftarrow}{\to} Ch_\bullet^+(A) \;\colon\; \Gamma
+$$
+
+between 
+
+* the [[category of simplicial objects]] in $A$;
+
+* the [[category of chain complexes|category of connective chain complexes]] in $A$;
+
+where
+
+* $N$ is the [[normalized chains complex]]/normalized [[Moore complex]] functor.
+
+
+=--
+
+([Dold 58](Dold-Kan+correspondence#Dold58), [Kan 58](Dold-Kan+correspondence#Kan58), [Dold-Puppe 61](Dold-Kan+correspondence#DoldPuppe61)).
+
++-- {: .num_theorem }
+###### Theorem (Kan)
+
+For the case that $A$ is the category [[Ab]] of [[abelian group]]s, the functors $N$ and $\Gamma$ are [[nerve and realization]] with respect to the cosimplicial chain complex
+
+$$
+  \mathbb{Z}[-]: \Delta \to Ch_+(Ab)
+$$
+
+that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the free simplicial abelian group $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
+
+$$
+    \Gamma(V) : [k]  \mapsto 
+    Hom_{Ch_\bullet^+(Ab)}(N(\mathbb{Z}(\Delta[k])), V)
+    \,.
+$$
+
+=--
+
+This is due to ([Kan 58](Dold-Kan+correspondence#Kan58)).
+
+More explicitly we have the following
+
++-- {: .num_prop #ExplicitUnitAndCounit}
+###### Proposition
+
+* For $V \in Ch_\bullet^+$ the simplicial abelian group $\Gamma(V)$ is in degree $n$ given by
+
+  $$
+    \Gamma(V)_n = \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
+  $$
+
+  and for $\theta : [m] \to [n]$ a morphism in $\Delta$ the corresponding map
+  $\Gamma(V)_n \to \Gamma(V)_m$ 
+
+  $$
+    \theta^* : \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
+     \to 
+     \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
+  $$
+  
+  is given on the summand indexed by some $\sigma : [n] \to [k]$ by the composite
+  
+  $$
+    V_k  \stackrel{d^*}{\to} V_s \hookrightarrow \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
+  $$
+
+  where
+
+  $$
+    [m] \stackrel{t}{\to} [s] \stackrel{d}{\to} [k]
+  $$
+
+  is the [[weak factorization system|epi-mono factorization]] of the composite $[m] \stackrel{\theta}{\to} [n] \stackrel{\sigma}{\to} [k]$.
+
+* The [[natural isomorphism]] $\Gamma N \to Id$ is given on $A \in sAb^{\Delta^{op}}$ by the map
+
+  $$
+    \bigoplus_{[n] \underset{surj}{\to} [k]}
+     (N A)_k
+    \to
+    A_n
+  $$
+
+  which on the [[direct sum]]mand indexed by $\sigma : [n] \to [k]$ is the composite 
+
+  $$
+    N A_k \hookrightarrow A_k \stackrel{\sigma^*}{\to} A_n
+    \,.
+  $$
+
+* The [[natural isomorphism]] $Id \to N \Gamma$ is on  a chain complex $V$ given by the composite of the projection
+
+  $$
+    V \to C(\Gamma(V)) \to C(\Gamma(C))/D(\Gamma(V))
+  $$
+
+  with the inverse
+
+  $$
+    C(\Gamma(V))/D(\Gamma(V)) \to N \Gamma(V)  
+  $$
+
+  of 
+
+  $$
+    N \Gamma(V) \hookrightarrow C(\Gamma(V)) \to C(\Gamma(V))/D(\Gamma(V))
+  $$
+
+  (which is indeed an [[isomorphism]], as discussed at [[Moore complex]]).
+
+=--
+
+This is spelled out in  ([Goerss-Jardine, prop. 2.2 in section III.2](#Goerssjardine)).
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+With the explicit choice for $\Gamma N \stackrel{\simeq}{\to} Id$ as [above](#ExplicitUnitAndCounit) we have that $\Gamma$ and $N$ form an [[adjoint equivalence]] $(\Gamma \dashv N)$ 
+
+=--
+
+This is for instance ([Weibel, exercise 8.4.2](Dold-Kan+correspondence#Weilbel)).
+
+
++-- {: .num_remark }
+###### Remark
+
+It follows that with the inverse structure maps, we also have an [[adjunction]] the other way round: $(N \dashv \Gamma)$.
+
+=--
+
+Hence in concclusion the [[Dold-Kan correspondence]] allows us to regard [[chain complexes]] (in non-negative degree) as, in particular, special [[simplicial sets]]. In fact as simplicial sets they are [[Kan complexes]] and hence [[infinity-groupoids]], to which we now turn.
 
 #### Kan complexes 
  {#KanComplexes}
