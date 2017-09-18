@@ -46,6 +46,9 @@ Although by analogy, it would seem that a modern perspective should prefer the t
 
 Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C), [[Abraham Fraenkel|Fraenkel]] introduced the method of [[permutation model]]s (later refined by Mostowski and Specker), which gave models of [[ZFA]], a version of ZF with [[urelements|atoms]]. See for example the [[basic Fraenkel model]].
 
+## Related concepts
+
+* [[homotopy type theory FAQ]] -- [What is homotopy type theory? -- For set theorists](http://ncatlab.org/nlab/show/homotopy+type+theory+FAQ)
 
 ## References
 
