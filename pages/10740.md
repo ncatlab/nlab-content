@@ -78,7 +78,7 @@ Review includes
 
 * [[Doug Ravenel]], chapter 1, section 2 _Methods of computing $\pi_\bullet(S^n)$_ _[[Complex cobordism and stable homotopy groups of spheres]]_
 
-* {#Rognes12} [[John Rognes]], around theorem 4.15 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
+* {#Rognes12} [[John Rognes]], around lemma 4.14, theorem 4.15 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 
 Further comments on the impact of this proof on the development of [[stable homotopy theory]] includes
