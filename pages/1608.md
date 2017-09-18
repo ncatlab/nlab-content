@@ -2,10 +2,7 @@
 [[!redirects Gabriel C Drummond-Cole]]
 [[!redirects Gabriel C. Drummond-Cole]]
 
-
-I am a researcher at the IBS Center for Geometry and Physics in South Korea.  Previously I was a postdoc at Northwestern and before that a graduate student at the CUNY Graduate Center and SUNY Stony Brook.  I host notes of some classes and conferences I have attended.
-
-[website](http://www.cgp.ibs.re.kr/~gabriel/)
+[website](http://cgp.ibs.re.kr/~gabriel/)
 
 
 category: people
