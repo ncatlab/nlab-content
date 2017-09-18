@@ -1,59 +1,47 @@
 
-+-- {: .num_prop #TopologyDetectedByNets}
-###### Proposition
-**(topology detected by nets)**
 
-Using the [[axiom of choice]] then:
+By [[excluded middle]] we may equivalently prove the [[contrapositive]]: If $(X,\tau)$ is not compact, then not every net in $X$ has a convergent subnet.
 
-Let $(X, \tau)$ be a [[topological space]]. Then a [[subset]] $(U \subset X)$ is [[open subset|open]] in $X$ (is an element of $\tau \subset P(X)$) precisely if its [[complement]] $X \backslash S$ is a [[closed subset]] as seen not just by sequences but by nets, in that no [[net]] with elements in $X\backslash S$,  $\nu \colon A \to X\backslash S \hookrightarrow X$, [[converges]] to an element in $S$.
+Hence assume that $(X,\tau)$ is not compact. We need to produce a net without a convergent subnet.
+
+Again by [[excluded middle]], then by [this prop.](finite+intersection+property#CompactnessInTermsOfFiniteIntersectionProperty) $(X,\tau)$ not being compact means equivalently that there exists a set $\{C_i \subset X\}_{i \in I}$ of [[closed subsets]] satisfying the [[finite intersection property]], but such that their intersection is empty: $\underset{i \in I}{\cap} C_i = \emptyset$.
+
+Consider then $P_{fin}(I)$, the set of [[finite set|finite]] [[subsets]] of $I$. By the assumption that $\{C_i \subset X\}_{i \in I}$ satisfies the [[finite intersection property]], we may [[axiom of choice|choose]] for each $J \in P_{fin}(I)$ an element
+
+$$
+  x_J \in \underset{i \in J \subset I}{\cap} C_i
+  \,.
+$$
 
 
-=--
 
-+-- {: .proof}
-###### Proof
-
-In one direction, let $S \subset X$ be open, and consider a net $\nu \colon A \to X \backslash S \subset X$. We need to show that for every point $x \in S$, $x$ is not a limiting point of the net.
-
-But by assumption then $S$ is a [[neighbourhood]] of $x$ which does not contain any element of the net, and so by definition of convergence it is not a limit of this net.
-
-Conversely, let $S \subset X$ be a subset that is not open. We need to show that then there exists a net $\nu \colon A \to X\backslash S \subset X$ that converges to a point in $S$.
-
-For $x \in X$, consider the [[directed set]] $Nbhd_X(x)$ of [[open neighbourhoods]] of this element (example \ref{DirectedSetOfNeighbourhods}).
-Now the fact that the set $S$ is not open means that there exists an element $s \in S \subset X$ such that every [[open neighbourhood]] $U$ of $s$ intersects $X \backslash S$. This means that we may [[axiom of choice|choose]] elements $x_U \in U \cap (X \backslash S)$, and hence define a net
+Now $P_{fin}(X)$ regarded as a [[preordered set]] under inclusion of subsets is clearly a [[directed set]], with an upper bound of two finite subsets given by their [[union]]. Therefore we have defined a net
 
 $$
   \array{
-    Nbhds_X(s) &\overset{\nu}{\longrightarrow}& X \backslash S  \subset X
-    \\
-    U &\mapsto& x_U
+     P_{fin}(X)_{\subset} &\overset{\nu}{\longrightarrow}& X
+     \\
+     J &\overset{\phantom{AAA}}{\mapsto}& x_J
   }
   \,.
 $$
 
-But by construction this net has the property that for every neighbourhood $V$ of $s$ there exists $U \in Nbhd_X(s)$ such that for all $U' \subset U$ then $x_{U'} \in V$, namely $U = V$. Hence the net converges to $s$.
+We will show that this net has no converging subnet.
 
+Assume on the contrary that there were a subnet
 
-=--
+$$
+  \array{
+     B && \overset{f}{\longrightarrow} && P_{fin}(X)
+     \\
+     & \searrow && \swarrow_{\nu}
+     \\
+     && X
+  }
+$$
 
-+-- {: .num_prop}
-###### Proposition
-**(continuous functions detected by nets)**
+which converges to some $x \in X$. 
 
-Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[topological space]]. Then a [[function]] $f \colon X \to Y$ between their underlying sets is [[continuous function|continuous]] precisely if for every net $\vu \colon A \to X$ that converges to some $x \in X$, the net $f\circ \vu$ converges to  $f(y)\in Y$.
+By the assumption that $\underset{i \in I}{\cap} C_i = \emptyset$, there would exist an $i_x \in I$ such that $x \neq C_{i_x}$, and because $C_i$ is a [[closed subset]], there would exist even an [[open neighbourhood]] $U_x$ of $x$ such that $U_x \cap C_{i_x} = \emptyset$. This would imply that $x_J \neq U_x$ for all $J \supset \{i_x\}$.
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-In one direction, suppose that $f \colon X \to Y$ is continuous, and that $\nu \colon A \to X$ converges to some $x \in X$. We need to show that $f \citc \nu$ converges to $f(y) \in Y$, hence that for every neighbourhood $U_{f(y)} \subset Y$ there exists $i \in A$ such that $f(\nu(j)) \in U_{f(y)}$ for all $j \geq i$.
-
-But since $f$ is continuous, the [[pre-image]] $f^{-1}(U_{f(y)}) \subset X$ is an open neighbourhood of $x$, and so by the assumption that $\nu$ converges there is an $i \in A$ such that $\nu(j) \in f^{-1}(U_{f(y)})$ for all $j \geq i$. By applying $f$, this is the required statement.
-
-Conversely, suppose that $f$ is not continuous, and that the net $\nu$ converges to some $x \in X$. We need to show that then $f \circ \nu$ does not converge to $f(x)$.
-
-Now that $f$ is not continuous means that there exists an open subset $U \subset Y$ such that the pre-image $f^{-1}(U)$ is not open. By prop. \ref{TopologyDetectedByNets} this means that there exists a net $\nu$ in $X \backslash f^{-1}(U)$ that converges to an element $x \in f^{-1}(U)$. But this means that $f \circ \nu$ is a net in the $Y \backslash U$, which is a [[closed subset]] by the assumption that $U$ is open. Again by prop. \ref{TopologyDetectedByNets} this means that $f\circ \nu$ converges to an element in $Y \backslash U$, and hence not to $f(x) \in U$. 
-
-
-=--
+Now since the function $f$ defining the subset is cofinal, there would exist $b_1 \in B$ such that $\{i_x\} \subset f(b_1)$. Moreover, by the assumption that the subnet converges, there would also be $b_2 \in B$ such that $\nu_{b_2 \leq \bullet} \in U_x$. Since $B$ is directed, there would then be an upper bound $b \geq b_1, b_2$ of these two elements. This hence satisfies both $\nu_{f(e)} \in U_x$ as well as $\{i_x\} \subset f(b_1) \subset f(b)$. But the latter of these two means that $\nu_{f(b)}$ is not in $U_x$, which is a contradiction to the former. Thus we have a [[proof by contradiction]].
