@@ -931,3 +931,6 @@ Discussion of classifying spaces in the context of [[measure theory]] is in
 
 
 [[!redirects classifying spaces]]
+
+[[!redirects Milnor classifying space]]
+[[!redirects Milnor classifying spaces]]
