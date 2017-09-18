@@ -1,0 +1,9 @@
+
+
+* [webpage](http://home.mathematik.uni-freiburg.de/goette/)
+
+## related $n$Lab entries
+
+* [[multiplicative spectral sequence]]
+
+category: people
