@@ -41,13 +41,17 @@ In applications, such co-occuring pairs of negation operators $\neg$ and $\sim$ 
 
 *  $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$. This follows from the adjointness of $\backslash$ which unwinds as $\sim a\leq x$ iff $1=a\vee x$.
 
+* $\sim 1=0$ and $\sim 0= 1$.
+
 * $\sim$ can be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and already points to the utility of the co-Heyting negation for [[paraconsistent logic]].
 
-* The co-Heyting supplement satisfies the dual **de Morgan rule** $\sim (a\wedge b)=(\sim a)\vee(\sim b)$, but not $\sim (a\vee b) = \sim a\wedge \sim b$ in general.
+* The co-Heyting supplement satisfies the dual **de Morgan rule** $\sim (a\wedge b)=(\sim a)\vee(\sim b)$, but not $\sim (a\vee b) = (\sim a)\wedge (\sim b)$ in general.
 
-* For $a\in L$ define its **core** as $\sim\sim a$. Then $a=\partial a\vee\sim\sim a$. Call $a$ with $a=\sim\sim a$ **regular**. Lawvere (1986) proposes in the vein of classical mereology e.g. Tarski 1927 on regions as regular open sets, to consider only regular subbodies as bodies in the full sense.
+* For $a\in L$ define its **core** as $\sim\sim a$. Then $a=\partial a\vee(\sim\sim a)$. Call $a$ with $a=\sim\sim a$ **regular**. Lawvere (1986) proposes in the vein of classical mereology e.g. Tarski 1927 on regions as regular open sets, to consider only regular subbodies as bodies in the full sense.
 
 * Suppose the element $a$ of a co-Heyting algebra has a [[complement]] $x$ i.e. $a\vee x = 1$ and $a\wedge x = 0$, then the complement $x$ coincides with $\sim a$. Because from $a\vee x=1$ follows $\sim a\leq x$ since $\sim a$ is the least element with this property; conversely, $\sim a=\sim a\vee (a\wedge x)=(\sim a\vee a)\wedge (\sim a\vee x)=\sim a\vee x$ whence $x\leq \sim a$. {#co-Heyting_complement}
+
+* A complemented element is obviously regular. Conversely, a regular element $a$ is complemented since $0=\sim 1=\sim (a\vee\sim a)=(\sim a )\wedge (\sim\sim a)=\sim a\wedge a$.
 
 * In a bi-Heyting algebra: $\neg a=\neg a\wedge 1=\neg a\wedge (a\vee\sim a)=(\neg a\wedge a)\vee (\neg a\wedge \sim a)= 0\vee (\neg a\wedge\sim a)=\neg a\wedge\sim a$ hence $\neg a\leq\sim a$ and we see that $\neg$ is more strongly negative than $\sim$.
 
