@@ -29,8 +29,17 @@ A dual condition is artinian: an __[[artinian ring]]__ is a ring satisfying the 
 
 Spectra of noetherian rings are glued together to define [[noetherian scheme|locally noetherian schemes]]. 
 
+## Examples
+
+* Every [[field]] is a noetherian ring.
+
+* Every [[principal ideal domain]] is a noetherian ring
+
+* ...
 
 ## Properties 
+
+### General
 
 One of the best-known properties is the Hilbert basis theorem. Let $R$ be a (unital) ring. 
 
@@ -50,7 +59,7 @@ The polynomial $g = \sum_{i=0}^{k-1} r_i x^{d_k - d_i} f_i$ belongs to $I_k$, so
 
 =-- 
 
-## A homological characterization
+### A homological characterization
 
 +-- {: .num_theorem}
 ###### Theorem
