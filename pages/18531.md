@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _pullback_ of a [[distribution]] $u \in \mathcal{D}'(X)$ along a [[smooth function]] $f\colon Y \to X$ is supposed to like the [[composition]] $u \circ f$ if $u$ is thought of as a [[generalized function]], such that it is exactly this in the case that $u$ actually is an ordinary function. More precisely, since distributions are rather like generalized [[densities]], the pullback of a distribution is like a [[pullback of differential forms]] for top degree forms, which means that the naive formula is corrected by [[Jacobian determinant]].
+The _pullback_ of a [[distribution]] $u \in \mathcal{D}'(X)$ along a [[smooth function]] $f\colon Y \to X$ is supposed to like the [[composition]] $u \circ f$ if $u$ is thought of as a [[generalized function]], such that it is exactly this in the case that $u$ actually is an ordinary function. 
 
 
 ## Definition
