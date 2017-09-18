@@ -79,9 +79,9 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ### General
 
-Actions for the NS5-brane are discussed in
+The [[Green-Schwarz action functionals]] for the NS5-brane are discussed in
 
-* Igor Bandos, Alexei Nurmagambetov, Dmitri Sorokin, _The type IIA NS5--Brane_ ([arXiv:hep-th/0003169](http://arxiv.org/abs/hep-th/0003169))
+* [[Igor Bandos]], Alexei Nurmagambetov, [[Dmitri Sorokin]], _The type IIA NS5--Brane_ ([arXiv:hep-th/0003169](http://arxiv.org/abs/hep-th/0003169))
 
 * Marco Cariglia, Kurt Lechner, _NS5-branes in IIA supergravity and gravitational anomalies_ ([arXiv:hep-th/0203238](http://arxiv.org/abs/hep-th/0203238))
 
