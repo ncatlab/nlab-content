@@ -47,18 +47,24 @@ The [[electric-magnetic duality|electric-magnetic dual]] of the D0 is the [[D6-b
 
 ## References
 
-The worldline theory of interacting D0-branes is discussed in 
+### As solitonic branes
 
-* [[Tom Banks]], W. Fischler, S.H. Shenker, [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_, Phys.Rev.D55:5112-5128,1997 ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
- {#BanksFischlerShenkerSusskind97}
+The worldline theory of solitonic interacting D0-branes is discussed in 
 
-* [[Joseph Polchinski]], _M-Theory and the Light Cone_,  	Prog.Theor.Phys.Suppl.134:158-170,1999 ([arXiv:hep-th/9903165](http://arxiv.org/abs/hep-th/9903165))
- {#Polchinski99}
+* {#BanksFischlerShenkerSusskind97} [[Tom Banks]], W. Fischler, S.H. Shenker, [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_, Phys.Rev.D55:5112-5128,1997 ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
+ 
+* {#Polchinski99} [[Joseph Polchinski]], _M-Theory and the Light Cone_,   Prog.Theor.Phys.Suppl.134:158-170,1999 ([arXiv:hep-th/9903165](http://arxiv.org/abs/hep-th/9903165))
+ 
+based on discussion of bound states of $N$ D0-branes in
 
-Discussion via [[Green-Schwarz sigma-models]] and [[super L-infinity algebras]] is in section 4.2 of
+* [[Edward Witten]], _E.Witten, _Bound States of Strings and $p$-Branes_, Nucl.Phys. B 460, 1995, 335 ([arXiv:hep-th/9510135](http://arxiv.org/abs/hep-th/9510135)).
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
- {#FSS13}
+### As fundamental branes
+
+Discussion as fundamental branes via [[Green-Schwarz sigma-models]] and [[super L-infinity algebras]] is in section 4.2 of
+
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+ 
 
 
 [[!redirects D0-branes]]
