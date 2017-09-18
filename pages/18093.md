@@ -20,7 +20,7 @@ What is commonly known as _Minkowski's inequality_ is the statement that the [[p
 
 ## Proofs
 
-Our proof of Minkowski's inequality is broken down into a series of simple lemmas. The plan is to boil it down to two things: the scaling axiom, and convexity of the function $x \mapsto {|x|^p}$ (as a function from real or complex numbers to nonnegative real numbers). 
+Our proof of Minkowski's inequality is broken down into a few simple lemmas. The plan is to boil it down to two things: the scaling axiom, and convexity of the function $x \mapsto {|x|^p}$ (as a function from real or complex numbers to nonnegative real numbers). 
 
 First, some generalities. Let $V$ be a (real or complex) vector space equipped with a function ${\|(-)\|}\colon V \to [0, \infty]$ that satisfies the scaling axiom: ${\|t v\|} = {|t|} \, {\|v\|}$ for all scalars $t$, and the separation axiom: ${\|v\|} = 0$ implies $v = 0$. As usual, we define the [[unit ball]] in $V$ to be $\{v \in V \;|\; {\|v\|} \leq 1\}.$ 
 
@@ -29,7 +29,7 @@ First, some generalities. Let $V$ be a (real or complex) vector space equipped w
 Given that the scaling and separation axioms hold, the following conditions are equivalent: 
 
 1. The triangle inequality is satisfied. 
-1. The unit ball is convex. 
+1. The unit ball is [[convex set|convex]]. 
 1. If ${\|u\|} = {\|v\|} = 1$, then ${\|t u + (1-t)v\|} \leq 1$ for all $t \in [0, 1]$.  
 =-- 
 
@@ -46,7 +46,7 @@ $$\array{
 Now we prove that 3. implies 1.  Suppose ${\|v\|}, {\|v'\|} \in (0, \infty)$. Let $u = \frac{v}{{\|v\|}}$ and $u' = \frac{v'}{{\|v'\|}}$ be the associated unit vectors. 
 Then 
 $$\array{
-\frac{v + v'}{{\|v\|}+{\|v'\|}} & = & (\frac{{\|v\|}}{{\|v\|}+{\|v'\|}})\frac{v}{{\|v\|}} + (\frac{{\|v'\|}}{{\|v\|}+{\|v'\|}})\frac{v'}{{\|v'\|}} \\
+\frac{v + v'}{{\|v\|}+{\|v'\|}} & = & \left(\frac{{\|v\|}}{{\|v\|}+{\|v'\|}}\right)\frac{v}{{\|v\|}} + \left(\frac{{\|v'\|}}{{\|v\|}+{\|v'\|}}\right)\frac{v'}{{\|v'\|}} \\
  & = & t u + (1-t)u'}$$ 
 where $t = \frac{{\|v\|}}{{\|v\|} + {\|v'\|}}$. If condition 3. holds, then 
 $${\|t u + (1-t)u'\|} \leq 1$$ 
@@ -70,7 +70,7 @@ for all $t \in [0, 1]$.
 
 +-- {: .proof} 
 ###### Proof 
-The function $x \mapsto |x|$ is convex, and for $1 \lt p$ the function $t \mapsto t^p$ for $t \geq 0$ is monotone increasing and convex, by the first and second derivative tests. It follows easily that the composite of these two functions is convex. 
+The function $g: x \mapsto {|x|}$ is convex, and for $1 \lt p$ the function $f: t \mapsto t^p$ for $t \geq 0$ is monotone increasing and convex, by the first and second derivative tests. It follows easily that the composite $f \circ g$ is convex. 
 =-- 
 
 +-- {: .proof}
@@ -80,6 +80,7 @@ $$\int_X {|t u + (1-t)v|^p} \,d\mu \leq \int_X t{|u|}^p + (1-t){|v|}^p \,d\mu$$
 by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done. 
 =-- 
 
+Another commonly seen proof of Minkowski's inequality derives it with the help of [[Hölder's inequality]]; see there for some commentary on this. But this is probably not the first thing one would think of unless one knows the trick, whereas the alternative proof given above seems geometrically motivated and fairly simple. 
 
 ## Related concepts
 
