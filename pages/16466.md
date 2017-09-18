@@ -486,19 +486,72 @@ $$
 
 Under the tensor product of co-modules (def. \ref{TensorProductOfComodulesOverAHopfAlgebra}), these form a [[symmetric monoidal category]]. We now recall what recall what that means. 
 
-### Monoidal categories
+### Tensor products and Monoidal categories
 
-We want to lift the concepts of _[[ring]]_ and _[[module]]_ from _[[abelian groups]]_ to _[[spectra]]_. This requires a general idea of what it means to generalize these concepts at all. The abstract theory of such generalizations is that of _[[monoid in a monoidal category]]_.
+Recall the basic construction of the [[tensor product of vector spaces]].
 
-We recall the basic definitions of [[monoidal categories]] and of [[monoid in a monoidal category|monoids]] and [[module object|modules]] [[internalization|internal]] to monoidal categories. 
++-- {: .num_defn #TensorProductOfVectorSpaces} 
+###### Definition
 
+Given two [[vector spaces]] over some [[field]] $k$,  $V_1, V_2 \in Vect_k$, their [[tensor product of vector spaces]] is the vector space denoted
+
+$$
+  V_1 \otimes_k V_2 \in Vect
+$$
+
+whose elements are [[equivalence classes of]] [[tuples]] of elements $(v_1,v_2)$ with $v_i \in V_i$, for the [[equivalence relation]] given by
+
+$$
+  (k v_1 , v_2) \;\sim\; (v_1, k v_2)
+$$
+
+$$
+  (v_1 + v'_1 , v_2) \; \sim \; (v_1,v_2) + (v'_1, v_2)
+$$
+
+$$
+  (v_1 , v_2 + v'_2) \; \sim \; (v_1,v_2) + (v_1, v'_2)
+$$
+
+More abstractly this means that the [[tensor product of vector spaces]] is the vector space characterized by the fact that
+
+1. it receives a [[bilinear map]]
+   
+   $$
+     V_1 \times V_2 \longrightarrow V_1 \otimes V_2
+   $$
+
+   (out of the [[Cartesian product]] of the underlying sets)
+
+1. any other [[bilinear map]] of the form
+
+   $$
+     V_1 \times V_2 \longrightarrow V_3
+   $$
+
+   factors through the above bilinear map via a unique [[linear map]]
+
+   $$
+     \array{
+        V_1 \times V_2 &\overset{bilinear}{\longrightarrow}& V_3
+        \\
+        \downarrow & \nearrow_{\mathrlap{\exists ! \, linear}}
+         \\
+         V_1 \otimes_k V_2
+     }
+   $$
+
+=--
+
+The existence of the [[tensor product of vector space]], def. \ref{TensorProductOfVectorSpaces}, equips the category [[Vect]] of vector spaces with extra structure, which is a "[[categorification]]" of the familair structure of a [[semi-group]]. One also says "[[monoid]]" for [[semi-group]] and therefore [[categories]] equippd with a [[tensor product]] operation are also called  _[[monoidal categories]]_:
+ 
 
 +-- {: .num_defn #MonoidalCategory} 
 ###### Definition
 
-A **(pointed) [[topologically enriched category|topologically enriched]] [[monoidal category]]** is a (pointed) [[topologically enriched category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) equipped with 
+A **[[monoidal category]]** is a [[category]] $\mathcal{C}$ equipped with 
 
-1. a (pointed) [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
+1. a [[functor]]
 
    $$ 
       \otimes 
@@ -508,7 +561,7 @@ A **(pointed) [[topologically enriched category|topologically enriched]] [[monoi
       \mathcal{C}
    $$
 
-   out of the (pointed) topologival [[product category]] of $\mathcal{C}$ with itself (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), called the **[[tensor product]]**, 
+   out of the [[product category]] of $\mathcal{C}$ with itself, called the **[[tensor product]]**, 
 
 1. an object
 
@@ -518,7 +571,7 @@ A **(pointed) [[topologically enriched category|topologically enriched]] [[monoi
 
    called the **[[unit object]]** or **[[tensor unit]]**, 
 
-1. a [[natural isomorphism]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
+1. a [[natural isomorphism]] 
 
    $$
      a 
@@ -594,6 +647,103 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
 
 =--
 
+As expected, we have the following basic example:
+
++-- {: .num_example #VectAsAMonoidalCategory} 
+###### Example
+
+For $k$ a [[field]], the category [[Vect]]${}_k$ of $k$-[[vector spaces]] becomes a [[monoidal category]] (def. \ref{MonoidalCategory}) as follows
+
+* the abstract [[tensor product]] is the [[tensor product of vector spaces]] $\otimes_k$ from def. \ref{TensorProductOfVectorSpaces} 
+
+* the [[tensor unit]] is the [[field]] $k$ itself, regarded as a 1-dimensional vector space over itself;
+
+* the [[associator]] is the map that on representing [[tuples]] acts as
+
+  $$
+    \alpha_{V_{1}, V_2, V_3} 
+       \;\colon\; 
+   ((v_1, v_2), v_3) \mapsto (v_1, (v_2,v_3))
+  $$
+
+* the left [[unitor]] is the map that on representing [[tuples]] is given by
+
+  $$
+    \ell_{V} \colon (k,v) \mapsto k v
+  $$
+
+  and the right unitor is similarly given by
+
+  $$
+    r_V \colon (v,k) \mapsto k v
+    \,.
+  $$
+
+That this satisifes the [[pentagomn identity]] and the left and right unit identities is immediate on representing tuples.
+
+=--
+
+But the point of the abstract definition of [[monoidal categories]] is that there are also more exotic examples. The followig one is just a minimal enrichment of example \ref{VectAsAMonoidalCategory}, and yet it will be important.
+
++-- {: .num_example #GradedVectorSpacesAsAMonoidaCategory} 
+###### Example
+
+Let $G$ be a [[group]] (or in fact just a [[monoid]]/[[semi-group]]). A **$G$-[[graded vector space]]** $V$ is a [[direct sum]] of vector spaces labeled by the elements in $G$:
+
+$$
+  V = \underset{g \in G}{\oplus} V_g
+  \,.
+$$
+
+A [[homomorphism]] 
+
+$$
+  \phi \;\colon\; V \longrightarrow W
+$$
+
+of $G$-graded vector spaces is a [[linear map]] that respects this direct sum structure, hence equivalently a [[direct sum]] of [[linear maps]] 
+
+$$
+  \phi_g \;\colon\; V_g \longrightarrow W_g
+$$
+
+for all $g \in G$, such that
+
+$$
+  \phi = \underset{g \in G}{\oplus} \phi_g
+  \,.
+$$
+
+This defines a [[category]], denoted $Vect^G$. Equip this category with a [[tensor product]] which on the underlying vector spaces is just the [[tensor product of vector spaces]] from def. \ref{TensorProductOfVectorSpaces}, equipped with the $G$-grading with is obtained by multiplying degree labels in $G$:
+
+$$
+  (V \otimes W)_g
+    \;\coloneqq\;
+  \underset{{g_1, g_2 \in G} \atop {g_1 g_2 = g}}{\oplus}
+   V_{g_1} \otimes_k V_{g_2} 
+  \,.
+$$
+
+The [[tensor unit]] for the tensor product is the ground field $k$, regarded as being in the degree of the [[neutral element]] $e \in G$
+
+$$
+  1_g
+  \;=\;
+  \left\{
+    \array{
+      k & | g = e
+      \\
+      0 | otherwise
+    }
+  \right.
+  \,.
+$$
+
+The [[associator]] and [[unitors]] are just those of the monoidal structure on plain vector spaces, from example \ref{VectAsAMonoidalCategory}.
+
+=--
+
+One point of abstracting the concept of a [[monoidal category]] is that it allows to prove general statements uniformly for all kinds of tensor products, familar ones and more exotic ones. The following lemma \ref{kel1} and remark \ref{CoherenceForMonoidalCategories} are two important such statements.
 
 +-- {: .num_lemma #kel1} 
 ###### Lemma 
@@ -649,16 +799,18 @@ Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and 
 
 =--
 
+The above discussion makes it clear that a [[monoidal category]] is like a [[monoid]]/[[semi-group]], but "[[categorified]]". Accordingly we may consider additional properties of [[monoids]]/[[semi-groups]] and correspondingly lift them to monoidal categories. A key such property is _[[commutative ring|commutativity]]_. But while for a monoid, commutativity is just an extra [[property]], for a [[monoidal category]] it involves choices of commutativity-[[isomorphisms]] and hence is [[stuff, structure and property|extra structure]]. This may seem like a subtle point, but in fact, as we will see [below](#SuperGroupsAsSuperHopfAlgebras), this is the very source of [[superalgebra]].
+
 +-- {: .num_defn #BraidedMonoidalCategory} 
 ###### Definition
 
-A **(pointed) [[topologically enriched category|topological]] [[braided monoidal category]]**, is a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
+A **[[braided monoidal category]]**, is a [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
 
 $$ 
   \tau_{x,y} \colon x \otimes y \to y \otimes x 
 $$
 
-called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved ("hexagon identities"):
+(for all [[objects]] $x,y in \mathcal{C}$) called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved ("hexagon identities"):
 
 $$
   \array{
@@ -710,7 +862,7 @@ where $a_{x,y,z} \colon (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ den
 +-- {: .num_defn #SymmetricMonoidalCategory} 
 ###### Definition
 
-A **(pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]]** is a (pointed) topological [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]] 
+A **[[symmetric monoidal category]]** is a [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]] 
 
 $$ 
    \tau_{x,y} \colon x \otimes y \to y \otimes x 
@@ -733,19 +885,13 @@ In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{Coh
 
 =--
 
-+-- {: .num_example }
-###### Example
-
-[[finite dimensional vector spaces]]
-
-(duals,....)
-
-=--
+Consider the simplest non-trivial special case of $G$-[[graded vector spaces]] from example ref, the case where $G = \mathbb{Z}/2$ is the [[cyclic group of order two]]
 
 +-- {: .num_example }
 ###### Example
 
-A $\mathbb{Z}/2$-[[graded object|graded]] [[vector space]] (where $\mathbb{Z}/2$ is the [[cyclic group of order 2]]) is simply a [[direct sum]] of two vector spaces
+
+A $\mathbb{Z}/2$-[[graded vector space]] (where $\mathbb{Z}/2$ is the [[cyclic group of order 2]]) is a [[direct sum]] of two vector spaces
 
 $$
   V = V_{even} \oplus V_{odd}
@@ -777,7 +923,7 @@ $$
   \,.
 $$
 
-The [[tensor product]] of $\mathbb{Z}/2$-graded vector space is the [[tensor product of modules]] of the underlying vector spaces, but with the grading obtained from multiplying the original gradings in $\mathbb{Z}/2$. Hence
+The [[tensor product]] of $\mathbb{Z}/2$-graded vector space is the [[tensor product of vector spaces]] of the underlying vector spaces, but with the grading obtained from multiplying the original gradings in $\mathbb{Z}/2$. Hence
 
 $$
   (V_1 \otimes V_2)_{even}
@@ -798,7 +944,9 @@ $$
   \,.
 $$
 
-This definition makes $\mathbb{Z}/2$ a [[monoidal category]]. There are now two choices for a [[symmetric monoidal category|symmetric]] [[braiding]] on this monoidal category:
+As in example \ref{GradedVectorSpacesAsAMonoidaCategory}, this definition makes $\mathbb{Z}/2$ a [[monoidal category]] def. \ref{MonoidalCategory}. 
+
+There are, up to equivalence, precisely two choices for a [[symmetric monoidal category|symmetric]] [[braiding]] (def. \ref{SymmetricMonoidalCategory}) on this monoidal category:
 
 1. the trivial braiding. The resulting [[symmetric monoidal category]] we call that of $\mathbb{Z}/2$-[[graded vector spaces]].
 
@@ -826,7 +974,21 @@ This definition makes $\mathbb{Z}/2$ a [[monoidal category]]. There are now two 
 
 =--
 
+
+...[[rigid monoidal category]]...
+
++-- {: .num_example }
+###### Example
+
+[[finite dimensional vector spaces]]
+
+(duals,....)
+
+=--
+
+
 ### Super-groups as super-Hopf algebras
+  {#SuperGroupsAsSuperHopfAlgebras}
 
 hence we may internalize definition of commutative Hopf algebra
 into $sVect$...
