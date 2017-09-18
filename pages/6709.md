@@ -15,7 +15,7 @@
 
 ## Idea
 
-A family of [[characteristic class]]es that obstruct [[orientation]], [[spin structure]], [[spin^c structure]], etc.
+A family of [[characteristic class]]es that obstruct [[orientation]], [[spin structure]], [[spin^c structure]], [[w4-orientation of EO(2)-theory|orientation of EO(2)-theory]] etc.
 
 Stiefel-Whitney classes have coefficients in $\mathbb{Z}_2$, but via the [[Bockstein homomorphism]] they are lifted to [[integral Stiefel-Whitney class]]es.
 
