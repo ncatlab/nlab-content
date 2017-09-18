@@ -130,7 +130,7 @@ A quick overview of virtual fundamental classes for [[algebraic stacks]] is in s
 
 A more detailed overview with many pointers to the literature is in section 8 "Introduction to the virtual fundamental class" of
 
-* Nicola Pagani, _Introduction to Gromov-Witten theory and quantum cohomology_ ([pdf](http://www2.iag.uni-hannover.de/~pagani/DOC/corsogw.pdf))
+* Nicola Pagani, _Introduction to Gromov-Witten theory and quantum cohomology_ ([pdf](http://pcwww.liv.ac.uk/~pagani/DOC/corsogw.pdf))
 
 A review of virtual fundamental classes of [[orbifolds]] in [[differential geometry]] is around page 7 of 
 
