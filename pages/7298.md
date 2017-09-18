@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
-
 
 # Infinitesimal neighbourhoods
 * table of contents
@@ -41,15 +40,17 @@ $$
 
 The collection of all infinitesimal disks forms the [[infinitesimal disk bundle]] over $X$.
 
+
 ### In nonstandard analysis
 
-In [[nonstandard analysis]], the __monad__ of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoint]]s infinitely close to $p$.  It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the __infinitesimal neighbourhood__ of $p$.
+In [[nonstandard analysis]], the __monad__ or __halo__ of a standard point $p$ in a [[topological space]] (or even in a [[Choquet space]]) is the hyperset of all [[hyperpoint]]s infinitely close to $p$.  It is the [[intersection]] of all of the standard [[neighbourhoods]] of $p$ and is itself a hyper-neighbourhood of $p$, the __infinitesimal neighbourhood__ of $p$.
+
+It is best to avoid the term 'monad' for this concept on this wiki, since it has more or less nothing to with the categorial [[monads]] that are all over the place here (including elsewhere on this very page).
+
 
 ### For ringed spaces
 
 Consider a morphism $(f,f^\sharp):(Y,\mathcal{O}_Y)\to(X,\mathcal{O}_X)$ of [[ringed space]]s for which the corresponding map $f^\sharp:f^*\mathcal{O}_X\to\mathcal{O}_Y$ of sheaves on $Y$ is surjective. Let $\mathcal{I} = \mathcal{I}_f = Ker\,f^\sharp$, then $\mathcal{O}_Y = f^\sharp(\mathcal{O}_X)/\mathcal{I}_f$. The ring $f^*(\mathcal{O}_Y)$ has the $\mathcal{I}$-preadic filtration which has the associated graded ring $Gr_\bullet =\oplus_{n} \mathcal{I}_f^n/\mathcal{I}^{n+1}_f$ which in degree $1$ gives the [[conormal sheaf]] $Gr_1 = \mathcal{I}_f/\mathcal{I}^2_f$ of $f$. The $\mathcal{O}_Y$-augmented ringed space $(Y,f^\sharp(\mathcal{O}_X)/\mathcal{I}^{n+1})$ is called the $n$-th __infinitesimal neighborhood__ of $Y$ along morphism $f$. Its structure sheaf is called the $n$-th normal invariant of $f$. 
-
-
 
 
 
@@ -59,6 +60,7 @@ Consider a morphism $(f,f^\sharp):(Y,\mathcal{O}_Y)\to(X,\mathcal{O}_X)$ of [[ri
 
 
 [[!include infinitesimal and local - table]]
+
 
 ## References
 
@@ -84,6 +86,10 @@ In nonstandard analysis
 [[!redirects monads in nonstandard analysis]]
 [[!redirects monad in non-standard analysis]]
 [[!redirects monads in non-standard analysis]]
+
+[[!redirects halo]]
+[[!redirects halos]]
+[[!redirects haloes]]
 
 [[!redirects infinitesimal disk]]
 [[!redirects infinitesimal disks]]
