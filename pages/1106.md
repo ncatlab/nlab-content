@@ -127,6 +127,8 @@ For a similar link lists see also
 
 ### 5. The construction of colimits
 
+* [[quotient type]]
+
 ### 6. Factorization and images
 
 * [[image]]
