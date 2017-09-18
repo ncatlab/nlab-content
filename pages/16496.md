@@ -1,0 +1,9 @@
+See [[Hodge conjecture]] for now.
+
+## Related concepts
+
+* [[Hodge conjecture]]
+* [[algebraic cycles]]
+* [[etale cohomology]]
+
+## References
