@@ -130,7 +130,7 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 
 * [[duality in physics]]
 
-
+* [[fixed point of an adjunction]]
 
 ## References
 
