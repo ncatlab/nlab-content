@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 #### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -183,6 +187,10 @@ The connected components of this is equivalently the [[group cohomology]] of $G$
 * [[invariant theory]], [[invariant polynomial]]
 
 * [[gauge invariance]]
+
+* [[topological invariant]]/[[homeomorphism invariant]]
+
+* [[homotopy invariant]]
 
 [[!include homotopy type representation theory -- table]]
 
