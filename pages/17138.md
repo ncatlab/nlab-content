@@ -39,7 +39,7 @@ $\,$
 {#AA} Lecture notes. $\;\;\;\;\;\;\;$ (web version requires Firefox browser -- [free download](https://www.mozilla.org/en-US/firefox/new/))
 <br/>
 <br/>
-_[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-P.pdf), 99 pages)
+_[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-P.pdf), 100 pages)
 <br/>
 <br/>
 _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable homotopy theory]]_ 
