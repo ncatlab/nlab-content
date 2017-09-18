@@ -55,4 +55,6 @@ The [[isomorphism classes]] $[X]$ of objects of $\mathcal{C}$ form an $\mathbb{N
 
 * [[Clebsch-Gordan coefficient]]
 
+* [[Verlinde algebra]]
+
 [[!redirects fusion rings]]
