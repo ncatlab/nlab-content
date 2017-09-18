@@ -202,6 +202,8 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[ring spectrum]], [[module spectrum]]
 
+* [[orientation in generalized cohomology]]
+
 ### 11. Applications in K-theory
 
 ### 12. The Steenrod algebra and its dual
