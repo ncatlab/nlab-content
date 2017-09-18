@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.staff.science.uu.nl/~aruty101/)
+
+## related $n$Lab entries
+
+* [[Green-Schwarz action functional]]
+
+category: people
