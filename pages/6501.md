@@ -53,7 +53,9 @@ what shows that the transition functions are smooth (where $GL_n(k)$ has the sta
 ### In differential cohesion
  {#InDifferentialCohesion}
 
-Formalization of frame bundles in [[differential cohesion]] is discussed there in the section _[Differential cohesion -- Frame bundles](differential+cohesion#GLnTangentBundles)_
+In a context of [[differential cohesion]], then the frame bundle (or [[higher order frame bundle]]) of a $V$-[[manifold]] is the [[principal bundle]] ([[principal infinity-bundle]]) to which the [[infinitesimal disk bundle]] is the canonically [[associated bundle]] ([[associated infinity-bundle]])
+
+See at _[differential cohesion -- Frame bundles](differential+cohesion#GLnTangentBundles)_.
 
 ## Properties
 
