@@ -294,6 +294,10 @@ For $G$ a [[discrete group]] ([[geometrically discrete ∞-groupoid|geometricall
 
 ## Related concepts
 
+* [[equivariant stable homotopy theory]]
+
+* [[equivariant motivic homotopy theory]]
+
 * [[Sullivan conjecture]]
 
 * [[Arf-Kervaire invariant problem]]
