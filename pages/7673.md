@@ -35,7 +35,7 @@ $$ (y:C) \;\vdash\; (B(f(y)) \;type) $$
 
 should correspond to the pullback of $B\to A$ along $f$.  However, substitution in type theory is strictly [[associativity|associative]].  That is, given also $g:D\to C$, the dependent type
 
-$$ (z:C) \;\vdash\; (B(f(g(z))) \;type)$$
+$$ (z:D) \;\vdash\; (B(f(g(z))) \;type)$$
 
 is [[equality|syntactically the same]] regardless of whether we obtain it by substituting $y \coloneqq g(z)$ into $B(f(y))$, or $x \coloneqq f(g(z))$ into $B(x)$.  In category theory, however, pullback is not generally strictly associative, so there is a mismatch.  Similarly, every [[type formation rule|type-forming operation]] must also be strictly preserved by substitition/pullback.
 
