@@ -31,6 +31,11 @@ The [[generalized cohomology theory]] which is [[Brown representability theorem|
 
 ## References
 
+The basic concept appears in
+
+* {#Adams74} [[Frank Adams]], part III, section 6 of _[[Stable homotopy and generalised homology]]_, 1974
+
+
 A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivariant stable cohomotopy]] is discussed in
 
 * _A stable cohomotopy refinement of Seiberg-Witten invariants: I_ ([arXiv:math/0204340](http://arxiv.org/abs/math/0204340))
