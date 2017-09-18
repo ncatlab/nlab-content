@@ -46,8 +46,17 @@ $l_m := \{(x, m x)|x \in \mathbb{O}\}$ and $l_{\infty} := \{(0, y)|y \in \mathbb
 In this way the fibration $\mathbb{O}^2 \setminus (0, 0) \to S^8 = \{m \in \mathbb{O}\} \union \{\infty\}$ is obtained, with fibers $\mathbb{O} \setminus 0$, and the intersection with the unit sphere $S^{15} \subset \mathbb{O}^2$ provides the octonionic Hopf fibration (see [OPPV, p. 7](#OPPV)).
 
 This second construction yields the standard parameterization of the octonionic Hopf fibration via $(x,y) \mapsto x y^{-1}$ (in one chart) and $(x,y ) \mapsto x^{-1} y$ (in the other), while the Hopf construction gives $(x,y) \mapsto x y$. The latter yields the generator $-1$ of $\pi_{15}(S^8) \cong \mathbb{Z}$, while the former yields $+1$. 
+
+## Properties
  
-##Spin(9) action
+### $G_2$ action
+
+The [[automorphism group]] [[G2]] of the [[octonions]], as a [[normed algebra]], manifestly acts on the octonionic Hopf fibration.
+
+(see also [Cook-Crabb 93](#CookCrabb93))
+
+
+### Spin(9) action
 
 The subgroup $Spin(9) \subset SO(16)$ acts transitively on the octonionic Hopf fibration, which can be consider as a homogeneous fibration
 
@@ -68,3 +77,10 @@ $$
 * {#OPPV} Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899))
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
+
+Discussion in [[parameterized homotopy theory]] is in
+
+* {#CookCrabb93} A. L. Cook, M.C. Crabb, _Fiberwise Hopf structures on sphere bundles_, J. London Math. Soc. (2) 48 (1993) 365-384 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/crabbcook.pdf))
+
+* {#Iriye95} Kouyemon Iriye, _Equivariant Hopf structures on a sphere_, J. Math. Kyoto Univ. Volume 35, Number 3 (1995), 403-412 ([Euclid](http://projecteuclid.org/euclid.kjm/1250518704))
+
