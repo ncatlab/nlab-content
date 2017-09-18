@@ -1,4 +1,25 @@
-Every [[field]] $F$ has a [[characteristic]]: it is zero if for every nonzero $x\in F$ no positive multiple of $x$ is zero either. The basic example is the field $\mathbb{Q}$ of [[rational number]]s. One often says that any ring (or even superring) $R\supset \mathbb{Q}$ containing the rationals is also of characteristic zero. If a mathematical construct involves a "base field", e.g. an algebraic variety, then we say that it is in characteristic zero, if its base field is.  
 
-The basic example of an [[algebraically closed field]] of characteristic zero is the field $\mathbb{C}$ of [[complex number]]s. In model theory, there is a first-order theory of fields: every (commutative) field is a model. There is a transfer principle called __Lefschetz principle__ which says: every sentence expressed in the first order theory of fields which is true for complex numbers is true for every algebraically closed field of characteristic zero. It is named after Solomon Lefschetz who used it in algebraic geometry, reasoning topologically for other algebarically closed fields of characteristic zero. The formalization and its proof are due [[Alfred Tarski]].
+#Contents#
+* table of contents
+{:toc}
 
+## Definition
+
+Every [[field]] $F$ has a [[characteristic]]: it is zero if for every nonzero $x\in F$ no positive multiple of $x$ is zero either. 
+
+
+If a mathematical construct involves a "base field", e.g. an algebraic variety, then we say that it is in characteristic zero, if its base field is.  
+
+## Examples
+
+The basic example of a field of characteristic zero is the field $\mathbb{Q}$ of [[rational numbers]].  Therefore one often says that any [[ring]] (or even superring) $R\supset \mathbb{Q}$ containing the rationals is also of characteristic zero. 
+
+The basic example of an [[algebraically closed field]] of characteristic zero is the field $\mathbb{C}$ of [[complex numbers]]. 
+
+In [[model theory]], there is a first-order theory of fields: every (commutative) field is a model. There is a transfer principle called __Lefschetz principle__ which says: every sentence expressed in the first order theory of fields which is true for complex numbers is true for every algebraically closed field of characteristic zero. It is named after Solomon Lefschetz who used it in algebraic geometry, reasoning topologically for other algebarically closed fields of characteristic zero. The formalization and its proof are due [[Alfred Tarski]].
+
+## Related concepts
+
+* [[positive characteristic]]
+
+[[!redirects characteristic 0]]
