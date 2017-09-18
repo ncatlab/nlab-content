@@ -264,6 +264,7 @@ So (with notation as [above](#Supercoordinates)) we have the following.
 [[!include brane scan]]
 
 ### On curved spacetime and supergravity equations of motion 
+ {#OnCurvedSpacetime}
 
 > under construction
 
