@@ -16,6 +16,8 @@
 ## Definition
  {#Definition}
 
+We define general non-linear differential operators.
+
 ### In differential geometry
  {#DefinitionInDifferentialGeometry}
 
