@@ -306,7 +306,7 @@ $$
 Conversely, we may think of $\mathbf{H}^{\Delta[1]}$ as being an "infinitesimal thickening" of $\mathbf{H}$, as formalized at _[[differential cohesion]]_, where we regard
 
 $$
-  (i_! \dashv i^* \dashv i_* \dashv i^*)
+  (i_! \dashv i^* \dashv i_* \dashv i^!)
   : 
   \mathbf{H}
     \stackrel{\overset{\top_!}{\hookrightarrow}}{\stackrel{\overset{\top^*}{\leftarrow}}{\stackrel{\overset{const}{\hookrightarrow}}{\underset{\bot^*}{\leftarrow}}}}
