@@ -5,7 +5,9 @@
 
 ## Idea
 
-__Synthetic projective geometry__ is an [[axiom|axiomatic]] approach to  [[projective geometry]] without use of (algebraic or analytic) [[coordinate]] calculations (unlike the wider, modern study of projective and [[quasiprojective algebraic varieties]]). In particular, the method does not require that that [[projective space]] be defined over an [[algebraically closed field|algebraically closed ground field]], or even a [[field]] at all; for example the noncommutative ground [[division rings]] are possible as well as combinatorial descriptions of finite projective geometries. 
+__Synthetic projective geometry__ is an [[axiom|axiomatic]] approach to  [[projective geometry]] (usually of projective spaces) without use of (algebraic or analytic) [[coordinate]] calculations (unlike the wider, modern study of projective and [[quasiprojective algebraic varieties]]). 
+In particular, the method does not require that that [[projective space]] be defined over an [[algebraically closed field|algebraically closed ground field]], or even a [[field]] at all; for example the noncommutative ground [[division rings]] are possible as well as combinatorial descriptions of finite projective geometries. 
+In dimension different from $2$ only the projective spaces over division rings are possible, while in dimension $2$ other cases are possible, in particular non-Desarguesean planes (e.g. planes coming from Hall [[quasifield]]s).
 
 ## Related concepts
 
