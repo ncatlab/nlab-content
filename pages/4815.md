@@ -58,9 +58,19 @@ See in particular at [[FRW model]] for the role of the cosmological constant in 
 ### On the Cosmological constant problem
  {#CCProblemReferences}
 
-A good review is in 
+Discussion of the experimentally observed tiny cosmological constant and the issue with its theoretical explanation includes
+
+* Subir Sarkar, _New results in cosmology_ ([arXiv:hep-ph/0201140](https://arxiv.org/abs/hep-ph/0201140))
 
 * Stefanus Nobbenhuis, _The cosmological constant problem -- an inspiration for new physics_ PhD thesis (2006) ([web](http://igitur-archive.library.uu.nl/dissertations/2006-0615-200938/) [pdf](http://igitur-archive.library.uu.nl/dissertations/2006-0615-200938/c1.pdf))
+
+* Joan Sola, _Cosmological constant and vacuum energy: old and new ideas_, J.Phys.Conf.Ser. 453 (2013) 012015 ([arXiv:1306.1527](https://arxiv.org/abs/1306.1527))
+ 
+Early discussion from the point of view of [[string theory]] includes
+
+* {#Witten00} [[Edward Witten]], _The Cosmological Constant From The Viewpoint Of String Theory_ ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
+
+Shortly afterwards it became popular to invoke the [[landscape of string theory vacua]] in order to "solve" this state of affairs.
 
 [[!redirects dark energy]]
 
