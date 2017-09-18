@@ -37,6 +37,8 @@ Introductions and expositions include
 
 * Martin Stolz, _"Brave new rings"_ ([pdf](http://folk.uib.no/hus001/data/BraveNewRings.pdf))
 
+* [[Peter May]], _Brave new worlds in stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/WorldsNWU.pdf))
+
 * [[John Greenlees]], _First steps in brave new commutative algebra_ ([arXiv:math/0609453](http://arxiv.org/abs/math/0609453))
 
 Monographs on the technical core of "brave new algebra" in terms of [[symmetric monoidal categories of spectra]] include
