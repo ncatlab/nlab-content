@@ -1,0 +1,11 @@
+
+
+* [webpage](http://wwwth.mpp.mpg.de/members/deser/)
+
+## related $n$Lab entries
+
+* [[double field theory]]
+
+* [[L-infinity algebras in physics]]
+
+category: people
