@@ -122,6 +122,8 @@ See also [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for
 
 ## Related concepts
 
+* [[path space]]
+
 * [[loop space object]], [[free loop space object]],
 
   * [[delooping]], [[looping and delooping]]
