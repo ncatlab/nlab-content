@@ -5,7 +5,7 @@
 
 ## Idea and Definition 
 
-[[Leonhard Euler]] solved the problem of finding a function of a continuous variable $x$ which for integer values of $x=n$ agrees with the factoriel function $n\mapsto n!$. In fact, gamma function is a shift by one of the solution of this problem.
+[[Leonhard Euler]] solved the problem of finding a function of a continuous variable $x$ which for integer values of $x=n$ agrees with the factorial function $n\mapsto n!$. In fact, gamma function is a shift by one of the solution of this problem.
 
 For a complex variable $x\neq -1,-2,\ldots$, we define $\Gamma(x)$ by the formula 
 
