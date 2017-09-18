@@ -36,6 +36,9 @@ This is the _[[fundamental theorem of covering spaces]]_, see there for more.
 
 For a [[topos]]-theoretic notion of locally $n$-connected see _[[locally n-connected (infinity,1)-topos]]_.
 
+## Related concepts
+
+* [[locally path-connected topological space]]
 
 [[!redirects semi-locally simply connected topological spaces]]
 
