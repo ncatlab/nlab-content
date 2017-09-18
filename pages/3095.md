@@ -41,3 +41,5 @@ Linguists may deploy formal methods to understand grammatical strings of words, 
 * Peter Ladefoged, Keith Johnson, A course in phonetics
 * Steven Pinker,  _The language instinct_, 1994
 * Winfred P. Lehmann, _Historical linguistics: an introduction_
+
+[[!redirects formal linguistics]]
