@@ -104,14 +104,15 @@ Recall that the mod 2 Steenrod Hopf algebra is the dual of the commutative Hopf 
 ### As filtered colimits of finite-dimensional pieces
   {#AsFilteredColimits}
 
-+-- {: .num_prop #CoalgebrasAreFilteredColimitsOfTheirFinDimSubalghebras}
-###### Proposition
++-- {: .num_theorem #CoalgebrasAreFilteredColimitsOfTheirFinDimSubalghebras}
+###### Theorem
+**(fundamental theorem of coalgebras)**
 
 Every coalgebra is the [[filtered colimit]] of its finite-dimensional sub-coalgebras.
 
 =--
 
-This is due to ([Sweedler 69](#Sweedler69)). That this remains true for [[dg-coalgebras]] (see at _[dg-coalgebra -- As filtered colimit](differential+graded+coalgebra#AsFilteredColimits)_) is due to ([Getzler-Goerss 99](#GetzlerGoerss99)).
+This is maybe due to ([Sweedler 69](#Sweedler69)), for proof see also for instance ([Michaelis 03](#Michaelis03)). That this remains true for [[dg-coalgebras]] (see at _[dg-coalgebra -- As filtered colimit](differential+graded+coalgebra#AsFilteredColimits)_) is due to ([Getzler-Goerss 99](#GetzlerGoerss99)).
 
 +-- {: .num_remark }
 ###### Remark
@@ -120,12 +121,18 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
 
 =--
 
+## Related concepts
 
+* [[cofree coalgebra]]
+
+* [[dg-coalgebra]]
 
 
 ## References
 
 * {#Sweedler69} [[Moss Sweedler]], _Hopf algebras_, 1969
+
+* {#Michaelis03}  [[Walter Michaelis]], _Coassociative Coalgebras_, Handbook of Algebra Volume 3, Elsevier (2003). 
 
 * {#AbramsWeibel99} [[Lowell Abrams]], [[Charles Weibel]], _Cotensor products of modules_ ([arXiv:math/9912211](http://arxiv.org/abs/math/9912211))
 
