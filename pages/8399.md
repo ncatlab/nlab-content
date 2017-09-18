@@ -78,11 +78,11 @@ Finally, for setups that admit to introduce [[fermions]]/[[spinors]] into the mo
 ### Relation to the "principle of equivalence" in gravity
  {#RelationToPrincipleOfEquivalenceInGravity}
 
-The _principle of equivalence_ in [[general relativity]] is formally the statement that around every point in a ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian manifold]] one can find a [[coordinate system]] such that the [[Levi-Civita connection]] vanishes ("[[Riemann normal coordinates]]"), which means that to **first [[infinitesimal space|infinitesimal]] order** around that point particle dynamics subject to the force of gravity is equivalent to dynamics in [[Minkowski spacetime]] with vanishing field of grvity.
+The _[[equivalence principle (physics)|principle of equivalence]]_ in [[general relativity]] is formally the statement that around every point in a ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian manifold]] one can find a [[coordinate system]] such that the [[Levi-Civita connection]] vanishes ("[[Riemann normal coordinates]]"), which means that to **first [[infinitesimal space|infinitesimal]] order** around that point particle dynamics subject to the force of gravity is equivalent to dynamics in [[Minkowski spacetime]] with vanishing field of grvity.
 
 By the above this is a special case of the principle of general covariance: for every field configuration $g$ and every given point there is a gauge equivalent field configuration $f^* g$ such that the "force of gravity" (the Levi-Civita connection) vanishes at that point.
 
-It is via this relation that the physical "principle of equivalence" relates to the mathematical _[[principle of equivalence]]_: this says that formulations need to respect the given notion of [[equivalence]]/[[gauge transformation]], and so
+It is via this relation that the physical "[[equivalence principle (physics)|principle of equivalence]]" relates to the mathematical _[[principle of equivalence]]_: this says that formulations need to respect the given notion of [[equivalence]]/[[gauge transformation]], and so
 
 [[principle of equivalence]] in mathematics $\Rightarrow$ principle of general covariance $\Rightarrow$ principle of equivalence in physics .
 
@@ -642,7 +642,7 @@ $$
   }
 $$
 
-in $\mathbf{H}$. Here the [[∞-image]] is directly read off to be the factorization in the second column from the right of
+in $\mathbf{H}$. Here the [[∞-image]] is directly read off to be the factorization in the third column of
 
 $$
   \array{
