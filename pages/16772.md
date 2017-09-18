@@ -45,3 +45,5 @@ The [[group cohomology]] of the dihedral group is discussed for instance at [Gro
 
 
 [[!redirects dihedral groups]]
+
+[[!redirects binary dihedral group]]
