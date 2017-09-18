@@ -104,7 +104,7 @@ A logical functor has a [[left adjoint]] precisely if it has a [[right adjoint]]
 
 =--
 
-This appears as ([Johnstone, cor. 2.2.10](#Johnstone)).
+This appears as ([Johnstone, cor. A2.2.10](#Johnstone)).
 
 +-- {: .proof}
 ###### Proof
