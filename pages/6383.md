@@ -86,6 +86,15 @@ Assuming the [[axiom of choice]], the following are equivalent:
 
 This is for instance in ([Tsit-YuenMoRi,Proposition 3.19] (#Tsit-YuenMoRi)). It follows for instance from using [[Baer's criterion]].
 
+### Vector space structure
+
++-- {: .num_prop }
+###### Proposition
+
+The [[torsion-free]] and divisible abelian groups are precisely the $\mathbb{Q}$-vector spaces, i.e. if $A$ is torsion-free and divisible, then it carries a unique vector space structure.
+
+=--
+
 ### Stability under various operations
 
 +-- {: .num_prop }
