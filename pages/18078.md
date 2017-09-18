@@ -1,4 +1,6 @@
 
+$\notin$
+
 {#TableOfMainSeparationAxioms}
 | number | name | statement | reformulation |
 |--------|------|-----------|---------------|
