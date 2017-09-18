@@ -735,6 +735,7 @@ This is the formula for the [[unit of an adjunction|unit]] of the composite adju
 $\mathbf{H}_{th} \stackrel{\overset{\Pi_{inf}}{\to}}{\underset{Disc_{inf}}{\leftarrow}} \mathbf{H} \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}} \infty Grpd$:
 
 
+
 $$
   X \stackrel{i_{inf}X}{\to} Disc_{inf}\Pi_{inf} X
   \stackrel{Disc_{inf}(i_{\mathbf{H}}\Pi_{inf}X)}{\to}
@@ -1139,6 +1140,7 @@ is an [[equivalence in an (∞,1)-category|equivalence]]. As such it is in parti
 
 A set of objects $\{D_\alpha \in \mathbf{H}_{th}\}_\alpha$
 is said to **exhibit the differential structure** or
+
 **exhibit the infinitesimal thickening** if the
 [[localization of an (∞,1)-category|localization]]
 
@@ -2113,7 +2115,7 @@ This exhibits $T_{inf} X\to X$ as a $\mathbb{D}^V$-[[fiber ∞-bundle]].
 +-- {: .num_prop #ModulatingMapOfFormalDiskBundle}
 ###### Remark
 
-By [this discussion](fiber+infinity-bundle#Properties) this fiber [[fiber ∞-bundle]] is the [[associated ∞-bundle]] of an essentially uniquely determined $\mathbf{Aut}(\mathbb{D}^n)$-[[principal ∞-bundle]].
+By [this discussion](fiber+infinity-bundle#Properties) this fiber [[fiber ∞-bundle]] is the [[associated ∞-bundle]] of an essentially uniquely determined $\mathbf{Aut}(\mathbb{D}^V)$-[[principal ∞-bundle]].
 
 =--
 
