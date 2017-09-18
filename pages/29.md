@@ -23,7 +23,9 @@
 
 An _isomorphism_ is an invertible [[morphism]], hence a morphism with an [[inverse morphism]].
 
-Two [[objects]] of a [[category]] are **isomorphic** if they are _essentially equal_ without necessarily actually being equal.  An **isomorphism** is a specific way of translating one object to an isomorphic one.  Note that it\'s often not enough to know *that* two objects are isomorphic; you may need to know *how* they are isomorphic, that is to know the specific isomorphism in question.
+Two [[objects]] of a [[category]] are **isomorphic** if they are connected by an isomorphism.
+
+This means that they are_essentially equal_ without necessarily being actually equal.  An **isomorphism** is a specific way of translating one object to an isomorphic one.  Note that it\'s often not enough to know *that* two objects are isomorphic; you may need to know *how* they are isomorphic, that is to know the specific isomorphism in question.
 
 
 ##Definitions
@@ -34,6 +36,8 @@ A morphism could be called __isic__ (following the more common 'monic' and 'epic
 
 
 ## Properties
+
+It is immediate that isomorphisms satisfy the [[two-out-of-three]] property. But they also satisfy [[two-out-of-six property]].
 
 Note that the inverse of an isomorphism is an isomorphism, as is any [[identity morphism]] or [[composite]] of isomorphisms.  Thus, being isomorphic is an [[equivalence relation]] on objects.  The equivalence classes form the [[fundamental 0-groupoid]] of the category in question.
 
