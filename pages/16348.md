@@ -6,7 +6,7 @@ A **connectology** on a set $X$ is a structure which abstracts the information a
 
 A **connectology** on a set $X$ consists of a set of subsets of $X$, called *connected* sets, such that the following axioms hold.
 
-1. If $C\subseteq \mathcal{P}(X)$ is a family of connected sets such that $\bigcap C \neq \emptyset$, then $\bicgup C$ is connected.
+1. If $C\subseteq \mathcal{P}(X)$ is a family of connected sets such that $\bigcap C \neq \emptyset$, then $\bigcup C$ is connected.
 
 2. Every [[singleton]] $\{x\}$ is connected.
 
