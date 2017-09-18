@@ -116,6 +116,7 @@ For a longer answer, see for instance
 * [[Andrej Bauer]], _[Univalent foundations subsume classical mathematics](http://math.andrej.com/2014/01/13/univalent-foundations-subsume-classical-mathematics/)_ (2013)
 
 ### What advantages does homotopy type theory have over set theory?
+As explained above, HoTT subsumes set theory. It has all the advantages that structural set theory ([[Algebraic set theory]], [[ETCS]]) has over iterative set theory ([[ZFC]]), but moreover it allows us to natively capture higher categorical (more precisely, higher groupoidal) and homotopical reasoning. Moreover, as a practical foundation, set theory may be compared to the Turing machine model, or perhaps more generously, say, [ALGOL](http://en.wikipedia.org/wiki/ALGOL). Whereas, homotopy type theory is closely related to modern programming languages like haskell and ML, or more accurately [[Coq]] and [[agda]].
 
 ### In what sense does homotopy type theory already contain logic?
 
