@@ -204,13 +204,27 @@ $$
 
 where we set $\xi_0 \coloneqq 1$.
 
-By binary expansion of powers, there is a unique way to express every monomial in $\mathbb{F}_2[\xi_1, \xi_2, \cdots]$ as a product of elements
++-- {: .num_defn #hGeneratorsInClassicalAdamsSpectralSequence}
+###### Definition
+
+Set
 
 $$
   h_{i,n} \coloneqq \xi_i^{2^n}
+  \,.
 $$
 
-such that each such element appears at most once in the product. E.g.
+Also one abbreviates
+
+$$
+  h_n \coloneqq h_{1,n} = \xi_1^{2^n}
+  \,.
+$$
+
+
+=--
+
+By binary expansion of powers, there is a unique way to express every monomial in $\mathbb{F}_2[\xi_1, \xi_2, \cdots]$ as a product of the elements $h_{i,n}$ from def. \ref{hGeneratorsInClassicalAdamsSpectralSequence}, such that each such element appears at most once in the product. E.g.
 
 $$
   \begin{aligned}
@@ -224,8 +238,8 @@ $$
   \,.
 $$
 
-+-- {: .num_remark #CoproductOnDualSteenrodInTermsOfAdaptedGenerators}
-###### Remark
++-- {: .num_prop #CoproductOnDualSteenrodInTermsOfAdaptedGenerators}
+###### Proposition
 
 In terms of the generators $\{h_{i,n}\}$, the coproduct on $\mathcal{A}^\ast_{\mathbb{F}_2}$ takes the following simple form
 
@@ -376,7 +390,7 @@ $$
 
 This is the _May spectral sequence_ for the computation of $Ext_{\mathcal{A}^\ast_{\mathbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)$. Notice that since everything is $\mathbb{F}_2$-linear, its [extension problem](spectral+sequence#ExtensionProblem) is trivial.
 
-Moreover, again by lemma \ref{SpectralSequenceConvergingToExtForFilteredHopfAlgebra}, the differentials on any $r$-page are the restriction of the differentials of the bar complex to the $r$-almost cycles ([prop.](Introduction+to+Stable+homotopy+theory+--+I#DifferentialsOnAlmostChains)). The differential of the bar complex is the alternating sum of the coproduct on $\mathcal{A}^\ast_{\mathbb{F}_2}$, hence by remark \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} this is:
+Moreover, again by lemma \ref{SpectralSequenceConvergingToExtForFilteredHopfAlgebra}, the differentials on any $r$-page are the restriction of the differentials of the bar complex to the $r$-almost cycles ([prop.](Introduction+to+Stable+homotopy+theory+--+I#DifferentialsOnAlmostChains)). The differential of the bar complex is the alternating sum of the coproduct on $\mathcal{A}^\ast_{\mathbb{F}_2}$, hence by prop.  \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} this is:
 
 $$
   d_1 (h_{i,n})
@@ -385,54 +399,125 @@ $$
 $$
 
 
+
 ## The second page of the classical Adams spectral sequence
+ {#TheSecondPageOfTheClassicalAdamsSpectralSequence}
 
 
 Now we use the above formula to explicitly compute the cohomology of the second page of the [[classical Adams spectral sequence]].
 
-In doing so it is now crucial that the standard bar complex resolution for $Ext$ is built from $\overline{\Gamma} \coloneqq coker(\eta)$ instead of from $\Gamma$. In $\overline{\Gamma}$ the generator $\xi_0 = 1$ has disappeared.
+In doing so it is now crucial that the standard bar complex resolution for $Ext$ is built from $\overline{\Gamma} \coloneqq coker(\eta)$ instead of from $\Gamma$. In $\overline{\Gamma}$ the generator $h_{0,n} = \xi_0 = 1$ has disappeared.
 
-Hence we find
-
-$$
-  d_1(\xi_1^{2^k})
-  =
-  \xi_1^{2^k} \underset{= 0}{\underbrace{\xi_0^{2 k}}}
-  + 
-  \underset{= 0}{\underbrace{\xi_0^{2^{k+1}}}} \xi_1^{2^k}
-  = 
-  0
-$$
-
-and hence all the
+Hence we find for instance, using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} that
 
 $$
-  h_i \coloneqq \xi_1^{2^i}
+  \begin{aligned}
+    d_1(h_n)
+    & \coloneqq
+    d_1(h_{1,n})
+    \\
+    & =   
+    \Psi(h_{1,n})
+    \\
+    & =
+    h_{1,n+1} \underset{= 0}{\underbrace{ h_{0,n} }}
+    + 
+    \underset{= 0}{\underbrace{ h_{0,n+1} }} h_{1,n}
+    \\
+    & = 
+    0
+  \end{aligned}
 $$
 
-are cocycles. 
+and hence all the elements $h_n$ are cocycles.
 
 Similarly for instance
 
 $$
-  d_1(\xi_2) 
+  d_1(h_{2,0}) 
     = 
-  \xi_2 \underset{= 0}{\underbrace{\xi_0}}
-    +
-  \xi_1^{2} \xi_1
-    +
-  \underset{= 0}{\underbrace{\xi_0}} \xi_2
+  h_{2,0} \underset{= 0}{\underbrace{h_{0,0}}}
+  + 
+  h_{1,1} h_{1,0}
+  +
+  \underset{= 0}{\underbrace{h_{0,2}}} h_{2,0}
 $$
 
 and so this is not a cocycle, but gives the relation that the product
 
 $$
-  \xi_1^{2} \xi_1 = 0
+  h_{1,1} h_{1,0} = 0
 $$
 
-in cohomology. And so forth.
+in cohomology. Proceeding this way by explicit inspection, one obtains:
 
-(...)
++-- {: .num_lemma }
+###### Lemma
+
+In the range $t - s \leq 13$, the second page of the May spectral sequence for $Ext_{\mathbb{A}^\ast_{\matbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)$ has as generators all the 
+
+* $h_n$
+
+* $b_{i,n} \coloneqq (h_{i,n})^2$
+
+as well as the element
+
+*  $x_7 \coloneqq h_{2,0} h_{2,1} + h_{1,1} h_{3,0}$
+
+subject to the relations
+
+* $h_n h_{n+1} = 0$
+
+* $h_2 b_{2,0} = h_0 x_7$
+
+* $h_2 x_7 = h_0 b_{2,1}$.
+
+The differentials in this range are
+
+1. $d_r(h_{n}) = 0$
+
+1. $d_2(b_{2,n}) = h_n^2 h_{n+2} + h_{n+1}^3$
+
+1. $d_2(x_7) = h_0 h_2^2$
+
+1. $d_2(b_{3,0}) = h_1 b_{2,1} + h_3 b_{2,0}$
+
+1. $d_4(b_{2,0}^2) = h_0^4 h_3$.
+
+=--
+
+e.g. ([Ravenel 86, lemma 3.2.8 and lemma 3.2.10](#Ravenel86), [Kochman 96, lemma 5.3.2 and lemma 5.3.3](#Kochman96))
+
+Hence this solves the May spectral sequence, hence gives the second page of the classical Adams spectral sequence. Inspection just of the degrees then shows that in this range there is no non-trivial differential in the Adams spectral sequece in this range. This way one arrives at:
+
++-- {: .num_theorem}
+###### Theorem
+
+In low $t-s$ the group $Ext_{\mathcal{A}^\ast_{\mathbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)$ is spanned by the items in the following table
+
+<img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
+
+(graphics taken from ([[Symmetric spectra|Schwede 12]]))
+
+
+=--
+
+([Ravenel 86, theorem 3.2.11](#Ravenel86), [Kochman 96, prop. 5.3.6](#Kochman96))
+
+Hence the first dozen [[stable homotopy groups of spheres]] 2-locally are
+
+
+| $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $\pi_k(\mathbb{S}\otimes \mathbb{Z}_{(2)}) = $ | $\mathbb{Z}_{(2)}$  | $\mathbb{Z}/2$  |  $\mathbb{Z}/2$ |  $\mathbb{Z}/8$ |  $0$ |  $0$ | $\mathbb{Z}/2$ |   $\mathbb{Z}/16$ | $(\mathbb{Z}/2)^2$ |  $(\mathbb{Z}/2)^3$ | $\mathbb{Z}/2$ | $\mathbb{Z}/8$ | $0$ | $0$ | 
+
+Remark: The full answer turns out to be this:
+
+
+| $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | $\cdots$ | 
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $\pi_k(\mathbb{S}) = $ | $\mathbb{Z}$  | $\mathbb{Z}_2$  |  $\mathbb{Z}_2$ |  $\mathbb{Z}_{24}$ |  $0$ |  $0$ | $\mathbb{Z}_2$ |   $\mathbb{Z}_{240}$ | $(\mathbb{Z}_2)^2$ |  $(\mathbb{Z}_2)^3$ | $\mathbb{Z}_6$ | $\mathbb{Z}_{504}$ | $0$ | $\mathbb{Z}_3$ | $(\mathbb{Z}_2)^2$ | $\mathbb{Z}_{480} \oplus \mathbb{Z}_2$ | $\cdots$ |
+
 
 
 ## Related concepts
