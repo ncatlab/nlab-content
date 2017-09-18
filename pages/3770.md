@@ -154,4 +154,9 @@ A review and characterization in terms of [[globular theories]] is in section 1 
 * [[Clemens Berger]], _A cellular nerve for higher categories_, Advances in Mathematics 169, 118-175 (2002) ([pdf](http://math1.unice.fr/~cberger/nerve.pdf))
  {#Berger}
 
+Other work on globular operads :
+
+* [[Camell Kachour]], Operads of higher transformations for globular sets and for higher magmas, Published in Categories and General Algebraic Structures with Applications (2015). 
+
+
 [[!redirects globular operads]]
