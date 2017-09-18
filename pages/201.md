@@ -214,3 +214,6 @@ Categories [[enriched category|enriched]] over $Ab$ are called [[additive catego
 
 
 category: category
+
+[[!redirects category of abelian groups]]
+[[!redirects categories of abelian groups]]
