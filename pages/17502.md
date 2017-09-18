@@ -1,0 +1,33 @@
+
+1. A $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-category of $2$-categories, $2$-functors of arbitrary variance, and [[lax natural transformations]]. Instead of giving each commutativity condition for the sixteen kinds of lax natural transformations, let us write down the one that a [[category of V-enriched categories]] comes equipped with: a lax natural transformation $F\stackrel{\alpha}\Rightarrow G\colon$**C**$\to$**D**, where $F$ is a $2$-functor flipping $2$-morphisms, and $G$ is $2$-functor flipping $1$-morphisms, consists of an $\ob(\mathbf{C})$-indexed family of $1$-morphisms $FX\stackrel{\alpha_X}{\to} GX$ in **D**, and for each two objects $X,Y$ of **C**, an $\ob[X,Y]$-indexed family of $2$-morphisms $\alpha_f$, so that for every $2$-morphism $f\stackrel{\gamma}{\Rightarrow} g$, we have the commutative diagram of $2$-moprhisms in **D**:
+$$
+\array{
+&&FX&\stackrel{Ff}{\rightarrow}&FY\\
+&&\alpha_X\downarrow&\stackrel{\alpha_f}{\Rightarrow}&\downarrow\alpha_Y&&FX\\
+&&GX&\stackrel{Gf}{\leftarrow}&GY&&\downarrow Ff\\
+FX&\stackrel{id}{\neArrow}&&&& \stackrel{G\gamma.(\alpha_Y\circ Ff)}{\seArrow}&FY\\
+\alpha_X\downarrow&&&&&&\downarrow\alpha_Y\\
+FY&\stackrel{id}{\seArrow}&&&&\stackrel{(Gg\circ\alpha_Y).F\gamma}{\neArrow}&GY\\
+&&FX&\stackrel{Fg}{\rightarrow}&FY&&\downarrow Gg\\
+&&\alpha_X\downarrow&\stackrel{\alpha_g}{\Rightarrow}&\downarrow\alpha_Y&&GX\\
+&&GX&\stackrel{Gg}{\leftarrow}&GY
+}$$
+where . is whiskering/horizontal composition. Furthermore, given composable $1$-morphisms $X\stackrel{f}{\rightarrow}Y\stackrel{h}{\rightarrow} Z$, the $2$-moprhisms $\alpha_X\stackrel{\alpha_f}{\Rightarrow}Gf\circ\alpha_Y\circ Ff$ and $\alpha_Y\stackrel{\alpha_h}{\Rightarrow}Gh\circ\alpha_Z\circ Fh$ are related via the formula $\alpha_{h\circ f}=(Gf.\alpha_h.Ff)\circ\alpha_f$, which says that the [[pasting diagram]] of $2$-morphisms:
+$$
+\array{
+FX&\stackrel{Ff}{\rightarrow}&FY&\stackrel{Fh}{\rightarrow}&FZ\\
+\alpha_X\downarrow&\stackrel{\alpha_f}{\Rightarrow}&\downarrow\alpha_Y&\stackrel{\alpha_h}{\Rightarrow}&\downarrow\alpha_Z\\
+GX&\stackrel{Gf}{\leftarrow}&GY&\stackrel{Gh}{\leftarrow}&GZ
+}$$
+reduces to
+$$
+\array{
+FX&\stackrel{Fh\circ Ff}{\rightarrow}&FZ\\
+\alpha_X\downarrow&\stackrel{\alpha_{h\circ f}}{\Rightarrow}&\downarrow\alpha_Z\\
+GX&\stackrel{Gh\circ Gf}{\leftarrow}&GZ
+}$$
+
+2. A $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-category of $2$-categories, $2$-functors of arbitrary variance, and [[lax natural transformations|oplax natural transformations]].
+
+Somewhat mysteriously, the [[category of V-enriched categories]] is a $2$-category which comes with a [[unit enriched category]] $\mathcal{I}$ and either a lax natural transformation $[\mathcal{I},-]^{op}\Rightarrow[[\mathcal{I},-],V_0]$ (in the case of $\mathcal{V}$ a [[monoidal category|monoidal structure]] on $V$), or a lax natural transformation $[\mathcal{I},-]^{op}\Rightarrow[-,V^e]$ (in the case of $\mathcal{V}$ a [[closed category|closed structure]] on $[\mathcal{I},V^e]\cong V_0$).
+
