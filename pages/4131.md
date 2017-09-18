@@ -106,11 +106,9 @@ Let $X$ be simply a [[set]].
 
 A collection $B$ of [[subsets]] of $X$ is a base for *some* topology on $X$ iff these conditions are met:
 
-*  $B$ is [[inhabited set|inhabited]];
-*  if $U, V \in B$, then $U \cap V$ contains some element of $B$.
+*  The elements of $B$ cover $X$;
+*  For any $U, V \in B$ and any point $x \in U \cap V$ there is a $W \in B$ such that $W \subseteq U \cap V$ and $x \in W$.
 =--
-
-This is a sort of colax closure (see [discussion](http://nforum.mathforge.org/discussion/4188/laxness-of-bases-of-topologies/)) under [[finitary intersections]].
 
 +-- {: .num_prop}
 ###### Proposition
@@ -118,7 +116,7 @@ This is a sort of colax closure (see [discussion](http://nforum.mathforge.org/di
 *Every* collection $S$ of subsets of $X$ is a subbase for some topology on $X$.
 =--
 
-A subbase naturally generates a base (for the same topology) by [[Moore closure|closing]] it under finitary intersections.  (The resulting base will actually be closed under intersection, not just colax-closed.)
+A subbase naturally generates a base (for the same topology) by [[Moore closure|closing]] it under finitary intersections.  (The resulting base will actually be closed under intersection.)
 
 
 ## Relation to Grothendieck topologies and coverages
