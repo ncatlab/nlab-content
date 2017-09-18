@@ -26,7 +26,7 @@ _Exact couples_ are a way to encode data that makes a [[spectral sequence]], spe
 ###### Definition
 
 
-Given an [[abelian category]] $\mathcal{C}$, an **[[exact couple]]** in $\mathcal{C}$ is a cyclic [[exact sequence]] of three [[morphisms]] among two [[objects]] of the form
+Given an [[abelian category]] $\mathcal{C}$, an **[[exact couple]]** in $\mathcal{C}$ is a cyclic [[long exact sequence]] of three [[morphisms]] among two [[objects]] of the form
 
 $$ 
   \cdots \stackrel{k}{\longrightarrow} E \overset{j}{\to} D \overset{\varphi}{\longrightarrow} D \overset{k}{\to} E \overset{j}{\longrightarrow} \cdots 
@@ -168,7 +168,7 @@ in which $\beta$ is the _mod-$p$ [[Bockstein homomorphism]]_.
 
 The original article is
 
-*  [[W. S. Massey]], _[Exact Couples in Algebraic Topology (Parts I and II)](http://www.maths.ed.ac.uk/~aar/papers/massey6.pdf), Annals of Mathematics, Second Series, Vol. 56, No. 2 (Sep., 1952), pp. 363-396 
+*  [[W. S. Massey]], _Exact Couples in Algebraic Topology (Parts I and II)_, Annals of Mathematics, Second Series, Vol. 56, No. 2 (Sep., 1952), pp. 363-396 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/massey6.pdf))
 
 A class of examples leading to what later came to be known as the [[Atiyah-Hirzebruch spectral sequence]] is discussed in section XV.7 of 
 
