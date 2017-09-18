@@ -80,7 +80,7 @@ Traditionally, the term is reserved for this line.
 
 In the [[foundations]] of [[constructive mathematics]], __de Morgan\'s Law__ usually means the statement
 $$ \neg(p \wedge q) \vdash \neg{p} \vee \neg{q} ,$$
-since every other aspect of the first two lines is already constructively valid, the claim that negation mediates the de Morgan self-duality of negation already has a name (the [[double negation]] law, equivalent to the principle of [[excluded middle]]), and no other line involves only operators that appear in intuitionstic [[propositional calculus]].
+since every other aspect of the first two lines is already constructively valid, the claim that negation mediates the de Morgan self-duality already has a name (the [[double negation]] law, equivalent to the principle of [[excluded middle]]), and no other line involves only operators that appear in intuitionstic [[propositional calculus]].
 
 
 [[!redirects de Morgan duality]]
