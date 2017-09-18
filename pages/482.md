@@ -43,7 +43,7 @@ The kernel pair is always a [[congruence]] on $X$; informally, $R$ is the [[subo
 
 The [[coequalizer]] of the kernel pair, if it exists, is supposed to be the "object of equivalence classes" of the internal [[equivalence relation]] $R$. In other words, it is the [[quotient object]] of $X$ in which [[generalized element]]s are identified if they are mapped by $f$ to equal values in $Y$. In a [[regular category]] (at least), this can be identified with a [[subobject]] of $Y$ called the [[image]] of $f$.
 
-If a pair of parallel morphisms is a kernel pair and has a coequalizer, then it is the coequalizer of its kernel pair.  This is a special case of the correspondence of [[generalized kernels]] in enriched categories.
+If a morphism has a kernel pair and is a coequalizer, then it is the coequalizer of its kernel pair.  This is a special case of the correspondence of [[generalized kernels]] in enriched categories.
 
 See also: [[regular epimorphism]], [[regular category]], [[exact category]]
 
