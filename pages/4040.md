@@ -38,7 +38,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[subspace]], [[quotient space]], 
 
-* fiber space, [[attaching space]]
+* fiber space, [[space attachment]]
 
 * [[product space]], [[disjoint union space]]
 
@@ -125,6 +125,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 * [[continuous image of a compact space is compact]]
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[open subspaces of compact Hausdorff spaces are locally compact]]
 
 * [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
 
