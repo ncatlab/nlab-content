@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 **Arithmetic differential geometry** is an approach to [[arithmetic]] which looks to find analogs of constructions in [[differential geometry]], for example, [[arithmetic jet spaces]]. It has been developed primarily by [[Alexandru Buium]].
 
@@ -11,6 +31,9 @@ $$
 
 * [[arithmetic jet space]]
 * [[Borger's absolute geometry]]
+
+* [[D-geometry]]
+
 * [[arithmetic geometry]]
 
 ##References 
