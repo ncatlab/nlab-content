@@ -58,3 +58,6 @@ One can also build bump functions that are _nowhere_ analytic (as opposed to mer
 
 [[!redirects bump function]]
 [[!redirects bump functions]]
+
+[[!redirects smooth bump function]]
+[[!redirects smooth bump functions]]
