@@ -15,7 +15,7 @@
 
 ## Idea
 
-The concept of a **cylinder object** in a [[category]] is an abstraction of the construction in [[Top]] which associates to any [[topological space]] $X$ the _cylinder_ $X \times [0,1]$ over $X$, where $[0,1]$ is the standard [[interval]]. It is notably used to define the concept of [[left homotopy]], say in a [[model category]].
+The concept of a **cylinder object** in a [[category]] is an abstraction of the construction in [[Top]] which associates to any [[topological space]] $X$ the _cylinder_ $X \times [0,1]$ over $X$, where $[0,1]$ is the standard [[topological interval]]. It is notably used to define the concept of [[left homotopy]], say in a [[model category]].
 
 The standard topological cylinder $X \times [0,1]$ naturally comes equipped with a continuous map
 
