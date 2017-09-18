@@ -71,6 +71,8 @@ This is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
 
 * [[equivalence of 2-categories]], [[2-adjunction]]
 
+* [[equivalence of (2,1)-categories]]
+
 * **equivalence of (∞,1)-categories**, [[adjoint (∞,1)-functor]]
 
 
