@@ -50,8 +50,12 @@ This is a [[triangulated category|triangulated subcategory]], see [[triangulated
 ## Related concepts
 
 * [[perfect module]]
+
 * [[perfect dg-module]]
+
 * [[triangulated categories of sheaves]]
+
+* [[determinant of a perfect complex]]
 
 [[!include finite objects -- table]]
 
