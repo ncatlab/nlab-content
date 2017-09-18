@@ -33,8 +33,10 @@ Since the concept of [[spectrum]] is the refinement of the concept of [[abelian 
 Under the [[Brown representability theorem]], a ring spectrum represents a [[multiplicative cohomology theory]].
 
 
-
 ## Related concepts
+
+[[!include homological and higher algebra -- table]]
+
 
 * [[module spectrum]], [[algebra spectrum]]
 
