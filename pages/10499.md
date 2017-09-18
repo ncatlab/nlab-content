@@ -206,7 +206,7 @@ More generally:
 +-- {: .num_prop #ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
 ###### Proposition
 
-The product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at the [[coproduct]] $\vee_p S \mathbb{F}_p$ of all [[Moore spectra]]
+The product of all [[p-completions]] is equivalently the [[Bousfield localization of spectra]] at the [[wedge sum]] $\vee_p S \mathbb{F}_p$ of all [[Moore spectra]]
 
 
 $$
