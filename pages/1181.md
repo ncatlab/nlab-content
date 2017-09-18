@@ -60,6 +60,7 @@ Equivalently, it is an initial [[algebra for an endo-profunctor|algebra for the 
 By the universal property, the natural numbers object is unique up to [[isomorphism]].
 
 
+
 ### In a general category with finite products
 {#withparams}
 
@@ -159,6 +160,24 @@ so that, putting $y = 0: 1 \to N'$, we conclude that $x \in N \Rightarrow x \in 
 A slightly alternative proof of sufficiency uses the theory of well-founded coalgebras, as given [here](http://ncatlab.org/toddtrimble/published/Initial+algebras+and+terminal+coalgebras). If $N$ is a fixpoint of the functor $F(X) = 1+X$, regarded as an $F$-[[coalgebra for an endofunctor|coalgebra]], then the internal union of well-founded subcoalgebras of $N$ is a natural numbers object $\mathbb{N}$. Then the subobject $\mathbb{N} \hookrightarrow N$ can also be regarded as a subalgebra; by the lemma, it is all of $N$. Thus $N$ is a natural numbers object. 
 =--   
 
+## Free monoids in a topos
+
+In [[topos theory]] it is a theorem is due to C. J. Mikkelsen that the existence of a NNO in a topos $\mathcal{S}$ is equivalent to the existence of [[free monoid|free monoids]] in $\mathcal{S}$:
+
++-- {: .num_prop #free_monoids_in_topos}
+###### Proposition
+Let $\mathcal{S}$ be a topos and $\mathbf{mon}(\mathcal{S})$ its category of internal monoids. Then $\mathcal{S}$ has a NNO precisely if the forgetful functor $U:\mathbf{mon}(\mathcal{S})\to \mathcal{S}$ has a left adjoint.
+=--
+
+For a proof see Johnstone ([1977](#JT77),p.190).
+
+The existence of a natural number object is in turn crucial for the existence of [[classifying topos|classifying toposes]] over $\mathcal{S}$ due to a result by [[Andreas Blass|A. Blass]] ([1989](#Blass)).
+
+A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that classifying toposes for [[geometric theories]] over $\mathcal{S}$ exist precisely if the [[classifying topos for the theory of objects|object classifier]] $\mathcal{S}[\mathbb{O}]$ exists.
+
+So in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] often hinge on the existence of free monoids, the intuition being that the free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
+
+Notice that algebraic theories can nevertheless have free algebras even if the ambient topos lacks a NNO. This may happen for algebraic theories that have the property that the free algebra on a finite set of generators has a finite carrier e.g. in the topos $FinSet$ of finite sets free [[graphic category|graphic monoids]] exist.
 
 ## Examples
 
@@ -226,13 +245,28 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 
 ## Related concepts
 
-* [[natural numbers]], [[natural numbers type]]
+* [[natural numbers]]
+
+* [[natural numbers type]]
 
 * [[Peano arithmetic]]
 
+* [[free monoid]]
+
+* [[arithmetic pretopos]]
+
 ## References
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[F. William Lawvere]], _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis Columbia University 1963. (Published with an author's comment as
+TAC Reprint no.5 (2004) pp 1-121. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
+
+* {#Ben91}[[Jean Bénabou]], _Some Remarks on Free Monoids in a Topos_ , pp.20-29 in LNM **1488** Springer Heidelberg 1991.
+
+* {#Blass} [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
+
+* {#JT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002.
  {#Johnstone}
 
 
