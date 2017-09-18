@@ -101,7 +101,7 @@ $$
 
 (a [[cocycle]]), where "$\Sigma$" denotes [[suspension]], as usual.
 
-If $X$ is a [[finite spectrum]] then there is a [[finite]] $I$ of non-trivial cohomology classes like this, and a choice of [[cocycles]] $c_i$ for each of them gives a single map
+If $X$ is a [[spectrum]] of [[finite type]] then there is a [[finite]] $I$ of non-trivial cohomology classes like this, and a choice of [[cocycles]] $c_i$ for each of them gives a single map
 
 $$
   f_0 \coloneqq (c_i)_I \;\; X \longrightarrow K_0 \coloneqq \bigvee_{i \in I} \Sigma^{n_i}H \mathbb{F}_2
