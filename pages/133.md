@@ -72,7 +72,7 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 * That [[Set]] is equivalent to its own [[free exact completion]].
 * That there exists a [[group]] structure on every [[inhabited set]] (see [this MO answer](http://mathoverflow.net/questions/12973/does-every-non-empty-set-admit-a-group-structure-in-zf/12988#12988)).
 * That every [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]] functor between [[strict categories]] is a strong [[equivalence of categories]].
-* That the [[nonabelian cohomology]] $H^1(X;G)$ is trivial for every set $X$ and every [[group]] $G$ (see [this post](http://golem.ph.utexas.edu/category/2013/07/cohomology_detects_failures_of.html).
+* That the [[nonabelian cohomology]] $H^1(X;G)$ is trivial for every set $X$ and every [[group]] $G$ (see [this post](http://golem.ph.utexas.edu/category/2013/07/cohomology_detects_failures_of.html)).
 
 
 ## Variants
