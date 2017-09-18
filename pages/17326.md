@@ -1,11 +1,9 @@
 
 
-> under construction
-
 +-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
 ###### Proposition
 
-Let $(\mathcal{C}, \otimes)$ be a [[monoidal model category]]. Then the [[left derived functor]] of the tensor product exsists and makes the [[homotopy category of a model category|homotopy category]] into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(I))$.
+Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]]. Then the [[left derived functor]] of the tensor product exists and makes the [[homotopy category of a model category|homotopy category]] into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(I))$.
 
 If in in addition $(\mathcal{C}, \otimes)$ satisfies the [[monoid axiom in a monoidal model category|monoid axiom]], then the [[localization]] functor $\gamma\colon \mathcal{C}\to Ho(\mathcal{C})$ carries the structure of a [[lax monoidal functor]]
 
@@ -53,7 +51,7 @@ $$
   Q X
 $$
 
-all moprhisms are weak equivalences: For the first two this is due to the [[pushout-product axiom]], for the third this is due to the unit axiom on a monoidal model category. It follows that under $\gamma(-)$ this zig-zig gives an isomorphism
+all morphisms are weak equivalences: For the first two this is due to the [[pushout-product axiom]], for the third this is due to the unit axiom on a monoidal model category. It follows that under $\gamma(-)$ this zig-zig gives an isomorphism
 
 $$
   \gamma(I) \otimes^L \gamma(X)\simeq \gamma(X)
@@ -152,7 +150,7 @@ $$
   \,.
 $$
 
-Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (but not by the pushout-product axiom!), the horizontal maps in the square in the bottom right (labeled $\star$) are weak equivalences. This implies that under $\gamma$ this total top zig-zag is equal to the image of the total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
+Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (but not by the pushout-product axiom!), the horizontal maps in the square in the bottom right (labeled $\star$) are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place, and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
 
 $$
   \gamma(p_X \otimes p_Y \otimes p_Z) 
@@ -164,4 +162,3 @@ $$
 The same argument applies to left tensoring with $R Q Z$ instead of right tensoring, and so in both cases we reduce to the same morphism in the homotopy category, thus showing the associativity condition on the transformation that exhibits $\gamma$ as a lax monoidal functor.
 
 =--
-
