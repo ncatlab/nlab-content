@@ -107,9 +107,14 @@ $$
   [\Sigma^\infty S^7, \Sigma^\infty S^4] \simeq \mathbb{Z}/24
 $$
 
-by the [above](#ClassInTheHomotopyGroupsOfSpheres). 
+by the [above](#ClassInTheHomotopyGroupsOfSpheres). In contrast:[^acknowledgement]
 
-We want to argue now that in $G$-[[equivariant homotopy theory]] this becomes a non-[[torsion subgroup|torsion group]], i.e. that 
+[^acknowledgement]: The proof of this statement profited from [[Charles Rezk]], who suggested [here](http://mathoverflow.net/a/224185/381) that the reduction to fixed point will make the real Hopf fibration make a non-torsion contribution, and to [[David Barnes]] who amplified the use of the Greenless-May splitting theorem.
+
++-- {: .num_prop}
+###### Proposition
+
+In $G$-[[equivariant homotopy theory]] this becomes a non-[[torsion subgroup|torsion group]], i.e. 
 
 $$
   [\Sigma^\infty_G S^7, \Sigma^\infty_G S^4]_G \simeq \mathbb{Z} \oplus \cdots
@@ -117,13 +122,20 @@ $$
 
 with the quaternionic Hopf fibration, regarded as a $G$-equivariant map, representing a non-torsion element.
 
-To see this, we use the [splitting into Mackey functors](rational+equivariant+stable+homotopy+theory#SplittingIntoMackeyFunctors) which says that for any two $G$-[[equivariant spectra]] $X,Y$ and writing $\pi_\bullet(X), \pi_\bullet(Y)$ for their [[equivariant homotopy groups]], organized as [[Mackey functors]] $H \mapsto \pi_n^H(X)$ for all subgroups $H \subset G$, then the canonical map
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+First use the [Greenlees-May decomposition](rational+equivariant+stable+homotopy+theory#SplittingIntoMackeyFunctors) which says that for any two $G$-[[equivariant spectra]] $X,Y$ and writing $\pi_\bullet(X), \pi_\bullet(Y)$ for their [[equivariant homotopy groups]], organized as [[Mackey functors]] $H \mapsto \pi_n^H(X)$ for all subgroups $H \subset G$, then the canonical map
  
 
 $$
   [X,Y]_G
   \longrightarrow
-   \underset{n}{\oplus} Hom_{\mathcal{M}[G]}(\pi_n(X), \pi_n(Y))
+   \underset{n}{\oplus} 
+  Hom_{\mathcal{M}[G]}(\pi_n(X), \pi_n(Y))
 $$
 
 is [[rational equivariant stable homotopy theory|rationally]] an [[isomorphism]].
@@ -165,6 +177,8 @@ $$
 $$
 
 and hence in $[\Sigma^\infty_G S^7, \Sigma^\infty_G S^4]_G$.
+
+=--
 
 ## Related concepts
 
