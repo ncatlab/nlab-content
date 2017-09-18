@@ -57,6 +57,8 @@ Discussion of conformal [[Cartan geometry]] ([[parabolic geometry]]) includes
 
 * [[Andree Lischewski]], section 2 of _Conformal superalgebras via tractor calculus_, Class.Quant.Grav. 32 (2015) 015020 ([spire](https://inspirehep.net/record/1334198), [arXiv:1408.2238](http://arxiv.org/abs/1408.2238))
 
+* Sean Curry, A. Rod Gover, _An introduction to conformal geometry and tractor calculus, with a view to applications in general relativity_, 2014, ([ 	arXiv:1412.7559](http://arxiv.org/abs/1412.7559))
+
 A survey of the field as of 2007 is in 
 
 
