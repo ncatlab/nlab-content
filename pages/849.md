@@ -149,9 +149,22 @@ For each object $S$ the (internal hom $\dashv$ [[tensor product]])-[[adjunction]
  {#Examples}
 
 
-### In $Set$
+### In sets
 
 In the category [[Set]] of [[sets]], regarded as a [[cartesian monoidal category]], the internal hom is given by [[function sets]]. This exists, by the discussion there, as soon as the [[foundations|foundational]] [[axioms]] are strong enough, for instance as soon as there are [[power objects]], which is the special case of a function set into the 2-element set.
+
+### In simplicial sets
+
+In the category [[sSet]] of [[simplicial sets]], the internal hom between two [[simplicial sets]] $X,Y$ is given by the formula
+
+$$
+  [X,Y]_n = Hom_{sSet}(X\times \Delta[n],Y)
+  \,,
+$$
+
+where $\Delta[n]$ is the simplicial [[n-simplex]]. This $[X,Y] \in sSet$ is also called the _[[function complex]]_ between $X$ and $Y$.
+
+Since $sSet \simeq PSh(\Delta)$ is the  [[category of presheaves]] over the [[simplex category]], this is a special case of internal homs in sheaf toposes, discussed [below](#InASheafTopos).
 
 ### In a sheaf topos or $(\infty,1)$-sheaf $(\infty,1)$-topos
  {#InASheafTopos}
