@@ -27,7 +27,7 @@ $$
   S_{kin} \propto \int F_p \wedge \star_g F_p
 $$
 
-couples the flux VEV to the metric $g$ (via the [[Hodge star operator]]) and hence to the moduli, it generically induces an effective [[potential energy]] for these, which may stabilize them.
+couples the flux VEV to the metric $g$ (via the [[Hodge star operator]]) and hence to the moduli, it generically induces an effective [[potential energy]] for these, which may stabilize them (when including [[non-perturbative effects]]).
 
 Similarly in [[M-theory on G2-manifolds]] the 4-form flux of the [[supergravity C-field]] leads to potentials for the moduli, which is argued to generically stabilize them ([Acharya 02](#Acharya02)).
 
@@ -42,6 +42,8 @@ The moduli stabilization in ([KKLT 03](#KKLT03)) was demonstrated in two steps. 
 * [[G2-MSSM]]
 
 * [[landscape of string theory vacua]]
+
+* [String Theory FAQ -- Do the extra dimensions lead to instability of 4 dimensional spacetime?](string+theory+FAQ#StabilityOfKKCompactification)
 
 ## References
 
@@ -97,7 +99,7 @@ and specifically for the [[G2-MSSM]] in
 
 Discussion of moduli stabilization in [[heterotic string theory]] includes
 
-* Evgeny I. Buchbinder, [[Burt Ovrut]], _Vacuum Stability in Heterotic M-Theory_, Phys.Rev. D69 (2004) 086010 ([arXiv:hep-th/0310112](http://arxiv.org/abs/hep-th/0310112))
+* {#BuchbinderOvrut04} Evgeny I. Buchbinder, [[Burt Ovrut]], _Vacuum Stability in Heterotic M-Theory_, Phys.Rev. D69 (2004) 086010 ([arXiv:hep-th/0310112](http://arxiv.org/abs/hep-th/0310112))
 
 * [[Sergei Gukov]], [[Shamit Kachru]], Xiao Liu, Liam McAllister, _Heterotic Moduli Stabilization with Fractional Chern-Simons Invariants_,  	Phys.Rev.D69:086008,2004 ([arXiv:hep-th/0310159](http://arxiv.org/abs/hep-th/0310159))
 
