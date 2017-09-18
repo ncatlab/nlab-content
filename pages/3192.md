@@ -33,7 +33,7 @@ A [[continuous function|continuous]] [[linear operator]] $F \colon B_1\to B_2$ b
 The difference between the dimensions of the kernel and the cokernel of a Fredholm operator $F$ is called its **index** 
 
 $$
-  ind F \coloneqq dim ker F - dim coker F = dim ker F - codim im F
+  ind F \coloneqq dim (ker F) - dim (coker F) = dim (ker F) - codim (im F)
   \,.
 $$
 
