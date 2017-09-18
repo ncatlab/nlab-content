@@ -206,6 +206,8 @@ Assume next that $X_3 \to X^{\partial \Delta^2}$ is a [[1-monomorphism]], as are
 
 * [[complete Segal space]], [[model structure for complete Segal spaces]]
 
+* [[higher Segal space]]
+
 ## References
 
 See generally the references at _[[complete Segal space]]_.
