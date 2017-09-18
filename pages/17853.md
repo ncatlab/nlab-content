@@ -23,6 +23,8 @@ When the uniformity of $X$ is defined in terms of uniform covers, then the equiv
 
 With [[excluded middle]], we can take $C'$ to be $C$.
 
+Note that uniform regularity is not literally a "uniformization" of [[regular space|regularity]] but rather of [[locally decomposable space|local decomposability]]; so it could also be called **uniform local decomposability**.  In the case of uniform spaces, it implies regularity (see below), so we generally call it uniform regularity; however, for [[quasi-uniform spaces]] we should probably speak instead about uniform local decomposability.
+
 
 ## Examples
 
@@ -85,6 +87,42 @@ Recall that every uniform space $X$ has a [[inequality relation]] (an [[irreflex
 Uniform regularity has some nice consequences for the existence of (almost/uniformly) [[located subsets]]: see there for details.
 
 
+### Uniform apartness spaces
+
+A uniformly regular uniform space can be equivalently described in terms of the *complements* of entourages, i.e. by giving notions of when two points are "at least $\varepsilon$ apart" rather than "at least $\varepsilon$ close".
+
++-- {: .un_defn}
+###### Definition
+A **uniform apartness space** is a set $X$ equipped with a collection of binary relations $A\subseteq X\times X$ called *co-entourages* such that
+
+1. $(x,x)\notin A$ for $x\in X$ and co-entourages $A$, i.e. each co-entourage is disjoint from the diagonal.
+2. For every co-entourage $A$, there exists a co-entourage $B$ such that whenever $(x,z)\in A$, for any $y$ we have either $(x,y)\in B$ or $(y,z)\in B$.
+3. For every co-entourage $A$, there exists a co-entourage $B$ such that $A\subseteq B^{op}$ (hence, by axiom (6), $A^{op}$ is a co-entourage).
+4. There exist as co-entourage (hence, by axiom (6), the empty set is a co-entourage).
+5. If $A$ and $B$ are co-entourages, so is some superset of $A\cup B$ (hence, by axiom (6), $A\cup B$ is itself).
+6. If $A$ is a co-entourage and $B\subseteq A$, then $B$ is a co-entourage.
+=--
+
+If $X$ is a uniform space, we can try to make it a uniform apartness space by declaring the co-entourages to be the sets contained in the complement of some entourage, i.e. $A$ is a co-entourage if $A \subseteq \neg U = (X\setminus U)$ for some entourage $U$.  This satisfies axioms (1), (3), (4), and (6) for any uniform space, but for axioms (2) and (5) we need uniform regularity.  
+
+For axiom (2), given $A\subseteq \neg U$, let $V$ be an entourage such that $V\circ V \subseteq U$, and $W$ an entourage such that $V \cup \neg W = X\times X$, and let $B = \neg W$.  Suppose $(x,z)\in A$, hence $(x,z)\notin U$.  Then either $(x,y)\in V$ or $(x,y)\notin W$, and either $(y,z)\in V$ or $(y,z)\notin W$.  If $(x,y)\notin W$ or $(y,z)\notin W$, then $(x,y)\in B$ or $(y,z)\in B$ respectively, so it remains to rule out the case when both $(x,y)\in V$ and $(y,z)\in V$.  But then $(x,z)\in U$, contradicting our assumption.
+
+For axiom (5), given $A\subseteq \neg U$ and $B\subseteq \neg V$, let $W$ be an entourage such that $(U\cap V) \cup \neg W = X\times X$.  Then if $(x,y)\in A$, $(x,y)\notin U$, hence $(x,y)\notin U\cap V$, and thus $(x,y)\notin W$.  Similarly, if $(x,y)\in B$ then $(x,y)\notin W$, so $\neg W$ is a co-entourage containing $A\cup B$.
+
+Thus, any uniformly regular uniform space gives rise to a uniform apartness space.  Moreover, this uniform apartness space is again "uniformly regular" in the sense that for any co-entourage $A$ there is a co-entourage $B$ such that $\neg A\cup B = X\times X$: if $A\subseteq \neg U$, let $B = \neg V$ where $U\cup \neg V = X\times X$.
+
+In the converse direction, *any* uniform apartness space gives rise to a uniform space whose entourages are the supersets of the complements of the co-entourages.  Uniform regularity is not necessary for this direction, since we only need the one of [[de Morgan's laws]] that does hold constructively.  We do of course need a uniform apartness space to be uniformly regular for it to give rise to a uniformly regular uniform space.
+
+To show that these constructions are inverse, it suffices to show that any entourage $U$ in a uniformly regular uniform space contains the double-complement $\neg\neg V$ of some entourage $V$, and dually for any co-entourage $A$ in a uniformly regular uniform apartness space there is a co-entourage $B$ containing $\neg\neg A$.  But for the first it suffices to have $U\cup \neg V = X\times X$, and for the second it suffices to have $\neg A \cup B = X\times X$.  Thus, there is a bijection between uniformly regular uniformities and uniformly regular uniform apartnesses on any set $X$.
+
+We define a function $f:X\to Y$ between uniform apartness spaces to be *uniformly continuous* if for every co-entourage $B$ in $Y$, there is a co-entourage $A$ in $X$ such that if $(f(x),f(y))\in B$ then $(x,y)\in A$.  Since a conditional implies its contrapositive, it follows that this is equivalent to uniform continuity with respect to the corresponding uniform structures.  Thus we have proven:
+
++-- {: .un_theorem}
+###### Theorem
+The categories of uniformly regular uniform spaces and uniformly regular uniform apartness spaces are isomorphic over $Set$.
+=--
+
+
 ## Related pages
 
 * [[uniform space]]
@@ -101,3 +139,7 @@ category: topology
 [[!redirects uniform regularity]]
 [[!redirects located uniform space]]
 [[!redirects located uniform spaces]]
+[[!redirects uniform apartness space]]
+[[!redirects uniform apartness spaces]]
+[[!redirects uniformly locally decomposable space]]
+[[!redirects uniformly locally decomposable spaces]]
