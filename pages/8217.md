@@ -18,7 +18,7 @@
 
 ## Definition
 
-For $C_\bullet$ a [[chain complex]], it _truncation_ $(\tau_{\leq} C)_\bullet$ at some $n \in \mathbb{N}$ is the chain complex defined by
+For $C_\bullet$ a [[chain complex]], the _truncation_ $(\tau_{\leq} C)_\bullet$ at some $n \in \mathbb{N}$ is the chain complex defined by
 
 $$
   (\tau_n C)_i = 
