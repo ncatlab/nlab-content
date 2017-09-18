@@ -1117,7 +1117,7 @@ $$
     \psi_2^\dagger (\Gamma_0 \Gamma^a)^\dagger \psi_1
     \\
     & = 
-    \psi_2^\dagger \Gamma_0 \Gamma^a
+    \psi_2^\dagger \Gamma_0 \Gamma^a \psi_1
     \\
     & =
     \overline{\psi}_2 \Gamma_a \psi_1
