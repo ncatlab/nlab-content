@@ -24,7 +24,7 @@ A _relation_ is the extension of a _[[predicate]]_.  That is, if you have a stat
  {#DefinitionGeneralCase}
 
 +-- {: .num_defn }
-###### Defintion
+###### Definition
 
 Given a [[family of sets|family]] $(A_i)_{i: I}$ of [[sets]], a **relation** on that family is a [[subset]] $R$ of the [[cartesian product]] $\prod_{i: I} A_i$.  
 
