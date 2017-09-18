@@ -143,7 +143,7 @@ The $I$ of prop. \ref{ContractibilityOfAFromThatOfI} is in general not an [[inte
 ## References
  {#References}
 
-* [[Peter Johnstone]], _Topos-theoretic models of the continuum_ ([slides](http://www.cs.ox.ac.uk/quantum/slides/clap2-peterjohnstone.pdf), [lecture video](https://www.youtube.com/watch?feature=player_embedded&v=pKWYa9sc5UI))
+* {#Johnstone08} [[Peter Johnstone]], _Topos-theoretic models of the continuum_ 2008 ([slides](http://www.cs.ox.ac.uk/quantum/slides/clap2-peterjohnstone.pdf), [lecture video](https://www.youtube.com/watch?feature=player_embedded&v=pKWYa9sc5UI))
 
 
 [[!redirects continua]]
