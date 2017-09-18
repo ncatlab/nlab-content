@@ -19,7 +19,12 @@ In [[quantum physics]] and in the [[Schrödinger picture]], the term _propagator
 
 In [[quantum mechanics]] the time [[propagator]] is give by the [[parallel transport]] along the [[worldline]] given by the [[Hamiltonian]] (energy) [[quantum operator]].
 
-Similarly, in [[perturbation theory]] the term _propagator_ usually refers to the [[kinetic action|kinetic]] [[action functional]]/[[Lagrangian]].
+In [[perturbative quantum field theory]] of [[free fields]] propagation is typically encoded in the [[Green functions]] of the [[wave equation]]/[[Klein-Gordon operator]] and here it is these Green functions that are referred to as _propagators_.
+
+
+[[!include propagators - table]]
+
+
 
 ## Related concepts
 
