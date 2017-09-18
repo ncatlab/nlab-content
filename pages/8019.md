@@ -14,7 +14,12 @@ Let $G$ be a [[group]] (written additively but not necessarily [[abelian group|c
 
 *  If $a \leq b$, then $a + c \leq b + c$ and $c + a \leq c + b$.
 
-More slickly, an ordered group is (up to [[equivalence of categories|equivalence]]) a [[thin category|thin]] [[groupal category]] (a groupal $(0,1)$-[[(0,1)-category|category]]).
+More slickly, an ordered group is (up to [[equivalence of categories|equivalence]]) a [[thin category|thin]] [[groupal category]] (a groupal $(0,1)$-[[(0,1)-category|category]]). 
+
++-- {: .num_remark} 
+###### Remark 
+An ordered group is *not* the same thing as a [[group object]] in $Pos$. The trouble is that requiring the inversion map $x \mapsto x^{-1}$ to preserve order (i.e., to be monotone, not antitone) is much too restrictive. Rather, an ordered group is a [[monoid object]] in the [[cartesian monoidal category]] $Pos$ which has the [[stuff, structure, property|property]] that its underlying monoid in $Set$ is a group. 
+=-- 
 
 If $G$ is an [[abelian group]], then we have an __ordered abelian group__; in this case, only one direction of translation invariance needs to be checked.
 
