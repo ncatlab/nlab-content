@@ -1,4 +1,8 @@
 
 * [webpage](http://www3.imperial.ac.uk/people/j.gauntlett)
 
+## related $n$Lab entries
+
+* [[supermembrane in 4d]]
+
 category: people
