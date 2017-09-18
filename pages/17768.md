@@ -22,7 +22,7 @@ In modern terminology this says that together with the [[Euler-Lagrange operator
 
 ## Details
 
-A quick way to write the Helmholtz operator $H$ is as follows: If $\mathcal{E}$ denotes a [[partial differential equation]] and $L\mathcal{E}$ its linearization, and $(L\mathcal{E}^\ast$ its formal adjoint, as a [[differential operator]] then
+A quick way to write the Helmholtz operator $H$ is as follows: If $\mathcal{E}$ denotes a [[partial differential equation]] and $L\mathcal{E}$ its linearization, and $(L\mathcal{E}^\ast$ its [[formal adjoint differential operator]], as a [[differential operator]] then
 
 $$
   H[\mathcal{E}]
