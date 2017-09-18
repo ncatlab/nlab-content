@@ -42,7 +42,14 @@ D6-branes are the main ingredient in type IIA intersecting brane phenomenology, 
 
 ## References
 
+The relation to the [[Kaluza-Klein monopole]] in [[M-theory]] is due to
+
 * {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187,1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
+Further discussion and derivation of the [[Chan-Paton gauge field]] content on the D6 from the KK-monopole is discussed in 
+
+* [[César Gómez]], [[Juan José Manjarín]], _A note on the dyonic D6-brane_ ([arXiv:hep-th/0302096](http://arxiv.org/abs/hep-th/0302096))
+
+* [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int.J.Geom.Meth.Mod.Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
 [[!redirects D6-branes]]
