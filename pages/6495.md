@@ -98,6 +98,10 @@ Abstract characterization of the [[Dennis trace]] and cyclotomic trace is discus
 
 * {#BlumbergGepnerTabuada11} [[Andrew Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _Uniqueness of the multiplicative cyclotomic trace_, Advances in Mathematics 260 (2014) 191-232 ([arXiv:1103.3923](http://arxiv.org/abs/1103.3923))
 
+An approach using only homotopy-invariant notions, which gives a construction of topological cyclic homology based on a new definition of the ∞-category of [[cyclotomic spectra]] is in
+
+* [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_, [arXiv:1707.01799](https://arxiv.org/abs/1707.01799)
+
 See also
 
 * T. Pirashvili, F. Waldhausen, _Mac Lane homology and topological Hochschild homology_, J. Pure Appl. Algebra __82__ (1992), 81-98, [MR96d:19005](http://www.ams.org/mathscinet/search/mathscinet-getitem?mr=520492), <a href="http://dx.doi.org/10.1016/0022-4049(92)90012-5">doi</a>
