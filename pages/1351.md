@@ -35,7 +35,11 @@ Weakening the conditions on a [[stratified simplicial set]] to be a complicial s
 
 #References#
 
+The original idea is developed in 
 
 * [[Dominic Verity]], _Complicial Sets_ ([arXiv](http://arxiv.org/abs/math/0410412))
 
+There are also Lecture notes written by Emily Riehl to accompany a three-hour mini course entitled "Weak Complicial Sets" delivered at the Higher Structures in Geometry and Physics workshop at the MATRIX Institute from June 6-7, 2016.  They are to be found at:
+
+* [[Emily Riehl]], _Complicial sets, an overture_, ([arXiv](https://arxiv.org/abs/1610.06801))
 [[!redirects complicial sets]]
