@@ -1,0 +1,10 @@
+
+* [[Jacob Lurie]], 
+
+  _Spectral Algebraic Geometry_ 
+
+  ([pdf]( http://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
+
+on [[spectral algebraic geometry]].
+
+category: reference
