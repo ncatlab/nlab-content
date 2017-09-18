@@ -16,7 +16,7 @@
 
 ## Idea 
 
-A partial combinatory algebra is a generalization of a model of the [[untyped lambda calculus]] allowing for application to be only partially defined. 
+A partial combinatory algebra is a generalization of a model of the [[untyped lambda calculus]] allowing for application to be only partially defined.  It is often expressed as an algebraic abstraction of [[combinatory logic]].
 
 ## Definition 
 
@@ -214,6 +214,7 @@ Furthermore, in the case of a projection map $f \colon Z \times Y \to Y$, there 
 
 ## Related concepts
 
+* [[combinatory logic]]
 * [[realizability]]
 
 [[!include computable mathematics -- table]]
