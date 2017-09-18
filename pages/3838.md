@@ -93,7 +93,7 @@ This is the topic of section 5.4.1 of
 
 Wall's finiteness obstruction was defined in
 
-* C. T. C. Wall, _Finiteness conditions for CW-complexes_.
+* [[C. T. C. Wall]], _Finiteness conditions for CW-complexes_.
 
 [[!redirects essentially small (∞,1)-category]]
 [[!redirects essentially small (∞,1)-categories]]
