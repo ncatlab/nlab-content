@@ -1169,7 +1169,7 @@ $$
     \longrightarrow
   \tilde K(X \times Y)
     \overset{i^\ast}{\longrightarrow}
-  \tilde K(X) \oplus \tlde K(Y)
+  \tilde K(X) \oplus \tilde K(Y)
     \to
   0
 $$
