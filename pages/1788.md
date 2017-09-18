@@ -1,135 +1,184 @@
-+-- {: .num_defn #CategoryOfPointedObjects}
+In the context of [[homotopy theory]], a [[pullback]] diagram, such as in the definition of the [[fiber]] in def. \ref{FiberAndCofiberInPointedObjects}
+
+$$
+  \array{
+     fib(f) &\longrightarrow& X
+     \\
+     \downarrow && \downarrow^{\mathrlap{f}}
+     \\
+     \ast &\longrightarrow& Y
+  }
+$$
+
+ought to [[commuting diagram|commute]] only up to a (left/right) [[homotopy]] (def. \ref{LeftAndRightHomotopyInAModelCategory}) between the outer composite morphisms. Moreover, it should satisfy its [[universal property]] up to such homotopies.
+
+Instead of going through the full theory of what this means, we observe that this is plausibly modeled by the following construction, and then we check ([below](#HomotopyFibers)) that this indeed has the relevant abstract homotopy theoretic properties.
+
+
++-- {: .num_defn #MappingConeAndMappingCocone}
 ###### Definition
 
-For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, write $\mathcal{C}^{\ast/}$ for the corresponding _[[category of pointed objects]]_: its
+Let $\mathcal{C}$ a [[model category]], def. \ref{ModelCategory}. 
 
-* objects are morphisms in $\mathcal{C}$ of the form $\ast \overset{x}{\to} X$ (hence an object $X$ equipped with a choice of point; i.e. a _[[pointed object]]_);
+For $f \colon X \longrightarrow Y$ a morphism between cofibrant objects (hence a morphism in $\mathcal{C}_c\hookrightarrow \mathcal{C}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its _[[mapping cone]]_ is the object 
 
-* morphisms are [[commuting diagram|commuting triangles]] of the form
+$$
+  Cone(f)
+  \coloneqq
+  \ast \underset{X}{\sqcup} Cyl(X) \underset{X}{\sqcup} Y
+$$
 
-  $$
-    \array{
-       && \ast
-       \\
-       & {}^{\mathllap{x}}\swarrow && \searrow^{\mathrlap{y}}
-       \\
-       X && \overset{f}{\longrightarrow} && Y
-    }
-  $$
+in the colimiting diagram
 
-  (hence morphisms in $\mathcal{C}$ which preserve the chosen points).
+$$
+  \array{
+    && X &\stackrel{f}{\to}& Y
+    \\
+    && \downarrow^{\mathrlap{i_1}} && \downarrow^{\mathrlap{i}}
+    \\
+    X &\stackrel{i_0}{\to}& Cyl(X)
+    \\
+    \downarrow && & \searrow^{\mathrlap{\eta}} & \downarrow
+    \\
+    {*} &\to& &\to& Cone(f) 
+  }
+  \,,
+$$
 
-=--
+where $Cyl(X)$ is a [[cylinder object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
-+-- {: .num_remark }
-###### Remark
+Dually, for $f \colon X \longrightarrow Y$ a morphism between fibrant objects (hence a morphism in $\mathcal{C}_f\hookrightarrow \mathcal{C}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its _[[mapping cocone]]_ is the object 
 
-In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, the [[terminal object]] coincides with the [[initial object]], both are given by $\ast \in \mathcal{C}$ itself, pointed in the unique way. 
+$$
+  Cocone(f) \coloneqq \ast \underset{Y}{\times} Path(Y)\underset{Y}{\times} X
+$$
 
-In this situation one says that $\ast$ is a _[[zero object]]_ and that $\mathcal{C}^{\ast/}$ is a _[[pointed category]]_. 
+in the following limit diagram
+
+$$
+  \array{
+    Cocone(f) &\longrightarrow& &\longrightarrow& X
+    \\
+    \downarrow &\searrow^{\mathrlap{\eta}}& && \downarrow^{\mathrlap{f}}
+    \\
+      &&  Path(Y) &\underset{\delta_0}{\longrightarrow}& Y
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow& Y
+  }
+  \,,
+$$
+
+where $Path(Y)$ is [[path space object]] for $Y$, def. \ref{PathAndCylinderObjectsInAModelCategory}.
+
 
 =--
 
 +-- {: .num_defn }
-###### Definition
+###### Remark
 
-Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] given by forming the [[disjoint union]] ([[coproduct]]) with a base point ("adjoining a base point"), this is denoted by
+If we write homotopies as double arrows between morphisms, then then limit diagram in def. \ref{MappingConeAndMappingCocone} looks just like the square in the definition of [[fibers]] in def. \ref{FiberAndCofiberInPointedObjects}, except that it is filled by the right homotopy given by the component map denoted $\eta$:
 
 $$
-  (-)_+ \coloneqq (-) \sqcup \ast \;\colon \; \mathcal{C} \longrightarrow \mathcal{C}^{\ast/}
+  \array{
+    Cocone(f) &\longrightarrow& X
+    \\
+    \downarrow &\swArrow_{\eta}& \downarrow^{\mathrlap{f}}
+    \\
+    \ast &\longrightarrow& Y
+  }
   \,.
 $$
 
+Dually, the colimiting diagram for the mapping cone turns to look just like the square for the [[cofiber]], except that it is filled with a left homotopy 
+
+$$
+  \array{
+    X &\overset{f}{\longrightarrow}& Y
+    \\
+    \downarrow &\swArrow_{\eta}& \downarrow
+    \\
+    \ast &\longrightarrow& cone(f)
+  }
+$$
+
 =--
 
-+-- {: .num_prop #LimitsAndColimitsOfPointedObjects}
+
++-- {: .num_prop #ConeAndMappingCylinder}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[category]] with all [[limits]] and [[colimits]]. Then also the [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, has all limits and colimits.
+The colimit appearing in the definition of the [[mapping cone]] in def. \ref{MappingConeAndMappingCocone} is equivalent to three consecutive [[pushouts]]:
 
-Moreover:
+$$
+  \array{
+    && X &\stackrel{f}{\to}& Y
+    \\
+    && \downarrow^{\mathrlap{i_1}} &(po)& \downarrow^{\mathrlap{i}}
+    \\
+    X &\stackrel{i_0}{\to}& Cyl(X) &\longrightarrow& Cyl(f)
+    \\
+    \downarrow &(po)& \downarrow & (po) & \downarrow
+    \\
+    {*} &\to& Cone(X) &\to& Cone(f) 
+  }
+  \,.
+$$
 
-1. the limits are the limits of the underlying diagrams in $\mathcal{C}$, with the base point of the limit induced by its universal property in $\mathcal{C}$;
+The two intermediate objects appearing here are called
 
-1. the colimits are the limits in $\mathcal{C}$ of the diagrams _with the basepoint adjoined_.
+* the plain _[[cone]]_  $Cone(X) \coloneqq \ast \underset{X}{\sqcup} Cyl(X)$;
 
-=--
+* the _[[mapping cylinder]]_ $Cyl(f) \coloneqq Cyl(X) \underset{X}{\sqcup} Y$.
 
-+-- {: .num_example }
-###### Example
+Dually, the limit appearing in the definition of the [[mapping cocone]] in def. \ref{MappingConeAndMappingCocone} is equivalent to three consecutive [[pullbacks]]:
 
-Given two pointed objects $(X,x)$ and $(Y,y)$, then:
+$$
+  \array{
+    Cocone(f) &\longrightarrow& Path(f) &\longrightarrow& X
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    Path_\ast(Y)  &\longrightarrow&  Path(Y) &\underset{\delta_0}{\longrightarrow}& Y
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    \ast &\longrightarrow& Y
+  }
+  \,.
+$$
 
-1. their [[product]] in $\mathcal{C}^{\ast/}$ is $(X\times Y, (x,y))$;
+The two intermediate objects appearing here are called
 
-1. their [[coproduct]] in $\mathcal{C}^{\ast/}$ is the [[pushout]] in $\mathcal{C}$ of the form:
+* the _base path space object_ $Path_\ast(Y) \coloneqq \ast \underset{Y}{\prod} Path(Y)$;
 
-   $$
-     \array{
-       \ast &\overset{x}{\longrightarrow}& X
-       \\
-       {}^{\mathllap{y}}\downarrow &(po)& \downarrow
-       \\
-       Y &\longrightarrow& X \vee Y
-     }
-     \,.
-   $$
+* the _mapping path space_ or _mapping co-cylinder_ $Path(f) \coloneqq X \underset{Y}{\times} Path(X)$.
 
-   This is called the _[[wedge sum]]_ operation.
-
-=--
-
-+-- {: .num_defn #FiberAndCofiberInPointedObjects}
-###### Definition
-
-Given a morphism $f \colon X \longrightarrow Y$ in a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, with finite limits and colimits,
-
-1. its _[[fiber]]_ is the [[pullback]] of the point inclusion
-
-   $$
-     \array{
-       fib(f) &\longrightarrow& \ast
-       \\
-       \downarrow &(pb)& \downarrow
-       \\
-       X &\longrightarrow& Y
-     }
-   $$
-
-1. its _[[fiber]]_ is the [[pushout]] of the point projection
-
-   $$
-     \array{
-       X &\overset{f}{\longrightarrow}& Y
-       \\
-       \downarrow &(po)& \downarrow
-       \\
-       \ast &\longrightarrow& cofib(f)
-     }
-     \,.
-   $$
 
 =--
+
 
 +-- {: .num_remark }
 ###### Remark
 
-In the situation of def. \ref{FiberAndCofiberInPointedObjects}, both the pullback as well as the pushout are equivalently computed in $\mathcal{C}$. For the pullback this is the first clause of prop. \ref{LimitsAndColimitsOfPointedObjects}. The second clause says that for computing the pushout in $\mathcal{C}$ first the point is to be adjoined to the diagram, and then the colimit over the larger diagram
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="560" >
+</div>
 
-$$
-  \array{
-    \ast
-    \\
-    & \searrow
-    \\
-    & & X &\overset{f}{\longrightarrow}& Y
-    \\
-    & & \downarrow && 
-    \\
-    & & \ast && 
-   }
-$$
+Intuitively this says that $cone(f)$ is the object obtained by
 
-be computed, but one readily checks that in this special case this does not affect the result.
+1. forming the cylinder over $X$;
+
+1. gluing to one end of that the object $Y$ as specified by the map $f$.
+
+1. shrinking the other end of the cylinder to the point.
+
+Intuitively it is clear that this way every [[cycle]] in $Y$ that happens to be in the image of $X$ can be "continuously" translated in the cylinder-direction, keeping it constant in $Y$, to the other end of the cylinder, where it becomes the point. This means that every [[homotopy group]] of $Y$ in the image of $f$ vanishes in the mapping cone. Hence in the mapping conee **the image of $X$ under $f$ in $Y$ is removed up to homotopy**. This makes it clear how $cone(f)$ is a homotopy-version of the [[cokernel]] of $f$. And therefore the name "mapping cone".
+
+(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
 
 =--
+
+
