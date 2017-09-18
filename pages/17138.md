@@ -1440,7 +1440,7 @@ $$
 which "omits" the $k$th canonical coordinate:
 
 $$
-  (x_0, \cdots , x_{n-1}) \mapsto (x_0, \cdots, x_{k-1} , 0 , x_{k}, \cdots, x_n)
+  (x_0, \cdots , x_{n-1}) \mapsto (x_0, \cdots, x_{k-1} , 0 , x_{k}, \cdots, x_{n-1})
   \,.
 $$
 
