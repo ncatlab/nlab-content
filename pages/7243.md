@@ -42,7 +42,95 @@ This is also a limit in the category of [[topological rings]], taking the rings 
 
 4. Also $\mathbb{Z}[ [ x ] ]/(x-q)\mathbb{Z}[ [ x ] ]$, see at _[[analytic completion]]_. 
 
-Hence one also speaks of the _$p$-adic completion_ of the integers.  See [[completion of a ring]] (which generalizes 2&3).
+Hence one also speaks of the _$p$-[[adic completion]]_ of the integers.  See [[completion of a ring]] (which generalizes 2&3).
+
+There is also this characterization:
+
++-- {: .num_lemma #pAdicIntegersAspExtensionofFpByThemselves}
+###### Lemma
+
+There is a [[short exact sequence]]
+
+$$
+  0 
+    \to
+  \mathbb{Z}_{(p)}
+    \overset{p \cdot (-)}{\longrightarrow}
+  \mathbb{Z}_{(p)}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the following [[commuting diagram]]
+
+$$
+  \array{
+     \vdots && \vdots && \vdots
+     \\
+     \downarrow
+       &&
+     \downarrow
+       &&
+     \downarrow
+     \\
+     \mathbb{Z}/p^3\mathbb{Z}
+       &\overset{p\cdot (-)}{\longrightarrow}&
+     \mathbb{Z}/p^4 \mathbb{Z}
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}
+     \\
+     \downarrow
+       &&
+     \downarrow
+       &&
+     \downarrow
+     \\
+     \mathbb{Z}/p^2\mathbb{Z}
+       &\overset{p\cdot (-)}{\longrightarrow}&
+     \mathbb{Z}/p^3 \mathbb{Z}
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}
+     \\
+     \downarrow
+       &&
+     \downarrow
+       &&
+     \downarrow
+     \\
+     \mathbb{Z}/p\mathbb{Z}
+       &\overset{p\cdot (-)}{\longrightarrow}&
+     \mathbb{Z}/p^2 \mathbb{Z}
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}
+     \\
+     \downarrow
+       &&
+     \downarrow
+       &&
+     \downarrow
+     \\
+     0
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}     
+  }
+  \,.
+$$
+
+Each horizontal sequence is exact. Taking the [[limit]] over the vertical sequences yields the sequence in question. Since limits commute over limits, the result follows.
+
+=--
+
+
 
 
 ## Properties
