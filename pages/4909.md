@@ -1,4 +1,4 @@
+Horst Herrlich (b. September 11, 1937; d. March 13, 2015) was a German mathematician, known primarily for work in [[general topology]] using methods of [[category theory]]. He is the author of a book on the [[axiom of choice]]. 
 
-* [website](http://www.informatik.uni-bremen.de/~herrlich/)
 
 category: people
