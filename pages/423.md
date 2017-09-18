@@ -1564,8 +1564,12 @@ Lecture notes include
 
 * Alex Kuronya, _Introduction to topology_, 2010 ([pdf](https://www.uni-
 frankfurt.de/64271720/TopNotes_Spring10.pdf))
-T
+
 * Anatole Katok, Alexey Sossinsky, _Introduction to modern topology and geometry_ ([pdf](http://www.personal.psu.edu/axk29/MASS-07/Background-forMASS.pdf))
+
+Basic topology set up in [[intuitionistic mathematics]] is discussed in
+
+* {#Waaldijk96} [[Frank Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
 
 See also
 
