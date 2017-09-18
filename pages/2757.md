@@ -68,3 +68,4 @@ In terms of this the **principle of induction** is equivalent to saying that the
 
 [[!redirects induction principle]]
 [[!redirects principle of induction]]
+[[!redirects inductive argument]] 
