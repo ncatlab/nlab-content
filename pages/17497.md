@@ -664,6 +664,27 @@ This is the archetypical case that motivates the notation "$\otimes$" for the pa
 
 =--
 
++-- {: .num_example #SymmetricMonoidalCategoryOfChainComplexes}
+###### Example
+
+The category [[category of chain complexes]] $Ch_\bullet$, equipped with the [[tensor product of chain complexes]] is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}).
+
+In this case the [[braiding]] has a genuinely non-trivial aspect to it, beyond just the swapping of coordinates as in examples \ref{TopAsASymmetricMonoidalCategory}, \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory} and def. \ref{ExampleAbelianGroupsOfMonoidalCategory}, namely for $X, Y \in Ch_\bullet$ then
+
+$$
+  (X \otimes Y)_n
+  =
+  \underset{n_1 + n_2 = n}{\otimes}
+  X_{n_1} \otimes_{\mathbb{Z}} X_{n_2}
+$$
+
+and in these components the braiding isomorphism is that of [[Ab]], but with a minus sign thrown in whener two odd-graded components are commuted.
+
+This is a first shadow of the graded-commutativity that also exhibited by spectra. 
+
+=--
+
+
 
 ##### Algebras and modules
  {#AlgebrasAndModules}
@@ -718,7 +739,7 @@ such that
        \\
        & {}_{\mathllap{\ell}}\searrow 
        & \downarrow^{\mathrlap{\mu}} &
-       \swarrow_{\mathrlap{r}}
+       & \swarrow_{\mathrlap{r}}
        \\
        && A
      }
@@ -911,7 +932,7 @@ of $\mathcal{C}$ with the [[category of modules]] over its tensor unit.
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #RingsAreMonoidsInAb}
 ###### Example
 
 The archetypical case in which all these abstract concepts reduce to the basic familiar ones is the symmetric monoidal category [[Ab]] of [[abelian groups]] from example \ref{ExampleAbelianGroupsOfMonoidalCategory}.
@@ -927,6 +948,15 @@ The archetypical case in which all these abstract concepts reduce to the basic f
 1. The [[category of modules|category of module objects]] $R Mod(Ab)$ (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[category of modules]] $R Mod$.
 
 =--
+
++-- {: .num_example #dgAlgebraAreMonoidsInChainComplexes}
+###### Example
+
+Closely related to the example \ref{RingsAreMonoidsInAb}, but closer to the structure we will see below for spectra, are [[monoid in a monoidal category|monoids]] in the [[category of chain complexes]] $(Ch_\bullet, \otimes, \mathbb{Z})$ from example \ref{SymmetricMonoidalCategoryOfChainComplexes}. These monoids are equivalently [[differential graded algebras]].
+
+
+=--
+
 
 
 +-- {: .num_prop #MonoidModuleOverItself} 
@@ -2345,7 +2375,7 @@ $$
   \,.
 $$
 
-The operation of _[[Day convolution]]_ is the [[categorification]] of this situation where functions are replaced by [[functors]] and [[monoids]] by [[monoidal categories]]. Below we find the [[symmetric monoidal smash product of spectra]] as the Day convolution of topologically enriched functors over the monoidal category of finite pointed CW-complexes, or over sufficiently rich subcatgeories thereof.
+The operation of _[[Day convolution]]_ is the [[categorification]] of this situation where functions are replaced by [[functors]] and [[monoids]] by [[monoidal categories]]. Further [below](#OnPreExcisiveFunctors) we find the [[symmetric monoidal smash product of spectra]] as the Day convolution of topologically enriched functors over the monoidal category of finite pointed CW-complexes, or over sufficiently rich subcatgeories thereof.
 
 +-- {: .num_defn #TopologicalDayConvolutionProduct}
 ###### Definition
@@ -2379,7 +2409,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-Let $Seq$ denote the category with objects the [[natural numbers]], and only the [[zero morphisms]] and [[identity morphisms]] on these objects:
+Let $Seq$ denote the category with objects the [[natural numbers]], and only the [[zero morphisms]] and [[identity morphisms]] on these objects (we consider this in a braoder context below in def. \ref{TopologicalDiagramCategoriesForSpectra}):
 
 $$
   Seq(n_1,n_2)
@@ -2546,7 +2576,7 @@ for the $Top^{\ast/}_{cg}$-[[Yoneda embedding]], so that for $c\in \mathcal{C}$ 
 +-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
 ###### Proposition
 
-For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}), the [[Day convolution]] tensor product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
+For $(\mathcal{C},\otimes, 1)$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}), the [[Day convolution]] tensor product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
 
 $$
   ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))
@@ -2554,26 +2584,9 @@ $$
 
 into a pointed topological [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor unit]] $y(1)$ [[representable functor|co-represented]] by the tensor unit $1$ of $\mathcal{C}$. 
 
-Moreover, if $(\mathcal{C}, \otimes, 1)$ is equipped with a [[braiding]] $\tau^{\mathcal{C}}$ (def. \ref{BraidedMonoidalCategory}), then $( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ becomes itself a [[braided monoidal category]] with braiding given by
+Moreover, if $(\mathcal{C}, \otimes, 1)$ is equipped with a (symmetric) [[braiding]] $\tau^{\mathcal{C}}$ (def. \ref{BraidedMonoidalCategory}), then so is $([\mathcal{C}, Top^{\ast/}_{cg}],\otimes_{Day}, y(1))$. 
 
-$$
-  \array{
-    (X \otimes_{Day} Y)(c)
-    & = &
-    \overset{c_1,c_2}{\int} 
-     \mathcal{C}(c_1 \otimes c_2) \wedge X(c_1) \wedge Y(c_2)
-    \\
-    {}^{\mathllap{\tau}_{X,Y}(c)}\downarrow
-    &&
-    \downarrow^{\mathrlap{\overset{c_1,c_2}{\int} \mathcal{C}(\tau^{\mathcal{C}}_{c_1,c_2}, c  ) \wedge \tau^{Top^{\ast/}}_{X(c(1)), X(c_2)}  }}
-    \\
-    (Y \otimes_{Day} X)(c)
-    & = &
-    \overset{c_1,c_2}{\int} 
-     \mathcal{C}(c_2 \otimes c_1) \wedge Y(c_2) \wedge X(c_1)   
-  }
-  \,.
-$$
+
 
 =--
 
@@ -2587,37 +2600,117 @@ $$
     (X \otimes_{Day} ( Y \otimes_{Day} Z ))(c)
     & \simeq
     \overset{(c_1,c_2)}{\int}
-      \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2, \,c) 
+      \mathcal{C}(c_1 \otimes c_2, \,c) 
         \wedge
       X(c_1) 
        \wedge
       \overset{(d_1,d_2)}{\int}
-       \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c_2 )
-       (Y(d_2) \wedge Z(d_2))
+       \mathcal{C}(d_1 \otimes d_2, c_2 )
+       (Y(d_1) \wedge Z(d_2))
     \\
     &\simeq \overset{c_1, d_1, d_2}{\int}
-    \underset{\simeq \mathcal{C}(c_1 \otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c )}{
+    \underset{\simeq \mathcal{C}(c_1 \otimes (d_1 \otimes_{\mathcal{C}} d_2), c )}{
       \underbrace{
        \overset{c_2}{\int} 
-         \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2 , c)
+         \mathcal{C}(c_1 \otimes c_2 , c)
            \wedge
-         \mathcal{C}(d_1 \otimes_{\mathcal{C}}d_2, c_2 )
+         \mathcal{C}(d_1 \otimes d_2, c_2 )
       }
     }
-    \wedge X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
+    \wedge 
+    (X(c_1) \wedge (Y(d_1) \wedge Z(d_2)))
     \\
     &\simeq 
     \overset{c_1, d_1, d_2}{\int}
-     \mathcal{C}(c_1\otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c ) 
+     \mathcal{C}(c_1\otimes  ( d_1 \otimes  d_2), c ) 
        \wedge  
-     X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
+     (X(c_1) \wedge (Y(d_1) \wedge Z(d_2)))
+    \\
+    & \simeq
+    \overset{c_1, c_2, c_3}{\int}
+     \mathcal{C}(c_1\otimes  ( c_2 \otimes  c_3), c ) 
+       \wedge  
+     (X(c_1) \wedge (Y(c_2) \wedge Z(c_3)))
   \end{aligned}
   \,,
 $$
 
-where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). An analogous formula follows for $X \otimes_{Day}  (Y \otimes_{Day} Z)))(c)$, and so associativity follows via prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} from the associativity of the [[smash product]] and of the tensor product $\otimes_{\mathcal{C}}$.
+where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). Similarly
 
-Similarly, if $\mathcal{C}$ is braided then the hexagon identity for the [[braiding]] follows, under the coend, from the hexagon identities for the braidings in $\mathcal{C}$ and $Top^{\ast/}_{cg}$.
+$$
+  \begin{aligned}
+    (( X \otimes_{Day} Y ) \otimes_{Day} Z)(c)
+    & \simeq
+    \overset{(c_1,c_2)}{\int}
+     \mathcal{C}(c_1 \otimes c_2, c)
+     \wedge
+    \overset{(d_1,d_2)}{\int}
+    \mathcal{C}(d_1 \otimes d_2, c_1)
+     \wedge
+     (X(d_1) \wedge Y(d_2))
+    \wedge
+    Y(c_2)
+   \\
+   & \simeq
+   \overset{c_2,d_1,d_2}{\int}
+   \underset{\simeq \mathcal{C}((d_1 \otimes d_2) \otimes c_2) }{
+   \underbrace{
+     \overset{c_1}{\int}
+     \mathcal{C}(c_1\otimes c_2, c)
+     \wedge
+     \mathcal{C}(d_1 \otimes d_2, c_1)
+   }}
+   \wedge
+   ((X(d_1) \wedge Y(d_2)) \wedge Z(c_2))
+   \\
+   & \simeq
+   \overset{c_2,d_1,d_2}{\int}
+   \mathcal{C}((d_1 \otimes d_2) \otimes c_2)
+   \wedge
+   ((X(d_1) \wedge Y(d_2)) \wedge Z(c_2))
+   \\
+    &\simeq
+   \overset{c_1,c_2, c_3}{\int}
+   \mathcal{C}((c_1 \otimes c_2) \otimes c_3)
+   \wedge
+   ((X(c_1) \wedge Y(c_2)) \wedge Z(c_3))
+  \end{aligned}
+  \,.
+$$
+
+So we obtain an [[associator]] by combining, in the integrand, the associator $\alpha^{\mathcal{C}}$ of $(\mathcal{C}, \otimes, 1)$ and $\tau^{Top^{\ast/}}$ of $(Top^{\ast}_{cg}, \wedge, S^0)$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}):
+
+$$
+  \array{
+    ((X \otimes_{Day} Y) \otimes_{Day} Z)(c)
+     &\simeq&
+     \overset{c_1,c_2, c_3}{\int}
+     \mathcal{C}((c_1 \otimes c_2) \otimes c_3)
+     \wedge
+    ((X(c_1) \wedge Y(c_2)) \wedge Z(c_3))
+    \\
+    {}^{\mathllap{
+      \alpha^{Day}_{X,Y,Z}(c)
+    }}\downarrow 
+      && 
+    \downarrow^{\mathrlap{
+      \overset{c_1,c_2,c_3}{\int}
+       \mathcal{C}( \alpha^{\mathcal{C}}_{c_1,c_2,c_3} , c )
+        \wedge
+       \alpha^{Top^{\ast/}_{cg}}_{X(c_1), X(c_2), X(c_3)}
+    }}
+   \\
+   (X \otimes_{Day} (Y \otimes_{Day} Z) )(c)
+   &\simeq&
+    \overset{c_1, c_2, c_3}{\int}
+     \mathcal{C}(c_1\otimes  ( c_2 \otimes  c_3), c ) 
+       \wedge  
+     (X(c_1) \wedge (Y(c_2) \wedge Z(c_3)))   
+  }
+  \,.
+$$
+
+It is clear that this satisfies the [[pentagon identity]], since $\tau^{\mathcal{C}}$ and $\tau^{Top^{\ast/}_{cg}}$ do.
 
 To see that $y(1)$ is the tensor unit for $\otimes_{Day}$, 
 use the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
@@ -2628,30 +2721,28 @@ $$
      & 
      =
      \overset{c_1,c_2 \in \mathcal{C}}{\int}
-     \mathcal{C}(c_1\otimes_{\mathcal{D}} c_2,-) 
+      \mathcal{C}(c_1\otimes_{\mathcal{D}} c_2,-) 
       \wedge 
      X(c_1) \wedge \mathcal{C}(1,c_2)
      \\
      & \simeq 
      \overset{c_1\in \mathcal{C}}{\int}
-      X(c_1) 
-        \wedge  
       \overset{c_2 \in \mathcal{C}}{\int}  
         \mathcal{C}(c_1\otimes_{\mathcal{C}} c_2,-)
         \wedge 
         \mathcal{C}(1,c_2) 
+      \wedge X(c_1)
     \\
     & \simeq 
       \overset{c_1\in \mathcal{C}}{\int}
-      X(c_1) 
-         \wedge
       \mathcal{C}(c_1 \otimes_{\mathcal{C}} 1, -)
+      \wedge
+      X(c_1)
     \\
     & \simeq 
       \overset{c_1\in \mathcal{C}}{\int}
-      X(c_1) 
-         \wedge
       \mathcal{C}(c_1, -)
+      \wedge X(c_1)
     \\
     & \simeq
     X(-)
@@ -2662,13 +2753,61 @@ $$
   \,.
 $$
 
+Hence the right [[unitor]] of Day convolution comes from the unitor of $\mathcal{C}$ under the integral sign:
+
+$$
+  \array{
+    (X \otimes_{Day} y(1))(c)
+    &\simeq&
+    \overset{c_1}{\int} \mathcal{C}(c_1 \otimes 1, c) \wedge X(c_1)
+    \\
+    {}^{\mathllap{r^{Day}_{X}(c) } }\downarrow 
+      && 
+    \downarrow^{\mathrlap{
+      \overset{c_1}{\int} \mathcal{C}(r^{\mathcal{C}}_{c_1},c) \wedge X(c_1)
+    }}
+    \\
+    X(c) &\simeq& \overset{c_1}{\int} \mathcal{C}(c_1,c) \wedge X(c_1)
+  }
+  \,.
+$$
+
+Analogously for the left unitor. Hence the triangle identity for $\otimes_{Day}$ follows from the triangle identity in $\mathcal{C}$ under the integral sign.
+
+
+Similarly, if $\mathcal{C}$ has a [[braiding]] $\tau^{\mathcal{C}}$, it induces a braiding $\tau^{Day}$ under the integral sign:
+
+$$
+  \array{
+    (X \otimes_{Day} Y)(c)
+    & = &
+    \overset{c_1,c_2}{\int} 
+     \mathcal{C}(c_1 \otimes c_2) \wedge X(c_1) \wedge Y(c_2)
+    \\
+    {}^{\mathllap{\tau}^{Day}_{X,Y}(c)}\downarrow
+    &&
+    \downarrow^{\mathrlap{\overset{c_1,c_2}{\int} \mathcal{C}(\tau^{\mathcal{C}}_{c_1,c_2}, c  ) \wedge \tau^{Top^{\ast/}}_{X(c(1)), X(c_2)}  }}
+    \\
+    (Y \otimes_{Day} X)(c)
+    & = &
+    \overset{c_1,c_2}{\int} 
+     \mathcal{C}(c_2 \otimes c_1) \wedge Y(c_2) \wedge X(c_1)   
+  }
+$$
+
+and the hexagon identity for $\tau^{Day}$ follows from that for $\tau^{\mathcal{C}}$ and $\tau^{Top^{\ast/}_{cg}}$
+
+
+
 =--
+
+Moreover:
 
 
 +-- {: .num_prop #DayMonoidalStructureIsClosed}
 ###### Proposition
 
-For $(\mathcal{C}, \otimes ,1 )$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}), the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
+For $(\mathcal{C}, \otimes ,1 )$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}), the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
 
 $$
   [X,Y]_{Day}(c)
@@ -2761,7 +2900,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] (prop \ref{TopologicalCoYonedaLemma}) twice to get the following natural isomorphism
+That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) twice to get the following natural isomorphism
 
 $$
   \begin{aligned}
@@ -2789,6 +2928,16 @@ $$
 
 ##### Functors with smash product
  {#FunctorsWithSmashProduct}
+
+Since the [[symmetric monoidal smash product of spectra]] discussed [below](#OnPreExcisiveFunctors) is an instance of [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}), and since [[ring spectra]] are going to be the [[monoids]] with respect to this tensor product, we are interested in characterizing the [[monoid in a monoidal category|monoids]] (def. \ref{MonoidsInMonoidalCategory}) with respect to Day convolution. These turn out to have a particularly transparent expression as what is called _[[functors with smash product]]_, namely [[lax monoidal functors]] from the base monoidal category to $Top^{\ast/}_{cg}$. Their components are pairing maps of the form
+
+$$
+  R_{n_1} \wedge R_{n_2} \longrightarrow R_{n_1 + n_2}
+$$
+
+satisfying suitable conditions. This is the form in which the structure of [[ring spectra]] usually appears in examples. It is directly analogous to how a [[dg-algebra]], which is equivalently a monoid with respect to the [[tensor product of chain complexes]] (example \ref{dgAlgebraAreMonoidsInChainComplexes}), is given in components .
+
+Here we introduce the concepts of monoidal functors and of [[functors with smash product]] and prove that they are equivalently the monoids with respect to Day convolution.
 
 
 +-- {: .num_defn #LaxMonoidalFunctor}
@@ -3242,6 +3391,9 @@ $$
 This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, since the composite of two (braided) lax monoidal functors is itself canonically a (braided) lax monoidal functor.
 
 =--
+
+
+
 
 #### $\mathbb{S}$-Modules
  {#SModules}
@@ -4341,23 +4493,24 @@ These are the objects and hom-spaces of the category $StdSpheres$. It is straigh
 +-- {: .num_defn #StableOrthStructureClassesOfMorphisms}
 ###### Definition
 
-For $OrthSpec(Top_{cg})$ the category of [[orthogonal spectra]] from def. \ref{SsymModuleSymmetricSpectra} we say that
+For $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym, Seq\}$ one of the shapes of structured spectra from def. \ref{TopologicalDiagramCategoriesForSpectra}, let $\mathbb{S}_{dia}Mod$ be the corresponding category of structured spectra (def. \ref{FinitePointedCWComplexes}, prop. \ref{SseqModulesAreSequentialSpectra}, def. \ref{SsymModuleSymmetricSpectra}).
 
-1. an object $X$ is a **structured [[Omega-spectrum]]** if the underlying [[sequential spectrum]] $seq^\ast X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) is a sequential [[Omega spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum))
 
-1. a morphism $f$ is a **[[stable weak homotopy equivalence]]** (or: **$\pi_\bullet$-isomorphism**) if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] of sequential spectra ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra));
+1. An object $X \in \mathbb{S}_{dia}Mod$ is a **structured [[Omega-spectrum]]** if the underlying [[sequential spectrum]] $seq^\ast X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) is a sequential [[Omega spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum))
+
+1. A morphism $f$ in $\mathbb{S}_{dia}Mod$ is a **[[stable weak homotopy equivalence]]** (or: **$\pi_\bullet$-isomorphism**) if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] of sequential spectra ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra));
 
 1. a morphism $f$ is a **stable cofibration** if it is a cofibration in the strict model structure $OrthSpec(Top_{cg})_{strict}$ from prop. \ref{StrictModelStructureOnDiagramSpectra}.
 
 =--
 
-(e.g. [MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
+([MMSS 00, def. 8.3 with the notation from p. 21](#MMSS00), [Mandell-May 02, III, def. 3.1, def. 3.2](#May02)) (def. \ref{MonoidalCategory}). 
 
 
 +-- {: .num_lemma #DegreewiseLESofHomotopyGroupsInducedStableLES}
 ###### Lemma
 
-Given a morphism $f\;\colon\; X \longrightarrow Y$ in $\mathbb{S}_{dia}Mod$, then there are [[long exact sequence]] of [[stable homotopy groups]] (def. \ref{StableOrthStructureClassesOfMorphisms}) of the form
+Given a morphism $f\;\colon\; X \longrightarrow Y$ in $\mathbb{S}_{dia}Mod$, then there are [[long exact sequences]] of [[stable homotopy groups]] (def. \ref{StableOrthStructureClassesOfMorphisms}) of the form
 
 $$
   \cdots
@@ -4724,7 +4877,7 @@ Let $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ be any one of the four diagr
      \,;
    $$
 
-1. on $n' \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}_{cg}]$ its value is given by the follwoing [[coend]] expression (def. \ref{EndAndCoendInTopcgSmash})
+1. on $n' \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}_{cg}]$ its value is given by the following [[coend]] expression (def. \ref{EndAndCoendInTopcgSmash})
 
   $$
     (F^{dia}_n K)(n')
@@ -4924,7 +5077,7 @@ $$
 
 =--
 
-([Mandell-May 02, prop. 2.2.6](#May02), [MMSS 00, lemma 1.8 with theorem 2.2](#MMSS00)) 
+([MMSS 00, lemma 1.8 with theorem 2.2](#MMSS00), [Mandell-May 02, prop. 2.2.6](#May02)) 
 
 +-- {: .proof}
 ###### Proof
@@ -5522,35 +5675,38 @@ Moreover, the three right adjoint restriction functors are along inclusions of o
 Recall the sets
 
 $$
-  I_{Top^{\ast/}} \coloneqq \{S^{n-1}_+ \hookrightarrow D^n_+\}_{n \in \mathbb{N}}
+  I_{Top^{\ast/}} \coloneqq \{S^{n-1}_+ \overset{(i_n)_+}{\hookrightarrow} D^n_+\}_{n \in \mathbb{N}}
 $$
 
 $$
-  J_{Top^{\ast/}} \coloneqq \{D^n_+ \hookrightarrow (D^n \times I)_+\}_{n \in \mathbb{N}}
+  J_{Top^{\ast/}} \coloneqq \{D^n_+ \overset{(j_n)_+}{\hookrightarrow} (D^n \times I)_+\}_{n \in \mathbb{N}}
 $$
 
 of generating cofibrations and generating acyclic cofibrations, respectively, of the [[classical model structure on pointed topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces))
 
 Write
 
-$$
-  I^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})} 
-    \;\coloneqq\; 
-  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(c) \wedge i_+ \}_{{c \in \mathbb{S}_{Dia} Free_{Dia}Mod} \atop {i \in I_{Top}}}
-$$
-
-for the class of [[free spectra]], def. \ref{FreeStructuredSpectrum}, on the morphuisms in the sets $I_{Top^{\ast/}}$ from above, which by lemma \ref{ExplicitExpressionForFreeSpectra} is equivalently the set of morphisms arising as the [[tensoring]] with a topological generating cofibration of a [[representable functor|representable]] over the [[site]] $\mathbb{S}_{dia} Free_{Dia}Mod$ (the [[site]] for $\mathbb{S}_{dia}Mod$ from prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}).
- 
-Similarly, write
 
 $$
-  J^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})} 
+  I^{strict}_{dia} 
     \;\coloneqq\; 
-  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(c) \otimes j_+ \}_{{c \in \mathbb{S}_{Dia}Free_{Dia}Mod} \atop {j \in J}}
+  \left\{
+    F_c^{dia}((i_n)_+)
+  \right\}_{c \in Dia, n \in \mathbb{N}}
+$$
+
+for the set of images under forming [[free spectra]], def. \ref{FreeStructuredSpectrum}, on the morphisms in $I_{Top^{\ast/}}$ from above. Similarly, write
+
+$$
+  J^{strict}_{dia} 
+    \;\coloneqq\; 
+  \left\{
+   F_c^{dia}((j_n)_+)
+  \right\}
   \,,
 $$
 
-for the set of morphisms arising as the [[tensoring]] of a [[representable functor|representable]] with a generating acyclic cofibration of the [[classical model structure on topological spaces]] (with basepoint adjoined).
+for the set of images under forming free spectra of the morphisms in $J_{Top^{\ast/}_{cg}}$.
 
 =--
 
@@ -5558,8 +5714,8 @@ for the set of morphisms arising as the [[tensoring]] of a [[representable funct
 +-- {: .num_prop #CofibrantGenerationOfStrictModelStructure}
 ###### Proposition
 
-The sets $I^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}$ 
-and $J^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} are, respectively sets of [[generating cofibrations]] and generating acyclic cofibrations that exhibit the strict model structure $\mathbb{S}_{Dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} as a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)).
+The sets $I^{strict}_{dia}$ 
+and $J^{strict}_{dia}$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} are, respectively sets of [[generating cofibrations]] and generating acyclic cofibrations that exhibit the strict model structure $\mathbb{S}_{Dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} as a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)).
 
 =--
 
@@ -5569,11 +5725,14 @@ and $J^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}$ from def. \ref{GeneratingAndGen
 By theorem \ref{StrictModelStructureOnDiagramSpectra} the strict model structure is equivalently the projective pointed  [[model structure on enriched functors|model structure on topologically enriched functors]]
 
 $$
-  \mathbb{S}_{Dia}Mod_{strict} \simeq [\mathbb{S}_{Dia}Free_{Dia}Mod^{op}, Top^{\ast/}]_{proj}
-  \,.
+  \mathbb{S}_{Dia}Mod_{strict} 
+    \simeq 
+  [\mathbb{S}_{Dia}Free_{Dia}Mod^{op}, Top^{\ast/}]_{proj}
 $$
 
-With this the statement follows via lemma \ref{ExplicitExpressionForFreeSpectra} by the proof of [this](classical+model+structure+on+topological+spaces#ProjectiveModelStructureOnTopEnrichedFunctors) theorem.
+of the opposite of the category of free spectra on objects in $\mathcal{C} \hookrightarrow [\mathcal{C}, Top^{\ast/}_{cg}]$.
+
+By the general discussion in _[[Introduction to Stable homotopy theory -- P|Part P -- Classical homotopy theory]]_ ([this](classical+model+structure+on+topological+spaces#ProjectiveModelStructureOnTopEnrichedFunctors) theorem) the [[projective model structure on functors]] is cofibrantly generated by the smash tensoring of the [[representable functors]] with the elements in $I_{Top^{\ast/}_{cg}}$ and $J_{Top^{\ast/}_{cg}}$. By the proof of lemma \ref{ExplicitExpressionForFreeSpectra}, these are precisely the morphisms of free spectra in $I^{strict}_{dia}$ and $J^{strict}_{dia}$, respectively.
 
 =--
 
@@ -5582,7 +5741,7 @@ With this the statement follows via lemma \ref{ExplicitExpressionForFreeSpectra}
 ##### Topological enrichment
 
 
-By general properties of the [[projective model structure on functors|projective model structure]] on [[topologically enriched functors]], this implies that the strict model category of structured spectra inherits the structure of an [[enriched model category]], enriched over the [[classical model structure on pointed topological spaces]]. This proceeds verbatim as for sequential spectra ([part 1.1 -- Topological enrichement](Introduction+to+Stable+homotopy+theory+--+1-1#TopologicalEnrichment)), but for ease of reference we make it explicit.
+By the general properties of the [[projective model structure on functors|projective model structure]] on [[topologically enriched functors]], theorem \ref{StrictModelStructureOnDiagramSpectra} implies that the strict model category of structured spectra inherits the structure of an [[enriched model category]], enriched over the [[classical model structure on pointed topological spaces]]. This proceeds verbatim as for sequential spectra (in _[part 1.1 -- Topological enrichement](Introduction+to+Stable+homotopy+theory+--+1-1#TopologicalEnrichment)_), but for ease of reference we here make it explicit again.
 
 
 +-- {: .num_defn #PushoutProductWithRespectToSmashTensoring}
@@ -5692,7 +5851,7 @@ $$
 
 denotes the smash powering ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)).
 
-Similarly, for $f \colon X \to Y$ and $i \colon A \to B$ both morphisms in $\mathbb{S}_{dia}Mod$, then their pullback powering is the universal morphism 
+Finally, for $f \colon X \to Y$ and $i \colon A \to B$ both morphisms in $\mathbb{S}_{dia}Mod$, then their pullback powering is the universal morphism 
 
 $$
   f^{\Box i} \coloneqq (\mathbb{S}_{dia}Mod(B,f), \mathbb{S}_{dia}Mod(i,X))
@@ -5775,7 +5934,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The statement concering the pullback powering follows directly from the analogous statement for topological spaces ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PullbackPowering)) by the fact that via theorem \ref{StrictModelStructureOnDiagramSpectra} the fibrations and weak equivalences in $\mathbb{S}_{dia}Mod_{strict}$ are degree-wise those in $(Top_{cg}^{\ast/})_{Quillen}$, and since smash tensoring and powering is defined degreewise. From this the statement about the pushout product follows dually by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)).
+The statement concering the pullback powering follows directly from the analogous statement for topological spaces ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PullbackPowering)) by the fact that, via theorem \ref{StrictModelStructureOnDiagramSpectra}, the fibrations and weak equivalences in $\mathbb{S}_{dia}Mod_{strict}$ are degree-wise those in $(Top_{cg}^{\ast/})_{Quillen}$, and since smash tensoring and powering is defined degreewise. From this the statement about the pushout product follows dually by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)).
 
 =--
 
@@ -5808,7 +5967,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By assumption, $K$ is a cofibrant object in the [[classical model structure on pointed topological spaces]], hence $\ast \to K$ is a cofibration in $(Top^{\ast/}_{cg})_{Quillen}$. Observe then that the the [[pushout product]] of any morphism $f$ with $\ast \to K$ is equivalently the smash tensoring of $f$ with $K$:
+By assumption, $K$ is a cofibrant object in the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)), hence $\ast \to K$ is a cofibration in $(Top^{\ast/}_{cg})_{Quillen}$. Observe then that the the [[pushout product]] of any morphism $f$ with $\ast \to K$ is equivalently the smash tensoring of $f$ with $K$:
 
 $$
   f \Box (\ast \to K)
@@ -5889,7 +6048,7 @@ Hence if $X$ is assumed to be cofibrant, so that $\ast \to X$ is a cofibration, 
 +-- {: .num_prop #PushoutProductOfspectrumWithSpaceInteractingWithHomSpaces}
 ###### Proposition
 
-For $X \in \mathbb{S}_{dia}Mod$ a [[structured spectum]], $f \in Mor(\mathbb{S}_{dia}Mod)$ any morphism of structured spectra, and for $g  \in Mor(Top_{cpt}^{\ast/})$ a morphism of [[pointed topological spaces]], then the [[hom-spaces]] of def. \ref{PointedTopologicalFunctorCategory} (via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) interact with the pushout-product and pullback-powering from def. \ref{PushoutProductWithRespectToSmashTensoring} in that there is a [[natural isomorphism]]
+For $X \in \mathbb{S}_{dia}Mod$ a [[structured spectrum]], $f \in Mor(\mathbb{S}_{dia}Mod)$ any morphism of structured spectra, and for $g  \in Mor(Top_{cpt}^{\ast/})$ a morphism of [[pointed topological spaces]], then the [[hom-spaces]] of def. \ref{PointedTopologicalFunctorCategory} (via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) interact with the pushout-product and pullback-powering from def. \ref{PushoutProductWithRespectToSmashTensoring} in that there is a [[natural isomorphism]]
 
 $$
   \mathbb{S}_{dia}Mod(f \Box g, X)
@@ -5958,14 +6117,14 @@ $$
    [X,Y]_{strict}
 $$
 
-between the [[connected components]] of the [[hom-space]] (def. \ref{PointedTopologicalFunctorCategory} via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) and the [[hom-set]] in the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of the strict model structure from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+between the [[connected components]] of the [[hom-space]] (def. \ref{PointedTopologicalFunctorCategory} via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) and the [[hom-set]] in the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of the strict model structure from theorem \ref{StrictModelStructureOnDiagramSpectra}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg} the path components of the [[hom-space]] are the [[left homotopy]] classes of morphisms of structured spectra with respect to the standard [[cylinder spectrum]] of def. \ref{StandardCylinderSpectrumSequential}:
+By prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg} the path components of the [[hom-space]] are the [[left homotopy]] classes of morphisms of structured spectra with respect to the standard [[cylinder spectrum]] $X \wedge (I_+)$:
 
 $$
   \frac{
@@ -5988,19 +6147,27 @@ $$
 
 ##### Monoidal model structure
 
-We now combine the concepts of [[model category]] and [[monoidal category]].
+We now combine the concepts of [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) and [[monoidal category]] (def. \ref{MonoidalCategory}).
+
+Given a category $\mathcal{C}$ that is equipped both with the structure of a [[monoidal category]] and of a [[model category]], then one may ask whether these two structures are compatible, in that the [[left derived functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctorsOnModelCategories)) of the [[tensor product]] exists to equip also the [[homotopy category of a model category|homotopy category]] with the structure of a monoidal category. If so, then one may furthermore ask if the [[localization]] functor $\gamma \;\colon\; \mathcal{C} \longrightarrow Ho(\mathcal{C})$ is a [[monoidal functor]] (def. \ref{LaxMonoidalFunctor}).
+
+The axioms on a _[[monoidal model category]]_ (def. \ref{MonoidalModelCategory} below) are such as to ensure that this is the case.
+
+A key consequence is that, via prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}, for a monoidal model category the localization functor $\gamma$ carries monoids to monoids. Applied to the [[stable model category]] of spectra established below, this gives that [[structured ring spectra]] indeed represent [[ring spectra]] in the homotopy category.  (In fact much more is true, but requires further proof: there is also a model structure on monoids in the model structure of spectra, and with respect to that the structured ring spectra represent [[A-infinity rings]]/[[E-infinity rings]].)
+
+
 
 
 +-- {: .num_defn #MonoidalModelCategory}
 ###### Definition
 
-A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
+A (symmetric) **monoidal model category** is a [[model category]] $\mathcal{C}$
 ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) equipped with the structure of a  [[closed monoidal category|closed]] (def. \ref{ClosedMonoidalCategory}) [[symmetric monoidal category|symmetric]] (def. \ref{SymmetricMonoidalCategory}) [[monoidal category]] $(\mathcal{C}, \otimes, I)$ (def. \ref{MonoidalCategory}) such that the following two compatibility conditions are satisfied
 
 1. **([[pushout-product axiom]])** For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
 
    $$
-     (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
+     (X \otimes Y') \underset{{X \otimes X'}}{\sqcup} (Y \otimes X')
      \longrightarrow
      Y \otimes Y'
      \,,
@@ -6013,7 +6180,7 @@ A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
 1. **(unit axiom)** For every cofibrant object $X$ and every cofibrant resolution $\emptyset \overset{\in Cof}{\longrightarrow} Q 1 \underoverset{p_1}{\in W}{\longrightarrow} \ast$ of the [[tensor unit]] $1$, the resulting morphism
 
    $$
-     Q I \otimes X 
+     Q 1 \otimes X 
        \overset{p_1 \otimes X}{\longrightarrow} 
      1 \otimes X 
        \underoverset{\ell}{\in W}{\longrightarrow} 
@@ -6041,13 +6208,15 @@ We say a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) satisfie
 
 =--
 
-([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley)).
+([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley00)).
 
 
 +-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
 ###### Proposition
 
-Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]] (def. \ref{MonoidalModelCategory}). Then the [[left derived functor]] $\otimes^L$ (def. \ref{Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors})of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(I))$ (def. \ref{MonoidalCategory}).
+Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]] (def. \ref{MonoidalModelCategory}). 
+
+Then the [[left derived functor]] $\otimes^L$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors)) of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ (def. \ref{MonoidalCategory}).
 
 If in in addition $(\mathcal{C}, \otimes,1 )$ satisfies the [[monoid axiom in a monoidal model category|monoid axiom]] (def. \ref{MonoidAxiom}), then the [[localization]] functor $\gamma\colon \mathcal{C}\to Ho(\mathcal{C})$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) carries the structure of a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor})
 
@@ -6211,7 +6380,7 @@ The same argument applies to left tensoring with $R Q Z$ instead of right tensor
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures $\mathbb{S}_{dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectrag} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes},, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def.\ref{MonoidalModelCategory}).
+Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures $\mathbb{S}_{dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes},, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def.\ref{MonoidalModelCategory}).
 
 =--
 
@@ -6640,6 +6809,8 @@ That follows with a laborious argument using the above lemmas (...).
 =--
 
 (...)
+
+
 
 
 
