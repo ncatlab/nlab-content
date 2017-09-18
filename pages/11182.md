@@ -118,7 +118,8 @@ The **naive integral** of $\omega$ over $c$ is defined to be
 
 $$\int_c \omega = \int_{t=a}^b \langle \omega | c_t \rangle \mathrm{d}t. $$
 
-if this exists.  If $\omega$ is an exterior differential 1-form, then this agrees with its usual line integral over $c$.
+if this exists.  If $\omega$ is an exterior differential $1$-form or an absolute differential $1$-form, then this agrees with its usual line integral over $c$.
+
 
 ### Genuine integration
 
@@ -130,7 +131,8 @@ Here $\Delta t_i = t_i - t_{i-1}$, and for a curve $c$ and a number $h$ the curv
 
 It is convenient to do this in the manner of the [[Henstock integral]].  That is, we consider *gauges* $\delta : [a,b] \to \mathbb{R}_{\gt 0}$ and say that a tagged partition is *$\delta$-fine* if $[t_{i-1},t_i] \subset (t^*_i - \delta(t^*_i), t^*_i + \delta(t^*_i))$ for all $i$.  Then we say that a number $I$ is the integral $\int_c \omega$ if for all $\epsilon\gt 0$ there exists a gauge $\delta$ such that the Riemann sum of any $\delta$-fine tagged partition is within $\epsilon$ of $I$.
 
-The genuine integral also agrees with the usual integral for exterior 1-forms, and probably also for absolute differential forms.  However, in other cases it disagrees.  In particular, it "detects only the degree-1 part" of a form, in a way that we can make precise as follows.
+The genuine integral also agrees with the usual integral for exterior 1-forms, and probably also for absolute differential forms.  However, in other cases it disagrees with the naive integral.  In particular, it "detects only the degree-1 part" of a form, in a way that we can make precise as follows.
+
 
 ### Integration of negligible forms
 
@@ -153,6 +155,7 @@ However, a *better* approximation would be to replace the rectangle with a trape
 $$ \frac{1}{2}(f(x) + f'(x)\Delta x + f(x))\Delta x = f(x) \Delta x + \frac{1}{2} f'(x) (\Delta x)^2. $$
 This would lead us to integrate the form $f(x) \mathrm{d}x + \frac{1}{2} f'(x) \mathrm{d}x^2$.  Since this is based on a better approximation, we should expect it to give at least as good an answer.  And with the genuine integral it does give the same answer, since the additional term $\frac{1}{2} f'(x) \mathrm{d}x^2$ is $o(dx)$ and hence has vanishing integral.  But with the naive integral, it does not.
 
+
 ### The fundamental theorem of calculus
 
 The naive integral satisfies a fundamental theorem of calculus for all cogerm forms: for any $\omega$ we have
@@ -166,6 +169,7 @@ $$ \int_c \mathrm{d}f = f(c(b)) - f(c(a))$$
 This can be proven in exactly the same way as the usual FTC for (line) integrals.
 
 The restriction of FTC to differentials of functions is fairly natural if we recognize that FTC is a special case of the generalized [[Stokes' theorem]], which is about *exterior* differentials of forms, not the commutative cogerm differential.  It just so happens that if $f$ is a function, then the exterior differential of $f$ regarded as a 0-form agrees with the cogerm differential of $f$ regarded as a cogerm 1-form.
+
 
 ### Existence of integrals
 
@@ -277,6 +281,7 @@ where $E(c(t^*_i),\Delta c_i)\to 0$ as $t_i - t_{i-1} \to 0$.  Since $\omega$ is
 $$  \Big\Vert \omega(\phi(c(t^*_i)),\Delta (\phi c)_i) - \omega(\phi(c(t^*_i)),d_{c(t^*_i)}\phi(\Delta c_i)) \Big\Vert \lt L \cdot E(c(t^*_i),\Delta c_i) \cdot {\Vert \Delta c_i \Vert }. $$
 Now $L$ and $E$ depend on the point chosen, but nevertheless, we can choose gauges as before to make this term vanish in the limit.  Thus, the two integrals agree.
 =--
+
 
 ### Stieltjes integrals, $\delta$-fuctions, and distributions
 
