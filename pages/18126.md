@@ -8219,7 +8219,7 @@ Construct a new topological space $(Y, \tau_Y)$ by
 
 1. $Y \coloneqq X \sqcup \{\infty\}$;
 
-1. $\tau_Y \coloneqq P(X) \sqcup \left\{ (C_i \cup \{\infty\}) \subset Y  \right\}$.
+1. $\beta_Y \coloneqq P(X) \sqcup \left\{ (C_i \cup \{\infty\}) \subset Y  \right\}$ a [[sub-base for a topology|sub-base]] for $\tau_Y$ (def. \ref{TopologyBase}).
 
 Then consider the topological closure of the "diagonal" $\Delta$ in $Y \times X$
 
