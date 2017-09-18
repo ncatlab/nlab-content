@@ -67,7 +67,8 @@ Hence while in the modern picture of baryogenesis via [[gauge anomaly]] an [[ele
 
 (If one doesn't want to consider a [[no boundary proposal|Hartle-Hawking-type]] Euclidean no-boundary spacetime but instead a [[globally hyperbolic spacetime]] then the conclusion still holds, just not relative to vanishing baryon number at the "south pole" of the cosmic 4-sphere, but relative to the net baryon  number at any chosen spatial reference slice. )
 
+## Related entries
 
+* [[William Clifford]], _[[On the Space-Theory of Matter]]_
 
 category: reference
-
