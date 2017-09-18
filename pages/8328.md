@@ -54,6 +54,8 @@ A [[category]] equipped with such a notion of being is, naturally, called a _[[c
 
 * [[category of being]]
 
+* [[Aufhebung]]
+
 * [[modality]]
 
 * [[beable]]
