@@ -31,6 +31,8 @@ $$
 
 * [[torsion of a metric connection]]
 
+* [[Weyl tensor]]
+
 * [[Poincare Lie algebra]]
 
 * [[Ricci tensor]], [[scalar curvature]]
