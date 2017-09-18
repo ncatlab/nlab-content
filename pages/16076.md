@@ -8,4 +8,7 @@
 
 * [[Cartan connection]]
 
+
 category: people
+
+[[!redirects Jan Slovak]]
