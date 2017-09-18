@@ -28,13 +28,62 @@ on a unified construction and comparison of the [[Bousfield-Friedlander model st
 
 ***
 
-Write 
+Throughout, write 
 
-* $Top_{cq}$ for the [[category]] of [[compactly generated topological spaces]]; this is a "[[convenient category of topological spaces]]", in particular it is a [[cartesian monoidal category]] $(Top_{cg}, \times)$;
+* $Top \coloneqq Top_{cg}$ for the [[category]] of  [[compactly generated topological spaces]]; this is a "[[convenient category of topological spaces]]", in particular it is a [[cartesian monoidal category]] $(Top, \times)$;
+
+* $Top^{\ast/}$ for the corresponding [[pointed topological spaces]]; this is a [[symmetric monoidal category]] equipped with the [[smash product]] of pointed objects;
 
 * $Top_{Quillen}$ for the [[classical model structure on topological spaces]] on this caterory; in particular this is a [[monoidal model category]] $(Top_{Quillen}, \times)$.
 
-Throughout we are dealing with $(Top_{cg},\times)$-[[enriched categories]] and with $(Top_{Quillen}_{cg})$-[[enriched model categories]].
+Throughout we are dealing with $(Top,\times)$-[[enriched categories]] and with $Top_{Quillen}$-[[enriched model categories]].
+
++-- {: .num_defn #TopologicalDiagramCategoriesForSpectra}
+###### Definition
+
+Define the following $Top$-[[enriched categories|enriched]] [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] (the [[tensor product]] is an [[enriched functor]]):
+
+1. $Seq$ has as objects the [[natural numbers]] and has only identity morphisms, tensor product is the addition of natural numbers, tensor unit is 0;
+
+1. $Sym$ a [[skeletal category|skeleton]] of [[FinSet]], tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]],
+
+1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] and as morphisms the [[linear map|linear]] [[isometries]] between these;
+
+1. $Top_{fin}^{\ast/}$ for the category of [[pointed topological space|pointed]] [[finite CW-complexes]], tensor product is their [[smash product]], tensor unit is the [[0-sphere]].
+
+The canonical inclusions give a sequence of [[strong monoidal functor|strong monoidal]]
+
+$$
+ Seq \hookrightarrow Sym \hookrightarrow Orth \hookrightarrow Top_{fin}^{\ast/}
+  \,.
+$$
+
+The [[sphere spectrum]] $\mathbb{S}$ is the canonical inclusion functor $Top_{fin}^{\ast/} \hookrightarrow Top^{\ast/}$ regarded as an object
+
+$$
+  \mathbb{S} \in [Top_{fin}^{\ast/}, Top^{\ast/}]
+$$
+
+of the [[enriched functor category]].  By restriction along the above inclusions, this yields objects
+
+$$
+  \mathbb{S}_{Seq} \in [Seq, Top^{\ast/}]
+$$
+
+$$
+  \mathbb{S}_{Sym} \in [Sym, Top^{\ast/}]
+$$
+
+$$
+  \mathbb{S}_{Orth} \in [Orth, Top^{\ast/}]
+  \,.
+$$
+
+=--
+
+Now the key is:
+
+under [[Day convolution]] all these functor categories become [[symmetric monoidal categories]] themselves. But the ([[representable functor|functor represented]] by) the [[sphere spectrum]] is the [[tensor unit]] of that monoidal structure only for $Top^{\ast/}_{fin}$, not for $Seq$, $Sym$, $Orth$.
 
 (...)
 
