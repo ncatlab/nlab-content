@@ -146,18 +146,18 @@ and composing with $\psi : L_R' \rightarrow K_R$ gives a map
 
 $$\psi \bar\psi' : K_R'' \rightarrow K_R.$$
 
-Of course, there is also a map
+Obviously, $K'$ is ordered by inclusion of simplices, so there is a map $\varphi_{K'}:K_R''\rightarrow K_R'$, and then we get a map
 
-$$\varphi_K \varphi'_K : K_R''\rightarrow K_R.$$
+$$\varphi_K \varphi_{K'} : K_R''\rightarrow K_R.$$
 
 +-- {: .un_proposition}
 ###### Proposition (Dowker, 1952, p. 88)
 
-The two maps $\varphi_K \varphi'_K$ and $\psi \bar\psi'$ are contiguous.
+The two maps $\varphi_K \varphi_{K'}$ and $\psi \bar\psi'$ are contiguous.
 =--
 
 Before proving this, note that contiguity implies homotopy and that
-$\varphi \varphi'$ is homotopic to the identity map on $K_R$ after
+$\varphi_K \varphi_{K'}$ is homotopic to the identity map on $K_R$ after
 realisation, i.e., this proves the following modulo the proof of the proposition:
 
 +-- {: .un_theorem}
@@ -179,22 +179,22 @@ $i \gt 0$
 
 $$x_0'' \subset x_i''.$$
 
-We have that $\varphi'_K$ is clearly order reversing so $\varphi'_K
-x_i'' \subseteq \varphi'_K x_0''$. Let $y = \bar\varphi \varphi'_K
-x_0''$, then for each $x \in \varphi'_K x_0''$, $x Ry$. Since $\varphi_K
-\varphi'_K x_i'' \in \varphi'_K x_i'' \subseteq \varphi'_K x_0''$, we
-have $\varphi_K \varphi'_K x_i'' R y$.
+We have that $\varphi_{K'}$ is clearly order reversing so $\varphi_{K'}
+x_i'' \subseteq \varphi_{K'} x_0''$. Let $y = \bar\varphi \varphi_{K'}
+x_0''$, then for each $x \in \varphi_{K'} x_0''$, $x Ry$. Since $\varphi_K
+\varphi_{K'} x_i'' \in \varphi_{K'} x_i'' \subseteq \varphi_{K'} x_0''$, we
+have $\varphi_K \varphi_{K'} x_i'' R y$.
 
 For each vertex $x'$ of $x_i'', \bar \psi x' \in \bar \psi'
-x_i''$, hence as $\varphi'_K x_0'' \in x_0'' \subset x_i'', y =
-\bar \psi \varphi'_K xx_0'' \in \bar \psi' x_i''$ for each $x_i
+x_i''$, hence as $\varphi_{K'}x_0'' \in x_0'' \subset x_i'', y =
+\bar \psi \varphi_{K'} xx_0'' \in \bar \psi' x_i''$ for each $x_i
 ''$, so for each $x_i'', \psi \bar \psi' x_i'' R y$, however we
 therefore have 
 
-$$ \varphi_k \varphi'_K (\sigma '') \cup \psi \bar \psi (\sigma''') = \bigcup \varphi_k \varphi'_K (x_i'')\cup \psi \bar \psi; x_i ''$$ 
+$$ \varphi_k \varphi_{K'} (\sigma '') \cup \psi \bar \psi (\sigma''') = \bigcup \varphi_K \varphi_{K'} (x_i'')\cup \psi \bar \psi; x_i ''$$ 
 
 forms a simplex in $K_R$, i.e.
-$\varphi_K \varphi'_K$ and $\psi \bar \psi'$ are contiguous.
+$\varphi_K \varphi_{K'}$ and $\psi \bar \psi'$ are contiguous.
 
 =--
 
