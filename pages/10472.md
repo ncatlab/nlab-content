@@ -42,6 +42,7 @@ $$
     \\
     & {}^{\mathllap{x}}\swarrow && \searrow^{\mathrlap{y}}
     &&
+    \\
     X && \underset{f}{\longrightarrow} && Y
   }
 $$
@@ -90,7 +91,7 @@ Given two pointed topoligical spaces $(X,x)$ and $(Y,y)$, then:
    This is the [[quotient topological space]] of the [[disjoint union space]] under the [[equivalence relation]] which identifies the two basepoints:
 
    $$
-     X \vee Y \simeq (X \sqcup Y)/(x \sim y)
+     X \vee Y \;\simeq\; (X \sqcup Y)/(x \sim y)
    $$ 
 
 Generally for a set $\{(X_i,x_i)\}_{i \in I}$ of pointed topological spaces
@@ -168,8 +169,8 @@ $$
 $$
  
 =--
-
-
+t
+$\,$
 
 | symbol | name | category theory |
 |--------|------|-----------------|
@@ -243,7 +244,7 @@ $$
   X \wedge (I_+) = (X \times I)/(\{x_0\} \times I)
 $$
 
-is the **[[reduced cylinder]]** over $X$: the result of forming the ordinary cyclinder over $X$ as in def. \ref{TopologicalInterval}, and then identifying the interval over the basepoint of $X$ with the point.
+is the **[[reduced cylinder]]** over $X$: the result of forming the ordinary [[cylinder]] over $X$, and then identifying the interval over the basepoint of $X$ with the point.
 
 (Generally, any construction in $Top$ properly adapted to pointed spaces is called the "reduced" version of the unpointed construction. Notably so for "[[reduced suspension]]" which we come to [below](#MappingCones).)
 
@@ -261,10 +262,45 @@ $$
 ### Mapping (co-)cones
 
 
+Recall that the _[[cone]]_ on a [[topological space]] $X$ is the [[quotient space]] of the [[product space]] with the closed interval
+
+$$
+  Cone(X)
+   = 
+  (X \times [0,1])/( X \times \{0\} )
+  \,.
+$$
+
+If $X$ is pointed with basepoint $x \in X$, then the  _reduced cone_ is the further quotient by the copy of the interval over the basepoint
+
+$$
+  Cone(X,x) = Cone(X) / ( \{x\} \times [0,1] )
+  \,.
+$$
+
+For $f \colon X \to Y$ a [[continuous function]], then 
+
+1. the _[[mapping cylinder]]_ of $f$ is the [[attachment space]]
+
+   $$
+     Cyl(f) \coloneqq Y \cup_f Cyl(X)
+   $$
+
+1. the _[[mapping cone]]_ of $f$ is the [[attachment space]]
+
+   $$
+     Cone(f) \coloneqq Y \cup_f Cone(X)
+   $$
+
+accordingly if $f \colon X \to Y$ is a continuous function between pointed spaces which preserves the basepoint, then the analogous construction with the [[reduced cylinder]] and the reduce cone, respectively, yield the _reduced mapping cyclinder_ and the _reduced mapping cone_. 
+
+We now say this again in terms of [[pushouts]]:
+
+
 +-- {: .num_defn #MappingConeAndMappingCocone}
 ###### Definition
 
-For $f \colon X \longrightarrow Y$ a continuous map between pointed spces, its **reduced [[mapping cone]]** is the space
+For $f \colon X \longrightarrow Y$ a [[continuous function]] between pointed spces, its **reduced [[mapping cone]]** is the space
 
 $$
   Cone(f)
@@ -272,7 +308,7 @@ $$
   \ast \underset{X}{\sqcup} Cyl(X) \underset{X}{\sqcup} Y
 $$
 
-in the colimiting diagram
+in the [[colimit|colimiting]] [[diagram]]
 
 $$
   \array{
@@ -351,7 +387,7 @@ The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is call
      \,.
    $$
 
-   This is also equivalently the [[cofiber]], example \ref{FiberAndCofiberInPointedObjects} of $(i_0,i_1)$, hence (example \ref{WedgeSumAsCoproduct}) of the [[wedge sum]] inclusion:
+   This is also equivalently the [[cofiber]]f of $(i_0,i_1)$, hence (example \ref{WedgeSumAsCoproduct}) of the [[wedge sum]] inclusion:
 
    $$
      X \vee X
@@ -370,80 +406,23 @@ The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is call
 +-- {: .num_prop #ReducedSuspensionBySmashProductWithCircle}
 ###### Proposition
 
-In [[pointed topological spaces]] $Top^{\ast/}$,
 
-* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]], for later purposes we choose to smash **on the left** and write
+The [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[circle] (the [[1-sphere]]) 
 
   $$
     cofib(X \vee X \to X \wedge (I_+)) \simeq S^1 \wedge X
     \,,
   $$
 
-Dually:
-
-* the [[loop space objects]] (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard pointed path space object $Maps(I_+,-)_\ast$ are isomorphic to the [[pointed mapping space]] (example \ref{PointedMappingSpace})  with the [[1-sphere]]
-
-  $$
-    fib(Maps(I_+,X)_\ast \to X \times X)
-      \simeq
-    Maps(S^1, X)_\ast
-    \,.
-  $$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By immediate inspection: For instance the [[fiber]] of $Maps(I_+,X)_\ast \longrightarrow X\times X$ is clearly the subspace of the unpointed mapping space $X^I$ on elements that take the endpoints of $I$ to the basepoint of $X$.
-
 =--
 
 
 
-+-- {: .num_example #MappingConesInTopologicalSpaces}
-###### Example
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="560" >
-</div>
-
-For $\mathcal{C} =$ [[Top]] with $Cyl(X) = X\times I$ the standard cyclinder object, def. \ref{TopologicalInterval}, then by example \ref{PushoutInTop}, the [[mapping cone]], def. \ref{MappingConeAndMappingCocone}, of a [[continuous function]] $f \colon X \longrightarrow Y$ is obtained by
-
-1. forming the cylinder over $X$;
-
-1. attaching to one end of that cylinder the space $Y$ as specified by the map $f$.
-
-1. shrinking the other end of the cylinder to the point.
-
-Accordingly the [[suspension]] of a topological space is the result of shrinking both ends of the cylinder on the object two the point. This is homeomoprhic to attaching two copies of the cone on the space at the base of the cone.
-
-(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
-
-Below in example \ref{StandardTopologicalMappingConeIsHomotopyCofiber} we find the homotopy-theoretic interpretation of this standard topological mapping cone as a model for the _[[homotopy cofiber]]_.
-
-=--
-
-+-- {: .num_remark #UnreducedCone}
-###### Remark
-
-The _formula_ for the [[mapping cone]] in prop. \ref{ConeAndMappingCylinder} (as opposed to that of the mapping co-cone) does not require the presence of the basepoint: for $f \colon X \longrightarrow Y$ a morphism in $\mathcal{C}$ (as opposed to in $\mathcal{C}^{\ast/}$) we may still define
-
-$$
-  Cone'(f) \coloneqq Y \underset{X}{\sqcup} Cone'(X)
-  \,,
-$$
-
-where the prime denotes the _unreduced cone_, formed from a cylinder object in $\mathcal{C}$.
-
-
-=--
 
 +-- {: .num_prop #UnreducedMappingConeAsReducedConeOfBasedPointAdjoined}
 ###### Proposition
 
-For $f \colon X \longrightarrow Y$ a morphism in [[Top]], then its unreduced mapping cone, remark \ref{UnreducedCone}, with respect to the standard cylinder object $X \times I$ def. \ref{TopologicalInterval}, is isomorphic to the reduced mapping cone, def. \ref{MappingConeAndMappingCocone}, of the morphism $f_+ \colon X_+ \to Y_+$ (with a basepoint adjoined, def. \ref{BasePointAdjoined}) with respect to the standard [[reduced cylinder]] (example \ref{StandardReducedCyclinderInTop}):
+For $f \colon X \longrightarrow Y$ a morphism in [[Top]], then its unreduced mapping cone with respect to the standard cylinder object $X \times I$ def. \ref{TopologicalInterval}, is isomorphic to the reduced mapping cone, of the morphism $f_+ \colon X_+ \to Y_+$ (with a basepoint adjoined) with respect to the standard [[reduced cylinder]]:
 
 $$
   Cone'(f) \simeq Cone(f_+)
@@ -455,7 +434,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{LimitsAndColimitsOfPointedObjects} and example \ref{WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}, $Cone(f_+)$ is given by the colimit in $Top$ over the following diagram:
+By example \ref{WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}, $Cone(f_+)$ is given by the colimit in $Top$ over the following diagram:
 
 $$
   \array{
@@ -498,11 +477,6 @@ $$
 This way the top part of the diagram (using the [[pasting law]] to compute the colimit in two stages) is manifestly a cocone under the result of applying $(-)_+$ to the diagram for the unreduced cone. Since $(-)_+$ is itself given by a colimit, it preserves colimits, and hence gives the partial colimit $Cone'(f)_+$ as shown. The remaining pushout then contracts the remaining copy of the point away.
 
 =--
-
-
-Example \ref{MappingConesInTopologicalSpaces} makes it clear that every [[cycle]] $S^n \to Y$ in $Y$ that happens to be in the image of $X$ can be _continuously_ translated in the cylinder-direction, keeping it constant in $Y$, to the other end of the cylinder, where it shrinks away to the point. This means that every [[homotopy group]] of $Y$, def. \ref{HomotopyGroupsOftopologicalSpaces}, in the image of $f$ vanishes in the mapping cone. Hence in the mapping cone **the image of $X$ under $f$ in $Y$ is removed up to homotopy**. This makes it intuitively clear how $Cone(f)$ is a homotopy-version of the [[cokernel]] of $f$. We now discuss this formally.
-
-
 
 
 
