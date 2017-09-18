@@ -289,7 +289,7 @@ Hence $i_1$ factors via some $g$ through $i_2$ and the proof is completed by the
 
 ## Examples
 
-* For $f : X \to Y$ a [[continuous function]] between [[topological space]]s and $X \to im(f) \to Y$ its ordinatry [[image]] factorization through an [[embedding]], the corresponding composite of geometric morphisms of [[sheaf topos]]es 
+* For $f : X \to Y$ a [[continuous function]] between [[topological space]]s and $X \to im(f) \to Y$ its ordinary [[image]] factorization through an [[embedding]], the corresponding composite of geometric morphisms of [[sheaf topos]]es 
 
   $$
     Sh(X) \to Sh(im(f)) \to Sh(Y)
@@ -316,12 +316,23 @@ Hence $i_1$ factors via some $g$ through $i_2$ and the proof is completed by the
 
 See ([MacLaneMoerdijk, p. 377](#MacLaneMoerdijk)).
 
+## Properties
+
+Let $T$ be a [[geometric theory]] over a signature $\Sigma$ and $f:\mathcal{E}\to Set[T]$ a geometric morphism to its [[classifying topos]]. Then $f$ corresponds to a $T$-model $M$ in $\mathcal{E}$. The **theory of M** $Th(M)$ consists of all geometric sequents $\sigma$ over $\Sigma$ such that $M\models \sigma$. Then the following holds ([Caramello 2009](#Caramello09), p.57):
+
++-- {: .num_prop}
+###### Proposition
+
+The topos occurring in the middle of the surjection-embedding factorization of $f$ is precisely the classifying topos for $Th(M)$: $\mathcal{E}\twoheadrightarrow Set[Th(M)]\hookrightarrow Set[T]$.
+
+=--
+
 ## References
 
-Section VII. 4. of 
-
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (section VII.4)
  {#MacLaneMoerdijk}
+
+* [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1)) {#Caramello09}
 
 [[!redirects geometric surjection/embedding factorization]]
 [[!redirects geometric surjection/inclusion factorization]]
