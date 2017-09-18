@@ -36,6 +36,8 @@ The collection of module categories over a monoidal category forms a [[2-categor
 
 * [[module 2-category]]
 
+* [[module over a monoidal functor]]
+
 ## References
 
 For instance
