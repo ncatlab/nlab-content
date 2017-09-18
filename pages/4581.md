@@ -163,6 +163,8 @@ and speak of the bicomplex of **local forms** on sections on $E$.
 
 The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([Olver 86](#Olver86)) to ([Takens 79](#Takens79)). The above formulation as a sub-bicomplex of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to ([Zuckerman 87, p. 5](#Zuckerman87)).
 
+<img src="https://ncatlab.org/nlab/files/VariationalBicomplex.jpg" width="550">
+
 ### More on the horizontal differential complex
  {#MoreOntheHorizontalComplex}
 
