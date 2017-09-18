@@ -35,7 +35,7 @@ This strict 2-category admits a [[closed monoidal category|closed]] [[symmetric 
 
 ##Additivity of the homotopy category of Picard groupoids
 
-The _homotopy category_ of the category of Picard groupoids consists, roughly speaking, of Picard groupoids up to equivalence. Formally, we can obtain it by [[truncation of a 2-category|truncating]] the 2-category of Picard groupoids, namely identifying all 1-arrows which are 2-isomorphic, and throwing away the 2-arrows. 
+The _homotopy category_ of the category of Picard groupoids consists, roughly speaking, of Picard groupoids up to equivalence. Formally, we can obtain it by [[decategorifying]] the 2-category of Picard groupoids, namely identifying all 1-arrows which are 2-isomorphic, and throwing away the 2-arrows. 
 
 The closed monoidal structure of the 2-category of Picard groupoids, together with the fact that the objects of a Picard groupoid define an abelian group under $\oplus$ and $0$, provides immediately an [[enriched category|enrichment]] of the homotopy category of Picard groupoids over abelian groups. Moreover, it is obvious that this category has all coproducts. Thus it is an additive category.
 
