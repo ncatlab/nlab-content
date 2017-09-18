@@ -1030,9 +1030,9 @@ This appears as theorem 1.5 in
 
 ## Related concepts
 
-* [[(∞,1)-limit]]
+* [[(∞,1)-limit]] [[lax (∞,1)-colimit]]
 
-* [[lax (∞,1)-colimit]]
+* [[mapping cone]], [[mapping telescope]]
 
 ## References 
 
