@@ -4,19 +4,39 @@ A _reflexive object_ is a model of the pure (untyped) [[lambda calculus]] valida
 
 ## Definition
 
-A **reflexive object** in a [[cartesian closed category]] is an object $D$ equipped with a pair of maps
+A **reflexive object** in a [[cartesian closed category]] is an object $U$ equipped with a pair of maps
 
 $$
-\array{D & \overset{a}{\underset{\ell}{\rightleftarrows}} & D^D} 
+\array{U & \overset{a}{\underset{\ell}{\rightleftarrows}} & U^U} 
 $$
 
-such that $a \circ \ell = 1$.  In other words, a reflexive object is an object $D$ together with data exhibiting $D^D$ as a [[retract]] of $D$.   A reflexive object is said to be *strict* when this is actually an isomorphism $D \cong D^D$.  Note that this definition may be naturally generalized to any [[closed category]], not necessarily cartesian.
+such that $a \circ \ell = 1$.  In other words, a reflexive object is an object $U$ together with data exhibiting $U^U$ as a [[retract]] of $U$.   A reflexive object is said to be *strict* when this is actually an isomorphism $U \cong U^U$.  Note that this definition may be naturally generalized to any [[closed category]], not necessarily cartesian.
+
+## Examples
+
+The [[terminal object]] of a ccc provides a degenerate example of a (strict) reflexive object, and for cardinality reasons, this is the only reflexive object in [[Set]].
+
+A non-degenerate model of untyped lambda calculus was first described by [[Dana Scott]], who solved the cardinality issue by replacing sets with [[algebraic lattices]], and arbitrary set-theoretic functions by [[Scott topology|Scott-continuous]] functions.  In ([Scott 1976](#Scott76)), he constructed a (non-strict) reflexive object with carrier the lattice $P\omega$ of all [[subsets]] of the non-negative integers, and with the maps $a$ and $\ell$ (called "fun" and "graph") defined as follows:
+
+$$a(u)(x) = \{m \mid \exists e_n \subseteq x. (n,m) \in u\}$$
+
+$$\ell(f) = \{(n,m) \mid m \in f(e_n)\}$$
+
+Here $e_n$ stands for the set whose elements are the exponents in the binary expansion of $n$ (thus $e_n$ is the $n$th subset in the standard enumeration of finite subsets of $\omega$), while "$(n,m)$" stands for the standard enumeration of pairs of integers
+
+$$(n,m) = \frac{1}{2}(n+m)(n+m+1)+m$$
 
 ## References
 
-* Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976.
+The model of lambda calculus using the lattice of subsets of the integers was described in the following paper:
 
-* Dana Scott. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
+* {#Scott76} Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976.
+
+Scott made the underlying categorical structure explicit in a later paper, where he introduced the definition of a reflexive object in a ccc:
+
+* {#Scott80} Dana Scott. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
+
+See also:
 
 * [[Martin Hyland]]. Classical lambda calculus in modern dress. To appear in _Mathematical Structures in Computer Science_, 2013. [arxiv](http://arxiv.org/abs/1211.5762)
 
