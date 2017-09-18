@@ -47,7 +47,21 @@ given by
 $$ x \otimes y \stackrel{1 \otimes e_y}{\longrightarrow} x \otimes I \stackrel{r_x}{\longrightarrow} x $$
 and
 $$ x \otimes y \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes y \stackrel{\ell_y}{\longrightarrow} y $$
-respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem is probably in Eilenberg and Kelly's paper on closed categories, but they may not have been the first to note it.)  This also follows if we posit the existence of a natural [[diagonal morphism]] $x \to x \otimes x$.
+respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem is probably in Eilenberg and Kelly's paper on closed categories, but they may not have been the first to note it.) 
+
+Alternatively, suppose that $(C, \otimes, I)$ is a monoidal category equipped with monoidal natural transformations $e_x : x \to I$ and $\Delta_x: x \to x \otimes x$ such that 
+$$ x \stackrel{\Delta_x}{\longrightarrow} x \otimes x \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes x \stackrel{\ell_x}{\longrightarrow} x $$
+and
+$$ x \stackrel{\Delta_x}{\longrightarrow} x \otimes x \stackrel{1 \otimes e_x}{\longrightarrow} x \otimes I \stackrel{r_x}{\longrightarrow} x $$
+are identity morphisms.  Then $(C, \otimes, I)$ is a cartesian monoidal category. 
+
+So, suppose $(C, \otimes, 1)$ is a semicartesian monoidal category.  The unique map $e_x : x \to I$ is a monoidal natural transformation.  Thus, if there exists a monoidal natural transformation $\Delta_x: x \to x \otimes x$ obeying the above two conditions, $(C, \otimes, 1)$ is cartesian.    The converse is also true.
+
+The characterization of cartesian monoidal categories in terms of $e$ and $\Delta$, apparently discovered by Robin Houston, is mentioned here:
+
+* John Baez, Universal algebra and diagrammatic reasoning, 2006. [[pdf](http://math.ucr.edu/home/baez/universal/)]
+
+and as of 2014, Nick Gurski plans to write up the proof in a paper on semicartesian monads.  
 
 ### Colax functors
 
