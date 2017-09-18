@@ -48,7 +48,9 @@ If one of the following conditions is satisfied
 
 * Each $h'_{n,\alpha}$ lifts through $E_n(X) \to (\tau_{\leq 0}E)_n(X)$;
 
-* each $H_n(X,\mathbb{Z})$ is [[finitely generated module|finitely generated]] and each $c'_{n,\alpha}$ lifts through $E^n(X) \to (\tau_{\leq 0}E)^n(X)$, then there are non-canonical [[equivalence in an (infinity,1)-category|equivalences]] as follows:
+* each $H_n(X,\mathbb{Z})$ is [[finitely generated module|finitely generated]] and each $c'_{n,\alpha}$ lifts through $E^n(X) \to (\tau_{\leq 0}E)^n(X)$, 
+
+then there are non-canonical [[equivalence in an (infinity,1)-category|equivalences]] as follows:
 
 1. $E \wedge \Sigma^\infty X_+ \simeq \underset{n,\alpha}{\vee} \Sigma^n E \;\; \in E Mod$ ;
 
