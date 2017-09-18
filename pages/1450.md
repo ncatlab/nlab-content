@@ -166,6 +166,10 @@ This is discussed at
 
 * [[differential forms in synthetic differential geometry]].
 
+### Flow of a vector field
+
+See at [flow of a vector field](flow+of+a+vector+field#SyntheticDefinition).
+
 
 
 ## Related concepts
