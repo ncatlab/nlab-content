@@ -105,27 +105,27 @@ An [[essential geometric morphism|essential]] [[subtopos]] of $\mathcal{B}$ is r
 
 =--
 
-An [[adjoint triple|adjoint string]] $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\Box _i\dashv\bigcirc _i$ on $\mathcal{B}$, namely $\Box_i := i_!i^*$ and $\bigcirc_i :=i_*i^*$.
+An [[adjoint triple|adjoint string]] $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\Box _i\dashv\bigcirc _i$ on $\mathcal{B}$, namely $\Box _i := i_!i^*$ and $\bigcirc _i :=i_*i^*$.
 
 The [[modalities]] yield notions of _[[modal types]]_, which may be called
 
 * the _i-sheaves_ , $X\in\mathcal{B}$ with $\bigcirc _i X\simeq X$ (following the terminology at _[[Lawvere-Tierney operator]]_);
 
-* the _i-skeleta_ : $\Box_i X\simeq X$ (following the example of [[simplicial skeleta]] discussed [below](#SimplicialAndCubicalSets)).
+* the _i-skeleta_ : $\Box _i X\simeq X$ (following the example of [[simplicial skeleta]] discussed [below](#SimplicialAndCubicalSets)).
 
 +-- {: .num_defn #Aufhebung}
 ###### Definition 
 ([Lawvere 1989b](#Law89b)).
 Let $i,j$ be levels, def. \ref{Level}, of a topos $\mathcal{A}$ we say that the level $i$ is _lower_ than level $j$ (written $i\leq j$) when every i-sheaf is a j-sheaf and every i-skeleton is a j-skeleton.
 
-Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\bigcirc _j\Box_i=\Box _i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
+Let $i\leq j$, we say that the level $j$ _resolves the opposite_ of level $i$ (written $i\ll j$) if $\bigcirc _j\Box _i=\Box _i$. A level $\bar{i}$ is called the _Aufhebung_ of level $i$ iff $i\ll\bar{i}$ and for any $k$ with $i\ll k$ then it holds that $\bar{i}\ll k$.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The condition $\\bigcirc_j \Box_i=\Box_i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like [[presheaf toposes]] over [[graphic category|graphic categories]] or, more generally,  over _von Neumann regular categories_ ([Lawvere 2002](#Law02)), it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
+The condition $\bigcirc_j \Box_i=\Box_i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like [[presheaf toposes]] over [[graphic category|graphic categories]] or, more generally,  over _von Neumann regular categories_ ([Lawvere 2002](#Law02)), it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
 
 =--
 
