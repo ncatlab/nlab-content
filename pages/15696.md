@@ -140,7 +140,7 @@ $$\begin{array}{l}
 for the case of $ m=-1$ although the harmonic series has a pole we can regularize by the 2 possibilities
 
 $ \sum_{n=0}^{\infty} \frac{1}{n+a} = -\Psi (a) $ or $ \sum_{n=0}^{\infty} \frac{1}{n+a} = -\Psi (a)+log(a) $ in particular   
-$ \sum_{n=1}^{\infty} \frac{1}{n} = \gamma $  Euler-Mascheroni constant.
+$ \sum_{n=1}^{\infty} \frac{1}{n} = \gamma $  Euler-Mascheroni constant, and $ \Psi(a)= -\frac{\Gamma '(a)}{\Gamma (a)} $
 
 So within this reuglarization there wouldn't be any UV ultraviolet divergence
 ### Analytic torsion
