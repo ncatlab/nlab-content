@@ -1,0 +1,8 @@
+
+
+A _cyclic ring_ is a [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$ or $\mathbb{Z}$, equipped with its canonical [[commutative ring]]-structure induced from multiplication in the [[integers]].
+
+For $n$ a [[prime number]] this is a _[[prime field]]_.
+
+[[!redirects cyclic rings]] 
+
