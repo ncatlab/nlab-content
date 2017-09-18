@@ -1654,8 +1654,12 @@ A bit of discussion of some occurences of central extensions of groups in [[phys
 
 * G. Tuynman and W. Wiegerinck, _Central extensions of physics_ ([pdf](http://math.univ-lille1.fr/~gmt/PaperFolder/CentralExtensions.pdf))
 
-
 (In fact there are many more than mentioned in that introduction.)
+
+Extensions of [[supergroups]] are discussed in 
+
+* {#Drupieski14} [[Christopher Drupieski]], _Strict polynomial superfunctors and universal extension classes for algebraic supergroups_ ([arXiv:1408.5764](http://arxiv.org/abs/1408.5764))
+
 
 [[!redirects Schreier's theory]]
 [[!redirects Schreier theory]]
@@ -1673,4 +1677,3 @@ A bit of discussion of some occurences of central extensions of groups in [[phys
 
 [[!redirects abelian group extension]]
 [[!redirects abelian group extensions]]
-
