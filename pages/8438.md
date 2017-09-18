@@ -35,7 +35,7 @@ collecting survey articles on subjects in [[algebraic topology]]
 
 1. [[Proper Homotopy Theory]] (T. Porter). 
 
-1. Introduction to fibrewise homotopy theory (I.M. James). 
+1. [[Introduction to fibrewise homotopy theory]] (I.M. James). 
 
 1. Coherent homotopy over a fixed space (K.A. Hardie, K.H. Kamps).
 
