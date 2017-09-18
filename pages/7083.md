@@ -20,7 +20,7 @@
 ## Idea
  {#Idea}
 
-In [[homotopy type theory]] and _h-set_ is a [[type]] $X$ -- hence a [[homotopy type]] -- with the special property that any two of its [[terms]] $x,y : X$ are [[equality|equal]] ([[equivalence|equivalent]]) in an at most essentially unique way, hence that the [[identity type]] $(x = y) : Type$ is an [[h-proposition]].
+In [[homotopy type theory]] an _h-set_ is a [[type]] $X$ -- hence a [[homotopy type]] -- with the special property that any two of its [[terms]] $x,y : X$ are [[equality|equal]] ([[equivalence|equivalent]]) in an at most essentially unique way, hence that the [[identity type]] $(x = y) : Type$ is an [[h-proposition]].
 
 The notion of h-set is an [[internalization]] of the notion of [[0-truncated]] object into homotopy type theory, essentially an internalization of the notion of _[[set]]_ (or possibly of _[[preset]]_). See below in _[Relation to internal sets](#RelationToInternalSets)_ for more on this.
 
