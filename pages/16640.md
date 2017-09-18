@@ -126,7 +126,7 @@ $$Stab(S) \hookrightarrow G \stackrel{g \mapsto g h}{\to} G$$
 
 that (by definition of $Stab(S)$) factors through $S \hookrightarrow G$; this gives a monomorphism $Stab(S) \to S$, and so ${|Stab(S)|} \leq p^k$. 
 
-Now we prove the reverse inequality. Writing $n = p^k m$, we have 
+Now we establish the reverse inequality for a suitable $S$. Writing $n = p^k m$, we have 
 
 $${|P_k|} = \binom{p^k m}{p^k} = m \prod_{j = 1}^{p^k - 1} \frac{p^k m - j}{p^k - j}$$ 
 
@@ -173,3 +173,6 @@ Restrict the action to the subgroup $P$. Of course the element $P \in Y$ is a fi
 
 [[!redirects class formula]]
 [[!redirects class formulas]]
+[[!redirects conjugation class formula]]
+[[!redirects conjugation class formulas]] 
+[[!redirects orbit decomposition formula]] 
