@@ -20,10 +20,12 @@ To the extent that a [[monoidal functor]] is analogous to a [[monoid]], a _modul
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
 
 Let 
 
-1. $\mathcal{C},\mathcal{D}$ be [[monoidal categories]], hence equipped with a product functors $\otimes_{\mathcal{C}}\colon \mathcal{C} \times \mathcal{C}\to \mathcal{C}$ and $\otimes_{\mathcal{D}}\colon \mathcal{D} \times \mathcal{D}\to \mathcal{D}$;
+1. $\mathcal{C},\mathcal{D}$ be [[monoidal categories]], hence equipped with tensor product functors $\otimes_{\mathcal{C}}\colon \mathcal{C} \times \mathcal{C}\to \mathcal{C}$ and $\otimes_{\mathcal{D}}\colon \mathcal{D} \times \mathcal{D}\to \mathcal{D}$;
 
 1. $\mathcal{N}$ be a left [[module category]] over $\mathcal{C}$, hence equipped with a compatible [[action]] functor $\rho \colon \mathcal{C}\times\mathcal{N} \to \mathcal{N}$;
 
@@ -38,7 +40,9 @@ Then a _left module_ over $F$ is
    $\alpha \colon F(-)  \otimes_{\mathcal{D}} N(-)  \longrightarrow N(\rho(-,-))$
 
 satisfying the evident [[categorification]] of the [[action]]-property.
-Analogously for right modules and bimodules. (e.g. [Yetter 01, def. 39](#Yetter01))
+Analogously for right modules and bimodules. (e.g. [Yetter 01, def. 39](#Yetter01)).
+
+=--
 
 ## Example
 
