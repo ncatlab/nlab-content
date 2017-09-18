@@ -34,7 +34,7 @@ For $k$ a [[field]], write $Mod_k$ for the [[symmetric monoidal (∞,1)-category
 Let $H(Mfd_n^{\coprod}, Mod_k)$ be the [[sub-(∞,1)-category]] of those  [[monoidal (∞,1)-functors]] $F : Mfd_n^{op} \to Mod_k$ which are "[[cosheaves]]" in that for any decomposition of a manifold $X$ into submanifolds $X'$ and $X''$ with overlap $O$, we have an [[equivalence in an (∞,1)-category|equivalence]] 
 
 $$
-  F(X) \simeq F(X') \otimes_{F(O) F(X'')}
+  F(X) \simeq F(X') \otimes_{F(O)}F(X'')
   \,.
 $$
 
