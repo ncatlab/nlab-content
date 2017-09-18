@@ -93,9 +93,11 @@ Localization away from a suitably tame ideal may be understood as the [[dR-shape
 
 * [[localization]], 
 
-* [[localization of a commutative ring]]
+* [[localization of abelian groups]]
 
 * [[localization of a module]]
+
+* [[localization of a commutative ring]]
 
 * [[Cohn localization]], [[Ore localization]].
 
