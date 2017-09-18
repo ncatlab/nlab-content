@@ -28,7 +28,7 @@ As a [[symmetric spectrum]]: ([Schwede 12, example I.2.6](#Schwede12))
 
 ## Properties
 
-### As a symmetric monoidal $\infty$-groupoid.
+### As symmetric monoidal $\infty$-groupoids
 
 As a [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoid]] the _Eilenberg--Mac Lane_ [[spectrum]] is the [[abelian group]] of [[integers]] (under addition)
 
@@ -95,6 +95,10 @@ its name.
 For $S$ any [[spectrum]] and $H A$ an Eilenberg-MacLane spectrum,
 then the [[smash product]] $S\wedge H A$ (the $A$-[[ordinary homology]] spectrum)
 is non-canonically equivalent to a product of EM-spectra (hence a [[wedge sum]] of EM-spectra in the finite case).
+
+### Fibrant-cofibrant models
+
+[MO comment](http://mathoverflow.net/a/218069/381)
 
  
 ## Related concepts
