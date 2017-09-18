@@ -707,7 +707,7 @@ $$
   \,.
 $$
 
-This $(n-1)$st intermediate Jacobian ia known as the _[[Albanese variety]]_ of $\Sigma$.
+This $(n-1)$st intermediate Jacobian is known as the _[[Albanese variety]]_ of $\Sigma$.
 
 
 ### Of Calabi-Yau varieties
