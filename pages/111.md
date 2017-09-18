@@ -267,7 +267,7 @@ A textbook with an eye towards the theory of [[categories of sheaves]] and their
 
 The definition of categories in the [[foundations]] of [[homotopy type theory]] (hence via the notion of [[internal category in an (infinity,1)-category]]) is discussed in 
 
-* Benedikt Ahrens, [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
+* {#AhrensKapulkinShulman13} Benedikt Ahrens, [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
 
 * [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], _Experience Implementing a Performant Category-Theory Library in Coq_ ([arXiv:1401.7694](http://arxiv.org/abs/1401.7694))
 
