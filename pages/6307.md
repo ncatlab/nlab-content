@@ -93,10 +93,10 @@ is an [[equivalence]]. We get then
 
 ### Factorization categories vs the category of factorizations
 
-We can view $Fact(f)$ as a full [[reflective subcategory]] of the [[over-category]] $f / tw(C)$; here $f$ is viewed as an object of the [[category of factorizations]] $tw(C)$ of its ambient category $C$. There's a functor
+We can view $Fact(f)$ as a full [[reflective subcategory]] of the [[over-category]] $tw(C) / f$; here $f$ is viewed as an object of the [[category of factorizations]] $tw(C)$ of its ambient category $C$. There's a functor
 
 \[
-  U_f \colon Fact(f) \to tw(C)
+  U_f \colon Fact(f) \to tw(C) / f
 \]
 
 which on objects is
