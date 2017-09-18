@@ -107,11 +107,22 @@ to the definition of combinatorial map, then the resulting class of permutations
 
 gives a way of representing arbitrary [[triangulations]] of oriented surfaces.  Analogous to what we saw above in the case of the edge involution $\alpha$, dropping the condition that $\sigma$ or $\phi$ be fixed point free also allows for the possibility of degenerate vertices/faces of degree 1.
 
-More generally, we can say (following [Jones and Singerman 94](#JonesSingerman94)) that a hypermap has type $(p,q,r)$ if $p$, $q$, and $r$ are the [[least common multiple]]s of the degrees of the hypervertices, hyperedges, and hyperfaces, respectively.  This topological condition translates to the algebraic condition that the permutations $\sigma$, $\alpha$, and $\phi$ have [[order#in_the_sense_of_group_theory|order]]s $p$, $q$, and $r$ respectively.
+More generally, we can say (following [Jones and Singerman 94](#JonesSingerman94)) that a hypermap has type $(p,q,r)$ if the permutations $\sigma$, $\alpha$, and $\phi$ have [[order#in_the_sense_of_group_theory|order]]s $p$, $q$, and $r$ respectively.
 
 ## The category of oriented maps
 
 In this section we will adopt the more liberal notion of combinatorial map described above, for which the involution $\alpha$ is allowed to have fixed points corresponding to "dangling" edges.  We will also sometimes write _map_ as shorthand for combinatorial map in this more liberal sense, and _classical map_ to refer to the more restrictive definition disallowing dangling edges.
+
++-- {: .num_definition #vinv}
+###### Definition
+The category of combinatorial maps $CM$ is defined as follows:
+
+* objects are pairs of a set $D$ together with a triple of permutations $(\sigma,\alpha,\phi)$ on $D$ such that $\langle\sigma,\alpha,\rho\rangle$ acts transitively on $D$, $\phi\alpha\sigma = id$, and $\alpha$ is an involution.
+
+* morphisms $(D,(\sigma,\alpha,\phi)) \to (D',(\sigma',\alpha',\phi'))$ are functions $h : D \to D'$ such that $h\sigma = \sigma' h$, $h\alpha = \alpha' h$, and $h\phi = \phi' h$.
+=--
+
+The category $CM$ was defined by [Jones and Singerman 78](#JonesSingerman78) essentially as above (though it is called $AM$, standing for "algebraic maps").  Specifically, Jones and Singerman take this category to include combinatorial maps in which the involution $\alpha$ may contain fix points.
 
 ### Monodromy group
 
@@ -138,13 +149,12 @@ Let $d_2 \in D$.  By assumption of transitivity, there exists a word $w \in \lan
 
 ### Terminal object
 
-The category of combinatorial maps $CM$ was introduced (perhaps for the first time?) by [Jones and Singerman 78](#JonesSingerman78) (where it is called $AM$, standing for "algebraic map"), and they specifically take this category to include combinatorial maps in which the involution $\alpha$ may contain fix points.  We note that the following property of $CM$ relies crucially on having this more liberal notion.
+We note that the following property of $CM$ relies crucially on allowing maps with dangling edges.
 
 +-- {: .num_thm}
 ###### Proposition
 The set $1 = \{ * \}$ equipped with the triple of identity permutations $\sigma = \alpha = \phi = id_1$ is a map, and is a [[terminal object]] in $CM$.
 =--
-
 
 ## Related concepts
 
