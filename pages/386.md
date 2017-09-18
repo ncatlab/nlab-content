@@ -263,7 +263,7 @@ This fact is mentioned in ([Joyal](#Joyal)), to help give some intuition for his
 
 ### Combinatorics
 
-As an order-preserving function between finite ordinals, any morphism $f : \mathbf{n} \to \mathbf{m}$ in $\Delta_a$ is completely specified by fixing $k$ elements of $\mathbf{m}$ as the [[image]] of $f$, together with a [[partition#of_numbers|composition]] of the integer $n$ into $k$ parts, each part denoting a non-empty, contiguous subset of elements of $\mathbf{n}$ sharing their value of $f$. That is, each such composition is given by a collection of $k$ interval parts $[0,i_1], [i_1 + 1, i_2], \ldots, [i_{k-1}+1, n-1]$, determined by a $(k-1)$-element subset $\{i_1, \ldots, i_{k-1}\}$ of an $(n-1)$-element set $\{0, \ldots, n-2\}$. Hence, there are a total of
+As an order-preserving function between finite ordinals, any morphism $f : \mathbf{n} \to \mathbf{m}$ in $\Delta_a$ is completely specified by fixing $k$ elements of $\mathbf{m}$ as the [[image]] of $f$, together with a [[partition#of_numbers|composition]] of $\mathbf{n}$ into $k$ parts, each part denoting a non-empty, contiguous subset of elements of $\mathbf{n}$ sharing their value of $f$. That is, each such composition is given by a collection of $k$ interval parts $[0,i_1], [i_1 + 1, i_2], \ldots, [i_{k-1}+1, n-1]$, determined by a $(k-1)$-element subset $\{i_1, \ldots, i_{k-1}\}$ of an $(n-1)$-element set $\{0, \ldots, n-2\}$. Hence, there are a total of
 
 $$
 \sum_k \binom{m}{k} \binom{n-1}{k-1} = \sum_k \binom{m}{k} \binom{n-1}{n-k} = \binom{m+n-1}{n}
