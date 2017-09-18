@@ -86,10 +86,18 @@ The [[target space]] data of an [[orientifold]] is a $\mathbb{Z}_2$-[[principal 
 
 An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory data does induce the [[orientifold]] data along the [[subgroup]] inclusion $\mathbb{Z}_2 \hookrightarrow SL_2(\mathbb{Z})$.
 
-The degeneration locus of the elliptic fibration is that of [[D7-branes]] and [[O-planes|O7-planes]].
+The degeneration locus of the elliptic fibration -- where the [[discriminant]] $\Delta$ vanishes and its fibers are the [[nodal curve]] -- is interpreted as that of [[D7-branes]] and [[O-planes|O7-planes]] (e.g. [Sen 97, (3)](#Sen97), [Blumenhagen 10, (11)](#Blumenhagen10)).
 
 
 Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
+
+### S-duality operation on $(p,q)$-branes
+
+The F-theory picture gives a geometric interpretation of the [[S-duality]] expected in [[type II string theory]], by which all branes carry _two_ integer charges $(p,q)$ acted on by $SL(2,\mathbb{Z})$. For instance the fundamental string ([[F1-brane]]) and the [[D1-brane]] combine to the $(p,q)$-string, and similarly the [[NS5-brane]] and the [[D5-brane]] combine to a $(p,q)$-5-brane.
+
+Namely in the F-theory picture this comes from [[wrapped brane|wrapping]] the [[M2-brane]] and the [[M5-brane]], respectively, on either of the two cycles of the elliptic fibration (and the [[T-duality|T-dualizing]]).
+
+(e.g. [Johnson 97, p. 4](#Johnson97))
 
 
 ### Relation to heterotic string theory
@@ -129,6 +137,9 @@ An early survey of its relation to [[M-theory]] with [[M5-branes]] is in
 
 * {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
 
+A more recent survey is
+
+* {#Blumenhagen10} Blumenhagen, _Basics of F-theory from the Type IIB Perspective_ ([arXiv:1002.2836](http://arxiv.org/abs/1002.2836))
 
 Lecture notes include
 
@@ -157,7 +168,7 @@ F-theory lifts of [[orientifold]] backgrounds were first identified in
 
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
-* [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+* {#Sen97} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
 
 with more details including
 
