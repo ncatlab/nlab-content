@@ -47,7 +47,7 @@ $$
   \,.
 $$
 
-Since injective functions are precisely the monomorphisms in [[Set]] (example \ref{MonomorphismsInSet} below) this may be stated as saying that $f$ is a monomorphism if for all objects $Z$ then $Hom(Z,f)$ is a monomorphism. 
+Since injective functions are precisely the monomorphisms in [[Set]] (example \ref{MonomorphismsInSet} below) this may be stated as saying that $f$ is a monomorphism if $Hom(Z,f)$ is a monomorphism for all objects $Z$. 
 
 Finally, $f$ being a monomorphism in a [[category]] $\mathcal{C}$ means equivalently that it is an [[epimorphism]] in the [[opposite category]] $\mathcal{C}^{op}$.
 
