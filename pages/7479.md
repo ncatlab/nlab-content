@@ -467,6 +467,25 @@ $$
 $$
 
 
+###Cohomology
+
+According to the general idea of [[cohomology]], for $\mathbf{H}$ an [[(∞,1)-topos]], and $X, A \in \mathbf{H}$ two [[objects]], cohomology classes of $X$ with coefficients in $A$ are the connected components 
+
+$$
+  H(X,A) := \pi_0 \mathbf{H}(X,A)
+  \,.
+$$
+
+Cohomology in the Sierpinski $(\infty, 1)$-topos, $\mathbf{H}^{I}$, corresponds to [[relative cohomology]] in $\mathbf{H}$.
+
+Indeed, let $i : Y \to X$ and $f : B \to A$ be two [[morphisms]] in $\mathbf{H}$. Then the **relative cohomology** of $X$ with coefficients in $A$ relative to these morphisms is the connected components of the $\infty$-groupoid of relative cocycles
+
+$$
+  H_{Y}^B(X,A) := \pi_0 \mathbf{H}^I(Y \stackrel{i}{\to} X\;,\; B \stackrel{f}{\to} A)
+  \,.
+$$
+
+
 ## References
 
 The Sierpinski topos is mentioned around remarks A2.1.12, B3.2.11 (p.83, p.387f) in 
