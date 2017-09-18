@@ -1,3 +1,4 @@
+[[!redirects conifold tansition]]
 
 
 ## Idea
