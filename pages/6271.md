@@ -53,6 +53,9 @@ This appears for instance as ([Moerdijk-Reyes, theorem I.1.3](#MoerdijkReyes)).
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+* [[derivations of smooth functions are vector fields]]
+
+
 ## References
 
 Chapter I of
