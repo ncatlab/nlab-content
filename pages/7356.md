@@ -21,7 +21,7 @@
 ## Idea
  {#Idea}
 
-_F-theory_ is a toolbox for describing [[type IIB string theory]] backgrounds -- _including_ [[non-perturbative effects]] induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes the [[axio-dilaton]] (the [[coupling constant]] and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]] [[group]]. It also have relation to multiverse. See also at _[[duality in string theory]]_.
+_F-theory_ is a toolbox for describing [[type IIB string theory]] backgrounds -- _including_ [[non-perturbative effects]] induced from the presence of [[D7-branes]] and [[(p,q)-strings]] -- in terms of [[complex numbers|complex]] [[elliptic fibrations]] whose fiber modulus $\tau$ encodes the [[axio-dilaton]] (the [[coupling constant]] and the degree-0 [[RR-field]]) tranforming under the $SL(2, \mathbb{Z})$ [[S-duality]]/[[U-duality]] [[group]]. See also at _[[duality in string theory]]_.
 
 More technically, F-theory is what results when [[KK-compactification|KK-compactifying]] [[M-theory]] on an [[elliptic fibration]] (which yields [[type IIA superstring theory]] compactified on a [[circle]]-[[fiber bundle]]) followed by [[T-duality]] with respect to one of the two cycles of the elliptic fiber. The result is (uncompactified) [[type IIB superstring theory]] with [[axio-dilaton]] given by the moduli of the original elliptic fibration, see [below](#From11dSupergravity). 
 
