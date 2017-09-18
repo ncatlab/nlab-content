@@ -2074,6 +2074,7 @@ One says:
 
 We now dicuss what this means.
 
+
 ##### Factorization systems
  {#WeakFactorizationSystems}
 
@@ -3294,19 +3295,19 @@ Given a [[model category]] $\mathcal{C}$, consider a _choice_ for each object $X
 
 1. a factorization $\emptyset \underoverset{\in Cof}{i_X}{\longrightarrow} Q X \underoverset{\in W \cap Fib}{p_x}{\longrightarrow} X$ of the initial morphism, such that when $X$ is already cofibrant then $p_X = id_X$;
 
-1. a factorization $X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} R X \underoverset{\in Fib}{q_x}{\longrightarrow} \ast$ of the terminal morphism, such that when $X$ is already fibrant then $j_X = id_X$.
+1. a factorization $X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} P X \underoverset{\in Fib}{q_x}{\longrightarrow} \ast$ of the terminal morphism, such that when $X$ is already fibrant then $j_X = id_X$.
 
 Write then 
 
 $$
-  \gamma_{R,Q} 
+  \gamma_{P,Q} 
   \;\colon\;
   \mathcal{C}
    \longrightarrow
   Ho(\mathcal{C})
 $$
 
-for the [[functor]] to the homotopy category, def. \ref{HomotopyCategoryOfAModelCategory}, which sends an object $X$ to the object $R Q X$ and sends a morphism $f \colon X \longrightarrow Y$ to the [[homotopy class]] of the result of first lifting in 
+for the [[functor]] to the homotopy category, def. \ref{HomotopyCategoryOfAModelCategory}, which sends an object $X$ to the object $P Q X$ and sends a morphism $f \colon X \longrightarrow Y$ to the [[homotopy class]] of the result of first lifting in 
 
 $$
   \array{
@@ -3322,11 +3323,11 @@ and then lifting (here: [[extension|extending]]) in
 
 $$
   \array{ 
-    Q X &\overset{j_{Q Y} \circ Q f}{\longrightarrow}& R Q Y
+    Q X &\overset{j_{Q Y} \circ Q f}{\longrightarrow}& P Q Y
     \\
-    {}^{\mathllap{j_{Q X}}}\downarrow &{}^{R Q f}\nearrow& \downarrow^{\mathrlap{q_{Q Y}}}
+    {}^{\mathllap{j_{Q X}}}\downarrow &{}^{P Q f}\nearrow& \downarrow^{\mathrlap{q_{Q Y}}}
     \\
-    R Q X
+    P Q X
     &\longrightarrow&
     \ast
   }
@@ -3345,7 +3346,7 @@ The construction in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCatego
 +-- {: .proof}
 ###### Proof
 
-First of all, the object $R Q X$ is indeed both fibrant and cofibrant (as well as related by a [[zig-zag]] of weak equivalences to $X$):  
+First of all, the object $P Q X$ is indeed both fibrant and cofibrant (as well as related by a [[zig-zag]] of weak equivalences to $X$):  
 
 $$
   \array{
@@ -3353,7 +3354,7 @@ $$
      \\
      {}^{\mathllap{\in Cof}}\downarrow & \searrow^{\mathrlap{\in Cof}}
      \\
-     Q X &\underset{\in W \cap Cof}{\longrightarrow}& R Q X &\underset{\in Fib}{\longrightarrow}& \ast
+     Q X &\underset{\in W \cap Cof}{\longrightarrow}& P Q X &\underset{\in Fib}{\longrightarrow}& \ast
      \\
      {}^{\mathllap{\in W}}\downarrow
      \\
@@ -3383,28 +3384,28 @@ Hence also the composites $j_{Q Y}\circ (Q_f)_i $ are [[left homotopy|left homot
 
 $$
   \array{
-    Q X &\overset{\kappa}{\longrightarrow}& Path(R Q Y)
+    Q X &\overset{\kappa}{\longrightarrow}& Path(P Q Y)
     \\
     {}^{\mathllap{\in W \cap Cof}}\downarrow 
      && 
     \downarrow^{\mathrlap{\in Fib}}
     \\
-    R Q X &\underset{(R (Q f)_1, R (Q f)_2)}{\longrightarrow}&
-    R Q Y \times R Q Y
+    P Q X &\underset{(R (Q f)_1, P (Q f)_2)}{\longrightarrow}&
+    P Q Y \times P Q Y
   }
 $$
 
-that also $R (Q f)_1$ and $R (Q f)_2$ are right homotopic, hence that indeed $R Q f$ represents a well-defined [[homotopy class]].
+that also $P (Q f)_1$ and $P (Q f)_2$ are right homotopic, hence that indeed $P Q f$ represents a well-defined [[homotopy class]].
 
-Finally to see that the assignment is indeed [[functor|functorial]], observe that the commutativity of the lifting diagrams for $Q f$ and $R Q f$ imply that also the following diagram commutes
+Finally to see that the assignment is indeed [[functor|functorial]], observe that the commutativity of the lifting diagrams for $Q f$ and $P Q f$ imply that also the following diagram commutes
 
 $$
   \array{
-    X &\overset{p_X}{\longleftarrow}& Q X &\overset{j_{Q X}}{\longrightarrow}& R Q X
+    X &\overset{p_X}{\longleftarrow}& Q X &\overset{j_{Q X}}{\longrightarrow}& P Q X
     \\
-    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{R Q f}}
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{P Q f}}
     \\
-    Y &\underset{p_y}{\longleftarrow}& Q Y &\underset{j_{Q Y}}{\longrightarrow}& R Q Y
+    Y &\underset{p_y}{\longleftarrow}& Q Y &\underset{j_{Q Y}}{\longrightarrow}& P Q Y
   }
   \,.
 $$
@@ -3413,19 +3414,19 @@ Now from the [[pasting]] composite
 
 $$
   \array{
-    X &\overset{p_X}{\longleftarrow}& Q X &\overset{j_{Q X}}{\longrightarrow}& R Q X
+    X &\overset{p_X}{\longleftarrow}& Q X &\overset{j_{Q X}}{\longrightarrow}& P Q X
     \\
-    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{R Q f}}
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{P Q f}}
     \\
-    Y &\underset{p_Y}{\longleftarrow}& Q Y &\underset{j_{Q Y}}{\longrightarrow}& R Q Y
+    Y &\underset{p_Y}{\longleftarrow}& Q Y &\underset{j_{Q Y}}{\longrightarrow}& P Q Y
     \\
-    {}^{\mathllap{g}}\downarrow && \downarrow^{\mathrlap{Q g}} && \downarrow^{\mathrlap{R Q g}}
+    {}^{\mathllap{g}}\downarrow && \downarrow^{\mathrlap{Q g}} && \downarrow^{\mathrlap{P Q g}}
     \\
-    Z &\underset{p_Z}{\longleftarrow}& Q Z &\underset{j_{Q Z}}{\longrightarrow}& R Q Z
+    Z &\underset{p_Z}{\longleftarrow}& Q Z &\underset{j_{Q Z}}{\longrightarrow}& P Q Z
   }
 $$
 
-one sees that $(R Q g)\circ (R Q f)$ is a lift of $g \circ f$ and hence the same argument as above gives that it is homotopic to the chosen $ R Q(g \circ f)$. 
+one sees that $(P Q g)\circ (P Q f)$ is a lift of $g \circ f$ and hence the same argument as above gives that it is homotopic to the chosen $P Q(g \circ f)$. 
 
 
 =--
@@ -3461,26 +3462,26 @@ and this factorization is unique up to unique isomorphism, in that for $(\tilde 
 +-- {: .num_theorem #UniversalPropertyOfHomotopyCategoryOfAModelCategory}
 ###### Theorem
 
-For $\mathcal{C}$ a [[model category]], the functor $\gamma_{R,Q}$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $R$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]], in the sense of def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}. 
+For $\mathcal{C}$ a [[model category]], the functor $\gamma_{P,Q}$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $P$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]], in the sense of def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}. 
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-First, to see that that $\gamma$ indeed takes weak equivalences to isomorphisms: By [[two-out-of-three]] applied to the [[commuting diagrams]] shown in the proof of lemma \ref{ConstructionOfLocalizationFunctorForModelCategoryIsWellDefined} the morphism $R Q f$ is a weak equivalence if $f$ is:
+First, to see that that $\gamma$ indeed takes weak equivalences to isomorphisms: By [[two-out-of-three]] applied to the [[commuting diagrams]] shown in the proof of lemma \ref{ConstructionOfLocalizationFunctorForModelCategoryIsWellDefined} the morphism $P Q f$ is a weak equivalence if $f$ is:
 
 $$
   \array{
-    X &\underoverset{\simeq}{p_X}{\longleftarrow}& Q X &\underoverset{\simeq}{j_{Q X}}{\longrightarrow}& R Q X
+    X &\underoverset{\simeq}{p_X}{\longleftarrow}& Q X &\underoverset{\simeq}{j_{Q X}}{\longrightarrow}& P Q X
     \\
-    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{R Q f}}
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{P Q f}}
     \\
-    Y &\underoverset{p_y}{\simeq}{\longleftarrow}& Q Y &\underoverset{j_{Q Y}}{\simeq}{\longrightarrow}& R Q Y
+    Y &\underoverset{p_y}{\simeq}{\longleftarrow}& Q Y &\underoverset{j_{Q Y}}{\simeq}{\longrightarrow}& P Q Y
   }
 $$
 
-With this the "Whitehead theorem for model categories", lemma \ref{WhiteheadTheoremInModelCategories}, implies that $R Q f$ represents an isomorphism in $Ho(\mathcal{C})$.
+With this the "Whitehead theorem for model categories", lemma \ref{WhiteheadTheoremInModelCategories}, implies that $P Q f$ represents an isomorphism in $Ho(\mathcal{C})$.
 
 Now let $F \colon \mathcal{C}\longrightarrow D$ be any functor that sends weak equivalences to isomorphisms. We need to show that it factors as
 
@@ -3494,7 +3495,7 @@ $$
   }
 $$
 
-uniquely up to unique [[natural isomorphism]]. Now by construction of $R$ and $Q$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, $\gamma_{R,Q}$ is the identity on the [[full subcategory]] of fibrant-cofibrant objects. It follows that if $\tilde F$ exists at all, it must satisfy for all $X \stackrel{f}{\to} Y$ with $X$ and $Y$ both fibrant and cofibrant that 
+uniquely up to unique [[natural isomorphism]]. Now by construction of $P$ and $Q$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, $\gamma_{P,Q}$ is the identity on the [[full subcategory]] of fibrant-cofibrant objects. It follows that if $\tilde F$ exists at all, it must satisfy for all $X \stackrel{f}{\to} Y$ with $X$ and $Y$ both fibrant and cofibrant that 
 
 $$
   \tilde F([f]) \simeq F(f)
@@ -3507,11 +3508,11 @@ To that end, apply $F$ to the above [[commuting diagram]] to obtain
 
 $$
   \array{
-    F(X) &\underoverset{iso}{F(p_X)}{\longleftarrow}& F(Q X) &\underoverset{iso}{F(j_{Q X})}{\longrightarrow}& F(R Q X)
+    F(X) &\underoverset{iso}{F(p_X)}{\longleftarrow}& F(Q X) &\underoverset{iso}{F(j_{Q X})}{\longrightarrow}& F(P Q X)
     \\
-    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{F(Q f)}} && \downarrow^{\mathrlap{F(R Q f)}}
+    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{F(Q f)}} && \downarrow^{\mathrlap{FP Q f)}}
     \\
-    F(Y) &\underoverset{F(p_y)}{iso}{\longleftarrow}& F(Q Y) &\underoverset{F(j_{Q Y})}{iso}{\longrightarrow}& F(R Q Y)
+    F(Y) &\underoverset{F(p_y)}{iso}{\longleftarrow}& F(Q Y) &\underoverset{F(j_{Q Y})}{iso}{\longrightarrow}& F(P Q Y)
   }
   \,.
 $$
@@ -3520,18 +3521,18 @@ Here now all horizontal morphisms are [[isomorphisms]], by assumption on $F$. It
 
 $$
   \array{
-    \rho_X \colon & F(X) &\underoverset{iso}{F(p_X)^{-1}}{\longrightarrow}& F(Q X) &\underoverset{iso}{F(j_{Q X})}{\longrightarrow}& F(R Q X)
+    \rho_X \colon & F(X) &\underoverset{iso}{F(p_X)^{-1}}{\longrightarrow}& F(Q X) &\underoverset{iso}{F(j_{Q X})}{\longrightarrow}& F(P Q X)
    &=&
-   \tilde F(\gamma_{R,Q}(X))
+   \tilde F(\gamma_{P,Q}(X))
     \\
     & {}^{\mathllap{F(f)}}\downarrow 
      && 
-     && \downarrow^{\mathrlap{F(R Q f)}}
-     && \downarrow^{\tilde F(\gamma_{R,Q}(X))}
+     && \downarrow^{\mathrlap{F(P Q f)}}
+     && \downarrow^{\tilde F(\gamma_{P,Q}(X))}
     \\
-    \rho_Y\colon& F(Y) &\underoverset{F(p_y)^{-1}}{iso}{\longrightarrow}& F(Q Y) &\underoverset{F(j_{Q Y})}{iso}{\longrightarrow}& F(R Q Y)
+    \rho_Y\colon& F(Y) &\underoverset{F(p_y)^{-1}}{iso}{\longrightarrow}& F(Q Y) &\underoverset{F(j_{Q Y})}{iso}{\longrightarrow}& F(P Q Y)
    &=&
-   \tilde F(\gamma_{R,Q}(X))
+   \tilde F(\gamma_{P,Q}(X))
   }
   \,.
 $$
@@ -3541,7 +3542,7 @@ $$
 +-- {: .num_remark #EssentialUniquenessOfLocalizationFunctorOfModelCategory}
 ###### Remark
 
-Due to theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory} we may suppress the choices of cofibrant $Q$ and fibrant replacement $R$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} and just speak of [[generalized the|the]] [[localization functor]]
+Due to theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory} we may suppress the choices of cofibrant $Q$ and fibrant replacement $P$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} and just speak of [[generalized the|the]] [[localization functor]]
 
 $$
   \gamma \;\colon\;
@@ -3913,6 +3914,22 @@ Conversely, if $R$ preserves fibrations, the same argument run from right to lef
 Now by repeatedly applying (i) and (ii), all four conditions in question are seen to be equivalent.
 
 =--
+
++-- {: .num_prop}
+###### Proposition
+
+For $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via prop. \ref{KenBrownLemma}, form a pair of [[adjoint functors]]
+
+$$
+  Ho(\mathcal{C})
+    \stackrel{\overset{\mathbb{L}L}{\longleftarrow}}{\underoverset{\mathbb{R}R}{\bot}{\longrightarrow}}
+  Ho(\mathcal{D})
+  \,.
+$$
+
+=--
+
+([Quillen 67, I.4 theorem 3](#Quillen67))
 
 +-- {: .num_defn #QuillenEquivalence}
 ###### Definition
