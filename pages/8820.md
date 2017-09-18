@@ -21,6 +21,8 @@ In [[cohomology]] of [[topological spaces]]/[[homotopy types]], the _suspension 
 
 * [[Steenrod square]]
 
+* [[cohomology theory]]
+
 ## References
 
 For instance p. 19 in 
