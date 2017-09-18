@@ -108,13 +108,6 @@ Every [[discrete space]] is locally compact.
 
 =--
 
-+-- {: .num_example #MetricSpacesAreLocallyCompact}
-###### Example
-
-[[metric spaces]], regarded with their [[metric topology]], are locally compact.
-
-
-=--
 
 +-- {: .num_example}
 ###### Example
