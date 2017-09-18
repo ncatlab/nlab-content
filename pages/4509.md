@@ -69,6 +69,8 @@ There are further generalizations like unbounded resolutions etc.
 
 * [[fibrant object]]
 
+* [[canonical resolution]], [[bar construction]]
+
 [[!redirects resolutions]]
 
 [[!redirects fibrant resolution]]
