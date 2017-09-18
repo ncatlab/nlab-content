@@ -39,7 +39,7 @@ $$
 
 This is also sometimes called a _[[local system]]_ on $X$ with [[coefficients]] in $A$, or a _[[cocycle]]_ in [[nonabelian cohomology]] of $X$ with _constant_ [[coefficients]] $A$.
 
-For $A = \mathbf{B}G$ the [[delooping]] of an [[∞-group]], fat $\infty$-connections with coefficients in $A$ are a special case of $G$-[[principal ∞-connections]].
+For $A = \mathbf{B}G$ the [[delooping]] of an [[∞-group]], flat $\infty$-connections with coefficients in $A$ are a special case of $G$-[[principal ∞-connections]].
 
 For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections](cohesive+%28infinity,1%29-topos+--+structures#FlatDifferentialCohomology)_.
 
