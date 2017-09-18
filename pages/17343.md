@@ -4119,9 +4119,55 @@ The classes of morphisms in $Mor(Top)$ of def.  \ref{ClassesOfMorhismsInTopQuill
 
 * $C = $ [[retracts]] of [[relative cell complexes]]
 
-define a [[model category]] structure, $Top_{Quillen}$.
+define a [[model category]] structure, $Top_{Quillen}$, the **[[classical model structure on topological spaces]]** or **Serre-Quillen model structure**.
 
 =--
+
+An immediate variant of this proof also applies to the [[coslice model structure]], prop. \ref{ModelStructureOnSliceCategory}, on [[pointed topological spaces]]:
+
++-- {: .num_defn #GeneratingCofibrationsForPointedTopologicalSpaces}
+###### Definition
+
+Write
+
+$$
+  I_{Top^{\ast/}}
+  = 
+ \left\{
+    S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+
+ \right\}
+  \;\;
+  \subset Mor(Top^{\ast/})
+$$
+
+and
+
+$$
+  J_{Top^{\ast/}}
+  = 
+ \left\{
+    D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+
+ \right\}
+  \;\;\;
+  \subset Mor(Top^{\ast/})
+ \,,
+$$
+
+respectively, for the classes of morphisms obtained from the classical generating cofibrations, def. \ref{TopologicalGeneratingCofibrations}, and the classical generating acyclic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations}, under adjoining of basepoints.
+
+=--
+
++-- {: .num_theorem #CofibrantGenerationOfPointedTopologicalSpaces}
+###### Theorem
+
+The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]], $Top^{\ast/}_{Quillen}$ as a [[cofibrantly generated model category]].
+
+=--
+
+This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties). But it also follows by a proof directly analogous to that of theorem \ref{TopQuillenModelStructure}.
+
+
+
 
 
 ##### The classical homotopy category
@@ -4430,12 +4476,14 @@ A **[[topologically enriched category]]** $\mathcal{C}$ is a [[Top]]-[[enriched 
 
 such that the composition is [[associativity|associative]] and [[unitality|unital]].
 
+Similarly a **pointed topologically enriched category** is such a structire with $Top_k$ replaced by [[pointed topological spaces]] and with the [[Cartesian product]] replaced by the [[smash product]] of pointed topological spaces.
+
 =--
 
 +-- {: .num_remark #UnderlyingCategoryOfTopEnrichedCategory}
 ###### Remark
 
-Given a [[topologically enriched category]] as in def. \ref{TopEnrichedCategory}, then forgetting the topology on the [[hom-spaces]] (along the [[forgetful functor]] $U \colon Top_k \to Set$) yields an ordinary [[locally small category]] with
+Given a (pointed) [[topologically enriched category]] as in def. \ref{TopEnrichedCategory}, then forgetting the topology on the [[hom-spaces]] (along the [[forgetful functor]] $U \colon Top_k \to Set$) yields an ordinary [[locally small category]] with
 
 $$
   Hom_{\mathcal{C}}(a,b) = U(\mathcal{C}(a,b))
@@ -4503,18 +4551,20 @@ $$
   \,.
 $$
 
+Similarly, [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] $Top_k^{\ast/}$ form a pointed topologically enriched category.
+
 =--
 
 +-- {: .num_defn #TopologicallyEnrichedFunctor}
 ###### Definition
 
-A [[topologically enriched functor]] between two [[topologically enriched categories]] 
+A (pointed) [[topologically enriched functor]] between two (pointed) [[topologically enriched categories]] 
 
 $$
   F \;\colon\;  \mathcal{C}  \longrightarrow \mathcal{D}
 $$
 
-is a [[Top]]-[[enriched functor]], hence:
+is a (pointed) [[Top]]-[[enriched functor]], hence:
 
 1. a [[function]]
 
@@ -4591,6 +4641,8 @@ $$
   \,.
 $$
 
+All this applies verbatim also to the pointed case, with Cartesian product replaced by [[smash product]].
+
 =--
 
 +-- {: .num_defn #GeneratingCofibrationsForProjectiveStructureOnFunctors}
@@ -4620,6 +4672,28 @@ for the classes (here: sets) of morphisms given by [[tensoring]] the representab
 
 These are going to be called the **[[generating cofibrations]]** and **acyclic generating cofibrations** for the projective model structure on topologically enriched functors on $\mathcal{C}$.
 
+Similarly, for $\mathcal{C}$ a pointed topologically enriched category, write 
+
+$$
+  I_{Top^{\ast/}}^{\mathcal{C}}
+  \;\coloneqq\;
+  \left\{
+    y(c)\cdot (S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+)
+  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+$$
+
+and 
+
+$$
+  J_{Top^{\ast/}}^{\mathcal{C}}
+  \;\coloneqq\;
+  \left\{
+    y(c)\cdot (D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+)
+  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+$$
+
+for the same construction applied to the pointed generating (acyclic) cofibrations of def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces}.
+
 =--
 
 +-- {: .num_remark #MorphismsFromTensoredRepresentableToTopologicallyEnrichedFunctor}
@@ -4646,7 +4720,7 @@ between
 +-- {: .num_defn #ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors}
 ###### Definition
 
-Given a [[small category|small]] [[topologically enriched category]] $\mathcal{C}$, def. \ref{TopEnrichedCategory}, say that a morphism in the category of topologically enriched copresheaves $[\mathcal{C}, Top_k]$, example \ref{TopologicallyEnrichedFunctorsToTopk}, hence a [[natural transformation]] between topologically enriched functors, $\eta \colon F \to G$ is
+Given a [[small category|small]] (pointed) [[topologically enriched category]] $\mathcal{C}$, def. \ref{TopEnrichedCategory}, say that a morphism in the category of (pointed) topologically enriched copresheaves $[\mathcal{C}, Top_k]$ ($[\mathcal{C},Top_k^{\ast/}]$), example \ref{TopologicallyEnrichedFunctorsToTopk}, hence a [[natural transformation]] between topologically enriched functors, $\eta \colon F \to G$ is
 
 * a **projective weak equivalence**, if for all $c\in Obj(\mathcal{C})$ the component $\eta_c \colon F(c) \to G(c)$ is a [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces});
 
@@ -4671,7 +4745,7 @@ The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStru
 
 =--
 
-([Piacenza 91, theorem 5.4](classical+model+structure+on+topological+spaces#Piacenza91))
+([Piacenza 91, theorem 5.4](#Piacenza91))
 
 +-- {: .proof}
 ###### Proof
@@ -4710,6 +4784,19 @@ and hence the statement follows with part A) of the proof of lemma \ref{AcyclicS
 With these three lemmas in hand, the remaining formal part of the proof goes through verbatim as [above](#VerificationOfTopQuillen): repeatedly use the [[small object argument]] and the [[retract argument]] to establish the two weak factorization systems. (While again the structure of a [[category with weak equivalences]] is evident.)
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+Via theorem \ref{CofibrantGenerationOfPointedTopologicalSpaces}, the same argument applies to functors with values in the [[classical model structure on pointed topological spaces]]
+
+$$
+  [\mathcal{C}, Top_{Quillen}^{\ast/}]_{proj}
+  \,.
+$$
+
+=--
+
 
 ### **P.2)** Simplicial homotopy theory 
  {#SimplicialSets}
@@ -6004,49 +6091,11 @@ Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi
 =--
 
 
-
-#### Quillen equivalence between $sSet_{Quillen}$ and $Top_{Quillen}$
- {#QuillenEquivalenceWithTopQuillen}
-
-Let $C$ and $D$ be [[model category|model categories]] and let
-
-$$
-  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}}
-   D
-$$
-
-be a [[Quillen adjunction]] with $L$ [[left adjoint]] to $R$.
-
-Write $Ho C$ and $Ho D$ for the corresponding [[homotopy category|homotopy categories]].
-
-Notice that $Ho C$ may be regarded as obtained by first passing to the full [[subcategory]] on cofibrant objects and then [[localization|inverting]] [[weak equivalences]], and $L$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor 
-
-$$
-  \mathbb{L} : Ho C \to Ho D
-$$ 
-
-between the [[homotopy category|homotopy categories]], called its (total) left [[derived functor]].  Similarly (but dually), $R$ induces a (total) right derived functor $\mathbb{R} : Ho D \to Ho C$.
-
-+-- {: .num_defn}
-###### Definition
-
-The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the following equivalent conditions are satisfied.
-
-* The total left [[derived functor]] $\mathbb{L} : Ho(C) \to Ho(D)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
-
-* The total right [[derived functor]] $\mathbb{R} : Ho(D) \to Ho(C)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
-
-* For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
-
-* For every cofibrant object $c\in C$, the composite $c \to R(L(c)) \to R(L(c)^{fib})$ is a weak equivalence in $C$, and for every fibrant object $d\in D$, the composite $L(R(d)^{cof}) \to L(R(d)) \to d$ is a weak equivalence in $D$, where $(-)^{fib}$ and $(-)^{cof}$ denote fibrant and cofibrant [[resolutions]], respectively.
-
-=--
-
 +-- {: .num_theorem}
 ###### Theorem
 
 The [[singular simplicial complex]]/[[geometric realization]]-[[nerve and realization|adjunction]] of example \ref{TopologicalRealizationOfSimplicialSets}
-constitutes a [[Quillen equivalence]] of the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} with the  [[classical model structure on topological spaces]], def. \ref{ClassesOfMorhismsInTopQuillen}:
+constitutes a [[Quillen equivalence]], def. \ref{QuillenEquivalence}, between the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} and the  [[classical model structure on topological spaces]], def. \ref{ClassesOfMorhismsInTopQuillen}:
 
 $$
   ({\vert -\vert}\dashv Sing)
