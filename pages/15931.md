@@ -27,11 +27,15 @@ For instance logical [[disjunction]] "A or B" in [[type theory]] (in particular 
 
 ## References
 
+### General
+
 * [[UF-IAS-2012|Univalent Foundations Project]], section 1.11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+### Prehistory
 
 In 
 
-* [[Georg Hegel]], _[[Philosophy of Spirit]]_ (1807)
+* [[Georg Hegel]], _[[Phenomenology of Spirit]]_ (1807)
 
 the following complaint about mathematical proof (in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface) might be read as being a complaint about the traditional non-[[constructive mathematics|constructive]] concept of proof and about the traditional lack of proof relevance:
 
@@ -42,6 +46,9 @@ result, and has disappeared. The process of mathematical proof does not belong t
 
 > [footnote 42](https://www.marxists.org/reference/archive/hegel/help/finpref.htm#m042): Mathematical truths are not thought to be known unless proved true. Their demonstrations are not, however, kept as parts of what they prove, but are only our subjective means towards knowing the latter. In philosophy, however, consequences always form part of the essence made manifest in them, which returns to itself in such expressions.
 
+See also earlier conceptions of proofs expressing the 'cause' of a theorem, where *reductio* proofs in particular were taken generally to fail. Such an idea goes back to Aristotle for whom a proper answer to the question "Why is the angle in a semicircle a right-angle?" gives its cause.
+
+* Paolo Mancosu, _Philosophy of Mathematics and Mathematical Practice in the Seventeenth Century_, OUP, 1996.
 
 
 [[!redirects proof relevant]]
