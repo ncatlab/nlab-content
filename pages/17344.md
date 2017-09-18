@@ -54,7 +54,7 @@ The _[[Introduction to Stable homotopy theory -- P|Prelude on Classical homotopy
 +-- {: .num_defn #SuspensionAndLoopingOnPointedTopologicalSpaces}
 ###### Definition
 
-The [[reduced suspension]]/[[loop space object|looping]] operation on [[pointed topological space|pointed]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryOfPointedObjects)) [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) is the smash-tensor/hom-[[adjunction]] ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)) for the standard [[1-sphere]] smash product form the left:
+The [[reduced suspension]]/[[loop space object|looping]] operation on [[pointed topological space|pointed]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryOfPointedObjects)) [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) is the smash-tensor/hom-[[adjunction]] ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)) for the standard [[1-sphere]] smash product from the left:
 
 $$
   (\Sigma \dashv \Omega)
@@ -743,10 +743,10 @@ $$
     \pi_q(\Sigma^\infty X)
     \\
       & =
-    \underset{\longleftarrow}{\lim}_{k} \pi_{q + k}(S^k \wedge X)
+    \underset{\longrightarrow}{\lim}_{k} \pi_{q + k}(S^k \wedge X)
     \\
       & \simeq
-    \underset{\longleftarrow}{\lim}_{k} \pi_{q}(\Omega^k ( \Sigma^k X))
+    \underset{\longrightarrow}{\lim}_{k} \pi_{q}(\Omega^k ( \Sigma^k X))
   \end{aligned}
   \,.
 $$
@@ -760,7 +760,7 @@ $$
     \pi_q(\mathbb{S})
     \\
       & =
-    \underset{\longleftarrow}{\lim}_{k} \pi_{q + k}(S^k)
+    \underset{\longrightarrow}{\lim}_{k} \pi_{q + k}(S^k)
   \end{aligned}
   \,.
 $$
@@ -849,7 +849,7 @@ For an Omega-spectrum, the adjunct structure maps $\tilde \sigma_X$ are [[weak h
 =--
 
 
-+-- {: .num_defn #SpectrificationForTopolicalSequentialSpectra}
++-- {: .num_defn #SpectrificationForTopologicalSequentialSpectra}
 ###### Definition
 
 For $X \in SeqSpec(Top_{cg})$, defne a spectrum $Q X \in SeqSpec(Top_{cg})$ and a morphism
@@ -951,10 +951,10 @@ Finally, let $j_X \colon X \to Q X$ be degreewise the inclusion of the first com
 
 =--
 
-+-- {: .num_prop #SpectrificationForTopologicalSequentialSpectra}
++-- {: .num_prop #PropertiesOfSpectrificationForTopologicalSequentialSpectra}
 ###### Proposition
 
-Let $X\in SeqSpec(Top_{cg})$ be a sequential spectrum with $j_X \colon X \to Q X$ from def. \ref{SpectrificationForTopolicalSequentialSpectra}. Then:
+Let $X\in SeqSpec(Top_{cg})$ be a sequential spectrum with $j_X \colon X \to Q X$ from def. \ref{SpectrificationForTopologicalSequentialSpectra}. Then:
 
 1. $Q X$ is an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}).
 
@@ -985,7 +985,7 @@ By the previous statement and by example \ref{StableHomotopyGroupsOfOmegaSpectru
 
 $$
   \underset{
-    \simeq \underset{\longleftarrow}{\lim}_k  \pi_q \left(\Omega^k X_k\right)
+    \simeq \underset{\longrightarrow}{\lim}_k  \pi_q \left(\Omega^k X_k\right)
   }
   {
   \underbrace{
@@ -1009,7 +1009,7 @@ and similarly in degree $q\lt 0$. That these morphisms are isomorphism, hence th
 
 Regarding the third statement:
 
-If $X$ is an Omega-spectrum in that all its adjunct structure maps $\tilde \sigma_k$ are [[weak homotopy equivalences]], then by [[two-out-of-three]] also the maps $\iota_{i,k}$ in def. \ref{SpectrificationForTopolicalSequentialSpectra} are weak homotopy equivalences. Hence $(j_X)_k \colon  X_k \to (Q X)_k$ is the map into a sequential colimit over acyclic relative cell complexes, and again by the compactness of the spheres, this means that it is itself a weak homotopy equivalence.
+If $X$ is an Omega-spectrum in that all its adjunct structure maps $\tilde \sigma_k$ are [[weak homotopy equivalences]], then by [[two-out-of-three]] also the maps $\iota_{i,k}$ in def. \ref{SpectrificationForTopologicalSequentialSpectra} are weak homotopy equivalences. Hence $(j_X)_k \colon  X_k \to (Q X)_k$ is the map into a sequential colimit over acyclic relative cell complexes, and again by the compactness of the spheres, this means that it is itself a weak homotopy equivalence.
 
 Similarly for the fourth statement.
 
@@ -1958,6 +1958,17 @@ A **[[CW-spectrum]]** is a [[sequential spectrum]] $X_\bullet\in SeqSpec(Top_{cg
 
 =--
 
++-- {: .num_prop #ClosureOfCWSpectra}
+###### Proposition
+
+The class of CW-spectra is closed under the following operations:
+
+* finite [[wedge sum]] (def. \ref{WedgeSumOfSpectra})
+
+* ...
+
+=--
+
 
 
 +-- {: .num_prop #CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}
@@ -2395,7 +2406,7 @@ The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructur
      SeqSpec(Top_{cg})_{stable}
       \underoverset
        {\underset{id}{\longrightarrow}}
-       {\overset{id}{\longrightarrow}}
+       {\overset{id}{\longleftarrow}}
        {\bot}
      SeqSpec(Top_{cg})_{strict}
    $$
@@ -2612,7 +2623,7 @@ By theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, lift
 
 A morphism in $SeqSpec(Top)$ which is both 
 
-1. a stable weeak equivalence;
+1. a stable weak equivalence;
 
 1. a $J_{SeqSpec}^{stable}$-[[injective morphism]] 
 
@@ -2699,14 +2710,27 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 With this, the statement of the Quillen adjunction to the strict model structure is immediate. The statement about the cofibrant generation holds by construction of the above factorizations. 
 
-The cifibrant generation then implies that the fibrant objects are precisely the Omega-spectra: because corollary \ref{KInjectivesObjectsAreOmegaSpectra}, says that the Omega-spectrum property is equivalent to being ${k_n \Box i_+}$-injective, and since being $J^{strict}_{SeqSpec}$-injective is no condition on topological sequential spectra (as all topological spaces are fibrant).
+The cofibrant generation then implies that the fibrant objects are precisely the Omega-spectra: because corollary \ref{KInjectivesObjectsAreOmegaSpectra} says that the Omega-spectrum property is equivalent to being ${k_n \Box i_+}$-injective, and since being $J^{strict}_{SeqSpec}$-injective is no condition on topological sequential spectra (as all topological spaces are fibrant).
 
 =--
 
 
-##### Stable weak equivalences
+##### Stable equivalences
 
-We discuss the relation between the stable equivalences (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}) and [[stable weak homotopy equivalences]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
++-- {: .num_theorem}
+###### Theorem
+
+The classes of morphisms of sequential spectra
+
+1. stable weak equivalences (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}) 
+
+1. [[stable weak homotopy equivalences]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra})
+
+agree.
+
+=--
+
+This is the statement of propositions \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} and \ref{StableEquivalenceInSeqSpecIsStableWeakHomotopyEquivalence} below.
 
 
 +-- {: .num_lemma #FakeLoopingPreservesOmegaSpectra}
@@ -2859,10 +2883,10 @@ Sending $\sigma_n^Y$ down gives $\sigma_n^Y \circ S^1 \wedge f_{n-1}$ which equa
 
 
 
-+-- {: .num_prop #StableWeakHomotopyEquivalenceIsStableEquivalence}
++-- {: .num_prop #StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence}
 ###### Proposition
 
-Every [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) is a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}).
+Every [[stable weak homotopy equivalence]] of sequential spectra (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) is a stable weak equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}).
  
 =--
 
@@ -2870,7 +2894,7 @@ Every [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivale
 +-- {: .proof}
 ###### Proof
 
-Let $E$ be an Omega-spectrum (def. \ref{OmegaSpectrum}). Then by the third item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, for every $X$ the morphism
+Let $E$ be an Omega-spectrum (def. \ref{OmegaSpectrum}). Then by the third item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, for every $X$ the morphism obtained by homming $X$ into the [[spectrification]] $j_E$ (def. \ref{SpectrificationForTopologicalSequentialSpectra})
 
 $$
   [X,j_E]_{strict}
@@ -2893,7 +2917,7 @@ $$
   \,.
 $$
 
-Combining this with vertical morphisms as below, which are isomorphisms again by item 3 of lemma \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra},
+Combining this with vertical morphisms as below, which are isomorphisms again by item 3 of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra},
 
 $$
   \array{
@@ -2950,7 +2974,7 @@ It follows in particular that:
 +-- {: .num_prop #SpectrificationIsFibrantReplacement}
 ###### Proposition
 
-For every $X \in SeqSpec(Top_{cg})$, then the [[spectrification]] from def. \ref{SpectrificationForTopolicalSequentialSpectra} is a fibrant replacement in the stable model structure of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}:
+For every $X \in SeqSpec(Top_{cg})$, then the [[spectrification]] from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a fibrant replacement in the stable model structure of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}:
 
 $$  
   X 
@@ -2966,11 +2990,54 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the first item of prop. \ref{SpectrificationForTopologicalSequentialSpectra}, $Q X$ is an [[Omega-spectrum]]; by theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} these are fibrant in the stable model structure.
+By the first item of prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, $Q X$ is an [[Omega-spectrum]]; by theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} these are fibrant in the stable model structure.
 
-By the second item of prop. \ref{SpectrificationForTopologicalSequentialSpectra} $j_X$ is a stable weak equivalence, and by prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} these are in $W_{stable}$. 
+By the second item of prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra} $j_X$ is a stable weak equivalence, and by prop. \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} these are in $W_{stable}$. 
 
 =--
+
+
+For the converse to prop. \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} we use two technical lemmas whose proof we postpone until later (lemma \ref{ExplicitCheckThatWedgeSumIsProductInStableHomotopyCategory} and lemma \ref{CofibrantStableWeakHomotopyEquivalencesPreservedUnderPushout}) below:
+
++-- {: .num_prop #StableEquivalenceInSeqSpecIsStableWeakHomotopyEquivalence}
+###### Proposition
+
+Every stable weak equivalence of sequential spectra (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra})
+is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $f \colon X \to Y$ be a stable weak equivalence. Use the [[factorization lemma]] ([prop](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)) with respect to the set $J_{SeqSpec}^{stable}$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable} to form a factorization
+
+$$
+  f \colon X \overset{\in J_{SeqSpec}^{stable} Cell}{\longrightarrow} \hat X \overset{\in Fib_{st} \cap W_{ste}}{\longrightarrow} X
+$$
+
+By lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} the morphism on the right is a degreewise weak homotopy equivalence and hence in particular a stable weak homotopy equivalence. Therefore it is now sufficient to prove that every $J_{SeqSpec}^{stable}$-relative cell complex is a stable weak homotopy equivalence. 
+
+Since stable weak homotopy equivalences are preserved under [[transfinite composition]] of $J_{SeqSpec}^{stable}$-relative cell complexes (by the compactness of the [[n-spheres]] ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) taking homotopy groups commutes with the corresponding sequential colimit) we are reduced to  showing that
+
+
+1. Every element of $J_{SeqSpec}^{stable}$ is a stable weak homtopy equivalence;
+
+1. Every [[pushout]] of [[coproducts]] of elements in $J_{SeqSpec}^{stable}$ is a stable weak homotopy equivalence.
+
+
+Regarding the first statement: 
+
+It is clear that the elements of $J_{SeqSpec}^{strict}$ are stable weak homotopy equivalences. It remains to see that the [[pushout products]] $k_n \Box i_+$ are stable weak equivalences. Here is is clear from inspection that the [[smash product]] of a $k_n$ with a domain or codomain of $i_+$ is still a stable weak homtopy equivalence. We now invoke lemma \ref{CofibrantStableWeakHomotopyEquivalencesPreservedUnderPushout}, which says that any [[pushout]] of $k_n \wedge S^{k-1}$ is still a weak homotopy equivalence. With this the statement follows by [[two-out-of-three]].
+
+Regarding the second statement: 
+
+The stable homotopy groups of a finite [[wedge sum]] of spectra is the [[direct sum]] of the stable homotopy groups of the wedge summands, by lemma \ref{ExplicitCheckThatWedgeSumIsProductInStableHomotopyCategory}. The analogous statement for non-finite wedge sums follows by taking a colimit. Hence forming wedge sums preserves stable weak homotopy equivalences. 
+
+Finally, with the first statement, lemma \ref{CofibrantStableWeakHomotopyEquivalencesPreservedUnderPushout} (saying that pushouts of stable weak homotopy equivalences which are also cofibrations remain stable weak homotopy equivalences) implies that remainder of the second statement.
+
+=--
+
 
 
 
@@ -3101,7 +3168,7 @@ $$
   L_2 R_2 X \longrightarrow X
 $$
 
-is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) hence (by prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence}) a stable weak equivalence.
+is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) hence (by prop. \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence}) a stable weak equivalence.
 
 =--
 
@@ -3829,7 +3896,7 @@ By lemma \ref{StableHomotopyCategoryHasCoproducts} and lemma \ref{StableHomotopy
 
 Hence prop. \ref{ProductsAreBiproducts} implies that in the stable homotopy category finite coproducts and finite products agree, in that they are finite [[biproducts]]. We may also check this explicitly:
 
-+-- {: .num_lemma}
++-- {: .num_lemma #ExplicitCheckThatWedgeSumIsProductInStableHomotopyCategory}
 ###### Lemma
 
 For $X,Y \in SeqSpec(Top_{cg})$, then the canonical morphism
@@ -4556,7 +4623,7 @@ $$
   \,.
 $$
 
-By prop. \ref{SpectrificationIsFibrantReplacement} a fibrant replacement for $X$ is provided by its [[spectrification]] $Q X$ according to def. \ref{SpectrificationForTopolicalSequentialSpectra}. 
+By prop. \ref{SpectrificationIsFibrantReplacement} a fibrant replacement for $X$ is provided by its [[spectrification]] $Q X$ according to def. \ref{SpectrificationForTopologicalSequentialSpectra}. 
 
 So it follows that $[\mathbb{S},X]_\ast$ is given by left homotopy classes of morphisms 
 
@@ -4598,13 +4665,13 @@ $$
   \pi_0( (Q X)_0 )
 $$
 
-with $\pi_0$ of the 0-component of $Q X$. With this the statement follows with example \ref{StableHomotopyGroupsOfOmegaSpectrum}, since $Q X$ is an Omega-spectrum, by prop. \ref{SpectrificationForTopologicalSequentialSpectra}.
+with $\pi_0$ of the 0-component of $Q X$. With this the statement follows with example \ref{StableHomotopyGroupsOfOmegaSpectrum}, since $Q X$ is an Omega-spectrum, by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}.
 
 =--
 
 As a consequence:
 
-+-- {: .num_prop}
++-- {: .num_prop #LongExactSequenceOfStableHomotopyGroups}
 ###### Proposition
 
 Let 
@@ -4645,6 +4712,63 @@ $$
 Via lemmma \ref{StableHomotopyGrouspAsHomsOutOfSphereSpectrum} this is a special case of prop. \ref{LongFiberSequencesOfMapsOfSpectra}.
 
 =--
+
+This finally allows to prove the technical lemma used in prop. \ref{StableEquivalenceInSeqSpecIsStableWeakHomotopyEquivalence}:
+
++-- {: .num_lemma #CofibrantStableWeakHomotopyEquivalencesPreservedUnderPushout}
+###### Lemma
+
+The class of morphisms of sequential spectra that are both stable cofibrations (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}) as well as [[stable weak homotopy equivalences]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) is preserved under [[pushout]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $f \colon X \to Y$ be a stable cofibration that is also a stable weak homotopy equivalence, and let $g \colon X \to X'$ be any morphism. Consider the [[pushout]] diagram 
+
+$$
+  \array{
+     X &\overset{f}{\longrightarrow}& Y &\longrightarrow& cof(f)
+     \\
+     {}^{\mathllap{g}}\downarrow 
+       &(po)& 
+     \downarrow
+       &&
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X' &\underset{g_\ast f}{\longrightarrow}& Y' &\longrightarrow& cof(g_\ast f)
+  }
+  \,.
+$$
+
+The induced map on [[cofibers]] on the right is an isomorphism by the [[pasting law]]. Since $f$ is a cofibration, so is its pushout $g_\ast f$ (by the model structure), and hence both these cofibers are actually [[homotopy cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)). Hence by prop. \ref{LongExactSequenceOfStableHomotopyGroups} there is a diagram of [[stable homotopy groups]] of the form
+
+$$
+  \array{
+     \pi_{\bullet+1}(cof(f))
+     &\longrightarrow&
+     \pi_\bullet(X) &\overset{f_\ast}{\longrightarrow}& \pi_\bullet(Y) &\longrightarrow& \pi_\bullet(cof(f))
+     \\
+     {}^{\mathllap{\simeq}}\downarrow 
+       && 
+     {}^{\mathllap{g_\ast}}\downarrow 
+       && 
+     \downarrow
+       &&
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     \pi_{\bullet+1}(cof(g_\ast f))
+     &\longrightarrow&
+     \pi_\bullet(X') &\underset{(g_\ast f)_\ast}{\longrightarrow}& \pi_\bullet(Y') &\longrightarrow& \pi_\bullet(cof(g_\ast f))
+  }
+$$
+
+where both horizontal sequences are exact. That $f$ is a stable weak homotopy equivalence means precisely that $f_\ast$ is an isomorphism, and hence exactness of the top sequence implies that $\pi_\bullet(cof(f)) = 0$. Then the isomorphisms on the right and left imply that also $\pi_\bullet(cof(g_\ast f)) = 0$ and so exactness of the bottom sequence implies that $(g_\ast f)_\ast$ is an isomorphism, hence that the pushout $g_\ast f$ is a stable weak homotopy equivalence.
+
+
+=--
+
 
 ### **1.2)** Structured spectra
  {#DiagramSpectra}
@@ -6528,7 +6652,7 @@ In def. \ref{StableEquivalencesForDiagramSpectra} every stable weak homotopy equ
 +-- {: .proof}
 ###### Proof
 
-Let $E$ be an Omega-spectrum. Then by the first item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, for every $X$ the morphism
+Let $E$ be an Omega-spectrum. Then by the first item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, for every $X$ the morphism obtained by homming $X$ into  $r_E$ of $E$ 
 
 $$
   [X,r_E]_{strict}
@@ -6538,7 +6662,7 @@ $$
   [X, R^\infty E]_{strict}
 $$
 
-is an isomorphism. Since $r_{(-)}$ is a [[natural transformation]] (by def. \ref{AKindOfAlmostSpectrification}), the naturality squares gives a factorization of this morphism as
+(in the [[homotopy category of a model category|homotopy category]] of the strict model structure from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}) is an isomorphism. Since $r_{(-)}$ is a [[natural transformation]] (by def. \ref{AKindOfAlmostSpectrification}), the naturality squares gives a factorization of this morphism as
 
 $$
   [X,r_E]_{strict}
@@ -7440,7 +7564,7 @@ is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
 ## References
  {#References}
 
-We give the modern picture of the stable homotopy category for which an enjoyable survey may be found in
+We give the modern picture of the stable homotopy category, for which an enjoyable survey may be found in
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf)).
 
