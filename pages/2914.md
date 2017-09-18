@@ -182,6 +182,13 @@ This means that this correct hom-space $C/X(a,b) \simeq (C/X)^\circ(a,b) \in sSe
 [[!redirects model structure on an under category]]
 [[!redirects model structure on an undercategory]]
 
+[[!redirects model structure on a slice category]]
+[[!redirects model structure on a coslice category]]
+
+[[!redirects model structures on a slice category]]
+[[!redirects model structures on a coslice category]]
+
+
 [[!redirects slice model category]]
 [[!redirects slice model categories]]
 
