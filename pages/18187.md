@@ -1,4 +1,4 @@
-John McTaggart Ellis McTaggart[^name] (1866--1925) was a British [[metaphysics|metaphysician]]. He was part of British idealism, that had originated the German idealism with its key figures [[Kant]], [[Hegel]], [[Fichte]], and [[Schelling]]. He was influential on the young [[Bertrand Russell]].
+John McTaggart Ellis McTaggart[^name] (1866--1925) was a British [[metaphysics|metaphysician]]. He was part of British [[idealism]], that had originated the German idealism with its key figures [[Kant]], [[Hegel]], [[Fichte]], and [[Schelling]]. He was influential on the young [[Bertrand Russell]].
 
 ## related $n$Lab entries
 
