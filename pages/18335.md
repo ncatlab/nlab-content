@@ -4,6 +4,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Recall that in [[set theory]] a [[function]] $f$ from a [[set]] $S_1$ to a set $S_2$ may be encoded in terms of a [[relation]] on the [[Cartesian product]] $S_1 \times S_2$ of the two sets, namely the subset $ R \subset S^1 \times S^2$ with $R = \{  (x,y) \vert y = f(x)\}$ (the [[graph]] of the function). 
+
+This concept has an evident generalization to the case where $S_1$ and $S_2$ are allowed to be proper classes. In this case one speaks of _class functions_.
+
 ## Definition
 
 A class function is a [[class]] $R$  which is a [[relation]] with the property that if $(x,y)\in R$ and $(x,y')\in R$, then $y=y'$. 
