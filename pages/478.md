@@ -26,6 +26,10 @@ Here the [[term]] $t$ is one witness for the [[contractible type|contractibility
 
 If we wish to extend this treatment to types which are [[propositions]], we might call such types $FactThat(P)$, for some statement $P$. Then if $P$ holds, we can introduce a term $the(FactThat(P))$.
 
+##References
+
+* [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, [pdf](https://dl.dropboxusercontent.com/u/16936016/The_Structure.pdf)
+
 [[!redirects the]]
 [[!redirects generalised the]]
 [[!redirects generalized the]]
