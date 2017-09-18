@@ -777,7 +777,7 @@ $$
     Hom_{\Pi_1(X)}(x,y)
      \times
     Hom_{\Pi_1(X)}(y,z)
-      & \longrightarrow & 
+      & \longrightarrow &
     Hom_{\Pi_1(X)}(x,z)
     \\
      ([\gamma_1], [\gamma_2])
@@ -787,29 +787,29 @@ $$
   \,.
 $$
 
-Moreover, 
+Moreover,
 
-1. this composition operation is [[associativity|associative]] in that for all $x,y,z,w \in X$ 
+1. this composition operation is [[associativity|associative]] in that for all $x,y,z,w \in X$
    and $[\gamma_1] \in Hom_{\Pi_1(X)}(x,y)$, $[\gamma_2] \in Hom_{\Pi_1(X)}(y,z)$ and $[\gamma_3] \in Hom_{\Pi_1(X)})(z,w)$
-   then 
+   then
 
    $$
      [\gamma_3] \cdot ([\gamma_2]\cdot [\gamma_1])
      \;=\;
      ([\gamma_3] \cdot [\gamma_2]) \cdot [\gamma_1]
-   $$   
+   $$
 
 1. this composition operation is [[unitality|unital]] with [[neutral elements]] the [[constant paths]] in that for all $x,y \in X$
    and $[\gamma] \in Hom_{\Pi_1(X)}(x,y)$ we have
-   
+
    $$
      [const_y] \cdot [\gamma] = [\gamma] = [\gamma] \cdot [const_x]
      \,.
    $$
 
-1. this composition operation has [[inverse elements]] given by [[path reversal]] in that for all $x, y \in X$ 
+1. this composition operation has [[inverse elements]] given by [[path reversal]] in that for all $x, y \in X$
    and $[\gamma] \in Hom_{\Pi_1(X)}(x,y)$ we have
-   
+
    $$
      [\overline{\gamma}] \cdot[\gamma] = [const_x]
      \phantom{AAAA}
@@ -823,8 +823,8 @@ Moreover,
 +-- {: .num_defn #FundamentalGroupoidAndFundamentalGroup}
 ###### Definition
 **([[fundamental groupoid]] and [[fundamental groups]])**
- 
-Let $X$ be a [[topological space]]. Then set of points of $X$ together with the sets $Hom_{\Pi_1(X)}(x,y)$ 
+
+Let $X$ be a [[topological space]]. Then set of points of $X$ together with the sets $Hom_{\Pi_1(X)}(x,y)$
 of [[homotopy relative boundary]]-classes of [[paths]] (def. \ref{PathHomotopyRelativeBoundary}) for all points of points
 and equipped with the concatenation operation from prop. \ref{ConcatenationOfHomotopyClassesOfPaths}
 is called the _[[fundamental groupoid]]_ of $X$, denoted
@@ -862,7 +862,7 @@ oriented [[surface]] of [[genus of a surface|genus]] 2:
 ###### Example
 **([[fundamental group]] of [[Euclidean space]])**
 
-For $n \in \mathbb{N}$ and $x \in \mathbb{R}^n$ any point in the 
+For $n \in \mathbb{N}$ and $x \in \mathbb{R}^n$ any point in the
 $n$-dimensional [[Euclidean space]] (regarded with its [[metric topology]])
 we have that the [[fundamental group]] (def. \ref{FundamentalGroupoidAndFundamentalGroup})
 at that point is trivial:
@@ -874,17 +874,73 @@ $$
 
 =--
 
++-- {: .num_remark #PointedTopologicalSpaces}
+###### Remark
+**(basepoints)**
+
+Definition \ref{FundamentalGroupoidAndFundamentalGroup} intentionally offers two variants of the
+defintion.
+
+The first, the _[[fundamental groupoid]]_ is canonically given, without choosing a
+basepoint. As a result, it is a structure that is not quite a [[group]] but, slightly more generally, a "[[groupoid]]"
+(a "group with many objects"). We discuss the concept of [[groupoids]] [below](#Groupoid).
+
+The second, the [[fundamental group]], is a genuine group, but its definition requires picking a base point $x \in X$.
+
+In this context it is useful to say that
+
+1. a _[[pointed topological space]]_ $(X,x)$ is
+
+   1. a [[topological space]] $X$;
+
+   1. a $x \in X$ in the underlying set.
+
+1. a [[homomorphism]] of pointed topological spaces $f \;\colon\; (X,x) \longrightarrow (Y,y)$
+   is a base-point preserving continuous function, namely
+
+   1. a [[continuous function]] $f \;\colon\; X \longrightarrow Y$
+
+   1. such that $f(x) = y$.
+
+Hence there is a [[category]], to be denoted, $Top^{\ast/}$, whose [[objects]] are the
+[[pointed topological spaces]], and whose [[morphisms]] are tbe base-point preserving continuous functions.
+
+Similarly, a [[homotopy]] between morphisms $f, f' \colon (X,x) \to (Y,y)$ in $Top^{\ast/}$ is a [[homotopy]]
+$\eta \colon f \Rightarrow f'$ of underlying
+[[continuous functions]], as in def. \ref{LeftHomotopy}, such that the corresponding function
+
+$$
+  \eta \;\colon\; X \times [0,1] \longrightarrow Y
+$$
+
+preserves the basepoints in that
+
+$$
+  \underset{t \in [0,1]}{\forall} \eta(x,t) = y
+  \,.
+$$
+
+These pointed homotopies still form an [[equivalence relation]] as in prop. \ref{EquivRelHomotopy}
+and hence quotienting these out yields the pointed analogue of the [[homotopy category]]
+from def. \ref{HomotopyCategory}, now denoted
+
+$$
+  \kappa \;\colon\; Top^{\ast/} \longrightarrow Ho(Top^{\ast/})
+  \,.
+$$
+
+=--
 
 
 
 In general it is hard to explicitly compute the fundamental group of a topological
-space. But often it is already useful to know if two spaces have the same fundamental group or not.
+space. But often it is already useful to know if two spaces have the same fundamental group or not:
 
 +-- {: .num_defn #PushElementsFundamentalGroup}
 ###### Definition
 **(pushforward of elements of [[fundamental groups]])**
 
-Let $(X,x)$ and $(Y,y)$ be [[pointed topological space]] and let
+Let $(X,x)$ and $(Y,y)$ be [[pointed topological space]] (remark \ref{PointedTopologicalSpaces}) and let
 
 $$
   f \;\colon\; X \longrightarrow Y
@@ -892,7 +948,7 @@ $$
 
 be a [[continuous function]] which respects the chosen points, in that $f(x) = y$.
 
-Then there is an induced [[homomorphism]] of [[fundamental groups]] (def. \ref{FundamentalGroup})
+Then there is an induced [[homomorphism]] of [[fundamental groups]] (def. \ref{FundamentalGroupoidAndFundamentalGroup})
 
 $$
   \array{
@@ -918,13 +974,12 @@ $$
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #FundamentalGroupFunctor}
 ###### Remark
+**([[fundamental group]] is [[functor]] on [[pointed topological spaces]])**
 
 The pushforward operation in def. \ref{PushElementsFundamentalGroup} is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$
-of [[pointed topological spaces]], whose [[objects]] are
-topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous functions]]
-$f \colon X \to Y$ that take the chosen basepoint of $X$ to that of $Y$:
+of [[pointed topological spaces]] (remark \ref{PointedTopologicalSpaces})
 
 $$
   \pi_1 \;\colon\; Top^{\ast/} \longrightarrow Grp
@@ -933,24 +988,25 @@ $$
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #DependenceOnHomotopyClassesFundamentalGroup}
 ###### Proposition
+**([[fundamental group]] depends only on [[homotopy classes]])**
 
 Let $X,Y \in Top^{\ast/}$ be [[pointed topological space]] and let $f_1, f_2 \;\colon\; X \longrightarrow Y$
-be two base-point preserving continuous functions. If there is a homotopy
+be two base-point preserving continuous functions. If there is a pointed [[homotopy]] (def. \ref{LeftHomotopy}, remark \ref{PointedTopologicalSpaces})
 
 $$
   \eta \;\colon\; f_1 \Rightarrow f_2
 $$
 
-then the induced [[homomorphisms]] on fundamental groups agree
+then the induced [[homomorphisms]] on fundamental groups (def. \ref{PushElementsFundamentalGroup}) agree
 
 $$
   (f_1)_\ast = (f_2)_\ast \;\colon\; \pi_1(X,x) \to \pi_1(Y,y)
   \,.
 $$
 
-In particular if $f \;\colon; X \longrightarrow Y$ is a [[homotopy equivalence]] then
+In particular if $f \;\colon; X \longrightarrow Y$ is a [[homotopy equivalence]] (def. \ref{HomotopyEquivalence}) then
 $f_\ast \;\colon\; \pi_1(X,x) \to \pi_1(Y,y)$ is an [[isomorphism]].
 
 =--
@@ -975,17 +1031,36 @@ and hence $f_\ast$ is an [[isomorphism]].
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{DependenceOnHomotopyClassesFundamentalGroup} says that the
+fundamental group functor from def. \ref{PushElementsFundamentalGroup} and remark \ref{FundamentalGroupFunctor}
+factors through the [[classical pointed homotopy category]] from remark \ref{PointedTopologicalSpaces}:
+
+$$
+  \array{
+    Top^{\ast/} &\overset{\pi_1}{\longrightarrow}& Grp
+    \\
+    {}^{\mathllap{\kappa}}\downarrow & \nearrow
+    \\
+    Ho(Top^{\ast/})
+  }
+  \,.
+$$
 
 
+=--
 
 +-- {: .num_defn #SimplyConnected}
 ###### Definition
+**([[simply connected topological space]])**
 
 A topological space $X$ for which
 
 1. $\pi_0(X) \simeq \ast$ ([[path-connected topological space|path connected]])
 
-1. $\pi_1(X,x) \simeq 1$ (the [[fundamental group]] is [[trivial group|trivial]], def. \ref{FundamentalGroup}),
+1. $\pi_1(X,x) \simeq 1$ (the [[fundamental group]] is [[trivial group|trivial]], def. \ref{FundamentalGroupoidAndFundamentalGroup}),
 
 is called _[[simply connected topological space|simply connected]]_.
 
@@ -1012,12 +1087,20 @@ _[[locally simply connected topological space]]_. This implies semi-local simply
 =--
 
 
++-- {: .num_example}
+###### Example
+**([[Euclidean space]] is [[simply connected topological space|simply connected]])**
 
+For $n \in \mathbb{N}$, then the [[Euclidean space]] $\mathbb{R}^n$
+is a [[simply connected topological space]] (def. \ref{SimplyConnected}).
+
+=--
 
 
 
 
 ### Groupoids
+ {#Groupoid}
 
 (...)
 
@@ -1108,6 +1191,8 @@ Precisely, for $k \geq 1$ this is a [[covering space]]
 
 =--
 
+
+
 +-- {: .num_example #CoveringOfCircleByRealLine}
 ###### Example
 **(covering of circle by real line)**
@@ -1153,7 +1238,7 @@ Let $E \overset{\pi}{\longrightarrow} X$ be a [[covering space]] (def. \ref{Cove
 
 Then for $x \in X$ any point, and any choice of element $e \in F_x$ of the [[leaf space]] over $x$,
 there is, up to [[homotopy]], a unique way to lift a representative
-path in $X$ of an element $\gamma$ of the the [[fundamental group]] $\pi_1(X,x)$ (def. \ref{FundamentalGroup}) to a
+path in $X$ of an element $\gamma$ of the the [[fundamental group]] $\pi_1(X,x)$ (def. \ref{FundamentalGroupoidAndFundamentalGroup}) to a
 continuous path in $E$ that starts at $e$. This path necessarily ends at some (other) point $\rho_\gamma(e) \in F_x$
 in the same [[fiber]]. This construction provides a [[function]]
 
@@ -1910,7 +1995,7 @@ Moreover, the construction $f \mapsto Rec(f)$ yields a homomorphism of covering 
 
 First to see that we indeed have a [[topological space|topology]], we need to check  (by [this prop.](topological+base#Recognition)) that every point is contained in some base element, and that every point in the intersection of two base elements has a base neighbourhood that is still contained in that intersection.
 
-So let $x \in X$ be a point. By the assumption that $X$ is [[semi-locally simply connected]] there exists an [[open neighbourhood]] $U_x \subset X$ such that every loop in $U_x$ on $x$ is contractible in $X$. Moreover by the assumption that $X$ is [[locally path-connected topological space]], this contains a possibly smaller open neighbourhood $U'_x \subset U_x$ which is [[path-connected topological space|path connected]]. Moreover, as every subset of $U_x$, it still has the property that every loop in $U'_x$ based on $x$ is contractible as a loop in $X$. Now let $\hat x \in E$ be any point over $x$, then it is contained in the base open $V_{U'_x,x}$.
+So let $x \in X$ be a point. By the assumption that $X$ is [[semi-locally simply connected topological space|semi-locally simply connected]] there exists an [[open neighbourhood]] $U_x \subset X$ such that every loop in $U_x$ on $x$ is contractible in $X$. Moreover by the assumption that $X$ is [[locally path-connected topological space]], this contains a possibly smaller open neighbourhood $U'_x \subset U_x$ which is [[path-connected topological space|path connected]]. Moreover, as every subset of $U_x$, it still has the property that every loop in $U'_x$ based on $x$ is contractible as a loop in $X$. Now let $\hat x \in E$ be any point over $x$, then it is contained in the base open $V_{U'_x,x}$.
 
 The argument for the base open neighbourhoods contained in intersections is similar.
 
@@ -2258,10 +2343,30 @@ This shows that $Aut_{Cov(S^1)}(\mathbb{R}^1) \simeq \mathbb{Z}$.
 $\,$
 
 
+***
+
+This concludes the introduction to basic homotopy theory. 
+
+For introduction to more general and abstract homotopy theory see at _[[Introduction to Homotopy Theory]]_.
+
+An incarnation of [[homotopy theory]] in [[linear algebra]] is _[[homological algebra]]_. For
+introduction to that see at _[[schreiber:Introduction to Homological Algebra]]_.
+
+***
+
+$\,$
+
 ## References
 
+A textbook account is in 
+
+* [[Tammo tom Dieck]], sections 2 an 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
 
 Lecture notes include
 
-* [[Friedhelm Waldhausen]], second half of _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
+* {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
 
+
+$\,$
+
+$\,$
