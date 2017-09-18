@@ -49,7 +49,9 @@ An exposition of the proof may be found [here](http://blog.jpolak.org/?p=363).
 
 In [[algebraic geometry]] or [[synthetic differential geometry]] and [[commutative algebra]], the most commonly used definition of a local commutative ring is a commutative ring $R$ with a unique maximal ideal. Hence the Spec of such an $R$ has a unique closed point. Intuitively it can be thought of as some kind of "infinitesimal neighborhood" of a closed point.
 
-The [[topos theory]] formulation of this is a [[local topos]]. 
+The spectrum of a ring $R$ is [[focal point|local]], i.e. in any covering of $Spec R$ by open subsets one of the subsets is already the whole of $Spec R$, if and only if $R$ is a local ring. This provides some justification for the name.
+
+The [[topos theory]] formulation of this is a [[local topos]].
 
 An important example of a local ring in algebraic geometry is $R = k[\epsilon]/\epsilon^2$. This ring is known as the ring of dual numbers. Intuitively, we can think of its spectrum as consisting of a closed point and a tangent vector. Indeed this is justified, as morphisms from $\operatorname{Spec} R$ to a scheme $X$ correspond exactly to pairs $(x,v)$, where $x \in X$ and $v$ is a (Zariski) tangent vector at $x$.
 
