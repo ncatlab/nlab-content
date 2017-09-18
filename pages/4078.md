@@ -54,3 +54,6 @@ See also
 * Wikipedia, _[Conformal group](http://en.wikipedia.org/wiki/Conformal_group)_
 
 [[!redirects conformal groups]]
+
+[[!redirects conformal symmetry]]
+[[!redirects conformal invariance]]
