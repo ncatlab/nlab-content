@@ -30,6 +30,8 @@ It turns out that over the [[real numbers]] there are precisely only four normed
 
 In this sense real normed division algebras may be thought of as a natural generalization of the more familiar real and complex numbers. 
 
+Moreover, if one regards the real numbers as a [[star-algebra]], then each stepin this sequence is given by applying the [[Cayley-Dickson construction]]. Applied to the [[octonions]] it yields the [[sedenions]], which however are no longer a [[division algebra]].
+
 This classification turns out to closely connect to various other systems of exceptional structures in [[mathematics]] and [[physics]]: 
 
 * The _[[Hopf invariant one theorem]]_ says that the only [[continuous functions]] between [[spheres]] of the form $S^{2n-1}\to S^n$ whose [[Hopf invariant]] is equal to 1 are the [[Hopf constructions]] on the four real normed division algebras, namely 
@@ -112,6 +114,8 @@ The [[Hopf invariant one theorem]] says that the [[spheres]] carrying [[H-space]
 ## Related concepts
 
 * [[Hopf invariant one]]
+
+* [[Cayley–Dickson construction]]
 
 [[!include exceptional spinors and division algebras -- table]]
 
