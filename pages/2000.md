@@ -4,7 +4,7 @@
 {:toc}
 
 
-This entry is about smooth morphisms of schemes. There are many notions of smoothness in algebra and algebraic geometry, many under the name of (such and such) regularity (nonsingularity); even in [[EGA]] there are something like 11 notions, one of which is called the smooth morphism of schemes. In the literature there are sometimes even small variations of the latter (e.g. weather we allow globally varying dimension of the smooth morphism or not). In $n$Lab a prominent role is played by the [[formally smooth morphism|formal smoothness]], which is weaker than smoothness.
+This entry is about smooth morphisms of schemes. There are many notions of smoothness in algebra and algebraic geometry, many under the name of (such and such) regularity (nonsingularity); even in [[EGA]] there are something like 11 notions, one of which is called the smooth morphism of schemes. In the literature there are sometimes even small variations of the latter (e.g. whether we allow globally varying dimension of the smooth morphism or not). In $n$Lab a prominent role is played by the [[formally smooth morphism|formal smoothness]], which is weaker than smoothness.
 
 ## Idea
 
