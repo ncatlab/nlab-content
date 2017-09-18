@@ -59,114 +59,741 @@ The archetypical example from which this and the following definition draw their
 ### Spectral sequences from exact couples
  {#SpectralSequencesFromExactCouples}
 
-+-- {: .num_defn}
++-- {: .num_defn #CohomologySpectralSequence}
 ###### Definition
 
-The [[spectral sequences]] induced by an exact couple is the one built by repeating the  following two-step process:
+A _cohomology [[spectral sequence]]_ $\{E_r^{p,q}, d_r\}$ is
 
-*  first, observe that the composite $d=k j \colon E\to E$ is nilpotent: $d^2=0$
+1. a sequence $\{E_r^{\bullet,\bullet}\}$ $r \in \mathbb{Z}$, $r \geq 2$ of [[bigraded object|bigraded]] [[abelian groups]];
 
-*  second, the homology $E'$ of $(E,d)$ supports a map $j':E'\to \varphi D$, and receives a map $k':\varphi D\to E'$.  Setting $D'=\varphi D$, by general properties
-$$ E' \overset{j'}{\to} D' \overset{\varphi}{\to} D' \overset{k'}{\to} E' \overset{j'}{\to}. $$
-is again an exact couple, called the _derived exact couple_.
+1. a sequence of [[differentials]] $\{d_r \colon E_r^{\bullet,\bullet} \longrightarrow E_r^{\bullet+r, \bullet-r+1}\}$
 
-The sequence of complexes $(E,d),(E',d'),\dots$ obtained this way is then a [[spectral sequence]], by construction. This is the spectral sequence induced by the exact couple.
+such that 
+
+* $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$:, i.e. $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$.
+
+Given a $\mathbb{Z}$-[[graded abelian group]]_ $C^\bullet$ equipped with a decreasing [[filtration]]
+
+$$
+  C^\bullet \supset \cdots \supset F^s C^\bullet \supset F^{s+1} C^\bullet \supset \cdots \supset 0$$
+
+such that
+
+$$
+  C^\bullet = \underset{s}{\cup} F^s C^\bullet \;\;\;\; and \;\;\;\; 0 = \underset{s}{\cap} F^s C^\bullet
+$$
+
+then the spectral sequence is said to _converge_ to  $C^\bullet$, denoted, 
+
+$$
+  E_2^{\bullet,\bullet} \Rightarrow C^\bullet
+$$
+
+if
+
+1.  in each bidegree $(s,t)$ the sequence $\{E_r^{s,t}\}_r$ eventually becomes constant on a group 
+
+    $E_\infty^{s,t} \coloneqq E_{\gg 1}^{s,t}$;
+
+1. $E_\infty^{\bullet,\bullet}$ is the [[associated graded]] of the the filtered $C^\bullet$ in that
+
+   $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$.
+
+
+The converging spectral sequence is called _multiplicative_ if 
+
+1. $\{E_2^{\bullet,\bullet}\}$ is equipped with the structure of a [[bigraded object]] [[associative algebra|algebra]];
+
+1. $F^\bullet C^\bullet$ is equipped with the structure of a filtered [[graded algebra]] ($F^p C^k \cdot F^q C^l \subset F^{p+q} C^{k+l}$);
+
+such that
+
+1. each $d_{r}$ is a [[derivation]] with respect to the (induced) algebra structure on ${E_r^{\bullet,\bullet}}$, graded of degree 1 with respect to total degree;
+
+1. the multiplication on $E_\infty^{\bullet,\bullet}$ is compatible with that on $C^\bullet$.
+
+=--
+
++-- {: .num_defn #ExactCoupleAndDerivedExactCouple}
+###### Definition
+**(derived exact couples)**
+
+An _[[exact couple]]_ is three [[homomorphisms]] of [[abelian groups]] of the form
+
+$$
+  \array{
+    D && \stackrel{g}{\longrightarrow} && D
+    \\
+    & {}_{\mathllap{f}}\nwarrow && \swarrow_{\mathrlap{h}}
+    \\
+    && E
+  }
+$$
+
+such that the [[image]] of one is the [[kernel]] of the next.
+
+$$
+  im(h) = ker(f)\,,\;\;\; im(f) = ker(g)\,, \;\;\; im(g) = ker(f)
+  \,.
+$$
+
+Given an exact couple, then its _derived exact couple_ is
+
+$$
+  \array{
+    im(g) && \stackrel{g}{\longrightarrow} && im(g)
+    \\
+    & {}_{\mathllap{f}}\nwarrow && \swarrow_{\mathrlap{h \circ g^{-1}}}
+    \\
+    && H(E, h \circ f)
+  }
+  \,.
+$$
+
+=--
+
+Here and in the following we write $g^{-1}$ etc. for the operation of choosing a [[preimage]] under a given function $g$. In each case it is left implicit that the given expression is independent of which choice is made.
+
++-- {: .num_prop}
+###### Proposition
+**(cohomological spectral sequence of an exact couple)**
+
+Given an exact couple, def. \ref{ExactCoupleAndDerivedExactCouple}, 
+
+$$
+  \array{
+    D_1 && \stackrel{g_1}{\longrightarrow} && D_1
+    \\
+    & {}_{\mathllap{f_1}}\nwarrow && \swarrow_{\mathrlap{h_1}}
+    \\
+    && E_1
+  }
+$$
+
+its derived exact couple 
+
+$$
+  \array{
+    D_2 && \stackrel{g_2}{\longrightarrow} && D_2
+    \\
+    & {}_{\mathllap{f_2}}\nwarrow && \swarrow_{\mathrlap{h_2}}
+    \\
+    && E_2
+  }
+$$
+
+is itself an exact couple. Accordingly there is induced a sequence of exact couples 
+
+$$
+  \array{
+    D_r && \stackrel{g_r}{\longrightarrow} && D_r
+    \\
+    & {}_{\mathllap{f_r}}\nwarrow && \swarrow_{\mathrlap{h_r}}
+    \\
+    && E_r
+  }
+  \,.
+$$
+
+If the abelian groups $D$ and $E$ are equipped with [[bigraded object|bigrading]] such that
+
+$$
+  deg(f) = (0,0)\,,\;\;\;\; deg(g) = (-1,1)\,,\;\;\; deg(h) = (1,0)
+$$
+
+then $\{E_r^{\bullet,\bullet}, d_r\}$ with
+
+$$
+  \begin{aligned}
+    d_r & \coloneqq h_r \circ f_r
+     \\
+     & = h \circ g^{-r+1} \circ f
+  \end{aligned}
+$$
+
+is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}.
+
+If for each bidegree $(s,t)$ there exists $R \gg 1$ such that for all $r \geq R$ 
+
+1. $g \colon D^{s+R,t-R} \stackrel {\simeq}{\longrightarrow} D^{s+R -1, t-R-1}$;
+
+1. $g\colon D^{s-R+1, t+R-2} \stackrel{0}{\longrightarrow} D^{s-R,t+R-1}$ 
+
+then this spectral sequence converges to the [[inverse limit]] group
+
+$$
+  G^\bullet \coloneqq \underset{}{\lim}
+  \left(
+    \cdots \stackrel{g}{\to} D^{s,\bullet-s} \stackrel{g}{\longrightarrow} D^{s-1, \bullet - s + 1}
+   \stackrel{g}{\to}
+   \cdots
+  \right)
+$$
+
+filtered by 
+
+$$
+  F^p G^\bullet \coloneqq ker(G^\bullet \to D^{p-1, \bullet - p+1})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check the claimed form of the $E_\infty$-page:
+
+By exactness of the exact couple, the kernel
+
+$$
+  ker(d_{r-1}) \coloneqq ker(h \circ g^{-r+2} \circ f)
+$$
+
+consists of those elements $x$ such that $g^{-r+2} (f(x)) = g(y)$, for some $y$, hence 
+
+$$
+  ker(d_{r-1}) = f^{-1}(g^{r-1}(D^{s+r-1,t-r+1}))
+  \,.
+$$
+
+By assumption there is for each $(s,t)$ an $R$ such that for all $r \geq R$ then $ker(d_{r-1})$ is independent of $r$. 
+
+Moreover, $im(d_{r-1})$ consists of the image under $h$ of those $x$ such that $g^{r-2}(x)$ is in the image of $f$, hence (by exactness of the exact couple) such that $g^{r-2}(x)$ is in the kernel of $g$, hence such that $x$ is in the kernel of $g^{r-1}$. If $r \gt R$ then by assumption $g^{r-1} = 0$ and so then $im(d_{r-1}) = im(h)$.
+
+It follows that
+
+$$
+  \begin{aligned}
+    E_\infty^{p,n-p}
+    & =
+    ker(d_R)/im(d_R)
+    \\
+    &
+    \simeq
+    f^{-1}(im(g^R))/im(h)
+    \\
+    &
+    \simeq
+    im(g^R) \cap im(f)
+    \\
+    & 
+    \simeq
+    im(g^R) \cap ker(g)
+  \end{aligned}
+$$
+
+where in last two steps we used once more the exactness of the exact couple.
+
+The last group is that of elements $x \in G^n$ which map to zero in $D^{p-1,n-p+1}$ and where two such are identified if they agree in $D^{p,n-p}$, hence indeed 
+
+$$
+  E_\infty^{p,n-p} \simeq F^p G^n / F^{p+1} G^n
+  \,.
+$$
+
+
+=--
+
+## Examples
+
+### Exact couple of a tower of (co)-fibrations
+
+...[[spectral sequence of a tower of fibrations]]...
+
++-- {: .num_defn #FilteredSpectrum}
+###### Definition
+
+A [[filtered spectrum]] is a [[spectrum]] $X$ equipped with a sequence $X_\bullet \colon (\mathbb{N}, \gt) \longrightarrow Spectra$  of spectra of the form
+
+$$
+  \cdots 
+   \longrightarrow
+  X_3
+    \stackrel{f_2}{\longrightarrow} 
+  X_2 
+    \stackrel{f_1}{\longrightarrow} 
+  X_1 \stackrel{f_0}{\longrightarrow} X_0 = X 
+  \,.
+$$
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The exact couple recipe for spectral sequences is notable in that it doesn't mention any grading on the objects $D,E$; trivially, an exact couple can be specified by a short exact sequence $\coker \varphi\to E\to \ker\varphi$, although this obscures the focus usually given to $E$.  In applications, a bi-grading is usually induced by the context, which also specifies bidegrees for the initial maps $j,k,\varphi$, leading to the conventions mentioned earlier.
+More generally a [[filtered object in an (infinity,1)-category|filtering]] on an object $X$ in (stable or not) [[homotopy theory]] is a $\mathbb{Z}$-graded sequence $X_\bullet $ such that $X$ is the [[homotopy colimit]]  $X\simeq \underset{\longrightarrow}{\lim} X_\bullet$. But for the present purpose we stick with the simpler special case of def. \ref{FilteredSpectrum}.
 
 =--
 
-## Examples
 
-...[[spectral sequence of a tower of fibrations]]...
++-- {: .num_remark}
+###### Remark
 
-+-- {: .num_example #ExactCoupleOfATower}
-###### Example
+There is _no_ condition on the [[morphisms]] in def. \ref{FilteredSpectrum}. In particular, they are _not_ required to be [[n-monomorphisms]] or [[n-epimorphisms]] for any $n$. 
 
-Let $X$ be a [[topological space]] or [[chain complex]] or [[spectrum]] or similar, and assume that it is equipped with a resolution of the form
+On the other hand, while they are also not explicitly required to have a presentation by [[cofibrations]] or [[fibrations]], this follows automatically: by the existence of [[model structures for spectra]], every filtering on a spectrum is equivalent to one in which all morphisms are represented by [[cofibrations]] or by [[fibrations]]. 
+
+This means that we may think of a filtration on a spectrum $X$ in the sense of def. \ref{FilteredSpectrum} as equivalently being a [[tower of fibrations]] over $X$.
+
+=--
+
+The following remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} unravels the structure encoded in a filtration on a spectrum, and motivates the concepts of [[exact couples]] and their [[spectral sequences]] from these.
+
+
++-- {: .num_remark #UnrolledExactCoupleOfAFiltrationOnASpectrum}
+###### Remark
+
+Given a [[filtered spectrum]] as in def. \ref{FilteredSpectrum},
+write $A_k$ for the [[homotopy cofiber]] of its $k$th stage, such as to obtain the diagram
 
 $$
   \array{
-    X & =&  X_0 &\stackrel{g_0}{\leftarrow}&  X_1 &\stackrel{g_1}{\leftarrow}& X_2 &\stackrel{g_2}{\leftarrow}& X_3 &\stackrel{}{\leftarrow}& \cdots
-    \\
-    && \downarrow^{\mathrlap{f_0}} && \downarrow^{\mathrlap{f_1}} && \downarrow^{\mathrlap{f_2}} && \downarrow^{\mathrlap{f_3}} &&
-    \\
-    && K_0 && K_1 && K_2 && K_3
+   \cdots 
+     &\stackrel{}{\longrightarrow}& 
+   X_3 
+     &\stackrel{f_2}{\longrightarrow}& 
+   X_2 
+     &\stackrel{f_2}{\longrightarrow} & 
+   X_1 
+     &\stackrel{f_1}{\longrightarrow}& 
+   X
+   \\
+   && \downarrow && \downarrow && \downarrow && \downarrow
+   \\
+   && A_3 && A_2 && A_1 && A_0
   }
 $$
 
-where each hook is a [[fiber sequence]] (i.e. a [[tower of homotopy fibers]], e.g. a [[Postnikov tower]] or [[Adams tower]]). 
-
-> adjust this
-
-Then the induced [[long exact sequences of homotopy groups]]
+where each stage
 
 $$
-  \cdots
-  \pi_\bullet(X_{s+1}) 
-  \longrightarrow
-  \pi_\bullet(X_s)
-  \longrightarrow
-  \pi_\bullet(K_s)
-  \longrightarrow
-  \cdots
+ \array{
+   X_{k+1} &\stackrel{f_k}{\longrightarrow}& X_k   
+   \\
+   && \downarrow^{\mathrlap{cofib(f_k)}}
+   \\
+   && A_k
+ }
 $$
 
-for all $s$ give an exact couple by taking $E$ and $D$ to be the [[bigraded object|bigraded]] [[abelian groups]]
+is a [[homotopy fiber sequence]]. 
+
+To break this down into invariants, apply the [[stable homotopy groups]]-[[functor]]. This yields a diagram of $\mathbb{Z}$-[[graded abelian groups]] of the form
 
 $$
-  D \coloneqq \pi_\bullet(X_\bullet)
-$$
-
-$$
-  E \coloneqq \pi_\bullet(K_\bullet)
+  \array{
+   \cdots 
+     &\stackrel{}{\longrightarrow}& 
+   \pi_\bullet(X_3) 
+     &\stackrel{\pi_\bullet(f_2)}{\longrightarrow}& 
+   \pi_\bullet(X_2) 
+     &\stackrel{\pi_\bullet(f_2)}{\longrightarrow} & 
+   \pi_\bullet(X_1) 
+     &\stackrel{\pi_\bullet(f_1)}{\longrightarrow}& 
+   \pi_\bullet(X_0)
+   \\
+   && \downarrow && \downarrow && \downarrow && \downarrow
+   \\
+   && \pi_\bullet(A_3) && \pi_\bullet(A_2) && \pi_\bullet(A_1) && \pi_\bullet(A_0)
+  }
   \,.
 $$
 
-and taking $\phi$ and $k$ to be given by the [[functor|functoriality]] of the [[homotopy groups]] $\pi_{\bullet}$ and finally taking $j$ to be given by the [[connecting homomorphism]]. 
+Here each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] via [[connecting homomorphisms]] $\delta_\bullet^k$
 
-For instance for the original [[diagram]] an [[Adams resolution]] then this [[spectral sequence]] is the [[Adams spectral sequence]].
+$$
+  \cdots
+    \to
+  \pi_{\bullet+1}(A_k)
+    \stackrel{\delta_{\bullet+1}^k}{\longrightarrow}
+  \pi_\bullet(X_{k+1})
+    \stackrel{\pi_\bullet(f_k)}{\longrightarrow}
+  \pi_\bullet(X_k)
+    \stackrel{}{\longrightarrow}
+  \pi_\bullet(A_k)
+   \stackrel{\delta_\bullet^k}{\longrightarrow}
+  \pi_{\bullet-1}(X_{k+1})
+  \to 
+  \cdots
+  \,.
+$$
+
+If we understand the [[connecting homomorphism]]
+
+$$
+  \delta_k \colon \pi_\bullet(A_k) \longrightarrow \pi_\bullet(X_{k+1})
+$$
+
+as a morphism of degree -1, then all this information fits into one diagram of the form
+
+$$
+  \array{
+   \cdots 
+     &\stackrel{}{\longrightarrow}& 
+   \pi_\bullet(X_3) 
+     &\stackrel{\pi_\bullet(f_2)}{\longrightarrow}& 
+   \pi_\bullet(X_2) 
+     &\stackrel{\pi_\bullet(f_2)}{\longrightarrow} & 
+   \pi_\bullet(X_1) 
+     &\stackrel{\pi_\bullet(f_1)}{\longrightarrow}& 
+   \pi_\bullet(X_0)
+   \\
+   && 
+   \downarrow &{}_{\mathllap{\delta_2}}\nwarrow & 
+   \downarrow &{}_{\mathllap{\delta_1}}\nwarrow &
+   \downarrow &{}_{\mathllap{\delta_0}}\nwarrow
+   & \downarrow
+   \\
+   && \pi_\bullet(A_3) && \pi_\bullet(A_2) && \pi_\bullet(A_1) && \pi_\bullet(A_0)
+  }
+  \,,
+$$
+
+where each triangle is a rolled-up incarnation of a [[long exact sequence of homotopy groups]] (and in particular is _not_ a commuting diagram!).
+
+If we furthermore consider the [[bigraded object|bigraded]] [[abelian groups]] $\pi_\bullet(X_\bullet)$ and $\pi_\bullet(A_\bullet)$, then this information may further be rolled-up to a single diagram of the form
+
+$$
+  \array{
+     \pi_\bullet(X_\bullet)
+       & \stackrel{\pi_\bullet(f_\bullet)}{\longrightarrow} &
+     \pi_\bullet(X_\bullet)
+     \\
+       & {}_{\mathllap{\delta}}\nwarrow 
+       & \downarrow^{\mathrlap{\pi_\bullet(cofib(f_\bullet))}}
+     \\
+     && 
+     \pi_\bullet(A_\bullet)
+  }
+$$
+
+where the morphisms $\pi_\bullet(f_\bullet)$, $\pi_\bullet(cofib(f_\bullet))$ and $\delta$ have bi-degree $(0,-1)$, $(0,0)$ and $(-1,1)$, respectively.
+
+Here it is convenient to shift the bigrading, equivalently, by setting
+
+$$
+  \mathcal{D}^{s,t} \coloneqq \pi_{t-s}(X_s)
+$$
+
+$$
+  \mathcal{E}^{s,t} \coloneqq \pi_{t-s}(A_s)
+  \,,
+$$
+
+because then $t$ counts the cycles of going around the triangles:
+
+$$
+  \cdots
+   \to 
+  \mathcal{D}^{s+1,t+1}
+    \stackrel{\pi_{t-s}(f_s)}{\longrightarrow}
+  \mathcal{D}^{s,t}
+    \stackrel{\pi_{t-s}(cofib(f_s))}{\longrightarrow}
+  \mathcal{E}^{s,t}
+    \stackrel{\delta_s}{\longrightarrow}
+  \mathcal{D}^{s+1,t}
+    \to
+  \cdots
+$$
+
+Data of this form is called an _[[exact couple]]_, def. \ref{ExactCouple} below. 
+
 
 =--
 
-+-- {: .num_example }
-###### Example
 
-Any [[short exact sequence]] of [[chain complexes]] induces an exact couple among their total homology complexes, via the 
-[[Mayer-Vietoris long exact sequence]].
++-- {: .num_defn #UnrolledExactCouple}
+###### Definition
 
-In particular, applying this procedure to the relative homology of a [[filtered complex]] gives precisely the [[spectral sequence of a filtered complex]].  
+An _unrolled [[exact couple]]_ (of Adams-type) is a diagram of [[abelian groups]] of the form
+
+$$
+  \array{
+     \cdots 
+       &\stackrel{}{\longrightarrow}& 
+     \mathcal{D}^{3,\bullet} 
+       &\stackrel{i_2}{\longrightarrow}& 
+     \mathcal{D}^{2,\bullet} 
+       &\stackrel{i_1}{\longrightarrow} & 
+     \mathcal{D}^{1,\bullet} 
+       &\stackrel{i_0}{\longrightarrow}& 
+     \mathcal{D}^{0,\bullet}
+     \\
+     && 
+     \downarrow^{\mathrlap{}}  &{}_{\mathllap{k_2}}\nwarrow & 
+     {}^{\mathllap{j_2}}\downarrow &{}_{\mathllap{k_1}}\nwarrow &
+     {}^{\mathllap{j_1}}\downarrow &{}_{\mathllap{k_0}}\nwarrow
+     & {}_{\mathllap{j_0}}\downarrow
+     \\
+     && \mathcal{E}^{3,\bullet} && \mathcal{E}^{2,\bullet} 
+     && \mathcal{E}^{1,\bullet} && \mathcal{E}^{0,\bullet}
+   }
+$$
+
+such that each triangle is a rolled-up [[long exact sequence]] of [[abelian groups]] of the form
+
+$$
+  \cdots
+   \to 
+  \mathcal{D}^{s+1,t+1}
+    \stackrel{i_s}{\longrightarrow}
+  \mathcal{D}^{s,t}
+    \stackrel{j_s}{\longrightarrow}
+  \mathcal{E}^{s,t}
+    \stackrel{k_s}{\longrightarrow}
+  \mathcal{D}^{s+1,t}
+    \to
+  \cdots
+  \,.
+$$
+
 
 =--
 
-+-- {: .num_example }
+The collection of this "un-rolled" data into a single diagram of [[abelian groups]] is called the corresponding _[[exact couple]]_.
+
+
++-- {: .num_defn #ExactCouple}
+###### Definition
+
+An _[[exact couple]]_ is a [[diagram]] (non-commuting) of [[abelian groups]] of the form
+
+$$
+  \array{
+    \mathcal{D}
+    &\stackrel{i}{\longrightarrow}&
+    \mathcal{D}
+    \\
+    & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}
+  }
+  \,,
+$$
+
+such that this is [[exact sequence]] exact in each position, hence such that the [[kernel]] of every [[morphism]] is the [[image]] of the preceding one.
+
+=--
+
+
+The concept of exact couple so far just collects the sequences of long exact sequences given by a filtration. Next we turn to extracting information from this sequence of sequences.
+
++-- {: .num_remark #Observingd1}
+###### Remark
+
+The sequence of long exact sequences in remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} is inter-locking, in that every $\pi_{t-s}(X_s)$ appears _twice_:
+
+$$
+  \array{
+    && & \searrow && \nearrow
+    \\
+    && && \pi_{t-s-1}(X_{s+1})
+    \\
+    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
+    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    && && && \nearrow
+    \\
+    && \pi_{t-s}(A_s) && \underset{def: \;\;d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    && \stackrel{def: \; d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    \\
+    & \nearrow && && && {}_{\mathllap{\delta_{t-s-1}^{s+1}}}\searrow 
+    && \nearrow_{\mathrlap{\pi_{t-s-2}(cofib(f_{s+2}))}}
+    \\
+    && && && && \pi_{t-s-2}(X_{s+2})
+    \\
+    && && && & \nearrow && \searrow
+  }
+$$
+
+This gives rise to the horizontal composites $d_1^{s,t}$, as show above, and by the fact that the diagonal sequences are long exact, these are differentials: $d_1^2 = 0$, hence give a [[chain complex]]:
+
+$$
+  \array{
+    \cdots & \stackrel{}{\longrightarrow}
+    && \pi_{t-s}(A_s) && \overset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    && \stackrel{d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    &&\longrightarrow & \cdots
+  }
+  \,.
+$$
+
+We read off from the interlocking long exact sequences what these differentials _mean_: an element $c \in \pi_{t-s}(A_s)$ lifts to an element $\hat c \in \pi_{t-s-1}(X_{s+2})$ precisely if $d_1 c = 0$:
+
+$$
+  \array{
+    &\hat c \in & \pi_{t-s-1}(X_{s+2})
+    \\
+    && & \searrow^{\mathrlap{\pi_{t-s-1}(f_{s+1})}} 
+    \\
+    && && \pi_{t-s-1}(X_{s+1})
+    \\
+    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
+    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    \\
+    & c \in  & \pi_{t-s}(A_s) && \underset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+  }
+$$
+
+This means that the [[cochain cohomology]] of the complex $(\pi_{\bullet}(A_\bullet), d_1)$ produces elements of $\pi_\bullet(X_\bullet)$ and hence of $\pi_\bullet(X)$.
+
+In order to organize this observation, notice that in terms of the exact couple of remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}, the differential 
+
+$$
+  d_1^{s,t}  \;\coloneqq \; \pi_{t-s-1}(cofib(f_{s+1})) \circ \delta_{t-s}^s
+$$
+
+is a component of the composite 
+
+$$
+  d \coloneqq j \circ k
+  \,.
+$$
+
+
+=--
+
+Some terminology:
+
++-- {: .num_defn #PageOfAnExactCouple}
+###### Definition
+
+Given an exact couple, def. \ref{ExactCouple}, 
+
+$$
+  \array{
+    \mathcal{D}^{\bullet,\bullet}
+    &\stackrel{i}{\longrightarrow}&
+    \mathcal{D}^{\bullet,\bullet}
+    \\
+    & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}^{\bullet,\bullet}
+  }
+$$
+
+its _page_ is the [[chain complex]]
+
+$$
+  (E^{\bullet,\bullet}, d \coloneqq j \circ  k)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #DerivedExactCouple}
+###### Definition
+
+Given an exact couple, def. \ref{ExactCouple}, then the induced _derived exact couple_ is the diagram
+
+$$
+  \array{
+    \widetilde {\mathcal{D}}
+    &\stackrel{\tilde i}{\longrightarrow}&
+    \widetilde {\mathcal{D}}
+    \\
+    & {}_{\mathllap{\tilde k}}\nwarrow & \downarrow^{\mathrlap{\tilde j}}
+    \\
+    && \widetilde{\mathcal{E}}
+  }
+$$
+
+with 
+
+1. $\tilde{\mathcal{E}} \coloneqq ker(d)/im(d)$;
+
+1. $\tilde {\mathcal{D}} \coloneqq im(i)$;
+
+1. $\tilde i \coloneqq i|_{im(i)}$;
+
+1. $\tilde j \coloneqq j \circ (im(i))^{-1}$;
+
+1. $\tilde k \coloneqq k|_{ker(d)}$.
+
+
+=--
+
++-- {: .num_prop #DerivedExactCoupleIsExactCouple}
+###### Proposition
+
+A derived exact couple, def. \ref{DerivedExactCouple}, 
+is again an exact couple, def. \ref{ExactCouple}.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Given an exact couple, def. \ref{ExactCouple},
+then the induced [[spectral sequence]], def. \ref{SpectralSequence}, is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
+
+=--
+
+
++-- {: .num_example #AdamsTypeSpectralSequenceOfATower}
 ###### Example
 
-
-Given a [[chain complex]] of [[flat modules]] $(C^\dot,d)$, [[tensor product of modules|tensoring]] with the [[short exact sequence]]
-
-$$ 
-   \mathbb{Z}/p\mathbb{Z} \to \mathbb{Z}/p^2\mathbb{Z} \to \mathbb{Z}/p\mathbb{Z} 
+Consider a [[filtered spectrum]], def. \ref{FilteredSpectrum},
 
 $$
-
-gives the exact couple
-
-$$ 
-  H^\bullet(d,\mathbb{Z}/p^2\mathbb{Z})
-    \overset{[\cdot]}{\to} 
-  H^\bullet(d,\mathbb{Z}/p\mathbb{Z})
-   \overset{\beta}{\to}
-  H^\bullet(d,\mathbb{Z}/p\mathbb{Z})
-   \overset{p}{\to}H^\bullet(d,\mathbb{Z}/p^2\mathbb{Z})\cdots
+  \array{
+   \cdots 
+     &\stackrel{}{\longrightarrow}& 
+   X_3 
+     &\stackrel{f_2}{\longrightarrow}& 
+   X_2 
+     &\stackrel{f_2}{\longrightarrow} & 
+   X_1 
+     &\stackrel{f_1}{\longrightarrow}& 
+   X
+   \\
+   && \downarrow && \downarrow && \downarrow && \downarrow
+   \\
+   && A_3 && A_2 && A_1 && A_0
+  }
 $$
 
-in which $\beta$ is the _mod-$p$ [[Bockstein homomorphism]]_.
+and its induced [[exact couple]] of [[stable homotopy groups]], from remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}
+
+$$
+  \array{
+    \mathcal{D} &\stackrel{i}{\longrightarrow}& \mathcal{D}
+    \\
+    &{}_{\mathllap{k}}\nwarrow& \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}
+  }
+  \;\;\;\;\;\,\;\;\;\;\;\;
+  \array{
+    \mathcal{D} &\stackrel{(-1,-1)}{\longrightarrow}& \mathcal{D}
+    \\
+    &{}_{\mathllap{(1,0)}}\nwarrow& \downarrow^{\mathrlap{(0,0)}}
+    \\
+    && \mathcal{E}
+  }
+$$
+
+with bigrading as shown on the right.
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
+</div>
+
+As we pass to derived exact couples, by def. \ref{DerivedExactCouple}, 
+the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by $(1,1)$ in each step, since
+
+$$
+  deg(\tilde j) = deg( j \circ im(i)^{-1}) = deg(j) + (1,1)
+  \,.
+$$
+
+
+Therefore the induced [[spectral sequence]] has differentials of the form
+
+$$
+  d_r \;\colon\; \mathcal{E}_r^{s,t} \longrightarrow \mathcal{E}_r^{s+r, t+r-1}
+  \,.
+$$
 
 =--
 
