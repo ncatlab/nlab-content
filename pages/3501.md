@@ -9,13 +9,13 @@ To a space (typically with singularities) of a certain kind (there are variants)
 
 They are related to some sheaf categories and notably generalize the [[intersection cohomology]]. Perversity is there a parameter involved in the grading of intersection cohomology groups. Another feature similar to sheaves is that they are somehow determined by the local data; there is a famous gluing due to [[Sasha Beilinson]]. In one of the approaches (see MacPherson's notes) there are even modified Steenrod-Eilenberg axioms stated for intersection cohomology. 
 
-##Defintions
+##Definitions
 
 In this set of examples, $X$ is a complex [[stratified space]] (i.e. a stratification $S$ of $X$ is a collection of locally complex submanifolds which satisfy some conditions). 
 
 We can alternatively define $X$ as an [[algebraic variety]] (where a stratification $S$ of $X$ is a collection of subvarieties which satisfy some conditions).
 
-1. $Shv(X)$ := sheaves of complex vector spaces on X (assisgns to every connected open set a vector space)
+1. $Shv(X)$ := sheaves of complex vector spaces on X (assigns to every connected open set a vector space)
 
 1. Look at (bounded) chain complexes in $Shv(X)$ (up to homotopy) =: $K^b(X)$
 
