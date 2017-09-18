@@ -19,6 +19,8 @@ More generally, if $k \to K$ is *any* [[ring]] [[homomorphism]] between fields, 
 
 ## Related concepts
 
+* [[transcendence degree]]
+
 * [[separable field extension]]
 
 * [[regular field extension]]
