@@ -1655,7 +1655,7 @@ Let $\Sigma$ be a [[compact topological space|compact]] [[smooth manifold]] and 
 Then the set of [[smooth functions]] $C^\infty(\Sigma,X)$ carries the structure of an
 [[infinite-dimensional manifold|infinite dimensional]] (in general) [[Fréchet manifold]] $Maps(\Sigma,X)_{Frechet}$.
 Under the embedding $i \colon FrechetMfd \hookrightarrow SmoothSet$ of prop. \ref{SmoothSetsContainSmoothManifolds}
-this coincides with  [[internal hom]] $[\Sigma,X]$ formed in $Smoothset$ according to prop. \ref{SheavesHomInternal}:
+this coincides with  [[internal hom]] $[\Sigma,X]$ formed in $SmoothSet$ according to prop. \ref{SheavesHomInternal}:
 
 $$
   [\Sigma, X] \simeq  i(Maps(\Sigma, X)_{Frechet})
@@ -2202,12 +2202,17 @@ $$
     \;\coloneqq\;
   \wedge^\bullet_{C^\infty(X)} \Gamma_X(E)
   =
-  C^\infty(X) \oplus \Gamma_X(E^\ast) \oplus \Gamma_X(E^\ast) \wedge_{C^\infty(X)} \Gamma_X(E^\ast)
-  \oplus \cdots
+  C^\infty(X) 
+    \;\oplus\; 
+  \Gamma_X(E^\ast) 
+    \;\oplus\; 
+  \left(\Gamma_X(E^\ast) \wedge_{C^\infty(X)} \Gamma_X(E^\ast)\right)
+    \;\oplus\; 
+  \cdots
 $$
 
 for the [[supercommutative superalgebra]] which is the [[exterior algebra]] over $C^\infty(x)$ of the $C^\infty(X)$-[[module]]
-$\Gamma_X(E^\ast)$ of [[smooth sections]] (as in the [[smooth Serre-Swan theorem]]) of the [[dual vector bundle]] $E^\ast$.
+$\Gamma_X(E^\ast)$ of [[smooth sections]] (as in the [[smooth Serre-Swan theorem]] spring) of the [[dual vector bundle]] $E^\ast$.
 
 The underlying [[functor of points]] of $\Pi E$  (remark \ref{ASheafAsASpace})
 
@@ -2788,9 +2793,14 @@ A [[super Lie algebra]] is equivalently
      [-,-] : \mathfrak{g}\otimes \mathfrak{g} \to \mathfrak{g}
    $$
 
-   which is _graded_ skew-symmetric: it is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
+   which is _graded_ skew-symmetric: for $x,y \in \mathfrak{g}$ two elements of homogeneous degree $\sigma_x$, $\sigma_y$, respectively, then
+   
+   $$
+     [x,y] = -(-1)^{\sigma_x \sigma_y} [y,x]
+     \,,
+   $$
 
-1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that 
+1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that
 for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
 
    $$
