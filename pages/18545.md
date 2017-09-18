@@ -22,6 +22,10 @@
 
 The concept of _pseudoholomorphic vector bundle_ ([Bryant 05, def. 1](#Bryant05)) is like that of _[[holomorphic vector bundle]]_ but with [[complex structures]] relaxed to [[almost complex structures]].
 
+## Related concepts
+
+* [[almost Kähler geometric quantization]]
+
 ## References
 
 * {#Bryant05} [[Robert Bryant]], _Remarks on the geometry of almost complex 6-manifolds_,  	The Asian Journal of Mathematics, vol. 10 no. 3 (September, 2006), pp. 561--606 ([arXiv:math/0508428](https://arxiv.org/abs/math/0508428), [Euclid](https://projecteuclid.org/euclid.ajm/1175789046))
