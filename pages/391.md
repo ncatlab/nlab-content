@@ -1,7 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Enriched category theory
++--{: .hide}
 [[!include enriched category theory contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
