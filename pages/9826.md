@@ -29,7 +29,7 @@ This construction still works even when $n=2$, but of course since $\ell$ is onl
 A **projective line** is a set $\ell$ of cardinality $\ge 3$ together with
 
 1. For each $p\in \ell$, a group $\Lambda(p)$ of *collineations with center $p$*, which acts on $\ell$ fixing $p$.
-1. Each collineation with center $p$ is assigned an *axis* $q\in \ell$, which it also fixes.  The collineations with center $p$ and axis $q$ form a subgroup $\Lambda(p,q)$.  Note that $q$ need not be distinct from $q$.
+1. Each collineation with center $p$ is assigned an *axis* $q\in \ell$, which it also fixes.  The collineations with center $p$ and axis $q$ form a subgroup $\Lambda(p,q)$.  Note that $q$ need not be distinct from $p$.
 1. If a collineation with center $p$ and axis $q$ fixes a point $r \notin \{p,q\}$, then it is the identity.  In particular, the action is [[faithful action|faithful]], and therefore embeds each $\Lambda(p)$ in the [[permutation group]] $Aut(\ell)$.
 1. If $p\neq q$, then $\Lambda(p,q)$ and $\Lambda(q,p)$ commute with each other.
 1. For any central collineation $\sigma$ and any $p,q$, we have $\sigma \Lambda(p,q) \sigma^{-1} = \Lambda(\sigma(p),\sigma(q))$.
