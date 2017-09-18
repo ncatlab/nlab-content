@@ -9,7 +9,7 @@
 
 ## References
 
-The [[fundamental group]] for localis is considered in 
+The [[fundamental group]] for locales is considered in 
 
 * W. He, _Homotopy theory for locales_, Acta Math. Sinica 46 (2003), no. 5
 
