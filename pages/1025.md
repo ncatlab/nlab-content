@@ -1,3 +1,4 @@
+[[!redirects Algebraic set theory]]
 
 #Contents#
 * table of contents
