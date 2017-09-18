@@ -5010,18 +5010,22 @@ $$
 But for the stable model structure we have (prop. \ref{LongFiberSequencesOfMapsOfSpectra}) that these hom-groups sit in [[long exact sequences]] of the form
 
 $$
-  \cots
+  \cdots
     \to 
   [Y,E] 
     \overset{[f,E]}{\longrightarrow}
   [X,E]
     \longrightarrow 
   [F,E]
+    \longrightarrow
+  [\Omega Y,E] 
+    \overset{[f,E]}{\longrightarrow}
+  [\Omega X,E]
     \to
-  \cots
+  \cdots
 $$
 
-Now since $[f,E]$ is an isomorphism for all Omega-spectra $E$, by assumption, the exactness of this sequence means that that $[F,E] \simeq \ast$, hence that 
+Now since $[f,E]$ is an isomorphism for all Omega-spectra $E$, by assumption, hence an isomorphism in the stable model structure, so that also $\Omega f$ is an isomorphism, the exactness of this sequence means that that $[F,E] \simeq \ast$, hence that 
 
 $$
   \ast \simeq [\ast,E]\overset{\simeq}{\longrightarrow} [F,E]
