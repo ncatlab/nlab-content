@@ -243,7 +243,7 @@ such that
      \,.
    $$
 
-For $\mathcal{G}_1, \mathcal{G}_2$ two groupoids, and for $F,G \;\colon\; \mathcal{G}_1 \to \mathcal{G}_2$ two groupoid homomorphisms/functors, then a _conjugation_ or _[[natural transformation]]_ (necessarily a [[natural isomorphism]])
+For $\mathcal{G}_1, \mathcal{G}_2$ two groupoids, and for $F,G \;\colon\; \mathcal{G}_1 \to \mathcal{G}_2$ two groupoid homomorphisms/functors, then a _conjugation_ or _[[homotopy]]_ or _[[natural transformation]]_ (necessarily a [[natural isomorphism]])
 
 $$
   \eta \;\colon\; F \Rightarrow G
@@ -271,7 +271,55 @@ such that
      }
   $$
 
-Hence there is a [[category]], to be denoted [[Grpd]], whose
+
+For $\mathcal{G}_1, \mathcal{G}_2$  two groupoids and $F, G, H \colon \mathcal{G}_1  \longrightarrow \mathcal{G}_2$
+three functors between them and $\eta_1 \;\colon\; F \Rihtarrow G$ and $\eta_2 \;\colon\; G \Rightarrow H$
+conjugation actions/natural isomorphisms between these, there is the composite
+
+$$
+  \eta_2 \colon \eta_1  \;\colon\; F \Rightarrow H
+$$
+
+with components the composite of the components
+
+$$
+  (\eta_2 \circ \eta_1)(x) \coloneqq \eta_2(x) \circ \eta_1(x)
+  \,.
+$$
+
+This yields for any two groupoid a _[[hom-groupoid]]_
+
+$$
+  Hom_{Grpd}(\mathcal{G}_1, \mathcal{G}_2)
+$$
+
+whose objects are the groupoid homomorphisms / functors, and whose morphisms are the conjugation actions / natural transformations.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**([[groupoids]] are special cases of [[categories]])**
+
+A [[small groupoid]] (def. \ref{GroupoidGlobalDefinition}) is equivalently a [[small category]] in which all [[morphisms]] are [[isomorphism|isomorphisms]].
+
+While therefore groupoid theory may be regarded as a special case of [[category theory]], it 
+is noteworthy that the two theories are quite different in character. For example [[higher groupoid]]
+theory is _[[homotopy theory]]_ which is rich but quite tractable, for instance via tools
+such as [[simplicial homotopy theory]] or [[homotopy type theory]], while [[higher category theory]]
+is intricate and becomes tractable mostly by making recourse to higher groupoid theory in the guise of
+[[(infinity,1)-category theory]] and [[(infinity,n)-categories]].
+
+=--
+
+
++-- {: .num_prop #CategoriesOfGroupoids}
+###### Remark
+**([[categories]] of [[groupoids]])**
+
+From def. \ref{GroupoidDependentlyTypes} we see that there
+is a [[category]], to be denoted [[Grpd]], whose
 
 * [[objects]] are the small groupoids;
 
@@ -281,18 +329,65 @@ There is also the [[homotopy category]] $Ho(Grpd)$ whose
 
 * [[objects]] are small groupoids;
 
-* [[morphisms]] are [[equivalence classes]] of groupoid homomorphisms modulo conjugation actions (i.e. [[functors]] modulo [[natural transformations]])
+* [[morphisms]] are [[equivalence classes]] of groupoid homomorphisms modulo conjugation actions (i.e. [[functors]] modulo [[natural transformations]]).
 
+=--
+
+Of course instead of quotienting out conjugation actions/natural transformations one may 
+keep track of them:
+
++-- {: .num_prop #HorizontaComposition}
+###### Proposition
+**([[horizontal composition]] of [[homotopies]])**
+
+Let $\mathcal{G}_1$, $\mathcal{G}_2$, $\mathcal{G}_3$, $\mathcal{G}_4$ be groupoid and let
+
+$$
+  \mathcal{G}_1
+    \overset{F_1}{\longrightarrow}
+  \mathcal{G}_2
+    \underoverset
+      {\underset{F_2}{\longrightarrow}}
+      {\overset{F'_2}{\longrightarrow}}
+      {\Downarrow{\mathrlap{\eta}}}
+  \mathcal{G}_3
+    \overset{F_3}{\longrightarrow}
+  \mathcal{G}_3
+$$
+
+be morphisms and a homotopy $\eta$. Then there is a homotopy
+
+$$
+  \mathcal{G}_1
+    \underoverset
+      {\underset{F_3 \circ F'_2\circ F_1}{\longrightarrow}}
+      {\overset{F_3 \circ F'_2\circ F_1}{\longrightarrow}}
+      {\Downarrow{\mathrlap{ F_2 \cdot \eta_ \cdot F_1 }}}
+  \mathcal{G}_2
+$$
+
+between the respective composites, with components given by
+
+$$
+  (F_2 \cdot \eta \cdot F_1)(x)
+    \;\coloneqq\;
+  F_2(\eta(F_1(x)))
+  \,.
+$$
+
+This operation constitutes a groupoid homomorphisms/functor
+
+$$
+  F_3\cdot (-)\cdot F_1
+    \;\colon\;
+  Hom_{Grpd}(\mathcal{G}_2, \mathcal{G}_3)
+    \longrightarrow
+  Hom_{Grp}(\mathcal{G}_1, \mathcal{G}_4)
+  \,.
+$$
 
 =--
 
-
-+-- {: .num_remark}
-###### Remark
-
-A [[small groupoid]] (def. \ref{GroupoidGlobalDefinition}) is equivalently a [[small category]] in which all [[morphisms]] are [[isomorphism|isomorphisms]].
-
-=--
 
 
 +-- {: .num_defn #GroupoidGlobalDefinition}
@@ -491,21 +586,21 @@ For instance
 * For $\mathcal{C} = $ [[Set]] then $Core(Set)$ is the goupoid of [[sets]] and [[bijections]] between them.
 
   For $\mathcal{C}  $ [[FinSet]] then the [[skeleton]] of this groupoid (prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}) is the disjoint union of deloopings (example \ref{DeloopingGroupoidDisjointUnion}) of all the [[symmetric groups]]:
-  
+
   $$
     Core(FinSet) \simeq \underset{n \in \mathbb{N}}{\sqcup} \Sigma(n)
   $$
 
 * For $\mathca{C} = $ [[Vect]] then $Core(Vect)$ is the groupoid of [[vector spaces]] and [[linear map|linear]] [[bijections]] between them.
 
-  For $\mathca{C} = $ [[FinVect]] then the [[skeleton]] of this groupoid is the disjoint union of delooping of all the 
+  For $\mathca{C} = $ [[FinVect]] then the [[skeleton]] of this groupoid is the disjoint union of delooping of all the
   [[general linear groups]]
-  
+
   $$
     Core(FinVect) \simeq \underset{n \in \mathbb{N}}{\sqcup} GL(n)
     \,.
   $$
-  
+
 
 =--
 
@@ -520,19 +615,19 @@ A [[linear representation]] of $\mathcal{G}$ is a groupoid homomorphism ([[funct
 $$
   \rho \;\colon\; \mathcal{G} \longrightarrow Core(Vect)
 $$
-   
+
 to the groupoid [[core]] of the category [[Vect]] of [[vector spaces]] (example \ref{CoreGroupoid}). Hence this is
-   
+
 1. For each object $x$ of $\mathcal{G}$ a [[vector space]] $V_x$;
 
 1. for each morphism $x \overset{f}{\longrightarrow} y$ of $\mathcal{G}$ a
    [[linear map]] $\rho(f) \;\colon\; V_x \to V_y$
-   
+
 such that
 
-1. (respect for composition) for all composable morphisms $x \overset{f}{\to}y \overset{g}{\to} z$ in the 
+1. (respect for composition) for all composable morphisms $x \overset{f}{\to}y \overset{g}{\to} z$ in the
    groupoid we have an [[equality]]
-   
+
    $$
      \rho(g) \circ \rho(f) = \rho(g \circ f)
    $$
@@ -544,11 +639,11 @@ such that
      \,.
    $$
 
-Similarly a _[[permutation representation]]_ of $\mathcal{G}$ is a groupoid homomorphism ([[functor]]) 
+Similarly a _[[permutation representation]]_ of $\mathcal{G}$ is a groupoid homomorphism ([[functor]])
 
 $$
   \rho \;\colon\; \mathcal{G} \longrightarrow Core(Set)
-$$   
+$$
 
 to the groupoid core of [[Set]]. Hence this is
 
@@ -556,8 +651,8 @@ to the groupoid core of [[Set]]. Hence this is
 
 1. for each morphism $x \overset{f}{\longrightarrow} y$ of $\mathcal{G}$ a
    [[function]] $\rho(f) \;\colon\; S_x \to S_y$
-   
-such that composition and identities are respected, as above.   
+
+such that composition and identities are respected, as above.
 
 For $\rho_1$ and $\rho_2$ two such representations, then a homomorphism of representations
 
@@ -568,14 +663,14 @@ $$
 is a [[natural transformation]] between these functors, hence is
 
 * for each object $x$ of the groupoid a (linear) function
- 
+
   $$
     (V_1)_x \overset{\phi(x)}{\longrightarrow} (V_2)_x
   $$
 
 * such that for all morphisms $x \overset{f}{\longrightarrow} y$
   we have
-  
+
   $$
     \phi(y) \circ \rho_1(f) = \rho_2(x) \circ \phi(x)
     \phantom{AAAAAA}
@@ -588,7 +683,7 @@ is a [[natural transformation]] between these functors, hence is
     }
   $$
 
-Representations of $\mathcal{G}$ and homomorphisms between them constitute a [[category]], 
+Representations of $\mathcal{G}$ and homomorphisms between them constitute a [[category]],
 called the [[representation category]] $Rep_{Grpd}(\mathcal{G})$.
 
 =--
@@ -648,7 +743,7 @@ $$
 ###### Lemma
 **([[automorphism group]] depends on basepoint only up to [[conjugation]])**
 
-For $\mathcal{G}$ a groupoid, let $x$ and $y$ be two [[objects]] in the 
+For $\mathcal{G}$ a groupoid, let $x$ and $y$ be two [[objects]] in the
 same [[connected component]] (def. \ref{GroupoidConnectedComponents}). Then there is a group [[isomorphism]]
 
 $$
@@ -669,7 +764,7 @@ $$
   \,.
 $$
 
-The operation of [[conjugation]] with this morphism 
+The operation of [[conjugation]] with this morphism
 
 $$
   \array{
@@ -692,10 +787,10 @@ is clearly a group isomorphism as required.
 Let $\{G_i\}_{i \in I}$ and $\{H_j\}_{j \in J}$ be sets of [[groups]] and consider a homomorphism ([[functor]])
 
 $$
-  F 
-    \;\colon\; 
+  F
+    \;\colon\;
   \underset{i \in I}{sqcup} G_i
-    \longrightarrow 
+    \longrightarrow
   \underset{j \in J}{\sqcup} H_j
 $$
 
@@ -708,13 +803,13 @@ Then the following are equivalent:
 1. $F$ is a [[weak homotopy equivalence]] in that
 
    1. $F_0 \;\colon\; I \overset{\simeq}{\longrightarrow} J$ is a [[bijection]];
-   
-   1. for each $i \in I$ the morphism 
-   
+
+   1. for each $i \in I$ the morphism
+
       $$
         F_{i,i} \;\colon\; G_i \overset{\simeq}{\longrightarrow} H_{F_0(i)}
       $$
-      
+
       is an [[isomorphism]] of groups.
 
 =--
@@ -723,11 +818,11 @@ Then the following are equivalent:
 ###### Proof
 
 
-The implication 2) $\Rightarrow 1)$ is immediate. 
+The implication 2) $\Rightarrow 1)$ is immediate.
 
 In the other direction, assume that $F$ is an equivalence of groupoids, and let $G$ be an inverse up to natural isomorphism.
 It is clear that both induces bijections on connected components. To see that both are isomorphisms
-of automorphisms groups, observe that the conditions for the natural isomorphisms 
+of automorphisms groups, observe that the conditions for the natural isomorphisms
 
 $$
   \alpha \;\colon\; G \circ F \Rightarrow id
@@ -794,24 +889,24 @@ $$
   \mathcal{G}
 $$
 
-which takes each object and morphism "to itself". 
+which takes each object and morphism "to itself".
 
 Now using the [[axiom of choice]] once more, we choose in each connected component $i \in \pi_0(\mathcal{G})$
-and for each object $y$ in that connected component a morphism 
+and for each object $y$ in that connected component a morphism
 
 $$
   x_i \overset{f_{x_i,y}}{\longrightarrow} y
   \,.
-$$ 
+$$
 
-Using this we obtain a functor the other way around 
+Using this we obtain a functor the other way around
 
 $$
   p \;\colon\; \mathcal{G} \longrightarrow \underset{i \in \pi_0(\mathcal{G})}{\sqcup} Aut_{\mathcal{G}}(x_i)
 $$
 
 which sends each object to its connected component, and
-which for pairs of objects $y$, $z$ of $\mathcal{G}$ is given by conjugation with the 
+which for pairs of objects $y$, $z$ of $\mathcal{G}$ is given by conjugation with the
 morphisms choosen above:
 
 $$
@@ -822,7 +917,7 @@ $$
     y                 &&                     y & \overset{f_{x_i,y}}{\longleftarrow}& x_i
     \\
     {}^{\mathllap{f}} \downarrow &\mapsto&     {}^{\mathllap{f}}\downarrow
-    \\                                    
+    \\
     z                 &&                     z & \underset{f_{x_i,z}^{-1}}{\longrightarrow} & x_i
   }
   \,.
@@ -839,7 +934,7 @@ $$
 
 For the first this is immediate, since we even have equality
 
-$$ 
+$$
   p \circ inc \;=\; id
   \,.
 $$
@@ -877,17 +972,17 @@ Assuming the [[axiom of choice]] then the following are equivalent:
 
 1. $F$ is an [[equivalence of groupoids]] (def. \ref{EquivalenceOfGroupoids});
 
-1. $F$ is a [[weak homotopy equivalence]] in that 
+1. $F$ is a [[weak homotopy equivalence]] in that
 
    1. it induces an [[bijection]] of sets of [[connected]] components (def. \ref{GroupoidConnectedComponents});
-      
+
       $$
         \pi_0(F) \;\colon\; \pi_0(\mathcal{G}_1) \overset{\simeq}{\longrightarrow} \pi_0(\mathcal{G}_0)
         \,,
       $$
 
   1. for each object $x \in \mathcal{G}_1$ it induces an isomorphis of [[automorphism groups]] (def. \ref{InGrupoidAutomorphismGroup}):
-  
+
      $$
        F_{x,x} \;\colon\; Aut_{\mathcal{G}_1}(x) \overset{\simeq}{\longrightarrow} Aut_{\mathcal{G}_2}(F_0(x))
        \,.
@@ -917,7 +1012,7 @@ $$
 
 Here $inc_1$ and $p_2$ are equivalences of groupoids by prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings} and
 hence are weak homotopy equivalences by the statement above. Since moreover $F$ is a weak homotopy equivalence by
-assumption, it follows clearly that also $\tilde F$ is a weak homotopy equivalence.  
+assumption, it follows clearly that also $\tilde F$ is a weak homotopy equivalence.
 
 Since $\tilde F$ is a morphism between disjoint unions of delooping groupoids, the statement follows now with lemma \ref{DeloopingGroupoidEquivalence}.
 
