@@ -175,7 +175,7 @@ More generally:
 
 +-- {: .num_example #CompactlySupportedPolynomialLocalDensities}
 ###### Example
-**(compactly supported polynomial local densities are microcausal)**
+**(polynomial [[local observables]] are microcausal)**
 
 Write
 
@@ -194,7 +194,7 @@ $$
 $$
 
 for the subspace of [[horizontal differential forms]] of degree $d$ on the [[jet bundle]] ([[local Lagrangian densities]])
-of those which are [[compact support|compactly supported]] with respect to $\Sigma$ and [[polynomial]] with respect to the 
+of those which are [[compact support|compactly supported]] with respect to $\Sigma$ ([[local observables]]) and [[polynomial]] with respect to the 
 field variables.
 
 Every $L \in \mathcal{F}_{loc}$ induces a functional
