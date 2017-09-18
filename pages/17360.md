@@ -1,0 +1,22 @@
+# Contents
+* table of contents
+{: toc}
+
+## Definition
+
+We shall make use of the notation of [[cubical set]], and the notation which that page makes use of.
+
++-- {: .num_defn}
+###### Definition
+
+A [[cubical set]] $X$ is a _Kan complex_ if, for every integer $n \geq 1$ and every morphism $f : \sqcap^{n} \rightarrow X$ of cubical sets, there is, for every integer $1 \leq i \leq n$ and every integer $0 \leq \epsilon \leq 1$, a morphism $g : \square^{n} \rightarrow X$ of cubical sets such that the following diagram in $\mathsf{Set}^{\square^{op}}$ commutes. 
+
+$$
+   \array{
+      \sqcap^{n}                         &                                            & \\
+      i_{i,\epsilon} \downarrow  & \overset{f}{\searrow}    & \\
+      \square^{n}                        & \underset{g}{\rightarrow} & X
+   }
+$$
+
+=--
