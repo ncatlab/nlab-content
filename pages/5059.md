@@ -842,6 +842,8 @@ Discussion of [[T-duality]] for the Green-Schwarz string is in
 
 * [[Mirjam Cvetic]], H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], _T-Duality in the Green-Schwarz Formalism, and the Massless/Massive IIA Duality Map_, Nucl.Phys.B573:149-176,2000 ([arXiv:hep-th/9907202](https://arxiv.org/abs/hep-th/9907202))
 
+* Bogdan Kulik, Radu Roiban, _T-duality of the Green-Schwarz superstring_, JHEP 0209 (2002) 007 ([arXiv:hep-th/0012010](https://arxiv.org/abs/hep-th/0012010))
+
 * {#BandosJulia03} [[Igor Bandos]], [[Bernard Julia]], _Superfield T-duality rules_, JHEP 0308 (2003) 032 ([arXiv:hep-th/0303075](https://arxiv.org/abs/hep-th/0303075))
 
   reviewed in _Superfield T-duality rules in ten dimensions with one isometry_ ([arXiv:hep-th/0312299](https://arxiv.org/abs/hep-th/0312299))
