@@ -119,6 +119,22 @@ A __[[logarithm]]__ is a [[local section]] of an exponential map.
 
 * [[exponential modality]]
 
+## References
+
+* wikipedia [exponential map (Lie theory)](https://en.wikipedia.org/wiki/Exponential_map_%28Lie_theory%29), [derivative of the exponential map](https://en.wikipedia.org/wiki/Derivative_of_the_exponential_map)
+
+An extensive treatment for the general exponential map for an affine connection, for exponential map for Riemannian manifolds and the one for Lie groups is
+
+* Sigurdur Helgason, Differential geometry, Lie groups and symmetric spaces
+
+Specifically for Lie groups, a different detailed treatment of the exponential map is in 
+
+* [[M M Postnikov]], _Lie groups and Lie algebras_, Geometry V
+
+Some nice historical notes are in
+
+* Wilfried Schmid, _Poincare and Lie groups_, Bull. Amer. Math. Soc. 6:2, 1982 [pdf](http://www.ams.org/journals/bull/1982-06-02/S0273-0979-1982-14972-2/S0273-0979-1982-14972-2.pdf)
+
 [[!redirects exponential map]]
 [[!redirects exponential maps]]
 [[!redirects exponential function]]
