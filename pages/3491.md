@@ -445,10 +445,12 @@ $$
 
 ## References
 
-chapter 2 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-* {#AyalaFrancis} [[David Ayala]] and [[John Francis]], _Fibrations of ∞-categories_, [arxiv](https://arxiv.org/abs/1702.02681)
+* [[Jacob Lurie]], chapter 2 of  _[[Higher Topos Theory]]_
+* {#AyalaFrancis} [[David Ayala]] and [[John Francis]], _Fibrations of ∞-categories_, ([arxiv:1702.02681](https://arxiv.org/abs/1702.02681))
+* [[Clark Barwick]], [[Jay Shah]], _Fibrations in ∞-category theory_, ([arXiv:1607.04343](https://arxiv.org/abs/1607.04343))
+
+
 
 
 [[!redirects fibration of quasi-categories]]
