@@ -1,0 +1,8 @@
+## Definition
+
+A **dense subtopos** is a [[subtopos]] whose corresponding [[Lawvere-Tierney topology]] $j$ satisfies $j(0)=0$.
+
+## Related pages
+
+* [[(dense,closed)-factorization]]
+* [[double negation]]
