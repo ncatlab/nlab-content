@@ -1,5 +1,3 @@
-[[!redirects dagger-category]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -10,7 +8,7 @@
 =--
 =--
 
-# $\dagger$-categories
+# $\dagger$ categories
 * tic
 {: toc}
 
@@ -352,7 +350,7 @@ Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modu
 * Bojko Bakalov and Alexander Kirillov, Jr., _Lectures on Tensor Categories and Modular Functors_, American Mathematical Society, Providence, Rhode Island, 2001.
 ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
 
-
+[[!redirects dagger-category]]
 [[!redirects dagger-categories]]
 [[!redirects dagger categories]]
 [[!redirects †-category]]
