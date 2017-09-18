@@ -15,12 +15,12 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
-A path space object is an [[internalisation]] of a [[path space]].
+A _path space object_ in [[homotopy theory]] is an object that behaves for many purposes as the [[topology|topological]] [[path space]] in [[topological homotopy theory]].
 
 
 ## Definition
