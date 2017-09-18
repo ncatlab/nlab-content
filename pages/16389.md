@@ -40,3 +40,8 @@ All the standard introductory texts on [[string theory]] have sections devoted t
 
 * [[Michael Green]], [[John Schwarz]], [[Edward Witten]], section 5.2.1 of _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
 
+
+[[!redirects light cone gauge quantization]]
+
+[[!redirects light-cone gauge]]
+[[!redirects light cone gauge]]
