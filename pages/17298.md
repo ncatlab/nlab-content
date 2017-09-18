@@ -572,10 +572,16 @@ For any of the four categories in remark \ref{TheStrictModelStructuresOnDiagramS
 
 ([MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
 
+
+
 +-- {: .num_prop #StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences}
 ###### Proposition
 
-A stable equivalence (def. \ref{StableEquivalencesForDiagramSpectra}) between Omega spectra (def. \ref{StableEquivalencesForDiagramSpectra}) is in particular a weak equivalence in the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}).
+The weak equivalences in the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}) and the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra} are related as follows:
+
+1. Every weak equivalence with respect to the strict model structure is a stable equivalence.
+
+1. Every stable equivalence between Omega-spectra (def. \ref{StableEquivalencesForDiagramSpectra}) is a weak equivalence in the strict model structure.
 
 =--
 
@@ -584,7 +590,9 @@ A stable equivalence (def. \ref{StableEquivalencesForDiagramSpectra}) between Om
 +-- {: .proof}
 ###### Proof
 
-If $f \colon X \to Y$ is a stable equivalence, then by assumption and by definition, in particular
+The first statement follows by def. \ref{StableEquivalencesForDiagramSpectra} since weak equivalences become isomorphisms in the [[homotopy category]].
+
+For the second statement, let $f \colon X \to Y$ be a stable equivalence. Then by assumption and by definition, in particular
 
 $$
   [f,X]_{strict} \;\colon\; [Y,X]_{strict} \longrightarrow [X,X]_{strict}
@@ -655,7 +663,7 @@ $$
  {#ProofOfTheStableModelStructure}
 
 
-We here spell out the proof of the existence of the stable model structure on $\mathbb{S}_{dia}Mod$ in theorem \ref{StableModelStructuresOnDiagramSpectra}.
+We here spell out the proof ([below](#StableModelStructureOnDiagramSpectraProof)) of the existence of the stable model structure on $\mathbb{S}_{dia}Mod$ in theorem \ref{StableModelStructuresOnDiagramSpectra}.
 
 The generating cofibrations and acylic cofibrations are going to be the those induced via [[tensoring]] of representables from the [[classical model structure on topological spaces]] (giving the strict model structure), together with an additional set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
 
@@ -854,9 +862,7 @@ Every element in $K$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDia
 +-- {: .proof}
 ###### Proof 
 
-First regarding strict cofibrations:
-
-By Yoneda, the elements in $F J$ have [[right lifting property]] against the strict fibrations, hence in particular they are strict cofibrations. Moreover, by [[Joyal-Tierney calculus]], $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^i$. By $\mathbb{S}_{dia} Mod_{strict}$ being a $Top$-[[enriched model category]] the latter is still a strict acyclic fibration. Since $k_n$ by construction is a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
+First regarding strict cofibrations: By the [[Yoneda lemma]], the elements in $F J$ have [[right lifting property]] against the strict fibrations, hence in particular they are strict cofibrations. Moreover, by [[Joyal-Tierney calculus]], $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^i$. By $\mathbb{S}_{dia} Mod_{strict}$ being a $Top$-[[enriched model category]] the latter is still a strict acyclic fibration. Since $k_n$ by construction is a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
 
 Regarding stable equivalences: The morphisms in $F J$ by design are strict weak equivalences, hence they are in particular stable equivalences. Similarly, the morphisms $k_n$ by construction, by [[two-out-of-three]] and by remark \ref{CorepresentingForAdjunctOfStructureMapsAreStableEquivalences} are stable equivalences. Hence the derived hom (...expand...) out of $k_n \Box i_+$ is the homotopy pullback of a weak equivalence, hence is a weak equivalence, hence on the homotopy category an iso.
 
@@ -902,7 +908,7 @@ A morphism in $\mathbb{S}_{dia}Mod$ which is both
 
 1. a $K$-[[injective morphisms]] (with respect to $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) 
 
-is also a weak equivalence and fibration in the stric model structure, def. \ref{StrictModelStructureOnDiagramSpectra}, hence is degreewise a [[weak homotopy equivalence]] and [[Serre fibration]] of topological spaces;
+is an acyclic fibration in the stric model structure, def. \ref{StrictModelStructureOnDiagramSpectra}, hence is degreewise a [[weak homotopy equivalence]] and [[Serre fibration]] of topological spaces;
 
 =--
 
@@ -919,7 +925,7 @@ To infer from this the remaining case that also $\pi_0(f_0)$ is an isomorphism, 
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations}
 ###### Lemma
 
 For $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}  the [[retracts]] of $K$-[[relative cell complexes]] are precisely the morphisms which are
@@ -943,15 +949,54 @@ In the other direction, if $f$ is a stable equivalence and strict cofibration, b
 
 =--
 
-+-- {: .proof #StableModelStructureOnDiagramSpectraProof}
-###### Proof
-(of theorem \ref{StableModelStructuresOnDiagramSpectra}
++-- {: .num_cor #KInjectivesAreIndeedTheStableFibrations}
+###### Corollary
 
-spring
+For $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}  the $K$-[[injective morphisms]]
+are precisely those which are
+[[injective morphism|injective]] with respect to the cofibrations of the strict model structure that are also stable equivalences.
 
 =--
 
-(...)
+([MMSS 00, prop. 9.9 (ii)](#MMSS00)) 
+
+
++-- {: .num_lemma #StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations}
+###### Lemma
+
+A morphism in $\mathbb{S}_{dia}Mod$ is both
+
+1. a stable equivalence (def. \ref{StableEquivalencesForDiagramSpectra})
+
+1. [[injective morphism|injective]] with respect to the cofibrations of the strict model structure that are also stable equivalences;
+
+precisely if it is an acylic fibration in the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}).
+
+=--
+
+([MMSS 00, prop. 9.9 (iii)](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+Every acyclic fibration in the strict model structure in injective with respect to to strict cofibrations by the strict model structure; and it is a stable equivalence by item 1 of prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences}.
+
+Conversely, a morphism injective with respect to stricts cofibrations that are stable equivalences is a $K$-[[injective morphism]] by corollary \ref{KInjectivesAreIndeedTheStableFibrations}, and hence if it is also a stable equivalence then by lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} it is a strict acylic fibration.
+
+=--
+
++-- {: .proof #StableModelStructureOnDiagramSpectraProof}
+###### Proof
+(of theorem \ref{StableModelStructuresOnDiagramSpectra})
+
+The non-trivial points to check are the two [[weak factorization systems]].
+
+That $(cof_{stable}\cap weq_{stable} \;,\; fib_{stable})$ is a weak factorization system follows from lemma \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations} and the [[small object argument]]. 
+
+By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the stable acyclic fibrations are equivalently the strict acyclic fibrations and hence the weak factorization system $(cof_{stable} \;,\; fib_{stable} \cap we_{stable})$ is identified with that of the strict model structure $(cof_{strict} \;,\; fib_{strict} \cap we_{strict})$.
+
+=--
+
 
 #### Relating stable equivalences and stable weak homotopy equivalences
  {#RelatingStableEquivalencesAndStableWeakHomotopyEquivalences}
