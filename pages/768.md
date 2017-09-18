@@ -103,6 +103,15 @@ $$
 
 where the [[action]] of $O(k-n)$ is via its canonical embedding $O(k-n)\hookrightarrow O(k)$.
 
+Similarly the $n$th **complex Stiefel manifold** of $\mathbb{C}^k$ is
+
+$$
+  V_n(\mathbb{C}^k) \coloneqq U(k)/U(k-n)
+  \,,
+$$
+
+here the [[action]] of $U(k-n)$ is via its canonical embedding $U(k-n)\hookrightarrow U(k)$.
+
 =--
 
 +-- {: .num_defn #RealAndComplexGrassmannian}
@@ -132,9 +141,9 @@ where the [[action]] of the [[product group]] is via its canonical embedding $U(
 +-- {: .num_example}
 ###### Example
 
-* $G_1(\mathbb{R}^{n+1}) \simeq \mathbb{R}P^n$ is [[real projective space]] of [[dimension]] $n$.
+* $Gr_1(\mathbb{R}^{n+1}) \simeq \mathbb{R}P^n$ is [[real projective space]] of [[dimension]] $n$.
 
-* $G_1(\mathbb{C}^{n+1}) \simeq \mathbb{C}P^n$ is [[complex projective space]] of [[dimension]] $n$.
+* $Gr_1(\mathbb{C}^{n+1}) \simeq \mathbb{C}P^n$ is [[complex projective space]] of [[dimension]] $n$.
 
 
 =--
@@ -143,7 +152,7 @@ where the [[action]] of the [[product group]] is via its canonical embedding $U(
 +-- {: .num_prop #ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}
 ###### Proposition
 
-For all $n \leq k \in \mathbb{N}$, the canonical [[projection]] from the [[Stiefel manifold]] (def. \ref{StiefelManifold}) to the [[Grassmannian]] is a $O(n)$-[[principal bundle]]
+For all $n \leq k \in \mathbb{N}$, the canonical [[projection]] from the real [[Stiefel manifold]] (def. \ref{StiefelManifold}) to the [[Grassmannian]] is a $O(n)$-[[principal bundle]]
 
 $$
   \array{
@@ -153,31 +162,86 @@ $$
     \\
     && Gr_n(\mathbb{R}^k)
   }
-  \,.
+$$
+
+and the projection from the complex Stiefel manifold to the Grassmannian us a $U(n)$-principal bundle.
+
+$$
+  \array{
+    U(n) &\hookrightarrow& V_n(\mathbb{C}^k)
+    \\
+    && \downarrow 
+    \\
+    && Gr_n(\mathbb{C}^k)
+  }
 $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
 By ([this cor.](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) and [this prop.](coset#ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup)).
+
+=--
  
 +-- {: .num_defn #EOn}
 ###### Definition
 
-By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions $Gr_n(\mathbb{R}^k) \hookrightarrow Gr_n(\mathbb{R}^{k+1})$. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions)) over these inclusions is denoted
+By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions 
+
+$$
+  Gr_n(\mathbb{R}^k) \hookrightarrow Gr_n(\mathbb{R}^{k+1})
+$$ 
+
+and
+
+$$
+  Gr_n(\mathbb{C}^k) \hookrightarrow Gr_n(\mathbb{C}^{k+1})
+$$ 
+
+for all $k \in \mathbb{N}$. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions)) over these inclusions is denoted
 
 $$
   B O(n) \coloneqq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
-  \,.
 $$
 
-By def. \ref{StiefelManifold} there are canonical inclusions $V_n(k) \hookrightarrow V_n(k+1)$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions)) over these inclusions, regarded as equipped with the induced $O(n)$-[[action]], is denoted
+and
+
+$$
+  B U(n) \coloneqq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{C}^k)
+  \,,
+$$
+
+respectively.
+
+Moreover, by def. \ref{StiefelManifold} there are canonical inclusions 
+
+$$
+   V_n(\mathbb{R}^k) \hookrightarrow V_n(mathbb{R}^{k+1})
+$$ 
+
+and
+
+$$
+  V_n(\mathbb{C}^k) \hookrightarrow V_n(mathbb{C}^{k+1})
+  \,,
+$$ 
+
+respectively, that are compatible with the $O(n)$-[[action]] and the $U(n)$-action, respectively. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions)) over these inclusions, regarded as equipped with the induced [[action]], is denoted
 
 $$
   E O(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(\mathbb{R}^k)
-  \,.
 $$
 
-The inclusions are in fact compatible with the bundle structure from prop. \ref{ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}, so that there is an induced projection
+and
+
+$$
+  E U(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(\mathbb{C}^k)
+  \,,
+$$
+
+respectively. The inclusions are in fact compatible with the bundle structure from prop. \ref{ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}, so that there are induced projections
 
 $$
   \left(
@@ -202,12 +266,42 @@ $$
        Gr_n(\mathbb{R}^k)
     }
   \right)
-  \,.
 $$
+
+and
+
+$$
+  \left(
+  \array{
+    E U(n)
+    \\
+    \downarrow
+    \\
+    B U(n) 
+  }
+  \right)
+  \;\;
+   \simeq
+  \;\;
+  \underset{\longrightarrow}{\lim}_k
+  \left(
+    \array{
+       V_n(\mathbb{C}^k)
+       \\
+       \downarrow
+       \\
+       Gr_n(\mathbb{C}^k)
+    }
+  \right)
+  \,,
+$$
+
+respectively.
+
 
 =--
 
-Since the [[Cartesian product]] $O(n)\times (-)$ in [[compactly generated topological spaces]] preserves colimits, it follows that the colimiting bundle is still an $O(n)$-[[principal bundle]]
+Since the [[Cartesian product]] $O(n)\times (-)$ in [[compactly generated topological spaces]] preserves [[colimits]], it follows that the colimiting bundle is still an $O(n)$-[[principal bundle]]
 
 $$
   \begin{aligned} 
@@ -224,10 +318,12 @@ $$
     \\
     & \simeq B O(n)
   \end{aligned}
-  \,.
 $$
 
+and anlogously for $E U(n)$.
+
 As such this is the standard presentation for the $O(n)$-[[universal principal bundle]]. Its base space $B O(n)$ is the corresponding _classifying space_.
+
 
 #### Properties
 
@@ -242,14 +338,17 @@ $$
   Gr_n(\mathbb{R}^{k+1})
 $$
 
-are subcomplex incusion (hence [[relative cell complex]] inclusions).
-
-Accordingly there is an induced CW-complex structure on the [[classifying space]] (def. \ref{EOn}).
+and
 
 $$
-  B O(n) \simeq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
-  \,.
+  Gr_n(\mathbb{C}^k)
+  \hookrightarrow
+  Gr_n(\mathbb{C}^{k+1})
 $$
+
+are subcomplex incusions (hence [[relative cell complex]] inclusions).
+
+Accordingly there is an induced CW-complex structure on the [[classifying spaces]] $B O(n)$ and $B U(n)$ (def. \ref{EOn}).
 
 =--
 
