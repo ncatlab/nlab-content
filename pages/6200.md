@@ -52,6 +52,8 @@ The [[fan theorem]] states precisely that $\mathbb{J}$ (when thought of as a [[t
 
 ## Continued fractions
 
+(Main article: [[continued fraction]].) 
+
 Let $[a_0;a_1,a_2,a_3,\ldots]$ be an [[infinite sequence]] of [[integers]], all positive except (possibly) $a_0$.  We interpret this as the number
 $$ a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \cdots}}} .$$
 By truncating this expression after $a_i$, we produce a rational number; altogether, this is an infinite sequence of rational numbers.
