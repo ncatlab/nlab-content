@@ -115,12 +115,14 @@ We state an explicit component-based definition of diagrams of the shape of cate
 ###### Definition
 **([[diagram]] in a [[category]])**
 
-A [[diagram]] $X_\bullet$ in a [[category] is
+A [[diagram]] $X_\bullet$ in a [[category]] is
 
 1. a [[set]] $\{ X_i \}_{i \in I}$ of [[objects]] in the category;
 
 1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
    $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects;
+
+1. for every label $i \in I$ a choice of element $\epsilon_i \in I_{i,i}$;
   
 1. for each [[triple]] $i,j,k \in I$ a [[function]]
 
@@ -130,9 +132,9 @@ A [[diagram]] $X_\bullet$ in a [[category] is
  
 such that 
 
-1. for every $i \in I$ the [[identity morphisms]] $id_{X_i} \colon X_i \to X_i$ is part of the diagram;
+1. the pairing $comp$ is [[associativity|associative]] and [[unital]] with the $f_{\epsilon_i}$-s the [[neutral elements]];
 
-1. $comp$ is [[associativity|associative]] and [[unital]] in the evident sense,
+1. for every $i \in I$ then $f_{\epsilon_i} = id_{X_i}$ is the [[identity morphism]] on the $i$-th obect;
 
 1. for every composable pair of morphisms 
 
