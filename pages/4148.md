@@ -1,5 +1,5 @@
 ##Idea
-An important aspect of [[group theory]] is the study of [[normal subgroups]]. A **protomodular** category, even a non-pointed one, is defined in such a way that it possesses an intrinsic notion of normal subobject. The concept is due to [[Dominique Bourn]] and as such sometimes referred to as _Bourn_-protomodular.
+An important aspect of [[group theory]] is the study of [[normal subgroups]]. A **protomodular** category, even a non-pointed one, is defined in such a way that it possesses an intrinsic notion of [[normal subobject]]. The concept is due to [[Dominique Bourn]] and as such sometimes referred to as _Bourn_-protomodularity.
 
 ##Definition 
 
@@ -10,14 +10,14 @@ Consider any finitely complete category $\mathcal{C}$ and denote by $Pt\mathcal{
 Any map $f: X \to Y$ induces, by pullbacks, a change of base functor denoted
 $f^{\ast}: Pt_Y \mathcal{C} \to Pt_X \mathcal{C}$ between the fibres above $Y$ and $X$.
 
-Then a left exact category $\mathcal{C}$ is said to be **protomodular** when the fibration $\pi$ has its change of base functors conservative, i.e. reflecting the isomorphisms. A protomodular category is necessarily [[Mal'cev category|Mal'cev]].
+Then a left exact category $\mathcal{C}$ is said to be **protomodular** when the fibration $\pi$ has [[conservative functor|conservative]] change of base functors, i.e., reflecting the isomorphisms. A protomodular category is necessarily [[Mal'cev category|Mal'cev]].
 
 ## Examples
 
 *  Certain categories of algebraic varieties, such as the category of groups, the category of rings, the category of associative or Lie algebras over a given ring $A$, the category of Heyting algebras, the varieties of $\Omega$-[[Omega-groups|groups]]. (It is shown in [Bourn-Janelidze](#BournJan03) that  a variety $V$ of universal algebras is protomodular if and only if it has $0$-ary terms $e_1, \ldots ,e_n$, binary terms $t_1,\ldots,t_n$, and $(n+1)$-ary term $t$ satisfying
 the identities $t(x, t_1(x, y),\ldots,t_n(x, y)) = y$ and $t_i(x, x) = e_i$ for each $i = 1,\ldots,n$.)
 
-* Categories of algebraic varieties as above internal to a left exact category, for example, [[TopGrp]].
+* Categories of algebraic varieties as above [[internal category|internal]] to a left exact category, for example, [[TopGrp]].
 
 *  Constructions which inherit the property of being protomodular, such as the slice categories $\mathcal{C}/Z$ and the fibres $Pt_Z \mathcal{C}$ of the fibration $\pi$ of pointed objects for instance, or more generally the domain $\mathcal{C}$ of any pullback preserving and conservative functor $U : \mathcal{C} \to \mathcal{D}$; when its codomain $\mathcal{D}$ is protomodular.
 
