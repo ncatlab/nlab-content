@@ -19,3 +19,5 @@
   * [Integrating Lie algebroids](https://ncatlab.org/nlab/show/Lie+integration#integrating_lie_algebroids_to_stacky_lie_groupoids)
 
 * ####Introduction on stack theory####
+
+  * [[sheaf]]
