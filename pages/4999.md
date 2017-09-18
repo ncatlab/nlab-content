@@ -271,11 +271,8 @@ General texts on modal logics include
 
 A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[type formation rules]] is in 
 
-* {#Pfenning-Davies} [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+* {#Pfenning-Davies} [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_, Mathematical Structures in Comp. Sci., 11(4):511{540, August 2001. (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
  
-
-
-
 
 A discussion of  coalgebraic modal logic and of general modal logic in terms of [[coalgebra]] and the [[terminal coalgebra of an endofunctor]] is in 
 
