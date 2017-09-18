@@ -109,6 +109,12 @@ Double negation translation for a formula, $\phi$, of a [[first-order language]]
 The basic idea here is that any [[topos]] $E$ gives rise to a [[Boolean topos]] $E_{\neg\neg}$.
 
 
+## References
+
+Informal exposition of a tiny aspect of this double negation business is in 
+
+* [[Andrej Bauer]], _[Intuitionistic mathematics for physics](http://math.andrej.com/2008/08/13/intuitionistic-mathematics-for-physics/)_, 2008
+
 [[!redirects double negation translation]]
 [[!redirects double negation translations]]
 [[!redirects double-negation translation]]
