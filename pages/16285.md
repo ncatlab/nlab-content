@@ -19,6 +19,8 @@ This page collecs material related to
 
   ([English hypertext version](https://www.marxists.org/reference/archive/hegel/works/re/index.htm))
 
+In the _[[Encyclopedia of the Philosophical Sciences]]_ this material roughly corresponds to the third part, third section, b and c.
+
 #Contents#
 * table of contents
 {:toc}
