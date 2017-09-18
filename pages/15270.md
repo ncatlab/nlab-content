@@ -27,6 +27,8 @@ A long list of mathematical structures happens to have a classification that is 
 
 * [[simple singularities]] (see [[ADE singularity]])
 
+* [[singularities]] of [[elliptic fibrations]] (see there are _[classification of singular fibers](elliptic+fibration#ClassificationOfSingularFibers)_)
+
 * certain 4d [[ALE spaces]] ([Kronheimer 89](#Kronheimer89))
 
 * certain [[2d CFTs]]
