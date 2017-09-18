@@ -65,12 +65,12 @@ Again, we assume the ultrafilter principle but do not assume the [[axiom of choi
 
 +-- {: .num_cor} 
 ###### Corollary 
-If $p: F \to \mathbb{N}$ is [[surjection|surjective]] and every [[fiber]] is finite, then $p$ has a section $s$. 
+If $p: F \to X$ is [[surjection|surjective]] and every [[fiber]] is finite, then $p$ has a section $s$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Using Proposition \ref{total} to totally order $F$, each fiber inherits a total order that is a [[well-ordered set|well-order]] by finiteness, and we can choose $s(n)$ to be the least element in the fiber $F_n$ by nonemptiness. 
+Using Proposition \ref{total} to totally order $F$, each fiber inherits a total order that is a [[well-ordered set|well-order]] by finiteness, and we can choose $s(x)$ for $x \in X$ to be the least element in the fiber $F_x$ by nonemptiness. 
 =-- 
 
 +-- {: .num_prop #countable} 
