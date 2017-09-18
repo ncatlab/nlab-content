@@ -1,15 +1,40 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An _asymptotic series_ is a [[formal power series]] that may not [[convergence|converge]], but whose terms decrease fast enough such that the truncation of the series at any finite order still provides a controled approximation to a given [[function]]. 
+### General
 
-The concept of asymptotic expansions plays a key role in the interpretation of [[perturbative quantum field theory]]: This computes [[quantum observables]] as [[formal power series]] (in the [[coupling constant]] and in [[Planck's constant]]) whose [[radius of convergence]] necessarily vanishes in all cases of interest ([Dyson 52](#Dyson52)). Nevertheless, for [[quantum electrodynamics]] and [[quantum chromodynamics]] as in the [[standard model of particle physics]], the truncation of these series to the first handful of terms happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision. Therefore one interprets the [[scattering matrix]] in [[perturbative quantum field theory]] as an asymptotic series. 
+An _asymptotic series_ is a [[formal power series]] that may not [[convergence|converge]], but whose terms decrease fast enough such that the truncation of the series at any finite order still provides a controled approximation to a given [[function]].  
+
+A key class of examples of asymptotic series are [[Taylor series]] of [[smooth functions]] (example \ref{TaylorSeriesOfSmoothFunctionIsAsymptoticSeries} below) around any point.
 
 In [[resurgence theory]] one tries to re-identify from an asymptotic series the corresponding [[analytic function|non-analytic]] contributions.
+
+
+### In perturbative quantum field theory
+
+The concept of asymptotic expansions plays a key role in the interpretation of [[perturbative quantum field theory]] (pQFT): This computes [[quantum observables]] as [[formal power series]] (in the [[coupling constant]] and in [[Planck's constant]]) whose [[radius of convergence]] necessarily vanishes in cases of interest ([Dyson 52](#Dyson52)). 
+
+Nevertheless, for examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]] as in the [[standard model of particle physics]], the truncation of these series to the first handful of [[loop orders]]  happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least good precision (for [[QCD]]). Therefore one interprets the [[scattering matrix]] in [[perturbative quantum field theory]] as an asymptotic series. 
+
+By example \ref{TaylorSeriesOfSmoothFunctionIsAsymptoticSeries} this makes sense if one assumes that [[pQFT]] computes the [[Taylor series]] expansion of the observables of a [[non-perturbative quantum field theory]] around the point where the [[Planck constant]]/[[coupling constant]] vanishes.
+
+With [[resurgence theory]] one may try to deduce from the asymptotic [[Feynman perturbation series]] the hidden [[non-perturbative effects]].
 
 ## Definition
 
@@ -20,11 +45,15 @@ Given a [[function]] $f \colon \mathbb{R} \to \mathbb{R}$, a [[formal power seri
 **asymptotic expansion** of $f$ at $x = 0$ if for each $n \in \mathbb{N}$ the [[limit of a sequence|limit]] of the difference between $f$ and the [[sum]] of the first $n$ terms of the series divided by $x^n$ is zero as $x$ tends to 0:
 
 $$
-  \underset{x \to 0}{\lim} \; \frac{1}{x^n}
-  \left(
-    f(x)  - \sum_{k = 0}^n a_k x^k
+  \underset{x \to 0}{\lim} 
+  \left( 
+    \frac{1}{x^n}
+    \left(
+      f(x)  - \sum_{k = 0}^n a_k x^k
+    \right)
   \right)
-  = 0
+  \;=\; 
+  0
   \,.
 $$
 
@@ -40,10 +69,74 @@ This definition makes makes no statement about the behaviour as $n \to \infty$. 
 
 ## Examples
 
-+-- {: .num_example}
++-- {: .num_example #TaylorSeriesOfSmoothFunctionIsAsymptoticSeries}
 ###### Example
+**([[Taylor series]] of [[smooth function]] is asymptotic series)**
 
-The [[Taylor series]] of a [[smooth function]] at any point is always an [[asymptotic series]], regardless of whether its [[radius of convergence]] vanishes or not.
+The [[Taylor series]] of a [[smooth function]] $f \colon \mathbb{R} \to \mathbb{R}$ at any point is always an [[asymptotic series]], regardless of whether its [[radius of convergence]] vanishes or not.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from the [[Hadamard lemma]], which says that for each $n \in \mathbb{N}$ and each expansion point $x_0 \in \mathbb{R}$ (which we may without restrict of generality assume to be $x_0 = 0$) there exists a smooth function $h_n \colon \mathbb{R} \to \mathbb{R}$ such that 
+
+$$
+  f(x) = f(0) + x f^{(0)}(0) + \frac{1}{2} x^2 f^{(2)}(0) 
+  + \cdots +
+  \frac{1}{n!} x^n f^{n}(0)
+  + 
+ \frac{1}{(n+1)!} x^{n+1} h_n(x)
+  \,,
+$$
+
+where $f^{(k)} \colon \mathbb{R} \to \mathbb{R}$ denotes the $k$th [[derivative]] of $f$.
+
+Therefore with 
+
+$$
+  (a_k)_{k \in \mathbb{N}}
+  \coloneqq
+  \left(
+    \frac{1}{k!} f^{(k)}(0)
+  \right)_{k \in \mathbb{N}}
+$$
+
+the [[coefficients]] of the [[Taylor series]] of $f$ at $x_0 = 0$, we have
+
+$$
+  \begin{aligned}
+    \underset{x \to 0}{\lim}
+    \left(  
+      \frac{1}{x^n}
+      \left(
+        f(x)  - \sum_{k = 0}^n  a_k x^k
+      \right)
+    \right)
+    & =
+    \underset{x \to 0}{\lim} 
+    \left( 
+      \frac{1}{x^n}
+      \left(
+        \frac{1}{(n+1)!} x^{n+1} h_n(x)
+      \right)   
+    \right)
+    \\
+    & = 
+    \underset{x \to 0}{\lim} 
+    \left(
+      x \frac{1}{(n+1)!} h_n(x)
+    \right)   
+    \\
+    & = 
+    0 \cdot \frac{1}{(n+1)!} h_n(0)
+    \\
+    & = 0
+  \end{aligned}
+  \,.
+$$
+
 
 =--
 
@@ -68,13 +161,19 @@ Basic introductions include
 
 * R. Shankar Subramanian, _An Introduction to Asymptotic Expansions_ ([pdf](http://web2.clarkson.edu/projects/subramanian/ch527/supplem/asympt.pdf))
 
-The argument that the [[S-matrix]] formal power series in all [[perturbative quantum field theories]] of interest is necessatily divergent is due to
+The argument that the [[S-matrix]] formal power series in all [[perturbative quantum field theories]] of interest is necessarily divergent (and hence at best an asymptotic series) is due to
 
 
 * {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum
 electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
 
-  **Abstract**: _An argument is presented which leads tentatively to the conclusion that all the power-series expansions currently in use in quantum electrodynamics are divergent after the renormalization of mass and charge. The divergence in no way restricts the accuracy of practical calculations that can be made with the theory, but raises important questions of principle concerning the nature of the physical concepts upon which the theory is built._
+recalled for instance in
+
+* {#Suslov05} [[Igor Suslov]], section 1 of _Divergent perturbation series_, Zh.Eksp.Teor.Fiz. 127 (2005) 1350; J.Exp.Theor.Phys. 100 (2005) 1188 ([arXiv:hep-ph/0510142](https://arxiv.org/abs/hep-ph/0510142))
+
+* Justin Bond, last section of _Perturbative QFT is Asymptotic; is Divergent; is Problematic in Principle_ ([pdf](https://mcgreevy.physics.ucsd.edu/s13/final-papers/2013S-215C-Bond-Justin.pdf))
+
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
 
 [[!redirects asymptotic expansion]]
