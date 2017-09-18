@@ -10,7 +10,7 @@ For many notions of [[structure]], particularly for [[topological concrete categ
 +-- {: .num_remark #basevsbasis}
 ###### Warning
 
-Sometimes one says '[[basis]]' instead of 'base', but I think that it\'s safest to save the former term for the generating set of a [[free object]] (or an analogous situation), especially in an [[algebraic category]].  Although a basis and a base can both generate something, they tend to do so in very different ways.  (It doesn\'t help that 'bases' is the plural of both, although the pronunciation is different.)
+Sometimes one says '[[basis]]' instead of 'base', but I ([[Toby Bartels]]) think that it\'s safest to save the former term for the generating set of a [[free object]] (or an analogous situation), especially in an [[algebraic category]].  Although a basis and a base can both generate something, they tend to do so in very different ways.  (It doesn\'t help that 'bases' is the plural of both, although the pronunciation is different.)
 =--
 
 Typically, every structure of an appropriate type is both a base and a subbase for itself, while every base is a subbase.  Bases and subbases can also be characterised independently; every subbase generates a base (which tends to be _saturated_ in some way), while every base (saturated or not) generates a complete structure.
