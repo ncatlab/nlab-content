@@ -1,11 +1,49 @@
-*  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
 
++-- {: .num_remark #CoLimitsInNiceTopologicalSpaces}
+###### Remark
 
-   In terms of arrows,  the following map is well-defined: 
-   $S_{F,G}: S \longrightarrow  \{F,G,x\}$ such that 
+**(limits and colimits in categories of [[nice topological spaces]])**
 
-   $S_{F,G}{x)=F$ for $x \in F$, $S_{F,G}{x)=G$ for $x \in G$, 
-   and $S_{F,G}{x)=x$ for $x \notin F\cup G$.
+Recall from remark \ref{ReflectiveSubcategory} the concept of [[adjoint functors]]
 
+$$
+  L \colon \mathcal{C} \leftrightarrow \mathcal{D} \colon R
+$$
 
-$S_{F,G}(x)=F$ for $x \in F$, $S_{F,G}(x)=G$ for $x \in G$, 
+witnessed by [[natural isomorphisms]]
+
+$$
+  Hom_{\mathcal{D}}(L(c),d)
+    \simeq
+  Hom_{\mathcal{C}}(c,R(d))
+  \,.
+$$
+
+Observe that with prop. \ref{HomFunctorPreservesLimits} it follows that
+
+1. [[left adjoint functors]] preserve [[colimits]]
+
+1. [[right adjoint fucntors]] preserve [[limits]]
+
+This implies that if we have a [[reflective subcategory]] of topological spaces
+
+$$
+  Top_{nice}
+    \underoverset
+      {\underset{\iota}{\hookrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  Top
+$$
+
+(where $Top_{nice}$ is for instance $Top_{T_n}$ for $n \in \{0,1,2\}$ or $Top_{sob}$)
+
+then
+
+1. limits in $Top_{nice}$ are computed as limits in $Top$;
+
+1. colimits in $Top_{nice}$ are computed as the reflection $L$ of the colimit in $Top$.
+
+(...)
+
+=--
