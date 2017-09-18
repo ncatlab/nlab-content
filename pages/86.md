@@ -520,6 +520,8 @@ The [[Schouten bracket]] on $BV(X,\mu)$ makes this cochain complex a [[Poisson 0
 
 =--
 
+For more see at _[[relation between BV and BD]]_.
+
 
 #### The quantum master equation: the path integral measure is a closed form
  {#TheQuantumMasterEquationAsClosureOfIntegralMeasure}
