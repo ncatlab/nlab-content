@@ -77,6 +77,8 @@ Then $f$ is
 
 * [[embedding of topological spaces]]
 
+* [[open map]], [[proper map]]
+
 [[!redirects closed maps]]
 [[!redirects closed mapping]]
 [[!redirects closed mappints]]
