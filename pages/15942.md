@@ -72,7 +72,7 @@ For each session, there will be one-hour long presentation given by the leader/s
 
 | February 23       |    Leader                        |    Topic                   | 
 | ------------- | --------------------| ---------------- |
-| 12:40 - 13:40   |    Xiaoyi Cui                   |                               |
+| 12:40 - 13:40   |    Xiaoyi Cui    | Geometric context for quantum BV formalism                                 |
 | 13:40 - 14:10   |    tea time                                                     ||
 | 14:10 - 15:10   |    Dmitri Pavlov              |                               |
 | 15:10 - 18:00[^1]   |    tea time                                               ||
