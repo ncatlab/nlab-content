@@ -441,14 +441,14 @@ The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have 
 
 Some notation:
 
-* For $\mathbb{K}$ one of the four real [[normed division algebras]], write $(-)^\ast \colon \mathbb{K} \stackrel{\simeq}{\to} \mathbb{K}^{op}$ for the conjugation anti-automorphism. 
+* For $\mathbb{K}$ one of the four real [[normed division algebras]], write $(-)^\ast \colon \mathbb{K} \stackrel{\simeq}{\to} \mathbb{K}^{op}$ for the conjugation anti-automorphism;
 
 * the [[real part]] of an element $a \in \mathbb{K}$ is $Re(a) \coloneqq \tfrac{1}{2} (a + a^\ast)$;
 
-* say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\magthbb{K})$ is a [[hermitian matrix]] if the [[transpose matrix]] equals the conjugated matrix: $A^t = A^\ast$. Hence with $(-)^\dagger \coloneqq ((-)^t)^\ast$ this is $A = A^\dagger$, as usual;
+* say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a [[hermitian matrix]] if the [[transpose matrix]] equals the conjugated matrix: $A^t = A^\ast$. Hence with $(-)^\dagger \coloneqq ((-)^t)^\ast$ this is $A = A^\dagger$, as usual;
 
 
-* write $\tilde A \coloneqq A - (tr A) \mathbb{1}_{n\times n}$ for the matrix minus its [[trace]] times the identity matrix ("trace reversal").
+* write $\tilde A \coloneqq A - (tr A) 1_{n\times n}$ for the matrix minus its [[trace]] times the identity matrix ("trace reversal").
 
 
 #### In dimensions 3,4,6,10
@@ -484,10 +484,11 @@ $$
 +-- {: .num_prop #DeterminantGivesMinkowskiMetric}
 ###### Proposition
 
-The real vector space $V$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} equipped with the [[inner product]] $\eta(-,-)$ given by the [[determinant]] (which on hermitian $\mathbb{K}$-matrices is necessarily [[real part|real]]):
+The real vector space $V$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} equipped with the [[inner product]] $\eta(-,-)$ given by the [[determinant]] (which on hermitian $\mathbb{K}$-matrices is necessarily [[real part|real]])
 
 $$
   \eta(A,A) \coloneqq det(A) \in \mathbb{R}
+  \,,
 $$
 
 and whose mixed components are
