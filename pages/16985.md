@@ -20,7 +20,7 @@
 
 ## Idea
 
-_Spherical T-duality_ ([Bouwknegt-Evslin-Mathai 14](#BouwknegtEvslinMathai14)) is the name given to a variation of [[topological T-duality]] where the [[circle group]] $U(1)$ is replaced by the [[special unitary group]] $SU(2)$. Where topological T-duality relates pairs consisting of total spaces of $U(1)$-[[principal bundles]] equipped with a [[cocycle]] in degree-3 [[ordinary cohomology]], spherical T-duality relates pairs consisting of $SU(2)$-[[principal bundles]] equipped with cocycles in degree-7 cohomology. As for topological T-duality, under suitable conditions spherical T-duality lifts to an isomorphism of [[twisted K-theory]] classes of these bundles with twisting by the 7-class.
+_Spherical T-duality_ ([Bouwknegt-Evslin-Mathai 14a](#BouwknegtEvslinMathai14a)) is the name given to a variation of [[topological T-duality]] where the role of the [[circle]] $S^1$, or the [[circle group]] $U(1)$, is replaced by the [[3-sphere]] $S^3$, or the [[special unitary group]] $SU(2)$. Where topological T-duality relates pairs consisting of total spaces of $U(1)$-[[principal bundles]] equipped with a [[cocycle]] in degree-3 [[ordinary cohomology]], spherical T-duality relates pairs consisting of $SU(2)$-[[principal bundles]] (or just $S^3$-[[fiber bundles]] ([Bouwknegt-Evslin-Mathai 14b](#BouwknegtEvslinMathai14b))) equipped with cocycles in degree-7 cohomology. As for topological T-duality, under suitable conditions spherical T-duality lifts to an isomorphism of [[twisted K-theory]] classes of these bundles with twisting by the 7-class.
 
 
 While [[topological T-duality]] is meant to be a formalization of the [[T-duality]] seen in [[2d CFT]] [[sigma-models]]/[[string theory]], the physical meaning of spherical T-duality, if any, remains unclear at this point, for the moment it takes its motivation from the fact that it is mathematically possible. 
@@ -29,7 +29,9 @@ On the other hand, a special role is played in the theory by those $SU(2)$-princ
 
 ## References
 
-* {#BouwknegtEvslinMathai14} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality_, Commun.Math.Phys.337:909-954,2015 ([arXiv:1405.5844](http://arxiv.org/abs/1405.5844))
+* {#BouwknegtEvslinMathai14a} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality_, Commun.Math.Phys.337:909-954,2015 ([arXiv:1405.5844](http://arxiv.org/abs/1405.5844))
+
+* {#BouwknegtEvslinMathai14b} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-duality II: An infinity of spherical T-duals for non-principal SU(2)-bundles_, J.Geom.Phys.92:46-54, 2015 ([arXiv:1409.1296](http://arxiv.org/abs/1409.1296))
 
 * [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality and the spherical Fourier-Mukai transform_ ([arXiv:1502.04444](http://arxiv.org/abs/1502.04444))
 
