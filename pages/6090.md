@@ -750,11 +750,11 @@ In informal heuristic discussion of [[perturbative quantum field theory]] the S-
 written
 
 $$
-  S(L_{int} + j A)
+  S(\tfrac{g}{\hbar} L_{int} + j A)
   \;\overset{\text{not really!}}{=}\;
   \int \exp\left(
-    L_{int}(\phi) + j A(\phi)
-  \right)  D[\phi]
+    \int_X \tfrac{g}{i \hbar} L_{int}(\phi) + j A(\phi)
+  \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\phi) }D[\phi]
 $$
 
 where the integration is thought to be over the space of given field configurations
@@ -793,7 +793,7 @@ for all $k \in \mathbb{N}$, such that:
 
 1. (symmetry) each $T_k$ is symmetric in its arguments
 
-1. (causal factorization) If $supp(L_1) \cup \cdots \cup supp(L_r) \;\geq\; supp(L_{r+1}) \cup \cdots \cup supp(L_k)$ then
+1. ([[causal factorization]]) If $supp(L_1) \cup \cdots \cup supp(L_r) \;\geq\; supp(L_{r+1}) \cup \cdots \cup supp(L_k)$ then
 
    $$
      T((g L_1 + j A_1)  \cdots (g L_k + j A_k) )
@@ -958,7 +958,7 @@ $$
 
 is immediate from the time-ordering axiom of the time-ordered products.
 
-But we need to show more, namely "causal additivity". It is remarkable that this, too,
+But we need to show more, namely "[[causal additivity]]". It is remarkable that this, too,
 follows from just the time-ordering:
 
 To see this (following [Epstein-Glaser 73, around (73)](#EpsteinGlaser73)) first express the
@@ -986,7 +986,7 @@ $$
   \left(J_1 \geq J_2\right) \Rightarrow \left( V_{L + J_1}(J_2) = V_L(J_2) \right)
 $$
 
-and by lemma \ref{CausalLocalityOfThePerturbativeSMatrix} this is equivalent to causal additivity of the S-matrix.
+and by lemma \ref{CausalLocalityOfThePerturbativeSMatrix} this is equivalent to [[causal additivity]] of the S-matrix.
 
 It remains to prove the claim:
 
@@ -1220,7 +1220,7 @@ Since the [[singular support]] of the [[Feynman propagator]] is on the [[diagona
 and since the support of elements in $\left(\mathcal{F}_{loc}\langle g,j\rangle\right)^{\otimes^k}_{pds}$
 is by definition in the complement of the diagonal, the star product $\star_{\omega_F}$ is well defined.
 By construction it satisfies the axioms "peturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
-The only non-trivial point to check is that it indeed satisfies "causal factorization":
+The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]":
 
 Unwinding the definition of the [[Hadamard state]] $\omega$ and the [[Feynman propagator]] $\omega_F$, we have
 
@@ -1563,7 +1563,7 @@ The [[main theorem of perturbative renormalization]] states that
  {#CausalLocality}
 
 
-The key consequence of the "causal additivity axiom" on the S-matrix in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+The key consequence of the "[[causal additivity]]" axiom on the S-matrix in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
 is that the perturbative [[quantum observables]] with bounded spacetime support (def. \ref{GeneratingFunctionsForCorrelationFunctions})
 
 1. depend on the [[adiabatic switching]] $g_{sw}$ of the [[interaction]] [[Lagrangian density]]
