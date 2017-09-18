@@ -258,7 +258,7 @@ $$
 =--
 
 
-#### Symmetric monoidal smash product
+#### Higher algebra
 
 +-- {: .num_defn #SmashProduct}
 ###### Definition
@@ -379,28 +379,20 @@ The smash product of orthogonal spectra $X \wedge Y$, def. \ref{SmashProduct}, i
 
 =--
 
-
-
-
-
-
-
-
-
-### Higher algebra
-
-#### Rings
+(...)
 
 * [[ring spectrum]], [[E-∞ ring]]
 
 * [[model structure for ring spectra]]
 
-#### Modules
-
 * [[module spectrum]], [[∞-module]]
 
 * [[model structure on algebras over an operad]]
 
+
+### Examples
+
+...[[HA]], [[MO]], [[MU]], [[KO]], [[KU]]...
 
 
 ### Localization
@@ -1178,13 +1170,9 @@ $\,$
 
 For section **1) Stable homotopy theory** we follow
 
-* {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+* {#Schwede15} [[Stefan Schwede]], _[[Global homotopy theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/global.pdf))
 
-(for [[symmetric spectra]]) or rather 
-
-* {#Schwede15} [[Stefan Schwede]], _Global homotopy theory_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/global.pdf))
-
-(for [[orthogonal spectra]]; for our purposes take throughout $\mathcal{F} = \{1\}$ on p. 4 to be the trivial collection of groups).
+(for our purposes take throughout $\mathcal{F} \coloneqq \{1\}$, on p. 4, to be the trivial collection of groups in order to specialize from [[global equivariant stable homotopy theory]] to plain [[stable homotopy theory]]).
 
 For **2) Adams spectral sequence** we follow the streamlined presentation due to 
 
@@ -1205,7 +1193,7 @@ For **S1) Generalized cohomology** there are many standard texts, these here giv
 
 For **S2) Complex oriented cohomology** see:
 
-* {#Adams74} [[Frank Adams]], _Stable homotopy and generalized homology_, Chicago Lectures in mathematics, 1974
+* {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
