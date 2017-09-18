@@ -127,6 +127,17 @@ Dually, of course, if $C$ is complete, then $G$ admits initial lifts for small $
 
 In particular, the proposition and its corollary apply to a [[cohesive topos]], and (suitably categorified) to a [[cohesive (∞,1)-topos]].
 
+### Idempotent adjoint triples
+
++-- {: .num_prop #Idempotent}
+###### Proposition
+For an adjoint triple $F\dashv G\dashv H$, the adjunction $F\dashv G$ is an [[idempotent adjunction]] if and only if the adjunction $G\dashv H$ is so.
+=--
++-- {: .proof}
+###### Proof
+The monad $G F$ is left adjoint to the comonad $H G$, with the structure maps being [[mates]].  Therefore, by a standard fact, the category of $G F$-algebras and the category of $H G$-coalgebras are isomorphic over their common base.  However, $F\dashv G$ is idempotent precisely when $G F$ is an [[idempotent monad]], hence precisely when the forgetful functor of the category of $G F$-algebras is fully faithful, and dually for $G\dashv H$.  Since the categories of algebras are isomorphic respecting their forgetful functors, one forgetful functor is fully faithful if and only if the other is.
+=--
+
 
 ## Examples
 
