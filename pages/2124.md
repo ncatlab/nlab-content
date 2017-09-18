@@ -260,7 +260,7 @@ The generalization oft this perspective to the [[M5-brane]] is discussed in
 
 and the generalizatin to [[D-branes]] is discussed in
 
-* Hanno Hammer, _Topological Extensions of Noether Charge Algebras carried by D-p-branes_, Nucl.Phys. B521 (1998) 503-546 ([arXiv:hep-th/9711009](http://arxiv.org/abs/hep-th/9711009))
+* {#Hammer97} Hanno Hammer, _Topological Extensions of Noether Charge Algebras carried by D-p-branes_, Nucl.Phys. B521 (1998) 503-546 ([arXiv:hep-th/9711009](http://arxiv.org/abs/hep-th/9711009))
 
 The structure found in that article matches the general extension structure discussed in 
 
