@@ -28,5 +28,6 @@ _[[monad]]_ in the context of [[enriched category theory]].
 
 * [[additive monad]]
 
+* [[monad (in computer science)]]
 
 [[!redirects enriched monads]]
