@@ -81,6 +81,7 @@ a proof in terms of [[moduli stacks]] is given in [Mathew 13, section 3](#Mathew
 
 * [[splitting principle]]
 
+* [[comparison map between algebraic and topological K-theory]]
 
 [[!include string theory and cohomology theory -- table]]
 
