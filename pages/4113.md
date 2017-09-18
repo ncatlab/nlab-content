@@ -109,7 +109,7 @@ $$
 Now let 
 
 $$
-  \{\mathbb{R}^n  \underoverset{\simeq}{\phi_j }{\to} X\}_{j \in J}
+  \{\mathbb{R}^n  \underoverset{}{\phi_j }{\to} X\}_{j \in J}
 $$ 
 
 be an [[atlas]] exhibiting the [[smooth structure]] on the smooth manifold. Then by definition, for each point $x \in X$ there is $i_x \in I$ and $j_x \in J$ such that 
