@@ -11,9 +11,9 @@ He argued that cocompact spaces are a better generalization of the completeness 
 +-- {: .num_defn}
 ###### Definition
 Let $X$ be a topological space and set $\mathcal{O} = Op(X)$.
-A topology $^*\mathcal{O}$ on $X$ is called a **cotopology** of $\mathcal{O}$--and $^*X = (X, ^*\mathcal{O})$ is called a **cospace** of $X$--if
+A topology $^*\mathcal{O}$ on $X$ is called a **cotopology** of $\mathcal{O}$--and $^*X = (X, ^*\mathcal{O})$ is called a **cospace** of $X$ if
 
-1. $\mathcal{O}$ is coarser than $\mathcal{O}$
+1. $^*\mathcal{O}$ is coarser than $\mathcal{O}$, i.e., $^*\mathcal{O} \subseteq \mathcal{O}$; 
 1. for each point $x$ and each closed neighborhood $V$ of $x$ in $X$ there exists a neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$ and $U$ is closed in $^*X$.
 =--
 
