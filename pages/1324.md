@@ -8,9 +8,13 @@
 An __$A_\infty$ operad__ is an [[operad]] over some [[enriched category theory|enriching category]] $C$ which is a (free) [[homological resolution|resolution]] of the standard [[associative operad]] enriched over $C$ (that is, the operad whose algebras are [[monoids]]).
 
 Important examples, to be discussed below, include:
+
 * The topological operad of Stasheff associahedra.
+
 * The little $1$-cubes operad.
+
 * The standard dg-$A_\infty$ operad.
+
 * The standard categorical $A_\infty$ operad.
 
 An $A_\infty$ operad, like the standard associative operad, can be defined to be either a _symmetric_ or a _non-symmetric_ operad.  On this page we assume the non-symmetric version.  When regarded as a symmetric operad, an $A_\infty$ operad may also be called an $E_1$ operad.
@@ -52,7 +56,7 @@ $2 - n$;
 * with the differential of the $n$th generator given by
 $$ -
 \sum_{j+p+q = n}^{1 \lt p \lt n} (-1)^{j p + q} a_{p,j,n} ,$$
-where $a_{p,j,n}$ is $f_p$ attachched to the $(j+1)$st input of $f_{n}$.
+where $a_{p,j,n}$ is $f_p$ attached to the $(j+1)$st input of $f_{n}$.
 
 This can be shown to be a standard free resolution of the linear associative operad in the context of dg-operads; see [Markl 94](http://arxiv.org/abs/hep-th/9411208), [proposition 3.3](http://arxiv.org/PS_cache/hep-th/pdf/9411/9411208v1.pdf#page=13); therefore it is an $A_\infty$ operad.
 
