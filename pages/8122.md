@@ -19,7 +19,7 @@
 
 ## Idea
 
-There are various [[norms]] that may be placed on the [[tensor product]] of the underlying [[vector spaces]] of two [[Banach spaces]]; the result is not usually [[complete space|complete]], but of course we may take its [[completion]].  One of these, the _projective tensor product_, makes [[Ban]] (the category of Banach spaces and [[short linear maps]]) into a [[closed monoidal category]], but any of them makes $Ban$ into a [[symmetric monoidal category]].  If we start with [[Hilbert spaces]], then a different choice of norm is needed to make the result into a Hilbert space; then [[Hilb]] also becomes a closed symmetric monoidal category.
+There are various [[norms]] that may be placed on the [[tensor product]] of the underlying [[vector spaces]] of two [[Banach spaces]]; the result is not usually [[complete space|complete]], but of course we may take its [[completion]].  One of these, the _projective tensor product_, makes [[Ban]] (the category of Banach spaces and [[short linear maps]]) into a [[closed symmetric monoidal category]], but there are others that still put useful structures on $Ban$.  If we start with [[Hilbert spaces]], then there is a choice of norm that will make the result into a Hilbert space; then [[Hilb]] also becomes a closed symmetric monoidal category.
 
 
 ## Definitions
