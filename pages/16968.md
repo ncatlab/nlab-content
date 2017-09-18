@@ -24,7 +24,7 @@ The generalization of the concept of [[suspension spectrum]] from [[stable homot
 
 ## Definition
 
-The _equivariant suspension spectrum_ $\Sigma^\infty_G X$ of a [[pointed topological space|pointed]] [[topological G-space]] $X$ is the [[G-spectrum]] which in degree $n$ is the [[smash product]]
+The _equivariant suspension spectrum_ $\Sigma^\infty_G X$ of a [[pointed topological space|pointed]] [[topological G-space]] $X$ is the [[G-spectrum]] which, modeled as an [[orthogonal spectrum]] with $G$-action, is in degree $n$ given by the [[smash product]]
 
 $$
   (\Sigma^\infty_G X)_n \coloneqq X \wedge S^n
