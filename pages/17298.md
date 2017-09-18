@@ -1746,26 +1746,22 @@ The argument that every stable weak homotopy equivalence is in particular a stab
 +-- {: .num_defn #AKindOfAlmostSpectrification}
 ###### Definition
 
-For $\lambda_0 \colon F^{dia}_1 S^1 \to F^{dia}_0 S^0$ from lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, consider the [[natural transformation]] in $X \in \mathbb{S}_{dia}Mod$ given by the left vertical morphism in 
+For $\lambda_0 \colon F^{dia}_1 S^1 \to F^{dia}_0 S^0$ from lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, write
 
 $$
-  \array{
-    X &\simeq& \mathbb{S}_{dia} Mod(F^{dia}_0 S^0, X)
-    \\
-    \downarrow^{\mathrlap{\lambda_0^\ast(X)}} && \downarrow^{\mathrlap{\mathbb{S}_{dia}Mod(\lambda_0, X)}}
-    \\
-    R X &\coloneqq& \mathbb{S}_{dia}Mod(F^{dia}_1 S^1, X)
-  }
-  \,,
+  (X \longrightarrow R X)
+    \coloneqq
+  F(\lambda_0, X)
 $$
 
-where the top morphism is the $(F^{dia}_0 \dashv (-)_0)$-adjunction isomorphism.
+for the [[mapping spectrum]] construction out of $\lambda_1$ into $X$.
+
 Write
 
 $$
   R^\infty X
   \coloneqq
-  \underset{\longrightarrow}{\lim}
+  \underset{\longrightarrow}{ho\lim}
   \left(
     X 
      \stackrel{\lambda_0^\ast(X)}{\longrightarrow}
@@ -1801,6 +1797,26 @@ The functor $R^\infty$ from def. \ref{AKindOfAlmostSpectrification} has the foll
 
 ([MMSS 00, prop. 8.8](#MMSS00))
 
++-- {: .proof}
+###### Proof
+
+For the first item, use that the [[homotopy colimit]] is represented by the [[mapping telescope]]. Then [this lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes) implies that every homotopy groups of the homotopy colimit is represented at some finite stage. This implies that the telescope of level-wise weak homotopy equivalences is a level-wise weak homotopy equivalence.
+
+For the second item, observe that by the defining adjunctions and by lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} (...) we have
+
+$$
+  (R^n X)_q \simeq \Omega^n X(n+q)
+$$
+
+and 
+
+$$
+  \pi_q((R^\infty X)_n) \simeq \pi_{q-n}(X)
+  \,.
+$$
+
+
+=--
 
 +-- {: .num_prop #StableWeakHomotopyEquivalenceIsStableEquivalence}
 ###### Proposition
