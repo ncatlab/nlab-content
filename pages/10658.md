@@ -22,7 +22,7 @@
 
 ## Idea
 
-[[motive|Motivic]] structures enters [[quantum physics]] in two dual guises, related to on the one hand [[algebraic deformation quantization]] and on the other hand to [[geometric quantization]]
+[[motive|Motivic]] structures enters [[quantum physics]] in two dual guises, related, on the one hand, to [[algebraic deformation quantization]] and, on the other hand, to [[geometric quantization]].
 
 ### Via perturbative algebraic deformation quantization
  {#ViaPerturbativeAlgebraicDeformationQuantization}
@@ -33,16 +33,16 @@ The [[automorphism infinity-group]] of either side therefore naturally [[infinit
 [[Grothendieck-Teichmüller group]], a [[quotient]] of the [[motivic Galois group]]. 
 Related to this in some way is [[Alain Connes]]' "[[cosmic Galois group]]" [[action|acting]] on the space of [[renormalization|renormalizations]] of [[perturbative quantum field theory]]. 
 
-According to Kontsevich, this explains the role of motivc [[periods]] in [[correlation functions]] and hence in [[scattering amplitudes]] (see also at _[[amplituhedron]]_) in [[perturbative field theory]]. 
+According to Kontsevich, this explains the role of motivic [[periods]] in [[correlation functions]] and hence in [[scattering amplitudes]] (see also at _[[amplituhedron]]_) in [[perturbative field theory]]. 
 
-More concretely, [[scattering amplitudes]] typically are expressions in [[multiple zeta values]] and handling them involves intricicate combinatorics. By just re-expressing these in terms of [[motivic multiple zeta values]] (see the rerferences) much of the combinatorics becomes more tractable (in terms of some [[Hopf algebra]]). This is how "motivic" structures are used by many practicioners. The actual [[motives]] do not play much of a role in these computations, but one makes use of the combinatorial simplification obtained by re-expressing multiple zeta values by their motivic version.
+More concretely, [[scattering amplitudes]] typically are expressions in [[multiple zeta values]] and handling them involves intricate combinatorics. By just re-expressing these in terms of [[motivic multiple zeta values]] (see the rerferences) much of the combinatorics becomes more tractable (in terms of some [[Hopf algebra]]). This is how "motivic" structures are used by many practicioners. The actual [[motives]] do not play much of a role in these computations, but one makes use of the combinatorial simplification obtained by re-expressing multiple zeta values by their motivic version.
 
 For more see the motive-related references at _[[Feynman diagram]]_, at _[[motivic multiple zeta values]]_ and at _[[motivic L-function]]_.
 
 
 ### Via non-perturbative geometric quantization
 
-On the other hand, in full [[non-perturbative quantum field theory|non-perturbative]] [[geometric quantization]] in its modern cohomological form as [geometric quantization by push-forward](http://ncatlab.org/nlab/show/geometric+quantization+by+push-forward) one finds a "[[cohesion|cohesive]]" form of actual [[motivic cohomology]]exhibited by "[[cohesive]] [[pure motives]]". In effect, a [[local action functional]] on a [[moduli space]] of [[field (physics)|field]] [[trajectories]] is exhibited by a [[correspondence]]
+On the other hand, in full [[non-perturbative quantum field theory|non-perturbative]] [[geometric quantization]] in its modern cohomological form as [geometric quantization by push-forward](http://ncatlab.org/nlab/show/geometric+quantization+by+push-forward) one finds a "[[cohesion|cohesive]]" form of actual [[motivic cohomology]] exhibited by "[[cohesive]] [[pure motives]]". In effect, a [[local action functional]] on a [[moduli space]] of [[field (physics)|field]] [[trajectories]] is exhibited by a [[correspondence]]
 with the [[local action functional]] itself exhibited by a [[twisted bivariant cohomology|twisted bivariant cocycle]] on the correspondence space, and the [[motivic quantization|motivic path integral quantization]] of this corresponds to the induced pull-push index transform. See the [references below](#ReferencesNonPerturbativeGeometric).
   
 
@@ -50,7 +50,7 @@ with the [[local action functional]] itself exhibited by a [[twisted bivariant c
 
 We list references
 
-1. [on motives in pertrubative algebraic quantization](#ReferencesPerturbativeAlgebraic)
+1. [on motives in perturbative algebraic quantization](#ReferencesPerturbativeAlgebraic)
 
 1. [on motives in non-perturbative geometric quantization](#ReferencesNonPerturbativeGeometric)
 
