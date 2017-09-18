@@ -21,7 +21,7 @@ For $k\ge 0$, an action $G \times X \to X$ is said to be **$k$-transitive** if t
 
 * The [[alternating group]] $A_n$ acts transitively on $\{1,\dots,n\}$ for $n \gt 2$, and in fact it acts $(n-2)$-transitively for all $n \ge 2$.
 
-* The [[projective general linear group]] $PGL(2,\mathbb{C})$ acts 3-transitively on the [[Riemann sphere]] $\mathbb{P}^1(\mathbb{C})$.
+* The [[modular group]] $PSL(2,\mathbb{Z})$ acts transitively on the [[rational number|rational]] [[projective line]] $\mathbb{P}^1(\mathbb{Q}) = \mathbb{Q} \cup \{\infty\}$. The [[projective general linear group]] $PGL(2,\mathbb{C})$ acts 3-transitively on the [[Riemann sphere]] $\mathbb{P}^1(\mathbb{C})$.
 
 ## As an action on cosets
 
