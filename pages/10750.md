@@ -725,31 +725,8 @@ $$
 
 =--
 
-With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]] 
+With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]]  of [[topologically enriched functors]] $[\mathcal{C},Top^{\ast}_{cg}]$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves))
 
-$$
-  (-)\wedge(-)
-   \;\colon\;
-  [\mathcal{C},Top^{\ast/}_{cg}]
-   \times
-  Top^{\ast/}_{cg}
-    \longrightarrow
-  [\mathcal{C}, Top^{\ast/}_{cg}]
-$$
-
-and the [[powering]] 
-
-$$
-  (-)^{(-)}
-  \;\colon\;
-  (Top^{\ast/}_{cg})^{op}
-    \times
-  [\mathcal{C}, Top^{\ast/}_{cg}]
-    \longrightarrow
-  [\mathcal{C}, Top^{\ast/}_{cg}]
-$$
-
-of [[topologically enriched functors]] $[\mathcal{C},Top^{\ast}_{cg}]$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)). 
 
 +-- {: .num_prop #UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}
 ###### Proposition
@@ -758,19 +735,39 @@ For $\mathcal{C}$ a pointed [[topologically enriched category]], there are [[nat
 
 $$
   [\mathcal{C},Top^{\ast/}_{cg}]( X \wedge K ,\, Y )
-    \simeq
+    \;\simeq\;
   Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
 $$
 
 and
 
 $$
-  [\mathcal{C},Top^{\ast/}_{cg}](X,\, Y^K)
-    \simeq
+  [\mathcal{C},Top^{\ast/}_{cg}](X,\, Maps(K,Y)_\ast)
+    \;\simeq\;
   Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))
 $$
 
 for all $X,Y \in [\mathcal{C},Top^{\ast/}_{cg}]$ and all $K \in Top^{\ast/}_{cg}$.
+
+In particular there is the combined natural isomorphism
+
+$$
+  [\mathcal{C}, Top^{\ast/}_{cg}](X\wedge K, Y)
+   \;\simeq\;
+  [\mathcal{C}, Top^{\ast/}_{cg}](X, Maps(K,Y)_\ast)
+$$
+
+exhibiting a pair of [[adjoint functors]]
+
+$$
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+    \underoverset 
+      {\underset{Maps(K,-)_\ast}{\longrightarrow}}
+      {\overset{(-)\wedge K}{\longleftarrow}}
+      {\bot}
+  [\mathcal{C}, Top^{\ast}_{cg}]
+  \,.
+$$
 
 =--
 
@@ -2662,9 +2659,7 @@ $$
   \,.
 $$
 
-A [[homomorphism]] $f\;\colon\; (F_1,\mu_1, \epsilon_1) \longrightarrow (F_2, \mu_2, \epsilon_2)$ between two (braided) lax monoidal functors is a **[[monoidal natural transformation]]**, in that it is
-
-* a [[natural transformation]] $f_x \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
+A [[homomorphism]] $f\;\colon\; (F_1,\mu_1, \epsilon_1) \longrightarrow (F_2, \mu_2, \epsilon_2)$ between two (braided) lax monoidal functors is a **[[monoidal natural transformation]]**, in that it is a [[natural transformation]] $f_x \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
 
 compatible with the product and the unit in that the following [[commuting diagram|diagrams commute]] for all objects $x,y \in \mathcal{C}$:
 
@@ -2755,7 +2750,7 @@ $$
 
 from the [[category of monoids]] of $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) to that of $\mathcal{D}$.
 
-Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative momoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor
 
 $$
   CMon(F)
@@ -2971,7 +2966,7 @@ $$
    Mon([\mathcal{D}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{D}}))
 $$
 
-any fixed monoid, then $f^\ast$ sends $A$-[[module object]] to $f^\ast(A)$-modules
+any fixed monoid, then $f^\ast$ sends $A$-[[module object|modules]] to $f^\ast(A)$-modules
 
 $$
   f^\ast
@@ -3012,7 +3007,7 @@ We now give a unified discussion of the categories of
 
 (all in [[topological spaces]]) as [[categories of modules]] with respect to [[Day convolution]] monoidal structures on [[Top]]-[[enriched functor categories]] over restrictions to [[faithful functor|faithful]] sub-[[sites]] of the canonical representative of the [[sphere spectrum]] as an excisive functor on $Top^{\ast/}_{fin}$.
 
-This approach is due to ([Mandell-May-Schwede-Shipley 00](#MMSS00)).
+This approach is due to ([Mandell-May-Schwede-Shipley 00](#MMSS00)) following ([Hovey-Shipley-Smith 00](HoveyShipleySmith00)).
 
 
 ##### Pre-Excisive functors
@@ -5158,6 +5153,40 @@ In the language of [[model category]]-theory, prop. \ref{PushoutProductWithRespe
 
 We record some immediate consequences of prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} that will be useful.
 
++-- {: .num_prop #SmashTensoringWithCellComplexIsLeftQuillen}
+###### Proposition
+
+Let $K \in Top^{\ast}_{cg}$ be a [[retract]] of a [[cell complex]] ([def. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)), then the smash-tensoring/powering adjunction from prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg} is a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) for the strict model structure from theorem \ref{StrictModelStructureOnDiagramSpectra}
+
+$$
+  \mathbb{S}_{dia}Mod(Top_{cg})_{strict}
+    \underoverset
+      {\underset{Maps(K,-)_\ast}{\longrightarrow}}
+      {\overset{(-)\wedge K}{\longleftarrow}}
+      {\bot}
+  \mathbb{S}_{dia}Mod(Top_{cg})_{strict}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By assumption, $K$ is a cofibrant object in the [[classical model structure on pointed topological spaces]], hence $\ast \to K$ is a cofibration in $(Top^{\ast/}_{cg})_{Quillen}$. Observe then that the the [[pushout product]] of any morphism $f$ with $\ast \to K$ is equivalently the smash tensoring of $f$ with $K$:
+
+$$
+  f \Box (\ast \to K)
+  \simeq
+  f \wedge K
+  \,.
+$$
+
+This way prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} implies that $(-)\wedge K$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
+
+=--
+
+
 +-- {: .num_example #StandardReducedCylinderOnStructuredSpectrumIsGood}
 ###### Example
 
@@ -5219,6 +5248,7 @@ $$
 Hence if $X$ is assumed to be cofibrant, so that $\ast \to X$ is a cofibration, then prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} implies that $X \wedge (i_0,i_1) \colon X \wedge X \to X \wedge (I_+)$ is a cofibration.
 
 =--
+
 
 
 +-- {: .num_prop #PushoutProductOfspectrumWithSpaceInteractingWithHomSpaces}
@@ -5598,15 +5628,15 @@ and so the claim follows.
 
 ##### Suspension and looping
 
-+-- {: .num_defn}
-###### Definition
++-- {: .num_prop}
+###### Proposition
 
 For every $n \in \mathbb{N}$, the functors of extracting the $n$th component space of a structured spectrum, and of forming the [[free structured spectrum]] in degree $n$ (def. \ref{FreeStructuredSpectrum}) constitute a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between the strict model structure on structured spectra from theorem \ref{StrictModelStructureOnDiagramSpectra} and the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)):
 
 $$
   \mathbb{S}_{dia}Mod_{strict}
     \underoverset
-      {\underset{Ev_n}{\longrightarrow}}
+      {\underset{Ev^{dia}_n}{\longrightarrow}}
       {\overset{F^{dia}_n}{\longleftarrow}}
       {\bot}
   (Top^{\ast/}_{cg})_{Quillen}
@@ -5618,11 +5648,26 @@ In particular for $n = 0$ and writing $\Sigma^\infty \coloneqq F_0$ and $\Omega^
 $$
   \mathbb{S}_{dia}Mod_{strict}
     \underoverset
-      {\underset{\Omega^\infty}{\longrightarrow}}
-      {\overset{\Sigma^\infty}{\longleftarrow}}
+      {\underset{\Omega_{dia}^\infty}{\longrightarrow}}
+      {\overset{\Sigma_{dia}^\infty}{\longleftarrow}}
       {\bot}
   (Top^{\ast/}_{cg})_{Quillen}
   \,.
+$$
+
+Moreover, these functors factor as
+
+$$
+  (\Sigma^\infty_{dia}
+  \dashv \Omega^\infty_{dia})
+   \;\colon\;
+  \mathbb{S}_{dia}Mod(Top_{cg})
+   \underoverset
+     {\underset{seq^\ast}{\longrightarrow}}
+     {\overset{seq_!}{\longleftarrow}}
+     {\bot}
+   SeqSpec(Top_{cg})
+    
 $$
 
 =--
@@ -5657,6 +5702,7 @@ For $OrthSpec(Top_{cg})$ the category of [[orthogonal spectra]] from def. \ref{S
 
 (e.g. [MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
 
+
 +-- {: .num_theorem #OrthogonalSpectraStableModelStructure}
 ###### Theorem
 
@@ -5681,6 +5727,7 @@ We give the **proof** [below](#StableModelStructureOnDiagramSpectraProof), after
 The generating cofibrations and acylic cofibrations are going to be the those induced via [[tensoring]] of representables from the [[classical model structure on topological spaces]] (giving the strict model structure), together with an additional set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
 
 
+
 +-- {: .num_defn #ResolutionOfCorepresentationOfAdjunctsOfStructureMaps}
 ###### Definition
 
@@ -5698,7 +5745,7 @@ $$
 
 be the factorization of the morphism $\lambda_n$ of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} through its [[mapping cylinder]] formed with respect to the standard [[cylinder spectrum]].
 
-Notice that since $F_{n+1}S^1$ is a [[cell spectrum]] (...) this make the first factor $k_n$ a cofibration. But it makes the second factor be not just any weak equivalenct, but a homotopy equivalence.
+Notice that since the cell $S^1$ is cofibrant in $(Top^{\ast/}_{cg})_{Quillen}$, and since $F_{n+1}(-)$ is a left Quillen functor by spring
 
 =--
 
