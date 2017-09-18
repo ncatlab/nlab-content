@@ -1,4 +1,3 @@
-
 # The Cauchy sum theorem
 * table of contents
 {: toc}
@@ -210,7 +209,7 @@ Cauchy\'s most thorough defence of the theorem against critics is in
 
 The reconstruction in terms of nonstandard analysis is in the historical appendix to
 
-*  [[Abraham Robinson]] (1960). _Nonstandard Analysis_.
+*  [[Abraham Robinson]] (1966). _Nonstandard Analysis_.
 
 Lakatos\'s discussion forms Chapter 3 of
 
