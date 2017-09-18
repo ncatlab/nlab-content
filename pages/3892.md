@@ -20,7 +20,7 @@
 
 ## Idea
 
-The notion of  _Klein geometry_ is essentially that of _[[homogeneous space]]_ in the context of [[differential geometry]].
+The notion of  _Klein geometry_ is essentially that of _[[homogeneous space]]_ ([[coset space]]) $G/H$ in the context of [[differential geometry]]. This is named "Klein geometry" due to its central role in [[Felix Klein]]' [[Erlangen program]].
 
 Klein geometries form the _local models_ for [[Cartan geometries]].
 
