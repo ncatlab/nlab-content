@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[Riemannian manifold]] $(X,g)$ is a _hyperbolic manifold_ of constant [[sectional curvature]] $-1$.
+A _hyperbolic manifold_ is a [[Riemannian manifold]] $(X,g)$ of constant [[sectional curvature]] $-1$.
 
 ## Properties
 
@@ -69,6 +69,8 @@ A Riemannian manifold
 * with +1 sectional curvature is an [[elliptic manifold]]
 
 See also
+
+* [[hyperbolic geometry]]
 
 * [[volume conjecture]]
 
