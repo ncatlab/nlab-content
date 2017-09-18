@@ -44,7 +44,7 @@ $$\phi_{a, b, -b, a}(z) = e^{w z}$$
 
 with one such homomorphism for each complex number $w$, and these homomorphisms are [[surjections]] whenever $w \ne 0$. (N.B.: these homomorphisms are not uniquely determined by their values at $z = 1$, since we have $e^w = e^{w'}$ whenever $w - w'$ is an integer multiple of $2 \pi i$, and yet the homomorphisms $z \mapsto e^{w z}$ and $z \mapsto e^{w' z}$ will be different unless $w = w'$.) 
 
-So we have these surjections (the __complex [[exponential map]]__ $z \mapsto e^{w z}$, for $w \ne 0$), which are [[regular epimorphisms]] but not [[split epimorphisms]].  However, while they have no [[sections]] (being not split), they have quite a few [[local sections]], and the [[domains]] of the [[maximal partial function|maximal]] local sections are precisely the [[connected space|connected]] [[simply connected space|simply connected]] [[open subspace|open]] [[dense subspace|dense]] subspaces $R$ of $\mathbb{C}^*$.  A __complex logarithm with exponential base $w$ on $R$__ is this $R$-defined section of the complex exponential map $z \mapsto e^{w z}$. Supposing $R$ given, we denote this by $\log_{[w]}$ (but please note that in the context of real logarithms, this would ordinarily be denoted $\log_b$ where $b = e^w$). 
+So we have these surjections (the __complex [[exponential map]]__ $z \mapsto e^{w z}$, for $w \ne 0$), which are [[regular epimorphisms]] but not [[split epimorphisms]].  However, while they have no [[sections]] (being not split), they have quite a few [[local sections]], and the [[domains]] of the [[maximal local sections]] are precisely the [[connected space|connected]] [[simply connected space|simply connected]] [[open subspace|open]] [[dense subspace|dense]] subspaces $R$ of $\mathbb{C}^*$.  A __complex logarithm with exponential base $w$ on $R$__ is this $R$-defined section of the complex exponential map $z \mapsto e^{w z}$. Supposing $R$ given, we denote this by $\log_{[w]}$ (but please note that in the context of real logarithms, this would ordinarily be denoted $\log_b$ where $b = e^w$). 
 
 If $1 \in R$, then a complex natural logarithm on $R$ may be defined using the [[contour integral]] with the same formula (eq:integrals) as for the real natural logarithm.  We merely insist that the integral be done along a contour within the region $R$.  (Since $R$ is connected, there is such a contour; since $R$ is simply connected and $t \mapsto 1/t$ is [[holomorphic map|holomorphic]], the result is unique.)  Note that if $x \in \mathbb{R}^+ \subseteq R$, then the real and complex natural logarithms of $x$ will be equal. 
 
@@ -59,7 +59,7 @@ $$ \array {
 
 In the classical examples, the multiplicative groups $\mathbb{R}^+$ and $\mathbb{C}^*$ are both [[Lie groups]].  The additive groups $\mathbb{R}$ and $\mathbb{C}$ are also Lie groups, but they are more than this: they are [[Lie algebras]].  (The additive group of a Lie algebra is always a Lie group.  Actually, since these are [[abelian Lie algebras]], their Lie-algebra structure is easy to miss, but of course they are [[vector spaces]].)  And what\'s more, each additive group is *the* Lie algebra of the corresponding Lie group.
 
-This generalises.  Given any [[Lie group]] $G$, let $\mathfrak{g}$ be its [[Lie algebra]].  Then we have an [[exponential map]] $\exp\colon \mathfrak{g} \to G$, which is [[surjection|surjective]] under certain conditions (most famously when $G$ is [[connected space|connected]] and [[compact space|compact]], but also in the classical cases, even though $G$ is not compact).  More generally, given any [[automorphism]] $\phi$ of $\mathfrak{g}$, we have a map $x \mapsto \exp(\phi(x))$, which is a [[homomorphism]] of Lie groups.  Any [[local section]] of this map may be called a __logarithm base $\phi$__ on $G$; any local section of $\exp$ itself may be called a __natural logarithm__ on $G$.
+This generalises.  Given any [[Lie group]] $G$, let $\mathfrak{g}$ be its [[Lie algebra]].  Then we have an [[exponential map]] $\exp\colon \mathfrak{g} \to G$, which is [[surjection|surjective]] under certain conditions (most famously when $G$ is [[connected space|connected]] and [[compact space|compact]], but also in the classical cases, even though $G$ is not compact).  More generally, given any [[automorphism]] $\phi$ of $\mathfrak{g}$, we have a map $x \mapsto \exp(\phi(x))$, which is a [[homomorphism]] of Lie groups.  Any [[local section]] of this map may be called a __logarithm base $\phi$__ on $G$ (denoted $\log_{[\phi]}$ with the bracket as in the previous section); any local section of $\exp$ itself may be called a __natural logarithm__ on $G$.
 
 
 ## Related concepts
@@ -67,6 +67,7 @@ This generalises.  Given any [[Lie group]] $G$, let $\mathfrak{g}$ be its [[Lie 
 * [[logarithmic integral function]]
 
 * [[logarithmic cohomology operation]]
+
 
 [[!redirects logarithm]]
 [[!redirects logarithms]]
