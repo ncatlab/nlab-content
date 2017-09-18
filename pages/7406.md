@@ -20,7 +20,7 @@ Let $C$ be a [[coherent category]].  Write $\tau C$ for the category whose objec
 As defined by [Makkai](#Makkai), the **topos of types** $\mathbf{T}(C)$ of $C$ is the [[sheaf topos]]
 
 $$
-  \mathbf{T}(C) := Sh_{J_p}(\tau C)
+  \mathbf{T}(C) \coloneqq Sh_{J_p}(\tau C)
   \,.
 $$
 
