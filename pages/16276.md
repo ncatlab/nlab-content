@@ -23,19 +23,19 @@ Definite gobalizations of WZW terms $\mathbf{L}$ induce [[parameterized WZW term
 
 ## Examples
 
-### Geoemtric pre-quantization
+### Geometric pre-quantization
 
 By the [[Darboux theorem]] for line bundles, every [[prequantization]] of a [[symplectic manifold]] is automatically a definite globalization of some fixed pre-quantization of $(\mathbb{R}^{2n}, \mathbf{d}p_i \wedge \mathbf{d}q^i)$.
 
 ### Super $p$-branes on curved super-spacetimes
 
-The [[equations of motion]] of [[supergravity]] theories typically imply that the WZW curvatures of the relevant [[super p-brane sigma models]] on [[super Minkowski spacetime]] extend as [[definite forms]] over the [[super-spacetime]]. Hence the full WZW term definiing the [[super p-brane sigma model]] needs to be a definite globalization over super-spacetime of the local model over super-Minkowski spacetime.
+The [[equations of motion]] of [[supergravity]] theories typically imply that the WZW curvatures of the relevant [[super p-brane sigma models]] on [[super Minkowski spacetime]] extend as [[definite forms]] over the [[super-spacetime]]. Hence the full WZW term defining the [[super p-brane sigma model]] needs to be a definite globalization over super-spacetime of the local model over super-Minkowski spacetime.
 
 ## Related concepts
 
 * [[higher Cartan geometry]]
 
-## Refrences
+## References
 
 * section "definite forms" in _[[schreiber:differential cohomology in a cohesive topos]]_
 
