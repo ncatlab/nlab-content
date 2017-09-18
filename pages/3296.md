@@ -66,7 +66,7 @@ For $A$ any other [[abelian group|abelian]] [[topological group]], similarly wri
 Generally, 
 
 $$
-  H^n(B G, \mathbb{Z}) = \pi_0 \mathbf{H}(B G, B^n A)
+  H^n(B G, A) = \pi_0 \mathbf{H}(B G, B^n A)
 $$
 
 is the [[cohomology]] of $B G$ with coefficients in $A$. Every [[cocycle]] $c : B G \to B^n A$ represents a characteristic class $[c]$ on $B G$ with coefficients in $A$.
