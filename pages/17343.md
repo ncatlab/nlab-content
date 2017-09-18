@@ -4438,48 +4438,6 @@ define a [[model category]] structure, $Top_{Quillen}$, the **[[classical model 
 
 =--
 
-An immediate variant of this proof also applies to the [[coslice model structure]], prop. \ref{ModelStructureOnSliceCategory}, on [[pointed topological spaces]]:
-
-+-- {: .num_defn #GeneratingCofibrationsForPointedTopologicalSpaces}
-###### Definition
-
-Write
-
-$$
-  I_{Top^{\ast/}}
-  = 
- \left\{
-    S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+
- \right\}
-  \;\;
-  \subset Mor(Top^{\ast/})
-$$
-
-and
-
-$$
-  J_{Top^{\ast/}}
-  = 
- \left\{
-    D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+
- \right\}
-  \;\;\;
-  \subset Mor(Top^{\ast/})
- \,,
-$$
-
-respectively, for the classes of morphisms obtained from the classical generating cofibrations, def. \ref{TopologicalGeneratingCofibrations}, and the classical generating acyclic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations}, under adjoining of basepoints.
-
-=--
-
-+-- {: .num_theorem #CofibrantGenerationOfPointedTopologicalSpaces}
-###### Theorem
-
-The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]], $Top^{\ast/}_{Quillen}$ as a [[cofibrantly generated model category]].
-
-=--
-
-This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties). But it also follows by a proof directly analogous to that of theorem \ref{TopQuillenModelStructure}.
 
 
 
@@ -4648,111 +4606,6 @@ $$
 $$
 
 Inspection of the component maps shows that the left vertical morphism here is the inclusion into the square times $D^n$ of three of its faces times $D^n$. This is homeomorphic to the inclusion $D^{n+1} \to D^{n+1} \times I$ (as in remark \ref{SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions}). Therefore a lift in this square exsists, and hence a lift in the original square exists.
-
-=--
-
-We now consider the general [[loop space object]] and [[reduced suspension]] functors from prop. \ref{LoopingAsFunctorOnHomotopyCategory} specialized to the case of the model category $\mathcal{C} = Top_{Quillen}$. In fact prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} below holds generally for every model category ([Quillen 67](#Quillen67)), but using the above properties of the topological interval $I$ we get an elegant and transparent proof.
-
-+-- {: .num_prop #ReducedSuspensionBySmashProductWithCircle}
-###### Proposition
-
-In [[pointed topological spaces]] $Top^{\ast/}$, 
-
-* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) for [[cylinder object]] beng the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]] 
-
-  $$
-    \Sigma X \simeq X \wedge S^1
-    \,,
-  $$
-
-Dually:
-
-* the [[loop space objects]] (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard pointed path space object $(-)^{I_+}$  are isomorphic to the [[pointed mapping space]] (example \ref{PointedMappingSpace})  with the [[1-sphere]]
-
-  $$
-    \Omega X \simeq X^{S^1}
-    \,.
-  $$
-
-Moreover, by the [[exponential object]]-property of the pointed [[mapping space]] (example \ref{PointedMappingSpace}) these form [[adjoint functors]]
-
-$$
-  ((-)\wedge S^1 \dashv (-)^{S^1})
-  \;\colon\;
-  Top^{\ast/}
-  \longrightarrow 
-  Top^{\ast/}
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By immediate inspection. For instance the fiber of $X^{I_+} \longrightarrow X\times X$ is clearly the subspace of the unpointed mapping space $X^I$ on elements that take the endpoints of $I$ to the basepoint of $X$.
-
-The adjunction follows from general principles:
-
-$$
-  \begin{aligned}
-     Hom_{Top^{\ast/}}(X, Y^{S^1})
-     & =
-     Hom_{Top^{\ast/}}(X, fib(Y^{I_+} \to Y \times Y))
-     \\
-     & \simeq
-     fib( Hom_{Top^{\ast/}}( X, Y^{I_+}) \to Hom_{Top_{CW}^{\ast/}}(X, Y \times Y) )
-     \\
-     & \simeq
-     fib( Hom_{Top^{\ast/}}( X \wedge I_+, Y ) \to Hom_{Top_{CW}^{\ast/}}(X\vee X, Y) )
-     \\
-     & \simeq
-     Hom_{Top^{\ast/}}( cofib( X \vee X \to X \wedge I_+), Y )     
-     \\
-     & \simeq 
-     Hom_{Top}^{\ast/}(X \wedge S^1, Y)
-  \end{aligned}
-  \,.
-$$
-
-
-=--
-
-+-- {: .num_prop #SuspensionAndLoopAreAdjointOnHomotopyCategory}
-###### Proposition
-
-The [[loop space]] functor $\Omega$ and [[reduced suspension]] functor $\Sigma$ on the [[classical homotopy category]] of [[pointed topological spaces]] (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
-
-$$
-  (\Sigma \dashv \Omega)
-  \;\colon\;
-  Ho(Top_{Quillen}^{\ast/})
-   \longrightarrow
-  Ho(Top_{Quillen}^{\ast/})
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-By the statement of their existence (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). Since we may restrict to CW-complexes, the standard topological cylinder $(-)\times I$ is a cylinder object (prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}) and, generally, the standard topological path space $(-)^I$ is a path space object (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}).
-
-Now the adjunction of prop. \ref{ReducedSuspensionBySmashProductWithCircle} gives an adjunction
-
-$$
-  (\Sigma \dashv \Omega) 
-  \;\colon\;
-  Top^{\ast/}
-  \longrightarrow
-  Top^{\ast/}
-  \,.
-$$
-
-By prop. \ref{TopQuillenIsTopological} this is a [[Quillen adjunction]]. Hence the statement follows with prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}.
 
 =--
 
@@ -5110,7 +4963,7 @@ $$
   \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
 $$
 
-for the classes (here: sets) of morphisms given by [[tensoring]] the representable functors, example \ref{TopologicallyEnrichedFunctorsToTopk} with the generating cofibrations (def.\ref{TopologicalGeneratingCofibrations}) and acyclic generating cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of $Top_k$, respectively.
+for the sets of morphisms given by [[tensoring]] the representable functors, example \ref{TopologicallyEnrichedFunctorsToTopk} with the generating cofibrations (def.\ref{TopologicalGeneratingCofibrations}) and acyclic generating cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of $Top_k$, respectively.
 
 These are going to be called the **[[generating cofibrations]]** and **acyclic generating cofibrations** for the projective model structure on topologically enriched functors on $\mathcal{C}$.
 
@@ -6685,7 +6538,7 @@ $$
 
 Let $\mathcal{C}$ be a [[model category]] and let $X \in \mathcal{C}$ be an [[object]]. Then both the [[slice category]] $\mathcal{C}_{/X}$ as well as the [[coslice category]] $\mathcal{C}^{X/}$, def. \ref{SliceCategory}, carry model structures themselves -- the **[[model structure on a slice category|model structure on a (co-)slice category]]**,  where a morphism is a weak equivalence, fibration or cofibration iff its image under the [[forgetful functor]] $U$ is so in $\mathcal{C}$.
 
-In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \ref{CategoryOfPointedObjects}, in a model category $\mathcal{C}$ becomes itself a model category this way.
+In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \ref{CategoryOfPointedObjects}, in a model category $\mathcal{C}$ becomes itself a model category this way. The corresponding [[homotopy category of a model category]], def. \ref{HomotopyCategoryOfAModelCategory}, we call the **[[pointed category|pointed]] [[homotopy category of a model category|homotopy category]]** $Ho(\mathcal{C}^{\ast/})$.
 
 =--
 
@@ -6700,7 +6553,7 @@ The model strcuture as claimed is immediate by inspection.
 +-- {: .num_example #ClassicalPointedHomotopyCategory}
 ###### Example
 
-For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$. Its [[homotopy category of a model category]] is the _classical pointed homotopy theory_ $Ho(Top^{\ast/})$.
+For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$. Its [[homotopy category of a model category]] is the _[[classical pointed homotopy theory]]_ $Ho(Top^{\ast/})$. We discuss this in more detail starting with def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} below.
 
 =--
 
@@ -8385,38 +8238,87 @@ and regarded as a path space object of $X$ by further comoposing with $(pr_1,pr_
 +-- {: .num_prop #LongFiberSequence}
 ###### Proposition
 
-Let $\mathcal{C}$ be a model category. For $f \colon X \to Y$ a morphism in $\mathcal{C}^{\ast/}$, then in $Ho(\mathcal{C})$ there is a long sequence to the left of the form
+Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in the pointed homotopy category $Ho(\mathcal{C}^{\ast/})$ (prop. \ref{ModelStructureOnSliceCategory}). Then:
 
-$$
-  \cdots \longrightarrow \Omega X \longrightarrow \Omega Y \longrightarrow hofib(f) \longrightarrow X \overset{f}{\longrightarrow} Y
-  \,,
-$$
+1. There is a long sequence to the left in $\mathcal{C}^{\ast/}$ of the form
 
-where each morphism is the [[homotopy fiber]] (def. \ref{HomotopyFiber}) of the following one: the **[[homotopy fiber sequence]]** of $f$.
+   $$
+     \cdots 
+       \longrightarrow 
+     \Omega X 
+       \overset{\Omega f}{\longrightarrow}
+     \Omega Y 
+       \longrightarrow 
+     hofib(f) 
+       \longrightarrow 
+     X 
+       \overset{f}{\longrightarrow} 
+     Y
+     \,,
+   $$
 
-Moreover, for $A\in \mathcal{C}^{\ast/}$ an object, then there is a [[long exact sequence]]
+   where each morphism is the [[homotopy fiber]] (def. \ref{HomotopyFiber}) of the following one: the **[[homotopy fiber sequence]]** of $f$. Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
 
-$$
-  \cdots
-  \to 
-  [A,\Omega^2 Y]_\ast
-  \longrightarrow
-  [A,\Omega hofib(f)]_\ast
-  \longrightarrow
-  [A, \Omega X]_\ast 
-  \longrightarrow
-  [A,\Omega Y]
-  \longrightarrow
-  [A,hofib(f)]_\ast
-  \longrightarrow
-  [A,X]_\ast 
-  \longrightarrow
-  [A,Y]
-$$ 
+   $$
+     \cdots
+     \to 
+     [A,\Omega^2 Y]_\ast
+     \longrightarrow
+     [A,\Omega hofib(f)]_\ast
+     \longrightarrow
+     [A, \Omega X]_\ast 
+     \longrightarrow
+     [A,\Omega Y]
+     \longrightarrow
+     [A,hofib(f)]_\ast
+     \longrightarrow
+     [A,X]_\ast 
+     \longrightarrow
+     [A,Y]
+   $$ 
 
-of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
+   of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
 
-For $A = \ast$ this is called the **[[long exact sequence of homotopy groups]]** induced by $f$.
+   For $A = \ast$ this is called the **[[long exact sequence of homotopy groups]]** induced by $f$.
+
+1. Dually, there is a long sequence to the right in $\mathcal{C}^{\ast/}$ of the form
+
+   $$
+     X 
+       \overset{f}{\longrightarrow} 
+     Y 
+       \overset{}{\longrightarrow}
+     hocofib(f)
+       \longrightarrow
+     \Sigma X
+       \overset{\Sigma f}{\longrightarrow}
+     \Sigmy Y
+       \to \cdots
+     \,,
+   $$
+
+   where each morphism is the [[homotopy cofiber]] (def. \ref{HomotopyFiber}) of the previous one: the **[[homotopy cofiber sequence]]** of $f$. Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
+
+   $$
+     \cdots
+     \to 
+     [\Sigma^2 X, A]_\ast
+     \longrightarrow
+     [\Sigma hocofib(f), A]_\ast
+     \longrightarrow
+     [\Sigma Y, A]_\ast 
+     \longrightarrow
+     [\Sigma X, A]
+     \longrightarrow
+     [hocofib(f),A]_\ast
+     \longrightarrow
+     [Y,A]_\ast 
+     \longrightarrow
+     [X,A]
+   $$ 
+
+   of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
+
 
 =--
 
@@ -8671,7 +8573,192 @@ $$
 called the _[[long exact sequence of homotopy groups]]_. associated with $f$.
 Here $\delta$ is called the _[[connecting homomorphism]]_.
 
-(...)
+
+### The $(\Sigma \dashv \Omega)$-adjunction
+
+We conclude here with the key statement that leads over to [[stable homotopy theory]] in _[[Introduction to Stable homotopy theory -- 1]]_: the suspension and looping adjunction on the classical pointed homotopy category.
+
++-- {: .num_defn #ClassicalModelStructureOnPointedTopologicalSpaces}
+###### Definition
+
+Write $Top^{\ast/}_{Quillen}$ for the **[[classical model structure on pointed topological spaces]]**, given from the [[classical model structure on topological spaces]] $Top_{Quillen}$ (theorem \ref{TopQuillenModelStructure}) via the induced [[coslice model structure]] of prop. \ref{ModelStructureOnSliceCategory}.
+
+Its [[homotopy category of a model category|homotopy category]] 
+
+$$
+  Ho(Top^{\ast/})
+  \coloneqq
+  Ho(Top_{Quillen}^{\ast/})
+$$
+
+we call the **[[classical pointed homotopy category]]**.
+
+=---
+
++-- {: .num_defn #GeneratingCofibrationsForPointedTopologicalSpaces}
+###### Definition
+
+Write
+
+$$
+  I_{Top^{\ast/}}
+  = 
+ \left\{
+    S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+
+ \right\}
+  \;\;
+  \subset Mor(Top^{\ast/})
+$$
+
+and
+
+$$
+  J_{Top^{\ast/}}
+  = 
+ \left\{
+    D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+
+ \right\}
+  \;\;\;
+  \subset Mor(Top^{\ast/})
+ \,,
+$$
+
+respectively, for the sets of morphisms obtained from the classical generating cofibrations, def. \ref{TopologicalGeneratingCofibrations}, and the classical generating acyclic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations}, under adjoining of basepoints (def. \ref{BasePointAdjoined}).
+
+=--
+
++-- {: .num_theorem #CofibrantGenerationOfPointedTopologicalSpaces}
+###### Theorem
+
+The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]] $Top^{\ast/}_{Quillen}$ of def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} as a [[cofibrantly generated model category]].
+
+=--
+
+(This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties).)
+
++-- {: .proof}
+###### Proof
+
+The proof proceeds exactly as that of theorem \ref{TopQuillenModelStructure}, with $I_{Top}$ replaced by $I_{Top^{\ast/}}$ and $J_{Top}$ replaced by $J_{Top^{\ast/}}$.
+
+=--
+
+
+We now consider the general [[loop space object]] and [[reduced suspension]] functors from prop. \ref{LoopingAsFunctorOnHomotopyCategory} specialized to the case of the model category $\mathcal{C} = Top_{Quillen}$. In fact prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} below holds generally for every model category ([Quillen 67](#Quillen67)), but using the above properties of the topological interval $I$ we get a more conceptual proof.
+
++-- {: .num_prop #ReducedSuspensionBySmashProductWithCircle}
+###### Proposition
+
+In [[pointed topological spaces]] $Top^{\ast/}$, 
+
+* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) for [[cylinder object]] beng the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]] 
+
+  $$
+    \Sigma X \simeq X \wedge S^1
+    \,,
+  $$
+
+Dually:
+
+* the [[loop space objects]] (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard pointed path space object $(-)^{I_+}$  are isomorphic to the [[pointed mapping space]] (example \ref{PointedMappingSpace})  with the [[1-sphere]]
+
+  $$
+    \Omega X \simeq X^{S^1}
+    \,.
+  $$
+
+Moreover, by the [[exponential object]]-property of the pointed [[mapping space]] (example \ref{PointedMappingSpace}) these form [[adjoint functors]]
+
+$$
+  ((-)\wedge S^1 \dashv (-)^{S^1})
+  \;\colon\;
+  Top^{\ast/}
+  \longrightarrow 
+  Top^{\ast/}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By immediate inspection. For instance the fiber of $X^{I_+} \longrightarrow X\times X$ is clearly the subspace of the unpointed mapping space $X^I$ on elements that take the endpoints of $I$ to the basepoint of $X$.
+
+The adjunction follows from general principles:
+
+$$
+  \begin{aligned}
+     Hom_{Top^{\ast/}}(X, Y^{S^1})
+     & =
+     Hom_{Top^{\ast/}}(X, fib(Y^{I_+} \to Y \times Y))
+     \\
+     & \simeq
+     fib( Hom_{Top^{\ast/}}( X, Y^{I_+}) \to Hom_{Top_{CW}^{\ast/}}(X, Y \times Y) )
+     \\
+     & \simeq
+     fib( Hom_{Top^{\ast/}}( X \wedge I_+, Y ) \to Hom_{Top_{CW}^{\ast/}}(X\vee X, Y) )
+     \\
+     & \simeq
+     Hom_{Top^{\ast/}}( cofib( X \vee X \to X \wedge I_+), Y )     
+     \\
+     & \simeq 
+     Hom_{Top}^{\ast/}(X \wedge S^1, Y)
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop #SuspensionAndLoopAreAdjointOnHomotopyCategory}
+###### Proposition
+
+The [[loop space]] functor $\Omega$ and [[reduced suspension]] functor $\Sigma$ (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) on the [[classical pointed homotopy category]] (def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}) are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
+
+$$
+  (\Sigma \dashv \Omega)
+  \;\colon\;
+  Ho(Top_{Quillen}^{\ast/})
+   \stackrel{\overset{\Sigma}{\longleftarrow}}{\underset{\Omega}{\longrightarrow}}
+  Ho(Top_{Quillen}^{\ast/})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By the statement of their existence (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). Since we may restrict to CW-complexes, the standard topological cylinder $(-)\times I$ is a cylinder object (prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}) and, generally, the standard topological path space $(-)^I$ is a path space object (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}).
+
+Now the adjunction of prop. \ref{ReducedSuspensionBySmashProductWithCircle} gives an adjunction
+
+$$
+  (\Sigma \dashv \Omega) 
+  \;\colon\;
+  Top^{\ast/}
+  \longrightarrow
+  Top^{\ast/}
+  \,.
+$$
+
+By prop. \ref{TopQuillenIsTopological} this is a [[Quillen adjunction]]. Hence the statement follows with prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}.
+
+=--
+
+
++-- {: .num_remark}
+###### Final remark
+
+What is called _[[stable homotopy theory]]_ is the result of universally forcing the $(\Sigma\dashv \Omega)$-[[adjunction]] of prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} to become an [[equivalence of categories]]. 
+
+=--
+
+This is the topic of the next section at_[[Introduction to Stable homotopy theory -- 1]]_.
+
 
 ## References
  {#References}
