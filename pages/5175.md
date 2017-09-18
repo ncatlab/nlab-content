@@ -19,6 +19,38 @@ A **Dirac distribution** or **Dirac $\delta$-distribution** $\delta(p)$ is the [
 
 ## Properties
 
+### Fourier transform
+
++-- {: .num_prop #FourierTransform}
+###### Proposition
+**([[Fourier transform of a distribution|Fourier transform]])
+
+The [[Fourier transform]] of the delta-distirbution on $\mathbb{R}^n$ is
+
+$$
+  \widehat {\delta}(\vec k)
+  \;=\; 
+  \int \delta(\vec x) e^{- i \vec x \cdot \vec k} d^n \vec x
+$$
+
+and hence the delta distribution itself has the expression
+
+$$
+  \delta(\vec x)
+  \;=\;
+  (2 \pi)^{-n}
+  \int
+    e^{ i \vec x \cdot \vec k}
+  d^n \vec k
+  \,.
+$$
+
+=--
+
+### Relation to point-supported distributions
+
+It is clear that:
+
 The delta distribution is a [[compactly supported distribution]], and in fact a [[point-supported distribution]].
 
 +-- {: .num_prop #PointSupportedDistributionsAreSumsOfDerivativesOfDeltaDistibutions}
