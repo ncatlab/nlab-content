@@ -1,4 +1,8 @@
 
+> See also _[[exponential object]]_.
+
+***
+
 # Exponential maps
 * table of contents
 {: toc}
@@ -120,7 +124,11 @@ A __[[logarithm]]__ is a [[local section]] of an exponential map.
 [[!redirects exponential function]]
 [[!redirects exponential functions]]
 
+
+[[!redirects exponent]]
+[[!redirects exponentiation]]
 [[!redirects exponential]]
+[[!redirects exponentials]]
 
 [[!redirects exponential series]]
 
@@ -129,3 +137,5 @@ A __[[logarithm]]__ is a [[local section]] of an exponential map.
 [[!redirects flows]]
 [[!redirects flow line]]
 [[!redirects flow lines]]
+
+
