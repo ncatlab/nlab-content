@@ -1003,22 +1003,7 @@ $$
   \pi_\bullet(E \wedge E \wedge X)
 $$
 
-is a [[natural isomorphism]] and hence for all $n \in \mathbb{N}$ there are isomorphisms
-
-$$
-  \pi_\bullet(E^{\wedge^{(n+2)}}\wedge X  )
-    \simeq
-  \underset{n+1\,factors}{
-  \underbrace{E_\bullet(E)
-    \otimes_{\pi_\bullet(E)}
-    \cdots
-    \otimes_{\pi_\bullet(E)}
-  E_\bullet(E)
-  }}
-    \otimes_{\pi_\bullet(E)}
-  E_\bullet(X)
-  \,.
-$$
+is a [[natural isomorphism]].
 
 
 =--
