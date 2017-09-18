@@ -28,7 +28,17 @@ A _Frobenius monad_ is a _[[monad]]_ which as a [[monoid]] in [[endofunctors]] i
 
 ## Examples
 
-The monad induced from an [[ambidextrous adjunction]] is Frobenius.
+The monad induced from an [[ambidextrous adjunction]] is Frobenius. The converse is also true: 
+
++-- {: .num_prop} 
+###### Proposition 
+If $M$ is a Frobenius monad on a category $C$, then the usual free-forgetful adjunction $F \dashv U: Alg_M \to C$ is an ambidextrous adjunction whose associated Frobenius monad is isomorphic to $M$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+In general, if a monad $M$ admits a [[right adjoint]] $K$, then $K$ carries a comonad structure [[mate]]d to the monad structure of $M$, and there is an adjoint equivalence $Alg_M \simeq CoAlg_K$ (considered as categories over $C$, via the usual forgetful functors). If $M$ is Frobenius, then $M \dashv M$ and the comonad structure mated to the monad is indeed the given comonad structure of $M$ (a proof is given [here](https://ncatlab.org/nlab/show/Frobenius+algebra#general)). Hence the left adjoint to the forgetful functor $Alg_M \to C$ may be identified with the right adjoint of the forgetful functor $CoAlg_M \to C$. 
+=-- 
 
 ## Related concepts
 
