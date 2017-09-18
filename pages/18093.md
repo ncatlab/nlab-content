@@ -35,8 +35,7 @@ Given that the scaling and separation axioms hold, the following conditions are 
 
 +-- {: .proof}
 ###### Proof 
-We just prove conditions 1. and 3. are equivalent, as that's all we need later. 
-Condition 1. implies condition 3. easily: if $\|u\| = 1 = \|v\|$ and $0 \leq t \leq 1$, we have 
+Since conditions 2. and 3. are pretty obviously equivalent, we just prove 1. and 3. are equivalent. Condition 1. implies condition 3. easily: if $\|u\| = 1 = \|v\|$ and $0 \leq t \leq 1$, we have 
 
 $$\array{
 {\|t u + (1-t)v\|} & \leq & {\|t u\|} + {\|(1-t)v\|} \\
@@ -70,7 +69,14 @@ for all $t \in [0, 1]$.
 
 +-- {: .proof} 
 ###### Proof 
-The function $g: x \mapsto {|x|}$ is convex, and for $1 \lt p$ the function $f: t \mapsto t^p$ for $t \geq 0$ is monotone increasing and convex, by the first and second derivative tests. It follows easily that the composite $f \circ g$ is convex. 
+The function $g: x \mapsto {|x|}$ is convex, and for $1 \lt p$ the function $f: t \mapsto t^p$ for $t \geq 0$ is monotone increasing and convex, by the first and second derivative tests. Thus $g(t x + (1-t)y) \leq t g(x) + (1-t)g(y)$ and then 
+
+$$\array{
+f(g(t x + (1-t)y)) & \leq & f(t g(x) + (1-t)g(y)) \\
+ & \leq & t f(g(x)) + (1-t)f(g(y))
+}$$ 
+
+so $f \circ g: x \mapsto {|x|^p}$ is convex. 
 =-- 
 
 +-- {: .proof}
