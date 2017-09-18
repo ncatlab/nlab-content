@@ -26,8 +26,12 @@ Refinement is a [[partial order]] on the class of partitions of $S$.
 
 Partitions of $S$ are in [[bijective correspondence]] with [[equivalence relations]] on $S$; a partition is precisely a collection of [[equivalence classes]].  Refinement corresponds to implication between relations.
 
-Likewise, any partition $\pi$ of $S$ induces a [[surjection]] $S \to \pi$ that assigns each element of $S$ to a unique block, and, conversely, any surjection $f : S \to B$ induces a partition of $S$ by taking the blocks to be the [[fiber]]s of $f$, $\pi = \{f^{-1}(x) \mid x \in B\}$.
-Then the refinement relation $\pi \le \rho$ holds between two partitions of $S$ just in case the surjection $S \to \rho$ can be factored as the surjection $S \to \pi$ followed by a (necessarily unique) function $\pi \to \rho$.
+Partitions of $S$ are also closely related to [[surjections]] out of $S$.
+Any partition $\pi$ of $S$ induces a surjection $S \to \pi$ that assigns each element of $S$ to a unique block, and, conversely, any surjection $f : S \to B$ induces a partition of $S$ by taking the blocks to be the [[fiber]]s $\{f^{-1}(x) \mid x \in B\}$.
+In general, many different surjections can map to the same partition under this correspondence. However, there is a natural [[preorder]] on surjections defined by taking $f \le g$ just in case there exists a (necessarily unique) $h$ such that $g = h \circ f$.
+Then the operations we have just described give an [[equivalence of categories|equivalence]]
+$$ Part(S) \rightleftarrows S \downarrow Surj $$
+between the partial order of partitions ordered by refinement and the preorder of surjections ordered by factorization.
 
 ### Of numbers
 
