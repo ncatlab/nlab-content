@@ -500,20 +500,20 @@ For more on this see at _[[Simpson's conjecture]]_.
 See [Ayala-Francis-Rozenblyum](#AFR15).
 
 
-## References
+## References and a bit of history.
  {#References}
 
 The equivalence between the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] and the [[classical model structure on simplicial sets|homotopy theory of Kan complexes]] is due to 
 
 * {#Quillen67} [[Daniel Quillen]], _Homotopical Algebra_, LNM 43, Springer, (1967) 
 
-But the interpretation of [[Kan complexes]] as a model for [[∞-groupoids]] remained not widely appreciated for a long while, due to them being an instance of a  [[geometric definition of higher categories]].
-
 Later in 
 
-* [[Alexander Grothendieck]], _[[Pursuing Stacks]]_, 1983  (including a letter to [[Daniel Quillen]] on the first few pages) 
+* [[Alexander Grothendieck]], _[[Pursuing Stacks]]_, 1983  (including and especially the 'letter to [[Daniel Quillen]]' given  on the first few pages),
 
-it was argued that also [[algebraic definitions of higher categories|algebraic definitions of higher groupoids]] ought to have a homotopy theory equivalent to the classical homotopy theory of topological spaces.
+it was argued that there were [[algebraic definitions of higher categories|algebraic definitions of higher groupoids]] that could be put forward,  so that the resulting objects ought to have a homotopy theory equivalent to the classical homotopy theory of topological spaces, and, moreover, would provide useful tools in the interpretation of [[non-abelian cohomology]] classes. This extended ideas that Grothendieck had explored in letters to [[Breen]] in the mid 1970s in which he had given a sketch of a theory of $n$-stacks and their relation with the homotopy $n$-type of a space or more generally a topos.
+
+At this stage, (in the  1970s and early 1980s) more _geometric_ or _combinatorial_ definitions of infinity categories were not yet available, or, perhaps more accurately, had been discovered, but were not _recognised_ as having such an infinity categoric interpretation. These models included Kan complexes which now are interpreted as being one model for infinity groupoids, and [[quasicategory|weak Kan complex]]es, as put forward by Boardman and Vogt, which give one of the main models for (weak) $(\infty,1)$-categories. From this perspective, Quillen's result can be seen as being a precursor of one form of the Homotopy Hypothesis.
 
 The name "homotopy hypothesis" for this statement is due to 
 
