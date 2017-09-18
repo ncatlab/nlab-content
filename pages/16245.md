@@ -15,6 +15,8 @@ $$
 
 All the coercions of a type system must be coherent in the sense that any two typing derivations of one type as a subtype of another must agree.
 
+In [[homotopy type theory]], the inclusion of a smaller [[universe|universe in type theory]] in a larger one is often considered as a coercion.
+
 ### Related concepts
 
 * [[subtype]]
