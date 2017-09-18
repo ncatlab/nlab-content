@@ -83,15 +83,28 @@ In ([Lawvere 2000](#Law00)) a particularly simple example of the [[adjoint cylin
 
 Let $N$ be the [[natural numbers]] $\{0, 1,\dots\}$ viewed as a [[category]] via their usual [[poset|ordering]]. Let $L,R:N\to N$ be the two parallel [[functors]] '_even_' and '_odd_' defined by $L(n) \coloneqq 2n$ and $R(n) \coloneqq 2n+1$.
 
-Both are [[fully faithful functor|full and faithful]], hence candidates for an [[adjoint cylinder]], and so we look now for a third functor $N\to N$ which with a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_ we will call $T$ , such that its forms an [[adjoint triple]] $L\dashv T\dashv R$.
+Both are [[fully faithful functor|full and faithful]], which means that they correspond to two subcategory inclusions and, accordingly, to two subcategories $N_{even}$ and $N_{odd}$ . We are now in situation where we have two subcategories that 'oppose' each other in that $N_{even}\neq N_{odd}$ but are nevertheless 'identical' in that there is a bijection $N_{even}\overset{\simeq}{\to} N_{odd}$. Furthermore, both are 'united' as different parts in the encompassing $N$ whose overall structure they represent in that $N_{even}\simeq N\simeq N_{odd}$ - that is somewhat unusual for what is to follow below where the opposing parts are seldom equivalent to the whole but they will always be a pair consisting of a reflective and a coreflective subcategory.
 
-For our simple [[poset]] example these [[adjunctions]] amount to $L(n)\leq m$ iff $n\leq T(m)$ and $n\leq R(m)$ iff $T(n)\leq m$. When such a $T$ exists it must satisfy $T\circ L \cong id\cong T\circ R$ which in our case just gives $T\circ L = id = T\circ R$ - the thirdness $T$ mediates the _identity_ of $L$ and $R$. Spelled out this says $T(2n)=n$ and $T(2n+1)=n$ which we simply take as the definition for $T$.
+Now it was Lawvere's observation that a third functor $N\to N$ which with a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_ we call $T$ , can encapsulate this bunch of relations in one sweep when it forms an [[adjoint triple]] $L\dashv T\dashv R$ with $L$ and $R$: 
 
-We also see here how $T$ mediates the _opposition_ between $L$ and $R$ because in order for such a $T$ to exist the functors $L$ and $R$ must (in this example) actually correspond to inclusions of _disjoint_ subcategories e.g. for $L(n)=2n$ and $G(n) \coloneqq 3n\quad$ $T$ would have to invert e.g. 6 to 2 and to 3 at the same time, which a function of course cannot do.
+1. The triple expresses the _unity_ by the idempotency of $(R\circ T)^2=R\circ T$ and $(L\circ T)^2=L\circ T$ typical for (co)reflective subcategories, 
 
-The _unity_ of the opposites is finally provided by the encompassing $N$ where they sit as subcategories $E$ and $O$ of even and odd numbers, respectively.
+1. it expresses the _opposition_ between $L$ and $R$ by an entailed adjunction $L\circ T\dashv R\circ T$,
+ 
+3. it expresses the _identity_ $L$ between $R$ by the entailed equivalence $T\circ L\simeq T\circ R$ .
 
-Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$ and $R$$T$ yield an [[idempotent comonad]] $sk:N\to N$ and an [[idempotent monad]] $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$: in new guises $L$ and $R$ resurface again but this time with an _unmediated opposition_ $sk\dashv cosk$ which expresses the conflict between $E$ and $O$, even and odd.
+In other words, _$T$ unites, opposes and identifies $L$ and $R$ at the same time_ !
+
+For our simple [[poset]] example the [[adjunctions]] $L\dashv T$ and  $T\dashv R $ amount to $L(n)\leq m$ iff $n\leq T(m)$ and $n\leq R(m)$ iff $T(n)\leq m$. When $T$ exists it must satisfy $T\circ L \cong id\cong T\circ R$ which in our case just gives $T\circ L = id = T\circ R$. Spelled out this says $T(2n)=n$ and $T(2n+1)=n$ which indicates as definition for $T$:
+
+$$
+T(k)=\Bigg\{ \array{\frac{k}{2}\quad k\in N_{even} \\
+                       \frac{k-1}{2} \quad k\in N_{odd}}
+$$
+
+Whereas $T\circ L$ and $T\circ R$ are each the identity, the reverse compositions $L\circ T$ and $R\circ T$ yield an [[idempotent comonad]] $sk:N\to N$ and an [[idempotent monad]] $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$: in new guises $L$ and $R$ resurface again but this time with in an 'opposition' $sk\dashv cosk$ which expresses formally the 'conflict' between $N_{even}$ and $N_{odd}$, even and odd, as well as their essential identity and unity.
+
+Hopefully this has provided some intuition how a mediated adjunction $l\dashv t\dashv r$ between two fully faithful functors $l,r$ captures the idea of unity-and-identity-of-opposites (UIO). The concept of Aufhebung then intends to capture the passage from such an UIO to another UIO thereby creating a dynamics between logical concepts.
  
 ### The mathematics of _Aufhebung_
  {#TheMathematicsOfAufhebung}
