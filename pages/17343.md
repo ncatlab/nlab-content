@@ -8804,7 +8804,7 @@ and so finally the claim follows by [[two-out-of-three]] (def. \ref{CategoryWith
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #HomotopyCommutativeSquares}
 ###### Remark
 
 There is a conceptual way to understand prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} as follows: 
@@ -8874,7 +8874,7 @@ Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in 
      \cdots 
        \longrightarrow 
      \Omega X 
-       \overset{\Omega f}{\longrightarrow}
+       \overset{\overline{\Omega} f}{\longrightarrow}
      \Omega Y 
        \longrightarrow 
      hofib(f) 
@@ -8885,7 +8885,9 @@ Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in 
      \,,
    $$
 
-   where each morphism is the [[homotopy fiber]] (def. \ref{HomotopyFiber}) of the following one: the **[[homotopy fiber sequence]]** of $f$. Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
+   where each morphism is the [[homotopy fiber]] (def. \ref{HomotopyFiber}) of the following one: the **[[homotopy fiber sequence]]** of $f$. Here $\overline{\Omega}f$ denotes $\Omega f$ followed by forming inverses with respect to the group structure on $\Omega(-)$ from prop. \ref{LoopingAsFunctorOnHomotopyCategory}.
+
+Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
 
    $$
      \cdots
@@ -8917,7 +8919,7 @@ Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in 
      hocofib(f)
        \longrightarrow
      \Sigma X
-       \overset{\Sigma f}{\longrightarrow}
+       \overset{\overline{\Sigma} f}{\longrightarrow}
      \Sigma Y
        \to \cdots
      \,,
@@ -8953,7 +8955,64 @@ Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in 
 +-- {: .proof}
 ###### Proof
 
-By combining prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} and  prop. \ref{ExactSequenceOfHomotopyFiberAtOneStage}.
+That there are long sequences of this form is the result of combining prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} and  prop. \ref{ExactSequenceOfHomotopyFiberAtOneStage}.
+
+It only remains to see that it is indeed the morphisms $\overline{\Omega} f$ that appear, as indicated. This is most transparent in the double-arrow notation for squares filled by homotopies from remark \ref{HomotopyCommutativeSquares}:
+
+Fix conventions such that the homotopy fiber of $f$ is represented by the square
+
+$$
+  \array{
+    hofib(f) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow_{\mathrlap{\eta}}& \downarrow
+    \\
+    X &\underset{f}{\longrightarrow}& Y
+  }
+$$
+
+(instead of by the same square with the homotopy pointing in the other direction). Observe then that the morphism $\Omega f$ is what appears in 
+
+$$
+  \array{
+    \Omega X &\longrightarrow& \ast
+    \\
+    {}^{\mathllap{\Omega f}}\downarrow &\swArrow_{\mathrlap{\eta_3}}& \downarrow
+    \\
+    \Omega Y & \longrightarrow & hofib(f) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow_{\mathrlap{\eta_2^{-1}}}& \downarrow &\swArrow_{\mathrlap{\eta_1}}& \downarrow
+    \\
+    \ast &\longrightarrow & X &\stackrel{f}{\longrightarrow}& Y
+  }
+  \;\;\;\;\;
+  \simeq  
+  \;\;\;\;\;
+  \left(
+  \array{
+    \ast &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    ker(f) &\longrightarrow& \ast
+    \\
+    \downarrow^{\mathrlap{g}} && \downarrow
+    \\
+    A &\stackrel{f}{\longrightarrow}& B
+    \\
+    \uparrow && \uparrow
+    \\
+    \ast &\longrightarrow& \ast
+  }
+  \right)
+  \stackrel{\underset{\longleftarrow}{\holim}}{\mapsto}
+  \left(
+    \Omega A \stackrel{\Omega f}{\longrightarrow} \Omega B
+  \right)
+  \,.
+$$
+
+But with this and the fixed convention, then the bottom left square shows that $\Omega B$ here is identified not as the homotopy fiber of $hofib(f) \to X$ but as the loop reversal of that. Conversely, as we enforce the convention to take homotopy fibers with fixed orientation, as we do in the statement to be proven, then an extra loop reversal appears in the above pasting diagram.
 
 =--
 
@@ -8988,7 +9047,7 @@ $$
   \pi_2(hofib(f))
    \overset{}{\longrightarrow}
   \pi_2(X)
-   \overset{f_\ast}{\longrightarrow}
+   \overset{-f_\ast}{\longrightarrow}
   \pi_2(Y)
    \longrightarrow
   \pi_1(hofib(f))
