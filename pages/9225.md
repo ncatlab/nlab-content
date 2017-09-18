@@ -1,13 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An [[algebra over an operad]] over the [[BD operad]].
+A _Beilinson-Drinfeld algebra_ (or _BD-algebra_ for short) is like a [[BV-algebra]], but over [[formal power series]] in one formal parameter $\hbar$, and with the [[Gerstenhaber algebra|Gerstenhaber bracket]] is proportional to that parameter. 
 
-For the moment see at _[[BV-complex]]_
+This means that on may think of a BD-algebra as an $\hbar$-parameterized formal family of algebras which for $\hbar = 0$ are [[Poisson 0-algebras]] and for $\hbar \neq 0$ are [[BV-algebras]] (maybe without the condition that the [[BV-operator]] is a derivation for the bracket).
+
+Such BD-algbras are used to formalize [[formal deformation quantization]] in the context of the [[BV-BRST formalism]].
 
 
 
@@ -24,7 +37,10 @@ A **quantum BV complex** or **Beilinson-Drinfeld algebra** is a $\mathbb{Z}$-[[g
 
 =--
 
-In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.5.
+(e.g. [Costello-Gwilliam, def. 1.4.0.1](#CostelliGwilliam), [Gwilliam 13, def. 2.2.5](#Gwilliam))
+
+This is [[algebra over an operad]] over the [[BD operad]].
+
 
 ## Related concepts
 
@@ -38,7 +54,7 @@ The notion was introduced in
 
 A discussion is in section 2.4 of
 
-* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]]), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf)) 
+* {#CostelloGwilliam} [[Kevin Costello]], [[Owen Gwilliam]], ([pdf](http://people.mpim-bonn.mpg.de/gwilliam/vol2may8.pdf))
 
 
 See also
