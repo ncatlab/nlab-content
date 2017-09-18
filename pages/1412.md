@@ -30,9 +30,9 @@ To pick just one example: there is a [[topological space]]  that goes by the nam
 
 * they correspond to equivalence classes of [[circle bundle]]s over $X$: that is, to spaces $P$ equipped with a map to $X$ such that over 
 a contractible open subset $U \subset X$ the space $P$ looks like
-the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such that the identification respects the action of the [[group]] $U(1)$ on the circle). One says that $\mathcal{B}U(1)$ is the [[classifying space]] for circle [[bundle]]s: $[X, \mathcal{B}U(1)] \simeq \{ $circle bundles over $X \}/{\sim}$.
+the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such that the identification respects the action of the [[group]] $U(1)$ on the circle).
 
-  * one says that $\mathcal{B}U(1)$ is the [[classifying space]] for circle bundles or that it [[representable functor|represents]] the assignment of circle bundles to spaces -- to some extent the topic of sheaves, and cohomology is all about the notion of such [[representable functor|representability]]
+  * Thus, one says that $\mathcal{B}U(1)$ is the [[classifying space]] for circle [[bundle]]s ($[X, \mathcal{B}U(1)] \simeq \{ $circle bundles over $X \}/{\sim}$) or that it [[representable functor|represents]] the assignment of circle bundles to spaces -- to some extent the topic of sheaves, and cohomology is all about the notion of such [[representable functor|representability]]
 
   * A famous such circle bundle you may have seen is the [[Hopf fibration]], which is a way to map the 3-dimensional sphere $S^3$ to the familiar 2-dimensional sphere $S^2$, such that over small parts $U \subset S^2$ of the 2-sphere the 3-sphere looks like the [[product]] space $U \times S^1$.
 
