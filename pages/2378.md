@@ -19,20 +19,189 @@
 
 ## Idea
 
-A natural [[topology]] on [[mapping space]]s of [[continuous function]]s.
+A natural [[topology]] on [[mapping space]]s of [[continuous function]]s, important because of its role in exhibiting locally compact topological spaces to be exponentiable, as demonstrated below, culminating in Corollary 13.
 
 ## Definition
 
-Let $X$ and $Y$ be [[topological spaces]]. The set $Map(X,Y)$ (often denoted also $C(X,Y)$) of [[continuous maps]] from $X$ to $Y$ has a natural topology called the __compact-open topology__: a [[topological base|subbase]] of that topology consists of sets of the form $U_{K,V}$, where $K\subset X$ is [[compact space|compact]] and $V\subset Y$ is [[open subspace|open]], which consists of all continuous maps $f:X\to Y$ such that $f(K)\subset V$. 
++-- {: .num_prop}
+###### Notation
 
+Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We denote by $Y^{X}$ the set of continuous maps from $(X,\mathcal{O}_{X})$ to $(Y, \mathcal{O}_{Y})$. 
 
-## Properties
+=--
 
-### Mapping spaces / Exponential objects
++-- {: .num_prop}
+###### Remark 
 
-The compact-open topology is most sensible when the topology of $X$ is [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]], for in this case $Map(X,Y)$ with the compact-open topology is an [[exponential object]] $Y^X$ in the category [[Top]] of all [[topological spaces]] (e.g. [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02)).  This implies the [[exponential law for spaces]] , i.e. the adjunction map is a bijection $Top(X,Map(Y,Z))\cong Top(X\times Y,Z)$ whenever $Y$ is locally compact Hausdorff; and it becomes a homeomorphism $Map(X,Map(Y,Z))\cong Map(X\times Y,Z)$ if in addition $X$ is also Hausdorff. See also [[convenient category of topological spaces]].
+Other common notations for $Y^{X}$ are $Map(X,Y)$ or $C(X,Y)$. 
 
-### For metric spaces
+=--
+
++-- {: .num_prop}
+###### Notation
+
+Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. We denote by $\mathcal{O}^{c}_{X}$ the set of subsets of $X$ which are compact with respect to $\mathcal{O}_{X}$.
+
+=--
+
++-- {: .num_prop}
+###### Notation
+
+Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. Let $A$ be a subset of $X$. We denote by $\overline{A}$ the closure of $A$ in $X$ with respect to  $\mathcal{O}_{X}$.
+
+=--
+
++-- {: .num_prop}
+###### Definition 
+
+A topological space $(X, \mathcal{O}_{X})$ is _locally compact_ if, for every $x \in X$ and every $U \in \mathcal{O}_{X}$ such that $x \in U$, there is a $V \in \mathcal{O}_{X}$ such that $x \in V$, such that $\overline{V} \in \mathcal{O}^{c}_{X}$, and such that $\overline{V} \subset U$.
+
+=--
+
++-- {: .num_prop}
+###### Remark
+
+There are many variations on this definition, which can be found at [[locally compact space]]. These are all equivalent if $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. We do _not_ however make the assumption that $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. 
+
+=--
+
++-- {: .num_prop}
+###### Notation
+
+Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. Given $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$, we denote by $M_{A,U}$ the set of continuous maps $f : X \rightarrow Y$ such that $f(A) \subset U$.
+
+=--
+
++-- {: .num_prop}
+###### Definition
+
+Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. The _compact-open_ topology on $Y^{X}$ is that with sub-basis given by the set of sets $M_{A,U}$ such that $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$. 
+
+=--
+
++-- {: .num_prop}
+###### Notation
+
+Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We shall denote the compact-open topology on $Y^{X}$ by $\mathcal{O}_{Y^{X}}$.  
+
+=--
+
+## Exponentiability
+
++-- {: .num_prop}
+###### Proposition 
+
+Let $(X, \mathcal{O}_{X})$ be a locally compact topological space, and let $(Y, \mathcal{O}_{Y})$ be a [[topological space]]. The map $ev : X \times Y^{X} \rightarrow Y$ given by $(x,f) \mapsto f(x)$ is continuous, where $X \times Y^{X}$ is equipped with the product topology $\mathcal{O}_{X \times Y^{X}}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y^{X}}$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By an elementary fact concerning continuous maps, it suffices to show that for any $(x,f) \in X \times Y^{X}$, and any $U \in \mathcal{O}_{Y}$ such that $f(x) \in U$, there is a $U' \in \mathcal{O}_{X \times Y^{X}}$ such that $(x,f) \in U'$, and such that $ev(U') \subset U$. 
+
+To demonstrate this, we make the following observations.
+
+1) Since $f$ is continuous, we have that $f^{-1}(U) \in \mathcal{O}_{X}$. 
+
+2) Since $(X, \mathcal{O}_{X})$ is locally compact, we deduce from 1) that there is a $V \in \mathcal{O}_{X}$ such that $x \in V$, such that $\overline{V} \in \mathcal{O}^{c}_{X}$, and such that $V \subset f^{-1}(U)$. 
+
+3) By 2) and by definition of $\mathcal{O}_{X \times Y^{X}}$ and $\mathcal{O}_{Y^{X}}$, we have that $V \times M_{\overline{V}, U} \in \mathcal{O}_{X \times Y^{X}}$, and that $(x,f) \in V \times M_{\overline{V}, U}$. 
+
+4)  Let $(x',f') \in V \times M_{\overline{V}, U}$, Since $x' \in V$, and since $f'(V) \subset f'(\overline{V}) \subset f(U)$, the latter inclusion holding by definition of $M_{\overline{V}, U}$, we have that $f'(x) \in U$. We deduce that $ev(V \times M_{\overline{V}, U}) \subset U$.
+
+By 3) and 4), we see that we can take $U'$ as the beginning of the proof to be $V \times M_{\overline{V}, U}$. 
+
+=--
+
++-- {: .num_prop}
+###### Proposition 
+
+Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and     $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Let $f : X \times Y \rightarrow Z$ be a continuous map, where $X \times Y$ is equipped with the product topology $\mathcal{O}_{X \times Y}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y}$. Then the map $\alpha_{f} : X \rightarrow Z^{Y}$ given by $x \mapsto f_{x}$ is continuous, where $f_{x} : Y \rightarrow Z$ is given by $y \mapsto f(x,y)$, and where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. 
+
+=--
+
++-- {: .proof}
+
+###### Proof
+
+By an elementary fact concerning continuous maps, it suffices to show that for any $x \in X$, and any $M_{A,U} \in \mathcal{O}_{Z^{Y}}$ such that $f_{x} \in M_{A,U}$, there is a $U' \in \mathcal{O}_{X}$ such that $x \in U'$, and such that $\alpha_{f}( U' ) \subset M_{A,U}$. 
+
+To demonstrate this, we make the following observations.
+
+1) Since $f_{x} \in M_{A,U}$, we have, by definition of $f_{x}$ and by definition of $M_{A,U}$, that $f(x,a) \in U$ for all $a \in A$. 
+
+2) Since $f$ is continuous, we have that $f^{-1}(U) \in \mathcal{O}_{X \times Y}$. 
+
+3) By 1), we have that $\{x\} \times A \subset f^{-1}(U)$. 
+
+4) Let $\mathcal{O}_{X \times A}$ denote the subspace topology on $X \times A$ with respect to $\mathcal{O}_{X \times Y}$. By 2), we have that $f^{-1}(U) \cap (X \times A) \in \mathcal{O}_{X \times A}$. 
+
+5) By 3), we have that $\{x \} \times A \subset f^{-1}(U) \cap (X \times A)$. 
+
+6) Since $A \in \mathcal{O}^{c}_{Y}$, it follows from 4), 5), and the tube lemma that there is a $U' \in \mathcal{O}_{X}$ such that $x \in U'$ and such that $U' \times A \subset f^{-1}(U) \cap (X \times A) \subset f^{-1}(U)$.
+
+7)  We deduce from 6) that $f(U' \times A) \subset U$. This is the same as to say that $f_{x'}(a) \in U$ for all $x' \in U'$. Thus $f_{x'}$ belongs to $M_{A,U}$ for all $x' \in U'$, which is the same as to say that $\alpha_{f}(U') \subset M_{A,U}$.
+
+We conclude that we can take the required $U'$ of the beginning of the proof to be the $U'$ of 6).
+
+=--
+
++-- {: .num_prop}
+###### Proposition 
+
+Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and     $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Let $f : X \rightarrow Z^{Y}$ be a continuous map, where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. Then the map $\alpha^{-1}_{f} : X \times Y \rightarrow Z$ given by $(x,y) \mapsto \big( f(x) \big)(y)$ is continuous, where $X \times Y$ is equipped with the product topology $\mathcal{O}_{X \times Y}$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We make the following observations.
+
+1) We have that $\alpha^{-1}_{f} = ev \circ \tau \circ (f \times id)$, where $\tau : Z^{Y} \times Y \rightarrow Y \times Z^{Y}$ is given by $(f,y) \mapsto (y,f)$.
+
+2) By Proposition 10, we have that $ev$ is continuous. 
+
+3) It is an elementary fact that $\tau$ is continuous. 
+
+4) Since $f$ is continuous, it follows by an elementary fact that $f \times id$ is continuous. 
+
+5) We deduce from 2) - 4) that $ev \circ \tau \circ (f \times id)$ is continuous. By 1), we conclude that $\alpha^{-1}_{f}$ is continuous.
+
+=--
+
++-- {: .num_prop}
+###### Corollary
+
+Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$  be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Then $(Y^{X}, \mathcal{O}_{Y^{X}})$ together with the corresponding map $ev$ defines an exponential object in the category $\mathsf{Top}$ of all topological spaces.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Follows immediately from Proposition 11, Proposition 12, and the fact that $Y^{X}$ and $ev$ are exhibited by the corresponding maps $\alpha_{-}$ and  $\alpha^{-1}_{-}$ of Proposition 11 and Proposition 12 to define an exponential object in the category $\mathsf{Set}$ of sets.
+
+=--
+
++-- {: .num_prop}
+###### Remark
+
+A proof can also be found in [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02), or just about any half-decent textbook on point-set topology!  
+
+However, the result is almost universally stated with an assumption that $(X,\mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]] which, as the proof we have given illustrates, is not needed.
+
+=--
+
++-- {: .num_prop}
+###### Remark
+
+We moreover have a homeomorphism $Map(X,Map(Y,Z))\cong Map(X\times Y,Z)$ if in addition $X$ is [[Hausdorff space|Hausdorff]]. See also [[convenient category of topological spaces]].
+
+=--
+
+## Metric spaces
 
 If $Y$ is a [[metric space]] then the compact-open topology on $Map(X,Y)$ is the _topology of uniform convergence on compact subsets_ in the sense that $f_n \to f$ in $Map(X,Y)$ with the compact-open topology iff for every compact subset $K\subset X$, $f_n \to f$ uniformly on $K$. If (in addition) the domain $X$ is compact then this is the _topology of uniform convergence_.
 
