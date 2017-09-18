@@ -1,13 +1,38 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Motivated by the [[Freudenthal suspension theorem]], the _suspension category_ of ([Spanier-Whitehead 53](#SpanierWhitehead53)) has as [[objects]] [[pointed topological space|pointed]]  [[CW-complexes]], and as [[hom-sets]] it has [[colimits]] $\underset{\longrightarrow}{\lim}_q [\Sigma^q X , \Sigma^q Y]$ over [[homotopy classes]] of [[continuous functions]] between their arbitrary high [[suspensions]].
+Motivated by the [[Freudenthal suspension theorem]], the _suspension category_ of ([Spanier-Whitehead 53](#SpanierWhitehead53)) has as [[objects]] [[pointed topological space|pointed]]  [[CW-complexes]], and as [[hom-sets]] it has [[colimits]] 
 
-Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this is usefully thought as just the [[full subcategory]] on the [[suspension spectra]] inside the larger category of [[spectra]]: the [[stable homotopy category]].
+$$
+  Hom(X,Y) \coloneqq \underset{\longrightarrow}{\lim}_q [\Sigma^q X , \Sigma^q Y]
+$$ 
+
+over [[homotopy classes]] of [[continuous functions]] between their arbitrary high [[suspensions]].
+
+More generally one considers the category whose objects are pairs $(X,n)$ of a [[pointed topological space|pointed]]  [[CW-complex]] $X$ and an [[integer]] $n$ and whose [[hom-sets]] are 
+
+$$
+  Hom((X_1,n_1), (X_2,n_2)) \coloneqq \underset{\longrightarrow}{\lim}_{q \gt max({\vert n_1\vert},{\vert n_2\vert})} [\Sigma^{q+n_1} X_1 , \Sigma^{q+n_2} X_2]
+  \,.
+$$
+
+This is a [[triangulated category]].
+
+Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this is usefully thought as just the [[full subcategory]] on the (shifted) [[suspension spectra]]  inside the larger category of [[spectra]]: the [[stable homotopy category]]. 
 
 ## Related concepts
 
