@@ -979,6 +979,10 @@ Lectures, discussing also the relation to the [[graph complex]] are
 * Jian Qiu, [[Maxim Zabzine]], _Introduction to graded geometry, Batalin-Vilkovisky formalism and their applications_, [arxiv/1105.2680](http://arxiv.org/abs/1105.2680); _Knot weight systems from graded symplectic geometry_, [arxiv/1110.5234](http://arxiv.org/abs/1110.5234); _Odd Chern-Simons theory, Lie algebra cohomology and characteristic classes_, [arxiv/0912.1243](http://arxiv.org/abs/0912.1243)
 * Klaus Fredenhagen, Katarzyna Rejzner, _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, [arxiv/1110.5232](http://arxiv.org/abs/1110.5232)
 
+Gluing aspects are in focus of the program explained in 
+
+* Alberto S. Cattaneo, Pavel Mnev, Nicolai Reshetikhin, _Perturbative BV theories with Segal-like gluing_, [arxiv/1602.00741](http://arxiv.org/abs/1602.00741)
+
 #### For non-Lagrangian theories
  {#ReferencesForNonLagrangianEquations}
 
