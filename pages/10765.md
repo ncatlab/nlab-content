@@ -19,7 +19,7 @@ Every [[finite abelian group]] is a [[direct sum]] of its $p$-primary subgroups.
 
 +-- {: .num_prop #center} 
 ###### Proposition 
-Every $p$-primary group $G$ has a nontrivial [[center of a group|center]] $Z(G)$. 
+Every [[finite set|finite]] $p$-primary group $G$ has a nontrivial [[center of a group|center]] $Z(G)$. 
 =-- 
 
 +-- {: .proof} 
@@ -39,7 +39,7 @@ Since the center $Z(G)$ is a [[normal subgroup]] of $G$, we may define by induct
 
 $$Z^0(G) \subseteq \ldots \subseteq Z^{k-1}(G) \subseteq Z^k(G) \subseteq \ldots$$ 
 
-is called the *upper central series* of $G$, and Proposition \ref{center} shows that in the case of a $p$-group, this series consists of strict inclusions that eventually terminate in the full subgroup $G$. A group with that property is a [[nilpotent group]]. In particular it is a [[solvable group]]. 
+is called the *upper central series* of $G$, and Proposition \ref{center} shows that in the case of a finite $p$-group, this series consists of strict inclusions that eventually terminate in the full subgroup $G$. A group with that property is a [[nilpotent group]]. In particular it is a [[solvable group]]. 
 
 ## Examples
 
