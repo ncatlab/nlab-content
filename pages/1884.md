@@ -49,12 +49,33 @@ $$
 
 This [[abelian group]] obtained from $(Vect(X)_{/\sim}, \oplus)$ is denoted $K(X)$ and often called _the K-theory_ of the space $X$. Here the letter "K" (due to [[Alexander Grothendieck]]) originates as a shorthand for the German word _Klasse_, referring to the above process of forming [[equivalence classes]] of ([[isomorphism classes]]) of vector bundles.
 
-This simple construction turns out to yield remarkably useful groups of homotopy [[invariants]]. 
+This simple construction turns out to yield remarkably useful groups of [[homotopy]] [[invariants]]. 
 A variety of deep facts in [[algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance the [[Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)). 
 
-...[[index theory]], [[Dirac operator]], [[spin geometry]] [[Karoubi K-theory]]...
+One defines the "higher" K-groups of a topological space to be those of its higher [[suspensions]] 
 
-In theoretical [[physics]], K-theory plays a central role in the theory of [[geometric quantization]] ("[[spin^c quantization]]") and in the theory of [[D-branes]], where it models [[D-brane charge]] and [[RR-fields]].
+$$
+  K^{-n}(X) = K(\Sigma^n X)
+  \,.
+$$
+
+The assignment $X \mapsto K^\bullet(X)$ turns out to share many properties of the assignment of [[ordinary cohomology]] groups $X \mapsto H^n(X,\mathbb{Z})$. One says that topological K-theory is a [[generalized (Eilenberg-Steenrod) cohomology]] theory. As such it is [[Brown representability theorem|represented]] by a [[spectrum]]. For $k = \mathbb{C}$ this is called [[KU]], for $k = \mathbb{R}$ this is called [[KR]].
+
+One of the basic facts about topological K-theory, rather unexpected from the definition, is that these higher K-groups repeat _periodically_ in the degree $n$. For $k = \mathbb{R}$ the periodicity is 8, for $k = \mathbb{C}$ it is 2. This is called _[[Bott periodicity]]_.
+
+
+It turns out that an important source of [[virtual vector bundles]] representing classes in [[K-theory]] are [[index bundles]]: Given a [[Riemannian manifold|Riemannian]] [[spin structure|spin]] [[manifold]] $B$, then there is a [[vector bundle]] $S \to B$ called the _[[spin bundle]]_ of $B$, which carries a [[differential operator]], called the [[Dirac operator]] $D$. The [[index of a Dirac operator]] is the formal difference of its [[kernel]] by its [[cokernel]] $[ker D, coker D]$. Now given a continuous family $D_x$ of Dirac operators/Fedholm operators, parameterized by some topological space $X$, then these indices combine to a class in $K(X)$.
+
+It is via this construction that topological K-theory connects to [[spin geometry]] (see e.g. [[Karoubi K-theory]]) and [[index theory]].
+
+As the terminology indicates, both [[spin geometry]] and [[Dirac operator]] originate in [[physics]]. Accordingly, K-theory plays a central role in various areas of theoretic physics, for instance in the theory of [[geometric quantization]] ("[[spin^c quantization]]") in the theory of [[D-branes]] (where it models [[D-brane charge]] and [[RR-fields]]).
+
+All these geometric constructions have an [[operator algebra|operator algebraic]] incarnation: by the topological [[Serre-Swan theorem]] then [[vector bundles]] of finite rank are equivalently [[modules]] over the [[C*-algebra]] of [[continuous functions]] on the base space. Using this relation one may express K-theory classes entirely operator algebraically, this is called _[[operator K-theory]]_. Now [[Dirac operators]] are generalized to [[Fredholm operators]].
+
+There are more [[C*-algebras]] than arising as [[algebras of functions]] of [[topological space]], namely non-commutative C*-algebras. One may think of these as defining [[non-commutative geometry]], but the definition of [[operator K-theory]] immediately generalizes to this situation (see also at _[[KK-theory]]_).
+
+While the [[C*-algebra]] of a [[Riemannian manifold|Riemannian]] [[spin structure|spin]] [[manifold]] remembers only the underlying [[topological space]], one may algebraically encode the [[smooth structure]] and [[Riemannian structure]] by passing from [[Fredholm modules]] to "[[spectral triples]]". This may for instance be used to algebraically encode the spin physics underlying the [[standard model of particle physics]] and [[operator K-theory]] plays a crucial role in this.
+
 
 
 ### Motivational example: "nonabelian K-cohomology" ###
