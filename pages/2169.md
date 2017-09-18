@@ -16,7 +16,7 @@
 
 ## Idea
 
-A normed division algebra is an [[associative algebra]] (over some [[ground field]]) that is both a [[division algebra]] as well as a multiplicatively [[normed algebra]]. 
+A normed division algebra is a [[not-necessarily associative algebra]], over some [[ground field]], that is both a [[division algebra]] as well as a multiplicatively [[normed algebra]]. 
 
 It turns out that over the [[real numbers]] there are precisely only four normed division algebras up to [[isomorphism]]: the algebras of 
 
