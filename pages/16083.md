@@ -23,7 +23,7 @@
 
 ## Idea
 
-The [[equations of motion]] of [[supergravity]] typically imply -- or are even equivalent to (e.g. [Howe 97](#Howe97)), that the [[supertorsion|super-]][[torsion of a Cartan connection|torsion]] of the super-[[vielbein fields]] vanishes. At least in some cases these _supergravity torsion constraints_ may naturally be understood as saying that supergravity solutions are ([[higher Cartan geometry|higher]]) [[supergeometry|super]] [[Cartan geometries]] modeled on [[extended super Minkowski spacetime]] _with_ its canonical [[torsion of a G-structure]], due to the fact that the [[left invariant 1-forms]] on super-Minkowski space are not closed.
+The [[equations of motion]] of [[supergravity]] typically imply -- or are even equivalent to (e.g. [Howe 97](#Howe97)), that the [[supertorsion|super-]][[torsion of a Cartan connection|torsion]] of the super-[[vielbein fields]] vanishes. At least in some cases these _supergravity torsion constraints_ may naturally be understood as saying that supergravity solutions are ([[higher Cartan geometry|higher]]) [[super-Cartan geometry]] modeled on [[extended super Minkowski spacetime]] _with_ its canonical [[torsion of a G-structure]], due to the fact that the [[left invariant 1-forms]] on super-Minkowski space are not closed.
 
 
 
@@ -216,7 +216,7 @@ A mathematical formulation in terms of [[torsion of a G-structure|torsion-full]]
 
 which is followed up in
 
-* Michel Egeileh, Fida El Chami, _Some remarks on the geometry of superspace supergravity_, _J.Geom.Phys. 62 (2012) 53-60_ ([spire](http://inspirehep.net/record/1333125))
+* [[Michel Egeileh]], [[Fida El Chami]], _Some remarks on the geometry of superspace supergravity_, J.Geom.Phys. 62 (2012) 53-60 ([spire](http://inspirehep.net/record/1333125))
 
 
 ### For 11d supergravity
