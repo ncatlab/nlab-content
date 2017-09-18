@@ -26,7 +26,7 @@ Equivalently, since fast varying moduli appear as light or massless [[particles]
 
 In [[classical field theory]] of [[gravity]] then KK-compactifications are argued ([Penrose 03, section 10.3](#Penrose03)) to generically be unstable by the [[Penrose-Hawking singularity theorem]]. 
 
-In [[string theory]] it is argued that string theoretic effects may stabilize the compact dimensions, namely a combination of [[flux compactification]] and [[non-perturbative effect|non-perturbative]] [[brane]] effects ([Acharya 02](#Acharya02), [KKLT 03](#KKLT03)). However, these arguments typically focus on fluctuations that preserve given [[special holonomy]] ([[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]] in type II or [[M-theory on G2-manifolds|G2-manifolds in M-theory]]). There is also a more generic argument for volume compactification by string winding modes ("Brandenberger-Vafa mechanism" [Brandenberger-Vafa 89](#BrandenbergerVafa89), [Watson-Brandenberger 03](#WatsonBrandenberger03)) and the claim ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) that in the non-perturbative [[IKKT model]] computer simulations show a spontaneous stable compactification to 3+1 dimensions.
+In [[string theory]] it is argued that string theoretic effects may stabilize the compact dimensions, namely a combination of [[flux compactification]] and [[non-perturbative effect|non-perturbative]] [[brane]] effects ([Acharya 02](#Acharya02), [KKLT 03](#KKLT03)). However, these arguments typically focus on fluctuations that preserve given [[special holonomy]] ([[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]] in type II or [[M-theory on G2-manifolds|G2-manifolds in M-theory]]). There is also a more generic argument for volume compactification by string winding modes ("[[Brandenberger-Vafa mechanism]]" [Brandenberger-Vafa 89](#BrandenbergerVafa89), [Watson-Brandenberger 03](#WatsonBrandenberger03)) and the claim ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) that in the non-perturbative [[IKKT model]] computer simulations show a spontaneous stable compactification to 3+1 dimensions.
 
 ## In string theory
 
@@ -71,9 +71,10 @@ The problem of generic in-stability of moduli of gravity KK-compactifications is
 
 #### In type II string theory
 
-A generic argument for stabilization of compact dimensions in [[type II string theory]] via string winding modes at the self-[[T-duality]] radius is given in
+A generic argument for stabilization of compact dimensions in [[type II string theory]] via string winding modes at the self-[[T-duality]] radius is the [[Brandenberger-Vafa mechanism]], see e.g.
 
-* {#BrandenbergerVafa89} [[Robert Brandenberger]], [[Cumrun Vafa]], _Superstrings In The Early Universe_, Nucl. Phys. B 316, 391  (1989)
+* {#BrandenbergerVafa89} [[Robert Brandenberger]], [[Cumrun Vafa]], _Superstrings In The Early Universe_, Nucl. Phys. B 316, 391  (1989) ([spire](http://inspirehep.net/record/263348))
+
 
 * {#WatsonBrandenberger03} Scott Watson, [[Robert Brandenberger]], _Stabilization of Extra Dimensions at Tree Level_, JCAP 0311 (2003) 008 ([arXiv:hep-th/0307044](http://arxiv.org/abs/hep-th/0307044))
 
