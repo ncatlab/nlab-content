@@ -1,18 +1,1 @@
-Two functors $F\colon \mathsf{C}_\mathrm{l}\rightarrow\mathsf{C}_\mathrm{r}$ and $G\colon \mathsf{C}_\mathrm{l}\rightarrow\mathsf{C}_\mathrm{r}$ may justifiably called _essentially pointwise isomorphic_ if 
-
-* there exists a [[class function (set theory)]] $\Phi\colon\mathrm{Ob}(\mathsf{C}_\upl)\rightarrow\mathrm{Ar}(\mathsf{C}_{\mathrm{r}})$ such that 
-
-for each $O_{\mathrm{l}}\in\mathrm{Ob}(\mathsf{C}_{\mathrm{l}})$ the morphism 
-
- $\Phi(O_{\mathrm{l}})\colon F(O_{\mathrm{l}})\rightarrow G(O_{\mathrm{l}})$ is an isomorphism in $\mathsf{C}_\mathrm{r}$
-
-but 
-
-there does not exist any [[natural transformation]] $F\Rightarrow G$, in the standard sense.
-
-
-
-
-References
-
-* [[Martin Brandenburg]], _[MO answer](https://mathoverflow.net/q/139396)_ 
+Possible synonym for [[unnaturally isomorphic]].
