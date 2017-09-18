@@ -77,9 +77,14 @@ A review is for instance around ([Fiore-Paoli def. 3.1](#FiorePaoli)).
 
 By construction (or the [[adjoint functor theorem]]), the subdivision functor $Sd$ on simplicial sets has a [[right adjoint]], called $Ex$.  A countably infinite iteration of $Ex$, called $Ex^\infty$, can be used to construct [[Kan fibrant replacements]] in the [[model structure on simplicial sets]].
 
-This functorial subdivision corresponds to the classical [[barycentric subdivision]].  Other [[classical triangulation|classical subdivision]]s that are frequently encountered include the middle edge subdivision.  This latter is closely related to the [[ordinal subdivision]] of simplicial sets.
+This functorial subdivision corresponds to the classical [[barycentric subdivision]].  
 
-### Relation to category of simplices
+
+##Other types of subdivision
+
+Other [[classical triangulation|classical subdivision]]s that are frequently encountered include the middle edge subdivision.  This latter is closely related to the [[ordinal subdivision]] of simplicial sets.
+
+## Relation to category of simplices
  {#RelationToCategoryOfSimplices}
 
 
