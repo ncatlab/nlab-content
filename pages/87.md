@@ -258,7 +258,9 @@ The term "anafunctor" was introduced by Michael Makkai in
 * Makkai, [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) 
 {#Makkai}
 
-The concept alsoappears, unnamed, in the article
+motivated in part to complete the analogy prophase:anaphase::profunctor:??.
+
+The concept also appears, unnamed, in the article
 
 [[Max Kelly]], _Complete functors in homology I_ (1963) 
 {#Kelly}
@@ -272,11 +274,11 @@ The popularity of the term was notably pushed by [[Toby Bartels]], who considere
 
 A development and exposition of the general setup taking Makkai's and Bartels' motivations and the theory of [[homotopical category|homotopical categories]] into account is
 
-* [[David Roberts]], * _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
+* [[David Roberts]], _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
 
 See also
 
-* [[Erik Palmgren]], *Locally cartesian closed categories without chosen constructions*, [TAC](http://www.tac.mta.ca/tac/volumes/20/1/20-01abs.html).
+* [[Erik Palmgren]], _Locally cartesian closed categories without chosen constructions_, [TAC](http://www.tac.mta.ca/tac/volumes/20/1/20-01abs.html).
 
 Since anafunctors are a special case of a more general concept, they, or the general theory applying to them, has been considered under different terms elsewhere. 
 
