@@ -13,6 +13,8 @@ A **soliton solution** of a nonlinear [[wave equation]] is a solution whose larg
 
 * [[vortex]]
 
+* [[black hole]], [[black brane]]
+
 ## Refereneces
 
 
