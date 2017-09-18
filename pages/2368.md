@@ -3053,6 +3053,9 @@ In the next section we work out what these symmetric monoidal categories of orth
 
 We now define [[symmetric spectra]] and [[orthogonal spectra]] and their symmetric monoidal smash product. We proceed by giving the explicit definitions and then checking that these are equivalent to the abstract definition \ref{SsymModuleSymmetricSpectra} from above.
 
+**Literature.** ( [Hovey-Shipley-Smith 00, section 1, section 2](#HoveyShipleySmith00), [Schwede 12, chapter I](#Schwede12)) 
+
+$\,$
 
 +-- {: .num_defn #SymmetricSpectrum}
 ###### Definition
@@ -3061,7 +3064,7 @@ A topological **[[symmetric spectrum]]** $X$  is
 
 1. a sequence $\{X_n  \in Top_{cg}^{\ast/}\;\vert\; n \in \mathbb{N}\}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]];
 
-1. a basepoint preserving continuous right [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
+1. a basepoint preserving continuous right [[action]] of the [[symmetric group]] $\Sigma(n)$ on $X_n$;
 
 1. a sequence of morphisms  $\sigma_n \colon S^1 \wedge X_n  \longrightarrow X_{n+1}$ 
 
@@ -3082,7 +3085,7 @@ such that
     \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
   $$
 
-  [[intertwiner|intertwines]] the $\Sigma_{n} \times \Sigma_k$-[[action]].
+  [[intertwiner|intertwines]] the $\Sigma(n) \times \Sigma(k)$-[[action]].
 
 A [[homomorphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
@@ -3090,7 +3093,7 @@ A [[homomorphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
 such that
 
-1. each $f_n$ [[intertwiner|intetwines]] the $\Sigma_n$-[[action]];
+1. each $f_n$ [[intertwiner|intetwines]] the $\Sigma(n)$-[[action]];
 
 1. the following [[commuting diagram|diagrams commute]]
 
@@ -3111,7 +3114,9 @@ We write $SymSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra
 
 =--
 
-(e.g. [Schwede 12, def. 1.1](#Schwede12))
+([Hovey-Shipley-Smith 00, def. 1.2.2](#HoveyShipleySmith00), [Schwede 12, def. 1.1](#Schwede12))
+
+The definition of orthogonal spectra has the same structure, just with the  [[symmetric groups]] replaced by the [[orthogonal groups]].
 
 
 +-- {: .num_defn #OrthogonalSpectrum}
@@ -3167,7 +3172,7 @@ such that
      \,.
    $$
 
-We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra.
+We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of orthogonal spectra.
 
 =--
 
@@ -3178,13 +3183,15 @@ We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectr
 Definitions \ref{SymmetricSpectrum} and \ref{OrthogonalSpectrum}
 are indeed equivalent to def. \ref{SsymModuleSymmetricSpectra}:
 
+orthogonal spectra are euqivalently the [[module objects]] over the incarnation $\mathbb{S}_{orth}$ of the sphere spectrum
+
 $$
   OrthSpec(Top_{cg})
    \simeq
   \mathbb{S}_{orth} Mod
 $$
 
-and
+and symmetric spectra sre equivalently the module objects over the incarnation $\mathbb{S}_{sym}$ of the sphere spectrum
 
 $$
   SymSpec(Top_{cg})
@@ -3195,47 +3202,97 @@ $$
 
 =--
 
+([Hovey-Shipley-Smith 00, prop. 2.2.1](#HoveyShipleySmith00))
+
++-- {: .proof}
+###### Proof
+
+We discuss this for symmetric spectra. The proof for orthogonal spectra is of the same form.
+
+First of all, by example \ref{CoendGivesQuotientByDiagonalGroupAction} an object in $[Sym, Top^{\ast/}_{cg}]$ is equivalently a "symmetric sequence", namely a sequence of pointed topological spaces $X_k$, for $k \in \mathbb{N}$, equipped with an [[action]] of $\Sigma(k)$ (def. \ref{TopologicalDiagramCategoriesForSpectra}).
+
+By corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} and lemma \ref{FSPStructuredSphereSpectra}, the structure morphism of an $\mathbb{S}_{sym}$-[[module object]] on $X$
+
+$$
+  \mathbb{S}_{sym} \otimes_{Day} X \longrightarrow X
+$$
+
+is equivalently (as a [[functor with smash products]]) a natural transformation
+
+$$
+  S^{n_1} \wedge X_{n_2} \longrightarrow X_{n_1 + n_2}
+$$
+
+over $Sym \times Sym$. This means equivalently that there is such a morphism for all $n_1, n_2 \in \mathbb{N}$ and that it is $\Sigma(n_1) \times \Sigma(n_2)$-equivariant.
+
+Hence it only remains to see that these natural transformations are uniquely fixed once the one for $n_1 = 1$ is given. To that end, observe that lemma \ref{FSPStructuredSphereSpectra} says that in the following [[commuting squares]] (exhibiting the action property on the level of functors with smash product, where we are notationally suppressing the [[associators]]) the left vertical morphisms are [[isomorphisms]]:
+
+$$
+  \array{
+    S^{n_1}\wedge S^{n_2} \wedge X_{n_3} 
+      &\longrightarrow&
+    S^{n_1} \wedge X_{n_2 + n_3}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow
+    \\
+    S^{n_1+ n_2} \wedge X_{n_3}
+      &\longrightarrow&
+    X_{n_1 + n_2 + n_3}
+  }
+  \,.
+$$
+
+This says exactly that the action of $S^{n_1 + n_2}$ has to be the composite of the actions of $S^{n_2}$ followed by that of $S^{n_1}$. Hence the statement follows by [[induction]].
+
+Finally, the definition of [[homomorphisms]] on both sides of the equivalence are just so as to preserve precisely this structure, hence they conincide under this identification.
+
+=--
+
 +-- {: .num_defn #SmashProductOfSymmetricSpectra}
 ###### Definition
 
 Given $X,Y \in SymSpec(Top_{cg})$ two [[symmetric spectra]], def. \ref{SymmetricSpectrum}, then their **[[smash product of spectra]]** is the symmetric spectrum
 
 $$
-  X \wedge Y \in SymSpec(Top_{cg})
+  X \wedge Y 
+   \; \in SymSpec(Top_{cg})
 $$
 
 with component spaces the [[coequalizer]]
 
 $$
   \underset{p+1+q = n}{\bigvee}
-  (\Sigma_{p+1+q})_+ 
+  \Sigma(p+1+q)_+ 
     \underset{\Sigma_p \times \Sigma_1 \times \Sigma_q}{\wedge}
-  X_p \wedge S^1 \wedge X_q
+  X_p \wedge S^1 \wedge Y_q
   \underoverset
    {\underset{r}{\longrightarrow}}
    {\overset{\ell}{\longrightarrow}}
    {\phantom{AAAA}}
   \underset{p+q=n}{\bigvee}
-   (\Sigma_{p+q})_+
+   \Sigma(p+q)_+
    \underset{\Sigma_p \times \Sigma_q}{\wedge}
-   X_p \wedge X_q
-  \overset{coequ}{\longrightarrow}
+   X_p \wedge Y_q
+  \overset{coeq}{\longrightarrow}
   (X \wedge Y)(n)
 $$
 
 where $\ell$ has components given by the structure maps
 
 $$
-  X_p \wedge S^1 \wedge X_q
-    \overset{id \wedge \sigma_q}{\longrightarrow}
-  X_p \wedge X_q
+  X_p \wedge S^1 \wedge Y_q
+    \overset{id \wedge \sigma_{q}}{\longrightarrow}
+  X_p \wedge Y_q
 $$
 
 while $r$ has components given by the structure maps conjugated by the [[braiding]] in $Top^{\ast/}_{cg}$ and the [[permutation]] [[action]] $\chi_{p,1}$ (that [[shuffle|shuffles]] the element on the right to the left)
 
+{#ShuffleActionInCoequalizerForSmashProductOfSpectra}
 $$
   X_p \wedge S^1 \wedge X_q
-    \overset{\tau_{X_p,S^1} \wedge id}{\longrightarrow}
+    \overset{\tau^{Top^{\ast/}_{cg}}_{X_p,S^1} \wedge id}{\longrightarrow}
   S^1 \wedge X_p \wedge X_q
     \overset{\sigma_p\wedge id}{\longrightarrow}
   X_{p+1} \wedge X_q
@@ -3247,46 +3304,58 @@ $$
 The structure maps of $X \wedge Y$ are those induced under the coequalizer by
 
 $$
-  S^1 \wedge X_p \wedge X_q
-   \overset{\sigma_p\wedge id}{\longrightarrow}
-  X_{p+1} \wedge X_q
+  X_p \wedge Y_q \wedge S^1
+    \overset{id \wedge \sigma_{p}}{\longrightarrow}
+  X_{p} \wedge Y_{q+1}
   \,.
 $$
 
+Analogously for orthogonal spectra.
+
 =--
 
-(e.g. [Schwede 12, p. 82](#Schwede12))
+([Schwede 12, p. 82](#Schwede12))
 
 +-- {: .num_prop #AbstractFormulaGivesSmashProductOfSymmetricSpectra}
 ###### Proposition
 
 Under the identification of prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the explicit [[smash product of spectra]] in def. \ref{SmashProductOfSymmetricSpectra} is equivalent to the abstractly defined tensor product in def. \ref{SsymModuleSymmetricSpectra}:
 
+in the case of [[symmetric spectra]]:
+
 $$
   \wedge \simeq \otimes_{\mathbb{S}_{sym}}
+$$
+
+in the case of [[orthogonal spectra]]:
+
+$$
+  \wedge \simeq \otimes_{\mathbb{S}_{orth}}
   \,.
 $$
 
 =--
 
+([Schwede 12, E.1.16](#Schwede12))
+
 +-- {: .proof}
 ###### Proof
 
-By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the tensor product of two $\mathbb{S}_{sym}$-modules $X$ and $Y$ is the [[coequalizer]] 
+By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the abstractly defined tensor product of two $\mathbb{S}_{sym}$-modules $X$ and $Y$ is the [[coequalizer]] 
 
 $$
   X \otimes_{Day} \mathbb{S}_{sym} \otimes_{Day} Y
   \underoverset
-    {\underset{\rho_{1}\circ (\tau_{X, \mathbb{S}_{sym}} \otimes Y)}{\longrightarrow}}
+    {\underset{\rho_{1}\circ (\tau^{Day}_{X, \mathbb{S}_{sym}} \otimes id)}{\longrightarrow}}
     {\overset{X \otimes \rho_2}{\longrightarrow}}
     {\phantom{AAAA}}
   X \otimes Y
-    \overset{coequ}{\longrightarrow}
-  X \otimes_{\mathbb{S}_{seq}} Y
+    \overset{coeq}{\longrightarrow}
+  X \otimes_{\mathbb{S}_{sym}} Y
   \,.
 $$
 
-The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra} and hence for any two symmetric spectra $A$ and $B$ this is
+The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By example \ref{CoendGivesQuotientByDiagonalGroupAction} and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the symmetric group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
 
 $$
   \begin{aligned}
@@ -3296,13 +3365,13 @@ $$
      \underset{
       = \left\{
           \array{
-             \Sigma_{n_1 + n_2} & if \; n_1+n_2 = n 
+             \Sigma(n_1 + n_2,n)_+ & if \; n_1+n_2 = n 
              \\
-             \emptyset & otherwise
+             \ast & otherwise
            }
       \right.
      }{
-       \underbrace{Sym(n_1 + n_2, n)}
+       \underbrace{\Sigma(n_1 + n_2, n)}
      }_+
       \wedge
      A_{n_1}
@@ -3311,8 +3380,8 @@ $$
     \\
     & \simeq
     \underset{n_1 + n_2 = n}{\bigvee}
-     (\Sigma_{n_1+n_2})_+
-     \underset{\Sigma_{n_1}\times \Sigma_{n_2}}{\wedge}     
+     \Sigma(n_1+n_2)_+
+     \underset{O(n_1) \times O(n_2) }{\wedge}     
      \left(
        A_{n_1}
          \wedge
@@ -3322,15 +3391,96 @@ $$
   \,.
 $$
 
-This gives the form of the coequalizer and the nature of the morphism $\ell$. To see that the morphism $r$ involves conjugation by the braiding $\tau^{Top^{\ast/}_{cg}}$ in $Top^{\ast/}_{cg}$ and the symmetric group action, which by def. \ref{TopologicalDiagramCategoriesForSpectra} is the braiding $\tau^{Sym}_{n_1,n_2}$ in $Sym$, use the formula for the braiding of the Day convolution tensor product from prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
+This establishes the form of the coequalizer diagram. It remains to see that under this identification the two abstractly defined morphisms are the ones given in def. \ref{SmashProductOfSymmetricSpectra}.
+
+To see this, we apply the adjunction isomorphism between the [[Day convolution product]] and the [[external tensor product]] (cor. \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}) twice, to find the following sequence of equivalent incarnations of morphisms:
 
 $$
-  \tau_{A,B}(n)
+  \array{
+  \arrayopts{\rowlines{solid}}
+    (X \otimes_{Day} ( \mathbb{S}_{orth} \otimes_{Day} Y ))(n)
+      &\longrightarrow&
+    (X \otimes_{Day} Y)(n)
+      &\longrightarrow&
+    Z_n
+    \\
+    X_{n_1} \wedge (\mathbb{S}_{sym} \otimes_{Day} Y)(n'_2)
+      &\longrightarrow&
+    X_{n_1}\wedge Y(n'_2) 
+      &\longrightarrow&
+    Z_{n_1 + n'_2}
+    \\
+    (\mathbb{S}_{sym} \otimes_{Day} Y)(n'_2) 
+      &\longrightarrow&
+    Y(n'_2)
+      &\longrightarrow&
+    Maps(X_{n_1}, Z_{n_1 + n'_2})
+    \\
+    S^{n_2} \wedge Y_{n_3}
+      &\longrightarrow&
+    Y_{n_2 + n_3}
+      &\longrightarrow&
+    Maps(X_{n_1}, Z_{n_1 + n_2 + n_3})
+    \\
+    X_{n_1} \wedge S^{n_2} \wedge Y_{n_3}
+      &\longrightarrow&
+    X_{n_1} \wedge Y_{n_2 + n_3}
+      &\longrightarrow&
+    Z_{n_1 + n_2 + n_3}
+  }
+  \,.
+$$
+
+This establishes the form of the morphism $\ell$. By the same reasoning as in the proof of prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, we may restrict the coequalizer to $n_2 = 1$ without changing it. 
+
+The form of the morphism $r$ is obtained by the analogous sequence of identifications of morphisms, now with the parenthesis to the left. That it involves $\tau^{Top^{\ast/}_{cg}}$ and the permutation action $\tau^{sym}$ as shown [above](#ShuffleActionInCoequalizerForSmashProductOfSpectra) follows from the formula for the braiding of the Day convolution tensor product from the proof of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
+
+
+$$
+  \tau^{Day}_{A,B}(n)
   =
   \overset{n_1,n_2}{\int}
    Sym( \tau^{Sym}_{n_1,n_2}, n )
     \wedge 
    \tau^{Top^{\ast/}_{cg}}_{A_{n_1}, B_{n_2}}
+$$
+
+by translating it to the components of the precomposition
+
+$$
+  X \otimes_{Day} \mathbb{S}_{sym}
+   \overset{\tau^{Day}_{X,\mathbb{S}_{sym}}}{\longrightarrow}
+  \mathbb{S}_{sym} \otimes_{Day} X
+  \overset{}{\longrightarrow}
+  X
+$$
+
+via the formula from the proof of prop. \ref{TopologicalLeftKanExtensionBCoend} for the [[left Kan extension]] $A \otimes_{Day} B \simeq Lan_{\otimes} A \overline{\wedge} B$ (prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}):
+
+$$
+  \begin{aligned}
+    [Sym, Top^{\ast/}_{cg}]( \tau^{Day}_{X,\mathbb{S}_{sym}}, X)
+    &
+    \simeq
+    \underset{n}{\int}
+    Maps( 
+      \overset{n_1, n_2}{\int}
+      Sym( \tau^{sym}_{n_1,n_2}, n )
+       \wedge 
+      \tau^{Top^{\ast/}_{cg}}_{X_{n_1}, S^{n_2}}
+      ,
+      X(n)
+    )_\ast
+    \\
+    &
+    \simeq
+    \underset{n_1,n_2}{\int}
+    Maps(
+      \tau_{X_{n_1}, S^{n_2} }^{Top^{\ast/}_{cg}}
+      ,
+      X( \tau^{sym}_{n_1,n_2} )
+    )_\ast
+  \end{aligned}
   \,.
 $$
 
