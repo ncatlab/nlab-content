@@ -24,6 +24,8 @@ Other examples include:
 Lots to say here: the meet-[[semilattice]] of [[idempotents]], the connection with [[ordered groupoid]]s, various representation theorems.
 =--
 
+### Idempotents form a subsemigroup 
+
 +-- {: .num_prop #triv} 
 ###### Proposition 
 For any $x$ in an inverse semigroup, $x x^\ast$ and $x^\ast x$ are idempotent. If $e$ is idempotent, then $e^\ast = e$. 
@@ -38,16 +40,16 @@ In an inverse semigroup, the product of any two idempotents $e, f$ is idempotent
 
 +-- {: .proof} 
 ###### Proof 
-One easily checks that $(e f)^\ast = f(e f)^\ast e$, and that $f(e f)^\ast e$ is an idempotent. So $(e f)^\ast$ is idempotent; as a result, $(e f)^\ast = e f$. Thus $e f$ and similarly $f e$ are idempotent. We then have 
+One easily checks that $(e f)^\ast = f(e f)^\ast e$, and that $f(e f)^\ast e$ is an idempotent. So $(e f)^\ast$ is idempotent; as a result, $(e f)^\ast = e f$. Thus $e f$ and similarly $f e$ are idempotent. Next we have 
 
 $$e f (f e) e f = e f^2 e^2 f = e f e f = e f, \qquad f e (e f) f e = f e^2 f^2 e = f e f e = f e$$ 
 
-since $e, f, e f, f e$ are all idempotent, and so $f e = (e f)^\ast = e f$, completing the proof. 
+since $e, f, e f, f e$ are all idempotent, and so $f e = (e f)^\ast = e f$, which completes the proof. 
 =-- 
 
 Thus the idempotents in an inverse semigroup form a subsemigroup which is commutative and idempotent. Such a structure is the same as a meet-semilattice except for the fact that there might not have an empty meet or top element; that is, we define an order $\leq$ on idempotents by $e \leq f$ if and only if $e = e f$, whence multiplication of idempotents becomes the binary meet. 
 
-
+### The $\ast$ operation is an involution 
 
 +-- {: .num_lemma #invol} 
 ###### Lemma 
@@ -62,6 +64,8 @@ $$x y (y^\ast x^\ast) x y = x (y y^\ast)(x^\ast x) y = x x^\ast x y y^\ast y = x
 
 and similarly $y^\ast x^\ast (x y)y^\ast x^\ast = y^\ast y y^\ast x^\ast x x^\ast = y^\ast x^\ast$, which is all we need. 
 =-- 
+
+### Order structure 
 
 +-- {: .num_prop #ord} 
 ###### Proposition 
@@ -92,19 +96,45 @@ x & = & y f & \\
 which gives $3. \Rightarrow 2.$ 
 =-- 
 
-A [[partial order]] $\leq$ is defined on an inverse semigroup by saying $x \leq y$ if any of the four conditions of Proposition \ref{ord} is satisfied. When restricted to idempotents, this order coincides with the meet-semilattice order. 
+A [[preorder]] $\leq$ is defined on an inverse semigroup by saying $x \leq y$ if any of the four conditions of Proposition \ref{ord} is satisfied; transitivity follows by equivalence to 1. and closure of idempotents under multiplication. When restricted to idempotents, this preorder coincides with the meet-semilattice order. 
 
-+-- {: .num_prop} 
++-- {: .num_prop #order} 
 ###### Proposition 
 If $a \leq b$ and $x \leq y$ in an inverse semigroup, then $a x \leq b y$ and $x^\ast \leq y^\ast$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-We observe from Proposition \ref{ord} that for any elements $c, x$ we have $c x^\ast x = x x^\ast c$. From the hypotheses $a = a a^\ast b$ and $x = y x^\ast x$ we have $a x = a a^\ast b y x^\ast x = (x x^\ast) a a^\ast b y$ by our observation. But $e = (x x^\ast)(a a^\ast)$ is idempotent by Lemma \ref{comm}. This gives $a x \leq b y$. If $x = e y$ for an idempotent $e$, then $x^\ast = (e y)^\ast = y^\ast e^\ast = y^\ast e$; this gives $x^\ast \leq y^\ast$, 
+Writing $a = e b$ for some idempotent $e$, we have $a x = e (b x)$ and so $a x \leq b x$. Similarly $b x \leq b y$, so $a x \leq b y$ by transitivity. 
+This gives $a x \leq b y$. If $x = e y$ for an idempotent $e$, then $x^\ast = (e y)^\ast = y^\ast e^\ast = y^\ast e$; this gives $x^\ast \leq y^\ast$, 
 =-- 
 
++-- {: .num_cor} 
+###### Corollary 
+The preorder $\leq$ on an inverse semigroup is a [[partial order]], i.e., if $x \leq y$ and $y \leq x$, then $x = y$. 
+=-- 
 
++-- {: .proof} 
+###### Proof 
+From $x \leq y$ we derive $x^\ast \leq y^\ast$ and $x x^\ast \leq y y^\ast$, and similarly from $y \leq x$ we derive $y y^\ast \leq x x^\ast$. Thus $x x^\ast = y y^\ast$ since the preorder on idempotents is a meet-semilattice, which is a partial order. Then from $x \leq y$ we derive $x = x x^\ast y = y y^\ast y = y$. 
+=-- 
+
+Thus an inverse semigroup is naturally regarded as an internal semigroup in the category of posets (equivalently, a finite-product preserving functor from the [[Lawvere theory]] of semigroups to [[Pos]]). 
+
+### Connection with ordered groupoids 
+
+In this section, an *ordered groupoid* means an [[internal category|internal]] [[groupoid]] in the [[finitely complete category]] of posets [[Pos]]. For any finitely complete category $C$, we observe that the forgetful functor $Gpd(C) \to SemiCat(C)$, taking an internal groupoid in $C$ to the underlying [[semicategory]] (remembering only composition of morphisms, forgetting presence of inverses and identity morphisms), has a right adjoint which takes a semicategory to the [[core]] groupoid of the category of idempotents attached to a semicategory (see [here](/nlab/show/semicategory#idempotents) for details). (This observation is formulated in [[internal logic|finite limit logic]], and thus by a Yoneda lemma argument, its validity reduces to that of the observation in the special case $C = Set$.) 
+
+In particular, this construction may be applied to an inverse semigroup seen as a semigroup in $Pos$: 
+
++-- {: .num_defn} 
+###### Definition 
+The *inductive groupoid* $Ind(S)$ attached to an inverse semigroup $S$ is the core of the category of idempotents $Idem(S)$ of $S$, which as a semigroup in $Pos$ is viewed as a one-object semicategory $B S$ in $Pos$. 
+=-- 
+
+In more detail: an arrow $e \to e'$ in $Idem(S)$ is a triple $(e, x, e')$ of elements in $S$, where $e, e'$ are idempotent elements and $x$ is an element such that $x e = x = e' x$. Such an arrow is invertible precisely when $e = x^\ast x$ and $e' = x x^\ast$, with inverse $x^\ast$. Thus the core consists of such arrows $x: x^\ast x \to x x^\ast$. 
+
+The key example to keep in mind is the inverse semigroup of partial bijections $\phi$ on a set, where the arrows of the corresponding inductive groupoid are actual invertible maps $\dom(\phi) \to range(\phi)$ between subsets. In general, the object part of the associated inductive groupoid is not just a poset, but a poset with binary meets. 
 
 ##Links
 
