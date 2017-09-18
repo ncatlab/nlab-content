@@ -18,7 +18,7 @@
 
 Arithmetic geometry is a branch of [[algebraic geometry]] studying [[schemes]] (usually of [[morphism of finite type|finite type]]) over the [[spectrum (geometry)|spectrum]] [[Spec(Z)]] of the [[commutative ring]] of [[integers]]. More generally, [[algebraic geometry]] over non-[[algebraically closed fields]] or fields of [[positive characteristic]] is also referred to as "arithmetic algebraic geometry".
 
-Since an [[affine variety]] in this context is given by solutions to [[Diophantine equations]], this is alse called _Diophantine geometry_.
+Since an [[affine variety]] in this context is given by solutions to [[Diophantine equations]], this is also called _Diophantine geometry_.
 
 An archetypical application of arithmetic geometry is the study of [[elliptic curves]] over the [[integers]] and the [[rational numbers]].
 
