@@ -38,33 +38,7 @@ The generalization of differentiable manifolds to [[higher differential geometry
 
 ### Traditional definition
 
-Traditionally, a _smooth manifold_ is defined as follows.
-
-#### As special topological manifold
-
-+-- {: .num_defn}
-###### Definition
-
-A [[manifold]] is a **smooth manifold** if its transition functions are [[smooth function]]s $\mathbb{R}^n \to \mathbb{R}^n$, or in other words a $G$-manifold over the pseudogroup $G$ of $C^\infty$ [[diffeomorphisms]] between open sets of a [[Euclidean space]]. 
-
-So a smooth manifold is a $C^k$-[[differentiable manifold]] for all $k$.
-
-A [[homomorphism]] of smooth manifolds is a [[smooth function]]. Smooth manifolds and smooth functions form the category [[Diff]].
-
-
-=--
-
-#### As special locally ringed space
-
-+-- {: .num_prop}
-###### Proposition
-
-A  smooth manifold is equivalently a  [[locally ringed space]] $(X,\mathcal{O}_X)$ which is locally isomorphic to the ringed space $(\mathbb{R}^n, C^\infty(-) )$.
-
-(...)
-
-=--
-
+For the traditional definition see at _[[differentiable manifold]]_.
 
 ### Patching as idempotent splitting
 
