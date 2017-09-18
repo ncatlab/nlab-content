@@ -1,3 +1,4 @@
+[[!redirects local net]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,9 +17,21 @@
 
 ## Idea
 
-A _local net of observables_ is the assignment associated to a [[quantum field theory]] of [[algebra]]s of [[local quantum field theory|local]] [[observables]] to pieces of [[spacetime]].
+In [[quantum field theory]] (or [[classical field theory]]) a _causally local net of observables_ is a system (a [[co-presheaf]]) of [[algebras of observables]] assigned to regions of [[spacetime]],  such that this satisfies a few basic properties, such as notably _[[causal locality]]_, saying that observables whose spacetime [[support]] is [[spacelike]]-separated (graded-)commute with each other ([[Poisson bracket|Poisson]]-commute, in the case of classical field theory).
 
-In the context of [[AQFT]] the structure of local nets is used as the very axiomatization of what a quantum field theory is (as opposed to the context of [[FQFT]], where instead the [[state]]-propagation is used as the basic axiom).
+(Beware that the meaning of "net" here is vaguely similar to, but different from, the concept of _[[net]]_ (as in: generalized [[sequences]] of points) as used in [[topology]]. Better terminology might be "causally local system of spacetime-localized observables". But "local net" is traditional and has become standard.)
+
+In the context of [[algebraic quantum field theory]] the structure of the local net of quantum observables is used as the very [[axiom|axiomatization]] of what a [[quantum field theory]] actually is ("[[Haag-Kastler axioms]]"). This may be thought of as a formalization of a spacetime-localized form of the [[Heisenberg picture]] of [[quantum physics]] (or rather the [[interaction picture]] in the case of [[perturbative AQFT]]); as opposed to the formalizatin of the [[Schrödinger picture]] in [[FQFT]], where instead the [[state]]-propagation is used as the basic axiom.
+
+Traditionally local nets of observables are assumed to take values in [[C*-algebras]], but the basic form of the axioms does not actually refer to [[topology|topological]] structure on the algebras, and makes sense more generally.
+
+In particular in [[perturbative quantum field theory]] made precise via [[causal perturbation theory]], the [[algebras of quantum observables]] are taken to be [[formal power series algebras]] (reflecting the [[infinitesimal]] nature of [[perturbation theory]]) and one _derives_ from [[causal additivity]] of the [[S-matrix]] that the perturbative [[quantum observables]] form a local not of formal power series algebras (see at _[S-matrix -- Causal locality and Quantum observables](S-matrix#CausalLocality)_). Accordingly, this infinitesimal/pertrubative version of [[AQFT]] is called _[[perturbative AQFT]]_.
+
+Other variants may be considered. For [[AQFT on curved spacetimes]] one generalizes from observables associated with regions of [[Minkowski spacetime]] toobsrvables associated with more general [[globally hyperbolic spacetimes]]. Combining this with perturbation theory is then called _[[locally covariant perturbative AQFT]]_.
+
+Moreover, if [[gauge theory]] with nontrivial global [[gauge field]] configurations is to be considered ([[instantons]]) then one may show that one needs to consider some kind of [[homotopy theory|homotopy theoretic]] local nets of _[[homotopical algebras]]_. See at _[[homotopical AQFT]]_.
+
+
 
 
 ## Definition
