@@ -244,8 +244,8 @@ The formulation of [[cohesive topos|axiomatic cohesion]] on 1-[[categories]] is 
 
 The [[Coq]] formalization of [[cohesive (infinity,1)-topos|axiomatic homotopy cohesion]] is discussed in 
 
-* [[Mike Shulman]], _Internalizing the external, or The Joys of Codiscreteness_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/internalizing_the_external_or.html))
- {#ShulmanInternalizing}
+* {#ShulmanInternalizing} [[Mike Shulman]], _Internalizing the external, or The Joys of Codiscreteness_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/internalizing_the_external_or.html))
+ 
 
 The corresponding Coq-code library is at 
 
@@ -254,6 +254,10 @@ The corresponding Coq-code library is at
 In the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) formerly known as traditional mathematics, homotopy cohesion is discussed in
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+
+Various discussion of cohesive homotopy type theory appears at
+
+* [[Alexander Berenbeim]], _Explorations of the interesection of Cohesive Homotopy Type Theory, Allegory Theory, and Model Categories_ ([web](http://topostheorist.wordpress.com))
 
 
 [[!redirects cohesive homotopy type theories]]
