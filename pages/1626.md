@@ -123,6 +123,33 @@ However, many results come out more cleanly by disqualifying the empty space (mu
 
 Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The [[equivalence class]] $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from Result \ref{2} that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by Result \ref{5}. A space is connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
 
++-- {: .num_defn #ComponentsConnected}
+###### Definition
+**(connected components)**
+
+For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
+are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
+regards to points as equivalent if they both sit in some [[open subset]]
+which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
+
+$$
+  (x \sim y)
+    \;\coloneqq\;
+  \left(
+    \underset{ U \subset X \; \text{\open} }{\exists}
+    \left(
+       \left( x,y \in U \right)
+        \phantom{A}\text{and}\phantom{A}
+       \left( U \, \text{is connected} \right)
+    \right)
+  \right)
+  \,.
+$$
+
+=--
+
+
+
 There is another equivalence relation $\sim_q$ where $x \sim_q y$ if $f(x) = f(y)$ for every continuous $f: X \to D$ mapping to a [[discrete space]] $D$. The equivalence class of $x$ may be alternatively described as the intersection of all clopens that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. It is easy to prove that 
 
 $$Conn(x) \subseteq QConn(x)$$ 
@@ -399,6 +426,61 @@ is a pseudo-arc.
 =-- 
 
 Roughly speaking, Henderson's $f$ is a small "notched" perturbation of the squaring function $[0, 1] \to [0, 1]: x \mapsto x^2$, as illustrated on page 38 (of 58) [here](http://www.akasimikrasna.sk/uploads/1/4/1/0/14106449/spitalsky2014.pdf). 
+
+## Properties
+ {#Properties}
+
++-- {: .num_prop #ClosureOfConnectedSubspaceIsConnected}
+###### Proposition
+
+Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] which, as a [[subspace]], is connected. Then also the [[topological closure]] $Cl(S) \subset X$ is connected
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Suppose that $Cl(S) = A \sqcup B$ with $A,B \subset X$ [[disjoint subsets]]. We need to show that one of the two is empty.
+
+But also the intersections $A \cap S$ and $B \cap S$ are disjoint subsets with $S = (A \cap S) \sqcup (B \cap S)$. Hence by the connectedness of $S$, one of $A \cap S$ or $B \cap S$ is empty. Assume $B \cap S$ is empty, otherwise rename. Hence $A \cap S = S$, or equivalently: $S \subset A$. By disjointness of $A$ and $B$ this means that  $S \subset Cl(S) \setminus B$. But since $B$ is open, $Cl(S) \setminus B$ is still closed, so that 
+
+$$
+  (S \subset Cl(S) \setminus B)
+  \Rightarrow
+  (Cl(S) \subset Cl(S) \setminus B)
+  \,.
+$$
+
+This means that $B = \emptyset$, and hence that $Cl(S)$ is connected.
+
+=--
+ 
++-- {: .num_prop #ConnectedComponentsAreClosed}
+###### Proposition
+**(connected components are closed)**
+
+Let $(X,\tau)$ be a [[topological space]]. Then its connected components (def. \ref{ComponentsConnected}) are [[closed subsets]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition, the connected components are [[maximal elements]] in the set of connected suspaces [[preorder|pre-ordered]] by inclusion. By prop. \ref{ClosureOfConnectedSubspaceIsConnected} this means that they must contain their closures, hence they must equal their closures.
+  
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{ConnectedComponentsAreClosed} implies that when a space has a [[finite set]] of connected components, then they are not just closed but also open, hence [[clopen subsets]] (because then each is the [[complement]] of a finite union of closed subspaces).
+
+For a non-finite set of connected components this remains true is the space is [[locally connected topological space|locally connected]]. See ...
+
+=--
+
 
 
 ## Related concepts
