@@ -11,6 +11,8 @@ A [[cover]] by a [[finite set]] of patches
 
 * [[locally finite cover]]
 
+* [[countable cover]]
+
 * [[compact topological space]]
 
 [[!redirects finite covers]]
