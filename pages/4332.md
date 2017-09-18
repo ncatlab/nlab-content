@@ -86,11 +86,11 @@ A famous example of this in [[string theory]] comes from the case where $\hat G 
 
 We list examples of local gauge groups and -[[∞-groups]] for various higher [[gauge theories]].
 
-* the gauge group of $G$-[[Yang-Mills theory]] is the given [[Lie group]] $G$; for the Yabg-Mills theory appearing in the [[standard model of particle physics]] this is the [[unitary group]] $U(3) \times SU(2) \times U(1)$;
+* the gauge group of $G$-[[Yang-Mills theory]] is the given [[Lie group]] $G$; for the Yang-Mills theory appearing in the [[standard model of particle physics]] this is the [[unitary group]] $U(3) \times SU(2) \times U(1)$;
 
 * the local gauge group of [[gravity]] on a [[manifold]] $X$ is the [[Poincare group]];
 
-* the gauge [[2-group]] of the [[Kalb-Ramond field]] is the [[circle n-group|circle 2-group]] $\mathbf{B} U() = (U(1) \to 1)$;
+* the gauge [[2-group]] of the [[Kalb-Ramond field]] is the [[circle n-group|circle 2-group]] $\mathbf{B} U(1) = (U(1) \to 1)$;
 
 * the gauge [[3-group]] of the [[supergravity C-field]] is the [[circle n-group|circle 3-group]] $\mathbf{B}^2 U(1) = (U(1) \to 1 \to 1)$;
 
