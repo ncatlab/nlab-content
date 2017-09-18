@@ -85,5 +85,11 @@ which is the [[inversion involution]] (given by sending any element to its [[inv
 The [[moduli stack]] of 1-dimensional tori in [[algebraic geometry]] is discussed (as the cusp point inside the [[moduli stack of elliptic curves]]) in
 
 * {#LawsonNaumann12} [[Tyler Lawson]], [[Niko Naumann]], Appendix A of _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_ ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
+
+Discussion of the [[homotopy type]] of the torus in [[homotopy type theory]] is in
+
+* [[Dan Licata]], [[Guillaume Brunerie]], _A cubical approach to synthetic homotopy theory_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/lb15cubicalsynth/lb15cubicalsynth.pdf))
+
+
 [[!redirects tori]]
 
