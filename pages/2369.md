@@ -23,7 +23,7 @@
 
 The terminology  _(commutative) ring spectrum_ refers either to a ([[commutative monoid|commutative]]) [[monoid]] in the [[stable homotopy category]] regarded as [[monoidal category]] via the [[smash product of spectra]], or to the richer structure of a [[monoid]] in a [[model structure for spectra]] equipped with a [[symmetric smash product of spectra]]. 
 
-In the first case a ring spectrum is a [[spectrum]] equipped with a unit and product operation, which is associative, unital  (and commutative) just up to unspecified [[homotopy]], such as in an [[H-space]] structure. Therefore one also says _H-ring spectrum_ ([Bruner-May-McLure-Steinberger 86](#BrunerMayMcLureSteinberger86)).
+In the first case a ring spectrum is a [[spectrum]] equipped with a unit and product operation, which is associative, unital  (and commutative) just up to unspecified [[homotopy]], such as in an [[H-space]] structure. Accordingly, these might be called "H-ring spectra", but it is traditional to just call them "ring specta." (An _[[H-infinity ring spectrum]]_ ([Bruner-May-McLure-Steinberger 86](#BrunerMayMcLureSteinberger86)) is such an H-ring spectrum equipped with some extra structure modeling [[extended power]] operations).
 
 In the second case the structure is much richer; and in good cases, such as for [[highly structured spectra]], is equivalent to [[A-∞ ring]] structure ([[E-∞ ring]] structure).
 
@@ -76,7 +76,7 @@ Conversely via the [[Brown representability theorem]] a spectrum representing a 
 
 * {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], appendix C of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]])
 
-* {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], J. McLure, M. Steinberger, _H Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986
+* {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McLure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
 
 Quick survey includes
 
@@ -118,6 +118,8 @@ Discussion of [[simplicial ring|simplicial]] ring spectra is in
 See also the references at [[stable homotopy theory]].
 
 * Glossary for stable and chromatic homotopy theory ([[StableChromaticGlossary.pdf:file]])
+
+
 
 [[!redirects ring spectra]]
 
