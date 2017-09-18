@@ -184,7 +184,7 @@ We are interested in the [[stable homotopy category]] of [[spectra]], to which w
 
 While the field of [[algebraic topology]] clearly originates in [[topology]], it is not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]], namely [[homeomorphism]], but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "weak [[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are [[invariants]] of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class. 
 
-The [[category]] of topological spaces obtained by [[localization of a category|forcing]] [[weak homotopy equivalences]] to become [[isomorphisms]] is the "classical [[homotopy category]]" [[Ho(Top)]]. This homotopy category however has forgotten a little too much information: homotopy theory really wants the [[weak homotopy equivalences]] not to become plain [[isomorphisms]], but to become actual [[homotopy equivalences]]. The structure that reflects this is called a _[[model category]]_ structure (short for "category of models for [[homotopy types]]"). For classical homotopy theory this is accordingly called the _[[classical model structure on topological spaces]]_. This we review here.
+The [[category]] of topological spaces obtained by [[localization of a category|forcing]] [[weak homotopy equivalences]] to become [[isomorphisms]] is the "[[classical homotopy category]]" [[Ho(Top)]]. This homotopy category however has forgotten a little too much information: homotopy theory really wants the [[weak homotopy equivalences]] not to become plain [[isomorphisms]], but to become actual [[homotopy equivalences]]. The structure that reflects this is called a _[[model category]]_ structure (short for "category of models for [[homotopy types]]"). For classical homotopy theory this is accordingly called the _[[classical model structure on topological spaces]]_. This we review here.
 
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
 
@@ -3488,7 +3488,7 @@ For a little more details the original lecture ([Adams 74, part III sections 2-7
 
 $\,$
 
-The [[stable homotopy category]] is to be the proper [[stabilization]] of the classical [[homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the classical [[homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
+The [[stable homotopy category]] is to be the proper [[stabilization]] of the  [[classical homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the [[classical homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
 
 $$
   \array{
@@ -3512,7 +3512,7 @@ $$
 $$
 
 
-In contrast to the classical [[homotopy category]], the stable homotopy category is a [[triangulated category]] (a shadow of the fact that the [[(∞,1)-category of spectra]] is a [[stable (∞,1)-category]]). As such it may be thought of as a refinement of the [[derived category]] [[category of chain complexes|of chain complexes]] (of [[abelian groups]]): every [[chain complex]] gives rise to a [[spectrum]] and every [[chain map]] to a map between these spectra (the [[stable Dold-Kan correspondence]]), but there are many more spectra and maps between them than arise from chain complexes and chain maps.
+In contrast to the [[classical homotopy category]], the stable homotopy category is a [[triangulated category]] (a shadow of the fact that the [[(∞,1)-category of spectra]] is a [[stable (∞,1)-category]]). As such it may be thought of as a refinement of the [[derived category]] [[category of chain complexes|of chain complexes]] (of [[abelian groups]]): every [[chain complex]] gives rise to a [[spectrum]] and every [[chain map]] to a map between these spectra (the [[stable Dold-Kan correspondence]]), but there are many more spectra and maps between them than arise from chain complexes and chain maps.
 
 
 There is a variety of different models for the [[stable homotopy theory]] of spectra, some of which roughly fits into a hierarchy like so:
