@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[set theory]],  an **inhabited set** is a [[set]] that contains an [[element]].
+In ordinary [[set theory]],  an **inhabited set** is a [[set]] that contains an [[element]]. (N.B.: in a [[topos]] or more generally a [[regular category]], an [[inhabited object]] is one where the unique map to the terminal object is a [[regular epimorphism]]; this need not be the same as existence of an element which is a section of the unique map.) 
 
 More generally, in [[type theory]] an **inhabited type** is a [[type]] that has a [[term]]. 
 
