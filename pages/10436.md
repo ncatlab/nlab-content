@@ -56,7 +56,10 @@ $$
 is $(n_1 + n_2 - 1)$-[[n-connected morphism|connective]].
 
 
-In the original connectivity statement of the theorem ([Blakers-Massey 51](#BlakersMassey51)) this was considered for the [[homotopy theory]] of [[topological spaces]], hence for "bare" [[homotopy types]]/[[∞-groupoids]] but the statement holds true in all [[(∞,1)-toposes]] ([[Charles Rezk]]) and in fact in [[homotopy type theory]] ([HoTTBook, theorem 8.10.2](#HoTTBook), [Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)), hence also for "[[geometric homotopy types]]".
+In the original connectivity statement of the theorem ([Blakers-Massey 51](#BlakersMassey51)) this was considered for the [[homotopy theory]] of [[topological spaces]], hence for "bare" [[homotopy types]]/[[∞-groupoids]] but the statement holds true in all [[(∞,1)-toposes]].
+
+It follows in [[(∞,1)-sheaf (∞,1)-toposes]] by applying the result for [[∞-groupoids]] locally, i.e. [[stalk]]-wise (this was highlighted by [[Charles Rezk]]).  
+More intrinsically, there is a formal proof in [[homotopy type theory]] ([HoTTBook, theorem 8.10.2](#HoTTBook), [Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)), which translates to an [[internal language]] proof for all [[(∞,1)-toposes]].
 
 =--
 
@@ -152,9 +155,11 @@ The general version of the connectivity theorem in [[homotopy type theory]]
 
 The proof formalized in HoTT-[[Agda]] is in
 
-* {#LumsdaineFinsterLicata13} [[Peter LeFanu Lumsdaine]], [[Eric Finster]], [[Dan Licata]], _[BlakersMassey.agda](https://github.com/dlicata335/hott-agda/blob/master/homotopy/BlakersMassey.agda)_
+* {#LumsdaineFinsterLicata13} [[Peter LeFanu Lumsdaine]], [[Eric Finster]], [[Dan Licata]], _[BlakersMassey.agda](https://github.com/HoTT/HoTT-Agda/blob/1.0/Homotopy/BlakersMassey.agda)_
 
-* {#Lumsdaine13} [[Peter LeFanu Lumsdaine]], _The Blakers-Massey theorem in homotopy type theory_ talk at [CONFERENCE ON TYPE THEORY, HOMOTOPY THEORY AND UNIVALENT FOUNDATIONS](http://www.crm.cat/en/Activities/Pages/ActivityFoldersAndPages/Curs%202013-2014/CHomotopy/chomotopy.aspx) (2013) ([talk abstracts pdf]( http://www.crm.cat/en/Activities/Documents/AbstractsTypeTheory.pdf
+
+
+* {#Lumsdaine13} [[Peter LeFanu Lumsdaine]], _The Blakers-Massey theorem in homotopy type theory_ talk at [Conference on Type Theory, Homotopy Theory and Univalent Foundations](http://www.crm.cat/en/Activities/Pages/ActivityFoldersAndPages/Curs%202013-2014/CHomotopy/chomotopy.aspx) (2013) ([talk abstracts pdf]( http://www.crm.cat/en/Activities/Documents/AbstractsTypeTheory.pdf
 )):
 
-> One such result, the Blakers-Massey connectivity theorem, is of particular interest in that all classical proofs use some specifics of their settings (usually, $Top$ or $SSet$) not available to us; so the type-theoretic proof was, by necessity, new in parts. This allowed us, as a by-product, to translate the proof back into classical language and obtain the theorem in wider generality than was previously known: we show that it holds in any infinity-topos (in the sense of Lurie). I will introduce the Blakers-Massey theorem and our approach to it, and discuss the process of translating a type-theoretic proof into infinity-categorical language
+> One such result, the Blakers-Massey connectivity theorem, is of particular interest in that all classical proofs use some specifics of their settings (usually, $Top$ or $SSet$) not available to us; so the type-theoretic proof was, by necessity, new in parts. This allowed us, as a by-product, to translate the proof back into classical language and obtain the theorem in wider generality than was previously known: we show that it holds in any infinity-topos (in the sense of Lurie). I will introduce the Blakers-Massey theorem and our approach to it, and discuss the process of translating a type-theoretic proof into infinity-categorical language.
