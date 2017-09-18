@@ -70,6 +70,8 @@ Note, since they are naturally equivalent to $Hom_\mathcal{C}(-,X)$ which preser
 
 * [[space and quantity]]
 
+* [[functorial geometry]]
+
 * [[functor of points]]
 
 * [[bornological topos]]
@@ -84,7 +86,7 @@ Note, since they are naturally equivalent to $Hom_\mathcal{C}(-,X)$ which preser
 
 * [[Zariski topos]]
 
-## Related page
+## Link
 
 * {#Law03}[[F. William Lawvere]], _Grothendieck's 1973 Buffalo Colloquium_, posting to the mailing list _categories@mta.ca_, march 2003. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/2228))
 
@@ -92,7 +94,7 @@ Note, since they are naturally equivalent to $Hom_\mathcal{C}(-,X)$ which preser
 
 * {#CPR01}[[Aurelio Carboni]], [[Maria Cristina Pedicchio]], [[Jiri Rosicky]], _Syntactical Characterization of Various Locally Presentable Categories_ , JPAA **161** (2001) pp.65-90.
 
-* {#Gaeta74}[[Federico Gaeta]], _Introduction to Functorial Algebraic Geometry - After a Summer Course by A. Grothendieck: I Affine Algebraic Geometry_ , Suny Buffalo 1974. ([pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/FuncAlg.pdf))
+* {#Gaeta74}[[Federico Gaeta]], _Introduction to Functorial Algebraic Geometry - After a Summer Course by A. Grothendieck: I Affine Algebraic Geometry_ , Suny Buffalo 1974. ([pdf scan](http://matematicas.unex.es/~navarro/res/ifag.pdf))
 
 * {#Law76}[[F. William Lawvere]], _Variable quantities and variable structures in topoi_ , pp.101-131 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory_, Academic Press New York 1976. (pp.109-111)
 
