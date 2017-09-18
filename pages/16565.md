@@ -465,13 +465,13 @@ Given a $V$-[[fiber ∞-bundle]] $E$ over $X$, def. \ref{FiberBundle}, and given
 +-- {: .num_defn #DefiniteSection}
 ###### Definition
 
-Given an $V$-[[fiber ∞-bundle]] $E$ over $X$, and a [[global element]] $x\colon \ast \to V$ then a [[section]] $\sigma$ of $E$ is _definite on $x$ if
+Given a $V$-[[nLab:fiber ∞-bundle]] $E$ over $X$, and a [[nLab:global element]] $x\colon \ast \to V$ then a [[nLab:section]] $\sigma$ of $E$ is _definite on $x$ if there exists a [[nLab:1-epimorphism]] $U \to X$ and a diagram
 
 $$
   \array{
-    && \ast 
+    U &\longrightarrow& \ast 
     \\
-    & \nearrow & \downarrow^{\mathrlap{x}}
+    \downarrow & \swArrow & \downarrow^{\mathrlap{x}}
     \\
     X & \stackrel{\sigma}{\longrightarrow} & V/\mathbf{Aut}(V)
     \\
@@ -479,6 +479,7 @@ $$
     \\
     && \mathbf{B}\mathbf{Aut}(V)
   }
+  \,.
 $$
 
 =--
