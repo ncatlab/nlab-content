@@ -15,13 +15,17 @@
 
 ## Idea
 
-For $(X,x) as $ [[pointed topological space]], then its *reduced suspension* $\Sigma X$ is equivalently 
+For $(X,x)$ a [[pointed topological space]], then its *reduced suspension* $\Sigma X$ is equivalently 
 
-* obtained from the standard [[cylinder]] $I\times X$ by identifying the subspace $(\{0,1\}\times X) \cup (I\times \{x\})$ to a point.  
+* obtained from the standard [[cylinder]] $I\times X$ ([[product topological space]] with the [[closed interval]] $I = [0,1]$) by identifying the [[subspace]] $(\{0,1\}\times X) \cup (I\times \{x\})$ to a point, i.e. the [[quotient space]]
+
+  $$
+     (X \times [0,1])/ ( (\{0,1\} \times X) \cup ([0,1] \times \{x\}) )
+  $$  
 
   (Think of crushing the two ends of the cylinder and the line through the base point to a point.) 
 
-* obtained from the bare [[suspension]] $S X$ of $X$ and identifying $\{x_0\} \times I$ with a single point.
+* obtained from the plain [[suspension]] $S X$ of $X$ by identifying $\{x_0\} \times I$ with a single point.
 
 * obtained from the [[reduced cylinder]] by collapsing the two ends, i.e. the [[cofiber]]
 
