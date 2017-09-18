@@ -84,6 +84,22 @@ For example,
 
 **Note on terminology:** In all cases, the "things" classified by an "(adjectives) object classifier" are _arrows_ -- this is no different from the most famous case of _[[subobject classifiers]]_, which classify _monos_. For each object $X$, a _subobject classifier_ classifies the _subobjects of $X$_. For each object $X$, an _object classifier_ classifies the _objects over $X$_.
 
+So with that $\kappa$ fixed, we may write
+
+$$
+  \array{
+    \widehat Type
+    \\
+    \downarrow
+    \\
+    Type
+  }
+$$
+
+for such a "universal bundle of $\kappa$-small objects". Intuitively this is easy to describe: a point in $Type$ corresponds to a $\kappa$-small object, hence is the "name" $'X'$ or "code for" a $\kappa$-small object, and the [[fiber]] in $\widehat Type$ over that point is the very object $X$ itself. 
+
+If one gives the projection of the universal object bundle $\widehat Type \to Type$ a name, such as $El$, and writes $El^{-1}(-)$ for its preimages then $X \simeq El^{-1}('X')$. This is, with the ${(-)}^{-1}$-suppressed, the notation used at _[Type universes a la Tarski](type+of+types#TarskiStyle)_.
+
 ## Details
 
 ### Subobject classifier {#DetailsSubObjClassf}
