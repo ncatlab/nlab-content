@@ -3,16 +3,16 @@
 A **chord diagram** (of order $n$) is basically a [[circle]] marked with $2n$ distinct points and $n$ chords joining those points, considered up to rotation of the circle, while an **arc diagram** is what you get when you cut the circle at any of the $2n$ segments between the marked points.  For example, here is a chord diagram of order 3:
 
 <center>
-<img src="/nlab/files/chord-diagram.png" width="200" align="middle">
+[[!include chord diagram > chord diagram]]
 </center>
 
-And here is the arc diagram obtained by cutting the chord diagram at the segment between points 1 and 6:
+And here is the arc diagram obtained by cutting the chord diagram at the segment between points 0 and 5:
 
 <center>
-<img src="/nlab/files/arc-diagram.png" width="300" align="middle">
+[[!include chord diagram > arc diagram]]
 </center>
 
-An arc diagram of order $n$ is in fact entirely determined by specifying a [[fixed point]] free [[involution]] on the set $\{ 1,\dots, 2n \}$.  The [[cyclic group]] of order $2n$ acts naturally on arc diagrams of order $n$, and conversely, taking the [[quotient]] by this [[action]] recovers the set of chord diagrams of order $n$.
+An arc diagram of order $n$ is entirely determined by specifying a [[fixed point]] free [[involution]] on the [[ordinal]] $\mathbf{2n} = \{0 \to 1 \to \dots \to 2n{-}1\}$.  The [[cyclic group]] of order $2n$ acts naturally on arc diagrams of order $n$, and conversely, taking the [[quotient]] by this [[action]] recovers the set of chord diagrams of order $n$.
 
 ## Related concepts
 
