@@ -247,7 +247,7 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 A pedagogical introduction to simplicial sets is
 
-* Greg Friedman, _An elementary illustrated introduction to simplicial sets_ ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221))
+* {#Friedman08} Greg Friedman, _An elementary illustrated introduction to simplicial sets_ ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221))
 
 A very clear and explicit exposition on the basics of simplicial sets is
 
