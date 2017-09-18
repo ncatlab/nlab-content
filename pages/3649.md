@@ -23,6 +23,8 @@ The notion of jet space or _[[jet bundle]]_ is a generalization of the notion of
 
 ## Related pages
 
+* [[jet group]], [[jet groupoid]]
+
 * [[jet bundle]]
 
 * [[metric jet]]
