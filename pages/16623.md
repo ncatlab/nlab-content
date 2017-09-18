@@ -18,7 +18,7 @@
 
 Membrane [[instantons]] are constituted by [[supermembranes]] ([[M2-branes]])  [[wrapped brane|wrapped]] on [[spacelike]] [[cycles]].
 
-Basically the effect is that the [[action functional]] of the given [[11-dimensional supergravity]] is multiplied by the exponentiated [[Nambu-Goto action]] of the [[wrapped brane|wrapping]] membrane configurations $\phi \colon \Sigma \to X$. These are of the form (e.g. [Harvey-Moore 99, (4.13)](#HarveyMoore99), [Curio 02, (2.15)](#Curio02))
+Basically the effect is that the [[action functional]] of the given [[11-dimensional supergravity]] is multiplied by the exponentiated [[Nambu-Goto action]] of the [[wrapped brane|wrapping]] membrane configurations $\phi \colon \Sigma \to X$. These are of the form (e.g. [Harvey-Moore 99, (4.13)](#HarveyMoore99), [Atiyah-Witten 01 (4.17)](#AtiyahWitten01), [Curio 02, (2.15)](#Curio02))
 
 $$
   \exp(i \int_{\Sigma} (\phi^\ast C + i \ell^{-3} vol(\phi^\ast g)))
@@ -49,8 +49,13 @@ When here $(\Sigma, \phi^\ast g)$ is a [[hyperbolic 3-manifold]] and $\phi^\ast 
 
 Discussion specifically for [[M-theory on G2-manifolds]] includes
 
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]], around (4.17) of _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+
 * {#Curio02} [[Gottfried Curio]], _Superpotentials for M-theory on a $G_2$ holonomy manifold and Triality symmetry_, JHEP 0303:024,2003 ([arXiv:hep-th/0212211](http://arxiv.org/abs/hep-th/0212211))
 
 [^footnote]: This relation was pointed out by [[Hisham Sati]].
 
 [[!redirects membrane instantons]]
+
+[[!redirects M2-instanton]]
+[[!redirects M2-instantons]]
