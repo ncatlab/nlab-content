@@ -19,17 +19,17 @@
 
 ## Idea
 
-Given a higher-order intuitionistic type theory $\mathfrak{L}$, it is possible to construct a topos $T(\mathfrak{L})$ out of the syntax of $\mathfrak{L}$. The **free topos** $T(\mathfrak{L}_0)$ is the result of this construction when $\mathfrak{L}_0$ is 'pure' type theory i.e. the only types are 1, $N$, and $\Omega$ lacking relations beyond the bare necessities.
+Given a [[higher-order logic|higher-order]] [[intuitionistic type theory]] $\mathfrak{L}$, it is possible to construct a [[topos]] $T(\mathfrak{L})$ out of the [[syntax]] of $\mathfrak{L}$. The **free topos** $T(\mathfrak{L}_0)$ is the result of this construction when $\mathfrak{L}_0$ is 'pure' type theory i.e. the only types are 1, $N$, and $\Omega$ lacking relations beyond the bare necessities.
 
 As $\mathfrak{L}_0$ is an [[initial object]] in the appropriate category of type theories, the free topos $T(\mathfrak{L}_0)$ is itself initial in the category of toposes and [[logical morphisms]] and is, therefore, also known as the **initial topos**.
 
 ## Properties
  
-The [[internal language]] of the free topos is precisely pure (intuitionistic) higher order type theory. In 1978, [[Jim Lambek]] and [[Phil Scott]] exploited this connection in order to prove properties of intuitionistic type theory by proof-theoretic means. It was observed by [[Peter Freyd]] then that the concept of a [[Freyd cover]] permits to give conceptual proofs of their findings. The following lemma and proposition is an amplification of his ideas.
+The [[internal language]] of the free topos is precisely pure (intuitionistic) higher order type theory. In 1978, [[Jim Lambek]] and [[Phil Scott]] exploited this connection in order to prove properties of intuitionistic type theory by [[proof theory|proof-theoretic]] means. It was observed by [[Peter Freyd]] then that the concept of a [[Freyd cover]] permits to give conceptual proofs of their findings. The following lemma and proposition is an amplification of his ideas.
 
 +-- {: .num_lemma}
 ###### Lemma 
-For any category $C$ with a [[terminal object]] $\mathbf{1}$, the terminal object of the [[Freyd cover]] $\widehat{C}$ is [[small-projective]], i.e., the representable $\Gamma = \widehat{C}(1, -) \colon \widehat{C} \to Set$ preserves any colimits that exist. 
+For any [[category]] $C$ with a [[terminal object]] $\mathbf{1}$, the terminal object of the [[Freyd cover]] $\widehat{C}$ is [[small-projective]], i.e., the representable $\Gamma = \widehat{C}(1, -) \colon \widehat{C} \to Set$ preserves any colimits that exist. 
 =-- 
 
 +-- {: .proof} 
@@ -43,14 +43,14 @@ preserves limits, because the contravariant power set functor $P = 2^-$ is monad
 
 +-- {: .num_theorem}
 ###### Theorem 
-The terminal object in the free topos $\mathcal{T}$ is [[connected object|connected]] and [[projective object|projective]] in the sense that $\Gamma = \hom(1, -) \colon \mathcal{T} \to Set$ preserves finite colimits. 
+The [[terminal object]] in the free topos $\mathcal{T}$ is [[connected object|connected]] and [[projective object|projective]] in the sense that $\Gamma = \hom(1, -) \colon \mathcal{T} \to Set$ preserves finite [[colimits]]. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
 We divide the argument into three segments: 
 
-* The hom-functor preserves finite limits, so by general properties of [[Artin gluing]], the Freyd cover $\widehat{\mathcal{T}}$ is also a topos. Observe that $\mathcal{T}$ is equivalent to the slice $\widehat{\mathcal{T}}/M$ where $M$ is the object $(\emptyset, \mathbf{1}, \emptyset \to \Gamma(\mathbf{1}))$. Since pulling back to a slice is a logical functor, we have a logical functor 
+* The [[hom-functor]] preserves [[finite limits]], so by general properties of [[Artin gluing]], the [[Freyd cover]] $\widehat{\mathcal{T}}$ is also a topos. Observe that $\mathcal{T}$ is equivalent to the [[slice category|slice]] $\widehat{\mathcal{T}}/M$ where $M$ is the object $(\emptyset, \mathbf{1}, \emptyset \to \Gamma(\mathbf{1}))$. Since pulling back to a slice is a logical functor, we have a logical functor 
 $$\pi \colon \widehat{\mathcal{T}} \to \mathcal{T}$$ 
 Since $\mathcal{T}$ is initial, $\pi$ is a retraction for the unique logical functor $i \colon \mathcal{T} \to \widehat{\mathcal{T}}$. 
 
@@ -80,6 +80,8 @@ In the [[foundations of mathematics]], [[Jim Lambek]] proposed to use the free t
 
 * [[Artin gluing]]
 
+* [[syntactic category]]
+
 * [[adjoint modality]] 
 
 ## References
@@ -100,7 +102,7 @@ On the relation between the proof and the topos-theoretic techniques in the proo
 
 For textbook accounts of the free topos see
 
-* Lambek and Scott, _[[Introduction to Higher-Order Categorical Logic]]_ , Cambridge UP 1986. ([pdf](https://synrc.com/publications/cat/Category%20Theory/Categorical%20Logic/Lambek%20J.,%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf))
+* [[Jim Lambek]], [[Phil Scott]], _[[Introduction to Higher-Order Categorical Logic]]_ , Cambridge UP 1986. ([pdf](https://synrc.com/publications/cat/Category%20Theory/Categorical%20Logic/Lambek%20J.,%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf))
 
 * [[Peter Freyd|P. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.  (1.(10)31, p.192)
 
@@ -115,4 +117,4 @@ For J. Lambek's views on the role of the free topos in [[foundations of mathemat
 
 * {#LambekWorld}[[Jim Lambek]], _What is the world of mathematics?_ , APAL **126** (2004) pp.149-158. ([draft](http://www.math.mcgill.ca/barr/lambek/pdffiles/WorldMath.pdf))
 
-* [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
+* {#LS11} [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) 
