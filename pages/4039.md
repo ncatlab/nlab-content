@@ -281,7 +281,7 @@ since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$
 
 * [[phase space]]
 
-* [[variational bicomplex]]
+* [[variational bicomplex]], [[secondary differential calculus]]
 
 * [[Lagrange multiplier]]
 
