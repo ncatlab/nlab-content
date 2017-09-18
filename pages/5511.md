@@ -26,16 +26,16 @@ See also at _[[1-epimorphism]]_.
 +-- {: .num_def}
 ###### Definition
 
-A [[morphism]] $f : Y \to X$ in an [[(∞,1)-category]] is an **effective epimorphism** if it has a [[Cech nerve]], of which it is the [[(∞,1)-colimit]]; in other words the augmented simplicial diagram
+A [[morphism]] $f : Y \to X$ in an [[(∞,1)-category]] is an **effective epimorphism** if it has a [[Cech nerve]], of which it is the [[(∞,1)-colimit]]; in other words the [[augmented simplicial set|augmented simplicial]] [[diagram]]
 
 $$
   \cdots
   Y \times_X Y \times_X Y 
-  \stackrel{\tl}{\stackrel{\to}{\to}}
-Y \times Y \times_X Y \stackrel{\to}{\to}  Y \stackrel{f}{\to} X
+  \stackrel{\tl}{\stackrel{\longrightarrow}{\longrightarrow}}
+Y \times Y \times_X Y \stackrel{\longrightarrow}{\longrightarrow}  Y \stackrel{f}{\longrightarrow} X
 $$
 
-is a colimiting diagram.
+is an [[(∞,1)-colimit|colimiting]] diagram.
 
 =--
 
