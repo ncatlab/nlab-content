@@ -75,7 +75,8 @@ and in section 2 of
 
 and on p. 6 of 
 
-* C. Roger, _Gerstenhaber and Batalin-Vilkovisky algebras_ ([ps](www.emis.de/journals/AM/09-4/roger.ps.gz))
+* [[Claude Roger]], _Gerstenhaber and Batalin-Vilkovisky algebras_, Archivum mathematicum, Volume 45 (2009), No. 4 ([pdf](http://www.emis.de/journals/AM/09-4/roger.pdf))
+
 
 [[!redirects multivector field]]
 [[!redirects multivector fields]]
