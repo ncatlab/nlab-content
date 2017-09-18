@@ -58,7 +58,7 @@ century_, Springer Undergraduate Mathematics Series
 
 * G.A. Miller, _Felix Klein and the history of modern mathematics_, PNAS 13, 1927, 611-613
 
-The relation of the techniques of the pioneers of infinitesimal calculus and the modern nonstandard analysis is discussed in
+The relation of the techniques of the pioneers of infinitesimal calculus and the modern [[nonstandard analysis]] is discussed in
 
 * Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, Mikhail G. Katz, Semen S. Kutateladze, David Sherry, _Toward a history of mathematics focused on procedures_, [arxiv/1609.04531](http://arxiv.org/abs/1609.04531)
 
