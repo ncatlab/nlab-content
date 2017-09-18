@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[proof theory]] and the theory of [[programming languages]], the term "logical relations" refers to a certain style of argument used in proving results such as [[strong normalization]] or [[observational equivalence]].  Although there is no precise definition, typically a logical relation (or _logical predicate_) corresponds to a _family_ of relations (or predicates) defined by induction on [[types]], and such that the definition of the relations mirrors the logical structure of the types.
+In [[proof theory]] and the theory of [[programming languages]], the term "logical relations" refers to a certain style of argument used in proving results such as [[strong normalization]] or [[observational equivalence]].  Although there is no precise definition, typically a logical relation (or _logical predicate_) corresponds to a _family_ of (sometimes unary) [[relations]] defined by induction on [[types]], and such that the definition of the relation at a particular type mirrors the logical structure of that type in an appropriate sense.
 
 ## Example
 
