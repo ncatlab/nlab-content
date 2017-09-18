@@ -33,6 +33,8 @@ The _[[fracture theorem]]_ says that under mild conditions, homotopy theory may 
 
 * [[p-adic cohomology]]
 
+* [[p-adic physics]]
+
 * [[rational homotopy theory]], [[real homotopy theory]]
 
 ## References
