@@ -163,7 +163,11 @@ satisfies the [[axiom of choice]].
 
 This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).  Essentially because of this fact, double-negation sheaves on posets are the basic context for [[forcing]] in set theory (since set theorists generally want the axiom of choice to be preserved in forcing models). For such a use of double negation in the so called **Cohen topos** see at [[continuum hypothesis]].
 
-Finally, let us remark that the booleanization $\mathcal{E}_{\neg\neg}$ of a topos $\mathcal{E}$ has a close relative: the [[De Morganization]] $\mathcal{E}_m$.
+###Remarks
+
+* A topos $\mathcal{E}$ such that $\mathcal{E}_{\neg\neg}$ is an [[open subtopos]] is called _$\bot$-scattered_. They play are role in the modeling of [[provability logic]] (cf. [[scattered topos]]).
+
+* The booleanization $\mathcal{E}_{\neg\neg}$ of a topos $\mathcal{E}$ has a close relative: the [[De Morganization]] $\mathcal{E}_m$.
 
 ## In higher topos theory
  {#InHigherToposTheory}
@@ -192,6 +196,8 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 * [[skeletal geometric morphism]]
 
 * [[de Morganization]]
+
+* [[scattered topos]]
 
 ## References
 
