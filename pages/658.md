@@ -60,7 +60,7 @@ This yields a [[bicategory]] in which
 
 * [[2-morphisms]] are [[natural transformation]]s.
 
-This bicategory is variously denoted $Prof$, $Mod$, or $Dist$, according to one's chosen name for profunctors.  In the $V$-enriched case, it is written $V Prof$ or $V Mod$ or $V Dist$.
+This bicategory is variously denoted [[Prof]], $Mod$, or $Dist$, according to one's chosen name for profunctors.  In the $V$-enriched case, it is written $V Prof$ or $V Mod$ or $V Dist$.
 
 The construction of the "representable" profunctors $D(1,f)$ and $D(f,1)$ from a functor $f\colon C\to D$ yield two identity-on-objects functors $Cat \to Prof$ and $Cat^{op}\to Prof$.  Moreover, it is easy to check that $D(1,f) \vdash D(f,1)$ in the bicategory $Prof$; thus $Cat\to Prof$ is a [[proarrow equipment]] in the sense of Wood (in fact, the prototypical one).  This same fact can also be expressed by defining a (pseudo) [[double category]] in which functors and profunctors are the two kinds of arrows; the construction of representable profunctors is then given by [[companion]]s and [[conjoint]]s in this double category, which make it a [[framed bicategory]], hence an equivalent representation of a proarrow equipment.
 
