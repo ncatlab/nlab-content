@@ -17,6 +17,7 @@ Tautological examples:
 Non-tautological example: 
 
  * the full subcategory of the category of fields obtained by removing the zero ring 
+ * the full subcategory of _any_ given slice category consisting only of the monos of the category sliced (aka the category of subobjects)
 
 ## Related concepts
 
