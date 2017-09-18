@@ -91,7 +91,7 @@ $$
   \mathcal{E}
 $$
 
-where $ext(j)$ (the "exterior" of $j$) denotes the $j$-closure of $\emptyset \hookrightarrow \ast$ and 
+where $ext(j)$ (the "exterior" of $j$) denotes the $j$-closure of $\emptyset \rightarrowtail 1$ and 
 
 $$
   \bar j \coloneqq c(ext(j))
@@ -107,13 +107,23 @@ This is the _[[(dense,closed)-factorization]]_.
 
 The above terminology suggests to view a _dense subtopos_ as one with an _empty exterior_.
 
-This analogy to topology is pursued further in ([SGA4](#SGA4), p.462) where a dense subtopos is characterized as a subtopos $Sh_j(\mathcal{E})$ whose 'exterior' $Ext(Sh_j(\mathcal{E}))$ i.e. the [[open subtopos]] that corresponds to the [[subterminal object]] $ext(j)$ is trivial and whose 'closure' $Cl(Sh_j(\mathcal{E})):=Sh_{c(ext(j))}(\mathcal{E})$ (i.e. the [[closed subtopos]] corresponding to $ext(j)$) coincides with the 'whole space' $\mathcal{E}$.
+This analogy to topology is pursued further in ([SGA4](#SGA4), p.462) where a dense subtopos is characterized as a subtopos $Sh_j(\mathcal{E})$ whose 'exterior' $Ext(Sh_j(\mathcal{E}))$ (i.e. the [[open subtopos]] that corresponds to the [[subterminal object]] $ext(j)$) is trivial and whose 'closure' $Cl(Sh_j(\mathcal{E})):=Sh_{c(ext(j))}(\mathcal{E})$ (i.e. the [[closed subtopos]] corresponding to $ext(j)$) coincides with the 'whole space' $\mathcal{E}$.
 
 Let's have a look at some of the details: 
 
 Due to the construction of [[open subtopos|open subtoposes]] we know that the objects of $Ext(Sh_j(\mathcal{E}))$ have the form $X^{ext(j)}$ for some $X\in\mathcal{E}$. Hence the exterior is trivial, i.e. $X^{ext(j)}=1$ for all $X\in\mathcal{E}$, precisely when $\bar\emptyset =ext(j)\simeq \emptyset$ which means that $Sh_j(\mathcal{E})$ is dense. By construction $Cl(Sh_j(\mathcal{E}))$ is the [[complement]] of $Ext(Sh_j(\mathcal{E}))$ in the lattice of subtoposes hence $Cl(Sh_j(\mathcal{E}))=\mathcal{E}$ in case the latter is trivial. This follows also directly from the description of objects in $Cl(Sh_j(\mathcal{E}))$ as those objects $X\in\mathcal{E}$ with $X\times ext(j)\cong ext(j)$.
 
 E.g. let $Sh_k(\mathcal{E})$ be a subtopos that has a trivial intersection with a non-trivial open subtopos $Sh_o(\mathcal{E})$. Then $Sh_k(\mathcal{E})$ is contained in the (closed) complement of $Sh_o(\mathcal{E})$ hence $Cl(Sh_k(\mathcal{E}))\neq \mathcal{E}$ and we see that $Sh_k(\mathcal{E})$ cannot be dense: we have recuperated the familiar fact from point-set topology that a [[dense subspace|dense subset]] intersects all non-trivial open sets non-trivially.
+
+Another easy result in this vein is
+
++-- {: .num_prop}
+###### Proposition
+Let $i:Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a dense subtopos that is connected in the sense that $1$ is indecomposable: if $W\coprod Z=1$ then $W=\emptyset$ or $Z=\emptyset$. Then $\mathcal{E}$ is connected as well.
+=--
+
+**Proof**: Let $X\coprod Y = 1$ be a decomposition of $1$ in $\mathcal{E}$. Since $i^\ast$ is a left exact left adjoint, it preserves coproducts and the terminal object and $i^\ast(X)\coprod i^\ast (Y)$ is therefore a decomposition of $1$ in $Sh_j(\mathcal{E})$ hence trivial by assumption. Let's say $i^\ast(X)\simeq\emptyset$ but $Sh_j(\mathcal{E})$ is dense and therefore we can conclude $X\simeq\emptyset$ hence $X\coprod Y = 1$ is trivial as well. $\qed$
+
 
 ### Relation to Aufhebung
 
