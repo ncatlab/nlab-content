@@ -22,12 +22,117 @@ Classical commutative monoids are of course just commutative monoids in [[Set]] 
 
 ## Definition
 
-A **commutative monoid** in a [[symmetric monoidal category]] $(C,\otimes,I)$ with [[braiding]] $B$ is a [monoid](http://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) $M$ with multiplication $\mu$ and unit $\eta$ such that the following diagram commutes:
-$$ \array{
-M \otimes M & \overset{B_{M,M}}{\longrightarrow} & M \otimes M \\
-{}_{\mu} \searrow & & \swarrow_{\mu} \\
-& M & 
-} $$
++-- {: .num_defn #MonoidsInMonoidalCategory}
+###### Definition
+
+Given a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, then a **[[monoid in a monoidal category|monoid internal to]]** $(\mathcal{C}, \otimes, 1)$ is
+
+1. an [[object]] $A \in \mathcal{C}$;
+
+1. a morphism $e \;\colon\; 1 \longrightarrow A$ (called the _[[unit]]_)
+
+1. a morphism $\mu \;\colon\; A \otimes A \longrightarrow A$ (called the _product_); 
+
+such that
+
+1. ([[associativity]]) the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (A\otimes A) \otimes A 
+         &\underoverset{\simeq}{a_{A,A,A}}{\longrightarrow}&
+       A \otimes (A \otimes A)
+         &\overset{A \otimes \mu}{\longrightarrow}&
+       A \otimes A
+       \\
+       {}^{\mathllap{\mu \otimes A}}\downarrow  
+         && &&
+       \downarrow^{\mathrlap{\mu}}
+       \\
+       A \otimes A
+         &\longrightarrow&
+         &\overset{\mu}{\longrightarrow}&
+       A
+     }
+     \,,
+   $$
+
+   where $a$ is the associator isomorphism of $\mathcal{C}$;
+
+1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       1 \otimes A 
+         &\overset{e \otimes id}{\longrightarrow}&
+       A \otimes A
+         &\overset{id \otimes e}{\longleftarrow}& 
+       A \otimes 1
+       \\
+       & {}_{\mathllap{\ell}}\searrow 
+       & \downarrow^{\mathrlap{\mu}} &
+       & \swarrow_{\mathrlap{r}}
+       \\
+       && A
+     }
+     \,,
+   $$
+
+   where $\ell$ and $r$ are the left and right unitor isomorphisms of $\mathcal{C}$.
+
+Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]]  $(\mathcal{C}, \otimes, 1, B)$ with symmetric [[braiding]] $\tau$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
+
+* (commutativity) the following [[commuting diagram|diagram commutes]]
+
+  $$
+    \array{
+      A \otimes A 
+        && \underoverset{\simeq}{\tau_{A,A}}{\longrightarrow} &&
+      A \otimes A
+      \\
+      & {}_{\mathllap{\mu}}\searrow && \swarrow_{\mathrlap{\mu}}
+      \\
+      && A
+    }
+    \,.
+  $$
+
+A [[homomorphism]] of monoids $(A_1, \mu_1, e_1)\longrightarrow (A_2, \mu_2, f_2)$ is a morphism
+
+$$
+  f \;\colon\; A_1 \longrightarrow A_2
+$$ 
+
+in $\mathcal{C}$, such that the following two [[commuting diagram|diagrams commute]]
+
+$$
+  \array{
+    A_1 \otimes A_1 
+      &\overset{f \otimes f}{\longrightarrow}&
+    A_2 \otimes A_2
+    \\
+    {}^{\mathllap{\mu_1}}\downarrow && \downarrow^{\mathrlap{\mu_2}}
+    \\
+    A_1 &\underset{f}{\longrightarrow}& A_2
+  }
+$$
+
+and
+
+$$
+  \array{
+    1_{\mathcal{c}} &\overset{e_1}{\longrightarrow}& A_1
+    \\
+    & {}_{\mathllap{e_2}}\searrow & \downarrow^{\mathrlap{f}}
+    \\
+    && A_2
+  }
+  \,.
+$$
+
+Write $Mon(\mathcal{C}, \otimes,1)$ for the [[category of monoids]] in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
+
+=--
 
 ## Examples
 
@@ -72,6 +177,8 @@ A summary is in section 4.1 of
 * [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_, [arXiv:1410.1716](http://arxiv.org/abs/1410.1716).
 
 See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
+
+[[!redirects commutative monoids in a symmetric monoidal category]]
 
 [[!redirects commutative monoids in a monoidal category]]
 [[!redirects commutative monoids in monoidal categories]]
