@@ -34,8 +34,10 @@ is the [[universal cover]] of the [[connected]] component of the identity of the
 
 A full rounded account could become large; see the [blog discussion](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html), which despite its size was left in a still-nascent state. However, in a nutshell, the basic theorem is that (elementary) particles are classified up to isomorphism according to their [[mass]] and [[helicity]]; mass is a continuous parameter and helicity is a discrete parameter. 
 
-This theorem in commonly ascribed to [[Eugene Wigner]] and often refereed to as the _[[Wigner classification]]_. Wigner classified all irreducible unitary representations of the restricted Poincare group, including the unphysical ones. The latter cannot be used to define a free quantum field theory satisfying the Wightman axioms. Those that can are the physical ones and are characterized by a nonnegative real mass and a nonnegative half-integral spin; the zero component of the momentum has a nonnegative spectrum. 
-Many of these are realized by paticles occurring in Nature, though not as 'elementary particles'' but as bound states (in a suitable approximation, e.g., QCD). From the point of view of representation theory, the center of mass of a bound state behavs just like an elementary particle. Thus elementary is meant in this generalized sense.
+This theorem in commonly ascribed to [[Eugene Wigner]] and often refereed to as the _[[Wigner classification]]_. 
+
+Wigner classified all irreducible unitary representations of the restricted Poincare group, including the unphysical ones. The latter cannot be used to define a [[free quantum field theory]] satisfying the [[Wightman axioms]]. Those that can are the physical ones and are characterized by a nonnegative real mass and a nonnegative half-integral spin; the zero component of the momentum has a nonnegative spectrum. 
+Many of these are realized by particles occurring in Nature, though not as 'elementary particles'' but as bound states (in a suitable approximation, e.g., [[QCD]]). From the point of view of representation theory, the center of mass of a bound state behavs just like an elementary particle. Thus elementary is meant in this generalized sense.
 
 
 ## Related entries
