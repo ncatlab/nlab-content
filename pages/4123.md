@@ -36,7 +36,7 @@ Let $X$ be a [[paracompact space]] and $\{U_i \to X\}$ a [[good open cover]]. Wr
 
 $$
   C(\{U_i\}) = \left(
-    \stackrel{\to}{\stackrel{\to}{\to}}\coprod_{i,j} U_i \cap U_j \stackrel{\to}{\to} \coprod_{i} U_i
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}\coprod_{i,j} U_i \cap U_j \stackrel{\longrightarrow}{\longrightarrow} \coprod_{i} U_i
   \right)
   \,,
 $$
@@ -45,7 +45,7 @@ $$
 
 $$
   \tilde C(\{U_i\}) = \left(
-    \stackrel{\to}{\stackrel{\to}{\to}}\coprod_{i,j} * \stackrel{\to}{\to} \coprod_{i} *
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}\coprod_{i,j} * \stackrel{\longrightarrow}{\longrightarrow} \coprod_{i} *
   \right)
 $$
 
