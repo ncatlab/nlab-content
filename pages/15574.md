@@ -82,6 +82,8 @@ The _unity_ of the opposites is finally provided by the encompassing $N$ where t
 
 Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$ and $R$$T$ yield an idempotent comonad $sk:N\to N$ and an idempotent monad $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$ : in new guises $L$ and $R$ resurface again but this time with an _unmediated opposition_ $sk\dashv cosk$ which expresses the conflict between $E$ and $O$, even and odd.
  
+### Extracting the rational kernel 
+
 
 ##Related pages
 
