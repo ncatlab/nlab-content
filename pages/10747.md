@@ -175,6 +175,8 @@ Technically, the issue comes down to the fact that the [[quotients]] of [[symmet
 
 * [[free symmetric spectrum]]
 
+* [[symmetric ring spectrum]]
+
 [[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
 
 * **symmetric spectrum**, [[model structure on symmetric spectra]]
