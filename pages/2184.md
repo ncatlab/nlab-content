@@ -80,7 +80,7 @@ $$
 where $s : E \to V$ and $t : E \to V$ are the source and target functions.
 Of course, since the source and target functions determine each other in the presence of the involution, it is enough to give, say, $s$ and $i$ to define an undirected graph.
 In that case, one might alternatively view $E$ as a set of "half-edges", with $i$ the involution swapping the two halves of an edge.
-(This view is popular, for example, in studies of [[combinatorial maps]].)
+(This point-of-view is often taken, for example, in studies of [[ribbon graphs]] and [[dessins d'enfants]].)
 One can also lift the condition that $i$ has no fixed points to allow for the possibility of undirected graphs with "dangling" edges (with only one side attached to a vertex).
 
 ### Oriented graphs
@@ -161,7 +161,7 @@ One synonym, in the nLab[^5] for _induced subgraph_ is *full subgraph*, for brev
 
 The precise meaning of _subgraph_ depends on the chosen formalization of *graph*, needless to say.
 
-## Simple graphs as simplicial complexes, geometric realization, and barycentric subdivision
+## Undirected graphs as 1-complexes, barycentric subdivision
 
 Recall that a [[simplicial complex]] of dimension one consists of the data of a set $V$ together with a set $S$ of non-empty subsets of $V$ of cardinality at most $2$, that contains all of the [[singleton]] subsets.
 In other words, a 1-dimensional simplicial complex is essentially the same thing as a simple graph, with the set of edges being determined by the set of simplices and vice versa:
@@ -171,7 +171,7 @@ E = \{\{x,y\} \mid \{x,y\} \in S, x \ne y\}
 S = \{\{x\} \mid x \in V\} \cup E
 $$
 For this reason, simple graphs are sometimes referred to as **simplicial graphs** [(Gross & Tucker 1987)](#GrossTucker).
-On the other hand, an undirected graph $G$ with loops or multiple edges can be seen as a 1-dimensional [[CW-complex]], or more precisely it has a [[geometric realization]] $|G|$ as a CW-complex in which 0-cells correspond to vertices and 1-cells to edges.
+On the other hand, an undirected graph $G$ with loops or multiple edges can more generally be seen as a 1-dimensional [[CW-complex]] (or more precisely, it has a [[geometric realization]] $|G|$ as a CW-complex in which 0-cells correspond to vertices and 1-cells to edges).
 
 Given a general undirected graph, it is always possible to obtain a simple graph through the process of _[[barycentric subdivision]]_.
 Let $G$ be a graph with vertex set $V$ and edge set $E$.
