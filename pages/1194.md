@@ -29,7 +29,7 @@
 
 Type theory is a branch of mathematical [[symbolic logic]], which derives its name from the fact that it formalizes not only mathematical [[terms]] -- such as a [[variable]] $x$, or a [[function]] $f$ -- and operations on them, but also formalizes the idea that each such term is of some definite _[[type]]_, for instance that the type $\mathbb{N}$ of a [[natural number]] $x : \mathbb{N}$ is different from the type $\mathbb{N} \to \mathbb{N}$ of a [[function]] $f : \mathbb{N} \to \mathbb{N}$ between natural numbers.
 
-Explicitly, type theory is a formal language, essentially a set of rules for rewriting certain strings of symbols, that describes the introduction of types and their terms, and computations with these, in a sensible way.
+Explicitly, type theory is a formal language, essentially a set of rules for rewriting certain strings of symbols, that describes the [[introduction rule|introduction]] of types and their terms, and computations with these, in a sensible way.
 
 What may seem like a triviality on first sight turns out to have deep implications: 
 
