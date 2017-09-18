@@ -9,7 +9,23 @@ An **involution** is an [[endomorphism]] whose square is the [[identity morphism
 
 Where this makes sense, an __anti-involution__ is an [[antihomomorphism]] instead of a [[homomorphism]] (so an antiendomorphism and necessarily an antiautomorphism).
 
-## Monad of involutions
+
+## Properties
+
+### Commuting involutions
+
+Two involutions $f, g : X \to X$ [[commutative diagram|commute]] if and only if their composition $f g$ is also an involution, as displayed by the following algebra:
+
+$$f g = f (f g f g ) g = (f f) g f (g g) = g f$$
+
+$$(f g)(f g) = f (g f) g = f (f g) g = (f f)(g g)= 1$$
+
+### Fixed point free involutions
+
+In [[combinatorics]], an important class of involutions are the [[fixed point]] free ones: an arbitrary involution on a [[finite set]] of cardinality $n$ may be specified by the choice of $k$ elements which are fixed together with a fixed point free involution on the remaining $(n-k)$.  The number of fixed point free involutions on a set of $2n$ labelled elements is counted by the double factorial $(2n-1)!! = (2n-1)\cdot (2n-3)\cdot\dots\cdot 3\cdot 1 = \frac{(2n)!}{2^n n!}$, while arbitrary involutions on a set of $n$ labelled elements are counted by OEIS sequence [A000085](https://oeis.org/A000085), which also counts the number of [[Young tableaux]] with $n$ cells.
+
+### Monad of involutions
+ {#MonadOfInvolutions}
 
 An involution on a set $X$ is the same thing as an [[action]] of $\mathbb{Z}/2\mathbb{Z}$ on $X$.
 
@@ -30,15 +46,6 @@ We then have that involutions in $C$ are precisely the [[module over a monad|alg
 $$\alpha \circ inr \circ \alpha \circ inr = \alpha \circ (2\otimes \alpha) \circ (2\otimes inr) \circ inr = \alpha \circ (xor\otimes id) \circ (2\otimes inr) \circ inr$$
 and since $xor$ is defined such that $(xor\otimes id) \circ (2\otimes inr) \circ inr = id$, we derive that $\alpha \circ inr$ is an involution.
 
-## Properties
-
-Two involutions $f, g : X \to X$ [[commutative diagram|commute]] if and only if their composition $f g$ is also an involution, as displayed by the following algebra:
-
-$$f g = f (f g f g ) g = (f f) g f (g g) = g f$$
-
-$$(f g)(f g) = f (g f) g = f (f g) g = (f f)(g g)= 1$$
-
-In [[combinatorics]], an important class of involutions are the [[fixed point]] free ones: an arbitrary involution on a [[finite set]] of cardinality $n$ may be specified by the choice of $k$ elements which are fixed together with a fixed point free involution on the remaining $(n-k)$.  The number of fixed point free involutions on a set of $2n$ labelled elements is counted by the double factorial $(2n-1)!! = (2n-1)\cdot (2n-3)\cdot\dots\cdot 3\cdot 1 = \frac{(2n)!}{2^n n!}$, while arbitrary involutions on a set of $n$ labelled elements are counted by OEIS sequence [A000085](https://oeis.org/A000085), which also counts the number of [[Young tableaux]] with $n$ cells.
 
 ## Related concepts
 
