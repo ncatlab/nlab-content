@@ -134,6 +134,53 @@ The only Hausdorff [[topological vector spaces]] that are locally compact are fi
 
 =--
 
+
++-- {: .num_example #CountablyInfiniteProductsOfNonCompactSpacesAreNotLocallyCompact}
+###### Counter-Example
+**(countably infinite products of non-compact spaces are not locally compact)**
+
+Let $X$ be a [[topological space]] which is not [[compact topological space|compact]]. Then the [[product topological space]] of a [[countable set|countably infinite set]] of copies of $X$ 
+
+$$
+  \underset{n \in \mathbb{N}}{\prod} X
+$$
+
+is not locally compact.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Since the [[continuous image of a compact space is compact]], and since the [[projection]] maps $p_i \;\colon\; \underset{\mathbb{N}}{\prod} X \longrightarrow X$ are continuous, it follows that every compact subspace of the product space is contained in one of the form
+
+$$
+  \underset{i \in \mathbb{N}}{\prod} K_i
+$$ 
+
+for $K_i \subset X$ compact. 
+
+But by the nature of the [[Tychonoff topology]], a [[base for a topology|base for the topology]] on $\underset{\mathbb{N}}{\prod} X$ is given by subsets of the form 
+
+$$
+  \left(
+    \underset{i \in \{1,\cdots,n\}}{\prod}
+    U_{i}
+  \right)
+  \times
+  \left(
+    \underset{j \in \mathbb{N}_{\gt n}}{\prod}
+    X
+  \right)
+$$
+
+with $U_i \subset X$ open. Hence every compact neighbourhood in $\underset{\mathbb{N}}{\prod} X$ contains a subset of this kind, but if $X$ itself is non-compact, then none of these is contained in a product of compact subsets.
+
+
+=--
+
+
 ## Properties
 
 ### General
