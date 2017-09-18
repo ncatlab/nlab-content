@@ -77,6 +77,8 @@ from [[CartSp]] to the [[1-category]] [[Grpd]].
 
 =--
 
+See at _[geometry of physics -- homotopy types -- groupoids](geometry+of+physic+--+homotopy+types#Groupoids)_ for more on bare groupoids. Here will freely assume familiarity with these.
+
 +-- {: .num_remark #YonedaIntuition}
 ###### Remark
 
@@ -179,7 +181,7 @@ betweem them has
 +-- {: .num_remark}
 ###### Remark
 
-Despite the size of the diagrams in def. \ref{HomGroupoidsOfPreSmoothGroupoids}, what they encode is immediate: this just says that smooth maps between pre-smooth groupoids take all probes of $X$ by abstract coordinate charts to probes of $Y$ by these charts, and gauge transformations between these to gauge transformations between those, in a way that it compatible with changing probes along smooth maps.
+Despite the size of the diagrams in def. \ref{HomGroupoidsOfPreSmoothGroupoids}, what they encode is immediate: this just says that smooth maps between pre-smooth groupoids take all probes of $X$ by abstract coordinate charts to probes of $Y$ by these charts, and take gauge transformations between these to gauge transformations between those, in a way that it compatible with changing probes along smooth maps.
 
 =--
 
@@ -200,7 +202,7 @@ $$
   Grpd
 $$
 
-where the [[set]] of [[smooth functions]] on the right is regarded as a [[groupoid]] with only [[identity]] morphism. This construction constitutes a [[fully faithful functor]]
+where the [[set]] of [[smooth functions]] on the right is regarded as a [[groupoid]] with only [[identity]] morphisms. This construction constitutes a [[fully faithful functor]]
 
 $$
   \underline{(-)}
@@ -247,7 +249,7 @@ is a pre-smooth groupoid.
 
 =--
 
-In fact these will be smooth groupoids proper. To define these, we first need the following
+More generally:
 
 +-- {: .num_example #ExternalYonedaEmbeddingsIntoPreSmooth1Type}
 ###### Example
@@ -264,7 +266,7 @@ $$
   \right\}
 $$ 
 
-be an [[internal groupoid]] in [[smooth sets]], hence a pair $\mathcal{G}_0, \mathcal{G}_1 \in Smooth0Type$ of smooth sets, equipped with source,target, identity homomrophisms of smooth sets between them, and equipped with a compatibly unital, associative and invertible composition map $\mathcal{G}_1 \overset{\times}{\mathcal{G}_0} \mathcal{G}_1 \to \mathcal{G}_1$. By definition of [[smooth sets]], this means that for every abstract coordinate system $\mathbb{R}^n$ then 
+be an [[internal groupoid]] in [[smooth sets]], hence a pair $\mathcal{G}_0, \mathcal{G}_1 \in Smooth0Type$ of smooth sets, equipped with source, target, identity homomorphisms of smooth sets between them, and equipped with a compatibly unital, associative and invertible composition map $\mathcal{G}_1 \underset{\times}{\mathcal{G}_0} \mathcal{G}_1 \to \mathcal{G}_1$. By definition of [[smooth sets]], this means that for every abstract coordinate system $\mathbb{R}^n$ then 
 
 $$
   \mathcal{G}(\mathbb{R}^n)_\bullet
@@ -284,19 +286,6 @@ $$
   \mathcal{G}(\mathbb{R}^n)_\bullet
   \,.
 $$
-
-For instance for $G$ a [[Lie group]], we write $(\mathbf{B}G)_\bullet \in Grpd(Smooth0Type)$ for the Lie groupoid which 
-
-$$
-  (\mathbf{B}G)_\bullet
-  =
-  \left(
-     G \stackrel{\longrightarrow}{\stackrel{\overset{i}{\longleftarrow}}{\longrightarrow}}
-    \ast
-  \right)
-$$
-
-whose composition is the product operation in the group (the groupoidal [[delooping]] of $G$).
 
 
 This exhibits sequence of [[full subcategory]] inclusions
@@ -325,6 +314,35 @@ exhibiting the fact that smooth functions from an $\mathbb{R}^n$ into a geometri
 
 =--
 
+A particular case of this of special importance is this:
+
++-- {: .num_example #DeloopedGroupAsPreSmoothGroupoid}
+###### Example
+
+For $G$ a [[Lie group]], we write $(\mathbf{B}G)_\bullet \in Grpd(Smooth0Type)$ for the Lie groupoid which 
+
+$$
+  (\mathbf{B}G)_\bullet
+  =
+  \left(
+     G \stackrel{\longrightarrow}{\stackrel{\overset{i}{\longleftarrow}}{\longrightarrow}}
+    \ast
+  \right)
+$$
+
+whose composition is the product operation in the group (the groupoidal [[delooping]] of $G$). The pre-smooth groupoid that this corresponds to under the embedding of example \ref{ExternalYonedaEmbeddingsIntoPreSmooth1Type} has groupoids of probes of the form
+
+
+$$
+  \mathbb{R}^n 
+   \mapsto 
+   B \left(C^\infty(\mathbb{R}^n,G)_{disc}\right)
+$$
+
+where on the right we have the [[homotopy 1-type]] whose [[fundamental group]] is that of smooth $G$-valued functions on $\mathbb{R}^n$, under pointwise mulitplication.
+
+
+=--
 
 
 More specifically, the following class of examples plays a special role in the theory, as the encode what it takes for a pre-smooth groupoid to be a genuinely smooth groupoid.
@@ -384,7 +402,7 @@ $$
 
 Let $X$ a [[smooth manifold]], $\{U_i \to X\}$ an [[open cover]]
 and $C(\{U_i\})$ the corresponding Cech groupoid, def. \ref{GroupoidOfCover}.
-Let $G$ be a [[Lie group]] and $\mathbf{B}G$ its groupoidal [[delooping]] according to example \red{ExternalYonedaEmbeddingsIntoPreSmooth1Type}.
+Let $G$ be a [[Lie group]] and $\mathbf{B}G$ its groupoidal [[delooping]] according to example \ref{DeloopedGroupAsPreSmoothGroupoid}.
 
 Then the hom-groupoid $PreSmooth1Type(C(\{U_i\}), \mathbf{B}G)$ of maps from $C(\{U_i\})$ to $\mathbf{B}G$, def. \ref{HomGroupoidsOfPreSmoothGroupoids},
 has
@@ -392,7 +410,7 @@ has
 * as [[objects]] the [[Cech cohomology|Cech cocycles]] of degree 1 on $X$ relative to the cover and with values in $G$; i.e. collections of smooth functions
 
   $$
-    g_{ i j} \colon U_i \underset{X}{\times} U_j \longrightarrow G
+    g_{ i j} \;\colon\; U_i \underset{X}{\times} U_j \longrightarrow G
   $$
 
   satisfying on each triple intersection the cocycle condition
@@ -426,6 +444,13 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+It is a matter of unwinding the definitions that the statement holds disregarding smooth structure everywhere, hence after evaluating the morphisms of pre-smooth groupoids on $\mathbb{R}^0$. That the component functions that one finds this way all have to be smooth then follows componentwise with the [[Yoneda lemma]] for presheaves of sets on $CartSp$ (as discussed at _[[geometry of physics -- smooth sets]]_).
+
+=--
+
 
 ### Gluing 
  
@@ -434,7 +459,7 @@ The "bootstrap"-definition of pre-smooth groupoids [above](#PreSmoothGroupoids) 
 
 for $X$ a pre-smooth groupoid, then given a probe of it of the form $\sigma \colon \mathbb{R}^n \to X$ and given a [[covering]] $\{U_i \to \mathbb{R}^n\}$ of the probe space by other probe spaces $U_i \simeq \mathbb{R}^n$, then it should be possible to reconstruct $\sigma$ from knowing its restrictions $\sigma_{|U_i}\colon U_i \to X$ to these charts, and the information of how these are identified by gauge transformations on double overlaps.
 
-Such a system of local data and of gauge identification on double overlaps is just what maps out of the Cech groupoid $C(\{U_i\})$, def. \ref{GroupoidOfCover}, encode. This is shown by prop. \ref{CechCoyclesAsSmoothMaps} for the case that $X$ is of the form $\mathbf{B}G$, but this is already the archetypical case. 
+Such a system of local data and of gauge identification on double overlaps is just what maps out of the Cech groupoid $C(\{U_i\})$, def. \ref{GroupoidOfCover}, encode. This is shown by prop. \ref{CechCoyclesAsSmoothMaps} for the case that $X$ is of the form $(\mathbf{B}G)_\bullet$, example \ref{DeloopedGroupAsPreSmoothGroupoid}, but this is already the archetypical case. 
 
 In other words, the condition that smooth probes of $X$ by coordinate charts $\mathbb{R}^n$ glue along covers $\{U_i \to \mathbb{R}^n\}$ of these charts is the condition that the groupoid of smooth maps out of $\mathbb{R}^n$ itself
 
@@ -511,7 +536,7 @@ In particular, for $X \in SmoothMfs \hookrightarrow PreSmooth0Type \hookrightarr
 
 There is an alternative formulation of the whole theory where instead of the [[site]] [[CartSp]] one uses the site [[SmoothMfd]] of all [[smooth manifolds]]. Everything discussed so far goes through verbatim for that site, too, but the [[descent]] condition in def. \ref{DescentForPreSmoothGroupoids} is a much stronger condition.
 
-For instance the presheaves of the form $(\mathbf{B}G)_\bullet = (G \stackrel{\longrightarrow}{\longrightarrow} \ast)$ from example \ref{ExternalYonedaEmbeddingsIntoPreSmooth1Type} satisfy descent on $CartSp$, but not all $SmoothMfd$. Still, once we have defined the higher category of smooth groupoids, the definition wil be equivalent for both choices of sites. 
+For instance the presheaves of the form $(\mathbf{B}G)_\bullet = (G \stackrel{\longrightarrow}{\longrightarrow} \ast)$ from example \ref{DeloopedGroupAsPreSmoothGroupoid} satisfy descent on $CartSp$, but not all $SmoothMfd$. Still, once we have defined the higher category of smooth groupoids, the definition wil be equivalent for both choices of sites. 
 
 The choice of the smaller site is the one that is easier to work with, and therefore we stick with that. In fact, most every example of a pre-smooth groupoid that one runs into satisfies descent on $CartSp$.
 
@@ -523,7 +548,7 @@ For example:
 ###### Proposition
 
 For $G$ a [[Lie group]], then the pre-smooth [[delooping]] groupoid
-$(\mathbf{B}G)_\bullet$ of example \ref{ExternalYonedaEmbeddingsIntoPreSmooth1Type}
+$(\mathbf{B}G)_\bullet$ of example \ref{DeloopedGroupAsPreSmoothGroupoid}
 satisfies descent on $CartSp$, def. \ref{DescentForPreSmoothGroupoids}.
 
 =--
@@ -544,10 +569,10 @@ But this is evidently represented by the image of point
 under the map
 
 $$
-  B C^\infty(G)
+  B (C^\infty(G)_{disc})
   \simeq
   PreSmooth1Type(\mathbb{R}^n, (\mathbf{B}G)_\bullet)
-  \longrightrrow
+  \longrightarrow
   PreSmooth1Type(C(\{U_i\}), (\mathbf{B}G)_\bullet)
   \,.
 $$
@@ -560,6 +585,7 @@ an [[equivalence]] of groupoids.
 
 =--
 
+The same argument however shows that on the larger site [[SmoothMfd]] this object does not satisfy descent. Put positively, this is the content of prop. \ref{StackMapsFromXtoDeloopingOfG}. below.
 
 
 
@@ -763,11 +789,11 @@ image of $(\mathbf{B}G)_\bullet$ in $Smooth1Type$.
 =--
 
 
-+-- {: .num_prop }
++-- {: .num_prop #StackMapsFromXtoDeloopingOfG}
 ###### Proposition
 
 Let $X$ be a [[smooth manifold]], regarded as a smooth 0-groupoid, and let $G$ be a [[Lie group]], with smooth [[delooping]] groupoid $\mathbf{B}G$ 
-(example \ref{ExternalYonedaEmbeddingsIntoPreSmooth1Type}, remark \ref{NotationForLocalization}).
+(example \ref{DeloopedGroupAsPreSmoothGroupoid}, remark \ref{NotationForLocalization}).
 
 Then 
 
@@ -808,6 +834,13 @@ equivalently the groupoid of $G$-principal bundles.
 =--
 
 
++-- {: .num_remark }
+###### Remark
+
+The content of prop. \ref{StackMapsFromXtoDeloopingOfG} is in 
+common jargon that: _$\mathbf{B}G \in SmoothGrpd is the [[moduli stack]] of $G$-[[principal bundles]]".
+
+=--
 
 
 
@@ -879,6 +912,7 @@ Every [[smooth space]] is canonically a [[smooth groupoid]] with only identity m
 =--
 
 +-- {: .num_prop }
+
 ###### Proposition
 
 The canonical identification yields a [[full subcategory]]
