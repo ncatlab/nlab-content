@@ -19,7 +19,9 @@
 {:toc}
 ## Idea
 
-The _tom Dieck splitting_ in [[equivariant stable homotopy theory]] is a decomposition of  [[equivariant homotopy groups]] and [[fixed point spectra]] of [[equivariant suspension spectra]] into a [[direct sum]] of homotopy groups of _naive_ [[fixed points]].
+The _tom Dieck splitting_ in [[equivariant stable homotopy theory]] is a means to decompose certain $G$-equivariant constructiones into a sequence of the analogous non-equivariant constructions for [[Weyl group]]-[[homotopy quotients]] of $H$-[[fixed points]] spaces, for (closed) subgroups.
+
+More concretely, the tom Dieck splitting is a decomposition of [[fixed point spectra]] and hence of [[equivariant homotopy groups]] of [[equivariant suspension spectra]] into a [[direct sum]] of ordinary [[homotopy groups]] of [[homotopy quotients]] of _naive_ [[fixed point]] spaces by their residual [[Weyl group]] [[action]].
 
 ## Statement 
 
@@ -27,35 +29,9 @@ For $H\subset G$ a [[subgroup]], write
 
 * $[H \subset G]$ for its [[conjugacy class]];
 
-* $W H \coloneqq (N_G H)/H$ for its [[Weyl group]], the [[quotient group]] of the [[normalizer subgroup]] (of $H$ in $G$) by $H$;
+* $W_G H \coloneqq (N_G H)/H$ for its [[Weyl group]], the [[quotient group]] of the [[normalizer subgroup]] (of $H$ in $G$) by $H$;
 
-* $E W H$ for the [[universal principal bundle]] of the Weyl group.
-
-### For equivariant homotopy groups
-
-For $X$ a pointed [[topological G-space]] then its [[equivariant homotopy groups]] are  
-
-$$
-  \begin{aligned}
-    \pi_\bullet^G(\Sigma^\infty X)
-    & 
-    \simeq
-    \underset{[H \subset G]}{\oplus}
-    \pi_\bullet^{W H}(\Sigma^\infty (E (W H)_+ \wedge X^H))
-    \\
-    &\simeq
-    \pi_\bullet(\Sigma^\infty X^G)
-    \oplus
-    \underset{{[H \subset G]} \atop {H \neq G}}{\oplus}
-    \pi_\bullet^{W H}(\Sigma^\infty (E (W H)_+ \wedge_{W H} X^H))
-  \end{aligned}
-  \,,
-$$
-
-where the [[direct sum]] is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$.
-
-(e.g. [Schwede 15, theorem 6.12](#Schwede15))
-
+* $E W_G H$ for the [[universal principal bundle]] of the [[Weyl group]].
 
 ### For fixed point spectra
 
@@ -65,27 +41,56 @@ The [[fixed point spectrum]] of an [[equivariant suspension spectrum]] is given 
 $$
   F^G(\Sigma^\infty_G X)
   \simeq
-  \underset{[H\subset G]}{\oplus}
-  \Sigma^\infty( E W H_+ \wedge_{W H} X^H )
+  \underset{[H\subset G]}{\vee}
+  \Sigma^\infty( E (W_G H)_+ \wedge_{W_G H} X^H )
 $$
 
 where $\Sigma^\infty$ is the plain [[suspension spectrum]] construction.
 
 (e.g. [Schwede 15, example 7.7](#Schwede15))
 
-In particular the summand for $H = G$ is just the [[suspension spectrum]] $\Sigma^\infty (X^G)$ of the naive fixed points:
+In particular, since $W_G G = 1$ and $W_G 1 = G$, the extremal summands for $H = G$ and $H = 1$ are just the [[suspension spectrum]] $\Sigma^\infty (X^G)$ of the naive fixed points and the [[Borel construction]] of the full space, respectively
 
 $$
   F^G(\Sigma^\infty_G X)
   \simeq
   \Sigma^\infty( X^G )
-  \oplus
+    \vee
   \left(
-  \underset{{[H\subset G]} \atop {H \neq G}}{\oplus}
-  \Sigma^\infty( E W H_+ \wedge_{W H} X^H )
+    \underset{{[H\subset G]} \atop {1 \neq H \neq G}}{\vee}
+    \Sigma^\infty( E (W_G H)_+ \wedge_{W_G H} X^H )
   \right)
+    \vee
+  \Sigma^\infty( E G_+ \wedge_{G} X )
+  \,.
 $$
 
+
+
+### For equivariant homotopy groups
+
+It follows that for $X$ a pointed [[topological G-space]] then its [[equivariant homotopy groups]] are  
+
+$$
+  \begin{aligned}
+    \pi_\bullet^G(\Sigma^\infty X)
+    & 
+    \simeq
+    \underset{[H \subset G]}{\oplus}
+    \pi_\bullet^{W_G H}(\Sigma^\infty (E (W_G H)_+ \wedge X^H))
+    \\
+    &\simeq
+    \pi_\bullet(\Sigma^\infty X^G)
+    \oplus
+    \underset{{[H \subset G]} \atop {H \neq G}}{\oplus}
+    \pi_\bullet^{W_G H}(\Sigma^\infty (E (W_G H)_+ \wedge_{W_G H} X^H))
+  \end{aligned}
+  \,,
+$$
+
+where the [[direct sum]] is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$.
+
+(e.g. [Schwede 15, theorem 6.12](#Schwede15))
 
 
 
@@ -121,5 +126,5 @@ $$
 
 * {#Greenlees} [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
 
-
 * {#Schwede15} [[Stefan Schwede]], section 6 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
