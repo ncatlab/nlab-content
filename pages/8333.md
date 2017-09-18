@@ -31,12 +31,8 @@ The [[relation]] of [[chain homotopy]] is an [[equivalence relation]] on the [[h
 +-- {: .num_defn}
 ###### Definition
 
-Write
-
-$$
-  \mathcal{K}(\mathcal{A}) \coloneqq Ch_\bullet(\mathcal{A})
-$$
-
+Write $
+  \mathcal{K}(\mathcal{A})$
 for the [[category]] whose [[objects]] are [[chain complexes]], and whose [[morphisms]] between objects $C_\bullet, D_\bullet$ are chain homotopy-equivalence classes
 
 $$
@@ -197,7 +193,7 @@ $$
   \,.
 $$
 
-The [[codomain]] of this map is an [[exact sequence]], hence is [[quasi-isomorphism|quasi-isomorphic]] to the 0-chain complex. Thereofore in [[homotopy theory]] it should behave entirely as the 0-complex itself. In particular, every [[chain map]] to it should be [[chain homotopy|chain homotopic]] to the [[zero morphism]] (have a _[[nLab:null homotopy]]_).
+The [[codomain]] of this map is an [[exact sequence]], hence is [[quasi-isomorphism|quasi-isomorphic]] to the 0-chain complex. Therefore in [[homotopy theory]] it should behave entirely as the 0-complex itself. In particular, every [[chain map]] to it should be [[chain homotopy|chain homotopic]] to the [[zero morphism]] (have a _[[nLab:null homotopy]]_).
 
 But the above chain map is chain homotopic precisely only to itself. This is because the degree-0 component of any chain homotopy out of this has to be a homomorphism of abelian groups $\mathbb{Z}_2 \to \mathbb{Z}$, and this must be the 0-morphism, because $\mathbb{Z}$ is a [[free group]], but $\mathbb{Z}_2$ is not.
 
