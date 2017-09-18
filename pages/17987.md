@@ -29,7 +29,7 @@ A basic example of such a [[homotopy invariant]] of [[topological spaces]] is [[
 
 But there are more interesting and richer [[homotopy invariants]] of [[topological spaces]]. In a sense the next example after the "[[ordinary cohomology|ordinary]]" [[singular cohomology]] is the "[[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]" called [[topological K-theory]].
 
-In [[topological K-theory]] one detects properties of [[topological spaces]] by regarding _[[vector bundles]]_ over them. A [[vector bundle]] over a topological space $X$ is an assignment of a [[vector space]] $V_x$ (the "[[fiber]]" over $x$) to each of its points, such that these glue together to one big space $V$ over $X$ as the point $x$ varies in $X$. Hence vector bundles are to be thought of as "continuously varying families of vector spaces", combining [[topology]] with [[linear algebra]].
+In [[topological K-theory]] one detects properties of [[topological spaces]] by regarding _[[vector bundles]]_ over them. A [[vector bundle]] over a topological space $X$ is an assignment of a [[vector space]] $V_x$ (the "[[fiber]]" over $x$) to each of its points $x \in X$, such that these glue together to one big space $V$ over $X$ as the point $x$ varies in $X$. Hence vector bundles are to be thought of as "continuously varying families of vector spaces", combining [[topology]] with [[linear algebra]].
 
 
 <div style="float:right;margin:0 10px 10px 0;">
@@ -42,11 +42,12 @@ graphics grabbed from <a href="https://ncatlab.org/nlab/show/vector+bundle#Hatch
 For example if $X$ is [[differentiation|differentiable]], then at each of its points there is a [[vector space]] of _[[tangent vectors]]_ called the [[tangent space]] at that point. The collection of these [[tangent spaces]] forms a [[vector bundle]] called the _[[tangent bundle]]_. The graphics on the right shows one tangent space to the [[2-sphere]].
 
 
-Just as two [[vector spaces]] may be combined in their [[direct sum]], so two [[vector bundles]] may be combined by point-wise direct sum of their [[fibers]]. This makes the vector bundles over a fixed topological space form a [[semi-group]] (in fact a [[monoid]]). This may universally be turned into an [[abelian group]], and this is the [[topological K-theory]] group of the underlying topological space. Hence
+Just as two [[nLab:vector spaces]] may be combined in their [[nLab:direct sum]], so two [[nLab:vector bundles]] may be combined by point-wise direct sum of their [[nLab:fibers]]. This makes the [[nLab:isomorphism classes]] of [[nLab:vector bundles]] over a fixed topological space form a [[nLab:semi-group]] (in fact a [[nLab:monoid]]). The key idea of [[nLab:topological K-theory]] is to turn this [[nLab:semi-group]] of vector bundles into an actual ([[nLab:abelian group|abelian]]) [[nLab:group]] by adjoining [[nLab:inverses]], a general procudure known as the _[[nLab:Grothendieck group]]_ construction, after its inventor. Applied to the semi-group of [[nLab:isomorphism classes]] of  [[nLab:vector bundles]], this yields the abelian group that is called the _[[nLab:topological K-theory]]_ group of the underlying topological space. Here the "K" refers to the passage to ([[nLab:isomorphism]]) classes (German: _Klassen_).
+
 
 +-- {: principle}
 
-_[[topological K-theory|Topological K-theory]] studies [[vector bundles]] over [[topological spaces]] together with their formal [[inverses]] with respect to [[direct sum of vector bundles]]_.
+_[[topological K-theory|Topological K-theory]] studies [[isomorphism classes]] of [[vector bundles]] over [[topological spaces]] together with their formal [[inverses]] with respect to [[direct sum of vector bundles]]_.
 
 =--
 
@@ -85,19 +86,25 @@ $$
 
 This [[abelian group]] obtained from $(Vect(X)_{/\sim}, \oplus)$ is denoted $K(X)$ and often called _the K-theory_ of the space $X$. Here the letter "K" (due to [[Alexander Grothendieck]]) originates as a shorthand for the German word _Klasse_, referring to the above process of forming [[equivalence classes]] of ([[isomorphism classes]]) of vector bundles.
 
-This simple construction turns out to yield remarkably useful groups of [[homotopy]] [[invariants]].
-A variety of deep facts in [[algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance the [[Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)).
+This simple construction turns out to yield remarkably useful groups of [[nLab:homotopy]] [[nLab:invariants]].
+A variety of deep facts in [[nLab:algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance
 
-One defines the "higher" K-groups of a topological space to be those of its higher [[suspensions]]
+* the proof of [[nLab:topological invariance of dimension]];
+
+* the solution of the [[nLab:Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)),
+
+These proofs make use of the [[nLab:Adams operations]] on K-theory, which are reflections of the fact that with every [[nLab:vector bundle]] there is also the [[nLab:exterior power|exterior]] [[nLab:tensor product of vector bundles|tensor powers]].
+
+One defines the "higher" K-groups of a topological space to be those of its higher [[nLab:suspensions]]
 
 $$
   K^{-n}(X) = K(\Sigma^n X)
   \,.
 $$
 
-The assignment $X \mapsto K^\bullet(X)$ turns out to share many properties of the assignment of [[ordinary cohomology]] groups $X \mapsto H^n(X,\mathbb{Z})$. One says that topological K-theory is a [[generalized (Eilenberg-Steenrod) cohomology]] theory. As such it is [[Brown representability theorem|represented]] by a [[spectrum]]. For $k = \mathbb{C}$ this is called [[KU]], for $k = \mathbb{R}$ this is called [[KO]]. (There is also the unification of both in [[KR]]-theory.)
+The assignment $X \mapsto K^\bullet(X)$ turns out to share many properties of the assignment of [[nLab:ordinary cohomology]] groups $X \mapsto H^n(X,\mathbb{Z})$. One says that topological K-theory is a [[nLab:generalized (Eilenberg-Steenrod) cohomology]] theory. As such it is [[nLab:Brown representability theorem|represented]] by a [[nLab:spectrum]]. For $k = \mathbb{C}$ this is called [[nLab:KU]], for $k = \mathbb{R}$ this is called [[nLab:KO]]. (There is also the unification of both in [[nLab:KR]]-theory.)
 
-One of the basic facts about topological K-theory, rather unexpected from the definition, is that these higher K-groups repeat _periodically_ in the degree $n$. For $k = \mathbb{R}$ the periodicity is 8, for $k = \mathbb{C}$ it is 2. This is called _[[Bott periodicity]]_.
+One of the basic facts about topological K-theory, rather unexpected from the definition, is that these higher K-groups repeat _periodically_ in the degree $n$. For $k = \mathbb{R}$ the periodicity is 8, for $k = \mathbb{C}$ it is 2. This is called _[[nLab:Bott periodicity]]_. This closely connects to similar periodicities encountered elsewhere in mathematics, notably the periodicity, up to [[nLab:Morita equivalence]], of [[nLab:Clifford algebras]].
 
 
 It turns out that an important source of [[virtual vector bundles]] representing classes in [[K-theory]] are index bundles: Given a [[Riemannian manifold|Riemannian]] [[spin structure|spin]] [[manifold]] $B$, then there is a [[vector bundle]] $S \to B$ called the _[[spin bundle]]_ of $B$, which carries a [[differential operator]], called the [[Dirac operator]] $D$. The [[index of a Dirac operator]] is the formal difference of its [[kernel]] by its [[cokernel]] $[ker D, coker D]$. Now given a continuous family $D_x$ of Dirac operators/Fredholm operators, parameterized by some topological space $X$, then these indices combine to a class in $K(X)$.
@@ -1548,7 +1555,7 @@ come back to themselves as we move around the circle, or they switch position. T
 fact that in the circle there are non-contractible loops, in constrast for instance to the [[2-sphere]], where every loop
 may be continuously shrunk to a constant loop. If we embed the two points $\{-1,1\}$ into the [[real line]]
 and repeat the construction, then as the line traces around the circle it sweeps out one of two different
-topological spaces over the circle: either the [[cylnder]] (if $+1$ comes back to itself) or the _[[Möbius strip]]_
+topological spaces over the circle: either the [[cylinder]] (if $+1$ comes back to itself) or the _[[Möbius strip]]_
 (if $+1$ and $-1$ change position as one goes around the circle).
 
 The image of this situation looks like a "[[bundle]]" of "[[fibers]]" over the circle.
