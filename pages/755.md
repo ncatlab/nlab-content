@@ -33,7 +33,9 @@ Preliminary to the circulated Pursuing Stacks is a 12 page letter to [[Daniel Qu
 
 For an account of the origins of the manuscript, see [Ronnie Brown's account](http://www.bangor.ac.uk/~mas010/pstacks.htm), where a large downloadable .ps file may be found. 
 Scanned copies of the original typescript are available [here](http://modular.fas.harvard.edu/sga/djvu/Pursuing%20Stacks.tif.djvu) (in djvu, warning: 23MB), [here](http://www.math.umn.edu/~messing/docs/) (djvu and pdf - 252MB), or [here](http://preschema.com/pursuing-stacks/) (png images) (some of these links seem no longer to work!). [Page](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps.html) by Maltsiniotis.
- 
+
+There is also a [[PursuingStacks.pdf|LaTeX version:file]] (well, it is too large to upload). The sources are available as well: [[PursuingStacks.tar.gz:file]].
+
 ## Content and influence on current research
 
 Grothendieck considered among other things, the notion of $n$-[[n-groupoid|groupoids]] and $\infty$-[[omega-groupoid|groupoids]], [[homotopy types]] and how to model them, [[homology]] and [[cohomology]] theories defined on categories of models and schematisation of homotopy types. This last is an attempt to define homotopy theory relative to a base ring, say, such that over $\mathbb{Z}$ ordinary homotopy theory is recovered.
