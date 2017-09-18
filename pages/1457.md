@@ -137,6 +137,9 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * [[sequentially compact metric spaces are equivalently compact metric spaces]]
 
+* [[countably compact metric spaces are equivalently compact metric spaces]]
+
+
 ## Related concepts
 
 * [[metric jet]] -- a notion of "tangency" for maps of metric spaces
