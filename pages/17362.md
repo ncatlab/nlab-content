@@ -36,6 +36,8 @@ Ranta (1994, p. 68) gives nine natural language sugarings for it:
 * there is a man who owns a donkey,
 * there is a man such that there is a donkey that he owns.
 
+In a set theory where [[classes]] are not "first-class objects" (for example [[ZFC]], but not [[NBG]]), classes are only syntactic sugar and have no independent existence. For instance, if one defines a class $M \coloneqq \{ X | \varphi(X) \}$ by [[comprehension]], then "$X \in M$" is syntactic sugar for "$\varphi(X)$".
+
 ## References
 
 * {#Landin64} [[Peter Landin]], _The mechanical evaluation of expressions_, ([pdf](http://www.cs.cmu.edu/~crary/819-f09/Landin64.pdf))
