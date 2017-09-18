@@ -159,7 +159,7 @@ Specifically [[string phenomenology]] for the case of compactification on [[G2-m
 
 * {#AcharyaSpence00} [[Bobby Acharya]], B. Spence, _Flux, Supersymmetry and M theory on 7-manifolds_ ([arXiv:hep-th/0007213](http://arxiv.org/abs/hep-th/0007213))
 
-* {BeasleyWitten02} [[Chris Beasley]], [[Edward Witten]], _A Note on Fluxes and Superpotentials in M-theory Compactifications on Manifolds of $G_2$ Holonomy_, JHEP 0207:046,2002 ([arXiv:hep-th/0203061](http://arxiv.org/abs/hep-th/0203061))
+* {#BeasleyWitten02} [[Chris Beasley]], [[Edward Witten]], _A Note on Fluxes and Superpotentials in M-theory Compactifications on Manifolds of $G_2$ Holonomy_, JHEP 0207:046,2002 ([arXiv:hep-th/0203061](http://arxiv.org/abs/hep-th/0203061))
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
