@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,7 +20,7 @@
 
 ## Related concepts
 
-* [[model stucture on dg-coalgebras]]
+* [[model stucture on dg-coalgebras]], [[model structure on dg-comodules]]
 
 * [[model structure on monoids in a monoidal model category]]
 
