@@ -112,7 +112,29 @@ $$
 
 Whereas $T\circ L$ and $T\circ R$ are each the identity, the reverse compositions $L\circ T$ and $R\circ T$ yield an [[idempotent comonad]] $sk:N\to N$ and an [[idempotent monad]] $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$: in new guises $L$ and $R$ resurface again but this time within an 'opposition' $sk\dashv cosk$ which expresses formally the 'conflict' between $N_{even}$ and $N_{odd}$, even and odd, as well as their essential identity and unity.
 
-Hopefully this has provided some intuition how a mediated adjunction $l\dashv t\dashv r$ between two fully faithful functors $l,r$ captures the idea of unity-and-identity-of-opposites (UIO). The concept of Aufhebung then intends to capture the passage from such an UIO to another UIO thereby creating a dynamics between logical concepts.
+### Reflexivity vs. irreflexivity
+
+Let us briefly consider a second example of a unity-and-identity of opposites:
+
+The category $\mathbf{Bin}$ of sets equipped with a binary relation has objects pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2)$ are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. Here we view a [[relation]] as set of ordered pairs $(x_1,x_2)$ of elements $x_1,x_2\in X$.
+$(\empty,\empty)$ and $(\{\ast\},\{\ast,\ast\})$ are the initial resp. the terminal object in $\mathbf{Bin}$.
+
+A relation $\rho$ on set $X$ is called _reflexive_ (resp. _irreflexive_) when $\rho\cap id_X=id_X$ (resp. $\rho\cap id_X=\empty$). In other words a reflexive relation contains $(x,x)$ for every $x\in X$. Let $\mathbf{Refl}$ and $\mathbf{IrRefl}$ be the respective full subcategories of $\mathbf{Bin}$.
+
+They are strongly opposed to each other in the sense that they have almost disjoint object classes, in fact the initial object of $\mathbf{Bin}$ $(\empty,\empty)$ is the only object that is reflexive and irreflexive. Furthermore, it is the only reflexive object $(X,\rho)$ at all that even admits a map $(X,\rho)\to (Y,\iota)$ to some irreflexive object $(Y,\iota)$.
+This is because maps have to preserve the structure and $(x,x)\in\rho$ requires $(f(x),f(x))\in\iota$.
+
+On the other hand, considering only reflexive objects among themselves in $\mathbf{Refl}$ the reflexive pairs in $\rho$ play no longer a role in determining whether a function $f:X\to Y$ is structure preserving or not, since the codomain is equipped with a reflexive relation as well so requirements like $(f(x),f(x))\in\iota$ are automatically met. In other words, a function $f:X\to Y$ between two sets underlies a structure preserving map $(X,\rho) \to(Y,\zeta)$ in $\mathbf{Refl}$ exactly iff it underlies a structure preserving map $(X,\rho\setminus id_X)\to (Y,\zeta\setminus id_X)$ in $\mathbf{IrRefl}$. In functorial language, the functor $\mathbf{Refl}\to\mathbf{IrRefl}$ that maps $(X,\rho)$ to $(X,\rho\setminus id_X)$ and lets the (underlying) functions of the morphisms unchanged is an _isomorphim_ with inverse $(Y,\iota)\mapsto (Y,\iota\cup id_X)$. This isomorphism expresses the identity of reflexivity and irreflexivity. 
+
+The language of adjunctions permits one to encapsulate all the three relations of unity, opposition and identity:
+
+The inclusion $i:\mathbf{Refl}\hookrightarrow\mathbf{Bin}$ is an essential localization:
+
+$$d\dashv r \dashv i:\mathbf{Refl}\hookrightarrow\mathbf{Bin}\quad .$$
+
+Here $r$ is the reflexivization functor that maps $(X,\rho)$ to $(X,\rho\cup id_X)$, whereas $d:\mathbf{Refl}\hookrightarrow \mathbf{Bin}$ is the irreflexivization functor that maps $(X,\rho)$ to $(X,\rho\setminus id_X)$. The corresponding identical opposite of $\mathbf{Refl}$ is, of course, the full subcategory $\mathbf{IrRefl}$ of sets equipped with an irreflexive relation.
+
+Hopefully the two example has provided some intuition how a mediated adjunction $l\dashv t\dashv r$ between two fully faithful functors $l,r$ captures the idea of unity-and-identity-of-opposites (UIO). The concept of Aufhebung then intends to capture the passage from such an UIO to another UIO thereby creating a dynamics between logical concepts.
  
 ### The mathematics of _Aufhebung_
  {#TheMathematicsOfAufhebung}
@@ -489,41 +511,6 @@ Let $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ be a quintessential localizati
 ###### Example
 A simple _example_ of a non-trivial quintessential localization is given by the category $\mathcal{C}$ with objects pairs $(X, e)$ where $X$ is a set and $e=e^2$ an idempotent map $X\to X$. A morphism $f:(X_1, e_1)\to (X_2, e_2)$ is a function $f:X_1\to X_2$ with $f\cdot e_1=e_2\cdot f$. These equivariant morphisms are bound to preserve fixpoints: when $e_1(x)=x$ then $f(e_1(x))=f(x)=e_2(f(x))$. Then the fixpoint set functor $r:\mathcal{C}\to Set$ with $r(X, e)=\{x\in X | e(x)=x \}$ is left as well as right adjoint to $i(X)=(X, id_X)$ since an equivariant morphism $f:(X,e)\to (Y,id_Y)$ is uniquely determined by its restriction to the fixpoints of $e$ and its values are given by $f(e(x))$. The [[adjoint modality]] $i\cdot r\dashv i\cdot r:\mathcal{C}\to\mathcal{C}$ corresponding to $i\dashv r\dashv i:Set\to\mathcal{C}$ maps $(X,e)$ to $(r(X),id_{r(X)})$. The corresponding level sublates $\emptyset\dashv\ast$ as well as itself whereas $id_\mathcal{E}$ only sublates itself.
 =--
-
-+-- {: .num_example}
-###### Example
-Let $\mathbf{Bin}$ be the category of sets equipped with a binary relation i.e. objects are pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2)$ are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. This is the same as the category of [[quiver|simple directed graphs]] hence a [[quasitopos]] since it corresponds to the separated objects for the [[double negation|double negation topology]] on the directed graphs. 
-$(\empty,\empty)$ and $(\{\ast\},\{\ast,\ast\})$ are the initial resp. the terminal object in $\mathbf{Bin}$.
-
-Symmetricization $\rho\mapsto\bar{\rho}$ by adding pairs $(y,x)$ (if necessary) when $(x,y)\in\rho$ gives a functor from $\mathbf{Bin}$ to the full subcategory $\mathbf{Sym}$ of sets equipped with a _symmetric_ relation that is adjoint to the inclusion on both sides:
-
-$$
-i\dashv s\dashv i:\mathbf{Sym}\hookrightarrow\mathbf{Bin}\quad .
-$$
-
-The inclusion 
-
-$$e\dashv u\dashv t: Set\hookrightarrow\mathbf{Bin}$$
-
-is an essential localization whereby $t$ maps a set $X$ to $(X,\tau_X)$ with $\tau_X$ the total relation on $X$, $u$ is the forgetful functor mapping $(X,\rho)$ to its underlying set $X$, and $e$ maps a set $X$ to $(X,\empty)$. The correponding modalities ($\Box$ resp. $\diamond$) are mapping $(X,\rho)$ to $(X,\empty)$ resp. to $(X,\tau_X)$. The corresponding level resolves $0\dashv 1$ and is itself in turn resolved by $\mathbf{Sym}$ since the total as well as the empty relation on a set $X$ is symmetrical.
-
-$\mathbf{Bin}$ has other interesting subcategories e.g. another copy of $Set$ as the full reflective subcategory of sets $X$ equipped with the identity relation. The corresponding inclusion $\Delta$ forms part of an adjoint string
-
-$$\Pi\dashv\Delta\dashv\Gamma:\mathbf{Bin}\to Set$$
-
-with the connected components functor $\Pi$ and the section functor $\Gamma$ mapping $(X,\rho)$ to $\{x\in X| x\rho x\}$. This is not a localization since $\Pi$ does not preserve finite limits.
-
-The inclusion $i:\mathbf{Refl}\hookrightarrow\mathbf{Bin}$ of the full subcategory of sets equipped with a _reflexive_ relation is an essential localization:
-
-$$d\dashv r \dashv i:\mathbf{Refl}\hookrightarrow\mathbf{Bin}\quad .$$
-
-Here $r$ is the reflexivization functor that maps $(X,\rho)$ to $(X,\rho\cup id_X)$, whereas $d:\mathbf{Refl}\hookrightarrow \mathbf{Bin}$ is the irreflexivization functor that maps $(X,\rho)$ to $(X,\rho\setminus id_X)$. The corresponding identical opposite of $\mathbf{Refl}$ is, of course, the full subcategory $\mathbf{IrRefl}$ of sets equipped with an irreflexive relation. Note that this level resolves $0\dashv 1$ since the empty relation on the empty set is reflexive and irreflexive at the same time. In fact $(\empty,\empty)$ is the only object $(X,\rho)$ contained in $\mathbf{Refl}\cap\mathbf{IrRefl}$. In particular, $\mathbf{Refl}$ contains $Set$ as the sets equipped with the total relation but does not resolve the corresponding level.
-
-Note that this example can be viewed as a toy-model illustration of the basic dialectical movement of concepts in the logic of essence in WdL which consists in the dynamic unfolding of the (asymmetrically relational) concept of essence into the (symmetrically relational) concept of _Wechselwirkung_ or mutual action where the asymmetry between essence and appearance is finally sublated by the symmetry between action and counter action.
-
-This example (or the Yin Yang example above) also makes the point that the concept of topos is not necessary to state the definition of Aufhebung or identity of opposites but works using the concept of reflective subcategory with an essentiality. Of course, localizations of toposes are well behaved and working in this well known context makes things easier.
-=--
-
 
 For further properties of quintessential localizations see at [[quality type]].
 
