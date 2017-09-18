@@ -20,71 +20,74 @@
 
 ## Idea
 
-The **cobordism ring** $\Omega_*=\oplus_{n\geq 0}\Omega_n$ is the [[ring]] whose 
+The **(co)bordism ring** $\Omega_*=\oplus_{n\geq 0}\Omega_n$ is the [[graded ring]] whose 
 
-* degree $n$ elements are classes of $n$-dimensional [[manifold]]s modulo [[cobordism]]s;
+* degree $n$ elements are classes of $n$-[[dimension|dimensional]] [[smooth manifolds]] modulo [[cobordism]];
 
 * product operation is given by the [[Cartesian product]] of manifolds;
 
 * addition operation is given by the [[disjoint union]] of manifolds.
 
-Instead of bare manifolds one can consider manifolds with extra structure, such as [[orientation]], [[spin structure]], [[string structure]], etc. and accordingly there is _oriented cobordism ring_ $\Omega^{SO}_*$,  the _spin cobordism ring_ $\Omega^{Spin}_*$, etc. In this context the bare cobordism ring is also denoted $\Omega^O_*$ or $\Omega^{un}_*$.
+Instead of bare manifolds one may consider manifolds with extra structure, such as [[orientation]], [[spin structure]], [[string structure]], etc. and accordingly there is 
 
-A ring [[homomorphism]] out of the cobordism ring is a [[genus]].
+* the _oriented cobordism ring_ $\Omega^{SO}_*$,  
 
-For $T$ a fixed [[manifold]] there is a relative version $\Omega_\bullet(T)$ of the cobordism ring: 
+* the _spin cobordism ring_ $\Omega^{Spin}_*$, 
 
-* elements are classes modulo cobordism over $T$ of manifolds equipped with [[smooth function]]s to $T$;
+etc. 
 
-* multiplication of $[f : X \to T]$ with $[g : Y \to T]$ is given by _transversal intersection_ $X \cap_T Y$ over $T$: perturb $f$ such $(f',g)$ becomes [[transversal maps]] and then form the [[pullback]] $X \times_{(f',g)} Y$ in [[Diff]].
+In this general context the bare cobordism ring is also denoted $\Omega^O_*$ or $\Omega^{un}_*$, for emphasis.
+
+A ring [[homomorphism]] out of the cobordism ring is a (multiplicative) _[[genus]]_.
+
+More generally, for $X$ a fixed [[manifold]] there is a relative cobordism ring $\Omega_\bullet(X)$ whose 
+
+* elements are classes modulo cobordism over $X$ of manifolds equipped with [[continuous functions]] to $X$ ("singular manifolds");
+
+* multiplication of $[f_1 \colon \Sigma_1 \to X]$ with $[f_2 \colon \Sigma_2 \to X]$ is given by _transversal intersection_ $\Sigma_1 \cap_X \Sigma_2$ over $X$: perturb $f_1$ such $(f_1',f_2)$ becomes a [[transversal maps]] and then form the [[pullback]] $\Sigma_1 \times_{(f_1',f_2)} \Sigma_2$ in [[Diff]].
 
 This product is graded in that it satisfies the **dimension formula**
 
 $$
-  (dim T - dim X) + (dim T - dim Y) = dim T - dim (X \cap_T Y)
+  (dim X - dim \Sigma_1) + (dim X - dim \Sigma_2) = dim X - dim (\Sigma_1 \cap_X \Sigma_2)
 $$
 
 hence
 
 $$
-  dim (X \cap_T Y ) = (dim X + dim Y) - dim T
+  dim (\Sigma_1 \cap_X \Sigma_2 ) = (dim \Sigma_1 + dim \Sigma_2) - dim X
   \,.
 $$
+
+Still more generally, this may be considered for $\Sigma$ being [[manifolds with boundary]]. Then $\Omega(X,A)$ for $(X,A)$ a [[CW pair]] is the ring of cobordism classes, relative boundary, of singular manifolds $\Sigma \to X$ such that the [[boundary]] of $\Sigma$ lands in in $A$.
+
+The resulting [[functor]]
+
+$$
+  (X,A) \mapsto \Omega^G_\bullet(X,A)
+$$
+
+constitutes a [[generalized homology theory]] (see e.g. [Buchstaber, II.8](#Buchstaber)). Accordingly this is called _[[bordism homology theory]]_.
+
+The [[spectrum]] that represents this under the [[Brown representability theorem]] is the universal [[Thom spectra]] $M G$ (e.g. [[MO]] for $G=O$ or [[MU]] for $G = U$), which canonically is a [[ring spectrum]] under [[Whitney sum]] of [[universal vector bundles]]. Accordingly the (co-bordism ring) itself is equivalently the bordism homology groups of the point, hence the [[stable homotopy groups]] of the [[Thom spectrum]] (this is _[[Thom's theorem]]_)
+
+$$
+  \Omega_\bullet^G \simeq \M G_\bullet(\ast) \simeq pi_\bullet(M G)
+  \,.
+$$
+
+This remarkable relation between [[manifolds]] and [[stable homotopy theory]] is known as _[[cobordism theory]]_ (or "Thom theory").
+
+On general grounds this is equivalently the $M G$-[[generalized cohomology]] of the point ([[cobordism cohomology theory]])
+
+$$
+  \Omega_\bullet^G \simeq M G^\bullet(\ast)
+$$
+
+which justifies calling $\Omega_\bullet^G$ both the "bordism ring" as well as the "cobordism ring".
 
 ## Properties
 
-### Relation to cobordism cohomology theory
-
-See _[[cobordism cohomology theory]]_.
-
-### Relation to higher category theory
-
-The cobordism ring finds its natural interpretation in [[higher category theory]].
-
-+-- {: .num_theorem}
-###### Theorem
-**(Thom)**
-
-The degree $n$ component $\Omega_n$ of the cobordism ring $\Omega_*$ is the $n$th [[homotopy group]] of the [[Thom spectrum]] $M O$
-
-$$
-  \Omega^O_n \simeq \pi_n (M O)
-$$
-
-=--
-
-The [[Thom spectrum]] $M O$ is a connected [[spectrum]] hence essentially a [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[∞-groupoid]] ([[infinite loop space]]) $\Omega^\infty M O$. 
-
-By one aspect of the (proof of the) [[cobordism hypothesis]]-theorem, this is the [[(∞,n)-category of cobordisms]] for $n \to \infty$
-
-$$
-  Bord_{(\infty,\infty)} \simeq \Omega^\infty M O
-  \,.
-$$
-
-Really on the left we have the $\infty$-groupoidification of that [[∞-category]], but since $Bord_{(\infty,\infty)}$ has duals for [[k-morphism]]s for _all_ $k$, it is already itself an $\infty$-groupoid: the [[Thom spectrum]]. See ([Francis](#Francis)).
-
-Hence the cobordism ring in degree $n$ is the [[decategorification]] of the $n$-fold [[loop space object|looping]] of the $\infty$-category of cobordisms.
 
 ## Examples
 
@@ -133,6 +136,8 @@ Textbook accounts include
 
 
 Lecture notes include
+
+* {#Buchstaber} [[Victor Buchstaber]], _Geometric cobordism theory_ ([pdf](http://www.maths.manchester.ac.uk/~peter/MATH41101notes07.pdf))
 
 * {#Francis} [[John Francis]] (notes by [[Owen Gwilliam]]), _[Topology of manifolds](http://math.northwestern.edu/~jnkf/classes/mflds/)_, _Lecture 2: Cobordism_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
 
