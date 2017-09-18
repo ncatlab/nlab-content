@@ -133,6 +133,8 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 
 * [[syntax - semantics duality]]
 
+* [[abstract Stone duality]]
+
 ## References
 
 
