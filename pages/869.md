@@ -42,6 +42,21 @@ In a [[topos]], the __negation__ of an object $A$ (a [[proposition]] under the [
 
 This matches the [[intuitionistic mathematics|intuitionistic]] notion of negation in that there is a [[natural transformation|natural morphism]] $A \to 0^{0^A}$ but not the other way around.
 
+## Related entries
+
+* [[complement]]
+* [[co-Heyting negation]]
+* [[adjoint cylinder]]
+
+## References
+
+
+* Y. Gauthier, _A Theory of Local Negation: The Model and some Applications_ , Arch. Math. Logik **25** (1985) pp.127-143. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=GDZPPN002045923))
+
+* H. Wansing, _Negation_ , pp.415-436 in Goble (ed.), _The Blackwell Guide to Philosophical Logic_ , Blackwell Oxford 2001.
+
+
+
 [[!redirects not]]
 
 [[!redirects linear negation]]
