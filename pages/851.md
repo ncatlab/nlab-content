@@ -203,7 +203,7 @@ This appears as [[Higher Topos Theory|HTT, remark 1.2.9.6]].
 +-- {: .num_prop}
 ###### Proposition
 
-If $q : C \to D$ is a [[model structure for quasi-categories|categorical equivalence]] then so is the induced morphism $C_{/F} \to C_{/q F}$.
+If $q : C \to D$ is a [[model structure for quasi-categories|categorical equivalence]] then so is the induced morphism $C_{/F} \to D_{/q F}$.
 
 =--
 
