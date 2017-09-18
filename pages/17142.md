@@ -1,4 +1,6 @@
 
+> This entry is about Thom's theorem in [[cobordism theory]]. For the isomorphism in [[cohomology]] induced by [[Thom classes]] see at _[[Thom isomorphism]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -1346,3 +1348,7 @@ Further lecture notes include
 [[!redirects Thom theorem]]
 
 [[!redirects Pontrjagin-Thom theorem]]
+[[!redirects Pontrjagin-Thom isomorphism]]
+
+[[!redirects Pontryagin-Thom theorem]]
+[[!redirects Pontryagin-Thom isomorphism]]
