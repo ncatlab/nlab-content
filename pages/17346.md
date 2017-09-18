@@ -2769,7 +2769,7 @@ $$
 $$
 
 
-Hence lemma \ref{CoModuleExtFromAToAForPrimitivelyGeneratedExteriorAlgebra} applies and says that thet $Ext$ from $\mathbb{F}_2$ to itself over the [[associated graded]] Hopf algebra is the polynomial algebra in these generators:
+Hence lemma \ref{CoModuleExtFromAToAForPrimitivelyGeneratedExteriorAlgebra} applies and says that the $Ext$ from $\mathbb{F}_2$ to itself over the [[associated graded]] Hopf algebra is the polynomial algebra in these generators:
 
 $$
   Ext_{gr \mathcal{A}^\ast_{\mathbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)
