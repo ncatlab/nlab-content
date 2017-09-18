@@ -35,11 +35,12 @@ Models of this type are favored by [[experiment|experimental]] results ([PlanckC
 
 With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the model with the highest [[Bayesian reasoning|Bayesian evidence]] ([Rachen, Feb 15](#Rachen15), [PlanckCollaboration 15XX, table 6 on p. 18](#PlanckCollaboration15XX)) as it is right in the center of the likelihood peak ([PlanckCollaboration 13, figure 1](#PlanckCollaboration13), also [Linde 14, figure 5](#Linde14)) and at the same time has the lowest number of free parameters : 
 
-{#Figure1} <div style="float:left;margin:0 10px 10px 0;"><img src="http://4.bp.blogspot.com/-WmnPcijsQgM/VNFk0OGgLxI/AAAAAAAAAig/HtyHFDugScw/s1600/B87t4g2IMAAmGPL.png" alt="PlanckExperimentDataPlot" /></div>
+{#Figure1} <img src="https://ncatlab.org/nlab/files/PlanckData.jpg" width="800">
+
 
 This remains true with the data of ([PlanckCollaboration 15](#PlanckCollaboration15)), see ([PlanckCollaboration 15 XIII, figure 22](#PlanckCollaboration15XIII)), which gives the following (from [here](http://resonaances.blogspot.se/2015/02/weekend-plot-inflation15.html)):
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://3.bp.blogspot.com/-DhdSMZ8AMJI/VNYRg0FTQlI/AAAAAAAABkM/dK0-7XEVHbc/s1600/Inflation-Planck2015.png" alt="PlanckExperimentDataPlot" /></div>
+{#Figure2} <img src="https://ncatlab.org/nlab/files/InflationPlanck2015.jpg" width="800">
 
 > $R^2$ inflation has the strongest evidence among the models considered here. However, care must be taken not to overinterpret small differences in likelihood lacking statistical significance. The models closest to $R^2$ in terms of evidence are brane inflation and exponential inflation, which have one more parameter
 than $R^2$ ([PlanckCollaboration 15XX, p. 18](#PlanckCollaboration15XX))
