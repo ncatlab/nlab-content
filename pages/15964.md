@@ -125,7 +125,7 @@ $$
 defined internally as the set of all images of points in $S\subseteq \mathbb{R}_D^n$ under smooth standard functions $\mathbb{R}_D^n \to \mathbb{R}_D$.  In symbols, it is given by
 
 $$
-  \mathbb{R}_D
+  \mathbb{R}_S
   \coloneqq
   \left\{
     x \in \mathbb{R}_D
