@@ -57,7 +57,7 @@ $$\theta_c = \pi_c f$$
 for every object $c$ of $C$.
 
 The notion of __coend__ is dual to the notion of end.  The coend of $F$ is written $\int^{c: C} F(c, c)$, and comes equipped with a universal extranatural transformation with components
-$$\iota_c \colon F(c,c) \to \int^c F(c,c)$$
+$$\iota_c \colon F(c,c) \to \int^{c: C} F(c,c)$$
 
 
 ### In enriched category theory 
