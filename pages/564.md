@@ -106,38 +106,34 @@ where the top horizontal composite is an identity, according to a triangular equ
 =-- 
 
 
-The canonical identification of sets $\omega: U \mathbf{a} = V \mathbf{b}$ means that we have an object "sitting in two categories" (Lawvere), namely an $A$-structure $\mathbf{a}$ on this set and a $B$-structure $\mathbf{b}$ on the same set, with $T: A^{op} \to B$ providing a lift of $A(-, \mathbf{a}): A^{op} \to Set$ through $V: B \to Set$, and $S: B^{op} \to A$ lifting $B(-, \mathbf{b}): B^{op} \to Set$ through $U: A \to Set$. Thus the triplet $(\mathbf{a}, \mathbf{b}, \omega: U \mathbf{a} \stackrel{\sim}{\to} V \mathbf{b})$ forms what may be called an ($(A, B)$-)*ambimorphic object*, living in an evident pseudo-pullback of $U$ and $V$ [check that this is the correct terminology] which we denote by $Ambi(U, V)$. 
+The canonical identification of sets $\omega: U \mathbf{a} = V \mathbf{b}$ means that we have an object "sitting in two categories" (Lawvere), namely an $A$-structure $\mathbf{a}$ on this set and a $B$-structure $\mathbf{b}$ on the same set, with $T: A^{op} \to B$ providing a lift of $A(-, \mathbf{a}): A^{op} \to Set$ through $V: B \to Set$, and $S: B^{op} \to A$ lifting $B(-, \mathbf{b}): B^{op} \to Set$ through $U: A \to Set$. 
 
-Given functors $U: A \to Set$, $V: B \to Set$, let $Adj_{rep}(U, V)$ be the category whose objects are contravariantly adjoint pairs $(S: B \to A, T: A \to B)$ such that $U S$ and $V T$ are representable. Morphisms $(S, T) \to (S', T')$ are pairs of natural transformations $\alpha: S \to S'$, $\beta: T \to T'$ such that the diagrams 
-
-$$\array{
-1_A & \stackrel{\eta'}{\to} & S' T' \\ 
- _\mathllap{\eta} \downarrow & & \downarrow_\mathrlap{S' \beta} \\ 
-S T & \underset{\alpha T}{\to} & S' T
-}$$ 
-
-$$\,$$ 
+Given functors $U: A \to Set$, $V: B \to Set$, we define $Adj_{rep}(U, V)$ to be the category whose objects are contravariantly adjoint pairs $(S: B \to A, T: A \to B)$ such that $U S$ and $V T$ are representable. Morphisms $(S, T) \to (S', T')$ are pairs of natural transformations $\alpha: S \to S'$, $\beta: T \to T'$ such that the diagrams 
 
 $$\array{
-T S' & \stackrel{T \alpha}{\to} & T S \\ 
- _\mathllap{\beta S'} \downarrow & & \downarrow_\mathrlap{\epsilon} \\ 
-T' S' & \underset{\epsilon'}{\to} & 1_B 
+1_A & \stackrel{\eta'}{\to} & S' T' & & & & & & T S' & \stackrel{T \alpha}{\to} & T S \\ 
+ _\mathllap{\eta} \downarrow & & \downarrow_\mathrlap{S' \beta} & & & & & & _\mathllap{\beta S'} \downarrow & & \downarrow_\mathrlap{\epsilon} \\ 
+S T & \underset{\alpha T}{\to} & S' T & & & & & & T' S' & \underset{\epsilon'}{\to} & 1_B 
 }$$ 
 
-commute. In conjunction with the [[Yoneda lemma]], the preceding proposition can be read as giving the construction of a functor $\Phi: Adj_{rep}(U, V) \to Ambi(U, V)$. 
+commute. We define $2\text{-}Pull(U, V)$ to be the [[2-pullback]] of $U$ and $V$ in $Cat$ (i.e., the bi-iso-comma-object). In conjunction with the [[Yoneda lemma]], the preceding proposition can be read as giving the construction of a functor $\Phi: Adj_{rep}(U, V) \to 2\text{-}Pull(U, V)$. 
 
-We are now ready for the key definition. 
+Here then is one key definition. 
 
-+-- {: .num_defn} 
++-- {: .num_defn #ambi} 
 ###### Definition 
-Given $U: A \to Set$, $V: B \to Set$, a $(U, V)$-**dualizing object** is an ambimorphic object in the essential image of $\Phi$. 
+Given $U: A \to Set$, $V: B \to Set$, a $(U, V)$-**dualizing object** (or $(U, V)$-*ambimorphic object*) is a triple $(\mathbf{a}, \mathbf{b}, \omega: U \mathbf{a} \stackrel{\sim}{\to} V \mathbf{b})$ in the essential image of $\Phi$. 
 =-- 
 
-The definition can be tightened by putting some more conditions on representable contravariant adjoint pairs $(S, T) \in Adj_{rep}(U, V)$, due to Dimov-Tholen (see the references below). Suppose given contravariant adjoint functors $S, T$ with $U S$ and $V T$ representable as above. We thus have maps 
+### Naturally represented adjunctions 
+
+Definition \ref{ambi} is reasonably general and is one of several notions of "schizophrenic object" given in [Dimov-Tholen93](#DT93). A somewhat tighter notion, also considered in [Dimov-Tholen89](#DT89) and [Porst-Tholen](#PT) and which covers many cases that arise in practice, involves initial lifts through the functors $U$, $V$. 
+
+Again, suppose given contravariant adjoint functors $S, T$ with $U S$ and $V T$ representable as above. We have maps 
 
 $$\gamma \coloneqq (U \stackrel{U \eta}{\to} U S T \cong B(T-, \mathbf{b})), \qquad \delta \coloneqq (V \stackrel{V \epsilon}{\to} V T S \cong A(U-, \mathbf{a}))$$ 
 
-so that for each object $a$ of $A$ and $x \in U a$, we have a corresponding map $(\gamma a)(x): T a \to \mathbf{b}$ (playing the role of $g$ in the proof of Proposition \ref{sitting}), and similarly for each object $b$ of $B$ and $y \in V b$, we have a map $(\delta b)(y): S b \to \mathbf{a}$ (playing the role of $f$ in Proposition \ref{sitting}). 
+so that for each object $a$ of $A$ and $x \in U a$, we have a corresponding map $(\gamma a)(x): T a \to \mathbf{b}$ (playing the role of "$g$" in the proof of Proposition \ref{sitting}), and similarly for each object $b$ of $B$ and $y \in V b$, we have a map $(\delta b)(y): S b \to \mathbf{a}$ (playing the role of "$f$" in Proposition \ref{sitting}). 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -147,18 +143,31 @@ $\{(\gamma a)(x): T a \to \mathbf{b}\}_{x \in U a}$ is $V$-[[topological functor
 
 +-- {: .num_prop} 
 ###### Proposition 
-The restriction of $\Phi: Adj_{rep}(U, V) \to Ambi(U, V)$ to the full subcategory whose objects are naturally represented adjoint pairs is full and faithful. 
+The restriction of $\Phi: Adj_{rep}(U, V) \to 2\text{-}Pull(U, V)$ to the full subcategory whose objects are naturally represented adjoint pairs is full and faithful. 
 =-- 
 
-+-- {: .proof} 
-###### Proof 
-See [Dimov-Tholen](#DT), Proposition 2.3. 
+See [Dimov-Tholen](#DT93), Proposition 2.3, where the proof is sketched. Thus naturally represented adjoint pairs could be equivalently described as certain types of ambimorphic objects. We now describe these. 
+
+Let us denote the action of $A$ on the module $U: A \to Set$, with components $A(a, a') \times U a \to U a'$, by the notation $(f, x) \mapsto f \cdot_U x$. Thus each $x \in U a$ induces a map $- \cdot_U x: A(a, \mathbf{a}) \to U \mathbf{a}$. Similarly, each $y \in V b$ induces a map $- \cdot_V y: B(b, \mathbf{b}) \to V \mathbf{b}$. 
+
++-- {: .num_defn #natural} 
+###### Definition 
+A $(U, V)$-ambimorphic object $(\mathbf{a}, \mathbf{b}, \omega: U \mathbf{a} \stackrel{\sim}{\to} V \mathbf{b})$ is *natural* if for every $a \in Ob(A)$, the $V$-structured source diagram 
+
+$$\{A(a, \mathbf{a}) \stackrel{- \cdot_U x}{\to} U \mathbf{a} \stackrel{\omega}{\to} V \mathbf{b}\}_{x \in U a}$$ 
+
+admits an [[topological concrete category|initial lift]] targeted at $\mathbf{b}$ (so a suitable diagram of the form $\gamma_x: T a \to \mathbf{b}$ indexed over $x \in U a$, for some object $T a$ of $B$), and for every $b \in Ob(B)$, the $U$-structured source diagram 
+
+$$\{B(b, \mathbf{b}) \stackrel{- \cdot_V y}{\to} V \mathbf{b} \stackrel{\omega^{-1}}{\to} U \mathbf{a}\}_{y \in V b}$$ 
+
+admits an initial lift (a diagram of type $\delta_y: S b \to \mathbf{a}$), targeted at $\mathbf{a}$. 
 =-- 
 
+Thus the category of naturally represented adjoint pairs relative to $(U, V)$ is equivalent to the category of natural $(U, V)$-dualizing objects. This is the notion of "schizophrenic object" given by [Porst-Tholen](#PT); a reasonably detailed proof of the equivalence with naturally represented adjoint pairs is given in their Theorem 1.7. 
 
 ## Examples
 
-One easy general example is where $C$ is a [[symmetric monoidal category|symmetric]] [[monoidal closed category]] and $d$ is an object therein. Here we may take $U = V = C(I, -): C \to Set$ where $I$ is the monoidal unit, and the contravariant representable functor $C(-, d): C \to Set$ lifts to a contravariant enriched hom $[-, d]: C \to C$; the symmetry isomorphism can be exploited to show how $[-, d]$ is adjoint to itself. See [here](http://ncatlab.org/nlab/show/duality#concrete_dualities) for more. 
+One easy general example of the notion given in Definition \ref{ambi} is where $C$ is a [[symmetric monoidal category|symmetric]] [[monoidal closed category]] and $d$ is an object therein. Here we may take $U = V = C(I, -): C \to Set$ where $I$ is the monoidal unit, and the contravariant representable functor $C(-, d): C \to Set$ lifts to a contravariant enriched hom $[-, d]: C \to C$; the symmetry isomorphism can be exploited to show how $[-, d]$ is adjoint to itself. See [here](http://ncatlab.org/nlab/show/duality#concrete_dualities) for more. 
 
 Further examples appear at 
 
@@ -176,12 +185,14 @@ Further examples appear at
 
 * G. D. Dimov, W. Tholen, _A Characterization of Representable Dualities,_
 In: _Categorical Topology and its Relation to Analysis, Algebra and Combinatorics,_ Prague, Czechoslovakia 22-27 August 1988,  J. Adamek and S. MacLane (eds.), World Scientific, Singapore, New Jersey, London, Hong Kong, 1989, pp. 336-357. 
+ {#DT89} 
 
 * G. D. Dimov, W. Tholen, _Groups of Dualities,_ Trans. Amer. Math. Soc.,
 336 (2), 901-913, 1993. ([pdf](http://www.ams.org/journals/tran/1993-336-02/S0002-9947-1993-1100693-0/S0002-9947-1993-1100693-0.pdf)) 
- {#DT} 
+ {#DT93} 
 
-* H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
+* H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf)) 
+ {#PT} 
 
 * Michael Barr, John F. Kennison, R. Raphael, _Isbell Duality_ ([pdf](http://www.tac.mta.ca/tac/volumes/20/15/20-15.pdf))
 
