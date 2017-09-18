@@ -29,9 +29,19 @@ The _Hopf fibration_ (named after [[Heinz Hopf]]) is a canonical nontrivial  [[c
 
 $$
   S^1 \hookrightarrow S^3 \to S^2 
+  \,.
 $$
 
-## Definition
+This we discuss below in 
+
+* _[On the 3-spehere](#DefinitionFor3Sphere)_
+
+More generally, there are four Hopf fibrations, on the 1-sphere, the 3-sphere, the 7-sphere and the 15-sphere, respectively. This we discuss in 
+
+* _[On the 1-sphere, 3-sphere, 7-sphere and 15-sphere](#OnAllFourSpheres)_.
+
+## On the 3-sphere
+ {#DefinitionFor3Sphere}
 
 ### Homotopy-theoretic characterization
  {#HomotopyTheoreticCharacterization}
@@ -69,11 +79,9 @@ $$
 
 In other words, the Hopf fibration is the $U(1)$-bundle with unit first [[Chern class]] on $S^2$.
 
-### Explicit model
+### Realization via the complex numbers
 
-An explicit [[topological space]] presenting the Hopf fibration may be obtained as follows.
-
-Identify
+An explicit [[topological space]] presenting the Hopf fibration may be obtained as follows. Identify
 
 $$ 
   S^3 \simeq \{(z_0, z_1) \in \mathbb{C}\times \mathbb{C} \,|\, {|z_0|}^2 + {|z_1|}^2 = 1\}
@@ -102,21 +110,39 @@ $$
   (z_0, z_1) \mapsto (2 z_0 z_1^* , {|z_0|}^2 - {|z_1|}^2).
 $$
 
-### Homotopy-theoretic construction
+### Realization via the Hopf construction
 
-See [[Hopf construction]].
+Regard $S^1 = U(1)$ as equipped with its [[circle group]] structure. This makes $S^1$ in particular an [[H-space]]. The Hopf fibration $S^1 \to S^3 \to S^2$  is the [[Hopf construction]] applied to this H-space.
 
-## Variations 
 
-For each of the [[normed division algebra|normed division algebras]] over $\mathbb{R}$, 
+## On the 1-sphere, 3-sphere, 7-sphere and 15-sphere
+ {#OnAllFourSpheres}
+
+
+### Via norms and projections
+
+For each of the [[normed division algebra|normed division algebras]] over $\mathbb{R}$, the [[real numbers]], [[complex numbers]], [[quaternions]], [[octonions]]
 
 $$A = \mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O},$$ 
 
-there is a corresponding Hopf fibration of [[Hopf invariant one]]. The total space of the fibration is the space of pairs $(\alpha, \beta) \in A^2$ of unit norm: ${|\alpha|}^2 + {|\beta|}^2 = 1$. These gives spheres of dimension 1, 3, [[7-sphere|7]], and 15 respectively. The base space of the fibration is [[projective space|projective]] 1-space $\mathbb{P}^1(A)$, giving spheres of dimension 1, 2, 4, and 8, respectively. In each case, the Hopf fibration is a map 
+there is a corresponding Hopf fibration of [[Hopf invariant one]]. 
+
+
+The total space of the fibration is the space of pairs $(\alpha, \beta) \in A^2$ of unit norm: ${|\alpha|}^2 + {|\beta|}^2 = 1$. This gives [[spheres]] of dimension 1, [[3-sphere|3]], [[7-sphere|7]], and 15 respectively. The base space of the fibration is [[projective space|projective]] 1-space $\mathbb{P}^1(A)$, giving spheres of dimension 1, 2, 4, and 8, respectively. In each case, the Hopf fibration is the map 
 
 $$S^{2^n - 1} \to S^{2^{n-1}}$$ 
 
 ($n = 1, 2, 3, 4$) which sends the pair $(\alpha, \beta)$ to $\alpha/\beta$. 
+
+### Via the Hopf construction
+
+When $X$ is a [[sphere]] that is an $H$-space, namely, one of the [[groups]] $S^0 = 1$ the [[trivial group]], $S^1 = \mathbb{Z}/2$ the [[group of order 2]], the [[3-sphere]] [[special unitary group]] $S^3 = SU(2)$;  or the [[7-sphere]] $S^7$ with its [[Moufang loop]] structure, then the Hopf construction produces the above four Hopf fibrations:
+
+1. $S^0 \hookrightarrow S^1 \to S^1 $
+1. $ S^1 \hookrightarrow S^3 \to S^2 $ -- complex Hopf fibration
+1. $ S^3 \hookrightarrow S^7 \to S^4 $ -- [[quaternionic Hopf fibration]]
+1. $ S^7 \hookrightarrow S^{15} \to S^8 $
+
 
 ## Applications
 
@@ -143,3 +169,5 @@ The Hopf fibrations over other [[normed division algebras]] also figure in the m
 * [[quaternionic Hopf fibration]]
 
 [[!redirects Hopf fibrations]]
+
+[[!redirects complex Hopf fibration]]
