@@ -121,7 +121,7 @@ $$
   \,.
 $$
 
-This means in particular that any  [[retract]] of a  [[relative cell complex]] inclusion is a Hurewicz cofibration.
+This means in particular that any  [[retract]] of a  [[relative cell complex]] inclusion is a closed Hurewicz cofibration.
 
 
 ### Interaction with pullbacks
