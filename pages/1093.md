@@ -401,23 +401,23 @@ This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
  {#EpiMonoIsomorphisms}
 
 
-Let $Sh(C)$ be a category of sheaves.
 
-+-- {: .num_prop}
++-- {: .num_prop #RecognitionOfEpimorphisms}
 ###### Proposition
 
-A morphism $f : X \to Y$ is a [[monomorphism]] if it is a monomorphism of [[presheaves]], that is if for each $U \in C$ the [[function]] $f(U) : X(U) \to Y(U)$ is [[injective]].
+Let $\mathcal{C}$ be a [[small site]] and let $Sh(\mathcal{C})$ be its category of sheaves. Let $f \colon X \to Y$ be a homomorphism of sheaves, hence a morphism in $Sh(\mathcal{C})$. Then:
 
-=--
+1. $f$ is a [[monomorphism]] or [[isomorphism]] precisely if it is so _globally_ in that for each object $U \in \mathcal{C}$ in the site, then the component $f_U \colon X(U) \to Y(U)$ is an [[injection]] or [[bijection]] of [[sets]], respectively.
 
+1.  $f$ is an [[epimorphism]] precisely if it is so _locally_, in that: for all $U \in C$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such that for all $i \in I$ and every element $y \in Y(U)$ the element $f(p_i)(y)$ is in the image of $f(U_i) : X(U_i) \to Y(U_i)$.
 
-+-- {: .num_prop}
-###### Proposition
+But if $\{x_i\}_{i \in I}$ is a [[set]] of [[points of a topos]] for $Sh(\mathcal{C})$ such that these are _enough points_ ([def.](point+of+a+topos#EnoughPoints)) then the morphism $f$ is epi/mono/iso precisely it is is so an all [[stalks]], hence precisely if
 
-A morphism $f : X \to Y$ in $Sh(C)$ is an [[epimorphism]] precisely if it is **locally surjective** in the sense that:
+$$
+  x_i^\ast f \;\colon\; x_i^\ast X \longrightarrow x_i^\ast Y
+$$
 
-for all $U \in C$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such that for all $i \in I$ and every element $y \in Y(U)$ the element $f(p_i)(y)$ is in the image of $f(U_i) : X(U_i) \to Y(U_i)$.
-
+is a surjection/injection/bijection of sets, respectively, for all $i \in I$.
 
 =--
 
@@ -444,11 +444,12 @@ Every sheaf topos satisfies the following [[exactness properties]]. it is an
 
 ## References
 
-Secton A.4 and C.2 in
 
-* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ .
- {#Johnstone}
 
+* {#Johnstone} [[Peter Johnstone]], sections A.4 and C.2 in _[[Elephant|Sketches of an Elephant]]_ 
+ 
+
+* {#StacksProject} [[The Stacks Project]], _Sites and sheaves_ ([pdf](http://stacks.math.columbia.edu/download/sites.pdf))
 
 The characterization of sheaf toposes and Grothendieck topologies in terms of left exact [[reflective subcategory|reflective subcategories]] of a presheaf category is also in
 
