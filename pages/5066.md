@@ -116,8 +116,10 @@ The version for filtered topological spaces and the strict homotopy $\infty$-gro
 
 * [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_
 
+while the general method is discussed in 
+
 * [[Ronnie Brown]] "A philosophy of modelling and computing homotopy types", Seminar 
-to CT2015, Aveiro, June 2015. (http://pages.bangor.ac.uk/~mas010/pdffiles/aveiro-beamer-handout.pdf (pdf)) {#RBrown}
+to CT2015, Aveiro, June 2015. [pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/aveiro-beamer-handout.pdf ) {#RBrown}
 
 [[!redirects Higher Homotopy van Kampen Theorem]]
 [[!redirects higher homotopy van Kampen Theorem]]
