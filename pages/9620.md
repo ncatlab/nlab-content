@@ -3,3 +3,4 @@
 
 category: logic, model theory
 [[!redirects quantifier elimination]]
+[[!redirects quantifier-elimination]]
