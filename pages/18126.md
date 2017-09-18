@@ -12172,6 +12172,8 @@ paracompactness is non-trivial:
 
 In order to discuss these, we first consider some recognition principles of paracompactness:
 
+1. [[locally compact and second-countable spaces are sigma-compact]] (prop. \ref{SigmaCompactFromLocallyCompactAndSecondCountable} below)
+
 1. [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below)
 
 1. [[second-countable regular spaces are paracompact]] (prop. \ref{SecondCountableRegularSpacesAreParacompact} below)
@@ -12180,6 +12182,10 @@ $\,$
 
 $$
   \array{
+    && && { \text{second-countable} \atop \& \, \text{ locally compact } }
+    \\
+    && && \Downarrow
+    \\
     { \text{second-countable} \atop \& \, { regular } }
     && compact && { \text{ sigma-compact } \atop \& \, \text{locally compact} }
     \\
@@ -12194,6 +12200,75 @@ on recognition of paracompactness (prop. \ref{RegularSpacesWherOpenCoveringIsRef
 
 
 $\,$
+
+The first of these statements is fairly immediate:
+
++-- {: .num_prop #SigmaCompactFromLocallyCompactAndSecondCountable}
+###### Lemma
+**([[locally compact and second-countable spaces are sigma-compact]])**
+
+Let $X$ be a [[topological space]] which is
+
+1. [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}),
+
+1. [[second-countable topological space|second-contable]] (def. \ref{CountableSecond}).
+
+Then $X$ is [[sigma-compact topological space|sigma-compact]] (def. \ref{CompactSigma}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to produce a [[countable cover]] of $X$ by [[compact subspaces]].
+
+By [[second-countable topological space|second-countability]] there exists a [[countable set|countable]] [[base for a topology|base]] of open subsets
+
+$$
+  \beta
+    =
+  \left\{
+    B_i \subset X
+  \right\}_{i \in I}
+  \,.
+$$
+
+By [[locally compact topological space|local compactness]], every point $x \in X$ has an open neighbourhood $V_x$ whose [[topological closure]] $Cl(V_x)$ is [[compact topological space|compact]].
+
+By definition of [[base of a topology]] (def. \ref{TopologyBase}), 
+for each $x \in X$ there exists $B_x \in \beta$ such that ${x} \subset B_x \subset V_x$, 
+hence such that $Cl(B_x) \subset Cl(V_x)$. 
+
+Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] (lemma \ref{SubsetsInClosedSubspace}),
+since $Cl(V_x)$ is compact by assumption,
+and since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) it
+follows that $B_x$ is compact.
+
+Applying this for each point exhibits $X$ as a union of compact closures of base opens:
+
+$$
+  X = \underset{x \in X}{\cup} Cl(B_x)
+  \,.
+$$
+
+But since there is only a [[countable set]] $\beta$ of base open subsets to begin with, there is a countable subset $J \subset X$ such that
+
+$$
+  X = \underset{x \in J}{\cup} Cl(B_x)
+  \,.
+$$
+
+Hence
+
+$$
+  \{Cl(B_x) \subset X\}_{x \in J}
+$$
+
+is a countable cover of $X$ by compact subspaces.
+
+=--
+
+The other two statements need a little more preparation:
 
 +-- {: .num_lemma #LocallyCompactAndSigmaCompactImpliesGoodNestedCover}
 ###### Lemma
@@ -15293,16 +15368,15 @@ as "[[rubber-sheet geometry]]".
 
 If the [[gluing functions]] which relate the Euclidean [[local charts]] of  topological manifolds to each other are [[differentiable functions]], for a fixed degree of differentiability, then one speaks of _[[differentiable manifolds]]_ (def \ref{DifferentiableManifold} below) or of _[[smooth manifolds]]_ if the gluing functions are arbitrarily differentiable.
 
-Accordingly, a differentiable manifold is a space to which the tools of ([[infinitesimal analysis|infinitesimal]] [[analysis]] may be applied _locally_.
-Notably we may ask whether a [[continuous function]] between differentiable manifolds is [[differentiation|differentiable]]
+Accordingly, a differentiable manifold is a space to which the tools of [[infinitesimal analysis|infinitesimal]] [[analysis]] may be applied _locally_.
+In particular we may ask whether a [[continuous function]] between differentiable manifolds is [[differentiation|differentiable]]
 by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate charts]].
-
 This way differential and smooth manifolds are the basis for what is called _[[differential geometry]]_.
 (They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].)
 
 Basic examples of smooth manifolds are the [[n-spheres]] (example \ref{SmoothManifoldnSphere} below),
 the [[projective spaces]] (example \ref{SmoothManifoldRealComplexProjectiveSpace} below).
-and the [[general linear group]] (example \ref{GLn}) below.
+and the [[general linear group]] (example \ref{SmoothManifoldGeneralLinearGroup}) below.
 
 
 
@@ -15417,8 +15491,8 @@ It follows immediately from prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} v
 **([[connected topological space|connected]] [[locally Euclidean spaces]] are [[path-connected topological space|path-connected]])**
 
 For a [[locally Euclidean space]] $(X,\tau)$ (def. \ref{LocallyEuclideanSpace})
-the  [[connected components|connected]] (def. \ref{ComponentsConnected})
-coincide wth the [[path-connected topological space|path-connected components]] (def. \ref{PathConnectedComponents}).
+the  [[connected components]] (def. \ref{ComponentsConnected})
+coincide with the [[path-connected topological space|path-connected components]] (def. \ref{PathConnectedComponents}).
 
 =--
 
@@ -15436,7 +15510,6 @@ But this is not so, see the counter-example \ref{NonHausdorffManifolds} below, H
 
 =--
 
-
 +-- {: .num_example #NonHausdorffManifolds}
 ###### Nonexample
 **([[non-Hausdorff locally Euclidean spaces]])**
@@ -15445,66 +15518,8 @@ An example of a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) w
 
 =--
 
-
-+-- {: .num_prop #SigmaCompactFromLocallyCompactAndSecondCountable}
-###### Lemma
-**([[locally compact and second-countable spaces are sigma-compact]])**
-
-Let $X$ be a [[topological space]] which is
-
-1. [[locally compact topological space|locally compact]] (in the sense that every point has an [[open neighbourhood]] whose [[topological closure]] is [[compact topological space|compact]]),
-
-1. [[second-countable topological space|second-contable]],
-
-Then $X$ is [[sigma-compact topological space|sigma-compact]].
-
-In particular then $X$ is also [[paracompact topological space|paracompact]] since [[locally compact and sigma-compact spaces are paracompact]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We need to produce a [[countable cover]] of $X$ by [[compact subspaces]].
-
-By [[second-countable topological space|second-countability]] there exists a [[countable set|countable]] [[base for a topology|base]] of open subsets
-
-$$
-  \beta
-    =
-  \left\{
-    B_i \subset X
-  \right\}_{i \in I}
-  \,.
-$$
-
-By [[locally compact topological space|local compactness]], every point $x \in X$ has an open neighbourhood $V_x$ whose [[topological closure]] $Cl(V_x)$ is [[compact topological space|compact]].
-
-By definition of [[base of a topology]], there exists $B_x \in \beta$ such that ${x} \subset B_x \subset V_x$, hence $Cl(B_x) \subset Cl(V_x)$. Since $Cl(V_x)$ is compact by assumption, and since [[closed subspaces of compact spaces are compact]] it follows that $B_x$ is compact.
-
-Applying this for each point yields that
-
-$$
-  X = \underset{x \in X}{\cup} Cl(B_x)
-  \,.
-$$
-
-But since there is only a [[countable set]] of base elements $B$ to begin with, there is a countable subset $J \subset X$ such that
-
-$$
-  X = \underset{x \in J}{\cup} Cl(B_x)
-  \,.
-$$
-
-Hence
-
-$$
-  \{Cl(B_x) \subset X\}_{x \in J}
-$$
-
-is a countable cover of $X$ by compact subspaces.
-
-=--
+Therefore we will explicitly impose Hausdorffness on top of local Euclidean-ness.
+This implies the equivalence of following further regularity properties:
 
 
 
@@ -15512,15 +15527,16 @@ is a countable cover of $X$ by compact subspaces.
 ###### Proposition
 **(equivalence of regularity conditions for [[locally Euclidean space|locally Euclidean]] [[Hausdorff spaces]])**
 
-Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) which is [[Hausdorff topological space|Hausdorff]].
+Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) 
+which is [[Hausdorff topological space|Hausdorff]] (def. \ref{HausdorffTopologicalSpace}).
 
 Then the following are equivalent:
 
-1. $X$ is [[sigma-compact topological space|sigma-compact]],
+1. $X$ is [[sigma-compact topological space|sigma-compact]] (def. \ref{CompactSigma}).
 
-1. $X$ is [[second-countable topological space|second-countable]],
+1. $X$ is [[second-countable topological space|second-countable]] (def. \ref{CountableSecond}).
 
-1. $X$ is [[paracompact topological space|paracompact]] and has a [[countable set]] of [[connected components]],
+1. $X$ is [[paracompact topological space|paracompact]] (def. \ref{ParacompactSpace}) and has a [[countable set]] of [[connected components]] (def. \ref{ComponentsConnected}).
 
 
 =--
@@ -15529,8 +15545,8 @@ Then the following are equivalent:
 ###### Proof
 
 First, observe that $X$ is [[locally compact]] in the strong sense of def. \ref{LocallyCompactSpace}:
-By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the weak sense that every point has a [[neighbourhood base]] of compact neighbourhoods, but since $X$ is assumed to be Hausdorff, 
-this implies the stronger statement by prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree}. 
+By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the weak sense that every point has a [[neighbourhood base]] of compact neighbourhoods, but since $X$ is assumed to be Hausdorff,
+this implies the stronger statement by prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree}.
 
 **1) $\Rightarrow$ 2)**
 
@@ -15546,7 +15562,7 @@ Since [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{P
 
 **2)$\Rightarrow$ 1)** Let $X$ be second-countable, we need to show that it is sigma-compact.
 
-This follows by lemma ref. \ref{SigmaCompactFromLocallyCompactAndSecondCountable}: [[locally compact and second-countable spaces are sigma-compact]].
+This follows since [[locally compact and second-countable spaces are sigma-compact]] (lemma \ref{SigmaCompactFromLocallyCompactAndSecondCountable}).
 
 **3) $\Rightarrow$ 1)**
 
@@ -15887,9 +15903,9 @@ Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold diffe
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #SmoothManifoldGeneralLinearGroup}
 ###### Example
-**([[general linear group]])**
+**([[general linear group]] as a [[smooth manifold]])**
 
 For $n \in \mathbb{N}$, the [[general  linear group]] $Gl(n,\mathbb{R})$ (example \ref{GLn})
 is a [[smooth manifold]]
@@ -16651,7 +16667,7 @@ $$
 
 Notice that for each $j' \in J'$ the product topological space $V'_{j'} \times \mathbb{R}^n \subset \mathbb{R}^{2n}$
 is paracompact (as a [[topological subspace]] of [[Euclidean space]] it is itself [[locally compact topological space|locally compact]]
-and [[second countable topological space|second countable]] 
+and [[second countable topological space|second countable]]
 and since [[locally compact and second-countable spaces are paracompact]], lemma \ref{SigmaCompactFromLocallyCompactAndSecondCountable}).
 Therefore the cover
 
