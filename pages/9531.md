@@ -7,6 +7,10 @@
 
 A [[set]] equipped with a [[permutation representation]] of a ([[discrete group|discrete]]) [[group]] $G$.
 
+## Examples
+
+* A $\mathbb{Z}_2$-set is a set equipped with an [[involution]].
+
 ## Related concepts
 
 * [[topological G-space]]
