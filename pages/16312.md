@@ -1,0 +1,6 @@
+
+
+* [Wikipedia page](http://en.wikipedia.org/wiki/Paul_Cohn)
+
+category: people
+[[!redirects P. M. Cohn]]
