@@ -207,7 +207,7 @@ Fix a [[unit vector]] in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defini
 
 The second statement follows by the same kind of reasoning:
 
-Clearly $U(n+1)$ [[transitive action|acts transitively]] on the unit sphere $S^{2n+1}$ in $\mathbb{C}^{n+1}$. It remains to see that its [[stabilizer subgroup]] of any point on this sphere is $U(n)$. If we take the point with [[coordinates]] $(1,0, 0, \cdots,0)$ and regard elements of $U(n+1)$ as [[matrices]], then the stabilizer subgroup consists of matrices of the block diagonal form
+Clearly $U(n+1)$ [[transitive action|acts transitively]] on the [[unit sphere]] $S^{2n+1}$ in $\mathbb{C}^{n+1}$. It remains to see that its [[stabilizer subgroup]] of any point on this sphere is $U(n)$. If we take the point with [[coordinates]] $(1,0, 0, \cdots,0)$ and regard elements of $U(n+1)$ as [[matrices]], then the stabilizer subgroup consists of matrices of the block diagonal form
 
 $$
   \left(
