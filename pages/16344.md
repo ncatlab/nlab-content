@@ -1,4 +1,19 @@
-_Structural Complexity of Proofs_ (1974) is the title of a Ph.D. thesis by [[Richard Statman]], who was a student of [[Georg Kreisel]] at Stanford University.  Among other contributions, the thesis is notable for defining a notion of "[[genus]] of a proof", as a global measure of complexity more interesting than (but analogous to) number of inferences, depth of the proof tree, etc.
+[[!redirects Structural Complexity Of Proofs]]
+_Structural Complexity of Proofs_ (1974) is the title of a Ph.D. thesis by [[Richard Statman]], who was a student of [[Georg Kreisel]] at Stanford University.  Among other contributions, the thesis is notable for defining a notion of "genus of a proof", as a global measure of complexity more interesting than (but analogous to) number of inferences, depth of the proof tree, etc.
+
+## Genus of a proof
+
+Any proof $\pi$ in [[natural deduction]] induces a [[rooted tree]], by representing the judgments $B$ occurring in the proof as nodes $x_B$ (note that different occurrences of the same judgment are represented as distinct nodes), and drawing a directed edge 
+
+$$x_B \to x_C$$
+
+just in case $B$ occurs as a premise of the inference rule with conclusion $C$.  This rooted tree can then be turned into a directed [[graph]] $G(\pi)$ by adding more edges
+
+$$x_A \to x_C$$
+
+just in case the assumption $A$ is _discharged_ by the inference rule with conclusion $C$ (see [[natural deduction#hypothetical_reasoning|natural deduction: hypothetical reasoning]]).
+
+The **genus** of the proof $\pi$ is then defined to be the graph genus of $G(\pi)$, i.e., the minimal [[genus of a surface]] in which $G(\pi)$ embeds without crossing edges.
 
 ## Chapters
 
@@ -20,3 +35,5 @@ _Structural Complexity of Proofs_ (1974) is the title of a Ph.D. thesis by [[Ric
 * [[natural deduction]]
 * [[lambda calculus]]
 * [[proof theory]]
+
+[[!redirects Structural Complexity Of Proofs]]
