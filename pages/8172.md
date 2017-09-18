@@ -1068,7 +1068,7 @@ where the morphism on the right is identified as $g_p$ by the induction assumpti
 +-- {: .num_remark}
 ###### Remark
 
-Terminology differs across authors. The tower/filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([(Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([Hopkins 99](Adams+spectral+sequence#Hopkins99)) uses "Adams resolution" for the "$E$-injective resolutions" that we discuss [below](#ViaInjectiveResolutions) and uses "Adams tower" for yet another concept, def. \ref{EAdamsTower} below. See also remark \ref{TerminologyAssociatedInverseSequence}.
+Terminology differs across authors. The tower/filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([Hopkins 99](Adams+spectral+sequence#Hopkins99)) uses "Adams resolution" for the "$E$-injective resolutions" that we discuss [below](#ViaInjectiveResolutions) and uses "Adams tower" for yet another concept, def. \ref{EAdamsTower} below. See also remark \ref{TerminologyAssociatedInverseSequence}.
 
 =--
 
@@ -1102,7 +1102,7 @@ The condition needed for this to work is the following.
 +-- {: .num_defn #FlatE}
 ###### Definition
 
-Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) **flat** if the canonical right $\pi_\bullet(E)$-[[module]] structure on $E_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)), equivalently the canonical left module struture (prop. \ref{EETwoLeftModuleStructures}) is a [[flat module]].
+Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) **flat** if the canonical right $\pi_\bullet(E)$-[[module]] structure on $E_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) (equivalently the canonical left module struture, see prop. \ref{EETwoLeftModuleStructures} below) is a [[flat module]].
 
 
 =--
@@ -1334,7 +1334,7 @@ $$
 
 satisfying some obvious conditions. Observe that here
 
-1. the two morphisms $\mathbb{Z}[X] \overset{\to}{\to}{} \mathbb{Z}[X] \otimes \mathbb{Z}[X]$ are $f \mapsto f \otimes e$ and $f \mapsto e \otimes f$, respectively, where $e$ denotes the unit element in $\mathbb{Z}[X]$;
+1. the two morphisms $\mathbb{Z}[X] \rightrightarrows \mathbb{Z}[X] \otimes \mathbb{Z}[X]$ are $f \mapsto f \otimes e$ and $f \mapsto e \otimes f$, respectively, where $e$ denotes the unit element in $\mathbb{Z}[X]$;
 
 1. the morphism $\mathbb{Z}[X] \otimes \mathbb{Z}[X] \to \mathbb{Z}[X]$ is the multiplication in the ring $\mathbb{Z}[X]$;
 
@@ -1352,11 +1352,11 @@ satisfying some obvious conditions. Observe that here
 
 All of the following rich structure is directly modeled on this simplistic example. We simply 
 
-1. replace the commutative ring $\mathbb{Z}[X]$ by any flat [[homotopy commutative ring spectrum]] $E$, 
+1. replace the commutative ring $\mathbb{Z}[X]$ with any flat [[homotopy commutative ring spectrum]] $E$, 
 
-1. replace [[tensor product of abelian groups]] by derived [[smash product of spectra]];
+1. replace [[tensor product of abelian groups]] $\otimes$ with derived [[smash product of spectra]];
 
-1. and form [[stable homotopy groups]] $\pi_\bullet(-)$ of all resulting expressions.
+1. and form the [[stable homotopy groups]] $\pi_\bullet(-)$ of all resulting expressions.
 
 
 
@@ -1622,9 +1622,9 @@ A **[[graded commutative Hopf algebroid]]** is an [[internal groupoid]] in the [
 +-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
 ###### Remark
 
-We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in CRing$, write $Spec(R)$ for same same object, but regarded as an object in $CRing^{op}$. 
+We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in gCRing$, write $Spec(R)$ for the same object, but regarded as an object in $gCRing^{op}$. 
 
-An [[internal category]] in $CRing^{op}$ is a [[diagram]] in $CRing^{op}$ of the form
+An [[internal category]] in $gCRing^{op}$ is a [[diagram]] in $gCRing^{op}$ of the form
 
 $$
   \array{
@@ -1634,7 +1634,7 @@ $$
     \\
     Spec(\Gamma)
     \\
-    {}^{\mathllap{s}}\downarrow \; \uparrow^{\mathrlap{i}} \downarrow^{\mathrlap{t}}
+    {}^{\mathllap{s}}\downarrow \; \uparrow_{\mathrlap{i}} \downarrow^{\mathrlap{t}}
     \\
     Spec(A)
   }
@@ -1658,7 +1658,7 @@ $$
   \,.
 $$
 
-This means that the above is equivalently a diagram in [[CRing]] of the form
+This means that the above is equivalently a diagram in $gCRing$ of the form
 
 $$
   \array{
@@ -1684,7 +1684,7 @@ $$
 
 and satisfying [[formal duality|formally dual]] conditions, spelled out as def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} below. Here 
 
-* $\eta_L, \etaR$ are called the left and right _[[unit]] maps_;
+* $\eta_L, \eta_R$ are called the left and right _[[unit]] maps_;
 
 * $\epsilon$ is called the _co-unit_;
 
@@ -1700,7 +1700,7 @@ and satisfying [[formal duality|formally dual]] conditions, spelled out as def. 
 
 Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they make $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the [[tensor product]] of [[bimodules]] that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
 
-An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
+An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}} \mathcal{G}_0$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
 
 Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a commutative **[[Hopf algebra]]** $\Gamma$ over $A$.
 
@@ -1889,7 +1889,7 @@ In the same spirit, a **[[comodule]]** over a commutative Hopf algebroid (not ne
 Given a $\mathbb{Z}$-[[graded commutative Hopf algebroid]] $\Gamma$ over $A$ (def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents})
 then a **left [[comodule]]** over $\Gamma$ is
 
-1. a $\mathbb{G}$-[[graded module|graded]] $A$-[[module]] $N$;
+1. a $\mathbb{Z}$-[[graded module|graded]] $A$-[[module]] $N$;
 
 1. ([[co-action]]) a [[homomorphism]] of graded $A$-modules
 
@@ -2016,11 +2016,34 @@ $$
 
 between the [[category]] of $\Gamma$-[[comodules]], def. \ref{CommutativeHopfAlgebroidComodule} and the [[category of modules]] over $A$, where the [[cofree functor]] is [[right adjoint]]. 
 
-The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
+Moreover:
+
+1. The co-free $\Gamma$-[[comodule]] on an $A$-module $C$ is $\Gamma \otimes_A C$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
+
+1. The [[adjunct]] $\tilde f$ of a comodule homomorphism
+
+   $$
+     N \overset{f}{\longrightarrow} \Gamma \otimes_A C
+   $$
+
+   is its composite with the counit $\epsilon$ of $\Gamma$
+
+   $$
+     \tilde f 
+       \;\colon\; 
+     N 
+       \overset{f}{\longrightarrow} 
+     \Gamma \otimes_A C
+       \overset{\epsilon \otimes_A id}{\longrightarrow}
+     A \otimes_A C
+       \simeq
+     C
+     \,.
+   $$
 
 =--
 
-The **proof** is [[formal dual|formally dual]] to the proof that shows that constructing [[free modules]] is [[left adjoint]] to the [[forgetful functor]] from a [[category of modules]] to the underlying [[monoidal category]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidModuleOverItself)). But for completeness we spell it out:
+The **proof** is [[formal dual|formally dual]] to the proof that shows that constructing [[free modules]] is [[left adjoint]] to the [[forgetful functor]] from a [[category of modules]] to the underlying [[monoidal category]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidModuleOverItself)). But since the details of the adjunction isomorphism are important for the following discussion, we spell it out:
 
 
 +-- {: .proof}
@@ -2293,20 +2316,20 @@ $$
   Hom_{Ab^{\mathbb{Z}}}(E_\bullet(X), E_\bullet(Y))
 $$
 
-but in fact produces homomorphisms of comodules over the dual $E$-Steenrod algebra
+but in fact produces homomorphisms of modules over $\pi_\bullet(E)$
 
 $$
-  \phi_{UC}
-   \;\colon\;
+  \alpha
+   \;\colon\;  
   [X,Y]_\bullet
     \longrightarrow
-  Hom_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
+  Hom_{\pi_\bullet(E)}(E_\bullet(X), \pi_\bullet(Y))
   \,.
 $$
 
 This is the statement of lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} below. The point is that $E_\bullet(E)$-comodule homomorphism are much more rigid than general abelian group homomorphisms and hence closer to reflecting the underlying morphism of spectra $f \colon X \to Y$. 
 
-In good cases such an approximation of _homotopy_ by _homology_ is in fact accurate, in that $\phi_{UC}$ above is an [[isomorphism]]. In such a case ([Adams 74, part III, section 13](#Adams74)) speaks of a "[[universal coefficient theorem]]" (the [[coefficients]] here being $E$.)
+In good cases such an approximation of _homotopy_ by _homology_ is in fact accurate, in that $\alpha$ is an [[isomorphism]]. In such a case ([Adams 74, part III, section 13](#Adams74)) speaks of a "[[universal coefficient theorem]]" (the [[coefficients]] here being $E$.)
 
 One such case is exhibited by prop. \ref{ComoduleHomForENCohomology} below. This allows to equivalently re-write the first page of the $E$-Adams spectral sequence in terms of $E$-homology homomorphisms in theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} below.
 
@@ -2417,6 +2440,8 @@ Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introducti
 Then the homomorphism of [[graded abelian groups]]
 
 $$
+  \beta
+  \;\colon\;
   [X, E \wedge Y]_\bullet 
     \stackrel{}{\longrightarrow}
   Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(X), E_\bullet(Y))_\bullet
@@ -2441,7 +2466,7 @@ is an [[isomorphism]].
 
 =--
 
-A stronger version of this statement (with the free homotopy $E$-module spectrum $E \wedge Y$ replaced by any homotopy $E$-module spectrum), but subject to mcuh stronger assumptions, appears as ([Adams 74, chapter III, prop. 13.5](#Adams74)) ("[[universal coefficient theorem]]"). For the following we need only the above weaker version ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and in fact this is all that ([Adams 74, p. 323](#Adams74)) ends up using, too
+A stronger version of this statement, with the free homotopy $E$-module spectrum $E \wedge Y$ replaced by any homotopy $E$-module spectrum, but subject to much stronger assumptions, appears as ([Adams 74, chapter III, prop. 13.5](#Adams74)) ("[[universal coefficient theorem]]"). For the following we need only the above weaker but more general version ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and in fact this is all that ([Adams 74, p. 323](#Adams74)) ends up using, too.
 
 +-- {: .proof}
 ###### Proof
@@ -2449,6 +2474,8 @@ A stronger version of this statement (with the free homotopy $E$-module spectrum
 First of all we claim that the morphism in question factors as
 
 $$
+  \beta
+  \;\colon\;
   [X, E \wedge Y]_\bullet
     \overset{\simeq}{\longrightarrow}
   Hom^\bullet_{E Mod}( E \wedge X , E \wedge Y)
@@ -2585,7 +2612,7 @@ $$
 
 Since $\pi_\bullet(e) = e_\bullet$ it follows that under $\pi_\bullet$ this is an isomorphism, then that $X \simeq N_1$ in the [[stable homotopy category]].
 
-In conclusion this exhibits $N_1$ as a [[retract]] of an free $$E$-homotopy module spectrum
+In conclusion this exhibits $N_1$ as a [[retract]] of an free $E$-homotopy module spectrum
 
 $$
   id
@@ -2599,7 +2626,7 @@ $$
 $$
 
 hence of a spectrum for which the morphism in question is an isomorphism.
- Since the morphism in question is [[natural transformation|natural]], its value on $N_1$ is a retract in the [[arrow category]] of an isomorphism, which is itself an isomorphism.
+ Since the morphism in question is [[natural transformation|natural]], its value on $N_1$ is a retract in the [[arrow category]] of an isomorphism, hence itself an isomorphism ([lemma](Introduction+to+Stable+homotopy+theory+--+P#RetractPreservesIsomorphism)).
 
 =--
 
@@ -2642,12 +2669,14 @@ Observe that the following [[commuting diagram|diagram commutes]]:
 $$
   \array{
     [X, E \wedge Y]_\bullet
-     && \overset{}{\longrightarrow} &&
+     && \overset{\alpha}{\longrightarrow} &&
     Hom_{E_\bullet(E)}^\bullet(E_\bullet(X),  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(Y) ))
     \\
-    & \searrow && \swarrow
+    & {}_{\mathllap{\beta}}\searrow 
+      && 
+    \swarrow_{\mathrlap{\epsilon \otimes id \circ (-) }}
     \\
-    &
+    &&
     Hom^\bullet_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
   }
   \,,
@@ -2696,28 +2725,30 @@ Then the first page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpe
 $$
   E_1^{s,t}(X,Y)
     \;\simeq\;
-  Hom^t_{E_\bullet(E)}(E_\bullet(X), E_\bullet(A_s))
-$$
-
-$$
+  Hom^t_{E_\bullet(E)}(E_\bullet(X), E_{\bullet-s}(A_s))
+  \;\;\,,
+  \;\;\;\;\;
   d_1 
     \;=\;
   Hom_{E_\bullet(E)}(E_\bullet(X), E_\bullet( g \circ h ))
 $$
 
+$\,$
+
+
 $$
   0 
     \to 
-  Hom_{E_\bullet(E)}^\bullet(E_\bullet(X),E_\bullet(A_0))
+  Hom_{E_\bullet(E)}^t(E_\bullet(X),E_\bullet(A_0))
     \stackrel{d_1}{\longrightarrow}
-  Hom_{E_\bullet(E)}^\bullet(
+  Hom_{E_\bullet(E)}^t(
      E_\bullet(X),
-     E_\bullet(A_1)
+     E_{\bullet-1}(A_1)
   )
     \stackrel{d_1}{\longrightarrow}
-  Hom_{E_\bullet(E)}^\bullet(
+  Hom_{E_\bullet(E)}^t(
      E_\bullet(X),
-     E_\bullet(A_2)
+     E_{\bullet-2}(A_2)
    )
     \stackrel{d_1}{\longrightarrow}
    \cdots
@@ -2731,7 +2762,21 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is prop. \ref{ComoduleHomForENCohomology} applied to def. \ref{AdamsEAdamsSpectralSequence}.
+This is prop. \ref{ComoduleHomForENCohomology} applied to def. \ref{AdamsEAdamsSpectralSequence}:
+
+$$
+  \begin{aligned}
+    E_1^{s,t}(X,Y)
+    & =
+    [X, \underset{A_s}{\underbrace{E \wedge Y_s}}]_{t-s}
+    \\
+    & \simeq
+    Hom^{t-s}_{E_\bullet(E)}( E_\bullet(X), E_\bullet(\underset{A_s}{\underbrace{E \wedge Y_s}}) )
+    \\
+    &\simeq 
+    Hom^{t}_{E_\bullet(E)}( E_\bullet(X), E_{\bullet-s}(A_s) )
+  \end{aligned}
+$$
 
 =--
 
