@@ -605,7 +605,10 @@ We consider now the [[axioms]] for a perturbative S-matrix of a [[Lagrangian fie
 as used in  [[causal perturbation theory]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below).
 Since, by definition, the S-matrix is a formal sum of multi-[[linear continuous functionals]],
 it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
-in def. \ref{TimeOrderedProduct} below. These latter axioms imply the former (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
+in def. \ref{TimeOrderedProduct} below. That these latter axioms already imply the former 
+is the statement of prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below. Its proof
+requires a close look at the "reverse-time ordered products" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
+and their induced reverse-causal factorization (prop. \ref{ReverseCausalFactorizationOfReverseTimeOrderedProducts} below). 
 
 The axioms we consider here are just the bare minimum of [[causal perturbation theory]], sufficient to
 imply that the induced perturbative [[quantum observables]]
@@ -1003,8 +1006,12 @@ this is the freedom of choosing "counter terms" for the local interaction. This 
 _[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
 
 
-
 =--
+
+In order to prove that the axioms for time-ordered products do imply those for a perturbative S-matrix
+(prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below) we need to consider 
+the corresponding reverse-time ordere products:
+
 
 +-- {: .num_defn #ReverseTimeOrderedProduct}
 ###### Definition
@@ -1100,7 +1107,7 @@ $$
     T( L_{\sigma(k_{r-1}+1)} \cdots L_{\sigma_{k_r}} )
 $$
 
-where $\underset{k \in \{1 , \cdots, n\}}{\forall} L_k \coloneqq L$\,.
+where $\underset{k \in \{1 , \cdots, n\}}{\forall} L_k \coloneqq L$.
 
 If instead of unshuffles (i.e. partitions into non-empty subsequences preserving the original order) we took 
 partitions into arbitrarily ordered subsequences,
@@ -1159,10 +1166,174 @@ $$
 
 where in the last line we used (eq:InfverseOfPerturbativeSMatrix).
 
+
 =--
 
-Using this expression for the inverse S-matrix, we may prove that [[time-ordered products]]
-indeed do induced a perturbative S-matrix:
+In fact prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix} is a special case of the 
+following more general statement:
+
++-- {: .num_prop #InversionFormulaForTimeOrderedProducts}
+###### Proposition
+**(inversion relation for reverse-time ordered products)
+
+Let $\{T_k\}_{k \in \mathbb{N}}$ be [[time-ordered products]] according to def. \ref{TimeOrderedProduct}.
+Then the reverse-time ordered products according to def. \ref{ReverseTimeOrderedProduct} 
+satisfies the following inversion relation for all $\mathbf{X} \neq \emptyset$
+(in the condensed notation of def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions})
+
+$$
+  \underset{\mathbf{J} \subset \mathbf{X}}{\sum}
+    T(\mathbf{J}) \overline{T}(\mathbf{X} \setminus \mathbf{J})
+  \;=\;
+  0
+$$
+
+and
+
+$$
+  \underset{\mathbf{J} \subset \mathbf{X}}{\sum}
+    \overline{T}(\mathbf{X} \setminus \mathbf{J})  T(\mathbf{J}) 
+  \;=\;
+  0
+$$
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+This is immediate from unwinding the definitions.
+
+
+=--
+
++-- {: .num_prop #ReverseCausalFactorizationOfReverseTimeOrderedProducts}
+###### Proposition
+**(reverse [[causal factorization]] of reverse-time ordered products)**
+
+Let $\{T_k\}_{k \in \mathbb{N}}$ be [[time-ordered products]] according to def. \ref{TimeOrderedProduct}.
+Then the reverse-time ordered products according to def. \ref{ReverseTimeOrderedProduct} satisfies
+reverse-[[causal factorization]].
+
+=--
+
+([Epstein-Glaser 73, around (15)](#EpsteinGlaser73))
+
++-- {: .proof}
+###### Proof
+
+In the condensed notation of def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}, 
+we need to show that for $\mathbf{X} = \mathbf{P} \cup \mathbf{Q}$ with $\mathbf{P} \cap \mathbf{Q} = \emptyset$
+then 
+
+$$
+  \left(
+    \mathbf{P} \geq \mathbf{Q}
+  \right)
+  \;\Rightarrow\;
+  \left(
+    \overline{T}(\mathbf{X})
+     =
+    \overline{T}(\mathbf{Q}) \overline{T}(\mathbf{P})
+  \right)
+  \,.
+$$ 
+
+We proceed by [[induction]]. If ${\vert \mathbf{X}\vert} = 1$ the statement is immediate. 
+So assume that the statement is true for sets of [[cardinality]] $n \geq 1$ and consider
+$\mathbf{X}$ with ${\vert \mathbf{X}\vert} = n+1$.
+
+We make free use of the condensed notation as in example \ref{ProductOfPerturbationSeriesInGenealizedFunctionNotation}.
+
+From the formal inversion
+
+$$
+  \underset{\mathbf{J} \subset \mathbf{X}}{\sum} \overline{T}(\mathbf{J}) T(\mathbf{X}\setminus \mathbf{J})
+  = 0
+$$
+
+(which uses the induction assumption that ${\vert \mathbf{X}\vert} \geq 1$) it follows that
+
+$$
+  \begin{aligned}
+    \overline{T}(\mathbf{X})
+      & =
+    - \underset{ { \mathbf{J} \subset \mathbf{X} } \atop { \mathbf{J} \neq \mathbf{X} }  }{\sum}
+     \overline{T}(\mathbf{J}) T( \mathbf{X} \setminus \mathbf{J} )
+     \\
+     & =
+    - \underset{ 
+        { \mathbf{J} \cup \mathbf{J}' = \mathbf{X} }
+        \atop
+        { 
+          { \mathbf{J} \cap \mathbf{J}' = \emptyset }  
+          \atop
+          { \mathbf{J}' \neq \emptyset }
+        }
+     }{\sum}
+     \overline{T}( \mathbf{Q} \cap \mathbf{J} ) 
+     \overline{T}( \mathbf{P} \cap \mathbf{J} )
+               T ( \mathbf{P} \cap ( \mathbf{J}' ) )
+               T ( \mathbf{Q} \cap ( \mathbf{J}' ) )
+     \\
+     & = 
+    - \underset{
+      { \mathbf{L} \cup \mathbf{L}' = \mathbf{Q} \,,\, \mathbf{L} \cap \mathbf{L}' = \emptyset }
+      \atop
+      { \mathbf{L}' \neq \emptyset }
+    }{\sum} 
+     \overline{T}( \mathbf{L} ) 
+     \underset{ = 0}{
+       \underbrace{
+         \left(
+          \underset{  
+              \mathbf{K} \subset \mathbf{P} 
+           }{\sum}
+           \overline{T}( \mathbf{K} ) T( \mathbf{P} \setminus \mathbf{K}) 
+         \right)
+       }
+     }
+     T(\mathbf{L'}) 
+    -
+    \overline{T}(\mathbf{Q})
+    \underset{
+      = - \overline{T}(\mathbf{P})
+    }{
+    \underbrace{
+      \underset{
+        {\mathbf{K} \subset \mathbf{P}}
+        \atop
+        { \mathbf{K} \neq \emptyset }
+      }{\sum}
+      \overline{T}(\mathbf{K})
+                T (\mathbf{P} \setminus \mathbf{K} )
+    }}
+    \\
+    & =
+    \overline{T}(\mathbf{Q}) \overline{T}(\mathbf{P})
+  \end{aligned}
+   \,.
+$$
+
+Here 
+
+1. in the second line we used that $\mathbf{X} = \mathbf{Q} \sqcup \mathbf{P}$, together with the 
+causal factorization property of $T(-)$ (which holds by general assumption) and that of $\overline{T}(-)$
+(which holds by the induction assumption, using that $\mathbf{J} \neq \mathbf{X}$ hence that 
+${\vert \mathbf{J}\vert} \lt {\vert \mathbf{X}\vert}$). 
+
+1. in the third line we decomposed the sum over $\mathbf{J}, \mathbf{J}' \subset \mathbf{X}$
+into two sums over subsets of $\mathbf{Q}$ and $\mathbf{P}$: 
+ 
+   1. The first summand in the third line is the contribution where $\mathbf{J}'$ has a non-empty intersection with $\mathbf{Q}$. This makes $\mathbf{K}$ range without constraint, and therefore the sum in the middle vanishes, as indicated, as it is the contribution at order ${\vert \mathbf{Q}\vert}$ of the inversion formula from prop. \ref{InversionFormulaForTimeOrderedProducts}
+
+   1. The second summand in the third line is the contribution where $\mathbf{J}'$ does not intersect $\mathbf{Q}$.
+     Now the sum over $\mathbf{K}$ is the inversion formula from prop. \ref{InversionFormulaForTimeOrderedProducts} except for one term, and so it equals that term.
+
+=--
+
+Using these facts about the rever-time ordered products, 
+we may finally prove that [[time-ordered products]] indeed do induced a perturbative S-matrix:
 
 +-- {: .num_prop #TimeOrderedProductInducesPerturbativeSMatrix}
 ###### Proposition
@@ -1271,7 +1442,9 @@ $$
 With this decomposition of $\mathbf{Y}$, the sum in (eq:CoefficientOfgeneratingRetardedProduct) 
 over subsets $\mathbf{I}$ of $\mathbf{Y}$ may be decomposed into a sum over
 subsets $\mathbf{J}$ of $\mathbf{P}$ and $\mathbf{K}$ of $\mathbf{Q}$, respectively.
-These subsets inherit the above causal ordering, so that the time-ordered and reverse time-ordered products
+These subsets inherit the above causal ordering, so that by the causal factorization property of
+$T(-)$ (def. \ref{TimeOrderedProduct}) and $\overline{T}(-)$ (prop. \ref{ReverseCausalFactorizationOfReverseTimeOrderedProducts})
+the time-ordered and reverse time-ordered products
 factor on these arguments:
 
 $$
@@ -1307,11 +1480,7 @@ $$
   \,.
 $$
 
-Here the sub-sum in brackets vanishes, because by example \ref{ProductOfPerturbationSeriesInGenealizedFunctionNotation} 
-and prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix}
-this is the integral kernel for
-$S(L)^{-1} S(L) = 1$ at order $(g/\hbar)^{\vert \mathbf{P} \vert}$. But since ${\vert \mathbf{P}\vert } \geq 1$
-by assumption, this is zero.
+Here the sub-sum in brackets vanishes by the inversion formula, prop. \ref{InversionFormulaForTimeOrderedProducts}.
 
 =--
 
@@ -1340,7 +1509,7 @@ Let $S$ be a perturbative S-matrix as in def. \ref{PerturbativeSMatrixOnMinkowsk
 and $g_{sw} L_{int} \in \mathcal{F}_{loc}\langle g\rangle$ an [[adiabatic switching|adiabatically switched]]
 [[interaction]] [[Lagrangian density]].
 
-Then for $A \in \mathcal{F}_{loc}$ a, the perturbative
+Then for $A \in \mathcal{F}_{loc}$ a [[local observable]], the perturbative
 [[quantum observable]] $\widehat{A}$ corresponding to $A$ is the [[operator-valued distribution]]
 
 $$
@@ -1356,7 +1525,7 @@ which is the [[derivative]] of the generating functional $Z$ (def. \ref{Perturba
 $$
   \widehat{A}(h)
     \;\coloneqq\;
-  - i \hbar \frac{d}{d j} Z_{g_{sw} L_{int}}( j h A)\vert_{j = 0}
+  - i \hbar \frac{d}{d j} Z_{g_{sw} L_{int}}( j  A)\vert_{j = 0}
   \,.
 $$
 
