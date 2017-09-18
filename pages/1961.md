@@ -443,7 +443,7 @@ $$
   }
 $$
 
-descends at each point $x \in X$ to the tangency [[equivalence relation]] (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}) to yield a function on sets of [[tangnt vectors]] (def. \ref{TangentVector}), called the _[[differential]]_ $d f|_{x}$ of $f$ at $x4
+descends at each point $x \in X$ to the tangency [[equivalence relation]] (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}) to yield a function on sets of [[tangent vectors]] (def. \ref{TangentVector}), called the _[[differential]]_ $d f|_{x}$ of $f$ at $x$
 
 $$
   d f|_{x}
@@ -454,7 +454,7 @@ $$
   \,.
 $$
 
-Moreover, 
+Moreover:
 
 1. ([[linear function|linear dependence]] on the tangent vector) these differentials are [[linear functions]] with respect to the vector space structure on the [[tangent spaces]] from lemma \ref{LinearTangentSpace}, def. \ref{TangentSpace};
 
