@@ -1,5 +1,53 @@
 
+$\box$ $\Box$
 
+$$
+  \array{
+    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
+    \\
+    Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
+    \\
+    & \searrow && \searrow
+    \\
+    && B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
+  }
+  \;\;\;
+  \Rightarrow
+  \;\;\;
+  \array{
+    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    \\
+    & \searrow && \searrow
+    \\
+    && A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
+    \\
+    && \downarrow && \downarrow
+    \\
+    && B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
+  }
+$$
+
+$\,$
+
+$$
+  \array{
+    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow^{}
+    & \searrow 
+    \\
+    Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
+    && 
+    \\
+    & \searrow^{\mathrlap{l_n}} && \searrow^{\mathrlap{l_{n+1}}} & \downarrow
+    \\
+    && A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
+  }
+$$
+
+$\,$
 
 $$
   \array{
