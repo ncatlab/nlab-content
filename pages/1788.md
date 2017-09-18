@@ -1,16 +1,3 @@
-$$
-  \begin{aligned}
-    (F_n^{Orth} K)(\mathbb{R}^q)
-    & \simeq
-    \overset{n_1 \in Orth}{\int}
-     \underset{= \left\{ \array{ O(q)_+ & if \, n_1+n = q \\ \ast & otherwise} \right.}{\underbrace{Orth(n_1 + n,q)}} 
-       \wedge 
-     S^{n_1} 
-       \wedge 
-     K
-    \\
-    & \simeq
-    \overset{n_1 = \ast \in \mathbf{B}(O(q-n))}{\int}
-    O(q)_+ \underset{O(q-n)}{\wedge} S^{q-n} \wedge K
-  \end{aligned}
-$$
+
+
+* Riccardo Pedrotti, _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
