@@ -237,7 +237,7 @@ Since for the [[canonical coverage]] the [[Yoneda embedding]] is the [[identity]
 ###### Remark
 
 Corollary \ref{LemmaForClassifyingToposes} leads to the notion of
-[[classifying topos]]es. See there for more details.
+[[classifying toposes]]. See there for more details.
 
 =--
 
