@@ -134,7 +134,7 @@ The original article that introduced the [[Haag-Kastler axioms]] is
 
 The generalization of the [[spacetime]] [[site]] from open in [[Minkowski space]] to more general and [[curvature|curved]] spacetimes (see [[AQFT on curved spacetimes]]) is due to
 
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved spaceitmes_ [arXiv:0901.2063](http://arxiv.org/abs/0901.2063)
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved spacetimes_ [arXiv:0901.2063](http://arxiv.org/abs/0901.2063)
  {#BrunettiFredenhagen}
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], _The generally covariant locality principle -- A new paradigm for local quantum physics_ Commun. Math. Phys. 237:31-68 (2003) ([arXiv:math-ph/0112041](http://arxiv.org/abs/math-ph/0112041))
@@ -176,8 +176,7 @@ Recent account of the principle of locality in AQFT from the point of view of tr
 
 * [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found.Phys. 34 (2004) 501-527 ([arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143))
 
-* [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi]
-(http://dx.doi.org/10.1063/1.3276100)
+* [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
 
 * [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
 
@@ -254,8 +253,7 @@ which was however mostly ignored and forgotten. It is taken up again in
 
 Further developments along these lines are in
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_
-Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/abs/hep-th/0101079)) 
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_, Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/abs/hep-th/0101079)) 
 
 (relation to [[deformation quantization]])
 
@@ -268,6 +266,10 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of qed_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
 
 (relation to [[gauge theory]] and [[QED]])
+
+Lecture notes are in
+
+* [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
 
 
 ### Further developments
