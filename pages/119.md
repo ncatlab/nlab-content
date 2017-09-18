@@ -76,6 +76,8 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
   * [[upper bound]], [[lower bound]]
 
+* [[directed set]]
+
 * [[partial order]]
 
 * [[thin category]]
@@ -85,8 +87,8 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 [[Cauchy completion]] or preorders is discussed in 
 
-* G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
- {#Rosolini}
+* {#Rosolini} G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
+ 
 
 
 [[!redirects preorder]]
