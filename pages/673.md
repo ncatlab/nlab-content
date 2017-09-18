@@ -17,6 +17,10 @@ You may also find me on
 
 * [Google+](https://plus.google.com/+DavidRoberts/)
 
+* [arXiv](http://arxiv.org/a/roberts_d_1.html)
+
+* [ORCiD](http://orcid.org/0000-0002-3478-0522)
+
 ## Preprints
 
 * _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
