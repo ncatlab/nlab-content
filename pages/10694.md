@@ -546,8 +546,9 @@ The origin is in
 
 * {#May64} [[Peter May]],  _The cohomology of restricted Lie algebras and of Hopf algebras; application to the Steenrod algebra_, Thesis,  Princeton 1964
 
-
 * {#May66} [[Peter May]],  _The cohomology of restricted Lie algebras and of Hopf algebras_, Journal of Algebra 3, 123-146 (1966) ([pdf](http://math.uchicago.edu/~may/PAPERS/3.pdf))
+
+* [[Peter May]], _Some remarks on the structure of Hopf algebras_, Proceedings of the AMS, vol 23, No. 3 (1969) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/9.pdf))
  
 Further computational improvements and a computation of the first 70 differentials (for the case of the mod 2[[Steenrod algebra]]) was given in
 
