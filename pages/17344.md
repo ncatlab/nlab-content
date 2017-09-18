@@ -1475,6 +1475,8 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 
   are cofibrations in the [[classical model structure on topological spaces]] (hence [[retracts]] of [[relative cell complexes]]);
 
+We write $W_{strict}$, $Fib_{strict}$ and $Cof_{strict}$ for these classes of morphisms, respectively.
+
 =--
 
 Recall the sets
