@@ -22,13 +22,29 @@
 [[!redirects boundary operator]]
 
 
-##Idea
-On the opposite of a [[Heyting algebra]] it is possible to define an equivalent to the [[boundary]] operation in topology. As quotient lattices of [[geometric theory|geometric theories]] come naturally with such a co-Heyting structure a mereological calculus on logical [[theory|theories]] obtains.
+## Idea
+
+In a [[co-Heyting algebra]] it is possible to define an equivalent to the [[boundary]] operation in [[topology]]. In applications this affords an intrinsic view of [[mereology]] without consideration of the embedding of bodies into an ambient space.
+
+## Remark
+
+As the lattice of [[subtopos|subtoposes]] of a given [[topos]] $\mathcal{E}$ comes naturally with a co-Heyting structure it becomes (in principle) possible to define the boundary $\partial\mathcal{A}$ of subtopos $\mathcal{A}$ in this lattice and then in turn the boundary $\partial T'$ of the [[geometric theory]] $T'$ that $\mathcal{A}$ classifies which is an extension of the theory $T$ classified by $\mathcal{E}$ (cf. Lawvere 1991, Caramello 2009).[^Law]
+
+[^Law]: The boundary operation is one in Lawvere's arsenal of (mereological) tools for the study of logical theories in the context of a topos and its subtoposes (besides e.g. the [[Aufhebung|Aufhebungs relation]]). For a more complete picture of the toolbox see Lawvere (2002).
 
 ##Definition
-Let $a$ be an element of a [[co-Heyting algebra]]. The (co-Heyting) _boundary_ of $a$ is defined as $\partial a :=a\wedge\sim a$.
+
+Let $a$ be an element of a [[co-Heyting algebra]]. The **(co-Heyting) boundary** of $a$ is defined as $\partial a :=a\wedge\sim a$.
 
 ##Properties
+
+* $\partial (a\wedge b) = (\partial a \wedge b)\vee (a\wedge\partial b)\quad$. (**Leibniz rule**)
+
+* $\partial (a\vee b)\vee\partial (a\wedge b) =\partial a\vee\partial b\quad$.
+
+* The boundaries $x=\partial a$ can be characterized as those $x$ with $\partial x = x$ (in particular, $\partial^2=\partial$), or, alternatively, those $x$ with $\sim x=1$, showing that boundary parts are precisely the (intuitively) _thin parts_.
+
+* Every part is the sum of its _regular core_ and its boundary: $a=\sim\sim a\vee\partial a$. This suggests to view $\partial a$ as the _irregular_ part of $a$.
 
 ##Related entries
 
@@ -37,8 +53,7 @@ Let $a$ be an element of a [[co-Heyting algebra]]. The (co-Heyting) _boundary_ o
 * [[Heyting algebra]]
 * [[Heyting category]]
 * [[mereology]]
-* [[adjoint modality]]
-* [[geometric theory]]
+* [[subtopos]]
 * [[Aufhebung]]
 
 ##References
@@ -69,7 +84,7 @@ Polkowski, Skowron (eds.), _RSCTC 1998_ , Springer LNCS **1424** (2009).
 
 * M. van Lambalgen, _Logical constructions suggested by vision_ , Proceedings of ITALLC98, CLSI 2000. ([draft](http://staff.science.uva.nl/~michiell/docs/ITALLCCSLI.pdf))
 
-* C. Rauszer, _Semi-Boolean algebras and their applications to intuitionistic logic with dual operations_ , Fund. Math. **83** no.3 (1974) pp.219-249. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm83/fm83120.pdf))
+* C. Rauszer, _Semi-Boolean algebras and their applications to intuitionistic logic with dual operations_, Fund. Math. **83** no.3 (1974) pp.219-249. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm83/fm83120.pdf))
 
 * [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari,  _Bi-Heyting Algebras, Toposes and Modalities_ , J. Phi. Logic **25** (1996) pp.25-43.
 
