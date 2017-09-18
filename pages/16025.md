@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _conformal connection_ is a $(H \hookrightarrow G)$-[[Cartan connection]] for $G= O^+(n,1)$ an orthochronous [[Lorentz group]] and $H$ the [[stabilizer subgroup]] of a [[lightlike]] line in [[Minkowski space]] $\mathbb{R}^{n,1}$. Here $G/H$ is the [[celestial sphere]] of [[dimension]] $n-1$.
+
+
+## References
+
+* Wikipedia, _[Conformal connection](http://en.wikipedia.org/wiki/Conformal_connection)_
+
+
+[[!redirects conformal connections]]
