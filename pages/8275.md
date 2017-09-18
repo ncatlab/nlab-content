@@ -36,7 +36,7 @@ A relation satisfying merely (2) and (3) is called a __topogeny__ (between $P(X)
 
 +-- {: .num_remark} 
 ###### Remark 
-As is shown at [[toddtrimble:topogeny]], a topogenous relation can also be regarded as equivalent to a [[reflexive relation]] from $\beta X$ to $\beta X$ (see [[ultrafilter monad]]) in the [[pretopos]] of [[compact Hausdorff spaces]]. 
+As is shown at [[toddtrimble:topogeny]], a topogenous relation can also be regarded as equivalent to a [[reflexive relation]] from $\beta X$ to $\beta X$ (see [[ultrafilter monad]]) in the [[pretopos]] of [[compact Hausdorff spaces]]. In more concrete terms: each topogeny $\delta$ is a union of "basic topogenies" which are those of the form $\mathcal{U} \times \mathcal{V} \subset P X \times P X$ where $\mathcal{U}, \mathcal{V}$ are ultrafilters, and the set of all pairs $(\mathcal{U}, \mathcal{V})$ whose product is contained in $\delta$ forms a closed subspace of $\beta X \times \beta X$. 
 =-- 
 
 It is also sometimes convenient to work with topogenous relations (or topogenies) that are described by the [[negation]] of $\delta$ (written $\bowtie$) or by the __topogenous order__ $\ll$ (which is [[transitive relation|transitive]] by (1) and isotony) given by $A \ll B$ iff $A \bowtie (X \setminus B)$.  In [[constructive mathematics]], these choices potentially make a difference.  See [[proximity space]] for complete definitions.
