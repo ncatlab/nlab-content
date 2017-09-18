@@ -31,7 +31,7 @@ It was apparently known (in some form or other) by a number of ancient civilizat
 [^2]: See [Wikipedia](http://en.wikipedia.org/wiki/Zhou_Bi_Suan_Jing), which exhibits an apparent proof based on the famous 'pinwheel' configuration. 
 [^2.5]: On the other hand, the oft-repeated mention of the use of knotted ropes or the like in Ancient Egypt, to mark off 3-4-5 triangles and hence right angles, appears to have no scholarly backing whatsoever. 
 
-While it was traditional among ancient historians to credit Pythagoras with the first recorded [[proof]] (at least the first from Hellenic civilization), there is cause to believe that this (semi-legendary) individual had little to do personally with such a proof or even with mathematics generally within his school -- without however there being doubt that this result and other mathematical ideas were vigorously discussed and developed by the Pythagoreans. 
+While it was traditional among ancient historians to credit [[Pythagoras]] with the first recorded [[proof]] (at least the first from Hellenic civilization), there is cause to believe that this (semi-legendary) individual had little to do personally with such a proof or even with mathematics generally within his school -- without however there being doubt that this result and other mathematical ideas were vigorously discussed and developed by the Pythagoreans. 
 
 ## Proof 
 
