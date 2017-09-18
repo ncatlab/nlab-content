@@ -165,7 +165,7 @@ The theorem is due to
 with a simpler proof given in 
 
 * [[Victor Snaith]], _Localized stable homotopy of some classifying spaces_, Math. Proc. Cambridge Philos. Soc. 89 (1981), no. 2,
-325-330. MR 600247 (82g:55006)
+325-330. MR 600247 (82g:55006) ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0305004100058205))
 
 Another proof due to [[Mike Hopkins]] is in 
 
