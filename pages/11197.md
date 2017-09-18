@@ -24,7 +24,11 @@ The [[stable (infinity,1)-category of spectra]] has a [[dualizing object in a cl
 
 ## Examples
 
-The Anderson dual of the [[sphere spectrum]] is discussed in ([Hopkins-Singer 05, appendix B](#HopkinsSinger05)) (in the context of constructing a [[quadratic refinement]] of the [[intersection pairing]] on [[ordinary differential cohomology]] and in ([Freed 14, section 5.1.1](#Freed14)) (in the context of invertible [[extended topological field theories]]).
+The Anderson dual of the [[sphere spectrum]] is discussed in 
+
+* ([Hopkins-Singer 05, appendix B](#HopkinsSinger05)) in the context of constructing a [[quadratic refinement]] of the [[intersection pairing]] on [[ordinary differential cohomology]] 
+
+* in ([Freed 14, section 5.1.1](#Freed14)) in the context of invertible [[extended topological field theories]].
 
 The Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)).
 
