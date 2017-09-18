@@ -429,6 +429,10 @@ Lecture notes include
 
 * Hasse Carlsson, _Lecture notes on distributions_ ([pdf](http://www.math.chalmers.se/~hasse/distributioner_eng.pdf))
 
+and several chapters of the course
+
+* Erik P. van den Ban, _Analysis on manifolds_ (2009) ([web](https://www.staff.science.uu.nl/~ban00101/anman2009/anman2009.html) - especially lectures 1-3)
+
 Applications of distributions in [[physics]] are discussed in 
 
 * V. S. Vladimirov, _Generalized functions in mathematical physics_. Moskva, Nauka 1980, Mir 1979; _Equations of mathematical physics_, Mir 1984
