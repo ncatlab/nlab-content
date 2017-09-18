@@ -66,7 +66,7 @@ A&\to& M_k(A,-)
 
 The affine line $O_k=M_k(k[t],-)$ is an affine $k$-scheme.
 
-A _function on a_ $k$-scheme $X$ is defined to be an object $f\in O(X):=co Psh (M_k)(X,O_k)$. $O(X)$ is a $k$-ring by component-wise addition and -multiplication.
+A _function on a_ $k$-functor $X$ is defined to be an object $f\in O(X):=co Psh (M_k)(X,O_k)$. $O(X)$ is a $k$-ring by component-wise addition and -multiplication.
 =--
 
 +-- {: .num_remark}
