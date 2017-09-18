@@ -3,8 +3,14 @@
 
 A [[field]] with finitely many elements. $\mathbb{F}_p$.
 
+Of the form $\mathbb{F}_{p^n}$ for $p$ a [[prime number]]. For $n = 1$ this is a _[[prime field]]_.
+
 ## Related concepts
 
 * [[modular arithmetic]]
+
+## References
+
+* Wikipedia, _[Finite field](http://en.wikipedia.org/wiki/Finite_field)_
 
 [[!redirects finite fields]]
