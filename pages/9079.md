@@ -28,6 +28,14 @@ $$
   \,.
 $$
 
+More generally...
+
+## Related concepts
+
+* [[Cartan subgroup]]
+
+* [[rank of a Lie group]]
+
 ## References
 
 * Wikipedia, _[Cartan subalgebra](http://en.wikipedia.org/wiki/Cartan_subalgebra)_
