@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a [[group]] $G$ and a [[representation]] $V$ of $G$, then any [[subgroup]] inclusion $H\hookrightarrow G$ makes also $H$ [[action|act]] on $G$, this is the _restricted representation_. 
+Given a [[group]] $G$ and a [[representation]] $V$ of $G$, then any [[subgroup]] inclusion $H\hookrightarrow G$ makes also $H$ [[action|act]] on $V$, this is the _restricted representation_. 
 
 Given an [[irreducible representation]] of $G$, then its decomposition as a [[direct sum]] of irreducible representations of $H$, after restricting the respesentation to $H$, is often called the "branching rule" of the restriction.
 
