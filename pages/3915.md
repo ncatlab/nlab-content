@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Differential geometry
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
