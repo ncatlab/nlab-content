@@ -153,6 +153,12 @@ A textbook account is in
 
 * {#West12} [[Peter West]], section 17.3 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
 
+Systematization of U-duality via the relation between [[supersymmetry and division algebras]] and the [[Freudenthal magic square]] is due to
+
+* [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic square from Yang-Mills squared_ ([arXiv:1301.4176](http://arxiv.org/abs/1301.4176))
+
+* {#ABDHN} A. Anastasiou, [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic pyramid of supergravities_, [arXiv:1312.6523](http://arxiv.org/abs/1312.6523)
+
 
 Quick surveys include
 
