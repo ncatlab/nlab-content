@@ -903,6 +903,8 @@ geometry.
 #### $V$-Manifolds
  {#Manifolds}
 
+See also at _[[geometry of physics -- manifolds and orbifolds]]_.
+
 +-- {: .num_defn #LocalDiffeomorphisms}
 ###### Definition
 
@@ -1099,6 +1101,8 @@ The[[group object]] $V$, canonically regarded as a $V$-manifold, carries a canon
 
 #### $G$-Structure
  {#GStructure}
+
+See also at _[[geometry of physics -- G-structure and Cartan geometry]]_.
 
 +-- {: .num_defn #GStructure}
 ###### Definition
