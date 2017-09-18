@@ -1909,13 +1909,13 @@ $$
   \,,
 $$
 
-then its affife scheme $Spec(A)_{/\sim}$ of **[[isomorphism classes]] of objects** is the [[coequlizer]] of the source and target morphisms
+then its affine scheme $Spec(A)_{/\sim}$ of **[[isomorphism classes]] of objects** is the [[coequalizer]] of the source and target morphisms
 
 $$
-  Spec(Gamma)
+  Spec(\Gamma)
     \underoverset
      {\underset{t}{\longrightarrow}}
-     {\overset{s}{\longleftarrow}}
+     {\overset{s}{\longrightarrow}}
      {\phantom{AA}}
   Spec(A)
     \overset{equ}{\longrightarrow}
