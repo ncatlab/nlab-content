@@ -79,6 +79,8 @@ $$
 
 ## Related entries 
 
+* [[interior point]]
+
 * [[ionad]]
 
 ## Reference
