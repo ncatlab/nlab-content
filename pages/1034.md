@@ -189,9 +189,17 @@ In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axiom
 
 * [[object classifier in an (infinity,1)-topos]]
 
+* [[Grothendieck universe]]
+
 ## References 
 
-* [[Thomas Streicher]], _Universes in Toposes_, In: _From sets and types to topology and analysis: towards practicable foundations for constructive mathematics_ ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz),[pdf](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.pdf))
+The construction of universes in presheaf toposes was first discussed in the following short note which might serve as a concise introduction to the more general reference that follows:
+
+* [[Martin Hofmann]], [[Thomas Streicher]], _Lifting Grothendieck Universes_ , ms. University of Darmstadt (unpublished). ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/lift.pdf)) 
+
+The general case is considered here:
+
+* [[Thomas Streicher]], _Universes in Toposes_ , pp.78-90 in L. Crosilla, P. Schuster (eds.), _From Sets and Types to Topology and Analysis: Towards Practicable Foundations for Constructive Mathematics_ , Oxford UP 2005. ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz),[pdf](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.pdf))
 
 
 [[!redirects universe in a topos]]
