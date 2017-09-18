@@ -26,3 +26,5 @@ See at _[[derived functor in homological algebra]]_ for a detailed discussion.
 * [[hyper-derived functor]]
 
 [[!redirects total derived functors]]
+[[!redirects total right derived functor]]
+[[!redirects total left derived functor]]
