@@ -1,9 +1,18 @@
 
+> this entry is one section of "[[geometry of physics -- supergeometry and superphysics]]"
+> which is one chapter of "[[geometry of physics]]"
+
+> previous section: _[[geometry of physics -- supergeometry]]_
+
+> next section _[[geometry of physics -- fundamental super p-branes]]_
+
+> under construction
 
 
-> this entry is part of _[[geometry of physics -- supergeometry]]_
 
-#Contents#
+
+
+#Supersymmetry#
 * table of contents
 {:toc}
 
