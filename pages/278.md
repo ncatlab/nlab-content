@@ -59,6 +59,8 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[D-geometry]]
 
+* [[arithmetic differential geometry]]
+
 * [[Lie theory]]
 
 * [[fiber bundles in physics]]
