@@ -37,6 +37,8 @@ This is due to ([Thom 54](#Thom54)).
 
 * [[Thom's theorem]]
 
+* [[Sard's theorem]]
+
 ## References
 
 The result is due to
