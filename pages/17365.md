@@ -776,7 +776,7 @@ Every element in $J_{SeqSpec}^{stable}$ (def. \ref{GeneratingAndGeneratingAcycli
 ###### Proof 
 
 For the elements in $J_{SeqSpec}^{strict}$ this is part of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
-To see that the $k_n \Box i_+$ are strict cofibrations: By [[Joyal-Tierney calculus]] $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^{i_+}$. By $SeqSpec(Top)_{strict}$ being a $Top_{Quillen}$-[[enriched model category]] the latter is still a strict acyclic fibration. Since $k_n$ is evidently a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
+To see that the $k_n \Box i_+$ are strict cofibrations: By [[Joyal-Tierney calculus]] $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^{i_+}$. By $SeqSpec(Top)_{strict}$ behaving like a $Top_{Quillen}$-[[enriched model category]] (with relative CW-complexes in one argument) the latter is still a strict acyclic fibration. Since $k_n$ is evidently a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
 
 
 To see that they are stable equivalences: The morphisms $k_n$ by construction, by [[two-out-of-three]] and by lemma \ref{CorepresentationOfAdjunctStructureMaps} are stable equivalences. Hence the [[derived hom-space]] out of $k_n \Box i_+$ is the homotopy pullback of a weak equivalence, hence is a weak equivalence, hence on the homotopy category an iso.
