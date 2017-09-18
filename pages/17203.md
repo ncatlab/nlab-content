@@ -191,6 +191,8 @@ The [[p-localization]] of $MU$ decomoses into the
 
 * [[Neil Strickland]], _Products on $MU$-modules_ ([pdf](http://hopf.math.purdue.edu/Strickland/mult.pdf))
 
+* [[Jesse McKeown]], _Complex Cobordism vs. Representing Formal Group Laws_ ([arXiv:1605.09252](http://arxiv.org/abs/1605.09252))
+
 
 For general discussion of equivariant complex oriented cohomology see at _[equivariant cohomology -- References -- Complex oriented cohomology](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_
 
