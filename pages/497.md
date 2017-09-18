@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -39,6 +38,18 @@ The proof is as follows.  If $p$ is a truth value, then divide $\{0,1\}$ by the 
 On the other hand, if PEM holds, then we can show by induction that if $A$ and $B$ are choice, so is $A\sqcup B$ (add details).  Thus, all finite sets are choice.  Now if $n\to A$ is a surjection, exhibiting $A$ as finitely indexed, it has a section $A\to n$.  Since a finite set is always projective, and any retract of a projective object is projective, this shows that $A$ is projective.
 
 In particular, the axiom of choice implies PEM.  This argument, due originally to Diaconescu, can be internalized in any [[topos]]. However, other weak versions of choice such as [[countable choice]] (any surjection to a countable set (which for this purpose is any set isomorphic to the set of natural numbers) has a section), [[dependent choice]], or even [[COSHEP]] do not imply PEM. In fact, it is often claimed that axiom of choice is *true* in constructive mathematics (by the BHK or [[Brouwer-Heyting-Kolmogorov interpretation]] of predicate logic), leading to much argument about exactly what that means.
+
+## Double-negated PEM
+
+While PEM is not valid in constructive mathematics, its double negation 
+
+$$ \neg\neg(A\vee \neg A)$$
+
+is valid.  Ony way to see this is to note that $\neg (A\vee B) = \neg A \wedge \neg B$ is one of [[de Morgan's laws]] that is constructively valid, and $\neg (\neg A \wedge \neg\neg A)$ is easy to prove (it is an instance of the [[law of non-contradiction]]).
+
+However, a more direct argument makes the structure of the proof more clear.  When [[beta-reduced]], the [[proof term]] is $\lambda x. x(inr(\lambda a. x(inl(a))))$.   This means that we first assume $\neg (A\vee \neg A)$ for a contradiction, for which it suffices (by assumption) to prove $A\vee \neg A$.  We prove that by proving $\neg A$, which we prove by assuming $A$ for a contradiction.  But now we can reach a contradiction by invoking (again) our assumption of $\neg (A\vee \neg A)$ and proving $A\vee \neg A$ this time using our new assumption of $A$.  In other words, we start out claiming that $\neg A$, but whenever that "bluff gets called" by someone supplying an $A$ and asking us to yield a contradiction, we retroactively change our minds and claim that $A$ instead, using the $A$ that we were just given as evidence.
+
+In particular, this shows how the [[double negation]] [[modality]] can be regarded computationally as a sort of [[continuation-passing]] transform.
 
 ## Related concepts
 
