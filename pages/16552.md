@@ -1,5 +1,5 @@
 
-> this entry is going to be one chapter of _[[geometry of physics]]_
+> this entry is one chapter of _[[geometry of physics]]_
 
 > previous chapters: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- principal connections|principal connections]]_
 
@@ -307,11 +307,28 @@ via prop. \ref{TruncatedLieIntegrationOfCocycle}.
 
 =--
 
-This way every such cocycle $\mu$ induces a WZW term by prop. \ref{WZWTermByUniversality}.
++-- {: .num_defn #WZWTermFromLieIntegration}
+###### Definition
+
+Given an [[L-∞ cocycle]] $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$, then via prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles} and forming [[homotopy limits]] this Lie integrates to (prop. \ref{WZWTermByUniversality}) a morphism of the form
+
+$$
+  \mathbf{L}_{WZW}
+   \;\colon\;
+   \tilde G
+   \longrightarrow
+   \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
+  \,.
+$$
+
+This we call the _WZW term_ obtained by universal Lie integration from $\mu$.
+
+=--
 
 #### Consecutive WZW terms and twists
+ {#ConsecutiveWZWTermsAndTwists}
 
-More generally, one has a sequence of [[L-∞ algebra cohomology|L-∞ cocycles]], each defined on the extension that is classified by the previous one -- a [[schreiber:The brane bouquet|bouquet]] of cocycles.
+More generally, one has a sequence of [[L-∞ cocycles]], each defined on the extension that is classified by the previous one -- a [[schreiber:The brane bouquet|bouquet]] of cocycles.
 
 In each stage, for $\mu_1 \colon \mathfrak{g}\to b^{p_1+1}\mathbb{R}$ a cocycle and $\hat {\mathfrak{g}} \to \mathfrak{g}$ the extension that it classifies (its [[homotopy fiber]]), then the next cocycle is of the form $\mu_2 \colon \hat \mathfrak{g} \to b^{p_2+1}\mathbb{R}$
 
@@ -326,19 +343,6 @@ $$
   \,.
 $$
 
-Let 
-
-$$
-  \mathbf{L}_1 \colon \tilde G \longrightarrow \mathbf{G}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
-$$
-
-and
-
-$$
-  \mathbf{L}_2 \colon \widetilde {\hat G} \longrightarrow \mathbf{G}^{p_2+1}(\mathbb{R}/\Gamma_2)_{conn}
-$$
-
-be the WZW terms obtained from the two cocycles by prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles}, prop. \ref{WZWTermByUniversality}.
 
 +-- {: .num_lemma #CharacterizationOfLInfinityHomotopyFibers}
 ###### Lemma
@@ -361,7 +365,12 @@ $CE(e b^{p_1}\mathbb{R})$ being the [[Weil algebra]] of $b^{p_1}$, which is the 
 
 =--
 
++-- {: .proof}
+###### Proof
+
 This follows with the [recognition principle for L-∞ homotopy fibers](model+structure+for+L-infinity+algebras#HomotopyFiberProducts).
+
+=--
 
 +-- {: .num_cor #PullbackOfDifferentialFormCoefficients}
 ###### Corollary
@@ -412,12 +421,59 @@ lemma \ref{CharacterizationOfLInfinityHomotopyFibers}.
 
 =--
 
++-- {: .num_defn #ConsecutiveCocycles}
+###### Definition
+
+We say that a pair of [[L-∞ cocycles]] $(\mu_1, \mu_2)$ is _consecutive_ if the domain of the second is the extension ([[homotopy fiber]]) defined by the first
+
+$$
+  \array{
+    \hat {\mathfrak{g}} &\stackrel{\mu_2}{\longrightarrow}& b^{p_2+1}
+    \\
+    \downarrow
+    \\
+    \mathfrak{g} &\stackrel{\mu_1}{\longrightarrow}& b^{p_1+1}\mathbb{R}
+  }
+$$
+
+and if the truncated [[Lie integrations]] of these cocycles via prop. \ref{TruncatedLieIntegrationOfCocycle} preserves the extension property in that also
+
+$$
+  G_2 \to G_2 \stackrel{\Omega \mathbf{c}_2}{\longrightarrow} \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)
+$$
+
+is a [[homotopy fiber sequence]] of [[smooth homotopy types]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The issue of the second clause in def. \ref{ConsecutiveCocycles} is to do with the truncation degrees: the universal untruncated [[Lie integration]] $\exp(-)$ preserves homotopy fiber sequences, but if there are non-trivial cocycles on $\mathfrak{g}$ in between $\mu_1$ and $\mu_2$, for $p_2 \gt p_1$, then these will remain as nontrivial homotopy groups in the higher-degree truncation $\mathbf{B}G_{2} \coloneqq \tau_{p_2}\exp(\hat\mathfrak{g})$ (see [Henriques 06, theorem 6.4](Lie+integration#Henriques)) but they will be truncated away in $\mathbf{B}G_1 \coloneqq \tau_{p_1}\exp(\mathfrak{g})$ and will hence spoil the preservation of the homotopy fibers through Lie integration. 
+
+Notice that extending along consecutive cocycles is like the extension stages in a [[Whitehead tower]].
+
+=--
+
+Given two consecutive [[L-∞ cocycles]] $(\mu_1,\mu_2)$, def. \ref{ConsecutiveCocycles}, let
+
+$$
+  \mathbf{L}_1 \colon \tilde G \longrightarrow \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
+$$
+
+and
+
+$$
+  \mathbf{L}_2 \colon \widetilde {\hat G} \longrightarrow \mathbf{B}^{p_2+1}(\mathbb{R}/\Gamma_2)_{conn}
+$$
+
+be the WZW terms obtained from the two cocycles, def. \ref{WZWTermFromLieIntegration}.
 
 
-+-- {: .num_prop }
++-- {: .num_prop #ConsecutiveWZWTermsFromConsecutiveLInfinityCocycles}
 ###### Proposition
 
-In this situation there is a [[homotopy pullback]] square in [[smooth homotopy types]] of the form
+There is a [[homotopy pullback]] square in [[smooth homotopy types]] of the form
 
 $$
   \array{
@@ -441,6 +497,7 @@ $$
 ###### Proof
 
 Consider the following [[pasting]] composite
+
 $$
   \array{
     \mathbf{\Omega}^{p_1+1}
@@ -453,8 +510,9 @@ $$
     \\
     \mathbf{\Omega}^{p_1+2}
     &\longrightarrow&
-    \flat_{dR}\mathbf{B}^{p_2+2}\mathbb{R}
+    \flat_{dR}\mathbf{B}^{p_1+2}\mathbb{R}
     &\stackrel{\theta_{\mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)}}{\longleftarrow}&
+    \mathbf{B}^{p_1+1}\mathbb{R}
      \\
      \uparrow^{\mathrlap{\mu_1}} && \uparrow^{\mathrlap{\flat_{dR} \mathbf{B}G}} && \uparrow^{\mathrlap{\Omega \mathbf{c}_1}}
      \\
@@ -485,7 +543,7 @@ $$
      \\
      \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
      \\
-     \uparrow^{\mathbf{L}_1}
+     \uparrow^{\mathrlap{\mathbf{L}_1}}
      \\
      \tilde G
   }
@@ -503,12 +561,79 @@ $$
   }
 $$
 
-(on the left by corollary \ref{PullbackOfDifferentialFormCoefficients}).
+(on the left by corollary \ref{PullbackOfDifferentialFormCoefficients}, on the right by the second clause in def. \ref{ConsecutiveCocycles}).
 
 The homotopy limit over that last [[cospan]], in turn, is $\widetilde{\hat G}$. This implies the claim by the fact that homotopy limits commute with each other.
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{ConsecutiveWZWTermsFromConsecutiveLInfinityCocycles} says how consecutive pairs of $L_\infty$-cocycles Lie integrate suitably to consecutive pairs of WZW terms.
+
+
+=--
+
++-- {: .num_cor #TildeHatGIsDifferentialModuliBundle}
+###### Corollary
+
+In the above situation there is a [[homotopy fiber sequence]] of the form
+
+$$
+  \array{
+    \mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)_{conn}
+    &\longrightarrow&
+    \widetilde {\hat G}
+    \\
+    && \downarrow
+    \\
+    && \tilde G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ConsecutiveWZWTermsFromConsecutiveLInfinityCocycles} and the [[pasting law]], the [[homotopy fiber]] of $\widetilde {\hat G} \to \tilde G$ is equivalently the homotopy fiber of $\mathbf{\Omega}^{p_1+1}\to \mathbf{\Omega}^{p_1+2}_{cl}$
+
+$$
+  \array{
+     \mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)_{conn} &\longrightarrow&
+     \widetilde {\hat G}
+     &\stackrel{}{\longrightarrow}&
+     \mathbf{\Omega}^{p_1+1}
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     \ast
+     &\longrightarrow&
+     \tilde G
+     &\stackrel{\mathbf{L}_1}{\longrightarrow}&
+     \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Corollary \ref{TildeHatGIsDifferentialModuliBundle} says that $\widetilde {\hat G}$ is a [[bundle]] of [[moduli stacks]] for [[differential cohomology]] over $\tilde G$. This means that maps
+
+$$
+  \Sigma \longrightarrow \widetilde{\hat G}
+$$
+
+(which are the [[field (physics)|fields]] of the higher [[WZW model]] with WZW term $\mathbf{L}_2$) are pairs of plain maps $\phi \colon \Sigma \to \tilde G$ together with a differential cocycle on $\Sigma$, i.e. a $p_1$-form connection on $\Sigma$, which is twisted by $\phi$ in some way.
+
+This oocurs for the (properly globalized) [[Green-Schwarz super p-brane sigma models]] of all the [[D-branes]] and of the [[M5-brane]]. For the D-branes $p_1 = 1$ and so there is a 1-form connection on their [[worldvolume]], the [[Chan-Paton gauge field]]. For the [[M5-brane]] $p_1 = 2$ and so there is a 2-form connection on its worldvolume, the [[self-dual higher gauge field]] in 6d.
+
+=--
 
 
 ### Semantic layer
@@ -644,6 +769,9 @@ where the top square is from def. \ref{RefinementOfHodgeFiltration} and where th
 
 =--
 
+#### Definite globalization of WZW terms
+
+...[[definite globalization of WZW terms]]...
 
 ### Syntax layer
 
