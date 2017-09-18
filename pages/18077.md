@@ -14,6 +14,8 @@ $$
 
 ## Related concepts
 
+* [[excluded middle]]
+
 * [[closed subspace]]
 
 ## References
