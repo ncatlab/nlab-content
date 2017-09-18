@@ -295,6 +295,8 @@ The idea that the physics of D-branes is described by [[topological K-theory]] o
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
+See also at _[[anti-D-brane]]_.
+
 Review includes
 
 * [[Edward Witten]], _Overview Of K-Theory Applied To Strings_,  	Int.J.Mod.Phys.A16:693-706,2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
