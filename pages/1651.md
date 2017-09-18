@@ -40,7 +40,7 @@ It is sufficient to show that every point $y \in P_x$ has an [[neighbourhood]] $
 A locally path-connected space is [[connected space|connected]] if and only if it is [[path-connected topological space|path-connected]].  
 
 
-+-- {: .num_prop }
++-- {: .num_prop #ForLocallyPathConnectedTheConnectedComponentsCoincideWithThePathConnectedComponents}
 ###### Proposition
 
 The [[connected components]] of a locally path-connected space are the same as its path-connected components.
