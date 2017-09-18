@@ -1,3 +1,4 @@
+[[!redirects CW-complexes are Hausdorff]]
 [[!redirects a CW-complex is a Hausdorff space]]
 
 +-- {: .rightHandSide}
