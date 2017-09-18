@@ -22,6 +22,11 @@ First we claim singletons of $Y$ are closed: for each $y \in Y$ there exists $x 
 Let $C, D$ be disjoint closed sets of $Y$, so that $\neg C, \neg D$ form an open cover of $Y$. Then $A = q^{-1}(\neg C), B = q^{-1}(\neg D)$ form an open cover of $X$. Normality of $X$ (in "[[De Morgan duality|De Morganized]]" form) implies there are closed subsets $E \subseteq A, F \subseteq B$ which together also cover $X$. Then $Y = q(X) = q(E \cup F) = q(E) \cup q(F)$, so the closed sets $q(E), q(F)$ cover $Y$. And we have $q(E) \subseteq q(A) = \neg C$ and similarly $q(F) \subseteq \neg D$, which is equivalent to $C \subseteq \neg q(E)$ and $D \subseteq \neg q(F)$, where $\neg q(E), \neg q(F)$ are disjoint open sets of $Y$, and we are done. 
 =-- 
 
++-- {: .num_remark} 
+###### Remark 
+A closed surjection is a quotient map (a regular epi in $Top$), and a closed injection is an embedding (a regular mono in $Top$). 
+=-- 
+
 We know that [[compact Hausdorff spaces]] are normal spaces, and this is an especially nice class because the category of compact Hausdorff spaces is a [[pretopos]]. This is the categorical backdrop for the following observation. 
 
 +-- {: .num_lemma #pretopos} 
@@ -57,7 +62,7 @@ In $Top$, the pushout of a closed embedding along any continuous map is again a 
 A proof may be found [here](/nlab/show/subspace+topology#pushout). 
 
 
-+-- {: .num_prop #pushoutCH} 
++-- {: .num_prop #pushoutclosed} 
 ###### Proposition 
 Given a pushout diagram in $Top$ 
 
@@ -67,7 +72,7 @@ X & \stackrel{h}{\to} & Z \\
 Y & \underset{k}{\to} & W,
 }$$ 
 
-if $h$ is [[monomorphism|monic]], $Y$ is Hausdorff, and $X, Z$ are compact Hausdorff, then $g$ is closed. 
+if $f, h$ are closed and $h$ is monic, then $g$ is closed. 
 =-- 
 
 +-- {: .proof} 
@@ -82,43 +87,59 @@ K & \stackrel{j}{\to} & K' \\
 Y & \underset{k}{\to} & W
 }$$ 
 
-The kernel pair of $e$ is a closed equivalence relation $E$ on $X$ such that $e$ is the coequalizer of the first and second pullback projections $p_1, p_2: E \rightrightarrows X$. The coequalizer $e': Z \to K'$ is similarly the quotient of the closed equivalence relation on $Z$ formed as $(h \times h)(E) \cup \Delta_Z$. Now apply Lemma \ref{pretopos} to conclude $e'$ is closed, and apply Lemma \ref{poclosed} to conclude $m'$ is closed. Hence $g = m' e'$ is closed. 
-=-- 
+The map $m'$ is closed by Lemma \ref{poclosed}. The map $e$, being a closed surjection, is a quotient map (a regular epi), and thus $e'$ is also a quotient map, being a pushout of a regular epi. Then to show $e'$ is closed, it suffices to show (by definition of quotient topology) that for any closed subset $A \subseteq Z$, the saturation $(e')^{-1}(e'(A))$ is also closed. But if $e'(z) = e'(a)$ for some $a \in A$, then either $x = a$ or $(z, a) = (h(x), h(y))$ for some unique $(x, y)$ such that $e(x) = e(y)$, i.e., $x \in h(e^{-1}(e(h^{-1}(A)))$. In other words, 
 
-We can push the preceding proposition a little further: 
+$$(e')^{-1}(e'(A)) = A \cup h(e^{-1}(e(h^{-1}(A)))$$ 
+
+where the right side is closed since $A$ is closed and $e, h$ are closed maps. Thus we have shown $m'$ and $e'$ are closed maps, and so $g = m'e'$ is also closed.  
+=-- 
 
 +-- {: .num_prop #pogeneral} 
 ###### Proposition 
-If $(h_i: X_i \to Z_i)_{i \in I}$ is a collection of embeddings of compact Hausdorff spaces, and $f = (f_i)_{i \in I}: \sum_{i \in I} X_i \to Y$ is a map to a Hausdorff space, then in the pushout 
-
-$$\array{
-\sum_{i \in I} X_i & \stackrel{\sum_{i \in I} h_i}{\to} & \sum_{i \in I} Z_i \\ 
-\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
-Y & \underset{k}{\to} & W
-}$$ 
-
-the map $g$ is closed. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-Under construction. 
-=-- 
-
-+-- {: .num_theorem} 
-###### Theorem 
-Let $Y$ be normal, and let $h_i: X_i \hookrightarrow Z_i$ be a collection of embeddings of compact Hausdorff spaces. Denote the map $\sum_{i \in I} h_i: \sum_{i \in I} X_i \to \sum_{i \in I} Z_i$ by $h: X \to Z$. Then for any continuous map $f: X \to Y$, the pushout $Y \cup_X Z$ is normal. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-$Y$ and $Z = \sum_{i \in I} Z_i$, and therefore also $Y + Z$, are normal, and so by Proposition \ref{normal} it suffices to show that the quotient map $Y + Z \to Y \cup_X Z$ is closed, or equivalently that the coprojections $k: Y \to Y \cup_X Z$ and $g: Z \to Y \cup_X Z$ in the pushout diagram 
+If $X, Y, Z$ are normal, and $h: X \to Z$ is a closed embedding and $f: X \to Y$ is closed, then for the pushout diagram in $Top$ 
 
 $$\array{
 X & \stackrel{h}{\to} & Z \\ 
 \mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
-Y & \underset{k}{\to} & Y \cup_X Z
+Y & \underset{k}{\to} & W
 }$$ 
 
-are closed. But $k$ is closed by Lemma \ref{poclosed}, and $g$ is closed by Proposition \ref{pogeneral}. 
+the space $W$ is also normal. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The space $Y + W$ is normal, so by Proposition \ref{normal}, it suffices to show that the quotient map $(k, g): Y + Z \to W$ is closed, or what is the same, that $k$ and $g$ are closed. But $k$ is closed by Lemma \ref{poclosed}, and $g$ is closed by Proposition \ref{pushoutclosed}. 
+=-- 
+
++-- {: .num_cor} 
+###### Corollary  
+If $h: X \hookrightarrow Z$ is an embedding of compact Hausdorff spaces and $f: X \to Y$ is a map to a normal space, then the pushout $Y \cup_X Z$ is normal. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Of course any map $f: X \to Y$ from a compact Hausdorff space to a normal (or even Hausdorff) space is closed, and so the result is immediate from Proposition \ref{pogeneral}. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+If $(i_n: X_n \to X_{n+1})_{n \in \mathbb{N}}$ is a countable sequence of closed embeddings between normal spaces, then the colimit $X = colim_n X_n$ is also normal. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $A, B$ be disjoint closed subsets of $X$, and for all $n$ put $A_n = X_n \cap A$, $B_n = X_n \cap B$. Working recursively, suppose given disjoint open sets $U_n, V_n$ such that $A_n \subseteq U_n$ and $B_n \subseteq V_n$. Since normality guarantees that we can refine further if necessary, i.e., find an open $O_n$ such that $A_n \subseteq O_n$ and $\widebar{O_n} \subseteq U_n$, we may assume that the closures $\widebar{U_n}$, $\widebar{V_n}$ are disjoint in $X_n$, as are their images in $X_{n+1}$ under the closed embedding $i_n$. The closed sets $i_n(\widebar{U_n}) \cup A_{n+1}$ and $i_n(\widebar{V_n}) \cup B_{n+1}$ are disjoint in $X_{n+1}$: 
+
+* $A_{n+1} \cap B_{n+1} = \emptyset$ since $A \cap B = \emptyset$, 
+
+* $i_n(\widebar{U_n}) \cap i_n(\widebar{V_n}) = i_n((\widebar{U_n} \cap \widebar{V_n}) = i_n(\emptyset) = \emptyset$ where the direct image operator $i_n(-)$ preserves binary intersections since $i_n$ is monic, 
+
+* $i_n(\widebar{U_n}) \cap B_{n+1} = i_n(\widebar{U_n} \cap i_n^{-1}(B_{n+1})) = i_n(\widebar{U_n} \cap B_n) \subseteq i_n((\widebar{U_n} \cap \widebar{V_n}) = \emptyset$ (using Frobenius reciprocity), and similarly, 
+
+* $A_{n+1} \cap i_n(\widebar{V_n}) = \emptyset$. 
+
+Use normality of $X_{n+1}$ to select disjoint open sets $U_{n+1}, V_{n+1}$ such that $i_n(\widebar{U_n}) \cup A_{n+1} \subseteq U_{n+1}$ and $i_n(\widebar{V_n}) \cup B_{n+1} \subseteq V_{n+1}$, thus completing the recursive construction. 
+
+It is clear that $i_n(U_n) \subseteq U_{n+1}$ and the union $U = colim_n U_n$ defines an open set of $X$ (by definition of colimit topology), as does $V = colim_n V_n$. The sets $U, V$ include $A, B$ respectively and are disjoint since any element they have in common must belong to $U_n$ and $V_n$ for sufficiently large $n$, which is impossible. This completes the proof. 
 =-- 
