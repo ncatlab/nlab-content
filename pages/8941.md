@@ -41,21 +41,21 @@ $$
 +-- {: .un_defn}
 ###### Compatibility for right-left YD Modules
 
+
 $$
-m_{[0]}\blacktriangleleft b_{(1)}\otimes m_{[1]} b_{(2)}
+m_{[-1]}b_{(1)}\otimes (m_{[0]}\blacktriangleleft b_{(2)})
 =
-(m\blacktriangleleft b_{(2)})_{[0]}\otimes 
-b_{(1)} (m\blacktriangleleft b_{(2)})_{[1]} 
+b_{(2)} (m\blacktriangleleft b_{(1)})_{[-1]}  \otimes (m\blacktriangleleft b_{(1)})_{[0]}
 $$
 =--
 
 +-- {: .un_defn}
 ###### Compatibility for right-right YD Modules
-
 $$
-m_{[-1]}b_{(1)}\otimes (m_{[0]}\blacktriangleleft b_{(2)})
+m_{[0]}\blacktriangleleft b_{(1)}\otimes m_{[1]} b_{(2)}
 =
-(m\blacktriangleleft b_{(2)})_{[-1]} b_{(1)} \otimes (m\blacktriangleleft b_{(2)})_{[0]}
+(m\blacktriangleleft b_{(2)})_{[0]}\otimes 
+b_{(1)} (m\blacktriangleleft b_{(2)})_{[1]} 
 $$
 =--
 
