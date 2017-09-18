@@ -3,6 +3,6 @@
 
 * [[George Whitehead]]
 
-* [[Henry Whitehead]]
+* [[John Henry Constantine Whitehead]]
 
 category: people
