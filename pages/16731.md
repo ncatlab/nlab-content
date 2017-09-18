@@ -31,7 +31,7 @@ Registration: Jan. 3
 
 ***
 
-####Participants####
+####Invited Participants####
 
 Anton Alexseev (University of Geneva)
 
@@ -41,17 +41,25 @@ Yanhui Bi (Nanchang Hangkong University)
 
 Francesco Bonechi (INFN Sezione di Firenze)
 
+Liqiang Cai (Jilin University)
+
 Zhuo Chen (Tshinghua University)
 
 Nicola Ciccoli* (University of Perugia)
 
-Joana Margarida Nunes da Costa (University of Coimbra)
+Lu Ding* (Chinese Academy of Science)
+
+Xiangmao Ding* (Chinese Academy of Science)
 
 Huiju Fan (Peking University)
 
 Anna Fino* (Universita di Torino)
 
+Jinsong He* (Ningbo University)
+
 Xingbiao Hu (Institute of Computational Mathematics and Scientific/Engineering Computing) 
+
+Jianxun Hu* (Sun Yat-Sen University)
 
 Wei Hong (Wuhan University)
 
@@ -69,6 +77,10 @@ Qingping Liu* (China University of Mining and Technology)
 
 Zhangju Liu (Peking University)
 
+Siqi Liu* (Tshinghua University)
+
+Jiefeng Liu (Jilin University)
+
 Jianghua Lu  (The University of Hong Kong)
 
 Kirill C.H. Mackenzie* (University of Sheffield)
@@ -76,6 +88,8 @@ Kirill C.H. Mackenzie* (University of Sheffield)
 Guowu Meng* (Hong Kong University of Science and Technology)
 
 Kentaro Mikami (Akita University)
+
+Joana Margarida Nunes da Costa (University of Coimbra)
 
 Jae-Suk Park (Pohang University of Science and Technology)
 
@@ -93,19 +107,29 @@ Reyer Sjamaar  (Cornell University)
 
 Mathieu Stienon (Penn State University)
 
+Bingjun Su (Jilin University)
+
 Xiang Tang (Washington University in St. Louis)
 
 Luca Vitagliano  (Universita degli Studi di Salerno & Istituto Nazionale di Fisica Nucleare)
 
 Aissa Wade (Penn State University)
 
+Shikun Wang* (Chinese Academy of Science)
+
 Hong Wang (Nankai University)
+
+Qi Wang (Jilin University)
+
+Ke Wu* (Capital Normal University)
 
 Ping Xu (Penn State University)
 
 Xiaomeng Xu (University of Geneva)
 
 Yanbin Yin (Henan University)
+
+Youjin Zhang* (Tshinghua University)
 
 Bin Zhang* (Sichuan University)
 
@@ -121,10 +145,17 @@ Chenchang Zhu  (Gottingen University)
 
 ***
 
+
+## Trivial Information##
+
+[ Trivial Information](http://www.nim.nankai.edu.cn/nim_e/travel.htm)
+
+***
+
 ###Schedule (TBA)###
 
 |        |            |        |
 |-----|----|-----|
 | Time | Speaker|Title| 
-| ?|  ?| ?| 
+| ? |  My name | My talk title | 
          
