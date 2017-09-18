@@ -1,0 +1,10 @@
+
+
+
+* [webpage](http://www.th.physik.uni-bonn.de/nilles/)
+
+## related $n$Lab entries
+
+* [[string phenomenology]]
+
+category: people
