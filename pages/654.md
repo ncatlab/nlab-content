@@ -56,11 +56,7 @@ The idea here is that just as a vector space can be regarded as a [[module]] ove
 
 In fact, Kapranov and Voevodsky defined a **Kapranov--Voevodsky $2$-vector space** as an abelian $\Vect$-module category equivalent to $\Vect^n$ for some $n$.
 
-While this definition makes a lot of sense, its main shortcomings are twofold:
-
-* It does not give an abstract characterization of 2-vector spaces. That is, it is hardly different to simply defining a 2-vector space as a category equivalent to $Vect^n$.
-
-* It uses the notion of an _abelian category_, which is considered by many to no longer be a foundational notion in mathematics. In practice [[derived category|derived categories]] seem more appropriate in applications.
+While this definition makes a lot of sense it does not give an abstract characterization of 2-vector spaces. That is, it is hardly different to simply defining a 2-vector space as a category equivalent to $Vect^n$.
 
 Because Kapranov--Voevodsky $2$-vector spaces categorify the idea of a vector space as a 'state-space' of a system, they are the notion of 2-vector space which feature on the right hand side of extended TQFTs (functors from higher [[cobordism]] categories to higher vector spaces).
 
