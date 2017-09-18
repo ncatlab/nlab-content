@@ -36,6 +36,18 @@ $$
 
 is, on the level of the underlying [[topological spaces]], a [[homotopy equivalence]], indeed it preserves the [[maximal compact subgroup]], which is the [[special orthogonal group]] $SO(n)$ on both sides (recalled e.g. in [Dartnell 94, section 1](#Dartnell94)).
 
+### Group homology
+
+The canonical projection $GL^k_+(n) \longrightarrow GL_+(n)$ also induces an [[isomorphism]] on  [[group homology]] with constant [[integer]] coefficients
+
+$$
+  H_\bullet^{grp}(GL^k_+(n), \mathbb{Z})
+  \stackrel{\simeq}{\longrightarrow}
+  H_\bullet^{grp}(GL_+(n),\mathbb{Z})
+  \,.
+$$
+
+([Dartnell 94, theorem 1.1](#Dartnell94))
 
 ## Related concepts
 
