@@ -23,13 +23,13 @@ The _fiber_ of a [[morphism]] or [[bundle]] $f : E \to B$ over a [[point]] of $B
 +-- {: .num_defn }
 ###### Lemma
 
-For $f : A \to B$ a [[morphism]] in a [[category]] and $B$ equipped with the [[structure]] of a [[pointed object]] $pt : * \to B$, the **fiber** of $f$ is the [[fiber product]] of $f$ with $p$, hence the [[pullback]]
+For $f : A \to B$ a [[morphism]] in a [[category]] and $B$ equipped with the [[structure]] of a [[pointed object]] $pt : * \to B$, the **fiber** of $f$ is the [[fiber product]] of $f$ with $pt$, hence the [[pullback]]
 
 $$
   \array{
     A \times_B * &\to& *
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow_pt
     \\
     A &\stackrel{f}{\to}& B
   }
