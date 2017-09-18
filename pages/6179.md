@@ -191,6 +191,8 @@ A priori [[type IIA superstring theory]] does not have S-duality, but by compact
 
 ## References
 
+* [[Mike Duff]], chapter 6 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_ IoP 1999
+
 ### In (super-)Yang-Mills theory
  {#ReferencesInSYM}
 
