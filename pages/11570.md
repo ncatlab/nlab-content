@@ -34,7 +34,7 @@ $$
   \mathcal{K} \;\colon\;  CMon_\infty(\infty Cat) \stackrel{CMon_\infty(core)}{\longrightarrow} CMon_\infty(\infty Gpd) \stackrel{F}{\longrightarrow} AbGrp_\infty(\infty Grpd) \hookrightarrow  Spectra
 $$
 
-the composite of
+for the composite of
 
 1. the [[core]] functor from [[symmetric monoidal (∞,1)-categories]] to [[E-∞ spaces]];
 
