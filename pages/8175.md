@@ -56,9 +56,23 @@ $$
 where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coefficients]] in the genuine equivariant cohomology groups of the fiber.
 
 
-## Examples
 
-### For K-theory
+
+## Properties
+
+### Multiplicative structure
+
+for $E$ a [[ring spectrum]], then the AHSS is multiplicative...
+
+([MO discussion](http://mathoverflow.net/q/225579/381))
+
+## Examples and Applications
+
+### To complex oriented cohomology theory
+
+...([Adams 74](#Adams74))....
+
+### For topological K-theory
  {#ForKTheory}
 
 For $E = $ [[KU]], hence for [[topological K-theory]], the differential $d_3$ of the Atiyah-Hirzebruch spectral sequence with $F = \ast$ is given by a [[Steenrod square]] operation
@@ -77,8 +91,6 @@ $$
 
 ([Rosenberg 82](#Rosenberg82), [Atiyah-Segal 05 (4.1)](#AtiyahSegal05)). The higher differentials $d_5$ and $d_7$ here are given by higher [[Massey products]] with the twisting class ([Atiyah-Segal 05 sections 5-7](#AtiyahSegal05)).
 
-
-## Applications
 
 ### D-brane charges in string theory
  {#ApplicationDBraneChargesInStringTheory}
