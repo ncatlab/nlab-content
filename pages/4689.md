@@ -115,21 +115,23 @@ That [[Einstein gravity]] is not pertrubatively [[renormalization|renormalizable
 ### As an effective field theory
  {#ReferencesAsAnEffectiveFieldTheory}
 
-One may regard [[gravity]] as an [[effective field theory]] and just quantize in [[perturbation theory]]. 
+One may regard [[gravity]] as an [[effective field theory]] and just quantize in [[perturbation theory]]. An introduction to this perspective is in
 
-* John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
- {#DonoghueIntroduction}
+* {#DonoghueIntroduction} John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
 
-Rigorous construction as a [[perturbative quantum field theory]] via [[causal perturbation theory]] is due to
+A brief survey of the relevant mathematical issues with more pointers to the literature is in
+
+* [[Igor Khavkine]], _Gravity: an exercise in quantization_, talk at _Quantum Gravity in Perspective_, Munich, 31 May 2013 ([pdf slides](http://www.science.unitn.it/~khavkine/khavkine-munich.pdf), [video](https://www.youtube.com/watch?v=G5O9RKmXyfM#t=2444))
+ 
+The rigorous construction via [[causal perturbation theory]] of quantum gravity  as a [[perturbative quantum field theory]] around [[Minkowski spacetime]] is spelled out in
 
 * {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
-In the context of [[locally covariant perturbative quantum field theory]] this is discussed in
+The generalization of this to perturbation about [[AQFT on curved spacetimes|curved spacetimes]] is discussed via [[locally covariant perturbative quantum field theory]] in
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
 
-A brief survey of the relevant issued with more pointers to the literature is in
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, Nicola Pinamonti, [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016, 2016:32
 
-* [[Igor Khavkine]], _Gravity: an exercise in quantization_, talk at _Quantum Gravity in Perspective_, Munich, 31 May 2013 ([video](https://www.youtube.com/watch?v=G5O9RKmXyfM#t=2444))
 
 [[!redirects perturbative quantum gravity]]
