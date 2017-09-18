@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* toc
+* table of contents
 {: toc}
 
 ## Definition
@@ -85,6 +85,7 @@ Assuming the axiom of choice, we have the following easy result.
 +-- {: .num_prop}
 ###### Proposition 
 An arbitrary small product of injective objects is injective. 
+
 =--
 
 +-- {: .num_remark}
@@ -131,8 +132,8 @@ takes morphisms in $J$ to [[epimorphism]]s in [[Set]].
 
 The term _injective object_ is used most frequently in the context that $C$ is an [[abelian category]].  
 
-+-- {: .num_lemma}
-###### Observation
++-- {: .num_remark}
+###### Remark
 
 
 For $C$ an [[abelian category]] the class $J$ of monomorphisms is the same as the class of morphisms $f : A \to B$ such that $0 \to A \stackrel{f}{\to} B$ is [[exact sequence|exact]].  
@@ -170,7 +171,7 @@ is a pullback, hence $0 \to A \to B$ is exact.
 
 =--
 
-+-- {: .num_cor}
++-- {: .num_cor #EquivalentCharacterizationOfInjectivesInAbelianCategories}
 ###### Corollary
 
 An [[object]] $I$ of an abelian category $C$ is then **injective** if it satisfies the following equivalent conditions:
@@ -291,6 +292,37 @@ The group of [[rational numbers]] $\mathbb{Q}$ is injective in [[Ab]], as is the
 
 ## Properties
 
+### Preservation of injective objects
+
++-- {: .num_lemma #RightAdjointsOfExactFunctorsPreserveInjectives}
+###### Lemma
+
+Given a pair of [[additive functor|additive]] [[adjoint functors]]
+
+$$
+  (L \dashv R)
+  \;\colon\;
+  \mathcal{B}
+    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+  \mathcal{A}
+$$
+
+between [[abelian categories]] such that the [[left adjoint]] $L$ is an [[exact functor]], then the [[right adjoint]] preserves injective objects.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that an object is injective precisely if the [[hom-functor]] into it sends [[monomorphisms]] to [[epimorphisms]], and that $L$ preserves monomorphisms by assumption of exactness. With this the statement follows via adjunction isomorphism
+
+$$
+  Hom_{\mathcal{A}}(-,R(I))\simeq Hom_{\mathcal{B}}(L(-),I)
+  \,.
+$$
+
+=--
+
 ### Existence of enough injectives
  {#ExistenceOfEnoughInjectives}
 
@@ -311,7 +343,7 @@ Every [[power object]] can be shown to be injective, and every object embeds int
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #AbHasEnoughInjectives}
 ###### Proposition
 
 Assuming some form of the [[axiom of choice]], the category of [[abelian groups]] has enough injectives.  
@@ -320,18 +352,107 @@ Assuming some form of the [[axiom of choice]], the category of [[abelian groups]
 
 Full AC is much more than required, however; [[small violations of choice]] suffices.
 
++-- {: .proof} 
+###### Proof 
 
-+-- {: .num_prop #AbHasEnoughInjectives}
-###### Proposition
+By prop. \ref{InjectiveAbelianGroupIsDivisibleGroup} an [[abelian group]]
+is an injective $\mathbb{Z}$-module precisely if it is a [[divisible group]]. So we need to show that every [[abelian group]] is a [[subgroup]] of a [[divisible group]].
 
-As soon as the category [[Ab]] of [[abelian groups]] has enough injectives, so does the [[abelian category]] $R$[[Mod]] of [[modules]] over some [[ring]] $R$.  
+To start with, notice that the group $\mathbb{Q}$ of [[rational numbers]] is divisible and hence the canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ shows that the additive group of [[integers]] embeds into an injective $\mathbb{Z}$-module.
+
+Now by the discussion at _[[projective module]]_ every [[abelian group]] $A$ receives an [[epimorphism]] $(\oplus_{s \in S} \mathbb{Z}) \to A$ from a [[free group|free]] abelian group, hence is the [[quotient group]] of a [[direct sum]] of copies of $\mathbb{Z}$. Accordingly it embeds into a quotient $\tilde A$ of a direct sum of copies of $\mathbb{Q}$.
+
+$$
+  \array{
+    ker &\stackrel{=}{\to}& ker 
+    \\
+    \downarrow && \downarrow
+    \\
+    (\oplus_{s \in S} \mathbb{Z}) &\hookrightarrow& (\oplus_{s \in S} \mathbb{Q})
+    \\
+    \downarrow && \downarrow
+    \\
+    A &\hookrightarrow& \tilde A
+  }
+$$
+
+Here $\tilde A$ is divisible because the [[direct sum]] of divisible groups is again divisible, and also the [[quotient group]] of a divisible groups is again divisble. So this exhibits an embedding of any $A$ into a divisible abelian group, hence into an injective $\mathbb{Z}$-module.
+
+
+=--
+
+
++-- {: .num_lemma #TransferOfEnoughInjectivesAlongAdjunctions}
+###### Lemma
+
+Given a pair of [[additive functor|additive]] [[adjoint functors]]
+
+$$
+  (L \dashv R)
+  \;\colon\;
+  \mathcal{B}
+    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+  \mathcal{A}
+$$
+
+between [[abelian categories]] such that the [[left adjoint]] $L$ is 
+
+1. an [[exact functor]],
+
+1. a [[faithful functor]]. 
+
+Then if $\mathcal{B}$ has enough injectives, also $\mathcal{A}$ has enough injectives.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Observe that the [[forgetful functor]] $U\colon R Mod \to AbGp$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $\mathbb{R}$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]], and so its right adjoint $R_*$ preserves injective objects.  Thus given any $R$-module $M$, we can embed $U(M)$ in an injective abelian group $I$, and then $M$ embeds in $R_*(I)$.
+Consider $A \in \mathcal{A}$. By the assumption that $\mathcal{B}$ has enough injectives, there is an injective object $I \in \mathcal{B}$ and a monomorphism $i \colon L(A) \hookrightarrow I$. The [[adjunct]] of this is a morphism
+
+$$
+  \tilde i \colon A \longrightarrow R(I)
+$$
+
+and so it is sufficient to show that
+
+1. $R(I)$ is injective in $\mathcal{A}$;
+
+1. $\tilde i$ is a monomorphism.
+
+The first point is the statement of lemma \ref{RightAdjointsOfExactFunctorsPreserveInjectives}.
+
+For the second point, consider the [[kernel]] of $\tilde i$ as part of the [[exact sequence]]
+
+$$
+  ker(\tilde i)\longrightarrow A \stackrel{\tilde i}{\longrightarrow} R(I)
+  \,.
+$$
+
+By the assumption that $L$ is an [[exact functor]], the image of this sequence under $L$ is still exact
+
+$$
+  L(ker(\tilde i)) \longrightarrow L(A) \stackrel{L(\tilde i)}{\longrightarrow} L(R(I))
+  \,.
+$$
+
+Now observe that $L(\tilde i)$ is a monomorphism: this is because its composite $L(A) \stackrel{L(\tilde i)}{\longrightarrow} L(R(I)) \stackrel{\epsilon}{\longrightarrow} I$ with the [[adjunction unit]] is (by the formula for [[adjuncts]]) the original morphism $i$, which by construction is a monomorphism. Therefore the exactness of the above sequence means that $L(ker(\tilde i)) \to L(A)$ is the [[zero morphism]]; and by the assumption that $L$ is a [[faithful functor]] this means that already $ker(\tilde i) \to A$ is zero, hence that $ker(\tilde i) = 0$, hence that $\tilde i$ is a monomorphism.
+
+=--
+
++-- {: .num_prop #RModHasEnoughInjectives}
+###### Proposition
+
+As soon as the category [[Ab]] of [[abelian groups]] has enough injectives, so does the [[abelian category]] $R$[[Mod]] of [[modules]] over some [[ring]] $R$.  
+
+In particular if the [[axiom of choice]] holds, then $R Mod$ has enough injectives.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that the [[forgetful functor]] $U\colon R Mod \to AbGp$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $R$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]]. Thus the statement follows via lemma \ref{TransferOfEnoughInjectivesAlongAdjunctions} from prop. \ref{AbHasEnoughInjectives}.
 
 =--
 
