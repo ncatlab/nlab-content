@@ -1,0 +1,18 @@
+In [[Esquisse d'un programme]], [[Grothendieck]] refers to the [[group]]
+
+$$\mathcal{C}_2 = \langle\sigma_0,\sigma_1,\sigma_2 \mid \sigma_0^2 = \sigma_1^2 = \sigma_2^2 = (\sigma_0\sigma_2)^2 = 1\rangle$$
+
+as the **cartographic group** (of dimension 2), and to its [[index of a subgroup|index]] 2 [[subgroup]]
+
+$$\mathcal{C}_2^+ = \langle\rho_0,\rho_1,\rho_2 \mid \rho_1^2 = \rho_0\rho_1\rho_2 = 1\rangle$$
+
+as the **oriented cartographic group**.  [[conjugacy class|Conjugacy classes]] of subgroups of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces without boundary, while more generally, conjugacy classes of subgroups of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may be non-orientable or with boundary.
+
+## Related concepts
+
+* [[combinatorial map]]
+* [[child's drawing]]
+
+## References
+
+* [[Gareth Jones]] and [[David Singerman]]. Maps, hypermaps, and triangle groups.  In _The Grothendieck Theory of Dessins d'Enfants_, [[L. Schneps]] (ed.), London Mathematical Society Lecture Note Series 200, Cambridge University Press, 1994.
