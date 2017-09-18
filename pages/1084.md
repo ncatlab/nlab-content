@@ -922,7 +922,7 @@ We discuss the relation between mapping cones
 in [[categories of chain complexes]], as [above](#InChainComplexes), 
 and  [[long exact sequences in homology]]. For an exposition of the following see there the section _[Relation to homotopy fiber sequences](long+exact+sequence+in+homology#RelationToHomotopyFiberSequences)_.
 
-Let $f : X_\bullet \top Y_\bullet$ be a [[chain map]]
+Let $f : X_\bullet \longrightarrow Y_\bullet$ be a [[chain map]]
 and write $cone(f) \in Ch_\bullet(\mathcal{A})$
 for its mapping cone
 as explicitly given in prop. \ref{ComponentsOfMappingConeInChainComplexes}.
