@@ -20,7 +20,7 @@ The lift of the notion of [[Hopf algebra|Hopf]] [[bialgebra]] from [[associative
 
 By the corresponding higher [[Tannaka duality]], the [[2-category]] of [[module categories]] over a [[Hopf monoidal category]] is a [[monoidal 2-category]] with duals.
 
-Related to [[4d TQFT]] as [[Hopf algebras]] are telated to [[3d TQFT]].
+Related to [[4d TQFT]] as [[Hopf algebras]] are related to [[3d TQFT]].
 
 ## Properties
 
