@@ -50,7 +50,7 @@ $$
 $$
 
 
-Cantor space may be used to construct the [[Peano curve]].
+Cantor space is a fundamental object of [[descriptive set theory]]; some indications of its use may be found at [[Polish space]]. Among its applications is a simple construction of a "[[Peano curve|space-filling curve]]" (q.v.).
 
 
 ## Definition
