@@ -1,14 +1,16 @@
 ## Definition
 
-A **topological map** (or **embedded graph**) $M = (G, \theta)$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ into a ([[connected space|connected]], [[compact space|compact]], [[oriented]]) [[surface]] $X$ in such a way that:
+A **topological map** (or **embedded graph**) $M = (G, \theta)$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ of $G$ into a ([[connected space|connected]], [[compact space|compact]]]) [[surface]] $X$ in such a way that:
 
 * vertices $x \in V$ are represented as distinct points $\theta(x) \in X$;
 
 * edges $e \in E$ are represented as curves $\theta(e)$ on the surface $X$ that intersect only at the vertices;
 
-* the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]].
+* the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]] (in other words, each face is [[simply connected]]).
 
-The **genus** of $M$ is defined as the [[genus of a surface|genus]] of the surface $X$.
+Topological maps are always considered up to homeomorphism.  It is useful to assume that the underlying surface $X$ is [[oriented]] (since such embedded graphs have a close connection with [[combinatorial maps]]), but it is also possible to consider topological maps on non-oriented surfaces.
+
+The **genus** of a map $M$ is defined as the [[genus of a surface|genus]] of the underlying surface $X$.
 
 ## Related concepts
 
@@ -33,3 +35,4 @@ More recent treatments can be found in:
 
 * Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
+[[!redirects topological maps]]
