@@ -72,7 +72,39 @@ whenever $a$ is homogeneous of degree $q$.  (By default, the grade is usually $1
 An __augmented derivation__ on an algebra $A$, augmented by an algebra homomorphism $\epsilon: A \to B$, is a module homomorphism $d: A \to B$ such that
 $$ d(a b) = d(a) \epsilon(b) + \epsilon(a) d(b) .$$
 
-If you think about it, you should be able to figure out the definition of an __augmented graded derivation__.
+If you think about it, you should be able to figure out the definition of an __augmented graded derivation__. 
+
++-- {: .num_prop} 
+###### Proposition 
+Let $k Alg$ denote the category of commutative $k$-algebras, and $k Alg/k$ the slice, i.e., the category of commutative $k$-algebras $A$ equipped with an augmentation $\epsilon: A \to k$. Then the functor 
+
+$$Der: (k Alg/k)^{op} \to k Mod$$ 
+
+which takes an augmented algebra to the module of augmented derivations $d: A \to k$ is represented by the augmented algebra $eval_0: k[x]/(x^2) \to k$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Indeed, an algebra map $\delta: A \to k[x^2]/(x^2)$ which renders the triangle 
+
+$$\array{ 
+A & \stackrel{\delta}{\to} & k[x]/(x^2) \\ 
+ & \mathllap{\epsilon} \searrow & \downarrow \mathrlap{eval_0} \\ 
+ & & k
+}$$ 
+
+commutative may be uniquely written in the form $\delta(a) = \epsilon(a) + d(a)x$ for some $k$-module map $d: A \to k$, and then we have 
+
+$$\array{ 
+\epsilon(a b) + d(a b)x & = & \delta(a b) \\ 
+ & = & \delta(a)\delta(b) \\ 
+ & = & (\epsilon(a) + d(a)x)(\epsilon(b) + d(b)x) \\ 
+ & = & \epsilon(a)\epsilon(b) + (\epsilon(a)d(b) + d(a)\epsilon(b))x + d(a)d(b) x^2 \\ 
+ & = & \epsilon(a b) + (\epsilon(a)d(b) + d(a)\epsilon(b))x
+}$$ 
+
+and we conclude $d(a b) = \epsilon(a)d(b) + d(a)\epsilon(b)$, so that $d$ is an augmented derivation. Of course the calculation may be run in reverse, so that $\delta$ is an augmented algebra homomorphism precisely when $d$ is a derivation. 
+=-- 
 
 
 ### Further variations
