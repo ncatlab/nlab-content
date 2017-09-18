@@ -255,7 +255,7 @@ For each $f \colon A_1 \longrightarrow A_2$ a [[morphism]] in $Ind(\mathcal{C})$
 
 1. a [[small category|small]] [[filtered category]] $\mathcal{I}$;
 
-1. [[functors]] $\lapha_i \;\colon\; \mathcal{I} \to \mathcal{C}$ ($i \in \{1,2\}$);
+1. [[functors]] $\alpha_i \;\colon\; \mathcal{I} \to \mathcal{C}$ ($i \in \{1,2\}$);
 
 1. a [[natural transformation]] $\phi \colon \alpha_1 \longrightarrow \alpha_2$
 
@@ -512,6 +512,8 @@ This is the starting point for the definition at [[ind-object in an (∞,1)-cate
 
 * [[KZ-monad]]
 
+* [[continuous category]]
+
 
 ## References
 
@@ -529,7 +531,13 @@ Ind-objects are discussed in
 
 (in their dual guise as [[pro-objects]])
 
-* {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_ , Grundlehren der mathematischen Wissenschaften 332 (2006)
+* {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_ , Grundlehren der mathematischen Wissenschaften 332 (2006).
+
+The relation between the Ind-completion and the ideal completion in order theory is discussed in section 1 of
+
+* [[Peter Johnstone]], [[André Joyal]], _Continuous categories and exponentiable toposes_ ,  JPAA **25** (1982) pp.255-296.
+
+See also
 
 * [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_
 
