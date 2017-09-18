@@ -72,7 +72,7 @@ Negative (semi)definite inner products behave very much like positive (semi)defi
 The study of positive definite inner product spaces (hence essentially of all semidefinite inner product spaces over partially ordered fields) is essentially the study of [[Hilbert spaces]].  (For Hilbert spaces, one usually uses a [[topological field]], typically $\mathbb{C}$, and requires a completeness condition, but this does not effect the algebraic properties much.)  The study of indefinite inner product spaces is very different; see the [English Wikipedia article](http://secure.wikimedia.org/wikipedia/en/wiki/Krein_space) on [[Krein space]]s for some of it.
 
 
-All of this definiteness terminology may now be applied to an *[[linear operator|operator]]* $T$ on $V$, since $(x, y) \mapsto \langle{x, T y}\rangle$ is another inner product (on $\dom T$, if necessary).
+All of this definiteness terminology may now be applied to an *[[linear operator|operator]]* $T$ on $V$, since $(x, y) \mapsto \langle{x, T y}\rangle$ is another inner product (on $\dom T$, if necessary).  See [[positive operator]].
 
 
 ## Examples
