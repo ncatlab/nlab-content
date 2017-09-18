@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,7 +21,7 @@
 
 In the context of [[algebraic topology]], _conditional convergence_ referes to a more general kind of convergence of [[spectral sequences]] than actual convergence.
 
-Notably an $E$-[[Adams spectral sequence]]  is in general only conditionally convergent (to the $E$-nilpotent completion), unless finitenss conditions are imposed
+Notably an $E$-[[Adams spectral sequence]]  is in general only conditionally convergent (to the $E$-[[nilpotent completion]]), unless finiteness conditions are imposed
 
 ## References
 
@@ -15,8 +29,9 @@ Due to
 
 * {#Boardman99} [[Michael Boardman]], _Conditionally convergent spectral sequences_, 1999 ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/boardman-conditionally-1999.pdf))
 
-Review includes
+Lecture notes include
 
 * {#Rognes12} [[John Rognes]], p 44 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 [[!redirects converges conditionally]]
+[[!redirects conditionally converges]]
