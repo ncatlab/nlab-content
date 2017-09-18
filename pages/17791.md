@@ -47,6 +47,10 @@ $$
 
 * [[category of representations]]
 
+* [[Clebsch-Gordan coefficient]]
+
+* [[Wigner 3j symbol]], [[Wigner 6j symbol]], [[Wigner 9j symbol]]
+
 [[!redirects tensor product of representations]]
 
 
