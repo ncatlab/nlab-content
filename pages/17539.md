@@ -11,6 +11,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 It can be shown via $\epsilon$-induction that any model of [[ZF]] has no non-trivial [[automorphisms]]. However, if we have a [[model]] $V$ of [[ZFA]] with a set of [[atoms]] $A$, then any [[permutation]] of the atoms in $A$ gives rise to a non-trivial automorphism of $V$.
 
