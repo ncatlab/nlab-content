@@ -45,3 +45,16 @@ In [[homotopy theory]] in the presence of [[(infinity,1)-limits]]/[[(infinity,1)
 [[!redirects tower diagram]]
 [[!redirects towers]]
 [[!redirects tower diagrams]]
+
+[[!redirects cotower]]
+[[!redirects cotowers]]
+
+[[!redirects co-tower]]
+[[!redirects co-towers]]
+
+[[!redirects cotower diagram]]
+[[!redirects cotower diagrams]]
+
+[[!redirects co-tower diagram]]
+[[!redirects co-tower diagrams]]
+
