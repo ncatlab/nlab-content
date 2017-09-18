@@ -1,3 +1,4 @@
+[[!redirects Gysin sequence]]
 
 #Contents#
 * table of contents
@@ -5,7 +6,37 @@
 
 ## Idea
 
-The [[long exact sequence in cohomology]] induced by a [[spherical fibration]]. A corollary of the [[Serre spectral sequence]].
+A [[long exact sequence in cohomology]] induced by a [[spherical fibration]]. A corollary of the [[Serre spectral sequence]]:
+
+Let $R$ be a [[commutative ring]] and let
+
+$$
+  \array{
+    S^n &\longrightarrow& E
+    \\
+    && \downarrow^{\mathrlap{\pi}}
+    \\
+    && B
+  }
+$$
+
+be a [[fiber bundle]] of [[n-spheres]] over a [[simply connected topological space|simply connected]] [[simplicial complex]]. 
+
+Then there exists a [[Thom class]]  $c \in H^{n+1}(B; R)$ such that the [[cup product]] operation $(-) \cup c$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
+
+$$
+  \cdots \to H^k(B; R) \stackrel{\pi^\ast}{\longrightarrow}
+  \stackrel{}{\longrightarrow}
+   H^{k-n}(B;R)
+   \stackrel{(-)\cup c}{\longrightarrow}
+   H^{k+1}(B; R)
+   \to
+   \cdots
+  \,.
+$$
+
+(e.g. [Kochmann 96, corollary 2.2.6](#Kochmann96))
+
 
 ## Related concepts
 
