@@ -33,7 +33,7 @@ Specifically for discussion of obtaining or approximating the [[standard model o
 
 ### The C-field
 
-In compactifications with [[weak G2 holonomy]] it is the defining 4-form $\phi_4$ (the one which for strict [[G2 manifolds]] is the Hodge dual of the [[associative 3-form]]) which is the [[flux]]/[[field strength]] of the [[supergravity C-field]]. See for instance towards the end of ([Bilal-Serendinger-Sfetos](#BilalDerendingerSfetos)) for a derivation.
+In compactifications with [[weak G2 holonomy]] it is the defining 4-form $\phi_4$ (the one which for strict [[G2 manifolds]] is the [[Hodge star operator|Hodge dual]] of the [[associative 3-form]]) which is the [[flux]]/[[field strength]] of the [[supergravity C-field]]. See for instance towards the end of ([Bilal-Serendinger-Sfetos 02](#BilalDerendingerSfetos)) for a derivation.
 
 ### Singularities
 
