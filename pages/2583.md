@@ -572,6 +572,10 @@ The realization of the string 2-group as the [[Heisenberg 2-group]] of the [[WZW
 
 * {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013 ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
   
+A model of the string 2-group using the smooth [[free loop space]] (instead of the based [[loop space]]) is dicussed in
+
+
+* {#MurrayRobertsWockel17} [[Michael Murray]], [[David Roberts]], [[Christoph Wockel]], _Quasi-periodic paths and a string 2-group model from the free loop group_ ([arXiv:1702.01514](https://arxiv.org/abs/1702.01514))
 
 Discussion in the context of [[matrix factorizations]] and [[equivariant K-theory]] is in
 
