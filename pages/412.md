@@ -33,7 +33,7 @@ For [[topological space]]s, there are two natural candidates for the collection 
 
 Both of these have accompanying model structures.  Interestingly, these two model structures can also be combined to form what's known as the _mixed_ model structure.
 
-All of these model structures exist not only on the category of all topological spaces, but also on most [[nice category of spaces|nice categories]] of spaces.  Using a nice category instead is sometimes important, such as if we want the model structure to be [[monoidal model category|monoidal]].
+All of these model structures exist not only on the category of all topological spaces, but also on most [[convenient categories of topological spaces]].  Using a nice category instead is sometimes important, such as if we want the model structure to be [[monoidal model category|monoidal]].
 
 
 ## Definition
@@ -85,19 +85,19 @@ On topological spaces, this model structure has
 
 ## Properties
 
-### Restriction to nice topological spaces
+### Restriction to convenient categories of topological spaces
  {#OnNiceTopologicalSpaces}
 
-For the discussion of the [[homotopy theory]] given by the model structure on topological spaces, it is necessary or at least useful to pass to subcatgeories of [[nice topological spaces]].
+For the discussion of the [[homotopy theory]] given by the model structure on topological spaces, it is necessary or at least useful to pass to [[convenient categories of topological spaces].]
 
 +-- {: .num_defn}
 ###### Definition
 
 Write
 
-* $kTop \hookrightarrow Top$ for the [[full subcategory]] of [[k-space]]s;
+* $kTop \hookrightarrow Top$ for the [[full subcategory]] of [[k-spaces]];
 
-* $CGTop \hookrightarrow Top$ for the full subcategory of [[compactly generated space]]s.
+* $CGTop \hookrightarrow Top$ for the full subcategory of [[compactly generated spaces]].
 
 =--
 
