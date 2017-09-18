@@ -916,7 +916,7 @@ $$
   }
 $$
 
-It is common (e.g. [Simons-Sullivan 07](#SimonsSullivan07)) to display this after quotienting out the [[kernel]] of $a$ (which is the group $\Omega^n(X)_{\mathbb{Z}}$ of closed differential forms with [[integer|integral]] [[periods]]), which is such as to make the top-left to bottom-right diagonal sequence be not just [[exact sequence|exact]] at the middle term, but be a [[short exact sequence]]:
+It is common (e.g. [Simons-Sullivan 07](#SimonsSullivan07)) to display this after quotienting out the [[kernel]] of $a$ (which is the group $\Omega^n(X)_{\mathbb{Z}}$ of [[closed differential forms]] with [[integer|integral]] [[periods]]), which is such as to make the top-left to bottom-right diagonal sequence be not just [[exact sequence|exact]] at the middle term, but be a [[short exact sequence]]:
 
 $$
   \array{
