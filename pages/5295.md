@@ -24,7 +24,11 @@
 ## Idea
  {#Idea}
 
-_Intuitionistic mathematics_ (often abbreviated INT) is the earliest full-blown variety of [[constructive mathematics]], done according to the mathematical principles developed by [[L.E.J. Brouwer]] through his philosophy of _intuitionism_. 
+_Intuitionistic mathematics_ (often abbreviated INT) is the earliest full-blown variety of [[constructive mathematics]], done according to the mathematical principles developed by [[L.E.J. Brouwer]] through his philosophy of _intuitionism_.
+
++--{: .standout}
+This terminology is not consistent across mathematics.  Not infrequently the word "intuitionistic" is used to refer simply to [[constructive mathematics]] in general, or to [[constructive logic]], or to impredicative [[set theory]] done in constructive logic.  This page is about *Brouwer's intuitionism*, which is a specific variety of constructive mathematics that (unlike "neutral" constructive mathematics) uses axioms that contradict [[classical mathematics]].
+=--
 
 The first main philosophical idea is that mathematical truth (a true statement) can only be attained in one's mind, by carefully arranging one's concepts and constructions in such a way that there remains absolutely no doubt that every aspect of the statement is verified, unambiguously, without reliance on any 'outside' assumption, for instance about the platonic nature of reality. (The [[principle of excluded middle]] is such an assumption, and Brouwer gave mathematical counterexamples to its validity, eventually leading to the foundational crisis in mathematics (Grundlagenstreit) around 1930, and Brouwer's conflict with Hilbert).
 
