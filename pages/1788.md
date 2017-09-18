@@ -1,2 +1,63 @@
-
-.
+$$
+  \begin{aligned}
+    [\mathbb{S}_{dia} Free_{Dia}Mod^{op},Top_{cg}^{\ast/}]((F_k A) \otimes_{Day} (F_\ell B), Z)
+    & \simeq
+     [(\mathbb{S}_{dia} Free_{Dia}Mod^{op})
+       \times 
+      (\mathbb{S}_{dia} Free_{Dia}Mod^{op}), Top_{cg}^{\ast/}](
+        (F_k A)\tilde \wedge (F_\ell B), Z \circ \wedge 
+     )
+    \\
+    & \simeq 
+    \underset{c_1,c_2}{\int} 
+      Maps(
+      (F_k A)(c_1) \wedge (F_{\ell}B)(c_2), 
+      Z(c_1 \otimes_{dia} c_2)
+    )_\ast
+    \\
+    & \simeq 
+    \underset{c_1,c_2}{\int}
+     Maps((F_k A)(c_1), Maps(
+       (F_\ell B)(c_2), Z(c_1 \otimes_{dia} c_2)
+     )_\ast)_\ast
+    \\
+    & \simeq
+    [\mathbb{S}_{dia}Free_{dia}Mod, Top^{\ast/}_{cg}](
+      F_k A, 
+     \underset{c_2}{\int}
+        Maps( (F_\ell B)(c_2), Z((-) \otimes_{dia} c_2) )_\ast
+    )
+    \\
+    & \simeq
+    Maps(A, 
+     \underset{c_2}{\int}
+        Maps( (F_\ell B)(c_2), Z(k \otimes_{dia} c_2) )_\ast
+    )_\ast
+    \\
+    &\simeq
+    \underset{c_2}{\int}
+    Maps(A, 
+        Maps( (F_\ell B)(c_2), Z(k \otimes_{dia} c_2) )_\ast
+    )_\ast
+    \\
+    & \simeq
+    \underset{c_2}{\int}
+    Maps( (F_\ell A \wedge B)(c_2), 
+        Z(k \otimes_{dia} c_2) 
+    )_\ast
+    \\
+    & \simeq
+    [\mathbb{S}_{dia} Free_{dia}Mod, Top^{\ast/}_{cg}](
+      F_\ell A\wedge B, Z(k \otimes_{dia}(-))
+    )
+    \\
+    & \simeq
+    Maps( A \wedge B, Z(k \otimes_{dia} \ell ) )_\ast
+    \\
+    & \simeq
+    [\mathbb{S}_{dia} Free_{Dia}Mod^{op},Top_{cg}^{\ast/}](
+      F_{k+\ell}(A \wedge B), Z
+    )    
+  \end{aligned}
+  \,.
+$$
