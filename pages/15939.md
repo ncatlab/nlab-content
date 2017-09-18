@@ -87,7 +87,7 @@ A $\Lambda$-module over $R$ is a module over the analytic stack $B\Lambda$ that 
 $$log:[\overset{\circ}{D}(1,1)/\Lambda]\to [A^1/\GL_1]$$
 that allows us to give a relation between the classical Hodge filtration of a (say) proper or logarithmically proper analytic space over $R$ to its $R$-Hodge structure, that should be a module over $[\overset{\circ}{D}(1,1)/\Lambda]$.
 
-If we suppose given a (say) strict analytic space over $R$, and one wants to define the associated $R$-Hodge structure, one may simply try to adapt Simpson's construction of the deformation to the normal bundle, to get what one wants.
+If we suppose given a (say) strict analytic space over $R$, and one wants to define the associated $R$-Hodge structure, one may simply try to adapt Simpson's construction of the deformation to the normal bundle, to get what one wants. Actually, one needs a loop space analog of this construction, that is due to Vezzosi for a derived scheme. This will be discussed later on.
 
 ## Related notion
 
