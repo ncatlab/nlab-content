@@ -124,6 +124,8 @@ Every uniform space also has an underlying [[proximity]] (defined there), and th
 
 Uniform spaces can also be identified with [[syntopogenous spaces]] that are both *perfect* and *symmetric*; see [[syntopogenous space]].
 
+Every uniform space has a [[inequality relation]] where "$x\neq y$" means that there exists an entourage $U$ such that $(x,y)\notin U$.  In [[classical mathematics]], this is an [[apartness relation]], but in [[constructive mathematics]] the obvious proof of [[comparison]] uses [[de Morgan's law]].  However, often it is an apartness; for instance, on the [[real numbers]] this definition coincides with the usual apartness.  This inequality is tight exactly when the uniform space is Hausdorff.
+
 
 ## Examples
 
