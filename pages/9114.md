@@ -3031,7 +3031,7 @@ In particular the original 3d [[Dijkgraaf-Witten theory]] appears this way as th
 
 
 
-Let $G \in Grp(\mathbf{H})$ be a simply connected compact simple Lie group. By the discussion at _[[Lie group cohomology]]_ and write $\mathbf{B}G \in Smooth\infty Grpd$ for its [[delooping]] stack. By the discussion at _[[Lie group cohomology]]_ there is a bijection
+Let $G \in Grp(\mathbf{H})$ be a simply connected compact simple Lie group. and write $\mathbf{B}G \in Smooth\infty Grpd$ for its [[delooping]] stack. By the discussion at _[[Lie group cohomology]]_ there is a bijection
 
 $$
   H^n_{Grp}(G,\mathbb{Z})
@@ -3103,14 +3103,96 @@ $$
 hence an element in $H^4(B SO(3), \mathbb{Z})$. This is essentially given by the first [[Pontryagin class]]  $p_1$. Hence it follows that the extension of $\mathbf{c}_2$-Chern-Simons local prequantum fields theory (on the level of levels) to oriented cobordisms is given by
 
 $$
-  c_2 + p_1 \colon (\mathbf{B}G) \times (B SO(3)) \longrightarrow B^4 \mathbb{Z}
+  (c_2 + p_1) \colon (\mathbf{B}G) \times (B SO(3)) \longrightarrow B^4 \mathbb{Z}
   \,.
 $$
 
+The moduli space of fields that this assigns to an oriented manifold $\Sigma$ is the space of maps
 
+$$
+  \array{
+     \Pi(\Sigma) && \longrightarrow && (\mathbf{B}G)\times (B SO(3))
+     \\
+     & {}_{\mathllap{T \Sigma \oplus \mathbb{R}^{3-dim(\Sigma)}}}\searrow
+     && 
+     \swarrow
+     \\
+     & B SO(3)
+  }
+  \,.
+$$
 
+Hence in codimension-0 this is still just $\mathbf{Loc}_G(\Sigma)$.
 
+In order to trivialize the $p_1$-contribution appearing here, consider the  [[homotopy fiber sequence]]
 
+$$
+  \array{
+     B^3 \mathbb{Z} &\longrightarrow& B^3 \mathbb{Z}//SO(3)
+     \\
+     && \downarrow 
+     \\
+     && B SO(3) &\stackrel{p_1}{\longrightarrow}&
+  }
+$$
+
+exhibiting an $SO(3)$-[[∞-action]] on $B^3 \mathbb{Z}$. Then there is an oriented-topological local prequantum field theory with equivariant local Lagrangian
+
+$$
+  (c_2 + p_1) 
+  \colon 
+  (\mathbf{B}G) \times (B^3 \mathbb{Z}//SO(3))
+  \longrightarrow
+  B^4 \mathbb{Z}
+$$
+
+given by the total composite  in the diagram
+
+$$
+  \array{
+     (\mathbf{B}G) \times (B^3 \mathbb{Z}//SO(3))
+     &\longrightarrow&
+     (B^3 \mathbb{Z})
+     \\
+     \downarrow && \downarrow
+     \\
+     (\mathbf{B}G)\times B SO(3)
+     &\stackrel{(c_2,p_1)}{\longrightarrow}&
+     (B^4 \mathbb{Z}, B^4 \mathbb{Z})
+     \\
+     && & \searrow^{\mathrlap{+}}
+     \\
+     && && B^4 \mathbb{Z}
+  }
+  \,.
+$$
+
+The moduli spaces of fields of this oriented theory on $\Sigma$ now are
+
+$$
+  \Sigma \mapsto \mathbf{Loc}_G(\Sigma) \times p_1Struct(\Sigma)
+$$
+
+with 3-stabilized $p_1$-structures as in _[[Atiyah 2-framing]]_.
+
+A further  variant of this is given by the model for the [[supergravity C-field]]
+
+$$
+  \array{
+     \mathbf{CField}
+     &\longrightarrow&
+     (B^3 \mathbb{Z})
+     \\
+     \downarrow &\searrow& \downarrow
+     \\
+     (\mathbf{B}G)\times B SO(3)
+     &\stackrel{(c_2,p_1)}{\longrightarrow}&
+     B^4 \mathbb{Z}
+  }
+  \,.
+$$
+
+(...)
 
 ### Higher Chern-Simons local prequantum field theory
  {#HigherChern-SimonsLocalPrequantumFieldTheory}
