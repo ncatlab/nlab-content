@@ -27,12 +27,12 @@ The [[Hodge theorem]] asserts, in particular, that for a [[compact topological s
 +-- {: .num_defn}
 ###### Definition
 
-Let $(X,g)$ be a [[compact topological space|compact]] [[oriented]] [[Riemannian manifold]] of [[dimension]] $d$. Write $\Omega^\bullet(X)$ for the [[de Rham complex]] of smooth [[differential form]]s on $X$ and $\star : \Omega^\bullet(X) \to \Omega^{d-\bullet}(X)$ for the [[Hodge star operator]].
+Let $(X,g)$ be a [[compact topological space|compact]] [[oriented]] [[Riemannian manifold]] of [[dimension]] $n$. Write $\Omega^\bullet(X)$ for the [[de Rham complex]] of smooth [[differential form]]s on $X$ and $\star : \Omega^\bullet(X) \to \Omega^{n-\bullet}(X)$ for the [[Hodge star operator]].
 
 The Hodge [[inner product]] 
 
 $$
- \langle -,-\rangle : \Omega^\bullet(X) \otimes \Omega^{d-\bullet}(X)
+ \langle -,-\rangle : \Omega^\bullet(X) \otimes \Omega^{n-\bullet}(X)
   \to 
   \mathbb{R}
 $$
@@ -44,7 +44,7 @@ $$
   \,.
 $$
 
-Write $d^*$ for the formal [[adjoint]] of the de Rham differential under this iner product. Then
+Write $d^*$ for the formal [[adjoint]] of the de Rham differential under this inner product. Then
 
 $$
   \Delta := [d,d^*] := d d^* + d^* d = (d + d^*)^2
