@@ -91,3 +91,5 @@ A discussion of dependent type theory as the [[internal language]] of [[locally 
 For more see the references at _[[Martin-Löf dependent type theory]]_.
 
 [[!redirects dependent type theories]]
+[[!redirects Dependent type theories]]
+[[!redirects Dependent type theory]]
