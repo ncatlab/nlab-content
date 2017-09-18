@@ -59,7 +59,7 @@ $$
   \,.
 $$
 
-as the [[generalized tangent bundle]]-structure to the 7-dimensional fiber space which one obtains as discussed at _[M-theory supersymmetry algebra -- As an 11-dimensional boundary condition](M-theory+supersymmetry+algebra#AsAn11DimensionalBoundaryCondition)_. Here $\mathbb{R}^7$ is the ordinary [[tangent space]] itself, $\wedge^2 (\mathbb{R}^\ast)^7$ is interpreted as the local incarnation of the possible [[M2-brane]] [[charges]], $\wedge^5 (\mathbb{R}^\ast)^7$ the [[M5-brane]] charges and $\wedge^6 \mathbb{R}^7$ as the charges of [[Kaluza-Klein monopoles]].
+as the [[exceptional tangent bundle]]-structure to the 7-dimensional fiber space which one obtains as discussed at _[M-theory supersymmetry algebra -- As an 11-dimensional boundary condition](M-theory+supersymmetry+algebra#AsAn11DimensionalBoundaryCondition)_. Here $\mathbb{R}^7$ is the ordinary [[tangent space]] itself, $\wedge^2 (\mathbb{R}^\ast)^7$ is interpreted as the local incarnation of the possible [[M2-brane]] [[charges]], $\wedge^5 (\mathbb{R}^\ast)^7$ the [[M5-brane]] charges and $\wedge^6 \mathbb{R}^7$ as the charges of [[Kaluza-Klein monopoles]].
 
 [[!include U-duality -- table]]
 
