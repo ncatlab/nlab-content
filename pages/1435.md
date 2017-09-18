@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 =--
 =--
 
@@ -26,6 +30,17 @@ A commutative ring is a commutative [[monoid object]] in [[Ab]], so $CRing = CMo
 The [[opposite category]] $CRing^{op}$ is the category of [[affine schemes]].
 
 ## Properties
+
+### Epi/Monomorphisms
+
+Every [[surjective function|surjective]] [[homomorphism]] of commutative rings is an [[epimorphism]] in $CRing$, but not every epimorphism is surjective. 
+
+A counterexample is the defining inclusion $\mathbb{Z} \hookrightarrow \mathbb{Q}$ of the ring of [[integers]] into the ring of [[rational numbers]]. This is an injective epimorphism of rings.
+
+For more see for instance at [[Stacks Project]], _[10.106 Epimorphisms of rings](http://stacks.math.columbia.edu/tag/04VM)_.
+
+
+
 
 ### Cocartesian co-monoidal structure
  {#CocartesianComnonoidalStructure}
@@ -53,6 +68,18 @@ Prop. \ref{CoproductIsTensorProduct} means that tensor product of commutative ri
 * There is a "smooth" version of $CRing^{op}$: the category of [[smooth locus|smooth loci]].
 
 * There is a [[higher category theory]] version of $CRing$: the $(\infty,1)$-[[(∞,1)-category|category]] of $E_\infty$-[[E-∞ ring|rings]].
+
+## Related categories
+
+* [[Ring]]
+
+* [[Mod]]
+
+
+
+## References
+
+* [[Stacks Project]], _[10.106 Epimorphisms of rings](http://stacks.math.columbia.edu/tag/04VM)_
 
 
 category: category
