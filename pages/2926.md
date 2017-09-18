@@ -170,6 +170,7 @@ in this diagram is the $\infty$-Maurer-Cartan form on $G$. For $G$ an ordinary L
 
 
 ## On cohesive and stable homotopy types
+ {#OnCohesiveHomotopyTypes}
 
 ### Definition
 
