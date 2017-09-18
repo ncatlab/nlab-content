@@ -1,0 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _dyadic rational number_ is a [[rational number]] $r \in \mathbb{Q}$ such that the following equivalent conditions hold
+
+1. the [[binary number|binary]] expansion of $r$ has finitely many digits;
+
+1. there exists $n,a \in \mathbb{N}$ such that $r = \frac{a}{2^n}$.
+
+## Related entries
+
+* [[Urysohn's lemma]]
+
+## References
+
+* Wikipedia, _[Dyadic rational](https://en.wikipedia.org/wiki/Dyadic_rational)_
+
+[[!redirects dyadic rational numbers]]
+
+[[!redirects dyadic rational]]
+[[!redirects dyadic rationals]]
