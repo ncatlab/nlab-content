@@ -36,6 +36,7 @@ The current model assumes that the energy density of the [[observable universe]]
 
 <img src="http://ncatlab.org/nlab/files/DarkEnergyConcordance.gif" width="400">
 
+(e.g. [Einasto 09, fig 17](#Einasto09), [here](https://ned.ipac.caltech.edu/level5/Sept09/Einasto/Einasto6.html))
 
 
 ## Related concepts
@@ -71,3 +72,5 @@ See also
 
 * Wikipedia, _[Lambda-CDM model](http://en.wikipedia.org/wiki/Lambda-CDM_model)_
 
+
+* {#Einasto09} Jaan Einasto, _Dark matter_ ([arXiv:0901.0632](https://arxiv.org/abs/0901.0632)) 2009
