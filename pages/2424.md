@@ -7,6 +7,8 @@ Edward Witten is a theoretical physicist at the Institute for Advanced Study.
 
 * interview by [[Hirosi Ooguri]], Notices Amer. Math. Soc, May 2015 p491 ([pdf](http://www.ams.org/notices/201505/rnoti-p491.pdf))
 
+* [Kyoto Prize lecture](http://www.kyotoprize.org/en/laureates/commemorative_lectures/)  2014 ([pdf](http://www.kyotoprize.org/wp/wp-content/uploads/2016/02/30kB_lct_EN.pdf))
+
 Witten's work originates in theoretical [[quantum field theory]] and stands out as making numerous and deep connections between that and mathematical [[geometry]] and [[cohomology]]. In the course of the 1980s Witten became the central and leading figure in [[string theory]].
 
 Insight gained from the study of quantum field theories and specifically those relevant in [[string theory]] led Witten to mathematical results deep enough to gain him a [[Fields medal]], see [below](#FieldMedalWork). Indeed, a whole list of sub-fields in mathematics originate in aspects of Witten's work in QFT/string theory and carry his name, such as [[Chern-Simons theory]] which many people call "Chern-Simons-Witten theory", [[Wess-Zumino-Witten theory]], the [[Witten genus]], [[Gromov-Witten theory]], [[Seiberg-Witten theory]], [[Rozansky-Witten invariant]], the [[Witten cojecture]].  Other parts are still waiting to be absorbed into the mathematical literature such as [[Horava-Witten theory]], [[Diaconescu-Moore-Witten anomaly]] etc..
