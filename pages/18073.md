@@ -20,6 +20,8 @@ Assuming the [[axiom of choice]], then every [[Hausdorff topological space]] is 
 
 ## Related entries
 
+* [[schemes are sober]]
+
 * [[a CW-complex is a Hausdorff space]]
 
 * [[compact subspaces of Hausdorff spaces are closed]]
