@@ -52,7 +52,7 @@ over $S$.
 
 Similarly, an $S$-[[indexed functor]] $\mathbb{C} \to \mathbb{D}$ is a [[pseudonatural transformation]] of pseudofunctors, and an indexed natural transformation is a [[modification]].  
 
-This defines the [[2-category]] $S IndCat := [S^{op}, Cat]$ of $S$-indexed categories.
+This defines the [[2-category]] $S IndCat \coloneqq [S^{op}, Cat]$ of $S$-indexed categories.
 
 
 =--
@@ -80,7 +80,7 @@ If $\mathcal{S}$ has [[pullbacks]], then its [[codomain fibration]] is an $\math
 This assigns to an object $I$ the corresponding [[over-category]] 
 
 $$
-  \mathbb{S}^I := \mathcal{S}/I
+  \mathbb{S}^I \coloneqq \mathcal{S}/I
 $$
 
 and to a morphism $f : I \to J$ the functor $f^*$ that sends every $s \to I$ to its [[pullback]] $f^*$ along $f$.
@@ -120,7 +120,7 @@ If the functor $F$ preserves [[pullback]]s then this induces a morphism $\mathbb
 
 ### Indexed category of a topos over a base topos
 
-This situation frequently arises when $\mathcal{S}$ and $\mathcal{C}$ are [[toposes]] and $F := f^*$ is the [[inverse image]] part of a [[geometric morphism]].  
+This situation frequently arises when $\mathcal{S}$ and $\mathcal{C}$ are [[toposes]] and $F \coloneqq f^*$ is the [[inverse image]] part of a [[geometric morphism]].  
 
 $$
   f 
