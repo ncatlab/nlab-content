@@ -38,7 +38,9 @@ For $g:Z\to A$ and $f:A\to B$ as above, a **distributivity pullback** around $(f
 
 If the above diagram is a distributivity pullback, we say that it exhibits $r$ as a *distributivity pullback of $g$ along $f$*.
 
-## Connection to exponentiation
+## Properties
+
+### Connection to exponentiation
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -49,7 +51,7 @@ A morphism $f:A\to B$ is [[exponentiable morphism|exponentiable]] if and only if
 The universal property of a distributivity pullback says exactly that $Y\xrightarrow{r} B$ is the exponential of $g$ along $f$.
 =--
 
-## Connection to distributivity
+### Connection to distributivity
 
 In a category with pullbacks, for any pullback around $(f,g)$ with $f$ and $q$ exponentiable, we have a canonical Beck-Chevalley isomorphism
 $$ r^* f_* \xrightarrow{\cong} q_* p^* g^* . $$
@@ -97,6 +99,9 @@ $$ \sum_{\phi:\prod_{a:A(b)} Z(b,a) } \prod_{a:A(b)} W(b,a,\phi(a)) \qquad \cong
 
 This isomorphism (or more specifically the left-to-right map) has traditionally been called the "axiom of choice" in [[Martin-Lof type theory]], since if $\sum$ and $\prod$ are interpreted according to [[propositions as types]] then it looks like the set-theoretic axiom of choice.  However, this is not really appropriate, since this is a provable statement rather than an additional axiom, and does not have any of the usual strong consequences of the set-theoretic axiom of choice.  See [[axiom of choice]] for further discussion.
 
+### Connection to pullback complements
+
+If $p$ is an isomorphism, then a distributivity pullback is also a [[final pullback complement]].
 
 ## References
 
