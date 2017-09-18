@@ -102,11 +102,15 @@ Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how 
 
 
 
+## Server
+ {#Server}
+
+The domain $ncatlab.org$ is owned by [[Urs Schreiber]]. The server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). The technical administration of the software installation is done by [[Adeel Khan Yusufzai]] (and was previously done by [[Andrew Stacey]] for several years).
+
+> The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authors and do not necessarily reflect the views of the AFOSR.
 
 ## Steering Committee 
  {#SteeringCommitte}
-
-The domain $ncatlab.org$ is owned (rented) by [[Urs Schreiber]]. The server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). The technical administration of the software installation is done by [[Adeel Khan Yusufzai]] (and was previously done by [[Andrew Stacey]] for several years).
 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have. 
 
