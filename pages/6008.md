@@ -87,17 +87,19 @@ This appears as ([Godin, prop. 31](#Godin)).
 
 * [[tubular neighbourhood of a mapping space]]
 
+* key application: [[Pontrjagin-Thom collapse map]]
+
 ## References
 
 Basics on tubular neighbourhoods are for instance in section 3 of
 
-* Ana Cannas da Silva, _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
- {#DaSilva}
+* {#DaSilva} Ana Cannas da Silva, _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
+ 
 
 The homotopical uniqueness of tubular neighbourhoods is discussed in
 
-* [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
- {#Godin}
+* {#Godin} [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+ 
 
 For an analogue in homotopical algebraic geometry see
 
@@ -110,3 +112,10 @@ see also
 [[!redirects tubular neighbourhoods]]
 
 [[!redirects tubular neighbourhood theorem]]
+
+
+[[!redirects tubular neighborhood]]
+[[!redirects tubular neighborhoods]]
+
+[[!redirects tubular neighborhood theorem]]
+
