@@ -13,6 +13,8 @@ The 2-[[simplex]]. The [[polygon]] with three sides.
 
 ## Related concepts
 
+* [[trigonometry]]
+
 * [[circle]]
 
 * [[tetrahedron]]
