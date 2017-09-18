@@ -1,17 +1,20 @@
 
 $$
   \array{
-     && \mathbf{\Omega}^{n+1}_{cl}
+     \widehat{\flat \mathbf{B}^n \mathbb{R}}_\bullet &\longrightarrow& \widehat{(\flat \mathbf{B}^{n}(\mathbb{R}/\mathbb{Z}))}_\bullet &\longrightarrow& 0
      \\
-     & {}^{\mathllap{(F_{(-)})_\bullet }}\nearrow && \searrow^{\mathrlap{\iota_\bullet}}
+     \downarrow && \downarrow && \downarrow^{}
      \\
-     (\mathbf{B}^n U(1)_{conn})_\bullet
-     && && \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
+     \mathbf{\Omega}^{\bullet \leq n}
+     &\longrightarrow& (\mathbf{B}^n U(1)_{conn})_\bullet
+     &\stackrel{(F_{(-)}_\bullet)}{\longrightarrow}&
+     \mathbf{\Omega}^{n+1}_{cl}
      \\
-     & {}_{\mathllap{DD_\bullet}}\searrow && 
-     \nearrow_{\mathrlap{\widehat{ch}_\bullet}}
-     \\
+     && \downarrow^{\mathrlap{DD_\bullet}} && \downarrow^{\mathrlap{\iota_\bullet}}
+     \\     
      && \widehat{(\mathbf{B}^{n+1}\mathbb{Z})}_\bullet
+     &\stackrel{\widehat{ch}_\bullet}{\longrightarrow}&
+     \widehat{(\flat \mathbf{B}^{n+1}\mathbb{R})}_\bullet
   }
+  \,.
 $$
-
