@@ -107,6 +107,18 @@ The list monad bears the same relation to [[multicategories]] as the [[identity 
 
 Every definition of free monoid makes use of some form of [[axiom of infinity]], either $\mathbf{N}$ directly or the ability to form general inductive types.  Indeed, as $\mathbf{N} = pt^*$, the axiom of infinity follows from the existence of free monoids.
 
+In [[topos theory]] it is a theorem due to C. J. Mikkelsen that the existence of a [[natural number object]] is equivalent to the existence of free monoids:
+
++-- {: .num_prop #free_monoids_in_topos}
+###### Proposition
+Let $\mathcal{E}$ be a topos and $\mathbf{mon}(\mathcal{E})$ its category of internal monoids. Then $\mathcal{E}$ has a NNO precisely if the forgetful functor $U:\mathbf{mon}(\mathcal{E})\to \mathcal{E}$ has a left adjoint.
+=--
+
+For a proof see Johnstone ([1977](#JT77),p.190).
+
+The existence of a natural number object is in turn crucial for the existence of [[classifying topos|classifying toposes]] over $\mathcal{E}$ due to a result by [[Andreas Blass|A. Blass]].
+
+So in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] all hinge on the existence of free monoids, the intuition being that the free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
 
 ## Stacks and queues
 
@@ -129,10 +141,19 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 
 ## Related concepts
 
+* [[classifying topos for the theory of objects]]
+
+* [[arithmetic pretopos]]
+
 * [[tensor algebra]]
 
 * [[cofree coalgebra]]
 
+## References
+
+* {#Ben91}[[Jean Bénabou]], _Some Remarks on Free Monoids in a Topos_ , pp.20-29 in LNM **1488** Springer Heidelberg 1991.
+
+* {#JT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
 
 [[!redirects list]]
 [[!redirects lists]]
@@ -154,4 +175,3 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 
 [[!redirects list object]]
 [[!redirects list objects]]
-
