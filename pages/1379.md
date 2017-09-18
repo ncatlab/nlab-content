@@ -18,7 +18,7 @@ A __proper class__ is a collection that can be put in [[bijection]] with the cla
 
 A __proper class__ is a class that is not a [[set]].  So now we have to define 'class'.
 
-A __proper class__ is a class whose cardinality is not the [[cardinal number]] of any set.  This is a less [[evil]] version of the previous definition; however, in some foundations these are actually equivalent (using the [[axiom of replacement]]).
+A __proper class__ is a class whose cardinality is not the [[cardinal number]] of any set.  This is a  version of the previous definition not violating the [[principle of equivalence]]; however, in some foundations these are actually equivalent (using the [[axiom of replacement]]).
 
 A __class__ is a collection of [[sets]].  Here the bubble is moved to 'collection', but we will be able to pop that bubble below.  Also we might want to allow the members of a proper class to be other than sets (such as [[structured sets]]); certainly it is true, however, that a __pure class__ is a collection of [[pure sets]].
 
