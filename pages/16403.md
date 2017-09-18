@@ -13,11 +13,20 @@
 
 ## **Homotopy types**
 
+Traditionally mathematics and physics eqhas been founded on _[[sets]]_, "bags of points". But fundamental [[physics]] is all governed by the [[gauge principle]] which says that fundamentally the points in these bags are connected, possibly, by various [[gauge transformation]] [[equivalences]]. In fact fundamental physics involves [[higher gauge theory]], which asserts that in general there are [[gauge-of-gauge transformation]] between these gauge transformations, and so ever on. This means that what naively may have looked spaces made of points are really in general more like [[orbifolds]], "[[orbispaces]]". Since these are generalizations of [[groups]] of [[symmetries]] to a situation where symmetries act between "different" objects, one speaks of _[[groupoids]]_, and if the ever higher [[gauge-of-gauge equivalences]] are taken into account one speaks of _[[infinity-groupoids]]_. The field of mathematics that studies these structures is called _[[homotopy theory]]_. Here "[[gauge equivalences]]" are also called _[[homotopies]]_ and [[n-groupoids]] (structures with $n$-fold [[gauge-of-gauge transformations]]) are called _[[homotopy n-types]]_.
+
+Here we discuss the basics of [[homotopy theory]] irrespective of any [[geometry]]. In the next chapter _[[geometry of physics -- smooth homotopy types]]_ we then combine the concept of _[[geometry of physics -- smooth spaces|smooth sets]]_ of the previous chapter with the idea of generalizeing sets to _[[smooth homotopy types]]_. These subsume the objects of actual interest in physics, such as notably the [[moduli stacks]] of [[field (physics)|fields]] in any [[gauge theory]] and [[higher gauge theory]].
+
+
 ### Motivation
 
-The basic principle of [[homotopy theory]] happens to be well familiar in [[physics]], just in slight disguise: it is the _[[gauge principle]]_. This we explain in 
+The basic principle of [[homotopy theory]] happens to be well familiar in [[physics]], just in slight disguise: it is the ([[higher gauge theory|higher]]) _[[gauge principle]]_. This we explain in 
 
 * _[Motivation from physics: The gauge principle](#TheGaugePrinciple)_.
+
+As it goes, this profound and yet simple fact is less widely appreciated than a rather sophisticated phenomenon which is but a special case of this: the appearance of [[derived categories]] of [[branes]] in [[topological string theory]]
+
+* _[Motivation from physics: Derived categories of branes](#DerivedCategoriesOfBranes)_
 
 The historical route in [[mathematics]] that lead to modern [[homotopy theory]] so happens to run via the study of [[ordinary cohomology]] and [[ordinary homology]] ([[singular homology]]) of [[topological spaces]], structures that happen to recognize of a topological space only the [[homotopy type]] that it _represents_ via the [[singular simplicial complex]] construction. This traditional route we recall in 
 
@@ -29,7 +38,9 @@ While standard and traditional, this story hides a bit how utmost fundamental th
 
 
 
-#### Motivation from physics: The gauge principle
+#### Motivation from physics
+
+#####The gauge principle
  {#MotivationFromGaugePrinciple}
 
 One of the fundamental principles of modern physics is the _[[gauge principle]]_. It says that every [[field (physics)|field]] configuration in physics -- hence everything in physics --is, in general, a _[[gauge field]]_ configuration. This in turn means that given two field configurations $\Phi_1$ and $\Phi_2$, then it makes no sense to ask whether they are _[[equality|equal]]_ or not. Instead what makes sense to ask is for a [[gauge transformation]] $g$ that, if it exists, exhibits $\Phi_1$ as being gauge [[equivalence|equivalent]] to $\Phi_2$ via $g$.
@@ -102,7 +113,18 @@ This logic of the [[gauge principle]] keeps applying, and hence we obtain an inf
 
 The mathematics theory of these systems of higher-order gauge-of-gauge transformations is called _[[homotopy theory]]_ or _[[higher category theory]]_ in the flavor of _[[(infinity,1)-category theory]]_.
 
-More motivation and exposition along these lines is at _[[schreiber:Higher field bundles for gauge fields]]_.
+More motivation and exposition along these lines is at 
+
+* _[[schreiber:Higher field bundles for gauge fields]]_.
+
+* _[[prequantum field theory]]_
+
+##### Derived categories of branes
+ {#DerivedCategoriesOfBranes}
+
+...[[topological string]]... [[TCFT]] ... [[homological mirror symmetry]] ...
+
+
 
 #### Motivation from topology: Singular homology
  {#SimplicialHomology}
@@ -1227,16 +1249,676 @@ of chain complexes. This is essentially what [[nLab:homological algebra]] is abo
 
 ### **Model layer**
 
-A standard model for [[homotopy types]] are _[[simplicial sets]]_ and in particular the _[[Kan complexes]]_ among them. These we introduce and discuss below in _[Kan complexes](#KanComplexes)_. This model for [[homotopy theory]] is accordingly known as _[[simplicial homotopy theory]]_. This is a powerful model and happens to be the most highly developed one, it does however require a minimum of mathematical sophistication to be handled efficiently. This we look into below in _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
+A _[[homotopy 0-type]]_ is equivalently just a [[set]] (an [[h-set]]). A _[[homotopy 1-type]]_ is equivalently a _[[gropoid]]_. These we introduce and discuss below in 
 
-But a simpler and more familiar structure turns out to be a model for the important subsector of "abelian" homotopy types, namely _[[chain complexes]]_. We recall fundamentals of these in _[Chain complexes](#ChainComplexes)_. As a model for abelian homotopy theory, this is nothing but _[[homological algebra]]_. We present the key constructions of homological algebra from the "derived" perspective that makes them fit well into homotopy theory below in [](spring)
+* _[Groupoids -- Homotopy 1-types](#Groupoids)_.
+
+A standard model for general [[homotopy types]] are _[[simplicial sets]]_ and in particular the _[[Kan complexes]]_ among them. These we introduce and discuss below in 
+
+* _[Kan complexes --  General homotopy types](#KanComplexes)_. 
+
+This model for [[homotopy theory]] is accordingly known as _[[simplicial homotopy theory]]_. This is a powerful model and happens to be the most highly developed one, it does however require a minimum of mathematical sophistication to be handled efficiently. This we look into below in 
+
+* _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
+
+But a simpler and more familiar structure turns out to be a model for the important subsector of "abelian" homotopy types, namely _[[chain complexes]]_. We recall fundamentals of these in 
+
+* _[Chain complexes --  Abelian homotopy types](#ChainComplexes)_. 
+
+As a model for abelian homotopy theory, this is nothing but _[[homological algebra]]_. We present the key constructions of homological algebra from the "derived" perspective that makes them fit well into homotopy theory below in _[Simplicial homtopy theory](#SimplicialHomotopyTheory)_.
 
 The construction that embeds chain complexes into simplicial homotopy theory is the _[[Dold-Kan correspondence]]_ and the _[[Eilenberg-Zilber theorem]]_. This we discuss below in _[Dold-Kan correspondence](#DoldKanCorrespondence)_
 
-#### Chain complexes
+
+#### Groupoids -- Homotopy 1-types
+ {#Groupoids}
+
++-- {: .num_defn #Groupoid}
+###### Definition
+
+A ([[small category|small]]) _[[groupoid]]_ $\mathcal{G}_\bullet$ is
+
+* a pair of [[sets]] $\mathcal{G}_0 \in Set $ (the set of [[objects]]) and $\mathcal{G}_1 \in Set$ (the set of [[morphisms]])
+
+* equipped with [[functions]]
+
+  $$
+    \array{
+      \mathcal{G}_1 \times_{\mathcal{G}_0} \mathcal{G}_1
+      &\stackrel{\circ}{\longrightarrow}&
+      \mathcal{G}_1
+      & \stackrel{\overset{t}{\longrightarrow}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\longrightarrow}}}&
+      \mathcal{G}_0
+    }\,,
+  $$
+
+  where the [[fiber product]] on the left is that over $\mathcal{G}_1 \stackrel{t}{\to} \mathcal{G}_0 \stackrel{s}{\leftarrow} \mathcal{G}_1$, 
+
+such that
+
+* $i$ takes values in [[endomorphisms]];
+
+  $$
+    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\; 
+  $$
+
+* $\circ$ defines a partial [[composition]] operation which is [[associativity|associative]] and [[unitality|unital]] for $i(\mathcal{G}_0)$ the [[identities]]; in particular
+
+  $s (g \circ f) = s(f)$ and $t (g \circ f) = t(g)$;
+
+* every morphism has an [[inverse]] under this composition.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This data is visualized as follows. The set of morphisms is 
+
+$$
+  \mathcal{G}_1
+  = 
+  \left\{
+    \phi_0 \stackrel{k}{\to} \phi_1
+  \right\}
+$$
+
+and the set of pairs of composable morphisms is
+
+$$
+  \mathcal{G}_2 \coloneqq \mathcal{G}_1 \underset{\mathcal{G}_0}{\times} \mathcal{G}_1
+  =
+  \left\{
+    \array{
+      && \phi_1
+      \\
+      & {}^{\mathllap{k_1}}\nearrow && \searrow^{\mathrlap{k_2}}
+      \\
+      \phi_0 && \stackrel{k_2 \circ k_1}{\to} && \phi_2
+    }
+  \right\}
+  \,.
+$$
+
+The functions $p_1, p_2, \circ \colon \mathcal{G}_2 \to \mathcal{G}_1$ are those which send, respectively, these triangular diagrams to the left morphism, or the right morphism, or the bottom morphism.
+
+=--
+
++-- {: .num_example #SetAsGroupoid}
+###### Example
+
+For $X$ a [[set]], it becomes a groupoid by taking $X$ to be the set of objects and adding only precisely the [[identity]] morphism from each object to itself
+
+$$
+  \left(
+    X 
+    \stackrel
+    {\overset{id}{\longrightarrow}}
+    {
+      \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
+    }
+   X
+  \right)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #DeloopingGroupoid}
+###### Example
+
+For $G$ a [[group]], its [[delooping]] [[groupoid]] $(\mathbf{B}G)_\bullet$ has
+
+* $(\mathbf{B}G)_0 = \ast$;
+
+* $(\mathbf{B}G)_1 = G$.
+
+For $G$ and $K$ two groups, group homomorphisms $f \colon G \to K$
+are in [[natural bijection]] with groupoid homomorphisms
+$$
+  (\mathbf{B}f)_\bullet
+  \;\colon\;
+  (\mathbf{B}G)_\bullet \to (\mathbf{B}K)_\bullet
+  \,.
+$$
+
+In 
+particular a [[group character]] $c \colon G \to U(1)$ is equivalently a groupoid homomorphism
+
+$$
+  (\mathbf{B}c)_\bullet 
+   \;\colon\;
+   (\mathbf{B}G)_\bullet 
+     \to
+   (\mathbf{B}U(1))_\bullet
+  \,.
+$$
+
+Here, for the time being, all groups are [[discrete groups]]. Since the [[circle group]] $U(1)$ also has a standard structure of a [[Lie group]], and since later for the discussion of Chern-Simons type theories this will be relevant, we will write from now on
+
+$$
+  \flat U(1) \in Grp
+$$
+
+to mean explicitly the [[discrete group]] underlying the circle group. (Here "$\flat$" denotes the "[[flat modality]]".)
+
+=--
+
++-- {: .num_example #ActionGroupoid}
+###### Example
+
+For $X $ a [[set]], $G$ a [[discrete group]] and $\rho \colon X \times G \to X$ an [[action]] of $G$ on $X$ (a [[permutation representation]]), the **[[action groupoid]]** or **[[homotopy quotient]]** of $X$ by $G$ is the groupoid
+
+$$
+  X//_\rho G
+  = 
+  \left(
+    X \times G
+    \stackrel{\overset{\rho}{\longrightarrow}}{\underset{p_1}{\longrightarrow}}
+    X
+  \right)
+$$
+
+with composition induced by the product in $G$. Hence this is the groupoid whose objects are the elements of $X$, and where [[morphisms]] are of the form
+
+$$
+  x_1 \stackrel{g}{\to} x_2 = \rho(x_1)(g)
+$$
+
+for $x_1, x_2 \in X$, $g \in G$.
+
+=--
+
+As an important special case we have:
+
++-- {: .num_example #BGGroupoidAsActionGroupoid}
+###### Example
+
+For $G$ a [[discrete]] group and $\rho$ the trivial action of $G$ on the point $\ast$ (the singleton set), the coresponding [[action groupoid]] according to def. \ref{ActionGroupoid} is the [[delooping]] groupoid of $G$ according to def. \ref{DeloopingGroupoid}:
+
+$$
+  (\ast //G)_\bullet = (\mathbf{B}G)_\bullet
+  \,.
+$$
+
+Another canonical action is the action of $G$ on itself by right multiplication. The corresponding action groupoid we write
+
+$$
+  (\mathbf{E}G)_\bullet \coloneqq G//G
+  \,.
+$$
+
+The constant map $G \to \ast$ induces a canonical morphism
+
+$$
+  \array{
+    G//G & \simeq & \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast //G & \simeq & \mathbf{B}G
+  }
+  \,.
+$$
+
+This is known as the $G$-[[universal principal bundle]]. See below in \ref{PullbackOfEGGroupoidAsHomotopyFiberProduct} for more on this.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The [[interval]] $I$ is the groupoid with 
+
+* $I_0 = \{a,b\}$;
+* $I_1 = \{\mathrm{id}_a, \mathrm{id}_b, a \to  b \}$.
+
+=--
+
++-- {: .num_example #FundamentalGroupoid}
+###### Example
+
+For $\Sigma$ a [[topological space]], its [[fundamental groupoid]]
+  $\Pi_1(\Sigma)$ is
+
+* $\Pi_1(\Sigma)_0 = $ points in $X$;
+* $\Pi_1(\Sigma)_1 = $ [[continuous function|continuous]] paths in $X$ modulo [[homotopy]] that leaves the endpoints fixed.
+
+=--
+
++-- {: .num_example #PathSpaceGroupoid}
+###### Example
+
+For $\mathcal{G}_\bullet$ any groupoid, there is the [[path space]] groupoid $\mathcal{G}^I_\bullet$ with
+
+* $\mathcal{G}^I_0 = \mathcal{G}_1 = \left\{ \array{ \phi_0 \\ \downarrow^{\mathrlap{k}} \\ \phi_1  } \right\}$;
+
+* $\mathcal{G}^I_1 = $ [[commuting diagram|commuting squares]] in $\mathcal{G}_\bullet$ = 
+  $
+    \left\{
+       \array{
+          \phi_0 &\stackrel{h_0}{\to}& \tilde \phi_0
+          \\
+          {}^{\mathllap{k}}\downarrow && \downarrow^{\mathrlap{\tilde k}}
+          \\
+          \phi_1 &\stackrel{h_1}{\to}& \tilde \phi_1
+       }
+    \right\}
+    \,.
+  $   
+
+This comes with two canonical homomorphisms
+
+  $$
+    \mathcal{G}^I_\bullet
+     \stackrel{\overset{ev_1}{\longrightarrow}}{\underset{ev_0}{\longrightarrow}}
+	   \mathcal{G}_\bullet
+  $$
+
+  which are given by endpoint evaluation, hence which send such a commuting square to either its top or its bottom hirizontal component.
+
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $f_\bullet, g_\bullet : \mathcal{G}_\bullet \to \mathcal{K}_\bullet$
+two morphisms between groupoids,
+  a _[[homotopy]]_ $f \Rightarrow g$ 
+(a [[natural transformation]]) is
+  a homomorphism of the form $\eta_\bullet : \mathcal{G}_\bullet \to \mathcal{K}^I_\bullet$
+  (with [[codomain]] the [[path space object]] of $\mathcal{K}_\bullet$ as in example \ref{PathSpaceGroupoid})
+  such that it fits into the diagram as depicted here on the right:
+  $$
+    \array{
+      & \nearrow  \searrow^{\mathrlap{f_\bullet}}
+      \\
+      \mathcal{G} &\Downarrow^{\mathrlap{\eta}}& \mathcal{K}
+     \\
+     & \searrow \nearrow_{\mathrlap{g_\bullet}}
+    }
+
+	\;\;\;\;
+	\coloneqq
+	\;\;\;\;
+    \array{
+      && \mathcal{K}_\bullet
+      \\
+      & {}^{\mathllap{f_\bullet}}\nearrow & \uparrow^{\mathrlap{(ev_1)_\bullet}}
+      \\
+      \mathcal{G}_\bullet
+      &\stackrel{\eta_\bullet}{\to}&
+      \mathcal{K}^I_\bullet
+      \\
+      & {}_{\mathllap{g_\bullet}}\searrow & \downarrow^{\mathrlap{(ev_0)_\bullet}}
+      \\
+      && \mathcal{K}
+    }
+    \,.
+  $$
+
+=--
+
++-- {: .num_defn #GroupoidsAsHomotopy1Types}
+###### Definition (Notation)
+
+Here and in the following, the convention is that we write
+
+* $\mathcal{G}_\bullet$ (with the subscript decoration) when we regard groupoids with just 
+homomorphisms ([[functors]]) between them, 
+
+* $\mathcal{G}$ (without the subscript decoration) when we regard groupoids
+with homomorphisms ([[functors]]) between them and [[homotopies]] ([[natural transformations]]) between these
+
+  $$
+    \array{
+      & \nearrow \searrow^{\mathrlap{f}}
+      \\
+      X &\Downarrow& Y
+      \\
+      & \searrow \nearrow_{g}
+    }
+    \,.
+  $$
+
+The unbulleted version of groupoids are also called _[[homotopy 1-types]]_ (or often just their [[homotopy]]-[[equivalence classes]] are called this way.) Below we generalize this to arbitrary homotopy types (def. \ref{KanComplexesAsHomotopyTypes}).
+
+=--
+
+
+
++-- {: .num_example #MappingGroupoid}
+###### Example
+
+For $X,Y$ two groupoids, the [[internal hom|mapping groupoid]] $[X,Y]$ or $Y^X$ is
+
+* $[X,Y]_0 = $ homomorphisms $X \to Y$;
+* $[X,Y]_1 = $ homotopies between such. 
+
+=--
+
++-- {: .num_defn #HomotopyEquivalenceOfGroupoids}
+###### Definition
+
+  A ([[homotopy equivalence|homotopy-]]) _[[equivalence of groupoids]]_ is a morphism
+$\mathcal{G} \to \mathcal{K}$ which has a left and right [[inverse]] up to [[homotopy]].  
+
+=--
+
++-- {: .num_example #BZIsPiSOne}
+###### Example
+
+The map
+
+$$
+  \mathbf{B}\mathbb{Z} \stackrel{}{\to} \Pi(S^1)
+$$
+
+which picks any point and sends $n \in \mathbb{Z}$ to the loop based at that point which winds around $n$ times, is an [[equivalence of groupoids]].
+
+=--
+
+
++-- {: .num_prop #DiscreteGroupoidIsDijointUnioonOfDeloopings}
+###### Proposition
+
+  Assuming the [[axiom of choice]] in the ambient [[set theory]],
+  every groupoid is equivalent to a disjoint union of 
+  [[delooping]] groupoids,
+  example \ref{DeloopingGroupoid} -- a _[[skeleton]]_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+ The statement of prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings} 
+ becomes false as when we pass to groupoids that are equipped with
+ [[geometry|geometric]] structure. This is the reason why for discrete geometry all  [[Chern-Simons theory|Chern-Simons]]-type field theories (namely [[Dijkgraaf-Witten theory]]-type theories) fundamentally involve just groups (and higher groups),
+ while for nontrivial geometry there are genuine groupoid theories, 
+ for instance the [[AKSZ sigma-models]]. But even so, 
+ [[Dijkgraaf-Witten theory]] is usefully discussed in terms of groupoid technology, in particular since the choice of equivalence in 
+ prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings} is not canonical.
+
+=--
+
++-- {: .num_defn #HomotopyFiberProductOfGroupoids}
+###### Definition
+
+Given two morphisms of groupoids 
+$X \stackrel{f}{\leftarrow} B \stackrel{g}{\to} Y$
+their _[[homotopy fiber product]]_
+
+$$
+  \array{
+   X \underset{B}{\times} Y
+   &\stackrel{}{\to}& X
+   \\
+   \downarrow &\swArrow& \downarrow^{\mathrlap{f}}
+   \\
+   Y &\underset{g}{\to}& B
+  }
+$$
+
+is the [[limit]] [[cone]]
+
+$$
+  \array{
+    X_\bullet \underset{B_\bullet}{\times} B^I_\bullet
+    \underset{B_\bullet}{\times} Y_\bullet
+    &\to& &\to& X_\bullet
+    \\
+    \downarrow && && \downarrow^{\mathrlap{f_\bullet}}
+    \\
+    && B^I_\bullet &\underset{(ev_0)_\bullet}{\to}& B_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    Y_\bullet &\underset{g_\bullet}{\to}& B_\bullet
+  }
+  \,,
+$$
+
+hence the ordinary iterated [[fiber product]] over the [[path space]] groupoid, as indicated.
+
+=--
+
++-- {: .num_remark #FiberProductsOfGroupoidsComponentwise}
+###### Remark
+
+An ordinary fiber product $X_\bullet \underset{B_\bullet}{\times}Y_\bullet$ of groupoids is given simply by the fiber product of the underlying sets of objects and morphisms:
+
+$$
+  (X_\bullet \underset{B_\bullet}{\times}Y_\bullet)_i 
+  =
+  X_i \underset{B_i}{\times} Y_i
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #PullbackOfEGGroupoidAsHomotopyFiberProduct}
+###### Example
+
+For $X$ a [[groupoid]], $G$ a [[group]] and $X \to \mathbf{B}G$ a map into its [[delooping]], the [[pullback]] $P \to X$ of the $G$-[[universal principal bundle]] of example \ref{BGGroupoidAsActionGroupoid}
+is equivalently the [[homotopy fiber product]] of $X$ with the point over $\matrhbf{B}G$:
+
+$$
+  P \simeq X \underset{\mathbf{B}G}{\times} \ast
+  \,.
+$$
+
+Namely both squares in the following diagram are pullback squares
+
+$$
+  \array{
+    P
+    &\to& \mathbf{E}G &\to& \ast_\bullet
+    \\
+    \downarrow && && \downarrow^{\mathrlap{}}
+    \\
+    && (\mathbf{B}G)^I_\bullet &\underset{(ev_0)_\bullet}{\to}& (\mathbf{B}G)_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    X_\bullet &\underset{}{\to}& (\mathbf{B}G)_\bullet
+  }
+  \,.
+$$
+
+(This is the first example of the more general phenomenon of [[universal principal infinity-bundles]].)
+
+=--
+
++-- {: .num_example #LoopSpaceGroupoid}
+###### Example
+
+For $X$ a [[groupoid]] and $\ast \to X$ a point in it, we call
+
+$$
+  \Omega X
+  \coloneqq
+  \ast \underset{X}{\times} \ast
+$$
+
+the [[loop space object|loop space groupoid]] of $X$.
+
+For $G$ a group and $\mathbf{B}G$ its  [[delooping]] groupoid from
+  example \ref{DeloopingGroupoid}, we have
+  $$
+    G \simeq \Omega \mathbf{B}G = \ast \underset{\mathbf{B}G}{\times} \ast
+    \,.
+  $$
+
+ Hence $G$ is the [[loop space object]] of its own [[delooping]], as it should be.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We are to compute the ordinary limiting cone $\ast \underset{\mathbf{B}G_\bullet}{\times}  (\mathbf{B}G^I)_\bullet \underset{\mathbf{B}G_\bullet}{\times} \ast$ in
+
+$$
+  \array{
+    &\to& &\to& \ast
+    \\
+    \downarrow && && \downarrow^{\mathrlap{}}
+    \\
+    && (\mathbf{B}G)^I_\bullet &\underset{(ev_0)_\bullet}{\to}& \mathbf{B}G_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    \ast &\underset{}{\to}& \mathbf{B}G_\bullet
+  }
+  \,,
+$$
+
+In the middle we have the groupoid $(\mathbf{B}G)^I_\bullet$ whose objects are elements of $G$ and whose morphisms starting at some element are labeled by pairs of elements $h_1, h_2 \in G$ and end at $h_1 \cdot g \cdot h_2$. 
+Using remark \ref{FiberProductsOfGroupoidsComponentwise} 
+the limiting cone is seen to precisely pick those morphisms in $(\mathbf{B}G_\bullet)^I_\bullet$ such that these two elements are constant on the neutral element $h_1 = h_2 = e = id_{\ast}$, hence it produces just the elements of $G$ regarded as a groupoid with only identity morphisms, as in example \ref{SetAsGroupoid}.
+
+=--
+
++-- {: .num_prop #FreeLoopSpaceOfGroupoid}
+###### Proposition
+
+
+The [[free loop space object]] is
+
+  $$
+    [\Pi(S^1), X]
+	\simeq
+	X \underset{[\Pi(S^0), X]}{\times}X
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that $\Pi_1(S^0) \simeq \ast \coprod \ast$. Therefore
+the [[path space object]] $[\Pi(S^0), X_\bullet]^I_\bullet$ has
+
+* objects are pairs of morphisms in $X_\bullet$;
+
+* morphisms are commuting squares of such.
+
+Now the fiber product in def. \ref{HomotopyFiberProductOfGroupoids}
+picks in there those pairs of morphisms for which both start at the same object, and both end at the same object. Therefore $X_\bullet \underset{[\Pi(S^0), X_\bullet]_\bullet}{\times} [\Pi(S^0), X_\bullet]^I_\bullet \underset{[\Pi(S^0), X_\bullet]_\bullet}{\times} X$ is the groupoid whose
+
+* objects are diagrams in $X_\bullet$ of the form 
+
+  $$
+    \array{
+       & \nearrow \searrow
+       \\
+       x_0 && x_1
+       \\
+       & \searrow \nearrow
+    }
+  $$
+
+* morphism are cylinder-diagrams over these.
+
+One finds along the lines of example 
+\ref{BZIsPiSOne} that this is equivalent to maps from $\Pi_1(S^1)$ into $X_\bullet$ and homotopies between these.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Even though all these models of the circle $\Pi_1(S^1)$ are equivalent,
+below the special appearance of the circle in the proof of 
+prop. \ref{FreeLoopSpaceOfGroupoid} as the combination of two semi-circles will be important for the following proofs. 
+As we see in a moment, this is the natural way in which the circle
+appears as the composition of an [[evaluation map]] with a [[coevaluation map]].
+
+=--
+
++-- {: .num_example #AdjointActionGroupoidFromFreeLoopSpaceObject}
+###### Example
+
+For $G$ a [[discrete group]], the [[free loop space object]] of its [[delooping]] $\mathbf{B}G$ is $G//_{ad} G$, the [[action groupoid]], def. \ref{ActionGroupoid}, of the [[adjoint action]] of $G$ on itself:
+
+$$
+  [\Pi(S^1), \mathbf{B}G] \simeq G//_{ad} G
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For an [[abelian group]] such as $\flat U(1)$ we have
+
+$$
+  [\Pi(S^1), \mathbf{B}\flat U(1)]
+  \simeq
+  \flat U(1)//_{ad} \flat U(1)
+  \simeq
+  (\flat U(1)) \times (\mathbf{B}\flat U(1))
+  \,.
+$$
+
+=--
+
++-- {: .num_example #GroupCharacterAsClassFunctionByFreeLoopSpace}
+###### Example
+
+Let $c \colon G \to \flat U(1)$ be a group homomorphism, hence a [[group character]]. By example \ref{DeloopingGroupoid} this has a [[delooping]] to a groupoid homomorphism 
+
+$$
+  \mathbf{B}c \;\colon\; \mathbf{B}G \to \mathbf{B}\flat U(1)
+  \,.
+$$
+
+Under the [[free loop space object]] construction this becomes
+
+$$
+  [\Pi(S^1), \mathbf{B}c]
+  \;\colon\;
+  [\Pi(S^1), \mathbf{B}G]
+  \to 
+  [\Pi(S^1), \mathbf{B}\flat U(1)]
+$$
+
+hence 
+
+$$
+  [\Pi(S^1), \mathbf{B}c]
+  \;\colon\;
+  G//_{ad}G
+  \to 
+  \flat U(1) \times \mathbf{B}U(1)
+  \,.
+$$
+
+So by postcomposing with the [[projection]] on the first factor we recover from the general [[homotopy theory]] of groupoids the statement that a group character is a [[class function]] on [[conjugacy classes]]:
+
+$$
+  [\Pi(S^1), \mathbf{B}c]
+  \;\colon\;
+  G//_{ad}G
+  \to 
+  U(1)
+  \,.
+$$
+
+=--
+
+
+
+#### Chain complexes -- Abelian homotopy types
  {#ChainComplexes}
 
 ##### Categories of chain complexes
+ {#CategoriesOfChainComplexes}
 
 From the traditional concept of [[singular cohomology]] the idea of the [[chain complex]] of formal linear combinations of [[simplices]] in a [[topological space]] is familar. Here we discuss such [[nLab:chain complexes]] in their own right in a bit more depth.
 
@@ -4377,10 +5059,719 @@ There is a host of classical diagram-chasing lemmas that relate far-away entries
 > The discussion to go here is kept at **[[nLab:salamander lemma]]**. See there.
 
 
+
+
+#### Kan complexes -- General homotopy types
+ {#KanComplexes}
+
+With [[groupoids]] and [[chain complexes]] we have seen two kinds of objects which support concepts of [[homotopy theory]], such as a concept of [[homotopy equivalence]] between them ([[equivalence of groupoids]] on the one hand, and [[quasi-isomorphism]]) on the other. In some sense these two cases are opposite extremes in the more general context of [[homotopy theory]]: 
+
+* [[chain complexes]] have homotopical structure (e.g. [[chain homology]]) in arbitrary high degree, i.e. they may be [[homptopy n-types]] for arbitrary $n$, but they are fully _abelian_ in that there is never any [[nonabelian group]] structure in a chain complex, not is there any non-trivial [[action]] of the homology groups of a chain complex on each other;
+
+* [[groupoids]] have more general non-abelian structure, for every ([[nonabelian group|nonabelian]]) [[group]] there is a groupoid which has this as its [[fundamental group]], but this fundamental group (in degree 1) is already the highest homotopical structure they carry, groupoids are necessarily [[homotopy 1-types]].
+
+On the other hand, both groupoids and chain complexes naturally have incarnations in the joint context of _[[simplicial sets]]_. We now discuss how their common joint generalization is given by those simplicial sets whose simplices have a sensible notion of composition and inverses, the _[[Kan complexes]]_.
+
+
+$$
+  \array{
+    Groupoids && && chain\;complexes
+    \\
+    & {}_{\mathllap{Grothendieck \atop nerve}}\searrow && \swarrow_{\mathrlap{Dold-Kan\atop correspondence}}
+    \\
+    && Kan\;complexes &\hookrightarrow& simplicial\;sets
+  }
+$$
+
+Kan complexes serve as a standard powerful model on wich the complete formulation of [[homotopy theory]] (without geometry) may be formulated. 
+
+##### Intuitive idea -- Composition of higher order (gauge-)symmetries
+
+An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
+
+$$
+  K : \Delta^{op} \to Set
+$$
+
+as specifying
+
+* a set $[0] \mapsto K_0$ of [[object]]s;
+
+* a set $[1] \mapsto K_1$ of [[morphism]];
+
+* a set $[2] \mapsto K_2$ of [[2-morphism]];
+
+* a set $[3] \mapsto K_3$ of [[3-morphism]];
+
+and generally
+
+* a set $[k] \mapsto K_k$ of [[k-morphism]]s
+
+as well as specifying
+
+* functions $([n] \hookrightarrow [n+1]) \mapsto (K_{n+1} \to K_n)$
+  that send $n+1$-morphisms to their boundary $n$-morphisms;
+
+* functions $([n+1] \to [n]) \mapsto (K_{n} \to K_{n+1})$
+  that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
+  on them.
+
+The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions satisfy conditions that make consistent our interpretation of them as sets of $k$-morphisms and source and target maps between these. 
+These are called the [[simplicial identities]].
+
+But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
+
+For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
+
+$$
+  \Lambda^1[2] = \left\{
+    \array{
+       && 1
+       \\
+       & \nearrow && \searrow
+       \\
+       0 &&&& 2
+    }
+  \right\}
+$$
+
+and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphisms in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and not to be [[evil]]), we want to identify this composite only up to a [[2-morphism]] equivalence
+
+$$
+    \array{
+       && x_1
+       \\
+       & {}^{\mathllap{f}}\nearrow &\Downarrow^{\mathrlap{\simeq}}& 
+       \searrow^{\mathrlap{g}}
+       \\
+       x_0 &&\stackrel{h}{\to}&& x_2
+    }
+  \,.
+$$
+
+From the picture it is clear that this is equivalent to demanding that for $\Lambda^1[2] \hookrightarrow \Delta[2]$ the obvious inclusion of the two abstract composable 1-morphisms into the 2-simplex we have a diagram of morphisms of simplicial sets
+
+$$
+  \array{
+    \Lambda^1[2] &\stackrel{(f,g)}{\to}& K
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists h}}
+    \\
+    \Delta[2]
+  }
+  \,.
+$$
+
+A simplicial set where for all such $(f,g)$ a corresponding such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
+
+For the purpose of describing [[groupoid]]al composition, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
+
+$$
+  \Lambda^2[2] = \left\{
+    \array{
+       && 1
+       \\
+       & && \searrow
+       \\
+       0 &&\to&& 2
+    }
+  \right\}
+$$
+
+the simplicial set consisting of two 1-morphisms that touch at their end, hence for 
+
+$$
+  (g,h) : \Lambda^2[2] \to K
+$$
+
+two such 1-morphisms in $K$, then if $g$ had an inverse $g^{-1}$ we could use the above composition operation to compose that with $h$ and thereby find a morphism $f$ connecting the sources of $h$ and $g$. This being the case is evidently equivalent to the existence of diagrams of morphisms of simplicial sets of the form
+
+$$
+  \array{
+    \Lambda^2[2] &\stackrel{(g,h)}{\to}& K
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists f}}
+    \\
+    \Delta[2]
+  }
+  \,.
+$$
+
+Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$. 
+
+In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphism]]s, which means that we can find the relevant [[tetrahedra]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
+
+let $\Lambda^i[n] \hookrightarrow \Delta[n]$ be the simplicial set -- called the $i$th $n$-[[horn]] -- that consists of all cells of the $n$-[[simplex]] $\Delta[n]$ except the interior $n$-morphism and the $i$th $(n-1)$-morphism.
+
+Then a simplicial set is called a [[Kan complex]], if for all images $f : \Lambda^i[n] \to K$ of such horns in $K$, the missing two cells can be found in $K$- in that we can always find a _horn filler_ $\sigma$ in the diagram
+
+$$
+  \array{
+     \Lambda^i[n] &\stackrel{f}{\to}& K
+     \\
+     \downarrow & \nearrow_{\mathrlap{\sigma}}
+     \\
+     \Delta[n]
+  }
+  \,.
+$$
+
+The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the [[simplicial set]] with $N(C)_k$ being the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoids]].
+
+##### Definition 
+
++-- {: .num_defn #KanComplexes}
+###### Definition
+
+A _[[Kan complex]]_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, 
+
+* which says that all [[horns]] of the simplicial set have _fillers_/extend to [[simplices]];
+
+* which means equivalently that the unique homomorphism $S \to pt$ from $S$ to the [[point]] (the [[terminal object|terminal]] [[simplicial set]]) is a [[Kan fibration]];
+
+* which means equivalently that for all [[diagrams]] of the form
+
+  $$
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta[n] &\to& pt
+  }
+  \;\;\;
+  \leftrightarrow
+  \;\;\;
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow && 
+    \\
+    \Delta[n] 
+  }
+  $$
+
+  there exists a diagonal morphism
+
+  $$
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow &\nearrow& \downarrow
+    \\
+    \Delta[n] &\to& pt
+  }
+  \;\;\;
+  \leftrightarrow
+  \;\;\;
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow &\nearrow& 
+    \\
+    \Delta[n] 
+  }
+  $$
+
+  completing this to a [[commuting diagram]];
+
+* which in turn means equivalently that the map from $n$-simplices to $(n,i)$-horns is an [[epimorphism]]
+$$
+  [\Delta[n], S]\, \twoheadrightarrow \,[\Lambda^i[n],S]
+  \,.
+$$
+
+=--
+
+##### Groupoids as Kan complexes -- Grothendieck simplicial senver
+ {#GroupoidsAsKanComplexes}
+
+
+
++-- {: .num_defn #NerveOfGroupoid}
+###### Definition
+
+For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, we write
+
+$$
+  \mathcal{G}_n \coloneqq \mathcal{G}_1^{\times_{\mathcal{G}_0}^n}
+$$ 
+
+for the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$; schematically:
+
+$$
+  \mathcal{G}_n = 
+  \left\{
+    x_0 
+      \stackrel{f_1}{\to} 
+    x_1
+      \stackrel{f_2}{\to}
+    x_2
+      \stackrel{f_2}{\to}
+    \cdots
+      \stackrel{f_n}{\to}
+    x_n
+  \right\}
+  \,.
+$$
+
+For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$ [[functions]] denoted
+
+$$
+  d_k \colon \mathcal{G}_n \to \mathcal{G}_{n-1}
+  \,.
+$$
+
+Moreover, the assignments $s_i$ that insert an [[identity]] morphism in position $i$ constitute [[functions]] denoted
+
+$$
+  s_i \colon \mathcal{G}_{n-1} \to \mathcal{G}_n
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]], hence make the [[nerve]] $\mathcal{G}_\bullet$ into a [[simplicial set]]. Moreover, this simplicial set is a Kan complex, where each [[horn]] has a _unique_ filler (extension to a [[simplex]]).
+
+=--
+
+(A 2-[[simplicial coskeleton|coskeletal]] Kan complex.)
+
+
++-- {: .num_prop }
+###### Proposition
+
+The [[nerve]] operation constitutes a [[full and faithful functor]]
+
+$$
+  N \colon Grpd \to KanCplx \hookrightarrow sSet
+  \,.
+$$
+
+
+=--
+
+##### Chain complexes as Kan complexes -- Dold-Kan-Moore correspondence
+ {#DoldKanCorrespondence}
+
+In the familiar construction of [[singular homology]] recalled spring [above](#SimplicialHomology) one constructs the _alternating face map chain complex_ of the [[simplicial abelian group]] of singular simplices, def. \ref{ComplexOfChainsOnASimplicialSet}. This construction is natural and straightforward, but the result chain complex tends to be very "large" even if its [[chain homology groups]] end up being very "small". But in the context of [[homotopy theory]] one is to consider all objects notup to [[isomorphism]], but of to [[weak equivalence]], which for [[chain complexes]] means up to _[[quasi-isomorphisms]]_. Hence one should look for the natural construction of "smaller" chain complexes that are still quasi-isomorphic to these alternating face map complexes. This is accomplished by the [[normalized chain complex]] construction:
+
++-- {: .num_defn #AlternatingFaceMapComplex}
+###### Definition
+
+For $A$ a [[simplicial abelian group]] its **[[alternating face map complex]]** $(C A)_\bullet$ of $A$ is the [[chain complex]] which 
+
+* in degree $n$ is given by the group $A_n$ itself
+
+  $$
+    (C A)_n := A_n
+  $$
+
+
+* with [[differential]] given by the alternating sum of face maps (using the abelian group structure on $A$)
+
+  $$
+    \partial_n \coloneqq \sum_{i = 0}^n (-1)^i d_i  \;\colon\; (C A)_n \to (C A)_{n-1}
+    \,.
+  $$
+
+=--
+
+
++-- {: .num_defn #NormalizedChainComplexOnGeneralGroup}
+###### Definition
+
+Given a [[simplicial abelian group]] $A$, its _[[normalized chain complex]]_ or _Moore complex_ is the $\mathbb{N}$-graded [[chain complex]] $((N A)_\bullet,\partial )$ which
+
+* is in degree $n$ the joint [[kernel]] 
+
+  $$
+    (N A)_n=\bigcap_{i=1}^{n}ker\,d_i^n 
+  $$
+
+  of all face maps except the 0-face;
+
+* with differential given by the remaining 0-face map
+
+  $$
+   \partial_n := d_0^n|_{(N A)_n} : (N A)_n \rightarrow (N A)_{n-1}
+   \,.
+  $$ 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We may think of the elements of the complex $N A$, def. \ref{NormalizedChainComplexOnGeneralGroup}, in degree $k$
+as being $k$-dimensional [[disks]] in $A$ all whose [[boundary]] is captured by a single face:
+
+* an element $g \in N G_1$ in degree 1 is a 1-disk
+
+  $$
+    1 \stackrel{g}{\to} \partial g
+    \,,
+  $$
+
+* an element $h \in N G_2$ is a 2-disk
+
+  $$
+    \array{
+       && 1 
+       \\
+       & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h}
+       \\
+       1
+       &&\stackrel{1}{\to}&&
+       1
+    }
+    \,,
+  $$
+
+* a degree 2 element in the kernel of the boundary map is such a 2-disk that is closed to a 2-[[sphere]]
+
+  $$
+    \array{
+       && 1 
+       \\
+       & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h = 1}
+       \\
+       1
+       &&\stackrel{1}{\to}&&
+       1
+    }
+    \,,
+  $$
+
+etc.
+
+=--
+
++-- {: .num_defn #ComplexModuloDegeneracies}
+###### Definition
+
+For $A$ a [[simplicial abelian group]] its **complex modulo degeneracies**, $(C A)/D(A)$ is the [[chain complex]]
+
+* which in degree $n$ is given by the [[quotient]] group obtained by dividing out the group
+
+  $$
+    D A_n := \langle \cup_i \sigma_i(A_{n-1}) \rangle
+  $$ 
+
+  generated by the degenerate elements in $A_n$
+
+  $$
+    ((C A)/D(A))_n := A_n / D(A_n)
+  $$
+
+* with differential being the induced action of  the alternating sum of faces on the quotient.
+
+=--
+
+
+
++-- {: .num_lemma #LeftCosetsDisjoint}
+###### Lemma
+
+Def. \ref{ComplexModuloDegeneracies} is indeed well defined in that
+the alternating face boundary map satisfies 
+$\partial \circ \partial = 0$ in $C_\bullet(A)$
+and restricts to a boundary map on the degenerate subcomplex
+$\partial : A_n|_{s(A_{n-1})} \to A_{n-1}|_{s(A_{n-2})}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement one checks
+
+$$
+  \begin{aligned}
+    \partial_n \partial_{n+1}
+    & =
+    \sum_{i, j} 
+      (-1)^{i+j}
+      d_i \circ d_{j}
+    \\
+    &=
+    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
+    + 
+    \sum_{i \lt j} (-1)^{i+j}
+      d_i \circ d_j 
+    \\
+    &=
+    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
+    + 
+    \sum_{i \lt j} (-1)^{i+j}
+      d_{j-1} \circ d_i 
+    \\
+    &=
+    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
+    -
+    \sum_{i \leq k} (-1)^{i+k}
+      d_{k} \circ d_i 
+    \\
+    &=
+    0
+  \end{aligned}
+$$
+
+using the [[simplicial identities|simplicial identity]] $d_i \circ d_j = d_{j-1} \circ d_i$ for $i \lt j$.
+
+Similarly, using the mixed [[simplicial identities]] we find that for $s_j(a) \in A_n$ a degenerate element, its boundary is
+
+$$
+  \begin{aligned}
+     \sum_i (-1)^i d_i s_j(a)
+     &=
+     \sum_{i \lt j} (-1)^i  s_{j-1} d_i(a)
+     +
+     \sum_{i = j, j+1} (-1)^i  a
+     +
+     \sum_{i \gt j+1} (-1)^i s_j d_{i-1}(a)
+     \\
+     &=
+     \sum_{i \lt j} (-1)^i  s_{j-1} d_i(a)
+     +
+     \sum_{i \gt j+1} (-1)^i s_j d_{i-1}(a)
+  \end{aligned}
+$$
+
+which is again a combination of elements in the image of the degeneracy maps.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For $A$ a [[simplicial abelian group]], there is a splitting
+
+$$
+  C_\bullet(A) \simeq N_\bullet(A) \oplus D_\bullet(A)
+$$
+
+of the alternating face map complex, def. \ref{AlternatingFaceMapComplex} as a [[direct sum]],
+where the first direct summand is [[natural isomorphism|naturally isomorphic]] to the [[normalized chain complex]] of def. \ref{NormalizedChainComplexOnGeneralGroup} and the second is the degenerate cells from def. \ref{ComplexModuloDegeneracies}.
+
+Explicitly, the evident composite of natural morphisms
+
+$$
+  N A \stackrel{i}{\hookrightarrow} A 
+  \stackrel{p}{\to}
+  (C A)/(D A)
+$$
+
+(inclusion followed by projection to the quotient) is a [[natural isomorphism]] of chain complexes.
+
+=--
+
+(e.g. [Goerss-Jardine, theorem 2.1](Moore+complex#GoerssJardine)).
+
++-- {: .num_theorem #EMTheorem}
+###### Theorem (Eilenberg-MacLane)
+
+The inclusion 
+
+$$
+  N A \hookrightarrow C A
+$$
+
+of the [[normalized chain complexes]] into the [[alternating face map complex]]  is a [[natural transformation|natural]] [[quasi-isomorphism]] and in fact a natural chain [[homotopy equivalence]], i.e. the complex $D_\bullet(X)$ is [[null homotopy|null-homotopic]].
+
+=--
+
+The statement of the _[[Dold-Kan correspondence]]_ now is the following.
+
++-- {: .num_theorem }
+###### Theorem 
+
+For $A$ an [[abelian category]] 
+there is an [[equivalence of categories]]
+
+$$
+  N \;\colon\; A^{\Delta^{op}}
+      \stackrel{\leftarrow}{\to} Ch_\bullet^+(A) \;\colon\; \Gamma
+$$
+
+between 
+
+* the [[category of simplicial objects]] in $A$;
+
+* the [[category of chain complexes|category of connective chain complexes]] in $A$;
+
+where
+
+* $N$ is the [[normalized chains complex]]/normalized [[Moore complex]] functor.
+
+
+=--
+
+([Dold 58](Dold-Kan+correspondence#Dold58), [Kan 58](Dold-Kan+correspondence#Kan58), [Dold-Puppe 61](Dold-Kan+correspondence#DoldPuppe61)).
+
++-- {: .num_theorem }
+###### Theorem (Kan)
+
+For the case that $A$ is the category [[Ab]] of [[abelian group]]s, the functors $N$ and $\Gamma$ are [[nerve and realization]] with respect to the cosimplicial chain complex
+
+$$
+  \mathbb{Z}[-]: \Delta \to Ch_+(Ab)
+$$
+
+that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the free simplicial abelian group $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
+
+$$
+    \Gamma(V) : [k]  \mapsto 
+    Hom_{Ch_\bullet^+(Ab)}(N(\mathbb{Z}(\Delta[k])), V)
+    \,.
+$$
+
+=--
+
+This is due to ([Kan 58](Dold-Kan+correspondence#Kan58)).
+
+More explicitly we have the following
+
++-- {: .num_prop #ExplicitUnitAndCounit}
+###### Proposition
+
+* For $V \in Ch_\bullet^+$ the simplicial abelian group $\Gamma(V)$ is in degree $n$ given by
+
+  $$
+    \Gamma(V)_n = \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
+  $$
+
+  and for $\theta : [m] \to [n]$ a morphism in $\Delta$ the corresponding map
+  $\Gamma(V)_n \to \Gamma(V)_m$ 
+
+  $$
+    \theta^* : \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
+     \to 
+     \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
+  $$
+  
+  is given on the summand indexed by some $\sigma : [n] \to [k]$ by the composite
+  
+  $$
+    V_k  \stackrel{d^*}{\to} V_s \hookrightarrow \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
+  $$
+
+  where
+
+  $$
+    [m] \stackrel{t}{\to} [s] \stackrel{d}{\to} [k]
+  $$
+
+  is the [[weak factorization system|epi-mono factorization]] of the composite $[m] \stackrel{\theta}{\to} [n] \stackrel{\sigma}{\to} [k]$.
+
+* The [[natural isomorphism]] $\Gamma N \to Id$ is given on $A \in sAb^{\Delta^{op}}$ by the map
+
+  $$
+    \bigoplus_{[n] \underset{surj}{\to} [k]}
+     (N A)_k
+    \to
+    A_n
+  $$
+
+  which on the [[direct sum]]mand indexed by $\sigma : [n] \to [k]$ is the composite 
+
+  $$
+    N A_k \hookrightarrow A_k \stackrel{\sigma^*}{\to} A_n
+    \,.
+  $$
+
+* The [[natural isomorphism]] $Id \to N \Gamma$ is on  a chain complex $V$ given by the composite of the projection
+
+  $$
+    V \to C(\Gamma(V)) \to C(\Gamma(C))/D(\Gamma(V))
+  $$
+
+  with the inverse
+
+  $$
+    C(\Gamma(V))/D(\Gamma(V)) \to N \Gamma(V)  
+  $$
+
+  of 
+
+  $$
+    N \Gamma(V) \hookrightarrow C(\Gamma(V)) \to C(\Gamma(V))/D(\Gamma(V))
+  $$
+
+  (which is indeed an [[isomorphism]], as discussed at [[Moore complex]]).
+
+=--
+
+This is spelled out in  ([Goerss-Jardine, prop. 2.2 in section III.2](#Goerssjardine)).
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+With the explicit choice for $\Gamma N \stackrel{\simeq}{\to} Id$ as [above](#ExplicitUnitAndCounit) we have that $\Gamma$ and $N$ form an [[adjoint equivalence]] $(\Gamma \dashv N)$ 
+
+=--
+
+This is for instance ([Weibel, exercise 8.4.2](Dold-Kan+correspondence#Weilbel)).
+
+
++-- {: .num_remark }
+###### Remark
+
+It follows that with the inverse structure maps, we also have an [[adjunction]] the other way round: $(N \dashv \Gamma)$.
+
+=--
+
+Hence in concclusion the [[Dold-Kan correspondence]] allows us to regard [[chain complexes]] (in non-negative degree) as, in particular, special [[simplicial sets]]. In fact as simplicial sets they are [[Kan complexes]] and hence [[infinity-groupoids]]:
+
+
++-- {: .num_theorem #MooreTheorem}
+###### Theorem (J. C. Moore)
+
+The [[simplicial set]] underlying any [[simplicial group]]
+(by forgetting the group structure) is a [[Kan complex]].
+
+=--
+
+This is due to ([Moore, 1954](simplicial+group#Moore54))
+
+In fact, not only are the [[horn]] fillers guaranteed to exist, but there is an algorithm that provides explicit fillers.  This implies that constructions on a simplicial group that use fillers of horns can often be adjusted to be functorial by using the algorithmically defined fillers.  An argument that just uses 'existence' of fillers can be refined to give something more 'coherent'.
+
+
++-- {: .proof}
+###### Proof
+
+Let $G$ be a simplicial group. 
+
+Here is the explicit algorithm that computes the horn fillers:
+
+Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$, so the $y_i$s are $(n-1)$ simplices that fit together as if they were all but one, the $k^{th}$ one,  of the faces of an $n$-simplex. There are three cases: 
+
+1. if $k = 0$: 
+
+   * Let  $w_n = s_{n-1}y_n$ and then $w_i = w_{i+1}(s_{i-1}d_i w_{i+1})^{-1}s_{i-1}y_i$ for  $i = n, \ldots, 1$, then  $w_1 $ satisfies $d_i w_1 = y_i$, $i\neq  0$;
+
+1. if $0\lt k \lt n$: 
+
+   * Let $w_0 = s_0 y_0$ and $w_i = w_{i-1}(s_i d_i w_{i-1})^{-1}s_i y_i$ for $i = 0, \ldots, k-1$, then take $w_n = w_{k-1}(s_{n-1}d_nw_{k-1})^{-1}s_{n-1}y_n$, and finally a downwards induction given by $w_i = w_{i+1}(s_{i-1}d_{i}w_{i+1})^{-1}s_{i-1}y_i$, for $i = n, \ldots, k+1$, then $w_{k+1}$ gives $d_{i}w_{k+1} = y_i$ for $i \neq k$;
+
+
+3. if $k=n$: 
+
+   * use $w_0 = s_0 y_0$ and $w_i = w_{i-1}(s_i d_i w_{i-1})^{-1}s_i y_i$ for $i = 0, \ldots, n-1$, then $w_{n-1}$ satisfies $d_i w_{n-1} = y_i$, $i\neq n$.
+
+
+
+=--
+
 #### Abelian homotopy theory
  {#AbelianHomotopyTheory}
 
-We have seen in section [II)](#ChapterOnChainComplexes) that the most interesting properties of the category of chain complexes is all secretly controled by the phenomenon of [[nLab:chain homotopy]] and [[nLab:quasi-isomorphism]]. Strictly speaking these two phenomena point beyond plain [[nLab:category theory]] to the richer context of general abstract _[[nLab:homotopy theory]]_. Here we discuss properties of the category of chain complexes from this genuine homotopy-theoretic point of view. The result of passing the category of chain complexes to genuine homotopy theory is called the [[nLab:derived category]] (of the underlying [[nLab:abelian category]] $\mathcal{A}$, say of [[nLab:modules]]) and we start in [7)](#ChainHomotopyAndResolution) with a motivation of the phenomenon of this "homotopy derivation" and the discussion of the necessary _[[nLab:resolutions]]_ of chain complexes. This naturally gives rise to the general notion of [[nLab:derived functors]] which we discuss in [8)](#ExamplesOfDerivedFunctors). Examples of these are ubiquituous in [[nLab:homological algebra]], but as in ordinary [[nLab:enriched category theory]] two stand out as being of more fundamental importance, the derived functor "[[nLab:Ext]]" of the [[nLab:hom-functor]] and the derived functor "[[nLab:Tor]]" of the [[nLab:tensor product]] functor. Their properties and uses we discuss in [9)](#ExamplesOfDerivedFunctors).
+We have seen in  _[Chain complexes -- Abelian homotopy types](#ChainComplexes)_ that the most interesting properties of the category of chain complexes is all secretly controled by the phenomenon of [[nLab:chain homotopy]] and [[nLab:quasi-isomorphism]]. Strictly speaking these two phenomena point beyond plain [[nLab:category theory]] to the richer context of general abstract _[[nLab:homotopy theory]]_. Here we discuss properties of the category of chain complexes from this genuine homotopy-theoretic point of view. The result of passing the category of chain complexes to genuine homotopy theory is called the [[nLab:derived category]] (of the underlying [[nLab:abelian category]] $\mathcal{A}$, say of [[nLab:modules]]) and we start in [7)](#ChainHomotopyAndResolution) with a motivation of the phenomenon of this "homotopy derivation" and the discussion of the necessary _[[nLab:resolutions]]_ of chain complexes. This naturally gives rise to the general notion of [[nLab:derived functors]] which we discuss in [8)](#ExamplesOfDerivedFunctors). Examples of these are ubiquituous in [[nLab:homological algebra]], but as in ordinary [[nLab:enriched category theory]] two stand out as being of more fundamental importance, the derived functor "[[nLab:Ext]]" of the [[nLab:hom-functor]] and the derived functor "[[nLab:Tor]]" of the [[nLab:tensor product]] functor. Their properties and uses we discuss in [9)](#ExamplesOfDerivedFunctors).
 
 
 
@@ -8519,519 +9910,207 @@ B)$ is a filtered colimit of direct sums of torsion groups. This is itself a tor
 =--
 
 
-#### The Dold-Kan correspondence
- {#DoldKanCorrespondence}
 
-In the familiar construction of [[singular homology]] recalled spring [above](#SimplicialHomology) one constructs the _alternating face map chain complex_ of the [[simplicial abelian group]] of singular simplices, def. \ref{ComplexOfChainsOnASimplicialSet}. This construction is natural and straightforward, but the result chain complex tends to be very "large" even if its [[chain homology groups]] end up being very "small". But in the context of [[homotopy theory]] one is to consider all objects notup to [[isomorphism]], but of to [[weak equivalence]], which for [[chain complexes]] means up to _[[quasi-isomorphisms]]_. Hence one should look for the natural construction of "smaller" chain complexes that are still quasi-isomorphic to these alternating face map complexes. This is accomplished by the [[normalized chain complex]] construction:
+#### Simplicial homotopy theory
+ {#SimplicialHomotopyTheory}
 
-+-- {: .num_defn #AlternatingFaceMapComplex}
+We discuss some basics of  [[simplicial homotopy theory]].
+
++-- {: .num_defn }
 ###### Definition
 
-For $A$ a [[simplicial abelian group]] its **[[alternating face map complex]]** $(C A)_\bullet$ of $A$ is the [[chain complex]] which 
+Write 
 
-* in degree $n$ is given by the group $A_n$ itself
+$$
+  KanCplx \hookrightarrow sSet
+$$
 
-  $$
-    (C A)_n := A_n
-  $$
-
-
-* with [[differential]] given by the alternating sum of face maps (using the abelian group structure on $A$)
-
-  $$
-    \partial_n \coloneqq \sum_{i = 0}^n (-1)^i d_i  \;\colon\; (C A)_n \to (C A)_{n-1}
-    \,.
-  $$
+for the [[category]] of Kan complexes, which is the [[full subcategory]] of that of [[simplicial sets]] on the Kan complexes.
 
 =--
 
-
-+-- {: .num_defn #NormalizedChainComplexOnGeneralGroup}
-###### Definition
-
-Given a [[simplicial abelian group]] $A$, its _[[normalized chain complex]]_ or _Moore complex_ is the $\mathbb{N}$-graded [[chain complex]] $((N A)_\bullet,\partial )$ which
-
-* is in degree $n$ the joint [[kernel]] 
-
-  $$
-    (N A)_n=\bigcap_{i=1}^{n}ker\,d_i^n 
-  $$
-
-  of all face maps except the 0-face;
-
-* with differential given by the remaining 0-face map
-
-  $$
-   \partial_n := d_0^n|_{(N A)_n} : (N A)_n \rightarrow (N A)_{n-1}
-   \,.
-  $$ 
-
-=--
-
-+-- {: .num_remark}
++-- {: .num_remark }
 ###### Remark
 
-We may think of the elements of the complex $N A$, def. \ref{NormalizedChainComplexOnGeneralGroup}, in degree $k$
-as being $k$-dimensional [[disks]] in $A$ all whose [[boundary]] is captured by a single face:
+This means that for $X_\bullet,Y_\bullet \in KanCplx$ two Kan complexes, an element $f_\bullet \colon X_\bullet \to Y_\bullet$ in the [[hom-set]] $Hom_{KanCplx}(X_\bullet,Y_\bullet)$ is 
 
-* an element $g \in N G_1$ in degree 1 is a 1-disk
+* a sequences of [[functions]] $f_n \colon X_n \to Y_n$ for all $n \in \mathbb{N}$;
 
-  $$
-    1 \stackrel{g}{\to} \partial g
-    \,,
-  $$
+such that
 
-* an element $h \in N G_2$ is a 2-disk
-
-  $$
-    \array{
-       && 1 
-       \\
-       & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h}
-       \\
-       1
-       &&\stackrel{1}{\to}&&
-       1
-    }
-    \,,
-  $$
-
-* a degree 2 element in the kernel of the boundary map is such a 2-disk that is closed to a 2-[[sphere]]
-
-  $$
-    \array{
-       && 1 
-       \\
-       & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h = 1}
-       \\
-       1
-       &&\stackrel{1}{\to}&&
-       1
-    }
-    \,,
-  $$
-
-etc.
+* these respect all the face maps $d_k$ and the degeneracy maps $s_k$.
 
 =--
 
-+-- {: .num_defn #ComplexModuloDegeneracies}
+
++-- {: .num_defn #MappingObjectOfKanComplexes}
 ###### Definition
 
-For $A$ a [[simplicial abelian group]] its **complex modulo degeneracies**, $(C A)/D(A)$ is the [[chain complex]]
-
-* which in degree $n$ is given by the [[quotient]] group obtained by dividing out the group
-
-  $$
-    D A_n := \langle \cup_i \sigma_i(A_{n-1}) \rangle
-  $$ 
-
-  generated by the degenerate elements in $A_n$
-
-  $$
-    ((C A)/D(A))_n := A_n / D(A_n)
-  $$
-
-* with differential being the induced action of  the alternating sum of faces on the quotient.
-
-=--
-
-
-
-+-- {: .num_lemma #LeftCosetsDisjoint}
-###### Lemma
-
-Def. \ref{ComplexModuloDegeneracies} is indeed well defined in that
-the alternating face boundary map satisfies 
-$\partial \circ \partial = 0$ in $C_\bullet(A)$
-and restricts to a boundary map on the degenerate subcomplex
-$\partial : A_n|_{s(A_{n-1})} \to A_{n-1}|_{s(A_{n-2})}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For the first statement one checks
+For $X_\bullet,Y_\bullet \in KanCplx$ two Kan complexes, their [[mapping space]]
 
 $$
-  \begin{aligned}
-    \partial_n \partial_{n+1}
-    & =
-    \sum_{i, j} 
-      (-1)^{i+j}
-      d_i \circ d_{j}
-    \\
-    &=
-    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
-    + 
-    \sum_{i \lt j} (-1)^{i+j}
-      d_i \circ d_j 
-    \\
-    &=
-    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
-    + 
-    \sum_{i \lt j} (-1)^{i+j}
-      d_{j-1} \circ d_i 
-    \\
-    &=
-    \sum_{i  \geq j} (-1)^{i+j} d_i \circ d_j 
-    -
-    \sum_{i \leq k} (-1)^{i+k}
-      d_{k} \circ d_i 
-    \\
-    &=
-    0
-  \end{aligned}
+  Maps(X_\bullet,Y_\bullet)_\bullet \in KanCplx
 $$
 
-using the [[simplicial identities|simplicial identity]] $d_i \circ d_j = d_{j-1} \circ d_i$ for $i \lt j$.
-
-Similarly, using the mixed [[simplicial identities]] we find that for $s_j(a) \in A_n$ a degenerate element, its boundary is
+is the [[simplicial set]] given by 
 
 $$
-  \begin{aligned}
-     \sum_i (-1)^i d_i s_j(a)
-     &=
-     \sum_{i \lt j} (-1)^i  s_{j-1} d_i(a)
-     +
-     \sum_{i = j, j+1} (-1)^i  a
-     +
-     \sum_{i \gt j+1} (-1)^i s_j d_{i-1}(a)
-     \\
-     &=
-     \sum_{i \lt j} (-1)^i  s_{j-1} d_i(a)
-     +
-     \sum_{i \gt j+1} (-1)^i s_j d_{i-1}(a)
-  \end{aligned}
-$$
-
-which is again a combination of elements in the image of the degeneracy maps.
-
-=--
-
-+-- {: .num_prop }
-###### Proposition
-
-For $A$ a [[simplicial abelian group]], there is a splitting
-
-$$
-  C_\bullet(A) \simeq N_\bullet(A) \oplus D_\bullet(A)
-$$
-
-of the alternating face map complex, def. \ref{AlternatingFaceMapComplex} as a [[direct sum]],
-where the first direct summand is [[natural isomorphism|naturally isomorphic]] to the [[normalized chain complex]] of def. \ref{NormalizedChainComplexOnGeneralGroup} and the second is the degenerate cells from def. \ref{ComplexModuloDegeneracies}.
-
-Explicitly, the evident composite of natural morphisms
-
-$$
-  N A \stackrel{i}{\hookrightarrow} A 
-  \stackrel{p}{\to}
-  (C A)/(D A)
-$$
-
-(inclusion followed by projection to the quotient) is a [[natural isomorphism]] of chain complexes.
-
-=--
-
-(e.g. [Goerss-Jardine, theorem 2.1](Moore+complex#GoerssJardine)).
-
-+-- {: .num_theorem #EMTheorem}
-###### Theorem (Eilenberg-MacLane)
-
-The inclusion 
-
-$$
-  N A \hookrightarrow C A
-$$
-
-of the [[normalized chain complexes]] into the [[alternating face map complex]]  is a [[natural transformation|natural]] [[quasi-isomorphism]] and in fact a natural chain [[homotopy equivalence]], i.e. the complex $D_\bullet(X)$ is [[null homotopy|null-homotopic]].
-
-=--
-
-The statement of the _[[Dold-Kan correspondence]]_ now is the following.
-
-+-- {: .num_theorem }
-###### Theorem 
-
-For $A$ an [[abelian category]] 
-there is an [[equivalence of categories]]
-
-$$
-  N \;\colon\; A^{\Delta^{op}}
-      \stackrel{\leftarrow}{\to} Ch_\bullet^+(A) \;\colon\; \Gamma
-$$
-
-between 
-
-* the [[category of simplicial objects]] in $A$;
-
-* the [[category of chain complexes|category of connective chain complexes]] in $A$;
-
-where
-
-* $N$ is the [[normalized chains complex]]/normalized [[Moore complex]] functor.
-
-
-=--
-
-([Dold 58](Dold-Kan+correspondence#Dold58), [Kan 58](Dold-Kan+correspondence#Kan58), [Dold-Puppe 61](Dold-Kan+correspondence#DoldPuppe61)).
-
-+-- {: .num_theorem }
-###### Theorem (Kan)
-
-For the case that $A$ is the category [[Ab]] of [[abelian group]]s, the functors $N$ and $\Gamma$ are [[nerve and realization]] with respect to the cosimplicial chain complex
-
-$$
-  \mathbb{Z}[-]: \Delta \to Ch_+(Ab)
-$$
-
-that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the free simplicial abelian group $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
-
-$$
-    \Gamma(V) : [k]  \mapsto 
-    Hom_{Ch_\bullet^+(Ab)}(N(\mathbb{Z}(\Delta[k])), V)
-    \,.
+  Maps(X_\bullet,Y_\bullet) \colon [k] \mapsto Hom_{sSet}(X_\bullet \times \Delta^n_\bullet, Y_\bullet)
+  \,.
 $$
 
 =--
-
-This is due to ([Kan 58](Dold-Kan+correspondence#Kan58)).
-
-More explicitly we have the following
-
-+-- {: .num_prop #ExplicitUnitAndCounit}
-###### Proposition
-
-* For $V \in Ch_\bullet^+$ the simplicial abelian group $\Gamma(V)$ is in degree $n$ given by
-
-  $$
-    \Gamma(V)_n = \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
-  $$
-
-  and for $\theta : [m] \to [n]$ a morphism in $\Delta$ the corresponding map
-  $\Gamma(V)_n \to \Gamma(V)_m$ 
-
-  $$
-    \theta^* : \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
-     \to 
-     \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
-  $$
-  
-  is given on the summand indexed by some $\sigma : [n] \to [k]$ by the composite
-  
-  $$
-    V_k  \stackrel{d^*}{\to} V_s \hookrightarrow \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
-  $$
-
-  where
-
-  $$
-    [m] \stackrel{t}{\to} [s] \stackrel{d}{\to} [k]
-  $$
-
-  is the [[weak factorization system|epi-mono factorization]] of the composite $[m] \stackrel{\theta}{\to} [n] \stackrel{\sigma}{\to} [k]$.
-
-* The [[natural isomorphism]] $\Gamma N \to Id$ is given on $A \in sAb^{\Delta^{op}}$ by the map
-
-  $$
-    \bigoplus_{[n] \underset{surj}{\to} [k]}
-     (N A)_k
-    \to
-    A_n
-  $$
-
-  which on the [[direct sum]]mand indexed by $\sigma : [n] \to [k]$ is the composite 
-
-  $$
-    N A_k \hookrightarrow A_k \stackrel{\sigma^*}{\to} A_n
-    \,.
-  $$
-
-* The [[natural isomorphism]] $Id \to N \Gamma$ is on  a chain complex $V$ given by the composite of the projection
-
-  $$
-    V \to C(\Gamma(V)) \to C(\Gamma(C))/D(\Gamma(V))
-  $$
-
-  with the inverse
-
-  $$
-    C(\Gamma(V))/D(\Gamma(V)) \to N \Gamma(V)  
-  $$
-
-  of 
-
-  $$
-    N \Gamma(V) \hookrightarrow C(\Gamma(V)) \to C(\Gamma(V))/D(\Gamma(V))
-  $$
-
-  (which is indeed an [[isomorphism]], as discussed at [[Moore complex]]).
-
-=--
-
-This is spelled out in  ([Goerss-Jardine, prop. 2.2 in section III.2](#Goerssjardine)).
-
 
 
 +-- {: .num_prop }
 ###### Proposition
 
-With the explicit choice for $\Gamma N \stackrel{\simeq}{\to} Id$ as [above](#ExplicitUnitAndCounit) we have that $\Gamma$ and $N$ form an [[adjoint equivalence]] $(\Gamma \dashv N)$ 
+The construction in def. \ref{MappingObjectOfKanComplexes} defines an [[internal hom]] of Kan complexes. 
 
 =--
 
-This is for instance ([Weibel, exercise 8.4.2](Dold-Kan+correspondence#Weilbel)).
++-- {: .num_remark }
+###### Remark
+
+As such it is also common to write $Y^X$ for $Maps(X,Y)$, as well as $[X,Y]$. Notice that the latter notation is sometimes used instead for just the set of [[connected components]] of $Maps(X,Y)$.
+
+=--
+
+It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself. 
+
+We now have the following immediate generalizations of the corresponding constructions seen above for 1-groupoids.
+
++-- {: .num_example #PathSpaceObjectOfKanComplexes}
+###### Example
+
+Write 
+
+$$
+  I_\bullet \coloneqq \{0 \stackrel{\simeq}{\to} 1\}
+$$
+
+for the Kan complex which is [[1-groupoid]] with two objects and one nontrivial morphism and its inverse between them. This comes with two inclusions
+
+$$
+  i_0, i_1 \colon \ast \to I
+$$
+
+of its endpoints.
+
+Then for $X_\bullet \in KanCplx$ any other Kan complex, the [[mapping space]] $[I,X]_\bullet$ from def. \ref{MappingObjectOfKanComplexes} is the [[path space object]] of $X_\bullet$. 
+
+$$
+  X_\bullet \stackrel{[i_0,X_\bullet]}{\leftarrow} [I_\bullet,X_\bullet]_\bullet \stackrel{[i_1,X]}{\to} X_\bullet
+  \,.
+$$
+
+=--
+
+A 1-cell in the mapping Kan complex $[X_\bullet, Y_\bullet]_\bullet$ is a [[homotopy]] between two morphisms of Kan complexes:
+
++-- {: .num_defn }
+###### Definition
+
+For $f_\bullet, g_\bullet \colon X_\bullet \to Y_\bullet$ two morphisms between two Kan complexes, hence $f_\bullet,g_\bullet \in Hom_{KanCplx}(X,Y)$, a (right-)[[homotopy]] $\eta \colon f \Rightarrow g$ is a morphism $\eta_\bullet \colon X_\bullet \to [I_\bullet,X_\bullet]_\bullet$ into the [[path space object]] of def. \ref{PathSpaceObjectOfKanComplexes} such that we have a [[commuting diagram]]
+
+$$
+  \array{
+    && Y_\bullet
+    \\
+    & {}^{\mathllap{f_\bullet}}\nearrow & \uparrow^{\mathrlap{[i_0, X_\bullet]_\bullet}}
+    \\
+    X_\bullet &\stackrel{\eta_\bullet}{\to}& [I_\bullet, Y_\bullet]   
+    \\
+    & {}_{\mathllap{g_\bullet}}\searrow & \downarrow_{\mathrlap{[i_1, X_\bullet]_\bullet}}
+    \\
+    &&  Y \bullet
+  }
+  \,.
+$$
+
+=--
 
 
 +-- {: .num_remark }
 ###### Remark
 
-It follows that with the inverse structure maps, we also have an [[adjunction]] the other way round: $(N \dashv \Gamma)$.
+Hence a [[homotopy]] between two maps $X_\bullet \to Y_\bullet$ of Kan complexes is precisely a 1-cell in the [[mapping space]] $[X_\bullet, Y_\bullet]_\bullet$ of def. \ref{MappingObjectOfKanComplexes}.
 
 =--
 
-Hence in concclusion the [[Dold-Kan correspondence]] allows us to regard [[chain complexes]] (in non-negative degree) as, in particular, special [[simplicial sets]]. In fact as simplicial sets they are [[Kan complexes]] and hence [[infinity-groupoids]], to which we now turn.
++-- {: .num_defn #HomotopyEquivalenceOfKanComplexes}
+###### Definition
 
-#### Kan complexes 
- {#KanComplexes}
+We say that a map $X_\bullet \to Y_\bullet$ of [[Kan complexes]] is a _[[homotopy equivalence]]_ if it has a left and right [[inverse]] up to [[homotopy]], hence an ordinary inverse in $\pi_0[X_\bullet, Y_\bullet]$.
 
-An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
+=--
 
-$$
-  K : \Delta^{op} \to Set
-$$
++-- {: .num_example }
+###### Example
 
-as specifying
+For Kan complexes which are [[1-groupoids]] hence which are [[nerves]] of [[groupoids]], homotopy equivalence of Kan complexes is equivalently homotopy equivalence of these groupoids according 
+to def. \ref{HomotopyEquivalenceOfGroupoids}.
 
-* a set $[0] \mapsto K_0$ of [[object]]s;
+=--
 
-* a set $[1] \mapsto K_1$ of [[morphism]];
 
-* a set $[2] \mapsto K_2$ of [[2-morphism]];
++-- {: .num_defn #KanComplexesAsHomotopyTypes}
+###### Definition
 
-* a set $[3] \mapsto K_3$ of [[3-morphism]];
 
-and generally
+We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as fibrant [[sSet-enriched category]]. 
 
-* a set $[k] \mapsto K_k$ of [[k-morphism]]s
+We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$. As such, $X$ (or its [[equivalence class]]) is alse called a _[[homotopy type]]_.
 
-as well as specifying
+The category [[∞Grpd]] itself "is" the canonical [[homotopy theory]]. (For more on this see also at _[[homotopy hypothesis]]_.)
 
-* functions $([n] \hookrightarrow [n+1]) \mapsto (K_{n+1} \to K_n)$
-  that send $n+1$-morphisms to their boundary $n$-morphisms;
+=--
 
-* functions $([n+1] \to [n]) \mapsto (K_{n} \to K_{n+1})$
-  that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
-  on them.
+The following is the immediate generalization of def. \ref{HomotopyFiberProductOfGroupoids}.
 
-The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions satisfy conditions that make consistent our interpretation of them as sets of $k$-morphisms and source and target maps between these. 
-These are called the [[simplicial identities]].
++-- {: .num_defn #HomotopyFiberProductOfKanComplexes}
+###### Definition
 
-But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
-
-For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
-
-$$
-  \Lambda^1[2] = \left\{
-    \array{
-       && 1
-       \\
-       & \nearrow && \searrow
-       \\
-       0 &&&& 2
-    }
-  \right\}
-$$
-
-and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphisms in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and not to be [[evil]]), we want to identify this composite only up to a [[2-morphism]] equivalence
-
-$$
-    \array{
-       && x_1
-       \\
-       & {}^{\mathllap{f}}\nearrow &\Downarrow^{\mathrlap{\simeq}}& 
-       \searrow^{\mathrlap{g}}
-       \\
-       x_0 &&\stackrel{h}{\to}&& x_2
-    }
-  \,.
-$$
-
-From the picture it is clear that this is equivalent to demanding that for $\Lambda^1[2] \hookrightarrow \Delta[2]$ the obvious inclusion of the two abstract composable 1-morphisms into the 2-simplex we have a diagram of morphisms of simplicial sets
+Given two morphisms of [[Kan complexes]]
+$X \stackrel{f}{\leftarrow} B \stackrel{g}{\to} Y$
+their _[[homotopy fiber product]]_
 
 $$
   \array{
-    \Lambda^1[2] &\stackrel{(f,g)}{\to}& K
-    \\
-    \downarrow & \nearrow_{\mathrlap{\exists h}}
-    \\
-    \Delta[2]
+   X \underset{B}{\times} Y
+   &\stackrel{}{\to}& X
+   \\
+   \downarrow &\swArrow& \downarrow^{\mathrlap{f}}
+   \\
+   Y &\underset{g}{\to}& B
   }
-  \,.
 $$
 
-A simplicial set where for all such $(f,g)$ a corresponding such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
-
-For the purpose of describing [[groupoid]]al composition, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
-
-$$
-  \Lambda^2[2] = \left\{
-    \array{
-       && 1
-       \\
-       & && \searrow
-       \\
-       0 &&\to&& 2
-    }
-  \right\}
-$$
-
-the simplicial set consisting of two 1-morphisms that touch at their end, hence for 
-
-$$
-  (g,h) : \Lambda^2[2] \to K
-$$
-
-two such 1-morphisms in $K$, then if $g$ had an inverse $g^{-1}$ we could use the above composition operation to compose that with $h$ and thereby find a morphism $f$ connecting the sources of $h$ and $g$. This being the case is evidently equivalent to the existence of diagrams of morphisms of simplicial sets of the form
+is the [[limit]] [[cone]]
 
 $$
   \array{
-    \Lambda^2[2] &\stackrel{(g,h)}{\to}& K
+    X_\bullet \underset{B_\bullet}{\times} B^I_\bullet
+    \underset{B_\bullet}{\times} Y_\bullet
+    &\to& &\to& X_\bullet
     \\
-    \downarrow & \nearrow_{\mathrlap{\exists f}}
+    \downarrow && && \downarrow^{\mathrlap{f_\bullet}}
     \\
-    \Delta[2]
+    && B^I_\bullet &\underset{(ev_0)_\bullet}{\to}& B_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    Y_\bullet &\underset{g_\bullet}{\to}& B_\bullet
   }
-  \,.
+  \,,
 $$
 
-Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$. 
+hence the ordinary iterated [[fiber product]] over the [[path space]] Kan complex, as indicated.
 
-In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphism]]s, which means that we can find the relevant [[tetrahedra]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
+=--
 
-let $\Lambda^i[n] \hookrightarrow \Delta[n]$ be the simplicial set -- called the $i$th $n$-[[horn]] -- that consists of all cells of the $n$-[[simplex]] $\Delta[n]$ except the interior $n$-morphism and the $i$th $(n-1)$-morphism.
 
-Then a simplicial set is called a [[Kan complex]], if for all images $f : \Lambda^i[n] \to K$ of such horns in $K$, the missing two cells can be found in $K$- in that we can always find a _horn filler_ $\sigma$ in the diagram
-
-$$
-  \array{
-     \Lambda^i[n] &\stackrel{f}{\to}& K
-     \\
-     \downarrow & \nearrow_{\mathrlap{\sigma}}
-     \\
-     \Delta[n]
-  }
-  \,.
-$$
-
-The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the [[simplicial set]] with $N(C)_k$ being the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
-
-#### Simplicial homotopy theory
- {#SimplicialHomotopyTheory}
-
-[[simplicial homotopy theory]]
-
+ 
 ### **Semantic layer**
 
 #### Model categories
