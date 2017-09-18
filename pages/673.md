@@ -77,9 +77,9 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 ## Selected Talks 
 
-* _Smooth mapping stacks of differentiable stacks and orbifolds_, [Functional analysis seminar](http://math.colorado.edu/seminars/?view=poid), University of Colorado, Boulder. 1 December 2016.
+* _Smooth mapping stacks of differentiable stacks and orbifolds_, [Functional analysis seminar](https://math.colorado.edu/seminars/?date=2016-12-01), University of Colorado, Boulder. 1 December 2016.
 
-* _Low-dimensional higher geometry by examples_, [Kempner Colloquium](https://math.colorado.edu/seminars/?view=kemp), University of Colorado, Boulder. 29 November 2016.
+* _Low-dimensional higher geometry by examples_, [Kempner Colloquium](https://math.colorado.edu/seminars/?date=2016-11-29), University of Colorado, Boulder. 29 November 2016.
 
 * _Smooth mapping orbifolds_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 20 May 2016.
 
