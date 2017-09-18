@@ -23,6 +23,7 @@ In a traditional [[measure space]], we have an abstract [[set]] $X$, a $\sigma$-
 A measurable subset $B$ of $X$ is __full__ if, given any measurable set $A$, $\mu(A \cap B) = \mu(A)$; an arbitrary subset of $X$ is __full__ if it\'s a [[superset]] of a full measurable set.  [[de Morgan duality|Dually]], a measurable set $B$ is __null__ if, given any measurable set $A$, $\mu(A \cup B) = \mu(A)$; an arbitrary subset of $X$ is __null__ if it\'s a [[subset]] of a null measurable set.
 
 Some equivalent characterisations ([[constructive mathematics|constructively]] valid for measures on [[Cheng spaces]] except as stated):
+
 *  A measurable set $B$ is null iff $\mu(C) = 0$ for every measurable subset of $B$.
 *  If $\mu$ is a [[positive measure]], then a measurable set $B$ is null iff $\mu(B) = 0$.
 *  If $\mu$ is a [[finite measure]] with total measure $I$, then a measurable set $B$ is full iff $\mu(C) = I$ for every measurable superset of $B$.
@@ -43,7 +44,7 @@ Some equivalent characterisations ([[constructive mathematics|constructively]] v
 
 ## Logic of full/null sets
 
-A property of elements of $X$ (given by a [[subset]] $S$ of $X$) can be considered modulo null sets.  We say that the property $\phi$ is true __almost everywhere__ if it is true on some full set, that is if $\{X | \phi}$ is full.  Dually, we say that $\phi$ is true __almost nowhere__ if $\{X | \phi\}$ is null.  It is better to use the [[negation]] of 'almost nowhere', although the terminology for this is not really standard; say that $\phi$ is true __somewhere significant__ if $\{X | \phi\}$ is non-null.
+A property of elements of $X$ (given by a [[subset]] $S$ of $X$) can be considered modulo null sets.  We say that the property $\phi$ is true __almost everywhere__ if it is true on some full set, that is if $\{X | \phi\}$ is full.  Dually, we say that $\phi$ is true __almost nowhere__ if $\{X | \phi\}$ is null.  It is better to use the [[negation]] of 'almost nowhere', although the terminology for this is not really standard; say that $\phi$ is true __somewhere significant__ if $\{X | \phi\}$ is non-null.
 
 Note that being true almost everywhere is a weakening of being true everywhere (given by the [[universal quantifier]] $\forall$), while being true somewhere significant is a strengthening of being true somewhere (given by the [[particular quantifier]] $\exists$).  Indeed we can build a logic out of these.  Use $\ess\forall i, \phi[i]$ or $\ess\forall \phi$ to mean that a [[predicate]] $\phi$ on $X$ is true almost everywhere, and use $\ess\exists i, \phi[i]$ or $\ess\exists \phi$ to mean that $\phi$ is true somewhere significant.  Then we have:
 $$\forall \phi \;\Rightarrow\; \ess\forall \phi$$
