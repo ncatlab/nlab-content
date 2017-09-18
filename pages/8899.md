@@ -35,8 +35,9 @@ Here is a very incomplete list of software available for mathematics, especially
 ###General 
 
 * [[Mathematica]]
-* [Maple](http://www.maplesoft.com/)
+* [Maple](http://www.maplesoft.com)
 * [[Sage]]
+* [[geogebra]] (dominantly used for educational purposes)
 
 ###Computational Group Theory
 
