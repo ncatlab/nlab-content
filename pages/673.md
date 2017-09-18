@@ -22,7 +22,7 @@ You may also find me on
 * _On certain 2-categories admitting localisation by bicategories of
   fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014. Resubmitted for publication 6 March 2014, rejected 2 April 2014.
 
-* _WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication 13 Jan 2014.
+* _The weak choice principle WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication 13 Jan 2014. Rejected 26 Sept 2014
 
 * _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014. Resubmitted 10 June 2014.
 
