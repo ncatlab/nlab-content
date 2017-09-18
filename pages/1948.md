@@ -70,7 +70,7 @@ The projective and injective structures $[D,C]_{proj}$ and $[D,C]_{inj}$, def. \
 =--
 
 
-The existence of the unenriched model structure apears as [[Higher Topos Theory|HTT, prop. 2.8.2]]
+The existence of the unenriched model structure apears as [[Higher Topos Theory|HTT, prop. A.2.8.2]]
 The enriched case is [[Higher Topos Theory|HTT, prop. A.3.3.2]] and the remarks following that.
 The statement about properness appears as [[Higher Topos Theory|HTT, remark A.2.8.4]].
 
