@@ -1352,7 +1352,7 @@ For $p \in \mathbb{R}$ write $b^{p+1}\mathbb{R}$ for the [[line Lie n-algebra|Li
 $$
   CE(b^{p+1}\mathbb{R})
   \coloneqq
-  (\langle g_{p+2} \rangle,  d g_4 = 0)
+  (\langle g_{p+2} \rangle,  d g_{p+2} = 0)
   \,.
 $$
 
@@ -1362,7 +1362,7 @@ $$
 +-- {: .num_defn #ThePsiPsiTermsInCEOfSuperMinkowski}
 ###### Definition
 
-For $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ a [[super Minkowski spacetime]], def. \ref{SuperMinkowskiSpacetime}, regarded as a [[super Lie algebra]], write
+For $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ a [[super Minkowski spacetime]], def. \ref{SuperPoincareAndSuperMinkowski}, regarded as a [[super Lie algebra]], write
 
 $$
   \mu_{p+2}\in CE(\mathbb{R}^{d-1,1\vert \mathbf{N}})
@@ -1386,11 +1386,65 @@ The study of the CE-elements in def. \ref{ThePsiPsiTermsInCEOfSuperMinkowski} go
 
 =--
 
-One finds that the elements $\mu_{p+2}$ in def. \ref{ThePsiPsiTermsInCEOfSuperMinkowski} are CE-closed, hence are super Lie algebra cocycles for given $(d,p,N)$ precisely if there is a [[super p-brane]] in $N$-supersymmetric super-Minkowski spacetime:
+One finds that the elements $\mu_{p+2}$ in def. \ref{ThePsiPsiTermsInCEOfSuperMinkowski} are CE-closed, hence are super Lie algebra cocycles for given $(d,p,N)$ precisely if there is a [[super p-brane]] in $N$-supersymmetric super-Minkowski spacetime. For "$N=1$" there are (non-trivial) cocycles in dimension $d$ and degree $(p+2)$ as shown in this table:
 
-[[!include brane scan]]
+| $\stackrel{d}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 
+|--|--------|---|---|---|---|---|---|---|----|----|
+| 11 | |  |  [[M2-brane|M2]] |  |   |  |   |   |   |   | 
+| 10 |  | [[F1-brane|F1]]   |   |  |   | [[NS5-brane|NS5]] |   |   |   |   | 
+| 9 | |   |   |  | $\ast$  |  |   |   |   |   | 
+| 8 | |   |   | $\ast$ |   |  |   |   |   |   | 
+| 7 | |   | $\ast$  |  |   |  |   |   |   |   |    
+| 6 | |  $\ast$  |  | [[3-brane in 6d|S3]] |   |  |   |   |   |   | 
+| 5 | |  | $\ast$   | |   |  |   |   |   |   | 
+| 4 | | $\ast$  | [[super 2-brane in 4d|M2]]$_{cmp}$   | |   |  |   |   |   |   |   
+| 3 | | [[super 1-brane in 3d|F1]]$_{cmp}$  |  | |   |  |   |   |   |   |
+
+
 
 ##### The full brane scan 
+
+Every Lie algebra cocycle $\mu_{p+2} \colon \mathfrak{g} \longrightarrow b^{p+1}\mathbb{R}$ induces a [[L-∞ algebra cohomology|higher extension]] of its domain, namely the [[Lie n-algebra|Lie (p+1)-algebra]] $\hat \mathfrak{g}$ which is the [[homotopy fiber]] of $\mu_{p+2}$ in the [[homotopy theory of L-∞ algebras]]:
+
+$$
+  \array{
+     \hat \mathfrak{g}
+     \\
+     \downarrow
+     \\
+     \mathfrak{g}
+     &\stackrel{\mu_{p+2}}{\longrightarrow}&
+     b^{p+1}\mathbb{R}
+  }
+  \,.
+$$
+
+For the cocycles on [[super Minkowski spacetime]] from the [old brane scan](#TheOldBraneScan) these extensions are known as _[[extended super Minkowski spacetimes]]_.
+
+$$
+  \array{
+     \hat \mathbb{R}^{d-1,1\vert \mathbf{N}}
+     \\
+     \downarrow
+     \\
+     \mathbb{R}^{d-1,1\vert \mathbf{N}}
+     &\stackrel{\mu_{p+2}}{\longrightarrow}&
+     b^{p+1}\mathbb{R}
+  }
+  \,.
+$$
+
+Now the extended super Minkowski spacetime $\hat \mathbb{R}^{d-1,1\vert \mathbf{N}}$ may carry further cocycles, that do not come from ordinary super Minkowski spacetime. Including these yields the full brane scan.
+
+This complete brane scan is no longer just a table, but is a tree, a bouquet, where each edge is an $L_\infty$-extension.
+
+
+
+
+###### The M5-brane
+
+
+
 
 +-- {: .num_defn #RationalSphereAlgebra}
 ###### Definition
@@ -1400,6 +1454,7 @@ For $p \in \mathbb{N}_{even}$, write
 $b^{2p+2} \mathbb{R}/b^p \mathbb{R}$ for the [[L-∞ algebra]] given by the [[Chevalley-Eilenberg algebra]]
 
 $$
+
   CE(b^{2p+2} \mathbb{R}/b^p \mathbb{R})
   = 
   \left(\left\langle g_{p+2}, g_{2p+3}\right\rangle), {{d g_{p+2} = 0} \atop {d g_{2p+3} = g_{p+2} \wedge g_{p+2}}}\right)
@@ -1457,7 +1512,6 @@ $$
 
 =--
 
-###### The M5-brane
 
 +-- {: .num_defn #CocyclesOn11dSuperMinkowski}
 ###### Proposition
@@ -1629,6 +1683,9 @@ In view of remark \ref{RationalSpheres}, prop. \ref{7CocycleOnM2BraneDescends} s
 
 ##### Summary
 
+[[!include brane scan]]
+
+
 <div style="float:left;margin:0 10px 10px 0;"><img src="https://dl.dropboxusercontent.com/u/12630719/BraneBouquet.JPG" alt="the brane bouquet" /></div>
 
 ### **Semantics layer**
@@ -1757,6 +1814,7 @@ With this the rightmost adjoint quadruple gives the [[Aufhebung]] of $\Re \dashv
 For convenience, from now on we notationally abbreviate:
 
 $$
+
   \mathbf{H} \coloneqq SuperFormalSmooth0Type
   \,.
 $$
@@ -1808,6 +1866,7 @@ $$
    \stackrel{\hookrightarrow}{\stackrel{\longleftarrow}{\hookrightarrow}}
   \mathbf{H}
 $$
+
 
 or of the form
 
