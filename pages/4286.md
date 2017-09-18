@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -54,11 +54,12 @@ See
 
 Some candidate [[astrophysics|astrophysical]] objects which seem to point to black hole have been observed. 
 
+## Examples
+
+[[!include charged and rotating black holes -- table]]
 
 ## Related concepts
 
-
-* [[Kerr spacetime]]
 
 * [[Bekenstein-Hawking entropy]], [[black hole radiation]]
 
