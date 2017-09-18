@@ -75,6 +75,51 @@ In particular if $I$ itself is already finite, then a basis of the product topol
 
 The Tychonoff product of [[compact topological spaces]] is itself again a compact topological space. This is known as the _[[Tychonoff theorem]]_, see there for more.
 
+## Example
+
++-- {: .num_example #CantorSpace}
+###### Example
+**([[Cantor space]])**
+
+Write $Disc(\{0,1\})$ for the the [[discrete topological space]] with two points. Write $\underset{n \in \mathbb{N}}{\prod} Disc(\{0,2\})$ for the [[product topological space]] of a [[countable set]] of copies of this discrete space with itself (i.e. the corresponding [[Cartesian product]] of sets $\underset{n \in \mathbb{N}}{\prod} \{0,1\}$ equipped with the Tychonoff topology induced from the [[discrete topology]] of $\{0,1\}$).
+
+Then consider the [[function]]
+
+$$
+  \array{
+    \underset{n \in \mathbb{N}}{\prod}
+      &\overset{\kappa}{\longrightarrow}&
+    [0,1]
+    \\
+    (a_i)_{i \in \mathbb{N}}
+    &\overset{\phantom{AAAA}}{\mapsto}&
+    \underoverset{i = 0}{\infty}{\sum} \frac{2 a_i}{ 3^n}
+  }
+$$
+
+which sends an element in the product space, hence a [[sequence]] of binary digits, to the value of the [[power series]] as shown on the right.
+
+One checks that this is a [[continuous function]] (from the [[product topology]] to the [[Euclidean space|Euclidean]] [[metric topology]] on the [[closed interval]]). Moreover with its [[image]] $\kappa\left( \underset{n \in \mathbb{N}}{\prod} \{0,1\}\right) \subset [0,1]$ equipped with its [[subspace topology]], then this is a [[homeomorphism]] onto its image:
+
+$$
+  \underset{n \in \mathbb{N}}{\prod} Disc(\{0,1\})
+    \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}
+  \kappa\left(
+    \underset{n \in \mathbb{N}}{\prod} Disc(\{0,1\})
+  \right)
+    \overset{\phantom{AAAA}}{\hookrightarrow}
+  [0,1]
+  \,.
+$$
+
+This image is the _[[Cantor space]]_ as a subspace of the closed interval.
+
+
+=--
+
+
+
+
 ## Related concepts
 
 * [[disjoint union topological space]]
