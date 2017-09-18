@@ -165,10 +165,13 @@ The BPS bound derives its name from
 
 * M. K. Prasad, [[Charles Sommerfield]], _Exact classical solution for 't Hooft monopole and the Julia-Zee dyon_, Phys. Rev. Lett. __35__ (1975) 760--762.
 
-
 The original article identifying the role of BPS states in supersymmetric field theory is
 
 * [[Edward Witten]], [[David Olive]], _Supersymmetry algebras that include topological charges_ (2002) ([journal](http://www.sciencedirect.com/science/article/pii/037026937890357X))
+
+Exposition includes
+
+* [[Andrew Neitzke]], _What is a BPS state?_, 2012 ([pdf](http://www.ma.utexas.edu/users/neitzke/expos/bps-expos.pdf))
 
 Further developments are in
 
