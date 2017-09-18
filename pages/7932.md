@@ -213,6 +213,7 @@ In summary, for $\mathbf{c} : \mathbf{B}G \vdash V(\mathbf{c}) : Type$ an action
 
   is the collection of [[invariants]] ([[homotopy fixed points]]) of the action.
 
+
 And for $V_1, V_2$ two actions we have
 
 * the [[dependent product]] over the [[dependent type|dependent]] [[function type]]
@@ -1048,7 +1049,7 @@ Write $\sharp_n$ for the [[n-image]] of itd [[unit of a monad|unit]].
 +-- {: .num_prop #CoDiscretizationOfActions}
 ###### Proposition
 
-Given an [[∞-group]] $G$ in $\mathbf{H}$ and a $G$-action on some $X$, then $\sharp_n G$ is itself canonically an $\infty$-group equipped with a canonically induced action on $\sharp_n X$ such that the projection $X \to \sharp_n X$ carries the structure of a homomorphism of $G$-actions.
+Given an [[∞-group]] $G$ in $\mathbf{H}$ and a $G$-action, def. \ref{GActionByFiberSequence}, on some $X$, then $\sharp_n G$ is itself canonically an $\infty$-group equipped with a canonically induced action on $\sharp_n X$ such that the projection $X \to \sharp_n X$ carries the structure of a homomorphism of $G$-actions.
 
 =--
 
@@ -1137,6 +1138,7 @@ For $\mathbf{H}= \infty Grpd$ the statement that homotopy types over $B G$ are e
 This is mentioned for instance as exercise 4.2in 
 
 * {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes Copenhagen (June, 2008) [pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf)
+
 
 
 Closely related discussion of homotopy fiber sequences and homotopy action but in terms of [[Segal spaces]] is in section 5 of
