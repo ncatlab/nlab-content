@@ -783,7 +783,7 @@ only a finite sub-sum of the formal infinite sum contributes in each order.
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #InterpretationOfPerturbativeSMatrix}
 ###### Remark
 **(interpretation of the perturbative S-matrix)**
 
@@ -870,7 +870,7 @@ $$
     dvol_\Sigma(x_1, \cdots, x_r, y_1, \cdots, y_s)
     \\
     & \coloneqq
-    T( g_{sw,1} L_1 \cdots g_{sw,k} L \cdots j_{sw,1} A_1 \cdots j_{sw,s}A_s )
+    T( g_{sw,1} L_1 \cdots g_{sw,k} L \cdot j_{sw,1} A_1 \cdots j_{sw,s}A_s )
   \end{aligned}
   \,.
 $$
@@ -898,6 +898,74 @@ $$
 $$
 
 =--
+
+This condensed notation turns out to be greatly simplify computations, as it absorbs all the "relative"
+combinatorial prefactors:
+
++-- {: .num_example #ProductOfPerturbationSeriesInGenealizedFunctionNotation}
+###### Example
+**(product of perturbation series in generalized function notation)**
+
+Let 
+
+$$
+  U(g) 
+  =
+  \underoverset{n = 0}{\infty}{\sum}
+   \frac{1}{n!}
+   \int U(x_1, \cdots, x_n)
+   \,
+   g(x_1) \cdots g(x_n) \, dvol
+$$
+
+and
+
+$$
+  V(g)
+  =
+  \underoverset{n = 0}{\infty}{\sum}
+   \frac{1}{n!}
+   \int V(x_1, \cdots, x_n)
+   \,
+   g(x_1) \cdots g(x_n) \, dvol
+$$
+
+be power series of distributions in formal power series in $g/\hbar$ as in def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}.
+Then the product $W(g) \coloneqq U(g) V(g)$ with expansion
+
+$$
+  W(g)
+  =
+  \underoverset{n = 0}{\infty}{\sum}
+   \frac{1}{n!}
+   \int W(x_1, \cdots, x_n)
+   \,
+   g(x_1) \cdots g(x_n) \, dvol
+$$
+
+is given simply by
+
+$$
+  W(\mathbf{X})
+    \;=\; 
+  \underset{\mathbf{I} \subset \mathbf{X}}{\sum} U(\mathbf{I}) V(\mathbf{X} \setminus \mathbf{I})
+  \,.
+$$
+
+([Epstein-Glaser 73 (5)](#EpsteinGlaser73))
+
+This is because for fixed cardinality ${\vert \mathbf{I} \vert} = n_1$ 
+this sum over all subsets $\mathbf{I} \subset \mathbf{X}$ overcounts the sum over
+partitions of the coordinates as $(x_1, \cdots x_{n_1}, x_{n_1 + 1}, \cdots x_n)$ precisely by the 
+[[binomial coefficient]] $\frac{n!}{n_1! (n - n_1) !}$. Here the factor of $n!$ cancels 
+against the "global" combinatorial prefactor in the above expansion of $W(g)$, while the remaining
+factor $\frac{1}{n_1! (n - n_1) !}$ is just the "relative" combinatorial prefactor seen at total order $n$
+when expanding the product $U(g)V(g)$.
+
+
+=--
+
+
 
 +-- {: .num_remark #TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}
 ###### Remark
@@ -1101,7 +1169,17 @@ indeed do induced a perturbative S-matrix:
 **([[time-ordered products]] induce perturbative S-matrix)**
 
 Let $\{T_k\}_{k \in \mathbb{N}}$ be a system of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}.
-Then $S(-) \coloneqq T \exp(\tfrac{1}{i \hbar}(-))$ is a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}.
+Then 
+
+$$
+  \begin{aligned}
+    S(-) & \coloneqq T \exp(\tfrac{1}{i \hbar}(-))
+    \\
+    & \coloneqq \underset{k \in \mathbb{N}}{\sum} \tfrac{1}{(i \hbar)^k} \tfrac{1}{k!} T( \underset{k \, \text{factors}}{\underbrace{- \cdots -}} )
+  \end{aligned}
+$$ 
+
+is indeed a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}.
 
 =--
 
@@ -1130,18 +1208,30 @@ is immediate from the time-ordering axiom of the time-ordered products.
 But [[causal additivity]] is stronger. It is remarkable that this, too,
 follows from just the time-ordering ([Epstein-Glaser 73, around (73)](#EpsteinGlaser73)):
 
-To see this  first express the
-generating functional $Z$ (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime})
-order-by-order in terms of the given time-ordered product $T$ and
-its induced reverse-time ordered product (def. \ref{ReverseTimeOrderedProduct}). In the condensed notation of
-def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions} this
+To see this, first expand the
+generating functional $Z$ (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}) into 
+powers of $(g/\hbar)$ and $(j/\hbar)$
+
+$$
+  Z_{L}(L + A)
+  \;=\;
+  \underoverset{n,m = 0}{\infty}{\sum}
+   \frac{1}{n! m!}
+   R(  \underset{n\, \text{factors}}{\underbrace{L \cdots L}},  ( \underset{m \, \text{factors}}{ A \cdots A  }  ) )
+$$
+
+and then compare order-by-order with the given time-ordered product $T$ and
+its induced reverse-time ordered product (def. \ref{ReverseTimeOrderedProduct}) via prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix}. In the condensed notation of
+def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions} 
+and its way of absorbing combinatorial prefactors as in example \ref{ProductOfPerturbationSeriesInGenealizedFunctionNotation}
+this 
 yields at order $(g/\hbar)^{\vert \mathbf{Y}\vert} (j/\hbar)^{\vert \mathbf{X}\vert}$ the coefficient
 
 $$
+  \label{CoefficientOfgeneratingRetardedProduct}
   R(\mathbf{Y}, \mathbf{X})
    \;=\;
   \underset{\mathbf{I} \subset \mathbf{Y}}{\sum}
-    (-1)^{\vert \mathbf{I}\vert}
     \overline{T}(\mathbf{I})
     T( (\mathbf{Y} \setminus \mathbf{I}) , \mathbf{X} )
   \,.
@@ -1152,32 +1242,35 @@ $\mathbf{Y}$ is in the [[causal past]] of $\mathbf{X}$. This will imply the clai
 multi-linearity of $R(-,-)$ it then follows that
 
 $$
-  \left(J_1 \geq J_2\right) \Rightarrow \left( V_{L + J_1}(J_2) = V_L(J_2) \right)
+  \left(J_1 \geq J_2\right) \Rightarrow \left( Z_{L + J_1}(J_2) = Z_L(J_2) \right)
 $$
 
 and by lemma \ref{CausalLocalityOfThePerturbativeSMatrix} this is equivalent to [[causal additivity]] of the S-matrix.
 
 It remains to prove the claim:
 
-Consider $\marthbf{X}, \mathbf{Y} \subset \Sigma$ such that the subset $\mathbf{P} \subset \mathbf{Y}$
-of points not in the past of $\mathbf{X}$, hence the maximal subset with
+Consider $\mathbf{X}, \mathbf{Y} \subset \Sigma$ such that the subset $\mathbf{P} \subset \mathbf{Y}$
+of points not in the past of $\mathbf{X}$ (def. \ref{CausalOrdering}), hence the maximal subset with
 
 $$
   \mathbf{P} \geq \mathbf{X}
+  \,,
 $$
 
 is non-empty. We need to show that in this case $R(\mathbf{Y}, \mathbf{X}) = 0$ (in the sense of generalized functions).
 
-Write $\mathbf{Q} \coloneqq \mathbf{Y} \setminus \mathbf{Q}$
-for the complementary set of points which are in the past of $\mathbf{X}$.   It follows that also
+Write $\mathbf{Q} \coloneqq \mathbf{Y} \setminus \mathbf{P}$
+for the complementary set of points, so that all points of $\mathbf{Q}$ are in the past of $\mathbf{X}$.  
+Notice that this implies that $\mathbf{P}$ is also not in the past of $\mathbf{Q}$:
 
 $$
   \mathbf{P} \geq \mathbf{Q}
   \,.
 $$
 
-With this decomposition of $\mathbf{Y}$, the above sum over subsets of $\mathbf{Y}$ may be decomposed into two sums over
-subsets $\mathbf{P}$ of $\mathbf{Q}$ and $\mathbf{K}$ $\mathbf{Q}$, respectively.
+With this decomposition of $\mathbf{Y}$, the sum in (eq:CoefficientOfgeneratingRetardedProduct) 
+over subsets $\mathbf{I}$ of $\mathbf{Y}$ may be decomposed into a sum over
+subsets $\mathbf{J}$ of $\mathbf{P}$ and $\mathbf{K}$ of $\mathbf{Q}$, respectively.
 These subsets inherit the above causal ordering, so that the time-ordered and reverse time-ordered products
 factor on these arguments:
 
@@ -1214,15 +1307,29 @@ $$
   \,.
 $$
 
-Here the sub-sum in brackets vanishes, because by definition this is the integral kernel for
+Here the sub-sum in brackets vanishes, because by example \ref{ProductOfPerturbationSeriesInGenealizedFunctionNotation} 
+and prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix}
+this is the integral kernel for
 $S(L)^{-1} S(L) = 1$ at order $(g/\hbar)^{\vert \mathbf{P} \vert}$. But since ${\vert \mathbf{P}\vert } \geq 1$
 by assumption, this is zero.
 
 =--
 
+$\,$
 
 #### Quantum observables and Retarded products
  {#QuantumObservables}
+
+A genuine local [[observable]] should depend on the values of the [[fields]] on some [[compact subset]]
+of spacetime. Moreover, a perturbative [[quantum observable]] should be a [[power series]] in [[Planck's constant]] $\hbar$,
+reducing to the corresponding classical observable at $\hbar = 0$. The perturbative S-matrix constructed above
+is neither localized in spacetime this way, nor is it a power series in $\hbar$ (it is a [[Laurent series]] in $\hbar$).
+So it is not a local observable. But the actual observables may be expressed in terms of the S-matrix
+by [[Bogoliubov's formula]] (def. \ref{GeneratingFunctionsForCorrelationFunctions} below). 
+This formula is consistent in that it implies that local observables form a [[causally local net]]
+as their spacetime support varies (discussed [below](#CausalLocality)). On deeper grounds, this formula
+turns out to yield the [[formal deformation quantization|formal]] [[Fedosov deformation quantization]] of
+the interacting field theory ([Collini 16](#Collini16)).
 
 
 +-- {: .num_defn #GeneratingFunctionsForCorrelationFunctions}
@@ -1230,7 +1337,7 @@ by assumption, this is zero.
 **(perturbative [[quantum observables]])**
 
 Let $S$ be a perturbative S-matrix as in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime},
-and $g_{sw} L_{int} \in \mathcal{F}_{loc}\langle g\rangle$ an [[adiabatic switching|adiabatically switchd]]
+and $g_{sw} L_{int} \in \mathcal{F}_{loc}\langle g\rangle$ an [[adiabatic switching|adiabatically switched]]
 [[interaction]] [[Lagrangian density]].
 
 Then for $A \in \mathcal{F}_{loc}$ a, the perturbative
@@ -2403,3 +2510,8 @@ An entertaining account of some of the history and the sociology of S-matrix the
 
 [[!redirects S-matrix theory]]
 [[!redirects S-matrix theories]] 
+
+[[!redirects perturbative S-matrix]]
+[[!redirects perturbative S-matrices]]
+
+[[!redirects Feynman perturbation series]]
