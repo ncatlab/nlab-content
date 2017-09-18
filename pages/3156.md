@@ -110,6 +110,7 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 
 * [[John Bourke]] and [[Richard Garner]], _Algebraic weak factorisation systems I: categories of weak maps_, [arXiv](http://arxiv.org/abs/1412.6560).
 
+* J. Rosicky, _Accessible model categories_, [arxiv](https://arxiv.org/abs/1503.05010)
 
 [[!redirects algebraic weak factorisation system]]
 [[!redirects natural weak factorisation system]]
