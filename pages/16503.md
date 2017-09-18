@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[probability theory]] a _random variable_ is meant to be quantity that is subject to random variation.
+
+## Definition
+
+The modern formalization of this idea is to take a random variable to be a [[measurable function]] $f$ on a [[probability space]] $(X,\mu)$. One thinks of $X$ as the space of all possible configurations (all the "[[possible worlds]]" with respect to the idealized situation under consideration), thinks of the measure $\mu(U)$ of any [[subset]] of it as the [[probability]] that one of the configurations $x \in U \subset X$ is _randomly_ realized, and thinks of $f(x)$ as the value of the given random variable in the situation of that configuration.
+
+Accordingly for instance the [[expectation value]] of the random variable $f$ is the [[integral]]
+
+$$
+  \langle f \rangle \coloneqq \int_X f \cdot \mu
+$$
+
+of $f$ against the [[probability measure]], i.e. the average value of the random variable over all possible configuration, weighted by their [[probability]].
+
+
+## Related concepts
+
+* [[probability theory]]
+
+## References
+
+* Wikipedia, _[Random variable](http://en.wikipedia.org/wiki/Random_variable)_.
+
+[[!redirects random variables]]
