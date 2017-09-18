@@ -77,13 +77,13 @@ Let $A \coloneqq A_{k l}$ be any [[object]] in the double complex at any positio
 
 $$
   \array{
-     \searrow^{\mathrlap{\partial_{in}^{diag}}} 
+     ^\mathllap{\partial_{in}^{diag}} \searrow
      & \downarrow^{\mathrlap{\partial_{in}^{vert}}}
      \\
      \stackrel{\partial_{in}^{hor}}{\to} & A &
      \stackrel{\partial_{out}^{hor}}{\to} 
      \\
-     & \downarrow^{\mathrlap{\partial_{out}^{vert}}}
+     & ^\mathllap{\partial_{out}^{vert}} \downarrow
      &
      \searrow^{\mathrlap{\partial_{out}^{diag}}}
   }
@@ -98,9 +98,9 @@ Define
 
 * ${}^{\Box}A \coloneqq \frac{ker (\partial^{hor}_{out}) \cap ker(\partial^{vert}_{out})}{im(\partial^{diag}_{in})} \in \mathcal{A}$ -- the "receptor" at $A$;
 
-* $A_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) \oplus im(\partial^{vert}_{in})}$ -- the "donor" at $A$;
+* $A_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) + im(\partial^{vert}_{in})}$ -- the "donor" at $A$;
 
-where $ker(-)$ denotes the [[kernel]] of a map, $im(-)$ the [[image]] of a map and $\frac{N_1}{N_2}$ the [[quotient module]] of the module $N_1$ by a [[submodule]] $N_2 \hookrightarrow N_1$ and $N_1 \oplus N_2$ the [[direct sum]] of two modules.
+where $ker(-)$ denotes the [[kernel]] of a map, $im(-)$ the [[image]] of a map and $\frac{N_1}{N_2}$ the [[quotient module]] of the module $N_1$ by a [[submodule]] $N_2 \hookrightarrow N_1$ and $N_1 + N_2$ the sum of two submodules (i.e., [[join]] in the [[lattice]] of submodules under inclusion). 
 
 =--
 
