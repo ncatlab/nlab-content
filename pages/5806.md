@@ -246,7 +246,7 @@ The canonical $O(n)$-[[∞-action]] on $Corr_n(\infty Grpd)$ induced via prop. \
 
 =--
 
-This statement appears in  ([Lurie, below remark 3.2.3](#Lurie)) without formal proof. It is reproduced as [Haugseng 14, conjecture 1.3](#Haugseng14))]).
+This statement appears in  ([Lurie, below remark 3.2.3](#Lurie)) without formal proof. For more see ([Haugseng 14, remark 9.7](#Haugseng14)).
 
 
 
