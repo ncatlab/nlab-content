@@ -33,13 +33,13 @@ Let $I = (a, b) \subseteq \mathbb{R}$ be an open interval, a complex neighbourho
 ###### Definition
 The set of hyperfunctions on $I$ for a complex neighbourhood $U$ of $I$ is defined to be the quotient
 $$
-\mathcal{B}(I) := \frac{ \mathcal{O}(U/I) }{\mathcal{O}(U)}
+\mathcal{B}(I) \coloneqq \frac{ \mathcal{O}(U \setminus I) }{\mathcal{O}(U)}
 $$
 =--
 
 The set $\mathcal{B}(I)$ does not depend on the chosen complex neighbourhood $U$, which is a consequence of [[Mittag-Leffler's theorem]] in the one-dimensional case. The definition easily generalizes to open subsets of $\mathbb{R}$.
 
-Let $U^+ := \{u \in U : \operatorname{Im}(u) \gt 0 \}$ and $U^- := \{u \in U : \operatorname{Im}(u) \lt 0 \}$, then a nontrivial hyperfunction can be described by two functions $F^+$ holomorphic on $U^+$ and $F^-$ holomorphic on $U^-$ such that there is no function $F$ holomorphic on $U$ that restricts to $F^+$ and $F^-$. In this sense hyperfunctions are "differences" of holomorphic functions on a "boundary" (we did not specify an algebraic object that contains both $F^+$ and $F^-$, so strictly speaking we cannot subtract them). 
+Let $U^+ \coloneqq \{u \in U : \operatorname{Im}(u) \gt 0 \}$ and $U^- \coloneqq \{u \in U : \operatorname{Im}(u) \lt 0 \}$, then a nontrivial hyperfunction can be described by two functions $F^+$ holomorphic on $U^+$ and $F^-$ holomorphic on $U^-$ such that there is no function $F$ holomorphic on $U$ that restricts to $F^+$ and $F^-$. In this sense hyperfunctions are "differences" of holomorphic functions on a "boundary" (we did not specify an algebraic object that contains both $F^+$ and $F^-$, so strictly speaking we cannot subtract them). 
 
 In the following we will often write $F = (F^+, F^-)$ for a hyperfunction $F$, with $(F^+, F^-)$ being a representative of the equivalence class that is $F$ in $\mathcal{B}$ on some complex neighbourhood. If the algebraic expression of $F^+$ and $F^-$ coincides we can further simplify the notation and simply write $[F]$.
 
@@ -139,7 +139,7 @@ Since we defined hyperfunctions for open subsets only, we do not yet know anythi
 **(characterization of compactly supported hyperfunctions)**
 Let $\mathcal{B}_K$ be all hyperfunctions with support contained in $K \subset \mathbb{R}$ compact and $V$ be any complex neighbourhood of $K$. Then we have the following isomorphism:
 $$
-\mathcal{B}_K \cong \frac{ \mathcal{O}(V/K) }{\mathcal{O}(V)}
+\mathcal{B}_K \cong \frac{ \mathcal{O}(V\setminus K) }{\mathcal{O}(V)}
 $$
 =--
 
