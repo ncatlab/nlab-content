@@ -4,7 +4,9 @@
 
 * [[atom (physics)]]
 
-* [[chemistry]]
+* [[chemistry]], [[chemical element]]
+
+* [[particle]]
 
 
 ## References
