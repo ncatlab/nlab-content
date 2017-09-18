@@ -1,5 +1,5 @@
 
-The [[HomePage|nLab]] comprises over 7000 pages.  Generating a list of all of them is somewhat laborious for the server.  The "All Pages" directive has therefore been disabled.
+The [[HomePage|nLab]] comprises over 10,000 pages.  Generating a list of all of them is somewhat laborious for the server.  The "All Pages" directive has therefore been disabled.
 
 There are various categories of pages on the nLab and the lists of pages for these can still be obtained.  A list is given below (note that this list is *not* automatically updated, but you can find the correct automatically updated list by following any of these links).
 
