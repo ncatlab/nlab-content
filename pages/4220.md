@@ -40,9 +40,9 @@ However, there is a more subtle sense in which $\mathbb{C}$ is algebraically clo
 Sometimes one considers the equation
 $$ a{x}^2 + 2p{x} + c = 0 $$
 instead of (eq:eqn); then (eq:usual) simplifies to
-$$ x_\pm = \frac{-p \pm \sqrt{p^2 - a{c}}}a $$
+\[ \label{simpl} x_\pm = \frac{-p \pm \sqrt{p^2 - a{c}}}a \]
 (and similarly for (eq:alt) and (eq:numanal)).
-This is valid even in characteristic $2$, but unfortunately then it is fairly useless, since $2p = 0$. (Note that in characteristic $2$, if the coefficient of $x$ is $0$, then the above "quadratic formula" gives the root. However, if the coefficient is not $0$, there might still be a root. For example, the equation $x^2 + x = 0$ has a root $0$)
+This is valid even in characteristic $2$, but unfortunately then it is fairly useless, since $b = 2p = 0$.  More precisely, if $b = 0$, then (eq:simpl) with $p = 0$ gives the roots $\pm\sqrt{-c/a}$ in any characteristic, but in that case the equation was easy to solve without any formula.  On the other hand, if $b \ne 0$ and $\char K = 2$, then no version of the quadratic formula is applicable, yet this gives no information as to whether the polynomial is [[solvable polynomial|solvable]] and what its roots are if it is.  (For example, the equation $x^2 + x = 0$ has roots $0$ and $-1$ in any characteristic, as may be found by factoring, while $x^2 + x + 1 = 0$ is not solvable over $\F_2$.)
 
 
 ## References
