@@ -22,29 +22,53 @@
 
 
 ## Idea
+ {#Idea}
 
 There are various variants of the notion of something _acting_ on something else. They are all closely related.
 
-The simplest notion of an action involves one set, $X$, acting on another $Y$ which is defined as a function $act\colon X \times Y \to Y$. This can be [[currying|curried]] to $\hat{act}\colon X \to Y ^ Y $ where $Y ^ Y$ is the (monoidal) [[function set|set of functions]] from $Y$ to $Y$, also called the [[endofunction]] $End(Y)$.[^SetActions]
-
-[^SetActions]: In the category [[Set]] there is no difference between the above left action and the right action  $actR\colon Y \times X \to Y$ because the product commutes. However for the action of a [[monoid]] on a set (sometimes called [[MSet| M-set]] or M-act) the product of a monoid and a set does not  commute so the left and right actions are different.  The action of a set on a set is the same as an arrow labeled [[directed graph]] $arrows\colon vertices \times labels \to vertices$ which specifies  that each vertex must have a set of arrows leaving it with one arrow per label, and is also the same as a simple (non halting) [[deterministic automaton]]  $transition\colon inputs \times states \to states$.
-
-Generalized notions of action use entities from categories other than $Set$ and involve an [[endofunctor]] [[exponential object]] such as  $Y ^ Y$.
-
-For an entity $K$ to be able to act on anything else in the first place, $K$ needs to have some notion of composition or product with itself. Quite generally this is modeled by realizing $K$ as an [[n-category]] of sorts. In particular, if $K$ is a monoidal entity with a product $K \otimes K \to K$ there is usually a [[delooping]] $\mathbf{B} K$ which encodes the same information.
-
-From this perspective one fundamental way to realize an action of some entity $K$ on some entity in the [[category]] or [[n-category]] $C$ is an ($n$-)functor
+The simplest concept of an action involves one [[set]], $X$, acting on another set $Y$ and such an action is given by a [[function]] from the [[product]] of $X$ with $Y$ to $Y$
 
 $$
-  \rho : K \to C
+  act\colon X \times Y \to Y
+  \,.
+$$ 
+
+For fixed $x \in X$ this produces an [[endofunction]] $act(x,-) \colon Y \to Y$ and hence some "transformation" or "action" on $Y$. In this way the whole of $X$ acts on $Y$.
+
+Here $(x\mapsto act(x,-))$ is the _[[currying|curried]]_ function $\widehat{act}\colon X \to Y^Y$ of the original $act$, which maps $X$ to the [[function set|set of]] of [[endofunctions]] on $Y$.[^SetActions] Quite generally one has these two perspectives on actions.
+
+[^SetActions]: In the category [[Set]] there is no difference between the above left action and the right action  $actR\colon Y \times X \to Y$ because the [[cartesian product]] is [[symmetric monoidal category|symmetric monoidal]]. However for the action of a [[monoid]] on a set (sometimes called [[MSet| M-set]] or M-act) the product of a monoid and a set does not  commute so the left and right actions are different.  The action of a set on a set is the same as an arrow labeled [[directed graph]] $arrows\colon vertices \times labels \to vertices$ which specifies  that each vertex must have a set of arrows leaving it with one arrow per label, and is also the same as a simple (non halting) [[deterministic automaton]]  $transition\colon inputs \times states \to states$.
+
+Usually the key aspect of an action of some $X$ is that $X$ itself carries an algebraic structure, such as being a [[group]] (or just a [[monoid]]) or being a [[ring]] or an [[associative algebra]]. (If these structures act on an [[abelian group]] or [[vector space]] $Y$ by [[linear functions]], then one calls the action also a _[[module]]_ or _[[representation]]_.)
+
+With such algebraic structure on $X$, the action crucially is to respect this structure in that acting comnsecutively with two elements in $X$ is the same as first multiplying them and then acting with the result:
+
 $$
-or
-$$
-  \rho : \mathbf{B} K \to C
+  act(x_2,act(x_1,y)) = act(x_2\cdot x_1, y)
+  \,.
 $$
 
 
-Here the collection $\coprod_{k \in Obj(k)} \rho(k)$ of objects in $C$ in the image of objects of $K$ is "what $K$ is acting on" and the images of the morphisms in $K$ under $\rho$ produce the action itself.
+This _action property_ may often be identified with a [[functor]] property: it characterizes a [[functor]] from the [[delooping]] $\mathbf{B}X$ of the [[monoid]] $X$ to the [[category]] (such as [[Set]])  of which $Y$ is an object.
+
+In this way essentially every kind of [[functor]], [[n-functor]] and [[enriched functor]] may be thought of as defining a generalized kind of action. This perspective on actions is particularly prevalent in [[enriched category theory]], where for instance [[coends]] may be thought of as producing [[tensor products]] of actions in this general functorial sense.
+
+Under the [[Grothendieck construction]] (or one of its variants), this perspective turns into the perspective where an action of $X$ is some [[bundle]] $Y/X$ over $\mathbf{B}X$, whose [[fiber]] is $Y$:
+
+$$
+  \array{
+    Y &\longrightarrow& Y/X
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}X
+  }
+  \,.
+$$
+
+Here the total space $Y/X$ of this bundle is typically the "weak" [[quotient]] (for instance: [[homotopy quotient]]) of the action, whence the notation. If one thinks of $\mathbf{B}X$ as the [[classifying space]] for the $X$-[[universal principal bundle]], then this bundle $Y/X \to \mathbf{B}X$ is the $Y$-[[fiber bundle]] which is [[associated bundle|associated]] via the action to this universal bundle. For more on this perspective on actions see at _[[∞-action]]_.
+
+
 
 ## Definitions
 
