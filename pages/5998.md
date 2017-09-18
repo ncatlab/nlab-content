@@ -43,7 +43,7 @@ Application is generally considered to associate to the left.  Thus $u v w$ deno
 
 *Evaluation* or *reduction* is the process of "computing" the "value" of a lambda term.  The most basic operation is called *[[beta reduction]]* and consists in taking a lambda abstraction at its word about what it is supposed to do when applied to an input.  For instance, the application $(\lambda x. x+1) 3$ reduces to $3+1$ (and thereby, presuming appropriate rules for $+$, to $4$).  In general, the beta reduction of a term $(\lambda x.t)(u)$ is defined as the [[substitution#avoiding variable capture|capture-avoiding substitution]] of $u$ for $x$ in $t$,
 
-$$(\lambda x.t)(u) \to^\beta t[u/x].$$
+$$(\lambda x.t)(u) \to_\beta t[u/x].$$
 
 Terms which can be connected by a [[zigzag]] of beta reductions (in either direction) are said to be *beta-equivalent*.
 
@@ -67,9 +67,9 @@ In the untyped (or "pure") lambda calculus, every term can be applied to any oth
 
 $$ \omega = u(u) $$
 
-as the self-application of $u$.  Performing a beta-reduction on $\omega$ yields
+as the self-application of $u$.  Performing beta-reduction on $\omega$ yields
 
-$$ \omega \to^\beta x x[u/x] = u(u) = \omega$$
+$$ \omega \to_\beta x x[u/x] = u(u) = \omega \to_\beta \omega \to_\beta \dots$$
 
 thus giving the classic example of a non-terminating program.
 
