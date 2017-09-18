@@ -20,7 +20,7 @@ In the usual literature of [[representation theory]], "linear permutation repres
 
 
 ## Examples
-
+$G$ b
 Notably for $C = \mathbf{B}G$ the [[delooping]] [[groupoid]] of a [[group]] $G$, a permutation representation $\mathbf{B}G \to Set$ is a set equipped with a $G$-[[action]].
 
 The category 
@@ -32,6 +32,49 @@ $$
 is the [[classifying topos]] for the group $G$.
 
 For other general perspectives on this see also at _[[infinity-action]]_ the section _[Examples -- Discrete group actions on sets](infinity-action#ExamplesPermutationRepresentations)_.
+
++-- {: .num_example #AutomorphismsOfGAsGTorsor}
+###### Example
+
+Let $G$ be a [[group]]. The [[automorphism group]] of $G$ regarded as a permutation representation of itself via left multiplication, is [[isomorphism|isomorphic]] to $G$:
+
+$$
+  G 
+   \;\simeq\;
+  Aut_{G Set}(G,G)
+$$
+
+=--
+
+(See also at _[[torsor]]_.)
+
++-- {: .proof}
+###### Proof
+
+Consider an function
+
+$$ 
+  f \;\colon\; G \longrightarrow G
+  \,.
+$$
+
+By $G$-equivariance, its value on any $g \in G$ is fixed by its value on the [[neutral element]] $1$
+
+$$
+  f(g) = f(g \cdot 1) = g \cdot f(1)
+  \,.
+$$
+
+Moreover, if $f_1$ is a $G$-invariant function given by $f_1(1) = g_1$ and $f_2$ is given by $f_2(1) = g_2$, then their composite is given by
+
+$$
+  f_2 \circ f_1(1)
+  = 
+  f_2( g_1 ) = g_1 \cdot f_2(1) = g_1 \cdot g_2
+  \,.
+$$
+
+=--
 
 ## Related entries
 
