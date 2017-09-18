@@ -48,6 +48,10 @@ A wiki platform based on Haskell, running texmath
 
 * [haskellwiki](http://www.haskell.org/haskellwiki/Haskell), [haskell platform](http://www.haskell.org/platform) 
 
+Discussion of the [[category]] of Haskell [[types]] (see at _[[relation between category theory and type theory]]_ and at _[[monad (in computer science)]]_) is in
+
+* WikiBooks, _[Haskell/Category](http://en.wikibooks.org/wiki/Haskell/Category_theory)_
+ 
 ### Mathematics in Haskell
  {#ReferencesMathematicsInHaskell}
 
