@@ -61,6 +61,10 @@ In agreement with Tsygan's philosophy of noncommutative differential calculus an
 
 * Thomas Willwacher, _A note on Br-infinity and KS-infinity formality_, [arxiv/1109.3520](http://arxiv.org/abs/1109.3520)
 
+Campos has extended Kontsevich formality to a $BV_\infty$ morphism using a cyclic analog of the minimal operad
+
+* Ricardo Campos, _BV Formality_, [arxiv/1506.07715] (https://arxiv.org/abs/1506.07715)
+
 
 category: algebra, geometry
 
