@@ -402,7 +402,7 @@ $$
   f \;\colon\; X \longrightarrow f(X) \hookrightarrow Y
 $$
 
-equipped with its [[topological subspace|subspace topology]] as a subspace of $Y$ (example \ref{ImageFactorization}). It follows that $f(X)$ is a $T_n$-topological space if $Y$ is. 
+equipped with its [[topological subspace|subspace topology]] as a subspace of $Y$. It follows that $f(X)$ is a $T_n$-topological space if $Y$ is. 
 
 It follows by definition of $t_n(X)$ that the factorization exists at the level of sets as stated, 
 since if $x_1, x_2 \in X$ have the same [[equivalence class]] $[x_1] = [x_2]$ in $T_n X$, then 
