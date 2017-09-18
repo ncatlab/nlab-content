@@ -24,6 +24,8 @@ The _Blakers-Massey theorem_ in the [[homotopy theory]] of spaces is concerned w
 
 ## Statement
 
+### Traditional
+
 This [[obstruction]] is measured by triad homotopy groups $\pi_m(X:A,B)$ for a pointed space $X$ with two subspaces $A,B$ each containing the base point. Here the group structure is defined for $m \geq 3$ and is abelian for $m \geq 4$. There is an exact sequence 
 
 $$\cdots \to \pi_{n+1}(X;A,B) \to \pi_n (A, A \cap B) \to^{\epsilon} \pi_n( X,B) \to \pi_n(X;A,B) \to \cdots  $$
@@ -38,7 +40,9 @@ _is an isomorphism_.
 
 =--
 
-+-- {: .num_remark}
+([Blakers-Massey 51](#BlakersMassey51), [tomDiek 08, theorem 6.4.1](#tomDiek08)).
+
++-- {: .num_remark #InTermsOfPushouts}
 ###### Remark
 
 A more intrinsic statement in the language of [[homotopy theory]] of the connectivity part of the theorem is that for $f_1$ and $f_2$ two [[maps]] out of the same [[domain]] which are $n_1$-[[n-connected morphism|connective]] and $n_2$-connective, respectively, then the canonical map from that domain into the [[homotopy pullback]] of their [[homotopy pushout]]
@@ -55,14 +59,7 @@ $$
 
 is $(n_1 + n_2 - 1)$-[[n-connected morphism|connective]].
 
-
-In the original connectivity statement of the theorem ([Blakers-Massey 51](#BlakersMassey51), [tomDiek 08, theorem 6.4.1](#tomDiek08)) this was considered for the [[homotopy theory]] of [[topological spaces]], hence for "bare" [[homotopy types]]/[[∞-groupoids]] but the statement holds true in all [[(∞,1)-toposes]].
-
-It follows in [[(∞,1)-sheaf (∞,1)-toposes]] by applying the result for [[∞-groupoids]] locally, i.e. [[stalk]]-wise (this was highlighted by [[Charles Rezk]]).  
-More intrinsically, there is a formal proof in [[homotopy type theory]] ([HoTTBook, theorem 8.10.2](#HoTTBook), [Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)), which translates to an [[internal language]] proof for all [[(∞,1)-toposes]].
-
 =--
-
 
 +-- {: .num_remark}
 ###### Remark
@@ -71,7 +68,6 @@ For the special case that $Y_1 \simeq Y_2 \simeq \ast$ are point contractible, t
 
 =--
 
-
 +-- {: .num_remark}
 ###### Remark
 
@@ -79,14 +75,34 @@ Since the tensor product is zero if one of its factors is zero, this result also
 
 =--
 
-### Generalizations
++-- {: .num_remark}
+###### Remark
 
-The natural question is what happens if the conditions  that $m,n \geq 3$ and $C$ simply connected are weakened.   For example in the case $m=n=2$  we have the additional structure that the morphisms $\pi_2(A,C) \to \pi_1(C), \pi_2(B,C) \to \pi_1(C)$ are crossed modules, and so the required relative homotopy groups are in general nonabelian. If $m \geq 3 ,n \geq 3$ then $\pi_m(A,C), \pi_n(B,C)$ are still $\pi_1(C)$-modules.
+A natural question is what happens if the conditions  that $m,n \geq 3$ and $C$ simply connected are weakened.   For example in the case $m=n=2$  we have the additional structure that the morphisms $\pi_2(A,C) \to \pi_1(C), \pi_2(B,C) \to \pi_1(C)$ are crossed modules, and so the required relative homotopy groups are in general nonabelian. If $m \geq 3 ,n \geq 3$ then $\pi_m(A,C), \pi_n(B,C)$ are still $\pi_1(C)$-modules.
 
 
 The extension to the non simply connected case was given by Brown and Loday; one simply replaces the usual tensor product by the nonabelian tensor product of groups which act on each other and on themselves by conjugation. This result is a special case of Seifert-van Kampen Theorem for $n$-cubes of spaces. Notice that the assumption (i) of the theorem is reminiscent of such a type of theorem. The useful fact is that one gets such a theorem for a certain kind of _structured space_ which allows for the development of algebraic structures which have structures in a range of dimensions.
 
 Thus one of the intuitions is that the Blakers-Massey Theorem, and hence also the FST,  is of the Seifert-van Kampen type, since we are assuming that $X$ is the union of the interiors of $A,B$. 
+
+=--
+
+### In higher topos theory
+
++-- {: .num_prop}
+###### Proposition
+
+The Blakers-Massey theorem in the form of remark \ref{InTermsOfPushouts} holds in every [[(∞,1)-topos]] of [[(∞,1)-sheaves]].
+
+=--
+
+This is shown in ([Rezk 10, prop. 816](#Rezk10)) with reference to [[(∞,1)-sites]].
+An intrinsic proof in [[homotopy type theory]] is announced in ([HoTTBook, theorem 8.10.2](#HoTTBook), [Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)), which translates to an [[internal language]] proof for all [[(∞,1)-toposes]] (including [[elementary (∞,1)-toposes]]).
+
+
+
+
+
 
 
 
@@ -144,8 +160,12 @@ Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[al
 * Michael Ching, [[John Harper]], _Higher homotopy excision and Blakers-Massey theorems for structured ring spectra_ ([arXiv:1402.4775](http://arxiv.org/abs/1402.4775))
 
 
-###  In homotopy type theory and $\infty$-topos theory
+### In $\infty$-topos theory and homotopy type theory
  {#ReferencesInHoTT}
+
+A proof of Blakers Massey in general [[∞-stack]] [[(∞,1)-toposes]] is in prop. 8.16 of
+
+* {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_ (2010) ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
 
 A general version of the connectivity theorem in [[homotopy type theory]] 
 (and thus in [[(infinity,1)-topos theory]]) was found by
