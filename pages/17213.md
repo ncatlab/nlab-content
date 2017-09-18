@@ -1041,7 +1041,7 @@ satisfying the following conditions:
 
    $$
      \array{
-       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(Z)
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(z)
          &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
        F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
        \\
@@ -1137,6 +1137,62 @@ In the literature often the term "monoidal functor" refers by default to what in
 If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a braided monoidal functor (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
 
 =--
+
++-- {: .num_defn #ModuleOverAMonoidalFunctor}
+###### Definition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}), and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[topologically enriched functor|topologically enriched]] [[lax monoidal functor]] between them, with product operation $\mu$.
+
+Then a left **[[module over a monoidal functor|module over the lax monoidal functor]]** is 
+
+1. a [[topologically enriched functor]] 
+
+   $$
+     G \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,;
+   $$
+
+1. a [[natural transformation]] 
+ 
+   $$
+     \rho_{x,y} 
+       \;\colon\; 
+     F(x) \otimes_{\mathcal{D}} N(y)
+      \longrightarrow
+    N(x \otimes_{\mathcal{C}} y )
+   $$
+
+such that
+
+* **(action property)** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} G(z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} G(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{id\otimes \rho_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} G(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( G(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\rho_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
+         && 
+       \downarrow^{\mathrlap{\rho_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       G( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       G( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
+
+=--
+
 
 ### Algebras and modules
  {#AlgebrasAndModules}
