@@ -24,19 +24,57 @@ $$\Lambda^j(V) = sgn_j \otimes_{k S_j} V^{\otimes j}.$$
 
 It is called the $j^{th}$ **alternating power** (of $V$). 
 
-+-- {: .num_prop}
+Another point of view on the alternating power is via [[superalgebra]]. For any [[cosmos]] $\mathbf{V}$ let $CMon(\mathbf{V})$ be the category of [[commutative monoid]] objects in $\mathbf{V}$. The forgetful functor $CMon(\mathbf{)} \to \mathbf{V}$ has a [[left adjoint]] 
+
+$$\exp(V) = \sum_{n \geq 0} V^{\otimes n}/S_n$$ 
+
+whose values are naturally regarded as graded by degree $n$. 
+
+This applies in particular to $\mathbf{V}$ the category of [[supervector spaces]]; if $V$ is a supervector space concentrated in odd degree, say with component $V_{odd}$, then each symmetry $\sigma: V \otimes V \to V \otimes V$ maps $v \otimes w \mapsto -w \otimes v$ for elements $v, w \in V_{odd}$. It follows that the graded component $\exp(V)_n$ is concentrated in $parity(n)$ degree, with component $\Lambda^n(V_{odd})$. 
+
++-- {: .num_prop} 
+###### Proposition 
+$\Lambda^n(V \oplus W) \cong \sum_{j + k = n} \Lambda^j(V) \otimes \Lambda^k(W)$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Again take $\mathbf{V}$ to be the category of supervector spaces. Since the left adjoint $\exp: \mathbf{V} \to CMon(\mathbf{V})$ preserves coproducts and since the tensor product $\otimes$ of $\mathbf{V}$ provides the coproduct for commutative monoid objects, we have a natural isomorphism 
+
+$$\exp(V \oplus W) \cong \exp(V) \otimes \exp(W).$$ 
+
+Examining the grade $n$ component $\exp(V \oplus W)_n$, this leads to an identification 
+
+$$\exp(V \oplus W)_n = \sum_{j + k = n} \exp(V)_j \otimes \exp(W)_k.$$ 
+
+and now the result follows by considering the case where $V, W$ are concentrated in odd degree. 
+=-- 
+
++-- {: .num_cor}
 ###### Proposition 
 If $V$ is $n$-[[dimension|dimensional]], then $\Lambda^j(V)$ has dimension $\binom{n}{j}$. In particular, $\Lambda^n(V)$ is 1-dimensional. 
 =-- 
 
 +-- {: .proof}
 ###### Proof 
-If $e_1, \ldots, e_n$ is a basis for $V$, then expressions of the form $e_{n_1} \otimes \ldots \otimes e_{n_j}$ form a [[basis of a vector space|basis]] for $V^{\otimes j}$. Let $e_{n_1} \wedge \ldots \wedge e_{n_j}$ denote the [[image]] of this element under the [[quotient]] map $V^{\otimes j} \to \Lambda^j(V)$. We have 
+By induction on dimension. If $\dim(V) = 1$, we have that $\Lambda^0(V)$ and $\Lambda^1(V)$ are $1$-dimensional, and clearly $\Lambda^n(V) = 0$ for $n \geq 2$, at least when $char(k) \neq 2$. 
+
+We then infer 
+
+$$\array{
+\Lambda^j(V \oplus k) & \cong & \sum_{p + q = j} \Lambda^p(V) \otimes \Lambda^q(k) \\ 
+ & \cong & \Lambda^j(V) \oplus \Lambda^{j-1}(V)
+}$$ 
+
+where the dimensions satisfy the same recurrence relation as for [[binomial coefficients]]: $\binom{n+1}{j} = \binom{n}{j} + \binom{n}{j-1}$. 
+=-- 
+
+More concretely: if $e_1, \ldots, e_n$ is a basis for $V$, then expressions of the form $e_{n_1} \otimes \ldots \otimes e_{n_j}$ form a [[basis of a vector space|basis]] for $V^{\otimes j}$. Let $e_{n_1} \wedge \ldots \wedge e_{n_j}$ denote the [[image]] of this element under the [[quotient]] map $V^{\otimes j} \to \Lambda^j(V)$. We have 
 
 $$e_{n_1} \wedge \ldots \wedge e_{n_i} \wedge e_{n_{i+1}} \wedge \ldots \wedge e_{n_j} = -e_{n_1} \wedge \ldots \wedge e_{n_{i+1}} \wedge e_{n_i} \wedge \ldots \wedge e_{n_j}$$ 
 
 (consider the transposition in $S_j$ which swaps $i$ and $i+1$) and so we may take only such expressions on the left where $n_1 \lt \ldots \lt n_j$ as forming a spanning set for $\Lambda^j(V)$, and indeed these form a basis. The number of such expressions is $\binom{n}{j}$. 
-=-- 
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -160,10 +198,5 @@ see [[Pfaffian]] for the moment
 
 * [[density bundle]]
 
-## References 
-
-The proof of [Proposition 3](#surj) on surjective endomorphisms of finitely generated modules was extracted from 
-
-* Stacks Project, Commutative Algebra, section 13 ([pdf](http://math.columbia.edu/algebraic_geometry/stacks-git/algebra.pdf))
 
 [[!redirects determinants]]
