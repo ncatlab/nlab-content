@@ -29,7 +29,7 @@ Every semisimple Lie algebra is a [[reductive Lie algebra]].
 A Lie algebra $\mathfrak{g}$ is semisimple precisely if the [[Killing form]] [[invariant polynomial]]
 
 $$
-  \langle x,y \rangle := tr (ad_x \circ ad_y)
+  \langle x,y \rangle \coloneqq tr (ad_x \circ ad_y)
 $$
 
 is non-degenerate as a [[bilinear form]].
