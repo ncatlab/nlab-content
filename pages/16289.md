@@ -1,0 +1,9 @@
+
+* [webpage](http://www.physics.adelaide.edu.au/theory/staff/crewther.html)
+
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Rod_Crewther)
+
+category: people
+
+[[!redirects Rod Crewther]]
