@@ -213,7 +213,18 @@ $$
   \array{
     Geist &&  && && 
     \\
-    && &&  &&  && \vdots && \vdots
+    \\
+    && &&  &&  && \rho(id) & \dashv & \rho(id)
+    \\ 
+    && &&  &&  && \vee & & \vee
+    \\ 
+    && &&  &&  && \rho(\Re) & & \rho(\&)
+    \\ 
+    && &&  &&  && \bot & Raum & \bot
+    \\ 
+    && &&  &&  && \rho(\&) &\dashv & \rho(\Im)
+    \\ 
+    && &&  &&  && \vee && \vee
     \\
     Natur &&   &&  && 
     & & \rho(&#643;) &\dashv& \rho(\flat) &
