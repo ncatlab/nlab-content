@@ -340,7 +340,7 @@ $$
 for the [[L-∞ algebra]] defined by the fact that its [[Chevalley-Eilenberg algebra]] is given by
 
 $$
-  d_{CE} t^a = - \frac{1}{2} C^a{}_{b c} t^b \edge t^c
+  d_{CE} t^a = - \frac{1}{2} C^a{}_{b c} t^b \wedge t^c
 $$
 
 $$
