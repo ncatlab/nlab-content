@@ -91,7 +91,12 @@ A **commutative** (unital) ring is an [[commutative monoid]] object in $(Ab, \ot
 
 In usual ring theory people often talk about **[[nonunital rings]]**  as well: multiplicative [[semigroups]] with additive [[abelian group]] structure where the multiplication is distributive toward addition; these are semigroup objects in $Ab$.  As in the unital case, if the semigroup is abelian then the ring is said to be **commutative nonunital**.  Note the adjective 'nonunital' is an example of the [[red herring principle]].
 
-=--
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+If one removes the assumption that the additive group is abelian but retains the remaining ring axioms, the result is still a ring. (Expand $(1 + a)(1 + b)$ in two different ways, and cancel to conclude commutativity.) The result is false for nonunital rings: for any group $(G, +)$ we could define multiplication to be the [[constant]] function at the additive identity, and all the axioms except additive commutativity are trivially satisfied. 
+=-- 
 
 ## Generalizations
 
