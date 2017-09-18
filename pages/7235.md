@@ -42,3 +42,5 @@ $E_7$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] 
 
 * wikipedia, _[E7](http://en.wikipedia.org/wiki/E%E2%82%87)_
 
+* {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], section 3.1 of  _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
+ 
