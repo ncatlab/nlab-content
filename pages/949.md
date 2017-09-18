@@ -207,3 +207,4 @@ _Todd_: Interesting discussion. Just wanted to add that I'd recently been thinki
 
 [[!redirects impredicative mathematics]]
 [[!redirects impredicative logic]]
+[[!redirects impredicative]]
