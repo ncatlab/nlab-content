@@ -602,13 +602,15 @@ $$
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-A _[[Omega-spectrum]]_ is a sequential spectrum $X$, def. \ref{SequentialSpectra}, such that the ([[smash product]] $\dashv$ [[pointed mapping space]])-[[adjuncts]]
+An **[[Omega-spectrum]]** is a [[sequential spectrum]] $X$ of topological spaces, def. \ref{SequentialSpectra}, such that the ([[smash product]] $\dashv$ [[pointed mapping space]])-[[adjuncts]] $\tilde \sigma_n$ of the structure maps $\sigma_n \colon \Sigma X_n \to X_{n+1}$ of $X$ are [[weak homotopy equivalences]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakHomotopyEquivalenceOfTopologicalSpaces)), hence classical weak equivalences ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassesOfMorhismsInTopQuillen)):
 
 $$
-  X_n  \stackrel{}{\longrightarrow}  X^{n+1}^{S^1}
+  \tilde \sigma_n
+  \;\colon\;
+  X_n  \stackrel{\in W_{cl}}{\longrightarrow}  X_{n+1}^{S^1}
 $$
 
-of the structure maps $\sigma_n$ are [[weak homotopy equivalences]].
+for all $n \in \mathbb{N}$.
 
 =--
 
