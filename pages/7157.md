@@ -50,7 +50,7 @@ $$
 
 are [[weak equivalences]].
 
-**Warning.** A Dyckerhoff-Kapranov "2-Segal spaces" is not itself a model for an [[(∞,2)-category]]. Instead, it is a model for an [[(∞,1)-operads]] ([Dyckerhoff-Kapranov 12, section 3.6](#DyckerhoffKapranov12)).
+**Warning.** A Dyckerhoff-Kapranov "2-Segal spaces" is not itself a model for an [[(∞,2)-category]]. Instead, it is a model for an [[(∞,1)-operad]] ([Dyckerhoff-Kapranov 12, section 3.6](#DyckerhoffKapranov12)).
 
 Under some conditions DW 2-Segal spaces $X_\bullet$ induce [[Hall algebra]] structures on $X_1$ ([Dyckerhoff-Kapranov 12, section 8](#DyckerhoffKapranov12)).
 
