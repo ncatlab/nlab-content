@@ -176,7 +176,7 @@ A right adjoint to any cocontinuous functor $F \colon C \to D$ between locally p
  {#InLocallyPresentableCategories}
 
 The following is a counter-example, showing that the
-necessity of the accesibility clause in theorem \ref{AdjFuncTheoremForLocallyPresentableCats}.
+necessity of the accessibility clause in theorem \ref{AdjFuncTheoremForLocallyPresentableCats}.
 
 +-- {: .num_examle}
 ###### Example
