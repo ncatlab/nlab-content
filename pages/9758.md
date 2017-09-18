@@ -220,6 +220,7 @@ These computations control the existence of [[Green-Schwarz action functionals]]
 
 ## References
 
+Named after [[Markus Fierz]].
 
 General accounts include
 
