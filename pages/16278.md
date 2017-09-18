@@ -8,6 +8,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Relation to speculative philosophy
 
 According to [[Georg Hegel]], _[[Encyclopedia of the Philosophical Sciences]]_, medieval mysticism is the same as the [[speculative philosophy]] of the 19th century:
@@ -36,13 +40,13 @@ In the autobiographical book _Portraits from Memory_ the passage
 
 may serve as an example how Russell was influenced in young age by the exposure to mathematics; more poetically it is expressed in the essay _The Study of Mathematics_ published along with _Mysticism and Logic_ ([Russell 1918]({#Russell18))
 
-> Mathematics, rightly viewed, possesses not only truth, but supreme beauty---a beauty cold and austere, like that of sculpture, without the gorgeous trappings of painting or music, yet sublimely pure, and capable of a stern perfection such as only the greatest art can show. The true spirit of delight, the exaltation, the sense of being more than man, which is the touchstone of the highest excellence, is to be found in mathematics as surely as in poetry. ... Real life is, to most men, a long second-best, a perpetual compromise between the ideal and the possible; but the world of pure reason knows no compromise, no practical limitations, no barrier to the creative activity embodying in splendid edifices the passionate aspiration after the perfect from which all great works springs.
+> Mathematics, rightly viewed, possesses not only truth, but supreme beauty---a beauty cold and austere, like that of sculpture, without the gorgeous trappings of painting or music, yet sublimely pure, and capable of a stern perfection such as only the greatest art can show. The true spirit of delight, the exaltation, the sense of being more than man, which is the touchstone of the highest excellence, is to be found in mathematics as surely as in poetry. ... Real life is, to most men, a long second-best, a perpetual compromise between the iideal and the possible; but the world of pure reason knows no compromise, no practical limitations, no barrier to the creative activity embodying in splendid edifices the passionate aspiration after the perfect from which all great works springs.
 
 > ... Of the austere virtues the love of truth is the chief, and in mathematics, more than elsewhere, the love of truth may find encouragement for waning faith.
 
-According to Ray [Monk's biography](#Monk97) on Russell, the search for a foundation of this "Pythagorean" mysticism governed the first half of his life: Being deeply disappointed by the mathematical curriculum at Cambridge, which did not address his philosophical needs, Russell turned to idealism which was at that time propounded in Britain by J.M.E. McTaggart following the German tradition of Kant and Hegel. Under this influence Russell devised a variation of Kant's concept of space claiming that the curvature of physical space is a priori constant.
+According to Ray [Monk's biography](#Monk97) on Russell, the search for a foundation of this "Pythagorean" mysticism governed the first half of his life: Being deeply disappointed by the mathematical curriculum at Cambridge, which did not address his philosophical needs, Russell turned to [[idealism]] which was at that time propounded in Britain by J.M.E. McTaggart following the German tradition of [[Kant]] and [[Hegel]]. Under this influence Russell devised a variation of Kant's concept of space claiming that the curvature of physical space is a priori constant.
 
-Exposure to the work of the German mathematicians [[Richard Dedekind|Dedekind]], [[Karl Weierstraß|Weierstraß]], and [[Georg Cantor|Cantor]] along with a personal meeting with Peano caused a turn in Russell's views. He now hoped to find a rigorous foundation of mathematics based solely on logical axioms, thereby justifying a kind of Platonic view on mathematics. But over the years he was frustrated in this attempt by many problems he encountered, especially [[Russell's paradox]]. He gradually gave up all his Platonic beliefs; arriving in the end (after [[Wittgenstein|Wittgenstein's]] [[Tractatus Logico-Philosophicus|Tractatus]]) at formalism.
+Exposure to the work of the German mathematicians [[Richard Dedekind|Dedekind]], [[Karl Weierstraß|Weierstraß]], and [[Georg Cantor|Cantor]] along with a personal meeting with [[Peano]] caused a turn in Russell's views. He now hoped to find a rigorous [[foundations|foundation of mathematics]] based solely on [[logic|logical]] [[axioms]], thereby justifying a kind of [[platonism|Platonic]] view on mathematics. But over the years he was frustrated in this attempt by many problems he encountered, especially [[Russell's paradox]]. He gradually gave up all his Platonic beliefs; arriving in the end (after [[Wittgenstein|Wittgenstein's]] [[Tractatus Logico-Philosophicus|Tractatus]]) at [[formalism]].
 
 
 ## Related entries
