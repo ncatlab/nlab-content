@@ -167,7 +167,8 @@ This is a special case of the general [[cobordism hypothesis]]-theorem.
 
 The idea of the proof is that a topological open string theory, i.e., a symmetric monoidal [[(∞,1)-functor]] $Z : \mathcal{O} \to C$ has a [[Kan extension]] to an open-closed topological string theory, i.e., to a symmetric monoidal [[(∞,1)-functor]] $Z : \mathcal{OC} \to C$, which is the unfolded version of a symmetric monoidal [[(∞,2)-functor]] from $Bord^{nc}_2$ to a symmetric monoidal $(\infty,2)$-category $C'$.
 
-## Worldsheet and effective background theories {#ActionFunctionals}
+## Worldsheet and effective background theories 
+ {#ActionFunctionals}
 
 One imagines generally that one obtains TCFTs, in their formal definition given above, from worldsheet [[action functional]]s as familiar from the physics literature (such as on the [[A-model]] and the [[B-model]]) by performing the [[path integral]] and finding from it a collection of [[differential form]]s on [[moduli space]] of bosonic field configurations.
 
@@ -198,11 +199,11 @@ In [Cos06](http://arxiv.org/abs/math/0605647) is constructed from the geometric 
      \,.
    $$
 
-So this construxts a 2d TCFT and shows that its [[effective field theory|effective]] background quantum field theory is a [[Chern-Simons theory]]. While the action functionl on the worldsheet itself, whose [[path integral]] should give the [[differential forms]] on [[moduli space]] considered above, is not explicitly considered here, this does formalizes at least some aspects of an observation that was earlier made in ([Witten 92](#Witten92)) where it was observed that Chern-Simons theory is the effective background string theory of 2d TFTs obtained from action functionals of the A-model and the B-model.
+So this constructs a 2d TCFT and shows that its [[effective field theory|effective]] background quantum field theory is a [[Chern-Simons theory]]. While the action functionl on the worldsheet itself, whose [[path integral]] should give the [[differential forms]] on [[moduli space]] considered above, is not explicitly considered here, this does formalizes at least some aspects of an observation that was earlier made in ([Witten 92](#Witten92)) where it was observed that Chern-Simons theory is the effective background string theory of 2d TFTs obtained from action functionals of the A-model and the B-model.
 
 Similarly the effective background QFT of the [[B-model]] topological string can be identified. This is known as _[[Kodeira-Spencer gravity]]_ or as _[[BCOV theory]]_.
 
-(See also at _[[world sheets for world sheets]]_ for a similar mechanism.)
+(See also at _[[world sheets for world sheets]]_ for a similar mechanism and see at _[[super 1-brane in 3d]]_ for related "physical" strings.)
 
 So via the detour over the effective background field theory, this sort of shows that the physicist's A-model and B-model are indeed captured by the abstract [[FQFT]] definition of TCFT as given above.
 
