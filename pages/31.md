@@ -125,9 +125,6 @@ with Aaron Lauda, to appear in proceedings of
 an Underlying Intelligibility of the Quantum World</i>, ed. 
 Hans Halvorson. <b>Draft version.</b>
 
-[Higher gauge theory II: 2-connections](http://math.ucr.edu/home/baez/2conn.pdf), with Urs Schreiber.  <b>Draft version.</b>
-
-
 category: people
 
 [[!redirects John C. Baez]]
