@@ -19,14 +19,14 @@
 
 ## Idea
 
-A natural [[topology]] on [[mapping space]]s of [[continuous function]]s, important because of its role in exhibiting locally compact topological spaces to be exponentiable, as demonstrated below, culminating in Corollary 13.
+A natural [[topology]] on [[mapping spaces]] of [[continuous functions]], important because of its role in exhibiting [[locally compact topological spaces]] to be [[exponential object|exponentiable]], as demonstrated below, culminating in Corollary \ref{GivesExponentialObject}.
 
 ## Definition
 
 +-- {: .num_prop}
 ###### Notation
 
-Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We denote by $Y^{X}$ the set of continuous maps from $(X,\mathcal{O}_{X})$ to $(Y, \mathcal{O}_{Y})$. 
+Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We denote by $Y^{X}$ the set of [[continuous maps]] from $(X,\mathcal{O}_{X})$ to $(Y, \mathcal{O}_{Y})$. 
 
 =--
 
@@ -40,7 +40,7 @@ Other common notations for $Y^{X}$ are $Map(X,Y)$ or $C(X,Y)$.
 +-- {: .num_prop}
 ###### Notation
 
-Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. We denote by $\mathcal{O}^{c}_{X}$ the set of subsets of $X$ which are compact with respect to $\mathcal{O}_{X}$.
+Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. We denote by $\mathcal{O}^{c}_{X}$ the set of subsets of $X$ which are [[compact subset|compact]] with respect to $\mathcal{O}_{X}$.
 
 =--
 
@@ -51,17 +51,17 @@ Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. Let $A$ be a subset of $X
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #LocallyCompact}
 ###### Definition 
 
-A topological space $(X, \mathcal{O}_{X})$ is _locally compact_ if, for every $x \in X$ and every $U \in \mathcal{O}_{X}$ such that $x \in U$, there is a $V \in \mathcal{O}_{X}$ such that $x \in V$, such that $\overline{V} \in \mathcal{O}^{c}_{X}$, and such that $\overline{V} \subset U$.
+A topological space $(X, \mathcal{O}_{X})$ is _[[locally compact topological space|locally compact]]_ if, for every $x \in X$ and every $U \in \mathcal{O}_{X}$ such that $x \in U$, there is a $V \in \mathcal{O}_{X}$ such that $x \in V$, such that $\overline{V} \in \mathcal{O}^{c}_{X}$, and such that $\overline{V} \subset U$.
 
 =--
 
 +-- {: .num_prop}
 ###### Remark
 
-There are many variations on this definition, which can be found at [[locally compact space]]. These are all equivalent if $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. We do _not_ however make the assumption that $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. 
+There are many variations on this definition, which can be found at _[[locally compact space]]_. These are all equivalent if $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. We do _not_ however make the assumption that $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. 
 
 =--
 
@@ -72,26 +72,27 @@ Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]].
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CompactOpenTopology}
 ###### Definition
 
-Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. The _compact-open_ topology on $Y^{X}$ is that with sub-basis given by the set of sets $M_{A,U}$ such that $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$. 
+Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. The _compact-open_ topology on $Y^{X}$ is that with [[base of a topological space|sub-basis]] given by the set of sets $M_{A,U}$ such that $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$. 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CompactOpenTopologyNotation}
 ###### Notation
 
-Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We shall denote the compact-open topology on $Y^{X}$ by $\mathcal{O}_{Y^{X}}$.  
+Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We shall denote the compact-open topology (def. \ref{CompactOpenTopology}) on $Y^{X}$ by $\mathcal{O}_{Y^{X}}$.  
 
 =--
 
 ## Exponentiability
+ {#Exponentiability}
 
 +-- {: .num_prop}
 ###### Proposition 
 
-Let $(X, \mathcal{O}_{X})$ be a locally compact topological space, and let $(Y, \mathcal{O}_{Y})$ be a [[topological space]]. The map $ev : X \times Y^{X} \rightarrow Y$ given by $(x,f) \mapsto f(x)$ is continuous, where $X \times Y^{X}$ is equipped with the product topology $\mathcal{O}_{X \times Y^{X}}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y^{X}}$. 
+Let $(X, \mathcal{O}_{X})$ be a locally compact topological space, def. \ref{LocallyCompact}, and let $(Y, \mathcal{O}_{Y})$ be a [[topological space]]. The map $ev : X \times Y^{X} \rightarrow Y$ given by $(x,f) \mapsto f(x)$ is continuous, where $X \times Y^{X}$ is equipped with the product topology $\mathcal{O}_{X \times Y^{X}}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y^{X}}$ (notation \ref{CompactOpenTopologyNotation}). 
 
 =--
 
@@ -114,15 +115,14 @@ By 3) and 4), we see that we can take $U'$ as the beginning of the proof to be $
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #alphafIsContinuous}
 ###### Proposition 
 
-Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and     $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Let $f : X \times Y \rightarrow Z$ be a continuous map, where $X \times Y$ is equipped with the product topology $\mathcal{O}_{X \times Y}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y}$. Then the map $\alpha_{f} : X \rightarrow Z^{Y}$ given by $x \mapsto f_{x}$ is continuous, where $f_{x} : Y \rightarrow Z$ is given by $y \mapsto f(x,y)$, and where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. 
+Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Let $f : X \times Y \rightarrow Z$ be a continuous map, where $X \times Y$ is equipped with the product topology $\mathcal{O}_{X \times Y}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y}$. Then the map $\alpha_{f} : X \rightarrow Z^{Y}$ given by $x \mapsto f_{x}$ is continuous, where $f_{x} : Y \rightarrow Z$ is given by $y \mapsto f(x,y)$, and where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. 
 
 =--
 
 +-- {: .proof}
-
 ###### Proof
 
 By an elementary fact concerning continuous maps, it suffices to show that for any $x \in X$, and any $M_{A,U} \in \mathcal{O}_{Z^{Y}}$ such that $f_{x} \in M_{A,U}$, there is a $U' \in \mathcal{O}_{X}$ such that $x \in U'$, and such that $\alpha_{f}( U' ) \subset M_{A,U}$. 
@@ -147,7 +147,7 @@ We conclude that we can take the required $U'$ of the beginning of the proof to 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #alphainvfIsContinuous}
 ###### Proposition 
 
 Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and     $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Let $f : X \rightarrow Z^{Y}$ be a continuous map, where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. Then the map $\alpha^{-1}_{f} : X \times Y \rightarrow Z$ given by $(x,y) \mapsto \big( f(x) \big)(y)$ is continuous, where $X \times Y$ is equipped with the product topology $\mathcal{O}_{X \times Y}$. 
@@ -171,7 +171,7 @@ We make the following observations.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #GivesExponentialObject}
 ###### Corollary
 
 Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$  be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Then $(Y^{X}, \mathcal{O}_{Y^{X}})$ together with the corresponding map $ev$ defines an exponential object in the category $\mathsf{Top}$ of all topological spaces.
@@ -181,7 +181,7 @@ Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$  be [[topological spaces]]
 +-- {: .proof}
 ###### Proof
 
-Follows immediately from Proposition 11, Proposition 12, and the fact that $Y^{X}$ and $ev$ are exhibited by the corresponding maps $\alpha_{-}$ and  $\alpha^{-1}_{-}$ of Proposition 11 and Proposition 12 to define an exponential object in the category $\mathsf{Set}$ of sets.
+Follows immediately from Proposition \ref{alphafIsContinuous}, Proposition \ref{alphainvfIsContinuous}, and the fact that $Y^{X}$ and $ev$ are exhibited by the corresponding maps $\alpha_{-}$ and  $\alpha^{-1}_{-}$ of Proposition \ref{alphafIsContinuous} and Proposition \ref{alphainvfIsContinuous} to define an exponential object in the category $\mathsf{Set}$ of sets.
 
 =--
 
