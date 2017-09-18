@@ -34,12 +34,15 @@ The pictures are named after those physicists who first used or popularised thes
 
 (...)
 
+## Related concepts
+
+* [[S-matrix]]
 
 ## References
 
-For instance section 7.19.3 in
+For instance 
 
-* [[Eberhard Zeidler]], _Quantum field theory. A bridge between mathematicians and physicists -- volume I_ Springer (2009) ([web](http://www.mis.mpg.de/zeidler/qft.html))
+* [[Eberhard Zeidler]], section 7.19.3 of _Quantum field theory. A bridge between mathematicians and physicists -- volume I_ Springer (2009) ([web](http://www.mis.mpg.de/zeidler/qft.html))
 
 
 [[!redirects Dirac picture]]
