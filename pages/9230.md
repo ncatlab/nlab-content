@@ -47,7 +47,7 @@ $$
 is the [[kinetic energy]] and [[kinetic action]] of the field field configuration $\phi$.
 
 
-An [[sum]] over all values of $\phi$ is the finite (and hence well-defined) analog of a [[path integral]]. The [[Gaussian integral]] of $A$ is called the _[[partition function]]_:
+A [[sum]] over all values of $\phi$ is the finite (and hence well-defined) analog of a [[path integral]]. The [[Gaussian integral]] of $A$ is called the _[[partition function]]_:
 
 $$
   \begin{aligned}
@@ -72,7 +72,7 @@ An _[[n-point function]]_, is an  $n$th [[moment]] of this Gaussian distribution
 
 $$
   \begin{aligned}
-  \langle \phi_{x_1} \phi_{x_2} \cdots \phi_{k_n}\rangle
+  \langle \phi_{x_1} \phi_{x_2} \cdots \phi_{x_n}\rangle
   & \coloneqq
   \frac{1}{Z_0}
   \int  
@@ -84,7 +84,7 @@ $$
   \\
   & \coloneqq
   \frac{1}{Z_0} 
-  \int_{\mathbb{R}} 
+  \int_{\mathbb{R}^k} 
   \left(
   \exp(-\tfrac{1}{2} \phi_x A_{x,y}\phi_y)
   \,
@@ -116,7 +116,7 @@ $$
   \,,
 $$
 
-where $A^{-1} = (A^{-1}_{x y})$ is the [[inverse matrix]] of $A$. In applications to field theory this $A^{-1}$ is called the _[[Feynman propagator]]_. Notice that in "[[Schwinger parameterization]]" $A^{-1}_{x,y} = \int_0^\infty \exp(- \tau A_{x,y}) d\tau$ and we may think of $\exp(-\tau A_{x,y})$ is the propagator for a scalar along its [[worldline]] of length $\tau$ from $x$ to $y$ ("[[worldline formalism]]").
+where $A^{-1} = (A^{-1}_{x,y})$ is the [[inverse matrix]] of $A$. In applications to field theory this $A^{-1}$ is called the _[[Feynman propagator]]_. Notice that in "[[Schwinger parameterization]]" $A^{-1}_{x,y} = \int_0^\infty \exp(- \tau A_{x,y}) d\tau$ and we may think of $\exp(-\tau A_{x,y})$ is the propagator for a scalar along its [[worldline]] of length $\tau$ from $x$ to $y$ ("[[worldline formalism]]").
 
 By construction, the $n$-point function is then equal to the [[partial derivatives]] of the [[generating function]] with respect to the [[source]] [[variable]] $J$ and evaluated at $J = 0$:
 
@@ -146,7 +146,7 @@ $$
 
 where the last [[equality]] is known as [[Wick's theorem]]. This is the source of all Feynman digrammatics.
 
-Now consider a [[polynomial]] $V(\phi)$ of degree $\geq 3$.  In applications to field treory this represents the [[potential energy]] or (self)[[interaction]] of the field configuration. The difference of the [[kinetic action]] and the [[interaction]] is called the [[action]]
+Now consider a [[polynomial]] $V(\phi)$ of degree $\geq 3$.  In applications to field theory this represents the [[potential energy]] or (self)[[interaction]] of the field configuration. The difference of the [[kinetic action]] and the [[interaction]] is called the [[action]]
 
 $$
   S = \tfrac{1}{2} \sum_{x,y = 1}^k \phi_x A_{x y} \phi_y + g V(\phi)
@@ -208,7 +208,7 @@ and the second to the Feynman diagram of the form
 
 
 
-### For infintely many degrees of freedom
+### For infinitely many degrees of freedom
 
 ## Related concepts
 
