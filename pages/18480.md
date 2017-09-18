@@ -51,7 +51,7 @@ $\,$
 
 ## Idea
 
-Digraphs are one of the ways to formalize the idea of *directed connections between [[points]]*: to use the [[category of sets]] and its limits, and to *choose* the *desired* connections from a usually much larger reservoir of *possible* connections. This has advantages and disadvantages. Other ways of formalization, such as [[quivers]], from the outset *start* with *only* the desired connections.
+Digraphs are one way to formalize the idea of *directed connections between [[points]]*: digraphs use the [[category of sets]] and its limits, and to *choose* the *desired* connections from a usually much larger reservoir of *possible* connections. This has advantages and disadvantages. Other ways of formalization, such as [[quivers]], from the outset *start* with *only* the desired connections.
 
 
 ## Definitions
@@ -62,7 +62,7 @@ Digraphs are one of the ways to formalize the idea of *directed connections betw
 **(digraph; directed graphs via [[material set theory]])**
 
 A digraph is a [[pair]] $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus\{ (v,v)\colon v\in V\}$.
-Here, $V\times V$ is the [[product]] in the [[category of sets]].
+Here, $V\times V$ denotes the [[product]], and ${}\setminus{}$ the [[relative complement]] in the [[category of sets]].
 The elements of $V$ are called *vertices*, the elements of $A$ are called *arcs*. 
 
 
@@ -95,18 +95,20 @@ Suppose $D=(V,A)$ is a digraph and $v\in V$. The *in-degree* of $v$ in $D$, deno
 ###### Definition
 **(walk in a digraph)**
 
-Suppose $D=(V,A)$ is a digraph. A *walk* in $D$ is a [[sequence]] $P\colon\ell\rightarrow V\cup A$ with $P(0)\in V$, and for all $i\in\ell$ with $P(2i)\in V$, $P(2i+1)\in A$, and $P(2i+1) = (P(2i),P(2i+2))$. 
+Suppose $D=(V,A)$ is a digraph. A *walk* in $D$ is a [[sequence]] $P\colon\ell\rightarrow V\cup A$, where $\ell$ is an [[ordinal]], with $P(0)\in V$, and such that for all $i\in\ell$,  $P(2i)\in V$, $P(2i+1)\in A$, and $P(2i+1) = (P(2i),P(2i+2))$. 
+The [[cardinality]] of the ordinal $\ell$ is called the *length* of $P$.
+
 
 =--
 
-Remark. $\ell=0$ is permitted; then, the only non-vacous condition is $P(0)\in V$.
+Remark. $\ell=0$ is permitted; then, the only non-vacous condition is that $P(0)$ be an element of $V$. That is, a path cannot start with an arc. 
 
 
 +-- {: .num_defn #Trail}
 ###### Definition
 **(trail in a digraph)**
 
-Suppose $D=(V,A)$ is a digraph. A *trail* in $D$ is a walk $P$ in $D$ such that the [[restriction]] $P|_{    \{2i\colon i\in\ell\}            }$ is injective as a function.
+Suppose $D=(V,A)$ is a digraph. A *trail* in $D$ is a walk $P$ in $D$ such that the [[restriction]] $P|_{    \{2i\colon i\in\ell\}            }$ is injective as a [[function]].
 
 =--
 
@@ -120,12 +122,22 @@ Suppose $D=(V,A)$ is a digraph. A *path* in $D$ is a trail $P$ in $D$ such that 
 
 =--
 
+Remark. One should point out immediately that *the standard meaning of "path"* in (di)graph theory is somewhat opposite to the standard meaning of "path" in topology (cf. [[path]] for this). 
+In digraph theory a path does not have *any* self-intersections, hence is is (essentially) an isomorphism onto its image, while in topology the term *path* signals that self-intersections *are* permitted. 
+The standard term for a path which is free of self-intersections is [[arc]]. 
+It is something of a saving grace that the standard way to rigorously define *the arcs of plane digraphs* uses precisely the topological [[arcs]]. 
+
+
+
+
 
 +-- {: .num_defn #King}
 ###### Definition
 **(king, coking, $d$-king, $d$-coking, $\infty$-king, $\infty$-coking)**
 
-Suppose $D=(V,A)$ is a digraph. A vertex $v$ of $D$ is a *king* (resp. *coking*) of $D$ if and only if $(v,w)\in A$ (resp. $(w,v)\in A$) for all $w\in V\setminus\{v\}$. For any finite [[cardinal number|cardinal]] $d$, a vertex $v$ of $D$ is a *$d$-king* if and only if each vertex of $D$ can be reached along a path, starting with $v$, with at most $d$ arcs. A vertex $v$ of $D$ is an *$\infty$-king* if and only if each vertex of $D$ can be reached along a path, starting with $v$, having any finite number of arcs. $d$-coking and $\infty$-cokings are dually defined.
+Suppose $D=(V,A)$ is a digraph. 
+A vertex $v$ of $D$ is a *king* (resp. *coking*) of $D$ if and only if $(v,w)\in A$ (resp. $(w,v)\in A$) for all $w\in V\setminus\{v\}$. For any finite [[cardinal number|cardinal]] $d$, a vertex $v$ of $D$ is a *$d$-king* if and only if each vertex of $D$ can be reached along a path, starting with $v$, with at most $d$ arcs. A vertex $v$ of $D$ is an *$\infty$-king* if a
+nd only if each vertex of $D$ can be reached along a path, starting with $v$, having any finite number of arcs. $d$-coking and $\infty$-cokings are dually defined.
 
 
 =--
@@ -147,7 +159,7 @@ The terminology *king* above is standard in modern digraph theory; the term *cok
 [^1]: According to recommendations received in email correspondence with mathematicians working in digraph theory.
 
 
-A reason for treating the concept of $\infty$-kings here is A. J. Power's [proof](#Power1990) of a *pasting theorem*, a rigorous justification of the notational practice of [[diagrams]]: therein, both $\infty$-kings and $\infty$-cokings play an important role (Power calls $\infty$-kings "sources" and $\infty$-cokings "sinks"; both these terms clash with two standard technical terms in contemporary digraph theory, which is why the alternative terms were chosen).
+A reason for treating the concept of $\infty$-kings here is A. J. Power's [proof](#Power1990) of a *pasting theorem*, a rigorous justification of the notational practice of [[diagrams]]: therein, both $\infty$-kings and $\infty$-cokings play an important role (Power calls $\infty$-kings "sources" and $\infty$-cokings "sinks"; both these terms clash with two standard technical terms in, respectively, contemporary digraph theory and flow theory, which is why the alternative terms were chosen).
 
 ## Uses of digraphs in category theory 
 
