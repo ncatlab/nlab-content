@@ -24,7 +24,11 @@
 ###### Definition
 
 A [[continuous map]] $p \;\colon\; E\longrightarrow B$ of [[topological space]] is called a **Hurewicz fibration**  it it satisfies the [[right lifting property]] with respect to maps of the form 
-$\sigma_0 \;\colon\; X\cong X\times\{0\}\hookrightarrow X\times I$ for all topological spaces $X$.
+
+$$ \sigma_0 \;\colon\; X\cong X\times\{0\}\hookrightarrow X\times I
+$$ 
+
+for all topological spaces $X$, where $I$ denotes the [[topological interval]].
 
 =--
 
