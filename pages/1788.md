@@ -1,2 +1,2 @@
 
-$\emptyset$
+$\e$ $e$ e  $\rightsquigarrow$
