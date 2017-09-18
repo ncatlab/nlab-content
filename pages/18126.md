@@ -2316,7 +2316,7 @@ and called their _[[product category]]_ whose
 
 1. [[objects]] are [[pairs]] $(c,d)$ with $c$ an object of $\mathcal{C}$ and $d$ an object of $\mathcal{D}$;
 
-* [[mophisms]] are [[pairs]] $(f,g) \colon (c,d) \to (c', d')$ with $f \colon c \to d$ a morphism of $\mathcal{C}$
+* [[morphisms]] are [[pairs]] $(f,g) \colon (c,d) \to (c', d')$ with $f \colon c \to d$ a morphism of $\mathcal{C}$
 and $g \colon d \to d'$ a morphisms of $\mathcal{D}$,
 
 * [[composition]] of morphisms is defined pairwise $(f', g') \circ (f,g) \coloneqq ( f' \circ f, g' \circ g )$.
@@ -6504,6 +6504,7 @@ For the next section see _[[Introduction to Topology -- 2|Secton 2 -- Basic homo
 $\,$
 
 ***
+
 
 
 ## References
