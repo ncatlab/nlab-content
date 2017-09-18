@@ -198,7 +198,7 @@ We may express the set of [[natural transformation]]s $PSh_C(j(U_i) \times_{j(U)
 $$
   PSh_C(j(U_i) \times_{j(U)} j(U_j), A)
   \simeq
-  \int^{K \in C}
+  \int_{K \in C}
    Set( C(K,U_i) \times_{C(K,U)} C(K,U_j) , A(K))
   \,.
 $$
@@ -209,11 +209,11 @@ $$
   \prod_i A(U_i)
   \simeq
   \prod_i 
-  \int^{K \in C}
+  \int_{K \in C}
    Set( C(K,U_i), A(K))
   \stackrel{\to}{\to}
    \prod_{i,j}
-  \int^{K \in C}
+  \int_{K \in C}
    Set( C(K,U_i) \times_{C(K,U)} C(K,U_j) , A(K))
 $$
 
