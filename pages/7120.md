@@ -29,7 +29,9 @@ $$
   \mathcal{A}\stackrel{\overset{j_!}{\longleftarrow}}{\stackrel{\overset{j^*}{\longrightarrow}}{\underset{j_*}{\longleftarrow}}}\mathcal{A}''
 $$
 
-among three [[abelian category|abelian]] or [[triangulated categories]] satisfying a strong list of [[exact functor|exactness]] and [[adjoint functor|adjointness]] axioms. The paradigmatic situation is about the categories of abelian [[sheaves]] $\mathcal{A}' = Sh(C)$, $\mathcal{A} = Sh(X)$, $\mathcal{A}'' = Sh(U)$, where $U\subset X$ is an [[open subset]] of a [[topological space]], $C = X\backslash U$, and the functors among the [[category of sheaves|sheaf categories]] are induced by the open embedding $j:U\hookrightarrow X$ and closed embedding $i:C\hookrightarrow X$. 
+among three [[abelian category|abelian]] or [[triangulated categories]] satisfying a strong list of [[exact functor|exactness]] and [[adjoint functor|adjointness]] axioms. 
+
+The paradigmatic situation is about the categories of abelian [[sheaves]] $\mathcal{A}' = Sh(C)$, $\mathcal{A} = Sh(X)$, $\mathcal{A}'' = Sh(U)$, where $U\subset X$ is an [[open subset]] of a [[topological space]], $C = X\backslash U$, and the functors among the [[category of sheaves|sheaf categories]] are induced by the open embedding $j:U\hookrightarrow X$ and closed embedding $i:C\hookrightarrow X$. As suggested by this example, recollement may in fact be regarded as the additive or triangulated version of [[Artin gluing]]. 
 
 ## Definition
 
