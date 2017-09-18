@@ -79,6 +79,23 @@ For example the [[suspension]] of a CW-complex itself carries the structure of a
 Similarly for [[pointed topological space|pointed]] CW-complexes: the [[smash product]] of a pointed CW-complex with a finite pointed CW-complex is a pointed CW-complex. For example the [[reduced suspension]] $S^1 \wedge X$ of a  pointed CW-complex $X$ is itself a CW-complex.
 
 
++-- {: .num_prop #ClosureOfCWComplexesUnderCartesianProduct}
+###### Proposition
+
+For $X$ and $Y$ [[CW-complexes]] with attaching maps $\{\phi_\alpha\}$ and $\{\Psi_\beta\}$, then the [[compactly generated topological space|k-ification]] $(X \times Y)_c$ of their [[product topological space]] $X \times Y$ (hence their Cartesian product in the category of [[compactly generated topological spaces]]) is again a CW-complex with attaching maps $\{\Phi_\alpha \times \Psi_\beta\}$. 
+
+If either of the two CW-complexes is a [[locally compact topological space]] or if both are countable CW-complexes (have a [[countable set]] of cells) then
+
+$$
+  (X\times Y)_c \simeq X \times Y
+$$
+
+and so then the [[product topological space]] $X \times Y$ itself has CW-complex structure.
+
+=--
+
+([Hatcher, theorem A.6](#Hatcher))
+
 ### Local contractibility
  {#LocalContractibility}
 
