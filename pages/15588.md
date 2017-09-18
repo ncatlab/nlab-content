@@ -58,6 +58,10 @@ Review is for instance
 
 * {#Sorger99} [[Christoph Sorger]], _Lectures on moduli  of principal $G$-bundles over algebraic curves_, 1999 ([pdf](http://users.ictp.it/~pub_off/lectures/lns001/Sorger/Sorger.pdf))
 
+See also
+
+* [[Jochen Heinloth]], _Uniformization of $\mathcal{G}$-Bundles_ ([pdf](https://www.uni-due.de/~hm0002/Artikel/Uniformization_17-8-09.pdf))
+
 For more references see at _[[moduli stack of bundles]]_.
 
 [[!redirects Weil uniformization]]
