@@ -1,1 +1,35 @@
-..
+$$
+  \array{
+    && \underset{n}{\sqcup} X_n
+    \\
+    & \swarrow && \searrow
+    \\
+    \underset{n}{\sqcup} X_{2n+1} &\longrightarrow& X' &\longleftarrow& \underset{n}{\sqcup} X_{2n}
+    \\
+    & {}_{\mathllap{(\eta_{2n+1})_{n}}}\searrow& \downarrow^{\mathrlap{\exists \eta}} & \swarrow_{\mathrlap{(\eta_{2n})_n}}
+    \\
+    && F    
+  }
+  \;\;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;\;
+  \array{
+    && F(X')
+    \\
+    &{}^{\mathllap{\exists \eta}}\nearrow& \downarrow^{\mathrlap{epi}}
+    \\
+    &\ast \overset{(\eta_n)_n}{\longrightarrow}& \underset{\longleftarrow}{\lim}_n F(X_n)
+    \\
+    & \swarrow && \searrow
+    \\
+    \underset{n}{\prod}F(X_{2n+1})
+    && &&
+    \underset{n}{\prod}(X_{2n})
+    \\
+    & \searrow && \swarrow
+    \\
+    && \underset{n}{\prod}F(X_n)
+  }
+  \,,
+$$
+
