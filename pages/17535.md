@@ -30,6 +30,6 @@ to construct [[motivic coarse spaces]].
 
 * {#BunkeEngel} [[Ulrich Bunke]], [[Alexander Engel]],
 _Homotopy theory with bornological coarse spaces_,
-[arXiv:1607.03657v1](http://arxiv.org/abs/1607.03657v1).
+[arXiv:1607.03657](http://arxiv.org/abs/1607.03657).
 
 [[!redirects bornological coarse spaces]]
