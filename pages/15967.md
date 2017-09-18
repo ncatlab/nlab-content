@@ -18,7 +18,7 @@
 
 ## Idea
 
-Overconvergent [[global analytic geometry]] is a setting for global analytic geometry that allows the definition of strict and non-strict analytic spaces over an arbitrary [[Banach rings]] or [[ind-object|ind-]]Banach ring. It also gives a notion of [[analytic motivic homotopy theory]] and [[derived global analytic geometry]].
+Overconvergent [[global analytic geometry]] is a setting for global analytic geometry that allows the definition of strict and non-strict analytic spaces over an arbitrary [[Banach rings]], [[ind-object|ind-]]Banach ring, or more [[ind-object|ind-]][[pseudo-Banach ring]]. It also gives a notion of [[analytic motivic homotopy theory]] and [[derived global analytic geometry]].
 
 ## Basic ideas
  {#BasicIdeas}
