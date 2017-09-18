@@ -780,7 +780,7 @@ $$
 $$
   (\widetilde{Line}(sVect), \otimes, k, \tau^{super})
   \;\simeq\;
-  \pi_1 \Omega \mathbb{S}
+  \trunc_1 \Omega \mathbb{S}
   \,.
 $$
 
@@ -1490,7 +1490,7 @@ The key idea then of [[supergeometry]] is to define super-[[spaces]] to be space
 
 For [[smooth manifolds]] the statement is the following
 
-+-- {: .num_prop} 
++-- {: .num_prop #EmbeddingOfSmoothManifoldsIntoRAlgebras} 
 ###### Proposition
 **([[embedding of smooth manifolds into formal duals of R-algebras]])**
 
@@ -1857,12 +1857,15 @@ are monoid homomorphisms, with $E \otimes E$ equipped with the above monoid stru
 
 
 
+
 ### Modules in tensor categories and Super vector bundles
  {#Modules InTensorCategories}
 
 Above (in def. \ref{Affines}) we considered spaces $X$ from a dual perspective, as determined by their [[algebras of functions]] $\mathcal{O}(X)$. In the same spirit then we are to express various constructions on and with spaces in terms of dual algebraic constructions.
 
-A key such construction is that of [[vector bundles]] over $X$. Suppose that $X$ is a [[smooth manifold]], and $V \stackrel{p}{\to} X$ is an ordinary smooth real [[vector bundle]] over $X$. A [[section]] of this vector bundle is a smooth function $\sigma \colon X \to V$ such that $p \circ \sigma = id$
+A key such construction is that of [[vector bundles]] over $X$. Here we discuss the corresponding algebraic incarnation of these, namely as _[[modules]]_ over [[algebras of functions]].
+
+Suppose that $X$ is a [[smooth manifold]], and $V \stackrel{p}{\to} X$ is an ordinary smooth real [[vector bundle]] over $X$. A [[section]] of this vector bundle is a smooth function $\sigma \colon X \to V$ such that $p \circ \sigma = id$
 
 $$
   \array{
@@ -1894,19 +1897,27 @@ One says that a [[vector space]] such as $\Gamma_X(V)$ equipped with an [[action
 
 In conclusion, any [[vector bundle]] $V \to X$ gives rise to an $C^\infty(X)$-[[module]] $\Gamma_X(V)$.
 
-The _[[Serre-Swan theorem]]_ states sufficient conditions on $X$ such that the converse holds. 
+The _[[smooth Serre-Swan theorem]]_ states sufficient conditions on $X$ such that the converse holds. Together with the [[embedding of smooth manifolds into formal duals of R-algebras]] (prop \ref{EmbeddingOfSmoothManifoldsIntoRAlgebras}), this states that [[differential geometry]] is "more algebraic" than it might superficially seem:
 
 +-- {: .num_prop} 
 ###### Proposition
-**([Swan 62](Serre-Swan+theorem#Swan))**
+**([[smooth Serre-Swan theorem]], [Nestruev 03](smooth+Serre-Swan+theorem#Nestruev03))**
 
-Given a [[Hausdorff space|Hausdorff]] [[compact space]] $X$, the [[category]] of [[finitely generated module|finitely generated]] [[projective modules]] over the [[continuous function|continuous]]-[[function algebra]] $C(X)$ is [[equivalence of categories|equivalent]] to the category of finite-[[rank]] [[vector bundles]] on $X$, where the equivalence is established by sending a vector bundle to the its module of continuous [[sections]].
+For $X$ a [[smooth manifold]], then the construction which sends a smooth [[vector bundle]] $V \to X$ to its $C^\infty(X)$-[[module]] $\Gamma_X(V)$ of [[sections]] is an [[equivalence of categories]]
+
+$$
+  VectBund_X^{fin}
+    \stackrel{\simeq}{\longrightarrow}
+  C^\infty(X) Mod_{proj}^{fin\,gen}
+$$
+
+between that of smooth [[vector bundles]] of finite [[rank]] over $X$ and that of [[finitely generated object|finitely generated]] [[projective modules]] over the $\mathbb{R}$-[[associative algebra|algebra]] $C^\infyt(X)$ of [[smooth functions]] on $X$.
 
 =--
 
+One may turn the [[Serre-Swan theorem]] around to regard for $R$ any [[commutative monoid]] in some [[symmetric monoidal category]] (def. \ref{MonoidsInMonoidalCategory}), the [[modules]] over $R$ as "generalized vector bundles" over the space $Spec(R)$ (def. \ref{Affines}). These "generalized vector bundles" are called "[[quasicoherent sheaves]]" over affines. Specified to the case that $\mathcal{C} = $ [[sVect]], this hence yields a concept of **super vector bundles**.
 
-This allows to _identify_ suitable $\mathcal{O}(X)$-modules with vector bundles over $X$. But then, if the suitable conditions do not hold, $R$-modules still behave a lot like sections of vector bundles over $Spec(R)$, and hence may be regarded as generalized vector bundles ([[quasi-coherent sheaves]]).
-
+We now state the relevant definitions and constructions formally.
 
 
 +-- {: .num_defn #ModulesInMonoidalCategory}
@@ -1997,6 +2008,8 @@ $$
 
 
 =--
+
+The following degenerate example turns out to be important for the general development of the theory below.
 
 +-- {: .num_example #EveryObjectIsModuleOverTensorUnit}
 ###### Example
@@ -2555,6 +2568,82 @@ Finally one checks that these two constructions are inverses to each other, up t
 
 =--
 
++-- {: .num_defn #ExtensionOfScalars} 
+###### Proposition
+
+Let $\mathcal{C}$ be a [[symmetric monoidal category]], let $A_1, A_2 \in CMon(\mathcal{C})$ be two [[commutative monoids]] in $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) and 
+
+$$
+  \phi \;\colon\; A_1 \longrightarrow A_2
+$$
+
+a [[homomorphism]] [[commutative monoids]] (def. \ref{MonoidsInMonoidalCategory}). 
+
+Then there is a pair of [[adjoint functors]] between the [[categories of modules]] (def. \ref{ModulesInMonoidalCategory})
+
+$$
+  A_1 Mod(\mathcal{C})
+    \underoverset
+      {\underset{\phi^\ast}{\longleftarrow}}
+      {\overset{\phi_\ast}{\longrightarrow}}
+      {}
+  A_2 Mod(\mathcal{C})
+$$
+
+where
+
+1. the [[right adjoint]], called **[[restriction of scalars]]**, sends an $A_2$-[[module]] $(N, \rho)$ to the $A_1$-module $(N,\rho')$ whose [[action]] is given by precomposition with $\phi$:
+
+   $$
+     A_1 \otimes N
+      \stackrel{\phi \otimes id}{\longrightarrow}
+     A_2 \otimes N
+      \stackrel{\rho}{\longrightarrow}
+     N
+     \,.
+   $$
+
+1. the [[left adjoint]], called **[[extension of scalars]]** sends an $A_1$-module $(N,\rho)$ to the [[tensor product]]
+
+   $$
+     \phi_\ast(N) \coloneqq A_2 \otimes_{A_1} N
+   $$
+
+   (where we are regarding $A_2$ as a commutative monoid in $A_1$-modules via prop. \ref{AlgebrasOverAAreMonoidsUnderA}) and eqipped by the evident [[action]] induced by the multiplication in $A_2$
+
+
+  $$
+    A_2 \otimes \phi^\ast(N)
+     =
+    A_2 \otimes A_2 \otimes_{A_1} N
+      \stackrel{\mu_{A_2} \otimes_{A_1} N }{\longrightarrow}
+    A_2 \otimes_{A_1} N
+     =
+    \phi^\ast(N)
+  \,.
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{AlgebrasOverAAreMonoidsUnderA}
+the [[adjunction]] in question has the form
+
+$$
+  A_1 Mod(\mathcal{C})
+   \underoverset
+     {\underset{U}{\longleftarrow}}
+     {\overset{F}{\longleftarrow}}
+     {}
+  A_2 Mod( (A_1 Mod, \otimes_{A_1}, A_1) ) 
+$$
+
+and hence the statement follows with prop. \ref{MonoidModuleOverItself}.
+
+=--
+
 When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
 
 
@@ -2588,7 +2677,6 @@ $$
 =--
 
 This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
-
 
 
 
@@ -3401,7 +3489,7 @@ $$
   A Mod(\mathcal{B})
 $$
 
-for its image under [[extension of scalars]] to $A$ (prop. \ref{MonoidModuleOverItself}).
+for its image under [[extension of scalars]] to $A$ (prop. \ref{ExtensionOfScalars}).
 
 With this, the **automorphism group** of $\omega$
 
@@ -3743,7 +3831,7 @@ $$
   A Mod(\mathcal{A})
 $$
 
-for the [[extension of scalars]] operation $A \otimes(-)$, [[left adjoint]] to [[restriction of scalars]]. (The [[free module]] construction from prop. \ref{MonoidModuleOverItself}).
+for the [[extension of scalars]] operation $A \otimes(-)$, [[left adjoint]] to [[restriction of scalars]] (prop. \ref{ExtensionOfScalars}).
 
 Show then that the condition that an object $X$ is annihilated by some [[Schur functor]] is equivalent to the existence of an algebra $A$ such that 
 
