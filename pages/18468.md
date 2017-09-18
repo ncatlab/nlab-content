@@ -61,17 +61,8 @@ Locally covariant perturbative quantum field theory provides a synthesis of thes
 
 $\,$
 
-Besides it being just perturbative (in [[Planck's constant]]), there remains just one problem: 
 
-When applied to [[gauge theory]] on [[quantum field theory on curved spacetime|on curved spacetime]] the usual axioms on a [[local net]] break: either they enforce all [[characteristic classes]] of the [[gauge field]] ("[[instanton sectors]]") to be trivial, or else the axioms encoding locality are broken (see [Schenkel 14](#Schenkel14), [Schreiber 14](https://ncatlab.org/schreiber/show/Higher+field+bundles+for+gauge+fields)).
-
-This remaining problem is meant to be solved by passing from plain [[algebras of observables]] to [[homotopical algebra|homotopical algebras]] ([[higher algebra|higher algebras]]), and hence to a formulation of **[[homotopical algebraic quantum field theory]]** (see [Schenkel 17](#Schenkel17)). This is still in the making.
-
-
-## Global picture
- {#GlobalPicture}
-
-Quantum field theory is not only extremely rich in its [[phenomenology]] but also its formulation involves a plethora of mathematical tools, such as [[Lorentzian geometry]], [[spin geometry]], [[analysis]] (especially [[Fréchet manifold]] theory for [[jet bundles]] and [[spaces of sections]]) [[variational calculus]], [[symplectic geometry]], [[quantization]] (specifically [[formal  deformation quantization]] for [[perturbative quantum field theory]]) [[functional analysis]] (specifically [[microlocal analysis]] for [[causal perturbation theory]]) and [[operator algebra]]. While lcpAQFT is mathematically rigorous, hence unambiguous and precise, it remains a long story from its first principles to the computation of [[scattering amplitudes]]. To ease the overview, we here indicate the global structure of the topic first.
+Quantum field theory is not only extremely rich in its [[phenomenology]] but also its formulation involves a plethora of mathematical tools, such as [[Lorentzian geometry]], [[spin geometry]], [[analysis]] (especially [[Fréchet manifold]] theory for [[jet bundles]] and [[spaces of sections]]) [[variational calculus]], [[symplectic geometry]], [[quantization]] (specifically [[formal  deformation quantization]] for [[perturbative quantum field theory]]) [[functional analysis]] (specifically [[microlocal analysis]] for [[causal perturbation theory]]) and [[operator algebra]]. While lcpAQFT is mathematically rigorous, hence unambiguous and precise, it remains a long story from its first principles to the computation of [[scattering amplitudes]]. To ease the overview, we now indicate the global structure of the topic first.
 
 The input datum is a [[local field theory|local]] [[Lagrangian field theory|Lagrangian]] [[classical field theory]] on [[gravity]] [[background fields|backgrounds]], hence a [[natural transformation]] 
 from ([[globally hyperbolic spacetimes|globally hyperbolic]]) [[Lorentzian manifolds]] to [[field bundles]] over these spacetimes equipped with a [[local Lagrangian density]] on their [[jet bundle]].
@@ -121,10 +112,92 @@ The [[main theorem of perturbative renormalization]] states that the space of th
 
 Finally notice that there is also a choice involved in restricting attention to the [[microcausal functionals]] inside the algebra of all smooth functions on phase space. For deformation quantization on finite-dimensional manifolds it is understood that the full algebra of smooth functions is to be quantized, but for the infinite-dimensional phase space of field theory the full algebra of functions does not even support the [[Poisson bracket]] which is to be deformed. The subalgebra of microcausal functionals just happens to be technically under control, closed under the Poisson bracket, and large enough to contain the point-interaction terms that are relevant in quantum field theories observed in nature ([[QED]], [[QCD]], [[perturbative quantum gravity]]). It seems to be unclear and in fact un-studied what a lift of the whole program to larger subalgebras would mean or entail.
 
-One way to understand why it is not the full space of smooth functions on phase space that should be quantized is the sibling of algebraic deformation quantization known as [[geometric quantization]]. This demands that only the [[Hamiltonian vector field|Hamiltonian observables]] be considered, which are those smooth functions $h$ on phase space such that there exists a smooth vector field $v$ with $d h = \omega(v,-)$ (where $\omega$ is the [[pre-symplectic form]]). On these at the very least the [[Poisson bracket]] is guaranteed to close (for discussion of this in the context of local field theory see [Benini-Schenkel 16](Poisson+manifold#BeniniSchenkel16)), in fact geometric pre-quantization is the [[Lie integration]] of the resulting Poisson-bracket [[Lie algebra]] to the [[quantomorphism group]]. Hence the restrictin to Hamiltonian observables may be regarded as part of [[non-perturbative field theory]] and hence highlights the intrinsic incompleteness of perturbative quantization methods. 
+One way to understand why it is not the full space of smooth functions on phase space that should be quantized is the sibling of algebraic deformation quantization known as [[geometric quantization]]. This demands that only the [[Hamiltonian vector field|Hamiltonian observables]] be considered, which are those smooth functions $h$ on phase space such that there exists a smooth vector field $v$ with $d h = \omega(v,-)$ (where $\omega$ is the [[pre-symplectic form]]). On these at the very least the [[Poisson bracket]] is guaranteed to close (for discussion of this in the context of local field theory see [Benini-Schenkel 16](Poisson+manifold#BeniniSchenkel16)), in fact geometric pre-quantization is the [[Lie integration]] of the resulting Poisson-bracket [[Lie algebra]] to the [[quantomorphism group]]. Hence the restriction to Hamiltonian observables may be regarded as part of [[non-perturbative field theory]] and hence highlights the intrinsic incompleteness of perturbative quantization methods. 
 
-At the moment, however, non-perturbative quantization of field theories remains completely non-understood (apart from toy cases such as [[2d conformal field theories]] and certain [[topological field theories]]). For the class of [[Yang-Mills theories]] it is one of the "millenium problems" ([Jaffe-Witten](quantization+of+Yang-Mills+theory#JaffeWitten), [Douglas 04](quantization+of+Yang-Mills+theory#Douglas04)).
+At the moment, however, non-perturbative quantization of field theories remains completely non-understood (apart from toy cases such as [[2d conformal field theories]] and certain [[topological field theories]]). For the class of [[Yang-Mills theories]] it is one of in the list of open "Millenium Problems" of the Clay Mathematics Institute ([Jaffe-Witten](quantization+of+Yang-Mills+theory#JaffeWitten), [Douglas 04](quantization+of+Yang-Mills+theory#Douglas04)).
 
+Besides lcpQFT being just perturbative (in [[Planck's constant]]), there remains just one problem: 
+
+When applied to [[gauge theory]] on [[quantum field theory on curved spacetime|on curved spacetime]] the usual axioms on a [[local net]] break: either they enforce all [[characteristic classes]] of the [[gauge field]] ("[[instanton sectors]]") to be trivial, or else the axioms encoding locality are broken (see [Schenkel 14](#Schenkel14), [Schreiber 14](https://ncatlab.org/schreiber/show/Higher+field+bundles+for+gauge+fields)).
+
+This remaining problem is meant to be solved by passing from plain [[algebras of observables]] to [[homotopical algebra|homotopical algebras]] ([[higher algebra|higher algebras]]), and hence to a formulation of **[[homotopical algebraic quantum field theory]]** (see [Schenkel 17](#Schenkel17)). This is still in the making.
+
+## Locally covariant perturbative AQFT
+
+> under construction
+
+
+[[prequantum geometry]]
+
+* [[globally hyperbolic spacetime]], [[time orientation]]
+
+* [[field bundle]], [[jet bundle]], [[field (physics)|field]]
+
+* [[local Lagrangian density]]
+
+* [[Euler-Lagrange complex]], [[presymplectic current]]
+
+* [[Cauchy surface]], [[covariant phase space]]
+
+* [[Hamiltonian forms]], [[observables]], [[Poisson bracket]]
+
+* [[algebra of observables]], [[states]]
+
+[[formal deformation quantization]]
+
+* [[Planck's constant]] $\hbar$
+
+* example: [[Moyal deformation quantization]]
+
+  $\mathcal{F}_{loc} \overset{:-:}{\longrightarrow} \mathcal{F}_{mc}[ [ \hbar ] ]$
+
+* [[algebra of quantum observables]]
+
+* [[quantum states]]
+
+[[S-matrix]]
+
+* [[causal additivity]]
+
+* [[time-ordered product]]
+
+* [[causally local net of quantum observables]]
+
+...
+
+running example: 
+
+* [[scalar field]]
+
+* [[Klein-Gordon operator]]
+
+...
+
+[[free field theory]]
+
+* [[differential operator]], [[normally hyperbolic operator]]
+
+* [[Green function]], [[distribution]], [[wave front set]]
+
+* [[causal propagator]], [[advanced propagator]], [[retarded propagator]]
+
+* [[Hadamard state]]
+
+* [[Wick algebra]]
+
+[[Feynman diagrams]]
+
+* [[Feynman propagator]]
+
+* [[loop order]]
+
+[[renormalization]]
+
+* [[extension of distributions]]
+
+* [[main theorem of perturbative renormalization]]
+
+...
 
 ## References
 
