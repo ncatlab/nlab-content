@@ -254,4 +254,5 @@ Also
 
 * W.B. Browder, _Surgery on simply-connected manifolds_ , Springer  (1972)
 
+[[!redirects Thom spaces]]
 
