@@ -94,6 +94,8 @@ with amplification in
 
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
 
+* [[nLab:Hisham Sati]], [[Urs Schreiber]], _[[Lie n-algebras of BPS charges]]_
+
   
 Discussion of a formulation in terms of [[octonions]] (see also at _[[division algebra and supersymmetry]]_) includes
 
@@ -106,3 +108,6 @@ Discussion of a formulation in terms of [[octonions]] (see also at _[[division a
 
 [[!redirects M-theory supersymmetry Lie algebra]]
 [[!redirects M-theory supersymmetry super Lie algebra]]
+
+[[!redirects M-theory super Lie algebra extension]]
+[[!redirects M-theory super Lie algebra extensions]]
