@@ -59,4 +59,7 @@ If Desargues' theorem fails, then we can still construct a sort of algebraic str
 * [[projective 3-space]]
 * [[projective line]]
 
+## References
+
+* A. Kryftis, _A constructive approach to projective and affine planes_ , PhD Cambridge 2015. ([arXiv:1601.04998](http://arxiv.org/abs/1601.04998))
 [[!redirects projective planes]]
