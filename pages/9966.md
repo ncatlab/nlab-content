@@ -37,9 +37,18 @@ This equivalence ought to be [[coherence|coherent]] to yield a $\mathbb{Z}/2\mat
 
 ## Examples
 
+
+[[even cohomology theory|even]] 2-periodic:
+
 * [[KU]]
 
+* [[MP]]
+
 * [[elliptic spectrum]]
+
+* [[2-periodic Morava K-theory]]
+
+* [[Morava E-theory]]
 
 
 ## References
@@ -48,6 +57,9 @@ Lecture notes include
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 , Lecture 18 _Even periodic cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture18.pdf))
 
+The $\mathbb{Z}/2$-graded formalism for modules over $E_\infty$-algebras over an even periodic ring spectrum:
+
+* {#Rezk09} [[Charles Rezk]], _The congruence criterion for power operations in Morava E-theory_, Homology, Homotopy and Applications, Vol. 11 (2009), No. 2, pp.327-379 ([arXiv:0902.2499](https://arxiv.org/abs/0902.2499))
 
 [[!redirects periodic ring spectra]]
 
