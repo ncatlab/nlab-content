@@ -96,6 +96,12 @@ The first result is attributed to [[André Joyal]], presumably unpublished, and 
 
 * [[adjoint modality]] 
 
+## Links
+
+* [MO Brouwer's theorem in the free topos?](http://mathoverflow.net/questions/264652/brouwers-theorem-in-the-free-topos)
+
+* [nForum discussion](https://nforum.ncatlab.org/discussion/6665/free-topos/#Item_0)
+
 ## References
 
 The free topos was first constructed by H. Volger. A second construction appears in
