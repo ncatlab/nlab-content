@@ -238,7 +238,9 @@ Another approach to solving canonicity is to build a model for [[homotopy type t
 
 ## Related concepts
 
-Univalence is closely related to the "completeness" condition in the theory of [[Segal spaces]]/[[semi-Segal spaces]]. See _[[complete Segal space]]_/_[[complete semi-Segal space]]_.
+* Univalence is closely related to the "completeness" condition in the theory of [[Segal spaces]]/[[semi-Segal spaces]]. See _[[complete Segal space]]_/_[[complete semi-Segal space]]_.
+
+* [[propositional extensionality]]
 
 ## References
  {#References}
