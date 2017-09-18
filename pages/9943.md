@@ -77,7 +77,7 @@ $$
 
 where on the left we have maps of [[structured (∞,1)-toposes]] and on the right the [[∞-groupoid]] of [[derived elliptic curves]] over $A$.
 
-This is based on the representability theorem ([[A Survey of Elliptic Cohomology|Lurie (Survey), prop. 4.1]], [[Representability Theorems|Lurie (Representability)]]).
+This is based on the [[Artin-Lurie representability theorem]] ([[A Survey of Elliptic Cohomology|Lurie (Survey), prop. 4.1]], [[Representability Theorems|Lurie (Representability)]]).
 
 ## Related concepts
 
