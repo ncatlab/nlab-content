@@ -46,7 +46,7 @@ An object $X$ in a weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called
 
 +-- {: .num_remark}
 ###### Remark
-In particular, a contractible object is connected: $p_!(X)=p_!(X^1)=1$.
+In particular, a contractible object is connected: $p_!(X)=p_!(X^1)=1$. Since exponentiation $(-)^Y$ preserves $1$ in any Cartesian closed category, the terminal object is contractible in any weakly cohesive topos.
 =--
 
 +-- {: .num_defn #Sufficient_Cohesion}
@@ -69,7 +69,7 @@ Conversely, if every power object $\Omega^X$ embeds into a connected object then
 
 +-- {: .num_remark}
 ###### Remark
-The definition of sufficient cohesion by 'having enough contractible objects' (Lawvere [2007](#Law07)) has of course the advantage that it even works in the wider context of Cartesian closed [[extensive category|extensive categories]] that lack a subject classifier. The definition by 'having enough connected objects' would be feasible for merely [[distributive category|distributive categories]] that are not necessarily Cartesian closed (cf. Lawvere [1991](#Law91a), [1992](#Law92)) but Lawvere ([1991](#Law91a), p.4) suggests that in this case the definition should be strenghtened to demand that every object is the equaliser of a pair of maps between two connected objects.
+The definition of sufficient cohesion by 'having enough contractible objects' (Lawvere [2007](#Law07)) has of course the advantage that it even works in the wider context of Cartesian closed [[extensive category|extensive categories]] that lack a subobject classifier. The definition by 'having enough connected objects' would be feasible for merely [[distributive category|distributive categories]] that are not necessarily Cartesian closed (cf. Lawvere [1991](#Law91a), [1992](#Law92)) but Lawvere ([1991](#Law91a), p.4) suggests that in this case the definition should be strenghtened to demand that every object is the equaliser of a pair of maps between two connected objects.
 =--
 
 ## Properties
@@ -237,12 +237,50 @@ $$
 \end{aligned}
 $$
 
+Note that the conjunction $\wedge$ is actually a homotopy from $id_\Omega$ to the constant map $\Omega\to 1\overset{\mathsf{false}}{\to}\Omega$. Importantly, this homotopy lifts through exponentiation:
+
 +-- {: .num_prop #omega_action}
 ###### Proposition
 The map $\mu :\Omega^X\times\Omega{\to}\Omega^X$ is an $\Omega$-homotopy from $id_{\Omega^X}$ to a constant map $\overline{\emptyset}_X:\Omega^X\to 1\overset{\emptyset_X}{\to}\Omega^X$.
 =--
 
+(...)
+
++-- {: .num_prop #homotopy_lifting}
+###### Proposition
+Let $\mathcal{E}$ be a weakly cohesive topos with connector $1\overset{t_0}{\underset{t_1}{\rightrightarrows}} T$. Suppose that $m:X\times T\to X$ is a $T$-homotopy between $id_X$ and a constant map $c:X\to X\,$.Then there exists for every object $Y$ a $T$-homotopy $\mu:X^Y\times T\to X^Y$ from $id_{X^Y}$ to a constant endomap $X^Y\to X^Y$.
+=--
 **Proof**.
+ We get $\mu$ from $X\times T \overset{m}{\to}  X$ as follows
+$$
+\begin{aligned}
+X& \to X^{T}\quad\text{by transposal}
+\\ 
+X^Y&\to (X^{T})^{Y}\quad\text{by application of the endofunctor (-)}^Y
+\\
+X^Y &\to (X^Y)^{T}\quad\text{by using rules for powers}
+\\
+X^Y\times T&\overset{\mu}{\to}X^Y\quad \text{by reversing transposal .}
+\end{aligned}
+$$
+In order to see that $\mu$ satisfies the two homotopy conditions at $t_0,t_1$
+$$\mu\circ\langle id_{X^Y},t_0\circ !_{X^Y}\rangle = id_{X^Y}\quad\text{and} 
+\quad \mu\circ\langle id_{X^Y},t_1\circ !_{X^Y}\rangle =\text{const.}$$
+
+consider the following commutative diagram:
+$$
+\array{
+X &\xleftarrow{ev}&X^T\times T &\xrightarrow{ev} &X
+\\
+{}_{id_X}\negmedspace\uparrow &\underset{m}{\nwarrow}&\uparrow_{\hat{m}\times id_T}& \underset{m}\nearrow&\uparrow_c
+\\
+X&\xrightarrow[\langle id_X,t_0\circ !_X\rangle]{}&X\times T&\xleftarrow[\langle id_X,t_1\circ !_X\rangle]{}&X
+}
+$$
+This encapsulates all the information before the application of $(-)^Y$: the transpose of the second step occurs as $\hat{m}$ and the homotopy information is expressed via $\hat{m}$ by using $ev\circ(\hat{m}\times id_T)=m$ at $t_0,t_1$.
+
+Now we exponentiate the diagram. Importantly, $(-)^Y$ as a right adjoint preserves all limits and therefore it maps the constant map $c$ to a _constant_ map $c^Y$ !
+
 ...
 
 $\qed$
