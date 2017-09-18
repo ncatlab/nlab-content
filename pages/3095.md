@@ -7,45 +7,19 @@
 
 **Linguistics** is the (scientific) study of natural human language. See a reasonably good page at [Wikipedia](http://en.wikipedia.org/wiki/Linguistics). 
 
-In [[mathematics]] and [[computer science]], we are however also interested in artificial analogues of natural languages: [[formal language|formal]] and [[computer language|computer]] [[language]]s. 
-
 
 ## Formal Linguistics
 
-Linguists attempt to specify formal grammars (such as [[context free grammar]]s) which generate exactly the strings of a human language. The derivation trees of such strings are often interpreted in a formal system such as [[typed lambda calculus]], which is taken to represent a high level description of the meaning the speaker intends. Such a "semantics" should ideally assign meanings to the smallest meaningful subparts of a sentence such that these submeanings [[compose]] to assign meanings to sentences. 
+Linguists may deploy formal methods to understand grammatical strings of words, and to allow compositional theories of meaning based on the meanings of the subparts of sentences. 
 
 * [[Montague grammar]]
 * [[dependent type theoretic methods in natural language semantics]]
-
-
-## Categorial Grammar/Typelogical Grammar
-
-* [SEP](plato.stanford.edu/entries/typelogical-grammar/
-)
-
-**[[Categorial grammar]]** ([Wikipedia](http://en.wikipedia.org/wiki/Categorial_grammar)) is a tradition in formal syntax which draws inspiration from [[category theory]]. 
-
-Derivation trees are encoded by [[string diagrams]].
-
-A seminal article, inspired by the structure of a (non-symmetric) [[biclosed monoidal category]] is:
-
-* [[Lambek]], J. (1958). The mathematics of sentence structure. American mathematical monthly, 154-170. [link](http://www.jstor.org/stable/2310058)
-
-The connection to biclosed monoidal categories is made explicit in:
-
-* Lambek, J. (1988). Categorial and categorical grammars. In Categorial grammars and natural language structures (pp. 297-317). Springer Netherlands.
-
-**Pregroup grammar** ([Wikipedia](http://en.wikipedia.org/wiki/Pregroup_grammar)) is a refinement of this, and categorifies to (non-symmetric) [[rigid monoidal categories]]. 
-
-* Preller, A. (2005). Category theoretical semantics for pregroup grammars. In Logical aspects of computational linguistics (pp. 238-254). Springer Berlin Heidelberg.
-
-* Preller, A., & Lambek, J. (2007). Free compact 2-categories. Mathematical Structures in Computer Science, 17(2), 309-340. 
-
+* [[categorial grammar]]
+* [[context free grammar]]
 
 ## Related Concepts
 
 * [[syntax]], [[semantics]]
-* [[categorial grammar]]
 * [[lambda calculus]]
 * [[type theory]]
 * [[context-free grammar]]
