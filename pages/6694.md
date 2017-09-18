@@ -101,7 +101,7 @@ The idea captured by corollary \ref{ContinuousBijectionsFromCompactSpacesToHausd
 
 
 
-## Related entries
+## Related statements
 
 * [[a CW-complex is a Hausdorff space]]
 
@@ -115,6 +115,7 @@ The idea captured by corollary \ref{ContinuousBijectionsFromCompactSpacesToHausd
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
+* [[quotient projections out of compact Hausdorff spaces are closed precisely if the codomain is Hausdorff]]
 
 [[!redirects map from compact space to Hausdorff space]]
 [[!redirects map from compact space to Hausdorff space]]
