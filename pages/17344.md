@@ -5506,7 +5506,7 @@ hence which are the stable acyclic cofibrations according to def. \ref{ClassesOf
 +-- {: .proof}
 ###### Proof
 
-Since all elements of $J_{SeqSpec}^{stable}$ are stable equivalences and strict cofibrations by  lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}, it follows that every retract of relative $J_{SeqSpec}^{stable}$-cell complex has the same property.
+Since all elements of $J_{SeqSpec}^{stable}$ are stable equivalences and strict cofibrations by  lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}, it follows that every retract of a relative $J_{SeqSpec}^{stable}$-cell complex has the same property.
 
 In the other direction, if $f$ is a stable equivalence and strict cofibration, by the [[small object argument]] it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $J_{SeqSpec}^{stable}$-cell complex $i$ followed by a $J_{SeqSpec}^{stable}$-[[injective morphism]] $p$. By the previous statement $i$ is a stable equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalencesForSequentialSpectra} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) implies that $f$ is a retract of the relative $\{k_n \Box i_+\}$-cell complex $i$.
 
