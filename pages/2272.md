@@ -48,7 +48,7 @@ Every manifold admits the _trivial Poisson structure_ for which the [[Poisson br
 +-- {: .num_example}
 ###### Example
 
-Every [[symplectic manifold]] carries a natural Poisson structure; however, such Poisson manifolds are very special. It is a basic theorem that Poisson structures on a manifold are equivalent to the smooth [[foliation]]s of the underlying manifold such that each leaf is a symplectic manifold.
+Every [[symplectic manifold]] carries a natural Poisson structure see [below](PresymplecticManifolds) for more; however, such Poisson manifolds are very special. It is a basic theorem that Poisson structures on a manifold are equivalent to the smooth [[foliations]] of the underlying manifold such that each leaf is a symplectic manifold.
 
 =--
 
@@ -200,7 +200,7 @@ Moreover, since $X$ is [[connected topological space|connected]], these Hamilton
 $$
   [q^i, p_j]
   \coloneqq
-  [(-\partial_{p_i}, q^i), (-\partial_{q^j}, p_j)]
+  [(-\partial_{p_i}, q^i), (\partial_{q^j}, p_j)]
   =
   -
   \delta_j^i
@@ -287,11 +287,11 @@ Moreover, the [[Poisson bracket]], def. \ref{PoissonBracket}, between two such H
 
 \[
   \label{EquationForLieHomomorphism}
-  \iota_{v_2}\iota_{v_1}\omega 
-  -
   \iota_{[v_1,v_2]} \theta
+  -
+  \iota_{v_2}\iota_{v_1}\omega 
   = 
-  \mathcal{L}_{v_2} \alpha_1 - \mathcal{L}_{v_1} \alpha_2
+  \mathcal{L}_{v_1} \alpha_2 - \mathcal{L}_{v_2} \alpha_1
 \]
 
 =--
@@ -368,7 +368,7 @@ $$
 Then by (eq:EquationForLieHomomorphism) the linear map
 
 $$
-  (v,H) \mapsto (v, H - \iota_v \theta)
+  (v,H) \mapsto (v, \iota_v \theta - H)
 $$
 
 is an [[isomorphism]] of [[Lie algebras]]
@@ -412,7 +412,7 @@ $$
   \left\{
     (v, \{\alpha_i\})
     |
-    \mathcal{L}_v log\, g_{i j} = \alpha_j - \alpha_i
+    \mathcal{L}_v log g_{i j} = \alpha_j - \alpha_i
     \,,
     \mathcal{L}_v \theta_i = d \alpha_i
   \right\}
@@ -463,7 +463,7 @@ $$
   \iota_v \theta_j - \alpha_j = \iota_v \theta_i - \alpha_i
 $$
 
-and hence that there is a globally defined function $H \in C^\infty(X)$ such that $\iota_v \theta_i - \alpha_i = H|_{U_i}$. This shows that the map is an isomorphism of vector spaces.
+and hence that there is a globally defined function $H \in C^\infty(X)$ such that $\iota_v \theta_i - \alpha_i = H|_{U_i}$. This shows that the map is an isomrophism of vector spaces.
 
 Now over each $U_i$ the the situation for the brackets is just that of corollary
 \ref{EquivalenceBetweenPoissonBracketAndInfinQuantomorphism} implied by (eq:EquationForLieHomomorphism), hence the morphism is a Lie homomorphism.
