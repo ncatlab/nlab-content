@@ -138,10 +138,9 @@ $$ hocolim C_\bullet(U) \xrightarrow{\sim} X, $$
 where $C_\bullet(U)$ is the [[Cech cover]] of $X$, a [[simplicial space]] defined by
 $$C_n(U) = \coprod_{J\subseteq I,\, |J|=n} \bigcap_{i\in J} U^i. $$
 =--
-+-- {: .proof}
-###### Proof
-See [Dugger-Isaksen](#DuggerIsaksen).
-=--
+
+See [Dugger-Isaksen 01](#DuggerIsaksen01).
+
 
 +-- {: .num_theorem #Pi1Hocolim}
 ###### Theorem
@@ -232,7 +231,6 @@ The proof via homotopy colimits is roughly taken from
 
 Other references cited above:
 
-* [[Dan Dugger]] and [[Daniel Isaksen]], _Hypercovers in topology_ ([pdf]
-(http://www.math.uiuc.edu/K-theory/0528/hypercover.pdf))
-{#DuggerIsaksen}
+* {#DuggerIsaksen01} [[Dan Dugger]], [[Daniel Isaksen]], _Hypercovers in topology_ ([arxiv:math/0111287](https://arxiv.org/abs/math/0111287))
+
 
