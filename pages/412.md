@@ -38,10 +38,10 @@ All of these model structures exist not only on the category of all topological 
 
 ## Definition
 
-### Quillen Model Structure
+### Classical Quillen Model Structure
   {#QuillenModelStructure}
 
-The first, and most prevalent, [[model category]] structure on [[Top]], called the _[[Quillen model structure on topological spaces]]_ ([Quillen67, II.3](#Quillen67)) has
+The first, and most prevalent, [[model category]] structure on [[Top]], called the _[[classical model structure on topological spaces]]_ ([Quillen67, II.3](#Quillen67)) has
 
 * weak equivalences are the [[weak homotopy equivalences]];
 
