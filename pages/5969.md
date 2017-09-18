@@ -243,7 +243,7 @@ A lift of the Dickey Lie bracket on cohomologically trivial spaces to an equival
 
 * {#BarnichFulpLadaStasheff97} [[Glenn Barnich]], [[Ronald Fulp]], [[Tom Lada]], [[Jim Stasheff]], _The sh Lie structure of Poisson brackets in field theory_, Communications in Mathematical Physics 191, 585-601 (1998) ([arXiv:hep-th/9702176](http://arxiv.org/abs/hep-th/9702176))
 
-* [[Martin Markl]], [[Steve Shnider]], _Differential Operator Endomorphisms of an Euler-Lagrange Complex_ ([arXiv:9808105](http://arxiv.org/abs/math/9808105))
+* [[Martin Markl]], [[Steve Shnider]], _Differential Operator Endomorphisms of an Euler-Lagrange Complex_, Contemporary Mathematics, Volume 231, 1999 ([arXiv:9808105](http://arxiv.org/abs/math/9808105))
 
 
 ### In variational calculus
