@@ -1,4 +1,4 @@
-An as yet rare term, but not without precedent. 
+Rare term, not without precedent. 
 
 ## Examples of the usage
 
@@ -12,11 +12,31 @@ This is about formalising situations in which two structures _are_ isomorphic bu
 
 ## Two meanings
 
-One has to distinguish two meanings of _unnatural isomorphism_:
+One has to distinguish:
 
-* unnatural isomorphism _of categories_
+* unnatural isomorphism _of categories_. 
 
-* unnatural isomorphism _of functors_
+* unnatural isomorphism _of functors_.
+
+Neither has an established precised definition. 
+
+Moreover, many confusions in teaching and discussions arise from _isomorphic_ being a concept which is defined 
+
+* between objects of one and the same category,
+
+* between two categories, 
+
+* between two functors.
+
+### Possible definitions of _unnatural isomorphism of categories_.
+
+Any precise definition justifying the term should at least _imply_ that 
+
+* there does not exist a [[natural isomorphism]] between the categories
+
+It is debatable how strong the positive requirement of similarity of the categories  should be.
+
+One possibility is to let oneself be guided by examples occurring in mathematical practice. 
 
 ## Another distinction
 
@@ -28,7 +48,7 @@ In [Brandenburg2013](#Brandenburg2013), _pointwise isomorphic_ is being recommen
 
 ## Examples
  
-#### A-forteriori-example.
+#### A-forteriori-examples.
 
 Any of the isomorphisms between a vector space and its dual obtained in the usual way after choosing a basis. Here, naturality is impossible a forteriori because of unequal variances. 
 
