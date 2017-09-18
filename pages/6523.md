@@ -53,4 +53,6 @@ The [[Lie algebra]] of $Iso(X,g)$ is spanned by the [[Killing vector]]s of $(X,g
 
 * [[isometry]]
 
+* [[superisometry group]]
+
 [[!redirects isometry groups]]
