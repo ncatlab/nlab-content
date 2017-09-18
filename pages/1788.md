@@ -109,7 +109,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CohomologicalSpectralSequenceOfAnExactCouple}
 ###### Proposition
 **(cohomological spectral sequence of an exact couple)**
 
@@ -251,18 +251,94 @@ $$
 
 +-- {: .num_prop}
 ###### Proposition
+**(Serre-Cartan-Eilenberg-Atiyah-Hirzebruch spectral sequence)**
 
-Let $A$ be a [[generalized (Eilenberg-Steenrod) cohomology]] functor such that $A^\bullet(\ast)$ is bounded below. Let $X$ be a finite [[CW-complex]] and let $X \to B$ be a [[fibration]] with fibers $F$. Then there is a cohomology spectral sequence, def. \ref{CohomologySpectralSequence} of the form
+Let $A$ be a [[generalized (Eilenberg-Steenrod) cohomology]] functor such that $A^\bullet(\ast)$ is bounded below. Let $B$ be a [[simply connected topological space|simply connected]] finite [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[fibration]] with fibers $F$. Then there is a cohomology spectral sequence, def. \ref{CohomologySpectralSequence} whose $E_2$-page is the [[ordinary cohomology]] of $B$ with [[coefficients]] in the $A$-[[generalized cohomology]] of the fiber, and which converges to the $A$-cohomology of the total space
 
 $$
   E_2^{p,q} = 
   H^p(B, A^q(F)) \Rightarrow A^\bullet(X)
-  \,.
 $$ 
+
+with respect to the filtering given by
+
+$$
+  F^p A^\bullet(X) \coloneqq ker(A^\bullet(X) \to A^\bullet(X_{p-1}))
+$$
+
+where $X_{p} \coloneqq \pi^{-1}(B_{p})$ is the fiber over the $p$th stage of the [[CW-complex]] $B$.
 
 
 =--
 
++-- {: .proof}
+###### Proof
+
+The [exactness axiom](generalized+%28Eilenberg-Steenrod%29+cohomology#ExactnessUnreduced) for $A$ gives an [[exact couple]], def. \ref{ExactCoupleAndDerivedExactCouple} of the form
+
+$$
+  \array{
+    A^{s+t}(X_{s})
+    &&
+      \stackrel{}{\longrightarrow} 
+    &&
+    A^\bullet(X_{s})
+    \\
+    & \nwarrow && \swarrow
+    \\
+    && A^{s+t}(X_{s}, X_{s-1})
+  }
+$$
+
+where we take $X_{\gg 1} = X$ and $X_{\lt 0} = \emptyset$. This immediately implies that the convergence conditions for the induced spectral sequence in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} are met, so that we indeed have convergence to 
+
+$$
+  \lim\left(
+    \cdots \stackrel{}{\to} A^\bullet(X_{s+1}) \longrightarrow A^\bullet(X_{s})
+    \to \cdots
+  \right)
+  \simeq
+  A^\bullet(X).
+$$
+
+In order to determine the $E_2$-page, we analyze the $E_1$-page:
+
+Let $C(s)$ be the set of $s$-cells of $B$, and notice that for $\sigma \in C(s)$ then
+
+$$
+  (\pi^{-1}(\sigma), \pi^{-1}(\partial \sigma)) \simeq (D^n, S^{n-1}) \times F
+  \,.
+$$
+
+This implies that 
+
+$$
+  \begin{aligned}
+    E_1^{s,t}
+    & \coloneqq
+    A^{s+t}(X_s, X_{s-1})
+    \\
+    & \simeq \tilde A^{s+t}(X_s/X_{s-1})
+    \\
+    & \simeq \tilde A^{s+t}(\underset{\sigma \in C(n)}{\vee} S^s \wedge F_+)
+    \\
+    & \simeq \underset{\sigma \in C(s)}{\prod} \tilde A^{s+t}(S^s \wedge F_+)
+    \\
+    & \simeq \underset{\sigma \in C(s)}{\prod} \tilde A^t(F_+)
+    \\
+    & \simeq \underset{\sigma \in C(s)}{\prod} A^t(F)
+    \\
+    & \simeq C^n(B,A^t(F))
+  \end{aligned}
+  \,,
+$$
+
+where we used the relation to [[reduced cohomology]] $\tilde A$, and the [[wedge axiom]] and the [[suspension isomorphism]] of the latter. The last group is that of [[singular cohomology|singular cochains]] of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
+
+Hence to conclude it remains to show that on this group the differential $d_1$ coincides with the differential in the [[singular simplicial complex]]. This takes a tad of fiddling, see for instance ([Kochman 96, pages 124-125](#Kochman96)).
+
+
+=--
 
 
 [[faceanddegeneracymaps.jpg:file]]
