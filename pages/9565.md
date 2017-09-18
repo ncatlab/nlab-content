@@ -98,6 +98,8 @@ Further generalizations are discussed in
 
 * [[Peter Hochs]], [[Varghese Mathai]], _Quantizing tame actions_ ([arXiv:1309.6760](http://arxiv.org/abs/1309.6760))
 
+* Jord Boeijink, [[Klaas Landsman]], [[Walter van Suijlekom]], _Quantization commutes with singular reduction: cotangent bundles of compact Lie groups_ ([arXiv:1508.06763](http://arxiv.org/abs/1508.06763))
+
 Similar discussion is in 
 
 * [[Paul-Emile Paradan]], _Spin-quantization commutes with reduction_ ([arXiv:0911.1067](http://arxiv.org/abs/0911.1067))
