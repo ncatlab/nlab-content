@@ -212,6 +212,10 @@ but these two maps coincide since $p_!(k_1)=p_!(k_2)$ by assumption.
 
 Since for an I-homotopy $k_j=t_j\circ !_A:A\to I$ and, $p_!(I)=1$ by assumption, $p_!(k_j):p_!(A)\to 1$, $j\in\{1,2\}$, and these maps necessarily coincide since $1$ is terminal whence $p_!(t_0\circ !_A)=p_!(t_1\circ !_A)$ whence $p_!(f)=p_!(g)$ as claimed. $\qed$
 
++-- {: .query}
+The rest of this section is intended to provide a proof of theorem \ref{connected_truth} below. The claims and proofs in it should be taken with caution by the reader (at least) until they have reached a final form!
+=--
+
 For the following the monoid structure of $\Omega$ will be capital. So let us briefly recall the basics:
 
 In a general topos, the Heyting algebra structure endows the subobject classifier with the structure of an [[internal monoid]]: The multiplication is given by conjunction
@@ -281,6 +285,15 @@ This encapsulates all the information before the application of $(-)^Y$: the tra
 
 Now we exponentiate the diagram. Importantly, $(-)^Y$ as a right adjoint preserves all limits and therefore it maps the constant map $c$ to a _constant_ map $c^Y$ !
 
+$$
+\array{
+X^Y &\xleftarrow{ev^Y}&(X^T)^Y\times T^Y &\xrightarrow{ev^Y} &X^Y
+\\
+{}_{id_{X^Y}}\negmedspace\uparrow &\underset{m^Y}{\nwarrow}&\uparrow_{\hat{m}^Y\times id_{T^Y}}& \underset{m^Y}\nearrow&\uparrow_{c^Y}
+\\
+X^Y&\xrightarrow[\langle id_{X^Y},t_0^Y\circ !_{X^Y}\rangle]{}&X^Y\times T^Y&\xleftarrow[\langle id_{X^Y},t_1^Y\circ !_{X^Y}\rangle]{}&X^Y
+}
+$$
 ...
 
 $\qed$
@@ -309,6 +322,10 @@ For convenience and summary let us collect all the equivalent formulations of su
 * [[connected object]]
 
 * [[injective object]]
+
+## Link
+
+* [nForum discussion thread](https://nforum.ncatlab.org/discussion/7562/sufficiently-cohesive-topos/#Item_0)
 
 ## References
 
