@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Laurent series_ generalize [[power series]] by allowing both positive and negative powers. In particular, _Laurent series_ with complex coefficients generalize [[Taylor series]] of analytic functions to meromorphic functions. A Laurent series for a meromorphic function $f(z)$ at finite $z\in\mathbb{C}$ has the form
+_Laurent series_ generalize [[power series]] by allowing both positive and negative powers. In particular, _Laurent series_ with complex coefficients generalize [[Taylor series]] of analytic functions to [[meromorphic functions]]. A Laurent series for a meromorphic function $f(z)$ at finite $z\in\mathbb{C}$ has the form
 $$ f(z) = \sum_{n=k}^{\infty}f_n z^n, $$
 where $k$ is merely constrained to be finite and is often negative. 
 
