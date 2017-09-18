@@ -4,11 +4,17 @@
 
 ## Idea
 
-The [[initial object]] in the category of toposes and [[logical morphisms]]. This object is constructed out to syntax of topos theory.
+The [[initial object]] in the category of toposes and [[logical morphisms]]; also known as the initial topos. This object is constructed out of the syntax of topos theory. 
 
 ### Foundations
 
 In the [[foundations of mathematics]], [[Jim Lambek]] proposed to use the free topos as ambient world to do mathematics in; see [Lambek](#LambekWorld). Being syntactically constructed, but universally determined, with higher-order [[intuitionistic type theory]] as [[internal language]] he saw it as a reconciliation of the three classical schools of [[philosophy of mathematics]], namely [[formalism]], [[platonism]], and [[intuitionism]]. His latest views on this variant of categorical foundations can be found in ([Lambek-Scott 2011](#LS11)).
+
+## Related entries 
+
+* [[Freyd cover]] 
+
+* [[adjoint modality]] 
 
 ## References
 
