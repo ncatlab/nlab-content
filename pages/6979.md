@@ -85,8 +85,7 @@ An introduction with parallel details on [[Coq]]-programming is in
 
 See also
 
-* [[Agda]] Tutorial: _Introduction to dependent type theory_ ([webpage](http://ocvs.cfv.jp/Agda/tutorial
-/node128.html))
+* [[Agda]] Tutorial: _Introduction to dependent type theory_ ([webpage](http://ocvs.cfv.jp/Agda/tutorial/node128.html))
 
 A discussion of dependent type theory as the [[internal language]] of [[locally cartesian closed categories]] is in 
 
