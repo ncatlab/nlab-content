@@ -62,14 +62,15 @@ That explains the relevance of the [[Adams-Novikov spectral sequence]] (noticing
 ### The $E$-Adams spectral sequence
  {#ViaInjectiveResolutions}
 
-We here discuss Adams spectral sequences for computation of $E$-[[Bousfield localization of spectra|localization]] of [[mapping spectra]] $[Y,X]$ for by $E$ a general [[commutative ring spectrum]] which is flat in a certain sense (def. \ref{FlatE} below).
+We here discuss Adams spectral sequences for computation of $E$-[[Bousfield localization of spectra|localization]] of [[mapping spectra]] $[Y,X]$ for $E$ a general [[commutative ring spectrum]] which is flat in a certain sense (def. \ref{FlatE} below).
 
-The classical Adams spectral sequence is the special case with $Y = X = \mathbb{S}$ and $E = $ [[HA|A]]$\mathbb{F}_p$, discussed [below](#ClassicalCase).
+The _[[classical Adams spectral sequence]]_ is the special case with $Y = X = \mathbb{S}$ the [[sphere spectrum]] and $E = $ [[HA|H]]$\mathbb{F}_p$ the [[Eilenberg-MacLane spectrum]] of a [[prime field]], discussed [below](#ClassicalCase).
 
 The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mathbb{S}$ and $E = $ [[MU]], discussed [below](#TheAdamsNovikovSpectralSequence).
 
 
 #### Spectral sequence of a filtered spectrum
+ {#SpectralSequenceOfAFilteredSpectrum}
 
 We introduce the types of [[spectral sequences]] of which the $E$-Adams spectral sequnces (def. \ref{AdamsEAdamsSpectralSequence} below) is an example.
 
@@ -137,7 +138,7 @@ $$
      &\stackrel{f_0}{\longrightarrow}& 
    Y
    \\
-   && \downarrow^{\mmathrlap{g_3}}
+   && \downarrow^{\mathrlap{g_3}}
    && \downarrow^{\mathrlap{g_2}}
    && \downarrow^{\mathrlap{g_1}}
    && \downarrow^{\mathrlap{g_0}}
@@ -150,7 +151,7 @@ where each stage
 
 $$
  \array{
-   X_{k+1} &\stackrel{f_k}{\longrightarrow}& X_k   
+   Y_{k+1} &\stackrel{f_k}{\longrightarrow}& Y_k   
    \\
    && \downarrow^{\mathrlap{g_k}}
    \\
@@ -161,13 +162,13 @@ $$
 is a [[homotopy cofiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), hence equivalently ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)) a [[homotopy fiber sequence]], hence where
 
 $$
-  X_{k_1} 
+  Y_{k+1} 
     \overset{f_k}{\longrightarrow}
-  X_k
+  Y_k
    \overset{g_k}{\longrightarrow}
   A_k
     \overset{}{\longrightarrow}
-  \Sigma X_{k+1}
+  \Sigma Y_{k+1}
 $$
 
 is an exact triangle ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)).
@@ -269,11 +270,11 @@ $$
 Specifically, regard the terms here as the following bigraded abelian groups
 
 $$
-  D^{s,t}(X,Y) \;\coloneqq\; [X,Y_s]_{t-s}
-$$
-
-$$
-  E^{s,t}(X,Y) \;\coloneqq\; [X,A_s]_{t-s}
+  \begin{aligned}
+    D^{s,t}(X,Y) & \coloneqq [X,Y_s]_{t-s}
+    \\
+    E^{s,t}(X,Y) & \coloneqq [X,A_s]_{t-s}
+  \end{aligned}
   \,.
 $$
 
@@ -499,7 +500,7 @@ $$
   }
 $$
 
-its _page_ is the [[chain complex]]
+its **page** is the [[chain complex]]
 
 $$
   (\mathcal{E}^{\bullet,\bullet}, d \coloneqq j \circ  k)
@@ -560,10 +561,10 @@ is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequenc
 =--
 
 
-+-- {: .num_example #AdamsTypeSpectralSequenceOfATower}
-###### Example
++-- {: .num_defn #AdamsTypeSpectralSequenceOfATower}
+###### Definition
 
-Consider a [[filtered spectrum]], def. \ref{FilteredSpectrum},
+Given a [[filtered spectrum]], def. \ref{FilteredSpectrum},
 
 $$
   \array{
@@ -579,14 +580,14 @@ $$
    \\
    && \downarrow^{\mathrlap{g_3}}
    && \downarrow^{\mathrlap{g_2}}
-   && \downarrow^{\mathralp{g_1}}
+   && \downarrow^{\mathrlap{g_1}}
    && \downarrow^{\mathrlap{g_0}}
    \\
    && A_3 && A_2 && A_1 && A_0
   }
 $$
 
-and its induced [[exact couple]] of [[stable homotopy groups]], from def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}
+and given $X \in Ho(Spectra)$, the induced **[[spectral sequence of a filtered spectrum]]** is the [[spectral sequence]] that is induced, by def. \ref{ExactCoupleSpectralSequence} from the [[exact couple]] (def. \ref{ExactCouple}) given by def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}.
 
 $$
   \array{
@@ -596,7 +597,7 @@ $$
     \\
     && \mathcal{E}
   }
-  \;\;\;\;\;\,\;\;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;\,\;\;\;\;\;\;\;\;\;\;\;\;
   \array{
     \mathcal{D} &\stackrel{(-1,-1)}{\longrightarrow}& \mathcal{D}
     \\
@@ -606,7 +607,11 @@ $$
   }
 $$
 
-with bigrading as shown on the right.
+Hence the first page is
+
+$$
+  \mathcal{E}^{s,t}_1 = [X,A_s]_{t-s}
+$$
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
@@ -628,21 +633,23 @@ $$
   \,.
 $$
 
-
-Therefore the induced [[spectral sequence]] has differentials of the form
+hence the differentials on the $r$th page are of the form
 
 $$
-  d_r \;\colon\; \mathcal{E}_r^{s,t} \longrightarrow \mathcal{E}_r^{s+r, t+r-1}
+  d_r 
+    \;\colon\; 
+  \mathcal{E}_r^{s,t} 
+    \longrightarrow 
+  \mathcal{E}_r^{s+r, t+r-1}
   \,.
 $$
 
-This is also called the 
-**Adams-type [[spectral sequence of a tower of fibrations|spectral sequence of the tower of fibrations]]** $X_{n+1} \to X_n$.
 
 =--
 
 
 #### $E$-Adams filtrations
+ {#AdamsFiltration}
 
 Given a [[homotopy commutative ring spectrum]] $(E,\mu,e)$, then an _$E$-Adams spectral sequence_ is a [[spectral sequence]] as in example \ref{AdamsTypeSpectralSequenceOfATower}, where each cofiber is induced from the unit morphism $e \;\colon\; \mathbb{S} \longrightarrow E$:
 
@@ -660,7 +667,7 @@ $$
 $$ 
 
 of morphisms in the [[stable homotopy category]]
-([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a filtered spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the image under $[X,-]_\bullet$ of the tower
+([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a filtered spectrum]] (def. \ref{AdamsTypeSpectralSequenceOfATower}) of the image under $[X,-]_\bullet$ of the tower
 
 $$
   \array{
@@ -668,44 +675,42 @@ $$
     \\
     & \downarrow
     \\
-    & Y_3 &\overset{f_3}{\longrightarrow}& E \wedge Y_3 = W_3
+    & Y_3 &\overset{g_3}{\longrightarrow}& E \wedge Y_3 = A_3
     \\
     & \downarrow
     \\
-    & Y_2 &\overset{f_2}{\longrightarrow}& E \wedge Y_2 = W_2
+    & Y_2 &\overset{g_2}{\longrightarrow}& E \wedge Y_2 = A_2
     \\
     & \downarrow
     \\
-    & Y_1 &\overset{f_1}{\longrightarrow}& E \wedge Y_1 = W_1
+    & Y_1 &\overset{g_1}{\longrightarrow}& E \wedge Y_1 = A_1
     \\
     & \downarrow
     \\
-    Y = & Y_0 &\overset{f_0}{\longrightarrow}& E \wedge Y_0  = W_0
+    Y = & Y_0 &\overset{g_0}{\longrightarrow}& E \wedge Y_0  = A_0
   }
   \,,
 $$
 
-where each hook is a [[homotopy fiber sequence]] (equivalently a [[homotopy cofiber sequence]], [prop](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)), hence where each 
+where each hook is a [[homotopy fiber sequence]] (equivalently a [[homotopy cofiber sequence]], [prop.](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)), hence where each 
 
 $$
   Y_{n+1} 
-    \longrightarrow 
+    \overset{f_n}{\longrightarrow}
   Y_n 
-    \longrightarrow 
-  W_n 
-    \longrightarrow 
+    \overset{g_n}{\longrightarrow}
+  A_n
+    \overset{h_n}{\longrightarrow}
   \Sigma Y_{n+1}
 $$
 
 is an exact triangle ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)), where inductively
 
 $$
-  W_n \coloneqq E \wedge Y_n
+  A_n \coloneqq E \wedge Y_n
 $$ 
 
-is the derived [[smash product of spectra]] of $E$ with the stage $Y_n$ ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory))
-
-and where
+is the derived [[smash product of spectra]] of $E$ with the stage $Y_n$ ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)), and where
 
 $$
   f_n
@@ -717,21 +722,27 @@ $$
   E \wedge Y_{n}
 $$
 
-is the composition of the inverse derived [[unitor]] on $Y_n$ with the derived [[smash product of spectra]] of the unit $e$ of $E$ and the identity on $Y_n$.
+is the composition of the inverse derived [[unitor]] on $Y_n$ ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)) with the derived [[smash product of spectra]] of the unit $e$ of $E$ and the identity on $Y_n$.
 
+We write $\{E^{\s,t}_{r}(X,Y)\}_{s,t}$ for the $r$th page of this spectral sequence (def. \ref{PageOfAnExactCouple}).
+
+Hence, by example \ref{AdamsTypeSpectralSequenceOfATower}, the first page is
 
 $$
   E_1^{s,t}(X,Y)
     \;\coloneqq\;
-  [X, W_s ]_{t-s}
+  [X, A_s ]_{t-s}
 $$
+
+and the differentials are of the form
 
 $$
   d_r  
     \;\colon\;
   E_r^{s,t}(X,Y)
     \longrightarrow
-  E_r^{s+r, t+r-1}
+  E_r^{s+r, t+r-1}(X,Y)
+  \,.
 $$
 
 =--
@@ -751,9 +762,10 @@ $$
   \mathbb{S}
     \overset{e}{\longrightarrow}
   E
+  \,,
 $$
 
-hence an exact triangle ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)), 
+equivalently an [[triangulated category|exact triangle]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)) of the form
 
 $$
   \overline{E} 
@@ -784,7 +796,7 @@ $$
 and
 
 $$
-  W_p
+  A_p
     \;\simeq\;
   E \wedge \overline{E}^p \wedge Y
   \,.
@@ -801,6 +813,15 @@ $$
     \underbrace{
       \overline{E} \wedge \cdots \wedge \overline{E}
   }} \wedge Y
+  \,.
+$$
+
+Hence the first page of the $E$-Adams spectral sequence reads equivalently
+
+$$
+  E^{s,t}_1(X,Y)
+   \simeq
+  [X, E \wedge^{\overline{E}^s} \wedge Y]_{t-s}
   \,.
 $$
 
@@ -828,11 +849,11 @@ $$
   \overline{E}^{p+1} \wedge Y
     \longrightarrow
   \overline{E}^p \wedge Y
-    \longrightarrow
+    \overset{f_p}{\longrightarrow}
   E \wedge \overline{E}^p \wedge Y
 $$
 
-where by induction assumption the morphism on the right is $f_p$. Since $Y_{p+1}$ is defined to be the homotopy fiber of $f_p$, it follows that $Y_{p+1} \simeq \overline{E}^{p+1} \wedge Y$ and hence by definition that $W_{p+1}\simeq E \wedge \overline{E}^p  \wedge Y$.
+where the morphism on the right is identified as $f_p$ by the induction assumption. Since $Y_{p+1}$ is defined to be the homotopy fiber of $f_p$, it follows that $Y_{p+1} \simeq \overline{E}^{p+1} \wedge Y$ and hence by definition that $A_{p+1}\simeq E \wedge \overline{E}^p  \wedge Y$.
 
 =--
 
@@ -840,29 +861,27 @@ where by induction assumption the morphism on the right is $f_p$. Since $Y_{p+1}
 #### The first page
  {#FirstPageAndHopfAlgebroid}
 
-The first page of an $E$-Adams spectral sequence (def. \ref{AdamsEAdamsSpectralSequence}) is
+By lemma \ref{Wp} the first page of an $E$-Adams spectral sequence (def. \ref{AdamsEAdamsSpectralSequence}) looks like
 
 $$
   \begin{aligned}
-    \mathcal{E}_1^{s,t}
-      &\simeq
-    [Y, W_s]_{t-s}
-    \\
-    & \simeq
+    E^{s,t}_1(X,Y)
+    & 
+    \simeq
     [Y, E \wedge \overline{E}^s \wedge Y]_{s-t}
   \end{aligned}
+  \,.
 $$
 
-where we used lemma \ref{Wp}.
 
-We discuss now how, under favorable conditions, hom-groups may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$. Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-homology of the $\mathcal{E}_1$-page is seen to compute the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules. This re-formulation of the $\mathcal{E}_2$-page is the one that makes it be useful for computations.
+We discuss now how, under favorable conditions, these hom-groups may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$. Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-cohomology of the first page computes the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules. 
 
-The first condition needed for this to work is the following.
+The condition needed for this to work is the following.
 
 +-- {: .num_defn #FlatE}
 ###### Definition
 
-Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ **flat** if the right $\pi_\bullet(E)$-[[module]] structure on $E_\bullet(E)$ ([prop](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) is a [[flat module]].
+Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) **flat** if the right $\pi_\bullet(E)$-[[module]] structure on $E_\bullet(E)$ ([prop](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) is a [[flat module]].
 
 
 =--
@@ -895,12 +914,12 @@ Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} in
 =--
 
 
-The key consequence of the assumption that $E$ is flat in the sense of def. \ref{FlatE} is the following (see [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#EnHomology)).
+The key consequence of the assumption that $E$ is flat in the sense of def. \ref{FlatE} is the following.
 
 +-- {: .num_prop #FlatnessOfEImpliesKeyConsequence}
 ###### Proposition
 
-If $E$ is flat, def. \ref{FlatE}, then for all spectra $X$ there is a [[natural isomorphism]]
+For $E$ a [[homotopy commutative ring spectrum]] which is flat according to def. \ref{FlatE}, then for all spectra $X \in Ho(Spectra)$ there is a [[natural isomorphism]]
 
 $$
   E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
@@ -930,7 +949,14 @@ $$
 
 (e.g. [Adams 74, part III, lemma 12.5](#Adams74), [Schwede 12, prop. 6.20](#Schwede12))
 
-Using prop. \ref{FlatnessOfEImpliesKeyConsequence}, we find below (prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[commutative Hopf algebroid]]. We now first discuss what this means.
++-- {: .proof}
+###### Proof
+
+See the proof of [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#EnHomology).
+
+=--
+
+Using prop. \ref{FlatnessOfEImpliesKeyConsequence}, we find below (prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[commutative Hopf algebroid]]. We now first discuss what this means.
 
 
 ##### Commutative Hopf algebroids
@@ -1527,26 +1553,26 @@ Therefore also the top morphism is an iso.
 
 In conclusion:
 
-+-- {: .num_prop #ComoduleHomsInE1PageOfEAdamsSpectralSequence}
-###### Proposition
++-- {: .num_theorem #ComoduleHomsInE1PageOfEAdamsSpectralSequence}
+###### Theorem
 
 For $X, Y$ [[spectra]], and for $E$ a [[homotopy commutative ring spectrum]] 
 which is flat (def. \ref{FlatE}), 
-then the first page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[Y,X]$, induced by the standard $E$-[[Adams resolution]] for $X$ from example \ref{StandardEResolution}, is isomorphic to
+then the first page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[Y,X]_\bullet$ is isomorphic to
 
 $$
   0 
     \to 
-  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y),E_\bullet(W_0))
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(X),E_\bullet(A_0))
     \stackrel{d_1}{\longrightarrow}
   Hom_{E_\bullet(E)}^\bullet(
-     E_\bullet(Y),
-     E_\bullet(W_1)
+     E_\bullet(X),
+     E_\bullet(A_1)
   )
     \stackrel{d_1}{\longrightarrow}
   Hom_{E_\bullet(E)}^\bullet(
-     E_\bullet(Y),
-     E_\bullet(W_2)
+     E_\bullet(X),
+     E_\bullet(A_2)
    )
     \stackrel{d_1}{\longrightarrow}
    \cdots
@@ -1569,15 +1595,15 @@ In order to interpret prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, 
 +-- {: .num_lemma #ResolutionEWp}
 ###### Lemma
 
-The sequences
+Given an $E$-Adams spectral sequence $(E^{s,t}_r(X,Y),d_r)$ as in def. \ref{AdamsEAdamsSpectralSequence} then the sequences of morphisms
 
 $$
   0
     \to
-  E_\bullet(Y_p)
-    \overset{E_\bullet(f_p)}{\longrightarrow}
-  E_\bullet(W_p)
-    \overset{}{\longrightarrow}
+  E_\bullet(Y_n)
+    \overset{E_\bullet(g_n)}{\longrightarrow}
+  E_\bullet(A_n)
+    \overset{E_\bullet(h_n)}{\longrightarrow}
   E_{\bullet-1}(Y_{p+1})
    \to
   0
@@ -1591,20 +1617,21 @@ $$
       &\to& 
     E_\bullet(Y)
      && \overset{E_\bullet(f_0)}{\longrightarrow} &&
-    E_\bullet(W_0)
-     && \longrightarrow &&
-    E_{\bullet-1}(W_1)
-     && \longrightarrow &&
-    E_{\bullet-2}(W_2)
+    E_\bullet(A_0)
+     && \overset{\partial}{\longrightarrow} &&
+    E_{\bullet-1}(A_1)
+     && \overset{\partial}{\longrightarrow} &&
+    E_{\bullet-2}(A_2)
      && \longrightarrow &&
     \cdots
     \\
     &&
     &&
     &&
-    & \searrow && \nearrow_{\mathrlap{E_\bullet(f_1)}}
+    & {}_{\mathllap{E_\bullet(h_0)}}\searrow && \nearrow_{\mathrlap{E_\bullet(g_1)}}
     &&
-    \searrow && \nearrow_{\mathrlap{E_\bullet(f_2)}}
+    {}_{\mathllap{E_\bullet(h_1)}}\searrow 
+    && \nearrow_{\mathrlap{E_\bullet(g_2)}}
     \\
     && 
     &&
@@ -1617,44 +1644,45 @@ $$
   }
 $$
 
+is a [[long exact sequence]], exhibiting the graded [[chain complex]] $(E_\bullet(A_\bullet), \partial)$ as a resolution of $E_\bullet(Y)$.
 
 =--
 
-([Adams 74, theorem 15, page 322](#Adams74))
+([Adams 74, theorem 15.1, page 322](#Adams74))
 
 +-- {: .proof}
 ###### Proof
 
-Consider the image of the defining [[homotopy cofiber sequence]]
+Consider the defining [[homotopy cofiber sequence]]
 
 $$
   Y_p 
     \overset{f_p}{\longrightarrow}
-  W \wedge Y_p 
+  E \wedge Y_p
     \longrightarrow
   \Sigma Y_{p+1}
 $$
 
-under the functor $E \wedge (-)$, which is itself a homotopy cofiber sequence of the form (due to the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]], [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory))
+under the functor $E \wedge (-)$. This is itself a homotopy cofiber sequence of the form (due to the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]], [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory))
 
 $$
   E \wedge Y_p
-    \overset{E \wedge f_p}{\longrightarrow}
+    \overset{E \wedge g_p}{\longrightarrow}
   E \wedge E \wedge Y_p
-    \longrightarrow
+    \overset{E \wedge h_p}{\longrightarrow}
   \Sigma E \wedge Y_{p + 1}
   \,.
 $$
 
-Applying the functor $\pi_\bullet(-) \simeq [\mathbb{S},-]_\bullet$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)) to this yields a [[long exact sequence]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups))
+Applying the [[stable homotopy groups]] functor $\pi_\bullet(-) \simeq [\mathbb{S},-]_\bullet$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)) to this yields a [[long exact sequence]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups))
 
 $$
   \cdots
    \longrightarrow
   E_\bullet(Y_p)
-    \overset{\pi_\bullet(E \wedge f_p)}{\longrightarrow}
+    \overset{\pi_\bullet(E \wedge g_p)}{\longrightarrow}
   E_\bullet(W_p)
-    \longrightarrow
+    \overset{\pi_\bullet(E \wedge h_p)}{\longrightarrow}
   E_{\bullet-1}(Y_{p+1})
    \longrightarrow
   \cdots
@@ -1667,13 +1695,13 @@ $$
   id
   \;\colon\;
   E \wedge Y_p
-    \overset{E \wedge f_p}{\longrightarrow}
+    \overset{E \wedge g_p}{\longrightarrow}
   E \wedge E \wedge Y_p
     \overset{\mu \wedge id}{\longrightarrow}
   E \wedge Y_p
 $$
 
-and hence $\pi_\bullet(E \wedge f_p)$ is a [[monomorphism]]. This means that the above long exact sequence collapses to [[short exact sequences]].
+and hence $\pi_\bullet(E \wedge g_p)$ is a [[monomorphism]], hence its [[kernel]] is trivial. This means that the above long exact sequence collapses to [[short exact sequences]].
 
 =--
 
