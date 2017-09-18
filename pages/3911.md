@@ -657,8 +657,6 @@ Formulation of this in [[linear homotopy-type theory]] is discussed in
 
 * [[Urs Schreiber]], _[[schreiber:Homotopy-type semantics for quantization]]_
 
-[[!redirects Pontrjagin-Thom construction]]
-[[!redirects Pontryagin-Thom construction]]
 
 [[!redirects umkehr map]]
 [[!redirects umkehr maps]]
