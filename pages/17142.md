@@ -57,7 +57,8 @@ Reviews include
 
 Further lecture notes include
 
-* [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)), Lecture 3: _Thom's theorem_ ([pdf](file:///C:/Users/Sony/Downloads/3thom.pdf))
+* [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)), Lecture 3: _Thom's theorem_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf)),  Lecture 4 _Transversality_ (notes by I. Bobkova) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/4transversality.pdf))
+
 
 * {#Malkiewich11} [[Cary Malkiewich]], section 3 of _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
