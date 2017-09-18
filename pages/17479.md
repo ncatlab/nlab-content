@@ -1,0 +1,11 @@
+
+
+## Idea
+
+The universal [[Thom spectrum]] for [[spin structure]] is denoted $M Spin$.
+
+## Related concepts
+
+* [[MO]], [[MU]], [[MSp]]
+
+* [[Atiyah-Bott-Shapiro orientation]]
