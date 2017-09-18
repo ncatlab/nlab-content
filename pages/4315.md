@@ -427,8 +427,15 @@ Thus we arrive at an equivalent, however more basic definition of Lie groupoid b
 +-- {: .num_defn }
 ###### Definition
 
-Given Lie groupoids $G:=G_1\Rightarrow G_0$ and $H:=H_1\Rightarrow H_0$, a $G$-$H$-bibundle is a principal $H$-bundle $E \xrightarrow{\pi_G} G_0$ over $G_0$ with anchor $E\xrightarrow{\pi_H} H_0$ together with a left $G$-action (see [here](http://ncatlab.org/nlab/show/groupoid+principal+bundle#lie_groupoid_principal_bundles) ) with anchor $\pi_G$, such that the two actions commute.
+Given Lie groupoids $G:=G_1\Rightarrow G_0$ and $H:=H_1\Rightarrow H_0$, a $G$-$H$-**bibundle** is a principal $H$-bundle $E \xrightarrow{\pi_G} G_0$ over $G_0$ with anchor $E\xrightarrow{\pi_H} H_0$ together with a left $G$-action (see [here](http://ncatlab.org/nlab/show/groupoid+principal+bundle#lie_groupoid_principal_bundles) ) with anchor $\pi_G$, such that the two actions commute. If the $G$-action also gives arise to a principal bundle over $H_0$, then $E$ induces a [[Morita equivalence]] between $G$ and $H$ and it is sometimes called a **Morita bibundle** in this case.
 =--
+
+###### Example
+
+Given a manifold $M$, and two open covers $\{U_i\}$ and $\{V_i\}$, we may form two Cech groupoids (see [here](http://ncatlab.org/nlab/show/Lie+groupoid#examples_for_lie_groupoids) ) $\sqcup U_{ij} \Rightarrow \sqcup U_i$ and $\sqcup V_{ij} \Rightarrow \sqcup V_i$. 
+
+
+
 
 
 
