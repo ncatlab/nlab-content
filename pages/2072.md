@@ -18,7 +18,7 @@ $$
 
 See the discussion at [[limit in a quasi-category]] for details.
 
-#Refernces#
+#References#
 
 In corollary 3.3.3.2 of 
 
