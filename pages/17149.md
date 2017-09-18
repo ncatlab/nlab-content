@@ -85,6 +85,8 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[Hurewicz homomorphism]]
 
+* [[Boardman homomorphism]]
+
 * [[ordinary homology spectra split]]
 
 * [[homology of MU]]
