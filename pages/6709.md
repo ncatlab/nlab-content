@@ -155,10 +155,11 @@ More generally, the SW classes are then given by the [[Chern character]]. See fo
 
 ## References 
 
-A classic work on the subject is 
+Textbook accounts include
 
 * {#MilnorStasheff} [[John Milnor]], [[Jim Stasheff|James D. Stasheff]], _Characteristic Classes_, Annals of Mathematics Studies 76, Princeton University Press (1974). 
-  
+
+* {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996  
 
 A concise introduction is in chapter 23, section 3 of 
 
