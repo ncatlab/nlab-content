@@ -115,3 +115,5 @@ whence we infer that ${|S_1 + T|}$ is a multiple of $8$, and we have reached a c
 {#FLM} 
 
 * Patrick J. Morandi, _Error Correcting Codes and Algebraic Curves_ , lecture notes New Mexico State University 2001. ([pdf](http://www.math.nmsu.edu/~pmorandi/math601f01/LectureNotes.pdf))
+
+* Jay A. Wood, _Spinor Groups and Algebraic Coding Theory_ , J.Combinatorial Th. Series A **51** (1989) pp.277-313. (available online)
