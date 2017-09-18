@@ -669,10 +669,6 @@ Discussion of the [[L-infinity algebra]] [[schreiber:infinity-Chern-Simons theor
 
 References discussing independence of string field theories on the [[CFT]] ([[sigma-model]] background) in terms of which they are written down.
 
-Conversely, closed string field theory has been argued to arise from the [[dynamics]] of [[Wilson loops]] in the [[IKKT matrix model]] in ([Fukuma-Kawai-Kitazawa-Tsuchiya 97](#FukumaKawaiKitazawaTsuchiya97))
-
-* M. Fukuma, H. Kawai, Y. Kitazawa, A. Tsuchiya, _String Field Theory from IIB Matrix Model_, Nucl.Phys.B510:158-174,1998 ([arXiv:hep-th/9705128](http://arxiv.org/abs/hep-th/9705128))
- {#FukumaKawaiKitazawaTsuchiya97}
 
 
 #### For closed string field theory
@@ -687,11 +683,18 @@ A review of the history of some related developments is given in
 
 * Sabbir Rahman, _Manifest background independent formulation of string field theory_ ([newsgroup comment](http://www.natscience.com/Uwe/Forum.aspx/physics-research/503/Manifest-background-independent-formulation-of-string-field))
 
+Closed string field theory has also been argued to arise from the [[dynamics]] of [[Wilson loops]] in the [[IKKT matrix model]] in ([Fukuma-Kawai-Kitazawa-Tsuchiya 97](#FukumaKawaiKitazawaTsuchiya97))
+
+* {#FukumaKawaiKitazawaTsuchiya97} M. Fukuma, H. Kawai, Y. Kitazawa, A. Tsuchiya, _String Field Theory from IIB Matrix Model_, Nucl.Phys.B510:158-174,1998 ([arXiv:hep-th/9705128](http://arxiv.org/abs/hep-th/9705128))
+ 
+
+
 #### For open string field theory
 
 * [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
 
-(...)
+* [[Theodore Erler]], Carlo Maccaferri, _String Field Theory Solution for Any Open String Background_ ([arXiv:1406.3021](http://arxiv.org/abs/1406.3021))
+
 
 ### Tachyon dynamics, decaying D-branes and Sen's conjecture
  {#BosonicStringVacuumAndSenConjecture}
