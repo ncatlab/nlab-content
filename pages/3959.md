@@ -42,6 +42,8 @@ Basic facts about smooth functions are
 
 * the [[Steenrod-Wockel approximation theorem]]
 
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
+
 
 ## Examples
 
