@@ -28,6 +28,8 @@ $$
   \,.
 $$
 
+Yet another description is that it is the [[Freyd cover]] of **Set**.
+
 =--
 
 +-- {: .num_defn}
@@ -422,9 +424,9 @@ are $(\infty,1)$-pullbacks in $\mathbf{H}$. This is clearly always the case.
 
 ## References
 
-The Sierpinski topos is mentioned around remark B3.2.11 in 
+The Sierpinski topos is mentioned around remarks A2.1.12, B3.2.11 (p.83, p.387f) in 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. I_, Oxford UP 2002.
 
 The [[homotopy type theory]] of the Sierpinski $(\infty,1)$-topos is discussed in 
 
