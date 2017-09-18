@@ -18,7 +18,7 @@
 
 For $n \in \mathbb{N}$, an _$n$-category_ is like
 
-* a [[directed space]] in which $(k \leq n)$-dimensional paths have a direction, while all higher dimensional paths may be reversed;
+* an $n$-truncated [[directed space]] in which $(k \leq n)$-dimensional paths have a direction, while all higher dimensional paths are reversible and parallel higher dimensional paths are homotopic;
 
 * a $n$-fold higher analog of what a [[category]] is to a [[set]]
 
