@@ -23,7 +23,7 @@
 
 #Contents#
 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -58,7 +58,7 @@ The ordinary [[limit]] and [[colimit]] operations on $D$-diagrams are (as descri
 
 $$
   [D,C]
-  \stackrel{\stackrel{\overset{colim = Lan_!}{\to}}{\overset{const}{\leftarrow}}}{\underset{lim = Ran_!}{\to}}
+  \stackrel{\stackrel{\overset{colim = Lan_!}{\longrightarrow}}{\overset{const}{\leftarrow}}}{\underset{lim = Ran_!}{\to}}
   C
   \,.
 $$
@@ -92,7 +92,7 @@ In particular, if $C$ is equipped with the extra structure of a [[simplicial mod
 
 $$
   [D,C]_{proj}
-   \stackrel{\overset{colim}{\to}}{\underset{const}{\leftarrow}} 
+   \stackrel{\overset{colim}{\longrightarrow}}{\underset{const}{\longleftarrow}} 
   C
 $$
 
@@ -100,7 +100,7 @@ and
 
 $$
   [D,C]_{inj}
-   \stackrel{\overset{const}{\leftarrow}}{\underset{lim}{\to}} 
+   \stackrel{\overset{const}{\longleftarrow}}{\underset{lim}{\longrightarrow}} 
   C
   \,.
 $$
@@ -111,7 +111,7 @@ These present directly the corresponding [[adjoint (∞,1)-functor]]s (as descri
 
 $$
   (\infty,1)Func(D,C^\circ)
-  \stackrel{\to}{\stackrel{\leftarrow}{\to}}
+  \stackrel{\longrightarrow}{\stackrel{\leftarrow}{\longrightarrow}}
   C^\circ
 $$
 
@@ -181,7 +181,7 @@ The direct prescription for computing the value of a right or left [[derived fun
 For the derived functors of limit and colimit
 
 $$
-  [D,C] \stackrel{\overset{\lim_\leftarrow}{\to}}{\stackrel{\overset{const}{\leftarrow}}{\underset{\lim_\to}{\to}}}
+  [D,C] \stackrel{\overset{\lim_\longleftarrow}{\longrightarrow}}{\stackrel{\overset{const}{\longleftarrow}}{\underset{\lim_\longrightarrow}{\longrightarrow}}}
   C
 $$
 
@@ -240,7 +240,7 @@ we have a $V$-[[adjunction]]
 
 $$
   [D,C]
-  \stackrel{\overset{W \otimes_D (-)}{\to}}{\underset{const(-)^{W}}{\leftarrow}}
+  \stackrel{\overset{W \otimes_D (-)}{\longrightarrow}}{\underset{const(-)^{W}}{\longleftarrow}}
   D
   \,,
 $$
@@ -492,7 +492,7 @@ satisfies
 then
 
 * $holim_D F$ exists;
-* and is weakly equivalent to the ordinary limit $holim_D F \stackrel{\simeq}{\to} lim_D F$.
+* and is weakly equivalent to the ordinary limit $holim_D F \stackrel{\simeq}{\longrightarrow} lim_D F$.
 
 Conversely this means that on an arbitrary pullback diagram  $holim_D F$ can be computed by finding a natural transformation $F \Rightarrow R F$ whose component morphisms are weak equivalences and such that $R F$ satisfies the above conditions.
 
@@ -500,7 +500,7 @@ Conversely this means that on an arbitrary pullback diagram  $holim_D F$ can be 
 #### Based loop objects 
 
 
-For $B$ any [[pointed object]] with point $pt \stackrel{pt_B}{\to} B$ the homotopy pullback of the point along itself is the [[loop space object]] of $B$
+For $B$ any [[pointed object]] with point $pt \stackrel{pt_B}{\longrightarrow} B$ the homotopy pullback of the point along itself is the [[loop space object]] of $B$
 
 $$
 
@@ -517,8 +517,8 @@ $$
 i.e.
 
 $$
-  holim(  pt \stackrel{pt_B}{\to}  B \stackrel{pt_B}{\leftarrow} pt)
-  \;\stackrel{\simeq}{\to}\;
+  holim(  pt \stackrel{pt_B}{\longrightarrow}  B \stackrel{pt_B}{\leftarrow} pt)
+  \;\stackrel{\simeq}{\longrightarrow}\;
   \Omega_{pt} B
   \,.
 $$
@@ -585,12 +585,12 @@ $$
        pt &\to& \mathbf{B}G
     }
   \right)
-  \stackrel{\simeq}{\to}
+  \stackrel{\simeq}{\longrightarrow}
   G
   \,.
 $$
 To see this, we compute using the above prescription by finding a weakly equivalent pullback diagram such that one of its morphisms is a fibration. This is achieved in particular by the [[generalized universal bundle]]
-$pt \stackrel{\simeq}{\to} \mathbf{E}G \to\gt \mathbf{B}G$, where $\mathbf{E}G$ is the [[action groupoid]] $G//G$ of $G$ 
+$pt \stackrel{\simeq}{\longrightarrow} \mathbf{E}G \to\gt \mathbf{B}G$, where $\mathbf{E}G$ is the [[action groupoid]] $G//G$ of $G$ 
 acting on itself by multiplication from one side. So we have a weak equivalence of pullback diagrams
 $$
   \array{
@@ -614,7 +614,7 @@ $$
        pt &\to& \mathbf{B}G
     }
   \right)
-  \stackrel{\simeq}{\to}
+  \stackrel{\simeq}{\longrightarrow}
   lim
   \left(
     \array{
@@ -649,7 +649,7 @@ $$
      \mathbf{B}H &\to& \mathbf{B}G
    }
   \right)
-  \stackrel{\simeq}{\to}  H \backslash\backslash G//H
+  \stackrel{\simeq}{\longrightarrow}  H \backslash\backslash G//H
 $$
 
 where on the right we have the [[action groupoid]] of $H \times H$ acting on $G$ by multiplication from the left (first factor) and the right (second factor). (See for instance at _[[Hecke category]]_ for an application.)
@@ -1020,6 +1020,12 @@ This appears as theorem 1.5 in
 ### More examples and special cases
 
 * [[filtered homotopy colimit]]
+
+## Related concepts
+
+* [[(∞,1)-limit]]
+
+* [[lax (∞,1)-colimit]]
 
 ## References 
 
