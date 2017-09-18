@@ -1,0 +1,14 @@
+
+## Idea
+
+A [[differential operator]] whose [[principal symbol]] is hyperbolic (...)
+
+## Examples
+
+* [[wave operator]]
+
+## Related concepts
+
+* [[elliptic differential operator]]
+
+[[!redirects hyperbolic differential operators]]
