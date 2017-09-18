@@ -7769,7 +7769,7 @@ $$
   \,.
 $$
 
-This completes the induction step.
+This completes the induction step, and hence the proof.
 
 =--
 
@@ -7787,7 +7787,7 @@ $$
   H^p(\mathbb{C}P^n, \pi_q(E)) \Rightarrow H^\bullet(\mathbb{C}P^n)
 $$
 
-collapse right away, and that the [[inverse system]] which they form satisfies the [[Mittag-Leffler condition]]. Accordinly the [[Milnor exact sequence]] gives that the ordinary [[first Chern class]] $c_1$ generates,  over $\pi_\bullet(E)$, all Conner-Floyd classes over $B U(1)$:
+collapse right away, and that the [[inverse system]] which they form satisfies the [[Mittag-Leffler condition]]. Accordingly the [[Milnor exact sequence]] gives that the ordinary [[first Chern class]] $c_1$ generates,  over $\pi_\bullet(E)$, all Conner-Floyd classes over $B U(1)$:
 
 $$
   E^\bullet(B U(1)) \simeq \pi_\bullet(E) [ [ c_1 ] ]
@@ -7798,7 +7798,7 @@ This is the key input for the discussion of [[formal group laws]] [below](#Forma
 
 Combining the [[Atiyah-Hirzebruch spectral sequence]] with the [[splitting principle]] as for ordinary Chern classes [above](#ChernClasses) yields, similarly, that in general Conner-Floyd classes are generated, over $\pi_\bullet(E)$, from the ordinary Chern classes.
 
-Finally one checks that Conner-Floyd classes canonically serve as [[Thom classes]] for $E$-cohomology of the [[universal complex vector bundle]], therby showing that [[complex oriented cohomology theories]] are indeed canonically [[orientation in generalized cohomology|oriented]] on ([[spherical fibrations]] of) [[complex vector bundles]]. 
+Finally one checks that Conner-Floyd classes canonically serve as [[Thom classes]] for $E$-cohomology of the [[universal complex vector bundle]], thereby showing that [[complex oriented cohomology theories]] are indeed canonically [[orientation in generalized cohomology|oriented]] on ([[spherical fibrations]] of) [[complex vector bundles]]. 
  
 **Literature.** ([Kochman 96, section 4.3](#Kochman96) [Adams 74, part I.4, part II.2 II.4, part III.10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
