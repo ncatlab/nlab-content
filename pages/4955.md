@@ -123,9 +123,11 @@ this is an oversimplification.  Upon choosing an independent variable, it is pos
 
 * Wikipedia, _[Chain rule](https://en.wikipedia.org/wiki/Chain_rule)_
 
-On the chain rule in [[Goodwillie calculus]]:
+On the [[Goodwillie chain rule]] in [[Goodwillie calculus]]:
 
 * John R. Klein, [[John Rognes]], _A chain rule in the calculus of homotopy functors_, Geom. Topol. 6 (2002) 853-887 ([arXiv:math/0301079](http://arxiv.org/abs/math/0301079))
+
+* [[Jacob Lurie]], section 6.3 of _[[Higher Algebra]]_
 
 
 [[!redirects chain rule]]
