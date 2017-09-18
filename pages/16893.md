@@ -24,7 +24,7 @@ If one thinks of [[global analytic geometry]] as a theory based on the study of 
 
 A first step in this direction of a good homotopy theory for global analytic spaces (that would be useful for the study of their cohomological invariants) would be to work with spectral rings in the symmetric monoidal category of Banach modules (over a given fixed Banach ring).
 
-However, one would like the theory not to depend on the choice of a particular Banach ring, because it is also desirable to be invariant by the natural power action of $\mathbb{R}_+^*$ on Banach pseudo-norms, that are multiplicative maps that fulfill the weak triangular inequality
+However, one would like the theory not to depend on the choice of a particular Banach ring, because it is also desirable to be invariant by the natural power action of $\mathbb{R}_+^*$ on [[pseudo-Banach ring|Banach pseudo-norms]], that are multiplicative maps that fulfill the weak triangular inequality
 $$
 |a+b|\leq C\cdot \max(|a|,|b|).
 $$
