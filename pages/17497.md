@@ -9386,7 +9386,7 @@ Similarly given
 $$
   \alpha 
      \;\colon\;
-  \Sigma^{n-1}\mathbb{S} 
+  \Sigma^{n_1}\mathbb{S} 
     \longrightarrow
   E
 $$
