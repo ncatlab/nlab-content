@@ -6,9 +6,13 @@
 +-- {: .hide}
 [[!include analysis - contents]]
 =--
-#### Analytic geometry
-+--{: .hide}
-[[!include analytic geometry -- contents]]
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
 =--
 =--
 =--
@@ -18,12 +22,19 @@
 * table of contents
 {:toc}
 
+## Idea
+ {#Idea}
+
+The [[mathematics|mathematical]] field of _analysis_ is concerned with the concept of [[convergence]] of [[sequences]] (or more generally: of _[[nets]]_), in particular as concerns the _[[infinitesimal analysis]]_ that gives rise to the theory of [[differentiation]] and [[integration]] ("[[calculus]]"). One formalization of these concepts is in terms of "[[epsilontic analysis]]" on [[metric spaces]]. Many such epsilontic concepts from analysis however have equivalent formulations in terms of simple [[combinatorics]] of [[open subsets]] with respect to the [[metric topology]] of metric spaces, and this way the field of analysis has a large overlap with the field of _[[topology]]_, this is particularly true for [[functional analysis]] and the theory of [[topological vector spaces]].
+
 
 ## Entries related to analysis
 
 ### On mainstream analysis
 
-Some of the $n$lab entries related to __mathematical analysis__ include  [[functional analysis]], [[harmonic analysis]], [[complex analysis]], [[Weierstrass preparation theorem]], [[several complex variables]], [[Fourier transform]], [[Pontrjagin dual]], [[functional analysis]], [[differential geometry]], [[Legendre polynomial]], [[dilogarithm]], [[Hilbert space]], [[Banach space]], [[Banach algebra]], [[topological vector space]], [[locally convex space]], [[operator algebras]], [[Gelfand spectrum]], [[measure space]], [[measurable function]], [[Lebesgue space]], [[Sobolev space]], [[bounded operator]], [[compact operator]], [[Fredholm operator]], [[distribution]] (generalized function), [[hyperfunction]].[[spectral theory]], [[integral]], [[integration]]...and a book entry [[Handbook of analysis and its foundations]]. Many of the basic notions used in analysis courses are described in $n$lab in the more general [[topology|topological]] context if they belong there, e.g. [[compact space]], [[continuous map]], [[compact-open topology]] and so on. Many of the aspects of [[analytic geometry]] are treated in terms of Riemann surfaces, [[monodromy]], [[local system]]s and so on. 
+Some of the $n$lab entries related to __mathematical analysis__ include  [[metric space]], [[normed vector space]], [[metric topology]], [[sequence]], [[net]], [[convergence]],  
+
+[[functional analysis]], [[harmonic analysis]], [[complex analysis]], [[Weierstrass preparation theorem]], [[several complex variables]], [[Fourier transform]], [[Pontrjagin dual]], [[differential geometry]], [[Legendre polynomial]], [[dilogarithm]], [[Hilbert space]], [[Banach space]], [[Banach algebra]], [[topological vector space]], [[locally convex space]], [[operator algebras]], [[Gelfand spectrum]], [[measure space]], [[measurable function]], [[Lebesgue space]], [[Sobolev space]], [[bounded operator]], [[compact operator]], [[Fredholm operator]], [[distribution]] (generalized function), [[hyperfunction]].[[spectral theory]], [[integral]], [[integration]]...and a book entry [[Handbook of analysis and its foundations]]. Many of the basic notions used in analysis courses are described in $n$lab in the more general [[topology|topological]] context if they belong there, e.g. [[compact space]], [[continuous map]], [[compact-open topology]] and so on. Many of the aspects of [[analytic geometry]] are treated in terms of Riemann surfaces, [[monodromy]], [[local system]]s and so on. 
 
 ### On foundations 
 
@@ -55,17 +66,26 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 
 
 ## References
+ {#References}
 
-See also disambiguation entry [[calculus]]. 
 
 ### General
+ {#ReferencesGeneral}
 
-There are many web resources (including wikipedia) for mathematical analysis (this seems to hold also for [[combinatorics]] and [[number theory]], cf. e.g. [Tao's blog](http://terrytao.wordpress.com)).
+Textbooks include
 
+* Erich Schechter, _[[Handbook of Analysis and its Foundations]]_ ([web](http://www.math.vanderbilt.edu/~schectex/ccc/))
 
 Discussion of the history, amplifying its roots all the way back in [[Zeno's paradoxes of motion]] is in 
 
 * {#Boyer49} Carl Benjamin Boyer, _The history of the Calculus and its conceptual development_, Dover 1949
+
+See also
+
+* Wikipedia, _[Mathematical analysis](https://en.wikipedia.org/wiki/Mathematical_analysis)_
+
+See also the references at _[[calculus]]_.
+
 
 
 ### Constructive analysis
@@ -75,7 +95,6 @@ The formulation of [[analysis]] in [[constructive mathematics]], hence [[constru
 
 * {#Bishop} [[Errett Bishop]], _Foundations of constructive analysis._ McGraw-Hill, (1967)
  
-
 together with the basic notion of [[Bishop set]]/[[setoid]]. Implementations of constructive [[real number]] analysis in [[type theory]] implemented in [[Coq]] are discussed in 
 
 * R. O'Connor, _A Monadic, Functional Implementation of Real Numbers_. MSCS, 17(1):129-159, 2007 ([arXiv:0605058](http://arxiv.org/abs/cs/0605058))
