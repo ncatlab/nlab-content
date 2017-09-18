@@ -1,3 +1,4 @@
+>This article is on the concept of moment in probability theory. On some pages 'moment' is being used for [[idempotent (∞,1)-monad]], e.g., see [[negative moment]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
