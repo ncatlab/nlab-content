@@ -300,7 +300,9 @@ The reason for introducing [[categories]] was to introduce [[functors]], and the
 
 > If [[topology]] were publicly defined as the study of families of sets closed under finite intersection and infinite unions a serious disservice would be perpetrated on embryonic students of topology. The mathematical correctness of such a definition reveals nothing about topology except that its basic axioms can be made quite simple. And with category theory we are confronted with the same pedagogical problem. The basic axioms, which we will shortly be forced to give, are much too simple.
 
-> A better (albeit not perfect) description of topology is that it is the study of continuous maps; and category theory is likewise better described as the theory of functors. Both descriptions are logically inadmissible as initial definitions, but they more accurately reflect both the present and the historical motivations of the subjects. It is not too misleading, at least historically, to say that categories are what one must define in order to define natural transformations. (from [Freyd 64, page 1](#Freyd64))
+> A better (albeit not perfect) description of topology is that it is the study of continuous maps; and category theory is likewise better described as the theory of functors. Both descriptions are logically inadmissible as initial definitions, but they more accurately reflect both the present and the historical motivations of the subjects. 
+
+> {#CategoriesForNaturalTransformations} It is not too misleading, at least historically, to say that categories are what one must define in order to define natural transformations. (from [Freyd 64, page 1](#Freyd64))
 
 
 The paper [Eilenberg-Maclane 45](#EilenbergMacLane45) was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Since then category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
