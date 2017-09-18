@@ -28,7 +28,7 @@ $$
   \cdot 2 : \mathbb{Z} \to \mathbb{Z}
 $$
 
-on the additive group of [[integers]]. As such $\mathbb{Z}_2$ is the special case of a [[cyclic group]] $\mathbb{Z}_p$ for $p = 2$.
+on the additive group of [[integers]]. As such $\mathbb{Z}_2$ is the special case of a [[cyclic group]] $\mathbb{Z}_p$ for $p = 2$ and hence also often denoted $C_2$.
 
 ## Related concepts
 
@@ -36,5 +36,10 @@ on the additive group of [[integers]]. As such $\mathbb{Z}_2$ is the special cas
 
 * [[Stiefel-Whitney class]]
 
+* [[Steenrod square]]
 
 [[!redirects group of order two]]
+
+[[!redirects cyclic group of order two]]
+[[!redirects cyclic group of order 2]]
+
