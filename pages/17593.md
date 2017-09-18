@@ -11,6 +11,8 @@ An object is _scale invariant_ if it is preserved by global rescaling of length.
 
 * [[conformal transformation]]
 
+* [[fractal]]
+
 ## Referenes
 
 * Yu Nakayama, _Scale invariance vs conformal invariance_ ([arXiv:1302.0884](http://arxiv.org/abs/1302.0884))
