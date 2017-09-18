@@ -83,7 +83,7 @@ From now on, we drop (2); the next step is to generalize the [[target]] of $\mu$
 
 Some further terms:
 
-*  We can combine conditions; for example a __finite positive measure__ takes values in $[0,\infty[$.
+*  We can combine conditions; for example a __finite positive measure__ takes values in ${[{0,\infty}[}$.
 *  A measure is __bounded__ if, for some (finite) real number $M$, $|\mu(S)| \leq M$ for every measurable set $S$.  (This requires that the target of $\mu$ have a real-valued notion of absolute value or norm, so a vector-valued measure should be valued in a [[Banach space]] or something similar.)
 *  A measure is __$\sigma$-finite__ if every measurable set is a union of countably many sets with finite measure.
 
