@@ -84,6 +84,20 @@ Write $(Ho(Top^{\ast/}), \wedge , S^0)$ for the homotopy category of [[pointed t
 
 Write $(Ho(Spectra), \wedge, \mathbb{S})$ be the [[stable homotopy category]] with its [[symmetric monoidal smash product of spectra]] $\wedge$ whose [[tensor unit]] is the [[sphere spectrum]] $\mathbb{S}$.
 
+For $A,B \in Ho(Spectra)$ two [[spectra]], we write
+
+$$
+  [A,B] \coloneqq Hom_{Ho(Spectra)}(A,B) \in Ab
+$$
+
+for [[hom-set]] in the [[stable homotopy group]] and 
+
+$$
+  [A,B]_\bullet \coloneqq [\Sigma^\bullet A, B]
+$$
+
+for the $\mathbb{Z}$-graded group ([this def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)).
+
 
 There are two pairs of ([[derived functor|derived]]) [[adjoint functors]] 
 
@@ -150,7 +164,7 @@ $$
 eqipped with this monoid structure
 the _[[H-group ring spectrum]]_ of $G$. See [there](∞-group+∞-ring#HGroupRingSpectra) for more.
 
-One such [[H-group]] is the _[[circle 2-group]]_, hence (the [[homotopy type]] of) the [[classifying space]] $B U(1)$ for [[complex line bundles]], equivalently the [[Eilenberg-MacLane space] $K(\mathbb{Z},2)$, canonically presented by the [[complex projective space]] $\mathbb{C}P^\infty$
+One such [[H-group]] is the _[[circle 2-group]]_, hence (the [[homotopy type]] of) the [[classifying space]] $B U(1)$ for [[complex line bundles]], equivalently the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, canonically presented by the [[complex projective space]] $\mathbb{C}P^\infty$
 
 
 $$
@@ -183,64 +197,7 @@ $$
   \,.
 $$
 
-Observe that we have a splitting 
-
-$$
-  \Sigma^\infty(B U(1)_+)
-   \;\simeq\;
-  \left(
-    \Sigma^\infty (B U(1))
-  \right)
-    \;\oplus\;
-  \mathbb{S}
-$$
-
-(by [this remark](∞-group+∞-ring#HGroupRingSpectrumSplitsAsDirectSumWithSphereSpectrum)) and hence a canonical morphism
-
-$$
-  \Sigma^\infty (B U(1))
-    \longrightarrow
-  \Sigma^\infty (B U(1)_+)
-  \,.
-$$
-
-Via this plitting the morphism in $Ho(Top^{\ast/})$
-
-$$
-  h \colon S^2 \longrightarrow B U(1)
-$$
-
-in $[S^2, B U(1)] \simeq \pi_2(B U(1)) \simeq \mathbb{Z}$ which classifies the [[basic complex line bundle on the 2-sphere]] and represents $1 \in \mathbb{Z}$, induces a morphism 
-
-$$
-  \beta
-    \;\colon\;
-  \Sigma^2 \mathbb{S}
-    \simeq
-  \Sigma^\infty S^2
-    \overset{ \Sigma^\infty( h ) }{\longrightarrow}
-  \Sigma^\infty B U(1)
-    \overset{}{\longrightarrow}
-  \Sigma^\infty (B U(1)_+)
-$$
-
-in $[\mathbb{S}, \Sigma^\infty(B U(1)_+)]_2$.
-
-For $A,B \in Ho(Spectra)$ two [[spectra]], we write
-
-$$
-  [A,B] \coloneqq Hom_{Ho(Spectra)}(A,B) \in Ab
-$$
-
-for [[hom-set]] in the [[stable homotopy group]] and 
-
-$$
-  [A,B]_\bullet \coloneqq [\Sigma^\bullet A, B]
-$$
-
-for the $\mathbb{Z}$-graded group ([this def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)).
-
-Hence for $X \in Ho(Top^{\ast/})$ a [[pointed topological space]], then
+Therefore for $X \in Ho(Top^{\ast/})$ a [[pointed topological space]], then
 
 $$
   [\Sigma^\infty X,\Sigma^\infty(G_+)]_\bullet
@@ -290,18 +247,110 @@ $$
 Here the isomorphism on the left is the combination of the strong monoidalness of $\Sigma^\infty$ with the respect of suspension $\Sigma$ for the smash product of spectra (the [[tensor triangulated category]] structure on $Ho(Spectra)$, [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)).
 
 
-Given
+Observe that we have a splitting 
 
 $$
-  S^n \longrightarrow G
+  \Sigma^\infty(B U(1)_+)
+   \;\simeq\;
+  \left(
+    \Sigma^\infty (B U(1))
+  \right)
+    \;\oplus\;
+  \mathbb{S}
 $$
 
+(by [this remark](∞-group+∞-ring#HGroupRingSpectrumSplitsAsDirectSumWithSphereSpectrum)) and hence a canonical morphism
+
 $$
-  \Sigma^2 \Sigma^\infty X
+  \Sigma^\infty (B U(1))
+    \longrightarrow
+  \Sigma^\infty (B U(1)_+)
+  \,.
+$$
+
+Via this splitting, the morphism in $Ho(Top^{\ast/})$
+
+$$
+  h \colon S^2 \longrightarrow B U(1)
+$$
+
+in $[S^2, B U(1)] \simeq \pi_2(B U(1)) \simeq \mathbb{Z}$ which classifies the [[basic complex line bundle on the 2-sphere]] and represents $1 \in \mathbb{Z}$, induces a morphism 
+
+$$
+  \beta
+    \;\colon\;
+  \Sigma^2 \mathbb{S}
     \simeq
-  \Sigma^\infty S^2 \wedge \Sigma^\infty X
+  \Sigma^\infty S^2
+    \overset{ \Sigma^\infty( h ) }{\longrightarrow}
+  \Sigma^\infty B U(1)
+    \overset{}{\longrightarrow}
+  \Sigma^\infty (B U(1)_+)
+$$
+
+in $[\mathbb{S}, \Sigma^\infty(B U(1)_+)]_2$.
+
+For $X \in Ho(Top^{\ast/})$ we write 
+
+$$
+  \beta \cdot (-)
+    \;\colon\;
+  [\Sigma^\infty X, \Sigma^\infty( B U(1)_+ )]_\bullet
+    \longrightarrow
+  [\Sigma^\infty X, \Sigma^\infty( B U(1)_+ )]_{\bullet + 2}
+$$
+
+for the operation of [[smash product]] with $\beta$, sending $\Sigma^n \Sigma^\infty X \overset{\alpha}{\longrightarrow} \Sigma^\infty (B U(1)_+)$ to
+
+$$
+  \Sigma^{n+2} \Sigma^\infty X
+   \simeq
+  \Sigma^2 \mathbb{S} \wedge \Sigma^n \Sigma^\infty X
+    \overset{ \beta \wedge \alpha  }{\longrightarrow}
+  \Sigma^\infty (B U(1)_+) \wedge \Sigma^\infty( B U(1)_+ )
+    \overset{ \Sigma^\infty(\mu_+) }{\longrightarrow}
+  \Sigma^\infty (B U(1)_+)
+  \,.
+$$
+
+The above splitting also gives a morphism
+
+$$
+  \Sigma^\infty (B U(1)_+)
     \simeq
-  \Sigma^\infty( S^2 \wedge X )
+  \Sigma^\infty B U(1)  \oplus \mathbb{S}
+    \overset{ ( \tilde i , e_{KU})  }{\longrightarrow}
+  KU
+$$
+
+where $\tilde i$ is the $(\Sigma^\infty \dashv \Omega^\infty)$-[[adjunct]] of 
+
+$$
+  B U(1) \overset{h \mapsto (h-1)}{\longrightarrow} B U \hookrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
+$$
+
+whereas $e_{K U}$ is the ring spectrum unit of $K U$.
+
+Now under this morphism, multiplication by $\beta$ goes to multiplication with the [[Bott element]]
+
+$$
+  \array{
+     \Sigma^\infty S^2 \wedge \Sigma^n \Sigma^\infty X
+     \\
+     \downarrow^{\mathrlap{ (h \oplus 0) \wedge \alpha }}
+     \\
+     \left(\Sigma^\infty( B U(1) ) \oplus \mathbb{S}\rihgt) \wdge \Sigma^n \Sigma^\infty X
+     \\
+     \downarrow && \downarrow
+     \\
+     \Sigma^\infty(B U(1)_+) \wedge \Sigma^n \Sigma^\infty( B U(1)_+ )
+       &\overset{\Sigma^n\Sigma^\infty (\mu_+)}{\longrightarrow}&
+     \Sigma^n \Sigma^\infty (B U(1)_+)
+     \\
+     \downarrow && \downarrow
+     \\  
+     K U \wedge \Sigma^n K U &\longrightarrow & \Sigma^n K U
+  }
 $$
 
 
