@@ -47,6 +47,7 @@ than $R^2$ ([PlanckCollaboration 15XX, p. 18](#PlanckCollaboration15XX))
 See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13)) for brief survey and see ([Kehagias-Dizgah-Riotto 13](#KehagiasDizgahRiotto13)) for more details. There it is argued that the other types of models which also fit the data are actually equivalent to the Starobinsky model during inflation.
 
 ## Embedding into supergravity
+ {#EmbeddingIntoSupergravity}
 
 Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[matter]] field but part of the field of [[gravity]]) the Starobinsky model lends itself to embedding into [[supergravity]] (originally due to [Ceotti 87](#Ceotti87), see e.g. [Farakos-Kehagias-Riotto 13](#FKR13)). Such embedding seems to improve the model further (highlighted e.g. in [Ellis 13](#Ellis13)), for instance by 
 
