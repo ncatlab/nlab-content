@@ -225,6 +225,11 @@ The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential
 
 Discussion of relation to [[F-theory on CY4-manifolds]] includes
 
+* {#GukovYauZaslow02} [[Sergei Gukov]], [[Shing-Tung Yau]], [[Eric Zaslow]], _Duality and Fibrations on $G_2$ Manifolds_ ([arXiv:hep-th/0203217](http://arxiv.org/abs/hep-th/0203217))
+
+* {#Belhaj02} Adil Belhaj, _F-theory Duals of M-theory on $G_2$ Manifolds from Mirror Symmetry_ ([arXiv:hep-th/0207208](http://arxiv.org/abs/hep-th/0207208))
+
+
 * [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
 
 The [[moduli space]] is discussed in
