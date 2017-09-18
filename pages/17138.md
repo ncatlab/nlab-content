@@ -334,6 +334,88 @@ In the case that $S$ is a [[finite set]], such as for binary product spaces $X \
 
 =--
 
+
++-- {: .num_example #EqualizerInTop}
+###### Example
+
+The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets 
+
+$$
+  eq(f,g) 
+   \hookrightarrow 
+  S_X 
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} 
+  S_Y
+$$
+
+(hence the largets subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+
+=--
+
+
++-- {: .num_example #CoequalizerInTop}
+###### Example
+
+The [[coequalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets 
+
+$$
+  S_X 
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} 
+  S_Y
+    \longrightarrow 
+  coeq(f,g)
+$$
+
+(hence the [[quotient set]] by the [[equivalence relation]] $f(x) \sim g(y)$)  and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For 
+
+$$
+  \array{
+     A &\overset{g}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{f}}\downarrow
+     \\
+     X
+  }
+$$
+
+two [[continuous functions]] out of the same [[domain]], then the [[colimit]] under this diagram is also called the _[[pushout]]_, denoted
+
+$$
+  \array{
+     A &\overset{g}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{g_\ast f}}
+     \\
+     X &\longrightarrow& X \sqcup_A Y
+     \,.
+  }
+  \,.
+$$
+
+(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also write $X \cup_f Y$ and calls this the _attaching space_.
+
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
+
+By example \ref{CoequalizerInTop} the pushout/attaching space is the [[quotient topological space]]
+
+$$
+  X \sqcup_A Y \simeq (X\sqcup Y)/\sim
+$$
+
+of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]] which identifies a point in $X$ with a point in $Y$ if they have the same pre-image in $A$.
+
+(graphics from [Aguilar-Gitler-Prieto 02](#AguilarGitlerPrieto02))
+
+=--
+
+
 +-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
 
@@ -369,20 +451,6 @@ $$
 $$
 
 =--
-
-+-- {: .num_example }
-###### Example
-
-The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets 
-
-$$
-  eq(f,g) \hookrightarrow S_X \stackrel{\longrightarrow}{\longrightarrow} S_Y
-$$
-
-and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
-
-=--
-
 
 Another kind of colimit that will play a role for certain technical constructions is [[transfinite composition]]. First recall
 
@@ -607,7 +675,7 @@ $$
   \,,
 $$
 
-where the first morphism is any [[homeomorphism]] from the unit $n$-[[cube]] to the $n$-cube with one side twice the unit length (see also at _[[positive dimension spheres are H-cogroup objects]]_).
+where the first map is a [[homeomorphism]] from the unit $n$-[[cube]] to the $n$-cube with one side twice the unit length (e.g. $(x_1, x_2, x_3, \cdots) \mapsto (2 x_1, x_2, x_3, \cdots)$). 
 
 By [[composition]], this construction extends to a [[functor]] 
 
@@ -619,7 +687,14 @@ $$
   Grp^{\mathbb{N}_{\geq 1}}
 $$
 
-from [[pointed topological spaces]] to [[graded object|graded]] [[group]].
+from [[pointed topological spaces]] to [[graded object|graded]] [[groups]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+At this point we don't go further into the abstract reason why def. \ref{HomotopyGroupsOftopologicalSpaces} yields group structure above degree 0, which is that [[positive dimension spheres are H-cogroup objects]].
 
 =--
 
