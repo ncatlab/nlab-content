@@ -379,6 +379,8 @@ This is the differential of $f$ regarded as a map of tangent bundles.
 
 * [[Hadamard lemma]], [[Fermat theory]]
 
+* [[derivative of distributions]]
+
 * [[pullback of differential forms]]
 
 * [[tangent space]], [[tangent bundle]]
