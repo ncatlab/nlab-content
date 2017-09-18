@@ -50,7 +50,7 @@ By the _[[basis theorem]]_ (and using the [[axiom of choice]]) every vector spac
 
 * [[real structure]], [[complex structure]], [[quaternionic structure]]
 
-* [[vitual vector space]]
+* [[virtual vector space]]
 
 * [[vector bundle]], 
 
