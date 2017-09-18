@@ -3,6 +3,18 @@
 
 ***
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+
 # Exponential maps
 * table of contents
 {: toc}
