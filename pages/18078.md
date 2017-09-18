@@ -1,22 +1,76 @@
++-- {: .num_prop #SetLimits}
+###### Proposition
+**(limits of sets)**
+
+Let
 
 $$
-  \array{
-    Cl\left( \,(a,b)\, \right)
-     \,=\,
-    [a,b]
-    &&
-    Int\left( \, (a,b) \,  \right)
+  X_\bullet
     \,=\,
-    (a,b)
-    \\
-    \\
-    Cl\left( [a,b] \right)
-     \,=\,
-    [a,b]
-    &&
-    Int\left(\,[a,b]\,\right)
-    \,=\,
-    (a,b)
-  }
-  \,.
+  \left(
+     \left\{
+       X_i \overset{f_\alpha}{\longrightarrow} X_j
+     \right\}_{i,j \in I, \alpha \in I_{i,j}}
+     \,,\,
+     \mathrm{comp}
+  \right)
 $$
+
+be a [[diagram]] of [[sets]] (def. \ref{Diagram}). Then
+
+1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by the following [[subset]] of the [[Cartesian product]]
+   $\underset{i \in I}{\times} X_i$
+   of all the [[sets]] $X_i$ appearing in the diagram
+
+   $$
+     \underset{\longleftarrow}{\lim}_i X_i
+     \,\overset{\phantom{AAA}}{\hookrightarrow}\,
+     \underset{i \in I}{\times} X_i
+   $$
+
+   on those [[tuples]] of elements which match the [[graphs]] of the functions appearing in the diagram:
+
+   $$
+     \underset{\longleftarrow}{\lim}_{i} X_i
+     \;\simeq\;
+     \left\{
+       (x_i)_{i \in I} \in \underset{i \in I}{\times} X_i
+       \,\vert\,
+       \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
+       \left(
+         f_{\alpha}(x_i) = x_j
+       \right)
+     \right\}
+   $$
+
+1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) exists and s given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram 
+   
+   $$
+     \underset{i \in I}{\sqcup} X_i
+       \,\overset{\phantom{AAA}}{\longrightarrow}\,
+     \underset{\longrightarrow}{\lim}_{i \in I} X_i
+   $$
+
+   with respect to the [[equivalence relation]] which is generated from the [[graphs]] of the functions in the diagram:
+   
+   $$
+     \underset{\longrightarrow}{\lim}_i X_i
+     \;\simeq\;
+     \left(
+       \underset{i \in I}{\sqcup} X_i
+     \right)/
+     \left(
+       (x \sim x') 
+         \Leftrightarrow 
+       \left( 
+         \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\exists}
+         \left(
+           f_\alpha(x) = x'
+         \right)
+       \right)
+     \right)
+   $$
+   
+
+=--
+
