@@ -15,7 +15,9 @@
 
 ## Idea
 
-There exists the [[model category]] structure on the [[category]] of [[semi-simplicial sets]] which is [[transferred model structure|transferred]] along the [[right adjoint]] of the [[forgetful functor]] from the standard [[model structure on simplicial sets]]. ([van den Berg 13](#vandenBerg))
+There exists the [[model category]] structure on the [[category]] of [[semi-simplicial sets]] which is [[transferred model structure|transferred]] along the [[right adjoint]] of the [[forgetful functor]] from the standard [[model structure on simplicial sets]]. ([van den Berg 13](#vandenBerg)).
+
+But check out [this discussion](https://nforum.ncatlab.org/discussion/4861/model-structure-on-semisimplicial-sets/?Focus=56290#Comment_56290).
 
 ## References
 
