@@ -23,9 +23,9 @@ A [[cohesive (∞,1)-topos]] is a context of [[∞-groupoid]]s that are equipped
 
 While the axioms of cohesion do imply the intrinsic existence of _exponentiated_ [[infinitesimal spaces]], they do not admit access to an explicit [[synthetic differential geometry|synthetic]] notion of infinitesimal extension.
 
-Here we consider one extra axiom on a [[cohesive (∞,1)-topos]] that does imply a good intrinsic notion of synthetic differential extension, compatible with the given notion of cohesion. We speak of _differential cohesion_ .
+Here we consider one extra axiom on a [[cohesive (∞,1)-topos]] that does imply a good intrinsic notion of synthetic differential extension, compatible with the given notion of cohesion. We speak of *differential cohesion*.
 
-In a cohesion $(\infty,1)$-topos with differential cohesion there are for instance good intrinsic notions of [[formally smooth morphism|formal smoothness]] and of [[de Rham space]]s of objects.
+In a cohesive $(\infty,1)$-topos with differential cohesion there are for instance good intrinsic notions of [[formally smooth morphism|formal smoothness]] and of [[de Rham space]]s of objects.
 
 ## Differential cohesion
 
