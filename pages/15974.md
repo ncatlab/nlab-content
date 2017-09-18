@@ -40,6 +40,8 @@ In the definition by ([Palm](#Palm)) of opetopic $\omega$-category, the extra [[
 
 This definition has been given a [[syntax|syntactic]] formulation by ([Finster 12](#Finster12)) in terms of _[[opetopic type theory]]_.
 
+However, there is no saturation condition in this definition.
+
 ## References
 
 An overview is in [chapter 4](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf#page=63) of 
