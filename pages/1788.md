@@ -1,18 +1,5 @@
 
 
 
-
-$$
-  \array{
-     X && \stackrel{\mathbf{c}}{\longrightarrow} && \mathbf{B}G
-     \\
-     & {}_{\mathllap{\tau_X}}\searrow &\swArrow_{\mathrlap{\simeq}}& \swarrow
-     \\
-     && \mathbf{B}GL(n)
-  }
-$$
-
-test
-
-
+$\emptyset$
 
