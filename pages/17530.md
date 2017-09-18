@@ -1,7 +1,7 @@
 
 ## Idea
 
-structure theorem for [[finitely generated object|finitely generated]] [[modules]] over a [[principal ideal domain]]
+Structure theorem for [[finitely generated object|finitely generated]] [[modules]] over a [[principal ideal domain]]: see [here](/nlab/show/principal+ideal+domain#StructureTheoryOfModules) for a partial account. 
 
 special case: [[fundamental theorem of finitely generated abelian groups]]
 
