@@ -1,7 +1,25 @@
 
-The binary operation in a [[group]] or [[ring]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The binary operation in a [[monoid]] like a [[group]] or [[ring]] is called _multiplication_.
 
 ## Related concepts
+
+* [[arithmetic]]
 
 * [[multiplicative cohomology theory]]
 
