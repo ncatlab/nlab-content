@@ -111,6 +111,7 @@ $$
     \right.
 $$
 
+{#MinimaldgmoduleForRationalS4ModS1}
 $$
   S^4 // S^1
   \;\;\colon\;\;
