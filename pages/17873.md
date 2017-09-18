@@ -212,43 +212,70 @@ but these two maps coincide since $p_!(k_1)=p_!(k_2)$ by assumption.
 
 Since for an I-homotopy $k_j=t_j\circ !_A:A\to I$ and, $p_!(I)=1$ by assumption, $p_!(k_j):p_!(A)\to 1$, $j\in\{1,2\}$, and these maps necessarily coincide since $1$ is terminal whence $p_!(t_0\circ !_A)=p_!(t_1\circ !_A)$ whence $p_!(f)=p_!(g)$ as claimed. $\qed$
 
-+-- {: .query}
-The rest of this section is intended to provide a proof of theorem \ref{connected_truth} below. The claims and proofs in it should be taken with caution by the reader (at least) until they have reached a final form!
-=--
-
-For the following the monoid structure of $\Omega$ will be capital. So let us briefly recall the basics:
+For the following the monoid structure of $\Omega$ will become important. So let us briefly review the basics:
 
 In a general topos, the Heyting algebra structure endows the subobject classifier with the structure of an [[internal monoid]]: The multiplication is given by conjunction
 
 $$\Omega\times\Omega\overset{\wedge}{\to}\Omega\quad ,
-\text{ and the unit by }\quad\mathsf{true}\quad .
+\text{ and the unit by }\quad 1\overset{\mathsf{true}}{\to}\Omega\quad .
 $$
-Importantly, the other truth value $\mathsf{false}$ plays the role of a (multiplicative) _zero_ with respect to this multiplication.
+The conjunction $\wedge$ is defined as the characteristic map of $1\xrightarrow{\langle\mathsf{true},\mathsf{true}\rangle}\Omega\times\Omega$.
 
-In general, we can get a map $\mu:\Omega^X\times\Omega\to\Omega^X$ from the conjunction $\wedge :\Omega\times\Omega\to \Omega$ by the following steps:
+Importantly, the other truth value $1\xrightarrow{\mathsf{false}}\Omega$ plays the role of a (multiplicative) _zero_ with respect to this multiplication.
 
-$$
-\begin{aligned}
-\Omega\times\Omega &\overset{\wedge}{\to}  \Omega
-\\
-\Omega& \to\Omega^{\Omega}\quad\text{by transposal}
-\\ 
-\Omega^X&\to (\Omega^{\Omega})^{X}\quad\text{by application of the endofunctor (-)}^X
-\\
-\Omega^X &\to (\Omega^X)^{\Omega}\quad\text{by using rules for powers}
-\\
-\Omega^X\times\Omega&\overset{\mu}{\to}\Omega^X\quad \text{by reversing transposal .}
-\end{aligned}
-$$
+For the following we need
 
-Note that the conjunction $\wedge$ is actually a homotopy from $id_\Omega$ to the constant map $\Omega\to 1\overset{\mathsf{false}}{\to}\Omega$. Importantly, this homotopy lifts through exponentiation:
-
-+-- {: .num_prop #omega_action}
++-- {: .num_prop #omega_homotopy}
 ###### Proposition
-The map $\mu :\Omega^X\times\Omega{\to}\Omega^X$ is an $\Omega$-homotopy from $id_{\Omega^X}$ to a constant map $\overline{\emptyset}_X:\Omega^X\to 1\overset{\emptyset_X}{\to}\Omega^X$.
+Let $\mathcal{E}$ be a weakly cohesive topos whose subobject classifier is a connector i.e. $p_!(\Omega)=1$. Then the conjunction $\wedge :\Omega\times\Omega{\to}\Omega$ is an $\Omega$-homotopy from $id_{\Omega}$ to the constant map $\mathsf{false}\circ !_\Omega$.
 =--
 
-(...)
+**Proof**.
+We have to show that $\wedge\circ\langle id_\Omega, \mathsf{true}\circ !_\Omega\rangle=id_\Omega$ and $\wedge\circ\langle id_\Omega, \mathsf{false}\circ !_\Omega\rangle=\mathsf{false}\circ !_\Omega$. This is more or less clear from the propositional structure of $\Omega$ but let us spell out the details diagrammtically:
+
+For the first equation, consider the commutative diagram:
+$$
+\array{
+1 &\to & 1
+\\
+{}_\mathsf{true}\downarrow & &\downarrow_{\langle\mathsf{true},\mathsf{true}\rangle}
+\\
+\Omega &\xrightarrow{\langle id_\Omega,\mathsf{true}\circ !_\Omega\rangle}&\Omega\times\Omega
+}
+$$
+This pullback pasted to the classifying pullback diagram for $\langle\mathsf{true},\mathsf{true}\rangle$ displays $\wedge\circ\langle id_\Omega, \mathsf{true}\circ !_\Omega\rangle$ as the characteristic map of $\mathsf{true}$ which of course is none other than $id_\Omega$.
+
+For the second, consider the following pullback:
+$$
+\array{
+X &\xrightarrow{!_X} & 1
+\\
+{}_{\mathsf{true}\circ !_X}\downarrow & &\downarrow_{\langle\mathsf{true},\mathsf{true}\rangle}
+\\
+\Omega &\xrightarrow{\langle id_\Omega,\mathsf{false}\circ !_\Omega\rangle }&\Omega\times\Omega
+}
+$$
+Chasing the arrows around in the second component yields the equation
+$$\mathsf{true}\circ !_X=\mathsf{false}\circ !_\Omega\circ\mathsf{true}\circ !_X=\mathsf{false}\circ !_X$$
+but this implies $X=0$ since it corresponds to  the pullback of $\mathsf{true}$ and $\mathsf{false}$. Hence the pasted
+
+$$
+\array{
+0 &\xrightarrow{!_0} & 1 &\to & 1
+\\
+\downarrow & &\downarrow_{\langle\mathsf{true},\mathsf{true}\rangle}& &\downarrow _\mathsf{true}
+\\
+\Omega &\xrightarrow{\langle id,\mathsf{false}\circ !\rangle }&\Omega\times\Omega&\xrightarrow{\wedge}&\Omega
+}
+$$
+
+is the classifying pullback of $0\rightarrowtail\Omega$. Since it is easily seen that $\mathsf{false}\circ !_\Omega$ is also the characteristic map of $0\rightarrowtail\Omega$ the claim follows. $\qed$
+
++-- {: .query}
+The rest of this section is intended to provide a proof of theorem \ref{connected_truth} below. The claims and proofs in it should be taken with caution by the reader (at least) until they have reached a final form!
+=--
+
+In order to show that the connectedness of $\Omega$ implies its contractibility we will now lift this $\Omega$-homotopy between $id_\Omega$ and a constant map $\Omega\to\Omega$ to a $\Omega$-homotopy between $id_{\Omega^X}$ and a constant map $\Omega^X\to\Omega^X$.
 
 +-- {: .num_prop #homotopy_lifting}
 ###### Proposition
@@ -297,6 +324,13 @@ $$
 ...
 
 $\qed$
+
+By prop. \ref{omega_homotopy} and the preceding the next is immediate:
+
++-- {: .num_prop #omega_action}
+###### Corollary
+Let $\mathcal{E}$ be a weakly cohesive topos whose subobject classifier is a connector. The $\Omega$-homotopy $\wedge :\Omega\times\Omega{\to}\Omega$ lifts to a $\Omega$-homotopy between $id_{\Omega^X}$ and a constant map $\Omega^X\to\Omega^X$. $\qed$
+=--
 
 +-- {: .num_prop #connected_truth}
 ###### Theorem
