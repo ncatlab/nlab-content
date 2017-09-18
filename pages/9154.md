@@ -126,6 +126,10 @@ Textbook accounts include
 
 * {#Hatcher} [[Alan Hatcher]], section 1.2 of _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
+Lecture notes include
+
+* [[Michael Hopkins]], _Grassmannian manifolds_ ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1471353.files/grassmannian.pdf))
+
 category: geometry, algebra
 
 [[!redirects Grassmannians]]
