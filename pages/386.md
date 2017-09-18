@@ -267,7 +267,7 @@ This fact is mentioned in ([Joyal](#Joyal)), to help give some intuition for his
 ### Simplicial sets 
  {#SimplicialSets}
 
-[[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. Presheaves on $\Delta_a$ are **[[augmented simplicial sets]]..
+[[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. Presheaves on $\Delta_a$ are **[[augmented simplicial sets]].
 
 Under the [[Yoneda embedding]] $Y : \Delta \to $ [[SSet]] the object $[n]$ induces the standard simplicial $n$-[[simplex]] $Y([n]) =: \Delta^n$. So 
 in particular we have $(\Delta^n)[m] = Hom_{\Delta}([m],[n])$ and hence 
