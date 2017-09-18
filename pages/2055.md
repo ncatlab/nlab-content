@@ -171,7 +171,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Hydrobates](http://alanrendall.wordpress.com) (dynamical systems, differential equations, biomedical modelling)
 
-*[Intuistic Mathematics](http://jmrresearch.wordpress.com/) (Julian Rachman: Set Theory, Infinite Sets, Real Analysis) 
+* [Intuistic Mathematics](http://jmrresearch.wordpress.com/) (Julian Rachman: Set Theory, Infinite Sets, Real Analysis) 
 
 * [Isomorphismes](http://isomorphismes.tumblr.com/tagged/mathematics) (maths about human beings)
 
