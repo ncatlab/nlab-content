@@ -56,13 +56,18 @@ where the morphism on the right is a [[monomorphism]].
 
 The morphism $f$ being an [[effective monomorphism]] means that $\tilde f$ is an [[isomorphism]], hence that $f$ is an "isomomorphism onto its image".
 
+##In homotopy type theory
+
+Let $f: A \to B$. Then $f$ is an embedding if for every $x, y : A$ the function $ap_f: (x =_A y) \to (f(x) =_B
+f(y))$ is an [[equivalence]].
+
 ## Examples
 
 ### In $Top$
 
 A morphism $U \to X$ of [[topological space]]s is a regular monomorphism precisely if this is an injection such that the topology on $U$ is the [[induced topology]]. This is an **[[embedding of topological spaces]]**.
 
-### In $SmothMfd$
+### In $SmoothMfd$
 
 * [[embedding of smooth manifolds]]
 
