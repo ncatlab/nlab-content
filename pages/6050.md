@@ -34,6 +34,8 @@ where $\Delta$ is the _wave operator_ /[[Laplace operator]].
 
 * [[Feynman propagator]]
 
+* [[spectral geometry]], [[hearing the shape of a drum]]
+
 [[!redirects wave equations]]
 
 
