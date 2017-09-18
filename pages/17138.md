@@ -38,6 +38,13 @@ Eventually lecture notes.
 {:toc}
 
 
+<div style="float:right;margin:0 10px 10px 0;"> <img src="https://ncatlab.org/nlab/files/HopfFibration.jpg" width="200" />  </div>
+
+***
+
+> My initial inclination was to call this book [[The Music of the Spheres]], but I was dissuaded from doing so by my diligent publisher, who is ever mindful of the sensibilities of librarians. ([Ravenel 86, preface](#Ravenel86))
+
+
 ## Introduction
  {#Introduction}
 
@@ -623,7 +630,7 @@ The _associated inverse sequence_ is ...
 +-- {: .num_remark}
 ###### Remark
 
-In ([Ravenel](#Ravenel)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
+In ([Ravenel 86](#Ravenel86)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
 
 =--
 +-- {: .num_example}
@@ -978,7 +985,7 @@ Further useful lecture notes include
 
 And last not least, there is
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1987/2003 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1987/2003 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
 
 [[!redirects geometry of physics -- stable homotopy types]]
