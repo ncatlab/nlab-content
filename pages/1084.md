@@ -1403,9 +1403,8 @@ for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly i
 
 ## Related concepts
 
-* [[mapping cylinder]]
+[[!include universal constructions of topological spaces -- table]]
 
-* [[mapping telescope]]
 
 ## References
 
