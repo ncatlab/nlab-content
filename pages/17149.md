@@ -239,7 +239,7 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 ### 14. A category of fractions
 
-* [[category of fractions]]
+What Adams tries to construct here -- the [[localization]] of the [[stable homotopy category]] at the class of $E$-equivalences -- was later constructed by ([Bousfield 79](Bousfield+localization+of+spectra#Bousfield79)). See at _[[Bousfield localization of spectra]]_. 
 
 ### 15. The Adams spectral sequence
 
