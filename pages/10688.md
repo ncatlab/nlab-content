@@ -147,7 +147,7 @@ Relation to the [[Goodwillie spectral sequence]] is discussed in
 
 * {#Behrens10} [[Mark Behrens]], _The Goodwillie tower and the EHP sequence_ ([arXiv:1009.1125](http://arxiv.org/abs/1009.1125))
 
-An algebraic version of the EHP spectral sequence, used for computation of the second page of the [[classical Adams spectral sequence]] (the _[[Curtis algorithm]]_), is discussed in 
+An algebraic version of the EHP spectral sequence for the [[Lambda-algebra]] and used for computation of the second page of the [[classical Adams spectral sequence]] (the _[[Curtis algorithm]]_), is discussed in 
 
 * {#Kochmann96} [[Stanley Kochman]], around prop. 5.2.6  of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
