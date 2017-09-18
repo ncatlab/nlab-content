@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In classical [[homotopy theory]], a [[continuous function]] between [[topological spaces]] is called an _$n$-equivalence_ for some $n \in \mathbb{N}$, if on all [[homotopy groups]] it induces 
+
+1. an [[isomorphism]] in degrees $\lt n$;
+
+1. an [[epimorphism]] in degree $n$.
+
+In this terminology an $\infty$-equivalence is a [[weak homotopy equivalence]].
+
+## Related concepts
+
+* [[Postnikov tower]]
+
+[[!redirects n-equivalences]]
