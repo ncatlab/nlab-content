@@ -54,7 +54,7 @@ A popular imagery for the concept of a [[continuous function]] is provided by de
 physical bodies, which may be deformed by streetching them without tearing. The canonical illustration is
 a continous [[bijection|bijective]] function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
 handle of the coffee mug, and continuously deforms parts of the other half in order to form the actual cup.
-Since the [[inverse function]] to this function is itself continuous
+Since the [[inverse function]] to this function is itself continuous,
 the torus and the coffee mug, both regarded as [[topological spaces]], are "[[isomorphism|the same]]"
 for all practical purposes, one says they are _[[homeomorphic]]_.
 
@@ -80,9 +80,11 @@ depends on this choice.
 Among the separation axiom, the axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
 hand because this is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
 and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand because it fully realizes the strong roots that
-topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the inclusion relations
-(logical [[implications]]) among their [[open subsets]] ([[propositions]]). This naturally leads to a natural
-and very fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_
+topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the 
+union-, intersection- and inclusion-relations
+(logical [[conjunction]], [[disjunction]] and [[implication]]) among their [[open subsets]] ([[propositions]]). 
+This leads to a natural
+and fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_
 and in yet more generality _[[toposes]]_ and _[[higher topos theory|higher toposes]]_. While the latter are beyond
 the scope of this introduction, their rich theory and relation to the [[foundations]] of mathematics and geometry
 provides an outlook on the relevance of the basic ideas of [[topology]].
@@ -220,7 +222,7 @@ $$
 carries a [[norm]] (the _Euclidean norm_ ) given by the [[square root]] of the [[sum]] of the [[squares]] of the components:
 
    $$
-     \Vert \vec x \Vert
+     {\Vert \vec x \Vert}
        \;\coloneqq\;
      \sqrt{
      \underoverset{i = 1}{n}{\sum}
@@ -571,7 +573,7 @@ is complete in this sense is called a _[[Banach space]]_.
 
 
 
-#### Compactness 
+#### Compactness
 
 Recall the concept of [[compactness]] of [[metric spaces]] via [[epsilontic analysis]]:
 
@@ -890,21 +892,21 @@ and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
 ###### Proof
 
 First assume that $V \subset X$ is closed and that $x_i \overset{i \to \infty}{\longrightarrow} x_{\infty}$ for some
-$x_\infty \in X$. We need to show that then $x_\infty \in V$. Suppose it were not, then 
-$x_\infty \in X\backslash V$. Since by definition this [[complement]] $X \backslash V$ is an [[open subset]], 
-it follows that there exists a [[real number]] $\epsilon \gt 0$ such that the [[open ball]] 
+$x_\infty \in X$. We need to show that then $x_\infty \in V$. Suppose it were not, then
+$x_\infty \in X\backslash V$. Since by definition this [[complement]] $X \backslash V$ is an [[open subset]],
+it follows that there exists a [[real number]] $\epsilon \gt 0$ such that the [[open ball]]
 around $x$ of radius $\epsilon$ is still contained in the complement: $B^\circ_x(\epsilon) \subset X \backslash V$.
-But since the sequence is assumed to converge in $X$, this means that there exists $N_\epsilon$ such that all 
+But since the sequence is assumed to converge in $X$, this means that there exists $N_\epsilon$ such that all
 $x_{i \gt N_{\epsilon}}$ are in $B^\circ_x(\epsilon)$, hence in $X\backslash V$. This contradicts the assumption that
 all $x_i$ are in $V$, and hence we have [[proof by contradiction|proved by contradiction]] that $x_\infty \in V$.
 
 Conversely, assume that for all sequences in $V$ that converge to some $x_\infty \in X$ then $x_\infty \in V \subset W$.
 We need to show that then $V$ is closed, hence that $X \backslash V \subset X$ is an open subset, hence that for every
-$x \in X \backslash V$ we may find a real number $\epsilon \gt 0$ such that the [[open ball]] $B^\circ_x(\epsilon)$ around $x$ 
+$x \in X \backslash V$ we may find a real number $\epsilon \gt 0$ such that the [[open ball]] $B^\circ_x(\epsilon)$ around $x$
 of radius $\epsilon$ is still contained in
 $X \backslash V$. Suppose on the contrary that such $\epsilon$ did not exist. This would mean that for each $k \in \mathbb{N}$
 with $k \geq 1$ then the [[intersection]] $B^\circ_x(1/k) \cap V$ is [[inhabited|non-empty]]. Hence then we could choose
-points $x_k \in B^\circ_x(1/k) \cap V$ in these intersections. These would form a sequence which clearly converges to   
+points $x_k \in B^\circ_x(1/k) \cap V$ in these intersections. These would form a sequence which clearly converges to
 the original $x$, and so by assumption we would conclude that $x \in V$, which violates the assumption that $x \in X \backslash V$.
 Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is in fact open.
 
@@ -1828,20 +1830,11 @@ $$
 between their [[frame of opens|sets of open subsets]] is called a _[[frame]] [[homomorphism]]_
 if it preserves
 
-1. inclusions;
-
 1. arbitrary [[unions]];
 
 1. [[finite number|finite]] [[intersections]].
 
 In other words, $\phi$ is a frame homomorphism if
-
-1. for every inclusion $U_1 \subset U_2$ with $U_1, U_2 \in \tau_Y \subset P(Y)$ then
-
-   $$
-     \phi(U_1) \subset \phi(U_2) \;\;\;\;\;\;\; \in \tau_X
-     \,,
-   $$
 
 1. for every [[set]] $I$ and every $I$-indexed set $\{U_i \in \tau_Y\}_{i \in I}$ of elements of $\tau_Y$, then
 
@@ -1862,6 +1855,43 @@ In other words, $\phi$ is a frame homomorphism if
 
 =--
 
++-- {: .num_remark #PreservationOfInclusionsByFrameHomomorphism}
+###### Remark
+
+A [[frame]] [[homomorphism]] $\phi$ as in def. \ref{HomomorphismOfFramesOfOpens}
+necessarily also preserves inclusions in that 
+
+* for every inclusion $U_1 \subset U_2$ with $U_1, U_2 \in \tau_Y \subset P(Y)$ then
+
+  $$
+    \phi(U_1) \subset \phi(U_2) \;\;\;\;\;\;\; \in \tau_X
+    \,.
+  $$
+  
+This is because inclusions are witnessed by unions
+
+$$
+  (U_1 \subset U_2)
+    \;\Leftrightarrow\;
+  \left( U_1 \cup U_2 = U_2 \right)
+$$
+
+and by finite intersections:
+
+$$
+  (U_1 \subset U_2)
+    \;\Leftrightarrow\;
+  \left(
+    U_1 \cap U_2 = U_1
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
 For
 
 $$
@@ -1875,6 +1905,8 @@ $$
 $$
 
 is a frame homomorphism according to def. \ref{HomomorphismOfFramesOfOpens}.
+
+=--
 
 For sober topological spaces the converse holds:
 
@@ -1903,19 +1935,13 @@ $$
 
 Let $\ast = (\{x\}, \tau_\ast = \{\emptyset, \{1\}\})$ be the [[point]] [[topological space]] (def. \ref{TerminalityOfThePoint}).
 
-By precomposition
-
-$$
-  \ast \longrightarrow X \longrightarrow Y
-$$
-
-it is sufficient to see that frame homomorphisms of the form
+We first consider the special case of frame homomorphisms of the form
 
 $$
   \tau_\ast \longleftarrow \tau_X \;\colon\; \phi_\ast
 $$
 
-are in bijection to the underlying $X$, identified with the continuous functions
+and show that these are in bijection to the underlying set $X$, identified with the continuous functions
 $\ast \to (X,\tau)$ via example \ref{PointsViaContinuousFunctions}.
 
 To this end, consider the [[union]] $U_{\emptyset}$ of all elements $U \in \tau_x$ such that $\phi_\ast(U) = \emptyset$:
@@ -1928,17 +1954,20 @@ $$
   \,.
 $$
 
-Then observe that if there are two elements $U_1, U_2 \in \tau_X$ with $U_1 \cap U_2 = U_{\emptyset}$
-then $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$.
+Then observe that 
+
+$(\ast)$ _If there are two elements $U_1, U_2 \in \tau_X$ with $U_1 \cap U_2 \subset U_{\emptyset}$
+then $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$._
+
 This is because
 
 $$
   \begin{aligned}
     \phi_\ast(U_1 \cap U_2)
     & =
-    \phi(U_1) \cap \phi(U_2)
+    \phi_\ast(U_1) \cap \phi_\ast(U_2)
     \\
-    & \subset \phi(U_{\emptyset})
+    & \subset \phi_\ast(U_{\emptyset})
     \\
     & =
     \emptyset
@@ -1946,14 +1975,14 @@ $$
   \,,
 $$
 
-(where the first equality holds because $\phi$ preserves finite intersections, the inclusion holds because $\phi$ respects
-inclusions, and the second equality holds because $\phi$ preserves arbitrary unions).
+(where the first equality holds because $\phi_\ast$ preserves finite intersections by def. \ref{HomomorphismOfFramesOfOpens}, the inclusion holds because $\phi_\ast$ respects
+inclusions by remark \ref{PreservationOfInclusionsByFrameHomomorphism}, and the second equality holds because $\phi_\ast$ preserves arbitrary unions
+by def. \ref{HomomorphismOfFramesOfOpens}).
 But in $\tau_\ast = \{\emptyset, \{1\}\}$ the intersection of two open subsets is empty precisely if at least one of them is empty,
-hence $\phi(U_1) = \emptyset$ or $\phi(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$,
-as claimed.
+hence $\phi_\ast(U_1) = \emptyset$ or $\phi_\ast(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$, as claimed.
 
 Now according to prop. \ref{OpenSubsetVersionOfClosedIrreducible}
-this condition identifies the [[complement]]
+the condition $(\ast)$ identifies the [[complement]]
 $X \backslash U_{\emptyset}$ as an [[irreducible closed subspace]] of $(X,\tau)$.
 Therefore by assumption of [[sober topological space|sobriety]] of $(X,\tau)$ there is a unique point
 $x \in X$ with $X \backslash U_{\emptyset} = Cl(\{x\})$. In particular this means that for $U_x$ an open
@@ -1961,7 +1990,7 @@ neighbourhood of $x$, then $U_x$ is not a subset of $U_\emptyset$, and so it fol
 In conclusion we have found a unique $x \in X$ such that
 
 $$
-  \phi
+  \phi_\ast
     \;\colon\;
   U \mapsto
   \left\{
@@ -1975,6 +2004,30 @@ $$
 $$
 
 This is precisely the the [[inverse image]] function of the continuous function $\ast \to X$ which sends $1 \mapsto x$.
+
+Hence this establishes the bijection between frame homomorphisms of the form $\tau_\ast \longleftarrow \tau_X$
+and continuous functions of the form $\ast \to (X,\tau)$.
+
+With this it follows that a general frame homomorphism of the form $\tau_X \overset{\phi}{\longleftarrow} \tau_Y$
+defines a function of sets $X \overset{f}{\longrightarrow} Y$ by [[composition]]:
+
+$$
+  \array{
+    X &\overset{f}{\longrightarrow}& Y
+    \\
+    (\tau_\ast \leftarrow \tau_X)
+    &\mapsto&
+    (\tau_\ast \leftarrow \tau_X \overset{\phi}{\longleftarrow} \tau_Y)
+  }
+  \,.
+$$
+
+By the previous analysis, an element $U_Y \in \tau_Y$ is sent to $\{1\}$ under this composite precisely if
+the corresponding point $\ast \to X \overset{f}{\longrightarrow} Y$ is in $U_Y$, and similarly for
+an element $U_X \in \tau_X$. It follows that $\phi(U_Y) \in \tau_X$ is precisely that subset of
+points in $X$ which are sent by $f$ to elements of $U_Y$, hence that $\phi = f^{-1}$ is the [[pre-image]]
+function of $f$. Since $\phi$ by definition sends open subsets of $Y$ to open subsets of $X$, it follows
+that $f$ is indeed a continuous function. This proves the claim in generality.
 
 =--
 
