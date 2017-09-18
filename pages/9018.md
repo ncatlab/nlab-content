@@ -37,7 +37,7 @@ In order for this to yield [[phenomenology|phenomenologically]] interesting effe
 Genuine [[G2-manifold]]/[[orbifold]] fibers, these having vanishing [[Ricci curvature]], correspond to [[vacuum]] solutions of the [[Einstein equations]] of [[11d supergravity]], i.e. with vanishing [[field strength]] of the [[gravitino]] and the [[supergravity C-field]] (see e.g. [Acharya 02, p. 9](#Acharya02)).
 (If one includes non-vanishing $C$-field strength one finds "weak $G_2$-holonomy" instead, see [below](#TheCField)).
 
-Notice that vanishing [[gravitino]] [[field strength]] (i.e. [[covariant derivative]]) means that the [[torsion of a Cartan connection|torsion]] of the super-[[vielbein]] is in each [[tangent space]] the canonical torsion of the [[super Minkowski spacetime]]. This [[supergravity torsion constraint|torsion constraint]] already just for the bosonic part $(E^a)$ of the super-vielbein $(E^a, E^\alpha)$ already implies (together with the [[Bianchi identities]]) the [[equations of motion]] of supergravity, hence here the vacuum [[Einstein equations]] in the 11d [[spacetime]]. 
+Notice that vanishing [[gravitino]] [[field strength]] (i.e. [[covariant derivative]]) means that the [[torsion of a Cartan connection|torsion]] of the super-[[vielbein]] is in each [[tangent space]] the canonical torsion of the [[super Minkowski spacetime]]. This [[supergravity torsion constraint|torsion constraint]] already just for the bosonic part $(E^a)$ of the super-vielbein $(E^a, E^\alpha)$ implies (together with the [[Bianchi identities]]) the [[equations of motion]] of supergravity, hence here the vacuum [[Einstein equations]] in the 11d [[spacetime]]. 
 
 
 ### With non-vanishing $C$-field strength
@@ -73,7 +73,7 @@ for $\phi = e_7^\ast \phi_3$ the pullback of the [[associative 3-form]] ([BSS 02
 
 ### Singularities
 
-For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactification]] one needs to consider not smooth (weak) [[G2-manifolds]] but [[conical singularities]] and [[orbifolds]] of these. see the first page of ([Acharya-Denef-Hofman-Lambert](#AcharyaDenefHofmanLambert)) for discussion of [[phenomenology]] for such orbifold $G_2$ models and further pointers and see ([Achary 98](#Acharya98)) for general discussion of orbifolds with $G_2$-structure.
+For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactification]] one needs to consider not smooth (weak) [[G2-manifolds]] but [[conical singularities]] and [[orbifolds]] of these. see the first page of ([Acharya-Denef-Hofman-Lambert](#AcharyaDenefHofmanLambert)) for discussion of [[phenomenology]] for such orbifold $G_2$ models and further pointers and see ([Acharya 98](#Acharya98)) for general discussion of orbifolds with $G_2$-structure.
 
 ## Related concepts
 
