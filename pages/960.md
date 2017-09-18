@@ -19,6 +19,12 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The _smash product_ is the canonical [[tensor product]] of [[pointed objects]] in an ambient [[monoidal category]]. It is essentially given by taking the tensor product of the underlying objects and then identifying all pieces that contain the base point of either with a new basepoint.
+
+An archetypical special case is the smash product of [[pointed topological spaces]] and hence of pointed [[homotopy types]]. Under [[stabilization]] this induces the important [[smash product of spectra]] in [[stable homotopy theory]].
+
 ## Definition
 
 ### For pointed sets
