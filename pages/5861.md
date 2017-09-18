@@ -710,6 +710,7 @@ For $X\in \mathbf{H}_{th}$ we say that
   $$
 
 
+
   we call the **constant infinitesimal path inclusion**.
 
 * $\Re(X)$ is the **[[reduced cohesive ∞-groupoid]]** underlying
@@ -2154,7 +2155,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the discussion at _[[Mayer-Vietoris sequence]]_ in the section [Over an ∞-group](Mayer-Vietoris%20sequence#OverAGroupObject) and using that the [[infinitesimal shape modality]] preserves group structure, the defining [[homotopy pullback]] of $T_{inf} G$ is equivalent to the pasting of pullback diagrams
+By the discussion at _[[Mayer-Vietoris sequence]]_ in the section _[Over an ∞-group](Mayer-Vietoris%20sequence#OverAGroupObject)_ and using that the [[infinitesimal shape modality]] preserves group structure, the defining [[homotopy pullback]] of $T_{inf} G$ is equivalent to the pasting of pullback diagrams of the form
 
 $$
   \array{
@@ -2168,9 +2169,10 @@ $$
     &\stackrel{}{\longrightarrow}&
     \Im G
   }
+  \,,
 $$
 
-where the right square is the defining pullback for the [[infinitesimal disk]] $\mathbb{D}^G$. Finally for the left square we find by [this proposition](Mayer-Vietoris%20sequence#HTTArgumentForPullback) that $T_{inf} G \simeq G\times \mathbb{D}^G$ and that the top horizontal morphism is as claimed.
+where the right square is the defining pullback for the [[infinitesimal disk]] $\mathbb{D}^G$. For the left square we find by [this proposition](Mayer-Vietoris%20sequence#HTTArgumentForPullback) that $T_{inf} G \simeq G\times \mathbb{D}^G$ and that the top horizontal morphism is as claimed.
 
 =--
 
