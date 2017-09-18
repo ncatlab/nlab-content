@@ -20,6 +20,8 @@ In [[physics]] and [[chemistry]] ([[solid state physics]]), _cohesion_ refers to
 
 > In physics, the intermolecular attractive force acting between two adjacent portions of a substance, particularly of a solid or liquid. It is this force that holds a piece of matter together. ([Enc. Britannica](http://www.britannica.com/EBchecked/topic/124597/cohesion)).
 
+* J. S. Rowlinson, _Cohesion A Scientific History of Intermolecular Forces_ ([web](http://www.cambridge.org/gb/academic/subjects/chemistry/physical-chemistry/cohesion-scientific-history-intermolecular-forces))
+
 ## Analogy with a quality of space
 
 ### In natural philosophy
