@@ -1095,7 +1095,7 @@ This natural bijection between $f$ and $\tilde f$ establishes the adjunction.
 +-- {: .num_defn #TensorProductOfModulesOverCommutativeMonoidObject}
 ###### Definition
 
-Given a (pointed) [[topologically enriched category|topological]] [[closed monoidal category]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then 
+Given a (pointed) [[topologically enriched category|topological]] [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then 
 
 1. the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
 
@@ -1106,7 +1106,7 @@ Given a (pointed) [[topologically enriched category|topological]] [[closed monoi
        {\overset{N_1 \otimes \rho_2}{\longrightarrow}}
        {\phantom{AAAA}}
      N_1 \otimes N_1
-       \overset{coequ}{\longrightarrow}
+       \overset{coeq}{\longrightarrow}
      N_1 \otimes_A N_2
    $$
 
@@ -1141,7 +1141,7 @@ Given a (pointed) [[topologically enriched category|topological]] [[closed monoi
 
 =--
 
-(e.g. [HoveyShipleySmith 00, lemma 2.2.2 and lemma 2.2.8](#HoveyShipleySmith00))
+(e.g. [Hovey-Shipley-Smith 00, lemma 2.2.2 and lemma 2.2.8](#HoveyShipleySmith00))
 
 
 
@@ -2375,7 +2375,7 @@ $$
   \,.
 $$
 
-The operation of _[[Day convolution]]_ is the [[categorification]] of this situation where functions are replaced by [[functors]] and [[monoids]] by [[monoidal categories]]. Further [below](#OnPreExcisiveFunctors) we find the [[symmetric monoidal smash product of spectra]] as the Day convolution of topologically enriched functors over the monoidal category of finite pointed CW-complexes, or over sufficiently rich subcatgeories thereof.
+The operation of _[[Day convolution]]_ is the [[categorification]] of this situation where functions are replaced by [[functors]] and [[monoids]] by [[monoidal categories]]. Further [below](#OnPreExcisiveFunctors) we find the [[symmetric monoidal smash product of spectra]] as the Day convolution of topologically enriched functors over the monoidal category of finite pointed CW-complexes, or over sufficiently rich subcategories thereof.
 
 +-- {: .num_defn #TopologicalDayConvolutionProduct}
 ###### Definition
@@ -2535,7 +2535,7 @@ $$
      \\
     & =
     \overset{(c_1,c_2)}{\int}
-    \mathcal{C}(c_1\otimes c_2) 
+    \mathcal{C}(c_1\otimes c_2, c) 
     \wedge
      X(c_1)\wedge X(c_2) 
   \end{aligned} 
@@ -2544,6 +2544,8 @@ $$
 
 
 =--
+
+Proposition \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} implies the following fact, which is the key for the identification of "[[functors with smash product]]" [below](#FunctorsWithSmashProduct) and then for the description of [[ring spectra]] [further below](#HigherAlgebra).
 
 +-- {: .num_cor #DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
 ###### Corollary
@@ -2782,7 +2784,7 @@ $$
     (X \otimes_{Day} Y)(c)
     & = &
     \overset{c_1,c_2}{\int} 
-     \mathcal{C}(c_1 \otimes c_2) \wedge X(c_1) \wedge Y(c_2)
+     \mathcal{C}(c_1 \otimes c_2, c) \wedge X(c_1) \wedge Y(c_2)
     \\
     {}^{\mathllap{\tau}^{Day}_{X,Y}(c)}\downarrow
     &&
@@ -2791,7 +2793,7 @@ $$
     (Y \otimes_{Day} X)(c)
     & = &
     \overset{c_1,c_2}{\int} 
-     \mathcal{C}(c_2 \otimes c_1) \wedge Y(c_2) \wedge X(c_1)   
+     \mathcal{C}(c_2 \otimes c_1, c) \wedge Y(c_2) \wedge X(c_1)   
   }
 $$
 
@@ -2929,7 +2931,7 @@ $$
 ##### Functors with smash product
  {#FunctorsWithSmashProduct}
 
-Since the [[symmetric monoidal smash product of spectra]] discussed [below](#OnPreExcisiveFunctors) is an instance of [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}), and since [[ring spectra]] are going to be the [[monoids]] with respect to this tensor product, we are interested in characterizing the [[monoid in a monoidal category|monoids]] (def. \ref{MonoidsInMonoidalCategory}) with respect to Day convolution. These turn out to have a particularly transparent expression as what is called _[[functors with smash product]]_, namely [[lax monoidal functors]] from the base monoidal category to $Top^{\ast/}_{cg}$. Their components are pairing maps of the form
+Since the [[symmetric monoidal smash product of spectra]] discussed [below](#OnPreExcisiveFunctors) is an instance of [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}), and since [[ring spectra]] are going to be the [[monoids]] (def. \ref{MonoidsInMonoidalCategory}) with respect to this tensor product, we are interested in characterizing the [[monoid in a monoidal category|monoids]] with respect to Day convolution. These turn out to have a particularly transparent expression as what is called _[[functors with smash product]]_, namely [[lax monoidal functors]] from the base monoidal category to $Top^{\ast/}_{cg}$. Their components are pairing maps of the form
 
 $$
   R_{n_1} \wedge R_{n_2} \longrightarrow R_{n_1 + n_2}
@@ -3043,7 +3045,7 @@ satisfying the following conditions:
 
 If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
 
-If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}), then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
+If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}) with [[braidings]] $\tau^{\mathcal{C}}$ and $\tau^{\mathcal{D}}$, respectively, then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
 
 $$
   \array{
@@ -3231,7 +3233,7 @@ A [[homomorphism]] $f\;\colon\; (G_1, \rho_1) \longrightarrow (G_2,\rho_2)$ betw
 
 * a [[natural transformation]] $f_x \;\colon\; N_1(x) \longrightarrow N_2(x)$ of the underlying functors
 
-compatible with the action in that the following [[commuting diagram|diagram commute]] for all objects $x,y \in \mathcal{C}$:
+compatible with the action in that the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$:
 
 $$
   \array{
@@ -3253,17 +3255,17 @@ We write $F Mod$ for the resulting category of modules over the monoidal functor
 
 =--
 
-
+Now we may finally state the main proposition on _[[functors with smash product]]_:
 
 +-- {: .num_prop #DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
 ###### Proposition
 
-Let $(\mathcal{C},\otimes I)$ be a pointed [[topologically enriched category]] ([[symmetric monoidal category]]) [[monoidal category]] (def. \ref{MonoidalCategory}). Regard $(Top_{cg}^{\ast/}, \wedge , S^0)$ as a topological [[symmetric monoidal category]] as in example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}.
+Let $(\mathcal{C},\otimes, 1)$ be a pointed [[topologically enriched category]] ([[symmetric monoidal category|symmetric]]) [[monoidal category]] (def. \ref{MonoidalCategory}). Regard $(Top_{cg}^{\ast/}, \wedge , S^0)$ as a topological [[symmetric monoidal category]] as in example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}.
 
 Then ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[Day convolution]] monoidal category $([\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{C}}))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[braided monoidal functor|braided]]) [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) of the form
 
 $$
-  (\mathcal{C},\otimes, I) \longrightarrow (Top^{\ast}_{cg}, \wedge, S^0)
+  (\mathcal{C},\otimes, 1) \longrightarrow (Top^{\ast}_{cg}, \wedge, S^0)
   \,,
 $$
 
@@ -3282,7 +3284,7 @@ $$
   \,.
 $$
 
-Moreover, [[module objects]] over these monoid objects are equivalent to the corresponding [[modules over monoidal functors]].
+Moreover, [[module objects]] over these monoid objects are equivalent to the corresponding [[modules over monoidal functors]] (def. \ref{ModuleOverAMonoidalFunctor}).
 
 =--
 
@@ -4105,7 +4107,7 @@ $$
    (\Sigma_{p+q})_+
    \underset{\Sigma_p \times \Sigma_q}{\wedge}
    X_p \wedge X_q
-  \overset{coequ}{\longrightarrow}
+  \overset{coeq}{\longrightarrow}
   (X \wedge Y)(n)
 $$
 
@@ -4167,7 +4169,7 @@ $$
     {\overset{X \otimes \rho_2}{\longrightarrow}}
     {\phantom{AAAA}}
   X \otimes Y
-    \overset{coequ}{\longrightarrow}
+    \overset{coeq}{\longrightarrow}
   X \otimes_{\mathbb{S}_{seq}} Y
   \,.
 $$
@@ -4490,6 +4492,8 @@ These are the objects and hom-spaces of the category $StdSpheres$. It is straigh
 
 ##### Stable weak homotopy equivalences
 
+We consider the evident version of [[stable weak homotopy equivalences]] for [[structured spectra]] and prove a few technical lemmas about them that are needed in the proof of the stable model structure [below](#MonoidalStableModelStructure.)
+
 +-- {: .num_defn #StableOrthStructureClassesOfMorphisms}
 ###### Definition
 
@@ -4504,7 +4508,7 @@ For $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym, Seq\}$ one of the shapes of stru
 
 =--
 
-([MMSS 00, def. 8.3 with the notation from p. 21](#MMSS00), [Mandell-May 02, III, def. 3.1, def. 3.2](#May02)) (def. \ref{MonoidalCategory}). 
+([MMSS 00, def. 8.3 with the notation from p. 21](#MMSS00), [Mandell-May 02, III, def. 3.1, def. 3.2](#May02)) 
 
 
 +-- {: .num_lemma #DegreewiseLESofHomotopyGroupsInducedStableLES}
@@ -4553,7 +4557,7 @@ where $Cone(f)$ denotes the [[mapping cone]] and $Path_\ast(f)$ the [[mapping co
 
 =--
 
-[MMSS 00, theore 7.4 (vi) ](#MMSS00)
+([MMSS 00, theorem 7.4 (vi) ](#MMSS00))
 
 +-- {: .proof}
 ###### Proof
@@ -4817,7 +4821,7 @@ where the top and the bottom row are both [[long exact sequences]] of [[stable h
 =--
 
 
-##### Suspension spectra
+##### Free spectra and Suspension spectra
  {#FreeSpectra}
 
 The concept of _[[free spectrum]]_ is a generalization of that of _[[suspension spectrum]]_. In fact the [[stable homotopy types]] of free spectra are precisely those of iterated [[loop space objects]] of [[suspension spectra]]. But for the development of the theory what matters is free spectra before passing to stable homotopy types, for as such they play the role of the basic cells for the stable [[model structures on spectra]] analogous to the role of the [[n-spheres]] in the [[classical model structure on topological spaces]] (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} below).
@@ -7220,6 +7224,7 @@ That follows with a laborious argument using the above lemmas (...).
 (...)
 
 #### Higher algebra
+ {#HigherAlgebra}
 
 
 [[!include homological and higher algebra -- table]]
@@ -7231,7 +7236,6 @@ Examples:
 [[HA]], [[KO]], [[KU]], [[MO]], ... [[MU]] ([[BP]]), [[S]]
 
 (...)
-
 
 
 ## References
@@ -7249,9 +7253,11 @@ following the [[model structure on symmetric spectra]] in
 
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
-The theory of monoids in [[monoidal model categories]] is developed in
+The basics of [[monoidal model categories]] are the topic of 
 
 * {#Hovey99} [[Mark Hovey]], chapter 4 of _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf))
+
+and the theory of monoids in [[monoidal model categories]] is further developed in
 
 * {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014 
 
