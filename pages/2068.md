@@ -79,6 +79,27 @@ In the category of [[dendroidal sets]] there is a notion of horn inclusions that
 
 See ([Cisinski-Moerdijk 09](#CisinskiMoerdijk09)).
 
+## Properties
+
+### Pushout-products with inclusions
+
++-- {: .num_prop #PushoutProductOfSimplicialCofibrationWithAcyclicCOfibIsAcyclic}
+###### Proposition
+
+The [[pushout product]] $f \Box g$ of two [[monomorphisms]] $f,g$ in [[sSet]] is again a monomorphism, which is anodyne (a weak homotopy equivalence) if $f$ or $g$ is so.
+
+=--
+
+This is due to ([Gabriel-Zisman 67, IV.2, prop. 2.2](#GabrielZisman67)). The argument is somewhat more streamlined form is also in [Joyal-Tierney 05, theorem 3.2.2](#JoyalTierney05)
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{PushoutProductOfSimplicialCofibrationWithAcyclicCOfibIsAcyclic} is the key lemma which implies (is effectively equivalent to) the statement that the [[classical model structure on simplicial sets]] is an [[enirched model category]] over itself.
+
+=--
+
+
 ## Related concepts
 
 * [[factorization system]], [[small object argument]]
