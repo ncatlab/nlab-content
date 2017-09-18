@@ -188,6 +188,9 @@ The [[Atiyah-Hirzebruch spectral sequence]] serves to express generalized cohomo
 
 * {#Whitehead62} [[George Whitehead]], _Generalized homology theories_, Transactions of the American Mathematical Society, 102 (1962) 227-283 ([pdf](http://www.ams.org/journals/tran/1962-102-02/S0002-9947-1962-0137117-6/S0002-9947-1962-0137117-6.pdf))
 
+* {#Adams74} [[Frank Adams]], part III, sections 2 and 6 of _[[Stable homotopy and generalised homology]]_, 1974
+
+
 Textbook accounts include
 
 * {#May99} [[Peter May]] chapter 18 of _A Concise Course on Algebraic Topology_, Chicago Lecture Notes  1999 ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
