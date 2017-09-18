@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -18,7 +17,185 @@
 
 ... [[category theory|category-theoretic]] formulation of [[separation axioms]] in terms of [[lifting properties]]...
 
+### Notation for maps of finite topological spaces
+
+
+A topological space comes with a _specialisation preorder_ on its points: for
+points $x,y \in X$,  $x \leq y$ iff $y \in cl x$ , or equivalently,  a category whose
+objects are points of ${X}$ and there is a unique morphism $x{\searrow}y$ iff $y \in cl x$.
+
+For a finite topological space $X$, the specialisation preorder or equivalently
+the category uniquely determines the space: a subset of ${X}$ is closed iff it is
+downward closed, or equivalently, there are no morphisms going outside the
+subset.
+
+
+The monotone maps (i.e. functors) are the continuous maps for this topology.
+
+We denote a finite topological space by a list of the arrows (morphisms) in
+the corresponding category; '$\leftrightarrow $' denotes an isomorphism and '$=$' denotes
+the identity morphism.  An arrow between two such lists denotes
+a continuous map (a functor) which sends each point to the correspondingly
+labelled point, but possibly turning some morphisms into identity morphisms,
+thus gluing some points. 
+
+Thus, each point goes to "itself" and  
+$$
+ \{a,b\}\longrightarrow \{a{\searrow}b\}\longrightarrow \{a\leftrightarrow b\}\longrightarrow \{a=b\}
+$$
+denotes
+$$
+  (discrete\ space\ on\ two\ points)\longrightarrow (Sierpinski\ space)\longrightarrow (antidiscrete\ space)\longrightarrow (single\ point)
+$$
+
+In $A \longrightarrow  B$, each object and each morphism in $A$ necessarily appears in {B} as well; we avoid listing 
+the same object or morphism twice. Thus 
+both 
+$$
+\{a\} \longrightarrow  \{a,b\}\text{ and } \{a\} \longrightarrow  \{b\}
+$$ 
+denote the same map from a single point to the discrete space with two points.
+Both
+ $$\{a{\swarrow}U{\searrow}x{\swarrow}V{\searrow}b\}\longrightarrow \{a{\swarrow}U=x=V{\searrow}b\}\text{ and }\{a{\swarrow}U{\searrow}x{\swarrow}V{\searrow}b\}\longrightarrow \{U=x=V\}$$
+denote the morphism gluing points $U,x,V$.
+
+In $\{a{\searrow}b\}$, the point $a$ is open and point ${b}$ is closed.
+
+
+
+### Separation conditions in terms of arrows
+
+Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
+
+*  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
+   $$ F \cap G = \empty .$$
+   In terms of arrows,  the following map is well-defined: $S_{F,G}: S \longrightarrow  \{F,G,x\}$ such that $S_{F,G}{x)=F$ for $x in F$, $S_{F,G}{x)=G$ for $x \in G$, and $S_{F,G}{x)=x$ for $x \notin F\cup G$.
+
+*  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:
+   $$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\vee\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) .$$
+   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow x \}$ factors as 
+
+FIXME
+
+### Separation axioms as lifting properties 
+
+In all of the following definitions, ${X}$ is  a topological space.
+
+
+*  $ {X}$  is T0, or Kolmogorov, if any two distinct points in ${X}$ are topologically
+distinguishable. (It will be a common theme among the separation axioms to have
+one version of an axiom that requires T0 and one version that doesn't.)
+As a formula, this is expressed as
+   $$ \{x\leftrightarrow y\} \longrightarrow  \{x=y\} \,\rightthreetimes\,  {X} \longrightarrow  \{*\}$$
+
+*    ${X}$ is R0, or symmetric, if any two topologically distinguishable points in $X$
+are separated, i.e.
+   $$ \{x{\searrow}y\} \longrightarrow  \{x\leftrightarrow y\} \,\rightthreetimes\,  {X} \longrightarrow  \{*\} $$
+
+*  $X$ is T1, or accessible or Frechet, if any two distinct points in $X$ are
+separated, i.e.
+$$     \{x{\searrow}y\} \longrightarrow  \{x=y\} \,\rightthreetimes\,  {X} \longrightarrow  \{*\}  $$
+ Thus, $X$ is T1 if and only if it is both T0 and R0. (Although you may
+say such things as "T1 space", "Frechet topology", and "Suppose that the
+topological space $X$ is Frechet", avoid saying "Frechet space" in this
+context, since there is another entirely different notion of Frechet space in
+functional analysis.)
+
+*  $X$ is R1, or preregular, if any two topologically distinguishable points in
+X are separated by neighbourhoods. Every R1 space is also R0.
+
+*  $X$ is weak Hausdorff, if the image of every continuous map from a compact
+Hausdorff space into $X$ is closed. All weak Hausdorff spaces are T1, and all
+Hausdorff spaces are weak Hausdorff.
+
+*  $X$ is Hausdorff, or T2 or separated, if any two distinct points in $X$ are
+separated by neighbourhoods, i.e.
+$$    \{x,y\} \hookrightarrow  {X} \,\rightthreetimes\,  \{x{\searrow}X{\swarrow}y\} \longrightarrow  \{x=X=y\} $$
+Thus, $X$ is Hausdorff if and only if it is both T0
+and R1. Every Hausdorff space is also T1.
+
+*  $X$ is $T2\frac12$, or Urysohn, if any two distinct points in $X$ are separated by
+closed neighbourhoods, i.e.
+$$
+ \{x,y\} \hookrightarrow  {X} \,\rightthreetimes\,  \{x{\searrow}x'{\swarrow}X{\searrow}y'{\swarrow}y\} \longrightarrow  \{x=x'=X=y'=y\}
+$$
+Every $T2\frac12$ space is also Hausdorff.
+
+*  $X$ is completely Hausdorff, or completely T2, if any two distinct points in
+X are separated by a continuous function, i.e. 
+$$ \{x,y\} \hookrightarrow  {X} \,\rightthreetimes\,   [0,1]\longrightarrow \{*\}
+$$
+ where  $\{x,y\} \hookrightarrow  X$  runs through all injective maps from the discrete two
+point space $\{x,y\}$.
+
+Every completely Hausdorff space is
+also $ T2\frac 12 $.
+
+*  $X$ is regular if, given any point {x} and closed subset $F$ in $X$ such that {x} does
+not belong to $F$, they are separated by neighbourhoods, i.e.
+$$    \{x\} \longrightarrow  {X} \,\rightthreetimes\,  \{x{\searrow}X{\swarrow}U{\searrow}F\} \longrightarrow  \{x=X=U{\searrow}F\}
+$$
+(In fact, in a regular
+space, any such {x} and{F} will also be separated by closed neighbourhoods.) Every
+regular space is also R1.
+
+*  $X$ is regular Hausdorff, or T3, if it is both T0 and regular.[1] Every
+regular Hausdorff space is also $T2\frac12$.
+
+*  $X$ is completely regular if, given any point ${x}$ and closed set $F$ in $X$ such
+that ${x}$ does not belong to $F$, they are separated by a continuous function, i.e. 
+$$
+ \{x\} \longrightarrow  {X} \,\rightthreetimes\,  [0,1] \cup \{F\} \longrightarrow  \{x{\searrow}F\}
+$$ 
+where points $F$ and $1$ are topologically indistinguishable, $[0,1]$ goes to $x$, and $F$ goes to $F$.
+
+Every
+completely regular space is also regular.
+
+*  $X$ is Tychonoff, or T3$\frac12$, completely T3, or completely regular Hausdorff, if
+it is both T0 and completely regular.[2] Every Tychonoff space is both regular
+Hausdorff and completely Hausdorff.
+
+*  $X$ is normal if any two disjoint closed subsets of $X$ are separated by
+neighbourhoods, i.e.
+$$   \emptyset \longrightarrow {X} \,\rightthreetimes\,  \{x{\swarrow}x'{\searrow}X{\swarrow}y'{\searrow}y\} \longrightarrow  \{x{\swarrow}x'=X=y'{\searrow}y\}
+$$
+ In fact, by Urysohn lemma a space is normal if and only if any two disjoint
+closed sets can be separated by a continuous function, i.e.
+ $$   \emptyset \longrightarrow  {X} \,\rightthreetimes\,  \{0'\} \cup [0,1] \cup \{1'\} \longrightarrow  \{0=0'{\searrow}x{\swarrow}1=1'\} $$
+where points
+$0',0$ and $1,1'$ are topologically indistinguishable,
+            $[0,1]$ goes to $x$, and both $0,0'$ map to point $0=0'$,  and both $1,1'$ map to point
+$1=1'$.
+
+
+
+*  $X$ is normal Hausdorff, or T4, if it is both T1 and normal. Every normal
+Hausdorff space is both Tychonoff and normal regular.
+
+*  $X$ is completely normal if any two separated sets $A$ and $B$ are separated by
+neighbourhoods $U\supset A$ and $V\supset B$
+      such that $U$ and $V$ do not intersect, i.e.
+ $$\emptyset \longrightarrow  {X} \,\rightthreetimes\,  \{X{\swarrow}A\leftrightarrow U{\searrow}U'{\swarrow}W{\searrow}V'{\swarrow}V\leftrightarrow B{\searrow}X\} \longrightarrow  \{U=U',V'=V\}$$
+      Every completely normal space is also normal.
+
+
+*  $X$ is perfectly normal if any two disjoint closed sets are precisely
+separated by a continuous function, i.e. 
+$$
+ \emptyset\longrightarrow {X} \,\rightthreetimes\,  [0,1]\longrightarrow \{0{\swarrow}X{\searrow}1\}
+$$   
+where $(0,1)$ goes to the open point $X$, and $0$ goes to $0$, and $1$ goes to $1$.
+
+Every perfectly normal space is also
+completely normal.
+
+
+
 ## Details
+
+
+
 
 ### $T_4$/Normality
 
