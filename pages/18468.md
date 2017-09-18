@@ -144,7 +144,7 @@ Survey and exposition of locally covariant algebraic quantum field theory beyond
 
 * [[Klaus Fredenhagen]], _Quantum field theory and gravitation_, talk at closing colloquium of trimester "Le Monde Quantique", IHES April 2015 ([pdf](https://indico.math.cnrs.fr/event/782/material/slides/1.pdf))
 
-* [[Katarzyna Rejzner]], _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+* {#Rejzner16} [[Katarzyna Rejzner]], _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
 
 
