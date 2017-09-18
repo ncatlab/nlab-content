@@ -24,46 +24,12 @@ The analogous statement holds true for [[module spectra]] and for [[algebra spec
 
 ## References
 
+* {#Schwede12} [[Stefan Schwede]], chapzer II, section 8, and chapter III, section 7 of _[[Symmetric spectra]]_ (2012)
+
 * {#BakerRichter05} [[Andrew Baker]], [[Birgit Richter]], _Uniqueness of $E_\infty$-structures for connective covers_ ([arXiv:math/0506422v2](http://arxiv.org/abs/math/0506422))
 
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 [[!redirects connective covers]]
