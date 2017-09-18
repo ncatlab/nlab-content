@@ -19,7 +19,7 @@ In [[logic]], double negation is the operation that takes $P$ to $\neg{\neg{P}}$
 
 The _[[double negation translation]]_ says that a [[proposition]] $P$ is provable in [[classical logic]] precisely if its double negation $\not \not P$ is provable in [[constructive logic]].
 
-The _double negation topology_ closes morphisms under double negation (def. \ref{DoubleNegationTopology} below), and its [[category of sheaves]] forms a [[boolean topos]] (prop. \ref{DoubleNegationSheavesFormBooleanTopos} below). This notably serves to capture the _[[forcing]]_ of [[set theory]] in terms of [[topos theory]] ([[classifying topoi]]), see also remark \ref{RelationToForcing} below. spring
+The _double negation topology_ closes morphisms under double negation (def. \ref{DoubleNegationTopology} below), and its [[category of sheaves]] forms a [[boolean topos]] (prop. \ref{DoubleNegationSheavesFormBooleanTopos} below). This notably serves to capture the _[[forcing]]_ of [[set theory]] in terms of [[topos theory]] ([[classifying topoi]]), see also remark \ref{RelationToForcing} below. 
 
 ## In logic
 
