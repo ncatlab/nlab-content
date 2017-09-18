@@ -32,7 +32,8 @@ The usual probabilistic construction is given by taking a countably infinite set
 
 ## Related concepts
 
-[[omega-categorical structure]]
+* [[omega-categorical structure]]
+* [[Fraisse limit]]
 
 
 ## References
