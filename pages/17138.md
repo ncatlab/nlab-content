@@ -5200,45 +5200,222 @@ A key aspect of [[homotopy theory]] is that the [[universal constructions]] of [
 
 We consider this here just for the special case of [[homotopy fibers]] and [[homotopy cofibers]], leading to the phenomenon of [[homotopy fiber sequences]] and their induced [[long exact sequences of homotopy groups]] which control much of the theory to follow.
 
-#### Mapping cones
 
-The _[[mapping cone]]_ of a [[morphism]] $f : X \to Y$ in some [[homotopical category]] (precisely: a [[category of cofibrant objects]]) is, if it exists, a particular representative of the [[homotopy cofiber]] of $f$. 
+#### Pointed objects
 
-It is also called the _homotopy [[cokernel]]_ of $f$ or the _[[weak quotient]]_ of $Y$ by the [[image]] of $X$ in $Y$ under $f$. 
-
-
-
-The mapping cone construction is a means to _present_ in a [[category with weak equivalences]] the following canonical
-construction in [[homotopy theory]]/[[(∞,1)-category theory]].
-
-+-- {: .num_defn #InfinityCokernel}
++-- {: .num_defn #CategoryOfPointedObjects}
 ###### Definition
 
-In an [[(∞,1)-category]] $\mathcal{C}$ with [[terminal object]] and [[(∞,1)-pushout]], the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the [[homotopy pushout]]
+For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, write $\mathcal{C}^{\ast/}$ for the corresponding _[[category of pointed objects]]_: its
+
+* objects are morphisms in $\mathcal{C}$ of the form $\ast \overset{x}{\to} X$ (hence an object $X$ equipped with a choice of point; i.e. a _[[pointed object]]_);
+
+* morphisms are [[commuting diagram|commuting triangles]] of the form
+
+  $$
+    \array{
+       && \ast
+       \\
+       & {}^{\mathllap{x}}\swarrow && \searrow^{\mathrlap{y}}
+       \\
+       X && \overset{f}{\longrightarrow} && Y
+    }
+  $$
+
+  (hence morphisms in $\mathcal{C}$ which preserve the chosen points).
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, the [[terminal object]] coincides with the [[initial object]], both are given by $\ast \in \mathcal{C}$ itself, pointed in the unique way. 
+
+In this situation one says that $\ast$ is a _[[zero object]]_ and that $\mathcal{C}^{\ast/}$ is a _[[pointed category]]_. 
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] given by forming the [[disjoint union]] ([[coproduct]]) with a base point ("adjoining a base point"), this is denoted by
 
 $$
-  coker(f) \coloneqq Y \coprod_X {*}
-$$
-
-hence the object [[universal construction]] sitting universally in a [[diagram]] of the form
-
-$$
-  \array{
-     X &\stackrel{}{\to}& {*}
-     \\
-     \downarrow^{\mathrlap{f}} &\swArrow_{\simeq}& \downarrow
-     \\
-     Y &\to& coker(f)
-  }
+  (-)_+ \coloneqq (-) \sqcup \ast \;\colon \; \mathcal{C} \longrightarrow \mathcal{C}^{\ast/}
   \,.
 $$
 
 =--
 
-+-- {: .num_prop #HomotopyCofiberByFactorizationLemma}
++-- {: .num_prop #LimitsAndColimitsOfPointedObjects}
 ###### Proposition
 
-If the [[(∞,1)-category]] $\mathcal{C}$ is presented by (is [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplicial localization]] of) a [[category of cofibrant objects]] $C$ (for instance given by the [[cofibrant objects]] in a [[model category]]) then this homotopy cofiber is presented by the ordinary [[colimit]] 
+Let $\mathcal{C}$ be a [[category]] with all [[limits]] and [[colimits]]. Then also the [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, has all limits and colimits.
+
+Moreover:
+
+1. the limits are the limits of the underlying diagrams in $\mathcal{C}$, with the base point of the limit induced by its universal property in $\mathcal{C}$;
+
+1. the colimits are the limits in $\mathcal{C}$ of the diagrams _with the basepoint adjoined_.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Given two pointed objects $(X,x)$ and $(Y,y)$, then:
+
+1. their [[product]] in $\mathcal{C}^{\ast/}$ is $(X\times Y, (x,y))$;
+
+1. their [[coproduct]] in $\mathcal{C}^{\ast/}$ is the [[pushout]] in $\mathcal{C}$ of the form:
+
+   $$
+     \array{
+       \ast &\overset{x}{\longrightarrow}& X
+       \\
+       {}^{\mathllap{y}}\downarrow &(po)& \downarrow
+       \\
+       Y &\longrightarrow& X \vee Y
+     }
+     \,.
+   $$
+
+   This is called the _[[wedge sum]]_ operation.
+
+=--
+
++-- {: .num_defn #SmashProductOfPointedObjects}
+###### Definition
+
+For $\mathcal{C}^{\ast/}$ a [[category of pointed objects]] with [[finite limits]] and [[finite colimits]], the _[[smash product]]_ is the [[functor]]
+
+$$
+  (-)\wedge(-)
+  \;\colon\;
+  \mathcal{C}^{\ast/}
+  \times 
+  \mathcal{C}^{\ast/}
+  \longrightarrow
+  \mathcal{C}^{\ast/}
+$$
+
+given by
+
+$$
+  X \wedge Y
+  \;\coloneqq\;
+  \ast
+  \underset{X\sqcup Y}{\sqcup} (X \times Y)
+  \,,
+$$
+
+hence by the [[pushout]] in $\mathcal{C}$
+
+$$
+  \array{
+    X \sqcup Y &\overset{(id_X,y),(x,id_Y) }{\longrightarrow}& X \times Y
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow& X \wedge Y
+  }
+  \,.
+$$
+
+ 
+=--
+
+
++-- {: .num_defn #FiberAndCofiberInPointedObjects}
+###### Definition
+
+Given a morphism $f \colon X \longrightarrow Y$ in a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, with finite limits and colimits,
+
+1. its _[[fiber]]_ or _[[kernel]]_ is the [[pullback]] of the point inclusion
+
+   $$
+     \array{
+       fib(f) &\longrightarrow& X
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{f}}
+       \\
+       \ast &\longrightarrow& Y
+     }
+   $$
+
+1. its _[[fiber]]_ or _[[cokernel]]_ is the [[pushout]] of the point projection
+
+   $$
+     \array{
+       X &\overset{f}{\longrightarrow}& Y
+       \\
+       \downarrow &(po)& \downarrow
+       \\
+       \ast &\longrightarrow& cofib(f)
+     }
+     \,.
+   $$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In the situation of def. \ref{FiberAndCofiberInPointedObjects}, both the pullback as well as the pushout are equivalently computed in $\mathcal{C}$. For the pullback this is the first clause of prop. \ref{LimitsAndColimitsOfPointedObjects}. The second clause says that for computing the pushout in $\mathcal{C}$ first the point is to be adjoined to the diagram, and then the colimit over the larger diagram
+
+$$
+  \array{
+    \ast
+    \\
+    & \searrow
+    \\
+    & & X &\overset{f}{\longrightarrow}& Y
+    \\
+    & & \downarrow && 
+    \\
+    & & \ast && 
+   }
+$$
+
+be computed, but one readily checks that in this special case this does not affect the result.
+
+=--
+
+#### Mapping cones
+ {#MappingCones}
+
+
+In the context of [[homotopy theory]], a [[pullback]] diagram, such as in the definition of the [[fiber]] in def. \ref{FiberAndCofiberInPointedObjects}
+
+$$
+  \array{
+     fib(f) &\longrightarrow& X
+     \\
+     \downarrow && \downarrow^{\mathrlap{f}}
+     \\
+     \ast &\longrightarrow& Y
+  }
+$$
+
+ought to [[commuting diagram|commute]] only up to a (left/right) [[homotopy]] (def. \ref{LeftAndRightHomotopyInAModelCategory}) between the outer composite morphisms. Moreover, it should satisfy its [[universal property]] up to such homotopies.
+
+Instead of going through the full theory of what this means, we observe that this is plausibly modeled by the following construction, and then we check ([below](#HomotopyFibers)) that this indeed has the relevant abstract homotopy theoretic properties.
+
+
++-- {: .num_defn #MappingConeAndMappingCocone}
+###### Definition
+
+Let $\mathcal{C}$ a [[model category]], def. \ref{ModelCategory}. 
+
+For $f \colon X \longrightarrow Y$ a morphism between cofibrant objects (hence a morphism in $\mathcal{C}_c\hookrightarrow \mathcal{C}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its _[[mapping cone]]_ is the object 
+
+$$
+  Cone(f)
+  \coloneqq
+  \ast \underset{X}{\sqcup} Cyl(X) \underset{X}{\sqcup} Y
+$$
+
+in the colimiting diagram
 
 $$
   \array{
@@ -5246,372 +5423,322 @@ $$
     \\
     && \downarrow^{\mathrlap{i_1}} && \downarrow^{\mathrlap{i}}
     \\
-    X &\stackrel{i_0}{\to}& cyl(X)
+    X &\stackrel{i_0}{\to}& Cyl(X)
     \\
-    \downarrow && &\searrow & \downarrow
+    \downarrow && & \searrow^{\mathrlap{\eta}} & \downarrow
     \\
-    {*} &\to& &\to& cone(f) 
+    {*} &\to& &\to& Cone(f) 
   }
+  \,,
 $$
 
-in $C$ using any [[cylinder object]] $cyl(X)$ for $X$.
+where $Cyl(X)$ is a [[cylinder object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
-=--
+Dually, for $f \colon X \longrightarrow Y$ a morphism between fibrant objects (hence a morphism in $\mathcal{C}_f\hookrightarrow \mathcal{C}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its _[[mapping cocone]]_ is the object 
 
+$$
+  Path_\ast(f) \coloneqq \ast \underset{Y}{\times} Path(Y)\underset{Y}{\times} Y
+$$
 
-
-+-- {: .num_remark }
-###### Remark
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="560" >
-</div>
-
-Intuitively this says that $cone(f)$ is the object obtained by
-
-1. forming the cylinder over $X$;
-
-1. gluing to one end of that the object $Y$ as specified by the map $f$.
-
-1. shrinking the other end of the cylinder to the point.
-
-Intuitively it is clear that this way every [[cycle]] in $Y$ that happens to be in the image of $X$ can be "continuously" translated in the cylinder-direction, keeping it constant in $Y$, to the other end of the cylinder, where it becomes the point. This means that every [[homotopy group]] of $Y$ in the image of $f$ vanishes in the mapping cone. Hence in the mapping conee **the image of $X$ under $f$ in $Y$ is removed up to homotopy**. This makes it clear how $cone(f)$ is a homotopy-version of the [[cokernel]] of $f$. And therefore the name "mapping cone".
-
-(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
-
-
-=--
-
-
-
-
-+-- {: .num_remark }
-###### Remark
-
-A morphism $\eta : cyl(X) \to Y$ out of a [[cylinder object]] is a [[left homotopy]] $\eta : g \Rightarrow h$ (def. \ref{LeftHomotopyOfSimplicialSets}) between its restrictions $g\coloneqq \eta(0)$ and $h \coloneqq \eta(1)$ to the cylinder boundaries
+in the following limit diagram
 
 $$
   \array{
-     X
-     \\
-     \downarrow^{\mathrlap{i_0}} & \searrow^{\mathrlap{g}}
-     \\
-     cyl(X) &\stackrel{\eta}{\to}& Y
-     \\
-     \uparrow^{\mathrlap{i_1}} & \nearrow_{\mathrlap{h}}
-     \\
-     X
+    Path_\ast(f) &\longrightarrow& &\longrightarrow& X
+    \\
+    \downarrow &\searrow^{\mathrlap{\eta}}& && \downarrow^{\mathrlap{f}}
+    \\
+      &&  Path(Y) &\underset{p_1}{\longrightarrow}& Y
+    \\
+    \downarrow && \downarrow^{\mathrlap{p_0}}
+    \\
+    \ast &\longrightarrow& Y
+  }
+  \,,
+$$
+
+where $Path(Y)$ is a [[path space object]] for $Y$, def. \ref{PathAndCylinderObjectsInAModelCategory}.
+
+
+=--
+
++-- {: .num_defn }
+###### Remark
+
+If we write homotopies (def. \ref{LeftHomotopyOfSimplicialSets}) as double arrows between morphisms, then then limit diagram in def. \ref{MappingConeAndMappingCocone} looks just like the square in the definition of [[fibers]] in def. \ref{FiberAndCofiberInPointedObjects}, except that it is filled by the right homotopy given by the component map denoted $\eta$:
+
+$$
+  \array{
+    Path_\ast(f) &\longrightarrow& X
+    \\
+    \downarrow &\swArrow_{\eta}& \downarrow^{\mathrlap{f}}
+    \\
+    \ast &\longrightarrow& Y
   }
   \,.
 $$
 
-Therefore prop. \ref{HomotopyCofiberByFactorizationLemma} says that 
-the mapping cone is the the [[universal property|universal]] object with a morphism $i$ from $Y$ and a [[left homotopy]] from $i \circ f$ to the [[zero morphism]]. This is of course also precisely what def. \ref{InfinityCokernel} is saying.
+Dually, the colimiting diagram for the mapping cone turns to look just like the square for the [[cofiber]], except that it is filled with a left homotopy 
+
+$$
+  \array{
+    X &\overset{f}{\longrightarrow}& Y
+    \\
+    \downarrow &\swArrow_{\eta}& \downarrow
+    \\
+    \ast &\longrightarrow& Cone(f)
+  }
+$$
 
 =--
 
 
-+-- {: .num_prop }
++-- {: .num_prop #ConeAndMappingCylinder}
 ###### Proposition
 
-The colimit in prop. \ref{HomotopyCofiberByFactorizationLemma} may be computed in two stages by two consecutive [[pushouts]] in $C$, and in two ways by the following [[pasting diagram]]:
+The colimit appearing in the definition of the [[mapping cone]] in def. \ref{MappingConeAndMappingCocone} is equivalent to three consecutive [[pushouts]]:
 
 $$
   \array{
     && X &\stackrel{f}{\to}& Y
     \\
-    && \downarrow^{i_1} && \downarrow
+    && \downarrow^{\mathrlap{i_1}} &(po)& \downarrow^{\mathrlap{i}}
     \\
-    X &\stackrel{i_0}{\to}& cyl(X) &\to & cyl(f)
+    X &\stackrel{i_0}{\to}& Cyl(X) &\longrightarrow& Cyl(f)
     \\
-    \downarrow && \downarrow && \downarrow
+    \downarrow &(po)& \downarrow & (po) & \downarrow
     \\
-    {*} &\to& cone(X) &\to& cone(f) 
+    {*} &\to& Cone(X) &\to& Cone(f) 
   }
   \,.
 $$
 
-Here every square is a [[pushout]], (and so by the [[pasting law]] is every rectangular pasting composite).
+The two intermediate objects appearing here are called
 
-=--
+* the plain **[[cone]]**  $Cone(X) \coloneqq \ast \underset{X}{\sqcup} Cyl(X)$;
 
-This now is a basic fact in ordinary [[category theory]]. The pushouts appearing here go by the following names:
+* the **[[mapping cylinder]]** $Cyl(f) \coloneqq Cyl(X) \underset{X}{\sqcup} Y$.
 
-+-- {: .num_defn #CylindersAndCones}
-###### Definition
-
-The pushout
+Dually, the limit appearing in the definition of the [[mapping cocone]] in def. \ref{MappingConeAndMappingCocone} is equivalent to three consecutive [[pullbacks]]:
 
 $$
   \array{
-     X &\stackrel{i_0}{\to}& cyl(X)
+    Path_\ast(f) &\longrightarrow& Path(f) &\longrightarrow& X
+    \\
+    \downarrow &(pb)& \downarrow &(pb)& \downarrow^{\mathrlap{f}}
+    \\
+    Path_\ast(Y)  &\longrightarrow&  Path(Y) &\underset{\delta_0}{\longrightarrow}& Y
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    \ast &\longrightarrow& Y
+  }
+  \,.
+$$
+
+The two intermediate objects appearing here are called
+
+* the **based path space object** $Path_\ast(Y) \coloneqq \ast \underset{Y}{\prod} Path(Y)$;
+
+* the **mapping path space** or **mapping co-cylinder** $Path(f) \coloneqq X \underset{Y}{\times} Path(X)$.
+
+
+=--
+
+
++-- {: .num_example #MappingConesInTopologicalSpaces}
+###### Example
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="560" >
+</div>
+
+For $\mathcal{C} =$ [[Top]] with $Cyl(X) = X\times I$ the standard cyclinder object, def. \ref{TopologicalInterval}, then by example \ref{PushoutInTop}, the [[mapping cone]], def. \ref{MappingConeAndMappingCocone}, of a [[continuous function]] $f \colon X \longrightarrow Y$ is obtained by
+
+1. forming the cylinder over $X$;
+
+1. attaching to one end of that cylinder the space $Y$ as specified by the map $f$.
+
+1. shrinking the other end of the cylinder to the point.
+
+(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
+=--
+
+Example \ref{MappingConesInTopologicalSpaces} makes it clear that every [[cycle]] $S^n \to Y$ in $Y$ that happens to be in the image of $X$ can be _continuously_ translated in the cylinder-direction, keeping it constant in $Y$, to the other end of the cylinder, where it shrinks away to the point. This means that every [[homotopy group]] of $Y$, def. \ref{HomotopyGroupsOftopologicalSpaces}, in the image of $f$ vanishes in the mapping cone. Hence in the mapping cone **the image of $X$ under $f$ in $Y$ is removed up to homotopy**. This makes it intuitively clear how $Cone(f)$ is a homotopy-version of the [[cokernel]] of $f$. We now discuss this formally.
+
++-- {: .num_lemma #FactorizationLemma}
+###### Lemma
+**([[factorization lemma]])**
+
+Let $\mathcal{C}_c$ be a [[category of cofibrant objects]],  def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then for every morphism $f \colon X \longrightarrow Y$ the [[mapping cylinder]]-construction in def. \ref{ConeAndMappingCylinder} provides a cofibration resolution of $f$, in that 
+
+1. the composite morphism $X \overset{i_0}{\longrightarrow} Cyl(X) \overset{(i_1)_\ast f}{\longrightarrow} Cyl(f)$ is a cofibration;
+
+1. $f$ factors through this morphism by a weak equivalence.
+
+   $$
+     f 
+       \;\colon\;
+     X 
+        \underoverset{\in Fib}{(i_1)_\ast f\circ i_0}{\longrightarrow} 
+     Cyl(f)
+       \underset{\in W}{\longrightarrow} 
+     Y
+     \,,
+   $$
+
+Dually:
+
+Let $\mathcal{C}_f$ be a [[category of fibrant objects]],  def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then for every morphism $f \colon X \longrightarrow Y$ the [[mapping cocylinder]]-construction in def. \ref{ConeAndMappingCylinder} provides a fibration resolution of $f$, in that 
+
+1. the composite morphism $Path(f) \overset{p_1^\ast f}{\longrightarrow} Path(Y) \overset{p_0}{\longrightarrow} Y$ is a fibration;
+
+1. $f$ factors through this morphism by a weak equivalence.
+
+   $$
+     f 
+       \;\colon\;
+     X 
+       \underset{\in W}{\longrightarrow} 
+     Path(f) 
+        \underoverset{\in Fib}{p_0 \circ p_1^\ast f}{\longrightarrow} 
+     Y
+     \,,
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the second case. The first case is [[formal dual|formally dual]].
+
+So consider the [[mapping cocylinder]]-construction from prop. \ref{ConeAndMappingCylinder}
+
+$$
+  \array{
+     Path(f) &\longrightarrow& X
      \\
-     \downarrow && \downarrow
+     {}^{\mathllap{p_1^\ast f}}\downarrow &(pb)& \downarrow^{\mathrlap{f}}
      \\
-     {*} &\to& cone(X)
+     Path(Y) &\stackrel{p_1}{\longrightarrow}& Y
+     \\
+     \downarrow^{\mathrlap{p_0}}
+     \\
+     Y
   }
+  \,.
 $$
 
-defines the **[[cone]]** $cone(X)$ over $X$ (with respect to the chosen [[cylinder object]]): the result of taking the [[cylinder object|cylinder]] over $X$ and identifying one $X$-shaped end with the [[point]].
 
-The pushout 
+To see that the vertical composite is indeed a fibration, notice that, by the [[pasting law]], the above pullback diagram may be decomposed as a [[pasting]] of two pullback diagram as follows
 
 $$
   \array{
-    X &\stackrel{f}{\to}& Y
-    \\
-    \downarrow && \downarrow
-    \\
-    cyl(X) &\to& cyl(f)
+    Path(f)
+     &\stackrel{}{\longrightarrow}& 
+     X \times Y 
+     &\stackrel{p_1}{\to}& 
+     X
+     \\
+     \downarrow && \downarrow^{\mathrlap{(f, Id)}} && \downarrow^\mathrlap{f}
+     \\
+     Y^I &\stackrel{(p_1,p_0) }{\longrightarrow}&
+     Y \times Y &\stackrel{p_1}{\longrightarrow}&
+     Y
+     \\
+     {}^{\mathllap{p_0}}\downarrow & \swarrow_{\mathrlap{p_2}}
+     \\
+     Y
   }
+  \,.
 $$
 
-defines the **[[mapping cylinder]]** $cyl(f)$ of $f$, the result of identifying one end of the cylinder over $X$ with $Y$, using $f$ as the gluing map.
+Both squares are pullback squares. Since pullbacks of fibrations are fibrations by prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}, the morphism $Path(f) \to X \times Y$ is a fibration.
+Similarly, since $X$ is fibrant, also the [[projection]] map $X \times Y \to Y$ is a fibration (being the pullback of $X \to \ast$ along $Y \to \ast$).
 
-The pushout 
+Since the vertical composite is thereby exhibited as the composite of two fibrations
+
+$$
+   \hat X \to X \times Y
+    \stackrel{p_2 \circ (f ,Id)}{\longrightarrow}
+  Y
+  \,,
+$$
+
+it is itself a fibration.
+
+
+Next, observe that, by [[two-out-of-three]], both projections $p_i \colon Path(X)\to X$ are weak equivalences, since they have the [[right inverse]] $Y \to Path(Y)$. By the [[universal property]] of  [[pullbacks]], this induces a right inverse of $\hat X \to X$ fitting into this [[pasting]] diagram
 
 $$
   \array{
-    cyl(x) &\to& cyl(f)
-    \\
-    \downarrow && \downarrow
-    \\
-    cone(X) &\to& cone(f)
+     id_X \colon & X &\underset{\in W}{\longrightarrow}& \hat X &\longrightarrow& X
+     \\
+     & {}^{\mathrlap{f}}\downarrow && \downarrow && \downarrow^{\mathrlap{f}}
+     \\
+     id_Y\colon& Y &\underset{\in W}{\longrightarrow}& Y^I &\stackrel{p_1}{\to}& Y
+     \\
+     & & {}_{\mathllap{Id}}\searrow& \downarrow^{\mathrlap{p_0}} 
+     \\
+     & && Y
   }
+  \,.
 $$
 
-defines the **mapping cone** $cone(f)$ of $f$: the result of forming the cylinder over $X$ and then identifying one end with the point and the other with $Y$, via $f$.
+This establishes the claim.
 
 =--
 
-Dually, the **[[mapping cocone]]** is a presentation of homotopy fibers.
 
 
-#### Homotopy cartesian squares
+#### Homotopy fibers
+ {#HomotopyFibers}
 
-+-- {: .num_prop #HomotopyPullbackByOrdinaryPullback}
-###### Proposition
+We here discuss the homotopy-theoretic properties of the mapping cone and mapping co-cone constructions [above](#MappingCones).
 
-Let $A \to C \leftarrow B$ be a [[diagram]] in some [[model category]]. Then sufficient conditions for the ordinary (1-categorical) [[pullback]] $A \times_C B$ to present the homotopy pullback of the diagram are
-
-* one of the two morphisms is a [[fibration]] and all three objects are [[fibrant objects]];
-
-* one of the two morphisms is a [[fibration]] and the model category is [[right proper model category|right proper]].
-
-=--
-
-The proof of the second statement is spelled out [here](proper+model+category#HomotopyLimits).
-
-+-- {: .num_remark }
++-- {: .num_remark}
 ###### Remark
 
-Notice that a fibrant [[resolution]] of the diagram in the injective [[model structure on functors]] has _both_ morphisms be a fibration. So the first point in prop. \ref{HomotopyPullbackByOrdinaryPullback} says that (in the special case of pullbacks) something weaker than this is sufficient for computing the [[homotopy limit]] of the diagram.
-
-This can be explained in model-categorical terms by the fact that the category of [[cospans]] also has a [[Reedy model structure]] in which the fibrant objects are precisely those considered in the first point above, and that homotopy limits can equally well be computed using this model structure (specifically, the [[adjunction]] $Const \dashv Lim$ is [[Quillen adjunction|Quillen]] with respect to it).
-
-In this spirit one may ask for the largest class of morphisms such that their ordinary pullbacks are already homotopy pullbacks. This is related to the concept of _[[sharp morphisms]]_.
-
-=--
-
-
-
-Due to prop. \ref{HomotopyPullbackByOrdinaryPullback} one typically computes homotopy pullbacks of a diagram by first forming a [[resolution]] of one of the two morphisms by a fibration and then forming an ordinary pullback. 
-
-+-- {: .num_cor #HomotopyPullbackByFactorizationLemma}
-###### Corollary
-
-If in $A \stackrel{f}{\to} C \stackrel{g}{\leftarrow} B$ 
-all three objects are [[fibrant objects]], then
-the homotopy pullback of this diagram is presented by the ordinary [[pullback]]
+The [[factorization lemma]] \ref{FactorizationLemma} with prop. \ref{ConeAndMappingCylinder} says that the [[mapping cocone]] of a morphism $f$, def. \ref{MappingConeAndMappingCocone}, is equivalently the plain [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of a fibrant resolution $\tilde f$ of $f$:
 
 $$
   \array{
-     A\times_C^h B & \to & C^I \times_C B
+    Path_\ast(f) &\longrightarrow& \tilde X
     \\
-    \downarrow && \downarrow 
+    \downarrow &(pb)& \downarrow^{\mathrlap{\tilde f}}
     \\
-     A & \stackrel{f}{\to} & C
+    \ast &\longrightarrow& Y
   }
   \,.
 $$
 
-or, equivalently up to [[isomorphism]], as the ordinary [[pullback]]
+The following says that, up to equivalence, this situation now is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution:
+
+=--
+
+
+
++-- {: .num_lemma }
+###### Lemma
+
+In [[pointed objects]] $\mathcal{C}_f^{\ast/}$ of a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, consider a morphism of [[fiber]]-diagrams, hence a [[commuting diagram]] of the form
 
 $$
   \array{
-     A\times_C^h B & \to & C^I
+    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
     \\
-    \downarrow && \downarrow 
+    \downarrow^{\mathrlap{}} && \downarrow && \downarrow
     \\
-     A\times B & \stackrel{(f,g)}{\to} & C\times C
+    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
   }
   \,.
 $$
 
-=--
-
-See also at _[[Mayer-Vietoris sequence]]_ [this proposition](Mayer-Vietoris+sequence#SequenceFromDiagonal).
-
-+-- {: .proof}
-###### Proof
-Since the objects are already fibrant, prop. \ref{HomotopyPullbackByOrdinaryPullback} implies that it is sufficient to replace one of the morphisms by a fibrant resolution.
-Such a resolution is provided by the [[factorization lemma]]: by [Lemma 3](factorization+lemma#FibrantResolution), $B \to C$ admits a canonical fibrant resolution
-  $$ C^I \times_C B \twoheadrightarrow C $$
-where $C \stackrel{\simeq}{\to} C^I \to C \times C$ is a [[path space object]] for $C$ (for instance, when $C$ is a [[closed monoidal homotopical category]] then this can be taken to be the [[internal hom]] with an [[interval object]] $I$).
-=--
-
-The homotopy pullback constructed in this way is an example of a _strict homotopy limit_, as mentioned at [[homotopy limit]].  In such a case, one can say that an arbitrary homotopy-commutative square
-
-$$
-  \array{
-   W & \to& Y
-   \\
-    \downarrow && \downarrow
-   \\
-   X &\to& Z
-  }
-$$
-
-is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
-
-
-
-Let $\mathcal{C}$ be a [[category of fibrant objects]], such as the category $KanCplx \hookrightarrow sSet$ of [[Kan complexes]] or the category [[Top]] of ([[convenient category of topological spaces|convenient]]) [[topological spaces]].
-
-+-- {: .num_lemma}
-###### Lemma
-Given any [[product]]
-  $$ X \overset{p_{X}}{\leftarrow} X \times Y
-       \overset{p_{Y}}{\rightarrow} Y $$
-in $\mathcal{C}$, the [[projections]] $p_{X}$ and $p_{Y}$ are [[fibrations]].
-=--
-
-+-- {: .proof}
-###### Proof
-
-By one of the axioms for a category of fibrant objects, $\mathcal{C}$ has a final object $1$. We have the following.
-
-1) The following diagram in $\mathcal{C}$ is a cartesian square.
-
-$$
-   \array{
-      X \times Y               &  \overset{p_{Y}}{\to} & Y \\
-      p_{X} \downarrow &                                      & \downarrow  \\
-      X                            & \to                                 & 1 \\ 
-   }
-$$
-
-2) By one of the axioms for a category of fibrant objects, the arrows $Y \to 1$ and $X \to 1$ are fibrations. 
-
-By one of the axioms for a category of fibrant objects, it follows from 1) and 2) that $p_{X}$ and $p_{Y}$ are fibrations.
+If the two vertical morphisms on the right are weak equivalences, then so is the vertical morphism in the left
 
 =--
-
-+-- {: .num_lemma}
-###### Lemma
-Given an object $X$ in $\mathcal{C}$, let $X^I$ be a [[path space object]] for $X$ and let
-  $$ d = (d_0, d_1) : X^I \twoheadrightarrow X \times X $$
-denote the canonical [[fibration]].
-The morphisms $d_0 : X^I \to X$ and $d_1 : X^I \to X$ are both [[trivial fibrations]].
-=--
-
-+-- {: .proof}
-###### Proof
-
-We have the following.
-
-1) The following diagram in $\mathcal{C}$ commutes.
-
-$$
-   \array{
-      X &  \overset{i}{\hookrightarrow}                                         & X^I \\
-          &    \underset{id_X}{\searrow}                    & \downarrow d_{0} \\
-          &                                                                    & X
-   }
-$$
-
-2) By one of the axioms for a category of fibrant objects, $id_X$ is a weak equivalence. 
-
-By the 2-out-of-3 axiom for a category of fibrant objects, we deduce from 1), 2), and the fact that $c$ is a weak equivalence, that $d_{0}$ is a weak equivalence.
-
-An entirely analogous argument demonstrates that $d_{1}$ is a weak equivalence.
-=--
-
-The **[[factorization lemma]]**
-
-+-- {: .num_lemma #FibrantResolution}
-###### Lemma
-**(Fibrant resolution of a morphism).**
-Let $f : X \to Y$ a morphism in $\mathcal{C}$.  There exists a canonical [[fibration]] $g : X \times_Y Y^I \twoheadrightarrow Y$ which factors through $f$ via a [[trivial fibration]] $s: X \times_Y Y^I \stackrel{\sim}{\twoheadrightarrow} X$.
-Here $Y^I$ is a [[path space object]] for $Y$.
-
-$$
-   \array{
-      X \times_Y Y^I & \overset{s}{\to} & X \\
-          & \underset{g}{\searrow} & \downarrow{f} \\
-          & & Y 
-   }
-$$
-=--
-
-+-- {: .proof}
-###### Proof
-Let $d = (d_0, d_1) : Y^I \twoheadrightarrow Y \times Y$ be the canonical [[fibration]].  Let $s : X \times_Y Y^I \stackrel{\sim}{\twoheadrightarrow} X$ denote the [[base change]] of $d_0$ along $f$; this is a [[trivial fibration]] because $d_0$ is by lemma 2, and trivial fibrations are stable under base change.
-
-Let $g$ denote the composite
-  $$ g : X \times_Y Y^I \to Y^I \stackrel{d_1}{\twoheadrightarrow} Y. $$
-One can see that this is a fibration by observing that it is the same as the composite
-  $$ X \times_Y Y^I \to X \times_Y Y \times Y = X \times Y \to X \times e = X $$
-where $e$ is the [[final object]] of $C$.
-Here, the first morphism $id_X \times_Y d$ is a fibration because it is a base change of the fibration $d$; the second is a fibration because it is a base change of the fibration $Y \to e$ ($Y$ is [[fibrant object|fibrant]]).
-=--
-
-+-- {: .num_prop}
-###### Proposition
-**(Factorization lemma).**
-Any morphism $f : X \to Y$ in $\mathcal{C}$ admits a factorization as a [[weak equivalence]] $i$ followed by a [[fibration]] $p$, such that $i$ is [[right inverse]] to a [[trivial fibration]].
-$$
-   \array{
-      X &  \overset{i}{\to}             & \hat X \\
-          & \underset{f}{\searrow} & \downarrow p \\
-          &                                        & Y 
-   }
-$$
-=--
-
-+-- {: .proof}
-###### Proof
-Let $p : \hat X = X \times_Y Y^I \twoheadrightarrow Y$ be a [[fibration|fibrant]] resolution of $f$ as in Lemma 3, so that there is a commutative diagram
-$$
-   \array{
-      \hat X & \overset{s}{\to} & X \\
-          & \underset{p}{\searrow} & \downarrow{f} \\
-          & & Y 
-   }
-$$
-Let $j : Y \stackrel{\sim}{\to} Y^I$ denote the canonical [[weak equivalence]].  Since the square
-$$
-   \array{
-      X & \overset{id_X}{\to} & X \\
-      \downarrow{j f} & & \downarrow{f} \\
-      Y^I & \overset{d_0}{\to} & Y
-   }
-$$
-commutes, one gets an induced morphism $i = (id_X, j f) : X \to \hat X$ by the [[universal property]] of the [[pullback]], which by definition has left inverse $s$ and makes the diagram
-$$
-   \array{
-      X &  \overset{i}{\to}             & \hat X \\
-          & \underset{f}{\searrow} & \downarrow p \\
-          &                                        & Y 
-   }
-$$
-commute.
-
-=--
-
-(...)
-
-[[pasting law]]
 
 (...)
 
@@ -7692,8 +7819,6 @@ is a [[bijection]]. Therefore the pre-image of $[id_X] \in [X,X]_{strict}$ is an
 =--
 
 
-
-spring
 
 ##### Free spectra
  {#FreeSpectra}
@@ -12063,7 +12188,6 @@ $$
 
 =--
 
-spring
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
