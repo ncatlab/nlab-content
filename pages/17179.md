@@ -222,6 +222,10 @@ $$
 
 ([Elmendorf-Kriz-May 95, p. 7](#ElmendorfKrizMay95))
 
+### For symmetric spectra
+
+For [[symmetric spectra]], see ([Schwede 12, prop. 4.39](#Schwede12)).
+
 ## References
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of 
