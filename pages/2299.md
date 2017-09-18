@@ -33,7 +33,6 @@ Under forming [[groupoid convolution algebras]] and their higher analog, at leas
 
 ## Axiomatizations
 
-### Structured little $(\infty,1)$-toposes
 
 The notion of [[geometry (for structured (∞,1)-toposes)|geometry is formalized]]  in the form of an [[(∞,1)-category]] $\mathcal{G}$ whose objects play the role of test-spaces on which all other [[space]]s are modeled, in a hierarchy of generalized objects:
 
@@ -59,9 +58,6 @@ A plethora of proposals for formalizations of higher geometry find their home in
 A notable exception to this is possibly the program by [[Maxim Kontsevich]] and others where under the term [[noncommutative geometry]] and [[derived noncommutative geometry]] spaces are modeled as the formal dual to [[A-∞-categories]]. But $A_\infty$-categories are presentations for [[stable (∞,1)-categories]] and by the <a href="http://ncatlab.org/nlab/show/stable+(infinity%2C1)-category#StabGiraud">stable Giraud theorem</a> _presentable_ stable $(\infty,1)$-categories play a very similar role to (unstable) [[∞-stack]] [[(∞,1)-topos]]es. In particular they may be obtained from the latter by [[stabilization]]. 
 
 
-### Structured big $(\infty,1)$-toposes
-
-(...)
 
 ## Examples
 
