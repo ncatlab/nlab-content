@@ -1,0 +1,74 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
++-- {: .num_prop #ClosedSubsetsOfCompactSpacesAreCompact}
+###### Proposition
+
+Let $(X,\tau)$ be a [[compact topological space]], and let $Y \subset X$ be a  [[closed subspace|closed]] [[topological subspace]]. Then also $Y$ is [[compact topological space|compact]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\{V_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$. We need to show that this has a finite sub-cover.
+
+By definition of the [[topological subspace|subspace topology]], there exist open subsets $U_i$ of $X$ with 
+
+$$
+  V_i = U_i \cap Y
+  \,.
+$$
+
+By the assumption that $Y$ is closed, the [[complement]] $X \backsalsh Y$ is an open subset of $X$, and therefore
+
+$$
+  \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
+$$
+
+is an [[open cover]] of $X$. Now by the assumption that $X$ is compact, this latter cover has a finite subcover,
+hence there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that 
+
+$$
+  \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
+$$
+
+is still an oopen cover of $X$, hence in particular intersects to a finite open cover of $Y$. 
+But since $Y \cap ( X \backsalsh Y ) = \empty$, it follows that indeed
+
+$$
+  \{V_i \subset Y\}_{i \in J \subset I}
+$$
+
+is a cover of $Y$, and in indeed a finite subcover of the original one.
+
+=--
+
+## Related entries
+
+* [[compact subspaces of Hausdorff spaces are closed]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[a CW-complex is a Hausdorff space]]
+
+* [[Hausdorff implies sober]]
+
+* [[map from compact space to Hausdorff space]]
+
+
