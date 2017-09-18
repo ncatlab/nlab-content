@@ -78,7 +78,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Conversely, every locally compact Haudorff space $X$ arises as in prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}, since it may be considered an [[open subspace]] in its [[one-point compactification]] $X \sqcup \{\infty\}$ (where the open neighborhoods of the adjoined point $\infty$ are precisely those of the form $K^c \sqcup \{\infty\}$, where $K^c$ is the [[complement]] of a [[compact subset]] $K \subseteq X$). 
+Conversely, every locally compact Haudorff space $X$ arises as in prop. \ref{OpenSubspacesOfCompactHausdorffSpacesAreLocallyCompact}, since it may be considered an [[open subspace]] in its [[one-point compactification]] $X \sqcup \{\infty\}$. See there _[this example](one-point+compactification#LocallyCompatcHausdorffSpaceIsOpenSubspaceOfCompactHausdorffSpace)_.
 
 =--
 
