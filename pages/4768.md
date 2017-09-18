@@ -92,7 +92,7 @@ We call the simplicial category $N(GrC)$ the simplicial localization of $C$.
 We define $L_H C^\mathbf{T}(X,Y)$ to be $\varinjlim_\mathbf{T} \nu(C^\mathbf{T}(X,Y))$.  We define the _Hammock Localization_ of $C$ to be the simplicial category $L_H C$ defined by the following data:
 
 * The objects of $L_H C$ are precisely the objects of $C$.
-* The hom-spaces are precisely the $L_H C^\mathbf{T}(X,Y)
+* The hom-spaces are precisely the $L_H C^\mathbf{T}(X,Y)$
 * Composition is given by $\nu(\vee)$
 * The identities $Id_X$ are those maps $\Delta^0\to C^\mathbf{T}(X,X)$ classifying the unique empty zigzag
 
