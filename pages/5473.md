@@ -120,7 +120,7 @@ T U E & \stackrel{\overset{T U\pi_1}{\to}}{\underset{T U\pi_2}{\to}} & T U B & \
 U E & \stackrel{\overset{U\pi_1}{\longrightarrow}}{\underset{U\pi_2}{\longrightarrow}} & U B & \stackrel{p}{\longrightarrow} & Q
 }$$ 
 
-(the first two vertical arrows being algebra structure maps) is a coequalizer in $\mathbf{C}^T$. The last vertical arrow making the diagram commute gives $Q$ a $T$-algebra structure, and the split coequalizer in the bottom row is thereby reflected in $\mathbf{C}^T$. 
+(the first two vertical arrows being algebra structure maps) is a coequalizer in $\mathbf{C}^T$. The last vertical arrow making the diagram commute gives $Q$ a $T$-algebra structure, and the split coequalizer in the bottom row is thereby reflected in $\mathbf{C}^T$ (i.e., lifts to a coequalizer in $\mathbf{C}^T$, albeit not necessarily to one that is itself split). 
 =-- 
 
 
