@@ -17,7 +17,7 @@
 ## Idea
  {#Idea}
 
-There are many systems of _[[formal logic]]_. By "classical logic" one broadly refers to those such systems which reflect the kind of logic as understood, quite literally, by the classics, say starting with [[Aristotelian logic]]. If you have never heard of any alternative system of logic, then classical logic is just the kind of logic that you do have heard about.
+There are many systems of _[[formal logic]]_. By "classical logic" one broadly refers to those such systems which reflect the kind of logic as understood, quite literally, by the classics, say starting with [[Aristotelian logic]]. If you have never heard of any alternative system of logic, then classical logic is just the kind of logic that you have heard about.
 
 There is some variance in what exactly counts as classical and as non-classical in [[logic]], but one main characteristic of classical logic is its use of the _[[principle of excluded middle]]_. This says that every [[proposition]] is either [[true]] or [[false]].
 
@@ -31,11 +31,11 @@ Evident as this may superficially seem, it has the noteworthy consequence that o
 
 This "non-constructive" nature of classical logic eventually led people to consider alternative and hence _non-classical_
 systems of logic, such as [[constructive logic]]/[[intuitionistic logic]], where the [[principle of excluded middle]],
-and possibly other principle of classical logic, are not considered by default.
+and possibly other principle of classical logic, are not considered by default.  Other considerations such as the [[internal logic]] of categories also led to constructive/intuitionistic logics.  More recently, other "nonclassical" logics such as [[linear logic]], [[paraconsistent logic]], [[relevance logic]], [[quantum logic]], and so on have also gained prominence.
 
 There are other principles that are often associated with classical logic, which still seemed self-evident at a time,
 but maybe less so than the principle of excluded middle. One such is the _[[axiom of choice]]_ or one of its
-equivalent incarnations, such as [[Zorn's lemma]]. The presently most popular formal [[foundation of mathematics]] via the [[set theory]], called _[[ZFC]]_, embodies both the [[principle of excluded middle]] as well as the [[axiom of choice]]. In this form classical logic serves as the foundation for _[[classical mathematics]]_. 
+equivalent incarnations, such as [[Zorn's lemma]]. The presently most popular formal [[foundation of mathematics]] via the [[set theory]], called _[[ZFC]]_, includes both the [[principle of excluded middle]] as well as the [[axiom of choice]]. In this form classical logic serves as the foundation for _[[classical mathematics]]_. 
 
 
 ## Details
@@ -46,7 +46,7 @@ Classical logic is the form of [[logic]] usually accepted and taught as standard
 * the [[structural rule]]s of weakening, contraction, and (where meaningful) exchange;
 * an involutory [[negation]].
 
-In contrast, [[minimal logic|minimal]], [[intuitionistic logic|intuitionistic]], and (some forms of) [[paraconsistent logic|paraconsistent]] logics have the distributive lattice and the structural rules but no involutory negation.  On the other hand, [[linear logic]] and (other forms of) paraconsistent logic have the distributive lattice and the involutory negation but lack some structural rules.  Then again, [[quantum logic]] and (yet other forms of) paraconsistent logic have the structural rules and the involutory negation but lack the distributive lattice. 
+In contrast, [[minimal logic|minimal]], [[intuitionistic logic|intuitionistic]], and (some forms of) [[paraconsistent logic|paraconsistent]] logics have the distributive lattice and the structural rules but no involutory negation.  On the other hand, [[linear logic]] (at least, "classical" linear logic) and (other forms of) paraconsistent logic have logical operations with at least some distributive properties and an involutory negation, but lack some structural rules.  Then again, [[quantum logic]] and (yet other forms of) paraconsistent logic have the structural rules and the involutory negation, but lack any sort of distributivity.
 
 In [[category theory]] (and in the [[foundations]] of mathematics generally), it is intuitionistic logic that is most often contrasted to classical logic; the difference is given by the law of [[excluded middle]], which holds classically but not intuitionistically.
 
@@ -78,4 +78,7 @@ and in fact the different types of propositional logic are usually conveniently 
 
 ## Related concepts
 
+* [[logic]]
+* [[classical mathematics]]
+* [[constructive logic]] / [[intuitionistic logic]]
 * [[material set theory]]
