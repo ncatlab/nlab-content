@@ -107,7 +107,7 @@ The result is that the set $\pi_n(X,x)$ of equivalence classes is an abelian gro
 +-- {: .num_prop}
 ###### Proposition
 
-If $X$ is [[connected space|path-connected]], then all of the $\pi_n(X,a)$ are [[iomomorphism|isomorphic]].  Accordingly, it\'s traditional to just write $\pi_n(X)$ in that case.  (This is why we must use $\Pi_n(X)$ for the homotopy $n$-groupoid.)  However, there may be many different isomorphisms between $\pi_n(X,a)$ and $\pi_n(X,b)$ (given by $\pi_{n+1}(X)$), so a more careful treatment requires keeping track of the basepoint even in the connected case.
+If $X$ is [[connected space|path-connected]], then all of the $\pi_n(X,a)$ are [[isomorphism|isomorphic]].  Accordingly, it\'s traditional to just write $\pi_n(X)$ in that case.  (This is why we must use $\Pi_n(X)$ for the homotopy $n$-groupoid.)  However, there may be many different isomorphisms between $\pi_n(X,a)$ and $\pi_n(X,b)$ (given by $\pi_{n+1}(X)$), so a more careful treatment requires keeping track of the basepoint even in the connected case.
 
 =--
 
