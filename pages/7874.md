@@ -119,6 +119,7 @@ An alternative construction using the [[derived algebraic geometry]] of the [[mo
 
 * [[Jacob Lurie]], section 5.3 of _[[A Survey of Elliptic Cohomology]]_
 
+In fact the construction there is a refinement of the orientation of just $tmf$ to one of all $E_\infty$-rings $A$ carrying a [[derived elliptic curve]] $E \to Spec(A)$.
 
 Discussion in relation to the [[twisted cohomology|twists]] of [[tmf]]-cohomology is in 
 
