@@ -292,6 +292,9 @@ The M5 was first found as a [[black brane]] of [[11-dimensional supergravity]] (
 
 * {#Gueven92} [[Rahmi Gueven]], _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49 and in [[Mike Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 135-141 ([spire](http://inspirehep.net/record/338203?ln=en))
 
+That this metric, as well as that of every black $p$ brane for _odd_ $p$, is completely non-singular was observed in 
+
+* [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], p. 15 of _Higher-dimensional resolution of dilatonic black hole singularities_, Class.Quant.Grav.12:297-318,1995 ([arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073))
 
 ### $\sigma$-Model description
  {#ReferencesSigmaModelDescription}
