@@ -1,102 +1,23 @@
-
-
-
-+-- {: .num_prop #EETwoLeftModuleStructures}
-###### Proposition
-
-For $(E, \mu, e)$ a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}), then by prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum} $E_\bullet(E)$ is canonically both a left $\pi_\bullet(E)$-module as well as a right $\pi_\bullet(E)$-module. Since $E$ is a [[commutative monoid]], this right module structure may equivalently be regarded as a left-module, too. Then the [[braiding]]
-
-$$
-  E_\bullet(E)
-   \simeq
-  \pi_\bullet(E \wedge E)
-    \overset{\pi_\bullet(\tau_{E,E})}{\longrightarrow}
-  \pi_\bullet(E \wedge E)
-    \simeq
-  E_\bullet(E)
-$$
-
-constitutes module isomorphism (def. \ref{ModulesInMonoidalCategory}) between these two left module structures.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-On representatives as in the proof of prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}, the original left action is given by (we are notationally suppressing [[associators]] throughout)
-
-$$
-  E \wedge E \wedge E
-   \overset{\mu \wedge id}{\longrightarrow}
-  E \wedge E
-  \,,
-$$
-
-while the other left action, induced from the canonical right action, is given by
-
-$$
-  E \wedge E \wedge E
-    \underoverset{\simeq}{\tau_{E, E \wedge E}}{\longrightarrow}
-  E \wedge E \wedge E
-    \overset{id \wedge \mu}{\longrightarrow}
-  E \wedge
-  \,.
-$$
-
-So in order that $\tau_{E,E}$ represents a module homomorphism under $\pi_\bullet(-)$, it is sufficient that the following diagram commutes (we write $E_i \coloneqq E$ for $i \in \{1,2,3\}$ to make the action of the [[braiding]] more manifest)
-
-$$
-  \array{
-    E_1 \wedge E_2 \wedge E_3 
-      &\overset{id \wedge \tau_{E_2,E_3}}{\longrightarrow}&
-    E_1 \wedge E_3 \wedge E_2
-    \\
-    {}^{\mathllap{id}}\downarrow
-      &&
-    \downarrow^{\mathrlap{\tau_{E_1, E_3 \wedge E_2}}}
-    \\
-      &&
-    E_3 \wedge E_2 \wedge E_1
-    \\
-    {}^{\mathllap{\mu \wedge id}}\downarrow
-      &&
-    \downarrow^{\mathrlap{id \wedge \mu}}
-    \\
-    E \wedge E_3 
-     &\underset{\tau_{E,E_3}}{\longrightarrow}&
-    E_3 \wedge E
-  }
-  \,.
-$$
-
-But since $(E,\mu,e)$ is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}), it satisfies $\mu = \mu \circ \tau$ so that we may factor this diagram as follows:
-
-$$
-  \array{
-    E_1 \wedge E_2 \wedge E_3 
-      &\overset{id \wedge \tau_{E_2,E_3}}{\longrightarrow}&
-    E_1 \wedge E_3 \wedge E_2
-    \\
-    {}^{\mathllap{\tau_{E_1, E_2} \wedge id}}\downarrow
-      &&
-    \downarrow^{\mathrlap{\tau_{E_1, E_3 \wedge E_2}}}
-    \\
-    E_2 \wedge E_1 \wedge E_3
-      &\overset{\tau_{E_2 \wedge E_1, E_3}}{\longrightarrow}&
-    E_3 \wedge E_2 \wedge E_1
-    \\
-    {}^{\mathllap{\mu \wedge id}}\downarrow
-      &&
-    \downarrow^{\mathrlap{id \wedge \mu}}
-    \\
-    E \wedge E_3 
-     &\underset{\tau_{E,E_3}}{\longrightarrow}&
-    E_3 \wedge E
-  }
-  \,.
-$$
-
-Here the top square commutes by [[coherence theorem for symmetric monoidal categories|coherence]] of the braiding (remark \ref{SymmetricMonoidalCategoriesCoherenceTheorem}) since both composite morphisms correspond to the same [[permutation]], while the bottom square commutesm due to the [[natural transformation|naturality]] of the braiding. Hence the total rectangle commutes.
-
-=--
-
+ $$
+   \array{
+     \Gamma \otimes A \otimes \Gamma
+         &
+          \underoverset
+             {\longrightarrow}
+              {\longrightarrow}
+              {}
+            &
+          \Gamma \otimes \Gamma
+             &
+             \overset{coeq}{\longrightarrow}
+             &
+          \Gamma \otimes_A \Gamma
+           \\
+           &&
+           {}^{\mathllap{(-)\cdot c(-)}}\downarrow 
+           & 
+            \searrow_{\mathrlap{\alpha}}
+           \\
+           && \Gamma
+        }
+      $$
