@@ -478,7 +478,7 @@ Various notions of [[cohomology groups]] in the context of [[algebra]] can be ex
 
   is the [[Hochschild cohomology]] of $A$ with [[coefficients]] in $N$.
 
-* For $\mathfrak{g}$ a [[Lie algebra]] with [[universal enveloping algebra]] $\mathcal{U}(\mathcal{g})$ and $N$ a Lie algebra module, hence an $\mathcal{U}(\mathfrak{g})$-module, the [[Lie algebra cohomology]] of $\mathfrak{g}$ with [[coefficients]] in $N$ is
+* For $\mathfrak{g}$ a [[Lie algebra]] with [[universal enveloping algebra]] $\mathcal{U}(\mathfrak{g})$ and $N$ a Lie algebra module, hence an $\mathcal{U}(\mathfrak{g})$-module, the [[Lie algebra cohomology]] of $\mathfrak{g}$ with [[coefficients]] in $N$ is
 
   $$
     Ext^\bullet_{\mathcal{U}(\mathfrak{g}) Mod}(\mathcal{U}(\mathfrak{g}), N)
@@ -522,7 +522,7 @@ as well as
 
 Original articles include
 
-* [[Saunders MacLane]], _Group Extensions by primary abelian groups_, ransactions of the American Mathematical Society
+* [[Saunders MacLane]], _Group Extensions by primary abelian groups_, Transactions of the American Mathematical Society
 Vol. 95, No. 1 (Apr., 1960), pp. 1-16 ([JSTOR]( http://www.jstor.org/stable/1993327))
 
 See also
