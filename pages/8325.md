@@ -96,6 +96,8 @@ but
 
 * _[[Phenomenology of Spirit]]_
 
+* _[[Lectures on the History of Philosophy]]_
+
 * _[[Lectures on the Philosophy of History]]_
 
 * _[[Lectures on the Philosophy of Religion]]_
