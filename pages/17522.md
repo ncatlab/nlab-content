@@ -83,7 +83,30 @@ $$
 
 =--
 
+## Examples
 
++-- {: .num_prop #FinitrRankBundleHomomorphismIsSectionOfTensorProductWithDual}
+###### Proposition
+
+Let $X$ be a [[topological space]] and let $E_i \overset{p_i}{\to} X$ be a two [[topological vector bundles]] over $X$, of [[finite number|finite]] [[rank of a vector bundle]]. Then a [[homomorphism]] of vector bundles
+
+$$
+  f \;\colon\; E_1 \rightarrow E_2
+$$
+
+is equivalently a [[section]] of the tensor product of $E_2$ with the [[dual vector bundle]] of $E_1$:
+
+
+$$
+  Hom_{Vect(X)}(E_1, E_2)
+   \;\simeq\;
+  \Gamma_X( E_1^\ast \otimes_X E_2)
+  \,.
+$$
+
+Moreover, this section is a trivializing section ([this example](topological+vector+bundle#FiberwiseLinearlyIndependentSectionsTrivialize)) precisely if the corresponding morphism is an [[isomorphism]].
+
+=--
 
 
 ## Related concepts
