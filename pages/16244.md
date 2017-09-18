@@ -1,0 +1,11 @@
+
+
+* [webpage](http://www.muni.cz/sci/people/233932)
+
+## related $n$Lab entries
+
+* [[supergravity]]
+
+* [[Starobinsky model of cosmic inflation]]
+
+category: people
