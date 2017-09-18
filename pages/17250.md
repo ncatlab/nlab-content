@@ -24,7 +24,7 @@
 
 [^ref]: _The whale is no door_. Hegel ([1808/09](#Logik),p.108)
 
-An **infinite judgement**, also called a delimitative or indeterminate judgment, is a type of judgement in traditional logic that differs from a positive judgement by containing a negation operator and from a negative judgement by negating only the predicate term.
+An **infinite judgement**, also called a delimitative or indeterminate judgment, is a type of [[judgement]] in traditional logic that differs from a positive judgement by containing a negation operator and from a negative judgement by negating only the predicate term.
 
 Infinite judgements enjoy a rather controversial status in traditional logic but have gained importance by being elevated to third position among the qualities of judgement in the table of judgement forms in Kant's _Kritik der reinen Vernunft_ (1781). 
 
@@ -142,3 +142,8 @@ H. Lotze in his influential logic assesses infinite judgements negatively callin
 * N. Stang, _Kant on Complete Determination and Infinite Judgement_ , Brit. J. Hist. Phil. **20** no. 6 (2012) pp.1117-1139.
 
 * G. Wohlfahrt, _Das unendliche Urteil. Zur Interpretation eines Kapitels aus Hegels 'Wissenschaft der Logik'_ , Z. Phil. Forschung **39** no.1 (1985) pp.85-100.
+
+[[!redirects infinite judgements]]
+
+[[!redirects infinite judgment]]
+[[!redirects infinite judgments]]
