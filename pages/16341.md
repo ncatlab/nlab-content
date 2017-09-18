@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Generalizing the classical notion of [[monoid]], one can define a _monoid_ (or _monoid object_) in any [[monoidal category]] $(C,\otimes,I)$.
