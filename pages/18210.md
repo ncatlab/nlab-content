@@ -4,7 +4,7 @@
 
 ## Statement and proof 
 
-There are a number of categorically-flavored ways of characterizing [[compact spaces]]; for example, as [[relational beta-modules]] $X$ where the beta-module structure $\xi: \beta(X) \nrightarrow X$ is an [[entire relation]] (satisfies $1_{\beta(X)} \leq \xi^\circ \xi$). One of the more useful characterizations, as emphasized by [[Walter Tholen]], is given by the following elementary statement: 
+There are a number of categorically-flavored ways of characterizing [[compact spaces]]; for example, as [[relational beta-modules]] $X$ where the beta-module structure $\xi: \beta(X) \nrightarrow X$ is an [[entire relation]] (satisfies $1_{\beta(X)} \leq \xi^\circ \xi$). One of the more useful characterizations, as emphasized by [[Walter Tholen]], is given by the following elementary statement (also one of the definitions listed in [[compact space]]): 
 
 +-- {: .num_theorem #char} 
 ###### Theorem 
@@ -38,18 +38,18 @@ If $X$ is a space with the property that the projection $\pi: Y \times X \to Y$ 
 
 +-- {: .proof} 
 ###### Proof 
-Given a space $X$ satisfying this property, let $(C_i)_{i \in I}$ be any collection of closed sets of $X$ having the finite intersection property, that any intersection of finitely many $C_i$ is [[inhabited set|inhabited]]. Compactness of $X$ will follow if we can show $\bigcap_{i \in I} C_i$ is inhabited. 
+Given a space $X$ satisfying this property, let $(C_i)_{i \in I}$ be any collection of closed sets of $X$ having the [[finite intersection property]], that any intersection of finitely many $C_i$ is [[inhabited set|inhabited]]. Compactness of $X$ will follow if we can show $\bigcap_{i \in I} C_i$ is inhabited. 
 
-Given that collection, construct a space $Y$ whose underlying set is formed by adjoining a point $\infty$ to the underlying set of $X$ (let us write $Y = X \cup \{\infty\}$ by abuse of language), and topologized by taking subbasis elements to consist of any subset of $X$ and any subset of the form $C_i \cup \{\infty\}$. Let $K \subseteq Y \times X$ be the closure of the set $\Delta = \{(x, x): x \in X\}$. By hypothesis, $\pi(K)$ is closed in $Y$, and contains $X$. But it must also contain $\infty$ because the finite intersection property of the collection $(C_i)$ guarantees that $\infty$ is not an open point of $Y$. It follows that $K$ contains a point of the form $(\infty, x)$. 
+Given that collection, construct a space $Y$ whose underlying set is formed by adjoining a point $\infty$ to the underlying set of $X$ (let us write $Y = X \sqcup \{\infty\}$ by abuse of language -- we are forgetting the topology on $X$), and topologized by taking subbasis elements to consist of any subset of $X$ and any subset of the form $C_i \cup \{\infty\}$. (Thus we are embedding the "discretification" of $X$ in a larger space $Y$.) Let $K \subseteq Y \times X$ be the closure of the set $\Delta = \{(x, x): x \in X\}$. By hypothesis, $\pi(K)$ is closed in $Y$, and contains $X$. But it must also contain $\infty$ because the finite intersection property of the collection $(C_i)$ guarantees that $\infty$ is not an open point of $Y$. It follows that $K$ contains a point of the form $(\infty, x)$. 
 
 This means that every neighborhood $(C_i \cup \{\infty\}) \times U$ of $(\infty, x)$ intersects the diagonal $\Delta$ in an inhabited set. In other words, $C_i \cap U$ is inhabited. But this means that $x \in C_i$ for every $i$, for if $x \notin C_i$ for some $i$, then by closure of $C_i$ we could find an open neighborhood $U$ of $x$ such that $C_i \cap U = \emptyset$. Hence $x \in \bigcap_{i \in I} C_i$, making this intersection nonempty, as required. 
 =-- 
 
-(Note: I learned of this proof during an email exchange with [[Tom Leinster]], who in turn learned it from Ioan James.)
+(Note: I learned of this proof during an email exchange with [[Tom Leinster]], who in turn learned it from [[Ioan James]].)
 
 ## Tychonoff theorem 
 
-It has been observed that the closed-projection formulation of compactness allows a fairly efficient proof of the [[Tychonoff theorem]]. First a very routine lemma. 
+It has been observed by [Clementino and Tholen](#CT1996) that the closed-projection formulation of compactness allows a fairly efficient proof of the [[Tychonoff theorem]]. First a very routine lemma. 
 
 +-- {: .num_lemma} 
 ###### Lemma 
@@ -100,4 +100,4 @@ where the inclusion indicated as $\subseteq$ just results from continuity of $\p
 
 ## References 
 
-* [[Maria Manuel Clementino]] and [[Walter Tholen]], *Tychonoff's theorem in a category*, Proc. Amer. Math. Soc., Vol. 124 No. 11 (Nov. 1996), 3311-3314. ([pdf](http://www.ams.org/journals/proc/1996-124-11/S0002-9939-96-03435-1/S0002-9939-96-03435-1.pdf))
+* {#CT1996} [[Maria Manuel Clementino]] and [[Walter Tholen]], *Tychonoff's theorem in a category*, Proc. Amer. Math. Soc., Vol. 124 No. 11 (Nov. 1996), 3311-3314. ([pdf](http://www.ams.org/journals/proc/1996-124-11/S0002-9939-96-03435-1/S0002-9939-96-03435-1.pdf))
