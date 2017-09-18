@@ -54,8 +54,19 @@ Our _pro tem_ decision to define the word "atomic" in the manner above is consis
 
 ## Examples
 
-The [[singleton subsets]] are the atoms in a [[power set]].  Every power set is atomic, and in fact every atomic [[complete boolean algebra]] is (up to [[isomorphism]]) a power set.
++-- {: .num_example}
+###### Example
 
+In a [[power set]] the atoms are the [[singleton subsets]].  Every power set is atomic, and in fact every atomic [[complete boolean algebra]] is (up to [[isomorphism]]) a power set.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+In a [[lattice of subtoposes]] the atoms are the 2-valued [[Boolean toposes]]. See [this proposition](subtopos#BooleantoposesAreAtoms).
+
+=--
 
 ## Properties
 
