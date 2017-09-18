@@ -49,7 +49,9 @@ The term became fully established with surveys including
 
 * [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
+See also
 
+* [[Michael Duff]], _[[The World in Eleven Dimensions]]_, 1999
 
 category: references
 
