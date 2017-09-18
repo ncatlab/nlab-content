@@ -1,11 +1,13 @@
 
 
-|  | local model [[space]] |     global [[geometry]]  |  [[differential cohomology]]  |  [[first order formulation of gravity]] |
-|--|-----------------------|--------------------------|-------------------------------|--------------|
-| general |  [[Klein geometry]]    |    [[Cartan geometry]]  | [[Cartan connection]] |      |
-| examples | [[Euclidean geometry]] | [[Riemannian geometry]]  |  [[affine connection]]  | [[Euclidean gravity]]     | 
-|  | [[Lorentzian geometry]]| [[pseudo-Riemannian geometry]] | [[spin connection]] | [[Einstein gravity]] |
-|          |  [[super Minkowski spacetime|Lorentzian supergeomety]] |  [[supergeometry]]  | [[superconnection]]  | [[supergravity]] |
-| general | [[Klein 2-geometry]]       |   [[Cartan 2-geometry]] |   |      |
-|  | [[higher Klein geometry]]  |   [[higher Cartan geometry]] | [[higher Cartan connection]]  |   |
-| examples | [[extended superspacetime|extended super Minkowski spacetime]] |  extended supergeometry  |    | [[higher gauge theory|higher]] [[supergravity]]: [[type II supergravity|type II]], [[heterotic supergravity|heterotic]], [[11-dimensional supergravity|11d]] |  
+|  | [[gauge group]] | [[stabilizer subgroup]] | local model [[space]] | local [[geometry]] |   global [[geometry]]  |  [[differential cohomology]]  |  [[first order formulation of gravity]] |
+|--|---|---|--|-----------------------|--------------------------|-------------------------------|--------------|
+| general | [[Lie group]]/[[algebraic group]] $G$ | [[subgroup]] ([[monomorphism]]) $H \hookrightarrow G$ | [[quotient]] ("[[coset space]]") $G/H$ | [[Klein geometry]]    |    [[Cartan geometry]]  | [[Cartan connection]] |      |
+| examples | [[Euclidean group]] $Iso(n)$ | [[rotation group]] $SO(n)$ | [[Cartesian space]] $\mathbb{R}^n$ | [[Euclidean geometry]] | [[Riemannian geometry]]  |  [[affine connection]]  | [[Euclidean gravity]]     | 
+|  | [[Poincaré group]] $Iso(n-1,1)$ | [[Lorentz group]] | [[Minkowski space]] $\mathbb{R}^{n-1,1}$  | [[Lorentzian geometry]]| [[pseudo-Riemannian geometry]] | [[spin connection]] | [[Einstein gravity]] |
+|       | [[super Poincaré group]]  | [[spin group]] | [[super Minkowski spacetime]] $\mathbb{R}^{n-1,1\vertN$ | Lorentzian [[supergeometry]] |  [[supergeometry]]  | [[superconnection]]  | [[supergravity]] |
+|       | [[linear algebraic group]] | [[parabolic subgroup]]/[[Borel subgroup]] | [[flag variety]] | [[parabolic geometry]] |  |  |  | 
+|       | orthochronous [[Lorentz group]] |  |   | [[conformal geometry]] |  | [[conformal connection]] | [[conformal gravity]] | 
+| general | [[smooth 2-group]] $G$ | [[2-monomorphism]] $H \to G$ | [[homotopy quotient]] $G//H$    | [[Klein 2-geometry]]   |    [[Cartan 2-geometry]] |   |      |
+|  | [[cohesive]] [[∞-group]] | [[n-monomorphism|∞-monomorphism]] (i.e. any [[homomorphism]]) $H \to G$  | [[homotopy quotient]] $G//H$ of [[∞-action]]  | [[higher Klein geometry]]  |    [[higher Cartan geometry]] | [[higher Cartan connection]]  |   |
+| examples |  | | [[extended superspacetime|extended super Minkowski spacetime]] |  | extended supergeometry  |    | [[higher gauge theory|higher]] [[supergravity]]: [[type II supergravity|type II]], [[heterotic supergravity|heterotic]], [[11-dimensional supergravity|11d]] |  
