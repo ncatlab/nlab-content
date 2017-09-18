@@ -22,7 +22,13 @@ Sometimes more generally, exceptional geometry is understod to study [[spaces]] 
 
 ## Related concepts
 
-* [[exceptional Lie group]], [[exceptional generalized geometry]]
+* [[exceptional Lie group]]
+
+* [[exceptional generalized geometry]]
+
+* [[exceptional field theory]]
+
+* [[universal exceptionalism]]
 
 ## References
 
