@@ -97,6 +97,10 @@ $$
 * The [[homotopy fiber]] can be constructed as the strict [[fiber]] of the mapping cocylinder.
 
 
+## Related concepts
+
+[[!include universal constructions of topological spaces -- table]]
+
 
 ## References
 
