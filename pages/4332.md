@@ -78,13 +78,13 @@ $$
 
 This structure exhibits a [[characteristic class]] of $G$-gauge theory (namely the class that classifies the [[group extension]]). The nontriviality of this class measures the failure of $G$-gauge theory to lift to $\hat G$-gauge theory.
 
-A famous example of this in [[string theory]] comes from the case where $\hat G \to G$ is the projection $U(n) \to PU(n)$ from the [[unitary group]] to the [[projective unitary group]]. In this case a configuration of $PU(n)$-gauge theory is a [[twisted bundle]] representing a class in [[twisted K-theory]] as it appears on the worldvolume of [[D-brane]]s. The corresponding higher $\mathbf{B}U(1)$-gauge theory condiguration is the [[Kalb-Ramond field]]([[B-field]]) restricted to the brane, which is the _twist_ that twists the bundle and prevents it from being a configuration in genuine $U(n)$-gauge theory.
+A famous example of this in [[string theory]] comes from the case where $\hat G \to G$ is the projection $U(n) \to PU(n)$ from the [[unitary group]] to the [[projective unitary group]]. In this case a configuration of $PU(n)$-gauge theory is a [[twisted bundle]] representing a class in [[twisted K-theory]] as it appears on the worldvolume of [[D-brane]]s. The corresponding higher $\mathbf{B}U(1)$-gauge theory configuration is the [[Kalb-Ramond field]]([[B-field]]) restricted to the brane, which is the _twist_ that twists the bundle and prevents it from being a configuration in genuine $U(n)$-gauge theory.
 
 
 ## Examples
  {#Examples}
 
-We list examples of local gauge groups and -[[∞-groups]] for various higher [[gauge theories]].
+We list examples of local gauge groups and [[∞-groups]] for various higher [[gauge theories]].
 
 * the gauge group of $G$-[[Yang-Mills theory]] is the given [[Lie group]] $G$; for the Yang-Mills theory appearing in the [[standard model of particle physics]] this is the [[unitary group]] $U(3) \times SU(2) \times U(1)$;
 
