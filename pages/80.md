@@ -62,6 +62,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 * [[logos (in philosophy)]], [[Nous]]
 
+* [[speculative philosophy]]
+
 * [[metaphysics]]
 
 * [[hermeticism]], [[mysticism]], [[gnosticism]]
