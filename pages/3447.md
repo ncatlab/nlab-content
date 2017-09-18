@@ -136,7 +136,7 @@ $$
   (\Pi_2\dashv LConst) : Op(X) \hookrightarrow Sh_{(3,1)}(X) \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Pi_2}{\to}} Grpd
 $$
 
-now with the [[path n-groupoid|path 2-groupoid]] operation (locally) left adjoint to forming constant 2-stacks. (Subjct verbatim to a remark as above.)
+now with the [[path n-groupoid|path 2-groupoid]] operation (locally) left adjoint to forming constant 2-stacks. (Subject verbatim to a remark as above.)
 
 
 ### Locally constant $\infty$-stacks on topological spaces {#ooStackOnTopSpace}
