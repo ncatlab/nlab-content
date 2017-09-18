@@ -15,8 +15,9 @@
 
 ## Idea
 
-A *partial map classifier* of an [[object]] $B$ in a [[category]] $\mathcal{C}$ is a [[representing object]] for [[partial maps]] with [[codomain]] $B$.
+A partial function $f:A\rightharpoonup B$ between two sets can be turned into a total function $\overline{f}:A\to B_\bot$ by adding a new element $\bot$ to $B$ and sending all $a\in A$ that are not in the domain of definition of $f$ to this new value $\bot$ = "undefined" and the rest just to their value under $f$. This works obviously for all partial functions into $B$ whence $B_\bot$ is a 'classifying object' for these.
 
+More generally, a **partial map classifier** of an [[object]] $B$ in a [[category]] $\mathcal{C}$ is a [[representing object]] for [[partial maps]] with [[codomain]] $B$.
 
 ## Definition
 
@@ -51,7 +52,17 @@ In [[type theory]] one uses the partiality [monad](monad+%28in+computer+science)
 It is clear that this idea can be generalized to other classes of propositions.
 =--
 
+## Properties
+
+* In a topos, the partial map classifier $B_\bot$ of $B$ is [[injective object|injective]]. The canonical embedding $B\rightarrowtail B_\bot$ shows accordingly that a topos _has enough injectives_!
+
+* In a topos, the [[subobject classifier]] $true:1\rightarrow\Omega$ coincides with the monomorphism $\eta:1\rightarrowtail 1_\bot$.
+
+* In a topos, the assignment of $B_\bot$ to $B$ is functorial.
+
 ## References {#References}
+
+* [[Francis Borceux|F. Borceux]], _Handbook of Categorical Algebra - vol. 3_ , Cambridge UP 1994.  (sec.5.5)
 
 Section 1.2 of
 
