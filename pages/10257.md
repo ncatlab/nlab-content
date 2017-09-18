@@ -94,6 +94,13 @@ Accordingly the basic properties of complex [[spinor representations]] are the s
 
 * [[supersymmetry and division algebras]].
 
+
+## References
+
+For a list of proofs of Bott periodicity, see
+
+* _Proofs of Bott periodicity_, [MO](https://mathoverflow.net/q/8800/447)
+
 [[!redirects Bott periodicities]]
 
 [[!redirects Bott periodicity theorem]]
