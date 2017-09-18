@@ -1,0 +1,17 @@
+A [[topological space]] $X$ is **perfect** if it has no isolated points, i.e., if every point $x$ belongs to the topological [[closure operator|closure]] of its [[complement]] $X \setminus \{x\}$. 
+
+In a topological space $X$, a [[subset]] is said to be _perfect_ if it is [[closed set|closed]] in $X$ and perfect in its [[subspace topology]]. 
+
+## Related 
+
+See also 
+
+* [[limit point]] 
+
+* [[Polish space]] 
+
+* [[descriptive set theory]] 
+
+[[!redirects perfect set]] 
+[[!redirects perfect spaces]] 
+[[!redirects perfect sets]] 
