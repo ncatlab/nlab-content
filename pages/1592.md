@@ -133,11 +133,41 @@ This [[regular representation]] can be seen to arise by taking a [[category of e
 
 We describe now how the universal cover construction may be understood from the [[nPOV]], using concept from [[cohesive homotopy theory]].
 
- The basic idea is that the universal cover of a space $X$ is the (homotopy) fiber of the map $X\to \Pi_1(X)$ from $X$ to its [[fundamental groupoid]], regarded as a morphism of topological [[stacks]].  We can think of this as a way of precisely saying "make $\Pi_1$ trivial in a universal way."  There are at least two slightly different ways of making this precise in the language of $(\infty,1)$-toposes, depending on whether we view $X$ as a [[little topos]] or as an object of a [[big topos]].
+ The basic idea is that the universal cover of a space $X$ is the [[homotopy fiber]] of the canonical morphism
+
+$$
+  X \longrightarrow \Pi_1(X)
+$$ 
+
+from $X$ to its [[fundamental groupoid]], which exists if both objects are regarded as "[[topological ∞-groupoids]]"  We may think of this as a precise way of saying "make $\Pi_1(X)$ trivial in a universal way."  
+
+There are at least two slightly different ways of making this precise in the language of $(\infty,1)$-toposes, depending on whether we view $X$ as a [[little topos]] or as an object of a [[big topos]].
 
 ### In terms of big toposes
 
-In this section we work in the big [[(∞,1)-topos]] of sheaves on $TopBalls$, the [[site]] of topological [[balls]] with the [[good open cover]] [[coverage]].  We call objects of this $(\infty,1)$-topos "topological ∞-groupoids."
+Let $\mathcal{S}$ be some [[∞-cohesive site]] of [[spaces]] and consider $\mathbf{H} \coloneqq Sh_\infty(\mathcal{S})$ the corresponding [[cohesive (∞,1)-topos]] over this site. This is the [[(∞,1)-category]] of "[[topological ∞-groupoids]]" modeled on $\mathcal{S}$.
+
+A canonical choice relating to the traditional discussion would be $\mathcal{S} = Top^\kappa_{lcont}$ a [[small category|small]] [[full subcategory]] of [[Top]] on [[locally contractible topological spaces]], in which case the objects of $\\mathbf{H}$ might be called "[[locally contractible topological ∞-groupoids]]".
+
+A more restrictive choice would be $\mathcal{S} = $ [[CartSp]], in which case the objects of $\mathbf{H}$ might be called [[Euclidean-topological ∞-groupoids]].
+
+In fact for the discussion of just universal [[covering spaces]] as opposed to the higher stages in the [[Whitehead tower]] it would be sufficient and more natural to take $\mathcal{S}$ the full subcategory of [[locally simply connected topological spaces]] and consider just the [[(2,1)-category]] $\mathbf{H}$ of [[stacks]] over this site.  
+
+But the point is that the following discussion is completely formal and applies globally to all these realizations.
+
+Namely all we need is that 
+
++-- {: .num_defn #AssumptionOnH}
+###### Assumption
+
+1. $\mathbf{H}$ is a [[cohesive (∞,1)-topos|cohesive (n,1)-topos]] 
+
+1. such that its [[shape modality]] preserves [[homotopy fiber products]] over [[discrete objects]]. 
+
+=--
+
+This is implied for the case of $(\infty,1)$-toposes by the assumption of an [[∞-cohesive site]] and for $(n,1)$-toposes by an $n$-cohesive site (such as that of locally csimply-connected spaces for $n = 1$). 
+
 
 Now, to a topological space $X$ is associated the [[topological ∞-groupoid|topological groupoid]] $\Pi_1(X)$ -- its [[fundamental groupoid]]. With $X$ regarded as a [[discrete category|categorically discrete]] topological groupoid, there is a canonical morphism
 
@@ -304,7 +334,7 @@ Therefore, since $\widetilde{E}$ is trivialized over any 1-connected object, and
 
 ## Higher universal covering objects
 
-The [[nPOV]] discussion [above](#InCohesiveHomotopyTheory) lends lends itself to generalization from covering spaces to the whole [[Whitehead tower]]. See at _[[[[Whitehead tower in an (∞,1)-topos]]]]_.
+The [[nPOV]] discussion [above](#InCohesiveHomotopyTheory) lends lends itself to generalization from covering spaces to the whole [[Whitehead tower]]. See at _[[Whitehead tower in an (∞,1)-topos]]]_.
 
 
 > the following is probably redundant and should be removed
