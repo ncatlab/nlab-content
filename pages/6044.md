@@ -57,7 +57,7 @@ or equivalently
 
 $$ {\|x \times y\|} = {\|x\|} {\|y\|} {|\sin\angle(x,y)|} .$$
 
-(Using the [[polarization identity]] to express $x \cdot y$ in terms of $\|x\|$, $\|y\|$, and $\|x + y\|$, this is the double of Hero's Formula for the area of a triangle.)
+(Using the [[polarization identity]] to express $x \cdot y$ in terms of $\|x\|$, $\|y\|$, and either $\|x + y\|$ or $\|x - y\|$, this is the double of Hero's Formula for the area of a triangle.)
 
 We then have over the [[real numbers]]:
 
@@ -116,7 +116,9 @@ Then for an inner product space $V$ over $\mathbb{R}$ of finite dimension $n$, w
 
 ### Exterior products
 
-The cross product is also called 'outer product', and both of these terms are sometimes also used for the [[exterior product]].  In its most basic form, the exterior product of two vectors $u,v$ is a [[bivector]] $u \wedge v$.  In $3$ dimensions, given an inner product and an orientation, we can use the [[Hodge dual]] to turn this into a vector, and this is the classical cross product once more.  In $2$ dimensions, using the same structure, we can turn the bivector into a [[scalar]]; this is sometimes called the __scalar-valued cross product__ .  Using only the inner product but not the orientation, we get (respectively) a [[pseudovector]] (sometimes called an axial vector) or a [[pseudoscalar]]; this perspective is common in [[geometric algebra]].  (In general in dimension $n$, a bivector becomes an $(n-2)$-(pseudo)-vector, but this is not usually an simplification.)
+The cross product is also called 'outer product', and both of these terms are sometimes also used for the [[exterior product]].  In its most basic form, the exterior product of two vectors $u,v$ is a [[bivector]] $u \wedge v$.  In $3$ dimensions, given an inner product and an orientation, we can use the [[Hodge dual]] to turn this into a vector, and this is the classical cross product once more.  In $2$ dimensions, using the same structure, we can turn the bivector into a [[scalar]]; this is sometimes called the __scalar-valued cross product__.  Actually, the scalar-valued cross product $x \times y$ in $2$ dimensions is simply the dot product $x \cdot \times{y}$, where $\times{y}$ is the unary vector-valued cross product in $2$ dimensions.  (In a counterclockwise-oriented plane, it rotates a vector clockwise by a right angle.)
+
+Using only the inner product but not the orientation, we get (respectively) a [[pseudovector]] (sometimes called an axial vector) or a [[pseudoscalar]]; this perspective is common in [[geometric algebra]].  (In general in dimension $n$, a bivector becomes an $(n-2)$-(pseudo)-vector, but this is not usually an simplification.)
 
 In classical applications of the cross product, often not all of the structure is needed, and the exterior product is really the fundamental concept.
 
@@ -136,7 +138,7 @@ This vector field is the __curl__ of the original $(k-1)$-vector field.  This ju
 
 When $k = 2$ and $n = 3$, there is one smooth choice of cross product for each [[orientation]] of $M$, and we recover the classical notion of curl.
 
-When $k = 1$ and $n = 2$, we may also consider the scalar-valued curl, using the scalar-valued cross product described above.
+When $k = 1$ and $n = 2$, we may also consider the scalar-valued curl, using the scalar-valued cross product described above.  The scalar-valued curl of a vector field $X$ is the same as the [[divergence]] of the rotated vector field $\times{X}$ (using the unary vector-valued cross product in $2$ dimensions); that is, $\Del \times X = \Del \cdot \times{X}$.
 
 
 ## Related concepts
