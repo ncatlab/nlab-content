@@ -292,7 +292,7 @@ Discussion from the point of view of [[(∞,1)-category theory]] and [[E-∞ alg
 
 * [[Jacob Lurie]], _Rational and $p$-adic homotopy theory_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf))
 
-An extension of rational homotopy theory to describe non-simply connected spaces is given, using [[derived algebraic geometry]], in
+An extension of rational homotopy theory to describe (some) non-simply connected spaces is given, using [[derived algebraic geometry]], in
 
 * [[B. Toën]], _Champs affines_, Selecta Math. (N.S.) 12 (2006), no. 1, 39-135.
 
