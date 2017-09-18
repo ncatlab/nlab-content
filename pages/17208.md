@@ -155,7 +155,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Given homogenous coordinates $(z_0, z_1, \cdots, z_n, z_{n+1}, z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let 
+Given [[homogeneous coordinates]] $(z_0 :  z_1 :  \cdots :  z_n :  z_{n+1} :  z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let 
 
 $$
   \phi \coloneqq -arg(z_{n+2})
