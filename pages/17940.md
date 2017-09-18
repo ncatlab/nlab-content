@@ -1,2 +1,1 @@
-[[!redirects erumerated type]]
-empty 160
+category: empty
