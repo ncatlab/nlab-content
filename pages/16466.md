@@ -23,7 +23,7 @@
 
 ## Idea
 
-Deligne's theorem on tensor categories ([Deligne 02](#Deligne02)) establishes [[Tannaka duality]] between sufficiently well-behaved linear [[tensor categories]] in [[characteristic zero]] and [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
+Deligne's theorem on tensor categories ([Deligne 02](#Deligne02), recalled as theorem \ref{TheTheorem} below) establishes [[Tannaka duality]] between linear [[tensor categories]] in [[characteristic zero]] subject to mild size constraint, and [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
 
 ## Relevance
 
@@ -201,7 +201,7 @@ The super-[[representation category]] $Rep(G,\epsilon)$, def. \ref{Superrepresen
 
 ([Deligne 02, 1.21](#Deligne02))
 
-+-- {: .num_theorem}
++-- {: .num_theorem #TheTheorem}
 ###### Theorem
 
 Every regular $k$-tensor category $\mathcal{A}$, def. \ref{Regularity} is [[equivalence of categories|equivalent]] to one of the form $Rep(G,\epsilon)$, example \ref{RegularTensorCategoriesOfSuperrepresentations}, for some [[supergroup]] $G$.
