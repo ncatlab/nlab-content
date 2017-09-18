@@ -50,7 +50,7 @@ An _orthogonal spectrum_ $X$ consists of for each $n \in \mathbb{N}$
 
 such that for all $n,k \in \mathbb{N}$ with $k \geq 1$
 
-* the [[continuous functions]] $\sigma^k \colon X_n \wedge S^k \longrightarrow X_n \wedge S^k$ given as the [[compositions]]
+* the [[continuous functions]] $\sigma^k \colon X_n \wedge S^k \longrightarrow X_{n+k}$ given as the [[compositions]]
 
   $$
     \sigma^k \colon
