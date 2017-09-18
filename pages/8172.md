@@ -556,7 +556,54 @@ Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-A
 
 =--
 
+#### $E$-Adams spectral sequence
 
++-- {: .num_defn}
+###### Definition
+
+Given an $E$-Adams tower as in  def. \ref{EAdamsTower}, the associated [[exact couple]] is
+
+$$
+  \array{
+    \mathcal{D} && \stackrel{p}{\longrightarrow} &&  \mathcal{D}
+    \\
+    & {}_{\mathllap{\partial}}\nwarrow && \swarrow_{\mathrlap{\kappa}} 
+    \\
+    && \mathcal{E}    
+  }
+$$
+
+with 
+
+$$
+  \mathcal{D} \coloneqq
+  \oplus_{s,t} \mathcal{D}^{s,t}
+  \coloneqq
+  \oplus_{s,t} \pi_{t-s}(X_s)
+$$
+
+$$
+  \mathcal{E} \coloneqq 
+  \oplus_{s,t} \mathcal{E}^{s+1,t}
+  \coloneqq
+  \oplus_{s,t} \pi_{t-s}(\Omega^s I_{s+1})
+$$
+
+and
+
+$$
+  p \colon \pi_{t-s}(X_{s+1})\stackrel{\pi_{t-s}(p_s)}{\longrightarrow}
+   X_{t-s}(X_s)
+$$
+
+$$
+  \kappa \colon \pi_{t-s}(X_s)
+  \stackrel{\pi_{t-s}(\kappa_s)}{\longrightarrow} \pi_{t-s}(\Omega^s I_{s+1})
+$$
+
+...
+
+=--
 
 
 ### As derived descent in higher algebra
