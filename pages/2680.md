@@ -81,7 +81,7 @@ $$
 coincide.
 
 
-### comments on this definition 
+### Comments on this definition 
 
 
 At first, this formulation of Hamilton's mechanics is just that, an equivalent reformulation. 
@@ -121,4 +121,6 @@ $n$ vortices on the sphere as finite dimensional limit of 2D [[equation of motio
 
 Named after [[William Rowan Hamilton]].
 
+A motivation for formulating Hamiltonian mechanics in terms of symplectic manifolds can be found in
 
+ * Henry Cohn, _[Why symplectic geometry is the natural setting for classical mechanics ](http://math.mit.edu/~cohn/Thoughts/symplectic.html)_
