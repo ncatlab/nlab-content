@@ -1,0 +1,1 @@
+In a [[monoid]], an element $x$ is _irreducible_ if it is not the product $y z$ of two non-[[inverse|invertible]] elements. 
