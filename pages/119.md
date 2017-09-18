@@ -86,7 +86,7 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 ## References
 
-[[Cauchy completion]] or preorders is discussed in 
+[[Cauchy completion]] for preorders is discussed in 
 
 * {#Rosolini} G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
  
