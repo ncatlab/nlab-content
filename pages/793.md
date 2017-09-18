@@ -244,6 +244,8 @@ In some cases the passage to the [[Langlands dual group]] in the [[geometric Lan
 
   * [[topological T-duality]]
 
+    * [[spherical T-duality]]
+
   * [[differential T-duality]]
 
   * [[T-duality 2-group]]
