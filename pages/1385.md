@@ -50,7 +50,6 @@ Write $Pr(\infty,1)Cat_1$ for the [[sub-(∞,1)-category]] of the [[(∞,1)-cate
 * morphisms are [[(∞,1)-colimit]]-preserving [[(∞,1)-functors]].
 
 
-
 ### Stable version
 
 The symmetric monoidal structure on presentable $(\infty,1)$-categories restricts to one on presentable [[stable (∞,1)-category|stable (∞,1)-categories]].
@@ -64,8 +63,8 @@ The tensor unit of stable presentable $(\infty,1)$-categories is the [[stable (�
 
 A functor between locally presentable $(\infty,1)$-categories:
 
-* is a [[left adjoint]] if and only if it preserves small colimits, and
-* is a [[right adjoint]] if and only if it preserves small limits.
+* is a [[left adjoint]] if and only if it preserves small colimits (hence, in particular, is accessible), and
+* is a [[right adjoint]] if and only if it preserves small limits and is accessible.
 
 ### Hom-objects
 
@@ -78,9 +77,11 @@ $$
   Func^L(C,D) \subset Func(C,D)
 $$
 
-be the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that preserve all small [[(∞,1)-colimits]] (equivalently, are left adjoints).  In other words, it is just the hom-$(\infty,1)$-category of $Pr(\infty,1)Cat$, so we could as well denote it $Pr(\infty,1)Cat(C,D)$.
+be the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that preserve all small [[(∞,1)-colimits]] (equivalently, are left adjoints).
 
 =--
+
+Evidently $Func^L(C,D)$ would be the hom-$(\infty,1)$-category of an enhancement of $Pr(\infty,1)Cat$ to an $(\infty,2)$-category; its maximal sub-$\infty$-groupoid is the hom-$\infty$-groupoid $Pr(\infty,1)Cat(C,D)$.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -135,7 +136,7 @@ onto the full [[sub-(∞,1)-category]] of those functors, that preserves colimit
 
 This is  ([Lurie, NA, theorem 4.1.4](#LurieNoncommutative)).
 
-This tensor product makes $Pr(\infty,1)Cat$ a [[symmetric monoidal (∞,1)-category]].  Indeed it is even closed, since the hom-objects $Func^L$ supply adjoints to the tensor product.  The definition of the tensor product is easy: $C \otimes D = Func^R(C^{op},D)$, where $Func^R$ denotes the category of small-*limit*-preserving functors, i.e. right adjoints.  To prove this, note that taking right adjoints defines an equivalence of categories $Func^L(C,D) \simeq Func^R(D,C)^{op}$.  Now we have:
+This tensor product makes $Pr(\infty,1)Cat$ a [[symmetric monoidal (∞,1)-category]].  Indeed it is even closed, since the hom-objects $Func^L$ supply adjoints to the tensor product.  The definition of the tensor product is easy: $C \otimes D = Func^R(C^{op},D)$, where $Func^R$ denotes the category of small-*limit*-preserving accessible functors, i.e. right adjoints.  To prove this, note that taking right adjoints defines an equivalence of categories $Func^L(C,D) \simeq Func^R(D,C)^{op}$.  Now we have:
 
 $$
 \begin{aligned}
@@ -147,7 +148,7 @@ Func^L(Func^R(C^{op},D),E)
 \end{aligned}
 $$
 
-where the last equivalence uses the fact that a limit-preserving functor $A^{op} \to B^{op}$ is literally the same as a colimit-preserving functor $A\to B$ (but the natural transformations between them go in the other direction).  Of course, it requires proof that $Func^R(C^{op},D)$ is in fact locally presentable when $C$ and $D$ are.
+where the last equivalence uses the fact that a right adjoint $A^{op} \to B^{op}$ is literally the same as a left adjoint $A\to B$ (but the natural transformations between them go in the other direction).  Of course, it requires proof that $Func^R(C^{op},D)$ is in fact locally presentable when $C$ and $D$ are.
 
 ### Colimits
 
@@ -170,6 +171,8 @@ Func^L(\prod_i C_i, D)
 $$
 =--
 
+To be precise, the next result requires an enhancement of $Pr(\infty,1)Cat$ to an $(\infty,2)$-category so that we can talk about [[powers]] and [[copowers]] by small $(\infty,1)$-categories.  However, the proof gives an explicit universal property that makes sense without having to define that whole $(\infty,2)$-category.
+
 +--{: .num_prop}
 ###### Proposition
 The [[copower]] of $C\in Pr(\infty,1)Cat$ by a small $(\infty,1)$-category $A$ is $C^{A^{op}}$.
@@ -189,12 +192,12 @@ Func^L(C,D)^A
 $$
 =--
 
-In general, this sort of argument should work for all lax colimits of lax functors; for instance, [[Kleisli objects]] should also coincide with [[Eilenberg-Moore objects]] (though this requires enhancing $Pr(\infty,1)Cat$ to an $(\infty,2)$-category).  The corresponding 1-categorical fact is that in any [[bicategory]] with [[local colimits]] (colimits in each hom-category distributed over by composition), lax colimits of lax functors are also lax limits.
+In general, this sort of argument should work for all lax colimits of lax functors; for instance, [[Kleisli objects]] should also coincide with [[Eilenberg-Moore objects]] (though this also requires enhancing $Pr(\infty,1)Cat$ to an $(\infty,2)$-category).  The corresponding 1-categorical fact is that in any [[bicategory]] with [[local colimits]] (colimits in each hom-category distributed over by composition), lax colimits of lax functors are also lax limits.
 
 
 ## As $\infty$-vector spaces
 
-In some context it makes good sense to think of $Pr(\infty,1)Cat$ as a model for an $(\infty,1)$-category of "$\infty$-vector spaces", or at least "$\infty$-abelian groups".  For instance, the fact that $Pr(\infty,1)Cat$ has local colimits, making certain limits and colimits coincide, is a sort of categorification of the fact that of [[Vect]] and [[Ab]] are [[additive categories]] in which finite products and coproducts coincide.
+In some context it makes good sense to think of $Pr(\infty,1)Cat$ as a model for an $(\infty,1)$-category of "$\infty$-vector spaces", or at least "$\infty$-abelian groups".  For instance, the fact that the $(\infty,2)$-category $Pr(\infty,1)Cat$ has local colimits, making certain limits and colimits coincide, is a sort of categorification of the fact that of [[Vect]] and [[Ab]] are [[additive categories]] in which finite products and coproducts coincide.
 
 More on this analogy is at [[integral transforms on sheaves]].  Here a small $(\infty,1)$-category $S$ is to be thought of as a _basis_ and the locally presentable $(\infty,1)$-category $C \hookrightarrow PSh_{(\infty,1)}(C)$ as the $\infty$-vector space spanned by this basis. The colimits in $C$ play the role of addition of vectors and the fact that morphisms in $Pr(\infty,1)Cat$ are colimit-presserving means that they play  the role of _linear_ maps between vector spaces. This is described also at [[Lawvere distribution]].
 
