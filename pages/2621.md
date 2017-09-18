@@ -110,6 +110,11 @@ A solid mathematical formulation of perturbation theory has been given in
 ### On Divergence/Convergence and Non-perturbative effects
  {#ReferencesDivergenceConvergence}
 
+The argument that the perturbation series of realistic [[quantum field theories]] such as [[QED]] necessarily diverges goes back to 
+
+* {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum
+electrodynamics_, Phys. Rev. 85, 631 (1952)
+
 A general introduction on divergence of perturbation theory, asymptotic series and [[non-perturbative effects]] is for instance on the first pages of
 
 * [[Marcos Marino]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
