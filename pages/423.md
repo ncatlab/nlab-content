@@ -1,25 +1,26 @@
 
+
 {:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
+###Context###
 #### Topology
-+-- {: .hide}
++--{: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
+
 This page is about topology as a **field of [[mathematics]]**.  For topology as a **[[structured set|structure]]** on a [[set]], see _[[topological space]]_.
 
 ***
 
-
-# Contents
+#Contents#
 * table of contents
-{: toc}
+{:toc}
 
 ## Idea
 
@@ -249,7 +250,7 @@ $\,$ $\,$ _Pre-Images of open subsets are open._
 +-- {: .num_defn #ContinuousMaps}
 ###### Definition
 
-A _[[continuous function]]_ between [[topological spaces]] 
+A _[[continuous function]]_ between [[topological spaces]]
 
 $$
   f \colon (X, \tau_X) \to (Y, \tau_Y)
@@ -276,9 +277,19 @@ topology be closely related to [[formal logic]] (for more on this see at _[[loca
 ###### Remark
 **(the category of topological spaces)**
 
-The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]]. 
+The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]].
 
-One says that [[topological spaces]] form the [[objects]] of  a _[[category]]_, whose [[morphisms]] are the [[continuous maps]].
+One says that 
+
+1. [[topological spaces]] constitute the [[objects]] 
+
+1. [[continuous maps]] constitute the [[morphisms]] ([[homomorphisms]])
+
+of  a _[[category]]_. The _[[category of topological spaces]]_ ([[Top]] for short).
+
+It is useful to depict collections of [[objects]] with [[morphisms]] between them
+
+by [[diagrams]], like this one:
 
 
 <img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
@@ -349,9 +360,9 @@ is open in $X$.
 <img src="https://ncatlab.org/nlab/files/QuotientOfSquareIsCylinderAndTorus.png" width="660">
 
 
-The above picture shows on the left the [[square]] (a [[topological subspace]] of the [[plane]]), 
+The above picture shows on the left the [[square]] (a [[topological subspace]] of the [[plane]]),
 then in the middle the resulting [[quotient topological space]] obtained by
-identifying two opposite sides (the _[[cylinder]]_), and on the right the further quotient obtained by 
+identifying two opposite sides (the _[[cylinder]]_), and on the right the further quotient obtained by
 identifying the remaining sides (the _[[torus]]_):
 
 
