@@ -30,10 +30,15 @@ A topological space $X$ is called **cocompact** if there is a cospace $^*X$ of $
 
 ## Properties
 
-A metrizable space is [[topologically complete space|topologically complete]] if and only if it is cocompact.
+Every cocompact [[regular space]] is a [[Baire space]]. A metrizable space is [[topologically complete space|topologically complete]] if and only if it is cocompact.
+
+A space that admits only Hausdorff cospaces is equivalently an H-closed space, i.e. it (is Hausdorff and) is not a proper dense subspace of another space.
 
 ## References
 
-* Aarts, de Groot, McDowell, _Cotopology for metrizable spaces_, Duke Mathematical Journal 1970, vol. 37.
+* Aarts, de Groot, McDowell, _Cotopology for metrizable spaces_ 1970, Duke Mathematical Journal vol. 37.
+
+* G. E. Strecker and G. Viglino, _Cotopology and Minimal Hausdorff Spaces_ 1969,  Proceedings of the American Mathematical Society
+Vol. 21 No. 3.
 
 [[!redirects compact space]]
