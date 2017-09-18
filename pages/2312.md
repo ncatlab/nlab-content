@@ -222,7 +222,7 @@ A proof of prop. \ref{AHSSForMultiplicativeCohomologyTheoryIsMultiplicative} via
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #LinearityOfDifferentialsInSerreAHSSForMultiplicativeCohomologyTheory}
 ###### Proposition
 
 Given a multiplicative cohomology theory $(A,\mu,1)$ (def. \ref{MultiplicativeCohomologyTheory}), then for every [[Serre fibration]] $X \to B$ all the differentials in the corresponding [[Atiyah-Hirzebruch spectral sequence]]
