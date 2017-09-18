@@ -1,15 +1,10 @@
-[[!redirects differentiable (infinity,1)-category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Category theory
+#### Goodwillie calculus
 +--{: .hide}
-[[!include quasi-category theory contents]]
-=--
-#### Stable Homotopy theory
-+--{: .hide}
-[[!include stable homotopy theory - contents]]
+[[!include Goodwillie calculus - contents]]
 =--
 =--
 =--
@@ -21,7 +16,9 @@
 
 ## Idea
 
-In the context of [[Goodwillie calculus]], an [[(∞,1)-category]] is called _Goodwillie-differentiable_ if [[(∞,1)-functors]] to it admit "derivatives" in the form of [[n-excisive approximations]]. Note that this concept is not related to that of [[smooth ∞-groupoids]].
+In the context of [[Goodwillie calculus]], an [[(∞,1)-category]] is called _Goodwillie-differentiable_ if [[(∞,1)-functors]] to it admit "derivatives" in the form of [[n-excisive approximations]]. 
+
+(This concept is not related to that of [[smooth ∞-groupoids]].)
 
 ## Definition
 
@@ -38,9 +35,13 @@ An [[(∞,1)-category]] $\mathcal{C}$ is **Goodwillie-differentiable** if
 
 =--
 
+([Lurie, def. 6.1.1.6](#Lurie))
+
+
 ## Examples
 
 +-- {: .num_example }
+
 ###### Example
 
 Every [[(∞,1)-topos]] is a Goodwillie-differentiable $(\infty,1)$-category.
@@ -65,8 +66,11 @@ By [[Goodwillie calculus]], [[(∞,1)-functors]] to Goodwillie-differentiable $(
 
 ## References
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
-  {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+  
+
+[[!redirects differentiable (infinity,1)-category]]
+
 
 [[!redirects differentiable (infinity,1)-categories]]
 [[!redirects differentiable (infinity,1)-category]]
