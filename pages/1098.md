@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -45,6 +44,21 @@ $$
 
 * $(\infty,1)$-presheaves are the basic building block for the definition of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]].
 
+## Model structures
+
+$(\infty,1)$-presheaves can be presented by many different [[model categories]], corresponding to several of the model structures for [[(∞,1)-categories]].  These include:
+
+* [[global model structures on simplicial presheaves]] (injective and projective)
+* [[model structure for right fibrations]] of [[quasicategories]]
+* [[model structure on internal simplicial presheaves]]
+* [[model structure for right fibrations of Segal spaces]]
+* [[model structure on simplicial presheaves over simplices]]
+
+Various Quillen equivalences between these model structures are constructed in the references.  For special cases of the domain $S$ there exist other model structures that are also Quillen equivalent to these, such as:
+
+* The [[Reedy model structure]] on simplicial presheaves, when $S$ is a [[Reedy category]], or more generally a [[generalized Reedy category]]
+* The analogous [[model structure on internal inverse diagrams]], when $S$ is an [[inverse EI (∞,1)-category]].
+
 ## Related concepts
 
 * [[presheaf]]
@@ -62,9 +76,39 @@ $$
 
 ## References ##
 
-Section 5.1 of
+### $(\infty,1)$-categorical definition
+
+This is in Section 5.1 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+
+### Model structures
+
+The various model structures, and their Quillen equivalences, can be found in the following references.
+
+The [[global model structures on simplicial presheaves]] are a standard special case of the [[global model structures on functors]].  The fact that the injective model structure exists is a bit less classical; see [[injective model structure]] for references.
+
+The [[model structure for right fibrations]] of [[quasicategories]] is constructed in [[Higher Topos Theory]].  It is shown there to be Quillen equivalent to the global model structure on simplicial presheaves by a [[straightening functor]].  Alternative proofs of such an equivalence can be found in
+
+* Gijs Heuts, [[Ieke Moerdijk]], *Left fibrations and homotopy colimits II*, [arXiv](http://arxiv.org/abs/1602.01274)
+
+* [[Danny Stevenson]], *Covariant Model Structures and Simplicial Localization*, [arXiv](https://arxiv.org/abs/1512.04815)
+
+The latter also constructs the [[model structure on simplicial presheaves over simplices]] and links it with Quillen equivalences to the other two.
+
+The [[model structure on internal simplicial presheaves]] is constructed in
+
+* Geoffroy Horel, *A model structure on internal categories in simplicial sets*, [TAC](http://tac.mta.ca/tac/volumes/30/20/30-20abs.html)
+
+The [[model structure for right fibrations of Segal spaces]] is constructed in
+
+* Pedro Boavida de Brito, *Segal objects and the Grothendieck construction*, [arXiv](http://arxiv.org/abs/1605.00706)
+
+and shown to be Quillen equivalent to both the [[model structure on internal simplicial presheaves]] and the [[model structure for right fibrations]] of quasicategories.
+
+Finally, the [[model structure on internal inverse diagrams]] is constructed, and shown to be Quillen equivalent to the model structure for internal simplicial presheaves (hence all the others) in 
+
+* [[Mike Shulman]], *Univalence for inverse EI diagrams*, [arXiv](http://arxiv.org/abs/1508.02410).
 
 [[!redirects (∞,1)-presheaf]]
 [[!redirects (∞,1)-presheaves]]
