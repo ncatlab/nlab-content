@@ -1,6 +1,8 @@
 [[!redirects Republic]]
 
-One of the dialogues attributed to [[Plato]].
+**The Republic** is a long dialogue written by [[Plato]], which covers a wide range of philosophical topics. The question of the best political organization of the _polis_, or city state, is the central theme of the book. In describing the role of mathematical training in the formation of the city-state's future leaders, or Guardians, Plato gives expression to his views on mathematics through the words he gives to Socrates. In particular, Plato divides mathematics into five branches: arithmetic, plane geometry, solid geometry, astronomy, and harmonics. This syllabus was taken up in medieval university as the [quadrivium](https://en.wikipedia.org/wiki/Quadrivium).
+
+The Guardians are to study mathematics for many years to 'awaken the eye of the soul', the faculty by which they can appreciate also the Forms, especially those of Goodness and Beauty. On this theme, the dialog is also famous for the allegory of 'The Cave', where the best education is likened to releasing a prisoner condemned to see only shadows projected on a wall and eventually to emerge from the cave into the light.
 
 ## Related entries
 
@@ -12,4 +14,4 @@ One of the dialogues attributed to [[Plato]].
 
 ## References
 
-* Wikipediam _[Republic (Plato)](https://en.wikipedia.org/wiki/Republic_(Plato))_
+* Wikipedia _[Republic (Plato)](https://en.wikipedia.org/wiki/Republic_%28Plato%29)_
