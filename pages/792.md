@@ -83,7 +83,9 @@ and the torus bundle case was introduced in
 
 * {#BouwknegtHannabusMathai04} [[Peter Bouwknegt]], [[Keith Hannabus]] [[Varghese Mathai]], _T-duality for principal torus bundles_, JHEP 0403 (2004) 018 ([hep-th/0312284](http://arxiv.org/abs/hep-th/0312284)) 
 
-In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way. The formalization with the above data originates in 
+In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way. 
+
+The formalization with the above data originates in 
 
 * {#BunkeSchick05} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_ ([pdf](http://www.uni-math.gwdg.de/schick/publ/totduali.pdf))
 
