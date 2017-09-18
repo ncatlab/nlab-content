@@ -1,4 +1,5 @@
-+-- {: .num_prop #Symplectomorphism}
+
++-- {: .num_prop #DerivedAdjunctionUnitOfLftBousfieldLoclization}
 ###### Proposition
 
 Let 
@@ -12,19 +13,19 @@ $$
   \mathcal{C}
 $$
 
-be a [[Quillen adjunction]] which exhibits a Bousfield localization of model categories, and assume that $\mathcal{C}_{loc}$ admits [[functorial factorization]] (for instance if $\mathcal{C}$ is a [[combinatorial model category]], then via the [[small object argument]]), hence in particular a fibrant replacement [[natural transformation]]
+be a [[Quillen adjunction]] which exhibits a left [[Bousfield localization of model categories]], and assume that $\mathcal{C}_{loc}$ admits [[functorial factorization]] (for instance if $\mathcal{C}$ is a [[combinatorial model category]], whence $\mathcal{C}_{loc}$ is, then via the [[small object argument]]), hence in particular a fibrant replacement [[natural transformation]]
 
 $$
   (-) \longrightarrow (-)^{fib}
   \,.
 $$
 
-Then the derived adjunction unit, i.e. the [[adjunction unit]] $\eta^{der}$ of [[adjoint pair]] of the [[derived functors]] on the [[homotopy category]]
+Then the derived adjunction unit, i.e. the [[adjunction unit]] $\eta^{der}$ of [[adjoint pair]] of the [[derived functors]] on the [[homotopy category of a model category|homotopy category]] (as discussed there)
 
 $$
   Ho(\mathcal{C}_{loc})
     \underoverset
-      {\underset{}{\hookrigtharrow}}
+      {\underset{}{\hookrightarrow}}
       {\overset{}{\longleftarrow}}
       {\bot}
   Ho(\mathcal{C})
@@ -39,10 +40,14 @@ $$
   \,,
 $$
 
-where $\ell \;\mathcal{C}_{loc} \to Ho(\mathcal{C}_{loc})\;$ is the [[localization]]
-
+where $\ell \;\colon\; \mathcal{C}_{loc} \to Ho(\mathcal{C}_{loc})\;$ is the [[localization]] functor (as discussed at _[[homotopy category of a model category]]_).
 
 =--
+
++-- {: .proof}
+###### Proof
+
+First consider the general prescription (from _[[homotopy category of a model category]]_) of computing the right (left) [[derived functors]] by applying the Quillen functors to fibrant (cofibrant) replacements, where we apply the fibrant replacement functorially also to the non-cofibrantly replaced object:
 
 Let
 
@@ -55,10 +60,7 @@ $$
   \mathcal{D}
 $$
 
-be a [[Quillen adjunction]] betwen [[model categories]] which admit [[functorial factorization]].
-
-We consider the derived [[adjunction unit]].
-
+be a general [[Quillen adjunction]] betwen [[model categories]] which admit [[functorial factorization]].
 
 Let $X \in \mathcal{D}$ be any [[object]]. First consider a cofibrant replacement
 
@@ -108,14 +110,13 @@ $$
 
 Then apply $R$
 
-
 $$
   \array{
      R L (X_{cof})
-       &\overset{R (j \in W \cap Cof)}{\longrightarrow}&
+       &\overset{}{\longrightarrow}&
      R (L X_{cof})^{fib}
      \\
-     \downarrow^{\mathrlap{\in W \cap Fib}}
+     \downarrow^{\mathrlap{}}
        &&
      \downarrow
      \\
@@ -123,7 +124,8 @@ $$
   }
 $$
 
-The derived unit is now modeled by the top composite morphism in 
+Finally, precompose with the ordinary [[adjunction unit]].
+The derived adjunction unit is now modeled by the top composite morphism in the following diagram:
 
 $$
   \array{
@@ -143,25 +145,47 @@ $$
       &\underset{\eta_X}{\longrightarrow}&
      R L X &\underset{}{\longrightarrow}& R((L X)^{fib})
   }
+  \,.
 $$
-.
-Now in the special case that $(L \dashv R)$ is a left Bousfield localization of model categories, then as functors $L = id$ and $R = id$ and so in this case the derived adjunction unit is modeled simply by the top morphism in
+
+Now in the special case that $(L \dashv R)$ is a [[left Bousfield localization of model categories]], then as plain [[categories]] $\mathcal{D} = \mathcal{C} $ and as plain functors $L = id$ and $R = id$ are trivial and so in this special case the derived adjunction unit is modeled simply by the top morphism in the following diagram
 
 $$
   \array{
     X_{cof} 
-      &\overset{\in W \cap Cof}{\longrihtarrow}&
+      &\overset{\in Cof}{\longrightarrow}&
     (X_{cof})^{fib}
      \\
     {}^{\mathllap{\in W \cap Fib}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\in W \cap Fib}}
     \\
     X 
-      \underset{\in W \cap Cof}{\longrightarrow}
-    \\
+      &\underset{\in W Cof}{\longrightarrow}&
     X^{fib}
   }
+  \,.
 $$
 
 But now since the vertical morphisms are weak equivalences,
 this means that already the fibrant replacement $X \to X^{fib}$
-is isomorphic, in the homotopy category, to the derived unit.
+is isomorphic, in the homotopy category, to the derived unit, i.e. applying the [[localization]] $\ell$ to the above diagram in $\mathcal{C}$ yields the diagram
+
+$$
+  \array{
+    \mathcal{l}(X_{cof})
+      &\overset{\eta^{der}_X}{\longrightarrow}&
+    \mathcal{l}((X_{cof})^{fib})
+     \\
+    {}^{\simeq}\downarrow
+    &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathcal{l}(X) 
+      &\underset{}{\longrightarrow}&
+    \mathcal{l}(X^{fib})
+  }
+  \,.
+$$
+
+=--
