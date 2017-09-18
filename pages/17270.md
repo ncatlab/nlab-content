@@ -23,6 +23,99 @@ In [[model category]]-theory, the _Bousfield-Friedlander theorem_ ([Bousfield-Fr
 
 The original proof assumed that $\mathcal{C}$ is a [[proper model category]], but this condition turns out not to be necessary ([Stanculescu 08, theorem 1.1](#Stanculescu08)).
 
+## Statement
+
++-- {: .num_defn #QuillenIdempotentMonad}
+###### Definition
+
+Let $\mathcal{C}$ be a [[proper model category]]. 
+Say that **Quillen idempotent monad** on $\mathcal{C}$ is
+ 
+1. an [[endofunctor]] 
+
+   $Q \;\colon\;  \mathcal{C} \longrightarrow \mathcal{C}$
+
+1. a [[natural transformation]]
+
+   $\eta \colon id_{\mathcal{C}} \longrightarrow Q$
+
+such that
+
+1. $Q$ preserves weak equivalences;
+
+1. all $Q(\eta_X) \colon Q(X) \longrightarrow Q(Q(X))$ are weak equivalences;
+
+1. if in a [[pullback]] square in $\mathcal{C}$
+
+   $$
+     \array{
+       f^\ast W &\stackrel{f^\ast h}{\longrightarrow}& X
+       \\
+       \downarrow && \downarrow^{\mathrlap{f}}
+       \\
+       W &\stackrel{h}{\longrightarrow}& Y
+     }
+   $$
+
+   we have that
+
+   1. $f$ is a fibration and $Y$ is fibrant;
+
+   1. $Q(\eta_X)$, $Q(\eta_Y)$ and $Q(h)$ are weak equivalences
+
+   then $Q(f^\ast h)$ is a weak equivalence.
+
+=--
+
+
++-- {: .num_defn #ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}
+###### Definition
+
+For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
+a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad}, say that a morphism $f$ in $\mathcal{C}$ is
+
+1. a $Q$-weak equivalence if $Q(f)$ is a weak equivalence;
+
+1. a $Q$-cofibation if it is a cofibration.
+
+1. a $A$-fibration if it ha the [[right lifting property]] against the morphisms that are both $Q$-fibrations as well as $Q$-weak equivalences.
+
+Write $\mathcal{C}_Q$ for $\mathcal{C}$ equipped with these classes of morphisms.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+**(Bousfield-Friedlander theorem)**
+
+For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
+a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
+then $\mathcal{C}_Q$, def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad} is a [[model category]].
+
+Moreover
+
+1. a morphism $f\colon X \to Y$ is a $Q$-fibration precisely if 
+
+   1. $f$ is a fibration;
+
+   1. the $\eta$-naturality square on $f$ exhibits a [[homotopy pullback]]
+
+      $$
+        \array{
+          X &\stackrel{\eta_X}{\longrightarrow}& Q(X)
+          \\
+          {}^{\mathllap{f}}\downarrow &{}^{(pb)^h}& \downarrow^{\mathrlap{Q(f)}}
+          \\
+          Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
+        }
+        \,.
+      $$
+
+=--
+
+([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01))
+
+
 ## Examples
 
 ### Stable model structure on sequential spectra
