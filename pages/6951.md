@@ -51,7 +51,7 @@ Kripke-Joyal semantics results from the generalization of this satisfaction rela
 
 +-- {: .num_defn #forcing}
 ###### Definition
-A generalized element $U\overset{\alpha}{\to} X$ is said to _satify the formula_ $\varphi(x)$ or more suggestively, $U$ _forces_ $\varphi$ , denoted $U\models \varphi (\alpha)$ , when $\alpha$ factors through $\{x|\varphi(x)\}$ i.e. there exists a map $m$ making the following commute:
+A generalized element $U\overset{\alpha}{\to} X$ is said to _satisfy the formula_ $\varphi(x)$ or more suggestively, $U$ _forces_ $\varphi$ , denoted $U\models \varphi (\alpha)$ , when $\alpha$ factors through $\{x|\varphi(x)\}$ i.e. there exists a map $m$ making the following commute:
 $$
 \array{
 & &\{x|\varphi(x)\}&\to & 1& \\
