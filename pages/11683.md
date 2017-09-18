@@ -2,6 +2,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/M._S._Narasimhan)
 
+* Interview 2016 [recording](https://youtu.be/Y3n8mwko44g)
+
 ## Related entries
 
 * [[Narasimhan-Seshadri theorem]]
