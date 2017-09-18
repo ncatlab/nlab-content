@@ -1,0 +1,22 @@
+# Idea
+
+A **chord diagram** (of order $n$) is basically a [[circle]] marked with $2n$ distinct points and $n$ chords joining those points, considered up to rotation of the circle.  "Cutting" the circle at some point (distinct from the $2n$ marked points) yields up to $2n$ different **arc diagrams**.  An arc diagram of order $n$ may be visualized as $n$ (possibly crossing) arches drawn on top of a line segment, and is entirely determined by specifying a [[fixed point]] free [[involution]] on the set $[2n]$.  The [[cyclic group]] of order $2n$ acts naturally on arc diagrams of order $n$, and conversely, taking the [[quotient]] by this [[action]] recovers the set of chord diagrams of order $n$.
+
+## Related concepts
+
+* [[Vassiliev invariant]]
+
+## References
+
+Chapter 6 of
+
+* Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
+
+See also
+
+* Philippe Flajolet and Marc Noy. "Analytic combinatorics of chord diagrams". INRIA technical report 3914, March 2000. ([pdf](http://algo.inria.fr/flajolet/Publications/FlNo00.pdf))
+
+* A. Khruzin. "Enumeration of chord diagrams". arXiv:math/0008209, August 2000. ([arxiv](http://arxiv.org/abs/math/0008209))
+
+[[!redirects arch diagram]]
+[[!redirects arc diagram]]
