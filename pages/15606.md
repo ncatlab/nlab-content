@@ -45,6 +45,8 @@ In view of this, in the context of [[arithmetic differential equations]] the Fer
 
 * [[Borger's absolute geometry]]
 
+* [[arithmetic differential geometry]]
+
 ## References
 
 * Wikipedia, _[Fermat quotient](http://en.wikipedia.org/wiki/Fermat_quotient)_
