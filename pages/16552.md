@@ -3,6 +3,8 @@
 
 > previous chapters: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- principal connections|principal connections]]_
 
+> next chapter: _[[geometry of physics -- BPS charges|BPS charges]]_
+
 ***
 
 #Contents#
@@ -195,6 +197,7 @@ The constructions in def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra} are c
 $$
   \mu \;\colon\; \mathfrak{g} \longrightarrow \mathfrak{h}
 $$
+
 
 it prolongs to a homomorphism of presheaves
 
