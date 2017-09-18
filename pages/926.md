@@ -487,11 +487,12 @@ There are analogues in other setups, e.g.
 
 * [[Postnikov system in triangulated category|Postnikov systems in triangulated categories]] 
 
-* [[motive|motivic]] homotopy theory (M. Levine, [The Postnikov tower in motivic stable homotopy theory](http://www.math.uiuc.edu/K-theory/0692)).
+* [[motivic homotopy theory]] (M. Levine, [The Postnikov tower in motivic stable homotopy theory](http://www.math.uiuc.edu/K-theory/0692)).
 
 ### Postnikov tower in an $(\infty,1)$-category
 
 We may think of [[Top]] as being the archetypical [[(∞,1)-category]].
+
 
 In every [[(∞,1)-category]] there is a notion of [[n-truncated object in an (∞,1)-category|n-truncated object]] and accordingly a notion of
 
