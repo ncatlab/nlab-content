@@ -3,6 +3,8 @@
 
 ## related $n$Lab entries
 
+* [[rational homotopy theory]]
+
 * [[Bousfield-Friedlander model structure]]
 
 * [[Bousfield localization of spectra]]
