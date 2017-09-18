@@ -1,0 +1,1 @@
+see [[left cancellative category]]
