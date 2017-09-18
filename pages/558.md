@@ -22,7 +22,7 @@
 
 The _homotopy hypothesis_ is the assertion that
 
-* [[∞-groupoid]]s are equivalent to [[topological space]]s (considered modulo [[weak homotopy equivalence]])
+* [[∞-groupoids]] are equivalent to [[topological space]]s (considered modulo [[weak homotopy equivalence]])
 
 or rather the stronger statement that
 
@@ -501,22 +501,29 @@ See [Ayala-Francis-Rozenblyum](#AFR15).
 
 
 ## References
+ {#References}
 
+The equivalence between the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] and the [[classical model structure on simplicial sets|homotopy theory of Kan complexes]] is due to 
 
-An introductory survey is given in
+* {#Quillen67} [[Daniel Quillen]], _Homotopical Algebra_, LNM 43, Springer, (1967) 
+
+But the interpretation of [[Kan complexes]] as a model for [[∞-groupoids]] remained not widely appreciated for a long while, due to them being an instance of a  [[geometric definition of higher categories]].
+
+Later in 
+
+* [[Alexander Grothendieck]], _[[Pursuing Stacks]]_, 1983  (including a letter to [[Daniel Quillen]] on the first few pages) 
+
+it was argued that also [[algebraic definitions of higher categories|algebraic definitions of higher groupoids]] ought to have a homotopy theory equivalent to the classical homotopy theory of topological spaces.
+
+The name "homotopy hypothesis" for this statement is due to 
 
 * [[John Baez]], _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
 
-The original form of the homotopy hypothesis was given by Alexander Grothendieck in [[Pursuing Stacks]] and his letter to Quillen which is the first few pages of that typescript. If one interprets  $\infty-$ groupoids as being [[Kan complexes]], then Grothendieck's idea can be seen to be related to the more classical results in 
-
-* {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, LNM 43, Springer, (1967) 
-
-that show, as mentioned earlier, that Kan complexes and topological spaces have equivalent homotopy theories in a precise sense. Textbook accounts of that latter theory include
+Technical reviews of Quillen's proof of the homotopy hypothesis includes
 
 * {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], section I.11 of _[[Simplicial homotopy theory]]_, 1996
 
 * {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005  ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
-
 
 The homotopy hypothesis for strict $\omega$-categories with weak inverses is discussed in
 
