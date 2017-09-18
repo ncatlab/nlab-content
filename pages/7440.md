@@ -992,7 +992,7 @@ For $\mathbf{H}$ an [[(∞,1)-topos]], another way of saying that we have an int
 
 However, at the time of this writing little is known for how to speak of _non-finite_ [[diagrams]] fully internally. To appreciate the issue, notice that the "internal" formulation of categories by [[simplicial objects in an (∞,1)-category]] as [above](#Definition) is in fact not fully internal to the ambient $(\infty,1)$-category $\mathcal{C}$, but assumes that it is known what externally an [[(∞,1)-functor]] $\Delta^{op} \to \mathcal{C}$ is. When we speak in [[homotopy type theory]] this is not an option and we have to genuinely stick to internal reasoning.
 
-Nevertheless, we can speak fully internally of $(\infty,n)$-categories for "low $n$" by making use of the following observations.
+Nevertheless, we can speak fully internally of $(n,1)$-categories for "low $n$" by making use of the following observations.
 
 1. By the discussion at _[[semi-Segal space]]_ a category object should equivalently be a [[semi-category]] object $X_\bullet$: a [[semi-simplicial object]] satisfying the [[Segal conditions]], and which is unital in that $Eq(X_1) \hookrightarrow X_1 \stackrel{\partial_1}{\to} X_0$ is an equivalence.
 
@@ -1018,6 +1018,7 @@ Nevertheless, we can speak fully internally of $(\infty,n)$-categories for "low 
    Notice that in the [[model category|model]]-[[categorical semantics]] of [[dependent types]] in [[homotopy type theory]], such a structure interprets indeed (up to the given degree) as a [[Reedy model structure|Reedy]] [[fibrant object|fibrant]] [[semi-simplicial object]] as used in the standard model-category theoretic constructions of internal $\infty$-categories discussed [above](#ModelCategoryPresentations).
 
 1. If $X_0$ is [[n-truncated]] ([[h-level]] $n+2$) so that we are dealing with an internal category that is externally an [[(n,1)-category]], then a complete semi-Segal object $X_\bullet$ should indeed already be determined by its [[simplicial skeleton]] $X_{0 \leq \bullet \leq n+2}$. 
+Note however that requiring $X_0$ to be [[n-truncated]] is not sufficient since we also need that $X_1$, $X_2$, ... are truncated; see the remark below. 
 
 So in conclusion an _$n$-truncated category type_ in [[homotopy type theory]] should be an $(n+2)$-skeleton of a [[semi-simplicial type]] $X_{0 \leq \bullet \leq 3}$ as above, such that
 
@@ -1025,13 +1026,15 @@ So in conclusion an _$n$-truncated category type_ in [[homotopy type theory]] sh
 
 1. [[univalence]]/unitality: the canonical function $Eq(X_1) \to X_1 \stackrel{\partial_1}{\to} X_0$ is an [[equivalence]].
 
-1. $X_0$ is [[n-truncated]] (of [[h-level]] $n+2$).
+1. truncation: for every $i$, $X_i$ is $(n-i)$-truncated (of [[h-level]] $n-i+2$).
 
-We spell this out in more detail below for
+This approach to [[(n,1)-categories]] is discussed in ([CapriottiKraus17](CapriottiKraus17)). There, the last condition is replaced by requiring $X_1$ to be $(n-1)$-truncated, which does imply that $X_i$ is $(n-i)$-truncated. One can in fact ask for the truncation property for a _single_ positive $i$, and it will imply the truncation property for all $i$. This is discussed in the conclusions of ([CapriottiKraus17](CapriottiKraus17)). However, it would be insufficient to only say that $X_0$ is $n$-truncated since this controls $Eq(X_1)$ but not $X_1$ itself.
 
-* $n = 0$ -- [(0,1)-Category types](#0CategoryTypes)
+We spell the above definition out in more detail below for
 
-* $n = 1$ -- [(1,1)-Category types](#1CategoryTypes).
+* $n = 0$ -- [(0,1)-Category types](#0CategoryTypes), choosing $i = 1$ for the truncation condition
+
+* $n = 1$ -- [(1,1)-Category types](#1CategoryTypes), choosing $i = 2$.
 
 +-- {: .num_remark }
 ###### Remark
@@ -1187,7 +1190,7 @@ A **$(0,1)$-category type** is
 
 such that 
 
-1. **[[n-truncated|0-truncation]]** --  $X_0$ is [[0-truncated]]/is an [[h-set]]
+1. **[[n-truncated|0-truncation]]** --  $X_0$ is [[0-truncated]]/is an [[h-set]] (although this is automatic and does not have to be required explicitly);
 
 1. **[[coskeleton|1-coskeletalness]]** -- the function 
    
@@ -1275,7 +1278,7 @@ A **$(1,1)$-category type** is
      \,,
    $$
 
-*  a [[dependent type]]
+1. a [[dependent type]]
  
    $$
      (\sigma_{123}, \sigma_{023}, \sigma_{013}, \sigma_{012}) \colon X^{\partial \Delta^3}
@@ -1287,7 +1290,7 @@ A **$(1,1)$-category type** is
 
 such that 
 
-1. **[[n-truncated|1-truncation]]** --  $X_1$ is [[1-truncated]]/is an [[h-groupoid]]
+1. **[[n-truncated|1-truncation]]** --  $X_0$ is [[1-truncated]]/is an [[h-groupoid]] (which again is automatic and could be omitted)
 
 1. **[[coskeleton|2-coskeletalness]]** -- the function 
    
@@ -1512,9 +1515,12 @@ Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Cl
 ### Formalization in homotopy type theory
  {#ReferencesFormalizationInHomotopyTypeTheory}
 
-A formalization of [[1-categories]] internal to [[homotopy type theory]] (see _[[internal categories in homotopy type theory]]_) is discussed in 
+Formalizations of [[1-categories]] and [[(n,1)-categories]] internal to [[homotopy type theory]] (see _[[internal categories in homotopy type theory]]_) are discussed in 
 
 * {#AKS} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
+
+* {#CapriottiKraus17} [[Paolo Capriotti]], [[Nicolai Kraus]], _Univalent Higher Categories via Complete Semi-Segal Types_ ([arXiv:1707.03693](https://arxiv.org/abs/1707.03693))
+
   
 
 [[!redirects category object in an (∞,1)-category]]
