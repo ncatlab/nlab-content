@@ -266,6 +266,8 @@ $R$[[Mod]]
 
 [[directed limit]]
 
+**Definition 3.5.1** [[lim^1]]
+
 **Definition 3.5.6** [[Mittag-Leffler condition]]
 
 **Exercise 3.5.5** [[pullback]]
