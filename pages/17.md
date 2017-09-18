@@ -695,6 +695,7 @@ There is now a WYSIWYG SVG-editor embedded within Instiki (the software running 
 For general information and help with Instiki, see the [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage) wiki.
 
 Here are some useful specifics:
+
 * [Use basic Markdown syntax](http://daringfireball.net/projects/markdown/syntax)
 * [Make tables, footnotes, etc](http://maruku.rubyforge.org/maruku.html#extra)
 * [Add definitions and theorems](http://golem.ph.utexas.edu/instiki/show/Theorems)
