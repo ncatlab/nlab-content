@@ -9,6 +9,8 @@
 
 ## Related concepts
 
+* [[model stucture on dg-coalgebras]]
+
 * [[model structure on monoids in a monoidal model category]]
 
 * [[model structure on algebras over an operad]]
