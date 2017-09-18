@@ -53,7 +53,7 @@ Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {|x|
 It is open whether the 4-sphere admits an [[exotic smooth structure]]. See ([Freedman-Gompf-Morrison-Walker 09](#FreedmanGompfMorrisonWalker09)) for review.
 
 
-### Free loop space
+### Free and cyclic loop space
   {#FreeLoopSpace}
 
 We discuss the [[rational homotopy theory]] of the [[free loop space]] $\mathcal{L}(S^4)$ of $S^4$, as well as the [[cyclic loop space]] $\mathcal{L}(S^4)/S^1$  using the results from _[[Sullivan models of free loop spaces]]_:
@@ -270,21 +270,26 @@ $$
 =--
 
 
+
 ### Circle action
   {#CircleAction}
 
-The [[3-sphere]] carries a [[free action|free]] [[circle action]], whose [[quotient]] [[projection]] $S^3 \to S^2$ is the [[complex Hopf fibration]]. Under [[suspension]] this yields a circle action on $S^4$, which however is _not_ [[free action|free]] anymore. Hence the suspension of the complex Hopf fibration is of the form
+Consider the following [[circle group]] [[action]] on the 4-sphere
+
++-- {: .num_defn #CircleActionOn4Sphere}
+###### Definition
+
+Regard
 
 $$
-  S^4 \longrightarrow S^3
-  \,.
+  S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})
 $$
 
-The ordinary [[quotient]] of the induced [[circle action]] on $S^4$ is the [[suspension]] of $S^2$, hence is $S^3$:
+as the unit sphere inside the [[direct sum]] (as [[real vector spaces]]) of the [[real numbers]] with the [[quaternions]]. This induces a [[circle action]] on $S^4$ via the canonical circle action by multiplication with quaternions from the lft via $S^1 ) U(1) \hookrightarrow SU(2) \hookrightarrow \mathbb{H}$.
 
-$$
-  S^4 / S^1 \simeq S^3
-$$
+=--
+
+The resulting ordinary [[quotient]] is $S^4/_{ord} S^1 \simeq S^3$ and the [[projection]] $S^4 \to S^3$ is the [[suspension]] of the [[complex Hopf fibration]] $S^3 \to S^2$.
 
 The [[fixed point]] set of the action is the two poles introduced by the suspension, hence forms the [[0-sphere]] space. Since this is not the [[empty set]], the [[homotopy quotient]] $S^4 // S^1$ of the [[circle action]] differs from $S^3$, but there is still the canonical [[projection]]
 
@@ -364,6 +369,50 @@ Notice how we changed the notation of the generators compared to [Roig & Saraleg
 |  $c_{2n}$  |    $f_{2n+2}$   |
 | $c_{2n+1}$ | $\omega_{2n+4}$ |
 |    $e$     |    $\omega_2$   |
+
+
+
+
+### Relating cyclic loop space with the circle homotopy quotient
+
+The [[unit of an adjunction|unit]] of the [[double dimensional reduction]]-[[adjunction]] 
+
+$$
+  \infty Grpd
+    \underoverset
+      {\underset{\mathcal{L}(-)/S^1}{\longrightarrow}}
+      {\overset{hofib}{\longleftarrow}}
+      {\bot}
+  \infty Grpd_{/B S^1}
+$$
+
+
+([this prop.](double+dimensional+reduction#GeneralReduction)) applied to the $S^1$-[[principal infinity-bundle]] 
+
+$$
+  \array{
+    S^4  
+    \\
+    {}^{\mathllap{hofib(c)}}\downarrow
+    \\
+    S^4 / S^1
+    &\underset{c}{\longrightarrow}&
+    B S^1
+  }
+$$ 
+
+is a natural map
+
+$$
+  S^4/S^1 \longrightarrow \mathcal{L}(S^4)/S^1
+$$
+
+from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionOn4Sphere}), to the [[cyclic loop space]] of the 4-sphere.
+
+(...)
+
+
+
 
 
 
