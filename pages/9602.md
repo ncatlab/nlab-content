@@ -56,7 +56,7 @@ Since [[Lie algebras]] are algebras over a [[Lawvere theory]], this is a special
 +-- {: .num_defn #dgLieAlgebraOfASimplicialLieAlgebra}
 ###### Definition
 
-Let $(\mathfrak{g}, [-,-]$ be a [[simplicial Lie algebra]]. Then the [[normalized chains complex]] $N \mmathfrak{g}$ of the underlying [[simplicial abelian group]] becomes a [[dg-Lie algebra]] by equipping it with the [[Lie bracket]] given by the following [[composition|composite]] morphisms
+Let $(\mathfrak{g}, [-,-]$ be a [[simplicial Lie algebra]]. Then the [[normalized chains complex]] $N \mathfrak{g}$ of the underlying [[simplicial abelian group]] becomes a [[dg-Lie algebra]] by equipping it with the [[Lie bracket]] given by the following [[composition|composite]] morphisms
 
 $$
   [-,-]_{N \mathfrak{g}}
