@@ -91,6 +91,35 @@ In particular, the axiom in def. \ref{MonoidAxiom} says that for every object $X
 ### Monoidal homotopy category
  {#MonoidalHomotopyCategory}
  
+#### Abstractly
+
++-- {: .num_prop #LocalizationFunctorIsLaxMonoidal}
+###### Proposition
+
+For $(\mathcal{C},\otimes)$ a monoidal model category, def. \ref{MonoidalModelCategory}, then the [[derived functor]] $\otimes^L$ of the tensor product makes the [[homotopy category of a model category|homotopy category of the model category]] itself into a [[monoidal category]], such that the [[localization]] functor
+
+$$
+  \gamma
+   \;\colon\;
+  (\mathcal{C},\otimes)
+    \longrightarrow
+  (Ho(\mathcal{C}, \otimes^L)
+$$
+
+is a [[lax monoidal functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $V$ be a monoidal model category, and consider it as a _[[derivable category]]_ in the sense of ([Shulman 11, section 8](#Shulman11)) with $V_Q$ the subcategory of cofibrant objects and $V_R=V$.  Then $\otimes :V\times V\to V$ is left derivable, i.e. it preserves the $Q$-subcategories and weak equivalences.  Since deriving is [[pseudofunctor|pseudofunctorial]] (and product-preserving) on the [[2-category]] of [[derivable categories]] and [[left derived functor|left derivable functors]], it follows immediately that $Ho(V)$ is monoidal; this is ([Shulman 11, example 8.13](#Shulman11)).
+
+Now let $V_0$ denote the category $V$ with its trivial derivable structure: only isomorphisms are weak equivalences, and all objects are both $Q$ and $R$.  Then of course $Ho(V_0) = V$, and $V_0$ is also a pseudomonoid in derivable categories.  The identity functor $Id : V_0 \to V$ is not left derivable, since it does not preserve $Q$-objects; but it is *right* derivable, since we took all objects in $V$ to be $R$-objects (ignoring the fibrant objects in the model structure on $V$).  Of course $Id$ is [[strong monoidal functor|strong monoidal]], and this monoidality constraint can be expressed as a square in the [[double category]] of ([Shulman 11](#Shulman11)) whose vertical arrows are left derivable functors and whose horizontal arrows are right derivable functors; moreover the axioms on a [[monoidal functor]] may be expressed using products and double-categorical pasting in this double category.  Therefore, it is all preserved by the double pseudofunctor $Ho$; but $Ho(Id) = \gamma : V \to Ho(V)$.  The only thing that is not visible to the double category is the invertibility of the monoidal constraint, and hence this is not preserved by the double pseudofunctor; thus $\gamma$ is only [[lax monoidal functor|lax monoidal]].
+
+=--
+
+#### Explicitly
 
 +-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
 ###### Proposition
@@ -125,7 +154,7 @@ $$
   (Ho(\mathcal{C}), \otimes^L , \gamma(1))
 $$
 
-is a [[strong monoidal functor]] with structure morphism the inverse of the above natural isomorpmism
+on the [[category of cofibrant objects]] is a [[strong monoidal functor]] with structure morphism the inverse of the above natural isomorpmism
 
 $$
   \mu_{X,Y}
@@ -408,6 +437,11 @@ See [[model structure on monoids in a monoidal model category]].
 A textbook reference is
 
 * [[Mark Hovey]], chapter 4 of _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
+
+Some relevant homotopy category background is in
+
+* {#Shulman11} [[Mike Shulman]], _Comparing composites of left and right derived functors_, New York Journal of Mathematics Volume 17 (2011) 75-125 ([arXiv:0706.2868](http://arxiv.org/abs/0706.2868), [publisher](http://nyjm.albany.edu/j/2011/17-5.html))
+
 
 The monoidal structures for a [[symmetric monoidal smash product of spectra]] are due to 
 
