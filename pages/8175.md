@@ -80,7 +80,7 @@ where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coeff
 ###### Proposition
 
 
-Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[connected topological space|connected]] [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$ (well defined up to [[weak homotopy equivalence]], by [this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)): 
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[simply connected topological space|simply connected]] [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$ (well defined up to [[weak homotopy equivalence]] by connectedness ([this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)), and well defined up to unique iso in the homotopy category by simply connectedness): 
 
 $$
   \array{
@@ -214,8 +214,8 @@ The last group $C^s_{cell}(B,A^t(F))$ appearing in this sequence of isomorphisms
 
 Since [[cellular cohomology]] of a [[CW-complex]] agrees with its [[singular cohomology]] ([thm.](Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence with its [[ordinary cohomology]], to conclude that the $E_2$-page is as claimed, it is now sufficient to show that the differential $d_1$ coincides with the differential in the [[cellular cochain complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). 
 
-We discuss this now for $\pi = id$, hence $X = B$ and $F = \ast$. The general case works the same, just with various factors of $F$ appearing in the following: 
-
+We discuss this now for $\pi = id$, hence $X = B$ and $F = \ast$. (The general case works the same, just with various factors of $F$ replacing the point.)
+ 
 Consider the following diagram, which [[commuting diagram|commutes]] due to the [[natural transformation|naturality]] of the [connecting homomorphism](#ConnectingHomomorphismOfUnreducedCohomology) $\delta$ of $A^\bullet$:
 
 $$
