@@ -73,11 +73,11 @@ equivalent to one another ; that is to say :
 
 Of fundamental importance is the theorem that two aggregates $M$ and $N$ have the same cardinal number if, and only if, they are equivalent : thus,
 
-(7) from $M \sim N$ we get $M = N$,
+(7) from $M \sim N$ we get $\overline{\overline{M}} = \overline{\overline{N}}$,
 
 and
 
-(8) from $M = N$ we get $M \sim N$.
+(8) from $\overline{\overline{M}} = \overline{\overline{N}}$ we get $M \sim N$.
 
 Thus the equivalence of aggregates forms the necessary and sufficient condition for the equality of their cardinal numbers.
 
