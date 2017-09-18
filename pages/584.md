@@ -24,7 +24,7 @@
 
 ## Idea
 
-$n$-Dimensional [[manifolds]] (possibly and usually equipped with certain structure, notably for instance with orientation) should naturally form an [[(∞,n)-category]] of [[extended cobordisms]] whose
+$n$-Dimensional [[manifolds]] (possibly and usually equipped with certain structure, notably for instance with [[orientation]], [[framing]]-structure or more general [[G-structure]]) should naturally form an [[(∞,n)-category]] of [[extended cobordisms]] whose
 
 * [[objects]] are 0-dimensional (oriented) manifolds (disjoint unions of (oriented) points);
 
