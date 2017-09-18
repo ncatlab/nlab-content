@@ -14,7 +14,7 @@
 
 * [[dR-shape modality]] $\dashv$ [[dR-flat modality]]
 
-  $&#643;_{dR}\dashv \flat_{dR}$
+  $&#643;_{dR} \dashv \flat_{dR}$
 
 **[[tangent cohesive (∞,1)-topos|tangent cohesion]]**
 
@@ -36,7 +36,7 @@
 
 * [[fermionic modality]] $\dashv$ [[bosonic modality]] $\dashv$ [[rheonomy modality]]
 
-  $(\rightrightarrows \dashv \rightsquigarrow \dashv R)$
+  $(\rightrightarrows \dashv \rightsquigarrow \dashv Rh)$
 
 
 
@@ -50,7 +50,7 @@ $$
     \\
     && \bot && \bot
     \\
-    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& \R & \stackrel{rheonomic}{}
+    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& Rh & \stackrel{rheonomic}{}
     \\
     && \vee && \vee
     \\
