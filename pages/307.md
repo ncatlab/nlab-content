@@ -26,11 +26,14 @@ for every object $x$ of $C$, there exists a unique [[morphism]] $!:x\to 1$.  The
 
 ## Remarks
 
-A terminal object is often written $1$, since in [[Set]] it is a 1-element set, and also because it is the unit for the cartesian [[product]].  Other notations for a terminal object include $*$ and $pt$.
+* Less usual synonyms are _final object_ and _terminator_.
 
-A terminal object may also be viewed as a [[limit]] over the [[empty diagram]].  Conversely, a limit over a diagram is a terminal cone over that diagram.
+* A terminal object is often written $1$, since in [[Set]] it is a 1-element set, and also because it is the unit for the cartesian [[product]].  Other notations for a terminal object include $*$ and $pt$.
 
-For any object $x$ in a category with terminal object $1$, the categorical [[product]] $x\times 1$ and the [[exponential object]] $x^1$ both exist and are canonically isomorphic to $x$.
+* A terminal object may also be viewed as a [[limit]] over the [[empty diagram]].  Conversely, a limit over a diagram is a terminal cone over that diagram.
+
+* For any object $x$ in a category with terminal object $1$, the categorical [[product]] $x\times 1$ and the [[exponential object]] $x^1$ both exist and are canonically isomorphic to $x$.
+
 
 
 ## Examples
@@ -61,6 +64,7 @@ Some examples of terminal objects in notable categories follow:
 * [[terminal object in a quasi-category]].
 
 
+[[!redirects terminator]]
 [[!redirects terminal object]]
 [[!redirects terminal objects]]
 [[!redirects terminal]]
