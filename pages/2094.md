@@ -13,7 +13,7 @@ If $k$ is a [[field]], and $R$ is a finitely generated [[noetherian ring|noether
 
 ## Related concepts
 
-* In [[functional analysis]], there is a slight variant of this notion, defined using (automatically continuous) characters, the [[Gel'fand spectrum]] of a $C^*$-[[C*-algebra|algebra]], where however the [[topology]] is much richer, indeed [[compactum|compact Hausdorff]] ([[locally compact space|locally compact Hausdorff]], in the non-unital case).
+* In [[functional analysis]], there is a slight variant of this notion, defined using (automatically continuous) characters, the [[Gel'fand spectrum]] of a commutative [[Banach algebra]], where however the [[topology]] is much richer, indeed [[compactum|compact Hausdorff]] ([[locally compact space|locally compact Hausdorff]], in the non-unital case).
 
 * In [[analytic geometry]] one also uses [[analytic spectra]].
 
