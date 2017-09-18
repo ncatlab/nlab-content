@@ -5,5 +5,6 @@
 ## related $n$Lab entries
 
 * [[constructive set theory]]
+* [[Schanuel topos]]
 
 category: people
