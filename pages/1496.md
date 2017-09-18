@@ -15,7 +15,7 @@
 
 ## Idea
 
-A Banach space $\mathcal{B}$ is both a [[vector space]] (over a [[normed field]] such as $\mathbb{R}$) and a [[complete space|complete]] [[metric space]], in a compatible way.
+A Banach space $\mathcal{B}$ is both a [[vector space]] (over a [[normed field]] such as $\mathbb{R}$) and a [[complete space|complete]] [[metric space]], in a compatible way. Hence a complete [[normed vector space]].
 
 A source of simple Banach spaces comes from considering a [[Cartesian space]] $\mathbb{R}^n$ (or $K^n$ where $K$ is the normed field) with the norm:
 
@@ -251,28 +251,9 @@ category: analysis
 [[!redirects Banach spaces]]
 [[!redirects Banach vector space]]
 [[!redirects Banach vector spaces]]
-[[!redirects normed vector space]]
-[[!redirects normed vector spaces]]
-[[!redirects normable vector space]]
-[[!redirects normable vector spaces]]
-[[!redirects pseudonormed vector space]]
-[[!redirects pseudonormed vector spaces]]
-[[!redirects seminormed vector space]]
-[[!redirects seminormed vector spaces]]
-
-[[!redirects normed space]]
-[[!redirects normed spaces]]
-[[!redirects normable space]]
-[[!redirects normable spaces]]
-[[!redirects pseudonormed space]]
-[[!redirects pseudonormed spaces]]
-[[!redirects seminormed space]]
-[[!redirects seminormed spaces]]
 
 [[!redirects Ban]]
 
-[[!redirects vector measure]]
-[[!redirects vector measures]]
 
 [[!redirects norm isomorphism]]
 [[!redirects norm-isomorphic]]
