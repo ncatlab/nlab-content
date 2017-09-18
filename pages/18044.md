@@ -30,20 +30,20 @@ One way to define this is as follows:
 
 Observe that 
 
-1. [[E-∞ geometry]] is _already in itself_ a [[higher geometry|higher geometry]] version of $\mathbb{Z}$-graded supergeometry (in the sense discussed at _[[geometry of physics -- superalgebra]]_). 
+1. [[E-∞ geometry]] is _already in itself_ a [[higher geometry|higher geometric]] version of $\mathbb{Z}$-graded supergeometry (in the sense discussed at _[[geometry of physics -- superalgebra]]_). 
 
-   On the level of [[homotopy groups]] this is the following fact:
+   At the level of [[homotopy groups]] this is the following fact:
 
-   For $E$ a [[homotopy commutative ring spectrum]], the its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a $\mathbb{Z}$-graded super-commutative ring  (according to [this](geometry+of+physics+--+superalgebra#SupercommutativeSuperalgebraZGraded)). See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
+   For $E$ a [[homotopy commutative ring spectrum]], then its [[stable homotopy groups]] $\pi_\bullet(E)$ inherits the structure of a $\mathbb{Z}$-graded super-commutative ring  (according to [this](geometry+of+physics+--+superalgebra#SupercommutativeSuperalgebraZGraded)). See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
 
-   But more is true: the $E_\infty$-analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S}$, and every [[E-infinity ring]] $E$ is canoncally $\mathbb{S}$-graded ([Sagave-Schlichtkrull 11, theorem 1.7-18](#SagaveSchlichtkrull11)). 
+   But more is true: the $E_\infty$-analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S}$, and every [[E-infinity ring]] $E$ is canonically $\mathbb{S}$-graded ([Sagave-Schlichtkrull 11, theorem 1.7-18](#SagaveSchlichtkrull11)). 
 
    So [[E-∞ geometry]] in itself is already a [[categorification|categorified]]/homotopified version of [[supergeometry]], but of $\mathbb{Z}$-graded supergeometry, not of the proper $\mathbb{Z}/2$-graded supergeometry.
 
-1. But ordinary $\mathbb{Z}/2$-graded [[supercommutative superalgebra]] is equivalently $\mathbb{Z}$-graded supercommutative superalgebra over the free even periodic $\mathbb{Z}$-graded supercommutative superalgebra ([this prop.](geometry+of+physics+--+superalgebra#ModulesOverRbeta))
+1. But ordinary $\mathbb{Z}/2$-graded [[supercommutative superalgebra]] is equivalently $\mathbb{Z}$-graded supercommutative superalgebra over the free even periodic $\mathbb{Z}$-graded supercommutative superalgebra ([this prop.](geometry+of+physics+--+superalgebra#ModulesOverRbeta)).
 
 
-Here in view of the first point, the second point has an evident analog in [[E-∞ geometry]]: The higher/derived analog of an even periodic $\mathbb{Z}$-graded commutative algebra is an [[E-infinity algebras]] over an [[even cohomology theory|even]] [[periodic ring spectrum]].
+Here, in view of the first point, the second point has an evident analog in [[E-∞ geometry]]: The higher/derived analog of an even periodic $\mathbb{Z}$-graded commutative algebra is an [[E-infinity algebra]] over an [[even cohomology theory|even]] [[periodic ring spectrum]].
 
 That [[E-infinity algebras]] over [[even cohomology theory|even]] [[periodic ring spectra]] are usefully regarded from the point of view of [[supercommutative superalgebra]] was highlighted in [Rezk 09, section 2](#Rezk09).
 
