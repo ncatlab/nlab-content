@@ -36,7 +36,7 @@ A [[model category]] structue on ([[commutative monoid|commutative]]) [[monoids]
 
 Constructions modeled on [[symmetric spectra]] include
 
-* {#MMSS98b} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _Model categories of diagram spectra_, Proc. London Math. Soc. 82 (2001), ([KTheory:0320](http://www.math.uiuc.edu/K-theory/0320/))
+* {#MMSS98b} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _[[Model categories of diagram spectra]]_, Proc. London Math. Soc. 82 (2001), ([KTheory:0320](http://www.math.uiuc.edu/K-theory/0320/))
 
 * {#Shipley04} [[Brooke Shipley]], _A convenient model category for commutative ring spectra_, Contemporary Mathematics, Volume 346, 2004
 
