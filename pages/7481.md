@@ -31,7 +31,7 @@ Therefore, regarding $\hat Sh_2(\mathcal{S}, can)$ as the [[2-category]] of [[in
 
 ## Definition
 
-While it is straightforward to define an [[internal site]], hence the [[domain]] of an internal (pre)sheaf, the definition of the codomain is slightly more subtle, for that needs to be an copy of the ambient [[universe]] internalized into itself. One way to naturally say this is by passing to the _external_ [[2-sheaves]] [[2-topos]]. This version of the definition we state in 
+While it is straightforward to define an [[internal site]], hence the [[domain]] of an internal (pre)sheaf, the definition of the codomain is slightly more subtle, for that needs to be a copy of the ambient [[universe]] internalized into itself. One way to naturally say this is by passing to the _external_ [[2-sheaves]] [[2-topos]]. This version of the definition we state in 
 
 * _[In terms of external 2-sheaves](#InTermsOf2Sheaves)_.
 
@@ -173,7 +173,7 @@ This appears as ([Johnstone, cor. B.2.3.17](#Johnstone)).
 Let $f : \mathbb{C} \to \mathbb{D}$ be an [[internal functor]]. Write $\bar f : \bar \mathbb{C} \to \bar \mathbb{D}$ for the corresponding morphism in $\hat Sh_2(\mathcal{S}, can)$. Precomposition with this morphism induces a [[functor]] of internal presheaf catgeories
 
 $$
-  f^* : PSh(\mathbb{D}, \mathcal{S}) 
+  f^* \colon PSh(\mathbb{D}, \mathcal{S}) 
     \to 
    PSh(\mathbb{C}, \mathcal{S})
   \,.
@@ -182,7 +182,7 @@ $$
 This is the [[inverse image]] of a [[geometric morphism]] of [[toposes]]
 
 $$
-  f : PSh(\mathbb{C}, \mathcal{S})
+  f \colon PSh(\mathbb{C}, \mathcal{S})
    \to 
   PSh(\mathbb{D}, \mathcal{S})
   \,.
@@ -193,6 +193,7 @@ $$
 This appears as ([Johnstone, cor. B.2.3.22](#Johnstone)).
 
 
+The global section functors of internal sheaf toposes in $\mathcal{S}$ are [[bounded geometric morphisms]] over $\mathcal{S}$.
 
 
 ## Related concepts
@@ -207,8 +208,8 @@ Internal presheaves in a [[Grothendieck topos]] are discussed in Section V.7 of
 
 and in section B2.3 of
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
- {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ 
 
 In these references internal presheaves are introduced in components as in the [explicit definition](#ExplicitDefinition) above. The equivalence to the [abstract formulation](#InTermsOf2Sheaves) above, in terms of morphisms between 2-sheaves, follows for instance with ([Johnstone, lemma B.2.3.13](#Johnstone)).
 
