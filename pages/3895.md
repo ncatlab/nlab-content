@@ -34,8 +34,10 @@ This analytic torsion is an  [[analogy|analogue]] in [[analysis]] of the invaria
 
 According to ([Morishita 09](arithmetic+topology#Morishita09)) the relation between Reidemeister torsion and analytic torsion is analogous to that between [[Iwasawa polynomials]] and [[zeta functions]] obtained by [[adelic integration]]. (...)
 
-### Relation to Selberg zeta function
+### Relation to Selberg and Ruelle zeta function
  {#RelationToSelbergZeta}
+
+The [[special value of L-functions|special value]] of a [[Ruelle zeta function]] at $s= 0$ is expressed by [[Reidemeister torsion]]
 
 ([Fried 86](#Fried86))
 
