@@ -59,7 +59,12 @@ An account in terms of [[(∞,1)-category theory]] is in section 7.1 of
 
 An account in terms of [[model categories]] is in 
 
-* A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+Discussion of [[simplicial ring|simplicial]] ring spectra is in
+
+* {#GoerssHopkins99} [[Paul Goerss]], [[Michael Hopkins]], _Simplicial Structured Ring Spectra_ (1999) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.9216))
+
 
 See also the references at [[stable homotopy theory]].
 
