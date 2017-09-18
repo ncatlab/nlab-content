@@ -115,5 +115,9 @@ sends $G$-[[principal ∞-bundle]]s $P \to X$ to the [[curvature characteristic 
 
 See the references at [[Chern-Weil theory]]  and [[Chern-Weil theory in Smooth∞Grpd]].
 
+Lecture notes on [[secondary cohomology classes]] in [[differential cohomology]] for flat connections is presented in
+
+* {#Bunke12} Ulrich Bunke, _Differential cohomology_, arXiv:[1208.3961](https://arxiv.org/abs/1208.3961)
+
 
 [[!redirects differential characteristic classes]]
