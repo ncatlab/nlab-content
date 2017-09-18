@@ -54,7 +54,8 @@ Let $\mathcal{E}$ be a [[topos]]. Then
 
 =--
 
-The result for left exact comonads appears for instance as ([MacLaneMoerdijk, V 8. theorem 4](#MacLaneMoerdijk)); the result for monads possessing a right adjoint appears in _op. cit._ as corollary 7. The statement on pullback-preserving comonads is given in The [[Elephant]], A.4.2.3. 
+The result for left exact comonads appears for instance as ([MacLaneMoerdijk, V 8. theorem 4](#MacLaneMoerdijk)); the result for monads possessing a right adjoint appears in _op. cit._ as corollary 7. The statement on pullback-preserving comonads is given in The [[Elephant]], A.4.2.3. For [[(∞,1)-toposes]] see [this MO discussion](http://mathoverflow.net/a/206695/381).
+
 
 ### Image factorization of toposes
 
@@ -99,8 +100,8 @@ The so-called "[[over-topos|fundamental theorem of topos theory]]", that an [[ov
 
 Section V 8. of
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
- {#MacLaneMoerdijk}
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ 
 
 
 [[!redirects topos of coalgebras over a comonad]]
