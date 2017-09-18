@@ -147,17 +147,20 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 
 The relation of plain polynomial functors to [[trees]] is discussed in
 
-* [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](http://arxiv.org/abs/0807.2874))
- {#Kock}
+* {#Kock} [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](http://arxiv.org/abs/0807.2874))
+ 
 
 Dependent (multivariate) polynomial functors are considered in 
 
-* [[Nicola Gambino]] and [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931)).
-{#GK}
+* {#GK} [[Nicola Gambino]] and [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931)).
 
-Generalization to [[homotopy theory]] is discussed in 
+
+Generalization to [[homotopy theory]] and [[higher category theory]] is discussed in 
 
 * [[Joachim Kock]], _Data types with symmetries and polynomial functors over groupoids_,  28th Conference on the Mathematical Foundations of Programming Semantics (Bath, June 2012); in Electronic Notes in Theoretical Computer Science.  ([arXiv:1210.0828](http://arxiv.org/abs/1210.0828))
+
+* {#Weber14} [[Mark Weber]], _Operads as polynomial 2-monads_ ([arXiv:1412.7599](http://arxiv.org/abs/1412.7599))
+
 
 * [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
  {#vdBergMoerdijk13}
