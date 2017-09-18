@@ -46,6 +46,26 @@ When $Y$ is rational, then this is an [[isomorphism]] ([Greenlees-May 95, theore
 
 for the moment see at _[[tom Dieck splitting]]_
 
+## Examples
+
+Just as for the plain [[sphere spectrum]], the [[equivariant homotopy groups]] of the [[equivariant sphere spectrum]] in ordinary [[integer]] degrees $n$ are all [[torsion subgroup|torsion]], except at $n = 0$:
+
+$$
+  \pi_n^H(\mathbb{S})\otimes \mathbb{Q} =
+  \left\{
+    \array{
+       \cdots & for \; n = 0
+       \\
+       0 & otherwise
+    }
+  \right.
+$$
+
+([Greenlees-May 95, prop. A.3](#GreenleesMay95))
+
+But in some [[RO(G)-degrees]] there may appear further non-torsion groups, see at _[[equivariant sphere spectrum]]_ the section  [Examples](equivariant+sphere+spectrum#Examples).
+
+
 ## References
 
 General:
