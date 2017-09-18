@@ -157,6 +157,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [F_un mathematics](http://matrix.cmi.ua.ac.be/fun) ("field with one element")
 
+* [Ganit Charcha](http://www.ganitcharcha.com) ("Designing Mathematics Learning")
+
 * [galoisrepresentations.wordpress.com](http://galoisrepresentations.wordpress.com) -- a number theorist's blog
 
 * [Geomblog](http://geomblog.blogspot.com/) Ruminations on computational geometry, algorithms, theoretical computer science and life
