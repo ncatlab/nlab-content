@@ -13,6 +13,12 @@
 * table of contents
 {:toc}
 
+
+## Idea
+
+The "classical homotopy category" $Ho(Top)$ typically refers to the [[category]] of [[topological spaces]] with morphisms between them the [[homotopy classes]] of [[continuous functions]], or (slightly less classically but more commonly these days) to its [[full subcategory]] on those topological spaces [[homeomorphism|homeomorphic]] to a [[CW-complex]]. The latter is technically the [[homotopy category]] obtained by [[localization|localizing]] the category of topological spaces at those [[continuous functions]] that are  [[weak homotopy equivalences]], hence it is also the [[homotopy category of a model category]] of the [[classical model structure on topological spaces]].
+
+
 ## Definition
 
 By $Ho(Top)$ one denotes the [[category]] which is the [[homotopy category]] of [[Top]] with respect to [[category with weak equivalences|weak equivalences]] given 
@@ -39,7 +45,7 @@ $$
 
 that sends each topological space to a weakly homotopy equivalent CW-complex.
 
-By the [[homotopy hypothesis]]-theorem $Ho(CW)$ is equivalent for instance to the [[homotopy category]] $Ho(sSet_{Quillen})$ of the standard [[model structure on simplicial sets]]. 
+By the [[homotopy hypothesis]]-theorem $Ho(CW)$ is equivalent for instance to the [[homotopy category of a model category]] $Ho(sSet_{Quillen})$ of the [[classical model structure on simplicial sets]] as well as $Ho(Top_{Quillen})$of the [[classical model structure on topological spaces]].
 
 ## Shape theory
 
@@ -51,9 +57,13 @@ The category $Ho(Top)_{he}$ can be studied by testing its objects with objects f
 
 * [[Ho(∞Grpd)]]
 
+* [[stable homotopy category]]
 
 category: category
 
 [[!redirects HoTop]]
 [[!redirects homtopy category of spaces]]
 [[!redirects homtopy category of topological spaces]]
+
+[[!redirects classical homotopy category]]
+[[!redirects classical homotopy categories]]
