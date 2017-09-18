@@ -91,6 +91,15 @@ This appears as [MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk). The topos of 
 
 +-- {: .num_prop}
 ###### Proposition
+$\not\not$ is the unique largest topology in $\mathcal{E}$ for which $0\rightarrowtail 1$ is closed.
+=--
+
+For a proof see ([Johnstone (1977)](#Johnstone77), p.140). A corollary of this is that
+
+* $0$ is always a $\not\not$-sheaf !
+
++-- {: .num_prop}
+###### Proposition
 
 For every [[presheaf topos]] $[C^{op}, Set]$ the double negation topology coincides with the [[dense topology]].
 =--
@@ -133,9 +142,11 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 ## References
 
-Section VI of
+* [[Peter Johnstone]], _Topos Theory_ , Academic Press 1977 (Dover reprint 2014). (pp.139-140) {#Johnstone77}
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Peter Johnstone]], _Sketches of an Elephant I_, Oxford UP 2002. (pp.211,219-220)
+
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (chap. VI, in particular sec.VI.1)
 {#MacLaneMoerdijk}
 
 
