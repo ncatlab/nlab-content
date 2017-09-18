@@ -171,6 +171,8 @@ For the case of [[algebraic geometry]], where $\Im X$ is known as the [[de Rham 
 
 * [[index of a differential operator]]
 
+* [[formal adjoint differential operator]]
+
 * [[D-module]]
 
 * [[Spencer cohomology]]
