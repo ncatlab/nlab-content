@@ -938,7 +938,7 @@ The [[subcategory]] $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} has the fo
 1. It is a [[coreflective subcategory]]
 
    $$
-     k Top \stackrel{\hookrightarrow}{\underset{k}{\longleftarrow}} Top
+     Top_{cg} \stackrel{\hookrightarrow}{\underset{k}{\longleftarrow}} Top
      \,.
    $$
 
@@ -994,7 +994,7 @@ Show that minimal fibrations are simplicial [[fiber bundles]], locally trivial o
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #GeometricRealizationOfKanFibrationIsSerreFibration}
 ###### Proposition
 
 The [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSets}, of any [[Kan fibration]], def. \ref{KanFibration} is a [[Serre fibration]], def. \ref{SerreFibration}.
@@ -1008,16 +1008,11 @@ This is due to ([Quillen 68](Kan+fibration#Quillen68)). See for instance ([Goers
 ### The classical homotopy category
  {#TheClassicalHomotopyCategory}
 
-[[homotopy]]
-
-* [[interval object]], [[path space object]]
-
-* [[left homotopy]], [[right homotopy]]
 
 +-- {: .num_defn #LeftHomotopyOfSimplicialSets}
 ###### Definition
 
-For $X$ a [[simplicial set]], def. \ref{SimplicialSet}, its _simplicial [[cylinder object]]_ is the [[Cartesian product]] $X\times \Delta[1]$ (formedin the [[category]] [[sSet]]).
+For $X$ a [[simplicial set]], def. \ref{SimplicialSet}, its _simplicial [[cylinder object]]_ is the [[Cartesian product]] $X\times \Delta[1]$ (formed in the [[category]] [[sSet]]).
 
 A _[[left homotopy]]_ 
 
@@ -1056,6 +1051,49 @@ $$
 
 =--
 
++-- {: .num_defn #RightHomotopyOfSimplicialSets}
+###### Definition
+
+For $Y$ a [[Kan complex]], def. \ref{SimplicialSet}, its _simplicial [[path space object]]_ is the [[function complex]] $X^{\Delta[1]}$ (formed in the [[category]] [[sSet]]).
+
+A _[[right homotopy]]_ 
+
+$$
+  \eta \;\colon\; f \Rightarrow g
+$$
+
+between two morphisms
+
+$$
+  f,g\;\colon\; X \longrightarrow Y
+$$
+
+of [[simplicial sets]] is a morphism 
+
+$$
+  \eta \colon X \longrightarrow Y^{\Delta[1]}
+$$
+
+such that the following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+    && 
+    \\
+    & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{Y^{d_1}}}
+    \\
+    X &\stackrel{\eta}{\longrightarrow}& Y^{\Delta[1]}
+    \\
+    & {}_{\mathllap{g}}\searrow & \downarrow^{\mathrlap{Y^{d_0}}}
+    \\
+    && 
+    Y
+  }
+  \,.
+$$
+
+=--
+
 +-- {: .num_prop #LeftHomotopyIsEquivalence}
 ###### Proposition
 
@@ -1071,21 +1109,197 @@ on the [[hom set]] $Hom_{sSet}(X,Y)$, is an [[equivalence relation]].
 =--
 
 
-[[homotopy groups]], [[simplicial homotopy groups]]
+the the basic invariants of [[simplicial sets]]/[[Kan complexes]] in [[simplicial homotopy theory]] are their [[simplicial homotopy groups]], to which we turn now.
+ 
+Given that a [[Kan complex]] is a special [[simplicial set]] that [[homotopy hypothesis|behaves like]] a combinatorial model for a [[topological space]], the _simplicial homotopy groups_ of a  Kan complex are accordingly the combinatorial analog of the [[homotopy groups]] of [[topological spaces]]: instead of being maps from topological [[spheres]] modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. 
 
-[[weak homotopy equivalence]]
+Accordingly, the definition of the discussion of simplicial homotopy groups is essentially literally the same as that of [[homotopy groups]] of topological spaces.  One technical difference is for instance that the definition of the group structure is slightly more non-immediate for simplicial homotopy groups than for topological homotopy groups (see below).
+
+
++-- {: .num_defn #UnderlyingSetsOfSimplicialHomotopyGroups}
+###### Definition 
+
+For $X$ a [[Kan complex]], then its **0th homotopy group** (or **set of [[connected components]]**) is the set of [[equivalence classes]] of vertices modulo the [[equivalence relation]] $X_1 \stackrel{(d_1,d_0)}{\longrightarrow} X_0 \times X_0$
+
+$$
+  \pi_0(X) \colon X_0/X_1
+  \,.
+$$
+
+For $x \in X_0$ a vertex and for $n \in \mathbb{N}$, $n \geq 1$, then the underlying [[set]]  of the **$n$th homotopy group** of $X$ at $x$ -- denoted $\pi_n(X,x)$ -- is, the set of [[equivalence classes]] $[\alpha]$ of morphisms
+
+$$
+  \alpha \colon \Delta^n \to X
+$$ 
+ 
+from the simplicial $n$-[[simplex]] $\Delta^n$ to $X$, such that these take the [[boundary of a simplex|boundary of the simplex]] to $x$, i.e. such that they fit into a [[commuting diagram]] in [[sSet]] of the form
+ 
+$$
+  \array{
+     \partial \Delta[n] & \longrightarrow &  \Delta[0]
+     \\
+     \downarrow && \downarrow^{\mathrlap{x}}
+     \\
+     \Delta[n] &\stackrel{\alpha}{\longrightarrow}& X
+   }
+  \,,
+$$
+
+
+where two such maps $\alpha, \alpha'$ are taken to be equivalent is they are related by a [[simplicial homotopy]] $\eta$
+
+$$
+  \array{
+     \Delta[n]
+     \\
+     \downarrow^{i_0} & \searrow^{\alpha}
+     \\
+     \Delta[n] \times \Delta[1]
+     &\stackrel{\eta}{\longrightarrow}&
+     X
+     \\
+     \uparrow^{i_1} & \nearrow_{\alpha'}
+     \\
+     \Delta[n]
+  }
+$$
+
+that fixes the boundary in that it fits into a [[commuting diagram]] in [[sSet]] of the form
+
+$$
+  \array{
+     \partial \Delta[n] \times \Delta[1]
+     & \longrightarrow &
+     \Delta[0]
+     \\
+     \downarrow && \downarrow^{\mathrlap{x}}
+     \\
+     \Delta[n]  \times \Delta[1]
+     &\stackrel{\eta}{\longrightarrow}&
+     X
+  }
+  \,.
+$$
+
+=--
+
+These sets are taken to be equipped with the following group structure.
+
++-- {: .num_defn #ProductOnSimplicialHomotopyGroups}
+###### Definition 
+  
+For $X$ a [[Kan complex]], for $x\in X_0$, for $n \geq 1$ and for  $f,g \colon \Delta[n] \to X$ two representatives of $\pi_n(X,x)$ as in def. \ref{UnderlyingSetsOfSimplicialHomotopyGroups}, consider the following $n$-simplices in $X_n$:
+
+$$
+  v_i 
+  \coloneqq
+  \left\{
+    \array{
+      s_0 \circ s_0 \circ \cdots \circ s_0 (x) & for \; 0 \leq i \leq  n-2
+      \\
+      f & for \; i = n-1
+      \\
+      g & for \; i = n+1
+    }
+  \right.
+$$
+
+This corresponds to a morphism $\Lambda^{n+1}[n] \to X$ from a [[horn]] of the $(n+1)$-[[simplex]] into $X$. By the [[Kan complex]] property of $X$ this morphism has an [[extension]] $\theta$ through the $(n+1)$-[[simplex]] $\Delta[n]$
+
+$$
+  \array{
+     \Lambda^{n+1}[n] & \longrightarrow & X
+     \\
+     \downarrow & \nearrow_{\mathrlap{\theta}}
+     \\
+     \Delta[n+1]
+  }
+$$
+
+From the [[simplicial identities]] one finds that the boundary of the $n$-simplex arising as the $n$th boundary piece $d_n \theta$ of $\theta$ is constant on $x$
+
+$$
+  d_i d_{n} \theta = d_{n-1} d_i \theta = x
+$$
+
+So $d_n \theta$ represents an element in $\pi_n(X,x)$ and we define a product operation on $\pi_n(X,x)$ by
+
+$$
+  [f]\cdot [g] \coloneqq [d_n \theta]
+  \,.
+$$
+
+=--
+
+(e.g. [Goerss-Jardine 96, p. 26](#GoerssJardine96))
+
++-- {: .num_remark}
+###### Remark 
+
+All the degenerate $n$-simplices $v_{0 \leq i \leq n-2}$ in def. \ref{ProductOnSimplicialHomotopyGroups} are just there so that the gluing of the two $n$-cells $f$ and $g$ to each other can be regarded as forming the boundary of an $(n+1)$-simplex except for one face. By the Kan extension property that missing face exists, namely $d_n \theta$.  This is a choice of gluing composite of $f$ with $g$.
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+The product on homotopy group elements in def. \ref{ProductOnSimplicialHomotopyGroups} is
+well defined, in that it is independent of the
+choice of representatives $f$, $g$ and of the extension $\theta$.
+
+=--
+
+e.g. ([Goerss-Jardine 96, lemma 7.1](#GoerssJardine96))
+
+
++-- {: .num_lemma}
+###### Lemma
+
+The product operation in def. \ref{ProductOnSimplicialHomotopyGroups} yields a [[group]] structure on $\pi_n(X,x)$, which is [[abelian group|abelian]] for $n \geq 2$.
+
+=--
+
+e.g. ([Goerss-Jardine 96, theorem 7.2](#GoerssJardine96))
+
++-- {: .num_remark}
+###### Remark 
+
+The first homotopy group, $\pi_1(X,x)$, is also called the _[[fundamental group]]_ of $X$. 
+
+=---
+
+
++-- {: .num_defn #WeakHomotopyEquivalence}
+###### Definition
+
+For $X,Y \in KanCplx \hookrightarrow sSet$ two [[Kan complexes]], then a morphism
+
+$$
+  f \colon X \longrightarrow Y
+$$
+
+is called a **[[weak homotopy equivalence]]** if it induces [[isomorphisms]] on all [[simplicial homotopy groups]], i.e. if
+
+1. $\pi_0(f) \colon \pi_0(X) \longrightarrow \pi_0(Y)$ is a [[bijection]] of sets;
+
+1. $\pi_n(f,x) \colon \pi_n(X,x) \lonrightarrow \pi_n(Y,f(x))$ is an [[isomorphism]] of [[groups]] for all $x\in X_0$ and all $n \in \mathbb{N}$; $n \geq 1$.
+
+=--
+
+
+
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $S$ a [[Kan complex]], then the [[adjunction unit|unit]] of the [[nerve and realization]]-[[adjunction]] 
+For $S$ a [[Kan complex]], then the [[adjunction unit|unit]] of the [[nerve and realization]]-[[adjunction]] (prop. \ref{NerveAndRealizationAdjunction}, example \ref{TopologicalRealizationOfSimplicialSets})
 
 $$
   S \longrightarrow Sing {\vert S \vert}
 $$
 
-is a [[weak homotopy equivalence]]. 
+is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalence}.
 
 For $X$ any [[topological space]], then the [[adjunction counit]] 
 
@@ -1099,6 +1313,12 @@ is a [[weak homotopy equivalence]]
 
 e.g. ([Goerss-Jardine 96, chapter I, prop. 11.1 and p. 63](#GoerssJardine96)).
 
++-- {: .proof}
+###### Proof idea
+
+Use prop. \ref{SingDetextsAndReflectsFibrations} and prop. \ref{GeometricRealizationOfKanFibrationIsSerreFibration} applied to the [[path fibration]] to proceed by [[induction]].
+
+=--
 
 With this we finally arrive at a presentation of the classical homotopy category. For our purposes the following may be taken to be a definition, otherwise it is part of the theorem of ([Quillen 67](model+structure+on+simplicial+sets#Quillen67)), known sometimes as the _[homotopy hypothesis for Kan complexes](homotopy hypothesis#ForKanComplexes)_.
 
@@ -1113,6 +1333,8 @@ is [[equivalence of categories|equivalently]] the category whose
 * [[morphisms]], are left-[[homotopy classes]], def. \ref{LeftHomotopyIsEquivalence}, of morphisms of simplicial sets.
 
 =--
+
+### Homotopy fiber sequences
 
 [[homotopy fiber]], [[homotopy cofiber]]
 
@@ -1272,7 +1494,7 @@ Here "$(-)^{-1}$" denotes the inverse of the [[2-morphism]] ([[homotopies]]). Si
 
 
 
-[[long exact sequence of homotopy groups]]
+...[[long exact sequence of homotopy groups]]...
 
 
 (...)
