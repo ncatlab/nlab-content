@@ -122,3 +122,6 @@ This is a convergent subnet.
 [[!redirects sequential compactness]]
 [[!redirects sequentially compact space]]
 [[!redirects sequentially compact spaces]]
+
+[[!redirects sequentially compact metric space]]
+[[!redirects sequentially compact metric spaces]]
