@@ -20,6 +20,8 @@ Evaluating at $n=1$, we compute that $P$ contains 14 distinct intervals.
 
 ## Properties
 
+### Relation to order polynomial
+
 The [[order polynomial]] is related to the  zeta polynomial by the equation
 $$
 \Omega(P;n+2) = Z(I(P);n)
@@ -28,6 +30,18 @@ where $I(P) \cong [P,[1]]$ is the lattice of [[lower sets]] in $P$.
 This can be seen as a consequence of the isomorphisms
 $$Hom(P, [n+1]) \cong Hom(P, [[n],[1]]) \cong Hom(P\times [n],[1]) \cong Hom([n], [P,[1]])$$
 applying the isomorphism $[n+1] \cong [[n],[1]]$ together with [[currying]].
+
+### Relation to zeta function
+
+Using the formalism of [[incidence algebras]], the zeta polynomial has a simple expression in terms of the _zeta function_ (defined by $\zeta_P(x,y) = 1$ if $x\le y$ and $\zeta_P(x,y) = 0$ otherwise):
+$$Z(P;n) = \sum_{x,y\in P} \zeta_P^n(x,y)$$
+In other words, the zeta polynomial is the sum of the entries in the $n$-fold convolution product of the zeta function (seen as a matrix). This follows immediately from the definition of the convolution product,
+$$(f\cdot g)(x,y) = \sum_{x \le z \le y} f(x,z) \cdot g(z,y)$$
+since $\zeta_P^n(x,y)$ is just the number of multichains of length $n$ in $P$ from $x$ to $y$.
+ 
+As a special case, if $P$ has both a [[bottom]] element 0 and a [[top]] element 1, then
+$$Z(P;n) = \zeta_P^{n+2}(0,1)$$
+since an arbitrary multichain $x_0 \le x_1 \le \cdots \le x_n$ of length $n$ can be extended to a multichain $0 \le x_0 \le x_1 \le \cdots \le x_n \le 1$ of length $n+2$ between 0 and 1.
 
 ## Related concepts
 
