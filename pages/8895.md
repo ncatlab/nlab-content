@@ -130,6 +130,8 @@ See also
 
 * {#Tanaka16} [[Hiro Lee Tanaka]], _Functors (between $\infty$-categories) that aren't strictly unital_ ([arXiv:1606.05669](http://arxiv.org/abs/1606.05669))
 
+* Wolfgang Steimle, _Degeneracies in quasi-categories_, [arxiv:1702.08696](https://arxiv.org/abs/1702.08696)
+
 
 [[!redirects semiSegal space]]
 [[!redirects semi Segal space]]
