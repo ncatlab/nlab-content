@@ -39,6 +39,10 @@ What us _uniform_ about this convergence is that the bound $N(\epsilon)$ is requ
 
 * [[pointwise convergence]]
 
+* [[uniformly continuous map]]
+
+* [[uniform property]]
+
 ## References
 
 * Wikipedia, _[Uniform convergence](https://en.wikipedia.org/wiki/Uniform_convergence)_
