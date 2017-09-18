@@ -21,7 +21,7 @@ Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Ca
 
 A _$G_2$-manifold_ is a manifold equipped with $G_2$-structure that is [[integrability of G-structures|integrable to first order]], i.e. [[torsion of a G-structure|torsion-free]] (prop. \ref{CovariantlyConstantDefinite3FormMeansTorsionVanishes} below). This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G2]]. 
 
-$G_2$-manifolds may be understood as 7-dimensional [[analogs]] of real 6-dimensional [[Calabi-Yau manifolds]].
+$G_2$-manifolds may be understood as 7-dimensional [[analogs]] of real 6-dimensional [[Calabi-Yau manifolds]]. Accordingly the relation between [[Calabi-Yau manifolds and supersymmetry]] lifts from [[string theory]] to [[M-theory on G2-manifolds]].
 
 ## Definition
 
@@ -71,6 +71,91 @@ a choice of definite 3-form $\sigma$ on $X$, def. \ref{Definite3Forms}.
 =--
 
 (e.g. [Joyce 00, p. 243](Joyce00), [Bryant 05, section 3.1.1](#Bryant05))
+
+Often it is useful to exhibit prop. \ref{G2StructureViaDefinite3Form} in the following way.
+
++-- {: .num_example #DefiniteFormsInTermsOfVielbeinFields}
+###### Example
+
+For $X$ a [[smooth manifold]] of [[dimension]] 7, write $Fr(X) \to X$ for its [[frame bundle]]. By the discussion at _[vielbein -- in terms of basic forms on the frame bundle](vielbein#InTermsOfBasicFormsOnFrameBundle)_ there is a universal $\mathbb{R}^7$-valued differential form on the total space of the frame bundle
+
+$$
+  E_u \in \Omega^1(Fr(X), \mathbb{R}^7)
+$$
+
+(whose components we write $(E_u^a)_{a = 1}^7$) such that given an [[orthogonal structure]] $i \colon Fr_O(X)\hookrightarrow Fr(X)$ and a local section $\sigma_i \colon (U_i \subset X) \to Fr_O(X)$ of orthogonal frames, then the [[pullback of differential forms]]
+
+$$
+  E_i \coloneqq \sigma_i^\ast i^\ast E_u
+$$
+
+is the corresponding local [[vielbein]] field. Hence one obtains a universal 3-form $\phi_u \in \Omega^3(Fr(x))$ on the frame bundle by setting
+
+$$
+  \phi_u \coloneqq \phi_{a b c} E_u^a \wedge E_u^b \wedge E_u^c
+$$
+
+with $(\phi_{a b c})$ the canonical components of the [[associative 3-form]] and with summation over repeated indices understood.
+
+By construction this is such that on a [[chart]] $(U_i \subset X)$ any definite 3-form, def. \ref{Definite3Forms}, restricts to the [[pullback of differential forms|pullback]] of $\phi_u$ via a [[section]] $\sigma_i \colon U_i \to Fr(X)$ and hence is of the form
+
+$$
+  \phi_{a b c} E_i^a \wedge E_i^b \wedge E_i^c
+  \,.
+$$
+
+Conversely, given a 3-form $\sigma \in \Omega^3(X)$ such that on an [[atlas]] $(U_i \to X)$ over which the frame bundle trvializes it is of this form
+
+$$
+  \sigma|_{U_i} = \phi_{a b c} E_i^a \wedge E_i^b \wedge E_i^c
+$$
+
+then the $GL(7)$-valued transition functions $g_{i j}$ of the given local trivialization must factor through $G_2\hookrightarrow SO(7) \hookrightarrow GL(7)$ and hence exhibit a $G_2$-structure: because we have  $\sigma|_{U_i} = \sigma|_{U_j} \;\;\; on \;U_i \cap U_j$ and hence 
+
+\[
+  \label{Definite3FormsOnTwoPatches}
+   \phi_{a b c} E_i^a \wedge E_i^b \wedge E_i^c
+   =
+   \phi_{a b c} E_j^a \wedge E_j^b \wedge E_j^c
+   \;\;\;
+    on \; U_i \cap U_j
+  \,.
+\]
+
+But by the nature of the [universal vielbein](vielbein#InTermsOfBasicFormsOnFrameBundle), its local pullbacks are related by
+
+$$
+  E_j = g_{i j} E_i
+$$
+
+i.e. 
+
+$$
+  E_j^a = (g_{i j})^a{}_b E_i^b
+$$
+
+and hence (eq:Definite3FormsOnTwoPatches) says that
+
+$$
+   \phi_{a b c}
+   =
+   \phi_{a' b' c'} (g_{i j})^{a'}{}_a (g_{i j})^{b'}{}_b (g_{i j})^{c'}{}_c
+   \;\;\;
+    on \; U_i \cap U_j
+$$
+
+which is precisely the defining condition for $g_{i j}$ to take values in $G_2$.
+
+Viewed this way, the definite 3-forms characterizing $G_2$-structures are an example of a more general kind of differential forms obtained from a constant form on some linear model space $V$ by locally contracting with a [[vielbein]] field. For instance on a [[super-spacetime]] solving the [[equations of motion]] of  [[11-dimensional supergravity]] there is a super-4-form part of the [[field strength]] of the [[supergravity C-field]] which is cnstrained to be locally of the form
+
+$$
+  \Gamma_{a b \alpha \beta} E_i^a \wedge E_i^b \wedge E_i^\alpha \wedge E_i^\beta
+$$
+
+for $(E^A)= (E^a, E^\alpha) = (E^a, \Psi^\alpha)$ the [[super-vielbein]].  See at _[Green-Schwarz action functional -- Membrane in 11d SuGra Background](Green-Schwarz+action+functional#MembraneIn11dSuGraBackground)_. Indeed, by the discussion there this 4-form is required to be [[covariant derivative|covariantly constant]], which is precisely the analog of $G_2$-manifold structure as in def. \ref{G2manifold}.
+
+=--
+
 
 The following is important for the analysis:
 
