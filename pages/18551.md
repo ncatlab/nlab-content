@@ -1,5 +1,5 @@
 
-* [wbpage](https://www.uibk.ac.at/techmath/michael/)
+* [webpage](https://www.uibk.ac.at/techmath/michael/)
 
 
 ## related $n$Lab entries
