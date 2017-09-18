@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
@@ -422,16 +426,26 @@ are $(\infty,1)$-pullbacks in $\mathbf{H}$. This is clearly always the case.
 
 =--
 
+### As a classifying topos
+
+The Siepinski topos is the [[classifying topos]] for [[subterminal objects]] in [[toposes]] (see e.g. [Johnstone 77, p. 117](#Johnstone77)).
+
+
+
 ## References
 
 The Sierpinski topos is mentioned around remarks A2.1.12, B3.2.11 (p.83, p.387f) in 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. I_, Oxford UP 2002.
 
+See also
+
+* {#Johnstone77} [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
+
 The [[homotopy type theory]] of the Sierpinski $(\infty,1)$-topos is discussed in 
 
-* [[Mike Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253)) 
- {#Shulman}
+* {#Shulman} [[Mike Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253)) 
+ 
 
 Cohesion of the Sierpinski $\infty$-topos is discussed in section 2.2.4 of
 
