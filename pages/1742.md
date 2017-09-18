@@ -32,6 +32,7 @@ $$ L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L $$
 and 
 $$ R\stackrel{\eta R}\to R L R \stackrel{R\epsilon}\to R $$
 are identities.
+(Here, the composition of the $1$- with the $2$-morphisms is sometimes called [[whiskering]].)
 
 
 ### As diagrams
