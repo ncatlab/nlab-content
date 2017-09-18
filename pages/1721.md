@@ -120,6 +120,18 @@ such that:
      \,.
    $$
 
+We say $\tilde E^\bullet$ is **additive** if in addition
+
+* **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
+
+  $$
+    \tilde E^\bullet(\vee_{i \in I} X_i) 
+    \longrightarrow
+    \prod_{i \in I} \tilde E^\bullet(X_i)
+  $$
+
+  from the functor applied to their [[wedge sum]], example \ref{WedgeSumAsCoproduct}, to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
+
 =--
 
 (e.g. [AGP 02, def. 12.1.4](#AGP02))
@@ -184,9 +196,12 @@ such that:
 
    is an [[isomorphism]].
 
-1. **(additivity)** If $ (X, U) = \coprod_i (X_i, U_i)$, then $E^n(X, U) = \coprod_i E^n(X_i, U_i)$.
-
 1. **([[excision]])** For $S \hookrightarrow U \hookrightarrow X$. the natural inclusion of the pair $i \colon (X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
+
+We say $E^\bullet$ is **additive** if in addition
+
+* **(additivity)** If $ (X, U) = \coprod_i (X_i, U_i)$, then the canonical comparison morphism gives $E^n(X, U) \simeq \prod_i E^n(X_i, U_i)$.
+
 
 =--
 
@@ -194,7 +209,9 @@ e.g. [AGP 02, def. 12.1.1 ](#AGP02).
 
 A generalized cohomology theory is called _ordinary_ if in addition 
 
-* **Dimension**: $E^n(pt) = 0$.
+* **Dimension**: $E^{\bullet \neq 0}(\ast) = 0$.
+
+
 
 ### Relation between reduced and unreduced cohomology
  {#RelationBetweenReducedAndUnreduced}
