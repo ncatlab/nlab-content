@@ -52,7 +52,10 @@ There is a [[natural isomorphism]] between
 
 The proof is spelled out at [[affine line]] in the section <a href="http://nlab.mathforge.org/nlab/show/affine+line#Properties">Properties</a>.
 
-##Example with $G$ not necessarily abelian.
+## Examples 
+
+
+### Group ring
 
 Let $G$ be any (discrete) group and $k[G]$, its [[group algebra]]. This has a direct sum decomposition as a $k$-module,
 
@@ -63,6 +66,11 @@ where each $L_g$ is a one dimensional free $k$-module, for which it is convenien
 $$\ell_{g_1}\cdot \ell_{g_2} = \ell_{g_1g_2},$$
 
 given on basis elements, by $k$-linearity.
+
+### Lazard ring
+
+The [[Lazard ring]], carrying the universal (1-dimensional, commutative) [[formal group law]] is naturally an $\mathbb{N}$-graded ring.
+
 
 [[!redirects graded algebras]]
 
