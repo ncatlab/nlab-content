@@ -287,6 +287,8 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 
 * [[worldline formalism]]
 
+* [[Schinger-Dyson equation]]
+
 ## References
 
 ### General
