@@ -36,15 +36,25 @@ While a full theory of quantum gravity still eludes us, a theory of quantum fiel
 
 ## References
 
-Gereneral accounts of (perturbative) quantum field theory on curved spacetiems includes
+Gereneral accounts of (perturbative, algebraic) quantum field theory on curved spacetimes includes
 
-* N.D. Birrell, P.C.W.Davies, _Quantum  Fields in Curved Space_, Cambridge:  Cambridge University Press, 1982
+* N. Birrell, P.  Davies, _Quantum  Fields in Curved Space_, Cambridge:  Cambridge University Press, 1982
 
 * [[Robert Wald]], _Quantum field theory in curved spacetime and black hole thermodynamics_. Univ. of Chicago Press 1994 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0842.53052&format=complete)).
 
-
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
+* [[Christopher Fewster]], [[Rainer Verch]], _Algebraic quantum field theory in curved spacetimes_ ([arXiv:1504.00586](https://arxiv.org/abs/1504.00586))
+
+Foundations for [[perturbative quantum field theory]] on curved spacetimes in terms of [[causal perturbation theory]] were laid in 
+
+* {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661, 2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
+
+* {#HollandsWald01} [[Stefan Hollands]], [[Robert Wald]], _Local Wick Polynomials and Time Ordered Products of Quantum Fields in Curved Spacetime_, Commun. Math. Phys. 223:289-326,2001 ([arXiv:gr-qc/0103074](https://arxiv.org/abs/gr-qc/0103074))
+
+* {#HollandsWald02} [[Stefan Hollands]], [[Robert Wald]], _On the Renormalization Group in Curved Spacetime_, Commun. Math. Phys. 237 (2003) 123-160 ([arXiv:gr-qc/0209029](https://arxiv.org/abs/gr-qc/0209029))
+
+* {#HollandsWald04} [[Stefan Hollands]], [[Robert Wald]], _Conservation of the stress tensor in perturbative interacting quantum field theory in curved spacetimes_, Rev.Math.Phys. 17 (2005) 227-312 ([arXiv:gr-qc/0404074](https://arxiv.org/abs/gr-qc/0404074))
 
 The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzian manifolds]] ([[locally covariant perturbative quantum field theory]]) is due to
 
