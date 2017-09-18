@@ -201,3 +201,4 @@ is just the identity map, using that $Obj(G) = G$ and $Mor(\mathbf{B}G) = G$.
 
 
 [[!redirects deloopings]]
+[[!redirects delooped group]]
