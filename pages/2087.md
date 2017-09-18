@@ -122,7 +122,7 @@ The top element $1$ of $Idl(R)$ is also a *[[compact element]]*. In general, and
 
 Finally, in a quantale $Q$, we say an element $p \in Q$ is *prime* if for all $a, b \in Q$ we have $a b \leq p$ implies $a \leq p$ or $b \leq p$. Prime elements in $Idl(R)$ are precisely prime ideals of $R$. 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #quantale} 
 ###### Theorem 
 (ZF + UF) Every nontrivial compact affine quantale has a prime element. 
 =-- 
@@ -151,7 +151,7 @@ $$1 = (c \vee x_1 \vee \ldots \vee x_{n-1}) \vee y_n = (y_n \vee c) \vee x_1 \ve
 and we proceed by induction to show $1 = c \vee y_1 \vee \ldots \vee y_n$, which implies $1 \leq c \vee \bigvee_{i \in I} y_i$. Similarly, $1 = c \vee \bigvee_i y_i$ implies $1 = c \vee \bigvee_i x_i$, and so we are done. 
 =-- 
 
-+-- {: .num_prop} 
++-- {: .num_prop #quot} 
 ###### Proposition 
 The quotient quantale $Q/\equiv$ is a nontrivial compact frame. 
 =-- 
@@ -169,33 +169,55 @@ We have $\neg (0 \equiv 1)$ since ($0 \vee c = 1$ iff $1 \vee c = 1$) fails for 
 To show $Q/\equiv$ is compact, suppose $\{x_i\}_{i \in I}$ is a family in $Q$ such that $\bigvee_i x_i \equiv 1$, in other words such that $c \vee \bigvee_i x_i = 1$ for all $c \in Q$. Setting $c = 0$ and applying compactness of $Q$, there is a finite subfamily $F$ such that $\bigvee_{i \in F} x_i = 1$, and then $\bigvee_{i \in F} x_i \equiv 1$ which proves compactness of $Q/\equiv$. 
 =-- 
 
-+-- {: .num_prop} 
-###### Proposition 
-Denote the $\equiv$-class of $p \in Q$ by $[p]$, and suppose $[p]$ is a prime element of $Q/\equiv$. Then $p$ is a prime element of $Q$. 
+The quantale quotient map $Q \to Q/\equiv$ preserves arbitrary sups and thus has a right adjoint $\pi: Q/\equiv \to Q$, by the poset form of the [[adjoint functor theorem]]. If we denote the $\equiv$-class of an element $a \in Q$ by $[a]$, then for $c \in Q/\equiv$ the element $\pi(c)$ is given by the explicit formula 
+
+$$\pi(c) = \bigvee \{y \in Q: [y] \leq c\}.$$ 
+
++-- {: .num_lemma #inverse} 
+###### Lemma  
+If $c$ is prime in $Q/\equiv$, then $\pi(c)$ is prime in $Q$. 
 =-- 
 
++-- {: .proof} 
+###### Proof 
+For elements $a, b \in Q$ we have 
 
-+-- {: .num_theorem} 
-###### Theorem 
+$$\array{
+a b \leq \pi(c) & iff & [a b] \leq c & since \; [-] \dashv \pi \\ 
+ & iff & [a] \cdot [b] \leq c & since \; [-]\; is\; a\; quantale\; map \\ 
+ & iff & ([a] \leq c) \vee ([b] \leq c) & since \; $c$ \; is\; prime \\ 
+ & iff & (a \leq \pi(c)) \vee (b \leq \pi(c))
+}$$ 
+
+which completes the proof. 
+=-- 
+
+The proof of Theorem \ref{quantale} is immediate: 
+
++-- {: .proof} 
+###### Proof 
+Given that $Q$ is a nontrivial compact affine quantale, $Q/\equiv$ is a nontrivial compact frame by Proposition \ref{quot}. Then $Q/\equiv$ has a prime element $c$ by Banaschewski's lemma, whence $Q$ has a prime element by Lemma \ref{inverse}. 
+=--
+
+
++-- {: .num_cor} 
+###### Corollary 
 **(PIT for rings)** 
 Every unital ring $R$ has a prime ideal under ZF + (UF). 
 =-- 
 
-We sketch a proof of this due to Banaschewski. 
-
-+-- {: .proof} 
-###### Proof 
-Let $k: Ideal(R) \to Ideal(R)$ be the [[closure operator]] that takes an ideal $I$ to its Jacobson radical (i.e., the intersection of all maximal left ideals containing $I$). This operator preserves directed joins and in addition satisfies the following properties: 
++-- {: .num_remark} 
+###### Remark 
+See also [Banaschewski-Harting](#BH). We remark that the nucleus $k$ on $Idl(R)$ formed by the composition $k = \pi \circ [-]: Idl(R) \to Idl(R)$ has the following properties: 
 
 * $k(I \cap J) = k(I J) = k(I) \cap k(J)$, 
 
 * $k(J) = 1$ implies $J = 1$. 
 
-The lattice of ideals forms a [[quantale]] whose multiplication is multiplication of ideals $I J$; accordingly, if $Jac(R)$ denotes the lattice of fixed points of $k$, then the first property implies that $Jac(R)$ is a [[locale]]. Moreover $1$ is a compact element of the quantale $Ideal(R)$, hence is a compact element of the locale $Jac(R)$ by the second property. Thus Banaschewski's lemma implies that $Jac(R)$ has a prime element. Such a prime element is a prime ideal equal to its Jacobson radical, by [Banaschewski-Harting](#BH). 
+These properties are all that is needed to verify that the fixed points of $k$ (corresponding to the quotient $Idl(R)/\equiv$) forms a compact frame to which we can apply Banaschewski's lemma. For example, the nucleus obtained by taking the Jacobson radical has these properties, as do other radicals considered in noncommutative ring theory (Levitski radical, Brown-McCoy radical). 
 =-- 
 
-
-
+### Generalized prime ideal theorems 
 
 ## References 
 
