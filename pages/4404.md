@@ -21,6 +21,10 @@ Mostly the term is used for smooth structures on [[Euclidean space]] $\mathbb{R}
 
 For special values of $n$ there may exist smooth structure not equivalent to these. They are the _exotic smooth structures_.
 
+A classification of [[smooth manifold|smooth]], [[piecewise-linear manifold|PL]] and [[topological manifold|topological]] structures on manifolds in dimension 5  and higher, in terms of various groups from [[algebraic topology]] (many not known) was established by [Kirby and Siebenmann (1977)](#KirbSieb) using [[obstruction theory]].
+
+
+
 ## Existence and Examples
 
 ### No exotic smooth structure in dimensions $\leq 3$
@@ -67,17 +71,21 @@ By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic s
 For the [[7-sphere]], it is the [[cyclic group]] $Z/{28}$ and Brieskorn (1966) found the generator $\Sigma$ so that $\underbrace{\Sigma\#\cdots\#\Sigma}_28$ is the standard sphere.
 
 ### Exotic $n$-spheres for $n \geq 5$
+ {#ExoticNSpheresForNGreaterThanFour}
 
 Via the celebrated [[h cobordism theorem]] of Smale ([Smale 1962](#Smale), [Milnor 1965](#Milnor1965a)) one gets a relation between the number of smooth structures on the $n$-sphere $S^n$ (for $n \geq 5$) and the number of [[isotopy]] classes $\pi_0 (Diff(S^{n-1}))$ of the [[equator]] $S^{n-1}$. 
 
-Then [Kervaire and Milnor (1963)](#KervMil) proved that there are only finitely many exotic smooth structures on all spheres in dimension 5 or higher. 
+Then [Kervaire and Milnor (1963)](#KervMil) proved that for each $n \geq 5$ there are only finitely many exotic smooth structures on the [[n-sphere]] $S^n$ (possibly none).
 
 By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic structures on the $n$-sphere has the structure of an [[abelian group]]. 
 
+The only odd-dimensional spheres with _no_ exotic smooth structure are the [[circle]] $S^1$, the [[3-sphere]] $S^3$, as well as $S^5$ and $S^{61}$ ([Wang-Xu 16, corollary 1.13](#WangXu16))
 
-### Exotic smooth structures in dimension $\geq 5$
+In the range $5 \leq n  \leq 61$ the only $n$-spheres with no exotic smooth structures are $S^5$, $S^6$, $S^{12}$, $S^{56}$ and $S^{61}$ ([Wang-Xu 16, corollary 1.15](#WangXu16)).
 
-A complete classification of [[smooth manifold|smooth]], [[piecewise-linear manifold|PL]] and [[topological manifold|topological]] structures on manifolds in dimension 5 and higher was established by [Kirby and Siebenmann (1977)](#KirbSieb) using [[obstruction theory]].
+It is conjectured that this exhausts in fact all examples of $n$-spheres without exotic smooth structure for $n \geq 5$ ([Wang-Xu 16, conjecture 1.17](#WangXu16)).
+
+
 
 
 
@@ -139,6 +147,7 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 
 * {#Milnor1965b} Milnor, John W. (1965b) _Topology from the Differentiable Viewpoint_ (University Press of Virginia)
 
+* {#WangXu16} Guozhen Wang, Zhouli Xu, _The triviality of the 61-stem in the stable homotopy groups of spheres_ ([arXiv:1601.02184](https://arxiv.org/abs/1601.02184))
 
 On the open issue of exotic [[4-spheres]]:
 
