@@ -647,8 +647,11 @@ Discussion in terms of [[Thom classes]]:
 
 * {#Rudyak98} [[Yuli Rudyak]], _In Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
 
-
 * [[Jacob Lurie]], lecture 5 of _[[Chromatic Homotopy Theory]]_, 2010 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
+
+* [[eom]], _[Orientation](http://eom.springer.de/o/o070200.htm)_
+
+* [[Manifold Atlas]], _[Orientation of manifolds in generalized cohomology theories](http://www.map.mpim-bonn.mpg.de/Orientation_of_manifolds_in_generalized_cohomology_theories)_
 
 A comprehensive account of the general abstract persepctive (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
 
@@ -666,9 +669,7 @@ which are motivated towards constructing the [[string orientation of tmf]], base
 
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
-Orientation of vector bundles in $E$-cohomology is discussed for instance in
 
-* [[eom]], _[Orientation](http://eom.springer.de/o/o070200.htm)_
 
 [[!redirects Thom class]]
 [[!redirects Thom classes]]
