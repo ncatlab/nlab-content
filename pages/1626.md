@@ -326,6 +326,8 @@ Roughly speaking, Henderson's $f$ is a small "notched" perturbation of the squar
 
 * A space in which the only connected subspaces are the singletons and the empty set is called [[totally disconnected space]].
 
+* The connected subsets of a space form a [[connectology]].
+
 
 ## References 
 
