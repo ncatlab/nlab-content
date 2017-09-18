@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -239,6 +239,9 @@ There is a [[model structure on dg-coalgebras]].
 
 ## Properties
 
+### As filtered colimits of finite-dimensional pieces
+ {#AsFilteredColimits}
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -246,15 +249,16 @@ Every dg-coalgebra is the [[filtered colimit]] of its finite-dimensional sub-dg-
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-This is in
-
-* [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
+This is due to ([Getzler-Goerss 99](#GetzlerGoerss99)), in generalization to the analogous fact for plain [[coalgebras]], see at _[coalgebra -- As filtered colimits](coalgebra#AsFilteredColimits)_. This plays a role for instance for constructing [[model structures for L-infinity algebras]], see [there](model+structure+for+L-infinity+algebras#OnProAlg).
 
 
-=--
+## References
+
+The [[model structure on dg-coalgebras]] is due to 
+
+* {#GetzlerGoerss99} [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_, 1999 ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps), [[GetzlerGoerss99.pdf:file]])
+
+
 
 
 
