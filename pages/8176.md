@@ -48,8 +48,9 @@ $$
 
 where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coefficients]] in the genuine equivariant cohomology groups of the fiber.
 
+## Consequences
 
-## Related concepts
+* [[Serre long exact sequence]]
 
 * [[Gysin sequence]]
 
