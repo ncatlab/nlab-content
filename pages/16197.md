@@ -77,7 +77,7 @@ The experimental data supporting the model is due to
 
 * {#PlanckCollaboration15XIII} [[Planck Collaboration]], _Planck 2015 results. XIII. Cosmological parameters_ ([arXiv:1502.01589](http://xxx.lanl.gov/abs/1502.01589))
 
-* {#PlanckCollaboration15XX} [[Planck Collaboration]], _Planck 2015 results. XX. Constraints on inflation_ ([pdf](http://www.cosmos.esa.int/documents/387566/522789/Planck_2015_Results_XX_Constraints_Inflation.pdf/))
+* {#PlanckCollaboration15XX} [[Planck Collaboration]], _Planck 2015 results. XX. Constraints on inflation_ ([arXiv:1502.02114](http://arxiv.org/abs/1502.02114))
 
 
 Review and exposition includes
