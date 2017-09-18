@@ -4002,7 +4002,7 @@ $$
   \,,
 $$
 
-which, with the [[Yoneda embedding understood]], we write simply as
+which, with the [[Yoneda embedding]] understood, we write simply as
 
 $$
   \underline{Aut}(\omega)
