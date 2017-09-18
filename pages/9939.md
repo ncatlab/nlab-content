@@ -223,7 +223,7 @@ The Bousfield localization at the [[Moore spectrum]] $S \mathbb{Z}_{(p)}$ is [[p
 
 =--
 
-(#Bousfield79))) ([Bauer 11, example 1.7](#Bauer11)). See at _[[localization of a space]]_ for details in this.
+([Bousfield 79](#Bousfield79)), [Bauer 11, example 1.7](#Bauer11)). See at _[[localization of a space]]_ for details on this.
 
 +-- {: .num_prop #pLocalizationIsSmashing}
 ###### Proposition
