@@ -1,5 +1,3 @@
-[Homepage](http://maths.mq.edu.au/~slack/) of Steve Lack.
 
-Winner of [The Australian Mathematical Society Medal](http://www.austms.org.au/The+Australian+Mathematical+Society+Medal) for 2009.
 
-category: people
+see _[[Stephen Lack]]_
