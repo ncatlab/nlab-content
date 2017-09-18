@@ -18,13 +18,26 @@
 
 In the context of [[Goodwillie calculus]] the _Taylor tower_ of an [[(∞,1)-functor]] to a [[Goodwillie-differentiable (∞,1)-category]] is its stagewise approximation by [[n-excisive (∞,1)-functors]] which is analogous to the approximation of a [[smooth function]] by its [[Taylor series]].
 
+## Properties
+
+### Convergence
+
+(...) ([Goodwillie 03, theorem 1.13](#Goodwillie03))
+
 ## Related concepts
+
+* [[n-excisive (∞,1)-functor]]
 
 * [[Postnikov tower]], [[chromatic tower]]
 
 ## References
 
-* [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
- {#Goodwillie03}
+* {#Goodwillie03} [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
+ 
 
+[[!redirects Goodwillie-Taylor towers]]
+
+[[!redirects Taylor tower]]
 [[!redirects Taylor towers]]
+
+[[!redirects Goodwillie-Taylor series]]
