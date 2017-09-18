@@ -32,7 +32,7 @@ In a [[topological space]] $X$, let a _point_ in $X$ be an element of $X$ and le
 
 Then a set $U$ is a __neighbourhood__ of a point $x$ if there exists an [[open set]] $G$ such that $x \in G$ and $G \subseteq U$.
 
-A set $U$ is an __open neighbourhood__ of a point $x$ if $U$ is open and $x \in U$; many authors use the simple term 'neighbourhood' only for *open* neibhourhoods.
+A set $U$ is an __open neighbourhood__ of a point $x$ if $U$ is open and $x \in U$; many authors use the simple term 'neighbourhood' only for *open* neighbourhoods.
 
 As the term implies, an open neighbourhood is precisely a neighbourhood that is open.  One can also define _closed neighbourhoods_, _compact neighbourhoods_, etc.
 
