@@ -103,3 +103,6 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 [[!redirects homotopy 3-type]]
 [[!redirects homotopy 3-types]]
 
+
+[[!redirects truncated type]]
+[[!redirects truncated types]]
