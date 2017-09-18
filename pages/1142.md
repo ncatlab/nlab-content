@@ -30,7 +30,7 @@ The standard **monoidal**  structure on presheaves $PSh := [S^{op}, Set]$ is the
 Recalling that [[limit]]s of [[presheaf|presheaves]] are computed objectwise, this is the pointwise [[cartesian monoidal category|cartesian]] product in [[Set]]: for two presheaves $F, G$ their product presheaf $F \times G$ is given by
 
 $$
-  F \times G : U \mapsto
+  F \times G = U \mapsto
   F(U) \times G(U)
   \,,
 $$
@@ -50,7 +50,7 @@ $$
 exists and is given by
 
 $$
-  [F,G] : U \mapsto Hom_{PSh}( Y(U)\times F, G )
+  [F,G] = U \mapsto Hom_{PSh}( Y(U)\times F, G )
   \,,
 $$
 
@@ -102,7 +102,7 @@ $$
 is expressed for all $F,G \in PSh(X)$ by
 
 $$
-  hom(F,G) : U \mapsto Hom_{PSh(U)}(F|_U, G|_U)
+  hom(F,G) = U \mapsto Hom_{PSh(U)}(F|_U, G|_U)
   \,.
 $$
 
@@ -118,6 +118,23 @@ $S_U = S_X/U$;
 $((-)\times y(U) \stackrel{p_2}{\to} y(U)) : PSh(S_X) \to PSh(S_X)/y(U)$;
 * and that $Hom_{PSh(S_X)/y(U)}(y(U) \times F, y(U) \times G) \simeq Hom_{PSh(S_X)}(y(U) \times F, G)$.
 
+## Presheaves over a monoidal category
+
+It is worth noting that in the case where $X$ is itself a [[monoidal category]] $(X, \otimes, I)$, $Psh(X)$ is equipped with another (bi)closed monoidal structure given by the [[Day convolution]] product and its componentwise right adjoints.  Let $F$ and $G$ be two presheaves over $X$.  Their tensor product $F \star G$ can be defined by the following [[coend]] formula:
+
+$$F\star G = U \mapsto \int^{U_1,U_2\in X} Hom_X(U_1\otimes U_2, U) \times F(U_1) \times G(U_2)$$
+
+Then we can define two right adjoints 
+
+$$F\star - \dashv [F,-]^\star_\ell
+\qquad -\star G \dashv [G,-]^\star_r$$
+
+by the following [[end]] formulas:
+
+$$[F,H]^\star_\ell = V \mapsto \int_{U\in X} F(U) \to H(U\otimes V)$$
+$$[G,H]^\star_r = U \mapsto \int_{V\in X} G(V) \to H(U\otimes V)$$
+
+In the case where the monoidal structure on $X$ is cartesian, the induced closed monoidal structure on $Psh(X)$ coincides with the cartesian closed structure described in the previous sections.
 
 ## References
 
