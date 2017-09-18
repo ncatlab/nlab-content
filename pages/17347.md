@@ -155,7 +155,7 @@ such that:
      \,.
    $$
 
-1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]], def. \ref{ConeAndMappingCylinder}, then this gives an [[exact sequence]] of graded abelian groups
+1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ConeAndMappingCylinder)), then this gives an [[exact sequence]] of graded abelian groups
 
    $$
      \tilde E^\bullet(Cone(i)) 
@@ -176,7 +176,7 @@ We say $\tilde E^\bullet$ is **additive** if in addition
     \prod_{i \in I} \tilde E^\bullet(X_i)
   $$
 
-  from the functor applied to their [[wedge sum]], example \ref{WedgeSumAsCoproduct}, to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
+  from the functor applied to their [[wedge sum]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct)), to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
 
 We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$ is concentrated in degree 0:
 
@@ -222,7 +222,7 @@ $$
   Ho(Top^{\ast/})^{op} \longrightarrow Ab^{\mathbb{Z}}
 $$
 
-from the [[opposite category|opposite]] of the pointed [[classical homotopy category]], def. \ref{ClassicalHomotopyCategory}, example \ref{ClassicalPointedHomotopyCategory}, to $\mathbb{Z}$-[[graded abelian groups]], and equipped with [[natural isomorphisms]], to be called the **[[suspension isomorphism]]** of the form
+from the [[opposite category|opposite]] of the pointed [[classical homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalHomotopyCategory), [def.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalPointedHomotopyCategory)), to $\mathbb{Z}$-[[graded abelian groups]], and equipped with [[natural isomorphisms]], to be called the **[[suspension isomorphism]]** of the form
 
 $$
   \sigma
@@ -236,7 +236,7 @@ such that:
 
 1. it takes small [[wedge sums]] in $Ho(Top^{\ast/})$ to [[products]];
 
-1. it takes [[homotopy cofiber]] sequences in $Ho(Top^{\ast/})$ (def. \ref{HomotopyFiber}), to [[exact sequence|exact sequences]].
+1. it takes [[homotopy cofiber]] sequences in $Ho(Top^{\ast/})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), to [[exact sequence|exact sequences]].
 
 =--
 
@@ -251,7 +251,7 @@ The two definitions \ref{ReducedGeneralizedCohomology} and \ref{ReducedGeneraliz
 +-- {: .proof}
 ###### Proof
 
-By theorem \ref{TopQuillenModelStructure}, remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex} and corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}, the homotopy invariance axiom in def. \ref{ReducedGeneralizedCohomology} is equivalent to the functor passing to the classical pointed homotopy category. In view of this and by prop. \ref{StandardTopologicalMappingConeIsHomotopyCofiber}, on CW-complexes the standard topological mapping cone construction is a model for the [[homotopy cofiber]], this gives the equivalence of the two versions of the exactness axiom.
+By the existence of the [[classical model structure on topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)), its [[Quillen adjunction]] to the [[classical model structure on simplicial sets]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#EveryTopologicalSpaceWeaklyEquivalentToACWComplex)) and the characterization of its [[homotopy category of a model category|homotopy category]] ([cor.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects)), the homotopy invariance axiom in def. \ref{ReducedGeneralizedCohomology} is equivalent to the functor passing to the classical pointed homotopy category. In view of this and since on CW-complexes the standard topological mapping cone construction is a model for the [[homotopy cofiber]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#StandardTopologicalMappingConeIsHomotopyCofiber)), this gives the equivalence of the two versions of the exactness axiom.
 
 =--
 
@@ -260,7 +260,7 @@ From def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} it is natural 
 +-- {: .num_defn #GeneralizedCohomologyOnGeneralInfinityCategory}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory} with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model category]], prop. \ref{ModelStructureOnSliceCategory}. 
+Let $\mathcal{C}$ be a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model category]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). 
 
 A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]] ** on $\mathcal{C}$ is 
 
@@ -287,7 +287,7 @@ such that $E^\bullet$
 +-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
 ###### Definition
 
-Given a generalized cohomology theory $(E^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$, prop. \ref{LongFiberSequence},
+Given a generalized cohomology theory $(E^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)),
 
 $$
   X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z
@@ -344,7 +344,7 @@ By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGener
 
 ##### Unreduced cohomology
 
-Given a reduced [[generalized cohomology theory]] as in def. \ref{ReducedGeneralizedCohomology}, we may "un-reduce" it and evaluate it on unpointed topological spaces $X$ simply by evaluating it on $X_+$, def. \ref{BasePointAdjoined}. It is conventional to further generalize to [[relative cohomology]] and evaluate on unpointed subspace inclusions $i \colon A \hookrightarrow X$, taken as placeholders for their [[mapping cones]] $Cone(i_+)$ (prop. \ref{UnreducedMappingConeAsReducedConeOfBasedPointAdjoined}).
+Given a reduced [[generalized cohomology theory]] as in def. \ref{ReducedGeneralizedCohomology}, we may "un-reduce" it and evaluate it on unpointed topological spaces $X$ simply by evaluating it on $X_+$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). It is conventional to further generalize to [[relative cohomology]] and evaluate on unpointed subspace inclusions $i \colon A \hookrightarrow X$, taken as placeholders for their [[mapping cones]] $Cone(i_+)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UnreducedMappingConeAsReducedConeOfBasedPointAdjoined)).
 
 In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topological spaces]]  $U \hookrightarrow X$.  Whenever only one space is mentioned, the subspace is assumed to be the [[empty set]] $(X, \emptyset)$. Write $Top_{CW}^{\hookrightarrow}$ for the category of such pairs (the [[full subcategory]] of the [[arrow category]] of $Top_{CW}$ on the inclusions). We identify $Top_{CW} \hookrightarrow Top_{CW}^{\hookrightarrow}$ by $X \mapsto (X,\emptyset)$.
 
@@ -532,7 +532,7 @@ $$
   E^\bullet(X \cup Cone(A), \ast)
 $$
 
-between the value of $E^\bullet$ on the pair $(X,A)$ and its value on the unreduced [[mapping cone]] of the inclusion (remark \ref{UnreducedCone}), relative to a basepoint.
+between the value of $E^\bullet$ on the pair $(X,A)$ and its value on the unreduced [[mapping cone]] of the inclusion ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#UnreducedCone)), relative to a basepoint.
 
 If moreover $A \hookrightarrow X$ is (the [[retract]] of) a [[relative cell complex]] inclusion, then also morphism in cohomology induced from the [[quotient]] map $p \;\colon\; (X,A)\longrightarrow (X/A, \ast)$ is an [[isomorphism]]:
 
@@ -568,7 +568,7 @@ $$
   \,.
 $$
 
-If $A \hookrightarrow X$ is a cofibration, then this is a [[homotopy equivalence]] since $Cone(A)$ is contractible and since by the dual [[factorization lemma]] \ref{FactorizationLemma} and by lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences}, $X \cup Cone(A)\to X/A$ is a weak homotopy equivalence, hence (by theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}) a homotopy equivalence on CW-complexes.
+If $A \hookrightarrow X$ is a cofibration, then this is a [[homotopy equivalence]] since $Cone(A)$ is contractible and since by the dual [[factorization lemma]] ([lem.](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)) and by the invariance of homotopy fibers under weak equivalences ([lem.](Introduction+to+Stable+homotopy+theory+--+P#FiberOfFibrationIsCompatibleWithWeakEquivalences)), $X \cup Cone(A)\to X/A$ is a weak homotopy equivalence, hence, by the universal property of the [[classical homotopy category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) a homotopy equivalence on CW-complexes.
 
 Hence now we get a composite isomorphism
 
