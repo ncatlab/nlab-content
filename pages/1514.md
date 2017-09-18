@@ -328,6 +328,10 @@ ormat=complete))
 * [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
 * [[Edward Witten]], _A new look at the path integral of quantum mechanics_, ([arxiv/1009.6032](http://arxiv.org/abs/1009.6032))
 
+Detailed rigorous discussion for [[quadratic Hamiltonians]] and for [[phase space]] paths in in 
+
+* {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_ in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) ([[RobbinSalamonMetaplectic.pdf:file]])
+
 Discussion of quantization of [[Chern-Simons theory]] via a [[Wiener measure]] is in
 
 * Adrian P. C. Lim, _Chern-Simons Path Integral on $\mathbb{R}^3$ using Abstract Wiener Measure_ ([pdf](http://www.math.cornell.edu/~pclim/Docs/papers/CSabe01.pdf))
