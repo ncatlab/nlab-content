@@ -16,6 +16,7 @@ Certain types of questions (for example, in [[combinatorics]]) are made much mor
 $$f(x) = f(g*r) = g*f(r) = g*r = x.$$
 Note that this example is relevant to the combinatorics of [[embedded graphs]] (see [[combinatorial map#rooted_maps]]).
 
+* In [[point-set topology]], there are constructions of [[continua]] whose only [[continuous map|continuous]] [[endomorphisms]] are [[constant maps]] and the identity. Examples include so-called "Cook continua". Note that the interest is not merely in the pleasure of concocting exotic and pathological spaces: there is also some import for category theory, for instance in better understanding the problem of characterizing reflective subcategories of [[Top]]. See [Kannan and Rajagopolan](#Kannan) (and references therein) for some discussion. 
 
 ## Related concepts
 
@@ -25,4 +26,7 @@ Note that this example is relevant to the combinatorics of [[embedded graphs]] (
 
 For a discussion of the example of pointed transitive $G$-sets (among other things), see
 
-* [[Qiaochu Yuan]], "The categorical exponential formula", blog post at Annoying Precision, November 4, 2015. ([web](https://qchu.wordpress.com/2015/11/04/the-categorical-exponential-formula/))
+* [[Qiaochu Yuan]], "The categorical exponential formula", blog post at Annoying Precision, November 4, 2015. ([web](https://qchu.wordpress.com/2015/11/04/the-categorical-exponential-formula/)) 
+
+* V. Kannan and M. Rajagopolan, _Constructions and applications of rigid spaces, I_, Adv. Math., Vol. 29 Iss. 1 (July 1978), 89-130. ([web](http://www.sciencedirect.com/science/article/pii/0001870878900063)) 
+ {#Kannan}
