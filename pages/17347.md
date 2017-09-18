@@ -1556,7 +1556,7 @@ This completes the proof. Notice that running the same argument next for $(n+1)$
 
 Conversely:
 
-+-- {: .num_prop}
++-- {: .num_prop #SpectrumRepresentsCohomologyTheoryDegreewise}
 ###### Proposition
 
 Every [[Omega-spectrum]] $E$, def. \ref{OmegaSpectrum}, represents an [additive](#WedgeAxiom) [[reduced cohomology theory]] def. \ref{ReducedGeneralizedCohomology} $\tilde E^\bullet$ by
@@ -1590,8 +1590,34 @@ $$
 ###### Proof
 
 The [additivity](#WedgeAxiom) is immediate from the construction. 
-
 The [exactnes](#ReducedExactnessAxiom) follows from the [[long exact sequences]] of [[homotopy cofiber sequences]] given by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If we consider the [[stable homotopy category]] $Ho(Spectra)$ of [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#TheStableHomotopyCategory)) and consider any [[topological space]] $X$ in terms of its [[suspension spectrum]] $\Sigma^\infty X \in Ho(Spectra)$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1#SuspensionSpectrum)), then the statement of prop. \ref{SpectrumRepresentsCohomologyTheoryDegreewise} is more succinctly summarized by saying that the [[graded abelian group|graded]] reduced cohomology groups of a topological space $X$ represented by an [[Omega-spectrum]] $E$ are the hom-groups
+
+$$
+  \tilde E^\bullet(X)
+   \;\simeq\;
+  [\Sigma^\infty X, \Sigma^\bullet E]
+$$
+
+in the [[stable homotopy category]], into all the [[suspensions]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1#StableModelStructureOnSequentiaSpectraIsStableModelCategory)) of $E$.
+
+This means that more generally, for $X \in Ho(Spectra)$ any spectrum, it makes sense to consider
+
+$$
+  \tilde E^\bullet(X)
+    \;\coloneqq\;
+  [X,\Sigma^\bullet E]
+$$
+
+to be the graded reduced generalized $E$-cohomology groups of the spectrum $X$.
+
+See also in  _[[Introduction to Stable homotopy theory -- 1|part 1]]_ [this example](Introduction+to+Stable+homotopy+theory+--+1#ForASpectrumXGeneralizedECohomology).
 
 =--
 
