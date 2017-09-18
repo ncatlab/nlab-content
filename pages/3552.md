@@ -352,7 +352,7 @@ See at _[[rational n-sphere]]_.
 
 ## Related concepts
 
-* [[KS-models]]
+* [[minimal dg-module]]
 
 * [[minimal fibration]]
 
@@ -368,6 +368,9 @@ See at _[[rational n-sphere]]_.
 [[!redirects Sullivan algebras]]
 [[!redirects Sullivan minimal algebra]]
 [[!redirects Sullivan minimal algebras]]
+
+[[!redirects relative Sullivan algebra]]
+[[!redirects relative Sullivan algebras]]
 
 [[!redirects minimal Sullivan model]]
 [[!redirects minimal Sullivan models]]
