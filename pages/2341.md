@@ -47,7 +47,7 @@ Then a $\mathcal{V}$-functor $F:C\rightarrow D$ consists of the following data:
 
 * for each object $o$ of $C$ and for each triple $o,o',o''$ of objects of $C$, the following 2-morphisms (ensuring that the functoriality-morphisms are compatible with the unit- and composition morphisms).
 
-(... to be continued)
+(... to be continued ...)
 
 ## Applications
 
