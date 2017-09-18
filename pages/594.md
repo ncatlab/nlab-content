@@ -23,6 +23,9 @@ Unions of completely arbitrary sets make sense only in [[material set theory]], 
 
 A [[coherent category]] is one having well-behaved unions of subobjects.
 
+## Properties
+
+* For [[subsets]]: [[images preserve unions]], [[pre-images preserve unions and intersections]].
 
 ## Related concepts
 
