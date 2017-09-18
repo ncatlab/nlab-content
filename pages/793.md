@@ -330,3 +330,7 @@ Discussion of T-duality that takes into account the [[super p-brane]] charges (i
 * {#BandosJulia03} [[Igor Bandos]], [[Bernard Julia]], _Superfield T-duality rules_, JHEP 0308 (2003) 032 ([arXiv:hep-th/0303075](https://arxiv.org/abs/hep-th/0303075))
 
   reviewed in _Superfield T-duality rules in ten dimensions with one isometry_ ([arXiv:hep-th/0312299](https://arxiv.org/abs/hep-th/0312299))
+
+
+[[!redirects Buscher rule]]
+[[!redirects Buscher rules]]
