@@ -1,0 +1,5 @@
+
+
+* [webpage](http://www.imperial.ac.uk/people/k.stelle/)
+
+category: people
