@@ -13,15 +13,15 @@
 
 This entry is about the article
 
-* [[Alexander Kahle]], [[Alessandro Valentino]], _T-duality and Differential K-Theory_ ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
- {#KahleValentino}
+* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _T-duality and Differential K-Theory_ ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
+ 
 
 on the identification of the correct description in [[differential cohomology]] ([[ordinary differential cohomology]] and [[differential K-theory]]) of [[T-duality]] or [[topological T-duality]]: [[differential T-duality]].
 
 A review is in section 7.4 of 
 
-* [[Ulrich Bunke]], [[Thomas Schick]], _Differential K-theory. A survey_ ([arXiv:1011.6663](http://arxiv.org/abs/1011.6663)).
- {#BunkeSchick}
+* {#BunkeSchick} [[Ulrich Bunke]], [[Thomas Schick]], _Differential K-theory. A survey_ ([arXiv:1011.6663](http://arxiv.org/abs/1011.6663)).
+ 
 
 We try to indicate some of the content. There are two main ingredients:
 
@@ -189,8 +189,8 @@ $$
     \\
     \downarrow &\swArrow& \downarrow
     \\
-    \mathbf{B}\mathbb{R}^n/\Lambda \times \mathbf{B} \mathbb{R}^n/\hat \Lambda)
-    &\stackrel{\langle - \cup -\rangle}{\to}&
+    \mathbf{B}\mathbb{R}^n/\Lambda \times \mathbf{B} \mathbb{R}^n/\hat \Lambda
+      &\stackrel{\langle - \cup -\rangle}{\to}&
     \mathbf{B}^3 U(1))_{conn}
   }
 $$
