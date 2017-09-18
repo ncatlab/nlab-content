@@ -38,6 +38,42 @@ $$
 
 What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refining_ the cover $\mathcal{U}$.
 
+## Examples
+
++-- {: .num_example #PartitionOfUnityOnTheRealLine}
+###### Example
+
+Consider $\mathbb{R}$ with its [[Euclidean space|Euclidean]] [[metric topology]].
+
+Let $\epsilon \in (0,\infty)$  and consider the [[open cover]]
+
+$$
+  \{
+    (n-1-\epsilon , n+1 +  \epsilon) \subset \mathbb{R}
+  \}_{n \in \mathbb{Z} \subset \mathbb{R} }
+  \,.
+$$
+
+Then a partition of unity $\{ f_n \colon \mathbb{R} \to [0,1] \}_{n \in \mathbb{N}}$ subordinate to this cover is given by
+
+$$
+  f_n(x)
+    \coloneqq
+  \left\{
+    \array{
+      x - (n - 1)  &\vert& n - 1 \leq x \leq n
+      \\
+      1- (x-n) &\vert& n \leq x \leq n+1
+      \\
+      0 &\vert& \text{otherwise}
+    }
+  \right\}
+  \,.
+$$
+
+
+=--
+
 
 ## Properties
 
