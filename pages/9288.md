@@ -1,5 +1,10 @@
+[[!redirects geometry of physics - modules]]
 
-This is a sub-entry of _[[geometry of physics]]_. See there for background and context.
+> This entry contains one chapter of _[[geometry of physics]]_. See there for background and context.
+
+> previous chapter: _[[geometry of physics -- representations and associated bundles|representations and associated bundles]]_
+
+> next chapters: _[[geometry of physics -- geometric quantization with KU-coefficients|geometric quantization with KU-coefficients]]_
 
 ***
 
@@ -216,6 +221,7 @@ $$
   Mod_{R_1} \boxtimes Mod_{R_2} 
   \simeq
   Mod_{R_1 \otimes R_2}
+
   \,,
 $$
 
