@@ -213,6 +213,8 @@ Discussion of aspects of [[category theory]] and [[categorical logic]] ([[access
 
 Discussion of [[geometric stability theory]] includes
 
+* Anand Pillay, _Geometric stability theory_
+
 * [[Boris Zilber]], _Elements of geometric stability theory_, lecture notes, [pdf](http://people.maths.ox.ac.uk/zilber/est.pdf); _On model theory, non-commutative geometry and physics_, (survey draft) [pdf](http://people.maths.ox.ac.uk/zilber/bul-survey.pdf); _Zariski geometries_, book, [draft pdf](http://people.maths.ox.ac.uk/zilber/s.pdf);  On model theory, noncommutative geometry and physics, conference talk, [video](http://zomobo.net/play.php?id=wnhbpIQBpiE)
 
 * John T. Baldwin, _Fundamentals of stability theory_ 
