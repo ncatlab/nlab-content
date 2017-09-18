@@ -58,3 +58,9 @@ The following article sketches the geometric intuition behind the reciprocity la
 The following 2 articles make parallel between some notions of [[QFT]] and of number theory and in particular about the analogy between the [[Weil reciprocity law]] for [[function field]]s and the Takahashi-Ward identities of field theory:
 
 * [[Leon Takhtajan]], _Quantum field theories on algebraic curves and A. Weil reciprocity law_, [arxiv/0812.0169](http://arxiv.org/abs/0812.0169); _Quantum field theories on an algebraic curve_, [pdf](http://www.math.sunysb.edu/~leontak/Takhtajan-00.pdf), 2000 
+
+Some history is in 
+
+* {#Cogdell12} James W. Cogdell, _L-functions and non-abelian class eld theory, from
+Artin to Langlands_, 2012 ([pdf](https://people.math.osu.edu/cogdell.1/Artin-www.pdf))
+
