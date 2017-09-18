@@ -130,6 +130,6 @@ $$
   \,.
 $$
 
-This makes it manifest that these functions organite into a [[simplicial set]].
+This makes it manifest that these functions organise into a [[simplicial set]].
 
 =--
