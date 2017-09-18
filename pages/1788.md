@@ -2,6 +2,12 @@
 
 $\mathcal{\Gamma}$
 
+[[mappingcone.jpg:file]]
+
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="500" >
+
+(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
 [[adamstypedifferentials.jpg:file]]
 
 <img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="300" >
