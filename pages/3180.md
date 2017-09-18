@@ -1,6 +1,6 @@
+* [Blog](https://kongliang.wordpress.com/)
 
-
-* [publication list](http://en.scientificcommons.org/liang_kong)
+* [Publication list](http://en.scientificcommons.org/liang_kong)
 
 ## related $n$Lab entries
 
