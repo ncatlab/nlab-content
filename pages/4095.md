@@ -1,13 +1,36 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Definition
 
 For $C$ and $D$ two [[categories]], the **product category** $C \times D$ is the category whose
 
-* [[object]]s are ordered pairs $(c,d)$ with $c$ an object of $C$ and $d$ an object of $D$;
+* [[object]]s are ordered [[pairs]] $(c,d)$ with $c$ an object of $C$ and $d$ an object of $D$;
 
 * [[morphism]]s are ordered pairs $((c \stackrel{f}{\to} c'),(d \stackrel{g}{\to} d'))$,
 
 * composition of morphisms is defined componentwise by composition in $C$ and $D$.
 
 This operation is the [[cartesian product]] in the 1-category [[Cat]].
+
+## Related concepts
+
+* [[bifunctor]]
+
+* [[extranatural transformation]]
+
+[[!redirects product categories]]
+
+[[!redirects product of categories]]
