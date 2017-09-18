@@ -55,12 +55,12 @@ The implication $a\Rightarrow b$ is the [[exponential object]] $b^a$.
 Insofar as all these properties of a poset are described by [[universal properties]], being a Heyting algebra is a [[property-like structure]] on a poset; a poset can be a Heyting algebra in at most one way. 
 =--
 
-The definition of Heyting algebra may be recast into purely [[equational theory|equational form]], and so we can speak of an __[[internalization|internal]] Heyting algebra__ in any [[cartesian monoidal category|category with products]]. 
+The definition of Heyting algebra may be recast into purely [[algebraic theory|equational form]]: add to the equational theory of lattices the inequalities $(x \Rightarrow y) \wedge x \leq y$ and $y \leq x \Rightarrow (y \wedge x)$, writing these inequalities in equational form via the equivalence $a \leq b$ iff $a = a \wedge b$. Hence we can speak of an __[[internalization|internal]] Heyting algebra__ in any [[cartesian monoidal category|category with products]]. 
 
 +-- {: .un_defn}
 ###### Definition
 
-A Heyting algebra [[homomorphism]] is a homomorphism of the underlying [[lattice]]s that preserve $\Rightarrow$ .  Heyting algebras and their homomorphisms form a [[concrete category]] [[HeytAlg]].
+A Heyting algebra [[homomorphism]] is a homomorphism of the underlying [[lattice]]s that preserve $\Rightarrow$.  Heyting algebras and their homomorphisms form a [[concrete category]] [[HeytAlg]].
 =--
 
 
