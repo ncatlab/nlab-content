@@ -74,6 +74,8 @@ Notice that a [[locale]] is itself a (Grothendieck) [[(0,1)-topos]]. Hence a loc
 
 ## Related concepts
 
+* [[spatial topos]]
+
 * [[n-localic (∞,1)-topos]]
 
 * [[n-localic 2-topos]]
