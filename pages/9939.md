@@ -121,7 +121,7 @@ For every [[spectrum]] $E$ there exists a infinite [[cardinal number]] $\kappa$ 
 
 =--
 
-([Bousfield 79, lemma 1.13 with lemma 1.14](#Bousfield79), [VanKoughnett 13, p. 8](#VanKoughnett13))
+([Bousfield 79, lemma 1.13 with lemma 1.14](#Bousfield79)) review includes ([Bauer 11, p.2,3](Bauer11), [VanKoughnett 13, p. 8](#VanKoughnett13))
 
 
 +-- {: .proof}
@@ -537,7 +537,7 @@ Discussion in terms of [[Bousfield localization of model categories]] [[model ca
 see also
 
 * [[Carles Casacuberta]], [[Javier Gutiérrez]], _Homotopical Localizations of Module Spectra_, Transactions of the American Mathematical Society
-Vol. 357, No. 7 (Jul., 2005), pp. 2753-2770  ([JSTOR](http://www.jstor.org/stable/3845180))
+Vol. 357, No. 7 (Jul., 2005), pp. 2753-2770  ([jstor](http://www.jstor.org/stable/3845180))
 
 Lecture notes include
 
