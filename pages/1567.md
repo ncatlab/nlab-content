@@ -90,9 +90,7 @@ This is mentioned in
 
 ### Categorification
 
-Every distributive lattice, regarded as a [[category]] (a [[(0,1)-category]]), is a _[[coherent category]]_.
-
-Conversely, the notion of coherent category may be understood as a [[categorification]] of the notion of distributive lattices.
+Every distributive lattice, regarded as a [[category]] (a [[(0,1)-category]]), is a _[[coherent category]]_.  Conversely, the notion of coherent category may be understood as a [[categorification]] of the notion of distributive lattice.  A different categorification is the notion of [[distributive category]].
 
 ### Completion
 
