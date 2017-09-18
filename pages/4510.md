@@ -68,7 +68,7 @@ For $X \in \mathcal{A}$ any object and $((Q X) \to X) \in Ch_{\bullet \geq 0}(\m
 $$
   Ext^n(X,A) 
    \coloneqq 
-  H^\bullet ( Hom_{\mathcal{A}}((Q X)_\bullet, A))
+  H^n ( Hom_{\mathcal{A}}((Q X)_\bullet, A))
 $$
 
 of the [[cochain complex]] $Hom((Q X)_\bullet, A)$. 
