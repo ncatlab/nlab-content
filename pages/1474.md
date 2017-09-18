@@ -80,13 +80,12 @@ That is, convergence in a Hausdorff space is unique.
 ### Hausdorff reflection
  {#HausdorffReflection}
 
-+-- {: .num_prop #Hausdorffication}
++-- {: .num_prop #HausdorffReflection}
 ###### Proposition
 **(Hausdorff reflection)**
 
 For every [[topological space]] $X$ there exists
-a [[Hausdorff topological space]] $H X$ 
-and a [[continuous function]]
+a [[Hausdorff topological space]] $H X$ and a [[continuous function]]
 
 $$
   h_X
@@ -120,19 +119,88 @@ $$
   \,.
 $$
 
-
 Here $H X$ (or more precisely $h_X$) is also called the _Hausdorff reflection_ (or _Hausdorffication_ or similar) of $X$.
 
-Specifically, consider the [[equivalence relation]] $\sim$ on the underlying set $X$
+Moreover, the operation $H(-)$ extends to [[continuous functions]] $f \colon X \to Y$
+
+$$
+  (X \overset{f}{\to} Y)
+    \;\mapsto\;
+  (H X \overset{H f}{\to} H Y)
+$$
+
+by setting 
+
+$$
+  H f \;\colon\; [x] \mapsto [f(x)]
+  \,,
+$$
+
+where $[x]$ denotes the [[equivalence class]] under $\sim_X$ of any $x \in X$.
+
+Finally, the comparison map is compatible with this in that the follows [[commuting squares|squares commute]]:
+
+$$
+  \array{
+      X &\overset{f}{\longrightarrow}& Y
+      \\
+      {}^{\mathllap{h_X}}\downarrow && \downarrow^{\mathrlap{h_Y}}
+      \\
+      H X &\underset{H f}{\longrightarrow}& H Y
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} and prop. ...
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In the language of [[category theory]] the Hausdorff reflection of prop. \ref{HausdorffReflection}
+says that 
+
+1. $H$ is a _[[functor]]_ $H \;\colon\; Top \longrightarrow Top_{Haus}$ from the [[category]] [[Top]] of [[topological spaces]] to the [[full subcategory]] $Top_{Haus} \overset{\iota}{\hookrightarrow} Top$ of Hausdorff topological spaces;
+
+1. $h_X \colon X \to H X$ is a [[natural transformation]] from the [[identity functor]] on [[Top]] to the functor $\iota \circ H$
+
+1. [[Hausdorff topological spaces]] form a [[reflective subcategory]] of all [[topological spaces]] in that $H$ is [[left adjoint]] to the inclusion functor $\iota$
+
+   $$
+     Top_{Haus}
+       \underoverset{\overset{H}{\longleftarrow}}{\underset{\iota}{\hookrightarrow}}{\bot}
+     Top
+     \,.
+   $$
+
+
+=--
+
+There are various ways to see the existence and to construct the Hausdorff reflection. :
+
+
+
++-- {: .num_prop #HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
+###### Proposition
+
+Let $(X,\tau)$ be a [[topological space]] and consider the [[equivalence relation]] $\sim$ on the underlying set $X$
 for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into any
-[[Hausdorff topological space]] $Y$ we have $f(x) = f(y)$. Then the set of [[equivalence classes]]
+[[Hausdorff topological space]] $Y$ we have $f(x) = f(y)$. 
+
+Then the set of [[equivalence classes]]
 
 $$
   H X \coloneqq X /{\sim}
 $$
 
-equipped with the [[quotient topology]] is the Hausdorff reflection of $X$,
-and the comparison map $h_X$ is the quotient map $X \to X/{\sim}$.
+equipped with the [[quotient topology]] is a [[Hausdorff topological space]] and the quotient map $h_X \;\colon\; X \to X/{\sim}$ exhibits the Hausdorff reflection of $X$, according to prop. \ref{HausdorffReflection}.
 
 =--
 
@@ -164,21 +232,6 @@ Since, by the nature of continuous functions,
 the pre-images $\tilde f^{-1}( U_x ), \tilde f^{-1}([y]) \subset H X$ are still disjoint and open,
 we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdorff.
 
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-In the language of [[category theory]] the Hausdorff reflection of prop. \ref{Hausdorffication}
-says that [[Hausdorff topological spaces]] form a [[reflective subcategory]] of all [[topological spaces]].
-
-$$
-  Top_{Haus}
-    \underoverset{\bot}{\overset{H}{\longleftarrow}}{\underset{\iota}{\hookrightarrow}}
-  Top
-  \,.
-$$
 
 =--
 
@@ -290,6 +343,18 @@ If the locale product $X\times X$ does not coincide with the spatial product, th
 
 ## References
 
+Due to 
+
+* [[Felix Hausdorff]], 1914
+
+See also
+
+* Wikipedia, _[Hausdorff space](https://en.wikipedia.org/wiki/Hausdorff_space)_
+
+A detailed discussion of Hausdorff reflection is in 
+
+* Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
+
 Comments on the relation to [[topos theory]] are for instance in
 
 * S. Niefield, _A note on the locally Hausdorff property_, Cahiers TGDC (1983) ([numdam](http://www.numdam.org/item?id=CTGDC_1983__24_1_87_0))
@@ -323,6 +388,10 @@ Comments on the relation to [[topos theory]] are for instance in
 
 [[!redirects Hausdorff reflection]]
 [[!redirects Hausdorff reflections]]
+
+[[!redirects Hausdorff quotient]]
+[[!redirects Hausdorff quotients]]
+
 
 [[!redirects Hausdorffzation]]
 [[!redirects Hausdorffizations]]
