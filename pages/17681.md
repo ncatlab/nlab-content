@@ -12,6 +12,8 @@ A **monad transformer** is a type constructor which takes a [[monad]] as an argu
 
 Monad transformers generally derive from ordinary monads and allow a modular composition, so that the action on the identity monad of the associated transform $M T$ of a monad $M$ is equivalent to $M$.
 
+This construction is sometimes viewed (see [#HP07](#HP07), [[Eff]]) as a complication resulting from passing from the setting of [[Lawvere theories]], where any two theories may be naturally combined.
+
 ##References
 
 * Bryan O'Sullivan, Don Stewart, and John Goerzen, _Monad transformers_, [Chapter 18](http://book.realworldhaskell.org/read/monad-transformers.html) of Real World Haskell.
