@@ -88,6 +88,8 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[Tietze extension theorem]]
 
+* [[Tychonoff theorem]]
+
 * [[topological invariance of dimension]]
 
 * [[Brouwer's fixed point theorem]]
