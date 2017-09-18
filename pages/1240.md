@@ -368,6 +368,8 @@ _[[Zuckerman induction]]_. See there for more details.
 
 * [[Dirac induction]]
 
+* The [[character]] of an induced representation is an [[induced character]].
+
 [[!include homotopy type representation theory -- table]]
 
 
