@@ -32,7 +32,7 @@ If this tower converges to $F$, then $F$ is analogous to an [[analytic function]
 
 ### Convergence
 
-convergence for [[analytic (∞,1)-functors]] (...) ([Goodwillie 03, theorem 1.13](#Goodwillie03))
+convergence for $\rho$-[[analytic (∞,1)-functors]] on $\rho$-[[n-connected object of an (infinity,1)-topos|connective objects]] (...) ([Goodwillie 03, theorem 1.13](#Goodwillie03), see also [Munson-Volic 15, theorem 10.1.51 and section 10.2.4](#MunsonVolic15))
 
 ## Related concepts
 
@@ -42,7 +42,13 @@ convergence for [[analytic (∞,1)-functors]] (...) ([Goodwillie 03, theorem 1.1
 
 ## References
 
+The concept originates in 
+
 * {#Goodwillie03} [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
+
+Review includes
+
+* {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015 [pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf)
  
 
 [[!redirects Goodwillie-Taylor towers]]
