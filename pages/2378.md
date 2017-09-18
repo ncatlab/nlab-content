@@ -39,5 +39,12 @@ The compact-open topology is most sensible when the topology of $X$ is [[locally
 
 * [[C-k topology]]
 
+##References
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Compact-open_topology)
+
+* Ralph H. Fox, _On Topologies for Function Spaces_
+, Bull. AMS **51** (1945) pp.429-432. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.bams/1183506987))
+
 
 [[!redirects compact open topology]]
