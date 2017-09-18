@@ -73,3 +73,4 @@ $$
     && \emptyset &\dashv& \ast
   }
 $$
+{#Diagram}
