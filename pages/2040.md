@@ -60,7 +60,8 @@ Notice that this means that $S$ is in particular
 For $\mathcal{A}$ taken to be (the [[derived category]]) of an [[abelian category]] (or better: postcomposed with a [[homological functor]] ) this definition reduces ([Barwick 14](#Barwick14)) to that of Mackey functors as originally defined in ([Dress 71](#Dress71)).
 
 
-### Genuine equivariant spectra for finite groups
+### Equivariant spectra 
+ {#EquivariantSpectra}
 
 Let $G$ be a [[finite group]]. Let $\mathcal{C}= G Set$ be its category of [[permutation representations]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ (possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here).
 
@@ -70,7 +71,7 @@ For $G$ finite then Mackey functors on $\mathcal{C}$ are equivalent to  genuine 
 
 (...)
  
-For $E$ a [[genuine G-spectrum]] then the corresponding Mackey functor is given by the assignment
+For $E$ a [[genuine G-spectrum]] then the corresponding Mackey functor is given by the [[equivariant homotopy groups]] of $E$
 
 $$
   G/H \mapsto E(G/H) =  [\Sigma^\infty_+ G/H, E]_G
