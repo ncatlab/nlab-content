@@ -47,6 +47,8 @@ More generally the higher [[intermediate Jacobians]] with their Weil complex str
 
 * [[p-convex polarization]]
 
+* [[Prym-Tyurin variety]]
+
 ## References
 
 * {#Voisin02} [[Claire Voisin]], section 7 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
