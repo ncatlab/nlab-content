@@ -63,7 +63,7 @@ The functor $F$ is called _$\rho$-analytic_ if there is $q$ such that it satisfi
 
 ### Convergence of the Goodwillie-Taylor tower
 
-For analytic functors their [[Goodwillie-Taylor tower]] converges to them. See there.
+For $\rho$-analytic functors their [[Goodwillie-Taylor tower]] converges to them on $\rho$-[[n-connected object of an (infinity,1)-topos|connective objects]]. See there.
 
 ## Examples
 
@@ -71,11 +71,14 @@ For analytic functors their [[Goodwillie-Taylor tower]] converges to them. See t
 
 The identity $(\infty,1)$-functor on [[∞Grpd]] is 1-analytic, def. \ref{rhoAnalyticFunctor}. For $n = 2$ this is the statement of the [[Blakers-Massey theorem]], for $n \gt 2$ this is the statment of the [higher cubical BM-theorems](Blakers-Massey+theorem#HigherCubical).
 
-
+(see e.g. [Munson-Volic 15, example 10.1.18](#MunsonVolic15))
 
 ## Related concepts
 
 * [[excisive (∞,1)-functor]]
+
+* [[polynomial (∞,1)-functor]]
+
 
 ## References
 
