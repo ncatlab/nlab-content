@@ -22,7 +22,7 @@
 
 ## Idea
 
-The **Levi-Civita connection** is the unique symmetric [[connection on a bundle|connection]] on the [[tangent bundle]] of a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]] that is compatible with the [[Riemannian metric|metric]] or [[pseudo-Riemannian metric|pseudo-metric]].  The [[curvature]] and [[geodesic]]s on a pseudo-Riemannian manifold are taken with respect to this connection.  The existence and uniqueness of the Levi-Civita connection is the so-called **fundamental theorem of [[Riemannian geometry]].**
+The **Levi-Civita connection** is the unique symmetric [[connection on a bundle|connection]] on the [[tangent bundle]] of a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]] that is compatible with the [[Riemannian metric|metric]] or [[pseudo-Riemannian metric|pseudo-metric]].  The [[curvature]] and [[geodesic]]s on a pseudo-Riemannian manifold are taken with respect to this connection.  The existence and uniqueness of the Levi-Civita connection is called the _[[fundamental theorem of Riemannian geometry]]_.
 
  
 ## Definition
