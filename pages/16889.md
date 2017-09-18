@@ -133,6 +133,7 @@ In this section we list the singularities which _Globular_ recognizes. We organi
 ### 2-category singularities ###
 
 **Interchangers**
+
 * _Composite:_ two $2$-cells composed along a common boundary 0-cell, forming a 3-cell resolution.
 * _Interface:_ When unprojected, click the vertex to be interchanged and drag it up or down; if the interchanger is ambiguous because the source or target is the identity, then make your drag slightly to the left or right. When projected, grab the wire to be interchanged, and drag in the desired direction.
 
@@ -145,24 +146,29 @@ $\qquad\qquad$
 ### 3-category singularities ###
 
 **Naturality of the interchanger in one variable**
+
 * _Composite:_ a $2$-cell and a $3$-cell composed along a common boundary 0-cell, forming a 4-cell resolution.
 * _Interface:_ ...
 
 ### 4-category singularities ###
 
 **Naturality of naturality of the interchanger in one variable**
+
 * _Composite:_ a 2-cell and a 4-cell composed along a common boundary 0-cell, forming a 5-cell resolution.
 * _Interface:_ ...
 
 **Naturality of the interchanger in two variables**
+
 * _Composite:_ two 3-cells composed along a common boundary 0-cell, forming a 5-cell resolution.
 * _Interface:_ ...
 
 **Naturality of invertibility of the interchanger**
+
 * _Composite:_ ...
 * _Interface:_ ...
 
 **Contractible 3rd Reidemeisterators**
+
 * _Composite:_ ...
 * _Interface:_ ...
 
