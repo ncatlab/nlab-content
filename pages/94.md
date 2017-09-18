@@ -119,7 +119,7 @@ In lowest degrees the generalized Jacobi identity says that
    hence
  
    $$
-     \partial [v_1, v_2] =  [\partial v_1, v_2] + (-1)^{\vert v_1 \vert}[v_1, \partial v_2]
+     \partial [v_1, v_2] =  [\partial v_1, v_2] + (-1)^{\vert v_1 \vert \vert v_2 \vert}[v_2, \partial v_1]
      \,.
    $$
 
