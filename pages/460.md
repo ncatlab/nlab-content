@@ -73,6 +73,14 @@ A topological space has enough points in the sense of def. \ref{EnoughPointsOfAT
 
 * With [[classical logic]], every [[Hausdorff space]] is sober, but this can fail [[constructive mathematics|constructively]]. See at _[[Hausdorff implies sober]]_.
 
+  {#NonComparisonToT1} Since the Hausdorff condition implies the $T_1$ [[separation axiom]], this means that ([[classical logic|classically]]) there is a large [[intersection]] of the [[classes]] of $T_1$-topological spaces and sober topological spaces. But neither class is contained in the other, as the following counter-examples show:
+
+  * The [[Sierpinski space]] is sober, but not $T_1$.
+
+  * The [[cofinite topology]] on a non-[[finite set]] is $T_1$ but not sober. 
+
+ 
+
 * The topological space underlying any [[scheme]] is sober. See at _[[schemes are sober]]_.
 
 ## Non-examples
