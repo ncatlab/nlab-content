@@ -22,7 +22,21 @@ The _recursive topos_ is defined as $\mathcal{R}=Sh(\mathbf{R}, J)$.
 
 ## Properties
 
-...
++-- {: .num_prop}
+###### Proposition
+$\mathcal{R}$ is a [[local topos]] i.e. the [[global section functor]] $\Gamma:\mathcal{R}\to Set$ has a right adjoint: $\Gamma\dashv B: Set\to \mathcal{R}$.
+=--
+
+This appears as prop.1.5 in [Mulry (1982)](#Mulry82). $B$ maps a set $X$ to the sheaf $X^{\mathbb{N}}$ of sequences of elements in $X$.
+
++-- {: .num_prop #RNO}
+###### Proposition
+The object $\mathbb{R}_D$ of [[real numbers object|Dedekind real numbers]] corresponds to the sheaf of sequences of real numbers $\langle r_n\rangle$ satisfying:
+
+For all $n\in \mathbb{N}^+$ there exists a finite recursive cover $A_1,\dots A_k$ such that for all $m_1, m_2$ in $A_i$ $(i=1,\dots,k)$, $|r_{m_2}-r_{m_1}|\lt 1/n$.
+=-- 
+
+This is prop.4.1 in [Mulry (1982)](#Mulry82).
 
 ## Related entries
 
@@ -38,7 +52,7 @@ The _recursive topos_ is defined as $\mathcal{R}=Sh(\mathbf{R}, J)$.
 
 The recursive topos was introduced in
 
-* [[Philip Mulry|P. S. Mulry]], _Generalized Banach-Mazur functionals in the topos of recursive sets_ , JPAA **26** (1982) pp.71-83.
+* {#Mulry82}[[Philip Mulry|P. S. Mulry]], _Generalized Banach-Mazur functionals in the topos of recursive sets_ , JPAA **26** (1982) pp.71-83.
 
 A comparison with the [[effective topos]] is in chapter 6 of
 
