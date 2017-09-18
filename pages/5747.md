@@ -20,16 +20,16 @@ The semi-simplicial set version of a [[simplicial complex]] is also called a _[[
 
 ## Definition
 
-Let $\Delta$ denote the [[simplex category]], which we can identify with (a [[skeleton]] of) the [[category]] of [[inhabited set|inhabited]] [[finite set|finite]] [[totally ordered sets]].  Recall that a [[simplicial set]] is a [[presheaf]] $X\colon \Delta^{op}\to Set$.
+Let $\Delta$ denote the [[simplex category]], which is a [[skeleton]] of the [[category]] of [[inhabited set|inhabited]] [[finite set|finite]] [[totally ordered sets]].   Let $\Delta_+$ denote the [[wide subcategory]] of $\Delta$ containing only the [[injective functions]].   Thus, $\Delta_+$ is equivalent to the category of inhabited finite totally ordered sets and order-preserving injections.  
 
-Let $\Delta_+$ denote the [[wide subcategory]] of $\Delta$ containing only the [[injective functions]].  A **semi-simplicial set** is then a presheaf $X\colon \Delta_+^{op} \to Set$.
+Recall that a [[simplicial set]] is a [[presheaf]] $X\colon \Delta^{op}\to Set$.  Similarly, a **semi-simplicial set** is a presheaf $X\colon \Delta_+^{op} \to Set$.
 
 More generally, for $\mathcal{C}$ any other category, a functor $\Delta_+^{op} \to \mathcal{C}$ is a _[[semi-simplicial object]]_ in $\mathcal{C}$.
 
 
 ## Properties
 
-### Relation to nerves semi-categories
+### Relation to nerves of semi-categories
 
 The [[nerve]] of a [[semicategory]] is a semi-simplicial set (satisfying the [[Segal conditions]]) just as the nerve of a [[category]] is a [[simplicial set]]. 
 
@@ -63,7 +63,7 @@ defined both (what we now call) semi-simplicial sets, under the name *semi-simpl
 Over time it became clear that "complete semi-simplicial complexes" were much more important and useful than the non-complete ones.  This seems to have led first to the omission of the adjective "complete," and then the omission of the prefix "semi" (and at some point the replacement of "complex" by "set"), resulting in the current name [[simplicial sets]].
 
 +--{: .query}
-Anyone more knowledgable about the history, please correct/improve the preceeding paragraph.
+Anyone more knowledgable about the history, please correct/improve the preceding paragraph.
 =--
 
 The concept is essentially the same as that of $\Delta$-set, as used by Rourke and Sanderson. Their motivation was from geometric topology.
