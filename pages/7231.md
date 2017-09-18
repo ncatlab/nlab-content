@@ -76,8 +76,53 @@ $$
 $$
 
 ### Subgroups
+ {#Subgroups}
 
-There are [[subgroups]] $SO(4), SU(3) \hookrightarrow G_2$ (see e.g. [Miyaoka 93](#Miyaoka93)) whose [[intersection]] is $U(2)$. The [[simple Lie group|simple]] part $SU(2)$ of this intersection is a [[normal subgroup]] of $SO(4)$.
+Write 
+
+* $G_2 = Aut(\mathbb{O})$, the [[automorphism group]] of the octonions as a normed alegbra,
+
+* $Stab_{G_2}(\mathbb{H})$, the [[stabilizer subgroup]] of [[generalized the|the]] [[quaternions]] inside the octonions, i.e. of elements $\sigma\in G_2$ such that $\sigma_{|\mathbb{H}}\colon \mathbb{H}\to \mathbb{H} \hookrightarrow\mathbb{O}$;
+
+* $Fix_{G_2}(\mathbb{H})$ for the further subgroup of elements that [[fixed point|fix]] each quaternions, i.e. those $\sigma$ with $\sigma_{\vert \mathbb{H}} = id_{\mathbb{H}}$.
+
++-- {: .num_prop #StabilizingAndFixingTheQuaternions}
+###### Proposition
+
+These groups form a [[short exact sequence]] of the form
+
+$$
+  \array{
+    1 &=& 1
+    \\
+    \downarrow && \downarrow
+    \\
+    Fix_{G_2}(\mathbb{H}) & \simeq & SU(2)
+    \\
+    \downarrow && \downarrow
+    \\
+    Stab_{G_2}(\mathbb{H}) &= & Stab_{G_2}(\mathbb{H})
+    \\
+    \downarrow && \downarrow
+    \\
+    Aut(\mathbb{H}) &\simeq& SO(3)
+    \\
+    \downarrow && \downarrow
+    \\
+    1 &=& 1
+  }
+$$
+
+exhibiting $Stab_{G_2}(\mathbb{H})$ as a [[group extension]]  of the [[special orthogonal group]] $SO(3)$ by the [[special unitary group]] $SU(2)$.
+
+=--
+
+([Ferolito, sections 4](#Ferolito))
+
+Furthermore there is [[subgroups]] $SO(4), SU(3) \hookrightarrow G_2$ whose [[intersection]] is $U(2)$. The [[simple Lie group|simple]] part $SU(2)$ of this intersection is a [[normal subgroup]] of $SO(4)$.
+
+(see e.g. [Miyaoka 93](#Miyaoka93), review includes [Ferolito, sections 3 and 4](#Ferolito))
+
 
 (...)
 
@@ -115,7 +160,7 @@ The definitions are reviewed for instance in
 
 * {#Joyce} [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
  
-* _The octonions and $G_2$_ ([pdf](https://www2.bc.edu/~reederma/Ferolito.pdf))
+* {#Ferolito} Ferolito _The octonions and $G_2$_ ([pdf](https://www2.bc.edu/~reederma/Ferolito.pdf))
 
 * [[John Baez]], _$G_2$_ ([web](http://math.ucr.edu/home/baez/octonions/node14.html))
 
