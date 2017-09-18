@@ -67,6 +67,8 @@ Thus a proof *qua* witness is a construction, and in more elaborated development
 
 ## Related concepts
 
+* [[proof by contradiction]]
+
 * [[computational trinitarianism]]
 
 * [[theory]]
