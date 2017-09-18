@@ -764,3 +764,7 @@ See also
 An application to [[multisymplectic geometry]] is discussed in
 
 * Thomas Bridges, Peter Hydon, Jeffrey Lawson, _Multisymplectic structures and the variational bicomplex_  ([pdf](http://personal.maths.surrey.ac.uk/st/T.Bridges/PAPERS/MPCPS-Paper-09024.pdf))
+
+Discussion in the context of [[supergeometry]] is in 
+
+* [[Gennadi Sardanashvily]], _Grassmann-graded Lagrangian theory of even and odd variables_ ([arXiv:1206.2508](https://arxiv.org/abs/1206.2508))
