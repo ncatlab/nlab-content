@@ -274,7 +274,11 @@ a $U(n) \hookrightarrow GL(2n,\mathbb{R})$-structure -- called an _[[almost Herm
 
 A An $G_2 \to GL(7)$-[[G-structure|structure]] is a [[G2-structure]]. Its [[torsion of a G-structure]] vanishes if the corresponding definite 3-form $\omega$ is [[covariant derivative|covariantly constant]] with respect to the induced [[Riemannian metric]], in which case the structure is a [[G2-manifold]]. Beware that some authors refer to first-order integrable $G_2$-structure (or even weaker conditions) as "integrable $G_2$-structure" (see [Bryant 05, remark 2](#G2+manifold#Bryant05) for critical discussion of the terminology). The  [[torsion of a G-structure|higher-order torsion invariants]] of $G_2$-structures do not in general vanish (e.g [Bryant 05, (4.7)](#Bryant05)) and so, contrary to the above cases of symplectic and complex structure, $G_2$-manifold structure does not imply integrable $G_2$-structure.
 
+### Further examples
 
+* [[CR-manifold]]
+
+* [[torsion constraints of supergravity]]
 
 ## References
 
@@ -307,3 +311,6 @@ See also the references at _[[torsion of a Cartan connection]]_ and at _[[torsio
 
 [[!redirects integrable G-stucture]]
 [[!redirects integrable G-stuctures]]
+
+[[!redirects first-order integrable G-structure]]
+[[!redirects first-order integrable G-structures]]
