@@ -1,27 +1,2 @@
 
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Supergeometry
-+--{: .hide}
-[[!include supergeometry - contents]]
-=--
-#### Group Theory
-+-- {: .hide}
-[[!include group theory - contents]]
-=--
-=--
-=--
-
-
-The [[supergeometry]]-[[analogy|analog]] of [[Cartesian space]]/[[Euclidean space]], the Euclidean version of a [[super-Minkowski spacetime]] (see there for more details). For suitable even|odd dimension this is naturally equipped with the structure of a [[supergroup]] that makes it a [[super-translation group]].
-
-
-[[!redirects super-Cartesian spaces]]
-
-[[!redirects super-Euclidean space]]
-[[!redirects super-Euclidean spaces]]
-
-[[!redirects super Euclidean space]]
-[[!redirects super Euclidean spaces]]
-
+see at _[[super Cartesian space]]_
