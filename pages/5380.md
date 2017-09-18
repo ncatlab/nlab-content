@@ -106,7 +106,49 @@ $$
   \,.
 $$
 
+=--
 
++-- {: .num_lemma #CanonicalInclusionOfProjectiveSpaces}
+###### Lemma
+**(canonical inclusion of projective spaces)**
+
+For $n \in \matzhbb{N}$ the function between topological projective spaces from def. \ref{ToplogicalProjectiveSpace} given by
+
+$$
+  \array{
+    k P^n &\overset{}{\longrightarrow}& k P^{n+1}
+    \\
+    [x_1 : \cdots : x_{n+1}] &\mapsto& [ x_1 : \cdots : x_{n+1} : 0]
+  }
+$$
+
+is a [[continuous function]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+There is a [[commuting square]] of functions of underlying sets of the form
+
+$$
+  \array{
+    (x_1, \cdots, x_{n+1}) &\mapsto& (x_1, \cdots, x_{n+1}, 0)
+    \\
+    k^{n+1} & \overset{}{\longrightarrow} & k^{n+2}
+    \\
+    \downarrow &\searrow& \downarrow
+    \\
+    k P^n &\longrightarrow& k P^{n+1}
+    \\
+    [x_1 : \cdots : x_{n+1}] &\mapsto& [ x_1 : \cdots : x_{n+1} : 0] 
+  }
+  \,,
+$$
+
+where the two vertical functions are the defining quotient co-projections, which are continuous functions by nature of [[quotient spaces]]. The top function is clearly continuous ([[polynomials are continuous]]) and hence so is its composite with the right co-projection, inducated by the diagonal arrow in the above diagram.
+
+This implies that the bottom function is continuous by the nature (the [[universal property]]) of the quotient space topology.
 
 =--
 
