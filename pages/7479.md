@@ -427,9 +427,42 @@ are $(\infty,1)$-pullbacks in $\mathbf{H}$. This is clearly always the case.
 =--
 
 ### As a classifying topos
+ {#AsAClassifyingTopos}
 
-The Siepinski topos is the [[classifying topos]] for [[subterminal objects]] in [[toposes]] (see e.g. [Johnstone 77, p. 117](#Johnstone77)).
+The Sierpinski topos is the [[classifying topos]] for [[subterminal objects]] in [[toposes]] (see e.g. [Johnstone 77, p. 117](#Johnstone77)).
 
+The generic subterminal inclusion in the Sierpinski topos is the unique inclusion of $[\emptyset \to \ast]$ into $[\ast  \to \ast]$.
+
+The [[full subcategory]]-inclusion
+
+$$
+  \Delta^1 = \{\ast \to S^0\} \hookrightarrow FinSet^{\ast/} \hookrightarrow \infty Grpd_{fin}^{\ast/}
+$$
+
+induces via restriction and right [[Kan extension]] an [[essential geometric morphism|essential]] [[geometric embedding]]
+
+
+$$
+  \mathbf{H}^{\Delta^1} \stackrel{\longleftarrow}{\hookrightarrow}
+  \mathbf{H}[X_\ast]
+$$
+
+
+of the Sierpinski topos into the [[classifying topos]] for [[pointed objects]], $\mathbf{H}[X_\ast]$.
+
+The pointed object in $\mathbf{H}^{\Delta^1}$ which is classified by this [[geometric morphism]] is $[\ast \to S^0]$ (with $S^0 = \ast \coprod \ast$ the [[0-sphere]]) with its canonical map from $[\ast \to \ast]$.
+
+In summary, the generic subterminal object and the generic pointed object fit into a sequence of the form
+
+$$
+  \array{
+     \emptyset &\hookrightarrow& \ast &\longrightarrow& \ast
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     \ast &\longrightarrow& \ast &\longrightarrow& S^0
+  }
+$$
 
 
 ## References
