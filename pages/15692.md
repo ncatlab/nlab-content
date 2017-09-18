@@ -28,7 +28,7 @@ $$
   \propto \int d^4 \mathbf{p} \; \frac{1}{\mathbf{p}^2 - m^2}
 $$
 
-where the integral would naively be over all of $\mathbb{R}^4$, which is of course not well defined. The integrand here is typically called the _Feynman  propagator_ or _propagator_ for short (e.g. [Grozin 05, section 2.1](#Grozin05) [Kleinert 11, 8.1](#Kleinert11)). 
+where the integral would naively be over all of $\mathbb{R}^4$, which is of course not well defined. The integrand here is typically called the _Feynman  propagator_ or _propagator_ for short (e.g. [Grozin 05, section 2.1](#Grozin05) [Kleinert 11, 8.1](#Kleinert11)). See at _[Feynman diagram -- For finitely many degrees of freedoms](Feynman+diagram#ForFinitelyManyDegreesOfFreedom)_ for how this comes about.
 
 Several methods are considered for _[[regularization (physics)|regularizing]]_, hence making sense of it as a finite expression. One of these is [[zeta function regularization]] (also "analytic regularization/renormalization" [Speer 71](#Speer71)). Here one notices that the [[zeta function of an elliptic differential operator|zeta function]] of the [[wave operator]]/[[Laplace operator]] $H = \mathbf{p}^2 + m^2$ is well-defined for $\Re(s) \gt 1$ by the naive [[trace]]
 
