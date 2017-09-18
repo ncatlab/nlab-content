@@ -555,7 +555,7 @@ such that
    constitute an $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}:
 
    $$
-     0 \to X \stackrel{i_0}{\to} I_0 \stackrel{i_2}{\to} I_2 \stackrel{}{\to} \cdots
+     0 \to X \stackrel{i_0}{\to} I_0 \stackrel{i_1}{\to} I_1 \stackrel{}{\to} \cdots
      \,.
    $$
 
@@ -564,7 +564,15 @@ Call this the _associated $E$-Adams resolution_ of the $E$-Adams tower.
 The _associated inverse sequence_ is
 
 $$
-  X = X_0 \stackrel{\gamma_0}{\longleftarrow} \Omega C_1 \stackrel{\gamma_1}{\longleftarrow} C_2 \longleftarrow \cdots
+  X 
+    = 
+  X_0 
+    \stackrel{\gamma_0}{\longleftarrow} 
+  \Sigma^{-1} C_1 
+    \stackrel{\gamma_1}{\longleftarrow} 
+  \Sigma^{-2} C_2 
+    \longleftarrow 
+  \cdots
 $$
 
 where $C_{k+1} \coloneqq hocofib(i_k)$.
