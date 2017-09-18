@@ -280,6 +280,10 @@ A review of this with some further discussion is in section 6 of
 * Sander Wolters, _Quantum toposophy_, PhD Thesis 2013
   {#Wolters13}
 
+Discussion of properly co-stacky nets of local observables in [[gauge theory]] is in 
+
+* {#BeniniSchenkelSzabo15} [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Homotopy colimits and global observables in Abelian gauge theory_ ([arXiv:1503.08839](http://arxiv.org/abs/1503.08839))
+
 ### In perturbation theory
 
 The observation that in [[perturbation theory]] the [[renormalization|Stückelberg-Bogoliubov-Epstein-Glaser]] local [[S-matrix|S-matrices]] yield a [[local net of observables]] was first made in 
