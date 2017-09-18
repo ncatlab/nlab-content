@@ -124,7 +124,7 @@ In this first part we discuss the foundations of the concept of "sets equipped w
 ## Metric spaces
  {#Continuity}
 
-The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpace} below.
+The concept of continuity was first made precise  in [[analysis]], in terms of [[epsilontic analysis]] on [[metric spaces]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpace} below.
 
 Here we briefly recall the relevant basic concepts from [[analysis]], as a motivation for various definitions in
 [[topology]]. The reader who either already recalls these concepts in analysis
@@ -144,7 +144,7 @@ such that for all $x,y,z \in X$:
 
 1. (symmetry) $d(x,y) = d(y,x)$
 
-1. ([[triangle inequality]]) $d(x,y)+ d(y,z) \geq d(x,z)$.
+1. ([[triangle inequality]]) $d(x,z) \leq d(x,y)+ d(y,z)$.
 
 1. (non-degeneracy) $d(x,y) = 0 \;\;\Leftrightarrow\;\; x = y$
 
@@ -216,14 +216,14 @@ A _[[normed vector space]]_ is
 1. a [[function]] (the _[[norm]]_)
 
    $$
-     {\Vert {-} \Vert} \;\colon\; V \longrightarrow \mathbb{R}
+     {\Vert {-} \Vert} \;\colon\; V \longrightarrow \mathbb{R}_{\geq 0}
    $$
 
-   from the underlying [[set]] of $V$ to the [[real numbers]],
+   from the underlying [[set]] of $V$ to the [[non-negative number|non-negative]] [[real numbers]],
 
-such that for all $c \in \mathbb{R}$, $v , w \in V$ it holds true that
+such that for all $c \in \mathbb{R}$ with [[absolute value]] ${\vert c \vert}$ and all $v , w \in V$ it holds true that
 
-1. (linearity) ${\Vert c v \Vert} = c {\Vert v \Vert }$;
+1. (linearity) ${\Vert c v \Vert} = {\vert c \vert} {\Vert v \Vert }$;
 
 1. ([[triangle inequality]]) ${\Vert v+w \Vert} \leq {\Vert v \Vert } + {\Vert w \Vert}$;
 
@@ -312,7 +312,7 @@ the [[p-norm]] generalizes to non-[[finite dimensional vector spaces]] such as [
 =--
 
 
-
+$\,$
 
 ### Continuity
  {#ContinuityInAnalysis}
@@ -336,8 +336,8 @@ $$
 is said to be _continuous at a point $x \in X$_ if for
 every [[positive number|positive]] [[real number]] $\epsilon$
 there exists a [[positive number|positive]] [[real number]] $\delta$ such that
-for all $x' \in X$ that are a distance $\lt \delta$ from $x$ then their image $f(x')$
-is a distance at most $\epsilon$ from $f(x)$:
+for all $x' \in X$ that are a [[distance]] smaller than $\delta$ from $x$ then their image $f(x')$
+is a distance smaller than $\epsilon$ from $f(x)$:
 
 $$
   \left(
@@ -346,7 +346,7 @@ $$
   \;\coloneqq\;
   \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
   \left(
-    \underset{{\epsilon \in \mathbb{R}} \atop {\delta \gt 0}}{\exists}
+    \underset{{\delta \in \mathbb{R}} \atop {\delta \gt 0}}{\exists}
       \left(
         \left(
           d_X(x,x') \lt \delta
@@ -396,7 +396,7 @@ We now reformulate the analytic concept of continuity from def. \ref{EpsilonDelt
 ###### Definition
 **(neighbourhood and open set)**
 
-Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
+Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that:
 
 1. A _[[neighbourhood]]_ of a point $x \in X$ is a [[subset]] $U_x \subset X$ which contains some [[open ball]] $B_x^\circ(\epsilon) \subset U_x$ around $x$ (def. \ref{OpenBalls}).
 
@@ -414,8 +414,9 @@ The following picture shows a point $x$, some [[open balls]] $B_i$ containing it
 > graphics grabbed from [Munkres 75](#Munkres75)
 
 
-+-- {: .num_example #OpenEmptySet} 
++-- {: .num_example #OpenEmptySet}
 ###### Example
+**(the empty subset is open)**
 
 Notice that for $(X,d)$ a [[metric space]], then the [[empty set|empty]] [[subset]] $\emptyset \subset X$
 is always an [[open subset]] of $(X,d)$ according to def. \ref{OpenSubsetsOfAMetricSpace}.
@@ -618,14 +619,14 @@ $$
 
 By example \ref{OpenAndClosedIntervals}, all except the last of these pre-images listed are open subsets.
 
-The failure of the last of the pre-images listed  to be open
+The failure of the last of the pre-images to be open
 witnesses that the step function is not continuous at $x = 0$.
 
 =--
 
 
 
-
+$\,$
 
 
 ### Compactness
@@ -633,12 +634,12 @@ witnesses that the step function is not continuous at $x = 0$.
 
 A key application of [[metric spaces]] in [[analysis]] is that they allow a formalization of what it means
 for an infinite [[sequence]] of elements in the metric space (def. \ref{Sequences} below)
-to _[[convergence|converge]]_ to a [[limit of a sequence]] (def. \ref{Convergence}).
+to _[[convergence|converge]]_ to a _[[limit of a sequence]]_ (def. \ref{Convergence} below).
 Of particular interest are therefore those metric spaces for which each sequence has a converging subsequence:
-the [[sequentially compact metric spaces]] (def. \ref{MetricSpaceSequentiallyCompact}).
+the _[[sequentially compact metric spaces]]_ (def. \ref{MetricSpaceSequentiallyCompact}).
 
 We now briefly recall these concepts from [[analysis]]. Then, in the above spirit, we reformulate
-the epsilontic definition of sequential compactness equivalently in terms of [[open subsets]].
+their epsilontic definition in terms of [[open subsets]].
 This gives a useful definition that generalizes to [[topological spaces]], the _[[compact topological spaces]]_
 discussed further [below](#CompactSpaces).
 
@@ -785,7 +786,7 @@ if every [[sequence]] in $X$ has a subsequence (def. \ref{Sequences}) which [[co
 =--
 
 The key fact to translate this [[epsilontic analysis|epsilontic]] definition of compactness to a concept that
-makes sense for general [[topological space]] ([below](#CompactSpaces)) is the following:
+makes sense for general [[topological spaces]] ([below](#CompactSpaces)) is the following:
 
 +-- {: .num_prop #CompactnessImpliedBySequentialCompactnessForMetricSpace}
 ###### Proposition
@@ -796,7 +797,7 @@ For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equiva
 1. $X$ is [[sequentially compact space|sequentially compact]];
 
 1. for every [[set]] $\{U_i \subset X\}_{i \in I}$ of [[open subsets]] $U_i$ of $X$ (def. \ref{OpenSubsetsOfAMetricSpace})
-   which cover $X$ in that $X = \underset{i \in I}{\cup} U_i$, then
+   which [[open cover|cover]] $X$ in that $X = \underset{i \in I}{\cup} U_i$, then
    there exists a [[finite set|finite]] [[subset]] $J \subset I$ of these open subsets which still covers
    $X$ in that also $X = \underset{i \in J \subset I}{\cup} U_i$.
 
@@ -812,10 +813,10 @@ $\,$
 In **summary** prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} and prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
 show that the purely combinatorial
 and in particular non-[[epsilontic analysis|epsilontic]] concept of _[[open subsets]]_ captures a substantial part of the nature of
-[[metric spaces]] in [[analysis]]. This motivates to reverse the logic and consider "[[spaces]]" which are
+[[metric spaces]] in [[analysis]]. This motivates to reverse the logic and consider more general "[[spaces]]" which are
 _only_ characterized by what counts as their open subsets. These are the _[[topological spaces]]_
 which we turn to now in def. \ref{TopologicalSpace} (or, more generally, these are the "[[locales]]", which we briefly
-remark on further below in remark \ref{Locales}).
+consider below in remark \ref{Locales}).
 
 
 $\,$
@@ -828,7 +829,7 @@ $\,$
 
 Due to prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}
 we should pay attention to [[open subsets]] in [[metric spaces]]. It turns out that the following closure
-property, which follow directly from the definitions, is at the heart of the concept:    
+property, which follow directly from the definitions, is at the heart of the concept:
 
 
 +-- {: .num_prop #OpenSubsetsOfMetricSpaceClosureProperties}
@@ -847,9 +848,9 @@ The collection of [[open subsets]] of a [[metric space]] $(X,d)$ as in def. \ref
 ###### Remark
 **(empty union and empty intersection)**
 
-Notice the degenerate case of [[unions]] $\underset{i \in I}{\cup} U_i$ 
+Notice the degenerate case of [[unions]] $\underset{i \in I}{\cup} U_i$
 and [[intersections]] $\underset{i \in I}{\cap} U_i$ of [[subsets]] $U_i \subset X$ for the case that they
-are indexed by the [[empty set]] $I = \emptyset$: 
+are indexed by the [[empty set]] $I = \emptyset$:
 
 1. the _empty union_ is the empty set itself;
 
@@ -857,7 +858,7 @@ are indexed by the [[empty set]] $I = \emptyset$:
 
 (The second of these may seem less obvious than the first. We discuss the general logic behind these kinds of phenomena [below](#UniversalConstructions).)
 
-This way prop. \ref{OpenSubsetsOfMetricSpaceClosureProperties} 
+This way prop. \ref{OpenSubsetsOfMetricSpaceClosureProperties}
 is indeed compatible with the degenerate cases of examples of open subsets in example \ref{OpenEmptySet}.
 
 =--
@@ -920,7 +921,7 @@ An introductory textbook amplifying this perspective is ([Vickers 89](#Vickers89
 
 $\,$
 
-Before we look at first examples [below](#TopologicalSpacesExamples), 
+Before we look at first examples [below](#TopologicalSpacesExamples),
 here is some common **further terminology** regarding topological spaces:
 
 There is an evident [[partial ordering]] on the set of topologies that a given set may carry:
@@ -998,8 +999,8 @@ $\,$
 ### Examples
  {#TopologicalSpacesExamples}
 
-We discuss here some basic examples of [[topological spaces]] (def. \ref{TopologicalSpace}), to get a feeling for 
-the scope of the concept. Topological spaces are ubiquituous in [[mathematics]], so that there are many more examples 
+We discuss here some basic examples of [[topological spaces]] (def. \ref{TopologicalSpace}), to get a feeling for
+the scope of the concept. Topological spaces are ubiquituous in [[mathematics]], so that there are many more examples
 and many more classes of examples than could be listed.
 
 First of all, our motivating example from [above](#Continuity) now reads as follows:
