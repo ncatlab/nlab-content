@@ -1218,7 +1218,7 @@ With this the statement follows by prop. \ref{TopologicalSubBundlesOverParacompa
 +-- {: .num_remark}
 ###### Remark
 
-Prop. \ref{OverCompactHausdorffSpacesEveryTopologicalVectorBundleIsDirectSummandOfATrivialBundle} is key for the construction of [[topological K-theory]] groups on compact Hausdorff spaces.
+Prop. \ref{TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle} is key for the construction of [[topological K-theory]] groups on compact Hausdorff spaces.
 
 =--
 
@@ -1501,7 +1501,7 @@ the [[trivial vector bundles]] over $X$.
 ###### Proposition
 
 Let $X$ be a [[compact Hausdorff space]] and $A \subset X$ a [[closed subset|closed]] [[subspace]]
-and write $X/A$ for the corresponding [[quotient topological space]] ([this example](quotient+space#QuotientBySubspace)) 
+and write $X/A$ for the corresponding [[quotient topological space]] ([this example](quotient+space#QuotientBySubspace))
 with quotient coprojection denoted
 $q \colon X \longrightarrow X/A$.
 
@@ -1532,7 +1532,7 @@ There is
 
 1. the ordinary [[cylinder]], being the [[product space]] $X \times I$
 
-1. the [[reduced cylinder]] $X \wedge I_+ = (X \times I)/( \{x\} \times I )$ 
+1. the [[reduced cylinder]] $X \wedge I_+ = (X \times I)/( \{x\} \times I )$
    which is the [[smash product]] with the interval that has a base point freely adjoined
 
 and
@@ -1541,7 +1541,7 @@ and
 
 1. the [[reduced suspension]] $\Sigma X \coloneqq (S X)/( \{x\} \times I )$.
 
-In both cases the reduced space is obtained from the unreduced space by quotienting out the 
+In both cases the reduced space is obtained from the unreduced space by quotienting out the
 contractible closed subspace $I \simeq \{x\} \times I$ and hence topological vector bundles
 do not see the difference between the reduced and the unreduced spaces, by prop. \ref{VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace}.
 
