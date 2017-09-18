@@ -13,6 +13,7 @@
 {:toc}
 
 ## Idea
+
 One thinks of [[existential quantifier | existential quantification]] as _[[projection]]_. A theory eliminates quantifiers when "the projection of a primitive (quantifier-free) definable set is still primitive (quantifier-free)."
 
 For example, suppose we're working with the theory of an infinite [[vector space]] over a fixed field $\mathbb{F}$. Let $A$ be a linear transformation $\mathbb{F}^{n+1} \to \mathbb{F}^m$. Let $\vec{b}$ be an $m$-tuple, $x$ a variable, and $\vec{y}$ an $n$-tuple of variables. Then the solution set for
@@ -30,6 +31,8 @@ $$
 to the $\vec{y}$-hyperplane. Since the projection of a (translated) hyperplane is again a (translated) hyperplane, there exists some $B : \mathbb{F}^n \to \mathbb{F}^m$ such that $B(\vec{y}) = \vec{b} \iff (\exists x) \left(A(x, \vec{y}) = \vec{b}\right).$
 
 This is an instance of the fact that the theory of infinite [[vector space | vector spaces]] over a division ring admits quantifier elimination. It's nice when this happens, and when it doesn't, one asks for minimal ways to expand the language to make it happen. That [[ACF]] eliminates quantifiers is a special case of [[Chevalley's theorem on constructible sets]] ("the image of a constructible set is constructible").
+
+Often, in order to prove quantifier-elimination, one develops an _effective_ procedure for reducing an arbitrary sentence to a quantifier-free one, which shows that the theory is [[decidability|decidable]]; this is how Tarski proved that the theory [[RCF]] of real closed fields is decidable. 
 
 ## Definition
 An $\mathcal{L}$-theory $T$ **eliminates quantifiers** if every $\mathcal{L}$-formula $\varphi(x)$ is equivalent to a quantifier-free $\mathcal{L}$-formula $\psi(x)$, i.e.
@@ -49,6 +52,14 @@ $$
 * It is an informative exercise to try to prove QE syntactically (a "tractable" case like [[DLO]] suffices) to appreciate the usefulness of the semantic/model-theoretic characterization of QE below.
 
 ## Semantic characterizations of QE
+
++-- {: .num_prop}
+###### Proposition
+
+A first-order theory $T$ eliminates quantifiers if and only if it is substructure-complete: $T$ plus the [[quantifier-free diagram]] of any substructure of any model of $T$ form a complete theory.
+
+=--
+
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -85,6 +96,11 @@ Let $T$ eliminate quantifiers. Let $K$ be a substructure (not necessarily a subm
 In particular, if we specialize to [[ACF]], this tells us that not only do all algebraically closed fields admit quantifier elimination in the language of rings, but so do all algebraically closed fields containing a fixed ring $R$ (i.e. the geometric points of $\operatorname{Spec}(R)$), in the language of rings with constants for the elements of $R$.
 
 ## Related concepts
+* [[quantification]]
+
+* [[quantifier-free diagram]]
+
+* [[decidability]]
 
 ## References
 
