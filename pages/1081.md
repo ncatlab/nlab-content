@@ -89,7 +89,7 @@ $$
     ker(coker \delta_n \to im \delta_{n-1})
     \\
     & \simeq
-    ker(coker \delta_n \to V_{\delta_{n-1}})
+    ker(coker \delta_n \to V_{n-1})
   \end{aligned}
 $$
 
