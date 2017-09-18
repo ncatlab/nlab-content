@@ -145,43 +145,6 @@ such that:
      \,.
    $$
 
-We say $\tilde E^\bullet$ is **additive** if in addition
-
-* {#WedgeAxiom} **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
-
-  $$
-    \tilde E^\bullet(\vee_{i \in I} X_i) 
-    \longrightarrow
-    \prod_{i \in I} \tilde E^\bullet(X_i)
-  $$
-
-  from the functor applied to their [[wedge sum]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct)), to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
-
-We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$ is concentrated in degree 0:
-
-* **(Dimension)**  $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
-
-A [[homomorphism]] of reduced cohomology theories
-
-$$
-  \eta \;\colon\; \tilde E^\bullet \longrightarrow \tilde F^\bullet
-$$
-
-is a [[natural transformation]] between the underlying functors which is compatible with the suspension isomorphisms in that all the following [[commuting square|squares commute]]
-
-$$
-  \array{
-    \tilde E^\bullet(X) &\overset{\eta_X}{\longrightarrow}&  \tilde F^\bullet(X)
-    \\
-    {}^{\mathllap{\sigma_E}}\downarrow && \downarrow^{\mathrlap{\sigma_F}}
-    \\
-    \tilde E^{\bullet + 1}(\Sigma X) 
-    &\overset{\eta_{\Sigma X}}{\longrightarrow}&
-    \tilde F^{\bullet + 1}(\Sigma X)
-  }
-  \,.
-$$
-
 =--
 
 (e.g. [AGP 02, def. 12.1.4](#AguilarGitlerPrieto02))
@@ -227,7 +190,7 @@ A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology
 $$
   \tilde E^\bullet 
    \;\colon\; 
-  Top^{\ast/}^{op} \longrightarrow Ab^{\mathbb{Z}}
+  (Top^{\ast/})^{op} \longrightarrow Ab^{\mathbb{Z}}
 $$
 
 from the [[opposite category|opposite]] of the category of [[pointed topological spaces]] to $\mathbb{Z}$-[[graded abelian groups]], such that 
@@ -303,10 +266,53 @@ such that
 
 * **(exactness)** $\tilde E^\bullet$ takes [[homotopy cofiber sequences]] to [[exact sequences]].
 
-In addition one may require
- 
-* **(additivity)** $\tilde E^\bullet$ takes small [[coproducts]] to [[products]].
+=--
 
+Finally we need the following terminology:
+
++-- {: .num_defn }
+###### Definition
+
+Let $\tilde E^\bullet$ be a [[reduced cohomology theory]] according to either of def. \ref{ReducedGeneralizedCohomology}, def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically}, def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor} or def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}.
+
+We say $\tilde E^\bullet$ is **additive** if in addition
+
+* {#WedgeAxiom} **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
+
+  $$
+    \tilde E^\bullet(\vee_{i \in I} X_i) 
+    \longrightarrow
+    \prod_{i \in I} \tilde E^\bullet(X_i)
+  $$
+
+  from the functor applied to their [[wedge sum]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct)), to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
+
+We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$ is concentrated in degree 0:
+
+* **(Dimension)**  $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
+
+If $\tilde E^\bullet$ is not ordinary, one also says that it is **generalized** or **extraordinary**.
+
+A **[[homomorphism]] of reduced cohomology theories**
+
+$$
+  \eta \;\colon\; \tilde E^\bullet \longrightarrow \tilde F^\bullet
+$$
+
+is a [[natural transformation]] between the underlying functors which is compatible with the suspension isomorphisms in that all the following [[commuting square|squares commute]]
+
+$$
+  \array{
+    \tilde E^\bullet(X) &\overset{\eta_X}{\longrightarrow}&  \tilde F^\bullet(X)
+    \\
+    {}^{\mathllap{\sigma_E}}\downarrow && \downarrow^{\mathrlap{\sigma_F}}
+    \\
+    \tilde E^{\bullet + 1}(\Sigma X) 
+    &\overset{\eta_{\Sigma X}}{\longrightarrow}&
+    \tilde F^{\bullet + 1}(\Sigma X)
+  }
+  \,.
+$$
 
 =--
 
@@ -1194,7 +1200,7 @@ As a first application, [[Eilenberg-MacLane spectra]] representing [[ordinary co
  {#BrownRepresentabilityTraditional}
 
 
-Write $Top_{CW,cn}^{\ast} \hookrightarrow Top_{CW}^{\ast} \hookrightarrow Top^{\ast/}$ for the category of [[pointed topological space|pointed]] and _[[connected topological space|connected]]_ [[topological spaces]] [[homeomorphism|homeomorphic]] to [[CW-complexes]]. Write $Set^{\ast/}$ for the category of [[pointed sets]].
+Write $Top_{{\geq 1}}^{\ast/} \hookrightarrow Top^{\ast/}$ for the [[full subcategory]] of _[[connected topological space|connected]]_ [[pointed topological spaces]]. Write $Set^{\ast/}$ for the category of [[pointed sets]].
 
 +-- {: .num_defn #BrownFunctorTraditional}
 ###### Definition
@@ -1202,10 +1208,10 @@ Write $Top_{CW,cn}^{\ast} \hookrightarrow Top_{CW}^{\ast} \hookrightarrow Top^{\
 A **[[Brown functor]]** is a functor
 
 $$
-  F\;\colon \; (Top_{CW,cn}^{\ast})^{op} \longrightarrow Set^{\ast/}
+  F\;\colon \; Ho(Top_{\geq 1}^{\ast/})^{op} \longrightarrow Set^{\ast/}
 $$
 
-such that
+(from the [[opposite category|opposite]] of the [[classical homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalHomotopyCategory), [def.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalPointedHomotopyCategory)) of [[connected topological space|connected]] [[pointed topological space|pointed]] [[topological spaces]]) such that
 
 1. **(additivity)** $F$ takes small coproducts ([[wedge sums]]) to [[products]];
 
@@ -1216,7 +1222,7 @@ such that
 +-- {: .num_prop #EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor}
 ###### Proposition
 
-For every [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet(-)$ (def. \ref{ReducedGeneralizedCohomology}), each degree $\tilde E^n(-)$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
+For every [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet(-) \colon Ho(Top^{\ast/})^{op}\to Set^{\ast/}$ (def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically}) and for each degree $n \in \mathbb{N}$, the restriction of $\tilde E^n(-)$ to connected spaces is a [[Brown functor]] (def. \ref{BrownFunctorTraditional}).
 
 =--
 
@@ -1227,11 +1233,17 @@ Under the relation between reduced and unreduced cohomology [above](#RelationBet
 
 =--
 
-+-- {: .num_theorem #BrownRepresentabilityTraditional}
++-- {: .num_theorem #BrownRepresentabilityForTraditionalBrownFunctors}
 ###### Theorem
 **(Brown representability)**
 
-Every [[Brown functor]] (def. \ref{BrownFunctorTraditional}) is [[representable functor|representable]].
+Every [[Brown functor]] $F$ (def. \ref{BrownFunctorTraditional}) is [[representable functor|representable]], hence there exists $X \in Top_{\geq 1}^{\ast/}$ and a [[natural isomorphism]]
+
+$$
+  [-,X]_{\ast} \overset{\simeq}{\longrightarrow} F(-)  
+$$
+
+(where $[-,-]_\ast$ denotes the [[hom-functor]] of $Ho(Top_{\geq 1}^{\ast/})$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets))).
 
 =--
 
@@ -1240,7 +1252,7 @@ Every [[Brown functor]] (def. \ref{BrownFunctorTraditional}) is [[representable 
 +-- {: .num_remark #ConnectivityInTraditionalBrownRepresentability} 
 ###### Remark
 
-A key subtlety in theorem \ref{BrownRepresentabilityTraditional} is the restriction to **connected** pointed topological spaces in def. \ref{BrownFunctorTraditional}. This comes about since the proof of the theorem requires that continuous functions $f \colon X \longrightarrow Y$ that induce isomorphisms on pointed homotopy classes 
+A key subtlety in theorem \ref{BrownRepresentabilityForTraditionalBrownFunctors} is the restriction to _connected_ pointed topological spaces in def. \ref{BrownFunctorTraditional}. This comes about since the proof of the theorem requires that continuous functions $f \colon X \longrightarrow Y$ that induce isomorphisms on pointed homotopy classes 
 
 $$
   [S^n,X]_\ast \longrightarrow [S^n,Y]_\ast
@@ -1252,31 +1264,35 @@ See also example \ref{TheClassicalPointedConnectedHomotopyCategoryAsDomainForThe
 
 =--
 
-Theorem \ref{BrownRepresentabilityTraditional} with prop. \ref{EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor} give that every degree $\tilde E^n$ of an [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet$ is [[representable functor|representable]] on pointed connected CW-complexes. But moreover, by definition these degrees are related by [suspension isomorphisms](#SuspensionIsomorphismForReducedGeneralizedCohomology). This implies that the representing sequence of topological spaces carries extra structure relating the spaces in different degree:
+The representability result applied degreewise to an additive reduced cohomology theory will yield (prop. \ref{AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum} below) the following concept.
 
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-An **[[Omega-spectrum]]** $X$ ([def.](Introduction+to+Stable+homotopy+theory+--+1#OmegaSpectrum)) is a sequence $\{X_n\}_{n \in \mathbb{N}}$ of [[topological spaces]] equipped with [[weak homotopy equivalences]]
+An **[[Omega-spectrum]]** $X$ ([def.](Introduction+to+Stable+homotopy+theory+--+1#OmegaSpectrum)) is 
 
-$$
-  \tilde \sigma_n
-  \;\colon\;
-  X_n \longrightarrow \Omega X_{n+1}
-$$
+1. a sequence $\{X_n\}_{n \in \mathbb{N}}$ of [[pointed topological spaces]] $X_n \in Top^{\ast/}$ 
 
-for each $n \in \mathbb{N}$.
+1. [[weak homotopy equivalences]]
+
+   $$
+     \tilde \sigma_n
+     \;\colon\;
+     X_n \underoverset{\in W_{cl}}{\tilde \sigma_n}{\longrightarrow} \Omega X_{n+1}
+   $$
+
+   for each $n \in \mathbb{N}$, form each space to the [[loop space]] of the following space.
 
 =--
 
 +-- {: .num_prop #AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum}
 ###### Proposition
 
-Every [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet(-) \colon (Top_{CW}^\ast)^{op} \longrightarrow Ab^{\mathbb{Z}}$ according to def. \ref{ReducedGeneralizedCohomology}, when restricted to [[connected topological space|connected]] spaces is [[representable functor|represented]] by an [[Omega-spectrum]] $E$ (def. \ref{OmegaSpectrum}) in that in each degree $n \in \mathbb{N}$
+Every [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet(-) \colon (Top_{CW}^\ast)^{op} \longrightarrow Ab^{\mathbb{Z}}$ according to def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically}, is [[representable functor|represented]] by an [[Omega-spectrum]] $E$ (def. \ref{OmegaSpectrum}) in that in each degree $n \in \mathbb{N}$
 
-1. $\tilde E^n(-)$ is represented by $E_n \in Top$;
+1. $\tilde E^n(-)$ is represented by some $E_n \in Ho(Top^{\ast/})$;
 
-1. the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) $\sigma_n$ of $\tilde E^\bullet$ is represented by the structure map $\tilde \sigma_n$ of the Omega-spectrum in that for all $X \in Top^{\ast/}_{CW,cn}$ the following [[commuting diagram|diagram commutes]]:
+1. the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) $\sigma_n$ of $\tilde E^\bullet$ is represented by the structure map $\tilde \sigma_n$ of the Omega-spectrum in that for all $X \in Top^{\ast/}$ the following [[commuting diagram|diagram commutes]]:
 
    $$
      \array{
@@ -1298,14 +1314,48 @@ Every [additive](#WedgeAxiom) [[reduced cohomology theory]] $\tilde E^\bullet(-)
      \,,
    $$
 
-   where $[-,-]_\ast \coloneqq Hom_{Ho(Top_{CW,cn}^{\ast/})}$ denotes the [[hom-sets]] in the [[classical pointed homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnPointedTopologicalSpaces)) and where in the bottom right we have the $(\Sigma\dashv \Omega)$-[[adjunction]] isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopAreAdjointOnHomotopyCategory)).
+   where $[-,-]_\ast \coloneqq Hom_{Ho(Top_{\geq 1}^{\ast/})}$ denotes the [[hom-sets]] in the [[classical pointed homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnPointedTopologicalSpaces)) and where in the bottom right we have the $(\Sigma\dashv \Omega)$-[[adjunction]] isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopAreAdjointOnHomotopyCategory)).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Theorem \ref{BrownRepresentabilityTraditional} with prop. \ref{EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor} gives the existence of the $\{E_n\}_{n \in \mathbb{N}}$. The remaining statement follows with the [[Yoneda lemma]], which says that morphisms between [[representable functors]] are in [[natural bijection]] with the morphisms of objects that represent them.
+If it were not for the connectedness clause in def. \ref{BrownFunctorTraditional} (remark \ref{ConnectivityInTraditionalBrownRepresentability}), then theorem \ref{BrownRepresentabilityForTraditionalBrownFunctors} with prop. \ref{EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor} would immediately give the existence of the $\{E_n\}_{n \in \mathbb{N}}$ and the remaining statement would follow immediately with the [[Yoneda lemma]], which says in particular that morphisms between [[representable functors]] are in [[natural bijection]] with the morphisms of objects that represent them.
+
+The argument with the connectivity condition in Brown representability taken into account is essentially the same, just with a little bit more care:
+
+For $X$ a [[pointed topological space]], write $X^{(0)}$ for the connected component of its basepoint. Observe that the [[loop space]] of a pointed topological space only depends on this connected component:
+
+$$
+  \Omega X \simeq \Omega (X^{(0)})
+  \,.
+$$
+
+Now for $n \in \mathbb{N}$, to show that $\tilde E^n(-)$ is representable by some $E_n \in Ho(Top^{\ast/})$, use first that the restriction of $\tilde E^{n+1}$ to connected spaces is represented by some $E_{n+1}^{(0)}$. Observe that the [[reduced suspension]] of any $X \in Top^{\ast/}$ lands in $Top_{\geq 1}^{\ast/}$. Therefore the $(\Sigma\dashv \Omega)$-[[adjunction]] isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopAreAdjointOnHomotopyCategory)) implies that $\tilde E^{n+1}(\Sigma(-))$ is represented on _all_ of $Top^{\ast/}$ by $\Omega E_{n+1}^{(0)}$:
+
+$$
+  \tilde E^{n+1}(\Sigma X)
+    \simeq
+  [\Sigma X, E_{n+1}^{(0)}]_\ast
+    \simeq
+  [X, \Omega E_{n+1}^{(0)}]_\ast
+    \simeq
+  [X, \Omega E_{n+1}]_\ast
+  \,,
+$$
+
+where $E_{n+1}$ is any pointed topological space with the given connected component $E_{n+1}^{(0)}$.
+ 
+Now the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) of $\tilde E$ says that $E_n \in Ho(Top^{\ast/})$ representing $\tilde E^n$ exists and is given by $\Omega E_{n+1}^{(0)}$:
+
+$$
+  \tilde E^n(X) \simeq \tilde E^{n+1}(\Sigma, X)\simeq [X,\Omega E_{n+1}]
+$$
+
+for any $E_{n+1}$ with connected component $E_{n+1}^{(0)}$.
+
+This completes the proof. Notice that running the same argument next for $(n+1)$ gives a representing space $E_{n+1}$ such that its connected component of the base point is $E_{n+1}^{(0)}$ found before. And so on.
 
 =--
 
@@ -2135,7 +2185,7 @@ $$
   X
 $$
 
-from the [[mapping telescope]], def. \ref{MappingTelescope}, is a [[homotopy equivalence]].
+from the [[mapping telescope]], def. \ref{MappingTelescope}, is a [[weak homotopy equivalence]].
 
 =--
 
@@ -2143,15 +2193,13 @@ from the [[mapping telescope]], def. \ref{MappingTelescope}, is a [[homotopy equ
 +-- {: .proof}
 ###### Proof
 
-We show that the map is a [[weak homotopy equivalence]]. Because domain and codomain are [[CW-complexes]], by [[Whitehead's theorem]] it is then also a homotopy equivalence.
-
 Write in the following $Tel(X)$ for $Tel(X_\bullet)$ and write $Tel(X_n)$ for the mapping telescop of the substages of the finite stage $X_n$ of $X$. It is intuitively clear that each of the projections at finite stage
 
 $$
   Tel(X_n) \longrightarrow X_n
 $$
 
-is a homotopy equivalence. A concrete construction of a homotopy inverse is given for instance in ([Switzer 75, proof of prop. 7.53](#Switzer75)).
+is a [[homotopy equivalence]], hence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences)) a weak homotopy equivalence. A concrete construction of a homotopy inverse is given for instance in ([Switzer 75, proof of prop. 7.53](#Switzer75)).
 
 Moreover, since spheres are [[compact object|compact]], so that elements of [[homotopy groups]] $\pi_q(Tel(X))$ are represented at some finite stage $\pi_q(Tel(X_n))$ it follows that 
 
