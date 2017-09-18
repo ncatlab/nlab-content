@@ -26,7 +26,7 @@ In the context of [[global equivariant homotopy theory]] and [[global equivarian
 +-- {: .num_defn #GlobalFamily}
 ###### Definition
 
-A [[class]] of [[compact Lie groups]] is called a **global family** if it is closed under
+A non-empty [[class]] of [[compact Lie groups]] is called a **global family** if it is closed under
 
 1. [[isomorphism]];
 
@@ -59,6 +59,10 @@ The following are examples of global families (def. \ref{GlobalFamily}): the cla
 1. all [[quotient groups]] of [[closed subset|closed]] [[subgroups]] of a fixed [[compact Lie group]].
 
 1. all [[finite groups]].
+
+1. all finite [[cyclic groups]].
+
+1. all finite [[p-primary groups]].
 
 =--
 
