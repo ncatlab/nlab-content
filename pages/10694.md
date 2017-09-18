@@ -176,7 +176,7 @@ converging to the [[Ext]] over $\Gamma$ between $N_1$ and $N_2$, whose first pag
 +-- {: .proof}
 ###### Proof
 
-The filtering induces a filtering on the standard bar complex which computes $Ext_\Gamma$. The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]]. Its first page is the homology of the associated graded complex (by this [prop.](spectral+sequence+of+a+filtered+complex#FirstPages)).
+The filtering induces a filtering on the standard cobar complex which computes $Cotor(A,A)$. The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]]. Its first page is the homology of the associated graded complex (by this [prop.](spectral+sequence+of+a+filtered+complex#FirstPages)).
 
 =--
 
@@ -406,7 +406,7 @@ $$
 
 Now we use the above formula to explicitly compute the cohomology of the second page of the [[classical Adams spectral sequence]].
 
-In doing so it is now crucial that the differential in the standard bar complex resolution for $Ext$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears:
+In doing so it is now crucial that the differential in the standard cobar complex resolution for $Cotor$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears:
 
 $$
   d \;\colon\;
