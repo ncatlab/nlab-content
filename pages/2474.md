@@ -32,11 +32,11 @@
 +-- {: .num_defn}
 ###### Definition
 
-A $C^*$-algebra is a [[Banach algebra]] $(A, {\|-\|})$ over a [[topological field]] $K$ (often the field $K \coloneqq \mathbb{C}$ of [[complex numbers]]) equipped with an [[involution]] $(-)^\ast$ compatible with [[complex conjugation]] if appropriate (that is: a Banach [[star-algebra]]) that satisfies the _$C^*$-identity_
+A $C^*$-algebra is a [[Banach algebra]] $(A, {\|-\|})$ over a [[topological field]] $K$ (often the field $K \coloneqq \mathbb{C}$ of [[complex numbers]]) equipped with an [[involution]] $(-)^\ast$ compatible with [[complex conjugation]] if appropriate (that is: a Banach [[star-algebra]]) that satisfies the __$C^*$-identity__
 $$ 
   {\|{A^* A}\|} = {\|{A^*}\|} \, {\|{A}\|} 
 $$
-or equivalently the _$B^*$-identity_
+or equivalently the __$B^*$-identity__
 $$ 
   {\|{A^* A}\|} = {\|{A}\|^2} 
   \,.
@@ -108,8 +108,8 @@ For a discussion of this in the finite-dimensional case see for instance ([Vicar
 ## Properties
  {#Properties}
 
-$C^*$-algebras are monadic over sets. 
-More precisely, the forgetful functor $\mathbf{C^*Alg}\to\mathbf{Set}$ that assigns to each algebra the set of points in its unit ball is monadic. See J Wick Pelletier & J Rosicky, On the equational theory of C*-algebras, Algebra Universalis 30:275-284, 1993.
+$C^*$-algebras are [[monadic]] over sets. 
+More precisely, the forgetful functor $\mathbf{C^*Alg}\to\mathbf{Set}$ that assigns to each algebra the set of points in its unit ball is monadic. See J Wick Pelletier & J Rosicky, On the equational theory of $C*$-algebras, Algebra Universalis 30:275-284, 1993.
 
 See also [[operator algebras]].
 
@@ -331,3 +331,6 @@ For more along such lines see the references at _[[KK-theory]]_ and _[[E-theory]
 [[!redirects B-* algebra]]
 [[!redirects B-*-algebras]]
 [[!redirects B-* algebras]]
+
+[[!redirects C*-identity]]
+[[!redirects B*-identity]]
