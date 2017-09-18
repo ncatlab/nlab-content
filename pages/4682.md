@@ -15,13 +15,15 @@
 
 ## Definition
 
-A __simple Lie group__ is a [[connected space|connected]] [[Lie group]] with exactly two connected [[normal subgroups]] that is not [[abelian group|abelian]].
+A __simple Lie group__ is a non-[[abelian group|abelian]] [[connected space|connected]] [[Lie group]] with no nontrivial connected [[normal subgroups]].
 
 
-## Remarks
++-- {: .num_remark}
+###### Remark
 
 This is *not* the same thing as a [[simple object]] in [[LieGrp]] (or even in $Conn Lie Grp$).  However, the [[Lie algebra]] associated to a simple Lie group is always a [[simple Lie algebra]] (although that definition also requires a non-abelian clause).
 
+=--
 
 ## Classification
 
