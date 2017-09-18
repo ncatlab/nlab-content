@@ -1,4 +1,3 @@
-[[!redirects reconstructing covering spaces from monodromy]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -72,7 +71,7 @@ $$
   E(\rho) \;\coloneqq\;  \underset{x \in X}{\sqcup} \rho(x)
 $$
 
-For an [[open subset]] $U \subset X$ for which every element of the [[fundamental group]] $\pi_1(U,x)$ becomes trivial under $\pi_1(U,x) \to \pi_1(X,x)$, and for $\hat x \in \rho(x)$ with $x \in U$ consider the subset
+For an [[open subset]] $U \subset X$ which is [[path-connected topological space|path-connected]] and for which every element of the [[fundamental group]] $\pi_1(U,x)$ becomes trivial under $\pi_1(U,x) \to \pi_1(X,x)$, and for $\hat x \in \rho(x)$ with $x \in U$ consider the subset
 
 $$
   V_{U,\hat x}
@@ -140,8 +139,13 @@ Moreover, the construction $f \mapsto Rec(f)$ yields a homomorphism of covering 
 +-- {: .proof}
 ###### Proof
 
-First to see that we indeed have a [[topological space|topology]], we need to check  (by [this prop.](topological+base#Recognition)) that every point is contained in some base element, and that every point in the intersection of two base elements has a base neighbourhood that is still contained in that intersection. Both these statements are immediate consequences of the assumption that $X$ is [[semi-locally simply connected topological space|semi-locally simply connected]].
+First to see that we indeed have a [[topological space|topology]], we need to check  (by [this prop.](topological+base#Recognition)) that every point is contained in some base element, and that every point in the intersection of two base elements has a base neighbourhood that is still contained in that intersection. 
 
+So let $x \in X$ be a point. By the assumption that $X$ is [[semi-locally simply connected]] there exists an [[open neighbourhood]] $U_x \subset X$ such that every loop in $U_x$ on $x$ is contractible in $X$. Moreover by the assumption that $X$ is [[locally path-connected topological space]], this contains a possibly smaller open neighbourhood $U'_x \subset U_x$ which is [[path-connected topological space|path connected]]. Moreover, as every subset of $U_x$, it still has the property that every loop in $U'_x$ based on $x$ is contractible as a loop in $X$. Now let $\hat x \in E$ be any point over $x$, then it is contained in the base open $V_{U'_x,x}$. 
+
+The argument for the base open neighbourhoods contained in intersections is similar.
+
+ 
 Then we need to see that $p \colon E(\rho) \to X$ is a [[continuous function]]. Since taking pre-images preserves unions ([this prop.](interactions+of+images+and+pre-images+with+unions+and+intersections#PreImagePreservesUnionsAndIntersections)), and since by semi-local simply connectedness every neighbourhood contains an open $U \subset X$ that labels a base open, it is sufficient to see that $p^{-1}(U)$ is a base open. But by the very assumption on $U$, there is a unique morphism in $\Pi_1(X)$ from any point $x \in U$ to any other point in $U$, so that $\rho$ applied to these paths establishes a bijection of sets 
 
 $$
@@ -401,3 +405,5 @@ or equivalently the slice $Obj(G)\downarrow id_G$ for an internal groupoid $G$ (
 
 
 
+[[!redirects reconstructing covering spaces from monodromy]]
+[[!redirects reconstructing a covering space from monodromy]]
