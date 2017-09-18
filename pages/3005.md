@@ -142,6 +142,7 @@ There is also a 2-categorical approach using quasicategories in
 ## Related concepts
 
 * [[monadic functor]], [[comonadic functor]]
+* [[functor of descent type]]
 
 ## References
 
