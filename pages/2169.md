@@ -100,6 +100,14 @@ The [[automorphism groups]] of the real normed division algebras, as [[normed al
 * $Aut(\mathbb{H}) = SO(3)$, the [[special orthogonal group]] acting via its canonical representaiton  on the 3-dimensional space of imaginary octonions;
 
 * $Aut(\mathbb{O}) = G_2$, the [[exceptional Lie group]] [[G2]].
+
+### Relation to H-space structures on sphere (Hopf invariant one)
+
+The [[Hopf invariant one theorem]] says that the [[spheres]] carrying [[H-space]] structure are precisely the unit spheres in one of the normed division algebras
+
+<img src="http://ncatlab.org/nlab/files/AdamsHopfInvariantProofFlow.jpg" width="700">
+
+([Adams 60](Hopf+invariant+one#Adams60))
  
 ## Related concepts
 
@@ -108,6 +116,8 @@ The [[automorphism groups]] of the real normed division algebras, as [[normed al
 [[!include exceptional spinors and division algebras -- table]]
 
 see [[division algebra and supersymmetry]]
+
+[[!include normed division algebra Riemannian geometry -- table]]
 
 ## References
 
