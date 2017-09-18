@@ -14,6 +14,10 @@ A __W algebra__ is a higher spin extension of the [[Virasoro algebra]].
 Relation to [[Jordan algebra]] is discussed in
 
 * L. J. Romans, _Realisations of classical and quantum $W_3$ symmetry_, Nuclear Physics B Volume 352, Issue 3, 1 April 1991, Pages 829-848 ([doi](http://www.sciencedirect.com/science/article/pii/055032139190108A))
+
+Relation to [[L-infinity algebras]] is discussed in 
+
+* {#BlumenhagenFuchsTraube17} [[Ralph Blumenhagen]], Michael Fuchs, Matthias Traube, _$\mathcal{W}$-Algebras are $L_\infty$-algebras_ ([arXiv:1705.00736](https://arxiv.org/abs/1705.00736))
  
 category: physics, algebra
 
