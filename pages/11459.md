@@ -34,7 +34,11 @@ ER-theory was constructed in
 
 based on Araki's discussion of [[BPR-theory]].
 
-Some relations to versions [[tmf]] are discussed in 
+The [[orientation in generalized cohomology]] for $ER$-theory by $w_4$-structure is discussed in 
+
+* {#KrizSati04} [[Igor Kriz]], [[Hisham Sati]], _M Theory, Type IIA Superstrings, and Elliptic Cohomology_, Adv.Theor.Math.Phys. 8 (2004) 345-395 ([arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
+
+Some relations to versions of [[tmf]] are discussed in 
 
 * [[Mark Mahowald]], [[Charles Rezk]], _Topological Modular Forms of Level 3_, Pure and Applied Math. Quarterly, 5 (2009) 853-872 ([arXiv:0812.2009](http://arxiv.org/abs/0812.2009))
 
