@@ -58,7 +58,7 @@ The $(\mathfrak{A},\mathcal{D})$-systems were partly motivated by the [[calculus
 	
 ### Formal noncommutative symplectic geometry of Kontsevich
 
-* [[Maxim Kontsevich]], _Formal (non)-commutative symplectic geometry_, The Gelfand Mathematical. Seminars, 1990-1992, Ed. L.Corwin, I.Gelfand, J.Lepowsky, Birkhauser 1993, 173-187, [pdf](http://193.51.104.7/~maxim/TEXTS/Formal%20non-commutative%20symplectic%20geometry.pdf)
+* [[Maxim Kontsevich]], _Formal (non)-commutative symplectic geometry_, The Gelfand Mathematical. Seminars, 1990-1992, Ed. L.Corwin, I.Gelfand, J.Lepowsky, Birkhauser 1993, 173-187, [pdf](http://www.ihes.fr/~maxim/TEXTS/Formal%20non-commutative%20symplectic%20geometry.pdf)
 
 ## Related concepts
 
