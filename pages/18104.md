@@ -6,7 +6,7 @@
 
 The method called _proof by contradiction_ is a method of [[formal proof]] using the [[principle of excluded middle]].
 
-This principle says that for $P$ any [[proposition]], then it or its [[negation]] is [[true]]. One also speaks of _[[classical logic]]_ if this principle is taken to hold. 
+This principle says that for $P$ any [[proposition]], then it or its [[negation]] is [[true]]. (The 'or' here is meant internally, as a formal disjunction $P \vee \neg P$.) One also speaks of _[[classical logic]]_ if this principle is taken to hold. 
 
 But this principle implies that in order to prove a [[proposition]] $P$ it is sufficient to show that its [[negation]] is [[false]], hence that assuming that $P$ were not true would lead to a "contradiction". This is _proof by contradiction_.
 
