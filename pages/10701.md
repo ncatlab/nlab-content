@@ -136,6 +136,10 @@ See also
 
 * [[complex oriented cohomology theory]]
 
+* [[splitting principle]]
+
+* [[generalized Chern classes]]
+
 ## Lecture 5 _Complex bordism_ 
 
 * [[complex cobordism cohomology theory]]
