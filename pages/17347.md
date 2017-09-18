@@ -5621,6 +5621,295 @@ between the ring of $\mathcal{B}$-cobordism classes of manifolds with $\mathcal{
 
 **Literature.** ([Kochman 96, 1.5](#Kochman96))
 
+##### Bordism
+
+Throughout, let $\mathcal{B}$ be a multiplicative [[(B,f)-structure]] (def. \ref{BfStructure}).
+
++-- {: .num_defn #NegativeOfManifoldWithBfStructure}
+###### Definition
+
+Write $I \coloneqq [0,1]$ for the standard interval, regarded as a [[smooth manifold]] [[manifold with boundary|with boundary]]. For $c \in \mathbb{R}_+$ Consider its embedding
+
+$$
+  e \;\colon\; I \hookrightarrow \mathbb{R}\oplus \mathbb{R}_{\geq 0}
+$$
+
+as the arc
+
+$$
+  e \;\colon\; t \mapsto \cos(\pi t) \cdot e_1 + \sin(\pi t) \cdot e_2
+  \,,
+$$
+
+where $(e_1, e_2)$ denotes the canonical [[linear basis]] of $\mathbb{R}^2$, and equipped with the structure of a manifold with normal [[framing]] structure (example \ref{ExamplesOfBfStructures}) by equipping it with the canonical framing
+
+$$
+  fr \;\colon\; t \mapsto \cos(\pi t) \cdot e_1 + \sin(\pi t) \cdot e_2
+$$
+
+of its [[normal bundle]]. 
+
+Let now $\mathcal{B}$ be a [[(B,f)-structure]] (def. \ref{BfStructure}). Then for $X \overset{i}{\hookrightarrow}\mathbb{R}^k$ any embedded manifold with $\mathcal{B}$-structure $\hat g \colon X \to B_{k-n}$ on its [[normal bundle]] (def. \ref{ManifoldWithBfStructure}), define its **negative** or **orientation reversal**  $-(X,i,\hat g)$ of $(X,i, \hat g)$ to be the restriction of the structured manifold
+
+$$
+  (X \times I \overset{(i,e)}{\hookrightarrow} \mathbb{R}^{k+2}, \hat g \times fr)
+$$
+
+to $t = 1$. 
+
+=--
+
+
++-- {: .num_defn #BordismRelation}
+###### Definition
+
+Two closed manifolds of [[dimension]] $n$ equipped with normal $\mathcal{B}$-structure $(X_1, i_1, \hat g_1)$ and $(X_2,i_2,\hat g_2)$ ([def.](Introduction+to+Stable+homotopy+theory+--+S#ManifoldWithBfStructure)) are called **bordant** if there exists a [[manifold with boundary]] $W$ of dimension $n+1$ equipped with $\mathcal{B}$-strcuture $(W,i_W, \hat g_W)$ if its [[boundary]] with $\mathcal{B}$-structure restricted to that boundary is the [[disjoint union]] of $X_1$ with the negative of $X_2$, according to def. \ref{NegativeOfManifoldWithBfStructure}
+
+$$
+  \partial(W,i_W,\hat g_W)
+    \simeq
+  (X_1, i_1, \hat g_1)
+    \sqcup
+  -(X_2, i_2, \hat g_2)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #BordismIsAnEquivalenceRelation}
+###### Proposition
+
+The [[relation]] of $\mathcal{B}$-[[bordism]] (def. \ref{BordismRelation}) is an [[equivalence relation]].
+
+Write $\Omega^\mathcal{B}_{\bullet}$ for the $\mathbb{N}$-graded set of $\mathcal{B}$-bordism classes of $\mathcal{B}$-manifolds.
+
+=--
+
++-- {: .num_prop #BordismGroupAndBordismRing}
+###### Proposition
+
+Under [[disjoint union]] of manifolds, then the set of $\mathcal{B}$-bordism equivalence classes of def. \ref{BordismIsAnEquivalenceRelation} becomes an $\mathbb{Z}$-graded [[abelian group]]
+
+$$
+  \Omega^{\mathcal{B}}_\bullet \in Ab^{\mathbb{Z}}
+$$
+
+(that happens to be concentrated in non-negative degrees). This is called the **$\mathcal{B}$-bordism group**.
+
+Moreover, if the [[(B,f)-structure]] $\mathcal{B}$ is multiplicative (def. \ref{BfStructure}), then [[Cartesian product]] of manifolds followed by the multiplicative composition operation of $\mathcal{B}$-structures makes the $\mathcal{B}$-bordism ring into a [[commutative ring]], called the **$\mathcal{B}$-bordism ring**.
+
+$$
+  \Omega^{\mathcal{B}}_\bullet \in CRing^{\mathbb{Z}}
+  \,.
+$$
+
+=--
+
+e.g. ([Kochmann 96, prop. 1.5.3](#Kochmann96))
+
+
+
+##### Thom's theorem
+ {#SectionThomTheorem}
+
+Recall that the [[Pontrjagin-Thom construction]] (def. \ref{PontrjaginThomConstruction}) associates to an embbeded manifold $(X,i,\hat g)$ with normal $\mathcal{B}$-structure (def. \ref{ManifoldWithBfStructure}) an element in the [[stable homotopy group]] $\pi_{dim(X)}(M \mathcal{B})$ of the universal $\mathcal{B}$-[[Thom spectrum]] in degree the dimension of that manifold.
+
++-- {: .num_lemma #PontrjaginThomIsRingHomomorphims}
+###### Lemma
+
+For $\mathcal{B}$ be a multiplicative [[(B,f)-structure]] (def. \ref{BfStructure}), the $\mathcal{B}$-[[Pontrjagin-Thom construction]] (def. \ref{PontrjaginThomConstruction}) is compatible with all the relations involved to yield a graded [[ring]] [[homomorphism]]
+
+$$
+  \xi
+  \;\colon\;
+  \Omega^{\mathcal{B}}_\bullet
+    \longrightarrow
+  \pi_\bullet(M \mathcal{B})
+$$
+
+from the $\mathcal{B}$-[[bordism ring]] (def. \ref{BordismGroupAndBordismRing}) to the [[stable homotopy groups]] of the universal $\mathcal{B}$-[[Thom spectrum]] equipped with the ring structure induced from the canonical [[ring spectrum]] structure (def. \ref{UniversalThomSpectrumForBfStructure}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{PontrjaginThomConstructionGivesWellDefinedStableHomotopyGroup} the underlying function of sets is well-defined before dividing out the bordism relation (def. \ref{BordismRelation}). To descend this further to a function out of the set underlying the bordism ring, we need to see that the Pontrjagin-Thom construction respects the bordism relation. But the definition of bordism is just so as to exhibit under $\xi$ a [[left homotopy]] of representatives of homotopy groups.
+
+Next we need to show that it is 
+
+1. a group homomorphism;
+
+1. a ring homomorphism.
+
+Regarding the first point:
+
+The element 0 in the [[cobordism group]] is represented by the empty manifold. It is clear that the Pontrjagin-Thom construction takes this to the trivial stable homotopy now.
+
+Given two $n$-manifolds with $\mathcal{B}$-structure, we may consider an embedding of their [[disjoint union]] into some $\mathbb{R}^{k}$ such that the [[tubular neighbourhoods]] of the two direct summands do not intersect. There is then a map from two copies of the [[n-cube|k-cube]], glued at one face
+
+$$
+  \Box^k \underset{\Box^{k-1}}{\sqcup} \Box^k
+  \longrightarrow
+  \mathbb{R}^k
+$$
+
+such that the first manifold with its tubular neighbourhood sits inside the image of the first cube, while the second manifold with its tubular neighbourhood sits indide the second cube. After applying the Pontryagin-Thom construction to this setup, each cube separately maps to the image under $\xi$ of the respective manifold, while the union of the two cubes manifestly maps to the sum of the resulting elements of homotopy groups, by the very definition of the group operation in the homotopy groups ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyGroupsOftopologicalSpaces)). This shows that $\xi$ is a group homomorphism.
+
+Regarding the second point:
+
+The element 1 in the [[cobordism ring]] is represented by the manifold which is the point. Without restriction we may consoder this as embedded into $\mathbb{R}^0$, by the identity map. The corresponding [[normal bundle]] is of [[rank]] 0 and hence (by remark \ref{ThomSpaceForRankZeroBundle}) its [[Thom space]] is $S^0$, the [[0-sphere]]. Also $V^{\mathcal{B}}_0$ is the rank-0 vector bundle over the point, and hence $(M \mathcal{B})_0 \simeq S^0$ (by def. \ref{UniversalThomSpectrumForBfStructure}) and so $\xi(\ast) \colon (S^0 \overset{\simeq}{\to} S^0)$ indeed represents the unit element in $\pi_\bullet(M\mathcal{B})$.
+
+
+Finally regarding respect for the ring product structure: for two manifolds with stable normal $\mathcal{B}$-structure, represented by embeddings into $\mathbb{R}^{k_i}$, then the normal bundle of the embedding of their [[Cartesian product]] is the [[direct sum of vector bundles]] of the separate normal bundles bulled back to the product manifold. In the notation of prop. \ref{ThomSpaceOfExternalProductOfVectorBundles} there is a diagram of the form
+
+$$
+  \array{
+    \nu_1 \boxtimes \nu_2
+      &\overset{\hat e_1 \boxtimes \hat e_2}{\longrightarrow}&
+    V^{\mathcal{B}}_{n_1} \boxtimes V^{\mathcal{B}}_{n_2}
+      &\overset{\kappa_{n_1,n_2}}{\longrightarrow}&
+    V^{\mathcal{B}}_{n_1 + n_2}
+    \\
+    \downarrow &(pb)& \downarrow &(pb)& \downarrow
+    \\
+    X_1 \times X_2
+      &\underset{\hat g_1 \times \hat g_2}{\longrightarrow}&
+    B_{k_1-n_1} \times B_{k_2-n_2}
+      &\underset{\mu_{k_1-n_1,k_2-n_2}}{\longrightarrow}&
+    B_{k_1 + k_2 - n_1 - n_2}
+  }
+  \,.
+$$ 
+
+To the Pontrjagin-Thom construction of the product manifold is by definition the top composite in the diagram
+
+$$
+  \array{
+    S^{n_1 +n_2 + (k_1 + k_2 - n_1 - n_2)}
+      &\overset{}{\longrightarrow}&
+    Th(\nu_1 \boxtimes \nu_2)
+      &\overset{Th(\hat e_1 \boxtimes \hat e_2)}{\longrightarrow}&
+    Th(V^{\mathcal{B}}_{k_1-n_1} \boxtimes V^{\mathcal{B}}_{k_2-n_2})
+      &\overset{\kappa_{k_1-n_1, k_2-n_2}}{\longrightarrow}&
+    Th(V^{\mathcal{B}}_{k_1 + k_2 - n_1 - n_2})
+    \\
+    {}^{\mathllap{\simeq}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\simeq}}
+      && 
+    \downarrow^{\mathrlap{\simeq}}
+      &&
+    \downarrow^{\mathrlap{=}}
+    \\
+    S^{n_1 + (k_1 - n_1)}
+      \wedge
+    S^{n_2 + (k_2 - n_2)}
+      &\overset{}{\longrightarrow}&
+    Th(\nu_1) \wedge Th(\nu_2)
+      &\overset{Th(\hat e_1)\wedge Th(\hat e_2)}{\longrightarrow}&
+    Th(V^{\mathcal{B}}_1) \wedge Th(V^{\mathcal{B}}_2)
+      &\overset{\kappa_{k_1-n_1, k_2-n_2}}{\longrightarrow}&
+    Th(V^{\mathcal{B}}_{k_1 + k_2 - n_1 - n_2})
+   }
+   \,,
+$$
+
+which hence is equivalently the bottom composite, which in turn manifestly represents the product of the separate PT constructions in $\pi_\bullet(M\mathcal{B})$.
+
+
+=--
+
++-- {: .num_theorem #MorphismFromCobordismRingToStableHomotopyGroupsOfThomSpectrumIsIso}
+###### Theorem
+
+The ring homomorphsim in lemma \ref{PontrjaginThomIsRingHomomorphims} is an [[isomorphism]].
+
+=--
+
+Due to ([Thom 54](Thom+theorem#Thom54), [Pontrjagin 55](Thom+theorem#Pontrjagin55)). See for instance ([Kochmann 96, theorem 1.5.10](#Kochmann96)).
+
++-- {: .proof}
+###### Proof idea
+
+Observe that given the result $\alpha \colon S^{n+(k-n)} \to Th(V_{k-n})$ of the Pontrjagin-Thom construction map, the original manifold $X \overset{i}{\hookrightarrow} \mathbb{R}^k$  may be recovered as this [[pullback]]:
+
+$$
+  \array{
+    X &\overset{i}{\longrightarrow}& S^{n + (k-n)}
+    \\
+    {}^{\mathllap{g_i}}\downarrow &(pb)& \downarrow^{\mathrlap{\alpha}}
+    \\
+    B O(k-n) &\longrightarrow& Th(V^{B O}_{k-n})
+  }
+  \,.
+$$
+
+To see this more explicitly, break it up into pieces:
+
+$$
+  \array{
+   X &\longrightarrow& X_+ &\hookrightarrow& S^{n + (k-n)}
+   \\
+   \downarrow &(pb)& \downarrow &(pb)& \downarrow
+    \\
+    X &\longrightarrow& X_+ \simeq Th(X) &\overset{Th(0)}{\longrightarrow}& Th(\nu_i)
+    \\
+    \downarrow &(pb)& \downarrow &(pb)& \downarrow
+    \\
+    B_{k-n}
+      &\longrightarrow& 
+    (B_{k-n})_+ \simeq Th(B_{k-n}) 
+    &\underset{Th(0)}{\longrightarrow}& Th(V^{\mathcal{B}}_{k-n})
+    \\
+    \downarrow &(pb)& \downarrow &(pb)& \downarrow
+    \\
+    B O(k-n)
+      &\longrightarrow& 
+    (B O(k-n))_+ \simeq Th(B O(k-n)) 
+      &\longrightarrow& 
+    Th(V^{B O}_{k-n})
+  }
+  \,.
+$$
+
+Moreover, since the [[n-spheres]] are [[compact topological spaces]], and since the [[classifying space]] $B O(n)$, and hence its universal Thom space, is a [[sequential colimit]] over [[relative cell complex]] inclusions, the right vertical map factors through some finite stage (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)), the manifold $X$ is equivalently recovered as a pullback of the form
+
+$$
+  \array{
+    X &\longrightarrow& S^{n + (k-n)}
+    \\
+    {}^{\mathllap{g_i}}\downarrow &(pb)& \downarrow
+    \\
+    Gr_{k-n}(\mathbb{R}^k) 
+      &\overset{i}{\longrightarrow}&
+    Th( V_{k-n}(\mathbb{R}^k) \underset{O(k-n)}{\times} \mathbb{R}^{k-n})
+  }
+  \,.
+$$
+
+(Recall that $V^{\mathcal{B}}_{k-n}$ is our notation for the [[universal vector bundle]] with $\mathcal{B}$-structure, while $V_{k-n}(\mathbb{R}^k)$ denotes a [[Stiefel manifold]].)
+
+The idea of the proof now is to use this property as the blueprint of the construction of an [[inverse]] $\zeta$ to $\xi$: given an element in $\pi_{n}(M \mathcal{B})$ represented by a map as on the right of the above diagram, try to define $X$ and the structure map $g_i$ of its normal bundle as the pullback on the left.
+
+The technical problem to be overcome is that for a general continuous function as on the right, the pullback has no reason to be a smooth manifold, and for two reasons:
+
+1. the map $S^{n+(k-n)} \to Th(V_{k-n})$ may not be smooth around the image of $i$;
+
+1. even if it is smooth around the image of $i$, it may not be [[transversal map|transversal]] to $i$, and the intersection of two non-transversal smooth functions is in general still not a smooth manifold.
+
+The heart of the proof is in showing that for any $\alpha$ there are small homotopies relating it to an $\alpha'$ that is both smooth around the image of $i$ and transversal to $i$.
+
+The first condition is guaranteed by [[Sard's theorem]], the second by [[Thom's transversality theorem]].
+
+(...)
+
+=--
+
+
+
+
+
 
 
 
