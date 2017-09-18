@@ -8,11 +8,15 @@ A **chord diagram** (of order $n$) is basically a [[circle]] marked with $2n$ di
 
 ## References
 
-Chapter 6 of
+See Chapter 6 of
 
 * Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
-See also
+as well as Definition 1.5 of
+
+* [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
+
+For chord diagrams from the perspective of [[combinatorics]], see
 
 * Philippe Flajolet and Marc Noy. "Analytic combinatorics of chord diagrams". INRIA technical report 3914, March 2000. ([pdf](http://algo.inria.fr/flajolet/Publications/FlNo00.pdf))
 
