@@ -40,7 +40,7 @@ This section reviews basics of the theory of [[simplicial sets]] (the modern ver
 
 ### Simplicial sets
 
-The concep of [[simplicial sets]] is secretly well familiar already in basic [[algebraic topology]]: it reflects just the abstract structure carried by the [[singular simplicial complexes]] of [[topological spaces]], as in the definition of [[singular homology]] and [[singular cohomology]]. 
+The concept of [[simplicial sets]] is secretly well familiar already in basic [[algebraic topology]]: it reflects just the abstract structure carried by the [[singular simplicial complexes]] of [[topological spaces]], as in the definition of [[singular homology]] and [[singular cohomology]]. 
 
 Conversely, every simplicial set may be [[geometric realization|geometrically realized]] as a topological space. These two [[adjoint]] operations turn out to exhibit the homotopy theory of simplicial sets as being equivalent ([[Quillen equivalence|Quillen equivalent]]) to the homotopy theory of topological spaces.  For some purposes, working in [[simplicial homotopy theory]] is preferable over working with topological homotopy theory.
 
@@ -1394,7 +1394,11 @@ This may be found, for instance, in II.8.6--7 of [Goerss-Jardine](model+structur
 
 ## Related concepts
 
+* [[model structure on simplicial sets]]
+
 * [[model structure on reduced simplicial sets]]
+
+* [[classical model structure on topological spaces]]
 
 ## References
 
