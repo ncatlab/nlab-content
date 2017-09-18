@@ -55,6 +55,23 @@ Finally, we can express this more compactly by writing $\pi$ in cycle form, as t
 
 One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
 
+### Classifying space and universal Thom space
+ {#ClassifyingSpaceAndThomSpace}
+
+The [[classifying space]] $B \Sigma(n)$ of the symmetric group on $n$ elements may be presented by $Emd(\{1,\cdots, n\}, \mathbb{R}^\infty)/\Sigma(n)$.
+
+
+Write $\tau_n$ for the [[rank]] $n$ [[vector bundle]] over this which exhibits the canonical [[action]] of $\Sigma(n)$ on $\mathbb{R}^n$, by permutation of [[coordinates]].
+
+The [[Thom space]] $B \Sigma(n)^{\tau_n}$ of this bundle appears as the cofficients of the [[spectral symmetric algebra]] of the "absolute [[spectral superpoint]]" $Sym_{\mathbb{S}} \Sigma \mathbb{S}$ (see [Rezk 10, slide 4](spectral%20symmetric%20algebra#Rezk10)).
+
+
+See also ([Hopkins-Mahowald-Sadofsky 94, around def. 2.8](#HopkinsMahowaldSadofsky94))
+
+
+
+
+
 ### Whitehead tower and relation to supersymmetry
  {#WhiteheadTowerAndSupersymmetry}
 
@@ -112,6 +129,8 @@ Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (T
 ## References
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
+
+* {#HopkinsMahowaldSadofsky94} [[Michael Hopkins]], [[Mark Mahowald]], [[Hal Sadofsky]], _Constructions of elements in Picard groups_, Contemporary mathematics, Volume 158, 1994 in [[eric Friedlander]], [[Mark Mahowald]] (eds.), _Topology and Representatin theory_ ([doi:10.1090/conm/158/01454](http://dx.doi.org/10.1090/conm/158/01454))
 
 
 [[!redirects permutation]]
