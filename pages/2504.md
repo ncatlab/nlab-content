@@ -171,6 +171,10 @@ See [[D'Auria-Fre formulation of supergravity]].
 
 * [[type II supergravity Lie 2-algebra]]
 
+* [[type II supersymmetry algebra]]
+
+* [[M-theory supersymmetry algebra]]
+
 ## References
 
 The [[Chevalley-Eilenberg algebra]] of $\mathfrak{sugra}(10,1)$ first appears in (3.15) of
