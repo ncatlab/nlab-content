@@ -34,7 +34,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[subspace]]
 
-* [[quotient space]]
+* [[quotient space]], [[attaching space]]
 
 * [[product space]], [[disjoint union space]]
 
