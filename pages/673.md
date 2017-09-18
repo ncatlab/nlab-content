@@ -28,13 +28,14 @@ You may also find me on
 * _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
 Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
 
-* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication.
+
 
 
 
 
 ## Papers
 
+* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Accepted for publication April 2016.
 
 * _On certain 2-categories admitting localisation by bicategories of
   fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) Volume 24, Issue 4 (2016) pp 373-384 doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
