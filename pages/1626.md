@@ -257,19 +257,20 @@ of the product space by two disjoint open subsets. We need to show that precisel
 is empty. Since each $X_i$ is connected and hence non-empty, the product space is not empty, and hence
 it is sufficient to show that at lest one of the two is empty.
 
-Assume on the contrary that we could find $x_1 \in U_1$ and $x_2 \in U_2$.
-Observe that this would mean that these two points could differ only in a finite number of their
-coordinates: Because they must be contained in disjoint [[base of a topology|base opens]]
-and by the nature of the base opens of the  [[Tychonoff topology]] any two differ in only a finite number of variables.
+Assume on the contrary that both $U_1$ and $U_2$ are non-empty.
 
-Observe that this would mean that we could find $x'_1 \in U_1$ that differed only in a single coordinate from $x_2$:
+Observe first that if so, then we could find $x_1 \in U_1$ and $x_2 \in U_2$
+whose coordinates differed only a a finite subset of $I$. This is since by the nature of the
+[[Tychonoff topology]] $\pi_i(U_1) = X_i$ and $\pi_i(U_2) = X_i$ for all but a finite number of $i \in iI$.
+
+Next observe that we then could even find $x'_1 \in U_1$ that differed only in a single coordinate from $x_2$:
 Because pick one coordinate in which $x_1$ differs from $x_2$ and change it to the corresponding coordinate of $x_2$.
 Since $U_1$ and $U_2$ are a cover, the resulting point is either in $U_1$ or in $U_2$. If it is in $U_2$, then
 $x_1$ already differed in only one coordinate from $x_2$ and we may take $x'_1 \coloneqq x_1$.
 If instead the new point is in $U_1$, then rename it to $x_1$ and repeat the argument. By [[induction]]
 this finally yields an $x'_1$ as claimed.
 
-Therefore it is now sufficient to see that it leads to a contradiction to assume 
+Therefore it is now sufficient to see that it leads to a contradiction to assume
 that there are points $x_1 \in U_1$ and $x_2 \in U_2$
 that differ in only the $i_0$th coordinate, for some $i_0 \in I$ then $x_1 = x_2$.
 
@@ -487,7 +488,7 @@ $$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\
 provides a classic example where the path component of a point need not be closed. (Specifically, consider a point on the locus of $y = \sin(1/x)$.)
 =--
 
-The basic categorical Results \ref{ContinuousImagesOfConnectedSpacesAreConnected}, \ref{2}, and \ref{ProductSpaceOfConnectedSpacesIsConnected} above carry over upon replacing "connected" by "path-connected". (As of course does 
+The basic categorical Results \ref{ContinuousImagesOfConnectedSpacesAreConnected}, \ref{2}, and \ref{ProductSpaceOfConnectedSpacesIsConnected} above carry over upon replacing "connected" by "path-connected". (As of course does
 example \ref{ConnectedSubspacesOfRealLineAreTheIntervals}, trivially.)
 
 Finally, as a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete!
