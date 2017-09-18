@@ -1,4 +1,6 @@
 
+> entry to be merged or else disambiguated with _[[locally covariant perturbative quantum field theory]]_
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -34,13 +36,13 @@ While a full theory of quantum gravity still eludes us, a theory of quantum fiel
 
 ## References
 
-A classic text on the general issue of quantum field theory on curved spacetimes is
+Gereneral accounts of (perturbative) quantum field theory on curved spacetiems includes
+
+* N.D. Birrell, P.C.W.Davies, _Quantum  Fields in Curved Space_, Cambridge:  Cambridge University Press, 1982
 
 * [[Robert Wald]], _Quantum field theory in curved spacetime and black hole thermodynamics_. Univ. of Chicago Press 1994 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0842.53052&format=complete)).
 
-The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzian manifolds]] ("locally covariant AQFT") is due to
-
- 
+The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzian manifolds]] ([[locally covariant perturbative quantum field theory]]) is due to
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], _The generally covariant locality principle -- A new paradigm for local quantum physics_ Commun. Math. Phys. 237:31-68 (2003) ([arXiv:math-ph/0112041](http://arxiv.org/abs/math-ph/0112041))
 
@@ -49,19 +51,18 @@ The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzi
 
 Reviews with emphasis on this AQFT-point of view include
 
+* [[Robert Wald]], _The Formulation of Quantum Field Theory in Curved Spacetime_ ([arXiv:0907.0416](https://arxiv.org/abs/0907.0416))
 
-* [[Robert Wald]], [The Formulation of Quantum Field Theory in Curved Spacetime] (http://de.arxiv.org/abs/0907.0416)
-
-* [[Robert  Wald]], [The History and Present Status of Quantum Field Theory in Curved Spacetime] (http://lanl.arxiv.org/abs/gr-qc/0608018v1)
+* [[Robert  Wald]], _The History and Present Status of Quantum Field Theory in Curved Spacetime_ ([arXiv:gr-qc/0608018](https://arxiv.org/abs/gr-qc/0608018))
 
 * [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _QFT on curved spacetimes: axiomatic framework and examples_ ([arXiv:1412.5125](http://arxiv.org/abs/1412.5125))
 
 
 Papers about the application of [[microlocal analysis]] include
 
-* Alexander Strohmaier, Rainer Verch, Manfred Wollenberg: _Microlocal analysis of quantum fields on curved spacetimes: Analytic wavefront sets and Reeh-Schlieder theorems_ ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0202003)).
+* Alexander Strohmaier, [[Rainer Verch]], Manfred Wollenberg: _Microlocal analysis of quantum fields on curved spacetimes: Analytic wavefront sets and Reeh-Schlieder theorems_ ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0202003)).
 
-Discussion of [[renormalization]] in AQFT on curved spacetimes inclides
+Discussion of [[renormalization]] in AQFT on curved spacetimes includes
 
 * {#KhavkineMoretti16} [[Igor Khavkine]], [[Valter Moretti]], _Analytic Dependence is an Unnecessary Requirement in Renormalization of Locally Covariant QFT_, Communications in Mathematical Physics, March 2016 ([arXiv:1411.1302](http://arxiv.org/abs/1411.1302), [publisher](http://link.springer.com/article/10.1007%2Fs00220-016-2618-7))
 
