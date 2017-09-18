@@ -1,0 +1,45 @@
+# Pseudo-distributive laws
+
+* table of contents
+{: toc}
+
+## Idea
+
+A **pseudo-distributive law** is a vertical [[categorification]] of a [[distributive law]], relating two [[pseudomonads]] on a [[bicategory]].  There are various different levels of weakness that such a thing can exist at.  As with ordinary distributive laws, a pseudo-distributive law governs the lifting of one pseudomonad to the Eilenberg-Moore and Kleisli bicategories of the other.
+
+## Definition
+
+See any of the references, particularly [(CHP)](#CHP)
+
+## Examples
+
+* If $T$ is a [[pseudo-commutative 2-monad|pseudo-commutative]] [[2-monad]] on [[Cat]], then there is a pseudo-distributive law between $T$ and the 2-monad whose algebras are [[symmetric monoidal categories]]; see [(Kelly)](#Kelly).
+
+* [[Grothendieck fibrations]] and opfibrations on a [[category]] $C$ (or more generally an object of a suitable 2-category) are the algebras for a pair of pseudomonads.  If $C$ has pullbacks, there is a pseudo-distributive law between these pseudomonads, whose joint algebras are the [[bifibrations]] satisfying the [[Beck-Chevalley condition]]; see [(von Glehn)](#vonGlehn).
+
+* [[generalized polycategories]] are naturally defined relative to a pseudo-distributive law on a [[Prof]]-like bicategory; see [(Garner)](#Garner) for the canonical example of ordinary (symmetric) [[polycategories]].
+
+## Related pages
+
+* [[distributive law]]
+* [[pseudomonad]], [[relative pseudomonad]]
+
+## References
+
+* [[Eugenia Cheng]], [[Martin Hyland]], and [[John Power]].  _Pseudo-distributive laws_, [pdf](http://www.entcs.org/files/mfps19/83010.pdf)
+ {#CHP}
+
+* [[Max Kelly]], _Coherence theorems for lax algebras and for distributive laws_, Proceedings of the Sydney Category Seminar 1972-73.
+ {#Kelly}
+
+* [[Tamara von Glehn]], *Polynomials and models of type theory*, [PhD thesis](https://www.repository.cam.ac.uk/handle/1810/254394)
+ {#vonGlehn}
+
+* [[Richard Garner]], *Polycategories via pseudo-distributive laws*, [arXiv](http://arxiv.org/abs/math/0606735)
+ {#Garner}
+
+[[!redirects pseudo-distributive laws]]
+[[!redirects pseudodistributive law]]
+[[!redirects pseudodistributive laws]]
+[[!redirects distributive law between pseudomonads]]
+[[!redirects distributive law between pseudo-monads]]
