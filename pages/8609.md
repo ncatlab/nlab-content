@@ -72,7 +72,7 @@ given by [[composition]] with $f$.
 
 Assume that the [[category]] $\mathcal{C}$ has a [[terminal object]] $* \in \mathcal{C}$. Let $X \in \mathcal{C}$ be any [[object]] and assume that the terminal morphism $f \colon X \to *$ admits all [[pullbacks]] along it. 
 
-Notice that a [[pullback]] of some $A \to *$ along $X \to *$ is simply the [[product]] $X \times A$, equipped with its [[projection]] morphism $X \times A \to X$. But if we regard this as the image of the [[base change]] functor $f^* \colon \mathcal{C}_{/*} \to \mathcal{C}_{/X}$ then it is not quite just the product in $\mathcal{C}$. Instead we have:
+Notice that a [[pullback]] of some $A \to *$ along $X \to *$ is simply the [[product]] $X \times A$, equipped with its [[projection]] morphism $X \times A \to X$. We may regard $X \times A \to X$ as the image of the [[base change]] functor $f^* \colon \mathcal{C}_{/*} \to \mathcal{C}_{/X}$, but this is not quite just the product in $\mathcal{C}$, which instead corresponds to the terminal morphisms $X \times A \to *$. But we have:
 
 +-- {: .num_prop}
 ###### Proposition
