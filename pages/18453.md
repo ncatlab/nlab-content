@@ -1,0 +1,154 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _groupoid representation_ is a [[representation]] of a [[groupoid]].
+
+## Definition
+
++-- {: .num_defn #GroupoidRepresentation}
+###### Definition
+**([[groupoid representation]])
+
+Let $\mathcal{G}$ be a [[groupoid]]. Then:
+
+A [[linear representation]] of $\mathcal{G}$ is a groupoid homomorphism ([[functor]])
+
+$$
+  \rho \;\colon\; \mathcal{G} \longrightarrow Core(Vect)
+$$
+   
+to the groupoid [[core]] of the category [[Vect]] of [[vector spaces]] ([this example](groupoid#CoreGroupoid)). Hence this is
+   
+1. For each object $x$ of $\mathcal{G}$ a [[vector space]] $V_x$;
+
+1. for each morphism $x \overset{f}{\longrightarrow} y$ of $\mathcal{G}$ a
+   [[linear map]] $\rho(f) \;\colon\; V_x \to V_y$
+   
+such that
+
+1. (respect for composition) for all composable morphisms $x \overset{f}{\to}y \overset{g}{\to} z$ in the groupoid we have an [[equality]]
+   
+   $$
+     \rho(g) \circ \rho(f) = \rho(g \circ f)
+   $$
+
+1. (respect for identities) for each object $x$ of the groupoid we have an equality
+
+   $$
+     \rho(id_x) = id_{V_x}
+     \,.
+   $$
+
+Similarly a _[[permutation representation]]_ of $\mathcal{G}$ is a groupoid homomorphism ([[functor]]) 
+
+$$
+  \rho \;\colon\; \mathcal{G} \longrightarrow Core(Set)
+$$   
+
+to the groupoid core of [[Set]]. Hence this is
+
+1. For each object $x$ of $\mathcal{G}$ a [[set]] $S_x$;
+
+1. for each morphism $x \overset{f}{\longrightarrow} y$ of $\mathcal{G}$ a
+   [[function]] $\rho(f) \;\colon\; S_x \to S_y$
+   
+such that composition and identities are respected, as above.   
+
+For $\rho_1$ and $\rho_2$ two such representations, then a homomorphism of representations
+
+$$
+  \phi \;\colon\; \rho_1 \longrightarrow \rho_2
+$$
+
+is a [[natural transformation]] between these functors, hence is
+
+* for each object $x$ of the groupoid a (linear) function
+ 
+  $$
+    (V_1)_x \overset{\phi(x)}{\longrightarrow} (V_2)_x
+  $$
+
+* such that for all morphisms $x \overset{f}{\longrightarrow} y$
+  we have
+  
+  $$
+    \phi(y) \circ \rho_1(f) = \rho_2(x) \circ \phi(x)
+    \phantom{AAAAAA}
+    \array{
+      (V_1)_x &\overset{\phi(x)}{\longrightarrow}& (V_2)_x
+      \\
+      {}^{\mathllap{\rho_1(f)}}\downarrow && \downarrow^{\mathrlap{\phi_2(f)}}
+      \\
+      (V_1)_y &\underset{\phi(y)}{\longrightarrow}& (V_2)_y
+    }
+  $$
+
+A permutation representation of $\mathcal{G}$ is often called a "$\mathcal{G}$-set" (see at _[[G-set]]_) and the category of permutation representations is also often denoted
+
+$$
+  \mathcal{G}Set
+  \phantom{AAAAA}
+  \text{or}
+  \phantom{AAAAA}
+  Set^{\mathcal{G}}
+$$
+
+
+
+=--
+
+## Examples
+
+
++-- {: .num_example #GroupoidRepresentationOfDeloopingGroupoid}
+###### Example
+**([[groupoid representation]] of [[delooping]] groupoid is [[group representation]])
+
+If $B G$ is the [[delooping]] groupoid of a [[group]] $G$ ([this example](groupoid#GroupoidFromDelooping)),
+then a [[groupoid representation]] of $B G$ according to def. \ref{GroupoidRepresentation} is
+equivalently a [[group representation]] of the group $G$:
+
+$$
+  Rep_{Grpd}(B G) \simeq Rep(G)
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[fundamental theorem of covering spaces]])**
+
+For $X$ a [[topological space]] then forming [[monodromy]] is a [[functor]] from the [[category of covering spaces]] over $X$ to that of [[permutation representations]] of the [[fundamental groupoid]] of $X$:
+
+$$
+  Fib \;\colon\; Cov(C)  \longrightarrow Set^{\Pi_1(X)}
+  \,.
+$$
+
+If $X$ is [[locally path-connected topological space|locally path connected]] and [[semi-locally simply connected topological space|semi-locally simply connected]], then this is an [[equivalence of categories]]. See at _[[fundamental theorem of covering spaces]]_ for details.
+
+=--
+
+
+[[!redirects groupoid representations]]
