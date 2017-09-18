@@ -34,6 +34,9 @@ This functor, which we can think of as a kind of 'multiplication', makes $M$ int
 
 ## Definition
 
++-- {: .num_defn} 
+###### Definition
+
 A **monoidal category** is a [[category]] $M$ equipped with a [[functor]]
 $$ \otimes : M \times M \to M $$
 called the **[[tensor product]]**, an object
@@ -68,6 +71,8 @@ $$
      
   }
 $$
+
+=--
 
 ### Other coherence conditions 
 
