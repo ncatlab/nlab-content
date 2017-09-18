@@ -1,0 +1,101 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Differential geometry
++-- {: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Statements
+
+Let $X$ be a [[smooth manifold]] and write $C^\infty(X)$ for its [[algebra of functions|algebra]] of [[smooth functions]] and $Vect(X) = \Gamma(T X)$ for the space of smooth [[vector fields]] on $X$.
+
+
++-- {: .num_theorem #Statement}
+###### Theorem
+
+
+1. The operation of [[differentiation]] with respect to a [[vector field]]  is a [[derivations]] of $C^\infty(X)$.
+
+1. Every [[derivation]] on $C^\infty(X)$ arises this way.
+
+Hence there is an [[isomorphism]]
+
+$$
+  Vect(X) \stackrel{\simeq}{\longrightarrow} Der(C^\infty(X))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is true because $C^\infty(\mathbb{R}^n)$ satisfies the [[Hadamard lemma]].
+
+By the existence of [[partitions of unity]] we may restrict to the situatin for $X = \mathbb{R}^n$ a [[Cartesian space]].
+By the [[Hadamard lemma]] every [[smooth function]] $f \in C^\infty(\mathbb{R}^n)$ may be written as
+
+$$
+  f(x) = f(0) + \sum_i x_i g_i(x)
+$$
+
+for smooth $\{g_i \in C^\infty(X)\}$ with $g_i(0) = \frac{\partial f}{\partial x_i}(0)$. Since any derivation $\delta : C^\infty(X) \to C^\infty(X)$ satisfies the the Leibniz rule, it follows that
+
+$$
+  \delta(f)(0) = \sum_i \delta(x_i) \frac{\partial f}{\partial x_i}(0)
+  \,.
+$$
+
+Similarly, by translation, at all other points. Therefore $\delta$ is already fixed by its action of the coordinate functions $\{x_i \in C^\infty(X)\}$. Let $v_\delta \in T \mathbb{R}^n$ be the [[vector field]] 
+
+$$
+  v_\delta \coloneqq \sum_i \delta(x_i) \frac{\partial}{\partial x_i}
+$$
+
+then it follows that $\delta$ is the derivation coming from $v_\delta$ under $Vect(X) \to Der(C^\infty(X))$.
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Via the [[embedding of smooth manifolds into formal duals of R-algebras]] as observing that algebra homomorphisms of the form $C^\infty(X)[\epsilon]/(\epsilon^2)\leftarrow C^\infty(X)$ which are the identity modulo $\epsilon$ are equivalently [[derivations]], 
+theorem \ref{Statement} is the starting point for generalizations of [[smooth manifolds]] to [[formal smooth manifolds]] and more generally of [[differential geometry]] to _[[synthetic differential geometry]]_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Beware however that related algebraic properties familiar from [[affine schemes]] may break, notably for the [[Kähler differential forms]] of $C^\infty(X)$ to come out as the expected smooth [[differential forms]] one needs to refine the plain $\mathbb{R}$-[[commutative algebra]] $C^\nfty(X)$ to the structure of a _[[smooth algebra]]_.
+
+=--
+
+
+## Related theorems
+
+* [[Borel's theorem]]
+
+* the [[Tietze extension theorem]]
+
+* the [[Whitney extension theorem]]
+
+* the [[Steenrod-Wockel approximation theorem]]
+
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
+
+
+## References
+
+e. g 
+
+* theorem 3.7 in [pdf](http://www.math.toronto.edu/mgualt/MAT1300/week9.pdf)
+ 
