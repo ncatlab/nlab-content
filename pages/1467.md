@@ -96,7 +96,7 @@ Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]]. Write $C_i \coloneqq X \
 
 Then statement 3 is the [[contraposition]] of the second, and contrapositives are equivalent under [[excluded middle]].
 
-The proof of the equivalence of the third is discussed at _[[closed-projection characterization of compactness]]_.
+The proof of the equivalence of statement 4 is discussed at _[[closed-projection characterization of compactness]]_.
 
 =--
 
