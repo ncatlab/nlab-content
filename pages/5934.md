@@ -60,7 +60,7 @@ The equivalence of the conditions on [[tangent space]] with the conditions on [[
 +-- {: .num_remark}
 ###### Remark
 
-An analogous characterization of [[étale morphisms]] between [[affine algebraic varieties]] isgiven by [[tangent cones]]. See there.
+An analogous characterization of [[étale morphisms]] between [[affine algebraic varieties]] is given by [[tangent cones]]. See there.
 
 =--
 
@@ -68,7 +68,7 @@ An analogous characterization of [[étale morphisms]] between [[affine algebraic
 
 ### General
 
-* A local diffeomorphism is a [[local homeomorphism]] and so also an [[open map]].
+* A local diffeomorphism is a [[local homeomorphism]] and so also an [[open map]]. By the [[inverse function theorem]].
 
 ### Abstract characterization
 
