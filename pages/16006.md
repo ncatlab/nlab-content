@@ -1,0 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $\mathbf{H}$ a [[topos]], then an [[essential geometric morphism|essential]] [[subtopos]] $\mathbf{H}_l \hookrightarrow \mathbf{H}$ is called a _level_ of $\mathbf{H}$. This is equivalently the inclusion of the [[right adjoint]] of an [[adjoint cylinder]]/[[adjoint modality]].
+
+The terminology is due to the fact ([Kelley-Lawvere 89](#KL89)) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos form a [[complete lattice]]. 
+
+If for two consecutive levels the next one includes the [[modal types]] of the [[idempotent comonad]] of the previous one, then [[Lawvere]] speaks of "[[Aufhebung]]" (see there for details) of the [[unity of opposites]] exhibited by the previous one.
+
+## Examples
+
+* For $\mathbf{H} = $ [[sSet]] the topos of [[simplicial sets]], then the tower of [[simplicial coskeleton|n-coskeleton]]-inclusions for all $n$ is a sequence of levels (the extra left adjoint exhibiting the essentialness being the [[simplicial skeleton]]). The [[Aufhebung]] in this example is discussed in detail in ([KRRZ 10](#KRRZ10)).
+
+
+* The lowest level is the inclusion of the trivial subtopos as the [[terminal object]]. See also at _[[unity of opposites]]_ the section _[Werden](http://ncatlab.org/nlab/show/adjoint+modality#Werden)_.
+
+* A level above this is (if it exists) [[cohesion]] and a level above that is, if it exists, [[differential cohesion]].
+
+  Here differential cohesion itself typically comes in a countable tower of levels, given by the $n$th order [[infinitesimal objects]], for each $n$.
+
+
+
+
+
+## Related concepts
+
+* [[Aufhebung]]
+
+## References
+
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
+
+
+* {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([arXiv:1003.5944](http://arxiv.org/abs/1003.5944))
