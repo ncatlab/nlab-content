@@ -43,8 +43,18 @@ $$\mathbb{N} \stackrel{pair}{\to} \mathbb{N} \times \mathbb{N} \stackrel{f \time
 
 where for $pair: \mathbb{N} \to \mathbb{N} \times \mathbb{N}$ we may take for example the function that is inverse to $(x, y) \mapsto \binom{x+y+1}{2} + y$. 
 
-For constructive mathematicians who accept the axiom of countable choice, the proof is only slightly more elaborate. Here we define a set to be *countable* if it is a [[quotient]] of (is enumerated by) a [[decidable subset]], i.e., [[complemented subobject]] of $\mathbb{N}$. (To be continued.) 
-=-- 
+For constructive mathematicians who accept the axiom of countable choice, the proof is only slightly more elaborate. Here we define a set to be *countable* if it is a [[quotient]] of (is enumerated by) a [[decidable subset]], i.e., a [[complemented subobject]] of $\mathbb{N}$. Thus, supposing we have chosen surjections out of decidable subsets $(f_i: J_i \to S_i)_{i \in I}$, and a surjection $J \to I$ out of a decidable subset $J$, we have a diagram (switching to $\sum$ to denote disjoint sums) 
+
+$$\array{
+ & & & & J \cdot \mathbb{N} & \hookrightarrow & \mathbb{N} \cdot \mathbb{N} \cong \mathbb{N} \times \mathbb{N} & \stackrel{pair^{-1}}{\to} & \mathbb{N} \\ 
+ & & & & \downarrow \mathrlap{f \cdot \mathbb{N}} & & & & \\ 
+\sum_{i \in I} J_i & \hookrightarrow & \sum_{i \in I} \mathbb{N} & \cong & I \cdot \mathbb{N} & & & & \\ 
+\mathllap{\sum_{i \in I} f_i} \downarrow & & & & & & & & \\ 
+\sum_{i \in I} S_i & & & & & & & & 
+}$$
+
+whose [[limit]] might be denoted $\sum_{j \in J} K_j$ where $K_j \coloneqq J_{f(j)}$. This is certainly a complemented subobject of $\mathbb{N}$, the complement being formed as $\left(\sum_{j \in J} \neg K_j\right) + (\neg J) \cdot \mathbb{N}$, and the limit obviously maps surjectively onto $\sum_{i \in I} S_i$, as desired. 
+=--
 
 ## Related statements
 
