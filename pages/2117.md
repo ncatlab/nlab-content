@@ -96,6 +96,8 @@ Set theory is not the only [[foundation of mathematics]].  For example, there ar
 
   * [[subobject classifier]], [[object classifier]], [[partial map classifier]]
 
+* [[reflective subuniverse]]
+
 * [[G-universe]]
 
 ## References
