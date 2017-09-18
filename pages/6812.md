@@ -2,4 +2,17 @@
 
 * [webpage](http://insti.physics.sunysb.edu/physics/forms/profilesearch.cgi?lastname=van%20nieuwenhuizen)
 
+on the beginnings of [[supergravity]]:
+
+* van Nieuwenhuizen _Aspects of supergravity_, 2014 ([pdf](http://media.scgp.stonybrook.edu/presentations/20140109_vanNieuwenhuizen.pdf))
+
+Part of this story also appears as
+
+* David Appell, _When supergravity was born_, 2012 ([pdf](http://www.davidappell.com/articles/PWSep12appell-supergravity.pdf))
+
+
+## Related $n$Lab entries
+
+* [[supergravity]]
+
 category: people
