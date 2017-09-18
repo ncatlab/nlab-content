@@ -75,5 +75,11 @@ Similarly, the [[adjoint lifting theorem]] states conditions on a square of func
 
 * [[Walter Tholen]], _Adjungierte Dreiecke, Colimites und Kan-Erweiterungen_ , Math. Ann. **217** (1975) pp.121-129. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002311682))
 
+Generalizations of the adjoint triangle theorem to [[2-categories]] are considered in
+
+* Fernando Lucatelli Nunes, *On biadjoint triangles*, [TAC](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
+
+* Fernando Lucatelli Nunes, *On lifting of biadjoints and lax algebras*, [arXiv](https://arxiv.org/abs/1607.03087)
+
 [[!redirects adjoint triangle]]
 [[!redirects adjoint triangles]]
