@@ -28,7 +28,7 @@ The _Zariski topology_ is a [[topological space|topology]] on the [[prime spectr
 
 1. then we turn to the modern definition of the Zariski topology [on affine varieties](#OnAffineVarieties) $Spec(R)$ which takes the concept of prime (and maximal) ideals as primary, and again we provide the classical arguments;
 
-1. finally we discuss the abstract category theoretic perspective on these matters [in terms of Galois connections](#InTermsOfGaloisConnections) and obtain slick category theoretic proofs of all the previous statements.
+1. finally we discuss the abstract [[category theory|category theoretic]] perspective on these matters [in terms of Galois connections](#InTermsOfGaloisConnections) and obtain slick category theoretic proofs of all the previous statements.
 
 
 Starting with [[affine space]] $k^n$, then the idea of the Zariski topology is to take as the _[[closed subsets]]_ those defined by the vanishing of any set of [[polynomials]] over $k$ in $n$ [[variables]], hence the solution sets to [[equations]] of the form
@@ -46,7 +46,7 @@ It is clear that the vanishing set such a set of polynomials depends only on the
 
 In particular one finds that the [[irreducible closed subsets]] of the Zariski topology correspond to the [[prime ideals]] in the polynomial ring (prop. \ref{PrimeVanishingIdealOfIrreducibleZariskiClosed} and prop. \ref{PrimeIdealClosedsubspaceBijection} below), and that the [[closed points]] correspond to the [[maximal ideals]] among these (prop. \ref{MaximalIdealsAreClosedPoints}).
 
-This motivates the modern refinement of the concept of the Zariski topology, where one considers any [[commutative ring]] $R$ and equips its set of [[prime ideals]] with a topology, by direct analogy with the previously naive affine space $k^n$, which is recovered with $R$ a polynomial ring and restricting attention to the maximal ideals (example \ref{AffinSpaceA# AsPrimeSpectrum} below).
+This motivates the modern refinement of the concept of the Zariski topology, where one considers any [[commutative ring]] $R$ and equips its set of [[prime ideals]] with a topology, by direct analogy with the previously naive affine space $k^n$, which is recovered with $R$ a polynomial ring and restricting attention to the maximal ideals (example \ref{AffinSpaceAsPrimeSpectrum} below).
 
 These sets of prime ideals of a ring $R$ equipped with the Zariski topology are called the (topological spaces underlying) the _[[prime spectrum of a commutative ring]]_, denoted $Spec(R)$.
 
@@ -1687,5 +1687,9 @@ We now redo the discussion of the Zariski topology on the [[prime spectrum of a 
 Lecture notes include
 
 * Jim Carrell, _Zariski topology_ etc [[CarrellZariskiTopology.pdf:file]]
+
+See also 
+
+* Wikipedia, _[Zariski topology](https://en.wikipedia.org/wiki/Zariski_topology)_
 
 [[!redirects Zariski topologies]]
