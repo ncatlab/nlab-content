@@ -56,6 +56,48 @@ for any [[bump function]] $b$, where $\partial_\alpha b$ is the ordinary [[deriv
 ## Examples
 
 
++-- {: .num_prop #DerivativeOfHeavisideDistribution}
+###### Proposition
+
+The [[derivative of distributions|distributional derivative]] of the Heaviside distribution $\Theta \in \mathcal{D}'(\mathbb{R})$ is the [[delta distribution]] $\delta \in \mathcal{D}'(\mathbb{R})$:
+
+$$
+  \partial \Theta = \delta
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $b \in C^\infty_c(\mathbb{R})$ any [[bump function]] we compute:
+
+$$
+  \begin{aligned}
+    \int \partial\Theta(x) b(x) \, d x
+    & =
+    - \int \Theta(x) \partial b(x)\, dx
+    \\
+    & =
+    - \int_0^\infty \partial b(x) d x
+    \\
+    & =
+    - \left( b(x)\vert_{x \to \infty} - b(0) \right)
+    \\
+    & =
+    b(0)
+    \\
+    &
+    =
+    \int \delta(x) b(x) \, dx
+    \,.
+  \end{aligned}
+$$
+
+=--
+
+
 +-- {: .num_example #PointSupportedDistributionsAreSumsOfDerivativesOfDeltaDistibutions}
 ###### Example
 
