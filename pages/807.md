@@ -91,11 +91,35 @@ In the special case that $X$ is a [[surface]], Def. \ref{EulerCharOfCWComplex} r
 +-- {: .num_defn #EulerCharOfSurface}
 ###### Definition/Proposition
 
-Let $X$ be a convext [[polyhedron]]. Then its Euler characteristic is
+Let $X$ be a convex [[polyhedron]]. Then its Euler characteristic is
 
 $$
   \chi(X) = \vert Vertices(X)\vert - \vert Edges(X)\vert + 
    \vert Faces(X)\vert
+  \,.
+$$
+
+=--
+
+In particular if $X$ may be embedded into the [[2-sphere]], this means that 
+
+$$
+  2 = \vert Vertices(X)\vert - \vert Edges(X)\vert + 
+   \vert Faces(X)\vert
+  \,.
+$$
+
+By removing one point from the 2-sphere not contained in $X$, the result may be thought of as a [[planar graph]]. This has one face less than $X$ had (the one containing the point which was removed). Hence 
+
++-- {: .num_cor #EulerFormulaForPlanarGraphs}
+###### Corollary
+**([[Euler formula for planar graphs]])**
+
+For a planar [[graph]] $\Gamma$ we have
+
+$$
+  1 = \vert Vertices(\Gamma)\vert - \vert Edges(\Gamma)\vert + 
+   \vert Faces(\Gamma)\vert
   \,.
 $$
 
