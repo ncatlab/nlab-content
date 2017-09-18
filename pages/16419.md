@@ -1,0 +1,11 @@
+
+## Idea
+
+The general lineat [[supergroup]] $GL(p|q)$ is the [[supergroup]] of invertible linear transformation on $\mathbb{R}^{p|q}$.
+
+## Related concepts
+
+* [[orthosymplectic supergroup]]
+
+* [[Euclidean supergroup]], [[super Poincaré group]]
+
