@@ -39,7 +39,7 @@ Therefore, zero is a natural number, any natural number has a successor, and all
 * $cons(x,-)$ of arity one, for each $x\in X$.
 Therefore, $nil$ is a list, $cons(x,\ell)$ is a list for any list $\ell$ and $x\in X$, and all lists are generated in this way.
 
-(3) [[identity type]]s arise as a more general kind of W-type; see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).)
+(3) [[identity type]]s arise as a more general kind of W-type; see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).
 
 
 ## Definition
@@ -146,7 +146,7 @@ Note also that in [[intensional type theory]], a W-type is only an initial algeb
 ## Properties
  {#Properties}
 
-Formation of W-types in [[homotopy type theory]] only increases [[h-level]] (as it should be for [[(infinity,1)-colimits]]). A formal proof of this is discussed in ([Danielsson](#Danielsson)).
+In [[homotopy type theory]], if $A$ as h-level $n\geq -1$, then $W A B$ has h-level $n$ (as it should be for [[(infinity,1)-colimits]]). A formal proof of this is discussed in ([Danielsson](#Danielsson)).
 
 ## Related concepts
 
@@ -180,7 +180,11 @@ Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
  {#AwodeyGambinoSojakova}
 
-A formal proof that [[type formation|formation]] for W-types only increases [[h-level]] is discussed in
+Work towards dependent W-types in HoTT is here:
+
+* Christian Sattler, _On relating indexed W-types with ordinary ones_, 2015 [PDF](http://cs.ioc.ee/types15/abstracts-book/contrib31.pdf)
+
+A formal proof about the [[h-level]] of W-types is discussed in
 
 * Nils Anders Danielsson, _Positive h-levels are closed under W_
  {#Danielsson}
