@@ -206,7 +206,7 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 Textbook accounts and lecture notes include
 
-* [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
+* {#Saunders89} [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
 * {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_, 1998 ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
 
@@ -220,6 +220,15 @@ Textbook accounts and lecture notes include
 Early accounts include
 
 * Hubert Goldschmidt, _Integrability criteria for systems of nonlinear partial differential equations_, J. Differential Geom. Volume 1, Number 3-4 (1967), 269-307 ([Euclid](http://projecteuclid.org/euclid.jdg/1214428094))
+
+Discussion of the [[Frechet manifold]] structure on jet bundles includes
+
+* {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_, J. Differential Geom. Volume 14, Number 4 (1979), 543-562. ([Euclid](https://projecteuclid.org/euclid.jdg/1214435235))
+
+* M. Bauderon, _Differential geometry and Lagrangian formalism in the calculus of
+variations_, in _Differential Geometry, Calculus of Variations, and their Applications_, Lecture Notes in Pure and Applied Mathematics, 100, Marcel Dekker, Inc., N.Y., 1985, pp. 67-82.
+
+* [[Andrew Lewis]], _The bundle of infinite jets_ 2006 ([pdf](http://www.mast.queensu.ca/~andrew/notes/pdf/2006a.pdf))
 
 Discussion in tems of [[synthetic differential geometry]] is in 
 
