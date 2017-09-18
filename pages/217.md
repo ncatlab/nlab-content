@@ -60,7 +60,7 @@ For more details see
 
 * [[fully formal ETCS]].
 
-## A Constructive View
+## A constructive view
 
 [[Erik Palmgren]] ([Palmgren 2012](#Palmgren)) has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as:
 
@@ -105,7 +105,7 @@ ETCS grew out of Lawvere's experiences of teaching undergraduate foundations of 
 
 A more or less contemporary review is
 
-* C.C. Elgot , _Review_,  JSL **37** no.1 (1972) pp.191-192.
+* C.C. Elgot, _Review_,  JSL **37** no.1 (1972) pp. 191-192.
 
 A longer version of Lawvere's 1965 paper appears in
 
@@ -133,15 +133,15 @@ A short overview article on ETCS:
 
 An insightful and non-partisan view of ETCS can be found in a section of:
 
-* [[Andreas Blass]], Yuri Gurevich, _Why Sets ?_ , Bull. Europ. Assoc. Theoret. Comp. Sci. **84** (2004) pp.139-156.  ([draft](http://www.math.lsa.umich.edu/~ablass/set.pdf))
+* [[Andreas Blass]], Yuri Gurevich, _Why Sets ?_ , Bull. Europ. Assoc. Theoret. Comp. Sci. **84** (2004) 139-156.  ([draft](http://www.math.lsa.umich.edu/~ablass/set.pdf))
 
 An extended discussion from a philosophical perspective is in
 
-* {#McLarty04}[[Colin McLarty]], _Exploring Categorical Foundations_ , Phil. Math. **12** no.3 (2004) pp.37-53.
+* {#McLarty04}[[Colin McLarty]], _Exploring Categorical Foundations_ , Phil. Math. **12** no.3 (2004) 37-53.
 
 For a more recent review from a critical perspective containing additional recent references see
 
-* [[Solomon Feferman]], _Foundations of Unlimited Category Theory: What Remains to be Done_ , Review of Symbolic Logic **6** no.1 (2013) pp.6-15. ([pdf](http://math.stanford.edu/~feferman/papers/FCT-RSL-2013.pdf))
+* [[Solomon Feferman]], _Foundations of Unlimited Category Theory: What Remains to be Done_ , Review of Symbolic Logic **6** no.1 (2013) 6-15. ([pdf](http://math.stanford.edu/~feferman/papers/FCT-RSL-2013.pdf))
 
 An informative discussion of the pros and cons of Lawvere's approach can be found in
 
@@ -149,7 +149,7 @@ An informative discussion of the pros and cons of Lawvere's approach can be foun
 
 Palmgren's ideas can be found here:
 
-*  [[Erik Palmgren]], _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ , Ann. Pure. App. Logic **163** no.10 (2012) pp.1384-1399. ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf)) {#Palmgren}
+*  [[Erik Palmgren]], _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ , Ann. Pure. App. Logic **163** no.10 (2012) 1384-1399. ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf)) {#Palmgren}
 
 For the relation between the theory of well-pointed toposes and **weak Zermelo set theory** as elucidated by work of [[Julian Cole|J. Cole]], [[Barry Mitchell]], and [[Gerhard Osius|G. Osius]] in the early 1970s see
 
@@ -157,7 +157,7 @@ For the relation between the theory of well-pointed toposes and **weak Zermelo s
 
 * [[Barry Mitchell]], _Boolean Topoi and the Theory of Sets_ ,  JPAA **2** (1972) pp.261-274.
 
-* [[Gerhard Osius]], _Categorical Set Theory: A Characterization of the Category of Sets_ ,  JPAA **4** (1974) pp.79-119.
+* [[Gerhard Osius]], _Categorical Set Theory: A Characterization of the Category of Sets_,  JPAA **4** (1974) 79-119.
 
 
 [[!redirects ETCS]]
