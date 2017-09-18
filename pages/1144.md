@@ -207,8 +207,9 @@ For instance the [[4-sphere]] has rational homotopy in degree 4 and 7. The one i
 
 
 ## Quillen approach
+ {#QuillenApproach}
 
-The following sequence of six consecutive functors, each of which is a [[Quillen equivalence]], take one from a [[n-connected space|1-connected]] rational space $X$ to a [[dg-Lie algebra]].
+The following sequence of six consecutive functors, each of which is a [[Quillen equivalence]], takes one from a [[n-connected space|1-connected]] rational space $X$ to a [[dg-Lie algebra]].
 
 One starts with the [[fundamental infinity-groupoid|singular simplicial set]]
 
@@ -217,19 +218,19 @@ $$
 $$
  
 
-and throws away all the simplices except the basepoint in degrees $0$ and $1$.  Then one applies the Kan loop group functor (the simplicial analogue of the based [[loop space]] functor) to $S(X)$, obtaining an honest [[simplicial group]]
+and throws away all the simplices except the basepoint in degrees $0$ and $1$, to get a [[reduced simplicial set]].  Then one applies the Kan loop group functor (the simplicial analogue of the based [[loop space]] functor, see [here](simplicial+group#AsInfinityGroups)) to $S(X)$, obtaining an a [[simplicial group]]
 
 $$
   G S(X).
 $$
 
-Then one takes the [[group ring]]
+Then one forms its [[group ring]]
 
 $$
   \mathbb{Q}[G S(X)]
 $$
 
-and completes it with respect to powers of its augmentation ideal, obtaining a "reduced, complete simplicial [[Hopf algebra]]",
+and completes it with respect to powers of its [[augmentation ideal]], obtaining a "reduced, complete simplicial [[Hopf algebra]]",
 
 $$
   \hat \mathbb{Q}[G S(X)], 
