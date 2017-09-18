@@ -17,7 +17,7 @@
 
 For [[sequential spectra]] and for [[highly structured spectra]] such as [[symmetric spectra]] and [[orthogonal spectra]], the [[functor]] $(-)_n$ which picks their $n$th component space, for any $n \in \mathbb{N}$, has a [[left adjoint]] $F_n$. 
 
-A structured spectrum in the image of this [[free functor]] is called a _free symmetric spectrum_ or _free orthogonal spectrum_, respectively ([Mandell-May-Schwede-Shipley 01, section 8](#MandellMaySchwedeShipley01), [Schwede 12, example 3.20](#Schwede12)).
+A structured spectrum in the image of this [[free functor]] is called a _free symmetric spectrum_ or _free orthogonal spectrum_, respectively ([Mandell-May-Schwede-Shipley 01, section 8](#MandellMaySchwedeShipley01), [Schwede 12, example 3.20](#Schwede12)). See also ([MMSS 01, def. 1.3 with construction 2.1 and  theorem 2.2](#MandellMaySchwedeShipley01)).
 
 
 +-- {: .num_prop #ExplicitFormOfFreeSpectra}
