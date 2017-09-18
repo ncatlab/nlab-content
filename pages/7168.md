@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -36,44 +35,7 @@ $$
 
 is a [[bilinear form]]. 
 
-
-## Quadratic refinement
-
-Let 
-
-$$
-  \langle -,-\rangle
-  \colon
-  V \otimes V \to k
-$$ 
-
-be a [[bilinear form]]. A [[function]] 
-
-$$
-  q \colon V \to k
-
-$$ 
-
-is called a **[[quadratic refinement]]** of $\langle -,-\rangle$ if
-
-$$
-  \langle v,w\rangle 
-    = 
-  q(v + w) - q(v) - q(w) + q(0)
-$$
-
-for all $v,w \in V$.
-
-
-If such $q$ is indeed a [[quadratic form]] in that $q(t v) = t^2 q(v)$ then $q(0) = 0$ and
-
-$$
-  \langle v , v \rangle = 2 q(v)
-  \,.
-$$
-
-This means that a quadratic refinement by a [[quadratic form]] always exists when $2 \in k$ is invertible. Otherwise its existence is a non-trivial condition. One way to express quadratic refinements is by [[characteristic elements of a bilinear form]]. See there for more.
-
+From the converse point of view, $q$ is a __[[quadratic refinement]]__ of the bilinear form $(-,-)$.  (This always exists uniquely if $2 \in k$ is invertible, but in general the question involves the [[characteristic elements of a bilinear form|characteristic elements]] of $(-,-)$.  See there for more.)
 
 
 ## Related concepts
@@ -87,6 +49,9 @@ This means that a quadratic refinement by a [[quadratic form]] always exists whe
 * [[symplectic form]], [[Kähler form]], [[Hermitian form]]
 
 * [[completing the square]]
+
+* [[quadratic refinement]]
+
 
 ## References
  {#References}
@@ -134,6 +99,6 @@ Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerfu
 [[!redirects quadratic form]]
 [[!redirects quadratic forms]]
 
-
 [[!redirects signature of a quadratic form]]
-
+[[!redirects signatures of a quadratic form]]
+[[!redirects signatures of quadratic forms]]
