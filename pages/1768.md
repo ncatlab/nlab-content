@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+
 # Cauchy sequences
 * table of contents
 {: toc}
@@ -6,7 +17,7 @@
 
 ## Idea
 
-A Cauchy sequence is an infinite [[sequence]] which ought to converge in the sense successive terms get arbitrarily close together, as they would if they were getting arbitrarily close to a limit.  Among sequences, only Cauchy sequences will converge; in a [[complete space]], all Cauchy sequence converge.
+A _Cauchy sequence_ is an infinite [[sequence]] which ought to [[convergence|converge]] in the sense that successive terms get arbitrarily close together, as they would if they were getting arbitrarily close to a limit.  Among sequences, only Cauchy sequences will converge; in a [[complete space]], all Cauchy sequence converge.
 
 
 ## Definitions
@@ -46,6 +57,10 @@ A [[net]] is a generalization of a sequence; the definitions above serve to defi
 Note that in a [[complete space]], every Cauchy net has a limit, not just every Cauchy sequence.  Rather, a space in which every Cauchy sequence converges is called __sequentially complete__.  Note that a metric space (or even a Lawvere metric space) is in fact complete if it is sequentially complete (although this result is not valid in some weak [[foundations]]); in particular, the [[real line]] $\mathbf{R}$ is complete.
 
 When [[Bill Lawvere]] idenitified Lawvere metric spaces with [[enriched categories]] over the [[closed monoidal category|closed monoidal]] [[poset]] $(\mathbf{R}^+,+)$, he identified Cauchy sequences in such spaces with certain [[adjunctions]] of [[bimodules]], enough so that a metric space would be a Cauchy-[[complete space]] if and only if every adjunction of bimodules is induced by an [[enriched functor]].  Generalising this condition from $(\mathbf{R}^+,+)$ to an arbitrary closed monoidal category, we have the concept of [[Cauchy-complete category]].
+
+## References
+
+* Wikipedia, _[Cauchy sequence](https://en.wikipedia.org/wiki/Cauchy_sequence)_
 
 
 [[!redirects Cauchy sequence]]
