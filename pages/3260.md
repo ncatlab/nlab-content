@@ -330,3 +330,7 @@ See also
 Discussion in the context of [[global equivariant homotopy theory]] is in 
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
+
+Discussion via [[homotopy type theory]] is in
+
+* {#Shulman15} [[Mike Shulman]], _Univalence for inverse EI diagrams_ ([arXiv:1508.02410](http://arxiv.org/abs/1508.02410))
