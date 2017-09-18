@@ -1,5 +1,5 @@
 
-**[[representation theory]] and [[equivariant cohomology]] in terms of [[(∞,1)-topos theory]]/[[homotopy type theory]]**:
+**[[representation theory]] and [[equivariant cohomology]] in terms of [[(∞,1)-topos theory]]/[[homotopy type theory]]** ([[schreiber:Principal ∞-bundles -- theory, presentations and applications|FSS 12 I, exmp. 4.4]]):
 
 | [[homotopy type theory]] |  [[representation theory]] |
 |---|---|
