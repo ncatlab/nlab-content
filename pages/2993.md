@@ -156,12 +156,12 @@ See [[Euclidean domain]] for a proof.
 
 +-- {: .num_cor} 
 ###### Corollary 
-If $a \in R$ is a [[root]] of $p(x) \in R[x]$, i.e., if the value of the polynomial function $p(a)$ is $0$, then $p(x)$ is of the form $(x - a)q(x)$. 
+For any commutative ring $R$, if $a \in R$ is a [[root]] of $p(x) \in R[x]$, i.e., if the value of the polynomial function $p(a)$ is $0$, then $p(x)$ is of the form $(x - a)q(x)$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Since we may write $p(x) = (x - a)q(x) + r$ where $\deg(r) \lt 1$, whence $r$ is a constant. By evaluating the polynomial function at $x = a$, the term $r$ is $0$. 
+Since $x - a$ is monic, we may write $p(x) = (x - a)q(x) + r$ where $\deg(r) \lt 1$, whence $r$ is a constant. By evaluating the polynomial function at $x = a$, the term $r$ is $0$. 
 =-- 
 
 This observation may be exploited in various neat ways. One is that if $p(x)$ is a polynomial, then $p(y) = p(x) + (y - x)q(x, y)$ for some unique $q(x, y) \in k[x, y]$. A consequence is that the Lawvere theory of commutative $k$-algebras is a [[Fermat theory]]. The [[derivative]] of $p$ may be defined to be $q(x, x) \in k[x]$. 
