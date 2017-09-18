@@ -4965,7 +4965,7 @@ Inspection of the component maps shows that the left vertical morphism here is t
 
 =--
 
-##### Model structure on pointed topological spaces
+##### Model structure on pointed spaces
  {#ModelstructureOnPointedTopologicalSpaces}
 
 A _[[pointed object]]_ $(X,x)$ is of course an [[object]] $X$ equipped with a [[point]] $x \colon \ast \to X$, and a morphism of pointed objects $(X,x) \longrightarrow (Y,y)$ is a morphism $X \longrightarrow Y$ that takes $x$ to $y$. Trivial as this is in itself, it is good to record some basic facts, which we do here. 
@@ -5176,7 +5176,7 @@ For a general category $\mathcal{C}$ in def. \ref{SmashProductOfPointedObjects},
 
 In particular this may happen for $\mathcal{C} = $ [[Top]].
 
-A sufficient condition for $(-) \times Z$ to preserve quotients is that it is a [[left adjoint]] functor. This is the case in the smaller subcategory of [[compactly generated topological spaces]], we come to this in prop. \ref{SmashProductInTopcgIsAssociative} below. spring
+A sufficient condition for $(-) \times Z$ to preserve quotients is that it is a [[left adjoint]] functor. This is the case in the smaller subcategory of [[compactly generated topological spaces]], we come to this in prop. \ref{SmashProductInTopcgIsAssociative} below. 
 
 
 
@@ -5504,7 +5504,7 @@ Due to the fact that in $J_{Top^{\ast/}}$ a basepoint is freely adjoined, lemma 
 =--
 
 
-##### Model structure on compactly generated topological spaces
+##### Model structure on compactly generated spaces
  {#ModelStructureOnCompactlyGeneratedTopologicalSpaces}
 
 The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) satisfying exponential property (prop. \ref{MappingTopologicalSpaceIsExponentialObject}) exist in general only for $Y$ a [[locally compact topological space]], but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it ensures that
@@ -5519,7 +5519,11 @@ The first two of these are crucial for the development of [[stable homotopy theo
 
 Now, since the [[homotopy theory]] of topological spaces only cares about the [[CW approximation]] to any topological space (remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}), it is plausible to ask for a [[full subcategory]] of [[Top]] which still contains all [[CW-complexes]], still has all [[limits]] and [[colimits]], still supports a model category structure constructed in the same way as above, but which in addition is [[cartesian closed category|cartesian closed]], and preferably such that the model structure interacts well with the cartesian closure.
 
-Such a full subcategory exists, the category of [[compactly generated topological spaces]]. This we briefly describe now. For full proofs of the following claims, which all are short and elementary arguments in point-set topology, see ([Strickland 09](#Strickland09)).
+Such a full subcategory exists, the category of [[compactly generated topological spaces]]. This we briefly describe now. 
+
+**Literature** ([Strickland 09](#Strickland09))
+
+$\,$
 
 +-- {: .num_defn #kTop}
 ###### Definition
@@ -5549,7 +5553,7 @@ $$
   Top \overset{k}{\longrightarrow} Top_{cg} \hookrightarrow Top
 $$
 
-for the [[functor]] which sends any [[topological space]] $X = (S,\tau)$ to the  topological space with the same underlying set $S$, but with open subsets $k \tau$ the collection of all $k$-open subsets of $\tau$.
+for the [[functor]] which sends any [[topological space]] $X = (S,\tau)$ to the  topological space $(S, k \tau)$ with the same underlying set $S$, but with open subsets $k \tau$ the collection of all $k$-open subsets with respect to $\tau$.
 
 =--
 
@@ -5702,7 +5706,9 @@ The [[product topological space]] of a [[CW-complex]] with a [[compact topologic
 +-- {: .num_prop #kificationComparisonIsWeakHomotopyEquivalence}
 ###### Proposition
 
-For every topological space $X$, the canonical function $k(X) \longrightarrow X$ is a [[weak homotopy equivalence]].
+For every 
+
+topological space $X$, the canonical function $k(X) \longrightarrow X$ is a [[weak homotopy equivalence]].
 
 =--
 
@@ -5714,7 +5720,7 @@ By example \ref{CWComplexIsCompactlyGenerated}, example \ref{ProductOfCWWithLoca
 =--
 
 
-+-- {: .num_theorem } 
++-- {: .num_theorem #ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces} 
 ###### Theorem
 
 The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]] (def. \ref{QuillenEquivalence})
@@ -5731,7 +5737,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{ProductOfCWWithLocallyCompactCWIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual point-set topology,  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$.
+By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{ProductOfCWWithLocallyCompactCWIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual point-set topology,  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$ (repeatedly use the [[small object argument]] and the [[retract argument]] to establish the two weak factorization systems).
 
 Hence the (acyclic) cofibrations in $(Top_{cg})_{Quillen}$ are identified with those in $Top_{Quillen}$, and so the inclusion is a part of a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}). To see that this is a [[Quillen equivalence]] (def. \ref{QuillenEquivalence}), it is sufficient to check that for $X$ a compactly generated space then a continuous function $f \colon X \longrightarrow Y$ is a [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}) precisely if the [[adjunct]] $\tilde f \colon X \to k(Y)$ is a weak homotopy equivalence. But, by lemma \ref{ContinuousFunctionsOutOfCompactlyGeneratedFactorThroughCompactlyGeneratedClosureOfCodomain}, $\tilde f$ is the same function as $f$, just considered with different codomain. Hence the result follows with prop. \ref{kificationComparisonIsWeakHomotopyEquivalence}.
 
@@ -5857,27 +5863,31 @@ e.g. ([Strickland 09, lemma 1.4 (c)](#Strickland09))
 
 
 
-##### Model structure on (pointed) topological functors
+##### Model structure on topological functors
  {#ModelStructureOnTopEnrichedFunctors}
 
-With classical topological homotopy theory in hand, it is straightforward now to generalize this to a homotopy theory of _topological diagrams_. This is going to be the basis for the [[stable homotopy theory]] of [[spectra]], for spectra may be identified with certain topological diagrams.
+With classical topological homotopy theory in hand (theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}), it is straightforward now to generalize this to a homotopy theory of _topological diagrams_. This is going to be the basis for the [[stable homotopy theory]] of [[spectra]], because spectra may be identified with certain topological diagrams ([prop.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectraAsDiagramSpectra)).
 
-Technically, "topological diagram" here mean "[[Top]]-[[enriched functor]]". We now discuss what this means and then observe that as an immediate corollary of theorem \ref{TopQuillenModelStructure} we obtain a model category structure on topological diagrams.
+Technically, "topological diagram" here means "[[Top]]-[[enriched functor]]". We now discuss what this means and then observe that as an immediate corollary of theorem \ref{TopQuillenModelStructure} we obtain a model category structure on topological diagrams.
 
 In the following we say _[[Top]]-[[enriched category]]_ and _[[Top]]-[[enriched functor]]_ etc. for what often is referred to as "[[topological category]]" and "[[topological functor]]" etc. As discussed there, these latter terms are ambiguous.
+
+**Literature** ([[Categorical Homotopy Theory|Riehl, chapter 3]]) for basics of [[enriched category theory]]; ([Piacenza 91](#Piacenza91)) for the [[projective model structure on functors|projective model structure on topological functors]].
+
+$\,$
 
 
 +-- {: .num_defn #TopEnrichedCategory}
 ###### Definition
 
-A **[[topologically enriched category]]** $\mathcal{C}$ is a [[Top]]-[[enriched category]], hence:
+A **[[topologically enriched category]]** $\mathcal{C}$ is a $Top_{cg}$-[[enriched category]], hence:
 
 1. a [[class]] $Obj(\mathcal{C})$, called the **class of [[objects]]**;
 
-1. for each $a,b\in Obj(\mathcal{C})$ a topological space 
+1. for each $a, b\in Obj(\mathcal{C})$ a [[compactly generated topological space]] (def. \ref{kTop})
 
    $$
-     \mathcal{C}(a,b)\in Top
+     \mathcal{C}(a,b)\in Top_{cg}
      \,,
    $$
 
@@ -5889,20 +5899,20 @@ A **[[topologically enriched category]]** $\mathcal{C}$ is a [[Top]]-[[enriched 
      \circ_{a,b,c} \;\colon\; \mathcal{C}(a,b)\times \mathcal{C}(b,c) \longrightarrow \mathcal{C}(a,c)
    $$
 
-   out of the [[product topological space]], called the _[[composition]]_ operation
+   out of the [[cartesian product]] (by cor. \ref{kTopIsCoreflectiveSubcategory}: the image under $k$ of the [[product topological space]]), called the _[[composition]]_ operation;
 
 1. for each $a \in Obj(\mathcal{C})$ a point $Id_a\in \mathcal{C}(a,a)$, called the _[[identity]]_ morphism on $a$
 
 such that the composition is [[associativity|associative]] and [[unitality|unital]].
 
-Similarly a **pointed topologically enriched category** is such a structire with $Top_k$ replaced by [[pointed topological spaces]] and with the [[Cartesian product]] replaced by the [[smash product]] of pointed topological spaces.
+Similarly a **pointed topologically enriched category** is such a structure with $Top_{cg}$ replaced by $Top^{\ast/}_{cg}$ (def. \ref{CategoryOfPointedObjects}) and with the [[Cartesian product]] replaced by the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) of pointed topological spaces.
 
 =--
 
 +-- {: .num_remark #UnderlyingCategoryOfTopEnrichedCategory}
 ###### Remark
 
-Given a (pointed) [[topologically enriched category]] as in def. \ref{TopEnrichedCategory}, then forgetting the topology on the [[hom-spaces]] (along the [[forgetful functor]] $U \colon Top_k \to Set$) yields an ordinary [[locally small category]] with
+Given a (pointed) [[topologically enriched category]] as in def. \ref{TopEnrichedCategory}, then forgetting the topology on the [[hom-spaces]] (along the [[forgetful functor]] $U \colon Top_{cg} \to Set$) yields an ordinary [[locally small category]] with
 
 $$
   Hom_{\mathcal{C}}(a,b) = U(\mathcal{C}(a,b))
@@ -5913,41 +5923,16 @@ It is in this sense that $\mathcal{C}$ is a category with [[extra structure]], a
  
 =---
 
-The archetypical example is the following:
+The archetypical example is $Top_{cg}$ itself:
 
 +-- {: .num_example #TopkAsATopologicallyEnrichedCategory}
 ###### Example
 
-Write 
+The category $Top_{cg}$ (def. \ref{kTop}) canonically obtains the structure of a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, with [[hom-spaces]] given by the compactly generated [[mapping spaces]] (def. \ref{CompactlyGeneratedMappingSpaces})
 
 $$
-  Top_k \hookrightarrow Top
-$$ 
-
-for the [[full subcategory]] of [[Top]] on the [[compactly generated topological spaces]]. Under forming [[Cartesian product]] 
-
-$$
-  (-)\times (-)
-  \;\colon\;
-  Top_k \times Top_k \longrightarrow Top_k
-$$
-
-
-and [[mapping spaces]] 
-
-$$
-  (-)^{(-)}
-  \;\colon\;
-  Top_k^{op}\times Top_k
-  \longrightarrow
-  Top_k
-$$
-
-this is a [[cartesian closed category]] (see at _[[convenient category of topological spaces]]_). As such it canonically obtains the structure of a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, with [[hom-spaces]] given by [[mapping spaces]]
-
-$$
-  Top_k(X,Y)
-  \coloneqq
+  Top_{cg}(X,Y)
+    \coloneqq
   Y^X
 $$
 
@@ -5955,22 +5940,29 @@ and with [[composition]]
 
 $$
   Y^X \times Z^Y
-  \longrightarrow
+    \longrightarrow
   Z^X
 $$
 
-given by the (product$\dashv$ mapping-space)-[[adjunct]] of the [[evaluation morphism]]
+given by the [[adjunct]] under the (product$\dashv$ mapping-space)-[[adjunction]] from prop. \ref{CartesianClosureOfTopcg} of the [[evaluation morphisms]]
 
 $$
   X \times Y^X \times Z^Y
-  \overset{(ev, id)}{\longrightarrow}
+    \overset{(ev, id)}{\longrightarrow}
   Y \times Z^Y
-  \overset{ev}{\longrightarrow}
+    \overset{ev}{\longrightarrow}
   Z
   \,.
 $$
 
-Similarly, [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] $Top_k^{\ast/}$ form a pointed topologically enriched category.
+Similarly, [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] $Top_k^{\ast/}$ form a pointed topologically enriched category, using the [[pointed mapping spaces]] from example \ref{PointedMappingSpace}:
+
+$$
+  Top^{\ast/}_{cg}(X,Y)
+   \coloneqq
+  Maps(X,Y)_\ast
+  \,.
+$$
 
 =--
 
@@ -5983,12 +5975,12 @@ $$
   F \;\colon\;  \mathcal{C}  \longrightarrow \mathcal{D}
 $$
 
-is a [[Top]]-[[enriched functor]], hence:
+is a $Top_{cg}$-[[enriched functor]], hence:
 
 1. a [[function]]
 
    $$
-     F_0 \colon Obj(\mathcal{C}) \longrightarrow Obj(\mathcal{D})
+     F_0 \;\colon\; Obj(\mathcal{C}) \longrightarrow Obj(\mathcal{D})
    $$
 
    of [[objects]];
@@ -5999,7 +5991,7 @@ is a [[Top]]-[[enriched functor]], hence:
      F_{a,b} \;\colon\; \mathcal{C}(a,b) \longrightarrow \mathcal{D}(F_0(a), F_0(b))
    $$
 
-   of [[hom-spaces]]
+   of [[hom-spaces]],
 
 such that this preserves [[composition]] and [[identity]] morphisms in the evident sense.
 
@@ -6009,7 +6001,7 @@ $$
   \eta \;\colon\; F \Rightarrow G
 $$ 
 
-is a [[Top]]-[[enriched natural transformation]]: for each $c \in Obj(\mathcal{C})$ a choice of morphism $\eta_c \in \mathcal{D}(F(c),G(c))$ such that for each pair of objects $c,d \in \mathcal{C}$ the two continuous functions 
+is a $Top_{cg}$-[[enriched natural transformation]]: for each $c \in Obj(\mathcal{C})$ a choice of morphism $\eta_c \in \mathcal{D}(F(c),G(c))$ such that for each pair of objects $c,d \in \mathcal{C}$ the two continuous functions 
 
 $$
   \eta_d \circ F(-) \;\colon\; \mathcal{C}(c,d) \longrightarrow \mathcal{D}(F(c), G(d))
@@ -6023,7 +6015,7 @@ $$
 
 agree.
 
-We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologically enriched functors. This itself naturally obtains the structure of [[topologically enriched category]], see at _[[enriched functor category]]_.
+We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologically enriched functors. 
 
 =--
 
@@ -6031,10 +6023,10 @@ We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologicall
 +-- {: .num_example #TopologicallyEnrichedFunctorsToTopk}
 ###### Example
 
-For $\mathcal{C}$ any topologically enriched category, def. \ref{TopEnrichedCategory} then a topologically enriched functor
+For $\mathcal{C}$ any [[topologically enriched category]], def. \ref{TopEnrichedCategory} then a [[topologically enriched functor]] (def. \ref{TopologicallyEnrichedFunctor})
 
 $$
-  F \;\colon\; \mathcal{C} \longrightarrow Top_k
+  F \;\colon\; \mathcal{C} \longrightarrow Top_{cg}
 $$
 
 to the archetical topologically enriched category from example \ref{TopkAsATopologicallyEnrichedCategory} may be thought of as a topologically enriched [[copresheaf]], at least if $\mathcal{C}$ is [[small category|small]] (in that its [[class]] of objects is a proper [[set]]).
@@ -6042,48 +6034,146 @@ to the archetical topologically enriched category from example \ref{TopkAsATopol
 Hence the category of topologically enriched functors
 
 $$
-  [\mathcal{C}, Top_k] 
+  [\mathcal{C}, Top_{cg}] 
 $$
 
 according to def. \ref{TopologicallyEnrichedFunctor} may be thought of as the ([[copresheaf|co-]])[[presheaf category]] over $\mathcal{C}$ in the realm of topological enriched categories.
 
-A functor $F \in [\mathcal{C}, Top_k]$ is equivalently 
+A functor $F \in [\mathcal{C}, Top_{cg}]$ is equivalently 
 
-* a [[compactly generated topological space]] $F_a\in Top_k$ for each object $a \in Obj(\mathcal{C})$;
+1. a [[compactly generated topological space]] $F_a \in Top_{cg}$ for each object $a \in Obj(\mathcal{C})$;
 
-* a [[continuous function]]
+1. a [[continuous function]]
 
-  $$
+   $$
      F_a \times \mathcal{C}(a,b) \longrightarrow F_b
-  $$
+   $$
 
-  for all pairs of objects $a,b \in Obj(\mathcal{C})$
+   for all pairs of objects $a,b \in Obj(\mathcal{C})$
 
 such that composition is respected, in the evident sense.
 
-For every object $c \in \mathcal{C}$, there is a topologically enriched [[representable functor]], denoted $y(c) or \mathcal{C}(c,-)$ which sends objects to 
+For every object $c \in \mathcal{C}$, there is a topologically enriched [[representable functor]], denoted $y(c)$ or $\mathcal{C}(c,-)$ which sends objects to 
 
 $$
-  y(c)(d) = \mathcal{C}(c,d) \in Top
+  y(c)(d) = \mathcal{C}(c,d) \in Top_{cg}
 $$
 
 and whose action on morphisms is, under the above identification, just the [[composition]] operation in $\mathcal{C}$.
 
 =--
 
-There is a full blown [[Top]]-[[enriched Yoneda lemma]]. The following records a slightly simplified version which is all that is needed here:
+
++-- {: .num_defn #TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}
+###### Definition
+
+Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, with $[\mathcal{C}, Top_{cg}]$ its category of topologically enriched copresheaves from example \ref{TopologicallyEnrichedFunctorsToTopk}.
+
+1. Define a functor
+
+   $$
+     (-)\cdot(-)
+       \;\colon\; 
+     [\mathcal{C}, Top_{cg}] \times Top_{cg}
+      \longrightarrow
+     [\mathcal{C}, Top_{cg}]
+   $$
+
+   by forming objectwise [[cartesian products]] (hence $k$ of [[product topological spaces]])
+
+   $$
+     F \cdot X \;\colon\; c \mapsto F(c) \times X
+     \,.
+   $$
+
+   This is called the **[[tensoring]]** of $[\mathcal{C},Top_{cg}]$ over $Top_{cg}$.
+
+1. Define a functor
+
+   $$
+     (-)^{(-)}
+       \;\colon\;
+     Top_{cg} \times [\mathcal{C}, Top_{cg}]
+       \longrightarrow
+     [\mathcal{C}, Top_{cg}]
+   $$
+ 
+   by forming objectwise compactly generated [[mapping spaces]] (def. \ref{CompactlyGeneratedMappingSpaces})
+
+   $$
+     F^X \;\colon\; c \mapsto F(c)^X
+     \,.
+   $$
+
+   This is called the **[[powering]]** of $[\mathcal{C}, Top_{cg}]$ over $Top_{cg}$.
+
+Analogously, for $\mathcal{C}$ be a pointed [[topologically enriched category]], def. \ref{TopEnrichedCategory}, with $[\mathcal{C}, Top_{cg}^{\ast/}]$ its category of pointed topologically enriched copresheaves from example \ref{TopologicallyEnrichedFunctorsToTopk}, then:
+
+1. Define a functor
+
+   $$
+     (-)\wedge(-)
+       \;\colon\; 
+     [\mathcal{C}, Top^{\ast/}_{cg}] \times Top^{\ast/}_{cg}
+      \longrightarrow
+     [\mathcal{C}, Top^{\ast/}_{cg}]
+   $$
+
+   by forming objectwise [[smash products]] (def. \ref{SmashProductOfPointedObjects})
+
+   $$
+     F \wedge X \;\colon\; c \mapsto F(c) \wedge X
+     \,.
+   $$
+
+   This is called the **[[tensoring]]** of $[\mathcal{C},Top^{\ast/}_{cg}]$ over $Top^{\ast/}_{cg}$.
+
+1. Define a functor
+
+   $$
+     Maps(-,-)_\ast
+       \;\colon\;
+     Top^{\ast/}_{cg} \times [\mathcal{C}, Top^{\ast/}_{cg}]
+       \longrightarrow
+     [\mathcal{C}, Top^{\ast/}_{cg}]
+   $$
+ 
+   by forming objectwise [[pointed mapping spaces]] (example \ref{PointedMappingSpace})
+
+   $$
+     F^X \;\colon\; c \mapsto Maps(X,F(c))_\ast
+     \,.
+   $$
+
+   This is called the **[[powering]]** of $[\mathcal{C}, Top_{cg}]$ over $Top_{cg}$.
+
+
+=--
+
+There is a full blown $Top_{cg}$-[[enriched Yoneda lemma]]. The following records a slightly simplified version which is all that is needed here:
 
 +-- {: .num_prop #TopologicallyEnrichedYonedaLemma}
 ###### Proposition
 **(topologically enriched Yoneda-lemma)**
 
-Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, write $[\mathcal{C}, Top_k]$ for its category of topologically enriched (co-)presheaves, and for $c\in Obj(\mathcal{C})$ write $y(c) = \mathcal{C}(c,-) \in [\mathcal{C}, Top_k]$ for the topologically enriched functor that it represents, all according to example \ref{TopologicallyEnrichedFunctorsToTopk}. Recall also the Top-tensored functors $F \cdot X$ from that example.
+Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, write $[\mathcal{C}, Top_{cg}]$ for its category of topologically enriched (co-)presheaves, and for $c\in Obj(\mathcal{C})$ write $y(c) = \mathcal{C}(c,-) \in [\mathcal{C}, Top_k]$ for the topologically enriched functor that it represents, all according to example \ref{TopologicallyEnrichedFunctorsToTopk}. Recall the [[tensoring]] operation $(F,X) \mapsto F \cdot X$ from def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}.
 
-For $c\in Obj(\mathcal{C})$, $X \in Top$ and $F \in [\mathcal{C}, Top_k]$, there is a [[natural bijection]] between 
+For $c\in Obj(\mathcal{C})$, $X \in Top_{cg}$ and $F \in [\mathcal{C}, Top_{cg}]$, there is a [[natural bijection]] between 
 
-1. morphisms $y(c) \cdot X \longrightarrow F$ in $[\mathcal{C}, Top_k]$;
+1. morphisms $y(c) \cdot X \longrightarrow F$ in $[\mathcal{C}, Top_{cg}]$;
 
-1. morphisms $X \longrightarrow F(c)$ in [[Top]].
+1. morphisms $X \longrightarrow F(c)$ in $Top_{cg}$.
+
+In short:
+
+$$
+  \frac{
+    y(c)\cdot X \longrightarrow F
+  }{
+    X \longrightarrow F(c)
+  }
+$$
+
 
 =--
 
@@ -6129,7 +6219,7 @@ $$
   F(d)^{\mathcal{C}(c,c) \times X}
 $$
 
-agree. This means that they may be thought of jointly as a function with values in commuting squares in $Top$ of this form:
+agree. This means that they may be thought of jointly as a function with values in commuting squares in $Top_{cg}$ of this form:
 
 $$
   f
@@ -6196,10 +6286,10 @@ For $\mathcal{C}$ a [[small category|small]] topologically enriched category, de
 
 $$
   I_{Top}^{\mathcal{C}}
-  \;\coloneqq\;
+   \;\coloneqq\;
   \left\{
     y(c)\cdot (S^{n-1} \overset{\iota_n}{\longrightarrow} D^n)
-  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+  \right\}_{{n \in \mathbb{N},} \atop {c \in Obj(\mathcal{C})}}
 $$
 
 and 
@@ -6209,21 +6299,21 @@ $$
   \;\coloneqq\;
   \left\{
     y(c)\cdot (D^n \overset{(id, \delta_0)}{\longrightarrow} D^n \times I)
-  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+  \right\}_{{n \in \mathbb{N},} \atop {c \in Obj(\mathcal{C})}}
 $$
 
-for the sets of morphisms given by [[tensoring]] the representable functors, example \ref{TopologicallyEnrichedFunctorsToTopk} with the generating cofibrations (def.\ref{TopologicalGeneratingCofibrations}) and acyclic generating cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of $Top_k$, respectively.
+for the sets of morphisms given by [[tensoring]] (def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}) the representable functors (example \ref{TopologicallyEnrichedFunctorsToTopk}) with the generating cofibrations (def.\ref{TopologicalGeneratingCofibrations}) and acyclic generating cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}), respectively, of $(Top_{cg})_{Quillen}$ (theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}).
 
-These are going to be called the **[[generating cofibrations]]** and **acyclic generating cofibrations** for the projective model structure on topologically enriched functors on $\mathcal{C}$.
+These are going to be called the **[[generating cofibrations]]** and **acyclic generating cofibrations** for the _projective [[model structure on functors|model structure on topologically enriched functors]]_ over $\mathcal{C}$.
 
-Similarly, for $\mathcal{C}$ a pointed topologically enriched category, write 
+Analgously, for $\mathcal{C}$ a pointed topologically enriched category, write 
 
 $$
   I_{Top^{\ast/}}^{\mathcal{C}}
   \;\coloneqq\;
   \left\{
-    y(c)\cdot (S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+)
-  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+    y(c) \wedge (S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+)
+  \right\}_{{n \in \mathbb{N},} \atop {c \in Obj(\mathcal{C})}}
 $$
 
 and 
@@ -6232,39 +6322,21 @@ $$
   J_{Top^{\ast/}}^{\mathcal{C}}
   \;\coloneqq\;
   \left\{
-    y(c)\cdot (D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+)
-  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+    y(c) \wedge (D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+)
+  \right\}_{{n \in \mathbb{N},} \atop {c \in Obj(\mathcal{C})}}
 $$
 
-for the same construction applied to the pointed generating (acyclic) cofibrations of def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces}.
+for the analogous construction applied to the pointed generating (acyclic) cofibrations of def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces}.
 
 =--
 
-+-- {: .num_remark #MorphismsFromTensoredRepresentableToTopologicallyEnrichedFunctor}
-###### Remark
 
-By the [[Top]]-[[enriched Yoneda lemma]], prop. \ref{TopologicallyEnrichedYonedaLemma}, and the defining property of [[tensoring]] over $Top_k$, there are [[natural bijections]]
 
-$$
-  \frac{
-    y(c)\cdot X \longrightarrow F
-  }{
-    X \longrightarrow F(c)
-  }
-$$
-
-between 
-
-1. [[natural transformations]] from $y(c)\cdot X$  (the [[tensoring]] with $X \in Top_k$ of the [[representable functor]] of $c\in Obj(\mathcal{C})$) to some topologically enriched functor $F$ , 
-
-1. [[continuous functions]] from $X$ to the value of that topological functor on the object $c$.
-
-=--
 
 +-- {: .num_defn #ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors}
 ###### Definition
 
-Given a [[small category|small]] (pointed) [[topologically enriched category]] $\mathcal{C}$, def. \ref{TopEnrichedCategory}, say that a morphism in the category of (pointed) topologically enriched copresheaves $[\mathcal{C}, Top_k]$ ($[\mathcal{C},Top_k^{\ast/}]$), example \ref{TopologicallyEnrichedFunctorsToTopk}, hence a [[natural transformation]] between topologically enriched functors, $\eta \colon F \to G$ is
+Given a [[small category|small]] (pointed) [[topologically enriched category]] $\mathcal{C}$, def. \ref{TopEnrichedCategory}, say that a morphism in the category of (pointed) topologically enriched copresheaves $[\mathcal{C}, Top_{cg}]$ ($[\mathcal{C},Top_{cg}^{\ast/}]$), example \ref{TopologicallyEnrichedFunctorsToTopk}, hence a [[natural transformation]] between topologically enriched functors, $\eta \colon F \to G$ is
 
 * a **projective weak equivalence**, if for all $c\in Obj(\mathcal{C})$ the component $\eta_c \colon F(c) \to G(c)$ is a [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces});
 
@@ -6275,19 +6347,37 @@ Given a [[small category|small]] (pointed) [[topologically enriched category]] $
 Write 
 
 $$ 
-  [\mathcal{C}, Top_{Quillen}]_{proj}
+  [\mathcal{C}, (Top_{cg})_{Quillen}]_{proj}
 $$
 
-for the category of topologically enriched functors equipped with these classes of morphisms.
+and
+
+$$ 
+  [\mathcal{C}, (Top^{\ast/}_{cg})_{Quillen}]_{proj}
+$$
+
+
+for the categories of topologically enriched functors equipped with these classes of morphisms.
 
 =--
 
 +-- {: .num_theorem #ProjectiveModelStructureOnTopologicalFunctors}
 ###### Theorem
 
-The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors} constitute a [[model category]] structure on $[\mathcal{C}, Top]$, called the **[[projective model structure on enriched functors]]** $[\mathcal{C}, Top_{Quillen}]_{proj}$.
+The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors} constitute a [[model category]] structure on $[\mathcal{C}, Top_{cg}]$ and $[\mathcal{C}, Top^{\ast/}_{cg}]$, called the **[[projective model structure on enriched functors]]** 
 
-This is a [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}, with set of generating (acyclic) cofibrations the set $I_{Top^{\ast/}}^{\mathcal{C}}$ ($J_{Top^{\ast/}}^{\mathcal{C}}$) from def. \ref{GeneratingCofibrationsForProjectiveStructureOnFunctors}. 
+$$
+  [\mathcal{C}, (Top_{cg})_{Quillen}]_{proj}
+$$
+
+and
+
+$$
+  [\mathcal{C}, (Top^{\ast/}_{cg})_{Quillen}]_{proj}
+$$
+
+
+These are [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}, with set of generating (acyclic) cofibrations the sets $I_{Top}^{\mathcal{C}}$, $J_{Top}^{\mathcal{C}}$ and $I_{Top^{\ast/}}^{\mathcal{C}}$, $J_{Top^{\ast/}}^{\mathcal{C}}$ from def. \ref{GeneratingCofibrationsForProjectiveStructureOnFunctors}, respectively.
 
 =--
 
@@ -6296,11 +6386,11 @@ This is a [[cofibrantly generated model category]], def. \ref{CofibrantlyGenerat
 +-- {: .proof}
 ###### Proof
 
-Via remark \ref{MorphismsFromTensoredRepresentableToTopologicallyEnrichedFunctor}, the statement essentially reduces objectwise to the proof of theorem \ref{TopQuillenModelStructure}:
+Via the enriched Yoneda lemma, prop. \ref{TopologicallyEnrichedYonedaLemma}, the statement reduces objectwise to the proof of theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}:
 
-In particular, the technical lemmas \ref{CompactSubsetsAreSmallInCellComplexes}, \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and \ref{AcyclicSerreFibrationsAreTheJTopFibrations} generalize immediately to the present situation, with the evident small change of wording. 
+In particular, the technical lemmas \ref{CompactSubsetsAreSmallInCellComplexes}, \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and \ref{AcyclicSerreFibrationsAreTheJTopFibrations} generalize immediately to the present situation, with the evident small change of wording:
 
-For instance the fact that a morphism of topologically enriched functors $\eta \colon F \to G$ that has the right lifting property against the elements of $I_{Top}^{\mathcal{C}}$ is a projective weak equivalence, follows by noticing that remark \ref{MorphismsFromTensoredRepresentableToTopologicallyEnrichedFunctor} gives a [[natural bijection]] of commuting diagrams (and their fillers) of the form
+For instance the fact that a morphism of topologically enriched functors $\eta \colon F \to G$ that has the right lifting property against the elements of $I_{Top}^{\mathcal{C}}$ is a projective weak equivalence, follows by noticing that the [[enriched Yoneda lemma]] prop. \ref{TopologicallyEnrichedYonedaLemma} gives a [[natural bijection]] of commuting diagrams (and their fillers) of the form
 
 $$
   \left(
@@ -6328,18 +6418,6 @@ $$
 and hence the statement follows with part A) of the proof of lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
 
 With these three lemmas in hand, the remaining formal part of the proof goes through verbatim as [above](#VerificationOfTopQuillen): repeatedly use the [[small object argument]] and the [[retract argument]] to establish the two weak factorization systems. (While again the structure of a [[category with weak equivalences]] is evident.)
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-Via theorem \ref{CofibrantGenerationOfPointedTopologicalSpaces}, the same argument applies to functors with values in the [[classical model structure on pointed topological spaces]]
-
-$$
-  [\mathcal{C}, Top_{Quillen}^{\ast/}]_{proj}
-  \,.
-$$
 
 =--
 
