@@ -27,22 +27,20 @@ We need the following general terminology
 +-- {: .num_defn}
 ###### Definition (cells and injectives)
 
-Let $C$ be a category with all [[colimit]]s and let $S \subset Mor(C)$ a class of morphisms. We write
+Let $C$ be a category with all [[colimits]] and let $S \subset Mor(C)$ a class of morphisms. We write
 
-* $rlp(S)$ for the collection of morphisms with the _right_ 
-  [[weak factorization system|lifting property]] 
-  with respect to $S$;
+* $rlp(S)$  for the collection of morphisms with the _right_ 
+  [[lifting property]];
   
-* $llp(S)$ for the collection of morphisms with the _left_ 
-  [[weak factorization system|lifting property]] with respect to $S$.
+* $llp(S)$ for the collection of morphisms with the _left_  [[lifting property]] with respect to $S$, the 
 
 Moreover, we also write, now for $I \subset Mor(C)$: 
 
-* $cell(I)$ for the [[relative cell complexes]], the class of morphisms obtained by [[transfinite composition]] of [[pushout]]s of elements in $I$;
+* $cell(I)$ for the [[relative cell complexes]], the class of morphisms obtained by [[transfinite composition]] of [[pushouts]] of [[coproducts]] of elements in $I$;
 
-* $cof(I)$ for the class of [[retract]]s (in the [[arrow category]] $Arr(C)$) of elements in $cell(I)$
+* $cof(I)$ for the class of [[retracts]] (in the [[arrow category]] $Arr(C)$) of elements in $cell(I)$
 
-* $inj(I) := rlp(I)$ for the class of morphisms with the right [[lifting property]] with respect to $I$.
+* $inj(I) := rlp(I)$ for the class of morphisms with the right [[lifting property]] with respect to $I$, the _$I$-[[injective morphisms]]_.
 
 =--
 
@@ -50,7 +48,7 @@ Moreover, we also write, now for $I \subset Mor(C)$:
 ###### Definition (cofibrantly generated model category)
 
 
-A [[model category]] with all [[colimit]]s is **cofibrantly generated** if there is a small [[set]] $I$ and a small set $J$ such that
+A [[model category]] with all [[colimits]] is **cofibrantly generated** if there is a small [[set]] $I$ and a small set $J$ such that
 
 * $cof(I)$ is precisely the collection of cofibrations of $C$;
 
