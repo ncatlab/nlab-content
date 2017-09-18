@@ -1,4 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Gravity
++-- {: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -18,6 +40,9 @@ A [[supergeometry|supergeometric]] analog of [[de Sitter spacetime]]. By the dis
 
 ## References
 
-See the references at _[Green-Schwarz sigma-model -- References -- AdS backgrounds](Green-Schwarz+action+functional#ReferencesAdSBackgrounds)_ 
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.6 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+
+See also the references at _[Green-Schwarz sigma-model -- References -- AdS backgrounds](Green-Schwarz+action+functional#ReferencesAdSBackgrounds)_ 
 
 [[!redirects super anti de Sitter spacetimes]]
