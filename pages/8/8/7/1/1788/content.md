@@ -60,13 +60,7 @@ fashion is introduced in the entries
 
 In the following we freely use the concepts introduced there.
 
-We abbreviate
 
-$$
-  \mathbf{H} \coloneqq SuperFormSmoothSet
-$$
-
-for the [[category]] ([[topos]]) of [[super formal smooth sets]] that we work in.
 
 
 #### Spacetime
@@ -168,7 +162,6 @@ is a [[smooth set|smooth]] [[fiber bundle]]
 
 $$
   \array{E \\ \downarrow^{\mathrlap{fb}} \\ \Sigma }
-  \,,
 $$
 
 called the _[[field bundle]]_,
@@ -902,152 +895,6 @@ of the total spacetime derivative of $f$ (eq:SpacetimeTotalDerivativeOnSmoothFun
 =--
 
 
-While the [[variational bicomplex]] on the jet bundle encodes the [[variational calculus]]
-on all _possible_ derivatives of field configurations, it may be [[transgression|transgressed]]
-to the [[configuration space]] of actual fields (def. \ref{Fields}) to yield information
-on the variation of actual fields. This involves [[integration]] over regions of [[spacetimes]],
-and hence requires a condition on the differential forms over the jet bundle to have [[compact support]]
-along spacetime:
-
-+-- {: .num_defn #SpacetimeSupport}
-###### Definition
-**(spacetime support)**
-
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
-with induced [[jet bundle]] $J^\infty_\Sigma(E)$
-
-For every [[subset]] $S \subset \Sigma$ let
-
-$$
-  \array{
-    J^\infty_\Sigma(E)\vert_S
-      &\overset{\iota_S}{\hookrightarrow}&
-    J^\infty_\Sigma(E)
-    \\
-    \downarrow &(pb)& \downarrow
-    \\
-    S &\hookrightarrow& \Sigma
-  }
-$$
-
-be the corresponding restriction of the [[jet bundle]] of $E$.
-
-The _spacetime support  _ $supp_\Sigma(A)$ of a [[differential form]] $A \in \Omega^\bullet(J^\infty_\Sigma(E))$
-on the [[jet bundle]] of $E$ is the [[topological closure]] of the maximal subset $S \subset \Sigma$
-such that the restriction of $A$ to the jet bundle restrited to this subset vanishes:
-
-$$
-  supp_\Sigma(A) \coloneqq Cl( \{ x \in \Sigma |  \iota_{\{x\}^\ast A = 0} \} )
-$$
-
-We write
-
-$$
-  \Omega^{r,s}_{\Sigma,cp}(E)
-  \coloneqq
-  \left\{
-    A \in \Omega^{r,s}_\Sigma(E)
-    \;\vert\;
-    supp_\Sigma(A) \, \text{is compact}
-  \right\}
-    \;\hookrightarrow\;
-  \Omega^{r,s}_\Sigma(E)
-$$
-
-for the subspace of differential forms on the jet bundle whose spacetime support is a [[compact subspace]].
-
-=--
-
-+-- {: .num_defn #TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
-###### Definition
-**([[transgression]] of [[variational bicomplex|variational differential forms]] to field [[configuration spaces]])
-
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
-with induced [[jet bundle]] $J^\infty_\Sigma(E)$
-
-For
-$\Sigma_r \hookrightarrow \Sigma$ be a submanifold of [[spacetime]] of dimension $r \in \mathbb{N}$,
-then _[[transgression]] of variational differential forms to $\Sigma_r$_ is the function
-
-$$
-  \tau_{\Sigma_r}
-   \;\colon\;
-  \Omega^{r,\bullet}_{\Sigma,cp}(E)
-    \overset{ ev_{\Sigma_r}^\ast }{\longrightarrow}
-  \Omega^\bullet(\Gamma_{\Sigma_r}(E))
-$$
-
-which sends a differential form $A \in \Omga^{r,\bullet}_{\Sigma,cp}(E)$
-to the differential form $\tau_{\Sigma_r} A \i \Omega^\bullet(\Gamma_{\Sigma_r}(E))$
-which to a smooth family on field configurations
-
-$$
-  \Phi_{(-)} \;\colon\; U \times N_\Sigma \Sigma_r \longrightarrow E
-$$
-
-assigns the differential form
-
-$$
-  (\tau_{\Sigma}A)_\Phi 
-    \;\coloneqq\;
-  \int_{\Sigma_r}  j^\infty(\Phi_{(-)})^\ast A
-  \;\in\;
-  \Omega^\bullet(U)
-  \,.
-$$
-
-=--
-
-
-+-- {: .num_example }
-###### Example
-
-Examples for [[transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
-
-For example let $r = p+1$, let $b \in C^\infty_{cp}(\Sigma)$ be a [[bump function]] on spacetime
-then
-
-$$
-  \tau_\Sigma( b dvol_\Sigma )_\Phi
-  =
-  \int_\Sigma b(x) dvol_\Sigma(x)
-$$
-
-$$
-  \tau_\Sigma( \phi^a \, b dvol_\Sigma  )_\Phi
-   \;=\;
-   \left(
-     u
-       \mapsto
-     \int_\Sigma \Phi^a_{(u)}(x)  b(x) dvol_\Sigma(x)
-   \right)
-$$
-
-
-$$
-  \tau_\Sigma( \phi^a_{,\mu} \, b dvol_\Sigma  )_\Phi
-   \;=\;
-   \left(
-     u
-       \mapsto
-     \int_\Sigma \frac{\partial \Phi^a_{u}}{\partial x^\mu}  b(x) dvol_\Sigma(x)
-   \right)
-$$
-
-etc., and
-
-$$
-  \begin{aligned}
-    \tau_\Sigma( \delta \phi^a_{,\mu} \wedge  b dvol_\Sigma  )_\Phi
-     & =
-     d_U \tau_\Sigma(  \phi^a \wedge b dvol_\Sigma )_\Phi
-     \\
-     & =
-     d_U \int_\Sigma \frac{\partial \Phi^a_{-}}{\partial x^\mu}  b(x) dvol_\Sigma(x)
-  \end{aligned}
-$$
-
-=--
 
 
 
@@ -1080,6 +927,7 @@ It turns out to be what makes the [[Poincare lemma]] on [[spacetime]] compatible
 by completing the [[sheaf of chain complexes]] of the [[horizontal differential forms]] on the [[jet bundle]] to a [[resolution]]
 of the the [[ground field]], viewed as a [[constant sheaf]] on the jet bundle:
 this the _[[Euler-Lagrange complex]]_ (spring).
+
 
 
 $\,$
@@ -1473,7 +1321,461 @@ inside the full [[configuration space]].
 =--
 
 
+#### Observables
+
+
+Given a field theory as above, then an _[[observable]]_ is some function on the space of [[on-shell]]
+field configurations. A typical example for the [[scalar field]] is the "field amplitude averaged over a given spacetime region"
+determined by a [[bump function]] $b \in C^\infty_{cp}(\Sigma)$. On an on-shell  field configuration $\Phi$ this observable
+takes as value the integral $\int_\Sigma \Phi(x) b(x) dvol_\Sigma(x)$. Similar observbales are obtained from integrals such as
+$\int_\Sigma \Phi(x) \frac{\partial \Phi}{\partial x^\mu}(x) b(x) dvol_\Sigma(x)$ etc. 
+These are examples of _[[local observable]]_, in that they are spacetime average of quantities that depend
+on functions of the field configurations and their derivatives _at a fixed spacetime point_. 
+
+But functions of field configurations and their derivatives at fixed spacetime points are precisely functions
+on the [[jet bundle]], and equipped with a [[measure]] for how to average these over [[spacetime]] are 
+precisely [[horizontal differentia forms]] on spacetime of degree $(p+1)$. Hence these horizontal $(p+1)$-forms
+should induce local observables, and this is the process of _[[transgression of differential forms]]_. 
+
+
+We abbreviate
+
+$$
+  \mathbf{H} \coloneqq SuperFormSmoothSet
+$$
+
+for the [[category]] ([[topos]]) of [[super formal smooth sets]] that we work in.
+
+
+[[transgression]] of differential forms
+
+if $\Sigma$ is a [[closed manifold]] of dimension $dim(\Sigma)$ without boundary, then
+
+$$
+  \mathbf{\Omega}^k(\Sigma)_{cl}
+    \overset{\tau_\Sigma}{\longrightarrow}
+  \Omega^{k-dim(\Sigma)}_{cl}
+$$
+
+is given on a plot $\alpha_U \in \Omega^k(U \times \Sigma)_{cl}$ by
+
+$$
+  \tau_\Sigma(\alpha_U) \coloneqq \int_\Sigma \alpha
+  \,.
+$$
+
+This is closed by
+
+$$
+  \begin{aligned}
+    d_U \int_\Sigma \alpha
+    & =
+    \int_\Sigma d_U \alpha
+    \\
+    & =
+    - \int_\Sigma d_\Sigma \alpha
+    \\
+    & =
+    - \int_{\partial \Sigma} \alpha
+    \\
+    & =
+    0
+  \end{aligned}
+$$
+
+since $\partial \Sigma = \emptyset$, by assumption
+
+More generally, if $\partial \Sigma$ is possibly non-empty, then transgression over $\Sigma$
+lands in differential forms whose differential trivializes the pullback of the transgression to
+$\partial \Sigma$
+
+$$
+  \array{
+    [\Sigma, X] &\overset{\tau_\Sigma \alpha}{\longrightarrow}&  \mathbf{\Omega}^k(\Sigma)
+    \\
+    \downarrow && \downarrow^{\mathrlap{d}}
+    \\
+    [\partial \Sigma, X] &\underset{\tau_{\artial \Sigma}}{\longrightarrow}& \mathbf{\Omega}^k(\Sigma)_{cl}
+}
+$$
+
+This follows because now the above computation gives
+
+
+$$
+  \begin{aligned}
+    d_U \int_\Sigma \alpha
+    & =
+    \int_\Sigma d_U \alpha
+    \\
+    & =
+    - \int_\Sigma d_\Sigma \alpha
+    \\
+    & =
+    - \int_{\partial \Sigma} \alpha
+    \\
+    & =
+    - \tau_{\partial \Sigma} \alpha
+    \,.
+  \end{aligned}
+$$
+
+
+
+While the [[variational bicomplex]] on the jet bundle encodes the [[variational calculus]]
+on all _possible_ derivatives of field configurations, it may be [[transgression|transgressed]]
+to the [[configuration space]] of actual fields (def. \ref{Fields}) to yield information
+on the variation of actual fields. This involves [[integration]] over regions of [[spacetimes]],
+and hence requires a condition on the differential forms over the jet bundle to have [[compact support]]
+along spacetime:
+
++-- {: .num_defn #SpacetimeSupport}
+###### Definition
+**(spacetime support)**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
+with induced [[jet bundle]] $J^\infty_\Sigma(E)$
+
+For every [[subset]] $S \subset \Sigma$ let
+
+$$
+  \array{
+    J^\infty_\Sigma(E)\vert_S
+      &\overset{\iota_S}{\hookrightarrow}&
+    J^\infty_\Sigma(E)
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    S &\hookrightarrow& \Sigma
+  }
+$$
+
+be the corresponding restriction of the [[jet bundle]] of $E$.
+
+The _spacetime support  _ $supp_\Sigma(A)$ of a [[differential form]] $A \in \Omega^\bullet(J^\infty_\Sigma(E))$
+on the [[jet bundle]] of $E$ is the [[topological closure]] of the maximal subset $S \subset \Sigma$
+such that the restriction of $A$ to the jet bundle restrited to this subset vanishes:
+
+$$
+  supp_\Sigma(A) \coloneqq Cl( \{ x \in \Sigma |  \iota_{\{x\}^\ast A = 0} \} )
+$$
+
+We write
+
+$$
+  \Omega^{r,s}_{\Sigma,cp}(E)
+  \coloneqq
+  \left\{
+    A \in \Omega^{r,s}_\Sigma(E)
+    \;\vert\;
+    supp_\Sigma(A) \, \text{is compact}
+  \right\}
+    \;\hookrightarrow\;
+  \Omega^{r,s}_\Sigma(E)
+$$
+
+for the subspace of differential forms on the jet bundle whose spacetime support is a [[compact subspace]].
+
+=--
+
++-- {: .num_defn #TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
+###### Definition
+**([[transgression]] of [[variational bicomplex|variational differential forms]] to field [[configuration spaces]])
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
+with induced [[jet bundle]] $J^\infty_\Sigma(E)$
+
+For
+$\Sigma_r \hookrightarrow \Sigma$ be a submanifold of [[spacetime]] of dimension $r \in \mathbb{N}$,
+then _[[transgression]] of variational differential forms to $\Sigma_r$_ is the function
+
+$$
+  \tau_{\Sigma_r}
+   \;\colon\;
+  \Omega^{r,\bullet}_{\Sigma,cp}(E)
+    \overset{ ev_{\Sigma_r}^\ast }{\longrightarrow}
+  \Omega^\bullet\left( \Gamma_{\Sigma_r}(E) \right)
+$$
+
+which sends a differential form $A \in \Omega^{r,\bullet}_{\Sigma,cp}(E)$
+to the differential form $\tau_{\Sigma_r} A \i \Omega^\bullet(\Gamma_{\Sigma_r}(E))$
+which to a smooth family on field configurations
+
+$$
+  \Phi_{(-)} \;\colon\; U \times N_\Sigma \Sigma_r \longrightarrow E
+$$
+
+assigns the differential form
+
+$$
+  (\tau_{\Sigma}A)_\Phi
+    \;\coloneqq\;
+  \int_{\Sigma_r}  j^\infty(\Phi_{(-)})^\ast A
+  \;\in\;
+  \Omega^\bullet(U)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example }
+###### Example
+**([[transgression]] of some variational differential forms)**
+
+
+We spell out the result of [[transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+of some variational differential forms on the [[jet bundle]] of a trivial vector field bundle (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) to the [[configuration space]] $\Gamma_\Sigma(E)$
+of fields (def. \ref{Fields}).
+
+We describe the resulting transgressed differential forms restricted to any smooth family of field configurations
+
+$$
+  \Phi_{(-)} \;\colon\; U \times \Sigma \longrightarrow E
+  \,.
+$$
+
+
+
+Let $b \in C^\infty_{cp}(\Sigma)$ be any [[bump function]] on spacetime. Its product with the [[volume form]]
+(as in example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}) is then a
+horizontal $p+1$-form on the jet bundle with compact spacetime support.
+
+$$
+  b dvol_\Sigma \in \Omega^{0,0}_{\Sigma,cp}(E)
+$$
+
+The transgression of this 0-form to the configuration space of fields
+
+$$
+  \tau_\Sigma (b dvol_\Sigma) \in \Omega^0( \Gamma_\Sigma(E) )
+$$
+
+is the differential form on $\Gamma_\Sigma(E)$ which restricted to the given family of
+field configurations $\Phi_{(-)} \colon u \mapsto \Phi_u$ yields the function
+
+$$
+  \tau_\Sigma (b dvol_\Sigma)\vert_\Phi \colon u \mapsto \int_\Sigma b dvol_\Sigma
+$$
+
+which is simply the constant function with value the integral of $b$ against the given volume form.
+
+The constancy of this function is due to the fact that $b dvol_\Sigma$ does not depend on the field variables. So consider next the
+horizontal $(p+1)$-form
+
+$$
+  \phi^a \, b dvol_\Sigma \; \in \Omega^{p+1,0}( E )
+  \,.
+$$
+
+Its transgression is the function
+
+$$
+  \tau_\Sigma( \phi^a \, b dvol_\Sigma  )_\Phi
+   \;=\;
+   \left(
+     u
+       \mapsto
+     \int_\Sigma \Phi^a_{(u)}(x)  b(x) dvol_\Sigma(x)
+   \right)
+$$
+
+which assigns to a given field configuration $\Phi_{u}$ in the family the value its $a$-component
+integrated against $b dvol_\Sigma$.
+
+Similarly the transgression of $\phi^a_{,\mu}$ is the function
+
+$$
+  \tau_\Sigma( \phi^a_{,\mu} \, b dvol_\Sigma  )_\Phi
+   \;=\;
+   \left(
+     u
+       \mapsto
+     \int_\Sigma \frac{\partial \Phi^a_{u}}{\partial x^\mu}  b(x) dvol_\Sigma(x)
+   \right)
+$$
+
+which assigns to a field configuration the integral of the value of the $\mu$th derivative of its $a$th
+component against $b dvol_\Sigma$.
+
+Next consider a horizontally exact variational form
+
+$$
+  d \alpha \in \Omega^{p+1,s}_{\Sigma,cp}(E)
+  \,.
+$$
+
+By prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative} the pullback of this form
+along the jet prolongation of fields is exact in the $\Sigma$-direction:
+
+$$
+  (j^\infty_\Sigma\Phi_{(-)})^\ast(d \alpha  \wedge b dvol_\Sigma) = d_\Sigma (j^\infty_\Sigma\Phi_{(-)})^\ast\alpha \wedge b dvol_\Sigma
+  \,,
+$$
+
+(where we write $d = d_U + d_\Sigma$ for the de Rham differential on $U \times \Sigma$). It follows that the
+integral over $\Sigma$ vanishes.
+
+Now lez
+
+$$
+  \delta \alpha \phi^a_{,\mu_1 \cdots \mu_k} \, b dvol_\Sigma
+  \in
+  \Omega^{p+1,1}_\Sigma(E)
+$$
+
+be a variational (vertical) differential 1-form.
+Its [[pullback of differential forms]]
+along $j^\infty_\Sigma(\Phi_{(-)}) \colon U \times \Sigma \to J^\infty_\Sigma(E)$ has two contributions:
+one from the variation along $\Sigma$, the other from variation along $U$.
+
+
+By prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative},
+for _fixed_ $u \in U$ the pullback along the jet prolongation vanishes.
+
+On the other hand, for fixed $s \in \Sigma$, the pullback of $\mathbf{d} \phi^a_{\mu_1\cdots \mu_k}$
+is
+$$
+  d_U \frac{ \partial^k \Phi_{(-)}}{\partial x^{\mu^1} \cdots \partial x^{\mu_k}}
+$$
+while the pullback of $d \phi^a_{\mu_1\cdots \mu_k}$ vanishes at fixed $\Sigma$.
+
+This means that
+
+$$
+  \tau_\Sigma( \delta \phi^a_{,\mu_1 \cdots \mu_k} )
+  =
+  d \tau_{\Sigma}( \phi^a_{_\mu_1 \cdots \mu_k} )
+$$
+
+is the de Rham differential (on $U$) of the corresponding function discussed before.
+
+In conclusion:
+
+Under transgression the variational (vertical) derivative on the jet bundle turns into the
+ordinary de Rham derivative on the configuration space of fields.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+**([[local observables]])**
+
+Given a [[Lagrangian field theory]] with space of [[on-shell]] field configurations $\Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}$,
+then the space of _[[observables]]_ is simply the space of [[complex numbers|complex]]-valued functions
+
+$$
+  A \;\colon\;  \Gamma_\Sigma(E)_{\deta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
+  \,.
+$$
+
+The _[[local observables]]_ are those observables which arise as the [[transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+of [[horizontal  differential form|horizontal p+1-forms]] of comapct spacetime support
+
+$$
+  \mathca{F}_{loc}
+   \;\coloneqq\;
+  im\left(
+    \Omega^{p+1,0}_{\Sigma,cp}(E)
+      \overset{\tau_{\Sigma}}{\longrightarrow}
+    C^\infty\left( \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \right)
+  \right)
+  \,.
+$$
+
+Equivalently this is 
+
+$$
+  \mathcal{F}_{loc}
+    \simeq
+  \Omega^{p+1}_{\Sigma,cp}(E)/im(d)
+  \..
+$$
+
+=--
+
++-- {: .num_defn #HamiltonianDifferentialForm}
+###### Definition
+**([[Hamiltonian differential forms]])***
+
+Let $(E, \mathbf {L})$ be a [[Lagrangian field theory]]. Then 
+a [[Hamiltnian differential form]] on $J^\infty_\Sigma(E)$ is a [[horizontal differential form]] $A \in \Omega^{p,0}_\Sigma(E)$
+such that there exists a [[vector field]] $v_H$ with 
+
+$$
+  \mathbf{d} H = \iota_{v_H} \Omega
+  \,,
+$$
+   
+where $\Omega$ denotes the [[pre-symplectic current]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+Any such choice of $v_H$ is called a _[[Hamiltonian vector field]]_ for $H$.  
+
+We write
+
+$$
+  \Omega_{\Sigma,Ham}(E) 
+$$
+
+for the space of pairs consisting of a Hamiltonian differential form and a corresponding Hamiltonian vector field.
+
+=--
+
+
+
 #### Phase space
+
+
++-- {: .num_defn #CauchySurface}
+###### Definition
+**([[Cauchy surface]])**
+
+Given a [[Lagrangian field theory]] on a [[spacetime]] $\Sigma$, then a 
+_[[Cauchy surface]]_ is a [[submnaifold]] $\Sigma_p \hookrightarrow \Sigma$ such that the 
+restriction of [[on-shell]] field configurations to the [[infinitesimal neighbourhood]] $N_\Sigma(\Sigma_p)$ of $\Sigma_p$
+in $\Sigma$ is a [[isomorphism]]:
+
+$$
+  \Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0 }
+    \underoverset{\simeq}{(-)\vert_{N_\Sigma \Sigma_p}}{\longrightarrow}
+  \Gamma_{N_\Sigma(\Sigma_p)}(E)_{\delta_{EL}\mathbf{L} = 0}
+  \,.
+$$
+
+=--
+
+
+There is the _[[Lepage from]]_
+
+$$
+  \mathbf{L} + \Theta
+  \,.
+$$
+
+This has the property that 
+
+$$
+  \mathbf{d}(\mathbf{L} + \Theta)
+  =
+  \delta_{EL} \mathbf{L} + \Omega
+$$
+
+This implies by the transgression formula that for $\Sigma^{(in)}_p, \Sigma^{(out)}_p \hookrightarrow \Sigma$ two submanifolds and
+$\Sigma_{p+1} \hookrightarrow \Sigma$ a cobordism between them, then we have a [[Lagrangian correspondence]]
+
+$$
+  \array{
+    && \Gamma_{\Sigma_{p+1}}(E)_{\delta_{EL} \mathbf{L} = 0}
+    \\
+    \Gamma_{N_\Sigma \Sigma^{(in)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
+    &&
+    \Gamma_{N_\Sigma \Sigma^{(out)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
+    \\
+    & {}_{\mathllap{\omega_{in}}}\searrow && \swarrow_{\mathrlap{\omega_{out}}}
+    \\
+    && \mathbf{\Omega}^{2}
+  }
+$$
+
 
 
 
@@ -1494,7 +1796,7 @@ and consider
 * $\Sigma_p \hookrightarrow \Sigma$ a [[Cauchy surface]].
 
 
-We say that 
+We say that
 
 1. the _[[phase space]]_ with respect to $\Sigma_p$ is the space of solutions to the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
 restricted to the [[infinitesimal neighbourhood]] $N_\Sigma(\Sigma_p)$ (def. \ref{ConfigurationSpaceOverSubmanifoldOfSpacetime}):
@@ -1514,13 +1816,13 @@ of the [[Hamiltonian form|Hamiltonian]] [[horizontal differential form|horizonta
      im\left(
        \Omega^{r,0}_{\Sigma,cp,Ham}(E)
          \overset{\tau_{\Sigma_p}}{\longrightarrow}
-       C^\infty\left( 
-         \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}         
+       C^\infty\left(
+         \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
        \right)
      \right)
    $$
 
-1. the _[[Poisson bracket]]_ on $\mathcal{F}_{loc}$ is that induced from the [[Poisson Lie n-algebra]] bracket on 
+1. the _[[Poisson bracket]]_ on $\mathcal{F}_{loc}$ is that induced from the [[Poisson Lie n-algebra]] bracket on
 Hamiltonian forms:
 
    $$
