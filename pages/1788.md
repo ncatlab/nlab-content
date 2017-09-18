@@ -1,9 +1,22 @@
 $$
-  [S^1, B G]/S^1 
-    \;\simeq\; 
-  \underset{double \atop reduction}{\underbrace{G}} 
-    \times 
-  \underset{single \atop reduction}{\underbrace{B G}}
-    \times 
-  \underset{\text{D0-brane} \atop coeff.}{\underbrace{B S^1}}
+  \left\{
+    \array{
+      \text{continuous functions}
+      \\
+      \Sigma \times F \longrightarrow X
+    }
+  \right\}
+   \;\;
+     \underoverset
+       {\text{"forming adjuncts"}}
+       {\simeq}
+       {\leftrightarrow}
+   \;\;
+  \left\{
+    \array{
+      \text{continous functions}
+      \\
+      \Sigma \longrightarrow Maps(F,X)
+    }
+  \right\}
 $$
