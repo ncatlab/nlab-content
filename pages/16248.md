@@ -1,4 +1,14 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The five [[regular polyhedron|regular]] [[convex set|convex]] [[polyhedron]] in 3-[[dimension|dimensional]] [[Cartesian space]]:
+
+[[tetrahedron]], [[cube]], [[octahedron]], [[dodecahedron]], [[icosahedron]]
+
 ## Related concepts
 
 ### As part of the ADE pattern
