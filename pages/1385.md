@@ -136,19 +136,25 @@ onto the full [[sub-(∞,1)-category]] of those functors, that preserves colimit
 
 This is  ([Lurie, NA, theorem 4.1.4](#LurieNoncommutative)).
 
-This tensor product makes $Pr(\infty,1)Cat$ a [[symmetric monoidal (∞,1)-category]].  Indeed it is even closed, since the hom-objects $Func^L$ supply adjoints to the tensor product.  The definition of the tensor product is easy: $C \otimes D = Func^R(C^{op},D)$, where $Func^R$ denotes the category of small-*limit*-preserving accessible functors, i.e. right adjoints.  To prove this, note that taking right adjoints defines an equivalence of categories $Func^L(C,D) \simeq Func^R(D,C)^{op}$.  Now we have:
+This tensor product makes $Pr(\infty,1)Cat$ a [[symmetric monoidal (∞,1)-category]].  Indeed it is even closed, since the hom-objects $Func^L$ supply adjoints to the tensor product.
+
+The definition of the tensor product is easy: $C \otimes D = Cts(C^{op},D)$, where $Cts$ denotes the category of continuous (small-limit-preserving) functors.  Equivalently, this is $Cocts(C,D^{op})^{op}$, where $Cocts$ denotes the category of cocontinuous (small-colimit-preserving) functors; it is tempting to write this as $Func^L(C,D^{op})^{op}$, but note that $D^{op}$ is not itself locally presentable.  However, $D^{op}$ is nevertheless cocomplete, so any cocontinuous functor $C \to D^{op}$ has a right adjoint.
+
+To prove that this tensor product has the right universal property, note that taking right adjoints defines an equivalence of categories $Func^L(C,D) \simeq Cts(D,C)^{op}$.  Now we have:
 
 $$
 \begin{aligned}
-Func^L(Func^R(C^{op},D),E)
-&\simeq Func^R(E,Func^R(C^{op},D))^{op}\\
-&\simeq Func^R(C^{op},Func^R(E,D))^{op}\\
-&\simeq Func^R(C^{op},Func^L(D,E)^{op})^{op}\\
+Func^L(Cts(C^{op},D),E)
+&\simeq Cts(E,Cts(C^{op},D))^{op}\\
+&\simeq Cts(C^{op},Cts(E,D))^{op}\\
+&\simeq Cts(C^{op},Func^L(D,E)^{op})^{op}\\
 &\simeq Func^L(C,Func^L(D,E))
 \end{aligned}
 $$
 
-where the last equivalence uses the fact that a right adjoint $A^{op} \to B^{op}$ is literally the same as a left adjoint $A\to B$ (but the natural transformations between them go in the other direction).  Of course, it requires proof that $Func^R(C^{op},D)$ is in fact locally presentable when $C$ and $D$ are.
+where the last equivalence uses the fact that a limit-preserving functor $A^{op} \to B^{op}$ is literally the same as a colimit-preserving functor $A\to B$ (but the natural transformations between them go in the other direction).
+
+Of course, it requires proof that $Cts(C^{op},D)$ is in fact locally presentable when $C$ and $D$ are.
 
 ### Colimits
 
@@ -164,8 +170,8 @@ Let $\prod_i C_i$ be a product in $Pr(\infty,1)Cat$.  Then we have
 $$
 \begin{aligned}
 Func^L(\prod_i C_i, D)
-&\simeq Func^R(D, \prod_i C_i)\\
-&\simeq \prod_i Func^R(D,C_i)\\
+&\simeq Cts(D, \prod_i C_i)\\
+&\simeq \prod_i Cts(D,C_i)\\
 &\simeq \prod_i Func^L(C_i,D)
 \end{aligned}
 $$
@@ -179,14 +185,14 @@ The [[copower]] of $C\in Pr(\infty,1)Cat$ by a small $(\infty,1)$-category $A$ i
 =--
 +--{: .proof}
 ###### Proof
-Let $P A$ denote the [[presheaf (∞,1)-category]] on $A$.  This is its free cocompletion, so we have $Func^L(P A,C) \simeq C^A$.  Dually, $(P A)^{op}$ is the free completion of $A^{op}$, so we have $Func^R((P A)^{op},C) \simeq C^{A^op}$.  Now we have:
+Let $P A$ denote the [[presheaf (∞,1)-category]] on $A$.  This is its free cocompletion, so we have $Func^L(P A,C) \simeq C^A$.  Dually, $(P A)^{op}$ is the free completion of $A^{op}$, so we have $Cts((P A)^{op},C) \simeq C^{A^op}$.  Now we have:
 $$
 \begin{aligned}
 Func^L(C,D)^A
 &\simeq Func^L(C,D^A)\\
 &\simeq Func^L(C,Func^L(P A,D))\\
 &\simeq Func^L(C \otimes P A, D)\\
-&\simeq Func^L(Func^R((P A)^op,C),D)\\
+&\simeq Func^L(Cts((P A)^{op},C),D)\\
 &\simeq Func^L(C^{A^op},D)
 \end{aligned}
 $$
@@ -201,7 +207,7 @@ In some context it makes good sense to think of $Pr(\infty,1)Cat$ as a model for
 
 More on this analogy is at [[integral transforms on sheaves]].  Here a small $(\infty,1)$-category $S$ is to be thought of as a _basis_ and the locally presentable $(\infty,1)$-category $C \hookrightarrow PSh_{(\infty,1)}(C)$ as the $\infty$-vector space spanned by this basis. The colimits in $C$ play the role of addition of vectors and the fact that morphisms in $Pr(\infty,1)Cat$ are colimit-presserving means that they play  the role of _linear_ maps between vector spaces. This is described also at [[Lawvere distribution]].
 
-The monoidal product $\otimes : Pr(\infty,1)Cat \times Pr(\infty,1)Cat \to Pr(\infty,1)Cat$ plays the role of the [[tensor product]] of vector spaces, with a morphism out of $C \otimes D$ being a bilinear morphism out of $C \times D$, and the fact that $Pr(\infty,1)Cat$ is closed monoidal reflects the fact that [[Vect]] is closed monoidal.  The construction of the tensor product as $Func^R(C^{op},D)$ corresponds to the fact that, at least for finite-dimensional $V$, we have $V\otimes W \cong Hom(V^\ast,W)$.
+The monoidal product $\otimes : Pr(\infty,1)Cat \times Pr(\infty,1)Cat \to Pr(\infty,1)Cat$ plays the role of the [[tensor product]] of vector spaces, with a morphism out of $C \otimes D$ being a bilinear morphism out of $C \times D$, and the fact that $Pr(\infty,1)Cat$ is closed monoidal reflects the fact that [[Vect]] is closed monoidal.  The construction of the tensor product as $Cts(C^{op},D)$ corresponds to the fact that, at least for finite-dimensional $V$, we have $V\otimes W \cong Hom(V^\ast,W)$.
 
 (A related decategorification of $Pr(\infty,1)Cat$ is the category [[Sup]] of [[suplattices]], which can also be thought of as analogous to abelian groups or vector spaces.)
 
