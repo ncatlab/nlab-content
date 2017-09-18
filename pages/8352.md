@@ -40,7 +40,7 @@ For $R$ a [[ring]], every $R$-[[module]] admits a free resolution.
 +-- {: .num_prop #AbelianGroupHasFreeResolutionOfLength2}
 ###### Proposition
 
-Assuming the [[axiom of choice]], then every [[abelian group]] $A$, admits a free resolution of just length 2, hence with trivial [[syzygies]], hence there exists a [[short exact sequence]] of abelian groups of the form
+Assuming the [[axiom of choice]], then every [[abelian group]] $A$ admits a free resolution of just length 2, hence with trivial [[syzygies]], hence there exists a [[short exact sequence]] of abelian groups of the form
 
 $$
   0 \to F_2 \longrightarrow F_1 \longrightarrow A \to 0
