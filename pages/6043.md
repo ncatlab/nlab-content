@@ -91,10 +91,22 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
 
 * More generally, on any [[Cartesian space]] $\mathbb{R}^n$ the **Euclidean norm** is given by
 
-  $$
-    (x^1, \cdots, x^n) \mapsto \sqrt(\sum_{i=1}^n (x^i)^2)
-    \,.
-  $$
+   $$
+     \vert \vec x\vert
+       \;\coloneqq\;
+     \sqrt{
+     \underoverset{i = 1}{n}{\sum}
+       (x_i)^2
+     }
+     \,.
+   $$
+
+1. more generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the _[[p-norm]]_
+
+   $$ 
+     {\vert \vec x \vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}} 
+   $$
+
 
 
 ### Minkowski Functionals
