@@ -20,7 +20,7 @@
 
 ## Idea
 
-Every [[variety]] in [[positive number|positive]] [[characteristic]] has a [[formal group]] attached to it, called the _Artin-Mazur formal group_. This group is often related to arithmetic properties of the variety such as being ordinary or supersingular.
+Every [[variety]] in [[positive characteristic]] has a [[formal group]] attached to it, called the _Artin-Mazur formal group_. This group is often related to arithmetic properties of the variety such as being ordinary or supersingular.
 
 The Artin-Mazur formal group in dimension $n$ is a [[formal group]] version of the [[Picard infinity-group|Picard n-group]] of flat/holomorphic [[circle n-bundles]] on the given variety. Therefore for $n = 1$ one also speaks of the _[[formal Picard group]]_ and for $n = 2$ of the _[[formal Brauer group]]_.
 
