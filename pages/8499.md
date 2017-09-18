@@ -1,4 +1,8 @@
 
 * [webpage](http://www.cs.nott.ac.uk/~ngk/)
 
+## related $n$Lab entries
+
+* [[internal category in homotopy type theory]]
+
 category: people
