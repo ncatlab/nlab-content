@@ -47,6 +47,10 @@ Discussion of implementation of this in [[Coq]] includes
 
 * [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], _Experience Implementing a Performant Category-Theory Library in Coq_ ([arXiv:1401.7694](http://arxiv.org/abs/1401.7694))
 
+Genealization to [[(n,1)-categories]] is discussed in
+
+* {#CapriottiKraus17} [[Paolo Capriotti]], [[Nicolai Kraus]], _Univalent Higher Categories via Complete Semi-Segal Types_ ([arXiv:1707.03693](https://arxiv.org/abs/1707.03693))
+
 
 
 [[!redirects internal categories in homotopy type theory]]
