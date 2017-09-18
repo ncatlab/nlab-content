@@ -54,7 +54,7 @@ $$
 
 to match standard conventions.
 
-This means that if $S^7$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given (on pointes $(x,y)$ with $y \neq 0$) simply by 
+This means that if $S^7$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given (on points $(x,y)$ with $y \neq 0$) simply by 
 
 $$
   p_{\mathbb{H}} \colon (x,y) \mapsto [x;y] = [x/y; 1]
@@ -85,10 +85,10 @@ Notice that this means that $SO(3)$ acts on $S^7$ here diagonally on the _two_ c
 The quaternionic Hopf fibration gives an element in the 7th [[homotopy groups of spheres|homotopy group of the 4-sphere]]
 
 $$
-  [p_{\mathbb{H}}] \in \pi_7(S^4) \simeq \mathbb{Z}
+  [p_{\mathbb{H}}] \in \pi_7(S^4) \simeq \mathbb{Z} \times (\mathbb{Z}/12)
 $$
 
-and in fact it is a generator in this group.
+and in fact it is a generator of the non-torsion factor in this group.
 
 Stably, i.e. as a generator for the [[stable homotopy groups of spheres]] in degree $7-4 = 3$, the quaternionic Hopf map becomes a [[torsion subgroup|torsion]] generator
 
