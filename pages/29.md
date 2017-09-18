@@ -21,11 +21,19 @@
 
 ## Idea
 
+The concept of _isomorphism_ generalizes the concept of [[bijection]] from the category [[Set]] of [[sets]] to general [[categories]].
+
 An _isomorphism_ is an invertible [[morphism]], hence a morphism with an [[inverse morphism]].
 
-Two [[objects]] of a [[category]] are **isomorphic** if they are connected by an isomorphism.
+Two [[objects]] of a [[category]] are said to be _isomorphic_ if there exists an isomorphism between them. This means that they "are the same for all practical purposes" as long as one does not violate the [[principle of equivalence]].
 
-This means that they are_essentially equal_ without necessarily being actually equal.  An **isomorphism** is a specific way of translating one object to an isomorphic one.  Note that it\'s often not enough to know *that* two objects are isomorphic; you may need to know *how* they are isomorphic, that is to know the specific isomorphism in question.
+But beware that two objects may be isomorphic by more than one isomorphism. In particular a single object may be isomorphic to itself by nontrivial isomorphisms other than the [[identity morphism]]. Frequently the particular choice of isomorphism matters.
+
+Every isomrophism is in particular an [[epimorphism]] and a [[monomorphism]], but the converse need not hold.
+
+Common jargon includes "is a mono" or "is monic" for "is a monomorphism", and "is an epi" or "is epic" for "is an epimorphism", and "is an iso" for "is an isomorphism".
+
+
 
 
 ##Definitions
