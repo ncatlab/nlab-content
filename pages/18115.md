@@ -7,23 +7,22 @@
 [[!include analysis - contents]]
 =--
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Statement
 
 +-- {: .num_prop}
 ###### Proposition
 
-Using [[classical logic]] then:
+Using [[excluded middle]] and [[dependent choice]] then:
 
 Let $(X,d)$ be a [[metric space]] which is [[sequentially compact topological space|sequentially compact]]. Then it is [[totally bounded metric space]].
 
@@ -51,9 +50,9 @@ This constituted a [[sequence]] $(x_i)$, and by assumption of sequential compact
 
 =--
 
+
 ## Related pages
 
 * [[Lebesgue number lemma]]
 
 * [[sequentially compact metric spaces are equivalently compact metric spaces]]
-
