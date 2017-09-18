@@ -1,0 +1,11 @@
+
+
+
+## Idea
+
+The _de Sitter group_ is the [[isometry group]] of [[de Sitter spacetime]]. In [[spacetime]] dimension $d$ its connected component is isomorphic to $SO(d,1)$.
+
+## Related concepts
+
+
+[[!include local and global geometry - table]]
