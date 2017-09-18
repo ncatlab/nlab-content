@@ -13,7 +13,7 @@ However, even in [[classical mathematics]], there are some differences, at least
 
 One-sided numbers are sometimes called (upper or lower) *semicontinuous* numbers.  To see why, consider a [[locale]] (or [[topological space]]) $L$, and consider the (upper or lower) [[semicontinuous functions]] (real-valued) on $L$.  On the one hand, these are the same as the [[continuous functions]] from $L$ to (classically) the set of real numbers equipped with the semicontinuous topology or to (constructively) a locale whose [[point of a locale|points]] are the one-sided real numbers.  On the other hand, these semicontinuous functions are precisely the [[internal logic|internal]] one-sided real numbers in the [[topos of sheaves]] over $L$.
 
-Lower and upper reals don\'t interact well together; for a system that naturally includes both (and, constructively, much more), use the [[MacNeille real number]]s.
+Lower and upper reals don\'t interact well together.  Their "intersection" is the set of [[MacNeille real numbers]], which is moderately well-behaved; it also contains the set of [[located real numbers]], which is better-behaved algebraically (but not, constructively, a complete lattice).  But it seems hard, constructively, to find any reasonably behaved notion of "real number" than contains both upper and lower reals.
 
 
 ## Idea
@@ -24,7 +24,7 @@ A __lower real number__ is the [[supremum]] of an [[inhabited set|inhabited]] se
 
 An __upper real number__ is the [[infimum]] of an inhabited set of numbers.  A __bounded upper real__ is the infimum of an inhabited set of numbers that has a finite lower bound.  An __extended lower real__ is the infimum of an arbitrary set of numbers.
 
-We cannot generalize further by taking more extrema of the same sort.  Explicitly, the supremum of any inhabited set of lower reals is a lower real and the infimum of any inhabited set of upper reals is an upper real.  (Similar results obtain if we use either bounded or extended reals, so long as we also either require the set to bounded or allow it to be [[empty subset|empty]].)  However, mixing extrema takes us further to the [[MacNeille real number]]s.
+We cannot generalize further by taking more extrema of the same sort.  Explicitly, the supremum of any inhabited set of lower reals is a lower real and the infimum of any inhabited set of upper reals is an upper real.  Similar results obtain if we use either bounded or extended reals, so long as we also either require the set to bounded or allow it to be [[empty subset|empty]].
 
 
 ## Definitions
@@ -103,7 +103,7 @@ Given any collection of extended lower reals, their __supremum__ is an extended 
 
 Given any collection of extended upper reals, their __infimum__ is an extended upper real which is found by taking the union of upper sets.  The infimum of an inhabited set of upper reals is an upper real, and the infimum of an inhabited set of bounded upper reals is bounded iff the set has a bounded upper real as a lower bound.  In any case, this infimum really is the [[infimum]] under $\leq$.  This agrees with the notion of infimum of real numbers in the real number system, when that exists.  Every extended upper real is also the infimum in this sense of its corresponding upper set, interpreted as a set of upper reals that happen to all be rational numbers.
 
-In [[predicative mathematics|predicative]] constructive mathematics, we cannot necessarily take the infimum of a set of lower reals, nor the supremum of a set of upper reals.  Even in impredicative constructive mathematics (where these infima and suprema exist by the [[adjoint functor theorem]]), these may not be what we really want; an obvious example of this is if we take the infimum of a set of lower reals that happen to all be located, in which case what we really want is an upper real.  We can, however, always interpret such a supremum or infimum as a [[MacNeille real number]] (and then ask whether this MacNeille real happens to be an upper real or a lower real or even both at once, in which case it is an ordinary located real number).
+By the [[adjoint functor theorem]], suprema of upper reals and infima of lower reals also exist, but they are not constructed as set-theoretic intersections but rather as the [[interior]] of an intersection.  (This construction makes sense even in [[predicative mathematics|predicative]] constructive mathematics, though the adjoint functor theorem does not.)  However, these may not be what we really want; an obvious example of this is if we take the infimum of a set of lower reals that happen to all be located, in which case what we really want is the corresponding *upper* real infimum (for instance, when defining [[located subspaces]]).  (In the [[MacNeille real numbers]], contained in both the lower and upper reals, both infima and suprema are constructed using interiors, and hence neither may be what we want.)
 
 An [[inferior limit]] is ...
 
@@ -116,7 +116,7 @@ Since addition is order-preserving, it works nicely, at least to make a [[monoid
 
 Of course, arithmetic with one-sided real numbers is much easier than this in [[classical mathematics]], where the bounded or extended versions may be identified; but even there, the natural operations involving $\pm\infty$ may differ.  Accordingly, the conventions for arithmetic with infinities can signal which sort of number is appropriate for a [[constructive mathematics|constructive]] development.
 
-If you really want to do arbitrary arithmetic operations constructively on upper or lower reals, then again you need their common generalisation, the [[MacNeille real number|MacNeille reals]].
+If you want to do arbitrary arithmetic operations constructively on something more general than [[located real numbers]], you can try the [[MacNeille real number|MacNeille reals]], which are contained in both the upper and the lower reals.
 
 
 ## Topology
