@@ -78,6 +78,8 @@ If $C$ has the structure of a [[model category]] then "nice" means that $X \copr
 
 * [[cylinder spectrum]]
 
+* [[h-cobordism]]
+
 ## References
 
 The precise argument that for $X$ a [[cell complex]] then also the standard cyclinder $X\times I$ is a cell complex is spelled out for instance as prop. 2.9 in 
