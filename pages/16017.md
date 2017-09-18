@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[modal logic]], by _possible world semantics_ one means the interpretation of the [[possibility]] and [[necessity]] [[modalities]] as [[existential quantification]] and [[universal quantification]] over a [[context]] of "possible worlds".
+
+For formalization of this in terms of [[hyperdoctrines]]/[[dependent type theory]] see at _[necessity and possibility -- In first-order logic and dependent type theory](http://ncatlab.org/nlab/show/necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_.
+
+## Related concepts
+
+* [[multiverse]]
+
+## References
+
+* Stanford Encyclopedia of Mathematics _[Possible Worlds](http://plato.stanford.edu/entries/possible-worlds/)_
+
+* Stanford Encyclopedia of Mathematics, _[Modal Logic -- Possible words semantics](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
+
