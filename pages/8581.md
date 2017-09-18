@@ -687,7 +687,9 @@ This is precisely the definition of differentialbly [[good open cover]].
 
 ### The $(2,1)$-category of smooth groupoids
 
-+-- {: .num_defn }
+The [[Grpd]]-[[enriched category]] of genuine smooth groupoids is that obtained from that of pre-smooth groupoids, def. \ref{HomGroupoidsOfPreSmoothGroupoids} by "universally turning local [[weak equivalences]], def. \ref{LocalWeakEquivalence}, into actual [[homotopy equivalences]]". This is stated formally by def. \ref{SmoothGroupoidsBySimplicialLocalization} below, but for many applications in practice certain concrete presentations of what this means concretely are well sufficient, one of these we state below in prop. \ref{HomGroupoidsOutOfCofibrantIntoFibrantGroupoidPresheaves}.
+
++-- {: .num_defn #SmoothGroupoidsBySimplicialLocalization}
 ###### Definition
 
 Write 
@@ -704,6 +706,31 @@ An [[object]] $X \in Smooth1Type$ we call a **[[smooth groupoid]]** or
 **[[smooth homotopy type|smooth homotopy 1-type]]**.
 
 =--
+
+
+
++-- {: .num_prop #HomGroupoidsOutOfCofibrantIntoFibrantGroupoidPresheaves}
+###### Proposition
+
+Let $X,A \in PreSmooth1Type$ such that $A$ satisfies descent, 
+def. \ref{DescentForPreSmoothGroupoids}. Let $Y \to X$
+be a [[split hypercover]] of $X$, def. \ref{SplitHypercover}.
+
+Then there is an [[equivalence of groupoids]]
+
+$$
+  Smooth1Type(X,A)
+  \simeq
+  PreSmooth1Type(Y,A)
+$$
+
+between the [[hom-groupoid]] of smooth groupoids from $X$ to $A$,
+and that of pre-smooth groupoids, def. \ref{HomGroupoidsOfPreSmoothGroupoids},
+from $Y$ to $A$.
+
+=--
+
+Such statements follow with [[model structures on simplicial presheaves]] after embedding the present situation in the more general context of [[smooth infinity-groupoids]]. See there for more.
 
 +-- {: .num_remark #NotationForLocalization}
 ###### Remark
@@ -735,30 +762,6 @@ image of $(\mathbf{B}G)_\bullet$ in $Smooth1Type$.
 
 =--
 
-
-
-+-- {: .num_prop #HomGroupoidsOutOfCofibrantIntoFibrantGroupoidPresheaves}
-###### Proposition
-
-Let $X,A \in PreSmooth1Type$ such that $A$ satisfies descent, 
-def. \ref{DescentForPreSmoothGroupoids}. Let $Y \to X$
-be a [[split hypercover]] of $X$, def. \ref{SplitHypercover}.
-
-Then there is an [[equivalence of groupoids]]
-
-$$
-  Smooth1Type(X,A)
-  \simeq
-  PreSmooth1Type(Y,A)
-$$
-
-between the [[hom-groupoid]] of smooth groupoids from $X$ to $A$,
-and that of pre-smooth groupoids, def. \ref{HomGroupoidsOfPreSmoothGroupoids},
-from $Y$ to $A$.
-
-=--
-
-Such statements follow with [[model structures on simplicial presheaves]] after embedding the present situation in the more general context of [[smooth infinity-groupoids]]. See there for more.
 
 +-- {: .num_prop }
 ###### Proposition
