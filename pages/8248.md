@@ -184,11 +184,11 @@ A class of examples leading to what later came to be known as the [[Atiyah-Hirze
 
 * {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956)
 
-An early lecture note account is in
+Textbook accounts include
 
 * [[Frank Adams]], part III, section 7 of _[[Stable homotopy and generalised homology]]_, 1974
  
-More recent and more introductory accounts are
+* {#Kochmann96} [[Stanley Kochmann]], section 2.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#McCleary01} [[John McCleary]], section 2.2 (from p. 37 on) in _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
 
