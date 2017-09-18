@@ -159,6 +159,7 @@ Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure s
 
 * [[entropic force]]
 
+* [[dissipative system]]
 
 ## References
 {#References}
