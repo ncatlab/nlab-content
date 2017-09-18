@@ -1,5 +1,5 @@
 
-+-- {: .rig#htHandSide}
++-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Manifolds and cobordisms
