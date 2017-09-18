@@ -89,6 +89,8 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[positive energy theorem]]
 
+* [[asymptotic safety]]
+
 * [[cosmology]]
 
   * [[standard model of cosmology]]
