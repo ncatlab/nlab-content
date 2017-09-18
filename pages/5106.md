@@ -4,6 +4,12 @@
 
 ## Idea
 
+In [[logic]], an argument is said to be **valid** relative to a specified logic if its form in that logic is such that whenever the premises are true then the conclusion must be true.
+
+A logical [[formula]] is said to be valid if it true under every [[interpretation]].
+
+## Validity in modal logic
+
 To judge whether a [[modal logic]] gives a good encoding of the properties of a particular relational structure, we need to put aside the valuations and to concentrate on the [[frame (modal logic)|frames]].  A formula will be **valid** on a frame $\mathfrak{F}$ if it is true at every state in every model that can be built from $\mathfrak{F}$.  More formally:
 
 +-- {: .un_defn}
@@ -39,3 +45,4 @@ Generally this entry is based on
 
 
 [[!redirects validity]]
+[[!redirects valid]]
