@@ -38,7 +38,7 @@ For an adic noetherian ring $R$ there is a construction of a [[ringed space]], i
 
 * PlanetMath _[I-adic topology](http://planetmath.org/iadictopology)_
 
-* Wikipedia, _[Krull topology](https://en.wikipedia.org/wiki/Completion_(algebra)#Krull_topology)_
+* Wikipedia, _[Krull topology](https://en.wikipedia.org/wiki/Completion_%28algebra%29#Krull_topology)_
 
 [[!redirects adic topology]]
 [[!redirects adic filtration]]
