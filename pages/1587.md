@@ -207,7 +207,7 @@ We discuss [[left lifting properties]] satisfied by covering spaces.
 
 +-- {: .num_lemma #LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}
 ###### Lemma
-**([[lifts]] out of [[connected topological space|connected space]] into [[coverign spaces]] are unique relative to any point)**
+**([[lifts]] out of [[connected topological space|connected space]] into [[covering spaces]] are unique relative to any point)**
 
 Let 
 
@@ -241,10 +241,10 @@ If there exists $y \in Y$ such that $\hat f_1(y) = \hat f_2(y)$ then the two lif
 By the [[universal property]] of the [[fiber product]] 
 
 $$
-  E \times_X E \coloneq \left\{ (e_1, e_2) \in E \times E \;\vert\; p(e_1) = p(e_2) \right\} \subset E \times E
+  E \times_X E \coloneqq \left\{ (e_1, e_2) \in E \times E \;\vert\; p(e_1) = p(e_2) \right\} \subset E \times E
 $$
 
-the two lifts determine a fingle continuous function of the form
+the two lifts determine a single continuous function of the form
 
 $$
   (\hat f_1, \hat f_2) 
@@ -333,7 +333,7 @@ $$
   \,,
 $$
 
-Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. nMoreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
+Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. Moreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
 
 This shows the statement for the case of trivial covering spaces.
 
@@ -363,13 +363,15 @@ $$
 
 constitute an open cover of the [[topological interval]] $[0,1]$. 
 
-Now $[0,1]$ is a [[sequentially compact topological space|compact]] [[metric space]] and therefore the [[Lebesgue number lemma]] implies that there is a [[positive number]] $\epsilon \in (0,\infty)$ and cover of $[0,1]$ by [[open intervals]] of the form $(-\epsilon + x , x  + \epsilon) \cap [0,1] \subset [0,1]$ which [[refinement|refines]] this cover. Again since $[0,1]$ is a [[compact topological space]] there is a [[finite set]] of such intervals which covers $[0,1]$. This means that we find a [[finite number]] of points 
+Now the [[closed interval]] is a [[compact topological space]], so that this cover has a finite open subcover. By the [[Euclidean space|Euclidean]] [[metric topology]], each element in this finite subcover is a disjoint union of open intervals. The collection of all these open intervals is an open refinement of the original cover, and by compactness it once more has a finite subcover, now such that each element of the subcover is guaranteed to be a single open interval.
+
+This means that we find a [[finite number]] of points 
 
 $$
   t_0 \lt t_1 \lt \cdots \lt_{n+1} \in [0,1]
 $$ 
 
-with $t_0 = 0$ and $t_{n+1} = 1$ such that for all $0 \lt j \leg n$ there is $x_j \in X$ such that the corresponding path segment
+with $t_0 = 0$ and $t_{n+1} = 1$ such that for all $0 \lt j \leq n$ there is $x_j \in X$ such that the corresponding path segment
 
 $$
   \gamma([t_j, t_{j+1}]) \subset X
@@ -485,7 +487,7 @@ Let
 
 Then the following are equivalent:
 
-1. There exists a lift $\hat f$ in the diagram
+1. There exists a unique lift $\hat f$ in the diagram
 
    $$
      \array{
@@ -663,7 +665,7 @@ $$
   \,.
 $$
 
-It remains to show that this lift is unique if $Y$ is path-connected. (...)
+This shows that the lifted function is continuous. Finally that this continuous lift is unique is the statement of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
 
 =--
 
