@@ -51,10 +51,10 @@ A _$k$-[[tensor category]]_ $\mathcal{A}$ is a [[rigid monoidal category|rigid]]
 +-- {: .num_defn #SchurFunctor}
 ###### Definition
 
-For $(\mathcal{A},\otimes)$ a $k$-[[tensor category]] as in def.\ref{TensorCategory}, for $X \in \mathcal{A}$ an [[object]], for $n \in \mathbb{N}$ and $\lamba$ a [[partition]] of $n$, say that the value of the [[Schur functor]] $S_\lambda$ on $X$ is
+For $(\mathcal{A},\otimes)$ a $k$-[[tensor category]] as in def.\ref{TensorCategory}, for $X \in \mathcal{A}$ an [[object]], for $n \in \mathbb{N}$ and $\lambda$ a [[partition]] of $n$, say that the value of the [[Schur functor]] $S_\lambda$ on $X$ is
 
 $$
-  S_{\lambda}(X) \coloneqq (V_\lambda \otimes X^{\otimes_n})^{S_2}
+  S_{\lambda}(X) \coloneqq (V_\lambda \otimes X^{\otimes_n})^{S_n}
   \coloneqq 
   \left(
     \underset{g\in S_n}{\sum}
