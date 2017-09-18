@@ -18,16 +18,16 @@
 
 It is common in [[mathematics]] to speak of 
 
-1. objects enjoying "extra properties";
+1. objects enjoying "extra properties" (for instance a [[ring]] being [[commutative ring]]); 
 
-1. objects carrying "extra structure" (for instance a set carrying a topology);
+1. objects carrying "extra structure" (for instance a [[set]] carrying a [[topological space|topology]]);
 
-1. objects being equipped with "extra stuff".
+1. objects being equipped with "extra stuff" (for instance a [[vector space]] equipped with an [[inner product]]).
 
 In [[model theory]] there is a formalization of what it means to equip a [[set]] with [[mathematical structure]], and one may say what it means for a function between these sets to have the property of preserving this extra structure. 
 But this formalization captures only parts of the situations in which it is useful to speak of "extra property", "extra structure", and "extra stuff".
 
-Now [[category theory]] is precisely the kind of mathematical meta-theory that allows a nice and general formalization of such matters. Here we discuss such a formalization, due to ([Baez-Baertels-Dolan 98](#BaezBaertelsDolan98), see also [Baez-Shulman 06, section 2.4](#BaezShulman06)), phrased in terms of properties of [[functors]] that compare a category of objects with extra structure/property/stuff to the underlying category of objects without.
+Now [[category theory]] is precisely the kind of mathematical meta-theory that allows a nice and general formalization of such matters. Here we discuss such a formalization, due to ([Baez-Baertels-Dolan 98](#BaezBaertelsDolan98), see also [Baez-Shulman 06, section 2.4](#BaezShulman06)), phrased in terms of properties of [[functors]] that compare a [[category]] of [[objects]] with extra structure/property/stuff to the underlying category of objects without.
 
 In fact this formalization involves the generalization of what in [[homotopy theory]] is called the [[Postnikov tower]] theory (or [[(n-connected, n-truncated) factorization system]]), generalizing this from [[groupoids]] to [[categories]] ([[directed homotopy type theory|directed homotopy types]]).
 
