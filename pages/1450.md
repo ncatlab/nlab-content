@@ -131,7 +131,7 @@ The [[tangent bundle]] of an object $X$ in a [[smooth topos]] is just the [[expo
 
 A [[differential equation]] is an extension problem in a [[smooth topos]] along a morphism that includes an [[infinitesimal object]] into another object.
 
-For instance the ordinary first order homogeneous differential equation that asks the derivative of a functor $f : X \to A$ along a [[vector field]] $v : D \to X^X$ to be given by a specified map $\alpha X \to T A$ is given by a diagram of the form
+For instance the ordinary first order homogeneous differential equation that asks the derivative of a function $f : X \to A$ along a [[vector field]] $v : D \to X^X$ to be given by a specified map $\alpha: X \to T A$ is given by a diagram of the form
 
 $$
   \array{
