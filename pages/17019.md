@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _cyclotomic spectrum_ is a [[global equivariant spectrum]] for all the [[cyclic groups]] over the [[circle group]], together with a certain extra structure.
+
+The [[topological cyclic homology]] spectra are cyclotomic spectra.
+
+## Properties
+
+### Monoidal structure
+ {#MonoidalStructure}
+
+The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclotomic spectra is the [[global equivariant sphere spectrum]] for all the [[cyclic groups]] over the [[circle group]], equipped with a canonical cyclotomic structure. ([Blumberg-Mandell 13, example 4.9](#BlumbergMandell13))
+
+## Related concepts
+
+* [[Frobenius homomorphisms]]
+
+## References
+
+* {#BlumbergMandell13} [[Andrew Blumberg]], [[Michael Mandell]], _The homotopy theory of cyclotomic spectra_ ([arXiv:1303.1694](http://arxiv.org/abs/1303.1694))
+
+[[!redirects cyclotomic spectra]]
