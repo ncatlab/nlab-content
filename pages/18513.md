@@ -801,3 +801,10 @@ The conceptual explanation of the shift by the Hadamard state as a step in the a
 [[!redirects Wick polynomials]]
 
 [[!redirects normal ordering]]
+
+[[!redirects normal-ordered product]]
+[[!redirects normal-ordered products]]
+
+[[!redirects normal ordered product]]
+[[!redirects normal ordered products]]
+
