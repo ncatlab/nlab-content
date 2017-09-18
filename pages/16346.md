@@ -219,7 +219,7 @@ Write $SuperCAlg_{\mathbb{R}}$ for the [[category]] of commutative superalgebras
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #SuperCartesianSpace}
 ###### Definition
 
 For $q\in \mathbb{N}$, the real [[Grassmann algebra]] $C^\infty(\mathbb{R}^{0|q})$ is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^1$ subject to the relation 
@@ -1211,11 +1211,25 @@ Then in _[G-Structure and Cartan geometry](#GStructureAndCartanGeometry)_ we hav
 
 Here we now consider a [[concrete particular]] choice for such a $V$: [[super-Minkowski spacetimes]].
 
+1. _[The super-Klein geometry: super-Minkowski spacetime](#SuperMinkowskiSpacetime)_
+
+1. _[De Rham complex of super differential forms](#DeRhamComplexOfSuperDifferentialForms)_
+
+1. _[Cartan connections: Graviton and gravitino field](#GravitonAndGravitino)_
+
+1. _[Cohomology of super Minkowski spacetime](#CohomologyOfSuperMinkowskiSpacetime)_
+
+
+
+
+
+
+
 
 #### The super-Klein geometry: super-Minkowski spacetime
  {#SuperMinkowskiSpacetime}
 
-we want to establish this analogy:
+We want to establish this analogy:
 
 | ([[higher Cartan geometry|higher]]-)[[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
 |---------------------|----------------|----------------|-----------------------------|
@@ -1223,32 +1237,60 @@ we want to establish this analogy:
 | [[supergravity]] | $\mathfrak{Iso}(\mathbb{R}^{d-1,1\vert N})$ | $\mathfrak{o}(d-1,1)$ | $\mathbb{R}^{d-1,1\vert N}$ |
 | [[11-dimensional supergravity]] | $\mathfrak{Iso}(\widehat{\mathbb{R}}^{10,1\vert N=1})$ | $\mathfrak{o}(d-1,1)$ | $\widehat{\mathbb{R}}^{10,1\vert N=1}$ |
 
+To that end, consider the structure of any [[super Lie algebra]] 
 
-real [[spin representation]], 
+$$
+  \left(
+    \mathfrak{Iso}(\mathbb{R}^{d-1,1})\oplus N
+    ,
+    [-,-]
+  \right)
+$$ 
 
-Let $V$ be a quadratic vector space, def. \ref{QuadraticVectorSpace},
-over the [[real numbers]] with [[bilinear form]] or Lorentzian [[signature]], hence $V = \mathbb{R}^{d-1,1}$ is [[Minkowski spacetime]] of some [[dimension]] $d$. 
+that extends the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$. Any such extension involves involves:
 
-The following table lists the irreducible real representations of $Spin(V)$ ([Freed 99, page 48](#Freed99)).
+1. the even-odd superbracket $[\mathfrak{so},N]$ is an [[action]] of the [[Lorentz Lie algebra]] on  $N$;
 
-| $d$ | $Spin(d-1,1)$ | minimal real spin representation $N=S$ | $dim_{\mathbb{R}} S\;\;$ |  $V$ in terms of $S^\ast$ |  [[supergravity]] | 
+1. the even-even-odd [[Jacobi identity]] is the action property of that action;
+
+1. the odd-odd superbracket $[N,N]$ is a _symmetric_ [[bilinear form]] $N \otimes N \to \mathbb{R}^{d-1,1}$
+
+1. the even-odd-odd [[Jacobi identity]] says that this bilinear form is $\mathfrak{o}(d-1,1)$-[[equivariance|equivariant]].
+
+
+Such structure exists on [[real structure|real]] [[spin representation]]:
+
++-- {: .num_prop #RealSpinRepresentations}
+###### Proposition
+
+Let $V = \mathbb{R}^{d-1,1}$ be [[Minkowski spacetime]] of some [[dimension]] $d$. 
+
+The following table lists the [[irreducible representation|irreducible]] [[real structure|real]] [[spin representations]] of $Spin(V)$.
+
+| $d$ | $Spin(d-1,1)$ | minimal real spin representation $N$ | $dim_{\mathbb{R}} S\;\;$ |  $V$ in terms of $S^\ast$ |  [[supergravity]] | 
 |--|--|--|--|--|--|
-| 1 | $\mathbb{Z}_2$ | $S$ real | 1 | $V \simeq (S^\ast)^{\otimes}^2$ |  |
-| 2 | $\mathbb{R}^{\gt 0} \times \mathbb{Z}_2$ | $S^+, S^-$ real | 1 | $V \simeq ({S^+}^\ast)^{\otimes^2} \oplus ({S^-}^\ast)^{\otimes 2}$ |  |
-| 3 | $SL(2,\mathbb{R})$ | $S$ real | 2 |  $V \simeq Sym^2 S^\ast$ |  |
-| 4 | $SL(2,\mathbb{C})$ | $S_{\mathbb{C}} \simeq S' \oplus S''$ | 4 | $V_{\mathbb{C}} \simeq {S'}^\ast \oplus {S''}^\ast$ |  |
-| 5 | $Sp(1,1)$ | $S_{\mathbb{C}} \simeq S_0 \otimes_{\mathbb{C}} W$ | 8 |  $\wedge^2 S_0^\ast \simeq \mathbb{C} \oplus V_{\mathbb{C}}$ |  |
-| 6 | $SL(2,\mathbb{H})$ | $S^\pm_{\mathbb{C}} \simeq S_0^\pm  \otimes_{\mathbb{C}} W$ | 8 | $V_{\mathbb{C}} \simeq \wedge^2 {S_0^+}^\ast \simeq (\wedge^2 {S_0^-}^\ast)^\ast$ |  |
-| 7 |  |  $S_{\mathbb{C}} \simeq S_0 \otimes_{\mathbb{C}} W$ | 16 |  $\wedge^2 S_0^\ast \simeq V_{\mathbb{C}} \oplus \wedge^2 V_{\mathbb{C}}$ |  |
-| 8 |  | $S_{\mathbb{C}} \simeq S^\prime \oplus S^{\prime\prime}$ | 16 | ${S'}^\ast {S''}^\ast \simeq V_{\mathbb{C}} \oplus \wedge^3 V_{\mathbb{C}}$ |  |
-| 9 |  | $S$ real | 16 |  $Sym^2 S^\ast \simeq \mathbb{R} \oplus V \wedge^4 V$ |  |
-| 10 |   | $S^+ , S^-$ real | 16 | $Sym^2(S^\pm)^\ast \simeq V  \oplus \wedge_\pm^5 V$ | [[type II supergravity]] |
-| 11 |   | $S$ real | 32 | $Sym^2 S^\ast \simeq V \oplus \wedge^2 V \oplus \wedge^5 V$ | [[11-dimensional supergravity]] |
+| 1 | $\mathbb{Z}_2$ | $N$ real | 1 | $V \simeq (N^\ast)^{\otimes}^2$ |  |
+| 2 | $\mathbb{R}^{\gt 0} \times \mathbb{Z}_2$ | $N^+, N^-$ real | 1 | $V \simeq ({N^+}^\ast)^{\otimes^2} \oplus ({N^-}^\ast)^{\otimes 2}$ |  |
+| 3 | $SL(2,\mathbb{R})$ | $N$ real | 2 |  $V \simeq Sym^2 N^\ast$ |  |
+| 4 | $SL(2,\mathbb{C})$ | $N_{\mathbb{C}} \simeq N' \oplus N''$ | 4 | $V_{\mathbb{C}} \simeq {N'}^\ast \oplus {N''}^\ast$ |  |
+| 5 | $Sp(1,1)$ | $N_{\mathbb{C}} \simeq N_0 \otimes_{\mathbb{C}} W$ | 8 |  $\wedge^2 S_0^\ast \simeq \mathbb{C} \oplus V_{\mathbb{C}}$ |  |
+| 6 | $SL(2,\mathbb{H})$ | $N^\pm_{\mathbb{C}} \simeq N_0^\pm  \otimes_{\mathbb{C}} W$ | 8 | $V_{\mathbb{C}} \simeq \wedge^2 {N_0^+}^\ast \simeq (\wedge^2 {N_0^-}^\ast)^\ast$ |  |
+| 7 |  |  $N_{\mathbb{C}} \simeq N_0 \otimes_{\mathbb{C}} W$ | 16 |  $\wedge^2 S_0^\ast \simeq V_{\mathbb{C}} \oplus \wedge^2 V_{\mathbb{C}}$ |  |
+| 8 |  | $N_{\mathbb{C}} \simeq N^\prime \oplus N^{\prime\prime}$ | 16 | ${N'}^\ast {N''}^\ast \simeq V_{\mathbb{C}} \oplus \wedge^3 V_{\mathbb{C}}$ |  |
+| 9 |  | $N$ real | 16 |  $Sym^2 N^\ast \simeq \mathbb{R} \oplus V \wedge^4 V$ |  |
+| 10 |   | $N^+ , N^-$ real | 16 | $Sym^2(N^\pm)^\ast \simeq V  \oplus \wedge_\pm^5 V$ | [[type II supergravity]] |
+| 11 |   | $N$ real | 32 | $Sym^2 N^\ast \simeq V \oplus \wedge^2 V \oplus \wedge^5 V$ | [[11-dimensional supergravity]] |
 
 Here $W$ is the 2-dimensional [[complex vector space]] on which the [[quaternions]] naturally act. 
 
+=--
 
-The last column implies that in each dimension there exists a [[linear map]]
+(e.g. [Freed 99, page 48](#spin+representation#Freed99))
+
++-- {: .num_remark #BilinearPairingOnSpinors}
+###### Remark
+
+The last column in prop. \ref{RealSpinRepresentations} implies that in each dimension there exists a [[linear map]]
 
 $$
   \Gamma \;\colon\; S^\ast \otimes S^\ast \longrightarrow \mathbb{R}^{d-1,1}
@@ -1260,28 +1302,61 @@ which is
 
 1. $Spin(V)$-equivariant.
 
-
 This is what in the [[physics]] literature is expressed in components by the Gamma matrices with "indices lowered" using the _[[charge conjugation matrix]]_.
 
-This allows to form the [[super Poincaré Lie algebra]] 
-hence the [[super Poincaré group]] $sIso(d-1,1|N)$ in each of these cases. 
+=--
 
-Finally then: 
++-- {: .num_cor}
+###### Corollary
 
-[[quotient]] by [[spin group]] is [[super-Minkowski spacetime]]
+Given a real $Spin(\mathbb{R}^{d-1,1})$ representation $N$, 
+there exists a [[super Lie algebra]] structure on
 
 $$
-  \mathbb{R}^{d-1,1|N} = sIso(d-1,1|N)/Spin(d-1,1)
+  \mathfrak{so}(\mathbb{R}^{d-1,1})\rtimes\mathbb{R}^{d-1,1} 
+  \oplus N
+$$
+
+extending the [[Poincare Lie algebra]] whose odd-odd-bracket 
+is the bilinear pairing of remark \ref{BilinearPairingOnSpinors}.
+
+=--
+
++-- {: .num_defn #SuperPoincareAndSuperMinkowski}
+###### Definition
+
+
+This is the _[[super Poincaré Lie algebra]]_ $\mathfrak{Iso}(\mathbb{R}^{d-1,1|N})$.
+Its [[Lie integration]] to a [[super Lie group]] is the 
+[[super Poincaré group]] $Iso(\mathbb{R}^{d-1,1|N})$.
+
+
+The [[quotient]] of that by the [[spin group]] is [[super-Minkowski spacetime]]
+
+$$
+  \mathbb{R}^{d-1,1|N} \coloneqq \mathfral{Iso}(\mathbb{R}^{d-1,1|N})/\mathfrak{so}(\mathbb{R}^{d-1,1|N})
   \,.
 $$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The space underlying the [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ in def. \ref{SuperPoincareAndSuperMinkowski} is the [[super Cartesian space]] $\mathbb{R}^{d,dim_{\mathbb{R}}(N)}$, def. \ref{SuperCartesianSpace}.
+
+=--
 
 
 
 #### De Rham complex of super differential forms
+ {#DeRhamComplexOfSuperDifferentialForms}
 
-We discuss the [[de Rham complex]] of [[super differential forms]] on a [[super Cartesian space]]. (See also at _[[signs in supergeometry]]_.)
+Since signs play some role in this business, we pause to 
+discuss the [[de Rham complex]] of [[super differential forms]] on a [[super Cartesian space]], def. \ref{SuperCartesianSpace}
+(see at _[[signs in supergeometry]]_ for more).
 
-Accordingly, by the discussion at _[[Kähler forms]]_, the [[de Rham complex]] of [[super differential forms]] on $\mathbb{R}^{p|q}$ is freely generated as a super-[[module]] over the [[smooth superalgebra]] $C^\infty(\mathbb{R}^{p|q})$ by expressions of the form $\mathbf{d}x^{a_1} \wedge \cdots \wedge \mathbf{d}x^{a_k} \wedge \mathbf{d}\theta^{\alpha_1} \wedge \cdots \wedge \mathbf{d}\theta^{\alpha_l}$.
+By the discussion at _[[Kähler forms]]_, the [[de Rham complex]] of [[super differential forms]] on $\mathbb{R}^{p|q}$ is freely generated as a super-[[module]] over the [[smooth superalgebra]] $C^\infty(\mathbb{R}^{p|q})$ by expressions of the form $\mathbf{d}x^{a_1} \wedge \cdots \wedge \mathbf{d}x^{a_k} \wedge \mathbf{d}\theta^{\alpha_1} \wedge \cdots \wedge \mathbf{d}\theta^{\alpha_l}$.
 
 $$
   \Omega^\bullet(\mathbb{R}^{p|q})
@@ -1406,88 +1481,9 @@ $$
   \mathbf{d} \theta^{\alpha_1}
 $$
 
-#### Cohomology of super-Minkowski spacetime 
-
-Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d|N}$ underlying the super translation group. Then the [[left-invariant 1-forms|left invariant]] [[super differential forms|super-differential 1-forms]] are
-
-* $\psi^\alpha = \mathbf{d} \theta^\alpha$.
-
-* $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta$.
-
-This means that there is one non-trivial differential on these:
-
-$$ 
-  \begin{aligned}
-    \mathbf{d} e^a & = \mathbf{d} (\mathbf{d} x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta)
-    \\
-    & = \frac{i}{2} \mathbf{d} \overline{\theta}\Gamma^a \mathbf{d} \theta
-    \\
-    & = \frac{i}{2} \overline{\psi}\Gamma^a \psi
-  \end{aligned}
-  \,.
-$$
-
-
-+-- {: .num_remark }
-###### Remark
-
-The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *[[supertorsion]]* of the [[super-vielbein]] $e$, because the defining equation
-
-$$
-  d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \frac{i}{2}\bar \psi \Gamma^a \psi
-$$
-
-may be read as saying that $e$ is [[torsion]]-free except for that term. Notice that this term is the only one that appears when the differential is applied to "Lorentz scalars", hence to object in $CE(\mathfrak{siso})$ which have "all indices contracted". (See also at _[[torsion constraints in supergravity]]_.)
-
-Notably we have 
-
-$$
-  d \left( 
-    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
-    \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
-  \right)
-  \propto
-  \left(
-    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
-    \wedge e_{a_1} \wedge \cdots \wedge e_{a_{p-1}}
-  \right)
-  \wedge
-  \left(
-    \overline{\Psi} \wedge \Gamma_{a_p} \Psi
-  \right)
-  \,.
-$$
-
-This remaining operation "$e \mapsto \Psi^2$" of the differential acting on Loretz scalars is sometimes denoted "$t_0$", e.g. in ([Bossard-Howe-Stelle 09, equation (8)](#BossardHoweStelle09)).
-
-This relation is what govers all of the exceptional super Lie algebra cocycles that appear as WZW terms for the Green-Schwarz action below: for some combinations of $(D,p)$ a [[Fierz identity]] implies that the term
-
-$$
-  \left(
-    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
-    \wedge e_{a_1} \wedge \cdots \wedge e_{a_{p-1}}
-  \right)
-  \wedge
-  \left(
-    \overline{\Psi} \wedge \Gamma_{a_p} \Psi
-  \right)
-$$
-
-vanishes identically, and hence in these dimensions the term
-
-$$
-    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
-    \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
-$$
-
-is a [[cocycle]]. 
-
-=--
-
-[[!include brane scan]]
-
 
 #### Cartan connections: Graviton and gravitino field
+ {#GravitonAndGravitino}
 
 the [[super Poincaré Lie algebra]]
 
@@ -1568,9 +1564,92 @@ This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞
 
   * $R = d \Omega + [\Omega \wedge \Omega] \in \Omega^2(X, \mathfrak{so}(10,1))$ - the **[[Riemann curvature]]**
 
-  * $\rho = d \Psi + (\Omega \wedge \Psi) \in \Omega^2(X, S)$ -- the **[[covariant derivative]] of the spinor**
+  * $\rho = d \Psi + (\Omega \wedge \Psi) \in \Omega^2(X, S)$ -- the **[[covariant derivative]] of the [[gravitino]]**
+
+#### Cohomology of super-Minkowski spacetime 
+ {#CohomologyOfSuperMinkowskiSpacetime}
+
+Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ underlying the super translation group. Then the [[left-invariant 1-forms|left invariant]] [[super differential forms|super-differential 1-forms]] are
+
+* $\psi^\alpha = \mathbf{d} \theta^\alpha$.
+
+* $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a \mathbf{d} \theta$.
+
+This means that there is one non-trivial differential on these:
+
+$$ 
+  \begin{aligned}
+    \mathbf{d} e^a & = \mathbf{d} (\mathbf{d} x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta)
+    \\
+    & = \frac{i}{2} \mathbf{d} \overline{\theta}\Gamma^a \mathbf{d} \theta
+    \\
+    & = \frac{i}{2} \overline{\psi}\Gamma^a \psi
+  \end{aligned}
+  \,.
+$$
 
 
++-- {: .num_remark }
+###### Remark
+
+The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *[[supertorsion]]* of the [[super-vielbein]] $e$, because the defining equation
+
+$$
+  d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \frac{i}{2}\bar \psi \Gamma^a \psi
+$$
+
+may be read as saying that $e$ is [[torsion]]-free except for that term. Notice that this term is the only one that appears when the differential is applied to "Lorentz scalars", hence to object in $CE(\mathfrak{siso})$ which have "all indices contracted". (See also at _[[torsion constraints in supergravity]]_.)
+
+Notably we have 
+
+$$
+  \mathbf{d} \left( 
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
+  \right)
+  \propto
+  \left(
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_{p-1}}
+  \right)
+  \wedge
+  \left(
+    \overline{\Psi} \wedge \Gamma_{a_p} \Psi
+  \right)
+  \,.
+$$
+
+
+This relation is what govers all of the exceptional super Lie algebra cocycles that appear as WZW terms for [[super p-branes]]: for some combinations of $(D,p)$ a [[Fierz identity]] implies that the term
+
+$$
+  \left(
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_{p-1}}
+  \right)
+  \wedge
+  \left(
+    \overline{\Psi} \wedge \Gamma_{a_p} \Psi
+  \right)
+$$
+
+vanishes identically, and hence in these dimensions the term
+
+$$
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
+$$
+
+is a [[cocycle]]. 
+
+=--
+
+[[!include brane scan]]
+
+#### Definite super-froms
+
+
+[[definite form]], [[super p-brane]], [[parameteriedz WZW model]]
 
 
 
