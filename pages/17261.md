@@ -35,7 +35,7 @@ $$
 
 of the Kronecker pairing is an [[isomorphism]] and hence exhibits $E$-[[generalized cohomology]] as the $\pi_\bullet(E)$-[[linear dual]] of the $E$-[[generalized homology]] of $X$; an instance of a [[universal coefficient theorem]] for generalized (co-)homology (prop. \ref{KroneckerPairingAdjunctIsIsomorphism} below).
 
-On [[CW-complexes]] $X$ of finite [[dimension]], the Kronecker pairing induces a pairing of the corresponding [[Atiyah-Hirzebruch spectral sequences]] (prop. \ref{KroneckerPairingOnAHSS} below).
+On [[CW-complexes]] $X$ of [[finite number|finite]] [[dimension]], the Kronecker pairing induces a pairing of the corresponding [[Atiyah-Hirzebruch spectral sequences]] (prop. \ref{KroneckerPairingOnAHSS} below).
 
 ## Definition
 
@@ -103,6 +103,7 @@ $$
 
 
 ### Universal coefficient theorem
+ {#UniversalCoefficientTheorem}
 
 +-- {: .num_prop #KroneckerPairingAdjunctIsIsomorphism}
 ###### Proposition
@@ -112,7 +113,7 @@ If $E_\bullet(X)$ is a [[projective module|projective]] [[graded module]] over t
 $$
   \pi_0[X, E \wedge Y]
   \longrightarrow
-  Hom_{\pi_\bullet}( E_\bullet(X), E_\bullet(Y) )
+  Hom_{\pi_\bullet(E)}( E_\bullet(X), E_\bullet(Y) )
 $$
 $$
   f \mapsto \langle f,-\rangle
@@ -154,13 +155,13 @@ If $E_\bullet(X)$ is a [[projective module|projective]] [[graded module]] over t
 $$
   E^0(X)
   \longrightarrow
-  Hom_{\pi_\bullet}( E_\bullet(X), \pi_\bullet(E) )
+  Hom_{\pi_\bullet(E)}( E_\bullet(X), \pi_\bullet(E) )
 $$
 $$
   f \mapsto \langle f,-\rangle
 $$
 
-of the Kronecker pairing, def. \ref{KroneckerPairing}, is an [[isomorphism]]. Thus $$
+of the Kronecker pairing, def. \ref{KroneckerPairing}, is an [[isomorphism]]. 
 
 =--
 
@@ -169,7 +170,7 @@ of the Kronecker pairing, def. \ref{KroneckerPairing}, is an [[isomorphism]]. Th
 +-- {: .num_prop #KroneckerPairingOnAHSS}
 ###### Proposition
 
-For $E$ a [[ring spectrum]] and $X$ a [[CW complex]] of finite [[dimension]], then the Kronecker pairing $\langle -,-\rangle \colon E^\bullet(X)\otimes E_\bullet(X)\to \pi_\bullet(E)$ of def. \ref{KroneckerPairing} passes to a page-wise pairing of the corresponding [[Atiyah-Hirzebruch spectral sequences]] for $E$-cohomology/homology
+For $E$ a [[ring spectrum]] and $X$ a [[CW complex]] of [[finite number|finite]] [[dimension]], then the Kronecker pairing $\langle -,-\rangle \colon E^\bullet(X)\otimes E_\bullet(X)\to \pi_\bullet(E)$ of def. \ref{KroneckerPairing} passes to a page-wise pairing of the corresponding [[Atiyah-Hirzebruch spectral sequences]] for $E$-cohomology/homology
 
 $$
   \langle-,-\rangle_r
