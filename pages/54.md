@@ -1,14 +1,4 @@
 
-$\,$
-
-+-- {: .query}
-
-$\;\;$ Seminar: _[Topological K-Theory](https://ncatlab.org/schreiber/print/Topological+K-Theory)_
-
-=--
-
-
-$\,$
 
 ***
 
