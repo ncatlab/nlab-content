@@ -255,3 +255,7 @@ Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod alg
 
 [[!redirects commutative Hopf algebra]]
 [[!redirects commutative Hopf algebras]]
+
+[[!redirects graded commutative Hopf algebra]]
+[[!redirects graded commutative Hopf algebras]]
+
