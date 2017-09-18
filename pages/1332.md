@@ -150,7 +150,7 @@ is an acyclic fibration in the standard [[model structure on simplicial sets]].
 +-- {: .un_remark }
 ###### Remark
 
-Notice that this is stronger than the statement that $\mathbf{R}Hom(B,A) \to \mathbf{R}Hom(A,X)$ is a weak equivalence not only in that it asserts in addition a fibration, but also in that it deduces this without first passing to a cofibrant replacement of $A$ and $B$.
+Notice that this is stronger than the statement that $\mathbf{R}Hom(B,X) \to \mathbf{R}Hom(A,X)$ is a weak equivalence not only in that it asserts in addition a fibration, but also in that it deduces this without first passing to a cofibrant replacement of $A$ and $B$.
 
 =--
 
