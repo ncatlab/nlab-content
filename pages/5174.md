@@ -36,7 +36,7 @@ Throughout $\mathcal{S}$ is some base [[topos]] or [[(∞,1)-topos]] and all not
 +-- {: .un_defn}
 ###### Definition
 
-Let $\mathcal{E}$ and $\mathcal{K}$ be [[(n,1)-topos]]es. A **distribution** on $\mathcal{E}$ with values in $\mathcal{K}$ is a [[(∞,1)-functor]]
+Let $\mathcal{E}$ and $\mathcal{K}$ be [[(∞,1)-toposes]]. A **distribution** on $\mathcal{E}$ with values in $\mathcal{K}$ is a [[(∞,1)-functor]]
 
 $$
   \mu : \mathcal{E} \to \mathcal{K}
