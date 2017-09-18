@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $E$ a [[ring spectrum]], the _Kronecker pairing_ 
+is a canonical pairing of the $E$-[[generalized cohomology]] [[cohomology group|groups]] $E^\bullet(X)$ with the $E$-[[generalized homology]] groups $E_\bullet(X)$ of suitable spaces ([[homotopy types]]/[[spectra]]) $X$
+
+$$
+  \langle-,-\rangle_X 
+    \;\colon\; 
+   E^{\bullet_1}(X) \otimes E_{\bullet_2}(X) \longrightarrow \pi_{\bullet_2-\bullet_1}(E)
+  \,.
+$$ 
+
+
+If $E_\bullet(X)$ is a [[projective module]] over the [[graded ring]] $\pi_\bullet(E)$ then the [[adjunct]] 
+
+$$
+  E^0(X) \longrightarrow Hom_{\pi_\bullet(E)}(E_\bullet(X), \pi_\bullet(E))
+$$ 
+
+of the Kronecker pairing is an [[isomorphism]] and hence exhibits $E$-[[generalized cohomology]] as the $\pi_\bullet(E)$-[[linear dual]] of the $E$-[[generalized homology]] of $X$; an instance of a [[universal coefficient theorem]] for generalized (co-)homology.
+
+On finite [[CW-complexes]] $X$ the Kronecker pairing induces a pairing of the corresponding [[Atiyah-Hirzebruch spectral sequences]].
+
+## References
+
+* {#Kochmann96} [[Stanley Kochman]], (4.2.1) and prop. 4.2.10 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* {#Schwede12} [[Stefan Schwede]], chapter II, section 6 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
