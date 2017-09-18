@@ -1,38 +1,17 @@
-$$
-  \array{
-    \partial^\ast
-     \colon
-    & C^{s-1}(X,A^t(\ast))
-      & =&  \underset{i \in I_{s-1}}{\prod} A^t(\ast)
-      && \longrightarrow &&
-    \underset{i \in I_s}{\prod} A^t(\ast)
-    & = & 
-    C^{s}(X,A^t(\ast))
-    \\
-    && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
-    \\
-    && & \underset{i \in I_{s-1}}{\prod} \tilde A^{s+t-1}(S^{s-1}) 
-      && &&
-    \underset{i \in I_s}{\prod} \tilde A^{s+t}(S^{s}) 
-    \\
-    && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
-    \\
-    && d_1 \colon &
-    A^{s+t-1}(X_{s-1}, X_{s-2})
-      &\overset{}{\longrightarrow}&
-    A^{s+t-1}(X_{s-1})
-      &\overset{\delta}{\longrightarrow}&
-    A^{s+t}(X_s, X_{s-1})
-    \\
-    && & 
-    \downarrow && \downarrow && \downarrow
-    \\
-    && & 
-    A^{s+1-1}(S^{s-1}, \emptyset)
-      &\overset{}{\longrightarrow}&
-    A^{s+t-1}(S^{s-1})
-      &\overset{\delta}{\longrightarrow}&
-    A^{s+t}(D^s , S^{s-1})
-  }
-  \,.
-$$
+
+   $$
+     \array{
+       \tilde E^{n}(X) 
+         &\overset{\sigma_n(X)}{\longrightarrow}& 
+       \tilde E^{n+1}(\Sigma X) 
+       \\
+       {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+       \\
+       [X,E_n]_\ast
+         &\overset{[X,\tilde \sigma_n]_\ast}{\longrightarrow}&
+       [X, \Omega E_{n+1}]_\ast
+        \simeq
+       [\Sigma X,E_{n+1}]_\ast
+     }
+     \,,
+   $$
