@@ -1,0 +1,8 @@
+
+## Related concepts
+
+* [[Goodwillie calculus]]
+
+## References
+
+* [MO discussion](http://mathoverflow.net/a/230293/381)
