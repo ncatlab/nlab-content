@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of _Calabi-Yau algebra_ is an algebraic incarnation of the notion of _[[Calabi-Yau manifold]]_ .
+The notion of _Calabi-Yau algebra_ is an algebraic incarnation of the notion of _[[Calabi-Yau manifold]]_  and [[higher algebra]]-version of the notion of [[Frobenius algebra]].
 
 ## Definition
 
@@ -102,9 +102,14 @@ This appears as ([Ginzburg, prop. 3.3.1](#Ginzburg)).
 
   * **Calabi-Yau algebra**, [[Calabi-Yau manifold]]
 
+  * [[Calabi-Yau category]]
+
 ## References
 
-* [[Victor Ginzburg]], _Calabi-Yau algebras_ ([arXiv:0612139](http://arxiv.org/abs/math/0612139))
- {#Ginzburg}
+* {#Ginzburg} [[Victor Ginzburg]], _Calabi-Yau algebras_ ([arXiv:0612139](http://arxiv.org/abs/math/0612139))
+ 
 
 [[!redirects Calabi-Yau algebras]]
+
+[[!redirects Calabi-Yau A-∞ algebra]]
+[[!redirects Calabi-Yau A-∞ algebras]]
