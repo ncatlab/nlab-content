@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Friedman_%28philosopher%29)
+
+## related $n$Lab entries
+
+* [[philosophy of science]]
+
+category: people
