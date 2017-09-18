@@ -527,7 +527,7 @@ $$
   \,.
 $$
 
-Here the object in the middle is just the set of sets of component morphisms $\left\{ F(c)\overset{\eta_c}{\to} G(c)\right\}_{c\in \mathcal{C}}$. The two parallel maps in the equalizer diagram take such a collection to the functions which send any $c \overset{f}{\to} d$ to the result of precomposing
+Here the object in the middle is just the set of collections of component morphisms $\left\{ F(c)\overset{\eta_c}{\to} G(c)\right\}_{c\in \mathcal{C}}$. The two parallel maps in the equalizer diagram take such a collection to the functions which send any $c \overset{f}{\to} d$ to the result of precomposing
 
 $$
   \array{
@@ -768,6 +768,198 @@ $$
 $$
 
 =--
+
+### Day convolution
+
++-- {: .num_defn #DayConvolutionProduct}
+###### Definition
+
+For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on the [[enriched functor category]] $[\mathcal{C},V]$ is the [[functor]]
+
+$$
+  \otimes_{Day} \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow [\mathcal{C},V]
+$$
+
+given by the [[coend]]
+
+$$
+  X \otimes_{Day} Y
+  \;\colon\;
+  c \mapsto
+  \int^{c_1, c_2 \in \mathcal{C}}
+  X(c_1) \otimes Y(c_2) \otimes [c_1 \otimes c_2, c]
+  \,.
+$$
+
+=--
+
+We may think of this equivalently as a [[Kan extension]]:
+
++-- {: .num_defn #ExternalTensorProduct}
+###### Definition
+
+For $(\mathcal{C}, \otimes)$ a [[monoidal category|monoidal]] $V$-[[enriched category]], its _[[external tensor product]]_ is the $V$-functor
+
+$$
+  \tilde \otimes 
+   \coloneqq
+   \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow 
+   [\mathcal{C}\times \mathcal{C}, V]
+$$
+
+given by 
+
+$$
+  X \tilde \otimes Y  \coloneqq \otimes \circ (X,Y)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}
+###### Proposition
+
+The Day convolution product, def. \ref{DayConvolutionProduct}, is equivalently given by left [[Kan extension]] $Lan_\otimes$ (along the tensor product $\otimes$) of the result of the external tensor product, def. \ref{ExternalTensorProduct}: there is a [[natural isomorphism]]
+
+$$
+  X \otimes_{Day} Y
+  \simeq
+  Lan_\otimes (X \tilde \otimes Y)
+  \,.
+$$
+
+=--
+
+This perspective is highlighted in ([MMSS 00, p. 60](#MMSS00)).
+
++-- {: .proof}
+###### Proof
+
+The general formula for pointwise Kan extension via coends ([here](https://ncatlab.org/nlab/show/Kan%20extension#PointwiseByCoEnds)) says that left Kan extension of any $F \colon \mathcal{D} \to V$ along some $p \colon \mathcal{D} \to \mathcal{E}$ is given by 
+
+$$
+  Lan_p F \;\colon\; e \mapsto \int^{d\in \mathcal{D}} \mathcal{E}(p(d), e) \otimes F(d)
+  \,.
+$$
+
+In our case 
+
+* $\mathcal{D} = \mathcal{C}\times \mathcal{C}$;
+
+* $\mathcal{E} = \mathcal{C}$;
+
+* $p = \otimes$;
+
+*  $F = X \tilde \otimes X$ 
+
+and hence the general formula here becomes
+
+$$
+  \begin{aligned}
+    (Lan_{\otimes} X \tilde \otimes Y)(c)
+    & \simeq
+    \int^{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}
+    \mathcal{C}( c_1 \otimes c_2, c ) \otimes ( (X \tilde \otimes Y)(c_1,c_2) )
+    \\
+    & \simeq 
+    \int^{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}
+    \mathcal{C}( c_1 \otimes c_2, c ) \otimes ( X(c_1) \otimes Y(c_2) )
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_cor #DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
+###### Corollary
+
+Day convolution $\otimes_{Day}$, def. \ref{DayConvolutionProduct}, is universally characterized by the property that there are [[natural isomorphisms]]
+
+$$
+  [\mathcal{C},V](X \otimes_{Day} Y, Z) 
+    \simeq 
+  [\mathcal{C}\times \mathcal{C},V](X \tilde{\otimes} Y, Z \circ \otimes)
+  \,,
+$$
+
+where $\tilde \otimes$ is the external product of def. \ref{ExternalTensorProduct}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} and since left [[Kan extension]] along any $f$ is the [[left adjoint]] to precomposition with $f$.
+
+=--
+
+Write
+
+$$
+  y \colon \mathcal{C}^{op} \longrightarrow [\mathcal{C}, V]
+$$
+
+for the $V$-[[Yoneda embedding]], so that for $c\in \mathcal{C}$ any [[object]], $y(c)$ is the [[representable functor|corepresented functor]] $y(c)\colon c' \mapsto [c,c']$.
+
+
++-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
+###### Proposition
+
+For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]],
+the Day convolution product $\otimes_{Day}$ of def. \ref{DayConvolutionProduct} makes
+
+$$
+  ( [\mathcal{C}, V], \otimes, y(I))
+$$
+
+a [[closed monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor unit $I$ of $\mathcal{C}$. 
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that $y(I)$ is the tensor unit for $\otimes_{Day}$, 
+use the [[Fubini theorem]] for [[coends]] and then twice the [[co-Yoneda lemma]] to get for any $X \in [\mathcal{C},V]$ that
+
+$$
+  \begin{aligned}
+     X \otimes_{Day} y(I)
+     & 
+     =
+     \int^{c_1,c_2 \in \mathcal{C}}
+     X(c_1) \otimes [I,c_2] \otimes [c_1\otimes c_2,-]
+     \\
+     & \simeq 
+     \int^{c_1\in \mathcal{C}}
+      X(c_1) 
+         \otimes  
+      \int^{c_2 \in \mathcal{C}}  [I,c_2] \otimes [c_1\otimes c_2,-]
+    \\
+    & \simeq 
+      \int^{c_1\in \mathcal{C}}
+      X(c_1) 
+         \otimes
+      [c_1 \otimes I, -]
+    \\
+    & \simeq 
+      \int^{c_1\in \mathcal{C}}
+      X(c_1) 
+         \otimes
+      [c_1, -]  
+    \\
+    & \simeq
+    X(-)
+    \\
+    & \simeq 
+    X
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
 
 
 
