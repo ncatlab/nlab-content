@@ -24,7 +24,7 @@
 
 ## Idea
 
-The notion of _[[(∞,1)-category]]_ may be formulated [[internalization|internal]] to any other $(\infty,1)$-category with sufficient properties (with a rich enough [[internal logic]]). 
+The notion of _[[(∞,1)-category]]_ may be formulated [[internalization|internally]] to any other $(\infty,1)$-category with sufficient properties (with a rich enough [[internal logic]]). 
 This generalizes the notion of _[[internal category]]_ from [[category theory]] to [[(∞,1)-category theory]]. In fact, an internal category in an $(\infty,1)$-category is automatically, externally, itself an [[(∞,1)-category]].
 
 
