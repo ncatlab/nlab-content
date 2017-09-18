@@ -22,7 +22,12 @@ Classical commutative monoids are of course just commutative monoids in [[Set]] 
 
 ## Definition
 
-...
+A **commutative monoid** in a [[symmetric monoidal category]] $(C,\otimes,I)$ with braiding $B$ is a [monoid](http://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) $M$ with multiplication $\mu$ and unit $\eta$ such that the following diagram commutes:
+$$ \array{
+M \otimes M & \overset{B_{M,M}}{\longrightarrow} & M \otimes M \\
+{}_{\mu} \searrow & & \swarrow_{\mu} \\
+& M & 
+} $$
 
 ## Related concepts
 
