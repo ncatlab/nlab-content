@@ -60,4 +60,6 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 * [[Atiyah 2-framing]]
 
+* [[associative submanifold]]
+
 [[!redirects 3-manifolds]]
