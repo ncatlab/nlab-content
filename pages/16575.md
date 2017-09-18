@@ -29,6 +29,8 @@ Examples include [[KK-compactification]] of [[M-theory]] on [[K3]] fibers and on
 
 * [[spontaneously broken symmetry]]
 
+* [[duality between F-theory and heterotic string theory]]
+
 ## References
 
 * [[Paul Aspinwall]], _Enhanced Gauge Symmetries and K3 Surfaces_, Phys.Lett. B357 (1995) 329-334 ([arXiv:hep-th/9507012](http://arxiv.org/abs/hep-th/9507012))
@@ -38,6 +40,10 @@ Examples include [[KK-compactification]] of [[M-theory]] on [[K3]] fibers and on
 * [[Edward Witten]], section 4.6 of _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
 * {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], _Enhanced Gauge Symmetries in Superstring Theories_, Nucl.Phys. B451 (1995) 525-546 ([arXiv:hep-th/9505073](http://arxiv.org/abs/hep-th/9505073))
+
+* M. Bershadsky, [[Ken Intriligator]], [[Shamit Kachru]], [[David Morrison]], V. Sadov, [[Cumrun Vafa]], _Geometric Singularities and Enhanced Gauge Symmetries_, Nucl.Phys.B481:215-252,1996 ([arXiv:hep-th/9605200](http://arxiv.org/abs/hep-th/9605200))
+
+* [[Philip Candelas]], Eugene Perevalov, Govindan Rajesh, _Toric Geometry and Enhanced Gauge Symmetry of F-Theory/Heterotic Vacua_, Nucl.Phys. B507 (1997) 445-474 ([arXiv:hep-th/9704097](http://arxiv.org/abs/hep-th/9704097))
 
 * [[Mirjam Cvetic]], [[Chris Hull]], _Wrapped Branes and Supersymmetry_, Nucl.Phys.B519:141-158,1998 ([arXiv:hep-th/9709033](http://arxiv.org/abs/hep-th/9709033))
 
