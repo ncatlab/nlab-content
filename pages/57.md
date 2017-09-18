@@ -40,101 +40,91 @@ While the construction exists and behaves as expected in examples, there is to d
 
 ## Definition
 
-Let $\mathfrak{a}$ be an [[∞-Lie algebroid]] (for instance a [[Lie algebra]], or a [[Lie algebroid]] or an [[L-∞-algebra]]). 
-
-For $n \in \mathbb{N}$ write $\Delta^n$ for the $n$-[[simplex]] regarded as a [[smooth manifold]] (with boundary and corners).  
-
-For $d \in \mathbb{N}$, a **$d$-path** in the $\infty$-Lie algebroid is a morphism of $\infty$-Lie algebroids
+Throughout, let $\mathfrak{a}$ be an [[∞-Lie algebroid]] (for instance a [[Lie algebra]], or a [[Lie algebroid]] or an [[L-∞-algebra]]). Write 
 
 $$
-  \Sigma : T \Delta^d_{Diff} \to \mathfrak{a}
-$$ 
-
-from the [[tangent Lie algebroid]] $T \Delta^d_{Diff}$ of the standard smooth $d$-simplex to $\mathfrak{a}$.
-
-
-Dually this a morphism of [[dg-algebra]]
-
-$$
-  \Omega^\bullet(\Delta^n) \leftarrow CE(\mathfrak{a}) : \Sigma^*
+  CE(\mathfrak{a}) \in dgAlg
 $$
 
-from the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$ to the [[de Rham complex]].
-
-
-
-### Integration to a discrete $\infty$-groupoid {#IntToBareGrpd}
-
-Here we discuss the [[discrete ∞-groupoid]]s underlying the 
-[[smooth ∞-groupoid]]s to which an [[∞-Lie algebroid]] integrates.
-
-For $\mathfrak{a}$ an $\infty$-Lie algebroid, the $d$-paths in $\mathfrak{a}$ naturally form a [[simplicial set]] 
+for its [[Chevalley-Eilenberg algebra]], a [[dg-algebra]]. Notice that, by the discussion at _[[L-∞ algebra]]_ and at _[[∞-Lie algebroid]]_, the Chevalley-Eilenberg dg-algebras $CE(\mathfrak{a})$ is the [[formal dual]] of $\mathfrak{a}$, in that the [[functor]]
 
 $$
-  \exp(\mathfrak{a})_{bare}
-  :=
-  \left(
-   \cdots    
-   Hom(T \Delta^2, \mathfrak{a})
-   \stackrel{\t}{\stackrel{\to}{\to}}
-   Hom(T \Delta^1, \mathfrak{a})
-   \stackrel{\to}{\to}
-   Hom(T \Delta^0, \mathfrak{g})
-  \right)
+  CE \colon \infty LieAlgd \hookrightarrow dgAlg^{op}
 $$
 
-which is a [[Kan complex]] under mild technical fine-tuning of the definition of $d$-paths.
+is a [[fully faithful functor]]. Indeed, the following definition of Lie integration (being just a smooth refinement of the [[Sullivan construction]]) makes sense just as well for any dg-algebra, not necessarily in the [[essential image]] of this embedding. But only for dg-algebras in the essential image of this embedding do the examples come out as expected for [[higher Lie theory]].
 
-Since morphisms of [[∞-Lie algebroid]]s are dually equivalent to [[dg-algebra]] morphisms of their [[Chevalley-Eilenberg algebra]], the above is equivalent to
+An [[∞-Lie algebra]] is equivalently a [[pointed object|pointed]] [[∞-Lie algebroid]] whose base space is the point. We write $\mathfrak{b}\mathfrak{g} \in \infty Lie Algd$ for objects of this form ("[[delooping]]")
 
 $$
-   \exp(\mathfrak{a})_{bare}
-   :=
-   (
-   \cdots 
-   Hom(CE(\mathfrak{a}), \Omega^\bullet(\Delta^2))
-   \stackrel{\to}{\stackrel{\to}{\to}}
-   Hom(CE(\mathfrak{a}), \Omega^\bullet(\Delta^1))
-   \stackrel{\to}{\to}
-   Hom(CE(\mathfrak{a}), \Omega^\bullet(\Delta^0))
-   )
+  \array{
+     \infty LieAlgd &\stackrel{CE}{\hookrightarrow}& dgAlg^{op}
+     \\
+     \uparrow^{\mathrlap{b}} & \nearrow_{\mathrlap{CE}}
+     \\
+     \infty LieAlg
+     \,.
+  }
+$$
+
+Notice that this induces some degree shifts that may be a little ambiguous in situations like the [[line Lie n-algebra]]: as an [[L-∞ algebra]] this is $b^{n-1}\mathbb{R}$, the corresponding [[∞-Lie algebroid]] is $b^n \mathbb{R}$.
+
+### Higher dimensional paths in an $\infty$-Lie algebroid
+ {#HigherPathsInAnInfinityLieAlgebroid}
+
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[smooth manifold]] (possibly [[nLab:manifold with boundary|with boundary]] and [[manifold with corners|with corners]]) then its [[tangent Lie algebroid]] $T X$ is the one whose [[Chevalley-Eilenberg algebra]] is the [[de Rham complex]] 
+
+$$
+  CE(T X) = (\Omega^\bullet(X), d_{dR})
   \,.
 $$
-
-This is (up to fine-tuning of the nature of the differential forms on the simplices) the [[Sullivan construction]] of [[rational homotopy theory]] that tuns a dg-algvebra into a simplicial set, applied to the dg-algebra $CE(\mathfrak{a})$.
-
-
-+-- {: .num_remark}
-###### Remark
-**(spurious homotopy groups)**
-
-For $\mathfrak{a}$ a [[infinity-Lie algebroid|Lie n-algebroid]] (an $n$-[[truncated]] $\infty$-Lie algebroid) this construction will not yield in general an $n$-[[truncated]] [[∞-groupoid]] $\exp(\mathfrak{a})$. 
-
-To see this, consider the example (discussed in detail [below](#LieAlgebrasToLieGroups)) that $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]]. Then $\exp(\mathfrak{g})_n$ is canonically identified with the set of smooth based maps $\Delta^n \to G$ into the simply connected [[Lie group]] that integrates $\mathfrak{g}$ in ordinary [[Lie theory]]. This means that the simplicial [[homotopy group]]s of $\exp(\mathfrak{g})$ are the topological homotopy groups of $G$, which in general (say for $G$ the [[orthogonal group]] or [[unitary group]]) will be non-trivial in arbitrarily higher degree, even though $\mathfrak{g}$ is just a Lie 1-algebra. This phenomenon is well familiar from [[rational homotopy theory]], where a classical theorem asserts that the rational homotopy groups of $\exp(\mathfrak{g})$ are generated from the generators in a [[minimal Sullivan model]] resolution of $\mathfrak{g}$. 
 
 =--
 
-For the purposes of $\infty$-Lie theory therefore instead one wants to [[truncated|truncate]] $\exp(\mathfrak{g})$ to its $(n+1)$-[[coskeleton]]
++-- {: .num_defn #kPath}
+###### Definition
+
+For $k \in \mathbb{N}$ write $\Delta^k$ for the standard $k$-[[simplex]] regarded as a [[smooth manifold]] ([[nLab:manifold with boundary|with boundary]] and [[manifold with corners|with corners]]).  
+
+A **$k$-path** in the $\infty$-Lie algebroid $\mathfrak{a}$ is a morphism of $\infty$-Lie algebroids of the form
 
 $$
-  \mathbf{cosk}_{n+1}\exp(\mathfrak{a})_{bare}  
-  \,.
+  \Sigma \; \coloneqq \; T \Delta^k \longrightarrow \mathfrak{a}
+$$ 
+
+from the [[tangent Lie algebroid]] $T \Delta^k$ of the standard smooth $k$-simplex to $\mathfrak{a}$. Dually this is equivalently a [[homomorphism]] of [[dg-algebras]]
+
+$$
+  \Omega^\bullet(\Delta^k) \longleftarrow CE(\mathfrak{a}) \;\colon\; \Sigma^*
 $$
 
+from the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$ to the [[de Rham complex]] of $\Delta^d$.
 
-This divides out [[k-morphism|n-morphisms]] by $(n+1)$-morphisms and forgets all higher higher nontrivial morphisms, hence all higher homotopy groups.
+=--
 
+See also at _[[differential forms on simplices]]_.
 
-### Integration to a smooth $\infty$-groupoid {#SmoothIntegration}
++-- {: .num_remark}
+###### Remark
 
-We now discuss Lie integration of $\infty$-Lie algebroids to [[smooth ∞-groupoid]]s, [[presentable (∞,1)-category|presented]] by the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ over the [[site]] [[CartSp]]${}_{smooth}$.
+A $k$-path in $\mathfrak{a}$, def. \ref{kPath}, is equivalently 
 
-For discussing smooth families of $d$-paths we need the following technical notion.
+1. a _flat_ $\mathfrak{a}$-[[infinity-Lie algebroid valued differential form|valued differential form]] on $\Delta^k$;
+
+1. a [[Maurer-Cartan element]] in $\Omega^\bullet(\Delta^k)\otimes \mathfrak{a}$.
+
+=--
+
+The Lie integration of $\mathfrak{a}$ is essentially the [[simplicial object]] whose $k$-cells are the $d$-paths in $\mathfrak{a}$. However, in order for this to be well-behaved, it is possible and useful to restrict to $d$-paths that are sufficiently well-behaved towards the [[boundary]] of the simplex:
 
 +-- {: .num_defn}
 ###### Definition
 
-For $k \in \mathbb{N}$ regard the $k$-[[simplex]] $\Delta^k$ as a [[smooth manifold|smooth]] [[manifold with corners]] in the standard way. We think of this embedded into the [[Cartesian space]] $\mathbb{R}^k$ in the standard way with maximal rotation symmetry about the center of the simplex, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
+Regard the smooth simplex $\Delta^k$ as embedded into the [[Cartesian space]] $\mathbb{R}^{k+1}$ in the standard way, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
 
 A smooth [[differential form]] $\omega$ on $\Delta^k$ is said to have **sitting instants** along the boundary if, for every $(r \lt k)$-face $F$ of $\Delta^k$ there is an [[open neighbourhood]] $U_F$ of $F$ in $\Delta^k$ such that $\omega$ restricted to $U$ is constant in the directions perpendicular to the $r$-face on its value restricted to that face.
 
@@ -146,7 +136,7 @@ We write $\Omega_{si,vert}^\bullet(U \times \Delta^k)$ for the further sub-dg-al
 
 $$
   \Omega^\bullet(U)
-  \stackrel{\stackrel{p^*}{\to}}{\underset{0}{\to}}
+  \stackrel{\stackrel{p^*}{\longrightarrow}}{\underset{0}{\longrightarrow}}
   \Omega^\bullet_{si}(U \times \Delta^k)
   \to
   \Omega^\bullet_{si, vert}(U \times \Delta^k)  
@@ -158,11 +148,10 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Note that the dimension of the normal direction to a face depends on the dimension of the face:  there is one perpendicular direction to a codimension-1 face, and $k$ perpendicular directions to a
+The dimension of the normal direction to a face depends on the dimension of the face:  there is one perpendicular direction to a codimension-1 face, and $k$ perpendicular directions to a
 vertex. 
 
 =--
-
 
 +-- {: .num_example}
 ###### Examples
@@ -176,72 +165,143 @@ vertex.
 * Let $X$ be a [[smooth manifold]], $\omega \in \Omega^\bullet(X)$ be a smooth differential form. Let 
 
   $$
-    \phi : \Delta^n \to X
+    \phi \colon \Delta^k \to X
   $$
 
-  be a [[smooth function]] that has [[sitting instant]]s as a function: towards any $k$-face of $\Delta^n$ it eventually becomes perpendicularly constant.
+  be a [[smooth function]] that has [[sitting instants]] as a function: towards any $j$-face of $\Delta^k$ it eventually becomes perpendicularly constant.
 
-  Then the pullback form $\phi^* \omega \in \Omega^\bullet(\Delta^n)$ is a form with sitting instants.
+  Then the [[pullback of differential forms|pullback]] form $\phi^* \omega \in \Omega^\bullet(\Delta^k)$ is a form with sitting instants.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The condition of sitting instants serves to make smooth differential forms not be affected by the boundaries and corners of $\Delta^n$. Notably for $\omega_j \in \Omega^\bullet(\Delta^{n-1})$ a collection of forms with sitting instants on the $(n-1)$-cells of a horn $\Lambda^n_i$ that coincide on adjacent boundaries, and for
+The condition of sitting instants serves to make smooth differential forms not be affected by the boundaries and corners of $\Delta^k$. Notably for $\omega_j \in \Omega^\bullet(\Delta^{k-1})$ a collection of forms with sitting instants on the $(k-1)$-cells of a [[horn]] $\Lambda^k_i$ that coincide on adjacent boundaries, and for
 
 $$
-  p : \Delta^n \to \Lambda^{n-1}_i
+  p \colon \Delta^k \to \Lambda^{k-1}_i
 $$
 
-a standard piecewise smooth [[retract]]s, the pullbacks
+a standard piecewise smooth [[retract]], the [[pullback of differential forms|pullbacks]]
 
 $$
   p^* \omega_i 
 $$
 
-glue to a single smooth form (with sitting instants) on $\Delta^n$.
+glue to a single smooth differential form (with sitting instants) on $\Delta^k$.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-Notice that $\omega \in \Omega^\bullet(\Delta^n)$ having sitting instants does not imply that there is a neighbourhood of the boundary of $\Delta^n$ on which $\omega$ is entirely constant. It is important for the following constructions that in the vicinity of the boundary $\omega$ is allowed to vary parallel to the boundary, just not perpendicular to it.
+That $\omega \in \Omega^\bullet(\Delta^k)$ having sitting instants does not imply that there is a neighbourhood of the boundary of $\Delta^k$ on which $\omega$ is entirely constant. It is important for the following constructions that in the vicinity of the boundary $\omega$ is allowed to vary parallel to the boundary, just not perpendicular to it.
 
 =--
 
-For the following definition recall the [[presentable (∞,1)-category|presentation]] of [[smooth ∞-groupoid]]s by the [[model structure on simplicial presheaves]] over the [[site]] [[CartSp]]${}_{smooth}$. 
+### Integration to a discrete $\infty$-groupoid 
+ {#IntToBareGrpd}
+
+Here we discuss the [[discrete ∞-groupoid]]s underlying the 
+[[smooth ∞-groupoid]]s to which an [[∞-Lie algebroid]] integrates.
+
+For $\mathfrak{a}$ an $\infty$-Lie algebroid, the $d$-paths in $\mathfrak{a}$ naturally form a [[simplicial set]] as $d$ varies:
+
+$$
+  \begin{aligned}
+    \exp(\mathfrak{a})_{bare}
+    & \coloneqq
+    \left(
+     \cdots    
+     Hom_{\infty LieAlgd}(T \Delta^2, \mathfrak{a})
+     \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+     Hom_{\infty LieAlgd}(T \Delta^1, \mathfrak{a})
+     \stackrel{\longrightarrow}{\longrightarrow}
+     Hom_{\infty LieAlgd}(T \Delta^0, \mathfrak{g})
+    \right)
+     \\
+    & =
+   (
+   \cdots 
+   Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(\Delta^2))
+   \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+   Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(\Delta^1))
+   \stackrel{\longrightarrow}{\longrightarrow}
+   Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(\Delta^0))
+   )
+  \end{aligned}
+  \,.
+$$
+
+(We are indicating only the face maps, not the degeneracy maps, just for notational simplicity).
+
+If here instead of smooth differential forms one uses [[polynomial differential forms]] then this is precisely the [[Sullivan construction]] of [[rational homotopy theory]] applied to $CE(\mathfrak{a})$. We next realize [[smooth structure]]  on this and hence realize this as an object in [[higher Lie theory]].
+
+
++-- {: .num_remark}
+###### Remark
+**(spurious homotopy groups)**
+
+For $\mathfrak{a}$ a [[infinity-Lie algebroid|Lie n-algebroid]] (an $n$-[[truncated]] $\infty$-Lie algebroid) this construction will not yield in general an $n$-[[truncated]] [[∞-groupoid]] $\exp(\mathfrak{a})$. 
+
+To see this, consider the example (discussed in detail [below](#LieAlgebrasToLieGroups)) that $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]]. Then $\exp(\mathfrak{g})_n$ is canonically identified with the set of smooth based maps $\Delta^n \to G$ into the simply connected [[Lie group]] that integrates $\mathfrak{g}$ in ordinary [[Lie theory]]. This means that the simplicial [[homotopy group]]s of $\exp(\mathfrak{g})$ are the topological homotopy groups of $G$, which in general (say for $G$ the [[orthogonal group]] or [[unitary group]]) will be non-trivial in arbitrarily higher degree, even though $\mathfrak{g}$ is just a Lie 1-algebra. This phenomenon is well familiar from [[rational homotopy theory]], where a classical theorem asserts that the rational homotopy groups of $\exp(\mathfrak{g})$ are generated from the generators in a [[minimal Sullivan model]] resolution of $\mathfrak{g}$. 
+
+=--
+
+For the purposes of [[higher Lie theory]] therefore instead one wants to [[truncated|truncate]] $\exp(\mathfrak{g})$ to its $(n+1)$-[[coskeleton]]
+
+$$
+  \mathbf{cosk}_{n+1}\exp(\mathfrak{a})_{bare}  
+  \,.
+$$
+
+
+This divides out [[n-morphisms]] by $(n+1)$-morphisms and forgets all higher higher nontrivial morphisms, hence all higher homotopy groups.
+
+
+### Integration to a smooth $\infty$-groupoid {#SmoothIntegration}
+
+We now discuss Lie integration of $\infty$-Lie algebroids to [[smooth ∞-groupoid]]s, [[presentable (∞,1)-category|presented]] by the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ over the [[site]] [[CartSp]]${}_{smooth}$.
+
+
+
+For the following definition recall the [[presentable (∞,1)-category|presentation]] of [[smooth ∞-groupoids]] by the [[model structure on simplicial presheaves]] over the [[site]] [[CartSp]]${}_{smooth}$. 
 
 +-- {: .num_defn}
-
 ###### Definition
 
-For $\mathfrak{a}$ an [[L-∞ algebra]] of [[finite type]] with [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ define the [[simplicial presheaf]] $\exp(\mathfrak{a}) : CartSp_{smooth}^{op} \to sSet$ by
+For $\mathfrak{a}$ an [[L-∞ algebra]] of [[finite type]] with [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ define the [[simplicial presheaf]] 
+
+$$
+  \exp(\mathfrak{a}) \;\colon\; CartSp_{smooth}^{op} \to sSet
+$$
+
+by
 
 $$  
   \exp(\mathfrak{a})
-  : 
-  (U,[n]) \mapsto 
+  \;\colon\;
+  (U,[k]) \mapsto 
   Hom_{dgAlg}(CE(\mathfrak{a}), 
-  \Omega^\bullet(U \times \Delta^n)_{si,vert})
+  \Omega^\bullet(U \times \Delta^k)_{si,vert})
   \,,
 $$
 
 
-for all $U \in $ [[CartSp]] and $[n] \in \Delta$. 
+for all $U \in $ [[CartSp]] and $[k] \in \Delta$. 
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-Compared to the integration to [[discrete ∞-groupoid]]s [above](#IntToBareGrpd) this definition knows about $U$-parametrized _smooth families_ of $n$-paths in $\mathfrak{g}$.
+Compared to the integration to [[discrete ∞-groupoids]] [above](#IntToBareGrpd) this definition knows about $U$-parametrized _smooth families_ of $k$-paths in $\mathfrak{g}$.
 
-The underlying [[discrete ∞-groupoid]] is recovered as that of the $\mathbb{R}^0 = *$-parametrized family:
+The underlying [[discrete ∞-groupoid]] is recovered as that of the $\mathbb{R}^0 = *$-parameterized family:
 
 $$
-  \exp(\mathfrak{a}) : \mathbb{R}^0 \mapsto \exp(\mathfrak{a})_{disc}
+  \exp(\mathfrak{a}) \colon \mathbb{R}^0 \mapsto \exp(\mathfrak{a})_{disc}
   \,.
 $$
 
@@ -250,14 +310,14 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-The objects $\exp(\mathfrak{g})$ are indeed [[Kan complex]]es over each $U \in $ [[CartSp]].
+The objects $\exp(\mathfrak{g})$ are indeed [[Kan complexes]] over each $U \in $ [[CartSp]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Observe that the standard [[continuous function|continuous]] [[horn]] [[retract]]s $f : \Delta^k \to \Lambda^k_i$ are smooth away from the preimages of the $(r \lt k)$-faces of $\Lambda[k]^i$.
+Observe that the standard [[continuous function|continuous]] [[horn]] [[retracts]] $f : \Delta^k \to \Lambda^k_i$ are [[smooth function|smooth]] away from the preimages of the $(r \lt k)$-faces of $\Lambda[k]^i$.
 
 For $\omega \in \Omega^\bullet_{si,vert}(U \times \Lambda[k]^i)$ a differential form with sitting instants on $\epsilon$-neighbourhoods, let therefore $K \subset \partial \Delta^k$ be the set of points of distance $\leq \epsilon$ from any subface. Then we have a smooth function 
 
@@ -266,24 +326,24 @@ $$
   \,.
 $$
 
-The pullback $f^* \omega \in \Omega^\bullet(\Delta^k \setminus K)$ may be extended constantly back to a form with sitting instants on all of $\Delta^k$. 
+The [[pullback of differential forms|pullback]] $f^* \omega \in \Omega^\bullet(\Delta^k \setminus K)$ may be extended constantly back to a form with sitting instants on all of $\Delta^k$. 
 
 The resulting assignment
 
 $$
-  (CE(\mathfrak{g}) \stackrel{A}{\to} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i))
+  (CE(\mathfrak{g}) \stackrel{A}{\longrightarrow} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i))
   \mapsto
   (CE(\mathfrak{g}) \stackrel{A}{\to} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i) \stackrel{f^*}{\to} \Omega^\bullet_{si,vert}(U \times \Delta^n))
 $$
 
-provides fillers for all [[horn]]s over all $U \in $ [[CartSp]].
+provides fillers for all [[horns]] over all $U \in $ [[CartSp]].
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
-Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial presheaf obtained by postcomposing $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ with the $(n+1)$-[[coskeleton]] [[functor]] $\mathbf{cosk}_{n+1} : sSet \stackrel{tr_n}{\to} sSet_{\leq n+1} \stackrel{cosk_{n+1}}{\to} sSet$.
+Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial presheaf obtained by postcomposing $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ with the $(n+1)$-[[coskeleton]] [[functor]] $\mathbf{cosk}_{n+1} : sSet \stackrel{tr_n}{\longrightarrow} sSet_{\leq n+1} \stackrel{cosk_{n+1}}{\to} sSet$.
 
 =--
 
@@ -291,34 +351,37 @@ Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial presheaf obtained by post
 
 ## Examples
 
-See also at [[smooth ∞-groupoid]] the section <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucLieAlg">Exponentiated ∞-Lie algebras</a>.
+See also at _[[smooth ∞-groupoid -- structures]]_ the section _[Exponentiated ∞-Lie algebras](smooth+infinity-groupoid+--+structures#StrucLieAlg)_.
 
 
-### Interating Lie algebras to Lie groups {#LieAlgebrasToLieGroups}
+### Interating Lie algebras to Lie groups 
+  {#LieAlgebrasToLieGroups}
 
 Let $\mathfrak{g} \in L_\infty$ be an ordinary (finite dimensional) [[Lie algebra]]. Standard [[Lie theory]] (see [[Lie's three theorems]]) provides a [[simply connected]] [[Lie group]] $G$ integrating $\mathfrak{g}$.
 
 With $G$ regarded as a [[smooth ∞-groupoid|smooth ∞-group]] write $\mathbf{B}G \in $ [[Smooth∞Grpd]] for its [[delooping]]. The standard presentation of this on $[CartSp_{smooth}^{op}, sSet]$ is by the [[simplicial presheaf]] 
 
 $$
-  \mathbf{B}G_c : U \mapsto N(C^\infty(U,G) \stackrel{\to}{\to} *)
+  \mathbf{B}G_c 
+  \colon 
+  U \mapsto N(C^\infty(U,G) \stackrel{\longrightarrow}{\longrightarrow} *)
   *
   \,.
 $$
 
 
-See <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#LieGroups">Cohesive ∞-groups -- Lie groups</a> for details.
+See at _[smooth infinity-groupoid -- structures -- Lie groups](smooth+infinity-groupoid+--+structures#LieGroups)_ for more details.
 
-+-- {: .num_prop}
++-- {: .num_prop #ResultOfIntegrationOfOrdinaryLieAlgebra}
 ###### Proposition
 
 The operation of [[parallel transport]] $P \exp(\int -) : \Omega^1([0,1], \mathfrak{g}) \to G$ yields a weak equivalence (in $[CartSp^{op}, sSet]_{proj}$)
 
 $$
   P \exp(\int - )
-  :
+  \;\colon\;
   \mathbf{cosk}_3 \exp(\mathfrak{g}) 
-  \simeq 
+  \;\simeq\; 
    \mathbf{cosk}_2 \exp(\mathfrak{g}) \simeq \mathbf{B}G_c
   \,.
 $$
@@ -365,7 +428,7 @@ $$
 From this we obtain
 
 +-- {: .proof}
-###### Proof of the proposition
+###### Proof of prop. \ref{ResultOfIntegrationOfOrdinaryLieAlgebra}.
 
 The $\infty$-groupoid $\mathbf{cosk}_2 \exp(\mathfrak{g})$ is equivalent to the [[groupoid]] with a single object (no non-trivial 1-form on the point) whose morphisms are equivalence classes of smooth based paths $\Delta^1 \to G$ (with sitting instants), where two of these are taken to be equivalent if there is a smooth [[homotopy]] $D^2 \to G$ (with sitting instant) between them.
 
@@ -382,13 +445,14 @@ We do not need to fall back to classical [[Lie theory]] to obtain $G$ in the abo
 
 
 
-### Integrating to line/circle Lie $n$-groups {#IntegrationToLineNGroup}
+### Integrating to line/circle Lie $n$-groups 
+ {#IntegrationToLineNGroup}
 
 
 +-- {: .num_defn}
 ###### Definition
 
-For $n \in \mathbb{N}, n \geq 1$ write $b^{n-1} \mathbb{R}$ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $n$ and vanishing differential. We may call this the **line Lie $n$-algebra**.
+For $n \in \mathbb{N}, n \geq 1$ write $b^{n-1} \mathbb{R}$ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $n$ and vanishing differential. We may call this the **[[line Lie n-algebra]]**.
 
 Write $\mathbf{B}^{n} \mathbb{R}$ for the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">smooth line (n+1)-group</a>.
 
@@ -403,6 +467,7 @@ The [[discrete ∞-groupoid]] underlying $\exp(b^{n-1} \mathbb{R})$ is given by 
 $$
   \exp(b^{n-1} \mathbb{R})_{disc}
   : 
+
   [k] \mapsto \Omega^n_{si,cl}(\Delta^k)
 $$
 
@@ -411,7 +476,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-The $\infty$-Lie integration of $b^{n-1} \mathbb{R}$ is the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">line Lie n-group</a> $\mathbf{B}^{n} \mathbb{R}$. 
+The $\infty$-Lie integration of $b^{n-1} \mathbb{R}$ is the [[circle n-group]] $\mathbf{B}^{n} \mathbb{R}$. 
 
 Moreover, with $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ the standard presentation given under the [[Dold-Kan correspondence]] by the chain complex of sheaves concentrated in degree $n$ on $C^\infty(-, \mathbb{R})$ the equivalence is induced by the [[fiber integration]] of differential $n$-forms over the $n$-[[simplex]]:
 
@@ -419,7 +484,7 @@ $$
   \int_{\Delta^\bullet} 
    : 
   \exp(b^{n-1} \mathbb{R})
-   \stackrel{\simeq}{\to}
+   \stackrel{\simeq}{\longrightarrow}
   \mathbf{B}^{n} \mathbb{R}_{chn}
   \,.
 $$
@@ -609,6 +674,7 @@ A description of Lie integration with values in [[smooth ∞-groupoids]] regarde
 Essentially the same integration prescription is considered in 
 
 * {#Roytenberg09} [[Dmitry Roytenberg]], _Differential graded manifolds and associated stacks: an overview_ ([pdf](https://sites.google.com/site/dmitryroytenberg/unpublished/dg-stacks-overview.pdf))
+
 
 
 The Lie integration- of [[Lie infinity-algebroid representation|Lie algebroid representations]] $\mathfrak{a} \to end(V)$ to morphisms of [[∞-categories]] $A \to Ch_\bullet^\circ$ / [[higher parallel transport]] is discussed in
