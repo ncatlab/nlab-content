@@ -352,7 +352,7 @@ The rest of the diagram is constructed in order to prove the following:
 
 * [[spin structure]], [[twisted spin structure]]
 
-* [[2-framing]]
+* [[p1-structure]], [[Atiyah 2-framing]]
 
 * **string structure**, [[differential string structure]]
 
