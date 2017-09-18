@@ -55,9 +55,7 @@ Let $f: U \to \Omega$ be the classifying map of the mono $1_U: U \to U$, and let
 
 * [[effective epimorphism]]
 
-* [[inhabited type]]
-
-  * [[inhabited object]], [[inhabited set]]
+* [[inhabited object]]
 
 * [[bracket type]], [[image]]
 
