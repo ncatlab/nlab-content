@@ -1,0 +1,33 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _compactly supported distribution_ is a [[distribution]] whose [[support of a distribution]] is a [[compact topological space|compact]] [[subset]]
+
+## Related concepts
+
+* [[compactly supported continuous function]]
+
+* [[bump function]]
+
+## References
+
+* {#Hoermander90} [[Lars Hörmander]], section 2.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+
+[[!redirects compactly supported distrbutions]]
