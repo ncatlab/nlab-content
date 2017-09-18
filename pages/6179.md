@@ -40,7 +40,7 @@ The term _S-duality_ can mean two different things:
 
 In the original and restricted sense, _S-duality_ refers to the conjectured [[Montonen-Olive duality]] auto-[[equivalence]] of ([[super Yang-Mills theory|super]]) [[Yang-Mills theory]] in 4 dimensions under which the [[coupling constant]] is inverted, and more generally under which the combined [[coupling constant]] and [[theta angle]] tranform under an action of the [[modular group]]. At least for [[super Yang-Mills theory]] this conjecture can be argued for in detail. 
 
-There is also a [[duality in string theory]] called _S-duality_. Specifically in [[type IIB superstring theory]]/[[F-theory]] this is given by an action of the [[modular group]] on the [[axio-dilaton]], hence is, via the proportionality of the dilatorn to the string coupling constant, again a weak-strong coupling duality.
+There is also a [[duality in string theory]] called _S-duality_. Specifically in [[type IIB superstring theory]]/[[F-theory]] this is given by an action of the [[modular group]] on the [[axio-dilaton]], hence is, via the proportionality of the dilaton to the string coupling constant, again a weak-strong coupling duality.
 
 Indeed, at least for [[super Yang-Mills theory]] Montonen-Olive S-duality may be understood as a special case of the [[duality in string theory|string duality]] ([Witten 95a](#Witten95a), [Witten 95b](#Witten95b)): one may understand [[N=2 D=4 super Yang-Mills theory]] as the [[KK-compactification]] of the [[M5-brane]] [[6d (2,0)-superconformal QFT]] on the [[F-theory]] torus ([Johnson 97](#Johnson97)) to get the [[D3-brane]] worldvolume theory, and the remnant [[modular group]] action on the compactified torus is supposed to be the 4d Montonen-Olive S-duality ([Witten 07](#Witten07)).
 
