@@ -52,7 +52,7 @@ Related books are
 * [[submanifold]]
 
 
-#### 1.1b The Geometry of Lacobian Matrices: The "Differential"
+#### 1.1b The Geometry of Jacobian Matrices: The "Differential"
 
 #### 1.1c The main theorem on submanifolds of $\mathbb{R}^N$
 
