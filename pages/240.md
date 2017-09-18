@@ -7,7 +7,7 @@
 
 An [[elementary topos]] $E$ is **well-pointed** if
 
-1. the [[terminal object]] 1 is a [[generator]];
+1. the [[terminal object]] 1 is a [[separator|generator]];
 
    equivalently: the [[global section]] functor $\Gamma : E \to Set = E(1, -)$
    is a [[faithful functor]];
