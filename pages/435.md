@@ -18,7 +18,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
@@ -111,6 +111,10 @@ See [[(∞,2)-category]] for the moment.
 
 
 ## References
+
+In the context of [[model category]] theory, simplicially enriched categories ([[simplicial model categories]]) appear in
+
+* {#Quillen67} [[Dan Quillen]], chapter II, section 1 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
 
 The original references on homotopy theory in terms of $sSet$-categories are
 
