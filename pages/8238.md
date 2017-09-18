@@ -23,8 +23,9 @@ $$
 $$
 
 
-A [[limit]] over a diagram of this form is called a [[sequential limit]]/[[directed limit]].
-
+A [[limit]] over a diagram of this form is called a [[sequential limit]]/[[directed limit]]. If all connecting morphisms $X_{i+1}\to X_i$ are epimorphism then we sometimes say that the tower is a [[cofiltration]] (though the same term may be sometimes applied more generally for more general index categories,
+or more restrictively when there is an object in the ambient category such that
+all $X_i$ are its quotients).
 
 Different contexts lead to different notions of morphism of towers, so it is important to consider what category of towers is appropriate for any given use of these objects. In addition to [[Postnikov towers]], and related uses in decomposing homotopy types, towers also occur as a simple type of [[pro-object]] in a category.  In that situation the morphisms considered between towers are usually pro-morphisms.
 
@@ -104,7 +105,7 @@ $$
 between their formal cofiltered limits (every pro-morphism between the diagrams) in $Tow_{pro}(\mathcal{C}) \hookrightarrow Pro(\mathcal{C})$ is represented by component morphisms
 
 $$
-  \phi_{k} \;\colon\; X_{h(k)} \longrightarrow X_k
+  \phi_{k} \;\colon\; X_{h(k)} \longrightarrow Y_k
 $$
 
 making [[commuting diagrams]]
