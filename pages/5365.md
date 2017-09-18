@@ -1,4 +1,6 @@
 
+> For more details see also at _[[CW-complex]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -31,6 +33,7 @@ An _$\mathcal{I}$-cell complex_ in $C$ is an [[object]] $X$ which is connected t
 
 A _relative $\mathcal{I}$-cell complex_ (relative to any object $A$) is any morphism $A \to X$ obtained this starting from $A$.
 
+A _finite cell complex_ or _countable cell complex_ is a cell complex with a [[finite set]] or a [[countable set]] of cells, respectively.
 
 ## Examples
 
@@ -60,3 +63,10 @@ A discussion in the context of [[algebraic model categories]] is in
 
 [[!redirects cellular complex]]
 [[!redirects cellular complexes]]
+
+[[!redirects finite cell complex]]
+[[!redirects finite cell complexes]]
+
+[[!redirects countable cell complex]]
+[[!redirects countable cell complexes]]
+
