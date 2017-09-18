@@ -146,7 +146,7 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * Dominique Bourn, [[Maria Manuel Clementino]], _Categorical and topological aspects of semi-abelian theories_ , lecture notes Haute Bodeux 2007. ([pdf](http://www.math.yorku.ca/~tholen/HB07BournClementino.pdf))
 
-* Tim Van der Linden, _Homology and homotopy in semi-abelian categories_, [math/0607100](http://arxiv.org/abs/math/0607100).
+* [[Tim Van der Linden]], _Homology and homotopy in semi-abelian categories_, [math/0607100](http://arxiv.org/abs/math/0607100).
 
 
 [[!redirects semi-abelian category]]
