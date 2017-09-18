@@ -28,13 +28,20 @@ e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90)
 
 ### CW-complexes are Hausdorff and normal
 
++-- {: .num_prop }
+###### Proposition
+
+Every [[CW-complex]] is a [[Hausdorff space]], in fact a [[normal topological space]].
+
+=--
+
 The proof is broken down in two parts. The first is that each $n$-skeleton $X_n$ of a CW-complex $X$ is normal (throughout we use "normal" to mean normal and Hausdorff), and that the inclusion $X_{n-1} \hookrightarrow X_n$ is a closed embedding. The second is that the colimit 
 
 $$X_0 \hookrightarrow X_1 \hookrightarrow \ldots$$ 
 
 of the sequence of skeleta and inclusions between them is again normal. 
 
-We give just a sketch of the argument here; for full details see [[colimits of normal spaces]]. 
+We give just a sketch of the argument here; for full details see _[[colimits of normal spaces]]_. 
 
 * A basic lemma is that the pushout in $Top$ of a closed embedding $i: X \to Z$ along any map $f: X \to Y$ is again a closed embedding, $j: Y \to Y \cup_X Z$. 
 
