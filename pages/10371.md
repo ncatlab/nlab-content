@@ -25,7 +25,7 @@ Given a nonunital [[C*-algebra]] $A$, the _multiplier algebra_ $M(A)$ is the max
 ## Definition
 
 The __multiplier algebra__ $M(A)$ of a (not necessarily unital) $C^*$-algebra $A$ is the $C^*$-algebra satisfying the following [[universal property]]: 
-for any $C^*$-algebra $B$ containing $B$ as an ideal, there exists a unique $*$-homomorphism $\phi:B\to M(A)$ such that $\phi$ extends the identity homomorphism on $A$ and 
+for any $C^*$-algebra $B$ containing $A$ as an ideal, there exists a unique $*$-homomorphism $\phi:B\to M(A)$ such that $\phi$ extends the identity homomorphism on $A$ and 
 $\phi(A^\perp)=\{0\}$.
 
 The multiplier algebra $M(A)$ can be realized as the set of 2-sided multipliers in the [[enveloping von Neumann algebra]] of $A$. If $A\subset B$, $b\in B$ is a multiplier (operator) for $A$ if $\forall a\in A$, $b a\in A$ and $a b\in A$.
