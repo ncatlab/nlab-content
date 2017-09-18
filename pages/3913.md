@@ -97,7 +97,7 @@ If $V \to X$ is a general real vector bundle, then there exists an isomorphism t
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #ThomSpaceForRankZeroBundle}
 ###### Remark
 
 If the [[rank]] of $V$ is positive, then $S(V)$ is non-empty and then the Thom space is the [[quotient topological space]]
@@ -204,14 +204,19 @@ $Th(\mathbb{R}^n \oplus V)$ forms a [[suspension spectrum]]: this is _the [[Thom
 +-- {: .num_example}
 ###### Example
 
-In particular, if $\mathbb{R}^n \times X \to X$ is a trivial vector bundle of [[rank]] $n$, then 
+By prop. \ref{SuspensionOfThomSpaces} and remark \ref{ThomSpaceForRankZeroBundle}  the Thom space (def. \ref{ThomSpace}) of a trivial vector bundle of rank $n$ is the $n$-fold [[suspension]] of the base space 
 
 $$
-  Th(X \times \mathbb{R}^n) \simeq S^n \wedge X_+
+  \begin{aligned}
+    Th(X \times \mathbb{R}^n) 
+    & \simeq S^n \wedge Th(X\times \mathbb{R}^0) 
+    \\
+    & \simeq S^n \wedge (X_+)
+  \end{aligned}
+  \,.
 $$
 
-is the [[smash product]] of the $n$-[[sphere]] with $X$ with one base 
-point freely adjoined (the $n$-fold [[suspension]]).
+Therefore a general Thom space may be thought of as "twisted suspension", with twist encoded by a vector bundle (or rather by its underlying [[spherical fibration]]). See at _[Thom spectrum -- For infinity-module bundles](Thom+spectrum#ForInfinityModuleBundles)_ for more on this.
 
 =--
 
