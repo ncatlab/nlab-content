@@ -182,7 +182,7 @@ As the proof indicates, that realization preserves equalizers is not at all sens
 
 That geometric realization preserves products _is_ sensitive to whether we think of it as valued in $Top$ or in a convenient category $Space$. In particular, the proof uses cartesian closure of $Space$ in an essential way (in the form that finite products distribute over arbitrary colimits). 
 
-First, a small technical result about simplicial sets. 
+First, an easy result on products of simplices. 
 
 +-- {: .num_lemma #product}
 ###### Lemma 
