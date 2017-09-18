@@ -3493,6 +3493,8 @@ into the pointed topological category of pointed compactly generated topological
 
 Here $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon (\Sigma_n)_+ \hookrightarrow (O(n))_+$ is the canonical inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V)_+ \hookrightarrow Aut(S^V)$ is on $O(V)$ the [[topological subspace]] inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometries of $V$ ("[[representation spheres]]").
 
+Below we will often use these identifications to write just "$n$" for any of these objects, leaving implicit the identifications $n \mapsto \{1, \cdots, n\} \mapsto S^n$.
+
 Consider the pointed topological diagram categries  (def. \ref{PointedTopologicalFunctorCategory}, [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) over these categories:
 
 * $[Seq,Top^{\ast/}_{cg}]$ is called the category of **sequences** of pointed topological spaces (e.g. [HSS 00, def. 2.3.1](#HoveyShipleySmith00));
@@ -4007,15 +4009,15 @@ $$
 
 We discuss this for symmetric spectra. The proof for orthogonal spectra is of the same form.
 
-First of all, by example \ref{CoendGivesQuotientByDiagonalGroupAction} an object in $[Sym, Top^{\ast/}_{cg}]$ is equivalently a "symmetric sequence", namely a sequence of pointed topological spaces $X_k$, for $k \in \mathbb{N}$, equipped with [[action]] of $\Sigma(k)$ (def. \ref{TopologicalDiagramCategoriesForSpectra}).
+First of all, by example \ref{CoendGivesQuotientByDiagonalGroupAction} an object in $[Sym, Top^{\ast/}_{cg}]$ is equivalently a "symmetric sequence", namely a sequence of pointed topological spaces $X_k$, for $k \in \mathbb{N}$, equipped with an [[action]] of $\Sigma(k)$ (def. \ref{TopologicalDiagramCategoriesForSpectra}).
 
-By corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}, the structure of an $\mathbb{S}_{sym}$-[[module object]] on $X$
+By corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} and lemma \ref{FSPStructuredSphereSpectra}, the structure morphism of an $\mathbb{S}_{sym}$-[[module object]] on $X$
 
 $$
   \mathbb{S}_{sym} \otimes_{Day} X \longrightarrow X
 $$
 
-is equivalently a natural transformation
+is equivalently (as a [[functor with smash products]]) a natural transformation
 
 $$
   S^{n_1} \wedge X_{n_2} \longrightarrow X_{n_1 + n_2}
@@ -4055,24 +4057,24 @@ Given $X,Y \in SymSpec(Top_{cg})$ two [[symmetric spectra]], def. \ref{Symmetric
 
 $$
   X \wedge Y 
-   \in SymSpec(Top_{cg})
+   \; \in SymSpec(Top_{cg})
 $$
 
 with component spaces the [[coequalizer]]
 
 $$
   \underset{p+1+q = n}{\bigvee}
-  (\Sigma_{p+1+q})_+ 
+  \Sigma(p+1+q)_+ 
     \underset{\Sigma_p \times \Sigma_1 \times \Sigma_q}{\wedge}
-  X_p \wedge S^1 \wedge X_q
+  X_p \wedge S^1 \wedge Y_q
   \underoverset
    {\underset{r}{\longrightarrow}}
    {\overset{\ell}{\longrightarrow}}
    {\phantom{AAAA}}
   \underset{p+q=n}{\bigvee}
-   (\Sigma_{p+q})_+
+   \Sigma(p+q)_+
    \underset{\Sigma_p \times \Sigma_q}{\wedge}
-   X_p \wedge X_q
+   X_p \wedge Y_q
   \overset{coeq}{\longrightarrow}
   (X \wedge Y)(n)
 $$
@@ -4080,9 +4082,9 @@ $$
 where $\ell$ has components given by the structure maps
 
 $$
-  X_p \wedge S^1 \wedge X_q
-    \overset{id \wedge \sigma_q}{\longrightarrow}
-  X_p \wedge X_q
+  X_p \wedge S^1 \wedge Y_q
+    \overset{id \wedge \sigma_{q}}{\longrightarrow}
+  X_p \wedge Y_q
 $$
 
 while $r$ has components given by the structure maps conjugated by the [[braiding]] in $Top^{\ast/}_{cg}$ and the [[permutation]] [[action]] $\chi_{p,1}$ (that [[shuffle|shuffles]] the element on the right to the left)
@@ -4090,7 +4092,7 @@ while $r$ has components given by the structure maps conjugated by the [[braidin
 {#ShuffleActionInCoequalizerForSmashProductOfSpectra}
 $$
   X_p \wedge S^1 \wedge X_q
-    \overset{\tau_{X_p,S^1} \wedge id}{\longrightarrow}
+    \overset{\tau^{Top^{\ast/}_{cg}}_{X_p,S^1} \wedge id}{\longrightarrow}
   S^1 \wedge X_p \wedge X_q
     \overset{\sigma_p\wedge id}{\longrightarrow}
   X_{p+1} \wedge X_q
@@ -4102,20 +4104,30 @@ $$
 The structure maps of $X \wedge Y$ are those induced under the coequalizer by
 
 $$
-  S^1 \wedge X_p \wedge X_q
-   \overset{\sigma_p\wedge id}{\longrightarrow}
-  X_{p+1} \wedge X_q
+  X_p \wedge Y_q \wedge S^1
+    \overset{id \wedge \sigma_{p}}{\longrightarrow}
+  X_{p} \wedge Y_{q+1}
   \,.
 $$
 
+Analogously for orthogonal spectra.
+
 =--
 
-(e.g. [Schwede 12, p. 82](#Schwede12))
+([Schwede 12, p. 82](#Schwede12))
 
 +-- {: .num_prop #AbstractFormulaGivesSmashProductOfSymmetricSpectra}
 ###### Proposition
 
 Under the identification of prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the explicit [[smash product of spectra]] in def. \ref{SmashProductOfSymmetricSpectra} is equivalent to the abstractly defined tensor product in def. \ref{SsymModuleSymmetricSpectra}:
+
+in the case of [[symmetric spectra]]:
+
+$$
+  \wedge \simeq \otimes_{\mathbb{S}_{sym}}
+$$
+
+in the case of [[orthogonal spectra]]:
 
 $$
   \wedge \simeq \otimes_{\mathbb{S}_{orth}}
@@ -4124,24 +4136,26 @@ $$
 
 =--
 
+([Schwede 12, E.1.16](#Schwede12))
+
 +-- {: .proof}
 ###### Proof
 
-By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the tensor product of two $\mathbb{S}_{orth}$-modules $X$ and $Y$ is the [[coequalizer]] 
+By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the abstractly defined tensor product of two $\mathbb{S}_{sym}$-modules $X$ and $Y$ is the [[coequalizer]] 
 
 $$
-  X \otimes_{Day} \mathbb{S}_{orth} \otimes_{Day} Y
+  X \otimes_{Day} \mathbb{S}_{sym} \otimes_{Day} Y
   \underoverset
-    {\underset{\rho_{1}\circ (\tau^{Day}_{X, \mathbb{S}_{orth}} \otimes id)}{\longrightarrow}}
+    {\underset{\rho_{1}\circ (\tau^{Day}_{X, \mathbb{S}_{sym}} \otimes id)}{\longrightarrow}}
     {\overset{X \otimes \rho_2}{\longrightarrow}}
     {\phantom{AAAA}}
   X \otimes Y
     \overset{coeq}{\longrightarrow}
-  X \otimes_{\mathbb{S}_{orth}} Y
+  X \otimes_{\mathbb{S}_{sym}} Y
   \,.
 $$
 
-The [[Day convolution]] product appearing here is over the category $Orth$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By example \ref{CoendGivesQuotientByDiagonalGroupAction} and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the orthogonal group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
+The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By example \ref{CoendGivesQuotientByDiagonalGroupAction} and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the symmetric group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
 
 $$
   \begin{aligned}
@@ -4151,13 +4165,13 @@ $$
      \underset{
       = \left\{
           \array{
-             O(n_1 + n_2,n)_+ & if \; n_1+n_2 = n 
+             \Sigma(n_1 + n_2,n)_+ & if \; n_1+n_2 = n 
              \\
              \ast & otherwise
            }
       \right.
      }{
-       \underbrace{O(n_1 + n_2, n)}
+       \underbrace{\Sigma(n_1 + n_2, n)}
      }_+
       \wedge
      A_{n_1}
@@ -4166,7 +4180,7 @@ $$
     \\
     & \simeq
     \underset{n_1 + n_2 = n}{\bigvee}
-     O(n_1+n_2)_+
+     \Sigma(n_1+n_2)_+
      \underset{O(n_1) \times O(n_2) }{\wedge}     
      \left(
        A_{n_1}
@@ -4177,39 +4191,81 @@ $$
   \,.
 $$
 
-This gives the form of the coequalizer and the nature of the morphism $\ell$. To see that the morphism $r$ involves the braiding $\tau^{Top^{\ast/}_{cg}}$ and the permutation action $\tau^{Orth}$ as shown [above](#ShuffleActionInCoequalizerForSmashProductOfSpectra) use the formula for the braiding of the Day convolution tensor product from the proof of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
+This establishes the form of the coequalizer diagram. It remains to see that under this identification the two abstractly defined morphisms are the ones given in def. \ref{SmashProductOfSymmetricSpectra}.
+
+To see this, we apply the adjunction isomorphism between the [[Day convolution product]] and the [[external tensor product]] (cor. \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}) twice, to find the following sequence of equivalent incarnations of morphisms:
+
+$$
+  \array{
+  \arrayopts{\rowlines{solid}}
+    (X \otimes_{Day} ( \mathbb{S}_{orth} \otimes_{Day} Y ))(n)
+      &\longrightarrow&
+    (X \otimes_{Day} Y)(n)
+      &\longrightarrow&
+    Z_n
+    \\
+    X_{n_1} \wedge (\mathbb{S}_{sym} \otimes_{Day} Y)(n'_2)
+      &\longrightarrow&
+    X_{n_1}\wedge Y(n'_2) 
+      &\longrightarrow&
+    Z_{n_1 + n'_2}
+    \\
+    (\mathbb{S}_{sym} \otimes_{Day} Y)(n'_2) 
+      &\longrightarrow&
+    Y(n'_2)
+      &\longrightarrow&
+    Maps(X_{n_1}, Z_{n_1 + n'_2})
+    \\
+    S^{n_2} \wedge Y_{n_3}
+      &\longrightarrow&
+    Y_{n_2 + n_3}
+      &\longrightarrow&
+    Maps(X_{n_1}, Z_{n_1 + n_2 + n_3})
+    \\
+    X_{n_1} \wedge S^{n_2} \wedge Y_{n_3}
+      &\longrightarrow&
+    X_{n_1} \wedge Y_{n_2 + n_3}
+      &\longrightarrow&
+    Z_{n_1 + n_2 + n_3}
+  }
+  \,.
+$$
+
+This establishes the form of the morphism $\ell$. By the same reasoning as in the proof of prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, we may restrict the coequalizer to $n_2 = 1$ without changing it. 
+
+The form of the morphism $r$ is obtained by the analogous sequence of identifications of morphisms, now with the parenthesis to the left. That it involves $\tau^{Top^{\ast/}_{cg}}$ and the permutation action $\tau^{sym}$ as shown [above](#ShuffleActionInCoequalizerForSmashProductOfSpectra) follows from the formula for the braiding of the Day convolution tensor product from the proof of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
 
 
 $$
   \tau^{Day}_{A,B}(n)
   =
   \overset{n_1,n_2}{\int}
-   Orth( \tau^{Orth}_{n_1,n_2}, n )
+   Sym( \tau^{Sym}_{n_1,n_2}, n )
     \wedge 
    \tau^{Top^{\ast/}_{cg}}_{A_{n_1}, B_{n_2}}
 $$
 
-and translate it to the components of the precomposition
+by translating it to the components of the precomposition
 
 $$
-  X \otimes_{Day} \mathbb{S}_{orth}
-   \overset{\tau^{Day}_{X,\mathbb{S}_{orth}}}{\longrightarrow}
-  \mathbb{S}_{orth} \otimes_{Day} X
+  X \otimes_{Day} \mathbb{S}_{sym}
+   \overset{\tau^{Day}_{X,\mathbb{S}_{sym}}}{\longrightarrow}
+  \mathbb{S}_{sym} \otimes_{Day} X
   \overset{}{\longrightarrow}
   X
 $$
 
-via the formula from the proof of prop. \ref{TopologicalLeftKanExtensionBCoend} for the [[left Kan extension]] $\otimes_{Day}\simeq Lan_{\otimes}\overline{\wedge}$ (prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}):
+via the formula from the proof of prop. \ref{TopologicalLeftKanExtensionBCoend} for the [[left Kan extension]] $A \otimes_{Day} B \simeq Lan_{\otimes} A \overline{\wedge} B$ (prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}):
 
 $$
   \begin{aligned}
-    [Orth, Top^{\ast/}_{cg}]( \tau^{Day}_{X,\mathbb{S}_{orth}}, X)
+    [Sym, Top^{\ast/}_{cg}]( \tau^{Day}_{X,\mathbb{S}_{sym}}, X)
     &
     \simeq
     \underset{n}{\int}
     Maps( 
       \overset{n_1, n_2}{\int}
-      Orth( \tau^{orth}_{n_1,n_2}, n )
+      Sym( \tau^{sym}_{n_1,n_2}, n )
        \wedge 
       \tau^{Top^{\ast/}_{cg}}_{X_{n_1}, S^{n_2}}
       ,
@@ -4222,7 +4278,7 @@ $$
     Maps(
       \tau_{X_{n_1}, S^{n_2} }^{Top^{\ast/}_{cg}}
       ,
-      X( \tau^{orth}_{n_1,n_2} )
+      X( \tau^{sym}_{n_1,n_2} )
     )_\ast
   \end{aligned}
   \,.
@@ -4967,13 +5023,13 @@ The first is the characteristic isomorphism of [[tensoring]] from prop. \ref{Uni
 
 From this, the second statement follows by the proof of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}.
 
-For the last statement it is sufficient to observe that $y(0) = y(S^0)$ is the [[tensor unit]] under [[Day convolution]] by prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}, so that
+For the last statement it is sufficient to observe that $y(0)$ is the [[tensor unit]] under [[Day convolution]] by prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} (since $0$ is the tensor unit in $Dia$), so that
 
 $$
   \begin{aligned}
     F_0^{dia} S^0
     & =
-    \mathbb{S}_{dia} \otimes_{Day} y(0) \wedge S^0
+    \mathbb{S}_{dia} \otimes_{Day} (y(0) \wedge S^0)
     \\
     & \simeq
     \mathbb{S}_{dia} \otimes y(S^0)
