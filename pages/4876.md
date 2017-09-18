@@ -51,6 +51,8 @@ The Lie group canonically carries a [[Riemannian metric]] and the kinetic term i
 ### Topological term -- WZW term
  {#TopologicalTerm}
 
+#### For the 2d WZW model
+
 Let $G$ be [[compact space|compact]] and [[simply connected space|simply connected]]. 
 
 Then by [[infinity-Chern-Weil theory]] the [[Killing form]] [[invariant polynomial]] on the [[Lie algebra]] $\mathfrak{g}$ induces a [[circle n-bundle with connection|circle 3-bundle with connection]] on the smooth [[moduli stack]] $\mathbf{B}G_{conn}$ of $G$-[[principal bundle]]s with [[connection on a bundle|connection]]. 
@@ -114,6 +116,110 @@ $$
   hol_{\Sigma}( g^* WZW_{\mathbf{c}} )
   \,.
 $$
+
+
+#### Generally
+ {#FormalizationGenerally}
+
+The following ([FSS 12](#FSS12), [dcct](#dcct)) is a general axiomatization of WZW terms in [[cohesive (infinity,1)-topos|cohesive homotopy theory]].
+
+In an ambient [[cohesive (∞,1)-topos]] $\mathbf{H}$, let $\mathbb{G}$ be a [[sylleptic ∞-group]], equipped with a [[Hodge filtration]], hence in particular with a chosen morphism
+
+$$
+  \iota \colon
+  \mathbf{\Omega}^2_{cl}(-,\mathbb{G})
+  \longrightarrow
+  \flat_{dR} \mathbf{B}^2 \mathb{G}
+$$
+
+to its [de Rham coefficients]()
+
++-- {: .num_defn #RefinementOfHodgeFiltration}
+###### Definition
+
+Given an [[∞-group]] object $G$ in $\mathbf{H}$ and given a [[group cohomology|group cocycle]]
+
+$$
+  \mathbf{c} \colon \mathbf{B}G \longrightarrow \mathbf{B}^2 \mathbb{G}
+  \,,
+$$
+
+then a _refinement of the [[Hodge filtration]]_ of $\mathbb{G}$ along $\mathbf{c}$ is a completion of the [[cospan]] formed by $\flat_{dR}\mathbf{c}$ and by $\iota$ above to a [[diagram]] of the form
+
+$$
+  \array{
+     \mathbf{\Omega}^1_{flat}(-,G)
+     &\stackrel{\mu}{\longrightarrow}&
+     \mathbf{\Omega}^2_{cl}(-,\mathbb{G})
+     \\
+     \downarrow && \downarrow^{\mathrlap{\iota}}
+     \\
+     \flat_{dR}\mathbf{B}G
+     &\stackrel{\flat_{dR}\mathbf{c}}{\longrightarrow}&
+     \flat_{dR}\mathbf{B}^2 \mathbb{G} 
+  }
+  \,.
+$$
+
+We write $\tilde G$ for the [[homotopy pullback]] of this refinement along the [[Maurer-Cartan form]] $\theta_G$ of $G$
+
+$$
+  \array{
+    \tilde G &\stackrel{\theta_{\tilde G}}{\longrightarrow}& \mathbf{\Omega}^1_{flat}(-,G)
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\stackrel{\theta_G}{\longrightarrow}& \flat_{dR}\mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $\mathbf{H} = $ [[Smooth∞Grpd]] and $\mathbb{G} = \mathbf{B}^p U(1)$ the [[circle n-group|circle (p+1)-group]] 
+
+For $G$ an ordinary [[Lie group]], then $\mu$ may be taken to be the [[Lie algebra cohomology|Lie algebra cocycle]] corresponding to $\mathbf{c}$ and $\tilde G \simeq G$.
+
+On the opposite extreme, for $G = \mathbf{B}^p U(1)$ itself with $\mathbf{c}$ the identity, then $\tilde G = \mathbf{B}^pU (1)_{conn}$ is the [[coefficients]] for [[ordinary differential cohomology]] (the [[Deligne complex]] under [[Dold-Kan correspondence]] and [[infinity-stackification]]).
+
+Hence a more general case is a fibered product of these two, where $\tilde G$ is such that a map $\Sigma \longrightarrow \tilde G$ is equivalently a pair consisting of a map $\Sigma \to G$ and of differential $p$-form data on $\Sigma$. This is the case of relevance for WZW models of [[super p-branes]] with "tensor multiplet" fields on them, such as the [[D-branes]] and the [[M5-brane]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+In the situation of def. \ref{RefinementOfHodgeFiltration} there is an essentially unique [[prequantum n-bundle|prequantization]] 
+
+$$
+  \mathbf{L}_{WZW}
+  \colon
+  \tilde G
+  \longrightarrow 
+  \mathbf{B}^2 \mathbb{G}_{conn}
+$$ 
+
+of the closed differential form 
+
+$$
+  \mu(\theta_{\tilde G})
+  \colon
+  \tilde G
+  \stackrel{\theta_{\tilde G}}{\longrightarrow}
+  \mathbf{\Omega}^1_{flat}(-,G)
+  \stackrel{\mu}{\longrightarrow}
+  \mathbf{\Omega}^2_{cl}(-,\mathbb{G})
+$$
+
+whose underlying $\mathbb{G}$-[[principal ∞-bundle]] is [[modulating morphism|modulated]] by the [[looping and delooping|looping]] $\Omega \mathbf{c}$ of the original cocycle.
+
+This we call the _WZW term_ of $\mathbf{c}$ with respect to the chosen refinement of the Hodge structure.
+
+=--
+
 
 
 ## Properties
@@ -317,8 +423,8 @@ See also Section 2.3.18 and section 4.7 of
 
 A characterization of [[D-branes]] in the WZW model as those [[conjugacy classes]] that in addition satisfy an integrality ([[Bohr-Sommerfeld quantization|Bohr-Sommerfeld]]-type) condition missed in other parts of the literature is stated in 
 
-* [[Anton Alekseev]], [[Volker Schomerus]], _D-branes in the WZW model_, Phys.Rev.D60:061901,1999 ([arXiv:hep-th/9812193v2](http://arxiv.org/abs/hep-th/9812193v2))
- {#AlekseevSchomerus}
+* {#AlekseevSchomerus} [[Anton Alekseev]], [[Volker Schomerus]], _D-branes in the WZW model_, Phys.Rev.D60:061901,1999 ([arXiv:hep-th/9812193v2](http://arxiv.org/abs/hep-th/9812193v2))
+ 
 
 The refined interpretation of the integrality condition as a choice of trivialization of the underling [[principal 2-bundle]]/[[bundle gerbe]] of the [[B-field]] over the brane was then noticed in section 7 of 
 
@@ -326,8 +432,8 @@ The refined interpretation of the integrality condition as a choice of trivializ
 
 The observation that this is just the special rank-1 case of the more general structure provided by a [[twisted unitary bundle]] of some rank $n$ on the D-brane ([[gerbe module]]) which is twisted by the restriction of the [[B-field]] to the D-brane -- the [[Chan-Paton gauge field]] --  is due to
 
-* [[Krzysztof Gawedzki]], _Abelian and non-Abelian branes in WZW models and gerbes_, Commun.Math.Phys. 258 (2005) 23-73 ([arXiv:hep-th/0406072](http://arxiv.org/abs/hep-th/0406072)).
- {#Gawedzki04}
+* {#Gawedzki04} [[Krzysztof Gawedzki]], _Abelian and non-Abelian branes in WZW models and gerbes_, Commun.Math.Phys. 258 (2005) 23-73 ([arXiv:hep-th/0406072](http://arxiv.org/abs/hep-th/0406072)).
+ 
 
 The observation that the "multiplicative" structure of the WZW-[[B-field]] (induced from it being the [[transgression]] of the [[Chern-Simons circle 3-bundle|Chern-Simons circle 3-connection]] over the [[moduli stack]] of $G$-[[principal connections]]) induces the [[Verlinde ring]] fusion product structure on symmetric D-branes equipped with [[Chan-Paton gauge fields]] is discussed in 
 
@@ -337,6 +443,9 @@ The image in [[K-theory]] of these [[Chan-Paton gauge fields]] over conjugacy cl
 
 * [[Eckhard Meinrenken]], _On the quantization of conjugacy classes_,  	Enseign. Math. (2) 55 (2009), no. 1-2, 33-75 ([arXiv:0707.3963](http://arxiv.org/abs/0707.3963))
 
+Formalization of WZW terms in [[cohesive (infinity,1)-topos|cohesive homotopy theory]] is in 
+
+* {#dcct} _[[schreiber:differential cohomology in a cohesive topos]]_
 
 ### Relation to dimensional reduction of Chern-Simons
 
@@ -361,7 +470,7 @@ Relation to [[extended TQFT]] is discussed in
 
 The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] (and other [[branes]] of [[string theory]]/[[M-theory]]) as WZW-models (and [[schreiber:∞-Wess-Zumino-Witten theory|∞-WZW models]]) on ([[super L-∞ algebra]] [[L-∞ extensions]] of) the [[super translation group]] is in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+* {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics, Volume 12, Issue 02 (2015) 1550018  ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 
 
