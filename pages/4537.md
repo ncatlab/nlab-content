@@ -13,12 +13,14 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 Given an ambient additive [[symmetric monoidal category]], the _Lie operad_ is the [[operad]] whose [[algebras over an operad]] are [[Lie algebra]]s in that category. It is a [[quadratic operad]] whose [[Koszul dual]] is the *[[commutative operad|operad for commutative algebras]]*. 
+
+(This [[Koszul duality]] is what makes [[L-∞ algebras]] be equivalent to (semifree) [[differential graded coalgebras]].)
 
 In the case of the monoidal category of chain complexes, we also say dg-Lie-operad. Its cofibrant [[resolution]] in the [[model structure on operads]] is the [[L-infinity operad]] whose [[algebras over an operad]] are [[L-∞-algebra]]s.
 
