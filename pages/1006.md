@@ -83,7 +83,7 @@ Further re-inventions of the concept of $n$-Lie algebras in this context are app
 
 A sensible interpretation of $3$-Lie algebras as [[Lie 2-algebras]] equipped with a binary [[invariant polynomial]] ("metric Lie 2-algebras") is in section 2.5 of
 
-* {#SaemannRitter13} [[Patricia Ritter]], [[Christian Saemann]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
+* {#SaemannRitter13} [[Patricia Ritter]], [[Christian Saemann]], _Lie 2-algebra models_, JHEP 04 (2014) 066 ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
   
 
 based on 
