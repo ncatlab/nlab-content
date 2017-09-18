@@ -53,5 +53,7 @@ See also [[pseudo-Riemannian manifold]]
 
 * [[Lorentzian manifold]], [[causal manifold]]
 
+* [[Nash embedding theorem]]
+
 [[!redirects Riemannian manifolds]]
 [[!redirects Riemannian structure]]
