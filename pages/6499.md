@@ -52,6 +52,8 @@ disc are not so well adapted to the study of torsion phenomena in the characteri
 
 This first set of constraints is worked out in the theory of [[overconvergent global analytic geometry]].
 
+The problems related to the torsion phenomena for coefficients in characteristic $p$ may be perhaps be solved by the development of a really non-linear analytic homotopy theory, meaning a proper theory of [[spectral global analytic geometry]].
+
 ## A more optimistic set of constraints
 
 1. having a theory of derived analytic microlocalization of sheaves and differential equations, allowing the proper settlement of a [[global analytic index theory]].
@@ -82,6 +84,8 @@ Argument in favor of its use are:
 * [[global analytic index theory]]
 
 * [[overconvergent global analytic geometry]]
+
+* [[spectral global analytic geometry]]
 
 ## References
 
