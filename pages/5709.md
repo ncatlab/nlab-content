@@ -122,6 +122,8 @@ See also at _[string theory FAQ -- What is string theory?](string+theory+FAQ#Wha
 
 * [[effective action]]
 
+* [[higher order curvature corrections]]
+
 * [string theory FAQ -- What is the relationship between quantum field theory and string theory?](string+theory+FAQ#RelationshipBetweenQuantumFieldTheoryAndStringTheory)
 
 ## References
