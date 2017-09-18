@@ -582,14 +582,14 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 * A pair of adjoint functors where $C$ and $D$ have finite [[limit]]s and $L$ preserves these finite limits is a [[geometric morphism]]. These are one kind of morphisms between [[topos]]es. If in addition $R$ is full and faithful, then this is a [[geometric embedding]].
 
-* The left and right adjoint functors $p_!$ and $p_*$ (if they exist) to a functor $p^* : [K',C] \to [K,C]$ between [[functor categories]] obtained by precomposition with a functor $p : K' \to K$ of [[diagram]] categories are called the left and right [[Kan extension]] functors along $p$
+* The left and right adjoint functors $p_!$ and $p_*$ (if they exist) to a functor $p^* : [K',C] \to [K,C]$ between [[functor categories]] obtained by precomposition with a functor $p : K \to K'$ of [[diagram]] categories are called the left and right [[Kan extension]] functors along $p$
 
   $$
     (Lan_p \dashv p^* \dashv Ran_p)
     :=
-    (p_! \dashv p^* \dashv p^!) : 
+    (p_! \dashv p^* \dashv p_*) : 
     [K,C]
-     \stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^*}{\leftarrow}}{\underset{p^!}{\to}}}
+     \stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^*}{\leftarrow}}{\underset{p_*}{\to}}}
     [K',C]
     \,.
   $$
