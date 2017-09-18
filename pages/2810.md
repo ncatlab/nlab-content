@@ -215,7 +215,7 @@ This influenced the revised version of
 
 * [[Jacob Lurie]], _[[Commutative Algebra]]_ ([arXiv](http://arxiv.org/abs/math/0703204))
 
-and is extended to include a discussion ot traces and centers in
+and is extended to include a discussion of traces and centers in
 
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
 
