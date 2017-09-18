@@ -17,7 +17,9 @@
 
 The __quaternions__ form the largest [[associative algebra|associative]] [[normed division algebra]], usually denoted  $\mathbb{H}$ after [[William Rowan Hamilton]] (since $\mathbb{Q}$ is taken for the [[rational numbers]]). 
 
-## Normed division algebra structure
+## Properties
+
+### Normed division algebra structure
 
 The structure of $\mathbb{H}$ as an $\mathbb{R}$-[[associative unital algebra|algebra]] is given by a basis $\{1, i, j, k\}$ of the underlying [[vector space]] of $\mathbb{H}$, equipped with a multiplication table where $1$ is the [[identity element]] and otherwise uniquely specified by the equations 
 
@@ -37,15 +39,19 @@ $$\alpha^{-1} = \frac1{{\|\alpha\|}^2} \widebar{\alpha}.$$
 
 In this way $\mathbb{H}$ is a normed division algebra. 
 
-## Modules and bimodules
+### Modules and bimodules
 
 We have canonical left and right [[module]] structures on $\mathbb{H}^n$, but as $\mathbb{H}$ is not commutative, if we want to talk about tensor products of modules, we need to consider [[bimodules]]. This also means that ordinary [[linear algebra]] as is used over a field is not quite the same when dealing with quaternions. For instance, one needs to distinguish between _left_ and _right_ [[eigenvalues]] of [[matrices]] in $M_n(\mathbb{H})$ (using the left and right module structures on $\mathbb{H}^n$ respectively), and only left eigenvalues relate to the [[spectrum]] of the associated linear operator.
 
 Using the conjugation operation one can define an inner product $\langle q,p\rangle := \overline{q} p$ on $\mathbb{H}^n$ so that the corresponding [[orthogonal group of an inner product space|orthogonal group]] is the [[compact symplectic group]].
 
-## Group actions
+### Automorphisms
 
-The product operation on $\mathbb{H}$ respects the [[special orthogonal group|SO(3)]]-[[action]] on their imaginary part (in generalization of how the product of [[complex numbers]] respects the [[complex conjugation]] action). (e.g. [Klimov-Zhuravlev, p. 85](#KlimovZhuravlev))
+The [[automorphism group]] of the quaternions is [[special orthogonal group|SO(3)]], [[action|acting]] canonically  on their imaginary part (in generalization of how the product of [[complex numbers]] respects the [[complex conjugation]] action)
+
+See also at _[normed division algebra -- automorphism](normed+division+algebra#Automorphisms)_
+
+(e.g. [Klimov-Zhuravlev, p. 85](#KlimovZhuravlev))
 
 
 
