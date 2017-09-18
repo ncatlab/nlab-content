@@ -33,7 +33,7 @@ $$
   F \stackrel{f}{\to}
   E
   \;\;\;\;
-  F \stackrel{\stackrel{f_*}{\to}}{\underset{f^*}{\leftarrow}} E
+  F \stackrel{\stackrel{f_*}{\longrightarrow}}{\underset{f^*}{\longleftarrow}} E
 $$
 
 is a **geometric embedding** if the following equivalent conditions are satisfied
@@ -655,6 +655,8 @@ $$
 There is a [[factorization system on a 2-category|factorization system]] on the [[2-category]] [[Topos]] whose left class is the [[surjective geometric morphisms]] and whose right class is the geometric embeddings.  The factorization of a geometric morphism can be said to construct its [[image]] in the topos-theoretic sense.
 
 See [[geometric surjection/embedding factorization]].
+
+Moreover, each geometric embedding itself has a [[(dense,closed)-factorization]].
 
 ## Related concepts
 
