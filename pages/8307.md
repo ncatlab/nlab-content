@@ -227,3 +227,5 @@ and, in the further generality of the [[tensor product of modules]], in
  {#Conrad}
 
 [[!redirects tensor product of abelian groups]]
+
+[[!redirects tensor products of abelian groups]]
