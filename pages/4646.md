@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[connection on a bundle]] $\nabla$ for $\pi : P \to X$ a $G$-[[principal bundle]] encodes data that allows to assigns to each path $\gamma : [0,1] \to X$ [[homomorphism]]s
+A [[connection on a bundle]] $\nabla$ for $\pi : P \to X$ a $G$-[[principal bundle]] encodes data that assigns to each path $\gamma : [0,1] \to X$ a [[homomorphism]]
 
 $$
   tra_\nabla(\gamma) : P_{\gamma(0)} \to P_{\gamma(1)}
@@ -26,13 +26,13 @@ between the [[fiber]]s of the bundle, such that this assignment depends well (e.
 This assignment is called the _parallel transport_ of the connection.
 
 
-### The idea of paralllelism
+### The idea of parallelism
 
 The term "parallel" comes from one of the many equivalent definitions of the notion of [[connection on a bundle]]: the original formulation of [[Ehresmann connection]]s.
 
 In that formulation, the connection is encoded at each point $p \in P$ in the total space by a decomposition of the [[tangent space]] $T_p P$ as a [[direct sum]] $T_p P \simeq V_p \oplus H_p$ of [[vector space]]s, such that
 
-* $V_p = \her \pi_*|_p$ is the [[kernel]] of the projection map that sends vectors in the total space to vectors in base space (this part is fixed by the choice of $p : P \to X$);
+* $V_p = \ker \pi_*|_p$ is the [[kernel]] of the projection map that sends vectors in the total space to vectors in base space (this part is fixed by the choice of $p : P \to X$);
 
 * $H_p \subset T_p P$ is a _choice_ of complement, such that this choice varies smoothly over $P$ in an evident sense and is compatible with the $G$-[[action]] on $P$.
 
@@ -53,14 +53,14 @@ $$
   \,
 $$
 
-such that $\hat \gamma$ is everywhere _parallel_ (to $X$) in that all its tangent vectors sit in the horizontal subspaces choses:
+such that $\hat \gamma$ is everywhere _parallel_ (to $X$) in that all its tangent vectors sit in the horizontal subspaces chosen:
 
 $$
   (\partial_\sigma \hat \gamma)(\sigma) \in H_{\gamma(\sigma)} \subset T_{\gamma(\sigma)} P
   \,.
 $$
 
-In other words this means that given a path $\gamma$ down in $X$, we may _transport_ any point $p \in P_{\gamma(0)}$ above its start point _parallely_ (with respect to the notion of parallelism determined by $\nabla$) along $\gamma$, to find a uniquely determined point $tra_\nabla(\gamma)(p) \in P_{\gamma(1)}$ over the endpoint.
+In other words, this means that given a path $\gamma$ down in $X$, we may _transport_ any point $p \in P_{\gamma(0)}$ above its start point _parallely_ (with respect to the notion of parallelism determined by $\nabla$) along $\gamma$, to find a uniquely determined point $tra_\nabla(\gamma)(p) \in P_{\gamma(1)}$ over the endpoint.
 
 
 ### The category-theoretic perspective
@@ -137,7 +137,7 @@ $$
 
 The [[Euler-Lagrange equations]] induced by this functional express precisely the [[Lorentz force]] encoded by $A$ acting on the particle.
 
-If instead of looking at the [[quantum mechanics]] of the quantum particle charghed under a fixed background gauge field look at the [[quantum field theory]] of that gauge field itself, we can use the action functional of particles to _probe_ these background fields and obtain quantum observables for them. 
+If instead of looking at the [[quantum mechanics]] of the quantum particle charged under a fixed background gauge field look at the [[quantum field theory]] of that gauge field itself, we can use the action functional of particles to _probe_ these background fields and obtain quantum observables for them. 
 
 This converse assignment where we _fix_ a path $\gamma$ and regard the parallel transport then as a functional over the space of all connections over $X$
 
