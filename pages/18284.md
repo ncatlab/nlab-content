@@ -22,7 +22,7 @@ This page will collect some technical material concerning [[colimits]] of [[norm
 
 In particular it shows that [[CW-complexes are paracompact Hausdorff spaces|CW-complexes are normal spaces]] (theorem \ref{CWComplexesAreNormal} below). 
 
-A basic technique is the exploitation of the Tietze extension condition which characterizes normal spaces. A similar technique involving an extension condition may be used to prove a set of wholly parallel set of results for [[paracompact spaces]]; see [[colimits of paracompact spaces]]. 
+A basic technique is the exploitation of the Tietze extension condition which characterizes normal spaces. Similar techniques may be used to prove a parallel set of results for [[paracompact spaces]]; see [[colimits of paracompact spaces]]. 
 
 ## Basic results 
 
