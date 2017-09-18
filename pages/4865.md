@@ -255,6 +255,9 @@ Discussion of [[black branes]] and [[BPS states]] includes
 
 * A. A. Golubtsova, V.D. Ivashchuk, _BPS branes in 10 and 11 dimensional supergravity_, talk at DIAS 2013 ([pdf slides](http://theor.jinr.ru/~diastp/summer13/lectures/Golubtsova.pdf))
 
+* Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](http://arxiv.org/abs/1312.0578))
+
+
 ### Truncations and compactifications
 
 * [[Hermann Nicolai]], Krzysztof Pilch, _Consistent truncation of $d = 11$ supergravity on $AdS_4 x S^7$_ ([arXiv:1112.6131](http://arxiv.org/abs/1112.6131))
