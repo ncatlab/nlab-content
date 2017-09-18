@@ -33,7 +33,7 @@ The [[injective function|injection]] in the second item is in general proper. If
 
 ## Proofs via adjoints 
 
-The properties 1., 2. of Proposition \ref{PreservationOfUnionsAndIntersectionsOfSets} may be proved by appeal to fundamental relationships between [[direct image]] and [[inverse image]] and the like, which category theorists call [[adjunctions]] (similar in form to adjoints in linear algebra). The advantage of this type of proof is that, despite its utter simplicity, it generalizes to much wider contexts (beyond elementary classical set theory). 
+The properties 1., 2. of Proposition \ref{PreservationOfUnionsAndIntersectionsOfSets} may be proved by appeal to fundamental relationships between [[direct image]] and [[inverse image]] and the like, which [[category theory|category theorists]] call [[adjunctions]] (similar in form to adjoints in linear algebra). The advantage of this type of proof is that, despite its utter simplicity, it generalizes to much wider contexts (beyond elementary classical set theory). 
 
 The first such relationship is that, for all subsets $S \subseteq X$ and $T \subseteq Y$, we have 
 
@@ -81,6 +81,39 @@ $$f^{-1}(T) \subseteq U \qquad iff \qquad T \subseteq \forall_f (U)$$
 
 and then, following the proof of property 1., we infer that the inverse image operator $f^{-1} = f^\ast: P(Y) \to P(X)$ preserves unions. 
 
++-- {: .num_remark #MoreJargon}
+###### Remark
+
+In terms of some more [[category theory]] jargon the above situation may be phrased as follows:
+
+Subsets of some set $S$ are the [[(-1)-truncated objects]] in the [[slice category]] $Set_{/S}$ of [[Set]] over $S$. Since [[Set]] is a [[topos]], every [[morphism]], i.e. [[function]] $X \longrightarrow Y$ induces a [[base change]] [[adjoint triple]]
+
+$$
+  Set_{/X}
+     \underoverset
+       {\underset{f^\ast}{\longrightarrow}}
+       {\overset{f_!}{\longrightarrow}}
+       {\overset{f_\ast}{\longleftarrow}}
+  Set_{/Y}
+  \,.
+$$
+
+Here in the language of [[type theory]]
+
+1. the [[left adjoint]] $f_!$ is also called the [[dependent sum]] 
+
+1. the middle morphism is also called [[context extension]]
+
+1. the [[right adjoint]] $f_\ast$ is also called the [[dependent product]].
+
+All this restricts to the (-1)-truncated objects by composing the left adjoint with [[(-1)-truncation]]. Then one also says that we are looking at a morphism in a [[hyperdoctrine]] and (under [[propositions as types]]) may think of
+
+1. the left adjoint $f_!$ as the [[existential quantifier]] $\exists_f$
+
+1. the right adjoint $f_\ast$ as the [[universal quantifier]] $\forall_f$.
+
+
+=--
 
 
 ## Related statements
