@@ -190,6 +190,33 @@ $\widebar{X}$ is also second-countable, compact Hausdorff and therefore compact 
 
 It follows from this result that all such spaces $X$ are homeomorphic: they all have Cantor space as their one-point compactifications, and so they are all homeomorphic to the space obtained obtained by removing a single point from Cantor space. This applies for example to spaces obtained by removing a finite number $n \geq 1$ of points from Cantor space. 
 
+Cantor space is also a "universal" compact metric space in the following sense. 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Hausdorff-Alexandroff)** 
+Every compact metric space is a continuous image of Cantor space. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+First, every compact metric space $X$ is [[separable space|separable]]: has a [[countable set|countable]] [[dense set]] $\{x_0, x_1, \ldots\}$. Assume, as we may, that the metric $d: X \times X \to [0, \infty)$ is valued in $[0, 1]$. Then the map $y: X \to [0, 1]^\mathbb{N}$ to the [[Hilbert cube]], defined by 
+
+$$y(x) = (d(x, x_n)_{n \in \mathbb{N}}$$ 
+
+(a type of restricted "[[Yoneda embedding]]", regarding [[metric spaces]] as [[enriched categories]]), is continuous and maps $X$ onto a [[closed subspace]] of $I^\mathbb{N}$. As mentioned at [Peano curve](https://ncatlab.org/nlab/show/Peano+curve#construction), there is a continuous surjection $C \to I^\mathbb{N}$. Taking the [[pullback]] 
+
+$$\array{
+K & \hookrightarrow & C \\ 
+\mathllap{surj} \downarrow & & \downarrow \mathrlap{surj} \\ 
+X & \stackrel{y}{\hookrightarrow} & I^\mathbb{N}
+}$$ 
+
+we see that to produce a continuous surjection $C \to X$, it suffices to exhibit a continuous surjection $C \to K$. 
+
+In fact, every closed subspace $K \hookrightarrow C$ admits a retraction. There is a clever trick for seeing this: represent Cantor space $C$ instead as the subspace of $[0, 1]$ whose points, when written in base $6$, have just $0$\'s and $5$\'s in their representation. This subspace has the geometric property that if $x, y \in C$, then $\frac{x+y}{2} \notin C$. As a result, for $x, y, z \in C$ we have $d(x, y) = d(x, z)$ only if $y = z$ and so: given a closed subspace $K$ of $C$, there is for each $x \in C$ a *unique* element $k_x \in K$ such that $d(x, k_x) = d(x, K)$. The assignment $x \mapsto k_x$ is continuous and provides the desired retraction. 
+=-- 
+
 ## Related concepts
 
 * [[Peano curve]]
