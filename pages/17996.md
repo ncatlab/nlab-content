@@ -23,7 +23,7 @@ This is the [[pullback bundle]] of the map $S^2 \to B U(1) \simeq B^2 \mathbb{Z}
 
 Beware that this basic line bundle is sometimes called the "canonical line bundle on the 2-sphere", but it is  _not_ [[isomorphism|isomorphic]] to what in complex geometry is called the [[canonical bundle]] of the 2-sphere regarded as a [[Riemann surface]]. Instead it is "one half" of the latter, its [[theta characteristic]]. See also at _[[geometric quantization of the 2-sphere]]_.
 
-The basic line bundle is the canonically [[associated bundle]] to basic [[circle principal bundle]]: the [[complex Hopf fibration]]. Another name for it is the [[tautological line bundle]] for the complex [[projective space|projective line]] $\mathbb{P}^1(\mathbb{C})$, namely the map $\mathbb{C}^2 \setminus \{(0, 0)\} \to \mathbb{P}^1(\mathbb{C})$ mapping $(x, y)$ to $[x; y]$. 
+The basic line bundle is the canonically [[associated bundle]] to basic [[circle principal bundle]]: the [[complex Hopf fibration]]. Another name for it is the [[tautological line bundle]] for the complex [[projective space|projective line]] $\mathbb{P}^1(\mathbb{C})$ (the [[Riemann sphere]]), namely the map $\mathbb{C}^2 \setminus \{(0, 0)\} \to \mathbb{P}^1(\mathbb{C})$ mapping $(x, y)$ to $[x; y]$. 
 
 ## Definition
 
