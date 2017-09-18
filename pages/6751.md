@@ -270,7 +270,7 @@ is the [[gauge transformation]] of $A$ under $g$.
 +-- {: .num_prop #WilsonLoopIsPartitionFunctionOf1dCSSigmaModel}
 ###### Proposition
 
-The [[Wilson loop]] of $A$ over $S^1$ in the unitarry irreducible representation $R$ is proportional to the [[path integral]] of the 1-dimensional [[sigma-model]] with 
+The [[Wilson loop]] of $A$ over $S^1$ in the unitary irreducible representation $R$ is proportional to the [[path integral]] of the 1-dimensional [[sigma-model]] with 
 
 1. [[target space]] the [[coadjoint orbit]] $\mathcal{O}_\lambda \simeq G/T$ for $\langle \lambda, - \rangle$ the [[weight (in representation theory)|weight]] corresponding to $R$ under the [[Borel-Weil-Bott theorem]]
 
@@ -279,9 +279,10 @@ The [[Wilson loop]] of $A$ over $S^1$ in the unitarry irreducible representation
 $$
   W_{S^1}^R(A)
   \propto
-  \int_{[S^1, \mathcal{O}_\lambda]}
-  D(g T)
+  \underset{g T \in [S^1, \mathcal{O}_\lambda]}{\int}
   \exp(i \int_{S^1}  \langle \lambda, A^g\rangle)
+  \;
+  D(g T)
   \,.
 $$
 
@@ -292,7 +293,7 @@ See for instance ([Beasley, (4.55)](#Beasley)).
 +-- {: .num_remark }
 ###### Remark
 
-Notice that since $\mathcal{O}_\lambda$ is a [[manifold]] of finite [[dimension]], the [[path integral]] for a point particle with this target space can be and has been defined rigorously, see at _[[path integral]]_.
+Notice that since $\mathcal{O}_\lambda$ is a [[manifold]] of [[finite number|finite]] [[dimension]], the [[path integral]] for a point particle with this target space can be and has been defined rigorously, see at _[[path integral]]_.
 
 =--
 
@@ -522,7 +523,7 @@ in $\mathbf{H}$ given over a test manifold $U \in $ [[CartSp]] by the [[functor]
 $$
   \langle \lambda, - \rangle_U 
   \;:\; 
-  \Omega^1(U,\mathfrak{g})//C^\infty(U,G) \to \Omega^1(U)//C^\infty(U,U(1))
+  \Omega^1(U,\mathfrak{g})//C^\infty(U,T) \to \Omega^1(U)//C^\infty(U,U(1))
 $$
 
 which is given on objects by
