@@ -215,7 +215,7 @@ $$
 
 of a morphism that sends the second argument to its inverse with the group composition operation.
 
-It then follows by the [[pasting law]] and prop. \ref{SequenceFromDiagonal} that in this case the morphism $X \times_B Y \to X \times Y$ in the Mayer-Vietoris sequence is itself the homotopy fiber of $X \times Y \stackrel{f-g}{\longrightarrow} B$, hence that we have a long homotopy fiber sequence of the form
+It then follows by the [[pasting law]] and prop. \ref{SequenceFromDiagonal} that in this case the morphism $X \times_B Y \to X \times Y$ in the Mayer-Vietoris sequence is itself the homotopy fiber of $X \times Y \stackrel{f \cdot g^{-1}}{\longrightarrow} B$, hence that we have a long homotopy fiber sequence of the form
 
 $$
   \Omega B \longrightarrow X \times_B Y \longrightarrow X \times Y
