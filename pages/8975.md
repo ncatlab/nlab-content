@@ -1,3 +1,34 @@
+## Idea
+
+The idea that procedures may be modelled as mathematical [[functions]] is useful for compositional reasoning, but at first seems to rule out programming with more sophisticated control structures which can actually be very useful in practice.  For example, we might want to write an integer division routine which raises an exception on division-by-zero, or a procedure that lazily computes the first satisfying assignment to a boolean formula while giving the user the ability to query to obtain additional ones.
+
+Now, an "impure" functional language such as OCaml lets us do some of this directly.  For example, we can write the following code for integer division:
+
+    let divide : int -> int -> int =
+      fun x y -> if y == 0 then raise Division_by_zero else x / y
+
+However, it should be said that the type ascription "<code>int -> int -> int</code>" is a bit misleading here (or at least open to misinterpretation), since <code>divide</code> cannot actually be modelled as a set-theoretic function of type $\mathbb{Z} \to \mathbb{Z} \to \mathbb{Z}$.
+
+_Continuation-passing style_ (or CPS) is a very general technique that allows one to express many different seemingly "non-functional" patterns of control flow within the confines of pure functional programming.  The basic idea is that a procedure in CPS takes an additional argument (often named "$k$") representing the _continuation_, a functional abstraction of the context in which the procedure is used (or "the rest of the computation").  Whenever a procedure in "direct style" would return a value ($v$), the corresponding procedure in CPS instead invokes the continuation with that value ($k(v)$).  However, it is the fact that the procedure has explicit access to the continuation which also allows for the possibility of exceptional behaviors, typically by throwing away the continuation or by invoking it more than once.
+
+To transform the example above into continuation-passing style, first we must fix an "answer type", that is, the return type of the continuation. In this case, to allow for the possibility of raising a division-by-zero error, the answer type should be a [[pointed type]].  For example, we could take
+
+    type ans = int option
+
+Now, our division routine can be written as follows in CPS:
+
+    let divide_cps : int -> int -> (int -> ans) -> ans =
+      fun x y k -> if y == 0 then None else k (x / y)
+
+Observe that we have replaced the (somewhat misleading) original type
+
+    divide : int -> int -> int
+
+by the more complicated type
+
+    divide_cps : int -> int -> (int -> ans) -> ans
+
+This may be recognized as a form of [[double negation translation]], and indeed under [[propositions as types]], the classical negative translations correspond to different forms of continuation-passing style transformations.  Under this correspondence, the "answer type" corresponds to the type of [[false|absurdity]] $\bot$, but as the above example shows, we almost never want the answer type to be [[empty type|empty]].  As such, CPS translation is best understood in terms of the negative translations from [[classical logic]] into [[minimal logic]], where the type of falsehood $\bot$ behaves like a fixed atomic proposition.
 
 ## Related concepts
 
@@ -9,7 +40,11 @@
 
 * [[Yoneda lemma]]
 
+* [[negative translation]]
+
 * [double-negated principle of excluded middle](excluded+middle#DoubleNegatedPEM)
+
+* [[monad (in computer science)]]
 
 ## References
 
