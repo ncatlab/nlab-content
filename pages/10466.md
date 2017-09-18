@@ -305,6 +305,10 @@ Discussion of a model structure for global equivariance with respect to [[geomet
 
 * [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_ ([arXiv:1404.1852](http://arxiv.org/abs/1404.1852))
 
+Discussion from a perspective of [[homotopy type theory]] is in 
+
+* [[Mike Shulman]], _Univalence for inverse EI diagrams_ ([arXiv:1508.02410](http://arxiv.org/abs/1508.02410))
+
 [[!redirects global homotopy theory]]
 
 [[!redirects global equivariant homotopy category]]
