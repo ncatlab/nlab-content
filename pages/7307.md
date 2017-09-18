@@ -204,4 +204,10 @@ A survey of the basic notions of symmetric operads is for instance in section 1 
 
 See the references at _[[operad]]_ for more.
 
+Expression of symmetric operads as [[polynomial functor|polynomial]] [[2-monads]] is discussed in
+
+* [[Joachim Kock]], _Data types with symmetries and polynomial functors over groupoids_,  28th Conference on the Mathematical Foundations of Programming Semantics (Bath, June 2012); in Electronic Notes in Theoretical Computer Science.  ([arXiv:1210.0828](http://arxiv.org/abs/1210.0828))
+
+* {#Weber14} [[Mark Weber]], _Operads as polynomial 2-monads_ ([arXiv:1412.7599](http://arxiv.org/abs/1412.7599))
+
 [[!redirects symmetric operads]]
