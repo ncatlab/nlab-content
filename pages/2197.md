@@ -19,6 +19,8 @@ A [[topological vector space]] is __locally convex__ if it has a [[base of its t
 
 Locally convex (topological vector) spaces are the standard setup for much of contemporary [[functional analysis]]. 
 
+A natural notion of [[smooth map]] between lctvs is given by [[Michal-Bastiani smooth maps]].
+
 
 ## Properties
 
