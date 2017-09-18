@@ -19,6 +19,38 @@ Let $C,D$ be [[2-categories]] and $F,G:C\to D$ be [[functors]].  An **icon** $\a
 If $D$ is a [[strict 2-category]] (or at least strictly unital), then an icon is identical to an [[oplax natural transformation]] whose 1-cell components are identities.  In general, there is a bijection between icons and such oplax natural transformations, obtained by pre- and post-composing with the unit constraints of $D$.  The name "icon" derives from this correspondence: it is an Identity Component Oplax Natural-transformation.
 
 
+### More general definition for enriched bicategories
+
+Icons have recently been used for construction with general $\mathcal{V}$-enriched bicategories. (We recall that this is more general than the definition given above in that, roughly speaking, the categories can be enriched in an arbitrary monoidal category, and that moreover the composition-axioms need not hold strictly, but only up to coherent specified 2-isomorphisms).
+
+Even though part of this is already documented on the nLab, to make this article self-contained (within reason), and to fix some notation for later use, we first recall the notion of $\mathcal{V}$-functors, more or less consistently with the notation above.  
+
+Definition ($\mathcal{V}$-functor). 
+
+Let $\mathcal{V}$ be any monoidal category.
+Let $C,D$ be $\mathcal{V}$-[[enriched bicategories]]. 
+Then a $\mathcal{V}$-functor $F:C\rightarrow D$ consists of the following data:
+
+* a class-function $Ob(C)\rightarrow Ob(D)$
+
+* for each pair $o,o'$ of objects of $C$, a morphism $F_{o,o'}\colon C(o,o')\rightarrow D(F(o),F(o'))$ of the category $\mathcal{V}$
+
+* for each object $o$ of $C$ and for each triple $o,o',o''$ of objects of $C$, the following 2-morphisms (ensuring that the functoriality-morphisms are compatible with the unit- and composition morphisms): 
+
+
+$$
+\begin{matrix}
+    && C(o,o)
+    \\
+    & \nearrow &  \Uparrow  \iota_o \qquad \text{invertible} & \searrow
+    \\
+    I &&   \overset{j}{\rightarrow} && D(F(o),F(o))
+\end{matrix}
+$$
+
+(...)
+(continuehere)
+
 ## Applications
 
 Icons have technical importance in the theory of 2-categories.  For instance, there is no 2-category (or even 3-category) of 2-categories, functors, and lax or oplax transformations (even with modifications), but there is a 2-category of 2-categories, functors, and icons.  (In fact, this 2-category is the 2-category of algebras for a certain [[2-monad]].)
