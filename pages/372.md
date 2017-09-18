@@ -69,9 +69,10 @@ An object $I$ is initial in $C$ iff $I$ is the limit of $Id_C$.
 ###### Proof 
 If $I$ is initial, then there is a [[cone]] $(!_X: I \to X)_{X \in Ob(C)}$ from $I$ to $Id_C$, and if $(p_X: A \to X)_{X \in Ob(C)}$ is any cone from $A$ to $Id_C$, then $p_X = !_X \circ p_I$. Hence $p_I: A \to I$ defines a morphism of cones, and the unique morphism of cones since if $q$ any morphism of cones, then $p_I = !_I \circ q = 1_I \circ q = q$. Thus $(!_X: I \to X)_{X \in Ob(C)}$ is the limit cone. 
 
-Conversely, if $(p_X: L \to X)_{X \in Ob(C)}$ is a limit cone for $Id_C$, then $p_X \circ p_L = p_X$ for all $X$. This means that both $p_L: L \to L$ and $1_L: L \to L$ define morphisms of cones; by the uniqueness in the definition of limit, we infer $p_L = 1_L$. Then by Theorem \ref{cone} we conclude $L$ is initial. 
+Conversely, if $(p_X: L \to X)_{X \in Ob(C)}$ is a limit cone for $Id_C$, then $p_X \circ p_L = p_X$ for all $X$. This means that both $p_L: L \to L$ and $1_L: L \to L$ define morphisms of cones; since the limit cone is the terminal cone, we infer $p_L = 1_L$. Then by Theorem \ref{cone} we conclude $L$ is initial. 
 =-- 
 
+This corollary is actually a key of entry into the [[adjoint functor theorem|general adjoint functor theorem]]. Showing that a functor $G: C \to D$ has a [[left adjoint]] is tantamount to showing that each functor $D(d, G-)$ is [[representable functor|representable]], i.e., that the [[comma category]] $d \downarrow G$ has an initial object $(c, \theta: d \to G c)$. This is the limit of the identity functor, but typically this is the limit over a large diagram whose existence is not guaranteed. The point of a solution set condition is to replace this with a small diagram which is cofinal in the large diagram. 
 
 
 ## Related concepts
@@ -81,6 +82,8 @@ Conversely, if $(p_X: L \to X)_{X \in Ob(C)}$ is a limit cone for $Id_C$, then $
 * [[bottom type]]
 
 * [[initial object in an (∞,1)-category]]
+
+* [[adjoint functor theorem]] 
 
 
 [[!redirects initial object]]
