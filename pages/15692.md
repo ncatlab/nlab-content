@@ -25,10 +25,12 @@
 
 ## Idea
 
-What is called the _Feynman propagator_ over a [[globally hyperbolic spacetime]] is one of the [[Green function]] for the [[Klein-Gordon operator]] $\Box + m^2$ (hence a [[fundamental solution]] to the [[wave equation]] when the [[mass]] $m$ vanishes). 
+What is called the _Feynman propagator_ over a [[globally hyperbolic spacetime]] is one of the [[Green functions]] for the [[Klein-Gordon operator]] $\Box + m^2$ (hence a [[fundamental solution]] to the [[wave equation]] when the [[mass]] $m$ vanishes). 
 
 As discussed in detail at _[S-matrix -- Feynman diagrams and renormalization](S-matrix#ExistenceAndRenormalization)_, 
-the Feynman propagator encodes [[time-ordered products]] of [[quantum observables]] in [[free field]] [[perturbative quantum field theory]] in the same way as the [[Hadamard propagator]] encodes [[normal ordered products]] of quantum fields in [[perturbative quantum field theory]]. This implies that the [[scattering amplitude]] associated with a [[Feynman diagram]] in the [[Feynman perturbation series]] expansion of the [[S-matrix]] is, away from the locus of coinciding interaction points, a [[product of distributions|product]] of Feynman propagators, one for each [[edge]] in the Feynman diagram (the [[extension of distributions]] of this [[product of distributions]] to coinciding points is _[[renormalization]]_.
+the Feynman propagator encodes [[time-ordered products]] of [[quantum observables]] in [[free field]] [[perturbative quantum field theory]] (in the same way as the [[Hadamard propagator]] encodes [[normal ordered products]] of quantum fields). This implies that the [[scattering amplitude]] associated with a [[Feynman diagram]] in the [[Feynman perturbation series]] expansion of the [[S-matrix]] is, away from the locus of coinciding interaction points, a [[product of distributions|product]] of Feynman propagators, one for each [[edge]] in the [[Feynman diagram]] (the [[extension of distributions]] of this [[product of distributions]] to coinciding points is _[[renormalization]]_). 
+
+This is why Feynman propagators are ubiquituous in [[perturbative quantum field theory]]: they are the building blocks of perturbative [[scattering amplitudes]].
 
 ## Definition
 
@@ -183,6 +185,8 @@ from def. \ref{FeynmanPropatorAsSumOfHadamardPropagatorWithAdvancedPropagator}.
 
 
 ### As a zeta function
+
+> needs harmonization
 
 From another perspective, the loop contributions of [[Feynman diagrams]] are typically would-be [[traces]] over inverse powers $H^{-n}$ of the relativistic particle [[Hamiltonian]].
 
