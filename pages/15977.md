@@ -6,4 +6,8 @@
 
 * [[dependent linear type theory]]
 
+* [[Löb's theorem]]
+
 category: people
+
+[[!redirects Neel Krishnaswami]]
