@@ -25,7 +25,7 @@ Sullivan models are a central tool in [[rational homotopy theory]].
 ## Definition
 
 
-Sullivan models are particularly well-behave [[differential graded-commutative algebras]] that are equivalent to the dg-algebras of [[piecewise polynomial differential forms on topological spaces]. Conversely, every rational space can be obtained from a dg-algebra and the _minimal_ Sullivan algebras provide convenient representatives that correspond bijectively to rational homtopy types under this correspondence.
+Sullivan models are particularly well-behaving [[differential graded-commutative algebras]] that are equivalent to the dg-algebras of [[piecewise polynomial differential forms on topological spaces]. Conversely, every rational space can be obtained from a dg-algebra and the _minimal_ Sullivan algebras provide convenient representatives that correspond bijectively to rational homtopy types under this correspondence.
 
 Abstractly, (relative) Sullivan models are the (relative) [[cell complexes]] in the standard [[model structure on dg-algebras]].
 
