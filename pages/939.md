@@ -85,6 +85,7 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 ## Related concepts
 
 * [[distributivity for monoidal structures]]
+* [[monad transformer]]
 
 ##Literature##
 
