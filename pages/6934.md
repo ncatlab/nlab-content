@@ -36,10 +36,12 @@ General information on Agda is at
 
 * _[learn-you-an-agda (and achieve enlightment)](https://github.com/liamoc/learn-you-an-agda)_
 
-* Ulf Norell, James Chapman, _Dependently Typed Programming in Agda_ ([pdf](http://www.cse.chalmers.se/~ulfn/darcs/AFP08/LectureNotes/AgdaIntro.pdf))
+* [[Ulf Norell]], James Chapman, _Dependently Typed Programming in Agda_ ([pdf](http://www.cse.chalmers.se/~ulfn/darcs/AFP08/LectureNotes/AgdaIntro.pdf))
 
 * [[Dan Licata]], Ian Voysey, _[Programming and proving in Agda](http://www.cs.cmu.edu/~drl/teaching/oplss13/)_
 
+* [[Ulf Norell]], _Towards a practical programming
+language based on dependent type theory_, 2007 ([pdf](https://synrc.com/publications/cat/Functional%20Languages/Agda/PracticalDependent.pdf))
 
 A tutorial for use of Agda as an implementation of [[homotopy type theory]] is at
 
