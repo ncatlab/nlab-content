@@ -207,13 +207,13 @@ $$
   \cdots
     \to
   [X,A_k]_{\bullet+1} 
-    \stackrel{\delta_{k,\bullet+1}}{\longrightarrow}
+    \stackrel{ [X,h_k]_{\bullet+1} }{\longrightarrow}
   [X,Y_{k+1}]_{\bullet} 
     \stackrel{[X,f_k]_\bullet}{\longrightarrow}
   [X,Y_k]_\bullet
     \stackrel{[X,g_k]_\bullet}{\longrightarrow}
   [X,A_k]_\bullet
-   \stackrel{\delta_{k,\bullet}}{\longrightarrow}
+   \stackrel{ [X,h_k]_\bullet }{\longrightarrow}
   [X,Y_{k+1}]_{\bullet-1}
     \to 
   \cdots
@@ -235,9 +235,9 @@ $$
    [X,Y_0]_\bullet
    \\
    && 
-   \downarrow &{}_{\mathllap{ [X,h_2]_\bullet }}\nwarrow & 
-   \downarrow &{}_{\mathllap{ [X,h_1]_\bullet }}\nwarrow &
-   \downarrow &{}_{\mathllap{ [X,h_0]_\bullet }}\nwarrow
+   \downarrow &{}_{\mathllap{  }} \underset{[X,h_2]_\bullet}{\nwarrow} & 
+   \downarrow &{}_{\mathllap{  }} \underset{[X,h_1]_\bullet}{\nwarrow} &
+   \downarrow &{}_{\mathllap{  }} \underset{[X,h_0]_\bullet}{\nwarrow}
    & \downarrow^{\mathrlap{[X,g_0]_\bullet}}
    \\
    && [X,A_3]_\bullet 
@@ -267,7 +267,7 @@ $$
   \,.
 $$
 
-Specifically, regard the terms here as the following bigraded abelian groups
+Specifically, regard the terms here as bigraded in the following way
 
 $$
   \begin{aligned}
@@ -329,9 +329,12 @@ $$
      \mathcal{D}^{0,\bullet}
      \\
      && 
-     \downarrow^{\mathrlap{}}  &{}_{\mathllap{k_2}}\nwarrow & 
-     {}^{\mathllap{j_2}}\downarrow &{}_{\mathllap{k_1}}\nwarrow &
-     {}^{\mathllap{j_1}}\downarrow &{}_{\mathllap{k_0}}\nwarrow
+     \downarrow^{\mathrlap{}}  
+       &{}_{  } \underset{\mathllap{k_2}}{\nwarrow} & 
+       {}^{\mathllap{j_2}}\downarrow &
+       \underset{k_1}{\nwarrow}
+       &
+     {}^{\mathllap{j_1}}\downarrow &{}_{} \underset{\mathllap{k_0}}{\nwarrow}
      & \downarrow_{\mathrlap{j_0}}
      \\
      && \mathcal{E}^{3,\bullet} && \mathcal{E}^{2,\bullet} 
@@ -681,7 +684,7 @@ $$
 
 As we pass to derived exact couples, by def. \ref{DerivedExactCouple}, 
 the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by 
-$(1,1)$ with each page, since
+$(1,1)$ with each page, since (by def. \ref{PageOfAnExactCouple})
 
 $$
   \begin{aligned}
@@ -696,7 +699,25 @@ $$
   \,.
 $$
 
-hence the differentials on the $r$th page are of the form
+Similarly the first differential has degree
+
+$$
+  \begin{aligned}
+    deg(j \circ k )
+    & =
+    deg(j) + deg(k)
+    \\
+    &= (1,0) + (0,0)
+    \\
+    & = (1,0)
+  \end{aligned}
+$$
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
+</div>
+
+and so the differentials on the $r$th page are of the form
 
 $$
   d_r 
@@ -708,11 +729,8 @@ $$
 $$
 
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
-</div>
 
-It is conventional to depict this in tables where $s$ increases vertically and $t-s$ increases horizontally. This is the "Adams type" grading convention for spectral sequences, different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence)).
+It is conventional to depict this in tables where $s$ increases vertically and upwards and $t-s$ increases horizontally and to the right. This is the "Adams type" grading convention for spectral sequences (different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence))).
 
 =--
 
