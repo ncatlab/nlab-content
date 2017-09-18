@@ -27,9 +27,13 @@ One might be tempted to recognize [[morphisms]] as in [[category theory]] in thi
 
 ## Formalization of reaction processes
 
-### Via Petri nets
+It is unlikely that any formalization of reaction processes in category theory will depend on the specific nature of the chemical elements, but more generally attempts include _stochastic Petri nets_ and _triangulated categories with stability conditions_:
+
+### Stochastic Petri nets
 
 > Somebody should say how this works!
+
+See [BaezNet](#BaezNet)
 
 ### Triangulated categories with stability conditions
  {#TriangulatedCategoryWithStability}
@@ -77,7 +81,7 @@ After its motivation from [[D-brane]] reaction processes, the study of [[triangu
 
 * Wikipedia, _[Chemical reaction](https://en.wikipedia.org/wiki/Chemical_reaction)_
 
-* [[John Baez]], [chemical reaction networks](http://math.ucr.edu/home/baez/networks/)
+* {#BaezNet} [[John Baez]], [chemical reaction networks](http://math.ucr.edu/home/baez/networks/)
 
 * {#Aspinwall04} [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](https://arxiv.org/abs/hep-th/0403166))
 
