@@ -1,4 +1,6 @@
 
+Yakov Kremnitzer is professor for pure [[mathematics]] at Oxford.
+
 * [webpage](https://www.maths.ox.ac.uk/contact/details/kremnitzer)
 
 ## related $n$Lab entries
