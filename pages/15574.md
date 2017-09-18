@@ -121,17 +121,17 @@ Let $i,j$ be [[level of a topos|levels]], def. \ref{Level}, of a topos $\mathcal
 
 $$
   \array{
-    \Box_i &\preceq & \Box_j
+    \Box_i &\prec & \Box_j
     \\
     \bot && \bot
     \\
-    \bigcirc_i &\preceq & \bigcirc_j 
+    \bigcirc_i &\prec & \bigcirc_j 
   }
 $$
 
-(or $i\preceq j$ for short) when every i-sheaf ($\bigcirc_i$-[[modal type]]) is also a j-sheaf and every i-skeleton ($\Box_i$-[[modal type]]) is a j-skeleton.
+(or $i\prec j$ for short) when every i-sheaf ($\bigcirc_i$-[[modal type]]) is also a j-sheaf and every i-skeleton ($\Box_i$-[[modal type]]) is a j-skeleton.
 
-Let $i\preceq j$, we say that the level $j$ _resolves the opposite_ of level $i$, written
+Let $i\prec j$, we say that the level $j$ _resolves the opposite_ of level $i$, written
 
 $$
   \array{
