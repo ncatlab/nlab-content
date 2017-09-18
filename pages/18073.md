@@ -58,7 +58,7 @@ Conversely, generally the [[topological closure]] of every singleton is irreduci
 
 * [[continuous images of compact spaces are compact]]
 
-* [[map from compact space to Hausdorff space]]
+* [[maps from compact spaces to Hausdorff spaces are closed and proper]]
 
 * [[closed subsets of compact spaces are compact]]
 
