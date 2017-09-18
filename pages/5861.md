@@ -1216,7 +1216,7 @@ We call $\mathcal{O}_X$ the **[[structure sheaf]]** of $X$.
 +-- {: .num_remark #StructureSheafRestrictedToH}
 ###### Remark
 
-Often it is desireable to regard $Sh_{\mathbf{H}}(X)$ only as $\mathbf{H}$-structured, under precomposition of the above $\mathcal{O}_X$ with the left exact $i_! \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{th}$ from the definition \ref{InfinitesimalCohesiveInfTopos} of differential cohesion. By convenient abuse of notation we usually write $\mathcal{O}_X$ for this restricted structure sheaf, too. 
+Often it is desireable to regard $Sh_{\mathbf{H}}(X)$ only as $\mathbf{H}$-structured, under precomposition of the above $\mathcal{O}_X$ with the left exact $i_! \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{th}$ from definition \ref{InfinitesimalCohesiveInfTopos} of differential cohesion. By convenient abuse of notation we usually write $\mathcal{O}_X$ for this restricted structure sheaf, too. 
 
 Then a choice of lift back to an $\mathbf{H}_{th}$-structure is equivalently a choice of $\mathcal{O}_X$-module. This we discuss below in _[Sheaves of modles](#SheavesOfModules)_.
 
