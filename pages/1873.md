@@ -53,6 +53,7 @@ that to a smooth test space $U \in Diff$ assigns the [[functor category]] $[P_1(
 ###### Theorem
 
 The groupoid $\bar \mathbf{B}G$ is canonically equivalent to the smooth groupoid where
+
 * objects are smooth $g$-valued 1-forms $A \in \Omega^1(U, g)$;
 * morphisms $h : A \to A'$ are given by smooth $G$-valued functions $h \in C^\infty(U,G)$ such that
   $$
