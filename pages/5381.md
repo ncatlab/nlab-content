@@ -63,6 +63,8 @@ This is a [[triangulated category|triangulated subcategory]], see [[triangulated
 
 * [[The Stacks Project]], _[Characterizing perfect objects](http://stacks.math.columbia.edu/tag/07LQ)_
 
+* [[Jack Hall]], [[David Rydh]], _Perfect complexes on algebraic stacks_, [arXiv:1405.1887](http://arxiv.org/abs/1405.1887).
+
 [[!redirects perfect complex]]
 [[!redirects perfect complexes]]
 [[!redirects perfect chain complexes]]
