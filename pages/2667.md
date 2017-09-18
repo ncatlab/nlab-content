@@ -312,11 +312,11 @@ $$ \widetilde{p}_\lambda : X^{\otimes n} \to X^{\otimes n} $$
 
 are the components of a natural transformation from the functor $X \mapsto X^{\otimes n}$ to itself.  Since idempotents split in $C$, we can form the cokernel of $1 - \widetilde{p}_\lambda$, or in other words, the coequalizer of the pair 
 
-$$ X^{\otimes n} \stackrel{\widetilde{p}_\lambda}{1} X^{\otimes n} $$
+$$ X^{\otimes n} \stackrel{\widetilde{p}_\lambda}{\underset{1}{\rightrightarrows}} X^{\otimes n} $$
 
 +-- {: .num_defn}
 ######Definition 
-For any Young diagram $\lambda$, the **Schur functor** $S_\lambda: C \to C$ is defined as follows.  Given an object $X$ of $C$, let $S_\lambda(X)$ be the cokernel of $ \widetilde{p}_\lambda : X^{\otimes n} \to X^{\otimes n}$.  Given a morphism $f: X \to Y$ in $C$, let $S_\lambda(f)$ be the unique map $S_\lambda(X) \to S_\lambda(Y)$ such that 
+For any Young diagram $\lambda$, the **Schur functor** $S_\lambda: C \to C$ is defined as follows.  Given an object $X$ of $C$, let $S_\lambda(X)$ be the cokernel of $(1 - \widetilde{p}_\lambda) : X^{\otimes n} \to X^{\otimes n}$.  Given a morphism $f: X \to Y$ in $C$, let $S_\lambda(f)$ be the unique map $S_\lambda(X) \to S_\lambda(Y)$ such that 
 $$\array{
 X^{\otimes n} & \to & S_\lambda(X) \\
 f^{\otimes n} \downarrow \; \; & & \downarrow S_\lambda(f) \\
