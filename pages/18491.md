@@ -1,0 +1,10 @@
+
+* [webpage](https://www.dpmms.cam.ac.uk/~agk22/)
+
+## related $n$Lab entries
+
+* [[G2-manifold]]
+
+* [[M-theory on G2-manifolds]]
+
+category: people
