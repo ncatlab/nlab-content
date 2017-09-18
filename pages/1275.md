@@ -19,13 +19,20 @@ Given a [[monoidal category]] $\mathcal{M}$ and a [[coalgebra]] $C$ in $\mathcal
 the category of right (resp. left) ${C}$-[[comodules]]; similarly for an algebra $E$, denote by ${}_E\mathcal{M}$ (resp. $\mathcal{M}_E$) the [[category of modules|category of left E-modules]]
 (right $E$-modules). If the monoidal category is [[symmetric monoidal category|symmetric]] or there is instead an appropriate [[distributive law]], then there are extensions of this notation to [[bimodules]], [[bicomodules]], relative [[Hopf modules]], entwined modules etc. e.g. Write ${}_E\mathcal{M}^B$ for left-right relative $(E,B)$-Hopf modules where $E$ is a $B$-comodule algebra over a bialgebra $B$. 
 
-Let $k$ be a commutative unital [[ring]], and let $\mathcal{M}$ be $k$-linear (in particular it has [[zero morphisms]]). Given a [[coalgebra]] $C$ in $\mathcal{M}$, a left $C$-[[comodule]] $(N,\rho_N \colon N\to N\otimes C)$, a right $C$-comodule $(M,\rho_M \colon M\to C\otimes M)$, their
-__cotensor product__ is an object in $\mathcal{M}$ given by the [[kernel]]
+Let $k$ be a commutative unital [[ring]], and let $\mathcal{M}$ be $k$-linear (in particular it has [[zero morphisms]]). 
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[coalgebra]] $C$ in $\mathcal{M}$, a left $C$-[[comodule]] $(N,\rho_N \colon N\to N\otimes C)$, a right $C$-comodule $(M,\rho_M \colon M\to C\otimes M)$, their __cotensor product__ is an object in $\mathcal{M}$ given by the [[kernel]]
+
 $$
   N \Box M  
   \coloneqq
   \mathrm{ker} (\rho_N \otimes \mathrm{id}_M - \mathrm{id}_N \otimes \rho_M ).
 $$
+
+=--
 
 If [[equalizers]] exist in $\mathcal{M}$, this formula extends to a [[bifunctor]]
 
@@ -46,24 +53,30 @@ $$
   \,.
 $$ 
 
+
 ## Properties
+
+### Relation to tensor product
 
 Let now $\mathcal{M}=({}_k\mathrm{Mod},\otimes_k)$ be the symmetric monoidal category of $k$-modules.
 
 Let $D$ be another $k$-coalgebra, with coproduct $\Delta_C$.
 If $D$ is [[flat module|flat]] as a $k$-module
 (e.g. $k$ is a field), and $N$ a left $D$- right $C$-bicomodule,
-then the cotensor product $N \Box M$ is a $D$-subcomodule of
-$N \otimes_k M$. In particular, under the flatness assumption, if $\pi \colon D \rightarrow C$ is a surjection of coalgebras then $D$ is a left $D$- right $C$-bicomodule via $\Delta_D$ and $(\id \otimes \pi) \circ \Delta_D$
+then the cotensor product $N \Box M$ is a $D$-subcomodule of the [[tensor product]] $N \otimes_k M$. In particular, under the flatness assumption, if $\pi \colon D \rightarrow C$ is a surjection of coalgebras then $D$ is a left $D$- right $C$-bicomodule via $\Delta_D$ and $(\id \otimes \pi) \circ \Delta_D$
 respectively, hence $\mathrm{Ind}^D_C \coloneqq D \Box^C -$
 is a functor from left $C$- to left
 $D$-comodules called the [[induced comodule|induction]] functor for left comodules from $C$ to $D$. 
 
+## Related concepts
+
+* The [[derived functor]] of cotensoring is called _[[Cotor]]_.
+
 ## References
 
-Cotensor products in [[noncommutative geometry]] appear in the role of [[space of sections]] of [[associated vector bundles]] of [[quantum principal bundle]]s (which in affine case correspond to [[Hopf-Galois extensions]]). See e.g.
+Cotensor products in [[noncommutative geometry]] appear in the role of [[space of sections]] of [[associated bundle|associated]] [[vector bundles]] of [[quantum principal bundle]]s (which in affine case correspond to [[Hopf-Galois extensions]]). See e.g.
 
-* [[Shan Majid]], _Foundations of quantum groups theory_, 2nd extended edition, paperback, Cambridge Univ. Press 2000.
+* [[Shahn Majid]], _Foundations of quantum groups theory_, 2nd extended edition, paperback, Cambridge Univ. Press 2000.
 
 For a nonaffine extension of the sections of associated quantum vector bundle, using [[localization]] theory see
 
