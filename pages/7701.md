@@ -22,15 +22,15 @@ In the [[category of sets]], we have a [[bijection|bijective correspondence]] (u
 
 We say that:
 
-1. $T$ has _uniform elimination of imaginaries_ if the above correspondence does hold, that is, if internal congruences in $\mathbf{Def}(T)$ are effective.
+1. $T$ has **uniform elimination of imaginaries** if the above correspondence does hold, that is, if internal congruences in $\mathbf{Def}(T)$ are effective.
 
-2. $T$ has _elimination of imaginaries_ if for every definable set $X = \{m \in \mathbb{M} \operatorname{ | } \varphi(m,b)\}$, there exists a formula $\psi(x,y)$ and a tuple $c$ with the same sort as $y$ such that $c$ uniquely satisfies $X = \{m \in M \operatorname{ | } \psi(m,c)\}.$
+2. $T$ has **elimination of imaginaries** if for every definable set $X = \{m \in \mathbb{M} \operatorname{ | } \varphi(m,b)\}$, there exists a formula $\psi(x,y)$ and a tuple $c$ with the same sort as $y$ such that $c$ uniquely satisfies $X = \{m \in M \operatorname{ | } \psi(m,c)\}.$
 
-Inside a saturated model $\mathbb{M} \models T$, elimination of imaginaries is equivalent to the following statement: for every definable set $X$, there exists a tuple $c$ such that for all $\sigma \in \operatorname{Aut}(\mathbb{M})$, $\sigma(X) = X$ setwise if and only if $\sigma(c) = c$ pointwise. This is sometimes called the _coding of definable sets_.
+Inside a saturated model $\mathbb{M} \models T$, elimination of imaginaries is equivalent to the following statement: for every definable set $X$, there exists a tuple $c$ such that for all $\sigma \in \operatorname{Aut}(\mathbb{M})$, $\sigma(X) = X$ setwise if and only if $\sigma(c) = c$ pointwise. This is sometimes called the **coding of definable sets**.
 
 Poizat noticed that $T$ having elimination of imaginaries allows one to develop a classical Galois theory classifying definably-closed extensions of small parameter sets in terms of the closed subgroups of a profinite automorphism group in any sufficiently saturated model of $T$.
 
-The *imaginary elements* of a theory $T$ are precisely $E$-classes, where $E$ is a $0$-definable equivalence relation on $T$.
+The _imaginary elements_ of a theory $T$ are precisely $E$-classes, where $E$ is a $0$-definable equivalence relation on $T$.
 
 ## The $(-)^{\operatorname{eq}}$ construction ##
 In the process of inventing [[stability theory]], i.e. classifying theories according to the number of isomorphism classes of their models in each cardinality, Shelah found he needed to eliminate imaginaries in a universal way, so he found a way to conservatively interpret each theory $T$ in a theory $T^{\operatorname{eq}}$ which eliminated all the imaginaries of $T$. The process just involves throwing in for each congruence $E$ on $X$ a new sort ([[type]] in type theory) for $X/E$ and a projection map $X \twoheadrightarrow X/E$.
@@ -46,11 +46,19 @@ If a first-order theory eliminates imaginaries, it interprets infinitely many co
 
 In particular, when $T$ eliminates imaginaries, its [[syntactic category]] has finite [[coproducts]]. In particular, $\mathbf{2}$ exists, and all definable subsets have definable classifying maps.
 
-The following characterization is due to Moshe Kamensky, and can be found in his categorical internality paper.
+The following characterization is due to Moshe Kamensky, and can be found [here](https://arxiv.org/abs/1012.3185).
 
-**Proposition.** Let \(T\) be a first-order theory which interprets two constants. Then $T$ eliminates imaginaries if and only if for all $X$ and $Y$ in $\mathbf{Def}(T)$, the presheaf $Z \mapsto \operatorname{Hom}_{\mathbf{Def}(T)}(Z \times X, Y)$ is ind-representable.
++-- {: .num_prop}
+###### Proposition
 
-_Proof._ Suppose first that the presheaves $Y^X \overset{\operatorname{df}}{=}Z \mapsto \operatorname{Hom}_{\mathbf{Def}(T)}(Z \times X,Y)$ are ind-representable. Let $E \overset{s}{\underset{t}{\rightrightarrows}} X$ be a definable equivalence relation on $X$. Let $\phi_E : X \times X \to 2$ classify $E \overset{(s,t)}{\hookrightarrow} X \times X$. Let $\mathbf{y} : \mathbf{Def}(T) \hookrightarrow \widehat{\mathbf{Def}(T)}$ be the Yoneda embedding. Then $\mathbf{y} \phi_E$ has a product-exponential transpose $\overline{\mathbf{y} \phi_E} : \mathbf{y}X \to 2^X$. The Yoneda lemma says that $\operatorname{Hom}_{\widehat{\mathbf{Def}(T)}}(\mathbf{y}X, 2^X) \simeq 2^X(X)$, and by assumption $2^X(X) \simeq \underset{\longrightarrow}{\lim}\operatorname{Hom}(X,J(i))$ for some $J : I \to \mathbf{Def}(T)$ a filtered diagram of definable sets. Since this is filtered, the colimit as a set can be computed as
+Let \(T\) be a first-order theory which interprets two constants. Then $T$ eliminates imaginaries if and only if for all $X$ and $Y$ in $\mathbf{Def}(T)$, the presheaf $Z \mapsto \operatorname{Hom}_{\mathbf{Def}(T)}(Z \times X, Y)$ is ind-representable.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Suppose first that the presheaves $Y^X \overset{\operatorname{df}}{=}Z \mapsto \operatorname{Hom}_{\mathbf{Def}(T)}(Z \times X,Y)$ are ind-representable. Let $E \overset{s}{\underset{t}{\rightrightarrows}} X$ be a definable equivalence relation on $X$. Let $\phi_E : X \times X \to 2$ classify $E \overset{(s,t)}{\hookrightarrow} X \times X$. Let $\mathbf{y} : \mathbf{Def}(T) \hookrightarrow \widehat{\mathbf{Def}(T)}$ be the Yoneda embedding. Then $\mathbf{y} \phi_E$ has a product-exponential transpose $\overline{\mathbf{y} \phi_E} : \mathbf{y}X \to 2^X$. The Yoneda lemma says that $\operatorname{Hom}_{\widehat{\mathbf{Def}(T)}}(\mathbf{y}X, 2^X) \simeq 2^X(X)$, and by assumption $2^X(X) \simeq \underset{\longrightarrow}{\lim}\operatorname{Hom}(X,J(i))$ for some $J : I \to \mathbf{Def}(T)$ a filtered diagram of definable sets. Since this is filtered, the colimit as a set can be computed as
 
 $$\bigsqcup_{i \in I} J(i) / \sim,$$
 
@@ -66,9 +74,14 @@ Now, the [[category of elements]] $\operatorname{Pt}(1, Y^X)$ of the presheaf $\
 
 $$P \simeq \underset{\longrightarrow}{\lim}\left(\operatorname{Pt}(1,P) \overset{p}{\to} \mathbf{Def}(T) \overset{\mathbf{y}}{\hookrightarrow} \widehat{\mathbf{Def}(T)}\right),$$
 
-so $Y^X$ is ind-representable. $\square$
+so $Y^X$ is ind-representable.
+=--
 
-**Remark.** In the above proof, complementation is required to characterize compactness as "every covering of a definable set by an infinite family of definable sets is finitely supported." The same proof works if we replace inner homs with power objects.
++-- {: .num_remark}
+###### Remark
+In the above proof, complementation is required to characterize compactness as "every covering of a definable set by an infinite family of definable sets is finitely supported." The same proof works if we replace inner homs with power objects.
+
+=--
 
 ## Imaginaries and automorphisms
 Let $M \models T$ be a model. If a formula $\varphi(x_1, x_2)$ is a $0$-definable equivalence relation $E$ (i.e. an [[internal congruence]] in $\mathbf{Def}(T)$) on a definable set $X$, any automorphism $\sigma$ of $M$ must preserve and reflect $E$-equivalence, so that $\sigma$ extends along $X \twoheadrightarrow X/E$ to a permutation on $X/E$. So automorphisms of models "already see" imaginaries. This can be stated rigorously as: the expansion of a monster model $\mathbb{M}$ of $T$ to a monster model $\mathbb{M}^{\operatorname{eq}}$ of $T^{\operatorname{eq}}$ will have the same automorphism group as $\mathbb{M}$.
@@ -77,7 +90,7 @@ To make things concrete, let's consider the structure $(\mathbb{Z}, +)$. Since t
 
 However, we can tell that this structure has many imaginaries by its rigidity: the above automorphism is the only nontrivial one. This is because any such automorphism of $(\mathbb{Z},+)$ must also act on the internal congruences $E_n$ which say
 
-$$x \sim_{E_n} y \iff x \equiv y \text{ mod n} \iff (\exists \ell)\left[x - y = \ell + \dots \text{ (n times) } \dots + \ell\right],$$
+$$x \sim_{E_n} y \iff x \equiv y (\operatorname{mod} n) \iff (\exists \ell)\left[x - y = \ell + \dots \text{ (n times) } \dots + \ell\right],$$
 
 that is, must extend along the abelian group epimorphisms $\mathbb{Z} \twoheadrightarrow \mathbb{Z}/n\mathbb{Z}$ for each $n$, so that $k \mapsto -k$ is the only one that works.
 
