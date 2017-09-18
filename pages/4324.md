@@ -37,7 +37,7 @@ There are objects in $Sp(Top)$, though, that do not come from "naively" [[deloop
 
 ### Strict 
 
-There is a subclass of connective spectra that are equivalent to possibly-more-familiar objects, namely nonnegatively graded chain complexes, via the Dold-Kan correspondence. This identifies [[∞-groupoids]] that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
+There is a subclass of connective spectra that are equivalent to possibly-more-familiar objects, namely nonnegatively graded [[chain complexes]], via the [[Dold-Kan correspondence]]. This identifies [[∞-groupoids]] that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
 
 $$
  \array{
