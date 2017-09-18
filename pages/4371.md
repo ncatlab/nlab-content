@@ -178,6 +178,7 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 * [[dense subtopos]]
 
+* [[de Morganization]]
 
 ## References
 
@@ -199,7 +200,7 @@ Discussion in relation to [[cohesion]] and the [[sharp modality]] is in
 
 More detailed discussion of this is in 
 
-* {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, TAC **30** no. 26 (2015) pp 909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+* {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, TAC **30** no. 26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
 Other useful references include
 
