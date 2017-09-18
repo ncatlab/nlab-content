@@ -106,7 +106,7 @@ $$
 where we first forget the abelian group object structure and then project onto the domains.
 
 
-> (we should be claiming that this functor has a left adjoint which is a section and computes the [[cotangent complex]]es of objects in $C$).
+> (we should be claiming that this functor has a left adjoint which is a section and computes the [[Kähler differentials]] of objects in $C$).
 
 ### Of a site
 
@@ -145,7 +145,6 @@ $$
 
 
 
-
 ## Examples
 
 ### Modules as tangents to rings {#OrdinaryModules}
@@ -176,6 +175,23 @@ F_R:  Mod_R \to Ab(CRing/R)
 $$
 
 is an [[equivalence of categories]]. This is shown at [[module]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The domain projection $Mod \to CRing$ has a left adjoint, namely the functor assigning to each commutative ring $A$ the pair $(A, \Omega_A)$, where $\Omega_A$ is the $A$-module of [[Kähler differentials]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $A$ and $B$ be commutative rings, let $M$ be a $B$-module, and consider $B \oplus M$ as a ring as in the previous proof. Then, to give a ring homomorphism $f : A \to B \oplus M$ is the same as giving a ring homomorphism $f_0 : A \to B$ and an additive homomorphism $f_1 : A \to M$ such that
+$$f_1 (x y) = f_0 (x) f_1 (y) + f_0 (y) f_1 (x)$$
+for all $x$ and $y$ in $A$. But by the universal property of $\Omega_A$, this is the same as giving a morphism $(A, \Omega_A) \to (B, M)$ in $Mod$.
+
 
 =--
 
