@@ -48,7 +48,7 @@ Please do not list small unimportant institutions, they will be included in exis
 * [Hausdorff Institute](http://www.him.uni-bonn.de) and [Hausdorff Center](http://www.hausdorff-center.uni-bonn.de) at Uni Bonn
 * University of [Oxford, Mathematical Institute](http://www.maths.ox.ac.uk)
 * [CRM Barcelona](http://www.crm.es)
-* [CIRM Marseilles](http://www.cirm.univ-mrs.fr/web.ang/index.html)
+* [CIRM Marseilles](http://www.cirm-math.com)
 
 ### Asia
 
