@@ -728,18 +728,25 @@ For $x \in U_i \subset X$ a point, then the elements in $F_x  = F_i$ are called 
 +-- {: .num_example #kForlCovringOfCircle}
 ###### Example
 
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/pFoldCoveringOfCircleB.png" width="200">
+</div>
+
 Regard the [[circle]] $S^1 = \{ z \in \mathbb{C}  \;\vert\; {\vert z\vert} = 1 \}$ as the [[topological subspace]]
 of elements of unit [[absolute value]] in the [[complex plane]]. 
 For $k \in \mathbb{N}$, consider the continuous function
 
 $$
-  (-)^k \;\colon\; S^1 \longrightarrow S^1
+  p \coloneqq (-)^k \;\colon\; S^1 \longrightarrow S^1
 $$
 
 given by taking a complex number to its $k$th power. This may be thought of as the
 result of "winding the circle $k$ times around itself".
 Precisely, for $k \geq 1$ this is a [[covering space]]
 (def. \ref{CoveringSpace}) with $k$ leaves at each point.
+
+> graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
+
 
 =--
 
@@ -823,7 +830,7 @@ $$
       &\overset{\rho \times id}{\longrightarrow}&
     F_x \times \pi_1(X,x)
     \\
-    {}^{\mathllap{id \times ((-)\cdot(-))}}\downarrow && \downarrow^{\mathrlap{\rho_x}}
+    {}^{\mathllap{id \times ((-)\cdot(-))}}\downarrow && \downarrow^{\mathrlap{\rho}}
     \\
     F_x \times \pi_1(X,x)
       &\underset{\rho}{\longrightarrow}&
@@ -842,7 +849,7 @@ $$
   \,.
 $$
 
-One says that $\rho$ is an _[[action]]_ of $\pi_1(X,x)$ on $F_x$.
+One says that $\rho$ is an _[[action]]_ or _[[permutation representation]]_ of $\pi_1(X,x)$ on $F_x$.
 
 For $G$ any [[group]], then there is a [[category]] $G Set$ whose [[objects]] are [[sets]]
 equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function]] which respect 
@@ -856,17 +863,66 @@ $$
 
 =--
 
++-- {: .num_example }
+###### Example
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
+</div>
+
+There are, up to [[isomorphism]], three different 3-sheeted [[covering spaces]] of the [[circle]] $S^1$.
+
+The one from example \ref{kForlCovringOfCircle} for $k = 3$. Another one. And the trivial one.
+Their corresponding [[permutation actions]] may be seen from the pictures on the right.
+> graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
+
+
+=--
+
+We are now ready to state the main theorem about the [[fundamental group]]. Except that it
+does require the folowing technical condition on the base topological space. 
+This condition is satisfied for all "reasonable" topological spaces:
+
++-- {: .num_defn #SemiLocallySimplyConnected}
+###### Definition
+
+A [[topological space]] $X$ is called _[[semi-locally simply connected topological space|semi-locally simply connected]]_
+if very point $x$ has a [[neighbourhood]] $U$ such that
+
+1. $U$ is [[path-connected topological space|path-connected]] 
+
+1. the induced morphism of [[fundamental groups]] $\pi_1(U,x) \to \pi_1(X,x)$ is trivial (i.e. sends everything to the [[neutral element]]).
+
+=--
+
+
+
 +-- {: .num_theorem}
 ###### Theorem
 
-
 Let $X$ be a [[topological space]] which is [[connected topological space|path-connected]] (def. \ref{pi0})
-and [[semi-locally simply connected topological space|semi-locally simply connected]]. Then 
-for any $x \in X$
-the functor from def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} that describes
+and [[semi-locally simply connected topological space|semi-locally simply connected]] (def. \ref{SemiLocallySimplyConnected}). Then 
+for any $x \in X$ the functor 
+$$
+  Fib_x \;\colon\; Cov(X) \overset{}{\longrightarrow} \pi_1(X,x) Set
+  \,.
+$$
+from def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} that describes
 the [[action]] of the [[fundamental group]] of $X$ on the set of [[leaves]] over $x$
-is an [[equivalence of categories]]:
+has the following property:
 
+1. every [[isomorphism class]] of $\pi_1(X,x)$-[[actions]] in in the image of the functor (one says: the functor is _[[essentially surjective functor|essentially surjective]]_);
+
+1. for any two covering spaces $E_1, E_2$ of $X$ then the map on [[hom-sets]]
+
+   $$
+     Fib_x \;\colon\; Hom_{Cov(X)}(E_1, E_2) \longrightarrow Hom( Fib_x(E_1), Fib_x(E_2) )
+   $$
+   
+   is a [[bijection]] (one says the functor is a _[[fully faithful functor]]_ ).
+
+
+A functor with these two properties one calls an _[[equivalence of categories]]_:
 
 $$
   Cov(X) \overset{\simeq}{\longrightarrow} \pi_1(X,x) Set
@@ -875,7 +931,8 @@ $$
 
 =--
 
-(...)
+
+
 
 
 ## Related entries
