@@ -24,8 +24,7 @@ it is an $G$-[[principal connection]] subject to the constraint that the connect
 
 The [[fiber]] of the [[bundle]] underlying a  Cartan connection is a [[homogeneous space]]. This notion is closely related to [[Klein geometry|Klein geometries]]. 
 
-Cartan connections are also just called _[[Cartan geometries]]_ . 
-
+Cartan connections are also just called _[[Cartan geometries]]_ . See there for more.
 
 
 ## Definition
@@ -33,6 +32,8 @@ Cartan connections are also just called _[[Cartan geometries]]_ .
 ### Traditional
 
 Let $G$ be a [[Lie group]] and $H \hookrightarrow G$  a sub-Lie group. (So that we may think of the [[coset space]] $G/H$ as a [[Klein geometry]].) Write $\mathfrak{h} \hookrightarrow \mathfrak{g}$ for the corresponding [[Lie algebras]]. 
+
+There are various equivalent forms of the definition of Cartan connections. The following one characterizes it as a $G$-[[principal connection]] equipped with extra [[stuff, structure and property|structure and property]].
 
 +-- {: .num_defn #Traditional}
 ###### Definition
@@ -55,7 +56,13 @@ A $(H \hookrightarrow G)$-Cartan connection over a [[smooth manifold]] $X$ is;
 
 =--
 
-This appears for instance as ([Sharpe, section 5.1, section 5.3](#Sharpe)).
++-- {: .num_remark #TraditionalReferences}
+###### Remark
+**(References)**
+
+In terms of [[Cech cohomology|Cech]] [[cocycle]]-data definition \ref{Traditional} is ([Sharpe, section 5.1, def. 1.3](#Sharpe)).  The equivalent formulation as an $H$-[[principal bundle]] equipped with $\mathfrak{g}$-[[Lie algebra valued differential form]] data on its total space is in ([Sharpe, section 5.3, def. 3.1](#Sharpe)), and the equivalent formulation as a $G$-[[principal bundle]] equipped with an [[Ehresmann connection]] on its total space, subject to a constraint, is in ([Sharpe, appendix A, prop. 3.1](#Sharpe)).
+
+=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -79,6 +86,8 @@ In many important examples the spaces $X$ carrying a Cartan connection are not j
  {#InTermsOfSmoothModuliStacks}
 
 We discuss a [[synthetic mathematics|synthetic]] formulation of Cartan connections in terms of [[differential cohesion]].
+
+> under construction. Discussion of the precise relation to the traditional concept needs to be added
 
 Write
 
@@ -138,6 +147,7 @@ is a [[homotopy pullback]]. From this the [[pasting law]] implies that in the to
 For $G$ a [[semisimple Lie group|semisimple]] [[compact Lie group|compact]] [[Lie group]] and $H = T\hookrightarrow G$ a [[maximal torus]], then prop. \ref{MCFormAsFiberOfDifferentialModuli} plays a central role in the stacky formulation of the [[orbit method]]. See there at _[this proposition](orbit+method#ThetaAsHomotopyFiberOfJ)_.
 
 =--
+
 
 The following is a synthetic formulation of Cartan connections, def. \ref{Traditional}, with patchwise identification, as in remark \ref{ExamplesOfGlobalCartanPatches}.
 
@@ -238,10 +248,15 @@ A standard textbook reference is
  {#Sharpe}
 
 
-See also
+Further discussion of Cartan connections as models for the [[first order formulation of gravity]] is in 
+
+* [[Derek Wise]], _MacDowell-Mansouri gravity and Cartan geometry_, Class.Quant.Grav.27:155010,2010 ([arXiv:gr-qc/0611154](http://arxiv.org/abs/gr-qc/0611154/))
 
 * [[Gabriel Catren]], _Geometrical Foundations of Cartan Gauge Gravity_ ([arXiv:1407.7814](http://arxiv.org/abs/1407.7814))
 
+See also
+
 * wikipedia [Cartan connection](http://en.wikipedia.org/wiki/Cartan_connection)
+
 
 [[!redirects Cartan connections]]
