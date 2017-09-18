@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Differential geometry
++-- {: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 # The Mean Value Theorem
 * table of contents
 {: toc}
 
 ## Idea {#idea}
 
-The motivating idea of the [[derivative]] in [[differential calculus]] is that it is approximated by a ratio of differences.  We may also say that an instantaneous rate of change is approximated by an average rate of change.  The Mean Value Theorem reverses this, and says that any average rate of change is equal to some instantaneous rate of change, if certain differentiability conditions are met.
+The motivating idea of the [[derivative]] in [[differential calculus]] is that it is approximated by a [[ratio]] of differences.  We may also say that an instantaneous rate of change is approximated by an average rate of change.  The Mean Value Theorem reverses this, and says that any average rate of change is equal to some instantaneous rate of change, if certain differentiability conditions are met.
 
 The name comes from the fact that, due to the [[fundamental theorem of calculus]], an average rate of change over an [[interval]] may be viewed as an average (or [[mean]]) of the instantaneous rates of change along the interval.  Thus, the theorem states that the mean value of the derivative on an interval is attained somewhere in that interval.
 
@@ -17,14 +28,14 @@ There are traditionally three versions of increasing generality, although even t
 +-- {: .num_theorem #rolle}
 ###### Rolle\'s Theorem
 
-Suppose that $a \lt b$ are [[real numbers]] and $f$ is a [[continuous map|continuous]] real-valued [[function]] on $[a,b]$.  If $f$ is [[differentiable function|differentiable]] on the interior $]{a,b}[$, and if $f(a) = f(b)$, then for some $c \in {]{a,b}[}$,
+Suppose that $a \lt b$ are [[real numbers]] and $f$ is a [[continuous map|continuous]] [[real number|real]]-valued [[function]] on $[a,b]$.  If $f$ is [[differentiable function|differentiable]] on the [[interior9] $]{a,b}[$, and if $f(a) = f(b)$, then for some $c \in {]{a,b}[}$,
 $$ f'(c) = 0 .$$
 =--
 
 +-- {: .num_theorem #lagrange}
 ###### Lagrange\'s Theorem
 
-Suppose that $a \lt b$ are [[real numbers]] and $f$ is a [[continuous map|continuous]] real-valued [[function]] on $[a,b]$.  If $f$ is [[differentiable function|differentiable]] on the interior $]{a,b}[$, then for some $c \in {]{a,b}[}$,
+Suppose that $a \lt b$ are [[real numbers]] and $f$ is a [[continuous map|continuous]] [[real number|real]]-valued [[function]] on $[a,b]$.  If $f$ is [[differentiable function|differentiable]] on the [[interior]] $]{a,b}[$, then for some $c \in {]{a,b}[}$,
 $$ f'(c) = \frac {f(b) - f(a)} {b - a} ,$$
 or equivalently
 $$ f'(c) (b - a) = f(b) - f(a) .$$
@@ -47,10 +58,13 @@ Compare this to the definition
 $$ \left.{\frac{\mathrm{d}u}{\mathrm{d}v}}\right|_{x=a} \coloneqq \lim_{b\to{a}} \left.{\frac{\Delta{u}}{\Delta{v}}}\right|_{x=a}^b $$
 (although this is really only a definition when $v$ is $x$, which reduces Cauchy\'s theorem to Lagrange\'s).
 
-Rolle\'s theorem is usually called just 'Rolle\'s' theorem, being the only result attributed today to [[Michel Rolle]]; but Lagrange\'s and Cauchy\'s theorems must be called 'mean value' theorems, as [[Joseph-Louis Lagrange]] and [[Augustin-Louis Cauchy]] did far more.  By default, the term 'Mean Value Theorem' usually refers to Lagrange\'s theorem.  (But neither Rolle nor Lagrange proved their theorem in the general case; the first proofs of all of them are due to Cauchy in 1823, a decade after Lagrange\'s death and more than a century after Rolle\'s death.)
 
 
 ## References {#refs}
+
+Rolle\'s theorem is usually called just 'Rolle\'s' theorem, being the only result attributed today to [[Michel Rolle]]; but Lagrange\'s and Cauchy\'s theorems must be called 'mean value' theorems, as [[Joseph-Louis Lagrange]] and [[Augustin-Louis Cauchy]] did far more.  By default, the term 'Mean Value Theorem' usually refers to Lagrange\'s theorem.  (But neither Rolle nor Lagrange proved their theorem in the general case; the first proofs of all of them are due to Cauchy in 1823, a decade after Lagrange\'s death and more than a century after Rolle\'s death.)
+
+
 
 * Wikipedia, _[Mean value theorem](http://en.wikipedia.org/wiki/Mean_value_theorem)_
 
