@@ -1,0 +1,9 @@
+
+
+* [webpage](https://homepage.univie.ac.at/harold.steinacker/)
+
+## related $n$Lab entries
+
+* [[IKKT matrix model]]
+
+category: people
