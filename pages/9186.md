@@ -15,9 +15,9 @@
 
 ## Definition
 
-The [[connected component]] of the [[subgroup]] of [[outer automorphisms]] of the [[super Poincaré group]] (in some dimension) which fixes the underlying [[Poincaré group]] is called its _R-symmetry_ group.
+The [[connected component]] of the [[subgroup]] of [[outer automorphisms]] of the [[super Poincaré group]] (in some given dimension for some real [[spin representation]] (= "number of supersymmetries")) which fixes the underlying [[Poincaré group]] is called its _R-symmetry_ group (e.g. [de Wit 02, p. 5-6](#deWit02)).
 
-So these are transformations acting on just the spinors, leaving the vectors along, such that in particular the super-bracket that pairs two spinors to a vector remains invariant.
+So these are transformations acting on just the spinors, leaving the vectors alone, such that in particular the super-bracket that pairs two spinors to a vector remains invariant.
 
 For the real [[spin representations]] in dimension 3,4 and 6 which are induced by the [[normed division algebra]] $\mathbb{A} = \mathbb{R}, \mathbb{C}, \mathbb{H}$, respectively (see at _[[division algebra and supersymmetry]]_) and for $N$ supersymmetries (i.e. the spin representation being the [[direct sum]] of $N$ copies of a real irrep) then the R-symmetry group at least includes the $N \times N$ $\mathbb{A}$-[[unitary matrices]] ([Varadarajan 04, section 6.7](#Varadarajan04)).
 
