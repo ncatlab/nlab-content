@@ -71,7 +71,7 @@ Discussion of [[duality in string theory|duality]] with [[heterotic string theor
 
 The original conjecture is due to 
 
-* {#Witten05} [[Edward Witten]], section 5 of _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126 (1995) ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* {#Witten05} [[Edward Witten]], section 5 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126 (1995) ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
 More details are then in
 
