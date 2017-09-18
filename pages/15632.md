@@ -57,7 +57,11 @@ Let $\mathcal{E}$ be a (pre)cohesive category over $\mathcal{S}$ with adjoint st
 
 Dually, a finite coproduct preserving functor $h:\mathcal{E}\to\mathcal{F}$ with $q_!\circ h=p_!$ is called an **extensive quality** on $\mathcal{E}$.
 
+####Remark
+
 Intuitively, an intensive quality is compatible with the points of its domain spaces and an extensive quality with the connected components.
+
+Note that a quality type yields itself a (pre)cohesive category with (degenerate) adjoint string $q_!\dashv q^*\dashv q_*\dashv q^*$. This situations obtains when the induced transformation $p_*\to p_!$ of the [[Nullstellensatz]] is not only an epimorphism but a natural isomorphism (cf. [Lawvere 2007](#Law07)).
 
 ## Examples
 
