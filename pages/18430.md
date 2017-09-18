@@ -1,0 +1,12 @@
+
+The _geometric series_ is the [[series]]
+
+$$
+  \sum_{n = 0}^\infty r^n
+  \,.
+$$
+
+## References
+
+* Wikipedia, _[Geometric series](https://en.wikipedia.org/wiki/Geometric_series)_
+
