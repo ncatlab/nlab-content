@@ -42,6 +42,8 @@ Manifolds with non-trivial Kervaire invariant, hence with _Kervaire invariant 1_
 
 and in no other dimension, except possibly in $d = 126$ (a case that is still open).
 
+This is the statement of (the solution to) the _[[Arf-Kervaire invariant problem]]_.
+
 ### For surfaces and Relation to theta characteristic
 
 On a [[surface]] $\Sigma$ a [[framing]] is equivalently a [[spin structure]]. If the surface carries a [[complex manifold]] structure then a spin structure is equivalently a [[theta characteristic]], hence a square root $L$ of the [[canonical bundle]]. Given this, the Kervaire invariant in $\Sigma$ is equal to the [[dimension]] mod 2 
@@ -59,6 +61,8 @@ of the space of [[holomorphic sections]] of $L$:
 * [[Hopf invariant]], [[Hopf invariant one]]
 
 * [[Arf-Kervaire invariant problem]]
+
+* [[self-dual higher gauge theory]]
 
 ## References
 
@@ -85,5 +89,7 @@ More resources are collected at
 
 
 [[!redirects Kervaire invariants]]
+
+[[!redirects Arf-Kervaire invariant]]
 
 [[!redirects Kervaire inavariant one]]
