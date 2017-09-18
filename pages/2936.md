@@ -68,18 +68,18 @@ One may check that $f$ is continuous and surjective.
 
 Let $C \subseteq X$ be a closed subset of a Polish space $X$. The following operation traces back to Cantor's work in Fourier analysis, which in turn led to his study of [[countable ordinal|countable ordinals]] and [[ordinal]] analysis. 
 
-For a subset $A \subseteq X$, recall that $x \in A$ is a [[limit point]] if $x \in Cl(A \backslash \{x\})$. A point $x \in A$ that is not a limit point of $A$ is called an _isolated point_ of $A$. Clearly each isolated point is open relative to $A$, as is therefore the set of isolated points. 
+For a subset $A \subseteq X$, recall that $x \in A$ is a [[limit point]] if $x \in Cl(A \setminus \{x\})$. A point $x \in A$ that is not a limit point of $A$ is called an _isolated point_ of $A$. Clearly each isolated point is open relative to $A$, as is therefore the set of isolated points. 
 
 +-- {: .num_defn} 
 ###### Definition 
 The **Cantor-Bendixson derivative** of $C$ is the set $C' \subseteq C$ of limit points relative to $C$. For each ordinal $\alpha$ the iterated derivative $C^\alpha$ is defined by recursion: $C^0 = C$, $C^{\alpha + 1} = (C^\alpha)'$, and $C^\alpha = \bigcap_{\beta \lt \alpha} C^\beta$ if $\alpha$ is a limit ordinal. 
 =-- 
 
-Since $\beta \lt \alpha$ implies $C^\beta \supseteq C^\alpha$, it is clear that there is a least ordinal $\alpha$ for which $C^\alpha = C^{\alpha + 1}$. This ordinal is called the _Cantor-Bendixson rank_ of $C$. A _perfect set_ is a closed set $C$ such that $C = C'$. (Some people insist that a perfect set also be nonempty; we do not.) 
+Since $\beta \lt \alpha$ implies $C^\beta \supseteq C^\alpha$, it is clear that there is a least ordinal $\alpha$ for which $C^\alpha = C^{\alpha + 1}$. This ordinal is called the _Cantor-Bendixson rank_ of $C$. A _[[perfect set]]_ is a closed set $C$ such that $C = C'$. (Some people insist that a perfect set also be nonempty; we do not.) 
 
 +-- {: .num_prop #cantor} 
 ###### Proposition 
-For each nonempty perfect set $P$ in a Polish space $X$, there is a continuous injection $i: \mathbf{2}^\mathbb{N} \to P$ from [[Cantor space]]. In particular, the cardinality of a perfect set is the [[continuum]] $c$. 
+For each nonempty perfect set $P$ in a Polish space $X$, there is a continuous injection $i: \mathbf{2}^\mathbb{N} \to P$ from [[Cantor space]]. In particular, the cardinality of $P$ is the [[continuum]] $c$. 
 =-- 
 
 +-- {: .proof} 
@@ -108,12 +108,12 @@ where $s \preceq p$ means $s$ is an initial segment of $p$. The intersection con
 
 +-- {: .num_theorem} 
 ###### Theorem 
-For $C$ a closed subset of a Polish space $X$, the Cantor-Bendixson rank is a countable ordinal $\alpha$. The complement $C \backslash C^\alpha$ is at most countable.  
+For $C$ a closed subset of a Polish space $X$, the Cantor-Bendixson rank is a countable ordinal $\alpha$. The complement $C \setminus C^\alpha$ is at most countable.  
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Let $U_i$ be a countable basis of $X$. For each $\beta \lt \alpha$, each point $x \in C^\beta \backslash C^{\beta + 1}$ is an isolated point, so we can find an $U_{i(x)}$ in the basis such that $U_{i(x)} \cap (C^\beta \backslash C^{\beta + 1}) = \{x\}$. It is then clear that $x \mapsto i(x)$ is injective, so each $C^\beta \backslash C^{\beta + 1}$ is countable. Similarly, whenever $C^\beta \backslash C^{\beta + 1}$ is nonempty, we can find a basis element $U_{i(\beta)}$ that isolates one of its points (say $x$), and this same $U_i$ cannot isolate any point of an earlier $C^\gamma \backslash C^{\gamma + 1}$ since $x$ is a limit point of $U^\gamma$. It follows that $\beta \mapsto i(\beta)$ is an injective map, so that $\alpha$ must be a countable ordinal, and the collection $F \coloneqq C \backslash C^\alpha = \bigcup_{\beta \lt \alpha} C^\beta \backslash C^{\beta + 1}$ is (at most) countable. 
+Let $U_i$ be a countable basis of $X$. For each $\beta \lt \alpha$, each point $x \in C^\beta \setminus C^{\beta + 1}$ is an isolated point, so we can find an $U_{i(x)}$ in the basis such that $U_{i(x)} \cap (C^\beta \setminus C^{\beta + 1}) = \{x\}$. It is then clear that $x \mapsto i(x)$ is injective, so each $C^\beta \setminus C^{\beta + 1}$ is countable. Similarly, whenever $C^\beta \setminus C^{\beta + 1}$ is nonempty, we can find a basis element $U_{i(\beta)}$ that isolates one of its points (say $x$), and this same $U_i$ cannot isolate any point of an earlier $C^\gamma \setminus C^{\gamma + 1}$ since $x$ is a limit point of $U^\gamma$. It follows that $\beta \mapsto i(\beta)$ is an injective map, so that $\alpha$ must be a countable ordinal, and the collection $F \coloneqq C \setminus C^\alpha = \bigcup_{\beta \lt \alpha} C^\beta \setminus C^{\beta + 1}$ is (at most) countable. 
 =-- 
 
 +-- {: .num_cor #CH} 
@@ -143,7 +143,7 @@ Let $E \subseteq \mathbf{2}^\mathbb{N}$ be the set of $(0, 1)$-sequences that ar
 
 $$f(a_1, a_2, \ldots) = \sum_n \frac{a_n}{2^n}$$ 
 
-maps $2^\mathbb{N} \backslash E$ homeomorphically onto the space of non-(dyadic rational) numbers in $[0, 1]$. Pick any bijection $g: E \to \{dyadic\; rationals\}$. Then the union of $f$ and $g$ defines a Borel isomorphism $h: \mathbf{2}^\mathbb{N} \to [0, 1]$. 
+maps $2^\mathbb{N} \setminus E$ homeomorphically onto the space of non-(dyadic rational) numbers in $[0, 1]$. Pick any bijection $g: E \to \{dyadic\; rationals\}$. Then the union of $f$ and $g$ defines a Borel isomorphism $h: \mathbf{2}^\mathbb{N} \to [0, 1]$. 
 =-- 
 
 +-- {: .num_prop #subset} 
@@ -173,8 +173,8 @@ proof of the [[Cantor-Schroeder-Bernstein theorem]] applies in this Borel contex
 Indeed, consider the usual back-and-forth argument which introduces descending sequences $X = X_0 \supseteq X_1 \supseteq \ldots$ and $\mathbf{2}^{\mathbb{N}} = Y_0 \supseteq Y_1 \supseteq \ldots$ where $X_{n+1} \coloneqq j(i(X_n))$ and $Y_{n+1} = i(j(Y_n))$. As $i^{-1}$ and $j^{-1}$ are Borel on their domains, it follows that these iterated images are Borel sets, as are the intersections $X_\infty = \bigcap_n X_n$ and $Y_\infty = \bigcap_n Y_n$. Then the map $h: X_0 \to Y_0$ defined by 
 
 $$\array{
-h(x) & = & i(x) & if \; x \in X_{2 n} \backslash X_{2 n + 1}\; for\; some\; n,\; or \; x \in X_\infty \\
- & = & j^{-1}(x) & if \; x \in X_{2 n + 1} \backslash X_{2 n + 2}\; for\; some\; n
+h(x) & = & i(x) & if \; x \in X_{2 n} \setminus X_{2 n + 1}\; for\; some\; n,\; or \; x \in X_\infty \\
+ & = & j^{-1}(x) & if \; x \in X_{2 n + 1} \setminus X_{2 n + 2}\; for\; some\; n
 }$$ 
 
 is a Borel isomorphism. 
