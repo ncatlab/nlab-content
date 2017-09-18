@@ -193,6 +193,10 @@ With this the rightmost adjoint quadruple gives the [[Aufhebung]] of $\Re \dashv
 
 * [[higher Cartan geometry]]
 
+## References
+
+* _[[schreiber:differential cohomology in a cohesive topos]]_
+
 [[!redirects super formal smooth infinity-groupoids]]
 
 
