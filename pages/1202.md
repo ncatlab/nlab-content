@@ -105,4 +105,5 @@ On the relation between AC and the well-ordering principle in general toposes se
 
 * M.-M. Mawanda, _Well-ordering and Choice in Toposes_ , JPAA **50** (1988) pp.171-184.
 
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. II_, Oxford UP 2002. (D4.5, pp.987-998)
 [[!redirects well-ordering principle]]
