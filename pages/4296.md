@@ -76,13 +76,16 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 The quote of Hatcher is from 
 
-* Allen Hatcher, _The classification of 3-manifolds -- a brief overview_, ([pdf](https://www.math.cornell.edu/~hatcher/Papers/3Msurvey.pdf)). 
- {#Hatcher} 
+* {#Hatcher}  [[Allen Hatcher]], _The classification of 3-manifolds -- a brief overview_, ([pdf](https://www.math.cornell.edu/~hatcher/Papers/3Msurvey.pdf)). 
+ 
 
 A classic set of notes that was later typed up is
 
 * {#Thurston80} [[William Thurston]], _Geometry and topology of three-manifolds_ (1980), electronic version 1.1 (2002) available from MSRI ([web](http://library.msri.org/books/gt3m/))
 
+See also
+
+* {#Martelli16} Bruno Martelli, _An Introduction to Geometric Topology_ ([arXiv:1610.02592](https://arxiv.org/abs/1610.02592))
 
 
 
