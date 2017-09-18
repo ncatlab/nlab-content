@@ -153,10 +153,14 @@ Discussion of [[free actions]] by [[finite groups]] on spheres includes
 * {#Wall78} [[C. T. C. Wall]], _Free actions of finite groups on spheres_, Proceedings of Symposia in Pure Mathematics, Volume 32, 1978 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/wall7.pdf))
 
 
-* [[Alejandro Adem]], _Constructing and Deconstructing Group Actions_ ([arXiv:0212280](http://arxiv.org/abs/math/0212280))
+* [[Alejandro Adem]], _Constructing and deconstructing group actions_ ([arXiv:0212280](http://arxiv.org/abs/math/0212280))
 
 
 See also the [[ADE classification]] of such actions on the [[7-sphere]] (as discussed there)
+
+### Geometric structures on spheres
+
+* Michael Atiyah, _The non-existent complex 6-sphere_, [arxiv/1610.09366](https://arxiv.org/abs/1610.09366)
 
 [[!redirects n-sphere]]
 [[!redirects n-spheres]]
