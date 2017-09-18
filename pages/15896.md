@@ -1,0 +1,31 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Statement
+
+Every [[hyperbolic manifold]] of [[dimension]] $\geq 3$ and of [[finite number|finite]] [[volume]] is uniquely determined by its [[fundamental group]].
+
+## References
+
+* Wikipedia, _[Mostow rigidity theorem](http://en.wikipedia.org/wiki/Mostow_rigidity_theorem)_
+
+[[!redirects Mostow's rigidity theorem]]
