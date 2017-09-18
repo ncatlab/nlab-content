@@ -2,7 +2,7 @@
 ***
 
 
-**Meeting time: Every Tuesday, 13:15-14:55 (plus epsilon)
+**Meeting time: Every Tuesday, 12:45-14:45 (plus epsilon)
 
 **Place: Sitzungssaal
 
