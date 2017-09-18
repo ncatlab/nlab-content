@@ -24,7 +24,7 @@ This algebra is essentially the [[ring of dual numbers]], but with the single ge
 ### The automorphism super-group
  {#TheAutomorphismSuperGroup}
 
-The interal [[automorphism group]] of the odd line in the [[topos]] of [[smooth super infinity-groupoids|smooth super spaces]] is the [[supergroup]]
+The internal [[automorphism group]] of the odd line in the [[topos]] of [[smooth super infinity-groupoids|smooth super spaces]] is the [[supergroup]]
 
 $$
   \mathbf{Aut}(\mathbb{A}^{0|1})
