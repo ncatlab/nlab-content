@@ -48,7 +48,7 @@ associator $\alpha_{D,D,D}$ (defined as usual to commute with the
 projections) cannot be the identity.
 
 So, in order for coherence to work, we must change it to the statement
-that every ''formal'' diagram commutes.  
+that every "formal" diagram commutes.  
 The formal diagrams that commute will be described through certain
 graphs $\mathcal{G}'_n$ ($n\in \mathbb{N}$).  The vertices of
 $\mathcal{G}'_n$ will be _binary words_ of _length_ $n$, and its
@@ -56,7 +56,7 @@ arrows will represent the sort of arrows that participate in the
 coherence theorem.
 
 We begin by defining the set $W$ of binary words inductively, as the
-set of all terms in one variable (denoted by ''$-$'') in the signature
+set of all terms in one variable (denoted by "$-$") in the signature
 $\{e_0, \otimes\}$, where $e_0$ is an 0-ary function symbol (a
 constant), and $\otimes$ is a binary function symbol.  So, $W$ is the
 smallest set of strings in the alphabet
@@ -80,7 +80,7 @@ elements of $S'$ are comprised of a single associator/unitor symbol
 $1w$.  Later, when we will 
 interpret the elements of $S'$ 
 as arrows of a particular monoidal category $B$, we will call them _basic arrows_. 
-The idea is that every arrow of the ''right'' kind in
+The idea is that every arrow of the "right" kind in
 $B$ (the kind considered in the coherence theorem) factors as the
 composition of such basic arrows (because $\otimes$ is a bifunctor).
 
@@ -89,7 +89,7 @@ $S'$ is of one and only one of the following forms:
 $\alpha u v w$ for some $u, v, w\in W$, $\alpha^{-1} u v w$ for
 some $u, v, w\in W$, $\lambda w$ for some 
 $w\in W$, ..., $\beta \hat{\otimes} 1w$ for some $w\in W$ and
-$\beta \in S'$. Also, in each case the ''arguments'' are determined uniquely
+$\beta \in S'$. Also, in each case the "arguments" are determined uniquely
 (for example, both $\beta$ and $w$ are determined from $\beta \hat{\otimes}
 1w$), and so we may define functions on $S'$ inductively.
 
@@ -163,7 +163,7 @@ $$
 $$
 =--
 
-Note that at a first glance, this ''single variable coherence'' looks
+Note that at a first glance, this "single variable coherence" looks
 quite limited:  We only prove commutativity of diagrams in $B$ whose
 vertices are obtained by tensoring a single element $b$ (e.g.,
 vertices such as $b\otimes_B ((b\otimes_B b)\otimes_B b)$).  However, it
@@ -224,14 +224,14 @@ $S$.
 
 Let $\mathcal{G}_n$ be the full subgraph of $\mathcal{G}$ on the vertices
 of length $n$. The proof will use a certain vertex $w^{(n)}$ of $\mathcal{G}_n$ as
-a''pivot.''  Specifically, we let $w^{(n)}\in W_0$ be the unique word of
+a "pivot."  Specifically, we let $w^{(n)}\in W_0$ be the unique word of
 length $n$ in which all pairs of parentheses start in front (e.g.,
 $(-\otimes -)\otimes -$ for $n=3$, $((-\otimes -)\otimes -)\otimes -$
 for $n=4$, and $(((-\otimes-)\otimes - )\otimes -)\otimes -$ for
 $n=5$; a precise inductive definition is $w^{(1)}=-$, $w^{(n)}=
 w^{(n-1)}\otimes -$ for $n\geq 1$).  
 
-The proof will also use a measure $\rho$ of how ''far'' is a word
+The proof will also use a measure $\rho$ of how "far" is a word
 $w\in W_0$ from being $w^{(n)}$. So, we define $\rho$ inductively by
 
 $$
@@ -240,7 +240,7 @@ $$
 
 It is easily verified that $\rho(u)\geq 0$ for all $u\in W_0$, with
 equality iff $u = w^{(n)}$.  In fact,  $\rho(u)$ is the
-length of the longest directed path (see ahead for what ''directed''
+length of the longest directed path (see ahead for what "directed"
 means here) from $u$ to $w^{(n)}$. [Intuitively, the idea is
 that if $u=v\otimes w$, then we may first handle $v$, then handle $w$, in
 order to reach $w^{(n_1)}\otimes w^{(n_2)}$ (with $n_1:=len(v)$ and
@@ -252,12 +252,12 @@ that involves $\alpha^{-1}$ an _anti-directed arrow_.  A more precise inductive 
 For all $u,v,w\in W_0$, $\alpha u v w$ is directed, and if $\beta$ is
 directed, then $\beta\hat{\otimes} 1 w$ and $1 w\hat{\otimes} \beta$ are
 directed for all $w\in W_0$. The definition of anti-directed is
-obtained by replacing $\alpha$ by $\alpha^{-1}$ and ''directed'' by
-''anti-directed'' in the previous definition. It can be shown by
+obtained by replacing $\alpha$ by $\alpha^{-1}$ and "directed" by
+"anti-directed" in the previous definition. It can be shown by
 induction that if $s\in S$ is directed, then $\rho(cod(s))$ is
 strictly smaller that $\rho(dom(s))$.
 
-For future reference, define the ''formal inverse'' of $s'\in S'$ in the
+For future reference, define the "formal inverse" of $s'\in S'$ in the
 obvious inductive way, by setting, for example,  $inv(\alpha uvw): =
 \alpha^{-1}_{u,v,w}$, $inv(\alpha^{-1} uvw):=
 \alpha uvw$ $inv(\beta\hat{\otimes} 1w):=
@@ -268,7 +268,7 @@ directed one, and being interpreted as the inverse of the
 interpretation of the original arrow). 
 
 From each $w\in W_0$ of length $n$, there is a
-''canonical'' path, involving only directed arrows, from
+"canonical" path, involving only directed arrows, from
 $w$ to $w^{(n)}$ in $\mathcal{G}_n$, obtained by
 successively moving the outermost parentheses to the left with the appropriate 
 $\alpha$.  For an example, consider the
@@ -411,8 +411,8 @@ $$
 v = u\otimes w = dom(\beta) = dom(\beta')\otimes \tilde{w} 
 $$
 
-and therefore $dom(\beta') = u$ and $\tilde{w}=w$ (by standard ''unique
-decomposition'' of terms in a first-order language).  Also, 
+and therefore $dom(\beta') = u$ and $\tilde{w}=w$ (by standard "unique
+decomposition" of terms in a first-order language).  Also, 
 $v' = cod(\beta) = cod(\beta')\otimes w $.
 
 * $\beta = 1\tilde{u}\hat{\otimes}\beta'' $ for some $\tilde{u}\in W_0$ and some
@@ -560,7 +560,7 @@ $$
 
 be two directed arrows of $\mathcal{G}'_n$ with an associator  appearing in
 $s'$ and a unitor appearing in $s''$ (note: the definition of
-''directed'' is extended in an obvious way to include unitors). Then
+"directed" is extended in an obvious way to include unitors). Then
 either there exists a directed  arrow $u\stackrel{s_1}{\to} u''$
 containing a unitor with $\mathcal{I}(s_1)=\mathcal{I}(s'')\circ\mathcal{I}(s')$, or
 there exist directed $s_1$, $s_2$ as in
@@ -606,10 +606,10 @@ Here, $clean(v)$ is the word obtained by removing all instances of
 the unit from $v$ (this can be defined rigorously by induction), and
 $r$ is the total number of units appearing in $v$.
 The right part of the last diagram, where there are no units and
-unitors, commutes in $B$ by the ''coherence 
-for the associator'' that was already proved.  Hence, it remains to
+unitors, commutes in $B$ by the "coherence 
+for the associator" that was already proved.  Hence, it remains to
 prove that the left part, where all arrows involve unitors, commutes
-in $B$ (''coherence for the unitors''). 
+in $B$ ("coherence for the unitors"). 
 
 First one must prove that two parallel directed arrows with unitors in
 $\mathcal{G}'_n$ have the same interpretation in $B$ .   
@@ -636,7 +636,7 @@ left part of the last diagram,  if $u_1=u'_1$, as in
 [[Coh_fig_19.gif:pic]]
 
 then the parallel arrows are equal in $B$, while the
-''large diamond'' on the right commutes in $B$ by the induction
+"large diamond" on the right commutes in $B$ by the induction
 hypothesis.
 
 We can therefore assume that $u_1 \neq u'_1$. As in the case of
