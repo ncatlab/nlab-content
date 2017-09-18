@@ -122,9 +122,12 @@ in fact for higher dimensional [[supergravity]] we need [[extended super Minkows
 
 ## Higher Wess-Zumino-Witten-type sigma-models
 
-A miracle happens when one passes from [[Lorentzian geometry]] to Lorentzian [[supergeometry]].
+
 
 ### Cohomology
+
+A miracle happens when one passes from [[Lorentzian geometry]] to Lorentzian [[supergeometry]].
+
 
 While the [[cohomology]] of [[Cartesian space]] and [[Minkowski spacetime]] is fairly trivial...
 
