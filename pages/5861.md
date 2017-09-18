@@ -63,9 +63,11 @@ where $i_!$ is  a [[full and faithful (∞,1)-functor|full and faithful]] and [[
 
 Equivalently this means that $(i_! \dashv i^\ast) \colon \mathbf{H}_{th} \longrightarrow \mathbf{H}$ is a [[local geometric morphism]] with a further [[right adjoint]] to the right adjoint to the [[direct image]].
 
+Conversely we will say that data as in def. \ref{InfinitesimalCohesiveInfTopos} equips the cohesive $\infty$-topos $\mathbf{H}$ with **differential cohesion**.
+
 =--
 
-Conversely we will say that data as in def. \ref{InfinitesimalCohesiveInfTopos} equips the cohesive $\infty$-topos $\mathbf{H}$ with **differential cohesion**.
+
 
 
 +-- {: .num_remark}
@@ -488,8 +490,8 @@ For that notice the general fact that left
 =--
 
 
-+-- {: .num_note}
-###### Note
++-- {: .num_remark}
+###### Remark
 
 Conversely this implies that $Sh_{(\infty,1)}(C_{th})$ is an [[∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]], exhibited by the triple of adjunctions
 
@@ -501,6 +503,102 @@ $$
 
 
 =--
+
+
+
+#### Relation to infinitesimal cohesion
+ {#RelationToInfinitesimalCohesion}
+
+We discuss how differentiatl cohesion in the sense of def. \ref{InfinitesimalCohesiveInfTopos} relates to [[infinitesimal cohesion]].
+
++-- {: .num_defn #InducedRelativeShapeAndFlat}
+###### Definition
+
+Given differential cohesion, def. \ref{InfinitesimalCohesiveInfTopos},
+
+$$
+  \array{
+     \Re &\dashv& $&#643;_{inf} &\dashv& \flat_{inf}
+     \\
+     && \vee && \vee
+     \\
+     && $&#643; &\dashv& \flat &\dashv& \sharp
+  }
+$$
+
+define operations $&#643;^{rel}$ and $\flat^{rel}$ by
+
+$$
+  &#643;^{rel} X \coloneqq (&#643; X) \underset{\Re X}{\coprod} X
+$$
+
+$$
+  \flat^{rel} X \coloneqq (\flat X) \underset{&#643;_{inf}}{\times} X
+  \,.
+$$
+
+Hence $&#643;^{rel} X$ makes a [[homotopy pushout]] square
+
+$$
+  \array{
+    \Re X &\longrightarrow& X
+    \\
+    \downarrow && \downarrow
+    \\
+    &#643; X &\longrightarrow& &#643;^{rel} X
+  }
+$$
+
+and $\flat^{rel}$  makes a [[homotopy pullback]] square
+
+$$
+  \array{
+    \flat^{rel} X &\longrightarrow& X
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat X &\longrightarrow& &#643;_{inf} X
+  }
+  \,.
+$$
+
+We call $&#643;^{rel}$ the _[[relative shape modality]]_ and $\flat^{rel}$ the _[[relative flat modality]]_.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The relative shape and flat modalities of def. \ref{InducedRelativeShapeAndFlat}
+
+1. form an [[adjoint pair]] $(&#643;^{rel} \dash \flat^{rel})$;
+
+1. whose (co-)[[modal types]] are precisely the properly infinitesimal types, hence those for which $\flat \to &#643;_{inf}$ is an [[equivalence]];
+
+1. $&#643;^{rel}$ preserves the [[terminal object]].
+
+=--
+
+It follows that when $\flat^{rel}$ has a further [[right adjoint]] $\sharp^{rel}$ with equivalent [[modal types]] containing the [[codiscrete object|codiscrete types]], then this defines a [[level of a topos|level]]
+
+$$
+  \array{
+     \flat &\dashv& \sharp
+     \\
+     \vee && \vee
+     \\
+     \flat^{rel} &\dashv& \sharp^{rel}
+     \\
+     \vee && \vee 
+     \\
+     \emptyset &\dashv& \ast
+  }
+$$
+
+hence an intermediate subtopos 
+$\infy Grpd \hookrightarrow \mathbf{H}_{infinitesimal}\hookrightarrow \mathbf{H}_{th}$ which is [[infinitesimal cohesion|infinitesimally cohesive]].
+
+
 
 
 ### Structures in a differential cohesive $(\infty,1)$-topos
@@ -668,6 +766,7 @@ For $(E \to X) \in \mathbf{H}/X$ we call $Jet(E) \to \mathbf{\Pi}_{inf}(X)$ as w
 ###### Definition
 
 We say an object $X \in \mathbf{H}_{th}$ is **formally smooth** if the constant infinitesimal path inclusion, $X \to \mathbf{\Pi}_{inf}(X)$, def. \ref{InfinitesimalPathsAndReduction},
+
 is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
 
@@ -1013,6 +1112,7 @@ By prop. \ref{RedIsIdempotent} we have that
 
 $$
   \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}_{inf} \mathbf{\Pi}_{inf}X
+
 $$
 
 is an [[equivalence in an (∞,1)-category|equivalence]]. As such it is in particular an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
@@ -2226,6 +2326,7 @@ $$
 
 
 See at _[[differential cohesion and idelic structure]]_.
+
 
 
 
