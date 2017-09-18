@@ -329,9 +329,11 @@ A standard text is
 
 * {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 
-For a brief modern surves see also the first three sections of
+Other survey includes
 
-* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
+* {#Schwede12} [[Stefan Schwede]], appendix A.4 of of _[[Symmetric spectra]]_ (2012)
+
+* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], section 1.3 of _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
 
   (with an eye towards application to the [[Arf-Kervaire invariant problem]])
 
