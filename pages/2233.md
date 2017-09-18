@@ -197,3 +197,6 @@ For TQFTs appearing in [[solid state physics]] in the context of [[topological o
 
 [[!redirects extended TQFTs]]
 
+[[!redirects extended TFT]]
+[[!redirects extended TFTs]]
+
