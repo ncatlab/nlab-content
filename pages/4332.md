@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea
@@ -121,6 +121,7 @@ We list examples of local gauge groups and -[[∞-groups]] for various higher [[
 
 * [[spontaneously broken symmetry]]
 
+* [[enhanced gauge symmetry]]
 
 ## References
 
