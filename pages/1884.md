@@ -149,7 +149,7 @@ Therefore $K(X)$ is called the **topological K-theory ring** of $X$ or just the 
 +-- {: .proof}
 ###### Proof
 
-The non-trivial part of the statement is that in $\tilde K(X)$ and $K(X) there is an [[inverse]] to the operation of direct sum of vector bundles. Because in $Vect(X)$ direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.
+The non-trivial part of the statement is that in $\tilde K(X)$ and $K(X)$ there is an [[inverse]] to the operation of direct sum of vector bundles. Because in $Vect(X)$ direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.
 
 On the other hand, clearly the K-class $[I^n]$ of any trivial bundle $I^n$ is the neutral element in $\tilde K(X)$
 
