@@ -551,6 +551,8 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
 * [[Heisenberg Lie n-algebra]] of an [[n-plectic manifold]] or more generally of an [[n-plectic smooth infinity-groupoid]]
 
+* some classes of [[W-algebras]] are claimed to induce $L_\infty$-algebras in [Blumenhagen-Fuchs-Traube 17](W+algebra#BlumenhagenFuchsTraube17)
+
 ### Specific examples
 
 * [[line Lie n-algebra]]
