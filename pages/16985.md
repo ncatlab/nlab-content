@@ -29,6 +29,8 @@ On the other hand, a special role is played in the theory by those $SU(2)$-princ
 
 ## References
 
+* {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_ ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285))
+
 * {#BouwknegtEvslinMathai14a} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality_, Commun.Math.Phys.337:909-954,2015 ([arXiv:1405.5844](http://arxiv.org/abs/1405.5844))
 
 * {#BouwknegtEvslinMathai14b} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-duality II: An infinity of spherical T-duals for non-principal SU(2)-bundles_, J.Geom.Phys.92:46-54, 2015 ([arXiv:1409.1296](http://arxiv.org/abs/1409.1296))
