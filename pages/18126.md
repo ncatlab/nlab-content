@@ -1,6 +1,7 @@
 
 
-{:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em
+;"}
 
 
 
@@ -975,7 +976,7 @@ the [[product topological space|binary product topology]] in def. \ref{BinaryPro
 and the [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
 To make use of this, we need to recognize sets of open subsets that serve as the basis for some topology:
 
-+-- {: .num_lemma }
++-- {: .num_lemma #RecognizingTopologicalBasis}
 ###### Lemma
 
 Let $X$ be a set.
@@ -1148,27 +1149,6 @@ on that index set.
 
 =--
 
-+-- {: .num_example #BinaryProductTopologicalSpace}
-###### Example
-**([[product topological space|binary product topological space]])**
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/ProductTopology.png" width="300">
-</div>
-
-For $(X_1,\tau_1)$ and $(X_2, \tau_2)$ two [[topological spaces]], then their _[[product topological space]]_
-has as underlying set the [[Cartesian product]] $X_1 \times X_2$ of the corresponding two underlying sets,
-and its topology is generated from the [[basis for a topology|basis]] (def. \ref{TopologyBase})
-given by the Cartesian products $U_1 \times U_2$ of the opens $U_i \in \tau_i$.
-
-> graphics grabbed from [Munkres 75](#Munkres75)
-
-
-Beware that for non-[[finite set|finite]] products, the descriptions of the product topology is not as simple.
-This we turn to below in example \ref{InfiniteProductTopologicalSpace}, after inroducing the general concept
-of [[limits]] in the [[category of topological spaces]].
-
-=--
 
 +-- {: .num_example #SubspaceTopology}
 ###### Example
@@ -1357,6 +1337,27 @@ which makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
    open subset $U_Y \in \tau_Y$ is the restriction $U_Y \cap f(X)$, and the pre-image of that under $X \to f(X)$ is
    $f^{-1}(U_Y)$, as before, which is open since $f$ is continuous, and therefore $U_Y \cap f(X)$ is open in the
    quotient topology.
+
+=--
+
++-- {: .num_example #BinaryProductTopologicalSpace}
+###### Example
+**([[product topological space|binary product topological space]])**
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ProductTopology.png" width="300">
+</div>
+
+For $(X_1,\tau_{X_1})$ and $(X_2, \tau_{X_2})$ two [[topological spaces]], then their _[[product topological space|binary product topological space]]_
+has as underlying set the [[Cartesian product]] $X_1 \times X_2$ of the corresponding two underlying sets,
+and its topology is generated from the [[basis for a topology|basis]] (def. \ref{TopologyBase})
+given by the Cartesian products $U_1 \times U_2$ of the opens $U_i \in \tau_i$.
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+Beware that for non-[[finite set|finite]] products, the descriptions of the product topology is not as simple.
+This we turn to below in example \ref{InfiniteProductTopologicalSpace}, after inroducing the general concept
+of [[limits]] in the [[category of topological spaces]].
 
 =--
 
@@ -1983,8 +1984,69 @@ $\,$
 
 =--
 
-Beware that in general a continuous function itself (as opposed to its [[pre-image]] function) neighther
-preserves [[open subsets]], nor [[closed subsets]]:
+
++-- {: .num_example #FunctorialProductSpace}
+###### Example
+**(product topological space construction is functorial)**
+
+Let $(X_1,\tau_{X_1})$, $(X_2, \tau_{X_2})$, $(Y_1, \tau_{Y_1})$ and $(Y_2, \tau_{Y_2})$ be [[topological spaces]].
+Then for all pairs of [[continuous functions]]
+
+$$
+  f_1 \;\colon\; (X_1, \tau_{X_1}) \longrightarrow (Y_1, \tau_{Y_1})
+$$
+
+and
+
+$$
+  f_2 \;\colon\; (X_2, \tau_{X_2}) \longrightarrow (Y_2, \tau_{Y_2})
+$$
+
+the canonically induced function on [[Cartesian products]] of sets
+
+$$
+  \array{
+    X_1 \times X_2 & \overset{  f_1 \times f_2 }{\longrightarrow} & Y_1 \times Y_2
+    \\
+    (x_1, x_2) &\mapsto& ( f_1(x_1), f_2(x_2) )
+  }
+$$
+
+is a [[continuous function]] with respect to the [[product topological spaces|binary product space topologies]]
+(def. \ref{BinaryProductTopologicalSpace})
+
+$$
+  f_1 \times f_2
+    \;\colon\;
+  (X_1 \times X_2, \tau_{X_1 \times X_2})
+    \longrightarrow
+  (Y_1, \times Y_2, \tau_{Y_1 \times Y_2})
+  \,.
+$$
+
+Moreover, this construction respects [[identity functions]] and [[composition]] of functions
+in both arguments.
+
+In the language of [[category theory]] (remark \ref{TopCategory}), this is summarized
+by saying that the [[product topological space]] construction $(-) \times (-)$ extends to a _[[functor]]_
+from the _[[product category]]_ of the [[category]] [[Top]] with itself to itself:
+
+$$
+  (-) \times (-)
+    \;\colon\;
+  Top \times Top
+    \longrightarrow
+  Top
+  \,.
+$$
+
+=--
+
+$\,$
+
+
+Beware that in general a continuous function itself (as opposed to its [[pre-image]] function) neither
+preserves [[open subsets]], nor [[closed subsets]], as the following examples show:
 
 +-- {: .num_example}
 ###### Example
@@ -2316,7 +2378,7 @@ is a homeomorphism. While an inverse $g$ will exists on the level of functions o
 to be continuous:
 
 +-- {: .num_example #ExponentialMapFromHalfOpenIntervalToCircle}
-###### Example
+###### Counter Example
 
 Consider the [[continuous function]]
 
@@ -2328,7 +2390,7 @@ $$
   }
 $$
 
-from the [[half-open interval]] (def. \ref{OpenAndClosedIntervals}) to the unit circle $S^1 \coloneqq S_0(1) \subset \mathbb{R}^2$ (def. \ref{OpenBalls}), regarded as a [[topological subspace]] (def. \ref{SubspaceTopology})
+from the [[half-open interval]] (def. \ref{OpenAndClosedIntervals}) to the unit circle $S^1 \coloneqq S_0(1) \subset \mathbb{R}^2$ (def. \ref{OpenBalls}), regarded as a [[topological subspace]] (example \ref{SubspaceTopology})
 of the [[Euclidean plane]] (def. \ref{EuclideanNorm}).
 
 The underlying function of sets of $f$ is a [[bijection]]. The [[inverse function]] of sets however fails to be continuous
@@ -2343,6 +2405,25 @@ is trivial (def. \ref{FundamentalGroup}).
 =--
 
 Below in example \ref{ContinuousBijectionFromClosedIntervalToCircle} we discuss a criterion under which continuous bijections are homeomorphisms after all.
+
+Now we consider some actual examples of [[homeomorphisms]]:
+
+
++-- {: .num_example #ConcreteAndAbstractPoint}
+###### Example
+
+Let $(X,\tau_X)$ be a [[inhabited|non-empty]] [[topological space]], and let $x \in X$ be any point.
+Regard the corresponding [[singleton]] [[subset]] $\{x\} \subset X$ as equipped with its
+[[topological subspace|subspace topology]] $\tau_{\{x\}}$ (example \ref{SubspaceTopology}). Then this is
+[[homomorphism|homeomorphic]] to the abstract [[point]] space from example \ref{Point}:
+
+$$
+  (\{x\}, \tau_{\{x\}} ) \,\simeq\, \ast
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_example #OpenBallsHomeomorphicToRn}
 ###### Example
@@ -2379,6 +2460,227 @@ $$
 $$
 
 Generally, every [[open ball]] in $\mathbb{R}^n$ (def. \ref{OpenBalls}) is [[homeomorphic]] to all of $\mathbb{R}^n$.
+
+Similarly, for all $a \lt b \in \mathbb{R}$ 
+
+1. the [[open intervals]] $(a,b) \subset \mathbb{R}$
+(example \ref{OpenAndClosedIntervals}) equipped with their [[topological subspace|subspace topology]] 
+are all homeomorphic to each other, 
+
+1. the closed intervals $[a,b]$ are all homeomorphic to each other,
+
+1. the half-open intervals of the form $[a,b)$ are all homeomophic to each other;
+
+1. the half-open intervals of the form $(a,b]$ are all homeomophic to each other.
+
+=--
+
++-- {: .num_example #CartesianSymmetricMonoidalTop}
+###### Example
+
+Let $(X,\tau_X)$, $(Y,\tau_Y)$ and $(Z, \tau_Z)$ be [[topological spaces]]. 
+
+Then:
+
+1. There is a [[homeomorphism]] between the two ways of bracketing the three factors when forming their
+   [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}), called the _[[associator]]_:
+    
+   $$
+     \alpha_{X,Y,Z}
+       \;\colon\;
+     \left(
+       (X, \tau_X) \times (Y, \tau_Y)
+     \right)
+     \times
+     (Z, \tau_Z)
+       \overset{\simeq}{\longrightarrow}
+     (X,\tau_X)
+      \times
+     \left(
+       (Y,\tau_Y)
+        \times
+       (Z, \tau_Z)
+     \right)
+     \,.
+   $$
+
+1. There are [[homeomorphism]] between $(X,\tau)$ and its [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) with the [[point]] $\ast$ (example \ref{Point}), called the left and right _[[unitors]]_:
+
+   $$
+     \lambda_X \;\colon\; \ast \times (X, \tau_X)  \overset{\simeq}{\longrightarrow} (X,\tau_X)
+   $$
+   
+   and
+   
+   $$
+     \rho_X \;\colon\; (X, \tau_X) \times \ast \overset{\simeq}{\longrightarrow} (X, \tau_X)
+     \,.
+   $$
+
+1. There is a [[homeomorphism]] between the results of the two orders in which to form their [[product topological spaces]] (def. \ref{BinaryProductTopologicalSpace}), called the _[[braiding]]_:
+
+   $$
+     \beta_{X,Y}
+       \;\colon\;
+     (X,\tau_X) \times (Y,\tau_Y)
+       \overset{\simeq}{\longrightarrow}
+     (Y,\tau_Y) \times (X, \tau_X)
+     \,.
+   $$
+
+Moreover, all these homeomorphisms are compatible with each other, in that they make the 
+following [[commuting diagram|diagrams commute]]:
+
+1. (triangle identity) 
+   $$
+     \array{
+        & (X \times \ast ) \times Y &\stackrel{\alpha_{X,\ast,Y}}{\longrightarrow} & X \times (\ast \times Y)
+         \\
+         & {}_{\rho_x \times id_Y}\searrow
+         && \swarrow_{id_X \times \lambda_Y}
+         &
+        \\
+        &&
+        X \times Y
+     }
+   $$
+
+1. {#PentagonIdentity} ([[pentagon identity]]) 
+   $$
+     \array{
+       && (W \times X) \times (Y \times Z)
+       \\
+       & {}^{\mathllap{\alpha_{W \times X, Y, Z}}}\nearrow
+        &&
+       \searrow^{\mathrlap{\alpha_{W,X,Y \times Z}}}
+       \\
+       ((W \times X ) \times Y) \times Z
+        && &&
+       (W \times (X \times (Y \times Z)))
+       \\
+       {}^{\mathllap{\alpha_{W,X,Y}} \times id_Z }\downarrow
+        && &&
+       \uparrow^{\mathrlap{ id_W \times \alpha_{X,Y,Z} }}
+       \\
+       (W \times (X \times Y)) \times Z
+         && \underset{\alpha_{W,X \times Y, Z}}{\longrightarrow} &&
+       W \times ( (X \times Y) \times Z )
+     }
+   $$
+
+1. (hexagon identities) 
+   $$
+     \array{
+       (X \times Y) \times Z
+         &\stackrel{\alpha_{X,Y,Z}}{\longrightarrow}&
+       X \times (Y \times Z)
+       &\stackrel{\beta_{X,Y \times Z}}{\longrightarrow}&
+       (Y \times Z) \times X
+       \\
+       \downarrow^{\beta_{X,Y} \times id_Z}
+       &&&&
+       \downarrow^{\alpha_{Y,Z,X}}
+       \\
+       (Y \times X) \times Z
+       &\stackrel{\alpha_{Y,X,Z}}{\longrightarrow}&
+       Y \times (X \times Z)
+       &\stackrel{id_Y \times \beta_{X,Y}}{\longrightarrow}&
+       Y \times (Z \times X)
+     }
+   $$
+
+   and
+
+   $$
+     \array{
+        X \times (Y \times Z)
+          &\stackrel{\alpha^{inv}_{X,Y,Z}}{\longrightarrow}&
+        (X \times Y) \times Z
+         &\stackrel{\beta_{X \times Y, Z}}{\longrightarrow}&
+        Z \times (X \times Y)
+        \\
+          \downarrow^{id_X \times \beta_{Y,Z}}
+        &&&&
+          \downarrow^{\alpha^{inv}_{Z,X,Y}}
+        \\
+        X \times (Z \times Y)
+          &\stackrel{\alpha^{inv}_{X,Z,Y}}{\longrightarrow}&
+        (X \times Z) \times Y
+          &\stackrel{\beta_{X,Z} \times id}{\longrightarrow}&
+        (Z \times X) \times Y
+       }
+     \,,
+   $$
+
+1. (symmetry)
+
+   $$
+     \beta_{Y,X} \circ \beta_{X,Y} 
+      \;=\;
+     id \;\colon\; (X_1 \times X_2 \tau_{X_1 \times X_2}) \to (X_1 \times X_2 \tau_{X_1 \times X_2})
+     \,.
+   $$
+
+In the language of [[category theory]] (remark \ref{TopCategory}), this is summarized by 
+saying that the the [[functor|functorial]] construction $(-) \times (-)$ of [[product topological spaces]]
+(example \ref{FunctorialProductSpace}) 
+gives the [[category]] [[Top]] of [[topological spaces]] the [[structure]] of a 
+[[monoidal category]] which is [[symmetric monoidal category|symmetrically]] [[braided monoidal category|braided]].
+
+From this, a basic result of [[category theory]], the _[[MacLane coherence theorem]]_, guarantees that there is
+no essential ambiguityin re-backeting arbitrary iterations of the binary product topological space construction.
+Accordingly, we may write
+
+$$
+  (X_1, \tau_1)
+    \times
+  (X_2, \tau_2)
+    \times
+  \cdots
+    \times
+  (X_n, \tau_n)
+$$
+
+without putting parenthesis.
+
+
+=--
+
++-- {: .num_example #ClosedIntervalsProduct}
+###### Example
+**(product of closed intervals homeomorphic to hypercubes)**
+
+Let $n \in \mathbb{N}$, and let $[a_i, b_i] \subset \mathbb{R}$ for $i \in \{1, \cdots, n\}$
+be $n$ [[closed intervals]] in the [[real line]] (example \ref{OpenAndClosedIntervals}), regarded as [[topological subspaces]] of the
+1-dimensional [[Euclidean space]]. Then the [[product topological space]] 
+(def. \ref{BinaryProductTopologicalSpace}, example \ref{CartesianSymmetricMonoidalTop})
+of all these intervals is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism})
+to the corresponding [[topological subspace]] of the $n$-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm}):
+
+$$
+  [a_1, b_1] \times [a_2, b_2] \times \cdots \times [a_n, b_n]
+   \;\simeq\;
+  \left\{
+    \vec x \in \mathbb{R}^n
+    \,\vert\,
+    \underset{i}{\forall}
+      a_i \leq x_i \leq b_i
+  \right\}
+    \subset 
+  \mathbb{R}^n
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+There is a canonical [[bijection]] between the underlying sets.
+It remains to see that this as well and its inverse are [[continuous functions]].
+For this it is sufficient to see that under this bijection the defining [[basis of a topology|basis]]
+for the [[product topological space|product topology]] is also a basis for the [[topological subspace|subspace topology]].
+But this is immediate from lemma \ref{RecognizingTopologicalBasis}.
 
 =--
 
@@ -2582,7 +2884,7 @@ For definiteness, we re-state these conditions formally. Write $x,y \in X$ for p
 
 $\,$
 
-+-- {: .num_example}
++-- {: .num_example #HausdorffMetricSpace}
 ###### Example
 **(metric spaces are Hausdorff)**
 
@@ -2608,7 +2910,7 @@ the following are equivalent:
 ###### Proposition
 
 Let $(X,\tau)$ be a [[topological space]] satisfying the $T_i$ [[separation axiom]] according to
-def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] $S \subset X$ (def. \ref{SubspaceTopology}) satisfies $T_i$.
+def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] $S \subset X$ (example \ref{SubspaceTopology}) satisfies $T_i$.
 
 =--
 
@@ -3693,13 +3995,212 @@ some authors (mostly in [[algebraic geometry]]) say "quasi-compact" for what we 
 
 +-- {: .num_example }
 ###### Example
+**(finite discrete spaces are compact)**
 
 A [[discrete topological space]] (def. \ref{CoDiscreteTopology}) is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
 precisely if its underlying set is [[finite set|finite]].
 
 =--
 
-In terms of these definitions, the familiar statement about metric spaces from prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} now equivalently says the following
++-- {: .num_example #CompactClosedInterval}
+###### Example
+**(closed interval is compact)**
+
+For any $a \lt b \in \mathbb{R}$ the [[closed interval]] (example \ref{OpenAndClosedIntervals})
+
+$$
+  [a,b] \subset \mathbb{R}
+$$
+
+regarded with its [[topological subspace|subspace topology]] is a [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since all the closed intervals are [[homeomorphism|homeomorphic]] (by example \ref{OpenBallsHomeomorphicToRn})
+it is sufficient to show the statement for $[0,1]$. Hence let $\{U_i \subset [0,1]\}_{i \in I}$ be an 
+open cover. We need to show that it has an open subcover.
+
+Say that an element $x \in [0,1]$ is _admissible_ if the closed sub-interval $[0,x]$ is covered by 
+finitely many of the $U_i$. In this terminlogy, what we need to show is that $1$ is admissible.
+
+Observe from the definition that 
+
+1. 0 is admissible,
+
+1. if $y \lt x \in [0,1]$ and $x$ is admissible, then also $y$ is admissible.
+
+This means that the set of admissible $x$ forms either an [[open interval]] $[0,g)$ or a [[closed interval]]
+$[0,g]$, for some $g \in [0,1]$. We need to show that the latter is true, and for $g = 1$. 
+We do so by observing that the alternatives lead to contradictions:
+
+1. Assume that the set of admissible values were an open interval $[0,g)$. By assumption there would be 
+   a finite subset $J \subset I$ such that $\{U_i \subset [0,1] \}_{i \in J \subset I}$ were a finite 
+   open cover of $[0,g)$. Accordingly, since there is some $i_g \in I$ such that $g \in U_{i_g}$, the union
+   $\{U_i\}_{i \in J } \sqcup \{U_{i_g}\}$ were a finite cover of the closed interval $[0,g]$, 
+   contradicting the assumption that $g$ itself is not admissible (since it is not contained in $[0,g)$).
+   
+1. Assume that the set of admissible values were a closed interval $[0,g]$ for $g \lt 1$. 
+   By assumption there would then be a finite set $J \subset I$ such that $\{U_i \subset [0,1]\}_{i \in J \subset I}$
+   were a finite cover of $[0,g]$. Hence there would be an index $i_g \in J$ such that $g \in U_{i_g}$.
+   But then by the nature of open subsets in the Euclidean space $\mathbb{R}$, this $U_{i_g}$ would also 
+   contain an open ball $B^\circ_g(\epsilon) = (g-\epsilon, g + \epsilon)$. This would mean that 
+   the set of admissible values includes the open interval $[0,g+ \epsilon)$, contradicting the assumption.
+   
+This gives a [[proof by contradiction]].
+
+=--
+
+
+
++-- {: .num_prop #BinaryTychonoffTheorem}
+###### Proposition
+**(binary [[Tychonoff theorem]])**
+
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[compact topological spaces]] (def. \ref{CompactTopologicalSpace}).
+Then also their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) $(X \times Y, \tau_{X \times Y})$ is compact.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\{ U_i \subset X \times Y \}_{i \in I}$ be an [[open cover]] of the product space. We need to show that
+this has a finite subcover.
+
+By definition of the product space topology, each $U_i$ is the union, indexed by some set $K_i$, of [[Cartesian products]]
+of open subsets of $X$ and $Y$:
+
+$$
+  U_i
+    \;=\;
+  \underset{k_i \in K_i}{\cup} \left( 
+     V_{k_i} \times W_{k_i}
+  \right)
+  \phantom{AAAA}
+  V_{k_i} \in \tau_{X} \,\phantom{A}\text{and} \phantom{A}\, W_{k_i} \in \tau_{Y}
+  \,.
+$$
+
+Consider then the [[disjoint union]] of all these index sets
+
+$$
+   K
+    \,\coloneqq\,
+  \underset{i \in I}{\sqcup}
+  K_i
+  \,.
+$$
+
+This is such that
+
+$$
+  (\star)
+  \phantom{AA}
+  \left\{
+    V_{k_i} \times W_{k_i}
+      \subset
+    X \times Y
+  \right\}_{k_i \in K}
+$$
+
+is again an open cover of $X \times Y$.
+
+But by construction, each element $V_{k_i} \times W_{k_i}$ of this new cover is contained in at least one
+$U_{j(k_i)}$ of the original cover. 
+Therefore it is now sufficient to show that there is
+a finite subcover of $(\star)$, consisting of elements indexed by $k_i \in K_{fin} \subset K$ for some
+[[finite set]] $K_{fin}$. Because then the corresponding $U_{j(k_i)}$ for $k_i \in K_{fin}$ form a finite subcover
+of the original cover.
+
+In order to see that $(\star)$ has a finite subcover, first fix a point $x \in X$ and 
+write $\{x\} \subset X$ for the corresponding [[singleton]] [[topological subspace]].
+By example \ref{ConcreteAndAbstractPoint} this is [[homeomorphism|homeomorphic]] to the abstract
+[[point]] space $\ast$.
+By example \ref{CartesianSymmetricMonoidalTop} there is thus a [[homeomorphism]] of the form
+
+$$
+  \{x\} \times Y \simeq Y
+  \,.
+$$
+
+Therefore, since $(Y,\tau_Y)$ is assumed to be [[compact topological space|compact]], the open cover
+
+$$
+  \left\{
+    \left(
+      (V_{k_1} \times W_{k_1}) \cap (\{x\} \times Y) 
+    \right)
+      \;\subset\; 
+    \{x\}\times Y 
+  \right\}_{k_i \in K}
+$$
+
+has a finite subcover, indexed by a [[finite set|finite]] [[subset]] $J_x \subset K$.
+
+Here we may assume without restriction of generality that $x \in V_{k_i}$ for all $k_i \in J_x \subset K$,
+because if not then we may simply remove that index and still have a (finite) subcover.
+
+By finiteness of $J_x$ it now follows that the intersection
+
+$$
+  V_x 
+    \;\coloneqq\; 
+  \underset{k_i \in J_x}{\cap} V_{k_i}
+$$
+
+is still an open subset, and by the previous remark we may assume without restriction that
+
+$$
+  x \in V_x
+  \,.
+$$
+
+Now observe that by the nature of the above cover of $\{x\} \times Y$ we have
+
+$$
+  \{x\} \times Y
+    \subset
+  \underset{k_i \in J_x \subset K}{\cup}  V_{k_i} \times W_{k_i}
+$$
+
+and hence
+
+$$
+  \{x\} \times Y \subset \{x\} \times \underset{k_i \in J_x \subset K}{\cup} W_{k_i}
+  \,.
+$$
+
+Since by construction $V_x \subset V_{k_i}$ for all $k_i \in J_x \subset K$, it follows 
+that we have found a finite cover not just of $\{x\} \times Y$ but of $V_x \times Y$
+
+$$
+  V_x \times Y
+    \subset
+  \underset{k_i \in J_x \subset K}{\cup} \left( V_{k_i} \times W_{k_i} \right)
+  \,.
+$$
+
+To conclude, observe  that $\{V_x \subset X\}_{x \in X}$ is clearly an open cover of $X$,
+so that by the assumption that also $X$ is compact there is a finite set of points $S \subset X$
+so that $\{V_x \subset X\}_{x \in S \subset X}$ is still a cover. 
+In summary then
+
+$$
+  \left\{
+    V_{k_i} \times W_{k_i}
+    \subset X \times Y
+  \right\}_{{x \in S \subset X} \atop { k_i \in J_x \subset K }}
+$$
+
+is a finite subcover of $X \times Y$ as required.
+
+
+=--
+
+In terms of the topological incarnation of the definitions of compactness, the familiar statement about metric spaces from prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} now equivalently says the following:
 
 
 +-- {: .num_prop #SequentiallyCompactMetricSpacesAreEquivCompact}
@@ -3943,7 +4444,7 @@ We discuss some important relations between the concepts of compact spaces and o
 
 In [[analysis]] the key recognition principle for compact spaces is the following:
 
-+-- {: .num_prop }
++-- {: .num_prop #BorelHeine}
 ###### Proposition
 **([[Heine-Borel theorem]])**
 
@@ -3952,14 +4453,13 @@ regarded as a [[topological space]] via its [[metric topology]] (def. \ref{Metri
 
 Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are equivalent:
 
-1. $S$ is  [[compact topological space|compact]] according to def. \ref{CompactTopologicalSpace},
+1. $S$ is  [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace});
 
 1. $S$ is [[closed subset|closed]] (def. \ref{ClosedSubset}) and [[bounded subset|bounded]] (def. \ref{MetricSpaceBoundedSubset}).
 
 =--
 
-
-In general [[topological spaces]], the generalized analogue of the [[Heine-Borel theorem]] is the following:
+We **prove** this [below](#BorelHeineProof) as a consequence of the following more general statement for [[topological space]]:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -3978,14 +4478,15 @@ be a [[topological subspace]]. Then the following are equivalent:
 +-- {: .proof}
 ###### Proof
 
-By  lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact} and prop \ref{CompactSubspacesOfHausdorffSpacesAreClosed}.
+By  lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact} and lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}
+below.
 
 =--
 
 
 +-- {: .num_lemma #ClosedSubsetsOfCompactSpacesAreCompact}
 ###### Lemma
-**([[closed subsets of compact spaces are compact]])**
+**([[closed subspaces of compact spaces are compact]])**
 
 Let $(X,\tau)$ be a [[compact topological space]] (def. \ref{CompactTopologicalSpace}), and let $Y \subset X$ be a
 [[closed subspace|closed]] [[topological subspace]]. Then also $Y$ is [[compact topological space|compact]].
@@ -4091,15 +4592,15 @@ Therefore $U_x$ and $U_Y$ are two open subsets as required.
 
 =--
 
-This immediately implies the following:
+Lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces} immediately implies the following:
 
-+-- {: .num_prop #CompactSubspacesOfHausdorffSpacesAreClosed}
-###### Proposition
++-- {: .num_lemma #CompactSubspacesOfHausdorffSpacesAreClosed}
+###### Lemma
 **([[compact subspaces of Hausdorff spaces are closed]])**
 
 Let $(X,\tau)$ be a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace})
 and let $C \subset X$ be a [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace})
-[[topological subspace]] (def. \ref{SubspaceTopology}). Then $C \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
+[[topological subspace]] (example \ref{SubspaceTopology}). Then $C \subset X$ is also a [[closed subspace]] (def. \ref{ClosedSubset}).
 
 =--
 
@@ -4110,6 +4611,55 @@ Let $x \in X \backslash C$ be any point of $X$ not contained in $C$. We need to 
 This is implied by lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
 
 =--
+
+
+Now we may give the proof of the [[Heine-Borel theorem]]:
+
++-- {: .proof #BorelHeineProof}
+###### Proof
+of the [[Heine-Borel theorem]] (prop. \ref{BorelHeine})
+
+First consider a [[subset]] $S \subset \mathbb{R}^n$ which is closed and bounded. We need to show that
+regarded as a [[topological subspace]] it is [[compact topological space|compact]].
+
+The assumption that $S$ is bounded by (hence contained in) some [[open ball]] $B^\circ_x(\epsilon)$ in $\mathbb{R}^n$ 
+implies that it is contained in $\{ (x_i)_{i = 1}^n \in \mathbb{R}^n \,\vert\, -\epsilon \leq x_i \leq \epsilon \}$.
+By example \ref{ClosedIntervalsProduct}, this  topological subspace is homeomorphic to the $n$-cube
+$[-\epsilon, \epsilon]^n$. Since the closed interval $[-\epsilon, \epsilon]$
+is compact by example \ref{CompactClosedInterval}, the binary [[Tychonoff theorem]] (prop. \ref{BinaryTychonoffTheorem})
+implies that this $n$-cube is compact. Since [[closed subspaces of compact spaces are compact]]
+(lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) this implies that $S$ is compact.
+
+Conversely, assume that $S \subset \mathbb{R}^n$ is a compact subspace. We need to show that it is closed and bounded.
+
+The first statement follows since 
+the [[Euclidean space]] $\mathbb{R}^n$ is [[Hausdorff topological space|Hausdorff]] (example \ref{HausdorffMetricSpace})
+and since [[compact subspaces of Hausdorff spaces are closed]] (prop. \ref{CompactSubspacesOfHausdorffSpacesAreClosed}).
+
+Hence what remains is to show that $S$ is bounded.
+
+To that end, choose any [[positive number|positive]] [[real number]] $\epsilon \in \mathbb{R}_{\gt 0}$
+and consider the [[open cover]] of all of $\mathbb{R}^n$ by the open [[n-cubes]] 
+
+$$
+  (k_1-\epsilon, k_1+1+\epsilon) 
+    \times 
+  (k_2-\epsilon, k_2+1+\epsilon)
+    \times  
+      \cdots
+    \times
+  (k_n-\epsilon, k_n+1+\epsilon)
+$$
+
+for [[n-tuples]] of [[integers]] $(k_1, k_2 , \cdots, k_n ) \in \mathbb{Z}^n$.
+The restrictions of these to $S$ hence form an open cover of the subspace $S$. By the assumption that 
+$S$ is compact, there is then a finite subset of $n$-tuples of integers such that the 
+corresponding $n$-cubes still cover $S$. But the union of any finite number of bounded closed $n$-cubes
+in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
+
+
+=--
+
 
 
 +-- {: .num_prop #MapsFromCompactSpacesToHausdorffSpacesAreClosed}
@@ -4198,7 +4748,7 @@ Every [[compact Hausdorff topological space]] is a [[normal topological space]] 
 +-- {: .proof}
 ###### Proof
 
-First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show this, we need to find for each point $x \in X$ and each disjoint closed subset $Y \in X$ dijoint open neighbourhoods $U_x \supset \{x\}$ and $U_Y \supset Y$. But since [[closed subspaces of compact spaces are compact]], the subset $Y$ is in fact compact, and hence this is in fact the statement of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
+First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show this, we need to find for each point $x \in X$ and each disjoint closed subset $Y \in X$ dijoint open neighbourhoods $U_x \supset \{x\}$ and $U_Y \supset Y$. But since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), the subset $Y$ is in fact compact, and hence this is in fact the statement of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
 
 Next to show that $(X,\tau)$ is indeed normal, we apply the idea of the proof of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces} once more:
 
