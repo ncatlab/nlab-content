@@ -8,5 +8,17 @@ Mantra in the case of perturbative QFTs: perturbative QFTs are about the deforma
 
 * [[Vertex operator algebra]]
 
+## References
+
+In [[perturbative quantum field theory]]:
+
+* [[Stefan Hollands]], Heiner Olbermann, _Perturbative Quantum Field Theory via Vertex Algebras_, J. Math. Phys. 50:112304, 2009 ([arXiv:0906.5313](https://arxiv.org/abs/0906.5313))
+
+* Jan Holland, [[Stefan Hollands]], _Operator product expansion algebra_,  	J. Math. Phys. 54, 072302 (2013) ([arXiv:1205.4904](https://arxiv.org/abs/1205.4904))
+
+Brief survey is at 
+
+* _[Operator Product Expansion](http://home.uni-leipzig.de/tet/?page_id=288)_
+
 [[!redirects OPE]]
 [[!redirects operator product expansions]]
