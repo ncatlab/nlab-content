@@ -2811,9 +2811,7 @@ against this class.
 
 We now discuss some [[right lifting properties]] satisfied by covering spaces:
 
-1. [path-lifting property](#CoveringSpacePathLifting),
-
-1. [homotopy-lifting propery](#CoveringSpacesHomotopyLifting),
+1. [homotopy-lifting propery](#HomotopyLiftingPropertyOfCoveringSpaces),
 
 1. the [lifting theorem](#TheTheoremLifting).
 
@@ -2822,6 +2820,7 @@ of some topological spaces.
 
 
 $\,$
+
 
 
 +-- {: .num_lemma #LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}
@@ -2890,47 +2889,6 @@ Moreover, the assumption that the functions $\hat f_1$ and $\hat f_2$ agree in a
 
 =--
 
-+-- {: .num_lemma #PathLiftingCoveringOfTrivialCoveringSpaces}
-###### Lemma
-**(path lifting property of trivial covering spaces)
-
-Let $X$ be a [[topological space]], let $S$ be a [[set]] with [[discrete toplogical space]]
-denoted $Disc(S)$, and consider the trivial covering space (example \ref{TrivialCoveringSpace})
-
-$$
-  X \times Disc(S) \overset{pr_1}{\longrightarrow} X
-  \,.
-$$
-
-Given
-
-1. $\gamma \colon [0,1] \to X$ a [[path]] in $X$,
-
-1. $\hat x_0 \in X \times Disc(S)$ be a lift of its starting point, hence such that $pr_1(\hat x_0) = \gamma(0)$
-
-then there exists a unique path $\hat \gamma \colon [0,1] \to X \times Disc(S)$ such that
-
-1. it is a lift of the original path: $pr_1 \circ \hat \gamma = \gamma$;
-
-1. it starts at the given lifted point: $\hat \gamma(0) = \hat x_0$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the [[universal property]] of the [[product topological spaces]]
-a lift $\hat \gamma \colon [0,1] \to X \times Disc(S)$ is equivalently a [[pair]] of continuous functions of the form
-
-$$
-  pr_1(\hat \gamma) \;\colon\; [0,1] \to X  \phantom{AAA}\text{and}\phantom{AAA} pr_2(\hat \gamma) \;\colon\; [0,1] \to Disc(S)
-  \,,
-$$
-
-Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. Moreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
-
-
-=--
 
 
 +-- {: .num_lemma #CoveringSpacePathLifting}
@@ -2967,7 +2925,9 @@ $$
   \array{
     \{0\} &\overset{\hat x_0}{\longrightarrow}& E
     \\
-    \downarrow &{}^{\mathllap{\hat \gamma}}\nearrow& \downarrow^{\mathrlap{p}}
+    \downarrow
+      &{}^{\mathllap{\hat \gamma}}\nearrow&
+    \downarrow^{\mathrlap{p}}
     \\
     [0,1] &\underset{\gamma}{\longrightarrow}& X
   }
@@ -2979,7 +2939,27 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition of covering spaces, there exists for every point $x \in X$ a [[open neighbourhood]] $U_x \subset X$ such that the restriction of $E$ to $U_x$ becomes a trivial covering space (example \ref{TrivialCoveringSpace}):
+
+First consider the case that the covering space is trival, hence of the [[Cartesian product]] form
+
+$$
+  pr_1 \;\colon\;  X \times Disc(S) \longrightarrow X
+  \,.
+$$
+
+By the [[universal property]] of the [[product topological spaces]]
+in this case a lift $\hat \gamma \colon [0,1] \to X \times Disc(S)$ is equivalently a [[pair]] of continuous functions
+
+$$
+  pr_1(\hat \gamma) \colon [0,1] \to X  \phantom{AAAA} pr_2(\hat \gamma) \colon [0,1] \to Disc(S)
+  \,,
+$$
+
+Now the lifting condition explicitly fixes $pr_1(\hat \gamma) = \gamma$. Moreover, a continuous function into a [[discrete topological space]] $Disc(S)$ is [[locally constant function|locally constant]], and since $[0,1]$ is a [[connected topological space]] this means that $pr_2(\hat \gamma)$ is in fact a [[constant function]] ([this example](connected+space#LocallyConstantFunctionsOnConnectedSpaces)), hence uniquely fixed to be $pr_2(\hat \gamma) = \hat x_0$.
+
+This shows the statement for the case of trivial covering spaces.
+
+Now consider any covering space $p \colon E \to X$. By definition of covering spaces, there exists for every point $x \in X$ a [[open neighbourhood]] $U_x \subset X$ such that the restriction of $E$ to $U_x$ becomes a trivial covering space:
 
 $$
   p^{-1}(U_x) \simeq U_x \times Disc(p^{-1}(x))
@@ -3021,32 +3001,119 @@ $$
 
 is contained in $U_{x_j}$ from above.
 
-Now assume that $\hat \gamma\vert_{[0,t_j]}$ has been found. Then by the triviality of the covering space over $U_{x_j}$ 
-lemma \ref{PathLiftingCoveringOfTrivialCoveringSpaces} implies that there is a unique lift of $\gamma\vert_{[t_j, t_{j+1}]}$ to a continuous function $\hat \gamma|_{[t_j,t_{j+1}]}$ with starting point $\hat \gamma(t_j)$. Since $[0,t_{j+1}]$ is the [[pushout]] $[0,t_j] \underset{\{t_j\}}{\sqcup} [t_j,t_{j+1}]$ ([this example](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself)), it follows that $\hat \gamma|_{[0,t_j]}$ and $\hat \gamma\vert_{[t_j,t_{j+1}]}$ uniquely glue to a continuous function $\hat \gamma\vert_{[0,t_{j+1}]}$ which lifts $\gamma\vert_{[0,t_{j+1}]}$.
+Now assume that $\hat \gamma\vert_{[0,t_j]}$ has been found. Then by the triviality of the covering space over $U_{x_j}$ and the first argument above, there is a unique lift of $\gamma\vert_{[t_j, t_{j+1}]}$ to a continuous function $\hat \gamma|_{[t_j,t_{j+1}]}$ with starting point $\hat \gamma(t_j)$. Since $[0,t_{j+1}]$ is the [[pushout]] $[0,t_j] \underset{\{t_j\}}{\sqcup} [t_j,t_{j+1}]$ ([this example](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself)), it follows that $\hat \gamma|_{[0,t_j]}$ and $\hat \gamma\vert_{[t_j,t_{j+1}]}$ uniquely glue to a continuous function $\hat \gamma\vert_{[0,t_{j+1}]}$ which lifts $\gamma\vert_{[0,t_{j+1}]}$.
 
 By [[induction]] over $j$, this yields the required lift $\hat \gamma$.
 
-Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\vert_{[t_j, t_{j+1}]}$ are uniquely fixed by the above inductive argument. Therefore also the total lift is unique.
+Conversely, given any lift, $\hat \gamma$, then its restrictions $\hat \gamma\vert_{[t_j, t_{j+1}]}$ are uniquely fixed by the above inductive argument. Therefore also the total lift is unique. Altrnatively, uniqueness of the lifts is a special case of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
+
+=--
+
++-- {: .num_prop #HomotopyLiftingPropertyOfCoveringSpaces}
+###### Proposition
+**([[homotopy lifting property]] of [[covering spaces]])**
+
+Let
+
+1. $E \overset{p}{\to} X$ be a covering space;
+
+1. $Y$ a [[locally path-connected topological space]].
+
+Then every [[lifting problem]] of the form
+
+$$
+  \array{
+    Y &\overset{\hat f}{\longrightarrow}& E
+    \\
+    {}^{\mathllap{ (id_y, const_0)}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    Y \times [0,1] &\underset{\eta}{\longrightarrow}& X
+  }
+$$
+
+has a unique [[lift]]
+
+$$
+  \array{
+    Y &\overset{\hat f}{\longrightarrow}& E
+    \\
+    {}^{\mathllap{ (id_y, const_0)}}\downarrow
+     &{}^{\mathllap{\hat \eta}}\nearrow&
+    \downarrow^{\mathrlap{p}}
+    \\
+    Y \times [0,1] &\underset{\eta}{\longrightarrow}& X
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For every point $y \in Y$ the situation restricts to that of path lifting
+
+$$
+  \array{
+    \ast &\overset{const_y}{\longrightarrow}& Y &\overset{f}{\longrightarrow}& E
+    \\
+    {}^{\mathllap{const_0}}\downarrow
+    &&
+    {}^{\mathllap{ (id_y, const_0)}}\downarrow
+     &{}^{\mathllap{\hat \eta}}\nearrow&
+    \downarrow^{\mathrlap{p}}
+    \\
+    [0,1] &\underset{(const_y,id)}{\longrightarrow}& Y \times [0,1] &\underset{\eta}{\longrightarrow}& X
+  }
+  \,.
+$$
+
+This has a unique lift $\hat \eta_y $ by lemma \ref{CoveringSpacePathLifting}. Hence if a continuous lift of $\eta$ does exist, it must be given by
+
+$$
+  \hat \eta(y,t) = \hat \eta_y(t)
+$$
+
+and so it only remains to see that this function is continuous.
+
+To that end, let $\{U_i \subset X \}_{i \in I}$ be an open cover over which the covering space trivializes. Then $\{\eta^{-1}(U_i) \subset Y \times [0,1]\}$ is an open cover. Since $Y$ is assumed to be locally connected, so is the product space $Y \times [0,1]$, and hence this cover is refined by a cover of connected open subsets $\{V_i \subset Y \times [0,1]\}_{j \in J}$.
+
+By lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint} over these $\hat f$ is constant on one leaf, and hence so is $\hat \eta$. This constant lift is continuous.
+
+This shows that $\hat \eta$ restricts to a continuous function over an open cover of $Y \times [0,1]$ and thus is itself continuous.
+
 
 =--
 
 
-+-- {: .num_prop #CoveringSpacesHomotopyLifting}
-###### Proposition
-**([[homotopy lifting property]] of [[covering spaces]])**
 
-Let $p \colon E \to X$ be a [[covering space]]. Then given a [[homotopy]] relative the starting point between two [[paths]] in $X$, there is for every lift of these two paths to paths in $E$ with the same starting point a unique homotopy between the lifted paths that lifts the given homotopy:
+
+
++-- {: .num_example #CoveringSpacesHomotopyLifting}
+###### Example
+**(lift homotopy of paths for given lifts of paths)**
+
+Let $p \colon E \to X$ be a [[covering space]]. Then given a [[homotopy]] relative the starting point between two [[paths]] in $X$,
+
+$$
+  \eta \;\colon\; \gamma_1 \Rightarrow \gamma_2
+$$
+
+there is for every lift $\hat \gamma_1, \hat \gamma_2$ of these two paths to paths in $E$ with the same starting point a unique homotopy
+
+$$
+  \hat \eta \;\colon\; \hat \gamma_1 \Rightarrow \hat \gamma_2
+$$
+
+between the lifted paths that lifts the given homotopy:
 
 For [[commuting squares]] of the form
 
 $$
   \array{
-    \{0\} \times \{0,1\} &\longrightarrow& \ast
-    \\
-    \downarrow && \downarrow
-    \\
-    [0,1] \times \{0,1\}
-      &\overset{}{\longrightarrow}&
+    ([0,1] \times \{0\}) \cup (\{0,1\} \times [0,1])
+      &\overset{(\gamma_1, \gamma_2)}{\longrightarrow}&
     E
     \\
     {}^{\mathllap{}}\downarrow
@@ -3067,9 +3134,24 @@ Moreover if the homotopy $\eta$ also fixes the endpoint, then so does the lifted
 +-- {: .proof}
 ###### Proof
 
-The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: Given a cover of $X$ over which the covering space trivializes, its preimage is a cover of $[0,1]^2$ over whose elements unique lifts relative to one point exist. By compactness of $[0,1]^2$ this has a finite subcover. Over this we find a lift by induction: To start the induction, there must be one patch which contains the base point, and so we lift there. Then in the induction step, if there is at least one open set left over which we have not lifted yet, by [[connected topological space|connectedness]] of $[0,1]^2$ it follows that there is one which intersects the union  of those patches over which we have already lifted. Hence we have a lift of at least one point over this patch prescribed and hence again find a unique lift over the whole patch
+There are horizontal [[homeomorphisms]] such that the following diagram commutes
 
-Finally, if the homotopy in $X$ is constant also at the endpoint, hence on $\{1\} \times [0,1]$, then the function constant on $\hat \eta(1,1)$ is clearly a lift of the path $eta\vert_{\{1\}\times [0,1]}$ and by uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) this means that also $\hat \eta$ is constant on $\{1\} \times [0,1]$.
+$$
+  \array{
+     [0,1]
+       &\overset{\simeq}{\longrightarrow}&
+     ([0,1] \times \{0\}) \cap ( \{0,1\} \times [0,1] )
+     \\
+     \downarrow
+     &&
+     \downarrow
+     \\
+     [0,1] \times [0,1] &\underset{\simeq}{\longrightarrow}& [0,1] \times [0,1]
+  }
+  \,.
+$$
+
+With this the statement follows from \ref{HomotopyLiftingPropertyOfCoveringSpaces}.
 
 =--
 
@@ -3102,19 +3184,19 @@ $$
   \,.
 $$
 
-Then by the homotopy lifting property (lemma \ref{CoveringSpacesHomotopyLifting}), there is a homotopy in $(E,e)$ fixing the starting point, of the form
+Then by the homotopy lifting property as in example \ref{CoveringSpacesHomotopyLifting}, there is a homotopy in $(E,e)$ fixing the starting point, of the form
 
 $$
   \eta_{E} \;\colon\; \ell_E \Rightarrow \widehat{f \circ \ell_Y}
 $$
 
-and lifting the homotopy $\eta_X$. Since $\eta_X$ in addition fixes the endpoint, the uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) implies that also $\eta_{E}$ fixes the endpoint. Therefore $\eta_E$ is in fact a homotopy between loops, and so $\weidehat{f \circ \ell_Y}$ is indeed a loop.
+and lifting the homotopy $\eta_X$. Since $\eta_X$ in addition fixes the endpoint, the uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) implies that also $\eta_{E}$ fixes the endpoint. Therefore $\eta_E$ is in fact a homotopy between loops, and so $\widehat{f \circ \ell_Y}$ is indeed a loop.
 
 =--
 
 +-- {: .num_prop #TheTheoremLifting}
 ###### Proposition
-**(lifting theorem for covering spaces)**
+**(lifting theorem)**
 
 Let
 
@@ -3150,6 +3232,8 @@ Then the following are equivalent:
      f_\ast(\pi_1(Y,y)) \subset p_\ast( \pi_1(E,e) )
      \,
    $$
+
+Moreover, if $Y$ is path-connected, then the lift in the first item is unique.
 
 
 =--
@@ -3188,7 +3272,7 @@ Now by the path lifting lemma \ref{CoveringSpacePathLifting} the lift $\widehat{
 
 Hence let $\gamma' \colon [0,1] \to Y$ be another path in $Y$ that connects $y$ with $y'$. We need to show that then $\widehat{f \circ \gamma'} = \widehat{f \circ \gamma}$.
 
-First observe that if $\gamma'$ is related to $\gamma$ by a [[homotopy]], so that then also $f \circ \gamma'$ is related to $f \circ \gamma$ by a homotopy, then this is the statement of the homotopy lifting property of lemma \ref{CoveringSpacesHomotopyLifting}.
+First observe that if $\gamma'$ is related to $\gamma$ by a [[homotopy]], so that then also $f \circ \gamma'$ is related to $f \circ \gamma$ by a homotopy, then this is the statement of the homotopy lifting property as in example \ref{CoveringSpacesHomotopyLifting}.
 
 Next write $\bar\gamma'\cdot \gamma$ for the [[path concatenation]] of the path $\gamma$ with the [[reverse path]] of the path $\gamma'$, hence a loop in $Y$, so that $f \circ (\bar\gamma'\cdot \gamma)$ is a loop in $X$. The assumption that $f_\ast(\pi_1(Y,y)) \subset p_\ast(\pi_1(E,e))$ implies (example \ref{IfFundamentalGroupsIncludeThenfLoopsLiftToLoops}) that the path $\widehat{f \circ (\bar \gamma' \cdot \gamma)}$ which lifts this loop to $E$ is itself a loop in $E$.
 
@@ -3306,10 +3390,12 @@ $$
   \,.
 $$
 
-This shows that the lifted function is continuous. Finally that this lift
-is unique is the statement of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
+This shows that the lifted function is continuous. Finally that this continuous lift is unique is the statement of lemma \ref{LiftsOverConnectedSpaceIntoCoveringSpaceAreUniqueRelativePoint}.
 
 =--
+
+
+
 
 
 
