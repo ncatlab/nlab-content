@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Ernst_Stueckelberg)
+
+## related $n$Lab entries
+
+* [[causal perturbation theory]]
+
+category: people
