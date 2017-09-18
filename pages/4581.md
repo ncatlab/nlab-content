@@ -694,6 +694,8 @@ which is the right hand side of the equivalence to be proven.
 
 ## Related concepts
 
+* [[local Lagrangian]], [[Euler-Lagrange form]], [[source form]], [[Lepage form]]
+
 * [[variational calculus]]
 
 * [[secondary differential calculus]]
