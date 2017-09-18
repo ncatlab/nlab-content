@@ -67,19 +67,9 @@ $$ j_\ast \colon Set\to \mathbf{Gl}(\sqcap) \qquad X\mapsto ((1,1),X,X\to 1\time
 
 $$ j^\ast\colon\mathbf{Gl}(\sqcap)\to Set \qquad ((X,Y),Z,u)\mapsto Z\quad .$$
 
-Since $\triangle\dashv\sqcap$ the closed inclusion is essential:
+Since $\triangle\dashv\sqcap$ the closed inclusion is [[essential geometric morphism|essential]]:
 
 $$ j_!\colon Set \to \mathbf{Gl}(\sqcap)\qquad X\mapsto ((X,X), X, \triangle\colon X\to X\times X)\quad .$$
-
-Since $\sqcup\dashv \triangle$ there is a somewhat surprising further left adjoint:
-
-$$ j^\circ\colon\mathbf{Gl}(\sqcap)\to Set \qquad ((X,Y),Z,u)\mapsto X\sqcup Y\quad .$$
-
-In particular, we get an adjoint string:
-
-$$j^\circ\dashv j_!\dashv j^\ast \dashv j_\ast \colon Set\to \mathbb{Gl}(\sqcap)$$
-
-with $j_!$, $j_\ast$ [[fully faithful]], exhibiting $\mathbf{Gl}(\sqcap)$ almost as a [[cohesive topos]] over $Set$. Of course, since $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is spatial it is not expected to satisfy all of Lawvere's axioms. In particular, the [[Nullstellensatz]] is violated since neither of the copies of $Set$ is dense in $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$.
 
 Let $Q$ be the diagram category $N\overset{s}{\underset{t}{\rightrightarrows}} A$ underlying the topos $Set^{Q^{op}}$ of directed graphs or [[quiver|quivers]]. Consider the [[Yoneda embedding]] of the object $A$ into the presheaves: $Y(A)=Hom_Q(-,A)$. Viewed as a graph this gives the basic figure type of an _a_rrow $K_2=\bullet\to\bullet$ , the other basic figure being the _n_ode $\bullet$ given by $Y(N)$ .
 
