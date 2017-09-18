@@ -84,11 +84,12 @@ Curiously, a good bit of [[differential geometry]] and of structures known from 
 
 Now [[Quillen's theorem on MU]] says that $Spec(MU)$ is a refined version of the [[moduli stack of formal groups]] $\mathcal{M}_{fg}$. This in turn naturally admits a [[stratification]] by the [[height of formal groups]]. 
 
-[[!include chromatic tower examples - table]]
- 
+(...) 
 
 ## **1)** Stable homotopy theory
  
+* [[stable homotopy theory]]
+
 ### Spectra
 
 * [[spectrum]], [[symmetric smash product of spectra]]
@@ -110,13 +111,13 @@ Now [[Quillen's theorem on MU]] says that $Spec(MU)$ is a refined version of the
 
 * [[ring spectrum]], [[E-∞ ring]]
 
-* model structure for ring spectra
+* [[model structure for ring spectra]]
 
 ### Module spectra
 
 * [[module spectrum]], [[∞-module]]
 
-* model structure for module spectra
+* [[model structure on algebras over an operad]]
 
 ## **2)** Adams-Novikov spectral sequences
 
