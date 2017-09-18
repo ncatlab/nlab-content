@@ -32,7 +32,7 @@ of [[open subsets]] $U_i \subset X_i$ of each of the factor spaces.
 
 ### Relation to Tychonoff topology
 
-If the index set $I$ is a [[finite set]], then this box topology coincides with the [[Tychonoff topology]] on the Cartesian product. For general $I$ however the Tychnoff topology has as base open subsets only those products $\underset{i \in I}{\prod} U_i$ for which but a finite number of factors are in fact the corresponding total space $X_i$.
+If the index set $I$ is a [[finite set]], then this box topology coincides with the [[Tychonoff topology]] on the Cartesian product. For general $I$ however the Tychnoff topology has as base open subsets only those products $\underset{i \in I}{\prod} U_i$ for which all but a finite number of factors are in fact the corresponding total space $X_i$.
 
 
 Hence for non-finite index set $I$ the box topology is strictly [[finer topology|finer]] that the Tychonoff topology. Beware that it is the Tychonoff toopology which yields the actual [[Cartesian product]] in the [[category]] [[Top]] of [[topological spaces]]. Accordingly, for non-finite $I$ the box topology _fails_ the properties that one expects from a categorical product.
