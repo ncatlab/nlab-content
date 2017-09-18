@@ -2800,7 +2800,7 @@ $$
   \,,
 $$
 
-into the pointed topological categroy of pointed compactly generated topological spaces of finite CW-type (def. \ref{FinitePointedCWComplexes}).
+into the pointed topological category of pointed compactly generated topological spaces of finite CW-type (def. \ref{FinitePointedCWComplexes}).
 
 Here $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon (\Sigma_n)_+ \hookrightarrow (O(n))_+$ is the canonical inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V)_+ \hookrightarrow Aut(S^V)$ is on $O(V)$ the [[topological subspace]] inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometries of $V$ ("[[representation spheres]]").
 
