@@ -224,6 +224,11 @@ A discussion of smooth super $\infty$-groupoids is in section 4.5 of
 [[!redirects smooth super ∞-group]]
 [[!redirects smooth super ∞-groups]]
 
+[[!redirects smooth super infinity-group]]
+[[!redirects smooth super infinity-groups]]
+
+
 [[!redirects smooth super space]]
 [[!redirects smooth super spaces]]
+
 
