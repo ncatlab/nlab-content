@@ -167,7 +167,7 @@ Let $\mathcal{E}$ be weakly cohesive topos. $\mathcal{E}$ has a connector $T$ if
 =--
 
 **Proof**.
-"$\Rightarrow$": Let $1\overset{t_0}{\underset{t_1}{\rightrightarrows}} T$ be a connector. Then $t_1:1\to T$ is a subobject with classifying map $\chi_1:T\to\Omega$. Consider the two composites $\chi_1\circ t_i$ , $i=0,1$:
+"$\Rightarrow$": Let $1\overset{t_0}{\underset{t_1}{\rightrightarrows}} T$ be a connector. Then $t_1:1\to T$ is a subobject with characteristic map $\chi_1:T\to\Omega$. Consider the two composites $\chi_1\circ t_i$ , $i=0,1$:
 
 For $i=1$ this simply yields $\mathsf{true}$ by the definition of $\chi_1$.
 
@@ -194,7 +194,7 @@ One can use connectors to define a (generalized) homotopy relation between maps 
 
 +-- {: .num_defn #I-homotopy}
 ###### Definition 
-Let $I$ be a connector. Two parallel maps $f,g:A\to B$ are called _I-homotopical_, in signs: $f\sim_I g$, if there exists a map $h:A\times I\to B$ with the property that
+Let $I$ be a connector. Two parallel maps $f,g:A\to B$ are called _I-homotopic_, in signs: $f\sim_I g$, if there exists a map $h:A\times I\to B$ with the property that
 $$f=h\circ\langle id_A, t_0\circ !_A\rangle\quad and\quad g=h\circ\langle id_A, t_1\circ !_A\rangle\quad.$$
 (In this case, $h$ is also called an (I-)homotopy between $f$ and $g$.)
 =--
@@ -276,6 +276,8 @@ The rest of this section is intended to provide a proof of theorem \ref{connecte
 =--
 
 In order to show that the connectedness of $\Omega$ implies its contractibility we will now lift this $\Omega$-homotopy between $id_\Omega$ and a constant map $\Omega\to\Omega$ to a $\Omega$-homotopy between $id_{\Omega^X}$ and a constant map $\Omega^X\to\Omega^X$.
+
+In classical [[topology]], a space $X$ with the property that $id_X$ is homotopic to a constant map is called a [[contractible space]]. Hence the next result can be viewed as a synthetic internal avatar of the classical fact, that any two parallel maps into a contractible space $X$ are homotopic.
 
 +-- {: .num_prop #homotopy_lifting}
 ###### Proposition
