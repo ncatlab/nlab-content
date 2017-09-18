@@ -13,6 +13,8 @@ Often one uses the term in a context where one can add and multiply matrices usi
 
 * [[matrix multiplication]], [[matrix calculus]]
 
+* [[diagonal matrix]]
+
 * [[inverse matrix]]
 
 * [[matrix group]], [[matrix Lie group]]
