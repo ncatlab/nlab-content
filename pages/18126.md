@@ -9135,15 +9135,8 @@ is the [[topological space]]
     \;\coloneqq\;
     \left\{
       f \colon X \overset{\text{continuous}}{\longrightarrow} Y
-      \;\;\;\vert\;\;\;
-      \array{
-         K &\hookrightarrow& X
-         \\
-         \downarrow && \downarrow^{\mathrlap{f}}
-         \\
-         U &\hookrightarrow& Y
-      }
-      \phantom{AA}
+      \;\;\vert\;\;
+      f(K) \subset U
     \right\}
       \,.
   $$
@@ -9419,9 +9412,13 @@ in the following [[pullback]] diagrams of topological spaces (example \ref{Pusho
 Here on the right we are using that the mapping space construction is a [[functor]] as shown in remark \ref{TopologicalMappingSpaceIsExponentialObject}, and we are using example \ref{MappingSpaceOutOfPoint} in the
 identification on the bottom right mapping space out of the point space.
 
-
 =--
 
+
+$\,$
+
+We close with two observations on [[proper maps]] into locally compact spaces, which will be useful 
+in the discussion of [[embeddings of smooth manifolds]] [below](#EmbeddingOfSmoothManifolds).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -9431,13 +9428,11 @@ Let
 
 1. $(X,\tau_X)$ be a [[topological space]],
 
-1. $(Y,\tau_Y)$ a [[locally compact topological space]] according to def. \ref{LocallyCompactSpace},
+1. $(Y,\tau_Y)$ a [[locally compact topological space|locally compact]] [[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{LocallyCompactSpace}),
 
-1. $f \colon X \to Y$ a [[continuous function]].
+1. $f \colon X \to Y$ a [[proper map]] (def. \ref{ProperContinuous}).
 
-Then:
-
-If $f$ is a [[proper map]], then it is a [[closed map]].
+Then $f$ is a [[closed map]] (def. \ref{OpenMap}).
 
 =--
 
@@ -9446,12 +9441,14 @@ If $f$ is a [[proper map]], then it is a [[closed map]].
 +-- {: .proof}
 ###### Proof
 
-Let $C \subset X$ be a [[closed subset]]. We need to show that every $y \in Y \backslash f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$ (by lemma \ref{UnionOfOpensGivesClosure}).
+Let $C \subset X$ be a [[closed subset]]. We need to show that $f(C) \subset Y$ is closed. 
+By lemma \ref{UnionOfOpensGivesClosure} this means we need to show 
+that every $y \in Y \backslash f(C)$ has an open neighbourhood $U_y \supset \{y\}$ not intersecting $f(C)$..
 
-By local compactness of $(Y,\tau_Y)$ (def. \ref{LocallyCompactSpace}), $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also the intersection $C \cap f^{-1}(Cl(V_y))$ is compact, and hence so is
+By local compactness of $(Y,\tau_Y)$ (def. \ref{LocallyCompactSpace}), $y$ has an open neighbourhood $V_y$ whose topological closure $Cl(V_y)$ is compact. Hence since $f$ is proper, also $f^{-1}(Cl(V_y)) \subset X$ is compact. Then also the intersection $C \cap f^{-1}(Cl(V_y))$ is compact, and since [[continuous images of compact spaces are compact]] (prop. \ref{ContinuousImageOfACompactSpaceIsCompact}) so is
 
 $$
-  f(C \cap f^{-1}(Cl(V_y)))
+  f\left( C \cap f^{-1}(Cl(V_y)) \right)
   =
   f(C) \cap (Cl(V))
   \;
@@ -9459,7 +9456,7 @@ $$
   \,.
 $$
 
-This is also a [[closed subset]], since [[compact subspaces of Hausdorff spaces are closed]]. Therefore
+This is also a [[closed subset]], since [[compact subspaces of Hausdorff spaces are closed]] (lemma \ref{CompactSubspacesOfHausdorffSpacesAreClosed}). Therefore
 
 $$
   U_y \coloneqq V_y \backslash ( f(C) \cap (Cl(V_y)) ) = V_y \backslash f(C)
@@ -9477,9 +9474,9 @@ is an open neighbourhod of $y$ not intersecting $f(C)$.
 
 Let
 
-1. $X$ be a [[topological space]]
+1. $(X,\tau_X)$ be a [[topological space]]
 
-1. $Y$ a [[locally compact topological space]]
+1. $(Y,\tau_Y)$ a [[locally compact topological space|locally compact]] [[Hausdorff space]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{LocallyCompactSpace}),
 
 1. $f \colon X \to Y$ be a [[continuous function]].
 
@@ -9563,14 +9560,14 @@ Then also $Y$ is [[compact topological space|compact]].
 
 Let $\{V_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$ (def. \ref{OpenCover}). We need to show that this has a finite sub-cover.
 
-By definition of the [[topological subspace|subspace topology]], there exist open subsets $U_i$ of $X$ with
+By definition of the [[topological subspace|subspace topology]], there exist open subsets $U_i \subset X$ with
 
 $$
   V_i = U_i \cap Y
   \,.
 $$
 
-By the assumption that $Y$ is closed, the [[complement]] $X \backslash Y$ is an open subset of $X$, and therefore
+By the assumption that $Y$ is closed, the [[complement]] $X \backslash Y \subset X$ is an open subset of $X$, and therefore
 
 $$
   \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in I}
@@ -9584,7 +9581,7 @@ $$
 $$
 
 is still an open cover of $X$, hence in particular restricts to a finite open cover of $Y$.
-But since $Y \cap ( X \backslash Y ) = \empty$, it follows that indeed
+But since $Y \cap ( X \backslash Y ) = \empty$, it follows that
 
 $$
   \{V_i \subset Y\}_{i \in J \subset I}
@@ -9687,7 +9684,7 @@ This is implied by lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubse
 ###### Proposition
 **([[Heine-Borel theorem]])**
 
-For $n \in \mathbb{N}$, regard $\mathbb{R}^n$ as the $n$-dimensional [[Euclidean space]] via example \ref{EuclideanNorm},
+For $n \in \mathbb{N}$, consider $\mathbb{R}^n$ as the $n$-dimensional [[Euclidean space]] via example \ref{EuclideanNorm},
 regarded as a [[topological space]] via its [[metric topology]] (example \ref{MetricTopology}).
 
 Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are equivalent:
@@ -10331,7 +10328,7 @@ is still open and disjoint from the remaining $V_k$, hence disjoint from all of 
 =--
 
 
-The following prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} will be useful for 
+The following prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} will be useful for
 identifying [[manifolds]] below in prop. \ref{RegularityConditionsForTopologicalManifoldsComparison}:
 
 
@@ -11011,7 +11008,7 @@ In particular if $X$ is as above but not necessarily connected, then the followi
 
 =--
 
-In one direction, use that [[locally compact and sigma-compact spaces are paracompact]] (spring)
+In one direction, use that [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact})
 
 Proof is for instance here [pdf](http://math.harvard.edu/~hirolee/pdfs/2014-fall-230a-lecture-02-addendum.pdf)
 
@@ -11623,6 +11620,7 @@ from the [[category]] [[Diff]] of [[differentiable manifolds]] to the category o
 $\,$
 
 ### Embeddings
+ {#EmbeddingOfSmoothManifolds}
 
 +-- {: .num_defn}
 ###### Definition
