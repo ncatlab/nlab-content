@@ -126,7 +126,7 @@ While the $p$-adic numbers are complete in the [[p-adic norm]], that [[topology]
 
 For that reason the naive idea of formulating [[p-adic geometry]] in analogy to [[complex analytic geometry]] as modeled on domains in $\mathbb{Q}_p^n$, regarded with their [[subspace topology]], fails (for instance there would be no [[analytic continuation]]), as also all these domains are totally disconnected. 
 
-Instead there is ([Tate 71](#Tate71)) a suitable [[Grothendieck topology]] on uch [[affinoid domains]] -- the _[[G-topology]]_ -- with respect to which there is a good theory of [[non-archimedean analytic geometry]] ("[[rigid analytic geometry]]") and hence in particular of [[p-adic geometry]]. Moreover, one may sensibly assign to an $p$-adic domain a [[topological space]] which _is_ well behaved (in particular locally connected and even locally contractible), this is the _[[analytic spectrum]]_ construction. The resulting topological spacs equipped with covers by [[affinoid domain]] under the [[analytic spectrum]] are called [[Berkovich spaces]].
+Instead there is ([Tate 71](#Tate71)) a suitable [[Grothendieck topology]] on such [[affinoid domains]] -- the _[[G-topology]]_ -- with respect to which there is a good theory of [[non-archimedean analytic geometry]] ("[[rigid analytic geometry]]") and hence in particular of [[p-adic geometry]]. Moreover, one may sensibly assign to an $p$-adic domain a [[topological space]] which _is_ well behaved (in particular locally connected and even locally contractible), this is the _[[analytic spectrum]]_ construction. The resulting topological spacs equipped with covers by [[affinoid domain]] under the [[analytic spectrum]] are called [[Berkovich spaces]].
 
 
 ### Pontryagin duality 
