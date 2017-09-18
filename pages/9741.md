@@ -38,7 +38,7 @@ More generally, the [[Donaldson-Uhlenbeck-Yau theorem]] similarly gives a [[Käh
 ### Flat connections over a torus
   {#FlatConnectionsOverATorus}
 
-Let $G$ be a [[compact Lie group]].
+Let $G$ be a [[compact Lie group]]. Assume either that $G$ is [[simply connected]] or is a [[torus]] (what we really need below is that any two commuting elements in $G$ sit jointly in one [[maximal torus]]). 
 
 The moduli space of $G$ [[flat connections]] on a 2-dimensional [[torus]] $A \simeq S^1 \times S^1$ (e.g. underlying a complex [[elliptic curve]]) has the following description:
 
