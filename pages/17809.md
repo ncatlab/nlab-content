@@ -19,7 +19,7 @@ for [[supergroups]] that [[group extension|extend]] some [[spacetime]] symmetry 
 
 If, by default, spacetime is locally modeled on
 [[Minkowski spacetime]] (of some dimension) whose [[isometry group]] is called the  _[[Poincaré group]]_ in this dimension,
-then _supersymmetry_ in the strict sense of the word is an [[group extension|extension]] of the [[Poincaré group]]
+then _supersymmetry_ in the strict sense of the word is super-extension of the [[Poincaré group]]
 by a [[supergroup]] whose odd-graded component is a [[real structure|real]] [[spin representation]] ("[[Majorana representation]]")
 of the [[spin group]] in the given dimension. The result is called the _[[super Poincaré group]]_ for the given
 spacetime dimension and choice of real spin representation, the latter also being called the "number of supersymmetries".
@@ -48,9 +48,10 @@ positivity relations that enter the spinorial proof of the [[positive energy the
 </div>
 
 Since [[real structure|real]] [[spin representations]] have a comparatively rigid classification, there are algebraic constraints on
-supersymmetry groups in various dimensions. By a remarkable algebraic coincidence, the [[real structure|real]] [[spin representations]]
+supersymmetry groups in various dimensions. By a remarkable algebraic coincidence, the [[real spin representations]]
 in spacetime dimensions 3,4,5,6,7,10, and 11 are given by simple [[linear algebra]] over the real [[normed division algebras]]:
-the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[octonions]] ([Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84), [Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)). This indicates some
+the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[octonions]] ([Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84), [Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)). 
+(These are controled by the [[Fano plane]], shown on the right.) This indicates some
 deep relation between [[supersymmetry]] and fundamental structures in mathematics ([[stable homotopy theory]])
 where these algebras, and their associated [[Hopf fibrations]],
 play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectral sequence]].
@@ -89,20 +90,28 @@ We start by considering the general concept of super-symmetry extensions of give
 
 * _[Supersymmetry extensions](#SupersymmetryExtensions)_
 
-There we find that super-extensions of spacetime symmetry are induced by [[real spin representations]] ([[Majorana spinors]]).
-These we discuss in
+There we find that super-extensions of spacetime symmetry are induced by [[real spin representations]].
+There are several ways to get hold of [[real spin representations]], and each of these gives one
+version of spacetime supersymmetry. 
 
-* _[Real spin representations -- Majorana spinors](#RealSpinRepresentations)_
+One way is to consider 
+complex representations, which are easy to come by, and then try to carve out real sub-representations
+inside them by finding a [[real structure]] on the representation. In physics this is called
+the [[Majorana spinor]] construction. This we discuss in
 
-In special dimensions these real spin representations have a particularly elegant formulation in terms
-of the real [[normed division algebras]]. This relation between [[real spin representations and division algebras]]
-we discuss in
+* _[Real spinors as Majorana spinors](#RealSpinRepresentations)_
 
-* _[Real spin representations via real normed division algebras](#RealSpinRepresentationViaNormedDivisionAlgebra)_.
+Another way to get real spin representations is to invoke some algebraic magic that allows to 
+construct them right away.
+This turns out to work in spacetime dimensions 3,4,6 and 10 as well as 4,5,7 and 11
+by considering $2 \times 2$ [[matrices]] with [[coefficients]] in one of the four real [[normed division algebras]],
+equivalently one of the four real [[alternative algebra|alternative]] [[division algebras]].
+This we discuss in
+
+* _[Real spinors via Real alternative division algebras](#RealSpinRepresentationViaNormedDivisionAlgebra)_.
 
 Using the properties of real [[spin representations]] thus established, it is then immediate to
-construct spacetime [[supersymmetry]] [[super Lie algebras]] and [[supergroups]]. This we discuss in
-
+construct spacetime [[supersymmetry]] [[super Lie algebras]] and [[supergroups]]. This we consider in
 
 * _[Spacetime supersymmetry](#Supersymmetry)_
 
@@ -480,8 +489,32 @@ It turns out that data as in example \ref{SuperExtensionOfPoincare} is given for
 
 
 
-## Real spin representations -- Majorana spinors
+## Real spin representations
  {#RealSpinRepresentations}
+ 
+By example \ref{SuperExtensionOfPoincare} we want a [[real spin representation]] in order to construct
+a spacetime supersymmetry super Lie algebra. There are different ways to get hold of real spin representations.
+
+One way is to first consider
+complex representations, which are easy to come by, and then try to carve out real sub-representations
+inside them by finding a [[real structure]] on the representation. In physics this is called
+the [[Majorana spinor]] construction. This we discuss in
+
+* _[Real spinors as Majorana spinors](#MajoranaSpinors)_
+
+Another way to get real spin representations is to invoke some algebraic magic that allows to
+construct them right away.
+This turns out to work in spacetime dimensions 3,4,6 and 10 as well as 4,5,7 and 11
+by considering $2 \times 2$ [[matrices]] with [[coefficients]] in one of the four real [[normed division algebras]],
+equivalently one of the four real [[alternative algebra|alternative]] [[division algebras]].
+This we discuss in
+
+* _[Real spinors via Real alternative division algebras](#RealSpinRepresentationViaNormedDivisionAlgebra)_.
+
+
+
+### Real spinors as Majorana spinors
+ {#MajoranaSpinors}
 
 We will discuss the following concept, the ingredients of which we explain in the following
 
@@ -500,7 +533,7 @@ be a [[unitary representation|unitary]] [[linear representation]] of $Spin(d-1,1
 
 Then $\rho$ is called
 
-* a _real [[spin representation]]_ or _[[Majorana representation]]_ if it admits a [[real structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation});
+* a _[[Majorana representation]]_ if it admits a [[real structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation});
 
   an element $\psi \in V$ is then called a **real spinor** if $J(\psi) = \psi$.
 
@@ -547,7 +580,10 @@ Here $W$ is the 2-dimensional [[complex vector space]] on which the [[quaternion
 
 
 
-### Spin
+
+
+
+#### Spin
 
 
 
@@ -1005,7 +1041,7 @@ kernel reflects the ambiguity from remark \ref{AmbiguityInCliffordConjugation}.
 
 
 
-### Real structure on Unitary representations
+#### Real structure on Unitary representations
 
 We are interested in [[spin representations]] on [[real vector spaces]]. It turns out to be useful to
 obtain these from [[unitary representations]] on [[complex vector spaces]] by equipping these with [[real structure]].
@@ -1184,11 +1220,36 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 
 
 
-### Dirac and Weyl representations
+#### Dirac and Weyl representations
  {#DiracAndWeylRepresentations}
 
 Hence the task is now first to understand representations of the [[spin group]] on [[complex vector spaces]]
-(such as to the equip these with [[real structure]]). The basic such are called the _Dirac representations._
+(such as to then equip these with [[real structure]]). The basic such are called the _Dirac representations._
+
+One advantage of this approach of constructing real representations inside complex representations is the following:
+
++-- {: .num_remark}
+###### Remark
+
+For $d \in 2\mathbb{N}$ an even [[natural number]], then the
+[[complexification]] $Cl(\mathbb{R}^{d-1,1}) \otimes_{\mathbb{R}} \mathbb{C}$ of the [[Clifford algebra]]
+$Cl(\mathbb{R}^{d-1,1})$ (def. \ref{CliffordAlgebra}) is a [[central simple algebra]], and hence by the
+[[Artin-Wedderburn theorem]] is [[isomorphism|isomorphic]] simply to a [[matrix algebra]] over the [[complex numbers]].
+
+Clearly, this drastically simplifies certain considerations about Clifford algebra, for instance it
+helps with analyzing [[Fierz identities]].
+
+This abstract isomorphism 
+
+$$
+  Cl(\mathbb{R}^{2\nu-1,1}) \otimes_{\mathbb{R}} \mathbb{C}
+    \;\simeq\;
+  Mat_{d^\nu \times 2^\nu}(\mathbb{C})
+$$
+
+is realized by the construction of the Dirac representation, below in prop. \ref{CliffordAlgebraRepresentation}.
+
+=--
 
 In the following we use standard notation for operations on [[matrices]] with entries in the [[complex numbers]] (and of course these matrices may in particular be complex row/column vectors, which may in particular be single complex numbers):
 
@@ -1637,7 +1698,7 @@ $$
 
 
 
-### Majorana representations and Real structure
+#### Majorana representations and Real structure
  {#MajoranaSpinorsAndRealStructure}
 
 We now define [[Majorana spinors]] in the traditional way, and then demonstrate that these are
@@ -2099,7 +2160,7 @@ This is the case for $d = 10 = 2 \cdot 5$, but not for $d = 8 = 2 \cdot 4$ neith
 
 
 
-### The spinor bilinear pairing to antisymmetric $p$-tensors
+#### The spinor bilinear pairing to antisymmetric $p$-tensors
  {#TheSpinorPairingToVectors}
 
 We now discuss, in the component expressions established [above](#InComponents), the complex bilinear pairing operations that take a pair of Majorana spinors to a [[vector]], and more generally to an antisymmetric rank $p$-[[tensor]]. These operations are all of the form
@@ -2413,7 +2474,7 @@ $$
 
 
 
-### Example: Majorana spinors in dimensions 11, 10, and 9
+#### Example: Majorana spinors in dimensions 11, 10, and 9
  {#InDimensions11And10And9}
 
 We spell out some of the above constructions and properties for Majorana spinors in [[Minkowski spacetimes]] of dimensions 11, 10 and 9, and discuss some relations between these. These spinor structures are relevant for spinors in [[11-dimensional supergravity]] and [[type II supergravity]] in 10d and 9d, as well as to the relation between these via [[Kaluza-Klein compactification]] and [[T-duality]].
@@ -2989,7 +3050,7 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 
 
 
-## Real spin representations via real normed division algebras
+### Real spinor representations via Real alternative division algebras
  {##RealSpinRepresentationViaNormedDivisionAlgebra}
 
 We discuss a close relation between _[[real spin representations and division algebras]]_,
@@ -3007,7 +3068,7 @@ We follow the streamlined discussion in [Baez-Huerta 09](#BaezHuerta09) and [Bae
 
 
 
-### Real normed division algebras
+#### Real alternative division algebras
 
 To amplify the following pattern and to fix our notation for algebra generators, recall these definitions:
 
@@ -3516,7 +3577,7 @@ $$
 
 
 
-### Spacetime in dimensions 3,4,6 and 10
+#### Spacetime in dimensions 3,4,6 and 10
 
 We discuss how [[Minkowski spacetime]] of dimension 3,4,6 and 10 is naturally expressed in terms of the
 real [[normed division algebras]] $\mathbb{K}$ from prop. \ref{HurwitzTheorem}, equivalently the
@@ -3660,7 +3721,7 @@ $$
 
 
 
-### Real spinors in dimensions 3, 4, 6 and 10
+#### Real spinors in dimensions 3, 4, 6 and 10
  {#InTermsOfNormedDivisionAlgebraInDimension3To10}
 
 We now discuss how [[real spin representations]] in dimensions 3,4, 6 and 10 are naturally induced from
@@ -4194,7 +4255,14 @@ $$
 =--
 
 
-### Real spinors  in dimensions 4,5,7 and 11
+
+
+
+
+
+
+
+#### Real spinors  in dimensions 4,5,7 and 11
   {#InTermsOfNormedDivisionAlgebraInDimension4To11}
 
 
