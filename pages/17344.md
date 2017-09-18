@@ -57,111 +57,18 @@ For a little more details the original lecture ([Adams 74, part III sections 2-7
 
 $\,$
 
-+-- {: .num_prop #ReducedSuspensionBySmashProductWithCircle}
-###### Proposition
-
-In [[pointed topological spaces]] $Top^{\ast/}$, 
-
-* the [[reduced suspension]] objects ([def.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopSpaceObject)) for [[cylinder object]] the standard reduced cylinder $(-)\wedge (I_+)$ are isomorphic to the [[smash product]] with the [[1-sphere]] 
-
-  $$
-    \Sigma X \simeq X \wedge S^1
-    \,,
-  $$
-
-dually, 
-
-* the [[loop space objects]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopSpaceObject)) induced from the standard path space object $(-)^{I_+}$  are isomorphic to the pointed [[mapping space]] with the 1-sphere
-
-  $$
-    \Omega X \simeq X^{S^1}
-    \,.
-  $$
-
-Moreover, by the [[exponential object]]-property of the [[mapping space]] construction ([prop.](Introduction+to+Stable+homotopy+theory+--+P#MappingTopologicalSpaceIsExponentialObject)) these form [[adjoint functors]]
-
-$$
-  ((-)\wedge S^1 \dashv (-)^{S^1})
-  \;\colon\;
-  Top^{\ast/}
-  \longrightarrow 
-  Top^{\ast}
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By immediate inspection. For instance the fiber of $X^{I_+} \longrightarrow X\times X$ is clearly the subspace of the unpointed mapping space $X^I$ on elements that take the endpoints of $I$ to the basepoint of $X$.
-
-The adjunction follows from general principles:
-
-$$
-  \begin{aligned}
-     Hom_{Top^{\ast/}}(X, Y^{S^1})
-     & =
-     Hom_{Top^{\ast/}}(X, fib(Y^{I_+} \to Y \times Y))
-     \\
-     & \simeq
-     fib( Hom_{Top^{\ast/}}( X, Y^{I_+}) \to Hom_{Top_{CW}^{\ast/}}(X, Y \times Y) )
-     \\
-     & \simeq
-     fib( Hom_{Top^{\ast/}}( X \wedge I_+, Y ) \to Hom_{Top_{CW}^{\ast/}}(X\vee X, Y) )
-     \\
-     & \simeq
-     Hom_{Top^{\ast/}}( cofib( X \vee X \to X \wedge I_+), Y )     
-     \\
-     & \simeq 
-     Hom_{Top}^{\ast/}(X \wedge S^1, Y)
-  \end{aligned}
-  \,.
-$$
-
-
-=--
-
-+-- {: .num_prop #SuspensionAndLoopAreAdjointOnHomotopyCategory}
-###### Proposition
-
-The [[loop space]] functor $\Omega$ and [[reduced suspension]] functor $\Sigma$ on the [[classical homotopy category]] of [[pointed topological spaces]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
+Recall from the classical homotopy theory ([prop.](Introduction+to+Stable+homotopy+theory -- P#SuspensionAndLoopAreAdjointOnHomotopyCategory)) that the [[loop space]] functor $\Omega$ and the [[reduced suspension]] functor $\Sigma$ on the [[classical homotopy category]] of [[pointed topological spaces]] are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
 
 $$
   (\Sigma \dashv \Omega)
   \;\colon\;
-  Ho(Top_{Quillen}^{\ast/})
+  Ho(Top^{\ast/})
    \longrightarrow
-  Ho(Top_{Quillen}^{\ast/})
+  Ho(Top^{\ast/})
   \,.
 $$
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the universal property of the homotopy category ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) and by the fact that every topological space is weakly equivalent to a [[CW-complex]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#EveryTopologicalSpaceWeaklyEquivalentToACWComplex)) we may consider $\Omega$ and $\Sigma$ on the category $Top_{CW}^{\ast/}$ of pointed CW-complexes and homotopy classes of continuous functions between them.
-
-By the statement of their existence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) we may represent $\Sigma$ and $\Omega$ by any choice of good [[cylinder objects]] and [[path space objects]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory)). Since we are restricted to CW-complexes, the standard topological cylinder $(-)\times I$ is a good cylinder object ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCylinderOnCWComplexIsGoodCylinderObject)) and, generally, the standard topological path space $(-)^I$ is a good path space object ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalPathSpaceIsGoodPathSpaceObject)).
-
-Now the adjunction of prop. \ref{ReducedSuspensionBySmashProductWithCircle} gives an adjunction
-
-$$
-  (\Sigma \dashv \Omega) 
-  \;\colon\;
-  Top_{CW}^{\ast/}
-  \longrightarrow
-  Top_{CW}^{\ast/}
-  \,.
-$$
-
-
-Hence it remains to see that this adjunction is compatible with passing to homotopy equivalence classes of functions. Hence let $X \wedge I_+ \to \Omega Y$ be a [[left homotopy]]. By prop. \ref{ReducedSuspensionBySmashProductWithCircle} its [[adjunct]] is $(X \wedge I_+) \wedge S^1\simeq (X\wedge S^1)\wedge I_+ \simeq (\Sigma X)\wedge I_+$.
-
-=--
-
-The _[[stable homotopy category]]_ is to be the result of stabilizing the adjunction in prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory}, forcing it to become an [[equivalence of categories]].
+The _[[stable homotopy category]]_ $Ho(Spectra)$ is to be the result of stabilizing the adjunction in prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory}, in the sense of forcing it to become an [[equivalence of categories]]:
 
 $$
   \array{
@@ -181,9 +88,12 @@ $$
      &
      Ho(Spectra)
   }
-  \,.
+  \,,
 $$
 
+where $(\Sigma^\infty \dashv \Omega^\infty)$ is to be an adjunction universally "localizing" $Ho(Top^{\ast/})$ to $Ho(Spectra)$. 
+
+The notation here is suggestive of the intuition behind how this stabilization will work: The universal way of making a topological space $X$ become stable under suspension is to pass to its infinite suspension in a suitable sense. That suitable sense is going to be called the _[[suspension spectrum]]_ of $X$. Conversely, if an object doesnt's change up to equivalence, by forming its loop spaces, it must give an [[infinite loop space]].
 
 In contrast to the [[classical homotopy category]], the stable homotopy category is a [[triangulated category]] (a shadow of the fact that the [[(∞,1)-category of spectra]] is a [[stable (∞,1)-category]]). As such it may be thought of as a refinement of the [[derived category]] [[category of chain complexes|of chain complexes]] (of [[abelian groups]]): every [[chain complex]] gives rise to a [[spectrum]] and every [[chain map]] to a map between these spectra (the [[stable Dold-Kan correspondence]]), but there are many more spectra and maps between them than arise from chain complexes and chain maps.
 
