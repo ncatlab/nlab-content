@@ -265,7 +265,9 @@ General texts on modal logics include
 
   > Here is what I consider one of the biggest mistakes in all of modal logic: concentration on a system with just _one_ modal operator. (p. 161)
 
-* {#MakkaiReyes95} [[Mikhail Makkai]], [[Gonzalo Reyes]], _Completeness results for intuitionistic and modal logic in a categorical setting_, Annals of Pure and Applied Logic 72 (1995) 25-101
+* {#MakkaiReyes95} [[Michael Makkai]], [[Gonzalo Reyes]], _Completeness results for intuitionistic and modal logic in a categorical setting_, Annals of Pure and Applied Logic 72 (1995) 25-101
+
+  (on [[de dicto and de re]] phenomena in [[hyperdoctrine|hyperdoctrinal]] modal logic)
 
 A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[type formation rules]] is in 
 
