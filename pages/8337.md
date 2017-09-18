@@ -46,3 +46,7 @@
 * strong axioms
   * [[axiom of separation]]
   * [[axiom of replacement]]
+
+* further
+
+  * [[reflection principle]]
