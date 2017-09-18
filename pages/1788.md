@@ -46,6 +46,18 @@ All of these work (with the tag at the start):
 
 -----
 
+Strangely single bracket link texts allow math expressions while double bracket texts don't. For example
+
+    the topos [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos) or[$Set^\to$](nlab/show/Sierpinski+topos) or [[Sierpinski topos|$Set^\to$]]. 
+
+produces
+
++-- {: .standout}
+the topos [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos) or[$Set^\to$](nlab/show/Sierpinski+topos) or [[Sierpinski topos|$Set^\to$]]. 
+=--
+
+-----
+
 ## heading1 with tag at end works.{#head1}
 
 link to [heading1](#head1).
