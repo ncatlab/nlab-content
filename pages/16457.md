@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
 This entry collects material related to
 
 * [[Johann Fichte]]
