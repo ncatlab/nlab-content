@@ -32,7 +32,7 @@ Moufang loops are _[[power-associative algebra|power-associative]]_, in that any
 
 * Any group is a Moufang loop.
 
-* The non-zero [[octonions]] form a Moufang loop, as does the multiplicatively closed subset of octonions of norm 1. The invertible elements in any alternative ring or [[alternative algebra]] form a Moufang loop. 
+* The non-zero [[octonions]] form a Moufang loop, as does the multiplicatively closed subset of octonions of norm 1 (which form the [[7-sphere]]). The invertible elements in any alternative ring or [[alternative algebra]] form a Moufang loop. 
 
 * The basis octonions, $1,e_1,\ldots,e_7$ and their additive inverses $-1,-e_1,\ldots,-e_7$ form a finite Moufang loop of order 16 (compare with the case of the quaternions, where the basis elements and their inverses form a group of order 8, the [[quaternion group]] $Q_8$).
 
