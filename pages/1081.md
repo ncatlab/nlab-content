@@ -115,7 +115,7 @@ $$
 
 By the [[Brown representability theorem]] every [[spectrum]] $A$ induces a [[generalized (Eilenberg-Steenrod) cohomology]] theory, and dually a **generalized homology theory**.
 
-For $X$ a [[topological space]] and $A$ a [[spectrum]], the generalized homology of spectrum of $X$ with coefficients in $E$ is 
+For $X$ a [[topological space]] and $A$ a [[spectrum]], the generalized homology of spectrum of $X$ with coefficients in $A$ is 
 
 $$
   X \wedge A := \Sigma^\infty(X)\wedge A
