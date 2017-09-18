@@ -25,7 +25,7 @@
 
 For a suitable [[linear operator]] $H$ (say on [[section]] of a [[line bundle]] over a [[Riemann surface]]), its _zeta function_ is the [[analytic continuation]] of the [[trace]]
 
-$$
+$$ze
   \zeta_H(s) \coloneqq Tr(H^{-s})
 $$
 
@@ -85,7 +85,7 @@ $$
 
 
 
-Therefore one says ([Ray-Singer 71](#RaySinger71)) that the _[[functional determinant]]_ of $H$ is the exponential of the zeta function of $H$ at 0:
+Therefore one says ([Ray-Singer 71](#RaySinger71)) that the _[[functional determinant]]_ of $H$ is the exponential of the derivative of zeta function of $H$ at 0:
 
 $$
   det_{reg} H
@@ -99,7 +99,7 @@ Via the [[analytic continuation]] involved in defining $\zeta_H(0)$ in the first
 Conversely, the [[logarithm]]
 
 $$
-  Z \coloneqq - \frac{1}{2}\zeta_H^\prime(0) = log\,det_{reg} H
+  Z \coloneqq - \frac{1}{2}\zeta_H^\prime(0) = \tfrac{1}{2} log\,det_{reg} H
 $$
 
 is what is called the _[[vacuum energy]]_ in [[quantum field theory]] (for $H^{-1}$ the [[Feynman propagator]]).
