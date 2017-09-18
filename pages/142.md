@@ -37,7 +37,7 @@ More concretely this means that a 1-stack on a [[site]] $S$ (or more generally [
 
 If the pseudofunctor takes values in the 2-subcategory [[Grpd]]$\subset Cat$ of groupoids, the stack is sometimes referred to as a stack of groupoids. This is the more commonly occurring case so the term 'stack' has come to mean 'stack of groupoids' in much of the literature. 
 
-In some circles the notion of a stack as a generalized [[groupoid]] is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[diffeological space]]s are only beginning to be investigated more in [[Lie theory]]. 
+In some circles the notion of a stack as a generalized [[groupoid]] is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[diffeological space]]s are only beginning to be investigated more in [[Lie theory]]. Groupoid stacks are closely related to internal groupoids [MO](https://mathoverflow.net/questions/93948/link-between-internal-groupoids-and-stacks-on-a-topos).
 
 An [[algebraic stack]], [[differentiable stack]] etc. is a stack over a site of schemes or differentiable manifolds with additional representability conditions. 
 
