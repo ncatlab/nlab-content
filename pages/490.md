@@ -223,7 +223,7 @@ The presentation axiom was, however, adopted by [[Erik Palmgren]] in $CETCS$ (a 
 
 Its relationship to some other weak axioms of choice is studied in
 
-* Michael Rathjen.  _Choice principles in constructive and classical set theories_.
+* [[Michael Rathjen]],  _Choice principles in constructive and classical set theories_.
 
 
 category: foundational axiom
