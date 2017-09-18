@@ -330,7 +330,7 @@ course is also immediately checked explicitly.
 
   * [[over-(∞,1)-topos]]
 
-[[!redirects over category]]
+[[!redirects overcategory]]
 [[!redirects over categories]]
 [[!redirects over-category]]
 [[!redirects over-categories]]
