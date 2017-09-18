@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
 # Linear functionals
 * table of contents
 {: toc}
@@ -14,6 +24,10 @@ In a sense, linear functionals are co-probes for vector spaces. If the vector sp
 
 In infinite-dimensional [[topological vector spaces]], the notion of dual basis breaks down once spaces more general than [[Hilbert spaces]] are considered. But for [[locally convex spaces]], the [[Hahn–Banach theorem]] ensures the existence of 'enough' continuous linear functionals.  Among non-LCSes, however, there are examples such that the only continuous linear functional is the constant map onto $0 \in k$.
 
+
+## Examples
+
+* [[distribution]]
 
 ## Related concepts
 
