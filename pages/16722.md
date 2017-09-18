@@ -18,21 +18,39 @@ The concept of **dominance** is a weakening of the concept of [[surjective geome
 
 ## Definition
 
-A geometric morphism $f:\mathcal{E}\to\mathcal{F}$ is called _dominant_ if the following equivalent conditions hold:
+A geometric morphism $f:\mathcal{F}\to\mathcal{E}$ is called _dominant_ if the following equivalent conditions hold:
 
-* The [[direct image]] satisfies: $f_\ast(\emptyset_\mathcal{E})\cong\emptyset_\mathcal{F}$.
+* The [[direct image]] satisfies: $f_\ast(\emptyset_\mathcal{F})\cong\emptyset_\mathcal{E}$.
 
-* The [[inverse image]] satisfies: from $f^\ast(Z)\cong\emptyset_\mathcal{E}$ follows $Z\cong\emptyset_\mathcal{F}$.
+* The [[inverse image]] satisfies: from $f^\ast(Z)\cong\emptyset_\mathcal{F}$ follows $Z\cong\emptyset_\mathcal{E}$.
 
-* The [[inverse image]] satisfies: from $f^\ast(Z)\cong\emptyset_\mathcal{E}$ follows $Z\cong\emptyset_\mathcal{F}$ for $Z$ a [[subterminal object]].
+* The [[inverse image]] satisfies: from $f^\ast(Z)\cong\emptyset_\mathcal{F}$ follows $Z\cong\emptyset_\mathcal{E}$ for $Z$ a [[subterminal object]].
 
-## Properties
+## Examples
 
 * A geometric morphism $f:Sh(X)\to Sh(Y)$  between the toposes of sheaves on two topological spaces $X, Y$  is dominant iff the corresponding continuous map $f:X\to Y$  has a [[dense subspace|dense]] image $f(X)$ in $Y$.
 
-* If $f:\mathcal{E}\to\mathcal{F}$ is a surjection (i.e. $f^\ast$ is [[faithful]]) then $f$  is dominant.
-
 * A geometric embedding $i:\mathcal{E}\hookrightarrow\mathcal{F}$ is dominant precisely when it exhibits $\mathcal{E}$ as a [[dense subtopos]].
+
+## Properties
+
++-- {: .num_prop #dominant_surjection}
+###### Proposition
+If $f:\mathcal{F}\to\mathcal{E}$ is a surjection (i.e. $f^\ast$ is [[faithful]]) then $f$  is dominant.
+=--
+
+**Proof**: 
+Suppose $f^\ast(Z)\cong \emptyset_\mathcal{F}$ is terminal, then $Hom_\mathcal{F}(\emptyset_\mathcal{F},f^\ast(Y))=Hom_\mathcal{F}(f^\ast(Z),f^\ast(Y))$ is a singleton for all $Y\in\mathcal{E}$ , but by faithfulness of $f^\ast$ this implies that $Hom_\mathcal{E}(Z,Y)$ is a singleton for all $Y\in\mathcal{E}$ , which says that $Z$ is terminal in $\mathcal{E}$. $\qed$
+
++-- {: .num_prop #dominant_dense}
+###### Proposition
+Let $f:\mathcal{F}\to\mathcal{E}$ be a geometric morphism and $i\circ s$ its [[(geometric surjection, embedding) factorization system|surjection-inclusion factorization]]. $f:\mathcal{F}\to\mathcal{E}$ is dominant iff $i:Im(f)\hookrightarrow\mathcal{E}$ is a [[dense subtopos|dense inclusion]].
+=--
+
+**Proof**: Suppose $i$ is dense, hence dominant. $s$ as a surjection is dominant as well, and so is their composition $f$.
+
+Conversely, suppose $f:\mathcal{F}\to\mathcal{E}$ is dominant and $i^\ast(Z)\cong \emptyset_{Im(f)}$. Since $s^\ast$ preserves colimits, $\emptyset_\mathcal{F}\cong s^\ast (\emptyset_{Im(f)})\cong s^\ast\circ i^\ast (Z)=f^\ast(Z)$ but $f$ is dominant by assumption, therefore $Z\cong \emptyset_\mathcal{E}$, hence $i$ is dense. $\qed$
+
 
 ## Remark
 
