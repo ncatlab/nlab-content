@@ -15,6 +15,7 @@
 
 ## Idea
 
+Every closed [[3-manifold]] can be decomposed in a canonical way into pieces that each have one of eight types of geometric structure
 (...)
 
 The proof of the geometrization conjecture implies that of 
