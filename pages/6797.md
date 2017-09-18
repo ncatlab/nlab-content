@@ -19,7 +19,9 @@
 
 ## Idea
 
-The [[target space]] spectrum of the [[string]] [[sigma-model]] contains  beyond the massless particles of the [[effective QFT|effective]] [[supergravity]] theory an infinite tower of massive excitations, of ever higher [[spin]]. There are, however, certain limits in which all these masses become negligible to a reference energy scale -- the _tensionless limit_ -- notably for compactifications on [[anti de Sitter spaces]] of small radius. In this limit the string spectrum looks like a an infinite collection of massless [[spinning particles]] for ever higher spin. Due to their common orgin in the string, these share intricate relations among each other, which are described by what [Vasiliev](Vasiliev) termed **higher spin gauge theory**.
+Higher spin gauge theory ([Vasiliev 96](#Vasiliev96)) is a kind of [[higher gauge theory]] whose [[field (physics)|field content]] is an infinite tower of massless fields of ever higher [[spin]].
+
+One way that higher spin gauge theories are thought to naturally arise is as the limiting case of [[string field theory]] when the string's tension is sent to zero ([Henneaux-Teitelboim 87, section 2](#HenneauxTeitelboim87),[Gross 88](#Gross88), [Sagnotti-Tsulaia 03](#SagnottiTsulaia03), [Bonelli 03](#Bonelli03)): The excitation spectrum of the [[string]] [[sigma-model]] contains beyond the massless particles of the [[effective QFT|effective]] [[supergravity]] theory an infinite tower of massive excitations, of ever higher [[spin]]. There are, however, certain limits in which all these masses become negligible to a reference energy scale -- the _tensionless limit_ -- this is notably so for compactifications on [[anti de Sitter spaces]] of small radius. In this limit the string spectrum looks like a an infinite collection of massless [[spinning particles]] for ever higher spin. Due to their common orgin in the string, these share intricate relations among each other, which are argued to be described by higher spin gauge theory. (Notice that at least closed bosonic [[string field theory]] is itself already a [[higher gauge theory]], even without sending the tension to zero, see at _[closed string field theory -- As an ∞-Chern-Simons theory](string+field+theory#AsAnInfinityCSTheory)_).
 
 
 ## References
@@ -28,12 +30,12 @@ The [[target space]] spectrum of the [[string]] [[sigma-model]] contains  beyond
 
 Original articles include
 
-* [[Mikhail Vasiliev]], _Higher-Spin Gauge Theories in Four, Three and Two Dimensions_ ([arXiv:hep-th/9611024](http://arxiv.org/abs/hep-th/9611024))
+* {#Vasiliev96} [[Mikhail Vasiliev]], _Higher-Spin Gauge Theories in Four, Three and Two Dimensions_ ([arXiv:hep-th/9611024](http://arxiv.org/abs/hep-th/9611024))
 
 Reviews and lecture notes include
 
-* [[Mikhail Vasiliev]], _Higher Spin Gauge Theories in Various Dimensions_ 27th Johns Hopkins Workshop on Current Problems in Particle Theory: Symmetries and Mysteries of M Theory ([pdf](http://www.pha.jhu.edu/events/jhworkshop/goteborg03/vasiliev.pdf))
- {#Vasiliev}
+* {#Vasiliev03} [[Mikhail Vasiliev]], _Higher Spin Gauge Theories in Various Dimensions_ 27th Johns Hopkins Workshop on Current Problems in Particle Theory: Symmetries and Mysteries of M Theory ([pdf](http://www.pha.jhu.edu/events/jhworkshop/goteborg03/vasiliev.pdf))
+ 
 
 * [[Mikhail Vasiliev]], _Higher spin gauge theories in any dimension_ talk at String2004 in Moscow ([pdf](http://strings04.lpthe.jussieu.fr/talks/Vasiliev.pdf))
 
@@ -48,20 +50,19 @@ Further developments include for instance
 
 The idea that higher spin gauge theory appears as the limiting case of [[string field theory]] where the string tension vanishes goes back to 
 
-* [[David Gross]], _High-Energy Symmetries Of String Theory_, Phys. Rev. Lett.
-60 (1988) 1229.
-
-* [[Marc Henneaux]], [[Claudio Teitelboim]], section 2 of _First And Second Quantized Point Particles Of Any Spin_, in [[Claudio Teitelboim]]. [[Jorge Zanelli]] (eds.) _Santiago 1987, Proceedings, Quantum mechanics of
+* {#HenneauxTeitelboim87} [[Marc Henneaux]], [[Claudio Teitelboim]], section 2 of _First And Second Quantized Point Particles Of Any Spin_, in [[Claudio Teitelboim]]. [[Jorge Zanelli]] (eds.) _Santiago 1987, Proceedings, Quantum mechanics of
 fundamental systems 2_, pp. 113-152. Plenum Press.
+
+* {#Gross88} [[David Gross]], _High-Energy Symmetries Of String Theory_, Phys. Rev. Lett. 60 (1988) 1229.
+
 
 and is further developed for instance in
 
-* [[Auguste Sagnotti]], M. Tsulaia, _On higher spins and the tensionless limit of String Theory_, Nucl.Phys.B682:83-116,2004 ([arXiv:hep-th/0311257](http://arxiv.org/abs/hep-th/0311257))
+* {#SagnottiTsulaia03} [[Auguste Sagnotti]], M. Tsulaia, _On higher spins and the tensionless limit of String Theory_, Nucl.Phys.B682:83-116,2004 ([arXiv:hep-th/0311257](http://arxiv.org/abs/hep-th/0311257))
 
-* G. Bonelli, _On the Tensionless Limit of Bosonic Strings, Infinite Symmetries and Higher Spins_, Nucl.Phys. B669 (2003) 159-172 ([arXiv:hep-th/0305155](http://arxiv.org/abs/hep-th/0305155))
+* {#Bonelli03} G. Bonelli, _On the Tensionless Limit of Bosonic Strings, Infinite Symmetries and Higher Spins_, Nucl.Phys. B669 (2003) 159-172 ([arXiv:hep-th/0305155](http://arxiv.org/abs/hep-th/0305155))
 
 * [[Auguste Sagnotti]], M. Taronna, _String Lessons for Higher-Spin Interactions_, Nucl.Phys.B842:299-361,2011 ([arXiv:1006.5242](http://arxiv.org/abs/1006.5242))
-
 
 * {#Sagnotti11} [[Auguste Sagnotti]], _Notes on Strings and Higher Spins_ ([arXiv:1112.4285](http://arxiv.org/abs/1112.4285)) 
 
