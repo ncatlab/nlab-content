@@ -46,6 +46,7 @@ Discussion of knot invariants in terms of [[BPS states]] in [[string theory]] in
 
 * Ross Elliot, [[Sergei Gukov]], _Exceptional knot homology_ ([arXiv:1505.01635](http://arxiv.org/abs/1505.01635))
 
+* Satoshi Nawata, Alexei Oblomkov, _Lectures on knot homology_ ([arXiv:1510.01795](http://arxiv.org/abs/1510.01795))
 
 category: knot theory
 
