@@ -73,6 +73,8 @@ $\vert T_d\vert = 24$
 
 $\vert T\vert = 12$
 
+$\vert 2T\vert = 24$
+
 
 ### Group cohomology
 
