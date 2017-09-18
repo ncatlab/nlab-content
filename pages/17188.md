@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In ([Cartan-Eilenberg 56, XV.7](#CartanEilenberg56)) axioms for systems of bigraded [[modules]] $H(p,q)$ are given which imply the existence of a [[spectral sequence]] converging to $H(-\infty,\infty)$.
+
+The key example of such a system are the [[relative cohomology]] groups $E^\bullet(X^q, X^p)$ of a [[filtered topological space]] (see at [[spectral sequence of a filtered complex]]) for [[ordinary cohomology]] $E = H$ ([Cartan-Eilenberg 56, XV.7, Example 2](#CartanEilenberg56)) or in fact for any [[generalized cohomology theory]] $E$. In the latter case the resulting Cartan-Eilenberg spectral sequence came to be known as the _[[Atiyah-Hirzebruch spectral sequence]]_.
+
+
+## References
+
+* {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956)
+
+[[!redirects Cartan-Eilenberg spectral sequences]]
+
