@@ -1477,7 +1477,7 @@ We conclude the process at this point. One may explore it further by continuing 
 
 #### Objectivity
 
-It is a familiar tought in our age, in view of the intimate relation between [[nLab:physics]] and [[nLab:mathematics]], that [[nLab:theory (physics)|theories of physics]] have a natural mathematical formulation, that it is compelling to consider them also just from within mathematics itself. Famous examples include the formalization of [[nLab:classical mechanics]] by [[nLab:symplectic geometry]], the formalization of [[nLab:Einstein gravity]] by [[nLab:pseudo-Riemannian geometry]]/[[nLab:Cartan geometry]], the close relation of [[nLab:quantum mechanics]] and [[nLab:quantum field theory]] to [[nLab:representation theory]] ([[nLab:Wigner classification]]) and more recently the identification of [[nLab:local topological field theory]] with the theory of [[nLab:symmetric monoidal (infinity,n)-categories]].
+It is a familiar tought in our age, in view of the intimate relation between [[nLab:physics]] and [[nLab:mathematics]], that [[nLab:theory (physics)|theories of physics]] have a natural mathematical formulation, that it is compelling to consider them also just from within mathematics itself. Famous examples include the formalization of [[nLab:classical mechanics]] by [[nLab:symplectic geometry]], the formalization of [[nLab:Einstein gravity]] by [[nLab:pseudo-Riemannian geometry]]/[[nLab:Cartan geometry]], the close relation of [[nLab:quantum mechanics]] and [[nLab:quantum field theory]] to [[nLab:representation theory]] ([[nLab:Wigner classification]]) and more recently the identification of [[nLab:extended topological field theory|local topological field theory]] with the theory of [[nLab:symmetric monoidal (infinity,n)-categories]].
 
 Hence while [[nLab:mathematics]] is part of the [[nLab:subjective logic]] in that it admits the freedom to consider any [[nLab:mathematical structure]] whatsoever, this suggests to identify among these the "objective" mathematical structures which _are_ theories of physics and as such express a more _objective reality_ than random mathematical structures do.
 
@@ -2457,6 +2457,7 @@ The model in def. \ref{SupergeometricModel} verfies the required Aufhebungen
 =--
 
 +-- {: .proof}
+
 ###### Proof
 
 For the statement $\sharp \emptyset \simeq \emptyset$ consider the following:
