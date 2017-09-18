@@ -9357,49 +9357,12 @@ $$
 
 If $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[isomorphism]].
 
-More generally for $n \in \mathbb{N}$ there is a canonical morphism of [[graded abelian groups]]
-
-$$
-  \underset{n+1\,factors}{
-  \underbrace{E_\bullet(E)
-    \otimes_{\pi_\bullet(E)}
-    \cdots
-    \otimes_{\pi_\bullet(E)}
-  E_\bullet(E)
-  }}
-    \otimes_{\pi_\bullet(E)}
-  E_\bullet(X)
-    \longrightarrow
-  \pi_\bullet(E^{\wedge^{(n+2)}}\wedge X  )
-  \,.
-$$
-
-
-and if $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[isomorphism]].
-
 =--
 
 ([Adams 74, part III, lemma 12.5](#Adams74), [Schwede 12, prop. 6.20](#Schwede12))
 
 +-- {: .num_defn}
 ###### Definition
-
-We discuss the first case. From this the general statement follows by [[induction]] via
-
-$$
-  \begin{aligned}
-    \pi_\bullet(E^{\wedge^{n+2}} \wedge X)
-    & \simeq
-    \pi_\bullet(E \wedge E \wedge E^{\wedge^n} \wedge X))
-    \\
-    &\simeq 
-     E_\bullet(E) 
-         \otimes_{\pi_\bullet(E)} 
-     E_\bullet( E^{\wedge^n} \wedge X )
-  \end{aligned}
-  \,.
-$$
-
 
 First of all, that the given pairing is a well defined homomorphism (descends from $E_\bullet(E) \times E_\bullet(X)$ to $E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)$) follows from the associativity of $\mu$.
 
@@ -9431,7 +9394,7 @@ $$
 
 Therefore in this case we have an isomorphism for all $E$.
 
-For general $X$, we may without restriction assume that $X$ is represented by a sequential [[CW-spectrum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#CWApproximationForSequentialSpectra)). Then the [[homotopy cofibers]] of its cell attachment maps are suspensions of the sphere spectrum.
+For general $X$, we may without restriction assume that $X$ is represented by a sequential [[CW-spectrum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#CWApproximationForSequentialSpectra)). Then the [[homotopy cofibers]] of its cell attachment maps are suspensions of the [[sphere spectrum]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra)).
 
 First consider the case that $X$ is a CW-spectrum with finitely many cells. Consider the [[homotopy cofiber sequence]] of the $(k+1)$st cell attachment:
 
@@ -9486,8 +9449,7 @@ $$
   \,.
 $$
 
-Here the 
-bottom row is a [[long exact sequence]] since $E \wedge E^\wedge^L (-)$ preserves homotopy cofiber sequences by lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends homtopy cofiber sequences to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning $E_\bullet(-)$ of the homotopy cofiber sequence is long exact, and by the assumption that $E_\bullet(E)$ is that the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactmess, so that also the top row is a [[long exact sequence]].
+Here the  bottom row is a [[long exact sequence]] since $E \wedge E \wedge (-)$ preserves homotopy cofiber sequences (by lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, part of the [[tensor triangulated category|tensor triangulated]] structure of prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}), and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends homtopy cofiber sequences to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning $E_\bullet(-)$ of the homotopy cofiber sequence is long exact, and by the assumption that $E_\bullet(E)$ is that the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactmess, so that also the top row is a [[long exact sequence]].
 
 Now by [[induction]] over the cells of $X$, the outer four vertical morphisms are [[isomorphisms]]. Hence the [[5-lemma]] implies that also the middle morphism is an isomorphism.
 
@@ -9515,9 +9477,9 @@ $$
 
 naturally inherits several algebraic structures:
 
-1. by example \ref{TensorProductOfTwoCommutativeMonoids} $E \wedge E$ is itself canonically a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and hence by prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum} $E_\bullet(E)$ is canonically a [[graded commutative ring]];
+1. by example \ref{TensorProductOfTwoCommutativeMonoids}, $E \wedge E$ is itself canonically a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and hence, by prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}, $E_\bullet(E)$ is canonically a [[graded commutative ring]];
 
-1. in addition $E_\bullet(E)$ is canonically both a left as well as a right module over $\pi_\bullet(E)$, by prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}
+1. in addition $E_\bullet(E)$ is canonically both a left as well as a right module over $\pi_\bullet(E)$, by prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum};
 
 1. moreover the unit $e$ of $E$ gives a morphism
 
