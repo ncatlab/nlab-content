@@ -10,7 +10,7 @@
 =--
 
 
-# Contents
+# The category $Mod$ of modules #
 * table of contents
 {:toc}
 
@@ -398,6 +398,8 @@ For discussion of [[tiny objects]] in $Mod$, see at _[Tiny object -- In categori
   
 
 ## Related concepts
+
+* [[Ring]], [[CRing]]
 
 * [[Vect]]
 
