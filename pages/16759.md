@@ -52,4 +52,18 @@ On [[black branes]], [[black holes in string theory]] and [[Bekenstein-Hawking e
 
 On [[duality in string theory]], mostly [[S-duality]] and [[dual heterotic string theory]], ending with [[AdS-CFT]]
 
+On whether "M" is really for "[[membrane]]" after all:
+
+> In other words, perhaps $D = 11$ supergravity together with [[M-brane|its BPS configurations]]: plane wave, membrane, fivebrane, KK monopole and the $D = 11$ embedding of the Type II eightbraneare are all there is to $M$-theory and that we need look no further for new degrees of freedom. (p. 329)
+
+Concluding with:
+
+> future historians may judge the period 1984-95 as a time when theorists were like boys playing by the sea shore, and diverting themselves with the smoother pebbles or prettier shells of perturbative ten-dimensiorial superstrings while the great ocean of non-perturbative eleven-dimensional M-theory lay all undiscovered before them. (p.330)
+
+Compare to the situation 20 years later as in 
+
+* [[Greg Moore]], _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/)
+
+whith its section 12: "Keep true to the dreams of thy youth: M-theory"
+
 category: reference
