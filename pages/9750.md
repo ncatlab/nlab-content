@@ -15,7 +15,7 @@
 
 ## Idea
 
-What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mechanism]] combined with [[fiber integration]] in the presence of [[branes]]: given a [[spacetime]] of [[dimension]] $d+1$ in which a $p+1$-[[brane]] propagates, its KK-reduction results in a $d$-dimensional effective spacetime containing a $p+1$-brane together with a "doubly reduced" $p$-brane, which is the reduction of those original $(p+1)$-brane configurations that [[wrapped brane|wrapped]] the cycle along wich the KK-reduction rakes place.
+What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mechanism]] combined with [[fiber integration]] in the presence of [[branes]]: given a [[spacetime]] of [[dimension]] $d+1$ in which a $p+1$-[[brane]] propagates, its KK-reduction results in a $d$-dimensional effective spacetime containing a $p+1$-brane together with a "doubly reduced" $p$-brane, which is the reduction of those original $(p+1)$-brane configurations that [[wrapped brane|wrapped]] the cycle along which the KK-reduction takes place.
 
 ## Definition
  {#Definition}
