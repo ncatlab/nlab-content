@@ -64,4 +64,13 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 * [[associative submanifold]]
 
+## References
+
+A classic set of notes that was later typed up is
+
+* [[William Thurston]], _Geometry and topology of three-manifolds_ (1980), electronic version 1.1 (2002) available from MSRI ([web](http://library.msri.org/books/gt3m/))
+
+
+
+
 [[!redirects 3-manifolds]]
