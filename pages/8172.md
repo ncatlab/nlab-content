@@ -730,8 +730,7 @@ is indeed an $E$-Adams resolution of $X$ in the sense of def. \ref{EAdamsResolut
 +-- {: .proof}
 ###### Proof
 
-As generally for [[bar resolutions]], one checks that the alternating sum of the codegeneracy maps constiute homotopy operators that give contracting homotopies when commuted with the alternating sum of the coface maps. This gives that the sequence is $E$-exact.
-
+As generally for [[bar resolutions]], one checks that the alternating sum of the codegeneracy maps constitute homotopy operators that give contracting homotopies when commuted with the alternating sum of the coface maps. This gives that the sequence is $E$-exact.
 Moreover, the terms in the sequence are all $E$-injective by lemma \ref{EInjectiveSpectraAreRetractsOfFreeEModules}.
 
 =--
@@ -843,7 +842,7 @@ carefully by [[induction]]. This takes a bit of work, crucially using properties
 +-- {: .num_defn #EAdamsSpectralSequence}
 ###### Definition
 
-Given an $E$-Adams resolution, def. \ref{EAdamsResolution}, or equivalently (by prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions}) an $E$-Adams tower, def. \ref{EAdamsTower}, 
+Given [[spectra]] $X$ and $Y$, and given an $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, or equivalently (by prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions}) an $E$-Adams tower over $X$, def. \ref{EAdamsTower}, 
 
 $$
   \array{
@@ -868,7 +867,31 @@ $$
 $$
 
 
-then the corresponding **$E$-Adams spectral sequence** is the associated [[spectral sequence of a tower of fibrations]].
+then the corresponding **$E$-Adams spectral sequence** for the [[mapping spectrum]] $[Y,X]$ is the associated [[spectral sequence of a tower of fibrations]] of the image of that [[tower of fibrations]] under the [[mapping spectrum]] operation $[Y,-]$:
+
+$$
+  \array{
+    && \vdots
+    \\
+    && \downarrow^{\mathrlap{[Y,p_2]}}
+    \\
+    && [Y,X_2] &\stackrel{[Y,\kappa_2]}{\longrightarrow}& [Y,\Omega^2 I_3]
+    \\
+    &\nearrow& \downarrow^{\mathrlap{[Y,p_1]}}
+    \\
+    && X_1 &\stackrel{[Y,\kappa_1]}{\longrightarrow}& [Y,\Omega I_2]
+    \\
+    &\nearrow& \downarrow^{\mathrlap{[Y,p_0]}}
+    \\
+    [Y,X] 
+    &\underset{}{\longrightarrow}&
+    [Y,X_0] = [Y,I_0]
+    &\stackrel{[Y,\kappa_0]}{\longrightarrow}&
+    [Y,I_1]
+  }
+  \,.
+$$
+
 
 More in detail, the associated [[exact couple]] of the tower is
 
@@ -888,40 +911,47 @@ $$
   \mathcal{D} \coloneqq
   \oplus_{s,t} \mathcal{D}^{s,t}
   \coloneqq
-  \oplus_{s,t} \pi_{t-s}(X_s)
+  \oplus_{s,t} \pi_{t-s}([Y,X_s])
 $$
 
 $$
   \mathcal{E} \coloneqq 
   \oplus_{s,t} \mathcal{E}^{s+1,t}
   \coloneqq
-  \oplus_{s,t} \pi_{t-s}(\Omega^s I_{s+1})
+  \oplus_{s,t} \pi_{t-s}([Y,\Omega^s I_{s+1}])
 $$
 
 and
 
 $$
-  p \colon \pi_{t-s}(X_{s+1})\stackrel{\pi_{t-s}(p_s)}{\longrightarrow}
-   X_{t-s}(X_s)
+  p 
+    \colon 
+  \pi_{t-s}([Y,X_{s+1}])
+    \stackrel{\pi_{t-s}([Y,p_s])}{\longrightarrow}
+   X_{t-s}([Y,X_s])
 $$
 
 $$
-  \kappa \colon \pi_{t-s}(X_s)
-  \stackrel{\pi_{t-s}(\kappa_s)}{\longrightarrow} \pi_{t-s}(\Omega^s I_{s+1})
+  \kappa 
+    \colon 
+  \pi_{t-s}([Y,X_s])
+    \stackrel{\pi_{t-s}([Y,\kappa_s])}{\longrightarrow} 
+  \pi_{t-s}([Y,\Omega^s I_{s+1}])
 $$
 
 $$
-  \partial \colon \pi_{t-s}(\Omega^s I_{s+1})
-  \stackrel{\pi_{t-s}(\partial_s)}{\longrightarrow}
-  \pi_{t-s}(\Sigma X_{s+1})
+  \partial 
+    \colon 
+  \pi_{t-s}([Y,\Omega^s I_{s+1}])
+    \stackrel{\pi_{t-s}([Y,\partial_s])}{\longrightarrow}
+  \pi_{t-s}([Y,\Sigma X_{s+1}])
   \,.
 $$
 
-The _$E$-Adams spectral sequence_ of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this exact couple.
-
-More generally, for $Y$ any [[spectrum]] then the Adams spectral sequence for the [[mapping spectrum]] $[Y,X]$ is the [[spectral sequence of a tower of fibrations]] of the image under $[Y,-]$ of the given $E$-Adams tower.
+The _$E$-Adams spectral sequence_ of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this [[exact couple]].
 
 =--
+
 
 +-- {: .num_prop #UniquenessOfEAdamsSpectralSequence}
 ###### Proposition
@@ -934,21 +964,23 @@ Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corre
 
 Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}, 
 for understanding the $\mathcal{E}_2$-page of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, 
-it is sufficient to understand the $\mathcal{E}_1$-pahe 
+it is sufficient to understand the $\mathcal{E}_1$-page 
 of the $E$-Adams spectral sequence that is induced by the
 standard $E$-resolution of example \ref{StandardEResolution}.
 
-By construction, that page is of the simple form
+By construction, that page is 
 
 $$
   \mathcal{E}_1^{s,\bullet}
-  \simeq
-  \pi_\bullet(E^{\wedge (s+1)}\wedge X )
+    \simeq
+  \pi_\bullet([Y,E^{\wedge (s+1)}\wedge X] )
 $$
 
-with the differentials being the image under $\pi_\bullet$ of the alternating sum of the morphisms that insert unit elements. Here we discuss how, under good conditions, these are the chain complexes that compute [[Ext]]-functors of [[comodules]] over a [[Hopf algebroid]] canonically induced by $E$.
+with the differentials being the image under $\pi_\bullet$ of the alternating sum of the morphisms that insert unit elements. 
 
-The condition needed for this is the following
+We discuss now how, under favorable conditions, these homotopy groups of mapping spectra of the form $[Y,E^{\wedge (s+1)}\wedge X]$ may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$. Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-homology of the $\mathcal{E}_1$-page is seen to compute the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules.
+
+The condition needed for this to work is the following
 
 +-- {: .num_defn #FlatE}
 ###### Definition
@@ -974,7 +1006,7 @@ Examples of ring spectra that are flat according to def. \ref{FlatE} include
 
 * $E = MU$ the [[complex cobordism cohomology theory|complex cobordism spectrum]];
 
-Examples of ring spectra that are _not_ flat include
+Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} include
 
 * $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]] for [[integers|integer]] [[coefficients]];
 
@@ -1059,54 +1091,18 @@ $$
 +-- {: .num_cor #HopfAlgebroidStructureOnDualEOperations}
 ###### Corollary
 
-If $E$ is flat, def. \ref{FlatE}, then the the cosimplicial spectrum $E^{\wedge^\bullet}$ from example \ref{StandardEResolution} induces on [[stable homotopy groups]] a [[Hopf algebroid]]-structure on the "dual $E$-[[Steenrod operations]]" $E_\bullet(E)$ over $\pi_\bullet(E)$ via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}.
+If $E$ is flat, def. \ref{FlatE}, then the the cosimplicial spectrum $E^{\wedge^\bullet}$ of the $E$-standard resolution, example \ref{StandardEResolution}, of the [[sphere spectrum]]  induces on [[stable homotopy groups]] a [[Hopf algebroid]]-structure on the "dual $E$-[[Steenrod operations]]" $E_\bullet(E)$ over $\pi_\bullet(E)$ via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}.
 
 =--
 
 (e.g. [Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
 
+Say this in more detail:
 
-+-- {: .num_prop #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
-###### Proposition
+A [[Hopf algebroid]] is an [[internal groupoid]] in [[Ring]]${}^{op}$. A commutative (but not necessarily co-commutative) Hopf algebroid is an [[internal groupoid]] in [[CRing]]${}^{op}$.
 
-For $X$ a [[spectrum]], then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence} of the standard $E$-Adams resolution, example \ref{StandardEResolution}, has 
-entries $\pi_\bullet(E^{\wedge^\bullet}\wedge X)$. By  prop. \ref{FlatnessOfEImpliesKeyConsequence} this implies that the sequences of $d_1$-differentials are equivalently of the form
+(...)
 
-$$
-  0 
-    \to 
-  E_\bullet(E) 
-    \to 
-  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet
-    \to
-  E_\bullet(E) \otimes_{\pi_\bullet(E)}  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet
-  \to 
-   \cdots
-$$
-
-=--
-
-##### Generalizing from $\pi_\bullet(Y)$ to $\pi_\bullet([X,Y])$
- {#GeneralizingToMappingSpectra}
-
-Under suitable conditions this generalizes from a computation of homotopy groups of the $E$-localization of spectra $X$
-
-$$
-  Ext^{s,t}_{E_\bullet(E)}(E_\bullet, E_\bullet(X))
-  \Rightarrow
-  \pi_\bullet(X^E)
-$$
-
-to computation of $E$-localization of mapping spectra into $X$, out of any $Y$
-
-$$
-  Ext^{s,t}_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(X))
-  \Rightarrow
-  \pi_\bullet([Y,X]^E)
-  \,.
-$$
-
-We discuss how this works:
 
 +-- {: .num_prop #AdamsUCT}
 ###### Proposition
@@ -1114,9 +1110,9 @@ We discuss how this works:
 If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KU]], [[KU]], then for all $E$-[[module spectra]] $N$ the canonical morphism
 
 $$
- \pi_\bullet[X,N] 
-  \longrightarrow
-  Hom_{\pi_\bullet(E)}(E_\bullet(X), \pi_\bullet N)_\bullet
+ \pi_\bullet[Y,N] 
+   \longrightarrow
+  Hom_{\pi_\bullet(E)}(E_\bullet(Y), \pi_\bullet N)_\bullet
 $$
 
 is an [[isomorphism]].
@@ -1125,38 +1121,79 @@ is an [[isomorphism]].
 
 This is one of the [[universal coefficient theorems]] of [[Frank Adams]] ([Adams 74, chapter III, prop. 13.5](#Adams74), [Schwede 12, chapter II, prop. 6.20](#Schwede12)).
 
++-- {: .num_cor}
+###### Corollary
 
-Now given the standard $E$-Adams tower for some $X$, then applying $[Y,-]$ yields another [[tower of homotopy fibers]] whose tower spectral sequence on page one has $[Y, E^{\wedge^{\bullet}}\wedge X]$. This sits in a commuting diagram of the form
+If the assumptions of prop. \ref{AdamsUCT} hold, then the canonical morphism
+
+$$
+ \pi_\bullet[Y, E\wedge N] 
+   \longrightarrow
+  Hom_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(E\wedge N))_\bullet
+$$
+
+is an isomorphism.
+
+=--
+
+([Adams 74, part III, page 323](#Adams74))
+
+
++-- {: .proof}
+###### Proof
+
+We have a [[commuting diagram]] of the form
 
 $$
   \array{
-    [X,E^{\wedge^{\bullet+1}}\wedge X]
+    [Y,E^{\wedge^{\bullet+1}}\wedge X]
     &\longrightarrow&
     Hom_{E_\bullet(E)}(
-      E_\bullet(X), 
+      E_\bullet(Y), 
       E_\bullet(E^{\wedge^{\bullet+1}}\wedge X)
     )
     \\
     & \searrow & \downarrow^{\mathrlap{\simeq}}
     \\
-    && Hom_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(E^{\wedge^\bullet}\wedge X))
+    && Hom_{\pi_\bullet(E)}(E_\bullet(Y), E_\bullet(E^{\wedge^\bullet}\wedge X))
   }
   \,,
 $$
 
-where the vertical morphism is an iso since $E_\bullet(E \wedge \cdots)$ is a cofree Hopf co-module. (...) 
-Now if $E$ satisfies the condition of prop. \ref{AdamsUCT}, then the diagonal morphism is an iso, too, and hence so is the top morphism.
+Here the vertical morphism is an iso since $E_\bullet(E \wedge \cdots)$ is a cofree co-module.
+If moreover, by prop. \ref{AdamsUCT} the diagonal morphism is an iso, then so is the top morphism
 
+=--
 
-([Adams 74, part III, page 323](#Adams74))
++-- {: .num_cor #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
+###### Corollary
 
+For $X$ a [[spectrum]], and under the above assumptions (...) then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence} of the standard $E$-Adams resolution, example \ref{StandardEResolution}, has 
+entries 
 
+$$
+  0 
+    \to 
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y),E_\bullet(X))
+    \longrightarrow
+  Hom_{E_\bullet(E)}^\bullet(
+     E_\bullet(Y),
+     E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+  )
+    \longrightarrow
+  Hom_{E_\bullet(E)}^\bullet(
+     E_\bullet(Y),
+     E_\bullet(E) \otimes_{\pi_\bullet(E)}  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+   )
+    \longrightarrow
+   \cdots
+$$
 
-
-(...)
+=--
 
 
 #### The $\mathcal{E}_2$-term and homological algebra of Hopf modules
+ {#TheE2TermOfTheEAdamsSpectralSequence}
 
 +-- {: .num_prop}
 ###### Proposition
