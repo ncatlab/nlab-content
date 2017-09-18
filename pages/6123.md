@@ -18,14 +18,31 @@
 {:toc}
 
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn}
 ###### Definition
 
 For $R$ a [[ring]], its _group of units_, denoted $R^\times$ or $GL_1(R)$, is the [[group]] whose elements are the elements of $R$ that are invertible under the product, and whose group operation is the multiplication in $R$.
 
-Note that $GL_1(R)$ is an [[affine variety]] (in fact an affine algebraic group) over $R$, namely $\{(x, y) \in R^2: x y = 1\}$. This leads us to the following perspective: in a general category with [[finite limits]], with $R$ a ring object therein, the group of units is correctly defined as the [[equalizer]] of the two maps $m, c_1: R \times R \to R$, where $m$ is the ring multiplication and $c_1$ is the [[constant map]] with value the multiplicative identity. Cf. Example \ref{idele} below. 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+$GL_1(R)$ is an [[affine variety]] (in fact an affine [[algebraic group]]) over $R$, namely $\{(x, y) \in R^2: x y = 1\}$. 
+
+=--
+
+This leads us to the following alternative perspective: 
+
++-- {: .num_defn}
+###### Definition
+
+In a [[category]] with [[finite limits]], with $R$ a [[ring object]] therein, the _group of units_ of $R$ is the [[equalizer]] of the two maps $m, c_1: R \times R \to R$, where $m$ is the ring multiplication and $c_1$ is the [[constant map]] with value the multiplicative identity.  
+=--
+
+Cf. Example \ref{idele} below.
 
 
 
