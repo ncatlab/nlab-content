@@ -66,6 +66,8 @@ A compact closed category is a [[star-autonomous category]]: the [[tensor unit]]
 
 * A compact closed [[discrete category]] is just an [[abelian group]].
 
+* The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a compact closed category, and conversely, any compact closed category (or more generally, any [[closed monoidal category]]) with a single object must be isomorphic to the delooping of some commutative monoid.
+
 ## Related concepts
 
 * [[compact closed 2-category]]
@@ -93,6 +95,7 @@ The relation to [[traced monoidal categories]] is discussed in
 
 * Wikipedia, _[Compact closed category](http://en.wikipedia.org/wiki/Compact_closed_category)_ .
 
+[[!redirects compact closed]]
 [[!redirects compact closed categories]]
 [[!redirects compact category]]
 [[!redirects compact categories]]
