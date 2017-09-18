@@ -6,7 +6,9 @@
 
 ## related $n$Lab entries
 
-* [[magic supergravity]]
+* [[4d supergravity]], [[magic supergravity]]
+
+* [[4d supergravity Lie 2-algebra]]
 
 category: people
 
