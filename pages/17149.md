@@ -135,6 +135,10 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[Omega spectrum]]
 
+* [[suspension spectrum]]
+
+* [[Thom spectrum]]
+
 * [[Eilenberg-MacLane spectrum]]
 
 * [[topological K-theory]]
@@ -142,6 +146,8 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 * [[suspension spectrum]]
 
 * [[Thom spectrum]]
+
+* [[cylinder spectrum]]
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
