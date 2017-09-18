@@ -2,4 +2,4 @@
 
 [[type theories]]
 
-Zonk.
+$\hookleftarrow$
