@@ -18,7 +18,7 @@
 +-- {: .num_defn #CoreOfARing}
 ###### Definition
 
-For $R$ a [[ring]], its **[[core of a ring|core]]** $c R$ is the [[equalizer]] in
+For $R$ a [[commutative ring]], its **[[core of a ring|core]]** $c R$ is the [[equalizer]] in
 
 $$
   c R 
@@ -107,7 +107,7 @@ $$
 
 ## References
 
-* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, Volume 2, Issue 1, April 1972, Pages 73-81
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, Volume 2, Issue 1, April 1972, Pages 73-81 ([link](http://www.sciencedirect.com/science/article/pii/0022404972900230))
 
 
 
