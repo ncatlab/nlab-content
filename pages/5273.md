@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Higher spin geometry
+#### Spin geometry
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
@@ -24,6 +24,8 @@ A _spinor bundle_ on a [[smooth manifold]] with [[spin structure]] is a $\rho$-[
 A [[section]] of a spinor bundle is called a **spinor** (a [[fermion]] [[field (physics)|field]])
 
 ## Related concepts
+
+* [[Clifford bundle]]
 
 * [[fiber bundles in physics]]
 
