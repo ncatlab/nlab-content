@@ -198,3 +198,6 @@ Other discussions of higher categories of cobordisms are
 [[!redirects (∞,n)-category of n-fold correspondences]]
 [[!redirects (infinity,n)-category of n-fold correspondences]]
 
+
+[[!redirects phased tensor product]]
+[[!redirects phased tensor products]]
