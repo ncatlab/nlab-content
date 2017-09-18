@@ -1106,7 +1106,7 @@ $$
   \,,
 $$
 
-as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. Now by [[two-out-of-three]], prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}, the factorizing fibration is actually an acyclic fibration. By ase A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally lemma \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
+as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. Now by [[two-out-of-three]], prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}, the factorizing fibration is actually an acyclic fibration. By case A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so the [[retract argument]], lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally lemma \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
 
 =--
 
