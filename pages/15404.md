@@ -5,4 +5,6 @@
 
 * [[orthogonal calculus]]
 
+* [[Weiss topology]]
+
 category: people
