@@ -77,28 +77,15 @@ The topology axioms can be formulated in purely equational form, i.e., as equati
 +-- {: .num_prop}
 ###### Proposition
 
-For $\mathcal{E}$ a [[sheaf topos]], the sheaf topos 
-corresponding to its [double negation topology](#DoubleNegationTopology)
-
-$$
-  \mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}
-$$
-
-is a [[Boolean topos]].
+The sheaf topos $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ corresponding to the [double negation topology](#DoubleNegationTopology) is a [[Boolean topos]].
 
 =--
 
-This appears as ([MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk)). 
+This appears for sheaf toposes as ([MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk)), and in the general case as a special case of ([Johnstone, Lemma 4.5.21](#Johnstone)).
 
 +-- {: .num_prop}
 ###### Proposition
-
-$$
-  \mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}
-$$
-
-is the smallest [[dense subtopos]].
-
+$\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense subtopos]].
 =--
 
 ([Johnstone, below Corollary 4.5.20](#Johnstone))
@@ -108,13 +95,25 @@ is the smallest [[dense subtopos]].
 $\not\not$ is the unique largest topology in $\mathcal{E}$ for which $0\rightarrowtail 1$ is closed.
 =--
 
-For a proof see ([Johnstone (1977)](#Johnstone77), p.140). A corollary of this is that
+For a proof see ([Johnstone (1977)](#Johnstone77), p.140).
 
-* $0$ is always a $\not\not$-sheaf !
+Both of the preceeding results imply in particular that **$0$ is always a $\not\not$-sheaf**, i.e. $\mathcal{E}_{\not\not}$ is always a [[dense subtopos]].  In fact, we have:
 
 +-- {: .num_prop}
 ###### Proposition
+$\not\not$ is the unique topology $j$ such that (1) $j$ is dense, i.e. $j(0)=0$, and (2) the sheaf topos $E_j$ is Boolean.
+=--
++-- {: .proof}
+###### Proof
+It remains to show that (1) and (2) imply that $j=\not\not$.  First note that the dense monos corresponding to $j$ are classified by the subobject classifier $\Omega_j$ of $E_j$.  Since (2) implies that $\Omega_j$ is an internal [[Boolean algebra]], it follows that the dense subobjects of any object $X$ form a Boolean algebra.
 
+This Boolean algebra is a reflective sub-poset of the [[Heyting algebra]] of all subobjects of $X$, whose reflector is lex, i.e. preserves finite [[meets]].  Thus, it will suffice to show that if $B$ is a Boolean algebra that is a lex-reflective sub-poset of a Heyting algebra $H$ and if $0\in B$, then $B = \{ U | U = \neg\neg U \}$.
+
+To show this, first note that the Boolean negation in $B$ is the restriction of the Heyting negation in $H$.  Thus, Booleanness of $B$ implies $U=\neg\neg U$ for all $U\in B$.  Thus, it remains to show that if $U=\neg\neg U$ then $U\in B$.  But since $0\in B$ and $B$ is an [[exponential ideal]], by the definition $\neg U = (U\Rightarrow 0)$ it follows that $\neg\neg U\in B$ for any $U$.  Thus, if $U=\neg\neg U$ then $U\in B$ as well.
+=--
+
++-- {: .num_prop}
+###### Proposition
 For every [[presheaf topos]] $[C^{op}, Set]$ the double negation topology coincides with the [[dense topology]].
 =--
 
@@ -124,19 +123,14 @@ This appears as [MacLaneMoerdijk, corollary VI 5](#MacLaneMoerdijk).
 ###### Proposition
 
 Let $C$ be a [[poset]]. Then the double negation sheaf topos
-
-$$
-  Sh_{\not \not}(C) \hookrightarrow [C^{op}, Set]
-$$
-
+$ Sh_{\not \not}(C) \hookrightarrow [C^{op}, Set]$
 satisfies the [[axiom of choice]].
 =--
 
-This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).
+This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).  Essentially because of this fact, double-negation sheaves on posets are the basic context for [[forcing]] in set theory (since set theorists generally want the axiom of choice to be preserved in forcing models.)
 
 +-- {: .num_prop}
 ###### Proposition
-
 In a presheaf topos (on a small category) the notions of *$\neg\neg$-topology* and that of *[[dense topology]]* coincide.
 =--
 
