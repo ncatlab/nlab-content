@@ -9,3 +9,7 @@
   * [Morphisms of Lie groupoids](http://ncatlab.org/nlab/show/Lie+groupoid#morphisms_of_lie_groupoids)
 
   * [Morphisms of Lie algebroids](http://ncatlab.org/nlab/show/Lie+groupoid#morphisms_of_lie_algebroids)
+
+  * [[groupoid principal bundle]]
+
+  * [[bibundle]]s of Lie groupoids
