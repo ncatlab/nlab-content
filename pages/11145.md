@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[geometric representation theory]] the _horocycle correspondence_ for $G$ a complex [[reductive group]] and $B \subset G$ a [[Borel subgroup]] is the correspondence of group [[quotients]] given by
+In [[geometric representation theory]] the _horocycle correspondence_ for $G$ a complex [[reductive group]] and $B \subset G$ a [[Borel subgroup]] is the [[correspondence]] of [[group]] [[quotients]]  given by
 
 $$
   G//_{ad} G \stackrel{p}{\longleftarrow} G_{ad}//B \stackrel{\delta}{\longrightarrow} B \backslash  G / B
