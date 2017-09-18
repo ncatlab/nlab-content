@@ -24,10 +24,16 @@ For suitable even|odd dimension this is naturally equipped with the structure of
 ## Definition
 
 
-For $p,q \in \mathbb{N}$, let $\mathbb{R}^{p|q}$ the _super Cartesian space_ of [[dimension]]_ $(p|q)$. This is the [[supermanifold]] defined by the fact that its [[algebra of functions]] is freely generated, as a [[smooth superalgebra]] by even-graded [[coordinate]]-functions $\langle \{x^a\}_{1}^p$ and odd-graded coordinate function $\{ \theta^\alpha\}_{\alpha= 1}^q$
+For $p,q \in \mathbb{N}$, let $\mathbb{R}^{p|q}$ the _super Cartesian space_ of [[dimension]]_ $(p|q)$. This is the [[supermanifold]] defined by the fact that its [[algebra of functions]] is freely generated, as a [[smooth superalgebra]] by even-graded [[coordinate]]-functions $\langle \{x^a\}_{1}^p$ and odd-graded coordinate function $\{ \theta^\alpha\}_{\alpha= 1}^q$. Equivalently this is the [[tensor product]] of the [[smooth functions]] on $\mathbb{R}^p$ with the real [[Grassmann algebra]] on $q$ generators:
 
 $$
-  C^\infty(\mathbb{R}^{p|q}) = \langle \{x^a\}_{1}^p, \{ \theta^\alpha\}_{\alpha= 1}^q \rangle
+  \begin{aligned}
+      C^\infty(\mathbb{R}^{p|q}) 
+      & \coloneqq 
+      \langle \{x^a\}_{1}^p, \{ \theta^\alpha\}_{\alpha= 1}^q \rangle
+      \\
+      & = C^\infty(\mathbb{R}^p)\otimes_{\mathbb{R}} \wedge^\bullet \mathbb{R}^q
+  \end{aligned}
   \,.
 $$
 
