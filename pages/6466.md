@@ -304,3 +304,9 @@ Discussion in [[homotopy type theory]] is in
 [[!redirects Cauchy real number object]]
 [[!redirects Cauchy real number objects]]
 
+[[!redirects Dedekind real numbers object]]
+[[!redirects Dedekind real numbers objects]]
+
+[[!redirects Cauchy real numbers object]]
+[[!redirects Cauchy real numbers objects]]
+
