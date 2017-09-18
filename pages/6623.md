@@ -53,6 +53,37 @@ $$f: A \dashrightarrow B$$
 
 (generally without explicitly mentioning the domain $D$ of $f$), or sometimes by a harpoon notation. 
 
+### Connection with initial algebras 
+
+One way of constructing the [[initial algebra of an endofunctor]], $(X, \alpha: T X \to X)$, is by constructing first some [[fixed point]] of $T$, that is, an object $Y$ together with an isomorphism $\xi: Y \cong T Y$. (For example, it might be the terminal coalgebra, whose existence is sometimes easy to establish.) Then, inside $Y$ consider the system of well-founded subcoalgebras of $\xi$. The colimit of this system, assuming it exists, will be the initial algebra. (More theory to develop here.) 
+
+The connection with initial algebras goes a little further. Firstly, an initial $T$-algebra is a *Peano $T$-algebra* in the sense of the following definition: 
+
++-- {: .num_defn} 
+###### Definition 
+A $T$-algebra $(X, \alpha: T X \to X)$ is *Peano* if every $T$-subalgebra [[monomorphism|inclusion]] $i: Y \hookrightarrow X$ is an isomorphism. 
+=-- 
+
+If $X$ is initial and $i: Y \to X$ is a subalgebra, then there is a unique algebra map $r: X \to Y$, and $i r = 1_X: X \to X$ by initiality, whence $i r i = i$ and then $r i = 1_Y: Y \to Y$ as $i$ is monic; hence initial algebras are Peano. 
+
+Secondly, a functor $T: E \to E$ induces, for any object $X$ of $E$, a functor between slices $T_\ast: E/X \to E/ T X$, and so if $(X, \theta: X \to T X)$ is a coalgebra, we may form an endofunctor on $E/X$: 
+
+$$E/X \stackrel{T_\ast}{\longrightarrow} E/ T X \stackrel{\theta^\ast}{\longrightarrow} E/X$$ 
+
+and of course the terminal object $1_X: X \to X$ is automatically and uniquely a $\theta^\ast T_\ast$-algebra. The next two propositions then follow immediately from the definitions of inductive subobject and well-founded coalgebra: 
+
++-- {: .num_prop} 
+###### Proposition 
+A subobject $i: U \to X$ of a $T$-coalgebra $(X, \theta)$ is inductive precisely when $i$ is a $\theta^\ast T_\ast$-subalgebra of the terminal object $1_X$ of $E/X$. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+A $T$-coalgebra $X$ is well-founded precisely when the terminal $\theta^\ast T_\ast$-algebra $1_X$ is Peano. 
+=-- 
+
+
+
 ## Examples
 
 ### Well-founded relations 
