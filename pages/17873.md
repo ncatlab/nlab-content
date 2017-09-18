@@ -316,18 +316,24 @@ This yields a map $\lceil{m}\rceil^Y:X^Y\to (X^T)^Y$ such that $\lceil{m}\rceil^
 
 Now we want to prolongate $\lceil{m}\rceil^Y:X^Y\to (X^T)^Y$ by an isomorphism $(X^T)^Y\xrightarrow{\simeq} (X^Y)^T$.
 
-We get this isomorphism from the following sequence of maps
+We get this isomorphism from composing the following sequence of maps
 
 $$
 \begin{aligned}
  ((X^T)^Y\times T)\times Y&\xrightarrow{\langle \pi_1\pi_1,\langle \pi_2\pi_1,\pi_2\rangle\rangle} (X^T)^Y\times (T\times Y) \quad\text{(the canonical associativity isomorphism)}
 \\
- (X^T)^Y\times (T\times Y)&\xrightarrow{id_{(X^T)^Y}\times \tau_{T{}Y}}(X^T)^Y\times(Y\times T) \quad\text{(with the canonical twist isomorphism}\: \tau_{T{}Y}:T\times Y\to Y\times T \:)
+ (X^T)^Y\times (T\times Y)&\xrightarrow{id_{(X^T)^Y}\times \tau_{T{}Y}}(X^T)^Y\times(Y\times T) \quad\text{(with the canonical twist map}\: \tau_{T{}Y}:T\times Y\xrightarrow{\simeq} Y\times T \:)
 \\
  (X^T)^Y\times (Y\times T)&\xrightarrow{\langle\langle\pi_1,\pi_1\pi_2\rangle,\pi_2\pi_2\rangle} ((X^T)^Y\times Y)\times T\quad\text{(the other canonical associativity isomorphism)}
 \\
 ((X^T)^Y\times Y)\times T&\xrightarrow{ev_{Y{}X^T}\times id_T} X^T\times T\xrightarrow{ev_{T{}X}}  X
 \end{aligned}
+$$
+
+and transposing twice:
+
+$$
+\lceil\lceil ev_{T{}X}\cdot (ev_{Y{}X^T}\times id_T)\cdot \langle\langle\pi_1,\pi_1\pi_2\rangle,\pi_2\pi_2\rangle \cdot (id_{(X^T)^Y}\times \tau_{T{}Y})\cdot \langle \pi_1\pi_1,\langle \pi_2\pi_1,\pi_2\rangle\rangle \rceil\rceil : (X^T)^Y\to (X^Y)^T
 $$
 
 ....
