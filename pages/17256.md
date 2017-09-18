@@ -51,7 +51,25 @@ Basic Examples:
 
 ### 3. Basic constructions
 
+#### 3.1 Symmetric spectra of simplicial sets
+
+* [[powering]] and [[copowering]] over [[sSet]]
+
+#### 3.2 Constructions
+
+* [[limits]] and [[colimits]]
+
+* [[shift spectrum]]
+
+* [[semistable symmetric spectrum]]
+
+* [[mapping spectrum]]
+
+#### 3.3 Constructions involving ring spectra
+
 ### 4. Stable equivalences
+
+* [[spectrification]]
 
 ### 5. Smash product
 
