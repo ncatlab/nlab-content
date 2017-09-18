@@ -26,6 +26,8 @@ The category of pro-objects of $C$ is written $pro$-$C$. Such a category is some
 
 ## Definition 
 
+### Via formal filtered limits
+
 The [[objects]] of the [[category]] $pro$-$C$ are [[diagrams]] $F:D\to C$ where $D$ is a [[small category|small]] [[filtered category|cofiltered]] category.  The [[hom set]] of [[morphisms]] between $F:D\to C$ and $G:E\to C$ is 
 
 \[pro\text{-}C(F,G) = lim_{e\in E} colim_{d\in D} C(F d, G e)\]
@@ -46,7 +48,7 @@ $\delta_{e'}: d'\to d_{e'}$ such that $G(\gamma)\circ s_{d_e,e}\circ F\delta_e =
 
 This definition is perhaps more intuitive in the dual case of [[ind-object|ind-objects]] (pro-objects in $C^{op}$), where it can be seen as stipulating that the objects of $C$ are [[finitely presentable object|finitely presentable]] in $ind$-$C$.
 
-#### Definition of $\mathrm{pro}C$ as a subcategory of functors
+### Via filtered limits of presheaves
 
 Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of the [[opposite category|opposite]] [[functor category]]/[[category of presheaves|presheaf category]] $[C,Set]^{op}$ determined by those functors which are cofiltered limits of [[representable functor|representables]]. This is reasonable since the [[presheaf category|copresheaf category]] $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits." See also at
 [[pro-representable functor]].
