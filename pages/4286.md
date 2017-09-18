@@ -60,6 +60,7 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 ## Related concepts
 
+* [[Kruskal–Szekeres coordinates]]
 
 * [[Bekenstein-Hawking entropy]], [[black hole radiation]]
 
