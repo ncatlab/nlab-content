@@ -20,6 +20,24 @@ A _vertex_ is a _[[point]]_ in a [[graph]] or [[simplicial set]] or similar. In 
 An alternative term, monosyllabic, yet unusual in contemporary graph-theory, and considered old-fashioned, is 'point'. (Cf. [Chapter 2](#HararyGraphTheory))
 
 
+## Terminological comments
+
+### Linguistic etymology
+
+The word 'vertex' derives from the Latin verb *vertere*, meaning *to turn* or *to rotate*, and already existed in Latin as this very same noun "vertex", meaning something like a *peak*, *crow*, *point of intersection*. 
+
+
+### Mathematical etymology 
+
+The canonical etymological explanation of why, even for abstract graphs, the points are almost invariably called "vertices" in modern graph theory is to see "vertex" as a trace of the natural connections between [[graph theory]] and the theory of [[polyhedra]], which have "vertices", in particular, as a legacy of  [[Ernst Steinitz|Steinitz's]] [[Steinitz's theorem|1916 theorem]] on the one-dimensional skeleta of [[polyhedra]] in three-dimensional [[Euclidean space]].
+Some deplore the geometric connotations of "edge", with its geometric connotations of *pointedness*. 
+The term "vertex" is clearly the most usual one in modern graph theory by far. 
+
+An alternative term, unusual in contemporary graph-theory and considered old-fashioned, is 'point'. (Cf., notably, [Chapter 2](#HararyGraphTheory) and many other articles of Harary's). 
+
+
+
+
 ## Related concepts
 
 * [[edge]]
