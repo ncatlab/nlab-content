@@ -1,3 +1,4 @@
+[[!redirects Phillipe Flajolet]]
 Philippe Flajolet was a mathematician who, in particular, together with R. Sedgewick wrote an influential textbook entitled "Analytic Combinatorics" which has natural connections to [[polynomial functors]], and to the theory of [[species]] of [[Andre Joyal|André Joyal]].
 
 
@@ -18,3 +19,6 @@ Philippe Flajolet was a mathematician who, in particular, together with R. Sedge
 * Philippe Flajolet, Robert Sedgewick, _Analytic Combinatorics_, 2009 ([pdf](http://algo.inria.fr/flajolet/Publications/book.pdf))
 
 category: people
+
+
+[[!redirects Phillipe Flajolet]]
