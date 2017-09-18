@@ -69,7 +69,7 @@ $$ j^\ast\colon\mathbf{Gl}(\sqcap)\to Set \qquad ((X,Y),Z,u)\mapsto Z\quad .$$
 
 Since $\triangle\dashv\sqcap$ the closed inclusion is [[essential geometric morphism|essential]]:
 
-$$ j_!\colon Set \to \mathbf{Gl}(\sqcap)\qquad X\mapsto ((X,X), X, \triangle\colon X\to X\times X)\quad .$$
+$$ j_!\colon Set \to \mathbf{Gl}(\sqcap)\qquad X\mapsto ((X,X), X,  X\overset{\langle id_X,id_X\rangle}{\to} X\times X)\quad .$$
 
 Let $Q$ be the diagram category $N\overset{s}{\underset{t}{\rightrightarrows}} A$ underlying the topos $Set^{Q^{op}}$ of directed graphs or [[quiver|quivers]]. Consider the [[Yoneda embedding]] of the object $A$ into the presheaves: $Y(A)=Hom_Q(-,A)$. Viewed as a graph this gives the basic figure type of an _a_rrow $K_2=\bullet\to\bullet$ , the other basic figure being the _n_ode $\bullet$ given by $Y(N)$ .
 
