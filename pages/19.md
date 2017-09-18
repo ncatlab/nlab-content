@@ -343,6 +343,8 @@ This and much more history is recalled in
 
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
+* [[Tom Leinster]], _[Basic Category Theory](http://www.maths.ed.ac.uk/~tl/bct/)_, 2014
+
 * [[Emily Riehl]], _Category theory in context_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/727/context.pdf))
 
 #### Topos theory
