@@ -37,7 +37,7 @@ $$
   (f_! \dashv f^\ast \dashv f_\ast) 
     \;\colon\; 
    \mathcal{C}_{\Gamma_1}
-    \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longrightarrow}}{\underset{f_\ast}{\leftarrow}}}
+    \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longleftarrow}}{\underset{f_\ast}{\rightarrow}}}
     \mathcal{C}_{\Gamma_2}
   \,.
 $$
@@ -90,7 +90,7 @@ Moreover, the system of slice categories has good [[base change]] in that for ev
 
 $$ 
    \mathcal{C}_{[\Gamma_1]}
-    \stackrel{\stackrel{[f]_!}{\longrightarrow}}{\stackrel{\overset{[f]^\ast}{\longrightarrow}}{\underset{[f]_\ast}{\leftarrow}}}
+    \stackrel{\stackrel{[f]_!}{\longrightarrow}}{\stackrel{\overset{[f]^\ast}{\longleftarrow}}{\underset{[f]_\ast}{\longrightarrow}}}
     \mathcal{C}_{[\Gamma_2]}
 $$
 
@@ -198,7 +198,7 @@ $$
    \right)  
     \;\colon\; 
    Mod(\Gamma_1)
-    \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longrightarrow}}{\underset{f_\ast}{\leftarrow}}}
+    \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longleftarrow}}{\underset{f_\ast}{\longrightarrow}}}
     Mod(\Gamma_2)
   \,.
 $$
@@ -304,7 +304,7 @@ $$
    \right)  
     \;\colon\; 
    Mod(\Gamma_1)
-    \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longrightarrow}}{\underset{f_\ast}{\leftarrow}}}
+    \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longleftarrow}}{\underset{f_\ast}{\longrightarrow}}}
     Mod(\Gamma_2)
   \,.
 $$
