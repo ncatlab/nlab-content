@@ -24,18 +24,32 @@
 ## Idea
  {#Idea}
 
-_Intuitionistic mathematics_ is a variety of [[constructive mathematics]] done according to the principles accepted by [[L.E.J. Brouwer]] and his philosophy of _intuitionism_.
+_Intuitionistic mathematics_ (often abbreviated INT) is the earliest full-blown variety of [[constructive mathematics]], done according to the mathematical principles developed by [[L.E.J. Brouwer]] through his philosophy of _intuitionism_. 
 
-But beware the terminological ambiguity: Brouwerian intuitionism includes [[axioms]] that contradict [[classical logic]]; but other people use "intuitionistic" to mean the same as what in other contexts is called "[[constructive|constuctive mathematics]]", i.e. mathematics without the [[principle of excluded middle]] or the [[axiom of choice]] but nothing added that contradicts them.  
+The first main philosophical idea is that mathematical truth (a true statement) can only be attained in one's mind, by carefully arranging one's concepts and constructions in such a way that there remains absolutely no doubt that every aspect of the statement is verified, unambiguously, without reliance on any 'outside' assumption, for instance about the platonic nature of reality. (The [[principle of excluded middle]] is such an assumption, and Brouwer gave mathematical counterexamples to its validity, eventually leading to the foundational crisis in mathematics (Grundlagenstreit) around 1930, and Brouwer's conflict with Hilbert).
+
+The second main philosophical idea is that the mind works over time. One does not have everything ready and done from the start. Infinity is a (perceived) idealized property of time, but one cannot have completed any infinite process or construction on any given day. Infinity is potential, not actual. 
+
+The main mathematical idea then becomes that we can only build mathematical structures and truths starting from the natural numbers $0, 1, ...$ (where the dots indicate potential, not actual infinity). Natural numbers are definite and precise, but most real numbers, such as $\pi$, have a very different nature. We can only form something that we call '$\pi$' through a never-finished process of approximation.
+
+Nonetheless, a substantial part of mathematics can be built up ('constructed') in this way. What mainly differentiates intuitionistic mathematics from [[constructive mathematics]] are two added axioms.  
+
+Brouwer 'deduced' two axiomatic insights, notably 'continuous choice' and transfinite induction (in difficult language, calling it the `Bar Theorem' and giving a 'proof'). 'Continuous choice' conflicts with classical mathematics, the Bar Theorem is classically true. 
+
+Kleene & Vesley (in _Foundations of Intuitionistic Mathematics_, 1965) offered a clean axiomatic approach which is nowadays called FIM. Kleene proved that FIM is equiconsistent with classical mathematics. Kleene also proved that theorems of FIM are recursively [[realizability|realizable]], which shows the computational content of FIM.
 
 
 ## Terminology
+
+
+Terminological ambiguity is often present in [[constructive mathematics]] and its varieties. Intuitionistic mathematics (INT) includes [[axioms]] that contradict [[classical logic]]; but people in non-foundational disciplines often use "intuitionistic" to mean roughly the same as "[[constructive|constructive mathematics]]" (say: mathematics without the [[principle of excluded middle]], usually with computational/algorithmic content and some restriction on impredicativity, but nothing added that contradicts classical mathematics).  
+
 
 There are a variety of ways to use the term 'intuitionistic'.  We list them here, roughly from the most specific to the most general, and contrast (where appropriate) with the term 'constructive':
 
 *  __Intuitionism__ is an early-20th-century [[philosophy of mathematics]] developed by [[Brouwer]], according to which [[mathematics]] is a free creation of a mind, and valid results are about what that mind creates (rather than about an external reality, as in [[platonism]], or about nothing, as in [[formalism]]).  From this controversial starting point, Brouwer drew even more controversial conclusions about both [[mathematics]] and [[logic]] (which he saw as derived from mathematics, rather than conversely as in [[logicism]]).  Intuitionism is one particular philosophy of [[constructivism]].
 
-*  __Intuitionistic mathematics__ is mathematics along the lines of the mathematics that Brouwer came up with.  However, it\'s not necessary to accept Brouwer\'s philosophy to practise intuitionistic mathematics; conversely, one may accept Brouwer\'s philosophical starting place but not his conclusions about the resulting mathematics.  Intuitionistic mathematics is one particular variety of [[constructive mathematics]].
+*  __Intuitionistic mathematics__ is the mathematics along the lines of the mathematics that Brouwer came up with.  However, it\'s not necessary to accept Brouwer\'s philosophy to practise intuitionistic mathematics; conversely, one may accept Brouwer\'s philosophical starting place but not his conclusions about the resulting mathematics.  Intuitionistic mathematics is one particular variety of [[constructive mathematics]].
 
    One example of intuitionistic mathematics (which nicely shows that intuitionism is not a matter of "belief" but of subject) is [[computable mathematics]] (see for instance [Bauer 05, section 4.3.1](#Bauer05)).
 
