@@ -46,7 +46,7 @@ $$
   \mathbb{R}
 $$
 
-on the [[real numbers]]. This means that if the domain $S^1$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{R}\times \mathbb{R}$ and the codomain $S^1$ is regarded as the real [[projective space]], then $p$ is given simply by
+on the [[real numbers]]. This means that if the domain $S^1$ is regarded as the [[unit sphere]] $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{R}\times \mathbb{R}$ and the codomain $S^1$ is regarded as the real [[projective space]], then $p$ is given simply by
 
 $$
   p \colon (x,y) \mapsto [x;y] = [x/y; 1]
