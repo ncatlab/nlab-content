@@ -43,6 +43,8 @@ A fully general abstract discussion is around page 30,31 of ([ABGHR](#ABGHR)).
 
 ## Related concepts
 
+* [[cobordism theory]]
+
 * [[Thom space]], [[Thom spectrum]]
 
 * [[fiber integration]]
@@ -57,12 +59,11 @@ The original reference is
 
 * W. Cockcroft, _On the Thom isomorphism Theorem_ Mathematical Proceedings of the Cambridge Philosophical Society (1962), 58 ([pdf](http://journals.cambridge.org/action/displayFulltext?type=1&fid=2056796&jid=PSP&volumeId=58&issueId=02&aid=2056788&bodyId=&membershipNumber=&societyETOCSession=))
 
-A review is in 
+Lecture notes include
 
-* [[John Francis]], _Topology of manifolds_, course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)) 
+* {#Francis3} [[John Francis]], _Topology of manifolds_, course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)), Lecture 3 _Thom's theorem_ (notes by A. Smith) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf))
 
-  Lecture 3 _Thom's theorem_ (notes by A. Smith) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf))
-{#Francis3}
+* [[Akhil Mathew]], _[The Thom isomorphism theorem](https://amathew.wordpress.com/2010/12/11/the-thom-isomorphism-theorem/)_
 
 A discussion in [[differential geometry]] with fiberwise compactly supported differential forms is around theorem 6.17 of 
 
@@ -70,8 +71,8 @@ A discussion in [[differential geometry]] with fiberwise compactly supported dif
 
 A comprehensive general abstract account for [[multiplicative cohomology theories]] in terms of [[E-infinity ring]] [[spectra]] is in
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
- {#ABGHR}
+* {#ABGHR} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+ 
 
 An alternative simple formulation in terms of geometric cycles as in [[bivariant cohomology theory]] is in 
 
