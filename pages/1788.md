@@ -1,2 +1,4 @@
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://4.bp.blogspot.com/-WmnPcijsQgM/VNFk0OGgLxI/AAAAAAAAAig/HtyHFDugScw/s1600/B87t4g2IMAAmGPL.png" alt="PlanckExperimentDataPlot" /></div>
+
+
+nothing here
