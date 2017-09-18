@@ -52,7 +52,15 @@ Despite of this, an axiomatic formulation of algebraic geometry along the lines 
 ## References
  {#References}
 
+A neat textbook is
+
 * [[Ravi Vakil]], _Foundations Of Algebraic Geometry_, Course notes ([web](http://math.stanford.edu/~vakil/216blog/))
+
+See also the references at _[[functorial geometry]]_.
+
+For reference see also 
+
+* _[[The Stacks Project]]_
 
 Discussion of fundamental constructions of algebraic geometry from the perspective of the [[internal logic]] of the [[sheaf topos]] over a [[scheme]] ([[Zariski topos]]/[[etale topos]]) is in 
 
