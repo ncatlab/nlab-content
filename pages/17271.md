@@ -1,0 +1,46 @@
+
+
++-- {: .un_lemma #RetractArgument}
+###### Lemma
+**(retract argument)**
+
+Consider a [[composition|composite]] [[morphism]]
+
+$$
+  f \;\colon\; \stackrel{i}{\longrightarrow} \stackrel{p}{\longrightarrow}
+  \,.
+$$
+
+1. If $f$ has the [[left lifting property]] against $p$, then $f$ is a [[retract]] of $i$.
+
+1. If $f$ has the [[right lifting property]] against $i$, then $f$ is a [[retract]] of $p$.
+
+=--
+
++-- {: .num_remark #RetractsOfMorphisms}
+###### Remark
+
+Here by a _retract_ of a [[morphism]] $X \stackrel{f}{\longrightarrow} Y$ in some [[category]] $\mathcal{C}$ is meant a [[retract9] of $f$ as an object in the [[arrow category]] $\mathcal{C}^{\Delta[1]}$, hence a morphism $A \stackrel{g}{\longrightarrow} B$ such that in $\mathcal{C}^{\Delta[1]}$ there is a factorization of the identity on $g$ through $f$
+
+$$
+  id_g \;\colon\;
+  g \longrightarrow f \longrightarrow g
+  \,.
+$$
+
+This means equivalently that in $\mathcal{C}$ there is a [[commuting diagram]] of the form
+
+$$
+  \array{
+    id_A \colon & A &\longrightarrow& X &\longrightarrow& A
+    \\
+    & \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}}
+    \\
+    id_A \colon & A &\longrightarrow& Y &\longrightarrow& A
+  }
+  \,.
+$$
+
+=--
+
+
