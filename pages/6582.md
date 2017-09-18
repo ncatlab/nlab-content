@@ -5,5 +5,6 @@ Some standard examples are [[Fourier analysis]] on locally compact abelian group
 * Wikipedia: [harmonic analysis](http://en.wikipedia.org/wiki/Harmonic_analysis)
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
 * Elias Stein, Guido Weiss, _Introduction to Fourier analysis on Euclidean spaces_, Princeton Univ. Press 1971
+* MSRI, [Categorical Structures in Harmonic Analysis](http://www.msri.org/workshops/708), Nov 2014. (videos)
 
 category: analysis
