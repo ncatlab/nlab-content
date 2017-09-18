@@ -57,9 +57,17 @@ from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles c
 
 [[!redirects lifting]]
 [[!redirects lifts]]
+
 [[!redirects lifting property]]
+[[!redirects lifting properties]]
+
 [[!redirects right lifting property]]
 [[!redirects left lifting property]]
+[[!redirects right lifting properties]]
+[[!redirects left lifting properties]]
+
 
 [[!redirects lifting problem]]
 [[!redirects lifting problems]]
+
+
