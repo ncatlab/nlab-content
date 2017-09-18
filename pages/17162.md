@@ -1,3 +1,4 @@
+[[!redirects homology of MU]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,9 +17,13 @@
 
 ## Idea
 
-The ([[generalized homology|generalised]]) [[homology]] of [[MU]].
+The ([[generalized homology|generalised]]) [[homology]] of [[Thom spectra]] $M G$, such as [[MO]] and [[MU]].
 
-A key ingredient in [[Quillen's theorem on MU]] giving the [[homotopy groups of a spectrum|homotopy groups]] of $MU$.
+In the presence of a [[Thom isomorphism]] (e.g. for [[complex oriented cohomology]] of [[MU]]) this identifies with the homology of the [[classifying spaces]] $B G$, such as $B O$ and $B U$.
+
+Feeding the homology of $M G$ into an [[Adams spectral sequence]] gives a way to compute its [[homotopy groups]].
+
+This is for instance a key ingredient in [[Quillen's theorem on MU]] giving the [[homotopy groups of a spectrum|homotopy groups]] of $MU$.
 
 ## Statement
 
