@@ -1,5 +1,30 @@
 
-The __sedenions__ may be derived from the [[octonions]] using the [[Cayley–Dickson construction]]; they form an [[nonassociative algebra|algebra]] $\mathbb{S}$.  Although every sedenion has a multiplicative [[inverse element|inverse]], $\mathbb{S}$ is *not* a [[division algebra]] (which is possible since it is not [[associative algebra|associative]]).
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The __sedenions__ are the [[non-associative algebra]] $\mathbb{S}$ over the [[real numbers]] obtained by applying the [[Cayley–Dickson construction]] to the [[octonions]]. 
+
+## Properties
+
+Although every sedenion has a multiplicative [[inverse element|inverse]], $\mathbb{S}$ is *not* a [[division algebra]] (which is possible since it is not [[associative algebra|associative]]).
+
+## References
+
+Wikipedia, _[Sedenion](https://en.wikipedia.org/wiki/Sedenion)_
 
 
 [[!redirects sedenion]]
