@@ -67,4 +67,5 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 * {#Awodey15} [[Steve Awodey]], _Structuralism, Invariance and Univalence_, 2014 ([pdf](https://www.andrew.cmu.edu/user/awodey/preprints/siu.pdf))
 
 * {#Corfield15} [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, 2015 ([pdf](https://dl.dropboxusercontent.com/u/16936016/The_Structure.pdf))
+
 category: philosophy
