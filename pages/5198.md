@@ -47,7 +47,7 @@ For the string of circles, it looks something like this:
 
 
 ###Properties###
-1. $\varepsilon(\underline{S}^n)$ is a pro-space isomorphic to an $\mathbb{N}$-indexed one with $k^{th}$ level, $\bigvee_{j\geq k}S^n_j$, where each $S^n_j$ is a copy of $S^n$.  The structural/ bonding maps from the $(k+1)^{st}$ level to the $k^{th$ level are the obvious inclusions.
+1. $\varepsilon(\underline{S}^n)$ is a pro-space isomorphic to an $\mathbb{N}$-indexed one with $k^{th}$ level, $\bigvee_{j\geq k}S^n_j$, where each $S^n_j$ is a copy of $S^n$.  The structural/ bonding maps from the $(k+1)^{st}$ level to the $k^{th}$ level are the obvious inclusions.
 
 1. The space $\underline{S}^n$ is, of course, considered as being based at the ray (given by the right vertical map in the pushout square).
 
@@ -112,8 +112,8 @@ Let $\underline{G} = \{G_n,p^m_n\}$ be an inverse sequence of groups (aka _tower
 Grossman gave an alternative construction of $\mathcal{P}(\underline{G})$ for any tower of groups (or, in fact,  any tower of sets, $\underline{X}$).  This involves the [[reduced product]].
 
 
-
-
+##Relationship with the Milnor sequence
+ 
 
 
 ##References##
