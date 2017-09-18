@@ -3,9 +3,9 @@ In [[physics]]:
 
 * [[field (physics)]] [[theory (physics)]]
 
-* [[prequantum field theory]]
-
 * [[classical field theory]]
+
+* [[prequantum field theory]]
 
 * [[quantum field theory]]
 
