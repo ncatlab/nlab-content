@@ -48,7 +48,7 @@ $$
 
 By construction this is such that $E_\bullet(\ast) \simeq R$. But this functor may fail to satisfy the axioms of a [[generalized homology theory]], hence may fail to be [[Brown representability theorem|Brown represented]] by an actual [[spectrum]] $E$.
 
-Landwever exactness is a sufficient condition on $R$ for $E \coloneqq MU_\bullet(-)\otimes_L R$ to be indeed a [[generalized homology theory]]
+Landweber exactness is a sufficient condition on $R$ for $E \coloneqq MU_\bullet(-)\otimes_L R$ to be indeed a [[generalized homology theory]]
 (e. g. [Lurie, lect 15, theorem 9](#LurieLecture15)).
 
 Notice that if it is, then the canonical map
