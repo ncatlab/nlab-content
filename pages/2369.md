@@ -45,6 +45,9 @@ But beware that this terminology, in turn, is often abbreviated again to just "r
 
 ## Reference
 
+* {#Adams74} [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
+
+
 Survey includes
 
 * {#Malkiewich14} [[Cary Malkiewich]], section 1.3 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
