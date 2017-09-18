@@ -229,7 +229,7 @@ A [[continuous map]] $f : X \to Y$ induces the obvious functor $f^{-1} : Op(Y) \
 Hence presheaves canonically push-forward
 
 $$
-  f^{-1}_* : PSh(X) \to PSh(Y)
+  f_* : PSh(X) \to PSh(Y)
 $$
 
 They do not in the same simple way pull back, since images of open subsets need not be open. The Kan extension  computes the best possible approximation:
