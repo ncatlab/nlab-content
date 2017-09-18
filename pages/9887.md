@@ -296,7 +296,35 @@ $$
 hence an element in $[\mathbb{S}, \Sigma^\infty(B U(1)_+)]_2$.
 
 
-#### The morphism to $K U$
+#### The map to the K-theory spectrum
+ {#MapToKTheorySpacetum}
+
+
+The [[spectrum]] [[KU]] which [[Brown representability theorem|represents]]  complex [[topological K-theory]]
+has in degree 0 the the [[product space]]
+
+$$
+  \Omega^\infty KU \simeq B U \times \mathbb{Z} \in Ho(Top^{\ast/})
+$$
+
+of the stable [[classifying space]] $B U$ for [[complex vector bundles]] and the [[integers]]. The base point is $(\ast, 0)$.
+
+The [[projection]]
+
+$$
+  B U \times \mathbb{Z} \longrightarrow \mathbb{Z}
+$$
+
+classifies the virtual [[rank of a vector bundle|rank]] of [[virtual vector bundle]].
+
+Hence the inclusion of classifying spaces
+
+$$
+  B U \simeq B U \times \{0\} \hookrightarrow  B U \times \mathbb{Z}
+$$
+
+classifies the inclusion $\tilde K_{\mathbb{C}}(-) \hookrightarrow K_{\mathbb{C}}(-)$ of [[reduced K-theory]].
+
 
 There is a canonical morphism
 
@@ -306,25 +334,26 @@ $$
   K U
 $$
 
-in $Ho(Spectra)$, being the $(\Sigma^\infty \dashv \Omega^\infty)$-[[adjunct]] of 
+in $Ho(Spectra)$, being the $(\Sigma^\infty \dashv \Omega^\infty)$-[[adjunct]] of
 
 $$
   B U(1)_+ \longrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
 $$
 
-in $Ho(Top^{\ast/})$, which in turn comes from the canonical 
+in $Ho(Top^{\ast/})$, which in turn is the $((-)_+ dashv U)$-[[adjunct]] of the canonical
 
 $$
   \mathcal{O}(1) \;\colon\; B U(1) \longrightarrow B U \simeq B U \times \{1\} \hookrightarrow B U \times \mathbb{Z}
-  \,.
 $$
 
-Since the [[formal group law]] for K-theory says that $\mu^\ast ( \mathcal{O}(1) ) \simeq pr_1^\ast (\mathcal{O}(1)) \otimes pr_2^\ast(\mathcal{O}(2))$ this is a homomoprhism of ring spectra.
+in $Ho(Top)$.
 
-Under the above splitting the morphism $\Phi$ decomposes as
+Since the [[formal group law]] for K-theory says that $\mu^\ast ( \mathcal{O}(1) ) \simeq pr_1^\ast (\mathcal{O}(1)) \otimes pr_2^\ast(\mathcal{O}(2))$ $\Phi$ is  a homomoprhism of ring spectra.
+
+Under the above splitting, the morphism $\Phi$ decomposes as
 
 $$
-  \Phi  
+  \Phi
     \;\colon\;
   \Sigma^\infty (B U(1)_+)
     \simeq
@@ -333,19 +362,23 @@ $$
   KU
 $$
 
-Here $\tilde i$ must take the first wedge summand to a the class of a virtual bundle of vanishing
-virtual rank and $e_{KU}$ must takes the second summand to an integer.
+Since, by the above, morphisms $\Sigma^\infty B U(1) \longrightarrow K U$ in $Ho(Spectra)$,
+hence equivalently morphisms $B U(1) \longrightarrow B U \times \mathbb{Z}$ in $Ho(Top^{\ast/})$,
+hence equivalently morphisms $B U(1) \to B U$ in $Ho(Top)$  correspond to the reduced K-theory of 
+$B U(1)$, and since morphisms $\mathbb{S} \to KU$ in $Ho(Spectra)$, hence equivalently morphism $\ast \to B U \times \mathbb{Z}$
+in $Ho(Top)$ correspond to the K-theory of the point, and since over (colimits of) [[compact topological spaces]]
+K-theory splits as $K(X) \simeq \tilde K(X) \oplus K(\ast)$ via $[E]- n \mapsto ([E] - rk(E)) + ( rk(E) - n )$ 
+([this prop](topological+K-theory#KGrupDirectSummandReducedKGroup)) it follows that
 
-This implies that $\tilde i$ is the $(\Sigma^\infty \dashv \Omega^\infty)$-[[adjunct]] of the map 
-that takes a line bundle to its class in reduced K-theory
+1. $\tilde i$ takes the canonical line bundle $\mathcal{O}(1)$ on $B U(1)$ to its image $\mathcal{O}(1)-1$ in reduced K-theory
 
-$$
-  B U(1) \overset{\mathcal{O}(1) \mapsto (\mathcal{O}(1)-1)}{\longrightarrow} B U \simeq B U \times \{0\} \hookrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
-$$
+   $$
+     B U(1) \overset{\mathcal{O}(1) \mapsto (\mathcal{O}(1)-1)}{\longrightarrow} B U \simeq B U \times \{0\} \hookrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
+   $$
 
-whereas $e_{K U}$ is the ring spectrum unit of $K U$.
+1. $e_{K U$ is adjunct to $\ast \simeq (\ast,1) \hookrightarrow B U \times \mathbb{Z}$ ( is the ring spectrum unit of $K U$).
 
-Now observe that $\Phi$ takes multiplication by $\beta$ to multiplication with the [[Bott element]] $(n-1)$:
+Now observe that $\Phi$ takes multiplication by $\beta$ to multiplication with the [[Bott element]] $(h-1)$:
 
 This is because multiplication by $\beta$ is the outer right boundary of the following diagram
 
@@ -370,7 +403,7 @@ $$
 $$
 
 and since the bottom square commutes (since tensor product of line bundles corresponds to their product in K-theory)
-this is equivalent to the left and bottom boundary, which, by the above discussion, is multiplication with the 
+this is equivalent to the left and bottom boundary, which, by the above discussion, is multiplication with the
 [[Bott element]] $(h-1)$.
 
 Since the Bott element is invertible in $K U$, this means that the above morphism [[extension|extends]] to the quotient (...say what this is...)
@@ -379,7 +412,7 @@ $$
   \array{
     \Sigma^\infty( B U(1)_+ ) &\overset{\Phi}{\longrightarrow}& K U
     \\
-    \downarrow & & \nearrow_{\mathrlap{\exists \Phi}}
+    \downarrow & \nearrow_{\mathrlap{\exists \Phi}}
     \\
     \Sigma^\infty( B U(1)_+ )[\beta^{-1}]
   }
@@ -395,7 +428,7 @@ $$
 The morphism
 
 $$
-  \Phi 
+  \Phi
     \;\colon\;
   \Sigma^\infty ( B U(1)_+ )[\beta^{-1}]
     \longrightarrow
