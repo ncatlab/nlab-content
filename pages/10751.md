@@ -26,7 +26,11 @@ The [[category]] of _S-modules_ ([EKMM 97](#EKMM97)) is a [[presentable (∞,1)-
 
 ## Related concepts
 
-[[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
+[[model structure on spectra]]
+
+* [[sequential spectrum]], [[model structure on sequential spectra]]
+
+with [[symmetric monoidal smash product of spectra]]
 
 * [[symmetric spectrum]], [[model structure on symmetric spectra]]
 
@@ -34,6 +38,7 @@ The [[category]] of _S-modules_ ([EKMM 97](#EKMM97)) is a [[presentable (∞,1)-
 
 * [[S-module]], **model structure on S-modules**
 
+* [[excisive functor]], [[model structure on excisive functors]]
 
 
 ## References
