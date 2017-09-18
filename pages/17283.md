@@ -1209,6 +1209,8 @@ Therefore also the top morphism is an iso.
 
 ## Related concepts
 
+* [[Hopf E-infinity-algebra]]
+
 * [[Deligne's theorem on tensor categories]]
 
 
