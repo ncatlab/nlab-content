@@ -23,9 +23,11 @@
 
 ## Idea
 
-In general a _Freund-Rubin compactification_ ([Freund-Rubin 80](#FreundRubin80)) is a [[Kaluza-Klein compactification]] of a theory of [[gravity]] coupled to [[gauge fields]] or more generally [[higher gauge fields]] with flux ([[field strength]]) on the compact [[fiber]] spaces such that the result is stable (an example of [[moduli stabilization]] via [[flux compactification]]).
+In general a _Freund-Rubin compactification_ ([Freund-Rubin 80](#FreundRubin80)) is a [[Kaluza-Klein compactification]] of a theory of [[gravity]] coupled to [[gauge fields]] or more generally [[higher gauge fields]] with [[flux]] ([[field strength]]) on the compact [[fiber]] spaces such that the result is stable (an example of [[moduli stabilization]] via [[flux compactification]]).
+
+One example are [[Kaluza-Klein compactifications]] of 6d [[Einstein-Maxwell theory]] with [[magnetic flux]] on a 2-dimensional [[fiber]] space ([[sphere]] or [[torus]]) ([RDSS 83](#RDSS83)). This serves these days as a toy example for [[flux compactifications]] and [[moduli stabilization]] in [[string theory]].
  
-In the [[string theory]] literature often _the Freund-Rubin compactification_ refers to a [[Kaluza-Klein mechanism|Kaluza-Klein compactification]] of [[11-dimensional supergravity]] on a [[manifold]] $X_7$  of [[dimension]] 7 (in the original [[model (in theoretical physics)|model]] a round 7-[[sphere]]) with non-vanishing constant 4-form [[field strength]] ("flux") of the [[supergravity C-field]] in the remaining four dimensional [[anti-de Sitter spacetimes]] $AdS_4$.
+In the [[string theory]] literature often _the Freund-Rubin compactification_ refers by default to a [[Kaluza-Klein mechanism|Kaluza-Klein compactification]] of [[11-dimensional supergravity]] on a [[manifold]] $X_7$  of [[dimension]] 7 (in the original [[model (in theoretical physics)|model]] a round 7-[[sphere]]) with non-vanishing constant 4-form [[field strength]] ("flux") of the [[supergravity C-field]] in the remaining four dimensional [[anti-de Sitter spacetimes]] $AdS_4$.
 
 If $X_7$ has [[weak G2 holonomy]] with weakness parameter/[[cosmological constant]] $\lambda$ the scale of the flux, then this yields $N = 1$ [[supersymmetry]] in the [[effective QFT]] in four dimensions, discussed at _[[M-theory on G2-manifolds]]_. The [[KK-reduction]] on the circle fiber of these solutions to [[type IIA supergravity]] yields type IIA sugra on [[complex projective space]] $\mathbb{C}P^3$ ([Nilsson-Pope 84](#NilssonPope84), [ABJM 08](#ABJM08))
 
@@ -44,6 +46,13 @@ If $X_7 = S^7/G_{ADE}$ is an [[orbifold]] of the round [[7-sphere]] by an finite
 The original article is 
 
 * {#FreundRubin80} [[Peter Freund]] and M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B 97, 233 (1980).
+
+The class of Freund-Rubin compactifications of 6d [[Einstein-Maxwell theory]] down to 4d is due to
+
+*  {#RDSS83} S. Randjbar-Daemi, [[Abdus Salam]] and J. A. Strathdee, _Spontaneous Compactification In Six-Dimensional Einstein-Maxwell Theory_, Nucl. Phys. B 214, 491 (1983) ([spire](https://inspirehep.net/record/182427/))
+
+now a popoular toy example for [[flux compactifications]] and [[moduli stabilization]] in [[string theory]].
+
 
 A detailed textbook account is in
 
