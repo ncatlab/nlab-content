@@ -44,13 +44,13 @@ A **simplicial set** $S \in sSet$ is
 
 * for each $n \in \mathbb{N}$ a [[set]] $S_n \in Set$ -- the **set of $n$-[[simplices]]**;
 
-* for each [[injective map]] $\delta_i : \overline{n-1} \to \overline{n}$ of [[totally ordered sets]] $\bar n \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$
+* for each [[injective map]] $\;\delta_i :\: [n-1] \to [n]\;$ of [[totally ordered sets]] ($[n] \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$)
 
-  a [[function]] $d_i : S_{n} \to S_{n-1}$ -- the $i$th **face map** on $n$-simplices;
+  a [[function]] $\;d_i :\: S_{n} \to S_{n-1}\;$ -- the $i$th **face map** on $n$-simplices ($n \gt 0$ and $0 \leq i \leq n$);
 
-* for each [[surjective map]] $\sigma_i : \overline{n+1} \to \bar n$ of [[totally ordered sets]]
+* for each [[surjective map]] $\;\sigma_i :\: [n+1] \to [n]\;$ of totally ordered sets
 
-  a [[function]] $\sigma_i : S_{n} \to S_{n+1}$ -- the $i$th **degeneracy map** on $n$-simplices;
+  a function $\;\sigma_i :\: S_{n} \to S_{n+1}\;$ -- the $i$th **degeneracy map** on $n$-simplices ($n \geq 0$ and $0 \leq i \leq n$);
 
 such that these functions satisfy the _[[simplicial identities]]_.
 
