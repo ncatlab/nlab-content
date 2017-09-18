@@ -170,7 +170,9 @@ Many categorical properties of interest are preserved by one or more of the regu
 
 * If $C$ has a [[natural numbers object]], then so do $C_{reg/lex}$ and $C_{ex/lex}$.  (Does $C_{ex/reg}$?  What about more general [[W-type]]s?)
 
-* $C_{ex/lex}$ is an [[elementary topos]] iff $C$ has weak dependent products and a [[generic proof]] (Menni 2000).  Note that if $C$ is a topos satisfying the axiom of choice, then its subobject classifier is a generic proof.  It follows that in this case $C_{ex/lex}$ is a topos---but we already knew that, because $C_{ex/lex}$ is equivalent to $C$ for such a $C$.
+* $C_{ex/lex}$ is an [[elementary topos]] iff $C$ has weak dependent products and a [[generic proof]] ([Menni2000](#Menni)).  Note that if $C$ is a topos satisfying the axiom of choice, then its subobject classifier is a generic proof.  It follows that in this case $C_{ex/lex}$ is a topos---but we already knew that, because $C_{ex/lex}$ is equivalent to $C$ for such a $C$.
+
+* Expanding on the last point, for a [[presheaf topos]] $C = Set^{D^{op}}$, the category $C_{ex/lex}$ is a topos iff $D$ is a [[groupoid]] ([Menni2000](#Menni)). 
 
 * If $C$ is regular, locally cartesian closed, and has a *generic mono*, i.e. a monomorphism $\tau\colon \Upsilon\to \Lambda$ such that every monomorphism is a pullback of $\tau$ (not necessarily uniquely), then $C_{ex/reg}$ is a topos (Menni 2000).
 
