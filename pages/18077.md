@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -12,7 +12,8 @@ $$
   \,.
 $$
 
-In [[classical mathematics]], this is simply true.  In [[constructive mathematics]], it is equivalent to the law of [[excluded middle]], and is not assertable in general.
+In [[classical logic]], this is simply true.  In [[constructive logic]], it is equivalent to the law of [[excluded middle]] (because $\not \not (P \vee \not P)$ is a constructive theorem), and is not assertable in general.
+
 
 ## Related concepts
 
@@ -20,6 +21,11 @@ In [[classical mathematics]], this is simply true.  In [[constructive mathematic
 
 * [[closed subspace]]
 
+
 ## References
 
 * [[eom]] _[Double negation, law of](https://www.encyclopediaofmath.org/index.php/Double_negation,_law_of)_
+
+
+[[!redirects law of double negation]]
+[[!redirects double negation law]]
