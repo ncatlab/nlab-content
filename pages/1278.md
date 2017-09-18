@@ -443,7 +443,7 @@ with further reviews including
 
 * [[Richard Szabo]], _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
 
-Fairly comprehensive lecture notes on subsuming the developments up to this stage include
+Comprehensive lecture notes on the developments up to this stage are in
 
 * {#Bunke12} [[Ulrich Bunke]], _Differential cohomology_ ([arXiv:1208.3961](http://arxiv.org/abs/1208.3961))
 
