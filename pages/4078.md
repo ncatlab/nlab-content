@@ -19,7 +19,7 @@ For $n=2$, i.e. in a complex plane, this still holds for (the group of) global c
 
 ### Of $\mathbb{R}^{d,t}$
 
-For $d,t \in \mathbb{N}$ write $\mathbb{R}^{d,1}$ for the [[pseudo-Riemannian manifold]] which is the [[Cartesian space]] $\mathbb{R}^{d+t}$ equipped with the constant metric of [[signature of a quadratic form|signator]  $(d,t)$. I.e. for $t = 0$ this is [[Euclidean space]] and for $t=1 $ this is [[Minkowski spacetime]]. 
+For $d,t \in \mathbb{N}$ write $\mathbb{R}^{d,t}$ for the [[pseudo-Riemannian manifold]] which is the [[Cartesian space]] $\mathbb{R}^{d+t}$ equipped with the constant metric of [[signature of a quadratic form|signature]]  $(d,t)$. I.e. for $t = 0$ this is [[Euclidean space]] and for $t=1 $ this is [[Minkowski spacetime]]. 
 
 If $d+t \gt 2$ then the conformal group of $\mathbb{R}^{d,t}$ is the [[orthogonal group]] $P(d+1, t+1)/\{\pm 1\}$. The [[connected component]] of the neutral element is the [[special orthogonal group]] $SO(d+1,t+1)$. (e.g [Schottenloher 08, chapter 2, theorem 2.9](#Schottenloher08)).
 
