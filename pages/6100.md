@@ -22,7 +22,7 @@
 What is called _geometric realization of categories_ is a [[functor]] that sends [[categories]] to [[topological spaces]], namely the functor which first forms the [[simplicial set]] $N(\mathcal{C})$ that is the [[nerve]] of the category $\mathcal{C}$, and then forms the [[geometric realization]] ${\vert N(\mathcal{C})\vert}$ of this simplical set. Typically one is interested in this geometric realization up to [[weak homotopy equivalence]].
 
 By the [[homotopy hypothesis]]-theorem the [[geometric realization]] of simplicial sets constitutes a ([[Quillen equivalence|Quillen]])[[equivalence of (infinity,1)-categories|equivalence]] between the [[classical model structure on simplicial sets|classical homotopy theory of simiplicial sets]] and the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]]. 
-This means that in as far as one is interested in geometric realization of categories up to weak homotopy equivalence, then the key part of the operation is in forming the simplicial nerve $N(\mathcal{C})$ of a category, with the latter regarded as a model for an [[∞-groupoid]]. Indeed, equivalently one could consider the [[Kan fibrant replacement]] of the nerve $N(\mathcal{C})$ (which still has the same geometric realization, up to weak homotopy equivalence).
+This means that inasmuch as one is interested in geometric realization of categories up to weak homotopy equivalence, then the key part of the operation is in forming the simplicial nerve $N(\mathcal{C})$ of a category, with the latter regarded as a model for an [[∞-groupoid]]. Indeed, equivalently one could consider the [[Kan fibrant replacement]] of the nerve $N(\mathcal{C})$ (which still has the same geometric realization, up to weak homotopy equivalence).
 
 Therefore an equivalent perspective on geometric realization of categories is that it universally turns a category into an [[infinity-groupoid]] by freely turning all its morphisms into [[equivalence in an (infinity,1)-category|homotopy equivalences]].
 
@@ -31,7 +31,7 @@ Geometric realization of categories has various good properties:
 
 It sends [[equivalences of categories]] to [[weak homotopy equivalences]] (corollary \ref{RealizationOfEquivalenceIsHomotopyEquivalence} below).  A more general sufficient criterion for the geometric realization of a functor is given  by the seminal theorem known as _Quillen's theorem A_ (theorem \ref{QuillenTheoremA} below.)
 
-The existence of the [[Thomason model structure]] ([below](#ThomasonModelStructure)) implies that every [[homotopy type]] arises as the geometric realization of some category. In fact it arises alrady as the geometric realization of some [[poset]] ([[(0,1)-category]]).
+The existence of the [[Thomason model structure]] ([below](#ThomasonModelStructure)) implies that every [[homotopy type]] arises as the geometric realization of some category. In fact it already arises as the geometric realization of some [[poset]] ([[(0,1)-category]]).
   
 ## Definition
 
@@ -49,7 +49,7 @@ $$
 
 for the [[geometric realization]] of [[simplicial sets]] from [[sSet]] to [[Top]].
 
-The _geometric realization of categories_ is the [[composition|composite]] of these two operstions:
+The _geometric realization of categories_ is the [[composition|composite]] of these two operations:
 
 $$
   {\vert - \vert} \coloneqq {\vert N(-)\vert} \;\colon\; Cat \to Top
@@ -88,7 +88,7 @@ $$
 
 
 
-### Recognizing weak equivalences: Quillens theorem A and B
+### Recognizing weak equivalences: Quillen's theorem A and B
 
 Let $\mathcal{C}, \mathcal{D}$ be two [[categories]] and let
 
