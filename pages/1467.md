@@ -16,7 +16,7 @@
 ## Idea
  {#Idea}
 
-A [[topological space]] (or more #generally: a [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "[[closed space|closed]] and [[bounded set|bounded]]": every [[net]] must [[accumulation point|accumulate]] somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. 
+A [[topological space]] (or more generally: a [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "[[closed space|closed]] and [[bounded set|bounded]]": every [[net]] must [[accumulation point|accumulate]] somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. 
 
 There is also a notion of compactness for [[locales]]. Observe that (using [[classical logic]]) already every [[locally compact locale]] is [[spatial locale|spatial]] ([this prop.](locally+compact+locale#UsingClassicalLogicLocallyCompactLocaleIsSpatial)).
 
@@ -83,6 +83,8 @@ Assuming [[excluded middle]], then the following are equivalent:
    
 1. Let $\{C_i \subset X\}_{i \in I}$ be a set of [[closed subsets]] such that it enjoys the  _[[finite intersection property]]_, meaning that for every [[finite set|finite]] [[subset]] $J \subset I$ then the corresponding finite intersection is [[inhabited set|non-empty]] $\underset{i \in J \subset I}{\cap} C_i \neq \emptyset$. Then also the total intersection is [[inhabited set|inhabited]], $\underset{i \in I}{\cap} C_i \neq \emptyset$.
 
+1. {#ClosedProjectionCharacterization} For every topological space $(Y,\tau_Y)$ the [[projection]] map out of the [[product topological space]] $\pi_Y \;\colon\; (X \times Y, \tau_{X \times Y}) \to (Y, \tau_Y)$ is a [[closed map]].
+
 =--
 
 +-- {: .proof}
@@ -92,7 +94,9 @@ The equivalence of the first two statements follows by [[de Morgan's law]] ([[co
 
 Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]]. Write $C_i \coloneqq X \backslash U_i$ for the corresponding closed complements. By [[de Morgan's law]] the condition that $\underset{i \in I}{\cup} U_i = X$ is equivalent to $\underset{i \in I}{\cap} C_i = \emptyset$. The second statement is that there is then a finite subset $J \subset I$ such that also $\underset{i \in J \subset I}{\cap} C_i = \emptyset$, and under forming complements again this is equivalently the first statement.
 
-Finally, statement 3 is the [[contraposition]] of the second, and contrapositives are equivalent under [[excluded middle]].
+Then statement 3 is the [[contraposition]] of the second, and contrapositives are equivalent under [[excluded middle]].
+
+The proof of the equivalence of the third is discussed at _[[closed-projection characterization of compactness]]_.
 
 =--
 
@@ -148,6 +152,7 @@ Compactness is equivalent to the condition of being "stably closed" (and it is t
 
 +-- {: .num_defn #projection}
 ###### Definition
+**([[closed-projection characterization of compactness]])**
 
 $X$ is compact iff for any space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[Cartesian product]] is [[closed map|closed]] (see e.g. [Milne, section 17](#Milne)).
 
