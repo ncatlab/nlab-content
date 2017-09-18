@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -119,7 +119,7 @@ This appears for instance as corollary 1.26 in
 
 ### Rational $n$-sphere 
 
-The **rational $n$-sphere** $(S^n)_0$ can be written as
+The **[[rational n-sphere]]** $(S^n)_0$ can be written as
 
 $$
   (S^n)_0  :=
@@ -144,6 +144,17 @@ $$
 $$
 
 that picks any representative of the degree $n$-cohomology of $S^{n}$ is a [[quasi-isomorphism]].
+
+For $n = 2k$ with $k \geq 1$ there is a second generator $c_{4k+1}$ with differential
+
+
+$$
+  d c_{2k} = 0
+$$
+$$
+  d c_{4k-1} = c_{2k} \wedge c_{2k}
+ \,.
+$$
 
 ### Rational $n$-disk 
 
@@ -199,6 +210,7 @@ See
 
 * Vitali Kapovitch, _A note on rational homotopy of biquotients_ ([pdf](http://www.math.utoronto.ca/vtk/biquotient.pdf))
 
+[[!redirects rational topological spaces]]
 
 [[!redirects rational space]]
 [[!redirects rational spaces]]
