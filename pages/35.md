@@ -188,8 +188,12 @@ Then these three (2,1)-categories are  all [[equivalent]] to each other. For a n
 
 ## Morphisms of Lie algebroids
 
+Morphisms of Lie algebroids are counter-intuitive: they are not morphisms of vector bundles which preserve the algebroid structure. To define a Lie algebroid, we first need to introduce the _Chevalley-Eilenberg algebra_ associated to a Lie algebroid $A$.
 
-
+We consider $A$ to be a trivially graded vector bundle, i.e. concentrated in degree $0$. Then $A[1]$ is concentrated in degree $-1$.
+The functions on $A[1]$ are given as
+$$C(A[1])=C^\infty(M)\oplus \Gamma(A^*)\oplus \Gamma(\wedge^2 A^*)\oplus ...,$$
+where $C^\infty(M)$ is considered to be of degree $0$, $\Gamma(A^*)$ to be of degree $1$, and so forth.
 
 ## Higher Lie groupoids
 
