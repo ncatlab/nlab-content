@@ -21,7 +21,7 @@
 
 ## Idea
 
-The notion of _super smooth $\infty$-groupoid_ or _super smooth [[geometric homotopy type]]_ is the combination of _[[super ∞-groupoid]]_ and _[[smooth ∞-groupoid]]_. The [[cohesive (∞,1)-topos]] of smooth super-$\infty$-groupoids is a context that realizes [[higher geometry|higher]] [[supergeometry]].
+The concept of _super smooth $\infty$-groupoid_ or _super smooth [[geometric homotopy type]]_ is the combination of _[[super ∞-groupoid]]_ and _[[smooth ∞-groupoid]]_. The [[cohesive (∞,1)-topos]] of smooth super-$\infty$-groupoids is a context that realizes [[higher geometry|higher]] [[supergeometry]].
 
 Super smooth $\infty$-groupoids include
 [[supermanifolds]], [[super Lie groups]] and their [[deloopings]] etc. Under [[Lie differentiation]] these map to [[super L-∞ algebras]].
@@ -31,13 +31,16 @@ Super smooth $\infty$-groupoids include
 
 We consider one of at least two possible definitions, that differ (only) in some fine technical detail. The other is at _[[smooth super infinity-groupoid]]_.
 
++-- {: .num_defn}
+###### Definition
+
 Write 
 
 * [[CartSp]] for the site of [[Cartesian spaces]];
 
-* $InfPoint \coloneqq WAlg^{op}$ for the category of [[infinitesimally thickened points]], [[abstract duality|formal duals]] of [[commutative algebras]] over the [[real numbers]] of the form $\mathbb{R}\oplus V$ with $V$ a finite-dimensional [[nilpotent ideal]].
+* $InfPoint \coloneqq WAlg^{op}$ for the category of first-order [[infinitesimally thickened points]] (i.e. the [[abstract duality|formal duals]] of [[commutative algebras]] over the [[real numbers]] of the form $\mathbb{R}\oplus V$ with $V$ a finite-dimensional  square-0 [[nilpotent ideal]]).
 
-* $SuperPoint \coloneqq WAlg_{super}^{op}$ for the formal dual of the category of [[superalgebras]] of the above form.
+* $SuperPoint \coloneqq WAlg_{super}^{op}$ for the category of [[superpoints]] (i.e. formal dual of [[Grassmann algebras]], hence commutative [[superalgebras]] of the above form).
 
 There are then "semidirect product" sites $CartSp \rtimes InfinPoint$ and $CartSp \rtimes SuperPoint$ (whose objects are [[Cartesian products]] of the given form inside [[synthetic differential supergeometry]] and whose morphisms are all morphisms in that context (not just the product morphisms)).
 
@@ -54,6 +57,9 @@ $$
 $$
 
 for that of super smooth $\infty$-groupoid
+
+=--
+
 
 ## Properties
 
@@ -170,7 +176,7 @@ $$
   }
 $$
 
-where "$\vee$" denotes inclusion of [[modal types]].
+where "$\vee$" denotes inclusion of [[modal types]]. The first level is [[cohesion]], the second is [[differential cohesion]] ([[elasticity]]), the third is a further refinement given by supergeometry, which takes further "square roots" of all infinitesimal generators.
 
 =--
 
