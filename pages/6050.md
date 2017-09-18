@@ -1,17 +1,18 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Differential geometry
+### Context
+#### Variational calculus
++-- {: .hide}
+[[!include variational calculus - contents]]
+=--
+#### Riemannian geometry
 +--{: .hide}
-[[!include synthetic differential geometry - contents]]
-=--
-#### Equality and Equivalence
-+--{: .hide}
-[[!include equality and equivalence - contents]]
+[[!include Riemannian geometry - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -22,11 +23,28 @@
 For $(X,g)$ a [[pseudo-Riemannian manifold]] and $\Box : C^\infty(X) \to C^\infty(X)$ its [[Laplace operator]], the **wave equation** on $X$ is the [[differential equation]]
 
 $$
-  \Box f = 0
+  \Box_g f = 0
   \,.
 $$
 
-where $\Box$ denotes the _wave operator_ /[[Laplace operator]], a [[hyperbolic differential operator]].
+where $\Box_g$ denotes the _wave operator_ /[[Laplace operator]], a [[hyperbolic differential operator]].
+
+For $m \in \mathbb{R}$ the inhomogoenous equation
+
+$$
+  \Box_g f = m^2 f
+$$
+
+is called the _[[Klein-Gordon equation]]_.
+
+## Properties
+
+### Fundamental solution
+
+On a [[globally hyperbolic spacetime]] the wave equation/Klein-Gordon equation has unique advanced and retarded [[Green functions]].  
+
+Their difference is the [[Peierls bracket]] which gives the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|free]] [[scalar field]].  This in turn defines the [[Wick algebra]] of the free scalar field, which yields the [[quantization]] of the free scalar field to a [[quantum field theory]].
+
 
 ## Related concepts
 
