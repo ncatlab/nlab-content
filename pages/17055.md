@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Goodwillie calculus
++--{: .hide}
+[[!include Goodwillie calculus - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[Goodwillie calculus]] an [[(∞,1)-functor]] is called _analytic_ if it behaves in [[analogy]] with an [[analytic function]] in that it its [[Goodwillie-Taylor tower]] converges to it.
+
+## References
+
+* [[Tom Goodwillie]], section 3 of _The differential calculus of homotopy functors_ ([pdf](http://math.mit.edu/~nrozen/juvitop/goodwillie-icm.pdf))
+
+[[!redirects analytic (∞,1)-functors]]
+
+[[!redirects analytic (infinity,1)-functor]]
+[[!redirects analytic (infinity,1)-functors]]
+
+[[!redirects analytic functor]]
+[[!redirects analytic functors]]
