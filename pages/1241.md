@@ -29,6 +29,10 @@ Since no GUT model has been fully validated yet (but see for instance [Fong-Melo
 
 (Here it is important to remember the context, both "grand unified" and "of everything" refers to aspects of presently available models of fundamental physics, and not to deeper philosophical questions of [[ontology]].)
 
+## Relation to neutrino masses
+
+The high energy scale required by a [[seesaw mechanism]] to produce the experimentally observer [[neutrino]] masses happens to be about the convetional GUT scale, for review see for instance ([Mohapatra 06](#Mohapatra06)).
+
 ## Related concepts
 
 * [[theory of everything]]
