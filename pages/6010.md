@@ -30,6 +30,8 @@ An _[[embedding]] of [[smooth manifolds]]_ is a [[smooth function]] $f : X \hook
 
 1. the underlying [[continuous function]] is an [[embedding of topological spaces]].
 
+A _closed embedding_ is an embedding such that the image $f(X) \subset Y$ is a [[closed subset]].
+
 =--
 
 
@@ -64,23 +66,31 @@ As a concrete examples, consider the function  $(sin(2-), sin(-)) \;\colon\; (-\
 
 ### Basic properties
 
-+-- {: .num_prop}
++-- {: .num_prop #ProperInjectiveImmersionsAreEquivalentlyTheClosedEmbeddings}
 ###### Proposition
 **(proper injective immersions are equivalently the closed embeddings)**
 
 Let $X$ and $Y$ be [[smooth manifolds]], and let $f \colon X \to Y$ be a [[smooth function]]. Then the following are equivalent
 
-1. $f$ is a [[proper map|proper]][[injective function|injective]]  [[immersion]];
+1. $f$ is a [[proper map|proper]] [[injective function|injective]]  [[immersion]];
 
-1. $f$ is a closed embedding.
+1. $f$ is a closed embedding (def. \ref{SmoothManifoldsEmbedding}).
 
 =--
 
-(...)
++-- {: .proof}
+###### Proof
 
+Since topological manifolds are [[locally compact topological spaces]] ({this example](locally+compact+topological+space#TopologicalManifoldsAreLocallyCompact)), this follows directly since [injective proper maps into locally compact spaces are equivalently closed embeddings](embedding+of+topological+spaces#InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings).
+
+=--
 
 ### Embedding into Euclidean space
  {#EmbeddingIntoEuclideanSpace}
+
+Every smooth manifold has a [[embedding of smooth manifolds]] into a [[Euclidean space]] $\mathbb{R}^k$ of some dimension $k$.
+
+For _[[compact topological space|compact]]_ smooth manifolds this is easy to see (prop. \ref{CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace} below), while the generalization to non-compact smooth manifolds requires a tad more work (theorem \ref{theorema} below). What is non-trivial is to find the minimum dimension of the ambient Euclidean space for which embedding in general still exist. The _[[Whitney embedding theorem]]_ (prop. \ref{WhitneyStrongEmbeddingTheorem} below) says that this is twice the dimension of the manifolds to be embedded.
 
 +-- {: .num_example #CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace}
 ###### Proposition
