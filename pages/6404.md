@@ -56,6 +56,12 @@ On the other hand, the enhanced _global_ [[supersymmetry]] of [[target space]] i
 
 Similar comments apply to [[type II superstring theory]], where $N=1$ target space supersymmetry enhanced the worldheet symmetry from $N=(1,1)$ to $N=(2,2)$. This is reflected notably in the [[mirror symmetry]] of the targt Calabi-Yau manifolds.
 
+### Non-perturbative description
+
+The above analysis in [[string perturbation theory]] is expected to find a non-perturbative lift to [[M-theory]]/[[F-theory]]. Under this lift, compactification on a Calabi-Yau complex-3-fold (CY3) lifts to compactification on a [[G2-manifold]]/CY4-fold, respectively:
+
+[[!include N=1 susy compactifications -- table]]
+
 ## Related concepts
 
 * [[supergravity]], [[supersymmetry]]
