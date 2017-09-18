@@ -23,7 +23,13 @@
 
 It is common in informal language to speak of mathematical objects "equipped with extra structure" of some sort. The archetypical examples are [[algebras over a Lawvere theory]] in [[Set]]: these are [[sets]] equipped with the structure of certain algebraic operations. For instance a [[group]] $(G, e, {\cdot})$ is a [[set]] $G$ equipped with a binary operation ${\cdot} : G \times G \to G$, etc.
 
-One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[faithful functor]] $D \to C$.
+{#InCategoryTheory} One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[functor]] $p \colon D \to C$ which satisfies the following conditions ([Adamek-Rosicky-Vitale, remark 13.18](#AdamekRosickyVitale)):
+
+1. $p$ is a [[faithful functor]];
+
+1. $p$ is an [[amnestic functor]] ($p$-vertical [[isomorphisms]] are [[identities]]),
+
+1. $p$ is an [[isofibration]].
 
 ## Notions of structure 
 
@@ -60,6 +66,8 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 * [[functions]] that preserves extra structure are called _[[homomorphisms]]_; [[relations]] that preserve extra structure are called _[[logical relations]]_
 
 * [[Birkhoff's HSP theorem]]
+
+* {#AdamekRosickyVitale} Adamek, Rosicky, Vitale, _Algebraic theories_
 
 [[!redirects structure]]
 [[!redirects structures]]
