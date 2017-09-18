@@ -30,6 +30,8 @@
 * table of contents
 {:toc}
 
+> Talking with Bill, I often feel like a fly buzzing around a cow. (It seems to me I can liken Bill to a cow, if I'm just a fly myself.) On any easy question, I'll probably see the answer first. But his thoughts seem to move on a level where I don't function, I can barely see down there. (From an [interview](http://at.yorku.ca/t/o/p/c/06.htm) with [[John Isbell]].)
+
 ## Overview
 
 F. William Lawvere 
@@ -55,7 +57,7 @@ For a (somewhat random) list of further links see also at "[conceptual mathemati
 
 ### Main contributions
 
-Lawvere invented [[categorical logic]] and introduced the eponymous [[Lawvere theories]] as a [[category theory|category-theoretic]] way to describe finitary [[algebraic theories]].  He generalised [[Grothendieck toposes]] to [[elementary toposes]], revolutionising the [[foundations]] of [[mathematics]]; in this vein, he developed the [[foundation]] in [[structural set theory]] called [[ETCS]].  He also introduced and worked on [[synthetic differential geometry]] as a foundation for [[differential geometry]] and [[equations of motion]] in [[continuum physics]]. Later he introdcued the notion of _[[cohesive topos]]_ as a more general foundation of [[geometry]]. 
+Lawvere invented [[categorical logic]] and introduced the eponymous [[Lawvere theories]] as a [[category theory|category-theoretic]] way to describe finitary [[algebraic theories]].  He generalised [[Grothendieck toposes]] to [[elementary toposes]], revolutionising the [[foundations]] of [[mathematics]]; in this vein, he developed the [[foundation]] in [[structural set theory]] called [[ETCS]].  He also introduced and worked on [[synthetic differential geometry]] as a foundation for [[differential geometry]] and [[equations of motion]] in [[continuum physics]]. Later he introduced the notion of _[[cohesive topos]]_ as a more general foundation of [[geometry]]. 
 
 
 
@@ -81,7 +83,7 @@ The title of the early text _[[Toposes of laws of motion]]_, which is often cite
 On this, in ([interview, p. 15](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)):
 
 
-> Q: As an assistant professor in Chicago, in 1967, you taught with Mac Lane a course on [[mechanics|Mechanics]], where you "started to think about the justication of older intuitive methods in geometry"7 You called it "[[synthetic differential geometry]]". How did you arrive at the program of [[Categorical dynamics|Categorical Dynamics]] and [[synthetic differential geometry|Synthetic Differential Geometry]]?
+> Q: As an assistant professor in Chicago, in 1967, you taught with Mac Lane a course on [[mechanics|Mechanics]], where you "started to think about the justification of older intuitive methods in geometry" You called it "[[synthetic differential geometry]]". How did you arrive at the program of [[Categorical dynamics|Categorical Dynamics]] and [[synthetic differential geometry|Synthetic Differential Geometry]]?
 
 > A: From January 1967 to August 1967 I was Assistant Professor at the University of Chicago. Mac Lane and I soon organized to teach a joint course based on Mackey's book "Mathematical Foundations of [[quantum mechanics|Quantum Mechanics]]". 
 
