@@ -199,14 +199,13 @@ Only part (a) needs further explanation...
 ## Related concepts
 
 * [[linear operator]]
-
 * [[bounded linear operator]] / **unbounded linear operator**
-
+* [[self-adjoint extension]]
 * [[operator algebra]]
 
 ## References
 
-* Konrad Schmuedgen, _Unbounded self-adjoint operators on Hilbert space_, Springer 2012
+* Konrad Schmuedgen, _Unbounded self-adjoint operators on Hilbert space_, Springer GTM 265, 2012
 
 Chapter VIII of the following classic volume is devoted to unbounded operators:
 
@@ -216,6 +215,7 @@ Nelson's example is taken from the above reference, the original reference is th
 
 * Edward Nelson: _Analytic Vectors_ Ann.Math. 70, p.572-615, 1959
 
+category: analysis
 
 [[!redirects unbounded operator]]
 [[!redirects unbounded operators]]
