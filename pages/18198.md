@@ -1,0 +1,10 @@
+
+## Related entries
+
+* [[Tychonoff theorem]]
+
+## References
+
+* Engelking, theorem 3.2.1.
+
+* [Math.SE discussion](https://math.stackexchange.com/questions/312845/taimanovs-extension-theorem-collecting-applications)
