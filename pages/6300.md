@@ -28,7 +28,7 @@ The definition of $E_\infty$-operads depends a bit on which [[presentable (∞,1
 
 * abstractly, in the [[(∞,1)-category]] of [[(∞,1)-operad]]s, the operad [[Comm]] itself already _is_ an $E_\infty$-operad, in that its [[∞-algebras over an (∞,1)-operad]] are [[E-∞ ring|E-∞ algebras]];
 
-* when presenting $(\infty,1)Operad$ by the [[model structure on operads]] for [[topological operad]]s, forming the homotopy-algebras over any operad means forming the ordinary [[algebras over an operad]] for any of its cofibrant [[resolution]]s. Therefore one say: an $E_\infty$-operad is (any) cofibrant resolution of [[Comm]] in the standard [[model structure on operads]] over the [[model structure on topological spaces]].
+* when presenting $(\infty,1)-Operad$ by the [[model structure on operads]] for [[topological operad]]s, forming the homotopy-algebras over any operad means forming the ordinary [[algebras over an operad]] for any of its cofibrant [[resolution]]s. Therefore one say: an $E_\infty$-operad is (any) cofibrant resolution of [[Comm]] in the standard [[model structure on operads]] over the [[model structure on topological spaces]].
 
 ## Properties
 
