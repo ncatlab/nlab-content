@@ -35,7 +35,7 @@ One of the remarkable properties of topological maps is that they can be given a
 
 ## References
 
-A formal treatment of topological maps (including the definition of several associated categories) is in
+A formal treatment of topological maps (including the relationship to [[algebraic maps]] and the definition of several associated categories) is in
 
 * [[Gareth A. Jones]] and [[David Singerman]], Theory of Maps on Orientable Surfaces. Proceedings of the London Mathematical Society, 37:273-307, 1978.
 
