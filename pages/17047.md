@@ -1,9 +1,9 @@
 ## Idea
 
-_Inductive families_ are a generalization of inductive types. A key example is the inductively defined identity type. 
+_Inductive families_ are a generalization of [[inductive types]]. A key example is the inductively defined [[identity type]]. 
 
 ## Semantics
-[[W-types]] can be interpreted in any topos with NNO (Moerdijk-Palmgren). Gambino and Hyland construct initial algebras for dependent [[polynomial functors]]. Indexed containers are the same as indexed polynomial functors [indexed containers](#AGHMM).
+[[W-types]] can be interpreted in any topos with [[natural numbers object]] (Moerdijk-Palmgren). Gambino and Hyland construct initial algebras for dependent [[polynomial functors]]. Indexed containers are the same as indexed polynomial functors [indexed containers](#AGHMM).
 
 ## Higher categorical version/ homotopy type theory
 [Sattler](#Sattler) claims to have a generalization to higher categories/[[homotopy type theory]].
