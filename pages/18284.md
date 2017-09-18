@@ -26,12 +26,22 @@ We know that [[compact Hausdorff spaces]] are normal spaces, and this is an espe
 
 +-- {: .num_lemma #pretopos} 
 ###### Lemma 
-If $X$ is a compact Hausdorff space and $\sim \hookrightarrow X \times X$ is an equivalence relation which is closed as a subset of $X \times X$, then the quotient space $X/\sim$ is also compact Hausdorff. (Consequently, the quotient map $q: X \to X/\sim$ is closed.) 
+Let $X$ be a compact Hausdorff space. Then an equivalence relation $\sim \hookrightarrow X \times X$ is closed as a subset of $X \times X$ iff the quotient map $q: X \to X/\sim$ is a closed map. (In which case $X/\sim$ is compact Hausdorff.) 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Suppose $A \subseteq X$ is closed, and consider its $\sim$-*saturation* $\bar{A}$, namely 
+If $q: X \to X/\sim$ is a closed map, making $X/\sim$ compact Hausdorff, then the diagonal $\Delta \hookrightarrow X\sim \times X/\sim$ is a closed embedding, so that its pullback along $q \times q$ 
+
+$$\array{
+\sim & \hookrightarrow & X \times X \\ 
+\downarrow & & \downarrow \mathrlap{q \times q} \\ 
+\Delta & \hookrightarrow & X/\sim \times X/\sim
+}$$ 
+
+also defines a closed subset of $X \times X$. 
+
+In the other direction, suppose $\sim$ is closed, and let $A \subseteq X$ be a closed subset of $X$. Consider its $\sim$-*saturation* $\bar{A}$, namely 
 
 $$\{x \in X: (\exists_{a \in A})\; x\sim a\} = \pi_1((\sim)\cap (X \times A)).$$ 
 
@@ -49,12 +59,32 @@ X & \stackrel{h}{\to} & Z \\
 Y & \underset{k}{\to} & W,
 }$$ 
 
-if $h$ is [[monomorphism|monic]], $f$ is [[epimorphism|epic]], and $X, Y, Z$ are compact Hausdorff, then $W$ is compact Hausdorff. 
+if $h$ is [[monomorphism|monic]], $f$ is [[epimorphism|epic]], and $X, Y, Z$ are compact Hausdorff, then $g$ is closed and $W$ is compact Hausdorff. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
 The kernel pair of $f$ is a closed equivalence relation $E$ on $X$ such that $f$ is the coequalizer of the first and second pullback projections $p_1, p_2: E \rightrightarrows X$. The quotient map $g: Z \to W$ is similarly the quotient of the closed equivalence relation on $Z$ formed as $(h \times h)(E) \cup \Delta_Z$. Now apply Lemma \ref{pretopos}. 
+=-- 
+
+We can push the preceding proposition a little further: 
+
++-- {: .num_prop} 
+###### Proposition 
+If $(h_i: X_i \to Z_i)_{i \in I}$ is a collection of embeddings of compact Hausdorff spaces, and $f = (f_i)_{i \in I}: \sum_{i \in I} \to Y$ is a map to a normal space, then in the pushout 
+
+$$\array{
+\sum_{i \in I} X_i & \stackrel{\sum_{i \in I} h_i}{\to} & \sum_{i \in I} Z_i \\ 
+\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
+Y & \underset{k}{\to} & W
+}$$ 
+
+the map $g$ is closed. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The map $f$ is closed because each $f_i$ is closed (using the fact that $X_i$ is compact Hausdorff). Similarly, the map $g$ will be closed if each of its restrictions $g_i: Z_i \to W$ is closed. But the equivalence relation given by the kernel pair of $g_i$ is $(h_i \times h_i)(E_i) \cup \Delta_{Z_i}$ where $E_i$ is the kernel pair of $f_i$, and now the result follows easily from Proposition \ref{pushoutCH}. 
 =-- 
 
 +-- {: .num_lemma #poclosed} 
