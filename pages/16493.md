@@ -1,0 +1,9 @@
+
+
+* [webpage](http://geoffroy.horel.org)
+
+## related $n$Lab entries
+
+* [[factorization homology]]
+
+category: people
