@@ -66,6 +66,99 @@ Not every equivalence between homotopy categories of model categories lifts to a
 
 =--
 
+Here are further characterizations:
+
++-- {: .num_prop #InCaseTheRightAdjointCreatesWeakEquivalences}
+###### Proposition
+
+If in a [[Quillen adjunction]]  $ \array{\mathcal{C} &\underoverset{\underset{R}{\to}}{\overset{L}{\leftarrow}}{\bot}& \mathcal{D}}$ the [[right adjoint]] $R$ "creates weak equivalences" (in that a morphism $f$ in $\mathcal{C}$ is a weak equivalence precisly if $U(f)$ is) then $(L \dashv R)$ is a Quillen equivalence precisely already if for all cofibrant objects $d \in \mathcal{D}$ the plain [[adjunction unit]]
+
+$$
+  d \overset{\eta}{\longrightarrow} R (L (d))
+$$
+
+is a weak equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Generally, $(L \dashv R)$ is a Quillen equivalence precisely if
+
+1. for every cofibrant object $d\in \mathcal{D}$, the "derived adjunction unit", hence the composite 
+
+   $$
+     d 
+       \overset{\eta}{\longrightarrow} 
+     R(L(d)) 
+       \overset{R(j_{L(d)})}{\longrightarrow}
+     R(P(L(d)))
+   $$ 
+
+   (of the [[adjunction unit]] with image under $R$ of any fibrant replacement $L(d) \underoverset{\in W}{j_{L(d)}}{\longrightarrow} R(P(L(d)))$) is a weak equivalence;
+
+1. for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit", hence the composite 
+  
+   $$
+     L(Q(R(c))) 
+       \overset{L(p_{R(c)})}{\longrightarrow} 
+     L(R(c)) 
+       \overset{\epsilon}{\longrightarrow}
+     c
+   $$ 
+
+   (of the [[adjunction counit]] with the image under $L$ of any cofibrant replacement $Q R(c)\underoverset{\in W}{p_{R(c)}}{\longrightarrow} R(c)$  is a weak equivalence in $D$.
+
+Consider the first condition: Since $R$ preserves the weak equivalence $j_{L(d)}$, by [[two-out-of-three]] the composite in the first item is a weak equivalence precisely if $\eta$ is.
+
+Hence it is now sufficient to show that in this case the second condition above is automatic.
+
+Since $R$ also reflects weak equivalences, the composite in item two is a weak equivalence precisely if its image 
+
+$$
+  R(L(Q(R(c))))
+    \overset{R(L(p_{R(c))})}{\longrightarrow} 
+  R(L(R(c))) 
+    \overset{R(\epsilon)}{\longrightarrow}
+  R(c)
+$$ 
+
+under $R$ is.
+
+Moreover, assuming, by the above, that $\eta_{Q(R(c))}$ on the cofibrant object $Q(R(c))$ is a weak equivalence, then by [[two-out-of-three]] this composite is a weak equivalence precisely if the further composite with $\eta$ is
+
+$$
+  Q(R(c))
+    \overset{\eta_{Q(R(c))}}{\longrightarrow}
+  R(L(Q(R(c))))
+    \overset{R(L(p_{R(c))})}{\longrightarrow} 
+  R(L(R(c))) 
+    \overset{R(\epsilon)}{\longrightarrow}
+  R(c)
+  \,.
+$$ 
+
+But by the formula for [[adjuncts]], this composite is the $(L\dashv R)$-adjunct of the original composite, which is just $p_{R(c)}$
+
+$$
+  \frac{
+     L(Q(R(c))) 
+       \overset{L(p_{R(c)})}{\longrightarrow} 
+     L(R(c)) 
+       \overset{\epsilon}{\longrightarrow}
+     c
+  }{
+     Q(R(C)) \overset{p_{R(c)}}{\longrightarrow} R(c)
+  }
+  \,.
+$$
+
+But $p_{R(c)}$ is a weak equivalence by definition of cofibrant replacement.
+
+
+=--
+
 
 ## Properties
 
