@@ -10,4 +10,6 @@
 
 * [[Wigner classification]]
 
+* [[group contraction]]
+
 category: people
