@@ -442,7 +442,7 @@ with applications to [[Hodge theory]] and [[intermediate Jacobians]]. The same d
 
 under the name "multiplicative de Rham complex" (and in the context of studying its [[deformation theory]] by [[Artin-Mazur formal groups]]). The theory was further developed in
 
-* {#Beilinson85} [[Alexander Beilinson]], _Higher regulators and values of L-functions_, J. Soviet Math. 30 (1985), 2036-2070 (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88))
+* {#Beilinson85} [[Alexander Beilinson]] _Higher regulators and values of L-functions_, Journal of Soviet Mathematics 30 (1985), 2036-2070, ([mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng), [DOI](http://dx.doi.org/10.1007%2FBF02105861)) (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88))
 
 with the application to [[Beilinson regulators]]. Later the evident version of the Deligne complex in [[differential geometry]] over [[smooth manifolds]] gained more attention and is still referred to as "Deligne cohomology".
 
