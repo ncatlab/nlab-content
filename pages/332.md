@@ -63,7 +63,7 @@ See also [[topology]].
 
   * [[Froelicher space]], [[diffeological space]], [[smooth space]]
 * [[space and quantity]]
-* [[Euclidean geometry]]
+* [[Euclidean geometry]], [[trigonometry]]
 
 * [[D-brane geometry]]
 
