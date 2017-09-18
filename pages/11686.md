@@ -28,7 +28,7 @@ There are traditionally three versions of increasing generality, although even t
 +-- {: .num_theorem #rolle}
 ###### Rolle\'s Theorem
 
-Suppose that $a \lt b$ are [[real numbers]] and $f$ is a [[continuous map|continuous]] [[real number|real]]-valued [[function]] on $[a,b]$.  If $f$ is [[differentiable function|differentiable]] on the [[interior9] $]{a,b}[$, and if $f(a) = f(b)$, then for some $c \in {]{a,b}[}$,
+Suppose that $a \lt b$ are [[real numbers]] and $f$ is a [[continuous map|continuous]] [[real number|real]]-valued [[function]] on $[a,b]$.  If $f$ is [[differentiable function|differentiable]] on the [[interior]] $]{a,b}[$, and if $f(a) = f(b)$, then for some $c \in {]{a,b}[}$,
 $$ f'(c) = 0 .$$
 =--
 
