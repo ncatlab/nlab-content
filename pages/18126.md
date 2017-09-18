@@ -10890,7 +10890,7 @@ $$
 is a locally finite collection of subsets, such that
 
 $$
-  U_C \coloneqq \underset{c \in C}{\cup} U_c
+  U_C \coloneqq \underset{c \in C}{\cup} V_c
 $$
 
 is an open neighbourhood of $C$.
@@ -10928,7 +10928,7 @@ $$
   \,.
 $$
 
-But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
+But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \subset U_{k}$ for $k \in K$ and each of these is by construction disjoint from $U_{x,k}$ and hence from $U_x$.
 
 This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
 
@@ -11001,7 +11001,7 @@ is still open and disjoint from the remaining $V_k$, hence disjoint from all of 
 ###### Lemma
 **([[shrinking lemma]] for locally finite covers)**
 
-Let $X$ be a [[topological space]] which is [[normal topological space|normal]] and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]].
+Let $X$ be a [[topological space]] which is [[normal topological space|normal]] (def. \ref{NormalSpace}) and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]] (def. \ref{LocallyFiniteCover}).
 
 Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements is cotained in the original patches:
 
@@ -11036,7 +11036,7 @@ and such that $\{V_1,U_2\}$ is still an open cover of $X$.
 +-- {: .proof}
 ###### Proof
 
-Since $U_1 \cup U_2 = X$ it follows (by [[de Morgan's law]]) that their [[complements]] $X \setminus U_i$ are [[disjoint subset|disjoint]] [[closed subsets]]. Hence by normality of $(X,\tau)$ there exist disjoint open subsets
+Since $U_1 \cup U_2 = X$ it follows (by [[de Morgan's law]], prop. \ref{deMorgan}) that their [[complements]] $X \setminus U_i$ are [[disjoint subset|disjoint]] [[closed subsets]]. Hence by normality of $(X,\tau)$ there exist disjoint open subsets
 
 $$
   V_1 \supset X \setminus U_2
@@ -11052,7 +11052,7 @@ $$
   \,.
 $$
 
-In particular, since $X \setminus V_2$ is closed, this means that $Cl(V_1) \subset X \setminus(V_2)$.
+In particular, since $X \setminus V_2$ is closed, this means that $Cl(V_1) \subset X \setminus V_2 $.
 
 Hence it only remains to observe that $V_1 \cup U_2 = X$, by definition of $V_1$.
 
@@ -11165,7 +11165,7 @@ $$
   \left(
     (J_1, \mathcal{V})
     \leq
-    (J_2, \mathcal{V})
+    (J_2, \mathcal{W})
   \right)
     \Leftrightarrow
   \left(
@@ -11216,7 +11216,7 @@ $$
   \,.
 $$
 
-We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \setminus J_x) \Rightarrow (i \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$.
+We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \setminus J_x) \Rightarrow (x \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$.
 
 This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by construction that it is an upper bound for $(T ,\leq )$. Hence we have shown that every [[chain]] in $(S,\leq)$ has an upper bound, and so Zorn's lemma implies the claim.
 
@@ -11230,7 +11230,7 @@ $\,$
 ### Partitions of unity
  {#PartitionsOfUnity}
 
-A key aspect of paracimpact Hausdorff spaces is that they are equivalently those spaces that admit
+A key aspect of paracompact Hausdorff spaces is that they are equivalently those spaces that admit
 _partitions of unity_.
 
 +-- {: .num_defn #PartitionOfUnity}
