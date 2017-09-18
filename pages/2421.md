@@ -15,15 +15,21 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A _super-group_ is the analog in [[supergeometry]] of [[Lie groups]] in [[differential geometry]].
+
+
 ## Algebraic super groups
 
-An [[affine scheme|affine]] algebraic super group is the [[formal dual]]  of a [[superalgebra|super]] [[Hopf algebra]] which is supercommutative. 
+An [[affine scheme|affine]] algebraic super group is the [[formal dual]]  of a [[superalgebra|super]]-[[commutative Hopf algebra]].
+
 
 ## Super Lie groups
 
 ### Definition
 
-A _super Lie group_ is a [[group object]] in the [[category]] [[SDiff]] of [[supermanifold]]s, that is a super [[Lie group]].
+A _super Lie group_ is a [[group object]] in the [[category]] [[SDiff]] of [[supermanifolds]], that is a super [[Lie group]].
 
 #### In terms of generalized group elements 
 
