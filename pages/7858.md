@@ -18,7 +18,7 @@ $$
 
 ### Incidence algebras and the zeta function
 
-The **incidence algebra** of a poset $P$ (relative to a [[ring]] $R$) is an $R$-[[module]] defined as follows.
+The **incidence algebra** of a poset $P$ (relative to a [[commutative ring]] $R$) is an [[associative unital algebra]] defined as follows.
 Its elements are functions $f : P \times P\to R$ such that $x \nleq y$ implies $f(x,y) = 0$.
 Pointwise addition $f+g$ and scalar multiplication $r\cdot f$ are defined in the obvious way, while the _convolution product_ $f*g$ is defined as follows:
 $$(f*g)(x,y) = \sum_{x \le z \le y} f(x,z) \cdot g(z,y)$$
