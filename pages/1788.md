@@ -165,7 +165,7 @@ $$
 Let $f_\bullet \colon V_\bullet \longrightarrow W_\bullet$
 be a [[chain map]] between [[chain complexes]] and let
 $n \in \mathbb{N}$. Recall the abelian group
- $\underset{v_{n-1}}{\oplus}\{f_n(v_n) \vert \partial v_n = v_{n-1}\}$ from remark \ref{ChainComplexnPlusOneImageInDegreen}.
+ $\underset{v_{n-1}}{\sqcup}\{f_n(v_n) \vert \partial v_n = v_{n-1}\}$ from remark \ref{ChainComplexnPlusOneImageInDegreen}.
 
 The following [[diagram]] of [[abelian groups]]
 [[commuting diagram|commutes]]:
@@ -207,7 +207,7 @@ $$
     V_{n+1}
       &\overset{f_{n+1}}{\longrightarrow}&
     \left\{
-      w_{n+1} | \exists v_n :  \partial_W w_{n+1} = f_n(v_n), \partial_V v_n = 0, 
+      w_{n+1} | \exists v_n :  \partial_W w_{n+1} = f_n(v_n), \partial_V v_n = 0,
     \right\}
       &\overset{}{\longrightarrow}&
     W_{n+1}
@@ -220,7 +220,7 @@ $$
     \\
     V_n
       &\overset{ (f_n, \partial_V) }{\longrightarrow}&
-    \underset{v_{n-1}}{\oplus}
+    \underset{v_{n-1}}{\sqcup}
     \left\{
       f_n(v_n) \vert \partial_V v_n = v_{n-1}
     \right\}
