@@ -18,5 +18,9 @@ A proof is spelled out at
 
 ## Related entries
 
+* [[a CW-complex is a Hausdorff space]]
+
+* [[Hausdorff implies sober]]
+
 * [[map from compact space to Hausdorff space]]
 
