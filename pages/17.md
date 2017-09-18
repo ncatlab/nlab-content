@@ -575,14 +575,14 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} &  P(1)^{\mathrl
 
    Matrix and array environments also accept certain options. Here is an example using a "\rowlines{solid}" option to hack a sequent derivation (much more nicely than by resorting to \frac commands): 
 
-$$
-\array{\arrayopts{\rowlines{solid}}
-  X \times B \to P A\;\;\; in\; \mathbf{S} \\
-  X \times B \nrightarrow A\;\;\; in\; Rel(\mathbf{S}) \\
-  X \nrightarrow A \times B\;\;\; in\; Rel(\mathbf{S}) \\
-  X \to P(A \times B)\;\;\; in \; \mathbf{S}
-}
-$$ 
+   $$
+   \array{\arrayopts{\rowlines{solid}}
+   X \times B \to P A\;\;\; in\; \mathbf{S} \\
+   X \times B \nrightarrow A\;\;\; in\; Rel(\mathbf{S}) \\
+   X \nrightarrow A \times B\;\;\; in\; Rel(\mathbf{S}) \\
+   X \to P(A \times B)\;\;\; in \; \mathbf{S}
+   }
+   $$ 
 
    is produced by 
 
