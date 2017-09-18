@@ -28,6 +28,16 @@ While this map is never an [[isomorphism]] unless $G$ is the trivial group, the 
 
 See also at _[formal completion -- Examples -- Atiyah-Segal theorem](completion+of+a+ring#AtiyahSegalTheorem)_.
 
+## Consequences
+
+In the case where $X=*$ (i.e. a point), we have that $K_G(*) \simeq R(G)$ and $K(*//G)=K(BG)$, thus we conclude that
+
+$$
+  K(BG) \simeq R(G)\hat{_I}
+$$
+
+where $I$ is the [[augmentation ideal]] of the [[representation ring]] of $G$.
+
 ## Related concepts
 
 * [[Baum-Connes conjecture]], [[Green-Julg theorem]]
