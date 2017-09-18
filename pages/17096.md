@@ -1,0 +1,1 @@
+This page accompanies [this nForum thread](https://nforum.ncatlab.org/discussion/6896/poincare-conjecture/).
