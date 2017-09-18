@@ -19,6 +19,8 @@ For instance
 
 * [[shape theory]]
 
+* [[shape via cohesive path ∞-groupoid]]
+
 [[!include cohesion - table]]
 
 
