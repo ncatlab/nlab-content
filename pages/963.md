@@ -72,7 +72,7 @@ which is all we need (the opposite inequality is automatic since $a \cdot a \leq
 Finally, if $A$ is a frame and $Q$ is a commutative affine quantale, it is clear that a quantale map $f \colon A \to Q$ takes elements in $A$ (which are idempotent under meet) to idempotents in $Q$. Hence $f$ factors uniquely through $Idem(Q) \hookrightarrow Q$, and the map $A \to Idem(Q)$ is a frame map. This shows that $Idem$ is the right adjoint as claimed. 
 =-- 
 
-In fact, we may also observe that the forgetful functor from commutative affine quantales to commutative quantales also has a right adjoint, just be passing from a commutative quantale to the principal downset given by the quantale unit. (However, the forgetful functor from commutative quantales to quantales does _not_ have a right adjoint.) 
+In fact, we may also observe that the forgetful functor from commutative affine quantales to commutative quantales also has a right adjoint, just by passing from a commutative quantale to the principal downset given by the quantale unit. (However, the forgetful functor from commutative quantales to quantales does _not_ have a right adjoint.) 
 
 On very general grounds, the forgetful functor from the category of frames to the category of quantales has a left adjoint (see [here](/nlab/show/colimits+in+categories+of+algebras#relatively_free_functors)). This forgetful functor is full and faithful, and as a result the unit of the adjunction is a regular epi described by a suitable quantale congruence; see the next section. 
 
@@ -99,15 +99,19 @@ Enrichment is often particularly interesting for $*$-quantales (see below), wher
 
 ## Examples ##
 
-Quantales are a surprisingly commonplace structure in computer science. A very simple example is the powerset of strings (i.e., the powerset of the free monoid over some set of characters $\Sigma$). The order is the inclusion order on sets, and meet and join are just intersection and union, respectively. Taking $\epsilon$ to be empty string, and $a \cdot b$ to the join of two string, the quantalic operations are then:
+Quantales are a surprisingly commonplace structure in computer science. A very simple example is the powerset of strings (i.e., the powerset of the free monoid over some set of characters $\Sigma$). The order is the inclusion order on sets, and meet and join are just intersection and union, respectively. Taking $\epsilon$ to be the empty string, and $a \cdot b$ to be the join of two strings, the quantalic operations are then:
 
 * $1 = \{\epsilon\}$
-* $L \otimes M = \{ l\cdot m \;|\; l \in L, m \in M \}$ 
+* $I \otimes J = \{ i\cdot j \mid i \in I, j \in J \}$ 
+* $K/J = \{ i \mid \forall_{j\in J} i\cdot j \in K \}$
+* $I\backslash K = \{ j \mid \forall_{i\in I} i\cdot j \in K \}$
 
 This example generalizes as follows: given any [[monoidal category|monoidal]] [[preorder]] $M$ (for instance, a monoid equipped with the discrete order, as in the previous example), the collection of down-closed subsets of $M$ carries a quantale structure given by [[Day convolution]] with respect to categories enriched in $\mathbf{2} = TV$, the [[Heyting algebra]] of truth values. Explicitly, if $e$ denotes the unit of $M$ and $\cdot$ the multiplication, then 
 
-* $1 = \{x \in M: x \leq e\}$ 
-* $L \otimes M = \{x \in M: \exists_{l \in L} \exists_{m \in M} x \leq l \cdot m\}$
+* $1 = \{x\in M \mid x \leq e\}$ 
+* $I \otimes J = \{x\in M \mid \exists_{i \in I} \exists_{j \in J} x \leq i \cdot j\}$
+* $K/J = \{i \in M \mid \forall_{j\in J} i\cdot j \in K \}$
+* $I\backslash K = \{j \in M \mid \forall_{i\in I} i\cdot j \in K \}$
 
 Another class of examples: internal homs $\hom_{sLat}(X, X)$ in the closed monoidal category of suplattices. For example, when the suplattice $X$ is a power set $P(S)$, one may identify $\hom_{sLat}(P(S), P(S))$ with the poset of binary relations $P(S \times S)$, ordered by inclusion and where the quantalic multiplication is relational composition. 
 
