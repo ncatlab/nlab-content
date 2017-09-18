@@ -54,7 +54,11 @@ Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C
 
 ## References
 
-A good introduction is in [Schoenfield 71](#Schoenfield71)
+Exposition is in 
+
+* [[Timothy Chow]], _A beginner's guide to forcing_, Contemp. Math ([arXiv:0712.1320](https://arxiv.org/abs/0712.1320))
+
+Another good introduction is in [Schoenfield 71](#Schoenfield71)
 
 ### General
 
