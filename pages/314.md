@@ -552,6 +552,8 @@ In general limits do not commute with colimits. But under a number of special co
 
   * [[homotopy limit]]
 
+  * [[lim^1 and Milnor sequences]]
+
 
 
 
