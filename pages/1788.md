@@ -6,6 +6,7 @@
 
 
 ### A first idea of quantum fields
+ {#AFirstIdeaOfQuantumFields}
 
 We introduce here the basic concepts of _[[Lagrangian field theory]]_, first for [[prequantum field theory]] and then for its [[deformation quantization]] to [[perturbative quantum field theory]].
 
@@ -293,23 +294,43 @@ $$
   U \overset{f}{\longrightarrow} J^\infty_\Sigma(E)
 $$
 
-from some [[Cartesian space]] $U$ is equivalently a system of ordinary smooth functioon
+from some [[Cartesian space]] $U$ is equivalently a system of ordinary smooth functions
+into all the finite-order jet spaces
 
 $$
   \left(
     U \overset{f_k}{\longrightarrow} J^k(E)
   \right)_{k \in \mathbb{N}}
+  \,,
 $$
 
-into all the finite-order jet bundles, such that this is compatible with the
+such that this is compatible with the
 above projection maps, i.e. such that
 
 $$
   \underset{k \in \mathbb{N}}{\forall} \left(
     jb_{k+1,k} \circ f_{k+1} = f_k
   \right)
-  \,.
+  \phantom{AAAAA}
+  \array{
+    && && U && 
+    \\
+    && & {}^{\mathllap{f_2}}\swarrow&  \downarrow_{\mathllap{f_1}}  &\searrow^{f_0}&
+    \\
+    \cdots
+     &\overset{jb_{3,2}}{\longrightarrow}&
+    J^{2}_\Sigma(E)
+      &\overset{jb_{2,1}}{\longrightarrow}&
+    J^1_\Sigma(E)
+      &\overset{jb_1}{\longrightarrow}&
+    E
+    \\
+    && &{}_{\mathllap{jb_2}}\searrow& {}^{\mathllap{jb_1}}\downarrow  &\swarrow_{\mathrlap{fb}}&
+    \\
+    && && \Sigma &&
+  }
 $$
+
 
 Finally _[[jet prolongation]]_ is that function from the [[space of sections]] of the original bundle to the space of section so the jet bundle which records the field $\Phi$ and all its spacetimes [[derivatives]]:
 
