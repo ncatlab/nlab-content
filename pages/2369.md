@@ -40,7 +40,7 @@ Under the [[Brown representability theorem]], the [[generalized cohomology theor
 
 ## Related concepts
 
-
+* [[symmetric ring spectrum]]
 
 * [[module spectrum]], [[algebra spectrum]]
 
