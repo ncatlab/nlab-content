@@ -4,7 +4,7 @@
 
 ## Idea
 
-The axioms of replacement and collection are some of the 'strong' axioms of [[set theory]].  They is not necessary for formalising 'ordinary' mathematics and do not hold in such basic systems as [[ETCS]].  They are necessary, however, whenever [[recursion|recursively]] constructing a set that is 'larger' than any set known before.
+The axioms of replacement and collection are some of the 'strong' axioms of [[set theory]].  They are not necessary for formalising 'ordinary' mathematics and do not hold in such basic systems as [[ETCS]].  They are necessary, however, whenever [[recursion|recursively]] constructing a set that is 'larger' than any set known before.
 
 There are many variations on these axioms (which are actually axiom *schemata* in most systems), but any given system should only need one.
 
