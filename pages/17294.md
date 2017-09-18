@@ -1,0 +1,69 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _functorial factorization_ is a [[weak factorization system]] with a certain compatibility condition on how the factorizations  relate as the morphisms are "translated".
+
+The bare axioms on a [[weak factorization system]] only demand that every [[morphism]] in a given ambient [[category]] admits a factorization as the composite of two morphisms with certain properties, but there is no condition on these factorizations being compatible as one translates the morphism. One says that the weak factorization system is _functorial_ if whenever two morphisms $f$ and $g$ fit into a [[commuting square|commuting square]]
+
+$$
+  \array{
+    & \longrightarrow
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{g}}
+    \\
+    & \longrightarrow
+  }
+$$
+
+then their factorizations $f = f_R \circ f_L$ and $g = g_R \circ g_L$ may be chosen accordingly to fit into a [[commuting diagram]] of the form
+
+$$
+  \array{
+    & \longrightarrow
+    \\
+    {}^{\mathllap{f_L}}\downarrow && \downarrow^{\mathrlap{g_L}}
+    \\
+    & \longrightarrow
+    \\
+    {}^{\mathllap{f_R}}\downarrow && \downarrow^{\mathrlap{g_R}}
+    \\
+    & \longrightarrow
+  }
+  \,.
+$$
+
+Functorial factorizations play a prominent role in [[model category]] theory. On the one hand, many constructions there do rely on the factorizations into (acyclic) [[cofibrations]] and (acyclic) [[fibrations]] to be functorial, on the other hand via the [[small object argument]] many examples of model categories do in fact carry a functorial factorization. (As a result some authors include functorial factorization in the axioms of a model category right away.)
+
+
+## Definition
+
+The precise requirements for factorization of morphisms to be _[[functorial factorization|functorial]]_ are frequently misstated. What follows is a fairly uncommon (but correct) definition:
+
+Write $[2]$ and $[3]$ for the [[ordinal numbers]], regarded as [[categories]]. So the [[arrow category]] $arr(K)$ is isomorphic to the [[functor category]] $[[2],K]$. There are three injective functors $[2] \rightarrow [3]$; let $d_1$ be the functor that sends the objects $\{0,1\}$ of $[2]$ to the objects $\{0,2\}$ of $[3]$ (see also at _[[simplicial object]]_). This induces a functor $c \colon [[3],K] \rightarrow [[2],K]$ which can be thought of as "composition."
+
+A **functorial factorization** is a functor $F \colon [[2],K] \rightarrow [[3],K]$ such that $c F$ is the identity on $arr(K)$.  
+
+## Examples
+
+Not all [[weak factorization systems]] are functorial, although most (including those produced by the [[small object argument]]) are.
+
+All [[orthogonal factorization systems]] are automatically functorial.
+
+[[!redirects functorial factorizations]]
+
+[[!redirects functorial factorization system]]
+[[!redirects functorial factorization systems]]
