@@ -31,7 +31,7 @@ A related notion is that of [[basis for a Grothendieck topology]], which is simi
 
 
 
-+-- {: .num_defn}
++-- {: .num_defn #ConditionsOnACoverage}
 ###### Definition
 
 A **coverage** on a [[category]] $C$ consists of a [[function]] assigning to each [[object]] $U\in C$ a collection of families of [[morphisms]] $\{f_i:U_i\to U\}_{i\in I}$, called _[[covering]] families_, such that
