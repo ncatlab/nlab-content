@@ -11,7 +11,7 @@ We introduce here the basic concepts of _[[Lagrangian field theory]]_, first for
 
 In full beauty these concepts are extremely general; but in this section the aim is to give a first good idea of the subject, and therefore we present for the moment only a restricted setup, notably assuming that [[spacetime]] is [[Minkowski spacetime]], that the [[field bundle]] (see below) is an ordinary and [[trivial bundle|trivial]] [[fiber bundle]] and that all fields are [[boson|bosonic]].
 
-This does subsume what is considered in most traditional texts on the subject. In subsequent sections we will eventually discuss more general situations, notably we will eventually allow spacetime to be any [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be an super [[infinity-Lie algebroid]]. This is sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]] 
+This does subsume what is considered in most traditional texts on the subject. In subsequent sections we will eventually discuss more general situations, notably we will eventually allow spacetime to be any [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be an super [[infinity-Lie algebroid]]. This is sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]]
 of [[fermions]] coupled to [[gauge fields]] [[AQFT on curved spacetime|on curved spacetimes]].
 
 Throughout we use the case of the real [[scalar field]] as an illustrative running example, which we develop alongside with the theory. The discussion of other [[field (physics)|field]] species that are of more genuine interest in applications is postponed to their dedicated sections below.
@@ -111,7 +111,7 @@ This is then called the _[[field bundle]]_, which specifies the kind of values t
 **(fields)**
 
 Given a [[spacetime]] $\Sigma$ and a [[field bundle]] $\array{E \\ \downarrow^{\mathrlap{fb}} \\ \Sigma }$,
-then a _[[field (physics)|field]] configuration_ (of type specified by this field bundle) 
+then a _[[field (physics)|field]] configuration_ (of type specified by this field bundle)
 is a smooth  [[section]] _smooth [[section]]_ of this [[bundle]], namely a [[smooth function]] of the form
 $\Phi \colon \Sigma \longrightarrow E$ such that composed with the [[projection]] map it is the [[identity function]], i.e. such that $p \circ \phi = id$, or, diagrammatically, such that
 
@@ -133,7 +133,7 @@ $$
   \,.
 $$
 
-This is the [[set]] of all field configurations $\Phi$ as above, and it is equipped with the 
+This is the [[set]] of all field configurations $\Phi$ as above, and it is equipped with the
 structure of a [[smooth set]] by declaring that a _smooth family_ of field configurations,
 parameterized over any [[Cartesian space]] $U$ is a smooth function
 
@@ -224,8 +224,8 @@ Moving around in this space means to change the possible value of fields and the
 ###### Definition
 **([[jet bundle]] of a [[trivial vector bundle]] over [[Minkowski spacetime]])**
 
-Given a [[field fiber]] [[vector space]] $F = \mathbb{R}^s$ with [[linear basis]] $(\phi^a)_{a = 1}^s$, 
-then for $k \in \mathbb{N}$ a natural number,  the _order-$k$ [[jet bundle]]_ 
+Given a [[field fiber]] [[vector space]] $F = \mathbb{R}^s$ with [[linear basis]] $(\phi^a)_{a = 1}^s$,
+then for $k \in \mathbb{N}$ a natural number,  the _order-$k$ [[jet bundle]]_
 
 $$
   \array{
@@ -273,7 +273,7 @@ $$
       &\overset{jb_1}{\longrightarrow}&
     E
     \\
-    && &{}_{\mathllap{jb_2}}\searrow& {}^{\mathllap{jb_1}}\downarrow  &\swarrow_{\mathrlap{fb}}& 
+    && &{}_{\mathllap{jb_2}}\searrow& {}^{\mathllap{jb_1}}\downarrow  &\swarrow_{\mathrlap{fb}}&
     \\
     && && \Sigma &&
   }
@@ -281,13 +281,13 @@ $$
 
 given by forgetting coordinates with more indices.
 
-The _infinite-order [[jet bundle]]_ 
+The _infinite-order [[jet bundle]]_
 
 $$
   J^\infty_\Sigma(E) \in SmoothSet
 $$
 
-is the [[smooth set]] defined so that a smooth function 
+is the [[smooth set]] defined so that a smooth function
 
 $$
   U \overset{f}{\longrightarrow} J^\infty_\Sigma(E)
@@ -296,8 +296,8 @@ $$
 from some [[Cartesian space]] $U$ is equivalently a system of ordinary smooth functioon
 
 $$
-  \left( 
-    U \overset{f_k}{\longrightarrow} J^k(E) 
+  \left(
+    U \overset{f_k}{\longrightarrow} J^k(E)
   \right)_{k \in \mathbb{N}}
 $$
 
@@ -305,7 +305,7 @@ into all the finite-order jet bundles, such that this is compatible with the
 above projection maps, i.e. such that
 
 $$
-  \underset{k \in \mathbb{N}}{\forall} \left( 
+  \underset{k \in \mathbb{N}}{\forall} \left(
     jb_{k+1,k} \circ f_{k+1} = f_k
   \right)
   \,.
@@ -350,7 +350,7 @@ $$
 
 is such that around each point of $J^\infty_\Sigma(E)$ there is a [[neighbourhood]] $U \subset J^\infty_\Sigma(E)$
 on which it is given by a function on a smooth function on $J^k_\Sigma(E)$ for some finite $k$
- 
+
 =--
 
 
@@ -372,7 +372,7 @@ a contribution coming from forming the [[total derivatives]] of fields along spa
 actual _variation_ of fields at a fixed spacetime point ("[[vertical derivatives]]"):
 
 
-The  _[[horizontal derivative]]_ (or "[[total derivative]]") on $J^\infty_\Sigma(E)$
+The  _[[total derivative|total spacetime derivative]]_ or  _[[horizontal derivative]]_ on $J^\infty_\Sigma(E)$
 is the map on [[differential forms]] on the jet bundle of the form
 
 $$
@@ -411,7 +411,7 @@ $$
 
 and extended to all forms by the graded [[Leibniz rule]], hence  as a nilpotent [[derivation]] of degree +1.
 
-The  _[[vertical derivative]]_ 
+The  _[[vertical derivative]]_
 
 $$
   \delta
@@ -421,7 +421,7 @@ $$
   \Omega^{\bullet+1}( J^\infty_\Sigma(E) )
 $$
 
-is what remains of the full [[de Rham differential]] of the horizontal derivative is subtracted:
+is what remains of the full [[de Rham differential]] when the total spacetime derivative ([[horizontal derivative]]) is subtracted:
 
 $$
   \delta \coloneqq \mathbf{d} - d
@@ -450,7 +450,7 @@ $$
      \\
      & \downarrow^{\mathrlap{\delta}} && \downarrow^{\mathrlap{\delta}} && \downarrow^{\mathrlap{\delta}}
      \\
-     & 
+     &
      \Omega^{0,1}(E)
        &\overset{d}{\longrightarrow}&
      \Omega^{1,1}(E)
@@ -501,7 +501,7 @@ Given the jet bundle of a [[field bundle]] as in def. \ref{JetBundleOfTrivialVec
 in its [[variational bicomplex]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
 we have the following:
 
-* The [[horizontal derivative]] of a spacetime coordinate function $x^\mu$ 
+* The [[horizontal derivative]] of a spacetime coordinate function $x^\mu$
   coincides with its ordinary de Rham differential
 
   $$
@@ -509,7 +509,7 @@ we have the following:
   $$
 
   and hence this is a horizontal 1-form.
-  
+
 * Therefore the vertical derivative of a spacetime coordinate vanishes:
 
   $$
@@ -634,19 +634,28 @@ The remaining term $d \Theta$ is unique, while $\Theta \in \Omega^{p,1}(E)$ is u
 One possible choice is
 
 $$
-  \Theta
-  \;\coloneqq\;
-  \left(
-    \frac{\partial L}{\partial \phi^a_{,\mu}}
-    \delta \phi^a 
-    +
-    \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
-    \delta \phi^a_{,\nu}
-    -
-    \cdots
-  \right)
-  \wedge \iota_{\partial_\mu} dvol_\Sigma  
+  \label{StandardThetaForTrivialVectorFieldBundleOnMinkowskiSpacetime}
+  \begin{aligned}
+    \Theta
+    & \coloneqq \phantom{+}
+      \frac{\partial L}{\partial \phi^a_{,\mu}}
+      \delta \phi^a
+      \; \wedge \iota_{\partial_\mu} dvol_\Sigma
+    \\
+    & \phantom{=}
+      +
+      \left(
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
+        \delta \phi^a_{,\nu}
+        -
+        \frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        \delta \phi^a_{,\mu}
+      \right)
+    \wedge \iota_{\partial_\mu} dvol_\Sigma
+    \\
+    & \phantom{=} + \cdots
   \,,
+  \end{aligned}
 $$
 
 where
@@ -665,35 +674,118 @@ denotes the contraction of the volume form with the [[vector field]] $\partial_\
 +-- {: .proof}
 ###### Proof
 
+Using $\mathbf{L} = L dvol_\Sigma$ and that $d \mathbf{L} = 0$ by degree reasons, we find
+
+$$
+  \begin{aligned}
+    \mathbf{d}\mathbf{L}
+    & =
+    \left(
+      \frac{\partial L}{\partial \phi^a} \delta \phi^a
+      +
+      \frac{\partial L}{\partial \phi^a_{,\mu}} \delta \phi^a_{,\mu}
+      +
+      \frac{\partial L}{\partial \phi^a_{,\mu_1 \mu_2}} \delta \phi^a_{,\mu_1 \mu_2}
+      +
+      \cdots
+    \right)
+    \wedge dvol_{\Sigma}
+  \end{aligned}
+  \,.
+$$
+
+The idea now is to have $d \Theta$ pick up those terms that would appear as [[boundary]] terms under the [[integral]]
+$\int_\Sigma j^\infty(\Phi)^\ast \mathbf{d}L$ if we were to consider [[integration by parts]] to remove 
+spacetime derivatives of $\delta \phi^a$.
+
 We compute, using example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle},
-the horizontal derivative
+the total horizontal derivative of $\Theta$ from (eq:StandardThetaForTrivialVectorFieldBundleOnMinkowskiSpacetime) as follows:
 
 $$
   \begin{aligned}
     d \Theta
     & =
     \left(
-      d \frac{\partial L}{\partial \phi^a_{,\mu}} \delta \phi^a
-      - 
-      \frac{\partial L}{\partial \phi^a_{,\mu}} \delta d \phi^a 
+      d 
+      \left(
+        \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \delta \phi^a
+      \right)
+      +
+      d
+      \left(
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
+        \delta \phi^a_{,\nu}
+        -
+        \frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{\mu \nu}}
+        \delta \phi^a
+      \right)
+      +
+      \cdots
+  \right)
+  \wedge \iota_{\partial_\mu} dvol_\Sigma
+  \\
+    & =
+    \left(
+      \left(
+        \left( 
+           d \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \right) \wedge  \delta \phi^a
+        -
+        \frac{\partial L}{\partial \phi^a_{,\mu}} \delta d \phi^a
+      \right)
+      +
+      \left(
+        \left(d \frac{\partial L}{\partial \phi^a_{,\nu \mu}}\right) \wedge \delta \phi^a_{,\nu}
+        -
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}} \delta d \phi^a_{,\nu}
+        -
+        \left( d \frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu \nu}} \right) \wedge
+        \delta \phi^a
+        +
+        \frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        \delta d \phi^a
+      \right)
+          +
+      \cdots
     \right)
     \wedge \iota_{\partial_\mu} dvol_\Sigma
     \\
     & =
     -
     \left(
-      \frac{d}{d x^\mu} \frac{\partial L}{\partial \phi^a_{,\mu}}
-      \delta \phi^a
+      \left(
+        \frac{d}{d x^\mu} \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \delta \phi^a
+        +
+        \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \delta \phi^a_{,\mu}
+      \right)
       +
-      \frac{\partial L}{\partial \phi^a_{,\mu}}
-      \delta \phi^a_{,\mu}
+      \left(
+        \frac{d}{d x^\mu}
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}} 
+        \delta \phi^a_{,\nu}
+        +
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
+        \delta \phi^a_{,\nu \mu}
+        -
+        \frac{d^2}{ d x^\mu d x^\nu}
+        \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        \delta \phi^a
+        -
+        \frac{d}{d x^\nu}
+        \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        \delta \phi^a_{,\mu}
+      \right)
+      + \cdots
     \right)
     \wedge dvol_\Sigma
     \,,
   \end{aligned}
 $$
 
-where we used that 
+where in the last line we used that
 
 $$
   d x^{\mu_1} \wedge \iota_{\partial_{\mu_2}} dvol_\Sigma
@@ -707,37 +799,58 @@ $$
   \right.
 $$
 
-Similarly, using $\mathbf{L} = L dvol_\Sigma$ and that $d \mathbf{L} = 0$ by degree reasons, we find
+Here the two terms proportional to $\frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu \nu}} \delta \phi^a_{,\mu}$ 
+cancel out, and we are left with
 
 $$
-  \begin{aligned}
-    \mathbf{d}\mathbf{L}
-    & =
-    \left(
-      \frac{\partial L}{\partial \phi^a} \delta \phi^a 
-      +
-      \frac{\partial L}{\partial \phi^a_{,\mu}} \delta \phi^a_{,\mu} 
-      + 
-      \frac{\partial L}{\partial \phi^a_{,\mu_1 \mu_2}} \delta \phi^a_{,\mu_1 \mu_2}
-      + 
-      \cdots
-    \right)
-    \wedge dvol_{\Sigma}
-  \end{aligned}
+  d \Theta
+  \;=\;
+    -
+      \left(
+        \frac{d}{d x^\mu} \frac{\partial L}{\partial \phi^a_{,\mu}}
+        -
+        \frac{d^2}{ d x^\mu d x^\nu}
+        \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        +
+        \cdots
+      \right)
+      \delta \phi^a \wedge dvol_\Sigma
+        -
+      \left(
+        \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \delta \phi^a_{,\mu}
+        +
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
+        \delta \phi^a_{,\nu \mu}
+        +
+        \cdots
+      \right)
+      \wedge dvol_\Sigma
 $$
 
-Hence $-d \Theta$ shares with $\mathbf{d} \mathbf{L}$ the term proportional to $\delta \phi^a_{,\mu}$,
+
+Hence $-d \Theta$ shares with $\mathbf{d} \mathbf{L}$ the terms that are proportional to 
+$\delta \phi^a_{,\mu_1 \cdots \mu_k}$ for $k \geq 1$,
 and so the remaining terms are proportional to $\delta \phi^a$, as claimed:
 
 $$
   \mathbf{d}L + d \Theta
   =
+  \underset{
+    \delta_{EL}\mathbf{L}
+  }{
+  \underbrace{
   \left(
     \frac{\partial L}{\partial \phi^a}
     -
     \frac{d}{d x^\mu}\frac{\partial L}{\partial \phi^a_{,\mu}}
+    +
+    \frac{d^2}{d x^\mu d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu\nu}}
+    +
+    \cdots
   \right)
   \delta \phi^a \wedge dvol_\Sigma
+  }}
   \,.
 $$
 
@@ -759,16 +872,16 @@ then the corresponding _[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of
 on fields $\Phi \in \Gamma_\Sigma(E)$ is the equation
 
 $$
-  j^\infty(\Phi)^\ast \\left(\delta_{EL} \mathbf{L}\right) = 0
+  j^\infty(\Phi)^\ast \left(\delta_{EL} \mathbf{L}\right) = 0
   \,,
 $$
 
-where $j^\infty(\Phi) \colon \Sigma \to J^\infty(E)$ denotes the [[jet prolongation]] of $\Phi$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), $j^\infty(E)^\ast$ the operation of 
-[[pullback of differential forms]] along this function, and $\delta_{EL}$ is the 
+where $j^\infty(\Phi) \colon \Sigma \to J^\infty(E)$ denotes the [[jet prolongation]] of $\Phi$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), $j^\infty(E)^\ast$ the operation of
+[[pullback of differential forms]] along this function, and $\delta_{EL}$ is the
 [[Euler-Lagrange operator]] from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
 
-By that same proposition this equation is 
-equivalently the [[differential equation]] 
+By that same proposition this equation is
+equivalently the [[differential equation]]
 
 $$
   \left(
@@ -776,9 +889,13 @@ $$
       -
     \frac{d}{d x^\mu}
     \frac{\partial L}{\partial \phi^a_{,\mu}}
+    +
+    \frac{d^2}{d x^\mu d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu\nu}}
+    -
+    \cdots
   \right)
   \left(
-     (x^\mu), (\Phi^a), \left( \frac{\partial \Phi^a}{\partial x^\mu} \right)   
+     (x^\mu), (\Phi^a), \left( \frac{\partial \Phi^a}{\partial x^\mu}, \frac{\partial^2 \Phi^a}{\partial x^\mu \partial x^\nu} \right)
   \right)
   \;=\;
   0
@@ -798,11 +915,6 @@ differential equation.
 
 =--
 
-$$
- \Phi_U \coloneq U \times \Sigma \longrightarrow E
-$$
-
-goes to
 
 
 
