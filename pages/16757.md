@@ -25,6 +25,8 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 
 ### General
 
+* Peter Slodowy, _Simple singularities and simple algebraic groups_, in Lecture Notes in Mathematics 815, Springer, Berlin, 1980.
+
 * _[Classification of singularities](http://www.mathematik.uni-kl.de/~zca/Reports_on_ca/29/paper_html/node10.html)_
 
 * [[Miles Reid]], _The Du Val Singularities $A_n$, $D_n$, $E_6$, $E_7$, $E_8$_ ([pdf](http://homepages.warwick.ac.uk/~masda/surf/more/DuVal.pdf))
