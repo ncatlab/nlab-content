@@ -95,6 +95,8 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 * the [[Whitney extension theorem]]
 
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
+
 
 
 ## References
