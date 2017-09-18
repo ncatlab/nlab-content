@@ -352,3 +352,6 @@ Another, more algebraic, notion of a categorical ring is introduced in
 [[!redirects 2-rigs]]
 [[!redirects 2-ring]]
 [[!redirects 2-rings]]
+
+[[!redirects 2Rig]]
+[[!redirects 2Ring]]
