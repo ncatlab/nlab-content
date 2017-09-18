@@ -1,3 +1,4 @@
+[[!redirects locally covariant perturbative quantum field theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,9 +21,17 @@
 
 ## Idea
 
-What is called _locally covariant perturbative (algebraic) quantum field theory_ ([Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Brunetti-Fredenhagen-Verch 03](#BrunettiFredenhagenVerch03)) is a formulation of [[local quantum field theory|local]] [[perturbative quantum field theory|perturbative]] [[quantum field theory]] on general [[spacetimes]] (hence on general [[classical field theory|classical]] [[background field]] configurations of the field theory of [[gravity]]) which is both mathematically rigorous as well as closely connected to the traditional non-rigorous discussions.
+What is called _locally covariant perturbative algebraic quantum field theory_ ([Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Brunetti-Fredenhagen-Verch 03](#BrunettiFredenhagenVerch03)) is a formulation of [[local quantum field theory|local]] [[perturbative quantum field theory|perturbative]] [[quantum field theory]] [[AQFT on curved spacetimes|on general spacetimes]] (hence on general [[classical field theory|classical]] [[background field]] configurations of the field theory of [[gravity]]) which is both mathematically rigorous as well as closely connected to the traditional non-rigorous discussions, hence to [[phenomenology]] and [[experiment]].
 
-The approach uses the [[Haag-Kastler axioms]] for [[algebraic quantum field theory]] in a variant that demands only [[formal power series]] [[star-algebras]] [[algebra of observables|of observables]] instead of [[C*-algebras]] (this reflects the [[perturbation theory]]) and which evaluates [[local nets of observables]] not just on causal subspaces of [[Minkowski spacetime]] but on all [[globally hyperbolic Lorentzian manifolds]] (this reflects the extension to general curved spacetimes). 
+The approach uses the [[Haag-Kastler axioms]] for [[algebraic quantum field theory]] in a variant that 
+
+1. demands only [[formal power series]] [[star-algebras]] [[algebra of observables|of observables]] instead of [[C*-algebras]] 
+
+   (this reflects the [[perturbation theory]] in [[Planck's constant]] and the [[coupling constant]]) 
+
+1. evaluates [[local nets of observables]] not just on causal subspaces of [[Minkowski spacetime]] but on all [[globally hyperbolic Lorentzian manifolds]] 
+
+  (this reflects the extension to general curved spacetime backgrounds). 
 
 What connects this to the traditional discussion of QFT is the observation (in essence already due to [Il'in-Slavnov 78](#IlinSlavnov78) but then ignored) that standard [[renormalization]] theory (removal of ultraviolet divergencies) in the guise of [[causal perturbation theory]] ([Epstein-Glaser 73](#EpsteinGlaser73), [Scharf 95](#Scharf95)) automatically produces [[local nets]] of [[algebras of observables]] (due to "[[adiabatic switching]]" and causality of the S-matrix), in fact that considering these local nets instead of their would-be colimiting global algebra removes also the infrared divergencies from the theory.
 
