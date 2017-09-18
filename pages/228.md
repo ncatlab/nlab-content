@@ -19,7 +19,7 @@ An apartness relation is a [[binary relation]] that, instead of saying when two 
 
 Apartness relations are most used in [[constructive mathematics]]; in [[classical mathematics]], equivalence relations can take their place (mediated by [[negation]]).
 
-The apartness relations that we discuss here are sometimes called _point--point_ apartness, to distinguish this from the _set--set_ or _point-set_ apartness relations between [[subsets]] of an [[apartness space]] (which is related).
+The apartness relations that we discuss here are sometimes called __point--point apartness__, to distinguish this from the related concepts of _set--set_ or _point--set_ apartness relations; see [[proximity space]] and [[apartness space]] (respectively) for these.
 
 
 ## Definitions
@@ -145,12 +145,37 @@ I am also not sure in which sense you refer to the law of the excluded middle. S
    _[[Urs Schreiber|Urs]] replies to the reply:_ I like this statement "$(-1)\Cat = \Omega$". Would we also want to say $(-2)Cat = \{1 \stackrel{\top}{\to} \Omega\}$?
 
 
-[[!redirects apartness relation]]
-[[!redirects apartness relations]]
+[[!redirects apart]]
 [[!redirects apartness]]
 [[!redirects apartnesses]]
 
-[[!redirects tight apartness relation]]
-[[!redirects tight apartness relations]]
+[[!redirects apartness structure]]
+[[!redirects apartness structures]]
+[[!redirects apartness relation]]
+[[!redirects apartness relations]]
+
+[[!redirects point-point apartness space]]
+[[!redirects point-point apartness spaces]]
+[[!redirects point–point apartness space]]
+[[!redirects point–point apartness spaces]]
+[[!redirects point--point apartness space]]
+[[!redirects point--point apartness spaces]]
+[[!redirects point-point apartness structure]]
+[[!redirects point-point apartness structures]]
+[[!redirects point–point apartness structure]]
+[[!redirects point–point apartness structures]]
+[[!redirects point--point apartness structure]]
+[[!redirects point--point apartness structures]]
+[[!redirects point-point apartness relation]]
+[[!redirects point-point apartness relations]]
+[[!redirects point–point apartness relation]]
+[[!redirects point–point apartness relations]]
+[[!redirects point--point apartness relation]]
+[[!redirects point--point apartness relations]]
+
 [[!redirects tight apartness]]
 [[!redirects tight apartnesses]]
+[[!redirects tight apartness structure]]
+[[!redirects tight apartness structures]]
+[[!redirects tight apartness relation]]
+[[!redirects tight apartness relations]]
