@@ -2,3 +2,7 @@
 * [website](http://www.math.utexas.edu/users/blumberg/)
 
 category: people
+
+[[!redirects Andrew J. Blumberg]]
+[[!redirects Andrew J Blumberg]]
+[[!redirects A. Blumberg]]
