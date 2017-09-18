@@ -56,6 +56,10 @@ The [[long exact sequences of homotopy groups]] for each of the hooks in the tow
 
   * [[filtered spectrum]]
 
+## References
+
+* [[Paul Goerss]], [[Rick Jardine]], chapter VI of _[[Simplicial homotopy theory]]_, 1996
+
 [[!redirects towers of homotopy fibers]]
 
 [[!redirects tower of fibrations]]
