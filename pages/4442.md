@@ -29,9 +29,9 @@ The solutions to [[supergravity]] that preserve the maximum of 32 [[supersymmetr
 
 * $AdS_5 \times S^5$ in [[type II supergravity]]
 
-* $AdS_7 \times S^7$ in [[11-dimensional supergravity]]
+* $AdS_7 \times S^4$ in [[11-dimensional supergravity]]
 
-* $AdS_4 \times S^4$ in [[11-dimensional supergravity]]
+* $AdS_4 \times S^7$ in [[11-dimensional supergravity]]
 
 as well as their [[Minkowski spacetime]] and plane wave limits. These are the main [[KK-compactifications]] for the following examples-
 
