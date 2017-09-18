@@ -134,7 +134,7 @@ As such, the canonical map $\Pi(I) \to *$ is an [[equivalence]]
 after all, namely a [[weak homotopy equivalence]]. Therefore,
 after application of $\Pi$, what used to be a geometric 0-type
 becomes a [[(-1)-groupoid|(-1)-type]] and actually a
-[[(-2)-groupoid|(-2)-type]] ([[h-level]] 0) --  up to equivalence the [[interval type]] , but without any geometry.
+[[(-2)-groupoid|(-2)-type]] ([[h-level]] 0) --  up to equivalence the [[interval type]], but without any geometry.
 
 This latter property is what makes the interval important in bare
 [[homotopy theory]], where it serves to model notions
