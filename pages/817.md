@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -60,7 +60,7 @@ $$
  \prod_{c \in Obj(c)}
  D(F(c),G(c)) \otimes D(K(c),F(c))
  \stackrel{\prod_{c \in Obj(c)}\circ_{K(c), F(c), G(c)}}{\to}
- \prod_{c \in Obj(c)}D(K(c), F(c))
+ \prod_{c \in Obj(c)}D(K(c), G(c))
 $$
 equalizes the two maps appearing in the [[equalizer]] definition of the [[end]].
 
