@@ -131,6 +131,7 @@ Basic Examples:
 
 ### 6. Homology and cohomology
 
+
 #### 6.1 Generalized homology and cohomology
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
@@ -144,6 +145,8 @@ Basic Examples:
 #### 6.2 Ordinary homology and cohomology
 
 * [[ordinary cohomology]]
+
+* [[Künneth theorem]]
 
 * [[Hurewicz theorem]]
 
