@@ -1455,7 +1455,7 @@ Let $X\in SeqSpec(Top_{cg})$ be a [[sequential prespectrum]] with $j_X \colon X 
 
 =--
 
-([Schwede 97, lemma 2.1.3](#Schwede97))
+([Schwede 97, lemma 2.1.3 and remark before section 2.2](#Schwede97))
 
 +-- {: .proof}
 ###### Proof
