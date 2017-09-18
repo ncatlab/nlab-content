@@ -33,9 +33,11 @@ Among category theorists, it's popular to state the axioms of a structural set t
 
 * Another structural set theory, which is stronger than ETCS (since it includes the axiom of collection by default) and also less closely tied to category theory, is [[SEAR]].
 
-* Set theory set up in [[extensional type theory|extensional]] [[intuitionistic type theory]] via [[setoids]] is structural.  
+* Set theory set up in [[extensional type theory|extensional]] [[intuitionistic type theory]] via [[setoids]] is structural.
 
-* Set theory set up via [[h-sets]] in [[homotopy type theory]] is structural ([Rijke-Spitter 13](#RijkeSpitter13)). 
+* Local set theory avoids the use of any global universe but instead is formulated in a many-sorted language that has various forms of sorts including, for each sort a power-sort; see [Bell](#Bell) and [Aczel](#Aczel).
+
+* Set theory set up via [[h-sets]] in [[homotopy type theory]] is structural ([Rijke-Spitters 13](#RijkeSpitter13)). 
 
 ## Related Pages
 
@@ -55,6 +57,10 @@ Among category theorists, it's popular to state the axioms of a structural set t
 
 
 * {#RijkeSpitter13} [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+
+* John Bell, _Notes on toposes and local set theories_ [PDF](http://publish.uwo.ca/~jbell/NOTES%20ON%20TOPOSES%20AND%20LOCAL%20SET%20THEORIES.pdf)
+
+* Peter Aczel, _Local Constructive Set Theory and Inductive Definitions_, [PDF](http://www.cs.man.ac.uk/~petera/sommaruga-book-paper.pdf)
 
 [[!redirects structural set theory]]
 [[!redirects structural set theories]]
