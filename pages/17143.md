@@ -30,8 +30,9 @@ Hence $MU$ is the universal [[complex oriented cohomology theory]].
 ## Details
 
 
-### Conner-Floyd-Chern classes are Thom classes
+##### Conner-Floyd-Chern classes are Thom classes
 
+We discuss that for $E$ a [[complex oriented cohomology theory]], then the $n$th universal [[Conner-Floyd-Chern class]] $c^E_n$ is in fact a universal [[Thom class]] for rank $n$ [[complex vector bundles]]. On the one hand this says that the choice of a [[complex oriented cohomology theory|complex orientation]] on $E$ indeed universally [[orientation in generalized cohomology|orients]] all [[complex vector bundles]]. On the other hand, we interpret this fact [below](#ComplexOrientationAsRingSpectrumMaps) as the [[unitality]] condition on a [[homomorphism]] of [[homotopy commutative ring spectra]] $M U \to E$ which represent that universal orienation.
 
 +-- {: .num_lemma #SphereBundleBunminus1}
 ###### Lemma
@@ -52,7 +53,6 @@ exhibits $B U(n-1)$ as the [[sphere bundle]] of the [[universal vector bundle|un
 
 
 =--
-
 
 +-- {: .proof}
 ###### Proof
@@ -87,6 +87,72 @@ While the quotient $U(k)/(U(n-k)\times U(n))$ (the [[Grassmannian]]) divides out
 
 =--
 
+In particular:
+
++-- {: .num_lemma #UniversalComplexLineBundleThomSpace}
+###### Lemma
+
+The canonical map from the [[classifying space]] $B U(1) \simeq \mathbb{C}P^\infty$ (the inifnity [[complex projective space]]) to the [[Thom space]] of the [[universal vector bundle|universal]] [[complex line bundle]] is a [[weak homotopy equivalence]]
+
+$$
+  B U(1) 
+    \overset{\in W_{cl}}{\longrightarrow}
+  M U(1)
+   \coloneqq
+  Th( E U(1) \underset{U(1)}{\times} \mathbb{C})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that the [[circle group]] $U(1)$ is naturally identified with the unit sphere in $\mathbb{C}$: $U (1) \simeq S(\mathbb{S})$. Therefore the sphere bundle of the universal complex line bundle is equivalently the $U(1)$-[[universal principal bundle]]
+
+$$
+  \begin{aligned}
+    E U(1) \underset{U(1)}{\times} S(\mathbb{C})
+    & \simeq
+    E U(1) \underset{U(1)}{\times} U(1)
+    \\
+    & \simeq E U(1)
+  \end{aligned}
+  \,.
+$$ 
+
+But the [[universal principal bundle]] is [[contractible topological space|contractible]]
+
+$$
+  E U(1) \overset{\in W_{cl}}{\longrightarrow} \ast
+  \,.
+$$
+
+(Alternatively this is the special case of lemma \ref{SphereBundleBunminus1} for $n = 0$.)
+
+
+Therefore the [[Thom space]]
+
+$$
+  \begin{aligned}
+    Th( E U(1) \underset{U(1)}{\times} \mathbb{B} )
+    & \coloneqq
+    D( E U(1) \underset{U(1)}{\times} \mathbb{B} )
+    /
+    S( E U(1) \underset{U(1)}{\times} \mathbb{B} )
+    \\
+    & \overset{\in W_{cl}}{\longrightarrow}
+    D( E U(1) \underset{U(1)}{\times} \mathbb{B} )
+    \\
+    & \overset{\in W_{cl}}{\longrightarrow}
+    B U(1)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 
 +-- {: .num_lemma #UniversalComplexVectorBundleThomSpace}
 ###### Lemma
@@ -94,12 +160,9 @@ While the quotient $U(k)/(U(n-k)\times U(n))$ (the [[Grassmannian]]) divides out
 For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the [[relative cohomology]] of $B U(n)$ relative $B U(n-1)$
 
 $$
-  \begin{aligned}
-    \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
-    & 
-    \simeq
-    E^\bullet( B U(n), B U(n-1))
-  \end{aligned}
+  \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
+    \;\simeq\;
+  E^\bullet( B U(n), B U(n-1))
   \,.
 $$
 
@@ -193,7 +256,8 @@ Hence it is now sufficient to see that each factor restricts to a unit on the fi
 
 =--
 
-### Complex orientation as ring spectrum maps
+##### Complex orientation as ring spectrum maps
+ {#ComplexOrientationAsRingSpectrumMaps}
 
 For the present purpose:
 
@@ -238,7 +302,6 @@ Often one just requires that $\phi(c_1^E)$ is _a_ [[unit]], i.e. an invertible e
 
 =--
 
-
 +-- {: .num_lemma #S2SpectrumMapFromComplexOrientation}
 ###### Lemma
 
@@ -277,7 +340,7 @@ $$
 
 Notice that this is a [[CW-spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CWSpectrum), [lemma](Thom+space#ThomSpaceCWStructure)).
 
-In order to get a homomorphism of $S^2$-[[sequential spectra]], we need to find representatives $f _{2n} \;\colon\; M U_{2n} \longrightarrow E_{2n}$ of $c^E_n$ such that all the squares
+In order to get a homomorphism of $S^2$-[[sequential spectra]], we need to find representatives $f _{2n} \;\colon\; M U_{2n} \longrightarrow E_{2n}$ of $c^E_n$ (under the identification of lemma \ref{UniversalComplexVectorBundleThomSpace}) such that all the squares
 
 $$
   \array{
@@ -332,7 +395,7 @@ $$
   \,,
 $$
 
-where the maps denoted $c_k$ are any representatives of the Chern classes of the same name. Here the homotopy in the top square exhibits the fact that $c_1^E$ is a complex orientation, while the homotopy in the bottom square exhibits the Whitney sum formula for Chern classes ([prop.](Chern+class#WhitneySumChernClasses)).
+where the maps denoted $c_k$ are any representatives of the Chern classes of the same name, under the identification of lemma \ref{UniversalComplexVectorBundleThomSpace}. Here the homotopy in the top square exhibits the fact that $c_1^E$ is a complex orientation, while the homotopy in the bottom square exhibits the Whitney sum formula for Chern classes ([prop.](Chern+class#WhitneySumChernClasses)).
 
 Now since $M U$ is a [[CW-spectrum]], the total left vertical morphism here is a (Serre-)cofibration, hence a [[Hurewicz cofibration]], hence satisfies the [[homotopy extension property]]. This means precisely that we may find a map $f_{2n+1} \colon M U_{2(n+1)} \longrightarrow E_{2(n+1)}$ homotopic to the given representative $c_{n+1}$ such that the required square commutes strictly.
 
@@ -445,7 +508,7 @@ $$
   (B U(1) \simeq M U_{2} \overset{c_1}{\longrightarrow} E_2)
 $$
 
-constitutes a bijection from homotopy classes of homomorphisms of homotopy commutative ring spectra to complex orientations (def. \ref{StrictComplexOrientation}) on $E$.
+which sends a homomorphism $c$ of [[homotopy commutative ring spectra]] to its component map in degree 2, interpreted as a class on $B U(1)$ via lemma \ref{UniversalComplexLineBundleThomSpace}, constitutes a [[bijection]] from homotopy classes of homomorphisms of homotopy commutative ring spectra to complex orientations (def. \ref{StrictComplexOrientation}) on $E$.
 
 =--
 
@@ -481,7 +544,7 @@ $$
 
 ([prop.](lim^1+and+Milnor+sequences#CohomologyOfSpectraMilnorSequence)).
 
-Here the [[Mittag-Leffler condition]] is clearly satisfied, and hence the [[lim^1]]-terms vanishe, so that the canonical morphism
+Here the [[Mittag-Leffler condition]] is clearly satisfied (by lemma \ref{UniversalComplexVectorBundleThomSpace} all relevant maps are epimorphisms). Hence the [[lim^1]]-term vanishes, and so by exactness the canonical morphism
 
 $$
   E^0(M U) 
@@ -489,7 +552,7 @@ $$
   \underset{\longleftarrow}{\lim}_n E^0( \Sigma^{-2n} M U_{2n} )
 $$
 
-is an isomorphism. This says that two homotopy classes of morphisms $M U \to E$ are equal precisely already if all their component morphisms are homotopic.
+is an [[isomorphism]]. This says that two homotopy classes of morphisms $M U \to E$ are equal precisely already if all their component morphisms are homotopic (represent the same cohomology class).
 
 =--
 
