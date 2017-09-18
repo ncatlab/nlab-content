@@ -1,42 +1,24 @@
-author: AnonymousCoward
-company: 
-title: pseudo-Riemannian manifold
-subtitle: 
-slide_theme: default
-slide_footer: 
-slide_subfooter: 
-
-:category: S5-slideshow
-
-pseudo-Riemannian manifold
-==============
-
-My First Slide
------------------
-
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+###Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 #### Manifolds and cobordisms
-+--{: .hide}
++-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
 #### Riemannian geometry
-+--{: .hide}
++-- {: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 =--
 =--
 
+Like a [[Riemannian manifold]] is a smooth [[manifold]] equipped with a [[Riemannian metric]], a pseudo-Riemannian manifold is a [[manifold]] equipped with a [[pseudo-Riemannian metric]].  [[Lorentzian manifolds]], as well as Riemannian manifolds themselves, are special cases of pseudo-Riemannian manifolds.
 
 
-
-Like a [[Riemannian manifold]] is a smooth [[manifold]] equipped with a [[Riemannian metric]], a pseudo-Riemannian manifold is a [[manifold]] equipped with a [[pseudo-Riemannian metric]].
-
+[[!redirects pseudo-Riemannian manifold]]
 [[!redirects pseudo-Riemannian manifolds]]
