@@ -16,7 +16,7 @@
 
 ## Idea
 
-A **linearly distributive category** is a category with two [[monoidal structures]] $\otimes$ and $\invamp$ that "distribute" in the sense that there is a map (not necessarily invertible)
+A **linearly distributive category** is a [[category]] with two [[monoidal structures]] $\otimes$ and $\invamp$ that "distribute" in the sense that there is a map (not necessarily invertible)
 
 $$
    \delta \colon A \otimes (B \parr C) \longrightarrow (A \otimes B) \parr C
