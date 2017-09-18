@@ -24,7 +24,7 @@ Grothendieck's metaphor is also discussed at
 
 ## References
 
-* [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/mclarty1.pdf))
+* [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](http://www.cwru.edu/artsci/phil/RisingSea.pdf))
 
 
 category: reference
