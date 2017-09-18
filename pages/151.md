@@ -124,6 +124,8 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 
 * [[de Morgan duality]]
 
+* [[Isbell duality]]
+
 * [[unity of opposites]]
 
 * [[duality in physics]]
@@ -156,3 +158,6 @@ Discussion of duality specifically in [[homological algebra]] and [[stable homot
 
 [[!redirects abstract duality]]
 [[!redirects abstract dualities]]
+
+[[!redirects formal dual]]
+[[!redirects formal duals]]
