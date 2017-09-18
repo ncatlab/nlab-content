@@ -9,38 +9,38 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
 
+## Idea
+The definition of a [[smooth manifold]] is, as usual, given by
+
+: A smooth $n$-manifold is a topological space $M$ equipped with an open cover $U_\alpha$ with homeomorphisms $\phi_\alpha: U_\alpha \to \mathbb{R}^n$ such that the transition maps $\phi_\beta \circ \phi_\alpha^{-1}: \phi_\alpha(U_\alpha \cap U_\beta) \to \phi_\beta(U_\alpha \cap U_\beta)$ are smooth.
+
+If we replace $\mathbb{R}^n$ with some other topological space $X$ (eg. $\mathbb{C}^n$), and "smooth" with some other suitable restriction (eg. analytic), then we get a different kind of manifold. A pseudogroup is a structure we put on $X$ to specify what transition maps are allowed. The usage of pseudogroups to define the corresponding notion of manifolds is described at [[manifolds]].
 
 ## Definition
 
 +-- {: .num_defn #Pseudogroup}
 ###### Definition
+Let $X$ be a [[topological space]] (or [[locale]]) and let $H$ be the groupoid whose objects are the open subsets of $X$ and morphisms are the homeomorphisms between them. A **pseudogroup** (also called transformation pseudogroup) on $X$ is a [[wide subcategory|wide]] sub-groupoid $G$ of $H$ (ie. $G$ contains all open subsets of $X$) satisfying the [[sheaf]] property:
 
-A **[[pseudogroup]]** (also called transformation pseudogroup) on a [[topological space]] (or [[locale]]) $X$ is a [[groupoid]] $G$ each of whose [[objects]] is an [[open subset]] of $X$, and whose [[morphisms]] are [[homeomorphisms]] between such open sets, satisfying the following conditions:
+* If $g: U \to V$ is a homeomorphism and $U_\alpha$ is a cover of $U$, then $g$ is in $G$ if and only if each restriction $g|_{U_\alpha}: U_\alpha \to g(U_\alpha)$ is in $G$.
 
-* The objects [[cover]] $X$. (Equivalently, in light of the last axiom, every open set of $X$ is an object of $G$.)
-* If $g: V \to W$ belongs to $G$ and $U \subseteq V$ is an open set, then the restriction $g|_U: U \to g(U)$ belongs to $G$. (Equivalently, in light of the other axioms, every inclusion map $id|_U: U \to V$ belongs to $G$.)
-* ([[sheaf]] property) If $g: U \to V$ is a homeomorphism and if there is a covering $U_\alpha$ of $U$ such that the restrictions $g|_{U_\alpha}: U_\alpha \to g(U_\alpha)$ are morphisms of $G$, then $g$ is also morphism of $G$.
-
+Note that in particular the restriction of a map in $G$ remains in $G$.
 =--
 
 +-- {: .num_example}
 ###### Example
+We have the following correspondence between common pseudogroups and kinds of manifolds (the precise correspondence is defined in [[manifold]]):
 
-Commonly used choices for $X$ in def. \ref{Pseudogroup} include 
-
-* the [[Cartesian space]] $\mathbb{R}^n$ (for real manifolds)
-
-* the [[complex plane]] $\mathbb{C}^n$ (for [[complex manifolds]])
-
-* the half-space $H^n = \{(x_1, \ldots, x_n) \in \mathbb{R}^n: x_1 \geq 0\}$ (for [[manifolds with boundary]])
-
-* the $n$-[[cube]] $I^n = [0, 1]^n$. 
+| Topological space | Morphisms | Manifold |
+|--|--|--|
+| [[Cartesian space]] $\mathbb{R}^n$ | [[smooth maps]] | (n-dimensional) [[smooth manifolds]] |
+| [[complex plane]] $\mathbb{C}^n$ | [[analytic functions]] | (n-dimensional) [[complex manifolds]] |
+| Half-plane $H^n = \{(x_1, \ldots, x_n) \in \mathbb{R}^n: x_1 \geq 0\}$ | [[smooth maps]] | [[manifolds with boundary]]|
+| the $n$-[[cube]] $I^n = [0, 1]^n$ | [[smooth maps]] | [[manifolds with boundary|manifold with corners]] | 
 
 =--
 
