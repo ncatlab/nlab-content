@@ -39,7 +39,9 @@ The central theorem of perturbative superstring theory says that the spectrum of
 This is the fundamental prediction of the assumption of fundamental strings: assuming 1) that the particles that run in [[Feynman diagrams]] are fundamentally strings, and demanding 2) that there are fermionic particles among these, first implies that the strings must be [[spinning strings]] (have fermions on their worldsheet), which implies that they are [[superstrings]] (worldsheet [[supersymmetry]] mixes the worldsheet bosons and fermions), which then in additoon implies that their target space [[effective field theory]] is [[supergravity]], hence that also the effective target space fields exhibit local supersymmetry.
 
 $$
-  fermions \;+\; strings \;\Rightarrow\; supergravity
+  \underset{spinning\; string}{\underbrace{fermions \;+\; strings}}
+  \;=\; 
+  superstring \;\Rightarrow\; supergravity
   \,.
 $$
 
@@ -47,7 +49,7 @@ The first step in this implications (spinning string is superstring) is straight
 
 In order to improve on this situation, Green and Schwarz searched and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84)) a string [[action functional]]  that would manifestly exhibit spacetime supersymmetry. This is now called the _[[Green-Schwarz action functional]]_.
 
-The basic idea is to pass to the evident [[supergeometry|supergeometric]] analogue of the bosonic string action: Let $\Sigma$ be a [[closed manifold]] of [[dimension]] 2, then the [[action functional]] governing the [[bosonic string]] propagating in a purely gravitational [[spacetime]] background described by a [[pseudo-Riemmannian manifold]] $(X,g)$ 
+The basic idea is to pass to the evident [[supergeometry|supergeometric]] analogue of the bosonic string action: Let $\Sigma$ be a [[closed manifold]] of [[dimension]] 2, then the [[action functional]] governing the [[bosonic string]] propagating in a purely gravitational [[spacetime]] background described by a [[pseudo-Riemannian manifold]] $(X,g)$ 
 
 $$
   \exp(\tfrac{i}{\hbar} S_{bos})
@@ -70,7 +72,7 @@ $$
 
 When here $(X,g)$ is generalized to a [[superspacetime]] [[supermanifold]] with [[orthogonal structure]] encoded by a super-vielbein $e$, then the same form of the action functional still makes sense and produces a functional on the [[supergeometry|supergeometric]] [[mapping space]] $[\Sigma,X]$. Moreover, by construction this action functional is invariant under the [[superisometry group]] of $(X,g)$, hence under spacetime [[supersymmetry]].
 
-However, Green and Schwarz noticed that this functional does _not_ yield dynamics that is equivalent to that of the NSR string: when the [[equations of motion hold]] ("on shell") it has more fermionic degrees of freedom than present in the NSR string. They should however that an extra summand could be added to the plain super-Nambu-Goto action, such that the resulting functional enjoys a further 1-parameter symmetry, called _[[kappa-symmetry]]_. Then restricting to the $\kappa$-symmetric states, the action functionals become classically equivalent.
+However, Green and Schwarz noticed that this functional does _not_ yield dynamics that is equivalent to that of the NSR string: when the [[equations of motion]] hold ("on shell") it has more fermionic degrees of freedom than present in the NSR string. They should however that an extra summand could be added to the plain super-Nambu-Goto action, such that the resulting functional enjoys a further 1-parameter symmetry, called _[[kappa-symmetry]]_. Then restricting to the $\kappa$-symmetric states, the action functionals become classically equivalent.
 
 Moreover, they showed that in [[light-cone gauge]] the resulting quantum dynamics is equivalent to that of the [[NSR string]], thus providing a coceptual proof for the observed local spacetime supersymmetry for backgrounds that admit two lightlike Killing vectors. (The quantization of the GS-string away from lightcone gauge however remains an open problem.)
 
@@ -107,7 +109,7 @@ $$
   \,.
 $$
 
-In order to get rid of the restriction to some $U \subset X$ one needs to add global data. The need for this is at least mentioned briefly in ([Witten 86, p. 261 (17 of 20)](#Witten86)), but has otherwise been ignored in the physics literature. The general solution is to promote the local potentials $B$ to the connection $\hat B$ on a [[Super Gerbes|super gerbe]] ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)). Writing $\int_\Sigma \phi^\ast \hat B$ for the [[volume holonomy]] of a [[line 2-bundle with connection]] $\hat B$, then the globally defined Green-Schwarz sigma model 
+In order to get rid of the restriction to some $U \subset X$ one needs to add global data. The need for this is at least mentioned briefly in ([Witten 86, p. 261 (17 of 20)](#Witten86)), but has otherwise been ignored in the physics literature. The general solution is to promote the local potentials $B$ to the connection $\hat B$ on a [[Super Gerbes|super gerbe]] ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)). Writing $\int_\Sigma \phi^\ast \hat B$ for the [[volume holonomy]] of a [[circle 2-bundle with connection]] $\hat B$, then the globally defined Green-Schwarz sigma model 
 
 $$
   \exp(\tfrac{i}{\hbar} S_{GS}) 
@@ -131,7 +133,7 @@ The triples $(d,\mathbf{N},p)$ (spacetime dimension, number of supersymmetries, 
 For instance for $(d = 11, \; \mathbf{N} = \mathbf{32}, \; p = 2)$ one finds a cocycle, and the corresponding GS-action functional is that of the fundamental [[M2-brane]].
 
 
-Later it was found that the other branes ([[D-branes]] and [[nLab:M5-branes]]) are also of this general form, if only we pass to "[[nLab:extended Minkowski spacetimes]]". In ([FSS 13](#FSS13)) these extended super Minkowski spacetimes were shown to be [[nLab:super Lie n-algebra]] of [[super infinity groups]].
+Later it was found that the other branes ([[D-branes]] and [[nLab:M5-branes]]) are also of this general form, if only we pass to "[[extended super Minkowski spacetimes]]". In ([FSS 13](#FSS13)) these extended super Minkowski spacetimes were shown to be [[super Lie n-algebra]] of [[smooth super infinity-groups]].
 
 In this generality, the Green-Schwarz-type action functionals describe _all_ the [[p-branes]] in [[string theory]]/[[M-theory]]. And it is the "fundamental" branes which they describe (subject to the caveat that the [[quantization]] of the GS-functional is understood only in special cases).
 
