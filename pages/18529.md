@@ -17,7 +17,7 @@
 
 ## Idea
 
-A central result in the construction of [[perturbative quantum field theories]] via the method of [[causal perturbation theory]] is called the _main theorem of perturbative renromalization theory_. This says that any two _[[renormalization]] schemes_, hence any two solutions to the inductive construction of the [[S-matrix]] $V \mapsto S(V)$ for [[interaction]] terms $V$, are related by a unique natural transformation $Z \colon V \to V'$
+A central result in the construction of [[perturbative quantum field theories]] via the method of [[causal perturbation theory]] is called the _main theorem of perturbative renormalization theory_. This says that any two _[[renormalization]] schemes_, hence any two solutions to the inductive construction of the [[S-matrix]] $V \mapsto S(V)$ for [[interaction]] terms $V$, are related by a unique natural transformation $Z \colon V \to V'$
 
 $$
   S' = S \circ Z
