@@ -66,14 +66,14 @@ $$(1_A \times i_B)\langle 1_A, f \rangle = \langle 1_A, i_B f \rangle = \langle 
 whence $\langle 1_A, f\rangle = \langle 1_A, g\rangle: A \to A \times B$ since $1_A \times i_B$ is monic. It follows that $f = g$, as was to be shown. 
 =-- 
 
-+-- {: .num_cor} 
-###### Corollary 
++-- {: .num_prop} 
+###### Proposition  
 In a distributive category, the [[initial object]] is [[strict initial object|strict]]. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-The coprojection $0 \to 0 + 1 \cong 1$ is monic. Given $f, g: A \to 0$, their compositions with $i: 0 \to 1$ are equal since $1$ is [[terminal object|terminal]]. Since $i$ is monic, we conclude $f = g$. 
+Given an arrow $f: A \to 0$, we have that $\pi_A: A \times 0 \to A$ is a retraction of $\langle 1, f \rangle: A \to A \times 0$, so that $A$ is a retract of $A \times 0 \cong 0$. But retracts of initial objects are initial. 
 =-- 
 
 ## Related concepts
