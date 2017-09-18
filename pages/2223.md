@@ -113,6 +113,14 @@ exhibits $N$ as a normal subgroup of the [[semidirect product group]] $G \ltimes
 
 =--
 
+
++-- {: .num_prop #inverse} 
+###### Proposition 
+If $N$ is a normal subgroup of $H$ and $\phi: G \to H$ is a group homomorphism, then the [[inverse image]] $\phi^{-1}(N)$ is normal in $G$ and $\phi$ induces a group homomorphism $G/f^{-1}(N) \to H/N$. 
+=-- 
+
+The proof is entirely straightforward and will be omitted. 
+
 ### Normal sub-2-groups
 
 +-- {: .num_example #CrossedModulesAreHomotopyNormalGroupMaps}
