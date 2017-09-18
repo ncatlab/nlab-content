@@ -16,7 +16,6 @@ This page is currently under construction, and will be far from acceptable quali
 [interval](https://ncatlab.org/nlab/show/interval+object)
 [identity](https://ncatlab.org/nlab/show/identity-assigning+morphism)
 [partial function](https://ncatlab.org/nlab/show/partial+function#in_terms_of_the_maybe_monad)
-[decalage](https://ncatlab.org/nlab/show/decalage#DecalageComonad)
 [quasicategory](https://ncatlab.org/nlab/show/quasi-category)
 [multicategory](https://ncatlab.org/nlab/show/generalized+multicategory)
 
@@ -34,6 +33,13 @@ This page is currently under construction, and will be far from acceptable quali
 [tangence](https://ncatlab.org/nlab/show/tangent+%28infinity%2C1%29-category)
 [bar construction](https://ncatlab.org/nlab/show/bar+construction)
 [homotopy coherent nerve](https://ncatlab.org/nlab/show/homotopy+coherent+nerve)
+[ambidexterity](https://ncatlab.org/nlab/show/ambidextrous+adjunction#examples)
+
+[proarrow](https://ncatlab.org/nlab/show/2-category+equipped+with+proarrows)
+[profunctor adjunction](https://ncatlab.org/nlab/show/profunctor#comparing_fibrations_and_cofibrations)
+[double negation](https://ncatlab.org/nlab/show/dependent+linear+type+theory#FundamentalClasses)
+[function algebras](https://ncatlab.org/nlab/show/function+algebras+on+infinity-stacks)
+[free loop space object](https://ncatlab.org/nlab/show/free+loop+space+object)
 
 [oriental](https://ncatlab.org/nlab/show/oriental) 
 [omega-nerve](https://ncatlab.org/nlab/show/omega-nerve)
@@ -47,12 +53,6 @@ This page is currently under construction, and will be far from acceptable quali
 [simplicial model category](https://ncatlab.org/nlab/show/simplicial+model+category)
 [weak factorization](https://ncatlab.org/nlab/show/weak+factorization+system)
 [semi-simplicial object](https://ncatlab.org/nlab/show/semi-simplicial+object)
-
-[proarrow](https://ncatlab.org/nlab/show/2-category+equipped+with+proarrows)
-[profunctor adjunction](https://ncatlab.org/nlab/show/profunctor#comparing_fibrations_and_cofibrations)
-[double negation](https://ncatlab.org/nlab/show/dependent+linear+type+theory#FundamentalClasses)
-[function algebras](https://ncatlab.org/nlab/show/function+algebras+on+infinity-stacks)
-[free loop space object](https://ncatlab.org/nlab/show/free+loop+space+object)
 
 [nucleus](https://ncatlab.org/nlab/show/nucleus+of+a+profunctor)
 [LT topology](https://ncatlab.org/nlab/show/Lawvere-Tierney+topology)
@@ -72,7 +72,6 @@ This page is currently under construction, and will be far from acceptable quali
 [preset](https://ncatlab.org/nlab/show/preset)
 [class](https://ncatlab.org/nlab/show/proper+class)
 [Grothendieck universe](https://ncatlab.org/nlab/show/Grothendieck+universe)
-[tensionality](https://ncatlab.org/nlab/show/type+theory#ExtensionalIntensional)
 
 [category-type](https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory)
 [dependent linear tt](https://ncatlab.org/nlab/show/dependent+linear+type+theory)
