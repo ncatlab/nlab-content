@@ -4863,6 +4863,52 @@ where the horizontal adjunctions are the canonically induced (via [this prop.](I
 
 =--
 
+We consider some immediate consequences:
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $K \in Top^{\ast/}_{cg}$ be homeomorphic to a [[cell complex]] with a [[finite number]] of cells. Then the functor of smash [[tensoring]] $(-) \wedge K \;\colon\; SeqSpec(Top_{cg}) \longrightarrow SeqSpec(Top_{cg})$ with $K$ (def. \ref{TensoringAndPoweringOfSequentialSpectra}) preserves [[stable weak homotopy equivalences]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Write $K_n$ for the $n$th stage of the CW-complex structure, with $K_0 = \ast$. It is clear that smash tensoring with $K_0$ preserves stable weak homotopy equivalences. So proceed by [[induction]] and assume that smash tensoring with $K_i$ preserves stable weak homotopy equivalences. Then $K_{i+1}$ is given by a [[pushout]] in $Top_{cg}$ of the form
+
+$$
+  \array{
+    S^{n_i-1} &\longrightarrow& K_i &\longrightarrow& \ast
+    \\
+    \downarrow &(po)& \downarrow &(po)& \downarrow
+    \\
+    D^{n_i} &\longrightarrow& K_{i+1} &\longrightarrow& S^{n_i}
+  }
+  \,,
+$$
+
+where we also indicate the [[cofiber]] of $K_i \to K_{i+1}$.
+Equivalently this is a pushout in $Top^{\ast/}_{cg}$ of the form
+
+$$
+  \array{
+    S^{n_i-1}_+ &\longrightarrow& K_i &\longrightarrow& \ast
+    \\
+    \downarrow &(po)& \downarrow &(po)& \downarrow
+    \\
+    D^{n_i}_+ &\longrightarrow& K_{i+1} &\longrightarrow& S^{n_i}
+  }
+  \,.
+$$
+
+Notice that the cofiber is still $S^{n_i}$, only that it is now regarded as a pointed topological space. Moreover, since $K_i \to K_{i+1}$ is 
+
+Now let $f \colon X \longrightarrow Y$ be a morphism in $SeqSpec(Top_{cg})$. 
+
+spring
+
+=--
 
 
 ##### Cofibrant generation
