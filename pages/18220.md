@@ -53,6 +53,8 @@ of the pointwise [[stabilizer]] of $M$ in $N$ into the full automorphism group o
 
 ## References
 
+* Dave Marker, (2002), _Model theory: an introduction_, section 2.3
+
 [[!redirects elementary diagram]]
 [[!redirects quantifier-free diagram]]
 [[!redirects diagram (in model theory)]]
