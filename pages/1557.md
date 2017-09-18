@@ -37,6 +37,8 @@ So, a (2,1)-category is in particular modeled by
 
 * [[hom-groupoid]]
 
+* [[equivalence of (2,1)-categories]]
+
 * [[monoidal (2,1)-category]], [[symmetric monoidal (2,1)-category]]
 
 
