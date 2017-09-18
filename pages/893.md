@@ -1,3 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+ {#Idea}
+
+There are many systems of _[[formal logic]]_. By "classical logic" one broadly refers to those such systems which reflect the kind of logic as understood, quite literally, by the classics, say starting with [[Aristotelian logic]]. If you have never heard of any alternative system of logic, then classical logic is just the kind of logic that you do have heard about.
+
+There is some variance in what exactly counts as classical and as non-classical in [[logic]], but one main characteristic of classical logic is its use of the _[[principle of excluded middle]]_. This says that every [[proposition]] is either [[true]] or [[false]].
+
+It is the apparent self-evidency of this principle of excluded middle that made people take it for granted for a long period of 
+human civilization, such that it became "classical". 
+
+One consequence of the [[principle of excluded middle]] in classical logic is the possibility to
+obtain [[proof]] of a [[proposition]] by showing that its [[negation]] is [[false]] ([[proof by contradiction]]).
+Evident as this may superficially seem, it has the noteworthy consequence that one may for instance prove 
+[[existential quantifier|existence]] of mathematical objects without having any way to actually construct an example.
+
+This "non-constructive" nature of classical logic eventually led people to consider alternative and hence _non-classical_
+systems of logic, such as [[constructive logic]]/[[intuitionistic logic]], where the [[principle of excluded middle]],
+and possibly other principle of classical logic, are not considered by default.
+
+There are other principles that are often associated with classical logic, which still seemed self-evident at a time,
+but maybe less so than the principle of excluded middle. One such is the _[[axiom of choice]]_ or one of its
+equivalent incarnations, such as [[Zorn's lemma]]. The presently most popular formal [[foundation of mathematics]] via the [[set theory]] called _[[ZFC]]_ embodies both the [[principle of excluded middle]] as well as the [[axiom of choice]]. In this form classical logic serves as the foundation for _[[classical mathematics]]_. 
+
+
+
+## Details
+
 Classical logic is the form of [[logic]] usually accepted as standard and traced back (at least) to Aristotle.  The particular features that distinguish classical logic are (perhaps not a complete list):
 
 * a [[distributive lattice]] of logical operations ($\wedge$ and $\vee$);
@@ -7,3 +50,10 @@ Classical logic is the form of [[logic]] usually accepted as standard and traced
 In contrast, [[minimal logic|minimal]], [[intuitionistic logic|intuitionistic]], and (some forms of) [[paraconsistent logic|paraconsistent]] logics have the distributive lattice and the structural rules but no involutory negation.  On the other hand, [[linear logic]] and (other forms of) paraconsistent logic have the distributive lattice and the involutory negation but lack some structural rules.  Then again, [[quantum logic]] and (yet other forms of) paraconsistent logic have the structural rules and the involutory negation but lack the distributive lattice.
 
 In [[category theory]] (and in the [[foundations]] of mathematics generally), intuitionistic logic is most often contrasted to classical logic; the difference is given by the law of [[excluded middle]], which holds classically but not intuitionistically.
+
+## Relate concepts
+
+* [[material set theory]]
+
+
+[[!redirects classical logics]]
