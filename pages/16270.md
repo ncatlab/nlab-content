@@ -29,6 +29,7 @@ and are not, and appear to be and appear not to be.
 
 > Most true.
 
+The Parmenides dialogue is also the main source on _[[Zeno]]_.
 
 #Contents#
 * table of contents
