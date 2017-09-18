@@ -1,4 +1,6 @@
 
+$\bigcirc$
+
 $$
   \array{
     G && \longrightarrow && \ast
