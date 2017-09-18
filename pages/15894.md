@@ -115,7 +115,7 @@ The axiom of [[univalence]] added to [[Martin-Löf type theory]] implies all of 
 
 1. [[quotient types]]
 
-1. [[higher inductive types]]
+1. [[higher inductive types]] with nontrivial homotopies,
 
    Which in turn imply a wealth of further structure such as (but not limited to)
 
