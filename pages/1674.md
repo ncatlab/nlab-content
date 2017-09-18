@@ -92,6 +92,44 @@ $$P \stackrel{incl}{\to} A + P \cong 2^P \cong 2^{P + P} \cong 2^P \times 2^P \s
 where $\pi_1$ denotes first projection. Let $C$ be an element not in the image of $f$, e.g., $C = \{x \in P: x \notin f(x)\}$ ([[Cantor's theorem]]). It follows that under the bijection $A + P \cong 2^P \times 2^P$, those elements of $A + P$ that map to elements of the fiber $\pi_1^{-1}(\{C\})$ can only belong to the summand $A$. Thus it is a subset of $A$ that maps bijectively onto $\pi_1^{-1}(\{C\}) \cong 2^P$, and this proves $|2^P| \leq |A|$. 
 =-- 
 
+### Equivalent forms of AC 
+
+Methods somewhat similar to those used to prove GCH implies AC can be used to establish equivalent forms of AC. 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Tarski)** 
+Over ZF (or ETCS), the axiom of choice holds iff every infinite set $Y$ can be put into bijection with its square: $Y^2 \cong Y$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The more interesting direction is the "if", so we assume every infinite set can be put into bijection with its square. 
+
+It suffices to prove that every $X$ can be well-ordered. WLOG we prove this for infinite $X$, since every $X$ embeds in a Dedekind infinite set (such as $X + \mathbb{N}$), and we can pull back a well-order on the latter along such an embedding to one on the former. 
+
+For infinite $X$, let $Y$ be the disjoint union $X + \aleph(X)$, and let $\phi: Y \times Y \to Y$ be a bijection. We claim that for all $x \in X$, there exist $\alpha, \beta \in \aleph(X)$ such that $\phi(x, \alpha) = \beta$. If that were not true, then there would exist $x \in X$ such that for all $\alpha \in \aleph(X)$ we have $\phi(x, \alpha) \notin \aleph(X)$, or in other words for all $\alpha \in \aleph(X)$ we have $\phi(x, \alpha) \in X$, so that $\phi(x, -)$ defines an injection $\aleph(X) \rightarrowtail X$. This is impossible. 
+
+By the claim, for each $x \in X$ there is a least pair $(\alpha_x, \beta_x) \in \aleph(X)^2$, considered in [[lexicographic order]], such that $\phi(x, \alpha_x) = \beta_x$. This assignment $x \mapsto (\alpha_x, \beta_x)$ defines an embedding $X \to \aleph(X)^2$ into a well-ordered set, so that $X$ inherits a well-order by restriction along the embedding, and we are done. 
+=-- 
+
+A very similar method establishes the following claim. 
+
++-- {: .num_prop} 
+###### Proposition 
+Over ZF, AC is equivalent to the statement that every set admits a group structure. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Every finite set admits a cyclic group structure, and under AC any infinite set can be put into bijection with the collection of finite subsets, which forms a group under symmetric difference. 
+
+Conversely, suppose $Y = X + \aleph(X)$ admits a group structure. Then for every $x \in X$, there exist $\alpha, \beta \in \aleph(X)$ such that $x\alpha = \beta$. For if that were not true, then there exists $x \in X$ such that for all $\alpha \in \aleph(X)$, we have $x \alpha \notin \aleph(X)$, i.e., for all $\alpha \in \aleph(X)$ we have $x\alpha \in X$, which implies left multiplication by $x$ defines an injection $\aleph(X) \rightarrowtail X$, contradiction. 
+
+So for each $x \in X$, there exists a least $(\alpha_x, \beta_x) \in \aleph(X)^2$ in lexicographic order such that $x \alpha_x = \beta_x$. This again defines an embedding $x \mapsto (\alpha_x, \beta_x)$ into a well-ordered set $\aleph(X)^2$, and we are done. 
+=-- 
+
+
 ## Examples
 
 For $n$ a [[natural number]] regarded as the cardinal number of a [[finite set]], $n^+$ is the usual [[successor]] $n + 1$.  This result uses excluded middle; else we get the _plump_ successor of $n$, which may be rather larger.
