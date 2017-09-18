@@ -1113,6 +1113,7 @@ for the [[smooth spectrum]] induced by def. \ref{HopkinsSingerPullback}) from th
 
 
 
+
 #### Smooth vector bundles with connection and the $e$-invariant
  {#SoothVectorBundlesWithConnectionAndEInvariant}
 
@@ -1302,3 +1303,5 @@ See also
 [[!redirects differential cohomology diagrams]] 
 
 [[!redirects differential cohomology hexagon]]
+
+[[!redirects differential hexagon]]
