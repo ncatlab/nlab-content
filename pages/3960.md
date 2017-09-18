@@ -25,7 +25,7 @@
 
 ## Idea
 
-In [[topology]] the _path space_ of a [[topological space]] $X$ is a _topological space of all continuous [[paths]]_ $X$.
+In [[topology]] the _path space_ of a [[topological space]] $X$ is a _topological space of all continuous [[paths]]_ in $X$.
 
 In [[topological homotopy theory]] the path space constrution serves to exhibit [[homotopies]] in the guise of _[[right homotopies]]_. This situation generalizes to many other [[model categories]] and one speaks more generally of _[[path space objects]]_ in this case.
  
@@ -66,7 +66,7 @@ $$
   }
 $$
 
-If $X$ is equipped with a choice of basepoin $x \colon \ast \to X$ (making it a [[pointed topological space]]), then the further [[fiber product]] with this base point inclusion is the based [[loop space]] $\Omega_x X$:
+If $X$ is equipped with a choice of basepoint $x \colon \ast \to X$ (making it a [[pointed topological space]]), then the further [[fiber product]] with this basepoint inclusion is the based [[loop space]] $\Omega_x X$:
 
 
 $$
