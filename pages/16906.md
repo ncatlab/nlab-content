@@ -6,7 +6,14 @@ Symmetrically, a left semiquantale is a complete lattice $P$ with an associative
 
 $$  \left(\Vee_\alpha b_\alpha\right)\bullet c= \Vee_\alpha (b_\alpha \bullet c),\,\,\,\,\,c, b_\alpha\in P.$$
 
-The main example of a right semiquantale is the lattice of the [[topologizing filter]]s of right (or left) ideals. The ordering is the reverse inclusion, thus the intersection is the supremum. The intersection of topologizing filters is topologizing, the lattice is complete and the product is the [[Gabriel multiplication]]
+The main example of a right semiquantale is the lattice of the [[topologizing filter]]s of right (or left) ideals. 
+These are the filters $\mathcal{F}\subset I_r R$ such that for all $I\in\mathcal{F}$
+$$
+   (I:r) := \{s\in R \,|\, r s\in I\}
+$$
+is also in $\mathcal{F}$ (i.e. $\mathcal{F}$ is a [[uniform filter]]) and if $J\in \mathcal{F}$ and $(I:r)\in I$ for all $r\in J$ then $I\in \mathcal{F}$.
+
+The ordering is the reverse inclusion, thus the intersection is the supremum. The intersection of topologizing filters is topologizing, the lattice is complete and the product is the [[Gabriel multiplication]]
 
 $$\mathcal{F}\bullet \mathcal{G} = \{ K\in I_r R\,|\,\exists L\in\mathcal{G}, \forall r\in R, (I:r)\in\mathcal{F}\} $$
 
