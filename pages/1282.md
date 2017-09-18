@@ -46,7 +46,7 @@ $$
 $$
 This is given by the usual product of sets, which can be constructed as the set of [[Kuratowski pairs]]
 $$
-  A \times B = \{ \{\{a\}, \{a, b\}: a \in A, b \in B\}.
+  A \times B = \{ \{\{a\}, \{a, b\}\}: a \in A, b \in B\}.
 $$
 We tend to write $(a, b)$ instead of $\{\{a\}, \{a, b\}\}$.
 
