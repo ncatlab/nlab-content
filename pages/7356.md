@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
 =--
 =--
 
@@ -21,7 +25,7 @@ _F-theory_ is a toolbox for describing [[type IIB string theory]] backgrounds --
 
 More technically, F-theory is what results when [[KK-compactification|KK-compactifying]] [[M-theory]] on an [[elliptic fibration]] (which yields [[type IIA superstring theory]] compactified on a [[circle]]-[[fiber bundle]]) followed by [[T-duality]] with respect to one of the two cycles of the elliptic fiber. The result is (uncompactified) [[type IIB superstring theory]] with [[axio-dilaton]] given by the moduli of the original elliptic fibration, see [below](#From11dSupergravity). 
 
-Or rather, this is type IIB string theory with some [[non-perturbative effects]] included. With a full description of [[M-theory]] available also F-theory should be a full non-perturbative description of type IIB string theory, but absent that it is some kind of approximation. For instance while the [[modular group|modular]] [[structure group]] of the [[elliptic fibration]] in principle encodes (necessarily non-perturbative) [[S-duality]] effects, it is presently not actually known in full detail how this affects the full theory, notably the proper charge quantization law of the 3-form fluxes, see at _[S-duality -- Cohomological nature of the fields under S-duality](S-duality#CohomologicalNatureOfTypeIIFieldsUnderSDuality)_  for more on that.
+Or rather, this is [[type IIB string theory]] with some [[non-perturbative effects]] included, reducing to [[perturbative string theory]] in the [[Sen limit]]. With a full description of [[M-theory]] available also F-theory should be a full non-perturbative description of type IIB string theory, but absent that it is some kind of approximation. For instance while the [[modular group|modular]] [[structure group]] of the [[elliptic fibration]] in principle encodes (necessarily non-perturbative) [[S-duality]] effects, it is presently not actually known in full detail how this affects the full theory, notably the proper charge quantization law of the 3-form fluxes, see at _[S-duality -- Cohomological nature of the fields under S-duality](S-duality#CohomologicalNatureOfTypeIIFieldsUnderSDuality)_  for more on that.
 
 
 
@@ -93,7 +97,7 @@ The general [[vacuum]] of [[type II superstring theory]] (including [[type I sup
 
 The [[target space]] data of an [[orientifold]] is a $\mathbb{Z}_2$-[[principal bundle]]/[[local system]], possibly singular (hence possibly on a [[smooth stack]]). On the other hand, the non-singular part of the [[elliptic fibration]] that defines the F-theory is a $SL_2(\mathbb{Z})$-[[local system]] (being the "homological invariant" of the [[elliptic fibration]]). 
 
-An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory data does induce the [[orientifold]] data along the [[subgroup]] inclusion $\mathbb{Z}_2 \hookrightarrow SL_2(\mathbb{Z})$.
+An argument due to ([Sen 96](#Sen96), [Sen 97](#Sen97)) says that the F-theory data does induce the [[orientifold]] data along the [[subgroup]] inclusion $\mathbb{Z}_2 \hookrightarrow SL_2(\mathbb{Z})$. See at _[[Sen limit]]_.
 
 The degeneration locus of the elliptic fibration -- where the [[discriminant]] $\Delta$ vanishes and its fibers are the [[nodal curve]] -- is interpreted as that of [[D7-branes]] and [[O-planes|O7-planes]] (e.g. [Sen 97, (3)](#Sen97), [Blumenhagen 10, (11)](#Blumenhagen10)), see [below](#SingularLocusAndD7Branes).
 
