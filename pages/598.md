@@ -348,7 +348,7 @@ For $\mathcal{G}$ a [[simplicial groupoid]] that on objects is a constant simpli
 
 * $(\overline{W}\mathcal{G})_0 := ob(\mathcal{G}_0)$, the set of objects of the groupoid of 0-simplices (and hence of the groupoid at each level);
 
-* $(\overline{W}\mathcal{G})_1 = Mor(\mathcal{G}_0)$, the collecton of [[morphism]]s of the groupoid $\mathcal{G}_0$:
+* $(\overline{W}\mathcal{G})_1 = Mor(\mathcal{G}_0)$, the collection of [[morphism]]s of the groupoid $\mathcal{G}_0$:
 
 and for $n \geq 2$,
 
