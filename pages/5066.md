@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _higher homotopy van Kampen theorem_ is a theorem that asserts that the [[homotopy type]] of a [[topological space]] can be computed by a suitable [[colimit]] or [[homotopy colimit]] over homotopy types of its pieces.
+One form of a  _higher homotopy van Kampen theorem_ is a theorem that asserts that the [[homotopy type]] of a [[topological space]] can be computed by a suitable [[colimit]] or [[homotopy colimit]] over homotopy types of its pieces. Another form which allows specific computation deals with spaces with certain kinds of structure, for example filtered spaces or $n$-cubes of spaces. 
 
 This generalizes the [[van Kampen theorem]], which only deals with the underlying 1-type (the fundamental groupoid).
 
@@ -101,7 +101,7 @@ Here is one application in dimension 2 not easily obtainable by traditional [[al
 
 Let $0 \to P \to Q \to R \to 0$ be an [[exact sequence]] of [[abelian groups]]. Let $X$  be the [[mapping cone]] of the induced map $K(P,1) \to K(Q,1)$ of [[Eilenberg-Mac Lane space]]s. Then a [[crossed module]] representing the [[homotopy 2-type]] of $X$ is $\mu: C \to Q$ where $C$ is abelian and is the direct sum $\oplus_{r \in R} P^r$  of copies of $P$ one for each $r \in R$ and the action of $Q$ is via $R$ and permutes the copies by $(p,r)^s=(p,r+s)$. Similar examples for $P,Q,R$ nonabelian are do-able,   more complicated, and certainly **not** obtainable by traditional methods.
 
-
+See also the CT2015 presentation [Brown]{#RBrown) given below. . 
 
 
 
@@ -115,6 +115,9 @@ The version for topological spaces and the [[fundamental infinity-groupoid]] fun
 The version for filtered topological spaces and the strict homotopy $\infty$-groupoid functor is discussed in
 
 * [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_
+
+* [[Ronnie Brown]] "A philosophy of modelling and computing homotopy types", Seminar 
+to CT2015, Aveiro, June 2015. (http://pages.bangor.ac.uk/~mas010/pdffiles/aveiro-beamer-handout.pdf (pdf)) {#RBrown}
 
 [[!redirects Higher Homotopy van Kampen Theorem]]
 [[!redirects higher homotopy van Kampen Theorem]]
