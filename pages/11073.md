@@ -32,7 +32,7 @@ In the case that the graded group of interest is indeed $\Sigma$, we can define 
 +-- {: .num_defn}
 ###### Definition
 
-A **$\Sigma$-symmetric sequence** in a [[symmetric monoidal category]] $C$ is a symmetric monoidal functor from $FinSet$, the [[category]] of [[finite sets]] and [[bijections]], to $C$. 
+A **$\Sigma$-symmetric sequence** in a [[symmetric monoidal category]] $C$ is a functor from $FinSet$, the [[category]] of [[finite sets]] and [[bijections]], to $C$. 
 
 =--
 
