@@ -423,7 +423,7 @@ $$
 
 is called [[super Minkowski spacetime]] (equipped with its [[super translation Lie algebra]] structure).
 
-From this, a super-Cartan geometry is defined in direct analogy to the Cartan formulation of Riemannian geometry
+From this, a [[super-Cartan geometry]] is defined in direct analogy to the Cartan formulation of Riemannian geometry
 
 
 | [[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
